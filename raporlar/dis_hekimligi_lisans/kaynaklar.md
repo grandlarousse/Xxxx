@@ -443,32 +443,18 @@ Her satır: URL — ajanın notu. Doğrulayıcı (refuter) kaynakları ayrıca l
 
 ## Colorado (USA)
 
-- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Colorado_Licensure — ADA 'Colorado Laws & Rules' summary, updated 7 Oct 2026; quotes Board exam policy (amended 10/9/2026): accepts ADEX, CRDTS, SRTA, WREB, Delaware 'and all OSCE's
-- https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12695&fileName=3%20CCR%20709-1 — Current 3 CCR 709-1 Dental Board Rules (version effective 8/30/2026; Rule 1.6 last amended eff. 6/30/2026): Rule 1.5 insurance exemptions, Rule 1.6(A) general r
-- https://www.sos.state.co.us/CCR/DisplayRule.do?action=ruleinfo&ruleId=2213&deptID=18&agencyID=26&deptName=Department%20of%20Regulatory%20Agencies&agencyName=Division%20of%20Professions%20and%20Occupations%20-%20Colorado%20Dental%20Board&seriesNum=3%20CCR%20709-1 — SOS CCR rule page showing current version (eff. 08/30/2026) of 3 CCR 709-1.
-- https://colorado.public.law/statutes/crs_12-220-403 — C.R.S. 12-220-403 examination requirements (JCNDE exam + clinical skills examination 'or other methodology').
-- https://colorado.public.law/statutes/crs_12-220-401 — C.R.S. 12-220-401 application for dentist license (age 21, accredited graduation, oath, currency).
-- https://colorado.public.law/statutes/crs_12-220-404 — C.R.S. 12-220-404 licensure by endorsement.
-- https://colorado.public.law/statutes/crs_12-220-409 — C.R.S. 12-220-409 inactive license (affidavit, fee, reactivation).
-- https://colorado.public.law/statutes/crs_12-220-410 — C.R.S. 12-220-410 retired license (fee not to exceed $50, affidavit, volunteer care).
-- https://colorado.public.law/statutes/crs_12-220-308 — C.R.S. 12-220-308 continuing education (30 hours every two years).
-- https://colorado.public.law/statutes/crs_12-220-307 — C.R.S. 12-220-307 professional liability insurance requirement and board exemption authority.
-- https://colorado.public.law/statutes/crs_13-64-301 — C.R.S. 13-64-301 financial responsibility ($500k/$1.5M for dentists) and exemption classes.
-- https://colorado.public.law/statutes/crs_12-20-202 — C.R.S. 12-20-202 renewal, 60-day grace period, reinstatement, competency after 2+ years expired.
-- https://colorado.public.law/statutes/crs_24-34-107 — C.R.S. 24-34-107(1): SSN required on DORA applications; ITIN or other identity document if no SSN.
-- https://colorado.public.law/statutes/crs_24-76.5-103 — C.R.S. 24-76.5-103: lawful presence not a requirement for state benefits (incl. licenses) on/after 1 July 2022.
-- https://leg.colorado.gov/bills/SB21-077 — SB21-077 'Remove Lawful Presence Verification Credentialing' (became law 27 May 2021) - page returned HTTP 406 to the fetch tool; relied on search summary and t
-- https://dpo.colorado.gov/Dental — Colorado Dental Board homepage: contacts, rulemaking notices, CE summary.
-- https://dpo.colorado.gov/Dental/Applications — DPO Dental applications page: online application by Examination/Endorsement; paper forms for Change to Inactive/Retired and Reactivate; fingerprint info; expiry
-- https://dpo.colorado.gov/Dental/CE — DPO Dental CE page: 30 hours, 16 clinical, 50% live-interactive (web-based OK), 2 h infection control, OSHA, BLS with skills practice/testing, 1 h opioid traini
-- https://dpo.colorado.gov/CustomerService/Fingerprinting — DPO fingerprinting page: dentists require CBI/FBI fingerprint check; IdentoGO and American BioIdentity; non-resident/out-of-state mailed fingerprint card proces
-- https://dpo.colorado.gov/CustomerService/ApplicationPreview — DPO generic online application preview (personal info, fingerprint scheduling, military-spouse question).
-- https://dpo.colorado.gov/FAQ — DPO FAQ: account matching by 'Last 4 digits of your SSN/ITIN'; renewal window; address updates.
-- https://dpo.colorado.gov/DentalSunset — SB25-194 Dental Practice Act sunset bill and rulemaking timeline (2025-2026).
-- https://cdaonline.org/?p=3537 — Colorado Dental Association (Summer 2016): Board Policy 1A revision - OSCE accepted for original licensure; PGY-1/portfolio via endorsement only.
-- https://newdentistblog.ada.org/colorado-dental-board-votes-to-accept-all-existing-licensure-pathways/ — ADA New Dentist Blog (July 2016): Colorado accepts all regional exams, PGY-1, portfolio and 'the Canadian OSCE' for initial licensure.
-- https://www.coloradosos.gov/CCR/Upload/NoticeOfRulemaking/ProposedRuleAttach2019-00612.pdf — 2019 proposed rule attachment (substance-use training applies to reactivation/reinstatement) - superseded by current rules.
-- https://taxsharkinc.com/how-to-fill-out-colorado-dora-dentist-license-application-faqs/ — Third-party FAQ (hint only, unverified): no jurisprudence exam; application fee ~$361; SSN affidavit for visa holders; claims a lawful-presence attestation that
+- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Colorado_Licensure — ADA Colorado Laws & Rules summary, updated 7 Oct 2026: reproduces C.R.S. 12-220-403, Rule 1.6(B) and (C), Rule 1.3(H) CE/BLS rules, and Board Policy 1.A ('Amend
+- https://drive.google.com/file/d/0B-K5DhxXxJZbZkRReXE2U2NJdTQ/view — Colorado Dental Board 'Board Policies' PDF linked from dpo.colorado.gov/Dental: Policy 1.A Acceptance of Clinical Examinations (Adopted 2001; Amended through 5/
+- https://docs.google.com/document/d/1xwk2xe7o6Ff_-OGyeMC55cQ6S_lb5EbX_4HUw2L00VY — DPO 'Dentist (DEN) Initial Application Preview' (official question list of the online initial application): options for demonstrating clinical skills and knowle
+- https://dpo.colorado.gov/Dental/Applications — DPO Dental applications page: online initial/renewal/reinstatement applications, forms for Inactive/Retired/Reactivation, fingerprinting link, renewal cycle (li
+- https://dpo.colorado.gov/Dental — Board main page: links to Practice Act, Rules (3 CCR 709-1), Board Policies, 2026 meeting minutes.
+- https://drive.google.com/file/d/0BzKoVwvexVATSjhVa2VlempZQmc/view — DPO 'Change Status to Inactive' form: No Fee; must keep renewing; no CE/insurance/financial responsibility while inactive; reactivation may require CE/competenc
+- https://drive.google.com/file/d/1R3J4MXt8B9FZBNDf3XrfMt5CXvKhrB3r/view — DPO Dentist 'Reactivate Inactive or Retired License' application: fee $444; competency options if inactive 2+ years (300 practice hours/12 months within 5 years
+- https://dpo.colorado.gov/CustomerService/Fingerprinting — DPO fingerprinting page: 'Some applicants for licensure must submit fingerprints' (CBI/FBI via IdentoGO or American BioIdentity); IdentoGO Non-Resident Processi
+- https://leg.colorado.gov/sites/default/files/2021a_077_signed.pdf — SB 21-077 signed act: removes lawful-presence verification for professional credentialing (amends C.R.S. 24-76.5-102/103) and amends 24-34-107 so an ITIN or oth
+- https://drive.google.com/file/d/1XoUzUEuvPk_eMgcP0rbNLvgXCZ9_jYsS/view — Colorado Dental Board full-board minutes 13 May 2026: no mention of OSCE/NDEB/DLOSCE/ADEX (only removal of 'onsite only' wording in anesthesia Policy 1.B(V)).
+- https://drive.google.com/file/d/1VQgn4AwzlVZ6PncxguFOeYPXCUZ3ND7x/view — Colorado Dental Board full-board minutes 30 Apr 2026: no mention of OSCE/NDEB/DLOSCE/ADEX.
+- https://www.sos.state.co.us/CCR/DisplayRule.do?action=ruleinfo&ruleId=2213&deptID=18&agencyID=26&seriesNum=3%20CCR%20709-1 — Official 3 CCR 709-1 Dental Board rules (link from DPO; text relied on as reproduced by the ADA page).
 - Doğrulayıcı kaynakları: https://cdaonline.org/?p=3537 ; https://cdaonline.org/news/latest-news/feedback-requested-non-patient-license-exam-structure-2/ (third-party hint) ; https://colorado.public.law/statutes/crs_12-220-403 ; https://colorado.public.law/statutes/crs_24-34-107 ; https://colorado.public.law/statutes/crs_24-76.5-103 ; https://dpo.colorado.gov/CustomerService/UpdateContact ; https://dpo.colorado.gov/Dental ; https://dpo.colorado.gov/Dental/Applications ; https://dpo.colorado.gov/Dental/CE ; https://dpo.colorado.gov/Dental/Laws ; https://dpo.colorado.gov/Dental/Policies (404 / page not found) ; https://drive.google.com/file/d/0B-K5DhxXxJZbZkRReXE2U2NJdTQ/view?resourcekey=0-6qRDJChsUhWciZQQPhUDUA ; https://nasba.org/files/2011/03/SSN_Affidavit_Board_Form_Colorado.pdf (search hit only, 2010 form, NOT read) ; https://newdentistblog.ada.org/colorado-dental-board-votes-to-accept-all-existing-licensure-pathways/ ; https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Colorado_Licensure ; https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12695&fileName=3%20CCR%20709-1
 
 ## Connecticut (USA)
@@ -556,28 +542,17 @@ Her satır: URL — ajanın notu. Doğrulayıcı (refuter) kaynakları ayrıca l
 
 ## Indiana (USA)
 
-- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Indiana_Licensure — ADA 'Indiana Laws & Rules' summary, updated 8 Oct 2026: accepted clinical exams (ADEX, CRDTS+SRTA), IC 25-14-1-3, 828 IAC 1-1-1/1-1-2/1-1-3/1-1-6/1-1-7, endorse
-- https://www.in.gov/pla/professions/dentistry-home/dentistry-licensing-information/ — IPLA Dentistry Licensing Information (read 2 Nov 2026): mandatory SSN disclosure wording, Dentist-by-Examination checklist (fee $250, CBC, transcripts, BLS/ACLS
-- https://forms.in.gov/Download.aspx?id=5034 — State Form 42127 (R15 / 3-25) Application for a Dental, Dental Hygienist or Instructor License: mandatory SSN field (IC 4-1-8-1); IC 12-32-1-5/-6 affidavit with
-- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_12-32-1-6 — IC 12-32-1-6 verification wording (citizen / qualified alien / work-authorised for professional licence); also fetched 12-32-1-1, -2, -3, -4, -5, -7 at sibling 
-- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_12-32-1-6.5 — IC 12-32-1-6.5: work-authorised individuals eligible for professional licences 'to obtain or renew' notwithstanding 8 USC 1621(a).
-- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_12-32-1-5 — IC 12-32-1-5: agencies must verify eligibility of applicants for state/local public benefits (which per IC 12-32-1-3 / 8 USC 1621 include professional licences)
-- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_25-1-5-11 — IC 25-1-5-11(e): applicant or licensee shall provide SSN to the agency.
-- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_4-1-8-1 — IC 4-1-8-1(a)(10): IPLA exempt from the prohibition on compelling SSNs.
-- https://www.law.cornell.edu/regulations/indiana/828-IAC-1-1-7 — 828 IAC 1-1-7 Clinical examination (CRDTS/NERB/SRTA/WREB within 5 years, or board exam), readopted 2019.
-- https://www.law.cornell.edu/regulations/indiana/828-IAC-1-1-2 — 828 IAC 1-1-2 application forms; notarised statements; (d) US SSN required.
-- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_25-14-1-3 — IC 25-14-1-3: CODA graduation; exam by board-approved entity; max three attempts.
-- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_25-14-1-27.1 — IC 25-14-1-27.1 inactive licences and reactivation (remediation/exam possible after >3 years).
-- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_25-1-8-6 — IC 25-1-8-6 reinstatement of delinquent/lapsed licences (<=3 years and >3 years).
-- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_25-1-1.1-4 — IC 25-1-1.1-4 national fingerprint criminal history background check for initial licences.
-- https://www.in.gov/pla/professions/criminal-background-checks/ — IPLA Criminal Background Check information: IdentoGO, service code 24YBGH for Dentist, CBC only after application received, not required for renewal/reinstateme
-- https://secure.in.gov/pla/files/Fingerprint-Scheduling-Flyer-Indiana-Professional-Licensing-Agency_Out-of-State-Card-Scan-Processing-Instructions_vs.3_20221130.pdf — IPLA/IdentoGO Out-of-State Card Scan procedure (mail FD-258 hard card) for applicants residing outside Indiana.
-- https://jcnde.ada.org/dlosce — JCNDE DLOSCE page: ADA-ADEX agreement, 'All administrations are conducted through ADEX', 2026 guide historical only, results for exams taken on or before 25 Sep
-- https://jcnde.ada.org/-/media/project/ada-organization/ada/jcnde/files/dlosce_candidate_guide.pdf — 2026 DLOSCE Candidate Guide (updated 4/2026): list of accepting states incl. Indiana (no asterisk), 'refer to each state board's website'; last retake-only wind
-- https://adextesting.org/exams/dlosce/ — ADEX: DLOSCE is the computer-based component of the ADEX Dental Examination series, which also has clinical (hands-on) components.
-- https://www.in.gov/pla/files/Dental_Minutes_20260807.pdf — Indiana Board of Dentistry minutes Aug 2026: applicants licensed with ADEX/CDCA exams; no DLOSCE-only cases. Also checked Feb, Apr, Jun 2026 minutes (three-atte
-- https://forms.in.gov/Download.aspx?id=4686 — State Form 7143 Verification of State Licensure (mandatory SSN field).
-- https://www.in.gov/pla/professions/dentistry-home/dentistry-board/ — Board page listing 2026 minutes (older minutes not linked).
+- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Indiana_Licensure — ADA Licensure-by-State summary, updated 8 Oct 2026: accepted exams ADEX (CDCA-WREB-CITA), CRDTS, SRTA; verbatim IC 25-14-1-3, -10, -16, 25-14-3 (CE), 828 IAC 1-
+- https://www.law.cornell.edu/regulations/indiana/828-IAC-1-1-7 — Current text of 828 IAC 1-1-7 Clinical examination (readopted filed 11/25/2019) - lists CRDTS, NERB, SRTA, WREB or board-administered exam; no DLOSCE
+- https://www.law.cornell.edu/regulations/indiana/828-IAC-1-3-1.1 — 828 IAC 1-3-1.1 endorsement rule (readopted 6/24/2024): (c) 'All applicants must submit the applicant's United States Social Security number in order to be elig
+- https://www.law.cornell.edu/regulations/indiana/828-IAC-0.5-2-3 — 828 IAC 0.5-2-3 dental fees (filed 3/27/2025): application $250, renewal $100 biennially, repeat law exam $25, reinstatement of inactive licence $250
+- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_12-32-1-5 — IC 12-32-1-5 lawful-presence verification duty of agencies for public benefits (incl. licences)
+- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_12-32-1-6 — IC 12-32-1-6 (amended P.L.172-2018): verification under penalty of perjury - US citizen, qualified alien (8 USC 1641), or federally work-authorised (licence app
+- https://www.lawserver.com/law/state/indiana/in-code/indiana_code_25-14-1-27.1 — IC 25-14-1-27.1 inactive licences; reinstatement conditions; remediation/exam after >3 years inactive
+- https://forms.in.gov/Download.aspx?id=5089 — IPLA licence application form showing standard IC 12-32-1-5/-6 attestation wording (citizen / qualified alien / federally authorised to work) and mandatory SSN 
+- https://www.in.gov/pla/professions/dentistry-home/dentistry-licensing-information/ — IPLA Dentistry Licensing Information: Dentist by Examination checklist (background check, BLS/ACLS card, INBDE, clinical exam CDCA/NERB/WREB/CITA, CRDTS, SRTA, 
+- https://www.in.gov/pla/professions/dentistry-home/ — Board of Dentistry home page: contact pla8@pla.IN.gov, statutes/rules links, Zoom board meetings
+- https://www.in.gov/pla/files/Dental_Agenda_20261009.pdf — Board agenda 9 Oct 2026 listing 828 IAC 1-1 for readoption without changes (found via search; not read in full)
 
 ## Iowa (USA)
 
@@ -620,33 +595,15 @@ Her satır: URL — ajanın notu. Doğrulayıcı (refuter) kaynakları ayrıca l
 
 ## Kentucky (USA)
 
-- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Kentucky_Licensure — ADA Kentucky Laws & Rules summary, updated 8 Oct 2026 (quotes the superseded 2024 text of 201 KAR 8:533 and KRS 313.030; useful for CE/renewal/retirement/reinst
-- https://apps.legislature.ky.gov/law/kar/titles/201/008/533/ — 201 KAR 8:533 Licensure of dentists, current version eff. 8-18-2026 (filed with LRC 9 June 2026): Sections 1-16 read in full; clinical exams = ADEX, CRDTS, DLOS
-- https://apps.legislature.ky.gov/law/kar/titles/201/008/520/ — 201 KAR 8:520 Fees and fines (eff. 3-9-2023): $325/$175 initial, $295 renewal, $575/$835/$1,415 expired reinstatement, $325 retired reinstatement, $40 verificat
-- https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56876 — KRS 313.030 (as amended by 2026 Ky. Acts ch. 131, eff. 13 Apr 2026): biennial licence, 31 Dec odd-year expiry, online renewal, lapse/reinstatement
-- https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56877 — KRS 313.035 (eff. 13 Apr 2026): scope of Board regulations incl. retirement and reinstatement; no citizenship provision
-- https://apps.legislature.ky.gov/law/Statutes/chapter.aspx?id=38806 — KRS Chapter 313 index (Kentucky Dental Practice Act), database updated 2 Nov 2026 - no SSN/citizenship/lawful-presence section
-- https://dentistry.ky.gov/ — KBD homepage: HB 776 and Aug 2026 regulation updates, portal information, international-dentist notices
-- https://dentistry.ky.gov/Dentists/Pages/Initial-Licensure.aspx — KBD Dental Licensure page: pathways, 'CDCA-WREB-CITA, CRDTS, DLOSCE, or SRTA', IdentoGO/non-resident hard-card process, open-book jurisprudence exam (80%), tran
-- https://dentistry.ky.gov/Documents/IDLE0124.pdf — Instructions for Dental Licensure by Examination (Form IDLE0124): checklist, 'SRTA, DLOSCE, CRDTS, or CDCA-WREB-CITA (ADEX) clinical exam within the last five y
-- https://dentistry.ky.gov/Documents/AFDL0124.pdf — Application for Dental Licensure (Form AFDL0525): SS# field, 'Citizen of' field, home/intended business address, notarised affidavit, attestations
-- https://dentistry.ky.gov/Documents/Jurisprudence%20Exam%202023%20FINAL.pdf — Printable jurisprudence exam: open book, own time, 40/50 to pass, submit by mail/fax/email
-- https://dentistry.ky.gov/Dentists/Documents/NonResident%20Instructions.pdf — KBD-hosted IdentoGO Kentucky Non-Resident Processing Instructions (card scan / out-of-state livescan), Oct 2020
-- https://www.identogo.com/uploads/general/UEP_KY_Cardscan-and-OOS-Instructions_Mar2026.pdf — IdentoGO Kentucky card-scan & out-of-state livescan instructions, Mar 2026: FD-258 card mailed to IdentoGO Card Scan Operations - Kentucky, Tallahassee FL
-- https://dentistry.ky.gov/Dentists/Pages/default.aspx — KBD Dentist License Renewal page: expiry 31 Dec 2027, online portal steps, CE summary, retirement, reinstatement
-- https://dentistry.ky.gov/Documents/ARDL0124.pdf — Application for Renewal of Dental Licensure (paper): $295, attestations incl. 'actively practiced dentistry in the previous two years' and CPR
-- https://dentistry.ky.gov/Continuing-Education/Pages/default.aspx — KBD Continuing Education page and FAQ: 30 hours, 10 live interactive (Zoom/Google Meet accepted), CPR not counted, KASPER 3 hours for prescribers, CE Broker opt
-- https://dentistry.ky.gov/Documents/Renewal%20CE%20Chart%202021.pdf — KBD CE Requirements Chart (Aug 2021): live interactive includes real-time teleconferencing; dentists without DEA exempt from KASPER hours
-- https://dentistry.ky.gov/Online-Services/Pages/Fees.aspx — KBD Fees page: all dentist fees, NPDB $25, Canadian cheque surcharge
-- https://dentistry.ky.gov/Documents/ROLF0124.pdf — Retirement of License Form: no fee, choose effective date, agree not to practise in KY
-- https://dentistry.ky.gov/Documents/ARDD0124.pdf — Application to Reinstate Dental or Dental Hygiene Licensure: notarised, SS# field, $350 total for dentists, attestation of active practice within two years
-- https://dentistry.ky.gov/Documents/IFLR0124.pdf — Instructions for License Reinstatement: checklist, CPR, new fingerprint scan, CE plan if not practised in two years, no re-examination
-- https://dentistry.ky.gov/Documents/HB776%20Report.pdf — KBD Analysis of House Bill 776 (signed 13 Apr 2026): definitions, Board affiliation with testing organisations, no licensure-eligibility changes
-- https://dentistry.ky.gov/Documents/2026.03.14%20Minutes.pdf — KBD minutes 14 Mar 2026: 8:533 revision filed; ADEX Council appointments; no DLOSCE discussion
-- https://dentistry.ky.gov/Documents/KBD%20Minutes%2005.05.2026.pdf — KBD minutes 9 May 2026: regulation comment period, CRDTS CARE presentation; no DLOSCE/ADEX-integration discussion
-- https://dentistry.ky.gov/Documents/2026.01.10%20Minutes.pdf — KBD minutes 10 Jan 2026: ADEX Council of Examiners request; no DLOSCE discussion
-- https://apps.legislature.ky.gov/minutes/adm_regs/260609OK.PDF — LRC Administrative Regulation Review Subcommittee minutes 9 June 2026: 201 KAR 8:533 approved with formatting amendments and HB 778 CE addition only
-- https://kbd.portalus.thentiacloud.net/webs/portal/register/ — KBD Thentia online application/licensee portal (login required; field requirements not viewable)
+- https://apps.legislature.ky.gov/law/kar/titles/201/008/533/ — 201 KAR 8:533 Licensure of dentists, current text (HISTORY: eff. 7-24-2023; 6-18-2024; 52 Ky.R. 1739, 14; eff. 8-18-2026; FILED WITH LRC June 9, 2026). Sections
+- https://apps.legislature.ky.gov/law/kar/titles/201/008/533/REG — Same regulation, markup view; confirms filing date June 9, 2026 and no later pending amendment shown.
+- https://apps.legislature.ky.gov/law/kar/titles/201/008/520/ — 201 KAR 8:520 Fees and fines: initial $325/$175, renewal $295, expired reinstatement $575/$835/$1,415, retired reinstatement $325.
+- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Kentucky_Licensure — ADA 'Kentucky Laws & Rules' summary updated 8 Oct 2026; still quotes the superseded 2024 six-exam list of 201 KAR 8:533 s.2(1)(b) and KRS 313.030 renewal text; 
+- https://dentistry.ky.gov/Documents/AFDL0124.pdf — Kentucky Board of Dentistry Application for Dental Licensure (file currently serves Form AFDL0525): 'SS#' field, 'Citizen of ___ / If naturalized U.S. citizen..
+- https://dentistry.ky.gov/Documents/IDLE0124.pdf — Form IDLE 0124 Instructions for Dental Licensure by Examination: checklist incl. notarised application, transcript, CPR card, mailed jurisprudence exam, INBDE, 
+- https://dentistry.ky.gov/Documents/2024.01.13%20Minutes.pdf — Board minutes Jan 2024 (via search snippet): amendment adding DLOSCE to 201 KAR 8:533 s.2 filed with LRC.
+- https://apps.legislature.ky.gov/Law/statutes/chapter.aspx?id=39225 — KRS Chapter 15 (15.800 et seq.): child-support licence sanctions; Attorney General forwards obligor names to licensing boards. No SSN-on-application mandate fou
+- https://www.ada.org/about/press-releases/ada-and-adex-advance-dental-licensure-examinations-through-new-agreement — ADA/ADEX agreement: DLOSCE offered only with ADEX after 1 Aug 2026; standalone administrations ceased after 9 Oct 2026 (background, from search).
 
 ## Louisiana (USA)
 
@@ -703,27 +660,13 @@ Her satır: URL — ajanın notu. Doğrulayıcı (refuter) kaynakları ayrıca l
 
 ## Minnesota (USA)
 
-- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Minnesota_Licensure — ADA 'Minnesota Laws & Rules' summary, updated 9 October 2026: approved clinical exams (ADEX/CDCA-WREB-CITA, CRDTS+SRTA, all components except perio), PGY-1 waiv
-- https://www.revisor.mn.gov/statutes/cite/150A.06 — Minn. Stat. 150A.06 (2026): subd. 1 dentist eligibility/exam; 2b five-year exam window; 3(a) discretionary waiver, 3(b) GPR/AEGD clinical-exam waiver; 4 licensu
-- https://www.revisor.mn.gov/rules/3100.1100 — Minn. R. 3100.1100 General Dentist: mandatory application items incl. government-issued ID, national board exam, board-approved clinical exam, jurisprudence exa
-- https://www.revisor.mn.gov/statutes/cite/270C.72 — Minn. Stat. 270C.72 subd. 4: licensing authorities must require 'Social Security number or individual taxpayer identification number' on all licence application
-- https://www.revisor.mn.gov/statutes/cite/214.075 — Minn. Stat. 214.075: fingerprint-based BCA+FBI criminal background check for initial licensure and for reinstatement after >1 year; applicant submits consent fo
-- https://www.revisor.mn.gov/statutes/cite/150A.091 — Minn. Stat. 150A.091 fees: dentist application/initial $308; biennial renewal cap $475; late fee 25%; credentials $893; reinstatement $140; emeritus inactive $5
-- https://www.revisor.mn.gov/rules/3100.1700 — Minn. R. 3100.1700: biennial term tied to birth month/birth-year parity; renewal certifies 'consecutive and current CPR certification'; 30-day window then admin
-- https://www.revisor.mn.gov/rules/3100.1850 — Minn. R. 3100.1850 reinstatement tiers (≤6 mo; 6-24 mo; ≥24 mo requires nationally recognized OSCE, jurisprudence exam, CE, CPR, CBC).
-- https://www.revisor.mn.gov/rules/3100.1340 — Minn. R. 3100.1340 Emeritus inactive: not a licence to practice, not renewable, bars reinstatement of prior licence.
-- https://www.revisor.mn.gov/rules/3100.1350 — Minn. R. 3100.1350 Emeritus active: limited practice rights, 25 CE hours, biennial renewal, no reinstatement if terminated.
-- https://www.revisor.mn.gov/rules/3100.0100 — Minn. R. 3100.0100 subp. 9a: CPR definition – healthcare-provider BLS course that 'must include both hands-on practice and written examination'.
-- https://www.revisor.mn.gov/rules/3100.5100 — Minn. R. 3100.5100 (published 24 July 2024): 50-hour biennial professional development, 30 fundamental/20 elective, webinars count as fundamental, self-study as
-- https://mn.gov/boards/assets/DDS%20by%20Exam%20Application%2009-2026_tcm21-769987.pdf — Board 'Licensure by Exam to Practice Dentistry' application, Rev. 09/26: $343 fee breakdown, clinical exam options WREB/CRDTS/CDCA(ADEX)/Other 'all components b
-- https://mn.gov/boards/assets/CRED%20DDS%20Application%20Rev%209-2026_tcm21-769988.pdf — Board 'Licensure by Credentials to Practice Dentistry' application, Rev. 09/26: $928 fee, 2,000 hours in 36 months, licence verifications, same ID/SSN/CPR wordi
-- https://mn.gov/boards/assets/Guest%20Application%20Rev%209-2026_tcm21-770007.pdf — Board guest licence application Rev. 09/26 (confirms the standard two-person review / CBC-first processing language and ID wording).
-- https://content.govdelivery.com/accounts/MNBOD/bulletins/2f7829f — Board govdelivery bulletin, 18 Oct 2021: 'The Jurisprudence Exam will be changed to open book'.
-- https://mn.gov/boards/cbc — Health Licensing Boards Criminal Background Check Program page (CAPTCHA-blocked; content taken from search snippets): CBC office emails instructions/forms after
-- https://mn.gov/boards/dentistry/new-applicant/limited-general-license/index.jsp — Board Limited General License page (CAPTCHA-blocked; search snippet): cites 270C.72 subd. 4 and states a U.S. SSN or ITIN must be provided to the Board.
-- https://mn.gov/boards/dentistry/new-applicant/exams/index.jsp — Board exams page (CAPTCHA-blocked; search snippet): PSI Services proctors Minnesota exams; links PSI online-proctoring video and Jurisprudence Exam Information 
-- https://mn.gov/boards/assets/Minnesota%20Jurisprudence%20Bulletin%2008.01.25_tcm21-678780.pdf — Jurisprudence Exam Information Bulletin (returned HTTP 404 on fetch; search snippet: PSI contract, register online via PSI portal, $85 fee valid one year, no el
-- https://www.revisor.mn.gov/statutes/cite/150A.03 — Minn. Stat. 150A.03 subd. 1: Board may affiliate with regional/national testing agencies; agency exam fee is in addition to Board fee.
+- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Minnesota_Licensure — ADA Licensure by State - Minnesota (updated 9 Oct 2026): accepted clinical exams ADEX (CDCA-WREB-CITA), CRDTS, SRTA; all components incl. posterior/anterior ope
+- https://www.revisor.mn.gov/statutes/cite/150A.06 — Minn. Stat. 150A.06: subd. 1 (good moral character + CODA graduation; no citizenship/residency condition), subd. 2b (exam within 5 years), subd. 3(a) discretion
+- https://www.revisor.mn.gov/rules/3100/full — Minn. R. ch. 3100: 3100.0100 (CPR definition requires hands-on practice), 3100.1100 (dentist application: government-issued ID, national board, board-approved c
+- https://www.revisor.mn.gov/statutes/cite/270C.72 — Minn. Stat. 270C.72 subd. 4: licensing authorities must require the applicant's Social Security number OR individual taxpayer identification number on all licen
+- https://www.revisor.mn.gov/statutes/cite/150A.091 — Fees: dentist application/initial licence $308; biennial renewal $475; licensure by credentials $893; reinstatement $140; emeritus inactive one-time fee subd. 1
+- https://www.revisor.mn.gov/statutes/cite/214.075 — Criminal background check for health-licensing boards: consent form and full set of fingerprints submitted 'in the manner and form specified by the board'; BCA/
+- https://mn.gov/boards/dentistry/new-applicant/application-forms — Board of Dentistry application-forms page (located via search; the mn.gov site returned a CAPTCHA/access form to this session, so the form text, SSN field wordi
 
 ## Mississippi (USA)
 
@@ -875,48 +818,33 @@ Her satır: URL — ajanın notu. Doğrulayıcı (refuter) kaynakları ayrıca l
 
 ## Oregon (USA)
 
-- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Oregon_Licensure — ADA Oregon Laws & Rules summary, updated 8 Oct 2026: quotes ORS 679.060/.065/.070/.090, OAR 818-021-0010/0011/0060/0080; lists ADEX, CRDTS+SRTA, Delaware practi
-- https://oregon.gov/dentistry/Pages/apply-license.aspx — OBD Apply for License page: online application portal, pathway rules, current fees ($445 application, $50 PDMP, $490 biennial licence; LWOFE $890).
-- https://www.oregon.gov/dentistry/Documents/Form_Dental_General_Information.pdf — OBD general information and instruction sheet - dental licensure by examination vs LWOFE requirements.
-- https://www.oregon.gov/dentistry/Documents/Form_Privacy_Act_Notification.pdf — OBD Privacy Act Notification: SSN mandatory under ORS 25.785; failure to provide is a basis to refuse licence.
-- https://oregon.public.law/statutes/ors_25.785 — ORS 25.785: boards must record SSN; (2) 'may accept a written statement from an individual who has not been issued a Social Security number'.
-- https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/HB3830 — HB 3830 (2025) 'Relating to immigration status' - would bar licence denial based on immigration status; current location 'In House Committee', no chapter number
-- https://oregon.public.law/rules/oar_818-021-0010 — OAR 818-021-0010 Application for License to Practice Dentistry (clinical exam wording, 5-year recognition).
-- https://oregon.public.law/rules/oar_818-021-0026 — OAR 818-021-0026 State and nationwide criminal background checks - fingerprints required of all applicants.
-- https://oregon.public.law/rules/oar_818-021-0085 — OAR 818-021-0085 Renewal or reinstatement of expired licence (penalty tiers, 4-year limit).
-- https://oregon.public.law/rules/oar_818-021-0090 — OAR 818-021-0090 Retirement of licence (eligibility, $500 reinstatement, jurisprudence, qualifying exam, 4-year limit).
-- https://oregon.public.law/rules/oar_818-021-0088 — OAR 818-021-0088 Volunteer licence (80 volunteer hours per cycle, CE required).
-- https://oregon.public.law/rules/oar_818-021-0080 — OAR 818-021-0080 Renewal of licence (31 March biennial; address contents).
-- https://oregon.public.law/rules/oar_818-021-0120 — OAR 818-021-0120 Application valid for 180 days.
-- https://oregon.public.law/rules/oar_818-001-0087 — OAR 818-001-0087 Fees (as mirrored May 2025): retired $0, volunteer $0, non-resident background check $100, jurisprudence $0.
-- https://oregon.public.law/rules/oar_818-012-0030 — OAR 818-012-0030(18) Unprofessional conduct: failing to maintain a current BLS for Healthcare Providers certificate or equivalent.
-- https://oregon.public.law/statutes/ors_679.120 — ORS 679.120: biennial renewal, retired fee waiver, 'operative competence' evidence if >1 year retired/inactive, 30-day address change.
-- https://www.oregon.gov/dentistry/Documents/Retiring,%20Expiring%20and%20Reinstatement%20of%20Licenses.pdf — OBD article on maintaining/retiring/expiring/volunteer licences and reinstatement steps (BLS must stay current even if not practising; retirement only if not pr
-- https://www.oregon.gov/dentistry/Pages/renewal.aspx — OBD Renewal page: online renewal, upload BLS card, US-issued card payment, retirement form only if not practising in any jurisdiction incl. 'another country'.
-- https://www.oregon.gov/dentistry/Pages/FAQ-applicants.aspx — OBD Applicant FAQs: online portal, ~4 weeks processing, no expediting.
-- https://www.oregon.gov/dentistry/Pages/Newly-Licensed.aspx — OBD Newly Licensed page: PDMP registration and the 1-hour OPMC pain-management course required at each renewal.
-- https://www.oregon.gov/oha/HPA/DSI-PMC/Pages/module.aspx — Oregon Pain Management Commission 1-hour online module with online post-test and certificate.
-- https://www.oregon.gov/dentistry/Documents/Form_Dental_Hygiene_General_Information.pdf — OBD instruction sheet (Rev 2017): Live Scan fingerprints 'can only be transmitted electronically ... available throughout the United States'; jurisprudence exam
-- https://www.oregon.gov/dentistry/Documents/Dental%20Therapy%20Licensure%20by%20Examination%20Packet.pdf — OBD packet (Rev 6/2022) confirming same Live Scan, open-book jurisprudence and SSN-field process; 6-8 week processing.
-- https://www.oregon.gov/dentistry/Documents/Minutes_Board_Meeting_121225.pdf — OBD minutes 12 Dec 2025: 'the Oregon Board of Dentistry currently accepts the ... (DLOSCE) for dental licensure'; ADA/ADEX joint statement discussed; CDCA-WREB-
-- https://www.oregon.gov/dentistry/Documents/Minutes_Board_Meeting_022726.pdf — OBD minutes 27 Feb 2026: OSP letter on making fingerprint background checks compulsory; ADEX correspondence.
-- https://jcnde.ada.org/-/media/project/ada-organization/ada/jcnde/files/dlosce_candidate_guide.pdf?rev=c8fc328ea13141b197862786026aef4b&hash=940293C7D2989D7099D34C1F14B51489 — JCNDE 2026 DLOSCE Candidate Guide (updated 4/2026): Oregon listed as accepting DLOSCE in full fulfilment; ADEX integration, scheduling from June 2026.
-- https://jcnde.ada.org/dlosce — JCNDE DLOSCE page: all administrations now through ADEX; results via DENTPIN only for exams on or before 25 Sep 2026.
-- https://www.ada.org/about/press-releases/ada-and-adex-advance-dental-licensure-examinations-through-new-agreement — ADA press release 14 Apr 2026: standalone DLOSCE not offered to new candidates after 1 Aug 2026; all standalone administrations cease after 9 Oct 2026.
-- https://adextesting.org/faqs/ — ADEX FAQ: 'Separate registration of the DLOSCE component is NOT an option'; DLOSCE at Prometric from Aug 2026; boards accept DLOSCE as a component of the ADEX s
-- https://adextesting.org/adex-dental/ — ADEX Dental Examination: five manikin hand-skill components + DLOSCE; $2,995 fee; DLOSCE retake $695.
-- https://www.oregon.gov/dentistry/Documents/Brochure_Volunteer_Licensee_Program_Info.pdf — OBD volunteer licence brochure: $0 fee, 80 h volunteering in Oregon per cycle, CE required.
+- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Oregon_Licensure — ADA Oregon Laws & Rules summary, updated 8 Oct 2026: exam list (ADEX, CRDTS, SRTA, Delaware), ORS 679.060/679.070 text, OAR 818-021-0010/0011/0060/0070/0080 tex
+- https://www.oregonlegislature.gov/bills_laws/ors/ors025.html — ORS 25.785 (as amended 2025 c.99) SSN / ITIN / federal ID / written statement; ORS 25.990(3) penalty
+- https://oregon.gov/dentistry/Pages/apply-license.aspx — OBD dentist licensure pathways, quoted rule text, fees ($445/$890 application, $50 PDMP, $490 biennial), online application link; no citizenship/lawful-presence
+- https://www.oregon.gov/dentistry/Pages/FAQ-applicants.aspx — OBD applicant FAQ: ~4-week processing, no expediting, email correspondence, mandatory fees
+- https://www.Oregon.gov/dentistry/Documents/Form_Privacy_Act_Notification.pdf — OBD Privacy Act Notification: SSN required, failure to provide is basis to refuse licence (cites ORS 25.785, 42 USC 666(a)(13))
+- https://www.oregon.gov/dentistry/Documents/Dental%20Therapy%20Licensure%20by%20Examination%20Packet.pdf — OBD packet: Live Scan fingerprints electronic only; jurisprudence exam open book by mail; application notarised; SSN field
+- https://www.oregon.gov/dentistry/Documents/Minutes_Board_Meeting_121225.pdf — OBD Board minutes 12 Dec 2025: JCNDE statement that OBD currently accepts the DLOSCE for dental licensure
+- https://www.oregon.gov/dentistry/Documents/Minutes_Board_Meeting_061226.pdf — OBD Board minutes 12 June 2026: ADEX report (Prisby); ADEX-merger amendments to OAR 818-035-0072 and 818-042-0095 referred; no DLOSCE-alone decision
+- https://www.oregon.gov/dentistry/Documents/September%209%2c%202026%20-%20Licensing%2c%20Standards%20%26%20Competency%20Packet.pdf — LSC Committee packet 9 Sept 2026: ADEX merger discussion (removing agency-specific references); nothing on DLOSCE-only or NDEB Virtual OSCE
+- https://www.oregon.gov/dentistry/Documents/Public_Packet_20260821.pdf — OBD public packet 21 Aug 2026: 818-021-0011 text, reinstatement of expired/retired licences by Board motion, BLS for Healthcare Providers disciplinary guideline
+- https://omb.oregon.gov/Clients/ORMB/Private/OnlineServices/NewApplicant.aspx — Oregon Medical Board applicant page: SSN required under ORS 25.785; applicants without an SSN contact the Board to provide a federally issued identification num
 
 ## Pennsylvania (USA)
 
-- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Pennsylvania_Licensure — ADA 'Pennsylvania Laws & Rules', updated 13 Oct 2026; quotes 63 P.S. § 122 (c), (f), (j)-(j.2) and 49 Pa. Code §§ 33.102-33.107b, 33.105, 33.401-33.402. Read.
-- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/chap33toc.html&d=reduce — Full text of 49 Pa. Code ch. 33 (State Board of Dentistry): §§ 33.103 exams, 33.104, 33.105 renewal, 33.106 reactivation, 33.256 child abuse training, 33.401 CE
-- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/s33.3.html&d=reduce — 49 Pa. Code § 33.3 fee schedule (dentist application $235/$260/$282 stepped). Read.
-- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/s33.402.html&d=reduce — 49 Pa. Code § 33.402 CE subject areas. Fetched.
-- https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/dentistry/dentist-licensure-snapshot — Board 'Dentist Licensure Requirements Snapshot': 2 exams (NBDE + clinical by ADEX/CDCA/CRDTS/CITA/SRTA/WREB), CDAC recognised, 3 h child-abuse CE, $260 initial,
-- https://www.pa.gov/content/dam/copapwp-pagov/en/dos/department-and-offices/bpoa/dental/temp%20volunteer.pdf — Board form showing SSN wording: 'U.S. Social Security Number ... *ETIN or SIN cannot be accepted.' Read.
-- https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/dentistry/resources-and-documents — Board resources page (applications via PALS). Located by search, not read.
-- https://www.pa.gov/agencies/dos/resources/professional-licensing-resources/act-41-2019 — Act 41 licensure-by-endorsement page. Located by search, not read.
+- https://www.ada.org/~/media/Project/ADA%20Organization/ADA/ADA-org/Files/Education/Licensure%20by%20State/Pennsylvania_Licensure — ADA Pennsylvania Laws & Rules summary, updated 13 Oct 2026: initial exams ADEX (CDCA-WREB-CITA), CRDTS+SRTA; verbatim 63 P.S. s.122(c),(e),(f),(j),(j.1); 49 Pa.
+- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/s33.103.html&d=reduce — 49 Pa. Code s.33.103 Examinations (NBDE + regional clinical exam: NERB, SRTA, WREB, CRDTS, CITA; 5-year validity).
+- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/chap33toc.html&d=reduce — Full text of 49 Pa. Code Ch. 33 (current through 56 Pa.B. 5370, Aug 2026): s.33.107 criteria approval, s.33.107a licensure by endorsement (2 of 5 years practice
+- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/s33.105.html&d=reduce — s.33.105 Biennial renewal: expires 31 March odd years; CPR certification and CE as conditions of renewal.
+- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/s33.106.html&d=reduce — s.33.106 Reactivation: renewal fee, CPR, notarized affidavit, back CE; possible re-examination after >5 years.
+- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/s33.3.html&d=reduce — s.33.3 Fees: dentist application $235/$260/$282; criteria approval same; biennial renewal $310/$366/$432.
+- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/s33.401.html&d=reduce — s.33.401 CE: 30 hours; >=50% lecture/clinical presentations; <=50% individual study; 2 h child abuse; new-licensee exemption.
+- https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter33/s33.402.html&d=reduce — s.33.402 CE subject areas; CPR hours excluded.
+- https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/23/00.043.004.001..HTM — 23 Pa.C.S. s.4304.1(a)(2): agencies shall require the SSN 'of an individual who has one' on professional licence applications.
+- https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/dentistry/dentist-licensure-snapshot — Board's Dentist Licensure Snapshot (2026): 2 exams required (NBDE + ADEX/CRDTS/SRTA/CITA/NERB/WREB clinical), $260 initial fee, $366 renewal, 3 h child-abuse tr
+- https://pa.gov/en/agencies/dos/department-and-offices/bpoa/boards-commissions/dentistry/renewal-information.html — Board renewal information: expiry 31 March odd years, e-mailed notices, inactive/expired licences must reactivate online.
+- https://www.pa.gov/content/dam/copapwp-pagov/en/dos/department-and-offices/bpoa/dental/idsapp-temporary-volunteer-dentist%20(1).pdf — Board application form (04/2016) SSN field: 'U.S. Social Security Number ... *ETIN or SIN cannot be accepted'.
+- https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/dentistry — State Board of Dentistry main page (applications via PALS).
 
 ## Puerto Rico (USA)
 
