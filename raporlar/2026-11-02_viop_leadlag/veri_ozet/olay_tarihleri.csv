@@ -1,0 +1,454 @@
+date,type,sub,dir,time_utc,timing,source,verified,note,sub2,react_date
+2014-01-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-01-03
+2014-01-28,PPK,hike,1,22:00,night,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,4.5->10.0. olağanüstü PPK; gece ~22:00 UTC açıklandı -> 29 Ocak gap,,2014-01-29
+2014-01-29,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2014-01-30
+2014-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-02-03
+2014-02-07,RATING,SP_outlook,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm negatif,,2014-02-10
+2014-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-03-03
+2014-03-19,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2014-03-20
+2014-03-30,POLITICAL,local_election,1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,yerel seçim,,2014-03-31
+2014-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-04-03
+2014-04-11,RATING,MOODYS_outlook,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm negatif,,2014-04-14
+2014-04-30,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2014-05-02
+2014-05-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-05-05
+2014-05-22,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,10.0->9.5. ,,2014-05-22
+2014-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-06-03
+2014-06-18,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2014-06-19
+2014-06-24,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,9.5->8.75. ,,2014-06-24
+2014-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-07-03
+2014-07-17,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,8.75->8.25. ,,2014-07-17
+2014-07-30,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2014-07-31
+2014-08-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-08-04
+2014-09-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-09-03
+2014-09-17,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2014-09-18
+2014-10-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-10-03
+2014-10-29,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2014-10-30
+2014-11-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-11-03
+2014-12-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2014-12-03
+2014-12-17,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2014-12-18
+2015-01-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-01-05
+2015-01-20,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,8.25->7.75. ,,2015-01-20
+2015-01-28,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2015-01-29
+2015-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-02-03
+2015-02-24,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,7.75->7.5. ,,2015-02-24
+2015-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-03-03
+2015-03-18,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2015-03-19
+2015-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-04-03
+2015-04-29,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2015-04-30
+2015-05-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-05-04
+2015-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-06-03
+2015-06-07,POLITICAL,general_election,-1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,AKP çoğunluğu kaybetti,,2015-06-08
+2015-06-17,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2015-06-18
+2015-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-07-03
+2015-07-29,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2015-07-30
+2015-08-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-08-03
+2015-09-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-09-03
+2015-09-17,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2015-09-18
+2015-10-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-10-05
+2015-10-28,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2015-10-30
+2015-11-01,POLITICAL,general_election,1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,AKP çoğunluğu geri aldı,,2015-11-02
+2015-11-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-11-03
+2015-12-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2015-12-03
+2015-12-16,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2015-12-17
+2016-01-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-01-04
+2016-01-27,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2016-01-28
+2016-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-02-03
+2016-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-03-03
+2016-03-16,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2016-03-17
+2016-04-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-04-04
+2016-04-27,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2016-04-28
+2016-05-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-05-03
+2016-05-05,POLITICAL,political,-1,,in_session,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,Davutoğlu istifası,,2016-05-05
+2016-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-06-03
+2016-06-15,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2016-06-16
+2016-07-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-07-04
+2016-07-15,POLITICAL,coup,-1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,darbe girişimi (Cuma gece),,2016-07-18
+2016-07-18,RATING,MOODYS_review,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,darbe sonrası izleme (Pzt),,2016-07-19
+2016-07-20,RATING,SP_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,"BB+->BB (Çar, darbe sonrası)",,2016-07-21
+2016-07-27,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2016-07-28
+2016-08-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-08-03
+2016-08-19,RATING,FITCH_outlook,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm negatif,,2016-08-22
+2016-09-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-09-05
+2016-09-21,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2016-09-22
+2016-09-23,RATING,MOODYS_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,Baa3->Ba1 (yatırım yapılabilir seviye kaybı),,2016-09-26
+2016-10-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-10-03
+2016-11-02,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2016-11-03
+2016-11-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-11-03
+2016-11-24,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,7.5->8.0. ,,2016-11-24
+2016-12-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2016-12-05
+2016-12-14,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2016-12-15
+2017-01-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-01-03
+2017-01-27,RATING,FITCH_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,BBB-->BB+ (son IG not kaybı),,2017-01-30
+2017-02-01,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2017-02-02
+2017-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-02-03
+2017-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-03-03
+2017-03-15,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2017-03-16
+2017-03-17,RATING,MOODYS_outlook,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm negatif,,2017-03-20
+2017-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-04-03
+2017-04-16,POLITICAL,referendum,1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,anayasa referandumu,,2017-04-17
+2017-05-03,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2017-05-04
+2017-05-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-05-03
+2017-06-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-06-05
+2017-06-14,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2017-06-15
+2017-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-07-03
+2017-07-26,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2017-07-27
+2017-08-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-08-03
+2017-09-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-09-05
+2017-09-20,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2017-09-21
+2017-10-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-10-03
+2017-11-01,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2017-11-02
+2017-11-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-11-03
+2017-12-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2017-12-04
+2017-12-13,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2017-12-14
+2018-01-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-01-03
+2018-01-31,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2018-02-01
+2018-02-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-02-05
+2018-03-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-03-05
+2018-03-07,RATING,MOODYS_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,Ba1->Ba2 (Çar gece),,2018-03-08
+2018-03-21,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2018-03-22
+2018-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-04-03
+2018-05-01,RATING,SP_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,BB->BB- (Salı gece),,2018-05-02
+2018-05-02,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2018-05-03
+2018-05-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-05-03
+2018-05-23,POLITICAL,fx_crisis,-1,,in_session,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,kur şoku + olağanüstü PPK,,2018-05-23
+2018-05-23,PPK,extra_hawk,1,13:00,in_session,haber,hafiza,olağanüstü: GLP 13.5->16.5,,2018-05-23
+2018-05-28,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,8.0->16.5. sadeleştirme duyurusu (23 Mayıs olağanüstü GLP artışının ardından); yürürlük 1 Haziran,,2018-05-28
+2018-06-01,RATING,MOODYS_review,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,izlemeye alındı,,2018-06-04
+2018-06-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-06-04
+2018-06-07,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,16.5->17.75. ,,2018-06-07
+2018-06-13,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2018-06-14
+2018-06-24,POLITICAL,general_election,1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,cumhurbaşkanlığı seçimi,,2018-06-25
+2018-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-07-03
+2018-07-13,RATING,FITCH_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,BB+->BB,,2018-07-16
+2018-08-01,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2018-08-02
+2018-08-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-08-03
+2018-08-10,POLITICAL,fx_crisis,-1,,in_session,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,"Brunson/tarife, TL çöküşü (Cuma)",,2018-08-10
+2018-08-17,RATING,SP_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,BB-->B+,,2018-08-20
+2018-08-17,RATING,MOODYS_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,Ba2->Ba3 (aynı Cuma),,2018-08-20
+2018-09-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-09-03
+2018-09-13,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,17.75->24.0. ,,2018-09-13
+2018-09-26,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2018-09-27
+2018-10-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-10-03
+2018-11-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-11-05
+2018-11-08,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2018-11-09
+2018-12-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2018-12-03
+2018-12-19,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2018-12-20
+2019-01-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-01-03
+2019-01-30,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2019-01-31
+2019-02-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-02-04
+2019-03-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-03-04
+2019-03-20,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2019-03-21
+2019-03-31,POLITICAL,local_election,-1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,yerel seçim,,2019-04-01
+2019-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-04-03
+2019-05-01,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2019-05-02
+2019-05-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-05-03
+2019-05-06,POLITICAL,political,-1,,night,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,YSK İstanbul seçimini iptal (Pzt akşam),,2019-05-07
+2019-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-06-03
+2019-06-14,RATING,MOODYS_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,Ba3->B1,,2019-06-17
+2019-06-19,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2019-06-20
+2019-06-23,POLITICAL,local_election,1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,İstanbul yenileme,,2019-06-24
+2019-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-07-03
+2019-07-06,POLITICAL,cb_governor,-1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,Çetinkaya görevden alındı (Cmt),,2019-07-08
+2019-07-12,RATING,FITCH_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,BB->BB-,,2019-07-16
+2019-07-25,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,24.0->19.75. Çetinkaya görevden alındıktan sonra ilk karar,,2019-07-25
+2019-07-31,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2019-08-01
+2019-08-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-08-05
+2019-09-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-09-03
+2019-09-12,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,19.75->16.5. ,,2019-09-12
+2019-09-18,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2019-09-19
+2019-10-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-10-03
+2019-10-24,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,16.5->14.0. ,,2019-10-24
+2019-10-30,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2019-10-31
+2019-11-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-11-04
+2019-12-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2019-12-03
+2019-12-11,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2019-12-12
+2019-12-12,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,14.0->12.0. ,,2019-12-12
+2020-01-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-01-03
+2020-01-16,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,12.0->11.25. ,,2020-01-16
+2020-01-29,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2020-01-30
+2020-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-02-03
+2020-02-19,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,11.25->10.75. ,,2020-02-19
+2020-03-03,FOMC,unscheduled,-1,15:00,in_session,hafıza,hafiza,"acil 50bp indirim, 10:00 ET",,2020-03-03
+2020-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-03-03
+2020-03-15,FOMC,unscheduled,-1,21:00,weekend,hafıza,hafiza,Pazar acil 100bp indirim,,2020-03-16
+2020-03-17,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,10.75->9.75. olağanüstü,,2020-03-17
+2020-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-04-03
+2020-04-22,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,9.75->8.75. ,,2020-04-22
+2020-04-29,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2020-04-30
+2020-05-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-05-04
+2020-05-21,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,8.75->8.25. ,,2020-05-21
+2020-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-06-03
+2020-06-10,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2020-06-11
+2020-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-07-03
+2020-07-29,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2020-07-30
+2020-08-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-08-04
+2020-08-21,RATING,FITCH_outlook,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm negatif,,2020-08-24
+2020-09-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-09-03
+2020-09-11,RATING,MOODYS_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,B1->B2,,2020-09-14
+2020-09-16,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2020-09-17
+2020-09-24,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,8.25->10.25. ,,2020-09-24
+2020-10-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-10-05
+2020-11-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-11-03
+2020-11-05,FOMC,scheduled,0,18:00,after_close,hafıza,hafiza,,,2020-11-06
+2020-11-07,POLITICAL,cb_governor,1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,"Uysal görevden, Ağbal atandı; 8 Kas Albayrak istifası",,2020-11-09
+2020-11-19,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,10.25->15.0. Ağbal ilk karar,,2020-11-19
+2020-12-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2020-12-03
+2020-12-16,FOMC,scheduled,0,19:00,after_close,hafıza,hafiza,,,2020-12-17
+2020-12-24,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,15.0->17.0. ,,2020-12-24
+2021-01-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-01-04
+2021-01-27,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2021-01-28
+2021-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-02-03
+2021-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-03-03
+2021-03-17,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2021-03-18
+2021-03-18,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,17.0->19.0. 2 gün sonra Ağbal görevden alındı,,2021-03-18
+2021-03-20,POLITICAL,cb_governor,-1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,Ağbal görevden alındı (Cmt),,2021-03-22
+2021-04-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-04-05
+2021-04-28,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2021-04-29
+2021-05-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-05-03
+2021-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-06-03
+2021-06-16,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2021-06-17
+2021-07-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-07-05
+2021-07-28,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2021-07-29
+2021-08-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-08-03
+2021-09-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-09-03
+2021-09-22,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2021-09-23
+2021-09-23,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,19.0->18.0. ,,2021-09-23
+2021-10-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-10-04
+2021-10-21,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,18.0->16.0. ,,2021-10-21
+2021-11-03,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2021-11-04
+2021-11-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-11-03
+2021-11-18,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,16.0->15.0. ,,2021-11-18
+2021-11-23,POLITICAL,fx_crisis,-1,,in_session,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,TL çöküşü (ekonomik kurtuluş savaşı söylemi),,2021-11-23
+2021-12-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2021-12-03
+2021-12-15,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2021-12-16
+2021-12-16,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,15.0->14.0. ,,2021-12-16
+2021-12-20,POLITICAL,policy,1,,night,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,KKM açıklaması (Pzt ~18:30 UTC),,2021-12-21
+2022-01-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-01-03
+2022-01-26,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2022-01-27
+2022-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-02-03
+2022-02-24,POLITICAL,geopolitics,-1,,pre_open,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,Rusya Ukrayna işgali,,2022-02-24
+2022-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-03-03
+2022-03-16,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2022-03-17
+2022-04-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-04-04
+2022-05-04,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2022-05-05
+2022-05-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-05-05
+2022-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-06-03
+2022-06-15,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2022-06-16
+2022-07-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-07-04
+2022-07-08,RATING,FITCH_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,BB-->B,,2022-07-13
+2022-07-27,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2022-07-28
+2022-08-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-08-03
+2022-08-12,RATING,MOODYS_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,B2->B3,,2022-08-15
+2022-08-18,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,14.0->13.0. ,,2022-08-18
+2022-09-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-09-05
+2022-09-21,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2022-09-22
+2022-09-22,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,13.0->12.0. ,,2022-09-22
+2022-09-30,RATING,SP_downgrade,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,B+->B,,2022-10-03
+2022-10-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-10-03
+2022-10-20,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,12.0->10.5. ,,2022-10-20
+2022-11-02,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2022-11-03
+2022-11-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-11-03
+2022-11-24,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,10.5->9.0. ,,2022-11-24
+2022-12-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2022-12-05
+2022-12-14,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2022-12-15
+2023-01-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-01-03
+2023-02-01,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2023-02-02
+2023-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-02-03
+2023-02-06,POLITICAL,earthquake,-1,,pre_open,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,Kahramanmaraş depremleri (01:17 UTC),,2023-02-06
+2023-02-23,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,9.0->8.5. ,,2023-02-23
+2023-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-03-03
+2023-03-22,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2023-03-23
+2023-03-31,RATING,SP_outlook,-1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm negatif,,2023-04-03
+2023-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-04-03
+2023-05-03,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2023-05-04
+2023-05-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-05-03
+2023-05-14,POLITICAL,general_election,-1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,seçim 1. tur,,2023-05-15
+2023-05-28,POLITICAL,general_election,-1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,2. tur,,2023-05-29
+2023-06-03,POLITICAL,policy,1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,Şimşek Hazine ve Maliye Bakanı,,2023-06-05
+2023-06-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-06-05
+2023-06-14,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2023-06-15
+2023-06-22,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,8.5->15.0. ,-1.0,2023-06-22
+2023-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-07-03
+2023-07-20,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,15.0->17.5. ,-1.0,2023-07-20
+2023-07-26,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2023-07-27
+2023-08-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-08-03
+2023-08-24,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,17.5->25.0. ,1.0,2023-08-24
+2023-09-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-09-04
+2023-09-08,RATING,FITCH_outlook,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm durağan,,2023-09-11
+2023-09-20,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2023-09-21
+2023-09-21,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,25.0->30.0. ,0.0,2023-09-21
+2023-09-29,RATING,SP_outlook,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm durağan,,2023-10-02
+2023-10-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-10-03
+2023-10-26,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,30.0->35.0. ,0.0,2023-10-26
+2023-11-01,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2023-11-02
+2023-11-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-11-03
+2023-11-23,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,35.0->40.0. ,1.0,2023-11-23
+2023-11-30,RATING,SP_outlook,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm pozitif,,2023-12-01
+2023-12-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2023-12-04
+2023-12-08,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2023-12-08
+2023-12-12,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2023-12-12
+2023-12-13,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2023-12-14
+2023-12-21,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,40.0->42.5. ,0.0,2023-12-21
+2024-01-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-01-03
+2024-01-05,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-01-05
+2024-01-11,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-01-11
+2024-01-12,RATING,MOODYS_outlook,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm pozitif,,2024-01-15
+2024-01-25,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,42.5->45.0. ,0.0,2024-01-25
+2024-01-31,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2024-02-01
+2024-02-02,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-02-02
+2024-02-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-02-05
+2024-02-13,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-02-13
+2024-02-22,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2024-02-22
+2024-03-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-03-04
+2024-03-08,RATING,FITCH_upgrade,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,B->B+,,2024-03-11
+2024-03-08,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-03-08
+2024-03-12,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-03-12
+2024-03-20,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2024-03-21
+2024-03-21,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,45.0->50.0. ,1.0,2024-03-21
+2024-03-31,POLITICAL,local_election,-1,,weekend,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,yerel seçim (muhalefet kazandı),,2024-04-01
+2024-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-04-03
+2024-04-05,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-04-05
+2024-04-10,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-04-15
+2024-04-25,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2024-04-25
+2024-05-01,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2024-05-02
+2024-05-03,RATING,SP_upgrade,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,B->B+,,2024-05-06
+2024-05-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-05-03
+2024-05-03,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-05-03
+2024-05-15,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-05-15
+2024-05-23,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2024-05-23
+2024-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-06-03
+2024-06-07,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-06-07
+2024-06-12,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2024-06-13
+2024-06-12,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-06-12
+2024-06-27,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2024-06-27
+2024-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-07-03
+2024-07-05,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-07-05
+2024-07-11,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-07-11
+2024-07-19,RATING,MOODYS_upgrade,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,B3->B1 (2 kademe),,2024-07-22
+2024-07-23,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2024-07-23
+2024-07-31,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2024-08-01
+2024-08-02,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-08-02
+2024-08-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-08-05
+2024-08-14,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-08-14
+2024-08-20,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2024-08-20
+2024-09-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-09-03
+2024-09-06,RATING,FITCH_upgrade,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,B+->BB-,,2024-09-09
+2024-09-06,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-09-06
+2024-09-11,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-09-11
+2024-09-18,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2024-09-19
+2024-09-19,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2024-09-19
+2024-10-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-10-03
+2024-10-04,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-10-04
+2024-10-10,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-10-10
+2024-10-17,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2024-10-17
+2024-11-01,RATING,SP_upgrade,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,B+->BB-,,2024-11-04
+2024-11-01,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-11-01
+2024-11-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-11-04
+2024-11-07,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2024-11-08
+2024-11-13,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-11-13
+2024-11-21,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2024-11-21
+2024-12-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2024-12-03
+2024-12-06,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-12-06
+2024-12-11,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2024-12-11
+2024-12-18,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2024-12-19
+2024-12-26,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,50.0->47.5. ,-1.0,2024-12-26
+2025-01-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-01-03
+2025-01-10,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-01-10
+2025-01-15,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-01-15
+2025-01-23,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,47.5->45.0. ,0.0,2025-01-23
+2025-01-29,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2025-01-30
+2025-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-02-03
+2025-02-07,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-02-07
+2025-02-12,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-02-12
+2025-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-03-03
+2025-03-06,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,45.0->42.5. ,0.0,2025-03-06
+2025-03-07,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-03-07
+2025-03-12,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-03-12
+2025-03-19,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2025-03-20
+2025-03-19,POLITICAL,political,-1,,pre_open,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,"İmamoğlu gözaltısı (sabah, seans öncesi)",,2025-03-19
+2025-03-20,PPK,extra_hawk,1,?,in_session,haber,hafiza,İmamoğlu şoku sonrası olağanüstü PPK: ON borç verme %46,,2025-03-20
+2025-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-04-03
+2025-04-04,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-04-04
+2025-04-10,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-04-10
+2025-04-17,PPK,hike,1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,42.5->46.0. ,1.0,2025-04-17
+2025-05-02,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-05-02
+2025-05-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-05-05
+2025-05-07,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2025-05-08
+2025-05-13,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-05-13
+2025-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-06-03
+2025-06-06,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-06-10
+2025-06-11,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-06-11
+2025-06-18,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2025-06-19
+2025-06-19,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2025-06-19
+2025-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-07-03
+2025-07-03,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-07-03
+2025-07-15,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-07-16
+2025-07-24,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,46.0->43.0. ,-1.0,2025-07-24
+2025-07-25,RATING,MOODYS_upgrade,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,B1->Ba3,,2025-07-28
+2025-07-30,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2025-07-31
+2025-08-01,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-08-01
+2025-08-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-08-04
+2025-08-12,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-08-12
+2025-09-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-09-03
+2025-09-05,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-09-05
+2025-09-11,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,43.0->40.5. ,-1.0,2025-09-11
+2025-09-11,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-09-11
+2025-09-17,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2025-09-18
+2025-10-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-10-03
+2025-10-23,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,40.5->39.5. ,1.0,2025-10-23
+2025-10-24,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-10-24
+2025-10-29,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2025-10-30
+2025-11-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-11-03
+2025-11-20,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-11-20
+2025-12-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2025-12-03
+2025-12-10,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2025-12-11
+2025-12-11,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,39.5->38.0. ,0.0,2025-12-11
+2025-12-16,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-12-16
+2025-12-18,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2025-12-18
+2026-01-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-01-05
+2026-01-09,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-01-09
+2026-01-13,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-01-13
+2026-01-22,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,38.0->37.0. ,,2026-01-22
+2026-01-23,RATING,FITCH_outlook,1,~20:30,after_close,countryeconomy.com + hafıza/haber,web-kismi/hafiza,görünüm pozitif (ntv haberi),,2026-01-26
+2026-01-28,FOMC,scheduled,0,19:00,after_close,federalreserve.gov,web-FED,,,2026-01-29
+2026-02-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-02-03
+2026-02-11,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-02-11
+2026-02-13,USDATA,CPI,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-02-13
+2026-03-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-03-03
+2026-03-06,USDATA,NFP,0,13:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-03-06
+2026-03-11,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-03-11
+2026-03-12,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2026-03-12
+2026-03-18,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2026-03-19
+2026-04-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-04-03
+2026-04-03,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-04-03
+2026-04-10,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-04-10
+2026-04-22,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2026-04-22
+2026-04-29,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2026-04-30
+2026-05-04,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-05-04
+2026-05-08,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-05-08
+2026-05-12,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-05-12
+2026-06-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-06-03
+2026-06-05,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-06-05
+2026-06-10,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-06-10
+2026-06-11,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2026-06-11
+2026-06-17,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2026-06-18
+2026-07-02,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-07-02
+2026-07-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-07-03
+2026-07-14,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-07-14
+2026-07-23,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2026-07-23
+2026-07-29,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2026-07-30
+2026-08-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-08-03
+2026-08-07,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-08-07
+2026-08-12,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-08-12
+2026-09-03,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-09-03
+2026-09-04,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-09-04
+2026-09-10,PPK,hold,0,11:00,in_session,"haber (cnbce/qnbinvest 2026), hafıza 2024-25",web-haber/hafiza,,0.0,2026-09-10
+2026-09-11,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-09-11
+2026-09-16,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2026-09-17
+2026-09-16,POLITICAL,fund_crisis,-1,,in_session,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,"fon krizi: BIST100 -%5,5, devre kesici 13:04 UTC",,2026-09-16
+2026-09-17,POLITICAL,fund_crisis,-1,,pre_open,hafıza + web (fon krizi: kureansiklopedi/hukukcularevi/turkiyetoday),hafiza/web,"SPK 131 fon tasfiye kararı, FİK 05:00 UTC",,2026-09-17
+2026-10-02,USDATA,NFP,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-10-02
+2026-10-05,TUFE,release,0,07:00,at_open,TÜİK kuralı (3ü 10:00 TSİ),kural,BIST açılış seansı 09:40-10:00 -> açılış fiyatı veri ÖNCESİ; tepki gün-içi ilk dakikalarda,,2026-10-05
+2026-10-14,USDATA,CPI,0,12:30,in_session,hafıza + BLS kuralı (2025 kapanma gecikmeleri dahil),hafiza,doğrulanmalı (BLS arşiv),,2026-10-14
+2026-10-22,PPK,cut,-1,11:00,in_session,tcmb.gov.tr 1 hafta repo tablosu,web-TCMB,37.0->36.0. beklenti 100bp (CNBC-e anketi),0.0,2026-10-22
+2026-10-28,FOMC,scheduled,0,18:00,after_close,federalreserve.gov,web-FED,,,2026-10-30

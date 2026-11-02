@@ -1,0 +1,79 @@
+ana,yavru,pay_yuzde,kaynak,tarih,not
+ISCTR,SISE,"51,6 (bazı kaynaklar 52,1-52,6; İş Bnk. 2023-25 piyasadan alım yaptı)",KAP/BloombergHT; paratic.com/sisecamda-hisse-alimi-is-bankasi-kontrolu-guclendiriyor,2025,"TİBAŞ Holding'e devri planlandı (2024 kararı), tescil doğrulanamadı"
+ISCTR,TSKB,"47,68 doğrudan + ~9,5 grup (Milli Re, ANSGR, ANHYT) ≈ 50+",KAP İş Bankası yeniden yapılanma bildirimi (kap.org.tr/tr/Bildirim/720502),2018-2025,
+ISCTR,ISMEN,"65,74",KAP (kap.org.tr/tr/Bildirim/718700),2018+,
+ISCTR,ANHYT,"63,89 (grup)",KAP yeniden yapılanma bildirimi,2018+,
+ISCTR,ISGYO,"52,06",KAP yeniden yapılanma bildirimi,2018+,
+ISCTR,ANSGR,"~57 (Milli Re üzerinden, Milli Re %87,6 İş Bnk.) + doğrudan pay",KAP; oran teyit edilemedi,?,oran belirsiz
+ISCTR,ISFIN,~28 doğrudan + TSKB ~29 (grup ~57),R1/hafıza,?,teyit edilmedi
+ISCTR,ISGSY / ISYAT,grup (İş Yatırım üzerinden),R1/hafıza,?,teyit edilmedi
+ISCTR,ISATR / ISBTR,pay grubu (A/B kurucu payları; C=ISCTR),BIST,-,"ISATR işlem görmüyor (%99,6 sıfır getiri); ISBTR illikit; fiyat oranı birim uyumsuz -> analiz dışı"
+-,ISKPL,0 (Işık Plastik; İş grubu DEĞİL),KAP şirket adı,-,kontrol
+KCHOL,TUPRS,"46,4 (Enerji Yatırımları AŞ üzerinden; Koç ~%77 EYAŞ)",R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+KCHOL,FROTO,~41 (+Ford %41),R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+KCHOL,TOASO,~38 (+Stellantis %38),R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+KCHOL,ARCLK,~41 (aile dahil ~57),R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+KCHOL,YKBNK,"~61,2",R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2022+,UniCredit çıkışı 2019-2022
+KCHOL,AYGAZ,~41,R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+KCHOL,OTKAR,~45,R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+KCHOL,TTRAK,"~37,5 (+CNH %37,5)",R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+AYGAZ,TUPRS,EYAŞ ortağı (dolaylı),R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+SAHOL,AKBNK,"40,75",R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,NAVın ~%45i
+SAHOL,ENJSA,40 (+E.ON %40),R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+SAHOL,CIMSA,"~54,5",R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+SAHOL,BRISA,"~43,6",R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+SAHOL,KORDS,"~71,1",R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+SAHOL,AKGRT,~36 (+Ageas),R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+SAHOL,AGESA,~40 (+Ageas),R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+SAHOL,AKCNS,"~39,7 (+Heidelberg)",R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,2025,
+SAHOL,CRFSA,~57,R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,?,teyit edilmedi
+SAHOL,TKNSA,~50,R1 holding raporu (Koç FY25 / Sabancı Eki.2025 NAV sunumları) + genel bilgi; KAP ile teyit edilmedi,?,teyit edilmedi
+Akkök (SAHOL DEĞİL),AKSA,"~39,6 Akkök",R1 düzeltmesi,2025,AKSA Sabancı iştiraki değil
+AGHOL,AEFES,"43,05 (+AB InBev %24,0)",KAP AEFES ortaklık tablosu 30.06.2026 (kap.org.tr/tr/api/file/download/4028328c9f52dc40019ff20542c44484),2026-06-30,AEFES AGHOL NAVının ~%43ü (Yapı Kredi notu)
+AEFES,CCOLA,"~50,3 (+TCCC ~20)",R1/hafıza,2025,teyit edilmedi
+AGHOL,MGROS,~49 (MH Perakendecilik üzerinden),R1/hafıza,2025,teyit edilmedi
+AGHOL,ASUZU,~55,hafıza,?,teyit edilmedi
+AGHOL,ADEL,~56,hafıza,?,teyit edilmedi
+OYAK,EREGL,"~49,3 (ATAER Holding)",hafıza / OYAK,2025,teyit edilmedi
+EREGL,ISDMR,~95,hafıza,2025,teyit edilmedi
+OYAK,OYAKC,"TCC OYAK Amsterdam %80,05 (OYAK ortak %40, TCC %60); halka açık %24",vkyanaliz OYAKC 28.07.2026; OYAKC ortaklık bildirimi,2026-07,
+OYAK,HEKTS,"50,95 (14.10.2026 bedelli sonrası); 30.06.2026 46,87; Haz.2026 %8,5 satış; 2024-25 55,37",borsaningundemi.com/etiket/hekts; cnbce (OYAK Hektaş %7 satış),2026-10-14,
+OYAK (ON Investment BV),TKFEN,"42,8 (Can Kültür payı)",KAP 24.07.2026; cnbce.com h33805; forbes.com.tr (Rekabet onayı),2026-07-24,görüşme açıklaması 2/9 Haz. 2026
+Libco İnşaat (Cevahir),TKFEN,"32,08 (ARY Holding payı; sözleşme) + Cevahir piyasa alımları; birlikte hareket ~%36,7",gazeteoksijen 26.06.2026; paratic (Cevahir alımları),2026-06-26 / 2026-09-07,tamamlanma tarihi doğrulanamadı
+Zorlu Holding,VESTL,~64,hafıza,?,teyit edilmedi
+VESTL,VESBE,"77,33 (2025-26 aracı kurum tabloları); KAP 31.03.2026 tablosunda Zorlu Holding %52,77 görünüyor -> çelişkili",Gedik 1Ç25; vkyanaliz 12.06.2026; KAP,2025-2026,28-29.06.2026 finansal yeniden yapılandırma başvurusu
+Zorlu Holding,ZOREN,~63,hafıza,?,teyit edilmedi
+DOHOL,GWIND,"70,00",KAP / vkyanaliz GWIND 02.09.2026,2026-09-02,
+DOHOL,DITAS,"68,24 -> 0 (2025te satıldı)",DOHOL yatırımcı sunumu Mart 2026,2025,
+Borusan,BRSAN / BRYAT,"BRYAT Borusan grubuna yatırım şirketi (halka açık ~%15); BRSAN dolaylı ~%56,6+",BRYAT faaliyet raporu 2023,2023,oranlar eksik
+Borusan?,BORLS,doğrulanamadı,-,-,
+Yıldız Holding,SOKM,"Turkish Retail Investments BV %24,27 + Gözde Girişim %23,66 (Yıldız kontrolü)",KAP SOKM 30.06.2026,2026-06-30,
+Yıldız Holding,ULKER,~51 (pladis/Yıldız),hafıza,?,teyit edilmedi
+Yıldız Holding,GOZDE,kontrol,hafıza,?,
+TVF,THYAO,"49,12",indigodergisi/medyascope (2017 devri),2017-02-06,
+TVF,HALKB,"91,49 (2017: 51,11)",haber derlemesi,2017+,
+TVF,TCELL,"26,2 (TVF Bilgi Tek.)",webrazzi 2022,2020-10,
+TVF,TTKOM,"61,68 (LYY %55 + Hazine %6,68); Hazine ayrıca %25",Hazine Kamu İşletmeleri Listesi 31.03.2022,2022-03,
+TVF,VAKBN,"74,79 -> 73,26 (Eyl.2025 %1,53 satış)",bloomberght/forbes (TVF Vakıfbank satışı),2025-09,
+TVF,TURSG,"~81 -> Mayıs 2026 %5 satış (6,75 mlr TL)",haber derlemesi; borsaningundemi varlik-fonu,2026-05,güncel oran teyit edilemedi
+TVF,TRALT / TRMET / TRENJ,Hazine payları TVFye (RG 20.08.2024; pay defteri 12.09.2024); ana-iştirak yapısı korundu,cnbce.com h3059 / h5627,2024-08-20,"birleşme kararı 20.11.2024, sonlandırma 25.07.2025"
+TRMET,TRALT,~50 (Koza Anadolu -> Koza Altın),hafıza,?,teyit edilmedi
+TRENJ,TRMET,önemli pay (İpek -> Koza Anadolu),hafıza,?,oran teyit edilmedi
+HALKB,HLGYO,~79,hafıza,?,
+VAKBN,VAKFN / VKGYO,kontrol,hafıza,?,
+Kardemir,KRDMA/KRDMB/KRDMD,"pay grupları: A (YK 4 üye), B (2), D (1, halka açık ana grup); kâr payı farkı yok (kullanıcı kaynağı)",tradingview kullanıcı yazısı; esas sözleşme teyit edilmedi,-,Eki.2026 A ve D geri alımı
+ALARK,ALCAR,"42,03 -> 84,06 (Carrier'ın %42,03 payını devralıyor; 07.08.2026 sözleşme, 4Ç26 tamamlanma)",bloomberght/cnbce/gazeteoksijen,2026-08-07,
+ALARK,ALGYO,kontrol,hafıza,?,oran teyit edilmedi
+ECZYT,ECILC,"30,62 (+Eczacıbaşı Holding 50,62)",EYH faaliyet raporu 31.03.2026,2026-03-31,
+ECZYT,INTEM,"46,21",EYH genel kurul sunumu 30.04.2025,2025,
+Eczacıbaşı Holding,ECZYT,"81,57",EYH genel kurul sunumu,2025,
+GLYHO,CONSE,"~%100 (halka arz öncesi, 2022)",GYH KAP 2022,2022,güncel oran teyit edilmedi
+GLYHO,NATEN / GLBMD,grup,hafıza,?,teyit edilmedi
+GLYHO?,PASEU,DOĞRULANAMADI,-,-,
+ODAS,CANTE,"76,77 -> 61,51 (2023) -> ~29 (fintables, tarihsiz)",paratic/fintables,2023-2026,teyit edilmedi
+Tera grubu,TEHOL / TERA / PEKGY,"Tera Portföy fonları TEHOL'de %17,05 (01.06.2026); TERA Yatırım TEHOL'de %9,15",KAP (cnbce.com h30866),2026-06-01,Eyl.2026 fon krizi: Tera fonları tasfiyede (SPK 17.09.2026)
+Akfen Holding,AKFGY / AKFYE,kontrol,hafıza,?,
+Akkök,AKSA / AKENR / AKMGY,grup,hafıza,?,AKMGY Tekfen ortaklı
+ADP,TAVHL,~46,hafıza,?,yabancı ana ortak; CLEBI grup değil
+THYAO,DO&CO (DOCO),Turkish DO&CO %50 ortak girişim (DOCO hissesinde THY payı yok),hafıza,?,
+Tarım Kredi,GUBRF,~76,hafıza,?,BAGFS Gübretaş grubu DEĞİL (sektör emsali)

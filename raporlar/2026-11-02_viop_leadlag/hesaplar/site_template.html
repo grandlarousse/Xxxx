@@ -1,0 +1,245 @@
+<title>VİOP Sürücü Haritası</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Düzen: üstte karar bandı, altında sekmeler; Hisseler sekmesinde sektör çipleri + seçili hisse kartı. Veri yoğun, terminal değil araştırma notu. */
+:root{
+  --bg:#F4F6F8; --surface:#FFFFFF; --ink:#13202B; --muted:#56636F; --line:#DCE2E8; --soft:#EAF0F4;
+  --accent:#0A6A93; --accent-ink:#FFFFFF;
+  --hi:#1E7A4C; --mid:#A86A12; --lo:#8A5A44; --vlo:#7A8590; --neg:#B4312F;
+  --bar-g:#0A6A93; --bar-t:#6E8FA6; --bar-m:#2F4A5E; --bar-s:#8DB7CF; --bar-i:#D5DEE5;
+  --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --f-body:"IBM Plex Sans","Segoe UI",Roboto,Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --r:6px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D1217; --surface:#141B22; --ink:#E4EAF0; --muted:#94A2AF; --line:#25313C; --soft:#1A242D;
+  --accent:#4DB0DE; --accent-ink:#06141C;
+  --hi:#4CC285; --mid:#E0A548; --lo:#C9937A; --vlo:#8E9AA6; --neg:#F07A75;
+  --bar-g:#4DB0DE; --bar-t:#7FA3BA; --bar-m:#9DB9CC; --bar-s:#2F6F8F; --bar-i:#2A3640;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0D1217; --surface:#141B22; --ink:#E4EAF0; --muted:#94A2AF; --line:#25313C; --soft:#1A242D;
+  --accent:#4DB0DE; --accent-ink:#06141C;
+  --hi:#4CC285; --mid:#E0A548; --lo:#C9937A; --vlo:#8E9AA6; --neg:#F07A75;
+  --bar-g:#4DB0DE; --bar-t:#7FA3BA; --bar-m:#9DB9CC; --bar-s:#2F6F8F; --bar-i:#2A3640;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(26px,4vw,38px);font-weight:800}
+h2{font-size:22px;font-weight:700}
+h3{font-size:16px;font-weight:700}
+p{margin:0}
+.muted{color:var(--muted)}
+.mono{font-family:var(--f-mono);font-size:13px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+header{display:flex;flex-direction:column;gap:12px}
+.lede{max-width:72ch;color:var(--muted)}
+.verdicts{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.verdict{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.verdict b{font-family:var(--f-display);font-size:15px}
+.verdict span{font-size:14px;color:var(--muted)}
+nav.tabs{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid var(--line);padding-bottom:8px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;padding-top:8px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+nav.tabs a{font-family:var(--f-display);font-weight:600;font-size:14px;text-decoration:none;color:var(--muted);padding:6px 12px;border-radius:999px;border:1px solid transparent}
+nav.tabs a[aria-current="page"]{color:var(--accent-ink);background:var(--accent)}
+nav.tabs a:hover{border-color:var(--line)}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section.view{display:flex;flex-direction:column;gap:16px}
+.sectors{display:flex;flex-direction:column;gap:10px}
+.sector{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.sector .lab{font-size:12px;color:var(--muted);min-width:9.5em;font-weight:600}
+.chip{font-family:var(--f-mono);font-size:13px;padding:4px 9px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.card-head{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between}
+.card-head .codes{display:flex;gap:8px;flex-wrap:wrap}
+.tick{font-family:var(--f-mono);font-size:13px;background:var(--soft);border:1px solid var(--line);border-radius:4px;padding:2px 7px;cursor:pointer;color:var(--ink)}
+.tick:hover{border-color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;align-items:start}
+.stat{border:1px solid var(--line);border-radius:var(--r);padding:12px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.vbar{display:flex;height:14px;border-radius:3px;overflow:hidden;background:var(--bar-i)}
+.vbar i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted)}
+.legend em{font-style:normal;display:inline-flex;align-items:center;gap:5px}
+.legend em::before{content:"";width:10px;height:10px;border-radius:2px;background:var(--c)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.filters label{font-size:13px;color:var(--muted)}
+select,input[type="search"]{font:inherit;font-size:14px;padding:6px 8px;border-radius:var(--r);border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);background:var(--soft);font-weight:600;position:sticky;top:0}
+tr:last-child td{border-bottom:none}
+td.num{font-variant-numeric:tabular-nums}
+.pill{display:inline-block;font-size:11.5px;font-weight:600;letter-spacing:.03em;padding:2px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.p-YUKSEK{color:var(--hi)} .p-ORTA{color:var(--mid)} .p-DUSUK{color:var(--lo)} .p-COK_DUSUK{color:var(--vlo)}
+.trade-no{color:var(--muted)} .trade-yes{color:var(--hi);font-weight:600} .trade-mid{color:var(--mid);font-weight:600}
+.list{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:4px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.two>div{min-width:0}
+.watch{display:flex;flex-direction:column;gap:8px}
+.watch textarea{font-family:var(--f-mono);font-size:12.5px;width:100%;min-height:72px;border:1px solid var(--line);border-radius:var(--r);background:var(--soft);color:var(--ink);padding:8px;resize:vertical}
+button{font:inherit;font-size:14px;font-weight:600;padding:7px 14px;border-radius:var(--r);border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);cursor:pointer;align-self:flex-start}
+button.ghost{background:transparent;color:var(--accent)}
+.toast{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:var(--r);font-size:14px;opacity:0;transition:opacity .2s}
+.toast.on{opacity:1}
+@media (prefers-reduced-motion: reduce){.toast{transition:none}}
+.prose{display:flex;flex-direction:column;gap:12px;max-width:80ch}
+.prose ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+.note{font-size:13px;color:var(--muted)}
+.count{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px}
+@media (max-width:640px){.sector .lab{min-width:100%}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow" id="asof"></div>
+    <h1>VİOP Sürücü Haritası</h1>
+    <p class="lede" id="lede"></p>
+    <div class="verdicts" id="verdicts"></div>
+  </header>
+  <nav class="tabs" aria-label="Bölümler">
+    <a href="#hisseler" data-v="hisseler">Hisseler</a>
+    <a href="#genel" data-v="genel">Genel bulgular</a>
+    <a href="#sinyaller" data-v="sinyaller">İşlenebilir adaylar</a>
+    <a href="#cin" data-v="cin">Çin alternatifleri</a>
+    <a href="#kodlar" data-v="kodlar">TradingView kodları</a>
+    <a href="#yontem" data-v="yontem">Yöntem ve düzeltmeler</a>
+  </nav>
+
+  <section class="view" id="v-hisseler">
+    <div class="sectors" id="sectors"></div>
+    <div id="stockcard"></div>
+  </section>
+  <section class="view" id="v-genel" hidden><div class="prose" id="genel"></div></section>
+  <section class="view" id="v-sinyaller" hidden><div id="sinyaller"></div></section>
+  <section class="view" id="v-cin" hidden><div id="cin"></div></section>
+  <section class="view" id="v-kodlar" hidden><div id="kodlar"></div></section>
+  <section class="view" id="v-yontem" hidden><div class="prose" id="yontem"></div></section>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const $ = (s, el=document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const CONF = {YUKSEK:"YÜKSEK",ORTA:"ORTA",DUSUK:"DÜŞÜK",COK_DUSUK:"ÇOK DÜŞÜK"};
+const CORD = {YUKSEK:0,ORTA:1,DUSUK:2,COK_DUSUK:3};
+const REL = {senkron:"Senkron",gap_oncu:"Öncü → açılış gap'i",gunici_oncu:"Öncü → gün-içi",cok_gunluk:"Çok günlük",olay:"Olay",rejim:"Rejim",mikroyapi:"Mikroyapı",ters_yon:"Ters yön",hypothesis:"Hipotez"};
+function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove("on"),1600)}
+function copy(text, label){
+  const done=()=>toast((label||"Kod")+" kopyalandı");
+  try{navigator.clipboard.writeText(text).then(done,()=>fallback(text))}catch(e){fallback(text)}
+  function fallback(t){const ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");done()}catch(e){toast("Kopyalanamadı; metni seçip kopyalayın")}ta.remove()}
+}
+function pill(c){return `<span class="pill p-${esc(c)}">${esc(CONF[c]||c)}</span>`}
+function tradeCls(t){t=(t||"").toLowerCase(); if(t.startsWith("evet"))return "trade-yes"; if(t.startsWith("sınır")||t.startsWith("sinir"))return "trade-mid"; return "trade-no"}
+function tickHtml(code){ if(!code||code==="?"||code==="-") return `<span class="muted">${esc(code||"—")}</span>`;
+  return code.split(/\s*[,;|]\s*/).filter(Boolean).map(c=>`<button type="button" class="tick" data-copy="${esc(c)}" title="Kopyala">${esc(c)}</button>`).join(" ")}
+
+// ---------- başlık ----------
+$("#asof").textContent = DATA.meta.asof;
+$("#lede").textContent = DATA.meta.lede;
+$("#verdicts").innerHTML = DATA.meta.verdicts.map(v=>`<div class="verdict"><b>${esc(v[0])}</b><span>${esc(v[1])}</span></div>`).join("");
+
+// ---------- hisseler ----------
+const cards = DATA.cards; const byCode = Object.fromEntries(cards.map(c=>[c.stock,c]));
+$("#sectors").innerHTML = DATA.sectors.map(s=>`<div class="sector"><span class="lab">${esc(s[0])}</span>${s[1].filter(k=>byCode[k]).map(k=>`<button type="button" class="chip" data-stock="${k}" aria-pressed="false">${k}</button>`).join("")}</div>`).join("");
+let cur = null; const filt = {conf:"ALL", scope:"ALL", rel:"ALL", q:""};
+function vbar(v){ if(!v) return `<span class="muted">veri yok</span>`;
+  const seg=[["Küresel","--bar-g",v.global],["TR makro","--bar-t",v.trmakro],["XU100","--bar-m",v.piyasa],["Sektör/küme","--bar-s",v.sektor],["Hisseye özgü","--bar-i",v.idio]];
+  return `<div class="vbar" role="img" aria-label="${seg.map(s=>s[0]+" %"+Math.round(100*s[2])).join(", ")}">${seg.map(s=>`<i style="width:${Math.max(0,100*s[2]).toFixed(1)}%;background:var(${s[1]})"></i>`).join("")}</div>
+  <div class="legend">${seg.map(s=>`<em style="--c:var(${s[1]})">${s[0]} %${(100*s[2]).toFixed(1).replace('.',',')}</em>`).join("")}</div>`}
+function renderCard(code){
+  const c = byCode[code]; if(!c){$("#stockcard").innerHTML="";return}
+  cur = code;
+  document.querySelectorAll(".chip").forEach(b=>b.setAttribute("aria-pressed", b.dataset.stock===code?"true":"false"));
+  const rels=[...new Set(c.drivers.map(d=>d.relation))];
+  $("#stockcard").innerHTML = `<article class="card">
+    <div class="card-head"><div><div class="eyebrow">${esc(c.sector||"")}</div><h2>${esc(c.stock)} <span class="muted" style="font-weight:500;font-size:16px">${esc(c.name||"")}</span></h2></div>
+      <div class="codes"><span class="note">Spot</span>${tickHtml(c.tv_spot)}<span class="note">VİOP</span>${tickHtml(c.tv_viop)}</div></div>
+    <p>${esc(c.summary)}</p>
+    <div class="stats">
+      <div class="stat"><span class="eyebrow">Varyans payları · 2014–2026</span>${vbar(c.var_full)}</div>
+      <div class="stat"><span class="eyebrow">Varyans payları · 2024–2026</span>${vbar(c.var_recent)}</div>
+      <div class="stat"><span class="eyebrow">VİOP pay vadelisi</span><span>${esc(c.viop_liquidity||"—")}</span></div>
+    </div>
+    <div class="filters" role="group" aria-label="Sürücü filtreleri">
+      <label for="f-conf">Güven</label><select id="f-conf"><option value="ALL">Tümü</option>${Object.keys(CONF).map(k=>`<option value="${k}">${CONF[k]}</option>`).join("")}</select>
+      <label for="f-scope">Kapsam</label><select id="f-scope"><option value="ALL">Tümü</option><option value="uluslararasi">Uluslararası</option><option value="yurtici">Yurt içi</option></select>
+      <label for="f-rel">İlişki</label><select id="f-rel"><option value="ALL">Tümü</option>${rels.map(r=>`<option value="${r}">${esc(REL[r]||r)}</option>`).join("")}</select>
+      <input type="search" id="f-q" placeholder="Sürücü ara" aria-label="Sürücü ara">
+      <span class="count" id="f-count"></span>
+    </div>
+    <div class="tbl"><table><thead><tr><th>Sürücü</th><th>TradingView</th><th>İlişki</th><th>Ölçüm</th><th>Zamanlama</th><th>İşlenebilir</th><th>Güven</th><th>Doğrulama</th><th>Mekanizma</th></tr></thead><tbody id="drv"></tbody></table></div>
+    <div class="two">
+      <div><h3>Test edilip bulunamayanlar</h3><ul class="list">${(c.negatives||[]).map(n=>`<li>${esc(n)}</li>`).join("")||"<li class='muted'>—</li>"}</ul></div>
+      <div><h3>Çin kaynaklı sürücüler ve alternatifler</h3><ul class="list">${(c.china_alternatives||[]).map(n=>`<li>${esc(n)}</li>`).join("")||"<li class='muted'>İlgili Çin sürücüsü yok ya da test edilen ilişki yok.</li>"}</ul>
+        <h3 style="margin-top:14px">Açık sorular</h3><ul class="list">${(c.open_questions||[]).map(n=>`<li>${esc(n)}</li>`).join("")||"<li class='muted'>—</li>"}</ul></div>
+    </div>
+    <div class="watch"><h3>TradingView izleme listesi</h3>
+      <textarea id="wl" readonly aria-label="İzleme listesi kodları">${esc(c.watchlist)}</textarea>
+      <div class="filters"><button type="button" id="wl-copy">Listeyi kopyala</button><span class="note">TradingView'da izleme listesine "Sembol ekle" alanına yapıştırın; virgülle ayrılmış kodlar tek seferde eklenir. Aynı liste repoda içe aktarılabilir .txt olarak da var.</span></div>
+    </div>
+  </article>`;
+  ["f-conf","f-scope","f-rel"].forEach(id=>{const el=$("#"+id); el.value=filt[id.slice(2)]||"ALL"; el.addEventListener("change",()=>{filt[id.slice(2)]=el.value; renderDrivers()})});
+  const q=$("#f-q"); q.value=filt.q; q.addEventListener("input",()=>{filt.q=q.value.toLowerCase(); renderDrivers()});
+  $("#wl-copy").addEventListener("click",()=>copy(c.watchlist,"İzleme listesi"));
+  renderDrivers();
+}
+function renderDrivers(){
+  const c=byCode[cur]; if(!c) return;
+  let ds=c.drivers.filter(d=>(filt.conf==="ALL"||d.confidence===filt.conf)&&(filt.scope==="ALL"||d.scope===filt.scope)&&(filt.rel==="ALL"||d.relation===filt.rel));
+  if(filt.q) ds=ds.filter(d=>(d.driver+" "+d.tv+" "+(d.mechanism||"")).toLowerCase().includes(filt.q));
+  ds.sort((a,b)=>(CORD[a.confidence]-CORD[b.confidence])||(a.scope<b.scope?-1:1));
+  $("#f-count").textContent = ds.length+" / "+c.drivers.length+" sürücü";
+  $("#drv").innerHTML = ds.map(d=>`<tr><td><b>${esc(d.driver)}</b><div class="note">${d.scope==="yurtici"?"Yurt içi":"Uluslararası"}</div></td>
+    <td>${tickHtml(d.tv)}${d.tv_alt?`<div class="note">alt: ${tickHtml(d.tv_alt)}</div>`:""}</td>
+    <td>${esc(REL[d.relation]||d.relation)}${d.direction?` <span class="mono">(${esc(d.direction)})</span>`:""}</td>
+    <td class="num">${esc(d.metric)}</td><td class="note">${esc(d.timing||"")}</td>
+    <td class="${tradeCls(d.tradable)}">${esc(d.tradable)}</td><td>${pill(d.confidence)}</td>
+    <td class="note">${esc(d.verification)}</td><td class="note">${esc(d.mechanism||"")}${d.source?`<div class="mono" style="font-size:11px">${esc(d.source)}</div>`:""}</td></tr>`).join("") || `<tr><td colspan="9" class="muted">Bu filtreyle sürücü yok.</td></tr>`;
+}
+document.addEventListener("click",e=>{
+  const ch=e.target.closest(".chip"); if(ch){location.hash=ch.dataset.stock; return}
+  const tk=e.target.closest("[data-copy]"); if(tk){copy(tk.dataset.copy, tk.dataset.copy)}
+});
+
+// ---------- diğer görünümler ----------
+$("#genel").innerHTML = DATA.genel;
+$("#yontem").innerHTML = DATA.yontem;
+function tableHtml(cols, rows, id){return `<div class="tbl"><table ${id?`id="${id}"`:""}><thead><tr>${cols.map(c=>`<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div>`}
+$("#sinyaller").innerHTML = `<div class="prose" style="margin-bottom:12px"><h2>İşlenebilir aday sinyaller</h2><p class="muted">${esc(DATA.signals_note)}</p></div>` +
+  tableHtml(["Sinyal","Hedef","Sonuç (doğrulama sonrası)","İstatistik güveni","İşlem güveni","TradingView"],
+   DATA.signals.map(s=>`<tr><td><b>${esc(s.name)}</b><div class="note">${esc(s.def)}</div></td><td class="mono">${esc(s.target)}</td><td class="note">${esc(s.result)}</td><td>${pill(s.stat)}</td><td>${pill(s.trade)}</td><td>${tickHtml(s.tv)}</td></tr>`));
+$("#cin").innerHTML = `<div class="prose" style="margin-bottom:12px"><h2>Çin kaynaklı ticker'lar ve test edilmiş alternatifleri</h2><p class="muted">${esc(DATA.cin_note)}</p></div>` +
+  `<div class="filters" style="margin-bottom:8px"><input type="search" id="cq" placeholder="Orijinal ya da alternatif ara" aria-label="Çin alternatiflerinde ara"><span class="count" id="ccount"></span></div><div id="cintbl"></div>`;
+function renderCin(){const q=($("#cq").value||"").toLowerCase(); const rows=DATA.cin.filter(r=>!q||JSON.stringify(r).toLowerCase().includes(q));
+  $("#ccount").textContent=rows.length+" satır";
+  $("#cintbl").innerHTML=tableHtml(["Orijinal (açılmıyor)","Alternatif","Haftalık r","Günlük r","Not","Güven"],
+   rows.map(r=>`<tr><td><b>${esc(r.o)}</b><div class="note">${esc(r.od)}</div></td><td>${tickHtml(r.a)}<div class="note">${esc(r.ad)}</div></td><td class="num">${esc(r.w)}</td><td class="num">${esc(r.d)}</td><td class="note">${esc(r.n)}</td><td>${pill(r.g)}</td></tr>`))}
+$("#cq").addEventListener("input",renderCin); renderCin();
+$("#kodlar").innerHTML = `<div class="prose" style="margin-bottom:12px"><h2>TradingView kodları</h2><p class="muted">${esc(DATA.tv_note)}</p></div>` +
+  `<div class="filters" style="margin-bottom:8px"><input type="search" id="kq" placeholder="Kod, Yahoo sembolü ya da şirket ara" aria-label="Kodlarda ara"><span class="count" id="kcount"></span></div><div id="kodtbl"></div>`;
+function renderKod(){const q=($("#kq").value||"").toLowerCase(); let rows=DATA.tv.filter(r=>!q||(r[0]+" "+r[1]+" "+r[2]+" "+r[3]).toLowerCase().includes(q));
+  $("#kcount").textContent=rows.length+" / "+DATA.tv.length+" kod"; const shown=rows.slice(0,400);
+  $("#kodtbl").innerHTML=tableHtml(["Yahoo","Açıklama","TradingView","Alternatif","Durum","Not"], shown.map(r=>`<tr><td class="mono">${esc(r[0])}</td><td>${esc(r[1])}</td><td>${tickHtml(r[2])}</td><td>${tickHtml(r[3])}</td><td class="note">${esc(r[4])}</td><td class="note">${esc(r[5])}</td></tr>`))+(rows.length>400?`<p class="note" style="margin-top:6px">İlk 400 satır gösteriliyor; aramayı daraltın.</p>`:"")}
+$("#kq").addEventListener("input",renderKod); renderKod();
+
+// ---------- yönlendirme ----------
+const VIEWS=["hisseler","genel","sinyaller","cin","kodlar","yontem"];
+function route(){
+  let h=(location.hash||"").slice(1); let view="hisseler", stock=null;
+  if(VIEWS.includes(h)) view=h; else if(byCode[h]) {view="hisseler"; stock=h}
+  VIEWS.forEach(v=>{$("#v-"+v).hidden = v!==view});
+  document.querySelectorAll("nav.tabs a").forEach(a=>a.setAttribute("aria-current", a.dataset.v===view?"page":"false"));
+  if(view==="hisseler") renderCard(stock || cur || DATA.default_stock);
+}
+window.addEventListener("hashchange",route); route();
+</script>

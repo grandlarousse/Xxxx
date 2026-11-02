@@ -1,0 +1,120 @@
+"""Yahoo sembolü olmayan / bileşik sürücüler için elle eşleme (v_tv).
+Değer: (durum, tv_kodu, tv_alternatif, not). tv_kodu içindeki kodlar fetch ile ayrıca doğrulanır.
+durum: SEPET, FORMUL, OLAY, TAKVIM, MODEL, KENDI, TV_YOK, CIN_ENGELLI_ALT, KOD (tek enstrüman)"""
+import re
+
+HO_CRACK = 'NYMEX:HO1!*42-ICEEUR:BRN1!'
+C321 = '(2*NYMEX:RB1!*42+NYMEX:HO1!*42-3*ICEEUR:BRN1!)/3'
+KUR8 = 'CME_MINI:ES1! | AMEX:EEM | TVC:SX5E | CBOE:VIX | TVC:DXY | ICEEUR:BRN1! | COMEX:GC1! | TVC:US10Y'
+
+SPECIAL = {
+    'CNH=X': ('KOD', 'FX:USDCNH', 'FX_IDC:USDCNH', 'Offshore yuan (Çin borsası değil); katalogda CNH=X yok, gunici ajanı kendi indirdi'),
+    'TR CDS 5Y': ('TV_YOK', 'TVC:TR10Y', 'TVC:TR02Y | NASDAQ:EMB | NASDAQ:TUR',
+                  "Türkiye 5Y CDS TradingView'da halka açık sayfada bulunamadı (TV ajanı + bu denetim); faiz/ETF vekilleri"),
+    'TR 2Y faiz': ('KOD', 'TVC:TR02Y', 'TVC:TR05Y', 'Türkiye 2Y gösterge faiz (TVC türetilmiş, ücretsiz)'),
+    'TR10Y/TR02Y/TR CDS': ('SEPET', 'TVC:TR10Y | TVC:TR02Y', 'TVC:TR05Y', 'CDS TV\'de yok'),
+    'XLBNK1! akşam': ('KOD', 'BIST:XLBNKD1!', 'BIST:XLBNK', "f_banka 'BIST:XLBNK1!' YANLIŞ: VİOP endeks vadelisi kökü 'XLBNKD' (D=vadeli)"),
+    'HO_CRACK': ('FORMUL', HO_CRACK, 'NYMEX:HO1! | ICEEUR:BRN1!', 'TV sembol kutusuna formül olarak yazılabilir (galon->varil x42)'),
+    'HO_CRACK (çeyreklik)': ('FORMUL', HO_CRACK, 'NYMEX:HO1! | ICEEUR:BRN1!', 'çeyreklik ortalama: TV\'de 3A/1Ç çözünürlükte izlenir'),
+    'JETCRACK': ('FORMUL', HO_CRACK, 'NYMEX:HO1! | ICEEUR:BRN1!', 'jet yakıtı için HO (ULSD) vekil'),
+    'CRACK': ('FORMUL', HO_CRACK, 'NYMEX:HO1! | ICEEUR:BRN1!', ''),
+    'HOxBZ / C321 t-1': ('FORMUL', HO_CRACK, C321, "f_enerji 'NYMEX:HO1!/ICEEUR:BRN1!' oran; fark formülü daha anlamlı"),
+    'C321': ('FORMUL', C321, 'NYMEX:RB1! | NYMEX:HO1! | ICEEUR:BRN1!', "f_enerji formülünde önekler eksikti ('RB1!','HO1!','BRN1!' önek olmadan TV'de çözülmeyebilir)"),
+    'ONS_TL': ('FORMUL', 'FX_IDC:XAUTRY', 'COMEX:GC1!*FX:USDTRY | OANDA:XAUUSD*FX:USDTRY | BIST:XAUTRY1!', 'BIST:XAUTRY1! = VİOP gram altın TL vadelisi (ons değil)'),
+    'XAUTRY': ('FORMUL', 'FX_IDC:XAUTRY', 'COMEX:GC1!*FX:USDTRY | BIST:XAUTRY1!', ''),
+    'XAUTRY (GC=F x TRY=X)': ('FORMUL', 'COMEX:GC1!*FX:USDTRY', 'FX_IDC:XAUTRY | BIST:XAUTRY1!', ''),
+    'EUAIR+USAIR': ('SEPET', 'XETR:LHA | EURONEXT:AF | LSE:IAG | EURONEXT:RYA | LSE:EZJ | LSE:WIZZ | LSE:JET2 | NYSE:DAL | NASDAQ:UAL | NASDAQ:AAL | NYSE:LUV | NYSE:ALK | NASDAQ:JBLU',
+                    'AMEX:JETS', 'havayolu sepeti; IAG = LSE:IAG (NYSE:IAG IAMGOLD!)'),
+    'EUAIR+USAIR-TUR': ('SEPET', 'XETR:LHA | EURONEXT:AF | LSE:IAG | EURONEXT:RYA | LSE:EZJ | LSE:WIZZ | LSE:JET2 | NYSE:DAL | NASDAQ:UAL | NASDAQ:AAL | NYSE:LUV | NYSE:ALK | NASDAQ:JBLU | NASDAQ:TUR',
+                        'AMEX:JETS | NASDAQ:TUR', 'TUR = NASDAQ:TUR'),
+    'EU_DEF': ('SEPET', 'XETR:RHM | LSE:BA. | MIL:LDO | EURONEXT:HO | OMXSTO:SAAB_B | OSL:KOG | XETR:HAG | XETR:R3NK', 'AMEX:EUAD', 'BAE = LSE:BA. (noktalı)'),
+    'EU_TEL': ('SEPET', 'XETR:DTE | EURONEXT:ORA | BME:TEF | LSE:VOD | MIL:TIT | OMXSTO:TELIA | EURONEXT:KPN | ATHEX:HTO', '', "desc 'TEL'=Telenor? (OSL:TEL); OTE=ATHEX:HTO"),
+    'EM_TEL': ('SEPET', 'JSE:MTN | JSE:VOD | NYSE:AMX | NYSE:TIMB | NSE:BHARTIARTL | GPW:OPL | BET:MTELEKOM | IDX:TLKM | NASDAQ:VEON', '', ''),
+    'KR_DEF': ('SEPET', 'KRX:012450 | KRX:064350 | KRX:079550 | KRX:047810', '', 'KRX 6 haneli kod'),
+    'US_DEF': ('SEPET', 'NYSE:LMT | NYSE:NOC | NYSE:RTX | NYSE:GD | NYSE:LHX', 'CBOE:ITA | AMEX:XAR | AMEX:PPA', "f_savunma 'ITA ?' -> CBOE:ITA (iShares Cboe BZX'e taşındı)"),
+    'GRID_BASKET': ('SEPET', 'EURONEXT:SU | SIX:ABBN | NYSE:ETN | XETR:SIE | KRX:267260', 'NASDAQ:GRID', ''),
+    'KÜRESEL-8 (t,t-1)': ('SEPET', KUR8, '', ''),
+    'GLOBAL': ('SEPET', 'AMEX:EEM | TVC:SX5E', 'NASDAQ:ACWI', ''),
+    "FCPO (Yahoo'da yok)": ('KOD', 'MYX:FCPO1!', '', 'Bursa Malaysia ham palm yağı vadelisi'),
+    'FINDIK (yok)': ('TV_YOK', '', '', "Fındık fiyatı TV'de yok (TMO/ borsa bülteni)"),
+    'ARPA (yok)': ('KOD', 'CBOT:KE1!', 'EURONEXT:EBM1!', 'arpa vadelisi yok; KC HRW buğday vekil, Euronext değirmen buğdayı'),
+    "(Yahoo'da yok) Üre / DAP vadelileri": ('KOD', 'CBOT:UFV1!', 'CBOT:UME1!', 'CME üre FOB US Gulf / Orta Doğu'),
+    '(Çin) ZCE soda külü vadelisi': ('CIN_ENGELLI_ALT', 'NSE:TATACHEM', 'EURONEXT:SOLB | NYSE:GEL',
+                                     "ZCE kodu verilmez; alternatiflerin korelasyonu çok zayıf (haftalık r≈0,12) — ÇOK DÜŞÜK güven"),
+    'SHFE/DCE HRC (Sina, kendi baskın-kontrat serim)': ('CIN_ENGELLI_ALT', 'COMEX:TIO1!', 'ASX:FMG | SGX:FEF1! | COMEX:HRC1!', 'SHFE kodu verilmez; cin_alternatifler: TIO1! haftalık r=0,47'),
+    'SHFE/DCE RB (Sina, kendi baskın-kontrat serim)': ('CIN_ENGELLI_ALT', 'COMEX:TIO1!', 'ASX:FMG | SGX:FEF1!', 'SHFE kodu verilmez; TIO1! haftalık r=0,47'),
+    'SHFE/DCE I (Sina, kendi baskın-kontrat serim)': ('CIN_ENGELLI_ALT', 'COMEX:TIO1!', 'SGX:FEF1! | ASX:FMG', 'DCE kodu verilmez; TIO1! haftalık r=0,60'),
+    'FMG.AX + SHFE HC': ('SEPET', 'ASX:FMG | COMEX:TIO1!', 'SGX:FEF1!', 'SHFE HC yerine COMEX:TIO1! (Çin borsası verilmez)'),
+    'Türk hurda ithal fiyatı': ('KOD', 'LME:SC1!', 'COMEX:HRC1!', 'LME çelik hurdası CFR Türkiye vadelisi (gün sonu veri)'),
+    'koklaşabilir kömür': ('TV_YOK', 'NYSE:AMR', 'NYSE:HCC | ICEEUR:NCF1!', 'Avustralya HCC vadelisi için doğrulanmış TV kodu bulunamadı; ABD metalurjik kömür hisseleri vekil'),
+    'PTF (EPİAŞ)': ('TV_YOK', '', '', 'EPİAŞ Şeffaflık Platformu; TV\'de yok'),
+    'CPI_DAY': ('TAKVIM', 'ECONOMICS:TRIRYY', 'BIST:XU100', 'TÜFE yıllık (TV ekonomi verisi)'),
+    'TÜFE (TÜİK)': ('TAKVIM', 'ECONOMICS:TRIRYY', 'BIST:XBANK | BIST:XU030', ''),
+    'TCMB PPK': ('OLAY', 'ECONOMICS:TRINTR', 'BIST:XBANK', 'TCMB politika faizi (TV ekonomi verisi)'),
+    'PPK sürprizi': ('OLAY', 'ECONOMICS:TRINTR', 'BIST:XBANK', ''),
+    'PPK artırım': ('OLAY', 'ECONOMICS:TRINTR', 'BIST:XBANK', ''),
+    'XLBNK1!': ('KOD', 'BIST:XLBNKD1!', '', ''),
+    'VİOP akşam seansı': ('TAKVIM', 'BIST:XU030D1!', 'BIST:XLBNKD1! | BIST:XAUTRY1!', 'akşam seansı yalnız endeks/kıymetli metal/bakır vadelileri; pay vadelisi YOK'),
+    'TVF sepeti': ('SEPET', 'BIST:THYAO | BIST:HALKB | BIST:TCELL | BIST:TTKOM | BIST:VAKBN', '', ''),
+    'NAV': ('SEPET', 'BIST:TUPRS | BIST:FROTO | BIST:YKBNK | BIST:ARCLK | BIST:TOASO', 'BIST:KCHOL', 'KCHOL iştirak sepeti'),
+    'NAV gap': ('SEPET', 'BIST:AEFES | BIST:MGROS', 'BIST:AGHOL', 'AGHOL iştirak sepeti'),
+    'EW177-XU100': ('FORMUL', 'BIST:XUTUM-BIST:XU100', 'BIST:XYUZO', 'eşit ağırlıklı 177 hisse yerine XUTUM/XYUZO yaklaşığı'),
+    'TCMB TP.PYUK3+TP.MKNETHAR.M7': ('TV_YOK', '', 'BIST:XU030D1!', 'TCMB EVDS serisi'),
+    'TCMB haftalık menkul kıymet (Per 14:30 TSİ)': ('TV_YOK', '', 'BIST:XU030', 'TCMB EVDS'),
+    'TCMB yabancı akış (haftalık)': ('TV_YOK', '', '', 'TCMB EVDS; tv_ticker sütunu hedef hisseyi gösteriyor'),
+    'TCMB yayın anı (Perşembe 11:30 UTC)': ('TAKVIM', 'BIST:XU030', 'BIST:XU030D1!', ''),
+    'TEFAS hisse fonu akışları (günlük)': ('TV_YOK', '', '', 'TEFAS'),
+    'MKK hisse bazlı yabancı takas oranı': ('TV_YOK', '', '', 'MKK'),
+    'açığa satış hacmi (günlük, hisse bazlı)': ('TV_YOK', '', '', 'BIST/fintables'),
+    'kredili işlem bakiyesi / teminat tamamlama': ('TV_YOK', '', '', 'SPK/TSPB'),
+    'VIOP_XU030_18:15_kapanis': ('KOD', 'BIST:XU030D1!', 'BIST:XU030', 'VİOP XU030 vadelisi kapanış/uzlaşma (18:05-18:15 TSİ)'),
+    'VIOP_bulten_aksam': ('KOD', 'BIST:XU030D1!', 'BIST:XLBNKD1!', 'akşam seansı bülten alanları (yalnız endeks/metal vadeli)'),
+    'EMB-IEF': ('FORMUL', 'NASDAQ:EMB/NASDAQ:IEF', 'NASDAQ:EMB | NASDAQ:IEF', 'EM USD tahvil / UST 7-10y oranı (TR CDS vekili)'),
+    'TKC+TRY=X': ('FORMUL', 'NYSE:TKC*FX:USDTRY/(2.5*BIST:TCELL)', 'NYSE:TKC | FX:USDTRY | BIST:TCELL', 'ADR parite sapması (1 ADR = 2,5 pay); FX:USDTRY 24 saat, BIST kapanışında 15:00 UTC barı kullan'),
+    'EBDKS adayı (XU100 gün-içi dip <= -%5)': ('OLAY', 'BIST:XU100', 'BIST:XU030D1!', 'endeks devre kesici günleri (olay)'),
+    '0.5*TRY=X+0.5*EURTRY=X': ('FORMUL', '(FX:USDTRY+FX:EURTRY)/2', 'FX:USDTRY | FX:EURTRY', 'sepet kur (0,5 USD + 0,5 EUR); TV formül olarak yazılır'),
+    'BSK (h1)': ('FORMUL', '(FX:USDTRY+FX:EURTRY)/2', 'FX:USDTRY | FX:EURTRY', 'saatlik sepet kur'),
+    'sepet gece': ('FORMUL', '(FX:USDTRY+FX:EURTRY)/2', 'FX:USDTRY | FX:EURTRY', ''),
+    'sepet h1 @15:00': ('FORMUL', '(FX:USDTRY+FX:EURTRY)/2', 'FX:USDTRY | FX:EURTRY', '15:00 UTC (18:00 TSİ) barı'),
+    'VIOP sepet': ('FORMUL', '(BIST:USDTRY1!+BIST:EURTRY1!)/2', 'BIST:USDTRY1! | BIST:EURTRY1!', 'VİOP döviz vadelileri; akşam seansı YOK'),
+    'BAP 10y DİBS': ('KOD', 'TVC:TR10Y', 'TVC:TR05Y', "BAP = BIST Borçlanma Araçları Piyasası; f_y_makro_y 'BAP' NYSE:BAP (Credicorp) DEĞİL"),
+    'BAP 5y DİBS': ('KOD', 'TVC:TR05Y', 'TVC:TR10Y', 'TVC türetilmiş gösterge faiz'),
+    'BAP 1y DİBS': ('KOD', 'TVC:TR01Y', 'TVC:TR02Y', "f_y_makro_y 'TVC:TR01Y (?)' -> sayfa var (v_tv)"),
+    'BAP gösterge-benzeri 2y DİBS': ('KOD', 'TVC:TR02Y', 'TVC:TR05Y', ''),
+    'BIST TLREF': ('KOD', 'BIST:TLREF', 'ECONOMICS:TRINTR', "f_y_makro_y 'TLREF bulunamadı' -> BIST:TLREF sayfası VAR (v_tv)"),
+    'GC=F*TRY=X': ('FORMUL', 'FX_IDC:XAUTRYG', 'COMEX:GC1!*FX:USDTRY/31.1035 | BIST:XAUTRY1!', 'gram altın TL (FX_IDC, 24 saat); VİOP gram altın vadeli BIST:XAUTRY1!'),
+    'GC=F*TRY=X h1 @15:00': ('FORMUL', 'FX_IDC:XAUTRYG', 'COMEX:GC1!*FX:USDTRY/31.1035 | BIST:XAUTRY1!', '15:00 UTC barı'),
+    'GC=F*TRY=X h1 gece': ('FORMUL', 'FX_IDC:XAUTRYG', 'COMEX:GC1!*FX:USDTRY/31.1035 | BIST:XAUTRY1!', 'gece 15:00->06:00 UTC'),
+    'XAUTRY (h1)': ('KOD', 'FX_IDC:XAUTRYG', 'FX_IDC:XAUTRY | BIST:XAUTRY1!', 'XAUTRYG = gram, XAUTRY = ons'),
+    'TUR-EEM': ('FORMUL', 'NASDAQ:TUR/AMEX:EEM', 'NASDAQ:TUR | AMEX:EEM', 'Türkiye özgü risk primi (oran)'),
+    'VIOP F_EURTRY (ön ay)': ('KOD', 'BIST:EURTRY1!', 'FX:EURTRY', ''),
+    'VIOP F_USDTRY (ön ay)': ('KOD', 'BIST:USDTRY1!', 'FX:USDTRY', ''),
+    'VIOP F_XAUTRYM (ön ay)': ('KOD', 'BIST:XAUTRY1!', 'FX_IDC:XAUTRYG', 'VİOP gram altın; BIST:XAUTRYM1! 404'),
+    'VIOP USDTRY 1-2 ay yayılımı + ^IRX': ('FORMUL', 'BIST:USDTRY2!/BIST:USDTRY1!', 'TVC:US03MY | BIST:USDTRYZ2026/BIST:USDTRYX2026', 'zımni TL faizi; ABD 3A faiz TVC:US03MY'),
+    'VIOP USDTRY 1-3 ay yayılımı + ^IRX': ('FORMUL', 'BIST:USDTRYF2027/BIST:USDTRYX2026', 'TVC:US03MY', "BIST:USDTRY3! 404 -> vade kodlarıyla yaz (Kas26 X, Ara26 Z, Oca27 F; vade geçtikçe güncelle)"),
+    'Q1': ('MODEL', 'BIST:XU030', '', 'Lo–MacKinlay büyüklük beşlisi (büyük); TV karşılığı yok, XU030 yaklaşığı'),
+    'Q5': ('MODEL', 'BIST:XYUZO', 'BIST:XKTUM', 'küçük beşli; TV karşılığı yok, XYUZO/ XTUMY yaklaşığı'),
+}
+
+PATTERNS = [  # (regex, durum, tv_kodu, tv_alt, not)
+    (r'^BT\d', 'MODEL', '', '', 'backtest kimliği (enstrüman değil)'),
+    (r'^(strateji|sektör endeksleri|panel taraması|SCAN|küme.*|TÜMÜ.*|AG-58.*|.* ajanı iddiaları)$', 'MODEL', '', '', 'model/özet satırı'),
+    (r'^EW akran: ', 'SEPET', None, '', 'hisse hariç eşit ağırlıklı akran sepeti'),
+    (r'^sektör akranları gap ort\.', 'SEPET', None, '', "tv_ticker sütunu HEDEF hisseyi gösteriyor; sürücü = akran sepeti"),
+    (r'^KÜRESEL-8', 'SEPET', KUR8, '', ''),
+    (r'^\(kendi|^kendi |^\(yok\) açılış|^gap kalıntısı|^CA \(kapanış|^sektör akran gap', 'KENDI', 'BIST:<KOD>', 'BIST:<KOD>1!', 'hissenin kendi fiyatı (gap/gün-içi/limit)'),
+    (r'^(tavana dokunup|kilitli taban|limite yakınlık|bedelsiz ex|temettü ex|kapanış seansı getirisi|VİOP pay vadelisi uzlaşma)', 'KENDI', 'BIST:<KOD>', 'BIST:<KOD>1!', ''),
+    (r'^(Ay sonu|ayın ilk|çeyrek ilk|takvim|bayram|MSCI|Endeks dönem)', 'TAKVIM', 'BIST:XU030D1!', 'BIST:XU030 | BIST:XU100', 'takvim etkisi'),
+    (r'^(\(olay\)|olay$|EVENT|POLITICAL|RATING|Fon krizi|SPK tasfiye|ASGARI|TİBAŞ|Doğuş|Kibar|EBDKS)', 'OLAY', '', '', 'olay/rejim (enstrüman değil)'),
+    (r'^-$', 'MODEL', '', '', ''),
+    (r'^VIOP_', 'KENDI', 'BIST:<KOD>1!', 'BIST:XU030D1!', 'VİOP bülten verisi (pay vadelisi kendi fiyat/AP/hacim); TV: BIST:<KOD>1!'),
+]
+
+
+def special(drv):
+    if drv in SPECIAL:
+        return SPECIAL[drv]
+    for pat, du, kod, alt, nt in PATTERNS:
+        if re.search(pat, drv):
+            return (du, kod, alt, nt)
+    return None
