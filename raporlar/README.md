@@ -10,3 +10,11 @@
   - `koordinator/check.py` bağımsız çalışır.
 
 Yatırım tavsiyesi değildir.
+
+# ABD/Kanada Diş Hekimliği Lisansı — 65 Yargı Bölgesi Taraması (02.11.2026)
+
+- `dis_hekimligi_lisans/2026-11-02_dis_hekimligi_lisans_raporu.md`: Sentez raporu. Üç kriter (ziyaretçi statüsüyle lisans, yalnız teorik sınav, ömür boyu uzaktan sürdürme), Kanada ve ABD tabloları, aday karşılaştırması, yol haritası, sınırlamalar.
+- `dis_hekimligi_lisans/ajanlar/`: Ham ajan çıktıları. `00_*.md` kesişen konular (DLOSCE/ADEX, NDEB+Yeditepe, INBDE, ABD göçmenlik/SSN hukuku, lisans bakımı/Compact); `usa_*.md` ve `canada_*.md` bölge bazlı bulgular, varsa karşıt-doğrulama kararlarıyla.
+- `dis_hekimligi_lisans/kaynaklar.md`: Ajanların okuduğu resmî URL'lerin bölgeye göre listesi.
+
+Hukuki/göçmenlik danışmanlığı değildir; kurul uygulamaları e-posta ile teyit edilmelidir.
