@@ -1,0 +1,393 @@
+{
+ "texts": {
+  "kicker": "RUMELİ 1876 · 8/8 · OSMANLI KAYITLARINA GÖRE",
+  "title": "RAKAMLARLA RUMELİ 1876",
+  "subtitle": "93 Harbi’nden önce ve sonra: nüfus, kayıtlar, kayıplar",
+  "headline_line": "1876’da Osmanlı idaresindeki Rumeli’de (İstanbul hariç) 9,5 milyon kişi yaşıyordu; her 100 kişiden 44’ü Müslümandı.",
+  "hero_total_big": "9,52 milyon",
+  "hero_total_label": "kişi · Osmanlı idaresindeki Rumeli, 1876 · İstanbul hariç",
+  "hero_muslim_big": "%44,1",
+  "hero_muslim_label": "Müslüman · 4,20 milyon kişi",
+  "group_turk_name": "Türk",
+  "group_turk_pct": "%21,8",
+  "group_turk_count": "2,07 milyon",
+  "group_turk_note": "Tatar ve Nogaylar dâhil",
+  "group_dm_name": "Diğer Müslüman",
+  "group_dm_pct": "%22,3",
+  "group_dm_count": "2,13 milyon",
+  "group_dm_note": "Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman",
+  "group_hr_name": "Hristiyan",
+  "group_hr_pct": "%55,9",
+  "group_hr_count": "5,32 milyon",
+  "group_hr_note": "Bulgar, Rum, Sırp, Ulah, Ermeni, Gagavuz…",
+  "waffle_label": "100 kişide: 22 Türk · 22 diğer Müslüman · 56 Hristiyan",
+  "fact_1": "Rumeli Müslümanlarının %49,3’ü Türk",
+  "fact_2": "Rumeli Türklerinin %69,1’i Tuna ve Edirne vilâyetlerinde",
+  "fact_3": "Üç vilâyette her 3 kişiden 1’i Türk: Tuna* %33,6 · Edirne %33,1 · Selanik %33,2",
+  "fact_4": "Müslüman çoğunluklu: İşkodra %64,0 · Prizren–Üsküp %62,2 · Bosna %51,0",
+  "table_head": "VİLÂYET VİLÂYET 1876",
+  "table_sub": "harita modeli · Müslüman oranı Osmanlı kaydıyla yan yana · Yahudiler hariç",
+  "table_col_1": "Vilâyet",
+  "table_col_2": "Nüfus (bin)",
+  "table_col_3": "Türk",
+  "table_col_4": "D. Müslüman",
+  "table_col_5": "Hristiyan",
+  "table_col_6": "Müslüman",
+  "table_col_7": "Osmanlı kaydı",
+  "table_row_01": "Tuna* | 2.380 | %33,6 | %7,1 | %59,3 | %40,7 | %41,2 (1875)",
+  "table_row_02": "Niş sancağı (Tuna) | 344 | %6,7 | %26,9 | %66,4 | %33,6 | %29,1 (1873)",
+  "table_row_03": "Edirne | 1.841 | %33,1 | %7,2 | %59,7 | %40,3 | %38,2 (1876)",
+  "table_row_04": "Selanik | 1.056 | %33,2 | %14,3 | %52,5 | %47,5 | —",
+  "table_row_05": "Manastır | 714 | %14,4 | %24,9 | %60,7 | %39,3 | —",
+  "table_row_06": "Prizren–Üsküp | 818 | %15,3 | %46,9 | %37,8 | %62,2 | —",
+  "table_row_07": "Yanya | 862 | %6,4 | %26,8 | %66,8 | %33,2 | %34,9 (1871)",
+  "table_row_08": "İşkodra | 270 | %0,5 | %63,5 | %36,0 | %64,0 | —",
+  "table_row_09": "Bosna | 1.069 | %0,4 | %50,6 | %49,0 | %51,0 | %51,0 (1870)",
+  "table_row_10": "Hersek | 164 | %0,4 | %48,6 | %51,0 | %49,0 | %49,0 (1870)",
+  "table_total": "TÜM RUMELİ | 9.518 | %21,8 | %22,3 | %55,9 | %44,1 | ",
+  "table_note": "Model, Osmanlı kayıtlarına dayanır ve onlara yakın durur; Niş’te kayıt dışı kalan Müslümanlar için yapılan McCarthy düzeltmesi yüzünden kayıttan yüksektir.",
+  "table_foot": "*Tuna: Niş sancağı hariç. Prizren–Üsküp: Prizren, Üsküp ve Debre sancakları (1874-77 idari bağlılıkları kaynaklarda farklı verilir). Manastır: Manastır, Görice, Serfiçe ve İlbasan sancakları. Yanya: Teselya dâhil. Bosna: Yenipazar sancağı dâhil. Kayıt: Tuna ve Niş erkek sayımı; Yanya 1871 Yahudiler dâhil.",
+  "turks_head": "RUMELİ TÜRKLERİ NEREDE YAŞIYORDU?",
+  "turks_sub": "harita modeli · kişi",
+  "turks_row_1": "Tuna | 822 bin",
+  "turks_row_2": "Edirne | 610 bin",
+  "turks_row_3": "Selanik | 350 bin",
+  "turks_row_4": "Prizren–Üsküp | 125 bin",
+  "turks_row_5": "Manastır | 103 bin",
+  "turks_row_6": "Yanya | 55 bin",
+  "turks_row_7": "Bosna, Hersek, İşkodra | 6 bin",
+  "tuna_head": "OSMANLI KAYDI · TUNA VİLÂYETİ 1292/1875",
+  "tuna_sub": "Tahrir-i Cedid · sancak sancak erkek nüfus ve Müslüman payı · Niş hariç",
+  "tuna_row_1": "Varna | 85.805 | %69,8",
+  "tuna_row_2": "Tulça | 87.455 | %64,2",
+  "tuna_row_3": "Rusçuk | 309.797 | %61,5",
+  "tuna_row_4": "Tırnova | 245.894 | %38,6",
+  "tuna_row_5": "Vidin | 178.823 | %16,7",
+  "tuna_row_6": "Sofya | 213.180 | %14,2",
+  "tuna_total": "Toplam | 1.120.954 erkek | %41,2 Müslüman",
+  "tuna_millet": "İslâm %36,2 · Çerkes ve Kıpti %4,9 · Bulgar milleti %54,0 · diğer %4,8",
+  "tuna_note": "Koyuncu’ya göre yaklaşık 20.000 muhacir salnameye geçmedi; Rusçuk’ta Müslüman erkekler yaklaşık 30.000 eksik yazıldı.",
+  "tuna_src": "Kaynak: Tuna Vilâyeti 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014, Tablo 20-21)",
+  "after_head": "SONRA: 93 HARBİ, 1877-78",
+  "after_big": "1.501.883",
+  "after_big_label": "Müslüman, 1877 · Tuna vilâyeti 1.069.580 + sonraki Şarkî Rumeli 432.303",
+  "after_dead": "261.937",
+  "after_dead_label": "hayatını kaybetti · %17,4",
+  "after_emig": "515.000",
+  "after_emig_label": "göç etti · %34,3",
+  "after_line": "Her 100 Müslümandan 17’si öldü, 34’ü yurdunu bırakmak zorunda kaldı.",
+  "after_alt": "Ömer Turan’ın tahmini daha yüksek: Tuna’da ~1.200.000, Şarkî Rumeli’de ~400.000 Müslüman.",
+  "after_src": "J. McCarthy tahmini, Death and Exile (1995), s. 108-110; aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013). Ö. Turan (TTK 1998), aynı yerde. Rakamlar tahmindir ve tartışmalıdır.",
+  "berlin_head": "BERLİN 1878 · TESELYA 1881: KOPAN TOPRAKLAR",
+  "berlin_big": "≈2 milyon",
+  "berlin_big_label": "Müslüman, yani 1876 Rumeli Müslümanlarının yaklaşık yarısı, 1878-81’de doğrudan Osmanlı idaresinden çıkan topraklarda yaşıyordu. Türklerin ise yarıdan fazlası (≈1,1 milyon).",
+  "berlin_item_1": "Bulgaristan Prensliği · Tuna vilâyetinin büyük kısmı (Osmanlı’ya vergi veren özerk prenslik)",
+  "berlin_item_2": "Şarkî Rumeli · Filibe ve İslimye sancakları (özerk vilâyet; 1885’te Bulgaristan’a katıldı)",
+  "berlin_item_3": "Kuzey Dobruca → Romanya · Tulça sancağı 1875: %64,2 Müslüman",
+  "berlin_item_4": "Niş sancağı → Sırbistan · 1876’da ~131.000 Müslüman (McCarthy tahmini)",
+  "berlin_item_5": "Bosna-Hersek → Avusturya-Macaristan işgali · Müslüman payı: 1870 kaydı %48,9 → 1879 Avusturya sayımı %38,7 (Yenipazar hariç)",
+  "berlin_item_6": "Teselya → Yunanistan (1881) · 1878 sayımında 39.392 Müslüman",
+  "berlin_item_7": "Nikşik, Podgoriçe, Bar → Karadağ (1878) · Ülgün (1880)",
+  "berlin_item_8": "Kosova · 1880 sayımında 41.354 muhacir",
+  "berlin_foot": "Hesap: harita modeli; Tuna vilâyeti, Filibe ve İslimye sancakları, Bosna-Hersek (Yenipazar hariç) ve Teselya. 1886’ya dek Osmanlı’da kalan Kırcaali yöresi çıkarılınca da sonuç ≈2 milyondur. Karadağ’a geçen yerler hesaba katılmadı.",
+  "loc_head": "1878-81’DE ELDEN ÇIKAN RUMELİ",
+  "loc_bulgaristan": "BULGARİSTAN PRENSLİĞİ",
+  "loc_sarki_rumeli": "ŞARKÎ RUMELİ",
+  "loc_romanya": "ROMANYA’YA",
+  "loc_sirbistan": "SIRBİSTAN’A",
+  "loc_avusturya": "AVUSTURYA İŞGALİ",
+  "loc_karadag": "KARADAĞ’A",
+  "loc_yunanistan": "YUNANİSTAN’A (1881)",
+  "loc_kosova": "KOSOVA",
+  "loc_osmanli": "OSMANLI’DA KALAN",
+  "closing_line": "Bu seri, büyük göçten hemen önceki Rumeli’yi gösteriyor.",
+  "series_list": "1 Genel harita · 2 Deliorman ve Dobruca · 3 Trakya ve Rodoplar · 4 Makedonya ve Teselya · 5 Arnavutluk, Kosova ve Epir · 6 Bosna-Hersek ve Yenipazar · 7 Bulgaristan 1875, il il · 8 Rakamlar",
+  "footnote_method": "Harita modeli: 635 bölge kümesi (İstanbul ile Sırbistan, Karadağ, Yunanistan ve Avusturya-Macaristan hariç). Osmanlı salname ve tahrirleri esas alındı, erkek sayımları ×2; kayıt eksiği bilinen yerlerde Müslüman payı kaynaklara göre yukarı alındı (ör. McCarthy düzeltmesi); Bulgaristan’da il oranlarına göre ayar yapıldı (swenstone0 derlemesi). Yahudiler hariç. Osmanlı kayıtları Türk ile diğer Müslümanları çoğunlukla ayırmaz; bu ayrım tahminidir. Tatar ve Nogay → Türk.",
+  "footnote_sources": "Kaynaklar: Tuna 1292/1875 Tahrir-i Cedid (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne 1293/1876 Devlet Salnamesi (Ubicini & Pavet de Courteille 1876) · Bosna ve Hersek 1287/1870 salnamesi (Z. Gölen, Belleten 65, 2001) · Yanya 1288/1871 salnamesi (A. Dumont 1874) · Niş 1873 kaydı (M. Jagodić, Balkanologie II/2, 1998) · J. McCarthy, Death and Exile (1995), aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013) · McCarthy, Nationalities Papers 28/1 (2000) · Teselya 1878: İ. Serbestoğlu, Belleten (TTK) · Kosova 1880: BOA Y.PRK.UM 3/75 (MKÜ SBE Dergisi 11/25, 2014) · Bosna-Hersek 1879: Avusturya-Macaristan sayımı · Bulgaristan il oranları: swenstone0 derlemesi."
+ },
+ "numbers": [
+  {
+   "key": "total_population",
+   "value": "9.518.013 (≈9,52 milyon; manşette 9,5 milyon)",
+   "src": "harita modeli: data_cal/clusters_calibrated.json, 635 küme (Tuna, Edirne, Selanik, Manastır, Prizren, Yanya, İşkodra, Bosna, Hersek), İstanbul, Sırbistan, Karadağ, Yunanistan ve Avusturya-Macaristan hariç, Yahudiler hariç; sonuç ana posterdeki TÜM RUMELİ satırıyla aynı"
+  },
+  {
+   "key": "turk",
+   "value": "2.072.152 kişi · %21,8 (2,07 milyon)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "diger_muslim",
+   "value": "2.128.450 kişi · %22,3 (2,13 milyon; ham oran %22,36, en büyük kalan yöntemiyle %22,3, böylece 21,8 + 22,3 = 44,1)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "hristiyan",
+   "value": "5.317.411 kişi · %55,9 (5,32 milyon)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "muslim_total",
+   "value": "4.200.602 kişi · %44,1 (4,20 milyon)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "waffle_100",
+   "value": "22 Türk / 22 diğer Müslüman / 56 Hristiyan",
+   "src": "harita modeli (en büyük kalan yöntemiyle tam sayıya yuvarlama)"
+  },
+  {
+   "key": "turk_share_of_muslims",
+   "value": "%49,3 (2.072.152 / 4.200.602)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "turks_in_tuna_edirne",
+   "value": "%69,1 (822.330 + 610.364 = 1.432.694 / 2.072.152)",
+   "src": "harita modeli (Tuna, Niş dâhil)"
+  },
+  {
+   "key": "turk_pct_tuna_nis_haric",
+   "value": "%33,6",
+   "src": "harita modeli"
+  },
+  {
+   "key": "turk_pct_edirne",
+   "value": "%33,1",
+   "src": "harita modeli"
+  },
+  {
+   "key": "turk_pct_selanik",
+   "value": "%33,2",
+   "src": "harita modeli"
+  },
+  {
+   "key": "row_tuna_nis_haric",
+   "value": "2.380.488 · T %33,6 · DM %7,1 · H %59,3 · Müslüman %40,7 (967.859)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "row_nis_sancagi",
+   "value": "344.218 · T %6,7 · DM %26,9 · H %66,4 · Müslüman %33,6 (115.568)",
+   "src": "harita modeli (Vranya kazası dâhil)"
+  },
+  {
+   "key": "row_edirne",
+   "value": "1.841.280 · T %33,1 · DM %7,2 · H %59,7 · Müslüman %40,3 (742.543)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "row_selanik",
+   "value": "1.056.128 · T %33,2 · DM %14,3 · H %52,5 · Müslüman %47,5 (501.434)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "row_manastir",
+   "value": "714.036 · T %14,4 · DM %24,9 · H %60,7 · Müslüman %39,3 (280.489)",
+   "src": "harita modeli (Manastır, Görice, Serfiçe, İlbasan sancakları; Prizren sancağı hariç)"
+  },
+  {
+   "key": "row_prizren_uskup",
+   "value": "817.597 · T %15,3 · DM %46,9 · H %37,8 · Müslüman %62,2 (508.320)",
+   "src": "harita modeli (vilayet=Prizren kümeleri + Manastır etiketli Prizren sancağı kümeleri; ana posterdeki tanımın aynısı)"
+  },
+  {
+   "key": "row_yanya",
+   "value": "861.736 · T %6,4 · DM %26,8 · H %66,8 · Müslüman %33,2 (286.324)",
+   "src": "harita modeli (Tırhala sancağı/Teselya dâhil)"
+  },
+  {
+   "key": "row_iskodra",
+   "value": "269.972 · T %0,5 · DM %63,5 · H %36,0 · Müslüman %64,0 (172.737)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "row_bosna",
+   "value": "1.068.700 · T %0,4 · DM %50,6 · H %49,0 · Müslüman %51,0 (545.033)",
+   "src": "harita modeli (Yenipazar sancağı dâhil)"
+  },
+  {
+   "key": "row_hersek",
+   "value": "163.858 · T %0,4 · DM %48,6 · H %51,0 · Müslüman %49,0 (80.294)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "table_sum_check",
+   "value": "10 satırın toplamı 9.518 bin = TÜM RUMELİ",
+   "src": "harita modeli"
+  },
+  {
+   "key": "turks_by_vilayet",
+   "value": "Tuna 822.330 · Edirne 610.364 · Selanik 350.284 · Prizren–Üsküp 124.989 · Manastır 102.655 · Yanya 55.261 · Bosna+Hersek+İşkodra 6.270 (4.279 + 665 + 1.326)",
+   "src": "harita modeli"
+  },
+  {
+   "key": "muslim_majority_vilayets",
+   "value": "İşkodra %64,0 · Prizren–Üsküp %62,2 · Bosna %51,0",
+   "src": "harita modeli"
+  },
+  {
+   "key": "rec_tuna_1875_total",
+   "value": "1.120.954 erkek · %41,2 Müslüman (461.602) · Bulgar milleti %54,0",
+   "src": "Tuna Vilâyeti 1292/1875 Tahrir-i Cedid; A. Koyuncu, Turkish Studies 9/4 (2014), Tablo 20-21 (poster.py RECORDS['TUNA_1875'])"
+  },
+  {
+   "key": "rec_tuna_1875_varna",
+   "value": "85.805 erkek · %69,8",
+   "src": "Tahrir-i Cedid 1292/1875; Koyuncu 2014, Tablo 20-21 (59.874 Müslüman / 25.931 gayrimüslim, revise_tuna.json)"
+  },
+  {
+   "key": "rec_tuna_1875_tulca",
+   "value": "87.455 erkek · %64,2",
+   "src": "Tahrir-i Cedid 1292/1875; Koyuncu 2014 (56.152 / 31.303)"
+  },
+  {
+   "key": "rec_tuna_1875_ruscuk",
+   "value": "309.797 erkek · %61,5",
+   "src": "Tahrir-i Cedid 1292/1875; Koyuncu 2014 (190.622 Müslüman)"
+  },
+  {
+   "key": "rec_tuna_1875_tirnova",
+   "value": "245.894 erkek · %38,6",
+   "src": "Tahrir-i Cedid 1292/1875; Koyuncu 2014 (94.990 / 150.904)"
+  },
+  {
+   "key": "rec_tuna_1875_vidin",
+   "value": "178.823 erkek · %16,7",
+   "src": "Tahrir-i Cedid 1292/1875; Koyuncu 2014 (29.797 / 149.026)"
+  },
+  {
+   "key": "rec_tuna_1875_sofya",
+   "value": "213.180 erkek · %14,2",
+   "src": "Tahrir-i Cedid 1292/1875; Koyuncu 2014 (30.167 / 183.013)"
+  },
+  {
+   "key": "rec_tuna_1875_millet_split",
+   "value": "İslâm %36,2 · Çerkes ve Kıpti %4,9 · Bulgar %54,0 · diğer %4,8",
+   "src": "poster.py RECORDS['TUNA_1875'] (Koyuncu 2014, Tablo 20-21); ana posterdekiyle aynı"
+  },
+  {
+   "key": "rec_tuna_omitted_muhacir",
+   "value": "~20.000 muhacir salnameye geçmedi",
+   "src": "A. Koyuncu, Turkish Studies 9/4 (2014), revise_tuna.json caveats/changes ('20,000 muhacirs were dropped from the 1292 salname')"
+  },
+  {
+   "key": "rec_ruscuk_undercount",
+   "value": "~30.000 Müslüman erkek eksik (TC 190.622 ↔ Tuna gazetesi 1873 tetimme 220.718)",
+   "src": "Koyuncu 2014, revise_tuna.json changes"
+  },
+  {
+   "key": "rec_edirne_1293",
+   "value": "%38,2 (603.110 Müslüman / 1.577.754; toplam 1.594.186 içinden 16.432 Yahudi çıkarılınca)",
+   "src": "Devlet Salnamesi 1293, Edirne vilâyeti; Ubicini & Pavet de Courteille, État présent de l'Empire ottoman (1876) s. 91 (revise_edirne.json)"
+  },
+  {
+   "key": "rec_bosna_1870",
+   "value": "%51,0 (545.020 / 1.068.700; erkek ×2, Yenipazar dâhil)",
+   "src": "Bosna Vilâyeti Salnamesi 1287/1870; Z. Gölen, Belleten 65/242 (2001), Tablo II (revise_bosna_kosova.json)"
+  },
+  {
+   "key": "rec_hersek_1870",
+   "value": "%49,0 (80.296 / 163.858)",
+   "src": "Bosna Vilâyeti Salnamesi 1287/1870; Gölen 2001, Tablo II"
+  },
+  {
+   "key": "rec_yanya_1871",
+   "value": "%34,9 (250.749 / 718.350; Teselya ve Yahudiler dâhil)",
+   "src": "Yanya salnamesi 1288/1871, A. Dumont, Le Balkan et l'Adriatique (1874) s. 335 (revise_arnavut_yunan.json)"
+  },
+  {
+   "key": "rec_nis_1873",
+   "value": "%29,1 (32.895 Müslüman / 113.220 erkek; Vranya hariç)",
+   "src": "1873 Osmanlı kaydı (Prizren vilâyeti salnamesi), M. Jagodić, Balkanologie II/2 (1998), Tablo 1 (revise_tuna.json kaza rakamlarından toplam)"
+  },
+  {
+   "key": "mccarthy_muslims_1877",
+   "value": "1.501.883 = Tuna vilâyeti 1.069.580 + Şarkî Rumeli 432.303",
+   "src": "J. McCarthy, Death and Exile (1995) s. 108-110, aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013) dn. 51 — tahmin"
+  },
+  {
+   "key": "mccarthy_dead",
+   "value": "261.937 (%17,4 = 261.937 / 1.501.883)",
+   "src": "J. McCarthy tahmini, aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013); oran bu iki sayıdan hesap"
+  },
+  {
+   "key": "mccarthy_emigrated",
+   "value": "515.000 (%34,3 = 515.000 / 1.501.883)",
+   "src": "J. McCarthy tahmini, aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013); oran bu iki sayıdan hesap"
+  },
+  {
+   "key": "turan_estimate",
+   "value": "~1.200.000 Tuna vilâyeti + ~400.000 Şarkî Rumeli Müslümanı",
+   "src": "Ö. Turan, The Turkish Minority in Bulgaria 1878-1908 (TTK 1998), aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013)"
+  },
+  {
+   "key": "lost_lands_muslims",
+   "value": "≈2 milyon (2.027.541 = %48,3; Kırcaali/Tamraş kümeleri çıkarılınca 1.965.950 = %46,8) → 'yaklaşık yarısı'",
+   "src": "harita modeli: Tuna vilâyeti + Filibe ve İslimye sancakları + Bosna-Hersek (Yenipazar hariç) + Tırhala sancağı"
+  },
+  {
+   "key": "lost_lands_turks",
+   "value": "≈1,1 milyon (1.159.096 = %55,9; Kırcaali yöresi hariç 1.104.142 = %53,3) → 'yarıdan fazlası'",
+   "src": "harita modeli, aynı tanım"
+  },
+  {
+   "key": "lost_lands_population",
+   "value": "≈5,0 milyon (5.050.792 = %53,1; Kırcaali yöresi hariç 4.985.709 = %52,4) — görselde kullanılmadı, isteğe bağlı",
+   "src": "harita modeli, aynı tanım"
+  },
+  {
+   "key": "nis_muslims_1876",
+   "value": "~131.000 Müslüman",
+   "src": "J. McCarthy, 'Muslims in Ottoman Europe', Nationalities Papers 28/1 (2000) s. 35 — tahmin (revise_tuna.json)"
+  },
+  {
+   "key": "tulca_1875_muslim_pct",
+   "value": "%64,2",
+   "src": "Tahrir-i Cedid 1292/1875, Koyuncu 2014"
+  },
+  {
+   "key": "bosna_hersek_1870_wo_yenipazar",
+   "value": "%48,9 (523.748 / 1.072.064)",
+   "src": "Gölen 2001 sancak oranlarından hesap (Saray, İzvornik, Travnik, Bihke, Banaluka + Hersek); harita modeli bu sancak oranlarını birebir verir"
+  },
+  {
+   "key": "bosna_hersek_1879_austrian",
+   "value": "%38,7 (%38,73 Müslüman)",
+   "src": "Avusturya-Macaristan 16 Haziran 1879 sayımı (Haupt-Uebersicht 1880), research_bosna_kosova.json; toplam 1.158.440, Yenipazar hariç"
+  },
+  {
+   "key": "teselya_1878",
+   "value": "39.392 Müslüman / 324.093 kişi (%12,2)",
+   "src": "1878 sayımı (Popović), İ. Serbestoğlu, 'Yunanistan'a Geçiş Sürecinde Tesalya Müslümanlarının Durumu', Belleten (TTK), Tablo 1"
+  },
+  {
+   "key": "kosova_1880_muhacir",
+   "value": "41.354 muhacir (345.810 nüfusa ek)",
+   "src": "BOA Y.PRK.UM 3/75 ve M. Ünlü 2002, aktaran Mustafa Kemal Üniv. SBE Dergisi 11/25 (2014) (revise_bosna_kosova.json)"
+  },
+  {
+   "key": "post1_bg_1875_bulgar",
+   "value": "%55,8 Bulgar (her 100 kişiden 44'ü Bulgar değil)",
+   "src": "swenstone0 derlemesi (calibrate.py TOTAL_BG = 55.8)"
+  },
+  {
+   "key": "post1_bg_oblasts_below_half",
+   "value": "28 ilin 11'i (Rusçuk, Hezargrad, Silistre, Hacıoğlu Pazarcığı, Eski Cuma, Şumnu, Varna, Smolyan, Kırcaali, Hasköy, Sofya şehri)",
+   "src": "swenstone0 derlemesi (calibrate.py TARGET_BG < 50)"
+  },
+  {
+   "key": "post1_kircaali_bulgar",
+   "value": "%3",
+   "src": "swenstone0 derlemesi (TARGET_BG['Kardzhali'])"
+  },
+  {
+   "key": "post1_dot",
+   "value": "1 nokta = 250 kişi (≈50 hane); 702 bölge kümesi",
+   "src": "ana poster lejantı / data_cal küme sayısı"
+  }
+ ],
+ "caption": "RUMELİ 1876 · 8/8 | Rakamlarla Rumeli ve 93 Harbi\n\nSerinin son gönderisi: haritaların arkasındaki rakamlar.\n\n1876’da, 93 Harbi’nden (1877-78 Osmanlı-Rus Harbi) hemen önce, Osmanlı idaresindeki Rumeli’de (İstanbul hariç) yaklaşık 9,5 milyon kişi yaşıyordu. Harita modelimize göre:\n▪ Türk: 2,07 milyon (%21,8)\n▪ Diğer Müslüman (Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman): 2,13 milyon (%22,3)\n▪ Hristiyan: 5,32 milyon (%55,9)\nHer 100 kişiden 44’ü Müslümandı. Rumeli Türklerinin %69’u Tuna ve Edirne vilâyetlerinde yaşıyordu.\n\nOsmanlı kayıtları da aynı tabloyu çiziyor. Tuna Vilâyeti 1875 tahririnde erkeklerin %41,2’si Müslüman: Varna sancağında %69,8, Tulça’da %64,2, Rusçuk’ta %61,5. Edirne vilâyeti 1876: %38,2. Bosna 1870: %51,0, Hersek: %49,0.\n\nSonra 93 Harbi geldi. J. McCarthy’nin tahminine göre Tuna vilâyeti ile sonraki Şarkî Rumeli’de 1877’de yaşayan 1.501.883 Müslümandan 261.937’si hayatını kaybetti, 515.000’i göç etmek zorunda kaldı. Her 100 Müslümandan 17’si öldü, 34’ü yurdunu bıraktı.\n\nBerlin (1878) ve Teselya’nın devriyle (1881), 1876’daki Rumeli Müslümanlarının yaklaşık yarısının (≈2 milyon) yaşadığı topraklar doğrudan Osmanlı idaresinden çıktı.\n\nSeri: 1 Genel harita · 2 Deliorman ve Dobruca · 3 Trakya ve Rodoplar · 4 Makedonya ve Teselya · 5 Arnavutluk, Kosova ve Epir · 6 Bosna-Hersek ve Yenipazar · 7 Bulgaristan 1875, il il · 8 Rakamlar\n\nKaynaklar: Tuna 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne 1293 Devlet Salnamesi · Bosna 1287/1870 salnamesi (Z. Gölen, Belleten 65, 2001) · McCarthy tahmini, aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013). Model: Osmanlı kayıtları esas, erkek sayımları ×2, Yahudiler ve İstanbul hariç. Türk / diğer Müslüman ayrımı ve kayıp rakamları tahmindir.\n\n#Rumeli #93Harbi #OsmanlıTarihi #Balkanlar #BalkanTürkleri #TunaVilayeti #Deliorman #Dobruca #Edirne #Bosna #Kosova #Teselya #BerlinAntlaşması #Muhacir #TarihHaritası",
+ "caption_post1": "RUMELİ’NİN SON IŞIKLARI · 1876 | RUMELİ 1876 · 1/8\n\n1876’da Balkanlar’da kim, nerede yaşıyordu?\n\nHer nokta yaklaşık 250 kişi (≈50 hane). Kırmızı: Türk (Tatar ve Nogaylar dâhil). Sarı: diğer Müslümanlar (Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman). Mavi: Hristiyanlar (Bulgar, Rum, Sırp, Ulah, Ermeni, Gagavuz…).\n\nZaman: 1877-78 Osmanlı-Rus Harbi’nden, yani 93 Harbi’nden hemen önce. Deliorman ve Dobruca, Doğu Rodoplar, Kırcaali, Konyar Türkleri, Pomak, Arnavut ve Boşnak yurtları haritada ışık ışık seçiliyor.\n\n▪ Osmanlı kaydı: Tuna Vilâyeti 1875 tahririne göre erkek nüfusun %41,2’si Müslüman, %54,0’ı Bulgar milleti.\n▪ Bugünkü Bulgaristan toprakları 1875: nüfusun %55,8’i Bulgar; her 100 kişiden 44’ü Bulgar değildi. 28 ilin 11’inde Bulgarlar yarının altındaydı; Kırcaali’de oran yalnızca %3’tü.\n▪ İstanbul hariç tüm Rumeli’de (harita modeli) her 100 kişiden 44’ü Müslümandı.\n\nSonra 93 Harbi geldi: J. McCarthy’nin tahminine göre Tuna vilâyeti ve sonraki Şarkî Rumeli’deki 1.501.883 Müslümandan 261.937’si hayatını kaybetti, 515.000’i göç etti.\n\nBu harita, büyük göçten hemen önceki Rumeli’yi gösteriyor.\n\nÖnümüzdeki günlerde haritayı bölge bölge açıyoruz:\n2 Tuna Vilâyeti: Deliorman ve Dobruca\n3 Edirne Vilâyeti: Trakya ve Rodoplar\n4 Makedonya ve Teselya\n5 Arnavutluk, Kosova ve Epir\n6 Bosna-Hersek ve Yenipazar\n7 Bulgaristan 1875, il il\n8 Rakamlarla Rumeli 1876 ve 93 Harbi\n\nYöntem: 702 bölge kümesi; Osmanlı salname ve tahrirleri esas (erkek sayımları ×2), kayıt eksiği bilinen yerlerde düzeltme; Bulgaristan’da il oranlarına göre ayar. Nokta yerleri temsilîdir; Yahudiler gösterilmedi. Kaynaklar: Tuna 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne 1293 Devlet Salnamesi · Bosna 1287/1870 salnamesi (Z. Gölen, Belleten 65, 2001) · McCarthy tahmini (aktaran A. Koyuncu, Avrasya Etüdleri 44, 2013) · il oranları: swenstone0 derlemesi.\n\n#Rumeli #93Harbi #OsmanlıTarihi #Balkanlar #BalkanTürkleri #TarihHaritası #Deliorman #Dobruca #Rodoplar #Kırcaali #Bulgaristan #Muhacir #OsmanlıRusSavaşı",
+ "notes": "The data files were only read. Nothing in /home/user/Xxxx/haritalar/balkanlar_1876 was changed. The working scripts are in /tmp/claude-0/-home-user-Xxxx/8312eb06-b97c-549a-9b3c-9a6885d14721/scratchpad/ (p8_stats.py, p8_stats2.py, p8_stats3.py, p8_captions.py).\n\n1) Consistency with post 1: the totals from data_cal/clusters_calibrated.json match the main poster's table exactly: TÜM RUMELİ %44,1; Tuna (Niş hariç) %40,7; Edirne %40,3; Bosna %51,0; Hersek %49,0; Selanik %47,5; Manastır %39,3; Prizren–Üsküp %62,2; Yanya %33,2; İşkodra %64,0. The Prizren–Üsküp and Manastır rows use the same split as poster.py stats(). The 10 table rows add up exactly to 9.518 bin. Shares are rounded by largest remainder, so Türk and Diğer Müslüman add to the Müslüman figure (21,8 + 22,3 = 44,1). The raw Diğer Müslüman share is 22,36, which ordinary rounding would make 22,4. Captions are 1.889 characters (post 8) and 2.018 characters (post 1), both under Instagram's 2.200 limit. Post 8 carries 15 hashtags, post 1 carries 13.\n\n2) Record column: the four required records are Tuna %41,2 (1875), Edirne %38,2 (1293/1876, Jews excluded: 603.110 / 1.577.754), Bosna %51,0 and Hersek %49,0. I added two more Ottoman records from the research files: Yanya %34,9 (1288/1871 salname via Dumont; includes Teselya and Jews) and Niş %29,1 (1873 register via Jagodić; male count, Vranya excluded). They can be dropped. In Niş the model is 4,5 points above the record because of the McCarthy uplift; table_note says so openly. Because of Niş I did not print a 'model within 2,1 points of the records' claim. That claim is true only without Niş.\n\n3) Aftermath extras, each with an exact source from the research files:\n- Teselya 1878: 39.392 Muslims out of 324.093 (Serbestoğlu, Belleten).\n- Niş: about 131.000 Muslims (McCarthy 2000, an estimate).\n- Kosova 1880: 41.354 muhacirs (BOA Y.PRK.UM 3/75 via MKÜ SBE Dergisi 11/25, 2014). The chain of citation is indirect.\n- Bosna-Hersek: Muslim share 48,9 in 1870 (Gölen sancak rows, Yenipazar excluded) against 38,7 in the 1879 Austrian census. The research caveat says counting Kıpti as Muslim may raise the 1870 figure by about 1 point. The text states no cause for the drop.\n- Turan's alternative: about 1,2 million + about 400.000.\n- The McCarthy percentages (17,4 / 34,3) are simple arithmetic on McCarthy's own three figures.\n- The 1880/1881 Bulgarian and Eastern Rumelian census Muslim shares are NOT in the research files, so they were not used. Please do not add them from memory.\n- Left out but sourced, can be used later: Edirne şehri had 35.000 Muslims of 94.000 in 1858 and 20.000 of 74.000 in 1882 (Belleten TTK tam metin 102, author not named in the file). Selanik Muslims averaged about 49% in 1860-78 (Akarlı via Karpat 1985, Table 3.7). The Kosova 1878-79 count was 496.078 at 60,26% Muslim.\n\n4) The '≈2 milyon / yaklaşık yarısı' claim is computed from the model. The area is the Tuna vilâyeti, Filibe and İslimye sancakları, Bosna-Hersek without Yenipazar, and Tırhala sancağı. That gives 2.027.541 Muslims (48,3%). Leaving out the Kırcaali/Tamraş clusters, which stayed Ottoman until 1886, gives 1.965.950 (46,8%). Turks come to 1,10–1,16 million (53–56%). The wording is safe under both definitions. Karadağ's gains are not counted, which would only push the figures up.\n\n5) Locator coordinates (lon E, lat N). All were taken from cluster or icerik city coordinates and checked against Natural Earth 10m: all are on land and none falls in a lake.\n- BULGARİSTAN PRENSLİĞİ: Tırnova 25.63, 43.08\n- ŞARKÎ RUMELİ: Filibe 24.75, 42.15\n- ROMANYA’YA: Tulça 28.80, 45.18\n- SIRBİSTAN’A: Niş 21.90, 43.32\n- AVUSTURYA İŞGALİ: Saraybosna 18.413, 43.856\n- KARADAĞ’A: Nikşik 18.945, 42.773\n- YUNANİSTAN’A (1881): Yenişehir/Larissa 22.419, 39.639\n- KOSOVA: Priştine 21.164, 42.663\n- OSMANLI’DA KALAN: Manastır 21.330, 41.032\n- Vilâyet seats: Rusçuk 25.96, 43.84; Edirne 26.555, 41.677; Selanik 22.945, 40.645; Üsküp 21.432, 41.996; Prizren 20.740, 42.214; Yanya 20.853, 39.665; İşkodra 19.512, 42.068; Mostar 17.808, 43.343.\n- Shading for the lost lands: all Tuna clusters, Edirne clusters with sancak Filibe/İslimye, Bosna/Hersek clusters except sancak Yenipazar, and Yanya clusters with sancak Tırhala.\n\n6) Suggested layout for 2160x2700:\n- Header.\n- Hero row: 9,52 milyon | %44,1 | 100-square waffle 22/22/56 with the three group cards.\n- 4 fact chips.\n- Vilâyet table on the left about 60%, with 'Türkler nerede' bars on the right.\n- Tuna 1875 record strip.\n- Bottom band: 93 Harbi big numbers on the left, Berlin locator and list on the right.\n- Footnotes.\n\n7) DATA WARNING for the other posts: the auto-calibration produced implausible shares in some town clusters. 'Sofya şehri' is 89,8% Türk / 2,3% Hristiyan, while the research gives the town about 47% Muslim. 'Şumnu şehri' is 12,8% Türk / 85,5% Hristiyan. Do not print town-level shares from clusters_calibrated.json in posts 2, 3 or 7. Vilâyet totals are fine. Calibration also lowered Tuna (Niş hariç) from 44,2% Muslim in the uncalibrated data/ files to 40,7%, so the published model is the conservative one."
+}

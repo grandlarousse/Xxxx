@@ -76,6 +76,22 @@ def sample_master(F, m0, F0):
     return m0[i, j] & inside
 
 
+GLYPH_FIX = {"→": "›", "↔": "–", "←": "‹"}
+
+
+def sanitize(x):
+    """Yazı tiplerinde olmayan karakterleri değiştir (kutu/tofu çıkmasın)."""
+    if isinstance(x, str):
+        for a_, b_ in GLYPH_FIX.items():
+            x = x.replace(a_, b_)
+        return x
+    if isinstance(x, list):
+        return [sanitize(v) for v in x]
+    if isinstance(x, dict):
+        return {k: sanitize(v) for k, v in x.items()}
+    return x
+
+
 def in_focus(c, focus):
     for vil, sans in focus:
         if c.get("vilayet") == vil and (sans is None or (c.get("sancak") or "") in sans):
@@ -487,7 +503,7 @@ def main():
     os.makedirs(a.out, exist_ok=True)
     for key in (a.keys or list(REGIONS)):
         p = os.path.join(SERI, f"icerik_{key}.json")
-        cfg = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else default_cfg(key)
+        cfg = sanitize(json.load(open(p, encoding="utf-8"))) if os.path.exists(p) else default_cfg(key)
         render_region(key, cfg, a.out)
 
 

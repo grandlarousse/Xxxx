@@ -12,7 +12,34 @@ Görseller: `cikti/seri/NN_*_ig.jpg` (Instagram 1080×1350). Tam çözünürlük
 Görsel: `cikti/seri/01_*_ig.jpg`
 
 ```
-(metin bekleniyor)
+RUMELİ’NİN SON IŞIKLARI · 1876 | RUMELİ 1876 · 1/8
+
+1876’da Balkanlar’da kim, nerede yaşıyordu?
+
+Her nokta yaklaşık 250 kişi (≈50 hane). Kırmızı: Türk (Tatar ve Nogaylar dâhil). Sarı: diğer Müslümanlar (Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman). Mavi: Hristiyanlar (Bulgar, Rum, Sırp, Ulah, Ermeni, Gagavuz…).
+
+Zaman: 1877-78 Osmanlı-Rus Harbi’nden, yani 93 Harbi’nden hemen önce. Deliorman ve Dobruca, Doğu Rodoplar, Kırcaali, Konyar Türkleri, Pomak, Arnavut ve Boşnak yurtları haritada ışık ışık seçiliyor.
+
+▪ Osmanlı kaydı: Tuna Vilâyeti 1875 tahririne göre erkek nüfusun %41,2’si Müslüman, %54,0’ı Bulgar milleti.
+▪ Bugünkü Bulgaristan toprakları 1875: nüfusun %55,8’i Bulgar; her 100 kişiden 44’ü Bulgar değildi. 28 ilin 11’inde Bulgarlar yarının altındaydı; Kırcaali’de oran yalnızca %3’tü.
+▪ İstanbul hariç tüm Rumeli’de (harita modeli) her 100 kişiden 44’ü Müslümandı.
+
+Sonra 93 Harbi geldi: J. McCarthy’nin tahminine göre Tuna vilâyeti ve sonraki Şarkî Rumeli’deki 1.501.883 Müslümandan 261.937’si hayatını kaybetti, 515.000’i göç etti.
+
+Bu harita, büyük göçten hemen önceki Rumeli’yi gösteriyor.
+
+Önümüzdeki günlerde haritayı bölge bölge açıyoruz:
+2 Tuna Vilâyeti: Deliorman ve Dobruca
+3 Edirne Vilâyeti: Trakya ve Rodoplar
+4 Makedonya ve Teselya
+5 Arnavutluk, Kosova ve Epir
+6 Bosna-Hersek ve Yenipazar
+7 Bulgaristan 1875, il il
+8 Rakamlarla Rumeli 1876 ve 93 Harbi
+
+Yöntem: 702 bölge kümesi; Osmanlı salname ve tahrirleri esas (erkek sayımları ×2), kayıt eksiği bilinen yerlerde düzeltme; Bulgaristan’da il oranlarına göre ayar. Nokta yerleri temsilîdir; Yahudiler gösterilmedi. Kaynaklar: Tuna 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne 1293 Devlet Salnamesi · Bosna 1287/1870 salnamesi (Z. Gölen, Belleten 65, 2001) · McCarthy tahmini (aktaran A. Koyuncu, Avrasya Etüdleri 44, 2013) · il oranları: swenstone0 derlemesi.
+
+#Rumeli #93Harbi #OsmanlıTarihi #Balkanlar #BalkanTürkleri #TarihHaritası #Deliorman #Dobruca #Rodoplar #Kırcaali #Bulgaristan #Muhacir #OsmanlıRusSavaşı
 ```
 
 
@@ -195,5 +222,25 @@ Sizin aileniz bu illerin hangisinden geldi? Yorumlara yazın.
 Görsel: `cikti/seri/08_*_ig.jpg`
 
 ```
-(metin bekleniyor)
+RUMELİ 1876 · 8/8 | Rakamlarla Rumeli ve 93 Harbi
+
+Serinin son gönderisi: haritaların arkasındaki rakamlar.
+
+1876’da, 93 Harbi’nden (1877-78 Osmanlı-Rus Harbi) hemen önce, Osmanlı idaresindeki Rumeli’de (İstanbul hariç) yaklaşık 9,5 milyon kişi yaşıyordu. Harita modelimize göre:
+▪ Türk: 2,07 milyon (%21,8)
+▪ Diğer Müslüman (Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman): 2,13 milyon (%22,3)
+▪ Hristiyan: 5,32 milyon (%55,9)
+Her 100 kişiden 44’ü Müslümandı. Rumeli Türklerinin %69’u Tuna ve Edirne vilâyetlerinde yaşıyordu.
+
+Osmanlı kayıtları da aynı tabloyu çiziyor. Tuna Vilâyeti 1875 tahririnde erkeklerin %41,2’si Müslüman: Varna sancağında %69,8, Tulça’da %64,2, Rusçuk’ta %61,5. Edirne vilâyeti 1876: %38,2. Bosna 1870: %51,0, Hersek: %49,0.
+
+Sonra 93 Harbi geldi. J. McCarthy’nin tahminine göre Tuna vilâyeti ile sonraki Şarkî Rumeli’de 1877’de yaşayan 1.501.883 Müslümandan 261.937’si hayatını kaybetti, 515.000’i göç etmek zorunda kaldı. Her 100 Müslümandan 17’si öldü, 34’ü yurdunu bıraktı.
+
+Berlin (1878) ve Teselya’nın devriyle (1881), 1876’daki Rumeli Müslümanlarının yaklaşık yarısının (≈2 milyon) yaşadığı topraklar doğrudan Osmanlı idaresinden çıktı.
+
+Seri: 1 Genel harita · 2 Deliorman ve Dobruca · 3 Trakya ve Rodoplar · 4 Makedonya ve Teselya · 5 Arnavutluk, Kosova ve Epir · 6 Bosna-Hersek ve Yenipazar · 7 Bulgaristan 1875, il il · 8 Rakamlar
+
+Kaynaklar: Tuna 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne 1293 Devlet Salnamesi · Bosna 1287/1870 salnamesi (Z. Gölen, Belleten 65, 2001) · McCarthy tahmini, aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013). Model: Osmanlı kayıtları esas, erkek sayımları ×2, Yahudiler ve İstanbul hariç. Türk / diğer Müslüman ayrımı ve kayıp rakamları tahmindir.
+
+#Rumeli #93Harbi #OsmanlıTarihi #Balkanlar #BalkanTürkleri #TunaVilayeti #Deliorman #Dobruca #Edirne #Bosna #Kosova #Teselya #BerlinAntlaşması #Muhacir #TarihHaritası
 ```

@@ -41,7 +41,7 @@ def texts_for(key, defaults):
         cfg = json.load(open(p, encoding="utf-8"))
         for k, v in (cfg.get("texts") or {}).items():
             if isinstance(v, str) and v.strip():
-                t[k] = v
+                t[k] = S.sanitize(v)
     return t
 
 
@@ -288,9 +288,9 @@ def post_rakamlar(out_dir):
     # arka plana soluk nokta haritası (ana posterden)
     mp = os.path.join(HERE, "cikti", "rumeli_1876.png")
     if os.path.exists(mp):
-        m = Image.open(mp).convert("RGBA")
+        m = Image.open(mp).convert("RGBA").filter(ImageFilter.GaussianBlur(3))
         a = np.asarray(m, np.float32).copy()
-        a[..., 3] = 255 * 0.20
+        a[..., 3] = 255 * 0.16
         a[:560, :, 3] = 0
         a[2100:, :, 3] = 0
         for (x0_, y0_, x1_, y1_) in ((1040, 590, 1760, 950), (40, 1680, 540, 2160), (1690, 1630, 2120, 2100),
@@ -317,6 +317,13 @@ def post_rakamlar(out_dir):
     mus = p[0] + p[1]
     d.text((1180, y0 + 200), fmt_pct(mus), font=bs(150), fill=IV, anchor="ls")
     d.text((1186, y0 + 240), f"Müslüman: her 100 kişiden {tr_poss(round(mus))}", font=bar(26, "SemiBold"), fill=IV, anchor="ls")
+    fy = y0 + 92
+    for key in ("fact_1", "fact_2", "fact_3"):
+        t_ = T.get(key, "")
+        for ln in S.wrap(t_, bar(22, "SemiBold"), 520)[:2]:
+            d.text((1560, fy), ln, font=bar(22, "SemiBold"), fill=TINT[0] if key == "fact_1" else IV2, anchor="ls")
+            fy += 27
+        fy += 10
     # yığılmış çubuk
     bx0, bw, by = 110, 1940, y0 + 300
     xs = bx0
@@ -337,6 +344,8 @@ def post_rakamlar(out_dir):
     cv.tracked((110, y1 + 46), "VİLÂYET VE SANCAKLARA GÖRE", bar(24, "SemiBold"), 4, BRASS)
     in_ott = ok
     ROWS = P.stats(cl, np.array([v not in S.NONOTT for v in vil]))
+    ROWS = [(n_, g_, p_, (34.9 if n_ == "Yanya" else r_)) for (n_, g_, p_, r_) in ROWS]
+    P.REC_YEAR["Yanya"] = "1871"
     bx0, bw = 380, 560
     yy0 = y1 + 100
     for i, (n_, gg, pp, rec) in enumerate(ROWS[:10]):
@@ -394,30 +403,54 @@ def post_rakamlar(out_dir):
         d.text((kx + 18, ky), lab_, font=bar(19, "Medium"), fill=IV2, anchor="ls")
         kx += 18 + bar(19, "Medium").getlength(lab_) + 22
     d.text((x2 + 30, ky + 34), "Kaynak: A. Koyuncu, Turkish Studies 9/4 (2014)", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
-    # ---- 93 Harbi
+    # ---- 93 Harbi + Berlin
     y3 = 1840
-    ov = Image.new("RGBA", (2000, 700), (4, 6, 10, 225))
+    ov = Image.new("RGBA", (2000, 720), (4, 6, 10, 228))
     cv.img.alpha_composite(ov, (80, y3))
     d = cv.d
     d.line((80, y3, 2080, y3), fill=BRASS, width=2)
     M = RECORDS["MCCARTHY"]
-    cv.tracked((110, y3 + 48), "SONRA: 93 HARBİ, 1877–78", bar(24, "SemiBold"), 4, BRASS)
-    cols = [(fmt_int(M["muslims"]), "Müslüman (1877)", "Tuna vilâyeti + sonraki Şarkî Rumeli"),
-            (fmt_int(M["dead"]), "hayatını kaybetti", "savaş, katliam, hastalık ve açlık"),
-            (fmt_int(M["emigrated"]), "göç etti", "Anadolu’ya ve Osmanlı topraklarına")]
+    cv.tracked((110, y3 + 48), T.get("after_head", "SONRA: 93 HARBİ, 1877–78"), bar(24, "SemiBold"), 4, BRASS)
+    cols = [(fmt_int(M["muslims"]), "Müslüman (1877)", "Tuna + sonraki Şarkî Rumeli"),
+            (fmt_int(M["dead"]), "hayatını kaybetti", "%17,4"),
+            (fmt_int(M["emigrated"]), "göç etti", "%34,3")]
     for i, (big, l1, l2) in enumerate(cols):
-        x_ = 110 + i * 660
-        d.text((x_, y3 + 210), big, font=bs(130), fill=IV, anchor="ls")
-        d.text((x_ + 4, y3 + 254), l1, font=bar(30, "SemiBold"), fill=IV, anchor="ls")
-        d.text((x_ + 4, y3 + 288), l2, font=bar(21, "Medium"), fill=IV2, anchor="ls")
-    lost = (M["dead"] + M["emigrated"]) / M["muslims"] * 100
-    d.text((110, y3 + 400), f"Her 100 Müslümandan yaklaşık {tr_poss(round(lost))} ya öldü ya da yurdunu terk etti.", font=bod(46, 600, 11), fill=IV, anchor="ls")
-    d.text((110, y3 + 446), f"(({fmt_int(M['dead'])} + {fmt_int(M['emigrated'])}) / {fmt_int(M['muslims'])} = {fmt_pct(lost)})", font=bar(20, "Medium"), fill=MUTE, anchor="ls")
-    note = T.get("aftermath_note", "J. McCarthy tahmini; aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013). Rakamlar tartışmalıdır; yine de 1876 haritasındaki Müslüman Rumeli’nin büyük kısmı birkaç ay içinde dağıldı.")
-    yy = y3 + 500
-    for ln in S.wrap(note, bar(21, "Medium"), 1900)[:3]:
-        d.text((110, yy), ln, font=bar(21, "Medium"), fill=IV2, anchor="ls")
-        yy += 28
+        x_ = 110 + i * 360
+        d.text((x_, y3 + 170), big, font=bs(92), fill=IV, anchor="ls")
+        d.text((x_ + 2, y3 + 206), l1, font=bar(26, "SemiBold"), fill=IV, anchor="ls")
+        d.text((x_ + 2, y3 + 236), l2, font=bar(20, "Medium"), fill=IV2, anchor="ls")
+    yy = y3 + 316
+    line = T.get("after_line", "Her 100 Müslümandan 17’si öldü, 34’ü yurdunu bırakmak zorunda kaldı.")
+    for ln in S.wrap(line, bod(40, 600, 11), 1020)[:2]:
+        d.text((110, yy), ln, font=bod(40, 600, 11), fill=IV, anchor="ls")
+        yy += 50
+    yy += 6
+    for key in ("after_alt", "after_src"):
+        for ln in S.wrap(T.get(key, ""), bar(18, "Medium"), 1020)[:3]:
+            d.text((110, yy), ln, font=bar(18, "Medium"), fill=MUTE if key == "after_src" else IV2, anchor="ls")
+            yy += 23
+        yy += 6
+    d.line((1180, y3 + 30, 1180, y3 + 690), fill=BRASS[:3] + (90,), width=1)
+    bx = 1210
+    cv.tracked((bx, y3 + 48), T.get("berlin_head", "BERLİN 1878: KOPAN TOPRAKLAR"), bar(22, "SemiBold"), 4, BRASS)
+    d.text((bx, y3 + 160), T.get("berlin_big", "≈2 milyon"), font=bs(104), fill=IV, anchor="ls")
+    yy = y3 + 200
+    for ln in S.wrap(T.get("berlin_big_label", ""), bar(21, "SemiBold"), 850)[:4]:
+        d.text((bx, yy), ln, font=bar(21, "SemiBold"), fill=IV, anchor="ls")
+        yy += 27
+    yy += 10
+    for i in range(1, 9):
+        t_ = T.get(f"berlin_item_{i}", "")
+        if not t_:
+            continue
+        lines_ = S.wrap(t_, bar(17, "Medium"), 830)[:2]
+        d.rectangle((bx, yy - 11, bx + 6, yy - 5), fill=BRASS)
+        for ln in lines_:
+            d.text((bx + 16, yy), ln, font=bar(17, "Medium"), fill=IV2, anchor="ls")
+            yy += 21
+        yy += 4
+        if yy > y3 + 690:
+            break
     srcs = ["Kaynaklar: " + " · ".join([RECORDS["TUNA_1875"]["src"], RECORDS["EDIRNE_1293"]["src"], RECORDS["BOSNA_1287"]["src"], RECORDS["MCCARTHY"]["src"]]),
             "Model: Osmanlı salname/sayım verilerine dayalı 702 bölge kümesi (ana poster ile aynı) · İstanbul ve 1876’da Osmanlı idaresi dışındaki devletler hariç"]
     finish(cv, 8, srcs, out_dir, "08_rakamlar")
