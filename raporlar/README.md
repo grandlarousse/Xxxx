@@ -25,3 +25,15 @@ Klasör: `2026-11-02_viop_leadlag/`
 - `bulgular_tum_ajanlar.csv`, `dogrulama/`, `ajanlar/`, `veri_ozet/`, `hesaplar/`: Ham bulgular, doğrulama notları, ajan raporları, özet veriler ve kod.
 
 Yatırım tavsiyesi değildir.
+
+---
+
+# Nezaket örüntüsünü kırmak: aile kliniği, DUS uzmanlığı ve Kanada (03.11.2026)
+
+Klasör: `2026-11-03_dishekimligi_isyeri/`
+
+- `RAPOR.md`: Sentez. Beş hüküm, şimdi yapılacak üç şey, teşhis (üç tür kötü muamele, nezaket ve yatıştırma farkı), üç senaryo için öneriler, uzlaşı paketleri ve kelimesi kelimesine cümleler, senaryolar arası etkileşim, ana ajanın kendi okuması, oylama sonucu, düzeltilen hatalar, kanıt sınırları.
+- `ajanlar/`: Brif, 8 araştırma raporu (`r1_*`), 5 panelistin iki turu (`t1_*`, `t2_*`), moderatör önermeleri, hakem kararı (`h_konsensus.md`), boşluk dosyaları (`b*`) ve ikinci tur tamamlamaları.
+- `dogrulama/`: Her araştırma dosyası için bağımsız çürütme denemesi ve ikinci tur yeniden kontrol (`d_tekrar.md`).
+
+Tıbbi, hukuki ya da göçmenlik tavsiyesi değildir.
