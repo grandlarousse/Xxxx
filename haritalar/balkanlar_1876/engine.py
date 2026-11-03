@@ -142,8 +142,44 @@ def cluster_population(c):
     return DENS_KM2.get(c.get("density", "normal"), 34.0) * math.pi * r * r * 0.85
 
 
+def suitability(frame, land_mask, elev, grid_step=2.0):
+    """Yerleşime elverişlilik ızgarası (deniz 0, yüksek ve dik yerler az)."""
+    cell_m = frame.mpp * grid_step
+    gy, gx = np.gradient(gaussian_filter(elev, 1.0), cell_m)
+    slope = np.hypot(gx, gy)
+    suit = 1.0 / (1.0 + (np.maximum(elev, 0) / 1500.0) ** 4)
+    suit *= 1.0 / (1.0 + (slope / 0.30) ** 2)
+    suit *= (elev < 2300)
+    suit = suit * land_mask
+    return gaussian_filter(suit.astype(np.float32), 0.6) * land_mask
+
+
+def footprint(c, frame, suit, land_mask, grid_step=2.0, kernel_cut=1.7):
+    """Kümenin nüfusunu dağıttığı hücreler: (II, JJ, ağırlık) ya da None."""
+    gH, gW = suit.shape
+    cell_m = frame.mpp * grid_step
+    px, py = frame.ll_to_px(c["lon"], c["lat"])
+    gxc, gyc = px / grid_step, py / grid_step
+    r_cells = float(c["radius_km"]) * 1000 / cell_m
+    R = int(math.ceil(kernel_cut * r_cells)) + 1
+    i0, i1 = max(0, int(gyc) - R), min(gH, int(gyc) + R + 1)
+    j0, j1 = max(0, int(gxc) - R), min(gW, int(gxc) + R + 1)
+    if i1 <= i0 or j1 <= j0:
+        return None
+    II, JJ = np.mgrid[i0:i1, j0:j1]
+    d = np.hypot(II + 0.5 - gyc, JJ + 0.5 - gxc) / max(r_cells, 0.5)
+    kern = np.exp(-0.5 * (d / 0.78) ** 2) * (d < kernel_cut)
+    base = kern * suit[i0:i1, j0:j1]
+    if base.sum() <= 0:
+        base = kern * land_mask[i0:i1, j0:j1]
+        if base.sum() <= 0:
+            return None
+    return II, JJ, base / base.sum()
+
+
 def make_dots(clusters, frame, land_mask, elev, people_per_dot=250, seed=1876,
-              grid_step=2.0, village_size=(2, 9), village_sigma_km=0.9):
+              grid_step=2.0, village_size=(2, 9), village_sigma_km=0.9, return_cluster=False,
+              kernel_cut=1.7):
     """Nokta yoğunluğu: her küme kendi nüfusunu kendi alanına dağıtır.
 
     Dönüş: x_px, y_px, kat (0 Türk, 1 diğer Müslüman, 2 Hristiyan)
@@ -162,8 +198,8 @@ def make_dots(clusters, frame, land_mask, elev, people_per_dot=250, seed=1876,
     # her grup için mekânsal lekelenme alanı (köyler gruplaşır)
     patch = [np.exp(1.15 * (0.8 * smooth_noise(rng, (gH, gW), 7) + 0.6 * smooth_noise(rng, (gH, gW), 2.2)))
              for _ in CATS]
-    xs, ys, ks = [], [], []
-    for c in clusters:
+    xs, ys, ks, cs = [], [], [], []
+    for ci, c in enumerate(clusters):
         P = cluster_population(c)
         sh = np.array([max(0.0, float(c[k])) for k in CATS])
         if sh.sum() <= 0 or P <= 0:
@@ -172,14 +208,14 @@ def make_dots(clusters, frame, land_mask, elev, people_per_dot=250, seed=1876,
         px, py = frame.ll_to_px(c["lon"], c["lat"])
         gxc, gyc = px / grid_step, py / grid_step
         r_cells = float(c["radius_km"]) * 1000 / cell_m
-        R = int(math.ceil(1.7 * r_cells)) + 1
+        R = int(math.ceil(kernel_cut * r_cells)) + 1
         i0, i1 = max(0, int(gyc) - R), min(gH, int(gyc) + R + 1)
         j0, j1 = max(0, int(gxc) - R), min(gW, int(gxc) + R + 1)
         if i1 <= i0 or j1 <= j0:
             continue
         II, JJ = np.mgrid[i0:i1, j0:j1]
         d = np.hypot(II + 0.5 - gyc, JJ + 0.5 - gxc) / max(r_cells, 0.5)
-        kern = np.exp(-0.5 * (d / 0.78) ** 2) * (d < 1.7)
+        kern = np.exp(-0.5 * (d / 0.78) ** 2) * (d < kernel_cut)
         base = kern * suit[i0:i1, j0:j1]
         if base.sum() <= 0:
             # kıyıda/kara dışında kalan küme: en yakın kara hücresine
@@ -205,9 +241,11 @@ def make_dots(clusters, frame, land_mask, elev, people_per_dot=250, seed=1876,
             xs.append(dx * grid_step)
             ys.append(dy * grid_step)
             ks.append(np.full(n, k, np.int8))
+            cs.append(np.full(n, ci, np.int32))
     x = np.concatenate(xs)
     y = np.concatenate(ys)
     k = np.concatenate(ks)
+    cidx = np.concatenate(cs)
     # denize düşenleri en yakın karaya it
     gi = np.clip((y / grid_step).astype(int), 0, gH - 1)
     gj = np.clip((x / grid_step).astype(int), 0, gW - 1)
@@ -217,4 +255,6 @@ def make_dots(clusters, frame, land_mask, elev, people_per_dot=250, seed=1876,
         x[wet] = (nj[gi[wet], gj[wet]] + rng.random(wet.sum())) * grid_step
         y[wet] = (ni[gi[wet], gj[wet]] + rng.random(wet.sum())) * grid_step
     order = rng.permutation(x.size)
+    if return_cluster:
+        return x[order], y[order], k[order], cidx[order]
     return x[order], y[order], k[order]
