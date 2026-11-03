@@ -125,6 +125,15 @@ def data_region(countries):
         (27.27, 44.12), (27.70, 44.20), (28.02, 44.33), (27.95, 44.68), (27.97, 45.15),
         (28.10, 45.42), (28.45, 45.30), (28.75, 45.26), (29.10, 45.30), (29.9, 45.40),
         (29.9, 43.6), (27.27, 43.6)])
+    fr = os.path.join(HERE, "data", "frontier_1876.json")
+    if os.path.exists(fr):
+        # 1876 Dobruca sınırı: Tuna kolları (Kiepert 1870) boyunca
+        for ln in json.load(open(fr, encoding="utf-8"))["lines"]:
+            if "Dobruca" in ln["name"]:
+                co = [tuple(c) for c in ln["coords"]]
+                if co[0][0] > co[-1][0]:
+                    co = co[::-1]
+                dobruja = shapely.make_valid(Polygon(co + [(30.2, 45.3), (30.2, 43.6), (co[0][0], 43.6)]))
     parts.append(by["ROU"].intersection(dobruja))
     # Yunanistan: ekranda kalan kısım (Girit hariç)
     parts.append(by["GRC"].intersection(box(19, 37.6, 27, 42)))

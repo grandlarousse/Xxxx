@@ -18,7 +18,7 @@ import numpy as np
 import shapely
 import geopandas as gpd
 from shapely.geometry import box, Point
-from scipy.ndimage import gaussian_filter, distance_transform_edt, label as nd_label, binary_dilation
+from scipy.ndimage import gaussian_filter, distance_transform_edt, label as nd_label, binary_dilation, binary_opening
 from scipy.spatial import cKDTree
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
@@ -59,9 +59,9 @@ RECORDS = {
     "TUNA_1875": dict(males=1120954, muslim=461602, muslim_pct=41.2, bulgar_pct=54.0,
                       islam_pct=36.2, cerkes_kibti_pct=4.9, diger_pct=4.8,
                       src="Tuna Vilâyeti 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014)"),
-    "EDIRNE_1293": dict(muslim_pct=38.2, src="Edirne 1293 salnamesi (Ubicini & Pavet de Courteille 1876)"),
+    "EDIRNE_1293": dict(muslim_pct=38.2, src="Devlet Salnamesi 1293, Edirne vilâyeti (Ubicini & Pavet de Courteille 1876)"),
     "BOSNA_1287": dict(bosna_pct=51.0, hersek_pct=49.0, src="Bosna 1287/1870 salnamesi (Z. Gölen, Belleten 65, 2001)"),
-    "BG1875": dict(src="1875 il bazında Bulgar oranları (swenstone0 derlemesi)", src_short="swenstone0 derlemesi"),
+    "BG1875": dict(src="swenstone0 derlemesi (bugünkü il sınırlarına göre)", src_short="swenstone0 derlemesi"),
     "MCCARTHY": dict(muslims=1501883, dead=261937, emigrated=515000,
                      src="J. McCarthy tahmini (aktaran A. Koyuncu, Avrasya Etüdleri 44, 2013)"),
 }
@@ -129,6 +129,14 @@ class Canvas:
         x0, y0, x1, y1 = rect
         if x0 < 50 or y0 < 50 or x1 > W - 50 or y1 > H - 50:
             return False
+        for a in self.obst:
+            if not (x1 + pad < a[0] or x0 - pad > a[2] or y1 + pad < a[1] or y0 - pad > a[3]):
+                return False
+        return True
+
+    def clear(self, rect, pad=0):
+        """Yalnız engellere bakar (kenar sınırı yok)."""
+        x0, y0, x1, y1 = rect
         for a in self.obst:
             if not (x1 + pad < a[0] or x0 - pad > a[2] or y1 + pad < a[1] or y0 - pad > a[3]):
                 return False
@@ -317,7 +325,7 @@ def ottoman_mask(F, region, by, clusters, step=2.0):
                 ok = False
                 log(f"  uyarı: ({lo},{la}) beklenen {'içeride' if want else 'dışarıda'}")
         if ok:
-            return ott, lines
+            return ott, lines, non
         log("  sınır çizgisi tutarsız -> küme tabanlı yedek kullanılıyor")
     # yedek: kümelerin devlet etiketine göre en yakın-küme (Voronoi) bölmesi
     NON = {"Sırbistan", "Karadağ", "Avusturya-Macaristan", "Yunanistan"}
@@ -330,7 +338,7 @@ def ottoman_mask(F, region, by, clusters, step=2.0):
     m[ii, jj] = isnon[idx]
     m = gaussian_filter(m, 3.0) > 0.5
     ott = reg & ~(m | non)
-    return ott, []
+    return ott, [], (m | non) & reg
 
 
 # ------------------------------------------------------------------ veri
@@ -357,6 +365,9 @@ def largest_remainder(vals, total=100.0, nd=1):
     return fl / scale
 
 
+REC_YEAR = {"Tuna (Niş hariç)": "1875", "Edirne": "1876", "Bosna": "1870", "Hersek": "1870"}
+
+
 def stats(cl, in_ott):
     """Vilayet satırları (model, kişi; İstanbul hariç; 1876 sınırı içi)."""
     G = group_people(cl)
@@ -377,8 +388,8 @@ def stats(cl, in_ott):
         ("Bosna", base & (vil == "Bosna"), RECORDS["BOSNA_1287"]["bosna_pct"]),
         ("Hersek", base & (vil == "Hersek"), RECORDS["BOSNA_1287"]["hersek_pct"]),
         ("Selanik", base & (vil == "Selanik"), None),
-        ("Manastır", base & (vil == "Manastır") & ~kos, None),
-        ("Kosova–Prizren", kos, None),
+        ("Manastır (diğer)", base & (vil == "Manastır") & ~kos, None),
+        ("Prizren–Üsküp", kos, None),
         ("Yanya", base & (vil == "Yanya"), None),
         ("İşkodra", base & (vil == "İşkodra"), None),
     ]
@@ -574,7 +585,7 @@ def frame_ornament(cv):
         ld.polygon(ring(Rr), fill=hx("#05080D"), outline=BRASS[:3] + (190,), width=int(1.5 * S))
         mask = Image.new("L", lay.size, 0)
         ImageDraw.Draw(mask).polygon(ring(Rr * 0.72), fill=255)
-        lat = Image.new("RGBA", lay.size, (0, 0, 0, 0))
+        lat = Image.new("RGBA", lay.size, hx("#05080D"))
         latd = ImageDraw.Draw(lat)
         for gx in np.arange(0, size * S, 18 * S):
             for gy in np.arange(0, size * S, 18 * S):
@@ -634,8 +645,11 @@ def lat_ticks(cv, F):
                 whole = math.floor(l0) != math.floor(l1)
                 ln = 14 if whole else 7
                 xa = xe if side == "l" else xe - ln
+                if not cv.clear((xa - 4, yv - 12, xa + ln + 4, yv + 12)):
+                    continue
                 d.line((xa, yv, xa + ln, yv), fill=BRASS[:3] + (180,), width=2 if whole else 1)
-                if whole:
+                lr = (xe + 18, yv - 12, xe + 70, yv + 12) if side == "l" else (xe - 70, yv - 12, xe - 18, yv + 12)
+                if whole and cv.clear(lr):
                     lab = f"{int(math.floor(l0))}°K"
                     d.text((xe + 22 if side == "l" else xe - 22, yv), lab, font=bar(17, "Medium"), fill=MUTE,
                            anchor="lm" if side == "l" else "rm")
@@ -648,7 +662,7 @@ T1 = [("İstanbul", None, 28.97, 41.01), ("Edirne", None, 26.56, 41.68), ("Filib
       ("Yanya", "Ioannina", 20.85, 39.67), ("İşkodra", "Shkodër", 19.51, 42.07)]
 T2 = [("Varna", None, 27.91, 43.21), ("Vidin", None, 22.88, 43.99), ("Tırnova", "V. Tarnovo", 25.63, 43.08),
       ("Tulça", "Tulcea", 28.80, 45.18), ("Şumnu", "Shumen", 26.93, 43.27), ("Niş", "Niš", 21.90, 43.32),
-      ("Priştine", "Prishtina", 21.16, 42.66), ("Prizren", None, 20.74, 42.21), ("Yenipazar", "Novi Pazar", 20.51, 43.14),
+      ("Priştine", "Prishtinë", 21.16, 42.66), ("Prizren", None, 20.74, 42.21), ("Yenipazar", "Novi Pazar", 20.51, 43.14),
       ("Mostar", None, 17.81, 43.34), ("Banaluka", "Banja Luka", 17.19, 44.77), ("İslimye", "Sliven", 26.32, 42.68),
       ("Eski Zağra", "Stara Zagora", 25.63, 42.43), ("Gümülcine", "Komotini", 25.40, 41.12), ("Serez", "Serres", 23.55, 41.09),
       ("Kavala", None, 24.41, 40.94), ("Yenişehir", "Larisa", 22.42, 39.64), ("Görice", "Korçë", 20.78, 40.62),
@@ -662,24 +676,24 @@ T3 = [("Bihke", "Bihać", 15.87, 44.82), ("Çatalca", None, 28.46, 41.14), ("Lom
       ("İştip", None, 22.20, 41.75), ("Kalkandelen", None, 20.97, 42.01), ("İpek", None, 20.29, 42.66),
       ("Yakova", None, 20.43, 42.38), ("Tuzla", None, 18.67, 44.54), ("İzvornik", None, 19.10, 44.41),
       ("Travnik", None, 17.67, 44.23), ("Lofça", None, 24.72, 43.14), ("Köstendil", None, 22.69, 42.28),
-      ("Tatar Pazarcığı", None, 24.33, 42.19), ("Babadağ", None, 28.70, 44.90), ("Pazarcık", None, 27.83, 43.57),
+      ("Tatar Pazarcığı", None, 24.33, 42.19), ("Babadağ", None, 28.70, 44.90), ("Hacıoğlu Pazarcığı", None, 27.83, 43.57),
       ("Çetine", None, 18.92, 42.39), ("Podgoriçe", None, 19.26, 42.44), ("Avlonya", None, 19.49, 40.47),
       ("Draç", None, 19.45, 41.32), ("Gelibolu", None, 26.67, 40.41), ("Karaferye", None, 22.20, 40.52)]
 DIMMED = {"Belgrad", "Çetine"}
 
-STORY = [("DELİORMAN", 0, 26.2, 43.62), ("DOBRUCA", 0, 28.25, 44.55),
-         ("DOĞU RODOPLAR", 0, 25.75, 41.40), ("KONYAR TÜRKLERİ", 0, 22.15, 39.86),
-         ("POMAKLAR", 1, 24.3, 41.68), ("ARNAVUTLAR", 1, 20.15, 41.25), ("BOŞNAKLAR", 1, 18.05, 44.42)]
-STORY_SUB = {"DOBRUCA": "Tatar ve Nogaylar", "KONYAR TÜRKLERİ": "Yenişehir ovası"}
-STATES = [("SIRBİSTAN PRENSLİĞİ", 21.0, 44.25), ("KARADAĞ", 19.05, 42.82),
+STORY = [("DELİORMAN", 0, 26.72, 43.93), ("DOBRUCA", 0, 28.70, 44.50),
+         ("DOĞU RODOPLAR", 0, 25.75, 41.40), ("KONYAR TÜRKLERİ", 0, 21.70, 40.30),
+         ("POMAKLAR", 1, 24.3, 41.68), ("ARNAVUTLAR", 1, 20.34, 41.56), ("BOŞNAKLAR", 1, 18.05, 44.42)]
+STORY_SUB = {"DOBRUCA": "Tatar ve Nogaylar", "KONYAR TÜRKLERİ": "Kayalar · Sarıgöl · Kozana"}
+STATES = [("SIRBİSTAN PRENSLİĞİ", 21.0, 44.25), ("KARADAĞ PRENSLİĞİ", 19.0, 42.58),
           ("YUNANİSTAN KRALLIĞI", 22.2, 38.72), ("AVUSTURYA-MACARİSTAN", 17.0, 45.55)]
 GHOST = [("TUNA", 25.0, 43.35), ("EDİRNE", 26.0, 42.0), ("SELANİK", 23.4, 40.95), ("MANASTIR", 21.4, 41.25),
          ("YANYA", 20.9, 39.4), ("İŞKODRA", 19.85, 41.75), ("BOSNA", 18.0, 44.25), ("HERSEK", 18.0, 43.2)]
 
 
-def place_cities(cv, F, ottm1):
+def place_cities(cv, F, ottm1, tiers=None):
     d = cv.d
-    tiers = [(T1, 1), (T2, 2), (T3, 3)]
+    tiers = tiers or [(T1, 1), (T2, 2), (T3, 3)]
     for lst, tier in tiers:
         for name, modern, lon, lat in lst:
             x, y = F.ll_to_px(lon, lat)
@@ -699,7 +713,9 @@ def place_cities(cv, F, ottm1):
             bh = th + (mod_f.size + 2 if mod_f else 0)
             r = 7 if tier == 1 else 5 if tier == 2 else 3
             cands = [(x + r + 8, y + th / 2 - 2, "E"), (x - r - 8 - bw, y + th / 2 - 2, "W"),
-                     (x + r + 4, y - r - 4, "NE"), (x - r - 4 - bw, y + r + th + 4, "SW")]
+                     (x + r + 4, y - r - 4, "NE"), (x - r - 4 - bw, y + r + th + 4, "SW"),
+                     (x - bw / 2, y - r - 6 - (bh - th), "N"), (x - bw / 2, y + r + th + 4, "S"),
+                     (x + r + 4, y + r + th + 4, "SE"), (x - r - 4 - bw, y - r - 4, "NW")]
             placed = False
             for lx, ly, tag in cands:
                 rect = (lx, ly - th, lx + bw, ly - th + bh)
@@ -745,7 +761,7 @@ def main():
     json.dump([{k: v for k, v in c.items() if k != "shares"} for c in cl],
               open(os.path.join(HERE, "data_cal", "clusters_calibrated.json"), "w", encoding="utf-8"), ensure_ascii=False)
 
-    ott2, flines = ottoman_mask(F, region, by, cl, 2.0)
+    ott2, flines, non2 = ottoman_mask(F, region, by, cl, 2.0)
     ott1 = np.repeat(np.repeat(ott2, 2, 0), 2, 1)[:H, :W] & regm
     log("1876 maskesi")
 
@@ -771,11 +787,6 @@ def main():
     base = Image.fromarray(np.clip(basef * 255, 0, 255).astype(np.uint8)).convert("RGBA")
     cvb = Canvas(base)
     # hayalet vilayet adları (noktaların altında)
-    ghost = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    for t, lo, la in GHOST:
-        px, py = F.ll_to_px(lo, la)
-        cvb.tracked((float(px), float(py)), t, bs(50, 600), 22, IV[:3] + (41,), anchor="c", layer=ghost)
-    base.alpha_composite(ghost)
     base.alpha_composite(draw_rivers(F, regm, fade, under=True))
     base.alpha_composite(dotted_borders(F, fade))
     log("altlık")
@@ -783,8 +794,14 @@ def main():
     img = render_dots(np.asarray(base.convert("RGB"), np.float32) / 255, x, y, k, inside)
     log("noktalar")
     img.alpha_composite(draw_rivers(F, regm, fade, under=False))
-    nonott_land = landm & ~ott1 & (regm | ~regm)  # Osmanlı dışı tüm kara
-    fl, fdist = frontier_layer(ott1, nonott_land & ~ott1)
+    # Osmanlı dışı kara: yalnız 1876'nın yabancı devletleri (Anadolu ve Osmanlı adaları değil)
+    to_g = lambda geom: gpd.GeoSeries([geom], crs="EPSG:4326").to_crs(E.CRS).iloc[0]
+    outside = shapely.union_all([by[a3] for a3 in ("ROU", "HUN", "SVN", "HRV", "SRB", "MNE", "AUT") if a3 in by])
+    foreign = rasterize_pil(to_g(outside), F, 1.0) & ~regm
+    non1 = np.repeat(np.repeat(non2, 2, 0), 2, 1)[:H, :W]
+    foreign |= (regm & ~ott1 & non1)
+    foreign = binary_opening(foreign, iterations=2) & landm & ~ott1
+    fl, fdist = frontier_layer(ott1, foreign)
     fa = np.asarray(fl, np.float32).copy()
     fa[..., 3] *= np.clip(fade[:, 0], 0, 1)[:, None] ** 1.2
     img.alpha_composite(Image.fromarray(fa.astype(np.uint8), "RGBA"))
@@ -795,8 +812,8 @@ def main():
 
     # ---- engeller (paneller vb.) önce kaydedilir
     KAYIT = (1060, 612, 1736, 926)
-    LENS_C, LENS_R = (1980, 1262), 118
-    NASIL = (60, 1700, 520, 2110)
+    LENS_C, LENS_R = (1958, 1262), 112
+    NASIL = (60, 1690, 520, 2150)
     SONRA = (1704, 1652, 2104, 2084)
     STRIP = (44, 2160, 2116, 2656)
     ROSE = (330, 1520, 80)
@@ -805,7 +822,7 @@ def main():
     cv.occupy((LENS_C[0] - LENS_R - 12, LENS_C[1] - LENS_R - 40, LENS_C[0] + LENS_R + 12, LENS_C[1] + LENS_R + 60))
 
     # ---- büyüteç (aynı noktalar)
-    src_c = F.ll_to_px(26.62, 43.62)
+    src_c = F.ll_to_px(26.72, 43.74)
     src_c = (float(src_c[0]), float(src_c[1]))
     Z, sr = 3.0, LENS_R / 3.0
     S3 = 3
@@ -852,7 +869,14 @@ def main():
     cv.tracked((LENS_C[0], LENS_C[1] + LENS_R + 60), "DELİORMAN", bar(22, "SemiBold"), 3, TINT[0], anchor="c")
     cv.occupy((src_c[0] - sr - 4, src_c[1] - sr - 4, src_c[0] + sr + 4, src_c[1] + sr + 4))
 
-    # ---- etiketler: hikâye, devletler, denizler, şehirler
+    # ---- etiketler: önce T1 ve kilit T2 şehirler, sonra hikâye, devletler, denizler, diğer şehirler
+    KEY2 = {"Silistre", "Hezargrad", "Kırkkilise", "Tekfurdağı", "Şumnu", "Varna"}
+    place_cities(cv, F, ott1, [(T1, 1), ([c_ for c_ in T2 if c_[0] in KEY2], 2)])
+    # Selanik notu (Ege'de) — yer ayır
+    nx_, ny_ = F.ll_to_px(23.27, 39.82)
+    nx_, ny_ = float(nx_), float(ny_)
+    SELNOTE = (nx_ - 4, ny_ - 32, nx_ + 262, ny_ + 14)
+    cv.occupy(SELNOTE)
     for t, g, lo, la in STORY:
         px, py = F.ll_to_px(lo, la)
         px, py = float(px), float(py)
@@ -861,7 +885,7 @@ def main():
         rect = (px - w / 2, py - 28, px + w / 2, py + 6)
         done = False
         for dy in (0, -36, 36, -72, 72, -108, 108):
-            for dxx in (0, -60, 60, -120, 120):
+            for dxx in ((0, 70, 120, 170, -70) if t == "DELİORMAN" else (0, -60, 60, -120, 120)):
                 rr_ = (rect[0] + dxx, rect[1] + dy, rect[2] + dxx, rect[3] + dy)
                 sub_ = STORY_SUB.get(t)
                 rr2 = (rr_[0], rr_[1], rr_[2], rr_[3] + (24 if sub_ else 0))
@@ -882,16 +906,20 @@ def main():
         w = cv.tracked_w(t, fnt, 7)
         rect = (float(px) - w / 2, float(py) - 22, float(px) + w / 2, float(py) + 6)
         cv.halo((float(px), float(py)), t, fnt, hx("#A0A8B8", 160), anchor="ms", rad=4, track=7)
+        if t.startswith("SIRBİSTAN"):
+            cv.halo((float(px), float(py) + 24), "Osmanlı’ya bağlı özerk prenslik", bar(16, "Medium"), hx("#A0A8B8", 150), anchor="ms", rad=3)
+            rect = (rect[0], rect[1], rect[2], rect[3] + 24)
         cv.occupy(rect)
     cv.tracked((965, 730), "ROMANYA", bar(24, "SemiBold"), 7, hx("#A0A8B8", 160), anchor="c")
     cv.tracked((965, 760), "PRENSLİĞİ", bar(24, "SemiBold"), 7, hx("#A0A8B8", 160), anchor="c")
-    cv.occupy((820, 700, 1110, 770))
+    ImageDraw.Draw(cv.img).text((965, 786), "Osmanlı’ya bağlı özerk prenslik", font=bar(16, "Medium"), fill=hx("#A0A8B8", 150), anchor="ms")
+    cv.occupy((820, 700, 1110, 796))
     adl = Image.new("RGBA", (640, 70), (0, 0, 0, 0))
-    Canvas(adl).tracked((320, 48), "ADRİYATİK DENİZİ", bod(30, 500), 12, hx("#5D7391"), anchor="c")
+    Canvas(adl).tracked((320, 48), "ADRİYATİK DENİZİ", bod(26, 600, 11), 10, hx("#5D7391"), anchor="c")
     adl = adl.rotate(-36, expand=True, resample=Image.BICUBIC)
-    apx, apy = F.ll_to_px(16.75, 42.1)
+    apx, apy = F.ll_to_px(17.6, 42.35)
     cv.img.alpha_composite(adl, (int(apx) - adl.width // 2, int(apy) - adl.height // 2))
-    for t, lo, la, sz in (("ADALAR DENİZİ", 24.9, 39.45, 30), ("MARMARA", 28.0, 40.72, 22)):
+    for t, lo, la, sz in (("ADALAR DENİZİ", 24.9, 39.45, 30), ("MARMARA", 28.15, 40.62, 22)):
         px, py = F.ll_to_px(lo, la)
         cv.tracked((float(px), float(py)), t, bod(sz, 500), 12 if sz > 22 else 6, hx("#5D7391"), anchor="c")
         w = cv.tracked_w(t, bod(sz, 500), 12)
@@ -934,7 +962,7 @@ def main():
         tl = tl.rotate(ang, expand=True, resample=Image.BICUBIC)
         cv.img.alpha_composite(tl, (int(cxl) - tl.width // 2, int(cyl) - tl.height // 2))
         cv.occupy((cxl - 110, cyl - 30, cxl + 110, cyl + 30))
-    place_cities(cv, F, ott1)
+    place_cities(cv, F, ott1, [([c_ for c_ in T2 if c_[0] not in KEY2], 2), (T3, 3)])
     # İstanbul notu
     px, py = F.ll_to_px(28.97, 41.01)
     cv.halo((float(px) - 10, float(py) + 32), "(Dersaadet · hesaplara katılmadı)", bar(16, "Medium"), MUTE, anchor="rs", rad=3)
@@ -952,7 +980,7 @@ def main():
     while bs(tsize).getlength("RUMELİ’NİN SON IŞIKLARI") > 1880:
         tsize -= 2
     cv.halo((W / 2, 318), "RUMELİ’NİN SON IŞIKLARI", bs(tsize), IV, anchor="ms", rad=8, strength=0.6)
-    cv.halo((W / 2, 416), "1876’da Balkanlar’da kim, nerede yaşıyordu?", bod(64, 500), IV2, anchor="ms", rad=6, strength=0.6)
+    cv.halo((W / 2, 416), "1876’da Balkanlar’da kim, nerede yaşıyordu?", bod(64, 600, 11), IV2, anchor="ms", rad=6, strength=0.6)
     # lejant satırı
     items = [(0, "Türk"), (1, "Diğer Müslüman"), (2, "Hristiyan")]
     f1, f2 = bar(38, "SemiBold"), bar(32, "Medium")
@@ -989,7 +1017,11 @@ def main():
     d.line((1420, 640, 1420, 900), fill=BRASS[:3] + (100,), width=1)
     cv.tracked((1436, 650), "OSMANLI KAYDI", bar(20, "SemiBold"), 3, BRASS)
     cv.tracked((1436, 676), "TUNA VİLÂYETİ · 1292/1875", bar(20, "SemiBold"), 3, IV)
-    d.text((1436, 698), "Tahrir-i Cedid · yalnız erkekler · Niş hariç", font=bar(16, "Medium"), fill=MUTE, anchor="ls")
+    t_ = f"Tahrir-i Cedid · {fmt_int(RECORDS['TUNA_1875']['males'])} erkek (1 kare = 1.000) · Niş hariç"
+    fz_ = 15
+    while bar(fz_, "Medium").getlength(t_) > 1730 - 1436 and fz_ > 11:
+        fz_ -= 1
+    d.text((1436, 698), t_, font=bar(fz_, "Medium"), fill=MUTE, anchor="ls")
     cats = [(406, hx(COL[0]), False), (55, hx(COL[1]), False), (606, hx(COL[2]), False), (54, hx("#8A93A3"), True)]
     seq = []
     for n_, c_, hol in cats:
@@ -1008,11 +1040,20 @@ def main():
     pts = [(ox - 2, oy - 2), (x_e + 4 + 1, oy - 2), (x_e + 4 + 1, oy + rem * 5 - 1),
            (x_e - 1, oy + rem * 5 - 1), (x_e - 1, oy + 19 * 5 + 1), (ox - 2, oy + 19 * 5 + 1), (ox - 2, oy - 2)]
     d.line(pts, fill=IV, width=2)
-    d.text((1436, 860), fmt_pct(RECORDS["TUNA_1875"]["muslim_pct"]), font=bs(48), fill=TINT[0], anchor="ls")
+    d.text((1436, 860), fmt_pct(RECORDS["TUNA_1875"]["muslim_pct"]), font=bs(48), fill=IV, anchor="ls")
     d.text((1436, 884), "Müslüman", font=bar(20, "SemiBold"), fill=IV, anchor="ls")
     d.text((1590, 860), fmt_pct(RECORDS["TUNA_1875"]["bulgar_pct"]), font=bs(48), fill=TINT[2], anchor="ls")
     d.text((1590, 884), "Bulgar milleti", font=bar(20, "SemiBold"), fill=IV, anchor="ls")
-    d.text((1436, 912), f"1 kare = 1.000 erkek · toplam {fmt_int(RECORDS['TUNA_1875']['males'])}", font=bar(16, "Medium"), fill=MUTE, anchor="ls")
+    kx = 1436
+    for c_, lab_, hol in ((hx(COL[0]), "İslam %36,2", False), (hx(COL[1]), "Çerkes, Kıpti %4,9", False),
+                          (hx("#8A93A3"), "diğer %4,8", True)):
+        if hol:
+            d.rectangle((kx, 902, kx + 8, 910), outline=c_, width=1)
+        else:
+            d.rectangle((kx, 902, kx + 8, 910), fill=c_)
+        d.text((kx + 12, 912), lab_, font=bar(15, "Medium"), fill=MUTE, anchor="ls")
+        kx += 12 + bar(15, "Medium").getlength(lab_) + 9
+
 
     # ---- NASIL OKUNUR
     cv.obst.remove(NASIL)
@@ -1020,7 +1061,7 @@ def main():
     d = cv.d
     x0, y0 = NASIL[0] + 22, NASIL[1]
     cv.tracked((x0, y0 + 40), "NASIL OKUNUR?", bar(24, "SemiBold"), 4, BRASS)
-    subs = ["Tatar ve Nogaylar dahil", "Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman", "Bulgar, Rum, Sırp, Ulah, Ermeni, Gagavuz…"]
+    subs = ["Tatar ve Nogaylar dâhil", "Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman", "Bulgar, Rum, Sırp, Ulah, Ermeni, Gagavuz…"]
     for i in range(3):
         yb = y0 + 92 + i * 56
         for (qx, qy) in ((0, 0), (12, 0), (6, -8), (0, -16), (12, -16)):
@@ -1044,21 +1085,21 @@ def main():
     yk += 26
     for qx, g in ((0, 0), (9, 2), (18, 1)):
         d.ellipse((x0 + qx, yk - 11, x0 + qx + 6, yk - 5), fill=hx(COL[g], 85))
-    d.text((x0 + 36, yk), "soluk: 1876’da Osmanlı idaresi dışı", font=bar(18, "Medium"), fill=IV2, anchor="ls")
+    d.text((x0 + 36, yk), "soluk: 1876’da doğrudan Osmanlı idaresi dışı", font=bar(18, "Medium"), fill=IV2, anchor="ls")
     yk += 26
     d.polygon([(x0 + 10, yk - 15), (x0 + 16, yk - 9), (x0 + 10, yk - 3), (x0 + 4, yk - 9)], fill=IV)
-    d.text((x0 + 36, yk), "vilâyet / sancak merkezi", font=bar(18, "Medium"), fill=IV2, anchor="ls")
-    d.rectangle((x0 + 240, yk - 12, x0 + 246, yk - 6), fill=hx("#E1DACA"))
-    d.text((x0 + 256, yk), "kasaba", font=bar(18, "Medium"), fill=IV2, anchor="ls")
+    d.text((x0 + 36, yk), "vilâyet merkezi / büyük şehir", font=bar(18, "Medium"), fill=IV2, anchor="ls")
+    d.rectangle((x0 + 262, yk - 12, x0 + 268, yk - 6), fill=hx("#E1DACA"))
+    d.text((x0 + 278, yk), "şehir, kasaba", font=bar(18, "Medium"), fill=IV2, anchor="ls")
     # ölçek
-    yk += 34
+    yk += 30
     px100 = 100000 / F.mpp
     d.line((x0, yk, x0 + px100, yk), fill=BRASS, width=2)
     for t_, frac in (("0", 0), ("50", 0.5), ("100 km", 1)):
         xx_ = x0 + px100 * frac
         d.line((xx_, yk - 6, xx_, yk + 6), fill=BRASS, width=2)
         d.text((xx_, yk + 22), t_, font=bar(16, "Medium"), fill=MUTE, anchor="ms")
-    d.text((x0, NASIL[3] - 14), "Noktaların yeri temsilîdir; oranlar kayıtlara dayanır.", font=bar(16, "Regular"), fill=MUTE, anchor="ls")
+    d.text((x0, NASIL[3] - 10), "Noktaların yeri temsilîdir; oranlar kayıtlara ve tahminlere dayanır.", font=bar(16, "Regular"), fill=MUTE, anchor="ls")
 
     # ---- SONRA
     cv.obst.remove(SONRA)
@@ -1068,7 +1109,11 @@ def main():
     cv.tracked((sx, 1690), "SONRA: 93 HARBİ, 1877–78", bar(24, "SemiBold"), 4, BRASS)
     M = RECORDS["MCCARTHY"]
     d.text((sx, 1782), fmt_int(M["muslims"]), font=bs(80), fill=IV, anchor="ls")
-    d.text((sx, 1810), "Müslüman (1877) · Tuna + Şarkî Rumeli", font=bar(20, "Medium"), fill=IV2, anchor="ls")
+    t_ = "Müslüman (1877) · Tuna vilâyeti + sonraki Şarkî Rumeli"
+    fz_ = 20
+    while bar(fz_, "Medium").getlength(t_) > SONRA[2] - sx - 10:
+        fz_ -= 1
+    d.text((sx, 1810), t_, font=bar(fz_, "Medium"), fill=IV2, anchor="ls")
     d.text((sx, 1882), fmt_int(M["dead"]), font=bs(56), fill=IV, anchor="ls")
     d.text((sx, 1908), "hayatını kaybetti", font=bar(20, "SemiBold"), fill=IV2, anchor="ls")
     d.text((sx + 194, 1882), fmt_int(M["emigrated"]), font=bs(56), fill=IV, anchor="ls")
@@ -1076,10 +1121,10 @@ def main():
     d.text((sx, 1946), "J. McCarthy tahmini; aktaran A. Koyuncu,", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
     d.text((sx, 1968), "Avrasya Etüdleri 44 (2013). Rakamlar tartışmalıdır.", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
     fz = 26
-    while bod(fz, 500).getlength("hemen önceki Rumeli’yi gösteriyor.") > SONRA[2] - sx - 14:
+    while bod(fz, 600, 9).getlength("hemen önceki Rumeli’yi gösteriyor.") > SONRA[2] - sx - 14:
         fz -= 1
-    d.text((sx, 2024), "Bu harita, o büyük göçten", font=bod(fz, 500), fill=IV, anchor="ls")
-    d.text((sx, 2056), "hemen önceki Rumeli’yi gösteriyor.", font=bod(fz, 500), fill=IV, anchor="ls")
+    d.text((sx, 2024), "Bu harita, o büyük göçten", font=bod(fz, 600, 9), fill=IV, anchor="ls")
+    d.text((sx, 2056), "hemen önceki Rumeli’yi gösteriyor.", font=bod(fz, 600, 9), fill=IV, anchor="ls")
 
     # ---- gül, enlem çentikleri
     rot = math.degrees(math.atan2(*(lambda p, q: (q[0] - p[0], -(q[1] - p[1])))(
@@ -1094,25 +1139,28 @@ def main():
     d.line((STRIP[0], STRIP[1], STRIP[2], STRIP[1]), fill=BRASS, width=2)
     star8(d, 1080, STRIP[1], 10, BRASS, 2, fill=hx("#05080D"))
     # P-left: vilayet çubukları
-    cv.tracked((80, 2206), "VİLÂYETLERE GÖRE · 1876", bar(24, "SemiBold"), 4, BRASS)
+    cv.tracked((80, 2206), "VİLÂYET VE SANCAKLARA GÖRE · 1876", bar(24, "SemiBold"), 4, BRASS)
     d.text((80, 2232), "çubuk: harita modeli (kişi) ·     Osmanlı kaydı · Yahudiler hariç · İstanbul hariç", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
     dx_ = 80 + bar(17, "Medium").getlength("çubuk: harita modeli (kişi) · ") + 4
     d.polygon([(dx_ + 6, 2218), (dx_ + 12, 2224), (dx_ + 6, 2230), (dx_, 2224)], fill=IV)
     bx0, bw = 256, 580
     y_ = 2256
-    d.line((bx0 + bw / 2, y_ - 8, bx0 + bw / 2, y_ + 38 * len(ROWS)), fill=BRASS[:3] + (90,), width=1)
-    d.text((bx0 + bw / 2, y_ - 10), "%50", font=bar(14, "Medium"), fill=BRASS, anchor="ms")
+    d.line((bx0 + bw / 2, y_ - 8, bx0 + bw / 2, y_ + 34 * min(len(ROWS), 10) - 8), fill=BRASS[:3] + (90,), width=1)
+    d.text((bx0 + bw / 2 + 4, y_ - 3), "%50", font=bar(14, "Medium"), fill=BRASS, anchor="ls")
+    cv.tracked((bx0 + bw + 14, y_ - 10), "MÜSLÜMAN", bar(14, "SemiBold"), 2, BRASS)
+    cv.tracked((bx0 + bw + 112, y_ - 10), "KAYIT", bar(14, "SemiBold"), 2, BRASS)
     for i, (n, g, p, rec) in enumerate(ROWS[:10]):
         hb = 26 if i == 0 else 22
         yy = y_ + i * 34
         d.text((80, yy + hb - 3), n, font=bar(24 if i else 26, "SemiBold"), fill=BRASS if i == 0 else IV, anchor="ls")
         xs_ = bx0
+        pint = largest_remainder(g, nd=0)
         for gi in range(3):
             wseg = bw * p[gi] / 100
             if wseg > 0.5:
                 d.rectangle((xs_, yy, xs_ + max(0, wseg - 2), yy + hb), fill=hx(COL[gi]))
                 if wseg >= 44:
-                    d.text((xs_ + wseg / 2 - 1, yy + hb - 5), f"{p[gi]:.0f}", font=bar(16, "SemiBold"), fill=hx("#05080D"), anchor="ms")
+                    d.text((xs_ + wseg / 2 - 1, yy + hb - 5), f"{pint[gi]:.0f}", font=bar(16, "SemiBold"), fill=hx("#05080D"), anchor="ms")
             xs_ += wseg
         if i == 0:
             d.rectangle((bx0 - 1, yy - 1, bx0 + bw + 1, yy + hb + 1), outline=BRASS, width=1)
@@ -1122,7 +1170,7 @@ def main():
             xr = bx0 + bw * rec / 100
             d.rectangle((xr - 2, yy - 4, xr + 2, yy + hb + 4), fill=IV)
             d.polygon([(xr, yy - 14), (xr + 5, yy - 9), (xr, yy - 4), (xr - 5, yy - 9)], fill=IV)
-            d.text((bx0 + bw + 108, yy + hb - 3), f"kayıt {fmt_pct(rec)}", font=bar(16, "Medium"), fill=MUTE, anchor="ls")
+            d.text((bx0 + bw + 112, yy + hb - 2), f"{REC_YEAR.get(n, '')} {fmt_pct(rec)}", font=bar(20, "SemiBold"), fill=IV2, anchor="ls")
     d.line((1085, 2190, 1085, 2590), fill=BRASS[:3] + (100,), width=1)
     star8(d, 1085, 2390, 9, BRASS, 1, fill=hx("#05080D"))
     # P-right: Bulgaristan 1875 il haritası
@@ -1155,42 +1203,46 @@ def main():
                         md.line(tp2(q.exterior.coords), fill=BRASS, width=3)
     cv.img.alpha_composite(mm.resize((W, H), Image.LANCZOS))
     for nm, g in obl.items():
-        if nm == "Grad Sofiya":
-            continue
         c_ = g.representative_point()
+        if nm == "Grad Sofiya":
+            (px_, py_), = tp([(c_.x, c_.y)])
+            cv.halo((px_, py_ + 7), f"{TG[nm]}", bs(18, 800), IV, anchor="ms", rad=2)
+            continue
         (px_, py_), = tp([(c_.x, c_.y)])
         v = TG[nm]
         cv.halo((px_, py_ + 9), f"{v}", bs(28, 800) if v < 50 else bs(22, 600), IV if v < 50 else IV[:3] + (190,), anchor="ms", rad=3)
     nlow = sum(1 for v in TG.values() if v < 50)
     tx = 1710
     d = cv.d
-    d.text((tx, 2330), fmt_pct(C.TOTAL_BG), font=bs(72), fill=IV, anchor="ls")
-    d.text((tx, 2358), "Bulgar (Bulgaristan toplamı)", font=bar(22, "SemiBold"), fill=IV2, anchor="ls")
-    d.text((tx, 2404), f"28 ilin {nlow}’inde Bulgarlar", font=bar(26, "SemiBold"), fill=IV, anchor="ls")
-    d.text((tx, 2436), "nüfusun yarısından azdı.", font=bar(26, "SemiBold"), fill=IV, anchor="ls")
-    OTT = {"Kardzhali": "Kırcaali", "Dobrich": "Hacıoğlu Pazarcık", "Razgrad": "Hezargrad", "Targovishte": "Eski Cuma",
+    d.text((tx, 2330), f"{nlow} / 28 il", font=bs(72), fill=IV, anchor="ls")
+    d.text((tx, 2362), "Bulgarlar nüfusun yarısından azdı.", font=bar(24, "SemiBold"), fill=IV, anchor="ls")
+    d.text((tx, 2400), f"Bulgaristan toplamı: {fmt_pct(C.TOTAL_BG)} Bulgar", font=bar(22, "SemiBold"), fill=IV2, anchor="ls")
+    OTT = {"Kardzhali": "Kırcaali", "Dobrich": "Hacıoğlu Pazarcığı", "Razgrad": "Hezargrad", "Targovishte": "Eski Cuma",
            "Shumen": "Şumnu", "Smolyan": "Paşmaklı", "Haskovo": "Hasköy", "Ruse": "Rusçuk", "Varna": "Varna",
            "Silistra": "Silistre", "Grad Sofiya": "Sofya (şehir)"}
     low = sorted(TG.items(), key=lambda t: t[1])[:4]
     s1 = " · ".join(f"{OTT.get(n, n)} %{v}" for n, v in low[:2])
     s2 = " · ".join(f"{OTT.get(n, n)} %{v}" for n, v in low[2:])
-    d.text((tx, 2476), "En düşük: " + s1, font=bar(19, "Medium"), fill=IV2, anchor="ls")
-    d.text((tx, 2502), s2, font=bar(19, "Medium"), fill=IV2, anchor="ls")
+    d.text((tx, 2440), "En düşük: " + s1, font=bar(19, "Medium"), fill=IV2, anchor="ls")
+    d.text((tx, 2466), s2, font=bar(19, "Medium"), fill=IV2, anchor="ls")
     for i in range(300):
         t = i / 299
         cc = tuple(int(v) for v in (np.array([14, 20, 32]) * (1 - t) + np.array(hx(COL[2])[:3]) * t))
-        d.line((tx + i, 2526, tx + i, 2536), fill=cc)
-    d.text((tx, 2556), "%0", font=bar(15, "Medium"), fill=MUTE, anchor="ls")
-    d.text((tx + 300, 2556), "%100 Bulgar", font=bar(15, "Medium"), fill=MUTE, anchor="rs")
+        d.line((tx + i, 2486, tx + i, 2496), fill=cc)
+    d.text((tx, 2514), "%0", font=bar(15, "Medium"), fill=MUTE, anchor="ls")
+    d.text((tx + 300, 2514), "%100 Bulgar", font=bar(15, "Medium"), fill=MUTE, anchor="rs")
+    d.rectangle((tx, 2528, tx + 22, 2542), outline=BRASS, width=2)
+    d.text((tx + 30, 2542), "altın çerçeve: Bulgarlar < %50", font=bar(16, "Medium"), fill=MUTE, anchor="ls")
     # harita modeli: aynı sınırlarda Hristiyan payı
     rows_b = C.compare_dots(F, x, y, k, verbose=False)
     ch_tot = sum(r_[2] * r_[5] for r_ in rows_b) / max(1, sum(r_[5] for r_ in rows_b))
-    d.text((tx, 2584), f"Harita modeli aynı sınırlarda: {fmt_pct(ch_tot)} Hristiyan", font=bar(15, "Medium"), fill=MUTE, anchor="ls")
+    d.text((tx, 2566), f"Harita modeli aynı sınırlarda: {fmt_pct(ch_tot)} Hristiyan", font=bar(15, "Medium"), fill=MUTE, anchor="ls")
+    d.text((tx, 2586), "(Bulgar + Rum, Ulah, Gagavuz vb.)", font=bar(15, "Medium"), fill=MUTE, anchor="ls")
 
     # ---- Selanik notu
-    px, py = F.ll_to_px(22.72, 40.02)
+    px, py = F.ll_to_px(23.27, 39.82)
     sx_, sy_ = F.ll_to_px(22.94, 40.64)
-    d.line((float(sx_) + 2, float(sy_) + 10, float(px) + 30, float(py) - 34), fill=IV[:3] + (128,), width=1)
+    d.line((float(sx_) + 4, float(sy_) + 10, float(px) + 20, float(py) - 30), fill=IV[:3] + (128,), width=1)
     cv.halo((float(px), float(py) - 14), "Selanik’te en kalabalık topluluk", bar(17, "Medium"), IV2, anchor="ls", rad=3)
     cv.halo((float(px), float(py) + 8), "Yahudilerdi; harita üç grubu gösterir.", bar(17, "Medium"), IV2, anchor="ls", rad=3)
 
@@ -1201,15 +1253,17 @@ def main():
     srcs = " · ".join([RECORDS["TUNA_1875"]["src"], RECORDS["EDIRNE_1293"]["src"], RECORDS["BOSNA_1287"]["src"]])
     f17 = bar(17, "Medium")
     l1 = "Kaynaklar: " + srcs
-    l2 = (RECORDS["MCCARTHY"]["src"] + " · Bulgaristan 1875: " + RECORDS["BG1875"]["src"] +
-          " · Osmanlı salnameleri ve 1881/82 sayımı (K. Karpat) · C. Sax 1878 · Natural Earth, AWS Terrain")
-    l3 = ("Yöntem: ~700 bölge kümesi, Osmanlı kayıtlarına göre ayarlandı · nokta yerleri temsilîdir · erkek sayımları ×2 · "
-          "Yahudiler gösterilmedi · Tatar/Nogay = Türk · kayıttaki ‘İslam milleti’ Türk–Pomak ayrımı yapmaz")
+    l2 = (RECORDS["MCCARTHY"]["src"] + " · Bulgaristan il oranları: " + RECORDS["BG1875"]["src"] +
+          " · A. H. Layard raporu 1877 (M. Köse 2019) · 1881/82 Osmanlı sayımı (K. Karpat) · M. Kokolakis 2003 · "
+          "yerleşim: C. Sax 1878, V. Kănčov 1900 · sınır: H. Kiepert 1870 · Natural Earth, AWS Terrain")
+    l3 = (f"Yöntem: {len(cl)} bölge kümesi; Osmanlı kayıtları esas, Bulgaristan’da il oranlarına göre ayarlandı · kayıt eksiği "
+          "bilinen yerlerde Müslüman payı için kaynakların üst değeri alındı (ör. McCarthy düzeltmesi) · nokta yerleri temsilîdir · "
+          "erkek sayımları ×2 · Yahudiler gösterilmedi · Tatar/Nogay = Türk · ‘İslam milleti’ Türk–Pomak ayrımı yapmaz")
     for i, t in enumerate((l1, l2, l3)):
-        fs = 17
-        while bar(fs, "Medium").getlength(t) > 1880 and fs > 12:
+        fs = 16
+        while bar(fs, "Medium").getlength(t) > 1900 and fs > 11:
             fs -= 1
-        d.text((W / 2, 2616 + i * 21), t, font=bar(fs, "Medium"), fill=MUTE, anchor="ms")
+        d.text((W / 2, 2606 + i * 19), t, font=bar(fs, "Medium"), fill=MUTE, anchor="ms")
     if a.imza:
         d.text((W - 170, 2600), a.imza, font=bar(22, "SemiBold"), fill=IV[:3] + (155,), anchor="rs")
 
