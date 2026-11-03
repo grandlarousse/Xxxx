@@ -1,0 +1,100 @@
+# Plan denetçisi (adversarial review) çıktısı
+
+Tüm maddeler nihai plana uygulandı; QAP '8–10 saat' maddesi BCCOHP SSS alıntısıyla korundu.
+
+
+## [1] major — 0.1 Hat A ('vizeyi Kasım sonunda başvur'), D1 Zamanlama ('20–25 Kasım 2026'da başvur … ≈ 25 Ocak karar'), 11 Senaryo A satırı '20–25 Kas … TRV başvurusu'
+- Sorun: The plan delays the TRV application until after the NDEB package ships, with no reason given. IRCC does not need the NDEB registration, and the 450 CAD receipt exists from 3–4 Nov. At 63 days, applying on 20–25 Nov puts the decision at about 22–27 Jan, after the 18 Jan 21:00 ET (19 Jan 05:00 TRT) March registration deadline. That forces exactly the D3 dilemma: register without a visa and risk losing 100%. Applying this week moves the decision to about 5–12 Jan, before the deadline. Biometrics do not keep the passport, so there is no clash with the B2 consulate appointment. Only the later passport-request stage holds it.
+- Kanıt: travel_visa.md STEP 4: 'Submit by about 7-10 Nov 2026; expect a decision about mid-Jan 2027 (63 days as of 29 Oct 2026)… This is feasible for 1 March 2027 ONLY if you apply now.' Also: 'IRCC does not require an exam registration to apply. Use the NDEB application confirmation now, then send the registration confirmation through the IRCC webform'.
+- Düzeltme: D1: 'NDEBConnect hesabını açıp 450 CAD makbuzunu aldıktan hemen sonra, **en geç 10 Kasım 2026'da** TRV başvurusunu yap. 63 gün sonrası ≈ 12 Ocak karar, yani 18 Ocak kayıt son gününden önce. Pasaport iadesi ≈ Ocak sonu. Biyometri pasaportu alıkoymaz; pasaport yalnızca onaydan sonraki pasaport talebi aşamasında VFS'de kalır, bu yüzden konsolosluk randevusu (B2) ile çakışmaz.' Change 0.1 Hat A and the 0.3 list to 'vizeyi bu hafta başvur'. Senaryo A: move 'TRV başvurusu' to the '3–9 Kas' row and change '≈ 25 Oca TRV kararı' to '≈ 12–20 Oca'.
+
+## [2] major — H1 table ('İlk yıl maliyeti (2026/27 tarifesi …)': 5.099 / 4.225 CAD), 10 Maliyet tablosu ('BC ilk yıl toplamı ≈6.500–7.400', 'Sonraki her yıl ≈3.450–3.860'), FAZ I 'Ücret (2026/27) … 1.754,60'
+- Sorun: Every BC scenario in the plan has the application in October 2027 or later, and the first renewal on 31 Mar 2028. Those all fall under the 2027/28 or later tariff, never 2026/27. The plan applies 2026/27 fees to them, so every BC total is understated by roughly 200–300 CAD. The 'sonraki her yıl' low end also uses the BCDA member insurance rate without counting BCDA dues.
+- Kanıt: bc_licensure.md STEP 4: 'factor in the proposed 5% fee increase effective 1 Apr 2027 (not yet final). It gives approximately: application $3,488, licence $1,836 full year / $919 half year, renewal $1,836.' Bylaws Schedule A (fetched 3 Nov 2026): application $3,322, full year $1,749, half year $875.
+- Düzeltme: H1 heading: 'İlk yıl maliyeti (önerilen 2027/28 tarifesiyle, kesinleşmedi; sigorta hariç)'. Seçenek 1: '3.488 + 28 + 1.836 ≈ **5.352 CAD** (zam onaylanmazsa 5.099)'. Seçenek 2: '3.488 + 28 + 919 ≈ **4.435 CAD** (zam onaylanmazsa 4.225)'. Maliyet tablosu: 'BC ilk yıl toplamı ≈ 6.700–7.600 CAD + sigorta vergisi [H, 2027/28 önerisi]'. 'Sonraki her yıl ≈ 3.550–3.950 CAD + vergi (1.836 + 5,60 + 1.685–2.107 sigorta; üye fiyatı için BCDA aidatı ayrıca)'.
+
+## [3] major — H2 Üyelik ('Lisanstan sonra BCDA "First Year in Practice" üyeliğiyle üye fiyatına geçilebilir'), H8 ('BCDA "First Year in Practice" üyeliği (üye sigorta fiyatı)')
+- Sorun: The plan recommends a membership category this candidate will almost certainly not qualify for. It is open only to those who register within 1 year of graduation. The candidate graduated in or after Feb 2024, and in the plan's own scenarios the licence arrives around Dec 2027 or later, more than a year after graduation in practically every case. The member premium it relies on would then need regular BCDA membership, whose dues are not counted anywhere.
+- Kanıt: bc_licensure.md STEP 5: 'After licensure, join BCDA "First Year in Practice" ("New graduate dentists ... that register for BCDA membership within one (1) year of graduation")'. Also: 'BCDA Full membership requires an active BCCOHP licence'.
+- Düzeltme: H2: 'BCDA "First Year in Practice" yalnız mezuniyetten sonraki 1 yıl içinde üye olanlar için. Senin lisansın büyük olasılıkla bu süreden sonra geleceği için bu kategoriye girmen beklenmez. Üye fiyatı için lisanstan sonra normal (Full) BCDA üyeliği gerekir; aidatı ayrıca ödenir ve bu planda hesaplanmadı [?]. Bütçede üye olmayan fiyatı (≈2.107 CAD + vergi) esas al.' H8: delete the first bullet and write 'İstersen BCDA Full üyeliğine geç (aidatı sigorta indiriminden fazlaysa gerek yok); sigortayı kesintisiz sürdür.'
+
+## [4] major — FAZ G ('Sertifikanın veriliş tarihini not et. BC başvurusu için 3 yıllık süre bu tarihten işler [D: BCCOHP Bylaw 6.05(b)]'), H1 Seçenek 3 ('sertifika tarihinden en geç 3 yıl içinde'), 12 Riskler 'BC için sertifikadan sonra 3 yıl'
+- Sorun: The [D] label overstates certainty. The bylaw counts the 3 years from the certificate's issue date, but the BCCOHP web page counts them from completion of the NDEB exams. The research says to use the earlier date. A candidate who defers (Seçenek 3) until 'sertifika + 3 yıl' could miss the window by a few months and fall into equivalency. The plan's own A8 Q7 and section 14 still treat this as open.
+- Kanıt: verify_dates-fees.md STEP 8 and RISK 9: 'The BC bylaw counts from the certificate ISSUE date, while the BC web page speaks of exam completion. Use the earlier of the two dates.' Web page: 'successful completion of the National Dental Examining Board (NDEB) examinations no more than three years before the date of your application… you may have to complete an equivalency determination process.'
+- Düzeltme: FAZ G: 'Hem sınav tarihini hem sertifikanın veriliş tarihini not et. Tüzük (6.05(b)) 3 yılı sertifika tarihinden sayıyor, BCCOHP web sayfası ise sınavı geçme tarihinden; bu yüzden güvenli sınır **sınav tarihi + 3 yıl** [T; A8'de yazılı sor].' H1 Seçenek 3: 'en geç **sınav tarihinden** itibaren 3 yıl içinde (BCCOHP aksini yazılı teyit etmedikçe)'. Riskler: 'BC için sınavdan (güvenli okuma) sonra 3 yıl'.
+
+## [5] major — B2 Konsolosluk randevusu, 'Çıkmadan önce kontrol et' listesi
+- Sorun: The checklist leaves out NDEB's explicit rejection rule for one kind of true-copy wording: a statement in which the applicant swears the copy is true. Some consular offices certify copies by having the applicant make a statutory declaration ('I declare this is a true copy'). NDEB rejects that, and a rejection discovered after shipping could cost the 5 Jan deadline. The checklist also leaves out the rule that the seal itself must show the officer's credentials in English or French.
+- Kanıt: ndeb_admin-process.md STEP 4: '"A statement indicating that you are swearing that the document is a true copy ... will not be accepted."' and '"The original seal must display the notarizing officer's credentials, including full name and title ... in English or French."'
+- Düzeltme: Add to the B2 checklist: '7. Onay şerhi **görevlinin** kendi beyanı olmalı ("aslını gördüm, bu onun gerçek kopyasıdır"). Senin "bu kopyanın doğru olduğuna yemin ederim" dediğin bir beyan (statutory declaration) NDEB tarafından **kabul edilmez**; görevli bu yolu önerirse kabul etme. 8. Mühürde görevlinin adı ve unvanı İngilizce ya da Fransızca olmalı.'
+
+## [6] major — A4 Certification Process Form ('bugün, 20 dakika'), item 3: 'Hiç lisans almadıysan "I have never been licensed…"'
+- Sorun: The plan has the candidate fill in and wet-sign the form today. Yet A1 and A2 leave open whether Ministry diploma registration (tescil) counts as 'licensed'. If she ticks 'never licensed' and NDEB later treats tescil as licensure, the form contradicts the good-standing letter or affidavit. Under the July 2026 by-law that inconsistency risks being treated as misrepresentation, or at least as a deficient form.
+- Kanıt: full.md A1: 'Tescil varsa NDEB'nin "licensed" sayıp Statement of Good Standing istemesi olası [T]'. verify_dates-fees.md RISK 10: 'Inaccurate or incomplete documents… can lead to ineligibility.' 2026 Form disclosure options (ndeb_admin-process.md STEP 6).
+- Düzeltme: A4 item 3: 'Beyan kutusunu ve lisans tablosunu, NDEB'nin A2'ye (tescil "licensed" sayılır mı?) yazılı yanıtı gelmeden **doldurma ve imzalama**. Diploman tescilliyse ve NDEB bunu lisans sayıyorsa "never suspended or revoked" kutusunu işaretle ve tabloya "Ministry of Health of Türkiye – Dentist – tescil tarihi" yaz. Form, affidavit ve İyi Hal Belgesi birbiriyle **tutarlı** olmalı.' Change A4's timing to 'NDEB yanıtından sonra (≈5–10 Kasım)'.
+
+## [7] major — 0.1 Hat B ('26 Ocak 2027 18:00 TRT'de … onaylı başvuruyla kayıt ol'), 11 Senaryo B ('NDEB onayı (en geç 26 Ocak'tan önce olmalı)')
+- Sorun: The 'realistic main target' rests on an unverified assumption that a March-cycle approval carries over to May. NDEB's application window for the 20 May exam itself opens on 26 Jan 2027, the same minute registration opens. If approval does not carry over, she cannot be approved by 26 Jan, misses the first period, and has only the second May period (≈25 Mar–8 Apr) left. The plan raises this only as a question (A2 Q5, C2 [?]). It is not shown as a branch in 0.1 or in the risk table.
+- Kanıt: verify_dates-fees.md KEY FACTS: '20 May 2027 exam opens 26 Jan 2027 with deadline 5 Apr 2027.' ndeb_admin-process.md OPEN (c): 'Does an application approved in the March 2027 window carry forward so you can register for 20 May 2027…?' (unverified).
+- Düzeltme: Add to 0.1 Hat B: '**Bu hat, Mart döngüsünde alınan onayın Mayıs'a taşınmasına bağlı [?].** Taşınmazsa Mayıs başvuru penceresi de 26 Ocak'ta açılır, onay ≈2–3 hafta sürer ve yalnız ikinci kayıt dönemi (≈25 Mart–8 Nisan) kalır. A2 yanıtı gelince Hat B'yi buna göre güncelle.' Add a row to the 12 Riskler table: 'Onay Mayıs'a taşınmıyor | NDEB yanıtı | 26 Ocak'ta belgeleri yeniden yükle, ikinci dönemi bekle; olmazsa 22 Kasım 2027 [?]'.
+
+## [8] minor — H1 Seçenek 2 ('Sertifikadan sonraki ilk 1 Ekim'den itibaren'), 11 Senaryo A 'Eki 2027 BCCOHP başvurusu', H0
+- Sorun: The bylaw applies the half-year fee only to applications submitted 'after October 1'. An application filed on 1 October itself may be charged the full year. The plan's 'from 1 October' and 'Ekim 2027' leave that open. H0 also says the application fee 'değişmez', which conflicts with the proposed 5% increase.
+- Kanıt: Bylaws Schedule A note 2 (fetched): 'Half year fees specified in this Schedule only apply to applications for a licence submitted after October 1.' bc_licensure.md STEP 4 TIMING: 'Half-year option: on or after 2 Oct 2027.'
+- Düzeltme: H1 Seçenek 2: 'Sertifikadan sonraki ilk **2 Ekim veya sonrasında** (1 Ekim'de değil)'. Senaryo A: '2 Eki 2027 veya sonrası: BCCOHP başvurusu'. H0: 'Başvuru ücreti (3.322 CAD; 2027/28 için önerilen 3.488) yarıya inmez ve iade edilmez.'
+
+## [9] minor — H0 ('%5 zam önerildi; kesinleşmedi [D]. Önerilen tutarlar: başvuru 3.488, tam yıl 1.836, yarım yıl 919 CAD')
+- Sorun: The figures are the researcher's own ×1.05 calculations ('approximately'), not amounts quoted from BCCOHP, so the [D] label overstates them.
+- Kanıt: bc_licensure.md STEP 4: 'It gives approximately: application $3,488, licence $1,836 full year / $919 half year'.
+- Düzeltme: '1 Nisan 2027'den itibaren %5 zam önerildi; kesinleşmedi [D]. %5 ile hesaplanan yaklaşık tutarlar: başvuru ≈3.488, tam yıl ≈1.836, yarım yıl ≈919 CAD [H].'
+
+## [10] minor — A2 heading ('yanıt genelde 1 iş günü içinde [D: service standard]')
+- Sorun: The service standard promises an acknowledgment within one business day, not an answer. Reading it as an answer could lead the candidate to set up NDEBConnect before the name question is actually resolved.
+- Kanıt: ndeb_admin-process.md STEP 8: 'Email enquiries are normally acknowledged "within one business day".'
+- Düzeltme: '(bugün; NDEB e-postaların alındığını genelde 1 iş günü içinde bildiriyor [D]; içerik yanıtı daha uzun sürebilir)'
+
+## [11] minor — FAZ I QAP row ('Saat sayımı yok (~8–10 saat/yıl). … [D]')
+- Sorun: None of the raw research supports the '~8–10 saat/yıl' estimate, yet it sits inside a [D]-labelled cell.
+- Kanıt: No 'hours' figure appears in bc_licensure.md (grep 'hour', '8–10' finds nothing in raw/).
+- Düzeltme: Delete '(~8–10 saat/yıl)', or rewrite as 'Saat sayımı yok; yıllık süre yayımlanmamış [?]'.
+
+## [12] minor — D5 ('Türkiye–Doğu Kanada saat farkı 8 saat')
+- Sorun: This holds only until 14 Mar 2027. For the 20 May sitting (Hat B, the main target) the difference is 7 hours, or 10 hours if the Prometric centre is in Vancouver. That contradicts Rule 9 in the same plan.
+- Kanıt: full.md Kural 9: 'Kışın ET+8, 14 Mart 2027'den sonra ET+7 = TRT.'
+- Düzeltme: '(Türkiye–Doğu Kanada saat farkı Mart'ta 8, Mayıs ve Kasım'da 7 saat; Vancouver için 10 saat)'
+
+## [13] minor — B1 affidavit template, item 1 ('the degree of Doctor of Dental Surgery (Diş Hekimi)')
+- Sorun: The template hard-codes a degree title. A sworn statement that does not match the English title printed on the Yeditepe transcript or diploma invites a deficiency notice or a name/degree inconsistency.
+- Kanıt: NDEB defines the affidavit as a 'written sworn statement … that is legally binding' (turkey_documents.md STEP 6). The transcript must come from the university (ndeb_admin-process.md STEP 3).
+- Düzeltme: '1. I was awarded the degree of [İngilizce transkript/diplomadaki derece adı, birebir] by Yeditepe University…' and add a note under the template: 'Derece adını Yeditepe'nin İngilizce transkriptinden harfi harfine kopyala.'
+
+## [14] minor — FAZ F 'Hasta olursan…' ('Sınav başlamadan NDEBConnect'ten çekil; deneme hakkı yanmaz')
+- Sorun: The text implies withdrawing is free. Every withdrawal carries a fee, and the 25% medical rate requires a Refund Request with documents within 7 days. Without that, after the deadline the charge is 100%.
+- Kanıt: ndeb_admin-process.md STEP 9: 'Approved serious medical or unforeseen exceptional circumstance: 25% (CAD 437.50). Withdraw in NDEBConnect before the exam starts, then email a Refund Request with documents within 7 days.' Protocol: 'All withdrawals are subject to a fee.'
+- Düzeltme: 'Sınav başlamadan NDEBConnect'ten çekil; deneme hakkı yanmaz ama ücret kesilir. Ciddi sağlık nedeninde kesintinin %25'e (437,50 CAD) inmesi için 7 gün içinde belgeli "Refund Request" gönder; aksi hâlde son günden sonra %100 [D].'
+
+## [15] minor — D4 İrlanda row ('belgeler İngilizce ve orijinal [D]'; 'Bölge transferi yasak olduğu için…')
+- Sorun: Ireland also accepts documents with a notarised translation; the plan drops that option. The NDEB transfer ban literally names Australia/NZ versus Canada/US, so applying it to Ireland is an inference. C2 labels it [T], but D4 states it without any label.
+- Kanıt: travel_visa.md: 'All supporting documentation should be in English or accompanied by a notarised translation.' NDEB 28 May 2026: 'Australia and New Zealand … Canada or the United States, and vice versa.'
+- Düzeltme: 'belgeler İngilizce ya da noter onaylı tercümeli olmalı; kopya yetmez [D]'. Also: 'İrlanda'ya kaydolursan Kanada'ya geçemeyeceğini varsay [T]; İrlanda'yı ancak kayıt anında seçebilirsin.'
+
+## [16] minor — E4 Plan A table ('8–9 | Oral patoloji + radyoloji (5 Ocak belge son günü)')
+- Sorun: Weeks 8–9 run 22 Dec–4 Jan. The 5 Jan deadline falls in week 10.
+- Kanıt: ndeb_exam-content-day.md: 'Wk8–9 (22 Dec–4 Jan)… Make sure all application documents arrive by 5 Jan.' 'Wk10 (5–11 Jan)'.
+- Düzeltme: Week 8–9 row: '(belgeler 4 Ocak'a kadar NDEB'de olmalı; son gün 5 Ocak)'.
+
+## [17] minor — H6 ('Bu durumda Kanada'ya ikinci bir seyahat gerekir') and H2 ('Kısa süreli poliçe en az prim: 250 CAD')
+- Sorun: The second trip for fingerprints needs a valid TRV inside the 90-day window. The plan never says to check that the first visa is still valid or multiple-entry. Separately, the 250 CAD minimum is the member rate.
+- Kanıt: bc_licensure.md RISK 10: 'If the Ministry requests fingerprints, you must return to Canada within 90 days. A visitor visa is needed for that trip.' STEP 5: 'Short Term Malpractice Member Minimum Premium: $250.00'.
+- Düzeltme: H6: '… ikinci bir seyahat gerekir; TRV'nin geçerlilik süresini ve çok girişli olup olmadığını kontrol et, gerekirse yeni TRV için 90 günlük süre yetmeyebilir [H].' H2: 'Kısa süreli poliçe en az prim (üye): 250 CAD; üye değilsen +%25.'
+
+## [18] minor — Line 809 ('Ham araştırma çıktıları: ajanlar/plan_*.md'), H0 ('[D, önceki raporda iki ajan doğruladı]'), A8 ('(önceki rapor)')
+- Sorun: These lines point to internal workflow artefacts the reader does not have. The [D] label in H0 rests on an earlier report rather than on a page read today.
+- Kanıt: Header line 5 defines [D] as 'resmî kaynakta doğrulandı', read today.
+- Düzeltme: Delete line 809. H0: 'Tüzükte vatandaşlık, PR, çalışma izni ya da SIN şartı geçmiyor [D: BCCOHP Bylaws 6.03–6.05].' A8: replace '(önceki rapor)' with 'diğer eyaletlere'.
+
+## Eksik adımlar
+1) Re-check the BCCOHP fee page before paying, and budget with the 2027/28 tariff. Every BC payment in the plan's scenarios falls after 1 Apr 2027. 2) Ask NDEB in writing to send BCCOHP a direct certification confirmation, or order the 30 CAD proof-of-certification letter. The plan mentions this but the Senaryo A and B timelines never schedule it (it belongs at 'Ağu–Eyl 2027'). 3) Check that the Turkish passport used for the notarized NDEB copy will still be valid on exam day. If it is renewed, update NDEBConnect and tell NDEB, because the ID number and issue date change. 4) Before a possible fingerprint trip for the BC criminal record check, confirm the TRV is still valid and multiple-entry. 5) For the 25% medical withdrawal, send the Refund Request with documents within 7 days. 6) Settle the half-year rule by submitting on 2 October or later, not on 1 October. 7) Hat B needs a contingency step for the case where March approval does not carry over: re-upload documents on 26 Jan and aim for the second registration period. Nothing else essential is missing. BCCOHP Bylaws 6.03 (fetched) contain no English-language or jurisprudence requirement, so the plan is right not to include those.
+
+## Genel değerlendirme
+The draft is accurate on the main dates and conversions. All ET->TRT times check out: 18:00/17:00 openings, 05:00/04:00 deadlines, with EST until 14 Mar and EDT after. So do the 15-day verification dates (14 Feb, 5 May, 7 Nov), the 8-week result dates (26 Apr, 15 Jul, 17 Jan 2028), the 8-week accommodation deadlines (4 Jan, 25 Mar), the 15-business-day medication dates (8 Feb, 29 Apr), the weekdays, the NDEB and consular fees, and the arithmetic (2.475–2.555; 5.099/4.225; 2.086,60). The most serious problems are about strategy and money. (a) The TRV application is scheduled two weeks later than the research recommends, which pushes the visa decision past the 18 Jan registration deadline and creates the very withdrawal-fee dilemma the plan then tries to manage. (b) Every BC cost uses the 2026/27 tariff, although every BC payment in the plan falls in 2027/28 or later. (c) The plan recommends BCDA 'First Year in Practice', which the candidate will almost certainly not qualify for. (d) The BC 3-year clock is labelled [D] from the certificate date while BCCOHP's own web page counts from the exam. (e) Two document-rejection risks are not covered: a consular true copy based on a self-sworn statement, and signing the Form's licensing disclosure before NDEB says whether diploma tescil counts as a licence. (f) Hat B silently depends on the approval carrying over to May. Nothing in the draft advises concealing anything from immigration; D2.7 handles honesty correctly. The rest are minor label or wording fixes. Apply the Turkish replacement wording given for each item; no wholesale rewrite is needed.
