@@ -1,3 +1,6 @@
 cache
 *_base.png
 __pycache__/
+cikti/*.png
+!cikti/rumeli_1876.png
+data_cal/
