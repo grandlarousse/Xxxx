@@ -1,0 +1,480 @@
+{
+ "kicker": "RUMELİ 1876 · 6/8 · OSMANLI KAYITLARINA GÖRE",
+ "title": "BOSNA-HERSEK VE YENİPAZAR",
+ "subtitle": "Osmanlı'nın batı serhaddinde her iki kişiden biri Müslüman",
+ "story_labels": [
+  {
+   "text": "BOŞNAKLAR",
+   "sub": "Bosna vadisi ve kasabaları",
+   "group": 1,
+   "lon": 18.02,
+   "lat": 44.33
+  },
+  {
+   "text": "CAZİN KRAYİNASI",
+   "sub": "Serhad boyu Boşnak köyleri",
+   "group": 1,
+   "lon": 16.02,
+   "lat": 45.03
+  },
+  {
+   "text": "DRİNA BOYU",
+   "sub": "Müslüman Drina kasabaları",
+   "group": 1,
+   "lon": 19.05,
+   "lat": 44.07
+  },
+  {
+   "text": "PEŞTER",
+   "sub": "Boşnak ve Arnavut köyleri",
+   "group": 1,
+   "lon": 20.15,
+   "lat": 43.02
+  },
+  {
+   "text": "ORTODOKS SIRPLAR",
+   "sub": "Petroviç, Drvar, Grahovo",
+   "group": 2,
+   "lon": 16.45,
+   "lat": 44.33
+  },
+  {
+   "text": "KATOLİK HIRVATLAR",
+   "sub": "Batı Hersek, Duvno, Rama",
+   "group": 2,
+   "lon": 17.4,
+   "lat": 43.55
+  },
+  {
+   "text": "SAVA BOYU",
+   "sub": "Hırvat ve Sırp köyleri",
+   "group": 2,
+   "lon": 18.35,
+   "lat": 45.04
+  },
+  {
+   "text": "HERSEK İSYANI",
+   "sub": "1875'te Nevesin'de başladı",
+   "group": 3,
+   "lon": 18.27,
+   "lat": 43.02
+  }
+ ],
+ "cities": [
+  {
+   "name": "Saraybosna",
+   "modern": "Sarajevo",
+   "lon": 18.413,
+   "lat": 43.856,
+   "tier": 1
+  },
+  {
+   "name": "Mostar",
+   "modern": "",
+   "lon": 17.808,
+   "lat": 43.344,
+   "tier": 1
+  },
+  {
+   "name": "Banaluka",
+   "modern": "Banja Luka",
+   "lon": 17.191,
+   "lat": 44.772,
+   "tier": 1
+  },
+  {
+   "name": "Travnik",
+   "modern": "",
+   "lon": 17.666,
+   "lat": 44.226,
+   "tier": 1
+  },
+  {
+   "name": "Tuzla",
+   "modern": "",
+   "lon": 18.676,
+   "lat": 44.538,
+   "tier": 1
+  },
+  {
+   "name": "Bihke",
+   "modern": "Bihać",
+   "lon": 15.871,
+   "lat": 44.817,
+   "tier": 1
+  },
+  {
+   "name": "Yenipazar",
+   "modern": "Novi Pazar",
+   "lon": 20.512,
+   "lat": 43.137,
+   "tier": 1
+  },
+  {
+   "name": "İzvornik",
+   "modern": "Zvornik",
+   "lon": 19.103,
+   "lat": 44.386,
+   "tier": 2
+  },
+  {
+   "name": "Taşlıca",
+   "modern": "Pljevlja",
+   "lon": 19.358,
+   "lat": 43.357,
+   "tier": 2
+  },
+  {
+   "name": "Foça",
+   "modern": "Foča",
+   "lon": 18.778,
+   "lat": 43.506,
+   "tier": 2
+  },
+  {
+   "name": "Seniçe",
+   "modern": "Sjenica",
+   "lon": 20.002,
+   "lat": 43.273,
+   "tier": 2
+  },
+  {
+   "name": "Mitroviçe",
+   "modern": "Mitrovica",
+   "lon": 20.866,
+   "lat": 42.891,
+   "tier": 2
+  },
+  {
+   "name": "Nikşik",
+   "modern": "Nikšić",
+   "lon": 18.945,
+   "lat": 42.773,
+   "tier": 2
+  },
+  {
+   "name": "Trebin",
+   "modern": "Trebinje",
+   "lon": 18.344,
+   "lat": 42.712,
+   "tier": 2
+  },
+  {
+   "name": "Nevesin",
+   "modern": "Nevesinje",
+   "lon": 18.113,
+   "lat": 43.259,
+   "tier": 2
+  },
+  {
+   "name": "İhlivne",
+   "modern": "Livno",
+   "lon": 17.008,
+   "lat": 43.827,
+   "tier": 2
+  },
+  {
+   "name": "Yayçe",
+   "modern": "Jajce",
+   "lon": 17.271,
+   "lat": 44.342,
+   "tier": 2
+  },
+  {
+   "name": "Zeniçe",
+   "modern": "Zenica",
+   "lon": 17.908,
+   "lat": 44.202,
+   "tier": 2
+  },
+  {
+   "name": "Visoka",
+   "modern": "Visoko",
+   "lon": 18.178,
+   "lat": 43.989,
+   "tier": 2
+  },
+  {
+   "name": "Konyiçe",
+   "modern": "Konjic",
+   "lon": 17.961,
+   "lat": 43.652,
+   "tier": 2
+  },
+  {
+   "name": "Brçka",
+   "modern": "Brčko",
+   "lon": 18.811,
+   "lat": 44.873,
+   "tier": 2
+  },
+  {
+   "name": "Gradaçaç",
+   "modern": "Gradačac",
+   "lon": 18.427,
+   "lat": 44.879,
+   "tier": 2
+  },
+  {
+   "name": "Doboy",
+   "modern": "Doboj",
+   "lon": 18.084,
+   "lat": 44.732,
+   "tier": 2
+  },
+  {
+   "name": "Vişegrad",
+   "modern": "Višegrad",
+   "lon": 19.293,
+   "lat": 43.783,
+   "tier": 2
+  },
+  {
+   "name": "Akova",
+   "modern": "Bijelo Polje",
+   "lon": 19.748,
+   "lat": 43.038,
+   "tier": 2
+  },
+  {
+   "name": "Prepol",
+   "modern": "Prijepolje",
+   "lon": 19.652,
+   "lat": 43.39,
+   "tier": 2
+  },
+  {
+   "name": "Gaçka",
+   "modern": "Gacko",
+   "lon": 18.535,
+   "lat": 43.167,
+   "tier": 2
+  },
+  {
+   "name": "İpek",
+   "modern": "Peć",
+   "lon": 20.289,
+   "lat": 42.659,
+   "tier": 2
+  },
+  {
+   "name": "Belgrad",
+   "modern": "",
+   "lon": 20.457,
+   "lat": 44.818,
+   "tier": 2
+  },
+  {
+   "name": "Krupa",
+   "modern": "Bosanska Krupa",
+   "lon": 16.151,
+   "lat": 44.883,
+   "tier": 3
+  },
+  {
+   "name": "Sanapazarı",
+   "modern": "Sanski Most",
+   "lon": 16.667,
+   "lat": 44.767,
+   "tier": 3
+  },
+  {
+   "name": "Petroviç",
+   "modern": "Bosanski Petrovac",
+   "lon": 16.37,
+   "lat": 44.554,
+   "tier": 3
+  },
+  {
+   "name": "Priyedor",
+   "modern": "Prijedor",
+   "lon": 16.714,
+   "lat": 44.98,
+   "tier": 3
+  },
+  {
+   "name": "Maglay",
+   "modern": "Maglaj",
+   "lon": 18.1,
+   "lat": 44.547,
+   "tier": 3
+  },
+  {
+   "name": "Çelebipazarı",
+   "modern": "Rogatica",
+   "lon": 19.001,
+   "lat": 43.799,
+   "tier": 3
+  },
+  {
+   "name": "Bileke",
+   "modern": "Bileća",
+   "lon": 18.429,
+   "lat": 42.872,
+   "tier": 3
+  },
+  {
+   "name": "Yenivaroş",
+   "modern": "Nova Varoš",
+   "lon": 19.813,
+   "lat": 43.46,
+   "tier": 3
+  },
+  {
+   "name": "Berane",
+   "modern": "",
+   "lon": 19.873,
+   "lat": 42.843,
+   "tier": 3
+  },
+  {
+   "name": "Tergovişte",
+   "modern": "Rožaje",
+   "lon": 20.167,
+   "lat": 42.842,
+   "tier": 3
+  },
+  {
+   "name": "Duvno",
+   "modern": "Tomislavgrad",
+   "lon": 17.226,
+   "lat": 43.718,
+   "tier": 3
+  },
+  {
+   "name": "Prozor",
+   "modern": "",
+   "lon": 17.61,
+   "lat": 43.822,
+   "tier": 3
+  },
+  {
+   "name": "Kolaşin",
+   "modern": "Kolašin",
+   "lon": 19.517,
+   "lat": 42.822,
+   "tier": 3
+  },
+  {
+   "name": "İspilit",
+   "modern": "Split",
+   "lon": 16.44,
+   "lat": 43.508,
+   "tier": 3
+  },
+  {
+   "name": "Dubrovnik",
+   "modern": "",
+   "lon": 18.094,
+   "lat": 42.65,
+   "tier": 3
+  }
+ ],
+ "bars": [
+  {
+   "label": "BOSNA VİLÂYETİ",
+   "vilayet": "Bosna",
+   "sancak": [
+    "Saray",
+    "İzvornik",
+    "Travnik",
+    "Bihke",
+    "Banaluka",
+    "Yenipazar"
+   ],
+   "record_muslim_pct": 51,
+   "record_label": "kayıt 1870"
+  },
+  {
+   "label": "Yenipazar",
+   "vilayet": "Bosna",
+   "sancak": [
+    "Yenipazar"
+   ],
+   "record_muslim_pct": 63.3,
+   "record_label": "kayıt 1870"
+  },
+  {
+   "label": "Saray",
+   "vilayet": "Bosna",
+   "sancak": [
+    "Saray"
+   ],
+   "record_muslim_pct": 56.9,
+   "record_label": "kayıt 1870"
+  },
+  {
+   "label": "Bihke",
+   "vilayet": "Bosna",
+   "sancak": [
+    "Bihke"
+   ],
+   "record_muslim_pct": 53.8,
+   "record_label": "kayıt 1870"
+  },
+  {
+   "label": "İzvornik",
+   "vilayet": "Bosna",
+   "sancak": [
+    "İzvornik"
+   ],
+   "record_muslim_pct": 52.9,
+   "record_label": "kayıt 1870"
+  },
+  {
+   "label": "Hersek (Mostar)",
+   "vilayet": "Hersek",
+   "sancak": [
+    "Hersek (Mostar)"
+   ],
+   "record_muslim_pct": 49,
+   "record_label": "kayıt 1870"
+  },
+  {
+   "label": "Travnik",
+   "vilayet": "Bosna",
+   "sancak": [
+    "Travnik"
+   ],
+   "record_muslim_pct": 47.8,
+   "record_label": "kayıt 1870"
+  },
+  {
+   "label": "Banaluka",
+   "vilayet": "Bosna",
+   "sancak": [
+    "Banaluka"
+   ],
+   "record_muslim_pct": 33.9,
+   "record_label": "kayıt 1870"
+  }
+ ],
+ "callouts": [
+  {
+   "big": "%51,0",
+   "line1": "Bosna vilâyetinde Müslüman",
+   "line2": "1870 sayımı · Hersek'te %49,0",
+   "src": "Bosna salnamesi 1287/1870 (Z. Gölen, Belleten 65, 2001)"
+  },
+  {
+   "big": "%63,3",
+   "line1": "Yenipazar sancağında Müslüman",
+   "line2": "Vilâyetin en Müslüman sancağı",
+   "src": "Bosna salnamesi 1287/1870 (Z. Gölen, Belleten 65, 2001)"
+  },
+  {
+   "big": "500.000+",
+   "line1": "Müslüman, 1878'de Avusturya",
+   "line2": "işgaline bırakılan topraklardaydı",
+   "src": "harita modeli: ≈517 bin (Yenipazar ve Nikşik hariç)"
+  }
+ ],
+ "narrative": [
+  "1870 Osmanlı sayımında Bosna'da her iki kişiden biri Müslümandı; kasabalar Boşnak ağırlıklıydı.",
+  "Ortodoks Sırplar Krayina ve Hersek dağlarında, Katolik Hırvatlar Batı Hersek ve Orta Bosna'da yoğundu.",
+  "1875'te Nevesin'de başlayan Hersek isyanı Şark Buhranı'nı başlattı; yol 1877-78'de 93 Harbi'ne çıktı.",
+  "Berlin'de (1878) Bosna-Hersek Avusturya işgaline bırakıldı; Yenipazar sancağı 1912'ye dek Osmanlı'da kaldı."
+ ],
+ "sources_line": "Kaynaklar: Bosna Vilâyeti Salnamesi 1287/1870 (Z. Gölen, Belleten 65/242, 2001) · TDV İslâm Ansiklopedisi, \"Yenipazar\" · A. H. Layard 1877 (M. Köse, Trakya Üniv. EFD 9/18, 2019) · Z. Yücetürk 2018 (kaza listeleri) · erkek sayımları ×2; sancak içi dağılım 1879 Avusturya ilçe örüntüsünden, nokta yerleri temsilî",
+ "caption": "1876'da Bosna'da her iki kişiden biri Müslümandı. Osmanlı kayıtları bunu açıkça gösteriyor.\n\nRUMELİ 1876 serisinin 6. durağı: Bosna-Hersek ve Yenipazar.\n\n1870 Bosna salnamesine göre:\n• Bosna vilâyetinde Müslüman oranı %51,0; Hersek'te %49,0.\n• En Müslüman sancak Yenipazar'dı: %63,3. Yenipazar kasabasında 1857'de 1.500 Müslüman haneye karşılık 100 Hristiyan hane vardı.\n• Saray (%56,9), Bihke (%53,8) ve İzvornik (%52,9) sancaklarında Müslümanlar çoğunluktaydı; Banaluka'da ise Hristiyanlar ağır basıyordu (%33,9 Müslüman).\n\nSarı noktalar Bosna'nın Müslüman halkı Boşnakları gösteriyor: Cazin Krayinası, Bosna vadisi, Drina boyu, Peşter. Kasabalardaki kırmızı noktalar Türk memur, asker ve aileleri; mavi noktalar Ortodoks Sırp ve Katolik Hırvat köyleri.\n\n1875'te Nevesin'de başlayan Hersek isyanı 93 Harbi'ne giden yolu açtı. 1878'de Bosna-Hersek Avusturya-Macaristan işgaline bırakıldı; haritamıza göre yarım milyondan fazla Müslüman yabancı idare altında kaldı, muhacir kafileleri Osmanlı topraklarına yöneldi. Yenipazar sancağı 1912'ye dek Osmanlı'da kaldı.\n\nNoktalar temsilîdir: 1 nokta = 100 kişi. Sancak toplamları Osmanlı kaydıdır (erkek nüfus ×2); sancak içi dağılım sonraki ilçe örüntülerinden tahmin edilmiştir.\n\nKaynaklar: Bosna Vilâyeti Salnamesi 1287/1870 (Z. Gölen, Belleten 2001); TDV İslâm Ansiklopedisi, \"Yenipazar\"; A. H. Layard 1877 (M. Köse 2019).\n\nSizce Bosna'da Osmanlı mirası en çok hangi şehirde yaşıyor?\n\n#Bosna #Hersek #Saraybosna #Mostar #Yenipazar #Boşnaklar #OsmanlıTarihi #Rumeli #93Harbi #BerlinAntlaşması #Balkanlar #TarihHaritası #OsmanlıDevleti"
+}

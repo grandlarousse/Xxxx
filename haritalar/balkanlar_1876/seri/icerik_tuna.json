@@ -1,0 +1,438 @@
+{
+ "kicker": "RUMELİ 1876 · 2/8 · OSMANLI KAYITLARINA GÖRE",
+ "title": "DELİORMAN VE DOBRUCA",
+ "subtitle": "Tuna Vilâyeti 1876: kim, nerede yaşıyordu?",
+ "story_labels": [
+  {
+   "text": "DELİORMAN",
+   "sub": "Sünnî ve Alevî Türk köyleri",
+   "group": 0,
+   "lon": 26.8,
+   "lat": 43.78
+  },
+  {
+   "text": "DOBRUCA",
+   "sub": "Tatar ve Türk köyleri",
+   "group": 0,
+   "lon": 28.4,
+   "lat": 44.5
+  },
+  {
+   "text": "GERLOVO",
+   "sub": "Osman Pazarı Türkleri",
+   "group": 0,
+   "lon": 26.45,
+   "lat": 43.08
+  },
+  {
+   "text": "ÇERKES MUHACİRLERİ",
+   "sub": "Pazarcık–Pravadi köyleri",
+   "group": 1,
+   "lon": 27.5,
+   "lat": 43.5
+  },
+  {
+   "text": "POMAKLAR",
+   "sub": "Lofça köyleri",
+   "group": 1,
+   "lon": 24.47,
+   "lat": 43.2
+  },
+  {
+   "text": "BULGAR KASABALARI",
+   "sub": "Gabrova · Drenova · Elena",
+   "group": 2,
+   "lon": 25.5,
+   "lat": 42.9
+  },
+  {
+   "text": "ROMANYA PRENSLİĞİ",
+   "sub": "Osmanlı'ya bağlı özerk prenslik",
+   "group": 3,
+   "lon": 24.9,
+   "lat": 44.35
+  }
+ ],
+ "cities": [
+  {
+   "name": "Rusçuk",
+   "modern": "Ruse",
+   "lon": 25.97,
+   "lat": 43.85,
+   "tier": 1
+  },
+  {
+   "name": "Varna",
+   "modern": "",
+   "lon": 27.91,
+   "lat": 43.21,
+   "tier": 1
+  },
+  {
+   "name": "Tulça",
+   "modern": "Tulcea",
+   "lon": 28.8,
+   "lat": 45.18,
+   "tier": 1
+  },
+  {
+   "name": "Tırnova",
+   "modern": "V. Tarnovo",
+   "lon": 25.63,
+   "lat": 43.08,
+   "tier": 1
+  },
+  {
+   "name": "Vidin",
+   "modern": "",
+   "lon": 22.88,
+   "lat": 43.99,
+   "tier": 1
+  },
+  {
+   "name": "Sofya",
+   "modern": "Sofia",
+   "lon": 23.32,
+   "lat": 42.7,
+   "tier": 1
+  },
+  {
+   "name": "Filibe",
+   "modern": "Plovdiv",
+   "lon": 24.75,
+   "lat": 42.15,
+   "tier": 1
+  },
+  {
+   "name": "İslimye",
+   "modern": "Sliven",
+   "lon": 26.32,
+   "lat": 42.68,
+   "tier": 1
+  },
+  {
+   "name": "Şumnu",
+   "modern": "Shumen",
+   "lon": 26.93,
+   "lat": 43.27,
+   "tier": 2
+  },
+  {
+   "name": "Silistre",
+   "modern": "Silistra",
+   "lon": 27.26,
+   "lat": 44.12,
+   "tier": 2
+  },
+  {
+   "name": "Plevne",
+   "modern": "Pleven",
+   "lon": 24.62,
+   "lat": 43.42,
+   "tier": 2
+  },
+  {
+   "name": "Hezargrad",
+   "modern": "Razgrad",
+   "lon": 26.52,
+   "lat": 43.53,
+   "tier": 2
+  },
+  {
+   "name": "Hacıoğlu Pazarcığı",
+   "modern": "Dobrich",
+   "lon": 27.83,
+   "lat": 43.57,
+   "tier": 2
+  },
+  {
+   "name": "Köstence",
+   "modern": "Constanța",
+   "lon": 28.63,
+   "lat": 44.17,
+   "tier": 2
+  },
+  {
+   "name": "Babadağ",
+   "modern": "",
+   "lon": 28.71,
+   "lat": 44.89,
+   "tier": 2
+  },
+  {
+   "name": "Lofça",
+   "modern": "Lovech",
+   "lon": 24.72,
+   "lat": 43.14,
+   "tier": 2
+  },
+  {
+   "name": "Ziştovi",
+   "modern": "Svishtov",
+   "lon": 25.35,
+   "lat": 43.61,
+   "tier": 2
+  },
+  {
+   "name": "Lom",
+   "modern": "",
+   "lon": 23.24,
+   "lat": 43.82,
+   "tier": 2
+  },
+  {
+   "name": "İvraca",
+   "modern": "Vratsa",
+   "lon": 23.55,
+   "lat": 43.21,
+   "tier": 2
+  },
+  {
+   "name": "Köstendil",
+   "modern": "Kyustendil",
+   "lon": 22.69,
+   "lat": 42.28,
+   "tier": 2
+  },
+  {
+   "name": "Eski Cuma",
+   "modern": "Targovishte",
+   "lon": 26.57,
+   "lat": 43.25,
+   "tier": 2
+  },
+  {
+   "name": "Bükreş",
+   "modern": "București",
+   "lon": 26.1,
+   "lat": 44.43,
+   "tier": 2
+  },
+  {
+   "name": "Eski Zağra",
+   "modern": "Stara Zagora",
+   "lon": 25.63,
+   "lat": 42.43,
+   "tier": 2
+  },
+  {
+   "name": "Tutrakan",
+   "modern": "",
+   "lon": 26.61,
+   "lat": 44.04,
+   "tier": 3
+  },
+  {
+   "name": "Niğbolu",
+   "modern": "Nikopol",
+   "lon": 24.9,
+   "lat": 43.7,
+   "tier": 3
+  },
+  {
+   "name": "Rahova",
+   "modern": "Oryahovo",
+   "lon": 23.96,
+   "lat": 43.72,
+   "tier": 3
+  },
+  {
+   "name": "Mecidiye",
+   "modern": "Medgidia",
+   "lon": 28.27,
+   "lat": 44.25,
+   "tier": 3
+  },
+  {
+   "name": "Hırsova",
+   "modern": "Hârșova",
+   "lon": 27.95,
+   "lat": 44.68,
+   "tier": 3
+  },
+  {
+   "name": "Maçin",
+   "modern": "Măcin",
+   "lon": 28.14,
+   "lat": 45.24,
+   "tier": 3
+  },
+  {
+   "name": "Mankalya",
+   "modern": "Mangalia",
+   "lon": 28.57,
+   "lat": 43.82,
+   "tier": 3
+  },
+  {
+   "name": "Balçık",
+   "modern": "Balchik",
+   "lon": 28.15,
+   "lat": 43.41,
+   "tier": 3
+  },
+  {
+   "name": "Pravadi",
+   "modern": "Provadia",
+   "lon": 27.44,
+   "lat": 43.18,
+   "tier": 3
+  },
+  {
+   "name": "Şehirköy",
+   "modern": "Pirot",
+   "lon": 22.59,
+   "lat": 43.15,
+   "tier": 3
+  },
+  {
+   "name": "Berkofça",
+   "modern": "Berkovitsa",
+   "lon": 23.13,
+   "lat": 43.24,
+   "tier": 3
+  },
+  {
+   "name": "Belgradçık",
+   "modern": "Belogradchik",
+   "lon": 22.68,
+   "lat": 43.63,
+   "tier": 3
+  },
+  {
+   "name": "Servi",
+   "modern": "Sevlievo",
+   "lon": 25.1,
+   "lat": 43.03,
+   "tier": 3
+  },
+  {
+   "name": "Samakov",
+   "modern": "Samokov",
+   "lon": 23.56,
+   "lat": 42.34,
+   "tier": 3
+  },
+  {
+   "name": "Burgaz",
+   "modern": "Burgas",
+   "lon": 27.47,
+   "lat": 42.5,
+   "tier": 3
+  },
+  {
+   "name": "Sünne",
+   "modern": "Sulina",
+   "lon": 29.65,
+   "lat": 45.155,
+   "tier": 3
+  }
+ ],
+ "bars": [
+  {
+   "label": "Tuna (Niş hariç)",
+   "vilayet": "Tuna",
+   "sancak": [
+    "Rusçuk",
+    "Varna",
+    "Tulça",
+    "Tırnova",
+    "Vidin",
+    "Sofya"
+   ],
+   "record_muslim_pct": 41.2,
+   "record_label": "kayıt 1875"
+  },
+  {
+   "label": "Varna",
+   "vilayet": "Tuna",
+   "sancak": [
+    "Varna"
+   ],
+   "record_muslim_pct": 69.8,
+   "record_label": "kayıt 1875"
+  },
+  {
+   "label": "Tulça (Dobruca)",
+   "vilayet": "Tuna",
+   "sancak": [
+    "Tulça"
+   ],
+   "record_muslim_pct": 64.2,
+   "record_label": "kayıt 1875"
+  },
+  {
+   "label": "Rusçuk (Deliorman)",
+   "vilayet": "Tuna",
+   "sancak": [
+    "Rusçuk"
+   ],
+   "record_muslim_pct": 61.5,
+   "record_label": "kayıt 1875"
+  },
+  {
+   "label": "Tırnova",
+   "vilayet": "Tuna",
+   "sancak": [
+    "Tırnova"
+   ],
+   "record_muslim_pct": 38.6,
+   "record_label": "kayıt 1875"
+  },
+  {
+   "label": "Vidin",
+   "vilayet": "Tuna",
+   "sancak": [
+    "Vidin"
+   ],
+   "record_muslim_pct": 16.7,
+   "record_label": "kayıt 1875"
+  },
+  {
+   "label": "Sofya",
+   "vilayet": "Tuna",
+   "sancak": [
+    "Sofya"
+   ],
+   "record_muslim_pct": 14.2,
+   "record_label": "kayıt 1875"
+  },
+  {
+   "label": "Niş",
+   "vilayet": "Tuna",
+   "sancak": [
+    "Niş"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  }
+ ],
+ "callouts": [
+  {
+   "big": "%61,5",
+   "line1": "Rusçuk sancağı Müslüman (1875)",
+   "line2": "Tuna'nın en kalabalık sancağı: 309.797 erkek",
+   "src": "Tahrir-i Cedid 1292/1875 · A. Koyuncu 2014"
+  },
+  {
+   "big": "%90,7",
+   "line1": "Osman Pazarı kazası Müslüman (1873)",
+   "line2": "Eski Cuma %81 · Şumnu %74 · Hezargrad %73",
+   "src": "Tuna salnamesi 1290/1873 · A. Koyuncu 2014"
+  },
+  {
+   "big": "%69,8",
+   "line1": "Varna sancağı Müslüman (1875)",
+   "line2": "Tulça (Kuzey Dobruca): %64,2",
+   "src": "Tahrir-i Cedid 1292/1875 · A. Koyuncu 2014"
+  }
+ ],
+ "narrative": [
+  "1864'te kurulan, ilk valisi Midhat Paşa olan Tuna Vilâyeti, Tanzimat'ın örnek vilâyetiydi.",
+  "Deliorman ve Gerlovo'da Türk köyleri, Dobruca'da Tatar ve Türk köyleri çoğunluktaydı.",
+  "Balkan eteğinde ve batıda, Vidin ile Sofya sancaklarında ise Bulgarlar açık çoğunluktaydı.",
+  "1877-78'de vilâyet cephe oldu; 1878'de toprakları Bulgaristan, Romanya ve Sırbistan'a bırakıldı."
+ ],
+ "sources_line": "Kaynaklar: Tuna Vilâyeti salnameleri 1290/1873 ve 1292/1875, Tahrir-i Cedid (A. Koyuncu, Turkish Studies 9/4, 2014) · Niş: M. Jagodić 1998, J. McCarthy 2000 · yerleşim: C. Sax 1878 · il ayarı: swenstone0 derlemesi · Natural Earth",
+ "caption": "RUMELİ 1876 · 2/8 | Deliorman ve Dobruca\n\n93 Harbi'nden hemen önce Tuna Vilâyeti: doğuda Türk köyleriyle Deliorman ve Tatar köyleriyle Dobruca, batıda Bulgar köyleri. Haritada her nokta yaklaşık 100 kişi.\n\nOsmanlı kayıtları ne diyor?\n• 1292/1875 tahririnde Rusçuk sancağında sayılan 309.797 erkeğin %61,5'i Müslümandı.\n• Varna sancağında Müslüman oranı %69,8, Kuzey Dobruca'yı kapsayan Tulça'da %64,2 idi.\n• 1290/1873 salnamesine göre Osman Pazarı kazası %90,7, Eski Cuma %81, Şumnu %74, Hezargrad %73 Müslümandı.\n• Dobruca'da Kırım'dan gelen Tatarlar, Pazarcık ve Pravadi çevresinde Çerkes muhacirler, Lofça'da Pomak köyleri vardı.\n\nTablonun öbür yüzü de açık: Balkan eteğinde, Vidin ve Sofya'da Bulgarlar çoğunluktaydı. Niş hariç bütün vilâyette 1875 kaydına göre Müslüman oranı %41,2'ydi.\n\n1877-78 savaşıyla bu dünya dağıldı; 1878'de topraklar Bulgaristan, Romanya ve Sırbistan'a bırakıldı.\n\nNoktalar temsilîdir: sancak ve kaza toplamları Osmanlı kayıtlarından, köylerin yeri dönem etnografya haritalarından gelir; Bulgaristan kısmı 1875 il oranlarıyla ayarlanmıştır.\n\nKaynak: Tuna Vilâyeti salnameleri ve Tahrir-i Cedid (A. Koyuncu, Turkish Studies 9/4, 2014).\n\nAileniz Deliorman'dan ya da Dobruca'dan mı göçtü? Hangi köyden? Yorumlarda yazın.\n\n#Rumeli #TunaVilayeti #Deliorman #Dobruca #93Harbi #OsmanlıTarihi #Balkanlar #BalkanTürkleri #Rusçuk #Şumnu #KırımTatarları #Muhacir #TarihHaritası #Osmanlı"
+}

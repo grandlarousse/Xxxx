@@ -1,0 +1,443 @@
+{
+ "kicker": "RUMELİ 1876 · 3/8 · OSMANLI KAYITLARINA GÖRE",
+ "title": "TRAKYA VE RODOPLAR",
+ "subtitle": "Edirne Vilâyeti’nde 1876’da kim, nerede yaşıyordu?",
+ "story_labels": [
+  {
+   "text": "DOĞU RODOPLAR",
+   "sub": "Kırcaali · Sultanyeri · Koşukavak Türk köyleri",
+   "group": 0,
+   "lon": 25.6,
+   "lat": 41.56
+  },
+  {
+   "text": "POMAKLAR",
+   "sub": "Madan · Darıdere · Şahin yaylaları",
+   "group": 1,
+   "lon": 24.85,
+   "lat": 41.33
+  },
+  {
+   "text": "ÇEPİNE",
+   "sub": "Pomak nahiyesi",
+   "group": 1,
+   "lon": 24.05,
+   "lat": 42.02
+  },
+  {
+   "text": "HAYRABOLU",
+   "sub": "Malkara’ya uzanan Türk ağırlıklı köyler",
+   "group": 0,
+   "lon": 27.05,
+   "lat": 41.12
+  },
+  {
+   "text": "AYDOS – KARİNÂBÂD",
+   "sub": "Balkan eteğinde Türk köyleri",
+   "group": 0,
+   "lon": 27.08,
+   "lat": 42.63
+  },
+  {
+   "text": "FİLİBE OVASI",
+   "sub": "Bulgar köyleri · Türk ve Tatar kasabaları",
+   "group": 2,
+   "lon": 24.52,
+   "lat": 42.33
+  },
+  {
+   "text": "ISTRANCA",
+   "sub": "Bulgar ve Rum köyleri",
+   "group": 2,
+   "lon": 27.45,
+   "lat": 41.97
+  },
+  {
+   "text": "RUM KIYILARI",
+   "sub": "Şarköy · Mürefte · Ganos",
+   "group": 2,
+   "lon": 27.2,
+   "lat": 40.7
+  },
+  {
+   "text": "BALKAN DAĞLARI",
+   "sub": "Tuna ile Edirne vilâyetleri arasında",
+   "group": 3,
+   "lon": 25.75,
+   "lat": 42.8
+  }
+ ],
+ "cities": [
+  {
+   "name": "Edirne",
+   "modern": "",
+   "lon": 26.555,
+   "lat": 41.677,
+   "tier": 1
+  },
+  {
+   "name": "Filibe",
+   "modern": "Plovdiv",
+   "lon": 24.75,
+   "lat": 42.15,
+   "tier": 1
+  },
+  {
+   "name": "İslimye",
+   "modern": "Sliven",
+   "lon": 26.322,
+   "lat": 42.683,
+   "tier": 1
+  },
+  {
+   "name": "Tekfurdağı",
+   "modern": "Tekirdağ",
+   "lon": 27.512,
+   "lat": 40.995,
+   "tier": 1
+  },
+  {
+   "name": "Gelibolu",
+   "modern": "",
+   "lon": 26.66,
+   "lat": 40.425,
+   "tier": 1
+  },
+  {
+   "name": "İstanbul",
+   "modern": "",
+   "lon": 28.955,
+   "lat": 41.015,
+   "tier": 1
+  },
+  {
+   "name": "Drama",
+   "modern": "",
+   "lon": 24.147,
+   "lat": 41.15,
+   "tier": 1
+  },
+  {
+   "name": "Tatar Pazarcığı",
+   "modern": "Pazardzhik",
+   "lon": 24.333,
+   "lat": 42.192,
+   "tier": 2
+  },
+  {
+   "name": "Hasköy",
+   "modern": "Haskovo",
+   "lon": 25.556,
+   "lat": 41.934,
+   "tier": 2
+  },
+  {
+   "name": "Eski Zağra",
+   "modern": "Stara Zagora",
+   "lon": 25.635,
+   "lat": 42.425,
+   "tier": 2
+  },
+  {
+   "name": "Kızanlık",
+   "modern": "Kazanlak",
+   "lon": 25.393,
+   "lat": 42.619,
+   "tier": 2
+  },
+  {
+   "name": "Yeni Zağra",
+   "modern": "Nova Zagora",
+   "lon": 26.012,
+   "lat": 42.49,
+   "tier": 2
+  },
+  {
+   "name": "Yanbolu",
+   "modern": "Yambol",
+   "lon": 26.505,
+   "lat": 42.483,
+   "tier": 2
+  },
+  {
+   "name": "Burgaz",
+   "modern": "Burgas",
+   "lon": 27.462,
+   "lat": 42.505,
+   "tier": 2
+  },
+  {
+   "name": "Ahiçelebi",
+   "modern": "Smolyan",
+   "lon": 24.712,
+   "lat": 41.575,
+   "tier": 2
+  },
+  {
+   "name": "Kırcaali",
+   "modern": "Kardzhali",
+   "lon": 25.37,
+   "lat": 41.65,
+   "tier": 2
+  },
+  {
+   "name": "Dimetoka",
+   "modern": "Didymoteicho",
+   "lon": 26.497,
+   "lat": 41.349,
+   "tier": 2
+  },
+  {
+   "name": "Gümülcine",
+   "modern": "Komotini",
+   "lon": 25.405,
+   "lat": 41.117,
+   "tier": 2
+  },
+  {
+   "name": "İskeçe",
+   "modern": "Xanthi",
+   "lon": 24.888,
+   "lat": 41.135,
+   "tier": 2
+  },
+  {
+   "name": "Kırkkilise",
+   "modern": "Kırklareli",
+   "lon": 27.225,
+   "lat": 41.735,
+   "tier": 2
+  },
+  {
+   "name": "Çatalca",
+   "modern": "",
+   "lon": 28.461,
+   "lat": 41.143,
+   "tier": 2
+  },
+  {
+   "name": "Kavala",
+   "modern": "",
+   "lon": 24.41,
+   "lat": 40.955,
+   "tier": 2
+  },
+  {
+   "name": "Karlova",
+   "modern": "Karlovo",
+   "lon": 24.807,
+   "lat": 42.643,
+   "tier": 3
+  },
+  {
+   "name": "İstanimaka",
+   "modern": "Asenovgrad",
+   "lon": 24.87,
+   "lat": 42.017,
+   "tier": 3
+  },
+  {
+   "name": "Otlukköy",
+   "modern": "Panagyurishte",
+   "lon": 24.19,
+   "lat": 42.506,
+   "tier": 3
+  },
+  {
+   "name": "Çırpan",
+   "modern": "Chirpan",
+   "lon": 25.33,
+   "lat": 42.2,
+   "tier": 3
+  },
+  {
+   "name": "Harmanlı",
+   "modern": "Harmanli",
+   "lon": 25.902,
+   "lat": 41.933,
+   "tier": 3
+  },
+  {
+   "name": "Mustafapaşa",
+   "modern": "Svilengrad",
+   "lon": 26.2,
+   "lat": 41.766,
+   "tier": 3
+  },
+  {
+   "name": "Kızılağaç",
+   "modern": "Elhovo",
+   "lon": 26.567,
+   "lat": 42.171,
+   "tier": 3
+  },
+  {
+   "name": "Ortaköy",
+   "modern": "Ivaylovgrad",
+   "lon": 26.123,
+   "lat": 41.527,
+   "tier": 3
+  },
+  {
+   "name": "Dedeağaç",
+   "modern": "Alexandroupoli",
+   "lon": 25.88,
+   "lat": 40.86,
+   "tier": 3
+  },
+  {
+   "name": "İnöz",
+   "modern": "Enez",
+   "lon": 26.086,
+   "lat": 40.736,
+   "tier": 3
+  },
+  {
+   "name": "Keşan",
+   "modern": "",
+   "lon": 26.63,
+   "lat": 40.856,
+   "tier": 3
+  },
+  {
+   "name": "Cisr-i Ergene",
+   "modern": "Uzunköprü",
+   "lon": 26.688,
+   "lat": 41.268,
+   "tier": 3
+  },
+  {
+   "name": "Lüleburgaz",
+   "modern": "",
+   "lon": 27.356,
+   "lat": 41.404,
+   "tier": 3
+  },
+  {
+   "name": "Babaeski",
+   "modern": "",
+   "lon": 27.093,
+   "lat": 41.432,
+   "tier": 3
+  },
+  {
+   "name": "Çorlu",
+   "modern": "",
+   "lon": 27.8,
+   "lat": 41.159,
+   "tier": 3
+  },
+  {
+   "name": "Vize",
+   "modern": "",
+   "lon": 27.766,
+   "lat": 41.573,
+   "tier": 3
+  },
+  {
+   "name": "Silivri",
+   "modern": "",
+   "lon": 28.245,
+   "lat": 41.095,
+   "tier": 3
+  }
+ ],
+ "bars": [
+  {
+   "label": "Edirne Vilâyeti (toplam)",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Edirne",
+    "Filibe",
+    "İslimye",
+    "Tekfurdağı",
+    "Gelibolu"
+   ],
+   "record_muslim_pct": 38.2,
+   "record_label": "kayıt 1876"
+  },
+  {
+   "label": "Filibe + İslimye",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Filibe",
+    "İslimye"
+   ],
+   "record_muslim_pct": 40.8,
+   "record_label": "kayıt 1875-76"
+  },
+  {
+   "label": "Filibe",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Filibe"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "İslimye",
+   "vilayet": "Edirne",
+   "sancak": [
+    "İslimye"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Edirne",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Edirne"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Tekfurdağı",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Tekfurdağı"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Gelibolu (Gümülcine dâhil)",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Gelibolu"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  }
+ ],
+ "callouts": [
+  {
+   "big": "%98,1",
+   "line1": "Sultanyeri kazasında Müslüman oranı",
+   "line2": "13.495 Müslüman · 262 Hristiyan erkek",
+   "src": "1875-76 tahriri (A. Koyuncu 2013)"
+  },
+  {
+   "big": "603.110",
+   "line1": "kayıtlı Müslüman · Edirne vilâyeti",
+   "line2": "nüfusun %38,2’si (Yahudiler hariç)",
+   "src": "1293 (1876) salnamesi, Ubicini 1876"
+  },
+  {
+   "big": "20.000",
+   "line1": "Edirne şehrinde kalan Müslüman, 1882",
+   "line2": "1858’de 35.000 Türk yaşıyordu",
+   "src": "Belleten (TTK)"
+  }
+ ],
+ "narrative": [
+  "1876’da Edirne Vilâyeti beş sancaktı: Filibe, İslimye, Edirne, Tekfurdağı ve Gelibolu.",
+  "Doğu Rodoplar’da Kırcaali’den Ortaköy’e Türk, Madan–Darıdere yaylalarında Pomak köyleri uzanıyordu.",
+  "Ovalarda Bulgar, kıyılarda Rum köyleri ağır basıyordu; Müslümanlar nüfusun %38,2’siydi (1876 kaydı).",
+  "93 Harbi’nde Ruslar Edirne’ye girdi; 1878’de Filibe ve İslimye, Şarkî Rumeli adıyla vilâyetten koptu."
+ ],
+ "sources_line": "Kaynaklar: 1875-76 tahriri, BOA Y.EE 34/48 (A. Koyuncu, Avrasya Etüdleri 44, 2013) · 1293 Devlet Salnamesi (Ubicini 1876) · FO 881/3655 (M. Köse 2019) · Belleten (TTK) · McCarthy düzeltmesi (aktaran Koyuncu 2013) · Bulgaristan il oranları: swenstone0 derlemesi · çubuklar: harita modeli",
+ "caption": "Trakya ve Rodoplar, 1876: 93 Harbi’nden hemen önce Edirne Vilâyeti’nde kim, nerede yaşıyordu? (Rumeli 1876 · 3/8)\n\nVilâyet o yıl beş sancaktı: Filibe, İslimye, Edirne, Tekfurdağı ve Gelibolu. 1293 (1876) salnamesine göre burada 603.110 Müslüman kayıtlıydı; nüfusun %38,2’si (Yahudiler hariç).\n\n— Doğu Rodoplar Türk yurduydu. 1875-76 tahririne göre Sultanyeri kazasında 13.495 Müslüman erkeğe karşılık 262 Hristiyan erkek vardı: %98,1 Müslüman.\n— Madan’dan Darıdere’ye ve Çepine’ye, Rodop yaylalarında Pomak köyleri uzanıyordu.\n— Filibe ovasında Bulgar, Marmara ve Karadeniz kıyılarında Rum köyleri çoğunluktaydı; Hayrabolu–Malkara ve Aydos–Karinâbâd ise Türk ağırlıklıydı.\n— Sonra 93 Harbi geldi. 1858’de 35.000 Türk’ün yaşadığı Edirne şehrinde 1882’de 20.000 Müslüman kalmıştı.\n\nNoktalar temsilîdir: her nokta yaklaşık 100 kişiyi (≈ 20 hane) gösterir. Köy köy sayım değil, kaza ve nahiye kayıtlarından kurulmuş bir modeldir; çubuklar modeli, işaretler Osmanlı kaydını gösterir.\n\nKaynaklar: 1875-76 tahriri (A. Koyuncu, Avrasya Etüdleri 44, 2013), 1293 salnamesi (Ubicini 1876), FO 881/3655 (M. Köse 2019), Belleten, TDV İslâm Ansiklopedisi; Bulgaristan il oranları: swenstone0 derlemesi.\n\nAileniz Edirne, Filibe, Kırcaali ya da Gümülcine’den mi geldi? Köyünüzü yorumlara yazın.\n\n#Rumeli #93Harbi #OsmanlıTarihi #Edirne #Trakya #Rodoplar #Kırcaali #Filibe #Gümülcine #Pomaklar #BalkanTürkleri #Muhacir #TarihHaritası #Osmanlı"
+}

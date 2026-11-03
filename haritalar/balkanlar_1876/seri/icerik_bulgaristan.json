@@ -1,0 +1,515 @@
+{
+ "texts": {
+  "kicker": "RUMELİ 1876 · 7/8",
+  "title": "BULGARİSTAN 1875, İL İL",
+  "subtitle": "Bugünkü 28 ilde Bulgarların payı · 93 Harbi’nden iki yıl önce",
+  "panel_heads": "BUGÜNKÜ İLLER · 1875’TE BULGARLARIN PAYI | SIRALAMA · EN AZDAN EN ÇOĞA | KAYIT, DERLEME, MODEL | OSMANLI KAYDIYLA SAĞLAMA",
+  "panel_head_map": "BUGÜNKÜ İLLER · 1875’TE BULGARLARIN PAYI",
+  "panel_head_rank": "SIRALAMA · EN AZDAN EN ÇOĞA",
+  "panel_head_compare": "KAYIT, DERLEME, MODEL",
+  "panel_head_check": "OSMANLI KAYDIYLA SAĞLAMA",
+  "map_sub": "sayı: ildeki Bulgarların payı (%) · Osmanlı adları, altta bugünkü adlar",
+  "legend_left": "%0",
+  "legend_right": "%100 Bulgar",
+  "legend_frame": "altın çerçeve: Bulgarlar < %50",
+  "highlight_big": "11 / 28 il",
+  "highlight_line": "Bulgarlar nüfusun yarısından azdı.",
+  "highlight_total": "Bugünkü sınırlar içinde toplam: %55,8 Bulgar. Her 100 kişiden 44’ü Bulgar değildi.",
+  "highlight_model": "Bu 11 ilde nüfusun %64,1’i Müslüman, %53,8’i Türktü (harita modeli).",
+  "rank_divider": "%50",
+  "rank_order": "Kardzhali, Dobrich, Varna, Silistra, Razgrad, Smolyan, Ruse, Targovishte, Haskovo, Grad Sofiya, Shumen, Burgas, Blagoevgrad, Pleven, Veliko Tarnovo, Yambol, Plovdiv, Sliven, Pazardzhik, Vidin, Stara Zagora, Montana, Vratsa, Lovech, Sofia, Kyustendil, Pernik, Gabrovo",
+  "compare_1_value": "%55,8",
+  "compare_1_label": "Bulgar",
+  "compare_1_sub": "bugünkü Bulgaristan toprakları, 1875 · swenstone0 derlemesi",
+  "compare_2_value": "%54,0",
+  "compare_2_label": "Bulgar milleti",
+  "compare_2_sub": "Tuna Vilâyeti kaydı 1292/1875 · erkek nüfus, Niş hariç · Müslüman %41,2",
+  "compare_3_value": "%40,5",
+  "compare_3_label": "Müslüman",
+  "compare_3_sub": "Filibe ve İslimye sancakları, 1293/1876 kaydı · Güney Bulgaristan · erkek nüfus",
+  "compare_4_value": "%61,1",
+  "compare_4_label": "Hristiyan",
+  "compare_4_sub": "harita modeli, bugünkü sınırlar · Bulgar + Rum, Ulah, Gagavuz, Ermeni · Türk %30,1 · diğer Müslüman %8,8",
+  "compare_note": "Kayıtlar farklı sınırları ve yalnız erkekleri sayar; model il oranlarına göre ayarlandı, bağımsız bir sağlama değildir.",
+  "check_sub": "Aynı adı taşıyan sancak (1292/1875 kaydı, Bulgar milleti) ve bugünkü il (1875, Bulgar)",
+  "check_col_left": "OSMANLI SANCAĞI · 1292/1875",
+  "check_col_right": "BUGÜNKÜ İL · 1875",
+  "check_row_1": "Sofya sancağı %84,1 → Sofya (il) %86",
+  "check_row_2": "Vidin sancağı %73,4 → Vidin %73",
+  "check_row_3": "Tırnova sancağı %60,5 → Tırnova %60",
+  "check_row_4": "Rusçuk sancağı %37,1 → Rusçuk %38",
+  "check_row_5": "Varna sancağı %24,8 → Varna %25",
+  "check_note": "Sancak ve il sınırları aynı değildir; oranlar yine de birbirini tutar. Varna’da Gagavuzlar “Bulgar milleti” içinde sayıldı.",
+  "callout_kaza": "Osmanlı kaza kayıtları (1290/1873) bazı kazalarda daha yüksek Müslüman payı gösterir: Hezargrad %73 · Şumnu %74 · Eski Cuma %81 · Osman Pazarı %91.",
+  "sofya_note": "Sofya (şehir): %42 yalnız 1875’teki Sofya kasabasına uyar; bugünkü şehir ilinin ova köyleri ağırlıkla Bulgardı.",
+  "footnote": "Kaynaklar: il oranları ve %55,8: swenstone0 derlemesi (1875, bugünkü il sınırlarına göre) · Tuna Vilâyeti 1292/1875 kaydı, Tahrir-i Cedid (A. Koyuncu, Turkish Studies 9/4, 2014, Tablo 20-21) · Filibe ve İslimye sancakları: Edirne vilâyeti 1293 salnamesi, BOA Y.EE 34/48 (A. Koyuncu, Avrasya Etüdleri 44, 2013, Tablo 4-5) · kaza oranları: 1290/1873 Tuna salnamesi (A. Koyuncu 2014) · harita modeli: 702 bölge kümesi (seri 1/8) · il sınırları: Natural Earth",
+  "footnote_short": "Kaynaklar: swenstone0 derlemesi · Tuna Vilâyeti 1292/1875 kaydı (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne vilâyeti 1293 salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · harita modeli · Natural Earth",
+  "method_note": "Rakamlar bugünkü il sınırlarına göredir; 1875’te bu topraklar Tuna ve Edirne vilâyetlerine, güneybatısı Selanik vilâyetine bağlıydı. Osmanlı kayıtları erkek nüfusu ve dinî topluluğu (millet) sayar; “Bulgar milleti” Gagavuzları da kapsar. Tuna kaydı Niş’i içermez, bugün Romanya’da kalan Kuzey Dobruca’yı (Tulça) içerir; Güney Bulgaristan Edirne vilâyetindeydi. Harita modeli Bulgaristan’da bu il oranlarına göre ayarlandığından bağımsız bir sağlama değildir; Bulgar olmayan Hristiyanları (Rum, Ulah, Gagavuz, Ermeni) da sayar, Yahudileri göstermez. Sofya (şehir) için %42 yalnız 1875’teki Sofya kasabasına uyar; bugünkü şehir ilinin ova köyleri ağırlıkla Bulgardı.",
+  "name_Kardzhali": "Kırcaali",
+  "name_Dobrich": "Hacıoğlu Pazarcığı",
+  "name_Varna": "Varna",
+  "name_Silistra": "Silistre",
+  "name_Razgrad": "Hezargrad",
+  "name_Smolyan": "Paşmaklı",
+  "name_Ruse": "Rusçuk",
+  "name_Targovishte": "Eski Cuma",
+  "name_Haskovo": "Hasköy",
+  "name_Grad Sofiya": "Sofya (şehir)",
+  "name_Shumen": "Şumnu",
+  "name_Burgas": "Burgaz",
+  "name_Blagoevgrad": "Yukarı Cuma",
+  "name_Pleven": "Plevne",
+  "name_Veliko Tarnovo": "Tırnova",
+  "name_Yambol": "Yanbolu",
+  "name_Plovdiv": "Filibe",
+  "name_Sliven": "İslimye",
+  "name_Pazardzhik": "Tatar Pazarcığı",
+  "name_Vidin": "Vidin",
+  "name_Stara Zagora": "Eski Zağra",
+  "name_Montana": "Kutlofça",
+  "name_Vratsa": "İvraca",
+  "name_Lovech": "Lofça",
+  "name_Sofia": "Sofya (il)",
+  "name_Kyustendil": "Köstendil",
+  "name_Pernik": "Radomir",
+  "name_Gabrovo": "Gabrova",
+  "modern_Kardzhali": "Kardzhali",
+  "modern_Dobrich": "Dobrich",
+  "modern_Varna": "Varna",
+  "modern_Silistra": "Silistra",
+  "modern_Razgrad": "Razgrad",
+  "modern_Smolyan": "Smolyan",
+  "modern_Ruse": "Ruse",
+  "modern_Targovishte": "Targovishte",
+  "modern_Haskovo": "Haskovo",
+  "modern_Grad Sofiya": "Sofia şehri",
+  "modern_Shumen": "Shumen",
+  "modern_Burgas": "Burgas",
+  "modern_Blagoevgrad": "Blagoevgrad",
+  "modern_Pleven": "Pleven",
+  "modern_Veliko Tarnovo": "V. Tarnovo",
+  "modern_Yambol": "Yambol",
+  "modern_Plovdiv": "Plovdiv",
+  "modern_Sliven": "Sliven",
+  "modern_Pazardzhik": "Pazardzhik",
+  "modern_Vidin": "Vidin",
+  "modern_Stara Zagora": "Stara Zagora",
+  "modern_Montana": "Montana",
+  "modern_Vratsa": "Vratsa",
+  "modern_Lovech": "Lovech",
+  "modern_Sofia": "Sofia ili",
+  "modern_Kyustendil": "Kyustendil",
+  "modern_Pernik": "Pernik",
+  "modern_Gabrovo": "Gabrovo"
+ },
+ "numbers": [
+  {
+   "key": "total_bg",
+   "value": "%55,8",
+   "src": "swenstone0 derlemesi (1875, bugünkü il sınırları) · calibrate.py TOTAL_BG"
+  },
+  {
+   "key": "non_bg_per_100",
+   "value": "44",
+   "src": "swenstone0 derlemesi · 100 − yuvarlanmış 56 (seri 1/8 ile aynı hesap)"
+  },
+  {
+   "key": "oblasts_below_50",
+   "value": "11 / 28",
+   "src": "swenstone0 derlemesi · calibrate.py TARGET_BG (Bulgar < %50: Kırcaali, Hacıoğlu Pazarcığı, Varna, Silistre, Hezargrad, Paşmaklı, Rusçuk, Eski Cuma, Hasköy, Sofya (şehir), Şumnu)"
+  },
+  {
+   "key": "tuna_males_total",
+   "value": "1.120.954",
+   "src": "Tuna Vilâyeti 1292/1875 kaydı, Tahrir-i Cedid (A. Koyuncu, Turkish Studies 9/4, 2014, Tablo 20-21) · erkek, Niş hariç"
+  },
+  {
+   "key": "tuna_bulgar_milleti",
+   "value": "%54,0",
+   "src": "Tuna Vilâyeti 1292/1875 kaydı (Koyuncu 2014, Tablo 20-21)"
+  },
+  {
+   "key": "tuna_muslim",
+   "value": "%41,2",
+   "src": "Tuna Vilâyeti 1292/1875 kaydı (Koyuncu 2014, Tablo 20-21) · İslam %36,2 + Çerkes, Kıpti %4,9"
+  },
+  {
+   "key": "tuna_sancak_bulgar_Sofya",
+   "value": "%84,1",
+   "src": "Tuna 1292/1875 kaydı, Koyuncu 2014 Tablo 20 (84,06) · revise_tuna.json"
+  },
+  {
+   "key": "tuna_sancak_bulgar_Vidin",
+   "value": "%73,4",
+   "src": "Tuna 1292/1875 kaydı, Koyuncu 2014 Tablo 20 (73,41) · revise_tuna.json"
+  },
+  {
+   "key": "tuna_sancak_bulgar_Tirnova",
+   "value": "%60,5",
+   "src": "Tuna 1292/1875 kaydı, Koyuncu 2014 Tablo 20 (148.713 / 245.894 erkek) · revise_tuna.json"
+  },
+  {
+   "key": "tuna_sancak_bulgar_Ruscuk",
+   "value": "%37,1",
+   "src": "Tuna 1292/1875 kaydı, Koyuncu 2014 Tablo 20 (114.792 / 309.797 erkek) · revise_tuna.json"
+  },
+  {
+   "key": "tuna_sancak_bulgar_Varna",
+   "value": "%24,8",
+   "src": "Tuna 1292/1875 kaydı, Koyuncu 2014 Tablo 20 (24,78; Gagavuzlar dâhil) · revise_tuna.json"
+  },
+  {
+   "key": "tuna_sancak_bulgar_Tulca",
+   "value": "%12,1",
+   "src": "Tuna 1292/1875 kaydı, Koyuncu 2014 Tablo 20 (12,07; bugün Romanya) · revise_tuna.json"
+  },
+  {
+   "key": "tuna_sancak_muslim",
+   "value": "Varna %69,8 · Tulça %64,2 · Rusçuk %61,5 · Tırnova %38,6 · Vidin %16,7 · Sofya %14,2",
+   "src": "Tuna Vilâyeti 1292/1875 kaydı (Koyuncu 2014, Tablo 20-21)"
+  },
+  {
+   "key": "tuna_sancak_males",
+   "value": "Rusçuk 309.797 · Tırnova 245.894 · Sofya 213.180 · Vidin 178.823 · Tulça 87.455 · Varna 85.805",
+   "src": "Tuna Vilâyeti 1292/1875 kaydı (Koyuncu 2014, Tablo 20-21)"
+  },
+  {
+   "key": "filibe_islimye_muslim",
+   "value": "%40,5",
+   "src": "Edirne vilâyeti 1293 salnamesi (def. 7, s. 113-114) = BOA Y.EE 34/48; A. Koyuncu, Avrasya Etüdleri 44, 2013, Tablo 4-5 (revise_edirne.json): (171.777 Müslüman + 16.353 Müslüman Kıpti) / 464.271 erkek"
+  },
+  {
+   "key": "model_christian_total",
+   "value": "%61,1",
+   "src": "harita modeli (clusters_calibrated.json; poster.py ile aynı noktalar: make_dots seed 1876, 250 kişi/nokta; Natural Earth il sınırları) · 2.055.500 / 3.362.250 kişi · seri 1/8 ile aynı değer"
+  },
+  {
+   "key": "model_turk_total",
+   "value": "%30,1",
+   "src": "harita modeli (aynı noktalar) · 1.011.750 kişi"
+  },
+  {
+   "key": "model_other_muslim_total",
+   "value": "%8,8",
+   "src": "harita modeli (aynı noktalar) · 295.000 kişi"
+  },
+  {
+   "key": "model_muslims_people",
+   "value": "≈1,3 milyon (1.306.750)",
+   "src": "harita modeli (aynı noktalar), bugünkü Bulgaristan sınırları"
+  },
+  {
+   "key": "model_turks_people",
+   "value": "≈1 milyon (1.011.750)",
+   "src": "harita modeli (aynı noktalar), bugünkü Bulgaristan sınırları"
+  },
+  {
+   "key": "model_population",
+   "value": "≈3,36 milyon (3.362.250)",
+   "src": "harita modeli (aynı noktalar) · Yahudiler hariç"
+  },
+  {
+   "key": "model_11_population",
+   "value": "≈1,01 milyon (1.010.500)",
+   "src": "harita modeli (aynı noktalar) · Bulgar < %50 olan 11 il"
+  },
+  {
+   "key": "model_11_muslim",
+   "value": "%64,1",
+   "src": "harita modeli (aynı noktalar) · 11 il: Türk 544.000 + diğer Müslüman 103.750 / 1.010.500"
+  },
+  {
+   "key": "model_11_turk",
+   "value": "%53,8",
+   "src": "harita modeli (aynı noktalar) · 11 il: 544.000 / 1.010.500"
+  },
+  {
+   "key": "kaza_1873_muslim",
+   "value": "Hezargrad %73 · Şumnu %74 · Eski Cuma (Cuma-i Atik) %81 · Osman Pazarı %91 · Lofça %58 (Pomaklar dâhil)",
+   "src": "1290/1873 Tuna salnamesi kaza sayıları (A. Koyuncu, Turkish Studies 9/4, 2014, Tablo 12) · revise_tuna.json caveats"
+  },
+  {
+   "key": "bg_Kardzhali",
+   "value": "%3",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Dobrich",
+   "value": "%25",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Varna",
+   "value": "%25",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Silistra",
+   "value": "%27",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Razgrad",
+   "value": "%37",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Smolyan",
+   "value": "%38",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Ruse",
+   "value": "%38",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Targovishte",
+   "value": "%40",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Haskovo",
+   "value": "%42",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Grad Sofiya",
+   "value": "%42",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Shumen",
+   "value": "%43",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Burgas",
+   "value": "%54",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Blagoevgrad",
+   "value": "%55",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Pleven",
+   "value": "%58",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Veliko Tarnovo",
+   "value": "%60",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Yambol",
+   "value": "%60",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Plovdiv",
+   "value": "%64",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Sliven",
+   "value": "%64",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Pazardzhik",
+   "value": "%71",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Vidin",
+   "value": "%73",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Stara Zagora",
+   "value": "%75",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Montana",
+   "value": "%75",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Vratsa",
+   "value": "%76",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Lovech",
+   "value": "%76",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Sofia",
+   "value": "%86",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Kyustendil",
+   "value": "%88",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Pernik",
+   "value": "%90",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "bg_Gabrovo",
+   "value": "%93",
+   "src": "swenstone0 derlemesi · TARGET_BG"
+  },
+  {
+   "key": "model_Kardzhali",
+   "value": "Türk %83,9 · diğer Müslüman %12,1 · Hristiyan %4,0",
+   "src": "harita modeli (küme nüfusunun il sınırına düşen beklenen payı, calibrate.footprint_matrix)"
+  },
+  {
+   "key": "model_Dobrich",
+   "value": "Türk %59,1 · diğer Müslüman %11,9 · Hristiyan %29,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Varna",
+   "value": "Türk %55,3 · diğer Müslüman %13,7 · Hristiyan %31,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Silistra",
+   "value": "Türk %63,6 · diğer Müslüman %6,3 · Hristiyan %30,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Razgrad",
+   "value": "Türk %56,8 · diğer Müslüman %5,2 · Hristiyan %38,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Smolyan",
+   "value": "Türk %7,8 · diğer Müslüman %53,2 · Hristiyan %39,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Ruse",
+   "value": "Türk %49,2 · diğer Müslüman %8,9 · Hristiyan %42,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Targovishte",
+   "value": "Türk %55,2 · diğer Müslüman %3,8 · Hristiyan %41,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Haskovo",
+   "value": "Türk %51,7 · diğer Müslüman %4,3 · Hristiyan %44,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Grad Sofiya",
+   "value": "Türk %39,4 · diğer Müslüman %9,7 · Hristiyan %50,9",
+   "src": "harita modeli (beklenen pay) · BASMAYIN: kalibrasyon artefaktı, notlara bakın"
+  },
+  {
+   "key": "model_Shumen",
+   "value": "Türk %49,6 · diğer Müslüman %5,4 · Hristiyan %45,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Burgas",
+   "value": "Türk %35,3 · diğer Müslüman %4,7 · Hristiyan %60,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Blagoevgrad",
+   "value": "Türk %15,4 · diğer Müslüman %26,6 · Hristiyan %58,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Pleven",
+   "value": "Türk %28,4 · diğer Müslüman %12,6 · Hristiyan %59,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Veliko Tarnovo",
+   "value": "Türk %33,9 · diğer Müslüman %5,1 · Hristiyan %61,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Yambol",
+   "value": "Türk %32,4 · diğer Müslüman %5,6 · Hristiyan %62,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Plovdiv",
+   "value": "Türk %24,6 · diğer Müslüman %7,4 · Hristiyan %68,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Sliven",
+   "value": "Türk %30,2 · diğer Müslüman %3,8 · Hristiyan %66,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Pazardzhik",
+   "value": "Türk %9,5 · diğer Müslüman %17,5 · Hristiyan %73,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Vidin",
+   "value": "Türk %13,2 · diğer Müslüman %7,8 · Hristiyan %79,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Stara Zagora",
+   "value": "Türk %19,7 · diğer Müslüman %3,3 · Hristiyan %77,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Montana",
+   "value": "Türk %11,7 · diğer Müslüman %10,3 · Hristiyan %78,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Vratsa",
+   "value": "Türk %13,8 · diğer Müslüman %9,2 · Hristiyan %77,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Lovech",
+   "value": "Türk %9,8 · diğer Müslüman %13,2 · Hristiyan %77,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Sofia",
+   "value": "Türk %9,7 · diğer Müslüman %3,5 · Hristiyan %86,8",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Kyustendil",
+   "value": "Türk %9,4 · diğer Müslüman %1,6 · Hristiyan %89,0",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Pernik",
+   "value": "Türk %6,8 · diğer Müslüman %2,3 · Hristiyan %90,9",
+   "src": "harita modeli (beklenen pay)"
+  },
+  {
+   "key": "model_Gabrovo",
+   "value": "Türk %5,4 · diğer Müslüman %0,6 · Hristiyan %94,0",
+   "src": "harita modeli (beklenen pay)"
+  }
+ ],
+ "caption": "RUMELİ 1876 · 7/8 | Bulgaristan 1875, il il\n\nBugünkü Bulgaristan’ın 28 ilinden 11’inde, 1875’te Bulgarlar nüfusun yarısından azdı. Kırcaali’de her 100 kişiden yalnızca 3’ü Bulgardı; Varna ile Hacıoğlu Pazarcığı’nda (Dobriç) 25’i, Silistre’de 27’si. Deliorman’dan Dobruca kıyısına, Rodoplardan Hasköy’e uzanan bu kuşakta çoğunluk Türklerin ve Pomakların, yani Müslümanlarındı.\n\nBütün ülke için tablo: %55,8 Bulgar. Her 100 kişiden 44’ü Bulgar değildi.\n\nOsmanlı kaydı da aynı şeyi söylüyor. Tuna Vilâyeti’nin 1292/1875 tahririnde (Tahrir-i Cedid) erkek nüfusun %54,0’ı “Bulgar milleti”, %41,2’si Müslümandı. Güneyde, Filibe ve İslimye sancaklarının 1293/1876 kaydında Müslümanların payı %40,5’ti. Aynı adı taşıyan sancak ve illerde kayıt ile il rakamları birbirini tutuyor: Vidin %73,4, Tırnova %60,5, Rusçuk %37,1, Varna %24,8 Bulgar.\n\nHaritamızın modeline göre bugünkü sınırlar içinde yaklaşık 1,3 milyon Müslüman yaşıyordu; bunun yaklaşık 1 milyonu Türktü.\n\nİki yıl sonra 93 Harbi başladı ve bu tablo bir daha geri gelmedi. Serinin son gönderisinde savaşın bilançosunu rakamlarla anlatacağız.\n\nNot: Rakamlar bugünkü il sınırlarına göredir. Osmanlı kayıtları erkekleri ve dinî topluluğu (millet) sayar; “Bulgar milleti” Gagavuzları da kapsar. Sofya (şehir) oranı yalnız 1875’teki Sofya kasabasına uyar.\n\nKaynaklar: il oranları: swenstone0 derlemesi · Tuna Vilâyeti 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne vilâyeti 1293 salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · harita modeli: 702 bölge kümesi, Bulgaristan’da il oranlarına göre ayarlandı.\n\nSizin aileniz bu illerin hangisinden geldi? Yorumlara yazın.\n\n#Rumeli #93Harbi #OsmanlıTarihi #Balkanlar #Bulgaristan #Deliorman #Dobruca #Kırcaali #Rodoplar #TunaVilayeti #Muhacir #TarihHaritası",
+ "caption_post1": "",
+ "notes": "POST 7/8 is ready: texts, numbers and caption (1.773 characters, 12 hashtags). Nothing in /home/user/Xxxx/haritalar/balkanlar_1876 was changed by me. The engine.py, poster.py and seri.py edits that git shows came from elsewhere. The engine.py change touches only the DEM zoom, and my model total of %61,1 matches post 1. Scratch work is in /tmp/claude-0/-home-user-Xxxx/8312eb06-b97c-549a-9b3c-9a6885d14721/scratchpad/post7/ (model_oblast.py, model_oblast.json, labels.json, post7_final.json, caption.txt).\n\nNAMES\n- Text keys use the exact Natural Earth / TARGET_BG oblast names, with spaces: 'name_Grad Sofiya', 'name_Veliko Tarnovo', 'name_Stara Zagora'. The modern_<Oblast> keys hold small subtitle names, styled like post 1 (e.g. 'V. Tarnovo').\n- Pernik is labelled 'Radomir'. In 1875 Pernik was a village. The area's seat was Radomir kazası (Sofya sancağı), and the research cluster is called 'Radomir, Breznik ve Pernik'. İznebol (Trǎn) covers only a small western corner, so I did not use it.\n- Blagoevgrad is labelled 'Yukarı Cuma' (= Cuma-i Bâlâ). Natural Earth's own Turkish name ('Yukarı Cuma ili') agrees.\n- Sofia oblast is labelled 'Sofya (il)' and Grad Sofiya 'Sofya (şehir)'.\n\nRANKED LIST\n- Ascending order is in texts.rank_order. Ties are broken alphabetically by the Turkish name. Draw the %50 divider between Şumnu (43) and Burgaz (54). 11 provinces fall below it.\n\nNUMBERS\n- Model totals (%61,1 Hristiyan, %30,1 Türk, %8,8 diğer Müslüman; ≈1,3 milyon Müslüman; the 11-province figures %64,1 / %53,8) use poster.py's own dots (make_dots seed 1876). They match post 1.\n- The per-province model_* values are expected shares from the footprint matrix (all 28 together give 60,9). They are smoother than the dot counts but slightly inconsistent with the totals.\n- Print per-province model values only as Türk vs diğer Müslüman hints (e.g. Kırcaali mostly Türk; Paşmaklı mostly diğer Müslüman = Pomak). Their Christian share is by construction the target plus a non-Bulgarian allowance (calibrate.ALLOW), so it proves nothing.\n- Do not print model_Grad Sofiya (see the hazard below).\n- Sancak Bulgarian shares (Vidin 73,41, Tırnova 60,48, Rusçuk 37,05, Varna 24,78, Sofya 84,06, Tulça 12,07; Koyuncu Tablo 20, from revise_tuna.json) rebuild the record's own total: 605.796 / 1.120.954 = %54,04, matching %54,0.\n- The research file says the northern oblast targets were themselves derived from these sancak shares. So call the check panel 'birbirini tutar', never independent proof.\n\nDATA HAZARD FOR ALL SERIES POSTS\n- auto_calibrate pushed town-level shares in clusters_calibrated.json far from the Ottoman records inside Bulgaria. Christian % now vs research:\n  - Sofya şehri 2,3 (53,0)\n  - Şumnu şehri 85,5 (49,0)\n  - Hezargrad şehri 69,6 (34,0; TDV gives 6.860 Muslim / 3.540 non-Muslim for 1873)\n  - Lofça şehri 69,0 (29,8)\n  - Eski Cuma şehri 68,0 (36,8)\n  - Preslav–Smyadovo 69,6 (29,8)\n  - Sofya ovası köyleri 54,0 (87,1)\n- Posts 2/8 and 3/8 must not print town or kaza shares from clusters_calibrated.json. Use the revise_*.json values instead.\n- Across Bulgaria the calibration also lowered Muslims: 41,9% before vs 39,3% after, about 87.000 people (cluster centres inside Bulgaria). So the model is on the conservative side for Muslims. This supports the callout_kaza text, which is optional.\n\nGRAD SOFIYA\n- The research says the %42 target fits only the town of Sofia. The plain villages inside the polygon were roughly 87–95% Bulgarian.\n- I kept the user's figure and added sofya_note and the method_note sentence. Please keep at least one of them on the image.\n\nLABEL ANCHORS\nPoints inside each Natural Earth polygon (polylabel, lon, lat):\nKardzhali 25.393,41.516 · Dobrich 27.781,43.711 · Varna 27.573,43.201 · Silistra 27.046,43.937 · Razgrad 26.564,43.647 · Smolyan 24.752,41.661 · Ruse 25.826,43.555 · Targovishte 26.303,43.243 · Haskovo 25.881,41.869 · Grad Sofiya 23.348,42.678 · Shumen 27.000,43.384 · Burgas 27.189,42.651 · Blagoevgrad 23.483,41.736 · Pleven 24.534,43.509 · Veliko Tarnovo 25.803,43.114 · Yambol 26.626,42.278 · Plovdiv 24.787,42.345 · Sliven 26.283,42.742 · Pazardzhik 24.161,42.073 · Vidin 22.624,43.821 · Stara Zagora 25.493,42.461 · Montana 23.271,43.644 · Vratsa 23.875,43.526 · Lovech 24.380,43.000 · Sofia 23.845,42.804 · Kyustendil 22.646,42.277 · Pernik 22.896,42.584 · Gabrovo 25.128,42.938\nGrad Sofiya is small: use a leader line, or small type as in post 1.\n\nOPTIONAL ELEMENTS\ncallout_kaza, compare_3 (Filibe–İslimye %40,5), the tuna_sancak_muslim row and footnote_short can be dropped if space is tight. Keep compare_note so the comparison stays honest."
+}

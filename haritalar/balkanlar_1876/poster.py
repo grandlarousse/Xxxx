@@ -421,9 +421,9 @@ def base_image(F, elev, landm, regm, ottm):
     return img
 
 
-def vfade():
+def vfade(top0=140, topw=480, bot1=2320, botw=360):
     yy = np.arange(H, dtype=np.float32)[:, None]
-    return (np.clip((yy - 140) / 480, 0, 1) * np.clip((2320 - yy) / 360, 0, 1)) ** 0.8
+    return (np.clip((yy - top0) / topw, 0, 1) * np.clip((bot1 - yy) / botw, 0, 1)) ** 0.8
 
 
 def draw_rivers(F, regm, fade, under=True):
@@ -485,10 +485,11 @@ def dotted_borders(F, fade):
 
 
 # ------------------------------------------------------------------ çizim: noktalar
-def render_dots(img_f, x, y, k, inside, seed=1876):
+def render_dots(img_f, x, y, k, inside, seed=1876, radius=1.6, fade_y0=1960, fade_y1=2320, alpha_out=0.30,
+                bloom_gain=1.0):
     """Çekirdek noktalar + eşit kazançlı bloom. img_f: (H,W,3) float [0,1]."""
     S = 3
-    r = 1.6 * S
+    r = radius * S
     rng = np.random.default_rng(seed)
     order = rng.permutation(x.size)
     core = Image.new("RGBA", (W * S, H * S), (0, 0, 0, 0))
@@ -503,7 +504,7 @@ def render_dots(img_f, x, y, k, inside, seed=1876):
         des[g] = tuple(int(v) for v in (c * 0.6 + lum * 0.4))
     for i in order:
         yy = y[i]
-        fy = 1.0 if yy <= 1960 else max(0.0, min(1.0, (2320 - yy) / 360))
+        fy = 1.0 if yy <= fade_y0 else max(0.0, min(1.0, (fade_y1 - yy) / (fade_y1 - fade_y0)))
         if fy <= 0:
             continue
         g = int(k[i])
@@ -513,12 +514,12 @@ def render_dots(img_f, x, y, k, inside, seed=1876):
             dc.ellipse(bb, fill=tuple(int(v) for v in cols[g]) + (int(255 * 0.96 * fy),))
             dms[g].ellipse(bb, fill=int(255 * fy))
         else:
-            dc.ellipse(bb, fill=des[g] + (int(255 * 0.30 * fy),))
+            dc.ellipse(bb, fill=des[g] + (int(255 * alpha_out * fy),))
     lin = img_f ** 2.2
     for g in range(3):
         m = np.asarray(masks[g].resize((W, H), Image.LANCZOS), np.float32) / 255
         b = 0.9 * gaussian_filter(m, 2.2) + 0.55 * gaussian_filter(m, 7) + 0.30 * gaussian_filter(m, 22)
-        lin = lin + 1.3 * 0.85 * b[..., None] * (hf(COL[g]) ** 2.2)[None, None, :]
+        lin = lin + bloom_gain * 1.3 * 0.85 * b[..., None] * (hf(COL[g]) ** 2.2)[None, None, :]
     out = (1 - np.exp(-1.15 * lin)) ** (1 / 2.2)
     res = Image.fromarray(np.clip(out * 255, 0, 255).astype(np.uint8)).convert("RGBA")
     res.alpha_composite(core.resize((W, H), Image.LANCZOS))
@@ -736,12 +737,26 @@ def place_cities(cv, F, ottm1, tiers=None):
             cv.occupy((x - r - 2, y - r - 2, x + r + 2, y + r + 2))
 
 
+def series_tag(cv, text):
+    """Sağ üst köşede seri etiketi: RUMELİ 1876 · n/8"""
+    d = cv.d
+    t = "RUMELİ 1876 · " + text
+    f = bar(22, "SemiBold")
+    w = cv.tracked_w(t, f, 4)
+    x0, x1, y0, y1 = W / 2 - w / 2 - 22, W / 2 + w / 2 + 22, 59, 96
+    d.rectangle((x0, y0, x1, y1), fill=hx("#05080D"), outline=BRASS, width=1)
+    star8(d, x0, (y0 + y1) / 2, 7, BRASS, 1, fill=hx("#05080D"))
+    star8(d, x1, (y0 + y1) / 2, 7, BRASS, 1, fill=hx("#05080D"))
+    cv.tracked((W / 2, y1 - 11), t, f, 4, BRASS_L, anchor="c")
+
+
 # ------------------------------------------------------------------ ana akış
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--imza", default="")
     ap.add_argument("--out", default=os.path.join(HERE, "cikti", "rumeli_1876"))
     ap.add_argument("--ppd", type=int, default=250, help="nokta başına kişi")
+    ap.add_argument("--seri", default="", help="ör. '1/8' — sağ üstte seri etiketi")
     a = ap.parse_args()
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
 
@@ -1266,6 +1281,8 @@ def main():
         d.text((W / 2, 2606 + i * 19), t, font=bar(fs, "Medium"), fill=MUTE, anchor="ms")
     if a.imza:
         d.text((W - 170, 2600), a.imza, font=bar(22, "SemiBold"), fill=IV[:3] + (155,), anchor="rs")
+    if a.seri:
+        series_tag(cv, a.seri)
 
     out = cv.img.convert("RGB")
     # ±1/255 titreşim (bantlaşmayı önler)

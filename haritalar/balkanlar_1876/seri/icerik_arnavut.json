@@ -1,0 +1,486 @@
+{
+ "kicker": "RUMELİ 1876 · 5/8 · OSMANLI KAYITLARINA GÖRE",
+ "title": "ARNAVUTLUK, KOSOVA VE EPİR",
+ "subtitle": "Prizren'den Yanya'ya: 93 Harbi arifesinde batı Rumeli",
+ "story_labels": [
+  {
+   "text": "MALİSÖRLER",
+   "sub": "Katolik dağ aşiretleri",
+   "group": 2,
+   "lon": 19.7,
+   "lat": 42.45
+  },
+  {
+   "text": "MİRDİTA",
+   "sub": "Katolik Arnavut aşireti",
+   "group": 2,
+   "lon": 20,
+   "lat": 41.88
+  },
+  {
+   "text": "MAT VE DİBRA",
+   "sub": "Müslüman Geg Arnavutları",
+   "group": 1,
+   "lon": 20.28,
+   "lat": 41.6
+  },
+  {
+   "text": "KOSOVA",
+   "sub": "Arnavut ve Çerkes Müslümanlar",
+   "group": 1,
+   "lon": 20.95,
+   "lat": 42.68
+  },
+  {
+   "text": "PRİZREN VE MAMUŞA",
+   "sub": "Türkçe konuşan Müslümanlar",
+   "group": 0,
+   "lon": 20.72,
+   "lat": 42.29
+  },
+  {
+   "text": "LABERYA",
+   "sub": "Müslüman Lab Arnavutları",
+   "group": 1,
+   "lon": 19.86,
+   "lat": 40.24
+  },
+  {
+   "text": "ÇAMLIK",
+   "sub": "Müslüman Çam köyleri",
+   "group": 1,
+   "lon": 20.33,
+   "lat": 39.41
+  },
+  {
+   "text": "EPİR RUMLARI",
+   "sub": "Rum ve Ulah köyleri · Zagori, Pogon",
+   "group": 2,
+   "lon": 20.78,
+   "lat": 39.88
+  },
+  {
+   "text": "KONYAR TÜRKLERİ",
+   "sub": "Kayalar · Sarıgöl · Kozana",
+   "group": 0,
+   "lon": 21.7,
+   "lat": 40.45
+  }
+ ],
+ "cities": [
+  {
+   "name": "İşkodra",
+   "modern": "Shkodër",
+   "lon": 19.512,
+   "lat": 42.068,
+   "tier": 1
+  },
+  {
+   "name": "Prizren",
+   "modern": "",
+   "lon": 20.74,
+   "lat": 42.214,
+   "tier": 1
+  },
+  {
+   "name": "Manastır",
+   "modern": "Bitola",
+   "lon": 21.33,
+   "lat": 41.032,
+   "tier": 1
+  },
+  {
+   "name": "Yanya",
+   "modern": "Ioannina",
+   "lon": 20.853,
+   "lat": 39.665,
+   "tier": 1
+  },
+  {
+   "name": "Üsküp",
+   "modern": "Skopje",
+   "lon": 21.432,
+   "lat": 41.996,
+   "tier": 1
+  },
+  {
+   "name": "Selanik",
+   "modern": "Thessaloniki",
+   "lon": 22.945,
+   "lat": 40.645,
+   "tier": 1
+  },
+  {
+   "name": "Debre",
+   "modern": "Debar",
+   "lon": 20.527,
+   "lat": 41.523,
+   "tier": 1
+  },
+  {
+   "name": "Berat",
+   "modern": "",
+   "lon": 19.952,
+   "lat": 40.706,
+   "tier": 1
+  },
+  {
+   "name": "Ergiri",
+   "modern": "Gjirokastër",
+   "lon": 20.139,
+   "lat": 40.076,
+   "tier": 1
+  },
+  {
+   "name": "Draç",
+   "modern": "Durrës",
+   "lon": 19.447,
+   "lat": 41.323,
+   "tier": 1
+  },
+  {
+   "name": "Elbasan",
+   "modern": "",
+   "lon": 20.082,
+   "lat": 41.112,
+   "tier": 1
+  },
+  {
+   "name": "Görice",
+   "modern": "Korçë",
+   "lon": 20.781,
+   "lat": 40.618,
+   "tier": 1
+  },
+  {
+   "name": "Priştine",
+   "modern": "Prishtinë",
+   "lon": 21.164,
+   "lat": 42.663,
+   "tier": 2
+  },
+  {
+   "name": "İpek",
+   "modern": "Pejë",
+   "lon": 20.288,
+   "lat": 42.659,
+   "tier": 2
+  },
+  {
+   "name": "Yakova",
+   "modern": "Gjakovë",
+   "lon": 20.43,
+   "lat": 42.38,
+   "tier": 2
+  },
+  {
+   "name": "Podgoriçe",
+   "modern": "Podgorica",
+   "lon": 19.262,
+   "lat": 42.441,
+   "tier": 2
+  },
+  {
+   "name": "Tiran",
+   "modern": "Tirana",
+   "lon": 19.819,
+   "lat": 41.327,
+   "tier": 2
+  },
+  {
+   "name": "Avlonya",
+   "modern": "Vlorë",
+   "lon": 19.49,
+   "lat": 40.466,
+   "tier": 2
+  },
+  {
+   "name": "Ohri",
+   "modern": "Ohrid",
+   "lon": 20.802,
+   "lat": 41.117,
+   "tier": 2
+  },
+  {
+   "name": "Kalkandelen",
+   "modern": "Tetovo",
+   "lon": 20.973,
+   "lat": 42.007,
+   "tier": 2
+  },
+  {
+   "name": "Narda",
+   "modern": "Arta",
+   "lon": 20.985,
+   "lat": 39.16,
+   "tier": 2
+  },
+  {
+   "name": "Kesriye",
+   "modern": "Kastoria",
+   "lon": 21.264,
+   "lat": 40.522,
+   "tier": 2
+  },
+  {
+   "name": "Ülgün",
+   "modern": "Ulcinj",
+   "lon": 19.215,
+   "lat": 41.93,
+   "tier": 3
+  },
+  {
+   "name": "Bar",
+   "modern": "",
+   "lon": 19.137,
+   "lat": 42.093,
+   "tier": 3
+  },
+  {
+   "name": "Leş",
+   "modern": "Lezhë",
+   "lon": 19.643,
+   "lat": 41.783,
+   "tier": 3
+  },
+  {
+   "name": "Akçahisar",
+   "modern": "Krujë",
+   "lon": 19.793,
+   "lat": 41.509,
+   "tier": 3
+  },
+  {
+   "name": "Kavaya",
+   "modern": "Kavajë",
+   "lon": 19.557,
+   "lat": 41.186,
+   "tier": 3
+  },
+  {
+   "name": "Gusinye",
+   "modern": "Gusinje",
+   "lon": 19.834,
+   "lat": 42.562,
+   "tier": 3
+  },
+  {
+   "name": "Gilan",
+   "modern": "Gjilan",
+   "lon": 21.469,
+   "lat": 42.464,
+   "tier": 3
+  },
+  {
+   "name": "Vulçıtrın",
+   "modern": "Vushtrri",
+   "lon": 20.967,
+   "lat": 42.823,
+   "tier": 3
+  },
+  {
+   "name": "Gostivar",
+   "modern": "",
+   "lon": 20.908,
+   "lat": 41.796,
+   "tier": 3
+  },
+  {
+   "name": "Kırçova",
+   "modern": "Kičevo",
+   "lon": 20.959,
+   "lat": 41.512,
+   "tier": 3
+  },
+  {
+   "name": "Ustruga",
+   "modern": "Struga",
+   "lon": 20.677,
+   "lat": 41.19,
+   "tier": 3
+  },
+  {
+   "name": "İstarova",
+   "modern": "Pogradec",
+   "lon": 20.653,
+   "lat": 40.902,
+   "tier": 3
+  },
+  {
+   "name": "Kolonya",
+   "modern": "Ersekë",
+   "lon": 20.679,
+   "lat": 40.338,
+   "tier": 3
+  },
+  {
+   "name": "Premedi",
+   "modern": "Përmet",
+   "lon": 20.352,
+   "lat": 40.235,
+   "tier": 3
+  },
+  {
+   "name": "Tepedelen",
+   "modern": "Tepelenë",
+   "lon": 20.019,
+   "lat": 40.297,
+   "tier": 3
+  },
+  {
+   "name": "Delvine",
+   "modern": "Delvinë",
+   "lon": 20.098,
+   "lat": 39.951,
+   "tier": 3
+  },
+  {
+   "name": "Koniçe",
+   "modern": "Konitsa",
+   "lon": 20.749,
+   "lat": 40.046,
+   "tier": 3
+  },
+  {
+   "name": "Mecova",
+   "modern": "Metsovo",
+   "lon": 21.182,
+   "lat": 39.77,
+   "tier": 3
+  },
+  {
+   "name": "Aydonat",
+   "modern": "Paramythia",
+   "lon": 20.51,
+   "lat": 39.47,
+   "tier": 3
+  },
+  {
+   "name": "Filat",
+   "modern": "Filiates",
+   "lon": 20.312,
+   "lat": 39.602,
+   "tier": 3
+  },
+  {
+   "name": "Margariç",
+   "modern": "Margariti",
+   "lon": 20.35,
+   "lat": 39.35,
+   "tier": 3
+  },
+  {
+   "name": "Çetine",
+   "modern": "Cetinje",
+   "lon": 18.92,
+   "lat": 42.39,
+   "tier": 3
+  }
+ ],
+ "bars": [
+  {
+   "label": "Elbasan",
+   "vilayet": "Manastır",
+   "sancak": [
+    "Elbasan"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Berat",
+   "vilayet": "Yanya",
+   "sancak": [
+    "Berat"
+   ],
+   "record_muslim_pct": 76.9,
+   "record_label": "kayıt 1871"
+  },
+  {
+   "label": "Debre–Kalkandelen–Luma",
+   "vilayet": "Prizren",
+   "sancak": [
+    "Prizren",
+    "Dibra",
+    "Debre"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Kosova (Prizren sancağı)",
+   "vilayet": "Manastır",
+   "sancak": [
+    "Prizren"
+   ],
+   "record_muslim_pct": 69.5,
+   "record_label": "kayıt 1873/74"
+  },
+  {
+   "label": "İşkodra ve Draç",
+   "vilayet": "İşkodra",
+   "sancak": [
+    "İşkodra",
+    "Draç"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Ergiri",
+   "vilayet": "Yanya",
+   "sancak": [
+    "Ergiri"
+   ],
+   "record_muslim_pct": 51,
+   "record_label": "kayıt 1871"
+  },
+  {
+   "label": "Görice ve Kesriye",
+   "vilayet": "Manastır",
+   "sancak": [
+    "Görice"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Yanya ve Preveze",
+   "vilayet": "Yanya",
+   "sancak": [
+    "Yanya",
+    "Preveze"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  }
+ ],
+ "callouts": [
+  {
+   "big": "%69,5",
+   "line1": "Kosova'da Müslüman payı (Prizren sancağı)",
+   "line2": "93.458 Müslüman · 41.099 gayrimüslim erkek",
+   "src": "Prizren Vilâyeti Salnamesi 1290 (1873/74); Layard 1877, M. Köse 2019"
+  },
+  {
+   "big": "%76,9",
+   "line1": "Berat sancağında Müslüman payı",
+   "line2": "her 100 Hristiyana 333 Müslüman",
+   "src": "Yanya Salnamesi 1288/1871 (Kokolakis 2003, Tablo G21)"
+  },
+  {
+   "big": "41.354",
+   "line1": "muhacir, 1880 Kosova sayımında ayrıca yazıldı",
+   "line2": "93 Harbi'nden sonra yurdunu yitirenler",
+   "src": "Kosova 1880 sayımı (M. Ünlü 2002; MKÜ SBE Dergisi 11/25, 2014)"
+  }
+ ],
+ "narrative": [
+  "1876'da İşkodra'dan Yanya'ya uzanan dağlık kuşakta halkın çoğu Müslümandı (harita modeli: %59,5).",
+  "Müslümanların büyük kısmı Arnavuttu; Türkçe konuşanlar Prizren, Kalkandelen, Yanya gibi şehirlerde yoğundu.",
+  "Kuzeyde Katolik Malisör ve Mirdita dağları, güneyde Rum ve Ulah köyleri Hristiyan çoğunlukluydu.",
+  "93 Harbi'nin ardından Podgoriçe, Bar ve Ülgün Karadağ'a, Narda Yunanistan'a geçti; Kosova muhacirle doldu."
+ ],
+ "sources_line": "Kaynaklar: Prizren Vilâyeti Salnamesi 1290 (Layard 1877; M. Köse 2019) · Yanya Salnamesi 1288/1871 (Kokolakis 2003) · Osmanlı sayımı 1881/82-93 (K. Karpat 1978) · İ. Erken 2014 · M. Ünlü 2002 · noktalar: harita modeli, 1 nokta = 100 kişi",
+ "caption": "RUMELİ 1876 · 5/8 | Arnavutluk, Kosova ve Epir\n\nİşkodra'dan Yanya'ya, Prizren'den Avlonya'ya: 93 Harbi'nin arifesinde bu dağlık kuşak, Rumeli'nin en köklü Müslüman yurtlarından biriydi.\n\n• Prizren sancağı (Kosova), 1873/74 salnamesi: 93.458 Müslüman, 41.099 gayrimüslim erkek. Müslüman payı %69,5.\n• Berat sancağı, 1871 Yanya salnamesi: her 100 Hristiyana 333 Müslüman (%76,9). Ergiri sancağında bu sayı 104'tü.\n• Draç sancağı ve Akçahisar (Osmanlı sayımı 1881/82-93): 87.372 kişinin 78.600'ü Müslüman.\n• Kuzeyde Katolik Malisörler ve Mirdita, güneyde Rum ve Ulah köyleri Hristiyan çoğunluktaydı. Türkçe ise Prizren, Kalkandelen, Yanya ve Berat gibi şehirlerde konuşuluyordu.\n\n93 Harbi'nden sonra Podgoriçe, Bar ve Ülgün Karadağ'a, Narda Yunanistan'a bırakıldı. 1880 Kosova sayımı ayrıca 41.354 muhacir kaydetti. 1878'de Prizren'de toplanan Arnavut ileri gelenlerinin direnişiyle Plava ve Gusinye Osmanlı'da kaldı.\n\nNoktalar temsilîdir: 1 nokta = 100 kişi (yaklaşık 20 hane). Dağılım, Osmanlı kayıtlarına dayanan harita modelidir.\n\nKaynaklar: Prizren Vilâyeti Salnamesi 1290 (Layard 1877; M. Köse 2019), Yanya Salnamesi 1288/1871 (Kokolakis 2003), K. Karpat 1978, İ. Erken 2014, M. Ünlü 2002.\n\nSizce bu topraklarda Osmanlı mirası bugün en çok hangi şehirde yaşıyor? Yorumlara yazın.\n\n#Rumeli #93Harbi #OsmanlıTarihi #Arnavutluk #Kosova #Prizren #Yanya #Epir #İşkodra #Berat #Balkanlar #Muhacir #TarihHaritası #Rumeli1876"
+}

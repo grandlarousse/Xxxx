@@ -59,34 +59,47 @@ def _tile_xy(lon, lat, z=DEM_Z):
             int((1 - math.log(math.tan(r) + 1 / math.cos(r)) / math.pi) / 2 * 2 ** z))
 
 
-def dem_mosaic(bounds=(14.0, 36.6, 32.3, 48.0)):
+def dem_mosaic(bounds=(14.0, 36.6, 32.3, 48.0), z=DEM_Z):
     """AWS 'terrarium' yükselti karolarından mozaik (cache'lenir)."""
+    import concurrent.futures as cf
     d = os.path.join(CACHE, "dem")
     os.makedirs(d, exist_ok=True)
-    npy, meta = os.path.join(d, "mosaic.npy"), os.path.join(d, "mosaic.json")
+    suf = "" if z == DEM_Z else f"_z{z}"
+    npy, meta = os.path.join(d, f"mosaic{suf}.npy"), os.path.join(d, f"mosaic{suf}.json")
     if os.path.exists(npy):
-        return np.load(npy), json.load(open(meta))
-    x0, y0 = _tile_xy(bounds[0], bounds[3])
-    x1, y1 = _tile_xy(bounds[2], bounds[1])
+        return np.load(npy, mmap_mode="r"), json.load(open(meta))
+    x0, y0 = _tile_xy(bounds[0], bounds[3], z)
+    x1, y1 = _tile_xy(bounds[2], bounds[1], z)
     M = np.zeros(((y1 - y0 + 1) * 256, (x1 - x0 + 1) * 256), np.float32)
-    for x in range(x0, x1 + 1):
-        for y in range(y0, y1 + 1):
-            p = os.path.join(d, f"{DEM_Z}_{x}_{y}.png")
-            if not os.path.exists(p):
-                urllib.request.urlretrieve(
-                    f"https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{DEM_Z}/{x}/{y}.png", p)
+
+    def get(t):
+        x, y = t
+        p = os.path.join(d, f"{z}_{x}_{y}.png")
+        if not os.path.exists(p):
+            for _ in range(4):
+                try:
+                    urllib.request.urlretrieve(
+                        f"https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png", p)
+                    break
+                except Exception:
+                    pass
+        return t, p
+
+    jobs = [(x, y) for x in range(x0, x1 + 1) for y in range(y0, y1 + 1)]
+    with cf.ThreadPoolExecutor(16) as ex:
+        for (x, y), p in ex.map(get, jobs):
             a = np.asarray(Image.open(p).convert("RGB")).astype(np.float32)
             M[(y - y0) * 256:(y - y0 + 1) * 256, (x - x0) * 256:(x - x0 + 1) * 256] = \
                 a[..., 0] * 256 + a[..., 1] + a[..., 2] / 256 - 32768
-    m = dict(x0=x0, y0=y0, z=DEM_Z)
+    m = dict(x0=x0, y0=y0, z=z)
     np.save(npy, M)
     json.dump(m, open(meta, "w"))
     return M, m
 
 
-def dem_on_frame(frame, step=1.0):
+def dem_on_frame(frame, step=1.0, z=DEM_Z):
     """Çerçevenin her pikseline yükselti (m), bilineer örnekleme."""
-    M, m = dem_mosaic()
+    M, m = dem_mosaic(z=z)
     X, Y = frame.px_grid(step)
     lon, lat = TO_LL.transform(X, Y)
     n = 2 ** m["z"]
