@@ -1,5 +1,7 @@
 # 0. tur: araştırma bulgularının özeti (9 ajan)
 
+> Not: Bu dosya ham 0. tur bulgularıdır. Doğrulama turunda düzeltilen iddialar (ör. Bootcamp'in uluslararası mezuna iade vermemesi, ChatGPT study mode'un varlığı, 2026/1 en düşük tabanın 61,74 olması) için `../RAPOR.md` Ek 2'ye ve `../dogrulama/` klasörüne bakın.
+
 Her satır: güven (Y/O/D) · tür · iddia. Ayrıntı, kaynak URL'leri ve tablolar ilgili r0_*.md dosyasında.
 
 

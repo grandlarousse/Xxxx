@@ -25,3 +25,16 @@ Klasör: `2026-11-02_viop_leadlag/`
 - `bulgular_tum_ajanlar.csv`, `dogrulama/`, `ajanlar/`, `veri_ozet/`, `hesaplar/`: Ham bulgular, doğrulama notları, ajan raporları, özet veriler ve kod.
 
 Yatırım tavsiyesi değildir.
+
+---
+
+# İkinci DUS ve INBDE: 2027 hazırlık stratejisi (03.11.2026)
+
+Klasör: `2026-11-03_dus_inbde_strateji/`
+
+- `RAPOR.md`: Sentez. Kullanıcının 13 sorusunun cevabı (DUS hazırlığı, dershanelerin faydası ve triajı, ikinci maratonda neyin değişeceği, optimum sprint süresi; INBDE/Kanada yolu, uygulamalar, geçme oranları, süre, Mart mı Mayıs mı, INBDE çalışmasının DUS'a faydası, arkadaşların neden daha yüksek net yaptığı). Dal A (CODA akrediteli Yeditepe 2024+ mezunu) / Dal B ayrımı, birleşik takvim, oy tablosu, azınlık görüşleri, doğrulamada düzeltilen hatalar, kaynaklar.
+- `EYLEM_PLANI.md`: Uygulanabilir plan: bu hafta, ay ay takvim, haftalık şablon, metrikler, tarihli karar noktaları.
+- `ajanlar/`: `00_koordinator_notlari.md`, `00_bulgu_ozeti.md`, 9 araştırma dosyası (`r0_*`), 5 stratejistin 1. tur (`r1_*`) ve 2. tur (`r2_*`, çapraz sorgu ve oylar) metinleri.
+- `dogrulama/`: 3 bağımsız doğrulayıcının notları (Türkiye/DUS, ABD/Kanada, satıcı/bilim/AI).
+
+Kariyer veya hukuk danışmanlığı değildir; tarih, ücret ve kurallar resmi kaynaklardan tekrar kontrol edilmelidir.
