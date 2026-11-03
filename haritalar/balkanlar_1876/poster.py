@@ -235,6 +235,9 @@ def ottoman_mask(F, region, by, clusters, step=2.0):
     fr_path = os.path.join(HERE, "data", "frontier_1876.json")
     to_g = lambda geom: gpd.GeoSeries([geom], crs="EPSG:4326").to_crs(E.CRS).iloc[0]
     hrv = rasterize_pil(to_g(by["HRV"]), F, step)
+    # kıyı rasterizasyon farklarını kapat (Bosna'ya taşmadan)
+    bih = rasterize_pil(to_g(by["BIH"]), F, step)
+    hrv = binary_dilation(hrv, iterations=2) & ~bih
     grc = by["GRC"]
     gparts = list(grc.geoms) if hasattr(grc, "geoms") else [grc]
     gr_isl = [g for g in gparts if g.representative_point().y < 39.3 and g.representative_point().x < 25.0
@@ -253,22 +256,54 @@ def ottoman_mask(F, region, by, clusters, step=2.0):
             if len(co) < 2:
                 continue
             xs, ys = F.ll_to_px(co[:, 0], co[:, 1])
-            pts = list(zip(np.asarray(xs) / step, np.asarray(ys) / step))
-            bd.line(pts, fill=255, width=2)
+            xs, ys = np.asarray(xs) / step, np.asarray(ys) / step
+            # uçları ~8 km uzat (kıyıya/bölge kenarına değmeyen boşlukları kapat)
+            ext = 8000 / (F.mpp * step)
+            def _tip(i0, i1):
+                vx, vy = xs[i0] - xs[i1], ys[i0] - ys[i1]
+                L = math.hypot(vx, vy) or 1
+                return xs[i0] + vx / L * ext, ys[i0] + vy / L * ext
+            k_ = min(4, len(xs) - 1)
+            p0, p1 = _tip(0, k_), _tip(-1, -1 - k_)
+            pts = [p0] + list(zip(xs, ys)) + [p1]
+            bd.line(pts, fill=255, width=3)
             lines.append(ln)
         barrier = np.asarray(bar_im) > 0
         lab, n = nd_label(reg & ~barrier)
-        seeds = [(20.46, 44.82), (20.92, 44.01), (21.9, 43.9), (19.9, 44.27), (18.92, 42.39), (19.05, 42.6),
-                 (22.43, 38.90), (21.4, 38.65), (16.44, 43.51), (26.10, 44.43)]
+        # Sırbistan: kendi sınır çizgisi + Sava/Tuna (bölge kenarı) ile kapalı bileşen
         bad = set()
-        for lo, la in seeds:
+        for lo, la in ((20.92, 44.01), (20.46, 44.75), (21.9, 43.9), (19.9, 44.27)):
             px, py = F.ll_to_px(lo, la)
             i, j = int(py / step), int(px / step)
-            if 0 <= i < lab.shape[0] and 0 <= j < lab.shape[1] and lab[i, j] > 0:
+            if lab[i, j] > 0:
                 bad.add(lab[i, j])
-        nonseed = np.isin(lab, list(bad))
-        # bariyer piksellerini komşu çoğunluğa göre dağıt
-        nonseed = nonseed | (barrier & binary_dilation(nonseed, iterations=2) & ~binary_dilation(reg & ~barrier & ~nonseed & (lab > 0), iterations=1))
+        serb = np.isin(lab, list(bad))
+        if serb.mean() > 0.2 * reg.mean():
+            log("  uyarı: Sırbistan bileşeni sızdırıyor")
+            serb[:] = False
+        serb |= barrier & binary_dilation(serb, iterations=3) & reg
+        polys = []
+        byname = {ln["name"]: np.asarray(ln["coords"], float) for ln in fr["lines"]}
+        mne = next((v for k_, v in byname.items() if "Karadağ" in k_), None)
+        if mne is not None:
+            close = [(18.93, 42.25), (18.84, 42.33), (18.78, 42.40), (18.70, 42.45), (18.60, 42.52)]
+            ring = list(map(tuple, mne)) + close
+            pg = shapely.make_valid(shapely.Polygon(ring))
+            polys.append(pg)
+        grc = next((v for k_, v in byname.items() if "Yunanistan" in k_), None)
+        if grc is not None:
+            w_ = [(19.0, 38.80), (20.70, 38.88), (20.80, 38.93), (21.05, 38.99)]
+            e_ = [(23.25, 39.10), (24.75, 39.10), (24.75, 37.0), (19.0, 37.0)]
+            ring = w_ + list(map(tuple, grc)) + e_
+            polys.append(shapely.make_valid(shapely.Polygon(ring)))
+        extra = np.zeros_like(reg)
+        if polys:
+            extra = rasterize_pil(to_g(shapely.union_all(polys)), F, step)
+        # Boka Kotorska (Avusturya): bugünkü Karadağ kıyısının Karadağ prensliği dışında kalan batı ucu
+        boka = shapely.Polygon([(18.43, 42.40), (18.58, 42.52), (18.70, 42.45), (18.78, 42.40), (18.84, 42.33),
+                                (18.93, 42.25), (19.02, 42.17), (18.95, 42.10), (18.40, 42.35)])
+        extra |= rasterize_pil(to_g(boka), F, step)
+        nonseed = serb | extra
         non |= nonseed
         ott = reg & ~non
         frac_out = (reg & ~ott).mean() / max(reg.mean(), 1e-9)
@@ -854,7 +889,7 @@ def main():
     adl = Image.new("RGBA", (640, 70), (0, 0, 0, 0))
     Canvas(adl).tracked((320, 48), "ADRİYATİK DENİZİ", bod(30, 500), 12, hx("#5D7391"), anchor="c")
     adl = adl.rotate(-36, expand=True, resample=Image.BICUBIC)
-    apx, apy = F.ll_to_px(16.3, 42.4)
+    apx, apy = F.ll_to_px(16.75, 42.1)
     cv.img.alpha_composite(adl, (int(apx) - adl.width // 2, int(apy) - adl.height // 2))
     for t, lo, la, sz in (("ADALAR DENİZİ", 24.9, 39.45, 30), ("MARMARA", 28.0, 40.72, 22)):
         px, py = F.ll_to_px(lo, la)
