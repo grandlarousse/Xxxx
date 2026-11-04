@@ -38,3 +38,25 @@ Klasör: `2026-11-04_kapanis_1-3gun/`
 - `notlar/`, `kod/`: Yeniden test ve çürütme notları, araştırma kodu.
 
 Yatırım tavsiyesi değildir.
+
+---
+
+# Instagram tarih sayfası: görsel telif riski ve yasal görsel kaynakları (04.11.2026)
+
+Klasör: `2026-11-04_instagram_gorsel_telif/`
+
+- `RAPOR.md`: Sentez raporu. İçinde şunlar var:
+  - Kısa cevap ve yıl eşiği (Türkiye ve ABD)
+  - Kamu malı eserin kopyası sorunu ve Türk kurumlarının koşulları
+  - Görsel türüne göre risk tablosu
+  - Kaynaklar
+  - Varna örneği
+  - Günlük iş akışı ve atıf şablonları
+  - Instagram özgünlük kuralı
+  - Bildirim gelirse yapılacaklar
+  - Bilinmeyenler
+- `kaynaklar.csv`: 46 görsel kaynağı. Her biri için lisans, ticari kullanım, atıf, dikkat notu ve doğrulama durumu.
+- `varna_gorselleri.csv`: Varna Savaşı için lisansı kontrol edilmiş 21 görsel ve kullanılmaması gereken 4 dosya. Her biri için Commons adresi, çözünürlük ve hazır atıf satırı.
+- `ajanlar/`: Altı başlığın ham araştırma bulguları ve her bulgunun yanında çürütme ajanının kararı.
+
+Hukuki tavsiye değildir.
