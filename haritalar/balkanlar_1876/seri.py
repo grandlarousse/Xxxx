@@ -21,6 +21,7 @@ from PIL import Image, ImageDraw, ImageFilter
 import engine as E
 import render as R
 import poster as P
+import topluluk as T
 from poster import (Canvas, hx, COL, TINT, IV, IV2, MUTE, BRASS, BRASS_L, bs, bod, bar,
                     fmt_int, fmt_pct, largest_remainder, rasterize_pil, star8, log, W, H)
 
@@ -243,13 +244,18 @@ def place_city_list(cv, F, cities, dimmed=()):
         cv.occupy((x - r - 2, y - r - 2, x + r + 2, y + r + 2))
 
 
-def place_story(cv, F, labels):
+def place_story(cv, F, labels, tints=None):
+    tints = TINT if tints is None else tints
     for lb in labels:
         t, sub, g = lb["text"], lb.get("sub") or "", int(lb.get("group", 3))
+        if lb.get("cat") in T.IDX and tints is not TINT:
+            g = T.IDX[lb["cat"]]
+        elif tints is not TINT and "cat" not in lb:
+            g = -1
         px, py = F.ll_to_px(lb["lon"], lb["lat"])
         px, py = float(px), float(py)
         fnt = bar(32, "SemiBold")
-        col = TINT[g] if g in TINT else hx("#B9C3D6")
+        col = tints[g] if g in tints else hx("#B9C3D6")
         w = max(cv.tracked_w(t, fnt, 4), cv.tracked_w(sub, bar(20, "SemiBold"), 2) if sub else 0) + 10
         done = False
         for dy in (0, -36, 36, -72, 72, -108, 108):
@@ -325,6 +331,39 @@ def callout_box(cv, x, y, w, c):
         yy += 24
 
 
+def legend_row(cv, groups, yb, maxw=1960, size=34, dot_glyph=True):
+    """Adlı topluluk lejantı (tek satır, ortalı; sığmazsa yazı küçülür, yine sığmazsa iki satır)."""
+    d = cv.d
+
+    def width(f):
+        return sum(58 + f.getlength(T.NAMES[g]) + 34 for g in groups) - 34
+
+    f1 = bar(size, "SemiBold")
+    while width(f1) > maxw and f1.size > 26:
+        f1 = bar(f1.size - 1, "SemiBold")
+    rows = [groups]
+    if width(f1) > maxw:
+        mus = [g for g in groups if g < T.NMUS]
+        hr = [g for g in groups if g >= T.NMUS]
+        rows = [mus, hr]
+    glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    for ri, row in enumerate(rows):
+        tot = sum(58 + f1.getlength(T.NAMES[g]) + 34 for g in row) - 34
+        xx = W / 2 - tot / 2
+        y_ = yb + ri * (f1.size + 12)
+        for g in row:
+            for (ox, oy) in ((0, 0), (14, -6), (26, 2), (12, 9), (36, -3)):
+                cx_, cy_ = xx + 8 + ox, y_ - 12 + oy
+                gd.ellipse((cx_ - 9, cy_ - 9, cx_ + 9, cy_ + 9), fill=hx(T.COL[g], 120))
+                d.ellipse((cx_ - 5, cy_ - 5, cx_ + 5, cy_ + 5), fill=hx(T.COL[g]))
+            xx += 58
+            d.text((xx, y_), T.NAMES[g], font=f1, fill=hx(T.TINT[g]), anchor="ls")
+            xx += f1.getlength(T.NAMES[g]) + 34
+    cv.img.alpha_composite(glow.filter(ImageFilter.GaussianBlur(4)))
+    return yb + (len(rows) - 1) * (f1.size + 12)
+
+
 def render_region(key, cfg, out_dir, ppd=100):
     reg = REGIONS[key]
     mpp = reg["width"] * 1000 / W
@@ -336,7 +375,7 @@ def render_region(key, cfg, out_dir, ppd=100):
     regm = rasterize_pil(region, F, 1.0)
     regm2 = rasterize_pil(region, F, 2.0)
     elev2 = elev[::2, ::2][:regm2.shape[0], :regm2.shape[1]]
-    cl_all = load_cal()
+    cl_all = T.split_named(load_cal(), quiet=True)
     F0, ott0, non0 = master_masks()
     ott1 = sample_master(F, ott0, F0) & regm
     non1 = sample_master(F, non0, F0)
@@ -348,7 +387,7 @@ def render_region(key, cfg, out_dir, ppd=100):
     rpx = np.array([c["radius_km"] for c in cl_all]) * 1000 / F.mpp
     near = (cx > -2 * rpx - 50) & (cx < W + 2 * rpx + 50) & (cy > -2 * rpx - 50) & (cy < H + 2 * rpx + 50)
     cl = [c for c, n in zip(cl_all, near) if n]
-    x, y, k, ci = E.make_dots(cl, F, regm2, elev2, people_per_dot=ppd, seed=1876, return_cluster=True)
+    x, y, k, ci = E.make_dots(cl, F, regm2, elev2, people_per_dot=ppd, seed=1876, return_cluster=True, cats=T.CATS)
     foc = np.array([in_focus(c, reg["focus"]) for c in cl])
     xi, yi = np.clip(x.astype(int), 0, W - 1), np.clip(y.astype(int), 0, H - 1)
     inside = ott1[yi, xi] & foc[ci]
@@ -358,7 +397,7 @@ def render_region(key, cfg, out_dir, ppd=100):
     basef = P.base_image(F, elev, landm, regm, ott1) * (0.22 + 0.78 * fade[..., None])
     base = Image.fromarray(np.clip(basef * 255, 0, 255).astype(np.uint8)).convert("RGBA")
     base.alpha_composite(P.draw_rivers(F, regm, fade, under=True))
-    fill_shares, fill_km2 = None, [0, 0, 0]
+    fill_shares, fill_km2 = None, [0.0] * T.NG
     if reg.get("fill", True):
         focus_area = np.zeros((H, W), bool)
         fpx = np.zeros(len(cl), bool)
@@ -370,15 +409,15 @@ def render_region(key, cfg, out_dir, ppd=100):
         _, nn = tree.query(np.c_[gx_.ravel(), gy_.ravel()])
         fz_ = foc[nn].reshape(gy_.shape)
         focus_area = np.repeat(np.repeat(fz_, 4, 0), 4, 1)[:H, :W] & ott1
-        lab, _ = areal_fill(F, x, y, k, ott1 & landm)
+        lab = T.yurt_labels(F, x, y, k, ott1 & landm, sigma_km=reg["width"] / 100, smooth_km=2.4)
         fl_ = (lab >= 0) & focus_area
-        fill_shares = [100.0 * ((lab == g) & fl_).sum() / max(1, fl_.sum()) for g in range(3)]
-        fill_km2 = [((lab == g) & fl_).sum() * (F.mpp / 1000) ** 2 for g in range(3)]
-        base.alpha_composite(fill_layer(lab, fade, dim=~focus_area))
-        log(f"[{key}] alan payları (odak): Türk %{fill_shares[0]:.1f} · d.Müs %{fill_shares[1]:.1f} · Hr %{fill_shares[2]:.1f}")
+        fill_shares = [100.0 * ((lab == g) & fl_).sum() / max(1, fl_.sum()) for g in range(T.NG)]
+        fill_km2 = [((lab == g) & fl_).sum() * (F.mpp / 1000) ** 2 for g in range(T.NG)]
+        base.alpha_composite(T.fill_layer(lab, fade, dim=~focus_area, spacing=11, lw=2.4))
+        log(f"[{key}] alan payları (odak): " + " · ".join(f"{T.NAMES[g]} %{fill_shares[g]:.1f}" for g in range(T.NG) if fill_shares[g] >= 0.5))
     base.alpha_composite(P.dotted_borders(F, fade))
     img = P.render_dots(np.asarray(base.convert("RGB"), np.float32) / 255, x, y, k, inside,
-                        radius=1.9, fade_y0=1990, fade_y1=2110, alpha_out=0.30)
+                        radius=1.9, fade_y0=1990, fade_y1=2110, alpha_out=0.30, cols=T.COL)
     img.alpha_composite(P.draw_rivers(F, regm, fade, under=False))
     outside = shapely.union_all([by[a3] for a3 in ("ROU", "HUN", "SVN", "HRV", "SRB", "MNE", "AUT") if a3 in by])
     to_g = lambda geom: gpd.GeoSeries([geom], crs="EPSG:4326").to_crs(E.CRS).iloc[0]
@@ -424,31 +463,22 @@ def render_region(key, cfg, out_dir, ppd=100):
     while bod(ss, 600, 11).getlength(sub) > 1900:
         ss -= 2
     cv.halo((W / 2, 376), sub, bod(ss, 600, 11), IV2, anchor="ms", rad=6, strength=0.6)
-    items = [(0, "Türk"), (1, "Balkan Müslümanları"), (2, "Hristiyan")]
-    f1, f2 = bar(34, "SemiBold"), bar(28, "Medium")
-    unit = f"1 nokta = {ppd} kişi (≈ {ppd // 5} hane)" + ("  ·  taralı alan: çevredeki köylerin çoğunluğu" if reg.get("fill", True) else " · soluk: bölge dışı ya da 1876’da Osmanlı idaresi dışında")
-    tot = sum(62 + f1.getlength(t) + 40 for _, t in items) + 26 + f2.getlength(unit)
-    xx = W / 2 - tot / 2
-    yb = 446
-    glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    gd = ImageDraw.Draw(glow)
-    for g, t in items:
-        for (ox, oy) in ((0, 0), (14, -6), (26, 2), (12, 9), (36, -3)):
-            cx_, cy_ = xx + 8 + ox, yb - 12 + oy
-            gd.ellipse((cx_ - 9, cy_ - 9, cx_ + 9, cy_ + 9), fill=hx(COL[g], 120))
-            d.ellipse((cx_ - 5, cy_ - 5, cx_ + 5, cy_ + 5), fill=hx(COL[g]))
-        xx += 58
-        d.text((xx, yb), t, font=f1, fill=TINT[g], anchor="ls")
-        xx += f1.getlength(t) + 40
-    d.ellipse((xx - 20, yb - 14, xx - 16, yb - 10), fill=BRASS)
-    d.text((xx, yb), unit, font=f2, fill=MUTE, anchor="ls")
-    cv.img.alpha_composite(glow.filter(ImageFilter.GaussianBlur(4)))
+    pres, _pp = T.present(k, inside, min_pct=0.4)
+    unit = f"1 nokta = {ppd} kişi (≈ {ppd // 5} hane)" + ("  ·  kırmızı tarama: Türk yurdu (köylerin en az %40’ı Türk)  ·  diğer taramalar: yerel çoğunluk"
+                                                       if reg.get("fill", True) else "  ·  soluk: bölge dışı ya da 1876’da Osmanlı idaresi dışında")
+    y_last = legend_row(cv, pres, 434, maxw=1960)
+    d = cv.d
+    f2 = bar(24, "Medium")
+    while f2.getlength(unit) > 1960 and f2.size > 17:
+        f2 = bar(f2.size - 1, "Medium")
+    cv.halo((W / 2, y_last + 40), unit, f2, MUTE, anchor="ms", rad=4, strength=0.7)
+    cv.occupy((0, MAP_TOP - 10, W, y_last + 48))
 
     # ---- etiketler
     cities = cfg.get("cities") or []
     t12 = [c for c in cities if int(c.get("tier", 3)) <= 2]
     place_city_list(cv, F, t12, dimmed=("Belgrad", "Çetine", "Bükreş"))
-    place_story(cv, F, cfg.get("story_labels") or [])
+    place_story(cv, F, cfg.get("story_labels") or [], tints={i: hx(c) for i, c in enumerate(T.TINT)})
     place_city_list(cv, F, [c for c in cities if int(c.get("tier", 3)) > 2], dimmed=("Belgrad", "Çetine"))
 
     # ---- alt şerit
@@ -475,7 +505,7 @@ def render_region(key, cfg, out_dir, ppd=100):
         if not m.any():
             log("  çubuk boş:", b["label"])
             continue
-        G = np.array([[c["population"] * c[kk] / 100 for kk in E.CATS] for c in np.array(cl_all, dtype=object)[m]]).sum(0)
+        G = T.people(list(np.array(cl_all, dtype=object)[m])).sum(0)
         rows.append((b, G))
     rows = rows[:8]
     if rows:
@@ -492,10 +522,10 @@ def render_region(key, cfg, out_dir, ppd=100):
         p = largest_remainder(G)
         pint = largest_remainder(G, nd=0)
         xs_ = bx0
-        for gi in range(3):
+        for gi in range(T.NG):
             wseg = bw * p[gi] / 100
             if wseg > 0.5:
-                d.rectangle((xs_, yy, xs_ + max(0, wseg - 2), yy + hb), fill=hx(COL[gi]))
+                d.rectangle((xs_, yy, xs_ + max(0, wseg - 2), yy + hb), fill=hx(T.COL[gi]))
                 if wseg >= 40:
                     d.text((xs_ + wseg / 2 - 1, yy + hb - 6), f"{pint[gi]:.0f}", font=bar(20, "SemiBold"), fill=hx("#05080D"), anchor="ms")
             xs_ += wseg
@@ -508,9 +538,9 @@ def render_region(key, cfg, out_dir, ppd=100):
             d.polygon([(xr, yy - 14), (xr + 5, yy - 9), (xr, yy - 4), (xr - 5, yy - 9)], fill=IV)
             d.text((xn, yy + hb - 1), fmt_pct(rec), font=bs(36), fill=IV, anchor="ls")
             d.text((xn + 108, yy + 13), f"kayıt {lab}".strip(), font=bar(17, "SemiBold"), fill=IV2, anchor="ls")
-            d.text((xn + 108, yy + 33), f"model {fmt_pct(p[0] + p[1])}", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
+            d.text((xn + 108, yy + 33), f"model {fmt_pct(p[:T.NMUS].sum())}", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
         else:
-            d.text((xn, yy + hb - 1), fmt_pct(p[0] + p[1]), font=bs(36), fill=IV, anchor="ls")
+            d.text((xn, yy + hb - 1), fmt_pct(p[:T.NMUS].sum()), font=bs(36), fill=IV, anchor="ls")
             d.text((xn + 108, yy + 13), "harita modeli", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
         d.text((xn + 108, yy + 33 + (0 if rec <= 0 else 0)), "" if rec > 0 else f"{fmt_int(G.sum())} kişi", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
     # kutular: üç sütun
@@ -574,9 +604,9 @@ def render_region(key, cfg, out_dir, ppd=100):
     if fill_shares is not None and reg.get("series"):
         yy += 6
         d.line((x0f + 24, yy - 18, x0f + 24 + 120, yy - 18), fill=BRASS[:3] + (120,), width=1)
-        st_ = f"≈ {fmt_int(round(fill_km2[0], -2))} km² Türk çoğunluklu toprak"
+        st_ = f"≈ {fmt_int(round(fill_km2[0], -2))} km² Türk yurdu"
         d.text((x0f + 24, yy + 12), st_, font=bar(28, "SemiBold"), fill=TINT[0], anchor="ls")
-        d.text((x0f + 24, yy + 40), "bu haritadaki kırmızı taralı alan · harita modeli", font=bar(18, "Medium"), fill=MUTE, anchor="ls")
+        d.text((x0f + 24, yy + 40), "kırmızı taralı alan: köylerin en az %40’ı Türk · harita modeli", font=bar(18, "Medium"), fill=MUTE, anchor="ls")
         yy += 50
     if show_loc:
         if sep_loc:
@@ -598,7 +628,8 @@ def render_region(key, cfg, out_dir, ppd=100):
     d = cv.d
     src = cfg.get("sources_line") or ""
     l2 = ("Yöntem: Osmanlı salname/sayım verilerine dayalı bölge kümeleri (ana poster ile aynı veri) · nokta yerleri temsilîdir · "
-          "erkek sayımları ×2 · Yahudiler gösterilmedi · Tatar/Nogay = Türk")
+          "erkek sayımları ×2 · topluluk ayrımı: Osmanlı millet kayıtları ve dönem etnografyası · Tatar/Nogay = Türk · "
+          + T.HDIGER_NOTE + " · Yahudiler gösterilmedi")
     flines = []
     for t in (src, l2):
         if t:

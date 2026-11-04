@@ -8,42 +8,48 @@
    "sub": "Sünnî ve Alevî Türk köyleri",
    "group": 0,
    "lon": 26.8,
-   "lat": 43.78
+   "lat": 43.78,
+   "cat": "turk"
   },
   {
    "text": "DOBRUCA",
    "sub": "Tatar ve Türk köyleri",
    "group": 0,
    "lon": 28.4,
-   "lat": 44.5
+   "lat": 44.5,
+   "cat": "turk"
   },
   {
    "text": "GERLOVO",
    "sub": "Osman Pazarı Türkleri",
    "group": 0,
    "lon": 26.45,
-   "lat": 43.08
+   "lat": 43.08,
+   "cat": "turk"
   },
   {
    "text": "ÇERKES MUHACİRLERİ",
    "sub": "Pazarcık–Pravadi köyleri",
    "group": 1,
    "lon": 27.5,
-   "lat": 43.5
+   "lat": 43.5,
+   "cat": "cerkes"
   },
   {
    "text": "POMAKLAR",
    "sub": "Lofça köyleri",
    "group": 1,
    "lon": 24.47,
-   "lat": 43.2
+   "lat": 43.2,
+   "cat": "pomak"
   },
   {
    "text": "BULGAR KASABALARI",
    "sub": "Gabrova · Drenova · Elena",
    "group": 2,
    "lon": 25.5,
-   "lat": 42.9
+   "lat": 42.9,
+   "cat": "bulgar"
   },
   {
    "text": "ROMANYA PRENSLİĞİ",

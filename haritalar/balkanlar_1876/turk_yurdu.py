@@ -8,7 +8,7 @@ Kurallar:
   * 1 nokta = 100 kişi; noktalar temsilîdir.
 Veri: data_cal/clusters_calibrated.json + seri/hristiyan_ayrimi.json (Hristiyan payının bölünmesi)
 İçerik: seri/yurt_<anahtar>.json
-Kullanım: python3 turk_yurdu.py [rodoplar drama deliorman dobruca]
+Kullanım: python3 turk_yurdu.py [rodoplar drama deliorman dobruca makedonya]
 """
 import argparse
 import json
@@ -24,23 +24,17 @@ from scipy.ndimage import gaussian_filter, distance_transform_edt
 import engine as E
 import poster as P
 import seri as S
+import topluluk as T
 from poster import Canvas, hx, bs, bod, bar, fmt_int, fmt_pct, rasterize_pil, log, W, H
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-# topluluklar (sıra lejant sırasıdır)
-CATS5 = ("turk", "pomak", "arnavut", "bosnak", "torbes", "cerkes", "roman", "mdiger", "bulgar", "rum", "hdiger")
-NAMES5 = ["Türk", "Pomak", "Arnavut", "Boşnak", "Torbeş", "Çerkes", "Müslüman Roman", "Diğer Müslüman",
-          "Bulgar", "Rum", "Diğer Hristiyan"]
-COL5 = ["#E23B4E", "#F0B43C", "#8FC740", "#2FAE7A", "#C7D64B", "#E58A3A", "#D46FC3", "#B8A07A",
-        "#3F7FE0", "#33C1C6", "#A99BD6"]
-TINT5 = ["#FF7A88", "#FFD27A", "#B9E77A", "#6FD8A8", "#E4EE8A", "#FFB57A", "#F0A6E2", "#D8C6A2",
-         "#86B1FF", "#8FE6E9", "#CFC5F2"]
-NG = len(CATS5)
+# topluluklar (sıra lejant sırasıdır) — ortak tanım: topluluk.py
+CATS5, NAMES5, COL5, TINT5, NG = T.CATS, T.NAMES, T.COL, T.TINT, T.NG
 INK = "#0A0E14"
 IV, IV2, MUTE, BRASS = hx("#F1E9D8"), hx("#DED6C6"), hx("#97A1B3"), hx("#B89B5E")
-TURK_RULE = 0.40          # Türk yurdu eşiği
+TURK_RULE = T.TURK_RULE   # Türk yurdu eşiği
 MAP_TOP, MAP_BOT = 470, 2250
-TOTAL = 4
+TOTAL = 5
 SERIES = "RUMELİ TÜRK YURTLARI 1876"
 
 YURTLAR = {
@@ -48,6 +42,7 @@ YURTLAR = {
     "drama": dict(n=2, center=(24.42, 41.08), width=170, title="Drama, Kavala ve Sarışaban"),
     "deliorman": dict(n=3, center=(26.82, 43.43), width=230, title="Deliorman ve Gerlovo"),
     "dobruca": dict(n=4, center=(28.32, 44.27), width=230, title="Dobruca"),
+    "makedonya": dict(n=5, center=(22.30, 41.17), width=250, title="Makedonya Türkleri"),
 }
 
 
@@ -56,87 +51,12 @@ def hf(h):
 
 
 # ------------------------------------------------------------------ veri
-def _index(path):
-    out = {}
-    if os.path.exists(path):
-        for r in json.load(open(path, encoding="utf-8")):
-            out[(r["name"], round(r["lat"], 2), round(r["lon"], 2))] = r
-    return out
-
-
-def _guess_muslim(c):
-    g = (c.get("groups") or "").lower()
-    for key, words in (("pomak", ("pomak",)), ("arnavut", ("alban", "arnavut")), ("bosnak", ("bosniak", "boşnak")),
-                       ("torbes", ("torbe",)), ("cerkes", ("circass", "çerkes")), ("roman", ("roma", "kıpti", "gypsy"))):
-        if any(w in g for w in words):
-            return key
-    vil = c.get("vilayet")
-    return {"Bosna": "bosnak", "Hersek": "bosnak", "İşkodra": "arnavut", "Yanya": "arnavut"}.get(vil, "pomak")
-
-
 def load_clusters5():
-    cl = S.load_cal()
-    hs = _index(os.path.join(S.SERI, "hristiyan_ayrimi.json"))
-    ms = _index(os.path.join(S.SERI, "muslim_ayrimi.json"))
-    mh = mm = 0
-    for c in cl:
-        k_ = (c["name"], round(c["lat"], 2), round(c["lon"], 2))
-        ch, mo = float(c["christian"]), float(c["muslim_other"])
-        r = hs.get(k_)
-        if r and (r["bulgar"] + r["rum"] + r["diger"]) > 0:
-            t = r["bulgar"] + r["rum"] + r["diger"]
-            c["bulgar"], c["rum"], c["hdiger"] = ch * r["bulgar"] / t, ch * r["rum"] / t, ch * r["diger"] / t
-        else:
-            mh += ch > 0
-            c["bulgar"], c["rum"], c["hdiger"] = ch, 0.0, 0.0
-        r = ms.get(k_)
-        keys = ("pomak", "arnavut", "bosnak", "torbes", "cerkes", "roman")
-        for kk in keys + ("mdiger",):
-            c[kk] = 0.0
-        if r and sum(r[kk] for kk in keys + ("diger",)) > 0:
-            t = sum(r[kk] for kk in keys + ("diger",))
-            for kk in keys:
-                c[kk] = mo * r[kk] / t
-            c["mdiger"] = mo * r["diger"] / t
-        else:
-            mm += mo > 0
-            c[_guess_muslim(c)] = mo
-    if mh or mm:
-        log(f"  ayrımı eksik küme: Hristiyan {mh}, Müslüman {mm} (tahminle atandı)")
-    return cl
+    return T.split_named(S.load_cal())
 
 
-# ------------------------------------------------------------------ yurt (alan) hesabı
 def yurt_labels(F, x, y, k, area, sigma_km=2.6, step=2):
-    """Türk yurdu kuralı: yerel Türk payı >= %40 ise Türk; değilse yerel çoğunluk."""
-    h, w = H // step, W // step
-    cnt = np.zeros((NG, h, w), np.float32)
-    xi = np.clip((x / step).astype(int), 0, w - 1)
-    yi = np.clip((y / step).astype(int), 0, h - 1)
-    for g in range(NG):
-        m = k == g
-        np.add.at(cnt[g], (yi[m], xi[m]), 1.0)
-    sig = sigma_km * 1000 / (F.mpp * step)
-    D = np.stack([gaussian_filter(cnt[g], sig) for g in range(NG)])
-    tot = D.sum(0)
-    decided = tot > (0.5 / (2 * np.pi * sig * sig))
-    tshare = D[0] / np.maximum(tot, 1e-12)
-    lab = np.where(tshare >= TURK_RULE, 0, 1 + np.argmax(D[1:], 0)).astype(np.int8)
-    if (~decided).any() and decided.any():
-        _, (ii, jj) = distance_transform_edt(~decided, return_indices=True)
-        lab = lab[ii, jj]
-    oh = np.stack([gaussian_filter((lab == g).astype(np.float32), 1.6e3 / (F.mpp * step) + 1.0) for g in range(NG)])
-    lab = np.argmax(oh, 0).astype(np.int8)
-    # içinde hiç yerleşim olmayan kara parçaları (ör. veri dışı adalar) boyanmaz
-    from scipy.ndimage import label as nd_label
-    area2 = area[::step, ::step][:h, :w]
-    comp, n = nd_label(area2)
-    has = np.zeros(n + 1, bool)
-    has[np.unique(comp[yi, xi])] = True
-    has[0] = False
-    lab = np.where(has[comp], lab, -1).astype(np.int8)
-    full = np.repeat(np.repeat(lab, step, 0), step, 1)[:H, :W]
-    return np.where(area, full, -1).astype(np.int8)
+    return T.yurt_labels(F, x, y, k, area, sigma_km=sigma_km, step=step, rule=TURK_RULE)
 
 
 def fill_image(lab, spacing=13, lw=2.4):
@@ -236,7 +156,7 @@ def render(key, out_dir, ppd=100):
     in_t = tm[yi, xi] & inside
     cnt = np.bincount(k[in_t], minlength=NG).astype(float)
     tp = 100 * cnt / max(1, cnt.sum())
-    mus_t = tp[:8].sum()
+    mus_t = tp[:T.NMUS].sum()
     allp = np.bincount(k[inside], minlength=NG).astype(float)
     allp = 100 * allp / max(1, allp.sum())
     present = [g for g in range(NG) if allp[g] >= 0.6 or g == 0]
@@ -294,7 +214,13 @@ def render(key, out_dir, ppd=100):
     S.MAP_TOP, S.MAP_BOT = MAP_TOP, MAP_BOT
     cities = [c for c in (cfg.get("cities") or []) if int(c.get("tier", 3)) <= 2]
     S.place_city_list(cv, F, [c for c in cities if int(c.get("tier", 3)) == 1])
-    S.place_story(cv, F, cfg.get("story_labels") or [])
+    # hikâye etiketleri topluluk rengini alır ("cat": "torbes" vb.; yoksa "group" = CATS5 sırası)
+    tint0 = S.TINT
+    S.TINT = {i: hx(TINT5[i]) for i in range(NG)}
+    labs = [dict(lb, group=CATS5.index(lb["cat"])) if lb.get("cat") in CATS5 else lb
+            for lb in (cfg.get("story_labels") or [])]
+    S.place_story(cv, F, labs)
+    S.TINT = tint0
     S.place_city_list(cv, F, [c for c in cities if int(c.get("tier", 3)) == 2])
 
     # ---- alt şerit: üç rakam + bir cümle

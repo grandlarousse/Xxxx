@@ -19,6 +19,7 @@ import poster as P
 from poster import (Canvas, hx, COL, TINT, IV, IV2, MUTE, BRASS, BRASS_L, bs, bod, bar,
                     fmt_int, fmt_pct, largest_remainder, star8, log, W, H, RECORDS)
 import seri as S
+import topluluk as TP
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TOTAL = 8
@@ -144,7 +145,7 @@ def post_bulgaristan(out_dir):
     lay = Image.new("RGBA", (W * S2, H * S2), (0, 0, 0, 0))
     ld = ImageDraw.Draw(lay)
     tp = lambda xy: [((offx + (a - gx0) * sc) * S2, (offy + (gy1 - b) * sc) * S2) for a, b in xy]
-    lo_c, hi_c = np.array([20, 30, 52]), np.array(hx(COL[2])[:3])
+    lo_c, hi_c = np.array([20, 30, 52]), np.array(hx(TP.COL[8])[:3])
     for nm, g in obl.items():
         t = TG[nm] / 100
         col = tuple(int(v) for v in (lo_c * (1 - t) + hi_c * t)) + (215,)
@@ -228,7 +229,7 @@ def post_bulgaristan(out_dir):
         d.text((cx_ + 36, yy + 22), on, font=bar(21, "SemiBold"), fill=IV, anchor="ls")
         bx0, bw = cx_ + 230, 170
         d.rectangle((bx0, yy + 6, bx0 + bw, yy + 24), fill=(20, 26, 38))
-        d.rectangle((bx0, yy + 6, bx0 + bw * v / 100, yy + 24), fill=hx(COL[2]))
+        d.rectangle((bx0, yy + 6, bx0 + bw * v / 100, yy + 24), fill=hx(TP.COL[8]))
         d.line((bx0 + bw / 2, yy + 3, bx0 + bw / 2, yy + 27), fill=BRASS[:3] + (160,), width=1)
         d.text((bx0 + bw + 10, yy + 23), f"%{v}", font=bs(26), fill=IV if v < 50 else IV2, anchor="ls")
     # karşılaştırma kutusu
@@ -243,7 +244,7 @@ def post_bulgaristan(out_dir):
     d.text((hx_, y0 + 150), "nüfusun yarısından azdı", font=bar(28, "SemiBold"), fill=IV, anchor="ls")
     yy = y0 + 214
     for ln in S.wrap(T.get("highlight_model", ""), bar(22, "SemiBold"), 950)[:2]:
-        d.text((x0, yy), ln, font=bar(22, "SemiBold"), fill=TINT[0], anchor="ls")
+        d.text((x0, yy), ln, font=bar(22, "SemiBold"), fill=hx(TP.TINT[0]), anchor="ls")
         yy += 28
     rows = [
         (T.get("compare_1_value", fmt_pct(C.TOTAL_BG)), T.get("compare_1_label", "Bulgar"), T.get("compare_1_sub", "")),
@@ -311,10 +312,10 @@ def post_rakamlar(out_dir):
         cv.img.alpha_composite(Image.fromarray(a.astype(np.uint8), "RGBA"))
     header(cv, 8, T["kicker"], T["title"], T["subtitle"])
     d = cv.d
-    cl = S.load_cal()
+    cl = TP.split_named(S.load_cal(), quiet=True)
     vil = np.array([c.get("vilayet", "") for c in cl])
     ok = np.array([v not in S.NONOTT and v != "İstanbul" for v in vil])
-    G = np.array([[c["population"] * c[k] / 100 for k in E.CATS] for c in cl])
+    G = TP.people(cl)
     g = G[ok].sum(0)
     p = largest_remainder(g)
     # ---- kahraman satırı
@@ -326,26 +327,58 @@ def post_rakamlar(out_dir):
     cv.tracked((110, y0 + 48), "OSMANLI RUMELİ’Sİ · 1876 · İSTANBUL HARİÇ", bar(24, "SemiBold"), 4, BRASS)
     d.text((104, y0 + 200), fmt_int(g.sum()), font=bs(150), fill=IV, anchor="ls")
     d.text((110, y0 + 240), "kişi (harita modeli; Osmanlı salname ve sayımlarından)", font=bar(24, "Medium"), fill=IV2, anchor="ls")
-    mus = p[0] + p[1]
+    mus = p[:TP.NMUS].sum()
     d.text((1180, y0 + 200), fmt_pct(mus), font=bs(150), fill=IV, anchor="ls")
     d.text((1186, y0 + 240), f"Müslüman: her 100 kişiden {tr_poss(round(mus))}", font=bar(26, "SemiBold"), fill=IV, anchor="ls")
     fy = y0 + 92
     for key in ("fact_1", "fact_2", "fact_3"):
         t_ = T.get(key, "")
         for ln in S.wrap(t_, bar(22, "SemiBold"), 520)[:2]:
-            d.text((1560, fy), ln, font=bar(22, "SemiBold"), fill=TINT[0] if key == "fact_1" else IV2, anchor="ls")
+            d.text((1560, fy), ln, font=bar(22, "SemiBold"), fill=hx(TP.TINT[0]) if key == "fact_1" else IV2, anchor="ls")
             fy += 27
         fy += 10
-    # yığılmış çubuk
-    bx0, bw, by = 110, 1940, y0 + 300
+    # yığılmış çubuk (adlı topluluklar)
+    bx0, bw, by = 110, 1940, y0 + 290
     xs = bx0
-    for gi in range(3):
+    pint = largest_remainder(g, nd=0)
+    for gi in range(TP.NG):
         w_ = bw * p[gi] / 100
-        d.rectangle((xs, by, xs + w_ - 3, by + 70), fill=hx(COL[gi]))
-        d.text((xs + 16, by + 50), f"{P.GROUP_NAMES[gi]} {fmt_pct(p[gi])}", font=bar(30, "SemiBold"), fill=hx("#05080D"), anchor="ls")
-        d.text((xs + 16, by + 112), fmt_int(g[gi]) + " kişi", font=bar(22, "Medium"), fill=IV2, anchor="ls")
+        if w_ <= 0.5:
+            continue
+        d.rectangle((xs, by, xs + max(0, w_ - 3), by + 66), fill=hx(TP.COL[gi]))
+        lab_ = f"{TP.NAMES[gi]} {fmt_pct(p[gi])}"
+        if bar(28, "SemiBold").getlength(lab_) < w_ - 26:
+            d.text((xs + 14, by + 46), lab_, font=bar(28, "SemiBold"), fill=hx("#05080D"), anchor="ls")
+        elif w_ > 40:
+            d.text((xs + w_ / 2 - 1, by + 44), f"{pint[gi]:.0f}", font=bar(22, "SemiBold"), fill=hx("#05080D"), anchor="ms")
         xs += w_
-    d.text((110, y0 + 494), "Türk: Tatar ve Nogaylar dâhil · Balkan Müslümanları: Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman · Yahudiler gösterilmedi",
+    # alt satırlar: Müslüman | Hristiyan toplulukları (yüzde ve kişi)
+    for ri, (head, rng) in enumerate((("MÜSLÜMAN", range(TP.NMUS)), ("HRİSTİYAN", range(TP.NMUS, TP.NG)))):
+        yy = by + 112 + ri * 40
+        tot_ = p[list(rng)].sum()
+        cv.tracked((110, yy), f"{head} {fmt_pct(tot_)}", bar(20, "SemiBold"), 3, BRASS)
+        items = []
+        for gi in rng:
+            if p[gi] < 0.3:      # çok küçük paylar (ör. diğer Müslüman %0,2) yalnız toplamda
+                continue
+            mn = g[gi] / 1e6
+            items.append((gi, f"{TP.NAMES[gi]} {fmt_pct(p[gi])}",
+                          f" · {('%.2f' % mn).replace('.', ',')} mn" if mn >= 0.1 else f" · {fmt_int(round(g[gi], -3))}"))
+        fs, gap = 22, 28
+        while True:
+            f_, f2_ = bar(fs, "SemiBold"), bar(fs - 4, "Medium")
+            need = sum(22 + f_.getlength(a_) + f2_.getlength(b_) + gap for _, a_, b_ in items) - gap
+            if need <= 2050 - 390 or fs <= 16:
+                break
+            fs -= 1
+            gap = max(16, gap - 2)
+        xx = 390
+        for gi, t_, t2 in items:
+            d.rectangle((xx, yy - 17, xx + 14, yy - 3), fill=hx(TP.COL[gi]))
+            d.text((xx + 22, yy), t_, font=f_, fill=hx(TP.TINT[gi]), anchor="ls")
+            d.text((xx + 22 + f_.getlength(t_), yy), t2, font=f2_, fill=MUTE, anchor="ls")
+            xx += 22 + f_.getlength(t_) + f2_.getlength(t2) + gap
+    d.text((110, y0 + 498), "Türk: Tatar ve Nogaylar dâhil · " + TP.HDIGER_NOTE + " · Yahudiler gösterilmedi",
            font=bar(18, "Medium"), fill=MUTE, anchor="ls")
     # ---- vilayet tablosu
     y1 = 1040
@@ -366,14 +399,14 @@ def post_rakamlar(out_dir):
         d.text((110, yy + 52), fmt_int(gg.sum()) + " kişi", font=bar(16, "Medium"), fill=MUTE, anchor="ls")
         xs = bx0
         pint = largest_remainder(gg, nd=0)
-        for gi in range(3):
+        for gi in range(TP.NG):
             w_ = bw * pp[gi] / 100
             if w_ > 0.5:
-                d.rectangle((xs, yy + 4, xs + max(0, w_ - 2), yy + 38), fill=hx(COL[gi]))
+                d.rectangle((xs, yy + 4, xs + max(0, w_ - 2), yy + 38), fill=hx(TP.COL[gi]))
                 if w_ > 44:
                     d.text((xs + w_ / 2, yy + 30), f"{pint[gi]:.0f}", font=bar(18, "SemiBold"), fill=hx("#05080D"), anchor="ms")
             xs += w_
-        d.text((bx0 + bw + 16, yy + 36), fmt_pct(pp[0] + pp[1]), font=bs(40), fill=IV, anchor="ls")
+        d.text((bx0 + bw + 16, yy + 36), fmt_pct(pp[:TP.NMUS].sum()), font=bs(40), fill=IV, anchor="ls")
         if rec:
             xr = bx0 + bw * rec / 100
             d.rectangle((xr - 2, yy, xr + 2, yy + 42), fill=IV)
@@ -389,7 +422,7 @@ def post_rakamlar(out_dir):
     d.line((x2, y1, x2 + 780, y1), fill=BRASS, width=2)
     cv.tracked((x2 + 30, y1 + 46), "OSMANLI KAYDI · TUNA VİLÂYETİ 1875", bar(24, "SemiBold"), 4, BRASS)
     d.text((x2 + 30, y1 + 78), f"Tahrir-i Cedid · {fmt_int(RECORDS['TUNA_1875']['males'])} erkek · 1 kare = 1.000 erkek", font=bar(18, "Medium"), fill=MUTE, anchor="ls")
-    cats = [(406, hx(COL[0]), False), (55, hx(COL[1]), False), (606, hx(COL[2]), False), (54, hx("#8A93A3"), True)]
+    cats = [(406, hx(TP.COL[0]), False), (55, hx(TP.COL[5]), False), (606, hx(TP.COL[8]), False), (54, hx("#8A93A3"), True)]
     seq = []
     for n_, c_, hol in cats:
         seq += [(c_, hol)] * n_
@@ -404,10 +437,10 @@ def post_rakamlar(out_dir):
     yk = oy + 19 * pitch + 60
     d.text((x2 + 30, yk), fmt_pct(RECORDS["TUNA_1875"]["muslim_pct"]), font=bs(80), fill=IV, anchor="ls")
     d.text((x2 + 30, yk + 34), "Müslüman", font=bar(24, "SemiBold"), fill=IV, anchor="ls")
-    d.text((x2 + 300, yk), fmt_pct(RECORDS["TUNA_1875"]["bulgar_pct"]), font=bs(80), fill=TINT[2], anchor="ls")
+    d.text((x2 + 300, yk), fmt_pct(RECORDS["TUNA_1875"]["bulgar_pct"]), font=bs(80), fill=hx(TP.TINT[8]), anchor="ls")
     d.text((x2 + 300, yk + 34), "Bulgar milleti", font=bar(24, "SemiBold"), fill=IV, anchor="ls")
     kx, ky = x2 + 30, yk + 80
-    for c_, lab_, hol in ((hx(COL[0]), "İslam milleti %36,2", False), (hx(COL[1]), "Çerkes, Kıpti %4,9", False), (hx("#8A93A3"), "diğer %4,8", True)):
+    for c_, lab_, hol in ((hx(TP.COL[0]), "İslam milleti %36,2", False), (hx(TP.COL[5]), "Çerkes, Kıpti %4,9", False), (hx("#8A93A3"), "diğer %4,8", True)):
         if hol:
             d.rectangle((kx, ky - 14, kx + 12, ky - 2), outline=c_, width=1)
         else:

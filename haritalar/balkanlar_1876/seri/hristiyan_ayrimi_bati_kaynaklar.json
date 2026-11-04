@@ -1,0 +1,17 @@
+[
+ "Austrian censuses of 1869/1880 for Dalmatia (about 16-17% Orthodox, about 5-6% Italian-speakers concentrated in the towns) and Military Frontier regiment patterns (Slunj, Lika, 2nd Banal), from prior knowledge",
+ "Austro-Hungarian census of 1879: B-H totals of 496,761 Orthodox, 209,391 Catholic and 448,613 Muslim; Banja Luka district 64,186 Orthodox and 9,486 Catholic (revise/research_bosna_kosova.json). Kotar-level religious patterns of 1879-1910 are used only to place groups within each sancak.",
+ "Montenegrin census of 1863/64 (196,230; Orthodox Montenegrins)",
+ "Ottoman 1870/71 Bosna vilayet count by sancak and millet (Bosna Vilayet Salnamesi 1287; Gölen 2001, Belleten 65/242, Tablo II), as reproduced in Wikipedia 'Demographic history of Bosnia and Herzegovina' (McCarthy-corrected table from Pinson ed. 1994). Orthodox/Catholic: Saray 51,566/24,590; Zvornik 131,471/32,787; Travnik 70,547/65,110; Bihać 104,343/5,898; Novi Pazar 85,952/0; Banja Luka 126,228/40,554; Herzegovina 66,041/51,414 (Gölen males: 23,492/18,289). Fetched: https://en.wikipedia.org/wiki/Demographic_history_of_Bosnia_and_Herzegovina",
+ "Research files revise_bosna_kosova.json (Layard FO 881/3655 via Köse 2019, Tablo 27 and 29; Ünlü 2017 for Yakova; Gawrych for the Circassians), revise_tuna.json (Jagodić 1998, Table 1, for the Niş sancak kazas) and revise_makedonya.json (Karpat 1985; Kănčov 1900 for Kalkandelen kazası), plus the 'groups' text of each cluster",
+ "Serbian censuses of 1866/1874 (1866: about 127,500 Romanian-speaking Vlachs, about 24,600 Roma, and small numbers of Germans and Tsintsars, together about 12-13% of the population), via Wikipedia 'Demographic history of Montenegro' / 'Demographics of Serbia'",
+ "clusters_calibrated.json 'groups' text for every cluster (primary basis of the split)",
+ "revise_arnavut_yunan.json: A. Rostkovski 1897, Elbasan sancağı (3,319 Christian Albanians, 1,000 Aromanians, no Greeks or Slavs)",
+ "revise_arnavut_yunan.json: Carl Sax, Ethnographische Karte der europäischen Türkei (1878), for the Catholic Mirdita, Dukagjin and Malësia zone and the mixed Muslim-Orthodox south of Albania",
+ "revise_arnavut_yunan.json: E. Nikolaidou in Sakellariou (ed.), Epirus (1997) p. 356, Ottoman 1908 figures for Yanya vilayeti (Greeks 300,000, Albanians 210,000, Vlachs 25,000). Gives the size of the Vlach element",
+ "revise_arnavut_yunan.json: Russian consular statistics 1897 for Görice sancağı (32,035 Christian Albanians; 3,297 Aromanians in Korçë)",
+ "revise_arnavut_yunan.json: Yanya salname 1895 via Wikipedia 'Janina vilayet' (118,033 Greeks / 129,517 Orthodox Albanians, post-1881 territory). Used as the yardstick for the Rum vs Orthodox-Albanian split in Epirus",
+ "revise_arnavut_yunan.json: İ. Erken, OTAM 40 (2016) and MA thesis OMÜ 2014 (İşkodra vilayeti about 90,000 Christians, of whom about 7,500 Orthodox); Ottoman 1911 İşkodra figures (120,611 Catholics, 10,755 Orthodox); Gawrych 2006; Lear (800 Catholic + 20 Orthodox hanes in Shkodër)",
+ "revise_makedonya.json: Ethnographie des vilayets d'Andrinople, de Monastir et de Salonique (1878) for Debre kaza (male counts: Bulgarians 15,820, Orthodox Albanians 2,644, Muslim Albanians 10,659, Torbeş 6,705), also in Köse 2019, Table 19",
+ "revise_makedonya.json: V. Kănčov, Makedonija. Etnografija i statistika (1900), used for placing Bulgarians, Greeks and Vlachs among the Kesriye (Kostur) and Debre clusters"
+]

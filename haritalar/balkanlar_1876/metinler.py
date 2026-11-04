@@ -23,13 +23,14 @@ for n, title, key, field in ORDER:
     if os.path.exists(p):
         cap = json.load(open(p, encoding="utf-8")).get(field, "") or ""
     out.append(f"\n---\n\n## {n}/8 · {title}\n\nGörsel: `cikti/seri/{n}_*_ig.jpg`\n\n```\n{cap.strip() or '(metin bekleniyor)'}\n```\n")
-out.append("\n\n# RUMELİ TÜRK YURTLARI 1876 — 4 post (Türklerin bariz çoğunlukta olduğu kuşaklar)\n")
+out.append("\n\n# RUMELİ TÜRK YURTLARI 1876 — 5 post (Türklerin bariz çoğunlukta olduğu kuşaklar)\n")
 out.append("Görseller: `cikti/turk_yurtlari/NN_*_ig.jpg`. Kırmızı taralı alan = Türk yurdu (köylerinin en az %40’ı Türk); "
            "diğer alanlar yerel çoğunluk. Topluluklar ayrı: Türk, Pomak, Çerkes, Müslüman Roman, Bulgar, Rum…\n")
 for n, title, key in (("1", "Doğu Rodoplar", "rodoplar"), ("2", "Drama, Kavala ve Sarışaban", "drama"),
-                      ("3", "Deliorman ve Gerlovo", "deliorman"), ("4", "Dobruca", "dobruca")):
+                      ("3", "Deliorman ve Gerlovo", "deliorman"), ("4", "Dobruca", "dobruca"),
+                      ("5", "Makedonya Türkleri", "makedonya")):
     p = os.path.join(S, f"yurt_{key}.json")
     cap = json.load(open(p, encoding="utf-8")).get("caption", "") if os.path.exists(p) else ""
-    out.append(f"\n---\n\n## {n}/4 · {title}\n\nGörsel: `cikti/turk_yurtlari/0{n}_{key}_ig.jpg`\n\n```\n{cap.strip() or '(metin bekleniyor)'}\n```\n")
+    out.append(f"\n---\n\n## {n}/5 · {title}\n\nGörsel: `cikti/turk_yurtlari/0{n}_{key}_ig.jpg`\n\n```\n{cap.strip() or '(metin bekleniyor)'}\n```\n")
 open(os.path.join(S, "PAYLASIM_METINLERI.md"), "w", encoding="utf-8").write("\n".join(out))
 print("yazıldı:", os.path.join(S, "PAYLASIM_METINLERI.md"))

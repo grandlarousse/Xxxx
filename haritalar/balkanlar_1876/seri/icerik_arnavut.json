@@ -8,63 +8,72 @@
    "sub": "Katolik dağ aşiretleri",
    "group": 2,
    "lon": 19.7,
-   "lat": 42.45
+   "lat": 42.45,
+   "cat": "hdiger"
   },
   {
    "text": "MİRDİTA",
    "sub": "Katolik Arnavut aşireti",
    "group": 2,
    "lon": 20,
-   "lat": 41.88
+   "lat": 41.88,
+   "cat": "hdiger"
   },
   {
    "text": "MAT VE DİBRA",
    "sub": "Müslüman Geg Arnavutları",
    "group": 1,
    "lon": 20.28,
-   "lat": 41.6
+   "lat": 41.6,
+   "cat": "arnavut"
   },
   {
    "text": "KOSOVA",
    "sub": "Arnavut ve Çerkes Müslümanlar",
    "group": 1,
    "lon": 20.95,
-   "lat": 42.68
+   "lat": 42.68,
+   "cat": "arnavut"
   },
   {
    "text": "MAMUŞA",
    "sub": "Prizren yöresinin Türk köyü",
    "group": 0,
    "lon": 20.73,
-   "lat": 42.33
+   "lat": 42.33,
+   "cat": "turk"
   },
   {
    "text": "LABERYA",
    "sub": "Müslüman Lab Arnavutları",
    "group": 1,
    "lon": 19.86,
-   "lat": 40.24
+   "lat": 40.24,
+   "cat": "arnavut"
   },
   {
    "text": "ÇAMLIK",
    "sub": "Müslüman Çam köyleri",
    "group": 1,
    "lon": 20.33,
-   "lat": 39.41
+   "lat": 39.41,
+   "cat": "arnavut"
   },
   {
    "text": "EPİR RUMLARI",
    "sub": "Rum ve Ulah köyleri · Zagori, Pogon",
    "group": 2,
    "lon": 20.78,
-   "lat": 39.88
+   "lat": 39.88,
+   "cat": "rum"
   },
   {
    "text": "KONYAR TÜRKLERİ",
    "sub": "Kayalar · Sarıgöl · Kozana",
    "group": 0,
    "lon": 21.7,
-   "lat": 40.45
+   "lat": 40.45,
+   "cat": "turk"
   }
  ],
  "cities": [
