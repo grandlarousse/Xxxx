@@ -2,39 +2,225 @@
  "title": "Makedonya Türkleri",
  "subtitle": "Ovçepole ve Kocacık Yörükleri, Kayalar ve Kozana Konyarları · 1876",
  "story_labels": [
-  {"text": "OVÇEPOLE YÖRÜKLERİ", "sub": "İştip · Koçana · Radovişte", "cat": "turk", "lon": 22.02, "lat": 41.86},
-  {"text": "KOCACIK YÖRÜKLERİ", "sub": "Kruşa · Avrethisar · Doyran", "cat": "turk", "lon": 23.02, "lat": 41.06},
-  {"text": "KONYAR TÜRKLERİ", "sub": "Kayalar · Sarıgöl · Kozana", "cat": "turk", "lon": 21.66, "lat": 40.45},
-  {"text": "LANGAZA OVASI", "sub": "Türk çiftlik köyleri", "cat": "turk", "lon": 23.12, "lat": 40.78},
-  {"text": "TİKVEŞ", "sub": "Torbeş ve Yörük köyleri", "cat": "torbes", "lon": 21.97, "lat": 41.48},
-  {"text": "KARACAOVA", "sub": "Meglen Pomakları", "cat": "pomak", "lon": 22.12, "lat": 41.0},
-  {"text": "PELAGONYA", "sub": "Bulgar köyleri", "cat": "bulgar", "lon": 21.45, "lat": 41.2},
-  {"text": "KESENDİRE", "sub": "Rum köyleri", "cat": "rum", "lon": 23.38, "lat": 40.43}
+  {
+   "text": "OVÇEPOLE YÖRÜKLERİ",
+   "sub": "İştip · Koçana · Radovişte",
+   "cat": "turk",
+   "lon": 22.02,
+   "lat": 41.86
+  },
+  {
+   "text": "KOCACIK YÖRÜKLERİ",
+   "sub": "Kruşa · Avrethisar · Doyran",
+   "cat": "turk",
+   "lon": 23.02,
+   "lat": 41.06
+  },
+  {
+   "text": "KONYAR TÜRKLERİ",
+   "sub": "Kayalar · Sarıgöl · Kozana",
+   "cat": "turk",
+   "lon": 21.66,
+   "lat": 40.45
+  },
+  {
+   "text": "LANGAZA OVASI",
+   "sub": "Türk çiftlik köyleri",
+   "cat": "turk",
+   "lon": 23.12,
+   "lat": 40.78
+  },
+  {
+   "text": "TİKVEŞ",
+   "sub": "Torbeş ve Yörük köyleri",
+   "cat": "torbes",
+   "lon": 21.97,
+   "lat": 41.48
+  },
+  {
+   "text": "KARACAOVA",
+   "sub": "Meglen Pomakları",
+   "cat": "pomak",
+   "lon": 22.12,
+   "lat": 41.0
+  },
+  {
+   "text": "PELAGONYA",
+   "sub": "Bulgar köyleri",
+   "cat": "bulgar",
+   "lon": 21.45,
+   "lat": 41.2
+  },
+  {
+   "text": "KESENDİRE",
+   "sub": "Rum köyleri",
+   "cat": "rum",
+   "lon": 23.38,
+   "lat": 40.43
+  }
  ],
  "cities": [
-  {"name": "Selanik", "modern": "Thessaloniki", "lon": 22.944, "lat": 40.64, "tier": 1},
-  {"name": "Üsküp", "modern": "Skopje", "lon": 21.432, "lat": 41.996, "tier": 1},
-  {"name": "Manastır", "modern": "Bitola", "lon": 21.334, "lat": 41.031, "tier": 1},
-  {"name": "Serez", "modern": "Serres", "lon": 23.548, "lat": 41.086, "tier": 1},
-  {"name": "İştip", "modern": "Štip", "lon": 22.195, "lat": 41.745, "tier": 1},
-  {"name": "Yenice-i Vardar", "modern": "Giannitsa", "lon": 22.408, "lat": 40.792, "tier": 1},
-  {"name": "Kayalar", "modern": "Ptolemaida", "lon": 21.678, "lat": 40.514, "tier": 1},
-  {"name": "Koçana", "modern": "Kočani", "lon": 22.411, "lat": 41.917, "tier": 2},
-  {"name": "Radovişte", "modern": "Radoviš", "lon": 22.465, "lat": 41.638, "tier": 2},
-  {"name": "Usturumca", "modern": "Strumica", "lon": 22.643, "lat": 41.437, "tier": 2},
-  {"name": "Valandova", "modern": "Valandovo", "lon": 22.561, "lat": 41.317, "tier": 2},
-  {"name": "Doyran", "modern": "Dojran", "lon": 22.717, "lat": 41.186, "tier": 2},
-  {"name": "Kukuş", "modern": "Kilkis", "lon": 22.874, "lat": 40.994, "tier": 2},
-  {"name": "Langaza", "modern": "Lagadas", "lon": 23.068, "lat": 40.75, "tier": 2},
-  {"name": "Kozana", "modern": "Kozani", "lon": 21.789, "lat": 40.301, "tier": 2},
-  {"name": "Karaferye", "modern": "Veria", "lon": 22.204, "lat": 40.524, "tier": 2},
-  {"name": "Vodina", "modern": "Edessa", "lon": 22.047, "lat": 40.802, "tier": 2},
-  {"name": "Köprülü", "modern": "Veles", "lon": 21.775, "lat": 41.715, "tier": 2},
-  {"name": "Demirhisar", "modern": "Sidirokastro", "lon": 23.391, "lat": 41.236, "tier": 2},
-  {"name": "Kumanova", "modern": "Kumanovo", "lon": 21.714, "lat": 42.132, "tier": 3},
-  {"name": "Gevgili", "modern": "Gevgelija", "lon": 22.503, "lat": 41.141, "tier": 3},
-  {"name": "Pirlepe", "modern": "Prilep", "lon": 21.555, "lat": 41.346, "tier": 3},
-  {"name": "Lerin", "modern": "Florina", "lon": 21.409, "lat": 40.782, "tier": 3}
+  {
+   "name": "Selanik",
+   "modern": "Thessaloniki",
+   "lon": 22.944,
+   "lat": 40.64,
+   "tier": 1
+  },
+  {
+   "name": "Üsküp",
+   "modern": "Skopje",
+   "lon": 21.432,
+   "lat": 41.996,
+   "tier": 1
+  },
+  {
+   "name": "Manastır",
+   "modern": "Bitola",
+   "lon": 21.334,
+   "lat": 41.031,
+   "tier": 1
+  },
+  {
+   "name": "Serez",
+   "modern": "Serres",
+   "lon": 23.548,
+   "lat": 41.086,
+   "tier": 1
+  },
+  {
+   "name": "İştip",
+   "modern": "Štip",
+   "lon": 22.195,
+   "lat": 41.745,
+   "tier": 1
+  },
+  {
+   "name": "Yenice-i Vardar",
+   "modern": "Giannitsa",
+   "lon": 22.408,
+   "lat": 40.792,
+   "tier": 1
+  },
+  {
+   "name": "Kayalar",
+   "modern": "Ptolemaida",
+   "lon": 21.678,
+   "lat": 40.514,
+   "tier": 1
+  },
+  {
+   "name": "Koçana",
+   "modern": "Kočani",
+   "lon": 22.411,
+   "lat": 41.917,
+   "tier": 2
+  },
+  {
+   "name": "Radovişte",
+   "modern": "Radoviš",
+   "lon": 22.465,
+   "lat": 41.638,
+   "tier": 2
+  },
+  {
+   "name": "Usturumca",
+   "modern": "Strumica",
+   "lon": 22.643,
+   "lat": 41.437,
+   "tier": 2
+  },
+  {
+   "name": "Valandova",
+   "modern": "Valandovo",
+   "lon": 22.561,
+   "lat": 41.317,
+   "tier": 2
+  },
+  {
+   "name": "Doyran",
+   "modern": "Dojran",
+   "lon": 22.717,
+   "lat": 41.186,
+   "tier": 2
+  },
+  {
+   "name": "Kukuş",
+   "modern": "Kilkis",
+   "lon": 22.874,
+   "lat": 40.994,
+   "tier": 2
+  },
+  {
+   "name": "Langaza",
+   "modern": "Lagadas",
+   "lon": 23.068,
+   "lat": 40.75,
+   "tier": 2
+  },
+  {
+   "name": "Kozana",
+   "modern": "Kozani",
+   "lon": 21.789,
+   "lat": 40.301,
+   "tier": 2
+  },
+  {
+   "name": "Karaferye",
+   "modern": "Veria",
+   "lon": 22.204,
+   "lat": 40.524,
+   "tier": 2
+  },
+  {
+   "name": "Vodina",
+   "modern": "Edessa",
+   "lon": 22.047,
+   "lat": 40.802,
+   "tier": 2
+  },
+  {
+   "name": "Köprülü",
+   "modern": "Veles",
+   "lon": 21.775,
+   "lat": 41.715,
+   "tier": 2
+  },
+  {
+   "name": "Demirhisar",
+   "modern": "Sidirokastro",
+   "lon": 23.391,
+   "lat": 41.236,
+   "tier": 2
+  },
+  {
+   "name": "Kumanova",
+   "modern": "Kumanovo",
+   "lon": 21.714,
+   "lat": 42.132,
+   "tier": 3
+  },
+  {
+   "name": "Gevgili",
+   "modern": "Gevgelija",
+   "lon": 22.503,
+   "lat": 41.141,
+   "tier": 3
+  },
+  {
+   "name": "Pirlepe",
+   "modern": "Prilep",
+   "lon": 21.555,
+   "lat": 41.346,
+   "tier": 3
+  },
+  {
+   "name": "Lerin",
+   "modern": "Florina",
+   "lon": 21.409,
+   "lat": 40.782,
+   "tier": 3
+  }
  ],
  "record": {
   "big": "%77",
@@ -43,5 +229,5 @@
  },
  "line": "Ovçepole ve Kocacık Yörükleri ile Kayalar–Kozana Konyarları, Vardar’ın iki yakasında Türk köylerinden kuşaklar kurmuştu.",
  "sources_line": "Kaynaklar: 1881/82 Osmanlı genel sayımı, kaza bazında millet sayıları: K. H. Karpat, Ottoman Population 1830–1914 (1985), Tablo I.8.A · Selanik salnameleri (M. T. Gökbilgin; M. Tepekaya) · FO 881/3655 (M. Köse 2019) · TDV İslâm Ansiklopedisi, “Tikveş” · köy yerleşimi: V. Kănčov 1900 · harita modeli",
- "caption": "RUMELİ TÜRK YURTLARI 1876 · 5/5 | Makedonya Türkleri\n\nOvçepole’den Kocacık’a, Langaza’dan Kayalar’a: Vardar’ın iki yakasındaki Yörük ve Konyar Türklerinin yurdu.\n\n• Haritadaki kırmızı Türk yurdu yaklaşık 13.300 km²; burada yaşayanların %69,4’ü Türk, %72,9’u Müslümandı (harita modeli).\n• 1881/82 Osmanlı sayımına göre Müslüman oranı: Kayalar kazası %77, Toyran %71, Radovişte %60, Langaza %58, Üsküp kazası %58 (Üsküp şehri %74), İştip %57, Avrethisar %57 (K. Karpat 1985).\n• Ovçepole ve Kocacık Yörükleri Anadolu’dan gelen konar-göçer Türklerin torunlarıydı; Kayalar ve Kozana ovalarının Konyarları da adlarını Konya’dan alıyordu.\n• Tikveş’te Torbeş, Karacaova’da Meglen Pomakları, Pelagonya’da Bulgar, Kesendire’de Rum köyleri vardı.\n\nNasıl okunur? 1 nokta = 100 kişi. Kırmızı taralı alan Türk yurdudur (köylerinin en az %40’ı Türk); diğer alanlar yerel çoğunluk.\n\nAileniz Makedonya’dan mı geldi? Hangi kazadan?\n\n#Makedonya #Üsküp #Selanik #Yörük #Konyar #Ovçepole #Kocacık #İştip #Kozana #Rumeli #RumeliTürkleri #BalkanTürkleri #OsmanlıTarihi #TarihHaritası #Osmanlı"
+ "caption": "RUMELİ TÜRK YURTLARI 1876 · 5/5 | Makedonya Türkleri\n\nOvçepole’den Kocacık’a, Langaza’dan Kayalar’a: Vardar’ın iki yakasındaki Yörük ve Konyar Türklerinin yurdu.\n\n• Haritadaki kırmızı Türk yurdu yaklaşık 15.700 km²; burada yaşayanların %62,4’ü Türk, %68,8’i Müslümandı (harita modeli).\n• 1881/82 Osmanlı sayımına göre Müslüman oranı: Kayalar kazası %77, Toyran %71, Radovişte %60, Langaza %58, Üsküp kazası %58 (Üsküp şehri %74), İştip %57, Avrethisar %57 (K. Karpat 1985).\n• Ovçepole ve Kocacık Yörükleri Anadolu’dan gelen konar-göçer Türklerin torunlarıydı; Kayalar ve Kozana ovalarının Konyarları da adlarını Konya’dan alıyordu.\n• Tikveş’te Torbeş, Karacaova’da Meglen Pomakları, Pelagonya’da Bulgar, Kesendire’de Rum köyleri vardı.\n\nNasıl okunur? 1 nokta = 100 kişi. Kırmızı taralı alan Türk yurdudur (köylerin en az %40’ı Türk); köylerin en az %40’ı Müslüman olan yerler en kalabalık Müslüman topluluğun rengini alır; diğer alanlar yerel çoğunluk.\n\nAileniz Makedonya’dan mı geldi? Hangi kazadan?\n\n#Makedonya #Üsküp #Selanik #Yörük #Konyar #Ovçepole #Kocacık #İştip #Kozana #Rumeli #RumeliTürkleri #BalkanTürkleri #OsmanlıTarihi #TarihHaritası #Osmanlı"
 }

@@ -7,7 +7,8 @@ Kalibre edilmiş kümeler üç ana pay taşır (turk / muslim_other / christian)
   * Hristiyan payını seri/hristiyan_ayrimi.json  (bulgar, rum, diger)  ve
                      seri/hristiyan_ayrimi_bati.json (bulgar, rum, sirp, hirvat, diger; batı vilâyetleri, öncelikli)
 satırlarına göre böler. Satırı olmayan kümeler grup notu ve vilâyete göre tahminle atanır.
-Ayrıca ortak Türk yurdu kuralı (yerel Türk payı >= %40) ve alan dolgusu buradadır.
+Ayrıca ortak alan kuralı (Türk yurdu: yerel Türk payı >= %40; Müslüman payı >= %40 ise en kalabalık
+Müslüman topluluk; aksi hâlde yerel çoğunluk) ve alan dolgusu buradadır.
 """
 import json
 import os
@@ -21,12 +22,13 @@ SERI = os.path.join(HERE, "seri")
 
 CATS = ("turk", "pomak", "arnavut", "bosnak", "torbes", "cerkes", "roman", "mdiger",
         "bulgar", "rum", "sirp", "hirvat", "hdiger")
-NAMES = ["Türk", "Pomak", "Arnavut", "Boşnak", "Torbeş", "Çerkes", "Müslüman Roman", "Diğer Müslüman",
+NAMES = ["Türk", "Pomak", "Arnavut", "Boşnak", "Torbeş", "Çerkes", "Müslüman Roman", "Valaad ve Müslüman Ulah",
          "Bulgar", "Rum", "Sırp", "Hırvat", "Diğer Hristiyan"]
-COL = ["#E23B4E", "#F0B43C", "#8FC740", "#2FAE7A", "#C7D64B", "#E58A3A", "#D46FC3", "#B8A07A",
-       "#3F7FE0", "#33C1C6", "#9A6CEB", "#5DB3EE", "#8F98A8"]
-TINT = ["#FF7A88", "#FFD27A", "#B9E77A", "#6FD8A8", "#E4EE8A", "#FFB57A", "#F0A6E2", "#D8C6A2",
-        "#86B1FF", "#8FE6E9", "#C4AEFF", "#A9DBFB", "#C6CCD8"]
+# gri kullanılmaz (gri = boş alan gibi okunur): diğer Müslüman zeytin, diğer Hristiyan kahverengi
+COL = ["#E23B4E", "#F0B43C", "#8FC740", "#2FAE7A", "#C7D64B", "#E58A3A", "#D46FC3", "#8E9A5B",
+       "#3F7FE0", "#33C1C6", "#9A6CEB", "#5DB3EE", "#B08860"]
+TINT = ["#FF7A88", "#FFD27A", "#B9E77A", "#6FD8A8", "#E4EE8A", "#FFB57A", "#F0A6E2", "#C9D296",
+        "#86B1FF", "#8FE6E9", "#C4AEFF", "#A9DBFB", "#E0C29C"]
 NG = len(CATS)
 NMUS = 8                      # ilk 8 kategori Müslüman
 IDX = {c: i for i, c in enumerate(CATS)}
@@ -171,8 +173,15 @@ def present(k, inside=None, min_pct=0.6):
 
 
 # ------------------------------------------------------------------ Türk yurdu kuralı ve dolgu
-def yurt_labels(F, x, y, k, area, sigma_km=2.6, step=2, rule=TURK_RULE, smooth_km=1.6):
-    """Yerel Türk payı >= rule ise Türk (0); değilse yerel çoğunluk. Boşluklar en yakın karar verilmiş alanla dolar."""
+MUSLIM_RULE = 0.40
+
+
+def yurt_labels(F, x, y, k, area, sigma_km=2.6, step=2, rule=TURK_RULE, smooth_km=1.6, muslim_rule=MUSLIM_RULE):
+    """Alan kuralı (boşluk bırakmaz):
+      1) yerel Türk payı >= rule            → Türk yurdu (0)
+      2) yerel Müslüman payı >= muslim_rule → en kalabalık Müslüman topluluk (Türk olabilir)
+      3) aksi hâlde                          → yerel çoğunluk
+    Boşluklar en yakın karar verilmiş alanla dolar; içinde yerleşim olmayan kara parçaları boş kalır."""
     Hh, Ww = area.shape
     h, w = Hh // step, Ww // step
     cnt = np.zeros((NG, h, w), np.float32)
@@ -187,7 +196,11 @@ def yurt_labels(F, x, y, k, area, sigma_km=2.6, step=2, rule=TURK_RULE, smooth_k
     tot = D.sum(0)
     decided = tot > (0.5 / (2 * np.pi * sig * sig))
     tshare = D[0] / np.maximum(tot, 1e-12)
-    lab = np.where(tshare >= rule, 0, 1 + np.argmax(D[1:], 0)).astype(np.int8)
+    mshare = D[:NMUS].sum(0) / np.maximum(tot, 1e-12)
+    lab = np.argmax(D, 0).astype(np.int8)
+    if muslim_rule is not None:
+        lab = np.where(mshare >= muslim_rule, np.argmax(D[:NMUS], 0), lab).astype(np.int8)
+    lab = np.where(tshare >= rule, 0, lab).astype(np.int8)
     if (~decided).any() and decided.any():
         _, (ii, jj) = distance_transform_edt(~decided, return_indices=True)
         lab = lab[ii, jj]

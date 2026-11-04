@@ -92,7 +92,8 @@ def backdrop(F=None):
 
 
 def finish(cv, n, srcs, out_dir, stem):
-    P.frame_ornament(cv)
+    # sade çerçeve (harita postlarıyla aynı): ince altın çizgi + seri etiketi
+    cv.d.rectangle((26, 26, W - 26, H - 26), outline=BRASS[:3] + (170,), width=2)
     P.series_tag(cv, f"{n}/{TOTAL}")
     d = cv.d
     for i, t in enumerate(srcs):

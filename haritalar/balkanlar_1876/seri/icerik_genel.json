@@ -1,0 +1,85 @@
+{
+ "title": "Rumeli’nin Son Işıkları",
+ "subtitle": "1876’da Balkanlar’da kim, nerede yaşıyordu?",
+ "story_labels": [
+  {
+   "text": "DELİORMAN",
+   "sub": "Türk köyleri",
+   "cat": "turk",
+   "lon": 26.72,
+   "lat": 43.93
+  },
+  {
+   "text": "DOBRUCA",
+   "sub": "Tatar ve Nogaylar",
+   "cat": "turk",
+   "lon": 28.55,
+   "lat": 44.45
+  },
+  {
+   "text": "DOĞU RODOPLAR",
+   "sub": "Kırcaali · Koşukavak",
+   "cat": "turk",
+   "lon": 25.6,
+   "lat": 41.45
+  },
+  {
+   "text": "KONYAR TÜRKLERİ",
+   "sub": "Kayalar · Kozana",
+   "cat": "turk",
+   "lon": 21.7,
+   "lat": 40.35
+  },
+  {
+   "text": "YÖRÜKLER",
+   "sub": "Ovçepole · Kocacık",
+   "cat": "turk",
+   "lon": 22.55,
+   "lat": 41.55
+  },
+  {
+   "text": "POMAKLAR",
+   "cat": "pomak",
+   "lon": 24.3,
+   "lat": 41.68
+  },
+  {
+   "text": "ARNAVUTLAR",
+   "cat": "arnavut",
+   "lon": 20.2,
+   "lat": 41.3
+  },
+  {
+   "text": "BOŞNAKLAR",
+   "cat": "bosnak",
+   "lon": 18.2,
+   "lat": 44.2
+  },
+  {
+   "text": "BULGARLAR",
+   "cat": "bulgar",
+   "lon": 24.6,
+   "lat": 42.9
+  },
+  {
+   "text": "RUMLAR",
+   "cat": "rum",
+   "lon": 22.1,
+   "lat": 39.35
+  },
+  {
+   "text": "SIRPLAR",
+   "cat": "sirp",
+   "lon": 21.75,
+   "lat": 43.1
+  },
+  {
+   "text": "HIRVATLAR",
+   "cat": "hirvat",
+   "lon": 17.45,
+   "lat": 43.45
+  }
+ ],
+ "line": "Sonra 93 Harbi geldi: Tuna vilâyeti ile Şarkî Rumeli’nin 1.501.883 Müslümanından 261.937’si hayatını kaybetti, 515.000’i göç etti (J. McCarthy tahmini).",
+ "sources_line": "Kaynaklar: Tuna Vilâyeti 1292/1875 tahriri (A. Koyuncu 2014) · Edirne 1293 Devlet Salnamesi · Bosna 1287/1870 salnamesi (Z. Gölen 2001) · 1881/82 Osmanlı sayımı (K. Karpat 1985) · Yanya salnamesi 1288/1871 (Kokolakis 2003) · J. McCarthy (aktaran A. Koyuncu 2013) · il oranları: swenstone0 derlemesi · yerleşim: C. Sax 1878, V. Kănčov 1900 · sınır: H. Kiepert 1870 · Natural Earth"
+}
