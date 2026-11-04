@@ -27,10 +27,15 @@ import seri as S
 from poster import Canvas, hx, bs, bod, bar, fmt_int, fmt_pct, rasterize_pil, log, W, H
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-CATS5 = ("turk", "muslim_other", "bulgar", "rum", "diger")
-NAMES5 = ["Türk", "Balkan Müslümanları", "Bulgar", "Rum", "Diğer Hristiyan"]
-COL5 = ["#E23B4E", "#F0B43C", "#3F7FE0", "#33C1C6", "#A99BD6"]
-TINT5 = ["#FF7A88", "#FFD27A", "#86B1FF", "#8FE6E9", "#CFC5F2"]
+# topluluklar (sıra lejant sırasıdır)
+CATS5 = ("turk", "pomak", "arnavut", "bosnak", "torbes", "cerkes", "roman", "mdiger", "bulgar", "rum", "hdiger")
+NAMES5 = ["Türk", "Pomak", "Arnavut", "Boşnak", "Torbeş", "Çerkes", "Müslüman Roman", "Diğer Müslüman",
+          "Bulgar", "Rum", "Diğer Hristiyan"]
+COL5 = ["#E23B4E", "#F0B43C", "#8FC740", "#2FAE7A", "#C7D64B", "#E58A3A", "#D46FC3", "#B8A07A",
+        "#3F7FE0", "#33C1C6", "#A99BD6"]
+TINT5 = ["#FF7A88", "#FFD27A", "#B9E77A", "#6FD8A8", "#E4EE8A", "#FFB57A", "#F0A6E2", "#D8C6A2",
+         "#86B1FF", "#8FE6E9", "#CFC5F2"]
+NG = len(CATS5)
 INK = "#0A0E14"
 IV, IV2, MUTE, BRASS = hx("#F1E9D8"), hx("#DED6C6"), hx("#97A1B3"), hx("#B89B5E")
 TURK_RULE = 0.40          # Türk yurdu eşiği
@@ -51,25 +56,53 @@ def hf(h):
 
 
 # ------------------------------------------------------------------ veri
+def _index(path):
+    out = {}
+    if os.path.exists(path):
+        for r in json.load(open(path, encoding="utf-8")):
+            out[(r["name"], round(r["lat"], 2), round(r["lon"], 2))] = r
+    return out
+
+
+def _guess_muslim(c):
+    g = (c.get("groups") or "").lower()
+    for key, words in (("pomak", ("pomak",)), ("arnavut", ("alban", "arnavut")), ("bosnak", ("bosniak", "boşnak")),
+                       ("torbes", ("torbe",)), ("cerkes", ("circass", "çerkes")), ("roman", ("roma", "kıpti", "gypsy"))):
+        if any(w in g for w in words):
+            return key
+    vil = c.get("vilayet")
+    return {"Bosna": "bosnak", "Hersek": "bosnak", "İşkodra": "arnavut", "Yanya": "arnavut"}.get(vil, "pomak")
+
+
 def load_clusters5():
     cl = S.load_cal()
-    sp = {}
-    p = os.path.join(S.SERI, "hristiyan_ayrimi.json")
-    if os.path.exists(p):
-        for r in json.load(open(p, encoding="utf-8")):
-            sp[(r["name"], round(r["lat"], 2), round(r["lon"], 2))] = r
-    miss = 0
+    hs = _index(os.path.join(S.SERI, "hristiyan_ayrimi.json"))
+    ms = _index(os.path.join(S.SERI, "muslim_ayrimi.json"))
+    mh = mm = 0
     for c in cl:
-        r = sp.get((c["name"], round(c["lat"], 2), round(c["lon"], 2)))
-        ch = float(c["christian"])
-        if r:
-            t = max(1e-9, r["bulgar"] + r["rum"] + r["diger"])
-            c["bulgar"], c["rum"], c["diger"] = ch * r["bulgar"] / t, ch * r["rum"] / t, ch * r["diger"] / t
+        k_ = (c["name"], round(c["lat"], 2), round(c["lon"], 2))
+        ch, mo = float(c["christian"]), float(c["muslim_other"])
+        r = hs.get(k_)
+        if r and (r["bulgar"] + r["rum"] + r["diger"]) > 0:
+            t = r["bulgar"] + r["rum"] + r["diger"]
+            c["bulgar"], c["rum"], c["hdiger"] = ch * r["bulgar"] / t, ch * r["rum"] / t, ch * r["diger"] / t
         else:
-            miss += 1
-            c["bulgar"], c["rum"], c["diger"] = ch, 0.0, 0.0
-    if miss:
-        log(f"  Hristiyan ayrımı eksik küme: {miss} (Bulgar sayıldı)")
+            mh += ch > 0
+            c["bulgar"], c["rum"], c["hdiger"] = ch, 0.0, 0.0
+        r = ms.get(k_)
+        keys = ("pomak", "arnavut", "bosnak", "torbes", "cerkes", "roman")
+        for kk in keys + ("mdiger",):
+            c[kk] = 0.0
+        if r and sum(r[kk] for kk in keys + ("diger",)) > 0:
+            t = sum(r[kk] for kk in keys + ("diger",))
+            for kk in keys:
+                c[kk] = mo * r[kk] / t
+            c["mdiger"] = mo * r["diger"] / t
+        else:
+            mm += mo > 0
+            c[_guess_muslim(c)] = mo
+    if mh or mm:
+        log(f"  ayrımı eksik küme: Hristiyan {mh}, Müslüman {mm} (tahminle atandı)")
     return cl
 
 
@@ -77,14 +110,14 @@ def load_clusters5():
 def yurt_labels(F, x, y, k, area, sigma_km=2.6, step=2):
     """Türk yurdu kuralı: yerel Türk payı >= %40 ise Türk; değilse yerel çoğunluk."""
     h, w = H // step, W // step
-    cnt = np.zeros((5, h, w), np.float32)
+    cnt = np.zeros((NG, h, w), np.float32)
     xi = np.clip((x / step).astype(int), 0, w - 1)
     yi = np.clip((y / step).astype(int), 0, h - 1)
-    for g in range(5):
+    for g in range(NG):
         m = k == g
         np.add.at(cnt[g], (yi[m], xi[m]), 1.0)
     sig = sigma_km * 1000 / (F.mpp * step)
-    D = np.stack([gaussian_filter(cnt[g], sig) for g in range(5)])
+    D = np.stack([gaussian_filter(cnt[g], sig) for g in range(NG)])
     tot = D.sum(0)
     decided = tot > (0.5 / (2 * np.pi * sig * sig))
     tshare = D[0] / np.maximum(tot, 1e-12)
@@ -92,7 +125,7 @@ def yurt_labels(F, x, y, k, area, sigma_km=2.6, step=2):
     if (~decided).any() and decided.any():
         _, (ii, jj) = distance_transform_edt(~decided, return_indices=True)
         lab = lab[ii, jj]
-    oh = np.stack([gaussian_filter((lab == g).astype(np.float32), 1.6e3 / (F.mpp * step) + 1.0) for g in range(5)])
+    oh = np.stack([gaussian_filter((lab == g).astype(np.float32), 1.6e3 / (F.mpp * step) + 1.0) for g in range(NG)])
     lab = np.argmax(oh, 0).astype(np.int8)
     # içinde hiç yerleşim olmayan kara parçaları (ör. veri dışı adalar) boyanmaz
     from scipy.ndimage import label as nd_label
@@ -111,7 +144,7 @@ def fill_image(lab, spacing=13, lw=2.4):
     v = (X - Y) % spacing
     hatch = np.clip(lw / 2 + 0.5 - np.abs(v - spacing / 2), 0, 1).astype(np.float32)
     lay = np.zeros((H, W, 4), np.float32)
-    for g in range(5):
+    for g in range(NG):
         m = lab == g
         if not m.any():
             continue
@@ -201,10 +234,14 @@ def render(key, out_dir, ppd=100):
     tm = lab == 0
     km2 = tm.sum() * (F.mpp / 1000) ** 2
     in_t = tm[yi, xi] & inside
-    cnt = np.bincount(k[in_t], minlength=5).astype(float)
+    cnt = np.bincount(k[in_t], minlength=NG).astype(float)
     tp = 100 * cnt / max(1, cnt.sum())
-    allp = np.bincount(k[inside], minlength=5).astype(float)
-    log(f"[{key}] Türk yurdu ≈{km2:,.0f} km² · içinde Türk %{tp[0]:.1f} Müslüman %{tp[0] + tp[1]:.1f} · nüfus {cnt.sum() * ppd:,.0f}")
+    mus_t = tp[:8].sum()
+    allp = np.bincount(k[inside], minlength=NG).astype(float)
+    allp = 100 * allp / max(1, allp.sum())
+    present = [g for g in range(NG) if allp[g] >= 0.6 or g == 0]
+    log(f"[{key}] Türk yurdu ≈{km2:,.0f} km² · içinde Türk %{tp[0]:.1f} Müslüman %{mus_t:.1f} · nüfus {cnt.sum() * ppd:,.0f}")
+    log(f"[{key}] çerçevedeki topluluklar: " + ", ".join(f"{NAMES5[g]} %{allp[g]:.1f}" for g in present))
 
     # ---- başlık arkası ve alt şerit koyulaştır
     yy = np.arange(H, dtype=np.float32)[:, None]
@@ -232,8 +269,10 @@ def render(key, out_dir, ppd=100):
     d.text((W / 2, 316), sub, font=bod(ss, 600, 11), fill=IV2, anchor="ms")
     # lejant (5 grup) — tek satır, sade
     f1 = bar(30, "SemiBold")
-    items = list(enumerate(NAMES5))
-    tot = sum(46 + f1.getlength(n) + 34 for _, n in items) - 34
+    items = [(g, NAMES5[g]) for g in present]
+    while sum(46 + f1.getlength(n) + 30 for _, n in items) - 30 > 1980 and f1.size > 22:
+        f1 = bar(f1.size - 1, "SemiBold")
+    tot = sum(46 + f1.getlength(n) + 30 for _, n in items) - 30
     x0 = W / 2 - tot / 2
     yb = 392
     for g, n in items:
@@ -247,7 +286,7 @@ def render(key, out_dir, ppd=100):
             d.rectangle((x0, yb - 26, x0 + 32, yb - 2), fill=hx(COL5[g], 120))
             d.ellipse((x0 + 11, yb - 19, x0 + 21, yb - 9), fill=hx(TINT5[g]))
         d.text((x0 + 44, yb), n, font=f1, fill=hx(TINT5[g]), anchor="ls")
-        x0 += 46 + f1.getlength(n) + 34
+        x0 += 46 + f1.getlength(n) + 30
     rule = f"Kırmızı taralı alan = Türk yurdu: köylerinin en az %{int(TURK_RULE * 100)}’ı Türk · diğer alanlar yerel çoğunluk · 1 nokta = {ppd} kişi"
     d.text((W / 2, 440), rule, font=bar(24, "Medium"), fill=MUTE, anchor="ms")
 
@@ -263,7 +302,7 @@ def render(key, out_dir, ppd=100):
     d.line((80, MAP_BOT + 6, W - 80, MAP_BOT + 6), fill=BRASS[:3] + (150,), width=1)
     cols = [
         (f"≈ {fmt_int(round(km2, -2))} km²", "Türk yurdu", "kırmızı taralı alan · harita modeli"),
-        (fmt_pct(tp[0]), "Türk", f"Türk yurdunda yaşayanlar arasında · Müslüman toplam {fmt_pct(tp[0] + tp[1])}"),
+        (fmt_pct(tp[0]), "Türk", f"Türk yurdunda yaşayanlar arasında · Müslüman toplam {fmt_pct(mus_t)}"),
     ]
     rec = cfg.get("record") or {}
     if rec:
@@ -283,7 +322,7 @@ def render(key, out_dir, ppd=100):
             d.text((W / 2, MAP_BOT + 300 + j * 40), ln, font=bod(30, 600, 11), fill=IV2, anchor="ms")
     src = cfg.get("sources_line") or "Kaynak: Osmanlı salname ve tahrir kayıtları; harita modeli"
     meth = ("Yöntem: Osmanlı kayıtlarına dayalı bölge kümeleri; nokta yerleri ve alan sınırları temsilîdir · "
-            "Rum/Bulgar ayrımı: Osmanlı millet kayıtları ve dönem etnografyası · Yahudiler gösterilmedi")
+            "topluluk ayrımı (Pomak, Çerkes, Rum, Bulgar…): Osmanlı millet kayıtları ve dönem etnografyası · Tatar ve Nogaylar Türk sayıldı · Yahudiler gösterilmedi")
     lines = S.wrap(src, bar(18, "Medium"), 1960) + S.wrap(meth, bar(18, "Medium"), 1960)
     for j, ln in enumerate(lines[:3]):
         d.text((W / 2, H - 92 + j * 22), ln, font=bar(18, "Medium"), fill=MUTE, anchor="ms")
@@ -296,7 +335,8 @@ def render(key, out_dir, ppd=100):
     out = cv.img.convert("RGB")
     out.save(stem + ".png", optimize=True)
     out.resize((1080, 1350), Image.LANCZOS).save(stem + "_ig.jpg", quality=95, subsampling=0)
-    json.dump(dict(km2=km2, turk=tp[0], muslim=tp[0] + tp[1], shares=tp.tolist(), people=float(cnt.sum() * ppd)),
+    json.dump(dict(km2=km2, turk=tp[0], muslim=mus_t, shares=dict(zip(NAMES5, tp.tolist())),
+                   frame_shares=dict(zip(NAMES5, allp.tolist())), people=float(cnt.sum() * ppd)),
               open(stem + "_stats.json", "w"), ensure_ascii=False)
     log(f"[{key}] -> {stem}.png")
 

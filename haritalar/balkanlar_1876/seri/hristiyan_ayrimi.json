@@ -1,0 +1,2762 @@
+[
+{
+"name": "Preşova ve Bujanovac (Preševo, Bujanovac)",
+"lat": 42.38,
+"lon": 21.7,
+"bulgar": 20,
+"rum": 0,
+"diger": 80,
+"diger_groups": "Serb (Pčinja/Morava-type Orthodox villages)",
+"confidence": "low"
+},
+{
+"name": "Vranya kasabası (Vranje)",
+"lat": 42.552,
+"lon": 21.9,
+"bulgar": 10,
+"rum": 3,
+"diger": 87,
+"diger_groups": "Serb; a few Aromanian/Tsintsar merchants",
+"confidence": "low"
+},
+{
+"name": "Vranya doğusu, Pçinya ve Masuriça (Pčinja, Surdulica)",
+"lat": 42.55,
+"lon": 22.1,
+"bulgar": 30,
+"rum": 0,
+"diger": 70,
+"diger_groups": "Serb; Bulgarian-leaning Masurica/Krajište villages",
+"confidence": "low"
+},
+{
+"name": "Rusçuk şehri (Ruse)",
+"lat": 43.84,
+"lon": 25.96,
+"bulgar": 82,
+"rum": 4,
+"diger": 14,
+"diger_groups": "Armenian (~8%), Christian Roma, Vlach/Romanian, Catholic foreigners",
+"confidence": "medium"
+},
+{
+"name": "Rusçuk kazası doğu köyleri (Vetovo–Senovo)",
+"lat": 43.72,
+"lon": 26.2,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Rusçuk kazası güneybatı (Bela/Byala–Lom ırmağı–Pirgos)",
+"lat": 43.65,
+"lon": 25.8,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Rusçuk–Tutrakan arası Tuna kıyısı (Slivo Pole–Brashlen)",
+"lat": 43.93,
+"lon": 26.3,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Vlach/Romanian Danube families, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Hezargrad şehri (Razgrad)",
+"lat": 43.53,
+"lon": 26.52,
+"bulgar": 94,
+"rum": 0,
+"diger": 6,
+"diger_groups": "Christian Roma (1865 town count)",
+"confidence": "high"
+},
+{
+"name": "Deliorman kuzey (Balbunar/Kubrat–Zavet)",
+"lat": 43.78,
+"lon": 26.53,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Deliorman doğu (Kemaller/Isperih–Samuil)",
+"lat": 43.64,
+"lon": 26.85,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Hezargrad batı köyleri (Kostandenets–Torlak)",
+"lat": 43.5,
+"lon": 26.25,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Bela–Opaka doğusu (Rusçuk–Popovo arası)",
+"lat": 43.42,
+"lon": 26.02,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Hezargrad güneyi–Şumnu batısı (Lozevo–Kaolinovo batısı)",
+"lat": 43.42,
+"lon": 26.72,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Eski Cuma şehri (Targovishte)",
+"lat": 43.25,
+"lon": 26.57,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma (1865 town count)",
+"confidence": "high"
+},
+{
+"name": "Eski Cuma kazası köyleri (Popovo doğusu dahil)",
+"lat": 43.3,
+"lon": 26.4,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Osman Pazarı (Omurtag)–Gerlovo",
+"lat": 43.1,
+"lon": 26.4,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Vırbiçe (Varbitsa)–Gerlovo güneyi",
+"lat": 42.98,
+"lon": 26.68,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Kazgan nahiyesi (Kotel)",
+"lat": 42.88,
+"lon": 26.45,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Şumnu şehri (Shumen)",
+"lat": 43.27,
+"lon": 26.93,
+"bulgar": 88,
+"rum": 0,
+"diger": 12,
+"diger_groups": "Armenian (~11%; 976 of 9,084 Christians in 1865), Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Şumnu kuzey köyleri (Kaolinovo–Venets–Hitrino)",
+"lat": 43.48,
+"lon": 27,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Preslav (Eski İstanbulluk)–Smyadovo",
+"lat": 43.16,
+"lon": 26.8,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Yeni Pazar (Novi Pazar)–Kaspiçan",
+"lat": 43.33,
+"lon": 27.22,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Silistre şehri",
+"lat": 44.11,
+"lon": 27.27,
+"bulgar": 85,
+"rum": 2,
+"diger": 13,
+"diger_groups": "Armenian (~10%; 267 of 2,530 in 1865), Romanian/Vlach",
+"confidence": "medium"
+},
+{
+"name": "Silistre Tuna kıyısı batı (Glavinitsa–Sitovo–Aydemir)",
+"lat": 44.02,
+"lon": 27.05,
+"bulgar": 95,
+"rum": 0,
+"diger": 5,
+"diger_groups": "Romanian/Vlach Danube families, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Silistre güney köyleri (Kalipetrovo–Babuk)",
+"lat": 44.03,
+"lon": 27.33,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Romanian, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Akkadınlar (Dulovo) yaylası",
+"lat": 43.8,
+"lon": 27.15,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Gagauz/Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Alfatar–Kurtbunar (Tervel)",
+"lat": 43.82,
+"lon": 27.42,
+"bulgar": 85,
+"rum": 0,
+"diger": 15,
+"diger_groups": "Gagauz (Kurtbunar), Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Silistre doğusu Dobruca kesimi (Ostrov–Oltina–Adamclisi)",
+"lat": 44.1,
+"lon": 27.72,
+"bulgar": 50,
+"rum": 0,
+"diger": 50,
+"diger_groups": "Romanian (Ostrov, Oltina, Rasova Danube villages)",
+"confidence": "low"
+},
+{
+"name": "Tutrakan şehri",
+"lat": 44.04,
+"lon": 26.62,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Romanian/Vlach, Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Tutrakan köyleri",
+"lat": 43.93,
+"lon": 26.72,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Romanian, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Ziştovi şehri (Svishtov)",
+"lat": 43.61,
+"lon": 25.35,
+"bulgar": 93,
+"rum": 1,
+"diger": 6,
+"diger_groups": "Christian Roma (~4% in 1865), Vlach/Tsintsar merchants, Catholics",
+"confidence": "high"
+},
+{
+"name": "Ziştovi kazası köyleri (Tsenovo–Delyanovtsi)",
+"lat": 43.5,
+"lon": 25.45,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Paulician Catholics (Dragomirovo area), Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Belene–Oreş Katolik Pavlikyan köyleri",
+"lat": 43.6,
+"lon": 25.13,
+"bulgar": 25,
+"rum": 0,
+"diger": 75,
+"diger_groups": "Catholic Paulicians (Bulgarian-speaking Catholics of Belene, Oresh)",
+"confidence": "medium"
+},
+{
+"name": "Niğbolu şehri (Nikopol)",
+"lat": 43.69,
+"lon": 24.9,
+"bulgar": 95,
+"rum": 0,
+"diger": 5,
+"diger_groups": "Vlach/Romanian, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Niğbolu batı (Gulyantsi–Vit ağzı)",
+"lat": 43.58,
+"lon": 24.66,
+"bulgar": 93,
+"rum": 0,
+"diger": 7,
+"diger_groups": "Vlach Danube families, Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Niğbolu doğu/güney (Osam aşağısı)",
+"lat": 43.5,
+"lon": 25.02,
+"bulgar": 88,
+"rum": 0,
+"diger": 12,
+"diger_groups": "Catholic Paulicians (Lazhene, Muselievo area), Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Iskar aşağısı (Ostrov–Gigen–Baykal)",
+"lat": 43.62,
+"lon": 24.22,
+"bulgar": 88,
+"rum": 0,
+"diger": 12,
+"diger_groups": "Vlach (Ostrov area), Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Plevne şehri (Pleven)",
+"lat": 43.42,
+"lon": 24.61,
+"bulgar": 95,
+"rum": 0,
+"diger": 5,
+"diger_groups": "Christian Roma (1865: 318 of 7,525 Christians)",
+"confidence": "high"
+},
+{
+"name": "Plevne kuzey/batı köyleri (Vit–Iskar arası)",
+"lat": 43.45,
+"lon": 24.35,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Plevne güney köyleri (Pomak–Tatar karışık)",
+"lat": 43.32,
+"lon": 24.62,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Plevne doğu (Levski–Letnitsa, Osam)",
+"lat": 43.33,
+"lon": 24.95,
+"bulgar": 90,
+"rum": 0,
+"diger": 10,
+"diger_groups": "Catholic Paulicians (Malchika, Tranchovitsa), Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Tırnova şehri (Veliko Tarnovo) ve yakın köyleri",
+"lat": 43.07,
+"lon": 25.66,
+"bulgar": 93,
+"rum": 4,
+"diger": 3,
+"diger_groups": "Christian Roma; Rum = the Tırnova sancak's 494 Rum milleti males (TC 1874)",
+"confidence": "medium"
+},
+{
+"name": "Tırnova doğu köyleri (Strajitsa–Zlataritsa)",
+"lat": 43.17,
+"lon": 25.95,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Polski Trambeş doğusu–Strajitsa kuzeyi",
+"lat": 43.35,
+"lon": 25.8,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Tırnova kuzey/batı köyleri (Pavlikeni–Polski Trambeş)",
+"lat": 43.27,
+"lon": 25.42,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Rahoviçe nahiyesi (Gorna Oryahovitsa–Lyaskovets)",
+"lat": 43.13,
+"lon": 25.72,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Bebrova nahiyesi",
+"lat": 42.96,
+"lon": 26.08,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Elena nahiyesi",
+"lat": 42.91,
+"lon": 25.85,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Drenova (Dryanovo) ve Travna (Tryavna) nahiyeleri",
+"lat": 42.93,
+"lon": 25.5,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Gabrova kazası (Gabrovo)",
+"lat": 42.86,
+"lon": 25.3,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Servi şehri (Sevlievo) ve kuzey köyleri",
+"lat": 43.08,
+"lon": 25.13,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Servi güneyi (Balkan eteği: Batoşevo–Kravenik)",
+"lat": 42.92,
+"lon": 25.1,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Lofça şehri (Lovech)",
+"lat": 43.14,
+"lon": 24.72,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Lofça kuzeybatı Pomak köyleri (Lisets–Kazaçevo–Dabravata)",
+"lat": 43.21,
+"lon": 24.55,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Lofça güneybatı (Ugarçin–Yablanitsa Pomak köyleri)",
+"lat": 43.04,
+"lon": 24.32,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Lofça doğu/kuzey köyleri (Osam vadisi)",
+"lat": 43.2,
+"lon": 24.86,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Trayana nahiyesi (Troyan)",
+"lat": 42.95,
+"lon": 24.7,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Varna şehri",
+"lat": 43.21,
+"lon": 27.91,
+"bulgar": 17,
+"rum": 60,
+"diger": 23,
+"diger_groups": "Armenian (~12%), Gagauz (~9%), Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Varna kazası köyleri (Aksakovo–Beloslav–Gagauz köyleri)",
+"lat": 43.2,
+"lon": 27.72,
+"bulgar": 45,
+"rum": 15,
+"diger": 40,
+"diger_groups": "Gagauz (Turkish-speaking Orthodox) villages",
+"confidence": "low"
+},
+{
+"name": "Kamçı vadisi–Emine Balkanı (Dolni Çiflik–Bela)",
+"lat": 42.93,
+"lon": 27.72,
+"bulgar": 65,
+"rum": 5,
+"diger": 30,
+"diger_groups": "Gagauz villages",
+"confidence": "low"
+},
+{
+"name": "Luda Kamçı vadisi (Dalgopol batısı–Tiça)",
+"lat": 42.95,
+"lon": 27.15,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Pravadi (Provadia) ve köyleri",
+"lat": 43.18,
+"lon": 27.44,
+"bulgar": 94,
+"rum": 1,
+"diger": 5,
+"diger_groups": "Armenian, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Kozluca–Vetrino–Pazarcık güneyi",
+"lat": 43.4,
+"lon": 27.7,
+"bulgar": 85,
+"rum": 0,
+"diger": 15,
+"diger_groups": "Gagauz, Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Pravadi güneyi (Dalgopol–Kamçı kuzey yakası)",
+"lat": 43.05,
+"lon": 27.22,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Christian Roma, Gagauz",
+"confidence": "medium"
+},
+{
+"name": "Hacıoğlu Pazarcık şehri (Dobrich)",
+"lat": 43.57,
+"lon": 27.83,
+"bulgar": 68,
+"rum": 2,
+"diger": 30,
+"diger_groups": "Armenian (~17%; 131 of 759 in 1868-69), Gagauz",
+"confidence": "medium"
+},
+{
+"name": "Pazarcık batı köyleri",
+"lat": 43.6,
+"lon": 27.52,
+"bulgar": 95,
+"rum": 0,
+"diger": 5,
+"diger_groups": "Gagauz, Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Pazarcık doğu/kuzey (Kasımköy–Kruşari)",
+"lat": 43.7,
+"lon": 27.95,
+"bulgar": 55,
+"rum": 0,
+"diger": 45,
+"diger_groups": "Gagauz villages",
+"confidence": "low"
+},
+{
+"name": "Dobruca güney-orta yaylası (Kruşari–Lipnița)",
+"lat": 43.95,
+"lon": 27.82,
+"bulgar": 60,
+"rum": 0,
+"diger": 40,
+"diger_groups": "Romanian, Gagauz",
+"confidence": "low"
+},
+{
+"name": "Balçık şehri ve güney köyleri",
+"lat": 43.42,
+"lon": 28.1,
+"bulgar": 25,
+"rum": 45,
+"diger": 30,
+"diger_groups": "Gagauz",
+"confidence": "low"
+},
+{
+"name": "Kavarna–Şabla",
+"lat": 43.53,
+"lon": 28.35,
+"bulgar": 55,
+"rum": 15,
+"diger": 30,
+"diger_groups": "Gagauz villages",
+"confidence": "low"
+},
+{
+"name": "Mankalya kazası (Mangalia)",
+"lat": 43.86,
+"lon": 28.4,
+"bulgar": 45,
+"rum": 25,
+"diger": 30,
+"diger_groups": "Romanian, Armenian, Gagauz",
+"confidence": "low"
+},
+{
+"name": "Tekirgöl–Kara Ömer (Negru Vodă)–Tuzla",
+"lat": 44,
+"lon": 28.35,
+"bulgar": 50,
+"rum": 10,
+"diger": 40,
+"diger_groups": "Romanian, Armenian",
+"confidence": "low"
+},
+{
+"name": "Köstence şehri (Constanța)",
+"lat": 44.18,
+"lon": 28.64,
+"bulgar": 20,
+"rum": 50,
+"diger": 30,
+"diger_groups": "Armenian, Romanian",
+"confidence": "medium"
+},
+{
+"name": "Köstence köyleri (Karasu–Murfatlar)",
+"lat": 44.28,
+"lon": 28.45,
+"bulgar": 60,
+"rum": 0,
+"diger": 40,
+"diger_groups": "Romanian",
+"confidence": "low"
+},
+{
+"name": "Köstence kuzey sahili (Kara Harman–Istıranca)",
+"lat": 44.48,
+"lon": 28.62,
+"bulgar": 80,
+"rum": 2,
+"diger": 18,
+"diger_groups": "Romanian, German (Cogealac area)",
+"confidence": "low"
+},
+{
+"name": "Mecidiye kazası (Medgidia)",
+"lat": 44.22,
+"lon": 28.15,
+"bulgar": 35,
+"rum": 5,
+"diger": 60,
+"diger_groups": "Romanian, German, Armenian",
+"confidence": "low"
+},
+{
+"name": "Boğazköy (Cernavodă)–Topalu Tuna kıyısı",
+"lat": 44.45,
+"lon": 28.05,
+"bulgar": 15,
+"rum": 2,
+"diger": 83,
+"diger_groups": "Romanian",
+"confidence": "medium"
+},
+{
+"name": "Hırsova şehri ve Tuna köyleri",
+"lat": 44.68,
+"lon": 27.98,
+"bulgar": 10,
+"rum": 5,
+"diger": 85,
+"diger_groups": "Romanian",
+"confidence": "medium"
+},
+{
+"name": "Hırsova iç kesimi (Kasımça yaylası batısı)",
+"lat": 44.6,
+"lon": 28.28,
+"bulgar": 30,
+"rum": 0,
+"diger": 70,
+"diger_groups": "Romanian (mocani)",
+"confidence": "low"
+},
+{
+"name": "Hırsova kuzeyi–Topolog",
+"lat": 44.86,
+"lon": 28.18,
+"bulgar": 15,
+"rum": 0,
+"diger": 85,
+"diger_groups": "Romanian",
+"confidence": "medium"
+},
+{
+"name": "Babadağ şehri",
+"lat": 44.89,
+"lon": 28.71,
+"bulgar": 65,
+"rum": 5,
+"diger": 30,
+"diger_groups": "Romanian, Armenian, Lipovan",
+"confidence": "medium"
+},
+{
+"name": "Babadağ güney Tatar köyleri (Kasımça–Hamangia)",
+"lat": 44.7,
+"lon": 28.55,
+"bulgar": 60,
+"rum": 0,
+"diger": 40,
+"diger_groups": "Romanian",
+"confidence": "low"
+},
+{
+"name": "Razim gölü batı kıyısı (Sarıköy–Enisala–Jurilovca)",
+"lat": 44.95,
+"lon": 28.8,
+"bulgar": 25,
+"rum": 0,
+"diger": 75,
+"diger_groups": "Lipovan (Old Believer Russian), Romanian, Ukrainian",
+"confidence": "medium"
+},
+{
+"name": "Babadağ kuzey tepeleri (Atmaca–Çukurova–Slava)",
+"lat": 44.98,
+"lon": 28.48,
+"bulgar": 45,
+"rum": 0,
+"diger": 55,
+"diger_groups": "German (Atmagea, Ciucurova), Lipovan (Slava Rusă)",
+"confidence": "medium"
+},
+{
+"name": "Maçin şehri ve Tuna köyleri",
+"lat": 45.2,
+"lon": 28.15,
+"bulgar": 25,
+"rum": 3,
+"diger": 72,
+"diger_groups": "Romanian",
+"confidence": "medium"
+},
+{
+"name": "Maçin iç kesimi (Greci–Cerna–Turcoaia)",
+"lat": 45.03,
+"lon": 28.22,
+"bulgar": 45,
+"rum": 0,
+"diger": 55,
+"diger_groups": "Romanian",
+"confidence": "low"
+},
+{
+"name": "İsakçı nahiyesi",
+"lat": 45.22,
+"lon": 28.45,
+"bulgar": 30,
+"rum": 3,
+"diger": 67,
+"diger_groups": "Romanian, Lipovan/Ukrainian",
+"confidence": "medium"
+},
+{
+"name": "Tulça şehri (Tulcea)",
+"lat": 45.18,
+"lon": 28.8,
+"bulgar": 33,
+"rum": 12,
+"diger": 55,
+"diger_groups": "Lipovan, Romanian, Armenian, Ukrainian",
+"confidence": "medium"
+},
+{
+"name": "Tulça kazası köyleri (Cataloi–Somova–Nufăru–Niculițel)",
+"lat": 45.13,
+"lon": 28.75,
+"bulgar": 58,
+"rum": 0,
+"diger": 42,
+"diger_groups": "German (Cataloi, Malcoci), Lipovan, Romanian",
+"confidence": "medium"
+},
+{
+"name": "Mahmudiye nahiyesi (Dunavăț dahil)",
+"lat": 45.03,
+"lon": 29.12,
+"bulgar": 5,
+"rum": 3,
+"diger": 92,
+"diger_groups": "Lipovan, Ukrainian, Romanian",
+"confidence": "medium"
+},
+{
+"name": "Sünne (Sulina) ve Kili nahiyesi – Delta",
+"lat": 45.17,
+"lon": 29.4,
+"bulgar": 2,
+"rum": 18,
+"diger": 80,
+"diger_groups": "Lipovan, Ukrainian, Romanian",
+"confidence": "medium"
+},
+{
+"name": "Vidin şehri",
+"lat": 43.985,
+"lon": 22.86,
+"bulgar": 82,
+"rum": 2,
+"diger": 16,
+"diger_groups": "Vlach/Romanian, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Vidin güney köyleri (Arçar–Dimovo)",
+"lat": 43.85,
+"lon": 22.85,
+"bulgar": 80,
+"rum": 0,
+"diger": 20,
+"diger_groups": "Vlach (Archar area), Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Vidin kuzey Tuna–Timok köyleri (Bregova–Novo Selo)",
+"lat": 44.1,
+"lon": 22.7,
+"bulgar": 30,
+"rum": 0,
+"diger": 70,
+"diger_groups": "Vlach/Romanian (Timok and Danube villages)",
+"confidence": "medium"
+},
+{
+"name": "Adliye kazası (Kula)",
+"lat": 43.86,
+"lon": 22.55,
+"bulgar": 85,
+"rum": 0,
+"diger": 15,
+"diger_groups": "Vlach (Timok Vlachs), Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Belgradçık kazası (Belogradchik)",
+"lat": 43.56,
+"lon": 22.72,
+"bulgar": 95,
+"rum": 0,
+"diger": 5,
+"diger_groups": "Vlach, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Lom şehri",
+"lat": 43.81,
+"lon": 23.24,
+"bulgar": 88,
+"rum": 1,
+"diger": 11,
+"diger_groups": "Vlach, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Lom muhacir kuşağı (Ogost–Tsibritsa aşağısı)",
+"lat": 43.68,
+"lon": 23.05,
+"bulgar": 78,
+"rum": 0,
+"diger": 22,
+"diger_groups": "Vlach Danube villages (Tsibar), Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Lom güney/doğu köyleri (Valçedrım–Medkovets)",
+"lat": 43.6,
+"lon": 23.42,
+"bulgar": 96,
+"rum": 0,
+"diger": 4,
+"diger_groups": "Christian Roma, Vlach",
+"confidence": "medium"
+},
+{
+"name": "Rahova şehri (Oryahovo)",
+"lat": 43.72,
+"lon": 23.96,
+"bulgar": 92,
+"rum": 0,
+"diger": 8,
+"diger_groups": "Vlach, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Rahova batı (Kozloduy–Hayreddin–Bărzina)",
+"lat": 43.67,
+"lon": 23.73,
+"bulgar": 85,
+"rum": 0,
+"diger": 15,
+"diger_groups": "Vlach (Kozloduy-area Danube villages), Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Rahova güney (Byala Slatina–Knezha)",
+"lat": 43.5,
+"lon": 24,
+"bulgar": 96,
+"rum": 0,
+"diger": 4,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Kutlofça (Montana) ve Ogost yukarısı",
+"lat": 43.38,
+"lon": 23.3,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Berkofça şehri (Berkovitsa)",
+"lat": 43.24,
+"lon": 23.13,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Berkofça dağ köyleri (Çiprovets–Varşets)",
+"lat": 43.38,
+"lon": 22.92,
+"bulgar": 96,
+"rum": 0,
+"diger": 4,
+"diger_groups": "Catholic remnant (Chiprovtsi), Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "İvraca şehri (Vratsa)",
+"lat": 43.21,
+"lon": 23.55,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "İvraca köyleri (Mezdra–Krivodol)",
+"lat": 43.31,
+"lon": 23.72,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "İvraca güney Balkan köyleri",
+"lat": 43.1,
+"lon": 23.52,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Iskar orta vadisi (Lukovit–Çerven Bryag–Roman)",
+"lat": 43.18,
+"lon": 24.08,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Sofya şehri",
+"lat": 42.7,
+"lon": 23.32,
+"bulgar": 96,
+"rum": 1,
+"diger": 3,
+"diger_groups": "Christian Roma, Armenian (1867 town count)",
+"confidence": "high"
+},
+{
+"name": "Sofya ovası köyleri",
+"lat": 42.73,
+"lon": 23.38,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Sofya güneyi (Vitoşa–Pançarevo)",
+"lat": 42.52,
+"lon": 23.33,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Sofya batısı (Slivnitsa–Kostinbrod)",
+"lat": 42.85,
+"lon": 23.08,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Sofya kuzeybatısı (Godeç–Iskrets)",
+"lat": 43.02,
+"lon": 23.1,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Iskar boğazı (Svoge)",
+"lat": 43.02,
+"lon": 23.38,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Sofya doğusu (Elin Pelin–Vakarel)",
+"lat": 42.62,
+"lon": 23.65,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Radomir, Breznik ve Pernik",
+"lat": 42.6,
+"lon": 22.98,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Köstendil şehri (Kyustendil) ve çevresi",
+"lat": 42.3,
+"lon": 22.69,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma, Aromanian",
+"confidence": "high"
+},
+{
+"name": "Köstendil kuzey köyleri (Kraişte)",
+"lat": 42.48,
+"lon": 22.55,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Dubniçe (Dupnitsa)",
+"lat": 42.31,
+"lon": 23.05,
+"bulgar": 98,
+"rum": 1,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Samakov (Samokov)",
+"lat": 42.35,
+"lon": 23.55,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma (1867: 85 of 7,605 Christians)",
+"confidence": "high"
+},
+{
+"name": "İhtiman nahiyesi",
+"lat": 42.46,
+"lon": 23.85,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "İzladi (Zlatitsa)–Pirdop",
+"lat": 42.7,
+"lon": 24.05,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Etropol",
+"lat": 42.84,
+"lon": 24,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Tetevan Balkanı (Teteven)",
+"lat": 42.9,
+"lon": 24.27,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Orhaniye kazası (Botevgrad)",
+"lat": 42.91,
+"lon": 23.79,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Niş şehri",
+"lat": 43.32,
+"lon": 21.9,
+"bulgar": 15,
+"rum": 2,
+"diger": 83,
+"diger_groups": "Serb; Tsintsar (Aromanian) merchants",
+"confidence": "low"
+},
+{
+"name": "Niş kazası köyleri (Morava–Nişava)",
+"lat": 43.34,
+"lon": 22,
+"bulgar": 10,
+"rum": 0,
+"diger": 90,
+"diger_groups": "Serb",
+"confidence": "low"
+},
+{
+"name": "Niş güneyi (Nişava sağ yakası–Gadžin Han)",
+"lat": 43.18,
+"lon": 22.05,
+"bulgar": 10,
+"rum": 0,
+"diger": 90,
+"diger_groups": "Serb",
+"confidence": "low"
+},
+{
+"name": "Musa Paşa Palankası (Bela Palanka) çevresi",
+"lat": 43.22,
+"lon": 22.32,
+"bulgar": 50,
+"rum": 0,
+"diger": 50,
+"diger_groups": "Serb",
+"confidence": "low"
+},
+{
+"name": "Şehirköy şehri (Pirot)",
+"lat": 43.15,
+"lon": 22.59,
+"bulgar": 75,
+"rum": 0,
+"diger": 25,
+"diger_groups": "Serb, Tsintsar",
+"confidence": "low"
+},
+{
+"name": "Şehirköy köyleri (Visok–Temska–Tsaribrod)",
+"lat": 43.13,
+"lon": 22.72,
+"bulgar": 80,
+"rum": 0,
+"diger": 20,
+"diger_groups": "Serb",
+"confidence": "low"
+},
+{
+"name": "Leskofça doğusu (Vlasotince–Lujnitsa)",
+"lat": 43,
+"lon": 22.2,
+"bulgar": 30,
+"rum": 0,
+"diger": 70,
+"diger_groups": "Serb",
+"confidence": "low"
+},
+{
+"name": "Turan kazası (Trn)",
+"lat": 42.82,
+"lon": 22.62,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Serb, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Leskofça şehri (Leskovac)",
+"lat": 43,
+"lon": 21.95,
+"bulgar": 5,
+"rum": 0,
+"diger": 95,
+"diger_groups": "Serb; a few Tsintsar",
+"confidence": "medium"
+},
+{
+"name": "Leskofça batı köyleri (Brestovac–Bojnik)",
+"lat": 43.06,
+"lon": 21.84,
+"bulgar": 2,
+"rum": 0,
+"diger": 98,
+"diger_groups": "Serb",
+"confidence": "medium"
+},
+{
+"name": "Pusta Reka–Yablanitsa Arnavut köyleri",
+"lat": 43,
+"lon": 21.7,
+"bulgar": 2,
+"rum": 0,
+"diger": 98,
+"diger_groups": "Serb",
+"confidence": "medium"
+},
+{
+"name": "Ürgüp şehri (Prokuplje)",
+"lat": 43.23,
+"lon": 21.59,
+"bulgar": 2,
+"rum": 0,
+"diger": 98,
+"diger_groups": "Serb",
+"confidence": "medium"
+},
+{
+"name": "Toplica vadisi–Dobriç (Žitorađa)",
+"lat": 43.18,
+"lon": 21.72,
+"bulgar": 2,
+"rum": 0,
+"diger": 98,
+"diger_groups": "Serb",
+"confidence": "medium"
+},
+{
+"name": "Prokuplje kuzeyi (Mali Jastrebac eteği)",
+"lat": 43.31,
+"lon": 21.55,
+"bulgar": 2,
+"rum": 0,
+"diger": 98,
+"diger_groups": "Serb",
+"confidence": "medium"
+},
+{
+"name": "Kurşunlu kazası (Kuršumlija)–Kosanica",
+"lat": 43.12,
+"lon": 21.38,
+"bulgar": 2,
+"rum": 0,
+"diger": 98,
+"diger_groups": "Serb",
+"confidence": "medium"
+},
+{
+"name": "Filibe şehri (Plovdiv)",
+"lat": 42.15,
+"lon": 24.75,
+"bulgar": 68,
+"rum": 22,
+"diger": 10,
+"diger_groups": "Armenians, Paulician Catholics, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Köpes nahiyesi – Strema vadisi (Stryama, Hisarya, Banya)",
+"lat": 42.4,
+"lon": 24.82,
+"bulgar": 91,
+"rum": 0,
+"diger": 9,
+"diger_groups": "Paulician Catholics, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Karlova (Karlovo)",
+"lat": 42.643,
+"lon": 24.807,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Akçakilise–Kalofer (Sopot, Kalofer)",
+"lat": 42.63,
+"lon": 24.9,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Prasadim Derbent (Klisura, Rozino)",
+"lat": 42.69,
+"lon": 24.47,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Avratalan (Koprivshtitsa)",
+"lat": 42.636,
+"lon": 24.36,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Karacadağ nahiyesi (Brezovo, Rakovski, Starosel)",
+"lat": 42.35,
+"lon": 25.1,
+"bulgar": 86,
+"rum": 0,
+"diger": 14,
+"diger_groups": "Paulician Catholics, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Koyuntepe nahiyesi – Filibe kuzeybatı ovası (Saedinenie, Kaloyanovo)",
+"lat": 42.26,
+"lon": 24.6,
+"bulgar": 95,
+"rum": 1,
+"diger": 4,
+"diger_groups": "Paulician Catholics (Zhitnitsa area), Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Filibe güneybatı ovası (Kuklen, Perushtitsa, Krichim)",
+"lat": 42.05,
+"lon": 24.62,
+"bulgar": 80,
+"rum": 19,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Konuş nahiyesi – Filibe güneydoğu ovası (Sadovo)",
+"lat": 42.08,
+"lon": 24.99,
+"bulgar": 91,
+"rum": 8,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Hacı Eles (Parvomay) Meriç ovası",
+"lat": 42.1,
+"lon": 25.22,
+"bulgar": 98,
+"rum": 1,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "İstanimaka (Asenovgrad)",
+"lat": 42.017,
+"lon": 24.87,
+"bulgar": 27,
+"rum": 72,
+"diger": 1,
+"diger_groups": "Armenians, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Rupçoz – Dövlen (Devin, Trigrad, Borino)",
+"lat": 41.7,
+"lon": 24.38,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Rupçoz – Tamraş/Lyaskovo Pomak köyleri",
+"lat": 41.88,
+"lon": 24.62,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Rupçoz – Çepelare (Chepelare, Pamporovo, Zabardo)",
+"lat": 41.73,
+"lon": 24.69,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Rupçoz – Baçkovo–Hvoyna vadisi (Bachkovo, Hvoyna, Orehovo)",
+"lat": 41.88,
+"lon": 24.78,
+"bulgar": 98,
+"rum": 2,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Rodop kuzey yamacı (Ustina–Lilkovo)",
+"lat": 41.93,
+"lon": 24.5,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "İstanimaka dağ köyleri (Mostovo, Dryanovo)",
+"lat": 41.88,
+"lon": 24.97,
+"bulgar": 95,
+"rum": 5,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Tatar Pazarcığı (Pazardzhik)",
+"lat": 42.192,
+"lon": 24.333,
+"bulgar": 89,
+"rum": 6,
+"diger": 5,
+"diger_groups": "Armenians, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Pazarcık ovası köyleri (Maritsa plain, Belovo–Septemvri)",
+"lat": 42.23,
+"lon": 24.18,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Çepine nahiyesi (Velingrad, Rakitovo, Kostandovo)",
+"lat": 42.01,
+"lon": 24.03,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Batak–Peştera–Bracigovo",
+"lat": 41.98,
+"lon": 24.28,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Otlukköy (Panagyurishte) – Sredna Gora",
+"lat": 42.51,
+"lon": 24.23,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Hasköy şehri (Haskovo)",
+"lat": 41.933,
+"lon": 25.555,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Hasköy kuzey (Kayacık/Dimitrovgrad–Merichleri)",
+"lat": 42.06,
+"lon": 25.58,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Hasköy batı (Klokotnitsa–Mineralni Bani)",
+"lat": 41.9,
+"lon": 25.38,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Hasköy güney – Kırcaali kuzey Rodop eteği (Stambolovo, Chernoochene, Madzharovo)",
+"lat": 41.76,
+"lon": 25.56,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Harmanlı ovası (Harmanli–Simeonovgrad)",
+"lat": 41.93,
+"lon": 25.9,
+"bulgar": 98,
+"rum": 1,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Hasköy batı Rodop eteği (Parvomay–Asenovgrad doğu tepeleri)",
+"lat": 41.85,
+"lon": 25.12,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Kırcaali ve Arda vadisi (Kardzhali)",
+"lat": 41.65,
+"lon": 25.37,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Eski Zağra şehri (Stara Zagora)",
+"lat": 42.425,
+"lon": 25.635,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Zağra kuzey – Sredna Gora yamaçları",
+"lat": 42.52,
+"lon": 25.55,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Zağra güney ovası (Radnevo–Mednikarovo)",
+"lat": 42.28,
+"lon": 25.8,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Musaköy–Galabovo (Sazlıdere)",
+"lat": 42.15,
+"lon": 25.98,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Çırpan (Chirpan) ve köyleri",
+"lat": 42.23,
+"lon": 25.39,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Kızanlık şehri ve batı vadisi (Kazanlak, Şıpka)",
+"lat": 42.625,
+"lon": 25.28,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Kızanlık vadisi doğu (Maglizh–Gurkovo)",
+"lat": 42.62,
+"lon": 25.62,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Ahiçelebi/Paşmaklı havzası (Smolyan, Raykovo, Ustovo)",
+"lat": 41.59,
+"lon": 24.72,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Şiroka Lıka–Gela–Momçilovtsi",
+"lat": 41.67,
+"lon": 24.62,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Banite–Davidkovo",
+"lat": 41.66,
+"lon": 24.92,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Arda yukarı vadisi ve Madan–Rudozem",
+"lat": 41.5,
+"lon": 24.79,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Sultanyeri / Mestanlı – Kirkovo (Momchilgrad, Dzhebel)",
+"lat": 41.45,
+"lon": 25.38,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "İslimye (Sliven) şehri ve ovası",
+"lat": 42.64,
+"lon": 26.3,
+"bulgar": 93,
+"rum": 2,
+"diger": 5,
+"diger_groups": "Christian Roma, Armenians",
+"confidence": "medium"
+},
+{
+"name": "Tvarditsa – İslimye batı yamaçları",
+"lat": 42.66,
+"lon": 25.95,
+"bulgar": 99,
+"rum": 0,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Yeni Zağra batı/kuzey köyleri",
+"lat": 42.55,
+"lon": 25.85,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Yeni Zağra (Nova Zagora) şehri ve güneydoğusu",
+"lat": 42.42,
+"lon": 26.06,
+"bulgar": 95,
+"rum": 1,
+"diger": 4,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Yanbolu şehri (Yambol)",
+"lat": 42.483,
+"lon": 26.505,
+"bulgar": 87,
+"rum": 7,
+"diger": 6,
+"diger_groups": "Armenians, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Karinâbâd batı köyleri (Straldzha–Zimnitsa)",
+"lat": 42.59,
+"lon": 26.66,
+"bulgar": 97,
+"rum": 0,
+"diger": 3,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Karinâbâd (Karnobat) ve köyleri",
+"lat": 42.6,
+"lon": 26.94,
+"bulgar": 92,
+"rum": 4,
+"diger": 4,
+"diger_groups": "Armenians, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Karinâbâd güney – Burgaz batı",
+"lat": 42.45,
+"lon": 27.08,
+"bulgar": 95,
+"rum": 3,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Yanbolu güney köyleri (Bakacık)",
+"lat": 42.39,
+"lon": 26.5,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "high"
+},
+{
+"name": "Yanbolu–Karabunar arası köyler",
+"lat": 42.3,
+"lon": 26.9,
+"bulgar": 97,
+"rum": 1,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Aydos şehri (Aytos)",
+"lat": 42.695,
+"lon": 27.25,
+"bulgar": 90,
+"rum": 7,
+"diger": 3,
+"diger_groups": "Armenians, Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Aydos köyleri",
+"lat": 42.63,
+"lon": 27.2,
+"bulgar": 95,
+"rum": 3,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Burgaz şehri (Burgas)",
+"lat": 42.495,
+"lon": 27.47,
+"bulgar": 35,
+"rum": 55,
+"diger": 10,
+"diger_groups": "Armenians",
+"confidence": "medium"
+},
+{
+"name": "Burgaz ovası köyleri",
+"lat": 42.52,
+"lon": 27.32,
+"bulgar": 88,
+"rum": 10,
+"diger": 2,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Burgaz güney (Karabunar/Sredets – Istranca eteği)",
+"lat": 42.3,
+"lon": 27.32,
+"bulgar": 84,
+"rum": 15,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Süzebolu (Sozopol)",
+"lat": 42.41,
+"lon": 27.68,
+"bulgar": 5,
+"rum": 95,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Ahyolu şehri (Pomorie)",
+"lat": 42.56,
+"lon": 27.62,
+"bulgar": 8,
+"rum": 90,
+"diger": 2,
+"diger_groups": "Armenians",
+"confidence": "high"
+},
+{
+"name": "Ahyolu köyleri",
+"lat": 42.62,
+"lon": 27.52,
+"bulgar": 80,
+"rum": 15,
+"diger": 5,
+"diger_groups": "Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Misivri şehri (Nesebar)",
+"lat": 42.66,
+"lon": 27.71,
+"bulgar": 5,
+"rum": 95,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Misivri köyleri (Emine eteği)",
+"lat": 42.69,
+"lon": 27.6,
+"bulgar": 70,
+"rum": 30,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Edirne şehri",
+"lat": 41.677,
+"lon": 26.555,
+"bulgar": 25,
+"rum": 63,
+"diger": 12,
+"diger_groups": "Armenians, Catholics (Latin/Uniate), Gagauz",
+"confidence": "medium"
+},
+{
+"name": "Edirne güneydoğu köyleri",
+"lat": 41.6,
+"lon": 26.68,
+"bulgar": 45,
+"rum": 53,
+"diger": 2,
+"diger_groups": "Bulgarian Uniates, Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Edirne kuzeydoğu (Lalapaşa, Süloğlu)",
+"lat": 41.8,
+"lon": 26.85,
+"bulgar": 73,
+"rum": 24,
+"diger": 3,
+"diger_groups": "Bulgarian Uniates, Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Edirne batı – Meriç (Karaağaç–Orestiada)",
+"lat": 41.52,
+"lon": 26.5,
+"bulgar": 45,
+"rum": 54,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Sakar güney – Edirne kuzeyi (Lesovo)",
+"lat": 41.95,
+"lon": 26.55,
+"bulgar": 92,
+"rum": 8,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Manastır nahiyesi (Topolovgrad) ve Tunca batısı",
+"lat": 42.12,
+"lon": 26.36,
+"bulgar": 78,
+"rum": 22,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Paşaköy (Bolyarovo) – Derekıöy",
+"lat": 42.12,
+"lon": 26.88,
+"bulgar": 97,
+"rum": 3,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Kızılağaç (Elhovo) ve Hatuneli Tunca köyleri",
+"lat": 42.19,
+"lon": 26.62,
+"bulgar": 94,
+"rum": 5,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Mustafapaşa (Svilengrad) ve Sakar güney yamacı",
+"lat": 41.81,
+"lon": 26.23,
+"bulgar": 87,
+"rum": 12,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Çirmen – Lyubimets (Meriç vadisi)",
+"lat": 41.83,
+"lon": 26.02,
+"bulgar": 90,
+"rum": 9,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "medium"
+},
+{
+"name": "Edirne batı – Çirmen (Kapitan Andreevo, Kastanies)",
+"lat": 41.7,
+"lon": 26.38,
+"bulgar": 60,
+"rum": 39,
+"diger": 1,
+"diger_groups": "Christian Roma",
+"confidence": "low"
+},
+{
+"name": "Sakar dağı köyleri",
+"lat": 42,
+"lon": 26.1,
+"bulgar": 96,
+"rum": 4,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Ortaköy (Ivaylovgrad)",
+"lat": 41.53,
+"lon": 26.12,
+"bulgar": 50,
+"rum": 38,
+"diger": 12,
+"diger_groups": "Orthodox Albanians (Mandritsa)",
+"confidence": "low"
+},
+{
+"name": "Dimetoka (Didymoteicho) ve Meriç köyleri",
+"lat": 41.38,
+"lon": 26.45,
+"bulgar": 44,
+"rum": 52,
+"diger": 4,
+"diger_groups": "Armenians",
+"confidence": "medium"
+},
+{
+"name": "Dimetoka–Sofulu batı tepeleri (Dereio, Roussa)",
+"lat": 41.27,
+"lon": 26.13,
+"bulgar": 60,
+"rum": 40,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Sofulu (Soufli)",
+"lat": 41.2,
+"lon": 26.3,
+"bulgar": 50,
+"rum": 50,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Ferecik kuzey tepeleri (Dadia–Lefkimi)",
+"lat": 41.08,
+"lon": 26.05,
+"bulgar": 60,
+"rum": 40,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Ferecik ovası (Feres)",
+"lat": 40.92,
+"lon": 26.18,
+"bulgar": 45,
+"rum": 55,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Makri–Dedeağaç kıyısı",
+"lat": 40.87,
+"lon": 25.85,
+"bulgar": 25,
+"rum": 70,
+"diger": 5,
+"diger_groups": "Armenians, Levantine Catholics",
+"confidence": "medium"
+},
+{
+"name": "Keçros–Organi Rodop tepeleri",
+"lat": 41.18,
+"lon": 25.88,
+"bulgar": 70,
+"rum": 30,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Cisr-i Ergene (Uzunköprü)",
+"lat": 41.27,
+"lon": 26.69,
+"bulgar": 35,
+"rum": 55,
+"diger": 10,
+"diger_groups": "Orthodox Albanians (Arvanites), Armenians",
+"confidence": "low"
+},
+{
+"name": "Meriç–Ergene kavşağı (Küplü, Kavaklı, Hıdırköy)",
+"lat": 41.09,
+"lon": 26.47,
+"bulgar": 45,
+"rum": 55,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Havsa",
+"lat": 41.55,
+"lon": 26.82,
+"bulgar": 50,
+"rum": 50,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Babaeski",
+"lat": 41.43,
+"lon": 27.09,
+"bulgar": 45,
+"rum": 53,
+"diger": 2,
+"diger_groups": "Armenians",
+"confidence": "low"
+},
+{
+"name": "Kırkkilise şehri (Kırklareli)",
+"lat": 41.735,
+"lon": 27.225,
+"bulgar": 27,
+"rum": 70,
+"diger": 3,
+"diger_groups": "Armenians, Bulgarian Uniates",
+"confidence": "medium"
+},
+{
+"name": "Kırkkilise güney ovası",
+"lat": 41.62,
+"lon": 27.17,
+"bulgar": 40,
+"rum": 60,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Kırkkilise batı (Kayalı–Kocahıdır)",
+"lat": 41.92,
+"lon": 27,
+"bulgar": 90,
+"rum": 10,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Istranca batı (Dereköy–Kofçaz–Polos)",
+"lat": 41.9,
+"lon": 27.3,
+"bulgar": 80,
+"rum": 20,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Istranca kuzeybatı (Golyamo Bukovo)",
+"lat": 42.08,
+"lon": 27.15,
+"bulgar": 97,
+"rum": 3,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Tırnovacık nahiyesi (Malko Tarnovo) – Istranca doğu",
+"lat": 42,
+"lon": 27.7,
+"bulgar": 82,
+"rum": 15,
+"diger": 3,
+"diger_groups": "Bulgarian Uniates",
+"confidence": "medium"
+},
+{
+"name": "Ahtabolu–Vasiliko–Primorsko kıyısı",
+"lat": 42.2,
+"lon": 27.78,
+"bulgar": 45,
+"rum": 55,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Pınarhisar",
+"lat": 41.62,
+"lon": 27.52,
+"bulgar": 45,
+"rum": 55,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Vize",
+"lat": 41.57,
+"lon": 27.77,
+"bulgar": 30,
+"rum": 70,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Üsküp–Samakov (Demirköy)",
+"lat": 41.8,
+"lon": 27.6,
+"bulgar": 35,
+"rum": 65,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Saray",
+"lat": 41.44,
+"lon": 27.92,
+"bulgar": 50,
+"rum": 50,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "İğneada–Midye kıyısı",
+"lat": 41.72,
+"lon": 27.98,
+"bulgar": 15,
+"rum": 85,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Tekfurdağı şehri (Rodosto)",
+"lat": 40.978,
+"lon": 27.512,
+"bulgar": 2,
+"rum": 56,
+"diger": 42,
+"diger_groups": "Armenians",
+"confidence": "medium"
+},
+{
+"name": "Tekfurdağı iç köyleri (Muratlı–İnecik)",
+"lat": 41.1,
+"lon": 27.45,
+"bulgar": 30,
+"rum": 68,
+"diger": 2,
+"diger_groups": "Armenians",
+"confidence": "low"
+},
+{
+"name": "Tekfurdağı batı (İnecik–Kermeyan)",
+"lat": 40.88,
+"lon": 27.25,
+"bulgar": 28,
+"rum": 70,
+"diger": 2,
+"diger_groups": "Armenians",
+"confidence": "low"
+},
+{
+"name": "Ereğli kıyısı (Marmara Ereğlisi)",
+"lat": 41,
+"lon": 27.88,
+"bulgar": 2,
+"rum": 97,
+"diger": 1,
+"diger_groups": "Armenians",
+"confidence": "high"
+},
+{
+"name": "Çorlu",
+"lat": 41.16,
+"lon": 27.8,
+"bulgar": 8,
+"rum": 86,
+"diger": 6,
+"diger_groups": "Armenians",
+"confidence": "medium"
+},
+{
+"name": "Çerkezköy (1860'lar Çerkes iskânı)",
+"lat": 41.27,
+"lon": 28.02,
+"bulgar": 15,
+"rum": 85,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Lüleburgaz",
+"lat": 41.4,
+"lon": 27.36,
+"bulgar": 25,
+"rum": 72,
+"diger": 3,
+"diger_groups": "Armenians",
+"confidence": "low"
+},
+{
+"name": "Ergene ovası (Lüleburgaz güneydoğu – Ahmetbey)",
+"lat": 41.3,
+"lon": 27.62,
+"bulgar": 35,
+"rum": 65,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Hayrabolu",
+"lat": 41.21,
+"lon": 27.11,
+"bulgar": 55,
+"rum": 45,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Hayrabolu güneybatı – Ergene aşağı vadisi",
+"lat": 41.07,
+"lon": 26.98,
+"bulgar": 45,
+"rum": 55,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Malkara",
+"lat": 40.89,
+"lon": 26.9,
+"bulgar": 35,
+"rum": 45,
+"diger": 20,
+"diger_groups": "Armenians, Orthodox Albanians (Arvanites)",
+"confidence": "low"
+},
+{
+"name": "Gelibolu şehri",
+"lat": 40.41,
+"lon": 26.67,
+"bulgar": 1,
+"rum": 86,
+"diger": 13,
+"diger_groups": "Armenians",
+"confidence": "medium"
+},
+{
+"name": "Bolayır – yarımada kuzeyi",
+"lat": 40.5,
+"lon": 26.74,
+"bulgar": 3,
+"rum": 97,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Yarımada orta (Anafarta)",
+"lat": 40.36,
+"lon": 26.48,
+"bulgar": 0,
+"rum": 99,
+"diger": 1,
+"diger_groups": "Armenians",
+"confidence": "high"
+},
+{
+"name": "Maydos–Kilya (Eceabat) – yarımada güneyi",
+"lat": 40.24,
+"lon": 26.36,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Armenians",
+"confidence": "high"
+},
+{
+"name": "Şarköy–Mürefte–Hora–Ganos kıyısı",
+"lat": 40.68,
+"lon": 27.17,
+"bulgar": 1,
+"rum": 98,
+"diger": 1,
+"diger_groups": "Armenians",
+"confidence": "high"
+},
+{
+"name": "Evreşe – Saros kuzey kıyısı (Kavak)",
+"lat": 40.67,
+"lon": 26.86,
+"bulgar": 3,
+"rum": 95,
+"diger": 2,
+"diger_groups": "Armenians, Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Keşan",
+"lat": 40.86,
+"lon": 26.63,
+"bulgar": 25,
+"rum": 65,
+"diger": 10,
+"diger_groups": "Orthodox Albanians (Arvanites), Armenians",
+"confidence": "low"
+},
+{
+"name": "İpsala",
+"lat": 40.92,
+"lon": 26.38,
+"bulgar": 5,
+"rum": 92,
+"diger": 3,
+"diger_groups": "Armenians",
+"confidence": "medium"
+},
+{
+"name": "Enez–Keşan güney (Saros kıyısı, Meriç deltası)",
+"lat": 40.7,
+"lon": 26.4,
+"bulgar": 2,
+"rum": 97,
+"diger": 1,
+"diger_groups": "Armenians",
+"confidence": "high"
+},
+{
+"name": "İnöz (Enez)",
+"lat": 40.74,
+"lon": 26.12,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Armenians, Levantine Catholics",
+"confidence": "high"
+},
+{
+"name": "Gümülcine şehri (Komotini)",
+"lat": 41.117,
+"lon": 25.405,
+"bulgar": 20,
+"rum": 60,
+"diger": 20,
+"diger_groups": "Armenians",
+"confidence": "medium"
+},
+{
+"name": "Gümülcine batı ovası (Yassıköy/Iasmos)",
+"lat": 41.08,
+"lon": 25.2,
+"bulgar": 45,
+"rum": 55,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Gümülcine güney (Maroneia–Sapes–Kızılcaköy)",
+"lat": 40.99,
+"lon": 25.6,
+"bulgar": 30,
+"rum": 70,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Gümülcine Rodop eteği (Pomak & Türk köyleri)",
+"lat": 41.25,
+"lon": 25.55,
+"bulgar": 90,
+"rum": 10,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Medusa–Kotili Pomak yaylası",
+"lat": 41.26,
+"lon": 25.2,
+"bulgar": 95,
+"rum": 5,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Koşukavak (Krumovgrad) – Ortaköy batı tepeleri",
+"lat": 41.47,
+"lon": 25.74,
+"bulgar": 95,
+"rum": 5,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Çatalca",
+"lat": 41.14,
+"lon": 28.46,
+"bulgar": 10,
+"rum": 87,
+"diger": 3,
+"diger_groups": "Armenians",
+"confidence": "medium"
+},
+{
+"name": "Kuzey Çatalca köyleri (Yalıköy–İnceğiz)",
+"lat": 41.42,
+"lon": 28.28,
+"bulgar": 23,
+"rum": 77,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Silivri",
+"lat": 41.09,
+"lon": 28.2,
+"bulgar": 7,
+"rum": 85,
+"diger": 8,
+"diger_groups": "Armenians",
+"confidence": "medium"
+},
+{
+"name": "Terkos–Podima (Durusu, Ormanlı)",
+"lat": 41.25,
+"lon": 28.48,
+"bulgar": 28,
+"rum": 72,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Büyükçekmece–Küçükçekmece (Ayastefanos) kıyısı",
+"lat": 41.02,
+"lon": 28.72,
+"bulgar": 4,
+"rum": 86,
+"diger": 10,
+"diger_groups": "Armenians, Levantine Catholics",
+"confidence": "medium"
+},
+{
+"name": "İstanbul – Suriçi",
+"lat": 41.012,
+"lon": 28.95,
+"bulgar": 2,
+"rum": 52,
+"diger": 46,
+"diger_groups": "Armenians (Gregorian & Catholic), Latins",
+"confidence": "medium"
+},
+{
+"name": "Eyüp – Haliç kuzeyi",
+"lat": 41.05,
+"lon": 28.93,
+"bulgar": 3,
+"rum": 42,
+"diger": 55,
+"diger_groups": "Armenians (Hasköy), Catholics",
+"confidence": "low"
+},
+{
+"name": "Galata–Pera (Beyoğlu)",
+"lat": 41.033,
+"lon": 28.977,
+"bulgar": 1,
+"rum": 46,
+"diger": 53,
+"diger_groups": "Armenians, Levantines/foreign Catholics (Italian, French, Austrian, Maltese), Russians, Protestants",
+"confidence": "medium"
+},
+{
+"name": "Boğaziçi Rumeli yakası (Beşiktaş–Bebek–Yeniköy–Sarıyer)",
+"lat": 41.1,
+"lon": 29.03,
+"bulgar": 2,
+"rum": 62,
+"diger": 36,
+"diger_groups": "Armenians, foreign residents",
+"confidence": "medium"
+},
+{
+"name": "İstanbul kırsalı (Hadımköy, Kemerburgaz, Belgrad köyleri)",
+"lat": 41.2,
+"lon": 28.82,
+"bulgar": 7,
+"rum": 88,
+"diger": 5,
+"diger_groups": "Armenians",
+"confidence": "low"
+}
+]
