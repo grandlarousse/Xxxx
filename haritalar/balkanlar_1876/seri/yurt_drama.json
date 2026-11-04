@@ -6,7 +6,7 @@
    "text": "DRAMA OVASI",
    "sub": "Doksat · Prosoçan · Kırlar",
    "group": 0,
-   "lon": 23.95,
+   "lon": 24.08,
    "lat": 41.07,
    "cat": "turk"
   },
@@ -22,7 +22,7 @@
    "text": "POMAK KÖYLERİ",
    "sub": "Yukarı Mesta",
    "group": 1,
-   "lon": 24.4,
+   "lon": 24.3,
    "lat": 41.52,
    "cat": "pomak"
   }
@@ -117,7 +117,7 @@
    "modern": "Eleftheroupoli",
    "lon": 24.252,
    "lat": 40.914,
-   "tier": 3
+   "tier": 2
   },
   {
    "name": "Nevrekop",

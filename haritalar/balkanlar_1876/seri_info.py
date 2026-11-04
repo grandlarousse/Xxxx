@@ -259,6 +259,7 @@ def post_bulgaristan(out_dir):
         for j, ln in enumerate(S.wrap(l2, bar(19, "Medium"), 760)[:2]):
             d.text((x0 + 200, yy + 51 + j * 22), ln, font=bar(19, "Medium"), fill=MUTE, anchor="ls")
         yy += 74
+    yy += 8
     for ln in S.wrap(T.get("compare_note", ""), bar(18, "Medium"), 960)[:2]:
         d.text((x0, yy + 4), ln, font=bar(18, "Medium"), fill=MUTE, anchor="ls")
         yy += 22
@@ -506,9 +507,15 @@ def post_rakamlar(out_dir):
         yy += 4
         if yy > y3 + 690:
             break
-    srcs = S.wrap(T.get("footnote_sources") or ("Kaynaklar: " + " · ".join([RECORDS["TUNA_1875"]["src"], RECORDS["EDIRNE_1293"]["src"], RECORDS["BOSNA_1287"]["src"], RECORDS["MCCARTHY"]["src"]])),
-                  bar(13, "Medium"), 1900)[:2] + [
-            "Model: Osmanlı salname/sayım verilerine dayalı 702 bölge kümesi (ana poster ile aynı) · İstanbul ve 1876’da Osmanlı idaresi dışındaki devletler hariç"]
+    model_ = (f"Model: Osmanlı salname/sayım verilerine dayalı {len(cl)} bölge kümesi (ana poster ile aynı) · hesaplarda İstanbul, "
+              "Ege adaları ve 1876’da Osmanlı idaresi dışındaki devletler hariç")
+    src_ = T.get("footnote_sources") or ("Kaynaklar: " + " · ".join([RECORDS["TUNA_1875"]["src"], RECORDS["EDIRNE_1293"]["src"],
+                                                                      RECORDS["BOSNA_1287"]["src"], RECORDS["MCCARTHY"]["src"]]))
+    for fs_ in (16, 15, 14, 13, 12):         # üç satıra sığan en büyük boy (finish aynı boyu bulur)
+        srcs = S.wrap(src_ + " · " + model_, bar(fs_, "Medium"), 1900)
+        if len(srcs) <= 3:
+            break
+    srcs = srcs[:3]
     finish(cv, 8, srcs, out_dir, "08_rakamlar")
 
 

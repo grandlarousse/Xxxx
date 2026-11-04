@@ -139,7 +139,7 @@ def legend(d, groups, y0, maxw=1980):
             if g == 0:
                 d.rectangle((x0, yb - 26, x0 + 32, yb - 2), fill=swatch_rgb(0))
                 for o in range(-24, 33, 8):          # haritadaki gibi '\' tarama, kutuya kırpılmış
-                    t0, t1 = max(0, -o), min(24, 32 - o)
+                    t0, t1 = max(1, -o), min(23, 31 - o)
                     if t0 < t1:
                         d.line((x0 + o + t0, yb - 26 + t0, x0 + o + t1, yb - 26 + t1), fill=(255, 179, 188), width=2)
                 d.rectangle((x0, yb - 26, x0 + 32, yb - 2), outline=hx("#FF6E7D"), width=2)
@@ -232,9 +232,18 @@ def render_simple(spec, cfg, stem, cols_fn, extra_labels=None):
         fl, _ = P.frontier_layer(ott1, foreign)
         base.alpha_composite(fl)
 
-    # ---- istatistik (odak + Osmanlı)
+    # ---- istatistik (odak + Osmanlı; İstanbul ve Ege adaları hariç)
     px_km2 = (F.mpp / 1000) ** 2
-    zone = ott1 & focus_px & (lab >= 0)
+    nost_c = np.array([c.get("vilayet") in T.NO_STATS for c in cl])
+    if nost_c.any():
+        ccx2, ccy2 = F.ll_to_px([c["lon"] for c in cl], [c["lat"] for c in cl])
+        tree2 = cKDTree(np.c_[np.asarray(ccx2), np.asarray(ccy2)])
+        gy2, gx2 = np.mgrid[0:H:4, 0:W:4]
+        _, nn2 = tree2.query(np.c_[gx2.ravel(), gy2.ravel()])
+        nost_px = np.repeat(np.repeat(nost_c[nn2].reshape(gy2.shape), 4, 0), 4, 1)[:H, :W]
+    else:
+        nost_px = np.zeros((H, W), bool)
+    zone = ott1 & focus_px & ~nost_px & (lab >= 0)
     km2 = {g: float(((lab == g) & zone).sum() * px_km2) for g in range(NG)}
     tm = (lab == 0) & zone
     in_t = tm[yi, xi] & inside_st
@@ -252,7 +261,7 @@ def render_simple(spec, cfg, stem, cols_fn, extra_labels=None):
     visp = 100 * np.bincount(k[vis_d], minlength=NG) / max(1, vis_d.sum())
     vlab = lab[MAP_TOP:MAP_BOT]
     vis_km2 = np.bincount(vlab[vlab >= 0].ravel(), minlength=NG) * px_km2
-    vis_min = 0.003 * max(1.0, vis_km2.sum())
+    vis_min = min(0.003 * max(1.0, vis_km2.sum()), 200.0)
     present = [g for g in range(NG) if g == 0 or visp[g] >= spec.get("legend_min", 0.6) or vis_km2[g] >= vis_min]
     log(f"[{stem}] Türk yurdu ≈{km2[0]:,.0f} km² (içinde Türk %{tp[0]:.1f}, Müslüman %{tp[:T.NMUS].sum():.1f}) · "
         f"Müslüman topluluk alanı ≈{st['km2_muslim']:,.0f} km² / {st['km2_all']:,.0f} km²")

@@ -103,7 +103,8 @@ def render(key, out_dir, ppd=100):
     cfg.setdefault("title", Y_["title"])
     cfg.setdefault("subtitle", "1876: Türklerin bariz çoğunlukta olduğu topraklar")
     cfg["cities"] = [c for c in (cfg.get("cities") or []) if int(c.get("tier", 3)) <= 2]
-    spec = dict(n=Y_["n"], total=TOTAL, series=SERIES, center=Y_["center"], width=Y_["width"], ppd=ppd, focus=None)
+    spec = dict(n=Y_["n"], total=TOTAL, series=SERIES, center=Y_["center"], width=Y_["width"], ppd=ppd, focus=None,
+                legend_min=0.3)
     rec = cfg.get("record") or {}
 
     def cols(st):
