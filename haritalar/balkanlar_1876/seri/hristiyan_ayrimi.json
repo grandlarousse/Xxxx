@@ -2758,5 +2758,2715 @@
 "diger": 5,
 "diger_groups": "Armenians",
 "confidence": "low"
+},
+{
+"name": "Has (Krumë)",
+"lat": 42.2,
+"lon": 20.44,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Catholic Albanians",
+"confidence": "medium"
+},
+{
+"name": "Luma (Kukës)",
+"lat": 42,
+"lon": 20.45,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians/Catholic Albanians",
+"confidence": "low"
+},
+{
+"name": "Yakova dağları (Tropojë)",
+"lat": 42.38,
+"lon": 20.1,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Catholic Albanians",
+"confidence": "medium"
+},
+{
+"name": "Matya (Mat)",
+"lat": 41.6,
+"lon": 20.03,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Catholic Albanians, Orthodox Albanians",
+"confidence": "low"
+},
+{
+"name": "Martaneş-Bulqiza",
+"lat": 41.45,
+"lon": 20.24,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "low"
+},
+{
+"name": "Aşağı Dibra (Peshkopi)",
+"lat": 41.68,
+"lon": 20.43,
+"bulgar": 30,
+"rum": 0,
+"diger": 70,
+"diger_groups": "Orthodox Albanians",
+"confidence": "low"
+},
+{
+"name": "Elbasan",
+"lat": 41.112,
+"lon": 20.082,
+"bulgar": 0,
+"rum": 5,
+"diger": 95,
+"diger_groups": "Orthodox Albanians, Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Elbasan ovası ve Şpat",
+"lat": 41.04,
+"lon": 20.22,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Çermenika (Librazhd)",
+"lat": 41.2,
+"lon": 20.28,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Dumre",
+"lat": 40.95,
+"lon": 19.95,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Grameç (Gramsh)",
+"lat": 40.87,
+"lon": 20.18,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Peklin (Peqin)",
+"lat": 41.05,
+"lon": 19.76,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Görice (Korçë)",
+"lat": 40.618,
+"lon": 20.781,
+"bulgar": 2,
+"rum": 10,
+"diger": 88,
+"diger_groups": "Orthodox Albanians (majority), Vlachs/Aromanians (Korçë/Moscopole families)",
+"confidence": "medium"
+},
+{
+"name": "Görice ovası",
+"lat": 40.69,
+"lon": 20.72,
+"bulgar": 15,
+"rum": 5,
+"diger": 80,
+"diger_groups": "Orthodox Albanians; Slavophone Drenovë/Boboshticë counted bulgar",
+"confidence": "medium"
+},
+{
+"name": "Ustrova / Devol (Bilisht)",
+"lat": 40.6,
+"lon": 20.95,
+"bulgar": 20,
+"rum": 0,
+"diger": 80,
+"diger_groups": "Orthodox Albanians; Prespa Slavophones counted bulgar",
+"confidence": "low"
+},
+{
+"name": "Opar",
+"lat": 40.64,
+"lon": 20.5,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "İskopoli / Vithkuq (Voskopojë)",
+"lat": 40.57,
+"lon": 20.6,
+"bulgar": 0,
+"rum": 5,
+"diger": 95,
+"diger_groups": "Vlachs/Aromanians (Voskopojë), Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "İstarova (Pogradec)",
+"lat": 40.9,
+"lon": 20.66,
+"bulgar": 25,
+"rum": 0,
+"diger": 75,
+"diger_groups": "Orthodox Albanians; Slavophone lakeshore villages counted bulgar",
+"confidence": "low"
+},
+{
+"name": "Mokra",
+"lat": 40.98,
+"lon": 20.45,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Kolonya (Ersekë)",
+"lat": 40.36,
+"lon": 20.67,
+"bulgar": 0,
+"rum": 5,
+"diger": 95,
+"diger_groups": "Orthodox Albanians, Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Berat",
+"lat": 40.706,
+"lon": 19.952,
+"bulgar": 0,
+"rum": 5,
+"diger": 95,
+"diger_groups": "Orthodox Albanians, Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Berat kırsalı (Kuçova/Ura Vajgurore)",
+"lat": 40.78,
+"lon": 19.9,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Malakastra (Mallakastër)",
+"lat": 40.6,
+"lon": 19.74,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Lusnya (Lushnjë)",
+"lat": 40.94,
+"lon": 19.7,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians, Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Müzakiye ovası (Myzeqe)",
+"lat": 40.87,
+"lon": 19.58,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians, Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Fiyeri (Fier)",
+"lat": 40.72,
+"lon": 19.56,
+"bulgar": 0,
+"rum": 5,
+"diger": 95,
+"diger_groups": "Vlachs/Aromanians, Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "İskrapar (Skrapar, Gosniçe kazası)",
+"lat": 40.52,
+"lon": 20.22,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Tomoriçe (Tomorricë)",
+"lat": 40.66,
+"lon": 20.22,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Avlonya (Vlorë)",
+"lat": 40.466,
+"lon": 19.49,
+"bulgar": 0,
+"rum": 20,
+"diger": 80,
+"diger_groups": "Orthodox Albanians; Greek-speaking families counted rum",
+"confidence": "low"
+},
+{
+"name": "Narta-Zvërnec",
+"lat": 40.525,
+"lon": 19.475,
+"bulgar": 0,
+"rum": 80,
+"diger": 20,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Avlonya kırsalı (Kaninë/Selenicë)",
+"lat": 40.42,
+"lon": 19.62,
+"bulgar": 0,
+"rum": 10,
+"diger": 90,
+"diger_groups": "Orthodox Albanians",
+"confidence": "low"
+},
+{
+"name": "Dukat-Tragjas",
+"lat": 40.25,
+"lon": 19.58,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Ergiri (Gjirokastër)",
+"lat": 40.076,
+"lon": 20.139,
+"bulgar": 0,
+"rum": 55,
+"diger": 45,
+"diger_groups": "Orthodox Albanians",
+"confidence": "low"
+},
+{
+"name": "Lunxhëri-Zagori",
+"lat": 40.1,
+"lon": 20.26,
+"bulgar": 0,
+"rum": 5,
+"diger": 95,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Riza / Kardhiq",
+"lat": 40.15,
+"lon": 20.05,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Dropull",
+"lat": 39.98,
+"lon": 20.2,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Delvine (Delvinë)",
+"lat": 39.951,
+"lon": 20.098,
+"bulgar": 0,
+"rum": 60,
+"diger": 40,
+"diger_groups": "Orthodox Albanians",
+"confidence": "low"
+},
+{
+"name": "Vurgo / Ayasaranda (Vurg, Sarandë)",
+"lat": 39.87,
+"lon": 20.07,
+"bulgar": 0,
+"rum": 75,
+"diger": 25,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Lukovë-Borsh",
+"lat": 40,
+"lon": 19.93,
+"bulgar": 0,
+"rum": 10,
+"diger": 90,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Kurvelesh",
+"lat": 40.18,
+"lon": 19.87,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Himara",
+"lat": 40.13,
+"lon": 19.73,
+"bulgar": 0,
+"rum": 55,
+"diger": 45,
+"diger_groups": "Orthodox Albanians (Vuno, Qeparo, Pilur, Kudhës)",
+"confidence": "medium"
+},
+{
+"name": "Tepedelen (Tepelenë)",
+"lat": 40.3,
+"lon": 19.99,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Premedi (Përmet)",
+"lat": 40.235,
+"lon": 20.352,
+"bulgar": 0,
+"rum": 10,
+"diger": 90,
+"diger_groups": "Orthodox Albanians, Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Premedi kırsalı (Frashër/Këlcyrë/Dangëlli)",
+"lat": 40.32,
+"lon": 20.28,
+"bulgar": 0,
+"rum": 5,
+"diger": 95,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Premedi güneyi (Vjosa ortodoks köyleri)",
+"lat": 40.17,
+"lon": 20.45,
+"bulgar": 0,
+"rum": 15,
+"diger": 85,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Leskovik (kasaba ve Müslüman köyler)",
+"lat": 40.15,
+"lon": 20.6,
+"bulgar": 0,
+"rum": 15,
+"diger": 85,
+"diger_groups": "Orthodox Albanians, Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Leskovik güneyi / Gramoz köyleri (Pyrsogianni, Vourbiani)",
+"lat": 40.21,
+"lon": 20.72,
+"bulgar": 0,
+"rum": 55,
+"diger": 45,
+"diger_groups": "Vlachs/Aromanians, Orthodox Albanians",
+"confidence": "low"
+},
+{
+"name": "Koniçe (Konitsa)",
+"lat": 40.046,
+"lon": 20.749,
+"bulgar": 0,
+"rum": 90,
+"diger": 10,
+"diger_groups": "Orthodox Albanians, Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Koniçe kırsalı",
+"lat": 40.08,
+"lon": 20.65,
+"bulgar": 0,
+"rum": 85,
+"diger": 15,
+"diger_groups": "Orthodox Albanians, Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Koniçe dağları (Mastorochoria/Vlach köyleri)",
+"lat": 40.1,
+"lon": 20.92,
+"bulgar": 0,
+"rum": 55,
+"diger": 45,
+"diger_groups": "Vlachs/Aromanians (Distrato, Armata, Palioseli, Padès)",
+"confidence": "medium"
+},
+{
+"name": "Pogon (Pogoni/Vostina)",
+"lat": 39.95,
+"lon": 20.45,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Mecova (Metsovo)",
+"lat": 39.77,
+"lon": 21.2,
+"bulgar": 0,
+"rum": 5,
+"diger": 95,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Yanya (Ioannina)",
+"lat": 39.665,
+"lon": 20.853,
+"bulgar": 0,
+"rum": 92,
+"diger": 8,
+"diger_groups": "Vlachs/Aromanians, Orthodox Albanians",
+"confidence": "high"
+},
+{
+"name": "Yanya güneyi (Çarkoviçe/Lakka, Dodona)",
+"lat": 39.54,
+"lon": 20.8,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Kurendo-Zitsa",
+"lat": 39.76,
+"lon": 20.66,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Zagori",
+"lat": 39.86,
+"lon": 20.85,
+"bulgar": 0,
+"rum": 70,
+"diger": 30,
+"diger_groups": "Vlachs/Aromanians (eastern Zagori: Laista, Vrysochori, Greveniti, Flambourari)",
+"confidence": "medium"
+},
+{
+"name": "Malakasi nahiyesi (Votonosi-Pramanda arası)",
+"lat": 39.64,
+"lon": 21.06,
+"bulgar": 0,
+"rum": 45,
+"diger": 55,
+"diger_groups": "Vlachs/Aromanians (Malakasi, Votonosi, Chaliki, Milea)",
+"confidence": "medium"
+},
+{
+"name": "Aydonat (Paramythia)",
+"lat": 39.47,
+"lon": 20.51,
+"bulgar": 0,
+"rum": 75,
+"diger": 25,
+"diger_groups": "Orthodox Chams (Albanian-speaking)",
+"confidence": "medium"
+},
+{
+"name": "Orta Çamlık (Kalamas)",
+"lat": 39.5,
+"lon": 20.38,
+"bulgar": 0,
+"rum": 60,
+"diger": 40,
+"diger_groups": "Orthodox Chams (Albanian-speaking)",
+"confidence": "low"
+},
+{
+"name": "Suli (Souli)",
+"lat": 39.37,
+"lon": 20.6,
+"bulgar": 0,
+"rum": 70,
+"diger": 30,
+"diger_groups": "Albanian-speaking Orthodox (Souliotes)",
+"confidence": "low"
+},
+{
+"name": "Konispol-Xarrë",
+"lat": 39.69,
+"lon": 20.15,
+"bulgar": 0,
+"rum": 40,
+"diger": 60,
+"diger_groups": "Orthodox Chams (Albanian-speaking)",
+"confidence": "low"
+},
+{
+"name": "Filat (Filiates)",
+"lat": 39.6,
+"lon": 20.31,
+"bulgar": 0,
+"rum": 60,
+"diger": 40,
+"diger_groups": "Orthodox Chams (Albanian-speaking)",
+"confidence": "low"
+},
+{
+"name": "Gümenice-Sayada (Igoumenitsa)",
+"lat": 39.56,
+"lon": 20.24,
+"bulgar": 0,
+"rum": 65,
+"diger": 35,
+"diger_groups": "Orthodox Chams (Albanian-speaking)",
+"confidence": "low"
+},
+{
+"name": "Filat doğusu (Lia/Tsamantas)",
+"lat": 39.7,
+"lon": 20.4,
+"bulgar": 0,
+"rum": 60,
+"diger": 40,
+"diger_groups": "Orthodox Albanians",
+"confidence": "low"
+},
+{
+"name": "Margariç (Margariti)",
+"lat": 39.36,
+"lon": 20.37,
+"bulgar": 0,
+"rum": 60,
+"diger": 40,
+"diger_groups": "Orthodox Chams (Albanian-speaking)",
+"confidence": "low"
+},
+{
+"name": "Parga",
+"lat": 39.29,
+"lon": 20.41,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Albanian-speaking Orthodox",
+"confidence": "high"
+},
+{
+"name": "Fener (Fanari/Kanallaki)",
+"lat": 39.24,
+"lon": 20.6,
+"bulgar": 0,
+"rum": 65,
+"diger": 35,
+"diger_groups": "Orthodox Chams (Albanian-speaking)",
+"confidence": "low"
+},
+{
+"name": "Preveze (Preveza)",
+"lat": 38.962,
+"lon": 20.745,
+"bulgar": 0,
+"rum": 96,
+"diger": 4,
+"diger_groups": "Orthodox Albanians, Catholic Levantines",
+"confidence": "high"
+},
+{
+"name": "Preveze kırsalı (Zalongo)",
+"lat": 39.1,
+"lon": 20.72,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Orthodox Albanians",
+"confidence": "high"
+},
+{
+"name": "Loros (Louros/Filippiada)",
+"lat": 39.19,
+"lon": 20.84,
+"bulgar": 0,
+"rum": 95,
+"diger": 5,
+"diger_groups": "Vlachs/Aromanians, Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Çumerka (Tzoumerka/Kalarrytes)",
+"lat": 39.5,
+"lon": 21.1,
+"bulgar": 0,
+"rum": 65,
+"diger": 35,
+"diger_groups": "Vlachs/Aromanians (Kalarrytes, Syrrako)",
+"confidence": "medium"
+},
+{
+"name": "Narda (Arta)",
+"lat": 39.16,
+"lon": 20.985,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians, Catholics",
+"confidence": "high"
+},
+{
+"name": "Narda ovası (Arta plain)",
+"lat": 39.11,
+"lon": 21.05,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Radoviz (Arta NE)",
+"lat": 39.3,
+"lon": 21.12,
+"bulgar": 0,
+"rum": 96,
+"diger": 4,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Yenişehir (Larissa)",
+"lat": 39.639,
+"lon": 22.419,
+"bulgar": 0,
+"rum": 95,
+"diger": 5,
+"diger_groups": "Vlachs/Aromanians, Armenians, Catholics",
+"confidence": "high"
+},
+{
+"name": "Yenişehir doğusu (Konyar köyleri)",
+"lat": 39.56,
+"lon": 22.58,
+"bulgar": 0,
+"rum": 99,
+"diger": 1,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Velestin (Velestino) ve Çerkes iskânı",
+"lat": 39.38,
+"lon": 22.74,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Tırnova (Tyrnavos) ve Yenişehir kuzeyi",
+"lat": 39.73,
+"lon": 22.33,
+"bulgar": 0,
+"rum": 93,
+"diger": 7,
+"diger_groups": "Vlachs/Aromanians (Tyrnavos Vlach quarter)",
+"confidence": "medium"
+},
+{
+"name": "Yenişehir güneyi (Enipeas ovası)",
+"lat": 39.47,
+"lon": 22.4,
+"bulgar": 0,
+"rum": 99,
+"diger": 1,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Yenişehir batısı (Pinios ovası)",
+"lat": 39.6,
+"lon": 22.15,
+"bulgar": 0,
+"rum": 99,
+"diger": 1,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Ağya (Agia) / Kissavos",
+"lat": 39.73,
+"lon": 22.72,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Tempe-Ambelakia",
+"lat": 39.9,
+"lon": 22.52,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Golos (Volos)",
+"lat": 39.362,
+"lon": 22.942,
+"bulgar": 0,
+"rum": 95,
+"diger": 5,
+"diger_groups": "Catholic Levantines, Armenians, Vlachs",
+"confidence": "high"
+},
+{
+"name": "Pelion (Zagora/Makrinitsa)",
+"lat": 39.42,
+"lon": 23.08,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Güney Pelion (Argalasti)",
+"lat": 39.22,
+"lon": 23.2,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Ermiye (Almyros)",
+"lat": 39.18,
+"lon": 22.76,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Otris (Othrys)",
+"lat": 39.03,
+"lon": 22.47,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians (transhumant)",
+"confidence": "high"
+},
+{
+"name": "Çatalca (Farsala)",
+"lat": 39.296,
+"lon": 22.383,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Çatalca ovası",
+"lat": 39.32,
+"lon": 22.24,
+"bulgar": 0,
+"rum": 99,
+"diger": 1,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Dömeke (Domokos)",
+"lat": 39.13,
+"lon": 22.3,
+"bulgar": 0,
+"rum": 99,
+"diger": 1,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Kardiçe (Karditsa)",
+"lat": 39.365,
+"lon": 21.922,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Kardiçe ovası (Fenar/Sofades)",
+"lat": 39.33,
+"lon": 22.05,
+"bulgar": 0,
+"rum": 99,
+"diger": 1,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Ağrafa",
+"lat": 39.2,
+"lon": 21.6,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Tırhala (Trikala)",
+"lat": 39.555,
+"lon": 21.768,
+"bulgar": 0,
+"rum": 80,
+"diger": 20,
+"diger_groups": "Vlachs/Aromanians (Trikala Vlach quarter)",
+"confidence": "medium"
+},
+{
+"name": "Tırhala ovası",
+"lat": 39.5,
+"lon": 21.9,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Kalabaka-Meteora / Haşya",
+"lat": 39.75,
+"lon": 21.65,
+"bulgar": 0,
+"rum": 70,
+"diger": 30,
+"diger_groups": "Vlachs/Aromanians (Kalabaka, Chasia villages)",
+"confidence": "medium"
+},
+{
+"name": "Aspropotamos (Batı Pindos)",
+"lat": 39.57,
+"lon": 21.36,
+"bulgar": 0,
+"rum": 35,
+"diger": 65,
+"diger_groups": "Vlachs/Aromanians (upper Aspropotamos villages)",
+"confidence": "medium"
+},
+{
+"name": "Alasonya (Elassona)",
+"lat": 39.894,
+"lon": 22.188,
+"bulgar": 0,
+"rum": 92,
+"diger": 8,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Alasonya ovası",
+"lat": 39.85,
+"lon": 22.04,
+"bulgar": 0,
+"rum": 85,
+"diger": 15,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Güney Olimpos (Livadi/Sarantaporo)",
+"lat": 40.05,
+"lon": 22.08,
+"bulgar": 0,
+"rum": 45,
+"diger": 55,
+"diger_groups": "Vlachs/Aromanians (Livadi, Kokkinoplos)",
+"confidence": "medium"
+},
+{
+"name": "Deskati",
+"lat": 39.93,
+"lon": 21.83,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Plava ve Gusinye (Plav, Gusinje)",
+"lat": 42.59,
+"lon": 19.9,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox (Montenegrin-Serb), Catholic Albanians",
+"confidence": "medium"
+},
+{
+"name": "Prizren şehri (Prizren)",
+"lat": 42.214,
+"lon": 20.74,
+"bulgar": 0,
+"rum": 2,
+"diger": 98,
+"diger_groups": "Serb Orthodox, a few Catholics and Aromanian merchants",
+"confidence": "medium"
+},
+{
+"name": "Prizren ovası, Has ve Podrima (Has, Orahovac, Suva Reka)",
+"lat": 42.32,
+"lon": 20.66,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox (Hoča, Orahovac), Catholic Albanians",
+"confidence": "medium"
+},
+{
+"name": "Gora ve Opolye (Gora, Opolje)",
+"lat": 42.04,
+"lon": 20.65,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "low"
+},
+{
+"name": "Sreçka ve Sirinić (Sredska, Štrpce)",
+"lat": 42.22,
+"lon": 20.98,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "İpek şehri (Peć)",
+"lat": 42.659,
+"lon": 20.288,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Rugova ve Deçan (Rugova, Dečani)",
+"lat": 42.62,
+"lon": 20.18,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox, Catholic Albanians",
+"confidence": "high"
+},
+{
+"name": "Kuzey Metohiya (Istok, Klina)",
+"lat": 42.7,
+"lon": 20.52,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Yakova (Gjakova)",
+"lat": 42.39,
+"lon": 20.4,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Catholic Albanians, Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Drenica (Drenica)",
+"lat": 42.66,
+"lon": 20.86,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Priştine şehri (Pristina)",
+"lat": 42.663,
+"lon": 21.164,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox, a few Aromanians",
+"confidence": "high"
+},
+{
+"name": "Kosova ovası (Lipljan, Gračanica, Kosovo Polje)",
+"lat": 42.58,
+"lon": 21.12,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Lab (Podujevo)",
+"lat": 42.9,
+"lon": 21.22,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Vulçıtrın kasabası ve ovası (Vučitrn)",
+"lat": 42.823,
+"lon": 20.967,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Şala ve Bajgora (Shala)",
+"lat": 42.98,
+"lon": 21.03,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Ferizovik ve Nerodimle (Uroševac, Štimlje)",
+"lat": 42.4,
+"lon": 21.08,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Gilan kasabası (Gjilan)",
+"lat": 42.464,
+"lon": 21.469,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Kaçanik, Karadağ ve Vitina (Kačanik, Karadak, Vitina)",
+"lat": 42.29,
+"lon": 21.35,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Catholics (Letnica, Janjevo), Serb Orthodox",
+"confidence": "medium"
+},
+{
+"name": "Novobırda ve İzmornik (Novo Brdo, Kamenica)",
+"lat": 42.62,
+"lon": 21.52,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "Serb Orthodox",
+"confidence": "high"
+},
+{
+"name": "Mamuşa (Mamuša)",
+"lat": 42.333,
+"lon": 20.727,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "no Christians (placeholder share)",
+"confidence": "low"
+},
+{
+"name": "Kosova ovası Çerkes ve Türk köyleri (Miloševo, Mazgit)",
+"lat": 42.71,
+"lon": 21.08,
+"bulgar": 0,
+"rum": 0,
+"diger": 100,
+"diger_groups": "no Christians (placeholder share)",
+"confidence": "low"
+},
+{
+"name": "Darıdere (Zlatograd)",
+"lat": 41.39,
+"lon": 25.09,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Eğridere (Ardino)",
+"lat": 41.59,
+"lon": 25.13,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Termes–Oraio–Myki kuzey Pomak yaylası",
+"lat": 41.31,
+"lon": 24.9,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "İskeçe ovası (Yenice-i Karasu, Avdira)",
+"lat": 41,
+"lon": 24.9,
+"bulgar": 22,
+"rum": 78,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Şahin (Echinos)–Kentavros Pomak köyleri",
+"lat": 41.23,
+"lon": 24.96,
+"bulgar": 60,
+"rum": 40,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Stavroupoli – Karasu (Nestos) kıyısı",
+"lat": 41.18,
+"lon": 24.72,
+"bulgar": 20,
+"rum": 80,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "İskeçe şehri (Xanthi)",
+"lat": 41.135,
+"lon": 24.888,
+"bulgar": 29,
+"rum": 71,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Selanik şehri (Thessaloniki)",
+"lat": 40.645,
+"lon": 22.945,
+"bulgar": 8,
+"rum": 87,
+"diger": 5,
+"diger_groups": "Catholic Levantines, Armenians, Vlachs",
+"confidence": "medium"
+},
+{
+"name": "Selanik kazası güneydoğu – Kalamarya (Vasilika/Epanomi)",
+"lat": 40.47,
+"lon": 23.03,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Selanik kazası batı – Vardar deltası (Sindos ovası)",
+"lat": 40.72,
+"lon": 22.83,
+"bulgar": 30,
+"rum": 70,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Langaza ve Göl havzası (Lagadas, Koroneia)",
+"lat": 40.75,
+"lon": 23.07,
+"bulgar": 30,
+"rum": 70,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Kocacık Yörükleri – Lahna/Kruşa dağları (Lachanas, Langaza–Kukuş arası)",
+"lat": 40.99,
+"lon": 23.12,
+"bulgar": 80,
+"rum": 20,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Sohos–Visoka, Langaza doğusu (Sochos, Ossa)",
+"lat": 40.82,
+"lon": 23.38,
+"bulgar": 55,
+"rum": 45,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Beşik Gölü kuzey kıyısı (Volvi)",
+"lat": 40.725,
+"lon": 23.44,
+"bulgar": 15,
+"rum": 85,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Kesendire kazası merkezi – Polihroni/Galatişte (Polygyros, Galatista)",
+"lat": 40.4,
+"lon": 23.38,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Kesendire yarımadası (Kassandra)",
+"lat": 40.06,
+"lon": 23.42,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Sitonya ve Longos (Sithonia)",
+"lat": 40.12,
+"lon": 23.85,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Maden köyleri – Nevrokop-Halkidiki/Erisos (Arnaia, Ierissos)",
+"lat": 40.49,
+"lon": 23.62,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Aynaroz (Mount Athos)",
+"lat": 40.257,
+"lon": 24.245,
+"bulgar": 8,
+"rum": 65,
+"diger": 27,
+"diger_groups": "Russian, Serbian, Romanian, Georgian monks",
+"confidence": "low"
+},
+{
+"name": "Karaferye şehri (Veria)",
+"lat": 40.522,
+"lon": 22.204,
+"bulgar": 3,
+"rum": 87,
+"diger": 10,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Ağustos ve Vermiyon köyleri (Naoussa; Selia, Kastania)",
+"lat": 40.55,
+"lon": 22.07,
+"bulgar": 20,
+"rum": 60,
+"diger": 20,
+"diger_groups": "Vlachs/Aromanians (Selia, Kastania, Xirolivado)",
+"confidence": "medium"
+},
+{
+"name": "Rumluk ovası – Kampanya (Roumlouki, Alexandreia)",
+"lat": 40.62,
+"lon": 22.44,
+"bulgar": 8,
+"rum": 92,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Katerin şehri ve Pierya ovası (Katerini, Kolindros)",
+"lat": 40.34,
+"lon": 22.5,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Olimpos ve Pierya dağları (Litochoro)",
+"lat": 40.12,
+"lon": 22.4,
+"bulgar": 0,
+"rum": 85,
+"diger": 15,
+"diger_groups": "Vlachs/Aromanians (Kokkinoplos, Fteri)",
+"confidence": "medium"
+},
+{
+"name": "Yenice-i Vardar şehri (Giannitsa)",
+"lat": 40.793,
+"lon": 22.41,
+"bulgar": 55,
+"rum": 45,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Yenice ovası doğusu – Vardar kıyısı (Chalkidona/Adendro)",
+"lat": 40.78,
+"lon": 22.58,
+"bulgar": 50,
+"rum": 50,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Paiko – Gümendze (Goumenissa)",
+"lat": 40.95,
+"lon": 22.45,
+"bulgar": 45,
+"rum": 40,
+"diger": 15,
+"diger_groups": "Vlachs/Aromanians (Livadia/Paiko), Uniate Catholics",
+"confidence": "low"
+},
+{
+"name": "Nânta – Ljumnica Megleno-Rumen köyleri (Notia, Archangelos)",
+"lat": 41.08,
+"lon": 22.22,
+"bulgar": 5,
+"rum": 10,
+"diger": 85,
+"diger_groups": "Christian Megleno-Romanians",
+"confidence": "medium"
+},
+{
+"name": "Vodina şehri (Edessa)",
+"lat": 40.8,
+"lon": 22.05,
+"bulgar": 50,
+"rum": 45,
+"diger": 5,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "low"
+},
+{
+"name": "Ostrova gölü çevresi (Arnissa, Vegoritida)",
+"lat": 40.8,
+"lon": 21.86,
+"bulgar": 65,
+"rum": 35,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Vodina ovası ve tepeleri (Skydra, Vladovo)",
+"lat": 40.77,
+"lon": 22.17,
+"bulgar": 60,
+"rum": 40,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Gevgili ve Vardar vadisi (Gevgelija, Bogdanci–Bogorodica)",
+"lat": 41.16,
+"lon": 22.53,
+"bulgar": 55,
+"rum": 35,
+"diger": 10,
+"diger_groups": "Uniate (Catholic) Bulgarians, Vlachs",
+"confidence": "low"
+},
+{
+"name": "Aşağı Vardar ovası – Karasulu/Boymica (Polykastro, Axioupoli)",
+"lat": 41,
+"lon": 22.56,
+"bulgar": 55,
+"rum": 35,
+"diger": 10,
+"diger_groups": "Vlachs, Uniate Catholics",
+"confidence": "low"
+},
+{
+"name": "Tikveş ovası – Kavadar ve Negotin (Kavadarci, Negotino)",
+"lat": 41.45,
+"lon": 22.04,
+"bulgar": 96,
+"rum": 1,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians (Negotino)",
+"confidence": "medium"
+},
+{
+"name": "Tikveş kuzeyi – Rosoman/Sirkovo/Krivolak",
+"lat": 41.53,
+"lon": 21.98,
+"bulgar": 99,
+"rum": 1,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Tikveş güneyi – Konopişte ve Demirkapı dağları (Konopište, Demir Kapija)",
+"lat": 41.3,
+"lon": 22.12,
+"bulgar": 99,
+"rum": 1,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Köprülü şehri (Veles)",
+"lat": 41.719,
+"lon": 21.771,
+"bulgar": 96,
+"rum": 2,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Köprülü doğusu ve güneyi (Ivankovci, Gradsko)",
+"lat": 41.66,
+"lon": 21.9,
+"bulgar": 99,
+"rum": 1,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Babuna – Azot (Köprülü batısı ve Pirlepe kuzeyi; Čaška, Izvor)",
+"lat": 41.54,
+"lon": 21.64,
+"bulgar": 99,
+"rum": 1,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Usturumca şehri (Strumica)",
+"lat": 41.439,
+"lon": 22.637,
+"bulgar": 55,
+"rum": 45,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Usturumca ovası Türk köyleri (Bosilovo, Novo Selo)",
+"lat": 41.43,
+"lon": 22.78,
+"bulgar": 60,
+"rum": 40,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Usturumca batısı ve Belasica eteği (Strumica west)",
+"lat": 41.48,
+"lon": 22.57,
+"bulgar": 60,
+"rum": 40,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Doyran kasabası ve göl kıyısı (Star Dojran)",
+"lat": 41.185,
+"lon": 22.715,
+"bulgar": 65,
+"rum": 30,
+"diger": 5,
+"diger_groups": "Uniate Catholics",
+"confidence": "medium"
+},
+{
+"name": "Valandova – Dedeli, Udovo Türk köyleri (Valandovo)",
+"lat": 41.32,
+"lon": 22.56,
+"bulgar": 80,
+"rum": 15,
+"diger": 5,
+"diger_groups": "Uniate Catholics",
+"confidence": "medium"
+},
+{
+"name": "Kocacık Yörükleri – Kruşa dağları, Doyran güneyi (Krousia)",
+"lat": 41.13,
+"lon": 22.93,
+"bulgar": 75,
+"rum": 20,
+"diger": 5,
+"diger_groups": "Uniate Catholics",
+"confidence": "medium"
+},
+{
+"name": "Kukuş kasabası (Kilkis)",
+"lat": 40.994,
+"lon": 22.874,
+"bulgar": 90,
+"rum": 7,
+"diger": 3,
+"diger_groups": "Uniate (Catholic) Bulgarians",
+"confidence": "medium"
+},
+{
+"name": "Avrethisar – Kukuş güney ovası (Gynaikokastro)",
+"lat": 40.88,
+"lon": 22.8,
+"bulgar": 75,
+"rum": 25,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Kukuş kuzeyi ve batısı – Bulgar ve Uniat köyleri (Kilkis–Axios arası)",
+"lat": 41.04,
+"lon": 22.76,
+"bulgar": 92,
+"rum": 5,
+"diger": 3,
+"diger_groups": "Uniate (Catholic) Bulgarians",
+"confidence": "medium"
+},
+{
+"name": "Serez şehri (Serres)",
+"lat": 41.091,
+"lon": 23.55,
+"bulgar": 12,
+"rum": 80,
+"diger": 8,
+"diger_groups": "Vlachs/Aromanians, Armenians",
+"confidence": "medium"
+},
+{
+"name": "Serez ovası kuzeybatı – Barakli Cuma (Iraklia)",
+"lat": 41.16,
+"lon": 23.33,
+"bulgar": 60,
+"rum": 40,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Serez ovası güneyi – Nigrita ve Tahinos batısı (Nigrita)",
+"lat": 40.95,
+"lon": 23.47,
+"bulgar": 10,
+"rum": 90,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Serez kuzeydoğusu – Menikio/Vrondou dağ köyleri",
+"lat": 41.18,
+"lon": 23.66,
+"bulgar": 55,
+"rum": 45,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Zihne – Alistrat (Nea Zichni, Alistrati)",
+"lat": 41.04,
+"lon": 23.85,
+"bulgar": 25,
+"rum": 70,
+"diger": 5,
+"diger_groups": "Turkish-speaking Orthodox (Karamanlı-type)",
+"confidence": "low"
+},
+{
+"name": "Pangeon Rum köyleri (Rodolivos, Nikisiani, Podochori)",
+"lat": 40.89,
+"lon": 24.03,
+"bulgar": 5,
+"rum": 95,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Demirhisar kasabası (Sidirokastro)",
+"lat": 41.235,
+"lon": 23.39,
+"bulgar": 40,
+"rum": 60,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Poroy – Belasica güney eteği (Kato/Ano Poroia)",
+"lat": 41.27,
+"lon": 23.06,
+"bulgar": 55,
+"rum": 45,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Demirhisar kuzeyi – Kruşova, Alibotuş eteği (Achladochori)",
+"lat": 41.33,
+"lon": 23.46,
+"bulgar": 37,
+"rum": 55,
+"diger": 8,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "low"
+},
+{
+"name": "Petriç kasabası (Petrich)",
+"lat": 41.395,
+"lon": 23.207,
+"bulgar": 97,
+"rum": 3,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Petriç ovası ve Belasica kuzeyi (Kolarovo, Klyuch)",
+"lat": 41.42,
+"lon": 23.06,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Menlik ve Sveti Vraç ovası (Melnik, Sandanski)",
+"lat": 41.55,
+"lon": 23.31,
+"bulgar": 66,
+"rum": 34,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Menlik kuzeyi – Kresna, Pirin batı eteği (Kresna)",
+"lat": 41.69,
+"lon": 23.24,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Cuma-i Bala kasabası (Blagoevgrad)",
+"lat": 42.011,
+"lon": 23.091,
+"bulgar": 96,
+"rum": 4,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Simitli–Krupnik Pomak köyleri (Simitli)",
+"lat": 41.89,
+"lon": 23.11,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Cuma-i Bala kırsalı – Rila ve yukarı Struma (Blagoevgrad district)",
+"lat": 42.08,
+"lon": 23.12,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Mehomiye – Banska vadisi (Razlog, Bansko)",
+"lat": 41.88,
+"lon": 23.47,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Yukarı Mesta Pomakları (Yakoruda, Babyak, Belitsa)",
+"lat": 41.98,
+"lon": 23.63,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Nevrekop kasabası ve ovası (Gotse Delchev)",
+"lat": 41.57,
+"lon": 23.73,
+"bulgar": 90,
+"rum": 6,
+"diger": 4,
+"diger_groups": "Vlachs/Aromanians (Nevrokop)",
+"confidence": "medium"
+},
+{
+"name": "Garmen – Kornitsa/Breznitsa Pomakları",
+"lat": 41.64,
+"lon": 23.62,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Çeç Pomakları (Satovcha, Kochan, Osenitsa)",
+"lat": 41.58,
+"lon": 23.98,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Hacıdimova – Mesta vadisi (Hadzhidimovo, Teshovo, Ilinden)",
+"lat": 41.52,
+"lon": 23.87,
+"bulgar": 98,
+"rum": 2,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Zırnova – Kato Nevrokopi ovası Türk ve Bulgar köyleri (Lisse, Vezme, Tarlis)",
+"lat": 41.35,
+"lon": 23.86,
+"bulgar": 92,
+"rum": 8,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Drama şehri (Drama)",
+"lat": 41.15,
+"lon": 24.147,
+"bulgar": 20,
+"rum": 75,
+"diger": 5,
+"diger_groups": "Armenians, Vlachs",
+"confidence": "medium"
+},
+{
+"name": "Drama ovası – Doksat, Prosoçan, Kırlar (Doxato, Prosotsani)",
+"lat": 41.13,
+"lon": 24.06,
+"bulgar": 30,
+"rum": 70,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Bozdağ – Drama Pomakları ve Türk dağ köyleri (Falakro)",
+"lat": 41.28,
+"lon": 24.08,
+"bulgar": 70,
+"rum": 30,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Drama kuzeydoğusu – Yukarı Mesta (Paranesti)",
+"lat": 41.28,
+"lon": 24.42,
+"bulgar": 60,
+"rum": 40,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Pravişte ovası ve Pangeon doğu eteği (Eleftheroupoli)",
+"lat": 40.95,
+"lon": 24.27,
+"bulgar": 5,
+"rum": 95,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Kavala kasabası (Kavala)",
+"lat": 40.94,
+"lon": 24.41,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Armenians",
+"confidence": "high"
+},
+{
+"name": "Kavala dağları – Türk ve Pomak köyleri (Lekani, Palaia Kavala)",
+"lat": 41.03,
+"lon": 24.43,
+"bulgar": 10,
+"rum": 90,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Sarışaban – Aşağı Mesta ovası (Chrysoupoli)",
+"lat": 41,
+"lon": 24.65,
+"bulgar": 55,
+"rum": 45,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Karacaova Pomakları doğu – Notia/Exaplatanos kesimi (Almopia; Yenice kazası)",
+"lat": 41,
+"lon": 22.17,
+"bulgar": 60,
+"rum": 40,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Karacaova Pomakları batı – Subotsko/Aridaia kesimi (Almopia; Vodina kazası)",
+"lat": 40.975,
+"lon": 22.04,
+"bulgar": 65,
+"rum": 35,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Üsküp şehri (Skopje)",
+"lat": 41.996,
+"lon": 21.432,
+"bulgar": 75,
+"rum": 15,
+"diger": 10,
+"diger_groups": "Vlachs/Aromanians, Serb-oriented Patriarchists, Armenians, Catholics",
+"confidence": "medium"
+},
+{
+"name": "Üsküp–Köprülü arası (Petrovec, Katlanovo, Bašino Selo)",
+"lat": 41.88,
+"lon": 21.66,
+"bulgar": 90,
+"rum": 10,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Karşıyaka – Üsküp Karadağı köyleri (Skopska Crna Gora, Kučevište)",
+"lat": 42.1,
+"lon": 21.45,
+"bulgar": 55,
+"rum": 10,
+"diger": 35,
+"diger_groups": "Serb-oriented Patriarchist Slavs",
+"confidence": "low"
+},
+{
+"name": "Saray – Üsküp batısı Arnavut ve Torbeş köyleri (Saraj)",
+"lat": 42,
+"lon": 21.31,
+"bulgar": 90,
+"rum": 10,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Studeniçani – Patişka Reka, Üsküp güneyi (Studeničani)",
+"lat": 41.88,
+"lon": 21.5,
+"bulgar": 90,
+"rum": 10,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Kalkandelen şehri (Tetovo)",
+"lat": 42.007,
+"lon": 20.973,
+"bulgar": 65,
+"rum": 20,
+"diger": 15,
+"diger_groups": "Vlachs/Aromanians, Serb-oriented Patriarchists",
+"confidence": "low"
+},
+{
+"name": "Aşağı Polog (Jegunovce, Želino, Tearce)",
+"lat": 42.05,
+"lon": 21.08,
+"bulgar": 70,
+"rum": 15,
+"diger": 15,
+"diger_groups": "Serb-oriented Patriarchist Slavs",
+"confidence": "low"
+},
+{
+"name": "Şar eteği Arnavut köyleri (Bogovinje, Šipkovica, Selce)",
+"lat": 41.95,
+"lon": 20.89,
+"bulgar": 70,
+"rum": 15,
+"diger": 15,
+"diger_groups": "Serb-oriented Patriarchist Slavs",
+"confidence": "low"
+},
+{
+"name": "Gostivar ve Yukarı Polog (Vrapčište, Debreše, Čegrane)",
+"lat": 41.82,
+"lon": 20.87,
+"bulgar": 70,
+"rum": 15,
+"diger": 15,
+"diger_groups": "Serb-oriented Patriarchist Slavs, Vlachs",
+"confidence": "low"
+},
+{
+"name": "Polog doğu yamaçları (Brvenica, Suva Gora)",
+"lat": 41.88,
+"lon": 21.03,
+"bulgar": 75,
+"rum": 15,
+"diger": 10,
+"diger_groups": "Serb-oriented Patriarchist Slavs",
+"confidence": "low"
+},
+{
+"name": "Kumanova şehri (Kumanovo)",
+"lat": 42.136,
+"lon": 21.718,
+"bulgar": 88,
+"rum": 2,
+"diger": 10,
+"diger_groups": "Vlachs/Aromanians, Serb-oriented Patriarchists",
+"confidence": "medium"
+},
+{
+"name": "Karadağ Arnavut köyleri (Lipkovo, Matejče)",
+"lat": 42.17,
+"lon": 21.58,
+"bulgar": 85,
+"rum": 0,
+"diger": 15,
+"diger_groups": "Serb-oriented Patriarchist Slavs",
+"confidence": "low"
+},
+{
+"name": "Kumanova ovası ve doğusu (Pčinja, Kriva Reka)",
+"lat": 42.1,
+"lon": 21.86,
+"bulgar": 92,
+"rum": 1,
+"diger": 7,
+"diger_groups": "Serb-oriented Patriarchist Slavs (Kozjak, Pčinja)",
+"confidence": "medium"
+},
+{
+"name": "Kratova ve Zletova (Kratovo, Zletovo)",
+"lat": 42.06,
+"lon": 22.14,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Eğri Palanka (Kriva Palanka)",
+"lat": 42.2,
+"lon": 22.33,
+"bulgar": 98,
+"rum": 2,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Koçana kasabası ve ovası (Kočani, Orizari, Zrnovci)",
+"lat": 41.91,
+"lon": 22.37,
+"bulgar": 99,
+"rum": 1,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Vinica–Blatec Türk köyleri (Vinica)",
+"lat": 41.86,
+"lon": 22.53,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Osogovo eteği – Koçana kuzeyi",
+"lat": 42,
+"lon": 22.46,
+"bulgar": 92,
+"rum": 0,
+"diger": 8,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Peçova ve Maleş Pomak köyleri (Pehčevo)",
+"lat": 41.77,
+"lon": 22.88,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Berova – Maleş Hristiyan köyleri (Berovo)",
+"lat": 41.67,
+"lon": 22.84,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "İştip şehri (Štip)",
+"lat": 41.737,
+"lon": 22.194,
+"bulgar": 92,
+"rum": 1,
+"diger": 7,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Ovçepole Yörük köyleri – Klisseli (Sveti Nikole)",
+"lat": 41.85,
+"lon": 21.95,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "İştip doğusu (Karbinci, Lakavica)",
+"lat": 41.8,
+"lon": 22.28,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "İştip güneyi – Plaçkovica eteği",
+"lat": 41.66,
+"lon": 22.19,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Radovişte kasabası ve ovası (Radoviš)",
+"lat": 41.64,
+"lon": 22.465,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Radovişte güneyi – Konçe, Kologuzlu (Konče)",
+"lat": 41.51,
+"lon": 22.38,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Debre şehri ve Debre ovası (Debar, Debarsko Pole)",
+"lat": 41.523,
+"lon": 20.527,
+"bulgar": 85,
+"rum": 0,
+"diger": 15,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Jupa – Kocacık/Noaci (Centar Župa)",
+"lat": 41.45,
+"lon": 20.6,
+"bulgar": 95,
+"rum": 0,
+"diger": 5,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Aşağı Reka (Rostuše, Skudrinje)",
+"lat": 41.61,
+"lon": 20.61,
+"bulgar": 95,
+"rum": 0,
+"diger": 5,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Mijak köyleri (Galičnik, Lazaropole)",
+"lat": 41.55,
+"lon": 20.68,
+"bulgar": 98,
+"rum": 0,
+"diger": 2,
+"diger_groups": "Orthodox Albanians",
+"confidence": "high"
+},
+{
+"name": "Yukarı Reka (Mavrovo)",
+"lat": 41.72,
+"lon": 20.73,
+"bulgar": 70,
+"rum": 0,
+"diger": 30,
+"diger_groups": "Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Manastır şehri (Bitola)",
+"lat": 41.032,
+"lon": 21.33,
+"bulgar": 50,
+"rum": 15,
+"diger": 35,
+"diger_groups": "Vlachs/Aromanians (Bitola Aromanians)",
+"confidence": "medium"
+},
+{
+"name": "Pelagonya güneyi – Kenali/Mecitli Türk köyleri (Kremenica, Medžitlija)",
+"lat": 40.95,
+"lon": 21.42,
+"bulgar": 85,
+"rum": 15,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Pelagonya ovası – Manastır-Pirlepe arası (Mogila, Novaci)",
+"lat": 41.15,
+"lon": 21.42,
+"bulgar": 85,
+"rum": 15,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Bigla – Demirhisar nahiyesi (Demir Hisar, Železnik)",
+"lat": 41.22,
+"lon": 21.2,
+"bulgar": 88,
+"rum": 10,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Pelister eteği – Kişava/Ostrec Arnavutları ve Ulah köyleri (Magarevo, Trnovo)",
+"lat": 41.02,
+"lon": 21.19,
+"bulgar": 30,
+"rum": 10,
+"diger": 60,
+"diger_groups": "Vlachs/Aromanians (Magarevo, Trnovo, Gopeš, Malovište)",
+"confidence": "medium"
+},
+{
+"name": "Kruşova (Kruševo)",
+"lat": 41.37,
+"lon": 21.25,
+"bulgar": 40,
+"rum": 10,
+"diger": 50,
+"diger_groups": "Vlachs/Aromanians (Kruševo)",
+"confidence": "medium"
+},
+{
+"name": "Resne ve Prespa (Resen)",
+"lat": 41.07,
+"lon": 21.02,
+"bulgar": 88,
+"rum": 7,
+"diger": 5,
+"diger_groups": "Vlachs/Aromanians, Orthodox Albanians",
+"confidence": "medium"
+},
+{
+"name": "Morihova (Mariovo)",
+"lat": 41.15,
+"lon": 21.75,
+"bulgar": 97,
+"rum": 3,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Pirlepe şehri (Prilep)",
+"lat": 41.344,
+"lon": 21.553,
+"bulgar": 90,
+"rum": 4,
+"diger": 6,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Pirlepe batısı (Dolneni, Crnilište, Desovo)",
+"lat": 41.44,
+"lon": 21.42,
+"bulgar": 99,
+"rum": 1,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Pirlepe ovası (Kanatlarci, Musinci)",
+"lat": 41.26,
+"lon": 21.55,
+"bulgar": 98,
+"rum": 2,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Lerin kasabası (Florina)",
+"lat": 40.78,
+"lon": 21.41,
+"bulgar": 50,
+"rum": 35,
+"diger": 15,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "low"
+},
+{
+"name": "Lerin ovası kuzeyi (Meliti/Voštareni)",
+"lat": 40.85,
+"lon": 21.53,
+"bulgar": 50,
+"rum": 50,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Sorovic ve Petres gölü (Amyntaio)",
+"lat": 40.7,
+"lon": 21.65,
+"bulgar": 50,
+"rum": 50,
+"diger": 0,
+"diger_groups": "",
+"confidence": "low"
+},
+{
+"name": "Lerin batısı (Vigla, Pisoderi)",
+"lat": 40.77,
+"lon": 21.28,
+"bulgar": 45,
+"rum": 25,
+"diger": 30,
+"diger_groups": "Vlachs/Aromanians (Pisoderi, Neveska, Belkamen)",
+"confidence": "low"
+},
+{
+"name": "Ohri şehri (Ohrid)",
+"lat": 41.117,
+"lon": 20.802,
+"bulgar": 82,
+"rum": 8,
+"diger": 10,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Ustruga kasabası ve ovası (Struga)",
+"lat": 41.18,
+"lon": 20.69,
+"bulgar": 85,
+"rum": 5,
+"diger": 10,
+"diger_groups": "Vlachs/Aromanians (Struga)",
+"confidence": "medium"
+},
+{
+"name": "Drimkol (Labunište, Podgorci)",
+"lat": 41.26,
+"lon": 20.6,
+"bulgar": 98,
+"rum": 2,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Debreşte nahiyesi (Debarca – Belčišta)",
+"lat": 41.33,
+"lon": 20.86,
+"bulgar": 97,
+"rum": 3,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Kırçova kasabası ve ovası (Kičevo)",
+"lat": 41.51,
+"lon": 20.96,
+"bulgar": 99,
+"rum": 1,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Zayas – Kırçova kuzeyi Arnavut köyleri (Zajas)",
+"lat": 41.6,
+"lon": 20.93,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Kırçova doğusu (Plasnica, Lisičani)",
+"lat": 41.46,
+"lon": 21.11,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Poreçe (Makedonski Brod)",
+"lat": 41.52,
+"lon": 21.22,
+"bulgar": 100,
+"rum": 0,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Kesriye şehri (Kastoria)",
+"lat": 40.522,
+"lon": 21.264,
+"bulgar": 10,
+"rum": 85,
+"diger": 5,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Kesriye gölü havzası ve Korestia (Kastoria basin)",
+"lat": 40.58,
+"lon": 21.32,
+"bulgar": 85,
+"rum": 10,
+"diger": 5,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Nestram – Gramos eteği (Nestorio)",
+"lat": 40.42,
+"lon": 21.05,
+"bulgar": 70,
+"rum": 10,
+"diger": 20,
+"diger_groups": "Vlachs/Aromanians (Gramos villages)",
+"confidence": "medium"
+},
+{
+"name": "Hrupişte ve Kesriye güneyi (Argos Orestiko)",
+"lat": 40.45,
+"lon": 21.27,
+"bulgar": 45,
+"rum": 45,
+"diger": 10,
+"diger_groups": "Vlachs/Aromanians (Klisoura)",
+"confidence": "low"
+},
+{
+"name": "Kayalar – Sarıgöl havzası Konyar köyleri (Ptolemaida, Perdikkas)",
+"lat": 40.55,
+"lon": 21.71,
+"bulgar": 85,
+"rum": 15,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Kayalar batısı (Emporio, Vlasti)",
+"lat": 40.47,
+"lon": 21.53,
+"bulgar": 45,
+"rum": 35,
+"diger": 20,
+"diger_groups": "Vlachs/Aromanians (Blatsa/Vlasti)",
+"confidence": "medium"
+},
+{
+"name": "Kozana şehri (Kozani)",
+"lat": 40.3,
+"lon": 21.788,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Kozana – Sarıgöl Konyar ovası (Kozani basin)",
+"lat": 40.38,
+"lon": 21.72,
+"bulgar": 0,
+"rum": 95,
+"diger": 5,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Kozana güneyi – Aliakmon kıyısı Rum köyleri (Aiani, Kato Komi, Rymnio)",
+"lat": 40.2,
+"lon": 21.83,
+"bulgar": 0,
+"rum": 80,
+"diger": 20,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Serfice, Velvendo ve Aliakmon vadisi (Servia, Velvento)",
+"lat": 40.17,
+"lon": 22.02,
+"bulgar": 0,
+"rum": 97,
+"diger": 3,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "high"
+},
+{
+"name": "Siatista – Nasliç ve Voio (Siatista, Neapoli, Tsotyli)",
+"lat": 40.27,
+"lon": 21.42,
+"bulgar": 0,
+"rum": 92,
+"diger": 8,
+"diger_groups": "Vlachs/Aromanians (Voio Vlach villages)",
+"confidence": "medium"
+},
+{
+"name": "Aliakmon vadisi Vallahades köyleri (Kozana–Nasliç–Grebene)",
+"lat": 40.19,
+"lon": 21.56,
+"bulgar": 0,
+"rum": 98,
+"diger": 2,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Grebene kasabası ve doğusu (Grevena, Ventzia)",
+"lat": 40.07,
+"lon": 21.5,
+"bulgar": 0,
+"rum": 85,
+"diger": 15,
+"diger_groups": "Vlachs/Aromanians",
+"confidence": "medium"
+},
+{
+"name": "Grebene batısı – Pindus Ulah köyleri (Samarina, Avdella, Perivoli)",
+"lat": 40.08,
+"lon": 21.12,
+"bulgar": 0,
+"rum": 5,
+"diger": 95,
+"diger_groups": "Vlachs/Aromanians (Samarina, Avdella, Perivoli)",
+"confidence": "high"
 }
 ]
