@@ -34,6 +34,8 @@ NMUS = 8                      # ilk 8 kategori Müslüman
 IDX = {c: i for i, c in enumerate(CATS)}
 K3 = np.array([0] + [1] * (NMUS - 1) + [2] * (NG - NMUS), np.int8)   # adlı → (Türk, diğer Müslüman, Hristiyan)
 TURK_RULE = 0.40
+# haritada görünen ama Rumeli hesaplarına katılmayan vilâyetler (Dersaadet; Ege adaları = Cezayir-i Bahr-i Sefid)
+NO_STATS = {"İstanbul", "Cezayir"}
 MKEYS = ("pomak", "arnavut", "bosnak", "torbes", "cerkes", "roman")
 HKEYS = ("bulgar", "rum", "sirp", "hirvat")
 # 'diğer Hristiyan' kapsamı (dipnot için)

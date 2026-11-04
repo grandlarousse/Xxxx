@@ -5468,5 +5468,115 @@
 "diger": 95,
 "diger_groups": "Vlachs/Aromanians (Samarina, Avdella, Perivoli)",
 "confidence": "high"
+},
+{
+"name": "Taşoz adası (Thasos)",
+"lat": 40.69,
+"lon": 24.66,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Semadirek adası (Samothrace)",
+"lat": 40.46,
+"lon": 25.57,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "İmroz adası (Gökçeada)",
+"lat": 40.16,
+"lon": 25.84,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Bozcaada (Tenedos)",
+"lat": 39.82,
+"lon": 26.03,
+"bulgar": 0,
+"rum": 99.5,
+"diger": 0.5,
+"diger_groups": "Katolik / Ermeni azınlık",
+"confidence": "high"
+},
+{
+"name": "Limni adası (Lemnos)",
+"lat": 39.91,
+"lon": 25.24,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "high"
+},
+{
+"name": "Bozbaba ve Ayastrati (Agios Efstratios)",
+"lat": 39.53,
+"lon": 24.99,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Midilli adası (Lesbos)",
+"lat": 39.17,
+"lon": 26.27,
+"bulgar": 0,
+"rum": 99.0,
+"diger": 1.0,
+"diger_groups": "Katolik / Ermeni azınlık",
+"confidence": "medium"
+},
+{
+"name": "Sakız adası (Chios)",
+"lat": 38.38,
+"lon": 26.0,
+"bulgar": 0,
+"rum": 97.6,
+"diger": 2.4,
+"diger_groups": "Katolik / Ermeni azınlık",
+"confidence": "medium-low"
+},
+{
+"name": "İpsara adası (Psara)",
+"lat": 38.58,
+"lon": 25.57,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
+},
+{
+"name": "Sisam Beyliği (Samos)",
+"lat": 37.73,
+"lon": 26.83,
+"bulgar": 0,
+"rum": 99.8,
+"diger": 0.2,
+"diger_groups": "Katolik / Ermeni azınlık",
+"confidence": "medium"
+},
+{
+"name": "Ahikerya adası (Ikaria)",
+"lat": 37.6,
+"lon": 26.17,
+"bulgar": 0,
+"rum": 100,
+"diger": 0,
+"diger_groups": "",
+"confidence": "medium"
 }
 ]

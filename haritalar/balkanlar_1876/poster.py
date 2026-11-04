@@ -375,7 +375,7 @@ def stats(cl, in_ott):
     G = T.people(cl)
     vil = np.array([c.get("vilayet", "") for c in cl])
     san = np.array([(c.get("sancak") or "") for c in cl])
-    base = in_ott & (vil != "İstanbul")
+    base = in_ott & ~np.isin(vil, list(T.NO_STATS))
 
     def row(mask):
         g = G[mask].sum(0)

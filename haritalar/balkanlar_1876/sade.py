@@ -185,7 +185,7 @@ def render_simple(spec, cfg, stem, cols_fn, extra_labels=None):
     foc_c = np.array([True if focus is None else S.in_focus(c, focus) for c in cl])
     foc_d = foc_c[ci]
     inside = ott_d & foc_d
-    ist_c = np.array([c.get("vilayet") == "İstanbul" for c in cl])
+    ist_c = np.array([c.get("vilayet") in T.NO_STATS for c in cl])
     inside_st = inside & ~ist_c[ci]          # istatistik: İstanbul hariç
     log(f"[{stem}] {x.size} nokta ({inside.sum()} odakta)")
 
@@ -419,7 +419,7 @@ def render_post(key, out_dir):
 
         # başlık rakamları küme toplamlarından (Rakamlar postu ile aynı): İstanbul ve Osmanlı dışı devletler hariç
         cl_ = T.split_named(S.load_cal(), quiet=True)
-        ok_ = [c.get("vilayet") not in S.NONOTT and c.get("vilayet") != "İstanbul" for c in cl_]
+        ok_ = [c.get("vilayet") not in S.NONOTT and c.get("vilayet") not in T.NO_STATS for c in cl_]
         g_ = T.people([c for c, o in zip(cl_, ok_) if o]).sum(0)
         p_ = T.largest_remainder(g_)
 

@@ -317,7 +317,7 @@ def post_rakamlar(out_dir):
     d = cv.d
     cl = TP.split_named(S.load_cal(), quiet=True)
     vil = np.array([c.get("vilayet", "") for c in cl])
-    ok = np.array([v not in S.NONOTT and v != "İstanbul" for v in vil])
+    ok = np.array([v not in S.NONOTT and v not in TP.NO_STATS for v in vil])
     G = TP.people(cl)
     g = G[ok].sum(0)
     p = largest_remainder(g)
