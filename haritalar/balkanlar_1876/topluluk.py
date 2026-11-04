@@ -176,12 +176,36 @@ def present(k, inside=None, min_pct=0.6):
 MUSLIM_RULE = 0.40
 
 
-def yurt_labels(F, x, y, k, area, sigma_km=2.6, step=2, rule=TURK_RULE, smooth_km=1.6, muslim_rule=MUSLIM_RULE):
+def expected_field(F, cl, land2, elev2, ppd, step=2, kernel_cut=1.7):
+    """Gürültüsüz beklenen yoğunluk (nokta birimi): her küme nüfusunu ayak izine payları oranında dağıtır.
+    Dönüş (NG, h, w) — yurt_labels(dexp=...) için."""
+    from engine import suitability, footprint, cluster_population
+    suit = suitability(F, land2, elev2, float(step))
+    h, w = land2.shape
+    out = np.zeros((NG, h, w), np.float32)
+    for c in cl:
+        fp = footprint(c, F, suit, land2, float(step), kernel_cut)
+        if fp is None:
+            continue
+        II, JJ, wt = fp
+        sh = np.array([max(0.0, float(c.get(kk, 0))) for kk in CATS])
+        if sh.sum() <= 0:
+            continue
+        sh = sh / sh.sum() * cluster_population(c) / ppd
+        for g in np.nonzero(sh)[0]:
+            np.add.at(out[g], (II, JJ), sh[g] * wt)
+    return out
+
+
+def yurt_labels(F, x, y, k, area, sigma_km=2.6, step=2, rule=TURK_RULE, smooth_km=1.6, muslim_rule=MUSLIM_RULE,
+                dexp=None):
     """Alan kuralı (boşluk bırakmaz):
       1) yerel Türk payı >= rule            → Türk yurdu (0)
       2) yerel Müslüman payı >= muslim_rule → en kalabalık Müslüman topluluk (Türk olabilir)
       3) aksi hâlde                          → yerel çoğunluk
-    Boşluklar en yakın karar verilmiş alanla dolar; içinde yerleşim olmayan kara parçaları boş kalır."""
+    Boşluklar en yakın karar verilmiş alanla dolar; içinde yerleşim olmayan kara parçaları boş kalır.
+    dexp verilirse (expected_field) kurallar noktaların YA DA gürültüsüz beklenen alanın sağladığı yerde uygulanır
+    (nokta örneklemesinin rastgele lekeleri bir Türk şehrini başka renge boyamasın)."""
     Hh, Ww = area.shape
     h, w = Hh // step, Ww // step
     cnt = np.zeros((NG, h, w), np.float32)
@@ -195,11 +219,24 @@ def yurt_labels(F, x, y, k, area, sigma_km=2.6, step=2, rule=TURK_RULE, smooth_k
     D = np.stack([gaussian_filter(cnt[g], sig) for g in range(NG)])
     tot = D.sum(0)
     decided = tot > (0.5 / (2 * np.pi * sig * sig))
-    tshare = D[0] / np.maximum(tot, 1e-12)
-    mshare = D[:NMUS].sum(0) / np.maximum(tot, 1e-12)
-    lab = np.argmax(D, 0).astype(np.int8)
+    shares = D / np.maximum(tot, 1e-12)
+    tshare = shares[0]
+    mshare = shares[:NMUS].sum(0)
+    if dexp is not None:
+        De = np.stack([gaussian_filter(dexp[g][:h, :w], sig) for g in range(NG)])
+        tot_e = De.sum(0)
+        dec_e = tot_e > (0.5 / (2 * np.pi * sig * sig))
+        sh_e = De / np.maximum(tot_e, 1e-12)
+        decided = decided | dec_e
+        # karşılaştırma ve çoğunluk: iki alanın ortalaması (biri yoksa diğeri)
+        wd = (tot > 1e-9).astype(np.float32)
+        we = dec_e.astype(np.float32)
+        shares = (shares * wd + sh_e * we) / np.maximum(wd + we, 1e-12)
+        tshare = np.maximum(tshare, sh_e[0] * we)
+        mshare = np.maximum(mshare, sh_e[:NMUS].sum(0) * we)
+    lab = np.argmax(shares, 0).astype(np.int8)
     if muslim_rule is not None:
-        lab = np.where(mshare >= muslim_rule, np.argmax(D[:NMUS], 0), lab).astype(np.int8)
+        lab = np.where(mshare >= muslim_rule, np.argmax(shares[:NMUS], 0), lab).astype(np.int8)
     lab = np.where(tshare >= rule, 0, lab).astype(np.int8)
     if (~decided).any() and decided.any():
         _, (ii, jj) = distance_transform_edt(~decided, return_indices=True)

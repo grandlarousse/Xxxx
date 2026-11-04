@@ -7,21 +7,24 @@
    "sub": "Doksat · Prosoçan · Kırlar",
    "group": 0,
    "lon": 23.95,
-   "lat": 41.07
+   "lat": 41.07,
+   "cat": "turk"
   },
   {
    "text": "KARASU AĞZI",
    "sub": "Sarışaban Türk köyleri",
    "group": 0,
    "lon": 24.72,
-   "lat": 40.93
+   "lat": 40.93,
+   "cat": "turk"
   },
   {
    "text": "POMAK KÖYLERİ",
    "sub": "Yukarı Mesta",
    "group": 1,
-   "lon": 24.45,
-   "lat": 41.42
+   "lon": 24.4,
+   "lat": 41.52,
+   "cat": "pomak"
   }
  ],
  "cities": [

@@ -58,7 +58,7 @@ def master_masks():
     if _MASTER is not None:
         return _MASTER
     F0 = E.Frame(4840, 3800, 1210, center_lonlat=(22.6, 42.25), shift_km=(30, 0))
-    cache = os.path.join(E.CACHE, "ott_master_v1.npz")
+    cache = os.path.join(E.CACHE, "ott_master_v2.npz")   # v2: veri alanı E.CRS'ye dönüştürüldü
     if os.path.exists(cache):
         z = np.load(cache)
         _MASTER = (F0, z["ott"], z["non"])
@@ -279,7 +279,7 @@ def locator(cv, box, F):
     x0, y0, x1, y1 = box
     countries = R.ne_layer("countries")
     G = countries.clip((14.5, 37.5, 30.5, 46.6)).to_crs(E.CRS)
-    region = shapely.make_valid(R.data_region(countries))
+    region = shapely.make_valid(gpd.GeoSeries([R.data_region(countries)], crs=R.CRS).to_crs(E.CRS).iloc[0])
     gx0, gy0, gx1, gy1 = E.TO_XY.transform(14.8, 37.8)[0], E.TO_XY.transform(14.8, 37.8)[1], \
         E.TO_XY.transform(30.0, 46.3)[0], E.TO_XY.transform(30.0, 46.3)[1]
     bx0, by0, bx1, by1 = region.bounds

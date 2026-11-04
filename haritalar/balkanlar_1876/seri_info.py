@@ -96,10 +96,10 @@ def finish(cv, n, srcs, out_dir, stem):
     cv.d.rectangle((26, 26, W - 26, H - 26), outline=BRASS[:3] + (170,), width=2)
     P.series_tag(cv, f"{n}/{TOTAL}")
     d = cv.d
+    fs = 16                      # bütün kaynak satırları aynı boyda
+    while fs > 11 and max(bar(fs, "Medium").getlength(t) for t in srcs) > 1900:
+        fs -= 1
     for i, t in enumerate(srcs):
-        fs = 16
-        while bar(fs, "Medium").getlength(t) > 1900 and fs > 11:
-            fs -= 1
         d.text((W / 2, 2606 + i * 20), t, font=bar(fs, "Medium"), fill=MUTE, anchor="ms")
     out = cv.img.convert("RGB")
     arr = np.asarray(out, np.int16) + np.random.default_rng(7).integers(-1, 2, (H, W, 1))
@@ -258,7 +258,7 @@ def post_bulgaristan(out_dir):
         d.text((x0 + 200, yy + 26), l1, font=bar(23, "SemiBold"), fill=IV, anchor="ls")
         for j, ln in enumerate(S.wrap(l2, bar(19, "Medium"), 760)[:2]):
             d.text((x0 + 200, yy + 51 + j * 22), ln, font=bar(19, "Medium"), fill=MUTE, anchor="ls")
-        yy += 84
+        yy += 74
     for ln in S.wrap(T.get("compare_note", ""), bar(18, "Medium"), 960)[:2]:
         d.text((x0, yy + 4), ln, font=bar(18, "Medium"), fill=MUTE, anchor="ls")
         yy += 22
@@ -266,7 +266,7 @@ def post_bulgaristan(out_dir):
     d.line((x0, yy, 2080, yy), fill=BRASS[:3] + (70,), width=1)
     cv.tracked((x0, yy + 34), T.get("panel_head_check", "OSMANLI KAYDIYLA SAĞLAMA"), bar(20, "SemiBold"), 4, BRASS)
     d.text((x0, yy + 58), T.get("check_sub", ""), font=bar(18, "Medium"), fill=MUTE, anchor="ls")
-    yy += 70
+    yy += 64
     rows_c = []
     for i in range(1, 6):
         t_ = T.get(f"check_row_{i}")
@@ -281,8 +281,10 @@ def post_bulgaristan(out_dir):
         d.line((ax, ay, ax + 30, ay), fill=BRASS, width=2)
         d.polygon([(ax + 30, ay - 6), (ax + 40, ay), (ax + 30, ay + 6)], fill=BRASS)
         d.text((ax + 52, yy + 22), right, font=bar(20, "SemiBold"), fill=IV, anchor="ls")
-        yy += 27
+        yy += 25
     for ln in S.wrap(T.get("check_note", ""), bar(18, "Medium"), 960)[:2]:
+        if yy + 22 > 2572:          # alt kaynak satırlarına taşmasın
+            break
         d.text((x0, yy + 22), ln, font=bar(18, "Medium"), fill=MUTE, anchor="ls")
         yy += 22
     srcs = [T.get("footnote_short") or f"Kaynak: il oranları {RECORDS['BG1875']['src']} · Osmanlı kaydı: {RECORDS['TUNA_1875']['src']}",
@@ -392,10 +394,17 @@ def post_rakamlar(out_dir):
     ROWS = P.stats(cl, np.array([v not in S.NONOTT for v in vil]))
     ROWS = [(n_, g_, p_, (34.9 if n_ == "Yanya" else r_)) for (n_, g_, p_, r_) in ROWS]
     P.REC_YEAR["Yanya"] = "1871"
+    # Niş sancağı (Tuna'nın 1876'da ayrı tutulan batı ucu) — TÜM RUMELİ toplamı bütün satırlarla kapansın
+    san = np.array([(c.get("sancak") or "") for c in cl]).astype(str)
+    gn = G[np.array([v not in S.NONOTT for v in vil]) & (vil == "Tuna") & np.char.startswith(san, "Niş")].sum(0)
+    if gn.sum() > 0:
+        ROWS = ROWS[:1] + sorted(ROWS[1:] + [("Niş sancağı", gn, largest_remainder(gn), 29.1)],
+                                 key=lambda r: -r[1][:TP.NMUS].sum() / max(1.0, r[1].sum()))
+        P.REC_YEAR["Niş sancağı"] = "1873"
     bx0, bw = 380, 560
     yy0 = y1 + 100
-    for i, (n_, gg, pp, rec) in enumerate(ROWS[:10]):
-        yy = yy0 + i * 64
+    for i, (n_, gg, pp, rec) in enumerate(ROWS[:11]):
+        yy = yy0 + i * 56
         d.text((110, yy + 30), n_, font=bar(28 if i else 30, "SemiBold"), fill=BRASS if i == 0 else IV, anchor="ls")
         d.text((110, yy + 52), fmt_int(gg.sum()) + " kişi", font=bar(16, "Medium"), fill=MUTE, anchor="ls")
         xs = bx0
@@ -407,13 +416,13 @@ def post_rakamlar(out_dir):
                 if w_ > 44:
                     d.text((xs + w_ / 2, yy + 30), f"{pint[gi]:.0f}", font=bar(18, "SemiBold"), fill=hx("#05080D"), anchor="ms")
             xs += w_
-        d.text((bx0 + bw + 16, yy + 36), fmt_pct(pp[:TP.NMUS].sum()), font=bs(40), fill=IV, anchor="ls")
+        d.text((bx0 + bw + 16, yy + 36), fmt_pct(100 * gg[:TP.NMUS].sum() / max(1.0, gg.sum())), font=bs(40), fill=IV, anchor="ls")
         if rec:
             xr = bx0 + bw * rec / 100
             d.rectangle((xr - 2, yy, xr + 2, yy + 42), fill=IV)
             d.polygon([(xr, yy - 10), (xr + 5, yy - 5), (xr, yy), (xr - 5, yy - 5)], fill=IV)
             d.text((bx0 + bw + 130, yy + 34), f"{P.REC_YEAR.get(n_, '')} %{str(rec).replace('.', ',')}", font=bar(20, "SemiBold"), fill=IV2, anchor="ls")
-    d.text((110, y1 + 742), "çubuk: harita modeli · ◆ çizgi: Osmanlı kaydı (Müslüman %) · büyük rakam: modelde Müslüman payı",
+    d.text((110, y1 + 742), "çubuk: harita modeli · beyaz çizgi: Osmanlı kaydı (Müslüman %) · büyük rakam: modelde Müslüman payı",
            font=bar(16, "Medium"), fill=MUTE, anchor="ls")
     # ---- Tuna kaydı (waffle)
     x2 = 1300
@@ -435,7 +444,7 @@ def post_rakamlar(out_dir):
             d.rectangle((xq, yq, xq + 9, yq + 9), outline=c_, width=1)
         else:
             d.rectangle((xq, yq, xq + 9, yq + 9), fill=c_)
-    yk = oy + 19 * pitch + 60
+    yk = oy + 19 * pitch + 90
     d.text((x2 + 30, yk), fmt_pct(RECORDS["TUNA_1875"]["muslim_pct"]), font=bs(80), fill=IV, anchor="ls")
     d.text((x2 + 30, yk + 34), "Müslüman", font=bar(24, "SemiBold"), fill=IV, anchor="ls")
     d.text((x2 + 300, yk), fmt_pct(RECORDS["TUNA_1875"]["bulgar_pct"]), font=bs(80), fill=hx(TP.TINT[8]), anchor="ls")
@@ -497,7 +506,8 @@ def post_rakamlar(out_dir):
         yy += 4
         if yy > y3 + 690:
             break
-    srcs = ["Kaynaklar: " + " · ".join([RECORDS["TUNA_1875"]["src"], RECORDS["EDIRNE_1293"]["src"], RECORDS["BOSNA_1287"]["src"], RECORDS["MCCARTHY"]["src"]]),
+    srcs = S.wrap(T.get("footnote_sources") or ("Kaynaklar: " + " · ".join([RECORDS["TUNA_1875"]["src"], RECORDS["EDIRNE_1293"]["src"], RECORDS["BOSNA_1287"]["src"], RECORDS["MCCARTHY"]["src"]])),
+                  bar(13, "Medium"), 1900)[:2] + [
             "Model: Osmanlı salname/sayım verilerine dayalı 702 bölge kümesi (ana poster ile aynı) · İstanbul ve 1876’da Osmanlı idaresi dışındaki devletler hariç"]
     finish(cv, 8, srcs, out_dir, "08_rakamlar")
 

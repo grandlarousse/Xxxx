@@ -7,21 +7,24 @@
    "sub": "Kırcaali–Mestanlı Türk köyleri",
    "group": 0,
    "lon": 25.55,
-   "lat": 41.72
+   "lat": 41.72,
+   "cat": "turk"
   },
   {
    "text": "DİMETOKA TEPELERİ",
    "sub": "Sünnî ve Kızılbaş Türk köyleri",
    "group": 0,
    "lon": 26.2,
-   "lat": 41.33
+   "lat": 41.33,
+   "cat": "turk"
   },
   {
    "text": "POMAK YAYLALARI",
    "sub": "Ahiçelebi · Madan",
    "group": 1,
    "lon": 24.85,
-   "lat": 41.5
+   "lat": 41.5,
+   "cat": "pomak"
   }
  ],
  "cities": [
@@ -235,6 +238,6 @@
   "src": "1875-76 tahriri, BOA Y.EE 34/48 (A. Koyuncu 2013)"
  },
  "line": "Kırcaali kazasının 101 köyünden 100’ünün adı Türkçeydi (1885); Arda boyundan Dimetoka tepelerine köylerin ezici çoğunluğu Türktü.",
- "sources_line": "Kaynaklar: 1875-76 tahriri, BOA Y.EE 34/48 ve 1293 Edirne salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · FO 881/3655 ve 1873 kaydı (M. Köse 2019) · 1293 Devlet Salnamesi (Ubicini 1876) · TDV İslâm Ansiklopedisi, “Kırcaali” (Kiprovska–Kiel) · kayıt oranları Yahudiler hariç · çubuklar, noktalar ve taralı alanlar: harita modeli",
+ "sources_line": "Kaynaklar: 1875-76 tahriri, BOA Y.EE 34/48 ve 1293 Edirne salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · FO 881/3655 ve 1873 kaydı (M. Köse 2019) · 1293 Devlet Salnamesi (Ubicini 1876) · TDV İslâm Ansiklopedisi, “Kırcaali” (Kiprovska–Kiel) · kayıt oranları Yahudiler hariç · noktalar ve taralı alanlar: harita modeli",
  "caption": "RUMELİ TÜRK YURTLARI 1876 · 1/5 | Doğu Rodoplar\n\nKırcaali, Mestanlı, Koşukavak, Sultanyeri ve Dimetoka tepeleri: 93 Harbi’nden hemen önce Rumeli’nin en yoğun Türk kuşaklarından biri.\n\n• Haritadaki kırmızı Türk yurdu yaklaşık 19.700 km²; burada yaşayanların %68,8’i Türk, %75,7’si Müslümandı (harita modeli).\n• 1875-76 tahririne göre Sultanyeri kazası %98,1 Müslümandı (BOA Y.EE 34/48; A. Koyuncu 2013).\n• Gümülcine kazasının köylerinde Müslüman oranı %76,6’ydı (FO 881/3655; M. Köse 2019).\n• 1885’te kaza olan Kırcaali’nin 101 köyünden 100’ünün adı Türkçeydi (TDV İslâm Ansiklopedisi).\n• Batıda Ahiçelebi ve Madan yaylalarında Pomaklar; Edirne–Dimetoka çevresinde Rum, Hasköy–Filibe tarafında Bulgar köyleri vardı.\n\nNasıl okunur? 1 nokta = 100 kişi. Kırmızı taralı alan Türk yurdudur (köylerin en az %40’ı Türk); köylerin en az %40’ı Müslüman olan yerler en kalabalık Müslüman topluluğun rengini alır; diğer alanlar yerel çoğunluk.\n\nAileniz Kırcaali’den, Koşukavak’tan, Dimetoka’dan mı? Köyünüzü yorumlara yazın.\n\n#DoğuRodoplar #Kırcaali #Koşukavak #Dimetoka #Gümülcine #Rodoplar #Rumeli #RumeliTürkleri #93Harbi #OsmanlıTarihi #BalkanTürkleri #Muhacir #TarihHaritası #Osmanlı"
 }

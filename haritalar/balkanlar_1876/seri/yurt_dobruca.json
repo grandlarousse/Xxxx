@@ -7,14 +7,16 @@
    "sub": "Tatar, Nogay ve Türk köyleri",
    "group": 0,
    "lon": 28.25,
-   "lat": 44.4
+   "lat": 44.4,
+   "cat": "turk"
   },
   {
    "text": "DELİORMAN",
    "sub": "Türk köyleri",
    "group": 0,
    "lon": 27.35,
-   "lat": 43.85
+   "lat": 43.85,
+   "cat": "turk"
   }
  ],
  "cities": [
@@ -33,7 +35,7 @@
    "tier": 1
   },
   {
-   "name": "Mankalya",
+   "name": "Mangalya",
    "modern": "Mangalia",
    "lon": 28.575,
    "lat": 43.818,
@@ -173,5 +175,5 @@
  },
  "line": "Kırım’dan gelen Tatar ve Nogaylar ile yerli Türkler, Mecidiye’den Mangalya’ya Dobruca yaylasını doldurmuştu.",
  "sources_line": "Kaynaklar: Tuna Vilâyeti salnamesi 1290/1873 (tashihli kaza sayıları) ve 1292/1875 Tahrir-i Cedid, muhacir sayıları Osmanlı kaynaklarından: A. Koyuncu, Turkish Studies 9/4 (2014) · yerleşim: C. Sax 1878 · Natural Earth",
- "caption": "RUMELİ TÜRK YURTLARI 1876 · 4/5 | Dobruca\n\nMecidiye’den Mangalya’ya, Köstence’den Babadağ’a: Tatar, Nogay ve Türk köylerinin yaylası.\n\n• Haritadaki kırmızı Türk yurdu yaklaşık 17.200 km²; burada yaşayanların %72,1’i Türk, %78,4’ü Müslümandı (harita modeli; Tatar ve Nogaylar Türk sayıldı).\n• 1873 Tuna salnamesine göre Köstence kazası %98,2 Müslümandı (A. Koyuncu 2014).\n• Kırım’dan gelen Tatar ve Nogaylar ile yerli Türkler Dobruca yaylasını doldurmuştu; Çerkes muhacir köyleri de vardı.\n• Kuzeyde Tulça ve Tuna deltasında Romen, Lipovan ve Bulgar köyleri yaşıyordu. 1878’de Kuzey Dobruca Romanya’ya bırakıldı.\n\nNasıl okunur? 1 nokta = 100 kişi. Kırmızı taralı alan Türk yurdudur (köylerin en az %40’ı Türk); köylerin en az %40’ı Müslüman olan yerler en kalabalık Müslüman topluluğun rengini alır; diğer alanlar yerel çoğunluk.\n\nDobrucalı Tatar ve Türk aileleri: hangi köydensiniz?\n\n#Dobruca #Köstence #Mecidiye #Mangalya #Babadağ #KırımTatarları #Nogay #Rumeli #RumeliTürkleri #93Harbi #OsmanlıTarihi #BalkanTürkleri #Muhacir #TarihHaritası #Osmanlı"
+ "caption": "RUMELİ TÜRK YURTLARI 1876 · 4/5 | Dobruca\n\nMecidiye’den Mangalya’ya, Köstence’den Babadağ’a: Tatar, Nogay ve Türk köylerinin yaylası.\n\n• Haritadaki kırmızı Türk yurdu yaklaşık 17.200 km²; burada yaşayanların %72,1’i Türk, %78,4’ü Müslümandı (harita modeli; Tatar ve Nogaylar Türk sayıldı).\n• 1873 Tuna salnamesine göre Köstence kazası %98,2 Müslümandı (A. Koyuncu 2014).\n• Kırım’dan gelen Tatar ve Nogaylar ile yerli Türkler Dobruca yaylasını doldurmuştu; Çerkes muhacir köyleri de vardı.\n• Kuzeyde Tulça ve Tuna deltasında Romen, Lipovan ve Bulgar köyleri vardı. 1878’de Kuzey Dobruca Romanya’ya bırakıldı.\n\nNasıl okunur? 1 nokta = 100 kişi. Kırmızı taralı alan Türk yurdudur (köylerin en az %40’ı Türk); köylerin en az %40’ı Müslüman olan yerler en kalabalık Müslüman topluluğun rengini alır; diğer alanlar yerel çoğunluk.\n\nDobrucalı Tatar ve Türk aileleri: hangi köydensiniz?\n\n#Dobruca #Köstence #Mecidiye #Mangalya #Babadağ #KırımTatarları #Nogay #Rumeli #RumeliTürkleri #93Harbi #OsmanlıTarihi #BalkanTürkleri #Muhacir #TarihHaritası #Osmanlı"
 }

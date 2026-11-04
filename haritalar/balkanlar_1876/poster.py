@@ -233,7 +233,8 @@ def build_masks(F):
     countries = R.ne_layer("countries")
     land = shapely.make_valid(gpd.GeoSeries([shapely.union_all(countries.geometry.values)], crs="EPSG:4326")
                               .clip((8, 30, 38, 52)).to_crs(E.CRS).iloc[0])
-    region = shapely.make_valid(R.data_region(countries))
+    # data_region render.CRS (lat_0=42.55) döndürür; çerçeve E.CRS (lat_0=42.4) kullanır → dönüştür
+    region = shapely.make_valid(gpd.GeoSeries([R.data_region(countries)], crs=R.CRS).to_crs(E.CRS).iloc[0])
     by = {r["ADM0_A3"]: r.geometry for _, r in countries.iterrows()}
     return countries, land, region, by
 

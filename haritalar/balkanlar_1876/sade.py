@@ -59,6 +59,22 @@ def rule_text(ppd):
 
 
 # ------------------------------------------------------------------ katmanlar
+def fill_alpha(g):
+    """Alan opaklığı: Türk taralı; Müslüman topluluklar ve diğer Hristiyan daha belirgin (gri görünmesin)."""
+    if g == 0:
+        return 0.50
+    if g < T.NMUS or g == T.IDX["hdiger"]:
+        return 0.42
+    return 0.27
+
+
+def swatch_rgb(g, bg="#1A212C"):
+    """Lejant kutusu: alanın haritada göründüğü renk (koyu rölyef üstünde)."""
+    a = fill_alpha(g)
+    c = np.array(hx(T.COL[g])[:3], float) * a + np.array(hx(bg)[:3], float) * (1 - a)
+    return tuple(int(v) for v in c)
+
+
 def fill_image(lab, weak=None, spacing=13, lw=2.4):
     """Türk yurdu: kırmızı + tarama + parlak sınır. Diğer topluluklar: düz soluk ton.
     weak: (H,W) float çarpan (ör. Osmanlı dışı 0.45, odak dışı 0.6)."""
@@ -71,11 +87,11 @@ def fill_image(lab, weak=None, spacing=13, lw=2.4):
         if not m.any():
             continue
         lay[m, :3] = np.array(hx(T.COL[g])[:3], np.float32)
-        lay[m, 3] = (0.50 + 0.30 * hatch[m]) if g == 0 else 0.27
+        lay[m, 3] = (fill_alpha(0) + 0.30 * hatch[m]) if g == 0 else fill_alpha(g)
     tm = lab == 0
     if tm.any():
         d_in = distance_transform_edt(tm)
-        d_out = distance_transform_edt(~tm & (lab >= 0))
+        d_out = distance_transform_edt(~tm)   # yalnız Türk yurdunun gerçek sınırı (kıyılar değil)
         edge = np.clip(2.0 - np.where(tm, d_in, d_out), 0, 1) * (lab >= 0)
         lay[..., :3] = lay[..., :3] * (1 - edge[..., None]) + np.array([255, 110, 125], np.float32) * edge[..., None]
         lay[..., 3] = np.maximum(lay[..., 3], edge * 0.95)
@@ -97,10 +113,17 @@ def draw_dots(img, x, y, k, alpha, r=1.55):
     img.alpha_composite(lay.resize((W, H), Image.LANCZOS))
 
 
+def _lw(f, row):
+    return sum(46 + f.getlength(T.NAMES[g]) + 30 for g in row) - 30
+
+
+def legend_two_rows(groups, maxw=1980):
+    return _lw(bar(25, "SemiBold"), groups) > maxw
+
+
 def legend(d, groups, y0, maxw=1980):
     """Tek satır; sığmazsa Müslüman ve Hristiyan iki satır. Son satırın y'sini döndürür."""
-    def width(f, row):
-        return sum(46 + f.getlength(T.NAMES[g]) + 30 for g in row) - 30
+    width = _lw
 
     f1 = bar(30, "SemiBold")
     while width(f1, groups) > maxw and f1.size > 25:
@@ -108,23 +131,25 @@ def legend(d, groups, y0, maxw=1980):
     rows = [groups] if width(f1, groups) <= maxw else [[g for g in groups if g < T.NMUS], [g for g in groups if g >= T.NMUS]]
     if len(rows) > 1:
         f1 = bar(30, "SemiBold")
-    yb = y0
+    yb = y0 - (12 if len(rows) > 1 else 0)
+    step_ = 40 if len(rows) > 1 else 44
     for row in rows:
         x0 = W / 2 - width(f1, row) / 2
         for g in row:
             if g == 0:
-                d.rectangle((x0, yb - 26, x0 + 32, yb - 2), fill=hx(T.COL[0], 210), outline=hx("#FF6E7D"), width=2)
-                for o in range(-30, 40, 9):
-                    d.line((x0 + o, yb - 2, x0 + o + 24, yb - 26), fill=hx("#FFB3BC", 150), width=2)
-                d.rectangle((x0 - 2, yb - 28, x0 + 34, yb), outline=hx(INK), width=2)
+                d.rectangle((x0, yb - 26, x0 + 32, yb - 2), fill=swatch_rgb(0))
+                for o in range(-24, 33, 8):          # haritadaki gibi '\' tarama, kutuya kırpılmış
+                    t0, t1 = max(0, -o), min(24, 32 - o)
+                    if t0 < t1:
+                        d.line((x0 + o + t0, yb - 26 + t0, x0 + o + t1, yb - 26 + t1), fill=(255, 179, 188), width=2)
                 d.rectangle((x0, yb - 26, x0 + 32, yb - 2), outline=hx("#FF6E7D"), width=2)
             else:
-                d.rectangle((x0, yb - 26, x0 + 32, yb - 2), fill=hx(T.COL[g], 120))
+                d.rectangle((x0, yb - 26, x0 + 32, yb - 2), fill=swatch_rgb(g))
                 d.ellipse((x0 + 11, yb - 19, x0 + 21, yb - 9), fill=hx(T.TINT[g]))
             d.text((x0 + 44, yb), T.NAMES[g], font=f1, fill=hx(T.TINT[g]), anchor="ls")
             x0 += 46 + f1.getlength(T.NAMES[g]) + 30
-        yb += 44
-    return yb - 44
+        yb += step_
+    return yb - step_
 
 
 # ------------------------------------------------------------------ çizim
@@ -151,7 +176,7 @@ def render_simple(spec, cfg, stem, cols_fn, extra_labels=None):
     cx, cy = np.asarray(cx), np.asarray(cy)
     rpx = np.array([c["radius_km"] for c in cl_all]) * 1000 / F.mpp
     near = (cx > -2 * rpx - 60) & (cx < W + 2 * rpx + 60) & (cy > -2 * rpx - 60) & (cy < H + 2 * rpx + 60)
-    cl = [c for c, n in zip(cl_all, near) if n and c.get("vilayet") != "İstanbul"]
+    cl = [c for c, n in zip(cl_all, near) if n]   # İstanbul haritada görünür, hesaplara katılmaz
     x, y, k, ci = E.make_dots(cl, F, regm2, elev2, people_per_dot=ppd, seed=1876, return_cluster=True, cats=T.CATS,
                               village_sigma_km=0.6 if ppd <= 100 else 0.9)
     xi, yi = np.clip(x.astype(int), 0, W - 1), np.clip(y.astype(int), 0, H - 1)
@@ -160,6 +185,8 @@ def render_simple(spec, cfg, stem, cols_fn, extra_labels=None):
     foc_c = np.array([True if focus is None else S.in_focus(c, focus) for c in cl])
     foc_d = foc_c[ci]
     inside = ott_d & foc_d
+    ist_c = np.array([c.get("vilayet") == "İstanbul" for c in cl])
+    inside_st = inside & ~ist_c[ci]          # istatistik: İstanbul hariç
     log(f"[{stem}] {x.size} nokta ({inside.sum()} odakta)")
 
     # odak alanı (piksel): en yakın kümenin odak bayrağı
@@ -184,11 +211,13 @@ def render_simple(spec, cfg, stem, cols_fn, extra_labels=None):
 
     # ---- alan: bütün veri alanı dolar (Osmanlı dışı soluk, odak dışı yarı soluk)
     area = regm & landm
+    dexp = T.expected_field(F, cl, regm2, elev2, ppd)
     lab = T.yurt_labels(F, x, y, k, area, sigma_km=spec.get("sigma_km", max(2.6, spec["width"] / 100)),
-                        smooth_km=spec.get("smooth_km", 1.6 if spec["width"] <= 300 else 2.4))
+                        smooth_km=spec.get("smooth_km", 1.6 if spec["width"] <= 300 else 2.4), dexp=dexp)
     weak = np.ones((H, W), np.float32)
-    weak[~ott1] = 0.45
-    weak[ott1 & ~focus_px] = 0.62
+    ff = gaussian_filter(focus_px.astype(np.float32), 4)
+    weak[ott1] = 0.62 + 0.38 * ff[ott1]
+    weak[~ott1] = 0.6
     base.alpha_composite(fill_image(lab, weak=weak))
     fade = np.ones((H, 1), np.float32)
     base.alpha_composite(P.draw_rivers(F, regm, fade, under=False))
@@ -208,24 +237,31 @@ def render_simple(spec, cfg, stem, cols_fn, extra_labels=None):
     zone = ott1 & focus_px & (lab >= 0)
     km2 = {g: float(((lab == g) & zone).sum() * px_km2) for g in range(NG)}
     tm = (lab == 0) & zone
-    in_t = tm[yi, xi] & inside
+    in_t = tm[yi, xi] & inside_st
     cnt_t = np.bincount(k[in_t], minlength=NG).astype(float)
     tp = 100 * cnt_t / max(1, cnt_t.sum())
-    allc = np.bincount(k[inside], minlength=NG).astype(float)
+    allc = np.bincount(k[inside_st], minlength=NG).astype(float)
     allp = 100 * allc / max(1, allc.sum())
     st = dict(km2_turk=km2[0], km2_muslim=sum(km2[g] for g in range(T.NMUS)), km2_all=float(zone.sum() * px_km2),
               turk_in_yurt=float(tp[0]), muslim_in_yurt=float(tp[:T.NMUS].sum()),
               shares=dict(zip(T.NAMES, allp.tolist())), muslim=float(allp[:T.NMUS].sum()),
               people=float(allc.sum() * ppd), people_yurt=float(cnt_t.sum() * ppd),
               km2_by=dict(zip(T.NAMES, [km2[g] for g in range(NG)])))
-    present = [g for g in range(NG) if allp[g] >= spec.get("legend_min", 0.6) or g == 0]
+    # lejant: görünen bantta (başlık ve alt şerit hariç) nokta payı ya da görünür alanı yeterli olan topluluklar
+    vis_d = inside & (y > MAP_TOP) & (y < MAP_BOT)
+    visp = 100 * np.bincount(k[vis_d], minlength=NG) / max(1, vis_d.sum())
+    vlab = lab[MAP_TOP:MAP_BOT]
+    vis_km2 = np.bincount(vlab[vlab >= 0].ravel(), minlength=NG) * px_km2
+    vis_min = 0.003 * max(1.0, vis_km2.sum())
+    present = [g for g in range(NG) if g == 0 or visp[g] >= spec.get("legend_min", 0.6) or vis_km2[g] >= vis_min]
     log(f"[{stem}] Türk yurdu ≈{km2[0]:,.0f} km² (içinde Türk %{tp[0]:.1f}, Müslüman %{tp[:T.NMUS].sum():.1f}) · "
         f"Müslüman topluluk alanı ≈{st['km2_muslim']:,.0f} km² / {st['km2_all']:,.0f} km²")
     log(f"[{stem}] topluluklar: " + ", ".join(f"{T.NAMES[g]} %{allp[g]:.1f}" for g in present))
 
     # ---- başlık arkası ve alt şerit koyulaştır
     yy = np.arange(H, dtype=np.float32)[:, None]
-    a_top = np.clip((MAP_TOP + 30 - yy) / 110, 0, 1) * 0.94
+    top_ = MAP_TOP + (36 if legend_two_rows(present) else 0)
+    a_top = np.clip((top_ + 30 - yy) / 110, 0, 1) * 0.94
     a_bot = np.clip((yy - (MAP_BOT - 30)) / 90, 0, 1) * 0.94
     ov = np.zeros((H, W, 4), np.uint8)
     ov[..., :3] = hx(INK)[:3]
@@ -350,7 +386,7 @@ def genel_cfg():
     if not cfg.get("cities"):
         key2 = {"Silistre", "Hezargrad", "Kırkkilise", "Tekfurdağı", "Şumnu", "Varna", "Tulça", "Kırcaali", "Drama",
                 "Serez", "Yanya", "İşkodra", "Prizren", "Mostar", "Banaluka", "Yenipazar", "Niş", "Vidin", "Tırnova", "Burgaz"}
-        cities = [dict(name=n, modern=m or "", lon=lo, lat=la, tier=1) for (n, m, lo, la) in P.T1 if n != "İstanbul"]
+        cities = [dict(name=n, modern=m or "", lon=lo, lat=la, tier=1) for (n, m, lo, la) in P.T1]
         cities += [dict(name=n, modern="", lon=lo, lat=la, tier=2) for (n, m, lo, la) in P.T2 + P.T3 if n in key2]
         cfg["cities"] = cities
     return cfg

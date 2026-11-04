@@ -7,14 +7,16 @@
    "sub": "Sünnî ve Kızılbaş Türk köyleri",
    "group": 0,
    "lon": 26.9,
-   "lat": 43.72
+   "lat": 43.72,
+   "cat": "turk"
   },
   {
    "text": "GERLOVO",
    "sub": "Osman Pazarı Türkleri",
    "group": 0,
    "lon": 26.45,
-   "lat": 43.03
+   "lat": 43.03,
+   "cat": "turk"
   }
  ],
  "cities": [
