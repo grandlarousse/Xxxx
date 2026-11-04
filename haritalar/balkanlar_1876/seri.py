@@ -424,7 +424,7 @@ def render_region(key, cfg, out_dir, ppd=100):
     while bod(ss, 600, 11).getlength(sub) > 1900:
         ss -= 2
     cv.halo((W / 2, 376), sub, bod(ss, 600, 11), IV2, anchor="ms", rad=6, strength=0.6)
-    items = [(0, "Türk"), (1, "Diğer Müslüman"), (2, "Hristiyan")]
+    items = [(0, "Türk"), (1, "Balkan Müslümanları"), (2, "Hristiyan")]
     f1, f2 = bar(34, "SemiBold"), bar(28, "Medium")
     unit = f"1 nokta = {ppd} kişi (≈ {ppd // 5} hane)" + ("  ·  taralı alan: çevredeki köylerin çoğunluğu" if reg.get("fill", True) else " · soluk: bölge dışı ya da 1876’da Osmanlı idaresi dışında")
     tot = sum(62 + f1.getlength(t) + 40 for _, t in items) + 26 + f2.getlength(unit)

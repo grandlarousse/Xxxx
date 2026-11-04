@@ -29,7 +29,7 @@
   "compare_3_sub": "Filibe ve İslimye sancakları, 1293/1876 kaydı · Güney Bulgaristan · erkek nüfus",
   "compare_4_value": "%61,1",
   "compare_4_label": "Hristiyan",
-  "compare_4_sub": "harita modeli, bugünkü sınırlar · Bulgar + Rum, Ulah, Gagavuz, Ermeni · Türk %30,1 · diğer Müslüman %8,8",
+  "compare_4_sub": "harita modeli, bugünkü sınırlar · Bulgar + Rum, Ulah, Gagavuz, Ermeni · Türk %30,1 · Balkan Müslümanları %8,8",
   "compare_note": "Kayıtlar farklı sınırları ve yalnız erkekleri sayar; model il oranlarına göre ayarlandı, bağımsız bir sağlama değildir.",
   "check_sub": "Aynı adı taşıyan sancak (1292/1875 kaydı, Bulgar milleti) ve bugünkü il (1875, Bulgar)",
   "check_col_left": "OSMANLI SANCAĞI · 1292/1875",
@@ -216,7 +216,7 @@
   {
    "key": "model_11_muslim",
    "value": "%64,1",
-   "src": "harita modeli (aynı noktalar) · 11 il: Türk 544.000 + diğer Müslüman 103.750 / 1.010.500"
+   "src": "harita modeli (aynı noktalar) · 11 il: Türk 544.000 + Balkan Müslümanları 103.750 / 1.010.500"
   },
   {
    "key": "model_11_turk",
@@ -370,146 +370,146 @@
   },
   {
    "key": "model_Kardzhali",
-   "value": "Türk %83,9 · diğer Müslüman %12,1 · Hristiyan %4,0",
+   "value": "Türk %83,9 · Balkan Müslümanları %12,1 · Hristiyan %4,0",
    "src": "harita modeli (küme nüfusunun il sınırına düşen beklenen payı, calibrate.footprint_matrix)"
   },
   {
    "key": "model_Dobrich",
-   "value": "Türk %59,1 · diğer Müslüman %11,9 · Hristiyan %29,0",
+   "value": "Türk %59,1 · Balkan Müslümanları %11,9 · Hristiyan %29,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Varna",
-   "value": "Türk %55,3 · diğer Müslüman %13,7 · Hristiyan %31,0",
+   "value": "Türk %55,3 · Balkan Müslümanları %13,7 · Hristiyan %31,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Silistra",
-   "value": "Türk %63,6 · diğer Müslüman %6,3 · Hristiyan %30,0",
+   "value": "Türk %63,6 · Balkan Müslümanları %6,3 · Hristiyan %30,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Razgrad",
-   "value": "Türk %56,8 · diğer Müslüman %5,2 · Hristiyan %38,0",
+   "value": "Türk %56,8 · Balkan Müslümanları %5,2 · Hristiyan %38,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Smolyan",
-   "value": "Türk %7,8 · diğer Müslüman %53,2 · Hristiyan %39,0",
+   "value": "Türk %7,8 · Balkan Müslümanları %53,2 · Hristiyan %39,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Ruse",
-   "value": "Türk %49,2 · diğer Müslüman %8,9 · Hristiyan %42,0",
+   "value": "Türk %49,2 · Balkan Müslümanları %8,9 · Hristiyan %42,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Targovishte",
-   "value": "Türk %55,2 · diğer Müslüman %3,8 · Hristiyan %41,0",
+   "value": "Türk %55,2 · Balkan Müslümanları %3,8 · Hristiyan %41,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Haskovo",
-   "value": "Türk %51,7 · diğer Müslüman %4,3 · Hristiyan %44,0",
+   "value": "Türk %51,7 · Balkan Müslümanları %4,3 · Hristiyan %44,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Grad Sofiya",
-   "value": "Türk %39,4 · diğer Müslüman %9,7 · Hristiyan %50,9",
+   "value": "Türk %39,4 · Balkan Müslümanları %9,7 · Hristiyan %50,9",
    "src": "harita modeli (beklenen pay) · BASMAYIN: kalibrasyon artefaktı, notlara bakın"
   },
   {
    "key": "model_Shumen",
-   "value": "Türk %49,6 · diğer Müslüman %5,4 · Hristiyan %45,0",
+   "value": "Türk %49,6 · Balkan Müslümanları %5,4 · Hristiyan %45,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Burgas",
-   "value": "Türk %35,3 · diğer Müslüman %4,7 · Hristiyan %60,0",
+   "value": "Türk %35,3 · Balkan Müslümanları %4,7 · Hristiyan %60,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Blagoevgrad",
-   "value": "Türk %15,4 · diğer Müslüman %26,6 · Hristiyan %58,0",
+   "value": "Türk %15,4 · Balkan Müslümanları %26,6 · Hristiyan %58,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Pleven",
-   "value": "Türk %28,4 · diğer Müslüman %12,6 · Hristiyan %59,0",
+   "value": "Türk %28,4 · Balkan Müslümanları %12,6 · Hristiyan %59,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Veliko Tarnovo",
-   "value": "Türk %33,9 · diğer Müslüman %5,1 · Hristiyan %61,0",
+   "value": "Türk %33,9 · Balkan Müslümanları %5,1 · Hristiyan %61,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Yambol",
-   "value": "Türk %32,4 · diğer Müslüman %5,6 · Hristiyan %62,0",
+   "value": "Türk %32,4 · Balkan Müslümanları %5,6 · Hristiyan %62,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Plovdiv",
-   "value": "Türk %24,6 · diğer Müslüman %7,4 · Hristiyan %68,0",
+   "value": "Türk %24,6 · Balkan Müslümanları %7,4 · Hristiyan %68,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Sliven",
-   "value": "Türk %30,2 · diğer Müslüman %3,8 · Hristiyan %66,0",
+   "value": "Türk %30,2 · Balkan Müslümanları %3,8 · Hristiyan %66,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Pazardzhik",
-   "value": "Türk %9,5 · diğer Müslüman %17,5 · Hristiyan %73,0",
+   "value": "Türk %9,5 · Balkan Müslümanları %17,5 · Hristiyan %73,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Vidin",
-   "value": "Türk %13,2 · diğer Müslüman %7,8 · Hristiyan %79,0",
+   "value": "Türk %13,2 · Balkan Müslümanları %7,8 · Hristiyan %79,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Stara Zagora",
-   "value": "Türk %19,7 · diğer Müslüman %3,3 · Hristiyan %77,0",
+   "value": "Türk %19,7 · Balkan Müslümanları %3,3 · Hristiyan %77,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Montana",
-   "value": "Türk %11,7 · diğer Müslüman %10,3 · Hristiyan %78,0",
+   "value": "Türk %11,7 · Balkan Müslümanları %10,3 · Hristiyan %78,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Vratsa",
-   "value": "Türk %13,8 · diğer Müslüman %9,2 · Hristiyan %77,0",
+   "value": "Türk %13,8 · Balkan Müslümanları %9,2 · Hristiyan %77,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Lovech",
-   "value": "Türk %9,8 · diğer Müslüman %13,2 · Hristiyan %77,0",
+   "value": "Türk %9,8 · Balkan Müslümanları %13,2 · Hristiyan %77,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Sofia",
-   "value": "Türk %9,7 · diğer Müslüman %3,5 · Hristiyan %86,8",
+   "value": "Türk %9,7 · Balkan Müslümanları %3,5 · Hristiyan %86,8",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Kyustendil",
-   "value": "Türk %9,4 · diğer Müslüman %1,6 · Hristiyan %89,0",
+   "value": "Türk %9,4 · Balkan Müslümanları %1,6 · Hristiyan %89,0",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Pernik",
-   "value": "Türk %6,8 · diğer Müslüman %2,3 · Hristiyan %90,9",
+   "value": "Türk %6,8 · Balkan Müslümanları %2,3 · Hristiyan %90,9",
    "src": "harita modeli (beklenen pay)"
   },
   {
    "key": "model_Gabrovo",
-   "value": "Türk %5,4 · diğer Müslüman %0,6 · Hristiyan %94,0",
+   "value": "Türk %5,4 · Balkan Müslümanları %0,6 · Hristiyan %94,0",
    "src": "harita modeli (beklenen pay)"
   }
  ],
  "caption": "RUMELİ 1876 · 7/8 | Bulgaristan 1875, il il\n\nBugünkü Bulgaristan’ın 28 ilinden 11’inde, 1875’te Bulgarlar nüfusun yarısından azdı. Kırcaali’de her 100 kişiden yalnızca 3’ü Bulgardı; Varna ile Hacıoğlu Pazarcığı’nda (Dobriç) 25’i, Silistre’de 27’si. Deliorman’dan Dobruca kıyısına, Rodoplardan Hasköy’e uzanan bu kuşakta çoğunluk Türklerin ve Pomakların, yani Müslümanlarındı.\n\nBütün ülke için tablo: %55,8 Bulgar. Her 100 kişiden 44’ü Bulgar değildi.\n\nOsmanlı kaydı da aynı şeyi söylüyor. Tuna Vilâyeti’nin 1292/1875 tahririnde (Tahrir-i Cedid) erkek nüfusun %54,0’ı “Bulgar milleti”, %41,2’si Müslümandı. Güneyde, Filibe ve İslimye sancaklarının 1293/1876 kaydında Müslümanların payı %40,5’ti. Aynı adı taşıyan sancak ve illerde kayıt ile il rakamları birbirini tutuyor: Vidin %73,4, Tırnova %60,5, Rusçuk %37,1, Varna %24,8 Bulgar.\n\nHaritamızın modeline göre bugünkü sınırlar içinde yaklaşık 1,3 milyon Müslüman yaşıyordu; bunun yaklaşık 1 milyonu Türktü.\n\nİki yıl sonra 93 Harbi başladı ve bu tablo bir daha geri gelmedi. Serinin son gönderisinde savaşın bilançosunu rakamlarla anlatacağız.\n\nNot: Rakamlar bugünkü il sınırlarına göredir. Osmanlı kayıtları erkekleri ve dinî topluluğu (millet) sayar; “Bulgar milleti” Gagavuzları da kapsar. Sofya (şehir) oranı yalnız 1875’teki Sofya kasabasına uyar.\n\nKaynaklar: il oranları: swenstone0 derlemesi · Tuna Vilâyeti 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne vilâyeti 1293 salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · harita modeli: 702 bölge kümesi, Bulgaristan’da il oranlarına göre ayarlandı.\n\nSizin aileniz bu illerin hangisinden geldi? Yorumlara yazın.\n\n#Rumeli #93Harbi #OsmanlıTarihi #Balkanlar #Bulgaristan #Deliorman #Dobruca #Kırcaali #Rodoplar #TunaVilayeti #Muhacir #TarihHaritası",
  "caption_post1": "",
- "notes": "POST 7/8 is ready: texts, numbers and caption (1.773 characters, 12 hashtags). Nothing in /home/user/Xxxx/haritalar/balkanlar_1876 was changed by me. The engine.py, poster.py and seri.py edits that git shows came from elsewhere. The engine.py change touches only the DEM zoom, and my model total of %61,1 matches post 1. Scratch work is in /tmp/claude-0/-home-user-Xxxx/8312eb06-b97c-549a-9b3c-9a6885d14721/scratchpad/post7/ (model_oblast.py, model_oblast.json, labels.json, post7_final.json, caption.txt).\n\nNAMES\n- Text keys use the exact Natural Earth / TARGET_BG oblast names, with spaces: 'name_Grad Sofiya', 'name_Veliko Tarnovo', 'name_Stara Zagora'. The modern_<Oblast> keys hold small subtitle names, styled like post 1 (e.g. 'V. Tarnovo').\n- Pernik is labelled 'Radomir'. In 1875 Pernik was a village. The area's seat was Radomir kazası (Sofya sancağı), and the research cluster is called 'Radomir, Breznik ve Pernik'. İznebol (Trǎn) covers only a small western corner, so I did not use it.\n- Blagoevgrad is labelled 'Yukarı Cuma' (= Cuma-i Bâlâ). Natural Earth's own Turkish name ('Yukarı Cuma ili') agrees.\n- Sofia oblast is labelled 'Sofya (il)' and Grad Sofiya 'Sofya (şehir)'.\n\nRANKED LIST\n- Ascending order is in texts.rank_order. Ties are broken alphabetically by the Turkish name. Draw the %50 divider between Şumnu (43) and Burgaz (54). 11 provinces fall below it.\n\nNUMBERS\n- Model totals (%61,1 Hristiyan, %30,1 Türk, %8,8 diğer Müslüman; ≈1,3 milyon Müslüman; the 11-province figures %64,1 / %53,8) use poster.py's own dots (make_dots seed 1876). They match post 1.\n- The per-province model_* values are expected shares from the footprint matrix (all 28 together give 60,9). They are smoother than the dot counts but slightly inconsistent with the totals.\n- Print per-province model values only as Türk vs diğer Müslüman hints (e.g. Kırcaali mostly Türk; Paşmaklı mostly diğer Müslüman = Pomak). Their Christian share is by construction the target plus a non-Bulgarian allowance (calibrate.ALLOW), so it proves nothing.\n- Do not print model_Grad Sofiya (see the hazard below).\n- Sancak Bulgarian shares (Vidin 73,41, Tırnova 60,48, Rusçuk 37,05, Varna 24,78, Sofya 84,06, Tulça 12,07; Koyuncu Tablo 20, from revise_tuna.json) rebuild the record's own total: 605.796 / 1.120.954 = %54,04, matching %54,0.\n- The research file says the northern oblast targets were themselves derived from these sancak shares. So call the check panel 'birbirini tutar', never independent proof.\n\nDATA HAZARD FOR ALL SERIES POSTS\n- auto_calibrate pushed town-level shares in clusters_calibrated.json far from the Ottoman records inside Bulgaria. Christian % now vs research:\n  - Sofya şehri 2,3 (53,0)\n  - Şumnu şehri 85,5 (49,0)\n  - Hezargrad şehri 69,6 (34,0; TDV gives 6.860 Muslim / 3.540 non-Muslim for 1873)\n  - Lofça şehri 69,0 (29,8)\n  - Eski Cuma şehri 68,0 (36,8)\n  - Preslav–Smyadovo 69,6 (29,8)\n  - Sofya ovası köyleri 54,0 (87,1)\n- Posts 2/8 and 3/8 must not print town or kaza shares from clusters_calibrated.json. Use the revise_*.json values instead.\n- Across Bulgaria the calibration also lowered Muslims: 41,9% before vs 39,3% after, about 87.000 people (cluster centres inside Bulgaria). So the model is on the conservative side for Muslims. This supports the callout_kaza text, which is optional.\n\nGRAD SOFIYA\n- The research says the %42 target fits only the town of Sofia. The plain villages inside the polygon were roughly 87–95% Bulgarian.\n- I kept the user's figure and added sofya_note and the method_note sentence. Please keep at least one of them on the image.\n\nLABEL ANCHORS\nPoints inside each Natural Earth polygon (polylabel, lon, lat):\nKardzhali 25.393,41.516 · Dobrich 27.781,43.711 · Varna 27.573,43.201 · Silistra 27.046,43.937 · Razgrad 26.564,43.647 · Smolyan 24.752,41.661 · Ruse 25.826,43.555 · Targovishte 26.303,43.243 · Haskovo 25.881,41.869 · Grad Sofiya 23.348,42.678 · Shumen 27.000,43.384 · Burgas 27.189,42.651 · Blagoevgrad 23.483,41.736 · Pleven 24.534,43.509 · Veliko Tarnovo 25.803,43.114 · Yambol 26.626,42.278 · Plovdiv 24.787,42.345 · Sliven 26.283,42.742 · Pazardzhik 24.161,42.073 · Vidin 22.624,43.821 · Stara Zagora 25.493,42.461 · Montana 23.271,43.644 · Vratsa 23.875,43.526 · Lovech 24.380,43.000 · Sofia 23.845,42.804 · Kyustendil 22.646,42.277 · Pernik 22.896,42.584 · Gabrovo 25.128,42.938\nGrad Sofiya is small: use a leader line, or small type as in post 1.\n\nOPTIONAL ELEMENTS\ncallout_kaza, compare_3 (Filibe–İslimye %40,5), the tuna_sancak_muslim row and footnote_short can be dropped if space is tight. Keep compare_note so the comparison stays honest."
+ "notes": "POST 7/8 is ready: texts, numbers and caption (1.773 characters, 12 hashtags). Nothing in /home/user/Xxxx/haritalar/balkanlar_1876 was changed by me. The engine.py, poster.py and seri.py edits that git shows came from elsewhere. The engine.py change touches only the DEM zoom, and my model total of %61,1 matches post 1. Scratch work is in /tmp/claude-0/-home-user-Xxxx/8312eb06-b97c-549a-9b3c-9a6885d14721/scratchpad/post7/ (model_oblast.py, model_oblast.json, labels.json, post7_final.json, caption.txt).\n\nNAMES\n- Text keys use the exact Natural Earth / TARGET_BG oblast names, with spaces: 'name_Grad Sofiya', 'name_Veliko Tarnovo', 'name_Stara Zagora'. The modern_<Oblast> keys hold small subtitle names, styled like post 1 (e.g. 'V. Tarnovo').\n- Pernik is labelled 'Radomir'. In 1875 Pernik was a village. The area's seat was Radomir kazası (Sofya sancağı), and the research cluster is called 'Radomir, Breznik ve Pernik'. İznebol (Trǎn) covers only a small western corner, so I did not use it.\n- Blagoevgrad is labelled 'Yukarı Cuma' (= Cuma-i Bâlâ). Natural Earth's own Turkish name ('Yukarı Cuma ili') agrees.\n- Sofia oblast is labelled 'Sofya (il)' and Grad Sofiya 'Sofya (şehir)'.\n\nRANKED LIST\n- Ascending order is in texts.rank_order. Ties are broken alphabetically by the Turkish name. Draw the %50 divider between Şumnu (43) and Burgaz (54). 11 provinces fall below it.\n\nNUMBERS\n- Model totals (%61,1 Hristiyan, %30,1 Türk, %8,8 Balkan Müslümanları; ≈1,3 milyon Müslüman; the 11-province figures %64,1 / %53,8) use poster.py's own dots (make_dots seed 1876). They match post 1.\n- The per-province model_* values are expected shares from the footprint matrix (all 28 together give 60,9). They are smoother than the dot counts but slightly inconsistent with the totals.\n- Print per-province model values only as Türk vs Balkan Müslümanları hints (e.g. Kırcaali mostly Türk; Paşmaklı mostly Balkan Müslümanları = Pomak). Their Christian share is by construction the target plus a non-Bulgarian allowance (calibrate.ALLOW), so it proves nothing.\n- Do not print model_Grad Sofiya (see the hazard below).\n- Sancak Bulgarian shares (Vidin 73,41, Tırnova 60,48, Rusçuk 37,05, Varna 24,78, Sofya 84,06, Tulça 12,07; Koyuncu Tablo 20, from revise_tuna.json) rebuild the record's own total: 605.796 / 1.120.954 = %54,04, matching %54,0.\n- The research file says the northern oblast targets were themselves derived from these sancak shares. So call the check panel 'birbirini tutar', never independent proof.\n\nDATA HAZARD FOR ALL SERIES POSTS\n- auto_calibrate pushed town-level shares in clusters_calibrated.json far from the Ottoman records inside Bulgaria. Christian % now vs research:\n  - Sofya şehri 2,3 (53,0)\n  - Şumnu şehri 85,5 (49,0)\n  - Hezargrad şehri 69,6 (34,0; TDV gives 6.860 Muslim / 3.540 non-Muslim for 1873)\n  - Lofça şehri 69,0 (29,8)\n  - Eski Cuma şehri 68,0 (36,8)\n  - Preslav–Smyadovo 69,6 (29,8)\n  - Sofya ovası köyleri 54,0 (87,1)\n- Posts 2/8 and 3/8 must not print town or kaza shares from clusters_calibrated.json. Use the revise_*.json values instead.\n- Across Bulgaria the calibration also lowered Muslims: 41,9% before vs 39,3% after, about 87.000 people (cluster centres inside Bulgaria). So the model is on the conservative side for Muslims. This supports the callout_kaza text, which is optional.\n\nGRAD SOFIYA\n- The research says the %42 target fits only the town of Sofia. The plain villages inside the polygon were roughly 87–95% Bulgarian.\n- I kept the user's figure and added sofya_note and the method_note sentence. Please keep at least one of them on the image.\n\nLABEL ANCHORS\nPoints inside each Natural Earth polygon (polylabel, lon, lat):\nKardzhali 25.393,41.516 · Dobrich 27.781,43.711 · Varna 27.573,43.201 · Silistra 27.046,43.937 · Razgrad 26.564,43.647 · Smolyan 24.752,41.661 · Ruse 25.826,43.555 · Targovishte 26.303,43.243 · Haskovo 25.881,41.869 · Grad Sofiya 23.348,42.678 · Shumen 27.000,43.384 · Burgas 27.189,42.651 · Blagoevgrad 23.483,41.736 · Pleven 24.534,43.509 · Veliko Tarnovo 25.803,43.114 · Yambol 26.626,42.278 · Plovdiv 24.787,42.345 · Sliven 26.283,42.742 · Pazardzhik 24.161,42.073 · Vidin 22.624,43.821 · Stara Zagora 25.493,42.461 · Montana 23.271,43.644 · Vratsa 23.875,43.526 · Lovech 24.380,43.000 · Sofia 23.845,42.804 · Kyustendil 22.646,42.277 · Pernik 22.896,42.584 · Gabrovo 25.128,42.938\nGrad Sofiya is small: use a leader line, or small type as in post 1.\n\nOPTIONAL ELEMENTS\ncallout_kaza, compare_3 (Filibe–İslimye %40,5), the tuna_sancak_muslim row and footnote_short can be dropped if space is tight. Keep compare_note so the comparison stays honest."
 }

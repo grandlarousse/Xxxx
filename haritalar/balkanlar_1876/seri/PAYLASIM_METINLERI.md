@@ -16,7 +16,7 @@ RUMELİ’NİN SON IŞIKLARI · 1876 | RUMELİ 1876 · 1/8
 
 1876’da Balkanlar’da kim, nerede yaşıyordu?
 
-Her nokta yaklaşık 250 kişi (≈50 hane). Kırmızı: Türk (Tatar ve Nogaylar dâhil). Sarı: diğer Müslümanlar (Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman). Mavi: Hristiyanlar (Bulgar, Rum, Sırp, Ulah, Ermeni, Gagavuz…).
+Her nokta yaklaşık 250 kişi (≈50 hane). Kırmızı: Türk (Tatar ve Nogaylar dâhil). Sarı: Balkan Müslümanları (Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman). Mavi: Hristiyanlar (Bulgar, Rum, Sırp, Ulah, Ermeni, Gagavuz…).
 
 Zaman: 1877-78 Osmanlı-Rus Harbi’nden, yani 93 Harbi’nden hemen önce. Deliorman ve Dobruca, Doğu Rodoplar, Kırcaali, Konyar Türkleri, Pomak, Arnavut ve Boşnak yurtları haritada ışık ışık seçiliyor.
 
@@ -118,7 +118,7 @@ RUMELİ 1876 · 4/8 — Makedonya ve Teselya
 
 Ayastefanos (1878) Makedonya'nın büyük kısmını Bulgaristan'a veriyordu; Berlin Kongresi bölgeyi Osmanlı'ya geri bıraktı. Makedonya, Bulgaristan'dan ve Niş'ten kaçan muhacirlere sığınak oldu.
 
-Noktalar temsilîdir: her nokta yaklaşık 100 kişiyi (≈20 hane) gösterir ve kaza toplamlarına göre yerleşime uygun alanlara dağıtılmıştır. Kırmızı Türk, sarı diğer Müslüman (Pomak, Arnavut, Torbeş), mavi Hristiyan.
+Noktalar temsilîdir: her nokta yaklaşık 100 kişiyi (≈20 hane) gösterir ve kaza toplamlarına göre yerleşime uygun alanlara dağıtılmıştır. Kırmızı Türk, sarı Balkan Müslümanları (Pomak, Arnavut, Torbeş), mavi Hristiyan.
 
 Kaynaklar: 1881/82 Osmanlı sayımı (K. Karpat, 1985); M. T. Gökbilgin, İA "Selanik"; 1871 Yanya salnamesi (F. Öncel); 1878 Teselya sayımı (İ. Serbestoğlu, Belleten).
 
@@ -228,7 +228,7 @@ Serinin son gönderisi: haritaların arkasındaki rakamlar.
 
 1876’da, 93 Harbi’nden (1877-78 Osmanlı-Rus Harbi) hemen önce, Osmanlı idaresindeki Rumeli’de (İstanbul hariç) yaklaşık 9,5 milyon kişi yaşıyordu. Harita modelimize göre:
 ▪ Türk: 2,07 milyon (%21,8)
-▪ Diğer Müslüman (Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman): 2,13 milyon (%22,3)
+▪ Balkan Müslümanları (Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman): 2,13 milyon (%22,3)
 ▪ Hristiyan: 5,32 milyon (%55,9)
 Her 100 kişiden 44’ü Müslümandı. Rumeli Türklerinin %69’u Tuna ve Edirne vilâyetlerinde yaşıyordu.
 
@@ -240,7 +240,7 @@ Berlin (1878) ve Teselya’nın devriyle (1881), 1876’daki Rumeli Müslümanla
 
 Seri: 1 Genel harita · 2 Deliorman ve Dobruca · 3 Trakya ve Rodoplar · 4 Makedonya ve Teselya · 5 Arnavutluk, Kosova ve Epir · 6 Bosna-Hersek ve Yenipazar · 7 Bulgaristan 1875, il il · 8 Rakamlar
 
-Kaynaklar: Tuna 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne 1293 Devlet Salnamesi · Bosna 1287/1870 salnamesi (Z. Gölen, Belleten 65, 2001) · McCarthy tahmini, aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013). Model: Osmanlı kayıtları esas, erkek sayımları ×2, Yahudiler ve İstanbul hariç. Türk / diğer Müslüman ayrımı ve kayıp rakamları tahmindir.
+Kaynaklar: Tuna 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne 1293 Devlet Salnamesi · Bosna 1287/1870 salnamesi (Z. Gölen, Belleten 65, 2001) · McCarthy tahmini, aktaran A. Koyuncu, Avrasya Etüdleri 44 (2013). Model: Osmanlı kayıtları esas, erkek sayımları ×2, Yahudiler ve İstanbul hariç. Türk / Balkan Müslümanları ayrımı ve kayıp rakamları tahmindir.
 
 #Rumeli #93Harbi #OsmanlıTarihi #Balkanlar #BalkanTürkleri #TunaVilayeti #Deliorman #Dobruca #Edirne #Bosna #Kosova #Teselya #BerlinAntlaşması #Muhacir #TarihHaritası
 ```

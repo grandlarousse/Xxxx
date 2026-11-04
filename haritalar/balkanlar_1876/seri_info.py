@@ -345,7 +345,7 @@ def post_rakamlar(out_dir):
         d.text((xs + 16, by + 50), f"{P.GROUP_NAMES[gi]} {fmt_pct(p[gi])}", font=bar(30, "SemiBold"), fill=hx("#05080D"), anchor="ls")
         d.text((xs + 16, by + 112), fmt_int(g[gi]) + " kişi", font=bar(22, "Medium"), fill=IV2, anchor="ls")
         xs += w_
-    d.text((110, y0 + 494), "Türk: Tatar ve Nogaylar dâhil · Diğer Müslüman: Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman · Yahudiler gösterilmedi",
+    d.text((110, y0 + 494), "Türk: Tatar ve Nogaylar dâhil · Balkan Müslümanları: Pomak, Arnavut, Boşnak, Çerkes, Müslüman Roman · Yahudiler gösterilmedi",
            font=bar(18, "Medium"), fill=MUTE, anchor="ls")
     # ---- vilayet tablosu
     y1 = 1040

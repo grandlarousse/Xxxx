@@ -52,7 +52,7 @@ TINT = {0: hx("#FF6B7F"), 1: hx("#FFD166"), 2: hx("#7FB2FF")}
 IV, IV2, MUTE = hx("#F1E9D8"), hx("#DED6C6"), hx("#96A0B2")
 BRASS, BRASS_L, BRASS_D = hx("#B89B5E"), hx("#D9BE84"), hx("#7E6538")
 FRONT = hx("#EDE3CC")
-GROUP_NAMES = ["Türk", "Diğer Müslüman", "Hristiyan"]
+GROUP_NAMES = ["Türk", "Balkan Müslümanları", "Hristiyan"]
 
 # ------------------------------------------------------------------ kayıtlar
 RECORDS = {
@@ -1003,7 +1003,7 @@ def main():
     cv.halo((W / 2, 318), "RUMELİ’NİN SON IŞIKLARI", bs(tsize), IV, anchor="ms", rad=8, strength=0.6)
     cv.halo((W / 2, 416), "1876’da Balkanlar’da kim, nerede yaşıyordu?", bod(64, 600, 11), IV2, anchor="ms", rad=6, strength=0.6)
     # lejant satırı
-    items = [(0, "Türk"), (1, "Diğer Müslüman"), (2, "Hristiyan")]
+    items = [(0, "Türk"), (1, "Balkan Müslümanları"), (2, "Hristiyan")]
     f1, f2 = bar(38, "SemiBold"), bar(32, "Medium")
     unit = "1 nokta = 250 kişi (≈ 50 hane)" + ("  ·  taralı alan: çevredeki köylerin çoğunluğu" if a.doldur else "")
     tot = sum(70 + f1.getlength(t) + 44 for _, t in items) + 30 + f2.getlength(unit)
