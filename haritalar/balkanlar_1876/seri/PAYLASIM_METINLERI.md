@@ -12,7 +12,7 @@ Görseller: `cikti/seri/NN_*_ig.jpg` (Instagram 1080×1350). Tam çözünürlük
 Görsel: `cikti/seri/01_*_ig.jpg`
 
 ```
-RUMELİ’NİN SON IŞIKLARI · 1876 | RUMELİ 1876 · 1/8
+RUMELİ 1876 · 1/8 | Rumeli’nin Son Işıkları
 
 1876’da Balkanlar’da kim, nerede yaşıyordu?
 
@@ -23,13 +23,13 @@ Zaman: 93 Harbi’nden (1877-78 Osmanlı-Rus Harbi) hemen önce. Deliorman ve Do
 ▪ Osmanlı kaydı: Tuna Vilâyeti 1875 tahririne göre erkek nüfusun %41,2’si Müslüman, %54,0’ı Bulgar milleti.
 ▪ Bugünkü Bulgaristan toprakları 1875: nüfusun %55,8’i Bulgar; 28 ilin 11’inde Bulgarlar yarının altındaydı, Kırcaali’de yalnızca %3.
 ▪ İstanbul hariç tüm Rumeli’de (harita modeli) her 100 kişiden 44’ü Müslümandı.
-▪ Haritadaki kırmızı taralı Türk yurdu: yaklaşık 102.200 km² (harita modeli).
+▪ Haritadaki kırmızı taralı Türk yurdu: yaklaşık 100.600 km² (harita modeli).
 
 Sonra 93 Harbi geldi: J. McCarthy’nin tahminine göre Tuna vilâyeti ve sonraki Şarkî Rumeli’deki 1.501.883 Müslümandan 261.937’si hayatını kaybetti, 515.000’i göç etti. Bu harita, büyük göçten hemen önceki Rumeli’yi gösteriyor.
 
 Sıradaki gönderiler: 2–6 bölgeler, 7 Bulgaristan il il, 8 Rakamlar ve 93 Harbi.
 
-Yöntem: 702 bölge kümesi; Osmanlı salname ve tahrirleri esas (erkek sayımları ×2), Bulgaristan’da il oranlarına göre ayar. Noktalar temsilîdir; Yahudiler gösterilmedi. Kaynaklar: Tuna 1292/1875 tahriri (A. Koyuncu 2014) · Edirne 1293 Devlet Salnamesi · Bosna 1287/1870 salnamesi (Z. Gölen 2001) · McCarthy tahmini (aktaran A. Koyuncu 2013) · il oranları: swenstone0 derlemesi.
+Yöntem: 713 bölge kümesi (İstanbul ve Ege adaları hesaba katılmadı); Osmanlı salname ve tahrirleri esas (erkek sayımları ×2), Bulgaristan’da il oranlarına göre ayar. Noktalar temsilîdir; Yahudiler gösterilmedi. Kaynaklar: Tuna 1292/1875 tahriri (A. Koyuncu 2014) · Edirne 1293 Devlet Salnamesi · Bosna 1287/1870 salnamesi (Z. Gölen 2001) · McCarthy tahmini (aktaran A. Koyuncu 2013) · il oranları: swenstone0 derlemesi.
 
 #Rumeli #93Harbi #OsmanlıTarihi #Balkanlar #BalkanTürkleri #TarihHaritası #Deliorman #Dobruca #Rodoplar #Kırcaali #Bulgaristan #Muhacir #OsmanlıRusSavaşı
 ```
@@ -116,9 +116,9 @@ RUMELİ 1876 · 4/8 | Makedonya ve Teselya
 
 Ayastefanos (1878) Makedonya’nın büyük kısmını Bulgaristan’a veriyordu; Berlin Kongresi bölgeyi Osmanlı’ya geri bıraktı. Makedonya, Bulgaristan’dan ve Niş’ten kaçan muhacirlere sığınak oldu.
 
-Noktalar temsilîdir: her nokta yaklaşık 100 kişiyi (≈20 hane) gösterir ve kaza toplamlarına göre yerleşime uygun alanlara dağıtılmıştır. Renkler topluluk adlarıyla: kırmızı taralı Türk, sarı Pomak, yeşil Arnavut, sarımsı yeşil Torbeş, pembe Müslüman Roman, zeytin yeşili Valaad ve Müslüman Ulah; mavi Bulgar, turkuaz Rum, kahverengi diğer Hristiyanlar (Ulah, Hristiyan Arnavut…).
+Noktalar temsilîdir: her nokta yaklaşık 100 kişiyi (≈20 hane) gösterir ve kaza toplamlarına göre yerleşime uygun alanlara dağıtılmıştır. Renkler topluluk adlarıyla: kırmızı taralı Türk, sarı Pomak, yeşil Arnavut, sarımsı yeşil Torbeş, pembe Müslüman Roman, zeytin yeşili Valaad ve Müslüman Ulah; mavi Bulgar, turkuaz Rum, mor Sırp, kahverengi diğer Hristiyanlar (Ulah, Hristiyan Arnavut…).
 
-Kaynaklar: 1881/82 Osmanlı sayımı (K. Karpat, 1985); M. T. Gökbilgin, İA "Selanik"; 1871 Yanya salnamesi (F. Öncel); 1878 Teselya sayımı (İ. Serbestoğlu, Belleten).
+Kaynaklar: 1881/82 Osmanlı sayımı (K. Karpat, 1985); M. T. Gökbilgin, İA “Selanik”; 1871 Yanya salnamesi (F. Öncel); 1878 Teselya sayımı (İ. Serbestoğlu, Belleten).
 
 Sizce Makedonya’daki asırlık Türk varlığı bugün yeterince biliniyor mu? Yorumlarda buluşalım.
 
@@ -180,7 +180,7 @@ Zümrüt yeşili noktalar ve alanlar Bosna’nın Müslüman halkı Boşnakları
 
 Noktalar temsilîdir: 1 nokta = 100 kişi. Sancak toplamları Osmanlı kaydıdır (erkek nüfus ×2); sancak içi dağılım sonraki ilçe örüntülerinden tahmin edilmiştir.
 
-Kaynaklar: Bosna Vilâyeti Salnamesi 1287/1870 (Z. Gölen, Belleten 2001); TDV İslâm Ansiklopedisi, "Yenipazar"; A. H. Layard 1877 (M. Köse 2019).
+Kaynaklar: Bosna Vilâyeti Salnamesi 1287/1870 (Z. Gölen, Belleten 2001); TDV İslâm Ansiklopedisi, “Yenipazar”; A. H. Layard 1877 (M. Köse 2019).
 
 Sizce Bosna’da Osmanlı mirası en çok hangi şehirde yaşıyor?
 
@@ -199,19 +199,19 @@ Görsel: `cikti/seri/07_*_ig.jpg`
 ```
 RUMELİ 1876 · 7/8 | Bulgaristan 1875, il il
 
-Bugünkü Bulgaristan’ın 28 ilinden 11’inde, 1875’te Bulgarlar nüfusun yarısından azdı. Kırcaali’de her 100 kişiden yalnızca 3’ü Bulgardı; Varna ile Hacıoğlu Pazarcığı’nda (Dobriç) 25’i, Silistre’de 27’si. Deliorman’dan Dobruca kıyısına, Rodoplar’dan Hasköy’e uzanan bu kuşakta çoğunluk Türklerin ve Pomakların, yani Müslümanlarındı.
+Bugünkü Bulgaristan’ın 28 ilinden 11’inde, 1875’te Bulgarlar nüfusun yarısından azdı. Kırcaali’de her 100 kişiden yalnızca 3’ü Bulgar’dı; Varna ile Hacıoğlu Pazarcığı’nda (Dobriç) 25’i, Silistre’de 27’si. Deliorman’dan Dobruca kıyısına, Rodoplar’dan Hasköy’e uzanan bu kuşakta çoğunluk Türklerin ve Pomakların, yani Müslümanlarındı.
 
 Bütün ülke için tablo: %55,8 Bulgar. Her 100 kişiden 44’ü Bulgar değildi.
 
 Osmanlı kaydı da aynı şeyi söylüyor. Tuna Vilâyeti’nin 1292/1875 tahririnde (Tahrir-i Cedid) erkek nüfusun %54,0’ı “Bulgar milleti”, %41,2’si Müslümandı. Güneyde, Filibe ve İslimye sancaklarının 1293/1876 kaydında Müslümanların payı %40,5’ti. Aynı adı taşıyan sancak ve illerde kayıt ile il rakamları birbirini tutuyor: Vidin %73,4, Tırnova %60,5, Rusçuk %37,1, Varna %24,8 Bulgar.
 
-Haritamızın modeline göre bugünkü sınırlar içinde yaklaşık 1,3 milyon Müslüman yaşıyordu; bunun yaklaşık 1 milyonu Türktü.
+Haritamızın modeline göre bugünkü sınırlar içinde yaklaşık 1,3 milyon Müslüman yaşıyordu; bunun yaklaşık 1 milyonu Türk’tü.
 
 İki yıl sonra 93 Harbi başladı ve bu tablo bir daha geri gelmedi. Serinin son gönderisinde savaşın bilançosunu rakamlarla anlatacağız.
 
 Not: Rakamlar bugünkü il sınırlarına göredir. Osmanlı kayıtları erkekleri ve dinî topluluğu (millet) sayar; “Bulgar milleti” Gagavuzları da kapsar. Sofya (şehir) oranı yalnız 1875’teki Sofya kasabasına uyar.
 
-Kaynaklar: il oranları: swenstone0 derlemesi · Tuna Vilâyeti 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne vilâyeti 1293 salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · harita modeli: 702 bölge kümesi, Bulgaristan’da il oranlarına göre ayarlandı.
+Kaynaklar: il oranları: swenstone0 derlemesi · Tuna Vilâyeti 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edirne vilâyeti 1293 salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · harita modeli: 713 bölge kümesi, Bulgaristan’da il oranlarına göre ayarlandı.
 
 Sizin aileniz bu illerin hangisinden geldi? Yorumlara yazın.
 
@@ -226,7 +226,7 @@ Sizin aileniz bu illerin hangisinden geldi? Yorumlara yazın.
 Görsel: `cikti/seri/08_*_ig.jpg`
 
 ```
-RUMELİ 1876 · 8/8 | Rakamlarla Rumeli ve 93 Harbi
+RUMELİ 1876 · 8/8 | Rakamlarla Rumeli 1876
 
 Serinin son gönderisi: haritaların arkasındaki rakamlar.
 
