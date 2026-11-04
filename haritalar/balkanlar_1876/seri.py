@@ -391,6 +391,13 @@ def render_region(key, cfg, out_dir, ppd=100):
     img.alpha_composite(Image.fromarray(fa.astype(np.uint8), "RGBA"))
     log(f"[{key}] harita")
 
+    # başlık arkası: haritayı yukarıda koyulaştır (başlık ve lejant okunur kalsın)
+    yy_ = np.arange(H, dtype=np.float32)[:, None]
+    shade_a = np.clip((MAP_TOP + 40 - yy_) / 150, 0, 1) * 0.93
+    ov = np.zeros((H, W, 4), np.uint8)
+    ov[..., :3] = (4, 7, 13)
+    ov[..., 3] = (np.repeat(shade_a, W, 1) * 255).astype(np.uint8)
+    img.alpha_composite(Image.fromarray(ov, "RGBA"))
     cv = Canvas(img)
     cv.occupy((0, 0, W, MAP_TOP - 6))
     cv.occupy(STRIP)
@@ -565,9 +572,9 @@ def render_region(key, cfg, out_dir, ppd=100):
     if fill_shares is not None and reg.get("series"):
         yy += 6
         d.line((x0f + 24, yy - 18, x0f + 24 + 120, yy - 18), fill=BRASS[:3] + (120,), width=1)
-        st_ = f"Taralı alanın {fmt_pct(fill_shares[0])}’i Türk çoğunluklu"
-        d.text((x0f + 24, yy + 12), st_, font=bar(26, "SemiBold"), fill=TINT[0], anchor="ls")
-        d.text((x0f + 24, yy + 40), f"≈ {fmt_int(round(fill_km2[0], -1))} km² · Osmanlı toprağı, harita modeli", font=bar(18, "Medium"), fill=MUTE, anchor="ls")
+        st_ = f"≈ {fmt_int(round(fill_km2[0], -2))} km² Türk çoğunluklu toprak"
+        d.text((x0f + 24, yy + 12), st_, font=bar(28, "SemiBold"), fill=TINT[0], anchor="ls")
+        d.text((x0f + 24, yy + 40), "bu haritadaki kırmızı taralı alan · harita modeli", font=bar(18, "Medium"), fill=MUTE, anchor="ls")
         yy += 50
     if show_loc:
         if sep_loc:

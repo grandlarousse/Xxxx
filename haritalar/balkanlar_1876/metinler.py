@@ -23,5 +23,13 @@ for n, title, key, field in ORDER:
     if os.path.exists(p):
         cap = json.load(open(p, encoding="utf-8")).get(field, "") or ""
     out.append(f"\n---\n\n## {n}/8 · {title}\n\nGörsel: `cikti/seri/{n}_*_ig.jpg`\n\n```\n{cap.strip() or '(metin bekleniyor)'}\n```\n")
+out.append("\n\n# RUMELİ TÜRKLERİ 1876 — mini seri (4 post)\n")
+out.append("Görseller: `cikti/rumeli_turkleri/NN_t_*_ig.jpg`. Taralı alan: boş arazi, çevresindeki köylerin "
+           "çoğunluk grubunun rengiyle taranır (her grup için aynı kural).\n")
+for n, title, key in (("1", "Doğu Rodoplar ve Batı Trakya", "t_rodoplar"), ("2", "Deliorman ve Dobruca", "t_deliorman"),
+                      ("3", "Makedonya Türkleri", "t_makedonya"), ("4", "Edirne ve Doğu Trakya", "t_trakya")):
+    p = os.path.join(S, f"icerik_{key}.json")
+    cap = json.load(open(p, encoding="utf-8")).get("caption", "") if os.path.exists(p) else ""
+    out.append(f"\n---\n\n## {n}/4 · {title}\n\nGörsel: `cikti/rumeli_turkleri/0{n}_{key}_ig.jpg`\n\n```\n{cap.strip() or '(metin bekleniyor)'}\n```\n")
 open(os.path.join(S, "PAYLASIM_METINLERI.md"), "w", encoding="utf-8").write("\n".join(out))
 print("yazıldı:", os.path.join(S, "PAYLASIM_METINLERI.md"))

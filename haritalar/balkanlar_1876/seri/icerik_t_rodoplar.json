@@ -1,0 +1,416 @@
+{
+ "title": "DOĞU RODOPLAR VE BATI TRAKYA",
+ "subtitle": "93 Harbi arifesinde Arda’dan Ege’ye Türk ve Pomak köyleri",
+ "story_labels": [
+  {
+   "text": "DOĞU RODOPLAR",
+   "sub": "Arda boyunca Türk köyleri",
+   "group": 0,
+   "lon": 25.62,
+   "lat": 41.74
+  },
+  {
+   "text": "SULTANYERİ",
+   "sub": "%98,1 Müslüman kaza · 1875-76",
+   "group": 0,
+   "lon": 25.42,
+   "lat": 41.4
+  },
+  {
+   "text": "ORTAKÖY – DİMETOKA",
+   "sub": "Türk ve Kızılbaş köyleri",
+   "group": 0,
+   "lon": 26.15,
+   "lat": 41.4
+  },
+  {
+   "text": "GÜMÜLCİNE OVASI",
+   "sub": "Türk köyleri ağırlıkta",
+   "group": 0,
+   "lon": 25.28,
+   "lat": 41.04
+  },
+  {
+   "text": "KARASU OVASI",
+   "sub": "Yenice · Sarışaban Türkleri",
+   "group": 0,
+   "lon": 24.78,
+   "lat": 41.02
+  },
+  {
+   "text": "POMAK YAYLALARI",
+   "sub": "Ahiçelebi · Madan · Darıdere",
+   "group": 1,
+   "lon": 24.84,
+   "lat": 41.4
+  },
+  {
+   "text": "FİLİBE OVASI",
+   "sub": "Bulgar köyleri ağırlıkta",
+   "group": 2,
+   "lon": 25.08,
+   "lat": 42.22
+  },
+  {
+   "text": "DEDEAĞAÇ – SOFULU",
+   "sub": "Rum ve Bulgar köyleri",
+   "group": 2,
+   "lon": 26.2,
+   "lat": 41.05
+  }
+ ],
+ "cities": [
+  {
+   "name": "Edirne",
+   "modern": "",
+   "lon": 26.555,
+   "lat": 41.677,
+   "tier": 1
+  },
+  {
+   "name": "Filibe",
+   "modern": "Plovdiv",
+   "lon": 24.75,
+   "lat": 42.15,
+   "tier": 1
+  },
+  {
+   "name": "Hasköy",
+   "modern": "Haskovo",
+   "lon": 25.556,
+   "lat": 41.934,
+   "tier": 1
+  },
+  {
+   "name": "Paşmaklı",
+   "modern": "Smolyan",
+   "lon": 24.712,
+   "lat": 41.575,
+   "tier": 1
+  },
+  {
+   "name": "Darıdere",
+   "modern": "Zlatograd",
+   "lon": 25.095,
+   "lat": 41.38,
+   "tier": 1
+  },
+  {
+   "name": "Gümülcine",
+   "modern": "Komotini",
+   "lon": 25.405,
+   "lat": 41.117,
+   "tier": 1
+  },
+  {
+   "name": "İskeçe",
+   "modern": "Xanthi",
+   "lon": 24.888,
+   "lat": 41.135,
+   "tier": 1
+  },
+  {
+   "name": "Dimetoka",
+   "modern": "Didymoteicho",
+   "lon": 26.497,
+   "lat": 41.349,
+   "tier": 1
+  },
+  {
+   "name": "Drama",
+   "modern": "",
+   "lon": 24.147,
+   "lat": 41.15,
+   "tier": 1
+  },
+  {
+   "name": "Kırcaali",
+   "modern": "Kardzhali",
+   "lon": 25.367,
+   "lat": 41.65,
+   "tier": 2
+  },
+  {
+   "name": "Mestanlı",
+   "modern": "Momchilgrad",
+   "lon": 25.413,
+   "lat": 41.527,
+   "tier": 2
+  },
+  {
+   "name": "Koşukavak",
+   "modern": "Krumovgrad",
+   "lon": 25.655,
+   "lat": 41.47,
+   "tier": 2
+  },
+  {
+   "name": "Eğridere",
+   "modern": "Ardino",
+   "lon": 25.133,
+   "lat": 41.583,
+   "tier": 2
+  },
+  {
+   "name": "Ortaköy",
+   "modern": "Ivaylovgrad",
+   "lon": 26.124,
+   "lat": 41.527,
+   "tier": 2
+  },
+  {
+   "name": "Yenice-i Karasu",
+   "modern": "Genisea",
+   "lon": 24.96,
+   "lat": 41.063,
+   "tier": 2
+  },
+  {
+   "name": "Sarışaban",
+   "modern": "Chrysoupoli",
+   "lon": 24.7,
+   "lat": 40.983,
+   "tier": 2
+  },
+  {
+   "name": "Dedeağaç",
+   "modern": "Alexandroupoli",
+   "lon": 25.878,
+   "lat": 40.855,
+   "tier": 2
+  },
+  {
+   "name": "Ferecik",
+   "modern": "Feres",
+   "lon": 26.17,
+   "lat": 40.895,
+   "tier": 2
+  },
+  {
+   "name": "Kavala",
+   "modern": "",
+   "lon": 24.405,
+   "lat": 40.948,
+   "tier": 2
+  },
+  {
+   "name": "Tatar Pazarcığı",
+   "modern": "Pazardzhik",
+   "lon": 24.333,
+   "lat": 42.192,
+   "tier": 2
+  },
+  {
+   "name": "Mustafapaşa",
+   "modern": "Svilengrad",
+   "lon": 26.2,
+   "lat": 41.766,
+   "tier": 2
+  },
+  {
+   "name": "Cisr-i Ergene",
+   "modern": "Uzunköprü",
+   "lon": 26.688,
+   "lat": 41.268,
+   "tier": 2
+  },
+  {
+   "name": "Çırpan",
+   "modern": "Chirpan",
+   "lon": 25.33,
+   "lat": 42.2,
+   "tier": 2
+  },
+  {
+   "name": "Sofulu",
+   "modern": "Soufli",
+   "lon": 26.3,
+   "lat": 41.201,
+   "tier": 3
+  },
+  {
+   "name": "Cebel",
+   "modern": "Dzhebel",
+   "lon": 25.303,
+   "lat": 41.497,
+   "tier": 3
+  },
+  {
+   "name": "Madan",
+   "modern": "",
+   "lon": 24.943,
+   "lat": 41.499,
+   "tier": 3
+  },
+  {
+   "name": "Dövlen",
+   "modern": "Devin",
+   "lon": 24.4,
+   "lat": 41.743,
+   "tier": 3
+  },
+  {
+   "name": "Şahin",
+   "modern": "Echinos",
+   "lon": 24.977,
+   "lat": 41.277,
+   "tier": 3
+  },
+  {
+   "name": "Yassıköy",
+   "modern": "Iasmos",
+   "lon": 25.183,
+   "lat": 41.129,
+   "tier": 3
+  },
+  {
+   "name": "Makri",
+   "modern": "",
+   "lon": 25.733,
+   "lat": 40.856,
+   "tier": 3
+  },
+  {
+   "name": "Pravişte",
+   "modern": "Eleftheroupoli",
+   "lon": 24.252,
+   "lat": 40.914,
+   "tier": 3
+  },
+  {
+   "name": "İstanimaka",
+   "modern": "Asenovgrad",
+   "lon": 24.87,
+   "lat": 42.017,
+   "tier": 3
+  },
+  {
+   "name": "Harmanlı",
+   "modern": "Harmanli",
+   "lon": 25.902,
+   "lat": 41.933,
+   "tier": 3
+  },
+  {
+   "name": "İpsala",
+   "modern": "",
+   "lon": 26.38,
+   "lat": 40.92,
+   "tier": 3
+  },
+  {
+   "name": "Keşan",
+   "modern": "",
+   "lon": 26.63,
+   "lat": 40.856,
+   "tier": 3
+  },
+  {
+   "name": "İnöz",
+   "modern": "Enez",
+   "lon": 26.086,
+   "lat": 40.725,
+   "tier": 3
+  },
+  {
+   "name": "Havsa",
+   "modern": "",
+   "lon": 26.82,
+   "lat": 41.55,
+   "tier": 3
+  },
+  {
+   "name": "Kızılağaç",
+   "modern": "Elhovo",
+   "lon": 26.567,
+   "lat": 42.171,
+   "tier": 3
+  },
+  {
+   "name": "Nevrekop",
+   "modern": "Gotse Delchev",
+   "lon": 23.73,
+   "lat": 41.567,
+   "tier": 3
+  }
+ ],
+ "bars": [
+  {
+   "label": "Filibe (Kırcaali)",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Filibe"
+   ],
+   "record_muslim_pct": 40.3,
+   "record_label": "1876"
+  },
+  {
+   "label": "Gelibolu (Gümülcine)",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Gelibolu"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Drama (İskeçe)",
+   "vilayet": "Selanik",
+   "sancak": [
+    "Drama"
+   ],
+   "record_muslim_pct": 80.9,
+   "record_label": "1873"
+  },
+  {
+   "label": "Edirne (Dimetoka)",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Edirne"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Edirne Vilâyeti",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Filibe",
+    "İslimye",
+    "Edirne",
+    "Tekfurdağı",
+    "Gelibolu"
+   ],
+   "record_muslim_pct": 38.2,
+   "record_label": "1876"
+  }
+ ],
+ "callouts": [
+  {
+   "big": "%98,1",
+   "line1": "Sultanyeri kazası Müslüman (1875-76)",
+   "line2": "13.495 Müslüman · 262 Hristiyan erkek",
+   "src": "1875-76 tahriri, BOA Y.EE 34/48 (A. Koyuncu 2013)"
+  },
+  {
+   "big": "%76,6",
+   "line1": "Gümülcine kazası köyleri Müslüman",
+   "line2": "244 köy · 18.740 Müslüman, 5.738 gayrimüslim erkek",
+   "src": "FO 881/3655 (M. Köse 2019, Tablo 10)"
+  },
+  {
+   "big": "100/101",
+   "line1": "Kırcaali kazası köyünün adı Türkçe (1885)",
+   "line2": "1892: 34.075 kişinin 33.972’si Müslüman",
+   "src": "1310 Edirne salnamesi; TDV İA “Kırcaali” (Kiprovska–Kiel)"
+  }
+ ],
+ "narrative": [
+  "1876’da Kırcaali’den Koşukavak’a Doğu Rodoplar Türk köyleriyle örülüydü; Sultanyeri %98,1 Müslümandı.",
+  "Batıda Ahiçelebi, Madan ve Darıdere yaylalarında Pomaklar; Gümülcine ve Karasu ovalarında Türk köyleri vardı.",
+  "1878’de Ruslar Edirne’yi alıp Dedeağaç’a indi; Meriç ovasından kaçan Türkler Rodop dağlarına sığındı.",
+  "Berlin’de Batı Trakya ve Rodoplar’ın güneyi Osmanlı’da kaldı; Kırcaali 1885’te 101 köylü Osmanlı kazası oldu."
+ ],
+ "sources_line": "Kaynaklar: 1875-76 tahriri, BOA Y.EE 34/48 ve 1293 Edirne salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · FO 881/3655 ve 1873 kaydı (M. Köse 2019) · 1293 Devlet Salnamesi (Ubicini 1876) · TDV İslâm Ansiklopedisi, “Kırcaali” (Kiprovska–Kiel) · kayıt oranları Yahudiler hariç · çubuklar, noktalar ve taralı alanlar: harita modeli",
+ "caption": "RUMELİ TÜRKLERİ 1876 · 1/4 | Doğu Rodoplar ve Batı Trakya\n\n93 Harbi’nden hemen önce Arda boylarından Gümülcine ovasına uzanan topraklar Türk köyleriyle doluydu.\n\n— 1875-76 tahririne göre Sultanyeri kazasında 13.495 Müslüman erkeğe karşı yalnızca 262 Hristiyan erkek vardı: %98,1 Müslüman.\n— Gümülcine kazasının 244 köyünde 18.740 Müslüman ve 5.738 gayrimüslim erkek yaşıyordu: %76,6 Müslüman.\n— Kökler derindi: 1530 tahririnde Kırcaali’nin bağlı olduğu Hasköy kazasındaki 56 köyün 54’ü Türkçe adlıydı, hanelerin %97’si Müslümandı. 1885’te kaza olan Kırcaali’nin 101 köyünden 100’ünün adı Türkçeydi.\n— Harita modeline göre Kırcaali, Mestanlı, Koşukavak ve Eğridere kuşağındaki yaklaşık 119 bin kişinin %88’i Türk’tü. Dimetoka tepelerinde Kızılbaş Türk köyleri; Ahiçelebi, Madan, Darıdere ve Şahin yaylalarında Pomaklar; Dedeağaç–Sofulu kıyısında ve Filibe ovasında Rum ve Bulgar köyleri vardı.\n— 1878’de Meriç ovasından kaçan Türkler bu dağlara sığındı. Koyuncu’ya göre savaş, Tuna ve Şarkî Rumeli’deki Türk nüfusunu %45-50 azalttı.\n\nHer nokta yaklaşık 100 kişidir (1 nokta = 100 kişi); taralı alan ise boş araziyi çevredeki köylerin çoğunluğunun rengiyle tarar, yani etrafı Türk köyleriyle çevrili yer Türk sayılır.\n\nKaynaklar: 1875-76 tahriri, BOA Y.EE 34/48 (A. Koyuncu 2013); FO 881/3655 (M. Köse 2019); TDV İslâm Ansiklopedisi, “Kırcaali”; harita modeli.\n\nSizin köyünüz Kırcaali’de mi, Gümülcine’de mi, İskeçe’de mi? Yorumlara yazın.\n\n#BatıTrakya #DoğuRodoplar #Rodoplar #Kırcaali #Gümülcine #İskeçe #Dedeağaç #Pomaklar #BalkanTürkleri #93Harbi #Rumeli #OsmanlıTarihi #Muhacir #TarihHaritası"
+}

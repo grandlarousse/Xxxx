@@ -1,0 +1,477 @@
+{
+ "title": "MAKEDONYA TÜRKLERİ",
+ "subtitle": "Yörükler, Konyarlar, şehirli Türkler: 93 Harbi arifesinde Makedonya",
+ "story_labels": [
+  {
+   "text": "OVÇEPOLE YÖRÜKLERİ",
+   "sub": "İştip · Koçana · Radovişte",
+   "group": 0,
+   "lon": 22.1,
+   "lat": 41.84
+  },
+  {
+   "text": "KOCACIK YÖRÜKLERİ",
+   "sub": "Kruşa · Langaza · Doyran",
+   "group": 0,
+   "lon": 23.03,
+   "lat": 41.07
+  },
+  {
+   "text": "KONYAR TÜRKLERİ",
+   "sub": "Kayalar · Sarıgöl · Kozana",
+   "group": 0,
+   "lon": 21.72,
+   "lat": 40.44
+  },
+  {
+   "text": "DRAMA TÜRKLERİ",
+   "sub": "Pravişte · Kavala · Sarışaban",
+   "group": 0,
+   "lon": 24.42,
+   "lat": 41.06
+  },
+  {
+   "text": "POMAKLAR",
+   "sub": "Çeç · Nevrekop",
+   "group": 1,
+   "lon": 24,
+   "lat": 41.62
+  },
+  {
+   "text": "KARACAOVA",
+   "sub": "Meglen Pomakları",
+   "group": 1,
+   "lon": 22.1,
+   "lat": 40.99
+  },
+  {
+   "text": "ARNAVUT VE TORBEŞ",
+   "sub": "Polog · Gostivar · Kırçova",
+   "group": 1,
+   "lon": 20.98,
+   "lat": 41.7
+  },
+  {
+   "text": "PELAGONYA",
+   "sub": "Bulgar köyleri",
+   "group": 2,
+   "lon": 21.45,
+   "lat": 41.19
+  }
+ ],
+ "cities": [
+  {
+   "name": "Selanik",
+   "modern": "Thessaloniki",
+   "lon": 22.944,
+   "lat": 40.64,
+   "tier": 1
+  },
+  {
+   "name": "Üsküp",
+   "modern": "Skopje",
+   "lon": 21.432,
+   "lat": 41.996,
+   "tier": 1
+  },
+  {
+   "name": "Manastır",
+   "modern": "Bitola",
+   "lon": 21.334,
+   "lat": 41.031,
+   "tier": 1
+  },
+  {
+   "name": "Serez",
+   "modern": "Serres",
+   "lon": 23.548,
+   "lat": 41.086,
+   "tier": 1
+  },
+  {
+   "name": "Drama",
+   "modern": "",
+   "lon": 24.147,
+   "lat": 41.15,
+   "tier": 1
+  },
+  {
+   "name": "Serfice",
+   "modern": "Servia",
+   "lon": 22.001,
+   "lat": 40.183,
+   "tier": 1
+  },
+  {
+   "name": "Filibe",
+   "modern": "Plovdiv",
+   "lon": 24.75,
+   "lat": 42.15,
+   "tier": 1
+  },
+  {
+   "name": "Kavala",
+   "modern": "",
+   "lon": 24.41,
+   "lat": 40.946,
+   "tier": 2
+  },
+  {
+   "name": "Yenice-i Vardar",
+   "modern": "Giannitsa",
+   "lon": 22.408,
+   "lat": 40.792,
+   "tier": 2
+  },
+  {
+   "name": "Sarışaban",
+   "modern": "Chrysoupoli",
+   "lon": 24.702,
+   "lat": 40.983,
+   "tier": 2
+  },
+  {
+   "name": "İştip",
+   "modern": "Štip",
+   "lon": 22.195,
+   "lat": 41.745,
+   "tier": 2
+  },
+  {
+   "name": "Koçana",
+   "modern": "Kočani",
+   "lon": 22.411,
+   "lat": 41.917,
+   "tier": 2
+  },
+  {
+   "name": "Radovişte",
+   "modern": "Radoviš",
+   "lon": 22.465,
+   "lat": 41.638,
+   "tier": 2
+  },
+  {
+   "name": "Usturumca",
+   "modern": "Strumica",
+   "lon": 22.643,
+   "lat": 41.437,
+   "tier": 2
+  },
+  {
+   "name": "Doyran",
+   "modern": "Dojran",
+   "lon": 22.717,
+   "lat": 41.186,
+   "tier": 2
+  },
+  {
+   "name": "Kukuş",
+   "modern": "Kilkis",
+   "lon": 22.874,
+   "lat": 40.994,
+   "tier": 2
+  },
+  {
+   "name": "Langaza",
+   "modern": "Lagadas",
+   "lon": 23.068,
+   "lat": 40.75,
+   "tier": 2
+  },
+  {
+   "name": "Köprülü",
+   "modern": "Veles",
+   "lon": 21.775,
+   "lat": 41.715,
+   "tier": 2
+  },
+  {
+   "name": "Kalkandelen",
+   "modern": "Tetovo",
+   "lon": 20.971,
+   "lat": 42.01,
+   "tier": 2
+  },
+  {
+   "name": "Kumanova",
+   "modern": "Kumanovo",
+   "lon": 21.714,
+   "lat": 42.132,
+   "tier": 2
+  },
+  {
+   "name": "Pirlepe",
+   "modern": "Prilep",
+   "lon": 21.555,
+   "lat": 41.346,
+   "tier": 2
+  },
+  {
+   "name": "Ohri",
+   "modern": "Ohrid",
+   "lon": 20.802,
+   "lat": 41.117,
+   "tier": 2
+  },
+  {
+   "name": "Lerin",
+   "modern": "Florina",
+   "lon": 21.409,
+   "lat": 40.782,
+   "tier": 2
+  },
+  {
+   "name": "Kesriye",
+   "modern": "Kastoria",
+   "lon": 21.268,
+   "lat": 40.519,
+   "tier": 2
+  },
+  {
+   "name": "Kayalar",
+   "modern": "Ptolemaida",
+   "lon": 21.678,
+   "lat": 40.514,
+   "tier": 2
+  },
+  {
+   "name": "Kozana",
+   "modern": "Kozani",
+   "lon": 21.789,
+   "lat": 40.301,
+   "tier": 2
+  },
+  {
+   "name": "Karaferye",
+   "modern": "Veria",
+   "lon": 22.204,
+   "lat": 40.524,
+   "tier": 2
+  },
+  {
+   "name": "Vodina",
+   "modern": "Edessa",
+   "lon": 22.047,
+   "lat": 40.802,
+   "tier": 2
+  },
+  {
+   "name": "Nevrekop",
+   "modern": "Gotse Delchev",
+   "lon": 23.729,
+   "lat": 41.567,
+   "tier": 2
+  },
+  {
+   "name": "Demirhisar",
+   "modern": "Sidirokastro",
+   "lon": 23.391,
+   "lat": 41.236,
+   "tier": 2
+  },
+  {
+   "name": "Zihne",
+   "modern": "Nea Zichni",
+   "lon": 23.83,
+   "lat": 41.03,
+   "tier": 2
+  },
+  {
+   "name": "Pravişte",
+   "modern": "Eleftheroupoli",
+   "lon": 24.254,
+   "lat": 40.914,
+   "tier": 2
+  },
+  {
+   "name": "Cuma-i Bala",
+   "modern": "Blagoevgrad",
+   "lon": 23.095,
+   "lat": 42.013,
+   "tier": 2
+  },
+  {
+   "name": "Petriç",
+   "modern": "Petrich",
+   "lon": 23.207,
+   "lat": 41.395,
+   "tier": 2
+  },
+  {
+   "name": "Gevgili",
+   "modern": "Gevgelija",
+   "lon": 22.503,
+   "lat": 41.141,
+   "tier": 2
+  },
+  {
+   "name": "Katerin",
+   "modern": "Katerini",
+   "lon": 22.503,
+   "lat": 40.272,
+   "tier": 2
+  },
+  {
+   "name": "İskeçe",
+   "modern": "Xanthi",
+   "lon": 24.888,
+   "lat": 41.135,
+   "tier": 2
+  },
+  {
+   "name": "Kratova",
+   "modern": "Kratovo",
+   "lon": 22.181,
+   "lat": 42.078,
+   "tier": 2
+  },
+  {
+   "name": "Gostivar",
+   "modern": "",
+   "lon": 20.908,
+   "lat": 41.796,
+   "tier": 2
+  },
+  {
+   "name": "Kavadar",
+   "modern": "Kavadarci",
+   "lon": 22.012,
+   "lat": 41.433,
+   "tier": 2
+  },
+  {
+   "name": "Lahna",
+   "modern": "Lachanas",
+   "lon": 23.199,
+   "lat": 40.947,
+   "tier": 3
+  },
+  {
+   "name": "Karasulu",
+   "modern": "Polykastro",
+   "lon": 22.573,
+   "lat": 40.998,
+   "tier": 3
+  },
+  {
+   "name": "Valandova",
+   "modern": "Valandovo",
+   "lon": 22.561,
+   "lat": 41.317,
+   "tier": 3
+  },
+  {
+   "name": "Konçe",
+   "modern": "Konče",
+   "lon": 22.383,
+   "lat": 41.496,
+   "tier": 3
+  },
+  {
+   "name": "Ostrova",
+   "modern": "Arnissa",
+   "lon": 21.836,
+   "lat": 40.798,
+   "tier": 3
+  },
+  {
+   "name": "Resne",
+   "modern": "Resen",
+   "lon": 21.012,
+   "lat": 41.089,
+   "tier": 3
+  },
+  {
+   "name": "Satovça",
+   "modern": "Satovcha",
+   "lon": 23.983,
+   "lat": 41.617,
+   "tier": 3
+  }
+ ],
+ "bars": [
+  {
+   "label": "Drama",
+   "vilayet": "Selanik",
+   "sancak": [
+    "Drama"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Selanik",
+   "vilayet": "Selanik",
+   "sancak": [
+    "Selanik"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Serfice",
+   "vilayet": "Manastır",
+   "sancak": [
+    "Serfice"
+   ],
+   "record_muslim_pct": 41.2,
+   "record_label": "1881/82"
+  },
+  {
+   "label": "Üsküp",
+   "vilayet": "Prizren",
+   "sancak": [
+    "Üsküp"
+   ],
+   "record_muslim_pct": 42.5,
+   "record_label": "1881/82"
+  },
+  {
+   "label": "Serez",
+   "vilayet": "Selanik",
+   "sancak": [
+    "Serez"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Manastır",
+   "vilayet": "Manastır",
+   "sancak": [
+    "Manastır"
+   ],
+   "record_muslim_pct": 26.7,
+   "record_label": "1881/82"
+  }
+ ],
+ "callouts": [
+  {
+   "big": "%95,2",
+   "line1": "Sarışaban kazası Müslüman",
+   "line2": "16.554 Müslüman · 17.388 kişi",
+   "src": "1881/82 Osmanlı sayımı (Karpat 1985)"
+  },
+  {
+   "big": "24.528",
+   "line1": "Selanik şehrinde Müslüman",
+   "line2": "Rum 11.706 · Bulgar 1.111",
+   "src": "Gökbilgin, İA «Selanik» (Tepekaya, Belleten)"
+  },
+  {
+   "big": "%77,2",
+   "line1": "Kayalar kazasında Türk",
+   "line2": "Konyar köyleri · Kozana ovası %89,2",
+   "src": "harita modeli (1881/82 sayımına göre)"
+  }
+ ],
+ "narrative": [
+  "Üsküp, Serez, Drama, Kavala ve Evrenosoğulları’nın yurdu Yenice-i Vardar’da en kalabalık topluluk Türklerdi.",
+  "Ovçepole ve Kocacık Yörükleri ile Kayalar–Kozana Konyarları asırlık Türk köylerinde yaşıyordu.",
+  "Ayastefanos (1878) Makedonya’yı Bulgaristan’a veriyordu; Berlin Kongresi bölgeyi Osmanlı’ya bıraktı.",
+  "Bulgaristan’dan ve Niş’ten kaçan muhacirler Makedonya’ya sığındı; bölge 1912’ye dek Osmanlı’da kaldı."
+ ],
+ "sources_line": "Kaynaklar: 1881/82 Osmanlı sayımı (K. Karpat 1985) · M. T. Gökbilgin, İA «Selanik» (M. Tepekaya, Belleten) · E. D. Akarlı (Karpat 1985, Tablo 3.7) · noktalar ve taralı alanlar: harita modeli",
+ "caption": "RUMELİ TÜRKLERİ 1876 · 3/4 | Makedonya Türkleri\n\n93 Harbi’nin arifesinde Makedonya’da Türkler yalnız şehirlerde değil, asırlık Yörük ve Konyar köylerinde de yaşıyordu.\n\n• Sarışaban kazası 1881/82 Osmanlı sayımında %95,2 Müslümandı: 17.388 kişiden 16.554’ü.\n• Selanik şehrinde 24.528 Müslüman, 11.706 Rum ve 1.111 Bulgar yaşıyordu.\n• Akarlı’ya göre 1860-78 ortalamasında Selanik Vilâyeti nüfusunun %49’u Müslümandı.\n• Harita modeline göre Selanik Vilâyeti’nde yaklaşık 350 bin Türk vardı (%33,2). Kayalar kazasında Türk payı %77,2’ydi.\n• Ovçepole (İştip–Koçana–Radovişte) ve Kocacık (Kruşa–Langaza–Doyran) Yörükleri, Osmanlı’nın Evlâd-ı Fâtihân adını verdiği Yörük teşkilatındandı. Çeç–Nevrekop ve Karacaova’da Pomaklar yaşıyordu.\n\n1 nokta = 100 kişi; taralı alan ise çevredeki köylerin çoğunluğunu gösterir: Türk köyleriyle çevrili boşluk Türk rengiyle taranır.\n\nAyastefanos (1878) Makedonya’yı Bulgaristan’a veriyordu; Berlin Kongresi bölgeyi Osmanlı’ya bıraktı ve Makedonya kaçan muhacirlere yurt oldu.\n\nKaynaklar: 1881/82 Osmanlı sayımı (K. Karpat, 1985); M. T. Gökbilgin, İA “Selanik” (M. Tepekaya, Belleten); E. D. Akarlı (Karpat 1985, Tablo 3.7); harita modeli.\n\nSizce Makedonya’nın Yörük ve Konyar köyleri bugün yeterince hatırlanıyor mu?\n\n#Rumeli #RumeliTürkleri #Makedonya #Yörükler #Konyarlar #EvladıFatihan #Selanik #Üsküp #Drama #Serez #Kavala #93Harbi #OsmanlıTarihi #TarihHaritası"
+}
