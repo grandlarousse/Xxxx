@@ -114,7 +114,7 @@ RUMELİ 1876 · 4/8 — Makedonya ve Teselya
 • 1881/82 Osmanlı sayımında Selanik Vilâyeti'nde 447.904 Müslüman (%45,2) vardı; Rumlar 277.237, Bulgarlar 222.684 kişiydi.
 • Selanik şehrinde 24.528 Müslüman, 11.706 Rum ve 1.111 Bulgar yaşıyordu; şehrin en büyük topluluğu ise 39.495 kişiyle Yahudilerdi.
 • Kocacık ve Ovçepole Yörükleri ile Kayalar–Kozana Konyarları, asırlık köyleriyle bölgenin Türk omurgasıydı.
-• Teselya'da Çatalca (Farsala) kazası %34,2, Yenişehir (Larissa) kazası %29,7 Müslümandı (1871 Yanya salnamesi). Teselya'nın büyük kısmı 1881'de Yunanistan'a bırakıldı.
+• Teselya'da Çatalca (Farsala) kazası %34,2, Yenişehir (Larisa) kazası %29,7 Müslümandı (1871 Yanya salnamesi). Teselya'nın büyük kısmı 1881'de Yunanistan'a bırakıldı.
 
 Ayastefanos (1878) Makedonya'nın büyük kısmını Bulgaristan'a veriyordu; Berlin Kongresi bölgeyi Osmanlı'ya geri bıraktı. Makedonya, Bulgaristan'dan ve Niş'ten kaçan muhacirlere sığınak oldu.
 
