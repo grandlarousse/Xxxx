@@ -25,3 +25,15 @@ Klasör: `2026-11-02_viop_leadlag/`
 - `bulgular_tum_ajanlar.csv`, `dogrulama/`, `ajanlar/`, `veri_ozet/`, `hesaplar/`: Ham bulgular, doğrulama notları, ajan raporları, özet veriler ve kod.
 
 Yatırım tavsiyesi değildir.
+
+---
+
+# Osmanlı Balkanlarından çıkmış insanlar: unutulanlar ve memleket (04.11.2026)
+
+Klasör: `2026-11-04_osmanli_balkan_sahsiyetleri/`
+
+- `RAPOR.md`: Sentez. Kısa özet, memleket (Koşukavak-Kırcaali-Gümülcine) öne çıkanları ve tam listesi, Balkanların geri kalanından unutulmuş isimlerden bir seçki, yöntem ve sınırlamalar.
+- `KISILER.md` ve `kisiler/`: 11 bölgede 705 kişinin tam listesi. Her kayıtta doğum yeri (Osmanlı adı → bugünkü adı), ne yaptığı, neden önemli olduğu ve kaynak bağlantıları var.
+- `DOGRULAMA.md`: Çıkarılan, şüpheli ve düzeltilen kayıtlar, ajanların "bulunamadı" notları.
+- `kisiler.csv`, `kisiler.json`: Tüm kayıtlar.
+- `rumeli_sahsiyetleri.html`: Aranabilir, süzülebilir tek dosyalık sayfa.
