@@ -1,0 +1,394 @@
+[
+ {
+  "type": "set_primary",
+  "id": "02-11#m2",
+  "reason": "Mevcut ana olayın (02-11#0, Tahsin Yazıcı) yılı tartışmalı (1970/1971). Şerif Hasan Paşa kaydı core, güveni yüksek ve TDV'nin vardığı 11 Şubat sonucuna dayanıyor. Kontrolcü de bunu ana olay olarak önermişti."
+ },
+ {
+  "type": "set_primary",
+  "id": "11-24#r3",
+  "reason": "Mevcut ana olay (Hüsnü Kitapcı'nın ölümü) teyit edilemedi, tek kaynaklı bir taslak maddeye dayanıyor ve kitlece tanınmıyor. Sakız çıkarması ise core, güveni yüksek bir Balkan Savaşı olayı. Kontrolcü de bunu öneriyor."
+ },
+ {
+  "type": "set_primary",
+  "id": "05-05#r2",
+  "reason": "Edirne'nin fethi, Rumeli kökenli kitle için 1897 Fersala saldırısından (tek İngilizce kaynak, medium) çok daha tanınmış ve duygusal. Kontrolcü de bunu ana olay olarak önerdi. Paylaşımda fetih yılının tartışmalı olduğu (1361/1369) belirtilmeli; başlıkta zaten 'tartışmalı' ibaresi var."
+ },
+ {
+  "type": "set_primary",
+  "id": "01-19#m2",
+  "reason": "Hem araştırmacı hem kontrolcü Harmanlı muhacir kafilesi saldırısını core olarak bu günün ana olayı yapmayı öneriyor (Greene, Gregoryen 19 Ocak). 93 Harbi muhacir faciası kitle için Hayri Sezgin'in doğumundan çok daha güçlü bir bağ kuruyor. Güven düşük olduğundan paylaşımda 'Greene'e göre 19 Ocak' kaydı düşülmeli."
+ },
+ {
+  "type": "set_primary",
+  "id": "02-04#1",
+  "reason": "Mevcut ana olay 02-04#0 (Avlonya kuşatması) 'unverifiable': gün yalnızca dipnotsuz Vikipedi'de geçiyor. 02-04#1 core ve aynı güvende, kontrolcü günü düzeltip teyit etmiş ve ana olay olarak önermiş."
+ },
+ {
+  "type": "set_primary",
+  "id": "02-23#r2",
+  "reason": "Mevcut ana olay (İsak Varon'un ölümü) dipnotsuz ve teyit edilemedi. r2 core, güveni yüksek ve TDV'ye dayanıyor. Kayıt notu da 'kurala göre (önce core) ana olay bu olmalı' diyor. Yayçalı Lala Mehmed Paşa Bosna bağıyla Rumeli kitlesine de uygun."
+ },
+ {
+  "type": "set_primary",
+  "id": "09-11#1",
+  "reason": "İki kayıt da core ve güveni yüksek. III. Plevne Muharebesi (Osman Paşa'nın 'Gazi' unvanını aldığı zafer, Plevne Marşı) Türkiye'deki Rumeli kökenli kitle için 1697 Zenta bozgunundan çok daha tanınmış ve duygusal."
+ },
+ {
+  "type": "set_primary",
+  "id": "08-16#1",
+  "reason": "İki kayıt da core ve güveni yüksek. Kanuni'nin Babadağ'da Sarı Saltuk Türbesi'ni ziyareti (TDV'de aynen geçiyor) Rumeli/Dobruca Türkleri için 1717 Belgrad bozgunundan daha güçlü bir duygusal bağ kuruyor."
+ },
+ {
+  "type": "set_primary",
+  "id": "10-18#1",
+  "reason": "İki kayıt da core ve güveni yüksek. Bulgar ordusunun 1912'de Edirne sınırını geçmesi (arşiv belgeli) sayfanın Balkan Savaşı ve Edirne ekseniyle doğrudan bağlantılı. 1672 Bucaş Antlaşması (Podolya) ise Rumeli dışında ve kitlece az tanınıyor."
+ },
+ {
+  "type": "set_primary",
+  "id": "11-16#1",
+  "reason": "İki kayıt da core ve güveni yüksek. Manastır Muharebesi'nin başlangıcı (1912) Rumeli Türk hafızasında merkezî bir yer tutuyor; 1828 Londra Protokolü (Yunan özerkliği) kitlece az tanınıyor ve Rumeli Türk ailelerine bağı zayıf."
+ },
+ {
+  "type": "flag",
+  "id": "12-18#0",
+  "value": "Gün geleneksel, birincil kaynakla teyitli değil. Ana olay kalacaksa paylaşımda 'geleneksel olarak 18 Aralık' denmeli. Daha temkinli seçenek 12-18#1'dir.",
+  "reason": "Ana olayın günü doğrulanamadı: TDV ve en.wiki yalnızca yılı veriyor, 18 Aralık'ın Hicrî karşılığı kaynaklarda yok. Kontrolcü ana olayı 12-18#1 yapmayı önerdi. Ancak Sarı Süleyman Paşa'nın sadrazamlığı kitlece tanınmadığı için ana olayı değiştirmedim."
+ },
+ {
+  "type": "edit_title",
+  "id": "10-05#2",
+  "value": "İbrahim Paşa'yı taşıyan son Mısır nakliye gemisi Mora'dan ayrıldı",
+  "reason": "Başlıktaki 'Mısır kuvvetlerinin tahliyesi tamamlandı' ifadesi, 11-05#0'daki 'son Osmanlı ve Mısır askerleri Mora'dan ayrıldı' (5 Kasım 1828) kaydıyla çelişiyor. 5 Ekim'deki an, İbrahim Paşa'yı taşıyan son Mısır nakliye gemisinin ayrılışı."
+ },
+ {
+  "type": "edit_title",
+  "id": "11-25#1",
+  "value": "Yunan kuvvetleri Yanya önlerine ulaştı: uzun kuşatma başlıyor",
+  "reason": "Başlıktaki '85 günlük kuşatma', kaydın kendi notundaki tarihlerle (25 Kasım 1912 – 5/6 Mart 1913, yaklaşık 100 gün) ve 03-06#0'daki 'yaklaşık altı ay süren savunma' ifadesiyle uyuşmuyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "04-21#0",
+  "value": "Esad Paşa Toptani, İşkodra'yı teslim etmek için Karadağ'a teklifte bulundu",
+  "reason": "Aynı yıl iki ayrı 'Esad Paşa' var: Yanya müdafii Esat Paşa (Bülkat, 03-06, 11-02, 11-17) ve İşkodra'yı teslim eden Esad Paşa Toptani. Ayrıntı ve 01-30#0 Toptani diyor; başlık okuru yanıltabilir."
+ },
+ {
+  "type": "edit_title",
+  "id": "03-06#0",
+  "value": "Yanya, Esat Paşa'nın (Bülkat) uzun savunmasından sonra Yunan ordusuna teslim oldu",
+  "reason": "Yazım tutarlılığı ve kişi ayrımı: aynı kişi 11-17#m3 ve 11-02#3'te 'Esat Paşa (Bülkat)' olarak geçiyor. 04-21'deki Esad Paşa Toptani ile karışmaması için."
+ },
+ {
+  "type": "edit_title",
+  "id": "08-05#m3",
+  "value": "Zigetvar kuşatması başladı: Kanuni'nin son seferi",
+  "reason": "Yazım tutarlılığı: aynı sefer 05-01#0, 09-05#0, 09-07#0 ve 09-08#1'de 'Zigetvar' olarak yazılıyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "09-13#1",
+  "value": "Tököli İmre İzmit'te sürgünde öldü",
+  "reason": "Yazım tutarlılığı: aynı kişi 10-15#0 ve 08-21#2'de (TDV maddesiyle uyumlu) 'Tököli İmre' olarak geçiyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "03-28#2",
+  "value": "Bosna reisüluleması Mehmed Cemaleddin Çauşeviç öldü",
+  "reason": "Yazım tutarlılığı: aynı kişinin doğum kaydında (12-28#1, TDV'ye dayanarak) 'Bosna reisüluleması Mehmed Cemaleddin Çauşeviç' yazıyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "04-07#0",
+  "value": "Bosna isyanı: Hüseyin Kaptan Gradaşçeviç'in kuvvetleri Travnik önünde galip geldi",
+  "reason": "Yazım tutarlılığı: aynı kişi 08-17#2 ve 08-31#2'de 'Hüseyin Kaptan Gradaşçeviç', 06-04#0'da 'Hüseyin Kapudan', burada 'Hüseyin Kapetan' olarak geçiyor. Kitle üç farklı kişi sanabilir."
+ },
+ {
+  "type": "edit_title",
+  "id": "06-04#0",
+  "value": "Hüseyin Kaptan Gradaşçeviç ayaklanması Saraybosna yakınında Stup'ta yenildi",
+  "reason": "Yazım tutarlılığı: 08-17#2, 08-31#2 ve (düzeltilmiş) 04-07#0 ile aynı adın kullanılması için."
+ },
+ {
+  "type": "edit_title",
+  "id": "12-01#1",
+  "value": "Türkiye ile Yunanistan, mübadeleden doğan anlaşmazlıklara dair anlaşma imzaladı",
+  "reason": "'Mübadele anlaşması' ifadesi 30 Ocak 1923 çapa tarihli Nüfus Mübadelesi Sözleşmesi (01-30#1) ile karıştırılabilir. Ayrıntıya göre 1926 anlaşması mübadeleden doğan anlaşmazlıklarla ilgili."
+ },
+ {
+  "type": "edit_title",
+  "id": "11-12#manual0",
+  "value": "Yunan Kralı I. Yorgos Selanik'e törenle girdi",
+  "reason": "Yazım tutarlılığı: aynı kral 03-18#0'da 'I. Yorgos' olarak geçiyor (ayrıntıda suikaste de atıf var)."
+ },
+ {
+  "type": "edit_title",
+  "id": "01-24#2",
+  "value": "Vidin âyanı Pazvantoğlu Osman'ın ölüm haberi kayda geçti",
+  "reason": "Yazım tutarlılığı: aynı kişi 12-01#0'da (TDV ile uyumlu) 'Pazvantoğlu' olarak geçiyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "08-08#1",
+  "value": "Aliya İzzetbegoviç Bosanski Şamac'ta doğdu",
+  "reason": "Yazım tutarlılığı: aynı kişinin ölüm kaydında (10-19#2) 'Aliya İzzetbegoviç' yazıyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "04-06#1",
+  "value": "Malisör İsyanı: Deçiq çatışmasında Arnavut bayrağı çekildi",
+  "reason": "Yazım tutarlılığı: aynı ayaklanma 03-24#1'de 'Malisör' olarak geçiyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "08-03#0",
+  "value": "VMRO isyancıları Kruşova'yı ele geçirdi: 'Kruşova Cumhuriyeti' dönemi başladı",
+  "reason": "'Çete' kelimesi Türkçede aşağılayıcı bir anlam taşıyor ve Kuzey Makedonya ile Bulgaristan'daki okuru kışkırtır. Ayrıntı metni değişmeden 'isyancı' kelimesi tarafsız ve doğru."
+ },
+ {
+  "type": "edit_title",
+  "id": "10-24#0",
+  "value": "Kırkkilise Bulgar ordusunun eline geçti",
+  "reason": "Aynı savaştaki benzer kayıtlarla (10-21#0 Kırcaali, 11-06#2 Serez) tutarlı, tarafsız bir dil. 'İşgaline girdi' ifadesi savaş içi bir askerî olayı taraflı bir çerçeveye oturtuyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "07-21#0",
+  "value": "Edirne Osmanlı ordusunca geri alındı",
+  "reason": "Edirne Mayıs 1913 Londra Antlaşması ile hukuken Bulgaristan'a bırakılmıştı. Bu yüzden 'Bulgar işgali' tartışmaya açık bir ifade. TDV'nin de kullandığı yerleşik ad 'Edirne'nin geri alınması'."
+ },
+ {
+  "type": "edit_title",
+  "id": "09-18#2",
+  "value": "Filibe'de vali tutuklandı: Doğu Rumeli Bulgaristan'la birleştiğini ilan etti",
+  "reason": "'Darbe' kelimesi Bulgar okurun 'Birleşme Günü' olarak andığı olayı damgalayıcı biçimde sunuyor. Önerilen başlık, ayrıntı metnindeki olguya (valinin tutuklanması) dayanıyor ve tarafsız."
+ },
+ {
+  "type": "edit_title",
+  "id": "06-17#0",
+  "value": "Eflak Voyvodası III. Vlad'ın (Kazıklı Voyvoda) Tırgovişte gece baskını",
+  "reason": "Kişiyi yalnızca lakabıyla anmak Rumen okura alaycı gelebilir. Resmî adıyla birlikte lakabı ayraç içinde vermek hem tarafsız hem de daha anlaşılır."
+ },
+ {
+  "type": "edit_title",
+  "id": "12-24#0",
+  "value": "Osmanlı'ya tâbi Sırp Despotu Đurađ Branković öldü",
+  "reason": "Kontrolcü notu ölüm yerinin tartışmalı olduğunu ve 'Semendire'de' ifadesinin çıkarılması gerektiğini söylüyor (İngilizce Vikipedi Semendire, Sırpça Vikipedi Srebrnica diyor). 'Tâbi' vurgusu da ana olayın Osmanlı bağını görünür kılıyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "05-16#0",
+  "value": "Selanikli bir aileden gelen tango sesi Seyyan Hanım vefat etti",
+  "reason": "Ana olay. Doğum yeri tartışmalı: Sahibinin Sesi kataloğu İstanbul diyor, ailesi Selanik diyor. Başlık 'Selanikli' diye kesin bir doğum yeri iması yapmamalı."
+ },
+ {
+  "type": "edit_title",
+  "id": "04-11#0",
+  "value": "Bugünkü Bulgaristan'da doğan 'Cihan Pehlivanı' Kurtdereli Mehmet Pehlivan öldü",
+  "reason": "Ana olay. Takvim notuna göre doğum yeri kaynaklarda Selvi-Tırnova ya da Deliorman olarak geçiyor; ayrıntı metni de Tırnova şehrini değil Selvi yöresindeki Bukriva köyünü veriyor. 'Tırnova doğumlu' ifadesi kesin değil."
+ },
+ {
+  "type": "edit_title",
+  "id": "03-15#1",
+  "value": "Edirne vilayeti doğumlu sadrazam Talat Paşa Berlin'de öldürüldü",
+  "reason": "Doğum yeri tartışmalı (TDV Edirne diyor, birçok kaynak Kırcaali diyor). İkisi de Edirne vilayetinde olduğu için 'Edirne vilayeti' ifadesi her iki görüşü de karşılıyor. Kişi zaten hassas bir figür olduğundan başlığın sade kalması da önemli."
+ },
+ {
+  "type": "edit_title",
+  "id": "09-01#1",
+  "value": "Sadrazam Talat Paşa Edirne vilayetinde doğdu",
+  "reason": "Kaydın kendi notu doğum yerinin Edirne ya da Kırcaali olarak tartışmalı olduğunu söylüyor. Başlık kesin bir şehir adı vermemeli."
+ },
+ {
+  "type": "edit_title",
+  "id": "02-16#0",
+  "value": "Selanik doğumlu Orgeneral Abdülkadir Seven vefat etti",
+  "reason": "Ana olay. Kontrolcü notuna göre başlıktaki rütbe yanlış: kişi 1952'de orgeneral olmuş."
+ },
+ {
+  "type": "edit_title",
+  "id": "01-14#0",
+  "value": "Atatürk'ün annesi Langazalı Zübeyde Hanım İzmir'de vefat etti",
+  "reason": "Ana olay ama başlık Rumeli bağını göstermiyor. Ayrıntı metnine göre Selanik yakınlarındaki Langaza doğumlu; bu bağ başlıkta görünmeli."
+ },
+ {
+  "type": "edit_title",
+  "id": "03-16#0",
+  "value": "Darıdere doğumlu halk bilimci Pertev Naili Boratav Paris'te öldü",
+  "reason": "Ana olay ama başlık Rumeli bağını göstermiyor. Darıdere (Zlatograd) doğumu Türkçe ve İngilizce Vikipedi'de ortak."
+ },
+ {
+  "type": "edit_title",
+  "id": "12-27#0",
+  "value": "Babası İpekli olan İstiklal Marşı şairi Mehmed Akif Ersoy vefat etti",
+  "reason": "Ana olay. Akif İstanbul doğumlu, listeye yalnızca babasının İpekli (Kosova) olması üzerinden girdi. Başlık bu bağı göstermezse okur sayfayla ilgisini kuramaz."
+ },
+ {
+  "type": "edit_title",
+  "id": "03-02#2",
+  "value": "Millî Kütüphane'nin kurucularından Manastırlı Adnan Ötüken öldü",
+  "reason": "Ayrıntı metnine göre Manastır doğumlu. Başlıkta Rumeli bağı yok, okur kaydın neden listede olduğunu anlayamıyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "03-03#1",
+  "value": "Dramalı dil bilimci ve eski Millî Eğitim Bakanı Tahsin Banguoğlu öldü",
+  "reason": "Ayrıntı metnine göre Drama doğumlu (TBMM Albümü'ne dayanıyor). Başlıkta Rumeli bağı görünmüyor."
+ },
+ {
+  "type": "edit_title",
+  "id": "03-02#1",
+  "value": "Yenişehirli (Larisa) Türk olimpiyat öncüsü Selim Sırrı Tarcan öldü",
+  "reason": "Ayrıntı metnine göre Teselya Yenişehir doğumlu. Başlıkta Rumeli bağı yok."
+ },
+ {
+  "type": "edit_title",
+  "id": "08-04#3",
+  "value": "Manastır'da yetişen Enver Paşa Orta Asya'da çatışmada öldü",
+  "reason": "İstanbul doğumlu. Ayrıntı metnine göre ailesi Manastırlı ve öğrenimi Manastır'da geçti; başlık bu bağı göstermeli."
+ },
+ {
+  "type": "edit_title",
+  "id": "11-10#3",
+  "value": "'Soya Dönüş Süreci'nin başlatıcısı Todor Jivkov iktidardan düştü",
+  "reason": "Başlığa bakan okur, Bulgar iç siyasetine ait görünen bu kaydın Rumeli Türkleriyle bağını anlayamıyor. Bağ yalnızca ayrıntı metninde var (zorla asimilasyon ve 1989 göçü). Önerilen ifade olgusal."
+ },
+ {
+  "type": "drop",
+  "id": "01-13#2",
+  "reason": "Yunan iç siyaseti (geçici anayasa). Kontrolcü de Rumeli Türk tarihiyle ilgisinin zayıf olduğunu yazmış. Ana olay değil."
+ },
+ {
+  "type": "drop",
+  "id": "02-24#1",
+  "reason": "Habsburg Ferdinand ile Zapolya arasındaki Macar iç meselesi. Osmanlı bağı yalnızca dolaylı (1541'in arka planı). Ana olay değil."
+ },
+ {
+  "type": "drop",
+  "id": "07-02#1",
+  "reason": "Boğdan voyvodasının ölümü Rumen iç tarihine ait. Osmanlı'yla çatışmaları zaten 01-10#0 (Vaslui) ve 07-26#1 (Akdere) kayıtlarında var. Ana olay değil."
+ },
+ {
+  "type": "drop",
+  "id": "09-05#1",
+  "reason": "Rumeli'yle bağı yalnızca Üsküp'te doğmuş olmasından ibaret. Kaydın kendi notu da Türk ya da Osmanlı figürü olmadığını kabul ediyor. Ana olay değil."
+ },
+ {
+  "type": "drop",
+  "id": "09-21#1",
+  "reason": "Avusturya ordusunun kendi içinde yaşadığı bir karmaşa. Ayrıntılı anlatıları on yıllar sonra yazılmış ve büyük ölçüde rivayete dayanıyor (kayıp rakamları abartılı olabilir). Rumeli Türk tarihiyle bağı ikincil. Ana olay değil."
+ },
+ {
+  "type": "drop",
+  "id": "10-18#m2",
+  "reason": "Konusu Kuzey Afrika cephesi (Trablusgarp). Balkan Savaşı bağlantısı istenirse 10-17#0 ya da 10-18#1 metninde tek cümleyle anılabilir. Ana olay değil."
+ },
+ {
+  "type": "drop",
+  "id": "05-12#r1",
+  "reason": "Bukovina terki zaten 05-07#1'de var. Bu kayıt tek ve zayıf bir kaynağa dayanan teknik bir ek sözleşme; bölge de Rumeli Türk tarihinden uzak. Ana olay değil."
+ },
+ {
+  "type": "drop",
+  "id": "03-16#1",
+  "reason": "Rumeli bağı yalnızca ölüm yerinin Sofya olması. Kişi bağımsız ikinci bir kaynakla teyit edilmemiş. Kapsam etiketi de yanlış (post_1912 yerine kisi olmalıydı). Ana olay değil."
+ },
+ {
+  "type": "drop",
+  "id": "11-21#3",
+  "reason": "Dayton Antlaşması zaten 12-14#2'de (imza günü) var. Parafe aşaması, Bosna iç savaşının bir diplomatik ayrıntısı ve tekrar niteliğinde. Ana olay değil."
+ },
+ {
+  "type": "flag",
+  "id": "12-20#0",
+  "value": "Osmanlı dışında kalan bir Sırp olayı. Rumeli Türk tarihiyle bağı dolaylı (Osmanlı ilerleyişinin arka planı); paylaşımda bu bağ açıkça kurulmalı.",
+  "reason": "Ana olay, Sırp iç tarihine ait. Kendi notu da Osmanlı dışı bir olay olduğunu kabul ediyor."
+ },
+ {
+  "type": "flag",
+  "id": "02-05#0",
+  "value": "Rumen iç siyaseti. Ancak Osmanlı'ya tâbi iki prensliğin birleşmesi olarak çerçevelenirse kullanılabilir.",
+  "reason": "Ana olay ama Rumeli Türk tarihiyle ilgisi zayıf."
+ },
+ {
+  "type": "flag",
+  "id": "06-21#0",
+  "value": "Eflak iç siyaseti. Rumeli bağı ancak hareketin Eylül 1848'de Osmanlı kuvvetlerince bastırılması üzerinden kurulabilir.",
+  "reason": "Ana olay ama konusu Rumen devrim tarihi. Günde başka aday yok, bu yüzden düşürmek yerine işaretlendi."
+ },
+ {
+  "type": "flag",
+  "id": "06-28#0",
+  "value": "Avusturya-Macaristan dönemine ait bir Bosna olayı. Rumeli Türk tarihiyle bağı dolaylı (1878 işgali ve 1908 ilhakı çerçevesi).",
+  "reason": "Ana olay ama Rumeli Türk bağı zayıf. Kontrolcü de bunu belirtmiş."
+ },
+ {
+  "type": "flag",
+  "id": "08-24#0",
+  "value": "Muharebe Osmanlı sınırları dışında, Lehistan'da geçti. Rumeli Türk tarihiyle bağı zayıf, olay ancak Podolya bağlamında anlam taşıyor.",
+  "reason": "Ana olay. Kontrolcü notu da Rumeli bağının zayıf olduğunu söylüyor."
+ },
+ {
+  "type": "flag",
+  "id": "12-11#0",
+  "value": "Rumeli doğumlu olduğu gösterilemiyor (babası Kayserili, annesi İzmirli). Bağı yalnızca çocukluğunun Selanik'te geçmesi.",
+  "reason": "Rumeli bağı en zayıf olan ana olaylardan biri. Gün güveni de düşük."
+ },
+ {
+  "type": "flag",
+  "id": "02-15#1",
+  "value": "Doğum yeri tartışmalı (Vikipedi Edirne, Wikidata Manastır diyor). 'Edirne doğumlu' kesin bir bilgi gibi sunulmamalı.",
+  "reason": "Kişi 'Rumeli doğumlu' diye sunuluyor ama doğum yeri tartışmalı. Rumeli bağı yalnızca doğum yerine dayanıyor."
+ },
+ {
+  "type": "flag",
+  "id": "12-31#2",
+  "value": "Manastır doğumu yalnızca kaynaksız bir bilgi kutusunda geçiyor. Anne ve babası bilinmiyor; 31 Aralık 1932 sonradan çıkarılan nüfus kaydının tarihi. 'Manastır doğumlu' kesin sunulmamalı.",
+  "reason": "Rumeli bağı tümüyle doğum yerine dayanıyor ve bu bilgi doğrulanamadı."
+ },
+ {
+  "type": "set_primary",
+  "id": "01-29#1",
+  "reason": "koordinatör: kitle için daha güçlü ve doğrulanmış olay"
+ },
+ {
+  "type": "set_primary",
+  "id": "01-30#1",
+  "reason": "koordinatör: kitle için daha güçlü ve doğrulanmış olay"
+ },
+ {
+  "type": "set_primary",
+  "id": "03-30#1",
+  "reason": "koordinatör: kitle için daha güçlü ve doğrulanmış olay"
+ },
+ {
+  "type": "set_primary",
+  "id": "05-06#2",
+  "reason": "koordinatör: kitle için daha güçlü ve doğrulanmış olay"
+ },
+ {
+  "type": "set_primary",
+  "id": "05-19#2",
+  "reason": "koordinatör: kitle için daha güçlü ve doğrulanmış olay"
+ },
+ {
+  "type": "set_primary",
+  "id": "08-31#1",
+  "reason": "koordinatör: kitle için daha güçlü ve doğrulanmış olay"
+ },
+ {
+  "type": "set_primary",
+  "id": "09-22#2",
+  "reason": "koordinatör: kitle için daha güçlü ve doğrulanmış olay"
+ },
+ {
+  "type": "set_primary",
+  "id": "10-11#2",
+  "reason": "koordinatör: kitle için daha güçlü ve doğrulanmış olay"
+ },
+ {
+  "type": "set_primary",
+  "id": "11-10#1",
+  "reason": "koordinatör: kitle için daha güçlü ve doğrulanmış olay"
+ }
+]
