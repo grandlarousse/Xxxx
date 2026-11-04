@@ -737,10 +737,10 @@ def place_cities(cv, F, ottm1, tiers=None):
             cv.occupy((x - r - 2, y - r - 2, x + r + 2, y + r + 2))
 
 
-def series_tag(cv, text):
-    """Sağ üst köşede seri etiketi: RUMELİ 1876 · n/8"""
+def series_tag(cv, text, prefix="RUMELİ 1876"):
+    """Üst cetvelin ortasında seri etiketi: RUMELİ 1876 · n/8"""
     d = cv.d
-    t = "RUMELİ 1876 · " + text
+    t = prefix + " · " + text
     f = bar(22, "SemiBold")
     w = cv.tracked_w(t, f, 4)
     x0, x1, y0, y1 = W / 2 - w / 2 - 22, W / 2 + w / 2 + 22, 59, 96
@@ -757,6 +757,7 @@ def main():
     ap.add_argument("--out", default=os.path.join(HERE, "cikti", "rumeli_1876"))
     ap.add_argument("--ppd", type=int, default=250, help="nokta başına kişi")
     ap.add_argument("--seri", default="", help="ör. '1/8' — sağ üstte seri etiketi")
+    ap.add_argument("--doldur", action="store_true", help="boşlukları çevredeki çoğunluğun taramasıyla doldur")
     a = ap.parse_args()
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
 
@@ -803,6 +804,11 @@ def main():
     cvb = Canvas(base)
     # hayalet vilayet adları (noktaların altında)
     base.alpha_composite(draw_rivers(F, regm, fade, under=True))
+    if a.doldur:
+        import seri as S_
+        lab, sh = S_.areal_fill(F, x, y, k, ott1 & landm, sigma_km=9.0)
+        base.alpha_composite(S_.fill_layer(lab, fade, spacing=9, lw=2.2))
+        log(f"alan payları: Türk %{sh[0]:.1f} · d.Müs %{sh[1]:.1f} · Hr %{sh[2]:.1f}")
     base.alpha_composite(dotted_borders(F, fade))
     log("altlık")
 
@@ -999,7 +1005,7 @@ def main():
     # lejant satırı
     items = [(0, "Türk"), (1, "Diğer Müslüman"), (2, "Hristiyan")]
     f1, f2 = bar(38, "SemiBold"), bar(32, "Medium")
-    unit = "1 nokta = 250 kişi (≈ 50 hane)"
+    unit = "1 nokta = 250 kişi (≈ 50 hane)" + ("  ·  taralı alan: çevredeki köylerin çoğunluğu" if a.doldur else "")
     tot = sum(70 + f1.getlength(t) + 44 for _, t in items) + 30 + f2.getlength(unit)
     xx = W / 2 - tot / 2
     yb = 506

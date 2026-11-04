@@ -5,17 +5,17 @@
  "story_labels": [
   {
    "text": "DOĞU RODOPLAR",
-   "sub": "Sultanyeri · Koşukavak Türk köyleri",
+   "sub": "Kırcaali · Sultanyeri · Koşukavak Türk köyleri",
    "group": 0,
    "lon": 25.6,
    "lat": 41.56
   },
   {
    "text": "POMAKLAR",
-   "sub": "Ahiçelebi · Madan · Darıdere yaylaları",
+   "sub": "Madan · Darıdere · Şahin yaylaları",
    "group": 1,
-   "lon": 24.65,
-   "lat": 41.45
+   "lon": 24.85,
+   "lat": 41.33
   },
   {
    "text": "ÇEPİNE",
@@ -26,7 +26,7 @@
   },
   {
    "text": "HAYRABOLU",
-   "sub": "Malkara’ya uzanan Türk köyleri",
+   "sub": "Malkara’ya uzanan Türk ağırlıklı köyler",
    "group": 0,
    "lon": 27.05,
    "lat": 41.12
@@ -354,7 +354,7 @@
     "Gelibolu"
    ],
    "record_muslim_pct": 38.2,
-   "record_label": "1876"
+   "record_label": "kayıt 1876"
   },
   {
    "label": "Filibe + İslimye",
@@ -364,7 +364,7 @@
     "İslimye"
    ],
    "record_muslim_pct": 40.8,
-   "record_label": "1875-76"
+   "record_label": "kayıt 1875-76"
   },
   {
    "label": "Filibe",
@@ -403,7 +403,7 @@
    "record_label": ""
   },
   {
-   "label": "Gelibolu + Gümülcine",
+   "label": "Gelibolu (Gümülcine dâhil)",
    "vilayet": "Edirne",
    "sancak": [
     "Gelibolu"
@@ -415,7 +415,7 @@
  "callouts": [
   {
    "big": "%98,1",
-   "line1": "Sultanyeri kazası Müslüman (1875-76)",
+   "line1": "Sultanyeri kazasında Müslüman oranı",
    "line2": "13.495 Müslüman · 262 Hristiyan erkek",
    "src": "1875-76 tahriri (A. Koyuncu 2013)"
   },
@@ -427,7 +427,7 @@
   },
   {
    "big": "20.000",
-   "line1": "Edirne şehrinde kalan Müslüman (1882)",
+   "line1": "Edirne şehrinde kalan Müslüman, 1882",
    "line2": "1858’de 35.000 Türk yaşıyordu",
    "src": "Belleten (TTK)"
   }

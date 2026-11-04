@@ -93,6 +93,80 @@ def sanitize(x):
     return x
 
 
+ALL_OTT = [("Tuna", None), ("Edirne", None), ("İstanbul", None), ("Selanik", None), ("Manastır", None),
+           ("Prizren", None), ("Yanya", None), ("İşkodra", None), ("Bosna", None), ("Hersek", None)]
+TURK = dict(series="RUMELİ TÜRKLERİ 1876", total=4)
+REGIONS.update({
+    "t_rodoplar": dict(n=1, center=(25.35, 41.45), width=300, name="Doğu Rodoplar ve Batı Trakya", focus=ALL_OTT,
+                       float=(1440, 1640, 2080, 2040), **TURK),
+    "t_deliorman": dict(n=2, center=(27.4, 44.0), width=380, name="Deliorman ve Dobruca", focus=ALL_OTT,
+                        float=(90, 520, 980, 960), **TURK),
+    "t_makedonya": dict(n=3, center=(22.9, 41.1), width=380, name="Makedonya Türkleri", focus=ALL_OTT,
+                        float=(1440, 1620, 2080, 2040), **TURK),
+    "t_trakya": dict(n=4, center=(27.3, 41.35), width=330, name="Edirne ve Doğu Trakya", focus=ALL_OTT,
+                     float=(90, 1660, 1000, 2040), **TURK),
+})
+
+
+def areal_fill(F, x, y, k, area, sigma_km=6.0, step=2):
+    """Boş alanları çevredeki yerleşimlerin çoğunluk grubuyla doldurur (etnografya haritası yöntemi).
+
+    Dönüş: (H, W) int8 etiket (-1 = doldurulmaz), her grup için alan payı.
+    Kural her grup için aynıdır: etrafı Türk köyleriyle çevrili boşluk Türk, Bulgar köyleriyle çevrili boşluk
+    Hristiyan rengi alır.
+    """
+    from scipy.ndimage import gaussian_filter as gf, distance_transform_edt as edt
+    h, w = H // step, W // step
+    cnt = np.zeros((3, h, w), np.float32)
+    xi = np.clip((x / step).astype(int), 0, w - 1)
+    yi = np.clip((y / step).astype(int), 0, h - 1)
+    for g in range(3):
+        m = k == g
+        np.add.at(cnt[g], (yi[m], xi[m]), 1.0)
+    sig = sigma_km * 1000 / (F.mpp * step)
+    D = np.stack([gf(cnt[g], sig) for g in range(3)])
+    tot = D.sum(0)
+    decided = tot > (0.6 / (2 * np.pi * sig * sig))
+    lab = np.argmax(D, 0).astype(np.int8)
+    if (~decided).any() and decided.any():
+        _, (ii, jj) = edt(~decided, return_indices=True)
+        lab = lab[ii, jj]
+    # çoğunluk süzgeci: küçük adacıkları yumuşat
+    oh = np.stack([gf((lab == g).astype(np.float32), 2.0e3 / (F.mpp * step) + 1.0) for g in range(3)])
+    lab = np.argmax(oh, 0).astype(np.int8)
+    full = np.repeat(np.repeat(lab, step, 0), step, 1)[:H, :W]
+    out = np.where(area, full, -1).astype(np.int8)
+    tot_px = max(1, (out >= 0).sum())
+    shares = [100.0 * (out == g).sum() / tot_px for g in range(3)]
+    return out, shares
+
+
+def fill_layer(lab, fade, dim=None, spacing=11, lw=2.6):
+    """Taralı alan katmanı (RGBA): grup renginde çapraz çizgiler + hafif ton."""
+    Y, X = np.mgrid[0:H, 0:W]
+    v = (X + Y) % spacing
+    hatch = np.clip(lw / 2 + 0.5 - np.abs(v - spacing / 2), 0, 1).astype(np.float32)
+    lay = np.zeros((H, W, 4), np.float32)
+    for g in range(3):
+        m = lab == g
+        if not m.any():
+            continue
+        col = np.array(hx(COL[g])[:3], np.float32)
+        lay[m, :3] = col
+        lay[m, 3] = 0.20 + 0.55 * hatch[m]
+    # grup sınırlarında ince koyu çizgi
+    edge = np.zeros((H, W), bool)
+    edge[:, 1:] |= (lab[:, 1:] != lab[:, :-1]) & (lab[:, 1:] >= 0) & (lab[:, :-1] >= 0)
+    edge[1:, :] |= (lab[1:, :] != lab[:-1, :]) & (lab[1:, :] >= 0) & (lab[:-1, :] >= 0)
+    lay[edge, :3] = (8, 10, 16)
+    lay[edge, 3] = 0.55
+    a = lay[..., 3] * np.clip(fade[:, 0], 0, 1)[:, None]
+    if dim is not None:
+        a = np.where(dim, a * 0.4, a)
+    lay[..., 3] = a
+    return Image.fromarray(np.clip(lay * [1, 1, 1, 255], 0, 255).astype(np.uint8), "RGBA")
+
+
 def in_focus(c, focus):
     for vil, sans in focus:
         if c.get("vilayet") == vil and (sans is None or (c.get("sancak") or "") in sans):
@@ -284,6 +358,24 @@ def render_region(key, cfg, out_dir, ppd=100):
     basef = P.base_image(F, elev, landm, regm, ott1) * (0.22 + 0.78 * fade[..., None])
     base = Image.fromarray(np.clip(basef * 255, 0, 255).astype(np.uint8)).convert("RGBA")
     base.alpha_composite(P.draw_rivers(F, regm, fade, under=True))
+    fill_shares, fill_km2 = None, [0, 0, 0]
+    if reg.get("fill", True):
+        focus_area = np.zeros((H, W), bool)
+        fpx = np.zeros(len(cl), bool)
+        # odak alanı: odak kümelerin en yakın olduğu Osmanlı karası
+        from scipy.spatial import cKDTree
+        ccx, ccy = F.ll_to_px([c["lon"] for c in cl], [c["lat"] for c in cl])
+        tree = cKDTree(np.c_[np.asarray(ccx), np.asarray(ccy)])
+        gy_, gx_ = np.mgrid[0:H:4, 0:W:4]
+        _, nn = tree.query(np.c_[gx_.ravel(), gy_.ravel()])
+        fz_ = foc[nn].reshape(gy_.shape)
+        focus_area = np.repeat(np.repeat(fz_, 4, 0), 4, 1)[:H, :W] & ott1
+        lab, _ = areal_fill(F, x, y, k, ott1 & landm)
+        fl_ = (lab >= 0) & focus_area
+        fill_shares = [100.0 * ((lab == g) & fl_).sum() / max(1, fl_.sum()) for g in range(3)]
+        fill_km2 = [((lab == g) & fl_).sum() * (F.mpp / 1000) ** 2 for g in range(3)]
+        base.alpha_composite(fill_layer(lab, fade, dim=~focus_area))
+        log(f"[{key}] alan payları (odak): Türk %{fill_shares[0]:.1f} · d.Müs %{fill_shares[1]:.1f} · Hr %{fill_shares[2]:.1f}")
     base.alpha_composite(P.dotted_borders(F, fade))
     img = P.render_dots(np.asarray(base.convert("RGB"), np.float32) / 255, x, y, k, inside,
                         radius=1.9, fade_y0=1990, fade_y1=2110, alpha_out=0.30)
@@ -313,7 +405,7 @@ def render_region(key, cfg, out_dir, ppd=100):
     d.line((140, 80, W / 2 - 36, 80), fill=BRASS[:3] + (115,), width=1)
     d.line((W / 2 + 30, 80, W - 140, 80), fill=BRASS[:3] + (115,), width=1)
     kicker = cfg.get("kicker") or "OSMANLI KAYITLARINA GÖRE · 93 HARBİ ARİFESİ"
-    kicker = kicker.replace(f"RUMELİ 1876 · {reg['n']}/{TOTAL} · ", "").replace(f"RUMELİ 1876 · {reg['n']}/{TOTAL}", "").strip(" ·")
+    kicker = re.sub(r"RUMELİ (TÜRKLERİ )?1876\s*·\s*\d+/\d+\s*·?\s*", "", kicker).strip(" ·") or "OSMANLI KAYITLARINA GÖRE · 93 HARBİ ARİFESİ"
     cv.tracked((W / 2, 146), P.tr_upper(kicker), bar(30, "SemiBold"), 8, BRASS, anchor="c")
     title = P.tr_upper(cfg.get("title") or reg["name"])
     ts = 170
@@ -327,7 +419,7 @@ def render_region(key, cfg, out_dir, ppd=100):
     cv.halo((W / 2, 376), sub, bod(ss, 600, 11), IV2, anchor="ms", rad=6, strength=0.6)
     items = [(0, "Türk"), (1, "Diğer Müslüman"), (2, "Hristiyan")]
     f1, f2 = bar(34, "SemiBold"), bar(28, "Medium")
-    unit = f"1 nokta = {ppd} kişi (≈ {ppd // 5} hane) · soluk: bölge dışı ya da 1876’da Osmanlı idaresi dışında"
+    unit = f"1 nokta = {ppd} kişi (≈ {ppd // 5} hane)" + ("  ·  taralı alan: çevredeki köylerin çoğunluğu" if reg.get("fill", True) else " · soluk: bölge dışı ya da 1876’da Osmanlı idaresi dışında")
     tot = sum(62 + f1.getlength(t) + 40 for _, t in items) + 26 + f2.getlength(unit)
     xx = W / 2 - tot / 2
     yb = 446
@@ -470,6 +562,13 @@ def render_region(key, cfg, out_dir, ppd=100):
             yy += lh
         else:
             yy += 10
+    if fill_shares is not None and reg.get("series"):
+        yy += 6
+        d.line((x0f + 24, yy - 18, x0f + 24 + 120, yy - 18), fill=BRASS[:3] + (120,), width=1)
+        st_ = f"Taralı alanın {fmt_pct(fill_shares[0])}’i Türk çoğunluklu"
+        d.text((x0f + 24, yy + 12), st_, font=bar(26, "SemiBold"), fill=TINT[0], anchor="ls")
+        d.text((x0f + 24, yy + 40), f"≈ {fmt_int(round(fill_km2[0], -1))} km² · Osmanlı toprağı, harita modeli", font=bar(18, "Medium"), fill=MUTE, anchor="ls")
+        yy += 50
     if show_loc:
         if sep_loc:
             lb = sep_loc
@@ -486,7 +585,7 @@ def render_region(key, cfg, out_dir, ppd=100):
 
     P.lat_ticks(cv, F)
     P.frame_ornament(cv)
-    P.series_tag(cv, f"{reg['n']}/{TOTAL}")
+    P.series_tag(cv, f"{reg['n']}/{reg.get('total', TOTAL)}", prefix=reg.get("series", "RUMELİ 1876"))
     d = cv.d
     src = cfg.get("sources_line") or ""
     l2 = ("Yöntem: Osmanlı salname/sayım verilerine dayalı bölge kümeleri (ana poster ile aynı veri) · nokta yerleri temsilîdir · "
