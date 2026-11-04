@@ -33,7 +33,7 @@
   },
   {
    "text": "ORTODOKS SIRPLAR",
-   "sub": "Petroviç, Drvar, Grahovo",
+   "sub": "Petrovaç, Drvar, Grahovo",
    "group": 2,
    "lon": 16.45,
    "lat": 44.33
@@ -87,7 +87,8 @@
    "modern": "",
    "lon": 17.666,
    "lat": 44.226,
-   "tier": 1
+   "tier": 1,
+   "side": "left"
   },
   {
    "name": "Tuzla",
@@ -272,14 +273,14 @@
    "tier": 3
   },
   {
-   "name": "Sanapazarı",
-   "modern": "Sanski Most",
+   "name": "Sanski Most",
+   "modern": "",
    "lon": 16.667,
    "lat": 44.767,
    "tier": 3
   },
   {
-   "name": "Petroviç",
+   "name": "Petrovaç",
    "modern": "Bosanski Petrovac",
    "lon": 16.37,
    "lat": 44.554,
@@ -372,7 +373,7 @@
  ],
  "bars": [
   {
-   "label": "BOSNA VİLÂYETİ",
+   "label": "BOSNA (Hersek hariç)",
    "vilayet": "Bosna",
    "sancak": [
     "Saray",
@@ -383,7 +384,7 @@
     "Yenipazar"
    ],
    "record_muslim_pct": 51,
-   "record_label": "kayıt 1870"
+   "record_label": "1870"
   },
   {
    "label": "Yenipazar",
@@ -392,7 +393,7 @@
     "Yenipazar"
    ],
    "record_muslim_pct": 63.3,
-   "record_label": "kayıt 1870"
+   "record_label": "1870"
   },
   {
    "label": "Saray",
@@ -401,7 +402,7 @@
     "Saray"
    ],
    "record_muslim_pct": 56.9,
-   "record_label": "kayıt 1870"
+   "record_label": "1870"
   },
   {
    "label": "Bihke",
@@ -410,7 +411,7 @@
     "Bihke"
    ],
    "record_muslim_pct": 53.8,
-   "record_label": "kayıt 1870"
+   "record_label": "1870"
   },
   {
    "label": "İzvornik",
@@ -419,7 +420,7 @@
     "İzvornik"
    ],
    "record_muslim_pct": 52.9,
-   "record_label": "kayıt 1870"
+   "record_label": "1870"
   },
   {
    "label": "Hersek (Mostar)",
@@ -428,7 +429,7 @@
     "Hersek (Mostar)"
    ],
    "record_muslim_pct": 49,
-   "record_label": "kayıt 1870"
+   "record_label": "1870"
   },
   {
    "label": "Travnik",
@@ -437,7 +438,7 @@
     "Travnik"
    ],
    "record_muslim_pct": 47.8,
-   "record_label": "kayıt 1870"
+   "record_label": "1870"
   },
   {
    "label": "Banaluka",
@@ -446,7 +447,7 @@
     "Banaluka"
    ],
    "record_muslim_pct": 33.9,
-   "record_label": "kayıt 1870"
+   "record_label": "1870"
   }
  ],
  "callouts": [
@@ -463,18 +464,18 @@
    "src": "Bosna salnamesi 1287/1870 (Z. Gölen, Belleten 65, 2001)"
   },
   {
-   "big": "500.000+",
-   "line1": "Müslüman, 1878'de Avusturya",
-   "line2": "işgaline bırakılan topraklardaydı",
-   "src": "harita modeli: ≈517 bin (Yenipazar ve Nikşik hariç)"
+   "big": "≈517.000",
+   "line1": "Müslüman, 1878’de Avusturya işgaline bırakılan topraklarda",
+   "line2": "1870 kaydı esaslı harita modeli (Yenipazar ve Nikşik hariç)",
+   "src": "1879 Avusturya sayımı ise ≈448 bin (%38,7) buldu: göç başlamıştı"
   }
  ],
  "narrative": [
   "1870 Osmanlı sayımında Bosna'da her iki kişiden biri Müslümandı; kasabalar Boşnak ağırlıklıydı.",
   "Ortodoks Sırplar Krayina ve Hersek dağlarında, Katolik Hırvatlar Batı Hersek ve Orta Bosna'da yoğundu.",
-  "1875'te Nevesin'de başlayan Hersek isyanı Şark Buhranı'nı başlattı; yol 1877-78'de 93 Harbi'ne çıktı.",
+  "1875’te Nevesin’de başlayan Hersek isyanı Şark Buhranı’nı başlattı ve 1877-78’deki 93 Harbi’ne giden yolu açtı.",
   "Berlin'de (1878) Bosna-Hersek Avusturya işgaline bırakıldı; Yenipazar sancağı 1912'ye dek Osmanlı'da kaldı."
  ],
- "sources_line": "Kaynaklar: Bosna Vilâyeti Salnamesi 1287/1870 (Z. Gölen, Belleten 65/242, 2001) · TDV İslâm Ansiklopedisi, \"Yenipazar\" · A. H. Layard 1877 (M. Köse, Trakya Üniv. EFD 9/18, 2019) · Z. Yücetürk 2018 (kaza listeleri) · erkek sayımları ×2; sancak içi dağılım 1879 Avusturya ilçe örüntüsünden, nokta yerleri temsilî",
+ "sources_line": "Kaynaklar: Bosna Vilâyeti Salnamesi 1287/1870 (Z. Gölen, Belleten 65/242, 2001) · TDV İslâm Ansiklopedisi, \"Yenipazar\" · A. H. Layard 1877 (M. Köse, Trakya Üniv. EFD 9/18, 2019) · Z. Yücetürk 2018 (kaza listeleri) · sancak içi dağılım 1879 Avusturya ilçe örüntüsünden",
  "caption": "1876'da Bosna'da her iki kişiden biri Müslümandı. Osmanlı kayıtları bunu açıkça gösteriyor.\n\nRUMELİ 1876 serisinin 6. durağı: Bosna-Hersek ve Yenipazar.\n\n1870 Bosna salnamesine göre:\n• Bosna vilâyetinde Müslüman oranı %51,0; Hersek'te %49,0.\n• En Müslüman sancak Yenipazar'dı: %63,3. Yenipazar kasabasında 1857'de 1.500 Müslüman haneye karşılık 100 Hristiyan hane vardı.\n• Saray (%56,9), Bihke (%53,8) ve İzvornik (%52,9) sancaklarında Müslümanlar çoğunluktaydı; Banaluka'da ise Hristiyanlar ağır basıyordu (%33,9 Müslüman).\n\nSarı noktalar Bosna'nın Müslüman halkı Boşnakları gösteriyor: Cazin Krayinası, Bosna vadisi, Drina boyu, Peşter. Kasabalardaki kırmızı noktalar Türk memur, asker ve aileleri; mavi noktalar Ortodoks Sırp ve Katolik Hırvat köyleri.\n\n1875'te Nevesin'de başlayan Hersek isyanı 93 Harbi'ne giden yolu açtı. 1878'de Bosna-Hersek Avusturya-Macaristan işgaline bırakıldı; haritamıza göre yarım milyondan fazla Müslüman yabancı idare altında kaldı, muhacir kafileleri Osmanlı topraklarına yöneldi. Yenipazar sancağı 1912'ye dek Osmanlı'da kaldı.\n\nNoktalar temsilîdir: 1 nokta = 100 kişi. Sancak toplamları Osmanlı kaydıdır (erkek nüfus ×2); sancak içi dağılım sonraki ilçe örüntülerinden tahmin edilmiştir.\n\nKaynaklar: Bosna Vilâyeti Salnamesi 1287/1870 (Z. Gölen, Belleten 2001); TDV İslâm Ansiklopedisi, \"Yenipazar\"; A. H. Layard 1877 (M. Köse 2019).\n\nSizce Bosna'da Osmanlı mirası en çok hangi şehirde yaşıyor?\n\n#Bosna #Hersek #Saraybosna #Mostar #Yenipazar #Boşnaklar #OsmanlıTarihi #Rumeli #93Harbi #BerlinAntlaşması #Balkanlar #TarihHaritası #OsmanlıDevleti"
 }

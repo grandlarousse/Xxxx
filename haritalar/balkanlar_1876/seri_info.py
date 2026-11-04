@@ -180,10 +180,10 @@ def post_bulgaristan(out_dir):
             continue
         cv.halo((px, py + 18), f"{v}", bs(64 if v < 50 else 50, 800 if v < 50 else 700), IV if v < 50 else IV[:3] + (220,), anchor="ms", rad=4)
         f_ = bar(24 if len(on) < 14 else 21, "SemiBold")
-        cv.halo((px, py - 34), on, f_, IV2, anchor="ms", rad=3)
+        cv.halo((px, py - (48 if v < 50 else 36)), on, f_, IV2, anchor="ms", rad=3)
         mod = T.get("modern_" + nm, "")
         if mod and mod != on:
-            cv.halo((px, py + 40), mod, bar(16, "Medium"), MUTE, anchor="ms", rad=2)
+            cv.halo((px, py + (46 if v < 50 else 40)), mod, bar(19, "Medium"), MUTE, anchor="ms", rad=2)
     d = cv.d
     # Karadeniz / komşular
     for t_, lo, la_ in (("KARADENİZ", 28.6, 42.75), ("ROMANYA", 25.5, 44.35),
@@ -202,10 +202,10 @@ def post_bulgaristan(out_dir):
     d.text((lx + 36, ly + 68), "Bulgarların yarıdan az olduğu iller", font=bar(18, "Medium"), fill=IV2, anchor="ls")
     nt = T.get("map_sub", "")
     if nt:
-        d.text((120, ly + 36), nt, font=bar(18, "Medium"), fill=MUTE, anchor="ls")
-    sn = T.get("sofya_note", "")
-    for j, ln in enumerate(S.wrap(sn, bar(16, "Medium"), 1300)[:2]):
-        d.text((120, ly + 62 + j * 20), ln, font=bar(16, "Medium"), fill=MUTE, anchor="ls")
+        d.text((120, ly + 14), nt, font=bar(21, "Medium"), fill=IV2, anchor="ls")
+    sn = "*" + T.get("sofya_note", "")
+    for j, ln in enumerate(S.wrap(sn, bar(20, "Medium"), 1400)[:2]):
+        d.text((120, ly + 42 + j * 25), ln, font=bar(20, "Medium"), fill=MUTE, anchor="ls")
     # ---- alt bölüm: sıralı liste + karşılaştırma
     y0 = 1840
     st = Image.new("RGBA", (2116 - 44, 2580 - y0), (4, 6, 10, int(255 * 0.86)))
@@ -214,29 +214,34 @@ def post_bulgaristan(out_dir):
     d.line((44, y0, 2116, y0), fill=BRASS, width=2)
     star8(d, W / 2, y0, 10, BRASS, 2, fill=hx("#05080D"))
     cv.tracked((80, y0 + 48), T.get("panel_head_rank", "SIRALAMA · EN AZDAN EN ÇOĞA"), bar(22, "SemiBold"), 4, BRASS)
-    items = sorted(TG.items(), key=lambda t: t[1])
+    ro = [n.strip() for n in (T.get("rank_order") or "").split(",") if n.strip() in TG]
+    items = [(n, TG[n]) for n in ro] if len(ro) == len(TG) else sorted(TG.items(), key=lambda t: (t[1], OTT_NAMES.get(t[0], t[0])))
     colx = [80, 560]
     for i, (nm, v) in enumerate(items):
         cx_ = colx[i // 14]
         yy = y0 + 84 + (i % 14) * 46
         on = T.get("name_" + nm, OTT_NAMES.get(nm, nm))
+        if i == 11 and items[10][1] < 50 <= v:
+            d.line((cx_, yy - 2, cx_ + 470, yy - 2), fill=BRASS, width=2)
+            d.text((cx_ + 474, yy + 4), "%50", font=bar(16, "SemiBold"), fill=BRASS, anchor="ls")
         d.text((cx_, yy + 22), f"{i + 1:>2}.", font=bar(19, "Medium"), fill=MUTE, anchor="ls")
         d.text((cx_ + 36, yy + 22), on, font=bar(21, "SemiBold"), fill=IV, anchor="ls")
         bx0, bw = cx_ + 230, 170
         d.rectangle((bx0, yy + 6, bx0 + bw, yy + 24), fill=(20, 26, 38))
         d.rectangle((bx0, yy + 6, bx0 + bw * v / 100, yy + 24), fill=hx(COL[2]))
+        d.line((bx0 + bw / 2, yy + 3, bx0 + bw / 2, yy + 27), fill=BRASS[:3] + (160,), width=1)
         d.text((bx0 + bw + 10, yy + 23), f"%{v}", font=bs(26), fill=IV if v < 50 else IV2, anchor="ls")
     # karşılaştırma kutusu
     d.line((1060, y0 + 30, 1060, 2560), fill=BRASS[:3] + (90,), width=1)
     x0 = 1100
     cv.tracked((x0, y0 + 48), T.get("panel_head_compare", "KARŞILAŞTIRMA"), bar(22, "SemiBold"), 4, BRASS)
     nlow = sum(1 for v in TG.values() if v < 50)
-    hero = f"{nlow} / 28"
+    hero = f"{nlow}* / 28"
     d.text((x0, y0 + 160), hero, font=bs(110), fill=IV, anchor="ls")
     hx_ = x0 + bs(110).getlength(hero) + 22
     d.text((hx_, y0 + 116), "ilde Bulgarlar", font=bar(28, "SemiBold"), fill=IV, anchor="ls")
-    d.text((hx_, y0 + 150), "yarıdan azdı", font=bar(28, "SemiBold"), fill=IV, anchor="ls")
-    yy = y0 + 196
+    d.text((hx_, y0 + 150), "nüfusun yarısından azdı", font=bar(28, "SemiBold"), fill=IV, anchor="ls")
+    yy = y0 + 214
     for ln in S.wrap(T.get("highlight_model", ""), bar(22, "SemiBold"), 950)[:2]:
         d.text((x0, yy), ln, font=bar(22, "SemiBold"), fill=TINT[0], anchor="ls")
         yy += 28
@@ -249,30 +254,37 @@ def post_bulgaristan(out_dir):
     for big, l1, l2 in rows:
         d.text((x0, yy + 56), big, font=bs(62), fill=IV, anchor="ls")
         d.text((x0 + 200, yy + 26), l1, font=bar(23, "SemiBold"), fill=IV, anchor="ls")
-        for j, ln in enumerate(S.wrap(l2, bar(17, "Medium"), 760)[:2]):
-            d.text((x0 + 200, yy + 50 + j * 21), ln, font=bar(17, "Medium"), fill=MUTE, anchor="ls")
-        yy += 86
-    yy += 10
+        for j, ln in enumerate(S.wrap(l2, bar(19, "Medium"), 760)[:2]):
+            d.text((x0 + 200, yy + 51 + j * 22), ln, font=bar(19, "Medium"), fill=MUTE, anchor="ls")
+        yy += 84
+    for ln in S.wrap(T.get("compare_note", ""), bar(18, "Medium"), 960)[:2]:
+        d.text((x0, yy + 4), ln, font=bar(18, "Medium"), fill=MUTE, anchor="ls")
+        yy += 22
+    yy += 14
     d.line((x0, yy, 2080, yy), fill=BRASS[:3] + (70,), width=1)
     cv.tracked((x0, yy + 34), T.get("panel_head_check", "OSMANLI KAYDIYLA SAĞLAMA"), bar(20, "SemiBold"), 4, BRASS)
-    d.text((x0, yy + 58), T.get("check_sub", ""), font=bar(16, "Medium"), fill=MUTE, anchor="ls")
+    d.text((x0, yy + 58), T.get("check_sub", ""), font=bar(18, "Medium"), fill=MUTE, anchor="ls")
     yy += 70
+    rows_c = []
     for i in range(1, 6):
         t_ = T.get(f"check_row_{i}")
-        if not t_:
-            continue
-        left, _, right = t_.partition("→")
-        d.text((x0, yy + 22), left.strip(), font=bar(20, "SemiBold"), fill=IV2, anchor="ls")
+        if t_:
+            left, _, right = t_.replace("›", "→").partition("→")
+            rows_c.append((left.strip(), right.strip()))
+    lw_ = max([bar(20, "SemiBold").getlength(l) for l, _ in rows_c] + [100])
+    for left, right in rows_c:
+        d.text((x0, yy + 22), left, font=bar(20, "SemiBold"), fill=IV2, anchor="ls")
         ay = yy + 15
-        d.line((x0 + 296, ay, x0 + 326, ay), fill=BRASS, width=2)
-        d.polygon([(x0 + 326, ay - 6), (x0 + 336, ay), (x0 + 326, ay + 6)], fill=BRASS)
-        d.text((x0 + 340, yy + 22), right.strip(), font=bar(20, "SemiBold"), fill=IV, anchor="ls")
+        ax = x0 + lw_ + 20
+        d.line((ax, ay, ax + 30, ay), fill=BRASS, width=2)
+        d.polygon([(ax + 30, ay - 6), (ax + 40, ay), (ax + 30, ay + 6)], fill=BRASS)
+        d.text((ax + 52, yy + 22), right, font=bar(20, "SemiBold"), fill=IV, anchor="ls")
         yy += 27
-    for ln in S.wrap(T.get("check_note", ""), bar(16, "Medium"), 960)[:2]:
-        d.text((x0, yy + 20), ln, font=bar(16, "Medium"), fill=MUTE, anchor="ls")
-        yy += 20
-    srcs = [f"Kaynak: il oranları {RECORDS['BG1875']['src']} · Osmanlı kaydı: {RECORDS['TUNA_1875']['src']}",
-            "Harita: bugünkü il sınırları (Natural Earth) · rölyef: AWS Terrain · Osmanlıca il adları yaklaşık karşılıklardır"]
+    for ln in S.wrap(T.get("check_note", ""), bar(18, "Medium"), 960)[:2]:
+        d.text((x0, yy + 22), ln, font=bar(18, "Medium"), fill=MUTE, anchor="ls")
+        yy += 22
+    srcs = [T.get("footnote_short") or f"Kaynak: il oranları {RECORDS['BG1875']['src']} · Osmanlı kaydı: {RECORDS['TUNA_1875']['src']}",
+            "il oranları: swenstone0 (çevrimiçi derleme, 1875 verileri bugünkü il sınırlarına göre) · harita: Natural Earth · rölyef: AWS Terrain · Osmanlıca il adları yaklaşık karşılıklardır"]
     finish(cv, 7, srcs, out_dir, "07_bulgaristan")
 
 

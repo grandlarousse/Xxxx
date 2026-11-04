@@ -1,13 +1,13 @@
 {
  "texts": {
-  "kicker": "RUMELİ 1876 · 7/8",
+  "kicker": "BUGÜNKÜ İL SINIRLARIYLA · DERLEME VE OSMANLI KAYDI",
   "title": "BULGARİSTAN 1875, İL İL",
   "subtitle": "Bugünkü 28 ilde Bulgarların payı · 93 Harbi’nden iki yıl önce",
   "panel_heads": "BUGÜNKÜ İLLER · 1875’TE BULGARLARIN PAYI | SIRALAMA · EN AZDAN EN ÇOĞA | KAYIT, DERLEME, MODEL | OSMANLI KAYDIYLA SAĞLAMA",
   "panel_head_map": "BUGÜNKÜ İLLER · 1875’TE BULGARLARIN PAYI",
   "panel_head_rank": "SIRALAMA · EN AZDAN EN ÇOĞA",
   "panel_head_compare": "KAYIT, DERLEME, MODEL",
-  "panel_head_check": "OSMANLI KAYDIYLA SAĞLAMA",
+  "panel_head_check": "OSMANLI KAYDIYLA KARŞILAŞTIRMA",
   "map_sub": "sayı: ildeki Bulgarların payı (%) · Osmanlı adları, altta bugünkü adlar",
   "legend_left": "%0",
   "legend_right": "%100 Bulgar",

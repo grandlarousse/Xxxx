@@ -11,6 +11,7 @@ import argparse
 import json
 import math
 import os
+import re
 
 import numpy as np
 import shapely
@@ -34,15 +35,15 @@ REGIONS = {
     "tuna": dict(n=2, center=(25.9, 43.75), width=640, name="Tuna Vilâyeti: Deliorman ve Dobruca", float=(90, 520, 1000, 1000),
                  focus=[("Tuna", None)]),
     "edirne": dict(n=3, center=(26.3, 41.55), width=520, name="Edirne Vilâyeti: Trakya ve Rodoplar", float=(90, 1640, 1000, 2040),
-                   focus=[("Edirne", None), ("İstanbul", None)]),
-    "makedonya": dict(n=4, center=(22.5, 40.85), width=480, name="Makedonya ve Teselya", float=(1440, 1660, 2080, 2040),
+                   focus=[("Edirne", None), ("İstanbul", None), ("Selanik", ["Drama"])]),
+    "makedonya": dict(n=4, center=(22.5, 40.85), width=480, name="Makedonya ve Teselya", float=(1440, 1660, 2080, 2040), loc=(1790, 1330, 2070, 1520),
                       focus=[("Selanik", None), ("Manastır", ["Manastır", "Serfice", "Görice"]),
                              ("Prizren", ["Üsküp"]), ("Yanya", ["Tırhala"])]),
     "arnavut": dict(n=5, center=(20.4, 41.15), width=560, name="Arnavutluk, Kosova ve Epir", float=(80, 1240, 700, 2030),
                     focus=[("İşkodra", None), ("Yanya", ["Yanya", "Ergiri", "Berat", "Preveze"]),
                            ("Prizren", ["Prizren", "Dibra", "Debre"]),
                            ("Manastır", ["Prizren", "Elbasan", "Görice"])]),
-    "bosna": dict(n=6, center=(18.4, 43.9), width=470, name="Bosna-Hersek ve Yenipazar", float=(80, 1560, 760, 2030),
+    "bosna": dict(n=6, center=(18.4, 43.9), width=470, name="Bosna-Hersek ve Yenipazar", float=(1520, 560, 2070, 1330),
                   focus=[("Bosna", None), ("Hersek", None)]),
 }
 
@@ -76,7 +77,7 @@ def sample_master(F, m0, F0):
     return m0[i, j] & inside
 
 
-GLYPH_FIX = {"→": "›", "↔": "–", "←": "‹"}
+GLYPH_FIX = {"→": "›", "↔": "–", "←": "‹", "'": "’"}
 
 
 def sanitize(x):
@@ -136,7 +137,7 @@ def place_city_list(cv, F, cities, dimmed=()):
         col = IV if tier == 1 else hx("#E1DACA") if tier == 2 else hx("#C9C2B4")
         if dim:
             col = col[:3] + (150,)
-        mod_f = bar(19 if tier == 1 else 17, "Medium") if (modern and modern != name and tier <= 2) else None
+        mod_f = bar(22 if tier == 1 else 20, "Medium") if (modern and modern != name and tier <= 2) else None
         tw = fnt.getlength(name)
         th = fnt.size * 0.78
         mw = mod_f.getlength(modern) if mod_f else 0
@@ -146,6 +147,8 @@ def place_city_list(cv, F, cities, dimmed=()):
         cands = [(x + r + 8, y + th / 2 - 2), (x - r - 8 - bw, y + th / 2 - 2), (x + r + 4, y - r - 4),
                  (x - r - 4 - bw, y + r + th + 4), (x - bw / 2, y - r - 6 - (bh - th)), (x - bw / 2, y + r + th + 4),
                  (x + r + 4, y + r + th + 4), (x - r - 4 - bw, y - r - 4)]
+        if c.get("side") == "left":
+            cands = [cands[1], cands[3], cands[7], cands[0]] + cands[2:]
         placed = None
         for lx, ly in cands:
             rect = (lx, ly - th, lx + bw, ly - th + bh)
@@ -173,7 +176,7 @@ def place_story(cv, F, labels):
         px, py = float(px), float(py)
         fnt = bar(32, "SemiBold")
         col = TINT[g] if g in TINT else hx("#B9C3D6")
-        w = max(cv.tracked_w(t, fnt, 4), bar(20, "SemiBold").getlength(sub) if sub else 0)
+        w = max(cv.tracked_w(t, fnt, 4), cv.tracked_w(sub, bar(20, "SemiBold"), 2) if sub else 0) + 10
         done = False
         for dy in (0, -36, 36, -72, 72, -108, 108):
             for dxx in (0, -60, 60, -120, 120):
@@ -229,22 +232,23 @@ def locator(cv, box, F):
 def callout_box(cv, x, y, w, c):
     d = cv.d
     big = c["big"]
-    fb = bs(84)
-    while fb.getlength(big) > w and fb.size > 30:
+    fb = bs(108)
+    while fb.getlength(big) > w and fb.size > 40:
         fb = bs(fb.size - 2)
-    d.text((x, y + 74), big, font=fb, fill=IV, anchor="ls")
-    yy = y + 112
-    f1, f2, f3 = bar(23, "SemiBold"), bar(20, "Medium"), bar(15, "Medium")
+    d.text((x, y + 96), big, font=fb, fill=IV, anchor="ls")
+    yy = y + 140
+    f1, f2, f3 = bar(29, "SemiBold"), bar(24, "Medium"), bar(19, "Medium")
     for ln in wrap(c.get("line1", ""), f1, w)[:3]:
         d.text((x, yy), ln, font=f1, fill=IV, anchor="ls")
-        yy += 28
+        yy += 35
+    yy += 2
     for ln in wrap(c.get("line2", ""), f2, w)[:4]:
         d.text((x, yy), ln, font=f2, fill=IV2, anchor="ls")
-        yy += 25
-    yy += 6
-    for ln in wrap(c.get("src", ""), f3, w)[:3]:
+        yy += 30
+    yy += 10
+    for ln in wrap(c.get("src", ""), f3, w)[:4]:
         d.text((x, yy), ln, font=f3, fill=MUTE, anchor="ls")
-        yy += 19
+        yy += 24
 
 
 def render_region(key, cfg, out_dir, ppd=100):
@@ -323,7 +327,7 @@ def render_region(key, cfg, out_dir, ppd=100):
     cv.halo((W / 2, 376), sub, bod(ss, 600, 11), IV2, anchor="ms", rad=6, strength=0.6)
     items = [(0, "Türk"), (1, "Diğer Müslüman"), (2, "Hristiyan")]
     f1, f2 = bar(34, "SemiBold"), bar(28, "Medium")
-    unit = f"1 nokta = {ppd} kişi (≈ {ppd // 5} hane) · soluk: bölge veya 1876 Osmanlı idaresi dışı"
+    unit = f"1 nokta = {ppd} kişi (≈ {ppd // 5} hane) · soluk: bölge dışı ya da 1876’da Osmanlı idaresi dışında"
     tot = sum(62 + f1.getlength(t) + 40 for _, t in items) + 26 + f2.getlength(unit)
     xx = W / 2 - tot / 2
     yb = 446
@@ -343,10 +347,10 @@ def render_region(key, cfg, out_dir, ppd=100):
 
     # ---- etiketler
     cities = cfg.get("cities") or []
-    t1 = [c for c in cities if int(c.get("tier", 3)) == 1]
-    place_city_list(cv, F, t1)
+    t12 = [c for c in cities if int(c.get("tier", 3)) <= 2]
+    place_city_list(cv, F, t12, dimmed=("Belgrad", "Çetine", "Bükreş"))
     place_story(cv, F, cfg.get("story_labels") or [])
-    place_city_list(cv, F, [c for c in cities if int(c.get("tier", 3)) > 1], dimmed=("Belgrad", "Çetine"))
+    place_city_list(cv, F, [c for c in cities if int(c.get("tier", 3)) > 2], dimmed=("Belgrad", "Çetine"))
 
     # ---- alt şerit
     st = Image.new("RGBA", (STRIP[2] - STRIP[0], STRIP[3] - STRIP[1]), (4, 6, 10, int(255 * 0.86)))
@@ -354,15 +358,18 @@ def render_region(key, cfg, out_dir, ppd=100):
     d = cv.d
     d.line((STRIP[0], STRIP[1], STRIP[2], STRIP[1]), fill=BRASS, width=2)
     star8(d, W / 2, STRIP[1], 10, BRASS, 2, fill=hx("#05080D"))
-    # sancak çubukları
+    # sancak çubukları — çubuk: harita modeli; büyük rakam: Osmanlı kaydı varsa kayıt, yoksa model
     bars = cfg.get("bars") or []
-    cv.tracked((80, 2118), "SANCAKLARA GÖRE · 1876", bar(24, "SemiBold"), 4, BRASS)
-    d.text((80, 2142), "harita modeli (kişi) ·      Osmanlı kaydı (Müslüman %)", font=bar(16, "Medium"), fill=MUTE, anchor="ls")
-    dx_ = 80 + bar(16, "Medium").getlength("harita modeli (kişi) · ") + 4
-    d.polygon([(dx_ + 6, 2128), (dx_ + 12, 2134), (dx_ + 6, 2140), (dx_, 2134)], fill=IV)
-    bx0, bw = 290, 500
-    y_ = 2170
-    pitch = 50 if len(bars) <= 7 else 44
+    cv.tracked((80, 2118), cfg.get("bars_head") or "SANCAKLARA GÖRE · 1876", bar(24, "SemiBold"), 4, BRASS)
+    fl_ = bar(18, "Medium")
+    t1_ = "çubuk: harita modeli ·"
+    d.text((80, 2146), t1_, font=fl_, fill=MUTE, anchor="ls")
+    dx_ = 80 + fl_.getlength(t1_) + 10
+    d.polygon([(dx_ + 6, 2131), (dx_ + 12, 2137), (dx_ + 6, 2143), (dx_, 2137)], fill=IV)
+    d.text((dx_ + 18, 2146), "Osmanlı kaydı · büyük rakam: Müslüman %", font=fl_, fill=MUTE, anchor="ls")
+    bx0, bw = 290, 460
+    y_ = 2178
+    pitch = 52
     rows = []
     for b in bars:
         m = np.array([c.get("vilayet") == b["vilayet"] and ((c.get("sancak") or "") in b["sancak"]) for c in cl_all])
@@ -371,18 +378,18 @@ def render_region(key, cfg, out_dir, ppd=100):
             continue
         G = np.array([[c["population"] * c[kk] / 100 for kk in E.CATS] for c in np.array(cl_all, dtype=object)[m]]).sum(0)
         rows.append((b, G))
+    rows = rows[:8]
     if rows:
-        d.line((bx0 + bw / 2, y_ - 6, bx0 + bw / 2, y_ + pitch * len(rows) - pitch + 30), fill=BRASS[:3] + (90,), width=1)
-        d.text((bx0 + bw / 2 + 4, y_ - 3), "%50", font=bar(14, "Medium"), fill=BRASS, anchor="ls")
-        cv.tracked((bx0 + bw + 14, y_ - 4), "MÜSLÜMAN", bar(14, "SemiBold"), 2, BRASS)
+        d.line((bx0 + bw / 2, y_ - 6, bx0 + bw / 2, y_ + pitch * (len(rows) - 1) + 34), fill=BRASS[:3] + (90,), width=1)
+        d.text((bx0 + bw / 2 + 4, y_ + pitch * (len(rows) - 1) + 50), "%50", font=bar(16, "Medium"), fill=BRASS, anchor="ls")
     for i, (b, G) in enumerate(rows):
         yy = y_ + i * pitch
-        hb = 28
+        hb = 30
         nm = b["label"]
-        fn = bar(24, "SemiBold")
-        while fn.getlength(nm) > bx0 - 90 and fn.size > 16:
+        fn = bar(25, "SemiBold")
+        while fn.getlength(nm) > bx0 - 92 and fn.size > 18:
             fn = bar(fn.size - 1, "SemiBold")
-        d.text((80, yy + hb - 4), nm, font=fn, fill=IV, anchor="ls")
+        d.text((80, yy + hb - 5), nm, font=fn, fill=IV, anchor="ls")
         p = largest_remainder(G)
         pint = largest_remainder(G, nd=0)
         xs_ = bx0
@@ -391,23 +398,28 @@ def render_region(key, cfg, out_dir, ppd=100):
             if wseg > 0.5:
                 d.rectangle((xs_, yy, xs_ + max(0, wseg - 2), yy + hb), fill=hx(COL[gi]))
                 if wseg >= 40:
-                    d.text((xs_ + wseg / 2 - 1, yy + hb - 6), f"{pint[gi]:.0f}", font=bar(17, "SemiBold"), fill=hx("#05080D"), anchor="ms")
+                    d.text((xs_ + wseg / 2 - 1, yy + hb - 6), f"{pint[gi]:.0f}", font=bar(20, "SemiBold"), fill=hx("#05080D"), anchor="ms")
             xs_ += wseg
-        d.text((bx0 + bw + 14, yy + hb - 1), fmt_pct(p[0] + p[1]), font=bs(34), fill=IV, anchor="ls")
-        d.text((bx0 + bw + 14, yy + hb + 16), fmt_int(G.sum()) + " kişi", font=bar(14, "Medium"), fill=MUTE, anchor="ls")
         rec = float(b.get("record_muslim_pct") or 0)
+        lab = re.sub(r"(?i)kayıt\s*", "", (b.get("record_label") or "")).strip()
+        xn = bx0 + bw + 14
         if rec > 0:
             xr = bx0 + bw * rec / 100
             d.rectangle((xr - 2, yy - 4, xr + 2, yy + hb + 4), fill=IV)
             d.polygon([(xr, yy - 14), (xr + 5, yy - 9), (xr, yy - 4), (xr - 5, yy - 9)], fill=IV)
-            lab = (b.get("record_label") or "kayıt").strip()
-            d.text((bx0 + bw + 108, yy + hb - 2), f"{lab} {fmt_pct(rec)}", font=bar(18, "SemiBold"), fill=IV2, anchor="ls")
+            d.text((xn, yy + hb - 1), fmt_pct(rec), font=bs(36), fill=IV, anchor="ls")
+            d.text((xn + 108, yy + 13), f"kayıt {lab}".strip(), font=bar(17, "SemiBold"), fill=IV2, anchor="ls")
+            d.text((xn + 108, yy + 33), f"model {fmt_pct(p[0] + p[1])}", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
+        else:
+            d.text((xn, yy + hb - 1), fmt_pct(p[0] + p[1]), font=bs(36), fill=IV, anchor="ls")
+            d.text((xn + 108, yy + 13), "harita modeli", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
+        d.text((xn + 108, yy + 33 + (0 if rec <= 0 else 0)), "" if rec > 0 else f"{fmt_int(G.sum())} kişi", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
     # kutular: üç sütun
-    d.line((1010, 2100, 1010, 2590), fill=BRASS[:3] + (90,), width=1)
+    d.line((1022, 2100, 1022, 2590), fill=BRASS[:3] + (90,), width=1)
     cos = (cfg.get("callouts") or [])[:3]
-    colw = (2086 - 1040) / 3
+    colw = (2086 - 1052) / 3
     for i, c in enumerate(cos):
-        x_ = 1040 + i * colw
+        x_ = 1052 + i * colw
         if i:
             d.line((x_ - 16, 2120, x_ - 16, 2570), fill=BRASS[:3] + (60,), width=1)
         callout_box(cv, x_, 2110, colw - 34, c)
@@ -420,23 +432,36 @@ def render_region(key, cfg, out_dir, ppd=100):
     d.rectangle((x0f, y0f - 3, x0f + 8, y0f + 5), fill=BRASS)
     nar = cfg.get("narrative") or []
     pw, ph = x1f - x0f, y1f - y0f
-    wide = pw >= 800
+    sep_loc = reg.get("loc")
+    wide = pw >= 800 and not sep_loc
     loc_w = 300 if wide else min(300, pw - 48)
     loc_h = 190 if wide else 150
-    text_w = (pw - 48 - loc_w - 30) if wide else (pw - 48)
-    avail_h = (ph - 84 - 20) if wide else (ph - 84 - loc_h - 70)
-    fz = 36
-    while True:
-        fnar = bod(fz, 600, 11)
-        lh = int(fz * 1.32)
-        lines = []
-        for sent in nar:
-            lines += wrap(sent, fnar, text_w)
-            lines.append("")
-        need = sum(lh if ln else 10 for ln in lines[:-1]) + int(fz * 0.3)
-        if need <= avail_h or fz <= 18:
-            break
-        fz -= 1
+
+    def fit(text_w, avail_h):
+        fz = 38
+        while True:
+            fnar = bod(fz, 600, 11)
+            lh = int(fz * 1.32)
+            lines = []
+            for sent in nar:
+                lines += wrap(sent, fnar, text_w)
+                lines.append("")
+            need = sum(lh if ln else 10 for ln in lines[:-1]) + int(fz * 0.3)
+            if need <= avail_h or fz <= 20:
+                return fz, fnar, lh, lines, need
+            fz -= 1
+
+    if wide:
+        fz, fnar, lh, lines, need = fit(pw - 48 - loc_w - 30, ph - 104)
+        show_loc = True
+    elif sep_loc:
+        fz, fnar, lh, lines, need = fit(pw - 48, ph - 104)
+        show_loc = True
+    else:
+        fz, fnar, lh, lines, need = fit(pw - 48, ph - 84 - loc_h - 70)
+        show_loc = need <= ph - 84 - loc_h - 70
+        if not show_loc:
+            fz, fnar, lh, lines, need = fit(pw - 48, ph - 104)
     cv.tracked((x0f + 24, y0f + 42), "1876’DA BU TOPRAKLAR", bar(20, "SemiBold"), 4, BRASS)
     yy = y0f + 84
     for ln in lines:
@@ -445,14 +470,19 @@ def render_region(key, cfg, out_dir, ppd=100):
             yy += lh
         else:
             yy += 10
-    if wide:
-        lb = (x1f - 24 - loc_w, y0f + 70, x1f - 24, y0f + 70 + loc_h)
-    else:
-        lb = (x0f + 24, y1f - 24 - loc_h, x0f + 24 + loc_w, y1f - 24)
-    locator(cv, lb, F)
-    d = cv.d
-    d.text((lb[0], lb[3] + 22 if wide else lb[1] - 12), "KONUM · altın çerçeve: bu haritanın alanı",
-           font=bar(15, "Medium"), fill=MUTE, anchor="ls")
+    if show_loc:
+        if sep_loc:
+            lb = sep_loc
+            ov2 = Image.new("RGBA", (int(lb[2] - lb[0] + 20), int(lb[3] - lb[1] + 50)), (4, 6, 10, 200))
+            cv.img.alpha_composite(ov2, (int(lb[0] - 10), int(lb[1] - 10)))
+        elif wide:
+            lb = (x1f - 24 - loc_w, y0f + 70, x1f - 24, y0f + 70 + loc_h)
+        else:
+            lb = (x0f + 24, y1f - 24 - loc_h, x0f + 24 + loc_w, y1f - 24)
+        locator(cv, lb, F)
+        d = cv.d
+        cy_ = lb[3] + 24 if (wide or sep_loc) else lb[1] - 12
+        d.text((lb[0], cy_), "KONUM · altın çerçeve: bu haritanın alanı", font=bar(17, "Medium"), fill=MUTE, anchor="ls")
 
     P.lat_ticks(cv, F)
     P.frame_ornament(cv)
@@ -461,13 +491,14 @@ def render_region(key, cfg, out_dir, ppd=100):
     src = cfg.get("sources_line") or ""
     l2 = ("Yöntem: Osmanlı salname/sayım verilerine dayalı bölge kümeleri (ana poster ile aynı veri) · nokta yerleri temsilîdir · "
           "erkek sayımları ×2 · Yahudiler gösterilmedi · Tatar/Nogay = Türk")
-    for i, t in enumerate((src, l2)):
-        if not t:
-            continue
-        fs = 16
-        while bar(fs, "Medium").getlength(t) > 1900 and fs > 11:
-            fs -= 1
-        d.text((W / 2, 2620 + i * 20), t, font=bar(fs, "Medium"), fill=MUTE, anchor="ms")
+    flines = []
+    for t in (src, l2):
+        if t:
+            flines += wrap(t, bar(17, "Medium"), 1940)
+    flines = flines[:3]
+    y_f = 2645 - 20 * (len(flines) - 1)
+    for i, t in enumerate(flines):
+        d.text((W / 2, y_f + i * 20), t, font=bar(17, "Medium"), fill=MUTE, anchor="ms")
 
     out = cv.img.convert("RGB")
     arr = np.asarray(out, np.int16) + np.random.default_rng(7).integers(-1, 2, (H, W, 1))

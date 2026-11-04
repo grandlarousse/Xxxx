@@ -1,7 +1,7 @@
 {
  "kicker": "RUMELİ 1876 · 2/8 · OSMANLI KAYITLARINA GÖRE",
  "title": "DELİORMAN VE DOBRUCA",
- "subtitle": "Tuna Vilâyeti 1876: kim, nerede yaşıyordu?",
+ "subtitle": "Tuna Vilâyeti’nde 1876’da kim, nerede yaşıyordu?",
  "story_labels": [
   {
    "text": "DELİORMAN",
@@ -341,7 +341,7 @@
     "Sofya"
    ],
    "record_muslim_pct": 41.2,
-   "record_label": "kayıt 1875"
+   "record_label": "1875"
   },
   {
    "label": "Varna",
@@ -350,7 +350,7 @@
     "Varna"
    ],
    "record_muslim_pct": 69.8,
-   "record_label": "kayıt 1875"
+   "record_label": "1875"
   },
   {
    "label": "Tulça (Dobruca)",
@@ -359,7 +359,7 @@
     "Tulça"
    ],
    "record_muslim_pct": 64.2,
-   "record_label": "kayıt 1875"
+   "record_label": "1875"
   },
   {
    "label": "Rusçuk (Deliorman)",
@@ -368,7 +368,7 @@
     "Rusçuk"
    ],
    "record_muslim_pct": 61.5,
-   "record_label": "kayıt 1875"
+   "record_label": "1875"
   },
   {
    "label": "Tırnova",
@@ -377,7 +377,7 @@
     "Tırnova"
    ],
    "record_muslim_pct": 38.6,
-   "record_label": "kayıt 1875"
+   "record_label": "1875"
   },
   {
    "label": "Vidin",
@@ -386,7 +386,7 @@
     "Vidin"
    ],
    "record_muslim_pct": 16.7,
-   "record_label": "kayıt 1875"
+   "record_label": "1875"
   },
   {
    "label": "Sofya",
@@ -395,7 +395,7 @@
     "Sofya"
    ],
    "record_muslim_pct": 14.2,
-   "record_label": "kayıt 1875"
+   "record_label": "1875"
   },
   {
    "label": "Niş",
@@ -411,12 +411,12 @@
   {
    "big": "%61,5",
    "line1": "Rusçuk sancağı Müslüman (1875)",
-   "line2": "Tuna'nın en kalabalık sancağı: 309.797 erkek",
+   "line2": "309.797 erkek · vilâyetin en kalabalık sancağı",
    "src": "Tahrir-i Cedid 1292/1875 · A. Koyuncu 2014"
   },
   {
    "big": "%90,7",
-   "line1": "Osman Pazarı kazası Müslüman (1873)",
+   "line1": "Osman Pazarı kazası Müslüman, 1873",
    "line2": "Eski Cuma %81 · Şumnu %74 · Hezargrad %73",
    "src": "Tuna salnamesi 1290/1873 · A. Koyuncu 2014"
   },
