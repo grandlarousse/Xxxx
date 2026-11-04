@@ -244,3 +244,126 @@ Kaynaklar: Tuna 1292/1875 tahriri (A. Koyuncu, Turkish Studies 9/4, 2014) · Edi
 
 #Rumeli #93Harbi #OsmanlıTarihi #Balkanlar #BalkanTürkleri #TunaVilayeti #Deliorman #Dobruca #Edirne #Bosna #Kosova #Teselya #BerlinAntlaşması #Muhacir #TarihHaritası
 ```
+
+
+
+# RUMELİ TÜRKLERİ 1876 — mini seri (4 post)
+
+Görseller: `cikti/rumeli_turkleri/NN_t_*_ig.jpg`. Taralı alan: boş arazi, çevresindeki köylerin çoğunluk grubunun rengiyle taranır (her grup için aynı kural).
+
+
+---
+
+## 1/4 · Doğu Rodoplar ve Batı Trakya
+
+Görsel: `cikti/rumeli_turkleri/01_t_rodoplar_ig.jpg`
+
+```
+RUMELİ TÜRKLERİ 1876 · 1/4 | Doğu Rodoplar ve Batı Trakya
+
+93 Harbi’nden hemen önce Arda boylarından Gümülcine ovasına uzanan topraklar Türk köyleriyle doluydu.
+
+— 1875-76 tahririne göre Sultanyeri kazasında 13.495 Müslüman erkeğe karşı yalnızca 262 Hristiyan erkek vardı: %98,1 Müslüman.
+— Gümülcine kazasının 244 köyünde 18.740 Müslüman ve 5.738 gayrimüslim erkek yaşıyordu: %76,6 Müslüman.
+— Kökler derindi: 1530 tahririnde Kırcaali’nin bağlı olduğu Hasköy kazasındaki 56 köyün 54’ü Türkçe adlıydı, hanelerin %97’si Müslümandı. 1885’te kaza olan Kırcaali’nin 101 köyünden 100’ünün adı Türkçeydi.
+— Harita modeline göre Kırcaali, Mestanlı, Koşukavak ve Eğridere kuşağındaki yaklaşık 119 bin kişinin %88’i Türk’tü. Dimetoka tepelerinde Kızılbaş Türk köyleri; Ahiçelebi, Madan, Darıdere ve Şahin yaylalarında Pomaklar; Dedeağaç–Sofulu kıyısında ve Filibe ovasında Rum ve Bulgar köyleri vardı.
+— 1878’de Meriç ovasından kaçan Türkler bu dağlara sığındı. Koyuncu’ya göre savaş, Tuna ve Şarkî Rumeli’deki Türk nüfusunu %45-50 azalttı.
+
+Her nokta yaklaşık 100 kişidir (1 nokta = 100 kişi); taralı alan ise boş araziyi çevredeki köylerin çoğunluğunun rengiyle tarar, yani etrafı Türk köyleriyle çevrili yer Türk sayılır.
+
+Kaynaklar: 1875-76 tahriri, BOA Y.EE 34/48 (A. Koyuncu 2013); FO 881/3655 (M. Köse 2019); TDV İslâm Ansiklopedisi, “Kırcaali”; harita modeli.
+
+Sizin köyünüz Kırcaali’de mi, Gümülcine’de mi, İskeçe’de mi? Yorumlara yazın.
+
+#BatıTrakya #DoğuRodoplar #Rodoplar #Kırcaali #Gümülcine #İskeçe #Dedeağaç #Pomaklar #BalkanTürkleri #93Harbi #Rumeli #OsmanlıTarihi #Muhacir #TarihHaritası
+```
+
+
+---
+
+## 2/4 · Deliorman ve Dobruca
+
+Görsel: `cikti/rumeli_turkleri/02_t_deliorman_ig.jpg`
+
+```
+RUMELİ TÜRKLERİ 1876 · 2/4 | Deliorman ve Dobruca
+
+Tuna’dan Karadeniz’e uzanan Deliorman ve Dobruca, 93 Harbi’nden önce Rumeli’nin en Türk köşelerinden biriydi. Deliorman ve Gerlovo’da Yörük ve Kızılbaş kökenli Türk köyleri, Dobruca’da Kırım’dan gelen Tatar ve Nogay köyleri vardı.
+
+Osmanlı kayıtları ne diyor? 1290/1873 Tuna salnamesine göre kazaların Müslüman oranı:
+• Köstence %98,2 · Mecidiye %93,0 · Mankalya %92,6
+• Osman Pazarı (Gerlovo) %90,7 · Eski Cuma %81,4 · Pazarcık %79,4
+• Tutrakan %78,0 · Hırsova %77,2 · Şumnu %73,7 · Hezargrad %73,4
+1292/1875 tahririnde ise Varna sancağı %69,8, Tulça %64,2, Rusçuk %61,5 Müslümandı.
+
+Harita modeline göre bu çerçevedeki 1,37 milyon kişinin %46,6’sı Türktü (Tatar ve Nogay dâhil). Tuna kıyısındaki köylerde, Tulça çevresinde ve Balkan eteğinde ise Bulgar, Rumen ve Lipovanlar çoğunluktaydı.
+
+Sonra 93 Harbi geldi. Osmanlı kaynaklarına göre 12 Mart 1880’e dek Tuna vilâyeti ve Şarkî Rumeli’den 500.389 muhacir Osmanlı topraklarına göçüp yerleşti; ölenlerin sayısı bilinmiyor. 1878’de Kuzey Dobruca ile Mankalya Romanya’ya, gerisi Bulgaristan Prensliği’ne bırakıldı.
+
+Haritada 1 nokta = 100 kişi. Taralı alan çevredeki köylerin çoğunluğunu gösterir: etrafı Türk köyleriyle çevrili boşluklar Türk rengiyle taralıdır.
+
+Kaynak: Tuna Vilâyeti salnameleri ve Tahrir-i Cedid (A. Koyuncu, Turkish Studies 9/4, 2014).
+
+Aileniz Deliorman’dan mı, Dobruca’dan mı göçtü? Hangi köyden? Yorumlarda yazın.
+
+#Rumeli #Deliorman #Dobruca #93Harbi #BalkanTürkleri #KırımTatarları #TunaVilayeti #Rusçuk #Şumnu #Silistre #Köstence #Muhacir #OsmanlıTarihi #TarihHaritası
+```
+
+
+---
+
+## 3/4 · Makedonya Türkleri
+
+Görsel: `cikti/rumeli_turkleri/03_t_makedonya_ig.jpg`
+
+```
+RUMELİ TÜRKLERİ 1876 · 3/4 | Makedonya Türkleri
+
+93 Harbi’nin arifesinde Makedonya’da Türkler yalnız şehirlerde değil, asırlık Yörük ve Konyar köylerinde de yaşıyordu.
+
+• Sarışaban kazası 1881/82 Osmanlı sayımında %95,2 Müslümandı: 17.388 kişiden 16.554’ü.
+• Selanik şehrinde 24.528 Müslüman, 11.706 Rum ve 1.111 Bulgar yaşıyordu.
+• Akarlı’ya göre 1860-78 ortalamasında Selanik Vilâyeti nüfusunun %49’u Müslümandı.
+• Harita modeline göre Selanik Vilâyeti’nde yaklaşık 350 bin Türk vardı (%33,2). Kayalar kazasında Türk payı %77,2’ydi.
+• Ovçepole (İştip–Koçana–Radovişte) ve Kocacık (Kruşa–Langaza–Doyran) Yörükleri, Osmanlı’nın Evlâd-ı Fâtihân adını verdiği Yörük teşkilatındandı. Çeç–Nevrekop ve Karacaova’da Pomaklar yaşıyordu.
+
+1 nokta = 100 kişi; taralı alan ise çevredeki köylerin çoğunluğunu gösterir: Türk köyleriyle çevrili boşluk Türk rengiyle taranır.
+
+Ayastefanos (1878) Makedonya’yı Bulgaristan’a veriyordu; Berlin Kongresi bölgeyi Osmanlı’ya bıraktı ve Makedonya kaçan muhacirlere yurt oldu.
+
+Kaynaklar: 1881/82 Osmanlı sayımı (K. Karpat, 1985); M. T. Gökbilgin, İA “Selanik” (M. Tepekaya, Belleten); E. D. Akarlı (Karpat 1985, Tablo 3.7); harita modeli.
+
+Sizce Makedonya’nın Yörük ve Konyar köyleri bugün yeterince hatırlanıyor mu?
+
+#Rumeli #RumeliTürkleri #Makedonya #Yörükler #Konyarlar #EvladıFatihan #Selanik #Üsküp #Drama #Serez #Kavala #93Harbi #OsmanlıTarihi #TarihHaritası
+```
+
+
+---
+
+## 4/4 · Edirne ve Doğu Trakya
+
+Görsel: `cikti/rumeli_turkleri/04_t_trakya_ig.jpg`
+
+```
+RUMELİ TÜRKLERİ 1876 · 4/4 | Edirne ve Doğu Trakya
+
+Serinin son haritası, Osmanlı’nın Rumeli’deki ilk yurdunda: 93 Harbi’nden hemen önce Meriç, Arda ve Ergene boylarında Türk köyleri nerelerdeydi?
+
+Osmanlı kayıtları ne diyor?
+• Hayrabolu kazasının 46 köyünde 5.402 Müslüman, 1.973 gayrimüslim erkek sayılmıştı: %73,2 Müslüman. Komşu Malkara’da oran %52,2’ydi.
+• Hasköy kazası (Kırcaali dâhil) 1875-76 tahririnde %57,6 Müslümandı.
+• Dimetoka kazasının 200 köyünde 18.522 Müslüman erkek yaşıyordu.
+
+Harita modeline göre çerçevedeki 1,27 milyon kişinin (İstanbul şehri hariç) yaklaşık 475.000’i Türk’tü; Müslümanların %89’u Türk’tü. Dimetoka tepelerinde Kızılbaş, Havsa çevresinde Tatar köyleri vardı; Istranca’da Bulgar, Marmara kıyısında Rum köyleri ağır basıyordu.
+
+Sonra 93 Harbi geldi: Ruslar Edirne’yi alıp Ayastefanos’a dayandı. 1858’de 35.000 Türk’ün yaşadığı Edirne’de 1882’de 20.000 Müslüman kalmıştı.
+
+Her nokta yaklaşık 100 kişiyi gösterir (1 nokta = 100 kişi); taralı alan, çevredeki köylerin çoğunluğunun rengini alır: etrafı Türk köyleriyle çevrili boşluk Türk rengiyle taranır.
+
+Kaynaklar: FO 881/3655 köy sayımları (M. Köse 2019), 1875-76 tahriri ve 1293 salnamesi (A. Koyuncu 2013), Belleten (TTK), TDV İslâm Ansiklopedisi.
+
+Aileniz Edirne, Kırklareli, Tekirdağ ya da Hasköy’ün hangi köyündendi? Yorumlara yazın.
+
+#RumeliTürkleri #93Harbi #Edirne #Trakya #DoğuTrakya #Kırklareli #Tekirdağ #Hayrabolu #Malkara #Hasköy #Dimetoka #OsmanlıTarihi #Muhacir #TarihHaritası
+```

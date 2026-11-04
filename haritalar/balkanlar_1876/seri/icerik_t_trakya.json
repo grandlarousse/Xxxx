@@ -1,0 +1,503 @@
+{
+ "title": "Edirne ve Doğu Trakya",
+ "subtitle": "Meriç ve Ergene boylarında Türk köyleri, 93 Harbi’nden hemen önce",
+ "story_labels": [
+  {
+   "text": "HAYRABOLU – MALKARA",
+   "sub": "Ergene güneyinde Türk köyleri",
+   "group": 0,
+   "lon": 27,
+   "lat": 41.06
+  },
+  {
+   "text": "DİMETOKA TEPELERİ",
+   "sub": "Sünni ve Kızılbaş Türk köyleri",
+   "group": 0,
+   "lon": 26.13,
+   "lat": 41.29
+  },
+  {
+   "text": "DOĞU RODOPLAR",
+   "sub": "Arda boyunca Türk köyleri",
+   "group": 0,
+   "lon": 25.72,
+   "lat": 41.62
+  },
+  {
+   "text": "ÇİRMEN",
+   "sub": "Meriç boyunda Türk köyleri",
+   "group": 0,
+   "lon": 26.2,
+   "lat": 41.72
+  },
+  {
+   "text": "ISTRANCA",
+   "sub": "Bulgar ve Rum köyleri",
+   "group": 2,
+   "lon": 27.5,
+   "lat": 41.9
+  },
+  {
+   "text": "RUM KIYILARI",
+   "sub": "Şarköy · Mürefte · Ganos",
+   "group": 2,
+   "lon": 27.25,
+   "lat": 40.71
+  },
+  {
+   "text": "POMAKLAR",
+   "sub": "Gümülcine’nin Rodop köyleri",
+   "group": 1,
+   "lon": 25.75,
+   "lat": 41.21
+  },
+  {
+   "text": "DERSAADET",
+   "sub": "İstanbul · rakamlara katılmadı",
+   "group": 3,
+   "lon": 28.93,
+   "lat": 41.2
+  }
+ ],
+ "cities": [
+  {
+   "name": "Edirne",
+   "modern": "",
+   "lon": 26.556,
+   "lat": 41.677,
+   "tier": 1
+  },
+  {
+   "name": "Tekfurdağı",
+   "modern": "Tekirdağ",
+   "lon": 27.511,
+   "lat": 40.978,
+   "tier": 1
+  },
+  {
+   "name": "Gelibolu",
+   "modern": "",
+   "lon": 26.672,
+   "lat": 40.408,
+   "tier": 1
+  },
+  {
+   "name": "İstanbul",
+   "modern": "",
+   "lon": 28.955,
+   "lat": 41.013,
+   "tier": 1
+  },
+  {
+   "name": "Kırkkilise",
+   "modern": "Kırklareli",
+   "lon": 27.225,
+   "lat": 41.735,
+   "tier": 1
+  },
+  {
+   "name": "Dimetoka",
+   "modern": "Didymoteicho",
+   "lon": 26.494,
+   "lat": 41.349,
+   "tier": 1
+  },
+  {
+   "name": "Cisr-i Ergene",
+   "modern": "Uzunköprü",
+   "lon": 26.686,
+   "lat": 41.269,
+   "tier": 1
+  },
+  {
+   "name": "Hayrabolu",
+   "modern": "",
+   "lon": 27.107,
+   "lat": 41.213,
+   "tier": 1
+  },
+  {
+   "name": "Malkara",
+   "modern": "",
+   "lon": 26.902,
+   "lat": 40.891,
+   "tier": 1
+  },
+  {
+   "name": "Lüleburgaz",
+   "modern": "",
+   "lon": 27.358,
+   "lat": 41.402,
+   "tier": 1
+  },
+  {
+   "name": "Babaeski",
+   "modern": "",
+   "lon": 27.097,
+   "lat": 41.428,
+   "tier": 1
+  },
+  {
+   "name": "Çorlu",
+   "modern": "",
+   "lon": 27.801,
+   "lat": 41.161,
+   "tier": 1
+  },
+  {
+   "name": "Çatalca",
+   "modern": "",
+   "lon": 28.46,
+   "lat": 41.141,
+   "tier": 1
+  },
+  {
+   "name": "Keşan",
+   "modern": "",
+   "lon": 26.633,
+   "lat": 40.855,
+   "tier": 1
+  },
+  {
+   "name": "Hasköy",
+   "modern": "Haskovo",
+   "lon": 25.556,
+   "lat": 41.934,
+   "tier": 1
+  },
+  {
+   "name": "Havsa",
+   "modern": "",
+   "lon": 26.822,
+   "lat": 41.549,
+   "tier": 1
+  },
+  {
+   "name": "Vize",
+   "modern": "",
+   "lon": 27.767,
+   "lat": 41.576,
+   "tier": 1
+  },
+  {
+   "name": "Saray",
+   "modern": "",
+   "lon": 27.921,
+   "lat": 41.443,
+   "tier": 1
+  },
+  {
+   "name": "Pınarhisar",
+   "modern": "",
+   "lon": 27.515,
+   "lat": 41.627,
+   "tier": 1
+  },
+  {
+   "name": "Mustafapaşa",
+   "modern": "Svilengrad",
+   "lon": 26.198,
+   "lat": 41.768,
+   "tier": 1
+  },
+  {
+   "name": "Kızılağaç",
+   "modern": "Elhovo",
+   "lon": 26.567,
+   "lat": 42.167,
+   "tier": 1
+  },
+  {
+   "name": "Silivri",
+   "modern": "",
+   "lon": 28.246,
+   "lat": 41.074,
+   "tier": 1
+  },
+  {
+   "name": "Midye",
+   "modern": "Kıyıköy",
+   "lon": 28.095,
+   "lat": 41.634,
+   "tier": 1
+  },
+  {
+   "name": "Şarköy",
+   "modern": "",
+   "lon": 27.116,
+   "lat": 40.614,
+   "tier": 1
+  },
+  {
+   "name": "Büyükçekmece",
+   "modern": "",
+   "lon": 28.585,
+   "lat": 41.021,
+   "tier": 1
+  },
+  {
+   "name": "İpsala",
+   "modern": "",
+   "lon": 26.383,
+   "lat": 40.921,
+   "tier": 2
+  },
+  {
+   "name": "Ferecik",
+   "modern": "Feres",
+   "lon": 26.172,
+   "lat": 40.893,
+   "tier": 2
+  },
+  {
+   "name": "Ortaköy",
+   "modern": "Ivaylovgrad",
+   "lon": 26.125,
+   "lat": 41.527,
+   "tier": 2
+  },
+  {
+   "name": "Harmanlı",
+   "modern": "Harmanli",
+   "lon": 25.902,
+   "lat": 41.932,
+   "tier": 2
+  },
+  {
+   "name": "Koşukavak",
+   "modern": "Krumovgrad",
+   "lon": 25.655,
+   "lat": 41.471,
+   "tier": 2
+  },
+  {
+   "name": "Sofulu",
+   "modern": "Soufli",
+   "lon": 26.299,
+   "lat": 41.192,
+   "tier": 2
+  },
+  {
+   "name": "Ereğli",
+   "modern": "Marmara Ereğlisi",
+   "lon": 27.955,
+   "lat": 40.969,
+   "tier": 2
+  },
+  {
+   "name": "Karabunar",
+   "modern": "Sredets",
+   "lon": 27.179,
+   "lat": 42.348,
+   "tier": 2
+  },
+  {
+   "name": "Tırnovacık",
+   "modern": "Malko Tarnovo",
+   "lon": 27.525,
+   "lat": 41.98,
+   "tier": 2
+  },
+  {
+   "name": "Ayastefanos",
+   "modern": "Yeşilköy",
+   "lon": 28.822,
+   "lat": 40.959,
+   "tier": 2
+  },
+  {
+   "name": "Mürefte",
+   "modern": "",
+   "lon": 27.246,
+   "lat": 40.668,
+   "tier": 2
+  },
+  {
+   "name": "Samakocuk",
+   "modern": "Demirköy",
+   "lon": 27.765,
+   "lat": 41.824,
+   "tier": 2
+  },
+  {
+   "name": "Taptık",
+   "modern": "",
+   "lon": 26.911,
+   "lat": 41.541,
+   "tier": 3
+  },
+  {
+   "name": "Terzili",
+   "modern": "",
+   "lon": 27.036,
+   "lat": 41.529,
+   "tier": 3
+  },
+  {
+   "name": "Çerkezköy",
+   "modern": "",
+   "lon": 27.999,
+   "lat": 41.286,
+   "tier": 3
+  },
+  {
+   "name": "Uzuncaova",
+   "modern": "Uzundzhovo",
+   "lon": 25.656,
+   "lat": 41.964,
+   "tier": 3
+  },
+  {
+   "name": "Seymen",
+   "modern": "Simeonovgrad",
+   "lon": 25.833,
+   "lat": 42.033,
+   "tier": 3
+  },
+  {
+   "name": "Kavaklı",
+   "modern": "Topolovgrad",
+   "lon": 26.333,
+   "lat": 42.083,
+   "tier": 3
+  },
+  {
+   "name": "Paşaköy",
+   "modern": "Bolyarovo",
+   "lon": 26.81,
+   "lat": 42.149,
+   "tier": 3
+  },
+  {
+   "name": "Lalapaşa",
+   "modern": "",
+   "lon": 26.736,
+   "lat": 41.84,
+   "tier": 3
+  },
+  {
+   "name": "Pehlivanköy",
+   "modern": "",
+   "lon": 26.925,
+   "lat": 41.348,
+   "tier": 3
+  },
+  {
+   "name": "Muratlı",
+   "modern": "",
+   "lon": 27.499,
+   "lat": 41.172,
+   "tier": 3
+  },
+  {
+   "name": "İnecik",
+   "modern": "",
+   "lon": 27.281,
+   "lat": 40.935,
+   "tier": 3
+  },
+  {
+   "name": "Hadımköy",
+   "modern": "",
+   "lon": 28.617,
+   "lat": 41.159,
+   "tier": 3
+  }
+ ],
+ "bars": [
+  {
+   "label": "Edirne Vilâyeti",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Edirne",
+    "Filibe",
+    "İslimye",
+    "Tekfurdağı",
+    "Gelibolu"
+   ],
+   "record_muslim_pct": 38.2,
+   "record_label": "1876"
+  },
+  {
+   "label": "Edirne",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Edirne"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Tekfurdağı",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Tekfurdağı"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Gelibolu",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Gelibolu"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  },
+  {
+   "label": "Filibe",
+   "vilayet": "Edirne",
+   "sancak": [
+    "Filibe"
+   ],
+   "record_muslim_pct": 40.3,
+   "record_label": "1876"
+  },
+  {
+   "label": "İslimye",
+   "vilayet": "Edirne",
+   "sancak": [
+    "İslimye"
+   ],
+   "record_muslim_pct": 42.1,
+   "record_label": "1876"
+  },
+  {
+   "label": "Çatalca",
+   "vilayet": "İstanbul",
+   "sancak": [
+    "Çatalca"
+   ],
+   "record_muslim_pct": 0,
+   "record_label": ""
+  }
+ ],
+ "callouts": [
+  {
+   "big": "%73,2",
+   "line1": "Hayrabolu kazası köylerinde Müslüman",
+   "line2": "46 köyde 5.402 Müslüman · 1.973 gayrimüslim erkek",
+   "src": "FO 881/3655 köy sayımı (M. Köse 2019, Tablo 9)"
+  },
+  {
+   "big": "%57,6",
+   "line1": "Hasköy kazası Müslüman (Kırcaali dâhil)",
+   "line2": "34.871 Müslüman · 25.503 Bulgar ve Rum erkek",
+   "src": "1875-76 tahriri, 1293 salnamesi (A. Koyuncu 2013, Tablo 4-5)"
+  },
+  {
+   "big": "35.000",
+   "line1": "Türk yaşıyordu Edirne şehrinde (1858)",
+   "line2": "93 Harbi’nden sonra, 1882’de 20.000 Müslüman kalmıştı",
+   "src": "Belleten (TTK)"
+  }
+ ],
+ "narrative": [
+  "Edirne, İstanbul’dan önce Osmanlı başkentiydi; Trakya, Rumeli’deki ilk Osmanlı yurduydu.",
+  "Ortaköy–Çirmen ve Hayrabolu–Malkara Türk köyleriyle doluydu; Istranca’da Bulgar, kıyıda Rum köyleri vardı.",
+  "1878’de Ruslar Ayastefanos’a dayandı; Hasköy elden çıktı, Edirne’de Müslümanlar azaldı."
+ ],
+ "sources_line": "Kaynaklar: FO 881/3655 köy sayımları (M. Köse, Trakya Üniv. Edebiyat Fak. Dergisi 9/18, 2019, Tablo 6, 9, 10) · 1875-76 tahriri ve 1293 Edirne salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · 1293 Devlet Salnamesi (Ubicini 1876) · Belleten (TTK) · TDV İslâm Ansiklopedisi (Kırcaali) · Çatalca: K. Karpat 1978 · McCarthy düzeltmesi · Gelibolu sancağına Gümülcine dâhil · çubuklar ve taralı alan: harita modeli, İstanbul şehri hariç",
+ "caption": "RUMELİ TÜRKLERİ 1876 · 4/4 | Edirne ve Doğu Trakya\n\nSerinin son haritası, Osmanlı’nın Rumeli’deki ilk yurdunda: 93 Harbi’nden hemen önce Meriç, Arda ve Ergene boylarında Türk köyleri nerelerdeydi?\n\nOsmanlı kayıtları ne diyor?\n• Hayrabolu kazasının 46 köyünde 5.402 Müslüman, 1.973 gayrimüslim erkek sayılmıştı: %73,2 Müslüman. Komşu Malkara’da oran %52,2’ydi.\n• Hasköy kazası (Kırcaali dâhil) 1875-76 tahririnde %57,6 Müslümandı.\n• Dimetoka kazasının 200 köyünde 18.522 Müslüman erkek yaşıyordu.\n\nHarita modeline göre çerçevedeki 1,27 milyon kişinin (İstanbul şehri hariç) yaklaşık 475.000’i Türk’tü; Müslümanların %89’u Türk’tü. Dimetoka tepelerinde Kızılbaş, Havsa çevresinde Tatar köyleri vardı; Istranca’da Bulgar, Marmara kıyısında Rum köyleri ağır basıyordu.\n\nSonra 93 Harbi geldi: Ruslar Edirne’yi alıp Ayastefanos’a dayandı. 1858’de 35.000 Türk’ün yaşadığı Edirne’de 1882’de 20.000 Müslüman kalmıştı.\n\nHer nokta yaklaşık 100 kişiyi gösterir (1 nokta = 100 kişi); taralı alan, çevredeki köylerin çoğunluğunun rengini alır: etrafı Türk köyleriyle çevrili boşluk Türk rengiyle taranır.\n\nKaynaklar: FO 881/3655 köy sayımları (M. Köse 2019), 1875-76 tahriri ve 1293 salnamesi (A. Koyuncu 2013), Belleten (TTK), TDV İslâm Ansiklopedisi.\n\nAileniz Edirne, Kırklareli, Tekirdağ ya da Hasköy’ün hangi köyündendi? Yorumlara yazın.\n\n#RumeliTürkleri #93Harbi #Edirne #Trakya #DoğuTrakya #Kırklareli #Tekirdağ #Hayrabolu #Malkara #Hasköy #Dimetoka #OsmanlıTarihi #Muhacir #TarihHaritası"
+}
