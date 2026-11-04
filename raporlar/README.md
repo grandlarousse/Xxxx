@@ -25,3 +25,16 @@ Klasör: `2026-11-02_viop_leadlag/`
 - `bulgular_tum_ajanlar.csv`, `dogrulama/`, `ajanlar/`, `veri_ozet/`, `hesaplar/`: Ham bulgular, doğrulama notları, ajan raporları, özet veriler ve kod.
 
 Yatırım tavsiyesi değildir.
+
+---
+
+# Kapanıştan kapanışa 1–3 gün tutan VİOP yatırımcısı için pratik liste (04.11.2026)
+
+Klasör: `2026-11-04_kapanis_1-3gun/`
+
+- `PRATIK_LISTE.md`: Ayakta kalan sinyaller (kural, TradingView kodları, beklenti, güven), bu profil için elenenler, risk/hedge kuralları.
+- `risk_ve_boyut_tablosu.csv`: 47 pay vadelisi için β, 1/2/3 günlük risk, limit günleri, teminat ve boyut.
+- `kod/sinyal.py`, `kod/sahol_akbnk_z.pine`: Günlük SAHOL/AKBNK sinyali ve TradingView göstergesi.
+- `notlar/`, `kod/`: Yeniden test ve çürütme notları, araştırma kodu.
+
+Yatırım tavsiyesi değildir.

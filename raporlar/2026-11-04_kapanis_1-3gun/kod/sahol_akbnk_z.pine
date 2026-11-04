@@ -1,0 +1,114 @@
+//@version=5
+// SAHOL/AKBNK oran ortalamaya dönüş — z-skoru (araştırma k_sahol_a ile aynı tanım)
+//   rA, rB      : temettü düzeltmeli günlük log getiri; |basit getiri| > %20,5 (13.03.2020 öncesi) / %10,5 (sonrası) -> o gün yok sayılır
+//   β           : 250 günlük kayan eğim cov(rA, rB) / var(rB), BİR GÜN GECİKMELİ
+//   S           : kümülatif (rA − β·rB)   (log SAHOL − β·log AKBNK'nın kayan-β'lı karşılığı)
+//   z           : (S − SMA60(S)) / STDEV60(S)
+//   Giriş       : |z| > 1,5 olan yeni bölümün ilk günü (kapanışta). z > +1,5: SHORT spread (SAHOL SAT, AKBNK AL); z < −1,5: LONG spread
+//   Çıkış       : Kural A |z| <= 1,5 (varsayılan, 1–5 gün) | Kural C 1,0 | Kural B 0,5 (2–3 hafta)
+//   Kontrat     : N_AKBNK = yuvarla(N_SAHOL · β · F_SAHOL / F_AKBNK)  (tabloda spot fiyatla gösterilir)
+// GÜNLÜK (1D) grafikte kullanın. Karar kapanışta (≈18:05 sonrası) verilir; seans içinde son bar değişir.
+indicator("SAHOL/AKBNK z (β250, z60)", shorttitle="SAH-AKB z", overlay=false, precision=2)
+
+symA   = input.symbol("BIST:SAHOL", "A bacağı")
+symB   = input.symbol("BIST:AKBNK", "B bacağı (hedge)")
+zLen   = input.int(60, "z penceresi (gün)", minval=10)
+bLen   = input.int(250, "β penceresi (gün)", minval=30)
+thrIn  = input.float(1.5, "Giriş eşiği |z| >", minval=0.1, step=0.05)
+exitZ  = input.float(1.5, "Çıkış eşiği |z| <= (A 1,5 · C 1,0 · B 0,5)", minval=0.0, step=0.05)
+maxN   = input.int(0, "Maksimum tutma (gün, 0 = yok)", minval=0)
+useDiv = input.bool(true, "Temettü düzeltmeli kapanış (önerilir)")
+
+if not timeframe.isdaily
+    runtime.error("Bu gösterge GÜNLÜK (1D) grafikte çalışır.")
+
+adj = useDiv ? adjustment.dividends : adjustment.splits
+tA  = ticker.modify(symA, session.regular, adj)
+tB  = ticker.modify(symB, session.regular, adj)
+a   = request.security(tA, "D", close, gaps = barmerge.gaps_off, lookahead = barmerge.lookahead_off)
+b   = request.security(tB, "D", close, gaps = barmerge.gaps_off, lookahead = barmerge.lookahead_off)
+
+// --- getiriler ve temizlik (rejime bağlı eşik)
+lim  = time < timestamp("GMT+3", 2020, 3, 13, 0, 0) ? 0.205 : 0.105
+rA   = math.log(a / a[1])
+rB   = math.log(b / b[1])
+badA = na(rA) or math.abs(math.exp(rA) - 1.0) > lim
+badB = na(rB) or math.abs(math.exp(rB) - 1.0) > lim
+ok   = not badA and not badB
+xA   = ok ? rA : 0.0
+xB   = ok ? rB : 0.0
+
+// --- β (250 gün kayan eğim, 1 gün gecikmeli)
+covAB  = ta.covariance(xA, xB, bLen)
+varB   = ta.variance(xB, bLen)
+betaT  = varB > 0 ? covAB / varB : na
+beta   = betaT[1]
+
+// --- spread birikimi ve z
+s  = ok and not na(beta) ? rA - beta * rB : 0.0
+S  = ta.cum(s)
+mu = ta.sma(S, zLen)
+sd = ta.stdev(S, zLen, false)
+z  = sd > 0 ? (S - mu) / sd : na
+
+// --- kural durumu (her |z|>eşik bölümüne en fazla bir giriş)
+ep = na(z) ? 0 : z > thrIn ? 1 : z < -thrIn ? -1 : 0
+var int epId   = 0
+var int lastEp = 0
+var int side   = 0
+var int held   = 0
+var float bIn  = na
+var float zIn  = na
+if ep != 0 and ep != nz(ep[1])
+    epId += 1
+exitNow  = false
+entryNow = 0
+if side != 0
+    held += 1
+    if (not na(z) and side * z >= -exitZ) or (maxN > 0 and held >= maxN)
+        exitNow := true
+        side := 0
+if side == 0 and ep != 0 and epId != lastEp and not na(beta)
+    side := -ep
+    held := 0
+    lastEp := epId
+    bIn := beta
+    zIn := z
+    entryNow := side
+
+// --- çizim
+plot(z, "z", color = color.new(color.blue, 0), linewidth = 2)
+hline(thrIn,  "+giriş", color = color.new(color.red, 30),   linestyle = hline.style_dashed)
+hline(-thrIn, "−giriş", color = color.new(color.green, 30), linestyle = hline.style_dashed)
+hline(exitZ,  "+çıkış", color = color.new(color.gray, 40),  linestyle = hline.style_dotted)
+hline(-exitZ, "−çıkış", color = color.new(color.gray, 40),  linestyle = hline.style_dotted)
+hline(0, "0", color = color.new(color.gray, 70))
+bgcolor(side == 1 ? color.new(color.green, 88) : side == -1 ? color.new(color.red, 88) : na, title = "Model pozisyonu")
+plotshape(entryNow == 1,  "LONG spread aç (SAHOL AL / AKBNK SAT)",  shape.triangleup,   location.bottom, color.green, size = size.small)
+plotshape(entryNow == -1, "SHORT spread aç (SAHOL SAT / AKBNK AL)", shape.triangledown, location.top,    color.red,   size = size.small)
+plotshape(exitNow, "Kapat", shape.xcross, location.bottom, color.orange, size = size.tiny)
+plot(beta, "β (veri penceresi)", display = display.data_window)
+
+// --- alarmlar (bar kapanışında)
+alertcondition(entryNow == 1,  "LONG spread girişi",  "SAHOL/AKBNK: z < −eşik. LONG spread: SAHOL AL, AKBNK SAT (VİOP uzlaşma)")
+alertcondition(entryNow == -1, "SHORT spread girişi", "SAHOL/AKBNK: z > +eşik. SHORT spread: SAHOL SAT, AKBNK AL (VİOP uzlaşma)")
+alertcondition(exitNow, "Spread çıkışı", "SAHOL/AKBNK: çıkış koşulu sağlandı, spread'i kapat")
+
+// --- bilgi tablosu
+var table tb = table.new(position.top_right, 2, 6, bgcolor = color.new(color.black, 85), border_width = 1)
+if barstate.islast
+    ratio = beta * a / b
+    durum = side == 1 ? "LONG (" + str.tostring(held) + " g)" : side == -1 ? "SHORT (" + str.tostring(held) + " g)" : "Pozisyon yok"
+    eylem = entryNow == 1 ? "AÇ LONG: SAHOL AL / AKBNK SAT" : entryNow == -1 ? "AÇ SHORT: SAHOL SAT / AKBNK AL" : exitNow ? "KAPAT" : side != 0 ? "TUT" : "BEKLE"
+    table.cell(tb, 0, 0, "z", text_color = color.white)
+    table.cell(tb, 1, 0, str.tostring(z, "#.##"), text_color = math.abs(z) > thrIn ? color.yellow : color.white)
+    table.cell(tb, 0, 1, "β", text_color = color.white)
+    table.cell(tb, 1, 1, str.tostring(beta, "#.###"), text_color = color.white)
+    table.cell(tb, 0, 2, "N_AKBNK / N_SAHOL", text_color = color.white)
+    table.cell(tb, 1, 2, str.tostring(ratio, "#.###") + " (spot)", text_color = color.white)
+    table.cell(tb, 0, 3, "Model", text_color = color.white)
+    table.cell(tb, 1, 3, durum, text_color = color.white)
+    table.cell(tb, 0, 4, "Bugün", text_color = color.white)
+    table.cell(tb, 1, 4, eylem, text_color = color.white)
+    table.cell(tb, 0, 5, "Bant", text_color = color.white)
+    table.cell(tb, 1, 5, "giriş ±" + str.tostring(thrIn) + " / çıkış ±" + str.tostring(exitZ), text_color = color.white)
