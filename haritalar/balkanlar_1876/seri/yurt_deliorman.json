@@ -1,0 +1,204 @@
+{
+ "title": "Deliorman ve Gerlovo",
+ "subtitle": "Hezargrad, Eski Cuma, Osman Pazarı ve Şumnu · 1876",
+ "story_labels": [
+  {
+   "text": "DELİORMAN",
+   "sub": "Sünnî ve Kızılbaş Türk köyleri",
+   "group": 0,
+   "lon": 26.9,
+   "lat": 43.72
+  },
+  {
+   "text": "GERLOVO",
+   "sub": "Osman Pazarı Türkleri",
+   "group": 0,
+   "lon": 26.45,
+   "lat": 43.03
+  }
+ ],
+ "cities": [
+  {
+   "name": "Rusçuk",
+   "modern": "Ruse",
+   "lon": 25.955,
+   "lat": 43.848,
+   "tier": 1
+  },
+  {
+   "name": "Varna",
+   "modern": "",
+   "lon": 27.912,
+   "lat": 43.214,
+   "tier": 1
+  },
+  {
+   "name": "Tırnova",
+   "modern": "V. Tarnovo",
+   "lon": 25.629,
+   "lat": 43.081,
+   "tier": 1
+  },
+  {
+   "name": "Şumnu",
+   "modern": "Shumen",
+   "lon": 26.936,
+   "lat": 43.271,
+   "tier": 1
+  },
+  {
+   "name": "Silistre",
+   "modern": "Silistra",
+   "lon": 27.262,
+   "lat": 44.114,
+   "tier": 1
+  },
+  {
+   "name": "Hezargrad",
+   "modern": "Razgrad",
+   "lon": 26.524,
+   "lat": 43.533,
+   "tier": 1
+  },
+  {
+   "name": "Eski Cuma",
+   "modern": "Targovishte",
+   "lon": 26.572,
+   "lat": 43.251,
+   "tier": 1
+  },
+  {
+   "name": "Osman Pazarı",
+   "modern": "Omurtag",
+   "lon": 26.419,
+   "lat": 43.107,
+   "tier": 1
+  },
+  {
+   "name": "Tutrakan",
+   "modern": "",
+   "lon": 26.613,
+   "lat": 44.045,
+   "tier": 1
+  },
+  {
+   "name": "Pravadi",
+   "modern": "Provadia",
+   "lon": 27.441,
+   "lat": 43.177,
+   "tier": 1
+  },
+  {
+   "name": "Balçık",
+   "modern": "Balchik",
+   "lon": 28.16,
+   "lat": 43.418,
+   "tier": 1
+  },
+  {
+   "name": "Hacıoğlu Pazarcığı",
+   "modern": "Dobrich",
+   "lon": 27.828,
+   "lat": 43.567,
+   "tier": 1
+  },
+  {
+   "name": "Kemaller",
+   "modern": "Isperih",
+   "lon": 26.83,
+   "lat": 43.718,
+   "tier": 2
+  },
+  {
+   "name": "Akkadınlar",
+   "modern": "Dulovo",
+   "lon": 27.141,
+   "lat": 43.823,
+   "tier": 2
+  },
+  {
+   "name": "Yeni Pazar",
+   "modern": "Novi Pazar",
+   "lon": 27.197,
+   "lat": 43.347,
+   "tier": 2
+  },
+  {
+   "name": "Eski İstanbulluk",
+   "modern": "Preslav",
+   "lon": 26.817,
+   "lat": 43.161,
+   "tier": 2
+  },
+  {
+   "name": "Vırbiçe",
+   "modern": "Varbitsa",
+   "lon": 26.647,
+   "lat": 42.99,
+   "tier": 2
+  },
+  {
+   "name": "Kazgan",
+   "modern": "Kotel",
+   "lon": 26.449,
+   "lat": 42.888,
+   "tier": 2
+  },
+  {
+   "name": "Kozluca",
+   "modern": "Suvorovo",
+   "lon": 27.594,
+   "lat": 43.331,
+   "tier": 2
+  },
+  {
+   "name": "Kurtbunar",
+   "modern": "Tervel",
+   "lon": 27.406,
+   "lat": 43.748,
+   "tier": 2
+  },
+  {
+   "name": "Balbunar",
+   "modern": "Kubrat",
+   "lon": 26.5,
+   "lat": 43.797,
+   "tier": 2
+  },
+  {
+   "name": "Kaynarca",
+   "modern": "Kaynardzha",
+   "lon": 27.507,
+   "lat": 43.993,
+   "tier": 3
+  },
+  {
+   "name": "Alfatar",
+   "modern": "",
+   "lon": 27.288,
+   "lat": 43.944,
+   "tier": 3
+  },
+  {
+   "name": "Kasımköy",
+   "modern": "General Toshevo",
+   "lon": 28.04,
+   "lat": 43.701,
+   "tier": 3
+  },
+  {
+   "name": "Adamkilise",
+   "modern": "Adamclisi",
+   "lon": 27.962,
+   "lat": 44.088,
+   "tier": 3
+  }
+ ],
+ "record": {
+  "big": "%90,7",
+  "line1": "Osman Pazarı kazası Müslüman",
+  "src": "Tuna salnamesi 1290/1873 (A. Koyuncu 2014)"
+ },
+ "line": "1873 kaydına göre Eski Cuma %81, Şumnu %74, Hezargrad %73 Müslümandı; Deliorman ormanlarının köyleri ezici çoğunlukla Türktü.",
+ "sources_line": "Kaynaklar: Tuna Vilâyeti salnamesi 1290/1873 (tashihli kaza sayıları) ve 1292/1875 Tahrir-i Cedid, muhacir sayıları Osmanlı kaynaklarından: A. Koyuncu, Turkish Studies 9/4 (2014) · yerleşim: C. Sax 1878 · Natural Earth"
+}

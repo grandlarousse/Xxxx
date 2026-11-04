@@ -1,0 +1,239 @@
+{
+ "title": "Doğu Rodoplar",
+ "subtitle": "Kırcaali, Koşukavak, Sultanyeri ve Dimetoka tepeleri · 1876",
+ "story_labels": [
+  {
+   "text": "ARDA BOYU",
+   "sub": "Kırcaali–Mestanlı Türk köyleri",
+   "group": 0,
+   "lon": 25.55,
+   "lat": 41.72
+  },
+  {
+   "text": "DİMETOKA TEPELERİ",
+   "sub": "Sünnî ve Kızılbaş Türk köyleri",
+   "group": 0,
+   "lon": 26.2,
+   "lat": 41.33
+  },
+  {
+   "text": "POMAK YAYLALARI",
+   "sub": "Ahiçelebi · Madan",
+   "group": 1,
+   "lon": 24.85,
+   "lat": 41.5
+  }
+ ],
+ "cities": [
+  {
+   "name": "Edirne",
+   "modern": "",
+   "lon": 26.555,
+   "lat": 41.677,
+   "tier": 1
+  },
+  {
+   "name": "Filibe",
+   "modern": "Plovdiv",
+   "lon": 24.75,
+   "lat": 42.15,
+   "tier": 1
+  },
+  {
+   "name": "Hasköy",
+   "modern": "Haskovo",
+   "lon": 25.556,
+   "lat": 41.934,
+   "tier": 1
+  },
+  {
+   "name": "Paşmaklı",
+   "modern": "Smolyan",
+   "lon": 24.712,
+   "lat": 41.575,
+   "tier": 1
+  },
+  {
+   "name": "Darıdere",
+   "modern": "Zlatograd",
+   "lon": 25.095,
+   "lat": 41.38,
+   "tier": 1
+  },
+  {
+   "name": "Gümülcine",
+   "modern": "Komotini",
+   "lon": 25.405,
+   "lat": 41.117,
+   "tier": 1
+  },
+  {
+   "name": "İskeçe",
+   "modern": "Xanthi",
+   "lon": 24.888,
+   "lat": 41.135,
+   "tier": 1
+  },
+  {
+   "name": "Dimetoka",
+   "modern": "Didymoteicho",
+   "lon": 26.497,
+   "lat": 41.349,
+   "tier": 1
+  },
+  {
+   "name": "Kırcaali",
+   "modern": "Kardzhali",
+   "lon": 25.367,
+   "lat": 41.65,
+   "tier": 2
+  },
+  {
+   "name": "Mestanlı",
+   "modern": "Momchilgrad",
+   "lon": 25.413,
+   "lat": 41.527,
+   "tier": 2
+  },
+  {
+   "name": "Koşukavak",
+   "modern": "Krumovgrad",
+   "lon": 25.655,
+   "lat": 41.47,
+   "tier": 2
+  },
+  {
+   "name": "Eğridere",
+   "modern": "Ardino",
+   "lon": 25.133,
+   "lat": 41.583,
+   "tier": 2
+  },
+  {
+   "name": "Ortaköy",
+   "modern": "Ivaylovgrad",
+   "lon": 26.124,
+   "lat": 41.527,
+   "tier": 2
+  },
+  {
+   "name": "Yenice-i Karasu",
+   "modern": "Genisea",
+   "lon": 24.96,
+   "lat": 41.063,
+   "tier": 2
+  },
+  {
+   "name": "Sarışaban",
+   "modern": "Chrysoupoli",
+   "lon": 24.7,
+   "lat": 40.983,
+   "tier": 2
+  },
+  {
+   "name": "Mustafapaşa",
+   "modern": "Svilengrad",
+   "lon": 26.2,
+   "lat": 41.766,
+   "tier": 2
+  },
+  {
+   "name": "Cisr-i Ergene",
+   "modern": "Uzunköprü",
+   "lon": 26.688,
+   "lat": 41.268,
+   "tier": 2
+  },
+  {
+   "name": "Sofulu",
+   "modern": "Soufli",
+   "lon": 26.3,
+   "lat": 41.201,
+   "tier": 3
+  },
+  {
+   "name": "Cebel",
+   "modern": "Dzhebel",
+   "lon": 25.303,
+   "lat": 41.497,
+   "tier": 3
+  },
+  {
+   "name": "Madan",
+   "modern": "",
+   "lon": 24.943,
+   "lat": 41.499,
+   "tier": 3
+  },
+  {
+   "name": "Şahin",
+   "modern": "Echinos",
+   "lon": 24.977,
+   "lat": 41.277,
+   "tier": 3
+  },
+  {
+   "name": "Yassıköy",
+   "modern": "Iasmos",
+   "lon": 25.183,
+   "lat": 41.129,
+   "tier": 3
+  },
+  {
+   "name": "İstanimaka",
+   "modern": "Asenovgrad",
+   "lon": 24.87,
+   "lat": 42.017,
+   "tier": 3
+  },
+  {
+   "name": "Harmanlı",
+   "modern": "Harmanli",
+   "lon": 25.902,
+   "lat": 41.933,
+   "tier": 3
+  },
+  {
+   "name": "Uzuncaova",
+   "modern": "Uzundzhovo",
+   "lon": 25.656,
+   "lat": 41.964,
+   "tier": 3
+  },
+  {
+   "name": "Seymen",
+   "modern": "Simeonovgrad",
+   "lon": 25.833,
+   "lat": 42.033,
+   "tier": 3
+  },
+  {
+   "name": "Kavaklı",
+   "modern": "Topolovgrad",
+   "lon": 26.333,
+   "lat": 42.083,
+   "tier": 3
+  },
+  {
+   "name": "Lalapaşa",
+   "modern": "",
+   "lon": 26.736,
+   "lat": 41.84,
+   "tier": 3
+  },
+  {
+   "name": "Ahiçelebi",
+   "modern": "Smolyan",
+   "lon": 24.712,
+   "lat": 41.575,
+   "tier": 2
+  }
+ ],
+ "record": {
+  "big": "%98,1",
+  "line1": "Sultanyeri kazası Müslüman",
+  "src": "1875-76 tahriri, BOA Y.EE 34/48 (A. Koyuncu 2013)"
+ },
+ "line": "Kırcaali kazasının 101 köyünden 100’ünün adı Türkçeydi (1885); Arda boyundan Dimetoka tepelerine köylerin ezici çoğunluğu Türktü.",
+ "sources_line": "Kaynaklar: 1875-76 tahriri, BOA Y.EE 34/48 ve 1293 Edirne salnamesi (A. Koyuncu, Avrasya Etüdleri 44, 2013) · FO 881/3655 ve 1873 kaydı (M. Köse 2019) · 1293 Devlet Salnamesi (Ubicini 1876) · TDV İslâm Ansiklopedisi, “Kırcaali” (Kiprovska–Kiel) · kayıt oranları Yahudiler hariç · çubuklar, noktalar ve taralı alanlar: harita modeli"
+}

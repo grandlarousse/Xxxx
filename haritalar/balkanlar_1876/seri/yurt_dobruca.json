@@ -1,0 +1,176 @@
+{
+ "title": "Dobruca",
+ "subtitle": "Mecidiye, Köstence, Mangalya ve Babadağ · 1876",
+ "story_labels": [
+  {
+   "text": "DOBRUCA YAYLASI",
+   "sub": "Tatar, Nogay ve Türk köyleri",
+   "group": 0,
+   "lon": 28.25,
+   "lat": 44.4
+  },
+  {
+   "text": "DELİORMAN",
+   "sub": "Türk köyleri",
+   "group": 0,
+   "lon": 27.35,
+   "lat": 43.85
+  }
+ ],
+ "cities": [
+  {
+   "name": "Silistre",
+   "modern": "Silistra",
+   "lon": 27.262,
+   "lat": 44.114,
+   "tier": 1
+  },
+  {
+   "name": "Hacıoğlu Pazarcığı",
+   "modern": "Dobrich",
+   "lon": 27.828,
+   "lat": 43.567,
+   "tier": 1
+  },
+  {
+   "name": "Mankalya",
+   "modern": "Mangalia",
+   "lon": 28.575,
+   "lat": 43.818,
+   "tier": 1
+  },
+  {
+   "name": "Köstence",
+   "modern": "Constanța",
+   "lon": 28.63,
+   "lat": 44.18,
+   "tier": 1
+  },
+  {
+   "name": "Mecidiye",
+   "modern": "Medgidia",
+   "lon": 28.272,
+   "lat": 44.25,
+   "tier": 1
+  },
+  {
+   "name": "Hırsova",
+   "modern": "Hârșova",
+   "lon": 27.952,
+   "lat": 44.686,
+   "tier": 1
+  },
+  {
+   "name": "Babadağ",
+   "modern": "Babadag",
+   "lon": 28.712,
+   "lat": 44.894,
+   "tier": 1
+  },
+  {
+   "name": "Akkadınlar",
+   "modern": "Dulovo",
+   "lon": 27.141,
+   "lat": 43.823,
+   "tier": 2
+  },
+  {
+   "name": "Boğazköy",
+   "modern": "Cernavodă",
+   "lon": 28.033,
+   "lat": 44.339,
+   "tier": 2
+  },
+  {
+   "name": "Mahmudiye",
+   "modern": "Mahmudia",
+   "lon": 29.087,
+   "lat": 45.083,
+   "tier": 2
+  },
+  {
+   "name": "Kurtbunar",
+   "modern": "Tervel",
+   "lon": 27.406,
+   "lat": 43.748,
+   "tier": 2
+  },
+  {
+   "name": "Kaynarca",
+   "modern": "Kaynardzha",
+   "lon": 27.507,
+   "lat": 43.993,
+   "tier": 3
+  },
+  {
+   "name": "Alfatar",
+   "modern": "",
+   "lon": 27.288,
+   "lat": 43.944,
+   "tier": 3
+  },
+  {
+   "name": "Kasımköy",
+   "modern": "General Toshevo",
+   "lon": 28.04,
+   "lat": 43.701,
+   "tier": 3
+  },
+  {
+   "name": "Tekirgöl",
+   "modern": "Techirghiol",
+   "lon": 28.597,
+   "lat": 44.05,
+   "tier": 3
+  },
+  {
+   "name": "Kara Ömer",
+   "modern": "Negru Vodă",
+   "lon": 28.21,
+   "lat": 43.818,
+   "tier": 3
+  },
+  {
+   "name": "Kubadin",
+   "modern": "Cobadin",
+   "lon": 28.218,
+   "lat": 44.081,
+   "tier": 3
+  },
+  {
+   "name": "Kara Murat",
+   "modern": "M. Kogălniceanu",
+   "lon": 28.46,
+   "lat": 44.37,
+   "tier": 3
+  },
+  {
+   "name": "Adamkilise",
+   "modern": "Adamclisi",
+   "lon": 27.962,
+   "lat": 44.088,
+   "tier": 3
+  },
+  {
+   "name": "Kasımça",
+   "modern": "Casimcea",
+   "lon": 28.371,
+   "lat": 44.725,
+   "tier": 3
+  },
+  {
+   "name": "Şabla",
+   "modern": "Shabla",
+   "lon": 28.535,
+   "lat": 43.538,
+   "tier": 3
+  }
+ ],
+ "record": {
+  "big": "%98,2",
+  "line1": "Köstence kazası Müslüman",
+  "src": "Tuna salnamesi 1290/1873 (A. Koyuncu 2014)"
+ },
+ "line": "Kırım’dan gelen Tatar ve Nogaylar ile yerli Türkler, Mecidiye’den Mangalya’ya Dobruca yaylasını doldurmuştu.",
+ "sources_line": "Kaynaklar: Tuna Vilâyeti salnamesi 1290/1873 (tashihli kaza sayıları) ve 1292/1875 Tahrir-i Cedid, muhacir sayıları Osmanlı kaynaklarından: A. Koyuncu, Turkish Studies 9/4 (2014) · yerleşim: C. Sax 1878 · Natural Earth"
+}

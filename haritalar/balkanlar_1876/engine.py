@@ -192,7 +192,7 @@ def footprint(c, frame, suit, land_mask, grid_step=2.0, kernel_cut=1.7):
 
 def make_dots(clusters, frame, land_mask, elev, people_per_dot=250, seed=1876,
               grid_step=2.0, village_size=(2, 9), village_sigma_km=0.9, return_cluster=False,
-              kernel_cut=1.7):
+              kernel_cut=1.7, cats=CATS):
     """Nokta yoğunluğu: her küme kendi nüfusunu kendi alanına dağıtır.
 
     Dönüş: x_px, y_px, kat (0 Türk, 1 diğer Müslüman, 2 Hristiyan)
@@ -210,11 +210,11 @@ def make_dots(clusters, frame, land_mask, elev, people_per_dot=250, seed=1876,
     suit = gaussian_filter(suit.astype(np.float32), 0.6) * land_mask
     # her grup için mekânsal lekelenme alanı (köyler gruplaşır)
     patch = [np.exp(1.15 * (0.8 * smooth_noise(rng, (gH, gW), 7) + 0.6 * smooth_noise(rng, (gH, gW), 2.2)))
-             for _ in CATS]
+             for _ in cats]
     xs, ys, ks, cs = [], [], [], []
     for ci, c in enumerate(clusters):
         P = cluster_population(c)
-        sh = np.array([max(0.0, float(c[k])) for k in CATS])
+        sh = np.array([max(0.0, float(c.get(k, 0))) for k in cats])
         if sh.sum() <= 0 or P <= 0:
             continue
         sh = sh / sh.sum()
@@ -235,7 +235,7 @@ def make_dots(clusters, frame, land_mask, elev, people_per_dot=250, seed=1876,
             base = kern * land_mask[i0:i1, j0:j1]
             if base.sum() <= 0:
                 continue
-        for k in range(3):
+        for k in range(len(cats)):
             n_dots = P * sh[k] / people_per_dot
             n = int(n_dots) + (rng.random() < (n_dots - int(n_dots)))
             if n <= 0:

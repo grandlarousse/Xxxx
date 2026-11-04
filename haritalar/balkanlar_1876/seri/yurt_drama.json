@@ -1,0 +1,155 @@
+{
+ "title": "Drama, Kavala ve Sarışaban",
+ "subtitle": "Drama sancağının Türk ovaları · 1876",
+ "story_labels": [
+  {
+   "text": "DRAMA OVASI",
+   "sub": "Doksat · Prosoçan · Kırlar",
+   "group": 0,
+   "lon": 23.95,
+   "lat": 41.07
+  },
+  {
+   "text": "KARASU AĞZI",
+   "sub": "Sarışaban Türk köyleri",
+   "group": 0,
+   "lon": 24.72,
+   "lat": 40.93
+  },
+  {
+   "text": "POMAK KÖYLERİ",
+   "sub": "Yukarı Mesta",
+   "group": 1,
+   "lon": 24.45,
+   "lat": 41.42
+  }
+ ],
+ "cities": [
+  {
+   "name": "Paşmaklı",
+   "modern": "Smolyan",
+   "lon": 24.712,
+   "lat": 41.575,
+   "tier": 1
+  },
+  {
+   "name": "Darıdere",
+   "modern": "Zlatograd",
+   "lon": 25.095,
+   "lat": 41.38,
+   "tier": 1
+  },
+  {
+   "name": "İskeçe",
+   "modern": "Xanthi",
+   "lon": 24.888,
+   "lat": 41.135,
+   "tier": 1
+  },
+  {
+   "name": "Drama",
+   "modern": "",
+   "lon": 24.147,
+   "lat": 41.15,
+   "tier": 1
+  },
+  {
+   "name": "Eğridere",
+   "modern": "Ardino",
+   "lon": 25.133,
+   "lat": 41.583,
+   "tier": 2
+  },
+  {
+   "name": "Yenice-i Karasu",
+   "modern": "Genisea",
+   "lon": 24.96,
+   "lat": 41.063,
+   "tier": 2
+  },
+  {
+   "name": "Sarışaban",
+   "modern": "Chrysoupoli",
+   "lon": 24.7,
+   "lat": 40.983,
+   "tier": 2
+  },
+  {
+   "name": "Kavala",
+   "modern": "",
+   "lon": 24.405,
+   "lat": 40.948,
+   "tier": 2
+  },
+  {
+   "name": "Cebel",
+   "modern": "Dzhebel",
+   "lon": 25.303,
+   "lat": 41.497,
+   "tier": 3
+  },
+  {
+   "name": "Madan",
+   "modern": "",
+   "lon": 24.943,
+   "lat": 41.499,
+   "tier": 3
+  },
+  {
+   "name": "Şahin",
+   "modern": "Echinos",
+   "lon": 24.977,
+   "lat": 41.277,
+   "tier": 3
+  },
+  {
+   "name": "Yassıköy",
+   "modern": "Iasmos",
+   "lon": 25.183,
+   "lat": 41.129,
+   "tier": 3
+  },
+  {
+   "name": "Pravişte",
+   "modern": "Eleftheroupoli",
+   "lon": 24.252,
+   "lat": 40.914,
+   "tier": 3
+  },
+  {
+   "name": "Nevrekop",
+   "modern": "Gotse Delchev",
+   "lon": 23.73,
+   "lat": 41.567,
+   "tier": 3
+  },
+  {
+   "name": "Serez",
+   "modern": "Serres",
+   "lon": 23.548,
+   "lat": 41.086,
+   "tier": 1
+  },
+  {
+   "name": "Zihne",
+   "modern": "Nea Zichni",
+   "lon": 23.83,
+   "lat": 41.03,
+   "tier": 2
+  },
+  {
+   "name": "Ahiçelebi",
+   "modern": "Smolyan",
+   "lon": 24.712,
+   "lat": 41.575,
+   "tier": 2
+  }
+ ],
+ "record": {
+  "big": "%95,2",
+  "line1": "Sarışaban kazası Müslüman",
+  "src": "1881/82 Osmanlı sayımı (K. Karpat 1985)"
+ },
+ "line": "Drama, Pravişte ve Sarışaban ovaları Türk köyleriyle doluydu; Rumlar kıyı kasabalarında, Bulgarlar kuzey vadilerinde yaşıyordu.",
+ "sources_line": "Kaynaklar: 1881/82 Osmanlı sayımı (K. Karpat 1985) · 1873 kaydı, FO 881/3655 (M. Köse 2019) · V. Kănčov 1900 (yerleşim) · harita modeli"
+}
