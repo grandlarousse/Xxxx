@@ -550,6 +550,8 @@ def render_region(key, cfg, out_dir, ppd=100):
                 return fz, fnar, lh, lines, need
             fz -= 1
 
+    stat_h = 70 if (reg.get("fill", True) and reg.get("series")) else 0
+    ph = ph - stat_h
     if wide:
         fz, fnar, lh, lines, need = fit(pw - 48 - loc_w - 30, ph - 104)
         show_loc = True
