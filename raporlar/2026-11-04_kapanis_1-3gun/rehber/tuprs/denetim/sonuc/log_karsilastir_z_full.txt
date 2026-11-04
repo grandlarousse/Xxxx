@@ -1,0 +1,25 @@
+  P = np.where(cnt >= 3, np.nanmean(np.where(np.isfinite(E.values), E.values, np.nan), axis=1), np.nan)
+günlük betik (canlı Yahoo, 6 yıl)      ortak 290/300 | yalnız birinde dolu  0 | maks|Δz| 6.71e-06 | sinyal eşleşme 100.0% (tüm 300 gün, boş=0: 100.0%)
+betik takvimi - VİOP takvimi (2021+): [] | VİOP - betik: []
+araştırma cl.py (eski veri, -30.10)    ortak 287/300 | yalnız birinde dolu  3 | maks|Δz| 5.72e-06 | sinyal eşleşme 100.0% (tüm 300 gün, boş=0: 99.7%)
+   farklı dolu günler: ['2026-11-02', '2026-11-03', '2026-11-04']
+araştırma z (kaydedilmiş)              ortak 287/300 | yalnız birinde dolu  3 | maks|Δz| 5.72e-06 | sinyal eşleşme 100.0% (tüm 300 gün, boş=0: 99.7%)
+   farklı dolu günler: ['2026-11-02', '2026-11-03', '2026-11-04']
+kurucu cl_t.signal_z (yeni veri)       ortak 289/300 | yalnız birinde dolu  1 | maks|Δz| 5.91e-06 | sinyal eşleşme 100.0% (tüm 300 gün, boş=0: 100.0%)
+   farklı dolu günler: ['2026-11-04']
+
+Tam dönem bağımsız vs araştırma: ortak 2240, maks|Δz| 4.169e-02; yalnız birinde dolu: 1
+   ilk farklı günler: ['2017-08-02']
+araştırma Pb ilk 3: {Timestamp('2017-03-06 00:00:00'): -0.0274, Timestamp('2017-03-07 00:00:00'): 0.0014, Timestamp('2017-03-08 00:00:00'): -0.0097} | bağımsız: {Timestamp('2017-03-06 00:00:00'): nan, Timestamp('2017-03-07 00:00:00'): 0.0014, Timestamp('2017-03-08 00:00:00'): -0.0097}
+araştırma z ilk geçerli gün: 2017-08-02 | bağımsız: 2017-08-03
+tam dönem |Δz|>1e-6 olan gün: 1715 son: 2026-05-15
+tam dönem sinyal eşleşme: 99.87 %; farklı gün: 3 ['2017-09-08', '2017-12-11', '2018-01-19']
+   2026-09-08 (Tue): ABD günleri [] P=nan z=nan
+   2026-01-20 (Tue): ABD günleri [] P=nan z=nan
+   2026-02-17 (Tue): ABD günleri [] P=nan z=nan
+   2026-10-30 (Fri): ABD günleri [10-28,10-29] P=0.0072 z=0.272
+   2026-07-06 (Mon): ABD günleri [] P=nan z=nan
+   2026-05-26 (Tue): ABD günleri [] P=nan z=nan
+   2026-06-22 (Mon): ABD günleri [] P=nan z=nan
+   2025-11-28 (Fri): ABD günleri [] P=nan z=nan
+   2026-04-06 (Mon): ABD günleri [] P=nan z=nan

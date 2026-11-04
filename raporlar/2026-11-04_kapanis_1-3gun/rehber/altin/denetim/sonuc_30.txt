@@ -1,0 +1,5 @@
+corr(z_altın_t, TRALT hedge'li_{t+k}): {0: np.float64(0.251), 1: np.float64(0.072), 2: np.float64(0.044), 3: np.float64(0.004)}
+corr(TRALT hedge'li_t, z_altın_{t+k}) (ters yön): {1: np.float64(-0.005), 2: np.float64(-0.002), 3: np.float64(-0.006)}
+h1 n=1761 | z_altin b=+15.8 t=+2.58 ; z_TRALT_kendi b=+2.1 t=+0.31 ; z_XU030 b=+10.7 t=+1.50 || gecikmeli: z_altin t=+3.01 ; z_altin_t1 t=+1.73 ; z_altin_t2 t=+0.20
+h2 n=1758 | z_altin b=+25.1 t=+2.84 ; z_TRALT_kendi b=+2.8 t=+0.29 ; z_XU030 b=+17.9 t=+1.81 || gecikmeli: z_altin t=+3.39 ; z_altin_t1 t=+1.33 ; z_altin_t2 t=-1.31
+h3 n=1755 | z_altin b=+21.7 t=+2.01 ; z_TRALT_kendi b=+10.1 t=+0.79 ; z_XU030 b=+31.7 t=+2.57 || gecikmeli: z_altin t=+2.88 ; z_altin_t1 t=+0.01 ; z_altin_t2 t=-0.88

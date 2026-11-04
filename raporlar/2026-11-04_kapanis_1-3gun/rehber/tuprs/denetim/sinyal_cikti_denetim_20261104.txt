@@ -1,0 +1,46 @@
+==============================================================================
+TUPRS <- ABD rafineri sepeti | çalışma: 04.11.2026 12:20 TSİ | hedef BIST seansı: 04.11.2026
+==============================================================================
+Kaynak: Yahoo Finance günlük (adj = temettü düzeltmeli kapanış). Son tarihler:
+   VLO       03.11.2026  kapanış 387,65
+   MPC       03.11.2026  kapanış 427,34
+   PSX       03.11.2026  kapanış 271,94
+   PBF       03.11.2026  kapanış 77,81
+   ^GSPC     03.11.2026  kapanış 7.568,92
+   TUPRS.IS  04.11.2026  kapanış 346,75  (gün içi son fiyat; Yahoo gecikmeli olabilir — yalnız boyut hesabında)
+
+Eşleme: önceki BIST günü 03.11.2026 <= ABD günü < 04.11.2026 -> kullanılan ABD günleri: 03.11.2026
+   03.11.2026: VLO r 1,61% β -0,44 artık 1,77% | MPC r -0,71% β -0,28 artık -0,61% | PSX r -1,13% β -0,41 artık -0,99% | PBF r 3,57% β -0,70 artık 3,83% | SPX 0,36%
+
+Sepet artığı P = 1,001%   std250 = 2,653%   z = 0,38
+SİNYAL: YOK (|z| <= 1 ya da boş)
+
+Kurala göre DÜNKÜ kapanış itibarıyla pozisyon (kural geçmişte aynen uygulandıysa; kendi gerçek pozisyonunuzu esas alın):
+   23.10.2026 AÇ     KISA
+   27.10.2026 ÇEVİR  UZUN
+   30.10.2026 KAPAT  UZUN
+   03.11.2026 AÇ     KISA
+   Açık pozisyon: KISA (giriş 03.11.2026) -> bugün (04.11.2026): TUT (çıkış günü 1 BIST günü sonra); yeni sinyale bakılmaz
+
+VİOP bülteni 03.11.2026 (borsaistanbul.com) — TUPRS kontratları (iş günü kalan = hedef seanstan vadeye):
+   F_TUPRS1126  vade 30.11.2026  kalan  18  uzlaşma 346,75  hacim 2.127 mn TL  AP 88.154
+   F_TUPRS1226  vade 31.12.2026  kalan  41  uzlaşma 357,00  hacim 120 mn TL  AP 2.231
+   F_TUPRS0127  vade 29.01.2027  kalan  61  uzlaşma 364,80  hacim 1 mn TL  AP 19
+
+KONTRAT: işlem kontratı F_TUPRS1126 | fiyat 346,75 TL (F_TUPRS1126 03.11.2026 uzlaşması)
+   1 kontrat = 100 pay = 34.675 TL; teminat (~%15) ≈ 5.201 TL
+   Risk ölçüsü: 2 günlük %95 kötü hareket ≈ 1,65·σ·√2 = 5,9% (σ 60g = 2,54%, taban %4) -> kontrat başı 2.057 TL
+   Sermaye 1.000.000 TL, risk %0,50 -> 2 kontrat (nominal 69.350 TL = sermayenin %6,9; teminat ≈ 10.402 TL)
+   Oran: tek bacak (yalnız TUPRS). İsteğe bağlı XU030 hedge'i araştırmada ana kural DEĞİL.
+
+BİR SONRAKİ SEANS (05.11.2026) için tetik: o güne eşlenecek ABD gün(ler)inin sepet artığı |P| > 2,65%
+   (artık = ort(r_i) − ort(β_i·r_SPX); ort β ≈ -0,46). S&P 500 %0 ise: dört hissenin ortalama getirisi >= +2,65% -> AL, <= −2,65% -> SAT
+   S&P 500 s% oynarsa eşik kayar: AL için ort(r_i) ≥ +2,65% + (-0,46)·s ; SAT için ort(r_i) ≤ −2,65% + (-0,46)·s
+   Kurala göre bağlam: 05.11.2026 ÇIKIŞ GÜNÜ (KISA pozisyon): eşik pozisyon yönünde aşılırsa UZAT, ters yönde aşılırsa ÇEVİR, aşılmazsa KAPAT
+   VLO: son kapanış 387,65 -> (eşit hareket, SPX %0) AL ≥ 398,07  SAT ≤ 377,50
+   MPC: son kapanış 427,34 -> (eşit hareket, SPX %0) AL ≥ 438,83  SAT ≤ 416,15
+   PSX: son kapanış 271,94 -> (eşit hareket, SPX %0) AL ≥ 279,25  SAT ≤ 264,82
+   PBF: son kapanış 77,81 -> (eşit hareket, SPX %0) AL ≥ 79,90  SAT ≤ 75,77
+
+Not: sinyal yalnız ÖNCEKİ ABD kapanışlarını kullanır; BIST'in 17:45–17:55 fiyatı sinyale girmez. Emir fiyatını aracı kurum ekranından alın.
+Yatırım tavsiyesi değildir.

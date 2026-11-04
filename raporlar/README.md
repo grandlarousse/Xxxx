@@ -36,5 +36,6 @@ Klasör: `2026-11-04_kapanis_1-3gun/`
 - `risk_ve_boyut_tablosu.csv`: 47 pay vadelisi için β, 1/2/3 günlük risk, limit günleri, teminat ve boyut.
 - `kod/sinyal.py`, `kod/sahol_akbnk_z.pine`: Günlük SAHOL/AKBNK sinyali ve TradingView göstergesi.
 - `notlar/`, `kod/`: Yeniden test ve çürütme notları, araştırma kodu.
+- `rehber/tuprs`, `rehber/koza`, `rehber/altin`: TUPRS ← ABD rafinerileri, TRMET/TRALT göreli momentum ve TRALT ← altın için saat saat uygulama rehberi, günlük sinyal betiği ve TradingView göstergesi (derlenmedi).
 
 Yatırım tavsiyesi değildir.

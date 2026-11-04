@@ -1,0 +1,6 @@
+P1 sabit h2 kilitsiz: n 145 brüt +33.4 (t 2.94) net15t +11.7 2024–26 +22.9 (t 1.15) ex10 +13.2
+P1b sabit h3 kilitsiz: n 142 brüt +47.2 (t 2.99) net15t +25.5 2024–26 +42.5 (t 1.70) ex10 +17.7
+P2 gecikmeli kilitsiz: n 143 brüt +38.8 (t 2.30) net15t +15.8 2024–26 +26.8 (t 1.15) ex10 +4.8
+P2b gecikmeli sabit kilitsiz: n 145 brüt +22.9 (t 1.67) net15t +1.1 2024–26 +20.7 (t 0.94) ex10 -0.5
+TERS P2 gecikmeli kilitsiz: n 128 brüt +19.9 (t 1.16) net15t -2.3 2024–26 +20.1 (t 0.64) ex10 -17.8
+P1b sabit h3 kilitli: n 141 brüt +40.5 (t 2.52) net15t +18.7 2024–26 +28.2 (t 1.11) ex10 +10.1

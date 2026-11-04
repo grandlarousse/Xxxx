@@ -1,0 +1,33 @@
+uzatma sonrası segmentler 2019+: ort +76.6 n 46 t 3.07
+uzatma sonrası segmentler 2024+: ort +23.3 n 16 t 0.68
+2026: n 16 brüt toplam -176 net15t toplam -458 ort -28.6
+/tmp/claude-0/-home-user-Xxxx/210cb6c1-ba48-587d-972a-9ce1d37b6259/scratchpad/denetim_koza/kod/d3_ek.py:14: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  print('2026 işlemleri:\n', y26[['entry', 'exit', 'days', 'side', 'gross', 'net15t']].round(1).to_string(index=False))
+2026 işlemleri:
+      entry       exit  days  side  gross  net15t
+2026-01-08 2026-01-12     2   1.0 -197.0  -214.8
+2026-01-16 2026-01-20     2   1.0   24.0     6.4
+2026-01-23 2026-01-27     2   1.0   28.8    11.4
+2026-01-29 2026-02-02     2   1.0 -172.2  -189.3
+2026-02-06 2026-02-10     2  -1.0  175.9   158.3
+2026-02-18 2026-02-20     2   1.0   -6.4   -23.6
+2026-03-24 2026-03-26     2  -1.0 -150.7  -168.4
+2026-03-30 2026-04-01     2  -1.0  -35.0   -52.8
+2026-04-08 2026-04-10     2   1.0  104.4    86.7
+2026-04-30 2026-05-05     2  -1.0   18.8     1.0
+2026-05-20 2026-05-22     2  -1.0   89.7    72.0
+2026-06-11 2026-06-15     2  -1.0    9.8    -8.1
+2026-06-23 2026-06-25     2  -1.0  -35.9   -53.6
+2026-06-26 2026-06-30     2   1.0   30.1    12.5
+2026-07-24 2026-07-30     4   1.0 -126.1  -143.6
+2026-09-23 2026-09-25     2   1.0   65.1    47.7
+betik replay (spot kilit vekili) vs P0L (VİOP kilit vekili), son ~400 gün: {'both': 27, 'left_only': 0, 'right_only': 0}
+Empty DataFrame
+Columns: [entry, exit, side, _merge]
+Index: []
+TRALT(t−k) → TRMET(t) 2017–21: n 1212 b1 -0.052 (t -0.86) b2 +0.076 (t +1.47) b3 +0.029 (t +0.58) | Σb +0.053
+TRALT(t−k) → TRMET(t) 2022–26: n 1180 b1 -0.130 (t -2.39) b2 +0.087 (t +1.47) b3 -0.097 (t -2.02) | Σb -0.141
+TRALT(t−k) → TRMET(t) 2024–26: n 693 b1 -0.138 (t -2.18) b2 +0.208 (t +2.98) b3 -0.140 (t -2.31) | Σb -0.071
+TRMET(t−k) → TRALT(t) 2017–21: n 1212 b1 -0.012 (t -0.26) b2 -0.018 (t -0.53) b3 -0.028 (t -0.71) | Σb -0.059
+TRMET(t−k) → TRALT(t) 2022–26: n 1180 b1 -0.008 (t -0.14) b2 -0.007 (t -0.13) b3 +0.058 (t +1.15) | Σb +0.044
+TRMET(t−k) → TRALT(t) 2024–26: n 693 b1 +0.037 (t +0.58) b2 -0.097 (t -1.64) b3 +0.100 (t +1.50) | Σb +0.040

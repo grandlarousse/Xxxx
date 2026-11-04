@@ -1,0 +1,66 @@
+R0 araştırma benzeri (bağımsız; 03.11'e kadar)                         n 406 /yıl 54.4 brüt +53.1 net +42.1 (t 2.50) isabet 0.542 IS +44.1 (1.82) OOS +41.2 (1.85) 24-26 +67.7 (2.38, n 167) top10 hariç +20.0 (1.27)
+R0' araştırma benzeri, panel sonu 30.10'a kadar                        n 405 /yıl 54.6 brüt +53.9 net +42.9 (t 2.54) isabet 0.543 IS +44.1 (1.82) OOS +42.3 (1.89) 24-26 +69.7 (2.44, n 166) top10 hariç +20.7 (1.31)
+bağımsız GC=F vade sıçrama günleri: [('2024-07-30', 209), ('2024-11-27', 120), ('2025-01-29', 47), ('2025-01-30', 107), ('2025-03-28', 52), ('2025-05-29', 52), ('2025-07-30', 177), ('2025-11-25', 100), ('2026-01-28', 92), ('2026-03-24', 46), ('2026-03-27', 65), ('2026-06-01', 81), ('2026-07-29', 146)]
+yarım günler (XU030.IS 60dk): ['2024-04-09', '2024-10-28', '2025-06-05', '2025-10-28', '2026-03-19', '2026-05-26', '2026-10-28']
+E1 VİOP sinyali + aynı kontrat + spot β + tam sayı + kilit             n 418 /yıl 53.2 brüt +51.4 net +40.4 (t 2.44) isabet 0.548 IS +37.0 (1.68) OOS +42.4 (1.86) 24-26 +66.7 (2.32, n 165) top10 hariç +18.4 (1.19)
+      atlanan giriş (kilit) 5 uzatılan 1 devam 56 aynı kontratla devam 53
+E1n VİOP sinyali, kilit yok                                            n 423 /yıl 53.8 brüt +54.5 net +43.5 (t 2.63) isabet 0.548 IS +43.0 (1.89) OOS +43.8 (1.94) 24-26 +68.4 (2.41, n 167) top10 hariç +21.4 (1.39)
+      atlanan giriş (kilit) 0 uzatılan 0 devam 58 aynı kontratla devam 55
+E1i VİOP sinyali, tam sayı yok, kilit yok                              n 423 /yıl 53.8 brüt +54.2 net +43.2 (t 2.61) isabet 0.544 IS +43.3 (1.90) OOS +43.1 (1.92) 24-26 +68.4 (2.42, n 167) top10 hariç +21.1 (1.38)
+      atlanan giriş (kilit) 0 uzatılan 0 devam 58 aynı kontratla devam 55
+P PRATİK (kurucu tanımı: 2024-07+ 18:00 GC=F düzeltilmiş, betik σ)     n 423 /yıl 53.8 brüt +47.4 net +36.4 (t 2.23) isabet 0.544 IS +37.0 (1.68) OOS +36.0 (1.62) 24-26 +55.8 (2.02, n 170) top10 hariç +14.5 (0.96)
+      atlanan giriş (kilit) 5 uzatılan 0 devam 56 aynı kontratla devam 53
+P-ham (GC=F vade sıçraması düzeltilmeden)                              n 427 /yıl 54.3 brüt +48.0 net +37.0 (t 2.28) isabet 0.543 IS +37.0 (1.68) OOS +36.9 (1.67) 24-26 +56.8 (2.09, n 174) top10 hariç +15.2 (1.01)
+      atlanan giriş (kilit) 5 uzatılan 0 devam 58 aynı kontratla devam 54
+P-σfix (σ da sıçramasız = TVC:GOLD/Pine σ)                             n 424 /yıl 53.9 brüt +46.7 net +35.7 (t 2.20) isabet 0.542 IS +37.0 (1.68) OOS +35.0 (1.57) 24-26 +54.1 (1.96, n 171) top10 hariç +13.9 (0.92)
+      atlanan giriş (kilit) 5 uzatılan 0 devam 57 aynı kontratla devam 54
+P-yarımgün (arife günü giriş yok, ertesi gün 12:30 referansı)          n 423 /yıl 53.8 brüt +48.6 net +37.6 (t 2.32) isabet 0.544 IS +37.0 (1.68) OOS +37.9 (1.71) 24-26 +58.8 (2.14, n 170) top10 hariç +15.7 (1.05)
+      atlanan giriş (kilit) 5 uzatılan 0 devam 54 aynı kontratla devam 51
+işlem tarihi eşleşmesi: bizde 423 kurucuda 423 ortak 423 aynı yön 423 | ortak işlemlerde brüt fark (bps) ort 0.9 medyan |fark| 2.6 | N farkı olan 0
+yalnız bizde: []
+yalnız kurucuda: []
+sinyal  esik  tutma maliyet   n  yilda  net    t   IS  OOS  y24  y24_t  top10_haric  top10_t
+  VİOP  0.75      1     8+3 769   97.7  9.5 0.99  9.6  9.4 13.4   0.89         -0.4    -0.05
+  VİOP  0.75      2     8+3 544   69.1 31.3 2.10 25.6 34.7 41.4   1.61         14.2     1.01
+  VİOP  0.75      3     8+3 424   54.0 29.0 1.34 59.7 11.3 12.8   0.34          1.7     0.08
+  VİOP  1.00      1     8+3 541   68.8 24.2 2.24 20.0 26.6 37.0   2.13         10.8     1.06
+  VİOP  1.00      2     8+3 418   53.2 40.4 2.44 37.0 42.4 66.7   2.32         18.4     1.19
+  VİOP  1.00      3     8+3 348   44.5 43.1 1.68 44.9 42.0 82.7   1.91          8.9     0.37
+  VİOP  1.25      1     8+3 383   48.7 22.9 1.77 26.7 20.7 21.0   0.98          4.9     0.41
+  VİOP  1.25      2     8+3 314   39.9 19.9 1.00 23.7 17.7 17.2   0.50         -9.2    -0.51
+  VİOP  1.25      3     8+3 270   34.7 22.3 0.80 33.2 15.9 30.0   0.60        -18.3    -0.71
+PRATİK  0.75      1     8+3 772   98.1 13.6 1.43  9.6 15.7 23.4   1.58          3.4     0.38
+PRATİK  0.75      2     8+3 548   69.6 34.9 2.41 25.6 40.3 50.4   2.09         18.1     1.32
+PRATİK  0.75      3     8+3 425   54.2 35.4 1.64 59.7 21.4 29.5   0.79          8.3     0.41
+PRATİK  1.00      1     8+3 543   69.1 19.5 1.79 20.0 19.2 25.4   1.43          6.0     0.59
+PRATİK  1.00      2     8+3 423   53.8 36.4 2.23 37.0 36.0 55.8   2.02         14.5     0.96
+PRATİK  1.00      3     8+3 348   44.4 30.2 1.19 44.9 22.1 49.8   1.16         -4.4    -0.19
+PRATİK  1.25      1     8+3 374   47.6 25.6 1.93 26.7 24.9 27.5   1.21          7.1     0.58
+PRATİK  1.25      2     8+3 309   39.3 24.3 1.23 23.7 24.7 28.4   0.81         -5.1    -0.28
+PRATİK  1.25      3     8+3 268   34.5 30.7 1.09 33.2 29.2 51.7   1.01        -10.1    -0.39
+sinyal  esik  tutma  net    t
+  VİOP  0.75      1  2.5 0.26
+  VİOP  0.75      2 24.3 1.63
+  VİOP  0.75      3 22.0 1.02
+  VİOP  1.00      1 17.2 1.59
+  VİOP  1.00      2 33.4 2.02
+  VİOP  1.00      3 36.1 1.41
+  VİOP  1.25      1 15.9 1.23
+  VİOP  1.25      2 12.9 0.65
+  VİOP  1.25      3 15.3 0.55
+PRATİK  0.75      1  6.6 0.69
+PRATİK  0.75      2 27.9 1.93
+PRATİK  0.75      3 28.4 1.32
+PRATİK  1.00      1 12.5 1.15
+PRATİK  1.00      2 29.4 1.80
+PRATİK  1.00      3 23.2 0.91
+PRATİK  1.25      1 18.6 1.40
+PRATİK  1.25      2 17.3 0.87
+PRATİK  1.25      3 23.7 0.84
+eşik taraması (PRATİK, h2, 8+3): {0.8: (np.float64(37.8), np.float64(2.52), 519), 0.9: (np.float64(39.9), np.float64(2.63), 460), 1.0: (np.float64(36.4), np.float64(2.23), 423), 1.1: (np.float64(38.9), np.float64(2.21), 369), 1.2: (np.float64(27.0), np.float64(1.42), 328), 1.3: (np.float64(23.0), np.float64(1.12), 295), 1.5: (np.float64(44.1), np.float64(1.88), 228)}
+P yıllar: {2018: -71.0, 2019: 37.0, 2020: 105.0, 2021: -49.0, 2022: 7.0, 2023: -2.0, 2024: 48.0, 2025: 36.0, 2026: 92.0} | long 46.4 237 short 23.6 | maxDD -4311 en kötü -1537 2023-06-22 p5 -436 sd 335
+ort kazanç 264 ort kayıp -235 en uzun kayıp serisi 5 | fon krizi (Eyl–Eki 2026) n 7 ort net -81.3
+03.11: F_TRALT1126 34.94 / F_XU0301226 14412.0 β 1.286 -> N 32, TRALT tutarı 111,808 TL, XU030 tutarı 144,120 TL; teminat %15/%11 32,624 TL, %17/%11 34,861
+  8+3: işlem başı 407 TL, yılda 21,880 TL; en kötü -17,180; maxDD -48,198; p5 -4,878; sd 3,745
+  15+3: işlem başı 328 TL, yılda 17,669 TL; en kötü -17,258; maxDD -50,076; p5 -4,957; sd 3,745
+  tik: işlem başı 368 TL, yılda 19,822 TL; en kötü -17,249; maxDD -49,661; p5 -4,920; sd 3,744

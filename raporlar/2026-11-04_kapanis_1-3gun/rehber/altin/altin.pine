@@ -1,0 +1,175 @@
+//@version=5
+// =====================================================================================================
+// TRALT <- ALTIN (Strateji C) — günlük z göstergesi
+// DERLENMEDİ: Bu ortamda Pine derleyicisi yoktu; sözdizimi elle denetlendi. İLK KULLANIMDA son 5–10 günün
+// z, σ, β ve N değerlerini sinyal_altin.py çıktısıyla karşılaştırın. Fark %10'dan büyükse göstergeye değil betiğe güvenin.
+//
+// KURULUM: BIST GÜNLÜK grafik açın (öneri: BIST:TRALT1! ya da BIST:TRALT, zaman dilimi 1G) -> Pine Editör -> yapıştır -> Grafiğe ekle.
+// NE ÇİZER: z = ln(altın_t / altın_{t-1}) / σ250 ; altın_t = o BIST gününde UTC 15:00'te (18:00 TSİ) biten son alt zaman
+//   dilimi barının kapanışı (geçmiş barlarda 18:00 TSİ fiyatı; BUGÜNKÜ barda canlı fiyat -> 17:55'te okuyun).
+//   ±eşik bantları, kural girişleri (▲ AL / ▼ SAT), çıkışlar (x), geçici sinyal (◆, yalnız canlı bar), pozisyon arka planı.
+// NEDEN close[1] DEĞİL: ABD hisselerinde "dünkü tamamlanmış gün" kullanılır; ALTINDA bilgi AYNI GÜNÜN 18:00 fiyatındadır
+//   (dünkü altın etkisiz, t 0,07). Bu yüzden günlük altın barı (henüz bitmemiş) KULLANILMAZ; yalnız saati UTC 15:00'ten önce
+//   biten alt zaman dilimi barları alınır -> ileriye bakma yok. Tarih/saat denetimi aynı gün dışındaki (bayat, ABD tatili)
+//   barları dışlar; o gün altın verisi yoksa son bilinen fiyat kullanılır (değişim ~0, sinyal çıkmaz).
+// ALTIN SEMBOLÜ: TVC:GOLD (vars.) ya da OANDA:XAUUSD. COMEX:GC1! KULLANMAYIN: sürekli kontrat vade geçişinde %0,5–2 sıçrar
+//   ve sahte sinyal üretir (Yahoo GC=F'de 2,3 yılda 11 kez ölçüldü).
+// VERİ SINIRI: alt zaman dilimi geçmişi plana bağlı (Basic'te ~5.000 bar ≈ 60 dk'da ~200 gün). σ için 100 gözlem yoksa
+//   "Elle σ" girdisine betiğin yazdığı σ'yı (%) girin.
+// DENETİM (rehber_altin_denetim, 04.11.2026) DÜZELTMELERİ / NOTLARI:
+//   (a) Yarım gün (arife): VİOP uzlaşması ~12:20–12:35 TSİ'de oluşur. "Yarım gün tarihleri" girdisindeki günlerde anlık fiyat
+//       09:30 UTC (12:30 TSİ) barından alınır ve o gün yeni giriş işaretlenmez (ertesi günün g'si arife 12:30'una göre ölçülür).
+//   (b) Canlı barda gösterge, GRAFİK sembolü (BIST, ücretsizde 15 dk gecikmeli) her güncellendiğinde yeniden hesaplanır;
+//       altın verisi TVC'den gerçek zamanlıdır ama 17:55 kararını TVC:GOLD grafiğindeki fiyatla ve tablodaki tetikle teyit edin.
+//   (c) Limit kilidi (tavan/taban) kuralı göstergede modellenmez; kilidi aracı kurum ekranında kontrol edin.
+//   (d) σ, TVC:GOLD (vade sıçramasız) değişimlerinden hesaplanır; betiğin σ'sı Yahoo GC=F'den gelir. Fark tipik olarak <%3;
+//       eşik sınırındaki (|z| 0,95–1,05) günlerde betiğe güvenin.
+//   Sözdizimi elle denetlendi (request.security_lower_tf demeti, timestamp/year(time,tz), str.format_time, ta.*, plot/hline, var).
+// =====================================================================================================
+indicator("TRALT <- Altın z (18:00 TSİ)", shorttitle="ALTIN z", overlay=false, precision=2, max_labels_count=500)
+
+// ---------------- girdiler
+goldSym   = input.symbol("TVC:GOLD", "Altın sembolü (spot; GC1! kullanmayın)")
+ltf       = input.string("60", "Alt zaman dilimi (dk)", options=["60", "30", "15", "5"])
+endH      = input.int(15, "Anlık fiyat: bar bitişi en geç (UTC saat; 15 = 18:00 TSİ)", minval=0, maxval=23)
+endM      = input.int(0, "… dakika (UTC)", minval=0, maxval=59)
+maxStaleH = input.int(6, "Aynı gün en fazla bayatlık (saat)", minval=1, maxval=24)
+win       = input.int(250, "σ penceresi (BIST günü)", minval=20)
+minObs    = input.int(100, "σ için asgari gözlem", minval=10)
+thr       = input.float(1.0, "Eşik |z|", step=0.05)
+manSig    = input.float(0.0, "Elle σ, % (0 = otomatik; sinyal_altin.py çıktısından)", step=0.01)
+holdN     = input.int(2, "Tutma süresi (BIST günü)", minval=1)
+halfList  = input.string("2024-10-28,2025-06-05,2025-10-28,2026-03-19,2026-05-26,2026-10-28", "Yarım gün (arife) tarihleri, yyyy-AA-gg, virgülle")
+fT        = input.symbol("BIST:TRALT1!", "TRALT vadeli (kontrat oranı için)")
+fX        = input.symbol("BIST:XU030D1!", "XU030 vadeli (kontrat oranı için)")
+sT        = input.symbol("BIST:TRALT", "TRALT spot (beta için)")
+sX        = input.symbol("BIST:XU030", "XU030 spot (beta için)")
+
+if not timeframe.isdaily
+    runtime.error("Bu gösterge BIST GÜNLÜK grafikte çalışır (ör. BIST:TRALT1!, 1G).")
+
+// ---------------- 1) bu BIST gününün anlık altın fiyatı (alt zaman dilimi barlarından; ileriye bakmasız)
+[tArr, cArr] = request.security_lower_tf(goldSym, ltf, [time, close], ignore_invalid_symbol=true)
+tzI       = "Europe/Istanbul"
+isHalf    = str.contains(halfList, str.format_time(time, "yyyy-MM-dd", tzI))
+targetEnd = timestamp("UTC", year(time, tzI), month(time, tzI), dayofmonth(time, tzI), isHalf ? 9 : endH, isHalf ? 30 : endM, 0)
+ltfMs     = timeframe.in_seconds(ltf) * 1000
+float snapPx = na
+int snapEnd  = na
+nI = array.size(tArr)
+if nI > 0
+    for i = 0 to nI - 1
+        tEnd = array.get(tArr, i) + ltfMs
+        if tEnd <= targetEnd and tEnd >= targetEnd - maxStaleH * 3600000
+            snapPx  := array.get(cArr, i)
+            snapEnd := tEnd
+
+// ---------------- 2) önceki BIST gününe göre değişim (VİOP uzlaşma / önceki uzlaşma mantığı)
+var float lastPx = na
+float pxDay  = na(snapPx) ? lastPx : snapPx
+bool  stale  = na(snapPx) and not na(lastPx)
+float pxPrev = pxDay[1]
+float g = (not na(pxDay) and not na(pxPrev) and pxPrev > 0) ? math.log(pxDay / pxPrev) : na
+if barstate.isconfirmed and not na(pxDay)
+    lastPx := pxDay
+
+// ---------------- 3) σ = son `win` günlük değişimin örneklem std'si (bugün HARİÇ)
+var float[] gHist = array.new_float()
+float sigAuto = na
+mH = array.size(gHist)
+if mH >= minObs
+    k = math.min(mH, win)
+    float s1 = 0.0
+    float s2 = 0.0
+    for j = mH - k to mH - 1
+        v = array.get(gHist, j)
+        s1 += v
+        s2 += v * v
+    mu = s1 / k
+    sigAuto := math.sqrt(math.max((s2 - k * mu * mu) / (k - 1), 0.0))
+float sig = manSig > 0 ? manSig / 100.0 : sigAuto
+float z = (not na(g) and not na(sig) and sig > 0) ? g / sig : na
+if barstate.isconfirmed and not na(g)
+    array.push(gHist, g)
+    if array.size(gHist) > win + 5
+        array.shift(gHist)
+
+// ---------------- 4) kural: |z|>eşik -> yön(z); t uzlaşmasında gir, holdN gün sonra uzlaşmada çık; pozisyondayken yeni sinyal yok
+var int pos  = 0
+var int held = 0
+bool newEntry  = false
+bool exitToday = false
+bool contSame  = false
+if barstate.isconfirmed
+    int prevPos = pos
+    if pos != 0
+        held += 1
+        if held >= holdN
+            exitToday := true
+            pos  := 0
+            held := 0
+    if pos == 0 and not na(z) and math.abs(z) > thr and not isHalf
+        newEntry := true
+        pos  := z > 0 ? 1 : -1
+        held := 0
+        contSame := exitToday and prevPos == pos
+// canlı (henüz kapanmamış) bar için geçici sinyal
+int  heldRT  = pos != 0 ? held + 1 : 0
+bool exitsRT = pos != 0 and heldRT >= holdN
+bool provSig = not barstate.isconfirmed and (pos == 0 or exitsRT) and not na(z) and math.abs(z) > thr and not isHalf
+
+// ---------------- 5) hedge oranı: β(TRALT, XU030) 250g spot, dünkü değer; 1 XU030 kontratı başına N TRALT kontratı
+pTs     = request.security(sT, "D", close)
+pXs     = request.security(sX, "D", close)
+rT      = math.log(pTs / pTs[1])
+rX      = math.log(pXs / pXs[1])
+betaNow = ta.correlation(rT, rX, win) * ta.stdev(rT, win) / ta.stdev(rX, win)
+beta    = betaNow[1]
+pTf     = request.security(fT, "D", close)
+pXf     = request.security(fX, "D", close)
+nTralt  = (not na(beta) and beta > 0 and pTf > 0) ? math.round(10.0 * pXf / (beta * 100.0 * pTf)) : na
+
+// ---------------- 6) çizim
+zCol = na(z) ? color.gray : z > thr ? color.new(color.green, 0) : z < -thr ? color.new(color.red, 0) : color.new(color.gray, 40)
+plot(z, title="z", color=zCol, linewidth=2, style=plot.style_columns)
+hline(thr, "+eşik", color=color.green, linestyle=hline.style_dashed)
+hline(-thr, "-eşik", color=color.red, linestyle=hline.style_dashed)
+hline(0, "sıfır", color=color.gray, linestyle=hline.style_dotted)
+plotshape(newEntry and pos == 1, title="AL girişi (TRALT long / XU030 short)", style=shape.triangleup, location=location.bottom, color=color.green, size=size.small)
+plotshape(newEntry and pos == -1, title="SAT girişi (TRALT short / XU030 long)", style=shape.triangledown, location=location.top, color=color.red, size=size.small)
+plotshape(exitToday and not contSame, title="Çıkış (2. gün uzlaşması)", style=shape.xcross, location=location.bottom, color=color.orange, size=size.tiny)
+plotshape(provSig, title="Geçici sinyal (17:55'te teyit)", style=shape.diamond, location=location.bottom, color=color.yellow, size=size.small)
+bgcolor(pos == 1 ? color.new(color.green, 90) : pos == -1 ? color.new(color.red, 90) : na, title="Pozisyon")
+
+// ---------------- 7) bilgi tablosu (son bar)
+var table tb = table.new(position.top_right, 2, 10, border_width=1)
+f2(x) => na(x) ? "—" : str.tostring(x, "#.##")
+if barstate.islast
+    upT = pxPrev * math.exp(thr * sig)
+    dnT = pxPrev * math.exp(-thr * sig)
+    upN = pxDay * math.exp(thr * sig)
+    dnN = pxDay * math.exp(-thr * sig)
+    hh = na(snapEnd) ? "—" : str.tostring(hour(snapEnd, tzI)) + ":" + (minute(snapEnd, tzI) < 10 ? "0" : "") + str.tostring(minute(snapEnd, tzI))
+    table.cell(tb, 0, 0, "Altın (" + hh + " TSİ" + (stale ? ", bayat" : "") + ")", text_color=color.white, bgcolor=color.new(color.gray, 20))
+    table.cell(tb, 1, 0, str.tostring(pxDay, "#.0"), text_color=color.white, bgcolor=color.new(color.gray, 20))
+    table.cell(tb, 0, 1, "g bugün %", text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 1, 1, f2(g * 100), text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 0, 2, "σ % (" + (manSig > 0 ? "elle" : str.tostring(math.min(mH, win)) + " gün") + ")", text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 1, 2, f2(sig * 100), text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 0, 3, "z", text_color=color.white, bgcolor=zCol)
+    table.cell(tb, 1, 3, f2(z), text_color=color.white, bgcolor=zCol)
+    table.cell(tb, 0, 4, "Bugün tetik AL ≥ / SAT ≤", text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 1, 4, str.tostring(upT, "#.0") + " / " + str.tostring(dnT, "#.0"), text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 0, 5, "Yarın tetik (yaklaşık)", text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 1, 5, str.tostring(upN, "#.0") + " / " + str.tostring(dnN, "#.0"), text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 0, 6, "β (250g, dün)", text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 1, 6, str.tostring(beta, "#.###"), text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 0, 7, "1 XU030D başına TRALT", text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 1, 7, na(nTralt) ? "—" : str.tostring(nTralt, "#"), text_color=color.white, bgcolor=color.new(color.gray, 40))
+    posTxt = pos == 1 ? "LONG TRALT (" + str.tostring(held) + "/" + str.tostring(holdN) + ")" : pos == -1 ? "SHORT TRALT (" + str.tostring(held) + "/" + str.tostring(holdN) + ")" : "yok"
+    table.cell(tb, 0, 8, "Kural pozisyonu (dün kapanış)", text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 1, 8, posTxt, text_color=color.white, bgcolor=color.new(color.gray, 40))
+    table.cell(tb, 0, 9, "Geçici sinyal", text_color=color.white, bgcolor=provSig ? color.new(color.orange, 0) : color.new(color.gray, 40))
+    table.cell(tb, 1, 9, provSig ? (z > 0 ? "AL (17:55 teyit)" : "SAT (17:55 teyit)") : "yok", text_color=color.white, bgcolor=provSig ? color.new(color.orange, 0) : color.new(color.gray, 40))
+
+alertcondition(provSig, title="Altın sinyali (geçici)", message="TRALT<-Altın: |z| eşiği aştı (geçici). 17:50–17:55 arasında teyit edin, 18:00–18:10 uzlaşma penceresinde işlem.")

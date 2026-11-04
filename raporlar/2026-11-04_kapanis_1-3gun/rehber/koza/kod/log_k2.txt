@@ -1,0 +1,132 @@
+Taze Yahoo z3 ile araştırma z3 farkı: ortak gün 3973, maks |fark| 7.47e-06, sinyal uyumu 1.0000
+VİOP takvimi 2017-03-06 → 2026-11-03 | spot son 2026-11-03
+
+== P0 ANA: ilk sinyal, h2, aynı yönde uzat (≤6g), E0 uzlaşma 
+ n=143 (18.5/yıl), ort. tutma 2.69 gün, uzatılan %29, 6g sınırı 3, piyasada zaman %20, vade devri 8
+ brüt +57.9 bps (t 3.40), isabet 0.61, σ 203 | net8 +49.4, net15 +42.0, tik ort 7.0 -> net8+tik +42.4, net15+tik +35.0
+ IS(17–21) +69.8 (t 2.79, n 50) | OOS(22–26) +51.4 (t 2.29, n 93) | 2024–26 +30.5 (t 1.34, n 53; net15+tik +9.8)
+ 17–19 +119.1 (t 1.72) | 20–21 +48.7 (t 2.42) | 22–23 +79.2 (t 1.86)
+ en iyi 10 hariç +17.5 (t 1.49) | en kötü -463 (2023-01-09), en iyi +985 | maks düşüş (işlem toplamı) net8 -763 bps, net15+tik -791 bps
+ yıllar: 19:+119(n15.0) 20:+28(n19.0) 21:+73(n16.0) 22:+59(n20.0) 23:+99(n20.0) 24:+54(n19.0) 25:+33(n18.0) 26:-1(n16.0) (pozitif 7/8)
+
+== P0L: P0 + kilitli günde giriş yok 
+ n=141 (18.3/yıl), ort. tutma 2.65 gün, uzatılan %27, 6g sınırı 3, piyasada zaman %19, vade devri 8
+ brüt +51.7 bps (t 3.00), isabet 0.57, σ 205 | net8 +43.2, net15 +35.8, tik ort 7.0 -> net8+tik +36.2, net15+tik +28.8
+ IS(17–21) +61.0 (t 2.40, n 49) | OOS(22–26) +46.7 (t 2.05, n 92) | 2024–26 +21.7 (t 0.93, n 52; net15+tik +1.0)
+ 17–19 +104.4 (t 1.53) | 20–21 +41.9 (t 1.99) | 22–23 +79.2 (t 1.86)
+ en iyi 10 hariç +10.2 (t 0.87) | en kötü -463 (2023-01-09), en iyi +985 | maks düşüş (işlem toplamı) net8 -763 bps, net15+tik -791 bps
+ yıllar: 19:+104(n15.0) 20:+26(n18.0) 21:+60(n16.0) 22:+59(n20.0) 23:+99(n20.0) 24:+50(n18.0) 25:+23(n18.0) 26:-11(n16.0) (pozitif 7/8)
+
+== P1: örtüşmesiz sabit h2 (uzatmasız) 
+ n=145 (18.8/yıl), ort. tutma 2.00 gün, uzatılan %0, 6g sınırı 42, piyasada zaman %15, vade devri 0
+ brüt +33.4 bps (t 2.94), isabet 0.61, σ 137 | net8 +25.4, net15 +18.4, tik ort 6.7 -> net8+tik +18.7, net15+tik +11.7
+ IS(17–21) +41.5 (t 2.62, n 50) | OOS(22–26) +29.2 (t 1.91, n 95) | 2024–26 +22.9 (t 1.15, n 54; net15+tik +3.3)
+ 17–19 +42.3 (t 1.35) | 20–21 +41.2 (t 2.22) | 22–23 +37.4 (t 1.56)
+ en iyi 10 hariç +13.2 (t 1.34) | en kötü -416 (2022-12-30), en iyi +520 | maks düşüş (işlem toplamı) net8 -694 bps, net15+tik -1083 bps
+ yıllar: 19:+42(n15.0) 20:+25(n19.0) 21:+60(n16.0) 22:+18(n20.0) 23:+56(n21.0) 24:+35(n20.0) 25:+22(n18.0) 26:+8(n16.0) (pozitif 8/8)
+
+== P1b: örtüşmesiz sabit h3 (bilgi) 
+ n=142 (18.4/yıl), ort. tutma 3.00 gün, uzatılan %100, 6g sınırı 14, piyasada zaman %22, vade devri 0
+ brüt +47.2 bps (t 2.99), isabet 0.65, σ 188 | net8 +39.2, net15 +32.2, tik ort 6.8 -> net8+tik +32.5, net15+tik +25.5
+ IS(17–21) +52.4 (t 2.22, n 49) | OOS(22–26) +44.5 (t 2.15, n 93) | 2024–26 +42.5 (t 1.70, n 53; net15+tik +22.9)
+ 17–19 +21.8 (t 0.42) | 20–21 +66.0 (t 2.57) | 22–23 +47.2 (t 1.34)
+ en iyi 10 hariç +17.7 (t 1.30) | en kötü -455 (2022-12-30), en iyi +732 | maks düşüş (işlem toplamı) net8 -1037 bps, net15+tik -1100 bps
+ yıllar: 19:+22(n15.0) 20:+23(n19.0) 21:+120(n15.0) 22:+22(n20.0) 23:+72(n20.0) 24:+53(n19.0) 25:+39(n18.0) 26:+34(n16.0) (pozitif 8/8)
+
+== P2 GECİKMELİ: dünkü kapanış sinyali, bugün uzlaşmada giriş (uzatmalı) 
+ n=143 (18.5/yıl), ort. tutma 2.69 gün, uzatılan %29, 6g sınırı 3, piyasada zaman %20, vade devri 9
+ brüt +38.8 bps (t 2.30), isabet 0.57, σ 202 | net8 +30.3, net15 +22.9, tik ort 7.1 -> net8+tik +23.2, net15+tik +15.8
+ IS(17–21) +47.4 (t 1.61, n 49) | OOS(22–26) +34.4 (t 1.65, n 94) | 2024–26 +26.8 (t 1.15, n 53; net15+tik +5.4)
+ 17–19 +64.7 (t 0.79) | 20–21 +39.7 (t 1.69) | 22–23 +44.2 (t 1.19)
+ en iyi 10 hariç +4.8 (t 0.34) | en kötü -694 (2023-01-10), en iyi +897 | maks düşüş (işlem toplamı) net8 -1117 bps, net15+tik -1240 bps
+ yıllar: 19:+65(n15.0) 20:+9(n19.0) 21:+79(n15.0) 22:+27(n20.0) 23:+61(n21.0) 24:+20(n19.0) 25:+45(n18.0) 26:+14(n16.0) (pozitif 8/8)
+
+== P2b: gecikmeli, sabit h2 
+ n=145 (18.8/yıl), ort. tutma 2.00 gün, uzatılan %0, 6g sınırı 42, piyasada zaman %15, vade devri 0
+ brüt +22.9 bps (t 1.67), isabet 0.58, σ 165 | net8 +14.9, net15 +7.9, tik ort 6.8 -> net8+tik +8.1, net15+tik +1.1
+ IS(17–21) +21.5 (t 1.00, n 49) | OOS(22–26) +23.6 (t 1.34, n 96) | 2024–26 +20.7 (t 0.94, n 54; net15+tik +1.2)
+ 17–19 -9.7 (t -0.20) | 20–21 +35.2 (t 1.55) | 22–23 +27.3 (t 0.95)
+ en iyi 10 hariç -0.5 (t -0.04) | en kötü -459 (2024-10-01), en iyi +512 | maks düşüş (işlem toplamı) net8 -1030 bps, net15+tik -1303 bps
+ yıllar: 19:-10(n15.0) 20:+10(n19.0) 21:+67(n15.0) 22:+31(n20.0) 23:+24(n22.0) 24:+6(n20.0) 25:+36(n18.0) 26:+23(n16.0) (pozitif 7/8)
+
+== TERS P0: TRALT artığı, TRALT1! − β·TRMET1! (uzatmalı) 
+ n=128 (16.8/yıl), ort. tutma 2.77 gün, uzatılan %31, 6g sınırı 3, piyasada zaman %19, vade devri 6
+ brüt +47.4 bps (t 2.37), isabet 0.60, σ 226 | net8 +39.0, net15 +31.7, tik ort 6.5 -> net8+tik +32.5, net15+tik +25.2
+ IS(17–21) +38.1 (t 1.43, n 45) | OOS(22–26) +52.4 (t 1.92, n 83) | 2024–26 +34.5 (t 0.91, n 48; net15+tik +13.4)
+ 17–19 +36.2 (t 0.71) | 20–21 +39.2 (t 1.26) | 22–23 +77.0 (t 1.98)
+ en iyi 10 hariç +0.3 (t 0.02) | en kötü -514 (2022-12-30), en iyi +1128 | maks düşüş (işlem toplamı) net8 -1141 bps, net15+tik -1366 bps
+ yıllar: 19:+36(n16.0) 20:+87(n13.0) 21:+0(n16.0) 22:+109(n21.0) 23:+28(n14.0) 24:+21(n18.0) 25:+79(n20.0) 26:-31(n10.0) (pozitif 7/8)
+
+== TERS P1: sabit h2 
+ n=134 (17.6/yıl), ort. tutma 2.00 gün, uzatılan %0, 6g sınırı 41, piyasada zaman %14, vade devri 0
+ brüt +37.3 bps (t 2.59), isabet 0.63, σ 167 | net8 +29.3, net15 +22.3, tik ort 6.2 -> net8+tik +23.1, net15+tik +16.1
+ IS(17–21) +22.9 (t 1.27, n 47) | OOS(22–26) +45.2 (t 2.26, n 87) | 2024–26 +24.4 (t 0.91, n 50; net15+tik +4.3)
+ 17–19 +13.5 (t 0.36) | 20–21 +28.2 (t 1.51) | 22–23 +73.1 (t 2.46)
+ en iyi 10 hariç +9.8 (t 0.78) | en kötü -514 (2022-12-30), en iyi +560 | maks düşüş (işlem toplamı) net8 -688 bps, net15+tik -788 bps
+ yıllar: 19:+14(n17.0) 20:+69(n13.0) 21:-3(n17.0) 22:+93(n22.0) 23:+44(n15.0) 24:+37(n18.0) 25:+45(n22.0) 26:-42(n10.0) (pozitif 6/8)
+
+== TERS P2: gecikmeli 
+ n=128 (16.8/yıl), ort. tutma 2.77 gün, uzatılan %31, 6g sınırı 3, piyasada zaman %19, vade devri 6
+ brüt +19.9 bps (t 1.16), isabet 0.48, σ 195 | net8 +11.5, net15 +4.2, tik ort 6.5 -> net8+tik +5.0, net15+tik -2.3
+ IS(17–21) +5.0 (t 0.20, n 44) | OOS(22–26) +27.7 (t 1.22, n 84) | 2024–26 +20.1 (t 0.64, n 48; net15+tik -0.4)
+ 17–19 +30.4 (t 0.76) | 20–21 -9.4 (t -0.29) | 22–23 +37.7 (t 1.14)
+ en iyi 10 hariç -17.8 (t -1.44) | en kötü -419 (2021-02-09), en iyi +1021 | maks düşüş (işlem toplamı) net8 -1543 bps, net15+tik -1846 bps
+ yıllar: 19:+30(n16.0) 20:+37(n13.0) 21:-50(n15.0) 22:+83(n21.0) 23:-25(n15.0) 24:-18(n18.0) 25:+67(n20.0) 26:-7(n10.0) (pozitif 4/8)
+
+== P0 eşik 1.25 (bilgi) 
+ n=197 (25.2/yıl), ort. tutma 2.88 gün, uzatılan %37, 6g sınırı 5, piyasada zaman %29, vade devri 9
+ brüt +53.4 bps (t 3.70), isabet 0.58, σ 203 | net8 +45.0, net15 +37.7, tik ort 7.0 -> net8+tik +38.0, net15+tik +30.7
+ IS(17–21) +57.2 (t 2.96, n 77) | OOS(22–26) +50.9 (t 2.51, n 120) | 2024–26 +37.0 (t 1.59, n 70; net15+tik +16.5)
+ 17–19 +110.2 (t 2.01) | 20–21 +38.6 (t 2.21) | 22–23 +70.3 (t 1.94)
+ en iyi 10 hariç +21.1 (t 1.97) | en kötü -463 (2023-01-09), en iyi +985 | maks düşüş (işlem toplamı) net8 -1593 bps, net15+tik -1820 bps
+ yıllar: 18:+141(n2.0) 19:+107(n18.0) 20:+29(n28.0) 21:+48(n29.0) 22:+37(n26.0) 23:+106(n24.0) 24:+81(n21.0) 25:+62(n24.0) 26:-24(n25.0) (pozitif 8/9)
+
+== P0 eşik 1.75 (bilgi) 
+ n=98 (12.7/yıl), ort. tutma 2.59 gün, uzatılan %23, 6g sınırı 0, piyasada zaman %13, vade devri 3
+ brüt +48.9 bps (t 2.49), isabet 0.61, σ 194 | net8 +40.7, net15 +33.4, tik ort 7.0 -> net8+tik +33.6, net15+tik +26.4
+ IS(17–21) +71.4 (t 2.14, n 36) | OOS(22–26) +35.8 (t 1.47, n 62) | 2024–26 +60.4 (t 1.83, n 31; net15+tik +39.2)
+ 17–19 +169.4 (t 1.54) | 20–21 +38.8 (t 1.59) | 22–23 +11.2 (t 0.31)
+ en iyi 10 hariç +3.0 (t 0.21) | en kötü -463 (2023-01-09), en iyi +891 | maks düşüş (işlem toplamı) net8 -1047 bps, net15+tik -1150 bps
+ yıllar: 19:+169(n9.0) 20:-1(n14.0) 21:+81(n13.0) 22:-5(n16.0) 23:+28(n15.0) 24:+100(n13.0) 25:+42(n13.0) 26:+6(n5.0) (pozitif 6/8)
+
+== P0 eşik 2.0 (bilgi) 
+ n=69 (9.4/yıl), ort. tutma 2.52 gün, uzatılan %23, 6g sınırı 0, piyasada zaman %9, vade devri 2
+ brüt +62.9 bps (t 2.68), isabet 0.67, σ 195 | net8 +54.7, net15 +47.5, tik ort 6.6 -> net8+tik +48.1, net15+tik +40.9
+ IS(17–21) +98.5 (t 2.31, n 23) | OOS(22–26) +45.2 (t 1.62, n 46) | 2024–26 +53.5 (t 1.60, n 25; net15+tik +32.1)
+ 17–19 +187.3 (t 1.33) | 20–21 +67.1 (t 2.14) | 22–23 +35.3 (t 0.74)
+ en iyi 10 hariç +3.9 (t 0.23) | en kötü -463 (2023-01-09), en iyi +699 | maks düşüş (işlem toplamı) net8 -524 bps, net15+tik -650 bps
+ yıllar: 19:+187(n6.0) 20:-2(n8.0) 21:+128(n9.0) 22:+32(n9.0) 23:+38(n12.0) 24:+112(n10.0) 25:+43(n10.0) 26:-42(n5.0) (pozitif 6/8)
+
+Güncel: β_TA 0.690, TRMET1! 102.35, TRALT1! 34.94 -> 1 çift = 1 TRMET + 2 TRALT, brüt nominal 17,223 TL (gerçek oran 0.68)
+  P0 ANA: ilk sinyal, h2, aynı yönde uzat : işlem başı brüt +100 TL, net15+tik +60 TL / çift; yılda 18.5 işlem -> yıllık ≈ +1116 TL / çift
+  P0L: P0 + kilitli günde giriş yok       : işlem başı brüt +89 TL, net15+tik +50 TL / çift; yılda 18.3 işlem -> yıllık ≈ +905 TL / çift
+  P1: örtüşmesiz sabit h2 (uzatmasız)     : işlem başı brüt +58 TL, net15+tik +20 TL / çift; yılda 18.8 işlem -> yıllık ≈ +378 TL / çift
+  P2 GECİKMELİ: dünkü kapanış sinyali, bug: işlem başı brüt +67 TL, net15+tik +27 TL / çift; yılda 18.5 işlem -> yıllık ≈ +503 TL / çift
+  TERS P0: TRALT artığı, TRALT1! − β·TRMET: işlem başı brüt +82 TL, net15+tik +43 TL / çift; yılda 16.8 işlem -> yıllık ≈ +728 TL / çift
+
+P0 en kötü 5:
+      entry       exit  days  side  beta     z   gross  net15t  nroll
+2023-01-09 2023-01-13     4  -1.0  0.82 -2.24 -462.71 -480.16      0
+2022-12-30 2023-01-03     2   1.0  0.83  1.68 -415.89 -433.01      0
+2024-09-30 2024-10-02     2   1.0  0.91  1.52 -288.39 -308.82      0
+2025-05-30 2025-06-03     2   1.0  0.76  1.95 -278.15 -298.09      0
+2020-08-05 2020-08-07     2   1.0  0.96  1.87 -222.40 -245.56      0
+P0 en iyi 5:
+      entry       exit  days  side  beta     z  gross  net15t  nroll
+2023-01-13 2023-01-23     6   1.0  0.81  1.64 985.05  967.58      0
+2019-05-10 2019-05-20     6   1.0  0.85  1.66 886.03  850.42      0
+2022-12-22 2022-12-28     4  -1.0  0.88 -2.01 603.11  586.01      0
+2023-08-24 2023-09-04     6   1.0  0.79  1.73 599.40  558.78      1
+2022-11-11 2022-11-17     4  -1.0  0.99 -1.56 596.93  578.77      0
+P0 son 8:
+      entry       exit  days  side  beta     z  gross  net15t  nroll
+2026-04-08 2026-04-10     2   1.0  0.61  1.70 104.37   86.72      0
+2026-04-30 2026-05-05     2  -1.0  0.61 -1.51  18.82    1.02      0
+2026-05-20 2026-05-22     2  -1.0  0.61 -1.79  89.74   71.98      0
+2026-06-11 2026-06-15     2  -1.0  0.65 -1.69   9.83   -8.11      0
+2026-06-23 2026-06-25     2  -1.0  0.65 -1.68 -35.92  -53.58      0
+2026-06-26 2026-06-30     2   1.0  0.64  1.62  30.14   12.47      0
+2026-07-23 2026-07-29     4   1.0  0.64  2.51  40.30   22.86      0
+2026-09-23 2026-09-25     2   1.0  0.65  2.40  65.11   47.68      0
+
+Sinyal günü 359; P0 işlem 175; P0 giriş günleri 1.00 sinyal günü

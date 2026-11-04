@@ -1,0 +1,36 @@
+Koza göreli momentum sinyali — çalıştırma 2026-11-04 12:12 TSİ
+Kaynak: Yahoo Finance v8 chart (günlük, adjclose). Son tamamlanmış barlar:
+  TRMET  son tarih 2026-11-03  kapanış 100.00  (Yahoo regularMarketPrice 108.1, zaman 2026-11-04 11:57)
+  TRALT  son tarih 2026-11-03  kapanış 34.18  (Yahoo regularMarketPrice 36.78, zaman 2026-11-04 11:57)
+  TRENJ  son tarih 2026-11-03  kapanış 69.05  (Yahoo regularMarketPrice 73.2, zaman 2026-11-04 11:57)
+  XU030  son tarih 2026-11-03  kapanış 13,754.50  (Yahoo regularMarketPrice 14157.23, zaman 2026-11-04 11:57)
+  CANLI fiyatlar bugüne (2026-11-04) eklendi: {'TRMET': 108.1, 'TRALT': 36.78, 'TRENJ': 73.25}  -> sinyal "17:50–17:55 fiyatıyla" yaklaşık; uzlaşmada kesinleşmez.
+
+Kural: ANA — TRMET artığı; sinyal tarihi 2026-11-04
+  u_t +196 bps | Σ3u +526 bps | σ60 195 bps | z3 = +1.55 (eşik ±1.5)
+  β_g 0.88 | β_TRMET–TRALT (hedge) 0.69
+  SİNYAL: TRMET1! AL + TRALT1! SAT (β=0.69)
+
+Boyut (sermaye 1,000,000 TL, risk %0.75, işlem σ≈%2.05): hedef brüt nominal 365,854 TL
+  20 x TRMET1!  (~216,200 TL)  ve  41 x TRALT1!  (~150,798 TL)  -> oran 1 : 2.03 ; gerçekleşen nominal oranı 0.70
+  Teminat kaba tahmin (%15, iki bacak, netleştirme yok): 55,050 TL. Fiyat: spot kapanış (vadeli fiyatı aracı kurumdan alın).
+
+Bir sonraki kapanış için yaklaşık tetik (σ60 sabit varsayımı): yarının artığı u = r_TRMET − 0.88·ort(r_TRALT, r_TRENJ)
+  z3 > +1.5 için u ≥ +171 bps ; z3 < −1.5 için u ≤ -844 bps
+  TRALT ve TRENJ yatay kalırsa TRMET kapanışı: AL tetiği ≥ 109.97 ; SAT tetiği ≤ 99.35 (son kapanış 108.10)
+
+Pratik kuralın son işlemleri (spot verisiyle yeniden oynatma; VİOP kilidi için spot ±%9,5 vekili):
+  giriş 2026-06-23 yön −TRM z -1.68 β 0.65 -> çıkış 2026-06-25 (2 gün, uzatma 0)
+  giriş 2026-06-26 yön +TRM z +1.62 β 0.64 -> çıkış 2026-06-30 (2 gün, uzatma 0)
+  giriş 2026-07-24 yön +TRM z +3.31 β 0.65 -> çıkış 2026-07-30 (4 gün, uzatma 1)
+  giriş 2026-09-23 yön +TRM z +2.40 β 0.65 -> çıkış 2026-09-25 (2 gün, uzatma 0)
+  AÇIK POZİSYON: giriş 2026-11-04 yön TRMET AL / TRALT SAT (β 0.69); planlanan çıkış uzlaşması: 2. sonraki iş günü; çıkış günü sinyal aynı yöndeyse 2 gün uzat (≤6 gün)
+
+Son 4 gün:
+            r_TRMET  r_TRALT  r_TRENJ  u(bps)    z3   β_g  β_hedge
+2026-10-30 -1053.60 -1047.43  -983.03 -166.80  0.38  0.87     0.68
+2026-11-02   502.83   516.94   195.87  189.87  0.11  0.88     0.69
+2026-11-03   110.61    11.71   -79.34  140.38  0.49  0.88     0.69
+2026-11-04   778.87   733.14   590.47  196.08  1.55  0.88     0.69
+
+UYARI: araştırma sinyali kapanış verisiyle; --canli ile 17:50–17:55 fiyatı kullanıldığında sinyal günlerinin %94–100'ü aynı çıktı (2025-11 → 2026-11), tam geçmiş benzetimde işlem başı ≈ −4 bps fark. Yatırım tavsiyesi değildir.

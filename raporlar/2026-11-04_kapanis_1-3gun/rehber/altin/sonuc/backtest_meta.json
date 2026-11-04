@@ -1,0 +1,134 @@
+{
+ "now": {
+  "date": "2026-11-03",
+  "code_T": "F_TRALT1126",
+  "code_X": "F_XU0301226",
+  "TRALT": 34.94,
+  "XU030": 14412.0,
+  "beta_spot": 1.286036038275951,
+  "beta_fut": 1.174558291490453,
+  "NT": 32,
+  "notional_T": 111808.0,
+  "notional_X": 144120.0,
+  "sd_trade_bps_all": 331.0,
+  "sd_trade_bps_2024": 359.0,
+  "sd_trade_TL_unit": 4019.0,
+  "mean_net_TL_unit": 397.0,
+  "worst_TL_unit": -15749.0,
+  "maxdd_bps": -4196.0,
+  "maxdd_TL_unit": -46915.0,
+  "p5_bps": -454.0,
+  "p5_TL_unit": -5076.0
+ },
+ "agree": {
+  "V18_1800": {
+   "n_gun": 546,
+   "corr": 0.977,
+   "n_sinyal_ref": 170,
+   "n_sinyal_alt": 178,
+   "ikisinde": 155,
+   "ters_isaret": 0,
+   "isaret_uyumu_refsinyal": 1.0
+  },
+  "V18_ham_yahoo": {
+   "n_gun": 546,
+   "corr": 0.968,
+   "n_sinyal_ref": 170,
+   "n_sinyal_alt": 184,
+   "ikisinde": 155,
+   "ters_isaret": 0,
+   "isaret_uyumu_refsinyal": 1.0
+  },
+  "V17_1700": {
+   "n_gun": 546,
+   "corr": 0.895,
+   "n_sinyal_ref": 170,
+   "n_sinyal_alt": 195,
+   "ikisinde": 137,
+   "ters_isaret": 0,
+   "isaret_uyumu_refsinyal": 0.994
+  },
+  "V18_sigmaGC": {
+   "n_gun": 546,
+   "corr": 0.976,
+   "n_sinyal_ref": 170,
+   "n_sinyal_alt": 152,
+   "ikisinde": 142,
+   "ters_isaret": 0,
+   "isaret_uyumu_refsinyal": 1.0
+  },
+  "V18_sigmaBetik": {
+   "n_gun": 546,
+   "corr": 0.976,
+   "n_sinyal_ref": 170,
+   "n_sinyal_alt": 172,
+   "ikisinde": 153,
+   "ters_isaret": 0,
+   "isaret_uyumu_refsinyal": 1.0
+  },
+  "m5_1755": {
+   "n_gun": 46,
+   "corr": 0.99,
+   "n_sinyal_ref": 6,
+   "n_sinyal_alt": 6,
+   "ikisinde": 6,
+   "ters_isaret": 0,
+   "isaret_uyumu_refsinyal": 1.0
+  },
+  "m5_1745": {
+   "n_gun": 46,
+   "corr": 0.983,
+   "n_sinyal_ref": 6,
+   "n_sinyal_alt": 6,
+   "ikisinde": 5,
+   "ters_isaret": 0,
+   "isaret_uyumu_refsinyal": 1.0
+  }
+ },
+ "roll_flags18": [
+  [
+   "2024-07-30",
+   208.6
+  ],
+  [
+   "2024-11-27",
+   120.4
+  ],
+  [
+   "2025-01-30",
+   106.6
+  ],
+  [
+   "2025-03-28",
+   51.7
+  ],
+  [
+   "2025-05-29",
+   51.6
+  ],
+  [
+   "2025-07-30",
+   176.5
+  ],
+  [
+   "2025-11-25",
+   99.9
+  ],
+  [
+   "2026-01-28",
+   92.2
+  ],
+  [
+   "2026-03-27",
+   65.3
+  ],
+  [
+   "2026-06-01",
+   81.3
+  ],
+  [
+   "2026-07-29",
+   145.8
+  ]
+ ]
+}

@@ -1,0 +1,13 @@
+h1 | yalnız altın                             n=1865 | z_altin: b=+17.3 t=+3.05
+h1 | altın + TRALT kendi (hedge'li) + XU030   n=1761 | z_altin: b=+15.8 t=+2.58 ; z_TRALT_kendi: b=+2.1 t=+0.31 ; z_XU030: b=+10.7 t=+1.50
+h1 | yalnız TRALT kendi                       n=1761 | z_TRALT_kendi: b=+6.4 t=+0.97
+h1 | altın + altın(t-1) + kendi(t-1)          n=1758 | z_altin: b=+16.7 t=+2.71 ; z_altin_t1: b=+9.2 t=+1.46 ; z_TRALT_kendi: b=+1.2 t=+0.17 ; kendi_t1: b=+1.0 t=+0.15
+h2 | yalnız altın                             n=1861 | z_altin: b=+27.6 t=+3.41
+h2 | altın + TRALT kendi (hedge'li) + XU030   n=1758 | z_altin: b=+25.1 t=+2.84 ; z_TRALT_kendi: b=+2.8 t=+0.29 ; z_XU030: b=+17.9 t=+1.81
+h2 | yalnız TRALT kendi                       n=1758 | z_TRALT_kendi: b=+9.6 t=+1.04
+h2 | altın + altın(t-1) + kendi(t-1)          n=1755 | z_altin: b=+26.8 t=+3.07 ; z_altin_t1: b=+6.6 t=+0.71 ; z_TRALT_kendi: b=+1.5 t=+0.16 ; kendi_t1: b=+8.5 t=+0.76
+h3 | yalnız altın                             n=1858 | z_altin: b=+28.9 t=+2.88
+h3 | altın + TRALT kendi (hedge'li) + XU030   n=1755 | z_altin: b=+21.7 t=+2.01 ; z_TRALT_kendi: b=+10.1 t=+0.79 ; z_XU030: b=+31.7 t=+2.57
+h3 | yalnız TRALT kendi                       n=1755 | z_TRALT_kendi: b=+16.4 t=+1.30
+h3 | altın + altın(t-1) + kendi(t-1)          n=1752 | z_altin: b=+24.7 t=+2.32 ; z_altin_t1: b=-4.6 t=-0.43 ; z_TRALT_kendi: b=+9.7 t=+0.77 ; kendi_t1: b=+3.4 t=+0.26
+aynı gün corr(z_altin, z_TRALT_kendi) 0.252

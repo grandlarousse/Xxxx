@@ -1,0 +1,27 @@
+==============================================================================
+TRALT <- ALTIN sinyali | çalışma zamanı 2026-11-04 09:46 UTC (12:46 TSİ)
+==============================================================================
+Kaynak: Yahoo Finance. Altın kontratı: GCZ26.CMX (Gold Dec 26); 5 dk son bar 2026-11-04 09:35 UTC; canlı fiyat 4.053,9 @ 2026-11-04 09:36 UTC (10 dk önce; Yahoo COMEX verisi ~10 dk gecikmeli olabilir)
+        σ için GC=F 60 dk: 2024-06-13 → 2026-11-04 09:00 UTC; XU030.IS son gün 2026-11-04, TRALT.IS son gün 2026-11-04
+------------------------------------------------------------------------------
+  geçmiş    2026-10-28: altın 17:55 = 4.054,4 (önceki BIST günü 2026-10-27: 4.066,5) | g = -0,30% | σ = 1,69% | z = -0,18 -> sinyal yok
+  geçmiş    2026-10-30: altın 17:55 = 3.923,8 (önceki BIST günü 2026-10-28: 4.054,4) | g = -3,27% | σ = 1,69% | z = -1,94 -> SAT (TRALT short / XU030 long)
+  geçmiş    2026-11-02: altın 17:55 = 3.975,6 (önceki BIST günü 2026-10-30: 3.923,8) | g = 1,31% | σ = 1,70% | z = 0,77 -> sinyal yok
+SON KAPANIŞ 2026-11-03: altın 17:55 = 3.954,8 (önceki BIST günü 2026-11-02: 3.975,6) | g = -0,52% | σ = 1,70% | z = -0,31 -> sinyal yok
+BUGÜN(GEÇİCİ, canlı fiyat) 2026-11-04: altın 17:55 = 4.053,9 (önceki BIST günü 2026-11-03: 3.954,8) | g = 2,47% | σ = 1,70% | z = 1,45 -> AL (TRALT long / XU030 short)
+            -> Kesin karar 17:55 TSİ fiyatıyla verilir; betiği 17:50–17:55 arasında yeniden çalıştırın.
+------------------------------------------------------------------------------
+Açık pozisyon yok. Son işlem: SHORT TRALT, giriş 2026-10-30, çıkış 2026-11-03.
+Son işlemler: 09-14-→09-16; 09-28-→09-30; 10-14-→10-16; 10-30-→11-03
+------------------------------------------------------------------------------
+BUGÜN (2026-11-04) 17:55 TETİĞİ: referans 2026-11-03 17:55 = 3.954,8, σ = 1,70% -> altın >= 4.022,7 AL ; <= 3.888,0 SAT
+BİR SONRAKİ BIST GÜNÜ İÇİN YAKLAŞIK TETİK (referans = bugünkü canlı fiyat (17:55'te güncelleyin) 4.053,9, σ ≈ 1,71%): 17:55'te altın >= 4.123,7 -> AL ; <= 3.985,3 -> SAT
+   Not: TVC:GOLD / OANDA:XAUUSD spot fiyatı COMEX vadelisinden ~%0,3–1 düşüktür; SEVİYE değil YÜZDE değişimi karşılaştırın: eşik ±1,71%.
+------------------------------------------------------------------------------
+KULLANILACAK KONTRATLAR (vadeye >= 3 iş günü): VİOP F_TRALT1126 ve F_XU0301226 (TradingView: BIST:TRALTX2026, BIST:XU030DZ2026); bu ay kalan iş günü (tatiller hariç değil) = 18
+KONTRAT ORANI: β(TRALT,XU030; 250g spot) = 1,286 | fiyatlar TRALT 37,22, XU030 14.292 (Yahoo spot; vadeli fiyatı ~%1–5 farklı)
+   1 BİRİM = 1 XU030D kontratı (142.916 TL) + 30 TRALT kontratı (111.660 TL); β_etkin = 1,280
+   1 birimin 1σ 2 günlük hedge'li riski ≈ 5,01% × 111.660 = 5.594 TL; teminat ≈ 32.470 TL (%15/%11 varsayımı)
+   Sermaye 1.000.000 TL, risk %0,75 -> 1 birim = 1 XU030 + 30 TRALT kontratı
+BUGÜNKÜ EMİR (GEÇİCİ — 17:50–17:55 fiyatıyla teyit edin): TRALT AL / XU030 SAT: 30 TRALT + 1 XU030D, 18:00–18:10 arasında (açık pozisyon yoksa; aynı yönde açık pozisyon bugün kapanacaksa KAPATMAYIN, 2 gün daha taşıyın).
+==============================================================================

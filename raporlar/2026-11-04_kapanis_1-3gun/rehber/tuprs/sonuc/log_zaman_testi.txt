@@ -1,0 +1,7 @@
+n 85 dönem 2024-04-03 2026-10-27
+viop ort brüt bps 40.9 t 0.94
+spot_kap ort brüt bps 37.0 t 0.83
+spot_1800 ort brüt bps 36.8 t 0.84
+spot_1730 ort brüt bps 39.8 t 0.91
+fark (18:00 öncesi - kapanış) ort -0.2 std 51.9
+işaret uyumu viop vs spot_1800 0.941

@@ -1,0 +1,4 @@
+günlük betik (canlı Yahoo, 6 yıl)      ortak 290/300 | yalnız birinde dolu  0 | maks|Δz| 6.71e-06 | sinyal eşleşme 100.0% (tüm 300 gün, boş=0: 100.0%)
+araştırma cl.py (eski veri, -30.10)    ortak 287/300 | yalnız birinde dolu  3 | maks|Δz| 5.72e-06 | sinyal eşleşme 100.0% (tüm 300 gün, boş=0: 99.7%)
+araştırma z (kaydedilmiş)              ortak 287/300 | yalnız birinde dolu  3 | maks|Δz| 5.72e-06 | sinyal eşleşme 100.0% (tüm 300 gün, boş=0: 99.7%)
+kurucu cl_t.signal_z (yeni veri)       ortak 289/300 | yalnız birinde dolu  1 | maks|Δz| 5.91e-06 | sinyal eşleşme 100.0% (tüm 300 gün, boş=0: 100.0%)

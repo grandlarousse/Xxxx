@@ -1,0 +1,6 @@
+eşleme a | 2019-01-01+ : ortak 1899, maks|Δz| 1.16e-04, yalnız birinde boş 0, sinyal eşleşme 100.00%
+eşleme a | 2024-01-01+ : ortak 686, maks|Δz| 3.46e-14, yalnız birinde boş 0, sinyal eşleşme 100.00%
+   son 5 z: {Timestamp('2026-10-28 00:00:00'): -3.16, Timestamp('2026-10-30 00:00:00'): 0.272, Timestamp('2026-11-02 00:00:00'): 0.935, Timestamp('2026-11-03 00:00:00'): -1.469, Timestamp('2026-11-04 00:00:00'): 0.377} | son olaylar: [('2026-10-23', ('AC', -1)), ('2026-10-27', ('CEVIR', 1)), ('2026-10-30', ('KAPAT', 0)), ('2026-11-03', ('AC', -1))]
+eşleme b | 2019-01-01+ : ortak 1899, maks|Δz| 1.16e-04, yalnız birinde boş 0, sinyal eşleşme 100.00%
+eşleme b | 2024-01-01+ : ortak 686, maks|Δz| 3.46e-14, yalnız birinde boş 0, sinyal eşleşme 100.00%
+   son 5 z: {Timestamp('2026-10-28 00:00:00'): -3.16, Timestamp('2026-10-30 00:00:00'): 0.272, Timestamp('2026-11-02 00:00:00'): 0.935, Timestamp('2026-11-03 00:00:00'): -1.469, Timestamp('2026-11-04 00:00:00'): 0.377} | son olaylar: [('2026-10-23', ('AC', -1)), ('2026-10-27', ('CEVIR', 1)), ('2026-10-30', ('KAPAT', 0)), ('2026-11-03', ('AC', -1))]

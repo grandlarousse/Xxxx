@@ -1,0 +1,40 @@
+Koza göreli momentum sinyali — çalıştırma 2026-11-04 12:14 TSİ
+Kaynak: Yahoo Finance v8 chart (günlük, adjclose). Son tamamlanmış barlar:
+  TRMET  son tarih 2026-11-03  kapanış 100.00  (Yahoo regularMarketPrice 108.0, zaman 2026-11-04 11:59)
+  TRALT  son tarih 2026-11-03  kapanış 34.18  (Yahoo regularMarketPrice 36.86, zaman 2026-11-04 11:59)
+  TRENJ  son tarih 2026-11-03  kapanış 69.05  (Yahoo regularMarketPrice 73.25, zaman 2026-11-04 11:58)
+  XU030  son tarih 2026-11-03  kapanış 13,754.50  (Yahoo regularMarketPrice 14152.7, zaman 2026-11-04 11:59)
+
+Kural: ANA — TRMET artığı; sinyal tarihi 2026-11-03
+  u_t +140 bps | Σ3u +163 bps | σ60 194 bps | z3 = +0.49 (eşik ±1.5)
+  β_g 0.88 | β_TRMET–TRALT (hedge) 0.69
+  SİNYAL: YOK
+
+Boyut (sermaye 1,000,000 TL, risk %0.75, işlem σ≈%2.05): hedef brüt nominal 365,854 TL
+  22 x TRMET1!  (~220,000 TL)  ve  44 x TRALT1!  (~150,392 TL)  -> oran 1 : 2.02 ; gerçekleşen nominal oranı 0.68
+  Teminat kaba tahmin (%15, iki bacak, netleştirme yok): 55,559 TL. Fiyat kaynağı: spot kapanış (vadeli fiyatını --vadeli ile verin).
+
+Bir sonraki kapanış için yaklaşık tetik (σ60 sabit varsayımı): yarının artığı u = r_TRMET − 0.88·ort(r_TRALT, r_TRENJ)
+  z3 > +1.5 için u ≥ +175 bps ; z3 < −1.5 için u ≤ -835 bps
+  TRALT ve TRENJ yatay kalırsa TRMET kapanışı: AL tetiği ≥ 101.76 ; SAT tetiği ≤ 91.99 (son kapanış 100.00)
+
+Pratik kuralın son işlemleri (spot verisiyle yeniden oynatma; VİOP kilidi için spot ±%9,5 vekili):
+  giriş 2026-06-23 yön −TRM z -1.68 β 0.65 -> çıkış 2026-06-25 (2 gün, uzatma 0)
+  giriş 2026-06-26 yön +TRM z +1.62 β 0.64 -> çıkış 2026-06-30 (2 gün, uzatma 0)
+  giriş 2026-07-24 yön +TRM z +3.31 β 0.65 -> çıkış 2026-07-30 (4 gün, uzatma 1)
+  giriş 2026-09-23 yön +TRM z +2.40 β 0.65 -> çıkış 2026-09-25 (2 gün, uzatma 0)
+  Açık pozisyon YOK (kurala göre).
+
+Son 8 gün:
+            r_TRMET  r_TRALT  r_TRENJ  u(bps)    z3   β_g  β_hedge
+ldate                                                             
+2026-10-22 -1011.14  -985.94  -946.65 -179.74 -0.74  0.86     0.66
+2026-10-23  -296.25  -149.13  -321.02  -92.56 -1.24  0.87     0.67
+2026-10-26  -255.42   -67.00  -113.83 -176.78 -1.36  0.87     0.67
+2026-10-27   197.05   -95.69   -94.72  279.92  0.03  0.87     0.67
+2026-10-28   193.24   179.38   235.15   13.11  0.35  0.87     0.67
+2026-10-30 -1053.60 -1047.43  -983.03 -166.80  0.38  0.87     0.68
+2026-11-02   502.83   516.94   195.87  189.87  0.11  0.88     0.69
+2026-11-03   110.61    11.71   -79.34  140.38  0.49  0.88     0.69
+
+UYARI: araştırma sinyali kapanış verisiyle; --canli ile 17:50–17:55 fiyatı kullanıldığında sinyal günlerinin %94–100'ü aynı çıktı (2025-11 → 2026-11), tam geçmiş benzetimde işlem başı ≈ −4 bps fark. Yatırım tavsiyesi değildir.

@@ -1,0 +1,51 @@
+VİOP takvimi 2017-03-06 → 2026-11-03 gün 2424
+P0L ana (kilit: kurucu vekili): n=141 (NaN 0) 18.2/yıl tutma 2.65 uzatma %27 | brüt +51.7 (t 3.00) isabet 0.57 σ 205 | net8 +43.2 net15 +35.8 tik 7.0 net8t +36.2 net15t +28.8 devir 8
+   IS +61.0 (t 2.40, n 49) OOS +46.7 (t 2.05, n 92) 2024–26 +21.7 (t 0.93, n 52, net15t +1.0) | ex10 +10.2 (t 0.87) | en kötü -463 (2023-01-09) en iyi +985 | MDD net8 -763 net15t -791 | kayıp serisi 4
+   yıllar brüt/net15t: 19:+104/+73(n15.0) 20:+26/+1(n18.0) 21:+60/+37(n16.0) 22:+59/+38(n20.0) 23:+99/+77(n20.0) 24:+50/+28(n18.0) 25:+23/+1(n18.0) 26:-11/-29(n16.0) (+7/8)
+   açık pozisyon (03.11 itibarıyla): None
+   kurucu P0L ile: ortak işlem 141 yalnız denetim 0 yalnız kurucu 0 | ortak işlemde maks |Δbrüt| 0.000 maks |Δtik| 0.000
+   ilk segment ort +26.7; uzatma sonrası segmentler +76.6 (t 3.07, n 46, isabet 0.70); uzatılmayan işlemler -12.8 (n 103)
+P0 (kilit kuralı yok): n=143 (NaN 0) 18.5/yıl tutma 2.69 uzatma %29 | brüt +57.9 (t 3.40) isabet 0.61 σ 203 | net8 +49.4 net15 +42.0 tik 7.0 net8t +42.4 net15t +35.0 devir 8
+   IS +69.8 (t 2.79, n 50) OOS +51.4 (t 2.29, n 93) 2024–26 +30.5 (t 1.34, n 53, net15t +9.8) | ex10 +17.5 (t 1.49) | en kötü -463 (2023-01-09) en iyi +985 | MDD net8 -763 net15t -791 | kayıp serisi 4
+   yıllar brüt/net15t: 19:+119/+88(n15.0) 20:+28/+3(n19.0) 21:+73/+51(n16.0) 22:+59/+38(n20.0) 23:+99/+77(n20.0) 24:+54/+32(n19.0) 25:+33/+11(n18.0) 26:-1/-18(n16.0) (+7/8)
+P0L simetrik ±%9,5 kilit vekili: n=142 (NaN 0) 18.4/yıl tutma 2.65 uzatma %27 | brüt +52.2 (t 3.05) isabet 0.58 σ 204 | net8 +43.8 net15 +36.4 tik 7.0 net8t +36.8 net15t +29.4 devir 8
+   IS +61.0 (t 2.40, n 49) OOS +47.6 (t 2.11, n 93) 2024–26 +23.8 (t 1.04, n 53, net15t +3.1) | ex10 +11.1 (t 0.96) | en kötü -463 (2023-01-09) en iyi +985 | MDD net8 -763 net15t -791 | kayıp serisi 4
+   yıllar brüt/net15t: 19:+104/+73(n15.0) 20:+26/+1(n18.0) 21:+60/+37(n16.0) 22:+59/+38(n20.0) 23:+99/+77(n20.0) 24:+54/+32(n19.0) 25:+23/+1(n18.0) 26:-11/-29(n16.0) (+7/8)
+P1 sabit h2: n=143 (NaN 0) 18.5/yıl tutma 2.00 uzatma %0 | brüt +25.2 (t 2.22) isabet 0.59 σ 136 | net8 +17.2 net15 +10.2 tik 6.7 net8t +10.4 net15t +3.4 devir 0
+   IS +34.1 (t 2.17, n 49) OOS +20.5 (t 1.35, n 94) 2024–26 +13.8 (t 0.70, n 53, net15t -5.7) | ex10 +4.2 (t 0.43) | en kötü -416 (2022-12-30) en iyi +520 | MDD net8 -881 net15t -1269 | kayıp serisi 5
+   yıllar brüt/net15t: 19:+36/+5(n15.0) 20:+26/+2(n18.0) 21:+41/+18(n16.0) 22:+18/-1(n20.0) 23:+40/+19(n21.0) 24:+30/+9(n19.0) 25:+12/-8(n18.0) 26:-3/-20(n16.0) (+7/8)
+P2 gecikmeli (uzatmalı): n=141 (NaN 0) 18.2/yıl tutma 2.68 uzatma %28 | brüt +38.8 (t 2.35) isabet 0.57 σ 196 | net8 +30.4 net15 +23.1 tik 7.1 net8t +23.4 net15t +16.0 devir 7
+   IS +40.2 (t 1.34, n 48) OOS +38.1 (t 1.92, n 93) 2024–26 +23.7 (t 1.05, n 53, net15t +2.6) | ex10 +6.1 (t 0.45) | en kötü -694 (2023-01-10) en iyi +897 | MDD net8 -876 net15t -1241 | kayıp serisi 5
+   yıllar brüt/net15t: 19:+65/+34(n15.0) 20:+1/-23(n18.0) 21:+62/+40(n15.0) 22:+27/+7(n20.0) 23:+88/+65(n20.0) 24:+20/-4(n19.0) 25:+36/+15(n18.0) 26:+14/-3(n16.0) (+8/8)
+P2b gecikmeli sabit h2: n=143 (NaN 0) 18.5/yıl tutma 2.00 uzatma %0 | brüt +24.2 (t 1.83) isabet 0.58 σ 158 | net8 +16.2 net15 +9.2 tik 6.8 net8t +9.4 net15t +2.4 devir 0
+   IS +16.3 (t 0.75, n 48) OOS +28.1 (t 1.69, n 95) 2024–26 +17.3 (t 0.80, n 54, net15t -2.2) | ex10 +2.5 (t 0.20) | en kötü -459 (2024-10-01) en iyi +412 | MDD net8 -1030 net15t -1421 | kayıp serisi 6
+   yıllar brüt/net15t: 19:-10/-41(n15.0) 20:+2/-22(n18.0) 21:+59/+36(n15.0) 22:+31/+12(n20.0) 23:+53/+32(n21.0) 24:+6/-15(n20.0) 25:+26/+6(n18.0) 26:+23/+5(n16.0) (+7/8)
+TERS P0L (TRALT artığı): n=130 (NaN 0) 17.0/yıl tutma 2.71 uzatma %29 | brüt +30.4 (t 1.83) isabet 0.60 σ 189 | net8 +22.0 net15 +14.7 tik 6.5 net8t +15.5 net15t +8.2 devir 6
+   IS +24.5 (t 1.10, n 46) OOS +33.6 (t 1.48, n 84) 2024–26 +15.8 (t 0.53, n 49, net15t -5.2) | ex10 -4.7 (t -0.35) | en kötü -514 (2022-12-30) en iyi +718 | MDD net8 -1236 net15t -1368 | kayıp serisi 4
+   yıllar brüt/net15t: 19:+36/+7(n16.0) 20:+32/+8(n13.0) 21:+7/-14(n17.0) 22:+78/+58(n21.0) 23:+28/+8(n14.0) 24:+5/-17(n18.0) 25:+58/+37(n21.0) 26:-53/-71(n10.0) (+7/8)
+TERS P0 (kilitsiz): n=128 (NaN 0) 16.8/yıl tutma 2.77 uzatma %31 | brüt +47.4 (t 2.37) isabet 0.60 σ 226 | net8 +39.0 net15 +31.7 tik 6.5 net8t +32.5 net15t +25.2 devir 6
+   IS +38.1 (t 1.43, n 45) OOS +52.4 (t 1.92, n 83) 2024–26 +34.5 (t 0.91, n 48, net15t +13.4) | ex10 +0.3 (t 0.02) | en kötü -514 (2022-12-30) en iyi +1128 | MDD net8 -1141 net15t -1366 | kayıp serisi 4
+   yıllar brüt/net15t: 19:+36/+7(n16.0) 20:+87/+63(n13.0) 21:+0/-21(n16.0) 22:+109/+89(n21.0) 23:+28/+8(n14.0) 24:+21/-1(n18.0) 25:+79/+58(n20.0) 26:-31/-49(n10.0) (+7/8)
+TERS P2 gecikmeli: n=123 (NaN 0) 16.1/yıl tutma 2.80 uzatma %33 | brüt +26.3 (t 1.50) isabet 0.50 σ 195 | net8 +17.9 net15 +10.6 tik 6.5 net8t +11.4 net15t +4.0 devir 6
+   IS +10.8 (t 0.43, n 43) OOS +34.6 (t 1.47, n 80) 2024–26 +25.3 (t 0.78, n 46, net15t +4.7) | ex10 -12.5 (t -0.99) | en kötü -419 (2021-02-09) en iyi +1021 | MDD net8 -1543 net15t -1846 | kayıp serisi 5
+   yıllar brüt/net15t: 19:+49/+18(n15.0) 20:+37/+13(n13.0) 21:-50/-71(n15.0) 22:+89/+68(n20.0) 23:-12/-33(n14.0) 24:-17/-39(n17.0) 25:+67/+46(n20.0) 26:+12/-6(n9.0) (+5/8)
+
+--- DUYARLILIK (P0L kilit kuralıyla) eşik × tutma; uzatmalı: +h uzat, en fazla 3h; sabit: uzatmasız ---
+thr 1.25 h1 uzat≤3: n 207 tutma 1.82 brüt  +40.7 (t 3.79) net15t  +18.4 | 2024–26  +40.5 (t 2.11) net15t  +21.2 | ex10  +18.9 | MDD15t  -1288 | yıl+ 8/9
+thr 1.25 h1 sabit  : n 207 tutma 1.00 brüt  +24.1 (t 3.41) net15t   +2.3 | 2024–26  +21.6 (t 1.70) net15t   +2.3 | ex10  +12.8 | MDD15t  -1481 | yıl+ 8/9
+thr 1.25 h2 uzat≤6: n 196 tutma 2.85 brüt  +50.6 (t 3.50) net15t  +27.9 | 2024–26  +35.4 (t 1.51) net15t  +14.9 | ex10  +18.0 | MDD15t  -1668 | yıl+ 8/9
+thr 1.25 h2 sabit  : n 199 tutma 2.00 brüt  +27.5 (t 2.84) net15t   +5.8 | 2024–26  +23.6 (t 1.25) net15t   +4.3 | ex10  +10.1 | MDD15t  -1881 | yıl+ 8/9
+thr 1.25 h3 uzat≤9: n 189 tutma 3.57 brüt  +51.4 (t 3.27) net15t  +28.3 | 2024–26  +69.7 (t 2.65) net15t  +48.6 | ex10  +16.1 | MDD15t  -1577 | yıl+ 7/9
+thr 1.25 h3 sabit  : n 193 tutma 3.00 brüt  +39.0 (t 2.95) net15t  +17.2 | 2024–26  +58.0 (t 2.50) net15t  +38.7 | ex10  +15.3 | MDD15t  -1577 | yıl+ 8/9
+thr 1.50 h1 uzat≤3: n 149 tutma 1.67 brüt  +38.9 (t 3.06) net15t  +16.9 | 2024–26  +26.8 (t 1.29) net15t   +7.3 | ex10  +11.7 | MDD15t  -1011 | yıl+ 7/8
+thr 1.50 h1 sabit  : n 149 tutma 1.00 brüt  +22.8 (t 2.76) net15t   +1.1 | 2024–26  +21.0 (t 1.49) net15t   +1.5 | ex10   +7.4 | MDD15t  -1044 | yıl+ 8/8
+thr 1.50 h2 uzat≤6: n 141 tutma 2.65 brüt  +51.7 (t 3.00) net15t  +28.8 | 2024–26  +21.7 (t 0.93) net15t   +1.0 | ex10  +10.2 | MDD15t   -791 | yıl+ 7/8
+thr 1.50 h2 sabit  : n 143 tutma 2.00 brüt  +25.2 (t 2.22) net15t   +3.4 | 2024–26  +13.8 (t 0.70) net15t   -5.7 | ex10   +4.2 | MDD15t  -1269 | yıl+ 7/8
+thr 1.50 h3 uzat≤9: n 141 tutma 3.30 brüt  +46.7 (t 2.65) net15t  +24.5 | 2024–26  +30.7 (t 1.15) net15t  +10.8 | ex10   +9.3 | MDD15t  -1100 | yıl+ 8/8
+thr 1.50 h3 sabit  : n 141 tutma 3.00 brüt  +40.5 (t 2.52) net15t  +18.7 | 2024–26  +28.2 (t 1.11) net15t   +8.7 | ex10  +10.1 | MDD15t  -1100 | yıl+ 8/8
+thr 1.75 h1 uzat≤3: n  97 tutma 1.64 brüt  +43.0 (t 2.73) net15t  +20.8 | 2024–26  +67.6 (t 2.36) net15t  +47.7 | ex10   +3.3 | MDD15t   -820 | yıl+ 8/8
+thr 1.75 h1 sabit  : n  97 tutma 1.00 brüt  +15.5 (t 1.57) net15t   -6.3 | 2024–26  +36.2 (t 1.81) net15t  +16.3 | ex10   -5.2 | MDD15t  -1243 | yıl+ 6/8
+thr 1.75 h2 uzat≤6: n  93 tutma 2.58 brüt  +48.4 (t 2.35) net15t  +25.9 | 2024–26  +56.9 (t 1.67) net15t  +35.6 | ex10   -0.4 | MDD15t  -1150 | yıl+ 5/8
+thr 1.75 h2 sabit  : n  95 tutma 2.00 brüt  +24.1 (t 1.65) net15t   +2.3 | 2024–26  +36.2 (t 1.24) net15t  +16.3 | ex10   -4.5 | MDD15t  -1097 | yıl+ 5/8
+thr 1.75 h3 uzat≤9: n  93 tutma 3.35 brüt  +54.9 (t 2.50) net15t  +32.4 | 2024–26  +62.4 (t 1.58) net15t  +41.8 | ex10   +5.3 | MDD15t  -1184 | yıl+ 6/8
+thr 1.75 h3 sabit  : n  93 tutma 3.00 brüt  +54.6 (t 2.58) net15t  +32.7 | 2024–26  +58.7 (t 1.60) net15t  +38.7 | ex10   +8.1 | MDD15t  -1184 | yıl+ 6/8

@@ -1,0 +1,5 @@
+taban P0L: brüt +51.7 net15t +28.8
+17:55 (5dk bar 17:50–17:55 kapanışı): pencere 2026-08-12–2026-11-03 gün 58, sd(q) 0.252, corr(z3) 0.986, sinyal uyumu 1.000, kapanış sinyal 2 saat sinyal 2
+   MC 150: n 148 brüt +48.0 (%5–95 +38.1…+57.4) net15t +25.3 t 2.84 | fark -3.7 bps
+17:40 (TV 15 dk gecikmeli, 17:55 görünümü): pencere 2026-08-12–2026-11-03 gün 58, sd(q) 0.352, corr(z3) 0.972, sinyal uyumu 1.000, kapanış sinyal 2 saat sinyal 2
+   MC 150: n 153 brüt +47.7 (%5–95 +37.6…+57.7) net15t +25.0 t 2.88 | fark -4.0 bps
