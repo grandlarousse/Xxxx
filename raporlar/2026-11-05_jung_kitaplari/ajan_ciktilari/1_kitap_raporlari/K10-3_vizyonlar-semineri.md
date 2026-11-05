@@ -131,3 +131,118 @@ Amplifikasyon, bir imgenin anlamını mitoloji, din, folklor ve sanattaki parale
 ### 4.8 Kolektif bilinçdışı, Amerika ve "ilkel" olan
 
 Seminerin tartışmalı kavramsal katmanlarından biri, Jung'un Amerikan psikolojisine dair tezidir. Jung'a göre her toprak ve her kültür kendi kolektif katmanını üretir. Amerika'da Avrupa kökenli göçmenlerin bilinçdışı, yerli halkların ve Afrikalı Amerikalıların varlığıyla bir tür *participation mystique* içinde dönüşür. Morgan'ın vizyonlarındaki Kızılderili ve siyah figürler bu çerçevede "Amerikan bilinçdışının ilkel katmanı" olarak yorumlanır. Bu yorum Jung'un kolektif bilinçdışını ırk, toprak ve "ilkellik" kategorileriyle ilişkilendirme eğiliminin açık örneklerinden biridir. Bölüm 7'de ele alınan postkolonyal eleştirinin hedefi de budur.
+
+## 5. Kaynaklar, Etkiler ve Diyalog
+
+**Birincil malzeme: Morgan'ın defterleri.** Seminerin "metni" aslında Morgan'ın vizyon kayıtları ve resimleridir. Jung bu malzemeye Morgan'ın 1926'daki analizinden beri sahipti ve seminerde vizyonları sırayla okuyup resimleri dinleyicilere gösterir. Douglas baskısının en önemli katkılarından biri, bu resimleri ilk kez renkli olarak yayımlamasıdır (Curnow 2000). Morgan'ın özgün defterlerinin bugün nerede saklandığı tarafımızdan doğrulanamadı.
+
+**Amplifikasyon kaynakları.** Yayıncı tanıtımları ve Curnow'un özeti seminerin şu kaynak alanlarına dayandığını belirtir: Batı mitolojisi, Tantra felsefesi ve Kundalini yogası, simya, erken Hristiyanlık ve Mithras kültü. Bu alanlara dair Jung'un genel kaynakları başka eserlerinden bilinir. Tantra için Arthur Avalon (Sir John Woodroffe) imzalı *The Serpent Power* (1919) ve Hauer'in yorumları (K08-5) öne çıkar. Mithras için Albrecht Dieterich'in *Eine Mithrasliturgie*'si (1903) ve Franz Cumont'un çalışmaları gelir; Jung bunları *Libidonun Dönüşümleri ve Sembolleri*'nde (K02-2) yoğun biçimde kullanmıştı. Gnostik ve erken Hristiyan metinler ile Jung'un 1920'lerin sonundan itibaren topladığı simya incelemeleri de bu kaynaklar arasındadır. Bu kaynakların seminerde ders ders nasıl kullanıldığı birincil metin üzerinden doğrulanamadı.
+
+**Kuramsal muhataplar.** Seminer, Jung'un kendi önceki kuramlarıyla sürekli bir iç diyalog içindedir. Bunlar anima/animus ve mana-kişilik (K04-2), tipoloji (K04-1), aşkın işlev (K05-1) ve *Altın Çiçek* yorumundaki mandala kuramıdır (K07-1). Freud'a açık polemik bu seminerde ikincil plandadır. Ancak Jung, imgeleri cinsel arzunun örtülü ifadesi olarak okuyan indirgemeci yaklaşımı ara ara reddeder ve telafi edici, amaçlı (*final*) yorumu savunur.
+
+**Seminer katılımcıları ve Kulüp'ün kadınları.** Seminer bir monolog değildir. Kayıtlarda dinleyicilerin soruları, itirazları ve paralel önerileri yer alır. Mary Foote kayıt tutucu olarak merkezîdir. Psikoloji Kulübü çevresinde Emma Jung, Toni Wolff, Esther Harding, Kristine Mann ve Barbara Hannah gibi kadınlar kadın psikolojisine dair kendi kuramsal çalışmalarını üretiyordu. Emma Jung'un animus denemesi, Toni Wolff'un sonradan yayımlanan "dişil psişenin yapısal biçimleri" tipolojisi ve Harding'in *The Way of All Women* (1933) kitabı bu çevrenin ürünleridir. Bu adların seminere hangi oturumlarda katıldığı ve neler söylediği tarafımızdan doğrulanamadı. Seminerin kadın bireyleşmesine dair görüşleri bu kadın öğrenci ve meslektaşlarla etkileşim içinde biçimlendi. Bu metinler, Jung'un görüşlerinin hem yayıcısı hem de yer yer sessiz düzelticisi oldu.
+
+**Henry A. Murray.** Murray, seminerin görünmeyen ikinci kahramanıdır. Morgan'ın analizine yol açan ilişkinin öteki ucunda o vardı. Jung'un Morgan'a dair yorumlarının pratik sonuçları, yani *femme inspiratrice* rolü, Murray'nin kariyerini ve Harvard'daki kişilik araştırmalarını etkiledi. Murray 1976 Spring baskısına sonsöz yazdı. Bu sonsözün içeriği doğrulanamadı.
+
+## 6. Jung'un Düşünce Gelişimindeki Yeri
+
+**Öncüller.** *Vizyonlar*'ın en yakın öncülü Jung'un kendi aktif imgelem deneyidir. Bu deney *Kırmızı Kitap*'ta (K03-1) ve *Kara Kitaplar*'da (K03-2) kayıtlıdır. Morgan'a imgelerini ciltlenmiş bir kitaba resimlemesini öğütlerken Jung kendi pratiğini aktarıyordu. Bu nedenle Morgan'ın defterleri *Liber Novus*'un bir tür "kadın eşleniği" olarak okunabilir. Kuramsal öncüller şunlardır: 1925 semineri (K10-1), burada Jung kendi fantazilerini ve anima kavramını ilk kez geniş biçimde anlatmıştı; *İki Deneme* (K04-2), anima/animus ve mana-kişilik kavramlarını buradan alır; *Psikolojik Tipler* (K04-1), dört işlev modelinin kaynağıdır; "Aşkın İşlev" (K05-1). Yöntemsel öncül ise doğrudan bir önceki seminer olan *Rüya Analizi*'dir (K10-2). Orada bir erkek iş adamının rüyaları üzerinden kurulan dizi yöntemi, burada bir kadının vizyonlarına uygulanır.
+
+**Eşzamanlılar.** Kundalini semineri (K08-5), *Vizyonlar*'ın ortasında verildi ve seminerin ikinci yarısının yorum dilini doğrudan etkiledi. 1933'te başlayan ETH dersleri (K10-7) ve 1933 Eranos konferansı, Jung'un aynı yıllarda bireyleşme sürecini daha geniş bir akademik kamuya anlatmaya başladığını gösterir. 1933 Eranos konferansı, 1934'te yayımlanan ve 1950'de "A Study in the Process of Individuation" adıyla genişletilen çalışmadır (CW9/I; K06-1). Bu çalışma da Amerikalı bir kadın hastanın, sonraki araştırmalarda Kristine Mann olarak tanımlanan "Miss X"in resimleri üzerine kuruludur. *Vizyonlar* bu yayımlanmış vaka çalışmasının çok daha uzun, daha çiğ ve daha "mutfak içi" kardeşidir.
+
+**Ardıllar.** Seminer, Jung'un 1934 sonrasındaki üç büyük hattına malzeme ve sezgi sağladı. (1) Bireyleşmenin sembolik dizileri: Bailey Island ve New York seminerleri (K10-6) ile *Psikoloji ve Simya* (K07-2) bu hattadır. Bunlar Pauli'nin rüyalarını bir erkek bireyleşme dizisi olarak işler ve *Vizyonlar*'daki kadın dizisiyle karşılaştırmalı okunabilir. (2) Coniunctio ve simya: *Aktarımın Psikolojisi* (K07-5) ve *Mysterium Coniunctionis* (K07-4). (3) Anima/animus kuramının olgun hâli: *Aion*'un (K06-2) üçüncü bölümü. Aktif imgelemin yöntemsel tanıtımı ise Tavistock Konferansları'nda (K04-4) ve "Aşkın İşlev"in 1958 baskısındaki yeni ön sözde yapılır. Hemen ardından gelen *Zerdüşt* semineri (K10-4) şişme ve gölge temalarını Nietzsche'ye taşır. *Vizyonlar*'da dikkatli bir kurban ve yeniden doğuş dizisi olarak işlenen süreç, orada dehanın kendini arketiple özdeşleştirmesinin trajedisine dönüşür.
+
+**Süreklilik ve revizyon.** Seminer Jung'un kuramındaki önemli bir gerilimi açığa çıkarır. Bir yanda aktif imgelemin ve Kendiliğin evrensel, cinsiyet üstü bir süreç olduğu iddiası vardır. Öte yanda anima/animus kuramının cinsiyet farkını ontolojik bir veri olarak varsayan şeması durur. Jung sonraki yıllarda animus kavramını *Aion*'da daha nötr ve yapısal bir dille yeniden tanımlayacak, coniunctio kavramını da simyasal hermafrodit imgesine bağlayacaktır. Ancak kadın psikolojisinin Eros/Logos şeması temelde değişmeden kalmıştır. *Vizyonlar*, bu şemanın tek bir vakada en uzun süre işletildiği ve bu nedenle sınırlarının en açık görüldüğü metindir.
+
+## 7. Alımlanma, Eleştiriler ve Tartışmalar
+
+**Çağdaş ve iç çevre alımlanması.** Seminer notları 1930'larda kısıtlı dağıtımlıydı ve okunmaları Jung'un iznine bağlıydı. Bu nedenle uzun süre yalnızca Jungçu çevrenin iç malzemesi olarak kaldı. Analist eğitiminde aktif imgelemin ve sembol yorumunun "nasıl yapıldığını" gösteren bir örnek metin işlevi gördü. Morgan'ın kimliği iç çevrede biliniyordu ama kamuya açık değildi. Bu gizlilik ve seçkin bir iç çevreye sınırlanmış dolaşım, Shamdasani'nin *Cult Fictions* (1998) kitabında Psikoloji Kulübü kültürüne dair tarihsel tartışmaların genel bağlamını oluşturur. Richard Noll'ün *The Jung Cult* (1994) kitabındaki "karizmatik kült" tezi ve bu teze yöneltilen eleştiriler de aynı bağlamın parçasıdır. Seminerin kendisi bu tartışmalarda merkezde yer almaz.
+
+**1976 baskısı ve Murray.** Spring baskısı metni Jungçu kamuya açtı. Murray'nin sonsözü, malzemenin kaynağına dair iç çevrenin bilgisini dolaylı biçimde kamusallaştırdı. Bu baskının resimsel içeriği ve metin bütünlüğü doğrulanamadı.
+
+**Douglas ve feminist eleştiri.** Asıl kırılma Douglas'la gelir. Douglas'ın *The Woman in the Mirror: Analytical Psychology and the Feminine* (1990) kitabı, *Translate This Darkness* (1993) biyografisi ve 1997 edisyonunun girişi bir bütün oluşturur. Bu üç çalışma Morgan'ı Jung'un "vakası" olmaktan çıkarıp kendi hakkı olan bir yaratıcı özne olarak yeniden kurar. Douglas'ın başlıca eleştirileri şunlardır. (1) Jung, Morgan'ın vizyonlarındaki etkin ve iddialı dişil imgeleri animusa atfederek dişil olanı edilgenlikle eşitledi. (2) Morgan'ı ilham perisi rolüne yerleştirdi ve bu rol onun bağımsız yaratıcı ve entelektüel hayatını kısıtladı; TAT yazarlığının silinmesi bu örüntünün simgesidir. (3) Jung'un kendi anima projeksiyonu ve karşıaktarımı yorumu etkiledi. (4) Kadın deneyiminin kültürel ve tarihsel koşulları yorumdan büyük ölçüde dışlandı. Bu eleştiriler, Jungçu feminist eleştirinin geniş bir literatürüyle örtüşür. Naomi Goldenberg'in erken eleştirileri (1970'ler), Demaris Wehr'in *Jung and Feminism: Liberating Archetypes* (1987), Polly Young-Eisendrath'ın *Hags and Heroes* (1984) ve *Gender and Desire* (1997), Susan Rowland'ın *Jung: A Feminist Revision* (2002) bu literatürün başlıcalarıdır. Ortak tema, anima/animus kuramının cinsiyet farkını arketipsel ve değişmez kılmasıdır. Bu literatür bu farkı tarihsel, kültürel ve ilişkisel bir yapı olarak yeniden düşünmeyi önerir. Douglas'ın tavrı, kuramı bütünüyle reddetmek değil, onu Morgan'ın kendi imgelerinin ışığında "dişil Kendilik" yönünde genişletmektir. Biyografinin alımlanmasında da bu vurgu tartışıldı. Örneğin *New York Times*'taki bir eleştiride okurların Morgan'ın vizyonlarını Douglas'ın yorumladığı gibi okuyup okumayacağı sorgulandı (ikincil kaynaktan; doğrudan doğrulanamadı).
+
+**Etik eleştiri.** Bir hastanın mahrem iç malzemesinin dört yıl boyunca ve onun katılımı olmaksızın bir dinleyici grubu önünde ayrıntılı biçimde tartışılması, bugünün klinik etik standartları açısından sorunludur. Bu durum mahremiyet, rıza ve hastanın kendi yorumuna söz hakkı tanınmaması bakımından eleştirilir. Morgan'ın bu kullanımdan haberdar olup olmadığı, seminere ne ölçüde onay verdiği ve buna nasıl tepki verdiği konusunda Douglas'ın biyografisi ayrıntı verir. Bu ayrıntılar tarafımızdan doğrulanamadı. Jung'un Morgan–Murray ilişkisine yönlendirici biçimde müdahale ettiği iddiası da analitik sınırlar tartışmasının bir parçasıdır.
+
+**Postkolonyal ve ırk eleştirisi.** Seminerde Kızılderili ve siyah figürlerin "ilkel", "toprağa ait" ve "içgüdüsel" katmanın temsilcileri olarak okunması, Jung'un ırk ve "ilkellik" söylemine yönelik eleştirilerin doğal hedefidir. Farhad Dalal'ın 1988'de yayımlanan sert eleştirisi ve Michael Vannoy Adams'ın *The Multicultural Imagination* (1996) kitabı bu alandaki temel çalışmalardır. Adams'ın kitabı Jungçu kuramı "ırk" kategorisinden arındırarak çok kültürlü bir imgelem kuramına dönüştürmeyi önerir. Bu eleştirilere göre Jung, Avrupalı olmayanları Avrupalı bilinçdışının "geçmişi" olarak konumlandırarak evrimci-sömürgeci bir hiyerarşiyi psikolojik dile taşıdı.
+
+**Dengeleyici değerlendirmeler.** Eleştirilere karşın birçok Jungçu yorumcu, seminerin aktif imgelem pratiği için yeri doldurulamaz bir kaynak olduğunu vurgular. Curnow'un 2000 tarihli tanıtımı, seminerin öznel olana, dişil olana ve duygu işlevine verdiği ağırlığı öne çıkarır. Bu ağırlık, Jung'un kendi döneminin rasyonalist ve eril psikiyatrisine karşı dişil olanı değerlendiren bir yönelim olarak okunabilir. Böylece eleştiri ile takdir aynı yere işaret eder: Jung dişil olanı değerli kılmak istemiş, ama onu kendi tanımladığı sınırlar içinde değerli kılmıştır.
+
+## 8. Etki ve Güncel Değer
+
+**Psikoterapi.** *Vizyonlar*, aktif imgelemin Jungçu eğitimde öğretilmesinin temel metinlerinden biridir. Resimleme, yazma ve imgeyle diyalog kurma pratiklerinin uzun soluklu bir dizide nasıl ilerlediğini gösterir. Jungçu sanat terapisi ve dışavurumcu terapiler için tarihsel bir referans noktasıdır. Seminer aynı zamanda klinik açıdan bir uyarı metnidir: şişme, estetikleştirme ve yorumcunun yansıtmaları gibi tehlikeleri canlı biçimde sergiler.
+
+**Kadın psikolojisi ve toplumsal cinsiyet çalışmaları.** Douglas edisyonu sayesinde seminer, Jungçu kuramın toplumsal cinsiyet tartışmalarında birincil kanıt metni hâline geldi. Hem Jung'un kadın bireyleşmesine dair en ayrıntılı düşüncesini hem de bu düşüncenin sınırlarını belgeler. Morgan'ın yeniden keşfi, psikoloji tarihinde kadınların silinmesine dair geniş tartışmanın, örneğin TAT örneğinin, bir parçası olmuştur.
+
+**Psikoloji tarihi.** Seminer, Jung'un orta dönem düşüncesinin çalışma hâlindeki kaydıdır. *Kırmızı Kitap*'tan simyaya, kişisel deneyimden karşılaştırmalı sembolojiye geçişin ara katmanını gösterir. Shamdasani'nin *Jung and the Making of Modern Psychology* (2003) kitabının ortaya koyduğu gibi Jung'un seminerleri, yayımlanmış eserlerinden önce fikirlerin sınandığı ve yayıldığı başlıca alanlardır. *Vizyonlar* bunun en uzun örneklerinden biridir.
+
+**Ayakta kalan ve kalmayan.** Ayakta kalanlar şunlardır: bilinçdışı imgelerle etkin, etik ve yaratıcı bir ilişki kurulabileceği fikri; imgenin resimlenmesinin terapötik değeri; sembolleri indirgemeci olmayan, amaçlı bir okumayla yorumlama tavrı; kadın deneyiminin de kendine özgü bir inisiyasyon yapısı taşıyabileceği kabulü. Ayakta kalmayanlar ya da ağır biçimde sorgulananlar şunlardır: Eros/Logos şemasının özcü cinsiyet varsayımı, etkin dişilliği "animus" diye etiketleme eğilimi, Avrupalı olmayanları "ilkel katman" olarak konumlandıran ırksal dil ve hastanın mahrem malzemesini onun sesi olmaksızın kamusal yorum nesnesi yapan klinik tutum.
+
+**Popüler kültür.** Seminerin popüler kültürdeki doğrudan etkisi sınırlıdır. Morgan'ın kendisi ise biyografiler, Jung'un çevresindeki kadınlara dair kitaplar ve sergi ile arşiv projeleri aracılığıyla giderek görünür bir figür hâline gelmiştir. ARAS (Archive for Research in Archetypal Symbolism) ve çevrimiçi Jung siteleri Morgan'ın resimlerini dolaşıma sokar.
+
+## 9. Okuma Rehberi
+
+**Ön koşullar.** Okur en azından *İki Deneme*'nin (K04-2) anima/animus ve mana-kişilik bölümlerini, "Aşkın İşlev"i (K05-1) ve *Psikolojik Tipler*'in (K04-1) dört işlev modelini bilmelidir. Tavistock Konferansları'nın (K04-4) aktif imgelem kısmı iyi bir kısa giriş sunar. 1925 seminerini (K10-1) ve *Rüya Analizi* seminerini (K10-2) önceden okumak, Jung'un seminer üslubuna ve yöntemine alışmayı kolaylaştırır.
+
+**Nereden başlamalı.** (1) Douglas'ın girişiyle başlayın. Bu giriş hem Morgan'ı hem de eleştirel çerçeveyi verir. (2) Ardından Güz 1930 dönemini okuyun. Jung yöntemini burada en açık biçimde anlatır. (3) Renkli levhaları vizyon metinleriyle birlikte inceleyin. Seminer resimler olmadan yarım anlaşılır. (4) Güz 1932 dönemini Kundalini semineriyle (K08-5) yan yana okuyun. (5) Son dönemleri (1933–34) *Zerdüşt* seminerinin (K10-4) başlangıcıyla karşılaştırın.
+
+**Hangi baskı.** Douglas'ın Princeton (1997) ya da Routledge (1998) iki ciltlik baskısı esastır. Princeton'ın 2026 yeniden basımı da aynı edisyona dayanıyor görünmektedir (doğrulanamadı). 1976 Spring baskısı tarihsel ilgi taşır ama Douglas'ın eleştirel aygıtından ve renkli levhalarından yoksundur.
+
+**Eşlik eden okumalar.** Douglas'ın *Translate This Darkness* (1993) biyografisi seminerin vazgeçilmez tamamlayıcısıdır. Forrest G. Robinson'ın *Love's Story Told: A Life of Henry A. Murray* (1992) kitabı Murray tarafını verir.
+
+**Yaygın yanlış okumalar.** (1) Seminer, Jung'un kadın psikolojisi üzerine bitmiş bir kuramı gibi okunmamalıdır. Bu, yüksek sesle düşünülen ve dinleyicilerle birlikte kurulan bir çalışma kaydıdır. Jung'un bazı ifadeleri doğaçlama ve tutarsızdır. (2) Jung'un yorumu ile Morgan'ın deneyimi aynı şey değildir. Metin, Morgan'ın sesini yalnızca vizyon kayıtları üzerinden ve Jung'un aktarımıyla verir. (3) Vizyonlar bir "psikoz" kaydı değildir. Jung da malzemeyi patolojik bir vaka olarak sunmaz. (4) Seminer bir "tamamlanmış bireyleşme" öyküsü değildir. Dizi yarım kalır ve Morgan'ın sonraki hayatı Jung'un iyimser şemasını doğrulamaz. (5) Amplifikasyondaki paralellerin çokluğu, her vizyonun kesin bir mitolojik "anlamı" olduğu izlenimini vermemelidir. Jung'un kendisi de yorumların deneme niteliğinde olduğunu sık sık vurgular.
+
+## 10. Kilit Pasajlar
+
+Birincil metne doğrudan erişilemediğinden aşağıdaki pasajların hiçbiri doğrudan alıntı değildir. Tümü özettir.
+
+1. **Kitabın "katedral" olması (Morgan'ın analiz notları, 1926).** Jung, Morgan'a vizyonlarını özenle ciltlenmiş bir kitaba olabildiğince güzel biçimde aktarmasını öğütler. Bunu yapmak imgeleri sıradanlaştırıyormuş gibi görünse de kişiyi onların gücünden kurtarır. Kitap da onun için bir kilise, bir katedral, ruhunun yenilendiği sessiz yer olur. Bu pasaj Shamdasani'nin *Kırmızı Kitap* girişinde aktarılır (K03-1). (özet)
+2. **Aktif imgelem ile pasif fantazi farkı (Güz 1930).** Jung seminerin başında, aktif imgelemde öznenin imgelerin karşısında seyirci kalmadığını, onlara tepki verip onlarla yüzleştiğini açıklar. Ona göre yöntemin değeri bu etik katılımdadır. (özet)
+3. **Animusun rehber yüzü (Kış 1931).** Jung, vizyonlardaki erkek figürleri hastanın animusunun hem engelleyici hem kılavuzluk eden yüzleri olarak yorumlar. Animusun bilinçdışına giden yolu açan bir psikopomp olabileceğini vurgular. (özet)
+4. **"Sol taraf" ve duygu (Bahar 1931 ve sonrası).** Jung, kuaterniyonun ihmal edilmiş sol yanını, yani bilinçdışını, dişil olanı, duyguyu, entelektüel bir kadının bireyleşmesinde yüzleşmesi gereken alan olarak tanımlar (Curnow 2000'in özetine dayanır). (özet)
+5. **Çakralar ve vizyonlar (Güz 1932 sonrası).** Jung, Kundalini seminerinden hemen sonra vizyonlardaki ateş, su ve kalp imgelerini çakra sistemiyle karşılaştırır. Aynı zamanda Batılıların yogayı taklit etmeyip kendi imgeleriyle çalışması gerektiğini söyler. (özet)
+6. **Douglas'ın girişindeki eleştiri.** Douglas, Jung'un Morgan'ın vizyonlarındaki etkin dişil figürleri yeterince tanımadığını ve onu erkeklere ilham veren bir figür olarak konumlandırdığını savunur. Morgan'ın imgelerinde Jung'un çerçevesini aşan bir dişil Kendilik görür. (özet)
+7. **Anonimlik çerçevesi.** Jung seminer boyunca Morgan'ın adını hiç anmaz ve onu "hasta" diye sunar. Douglas edisyonu bu anonimliği tersine çevirerek metnin okunma biçimini kökten değiştirir. (özet)
+
+## 11. Kaynakça ve İleri Okuma
+
+**Birincil baskılar**
+- Jung, C. G. *Visions: Notes of the Seminar Given in 1930–1934*. Ed. Claire Douglas. 2 cilt. Princeton: Princeton University Press (Bollingen Series XCIX), 1997.
+- Jung, C. G. *Visions: Notes on the Seminar Given in 1930–1934*. Ed. Claire Douglas. 2 cilt. London: Routledge, 1998.
+- Jung, C. G. *Visions: C. G. Jung Seminars, 1930–1934*, Cilt 1–2. Ed. Claire Douglas. Princeton University Press, 2026 (yeniden basım; ayrıntılar doğrulanamadı).
+- Jung, C. G. *The Visions Seminars*. 2 kitap. Ed. Mary Foote; sonsöz Henry A. Murray. Zürih: Spring Publications, 1976.
+- Jung, C. G. *The Psychology of Kundalini Yoga: Notes of the Seminar Given in 1932*. Ed. Sonu Shamdasani. Princeton UP, 1996 (K08-5).
+- Jung, C. G. *The Red Book: Liber Novus*. Ed. Sonu Shamdasani. New York: W. W. Norton, 2009 (Shamdasani'nin girişi Morgan'a verilen öğüdü aktarır; K03-1).
+
+**Christiana Morgan ve Murray üzerine**
+- Douglas, Claire. *Translate This Darkness: The Life of Christiana Morgan*. New York: Simon & Schuster, 1993.
+- Douglas, Claire. *The Woman in the Mirror: Analytical Psychology and the Feminine*. Boston: Sigo Press, 1990 (yayınevi doğrulanamadı).
+- Robinson, Forrest G. *Love's Story Told: A Life of Henry A. Murray*. Cambridge, MA: Harvard University Press, 1992.
+- Morgan, Christiana D. ve Murray, Henry A. "A Method for Investigating Fantasies: The Thematic Apperception Test." *Archives of Neurology and Psychiatry* 34 (1935).
+
+**Tanıtım ve eleştiri**
+- Curnow, Penny de Haas. *Visions* tanıtımı. *Journal of Analytical Psychology* 45/2 (2000): 349–351.
+- Wehr, Demaris S. *Jung and Feminism: Liberating Archetypes*. Boston: Beacon, 1987.
+- Young-Eisendrath, Polly. *Hags and Heroes: A Feminist Approach to Jungian Psychotherapy with Couples*. Toronto: Inner City Books, 1984.
+- Rowland, Susan. *Jung: A Feminist Revision*. Cambridge: Polity, 2002.
+- Adams, Michael Vannoy. *The Multicultural Imagination: "Race", Color, and the Unconscious*. London: Routledge, 1996.
+- Dalal, Farhad. "Jung: A Racist." *British Journal of Psychotherapy* 4/3 (1988).
+- Shamdasani, Sonu. *Cult Fictions: C. G. Jung and the Founding of Analytical Psychology*. London: Routledge, 1998.
+- Shamdasani, Sonu. *Jung and the Making of Modern Psychology: The Dream of a Science*. Cambridge: Cambridge UP, 2003.
+- Noll, Richard. *The Jung Cult: Origins of a Charismatic Movement*. Princeton UP, 1994.
+- Bair, Deirdre. *Jung: A Biography*. Boston: Little, Brown, 2003.
+- Jung, Emma. *Animus and Anima*. New York: Analytical Psychology Club, 1957 (animus denemesinin Almanca ilk yayını 1934).
+- Harding, M. Esther. *The Way of All Women*. New York: Longmans, Green, 1933.
+
+**Türkçe kaynaklar**
+- Eserin Türkçe çevirisi tespit edilemedi. Anima/animus ve aktif imgelem konularında Türkçe okuma için proje içindeki K04-2, K04-4, K06-1 ve K11-5 girişlerine bakınız.
+
+**Doğrulama için kullanılan URL'ler**
+- https://press.princeton.edu/isbn/9780691099712
+- https://press.princeton.edu/node/67271
+- https://www.routledge.com/Visions-Notes-on-the-Seminar-Given-in-1930-1934/Douglas-Jung/p/book/9780415187480
+- https://pep-web.org/browse/document/JOAP.045.0349A
+- https://en.wikipedia.org/wiki/Christiana_Morgan
+- https://en.wikipedia.org/wiki/Mary_Foote
+- https://www.librarycat.org/lib/CtrSacredSciences/item/120482761
+- https://cdmorganpsych.blogspot.com/2019/01/claire-douglas-and-translate-this.html

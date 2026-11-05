@@ -27,7 +27,7 @@ Kitap iki nedenle vazgeçilmezdir. Birincisi, Jung'un en çok alıntılanan söz
 
 **Geç dönem: Bilge figürü ve medya.** 1950'lerde, özellikle 80. (1955) ve 85. (1960) doğum günlerinde Jung bir "yaşayan klasik" olarak görülmeye başlandı. Radyo, televizyon ve film ekipleri Küsnacht'a geldi. Houston Üniversitesi'nden sosyal psikolog Richard I. Evans, ünlü psikologlarla yaptığı filme alınmış diyaloglar dizisi için Ağustos 1957'de Zürih'te Jung'la dört saatlik bir söyleşi çekti. BBC'nin yakın plan kamera tekniğiyle ünlü *Face to Face* dizisi için John Freeman'la yapılan söyleşi 22 Ekim 1959'da yayımlandı (çekim tarihi doğrulanamadı). Bu yayın Jung'un geniş İngiliz kamuoyuyla tanışmasını sağladı. Dolaylı olarak da *İnsan ve Sembolleri*'ni (K06-3) doğurdu: Yayıncı Wolfgang Foges ve Freeman, Jung'u geniş okura yönelik bir kitap yazmaya ikna ettiler. Aynı yıllarda Aniela Jaffé, *Anılar, Düşler, Düşünceler* (K03-3) için mülakat tutanakları tuttu (bkz. EK-02). Dolayısıyla "geç dönem sohbetleri" hem Jung'un kendi mitini kurduğu hem de başkalarının onun mitini kurduğu bir dönemin belgeleridir.
 
-**Edisyonun kendisi.** William McGuire (1917–2009) Bollingen Vakfı'nın editörüydü ve *Freud–Jung Mektupları*nı da hazırlamıştı. R.F.C. Hull ise CW'nin çevirmeniydi. Kitap, Hull'un 1974'teki ölümünden sonra McGuire tarafından tamamlandı. Önsöz, Teşekkür ve Bibliyografik Not'tan oluşan editoryal çerçeve, her metnin kaynağını (gazete, yayın, anı kitabı) belirtir. Jung'un çoğu söyleşiyi yayımdan önce görmediğini, bazılarını ise düzelttiğini akılda tutmak gerekir. Metin metin hangisinin onaylı olduğu, bu rapor kapsamında tek tek doğrulanamadı.
+**Edisyonun kendisi.** William McGuire Bollingen Vakfı'nın editörüydü ve *Freud–Jung Mektupları*nı da hazırlamıştı. R.F.C. Hull ise CW'nin çevirmeniydi. Kitap, Hull'un 1974'teki ölümünden sonra McGuire tarafından tamamlandı. Önsöz, Teşekkür ve Bibliyografik Not'tan oluşan editoryal çerçeve, her metnin kaynağını (gazete, yayın, anı kitabı) belirtir. Jung'un çoğu söyleşiyi yayımdan önce görmediğini, bazılarını ise düzelttiğini akılda tutmak gerekir. Metin metin hangisinin onaylı olduğu, bu rapor kapsamında tek tek doğrulanamadı.
 
 ## 3. Yapı ve İçerik: Bölüm Bölüm
 
@@ -86,7 +86,7 @@ Cilt, editoryal çerçevenin (Önsöz, Teşekkür, Bibliyografik Not) ardından 
 - **"The World of James Joyce [1954]" (James Joyce'un Dünyası).** Jung'un Joyce ve kızı Lucia üzerine anıları. Bunlar muhtemelen Patricia Hutchins'in Joyce kitabı için kaydedildi (doğrulanamadı). Jung, 1934'te tedavisine baktığı Lucia ile babasını, nehrin dibine giden iki kişiye benzetir: Biri düşmekte, öteki dalmaktadır (özet). Bu imge "Ulysses" denemesiyle (1932, CW 15; bkz. K09-4) birlikte, Jung'un sanat ile psikoz arasındaki ayrımına dair en çok alıntılanan formüllerden biri olmuştur.
 - **"Men, Women, and God" (Erkekler, Kadınlar ve Tanrı).** 1955 tarihli bir İngiliz gazete söyleşisi (gazeteci ve gazete doğrulanamadı). Konular cinsiyet rolleri, evlilik ve modern insanın din ihtiyacıdır. Feminist eleştirinin sık alıntıladığı genellemeler içerir.
 - **"The Stephen Black Interviews" (Stephen Black Söyleşileri).** 1955'te BBC için 80. doğum günü vesilesiyle yapılan söyleşiler (ayrıntı doğrulanamadı). Freud, kendi yolu ve psikolojinin geleceği üzerinedir.
-- **"An Eightieth Birthday Interview" (Seksenci Doğum Günü Söyleşisi).** 1955 tarihli bir İsviçre söyleşisi (ayrıntı doğrulanamadı).
+- **"An Eightieth Birthday Interview" (Sekseninci Doğum Günü Söyleşisi).** 1955 tarihli bir İsviçre söyleşisi (ayrıntı doğrulanamadı).
 - **"The Therapy of Music [1956]" (Müzik Terapisi).** Jung'un bir müzik terapistiyle karşılaşmasının kaydı. Bu kişi büyük olasılıkla piyanist Margaret Tilly'dir (doğrulanamadı). Jung, müziğin kolektif bilinçdışının arketipsel katmanlarına doğrudan ulaştığını kabul eder ve onun analizdeki yerine dair ilgisini dile getirir (özet).
 - **"The Houston Films" (Houston Filmleri).** Richard I. Evans'ın 1957'de çektiği dört saatlik filmin kitap için seçilmiş bölümleri. Evans bir akademik psikolog olarak sistematik sorular sorar. Freud ile ilişki ve cinsel kuramın sınırları, libido kavramı, Oedipus kompleksi, içedönüklük/dışadönüklük ve dört işlev, persona, anima/animus, arketiplerin içgüdüyle ilişkisi, kolektif bilinçdışı, kelime çağrışım deneyi ve Rorschach, J.B. Rhine'ın ESP deneyleri ve eşzamanlılık bu soruların başlıcalarıdır. Jung burada kendini ısrarla bir "ampirist" olarak tanımlar ve arketipi bir "davranış örüntüsü" olarak, biyolojik bir kalıp olarak açıklar (özet). Bu biçimiyle söyleşi, Jung psikolojisinin en derli toplu sözlü özetidir. Tam metin Evans'ın ayrı kitaplarındadır (bkz. 3.7).
 - **"Jung and the Christmas Tree" (Jung ve Noel Ağacı).** Noel ağacının sembolizmi üzerine bir gazete söyleşisi (tarih ve yayın yeri doğrulanamadı). Konu, Jung'un simyadaki "felsefi ağaç" incelemesine (CW 13; bkz. K07-3) bağlanır.
@@ -121,3 +121,121 @@ Cilt, editoryal çerçevenin (Önsöz, Teşekkür, Bibliyografik Not) ardından 
 - **Aniela Jaffé tutanakları (1957–58):** ADD'nin ham malzemesi. Bkz. EK-02 ve K03-3.
 - **Yazılı söyleşi cevapları:** CW 18'deki bazı metinler (H.L. Philp'e verilen cevaplar; Tel Aviv gazetesi *Mishmar*'ın Hitler üzerine sorularına 1955 tarihli cevaplar, künye doğrulanamadı). Bkz. K09-6.
 
+## 4. Temel Kavramlar ve Argümanlar
+
+### 4.1 Sözlü Jung: Türün epistemolojisi
+Söyleşi metinleri üç ayrı süzgeçten geçer. İlki Jung'un anlık ve çoğu zaman ironik konuşmasıdır. İkincisi gazetecinin seçmesi ve yeniden kurmasıdır. Üçüncüsü çeviridir. Viyana basın toplantısının "üç versiyonu" bu süzgeçleri bilerek görünür kılar. Bu yüzden söyleşilerdeki bir cümle, Jung'un yazılı eserlerindeki karşılığıyla sınanmadan "Jung'un görüşü" sayılamaz. Öte yandan söyleşiler yazılı eserlerde törpülenen bir şeyi de korur: Jung'un kendini konumlandırma biçimini, yani "ampirist hekim" personasını ve onun altında görünen peygamberimsi tonu.
+
+### 4.2 "İnanmama gerek yok, biliyorum"
+Kitabın en ünlü cümlesinin anlamı üç katmanda açılır.
+
+1. **Biyografik katman.** ADD'de (K03-3) anlatıldığına göre papaz baba Paul Jung inanmak zorundaydı ama dinsel bir deneyimi yoktu ve bu boşlukta acı çekti. Jung'un "inanmama gerek yok" demesi, babasının kör inancına karşı kendi doğrudan deneyimini öne süren bir cevaptır.
+2. **Epistemolojik katman.** Jung, Kantçı bir ayrımla Tanrı'nın kendisi (metafizik nesne) hakkında bir şey bilinemeyeceğini, ama psişede ortaya çıkan Tanrı-imgesinin (*Gottesbild*) ve numinöz deneyimin ampirik olgular olduğunu savunur (bkz. K08-1). Buradaki "bilmek" bir önerme bilgisi değildir. Dolaysız deneyim anlamında bir tanışıklık bilgisidir.
+3. **Kendi yorumu.** Yayından sonra gelen yoğun mektuplar üzerine Jung açıklama yapmak zorunda kaldı. M. Leonard'a 5 Aralık 1959'da yazdığı mektupta (bkz. K11-1) ve *The Listener*'a yazdığı mektupta (Ocak 1960, gün doğrulanamadı; CW 18, bkz. K09-6) "biliyorum" sözünün belirli bir Tanrı'yı (Zeus, Yahve, Allah ya da Teslis'in Tanrısı) bildiği anlamına gelmediğini söyler. Kastettiği, kendi içinde bilinmeyen, ama etkileriyle karşılaştığı ve herkesin uzlaşısıyla (*consensus omnium*) "Tanrı" diye adlandırdığı bir faktörle yüz yüze olduğunu bilmektir (özet).
+
+Bu cevap teolojik açıdan iki yöne çekilmiştir. Kimi okurlar onu bir iman tanıklığı olarak sevinçle karşıladı. Martin Buber gibi eleştirmenler ise Jung'u inancın yerine "bilgi" (gnosis) koymakla suçlamıştı (bkz. 7. bölüm ve K08-3).
+
+### 4.3 Kitle, lider ve "büyücü-hekim" tipolojisi
+1930'lardaki söyleşilerin ortak argümanı şu adımlarla ilerler:
+1. Bireyin kolektif bilinçdışından gelen arketipsel bir içerikle bilinçli bağı koptuğunda, bu içerik toplumsal düzeyde bir "psişik salgın" olarak geri döner.
+2. Kitle, karşılayamadığı bu içeriği bir figüre yansıtır.
+3. Lider, bu yansıtmayı taşıyan bir büyücü-hekimdir. Gücü kendinden değil, kolektif yansıtmadan gelir. Hitler bu yüzden Almanların bilinçdışı fısıltılarının "hoparlörü"dür.
+4. Lider bir kişi olarak açıklanamaz, tarihsel bir psişik durumun belirtisi olarak açıklanabilir.
+
+Bu model "Wotan" (1936) denemesinin ve CW 10'daki öteki yazıların (K09-1) söyleşi dilindeki karşılığıdır. Freud'un *Kitle Psikolojisi ve Ego Analizi*nden (1921) farkı açıktır. Freud'da lider, ego-ideali yerine konan bir figürdür. Jung'da ise kolektif bir arketipin taşıyıcısıdır. Argümanın zaafı da buradadır. "Teşhis" kipi ahlaki yargıyı askıya alır, Radyo Berlin'de olduğu gibi tarifi övgüye benzetir ve Knickerbocker söyleşisinde jeopolitik tavsiyeye kayar.
+
+### 4.4 Kolektif suç ve gölge
+1945 söyleşisi gölge kavramını ulus ölçeğine taşır. Bastırılmış kötülük kabul edilmedikçe yansıtılmaya devam eder. Bu yüzden Almanların suçu psikolojik bir olgu olarak kabul etmesi gerekir. Kavram, Jung'un savaş sonrası etiğini ve *Keşfedilmemiş Benlik*'teki (K09-2) bireysel sorumluluk vurgusunu hazırlar.
+
+### 4.5 "İki milyon yaşındaki insan" ve "tek tehlike insandır"
+Bu iki imge geç dönem söyleşilerinin halka yönelik "öğretisini" özetler. Birincisi kolektif bilinçdışını kişileştirir: İçimizdeki yaşlı insan rüyalarda konuşur ve modern akılcılık onu duymazdan gelir. İkincisi buradan siyasal bir sonuç çıkarır. Nükleer çağda asıl risk, tanınmamış psişedir. Psikoloji bu yüzden çağın kilit bilimidir. Jung bu iddiayı yazılı olarak "Psikolojinin Günümüz Kültürü İçin Anlamı" ve *Keşfedilmemiş Benlik* gibi metinlerde geliştirir (bkz. K09-1, K09-2).
+
+### 4.6 Ölüm, yaşlılık ve psişenin göreliliği
+*Face to Face*'te ve Serrano görüşmelerinde Jung, telepatik ve öngörüsel deneyimlerden yola çıkarak psişenin kısmen zaman ve mekânın dışında olduğunu söyler. Buradan ölüme anlam yükleyen bir yaşam tavrı türetir. Bu, eşzamanlılık kuramının (K05-2) gündelik dile çevrilmiş hâlidir. Jung bunu "kanıt" olarak değil, psikolojik açıdan sağlıklı bir hipotez olarak sunar.
+
+### 4.7 Ampirist persona ve mistik imge
+Evans filmlerinde Jung kendini ısrarla bir "ampirist" olarak tanımlar. Serrano'nun ve Eliade'ın kayıtlarında ise bir bilge-ermiş gibi görünür. Kitap, Jung'un iki öz-imgesi arasındaki bu gerilimi en iyi gösteren belgedir. Bu gerilim, ADD'deki "1 numaralı ve 2 numaralı kişilik" ikiliğinin kamusal yansımasıdır.
+
+## 5. Kaynaklar, Etkiler ve Diyalog
+
+- **Muhataplar entelektüel ortaklar olarak.** Soru soranların kimliği metnin içeriğini belirler. Evans davranışçı ve akademik psikolojinin sorularını sorar. Eliade din tarihi ve simyanın, Freeman İngiliz kamu yayıncılığının sağduyulu şüpheciliğinin dilini konuşur. Knickerbocker siyasetin "kim kazanacak?" sorusunu getirir. Weizsäcker Nazi döneminin psikoterapi siyasetini, Serrano ise ezoterik bir arayışı temsil eder. Baudouin (Nancy okulu kökenli telkin araştırmacısı) ve Harding (ilk kuşak Jungcu) ise "içeriden" tanıklardır.
+- **Düşünsel kaynaklar.** Kant'ın kendinde şey ile görüngü ayrımı ("biliyorum" sözünde), Rudolf Otto'nun numinöz kavramı, Nietzsche ve Wotan imgesi (Zerdüşt semineri, K10-4), Lévy-Bruhl'ün *participation mystique* kavramı (kitle ile liderin özdeşleşmesinde) ve simya geleneği (Eliade söyleşisi; K07-2, K07-4).
+- **Karşı çıkılanlar.** Freud'un cinsellik kuramı (*Face to Face*, Evans); Hillyer ve *Saturday Review* saldırısı; akılcı-materyalist kültür.
+- **Ernest Jones'un "tepkileri".** Evans'ın kitabında Jones, Jung'un Freud anlatısına Freudcu cepheden cevap verir; ayrıntılar için bkz. K02-1 ve K02-3.
+
+## 6. Jung'un Düşünce Gelişimindeki Yeri
+
+Kitap yeni bir kuram içermez. Değeri, Jung'un düşüncesinin hangi aşamada nasıl kamuya anlatıldığını göstermesidir.
+
+- **Öncesi ve paralelleri.** 1912 söyleşisi Fordham konferanslarıyla (K02-1), Oeri'nin anıları Zofingia'yla (K01-1) birlikte okunmalıdır. 1930'lardaki siyasal söyleşiler CW 10 (K09-1), Berlin semineri (EK-01) ve Zerdüşt semineriyle (K10-4) aynı dönemin ürünüdür. "İki milyon yaşındaki insan" imgesi CW 9/I (K06-1) ve CW 8 (K05-1), Eliade söyleşisi ise *Aion* (K06-2), *Eyüp'e Cevap* (K08-3) ve simya ciltleriyle (K07-2, K07-4) paraleldir. Lindbergh görüşmesi *Uçan Daireler*'le (K09-3), Joyce anıları CW 15'le (K09-4) bağlantılıdır.
+- **Geç dönem ve sonrası.** *Face to Face* *İnsan ve Sembolleri*'ni (K06-3) doğurmuştur. Geç söyleşiler ADD (K03-3), Jaffé tutanakları (EK-02) ve *Mektuplar* 2. cilt (K11-1) ile birlikte Jung'un "son sözleri" külliyatını oluşturur.
+- **Süreklilik ve kırılma.** Süreklilik açısından, psişenin gerçekliği ve psikolojinin çağın merkezi bilimi olduğu iddiası 1912'den 1961'e kadar değişmez. Kırılma açısından, 1933'teki liderlik ve "yeni Almanya" konusundaki temkinli ve kimi yerlerde onaylayıcı ton, 1938'den itibaren teşhis diline, 1945'te ise açık bir mahkûmiyete ve kolektif suç tezine dönüşür. Söyleşiler bu dönüşümün kronolojisini yazılı eserlerden daha net gösterir.
+
+## 7. Alımlanma, Eleştiriler ve Tartışmalar
+
+- **Kaynak eleştirisi.** Sonu Shamdasani, Jung biyografilerinin söyleşi ve anı türü kaynaklara eleştirisiz dayanmasını sorunlu bulur (*Jung Stripped Bare by His Biographers, Even*, 2005). Henri F. Ellenberger'in *The Discovery of the Unconscious* (1970) adlı eseri de basın kaynaklarını ihtiyatla kullanan erken ve dengeli bir tarihsel çerçeve sunar. Bu kitap tarihçiler için hem zengin hem güvenilirliği metinden metne değişen bir kaynaktır.
+- **Nazizm tartışması: Eleştirel çizgi.** Geoffrey Cocks (*Psychotherapy in the Third Reich*, 1985) dönemin kurumsal bağlamını belgeledi. Farhad Dalal (1988) Jung'un ırk ve ulus psikolojisini ırkçı buldu. Aryeh Maidenbaum ve Stephen Martin'in derlediği *Lingering Shadows* (1991) bu tartışmayı Jungcu toplulukların içine taşıdı. Andrew Samuels (*The Political Psyche*, 1993), sorunun bireysel sempatiden çok Jung'un "ulusal psikoloji" kuramında ve lider analizinde yattığını savundu. Richard Noll (*The Jung Cult*, 1994; *The Aryan Christ*, 1997) Jung'u völkisch düşünce bağlamına yerleştirdi; bu yorum tartışmalıdır. Radyo Berlin söyleşisi ve Knickerbocker'ın "Doğu'ya yönlendirme" önerisi bu literatürün başlıca kanıtları arasındadır.
+- **Nazizm tartışması: Savunma ve bağlamsallaştırma çizgisi.** Ernest Harms (1946) Jung'u "Freud'un ve Yahudilerin savunucusu" olarak sundu. Aniela Jaffé ("C.G. Jung and National Socialism", *From the Life and Work of C.G. Jung*) Jung'un sonradan Leo Baeck'e "kaydım" (*ausgerutscht*) dediğini aktarır; bu bilgi Gershom Scholem'in anlatımına dayanır. Jay Sherry (*Carl Gustav Jung: Avant-Garde Conservative*, 2010) Jung'u muhafazakâr İsviçre bağlamında okur. Deirdre Bair'in biyografisi (2003), savaş yıllarında Amerikan istihbaratı OSS'nin Allen Dulles aracılığıyla Jung'a danıştığını anlatır. Dengeli bir sonuç şudur: Söyleşiler Jung'un Nazizme katıldığını göstermez. Ama 1933–34'te yeni rejimin dilini eleştirisiz kullandığını, lider "teşhisinin" ahlaki mesafeyi kolayca yitirdiğini ve kendi hatasıyla yüzleşmesinin büyük ölçüde özel alanda kaldığını gösterir.
+- **Teolojik tartışma.** "Biliyorum" sözü Martin Buber'in *Tanrı Tutulması* (*Eclipse of God*, 1952) kitabındaki "gnostisizm" suçlamasının popüler yankısı oldu. Hristiyan okurlar onu tanıklık, eleştirmenler kibirli bir gnosis iddiası olarak okudu. Jung *The Listener* mektubunda yanlış anlamayı düzeltmeye çalıştı (bkz. K08-3, K11-3).
+- **Feminist eleştiri.** 1912'deki Amerikan kadını üzerine sözler ve 1955 tarihli "Men, Women, and God" söyleşisi, kadına ve cinsiyete dair özcü genellemeler içerir ve feminist Jung eleştirisinin (örneğin Demaris Wehr, *Jung and Feminism*, 1987) ilgilendiği türden belgelerdir.
+- **Aşırı sağın sahiplenmesi.** Miguel Serrano daha sonra "ezoterik Hitlercilik" adı verilen neo-Nazi bir mistisizmin önde gelen ismi oldu (bkz. Nicholas Goodrick-Clarke, *Black Sun*, 2002). Bu, Serrano'nun Jung anlatımlarının hem ideolojik bir süzgeçten geçtiği hem de aşırı sağ çevrelerde Jung'u sahiplenmek için kullanıldığı anlamına gelir. Serrano metinleri bu nedenle özel ihtiyat gerektirir.
+
+## 8. Etki ve Güncel Değer
+
+- **Popüler kültür.** *Face to Face* kaydı bugün çevrimiçi en çok izlenen Jung belgesidir. "Biliyorum" cevabı alıntı kültürünün, sosyal medyanın ve popüler maneviyat literatürünün sabit unsurlarından biridir. Çoğu zaman da Jung'un *Listener* mektubunda düzelttiği teistik anlamda kullanılır. "İçimizdeki iki milyon yaşındaki insan" imgesi Jungcu popüler psikolojinin ve evrimsel psikiyatrinin (örneğin Anthony Stevens'ın *The Two Million-Year-Old Self* adlı kitabı, 1993; künye doğrulanamadı) ortak dağarcığına girmiştir.
+- **Eğitim.** Evans filmleri ve *Face to Face* uzun süre psikoloji derslerinde Jung'a giriş malzemesi olarak kullanıldı. Evans'ın kitapları, Jung psikolojisinin yazarın kendi ağzından en kısa özeti olarak hâlâ okunur.
+- **Tarih yazımı.** Kitap, Jung'un siyasal tutumu ve kamusal imgesi üzerine her ciddi çalışmanın başvuru kaynağıdır.
+- **Ayakta kalan ve kalmayan.** Kitlelerin psişik salgınlara açıklığı, liderin kolektif yansıtma taşıyıcısı olması ve psişenin siyasal önemi gibi teşhisler bugün popülizm ve kitle psikolojisi tartışmalarında yeniden okunuyor. Ulus psikolojisine ve cinsiyete dair genellemeler, "ırk" bilinçdışı imaları ve diktatörlere yönelik tarafsız-teşhisçi ton ise savunulamaz ve bugün tarihsel belge olarak okunur.
+
+## 9. Okuma Rehberi
+
+- **Başlangıç sırası.** Önce *Face to Face* (en kısa ve en canlı metin), ardından "The Houston Films" okunmalıdır; bu ikisi Jung psikolojisine sözlü bir giriştir. Siyasal dosya için Radyo Berlin (1933), "The Psychology of Dictatorship" (1936), "Diagnosing the Dictators" (1938), "The Post-War Psychic Problems of the Germans" (1945) ve *Saturday Review* cevabı (1949) **sırayla** ve CW 10'daki "Wotan" ve "Felaketten Sonra" ile **birlikte** okunmalıdır (K09-1).
+- **Ön koşullar.** Kolektif bilinçdışı ve arketip (K06-1), gölge (K04-2) ve Tanrı-imgesi (K08-1) kavramlarına aşinalık. Siyasal dosya için 1933–34 psikoterapi derneği bağlamı (EK-01).
+- **Baskı.** Princeton 1987 karton kapaklı baskısı ya da 2020 e-kitabı. Her metnin kaynak künyesi için Bibliyografik Not mutlaka kontrol edilmelidir. *Face to Face* için mümkünse video kaydı, Evans için tam metinli kitaplar tercih edilmelidir.
+- **Yaygın yanlış okumalar.**
+  1. "Biliyorum" sözünü teistik bir Tanrı kanıtı ya da dogmatik bir iman beyanı olarak okumak.
+  2. Knickerbocker ya da Radyo Berlin cümlelerini tek başına Nazi sempatisinin kanıtı ya da tersine, aklanmanın kanıtı saymak. İkisi de kronolojik bütünlük içinde okunmalıdır.
+  3. Gazeteci aktarımlarını Jung'un kelimesi kelimesine sözü sanmak.
+  4. Serrano'nun lirik anlatımını "otantik son Jung" olarak almak.
+
+## 10. Kilit Pasajlar
+
+1. **"Biliyorum" (*Face to Face*, 1959).** Freeman: "Şimdi Tanrı'ya inanıyor musunuz?" Jung: "Şimdi mi? Cevaplaması zor. Biliyorum. İnanmama gerek yok. Biliyorum." (serbest çeviri; yayın 22 Ekim 1959). Jung'un psikolojik ampirizminin ve deneyim temelli din anlayışının yoğunlaştığı cümle; bkz. 4.2.
+2. **İnsan tehlikedir (*Face to Face*, 1959).** "Tek gerçek tehlike insanın kendisidir. Büyük tehlike odur ve biz bunun acınacak ölçüde farkında değiliz. İnsan hakkında hiçbir şey bilmiyoruz, çok az şey biliyoruz." (serbest çeviri). Psikolojinin siyasal önceliği tezi; bkz. K09-2.
+3. **Büyücü-hekim ve hoparlör ("Diagnosing the Dictators", 1938).** Hitler'in gücü siyasal değil büyüseldir. Hitler, Alman ruhunun duyulmayan fısıltılarını bilinçli kulağa ulaştıran bir hoparlör gibidir. Mussolini fiziksel güçle egemen olan şef, Hitler ise halkın yansıtmasıyla güçlenen büyücü-hekim tipidir (özet).
+4. **Lider ve hareket (Radyo Berlin, 1933).** Kolektif hareketler organik olarak, hareketin anlamını cisimleştiren bir liderde doruğa ulaşır. Ancak bireyin kendi üzerine düşünmesi, kitle içinde erimemesinin koşuludur (özet). Eleştirmenlerin en sık alıntıladığı belge.
+5. **Kolektif suç ("The Post-War Psychic Problems of the Germans", 1945).** Almanlar suçlarını psikolojik bir olgu olarak kabul etmedikçe iyileşemezler. Kolektif suç bir hukuk kavramı değil, psişik bir gerçekliktir (özet).
+6. **İki milyon yaşındaki insan (1936).** Her birimizin içinde insanlığın bütün deneyimini taşıyan iki milyon yaşında bir insan vardır. Rüyalar onun dilidir ve modern insan onunla bağını yitirdiği için hastalanır (özet).
+7. **Joyce ve Lucia (1954).** Baba ile kız, nehrin dibine giden iki insana benzer: Biri düşmekte, öteki dalmaktadır (özet; ayrıca Ellmann'ın Joyce biyografisinde aktarılır).
+8. ***The Listener* mektubu (1960, CW 18).** "Biliyorum" sözüyle belirli bir Tanrı'yı değil, kendi içinde bilinmeyen ama etkileriyle karşı karşıya kaldığı ve herkesin uzlaşısıyla "Tanrı" denen bir faktörü bildiğini kastetmiştir (özet; bkz. K09-6, K11-1).
+
+## 11. Kaynakça ve İleri Okuma
+
+**Birincil kaynaklar**
+- McGuire, William ve R.F.C. Hull (ed.). *C.G. Jung Speaking: Interviews and Encounters*. Bollingen Series XCVII. Princeton: Princeton University Press, 1977 (xxii + 489 s.); karton kapak 1987 (520 s.); e-kitap 2020. Londra: Thames & Hudson, 1978 (doğrulanamadı).
+- *C.G. Jung im Gespräch: Interviews, Reden, Begegnungen*. Einsiedeln: Daimon, 1986 (künye doğrulanamadı).
+- Evans, Richard I. *Conversations with Carl Jung and Reactions from Ernest Jones*. Princeton: Van Nostrand, 1964; *Jung on Elementary Psychology*. New York: Dutton, 1976 (yayınevi bilgileri yeniden doğrulanamadı).
+- Serrano, Miguel. *C.G. Jung and Hermann Hesse: A Record of Two Friendships*. London: Routledge & Kegan Paul, 1966 (künye doğrulanamadı).
+- Jung, C.G. *The Symbolic Life* (CW 18) — *The Listener* mektubu ve Philp cevapları (K09-6); *Civilization in Transition* (CW 10) — "Wotan", "After the Catastrophe" (K09-1); *Letters*, c. 2 (K11-1).
+- Jaffé, Aniela. *From the Life and Work of C.G. Jung*. New York: Harper & Row, 1971 (İng. çeviri; künye doğrulanamadı).
+
+**İkincil literatür**
+- Bair, Deirdre. *Jung: A Biography*. Boston: Little, Brown, 2003.
+- Buber, Martin. *Eclipse of God*. New York: Harper, 1952.
+- Cocks, Geoffrey. *Psychotherapy in the Third Reich: The Göring Institute*. New York: Oxford University Press, 1985.
+- Dalal, Farhad. "Jung: A Racist." *British Journal of Psychotherapy* 4/3 (1988).
+- Ellenberger, Henri F. *The Discovery of the Unconscious*. New York: Basic Books, 1970.
+- Goodrick-Clarke, Nicholas. *Black Sun: Aryan Cults, Esoteric Nazism and the Politics of Identity*. New York: NYU Press, 2002.
+- Maidenbaum, Aryeh ve Stephen A. Martin (ed.). *Lingering Shadows: Jungians, Freudians, and Anti-Semitism*. Boston: Shambhala, 1991.
+- Noll, Richard. *The Jung Cult* (1994); *The Aryan Christ* (1997).
+- Samuels, Andrew. *The Political Psyche*. London: Routledge, 1993.
+- Shamdasani, Sonu. *Jung Stripped Bare by His Biographers, Even*. London: Karnac, 2005.
+- Sherry, Jay. *Carl Gustav Jung: Avant-Garde Conservative*. New York: Palgrave Macmillan, 2010.
+- Wehr, Demaris S. *Jung and Feminism: Liberating Archetypes*. Boston: Beacon, 1987.
+- Türkçe kaynaklar: Kitabın ya da başlıca söyleşilerin Türkçe çevirisi tespit edilemedi; Türkçe Jung literatürünün genel haritası için bkz. K11-5.
+
+**Doğrulama için kullanılan URL'ler**
+- Princeton University Press, kitap sayfası (1987 karton kapak, 520 s., "50'yi aşkın kayıt"): https://press.princeton.edu/books/paperback/9780691018713/cg-jung-speaking
+- Perlego, e-kitap içindekiler listesi (55 metnin tam başlık listesi; e-ISBN 9780691216393): https://perlego.com/book/1563886/cg-jung-speaking-interviews-and-encounters-pdf
+- Open Library kaydı (1977, Bollingen 97, xxii + 489 s., LCCN 77071985): https://openlibrary.org/books/OL4560860M/C._G._Jung_speaking
+- Not: Bu oturumda web arama kotası erken tükendiği için Türkçe çeviriler, Almanca baskı ve tekil söyleşilerin yayın künyeleri ek arama ile doğrulanamadı. Bu bilgiler metinde "(doğrulanamadı)" olarak işaretlendi.

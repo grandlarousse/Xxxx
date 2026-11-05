@@ -88,3 +88,198 @@ Kerényi'nin "Das Urkind in der Urzeit" ("İlk Zamandaki İlk Çocuk") incelemes
 Jung önce yöntemsel bir uyarıyla başlar. Mitteki "çocuk", gerçek bir çocuğun kopyası ya da kişinin çocukluk anısının yansıması değildir. Bu "kişiselci" indirgeme mitin özgüllüğünü kaçırır. İlkel zihniyet mit *icat etmez*, mitleri *yaşar*. Mitler, bilinçöncesi psişenin bilinçdışı olaylar hakkındaki istemsiz bildirimleridir. Arketip hiçbir zaman "nihai olarak açıklanıp" geride bırakılamaz; o hepimizde bulunan bir *psişik organ*dır. Onu yitirmek ya da ondan kopmak, organ kaybına benzer bir köksüzlük ve nevroz üretir. Bu yüzden arketip *geçmişle bağ*dır. Bilinci köklerinden koparmamanın aracıdır.
 
 Çocuk motifinin *işlevi* telafidir. Tek yanlı, aşırı farklılaşmış bilince, yitirilmiş çocuksu bütünlüğü hatırlatır. Ama çocuk aynı zamanda *gelecek*tir: Kişiliğin olası sentezini önceden haber verir, karşıtları birleştiren bir sembol olarak "kurtarıcı" niteliği taşır. Özel fenomenolojide *terk edilmişlik* (Musa, Romulus, Krişna; yeni olanın yalnızlığı), *yenilmezlik* (küçükten küçük, büyükten büyük; Upanişadların "başparmak boyundaki" puruşası, Tom Thumb), *hermafroditlik* (karşıtların birliği) ve *başlangıç–son* olarak çocuk (insanın bilinç öncesi ve ölüm sonrası bütünlüğü) incelenir. Denemenin temel cümlesi, çocuğun her varlıktaki en güçlü ve en kaçınılmaz dürtüyü, yani *kendini gerçekleştirme dürtüsünü* temsil ettiğidir. Çocuk bu nedenle Kendilik'in bir habercisidir.
+
+### V. "Kore'nin Psikolojik Yönleri" (*Zum psychologischen Aspekt der Korefigur*, 1941)
+
+Kerényi'nin "Kore" incelemesine (Demeter–Persephone mitosu ve Eleusis gizemleri) eşlik eden denemedir. Jung'un çıkış noktası, Demeter ile Kore'nin, yani ana ile kızın tek bir psişik birim oluşturmasıdır. Bir *kadının* psikolojisinde Demeter–Kore figürü, Jung'un "üst düzey kişilik" (*übergeordnete Persönlichkeit*) dediği şeyin, yani Kendilik'in dişil görünüşüdür. Her ana kendi içinde kızını, her kız da anasını taşır. Her kadın geriye doğru anasına, ileriye doğru kızına uzanır. Eleusis gizemlerine katılım bu nedenle kadına, bireysel yaşamının kuşaklar boyunca uzandığı, ölümsüzlüğe katıldığı duygusunu verir. Bireysel yaşam bir *tipe* yükseltilir. Bir *erkeğin* psikolojisinde ise Kore figürü animanın bir biçimidir. Bilinmeyen genç kız, dans eden kız, tehlikedeki kız ya da "iki yüzlü" kadın olarak görünür.
+
+Jung denemenin büyük kısmını vaka malzemesine ayırır. Kadın ve erkek hastaların rüya ve vizyonlarındaki Kore, Ana, Hekate, ve Baubo benzeri figürleri, yeraltı ve kurban motifleriyle birlikte bir dizi hâlinde sunar. Örneklerin ayrıntılı numaralandırması burada aktarılmamıştır (özet). Sonuçta Kore'nin "masum kız"dan yeraltı tanrıçasına uzanan çift yönlü doğası, kadın psikolojisinde masumiyet ile karanlık bilginin bir arada var olduğunu gösterir. Denemenin sınırı Jung tarafından açıkça çizilir. Kadın psikolojisine dair söyledikleri, Jung'un kendi itirafıyla, erkek gözlemcinin dışarıdan yaptığı çıkarımlardır. Bu itiraf feminist eleştirinin de odak noktalarından biridir (bkz. §7).
+
+### VI. "Masallarda Ruhun Fenomenolojisi" (*Zur Phänomenologie des Geistes im Märchen*, 1945/1948)
+
+1945 Eranos konferansıdır ("Zur Psychologie des Geistes"); *Symbolik des Geistes*'ta (1948) yeniden basıldı. Yapısı şöyledir: (1) "Ruh" sözcüğü üzerine; (2) Ruhun rüyalarda kendini temsili; (3) Masallarda ruh; (4) Masallarda hayvan biçimli ruh sembolizmi; (5) Ek; (6) Sonuç.
+
+**Sözcük çözümlemesi.** Almanca *Geist* kelimesi nefes, rüzgâr, hayalet (*Gespenst*), zihin, alkollü içki ("spirit") ve Kutsal Ruh anlamlarına yayılır. Jung'a göre bu anlam yelpazesi, ruhun psikolojik olarak *özerk*, kendiliğinden hareket eden, imgeler üreten dinamik bir ilke olarak deneyimlenmesinin izidir. Ruh, egonun ürünü değildir; ego onun karşısındadır.
+
+**Rüyalarda ve masallarda.** Ruhun kişileşmiş biçimi *Bilge Yaşlı Adam*dır. Rüyalarda büyücü, doktor, rahip, öğretmen ya da büyükbaba olarak görünür. Masallarda ise kahraman umutsuz ve çıkışsız bir durumdayken, ancak derin bir düşünme veya şanslı bir fikirle kurtulabileceği anda ortaya çıkar. Yaşlı adam soru sorar ("kimsin, nereye gidiyorsun?"), düşünmeye zorlar, büyülü yardım verir. Jung bunu, bilincin tıkandığı yerde kendiliğinden ortaya çıkan anlam ve öngörü işlevinin kişileşmesi olarak okur. Yaşlı adam *iki değerlidir*. İyi büyücü ile kötü büyücü, yardımcı ile tuzak kuran aynı arketipin iki yüzüdür. Jung ayrıca ruhun hayvan biçimli görünüşlerini (kuşlar, konuşan hayvanlar ve yardımcı hayvanlar) inceler.
+
+**Ek ve sayı sorunu.** Ek bölümünde Jung, bir masaldaki üç bacaklı ve dört bacaklı atlar motifinden yola çıkar. Örnek olarak verilen masalın adı "Ağaçtaki Prenses" olarak hatırlanmaktadır (masal adı doğrulanamadı). Buradan üç ile dört arasındaki gerilime geçer: Erkeksi üçlük ve "eksik dördüncü", bilinçli işlevler ve aşağı işlev, Teslis ve dördüzlük. Bu tema *Psikoloji ve Din* (K08-1), "Teslis Dogması" (K08-2) ve *Psikoloji ve Simya* (K07-2) ile ortaktır. Masal yorumunun yöntemsel önemi büyüktür. Marie-Louise von Franz'ın bütün masal yorumculuğu bu denemeyi model alır (bkz. §8).
+
+### VII. "Düzenbaz Figürünün Psikolojisi Üzerine" (*Zur Psychologie der Tricksterfigur*, 1954)
+
+Paul Radin'in Winnebago (Ho-Chunk) yerlilerinden derlediği düzenbaz döngüsüne (Wakdjunkaga) yazılmış katkıdır. Kitap Kerényi'nin Yunan malzemesi üzerine bir denemesini de içerir (Radin–Kerényi–Jung, *Der göttliche Schelm*, Rhein-Verlag, Zürih 1954; İngilizcesi *The Trickster*, 1956). Jung düzenbazı Avrupa geleneğindeki karşılıklarıyla birlikte ele alır. Bunlar ortaçağ kilisesinin "Ahmaklar Bayramı" (*festum stultorum*) ve "Eşek Bayramı" (*festum asinorum*), karnaval geleneği, simyacıların Mercurius'u ve poltergeist olaylarıdır.
+
+Jung'un ana tezleri üç tanedir. (1) Düzenbaz, "kesinlikle farklılaşmamış bir insan bilincinin" yansımasıdır. Hayvan ile tanrı arasındadır, bedenini bile tanımaz, sonra yavaş yavaş öğrenir. Jung bu figürü bir *psikolojem* (*psychologem*), yani arketipsel bir psişik yapının mitolojik ifadesi olarak görür. (2) Düzenbaz *kolektif bir gölge figürüdür*, bireylerdeki aşağı karakter özelliklerinin toplamıdır. Mit, bilincin geride bıraktığı ilkel düzeyi hem hatırlatır hem de güldürü yoluyla ondan mesafe kazandırır. Ritüelleşmiş "kural dışı" bayramlar da kolektif gölgenin denetimli biçimde dışavurulmasıdır. (3) Düzenbaz aynı zamanda kurtarıcının habercisidir. Tanrı, insan ve hayvandır; sonradan kültür kahramanına ve şifacıya dönüşür. Gölgenin bilince alınması bu nedenle yalnızca ahlaki bir sorun değil, aynı zamanda bir dönüşüm imkânıdır. Jung kapanışta modern insanın kendi kolektif gölgesini "düşmana" yansıtma eğilimine dikkat çeker. Savaş sonrası bağlamda bu, açık bir siyasal uyarıdır (bkz. K09-1).
+
+### VIII. "Bilinçli, Bilinçdışı ve Bireyleşme" (*Conscious, Unconscious, and Individuation*, 1939)
+
+Jung'un İngilizce yazdığı bu metin ilk olarak *The Integration of the Personality* (Farrar & Rinehart, New York 1939) kitabında "The Meaning of Individuation" başlığıyla yayımlandı. Bireyleşmenin en net tanımı buradadır. Bireyleşme, kişinin psikolojik bir "bölünmez", yani ayrı ve bölünmez bir birlik ya da "bütün" hâline gelme sürecidir (§490). Jung ego ile psişenin bütünü arasındaki farkı vurgular. Ego bilinç alanının merkezidir, ama psişe bilinçten ibaret değildir. Bilinçdışı, bilince göre telafi edici bir işlev görür. Bilinçdışının içerikleri bilince "sınır vakalar" olarak, yani rüyalar, semptomlar, yansıtmalar ve aniden gelen fikirler olarak çıkar.
+
+Bütünlük, bilinç ile bilinçdışından birinin ötekini bastırmasıyla değil, ikisinin açık çatışması ve açık işbirliğiyle kurulur. Jung bunu örs ile çekiç arasında demirin dövülmesine benzetir (§522; bkz. §10). Metin bireyleşmeyi, yaşamın ikinci yarısının doğal bir görevi olarak, *İki Deneme*'deki (K04-2) çözümlemeyle uyumlu biçimde konumlar. Bireyleşmenin bireycilikle karıştırılmaması gerektiği de vurgulanır. Bireyleşen kişi kolektiften kopmaz, kolektifle daha bilinçli bir ilişki kurar. Kısa olmasına karşın bu metin, ciltteki arketip fenomenolojisini klinik bir sürece bağlayan menteşe işlevi görür.
+
+### IX. "Bireyleşme Sürecinde Bir İnceleme" (*Zur Empirie des Individuationsprozesses*, 1934/1950)
+
+Bu 1933 Eranos konferansı, Eranos'un ilk yılına aittir; *Eranos-Jahrbuch 1933*'te (1934) yayımlandı. *Gestaltungen des Unbewußten*'ta (1950) önemli ölçüde genişletildi. CW 9/I'de renkli levhalarla basılmıştır. Konu "Miss X" adlı Amerikalı bir kadın hastadır: Elli beş yaşında, eğitimli, evlenmemiş, kökleri annesi tarafından İskandinavya'ya uzanan bir kadın. Jung'a 1928'de gelmiştir. İkincil literatürde Miss X'in New York Analitik Psikoloji Kulübü'nün kurucularından eğitimci ve hekim **Kristine Mann** (1873–1945) olduğu kabul edilir (bu kimlik saptaması bu oturumda doğrulanamadı; tarihler hastanın yaşıyla uyumludur).
+
+Miss X, Jung'un önerisiyle değil, kendi iç dürtüsüyle resim yapmaya başlar. Jung 24 resimlik diziyi kronolojik sırayla yorumlar. **Resim 1**'de kayalara gömülü, yarı bedeni taşa hapsolmuş bir kadın görülür; kişilik, bilinçdışının "kaya"sı içinde tutsaktır. **Resim 2**'de bir şimşek kayalardan birini yarar ve içinden parlak bir küre kopar. Jung şimşeği analistin ve analizin etkisinin, ani bir aydınlanma ve kurtuluş ânının imgesi olarak okur. Sonraki resimlerde küre (çekirdek, tohum, yumurta) uzayda süzülür. Yılan onu sarar ya da ona nüfuz eder. Renkler dörde bölünür. Merkez ile çevre arasındaki ilişki giderek düzenlenir ve dizi, ortasında parlayan bir merkez bulunan dörtlü yapılarla, yani mandala biçimiyle sonuçlanır.
+
+Jung her resmi amplifikasyon yoluyla genişletir. Simya (*lapis*, *rotundum*, Mercurius'un yılanı), Tibet ve Hint sembolizmi (*bindu*, kundalini yılanı; bkz. K08-5), Yunan ve Hristiyan malzemesi kullanılır. Ama hastanın kişisel durumu, yani annesinin ülkesiyle ilişkisi, yaşı ve yaşamın ikinci yarısındaki dönemeç, yorumun hep ilk katmanı olarak kalır. İncelemenin kuramsal sonucu şudur. Bilinçdışı, kendi hâline bırakılıp ciddiye alındığında *merkezleşme* yönünde ilerleyen, dörtlü ve dairesel imgeler üreten bir süreç izler. Bu süreç, egonun değil Kendilik'in düzenleyiciliğine işaret eder. Analistin rolü süreci yönetmek değil, tanıklık etmek ve anlamlandırmaktır. Metin bireyleşme sürecinin tek bir vakada izlenebilir ve belgelenebilir olduğunu göstermesi bakımından, *Psikoloji ve Simya*'daki (K07-2) Pauli rüya dizisinin görsel kardeşidir. Pauli dizisinin seminer düzeyindeki işlenişi için bkz. K10-6.
+
+### X. "Mandala Sembolizmi Üzerine" (*Über Mandalasymbolik*, 1950)
+
+*Gestaltungen des Unbewußten*'ta (1950) ilk kez yayımlanan bu deneme, resimlerle desteklenmiş bir mandala atlasıdır. Jung önce kavramı tanımlar. Sanskritçe *maṇḍala* "daire" demektir. Lamaist ve Tantrik gelenekte meditasyon ve ritüel aracıdır. Hristiyan ikonografisinde Mesih'in dört müjdeciyle çevrili tasviri, rozet pencereler ve Jakob Böhme'nin "felsefi göz"ü (*XL Fragen von der Seele*'deki şekil) gibi Batı karşılıkları vardır. Navaho kum resimleri de karşılaştırmaya girer. Ardından ağırlıklı olarak hastalardan (çocuk ve yetişkin, kadın ve erkek) elde edilmiş elli kadar mandalayı tek tek yorumlar. Levhaların kesin sayısı ve Böhme figürünün numarası doğrulanamadı.
+
+Yorumların ortak teması şudur. Mandala, psişik bir dağılma ya da yönelim kaybı döneminde kendiliğinden ortaya çıkan *telafi edici bir düzen* imgesidir. Daire bütünlüğü, dörtlü bölünme bilinçli düzenlemeyi (dört işlev, dört yön) temsil eder. Merkez ise egoyu aşan Kendilik'i gösterir. Mandalanın "büyülü çember" işlevi koruyucudur: Kişiliği dağılmaya karşı bir arada tutar, bir *temenos* oluşturur. Jung'un kendi *Kırmızı Kitap* resimlerinden en az birinin, örneğin "Sonsuzluğa Açılan Pencere" (1927), bu denemede anonim bir hasta resmi gibi yer aldığı bilinir (şekil numarası doğrulanamadı; bkz. K03-1). Bu durum, mandala kuramının Jung'un kendi deneyimiyle iç içe olduğunu gösterir.
+
+### Ek: "Mandalalar" (*Mandalas*, 1955)
+
+Zürih'te çıkan *Du* dergisi için yazılmış kısa bir yazıdır (1955). Deneme X'in özetini halk dilinde verir. Mandala Doğu'da kült aracıdır. Batılı hastalarda ise kendiliğinden, öğrenilmeden ortaya çıkar. Özellikle psişik karmaşa dönemlerinde görülür ve "kendini iyileştirme" girişimi niteliği taşır. Jung bu imgelerin bir *merkez* deneyimine işaret ettiğini, bu merkezin de psikolojik olarak Kendilik'e karşılık geldiğini yineler. Jung'un "Kendilik'in arketipi" konusundaki en kısa ve en anlaşılır metnidir.
+
+### Ortak Kitabın Yapısı: *Einführung in das Wesen der Mythologie* (Jung–Kerényi, 1941)
+
+Ortak kitap bir diyalog düzeninde kurulmuştur. Her mitolojik incelemeyi bir psikolojik deneme izler:
+
+1. **Kerényi, "Prolegomena" (Giriş: Mitolojinin kökeni ve temellendirilmesi).** Kerényi *mitolojem* (*Mythologem*) kavramını geliştirir. Mitolojem, sürekli yeniden anlatılan ve yeniden biçimlenen tekil mitolojik "malzeme"dir. Mitoloji bir şeyi açıklamaz, bir şeyi "temellendirir" (*begründen*). Kökenlere, yani *archai*'ye geri giderek dünyaya ve kurumlara bir zemin verir.
+2. **Kerényi, "Das Urkind in der Urzeit"** (İlk zamandaki ilk çocuk). Fin (Kullervo), Vogul/Mansi, Hint (Narayana/Vişnu'nun yaprak üstündeki çocuk biçimi), Yunan (Zeus, Hermes, Apollon, Dionysos) ve yunus binicisi motifleri üzerinden ilahi yetim çocuk mitolojemi.
+   **Jung, "Zur Psychologie des Kind-Archetypus"** (yukarıda IV).
+3. **Kerényi, "Kore".** Demeter–Persephone, Hekate, Eleusis gizemleri; Seram adasından derlenen Hainuwele mitiyle karşılaştırma (Ad. E. Jensen'den).
+   **Jung, "Zum psychologischen Aspekt der Korefigur"** (yukarıda V).
+4. **Kerényi'nin bir kapanış bölümü, "Epilegomena"** (Eleusis mucizesi üzerine; başlık ve kapsam doğrulanamadı).
+
+Kitabın önemi, iki yöntemin karşılıklı sınırlarını görünür kılmasıdır. Kerényi mitolojemleri tarihsel ve filolojik bağlamında, bir "mitolojik bilinç" fenomenolojisi olarak inceler. Jung ise aynı imgelerin modern bireyin psişesinde kendiliğinden yeniden ortaya çıkmasına bakar. Ortak sonuç olarak, mitin bir "ilkel bilim" ya da alegori değil, kendine özgü bir *ifade biçimi* olduğu öne sürülür. Kerényi sonraki yıllarda psikolojik yorumdan bağımsız bir din tarihi çizgisini vurgulamış, Jung ile mesafesini zaman zaman açıkça dile getirmiştir (ayrıntılar doğrulanamadı; bkz. K11-3).
+
+## 4. Temel Kavramlar ve Argümanlar
+
+**4.1 Kişisel ve kolektif bilinçdışı.** Ayrım bir *köken* ayrımıdır. Kişisel bilinçdışı unutulmuş, bastırılmış ya da eşik altında kalmış algılardan oluşur; ana birimleri komplekslerdir (bkz. K01-3, K05-1). Kolektif bilinçdışı hiç bilinçli olmamış, kalıtsal yatkınlıklardan oluşur. Argüman üç adımlıdır. (1) Bazı psişik ürünler kişisel öyküyle açıklanamaz. (2) Bu ürünler başka kültürlerin mit ve dinlerinde tipik paraleller gösterir. (3) Öğrenme ve kriptomnezi dışlandığında geriye ortak, doğuştan bir yapı varsayımı kalır. Jung bu varsayımı içgüdü varsayımıyla eşdeğer bir bilimsel hipotez olarak sunar.
+
+**4.2 Arketip: Biçim ve imge.** Ciltteki en önemli kavramsal hamle, *arketipin kendisi* (*Archetypus an sich*) ile *arketipsel imge* (*archetypisches Bild*, ilk imge) arasındaki ayrımdır. Arketipin kendisi bilince çıkamaz, temsil edilemez, içeriksizdir; bir "önbiçimlendirme yetisi"dir. Arketipsel imge ise bu yatkınlığın belirli bir kültür, kişi ve durumda aldığı somut biçimdir. Ana arketipi tektir; ama Meryem, Kali, cadı ya da kendi annesinin rüyadaki hâli, onun sonsuz sayıdaki imgeleridir. Bu ayrım Jung'u "kalıtsal imgeler" (Lamarckçılık) suçlamasına karşı savunmak için kurulur. Kalıtsal olan imge değil, imge üretme olasılığıdır, tıpkı içgüdüde davranışın kalıbının kalıtsal olması gibi. 1946 sonrası metinlerde arketipin kendisi *psikoid* olarak, yani psişik ile fiziksel arasındaki sınırda bir düzen etkeni olarak nitelenir (bkz. K05-1, K05-2).
+
+**4.3 Numinözlük ve özerklik.** Arketiplerin ikinci niteliği *numinöz* olmalarıdır (Rudolf Otto'dan). Büyüleyici ve dehşet verici bir duygusal yükle deneyimlenirler, egoyu kavrar ve ele geçirirler. Bu nedenle arketiple ilişki iki tehlike taşır. Birincisi *bastırma*dır: Sembol yoksulluğu, "salt" rasyonalizm, yansıtma. İkincisi *özdeşleşme*dir: Şişme, mana-kişilik, kitle psikozu. Dogma, ayin ve mit tarihsel olarak bu iki tehlike arasında bir "kap" işlevi görmüştür. Modern birey ise bu kabı yitirdiği için bilinçli bir ilişki biçimi bulmak zorundadır. Bireyleşmenin kültürel gerekçesi budur.
+
+**4.4 Arketip figürleri.** Ciltte işlenen figürler tipik bir *sıralama* içinde görünür:
+- **Gölge:** Kişiliğin kabul edilmemiş, aşağı yanı; bilinçdışına girişin ilk eşiği. Düzenbaz onun kolektif biçimidir.
+- **Anima** (ve animus): Karşıcins kişileştirme; bilinç ile kolektif bilinçdışı arasında aracı, "yaşamın arketipi". Ana ve Kore figürleriyle iç içe geçer.
+- **Ana:** Besleyen ve yutan, doğuran ve öldüren iki değerli dişil ilke; madde, doğa ve bilinçdışının kendisiyle ilişkili.
+- **Bilge Yaşlı Adam / ruh:** Anlamın, öngörünün ve yönlendirmenin arketipi; bilincin tıkandığı yerde kendiliğinden beliren "ruh".
+- **Çocuk:** Geleceğe dönük, karşıtları birleştiren, kendini gerçekleştirme dürtüsünün sembolü; Kendilik'in habercisi.
+- **Kore:** Kadın psikolojisinde kuşaklar arası süreklilik ve "üst düzey kişilik"; erkekte anima biçimi.
+- **Kendilik:** Bütünlüğün ve merkezin arketipi; mandala, dörtlülük ve "dost" (Hızır) imgeleriyle görünür. Kendilik, Türkçe çevirilerde çoğunlukla "Benlik" ya da "Öz" olarak karşılanır; bu raporda Almanca *Selbst*, İngilizce *Self* karşılığı olarak tutarlı biçimde "Kendilik" kullanılmıştır. Sistematik çözümlemesi *Aion*'dadır (K06-2).
+
+**4.5 Bireyleşme.** Bireyleşme, ego ile bilinçdışının bu figürler aracılığıyla hesaplaşmasıyla gelişen bütünleşme sürecidir. Ciltte üç düzeyde işlenir: *kuramsal* (VIII), *klinik ve görsel* (IX) ve *fenomenolojik*, yani yeniden doğuş türleri ve Hızır dizisi (III). Bireyleşme ne bir "mükemmelleşme" ne de bireycilik demektir. Karşıtların, yani bilinç ile bilinçdışının, ego ile gölgenin, eril ile dişilin birlikte taşınmasıdır.
+
+**4.6 Mandala ve merkezleşme.** Mandala hem bir *sembol* (Kendilik'in imgesi) hem de bir *süreç göstergesi*dir (psişenin kendi kendini düzenleme eğilimi). Argüman şöyle kurulur. Birbirinden habersiz kişiler, özellikle dağılma dönemlerinde, dairesel ve dörtlü merkezli imgeler üretir. Bu imgeler dünya dinlerinin kutsal geometrisiyle örtüşür. İmgeler ortaya çıktığında öznel olarak sakinleşme ve düzen duygusu eşlik eder. Demek ki psişede merkezleştirici, telafi edici bir eğilim vardır. Jung bu eğilimi Kendilik arketipine bağlar.
+
+**4.7 Amplifikasyon ve "karşılaştırmalı" yöntem.** Ciltteki her deneme Jung'un yorum yöntemini sergiler. Önce kişisel bağlam ele alınır (çağrışım). Ardından imge mit, din tarihi, simya ve folklordaki paralelleriyle genişletilir; bu bir indirgeme değil, "zenginleştirme"dir. Son adımda telafi edici anlam bilinçli tutuma geri bağlanır. Kerényi ile ortak kitap bu yöntemin filolojik meşruiyetini aramaya yönelik bir girişimdir.
+
+## 5. Kaynaklar, Etkiler ve Diyalog
+
+- **Felsefe:** Platon'un idealar kuramı, Kant'ın kategorileri (önsel biçim fikri), Schopenhauer; arketip teriminin Yeni-Platoncu ve Hermetik geçmişi (Philon, Irenaeus, *Corpus Hermeticum*, Dionysios Areopagites, Augustinus'un *ideae principales*'i).
+- **Etnoloji ve din tarihi:** Adolf Bastian (*Elementargedanken*), Lucien Lévy-Bruhl (*représentations collectives*, *participation mystique*), Henri Hubert ve Marcel Mauss (imgelem kategorileri), Albrecht Dieterich (*Mithrasliturgie*), Leo Frobenius (gece deniz yolculuğu), Rudolf Otto (numinöz), Paul Radin (Winnebago döngüsü), Kerényi (mitolojem).
+- **Psikoloji ve psikiyatri:** Freud'un "arkaik kalıntılar" fikri (Jung bunu kendi kavramının sınırlı bir öncülü sayar), Pierre Janet (*abaissement du niveau mental*), Théodore Flournoy (kriptomnezi; bkz. K01-2).
+- **Dinsel ve ezoterik metinler:** Kur'an'ın 18. suresi, Upanişadlar ve Sāṃkhya, Tibet Budizmi (mandala, *Bardo Thödol*), Niklaus von Flüe, Jakob Böhme, Hristiyan ikonografisi, ortaçağ "kural dışı" bayramları.
+- **Simya:** *Rosarium philosophorum*, Mercurius, *lapis*, *rotundum*; Miss X incelemesinin 1950 revizyonunda belirginleşir (bkz. K07-2, K07-3).
+- **Edebiyat:** Goethe'nin *Faust*'u, Rider Haggard'ın *She*'si, Pierre Benoit'nın *L'Atlantide*'i, Grimm masalları ve Rus/Baltık masal derlemeleri.
+- **Vakalar:** Güneş-fallus adamı (Burghölzli), teolog hastanın göl rüyası, Kore rüya dizileri, Miss X'in 24 resmi, çeşitli hastaların mandalaları ve Jung'un kendi (anonim) mandalaları.
+
+**Karşı çıktığı görüşler.** Jung'un hedefinde üç görüş vardır. Birincisi *kişiselci indirgemecilik*tir, yani Freudcu okuldaki her imgeyi bireysel aile öyküsüne bağlama eğilimi. İkincisi *rasyonalist ve pozitivist* mit kuramlarıdır: Mitin ilkel bilim, doğa alegorisi ya da yalnızca tarihsel bir yayılım (difüzyon) ürünü olarak görülmesi. Üçüncüsü bilincin psişenin bütünü olduğunu varsayan *bilinç psikolojisi*dir.
+
+## 6. Jung'un Düşünce Gelişimindeki Yeri
+
+**Öncüller.** *Libidonun Dönüşümleri ve Sembolleri* (K02-2) yöntemi (amplifikasyon) ve ilk arketip motiflerini (kahraman, ana, yeniden doğuş, güneş) getirir; güneş-fallus örneği orada da geçer. *Kırmızı Kitap* (K03-1) ve *Kara Kitaplar* (K03-2), Philemon (Bilge Yaşlı Adam), Salome (anima) ve gölge figürleriyle ciltteki fenomenolojinin *deneyimsel prototipi*dir. *Psikolojik Tipler* (K04-1) "ilk imge" ve "sembol" tanımlarını ve aşağı işlev kavramını sağlar. *İki Deneme* (K04-2) persona, anima/animus, mana-kişilik ve bireyleşme kavramlarının ilk sistematik sunumudur. *Altın Çiçeğin Sırrı* (K07-1) mandala sembolizminin ilk yayımlanmış hâlidir. 1925 semineri (K10-1), Rüya Analizi semineri (K10-2) ve Vizyonlar semineri (K10-3), ciltteki kavramların sözlü olarak işlendiği laboratuvarlardır. Kundalini semineri (K08-5) Miss X incelemesindeki Doğu amplifikasyonlarına zemin hazırlar.
+
+**Eşzamanlı metinler.** "İçgüdü ve Bilinçdışı", "Psişenin Yapısı" ve özellikle "Psişenin Doğası Üzerine" (1946/1954) adlı CW 8 denemeleri (K05-1), arketipin biyolojik ve kuramsal temelini verir. Spektrum benzetmesi ve psikoid kavramı oradadır. 9/I ise fenomenolojik bir *galeri*dir. *Psikoloji ve Din* (K08-1) ve *Psikoloji ve Simya* (K07-2), mandala ve dörtlülük temalarını paylaşır. *Tavistock Konferansları* (K04-4) aynı dönemin İngilizce popülerleştirmesidir. Bailey Island seminerleri (K10-6) Pauli dizisi üzerinden aynı bireyleşme sürecini anlatır.
+
+**Ardıllar.** *Aion* (K06-2) Kendilik, gölge ve sizigiyi tarihsel ve teolojik düzleme taşır. *Eyüp'e Cevap* (K08-3) Tanrı imgesinin karanlık yanını düzenbaz ve gölge temaları üzerinden radikalleştirir. *Mysterium Coniunctionis* (K07-4) karşıtların birliğini simya üzerinden tamamlar. *Eşzamanlılık* (K05-2) arketipin psikoid niteliğini madde–psişe ilişkisine genişletir. *İnsan ve Sembolleri* (K06-3) cildin içeriğini popüler bir dille yeniden anlatır.
+
+**Revizyonlar ve süreklilikler.** Kavramsal süreklilik güçlüdür, ama iki önemli kayma vardır. (1) 1930'ların metinlerinde arketip zaman zaman "ilk imge" ile neredeyse eş anlamlıdır. 1946 sonrası revizyonlarda ise içeriksiz "arketip kendisi" ile imge arasındaki ayrım keskinleşir ve psikoid boyut eklenir. Ciltteki 1954 tarihli metinler bu ikinci aşamayı yansıtır. (2) Miss X incelemesi 1933'te ağırlıkla Doğu malzemesiyle yorumlanmıştı. 1950'de simya amplifikasyonuyla genişletildi. Bu, Jung'un 1930'ların ortasından itibaren simyayı bireyleşmenin tarihsel karşılığı olarak görmesinin bir sonucudur.
+
+## 7. Alımlanma, Eleştiriler ve Tartışmalar
+
+**Freudcu eleştiri.** Edward Glover'ın *Freud or Jung?* (1950) adlı kitabı, arketip ve kolektif bilinçdışı kavramlarını sınanamaz, mistik ve psikanalizin gerilemesi olarak niteler. Freudcu gelenek arketipsel imgeleri büyük ölçüde kişisel çatışmaların kültürel yansımaları olarak okumaya devam etmiştir. Freud'un kendisi de filogenetik kalıtıma inanıyordu; bu yüzden tartışmanın düğümü kalıtımın varlığı değil, *anlamın yeri*dir: Bireysel tarih mi, türsel yapı mı?
+
+**Bilimsel ve ampirik eleştiri.** Arketip kuramı Lamarckçılık suçlamasıyla karşılaştı. Jung'un biçim/imge ayrımı bu suçlamaya bir yanıttır, ama "biçimin" nasıl kalıtıldığı belirsiz kalır. Sonraki Jungcu yazarlar iki yol izlemiştir. Anthony Stevens (*Archetype: A Natural History of the Self*, 1982) etoloji ve evrimsel psikoloji üzerinden biyolojik bir yeniden okuma önerdi. Jean Knox (*Archetype, Attachment, Analysis*, 2003) ve George Hogenson ise arketipleri gelişimsel ve ortaya çıkışçı (*emergent*) örüntüler olarak, doğuştan "programlar" olmaksızın yeniden tanımladılar. Kanıt yöntemi de eleştirildi. Kültürel aktarımın ve kriptomnezinin pratikte dışlanamayacağı ileri sürüldü.
+
+**Tarihsel eleştiri.** Henri F. Ellenberger (*The Discovery of the Unconscious*, 1970) kavramı Romantik doğa felsefesi ve 19. yüzyıl dinamik psikiyatrisi içine yerleştirir. Richard Noll (*The Jung Cult*, 1994), güneş-fallus vakasının aslında Jung'un asistanı J. J. Honegger'in hastası olduğunu ve Dieterich'in kitabının ilk baskısının 1903'te çıktığını öne sürerek kanıtın inandırıcılığını sorguladı. Bu da kriptomnezi ihtimalini yeniden açar. Sonu Shamdasani (*Cult Fictions*, 1998; *Jung and the Making of Modern Psychology*, 2003) Noll'un yorumlarının bir kısmına karşı çıkarken kavramın oluşum tarihini belgeler. Vakanın dağınık belgeleri bugün de tartışmalıdır.
+
+**Antropoloji ve folklor.** Claude Lévi-Strauss, "Mitlerin Yapısal İncelemesi" (1955) adlı makalesinde, belirli mitolojik örüntülere sabit anlamlar yükleyen Jungcu yaklaşımı, sesleri anlamlarla doğrudan eşleyen eski dilbilim yanılgısına benzetir. Folkloristler ve kültürel antropologlar ise bağlamdan koparılmış karşılaştırmayı ve evrenselcilik varsayımını eleştirmiştir. Radin'in Winnebago malzemesine Jung'un "farklılaşmamış bilinç" okuması da bu çizgiden evrimci ve indirgemeci bulunur.
+
+**Feminist eleştiri.** Naomi Goldenberg (1976), Demaris Wehr (*Jung and Feminism*, 1987) ve Susan Rowland (*Jung: A Feminist Revision*, 2002), Ana, Kore ve anima kavramlarının dönemin cinsiyet kalıplarını "arketip" adı altında doğallaştırdığını gösterir. Bu kalıplar arasında dişil=Eros, eril=Logos ayrımı ve kadının psikolojisinin anne-kız ekseninde tanımlanması vardır. Ana kompleksi tipolojisindeki eşcinsellik yorumu da bugün kabul edilemez bulunmaktadır. Öte yandan Rowland gibi yazarlar, Jung'un arketiplerin içeriksiz ve kültürel olarak biçimlenen yapılar olduğu tezinin özcülüğe karşı kullanılabileceğini savunur.
+
+**Postkolonyal ve siyasal eleştiri.** "İlkel zihniyet" dili, Lévy-Bruhl'den alınan *participation mystique* ve Avrupalı olmayan halkların "çocukluk" evresine yerleştirilmesi, Farhad Dalal (1988) ve Michael Vannoy Adams (*The Multicultural Imagination*, 1996) gibi yazarlarca eleştirilmiştir. "Kolektif" ve "ırksal" bilinçdışı söyleminin 1930'larda *Zentralblatt*'taki yayın bağlamıyla yan yana gelmesi, siyasal tartışmanın da bir parçasıdır (bkz. K09-1).
+
+**Arketipsel psikoloji içinden eleştiri.** James Hillman, Kendilik ve mandalanın merkezileştirici, "tek tanrılı" vurgusunu eleştirir. Bunun yerine çoğulcu ve "çok tanrılı" bir psişe anlayışı önerir; "arketip"i ad değil, sıfat ("arketipsel") olarak kullanır. Michael Fordham ise Kendilik'in bebeklikten itibaren işleyişini (bütünleşme/çözülme) öne sürerek Jung'un ağırlığı yaşamın ikinci yarısına veren bireyleşme anlayışını gelişimsel olarak düzeltir.
+
+## 8. Etki ve Güncel Değer
+
+**Analitik psikoloji ve psikoterapi.** Cilt, Jungcu eğitimin temel metnidir. Erich Neumann'ın *Bilincin Kökenleri ve Tarihi* (1949) ve *Büyük Ana* (1955) adlı kitapları, Ana arketipi denemesini sistematik bir kurama dönüştürür. Marie-Louise von Franz'ın masal yorumu dizileri doğrudan "Masallarda Ruhun Fenomenolojisi" yöntemini izler. Dora Kalff'ın kum oyunu terapisi ve sanat terapisi, mandala ve kendiliğinden imge üretimi fikrini klinik pratiğe taşır. Miss X incelemesi, imge temelli terapilerin ve aktif imgelemin tarihsel vaka modelidir.
+
+**Beşeri bilimler.** Maud Bodkin'in *Archetypal Patterns in Poetry* (1934) adlı eseri ve Northrop Frye'ın *Eleştirinin Anatomisi* (1957) "arketipsel eleştiri"yi kurar; ancak Frye, Jung'un psikolojik varsayımlarından mesafe alır. Joseph Campbell'ın *Bin Yüzlü Kahraman* (1949) ve Mircea Eliade'nin din tarihçiliği, Eranos ortamında Jung–Kerényi hattıyla etkileşim içindedir. Düzenbaz kavramı, Lewis Hyde'ın *Trickster Makes This World* (1998) gibi çalışmalarla kültür kuramında kalıcı bir yer edinmiştir.
+
+**Popüler kültür.** "Arketip" kelimesi senaryo yazımı (Christopher Vogler, *The Writer's Journey*), marka iletişimi (Mark ve Pearson, *The Hero and the Outlaw*, 2001), kişisel gelişim (Moore ve Gillette'in eril arketipleri) ve mandala boyama kitapları üzerinden gündelik dile girdi. Bu yaygınlaşma çoğu zaman Jung'un biçim/imge ayrımını silerek arketipleri sabit "karakter tiplerine" indirger.
+
+**Ayakta kalan ve kalmayan.** Ayakta kalan: Psişenin bilinçten büyük olduğu, imgelerin kendiliğinden ve özerk biçimde ortaya çıktığı, sembolün telafi edici işlevi ve imgeyle doğrudan çalışmanın klinik değeri. Bilişsel ve gelişimsel psikolojideki "hazırlanmış öğrenme" (*prepared learning*) ve evrensel insan yetenekleri araştırmaları, kuramın daha zayıf, "eğilim" düzeyindeki bir okumasıyla uyumludur. Ayakta kalmayan: Güçlü kalıtım iddiası, "ilkel zihniyet" antropolojisi, cinsiyet tipolojisi ve tek tek vakalardan evrensel genellemeler yapan kanıt yöntemi.
+
+## 9. Okuma Rehberi
+
+**Önerilen sıra.**
+1. "Kolektif Bilinçdışı Kavramı" (I.2): en kısa ve en açık giriş.
+2. "Kolektif Bilinçdışının Arketipleri" (I.1): gölge, anima ve Bilge Yaşlı Adam dizisi; sembol yoksulluğu tezi.
+3. "Ana Arketipinin Psikolojik Yönleri"nin ilk bölümü (II): biçim/imge ayrımı için zorunlu.
+4. "Bilinçli, Bilinçdışı ve Bireyleşme" (VIII): kuramın klinik çerçevesi.
+5. Çocuk (IV), Ruh (VI) ve Düzenbaz (VII): arketip fenomenolojisinin en iyi örnekleri.
+6. Yeniden Doğuş (III) ve Kore (V).
+7. En son Miss X incelemesi (IX) ve mandala metinleri (X ve Ek); bunlar *Altın Çiçeğin Sırrı* (K07-1) okunduktan sonra daha iyi anlaşılır.
+
+**Ön koşullar.** *İki Deneme* (K04-2) ya da *Tavistock Konferansları* (K04-4) temel kavramlar için uygun girişlerdir. CW 8'deki "Psişenin Doğası Üzerine" (K05-1) ise arketipin kuramsal temeli için gereklidir. Kerényi ile ortak kitap için temel bir Yunan mitolojisi ve Eleusis bilgisi yararlıdır.
+
+**Baskı.** İngilizcede CW 9/I'in 2. baskısı (1968; sonraki tıpkıbasımlar) paragraf numaraları nedeniyle standart başvurudur. Almancada GW 9/I esastır. Renkli levhaların kalitesi nedeniyle Miss X ve mandala bölümleri için basılı CW tercih edilmelidir. Kerényi'yle ortak kitap için Princeton'ın gözden geçirilmiş İngilizce baskısı ya da Almanca yeni baskılar kullanılabilir. Türkçede doğrulanmış bir tam çeviri tespit edilemedi (bkz. künye ve K11-5).
+
+**Yaygın yanlış okumalar.**
+- Arketipi kalıtsal bir *imge* sanmak; Jung açıkça yalnızca *biçimin* kalıtsal olduğunu söyler.
+- Animayı gerçek bir kadınla ya da "ideal eş" imgesiyle özdeşleştirmek; anima bir iç işlevdir, yansıtma ancak bir başlangıçtır.
+- Mandalayı bir terapi tekniği sanmak; Jung onu *kendiliğinden ortaya çıkan* bir imge olarak inceler, mandala çizmeyi reçete etmez.
+- Kendilik'i egonun idealleştirilmiş hâli sanmak; Kendilik egoyu kapsayan ve aşan bütünlüktür.
+- "İlkel" ve "ırk" pasajlarını etnografik doğru ya da yalnızca bağlamsız bir dil sürçmesi olarak okumak; ikisi de tarihsel eleştiriyle birlikte okunmalıdır.
+- Kerényi'nin denemelerini "Jungcu mitoloji" saymak; Kerényi kendi filolojik fenomenolojisini yürütür.
+
+## 10. Kilit Pasajlar
+
+1. **Kolektif bilinçdışının tanımı.** "Bilinçdışının az çok yüzeysel bir katmanı kuşkusuz kişiseldir. Ben ona kişisel bilinçdışı diyorum. Ama bu kişisel bilinçdışı, kişisel deneyimden türemeyen, kişisel bir edinim olmayıp doğuştan gelen daha derin bir katmanın üzerinde durur. Bu daha derin katmana kolektif bilinçdışı diyorum." (serbest çeviri; CW 9/I §3)
+2. **Arketip biçimdir, içerik değil.** Arketipler içerik bakımından değil, yalnızca biçim bakımından ve bu da çok sınırlı ölçüde belirlenmiştir. Biçimleri, kristalin ana sıvı içindeki yapısını önceden biçimlendiren, ama kendisi maddi bir varlığa sahip olmayan eksen sistemine benzetilebilir. (özet; CW 9/I §155)
+3. **Gölge, dar kapı.** "Gölge dar bir geçit, dar bir kapıdır; derin kuyuya inen hiç kimse onun acı verici daralmasından muaf tutulamaz." (serbest çeviri; CW 9/I, "Kolektif Bilinçdışının Arketipleri"; paragraf numarası doğrulanamadı, §45 civarı)
+4. **Çocuk ve kendini gerçekleştirme.** Çocuk motifi, bilinçli zihnin sınırlı alanının dışındaki yaşamsal güçlerin kişileşmesidir. Her varlıktaki en güçlü, en kaçınılmaz dürtüyü, yani kendini gerçekleştirme dürtüsünü temsil eder. (özet; CW 9/I, "Çocuk Arketipinin Psikolojisi", §289 civarı, doğrulanamadı)
+5. **Düzenbaz, kolektif gölge.** Düzenbaz kolektif bir gölge figürüdür, bireylerdeki bütün aşağı karakter özelliklerinin toplamıdır. (özet; CW 9/I, "Düzenbaz Figürünün Psikolojisi Üzerine", §484 civarı, doğrulanamadı)
+6. **Bireyleşmenin tanımı.** "'Bireyleşme' terimini, bir kişinin psikolojik bir 'bölünmez' (*in-dividual*), yani ayrı, bölünmez bir birlik ya da 'bütün' hâline geldiği süreci belirtmek için kullanıyorum." (serbest çeviri; CW 9/I §490)
+7. **Örs ile çekiç.** Bilinç kendi aklını savunmalı ve kendini korumalı; bilinçdışının kaotik yaşamına da katlanabildiğimiz ölçüde kendi yolunu bulma şansı verilmelidir. Bu aynı anda açık çatışma ve açık işbirliği demektir: Örs ile çekiç arasında sabırlı demir, yok edilemez bir bütün, bir "birey" olarak dövülür. (özet, büyük ölçüde metne yakın; CW 9/I §522)
+
+## 11. Kaynakça ve İleri Okuma
+
+**Birincil kaynaklar**
+- Jung, C. G. *The Archetypes and the Collective Unconscious*. Collected Works, Cilt 9, Kısım I. Çev. R. F. C. Hull. New York: Pantheon (Bollingen Series XX) / Londra: Routledge & Kegan Paul, 1959; 2. baskı Princeton University Press, 1968.
+- Jung, C. G. *Die Archetypen und das kollektive Unbewußte*. Gesammelte Werke 9/I. Olten ve Freiburg i. Br.: Walter-Verlag, 1976.
+- Jung, C. G. *Symbolik des Geistes* (1948); *Gestaltungen des Unbewußten* (1950); *Von den Wurzeln des Bewußtseins* (1954). Zürih: Rascher.
+- Jung, C. G. ve Kerényi, K. *Einführung in das Wesen der Mythologie*. Amsterdam–Leipzig: Pantheon Akademische Verlagsanstalt, 1941. İng.: *Essays on a Science of Mythology*, çev. R. F. C. Hull, New York: Pantheon (Bollingen Series XXII), 1949; gözden geçirilmiş baskı Princeton, 1969 (doğrulanamadı).
+- Radin, P., Kerényi, K. ve Jung, C. G. *Der göttliche Schelm*. Zürih: Rhein-Verlag, 1954. İng.: *The Trickster*, 1956.
+- Jung, C. G. *The Integration of the Personality*. New York: Farrar & Rinehart, 1939.
+- Jung, C. G. *Four Archetypes* ve *Mandala Symbolism*. Princeton paperback seçkileri (yıllar doğrulanamadı).
+- Türkçe kısmi çeviri olasılığı: *Dört Arketip*, Metis Yayınları, çev. Zehra Aksu Yılmazer (doğrulanamadı).
+
+**İkincil literatür**
+- Adams, M. V. *The Multicultural Imagination*. Londra: Routledge, 1996.
+- Ellenberger, H. F. *The Discovery of the Unconscious*. New York: Basic Books, 1970.
+- Glover, E. *Freud or Jung?* Londra: Allen & Unwin, 1950.
+- Hillman, J. *Anima: An Anatomy of a Personified Notion*. Dallas: Spring, 1985; *Re-Visioning Psychology*. New York: Harper & Row, 1975.
+- Hyde, L. *Trickster Makes This World*. New York: Farrar, Straus and Giroux, 1998.
+- Jacobi, J. *Komplex, Archetypus, Symbol in der Psychologie C. G. Jungs*. Zürih: Rascher, 1957.
+- Knox, J. *Archetype, Attachment, Analysis*. Hove: Brunner-Routledge, 2003.
+- Lévi-Strauss, C. "The Structural Study of Myth." *Journal of American Folklore* 68 (1955).
+- Neumann, E. *Ursprungsgeschichte des Bewußtseins* (1949); *Die Große Mutter* (1956; İng. *The Great Mother*, 1955).
+- Noll, R. *The Jung Cult*. Princeton University Press, 1994.
+- Rowland, S. *Jung: A Feminist Revision*. Cambridge: Polity, 2002.
+- Shamdasani, S. *Cult Fictions*. Londra: Routledge, 1998; *Jung and the Making of Modern Psychology*. Cambridge University Press, 2003.
+- Stevens, A. *Archetype: A Natural History of the Self*. Londra: Routledge & Kegan Paul, 1982 (gözden geçirilmiş baskı *Archetype Revisited*, 2002).
+- von Franz, M.-L. *The Interpretation of Fairy Tales*. Spring, 1970 (ilk baskı yılı doğrulanamadı).
+- Wehr, D. *Jung and Feminism*. Boston: Beacon, 1987.
+
+**Doğrulama için kullanılan URL'ler**
+- Bu oturumda web araması yapılamadı (ekibin ortak arama kotası tükenmişti); bu yüzden hiçbir URL üzerinden doğrulama yapılmadı. Hakem ve K11-5 için önerilen doğrulama noktaları şunlardır: Princeton University Press'in CW 9/I katalog sayfası (press.princeton.edu), Patmos Verlag'ın GW 9/I kaydı, Milli Kütüphane katalogu (mkutup.gov.tr) ve kitapyurdu.com ile Metis Yayınları'nın (metiskitap.com) *Dört Arketip* kaydı.
