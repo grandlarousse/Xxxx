@@ -121,3 +121,110 @@ Vakıf tanıtımına göre cilt, çeşitli dinleyicilerin "daha önce bilinmeyen
 ### 3.6 Henüz yayımlanmamış ciltler (3, 4, 5, 8)
 
 Philemon Vakfı'nın Kasım 2026'daki listesine göre bu dört cilt "güncel projeler" arasındadır. Editörleri ve çıkış tarihleri açıklanmamıştır. **Cilt 3 (Rüya Psikolojisi, 1934/35–1935)**, Cilt 2'deki girişin genişletilmesi olacaktır. Çağdaş paralelleri "Rüya Psikolojisinin Genel Yönleri" (CW 8; K05-1) ile ETH'deki çocuk rüyaları seminerleridir (K10-5). **Cilt 4 (Psikolojik Tipoloji, 1935/36–1936)** için bkz. §3.3. **Cilt 5 (Bilinçdışının Psikolojisi, 1937 ve 1938 yazları)**, Terry Konferansları (K08-1) ve 1934–37 Eranos arketip konferanslarıyla (K06-1) aynı döneme düşer. **Cilt 8 (Simyanın Psikolojisi, 1940/41–1941)**, Eranos 1935–36 konferanslarıyla *Psikoloji ve Simya* (1944; K07-2) arasındaki halkadır. K07-2 ve K07-3 raporları da simyanın ETH'deki son dönemin konusu olduğunu not eder. Bu ciltlerin içerikleri hakkında yukarıdaki eşleştirmeler başlıklara ve dönemlere dayanır. Derslerin gerçek içeriği doğrulanamadı.
+
+## 4. Temel Kavramlar ve Argümanlar
+
+**Bilinçdışı kavramının tarihselliği.** Cilt 1'in ana argümanı şu adımlarla ilerler. (1) Bilinçdışı Freud'un icadı değildir, 18. yüzyıldan beri felsefede ve tıpta biçimlenen bir kavramdır. (2) Kavram önce felsefî bir çıkarım olarak doğar (Leibniz, Kant, Carus, Hartmann). (3) Ampirik içeriğini manyetizma, hipnoz ve medyumluk vakalarında kazanır. (4) Bu vakalar bilinçdışının yalnızca bastırılmış olanın deposu olmadığını, kendiliğinden ve yaratıcı biçimde ürettiğini gösterir. (5) Böylece "kompleks psikolojisi", bu iki çizginin, yani felsefî bilinçdışı ile klinik gözlemin birleştiği nokta olarak sunulur.
+
+**Bilinç, ego ve ada imgesi.** Cilt 2'de bilinç, içeriklerin egoyla ilişkisi olarak tanımlanır. Ego da bir komplekstir. Ada–okyanus imgesi iki şey söyler: Bilinç küçüktür ve sonradan oluşmuştur, bilinçdışı ise onun hem kaynağı hem çevresidir. Bu, Jung'un bilinçdışını bilincin artığı olarak değil, onun önceli olarak gören tutumunun pedagojik formülüdür.
+
+**Kompleks ve deneysel kanıt.** Çağrışım deneyi ve psikogalvanik ölçüm, bilinçdışını "metafizik bir varsayım" olmaktan çıkarıp ölçülebilir bozulmalar üzerinden gösterir. Jung bu kanıtı ETH'nin teknik dinleyicisine kompleks psikolojisinin ampirik temeli olarak sunar.
+
+**Telafi ve tipler.** Rüya, bilincin tek yanlılığını telafi eder. Tipoloji ise bu tek yanlılığın biçimini, yani baskın ve aşağı işlevi tanımlar. Kişilik psikolojisi bu iki kavramın kesiştiği yerde kurulur.
+
+**Aktif imgelem.** Cilt 6 ve 7'nin merkez kavramıdır. Bilinçdışından gelen imgeye bilinçli bir dikkatle yönelmek, onu sürdürmek ve onunla ilişkiye girmek demektir. Jung'un karşılaştırmalı argümanı üç adımlıdır. (1) Bütün büyük meditasyon gelenekleri imgelem yoluyla bilinç ile bilinçdışı arasında bir ilişki kurar. (2) Gelenekler, imge içeriğinin kendiliğinden mi geldiği yoksa önceden mi belirlendiğine göre ayrılır. (3) Önceden belirlenmiş imgeler (Amitāyur-dhyāna, Tantrik tanrı tasavvuru, Ignatius'un sahneleri) bireyi kolektif bir simge sisteminin koruması altına alır. Modern Batılı insan bu korumayı büyük ölçüde yitirmiştir ve bu yüzden kendi bilinçdışının kendiliğinden ürünlerine yönelmek zorundadır.
+
+**Kendilik ve merkez.** Patañjali'deki *puruṣa*, Amitāyur-dhyāna'nın sonunda zihnin Buda olarak tanınması, Tantrik mandalanın merkezi ve Ignatius'un "insan Tanrı'yı övmek için yaratılmıştır" ilkesi, Jung'un okumasında aynı psikolojik olguya işaret eder: Egonun kendisinden daha kapsamlı bir merkezle ilişkisine, yani Kendilik'e. Bu bir indirgeme değil, Jung'un deyişiyle bir "psikolojik" yorumdur. Metafizik iddianın doğruluğu hakkında hüküm vermez, deneyimin psişik gerçekliğini konu alır.
+
+**Doğu–Batı ayrımı ve taklit uyarısı.** Doğu bilinci içeriklerinden arındırmaya (*nirodha*, *kaivalya*) yönelir. Batı'nın tarihsel olarak farklılaşmış ve ego merkezli bilinci ise bu içerikleri bütünleştirmek zorundadır. Bu yüzden yoganın Batı'da teknik olarak taklit edilmesi bir "şişme" (enflasyon) ya da bölünme tehlikesi taşır. Bu tez 1936'daki "Yoga ve Batı"da ortaya atılmış, ETH derslerinde metinler üzerinden temellendirilmiştir.
+
+**Numinöz ve dogma.** Ignatius derslerinde dogma, numinöz deneyimi hem ileten hem de onun yıkıcı gücünü sınırlayan bir "kap" olarak işlev görür. Bu düşünce Terry Konferanslarındaki (K08-1) dogma ile dolaysız deneyim karşıtlığının devamıdır.
+
+## 5. Kaynaklar, Etkiler ve Diyalog
+
+**Felsefe ve psikoloji tarihi (Cilt 1–2).** Descartes, Wolff, Leibniz, Kant, Carus, Schopenhauer, von Hartmann, Fechner, Wundt. Fransız hipnoz ve psikopatoloji geleneği: Mesmer, Puységur, Charcot, Bernheim, Janet, Binet. İngiliz ve Amerikan gelenekleri: Galton, Myers, William James. Vakalar: Kerner (*Die Seherin von Prevorst*, 1829) ve Flournoy (*Des Indes à la planète Mars*, 1899/1900). Jung'un kendi deneysel çalışmaları (CW 2) ve tipolojisi (CW 6). (Anılan isimlerin derslerde ne ölçüde işlendiği doğrulanamadı; bkz. §3.1.)
+
+**Hint ve Budist kaynaklar (Cilt 6).** Patañjali'nin *Yoga Sūtra*'sı. *Amitāyur-dhyāna Sūtra*: Jung'un CW 11 denemesinde kullandığı İngilizce çeviri Takakusu'nun *Sacred Books of the East*'in 49. cildindeki çevirisidir (doğrulanamadı). *Shrī-chakra-sambhāra Tantra* (Kazi Dawa-Samdup ve Arthur Avalon). Dolaylı muhataplar: J. W. Hauer, 1932 Kundalini semineri (K08-5); Heinrich Zimmer, 1933 Berlin semineri ve yantra/mandala kuramı (EK-01); Richard Wilhelm, *Altın Çiçeğin Sırrı* (K07-1).
+
+**Hristiyan kaynaklar (Cilt 7).** Ignatius'un *Exercitia spiritualia*'sı ve otobiyografisi; *Anima Christi* duası; Cizvit yorum geleneği (Przywara'nın kullanıldığı doğrulanamadı). Arka planda simya (K07-2) ve Ayin üzerine çalışmalar (K08-2) bulunur.
+
+**Karşı çıkılan ya da sınırları çizilen tutumlar.** Bilinçdışını yalnızca bastırılmış cinsel içeriklerin deposu olarak gören Freudcu model (Cilt 1–2). Bilinci dışlayan davranışçılık (doğrulanamadı). Yogayı teknik olarak taklit eden Batılı teozofik ve "Doğu modası" eğilimleri (Cilt 6).
+
+## 6. Jung'un Düşünce Gelişimindeki Yeri
+
+**Öncüller.** Zofingia konferansları (K01-1) ve 1902 tezi (K01-2) Kerner, ruhçuluk ve medyumluk ilgisinin başlangıcıdır. Bu ilgi Cilt 1'de tarihsel bir çerçeveye oturur. Deneysel araştırmalar (K01-3) ve *Psikolojik Tipler* (K04-1) Cilt 2'nin dayanaklarıdır. *Altın Çiçeğin Sırrı* (1929; K07-1), Kundalini semineri (1932; K08-5) ve Berlin semineri (1933; EK-01) Doğu meditasyonu derslerine giden yolu açar.
+
+**Eşzamanlılar.** Tavistock konferansları (1935; K04-4) Cilt 2'nin İngilizce kardeşidir. Çocuk rüyaları ve antik rüya yorumu seminerleri (K10-5) ETH'de, derslerle paralel yürür. *Zerdüşt* semineri (K10-4) ve Pauli rüyaları üzerine seminerler (K10-6) aynı yıllarda başka dinleyiciler için verilir. Terry Konferansları (1937; K08-1) Cilt 7'nin dogma ve deneyim tartışmasını önceden kurar.
+
+**Ardıllar.** "Doğu Meditasyonunun Psikolojisi Üzerine" (1943) ve "Hindistan'ın Ermişleri" (1944) Cilt 6'nın kısa yazılı damıtılmış hâlleridir (K08-4). CW 8'deki 1946/54 tarihli "Psişenin Doğası Üzerine Kuramsal Düşünceler", Cilt 1'deki bilinçdışı tarihini ve Ignatius'un görümlerini yeniden kullanır (K05-1). *Psikoloji ve Simya* (1944; K07-2) ve CW 13 (K07-3), yayımlanmamış Cilt 8'in yayımlanmış sonuçlarıdır. Savaş sonrasında Victor White ile yazışma (K11-3) ve CW 11'deki Batı dini denemeleri (K08-2), Cilt 7'nin açtığı Katolik diyaloğu sürdürür.
+
+**Süreklilik ve değişim.** ETH dersleri, Jung'un 1930'larda kişisel deneyime dayalı bir anlatımdan (1925 semineri, K10-1) "nesnel" bir karşılaştırmalı din psikolojisine geçişini belgeler. Fikir değişikliğinin en açık örneği Doğu'dan Batı'ya yöneliştir. 1938/39'da Doğu metinlerini bireyleşmenin en olgun haritaları olarak sunan Jung, 1939/40'ta Batı'nın kendi meditasyon geleneğine, 1940/41'de simyaya döner. Bu yöneliş Graal rüyasının (K03-3) ders programındaki yansımasıdır.
+
+## 7. Alımlanma, Eleştiriler ve Tartışmalar
+
+**Yayın öncesi dolaşım.** Dersler onlarca yıl yalnızca Hannah ve Welsh'in özet notlarıyla ve Jungcu çevrelerin iç dolaşımıyla biliniyordu. Bu yüzden 1940'lardan 2010'lara kadar ikincil literatürde yalnızca dolaylı olarak, çoğunlukla CW 11 denemelerinin arka planı olarak anıldı.
+
+**Yayın sonrası tepkiler.** Yayınevi sayfalarındaki değerlendirmeler olumludur. *Paradigm Explorer* diziyi "yalnızca Jung araştırmacılarının değil geniş okur kitlesinin de ilgisini çekecek önemli yeni bir dizi" olarak selamlar (serbest çeviri). John Beebe Cilt 2'yi, Henryk Machoń Cilt 7'yi över (bkz. §3.2, §3.5). Bağımsız akademik eleştirilerin kapsamlı bir dökümü bu çalışmada yapılamadı (doğrulanamadı).
+
+**Metin eleştirisi.** Bütün seminer ve ders kitaplarında olduğu gibi burada da metin Jung'un yazdığı değil, dinleyicilerin not ettiği ve editörlerin birden çok kaynaktan kurduğu metindir. Bu metinler kesin formülasyonlar için kanıt olarak kullanılmamalıdır. Bir ifadenin Jung'a mı, not tutana mı, editörün birleştirmesine mi ait olduğu her zaman ayırt edilemez. Bu yüzden Jung'a atfedilecek kesin bir tez için CW'deki yazılı karşılık aranmalıdır.
+
+**Tarih yazımı açısından.** Cilt 1, Ellenberger'in *The Discovery of the Unconscious* (1970) kitabından önce bilinçdışının tarihini aynı soy kütüğüyle (manyetizma, uyurgezerlik, Janet, Flournoy) anlatır. Bu, Jung'un bu tarihin hem tarihçisi hem de ürünü olduğunu gösterir. Shamdasani'nin *Jung and the Making of Modern Psychology* (2003) kitabının öne çıkardığı gibi, Jung'un tarih anlatısı tarafsız değildir. Kendi psikolojisini bu tarihin doruğu olarak konumlandırır, Freud'u ise geniş bir geleneğin bir dalı olarak küçültür. Noll'un (1994) Jung'u romantik ve okültist bir arka plana yerleştiren tezini savunanlar da karşı çıkanlar da Kerner derslerinde malzeme bulabilir. Jung burada ruhçu malzemeyi ciddiye alır, ama onu psikolojik olarak yorumlar.
+
+**Postkolonyal ve dinler tarihi eleştirisi.** Jung'un Doğu yorumuna yöneltilen eleştiriler Cilt 6 için de geçerlidir. Luis O. Gómez ("Oriental Wisdom and the Cure of Souls: Jung and the Indian East", Donald S. Lopez [ed.], *Curators of the Buddha*, 1995), Jung'un Doğu'yu Batı ruhunun bir aynası olarak özselleştirdiğini, metinleri tarihsel ve öğretisel bağlamlarından kopardığını ileri sürer. J. J. Clarke (*Jung and Eastern Thought*, 1994) ve Harold Coward (*Jung and Eastern Thought*, 1985) daha dengeli bir değerlendirme yapar. İkisi de Jung'un *kaivalya* ve *nirvāṇa* gibi kavramları bilinçli egonun yok oluşu olarak okuyup "psikolojik olarak imkânsız" sayarken Hint metafiziğini kendi ego kavramına uydurduğunu tartışır. ETH dersleri bu eleştiriler için en ayrıntılı malzemeyi sunar.
+
+**Teolojik tartışma.** Cilt 7, Jung'un Katolik teologlarla ilişkisine yeni bir boyut ekler. Cizvit Raymond Hostie (*Du mythe à la religion*, 1955) ve sonra Victor White, Jung'un dinsel imgeleri psikolojik süreçlere indirgediğini, Tanrı imgesi ile Tanrı arasındaki ayrımı bulanıklaştırdığını eleştirmiştir. Ignatius dersleri bu eleştirilerden önce, savaşın başında verildiği için Jung'un Katolik maneviyata en sempatik baktığı anı yakalar.
+
+**Siyasal bağlam.** Dersler 1933–1940 yıllarında Jung'un Uluslararası Genel Tıbbi Psikoterapi Derneği başkanlığıyla çakışır (K09-1). Derslerde siyasal yorumların ne ölçüde yer aldığı yayımlanmış dört cilt temelinde doğrulanamadı.
+
+## 8. Etki ve Güncel Değer
+
+**Jung araştırmasında.** ETH ciltleri, *Kırmızı Kitap* ve *Kara Kitaplar*'la birlikte, Jung araştırmasının CW dışına taşınmasının bir parçasıdır (K11-5). Cilt 6, CW 11'deki Doğu yazılarının nasıl doğduğunu ve Jung'un Hint metinlerini ne kadar ayrıntılı okuduğunu göstererek "Jung ve Doğu" tartışmasının kaynak tabanını değiştirmiştir. Cilt 7 ise Jung ile Katoliklik ilişkisi üzerine çalışmalar için ilk kez tam bir birincil kaynak sunar.
+
+**Psikoterapi ve meditasyon araştırmalarında.** Aktif imgelem ile meditasyon karşılaştırması bugün "farkındalık" (*mindfulness*) temelli terapiler, imgeleme teknikleri ve Cizvit maneviyatı ile psikoterapi arasındaki diyalog için tarihsel bir referanstır. Ancak Jung'un "Batılı yoga yapmamalı" uyarısı, yoga ve meditasyonun Batı'da yaygınlaşmasıyla büyük ölçüde güncelliğini yitirmiştir. Klinik meditasyon araştırmaları Jung'un öngördüğü genel tehlikeyi doğrulamamıştır. Uyarının ayakta kalan çekirdeği, derin meditasyon deneyimlerinin hazırlıksız kişilerde psişik dengesizliğe yol açabileceği gözlemidir. Bu gözlem bugün meditasyonun olumsuz etkileri üzerine yapılan çalışmalarda da tartışılmaktadır.
+
+**Psikoloji tarihinde.** Cilt 1, psikoloji tarihi derslerinin bir uygulayıcı tarafından, kendi kuramının soy kütüğü olarak anlatıldığı nadir bir belgedir. Kerner ve Flournoy'a yeniden ilgi, psikoloji tarihinde "psişik araştırmalar"ın rehabilitasyonuyla birlikte artmıştır.
+
+**Türkiye'de.** Pinhan'ın 2022–2023'te üç cildi art arda yayımlaması, Türkçe okuru uluslararası okurla aynı anda bu malzemeye ulaştırmıştır. Bu durum CW çevirileri için hiç yaşanmamıştı. Cilt 7'nin Türkçe çevirisi henüz tespit edilemedi.
+
+## 9. Okuma Rehberi
+
+1. **Başlangıç:** Cilt 2 (*Bilinç ve Bilinçdışı*). Kısa, açık ve sistematiktir. Analitik psikolojiye en iyi "Jung'un kendi ağzından" giriştir. İsteyenler Tavistock konferanslarıyla (K04-4) karşılaştırarak okuyabilir.
+2. **Tarih:** Cilt 1. Önce cildin Aydınlanma'dan 20. yüzyıla uzanan kısmını, sonra Kerner ve Flournoy derslerini okuyun. Mümkünse Flournoy'un kitabına ve Ellenberger'in ilgili bölümlerine bakın. K01-2'deki tez de iyi bir eşlikçidir.
+3. **Doğu:** Cilt 6 tek başına okunmamalıdır. Önce CW 11'deki "Yoga ve Batı"yı, sonra Cilt 6'yı, ardından "Doğu Meditasyonunun Psikolojisi Üzerine"yi (K08-4) okuyun. Kundalini semineri (K08-5) ön koşul sayılabilir.
+4. **Batı:** Cilt 7'den önce Ignatius'un *Ruhsal Egzersizler*'ini (en azından "İlke ve Temel" ile Birinci Hafta'yı) okumak gerekir. Terry Konferansları (K08-1) ve "Ayin'de Dönüşüm Simgeciliği" (K08-2) iyi eşlikçilerdir.
+5. **Baskı:** Atıf için Princeton baskısı esas alınmalıdır. Türkçe okur Pinhan çevirilerini kullanabilir. Ama çevirilerin İngilizceden mi yapıldığı ve editörlük aygıtının (dipnotlar, terim açıklamaları) eksiksiz aktarılıp aktarılmadığı doğrulanamadı. Pinhan tanıtımındaki "1931–1940" tarih aralığı yanlıştır; doğrusu 1933–1941'dir.
+6. **Yaygın yanlış okumalar:** (a) Ders notlarını Jung'un yazılı metni gibi alıntılamak. (b) Cilt 6'yı yoga pratiğine davet olarak, tersine, Doğu'nun toptan reddi olarak okumak. Jung metinlere hayrandır, uyarısı teknik taklide yöneliktir. (c) Cilt 7'yi Jung'un Katolikliğe "dönüşü" olarak okumak. Jung'un ilgisi psikolojiktir. (d) Cilt 1'i tarafsız bir psikoloji tarihi sanmak.
+
+## 10. Kilit Pasajlar
+
+1. **Bilinç adası (Cilt 2).** "Bilinç, bilinçdışı okyanusunda küçük bir ada gibidir." (serbest çeviri; Princeton ve Philemon tanıtım metinlerinde alıntılanan ifade; ders içindeki yeri ve tam bağlamı doğrulanamadı). Derslerin bütün kuramsal çerçevesini tek bir imgede toplar.
+2. **Kâhine ve psişik gerçeklik (Cilt 1).** (özet) Jung, Kerner'in "bir ruhlar dünyasının bizimkine uzanması" diye tarif ettiği deneyimleri ne ruhçu bir kanıt ne de basit bir sanrı olarak görür. Ona göre bunlar, ayrışmış bilinçdışı içeriklerin kişileşmesidir ve kendi düzenleri olan psişik gerçekliklerdir. Kerner'in alt başlığına gönderme, *Die Seherin von Prevorst* (1829) başlık sayfasına dayanır.
+3. **Yoganın tanımı (Cilt 6).** *Yogaś citta-vṛtti-nirodhaḥ*: "Yoga, zihnin dalgalanmalarının durdurulmasıdır" (YS 1.2; serbest çeviri). (özet) Jung bu hedefi, bilincin içeriklerinden kurtulma idealinin klasik formülü olarak okur. Batılı psikolojinin hedefi ise bu içeriklerin bütünleştirilmesidir.
+4. **"Zihin Buda'dır" (Cilt 6).** *Amitāyur-dhyāna Sūtra*'nın sekizinci meditasyonunda, Buda'yı tasavvur eden zihnin Buda'ya dönüştüğü, hatta zihnin Buda'nın kendisi olduğu söylenir (özet). Jung bu ifadeyi CW 11'deki 1943 denemesinde de tartışır (paragraf doğrulanamadı). Ona göre meditasyonun ürettiği Buda imgesi, meditasyon yapanın Kendilik'inin yansımasıdır.
+5. **"İlke ve Temel" (Cilt 7).** "İnsan, Rabbimiz Tanrı'yı övmek, O'na saygı göstermek ve O'na hizmet etmek ve bu yolla ruhunu kurtarmak için yaratılmıştır" (Ignatius, *Ruhsal Egzersizler*, §23; serbest çeviri). (özet) Jung bu cümleyi, egonun kendinden büyük bir merkeze bağımlılığının Hristiyan formülü olarak okur.
+6. **Çok gözlü yılan (Cilt 7 ve CW 8).** (özet) Ignatius'un Manresa'da gördüğü, göz gibi parlayan birçok şey taşıyan yılan görümünü Jung bilinçdışının "çoklu ışıltılarının" bir örneği olarak yorumlar. Bu yorumun yazılı biçimi CW 8, "Psişenin Doğası Üzerine Kuramsal Düşünceler"dedir (§395 civarı; doğrulanamadı).
+
+## 11. Kaynakça ve İleri Okuma
+
+**Birincil baskılar.**
+- Jung, C. G. *History of Modern Psychology: Lectures Delivered at ETH Zurich, Volume 1, 1933–1934*. Ed. Ernst Falzeder; çev. E. Falzeder, M. Kyburz, J. Peck; önsöz U. Hoerni. Princeton: Princeton University Press, 2018 (telif 2019); karton kapak 2020.
+- Jung, C. G. *Consciousness and the Unconscious: Lectures Delivered at ETH Zurich, Volume 2: 1934*. Ed. Ernst Falzeder. Princeton UP, 2022; karton kapak 2025.
+- Jung, C. G. *Psychology of Yoga and Meditation: Lectures Delivered at ETH Zurich, Volume 6: 1938–1940*. Ed. Martin Liebscher; çev. J. Peck ve H. McCartney. Princeton UP, 2021 (telif 2020); karton kapak 2023.
+- Jung, C. G. *Jung on Ignatius of Loyola's Spiritual Exercises: Lectures Delivered at ETH Zurich, Volume 7: 1939–1940*. Ed. Martin Liebscher; çev. Caitlin Stephens. Princeton UP, 2023; karton kapak 2025.
+- Türkçe: *Bilinç ve Bilinçdışı*, çev. Canberk Şeref, Pinhan, 2022. *Modern Psikolojinin Tarihi*, çev. Canberk Şeref, Pinhan, 2023. *Yoga ve Meditasyon Psikolojisi*, çev. Kağan Kahveci, Pinhan, 2023.
+- İlgili CW metinleri: "Yoga ve Batı" (1936) ve "Doğu Meditasyonunun Psikolojisi Üzerine" (1943), CW 11; "Psişenin Doğası Üzerine Kuramsal Düşünceler" (1946/54), CW 8; "Psikolojik Tipoloji" (1936), CW 6 eki.
+
+**Ele alınan metinler.** J. Kerner, *Die Seherin von Prevorst* (1829). Th. Flournoy, *Des Indes à la planète Mars* (1899/1900). Patañjali, *Yoga Sūtra*. *Amitāyur-dhyāna Sūtra* (J. Takakusu çev., *Sacred Books of the East* 49; doğrulanamadı). Kazi Dawa-Samdup (ed.), *Shrīchakrasambhāra Tantra*, Arthur Avalon'un *Tantrik Texts* dizisi (1919; doğrulanamadı). Ignatius Loyola, *Exercitia spiritualia* (1548) ve otobiyografisi.
+
+**İkincil literatür.** H. F. Ellenberger, *The Discovery of the Unconscious*, 1970. S. Shamdasani, *Jung and the Making of Modern Psychology: The Dream of a Science*, Cambridge UP, 2003. R. Noll, *The Jung Cult*, Princeton UP, 1994. H. Coward, *Jung and Eastern Thought*, SUNY Press, 1985. J. J. Clarke, *Jung and Eastern Thought: A Dialogue with the Orient*, Routledge, 1994. L. O. Gómez, "Oriental Wisdom and the Cure of Souls", D. S. Lopez (ed.), *Curators of the Buddha*, Chicago UP, 1995. R. Hostie, *Du mythe à la religion*, 1955. Ekip raporları: K08-4, K08-5, K11-5, EK-01.
+
+**Doğrulama için kullanılan URL'ler.**
+- https://philemonfoundation.org/ ve https://philemonfoundation.org/eth-lectures/
+- https://philemonfoundation.org/works/eth-lectures-volume-1/ ; /works/consciousness-and-the-unconscious/ ; /works/eth-lectures-volume-6/ ; /works/published-works-eth-lectures-volume-7/
+- https://press.princeton.edu/series/philemon-foundation-series
+- https://press.princeton.edu/books/hardcover/9780691181691/history-of-modern-psychology ve /books/paperback/9780691210698/history-of-modern-psychology
+- https://press.princeton.edu/books/hardcover/9780691228570/consciousness-and-the-unconscious ve /books/paperback/9780691256061/consciousness-and-the-unconscious
+- https://press.princeton.edu/books/hardcover/9780691206585/psychology-of-yoga-and-meditation ve /books/paperback/9780691217857/psychology-of-yoga-and-meditation
+- https://press.princeton.edu/books/hardcover/9780691244167/jung-on-ignatius-of-loyolas-spiritual-exercises ve /books/paperback/9780691256078/jung-on-ignatius-of-loyolas-spiritual-exercises
+- https://en.wikipedia.org/wiki/Philemon_Foundation
+- https://www.pinhanyayincilik.com/yazar/carl-gustav-jung ; /carl-gustav-jung/bilinc-ve-bilincdisi ; /carl-gustav-jung/modern-psikolojinin-tarihi ; /carl-gustav-jung/yoga-ve-meditasyon-psikolojisi
