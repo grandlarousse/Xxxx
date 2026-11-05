@@ -320,3 +320,35 @@ Yedi metin *Seelenprobleme*'den, dört metin ayrı Almanca yayınlardan gelir. B
 - Routledge Classics yayın sayfası (içindekiler): https://www.routledge.com/Modern-Man-in-Search-of-a-Soul/Jung/p/book/9780415253901
 - İngilizce Vikipedi, "Modern Man in Search of a Soul" (yayıncı, çevirmenler, sayfa sayısı, Baynes önsözü): https://en.wikipedia.org/wiki/Modern_Man_in_Search_of_a_Soul
 - Ekip içi çapraz kontrol: K02-1, K04-1, K05-1, K05-3, K08-2, K09-1, K09-4 ve K11-5 raporları (Almanca ilk yayınlar, *Seelenprobleme* içeriği, Türkçe çeviriler).
+
+## Ek: Hakem Tartışması (Ajanlar Arası Değerlendirme)
+
+Hakem, dosyayı yapısal olarak tam bulmuş (künye, 11 bölüm, 11 denemenin ayrı alt başlığı, geniş kaynakça) ve 7/10 puan vermiştir. Güçlü yanlar olarak denemelerin CW ve *Seelenprobleme* eşlemesini, serbest çeviri etiketli ve özenle işaretlenmiş alıntıları ve çok kanallı alımlanma bölümünü saymıştır. Başlıca zayıflıklar şunlardır: doğrulama zemininin döngüsel olması, aktif imgelem ve karşıaktarım konusundaki anakronizmler, kaynaksız "en çok okunan" iddiası, ampirik eleştirinin ve AA bağlantısının eksikliği ve üç denemenin yüzeysel işlenmesi. Hakemin de, benim de web arama kotası dolu olduğundan URL ile yeni doğrulama yapılamadı; kararlar bilgiye ve iç tutarlılığa dayanır, doğrulanamayan noktalar metinde işaretlenmiştir.
+
+| # | Önem | Kategori | İtiraz (özet) | Karar (Kabul/Kısmen/Ret) | Gerekçe ve yapılan değişiklik |
+|---|---|---|---|---|---|
+| 1 | önemli | olgu | Türkçe çeviri "çalışma başlığı" diye kesinleştirilmiş, arama yok | Kabul | Kesin ifade kaldırıldı; "bu raporun kaynaklarında saptanmadı" ve dolaylı kaynak notu eklendi. Arama kotası nedeniyle katalog taraması yapılamadı. |
+| 2 | önemli | olgu | "Ruh" = CW 15 varsayımı okuru yanıltabilir | Kabul | Künye, §9 ve kaynakçada "doğrulanmamış, dolaylı" olarak ayrıldı; CW 15'in gerçek başlığı not edildi. |
+| 3 | kritik | yorum | Aktif imgelemin "ilk kamusal tarifi" iddiası anakronik | Kabul | İfade kaldırıldı; terimin bu denemede geçmediği, erken tariflerin 1928–29'da olduğu, "Aşkın İşlev"in 1957/58'de yayımlandığı yazıldı. |
+| 4 | önemli | yorum | Karşıaktarım yorumu 1929 metnine fazla yüklenmiş | Kabul | Cümle yumuşatıldı: Jung terimi kuramlaştırmaz, fikir geriye dönük öncül sayılır; §8'deki ilgili ifade de düzeltildi. |
+| 5 | önemli | olgu | Contributions/Two Essays çevirmen ataması | Kısmen | Kayıtlarda çevirmen adı değişiyor, hakem de doğrulayamadı; kesin atama kaldırıldı ve belirsizlik not edildi. 1922 denemesinin yeri "teyit edilmedi" diye işaretlendi. |
+| 6 | önemli | tutarlılık | "Tek istisna" ile NZZ/yıllık makaleleri çelişiyor | Kabul | §2 yeniden yazıldı; üç farklı ilk biçim sıralandı, NZZ bilgisi "doğrulanamadı" işaretlendi, Vikipedi aktarımının sınırı belirtildi. |
+| 7 | önemli | eksiklik | Çağdaş alımlanma boş; "en çok okunan" abartı; AA ve pastoral etki eksik | Kısmen | "En çok okunan" yumuşatıldı; *AGD* ve *İnsan ve Simgeleri* ile karşılaştırma notu, AA/Bill W. ve pastoral danışmanlık (White, Kelsey, Sanford) §8'e eklendi. 1933 dergi incelemelerinin künyeleri kota yüzünden doğrulanamadığı için uydurulmadı. |
+| 8 | önemli | eksiklik | Ampirik/akademik eleştiri yok | Kabul | §7'ye Domhoff, Hobson–McCarley, Solms, Popper/Grünbaum, Beş Faktör ve arketip kalıtımı eleştirisi eklendi; §8'de "verimli" ifadesi sınırlandı. Künyeler yeniden denetlenmeli notu düşüldü. |
+| 9 | önemli | yorum | "Lévy-Bruhl'ün önüne geçirir" hagiografik; Dalal makaleleri karışık | Kabul | Cümle silindi; Dalal'ın iki makalesi ayrıldı; Samuels, Papadopoulos, Adams çizgisi eklendi. |
+| 10 | önemli | eksiklik | *Europäische Revue* ve Rohan fazla masum tarif edilmiş | Kısmen | Dergi ve Rohan'ın siyasal konumu kaynaklı biçimde teyit edilmeden kesin yazılamadı; "tarihçi değerlendirmesine göre, teyit edilmeli" kaydıyla §2 ve §7'ye eklendi. Spengler atfı "doğrulanamadı" kalıyor. |
+| 11 | önemli | eksiklik | "Freud ve Jung" tipolojik ekseni yok | Kabul | §3.6'ya tipolojik açıklama (Freud dışadönük, Adler içedönük) ve kopuşun kişisel boyutunun yokluğu eklendi; paragraf numaraları doğrulanamadığından "(özet)" etiketlendi. |
+| 12 | önemli | eksiklik | Yaşamın Evreleri, Arkaik İnsan, Ruhsal Sorun yüzeysel | Kabul | Üçü genişletildi (anima/animus ve ölüm; Elgon/Taos ve "ruh korkusu"; participation mystique ve yalnızlık, teozofi/spiritizm). Paragraf aralıkları belleğe dayanır, bu yüzden etiketli. |
+| 13 | küçük | alıntı | Pasaj 5–6 paragraf numarası | Kısmen | Pasaj 6 için §150 eklendi; Faust cümlesi kesin ifadesi teyit edilemediği için "(özet)" yapıldı. |
+| 14 | küçük | olgu | "Üçte iki" kaynaksız; ayakkabı sözü | Kabul | Oran kaldırılıp "çoğunlukla" denildi; ayakkabı sözü "(özet)" yapıldı. |
+| 15 | küçük | dil | "projeksiyon" terim ihlali; bireyleşme/Kendilik | Kabul | "yansıtma" yapıldı; §4.2'ye bireyleşme ve Kendilik kavramlarının bu denemelerde seyrek/örtük olduğu notu eklendi. |
+| 16 | küçük | olgu | GW adları yok; Typologie karışıklığı; ISBN | Kısmen | GW cilt adları eklendi (bellekten, teyit edilmedi); 1936 yazısıyla karışma uyarısı yazıldı; baskı ayrıntıları "teyit edilmeli" yapıldı. |
+| 17 | küçük | yorum | Temel Postülalar adımları eksik; arketip kalıtımı | Kabul | §3.9'a beş adımlı argüman, Geist/madde, agnostisizm ve kalıtım eleştirisi eklendi. |
+
+### Açık Kalan Tartışmalar
+
+- **Jung'un "ilkel zihniyet" tutumu.** Hakem, Jung'un Lévy-Bruhl'ü reddetmesini bile evrimci hiyerarşiyi koruyan bir hamle sayar. Ben bu noktada hakemin okumasını benimsedim; Jung'u savunan okuma (mantıksal öncüller savı bir saygı jestidir) hâlâ post-Jungcu literatürde savunulur ve çözülmemiştir.
+- **Çağdaş alımlanma künyeleri.** Hakem 3–4 somut 1933 incelemesi ister; ben kota nedeniyle doğrulayamadığım künyeleri vermedim. Bu eksik, birincil arşiv taramasıyla kapanmalıdır.
+- **Europäische Revue'nün siyasal niteliği.** Hakem daha net bir siyasal çerçeve ister; ben kaynak teyidi olmadan temkinli yazdım. Dergi kimi tarihçilerce muhafazakâr-devrimci, kimilerince daha geniş bir Avrupacı forum sayılır.
+- **Telafi ilkesinin statüsü.** Hakem "ampirik kanıt zayıf" sonucunu açıkça ister; ben bunu yazdım, ama Solms gibi nörobilimsel çalışmaların anlamlı rüya hipotezini kısmen desteklediğini de ekledim. Nihai değerlendirme açık bir araştırma sorusudur.
+- **Türkçe çeviri durumu.** İki taraf da doğrudan katalog taraması yapamadı; bir baskının varlığı ya da yokluğu teyit bekliyor.
