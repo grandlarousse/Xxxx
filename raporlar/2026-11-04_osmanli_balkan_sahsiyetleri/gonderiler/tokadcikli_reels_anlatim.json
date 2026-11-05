@@ -1,37 +1,37 @@
 [
  {
   "id": "giris",
-  "alt": "Koşukavak'ın bir köyünden Batı Trakya'nın hâkimliğine: Tokadcıklı Süleyman Ağa.",
-  "tts": "Koşukavak'ın bir köyünden Batı Trakya'nın hâkimliğine: Tokadcıklı Süleyman Ağa."
+  "alt": "Koşukavak'ın unutulan ayanı: Tokadcıklı Süleyman Ağa.",
+  "tts": "Koşukavak'ın unutulan ayanı: Tokadcıklı Süleyman Ağa."
  },
  {
   "id": "dogum",
-  "alt": "Bugünkü adıyla Tokaçka, Osmanlı döneminde Tokadcık köyünde doğdu.",
-  "tts": "Bugünkü adıyla Tokaçka, Osmanlı döneminde Tokadcık köyünde doğdu."
+  "alt": "Bugünkü Tokaçka'da, eski adıyla Tokadcık'ta doğdu.",
+  "tts": "Bugünkü Tokaçka'da, eski adıyla Tokadcık'ta doğdu."
  },
  {
   "id": "sultanyeri",
-  "alt": "Sultanyeri'nde 15-20 kişilik bir bölüğün başıydı. Gümülcine ayanı Mestan Ağa'nın desteğiyle Sultanyeri ayanı oldu.",
-  "tts": "Sultanyeri'nde on beş, yirmi kişilik bir bölüğün başıydı. Gümülcine ayanı Mestan Ağa'nın desteğiyle Sultanyeri ayanı oldu."
+  "alt": "Gümülcine ayanı Mestan Ağa'nın desteğiyle Sultanyeri ayanı oldu.",
+  "tts": "Gümülcine ayanı Mestan Ağa'nın desteğiyle Sultanyeri ayanı oldu."
  },
  {
   "id": "g1796",
-  "alt": "1796'da Mestan Ağa idam edilince Gümülcine'ye girdi ve kendini ayan ilan etti.",
-  "tts": "Bin yedi yüz doksan altıda Mestan Ağa idam edilince, Gümülcine'ye girdi ve kendini ayan ilan etti."
+  "alt": "1796'da Gümülcine'ye girip kendini ayan ilan etti.",
+  "tts": "Bin yedi yüz doksan altıda Gümülcine'ye girip kendini ayan ilan etti."
  },
  {
   "id": "g1798",
-  "alt": "1798'de kapıcıbaşı oldu. Gümülcine, Dimetoka ve Sultanyeri'nde iltizamları ve çiftlikleri denetledi.",
-  "tts": "Bin yedi yüz doksan sekizde kapıcıbaşı oldu. Gümülcine, Dimetoka ve Sultanyeri'nde iltizamları ve çiftlikleri denetledi."
+  "alt": "1798'de kapıcıbaşı oldu; Dimetoka'ya uzanan yöreyi denetledi.",
+  "tts": "Bin yedi yüz doksan sekizde kapıcıbaşı oldu. Dimetoka'ya uzanan yöreyi denetledi."
  },
  {
   "id": "g1804",
-  "alt": "1804'te devletle arası bozuldu. Kuzeye kaçtı; Sevlievo yakınlarında Rusçuk ayanı Tirsiniklioğlu'nun kuvvetlerince yakalanıp öldürüldü.",
-  "tts": "Bin sekiz yüz dörtte devletle arası bozuldu. Kuzeye kaçtı; Sevlievo yakınlarında, Rusçuk ayanı Tirsiniklioğlu'nun kuvvetlerince yakalanıp öldürüldü."
+  "alt": "1804'te devletle arası bozuldu; kuzeye kaçarken yakalanıp öldürüldü.",
+  "tts": "Bin sekiz yüz dörtte devletle arası bozuldu. Kuzeye kaçarken yakalanıp öldürüldü."
  },
  {
   "id": "son",
-  "alt": "Bugün ne Koşukavak'ta ne Gümülcine'de anılıyor.",
-  "tts": "Bugün ne Koşukavak'ta, ne Gümülcine'de anılıyor. Rumeli'nin unutulan adları."
+  "alt": "",
+  "tts": "Bugün onu hatırlayan yok."
  }
 ]
