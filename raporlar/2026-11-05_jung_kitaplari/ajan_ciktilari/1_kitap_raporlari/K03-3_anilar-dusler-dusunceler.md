@@ -373,3 +373,5 @@ Hakem taslağı ayrıntılı ve temkinli bulmuş, anlatı düzeyinin (rüyalar, 
 - **Eklerin kesin içeriği ve sırası.** Basılı içindekiler görülmeden kesinleşemez. Hakem listeden çıkarmayı önerir, yazar işaretleyerek bırakır.
 - **Editoryal bölümün birincil dayanağı.** Elms (1994) ve Shamdasani (1995) makalelerine sayfa düzeyinde erişim sağlanamadı. Hakem bunu eksiklik, yazar kota sınırı olarak görür.
 - **Ravenna eşlikçisi ve Türkçe ilk basım yılı.** Her ikisi de kaynak bulunana kadar açık kalır.
+
+Küme sentezi düzeltmesi: §3'teki "Mandalalar ve Kendilik (1918–1919)" tarihlemesi *Anılar*'ın kendi anlatısını yansıtır; K03-2'ye göre Kara Kitaplar'daki ilk mandala eskizleri 1917 tarihlidir (ve Systema Munditotius 1916). Metne dokunulmadı, ancak bu tarihlemenin Jung'un geriye dönük kronolojisi olduğu, kitabın yanlış değil ama geç ve düzeltilmiş olduğu not edilir. Dalal'ın "Jung: A Racist" (BJP, 1988) künyesi doğrudur; K03-2'deki "The Racism of Jung" (Race & Class, 1988) onun ayrı makalesidir.
