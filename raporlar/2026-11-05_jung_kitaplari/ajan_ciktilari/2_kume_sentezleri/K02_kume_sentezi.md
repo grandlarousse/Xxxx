@@ -106,7 +106,7 @@ Aşağıdaki noktalarda üç rapor birbirini destekler. Hiçbirinde düzeltme ge
 
 **(c) Kopuşun tarihi ve niteliği.** Üç rapor, Freud'un kişisel ilişkiyi 3 Ocak 1913'te bitirmeyi önerdiğinde uyumludur. Ancak "kopuş" yalnızca bu tarih değildir: Jung'un resmî çekilişleri Ekim 1913 ve Nisan 1914'tedir, Zürih şubesi Temmuz 1914'te ayrılmıştır. Raporlarda "kopuş 1913" ve "kopuş 1914" ifadeleri farklı olayları kasteder. Okur için bu ayrım açıkça yapılmalıdır.
 
-**(d) Fordham'ın yapısı.** K02-1, hakem sonrası konferansları numara numara değil, sekiz tematik blokta sunar. K02-2 ve K02-3 "dokuz konferans" der. Bu çelişki değildir: dokuz konferans sayısı korunmuş, yalnızca başlıkların dökümü doğrulanamamıştır. CW 4'ün paragraf aralıklı içindekiler tablosu ve Fordham'ın gerçek başlıkları hiçbir raporda doğrulanamamıştır.
+**(d) Fordham'ın yapısı.** K02-1, hakem sonrası konferansları numara numara değil, sekiz tematik blokta sunar. K02-1 ve K02-3 "dokuz konferans" der. Bu çelişki değildir: dokuz konferans sayısı korunmuş, yalnızca başlıkların dökümü doğrulanamamıştır. CW 4'ün paragraf aralıklı içindekiler tablosu ve Fordham'ın gerçek başlıkları hiçbir raporda doğrulanamamıştır.
 
 **(e) Analistin analizi talebinin Fordham'daki yeri.** K02-1 bu talebin Jung'da bulunduğunu Princeton'ın tanıtım metnine dayanarak kabul eder, ancak Fordham'da bulunup bulunmadığını doğrulayamaz. K02-3 ise talebi Aralık 1912 mektuplarına yerleştirir (karşılıklı analiz ve otorite). Bu iki raporun öncelik iddiası bakımından birbirine bağlanması yanlış olurdu. Sentez, talebin 1912'de Zürih çevresinde bulunduğunu söylemekle yetinir.
 
