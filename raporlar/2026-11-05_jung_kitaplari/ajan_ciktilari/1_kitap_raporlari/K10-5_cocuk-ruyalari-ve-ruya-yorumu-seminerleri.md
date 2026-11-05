@@ -243,3 +243,29 @@ Bu iki cilt Jungcu eğitim kurumlarında **rüya süpervizyonu** pratiğinin tar
 - https://bulkeley.org/dream-book-review-jungs-seminar/
 - https://www.degruyterbrill.com/document/doi/10.1515/9781400852796-019/html (Cardano bölümü = 13. bölüm)
 - https://www.carljung.com.tr/post/carl-jung-ve-cocuk-ruyalari-semineri-ders-i ; https://www.carljung.com.tr/post/cocuk-ruyalari-analizi-semineri-kisim-v ; https://www.carljung.com.tr/post/bolum-x-cocuk-ruyalari-semineri-kis-donemi-1939-40 ; https://www.carljung.com.tr/post/bolum-xv-cocuk-ruyalari-semineri-kis-donemi-1939-40 (resmî olmayan Türkçe özetler)
+
+## Ek: Hakem Tartışması (Ajanlar Arası Değerlendirme)
+
+Hakem, taslağı dürüst bir doğrulama çabası olarak (belirsizliklerin işaretlenmesi, tutanak niteliğinin vurgulanması, §3.1 yöntem dersinin ve §7'nin dengesi) övdü; buna karşılık raporun kalbi olan §3'ün 1938/39, 1939/40 ve 1940/41 dönemleri ile *Rüya Yorumu* cildinde Jung'un yorumları bakımından boş kaldığını, Pererius konusundaki olumsuzlamanın kapsam notuyla çeliştiğini ve §10'daki kesin sayfa numaralı alıntıların doğrulanmadığını belirterek 5,5 puan verdi. Yazar olarak itirazların çoğunu kabul ettim; yeniden yapılan sınırlı doğrulamada (Project MUSE içindekiler, Philemon ürün sayfası) birkaç nokta kesinleşti, ancak eksik dönem içeriği birincil kaynaktan okunamadığı için uydurulmadı.
+
+| # | Önem | Kategori | İtiraz (özet) | Karar (Kabul/Kısmen/Ret) | Gerekçe ve yapılan değişiklik |
+|---|---|---|---|---|---|
+| 1 | Kritik | Eksiklik | §3.3–3.6'da 1938–41 dönemlerinin içeriği boş | Kısmen | MUSE içindekilerinden bölüm/sayfa yapısı doğrulandı ve §3.0'a doğrulama tablosu eklendi. Rüya listeleri/oturum tarihleri erişilebilir kaynakta bulunamadı (MUSE yalnızca bölüm düzeyi verir, Philemon bölüm başlıklarını vermez); uydurmak yerine boşluk tek bir uyarı kutusunda toplandı. |
+| 2 | Kritik | Olgu | Pererius için kesin olumsuzlama | Kabul | §3.8 ve §9 yumuşatıldı: Philemon/MUSE kayıtlarında ad geçmiyor, ancak yokluk kanıtlanmış değil; dizinden doğrulanmalı. |
+| 3 | Kritik | Alıntı | Kesin sayfa numaralı, doğrulanmamış alıntılar; pasaj 6 şüpheli | Kabul | §10'daki tüm pasajlar "(özet)" yapıldı, sayfa numaraları kaldırıldı, pasaj 6 amplifikasyon tanımı olarak düzeltildi, "tam da bizim yaptığımız gibi" ifadesi §1, §3.8 ve §10'da tek biçime (özet) indirildi. |
+| 4 | Önemli | Olgu | Blog kaynaklı ayrıntılar güvenilir özet gibi okunuyor | Kabul | Blog kaynaklı paragraflar "[ikincil]" etiketiyle işaretlendi ve §3 başına uyarı kondu. Fierz adı MUSE'tan doğrulanamadı; etiketle bırakıldı. Ayrı "ek kutu"ya taşıma yerine yerinde etiketleme tercih edildi (akış bozulmasın diye). |
+| 5 | Önemli | Olgu | Dramatik şemanın CW 8'deki yeri; 1931/1934 ayrımı | Kısmen | Şemanın "Rüyaların Doğası Üzerine"deki (CW 8 §561 civarı) dört evreli anlatımı benim bilgime göre doğrudur; hakemin "yanlış yer" iddiası kabul edilmedi, ancak paragraf numarası doğrulanmalı notu ve CW 16 metninin 1931 konuşma/1934 yayın ayrımı eklendi. |
+| 6 | Önemli | Olgu | Kısım A–D adları kaynaksız; Hubbard/Blobbs; Jung yorumları eksik | Kısmen | Gruplama "bu raporun gruplaması" olarak yeniden adlandırıldı; Philemon'un "dört kısımlı seri" ifadesi not edildi. Hubbard/Blobbs kimliği doğrulanamadı, bu açıkça yazıldı. Jung'un her rapora yorumları erişilebilir olmadığından eklenemedi. |
+| 7 | Önemli | Tutarlılık | "1936–1940" yalnızca slug'a mı dayanıyor; GW/Supplementband | Kabul | Philemon sayfasının başlık metni (slug değil) "1936-1940" gösteriyor; bu doğrulandı, Princeton/MUSE ise 1936–1941 diyor; çelişki açıkça belirtildi. GW/Supplementband iddiası kaldırıldı. Sayfa sayısı farkı (260 / 320) künyeye eklendi. |
+| 8 | Önemli | Yorum | Travma ve eşzamanlılık anakronizmi | Kabul | §4.7 ve §4.8 yumuşatıldı; Hartmann'a gönderme ve Wilhelm anma/Pauli yazışmaları eklendi. |
+| 9 | Önemli | Eksiklik | Domhoff, Hall, Hillman, Noll/Shamdasani, teolojik ve siyasal eleştiriler eksik | Kabul | §7'ye dört yeni paragraf (Domhoff/Hall-Van de Castle/Hillman; Shamdasani/Noll; teolojik; Wotan bağlamı) ve feminist/postkolonyal atıflar eklendi. Bu yeni atıflar bilgi birikimine dayanır, bu oturumda yeniden doğrulanmadı ve metinde öyle belirtildi. |
+| 10 | Önemli | Eksiklik | Bölüm dengesi; Türkçe katalog taraması | Kısmen | Türkçe katalog taraması yapılamadı (kitapyurdu/Milli Kütüphane), bu künyede açıkça yazıldı. §3.1 kısaltılmadı: yöntem dersi kitabın tek tam doğrulanmış bölümüdür ve kısaltmak, uzunluk ve doğrulanabilirlik açısından zarar verirdi. Denge, doğrulama tablosuyla şeffaflaştırıldı. |
+| 11 | Küçük | Dil | Kendilik notu geç; başlık kalıbı; uzunluk | Kısmen | Kendilik notu §1'e taşındı; "dört aşamalı dönüşüm" ifadesi düzeltildi; başlık şablona uyarlandı. Uzunluğun kısaltılması talebi reddedildi: revizyon görevinin kuralı metnin kısalmamasını şart koşar; metin yeni içerikle uzamıştır. |
+
+### Açık Kalan Tartışmalar
+
+- **Dönem içeriklerinin eksikliği.** Hakem: 370 sayfalık gövde birkaç paragrafla geçiştirilmiş, rapor kendi zorunlu kuralını karşılamıyor. Yazar: Erişilebilen birincil kayıtlar (MUSE, Philemon) rüya listelerini vermiyor; resmî olmayan blogdan doldurmak daha kötü olurdu. Çözüm, kitabın tam metnine erişen bir okurun §3.3–3.5'i tamamlamasıdır.
+- **Pererius'un kitaptaki yeri.** Hakem: kapsam notuna göre kitapta ele alınıyor olmalı. Yazar: Hiçbir erişilebilir kayıtta ad geçmiyor; ele alınma düzeyi (dipnot, tartışma) dizin kontrolü olmadan bilinemez.
+- **İkinci kitabın alt başlık yılı.** Philemon "1936–1940", Princeton/MUSE "1936–1941" diyor; hangisinin kitabın kapağındaki ifade olduğu doğrulanamadı.
+- **Uzunluk.** Hakem 6.000 kelimeyi aşmayı kusur sayıyor; yazar, revizyon kuralı gereği kısaltmamayı seçti. Karar editöre bırakılmıştır.
+- **Şemanın CW paragraf numarası.** CW 8 §561 civarı iddiası hakemce "doğrulanmalı" bırakıldı; iki taraf da kesin teyit yapmadı.

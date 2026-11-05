@@ -225,7 +225,7 @@ Loÿ yazışması, Jung'un psikoterapiyi bir teknik olmaktan çok bir ilişki ol
 
 **Güncel yeniden yorumlar.** Freud–Jung kopuşu bugün üç çizgide tartışılır. Birinci çizgi, Ellenberger ve Shamdasani'nin Jung'u bağımsız bir araştırmacı olarak gösteren belgesel tarihçiliğidir (Philemon Vakfı'nın yayın çalışmaları ve *Kırmızı Kitap*'ın 2009'da yayımlanması sonrası yeniden değerlendirme bu çizginin parçasıdır; K03-1). İkinci çizgi, Kerr, Bair ve benzeri biyografik anlatıların kişisel ve kurumsal dinamiklere (Spielrein ilişkisi, güç mücadelesi) verdiği ağırlıktır; Shamdasani ve Freudcu tarihçiler bu ağırlığın doğru ölçüsü konusunda ayrışır. Üçüncü çizgi, Richard Noll'ün (*The Jung Cult*, 1994; *The Aryan Christ*, 1997) Jung'u karizmatik bir kült kurucusu olarak sunan ve Jungcu çevrelerce sert eleştirilen revizyonudur; Noll'ün çalışmaları CW 4'ten çok sonraki dönemi ve Jung'un kişisel mitolojisini hedefler. Makari gibi psikanaliz tarihçilerinin ayrılığı psikanaliz hareketinin kurumsal tarihi içinde yeniden okuyan çalışmaları da aynı tartışmaya katılır (künyeler için §11).
 
-**Siyasal bağlam (sınırlı).** CW 4'ün çekirdek metinleri 1930'ların Nazi dönemi tartışmalarından önceye aittir; yalnızca 1929–1930 metinleri ile 1949 revizyonu daha geç tarihlidir. Jung'un 1930'lardaki yayın ve dernek faaliyetleri, "Yahudi" ve "Aryan" psikolojisi ayrımına ilişkin sonraki yazıları ve Freud'un Yahudi kimliği üzerine söyledikleri bu ciltte işlenmez; Freud–Jung ayrılığını sonradan siyasal bir çerçeveye oturtan okumalar (K11-1 ve ilgili Nazi dönemi raporlarına bakınız) ancak ilgili metinler üzerinden değerlendirilmelidir.
+**Siyasal bağlam (sınırlı).** CW 4'ün çekirdek metinleri 1930'ların Nazi dönemi tartışmalarından önceye aittir; yalnızca 1929–1930 metinleri ile 1949 revizyonu daha geç tarihlidir. Jung'un 1930'lardaki yayın ve dernek faaliyetleri, "Yahudi" ve "Aryan" psikolojisi ayrımına ilişkin sonraki yazıları ve Freud'un Yahudi kimliği üzerine söyledikleri bu ciltte işlenmez; Freud–Jung ayrılığını sonradan siyasal bir çerçeveye oturtan okumalar (proje listesindeki Nazi dönemi ve siyasal bağlam raporlarına bakınız) ancak ilgili metinler üzerinden değerlendirilmelidir.
 
 **Türkçe alımlanma.** Türkçede cilde ilişkin tek yayın olarak Pinhan baskısı (2016) tespit edildi; bu baskının libido, aktarım ve ereksel gibi terimleri nasıl karşıladığı ve Türkçe akademik literatürde cilde yapılan atıflar bu çalışmada doğrulanamadı (Milli Kütüphane kaydı ile kontrol önerilir).
 
@@ -339,3 +339,33 @@ Loÿ yazışması, Jung'un psikoterapiyi bir teknik olmaktan çok bir ilişki ol
 - Baba denemesinin vaka ayrıntıları ve 1909/1949 katmanlarının paragraf dağılımı.
 - Pinhan çevirisinin kapsamı, kaynak dili ve kalitesi.
 - Makari ve Noll künyelerinin ayrıntılı sayfa atıfları.
+
+## Ek: Hakem Tartışması (Ajanlar Arası Değerlendirme)
+
+Hakem, taslağı tam, 11 bölümlük yapıya uygun ve epistemik açıdan dürüst buldu (doğrulanamayan her ayrıntı etiketlenmiş, iki doğrudan alıntı gerçek metinle örtüşüyor, kronoloji ve anakronizm uyarıları titiz). Buna karşılık raporun kalbi olan §3'ün yapı iskeletini, özellikle Fordham konferansları bölümünü ve CW 4 içindekiler tablosuna ilişkin iddiaları doğrulanmamış ve kısmen hatalı olarak niteledi. Hakem web araması yapamadığı için itirazlarını bilgi ve akıl yürütmeye dayandırdı. Verdiği puan 6,5/10. Ben de arama bütçesinin tükenmesi nedeniyle yalnızca Princeton'ın tanıtım sayfasını doğrulayabildim; bu, rüya yorumu ve analist analizi temalarının konferanslarda bulunduğunu teyit etti ama konferans başlıklarını vermedi. Bu yüzden kesin yapı iddiaları kaldırıldı, belirsizlik açıkça belirtildi.
+
+| # | Önem | Kategori | İtiraz (özet) | Karar (Kabul/Kısmen/Ret) | Gerekçe ve yapılan değişiklik |
+|---|---|---|---|---|---|
+| 1 | Kritik | Eksiklik | 4. ve 7. konferans mükerrer, rüya konferansı eksik | Kabul | Konferans numaralandırması bırakıldı; 8 tematik blok kuruldu, nevroz etiyolojisi tek blokta birleştirildi, rüya bloğu eklendi (Princeton tanıtımı rüya yorumunu doğruluyor); başlıkların doğrulanamadığı belirtildi |
+| 2 | Önemli | Olgu | Dört kısımlı yapı doğrulanmamış | Kabul | Kısım atamaları kaldırıldı; sıranın CW sırası değil tarih sırası olduğu yazıldı. CW paragraf tablosu doğrulanamadığı için eklenemedi |
+| 3 | Önemli | Eksiklik | Uzunluk hedefi aşıldı, meta metin fazla | Kısmen | Doğrulama notu üç cümleye indi, kota/oturum anlatımı çıktı, "doğrulanamayanlar" listesi toplandı; ancak yeni eklenen içerik nedeniyle uzunluk hedefin üstünde kaldı (revizyonun kısaltmama kuralı gereği) |
+| 4 | Önemli | Yorum | Spielrein ve Jones iddiaları kaynaksız | Kabul | Jones aktarımı çıkarıldı; Spielrein bağı "doğrudan kanıt yok, yorum" olarak yumuşatıldı |
+| 5 | Önemli | Olgu | İki Londra konuşması aynı ay, 1913/1916 karışıklığı | Kabul | Tarih ve kurum belirsiz bırakıldı, 3.11 başlığına "CW'de 1916, ilk sunum 1913" eklendi, Collected Papers eşleştirme tablosu eklendi |
+| 6 | Önemli | Olgu | Türkçe çeviri tek kaynağa dayanıyor | Kabul | Künye ve §9 "tek satıcı kaydı, kapsam ve kalite teyit edilmedi" biçiminde yumuşatıldı |
+| 7 | Önemli | Yorum | Analist analizi "açık talep" ve "birincil kanıt" iddiası dairesel | Kısmen | Princeton tanıtımı Jung'un bunu savunduğunu doğruladığı için talep tamamen silinmedi; ama Fordham'daki yeri teyit edilemediği, Freud 1912 pasajının Fordham'dan önce olduğu belirtildi ve §8'deki "birincil kanıt" cümlesi çıkarıldı. Jung'un sonraki beyanına kaynak bulunamadı |
+| 8 | Önemli | Eksiklik | "Luka 137" örneği güvenilmez | Kabul | Örnek ve "orta yaşlı erkek" ayrıntısı çıkarıldı, yalnızca genel ilke bırakıldı |
+| 9 | Önemli | Yorum | 1929 metni özeti zayıf, "tanrılaştırma" Jung'un sözcüğü olmayabilir | Kısmen | "Tanrılaştırma" yorumcu dili olarak etiketlendi; tipolojik çerçeve ve "öznel itiraf" bağı eklendi. §774 alıntısı korundu. §§768–780 ile satır satır yeniden kurulum yapılamadı |
+| 10 | Önemli | Eksiklik | Loÿ yazışması tematik, mektup sayısı belirsiz | Kısmen | "On mektup" iddiası çıkarıldı, Hitschmann eleştirisi §7'ye taşındı, tematik özetin mektup mektup olmadığı açıkça yazıldı; mektupları tek tek okuma imkânı bu oturumda yoktu |
+| 11 | Önemli | Eksiklik | Baba denemesi vaka ayrıntıları doğrulanmamış | Kabul | Enürezis vakası ve Tobit ayrıntısı çıkarıldı; yalnızca doğrulanabilir 1909/1949 katman ayrımı kaldı |
+| 12 | Küçük | Tutarlılık | "On altı metin" sayısı kaynaksız | Kabul | "Yaklaşık on altı" ve sayım yöntemi eklendi |
+| 13 | Küçük | Dil | Regresyon/gerileme tutarsızlığı, karşıaktarım anakronizmi | Kabul | İlk geçişte parantezli terimler sabitlendi, karşıaktarım için "terim Fordham'da geçmez" notu eklendi |
+| 14 | Küçük | Alıntı | Çok özet, az Jung alıntısı | Kısmen | "Civarı" ifadesi kaldırıldı. Ek Jung alıntısı eklenmedi: tam ifadesinden emin olmadığım metni doğrudan alıntı yapmak yönergeye aykırı olurdu |
+| 15 | Küçük | Tutarlılık | Freud'un Amerika yazısına tepkisi 1914 metnine atfedilmiş | Kabul | Atıf Freud–Jung mektuplarına (Kasım 1912) bağlandı |
+| E | Eksik konu | Kapsam | Terminolojik dönüşüm, güncel tartışmalar, siyasal bağlam, Türkçe alımlanma | Kabul | §7'ye dört paragraf eklendi; Noll ve Makari künyeleri §11'e girdi. Philemon/Freudcu yanıtlar ve Amerikan basın alımlanması için tarihli kaynak bulunamadı |
+
+### Açık Kalan Tartışmalar
+
+- **Fordham konferanslarının gerçek yapısı.** Hakem, rapordaki dokuzlu dağılımın büyük olasılıkla yanlış olduğunu savunuyor; ben de bunu kabul ettim ve tematik blok sunumuna geçtim. Ancak bloklar CW 4 metniyle satır satır karşılaştırılmadı. İçindekiler tablosu doğrulanana kadar blok sırası bir yaklaşıklık olarak kalıyor.
+- **Analist analizinde öncelik.** Hakem, Fordham'da açık talep bulunduğu iddiasının çıkarım olduğunu savunuyor. Ben Princeton tanıtımının ve Freud'un 1912 pasajının talebin Zürih çevresinde var olduğunu desteklediğini, ama Fordham'daki yerinin ve Jung'un sonraki öncelik iddiasının kaynaklanamadığını belirtiyorum. İki taraf bu noktada tam uzlaşmadı, çünkü ikisi de birincil metinden teyit edemedi.
+- **Uzunluk.** Hakem hedef aralığın aşıldığını işaret etti. Ben, doğrulanamayan içeriği silmenin ardından yeni eksik konuları eklemek zorunda kaldığım ve revizyonun kısaltmama kuralı bulunduğu için, raporun uzun kalmasının kabul edilebilir olduğunu düşünüyorum; hakem hâlâ kısaltma isteyebilir.
+- **Jung alıntıları.** Hakem Jung'un kendi sözlerinden daha fazla doğrudan alıntı bekliyor; ben metinleri önümde tutamadığım için uydurma riskini daha ağır buldum.
