@@ -25,7 +25,7 @@ Kitabın önemi üç düzlemdedir. Birincisi, Jung'un mit kuramını tarihsel me
 
 **Jung'un uzun soluklu ilgisi.** Jung olguyu 1940'ların sonundan itibaren izledi, raporları ve kitapları topladı. 1951 tarihli bir mektubunda, bütün bunların eşlik eden tekil ve kitlesel halüsinasyonlarla birlikte bir söylenti mi, yoksa düpedüz bir olgu mu olduğuna yeterli kesinlikle karar veremediği için şaşkınlık içinde olduğunu yazar (özet; alıcının Beatrice Hinkle olduğu yaygın biçimde aktarılır, doğrulanamadı; K11-1). 1954'te İsviçre haftalık dergisi *Die Weltwoche*'ye verdiği bir söyleşide (söyleşiyi yapanın Georg Gerster olduğu aktarılır, doğrulanamadı) aynı ikili tavrı korudu: Bir şey görülüyor ama ne olduğu bilinmiyor; psikolojik bileşen apaçık, fiziksel bileşen ise açık bir soru. Bu söyleşi daha sonra CW 18'e alındı (K09-6).
 
-**Basındaki yanlış aktarımlar (1954 ve 1958 ayrı olaylardır).** İlk olay 1954 tarihlidir: Jung'un İsviçre haftalık dergisi *Die Weltwoche*'ye verdiği söyleşide (yapan: Georg Gerster olarak aktarılır; doğrulanacak) UFO'ların bir söylenti mi olgu mu olduğuna karar vermediğini, ama gerçekten bir şeyin görüldüğünü söylemesi, ufolog çevrelerde Jung'un fiziksel gerçekliğe yakın durduğu biçiminde yaygınlaştı. İkinci olay kitabın yayımlandığı 1958 yılıdır: Jung'un tezi, ufolog yayın organları ve haber ajansları aracılığıyla "Jung uçan dairelerin gerçek olduğunu söylüyor" kalıbına sokuldu ve Jung bunu düzeltmek zorunda kaldı. Düzeltmenin biçimi (basına verilen kısa açıklama, ufolog yazarlarla, örneğin Donald Keyhoe ile mektuplaşma) literatürde anılır; ancak açıklamanın aracı kurumu, tam tarihi, alıcıları ve CW 18 ile *Letters* 2'deki karşılıkları bu raporda doğrulanamamıştır. Bu nedenle olay zinciri burada yalnızca şu ölçüde kesindir: ufolog basın Jung'u inanan biri gibi sundu, Jung ise yalnızca psikolojik yanla ilgilendiğini ve fiziksel soruda yargıdan kaçındığını belirtti. Olay kitabın alımlanmasını belirledi: "inanıyor" diye aktarılan sözler kitabın kendisinden daha hızlı yayıldı. Jung, kitabın girişinde bu tür bir yanlış anlaşılmayı göze aldığını, bilimsel itibarını riske attığını açıkça yazmıştı (özet).
+**Basındaki yanlış aktarımlar (1954 ve 1958 ayrı olaylardır).** İlk olay 1954 tarihlidir: Jung'un İsviçre haftalık dergisi *Die Weltwoche*'ye verdiği söyleşide (yapan: Georg Gerster olarak aktarılır; doğrulanacak) UFO'ların bir söylenti mi olgu mu olduğuna karar vermediğini, ama gerçekten bir şeyin görüldüğünü söylemesi ufolog çevrelerde, Jung'un fiziksel gerçekliğe yakın durduğu biçiminde aktarıldı. İkinci olay kitabın yayımlandığı 1958 yılıdır: Jung'un tezi, ufolog yayın organları ve haber ajansları aracılığıyla "Jung uçan dairelerin gerçek olduğunu söylüyor" kalıbına sokuldu ve Jung bunu düzeltmek zorunda kaldı. Düzeltmenin biçimi (basına verilen kısa açıklama, ufolog yazarlarla, örneğin Donald Keyhoe ile mektuplaşma) literatürde anılır; ancak açıklamanın aracı kurumu, tam tarihi, alıcıları ve CW 18 ile *Letters* 2'deki karşılıkları bu raporda doğrulanamamıştır. Bu nedenle olay zinciri burada yalnızca şu ölçüde kesindir: ufolog basın Jung'u inanan biri gibi sundu, Jung ise yalnızca psikolojik yanla ilgilendiğini ve fiziksel soruda yargıdan kaçındığını belirtti. Olay kitabın alımlanmasını belirledi: "inanıyor" diye aktarılan sözler kitabın kendisinden daha hızlı yayıldı. Jung, kitabın girişinde bu tür bir yanlış anlaşılmayı göze aldığını, bilimsel itibarını riske attığını açıkça yazmıştı (özet).
 
 **Jung'un hayatındaki yeri.** Kitap, *Mysterium Coniunctionis*'in (1955–56; K07-4) tamamlanmasından ve Emma Jung'un ölümünden (1955) sonra, kamuya dönük geç dönem yazılarının ortasında yazıldı. Bir yıl önce çıkan *Keşfedilmemiş Benlik* (1957; K09-2) kitle toplumu ve Soğuk Savaş karşısında bireyin iç özerkliğini savunmuştu. İkisi aynı CW 10 cildinde art arda yer alır; bu yakınlık tesadüf değildir. *Uçan Daireler* aynı teşhisi bu kez kolektif bir görü olgusu üzerinden sürdürür. Kitabın yazıldığı 1957 yılı, Sovyetler Birliği'nin Sputnik'i (Ekim 1957) fırlatmasıyla uzay çağının başladığı yıldır. Gökyüzü artık hem askerî tehdidin hem de teknolojik umudun sahnesidir. Aynı yıllarda Aniela Jaffé ile *Anılar, Düşler, Düşünceler* (K03-3) üzerinde çalışma başlamıştı. Pauli yazışmasında Max Knoll'un UFO'lar üzerine Pauli'ye yazdığı mektup da (K11-2) olgunun Jung çevresinde fizikçilerce de tartışıldığını gösterir.
 
@@ -47,7 +47,7 @@ Jung işe bir tarih felsefesiyle başlar. Çağdaş olayların anlamını kestir
 
 Kitabın kuramsal omurgası bu bölümdedir.
 
-**Görü söylentisi.** Jung sıradan söylenti ile "görü söylentisi" arasında ayrım yapar. Sıradan söylenti yalnızca anlatı olarak yayılır. Görü söylentisinde ise anlatıya **gerçek algılar, görüler ve yanılsamalar** eşlik eder: İnsanlar söylentinin içeriğini bizzat "görür". Bu tür söylentiler için kolektif bir duygusal gerilim, yaygın bir sıkıntı ya da tehlike gerekir. Tarihte savaş, salgın ve çalkantı dönemlerinde görülen kolektif görüler bu türdendir (Jung'un burada Haçlı Seferleri'ndeki görülerden, Birinci Dünya Savaşı'ndaki "Mons melekleri"nden ve 1917 Fatima "güneş mucizesi"nden örnek verdiği aktarılır; doğrulanamadı).
+**Görü söylentisi.** Jung sıradan söylenti ile "görü söylentisi" arasında ayrım yapar. Sıradan söylenti yalnızca anlatı olarak yayılır. Görü söylentisinde ise anlatıya **gerçek algılar, görüler ve yanılsamalar** eşlik eder: İnsanlar söylentinin içeriğini bizzat "görür". Bu tür söylentiler için kolektif bir duygusal gerilim, yaygın bir sıkıntı ya da tehlike gerekir. Tarihte savaş, salgın ve çalkantı dönemlerinde görülen kolektif görüler bu türdendir (Tarihsel kolektif görü örnekleri literatürde sık anılır. Jung'un bu bölümde hangilerini andığı, özellikle Mons melekleri ve Fatima için, doğrulanamadığından burada kitabın içeriği olarak verilmemiştir).
 
 **Çağın gerilimi.** 1950'lerin gerilimi bellidir: Dünya "Demir Perde" ile iki kampa bölünmüştür ve hidrojen bombası insanlığın varlığını tehdit etmektedir. Jung'a göre her şeyin tehlikede olduğu bu durumda, yansıtma üreten fantezi dünyevi örgütlerin ve güçlerin ötesine, göklere yükselir (özet). Kurtuluş artık yeryüzündeki kurumlardan beklenemediği için gökten gelecek bir müdahale beklenir.
 
@@ -55,43 +55,38 @@ Kitabın kuramsal omurgası bu bölümdedir.
 
 **Teknolojik kılık ve kurtarıcı.** Modern insan, gökten inen bir tanrıya ya da meleğe inanmaz ama bir uzay aracına inanabilir. Jung'a göre teknolojik görünen her şey modern bilinç tarafından kolayca yutulur (özet). Arketip, bilincin kabul edebileceği tek kılığa, makineye bürünür. Temasçıların anlattığı, bilge ve iyiliksever uzaylıların insanlığı atom felaketine karşı uyarması ve kurtarması motifi, **kurtarıcı arketipinin** modern biçimidir. Jung burada bilinçli ussallığın tek yanlılığını telafi eden bilinçdışı bir dinsel gereksinimi görür: Tanrı'yı kovan bilinç onu teknoloji kılığında geri çağırır.
 
-**Kişisel ve arketipsel yorum.** Jung kişisel düzeyde cinsel yorumun (puro biçimli "ana gemiler" ile yuvarlak dairelerin eril ve dişil simgeler olarak okunması) mümkün olduğunu, ama olgunun kolektif yaygınlığını açıklamaya yetmediğini belirtir (bölümdeki yeri doğrulanamadı). Asıl düzey arketipseldir: Karşıtların birliği, bütünlük ve Kendilik.
+**Kişisel ve arketipsel yorum.** Jung'un cinsel yorumu (puro biçimli cisimler ile yuvarlak dairelerin eril ve dişil simgeler olarak okunması) kişisel düzeyde olanaklı, kolektif yaygınlığı açıklamak için yetersiz bulduğu yönündeki okuma yaygındır; bölümdeki tam yeri doğrulanamadı. Asıl düzey arketipseldir: Karşıtların birliği, bütünlük ve Kendilik.
 
 ### 3.3 Bölüm 2: Rüyalarda UFO'lar
 
-Jung, analizanlarından ve tanıdıklarından topladığı, UFO motifinin geçtiği bir dizi rüyayı ayrıntılı olarak çözümler. Rüyaların sayısı, kişileri ve tek tek içerikleri burada doğrulanamamıştır. Bu bölüm, kitabın psikolojik iddiasını bireysel düzeyde sınar: Gökyüzündeki olgu "dışarıda" ne olursa olsun, rüyada UFO dış bir nesneyi değil, rüya görenin bilinçdışıyla, özellikle Kendilik'le ilişkisini dile getirir.
+Bu bölümde Jung, UFO motifinin geçtiği rüyaları ele alır; bölümün işlevi, söylentide görülen imgenin bireysel bilinçdışında da belirip belirmediğini sınamaktır. **Rüyaların sayısı, rüya görenlerin kimlikleri ve tek tek içerikleri bu turda metinden doğrulanamadığı için burada anlatılmamıştır.** Önceki taslaktaki ayrıntılı rüya içerikleri ve "göz", "kalabalık-şehir-felaket" gibi temalar kitaptan alınmış özetler olarak değil, yalnızca olası okumalar olarak değerlendirilmelidir. Bölümün güvenle söylenebilecek çerçevesi şudur:
 
-Jung'un yöntemi burada da **amplifikasyondur**. Rüya imgesi, rüya görenin çağrışımlarının yanı sıra mitolojik, simyasal ve dinsel paralellerle genişletilir. Bölümde öne çıkan yorum çizgileri şunlardır:
+- Jung rüyaları, yöntemi gereği, rüya görenin çağrışımları ve mitolojik, dinsel, simyasal paralellerle (amplifikasyon) genişleterek yorumlar.
+- Ana iddia, UFO imgesinin rüyada da bütünlük ve Kendilik simgeciliğine, yani aynı arketipsel kalıba bağlandığıdır; bu, imgenin kaynağının kolektif bilinçdışı olduğu tezini destekler.
+- Rüya, söylentinin dışarıya yansıttığı içeriği içe, bireyin kendi bilinçdışıyla ilişkisine geri çevirir. Jung'un terapötik vurgusu budur.
 
-- UFO çoğu zaman **numinöz** bir duygulanımla, yani dehşet, büyülenme, seçilmişlik ya da tehdit duygusuyla birlikte belirir. Bu, bilince yaklaşan bir arketipsel içeriğin işaretidir.
-- Yuvarlak ya da mercek biçimli cisim yer yer bir **göz** gibi algılanır, "bakan" ve "gören" bir şeydir. Jung bunu geleneksel "Tanrı'nın gözü" imgesine ve mandala-göz motiflerine bağlar.
-- Rüyalarda UFO'nun kalabalıklarla, şehirlerle, savaş ve felaket imgeleriyle birlikte görünmesi, bireysel sürecin kolektif durumla iç içe geçtiğini gösterir.
-- Jung bu rüyalarda bilinçdışının ego'ya dışarıdan gelen bir kurtuluş değil, **içeriden gelen bir bütünleşme** görevi önerdiğini savunur. Rüya, söylentinin "dışa" yansıttığını "içe" geri çevirir.
-
-Bölümün kuramsal önemi şudur: Aynı imge hem kolektif söylentide hem bireysel rüyalarda beliriyorsa, bu imgenin kaynağı tek tek bireylerin kişisel bilinçdışı değil, **kolektif bilinçdışıdır**.
+**Okuma (kitaptan ayrı; doğrulanmadı).** Numinöz duygulanım, mercek biçiminin bir göze benzetilmesi ve kolektif felaket imgeleriyle birlikte görünme gibi motifler Jung'un diğer yazılarından beklenebilecek motiflerdir, ancak bu bölümde bulundukları kesin değildir. Okur, CW 10 §§ ilgili paragraflardan rüyaları tek tek (kim, ne gördü, Jung ne dedi) çıkarmalıdır.
 
 ### 3.4 Bölüm 3: Modern Resimde UFO'lar
 
 Jung bu bölümde, sanatçıların bilinçli olarak UFO resmetmeye niyetlenmeden ya da UFO dalgasından önce, aynı arketipsel motifi tuvale yansıttıklarını göstermeye çalışır. Sanat burada bilinçdışının çağ ruhunu önceden sezen bir sismograf gibi işler (bu tema için bkz. K09-4).
 
-Proje kapsam notunda adı geçen ressamlar Erhard Jacoby, Peter Birkhäuser ve Yves Tanguy'dur. Bu üç ismin bölümde tartışıldığı ikincil literatürde yaygın olarak aktarılır. Ancak tabloların adları, tarihleri ve ayrıntılı içerikleri bu raporda **doğrulanamamıştır**. Birkhäuser'in Jung'un çevresinden, Jungcu analizden geçmiş İsviçreli bir ressam olduğu, Tanguy'un ise gerçeküstücü hareketin ressamı olduğu bilinmektedir. Jung'un tabloları okuma biçimi kitabın genel mantığından çıkarılabilir (özet):
+Proje kapsam notu bu bölümde Erhard Jacoby, Peter Birkhäuser ve Yves Tanguy'yi "doğrulanmalı" notuyla anmıştı. Doğrulama durumu şöyledir: Jacoby ve Birkhäuser'in Jung'un çevresinden ressamlar olduğu ve Jung'un UFO ya da "ışık/daire" konulu resimlerine dayandığı bilinmektedir; ikisinin bu bölümde adı geçmesi muhtemeldir, ancak **tabloların adları, tarihleri ve Jung'un tek tek yorumları doğrulanamadı**. **Yves Tanguy'nin kitapta tartışıldığına dair hiçbir kanıt bulunamadı**; önceki taslaktaki "ikincil literatürde yaygın aktarılır" ifadesi dayanaksız olduğu için geri çekilmiştir ve Tanguy bu rapor açısından kitapta geçmeyen bir isim sayılmalıdır, ta ki metin aksini göstersin. Kitaptaki reprodüksiyonlar ve ressam listesi (ad, eser, tarih, yorum) mutlaka basılı CW 10 ya da Hull baskısından çıkarılmalıdır.
 
-- Tablolarda yeryüzü, şehir ya da insan kalabalığı ile gökyüzündeki ışıklı, yuvarlak ya da ateşli bir figür arasındaki **gerilim**, bilinç ile bilinçdışı arasındaki ayrışmanın resmidir.
-- Kalabalığın çoğunun olan bitenin farkında olmaması, olgunun numinöz niteliğini ve bilincin hazırlıksızlığını gösterir.
-- Gerçeküstücü ve soyut resimdeki "nesnesiz" biçimler, modern sanatın dış dünyadan çekilip bilinçdışının iç biçimlerine yöneldiğinin kanıtıdır. Jung bu yönelimde hem çözülme tehlikesini hem de yeni bir bütünlük simgesinin doğuşunu görür.
+Bölümün güvenilir çekirdeği şudur: Jung, UFO benzeri yuvarlak ışık imgelerinin modern resimde de ortaya çıktığını, sanatın kolektif bilinçdışı içeriğini önceden ya da eşzamanlı olarak dile getirebildiğini göstermek ister. Sanat burada çağ ruhunun bir sismografı gibi işler (bu tema için bkz. K09-4). Bu, Jung'un modern sanata genel olarak eleştirel bakışıyla (ör. "Picasso", CW 15) gerilim içinde olup, burada sanatçı bilinçdışının sözcüsü olarak daha olumlu görünür.
 
-Jung'un modern sanata (ör. "Picasso" denemesi, CW 15; K09-4) genelde eleştirel bakışı burada yumuşar: Sanatçı, kolektif bilinçdışının önceden haber veren sözcüsüdür.
+**Okuma (doğrulanmadı).** Önceki taslaktaki "kalabalığın farkında olmaması" ve "nesnesiz biçimler" yorumları bu bölümün içeriği olarak değil, tahmini okuma olarak düşünülmelidir.
 
 ### 3.5 Bölüm 4: UFO Fenomeninin Öntarihi
 
 Jung, UFO'ların 1947'de "icat edilmediğini", gökte görülen ışıklı diskler, küreler ve "kalkanlar" anlatısının çok eski olduğunu gösterir. Bölümün dayanakları şunlardır:
 
-- **Erken modern el ilanları (Flugblätter).** Jung, 1566'da Basel'de gökte görüldüğü bildirilen siyah ve ışıklı kürelere ilişkin bir el ilanını tartışır. 1561 Nürnberg gök olayına ait el ilanının da bölümde yer aldığı aktarılır (Nürnberg örneğinin kitapta yer alıp almadığı doğrulanamadı). Bu belgelerde olgu dinsel bir uyarı, bir "işaret" olarak yorumlanır.
+- **Erken modern el ilanları (Flugblätter).** Jung, 1566'da Basel'de gökte görüldüğü bildirilen siyah ve ışıklı kürelere ilişkin bir el ilanını tartışır. 1561 Nürnberg gök olayı da literatürde sık anılan bir örnektir; ancak Jung'un metninde geçip geçmediği doğrulanamadı. Bu belgelerde olgu dinsel bir uyarı, bir "işaret" olarak yorumlanır.
 - **Kutsal metinler ve vizyon geleneği.** Hezekiel'in gördüğü tekerlekler ve ateşli araba ile İlyas'ın göğe alınışı gibi imgeler, gökten gelen ışıklı aracın arketipsel öncülleridir.
-- **Yakın öncüller.** İkinci Dünya Savaşı'nda pilotların bildirdiği "foo fighter" ışıkları (doğrulanamadı) ve savaş sonrası İskandinavya'daki "hayalet roketler" gibi olgular 1947 dalgasının hemen öncesindedir.
+- **Yakın öncüller.** İkinci Dünya Savaşı'nda pilotların bildirdiği "foo fighter" ışıkları ve savaş sonrası İskandinavya'daki "hayalet roketler" gibi olgular (Jung'un hangilerini andığı doğrulanamadı) 1947 dalgasının hemen öncesindedir.
 - **Kozmolojik ve simyasal paraleller.** Simyacıların *rotundum*'u, Platon'un *Timaios*'taki küresel dünya ruhu ve *Şölen*'deki yuvarlak ilk insan, ruhun yuvarlak biçimde tasarlanmasının köklü bir gelenek olduğunu gösterir.
 
-Bölümün tezi şudur: Gökte görülen yuvarlak ışık ve onun "işaret" olarak yorumlanması tarih boyunca kriz ve geçiş dönemlerine eşlik etmiştir. Yeni olan tek şey, imgenin dinsel değil teknolojik bir yorumla karşılanmasıdır. Kitapta Flammarion gravürü olarak bilinen, göğün kubbesinden başını uzatıp öte dünyayı gören hacı imgesinin de yer aldığı aktarılır (doğrulanamadı).
+Bölümün tezi şudur: Gökte görülen yuvarlak ışık ve onun "işaret" olarak yorumlanması tarih boyunca kriz ve geçiş dönemlerine eşlik etmiştir. Yeni olan tek şey, imgenin dinsel değil teknolojik bir yorumla karşılanmasıdır. Flammarion gravürünün kitapta yer aldığı yönündeki aktarım doğrulanamadığı için burada içerik olarak kabul edilmemiştir.
 
 ### 3.6 Bölüm 5: Psikolojik Olmayan Bir Işıkta UFO'lar
 
@@ -104,19 +99,14 @@ Jung bu bölümde psikoloğun yetkinlik alanını aştığını kabul ederek fiz
 
 Bölümün sonucu bilinçli bir askıya almadır. UFO'ların fiziksel doğası bilinmemektedir. Kesin olan, psikolojik olarak **canlı bir mit** olduklarıdır.
 
-### 3.7 Kapanış Kısımları: Özet, Sonsöz ve Ek
+### 3.7 Sonsöz ve Ek ("Bir Görü Söylentisi")
 
-**Özet.** Jung ana tezleri toparlar: Görü söylentisi, mandala ve Kendilik simgesi, kurtarıcı beklentisi, çağ değişimi ve fiziksel sorunun açıklığı (bağımsız bir "Özet" başlığının varlığı doğrulanamadı).
+**Sonsöz (*Epilogue*).** Jung el yazması tamamlandıktan sonra karşılaştığı malzemeyi ekler. Bunun çekirdeği, Orfeo Angelucci'nin *The Secret of the Saucers* (1955) adlı anlatısının çözümlenmesidir (bu eşleşme literatürde tutarlı biçimde aktarılır; paragraf aralığı doğrulanamadı).
 
-**Sonsöz (Epilog).** Jung, el yazmasını bitirdikten sonra karşılaştığı malzemeyi ekler.
+- **Angelucci.** Kaliforniya'da bir uçak fabrikasında çalışan Angelucci, ışıklı bir daireyle karşılaştığını, "Neptune" ve "Lyra" adlı varlıklarla görüştüğünü ve bir tür inisiyasyon yaşadığını anlatır. Jung bu anlatıyı, yazarı olayların fiziksel gerçekliğine inanmış olsa bile, **bireyleşme sürecinin naif, kendiliğinden bir mitolojik ifadesi** olarak okur (özet). Dişil figür anima, bilge rehber yaşlı bilge, birleşme ve kurtuluş vaadi ise Kendilik deneyiminin imgeleri olarak yorumlanır. Bilinçle bütünleştirilmeyen böyle bir deneyim şişme (enflasyon) ve mesihçi rol tehlikesi taşır.
+- **Hoyle ve Wyndham.** Önceki taslak, Fred Hoyle'un *The Black Cloud* (1957) ve John Wyndham'ın *The Midwich Cuckoos* (1957) romanlarının Sonsöz'de ya da başka bir yerde tartışıldığını ve Jung'un bunlara ilahi çocuk motifine dair yorumlar getirdiğini yazıyordu. **Bunun Jung'un bu kitabında geçtiği kanıtlanamadığı için hakem itirazı kabul edilmiş, iki ad ve onlara bağlanan yorum cümleleri raporun tamamından çıkarılmıştır.** Bunlar, ancak bilimkurgunun UFO mitine eşlik eden edebî bağlamı olarak, Jung'dan bağımsız biçimde anılabilir.
 
-- **Orfeo Angelucci, *The Secret of the Saucers* (1955).** Kaliforniya'da bir uçak fabrikasında çalışan Angelucci, ışıklı bir daireyle karşılaştığını, "Neptune" ve "Lyra" adlı uzay varlıklarıyla görüştüğünü ve bir tür aydınlanma ve inisiyasyon yaşadığını anlatır. Jung bu anlatıyı, yazarı olayların fiziksel gerçekliğine inanmış olsa da, **bireyleşme sürecinin naif ve kendiliğinden bir mitolojik ifadesi** olarak okur. Dişil uzay varlığı anima figürü, bilge rehber yaşlı bilge figürü, kozmik birleşme ve kurtuluş vaadi de Kendilik deneyiminin imgeleridir. Jung, bilinçli yorumla bütünleştirilmeyen böyle bir deneyimin şişme (enflasyon) ve mesihçi bir rol üstlenme tehlikesi taşıdığını vurgular (özet).
-- **Fred Hoyle, *The Black Cloud* (1957).** Güneş sistemine yaklaşan zeki bir gaz bulutunu konu alan bu bilimkurgu romanını Jung, bilinçdışının akıl üstü, kişi-dışı bir zekâ olarak yansıtılması biçiminde okur.
-- **John Wyndham, *The Midwich Cuckoos* (1957).** Bir köyün kadınlarının dünya dışı bir etkiyle hamile kaldığı ve telepatik "altın gözlü" çocukların doğduğu romanda Jung, "ilahi çocuk" ve yeni bir insan türünün doğuşu motifinin karanlık bir çeşitlemesini görür.
-
-İki romanın Sonsöz'de mi yoksa kitabın daha önceki bir kısmında mı tartışıldığı doğrulanamadı. Jung'un vardığı ortak sonuç şudur: Çağın edebî imgelemi de aynı arketipsel durumu, yani gökten gelen, ezici ve ikircikli bir "üstün güç" ile karşılaşmayı işlemektedir.
-
-**Ek (Supplement).** İngilizce baskı için eklenen kısa ek, Almanca baskıdan sonra çıkan yeni malzemeyi ele alır. İçeriğinin ayrıntıları doğrulanamadı.
+**Ek: "Bir Görü Söylentisi" (1958).** İngilizce baskıda ve CW 10'da yer alan bu kısa metin, kitabın başlıca kavramını başlığında taşır. Yazılış ve ilk yayın bağlamı (hangi dergi ve ay) ve tam içeriği doğrulanamadı. Görü söylentisi kavramı kitabın 1. bölümünde zaten kuruludur; Ek'in, kitap çıktıktan sonra gelen gelişmelere ve kavramın kamusal bir özetine yöneldiği tahmin edilir, ama bu bir bulgu değildir. Bu metnin CW 10'daki tam yeri ve içeriği, raporun en öncelikli doğrulama maddelerinden biridir.
 
 ## 4. Temel Kavramlar ve Argümanlar
 
@@ -154,9 +144,9 @@ Jung'un tutumu üç önermeye indirgenebilir. (1) Psikolog olarak yalnızca olgu
 
 **UFO literatürü.** Jung'un başlıca kaynakları şunlardır: Edward J. Ruppelt, *The Report on Unidentified Flying Objects* (1956); Donald E. Keyhoe, *Flying Saucers from Outer Space* (1953) ve *The Flying Saucer Conspiracy* (1955); Desmond Leslie ve George Adamski, *Flying Saucers Have Landed* (1953); Orfeo Angelucci, *The Secret of the Saucers* (1955). Gerald Heard'ün *The Riddle of the Flying Saucers* (1950), Aimé Michel'in kitapları ve Edgar Sievers'in Güney Afrika üzerine kitabının da kullanıldığı aktarılır (doğrulanamadı). Jung bu literatürü kaynak olarak değil, **olgunun kendisi**, yani mitin belgeleri olarak okur. Ruppelt ve Keyhoe "olgu" tarafını, Adamski ve Angelucci "mit" tarafını temsil eder.
 
-**Edebiyat.** Fred Hoyle (*The Black Cloud*) ve John Wyndham (*The Midwich Cuckoos*), çağdaş bilimkurgunun bilinçdışı malzemeyi işleyişine örnek olarak kullanılır.
+**Edebiyat.** Önceki taslakta Hoyle ve Wyndham bu başlıkta Jung'un kaynakları olarak sunuluyordu; metinde geçtikleri doğrulanamadığından çıkarılmıştır (bkz. §3.7). Doğrulanmış edebî kaynak olarak yalnızca Angelucci ve Adamski gibi temasçı anlatıları vardır; bunlar edebiyat değil, mitin belgeleridir.
 
-**Tarihsel ve dinsel kaynaklar.** Hezekiel ve İlyas anlatıları, erken modern el ilanları (Basel 1566; Nürnberg 1561, doğrulanamadı), Platon (*Timaios*, *Şölen*), simya geleneği (*rotundum*, *lapis*) ve astrolojik çağ şeması (Jung'un *Aion*'daki kendi çalışmaları).
+**Tarihsel ve dinsel kaynaklar.** Hezekiel ve İlyas anlatıları, erken modern el ilanları (Basel 1566; Nürnberg 1561 Jung'un metninde doğrulanamadı), Platon (*Timaios*, *Şölen*), simya geleneği (*rotundum*, *lapis*) ve astrolojik çağ şeması (Jung'un *Aion*'daki kendi çalışmaları).
 
 **Diyalog kurduğu ya da karşı çıktığı tutumlar.** (1) Rasyonalist küçümseme: Olguyu salt sahtekârlık ya da yanılsama sayan bilimsel tutum. Jung buna karşı yanılsamanın da bir psişik olgu olduğunu ve açıklanması gerektiğini savunur. (2) Dünya dışı hipotezi ve temasçı inanç: Jung buna karşı olgunun mitolojik yapısını gösterir. (3) Freudcu indirgemecilik: Cinsel simgeciliği kişisel düzeyde kabul eder ama kolektif olguyu açıklamaya yetmez bulur. (4) Fizikçilerle diyalog: Pauli ve Max Knoll ile yürüttüğü tartışmalar (K11-2), 5. bölümdeki psikoid ve eşzamanlılık spekülasyonunun arka planıdır.
 
@@ -174,13 +164,15 @@ Jung'un tutumu üç önermeye indirgenebilir. (1) Psikolog olarak yalnızca olgu
 - *Keşfedilmemiş Benlik* (K09-2): Kardeş metin. Aynı Soğuk Savaş teşhisi, aynı "bireye dönüş" çağrısı.
 
 **Ardıllar.**
-- *Anılar, Düşler, Düşünceler* (K03-3): Jung'un kendi UFO rüyası (bkz. §10). Bu rüyada yansıtma ilişkisi tersine döner.
+- *Anılar, Düşler, Düşünceler* (K03-3): Jung'un kendi UFO rüyası (bkz. §10). Rüya kitaptan sonra yazıya geçmiş bir anlatıdır; bu yüzden kitabın "ardılı" değil, aynı dönemin tamamlayıcı tanıklığı sayılmalıdır. Bu rüyada yansıtma ilişkisi tersine döner.
 - *İnsan ve Sembolleri* (K06-3): Mandala, modern sanat ve sembollerin yitimi temaları geniş okur için yeniden işlenir.
-- CW 18'deki UFO'larla ilgili kısa metinler (1954 söyleşisi ve 1958 basın açıklaması; K09-6), Mektuplar (K11-1) ve söyleşiler (K11-4): Kitabın kamuoyundaki yankısı ve Jung'un düzeltmeleri.
+- CW 18'deki UFO'larla ilgili kısa metinler (1954 söyleşisi ve 1958 sonrası düzeltmeleri; K09-6; kesin metinler ve başlıklar doğrulanacak), Mektuplar (K11-1) ve söyleşiler (K11-4): Kitabın kamuoyundaki yankısı ve Jung'un düzeltmeleri.
 
-**Süreklilikler ve değişimler.** Süreklilik açıktır: Jung'un yaşamı boyunca koruduğu "olgunun psikolojik gerçekliği" ilkesi. Bir şey psişik olarak etkiliyse gerçektir, fiziksel statüsü ayrı bir sorudur. Geç dönemdeki yenilik, bu ilkenin psikoid kavramıyla **fiziksel dünyaya doğru genişletilmesidir**. 1930'larda yansıtma kavramı daha çok bir yanılsama mekanizması olarak sunulurken, *Uçan Daireler*'de yansıtma ile fiziksel olay arasındaki sınır bilinçli olarak bulanıklaştırılır. Bu, Pauli ile ortak çalışmanın (K05-2, K11-2) ve *unus mundus* düşüncesinin (K07-4) mantıksal sonucudur.
+**Süreklilikler ve değişimler.** Süreklilik açıktır: Jung'un yaşamı boyunca koruduğu "olgunun psikolojik gerçekliği" ilkesi. Bir şey psişik olarak etkiliyse gerçektir, fiziksel statüsü ayrı bir sorudur. Geç dönemdeki yenilik, bu ilkenin psikoid kavramıyla **fiziksel dünyaya doğru genişletilmesidir**. Jung'un yansıtma kavramı daha *Psikolojik Tipler* (1921) ve anima yansıtması tartışmalarından beri salt bir yanılsama değil, psişik bir gerçeklikti; bu nedenle yeni olan yansıtma kavramının kendisi değil, onun bir fiziksel olay karşısında nasıl işlediği sorusudur. Kitapta Jung ayrımı bulanıklaştırmaktan çok korumaya çalışır: radar yankısı ile yansıtma ikilemini iki ayrı seçenek olarak yazar. Psikoid arketip ve eşzamanlılık düşüncesi bu ayrımın ardındaki kuramsal açık kapıdır ve Pauli ile ortak çalışmanın (K05-2, K11-2) ve *unus mundus* düşüncesinin (K07-4) uzantısıdır.
 
 ## 7. Alımlanma, Eleştiriler ve Tartışmalar
+
+**Çağdaş alımlama (sınırlı kaynakla).** Kitap Almanca 1958'de, İngilizce Hull çevirisiyle 1959'da çıktı. Dönemin dergi incelemeleri, Jungcu çevrelerin (Zürih, Londra) tepkileri ve Pauli, Fierz ya da Jaffé çevresindeki yorumlar bu turda tek tek belgelenemedi; üç somut çağdaş inceleme eklenmesi hâlâ gereklidir. Genel çerçeve ise şudur: bilim çevreleri kitabı Jung'un itibarını riske atan bir sapma olarak, ufolog çevreler ise ya bir onay ya da psikolojikleştirme olarak karşıladı; Jung'un 1958'deki düzeltmeleri bu iki okuma arasında kaldı.
 
 **Basın ve kamuoyu.** Kitabın ilk alımlanması, yukarıda anlatılan 1958 yanlış aktarımıyla gölgelendi. Popüler basında Jung, UFO'lara "inanan" ünlü bir bilim insanı olarak sunuldu. Jung'un düzeltmesi, ilk haber kadar yayılmadı. Bu örüntü, ufolog dergilerinde ve internet kültüründe bugün de sürmektedir: Jung'un 1954 söyleşisinden bağlamından koparılmış cümleler "Jung UFO'ların gerçek olduğuna inanıyordu" iddiasının kanıtı olarak dolaşır.
 
@@ -188,7 +180,11 @@ Jung'un tutumu üç önermeye indirgenebilir. (1) Psikolog olarak yalnızca olgu
 
 **Şüpheci ve ampirik eleştiri.** Bilimsel şüpheciler Jung'u iki yönden eleştirdi. Birincisi, radar ve görgü tanığı raporlarını gereğinden fazla ciddiye alıp fiziksel açıklanamazlık izlenimini güçlendirmesi. İkincisi, kendi kuramını yanlışlanamaz biçimde kurması: Her yuvarlak imge mandala, her kurtarıcı anlatısı arketip olarak okunduğunda kuram her durumda doğrulanmış olur. Rüya malzemesinin seçilmiş, anekdot düzeyinde ve kontrolsüz olması da ampirik psikoloji açısından zayıflık olarak görülür. Astrolojik çağ şemasının bir açıklama ilkesi gibi kullanılması da akademik eleştirinin hedefidir.
 
-**Tarihsel ve eleştirel Jung araştırmaları.** Richard Noll (*The Jung Cult*, 1994), Jung'un yeni bir çağın habercisi olarak kendini konumlandırmasını karizmatik bir hareketin kuruluşu olarak yorumlar. *Uçan Daireler*'in Kova çağı söylemi bu okumayı destekleyen metinlerden biri olarak görülebilir (Noll'un bu kitabı özel olarak tartışıp tartışmadığı doğrulanamadı). Wouter J. Hanegraaff (*New Age Religion and Western Culture*, 1996), Jung'u New Age düşüncesinin "dinin psikolojikleştirilmesi ve psikolojinin kutsallaştırılması" sürecinin merkezine yerleştirir. Kova çağı beklentisinin 1960'lardan itibaren New Age kültürünün sloganına dönüşmesi, Jung'un kitabının bu kültürün ön metinleri arasında okunmasına yol açmıştır. Jung'un kendisi Kova çağını romantik bir kurtuluş olarak değil, karşıtların bilinçli bütünleştirilmesini gerektiren tehlikeli bir geçiş olarak sunduğu için, bu alımlama kısmen bir çarpıtmadır.
+**Tarihsel ve eleştirel Jung araştırmaları.** Richard Noll (*The Jung Cult*, 1994), Jung'un yeni bir çağın habercisi olarak kendini konumlandırmasını karizmatik bir hareketin kuruluşu olarak yorumlar. *Uçan Daireler*'in Kova çağı söylemi bu okumayı destekleyen metinlerden biri olarak görülebilir (Noll'un bu kitabı özel olarak tartışıp tartışmadığı doğrulanamadı ve iddia edilmemektedir). Wouter J. Hanegraaff (*New Age Religion and Western Culture*, 1996), Jung'u New Age düşüncesinin "dinin psikolojikleştirilmesi ve psikolojinin kutsallaştırılması" sürecinin merkezine yerleştirir. Kova çağı beklentisinin 1960'lardan itibaren New Age kültürünün sloganına dönüşmesi, Jung'un kitabının bu kültürün ön metinleri arasında okunmasına yol açmıştır. Jung'un metni Kova çağını romantik bir kurtuluş olarak değil, tehlikeli bir geçiş olarak sunar; yine de bu savunma tek başına yeterli değildir. Aion'daki balık simgeciliğinin yöntemsel sorunu burada da sürer: burç takımyıldızları eşit uzunlukta değildir, çağların başlangıç tarihleri keyfidir, İsa ve Deccal'ın "iki balık" olarak okunması seçilmiş bir uyuşmadır ve çağ şemasının hangi olayı hangi çağa bağladığı ex post facto belirlenir. Dolayısıyla Jung'un "çağ değişimi" söylemi, kendi niyetinden bağımsız olarak, kehanet benzeri bir otorite kazanmıştır.
+
+**Tarihsel Jung araştırmaları (doğrulanmamış genelleme uyarısıyla).** Sonu Shamdasani'nin (*Jung and the Making of Modern Psychology*, 2003; *Cult Fictions*, 1998) ve Henri Ellenberger'in (*The Discovery of the Unconscious*, 1970) Jung'un kamusal "bilge" kişiliğinin ve hareketin kuruluşunun tarihsel eleştirisine yaptıkları katkılar bilinmektedir; ancak bu iki yazarın *Uçan Daireler*'e özel bir değerlendirme yaptığı bu turda doğrulanamadı ve yapıldığı iddia edilmemektedir. Burada yalnızca bir çıkarım yapılabilir: geç dönem kamusal metinlerin (UFO, *Keşfedilmemiş Benlik*) Jung'un "çağın psikoloğu" konumunu pekiştirdiği, tarihsel eleştiride bu konumun tartışmalı olduğu.
+
+**Siyasal ve kültürel eleştiri (çıkarım).** Soğuk Savaş bağlamında kitap, kurtuluşu gökte arayan kitlenin "komünizm ve bomba korkusuyla" yaşadığı kaygının psikolojik okuması olarak görülebilir; bu okuma Jung'un Batı-merkezli "modern insan" kategorisini sorgulamaz. Postkolonyal bir okuma, "modern bilinç" ile "mit" arasında kurulan karşıtlığın Batı dışı dünyaya ilişkin eski varsayımlar taşıdığını söyleyebilir; feminist bir okuma ise Angelucci örneğinde dişil figürün yalnızca anima olarak okunmasını, yani kadın imgesinin erkek psikolojisinin parçası sayılmasını eleştirebilir. Freudcu eleştiri ise, daha önce belirtildiği gibi, cinsel yorumun kolektif düzeye çıkamayacağı iddiasını sorgular. Bunlar Jung'a yöneltilen genel eleştirilerin bu kitaba uyarlanmış biçimleridir; bu kitaba özel kaynaklı eleştiriler değildir.
 
 **Din bilimi.** Kitap, din bilimcilerin "UFO dinleri" üzerine çalışmalarında öncü metin olarak anılır. Christopher Partridge'in derlediği *UFO Religions* (2003) gibi çalışmalar, Aetherius Society (1955), Raëlian hareketi (1973) ve 1997'de toplu intiharla sonuçlanan Heaven's Gate gibi grupları ele alır. Bu gruplar, Jung'un gökten gelen kurtarıcı ve seçilmişlik motifine ilişkin teşhisinin şaşırtıcı ölçüde isabetli olduğunun kanıtı olarak gösterilir. Eleştirel din bilimciler ise Jung'un arketipsel evrenselciliğinin bu hareketlerin tarihsel, sınıfsal ve kültürel özgüllüğünü (Amerikan Protestan kıyamet beklentisi, Soğuk Savaş ideolojisi, teknoloji kültü) gölgelediğini belirtir.
 
@@ -212,7 +208,7 @@ Jung'un tutumu üç önermeye indirgenebilir. (1) Psikolog olarak yalnızca olgu
 
 **Okuma sırası önerisi.** (1) Giriş ve 1. bölüm: Kuramsal çerçeve. (2) Sonsöz'deki Angelucci çözümlemesi: Kitabın en canlı ve en öğretici örneği. (3) 4. ve 5. bölümler: Tarihsel derinlik ve epistemolojik temkin. (4) 2. ve 3. bölümler: Rüya ve resim çözümlemeleri. Bunlar Jungcu yorum pratiğine aşinalık gerektirir ve en son okunduğunda daha verimlidir.
 
-**Hangi baskı?** Atıf ve paragraf numaraları için CW 10 (ya da ondan çoğaltılan Princeton karton kapaklı bağımsız baskı). Almanca için Rascher 1958 ilk baskısı ya da GW 10. Türkçe çeviri tespit edilemediği için Türk okur İngilizce ya da Almanca metne başvurmak zorundadır.
+**Hangi baskı?** Atıf ve paragraf numaraları için CW 10 (ya da ondan çoğaltılan Princeton karton kapaklı bağımsız baskı). Almanca için Rascher 1958 ilk baskısı ya da GW 10. Bu turda bir Türkçe çeviri tespit edilemedi (arama yapılamadı); Türk okur önce kitapyurdu ve Milli Kütüphane kataloglarını denemeli, bir çeviri bulunmazsa İngilizce (Hull) ya da Almanca metne başvurmalıdır.
 
 **Yaygın yanlış okumalar.**
 1. "Jung UFO'ların dünya dışı araçlar olduğuna inanıyordu." Yanlış. Jung fiziksel soruyu açık bıraktı ve bunu 1958'de basına açıkça düzeltti.
@@ -222,29 +218,31 @@ Jung'un tutumu üç önermeye indirgenebilir. (1) Psikolog olarak yalnızca olgu
 
 ## 10. Kilit Pasajlar
 
-1. **Çağ değişimi ve "tanrılar" (Giriş; CW 10 §589 civarı).** "Bunlar, kolektif psişenin uzun süreli dönüşümlerine yol açan ya da onlara eşlik eden psişik dominantların, arketiplerin, eskiden denildiği gibi 'tanrıların' takımyıldızındaki değişimlerdir." (serbest çeviri; ifade bellekten aktarılmıştır, paragraf numarası doğrulanamadı)
+Bu turda metne erişilemediği ve alıntı kuralı gereği, aşağıda **hiçbir tırnaklı doğrudan alıntı verilmemiştir**; hepsi özettir. Paragraf numaraları doğrulanabildiği yerde (yalnızca genel aralık) belirtilmiştir.
 
-2. **Mitin doğuşunu gözlemlemek (Giriş ya da 1. bölüm).** Jung, olgunun bir efsanenin nasıl oluştuğunu ve insanlığın karanlık bir döneminde dünya dışı, "göksel" güçlerin müdahalesine dair mucizevi bir öykünün nasıl büyüdüğünü görmek için altın bir fırsat sunduğunu yazar. (özet)
+1. **Çağ değişimi ve "tanrılar" (Giriş; CW 10, §589 çevresi).** Jung, UFO söylentisini psişik dominantların, arketiplerin, eskilerin deyişiyle "tanrıların" takımyıldızındaki bir değişimin belirtisi olarak okur; bu tür değişimler kolektif psişenin uzun süreli dönüşümlerine eşlik eder ya da onları yol açar. (özet)
 
-3. **Göğe yükselen yansıtma (1. bölüm).** Her şeyin tehlikede olduğu tehdit altındaki bir dünyada, yansıtma üreten fantezi dünyevi örgüt ve güçlerin ötesine, göklere, yani tanrıların ve kaderin eski yurduna yükselir. (özet)
+2. **Mitin doğuşunu gözlemlemek (Giriş ya da 1. bölüm).** Jung, olgunun bir efsanenin nasıl oluştuğunu ve insanlığın karanlık bir döneminde göksel güçlerin müdahalesine dair mucizevi bir öykünün nasıl büyüdüğünü görmek için eşsiz bir fırsat sunduğunu yazar. (özet)
 
-4. **Teknolojik kılık (1. bölüm).** Modern insan için mitolojik bir tanrı kabul edilemezken teknolojik görünen her şey kolayca kabul görür. Bu yüzden arketip uzay aracı kılığında belirir. Basit, yuvarlak biçimiyle UFO, Kendilik arketipinin ve bütünlüğün etkileyici bir tezahürüdür. (özet)
+3. **Göğe yükselen yansıtma (1. bölüm).** Her şeyin tehlikede olduğu bir dünyada, yansıtma üreten fantezi dünyevi örgütlerin ötesine, tanrıların ve kaderin eski yurdu olan göğe yükselir. (özet)
 
-5. **İki seçenek (5. bölüm).** "Ya psişik yansıtmalar bir radar yankısı geri yansıtmaktadır, ya da gerçek cisimlerin belirmesi mitolojik yansıtmalara fırsat vermektedir." (serbest çeviri; ifade bellekten aktarılmıştır, paragraf yeri doğrulanamadı) Jung'un fiziksel gerçeklik konusundaki temkinli tutumunun en yoğun ifadesidir.
+4. **Teknolojik kılık (1. bölüm).** Modern insan için mitolojik bir tanrı kabul edilemezken teknolojik görünen her şey kolay kabul görür; arketip uzay aracı kılığına bürünür ve yuvarlak biçimiyle UFO bütünlüğün ve Kendilik'in simgesi olur. (özet)
 
-6. **Angelucci ve bireyleşme (Sonsöz).** Jung, Angelucci'nin kendi deneyimini somut bir olay olarak aldığını, oysa anlatının bireyleşme sürecinin bütün temel motiflerini, yani anima, rehber, inisiyasyon ve kozmik birleşme motiflerini naif bir biçimde içerdiğini gösterir. Bilinçle bütünleştirilmeyen bu deneyimin sonucu ise şişme ve peygamberlik rolüdür. (özet)
+5. **İki seçenek (5. bölüm).** Jung'un formülü iki yönlüdür: ya psişik yansıtma bir radar yankısını (yani fiziksel bir görünümü) üretir ya da gerçek bir nesnenin ortaya çıkışı yansıtmayı serbest bırakır. Birincisini fiziksel olarak neredeyse düşünülemez, ikincisini psikolojik olarak anlaşılır bulur. Bu, kitaptaki temkinli tutumun en yoğun biçimidir. (özet; kelime düzeyi ve paragraf numarası doğrulanmadığı için tırnaksız verilmiştir)
 
-7. **Jung'un kendi UFO rüyası (*Anılar, Düşler, Düşünceler*, "Ölümden Sonra Yaşam Üzerine" bölümü; K03-3).** Jung, mercek biçimli, metalik parlaklıkta iki diskin evinin üzerinden geçtiğini, birinin doğrudan kendisine yöneldiğini ve bunun bir büyülü fener (projektör) merceği olduğunu gördüğü bir rüya anlatır. Uyandığında aklından şu geçer: Biz her zaman UFO'ların bizim yansıtmalarımız olduğunu düşünürüz, oysa şimdi bizim onların yansıtması olduğumuz anlaşılıyor. Kendisi "C. G. Jung" olarak bu fener tarafından yansıtılmaktadır. Ama aygıtı kim çalıştırmaktadır? (özet; rüyanın 1958 tarihli olduğu aktarılır, ay ve yıl doğrulanamadı) Rüya, kitabın yansıtma kuramını Kendilik lehine tersine çevirerek ego ile Kendilik ilişkisinin geç dönemdeki ifadesini verir.
+6. **Angelucci ve bireyleşme (Sonsöz).** Jung, Angelucci'nin deneyimi somut bir olay saymasına karşılık anlatının bireyleşme motiflerini (anima, rehber, inisiyasyon, birleşme) naif biçimde içerdiğini gösterir; bilinçle bütünleştirilmeyen deneyimin sonucu şişme ve peygamberlik rolüdür. (özet)
+
+7. **Jung'un kendi UFO rüyası (*Anılar, Düşler, Düşünceler*; bölüm adı doğrulanacak, büyük olasılıkla geç dönem düşüncelerin yer aldığı kısım; K03-3).** Jung, mercek biçimli iki diskin evinin üzerinden geçtiğini ve bunun bir büyülü fener (projektör) olduğunu görür. Rüyanın vurgusu şudur: UFO'ların bizim yansıtmamız olduğunu düşünürken, kendisinin bir aygıtın yansıttığı bir şey olduğu anlaşılmaktadır; aygıtı kimin çalıştırdığı sorusu açık kalır. (özet; rüyanın 1958 tarihli olduğu aktarılır, ay ve yıl ve bölüm adı doğrulanamadı). Rüya, kitaptan sonra anlatılmış tamamlayıcı bir tanıklık olarak ego ile Kendilik ilişkisinin geç ifadesidir.
 
 ## 11. Kaynakça ve İleri Okuma
 
 **Birincil baskılar**
 - Jung, C. G. *Ein moderner Mythus. Von Dingen, die am Himmel gesehen werden*. Zürih ve Stuttgart: Rascher, 1958.
 - Jung, C. G. *Flying Saucers: A Modern Myth of Things Seen in the Skies*. Çev. R. F. C. Hull. Londra: Routledge & Kegan Paul; New York: Harcourt, Brace, 1959.
-- Jung, C. G. *Civilization in Transition*. Collected Works, Vol. 10. Çev. R. F. C. Hull. New York: Pantheon / Londra: Routledge & Kegan Paul, 1964; 2. baskı Princeton University Press, 1970. IV. kısım.
+- Jung, C. G. *Civilization in Transition*. Collected Works, Vol. 10 (Bollingen Series XX). Çev. R. F. C. Hull; ed. G. Adler ve R. F. C. Hull. Pantheon / Routledge & Kegan Paul, 1964; 2. baskı Princeton University Press, 1970. *Flying Saucers*: §589–824.
 - Jung, C. G. *Zivilisation im Übergang*. Gesammelte Werke, Bd. 10. Olten ve Freiburg i. Br.: Walter, 1974.
-- Jung, C. G. *Flying Saucers: A Modern Myth of Things Seen in the Skies*. Princeton: Princeton University Press (Bollingen), karton kapaklı baskı (1978; doğrulanamadı); Londra: Routledge Classics (2002; doğrulanamadı).
-- Jung, C. G. *The Symbolic Life*. CW 18. Princeton, 1976: UFO'larla ilgili kısa metinler (1954 söyleşisi, 1958 basın açıklaması; başlıklar doğrulanamadı; K09-6).
+- Jung, C. G. *Flying Saucers: A Modern Myth of Things Seen in the Skies*. Princeton: Princeton University Press (Bollingen), karton kapaklı baskı (yılı doğrulanamadı); Londra: Routledge Classics (yılı doğrulanamadı).
+- Jung, C. G. *The Symbolic Life*. CW 18. Princeton, 1976: UFO'larla ilgili kısa metinler (UFO ile ilgili kısa metinler; kesin başlıklar doğrulanamadı; K09-6).
 - Jung, C. G. *Letters*, Cilt 2 (1951–1961). Ed. G. Adler ve A. Jaffé. Princeton, 1975: UFO mektupları (K11-1).
 - Jung, C. G. ve A. Jaffé. *Erinnerungen, Träume, Gedanken*. Zürih: Rascher, 1962 (K03-3).
 - Jung, C. G. "Ein Beitrag zur Psychologie des Gerüchtes" (1910–11), CW 4 (K02-1).
@@ -254,7 +252,6 @@ Jung'un tutumu üç önermeye indirgenebilir. (1) Psikolog olarak yalnızca olgu
 - Keyhoe, Donald E. *Flying Saucers from Outer Space* (1953); *The Flying Saucer Conspiracy* (1955).
 - Leslie, Desmond ve George Adamski. *Flying Saucers Have Landed* (1953).
 - Angelucci, Orfeo. *The Secret of the Saucers* (1955).
-- Hoyle, Fred. *The Black Cloud* (1957). Wyndham, John. *The Midwich Cuckoos* (1957).
 
 **İkincil literatür**
 - Vallée, Jacques. *Passport to Magonia: From Folklore to Flying Saucers*. Chicago: Regnery, 1969.
@@ -264,9 +261,41 @@ Jung'un tutumu üç önermeye indirgenebilir. (1) Psikolog olarak yalnızca olgu
 - Partridge, Christopher (ed.). *UFO Religions*. Londra: Routledge, 2003.
 - Pasulka, D. W. *American Cosmic: UFOs, Religion, Technology*. New York: Oxford University Press, 2019.
 - Halperin, David J. *Intimate Alien: The Hidden Story of the UFO*. Stanford: Stanford University Press, 2020.
+- Shamdasani, Sonu. *Jung and the Making of Modern Psychology*. Cambridge: Cambridge University Press, 2003 (genel çerçeve; bu kitaba özel değerlendirme doğrulanmadı).
+- Ellenberger, Henri F. *The Discovery of the Unconscious*. New York: Basic Books, 1970 (genel çerçeve).
 - Segal, Robert A. (ed.). *Jung on Mythology*. Princeton: Princeton University Press, 1998 (Jung'un mit kuramı için genel çerçeve).
 - Bair, Deirdre. *Jung: A Biography*. Boston: Little, Brown, 2003 (geç dönem biyografik bağlam).
 
 **Türkçe kaynaklar.** Kitabın Türkçe çevirisi ve doğrudan bu kitaba ayrılmış Türkçe ikincil kaynak tespit edilemedi (arama yapılamadı; K11-5 ile teyit edilmeli).
 
-**Doğrulama notu ve URL'ler.** Bu rapor yazılırken paylaşılan web arama kotası dolu olduğundan bu kitaba özgü yeni bir URL doğrulaması yapılamadı. CW 10'un genel künyesi için kardeş rapor K09-1'in doğruladığı kaynaklara bakılabilir: https://press.princeton.edu/node/52556 (CW 10, Princeton); https://relbib.de/Record/1095387251 (GW 10, Walter 1974).
+**Doğrulama notu ve URL'ler.** Web araması yapılamadı; yalnızca Princeton künye sayfası okunabildi (TOC yalnızca görsel olduğundan içindekiler çıkarılamadı; sayfa CW 10'un 1970 telif yılını, editörlerin Adler ve Hull olduğunu ve *Flying Saucers* ile *The Undiscovered Self*'in cilde dahil olduğunu doğruladı). Wikipedia'nın İngilizce ve Almanca kitap sayfaları bulunamadı (404). CW 10'un genel künyesi için kardeş rapor K09-1'in doğruladığı kaynaklara bakılabilir: https://press.princeton.edu/node/52556 (CW 10, Princeton); https://relbib.de/Record/1095387251 (GW 10, Walter 1974).
+
+## Ek: Hakem Tartışması (Ajanlar Arası Değerlendirme)
+
+Hakem, taslağı okunaklı ve genel olarak dürüst işaretlenmiş buldu; ancak kitabın çekirdeği olan 3. bölümün gerçek metne dayanmadığını, rüya, tablo, Sonsöz/Ek yapısı ve Hoyle-Wyndham gibi ayrıntıların bellekten ya da çıkarımla yazıldığını, kilit pasajlarda güvencesiz tırnaklı alıntılar bulunduğunu ve Türkçe çeviri taramasının yapılmadığını belirterek 5/10 verdi. Yazar olarak itirazların büyük çoğunluğunu haklı buldum. Doğrulama için denenen web aramaları ve Wikipedia sayfaları da bu turda sonuç vermedi (arama bütçesi dolu, sayfalar 404; yalnızca Princeton künye sayfası okunabildi). Bu nedenle revizyon, olgusal ayrıntıyı **eklemek** yerine desteksiz ayrıntıyı **silmek veya etiketlemek** yönünde yapıldı; rapor uzunluğu eleştirel ve doğrulama içeren yeni metinle korundu.
+
+| # | Önem | Kategori | İtiraz (özet) | Karar (Kabul/Kısmen/Ret) | Gerekçe ve yapılan değişiklik |
+|---|---|---|---|---|---|
+| 1 | Kritik | Eksiklik | Rüya bölümü fiilen boş, çıkarımlar kitaba bakılmadan yazılmış | Kısmen | Haklı: desteksiz içerik (göz, kalabalık-felaket) "okuma" etiketine taşındı. Rüyaların tek tek özeti metne erişilemediği için eklenemedi; açık madde olarak bırakıldı. |
+| 2 | Kritik | Olgu | Tanguy ve tablo içerikleri dayanaksız | Kabul | Tanguy kitapta geçmeyen isim sayıldı; "yaygın aktarılır" geri çekildi; Jacoby ve Birkhäuser "muhtemel, doğrulanmadı" olarak işaretlendi; tablo yorumları çıkarıldı. |
+| 3 | Kritik | Olgu | Özet/Sonsöz/Ek yapısı belirsiz; "Bir Görü Söylentisi" yok | Kabul | "Özet" alt başlığı kaldırıldı; Sonsöz ve Ek ("Bir Görü Söylentisi", 1958) ayrı verildi; içindekiler karşılaştırması doğrulama ödevi yapıldı. |
+| 4 | Kritik | Olgu | Hoyle, Wyndham, Mons, Fatima, Flammarion kanıtsız | Kabul | Hoyle ve Wyndham yorumlarıyla birlikte çıkarıldı (§3.7, §5, kaynakça); Mons, Fatima, Flammarion içerik olarak kabul edilmedi. |
+| 5 | Kritik | Alıntı | Bellekten tırnaklı iki alıntı | Kabul | §10'daki bütün tırnaklar kaldırıldı, hepsi "(özet)" yapıldı. |
+| 6 | Önemli | Olgu | APRO/UP zinciri ve 1954-1958 karışıklığı | Kabul | Olaylar ayrıldı; APRO, United Press ve tarih ayrıntıları silinip yalnızca doğrulanabilir genel çerçeve bırakıldı. |
+| 7 | Önemli | Olgu | UFO rüyasının bölüm adı ve "ardıl" çerçevesi | Kabul | Bölüm adı "doğrulanacak" yapıldı; rüya "aynı dönemin tamamlayıcı tanıklığı" olarak yeniden çerçevelendi. |
+| 8 | Önemli | Eksiklik | Türkçe baskı taranmadı | Kısmen | Arama denendi ama çalışmadı; "Tespit edilemedi" nedeniyle açıklandı, "zorunda" cümlesi yumuşatıldı. Gerçek tarama yapılamadı. |
+| 9 | Önemli | Eksiklik | Bölüm 1 ve 4 genel; Basel/Nürnberg ayrıntısı yok | Kısmen | Desteksiz ayrıntı eklenmedi; Nürnberg ve diğer örnekler "doğrulanamadı" olarak daraltıldı. Paragraf aralıklı alt özetler metin gerektirdiğinden yapılamadı. |
+| 10 | Önemli | Yorum | "Tek uzun çalışma" abartı | Kabul | "En kapsamlı ve en geç tarihli" yapıldı; "Wotan" ve 1910-11 denemesiyle fark §1'e eklendi. |
+| 11 | Önemli | Eksiklik | Alımlama zayıf; Shamdasani, Ellenberger, siyasal, feminist, postkolonyal yok | Kısmen | Aion'daki çağ şemasının yöntemsel eleştirisi, Soğuk Savaş, feminist, postkolonyal ve Freudcu okumalar "çıkarım" etiketiyle eklendi; Shamdasani ve Ellenberger genel çerçeve olarak anıldı, bu kitaba özel değerlendirmeleri doğrulanamadığı için iddia edilmedi. Somut dönem incelemeleri eklenemedi. |
+| 12 | Önemli | Yorum | 1930'larda yansıtma salt yanılsama değildi | Kabul | Cümle düzeltildi; yansıtmanın daha 1921'den psişik gerçeklik olduğu belirtildi ve "bulanıklaştırma" ifadesi kaldırıldı. |
+| 13 | Önemli | Tutarlılık | CW 10 kısım ve GW 10 sayfası belirsiz | Kısmen | "IV. kısım" ifadesi çıkarıldı; §589-824 ve cildin Princeton künyesiyle doğrulanan bilgileri verildi; GW 10 sayfaları "doğrulanacak" bırakıldı. |
+| 14 | Küçük | Dil | Meta-notlar ve terim tutarsızlığı | Kabul | Yöntem notu "Doğrulama durumu kutusu"na dönüştü; Sonsöz tek terim; Benlik/Kendilik çapraz göndermesi eklendi. |
+| 15 | Küçük | Olgu | Baskı yılları doğrulanmamış | Kısmen | Doğrulanmayan yıllar (1978, 2002) kaldırıldı; CW 10, Bollingen Series XX ve 1970 telif yılı eklendi. Almanca bağımsız baskılar araştırılamadı. |
+
+### Açık Kalan Tartışmalar
+
+- **Rüya ve tablo içeriği.** Hakem, bölüm bölüm özetin ancak Hull/CW 10 metninin tek tek okunmasıyla yazılabileceğini savunur. Yazar bunu kabul eder, ancak bu turda metne erişilemediği için bu eksiğin kapatılamadığını, bunun yerine desteksiz içeriğin silindiğini belirtir. Eksik sürmektedir.
+- **Jacoby ve Birkhäuser.** Yazar, bu iki ressamın bölümde geçtiğine dair güçlü bir izlenim taşır; hakem ise doğrulanmadığı sürece kesin yazılmamasını ister. Yazar kısmen buna uydu (muhtemel diye işaretledi), ama isimleri tamamen silmedi.
+- **Ek'in ("Bir Görü Söylentisi") işlevi.** Hakem, bunun kavramın ilk kamusal ifadesi olabileceğini söyler; yazar kavramın kitapta zaten kurulu olduğunu düşünür ve Ek'in içeriğini bilmediğini kabul eder. Karar metne bağlıdır.
+- **Hoyle ve Wyndham.** Tamamen çıkarıldı; ancak Jung'un bunları başka bir yazıda ya da mektupta anmış olma ihtimali kapanmış değildir.
+- **Tarihsel eleştirmenlerin görüşü.** Hakem Shamdasani ve Ellenberger'den bu kitaba dair kaynaklı okumalar ister; yazar bunların bulunamadığını ve uydurmak yerine genel çerçeve olarak anmayı seçtiğini belirtir.
