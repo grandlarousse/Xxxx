@@ -11,7 +11,7 @@
 | Zorluk (1–5) | 3 — Denemeler tek tek okunaklıdır; ama 1933–1939 metinleri ancak tarihsel bağlam, yazışmalar ve ikincil literatürle birlikte doğru değerlendirilebilir. |
 | Küme | K09 — Kültür, Toplum, Sanat, Edebiyat ve Kişilik Gelişimi |
 
-> Kapsam notu: CW 10'un III. ve IV. bölümlerini oluşturan *Keşfedilmemiş Benlik* (*Gegenwart und Zukunft*, 1957) ve *Uçan Daireler: Modern Bir Mit* (*Ein moderner Mythus*, 1958) bu raporda yalnızca bağlantı noktası olarak anılır; derin incelemeleri K09-2 ve K09-3'tedir.
+> Kapsam notu: CW 10'un son büyük metinleri arasında yer alan (CW 10 §§488–588 ve §§589–824) *Keşfedilmemiş Benlik* (*Gegenwart und Zukunft*, 1957) ve *Uçan Daireler: Modern Bir Mit* (*Ein moderner Mythus*, 1958) bu raporda yalnızca bağlantı noktası olarak anılır; derin incelemeleri K09-2 ve K09-3'tedir.
 
 ## 1. Bir Bakışta
 
@@ -76,7 +76,7 @@ Denemenin merkezî kavramı *Ergriffenheit*'tır — "kapılmışlık", bir gü�
 BBC Third Programme için Kasım 1946'da yapılmış ve *The Listener*'da yayımlanmış bir radyo konuşmasıdır. Jung, Alman hastalarının rüyalarında 1918'den itibaren kolektif bilinçdışında bir kıpırdanma — Wotan'a özgü, şiddet ve yıkım yüklü imgeler — gözlemlediğini anlatır. Nazizmi bir "psişik salgın" ve Hitler'i bu salgının odağı, ulusun bastırılmış gölgesinin "hoparlörü" olarak niteler. Konuşmanın asıl vurgusu evrenseldir: Gölge yalnızca Almanların sorunu değildir; kendi gölgesini tanımayan her birey ve ulus onu düşmana yansıtır. Atom bombası ve Doğu-Batı gerginliği karşısında Jung, tek gerçek savunmanın bireyin kendi kötülük potansiyelini bilmesi olduğunu söyler — *Keşfedilmemiş Benlik*'in (K09-2) temel tezi burada tohum hâlindedir.
 
 ### 3.3 Bağlantı: *Keşfedilmemiş Benlik* (1957) ve *Uçan Daireler* (1958)
-Cildin III. ve IV. bölümleri bu iki kitaptan oluşur. Birincisi kitle devletine karşı bireyin dinsel temelli iç özerkliğini, ikincisi UFO söylencesini Soğuk Savaş çağının "modern miti" ve bir Kendilik (Selbst; Türkçe çevirilerde "Benlik" ya da "Öz") sembolü olarak ele alır. Ayrıntılar K09-2 ve K09-3'tedir; burada vurgulanması gereken, her ikisinin de 1918'den beri süren "kolektif psişe teşhisi" çizgisinin son halkaları olmasıdır.
+Cildin son büyük metinleri bu iki kitaptır (K09-2: §§488–588; K09-3: §§589–824). Birincisi kitle devletine karşı bireyin dinsel temelli iç özerkliğini, ikincisi UFO söylencesini Soğuk Savaş çağının "modern miti" ve bir Kendilik (Selbst; Türkçe çevirilerde "Benlik" ya da "Öz") sembolü olarak ele alır. Ayrıntılar K09-2 ve K09-3'tedir; burada vurgulanması gereken, her ikisinin de 1918'den beri süren "kolektif psişe teşhisi" çizgisinin son halkaları olmasıdır.
 
 ### 3.4 Etik ve vicdan (1958–1959)
 
@@ -284,3 +284,4 @@ Hakem, taslağı CW 10'u dengeli ve kaynaklı ele alan, Nazizm/antisemitizm tart
 - **Jung'un 1934 tutumu:** Dalal/Noll "yapısal ırkçılık" derken Shamdasani/Jaffé bağlamdan koparma ve niyet farkını vurgular; Samuels ortada durur. Rapor bunlardan birini seçmez; yazarın ara değerlendirmesi geçici olarak işaretlenmiştir.
 - **Baeck/Scholem anekdotu:** Hakem çıkarılmasını ya da kaynaklanmasını ister; yazar yalnızca "tek kaynaklı, kullanılmadı" notuyla tutmayı yeğler, çünkü anlatı literatürde tartışılmaktadır, ancak kaynak zinciri doğrulanmamıştır.
 - **Tekrar (§4.6/§7.1):** Hakem birleştirmeyi önerir; yazar iki bölümün farklı işlev gördüğünü savunarak ayrı tutmuştur.
+- Küme sentezi düzeltmesi: Rapor "yedi bölüm" iddiasını geri çektiği hâlde §3.3 ve kapsam notunda "III. ve IV. bölümler" ifadesini koruyordu; bu, kendi düzeltmesiyle çelişiyordu. İfade, K09-2 ve K09-3 raporlarındaki § aralıklarıyla (§§488–588; §§589–824) değiştirildi.
