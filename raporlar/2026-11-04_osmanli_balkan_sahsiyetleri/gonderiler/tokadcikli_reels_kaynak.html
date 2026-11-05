@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<style>
+:root{--bg:#12201b;--ink:#ede8dc;--muted:#a9b3ab;--ochre:#d9a552;--teal:#6dc1a7;--warn:#e4897a;
+--d:"Alegreya",Georgia,serif;--b:"Alegreya Sans",system-ui,sans-serif;--m:"IBM Plex Mono",Menlo,monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--ink);font-family:var(--b)}
+#head{position:absolute;left:70px;right:70px;top:150px}
+.eyebrow{font:500 26px var(--m);letter-spacing:.12em;text-transform:uppercase;color:var(--ochre)}
+h1{font:700 86px/1 var(--d);margin-top:16px;white-space:nowrap}
+.yil{font:400 30px var(--m);color:var(--muted);margin-top:12px}
+#tag{position:absolute;left:70px;top:418px;font:500 30px var(--m);letter-spacing:.06em;color:var(--bg);background:var(--ochre);padding:8px 16px;border-radius:4px}
+#map{position:absolute;left:0;top:480px;width:1080px;height:1000px}
+#sub{position:absolute;left:70px;right:110px;top:1510px;font:500 44px/1.3 var(--b);color:var(--ink)}
+#end{position:absolute;left:0;top:480px;width:1080px;height:1000px;display:flex;flex-direction:column;justify-content:center;gap:28px;padding:0 80px;opacity:0}
+#end p{font:italic 500 60px/1.2 var(--d)}
+#end .s{font:700 40px var(--d);color:var(--ochre)}
+#end .k{font:400 24px/1.45 var(--m);color:var(--muted)}
+</style></head><body>
+<div id="head"><div class="eyebrow">Rumeli'nin Unutulan Adları · Memleket</div><h1>Tokadcıklı Süleyman Ağa</h1><div class="yil">y. 1761 – 1804</div></div>
+<div id="tag"></div>
+<svg id="map" width="1080" height="1000"></svg>
+<div id="end"><p>Bugün ne Koşukavak'ta ne Gümülcine'de anılıyor.</p><div class="s">Rumeli'nin Unutulan Adları</div>
+<div class="k">Kaynak: N. Aygün (Belleten), bg.wikipedia<br>Harita: Natural Earth · güzergâhlar yaklaşık</div></div>
+<div id="sub"></div>
+<script>
+window.ZAMAN = {"bolumler": [{"id": "giris", "alt": "Koşukavak'ın bir köyünden Batı Trakya'nın hâkimliğine: Tokadcıklı Süleyman Ağa.", "tts": "Koşukavak'ın bir köyünden Batı Trakya'nın hâkimliğine: Tokadcıklı Süleyman Ağa.", "sure": 5.376, "bas": 0.6, "bit": 5.976}, {"id": "dogum", "alt": "Bugünkü adıyla Tokaçka, Osmanlı döneminde Tokadcık köyünde doğdu.", "tts": "Bugünkü adıyla Tokaçka, Osmanlı döneminde Tokadcık köyünde doğdu.", "sure": 4.992, "bas": 6.376, "bit": 11.368}, {"id": "sultanyeri", "alt": "Sultanyeri'nde 15-20 kişilik bir bölüğün başıydı. Gümülcine ayanı Mestan Ağa'nın desteğiyle Sultanyeri ayanı oldu.", "tts": "Sultanyeri'nde on beş, yirmi kişilik bir bölüğün başıydı. Gümülcine ayanı Mestan Ağa'nın desteğiyle Sultanyeri ayanı oldu.", "sure": 8.664, "bas": 11.768, "bit": 20.432}, {"id": "g1796", "alt": "1796'da Mestan Ağa idam edilince Gümülcine'ye girdi ve kendini ayan ilan etti.", "tts": "Bin yedi yüz doksan altıda Mestan Ağa idam edilince, Gümülcine'ye girdi ve kendini ayan ilan etti.", "sure": 6.288, "bas": 20.832, "bit": 27.12}, {"id": "g1798", "alt": "1798'de kapıcıbaşı oldu. Gümülcine, Dimetoka ve Sultanyeri'nde iltizamları ve çiftlikleri denetledi.", "tts": "Bin yedi yüz doksan sekizde kapıcıbaşı oldu. Gümülcine, Dimetoka ve Sultanyeri'nde iltizamları ve çiftlikleri denetledi.", "sure": 8.712, "bas": 27.52, "bit": 36.232}, {"id": "g1804", "alt": "1804'te devletle arası bozuldu. Kuzeye kaçtı; Sevlievo yakınlarında Rusçuk ayanı Tirsiniklioğlu'nun kuvvetlerince yakalanıp öldürüldü.", "tts": "Bin sekiz yüz dörtte devletle arası bozuldu. Kuzeye kaçtı; Sevlievo yakınlarında, Rusçuk ayanı Tirsiniklioğlu'nun kuvvetlerince yakalanıp öldürüldü.", "sure": 10.2, "bas": 36.632, "bit": 46.832}, {"id": "son", "alt": "Bugün ne Koşukavak'ta ne Gümülcine'de anılıyor.", "tts": "Bugün ne Koşukavak'ta, ne Gümülcine'de anılıyor. Rumeli'nin unutulan adları.", "sure": 6.648, "bas": 47.232, "bit": 53.88}], "toplam": 55.38};
+(async function(){
+const MW=1080, MH=1000, C={sea:'#0c1719',land:'#1c2e27',coast:'#4a6157',border:'#8a9b92',ink:'#ede8dc',muted:'#a9b3ab',ochre:'#d9a552',teal:'#6dc1a7',warn:'#e4897a'};
+const S=Object.fromEntries(ZAMAN.bolumler.map(b=>[b.id,b]));
+const svg=d3.select('#map');
+const P0=d3.geoMercator().fitExtent([[0,0],[MW,MH]],{type:'MultiPoint',coordinates:[[23.4,40.5],[27.8,40.5],[23.4,44.3],[27.8,44.3]]});
+const path=d3.geoPath(P0);
+const topo=await d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-10m.json');
+const all=topojson.feature(topo,topo.objects.countries);
+const land={type:'FeatureCollection',features:all.features.filter(f=>['100','300','792','642','807','688'].includes(String(f.id)))};
+const borders=topojson.mesh(topo,topo.objects.countries,(a,b)=>a!==b);
+svg.append('defs').html(`<clipPath id="cl"><rect width="${MW}" height="${MH}"/></clipPath>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="${C.teal}"/></marker>`);
+const root=svg.append('g').attr('clip-path','url(#cl)');
+root.append('rect').attr('width',MW).attr('height',MH).attr('fill',C.sea);
+const world=root.append('g');
+world.append('path').datum(land).attr('d',path).attr('fill',C.land).attr('stroke',C.coast).attr('stroke-width',1.3).attr('vector-effect','non-scaling-stroke');
+world.append('path').datum(borders).attr('d',path).attr('fill','none').attr('stroke',C.border).attr('stroke-width',1.8).attr('stroke-dasharray','7 5').attr('vector-effect','non-scaling-stroke');
+const poly=pts=>'M'+pts.map(p=>P0(p).join(',')).join('L')+'Z';
+const sultPoly=world.append('path').attr('d',poly([[25.28,41.62],[25.55,41.66],[25.85,41.56],[25.9,41.42],[25.62,41.33],[25.38,41.36],[25.25,41.48]])).attr('fill',C.ochre).attr('opacity',0);
+const domPoly=world.append('path').attr('d',poly([[25.28,41.62],[25.55,41.66],[25.85,41.56],[26.35,41.52],[26.62,41.42],[26.55,41.25],[26.0,41.15],[25.5,41.04],[25.25,41.14],[25.25,41.48]])).attr('fill',C.ochre).attr('opacity',0);
+const ov=root.append('g');
+// yer adları ve bölgeler
+const L=[]; // [lon,lat,text,style,visFn]
+const vis=(a,b,f=0.5)=>t=>Math.max(0,Math.min(1,(t-a)/f,(b-t)/f));
+const ALL=()=>1;
+const T0=S.g1804.bas+0.3, T1=S.son.bas+0.2;
+const thr=t=>t<T0?1:Math.max(0,1-(t-T0)/0.8); // Trakya ayrıntısı 1804'te söner
+const bal=t=>t<T0+0.6?0:Math.min(1,(t-T0-0.6)/0.8);
+const city=(n,lon,lat,o={})=>L.push({n,lon,lat,o,v:o.v||ALL});
+city('Kırcaali',25.3777,41.6338,{a:'end',dx:-14,v:thr});
+city('Mestanlı',25.4086,41.5272,{a:'end',dx:-14,v:thr});
+city('Koşukavak',25.6542,41.4711,{dx:14,v:thr});
+city('İskeçe',24.888,41.1349,{dx:14,v:thr});
+city('Dedeağaç',25.873,40.8457,{dx:14,dy:-10,v:thr});
+city('Edirne',26.5557,41.6771,{dx:14});
+city('Gümülcine',25.4066,41.1224,{a:'end',dx:-16,big:1});
+city('Dimetoka',26.4964,41.3486,{a:'end',dx:-16,dy:-14,big:1,v:t=>t<S.g1798.bas?thr(t)*0.0+1:thr(t)});
+city('Hasköy',25.5552,41.9344,{dx:14,v:bal});
+city('Filibe',24.7453,42.1354,{dx:14,v:bal});
+city('Tırnova',25.6172,43.0757,{dx:14,v:bal});
+city('Rusçuk',25.9657,43.8356,{dx:14,v:bal,big:1});
+const area=(n,lon,lat,o)=>L.push({n,lon,lat,o:Object.assign({area:1},o),v:o.v||ALL});
+area('BULGARİSTAN',24.9,41.86,{v:thr});
+area('BULGARİSTAN',24.4,42.6,{v:bal});
+area('YUNANİSTAN',24.5,41.0,{});
+area('TÜRKİYE',26.75,41.05,{});
+area('ROMANYA',24.6,44.05,{v:bal});
+area('Ege Denizi',25.25,40.78,{it:1});
+area('Rodoplar',24.75,41.55,{it:1,v:thr});
+area('Balkan Dağları',24.6,42.78,{it:1,v:bal});
+area('Tuna',25.45,43.72,{it:1,v:bal});
+area('SULTANYERİ',25.6,41.6,{sult:1,v:t=>vis(S.sultanyeri.bas+0.4,S.g1804.bas+0.3)(t)});
+const lab=ov.append('g'), dots=ov.append('g');
+L.forEach(l=>{
+  if(l.o.area){l.el=lab.append('text').attr('text-anchor','middle').attr('fill',l.o.sult?C.ochre:(l.o.it?'#6c8580':'#6f8279'))
+    .attr('font-family',l.o.it?'Alegreya':'IBM Plex Mono').attr('font-style',l.o.it?'italic':'normal').attr('font-size',l.o.it?28:(l.o.sult?24:20)).attr('letter-spacing',l.o.it?2:5).text(l.n);}
+  else{l.dot=dots.append('circle').attr('r',l.o.big?9:6).attr('fill',l.o.big?C.teal:C.muted);
+    l.el=lab.append('text').attr('text-anchor',l.o.a||'start').attr('fill',l.o.big?C.ink:C.muted).attr('font-family','Alegreya Sans').attr('font-weight',l.o.big?700:400).attr('font-size',l.o.big?30:25).text(l.n);}
+});
+// iz ve işaret
+const trail=ov.append('path').attr('fill','none').attr('stroke',C.ochre).attr('stroke-width',4).attr('stroke-linecap','round');
+const trail2=ov.append('path').attr('fill','none').attr('stroke',C.ochre).attr('stroke-width',4).attr('stroke-dasharray','10 9');
+const link=ov.append('path').attr('fill','none').attr('stroke',C.teal).attr('stroke-width',3).attr('stroke-dasharray','9 8');
+const arrow=ov.append('path').attr('fill','none').attr('stroke',C.teal).attr('stroke-width',4).attr('marker-end','url(#ar)');
+const mestan=ov.append('text').attr('fill',C.teal).attr('font-family','IBM Plex Mono').attr('font-size',22).text('Mestan Ağa');
+const tirs=ov.append('text').attr('fill',C.teal).attr('font-family','IBM Plex Mono').attr('font-size',22).text('Tirsiniklioğlu');
+const ring=ov.append('circle').attr('fill','none').attr('stroke',C.ochre).attr('stroke-width',3);
+const mk=ov.append('circle').attr('r',13).attr('fill',C.ochre).attr('stroke','#12201b').attr('stroke-width',3);
+const xm=ov.append('path').attr('stroke',C.warn).attr('stroke-width',7).attr('stroke-linecap','round');
+const mlab=ov.append('text').attr('fill',C.ochre).attr('font-family','Alegreya Sans').attr('font-weight',700).attr('font-size',32);
+const mlab2=ov.append('text').attr('fill',C.ochre).attr('font-family','IBM Plex Mono').attr('font-size',21);
+const dim=root.append('rect').attr('width',MW).attr('height',MH).attr('fill','#12201b').attr('opacity',0);
+// kamera
+const view=(lon,lat,w)=>{const c=P0([lon,lat]);return [c[0],c[1],P0([lon+w/2,lat])[0]-P0([lon-w/2,lat])[0]];};
+const V={wide:view(25.75,41.35,2.9),tok:view(25.52,41.42,1.05),sult:view(25.5,41.4,1.5),gum:view(25.5,41.3,1.5),dom:view(25.95,41.32,2.05),far:view(25.45,42.6,4.5),end:view(25.75,41.45,3.0)};
+const camKeys=[[0,V.wide],[S.dogum.bas,V.wide],[S.dogum.bas+1.6,V.tok],[S.sultanyeri.bas,V.tok],[S.sultanyeri.bas+1.5,V.sult],[S.g1796.bas,V.sult],[S.g1796.bas+2.2,V.gum],[S.g1798.bas,V.gum],[S.g1798.bas+1.8,V.dom],[S.g1804.bas+0.2,V.dom],[S.g1804.bas+2.8,V.far],[S.son.bas,V.far],[S.son.bas+2,V.end],[99,V.end]];
+const E=d3.easeCubicInOut;
+function cam(t){for(let i=0;i<camKeys.length-1;i++){const [ta,va]=camKeys[i],[tb,vb]=camKeys[i+1];if(t<tb){const u=Math.max(0,Math.min(1,(t-ta)/(tb-ta)));return d3.interpolateZoom(va,vb)(E(u));}}return camKeys[camKeys.length-1][1];}
+// güzergâhlar
+const TK=[25.5265,41.3822],GM=[25.4066,41.1224],DM=[26.4964,41.3486],HK=[25.5552,41.9344],SV=[25.1135,43.0258],RS=[25.9657,43.8356],SU=[25.55,41.5];
+const along=(pts,u)=>{const d=[];let tot=0;for(let i=1;i<pts.length;i++){const s=d3.geoDistance(pts[i-1],pts[i]);d.push(s);tot+=s;}let x=u*tot;for(let i=0;i<d.length;i++){if(x<=d[i]||i===d.length-1){const f=d[i]?Math.min(1,x/d[i]):1;return {p:d3.geoInterpolate(pts[i],pts[i+1])(f),seg:i,f};}x-=d[i];}};
+const sub=(pts,u)=>{if(u<=0)return [pts[0]];const r=along(pts,u);return pts.slice(0,r.seg+1).concat([r.p]);};
+const ESC=[GM,TK,HK,[25.45,42.55],SV];
+const clamp=(x)=>Math.max(0,Math.min(1,x));
+const subEl=document.getElementById('sub'), tagEl=document.getElementById('tag'), endEl=document.getElementById('end');
+const TAG={giris:'Memleket · Koşukavak',dogum:'Doğum · Tokadcık',sultanyeri:'Sultanyeri ayanı',g1796:'1796 · Gümülcine ayanı',g1798:'1798 · Kapıcıbaşı',g1804:'1804 · Kaçış ve ölüm',son:"Rumeli'nin Unutulan Adları"};
+window.renderAt=function(t){
+  const [cx,cy,w]=cam(t), k=MW/w, tx=MW/2-k*cx, ty=MH/2-k*cy;
+  world.attr('transform',`translate(${tx},${ty}) scale(${k})`);
+  const scr=ll=>{const p=P0(ll);return [p[0]*k+tx,p[1]*k+ty];};
+  const line=pts=>'M'+pts.map(p=>scr(p).join(',')).join('L');
+  L.forEach(l=>{const [x,y]=scr([l.lon,l.lat]);const o=l.v(t);
+    l.el.attr('x',x+(l.o.dx||0)).attr('y',y+(l.o.dy||0)+(l.o.area?0:9)).attr('opacity',o);
+    if(l.dot)l.dot.attr('cx',x).attr('cy',y).attr('opacity',o);});
+  // bölgeler
+  sultPoly.attr('opacity',0.22*vis(S.sultanyeri.bas+0.4,S.g1796.bas+0.6,0.8)(t));
+  domPoly.attr('opacity',0.2*vis(S.g1798.bas+0.6,S.g1804.bas+0.8,0.9)(t));
+  // Mestan Ağa etiketi Gümülcine'de
+  const gm=scr(GM); mestan.attr('x',gm[0]-16).attr('y',gm[1]+44).attr('text-anchor','end').attr('opacity',vis(S.sultanyeri.bas+4.2,S.g1796.bas+1.2,0.5)(t));
+  // marker konumu
+  let pos=TK, show=clamp((t-S.dogum.bas-0.4)/0.5);
+  const m1=E(clamp((t-S.g1796.bas-0.6)/2.6));
+  if(t>=S.g1796.bas) pos=along([TK,GM],m1).p;
+  const e0=S.g1804.bas+1.0, e1=S.g1804.bas+7.4, me=E(clamp((t-e0)/(e1-e0)));
+  if(t>=e0) pos=along(ESC,me).p;
+  trail.attr('d',t>=S.g1796.bas?line(sub([TK,GM],m1)):null);
+  trail2.attr('d',t>=e0?line(sub(ESC,me)):null);
+  // 1798 bağlantıları
+  const lk=E(clamp((t-S.g1798.bas-1.2)/2.2));
+  link.attr('d',lk>0?line(sub([SU,GM,DM],lk)):null).attr('opacity',1-clamp((t-S.g1804.bas)/0.8));
+  // Tirsiniklioğlu oku
+  const ak=E(clamp((t-(S.g1804.bas+5.6))/2.0));
+  arrow.attr('d',ak>0?line(sub([RS,[25.55,43.4],[25.2,43.1]],ak)):null);
+  const rs=scr(RS); tirs.attr('x',rs[0]+16).attr('y',rs[1]+40).attr('opacity',clamp((t-(S.g1804.bas+5.2))/0.5));
+  const [mx,my]=scr(pos); const dead=t>=e1+0.3;
+  const pulse=(t*1.2)%1;
+  mk.attr('cx',mx).attr('cy',my).attr('opacity',dead?0:show).attr('r',13*(0.6+0.4*show));
+  ring.attr('cx',mx).attr('cy',my).attr('r',14+pulse*26).attr('opacity',dead?0:show*(1-pulse)*0.9);
+  const xs=14; xm.attr('d',dead?`M${mx-xs},${my-xs}L${mx+xs},${my+xs}M${mx+xs},${my-xs}L${mx-xs},${my+xs}`:null);
+  // işaret etiketi
+  let l1='',l2='';
+  if(t<S.g1796.bas+0.6){l1='Tokadcık';l2='bugün Tokaçka';}
+  else if(t<e0){l1='';l2='';}
+  else if(dead){l1='Sevlievo yakını';l2='1804';}
+  mlab.attr('x',dead?mx-26:mx+26).attr('text-anchor',dead?'end':'start').attr('y',my+2).text(l1).attr('opacity',show);
+  mlab2.attr('x',dead?mx-26:mx+26).attr('text-anchor',dead?'end':'start').attr('y',my+30).text(l2).attr('opacity',show);
+  dim.attr('opacity',0.72*clamp((t-S.son.bas-1.2)/1.0));
+  endEl.style.opacity=clamp((t-S.son.bas-1.6)/0.8);
+  // altyazı ve etiket
+  const cur=ZAMAN.bolumler.find(b=>t>=b.bas-0.15&&t<=b.bit+0.35);
+  const showSub=cur&&cur.id!=='son';subEl.textContent=showSub?cur.alt:''; subEl.style.opacity=showSub?Math.min(1,(t-cur.bas+0.15)/0.25,(cur.bit+0.35-t)/0.25):0;
+  const sc=[...ZAMAN.bolumler].reverse().find(b=>t>=b.bas-0.2)||ZAMAN.bolumler[0];
+  tagEl.textContent=TAG[sc.id];
+};
+await document.fonts.ready;
+renderAt(0);
+window.ready=true;
+})();
+</script>
+</body></html>
