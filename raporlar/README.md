@@ -39,3 +39,12 @@ Klasör: `2026-11-04_kapanis_1-3gun/`
 - `rehber/tuprs`, `rehber/koza`, `rehber/altin`: TUPRS ← ABD rafinerileri, TRMET/TRALT göreli momentum ve TRALT ← altın için saat saat uygulama rehberi, günlük sinyal betiği ve TradingView göstergesi (derlenmedi).
 
 Yatırım tavsiyesi değildir.
+
+---
+
+# Carl Gustav Jung'un bütün kitapları (05.11.2026)
+
+Klasör: `2026-11-05_jung_kitaplari/` (giriş için klasördeki `README.md`)
+
+- `ajan_ciktilari/`: Alt ajanların çıktıları. 50 kitap raporu (her birinde yazar–hakem tartışma eki), 12 küme sentezi, envanter denetimi, üç bakışlı tartışma ve "Ajanların Ortak Raporu".
+- `ana_ajan_analizi/`: Ana ajanın ayrı analizi. Ajan bulgularının denetimi ve güven haritası, külliyat haritası ve 50 eserlik tablo, tartışmanın hakemliği ve Türkçe okuma yolları, düzeltmeler ve açık sorular.
