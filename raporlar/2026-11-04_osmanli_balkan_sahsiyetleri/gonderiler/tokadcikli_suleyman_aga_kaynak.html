@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<style>
+:root{--bg:#12201b;--ink:#ede8dc;--muted:#a9b3ab;--ochre:#d9a552;--teal:#6dc1a7;--rule:#2c3d35;
+--d:"Alegreya",Georgia,serif;--b:"Alegreya Sans",system-ui,sans-serif;--m:"IBM Plex Mono",Menlo,monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1350px}
+body{background:var(--bg);color:var(--ink);font-family:var(--b);padding:62px 80px 54px;display:flex;flex-direction:column;gap:20px}
+.top{display:flex;justify-content:space-between;font:500 22px var(--m);letter-spacing:.12em;text-transform:uppercase;color:var(--ochre)}
+.top span{color:var(--muted);letter-spacing:.04em}
+h1{font:700 82px/1 var(--d);letter-spacing:-.01em;white-space:nowrap}
+.lede{font:italic 500 36px/1.25 var(--d);border-left:4px solid var(--ochre);padding-left:22px}
+.map{position:relative}
+.map svg{display:block;border-radius:6px}
+.cap{font:400 16px var(--m);color:var(--muted);margin-top:8px;display:flex;justify-content:space-between}
+ol{list-style:none;padding:0;display:flex;flex-direction:column;gap:12px;flex:1}
+li{display:grid;grid-template-columns:150px 1fr;gap:14px;font-size:26px;line-height:1.28}
+li b{font:500 21px/1.6 var(--m);color:var(--teal)}
+footer{display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid var(--rule);padding-top:16px;font:400 17px/1.4 var(--m);color:var(--muted)}
+footer strong{color:var(--ink);font:500 21px var(--d);white-space:nowrap}
+</style></head><body>
+<div class="top">Rumeli'nin Unutulan Adları · Memleket <span>y. 1761 – 1804</span></div>
+<h1>Tokadcıklı Süleyman Ağa</h1>
+<p class="lede">Koşukavak'ın bir köyünden çıkıp Batı Trakya'nın fiilî hâkimi olan ayan.</p>
+<div class="map"><svg id="m" width="920" height="520"></svg>
+<div class="cap"><span>Bugünkü sınırlar · Doğum yeri Tokadcık, bugün Tokaçka (Koşukavak, Kırcaali)</span><span id="scale"></span></div></div>
+<ol>
+  <li><b>Başlangıç</b><span>Sultanyeri'nde 15-20 kişilik bir bölüğün başıydı.</span></li>
+  <li><b>Yükseliş</b><span>Gümülcine ayanı Mestan Ağa'nın desteğiyle Sultanyeri ayanı oldu.</span></li>
+  <li><b>1796</b><span>Mestan Ağa idam edilince Gümülcine'ye girip kendini ayan ilan etti.</span></li>
+  <li><b>1798</b><span>Kapıcıbaşı unvanı aldı. Gümülcine, Dimetoka ve Sultanyeri yöresinde iltizamları ve çiftlikleri denetledi.</span></li>
+  <li><b>1804</b><span>Devletle arası bozuldu. Rusçuk ayanı Tirsiniklioğlu'nun kuvvetlerince yakalanıp öldürüldü.</span></li>
+</ol>
+<footer><div>Kaynak: N. Aygün (Belleten), bg.wikipedia · Harita: Natural Earth<br>Doğum yılı tahminîdir.</div><strong>Rumeli'nin Unutulan Adları</strong></footer>
+<script>
+(async function(){
+const W=920,H=520, C={sea:'#0d1a1c',land:'#1c2e27',coast:'#4a6157',border:'#7d8f86',ink:'#ede8dc',muted:'#a9b3ab',ochre:'#d9a552',teal:'#6dc1a7'};
+const svg=d3.select('#m');
+const bbox={type:'MultiPoint',coordinates:[[24.45,40.80],[26.95,40.80],[24.45,41.76],[26.95,41.76]]};
+const proj=d3.geoMercator().fitExtent([[0,0],[W,H]],bbox), path=d3.geoPath(proj);
+const topo=await d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-10m.json');
+const all=topojson.feature(topo,topo.objects.countries);const land={type:'FeatureCollection',features:all.features.filter(f=>['100','300','792','807'].includes(String(f.id)))};
+const borders=topojson.mesh(topo,topo.objects.countries,(a,b)=>a!==b);
+svg.append('defs').html(`<clipPath id="c"><rect width="${W}" height="${H}" rx="6"/></clipPath>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="${C.ochre}"/></marker>`);
+const g=svg.append('g').attr('clip-path','url(#c)');
+g.append('rect').attr('width',W).attr('height',H).attr('fill',C.sea);
+g.append('path').datum(land).attr('d',path).attr('fill',C.land).attr('stroke',C.coast).attr('stroke-width',1.2);
+g.append('path').datum(borders).attr('d',path).attr('fill','none').attr('stroke',C.border).attr('stroke-width',1.6).attr('stroke-dasharray','6 4');
+const P=(lon,lat)=>proj([lon,lat]);
+const T=(lon,lat,txt,o={})=>{const [x,y]=P(lon,lat);g.append('text').attr('x',x+(o.dx||0)).attr('y',y+(o.dy||0)).attr('text-anchor',o.a||'start')
+  .attr('fill',o.c||C.muted).attr('font-family',o.f||'Alegreya Sans').attr('font-size',o.s||18).attr('font-weight',o.w||400).attr('font-style',o.i?'italic':'normal')
+  .attr('letter-spacing',o.ls||0).text(txt);};
+// bölge yazıları
+T(24.95,41.74,'BULGARİSTAN',{s:16,ls:4,c:'#6f8279',f:'IBM Plex Mono'});
+T(24.55,40.98,'YUNANİSTAN',{s:16,ls:4,c:'#6f8279',f:'IBM Plex Mono'});
+T(26.62,41.10,'TÜRKİYE',{s:16,ls:4,c:'#6f8279',f:'IBM Plex Mono'});
+T(25.05,40.80,'Ege Denizi',{s:20,i:1,c:'#5f7a78',f:'Alegreya'});
+T(24.62,41.52,'R o d o p l a r',{s:20,i:1,c:'#6f8279',f:'Alegreya'});
+T(25.62,41.555,'SULTANYERİ',{s:15,ls:3,c:C.ochre,f:'IBM Plex Mono'});
+// yol: Tokadcık -> Gümülcine, Gümülcine -> Dimetoka
+const tk=P(25.5265,41.3822), gm=P(25.4066,41.1224), dm=P(26.4964,41.3486);
+g.append('path').attr('d',`M${tk[0]},${tk[1]} Q${tk[0]-30},${(tk[1]+gm[1])/2} ${gm[0]+6},${gm[1]-14}`).attr('fill','none').attr('stroke',C.ochre).attr('stroke-width',3).attr('marker-end','url(#ar)');
+g.append('path').attr('d',`M${gm[0]+12},${gm[1]-4} Q${(gm[0]+dm[0])/2},${gm[1]-10} ${dm[0]-10},${dm[1]+6}`).attr('fill','none').attr('stroke',C.teal).attr('stroke-width',2.5).attr('stroke-dasharray','8 6');
+// şehirler
+const cities=[['Kırcaali',25.3777,41.6338,{a:'end',dx:-12,dy:6}],['Mestanlı',25.4086,41.5272,{a:'end',dx:-12,dy:6}],['Koşukavak',25.6542,41.4711,{dx:12,dy:6}],
+ ['İskeçe',24.888,41.1349,{dx:12,dy:6}],['Dimetoka',26.4964,41.3486,{a:'end',dx:-12,dy:-10,c:C.ink,w:700,s:20}],['Edirne',26.5557,41.6771,{dx:12,dy:6}],
+ ['Dedeağaç',25.873,40.8457,{dx:12,dy:-6}],['Gümülcine',25.4066,41.1224,{a:'end',dx:-14,dy:6,c:C.ink,w:700,s:20}]];
+for(const [n,lon,lat,o] of cities){const [x,y]=P(lon,lat);g.append('circle').attr('cx',x).attr('cy',y).attr('r',o.w?7:5).attr('fill',o.w?C.teal:C.muted);T(lon,lat,n,o);}
+g.append('circle').attr('cx',tk[0]).attr('cy',tk[1]).attr('r',16).attr('fill','none').attr('stroke',C.ochre).attr('stroke-width',2);
+g.append('circle').attr('cx',tk[0]).attr('cy',tk[1]).attr('r',8).attr('fill',C.ochre);
+T(25.5265,41.3822,'Tokadcık',{dx:24,dy:2,c:C.ochre,w:700,s:22});
+T(25.5265,41.3822,'doğum yeri',{dx:24,dy:22,c:C.ochre,s:16,f:'IBM Plex Mono'});
+T(25.47,41.25,'1796',{dx:14,c:C.ochre,s:17,f:'IBM Plex Mono'});
+T(26.0,41.06,'1798: denetlediği yöre',{a:'middle',c:C.teal,s:17,f:'IBM Plex Mono'});
+// ölçek
+const a=P(26.3,40.86), km=20, b=P(26.3+km/(111.32*Math.cos(40.86*Math.PI/180)),40.86);
+g.append('line').attr('x1',a[0]).attr('y1',a[1]).attr('x2',b[0]).attr('y2',b[1]).attr('stroke',C.muted).attr('stroke-width',3);
+g.append('text').attr('x',(a[0]+b[0])/2).attr('y',a[1]-9).attr('text-anchor','middle').attr('fill',C.muted).attr('font-family','IBM Plex Mono').attr('font-size',15).text('20 km');
+document.body.dataset.ok='1';
+})();
+</script>
+</body></html>
