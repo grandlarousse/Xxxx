@@ -10,8 +10,9 @@ def matrisler(force=False):
     cal = xu.index.intersection(th); cal = cal[cal <= "2026-11-05"]
     rm = xu.reindex(cal).pct_change()
     R, TAV, TAB, PD, VOL, TRD, C = {}, {}, {}, {}, {}, {}, {}
-    for f in sorted(glob.glob(f"{CACHE}/px_tekil/*.parquet")):
-        k = os.path.basename(f)[:-8]
+    ks = set(os.path.basename(f)[:-8] for f in glob.glob(f"{CACHE}/px_tekil/*.parquet"))
+    ks |= set(os.path.basename(f)[:-8] for f in glob.glob(f"{CACHE}/px_chart/*.parquet")) - {"XU100", "XUTUM", "XYUZO", "XU030"}
+    for k in sorted(ks):
         d = P.hisse(k)
         if d is None: continue
         d = d[d.index.isin(cal)]

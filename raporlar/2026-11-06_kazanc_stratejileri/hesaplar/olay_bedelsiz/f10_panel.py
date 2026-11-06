@@ -17,7 +17,16 @@ def isy_olaylar():
     return _ISY
 def hisse(kod):
     p = f"{CACHE}/px_tekil/{kod}.parquet"
-    if not os.path.exists(p): return None
+    if not os.path.exists(p):
+        # yedek: yalniz ChartData duzeltilmis kapanis (temettu-only hisseler; kilit/piyasa degeri yok)
+        pc = f"{CACHE}/px_chart/{kod}.parquet"
+        if not os.path.exists(pc): return None
+        x = pd.read_parquet(pc).px
+        x = x[(x > 0) & (x.index <= "2026-11-05")]
+        if len(x) < 30: return None
+        d = pd.DataFrame({"c": x, "adj": x, "hi": x, "lo": x, "pd": np.nan, "hacim_tl": np.nan})
+        d["r"] = x.pct_change(); d["adjf"] = 1.0; d["brk"] = False; d["tavan"] = False; d["taban"] = False; d["kaynak"] = "chart"
+        return d
     d = pd.read_parquet(p)
     if len(d) < 30: return None
     d = d[(d.c > 0) & (d.adj > 0)].copy()

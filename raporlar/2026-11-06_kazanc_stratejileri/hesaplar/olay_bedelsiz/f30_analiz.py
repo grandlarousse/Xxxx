@@ -2,7 +2,7 @@
 Cikti: <HERE>/sonuc/*.csv ve sonuc_tablolar.md (rapora kopyalanan tablolar)."""
 import os, sys, numpy as np, pandas as pd
 import f20_es as E
-HERE = os.path.dirname(os.path.abspath(__file__)); OUT = f"{HERE}/sonuc"; os.makedirs(OUT, exist_ok=True)
+HERE = os.path.dirname(os.path.abspath(__file__)); OUT = f"{E.CACHE}/sonuc"; os.makedirs(OUT, exist_ok=True)   # tablolar repoya degil onbellege
 CACHE = E.CACHE
 COST = 0.0025
 ASAMA = {"p1": "YK/ilk duyuru", "p2": "SPK basvurusu", "p3": "SPK onayi", "hak": "Hak kullanim (bolunme) gunu"}

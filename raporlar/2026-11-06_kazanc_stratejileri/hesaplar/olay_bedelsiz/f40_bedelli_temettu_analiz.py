@@ -4,7 +4,7 @@ Temettu: P1 = ilk 'Kar Payi Dagitimi' KAP bildirimi (hak gunu oncesi <=200 gun),
 import os, numpy as np, pandas as pd
 import f20_es as E
 from f31_calistir import md, P2, T, I, H as HP
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sonuc")
+OUT = f"{E.CACHE}/sonuc"
 COST = 0.0025
 W1 = [(-20, -1), (-5, -1), (0, 0), (0, 1), (1, 5), (1, 10), (1, 20)]
 W2 = [(-10, -1), (-1, -1), (0, 0), (1, 5), (1, 10), (1, 20)]
