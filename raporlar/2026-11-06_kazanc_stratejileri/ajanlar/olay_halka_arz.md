@@ -84,7 +84,7 @@ Düzeltilmiş seride |getiri| >%10,5 olan tek gün kümesi ARDYZ'nin ±%20 döne
 | **Tümü** | **240** | **82** | **513** | **1.053** | **845** | **81** | **68** | **4,6 / 4** | **45** | **13** | **46 / 69** |
 
 - **Seri uzunluğu dağılımı (adet):** 0:46, 1:25, 2:16, 3:23, 4:23, 5:22, 6:15, 7:16, 8:11, 9:11, 10:10, 11:6, 12:4, 13:4, 14:3, 15:2, 16:1, 19:1, 20:1 (en uzun TRILC).
-- **Gün1 getirisi:** 194/240 arz tavanda kapattı (+%9,5…+%10). 19 arz arz fiyatının altında kapattı; bunların 10'u −%5 ile −%10 arasında. Seri içindeki tavan günlerinin %71'i kilitli (min=max).
+- **Gün1 getirisi:** 194/240 arz tavanda kapattı (+%9,5…+%10). 19 arz arz fiyatının altında kapattı; bunların 10'u −%5 ile −%10 arasında. Seri içindeki tavan günleri büyük ölçüde kilitli (min=max): arz başına ortalama %71, gün ağırlıklı %76 (1.099 günün 840'ı).
 - **Seri, arz büyüklüğü ve başvuran sayısıyla ilişkili:**
   - Yıl içi büyüklük tercili küçük / orta / büyük: medyan seri 5,5 / 4 / 1,5; gün1 tavan %96 / %85 / %61.
   - Başvuran sayısı ile seri arasındaki korelasyon: corr(log kişi, seri) = 0,28.
@@ -291,7 +291,7 @@ Lock-up bitişinde işlenebilir bir etki yok. En güçlü alt kümede (fiyat > 2
 
 1. **Liste kaynağı tek:** halkarz.com. Alanlar WebFetch özetleyicisiyle sayfadan satır satır alındı, yazım hatası riski var. Fiyatların hepsi gün1 limit testinden geçti. Kişi ve lot alanlarında 2 düzeltme yapıldı (ATAKP lot, GWIND toplam kişi). Bireysel kişi sayısı ve lot sayfada yazıldığı gibi. Oransal dağıtımda kişi başı lot ortalamadır.
 2. **Kilit tespiti gün sonu min/max'a dayanıyor:** Emir defteri verisi yok. min<max olan bir tavan günü "kısmen dolabilir" sayıldı; gerçek dolum oranı bundan düşük olabilir.
-3. **Hayatta kalma:** Örnekte işlemden kaldırılan hisse yok. 2020–26 arzlarının hepsi 05.11.2026'da veride var.
+3. **Hayatta kalma:** Örnekte işlemden kaldırılan hisse yok. 240 arzdan 239'u 04–05.11.2026'da veride var. TERA'nın verisi 27.10.2026'da kesiliyor; muhtemelen işlem durdurma. Bu durum ölçüm pencerelerini etkilemiyor.
 4. **Pencereler:** 2026 arzlarının E+63/E+126 pencereleri dolmadı (n düşüyor). Yıllık TL tabloları nominal; 2021 ile 2026 TL'si karşılaştırılamaz (TÜFE).
 5. **Beta tahmini:** E+1..E+250 penceresinden; ölçüm penceresiyle örtüşüyor. Alfa çıkarılmadı. CARb yalnız sağlamlık kontrolü.
 6. **Dönem etkisi:** 2023'teki uzun seriler (%70'i ≥5 gün) özel bir dönemdi: negatif reel faiz ve 2–4 milyon başvuran. 2024–26'da seriler kısaldı, büyük arzlar ve fiyat istikrarı arttı, seri sonrası düşüş derinleşti (BH21 medyan −%17).
