@@ -57,13 +57,13 @@ def giris_gunu(ts, takvim, kesim="17:00"):
 HZ = (5, 20, 60)
 def olay_getiri(kod, t0, xu, xr, hz=HZ, pre=20):
     """t0 = giris gunu (kapanista alis). Cikti: BH ham, BH endeks, BHAR, piyasa modeli CAR (beta [-250,-21]), on-donem, gun0, tavan kilidi, likidite."""
-    d = hisse(kod)
+    d = hisse(kod, fetch=False)
     if d is None or t0 not in d.index: return None
     i = d.index.get_loc(t0)
     if i < pre + 1: return None
     a = d.adj.values; out = {"kod": kod, "t0": t0}
     r0 = a[i] / a[i - 1] - 1; out["gun0"] = r0
-    out["tavan"] = bool(r0 >= 0.095 and d.hi.iloc[i] > 0 and a[i] >= 0.999 * d.hi.iloc[i] * (a[i] / d.adj.iloc[i]))
+    out["tavan"] = bool(r0 >= 0.095 and d.hi.iloc[i] > 0 and a[i] >= 0.999 * d.hi.iloc[i])
     out["taban"] = bool(r0 <= -0.095 and d.lo.iloc[i] > 0 and a[i] <= 1.001 * d.lo.iloc[i])
     m = xu.reindex(d.index).ffill().values
     out["on"] = a[i - 1] / a[i - 1 - pre] - 1 - (m[i - 1] / m[i - 1 - pre] - 1)
@@ -76,6 +76,7 @@ def olay_getiri(kod, t0, xu, xr, hz=HZ, pre=20):
         b = np.cov(x[ok], y[ok])[0, 1] / np.var(x[ok]); al = np.mean(y[ok]) - b * np.mean(x[ok])
     else: b, al = np.nan, np.nan
     out["beta"] = b
+    w = rs[i + 1:min(i + 61, len(rs))]; out["sicrama"] = bool(np.nanmax(np.abs(w)) > 0.4) if len(w) else False
     for h in hz:
         if i + h >= len(a): out[f"bh{h}"] = out[f"bhm{h}"] = out[f"ar{h}"] = out[f"mm{h}"] = np.nan; continue
         # takvim bosluklarina karsi: h islem gunu sonrasi tarih endeks takvimine gore ~ ayni

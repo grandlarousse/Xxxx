@@ -26,7 +26,7 @@ def ana_kod(lst):
     return best
 def ga_sinif(s):
     s = s.lower()
-    if re.search(r"sonland|tamamlan|bitiril|sona er", s): return "BITIS"
+    if re.search(r"sonlan|tamamlan|bitiril|bitir|sona er|sonra er|sürenin dol|surenin dol|dolması", s): return "BITIS"
     if re.search(r"program|karar|başlat|baslat|yetki", s) and not re.search(r"işlem|islem|gerçekleş|gerceklest|tarihli|çerçevesinde (pay|hisse)|kapsamında (pay|hisse) al|alımı\.?$", s):
         return "PROG"
     return "ISLEM"

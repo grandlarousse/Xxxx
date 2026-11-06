@@ -72,6 +72,19 @@ def main():
             z = E.ozet(g.car, g.t0); rows.append(dict(alt=nm, asama=a, pencere=w, N=z["N"], ort=z["ort"], med=z["med"], t=z["t"], isabet=z["isabet"]))
     R = pd.DataFrame(rows)
     s += "\n## Saglamlik alt kumeleri\n\n" + md(R, list(R.columns), F)
+    # --- alternatif kiyas: BIST 100 disi (XYUZO) ve XUTUM endeksleri
+    rows = []
+    for ix in ["XUTUM", "XYUZO"]:
+        xr = pd.read_parquet(f"{E.CACHE}/px_chart/{ix}.parquet").px.reindex(M["cal"]).pct_change()
+        M2 = dict(M); M2["rm"] = xr
+        for (a, w0, w1) in [("p1", -20, -1), ("p1", 0, 1), ("p1", 1, 20), ("p3", 0, 1), ("p3", 1, 5), ("hak", -5, -1), ("hak", 1, 10), ("hak", 1, 20)]:
+            vals, dates = [], []
+            for _, h in H.iterrows():
+                j0 = h["j_" + a]
+                if j0 is None or pd.isna(j0): continue
+                vals.append(E.car(M2, h.kod, int(j0), w0, w1)); dates.append(M["cal"][int(j0)])
+            z = E.ozet(pd.Series(vals), pd.Series(dates)); rows.append(dict(kiyas=ix, asama=a, pencere=f"[{w0},{w1}]", N=z["N"], ort=z["ort"], med=z["med"], t=z["t"], isabet=z["isabet"]))
+    s += "\n## Alternatif kiyas endeksi (XUTUM, XYUZO=BIST 100 disi)\n\n" + md(pd.DataFrame(rows), ["kiyas", "asama", "pencere", "N", "ort", "med", "t", "isabet"], F)
     # --- kilit istatistikleri
     k = C[C.pencere.isin(["[0,0]"])].groupby("asama").t0_tavan.mean()
     s += "\n## t0 gunu tavan kilitli olay payi\n\n" + ", ".join(f"{a}: {v:.0%}" for a, v in k.items()) + "\n"

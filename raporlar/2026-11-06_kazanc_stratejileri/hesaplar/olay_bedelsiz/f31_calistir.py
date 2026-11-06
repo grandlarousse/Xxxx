@@ -16,6 +16,12 @@ def main():
     M = E.matrisler()
     ev = pd.read_pickle(f"{E.CACHE}/olaylar_bedelsiz.pkl")
     ev = ev[(ev.hak >= "2015-01-01")].copy()                    # analiz donemi: hak gunu 2015-01-01 .. 2026-11-05
+    # veri hatasi: hak gununde gozlenen duzeltme carpani teorikten >%5 sapan (duzeltilmemis/islem gormeyen pay gruplari, or. ISATR/ISBTR)
+    dz = pd.read_csv(f"{E.CACHE}/dogrulama_duzeltme.csv", parse_dates=["hak"])
+    dz["sapma"] = (dz.carpan / dz.teorik - 1).abs()
+    bad = dz[(dz.sapma > 0.05) & (dz.bedelli.fillna(0) == 0)][["kod", "hak"]]
+    n0 = len(ev); ev = ev.merge(bad.assign(_bad=1), on=["kod", "hak"], how="left"); ev = ev[ev._bad.isna()].drop(columns="_bad")
+    print("veri hatasi nedeniyle dislanan:", n0 - len(ev), bad.kod.tolist())
     H = A.hazirla(M, ev); H.to_pickle(f"{OUT}/H.pkl")
     C = A.car_tablosu(M, H); C.to_pickle(f"{OUT}/C.pkl")
     C["oran_g"] = C.oran.map(A.oran_grup)

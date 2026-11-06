@@ -30,6 +30,21 @@ def main():
     allT = []
     for ad, gf, cf in kurallar():
         Tt = A.islem(M, Hh, ad, safe(gf), safe(cf)); Tt = Tt[Tt.gun > 0]; allT.append(Tt)
+    # AOF girisli varyantlar: t0 gunu AOF'tan al (t0 tavan kilitliyse dolmaz sayilir -> atilir)
+    for ad, gf, cf in [("Onay t0 AOF -> hak-1", lambda x: x.j_p3, lambda x: x.j_hak - 1), ("Onay t0 AOF -> hak", lambda x: x.j_p3, lambda x: x.j_hak),
+                       ("YK t0 AOF -> t0 kapanis", lambda x: x.j_p1, lambda x: x.j_p1), ("YK t0 AOF -> +5g", lambda x: x.j_p1, lambda x: x.j_p1 + 5),
+                       ("Onay t0 AOF -> t0 kapanis", lambda x: x.j_p3, lambda x: x.j_p3)]:
+        rec = []
+        for _, h in Hh.iterrows():
+            j = gf(h); jo = cf(h)
+            if pd.isna(j) or pd.isna(jo): continue
+            j, jo = int(j), int(jo)
+            if jo < j: continue
+            kil = bool(M["TAV"][h.kod].iloc[j]); ham, xu = E.bhar_aof(M, h.kod, j, jo)
+            rec.append(dict(islem=ad, i=h.i, kod=h.kod, giris=M["cal"][j], gun=jo - j, kilitli_giris=kil, ham=ham, bhar=ham - xu if pd.notna(ham) else np.nan,
+                            ham_dol=np.nan if kil else ham, bhar_dol=np.nan if (kil or pd.isna(ham)) else ham - xu, oran=h.oran, yil=h.yil,
+                            pd_yuzdelik=h.pd_yuzdelik, pd_rel=h.pd_rel, j_in=j, j_out=jo, jg=None, jc=None))
+        allT.append(pd.DataFrame(rec))
     TT = pd.concat(allT, ignore_index=True)
     TT["oran_g"] = TT.oran.map(A.oran_grup)
     q = Hh.pd_rel.quantile([1/3, 2/3]).values

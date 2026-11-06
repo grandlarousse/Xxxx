@@ -9,7 +9,7 @@ def matrisler(force=False):
     xu = P.xu100(); th = pd.read_parquet(f"{CACHE}/px_tekil/THYAO.parquet").index
     cal = xu.index.intersection(th); cal = cal[cal <= "2026-11-05"]
     rm = xu.reindex(cal).pct_change()
-    R, TAV, TAB, PD, VOL, TRD, C = {}, {}, {}, {}, {}, {}, {}
+    R, TAV, TAB, PD, VOL, TRD, C, VWR = {}, {}, {}, {}, {}, {}, {}, {}
     ks = set(os.path.basename(f)[:-8] for f in glob.glob(f"{CACHE}/px_tekil/*.parquet"))
     ks |= set(os.path.basename(f)[:-8] for f in glob.glob(f"{CACHE}/px_chart/*.parquet")) - {"XU100", "XUTUM", "XYUZO", "XU030"}
     for k in sorted(ks):
@@ -17,10 +17,11 @@ def matrisler(force=False):
         if d is None: continue
         d = d[d.index.isin(cal)]
         if len(d) < 20: continue
+        if "vwap" in d.columns: VWR[k] = (d.c / d.vwap.where(d.vwap > 0)).clip(0.8, 1.25)   # AOF'tan kapanisa gun ici getiri carpani
         R[k] = d.r; TAV[k] = d.tavan; TAB[k] = d.taban; PD[k] = d.pd; VOL[k] = d.hacim_tl.astype(float); C[k] = d.c
         TRD[k] = pd.Series(True, index=d.index)
     M = {"cal": cal, "rm": rm}
-    for nm, D in [("R", R), ("TAV", TAV), ("TAB", TAB), ("PD", PD), ("VOL", VOL), ("TRD", TRD), ("C", C)]:
+    for nm, D in [("R", R), ("TAV", TAV), ("TAB", TAB), ("PD", PD), ("VOL", VOL), ("TRD", TRD), ("C", C), ("VWR", VWR)]:
         X = pd.DataFrame(D).reindex(cal)
         if nm == "R": X = X.fillna(0.0)                     # islem gormeyen gun getirisi 0 (bosluk getirisi acilis gunune yazilir)
         elif nm in ("TAV", "TAB", "TRD"): X = X.fillna(False).astype(bool)
@@ -69,6 +70,14 @@ def bhar(M, k, j_in, j_out):
     r = M["R"][k].iloc[j_in + 1:j_out + 1]; m = M["rm"].iloc[j_in + 1:j_out + 1]
     if r.isna().any(): return np.nan, np.nan
     return float(np.prod(1 + r) - 1), float(np.prod(1 + m) - 1)
+def bhar_aof(M, k, j_in, j_out):
+    """t0 gunu AOF (agirlikli ortalama fiyat) ile al, j_out kapanisinda sat. Aksam yayimlanan bilgi icin ertesi gun 'gun ici' giris yaklasimi."""
+    if j_in is None or j_out is None or j_out < j_in or j_out >= len(M["cal"]) or k not in M["VWR"].columns: return np.nan, np.nan
+    f = M["VWR"][k].iloc[j_in]
+    if pd.isna(f): return np.nan, np.nan
+    r = M["R"][k].iloc[j_in + 1:j_out + 1]; m = M["rm"].iloc[j_in + 1:j_out + 1]
+    if r.isna().any(): return np.nan, np.nan
+    return float(f * np.prod(1 + r) - 1), float(np.prod(1 + m) - 1)
 def dolabilir_giris(M, k, j, maxgec=10):
     """Tavan kilitli kapanista alim dolmaz: ilk kilitsiz kapanisa kaydir. (giris_idx, gecikme)"""
     for g in range(maxgec + 1):
