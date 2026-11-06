@@ -68,5 +68,6 @@ if __name__ == "__main__":
     for a in sys.argv[2:]:
         kods += open(a[1:]).read().split() if a.startswith("@") else [a]
     os.makedirs(f"{CACHE}/px_tekil", exist_ok=True); os.makedirs(f"{CACHE}/px_chart", exist_ok=True)
-    for i, k in enumerate(kods):
-        print(i, k, (tekil if kind == "tekil" else chart)(k), flush=True)
+    for i, k in enumerate(kods):   # 'KOD' ya da 'KOD:bas:son' (olay pencereleri icin daraltilmis aralik; sunucu yukunu yariya indirir)
+        kk = k.split(":"); f = tekil if kind == "tekil" else chart
+        print(i, k, f(kk[0], kk[1], kk[2]) if len(kk) == 3 else f(kk[0]), flush=True)
