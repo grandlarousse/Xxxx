@@ -1,0 +1,133 @@
+//@version=5
+// =====================================================================
+// ABD rejim gostergesi + trend sablonu + emir hesaplayici
+// Kaynak kurallar: uygulama/PLAN_ABD.md §2.2-2.4 (rejim), §3.1-3.4 (sablon, stop, boyut)
+//
+// UYARI: Bu betik TradingView'de DERLENMEDI ve TEST EDILMEDI (06.11.2026).
+//   1) Pine Editor'de derleyin; hata verirse duzeltin, kurali degistirmeyin.
+//   2) SP:SPX gunluk grafiginde 05.11.2026 bari icin PLAN_ABD §2.5 ile karsilastirin:
+//      S&P 200 GHO ~7.322,7 | S&P 10/20 GHO 7.622 / 7.680 | VIX/VIX3M 1,10 | NDX 10<20.
+//      Tutmuyorsa betige guvenmeyin, rejimi elle hesaplayin.
+//   3) Yalniz GUNLUK (1D) grafikte, ABD hissesi ya da ABD endeksi uzerinde kullanin.
+//   4) FTD, pilot freni ve kume izni ELLE girilir (Ayarlar > Inputs). Betik bunlari bilmez.
+// Bu bir gostergedir (indicator); Pine Screener gerektirmez, her planda grafige eklenebilir.
+// =====================================================================
+indicator("ABD Rejim ve Sablon", shorttitle="ABD_RJ", overlay=false)
+
+// ---------- Elle girilen rejim durumlari ----------
+grpR     = "Rejim (elle)"
+ftdValid = input.bool(false, "Gecerli FTD var mi? (S&P ya da NDX; PLAN 2.3)", group=grpR)
+ftdBroke = input.bool(false, "FTD gunu dibi kapanisla kirildi mi?", group=grpR)
+brake    = input.bool(false, "Pilot freni aktif mi? (bir SARI bolumunde >=2 pilot 10 seansta stop)", group=grpR)
+ftdNew   = input.bool(false, "Fren sonrasi YENI ralli denemesinde FTD var mi?", group=grpR)
+
+// ---------- Endeks verileri (gunluk kapanis) ----------
+[spx, spx10, spx20, spx50, spx200] = request.security("SP:SPX", "D", [close, ta.sma(close, 10), ta.sma(close, 20), ta.sma(close, 50), ta.sma(close, 200)])
+[ndx10, ndx20] = request.security("NASDAQ:NDX", "D", [ta.sma(close, 10), ta.sma(close, 20)])
+vix  = request.security("CBOE:VIX", "D", close)
+vix3 = request.security("CBOE:VIX3M", "D", close)
+s5fi = request.security("INDEX:S5FI", "D", close)
+s5th = request.security("INDEX:S5TH", "D", close)
+
+// ---------- Rejim kurallari (PLAN §2.2) ----------
+ratio   = vix / vix3
+redA    = ratio >= 1.0 or ratio[1] >= 1.0                 // (a) son iki kapanistan biri >= 1,00
+redB    = spx < spx200 and spx[1] < spx200[1]             // (b) S&P 2 kapanis ust uste 200 GHO alti
+redC    = s5fi < 50 and s5th < 60                         // (c) genislik
+isRed   = redA or redB or redC
+trigDef = ftdValid or spx10 > spx20                       // K9 disindaki butun kumeler
+trigNdx = ndx10 > ndx20                                   // tek basina yalniz K9 (K11 YESIL bekler)
+brakeOk = not brake or (ftdNew and spx > spx50)           // pilot freni (PLAN §2.4)
+condDef = not isRed and spx > spx200 and trigDef and brakeOk
+condK9  = not isRed and spx > spx200 and (trigDef or trigNdx) and brakeOk
+
+// Ardisik kapanis sayaclari: SARI icin 3 kapanis ust uste (PLAN §2.2; Kirmizi takim 1 #3)
+var int cntDef  = 0
+var int cntK9   = 0
+var int cntBoth = 0
+cntDef  := condDef ? cntDef + 1 : 0
+cntK9   := condK9 ? cntK9 + 1 : 0
+cntBoth := (spx10 > spx20 and ndx10 > ndx20) ? cntBoth + 1 : 0
+
+sariDef   = cntDef >= 3
+sariK9    = cntK9 >= 3
+nearZone  = spx / spx200 < 1.02                           // yakin bolge: en cok 1 acik pozisyon, isi <= %0,5
+greenTrig = (ftdValid and not ftdBroke) or cntBoth >= 10
+isGreen   = sariDef and spx > spx50 and ndx10 > ndx20 and ndx10 > ndx10[1] and ndx20 > ndx20[1] and ratio < 0.95 and s5fi >= 50 and greenTrig
+lvl       = isGreen ? 3 : sariDef ? 2 : isRed ? 0 : 1
+
+lvlCol = lvl == 3 ? color.green : lvl == 2 ? color.yellow : lvl == 1 ? color.orange : color.red
+plot(lvl, "Durum (0=KIRMIZI 1=TURUNCU 2=SARI 3=YESIL)", color=lvlCol, linewidth=3, style=plot.style_stepline)
+plot(ratio, "VIX/VIX3M", color=color.purple)
+hline(1.0, "VIX/VIX3M = 1,00", color=color.gray)
+hline(0.95, "VIX/VIX3M = 0,95", color=color.gray, linestyle=hline.style_dotted)
+alertcondition(lvl != lvl[1], "Rejim degisti", "ABD rejim durumu degisti; PLAN_ABD 2.2 tablosunu kontrol et")
+
+// ---------- Trend sablonu ve lider olcutleri (grafikteki hisse; PLAN §3.1-3.3) ----------
+grpS    = "Sablon ve kume"
+minDV   = input.float(20, "Min 50g dolar hacmi (mn $; 1m $ hesapta 50)", group=grpS)
+corrSym = input.symbol("AMEX:XLV", "Korelasyon olcutu (ETF ya da hisse)", group=grpS)
+
+c     = close
+s10   = ta.sma(c, 10)
+s20   = ta.sma(c, 20)
+s50   = ta.sma(c, 50)
+s150  = ta.sma(c, 150)
+s200  = ta.sma(c, 200)
+hi52  = ta.highest(high, 252)
+lo52  = ta.lowest(low, 252)
+tt    = c > s50 and s50 > s150 and s150 > s200 and s200 > s200[21] and c >= 1.3 * lo52 and c >= 0.75 * hi52
+rsLn  = c / spx
+rsRel = rsLn / ta.highest(rsLn, 252)
+dist  = (c / hi52 - 1) * 100
+adr20 = 100 * (ta.sma(high / low, 20) - 1)
+atr14 = ta.atr(14)
+dv50  = ta.sma(c * volume, 50) / 1e6
+r1m   = (c / c[21] - 1) * 100
+r3m   = (c / c[63] - 1) * 100
+ext   = r1m >= 25 or r3m >= 40                            // "uzamis": yalniz S2 beklenir
+okS1  = tt and rsRel >= 0.97 and dist >= -10 and dv50 >= minDV and adr20 >= 2 and not ext
+okS2  = tt and rsRel >= 0.95 and s10 > s20 and s20 > s50 and s20 > s20[5] and dv50 >= minDV and adr20 >= 2
+// Not: S2'nin "+%20 itki" ve S1'in baz/pivot sartlari grafikte elle kontrol edilir.
+oc    = request.security(corrSym, "D", close)
+corr  = ta.correlation(c / c[1] - 1, oc / oc[1] - 1, 60)
+
+// ---------- Emir hesaplayici (PLAN §3.2-3.4) ----------
+grpO    = "Emir hesaplayici"
+eqE     = input.float(50000, "E: ABD strateji sermayesi (USD)", group=grpO)
+riskPct = input.float(0.25, "Islem riski, E'nin %'si (Faz 1 = 0,25)", group=grpO)
+capPct  = input.float(7.5, "Tek pozisyon tavani, E'nin %'si (Faz 1-2 = 7,5)", group=grpO)
+pivot   = input.float(0.0, "Pivot ya da sinyal gunu tepesi (0 = kapali)", group=grpO)
+stopLvl = input.float(0.0, "Yapisal stop seviyesi", group=grpO)
+
+on     = pivot > 0 and stopLvl > 0 and stopLvl < pivot
+trig   = on ? math.max(pivot * 1.001, pivot + 0.05) : na
+lim    = on ? math.min(trig * 1.01, trig + 0.3 * atr14) : na
+distT  = on ? trig - stopLvl : na
+dAtr   = distT / atr14
+dPct   = distT / trig * 100
+stopOk = on and dAtr >= 1.0 and dAtr <= 2.0 and dPct <= 8.0
+budget = eqE * riskPct / 100
+qRisk  = on ? math.floor(budget / (lim - stopLvl)) : na
+qCap   = on ? math.floor(eqE * capPct / 100 / lim) : na
+qty    = on ? math.min(qRisk, qCap) : na
+gapR   = on ? qty * math.max(lim - stopLvl, 1.5 * atr14) : na
+gapOk  = on and gapR <= 1.25 * budget
+lotA   = on ? (lvl == 3 ? math.round(qty / 3) : math.round(qty / 2)) : na
+lotB   = on ? qty - lotA : na
+posPct = on ? qty * lim / eqE * 100 : na
+
+// ---------- Tablo ----------
+f2(x) => na(x) ? "-" : str.tostring(x, "#.##")
+f0(x) => na(x) ? "-" : str.tostring(x, "#")
+yn(b) => b ? "EVET" : "hayir"
+
+var table tb = table.new(position.top_right, 2, 26, border_width=1, frame_color=color.gray, frame_width=1)
+if barstate.islast
+    stName = lvl == 3 ? "YESIL" : lvl == 2 ? "SARI" : lvl == 1 ? "TURUNCU" : "KIRMIZI"
+    keys = array.from("Durum", "S&P / 200 GHO", "S&P 10>20 | NDX 10>20", "VIX/VIX3M dun | bugun", "S5FI | S5TH", "SARI sayaci (3 gerekir)", "SARI sayaci yalniz K9", "Pilot freni", "--- Hisse", "Trend sablonu TT", "RS / 52H max", "52H zirveye uzaklik %", "ADR%20 | ATR14", "50g $ hacim (mn)", "1A | 3A getiri %", "S1 on kosul | S2 lider", "Korelasyon 60g vs " + corrSym, "--- Emir", "Tetik | Limit", "Stop mesafesi ATR | %", "Adet (lot A / lot B)", "Pozisyon % E", "Gap-ayarli risk % E", "Uyari")
+    vals = array.from(stName + (lvl == 2 and nearZone ? " (yakin bolge: 1 pozisyon, isi<=%0,5)" : ""), f2(spx / spx200), yn(spx10 > spx20) + " | " + yn(trigNdx), f2(ratio[1]) + " | " + f2(ratio), f2(s5fi) + " | " + f2(s5th), str.tostring(cntDef), str.tostring(cntK9) + (sariK9 ? " (K9 SARI)" : ""), yn(brake), syminfo.ticker, yn(tt), f2(rsRel), f2(dist), f2(adr20) + " | " + f2(atr14), f2(dv50), f2(r1m) + " | " + f2(r3m) + (ext ? " UZAMIS" : ""), yn(okS1) + " | " + yn(okS2), f2(corr), on ? "acik" : "pivot ve stop gir", f2(trig) + " | " + f2(lim), f2(dAtr) + " | " + f2(dPct) + (on ? (stopOk ? " OK" : " ISLEM YOK") : ""), f0(qty) + " (" + f0(lotA) + " / " + f0(lotB) + ")", f2(posPct), f2(gapR / eqE * 100) + (on ? (gapOk ? " OK" : " ASIM") : ""), timeframe.isdaily ? "FTD, fren, kume izni elle" : "GUNLUK GRAFIK KULLAN")
+    for i = 0 to array.size(keys) - 1
+        table.cell(tb, 0, i, array.get(keys, i), text_size=size.small, text_halign=text.align_left)
+        table.cell(tb, 1, i, array.get(vals, i), text_size=size.small, text_halign=text.align_left)
+    table.cell_set_bgcolor(tb, 1, 0, lvlCol)
