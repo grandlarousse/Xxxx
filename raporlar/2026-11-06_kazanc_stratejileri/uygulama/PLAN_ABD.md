@@ -285,6 +285,13 @@ Okuma Cumartesi sabahı yapılır. SARI'nın 3 kapanış kuralı ve iki kapanı�
 | VIX/VIX3M ≥ 1,00 | KIRMIZI sürer | 10.11'den itibaren 4 kapanış < 1,00 olursa yine Cu 13.11 | Yukarıdaki satırlar gibi |
 | S&P ≤ 200 GHO (~7.327) | İkinci kapanış da altta olursa KIRMIZI (b) | S&P 200 GHO'nun üstüne dönmeli; sayım yeniden başlar | En erken 18.11 |
 
+> **Cuma 06.11 kapanışıyla okuma** (`tarama/abd_rejim_20261106.md`; VIX ve NDX resmi kapanışları hafta sonu teyit edilecek):
+> - **S&P:** 7.376,86 (+%0,31). Ralli denemesinin 1. günü 6.11, yani yukarıdaki tablonun 1. satırı geçerli.
+> - **S&P / 200 GHO:** 1,007, yakın bölge sürüyor. 10 < 20.
+> - **KIRMIZI devam ediyor:** 05.11'de VIX/VIX3M 1,10'du ve bu son iki kapanış içinde. Cuma gün ortası VIX 23,67'ydi.
+> - **NFP:** +165 bin (beklenti ~60 bin), işsizlik %4,1.
+> - **Takvim:** FTD en erken Ça 11.11. En erken SARI kapanışı Cu 13.11. En erken pilot Pt 16.11, 16:45–17:15.
+
 **Sonuç: Pazartesi hiçbir koşulda canlı giriş yok; bu hafta da yok.** Bu sonuç üç hakemin ortak hükmünden (HK §5; HU §6; HD §7) bir hafta daha temkinli. Nedeni KT1 #3'teki whipsaw bulgusu.
 
 ### 2.7 TradingView rejim göstergesi (Pine v5)

@@ -241,6 +241,12 @@ Ayrıntılı kurallar `uygulama/PLAN_ABD.md` dosyasında, akşam rutini `uygulam
 - KIRMIZI'yı tek başına VIX/VIX3M 1,10 (≥1,00) tetikliyor. Bu zayıf bir gösterge: 4.11'de VIX 16,61'di, terslik tek günlük bir sıçrama.
 - VIX düzelse de SARI tetiği yok: S&P ve Nasdaq'ta 10 günlük ortalama 20 günlüğün altında, dip teyit günü (FTD) yok. Hüküm bu yüzden geçerli.
 - Nasdaq düzeltmede (zirveden −%14,7). S&P 500 200 günlüğün ancak %0,4 üstünde.
+- **Cuma 06.11 kapanışından sonra:**
+  - S&P 7.376,86 (+%0,31), 200 günlüğün %0,7 üstünde. Nasdaq +%1,1.
+  - Ekim istihdamı +165 bin (beklenti ~60 bin), işsizlik %4,1.
+  - Ralli denemesinin 1. günü 06.11; dip teyit günü en erken Çarşamba 11.11.
+  - KIRMIZI sürüyor, çünkü 05.11'deki VIX/VIX3M 1,10 değeri son iki kapanışın içinde.
+  - Ayrıntı: `uygulama/tarama/abd_rejim_20261106.md`.
 
 Sarıya geçmek için şartların 3 kapanış üst üste sağlanması gerekiyor. Bu yüzden **Pazartesi canlı işlem yok; ilk canlı deneme en erken 16.11**, tek pozisyonla ve AI dışı bir kümeden.
 

@@ -6,6 +6,7 @@ _Ayrıntı ve gerekçeler: `PLAN_BIST.md`, `PLAN_ABD.md`. Rakamlar 05.11 kapanı
 
 | | BIST/VİOP | ABD |
 |---|---|---|
+| Cuma 06.11 | — | S&P 7.376,86 (+%0,31), 200 GHO'nun %0,7 üstünde, 10 < 20. Nasdaq +%1,1, NDX ~+%2. NFP +165 bin, işsizlik %4,1. Ralli denemesinin 1. günü 06.11, FTD en erken 11.11. Hâlâ KIRMIZI: 05.11'deki VIX/VIX3M 1,10 son iki kapanış içinde. Ayrıntı: `tarama/abd_rejim_20261106.md` |
 | Rejim | **KAPALI** (7 göstergenin 0'ı açık; Cuma 06.11 kapanışıyla da değişmedi). XU100 11.483, 5 günde +%6,7 ama 200 günlüğün %15,4, 50 günlüğün %9,1 altında. XBANK 16.398, 200 günlüğün (16.948) %3,2 altında; bankalar 126 günlük göreli güç zirvesinde. Net rezerv bir haftada −6,5 mlr $. | **KIRMIZI.** VIX/VIX3M 1,10. S&P ve Nasdaq'ta 10 günlük ortalama 20 günlüğün altında, dip teyit günü (FTD) yok. |
 | Pazartesi canlı işlem | **Yok** (çekirdek dışında) | **Yok** |
 | En erken ilk risk | Sinyal gelirse K1 (SAHOL↔AKBNK) ve K4 sondası. Rejim GEÇİŞ'e en erken 26.11'de dönebilir. | İlk pilot en erken **16.11, 16:45–17:15 TSİ**, tek pozisyon, %0,25 risk |
