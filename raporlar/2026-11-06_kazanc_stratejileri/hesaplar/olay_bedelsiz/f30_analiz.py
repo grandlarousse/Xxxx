@@ -97,10 +97,12 @@ def islem_ozet(T, by=None):
         kk = kk if isinstance(kk, tuple) else (kk,)
         a = E.ozet(g.bhar, g.giris); b = E.ozet(g.bhar_dol, g.giris)
         gd = g[g.bhar_dol.notna()]
+        gk = g[~g.kilitli_giris & g.bhar.notna()]; ck = E.ozet(gk.bhar, gk.giris)
         out.append(dict(zip(["islem"] + ([by] if by else []), kk)) | dict(
             N=a["N"], gun_med=g.gun.median(), kilitli_giris_pay=g.kilitli_giris.mean(),
             ham_ort=g.ham.mean(), ham_med=g.ham.median(), bhar_ort=a["ort"], bhar_med=a["med"], t=a["t"], isabet=a["isabet"],
             N_dol=b["N"], bhar_dol_ort=b["ort"], bhar_dol_med=b["med"], t_dol=b["t"], isabet_dol=b["isabet"],
             net_ham_dol_ort=(gd.ham_dol - COST).mean(), net_bhar_dol_ort=(gd.bhar_dol - COST).mean(), net_bhar_dol_med=(gd.bhar_dol - COST).median(),
-            p5=b["p5"], p95=b["p95"]))
+            p5=b["p5"], p95=b["p95"], N_kilitsiz=ck["N"], bhar_kilitsiz_ort=ck["ort"], bhar_kilitsiz_med=ck["med"], t_kilitsiz=ck["t"],
+            net_bhar_kilitsiz_ort=ck["ort"] - COST if pd.notna(ck["ort"]) else np.nan))
     return pd.DataFrame(out)

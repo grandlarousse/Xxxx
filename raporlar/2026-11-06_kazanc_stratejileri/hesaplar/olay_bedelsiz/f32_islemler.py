@@ -53,8 +53,11 @@ if __name__ == "__main__":
     TT, S, CT = main()
     F = dict(ham_ort=P2, ham_med=P2, bhar_ort=P2, bhar_med=P2, t=T, isabet=HP, bhar_dol_ort=P2, bhar_dol_med=P2, t_dol=T, isabet_dol=HP,
              net_ham_dol_ort=P2, net_bhar_dol_ort=P2, net_bhar_dol_med=P2, p5=P, p95=P, N=I, N_dol=I, kilitli_giris_pay=HP, gun_med=lambda v: f"{v:.0f}")
+    F.update(dict(N_kilitsiz=I, bhar_kilitsiz_ort=P2, bhar_kilitsiz_med=P2, t_kilitsiz=T, net_bhar_kilitsiz_ort=P2))
     cols = ["islem", "N", "gun_med", "kilitli_giris_pay", "ham_ort", "bhar_ort", "bhar_med", "t", "isabet", "N_dol", "bhar_dol_ort", "bhar_dol_med", "t_dol", "isabet_dol", "net_bhar_dol_ort", "p5", "p95"]
+    cols2 = ["islem", "N_kilitsiz", "bhar_kilitsiz_ort", "bhar_kilitsiz_med", "t_kilitsiz", "net_bhar_kilitsiz_ort"]
     s = "# Islem tablolari (otomatik)\n\n## Genel\n\n" + md(S["genel"], cols, F)
+    s += "\n## Kilitli girisler HARIC (t0 kapanisi tavan kilitli olaylar atildi)\n\n" + md(S["genel"], cols2, F)
     for by in ["oran_g", "boy_g", "donem"]:
         s += f"\n## {by}\n\n" + md(S[by], ["islem", by, "N", "bhar_dol_ort", "bhar_dol_med", "t_dol", "isabet_dol", "net_bhar_dol_ort"], F)
     s += "\n## Takvim-zamani portfoyu (XU100 fazlasi, dolabilir)\n\n" + md(CT, ["islem", "gun", "ort_poz", "gunluk_fazla", "t_nw", "gunluk_fazla_net", "t_nw_net", "yillik_fazla_net"],

@@ -11,14 +11,14 @@ UC = "https://www.isyatirim.com.tr/_layouts/15/Isyatirim.Website/Common/ChartDat
 S = requests.Session()
 COLS = {"HGDG_TARIH": "tarih", "HGDG_KAPANIS": "adj", "HG_KAPANIS": "c", "HG_MIN": "lo", "HG_MAX": "hi", "HG_AOF": "vwap",
         "HG_HACIM": "hacim_tl", "SERMAYE": "sermaye", "PD": "pd", "END_DEGER": "xu100", "HGDG_MIN": "adj_lo", "HGDG_MAX": "adj_hi"}
-def _tekil(kod, a, b):
-    for k in range(3):
+def _tekil(kod, a, b, tries=3):
+    for k in range(tries):
         try:
-            r = S.get(UT, params={"hisse": kod, "startdate": a.strftime("%d-%m-%Y"), "enddate": b.strftime("%d-%m-%Y")}, timeout=120)
+            r = S.get(UT, params={"hisse": kod, "startdate": a.strftime("%d-%m-%Y"), "enddate": b.strftime("%d-%m-%Y")}, timeout=75)
             if r.status_code == 200:
                 j = r.json()
                 if j.get("ok"): return pd.DataFrame(j.get("value") or [])
-        except Exception as e: print("err", kod, e, flush=True)
+        except Exception as e: print("err", kod, str(e)[:80], flush=True)
         time.sleep(3 * (k + 1))
     return None
 def tekil(kod, bas="2013-01-01", son="2026-11-06"):
@@ -26,10 +26,10 @@ def tekil(kod, bas="2013-01-01", son="2026-11-06"):
     if os.path.exists(p): return "cached"
     a, b = pd.Timestamp(bas), pd.Timestamp(son)
     df = _tekil(kod, a, b); time.sleep(0.8)
-    if df is None:  # yillik parcalara bol
-        parts = []
-        for y in range(a.year, b.year + 1):
-            x = _tekil(kod, max(a, pd.Timestamp(f"{y}-01-01")), min(b, pd.Timestamp(f"{y}-12-31"))); time.sleep(0.8)
+    if df is None:  # 3 parcaya bol (her parca 1 deneme; zaman asiminda uzun beklemeyi onler)
+        parts = []; edges = pd.date_range(a, b, periods=4)
+        for x0, x1 in zip(edges[:-1], edges[1:]):
+            x = _tekil(kod, x0, x1, tries=1); time.sleep(0.8)
             if x is not None and len(x): parts.append(x)
         df = pd.concat(parts) if parts else pd.DataFrame()
     if len(df) == 0:

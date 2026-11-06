@@ -129,9 +129,14 @@ def kur():
         if len(ba):
             z = ba.iloc[0]; r["bulten_bas_no"] = z.no
             r["bulten_bas_zaman"] = z.yayim_tsi if pd.notna(z.yayim_tsi) else z.tarih + pd.Timedelta(hours=18, minutes=30)
-        cands = [x for x in [r["p3_kap"], r.get("bulten_onay_zaman", pd.NaT)] if pd.notna(x)]
-        r["p3"] = min(cands) if cands else pd.NaT
-        r["p3_kaynak"] = ("bulten" if (pd.notna(r.get("bulten_onay_zaman", pd.NaT)) and r["p3"] == r.get("bulten_onay_zaman")) else "KAP") if cands else None
+        # P3: bulten esleşmisse bulten zamani; KAP onay bildirimi bultenden en fazla 3 gun once ise KAP (sirket erken duyurmus).
+        # KAP 'onay' bildirimi bultenden >3 gun onceyse farkli bir onaydir (esas sozlesme uygun gorusu vb.) -> kullanilmaz.
+        bz = r.get("bulten_onay_zaman", pd.NaT); kz = r["p3_kap"]
+        if pd.notna(bz):
+            if pd.notna(kz) and bz - pd.Timedelta(days=3) <= kz < bz: r["p3"], r["p3_kaynak"] = kz, "KAP (bultenden once)"
+            else: r["p3"], r["p3_kaynak"] = bz, "bulten"
+        elif pd.notna(kz): r["p3"], r["p3_kaynak"] = kz, "KAP"
+        else: r["p3"], r["p3_kaynak"] = pd.NaT, None
         cands = [x for x in [r["p2_kap"], r.get("bulten_bas_zaman", pd.NaT)] if pd.notna(x)]
         r["p2"] = min(cands) if cands else pd.NaT
         r["idx_ilk"] = int(mb_sure.disclosureIndex.iloc[0]) if len(mb_sure) else None
