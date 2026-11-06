@@ -48,3 +48,16 @@ Klasör: `2026-11-05_jung_kitaplari/` (giriş için klasördeki `README.md`)
 
 - `ajan_ciktilari/`: Alt ajanların çıktıları. 50 kitap raporu (her birinde yazar–hakem tartışma eki), 12 küme sentezi, envanter denetimi, üç bakışlı tartışma ve "Ajanların Ortak Raporu".
 - `ana_ajan_analizi/`: Ana ajanın ayrı analizi. Ajan bulgularının denetimi ve güven haritası, külliyat haritası ve 50 eserlik tablo, tartışmanın hakemliği ve Türkçe okuma yolları, düzeltmeler ve açık sorular.
+
+---
+
+# Borsa İstanbul ve ABD'de kazananlar nasıl kazanıyor, sen nasıl kazanırsın + 9 Kasım uygulama planları (06.11.2026)
+
+Klasör: `2026-11-06_kazanc_stratejileri/`
+
+- `RAPOR.md`: İki sorunun cevabı. Aşılması gereken çıta (vergi sonrası; reel faiz ~%5–8, nominal net ~%31–38), BIST'te kim nasıl kazanıyor (dört katman, 2018–26 rejim dönemleri, swing vadesinde ne işe yarıyor ve ne yaramıyor), ABD'de kim nasıl kazanıyor (piyasa yapısı, bireysel taban oranlar, doğrulanmış şampiyonlar, anomali sönümü), ortak sonuç, düzeltmeler ve sınırlar.
+- `uygulama/PLAN_BIST.md`, `uygulama/PLAN_ABD.md`: 9.11.2026'dan itibaren uygulanacak ayrı planlar. Her plan üç bağımsız taslaktan çıktı, üç hakemce puanlandı, iki çürütme incelemesinden geçti. İçlerinde rejim anahtarı, kollar, risk sınırları, emir tipleri, gün gün takvim, öldürme kriterleri ve beklenti aralıkları var.
+- `uygulama/*_GUNLUK_RUTIN.md`: Akşam rutinleri. `uygulama/kod/bist_sinyal.py`: günlük BIST sinyalleri (resmi VİOP bülteniyle). `uygulama/kod/abd_rejim_ve_sablon.pine`: ABD rejim ve trend şablonu göstergesi (TradingView'da derlenmedi). `uygulama/tarama/`: güncel çıktılar.
+- `ajanlar/`: 16 araştırma raporu (BIST, ABD, olay çalışmaları, tematik dalgalar, profesyonel pratik, makro/çıta, taban oranlar). `dogrulama/`: bağımsız doğrulama ve denetim raporları; araştırma raporlarıyla çeliştiklerinde bunlar geçerli. `hesaplar/`: backtest ve olay çalışması kodları (ham veri repoda yok).
+
+Yatırım tavsiyesi değildir.
