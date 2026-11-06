@@ -1,6 +1,6 @@
-# BIST günlük sinyal — 2026-11-06 kapanışı (üretim 2026-11-06 18:32 TSİ)
+# BIST günlük sinyal — 2026-11-06 kapanışı (üretim 2026-11-06 20:51 TSİ)
 
-**Özet 2026-11-06:** Rejim **KAPALI** (0/7 açık) | KRİZ: **yok** | K4 nitelikli: **0** | K1 z **−0,54**, K2 z **1,56** | XU030 F_XU0301226 ima basit **%29,3** / bileşik %33,1 (eşik %35,6) → **kapalı** | bülten 2026-11-05 (BAYAT: spot kesimi 2026-11-06)
+**Özet 2026-11-06:** Rejim **KAPALI** (0/7 açık) | KRİZ: **yok** | K4 nitelikli: **0** | K1 z **−0,54**, K2 z **1,56** | XU030 F_XU0301226 ima basit **%27,3** / bileşik %30,7 (eşik %35,6) → **kapalı** | bülten 2026-11-06
 
 Kaynak: İş Yatırım ChartData/HisseTekil (varsayılan başlık), Borsa İstanbul VİOP bülteni, KAP endeks listesi (KAP). Makro: VARSAYILAN (PLAN_BIST.md 05.11.2026 degerleri) - guncelleyin. Bulunamayan kod: —. Bilgi amaçlıdır.
 
@@ -21,10 +21,10 @@ Kaynak: İş Yatırım ChartData/HisseTekil (varsayılan başlık), Borsa İstan
 | Tetik | Değer | Tetiklendi |
 |---|---|---|
 | a XU100 5 gün ≤ −%8 | +%6,7 | — |
-| b USDTRY 10g yıllık > %35 | +%26,4 | — |
+| b USDTRY 10g yıllık > %35 | +%26,2 | — |
 | c CDS > 300 (teyitli) | 248 | — |
 | d net rezerv 2 hafta ≤ −5 mlr $ ya da < 0 | −6,5 mlr $ (haftalık değişim) | — |
-| e F_USDTRY ön ay ima > politika + 5 | +%32,3 | — |
+| e F_USDTRY ön ay ima > politika + 5 | +%29,9 | — |
 | f MSCI danışma | hayır | — |
 
 **K6 carry kapısı:** KAPALI — 1 net rezerv 2 hf değişim ≥ −2 ve seviye ≥ 20: ✗; 2 yabancı DİBS haftalık ≥ −500 mn $: ✗; 3 F_USDTRY ön ay ima ≤ politika + 5 (CDS yerine): ✓; 4 USDTRY 10g yıllık ≤ %30: ✓; 5 brüt rezerv ≥ 160: ✗; 6 Kural 0: ✗
@@ -88,43 +88,43 @@ Nakit 3 ay (TLREF): +%9,4. İlk 3: RAFİNERİ, HOLDİNG, KOZA_ALTIN. Filtre (3 a
 
 K1 tam tetikler (diğer bacak sabit; SAHOL 87,30, AKBNK 68,65): z=+2 → SAHOL ≥ 93,06 ya da AKBNK ≤ 64,40; z=−2 → SAHOL ≤ 84,09 ya da AKBNK ≥ 71,27.
 
-## 5. VİOP resmî bülten (uzlaşma fiyatı; bülten tarihi 2026-11-05 (BAYAT: spot kesimi 2026-11-06))
+## 5. VİOP resmî bülten (uzlaşma fiyatı; bülten tarihi 2026-11-06)
 İma basit oran = (F_uzlaşma / S_kapanış − 1) × 365 / gün; spot, bültenin kendi tarihindeki kapanış. Eşik = 32 gün mevduat neti (%32,6) + 3 puan.
 
 | Kontrat | Vade | Gün | Uzlaşma | XU030 | İma basit | İma bileşik | TLREF | Eşik | Nakit-taşıma | Hacim mn TL | Açık poz. |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| F_XU0301226 | 2026-12-31 | 56 | 14.734 | 14.101 | %29,3 | %33,1 | %35,8 | %35,6 | kapalı | 51.179 | 446.504 |
-| F_XU0300227 | 2027-02-26 | 113 | 15.405 | 14.101 | %29,9 | %33,1 | %35,8 | %35,6 | kapalı | 598 | 4.499 |
-| F_XU0300427 | 2027-04-30 | 176 | 16.116 | 14.101 | %29,6 | %31,9 | %35,8 | %35,6 | kapalı | 14 | 431 |
+| F_XU0301226 | 2026-12-31 | 55 | 14.878 | 14.290 | %27,3 | %30,7 | %35,8 | %35,6 | kapalı | 42.417 | 440.168 |
+| F_XU0300227 | 2027-02-26 | 112 | 15.535 | 14.290 | %28,4 | %31,3 | %35,8 | %35,6 | kapalı | 502 | 4.552 |
+| F_XU0300427 | 2027-04-30 | 175 | 16.132 | 14.290 | %26,9 | %28,8 | %35,8 | %35,6 | kapalı | 14 | 492 |
 
-F_USDTRY ön ay F_USDTRY1126: uzlaşma 51,02, spot 50,05 (ChartData kapanışı; saat farkı ±1–2 puan), 25 gün, USD faizi %3,9 varsayımıyla ima TL basit **%32,3** (politika + 5 = %41).
+F_USDTRY ön ay F_USDTRY1126: uzlaşma 51,01, spot 50,15 (ChartData kapanışı; saat farkı ±1–2 puan), 24 gün, USD faizi %3,9 varsayımıyla ima TL basit **%29,9** (politika + 5 = %41).
 
 Pay vadelileri (long için vadeli kuralı §1.5: mevduat neti − ima ≥ 3 puan, açık poz. ≥ 20.000, hacim ≥ 100 mn TL, Kasım değil):
 | Kontrat | Gün | Uzlaşma | Spot | İma basit | Mevduat neti − ima (puan) | Hacim mn TL | Açık poz. | Kural sağlanıyor |
 |---|---|---|---|---|---|---|---|---|
-| F_SAHOL1126 | 25 | 86,72 | 85,10 | %27,8 | +4,8 | 1.321 | 498.361 | H |
-| F_SAHOL1226 | 56 | 89,29 | 85,10 | %32,1 | +0,5 | 22 | 10.750 | H |
-| F_AKBNK1126 | 25 | 68,41 | 67,20 | %26,3 | +6,3 | 3.408 | 753.238 | H |
-| F_AKBNK1226 | 56 | 70,35 | 67,20 | %30,6 | +2,1 | 118 | 16.098 | H |
-| F_GARAN1126 | 25 | 144,45 | 142,00 | %25,2 | +7,4 | 1.836 | 160.641 | H |
-| F_GARAN1226 | 56 | 147,85 | 142,00 | %26,9 | +5,8 | 51 | 3.431 | H |
-| F_YKBNK1126 | 25 | 37,22 | 36,52 | %28,0 | +4,6 | 3.928 | 1.369.867 | H |
-| F_YKBNK1226 | 56 | 38,24 | 36,52 | %30,7 | +1,9 | 59 | 31.925 | H |
-| F_KCHOL1126 | 25 | 206,05 | 202,30 | %27,1 | +5,5 | 1.772 | 153.025 | H |
-| F_KCHOL1226 | 56 | 211,60 | 202,30 | %30,0 | +2,6 | 30 | 6.776 | H |
-| F_ENJSA1126 | 25 | 118,45 | 119,30 | −%10,4 | +43,0 | 132 | 14.463 | H |
-| F_ENJSA1226 | 56 | 121,10 | 119,30 | %9,8 | +22,8 | 4 | 1.871 | H |
-| F_TUPRS1126 | 25 | 338,55 | 331,75 | %29,9 | +2,7 | 2.178 | 95.648 | H |
-| F_TUPRS1226 | 56 | 348,10 | 331,75 | %32,1 | +0,5 | 99 | 2.893 | H |
-| F_THYAO1126 | 25 | 302,20 | 297,00 | %25,6 | +7,0 | 5.626 | 293.266 | H |
-| F_THYAO1226 | 56 | 310,85 | 297,00 | %30,4 | +2,2 | 312 | 8.156 | H |
-| F_BIMAS1126 | 25 | 376,55 | 369,25 | %28,9 | +3,7 | 709 | 43.446 | H |
-| F_BIMAS1226 | 56 | 385,50 | 369,25 | %28,7 | +3,9 | 38 | 7.912 | H |
+| F_SAHOL1126 | 24 | 88,73 | 87,30 | %24,9 | +7,7 | 1.136 | 503.663 | H |
+| F_SAHOL1226 | 55 | 91,41 | 87,30 | %31,2 | +1,4 | 117 | 15.617 | H |
+| F_AKBNK1126 | 24 | 69,77 | 68,65 | %24,8 | +7,8 | 3.441 | 742.791 | H |
+| F_AKBNK1226 | 55 | 71,77 | 68,65 | %30,2 | +2,4 | 125 | 17.444 | H |
+| F_GARAN1126 | 24 | 146,65 | 144,30 | %24,8 | +7,8 | 2.126 | 153.078 | H |
+| F_GARAN1226 | 55 | 150,45 | 144,30 | %28,3 | +4,3 | 105 | 4.284 | H |
+| F_YKBNK1126 | 24 | 37,87 | 37,24 | %25,7 | +6,9 | 3.463 | 1.374.027 | H |
+| F_YKBNK1226 | 55 | 38,93 | 37,24 | %30,1 | +2,5 | 67 | 30.730 | H |
+| F_KCHOL1126 | 24 | 209,75 | 206,10 | %26,9 | +5,7 | 2.140 | 156.004 | H |
+| F_KCHOL1226 | 55 | 215,70 | 206,10 | %30,9 | +1,7 | 57 | 7.014 | H |
+| F_ENJSA1126 | 24 | 121,50 | 122,00 | −%6,2 | +38,8 | 187 | 16.977 | H |
+| F_ENJSA1226 | 55 | 124,35 | 122,00 | %12,8 | +19,8 | 12 | 2.210 | H |
+| F_TUPRS1126 | 24 | 344,55 | 337,50 | %31,8 | +0,8 | 2.168 | 94.540 | H |
+| F_TUPRS1226 | 55 | 354,65 | 337,50 | %33,7 | -1,1 | 106 | 3.403 | H |
+| F_THYAO1126 | 24 | 304,15 | 299,25 | %24,9 | +7,7 | 3.672 | 298.578 | H |
+| F_THYAO1226 | 55 | 312,90 | 299,25 | %30,3 | +2,3 | 268 | 10.121 | H |
+| F_BIMAS1126 | 24 | 377,15 | 371,75 | %22,1 | +10,5 | 759 | 44.064 | H |
+| F_BIMAS1226 | 55 | 386,25 | 371,75 | %25,9 | +6,7 | 51 | 8.426 | H |
 
 ## 6. Ertesi gün emir özeti
 - KRİZ yok.
 - K4: emir yok.
 - K1: sinyal yok. K2: sinyal yok.
-- XU030 nakit-taşıma: kapalı; F_USDTRY ön ay ima %32,3 (KRİZ e eşiği %41); K6 kapısı KAPALI.
+- XU030 nakit-taşıma: kapalı; F_USDTRY ön ay ima %29,9 (KRİZ e eşiği %41); K6 kapısı KAPALI.
 - Takvim kısıtları (PLAN §3.10 A1–A10), K3/K3b temettü takvimi ve bedelsiz pencereleri elle kontrol edilir; bu betik KAP'ı taramaz.
 - Emir limitleri (PLAN §3, §6.2): alış min(plan limiti; P_son × 1,03); risk azaltan satış max(taban; P_son × 0,97); 18:01–18:05.

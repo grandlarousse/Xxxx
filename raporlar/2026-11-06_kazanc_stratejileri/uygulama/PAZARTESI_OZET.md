@@ -31,7 +31,12 @@ _Ayrıntı ve gerekçeler: `PLAN_BIST.md`, `PLAN_ABD.md`. Rakamlar 05.11 kapanı
 
    - Aynı kümede oldukları için ENERY, AHGAZ ve ENJSA'dan en çok bir pozisyon açılır.
    - KAPALI rejimde K4'te en çok 2 sonda açılır, %0,25 riskle.
-   - XU030 Aralık vadelisinin ima faizi %29,3. Bu, nakit-taşıma eşiğinin (%35,6) altında, yani kol kapalı. 06.11 VİOP bülteni 20:45 TSİ sonrası çıkınca yenilenir.
+   - 06.11 VİOP bülteni (resmi uzlaşma):
+     - F_XU0301226 14.878, XU030 spot 14.290. İma basit faiz %27,3 (bileşik %30,7), 05.11'de %29,3 idi.
+     - Nakit-taşıma eşiği %35,6 olduğu için bu kol kapalı.
+     - Vadeli spota göre 55 günde ~%1,3 ucuz. Rejim açılırsa endeks long'unu vadeliyle kurmak spottan biraz ucuz.
+   - F_USDTRY1126 ima faizi %29,9 (KRİZ eşiği %41).
+   - K6 carry kapısı kapalı.
 4. Dışlama listesini emir ekranında "yasak" yap: fon tasfiyesi baskısındaki hisseler ve SPK'nın suç duyurusunda bulunduğu 13 hisse (`PLAN_BIST.md` §4.2).
 
 **ABD hesabı:**

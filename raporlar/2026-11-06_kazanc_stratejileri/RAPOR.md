@@ -100,7 +100,7 @@ Bireyin erişebildiği meşru büyük kazançlar 2025–26'da hisse seçiminden 
 
 ### 1.5 Kazananların BIST'teki gerçek formülü
 
-1. **Çekirdek çıtada dursun.** Paranın çoğu net ~%31–38 TL'de. En verimli araç vergiye göre seçilir: banka PPF'si, mevduat, DİBS ya da XU030 nakit-taşıma (spot long + vadeli short; iki bacak da %0 stopaj, ima edilen basit faiz ~%29,3; bugün kapalı, açılış eşiği %35,6).
+1. **Çekirdek çıtada dursun.** Paranın çoğu net ~%31–38 TL'de. En verimli araç vergiye göre seçilir: banka PPF'si, mevduat, DİBS ya da XU030 nakit-taşıma (spot long + vadeli short; iki bacak da %0 stopaj, ima edilen basit faiz 05.11'de ~%29,3, 06.11 bülteninde %27,3; kapalı, açılış eşiği %35,6).
 2. **Risk sermayesi rejim döndüğünde kümeye yoğunlaşsın.** Tetikler §2'deki rejim anahtarıdır: XU100'ün 50 ve 200 günlük ortalamaların üstüne dönmesi, swap hariç net rezervin 3 hafta üst üste artması, 2 ay üst üste aylık TÜFE <%2, CDS <230 ve düşüyor, XBANK 200 günlüğünün üstünde. Yabancı alımı tetik değil, fiyatı izliyor. Faiz indirimi bankalar için alım tetiği değil, uyarı: indirimden sonraki 63 günde bankalar 6 döngünün 6'sında geride kaldı; sürprizsiz indirimden sonra bankalarda yarım boy. Araç kaldıraç değil, rejimle büyüyen boy: kırılım motoru tam boy ve endeks/küme kolu; kredili işlem hiç yok, endeks kolu en çok 1x, AÇIK'ta net endeks betası ≤ +%40.
 3. **Rejim kapalıyken uydular.** Çiftler, temettü öncesi spot, KAP teyitli özel durumlar (ZPAT, satma hakkı). Kırılımları likit ilk 75 hissede (VİOP-47 öncelikli, diğerleri 0,75 boyla), fon tasfiyesi baskısı taşımayanlarda, küçük boyutla dene.
 4. **Pump ve tasfiye baskısındaki hisselerden uzak dur.** Fon payı/serbest dolaşım oranı %20'nin üstünde olanlar ve SPK suç duyurusu yapılan 13 hisse. Liste uygulama planında.

@@ -160,6 +160,25 @@ Makro eşikler 4 tarihî örnekten türetilmiş öznel eşikler; hayatta kalma v
 
 ### 2.3 Bugün ne diyor (05.11)
 
+> **Cuma 06.11 kapanışı ve 06.11 VİOP bülteniyle güncelleme** (`tarama/bist_sinyal_20261106.md`).
+> - **Rejim:** Yine KAPALI (0/7), KRİZ yok.
+> - **XU100:** 11.483. 5 günlük getiri +%6,7. SMA50 12.630 (−%9,1), SMA200 13.566 (−%15,4).
+> - **XBANK:** 16.398, SMA200 16.948. Banka kümesi 126 günlük göreli güç zirvesinde.
+> - **XU030 Aralık vadelisi:** İma basit faiz %27,3, bileşik %30,7 (uzlaşma 14.878, spot 14.290). Nakit-taşıma kapalı.
+> - **F_USDTRY1126:** İma faizi %29,9.
+> - **Çiftler:** K1 z −0,54, K2 z 1,56; sinyal yok.
+> - **K4 kırılım:** Nitelikli hisse yok. Bekleme listesi (tetik / 06.11 kapanışı):
+>   - ENERY 14,60 / 14,05
+>   - AHGAZ 48,70 / 46,82
+>   - ENJSA 127,00 / 122,00
+>   - KCHOL 225,50 / 206,10
+>   - RYSAS 30,28 / 27,34
+> - **K1 tam tetikler** (öbür bacak sabitken):
+>   - z=+2: SAHOL ≥ 93,06 ya da AKBNK ≤ 64,40
+>   - z=−2: SAHOL ≤ 84,09 ya da AKBNK ≥ 71,27
+>
+> Aşağıdaki 05.11 metni gerekçe olarak duruyor; güncel sayılar bu kutuda.
+
 **KAPALI: 7 göstergenin 0'ı açık.** İzinler:
 - Mevduat + PPF ≥ %85 (spot uydu ≤ %15); VİOP başlangıç teminatı ≤ L1 (§1.3); toplam açık risk ≤ %2,5; stres ≤ %6.
 - **KRİZ yakın tetiği:** Swap hariç net rezerv son hafta −6,5 mlr $. 12.11 14:30 verisi bir hafta daha ≤ −5 mlr $ gösterirse (d) tetiklenir ([TM] §4.3: "bu hızla 4 haftada sıfır").
