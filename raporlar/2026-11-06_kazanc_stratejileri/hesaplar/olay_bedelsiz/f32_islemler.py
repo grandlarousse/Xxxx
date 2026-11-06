@@ -32,7 +32,8 @@ def main():
         Tt = A.islem(M, Hh, ad, safe(gf), safe(cf)); Tt = Tt[Tt.gun > 0]; allT.append(Tt)
     TT = pd.concat(allT, ignore_index=True)
     TT["oran_g"] = TT.oran.map(A.oran_grup)
-    TT["boy_g"] = pd.cut(TT.pd_yuzdelik, [0, 1/3, 2/3, 1.0001], labels=["kucuk", "orta", "buyuk"]).astype(str)
+    q = Hh.pd_rel.quantile([1/3, 2/3]).values
+    TT["boy_g"] = pd.cut(TT.pd_rel, [-np.inf, q[0], q[1], np.inf], labels=["kucuk", "orta", "buyuk"]).astype(str)
     TT["donem"] = np.where(TT.yil >= 2024, "2024-26", np.where(TT.yil >= 2020, "2020-23", "2015-19"))
     TT.to_pickle(f"{OUT}/TT.pkl")
     S = {"genel": A.islem_ozet(TT)}
@@ -41,10 +42,10 @@ def main():
     # takvim-zamani portfoyu (dolabilir giris/cikis)
     ct = []
     for ad, g in TT.groupby("islem", sort=False):
-        tr = [(r.kod, int(r.jg), int(r.j_out)) for r in g.itertuples() if pd.notna(r.jg) and r.jg < r.j_out]
+        tr = [(r.kod, int(r.jg), int(r.jc)) for r in g.itertuples() if pd.notna(r.jg) and pd.notna(r.jc) and r.jg < r.jc]
         z = E.takvim_portfoy(M, tr); z["islem"] = ad; ct.append(z)
         for per, lo, hi in [("2024-26", "2024-01-01", "2026-12-31")]:
-            tr2 = [(r.kod, int(r.jg), int(r.j_out)) for r in g.itertuples() if pd.notna(r.jg) and r.jg < r.j_out and str(r.giris) >= lo]
+            tr2 = [(r.kod, int(r.jg), int(r.jc)) for r in g.itertuples() if pd.notna(r.jg) and pd.notna(r.jc) and r.jg < r.jc and str(r.giris) >= lo]
             z = E.takvim_portfoy(M, tr2); z["islem"] = ad + " [" + per + "]"; ct.append(z)
     CT = pd.DataFrame(ct); CT.to_csv(f"{OUT}/takvim_portfoy.csv", index=False)
     return TT, S, CT

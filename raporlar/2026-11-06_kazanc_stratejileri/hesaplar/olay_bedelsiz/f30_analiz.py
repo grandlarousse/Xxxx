@@ -27,6 +27,8 @@ def hazirla(M, ev):
         r["al"], r["be"], r["nest"] = E.beta(M, k, jref)
         pdr = M["PDR"][k].iloc[max(0, jref - 1)]; pdv = M["PD"][k].iloc[max(0, jref - 1)]
         r["pd_yuzdelik"] = pdr; r["pd_tl"] = pdv
+        xu = (1 + M["rm"].fillna(0)).cumprod().iloc[max(0, jref - 1)]
+        r["pd_rel"] = np.log(pdv / xu) if pd.notna(pdv) and pdv > 0 else np.nan   # enflasyondan arindirilmis goreli buyukluk (XU100 seviyesine gore)
         # anormal hacim (TL): [-5,-1] ortalamasi ve t0 / [-120,-21] medyani  (P1 ve hak icin)
         for s in ["p1", "hak"]:
             j0 = r["j_" + s]
@@ -49,7 +51,7 @@ def car_tablosu(M, H):
                                  car=E.car(M, h.kod, j0, a, b), car_mm=E.car(M, h.kod, j0, a, b, h.al, h.be, "mm"),
                                  car_b=E.car(M, h.kod, j0, a, b, 0.0, h.be, "mm")))
     C = pd.DataFrame(recs)
-    return C.merge(H[["i", "oran", "tip", "yil", "pd_yuzdelik"]], on="i", how="left")
+    return C.merge(H[["i", "oran", "tip", "yil", "pd_yuzdelik", "pd_rel"]], on="i", how="left")
 def tablo(C, by=None, col="car"):
     out = []
     keys = ["asama", "pencere", "a", "b"] + ([by] if by else [])
@@ -73,16 +75,21 @@ def islem(M, H, ad, giris, cikis, maxgec=10):
         jc0 = cikis(h, j)
         if jc0 is None or pd.isna(jc0): continue
         jc0 = int(jc0)
-        # (a) kilit yok sayilarak (teorik) ; (b) kilitli girisler atilir ; (c) gecikmeli giris
+        # (a) kilit yok sayilarak (teorik) ; (b) dolabilir: tavan kilitli giris ilk kilitsiz kapanisa, cikis kurali GERCEK girise gore yeniden hesaplanir
+        #     (olay-tarihine bagli cikislar degismez), taban kilitli cikis ilk kilitsiz kapanisa kaydirilir
         ham_a, xu_a = E.bhar(M, h.kod, j, jc0)
-        if jg is not None and jg < jc0:
-            jc, gc = E.dolabilir_cikis(M, h.kod, jc0, maxgec)
-            ham_c, xu_c = E.bhar(M, h.kod, jg, jc if jc is not None else jc0)
-        else: ham_c = xu_c = np.nan; gec = None
+        jc = None
+        if jg is not None:
+            jc1 = cikis(h, jg)
+            if jc1 is not None and not pd.isna(jc1) and int(jc1) > jg:
+                jc, gc = E.dolabilir_cikis(M, h.kod, int(jc1), maxgec)
+                if jc is None: jc = int(jc1)
+        if jc is not None: ham_c, xu_c = E.bhar(M, h.kod, jg, jc)
+        else: ham_c = xu_c = np.nan
         rec.append(dict(islem=ad, i=h.i, kod=h.kod, giris=M["cal"][j], gun=jc0 - j, kilitli_giris=kil0, gecikme=gec,
                         ham=ham_a, bhar=ham_a - xu_a if pd.notna(ham_a) else np.nan,
-                        ham_dol=ham_c, bhar_dol=ham_c - xu_c if pd.notna(ham_c) else np.nan, oran=h.oran, yil=h.yil, pd_yuzdelik=h.pd_yuzdelik,
-                        j_in=j, j_out=jc0, jg=jg))
+                        ham_dol=ham_c, bhar_dol=ham_c - xu_c if pd.notna(ham_c) else np.nan, oran=h.oran, yil=h.yil, pd_yuzdelik=h.pd_yuzdelik, pd_rel=h.pd_rel,
+                        j_in=j, j_out=jc0, jg=jg if jc is not None else None, jc=jc))
     return pd.DataFrame(rec)
 def islem_ozet(T, by=None):
     out = []

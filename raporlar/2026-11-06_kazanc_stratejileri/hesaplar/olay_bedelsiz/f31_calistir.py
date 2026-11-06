@@ -19,7 +19,8 @@ def main():
     H = A.hazirla(M, ev); H.to_pickle(f"{OUT}/H.pkl")
     C = A.car_tablosu(M, H); C.to_pickle(f"{OUT}/C.pkl")
     C["oran_g"] = C.oran.map(A.oran_grup)
-    C["boy_g"] = pd.cut(C.pd_yuzdelik, [0, 1/3, 2/3, 1.0001], labels=["kucuk", "orta", "buyuk"])
+    q = C.drop_duplicates("i").pd_rel.quantile([1/3, 2/3]).values
+    C["boy_g"] = pd.cut(C.pd_rel, [-np.inf, q[0], q[1], np.inf], labels=["kucuk", "orta", "buyuk"])
     C["donem"] = np.where(C.yil >= 2024, "2024-26", np.where(C.yil >= 2020, "2020-23", "2015-19"))
     C["kilit"] = np.where(C.t0_tavan, "t0 tavan kilitli", "t0 kilitsiz")
     res = {}
