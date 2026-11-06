@@ -130,7 +130,6 @@ for i, k in enumerate(kitaplar):
       <header class="kitap-bas">
         <p class="ust-etiket">Kitap {k['no']} / {len(kitaplar):02d} · yaklaşık {k['dakika']} dk</p>
         <h1>{html.escape(k['baslik'])}</h1>
-        <p class="kunye">{html.escape(k['kunye'])}</p>
         <details class="icindekiler"><summary>Bu özetin bölümleri</summary><ol>{icindekiler}</ol></details>
       </header>
       <div class="metin">{k['html']}</div>
@@ -202,6 +201,7 @@ h1, h2, h3 { font-family: var(--font-baslik); line-height: 1.2; text-wrap: balan
 .kart-baslik { font-family: var(--font-baslik); font-weight: 700; font-size: 1.15rem; line-height: 1.3; }
 .kart-tez { font-size: 0.95rem; color: var(--soluk); line-height: 1.55; }
 .kart-meta { font-family: var(--font-arac); font-size: 0.8rem; color: var(--soluk); letter-spacing: 0.02em; }
+.kitap { scroll-margin-top: 5rem; }
 .kitap-bas { padding-top: 2rem; border-bottom: 1px solid var(--cizgi); padding-bottom: 1.2rem; }
 .ust-etiket { font-family: var(--font-arac); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; color: var(--vurgu); margin: 0; }
 .kitap-bas h1 { font-size: clamp(1.7rem, 5vw, 2.3rem); margin: 0.4rem 0 0.6rem; }
@@ -264,7 +264,7 @@ hr { border: 0; border-top: 1px solid var(--cizgi); margin: 2rem 0; }
     ana.hidden = true;
     kitaplar.forEach(function (a) { a.hidden = (a !== hedef); });
     yer.textContent = hedef.querySelector('h1').textContent;
-    if (alt) { alt.scrollIntoView(); } else { window.scrollTo(0, 0); }
+    if (alt) { alt.scrollIntoView(); } else { window.scrollTo({ top: 0, behavior: 'instant' }); }
   }
   // içindekiler bağlantıları: kitabı aç ve ilgili başlığa kaydır
   document.addEventListener('click', function (e) {

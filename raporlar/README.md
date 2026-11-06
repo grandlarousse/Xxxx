@@ -48,3 +48,13 @@ Klasör: `2026-11-05_jung_kitaplari/` (giriş için klasördeki `README.md`)
 
 - `ajan_ciktilari/`: Alt ajanların çıktıları. 50 kitap raporu (her birinde yazar–hakem tartışma eki), 12 küme sentezi, envanter denetimi, üç bakışlı tartışma ve "Ajanların Ortak Raporu".
 - `ana_ajan_analizi/`: Ana ajanın ayrı analizi. Ajan bulgularının denetimi ve güven haritası, külliyat haritası ve 50 eserlik tablo, tartışmanın hakemliği ve Türkçe okuma yolları, düzeltmeler ve açık sorular.
+
+---
+
+# Yaranma ve Ret Kitaplığı: on psikoloji kitabının özeti (06.11.2026)
+
+Klasör: `2026-11-06_psikoloji_kitaplari/` (giriş için klasördeki `README.md`)
+
+- `yaranma_ve_ret_kitapligi.html`: Okuma sayfası (claude.ai'de de yayımlandı).
+- `00_okuma_haritasi.md`: Sorgu → kitap haritası, okuma sırası, elenenler.
+- `kitaplar/`: On ayrıntılı özet; her birinin sonunda hakem notu var.
