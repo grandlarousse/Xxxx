@@ -6,7 +6,7 @@ _Ayrıntı ve gerekçeler: `PLAN_BIST.md`, `PLAN_ABD.md`. Rakamlar 05.11 kapanı
 
 | | BIST/VİOP | ABD |
 |---|---|---|
-| Rejim | **KAPALI** (7 göstergenin 0'ı açık). XU100 11.333, 200 günlük ortalamanın %16,5 altında. Net rezerv bir haftada −6,5 mlr $. | **KIRMIZI.** VIX/VIX3M 1,10. S&P ve Nasdaq'ta 10 günlük ortalama 20 günlüğün altında, dip teyit günü (FTD) yok. |
+| Rejim | **KAPALI** (7 göstergenin 0'ı açık; Cuma 06.11 kapanışıyla da değişmedi). XU100 11.483, 5 günde +%6,7 ama 200 günlüğün %15,4, 50 günlüğün %9,1 altında. XBANK 16.398, 200 günlüğün (16.948) %3,2 altında; bankalar 126 günlük göreli güç zirvesinde. Net rezerv bir haftada −6,5 mlr $. | **KIRMIZI.** VIX/VIX3M 1,10. S&P ve Nasdaq'ta 10 günlük ortalama 20 günlüğün altında, dip teyit günü (FTD) yok. |
 | Pazartesi canlı işlem | **Yok** (çekirdek dışında) | **Yok** |
 | En erken ilk risk | Sinyal gelirse K1 (SAHOL↔AKBNK) ve K4 sondası. Rejim GEÇİŞ'e en erken 26.11'de dönebilir. | İlk pilot en erken **16.11, 16:45–17:15 TSİ**, tek pozisyon, %0,25 risk |
 
@@ -15,9 +15,23 @@ _Ayrıntı ve gerekçeler: `PLAN_BIST.md`, `PLAN_ABD.md`. Rakamlar 05.11 kapanı
 **BIST hesabı (09:00–12:00):**
 1. Hesabın %15'i doğrudan bankada 32 günlük mevduata (1. dilim). %85'i banka iştiraki PPF'ye; tasfiyedeki 7 portföy şirketinin fonları asla. Kalıcı hedef %60 mevduat / %40 PPF; dilimler 16, 23 ve 30.11'de.
 2. Aracı kuruma 12 yazılı soru gönder (Kural 0): VİOP teminatı faiz kazanıyor mu? Kurum teminat oranları? Sunucu taraflı stop var mı? Cevap gelmeden VİOP kolu yok.
-3. Kapanış bazlı alarmlar:
-   - Hisseler: ENJSA 127,00 · AHGAZ 48,70 · ENERY 14,60 · RYSAS 30,28 · KCHOL 225,50 · BIMAS 433,75 · TUPRS 409,90
-   - Endeksler: XU100 12.691 / 13.572 · XBANK 16.955
+3. Kapanış bazlı alarmlar (Cuma 06.11 kapanışıyla güncel; kaynak `tarama/bist_sinyal_20261106.md`):
+
+   | Alarm | Tetik | 06.11 kapanışı | Gereken | Not |
+   |---|---|---|---|---|
+   | ENERY | > 14,60 | 14,05 | +%3,9 | AHGAZ ile tek isim sayılır. Bilanço 9.11 akşamı, karar en erken 10.11. |
+   | AHGAZ | > 48,70 | 46,82 | +%4,0 | ENERY ile tek isim sayılır. Bilanço 9.11 akşamı, karar en erken 10.11. |
+   | ENJSA | > 127,00 | 122,00 | +%4,1 | — |
+   | KCHOL | > 225,50 | 206,10 | +%9,4 | — |
+   | RYSAS | > 30,28 | 27,34 | +%10,8 | Spot, ×0,75 boy |
+   | XU100 | 12.630 (SMA50) / 13.566 (SMA200) | 11.483 | — | — |
+   | XBANK | 16.948 (SMA200) | 16.398 | — | — |
+   | K1 SAHOL↔AKBNK, z=+2 | SAHOL ≥ 93,06 ya da AKBNK ≤ 64,40 | Bugün z −0,54 | — | Öbür bacak sabitken |
+   | K1 SAHOL↔AKBNK, z=−2 | SAHOL ≤ 84,09 ya da AKBNK ≥ 71,27 | — | — | Öbür bacak sabitken |
+
+   - Aynı kümede oldukları için ENERY, AHGAZ ve ENJSA'dan en çok bir pozisyon açılır.
+   - KAPALI rejimde K4'te en çok 2 sonda açılır, %0,25 riskle.
+   - XU030 Aralık vadelisinin ima faizi %29,3. Bu, nakit-taşıma eşiğinin (%35,6) altında, yani kol kapalı. 06.11 VİOP bülteni 20:45 TSİ sonrası çıkınca yenilenir.
 4. Dışlama listesini emir ekranında "yasak" yap: fon tasfiyesi baskısındaki hisseler ve SPK'nın suç duyurusunda bulunduğu 13 hisse (`PLAN_BIST.md` §4.2).
 
 **ABD hesabı:**
