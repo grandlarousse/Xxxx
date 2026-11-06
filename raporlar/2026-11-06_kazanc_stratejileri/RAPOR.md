@@ -73,11 +73,23 @@ Ortak nokta: getiri **küme** düzeyinde, **rejim** dönüşünde ve **yoğunla�
 | **Küme rotasyonu** (12 aylık göreli güce göre ilk 3 küme) | Yanlılık düzeltilince eşit ağırlıklı kümelerin yılda ~+5 puan üstü, MaxDD −%40/−%48 | Bu rejimde çıtayı geçmiyor; getiri motoru değil, **küme seçme filtresi**. |
 | **52 haftalık zirveye yakınlık sıralaması** | t 2,2–3,7 | 2022 çıkarılınca zayıf (t 0,85–1,5) |
 | **Temettü hak kullanımından önceki 5 gün** (spot) | +%1,2 (t 6,5–7,8, n=1.109) | VİOP temettüyü fiyatlıyor; yalnız spotta |
-| **Bedelsiz** | Hak kullanımından önceki 20 gün +%2,8. Sonraki 5 gün −%2,0, 60 gün medyan −%5,3. | Ayrıntı `ajanlar/olay_bedelsiz.md` |
+| **Yüksek verimli nakit temettü (duyuruda verim ≥%5)** | Duyurunun ertesi kapanışında al, hak kullanımından önceki gün kapanışta sat. Aynı evrenin eşit ağırlıklı toplam getirisine göre +%6,5 (medyan +%4,1, t 6,5, ~27 işlem günü). 12 yılın 12'si pozitif, 2024–26'da +%13,5. Likit hisselerde de var. | Bu çalışmanın en güçlü yeni kenarı, bağımsız veriyle yeniden üretildi. Girişlerin %81'i Şubat–Mart'ta, yılda 14–25 olay. Hedgelenirse getiri ≈ TL faizi + %6–7. |
+| **Bedelsiz** (601 olay) | Hak gününden sonraki 10 günde −%3,3 (t −5,5). Bu yüzden hak gününden önce satmak geçerli bir çıkış kuralı. | Alım tarafı **işe yaramıyor**: duyuru etkisi tavan kilitli günlerde, "onayda al, bölünmeye sat" net −%0,07, duyuruda alıp 5 gün tutmak −%1,6. |
+| **Halka arz katılımı** | Gün içinde tavan ilk bozulduğunda satan katılımcı medyan +%33 | Hesap başına yılda 8–22 bin TL, ölçeklenmiyor. Seri bitince almak zarar: 21 günde medyan −%11, 2024–26'da −%17. |
 | **Çiftler: SAHOL↔AKBNK, KCHOL↔iştirak sepeti** (\|z\|≥2) | Gerçekçi 1 gün gecikmeyle işlem başına +128–310 bps, t 2,1–2,8 | Önceki çalışmadaki SAHOL/AKBNK kenarının daha geniş bantlı hali. Kurumsal olay riski. |
 | **12 aylık zaman serisi momentumu (XU100)** | 2019–26'da long/nakit yılda %48 (nakit %25) | Zayıf istatistik. Şu an kapalı: XU100 12 ayda +%3,3, nakit +%37. |
 
-**İşe yaramayanlar:** klasik 12-1 kesitsel momentum (risksizin altında), kısa vadeli reversal (yılda −%17,9; haftanın kaybedenleri kaybetmeye devam ediyor), endekste SMA200 ve 50/200 kuralları, halka arzda seri bittikten sonra almak, AKD/takas takibi (bilgili işlem ölçüleri getiri öngörmüyor), Ramazan etkisi, A/B pay oranları.
+**İşe yaramayanlar:**
+- Klasik 12-1 kesitsel momentum: risksizin altında.
+- Kısa vadeli reversal: yılda −%17,9. Haftanın kaybedenleri kaybetmeye devam ediyor.
+- Endekste SMA200 ve 50/200 kuralları.
+- Bedelsizde alım tarafı, halka arzda seri bittikten sonra almak.
+- Geri alım ve içeriden alım: eşleştirilmiş kontrollerle kalıcı bir kenar yok.
+- Yabancı akımı: fiyatı izliyor, öngörmüyor.
+- AKD/takas takibi: bilgili işlem ölçüleri getiri öngörmüyor.
+- Ramazan etkisi, A/B pay oranları.
+
+**Faiz döngüsü ve bankalar:** Faiz indiriminden sonraki 63 günde bankalar XU100'ün gerisinde kaldı; 6 döngünün 6'sında, ortalama −%6,3 (t −4,2). İndirimden önceki 63 günde ise +%3,2 önde. Bankalar son 63 günde +%26 koştu ve 10.12 PPK'da anket indirim bekliyor. Bağımsız gözlem yalnız 6 döngü; bu bir işlem kuralı değil, boyut eğilimi.
 
 ### 1.5 Kazananların BIST'teki gerçek formülü
 
@@ -92,15 +104,51 @@ Bu dört madde, önceki çalışmalarındaki "çok sayıda küçük istatistikse
 
 ## 2. Sen Borsa İstanbul'da nasıl kazanırsın? (9 Kasım için)
 
-Ayrıntılı kurallar `uygulama/PLAN_BIST.md` dosyasında. Plan üç bağımsız taslaktan çıktı, üç hakemce puanlandı, iki çürütme incelemesinden geçti. Burada çerçeve var:
+Ayrıntılı kurallar `uygulama/PLAN_BIST.md` dosyasında, akşam rutini `uygulama/BIST_GUNLUK_RUTIN.md`'de, günlük sayılar `uygulama/kod/bist_sinyal.py` çıktısında. Plan şöyle hazırlandı:
+1. Üç bağımsız taslak yazıldı: trend/lider, rejim ve carry, önce risk.
+2. Üç hakem puanladı; "önce risk" taslağı iskelet seçildi.
+3. Öteki iki taslağın iyi fikirleri eklendi ve plan iki çürütme incelemesinden geçti.
 
-- **Bugünkü rejim kapalı.** XU100 11.333, 200 günlük ortalamanın %16,5 altında. Hisselerin yalnız %13'ü 200 günlüğün üstünde, hiçbir sektör endeksi 200 günlüğün üstünde değil. Yabancı çıkışı sürüyor, rezervler düşüyor. Filtreli bütün kurallar şu an nakitte.
-- **Göreli güçte öne çıkanlar.** Bankalar ve havacılık göreli güçte kırılım verdi. 12 ayda en güçlü kümeler rafineri, holding ve Koza. Bankalar, holding ve havacılık tek bir risk bloğu (korelasyon 0,77–0,79). Rafineri bu bloğa karşı doğal denge (bankalarla −0,42).
-- **Haftanın riskleri:**
-  - **9.11:** 3. çeyrek konsolide bilançoların son günü.
-  - **12.11 saat 01:00 TSİ:** MSCI duyurusu. Artışlar donduruldu, azaltmalar uygulanıyor.
-  - **13.11:** Kredili işlem esnekliği bitiyor. Uzatılmazsa 16.11'den itibaren teminat tamamlama satışları gelebilir.
-- **Gerçekçi beklenti.** İyi rejim yıllarında çıtanın +5–15 puan üstü. Bu yıl gibi yıllarda çıtanın altı. "Yılda %80" gibi bir hedefi ancak rejim dönüşünde yoğunlaşan kaldıraçlı küme bahsi verebilir; bunun bedeli −%40'ı aşan düşüş ihtimali.
+**Rejim anahtarı (her kapanıştan sonra hesaplanır, ertesi gün geçerli):**
+
+| Durum | Tanım | Ne açılır |
+|---|---|---|
+| AÇIK | XU100 kapanışı 200 günlük ortalamanın (bugün 13.572) üstünde | Kırılım motoru tam boy (işlem başı risk %0,75), endeks/küme beta kolu (12 aylık momentum da açıksa) |
+| GEÇİŞ | XU100 5 kapanış üst üste 50 günlüğün (12.691) üstünde **ve** net rezerv 3 hafta üst üste artıyor **ve** şu üçünden biri: 2 ay üst üste aylık TÜFE <%2, CDS <230 ve düşüyor, XBANK 200 günlüğünün üstünde | Kırılım yarım boy (risk %0,5) |
+| KAPALI | Diğer her durum. **Bugün: 7 göstergenin 0'ı açık.** | Kırılımda en çok 2 küçük deneme (%0,25 risk). Rejimden bağımsız kollar açık. |
+| KRİZ kesicisi | 5 günde XU100 ≤−%8, kur ivmesi, CDS >300, net rezerv 2 hafta üst üste ≤−5 mlr $, F_USDTRY ima faizi politika faizi +5 puanın üstünde ya da MSCI sınıflandırma danışması | 5 gün yeni giriş yok, açık pozisyonların stopu sıkılaşır |
+
+GEÇİŞ için en erken gerçekçi tarih 26.11 kapanışı. 12.11'deki rezerv verisi bir hafta daha −5 mlr $ ya da daha kötüsünü gösterirse KRİZ kesicisi tetiklenir.
+
+**Kollar:**
+
+| Kol | Kural (özet) | Durum |
+|---|---|---|
+| Çekirdek | Pazartesi hesabın %15'i bankada 32 günlük mevduata, %85'i banka iştiraki PPF'ye. Hedef %60 mevduat / %40 PPF; dilimler 9, 16, 23 ve 30.11'de. | **Pazartesi yapılacak tek finansal işlem** |
+| K1 SAHOL↔AKBNK | 20 günlük oran z-skoru \|z\|≥2 olunca VİOP'ta ters spread, ertesi kapanışta giriş | Rejimden bağımsız. Şart: teminat faiz kazanmalı, komisyon bacak başına ≤5 bps. |
+| K3 Temettü öncesi 5 gün | Spotta hak kullanımından 6 gün önce al, bir önceki gün kapanışta sat; temettü alınmaz | Rejimden bağımsız; küçük kenar (+%0,2–0,5) |
+| K3b Yüksek verimli temettü | Duyuruda verimi ≥%5 olanı duyurunun ertesi kapanışında al, hak kullanımından önceki gün sat, XU030 vadelisiyle hedgele | En güçlü yeni kenar: denetimden sonra +%6–7 fazla getiri, ~27 işlem günü. Sezonu Şubat–Mayıs; 01.02.2027'den yarım boylu pilot. |
+| K4 Kırılım motoru | 52 haftalık kapanış zirvesi + trend şablonu + %15 iz süren stop; giriş kapanış seansında | Boyut rejime bağlı. En yakın tetikler: ENJSA 127,00; AHGAZ 48,70 / ENERY 14,60 (tek isim sayılır); RYSAS 30,28. |
+| K5 Özel durumlar | Zorunlu pay alım teklifi, satma ve ayrılma hakları | Yalnız KAP teyidiyle. AKCNS teklifi kapanmış, listeden çıktı. |
+| K6 TL carry | Short F_USDTRY, %10 stopaj | Kapalı; brüt rezerv kapısı 160 mlr $ (şu an 158,1) |
+| K7 Endeks/küme beta | 12 aylık momentum açıkken | Kapalı |
+| K8 Halka arz katılımı | Tavan gün içinde ilk bozulduğunda sat; seri bitince alma | İsteğe bağlı. Hesap başına yılda 8–22 bin TL, ölçeklenmiyor. |
+| K9 Serbest kol | Plan dışı her fikir yalnız buradan, %0,25 risk | Birikimli −%1,5'te 6 ay kapanır |
+
+**Kaçınma takvimi:**
+- 11–13.11 kapanışlarında K3, K4, K5 ve K9'da yeni giriş yok.
+- Kredili işlem esnekliği 13.11'de uzatılmazsa:
+  - kırılım girişleri 23.11'e kadar yok;
+  - VİOP-47 dışında long 30.11'e kadar yok.
+- MSCI'ın çıkardığı ya da ağırlığını düşürdüğü hisseler, değişiklik yürürlüğe girene kadar alınmaz.
+- 10.12 PPK sürprizsiz bir indirimse, ~15.03.2027'ye kadar bankalarda yarım boy. Gerekçe: indirimden sonraki 63 günde bankalar 6 döngünün 6'sında XU100'ün gerisinde kaldı.
+- Dışlama listesindeki hisseler (fon tasfiyesi baskısı, SPK suç duyurusu) hiçbir kolda alınmaz.
+
+**Dürüst beklenti (12 ay, vergi sonrası, çıtaya göre):**
+- Merkez **+1…+2 puan**; %80 aralık −2…+5,5. Toplam net nominal getiri ~%33–37.
+- Rejim 1–3 ayda dönerse kırılım ve endeks kollarından +3…+8 puan, kârın çoğu birkaç işlemden.
+- Bu rejimde +10–20 puan hedeflemek bu planın 3–5 katı açık risk ve çıtaya göre −%25…−%40 düşüş toleransı ister. Kanıt bunu desteklemiyor.
+- Yüksek getiri, rejim döndüğü anda hazır olmaktan gelir. Plan bunun için var.
 
 ---
 
@@ -166,23 +214,47 @@ Akademik destek bileşenlerde var: haber destekli fiyat şokları sürüyor, 52 
 
 ## 4. Sen ABD borsalarında nasıl kazanırsın? (9 Kasım için)
 
-Ayrıntılı kurallar `uygulama/PLAN_ABD.md` dosyasında. Plan BIST planıyla aynı süreçten geçti: üç bağımsız taslak, üç hakem, iki çürütme incelemesi. Çerçeve:
+Ayrıntılı kurallar `uygulama/PLAN_ABD.md` dosyasında, akşam rutini `uygulama/ABD_GUNLUK_RUTIN.md`'de, rejim ve trend şablonu göstergesi `uygulama/kod/abd_rejim_ve_sablon.pine` dosyasında (TradingView'da derlenmedi). Plan BIST planıyla aynı süreçten geçti: üç bağımsız taslak, üç hakem, iki çürütme incelemesi. İskelet "önce risk" taslağından, işlem mekaniği "lider momentumu" taslağından alındı. Kaldıraçlı endeks çekirdeği reddedildi: fiilen kaldıraçlı al-tut, ve 2010 sonrasında filtre getiriyi de kesti.
 
-- **Yöntem, doğrulanmış şampiyonların yöntemi:** tema lideri, dar stop, düşük risk, rejim anahtarı. Gün içi işlem yapmadığın için iki uyarlama var: girişler seans öncesi verilen bekleyen emirlerle (al-stop limit, iyi-iptal zarar-durdur), kararlar kapanışa göre. ABD seansı 17:30–24:00 TSİ.
-- **Bugünkü rejim yeni alıma düşman:**
-  - Nasdaq düzeltmede ve 200 günlüğün altında.
-  - Nasdaq-100 zirveden −%14,7, 5.11'de tek günde −%6,4.
-  - S&P 500 200 günlüğün ancak %0,4 üstünde.
-  - VIX 28, vade yapısı ters.
-  - Momentum faktörü Temmuz ve Ekim'de tarihi çözülmeler yaşadı.
-  - Liderlik savunmaya geçti: sağlık, borsalar ve finansal veri, sigorta, temel tüketim. AI çipleri ve güç altyapısı kırık.
-  - Yöntemin kendi kuralı şunu söylüyor: izleme listesi kur, ilk pozisyonları çok küçük riskle ve ancak endekste net bir dönüş sinyalinden sonra aç.
-- **Erişim:**
-  - En hızlı yol Midas: 1–2 günde onay, işlem başı 1,5 $; yalnız opsiyon alımı.
-  - Ana platform IBKR: Türkiye'den açılabiliyor, işlem başına ~0,005 $/adet. Gerçekçi ilk işlem 11–13 Kasım.
-  - PDT kuralı (25 bin $) kalktı.
-- **Vergi.** Kazanç TL bazında, kur farkı dahil, beyanla vergilenir; zarar yalnız aynı yıl mahsup edilir. Kaydını işlem bazında, TCMB kuruyla tut.
-- **Gerçekçi beklenti.** Disiplinli üst dilim için yılda %20–40 USD mümkün; medyan trader için değil. Ortalama hedef olarak %40+'ı kanıt desteklemiyor, ancak iyi rejim yıllarında görülüyor.
+**Yöntem: doğrulanmış şampiyonların yöntemi, gün içi ekransız.**
+- Tek canlı kol: rejim filtreli lider swing. İki kurulum var:
+  - **S1 baz kırılımı:** pivot üstüne al-stop limit.
+  - **S2 yükselen 10/20 günlük ortalamaya geri çekilme.**
+- Girişler 16:45–17:15 TSİ arasında, bekleyen emirle: BUY STOP-LIMIT ve ekli, iyi-iptal SELL STOP.
+- Çıkışlar ve stop düzeltmeleri gece 00:30–01:00 ya da sabah 08:00–09:00 arasında, kapanışa göre.
+- 17:30–00:00 arasında ekrana bakılmaz.
+- Kâr alma: +2R'de ya da 4. seansta ≥+1R ise 1/3–1/2 satılır, kalan 10/20 günlük ortalamayla taşınır.
+- Bilanço gap'i ve VIX çözülmesi kurulumları önce yalnız kâğıt üzerinde (gölge) kaydediliyor. Opsiyon, margin, açığa satış ve kaldıraçlı ETF ilk fazda yok.
+
+**Rejim bugün KIRMIZI:**
+- Nasdaq düzeltmede.
+- S&P 500 200 günlüğün ancak %0,4 üstünde.
+- VIX/VIX3M 1,10.
+- S&P ve Nasdaq'ta 10 günlük ortalama 20 günlüğün altında.
+- Dip teyit günü (FTD) yok.
+
+Sarıya geçmek için şartların 3 kapanış üst üste sağlanması gerekiyor. Bu yüzden **Pazartesi canlı işlem yok; ilk canlı deneme en erken 16.11**, tek pozisyonla ve AI dışı bir kümeden.
+
+**Sermaye:**
+- Para TL'deyse ABD strateji sermayesi likit servetin **%10'u** (en çok %15'i). Bunun şimdilik %40'ı USD'ye çevrilip IBKR nakit hesabına gider, kalanı TL'de mevduat ve PPF'de bekler.
+- Para zaten USD'deyse servetin en çok %20'si.
+
+**Risk (ilk 50 işlem):**
+- İşlem başı risk %0,25, tek pozisyon ≤%7,5.
+- Küme ısısı ≤%0,75. Toplam açık risk sarıda %1,25, yeşilde %2,5.
+- Aylık devre kesici %3. Strateji sermayesinde −%8'de plan durur.
+- Kritik bir kural ihlalinde (stop indirmek, zarara eklemek, rejim dışı giriş) 10 seans işlem yok; ikinci ihlalde plan durur.
+
+**Erişim:**
+- Ana platform IBKR Pro. Türkiye'den açılabiliyor, ~0,005 $/adet; gerçekçi ilk işlem 11–13.11.
+- Midas yalnız ≤500 $ ile test için: stop/GTC desteği teyit edilmeli, yalnız opsiyon alımı var.
+- PDT kuralı (25 bin $) kalktı.
+
+**Vergi:** Kazanç TL bazında, kur farkı dahil, beyanla vergilenir; zarar yalnız aynı yıl içinde mahsup edilir. Her işlemi TCMB kuruyla kaydet. Aralıkta zarar realize ederek vergi düşürme ancak müşavir onayıyla.
+
+**Dürüst beklenti:**
+- İlk faz bir ispat dönemi. Medyan beklenti kenara göre −%2,5 ile +%6,5 arası; TL'de kalmayı geçme olasılığı %5'in altında.
+- Yüksek getiri ancak kenar ispatlandıktan sonra gelir: 100 işlem, 12 ay ve t ≥1,65 gerekiyor. O noktada risk işlem başına %0,5–1'e çıkar. Doğrulanmış üst dilimde yılda %40+ görülüyor, medyan trader'da görülmüyor.
 
 ---
 
@@ -212,6 +284,10 @@ Ayrıntılı kurallar `uygulama/PLAN_ABD.md` dosyasında. Plan BIST planıyla ay
 **Sınırlar:**
 - **Web araması.** Alt ajanların ortak web arama kotası (200) iş ortasında doldu. Doğrulayıcılar birincil kaynakları doğrudan indirerek çalıştı; erişemedikleri iddiaları "doğrulanamadı" diye işaretlediler.
 - **Veri erişimi.** Yahoo istek sınırı koydu, Stooq bot doğrulaması istedi, TEFAS otomatik erişimi reddetti; bunların hiçbiri aşılmaya çalışılmadı. Bu yüzden ABD'de hisse düzeyinde earnings-gap/kırılım testi yapılamadı. ABD planındaki aday listesi kaynaklı web derlemesi ve senin çalıştıracağın tarama ayarları.
+- **Halka arz verisinde bir istisna.** halkarz.com betikle yapılan isteklere 403 verdi. Ajan taramayı durdurdu ama detay sayfalarını sonra başka bir araçla (WebFetch) tek tek okudu. Denetçi bunu "engelin başka bir istemciyle aşılması" sayılabilir diye işaretledi.
+  - Arz listesi ve fiyatlar başka kaynaklarla (İş Yatırım birincil halka arz listesi ve fiyat serileri) doğrulanıyor.
+  - Katılımcı sayısı ve lot alanları ise yalnız o sayfalardan geliyor. Bu alanlar KAP'taki satış sonuçları bildirimlerinden yeniden alınmalı.
+  - Ham veri repoda yok.
 - **Hayatta kalan yanlılığı.** BIST hisse evreni bugün işlem gören hisselerden kurulu; bu sonuçları yukarı çarpıtıyor.
 - **Öznel tahminler.** Rejim senaryolarının olasılıkları öznel.
 

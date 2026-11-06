@@ -15,6 +15,8 @@ NE YAPAR
        (ATR~ = 14g ort.|getiri| * 1,25 ; stop icin 2xATR~ onerilir) ; VIOP vadelisi olanlar isaretli
   Ayrica: USD bazli 3a/6a getiri (USDTRY ile), piyasa genisligi (50/200 GHO ustu oran), VIOP XU030 / USDTRY
   vadelilerinden baz ve ima edilen TL faizi (TLREF ile karsilastirma), aciga satis yapilabilirlik (BIST50) bayragi.
+  VIOP fiyati YALNIZ resmi bultenin UZLASMA FIYATI'ndan alinir (viop_YYYYMMDD.csv; 06.11.2026 duzeltmesi,
+  eski ChartData fiyati 5.11'de %23,3 gibi yanlis bir ima oran uretiyordu; dogrusu %29,3). Bulten ~20:30-20:50 TSI'de cikar.
 
 KULLANIM  (Cuma kapanisindan sonra calistir: 18:20 TSI sonrasi; kapanis seansi 18:10'da biter)
   python3 bist_tarama.py                       # varsayilan: ./veri onbellek, ./tarama cikti
@@ -152,27 +154,67 @@ def metrikler(c, usd=None):
     return out
 
 
-def viop_fiyatlama(spot, tlref, usd_faiz, bas):
-    """XU030 (cift aylar) ve USDTRY (aylik) vadelilerinden baz / ima edilen TL faizi. Kod: F_<DAYANAK><AAYY>."""
+BULTEN_URL = "https://www.borsaistanbul.com/data/vadeli/viop_{:%Y%m%d}.csv"
+
+
+def viop_bulten(tarih, veri, geri=6, bekle=0.7):
+    """Resmi Borsa Istanbul VIOP gunluk bulteni (uzlasma fiyatlari). tarih'ten geriye dogru ilk bulunan gun.
+    Donus: (DataFrame, bulten_tarihi) ya da (None, None). Onbellek: <veri>/viop/viop_YYYYMMDD.csv.
+    Not: bulten CSV'si ~20:30-20:50 TSI'de yayimlanir; uzlasma fiyati 18:55 sonrasi ilan edilir."""
+    d = os.path.join(veri, "viop"); os.makedirs(d, exist_ok=True)
+    g = pd.Timestamp(tarih).normalize()
+    for _ in range(geri + 1):
+        while g.weekday() >= 5: g -= pd.Timedelta(days=1)
+        f = os.path.join(d, f"viop_{g:%Y%m%d}.csv")
+        metin = None
+        if os.path.exists(f):
+            metin = open(f, encoding="utf-8", errors="replace").read()
+        else:
+            try:
+                r = S.get(BULTEN_URL.format(g), timeout=60); time.sleep(bekle)
+                if r.status_code == 200 and r.text.lstrip().startswith("TARIH;"):
+                    metin = r.text; open(f, "w", encoding="utf-8").write(metin)
+            except requests.RequestException:
+                metin = None
+        if metin and metin.lstrip().startswith("TARIH;"):
+            satir = metin.splitlines()
+            bas = [x.strip() for x in satir[0].split(";")]
+            kayit = [x.split(";") for x in satir[2:] if x.strip()]  # 2. satir Ingilizce baslik
+            df = pd.DataFrame([k[:len(bas)] + [""] * (len(bas) - len(k)) for k in kayit], columns=bas)
+            for c in ("UZLASMA FIYATI", "KAPANIS FIYATI", "ISLEM HACMI", "ISLEM MIKTARI", "ACIK POZISYON"):
+                df[c] = pd.to_numeric(df[c].str.replace(",", "."), errors="coerce")
+            df["VADE TARIHI"] = pd.to_datetime(df["VADE TARIHI"], errors="coerce")
+            df["TARIH"] = pd.to_datetime(df["TARIH"], errors="coerce")
+            return df, g
+        g -= pd.Timedelta(days=1)
+    return None, None
+
+
+def viop_fiyatlama(spot, tlref, usd_faiz, bas, veri="./veri"):
+    """XU030 ve USDTRY vadelilerinden baz / ima edilen TL faizi.
+    DUZELTME (06.11.2026): Eski surum vadeli fiyatini ChartData'dan aliyordu; bu seri spotla ayni ana ait degildi
+    (5.11'de 14.605 -> %23,3 ima, YANLIS). Simdi yalniz resmi bulten UZLASMA FIYATI kullanilir ve spot, bultenin
+    kendi tarihindeki kapanistan alinir (tarih eslesmesi). 5.11: 14.734 / 14.101 -> basit %29,3."""
+    B, bt_ = viop_bulten(bas, veri)
+    if B is None:
+        return pd.DataFrame()
     sat = []
-    for dayanak, aylar in (("XU030", [m for m in range(1, 25) if m % 2 == 0]), ("USDTRY", list(range(1, 25)))):
-        vadeler = []
-        for k in range(0, 8):
-            v = pd.Timestamp(bas).to_period("M").to_timestamp() + pd.DateOffset(months=k) + pd.offsets.BMonthEnd(0)
-            if v.month in aylar and v > pd.Timestamp(bas): vadeler.append(v)
-        for v in vadeler[:3 if dayanak == "USDTRY" else 2]:
-            kod = f"F_{dayanak}{v:%m%y}"
-            f = _istek(kod, (pd.Timestamp(bas) - pd.Timedelta(days=20)).to_pydatetime(), pd.Timestamp(bas).to_pydatetime())
-            time.sleep(0.5)
-            s = spot.get(dayanak)
-            if not len(f) or s is None: continue
-            g = min(f.index[-1], s.index[-1])
-            F, S0, T = f.loc[:g].iloc[-1], s.loc[:g].iloc[-1], (v - g).days
+    for dayanak, filtre, n in (("XU030", B["SOZLESME KODU"].str.match(r"^F_XU030\d{4}$"), 2),
+                               ("USDTRY", B["SOZLESME KODU"].str.match(r"^F_USDTRY\d{4}$"), 3)):
+        s = spot.get(dayanak)
+        if s is None or not len(s.loc[:bt_]):
+            continue
+        S0 = s.loc[:bt_].iloc[-1]; gs = s.loc[:bt_].index[-1]
+        for _, x in B[filtre].sort_values("VADE TARIHI").head(n).iterrows():
+            T = (x["VADE TARIHI"] - bt_).days
+            F = x["UZLASMA FIYATI"]
+            if not (T > 0 and F > 0): continue
             prim = F / S0 - 1
-            r = tlref.loc[:g].iloc[-1] / 100 if tlref is not None and len(tlref.loc[:g]) else np.nan
+            r = tlref.loc[:bt_].iloc[-1] / 100 if tlref is not None and len(tlref.loc[:bt_]) else np.nan
             ima = ((1 + prim) * (1 + usd_faiz * T / 360) - 1) * 365 / T if dayanak == "USDTRY" else prim * 365 / T
-            sat.append(dict(kontrat=kod, tarih=g.date(), vade=v.date(), gun=T, vadeli=F, spot=round(S0, 4), prim=prim,
-                            ima_tl_faiz=ima, tlref=r, teorik_fark=(F / (S0 * (1 + r * T / 365)) - 1) if dayanak == "XU030" else np.nan))
+            sat.append(dict(kontrat=x["SOZLESME KODU"], tarih=bt_.date(), spot_tarihi=gs.date(), vade=x["VADE TARIHI"].date(),
+                            gun=T, vadeli=F, spot=round(S0, 4), prim=prim, ima_tl_faiz=ima, tlref=r,
+                            teorik_fark=(F / (S0 * (1 + r * T / 365)) - 1) if dayanak == "XU030" else np.nan))
     return pd.DataFrame(sat)
 
 
@@ -265,7 +307,7 @@ def main():
     X["rejim"] = [rejim_etiketi(X.loc[k]) for k in X.index]
     gen = dict(ust50=(H.kapanis > H.gho50).mean(), ust200=(H.kapanis > H.gho200).mean(),
                zirve10=(H.zirveye >= -0.10).mean(), sablon=H.sablon.mean())
-    V = viop_fiyatlama({"XU030": D["XU030"], "USDTRY": usd}, D.get("TLREF"), a.usd_faiz, son_tarih)
+    V = viop_fiyatlama({"XU030": D["XU030"], "USDTRY": usd}, D.get("TLREF"), a.usd_faiz, son_tarih, a.veri)
     TUM = pd.concat([X, H]).sort_values(["tip", "rs"], ascending=[True, False])
     tag = son_tarih.strftime("%Y%m%d")
     cs = os.path.join(a.cikti, f"bist_tarama_{tag}.csv")
@@ -285,8 +327,8 @@ def main():
            "r6a", "r12a", "usd_r3a", "zirveye", "rejim"], P),
           f"\nGenislik (hisse evreni): 50 GHO ustu %{100*gen['ust50']:.0f} | 200 GHO ustu %{100*gen['ust200']:.0f} | "
           f"52h zirveye <=%10 %{100*gen['zirve10']:.0f} | trend sablonu %{100*gen['sablon']:.0f}", "",
-          "### VIOP fiyatlama (baz, ima edilen TL faizi; XU030 temettu ihmal, USD faizi varsayim)",
-          md_tablo(V, ["kontrat", "tarih", "vade", "gun", "vadeli", "spot", "prim", "ima_tl_faiz", "tlref", "teorik_fark"],
+          "### VIOP fiyatlama (resmi bulten uzlasma fiyati; baz, ima edilen TL faizi; XU030 temettu ihmal, USD faizi varsayim)",
+          md_tablo(V, ["kontrat", "tarih", "spot_tarihi", "vade", "gun", "vadeli", "spot", "prim", "ima_tl_faiz", "tlref", "teorik_fark"],
                    {"prim": "%", "ima_tl_faiz": "%", "tlref": "%", "teorik_fark": "%", "vadeli": "f"}) if len(V) else "_VIOP verisi alinamadi._",
           ""]
     nsab = int(H.sablon.sum())
