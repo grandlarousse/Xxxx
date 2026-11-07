@@ -1,0 +1,36 @@
+{
+ "aciklama": "Elle girilen makro veriler (PLAN_BIST s2, s3 K6). Her Persembe 14:30 sonrasi TCMB rezervini ve ayin 3'unde TUFE'yi guncelleyin, 'guncellendi' tarihini degistirin. Listeler eski -> yeni sirali; her hafta net_rezerv_swap_haric listesine [etiket, mlr $] ekleyin. Ayrintilar: ../OTOMASYON.md",
+ "guncellendi": "2026-11-05",
+ "kaynak": "PLAN_BIST.md ve BIST_GUNLUK_RUTIN.md 05.11.2026 degerleri",
+ "politika_faizi": 36.0,
+ "mevduat_32g_brut": 39.52,
+ "net_rezerv_swap_haric": [
+  [
+   "2026-10-29 yayini",
+   30.8
+  ],
+  [
+   "2026-11-05 yayini",
+   24.3
+  ]
+ ],
+ "brut_rezerv": 158.1,
+ "yabanci_dibs_hafta_mn_usd": -750,
+ "tufe_aylik": [
+  [
+   "2026-10",
+   2.58
+  ]
+ ],
+ "cds5y": 248,
+ "cds5y_20g_once": null,
+ "cds_teyitli": false,
+ "msci_danisma": false,
+ "kural0": false,
+ "komisyon_viop_bps": null,
+ "usd_faiz": 0.039,
+ "kredili_esneklik_uzatildi": null,
+ "ppk_10_12_surprizsiz_indirim": null,
+ "msci_cikarilanlar": [],
+ "bilanco_aciklayanlar_9_11": []
+}

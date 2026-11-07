@@ -24,13 +24,20 @@ KULLANIM
   python3 gunluk_oneri.py --cikti ../gunluk                 # --veri verilmezse gecici klasor
   python3 gunluk_oneri.py --cikti ../gunluk --veri V --cevrimdisi   # hic istek atmadan onbellekten (deneme)
   Secenekler: --bekle 0.4 (istekler arasi sn), --tarih YYYY-MM-DD (BIST kesim tarihi), --durum-yazmadan (durum.json'u
-  degistirme; deneme icin), --butce 540 (sn; Is Yatirim indirmesi icin zaman butcesi).
+  degistirme; deneme icin), --butce 480 (sn; Is Yatirim indirmesi icin zaman butcesi).
 
 NOTLAR
   * python3 + requests + pandas + numpy. Varsayilan istek basliklari (User-Agent degistirilmez), istekler arasi bekleme,
     429'da geri cekilme. Yahoo kullanilmaz. Bir kaynak duserse o bolum "veri yok" der, digerleri devam eder.
-  * Is Yatirim baglantisi koparsa (devre kesici) BIST bolumleri "veri yok" olur; son basarili calismanin tetikleri
-    Borsa Istanbul pay piyasasi bulteninin kapanis fiyatlariyla kontrol edilir (yedek kip).
+  * Kaynaklar: Is Yatirim ChartData (163 seri, duzeltilmis kapanis), Borsa Istanbul VIOP bulteni (son 2 gun) ve pay piyasasi
+    bulteni (thbYYYYMMDD1.zip, son 60 gun -> 60g medyan TL hacim / likidite sirasi; HisseTekil ile ayni sonuc), KAP endeks
+    listesi, FRED (SP500, NASDAQ100), CBOE (VIX, VIX3M). HisseTekil yalniz bulten alinamazsa yedektir.
+  * Is Yatirim baglantisi koparsa (devre kesici) once onbellek kullanilir, pay bultenlerinden sonra eksikler bir kez daha
+    denenir, sonra --isy-son (360 sn) dolana kadar ~60 sn'de bir TEK istekle yoklanir; yine yoksa BIST bolumleri "veri yok"
+    olur ve son basarili calismanin tetikleri pay bulteninin kapanis fiyatlariyla kontrol edilir (yedek kip).
+  * Is Yatirim bazen KISALTILMIS gecmis donduruyor (denetim 08.11: GARAN 1 yil): ilk tarihi istenenden > 30 gun sonra gelen
+    seri bir kez daha istenir, uzun olani alinir.
+  * Bos onbellekle sure ~3 dk (08.11 olcumu 178 sn: 163 + 60 + ~8 istek); dolu onbellekle ~30 sn; Is Yatirim kapaliyken ~2 dk.
   * Ham veri onbellegi --veri klasorundedir; depoya konmaz. durum.json ve makro.json kucuk durum dosyalaridir (ham veri degil).
   * Bilgi amaclidir; yatirim tavsiyesi degildir.
 """
@@ -38,6 +45,7 @@ import argparse, io, json, math, os, sys, tempfile, time, zipfile
 from datetime import datetime, timedelta
 import numpy as np, pandas as pd, requests
 
+sys.dont_write_bytecode = True   # bulut calismasi depoya __pycache__ birakmasin
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bist_tarama as bt   # noqa: E402  (VIOP listesi, KAP endeks listesi, VIOP bulteni, TSI, oturum S)
 import bist_sinyal as bs   # noqa: E402  (kumeler, dislama, makro varsayilani, fmt, z yardimcilari)
@@ -51,9 +59,11 @@ CBOE_URL = "https://cdn.cboe.com/api/global/us_indices/daily_prices/{}_History.c
 THB_URL = "https://www.borsaistanbul.com/data/thb/{:%Y}/{:%m}/thb{:%Y%m%d}1.zip"
 TCMB_URL = "https://www.tcmb.gov.tr/kurlar/{:%Y%m}/{:%d%m%Y}.xml"
 f = bs.fmt
-tablo = bs.tablo
+_kac = lambda c: str(c).replace("\\|", "|").replace("|", "\\|")  # hucre icindeki | tabloyu bozmasin
+tablo = lambda bas, sat: bs.tablo([_kac(x) for x in bas], [[_kac(c) for c in r] for r in sat])
 sma = lambda s, n: s.rolling(n).mean()
 pc2 = lambda v: f"%{100 * v:.2f}".replace(".", ",")  # %0,25
+f4 = lambda v: f"{v:.4f}".replace(".", ",") if v is not None and np.isfinite(v) else "—"
 
 # ---------------------------------------------------------------------------------------------------------------
 # Takvimler (BIST 2026 Kasim-Aralik kesin; 2027 bayramlari tahmini -> OTOMASYON.md: her yil basinda teyit edin)
@@ -189,7 +199,7 @@ def isy_istek(kod, bas, son, bekle):
                     ts = pd.to_datetime([x[0] for x in d], unit="ms") + pd.Timedelta(hours=3)
                     time.sleep(bekle)
                     return pd.Series([float(x[1]) for x in d], index=ts.normalize(), name=kod)
-        except requests.ConnectionError:
+        except (requests.ConnectionError, requests.Timeout):
             baglanti_hatasi += 1
             if ISY["basari"] == 0 and baglanti_hatasi >= 2:   # hic basari yokken 2 baglanti hatasi: kaynak kapali say
                 ISY["down"] = True
@@ -215,11 +225,30 @@ def isy_seri(kod, pxdir, bas, simdi, bekle, cevrimdisi):
             eski = None
     if cevrimdisi or ISY["down"]:
         return eski if eski is not None else pd.Series(dtype=float)
+    s = None
     if eski is not None and len(eski) and eski.index[0] <= pd.Timestamp(bas) + pd.Timedelta(days=10):
         yeni = isy_istek(kod, (eski.index[-1] - pd.Timedelta(days=15)).to_pydatetime(), simdi, bekle)
-        s = pd.concat([eski[eski.index < (yeni.index[0] if len(yeni) else eski.index[-1] + pd.Timedelta(days=1))], yeni])
-    else:
+        if not len(yeni):
+            s = eski
+        else:
+            ort = eski.index.intersection(yeni.index)
+            fark = (yeni.reindex(ort) / eski.reindex(ort) - 1).abs().max() if len(ort) else np.inf
+            # artimli guncelleme yalniz ortusen gunler tutuyorsa (duzeltme/bolunme yoksa) ve bosluk yoksa
+            if len(ort) >= 3 and fark <= 0.002:
+                s = pd.concat([eski[eski.index < yeni.index[0]], yeni])
+    if s is None:
         s = isy_istek(kod, bas, simdi, bekle)
+        # DENETIM 08.11: Is Yatirim aralikli olarak KISALTILMIS gecmis donduruyor (GARAN 1 yil, OTKAR/ODAS 2024-03'ten).
+        # Ilk tarih istenen baslangictan > 30 gun sonraysa bir kez daha iste, uzun olani al (yeni halka arzlarda ikisi ayni cikar).
+        if len(s) and s.index[0] > pd.Timestamp(bas) + pd.Timedelta(days=30) and not ISY["down"]:
+            s2 = isy_istek(kod, bas - timedelta(days=3), simdi, bekle)
+            ISY["kisa_tekrar"] = ISY.get("kisa_tekrar", 0) + 1
+            if len(s2) and s2.index[0] < s.index[0]:
+                s = s2
+        if eski is not None and len(eski) and len(s) and eski.index[0] < s.index[0]:
+            ort = eski.index.intersection(s.index)
+            if len(ort) >= 20 and (s.reindex(ort) / eski.reindex(ort) - 1).abs().max() <= 0.002:
+                s = pd.concat([eski[eski.index < s.index[0]], s])   # onbellekteki daha uzun gecmisi koru
     s = s[~s.index.duplicated(keep="last")].sort_index()
     if len(s):
         s.rename("px").to_frame().to_csv(fn)
@@ -249,7 +278,7 @@ def isy_hacim(kod, veri, kesim, bekle, cevrimdisi):
                 break
             if r.status_code == 429:
                 time.sleep(10 * (k + 1))
-        except requests.ConnectionError:
+        except (requests.ConnectionError, requests.Timeout):
             hata += 1; time.sleep(2 * (k + 1))
         except (requests.RequestException, ValueError):
             time.sleep(2 * (k + 1))
@@ -485,6 +514,39 @@ def durum_yukle(yol):
     return D, False
 
 
+def _kok(fn, a, b, n=100):
+    """fn(a) ve fn(b) zit isaretliyse kok (ikiye bolme); degilse nan."""
+    fa, fb = fn(a), fn(b)
+    if not (np.isfinite(fa) and np.isfinite(fb)) or fa * fb > 0:
+        return np.nan
+    for _ in range(n):
+        m = (a + b) / 2; fm = fn(m)
+        if (fm > 0) == (fa > 0):
+            a, fa = m, fm
+        else:
+            b = m
+    return (a + b) / 2
+
+
+def k1_tetik_yarin(sah, akb, ps=None, pa=None, L=60):
+    """K1 icin YARININ kapanisinda z=+-2 veren kesin fiyatlar (60 gunluk pencere bir gun kayar; obur bacak sabit).
+    DENETIM 08.11: bist_sinyal.k1_tetikler bugunun degerini degistiriyordu (pencere kaymiyor; 06.11'de ~3-4 kurus fark)."""
+    x = (np.log(sah) - np.log(akb)).dropna().values
+    s0, a0 = float(ps if ps is not None else sah.iloc[-1]), float(pa if pa is not None else akb.iloc[-1])  # gercek son kapanis
+    w0 = x[-(L - 1):]
+
+    def z(xn):
+        w = np.r_[w0, xn]; return (xn - w.mean()) / w.std(ddof=1)
+    out = {}
+    for tg in (2, -2):
+        xn = _kok(lambda v: z(v) - tg, x[-1] - 1.0, x[-1] + 1.0)
+        if np.isfinite(xn):
+            d = xn - x[-1]
+            out[f"SAHOL_z{tg:+d}"] = s0 * math.exp(d)
+            out[f"AKBNK_z{tg:+d}"] = a0 * math.exp(-d)
+    return out
+
+
 # ---------------------------------------------------------------------------------------------------------------
 # BIST hesaplari (bist_sinyal.py ile ayni tanimlar)
 def bist_hesapla(D, HV, M, B, btar, b100, simdi, hesap):
@@ -651,7 +713,7 @@ def bist_hesapla(D, HV, M, B, btar, b100, simdi, hesap):
     # K1 / K2 (60 gun, bugun dahil)
     sah, akb = bs.temiz_fiyat(D["SAHOL"]), bs.temiz_fiyat(D["AKBNK"])
     x1 = (np.log(sah) - np.log(akb)).dropna(); z1 = bs.z_seri(x1)
-    R["z1"] = z1; R["k1_tet"] = bs.k1_tetikler(sah, akb); R["kes1"] = bs.son_kesisim(z1)
+    R["z1"] = z1; R["k1_tet"] = k1_tetik_yarin(sah, akb, D["SAHOL"].iloc[-1], D["AKBNK"].iloc[-1]); R["kes1"] = bs.son_kesisim(z1)
     kc = bs.temiz_fiyat(D["KCHOL"])
     sep = pd.concat([bs.temiz_fiyat(D[u]) for u in bs.K2_SEPET if u in D], axis=1)
     bk = np.exp(np.log(sep).diff().mean(axis=1).fillna(0).cumsum())
@@ -772,7 +834,16 @@ def pr_koza(D, hesap, risk):
     L = Sg.iloc[-1]
     PM, PH = D["TRMET"].iloc[-1], D["TRALT"].iloc[-1]
     s2 = Sg.u.iloc[-2:].sum()
-    up = 1.5 * L.sd60 * np.sqrt(3) - s2; dn = -1.5 * L.sd60 * np.sqrt(3) - s2
+    # DENETIM 08.11: yarinin sigma60'i yarinin artigini da icerir (sinyal_koza.py 'sigma60 sabit' yaklasimi tetigi
+    # 06.11'de ~%0,15-0,35 dar veriyordu); TRALT ve TRENJ yatayken grp = 0 -> u_yarin = r_TRMET, kesin cozum:
+    uw = Sg.u.values[-59:]
+
+    def z3_yarin(un):
+        w = np.r_[uw, un]; w = w[np.isfinite(w)]
+        return (s2 + un) / (np.std(w, ddof=1) * np.sqrt(3)) if len(w) >= 40 else np.nan
+    up = _kok(lambda v: z3_yarin(v) - 1.5, -0.2, 0.2); dn = _kok(lambda v: z3_yarin(v) + 1.5, -0.2, 0.2)
+    if not np.isfinite(up): up = 1.5 * L.sd60 * np.sqrt(3) - s2
+    if not np.isfinite(dn): dn = -1.5 * L.sd60 * np.sqrt(3) - s2
     G = min(hesap * risk / 0.0205, hesap)
     nM = max(int(round(G / (1 + L.bH) / (100 * PM))), 1); nH = int(round(L.bH * nM * PM / PH))
     return dict(z3=Sg.z3, L=L, tarih=Sg.index[-1], idx=Sx.index, trades=trades, pos=pos, kilit=bool(lock[-1]),
@@ -843,7 +914,7 @@ def abd_guncelle(A, spx_f, ndx_f, vix, vix3m):
         if t_ in spx.index:
             fark = spx.loc[t_] / v["SPX"] - 1
             if abs(fark) > 0.001:
-                notlar.append(f"{t} S&P teyitsiz kapanış {v['SPX']} ≠ FRED {spx.loc[t_]:.2f} (fark {100 * fark:+.2f}%); sayaçlar elle kontrol edilmeli.")
+                notlar.append(f"{t} S&P teyitsiz kapanış {f(v['SPX'])} ≠ FRED {f(spx.loc[t_])} (fark {f(fark, '%')}); sayaçlar elle kontrol edilmeli.")
             del A["teyitsiz"][t]
         else:
             spx.loc[t_] = v["SPX"]
@@ -853,7 +924,17 @@ def abd_guncelle(A, spx_f, ndx_f, vix, vix3m):
     s10, s20, s50, s200 = sma(spx, 10), sma(spx, 20), sma(spx, 50), sma(spx, 200)
     n10, n20 = sma(ndx, 10), sma(ndx, 20)
     son_t = pd.Timestamp(A["son_tarih"])
-    yeni = [t for t in spx_f.index if t > son_t]
+    # DENETIM 08.11: bir gun ancak VIX/VIX3M (ve NDX) o gun icin yayimlanmissa islenir; yoksa sonraki calismaya kalir
+    # (eskiden VIX'i gec gelen gun bir kez 'kosul yok' sayilip SARI sayaci sifirlaniyordu).
+    yeni = []
+    for t in spx_f.index:
+        if t <= son_t:
+            continue
+        if t not in vr.index or (t not in ndx.index and (not len(ndx) or ndx.index[-1] < t)):
+            notlar.append(f"{t.date()} ABD kapanışı henüz işlenmedi: " + ("VIX/VIX3M" if t not in vr.index else "Nasdaq-100") +
+                          " verisi yok (sonraki çalışmada işlenir).")
+            break
+        yeni.append(t)
 
     def kosullar(t):
         i = spx.index.get_loc(t)
@@ -894,15 +975,21 @@ def abd_guncelle(A, spx_f, ndx_f, vix, vix3m):
             if Rl["gun"] >= 4 and cc / pp - 1 >= 0.015 and not A.get("ftd"):
                 A["ftd"] = dict(tarih=str(t.date()), endeks=ad, degisim=round(cc / pp - 1, 4), dip=Rl["dip"], seans=0)
                 A["ftd_hacim_teyit"] = None
-                notlar.append(f"{t.date()}: {ad} +%{100 * (cc / pp - 1):.2f} ile FTD ADAYI (ralli {Rl['gun']}. gün). Hacim teyidi elle: SPY/QQQ hacmi önceki günden yüksek mi?")
+                notlar.append(f"{t.date()}: {ad} " + f"+%{100 * (cc / pp - 1):.2f}".replace(".", ",") + f" ile FTD ADAYI (ralli {Rl['gun']}. gün). Hacim teyidi elle: SPY/QQQ hacmi önceki günden yüksek mi?")
         # FTD gecerlilik
         if A.get("ftd"):
             fd = A["ftd"]
             if pd.Timestamp(fd["tarih"]) < t:
                 fd["seans"] = fd.get("seans", 0) + 1
+            # DENETIM 08.11: 10>20 FTD'den sonraki 15 seans icinde BIR KEZ olustuysa FTD gecerli kalir (eskiden 15. seanstan
+            # sonra 10<20 olan her gun FTD siliniyordu)
+            if fd["seans"] <= 15 and (s10.loc[t] > s20.loc[t] or (t in n10.index and n10.loc[t] > n20.loc[t])):
+                fd["olustu_1020"] = True
+            if fd.get("gun_dibi") and c < float(fd["gun_dibi"]):
+                fd["gun_dibi_kirildi"] = True   # PLAN_ABD s2.2 YESIL: FTD gunu dibi kapanisla kirilmamis olmali (dip elle girilir)
             if A.get("ftd_hacim_teyit") is False:
                 notlar.append(f"FTD {fd['tarih']} hacim teyidi 'false' → geçersiz sayıldı."); A["ftd"] = None
-            elif fd["seans"] >= 15 and not (s10.loc[t] > s20.loc[t] or (t in n10.index and n10.loc[t] > n20.loc[t])):
+            elif fd["seans"] >= 15 and not fd.get("olustu_1020"):
                 notlar.append(f"{t.date()}: FTD {fd['tarih']} sonrası 15 seansta 10>20 oluşmadı → FTD geçersiz."); A["ftd"] = None
         k = kosullar(t)
         kirmizi = k["ka"] or k["kb"] or bool(k["kc"])
@@ -910,13 +997,13 @@ def abd_guncelle(A, spx_f, ndx_f, vix, vix3m):
         tetik = ftd_ok or bool(k["s10"] > k["s20"])
         if A.get("pilot_freni"):
             tetik = tetik and ftd_ok and bool(k["spx"] > k["s50"])
-        sari_k = (not kirmizi) and bool(k["spx"] > k["s200"]) and tetik
+        sari_k = (not kirmizi) and np.isfinite(k["vr"]) and bool(k["spx"] > k["s200"]) and tetik  # VIX o gun yoksa sayac ilerlemez
         A["sari_sayac"] = A.get("sari_sayac", 0) + 1 if sari_k else 0
         ndx_ok = bool(t in n10.index and n10.loc[t] > n20.loc[t] and n10.diff().loc[t] > 0 and n20.diff().loc[t] > 0)
         s5fi_ok = (A.get("manuel") or {}).get("s5fi") is not None and k["kc"] is not None and A["manuel"]["s5fi"] >= 50
         on_seans = bool((s10 > s20).loc[:t].iloc[-10:].all() and t in n10.index and (n10 > n20).loc[:t].iloc[-10:].all())
         yesil = (A["sari_sayac"] >= 3 and k["spx"] > k["s50"] and k["spx"] > k["s200"] and ndx_ok and np.isfinite(k["vr"])
-                 and k["vr"] < 0.95 and s5fi_ok and (ftd_ok or on_seans))
+                 and k["vr"] < 0.95 and s5fi_ok and ((ftd_ok and not A["ftd"].get("gun_dibi_kirildi")) or on_seans))
         durum = "KIRMIZI" if kirmizi else ("YEŞİL" if yesil else ("SARI" if A["sari_sayac"] >= 3 else "TURUNCU"))
         neden = []
         if k["ka"]: neden.append(f"a: VIX/VIX3M {f(k['vr'])} / önceki {f(k['vr_onceki'])}")
@@ -996,7 +1083,8 @@ def main():
     ap.add_argument("--tarih", default=None, help="BIST kesim tarihi YYYY-MM-DD (varsayilan: son tam kapanis)")
     ap.add_argument("--bas", default="2023-06-01", help="fiyat verisi baslangici")
     ap.add_argument("--bekle", type=float, default=0.4, help="istekler arasi bekleme (sn)")
-    ap.add_argument("--butce", type=float, default=480, help="Is Yatirim indirmesi icin zaman butcesi (sn)")
+    ap.add_argument("--butce", type=float, default=540, help="Is Yatirim indirmesi icin zaman butcesi (sn, calisma basindan)")
+    ap.add_argument("--isy-son", type=float, default=360, help="Is Yatirim kapaliysa en son yoklama zamani (sn, calisma basindan)")
     ap.add_argument("--cevrimdisi", action="store_true", help="hic istek atma; onbellekten oku (deneme)")
     ap.add_argument("--durum-yazmadan", action="store_true", help="durum.json'u guncelleme (deneme)")
     a = ap.parse_args()
@@ -1057,6 +1145,37 @@ def main():
         print(f"  ikinci tur: {len(eksik)} eksik/bayat seri", flush=True)
         ISY.update(down=False, hata_ardisik=0, basari=0, ikinci_tur=len(eksik))
         fiyat_turu(eksik, "ikinci tur")
+    # ---- VIOP bulteni ---------------------------------------------------------------------------------------------
+    (B1, g1), (B0, g0) = viop_iki_bulten(kesim, veri, a.bekle, a.cevrimdisi)
+    if B1 is not None:
+        B1 = B1.copy(); B1["ONCEKI UZLASMA FIYATI"] = pd.to_numeric(B1["ONCEKI UZLASMA FIYATI"].astype(str).str.replace(",", "."), errors="coerce")
+
+    # ---- ABD verisi -----------------------------------------------------------------------------------------------
+    spx_f = fred("SP500", veri, a.bekle, a.cevrimdisi); ndx_f = fred("NASDAQ100", veri, a.bekle, a.cevrimdisi)
+    vix = cboe("VIX", veri, a.bekle, a.cevrimdisi); vix3m = cboe("VIX3M", veri, a.bekle, a.cevrimdisi)
+    beklenen_abd = onceki_veya_ayni(bugun - pd.Timedelta(days=1), TATIL_ABD)  # 21:05 TSI'de bugunku ABD seansi acik
+    for ad, s_, gec in (("FRED SP500", spx_f, 1), ("FRED NASDAQ100", ndx_f, 1), ("CBOE VIX", vix, 0), ("CBOE VIX3M", vix3m, 0)):
+        if not len(s_):
+            kaynak(ad, "YOK", None, "indirilemedi"); continue
+        lim = onceki_veya_ayni(beklenen_abd - pd.Timedelta(days=1), TATIL_ABD) if gec else beklenen_abd
+        kaynak(ad, "OK" if s_.index[-1] >= lim else "BAYAT", s_.index[-1].date(),
+               "FRED ~1 iş günü gecikmeli" if gec else "ABD kapanışı 00:00 TSİ (kış); VIX 00:15")
+
+    # ---- Is Yatirim hala kapaliysa araliklarla yokla (DENETIM 08.11: erisim birkac dakikalik pencerelerle geliyor; bos
+    #      onbellekli bulut calismasinda tek sans ilk 2 dakika olmasin). Her ~60 sn'de TEK istek; son yoklama --isy-son sn'ye kadar.
+    eksik = [k for k in kodlar if k not in D or (len(D[k]) and D[k].index[-1] < beklenen_bist)]
+    while eksik and ISY["down"] and not a.cevrimdisi and time.time() - T0 < a.isy_son:
+        time.sleep(max(0.0, min(45.0, a.isy_son - (time.time() - T0))))
+        ISY.update(down=False, hata_ardisik=0, basari=0); ISY["yoklama"] = ISY.get("yoklama", 0) + 1
+        dene = isy_istek("XU100", (simdi.replace(tzinfo=None) - timedelta(days=10)), simdi.replace(tzinfo=None), a.bekle)
+        print(f"  yoklama {ISY['yoklama']}: Is Yatirim {'ACIK' if len(dene) else 'kapali'} ({time.time() - T0:.0f} sn)", flush=True)
+        if len(dene):
+            ISY["yoklama_basari"] = True
+            fiyat_turu(eksik, "yoklama turu")
+        else:
+            ISY["down"] = True
+        eksik = [k for k in kodlar if k not in D or (len(D[k]) and D[k].index[-1] < beklenen_bist)]
+
     bos = [k for k in kodlar if k not in D]
     bist_ok = "XU100" in D and "XBANK" in D and "SAHOL" in D and "AKBNK" in D and len(D["XU100"]) > 260
     son = D["XU100"].index[-1] if "XU100" in D else None
@@ -1077,6 +1196,8 @@ def main():
             kaynak("İş Yatırım HisseTekil (hacim, yedek)", "OK" if len(HV) >= 100 else ("EKSİK" if HV else "YOK"), None,
                    f"{len(HV)} hisse 60g medyan TL hacim")
     isy_not = f"{ISY['istek']} istek" + (f"; ikinci tur {ISY['ikinci_tur']} seri" if ISY.get("ikinci_tur") else "") + \
+              (f"; {ISY['yoklama']} yoklama" + (" (açıldı)" if ISY.get("yoklama_basari") else " (açılmadı)") if ISY.get("yoklama") else "") + \
+              (f"; kısa geçmiş tekrar {ISY['kisa_tekrar']}" if ISY.get("kisa_tekrar") else "") + \
               ("; BAĞLANTI KOPTU (devre kesici) → önbellek" if ISY["down"] else "") + \
               ("; zaman bütçesi aşıldı → kalanlar önbellekten" if ISY.get("butce_asildi") or ISY.get("hacim_butce") else "")
     if son is not None:
@@ -1085,28 +1206,15 @@ def main():
     else:
         kaynak("İş Yatırım ChartData (fiyat)", "YOK", None, isy_not)
     if not bist_ok and PB is not None:
-        kaynak("Borsa İstanbul pay piyasası bülteni", "OK", pbt.date(), "YEDEK KİP: son tetikler bu kapanışla kontrol edildi")
+        kaynak("Borsa İstanbul pay piyasası bülteni", "OK", pbt.date(),
+               "YEDEK KİP: son tetikler bu kapanışla kontrol edildi" if (DUR["bist"].get("tetikler")) else "YEDEK KİP: durum.json'da kayıtlı tetik yok")
 
-    # ---- VIOP bulteni ---------------------------------------------------------------------------------------------
-    (B1, g1), (B0, g0) = viop_iki_bulten(kesim, veri, a.bekle, a.cevrimdisi)
     if B1 is not None:
-        B1 = B1.copy(); B1["ONCEKI UZLASMA FIYATI"] = pd.to_numeric(B1["ONCEKI UZLASMA FIYATI"].astype(str).str.replace(",", "."), errors="coerce")
         ref = son if son is not None else beklenen_bist
         kaynak("Borsa İstanbul VİOP bülteni", "OK" if g1 >= ref else "BAYAT", g1.date(),
                f"önceki bülten {g0.date() if g0 is not None else '—'}; bülten ~20:28–20:49 TSİ'de çıkar")
     else:
         kaynak("Borsa İstanbul VİOP bülteni", "YOK", None, "indirilemedi")
-
-    # ---- ABD verisi -----------------------------------------------------------------------------------------------
-    spx_f = fred("SP500", veri, a.bekle, a.cevrimdisi); ndx_f = fred("NASDAQ100", veri, a.bekle, a.cevrimdisi)
-    vix = cboe("VIX", veri, a.bekle, a.cevrimdisi); vix3m = cboe("VIX3M", veri, a.bekle, a.cevrimdisi)
-    beklenen_abd = onceki_veya_ayni(bugun - pd.Timedelta(days=1), TATIL_ABD)  # 21:05 TSI'de bugunku ABD seansi acik
-    for ad, s_, gec in (("FRED SP500", spx_f, 1), ("FRED NASDAQ100", ndx_f, 1), ("CBOE VIX", vix, 0), ("CBOE VIX3M", vix3m, 0)):
-        if not len(s_):
-            kaynak(ad, "YOK", None, "indirilemedi"); continue
-        lim = onceki_veya_ayni(beklenen_abd - pd.Timedelta(days=1), TATIL_ABD) if gec else beklenen_abd
-        kaynak(ad, "OK" if s_.index[-1] >= lim else "BAYAT", s_.index[-1].date(),
-               "FRED ~1 iş günü gecikmeli" if gec else "ABD kapanışı 00:00 TSİ (kış); VIX 00:15")
 
     # ---- hesaplar ---------------------------------------------------------------------------------------------------
     R = None
@@ -1140,6 +1248,7 @@ def main():
     ns = sonraki_seans
     aciklayan = set(M.get("bilanco_aciklayanlar_9_11") or [])
     eylem, tetik = [], []   # eylem: (oncelik, metin); tetik: dict
+    kisa = {}               # metin -> bildirim icin kisa hali (DENETIM 08.11: bildirimde boyut/saat/stop kalsin)
     ISLEM_P = {2, 3, 4, 6}  # islem iceren oncelikler (0 KRIZ/veri, 1 takvim engeli, 5/7/8 bilgi-kagit, 9 engellenen, 10 bilgi)
     yon_metin = lambda y: "AL" if y > 0 else "SAT"
     kriz_var = bool(R and R["kriz_var"])
@@ -1156,34 +1265,68 @@ def main():
         try:
             kol, en = p.get("kol"), p.get("enstruman"); gt = pd.Timestamp(p.get("giris_tarihi"))
             gun = is_gunu_say(gt, son if son is not None else beklenen_bist)
-            ek = ""
+            ek = ""; ks = f"{kol} {en}: tut"
             if kol == "K4" and R is not None and en in D:
-                c = D[en]; mx = c[c.index >= gt].max(); stp = 0.85 * mx
-                ek = (f"iz-stop {f(stp)} (en yüksek kapanış {f(mx)} × 0,85); bugün {f(c.iloc[-1])} → "
-                      + ("**STOP: ertesi gün 18:01–18:05 risk azaltan satış, limit max(taban; P_son × 0,97)**" if c.iloc[-1] <= stp else "tut")
+                c = D[en]; mx = c[c.index >= gt].max()
+                gf = float(p.get("giris_fiyati") or 0)
+                iz = 0.90 if (gf > 0 and mx >= 2 * gf) else 0.85   # E5: +%100 kârda iz-stop %10
+                stp = iz * mx; durdu = c.iloc[-1] <= stp
+                ek = (f"iz-stop {f(stp)} (en yüksek kapanış {f(mx)} × {f(iz)}); bugün {f(c.iloc[-1])} → "
+                      + ("**STOP: ertesi gün 18:01–18:05 risk azaltan satış, limit max(taban; P_son × 0,97)**" if durdu else
+                         ("**SÜRE (E2): ertesi gün 18:01–18:05 sat, limit max(önceki kapanış × 0,94; P_son × 0,97)**" if gun >= 120 else "tut"))
                       + (f"; 120 gün süre {gun}/120" if gun else ""))
+                ks = (f"K4 {en} STOP: 18:01–18:05 sat (kapanış {f(c.iloc[-1])} ≤ {f(stp)})" if durdu else
+                      (f"K4 {en} SÜRE ÇIKIŞI 18:01–18:05" if gun >= 120 else f"K4 {en} tut (iz-stop {f(stp)})"))
             elif kol == "K1":
-                ek = f"{gun}/20 iş günü; çıkış {tr_tarih(sonraki(gt, 20))} 17:55 (VİOP çıkış sırası); felaket stopu bacak nominalinin −%8'i"
+                ck = sonraki(gt, 20)
+                ek = f"{gun}/20 iş günü; çıkış {tr_tarih(ck)} 17:55 (VİOP çıkış sırası); felaket stopu bacak nominalinin −%8'i"
+                ks = f"K1 {en} ÇIKIŞ 17:55" if ck <= ns else f"K1 {en} gün {gun}/20 (çıkış {ck:%d.%m})"
             elif kol == "PRATIK_SAHOL" and PS is not None:
                 zz = PS["z"].iloc[-1]; yon = 1 if str(p.get("yon", "")).upper().startswith(("LONG", "AL")) else -1
                 ek = f"z {f(zz)} → " + ("**ÇIKIŞ: |z| ≤ 1,5, ertesi gün uzlaşmada kapat**" if yon * zz >= -1.5 else "tut (çıkış |z| ≤ 1,5)")
+                ks = f"PRATİK SAHOL/AKBNK " + ("ÇIKIŞ uzlaşmada" if yon * zz >= -1.5 else f"tut (z {f(zz)})")
             elif kol in ("KOZA", "ALTIN", "TUPRS"):
                 ck = sonraki(gt, 2)
-                ek = f"planlanan çıkış {tr_tarih(ck)} 18:00–18:10 uzlaşma; çıkış günü aynı yönde sinyal sürüyorsa 2 gün uzat" + (" (≤6 gün)" if kol == "KOZA" else "")
+                ek = (("**" if ck <= ns else "") + f"planlanan çıkış {tr_tarih(ck)} 18:00–18:10 uzlaşma" + ("**" if ck <= ns else "")
+                      + "; çıkış günü 17:50'de aynı yönde sinyal sürüyorsa 2 gün uzat" + (" (≤6 gün)" if kol == "KOZA" else ""))
+                ks = f"{kol} {en} " + (f"ÇIKIŞ {ck:%d.%m} 18:00–18:10 (sinyal sürüyorsa +2 gün)" if ck <= ns else f"tut (çıkış {ck:%d.%m})")
             elif kol == "XU030_BAZ":
-                ek = f"çıkış {tr_tarih(sonraki(gt, 1))} uzlaşmada"
-            eylem.append((2, f"Açık pozisyon {kol} {en} {p.get('yon', '')} (giriş {gt:%d.%m}): {ek}"))
+                ek = f"çıkış {tr_tarih(sonraki(gt, 1))} uzlaşmada"; ks = f"XU030 baz ÇIKIŞ {sonraki(gt, 1):%d.%m} uzlaşma"
+            isimler = [x for x in str(en).replace(",", "/").replace(" ", "/").split("/") if x]
+            if ns == pd.Timestamp("2026-11-09"):
+                bek = [x for x in isimler if x in bs.BILANCO_9_11 and x not in aciklayan]
+                if bek:
+                    ek += f" — **A1: {', '.join(bek)} bilançosu 9.11 18:00'e kadar KAP'ta yoksa pozisyon 9.11 gecesi taşınmaz → 9.11 18:00–18:10'da kapat**"
+                    ks += f"; A1: {', '.join(bek)} bilançosu yoksa 9.11 18:00–18:10 kapat"
+            m_ = f"Açık pozisyon {kol} {en} {p.get('yon', '')} (giriş {gt:%d.%m}): {ek}"
+            # yalniz 'tut' gerektiren pozisyon islem sayilmaz (oncelik 5: izle); stop/cikis/A1 islemdir (2)
+            eylem.append((2 if ("**" in ek or "ÇIKIŞ" in ks or "STOP" in ks) else 5, m_)); kisa[m_] = ks
         except Exception as e:
             eylem.append((2, f"Açık pozisyon kaydı okunamadı ({p}): {e}"))
     if R is not None:
-        # K4
+        # K4 (rejim tavanı: KAPALI 2 / GEÇİŞ 4 / AÇIK 6 açık K4; kümede 1 (KAPALI) / 2; durum.json'daki açık K4'ler düşülür)
+        tavan = {"KAPALI": 2, "GEÇİŞ": 4, "AÇIK": 6}[R["durum"]]
+        kume_tav = 1 if R["durum"] == "KAPALI" else 2
+        acik_k4 = [p_.get("enstruman") for p_ in DUR.get("acik_pozisyonlar") or [] if p_.get("kol") == "K4"]
+        kume_say = {}
+        for e_ in acik_k4:
+            kk_ = R["K"].at[e_, "kume"] if e_ in R["K"].index else "—"
+            kume_say[kk_] = kume_say.get(kk_, 0) + 1
+        yer = tavan - len(acik_k4)
         for k, x in R["nit"].iterrows():
             eng = tum_engel or giris_engeli(ns, "K4", k, bs.BILANCO_9_11, aciklayan) or ("KRİZ" if kriz_var else "")
+            if not eng and yer <= 0:
+                eng = f"K4 tavanı dolu ({R['durum']}: en çok {tavan} açık K4)"
+            if not eng and x.kume != "—" and kume_say.get(x.kume, 0) >= kume_tav:
+                eng = f"aynı kümeden ({x.kume}) en çok {kume_tav} pozisyon"
+            if not eng:
+                yer -= 1; kume_say[x.kume] = kume_say.get(x.kume, 0) + 1
             lim = x.kapanis * 1.06
             metin = (f"K4 **{k} AL (spot{' / VİOP-47' if x.viop else ''})** — {tr_tarih(ns)} 18:01–18:05 kapanış seansı limitli alış, "
-                     f"limit min({f(lim)}; P_son × 1,03); iz-stop kapanış ≤ en yüksek kapanış × 0,85 (ilk stop ≈ {f(x.kapanis * (1 - x.stop))}, %{int(100 * x.stop)}); "
-                     f"boyut {f(x.tl / 1e3, 'f0')} bin TL ({f(hesap / 1e6, 'f1')} mn TL hesap, r₀ {pc2(R['r0'])}); çıkış iz-stop ya da 120 gün")
+                     f"limit min({f(lim)}; P_son × 1,03); iz-stop (E1) kapanış ≤ girişten beri en yüksek kapanış × 0,85 (bugünkü kapanışla ≈ {f(x.kapanis * 0.85)}); "
+                     f"boyut {f(x.tl / 1e3, 'f0')} bin TL (stop mesafesi %{int(100 * x.stop)} ile; {f(hesap / 1e6, 'f1')} mn TL hesap, r₀ {pc2(R['r0'])}); çıkış iz-stop ya da 120 gün")
             eylem.append((9, f"~~{metin}~~ → **giriş yok: {eng}**") if eng else (2, metin))
+            kisa[metin] = f"K4 {k} AL 18:01–18:05 limit ≤ {f(lim)}, {f(x.tl / 1e3, 'f0')} bin TL, iz-stop %15"
         # K1
         z1 = R["z1"].iloc[-1]
         if abs(z1) >= 2:
@@ -1191,10 +1334,10 @@ def main():
             kap = bool(M.get("kural0")) and (M.get("komisyon_viop_bps") or 99) <= 5
             fs = on_vade(B1, "SAHOL", g1, sonra=sonraki(ns, 20)) if B1 is not None else None
             fa = on_vade(B1, "AKBNK", g1, sonra=sonraki(ns, 20)) if B1 is not None else None
-            n_s = int(0.075 * hesap / (fs["UZLASMA FIYATI"] * 100)) if fs is not None else None
-            n_a = int(0.075 * hesap / (fa["UZLASMA FIYATI"] * 100)) if fa is not None else None
+            n_s = int(0.075 * hesap / ((fs["UZLASMA FIYATI"] if fs is not None else D["SAHOL"].iloc[-1]) * 100))
+            n_a = int(0.075 * hesap / ((fa["UZLASMA FIYATI"] if fa is not None else D["AKBNK"].iloc[-1]) * 100))
             mt = (f"K1 **{yon}** (z {f(z1)}) — {tr_tarih(ns)} 17:50 kontrol (bacak ±%9 ise giriş yok), 17:55 limit karşı en iyi ±%0,3, "
-                  f"18:05 ±%0,6; kontrat {fs['SOZLESME KODU'] if fs is not None else '?'} / {fa['SOZLESME KODU'] if fa is not None else '?'}, "
+                  f"18:05 ±%0,6; kontrat {fs['SOZLESME KODU'] if fs is not None else 'F_SAHOL (çıkıştan sonra biten vade)'} / {fa['SOZLESME KODU'] if fa is not None else 'F_AKBNK'}, "
                   f"bacak başı hesabın %7,5'i ≈ {n_s} / {n_a} kontrat; çıkış 20. iş günü ({tr_tarih(sonraki(ns, 20))}); felaket stopu −%8")
             eng = giris_engeli(ns, "K1", ["SAHOL", "AKBNK"], bs.BILANCO_9_11, aciklayan)
             if R["k1_model"] is not None and R["k1_model"]["giris_i"] <= len(R["k1_idx"]) - 1:
@@ -1205,19 +1348,27 @@ def main():
                 eylem.append((5, mt + " → **KÂĞIT** (Kural 0 / komisyon ≤ 5 bps kapısı makro.json'da açık değil)"))
             else:
                 eylem.append((2, mt))
-    # PRATIK SAHOL/AKBNK
+            kisa[mt] = f"K1 {yon} {n_s}/{n_a} kontrat 17:55 (z {f(z1)}), çıkış {sonraki(ns, 20):%d.%m}"
+            kisa[mt + " → **KÂĞIT** (Kural 0 / komisyon ≤ 5 bps kapısı makro.json'da açık değil)"] = f"K1 kâğıt: {yon} (z {f(z1)})"
+    # PRATIK SAHOL/AKBNK (DENETIM 08.11: 'girerdi' yalniz YENI bolumun ilk gunu; suren bolumde model pozisyonu bilgi olarak)
     if PS is not None:
         zz = PS["z"].iloc[-1]
         mod = DUR["ayarlar"].get("pratik_sahol_akbnk", "kagit")
-        if PS["act"].startswith(("AÇ", "KAPAT +")) or abs(zz) > 1.5:
+        if PS["act"].startswith("KAPAT"):
+            m_ = f"PRATİK SAHOL/AKBNK: model bugün |z| ≤ 1,5 ile ÇIKTI (z {f(zz)}) → elde varsa {tr_tarih(ns)} 18:00–18:10 uzlaşmada kapat"
+            eylem.append((4, m_)); kisa[m_] = "PRATİK SAHOL/AKBNK: elde varsa 18:00–18:10 uzlaşmada KAPAT"
+        if "AÇ" in PS["act"]:
             yon = "F_SAHOL SAT + F_AKBNK AL" if zz > 0 else "F_SAHOL AL + F_AKBNK SAT"
-            mt = (f"PRATİK SAHOL/AKBNK z {f(zz)} > eşik: kural bugünkü uzlaşmada **{yon}** ({PS['n'][0]}:{PS['n'][1]} kontrat, K9 riski) girerdi; 21:05'te kaçtı. Ertesi gün girişi test edilmedi → yarın 17:50'de |z| hâlâ > 1,5 "
+            mt = (f"PRATİK SAHOL/AKBNK z {f(zz)} (|z| > 1,5, yeni bölüm): kural bugünkü uzlaşmada **{yon}** ({PS['n'][0]}:{PS['n'][1]} kontrat, K9 riski) girerdi; 21:05'te kaçtı. Ertesi gün girişi test edilmedi → yarın 17:50'de |z| hâlâ > 1,5 "
                   f"ise yalnız {'kâğıt' if mod != 'canli' else 'yarım boy'}; çıkış |z| ≤ 1,5 olunca uzlaşmada")
-            eylem.append((6 if mod == "canli" else 7, mt))
-        elif PS["act"] == "KAPAT":
-            eylem.append((4, f"PRATİK SAHOL/AKBNK: model bugün |z| ≤ 1,5 ile ÇIKTI (z {f(zz)}) → elde varsa {tr_tarih(ns)} 18:00–18:10 uzlaşmada kapat"))
+            eng = tum_engel or ("KRİZ" if kriz_var else "") or giris_engeli(ns, "K9", ["SAHOL", "AKBNK"], bs.BILANCO_9_11, aciklayan)
+            eylem.append((9, f"{mt} → **giriş yok: {eng}**") if eng else (6 if mod == "canli" else 7, mt))
+            kisa[mt] = f"PRATİK SAHOL/AKBNK {yon} ({'yarım boy, ' if mod == 'canli' else 'kâğıt, '}17:50'de |z|>1,5 ise; z {f(zz)})"
         elif PS["side"] != 0:
-            eylem.append((5, f"PRATİK SAHOL/AKBNK: model {'LONG' if PS['side'] > 0 else 'SHORT'} {PS['held']} gündür; çıkış |z| ≤ 1,5 (bugün {f(zz)})"))
+            eylem.append((5, f"PRATİK SAHOL/AKBNK: model {'LONG' if PS['side'] > 0 else 'SHORT'} {PS['held']} gündür (giriş {PS['T'][-1]['giris']:%d.%m}); "
+                             f"çıkış |z| ≤ 1,5 (bugün {f(zz)}); yeni giriş yok"))
+        elif abs(zz) > 1.5:
+            eylem.append((7, f"PRATİK SAHOL/AKBNK z {f(zz)} eşik dışında ama bu bölümün girişi zaten yapıldı/atlandı → yeni giriş yok"))
     # KOZA
     if KZ is not None:
         zz = KZ["L"].z3
@@ -1232,6 +1383,8 @@ def main():
                   f"{KZ['n'][0]} {ft['SOZLESME KODU'] if ft is not None else 'TRMET'} : {KZ['n'][1]} {fh['SOZLESME KODU'] if fh is not None else 'TRALT'} "
                   f"(K9 riski {pc2(R['k9_risk'] if R else 0.0025)}, β {f(KZ['L'].bH)}); çıkış {tr_tarih(cik)} uzlaşma, aynı yönde |z3|>1,5 ise +2 gün (≤6)")
             eylem.append((9, f"~~{mt}~~ → **giriş yok: {eng}**") if eng else (4, mt))
+            kisa[mt] = (f"KOZA {'TRMET1! AL + TRALT1! SAT' if s > 0 else 'TRMET1! SAT + TRALT1! AL'} {KZ['n'][0]}:{KZ['n'][1]} kontrat "
+                        f"18:00–18:10 uzlaşma, çıkış {cik:%d.%m} (z3 {f(zz)})")
         elif KZ["pos"] is None and abs(zz) > 1.5:
             eylem.append((7, f"KOZA z3 {f(zz)} eşik üstü ama kural girişi yok ({'kilit şüphesi: TRMET/TRALT ±%9,5' if KZ['kilit'] else 'aynı yönde 6 günlük işlem yeni bitti; z3 bant içine dönmeli'})"))
         elif KZ["pos"] is not None:
@@ -1268,9 +1421,11 @@ def main():
     # ABD
     if abd and "k" in abd:
         izin = A["durum"] in ("SARI", "YEŞİL")
+        kisa_abd = f"ABD {A['durum']}: pilot izinli 16:45–17:15 TSİ, işlem başı %0,25 risk"
         eylem.append((3 if izin else 10, f"ABD rejimi **{A['durum']}** ({abd['t']:%d.%m} kapanışı) → " +
                       ("pilot izinli: 16:45–17:15 TSİ bekleyen emir, işlem başı %0,25 risk, yakın bölgede tek pozisyon (PLAN_ABD §2.2)" if izin
                        else f"yeni canlı giriş yok; en erken SARI kapanışı {tr_tarih(abd['en_erken']['sari'])}, en erken pilot {tr_tarih(abd['en_erken']['pilot'])} 16:45–17:15")))
+        kisa[eylem[-1][1]] = kisa_abd
 
     # ---- tetikler (yarin) ---------------------------------------------------------------------------------------------
     def tet(kol, en, kosul, seviye, bugun_, islem, canli=False, zaman=None):
@@ -1287,12 +1442,14 @@ def main():
         tet("K1", "AKBNK", "kapanış ≤ (SAHOL sabit)", tt.get("AKBNK_z+2"), D["AKBNK"].iloc[-1], "z=+2 → ertesi gün F_SAHOL SAT + F_AKBNK AL")
         tet("K1", "SAHOL", "kapanış ≤ (AKBNK sabit)", tt.get("SAHOL_z-2"), D["SAHOL"].iloc[-1], "z=−2 → ertesi gün F_SAHOL AL + F_AKBNK SAT")
         tet("K1", "AKBNK", "kapanış ≥ (SAHOL sabit)", tt.get("AKBNK_z-2"), D["AKBNK"].iloc[-1], "z=−2 → ertesi gün F_SAHOL AL + F_AKBNK SAT")
-        tet("Rejim T3", "XU100", "5 kapanış > SMA50", R["xs50"], R["xu"], "T3=1 (GEÇİŞ için M1 + M2/M4/M5 de gerekir)")
-        tet("Rejim M5", "XBANK", "kapanış > SMA200", R["xb200"], R["xb"], "M5=1")
-        tet("Rejim T1", "XU100", "kapanış > SMA200", R["xs200"], R["xu"], "AÇIK rejim (K4 r₀ %0,75)")
+        # yarinin SMA'si yarinin kapanisini da icerir: kapanis > SMA_n(yarin)  <=>  kapanis > son (n-1) kapanisin ortalamasi (kesin)
+        tet("Rejim T3", "XU100", "kapanış > yarının SMA50 (5 kapanış gerekir)", D["XU100"].iloc[-49:].mean(), R["xu"], "T3=1 (GEÇİŞ için M1 + M2/M4/M5 de gerekir)")
+        tet("Rejim M5", "XBANK", "kapanış > yarının SMA200", D["XBANK"].iloc[-199:].mean(), R["xb"], "M5=1")
+        tet("Rejim T1", "XU100", "kapanış > yarının SMA200", D["XU100"].iloc[-199:].mean(), R["xu"], "AÇIK rejim (K4 r₀ %0,75)")
     if PS is not None and PS["side"] == 0:
+        kg = "" if DUR["ayarlar"].get("pratik_sahol_akbnk", "kagit") == "canli" else " (kâğıt)"
         for tg, (ps_, pa_) in PS["tet"].items():
-            yon = "F_SAHOL SAT + F_AKBNK AL" if tg > 0 else "F_SAHOL AL + F_AKBNK SAT"
+            yon = ("F_SAHOL SAT + F_AKBNK AL" if tg > 0 else "F_SAHOL AL + F_AKBNK SAT") + kg
             tet("PRATİK", "SAHOL", f"{'≥' if tg > 0 else '≤'} (AKBNK sabit), z={'+' if tg > 0 else '−'}1,5", ps_, PS["pa"], f"aynı gün uzlaşmada {yon}", True)
             tet("PRATİK", "AKBNK", f"{'≤' if tg > 0 else '≥'} (SAHOL sabit), z={'+' if tg > 0 else '−'}1,5", pa_, PS["pb"], f"aynı gün uzlaşmada {yon}", True)
     if KZ is not None and KZ["pos"] is None:
@@ -1300,10 +1457,11 @@ def main():
         tet("KOZA", "TRMET", "kapanış ≤ (TRALT, TRENJ yatay)", KZ["tet_sat"], KZ["PM"], "aynı gün uzlaşmada TRMET1! SAT + TRALT1! AL", True)
     if abd and "k" in abd:
         k = abd["k"]
+        s200_yarin = abd["spx"].loc[:abd["t"]].iloc[-199:].mean()   # yarinin 200 GHO'su yarinin kapanisini da icerir (kesin esik)
         if k["spx"] > k["s200"]:
-            tet("ABD", "S&P 500", "kapanış < 200 GHO", k["s200"], k["spx"], "2 kapanış üst üste altında → KIRMIZI (b), sayım yeniden", zaman="ABD kapanışı (00:00 TSİ)")
+            tet("ABD", "S&P 500", "kapanış < yarının 200 GHO", s200_yarin, k["spx"], "2 kapanış üst üste altında → KIRMIZI (b), sayım yeniden", zaman="ABD kapanışı (00:00 TSİ)")
         else:
-            tet("ABD", "S&P 500", "kapanış > 200 GHO", k["s200"], k["spx"], "SARI şartı (S&P > 200 GHO)", zaman="ABD kapanışı (00:00 TSİ)")
+            tet("ABD", "S&P 500", "kapanış > yarının 200 GHO", s200_yarin, k["spx"], "SARI şartı (S&P > 200 GHO)", zaman="ABD kapanışı (00:00 TSİ)")
         for ad in ("SPX", "NDX"):
             Rl = A["ralli"][ad]
             if Rl["gun1"] and Rl["gun"] >= 3 and not A.get("ftd"):
@@ -1319,7 +1477,7 @@ def main():
     yakin = sorted([t_ for t_ in tetik if abs(t_["uzak"]) <= 0.03], key=lambda t_: abs(t_["uzak"]))
 
     # degrade kip: dunku tetikleri pay bulteniyle kontrol
-    degrade = []
+    degrade, degrade_yakin = [], []
     if R is None and PB is not None:
         for t_ in DUR["bist"].get("tetikler") or []:
             en = t_["en"]
@@ -1328,6 +1486,8 @@ def main():
                 ust = "≥" in t_["kosul"] or ">" in t_["kosul"]
                 ok = c >= t_["seviye"] if ust else c <= t_["seviye"]
                 degrade.append([t_["kol"], en, t_["kosul"], f(t_["seviye"]), f(c), "**TETİKLENDİ**" if ok else "—", t_["islem"]])
+                if not ok and abs(t_["seviye"] / c - 1) <= 0.03:
+                    degrade_yakin.append(dict(kol=t_["kol"], en=en, op="≥" if ust else "≤", seviye=t_["seviye"], uzak=t_["seviye"] / c - 1))
 
     # ---- RAPOR ---------------------------------------------------------------------------------------------------
     tarih_etiket = son if son is not None else (g1 if g1 is not None else beklenen_bist)
@@ -1347,7 +1507,12 @@ def main():
     bayat = [k for k, v in KAYNAK.items() if v["durum"] in ("BAYAT", "YOK")]
     if bayat:
         uyarilar.append("BAYAT/YOK kaynak: " + ", ".join(bayat) + " (§6).")
-        kisa_uyari.append("bayat: " + ", ".join(b.split(" (")[0] for b in bayat)[:80])
+        kisa_ad = {"Borsa İstanbul pay piyasası bülteni": "pay bülteni", "Borsa İstanbul VİOP bülteni": "VİOP bülteni",
+                   "İş Yatırım ChartData (fiyat)": "İş Yatırım", "FRED SP500": "FRED", "FRED NASDAQ100": "FRED",
+                   "CBOE VIX": "CBOE", "CBOE VIX3M": "CBOE", "KAP endeks listesi": "KAP"}
+        kb = [x for x in dict.fromkeys(kisa_ad.get(b, b.split(" (")[0]) for b in bayat) if not (x == "İş Yatırım" and ISY["down"])]
+        if kb:
+            kisa_uyari.append("bayat/yok: " + ", ".join(kb))
     if uyarilar:
         md += ["> **Uyarı:** " + " ".join(uyarilar), ""]
 
@@ -1355,7 +1520,7 @@ def main():
     sirali = sorted(eylem, key=lambda x: x[0])
     aktif = [m for p, m in sirali if p in ISLEM_P]
     if not aktif:
-        neden = []
+        neden = [] if R is not None else ["BIST verisi yok"]
         if R is not None:
             neden.append(f"BIST rejimi {R['durum']}, KRİZ {'VAR' if kriz_var else 'yok'}, K4 nitelikli {len(R['nit'])}, K1 z {f(R['z1'].iloc[-1])}")
         if KZ is not None: neden.append(f"Koza z3 {f(KZ['L'].z3)}")
@@ -1394,7 +1559,7 @@ def main():
             "", f"**Durum: {R['durum']}** ({R['acik']}/7 açık) → K4 r₀ {pc2(R['r0'])}, K9 (1–3 günlük sinyaller) risk {pc2(R['k9_risk'])}; ertesi işlem gününden geçerli.", "",
             "**KRİZ kesicisi:**", tablo(["Tetik", "Değer", "Tetiklendi"], [[k, v[0], "**EVET**" if v[1] else "—"] for k, v in R["kriz"].items()]), ""]
         if R["kriz_yakin"] and not kriz_var:
-            md += [f"> KRİZ (d) yakın: son haftalık net rezerv değişimi {f(float(R['nr_deg'][-1]), 'f1')} mlr $. Bir hafta daha ≤ −5 gelirse tetiklenir (12.11 14:30).", ""]
+            md += [f"> KRİZ (d) yakın: son haftalık net rezerv değişimi {f(float(R['nr_deg'][-1]), 'f1')} mlr $. Bir hafta daha ≤ −5 gelirse tetiklenir ({(son + pd.Timedelta(days=(3 - son.weekday()) % 7 or 7)):%d.%m} Perşembe 14:30 rezervi).", ""]
         md += [f"Makro: makro.json (güncellendi {M.get('guncellendi')}, {makro_yas} gün önce{' → BAYAT' if makro_yas > 7 else ''}).", ""]
 
     # 2. plan kurallari
@@ -1412,7 +1577,10 @@ def main():
                    ["K2", f(z2), R["kes2"].date() if R["kes2"] is not None else "—", "yalnız yeni kesişimde; varsayılan kâğıt"]]),
                "", f"K1 tam tetikler (öbür bacak sabit; SAHOL {f(D['SAHOL'].iloc[-1])}, AKBNK {f(D['AKBNK'].iloc[-1])}): z=+2 → SAHOL ≥ {f(tt.get('SAHOL_z+2'))} "
                f"ya da AKBNK ≤ {f(tt.get('AKBNK_z+2'))}; z=−2 → SAHOL ≤ {f(tt.get('SAHOL_z-2'))} ya da AKBNK ≥ {f(tt.get('AKBNK_z-2'))}. "
-               f"Kapı: Kural 0 = {'E' if M.get('kural0') else 'H'}, komisyon = {M.get('komisyon_viop_bps') or '—'} bps (≤ 5 gerekir).", ""]
+               f"Kapı: Kural 0 = {'E' if M.get('kural0') else 'H'}, komisyon = {M.get('komisyon_viop_bps') or '—'} bps (≤ 5 gerekir).",
+               "", f"TradingView oran alarmı (BIST:SAHOL/BIST:AKBNK, 1G, 'Bar kapanışında'): **≥ {f4(tt.get('SAHOL_z+2', np.nan) / D['AKBNK'].iloc[-1])}** (z=+2 → F_SAHOL SAT + F_AKBNK AL) "
+               f"ya da **≤ {f4(tt.get('SAHOL_z-2', np.nan) / D['AKBNK'].iloc[-1])}** (z=−2 → F_SAHOL AL + F_AKBNK SAT); bugünkü oran {f4(D['SAHOL'].iloc[-1] / D['AKBNK'].iloc[-1])}. "
+               "Seviyeler her akşam bu rapordan güncellenir; giriş ertesi gün 17:55.", ""]
         nit, izle = R["nit"], R["izle"]
         md += [f"### K4 kırılım (evren: ilk 75 likit; likidite {R['liq_n']} hissede)", ""]
         if len(nit):
@@ -1480,7 +1648,7 @@ def main():
     if BZ is not None:
         satir.append(["XU030 kapanış bazı sıçraması", f"b {f(BZ['b'] * 1e4, 'f0')} bps, Δb {f(BZ['db'] * 1e4, 'f0')} bps (z {f(BZ['z'])}; σ≈50 bps sabit)",
                       f"18:10–18:15 F/S oranı > {BZ['oran_ust']:.5f} (SAT) ya da < {BZ['oran_alt']:.5f} (AL)".replace(".", ",") + f"; bugünkü spotla F ≥ {f(BZ['F_ust'], 'f0')} / ≤ {f(BZ['F_alt'], 'f0')}",
-                      "ucuz kapandıysa XU030D1! AL, pahalıysa SAT; ertesi gün uzlaşmada kapat; 1 mn TL'de 1–2 kontrat",
+                      "ucuz kapandıysa XU030D1! AL, pahalıysa SAT; ertesi gün uzlaşmada kapat; 1 mn TL'de 1 kontrat (K9 riski)",
                       "**TradingView alarmıyla izlenir** (canlı 18:10 fiyatı gerekir; bülten değeri yalnız bilgi)"])
     else:
         satir.append(["XU030 kapanış bazı", "veri yok", "—", "—", "TradingView alarmıyla izlenir"])
@@ -1525,7 +1693,10 @@ def main():
                    ["KIRMIZI (c) S5FI<50 ve S5TH<60", "veri yok (TradingView INDEX:S5FI/S5TH, durum.json 'manuel')" if k["kc"] is None else ("evet" if k["kc"] else "hayır"), "elle"],
                    ["Ralli denemesi S&P", f"dip {f(Rs['dip'])} ({Rs['dip_tarihi']}); " + (f"1. gün {Rs['gun1']}, bugün {Rs['gun']}. gün" if Rs["gun1"] else "başlamadı"), "FTD 4. günden itibaren"],
                    ["Ralli denemesi NDX", f"dip {f(Rn['dip'])} ({Rn['dip_tarihi']}); " + (f"1. gün {Rn['gun1']}, bugün {Rn['gun']}. gün" if Rn["gun1"] else "başlamadı"), "—"],
-                   ["FTD", (f"{A['ftd']['tarih']} {A['ftd']['endeks']} +%{100 * A['ftd']['degisim']:.2f} (hacim teyidi: {A.get('ftd_hacim_teyit')})" if A.get("ftd") else "yok"), "geçerli FTD ya da S&P 10>20 = SARI tetiği"],
+                   ["FTD", (f"{A['ftd']['tarih']} {A['ftd']['endeks']} {f(A['ftd']['degisim'], '%')} (hacim teyidi: {A.get('ftd_hacim_teyit')}; durum.json 'ftd_hacim_teyit' true/false); "
+                            f"15 seans içinde 10>20: {'oluştu' if A['ftd'].get('olustu_1020') else 'henüz yok'} ({A['ftd'].get('seans', 0)}. seans); "
+                            f"FTD günü dibi (YEŞİL şartı, durum.json abd.ftd.gun_dibi elle): {A['ftd'].get('gun_dibi') or 'girilmedi'}"
+                            + (" → **kırıldı, YEŞİL olunmaz**" if A['ftd'].get('gun_dibi_kirildi') else "") if A.get("ftd") else "yok"), "geçerli FTD ya da S&P 10>20 = SARI tetiği"],
                    ["SARI sayacı (3 kapanış kuralı)", str(A.get("sari_sayac", 0)), "3 → SARI"],
                    ["Pilot freni (elle)", "AKTİF" if A.get("pilot_freni") else "yok", "aktifse FTD + S&P > 50 GHO ek şartı"]]),
                "", f"**Durum: {A['durum']}** → " + ({"KIRMIZI": "yeni canlı giriş yok, yalnız gölge kayıt", "TURUNCU": "yeni canlı giriş yok, yalnız gölge kayıt",
@@ -1556,21 +1727,31 @@ def main():
     open(os.path.join(a.cikti, "SON.md"), "w", encoding="utf-8").write(metin)
 
     # ---- BILDIRIM ----------------------------------------------------------------------------------------------------
-    parca = [f"{pd.Timestamp(tarih_etiket):%d.%m} kapanışı"]
+    # DENETIM 08.11: bildirim EYLEMLE baslar (telefonda ilk ~100 karakter gorunur), baglam sonra gelir
+    kisa_t = lambda d: f"{['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'][pd.Timestamp(d).weekday()]} {pd.Timestamp(d):%d.%m}"
     aktif = [m for p, m in sorted(eylem, key=lambda x: x[0]) if p in ISLEM_P]
-    if R is not None:
-        parca.append(f"BIST {R['durum']}" + (", KRİZ VAR" if kriz_var else ""))
-    else:
-        parca.append("BIST veri yok")
     if aktif:
         temiz = lambda s: s.replace("**", "").replace("~~", "").split(" — ")[0]
-        parca.append(f"{tr_tarih(ns)}: " + " | ".join(temiz(m)[:110] for m in aktif[:3]))
+        parca = [f"{kisa_t(ns)} İŞLEM ({len(aktif)}): " + " | ".join(temiz(kisa.get(m, m))[:160] for m in aktif[:3])]
     else:
-        parca.append(f"{tr_tarih(ns)}: işlem yok")
-    if yakin:
-        parca.append("Yakın tetik: " + ", ".join(f"{t_['en']} {t_['op']}{f(t_['seviye'])} ({t_['kol']})" for t_ in yakin[:4]))
+        parca = [f"{kisa_t(ns)}: İŞLEM YOK" + (" (BIST verisi yok)" if R is None else "")]
+    kagit = [kisa[m] for p, m in sorted(eylem, key=lambda x: x[0]) if p in (5, 7) and m in kisa]
+    if kagit:
+        parca.append("İzle/kâğıt: " + " | ".join(kagit[:3]))
+    dg_tet = [r_ for r_ in degrade if "TETİKLENDİ" in r_[5]]
+    if dg_tet:
+        parca.append("YEDEK KİP tetiklenen: " + ", ".join(f"{r_[1]} {r_[2].split(' ')[0]} {r_[3]} ({r_[0]})" for r_ in dg_tet[:3]))
+    parca.append(f"{pd.Timestamp(tarih_etiket):%d.%m} kapanışı: " + (f"BIST {R['durum']}" + (", KRİZ VAR" if kriz_var else "") if R is not None else "BIST veri yok"))
+    tk_ns = [o.split(" (")[0] for b_, e_, p_, o, k_, bl in takvim_bayraklari(ns, 0) if p_ == "BIST" and bl]
+    if tk_ns:
+        parca.append("Takvim: " + "; ".join(tk_ns))
+    if yakin or degrade_yakin:
+        yb = sorted(yakin + degrade_yakin, key=lambda t_: (t_["kol"].startswith("ABD"), abs(t_["uzak"])))
+        parca.append("Yakın tetik: " + ", ".join(f"{t_['en']} {t_['op']}{f(t_['seviye'])} ({t_['kol']})" for t_ in yb[:4]))
     if abd and "k" in abd:
         parca.append(f"ABD {A['durum']} (VIX/VIX3M {f(abd['k']['vr'])}); en erken pilot {abd['en_erken']['pilot']:%d.%m}")
+    else:
+        parca.append(f"ABD veri yok (son durum {A.get('durum')}, {A.get('son_tarih')})")
     if kisa_uyari:
         parca.append("Uyarı: " + "; ".join(kisa_uyari))
     parca.append("Ayrıntı gunluk/SON.md")
@@ -1583,7 +1764,7 @@ def main():
     DUR["son_calisma"] = f"{simdi:%Y-%m-%d %H:%M} TSI"
     if R is not None:
         DUR["bist"] = dict(son_tarih=str(son.date()), rejim=R["durum"], kriz="VAR" if kriz_var else "yok",
-                           tetikler=[dict(kol=t_["kol"], en=t_["en"], kosul=t_["kosul"], seviye=round(t_["seviye"], 4), islem=t_["islem"])
+                           tetikler=[dict(kol=t_["kol"], en=t_["en"], kosul=t_["kosul"], seviye=round(t_["seviye"], 6), islem=t_["islem"])
                                      for t_ in tetik if t_["kol"] in ("K4", "K1", "PRATİK", "KOZA") and abs(t_["uzak"]) <= 0.10])
     if not a.durum_yazmadan:
         json.dump(DUR, open(os.path.join(a.cikti, "durum.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1, default=str)

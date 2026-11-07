@@ -1,0 +1,175 @@
+{
+ "aciklama": "Kalici durum (gunluk_oneri.py her calismada okur ve yazar). 'ayarlar' ve 'acik_pozisyonlar' elle duzenlenir; 'abd' blogu PLAN_ABD s2.2-2.6 sayaclaridir (elle duzeltme: OTOMASYON.md).",
+ "surum": 1,
+ "son_calisma": "2026-11-08 02:01 TSI",
+ "ayarlar": {
+  "hesap_tl": 1000000,
+  "pratik_sahol_akbnk": "kagit",
+  "not": "pratik_sahol_akbnk: 'kagit' (PLAN_BIST K1 oncelikli, ayni ciftte iki sinyal calistirilmaz) ya da 'canli'"
+ },
+ "acik_pozisyonlar": [],
+ "acik_pozisyon_ornegi": {
+  "kol": "K4",
+  "enstruman": "ENJSA",
+  "yon": "AL",
+  "giris_tarihi": "2026-11-10",
+  "giris_fiyati": 127.5,
+  "adet": 100,
+  "not": "kol: K1 | K4 | PRATIK_SAHOL | KOZA | ALTIN | TUPRS | XU030_BAZ"
+ },
+ "abd": {
+  "son_tarih": "2026-11-06",
+  "kaynak_notu": "Baslangic: tarama/abd_rejim_20261106.md (06.11 S&P kapanisi haber kaynagindan; FRED gelince teyit edilir)",
+  "teyitsiz": {
+   "2026-11-06": {
+    "SPX": 7376.86
+   }
+  },
+  "son_kapanis": {
+   "SPX": 7376.86,
+   "NDX": 26989.99
+  },
+  "ralli": {
+   "SPX": {
+    "dip": 7353.73,
+    "dip_tarihi": "2026-11-05",
+    "gun1": "2026-11-06",
+    "gun": 1
+   },
+   "NDX": {
+    "dip": 26629.81,
+    "dip_tarihi": "2026-11-05",
+    "gun1": "2026-11-06",
+    "gun": 1
+   }
+  },
+  "ftd": null,
+  "ftd_hacim_teyit": null,
+  "sari_sayac": 0,
+  "durum": "KIRMIZI",
+  "pilot_freni": false,
+  "manuel": {
+   "s5fi": 62.5,
+   "s5th": 66.1,
+   "tarih": "2026-11-05",
+   "not": "INDEX:S5FI / INDEX:S5TH TradingView'dan elle; 3 gunden eskiyse kullanilmaz"
+  },
+  "gecmis": [
+   {
+    "tarih": "2026-11-05",
+    "durum": "KIRMIZI",
+    "neden": "a: VIX/VIX3M 1,10"
+   },
+   {
+    "tarih": "2026-11-06",
+    "durum": "KIRMIZI",
+    "neden": "a: VIX/VIX3M 1,04 (05.11: 1,10)"
+   }
+  ]
+ },
+ "bist": {
+  "son_tarih": "2026-11-06",
+  "rejim": "KAPALI",
+  "kriz": "yok",
+  "tetikler": [
+   {
+    "kol": "K4",
+    "en": "ENERY",
+    "kosul": "kapanış >",
+    "seviye": 14.6,
+    "islem": "K4 sinyali → Sal 10.11.2026 18:01–18:05 AL (limit kapanış×1,06 / P_son×1,03)"
+   },
+   {
+    "kol": "K4",
+    "en": "AHGAZ",
+    "kosul": "kapanış >",
+    "seviye": 48.7,
+    "islem": "K4 sinyali → Sal 10.11.2026 18:01–18:05 AL (limit kapanış×1,06 / P_son×1,03)"
+   },
+   {
+    "kol": "K4",
+    "en": "ENJSA",
+    "kosul": "kapanış >",
+    "seviye": 127.0,
+    "islem": "K4 sinyali → Sal 10.11.2026 18:01–18:05 AL (limit kapanış×1,06 / P_son×1,03)"
+   },
+   {
+    "kol": "K4",
+    "en": "KCHOL",
+    "kosul": "kapanış >",
+    "seviye": 225.5,
+    "islem": "K4 sinyali → Sal 10.11.2026 18:01–18:05 AL (limit kapanış×1,06 / P_son×1,03)"
+   },
+   {
+    "kol": "K1",
+    "en": "SAHOL",
+    "kosul": "kapanış ≥ (AKBNK sabit)",
+    "seviye": 93.059,
+    "islem": "z=+2 → ertesi gün F_SAHOL SAT + F_AKBNK AL"
+   },
+   {
+    "kol": "K1",
+    "en": "AKBNK",
+    "kosul": "kapanış ≤ (SAHOL sabit)",
+    "seviye": 64.4016,
+    "islem": "z=+2 → ertesi gün F_SAHOL SAT + F_AKBNK AL"
+   },
+   {
+    "kol": "K1",
+    "en": "SAHOL",
+    "kosul": "kapanış ≤ (AKBNK sabit)",
+    "seviye": 84.0873,
+    "islem": "z=−2 → ertesi gün F_SAHOL AL + F_AKBNK SAT"
+   },
+   {
+    "kol": "K1",
+    "en": "AKBNK",
+    "kosul": "kapanış ≥ (SAHOL sabit)",
+    "seviye": 71.2729,
+    "islem": "z=−2 → ertesi gün F_SAHOL AL + F_AKBNK SAT"
+   },
+   {
+    "kol": "PRATİK",
+    "en": "SAHOL",
+    "kosul": "≥ (AKBNK sabit), z=+1,5",
+    "seviye": 91.8334,
+    "islem": "aynı gün uzlaşmada F_SAHOL SAT + F_AKBNK AL (kâğıt)"
+   },
+   {
+    "kol": "PRATİK",
+    "en": "AKBNK",
+    "kosul": "≤ (SAHOL sabit), z=+1,5",
+    "seviye": 63.589,
+    "islem": "aynı gün uzlaşmada F_SAHOL SAT + F_AKBNK AL (kâğıt)"
+   },
+   {
+    "kol": "PRATİK",
+    "en": "SAHOL",
+    "kosul": "≤ (AKBNK sabit), z=−1,5",
+    "seviye": 85.4407,
+    "islem": "aynı gün uzlaşmada F_SAHOL AL + F_AKBNK SAT (kâğıt)"
+   },
+   {
+    "kol": "PRATİK",
+    "en": "AKBNK",
+    "kosul": "≥ (SAHOL sabit), z=−1,5",
+    "seviye": 70.9224,
+    "islem": "aynı gün uzlaşmada F_SAHOL AL + F_AKBNK SAT (kâğıt)"
+   },
+   {
+    "kol": "KOZA",
+    "en": "TRMET",
+    "kosul": "kapanış ≥ (TRALT, TRENJ yatay)",
+    "seviye": 116.765,
+    "islem": "aynı gün uzlaşmada TRMET1! AL + TRALT1! SAT"
+   },
+   {
+    "kol": "KOZA",
+    "en": "TRMET",
+    "kosul": "kapanış ≤ (TRALT, TRENJ yatay)",
+    "seviye": 105.5393,
+    "islem": "aynı gün uzlaşmada TRMET1! SAT + TRALT1! AL"
+   }
+  ]
+ }
+}

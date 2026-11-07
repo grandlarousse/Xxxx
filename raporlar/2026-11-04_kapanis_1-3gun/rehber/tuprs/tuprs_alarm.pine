@@ -1,0 +1,287 @@
+//@version=5
+// >>> tuprs_alarm.pine = tuprs.pine + ALARM KOŞULLARI (08.11.2026). Hesap satırlarına dokunulmadı; yalnız dosyanın sonuna
+// >>> alertcondition() satırları eklendi. TRADINGVIEW'DA DERLENMEDİ VE TEST EDİLMEDİ; kurulum: uygulama/TRADINGVIEW_ALARMLARI.md §2.
+// =====================================================================================================
+// TUPRS <- ABD rafineri sepeti (VLO, MPC, PSX, PBF) — z göstergesi ve kural olayları (rehber_tuprs)
+// Kural (araştırma c1_ref.py ile aynı):
+//   r_i = ln(close_i / close_i[1]) (temettü düzeltmeli), β_i = 250 ABD günlük cov/var (SPX), en az 100, bir gün öncesine kadar
+//   artık_i = r_i − β_i·r_SPX ; P = 4 artığın ortalaması (en az 3)
+//   BIST günü t: yalnız BIST t kapanışında (18:10 TSİ) TAMAMLANMIŞ ve daha önce kullanılmamış ABD günleri toplanır
+//   (= t_önceki <= ABD günü < t; BIST tatilinde biriken ABD günleri toplanır; ABD tatilinde P = boş -> sinyal yok)
+//   z = P / std(P, önceki 250 BIST günü, en az 100). |z|>1: pozisyon yoksa AÇ, 2 BIST günü tut;
+//   çıkış gününde aynı yön -> UZAT, ters yön -> ÇEVİR, aksi halde KAPAT.
+// Hizalama: BIST günlük grafiğinde ABD sembolünün AYNI tarihli günlük barı BIST kapanışında bitmemiştir.
+//   Bu yüzden request.security ile ABD barının time_close değeri ve 7 gecikmesi alınır; yalnız time_close <= BIST t 18:10 TSİ
+//   olan ve daha önce işlenmemiş ABD günleri kullanılır (close[1]+lookahead_on yaklaşımının tatil-güvenli genellemesi:
+//   ABD tatilinde aynı gün iki kez sayılmaz, BIST tatilinde atlanan ABD günleri kaybolmaz). lookahead_on burada geleceği
+//   SIZDIRMAZ: aynı tarihli ABD barı (time_close > kesim) her durumda elenir.
+// DENETİM (rehber_tuprs_denetim, 04.11.2026): beta ve std artık her bar için 250 elemanlık döngü yerine KAYAN TOPLAMLARLA
+//   (O(1)) hesaplanıyor — aynı tanım (o gün hariç, yalnız iki tarafı dolu çiftler, en az 100), uzun geçmişte
+//   "script takes too long" riskini kaldırır. Mantık, Python bağımsız hesabıyla satır satır karşılaştırıldı.
+// DERLENMEDİ: bu gösterge Pine derleyicisi olmayan bir ortamda yazıldı. İlk kullanımda son 10–20 günün z değerlerini
+//   sinyal_tuprs.py çıktısıyla karşılaştırın; fark 0,05'ten büyükse göstergeyi değil betiği esas alın.
+// Kullanım: BIST:TUPRS1! ya da BIST:TUPRS GÜNLÜK grafik. Isınma için en az ~600 günlük bar gerekir.
+// Not: grafiğin son barı DÜNKÜ BIST barıysa (seans açılmadan), gösterilen z dünün z'sidir; bugünün z'si BIST'in bugünkü
+//   barı oluşunca görünür (ücretsiz hesapta ~15 dk gecikmeyle). Sabah kararı için betiği kullanın.
+// Yatırım tavsiyesi değildir.
+// =====================================================================================================
+indicator("TUPRS-REF z (ABD rafineri t-1) + alarm", shorttitle = "TUPRS-REF alarm", overlay = false, precision = 2)
+
+thr     = input.float(1.0, "Eşik |z|", minval = 0.1, step = 0.1)
+wBeta   = input.int(250, "Beta penceresi (ABD günü)", minval = 20)
+minBeta = input.int(100, "Beta en az gözlem", minval = 10)
+wStd    = input.int(250, "z std penceresi (BIST günü)", minval = 20)
+minStd  = input.int(100, "z std en az gözlem", minval = 10)
+hold    = input.int(2, "Tutma süresi (BIST günü)", minval = 1)
+cutH    = input.int(18, "BIST kesim saati TSİ (saat)")
+cutM    = input.int(10, "BIST kesim saati TSİ (dakika)")
+useAdj  = input.bool(true, "ABD hisseleri temettü düzeltmeli (araştırma: evet)")
+
+adjMode = useAdj ? adjustment.dividends : adjustment.none
+tVLO = ticker.new("NYSE", "VLO", session.regular, adjMode)
+tMPC = ticker.new("NYSE", "MPC", session.regular, adjMode)
+tPSX = ticker.new("NYSE", "PSX", session.regular, adjMode)
+tPBF = ticker.new("NYSE", "PBF", session.regular, adjMode)
+tSPX = ticker.new("SP", "SPX", session.regular, adjustment.none)
+
+// ABD sembolünün kendi günlük barlarında: bar kapanış zamanı ve log getiri, 0..7 gecikme
+f_pack() =>
+    float r = math.log(close / close[1])
+    [time_close, r, time_close[1], r[1], time_close[2], r[2], time_close[3], r[3], time_close[4], r[4], time_close[5], r[5], time_close[6], r[6], time_close[7], r[7]]
+
+[sT0, sR0, sT1, sR1, sT2, sR2, sT3, sR3, sT4, sR4, sT5, sR5, sT6, sR6, sT7, sR7] = request.security(tSPX, "D", f_pack(), lookahead = barmerge.lookahead_on)
+[vT0, vR0, vT1, vR1, vT2, vR2, vT3, vR3, vT4, vR4, vT5, vR5, vT6, vR6, vT7, vR7] = request.security(tVLO, "D", f_pack(), lookahead = barmerge.lookahead_on)
+[mT0, mR0, mT1, mR1, mT2, mR2, mT3, mR3, mT4, mR4, mT5, mR5, mT6, mR6, mT7, mR7] = request.security(tMPC, "D", f_pack(), lookahead = barmerge.lookahead_on)
+[pT0, pR0, pT1, pR1, pT2, pR2, pT3, pR3, pT4, pR4, pT5, pR5, pT6, pR6, pT7, pR7] = request.security(tPSX, "D", f_pack(), lookahead = barmerge.lookahead_on)
+[bT0, bR0, bT1, bR1, bT2, bR2, bT3, bR3, bT4, bR4, bT5, bR5, bT6, bR6, bT7, bR7] = request.security(tPBF, "D", f_pack(), lookahead = barmerge.lookahead_on)
+
+// New York tarihine göre gün anahtarı (semboller arası eşleme için)
+f_key(int t) =>
+    na(t) ? int(na) : year(t, "America/New_York") * 10000 + month(t, "America/New_York") * 100 + dayofmonth(t, "America/New_York")
+
+// T/R dizilerinde anahtarı 'key' olan günün getirisi (yoksa na)
+f_find(int[] T, float[] R, int key) =>
+    float v = na
+    int n = array.size(T)
+    if n > 0
+        for i = 0 to n - 1
+            int tk = array.get(T, i)
+            if not na(tk)
+                if f_key(tk) == key
+                    v := array.get(R, i)
+                    break
+    v
+
+// ---- kayan pencere toplamları (O(1)) ----
+// çift (y, x) penceresi: st = [Σx, Σy, Σxy, Σx², n] yalnız iki tarafı da dolu çiftler üzerinden; pencere boyu w (boşlar dahil)
+f_pair_push(float[] ys, float[] xs, float[] st, float y, float x, int w) =>
+    array.push(ys, y)
+    array.push(xs, x)
+    if not na(y) and not na(x)
+        array.set(st, 0, array.get(st, 0) + x)
+        array.set(st, 1, array.get(st, 1) + y)
+        array.set(st, 2, array.get(st, 2) + x * y)
+        array.set(st, 3, array.get(st, 3) + x * x)
+        array.set(st, 4, array.get(st, 4) + 1.0)
+    if array.size(ys) > w
+        float yo = array.shift(ys)
+        float xo = array.shift(xs)
+        if not na(yo) and not na(xo)
+            array.set(st, 0, array.get(st, 0) - xo)
+            array.set(st, 1, array.get(st, 1) - yo)
+            array.set(st, 2, array.get(st, 2) - xo * yo)
+            array.set(st, 3, array.get(st, 3) - xo * xo)
+            array.set(st, 4, array.get(st, 4) - 1.0)
+    0
+
+// beta = cov/var (nüfus momentleri; oran ddof'tan bağımsız), en az minN çift
+f_beta_st(float[] st, int minN) =>
+    float n = array.get(st, 4)
+    float b = na
+    if n >= minN
+        float mx = array.get(st, 0) / n
+        float my = array.get(st, 1) / n
+        float vx = array.get(st, 3) / n - mx * mx
+        if vx > 0
+            b := (array.get(st, 2) / n - mx * my) / vx
+    b
+
+// tek değişkenli pencere: st = [Σv, Σv², n] (boşlar pencere boyuna sayılır, toplama girmez)
+f_val_push(float[] a, float[] st, float v, int w) =>
+    array.push(a, v)
+    if not na(v)
+        array.set(st, 0, array.get(st, 0) + v)
+        array.set(st, 1, array.get(st, 1) + v * v)
+        array.set(st, 2, array.get(st, 2) + 1.0)
+    if array.size(a) > w
+        float o = array.shift(a)
+        if not na(o)
+            array.set(st, 0, array.get(st, 0) - o)
+            array.set(st, 1, array.get(st, 1) - o * o)
+            array.set(st, 2, array.get(st, 2) - 1.0)
+    0
+
+// örneklem std (ddof=1), en az minN dolu gözlem
+f_sd_st(float[] st, int minN) =>
+    float n = array.get(st, 2)
+    float res = na
+    if n >= minN and n > 1
+        float m = array.get(st, 0) / n
+        float vv = (array.get(st, 1) - n * m * m) / (n - 1)
+        res := vv > 0 ? math.sqrt(vv) : na
+    res
+
+f_res(float r, float b, float rs) =>
+    na(r) or na(b) or na(rs) ? na : r - b * rs
+
+sT = array.from(sT0, sT1, sT2, sT3, sT4, sT5, sT6, sT7)
+sR = array.from(sR0, sR1, sR2, sR3, sR4, sR5, sR6, sR7)
+vT = array.from(vT0, vT1, vT2, vT3, vT4, vT5, vT6, vT7)
+vR = array.from(vR0, vR1, vR2, vR3, vR4, vR5, vR6, vR7)
+mT = array.from(mT0, mT1, mT2, mT3, mT4, mT5, mT6, mT7)
+mR = array.from(mR0, mR1, mR2, mR3, mR4, mR5, mR6, mR7)
+pT = array.from(pT0, pT1, pT2, pT3, pT4, pT5, pT6, pT7)
+pR = array.from(pR0, pR1, pR2, pR3, pR4, pR5, pR6, pR7)
+bT = array.from(bT0, bT1, bT2, bT3, bT4, bT5, bT6, bT7)
+bR = array.from(bR0, bR1, bR2, bR3, bR4, bR5, bR6, bR7)
+
+// her hisse için (hisse getirisi, SPX getirisi) çift penceresi ve toplamları
+var float[] yV = array.new_float()
+var float[] xV = array.new_float()
+var float[] stV = array.from(0.0, 0.0, 0.0, 0.0, 0.0)
+var float[] yM = array.new_float()
+var float[] xM = array.new_float()
+var float[] stM = array.from(0.0, 0.0, 0.0, 0.0, 0.0)
+var float[] yP = array.new_float()
+var float[] xP = array.new_float()
+var float[] stP = array.from(0.0, 0.0, 0.0, 0.0, 0.0)
+var float[] yB = array.new_float()
+var float[] xB = array.new_float()
+var float[] stB = array.from(0.0, 0.0, 0.0, 0.0, 0.0)
+var float[] hPb = array.new_float()
+var float[] stPb = array.from(0.0, 0.0, 0.0)
+var int lastTc = na
+
+int cutoff = timestamp("Europe/Istanbul", year, month, dayofmonth, cutH, cutM, 0)
+
+float pbSum = 0.0
+bool pbAny = false
+int nNew = 0
+
+if na(lastTc)
+    // ilk işlenen bar: başlangıç noktası = kesimden önce biten en son ABD günü (geçmiş toplanmaz)
+    for k = 7 to 0
+        int tk0 = array.get(sT, k)
+        if not na(tk0) and tk0 <= cutoff
+            lastTc := tk0
+else
+    // k = 7 (en eski) -> 0 (en yeni): yeni ABD günleri kronolojik sırayla işlenir; beta o günü İÇERMEZ
+    for k = 7 to 0
+        int tk = array.get(sT, k)
+        if not na(tk) and tk > lastTc and tk <= cutoff
+            int key = f_key(tk)
+            float rs = array.get(sR, k)
+            float rV = f_find(vT, vR, key)
+            float rM = f_find(mT, mR, key)
+            float rP = f_find(pT, pR, key)
+            float rB = f_find(bT, bR, key)
+            float eV = f_res(rV, f_beta_st(stV, minBeta), rs)
+            float eM = f_res(rM, f_beta_st(stM, minBeta), rs)
+            float eP = f_res(rP, f_beta_st(stP, minBeta), rs)
+            float eB = f_res(rB, f_beta_st(stB, minBeta), rs)
+            int cnt = (na(eV) ? 0 : 1) + (na(eM) ? 0 : 1) + (na(eP) ? 0 : 1) + (na(eB) ? 0 : 1)
+            float sm = (na(eV) ? 0.0 : eV) + (na(eM) ? 0.0 : eM) + (na(eP) ? 0.0 : eP) + (na(eB) ? 0.0 : eB)
+            float basket = cnt >= 3 ? sm / cnt : na
+            if not na(basket)
+                pbSum += basket
+                pbAny := true
+            f_pair_push(yV, xV, stV, rV, rs, wBeta)
+            f_pair_push(yM, xM, stM, rM, rs, wBeta)
+            f_pair_push(yP, xP, stP, rP, rs, wBeta)
+            f_pair_push(yB, xB, stB, rB, rs, wBeta)
+            lastTc := tk
+            nNew += 1
+
+float Pb = pbAny ? pbSum : na
+float sd = f_sd_st(stPb, minStd)          // önceki wStd BIST barı (bu bar HARİÇ)
+float z = na(Pb) or na(sd) ? na : Pb / sd
+f_val_push(hPb, stPb, Pb, wStd)
+float sdNext = f_sd_st(stPb, minStd)      // bir sonraki seansın paydası (bu bar dahil)
+
+// ---- kural durumu (araştırmadaki örtüşmesiz işlem dizisi) ----
+var int posDir = 0
+var int left = 0
+int ev = 0          // 1 AÇ, 2 UZAT, 3 ÇEVİR, 4 KAPAT
+bool sig = not na(z) and math.abs(z) > thr
+if posDir != 0
+    left -= 1
+    if left == 0
+        if sig and math.sign(z) == posDir
+            left := hold
+            ev := 2
+        else if sig
+            posDir := int(math.sign(z))
+            left := hold
+            ev := 3
+        else
+            posDir := 0
+            ev := 4
+else if sig
+    posDir := int(math.sign(z))
+    left := hold
+    ev := 1
+
+// ---- çizim ----
+color zc = na(z) ? color.gray : z > thr ? color.teal : z < -thr ? color.red : color.new(color.gray, 40)
+plot(z, "z", color = zc, style = plot.style_columns)
+hline(thr, "+eşik", color = color.teal, linestyle = hline.style_dashed)
+hline(-thr, "−eşik", color = color.red, linestyle = hline.style_dashed)
+hline(0, "0", color = color.gray, linestyle = hline.style_dotted)
+bgcolor(sig ? color.new(z > 0 ? color.teal : color.red, 85) : na, title = "Sinyal günü")
+plotshape(ev == 1 and posDir > 0, "AÇ uzun", shape.triangleup, location.bottom, color.teal, text = "AL", size = size.tiny)
+plotshape(ev == 1 and posDir < 0, "AÇ kısa", shape.triangledown, location.top, color.red, text = "SAT", size = size.tiny)
+plotshape(ev == 2, "UZAT", shape.circle, location.bottom, color.orange, text = "UZAT", size = size.tiny)
+plotshape(ev == 3, "ÇEVİR", shape.diamond, location.bottom, color.purple, text = "ÇEVİR", size = size.tiny)
+plotshape(ev == 4, "KAPAT", shape.xcross, location.bottom, color.gray, text = "KAPAT", size = size.tiny)
+plot(Pb * 100, "P sepet artığı (%)", display = display.data_window)
+plot(sd * 100, "std250 (%)", display = display.data_window)
+plot(nNew, "Eşlenen ABD günü sayısı", display = display.data_window)
+plot(posDir, "Pozisyon (+1 uzun / −1 kısa)", display = display.data_window)
+
+var table tb = table.new(position.top_right, 2, 7, border_width = 1)
+if barstate.islast
+    string usd = na(lastTc) ? "-" : str.tostring(year(lastTc, "America/New_York")) + "-" + str.tostring(month(lastTc, "America/New_York"), "00") + "-" + str.tostring(dayofmonth(lastTc, "America/New_York"), "00")
+    table.cell(tb, 0, 0, "z (bu bar)", text_color = color.gray)
+    table.cell(tb, 1, 0, na(z) ? "boş" : str.tostring(z, "#.##"), text_color = sig ? (z > 0 ? color.teal : color.red) : color.gray)
+    table.cell(tb, 0, 1, "Sinyal", text_color = color.gray)
+    table.cell(tb, 1, 1, sig ? (z > 0 ? "AL (uzun)" : "SAT (kısa)") : "yok", text_color = color.gray)
+    table.cell(tb, 0, 2, "P (%) / std (%)", text_color = color.gray)
+    table.cell(tb, 1, 2, (na(Pb) ? "boş" : str.tostring(Pb * 100, "#.###")) + " / " + (na(sd) ? "boş" : str.tostring(sd * 100, "#.###")), text_color = color.gray)
+    table.cell(tb, 0, 3, "Son kullanılan ABD günü (NY)", text_color = color.gray)
+    table.cell(tb, 1, 3, usd, text_color = color.gray)
+    table.cell(tb, 0, 4, "Kurala göre pozisyon", text_color = color.gray)
+    table.cell(tb, 1, 4, posDir > 0 ? "UZUN" : posDir < 0 ? "KISA" : "YOK", text_color = color.gray)
+    table.cell(tb, 0, 5, "Çıkışa kalan BIST günü", text_color = color.gray)
+    table.cell(tb, 1, 5, posDir != 0 ? str.tostring(left) : "-", text_color = color.gray)
+    table.cell(tb, 0, 6, "Sonraki seans eşiği |P| >", text_color = color.gray)
+    table.cell(tb, 1, 6, na(sdNext) ? "boş" : str.tostring(sdNext * thr * 100, "#.##") + "%", text_color = color.gray)
+
+// =====================================================================================================
+// ALARMLAR (tuprs_alarm.pine ekleri; DERLENMEDİ)
+// z, BIST günü t için yalnız ABD'nin t−1 kapanışından hesaplanır ve gün içinde DEĞİŞMEZ. Grafik BIST:TUPRS1! 1G.
+// Alarm sıklığı: "Bar başına bir kez" (Once Per Bar) -> BIST günü t'nin ilk barında (açılış ~10:00 TSİ, gecikmeli veride
+// ~10:15) bir kez bildirir; işlem aynı gün 18:00–18:10 uzlaşma penceresinde. "Bar kapanışında" seçilirse bildirim 18:10'dan
+// sonra gelir ve aynı günün uzlaşması kaçar.
+// =====================================================================================================
+alertcondition(ev == 1 and posDir > 0, title = "TUPRS AÇ uzun (F_TUPRS AL)",
+     message = "TUPRS<-ABD rafineri: z > +eşik (z={{plot_0}}). Bugün 18:00–18:10 uzlaşmada F_TUPRS AL (vadeye ≥3 iş günü kalan en yakın vade); t+2 uzlaşmasında çıkış kontrolü.")
+alertcondition(ev == 1 and posDir < 0, title = "TUPRS AÇ kısa (F_TUPRS SAT)",
+     message = "TUPRS<-ABD rafineri: z < −eşik (z={{plot_0}}). Bugün 18:00–18:10 uzlaşmada F_TUPRS SAT; t+2 uzlaşmasında çıkış kontrolü.")
+alertcondition(ev == 2, title = "TUPRS UZAT (işlem yok)",
+     message = "TUPRS çıkış günü: aynı yönde sinyal sürüyor -> pozisyon 2 BIST günü daha tutulur, emir yok.")
+alertcondition(ev == 3, title = "TUPRS ÇEVİR (2 kat ters emir)",
+     message = "TUPRS çıkış günü: ters yönde sinyal -> 18:00–18:10'da pozisyonu çevir (aynı kontratta 2 kat ters emir; vade <3 gün ise kapat + yeni vadede aç).")
+alertcondition(ev == 4, title = "TUPRS KAPAT",
+     message = "TUPRS çıkış günü: sinyal yok -> bugün 18:00–18:10 uzlaşmada kapat.")
+alertcondition(ev != 0, title = "TUPRS herhangi bir kural olayı",
+     message = "TUPRS-REF kural olayı (AÇ / UZAT / ÇEVİR / KAPAT); z={{plot_0}}. Göstergedeki tabloya bak.")

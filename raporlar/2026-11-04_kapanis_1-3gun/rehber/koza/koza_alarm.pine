@@ -1,0 +1,272 @@
+//@version=5
+// >>> koza_alarm.pine = koza.pine + ALARM KOŞULLARI (08.11.2026). Hesap satırlarına dokunulmadı; yalnız dosyanın sonuna
+// >>> alarm girdileri ve alertcondition() satırları eklendi. TRADINGVIEW'DA DERLENMEDİ VE TEST EDİLMEDİ: ilk kullanımda
+// >>> göstergeyi grafiğe ekleyip derleme hatası olup olmadığına bakın; kurulum: uygulama/TRADINGVIEW_ALARMLARI.md §3.
+// =====================================================================================================
+// KOZA GÖRELİ MOMENTUM — TRMET artığı z3 (strateji B)  |  TRMET1! / TRALT1! çifti
+// -----------------------------------------------------------------------------------------------------
+// !!! BU GÖSTERGE DERLENMEDİ (çalışma ortamında Pine derleyicisi yok; denetimde satır satır okundu, derleyici yine yok). İlk kullanımda son 5–10 günün z3,
+// β_g ve β_TA değerlerini sinyal_koza.py çıktısıyla karşılaştırın; |fark| > 0,05 ise göstergeye değil
+// betiğe güvenin. Sözdizimi hatası çıkarsa satır numarasıyla birlikte not alın.
+// -----------------------------------------------------------------------------------------------------
+// Grafik: BIST:XU030 (önerilir: takvim araştırmadaki birleşik BIST takvimiyle aynı olur) ya da BIST:TRMET,
+//         zaman dilimi 1G (günlük). Bütün sinyal girdileri BIST sembolüdür -> aynı borsa takvimi;
+//         yabancı sembol yok, ABD tatili hizalaması gerekmez. Altın bağlamı isteğe bağlıdır (varsayılan kapalı)
+//         ve yalnız bir önceki TAMAMLANMIŞ altın gününü gösterir (close[1] + lookahead_on + tekrar kontrolü).
+// Hesap (araştırma c2_koza.py ile aynı):
+//   r     = log getiri; bayat gün (hacim<=0 ya da yüksek==düşük) fiyat yok sayılır; |r| > limit (13.03.2020 öncesi
+//           %20,5, sonrası %10,5) -> NaN.  grp = ort(r_TRALT, r_TRENJ).
+//   β_g   = 250g cov(r_TRMET, grp)/var(grp) (en az 120 gözlem), BİR ÖNCEKİ bara kadar; [0,2; 2,0] kırpılır.
+//   u     = r_TRMET − β_g·grp ;  z3 = (u + u[1] + u[2]) / (std60(u)·√3)  (std60 en az 40 gözlem)
+//   β_TA  = 250g β(r_TRMET, r_TRALT), bir önceki bara kadar, [0,3; 2,0].
+// Fark kaynakları: TradingView kapanışı temettüye göre düzeltilmez (Yahoo 'adj' düzeltir) -> temettü günlerinde
+//   küçük fark; gün içi (onaylanmamış) son bar 15 dk gecikmeli fiyatla hesaplanır = "canlı/gecikmeli" z3.
+// Pratik kural işaretleri: ilk sinyal günü giriş, 2 bar sonra çıkış, çıkış barında sinyal aynı yöndeyse +2 bar
+//   uzatma (≤6), ters sinyalde çevirme, spot ±%9,5 (limit kilidi vekili) gününde giriş yok.
+// Yatırım tavsiyesi değildir.
+// =====================================================================================================
+indicator("Koza göreli momentum z3 (TRMET/TRALT) + alarm", shorttitle="KOZA z3 alarm", overlay=false, precision=2, max_bars_back=300)
+// DENETİM (04.11.2026): max_bars_back=300 eklendi (fonksiyon içindeki x[i] döngüleri 250 bar geriye bakıyor; çalışma anında
+// "referencing length" hatasını önler). Kullanılmayan max_labels_count kaldırıldı. Temettü düzeltmesi girdisi eklendi.
+
+symY     = input.symbol("BIST:TRMET", "Hedef hisse (artığı alınan)")
+symH     = input.symbol("BIST:TRALT", "Hedge hissesi")
+symE     = input.symbol("BIST:TRENJ", "Grubun üçüncü hissesi")
+thr      = input.float(1.5, "Eşik |z3|", step=0.1)
+wB       = input.int(250, "β penceresi (gün)", minval=20)
+mpB      = input.int(120, "β en az gözlem", minval=10)
+wS       = input.int(60, "σ penceresi (gün)", minval=10)
+mpS      = input.int(40, "σ en az gözlem", minval=5)
+startT   = input.time(timestamp("01 Jan 2015 00:00 +0300"), "Hesap başlangıcı (hız için)")
+showRule = input.bool(true, "Pratik kuralı işaretle (giriş / uzatma / çıkış)")
+showTbl  = input.bool(true, "Tablo göster")
+showGold = input.bool(false, "Altın bağlamı (bir önceki tamamlanmış gün)")
+symG     = input.symbol("TVC:GOLD", "Altın sembolü (TVC:GOLD ya da COMEX:GC1!)")
+adjDiv   = input.bool(true, "Temettü düzeltmeli veri (araştırmadaki Yahoo 'adj' ile uyum)")
+// ticker.modify: veriyi temettüye göre düzeltir (grafik ayarından bağımsız). Kapatılırsa yalnız bölünme düzeltmeli kapanış kullanılır
+// (öykünmede 2015+ 2.932 günün 2'sinde sinyal farkı).
+tkY = adjDiv ? ticker.modify(symY, adjustment = adjustment.dividends) : symY
+tkH = adjDiv ? ticker.modify(symH, adjustment = adjustment.dividends) : symH
+tkE = adjDiv ? ticker.modify(symE, adjustment = adjustment.dividends) : symE
+
+if not timeframe.isdaily or timeframe.multiplier != 1
+    runtime.error("Bu göstergeyi günlük (1G) grafikte kullanın.")
+
+// ---------- veri: aynı borsa (BIST), aynı zaman dilimi; o gün bar yoksa time_tradingday tutmaz -> na ----------
+[cY, hY, lY, vY, tdY] = request.security(tkY, "D", [close, high, low, volume, time_tradingday], lookahead=barmerge.lookahead_off)
+[cH, hH, lH, vH, tdH] = request.security(tkH, "D", [close, high, low, volume, time_tradingday], lookahead=barmerge.lookahead_off)
+[cE, hE, lE, vE, tdE] = request.security(tkE, "D", [close, high, low, volume, time_tradingday], lookahead=barmerge.lookahead_off)
+
+f_valid(c, h, l, v, td) =>
+    (td == time_tradingday and not na(c) and not na(v) and v > 0 and h != l) ? c : na
+
+pY = f_valid(cY, hY, lY, vY, tdY)
+pH = f_valid(cH, hH, lH, vH, tdH)
+pE = f_valid(cE, hE, lE, vE, tdE)
+
+regT  = timestamp("GMT+3", 2020, 3, 13, 0, 0)
+limUp = time < regT ? math.log(1.205) : math.log(1.105)
+limDn = time < regT ? math.log(0.795) : math.log(0.895)
+
+f_mask(r, up, dn) =>
+    float res = r
+    if not na(r) and (r > up or r < dn)
+        res := na
+    res
+
+// son GEÇERLİ fiyata göre getiri (araştırmadaki a.ffill().shift(1) ile aynı)
+var float lastY = na
+var float prevY = na
+float rawY = na
+if not na(pY)
+    rawY := na(lastY) ? na : math.log(pY / lastY)
+    prevY := lastY
+    lastY := pY
+var float lastH = na
+float rawH = na
+if not na(pH)
+    rawH := na(lastH) ? na : math.log(pH / lastH)
+    lastH := pH
+var float lastE = na
+float rawE = na
+if not na(pE)
+    rawE := na(lastE) ? na : math.log(pE / lastE)
+    lastE := pE
+
+float rY = f_mask(rawY, limUp, limDn)
+float rH = f_mask(rawH, limUp, limDn)
+float rE = f_mask(rawE, limUp, limDn)
+float grp = (na(rH) or na(rE)) ? na : (rH + rE) / 2.0
+max_bars_back(rY, 300)
+max_bars_back(rH, 300)
+max_bars_back(grp, 300)
+
+// ---------- pandas rolling cov/var ile aynı tanım (NaN atlanır, en az gözlem şartı) ----------
+// Not: fonksiyonlar HER barda çağrılır (geçmiş tamponu tutarlı kalsın); 'go' yanlışsa döngü atlanır.
+f_beta(y, x, w, mp, go) =>
+    // pandas: cov ortak-geçerli çiftlerle (x ve y birlikte), var(x) x'in kendi geçerli gözlemleriyle
+    float sxy = 0.0
+    float sx = 0.0
+    float sy = 0.0
+    int n = 0
+    float sxa = 0.0
+    float sxxa = 0.0
+    int nxa = 0
+    if go
+        for i = 0 to w - 1
+            float xi = x[i]
+            float yi = y[i]
+            if not na(xi)
+                sxa += xi
+                sxxa += xi * xi
+                nxa += 1
+                if not na(yi)
+                    sx += xi
+                    sy += yi
+                    sxy += xi * yi
+                    n += 1
+    float cv = (n >= mp and n > 1) ? (sxy / n - (sx / n) * (sy / n)) * n / (n - 1) : na
+    float vx = (nxa >= mp and nxa > 1) ? (sxxa - sxa * sxa / nxa) / (nxa - 1) : na
+    float b = na
+    if not na(cv) and not na(vx) and vx > 0
+        b := cv / vx
+    b
+
+f_std(x, w, mp, go) =>
+    float s = 0.0
+    float ss = 0.0
+    int n = 0
+    if go
+        for i = 0 to w - 1
+            float xi = x[i]
+            if not na(xi)
+                s += xi
+                ss += xi * xi
+                n += 1
+    (n >= mp and n > 1) ? math.sqrt(math.max((ss - s * s / n) / (n - 1), 0.0)) : na
+
+f_clip(b, lo, hi) =>
+    float res = na
+    if not na(b)
+        res := math.max(lo, math.min(hi, b))
+    res
+
+bool doCalc = time >= startT
+float bG0  = f_beta(rY, grp, wB, mpB, doCalc)
+float bTA0 = f_beta(rY, rH, wB, mpB, doCalc)
+float bG   = f_clip(bG0[1], 0.2, 2.0)     // shift(1): yalnız dünkü bilgiye kadar
+float bTA  = f_clip(bTA0[1], 0.3, 2.0)
+float u    = (na(rY) or na(grp) or na(bG)) ? na : rY - bG * grp
+max_bars_back(u, 100)
+float sd   = f_std(u, wS, mpS, doCalc)
+float z3   = (na(u) or na(u[1]) or na(u[2]) or na(sd) or sd <= 0) ? na : (u + u[1] + u[2]) / (sd * math.sqrt(3.0))
+
+// ---------- pratik kural (örtüşmesiz, uzatmalı, en fazla 6 gün) ----------
+int act = na(z3) ? 0 : z3 > thr ? 1 : z3 < -thr ? -1 : 0
+// Kilit vekili (yalnız işaret): SPOT log getirisi |r| > ln(1,095) -> yukarıda ≈ +%9,5, aşağıda ≈ −%8,7 (asimetrik; backtest P0L aynı
+// eşiği VİOP ön vade uzlaşmasına uygular). Gerçek karar: aracı kurum ekranında TRMET1!/TRALT1! limitte kilitli mi?
+bool lockProxy = (not na(rawY) and math.abs(rawY) > math.log(1.095)) or (not na(rawH) and math.abs(rawH) > math.log(1.095))
+var int pos = 0
+var int entryBar = na
+var int exitBar = na
+var int blockDir = 0
+bool evEntry = false
+bool evExt = false
+bool evExit = false
+if pos != 0 and bar_index == exitBar
+    if act == pos and (exitBar - entryBar + 2) <= 6
+        exitBar := exitBar + 2
+        evExt := true
+    else
+        blockDir := act == pos ? pos : 0
+        pos := 0
+        evExit := true
+if pos == 0
+    if blockDir != 0 and act != blockDir
+        blockDir := 0
+    if act != 0 and act != blockDir and not lockProxy
+        pos := act
+        entryBar := bar_index
+        exitBar := bar_index + 2
+        evEntry := true
+
+// ---------- çizim ----------
+plot(z3, "z3", color=color.new(color.blue, 0), linewidth=2)
+hline(thr, "+eşik", color=color.new(color.green, 0), linestyle=hline.style_dashed)
+hline(-thr, "−eşik", color=color.new(color.red, 0), linestyle=hline.style_dashed)
+hline(0, "sıfır", color=color.new(color.gray, 0), linestyle=hline.style_dotted)
+bgcolor(act == 1 ? color.new(color.green, 85) : act == -1 ? color.new(color.red, 85) : na, title="Sinyal günü")
+plotshape(showRule and evEntry and pos == 1, title="Giriş: TRMET1! AL / TRALT1! SAT", style=shape.triangleup, location=location.bottom, color=color.new(color.green, 0), size=size.small)
+plotshape(showRule and evEntry and pos == -1, title="Giriş: TRMET1! SAT / TRALT1! AL", style=shape.triangledown, location=location.top, color=color.new(color.red, 0), size=size.small)
+plotshape(showRule and evExt, title="Uzatma (+2 gün)", style=shape.diamond, location=location.bottom, color=color.new(color.orange, 0), size=size.tiny)
+plotshape(showRule and evExit, title="Çıkış", style=shape.xcross, location=location.top, color=color.new(color.gray, 0), size=size.tiny)
+plotshape(showRule and lockProxy and act != 0, title="Kilit şüphesi (giriş yok)", style=shape.circle, location=location.top, color=color.new(color.purple, 0), size=size.tiny)
+
+// ---------- altın bağlamı: bir önceki TAMAMLANMIŞ gün; tatilde tekrar eden değer na ----------
+[gC1, gT1] = request.security(symG, "D", [close[1], time[1]], lookahead=barmerge.lookahead_on)
+bool gNew = not na(gT1) and gT1 != gT1[1]
+float gRet = (showGold and gNew and not na(gC1[1]) and gC1[1] > 0) ? math.log(gC1 / gC1[1]) : na
+
+// ---------- tetik: onaylı son barda "yarının kapanışı", canlı (onaylanmamış) barda "bugünün kapanışı" için ----------
+bool isLive = not barstate.isconfirmed
+float base2 = isLive ? (nz(u[1]) + nz(u[2])) : (nz(u) + nz(u[1]))
+float needUp = na(sd) ? na : thr * sd * math.sqrt(3.0) - base2
+float needDn = na(sd) ? na : -thr * sd * math.sqrt(3.0) - base2
+float refPx = isLive ? prevY : lastY
+float gNow = isLive ? nz(grp) : 0.0
+float pxUp = (na(refPx) or na(needUp) or na(bG)) ? na : refPx * math.exp(needUp + bG * gNow)
+float pxDn = (na(refPx) or na(needDn) or na(bG)) ? na : refPx * math.exp(needDn + bG * gNow)
+
+var table tb = table.new(position.top_right, 2, 11, border_width=1, frame_color=color.gray)
+if showTbl and barstate.islast
+    string durum = pos == 1 ? "AÇIK: TRMET AL / TRALT SAT" : pos == -1 ? "AÇIK: TRMET SAT / TRALT AL" : "pozisyon yok"
+    string sinyal = act == 1 ? "TRMET1! AL + β·TRALT1! SAT" : act == -1 ? "TRMET1! SAT + β·TRALT1! AL" : "YOK"
+    table.cell(tb, 0, 0, isLive ? "z3 (CANLI/gecikmeli)" : "z3 (kapanış)", text_color=color.white, bgcolor=color.new(color.blue, 20))
+    table.cell(tb, 1, 0, str.tostring(z3, "#.##"), text_color=color.white, bgcolor=color.new(color.blue, 20))
+    table.cell(tb, 0, 1, "Sinyal")
+    table.cell(tb, 1, 1, sinyal)
+    table.cell(tb, 0, 2, "Kural durumu")
+    table.cell(tb, 1, 2, durum + (pos != 0 ? " | çıkış barı: +" + str.tostring(exitBar - bar_index) : ""))
+    table.cell(tb, 0, 3, "β_g / β_TA")
+    table.cell(tb, 1, 3, str.tostring(bG, "#.##") + " / " + str.tostring(bTA, "#.##"))
+    table.cell(tb, 0, 4, "σ60(u) bps")
+    table.cell(tb, 1, 4, str.tostring(sd * 10000, "#"))
+    table.cell(tb, 0, 5, "u bugün bps")
+    table.cell(tb, 1, 5, str.tostring(u * 10000, "#"))
+    table.cell(tb, 0, 6, isLive ? "Bugün AL için u ≥" : "Yarın AL için u ≥")
+    table.cell(tb, 1, 6, str.tostring(needUp * 10000, "#") + " bps | TRMET ≥ " + str.tostring(pxUp, "#.##"))
+    table.cell(tb, 0, 7, isLive ? "Bugün SAT için u ≤" : "Yarın SAT için u ≤")
+    table.cell(tb, 1, 7, str.tostring(needDn * 10000, "#") + " bps | TRMET ≤ " + str.tostring(pxDn, "#.##"))
+    table.cell(tb, 0, 8, "Kontrat oranı")
+    table.cell(tb, 1, 8, "1 TRMET1! : " + str.tostring(nz(bTA) * nz(lastY) / nz(lastH, 1), "#.##") + " TRALT1!")
+    table.cell(tb, 0, 9, "Kilit şüphesi (bugün)")
+    table.cell(tb, 1, 9, lockProxy ? "EVET - girme" : "hayır")
+    table.cell(tb, 0, 10, "Altın (önceki tam gün)")
+    table.cell(tb, 1, 10, showGold ? str.tostring(gRet * 100, "#.##") + " %" : "kapalı")
+
+// =====================================================================================================
+// ALARMLAR (koza_alarm.pine ekleri; DERLENMEDİ)
+// Kural girişi ve çıkışı VİOP uzlaşma penceresinde (18:00–18:10) yapılır. Canlı (onaylanmamış) barda z3 gün içinde
+// değişir; bu yüzden giriş alarmları yalnız TSİ saat penceresinde (varsayılan 17:45–18:10) tetiklenir.
+// Alarm sıklığı: "Bar başına bir kez" (Once Per Bar). Gecikmeli (15 dk) BIST verisiyle 17:45 alarmı ~17:30 fiyatını yansıtır.
+// =====================================================================================================
+alWin = input.bool(true, "Giriş alarmı yalnız saat penceresinde", group="Alarm")
+alH1  = input.int(17, "Pencere başlangıç saati (TSİ)", minval=0, maxval=23, group="Alarm")
+alM1  = input.int(45, "Pencere başlangıç dakikası", minval=0, maxval=59, group="Alarm")
+alH2  = input.int(18, "Pencere bitiş saati (TSİ)", minval=0, maxval=23, group="Alarm")
+alM2  = input.int(10, "Pencere bitiş dakikası", minval=0, maxval=59, group="Alarm")
+int nowMinTSI = hour(timenow, "Europe/Istanbul") * 60 + minute(timenow, "Europe/Istanbul")
+bool inWin = not alWin or (nowMinTSI >= alH1 * 60 + alM1 and nowMinTSI <= alH2 * 60 + alM2)
+// bugün planlanan çıkış/uzatma günü mü (dünkü bar kapanışındaki duruma göre)
+bool exitDay = nz(pos[1]) != 0 and bar_index == nz(exitBar[1], -1)
+
+alertcondition(inWin and evEntry and pos == 1, title="KOZA canlı giriş: TRMET1! AL / TRALT1! SAT",
+     message="KOZA z3 > +eşik (z3={{plot_0}}). 18:00–18:10 uzlaşmada TRMET1! AL + β·TRALT1! SAT. Önce aracı kurum ekranında kilit (±%10) kontrolü; günlük rapor (gunluk/SON.md) adetleri.")
+alertcondition(inWin and evEntry and pos == -1, title="KOZA canlı giriş: TRMET1! SAT / TRALT1! AL",
+     message="KOZA z3 < −eşik (z3={{plot_0}}). 18:00–18:10 uzlaşmada TRMET1! SAT + β·TRALT1! AL. Önce kilit kontrolü.")
+alertcondition(inWin and (evExit or evExt), title="KOZA çıkış/uzatma kararı (pencerede)",
+     message="KOZA çıkış günü: z3={{plot_0}}. Aynı yönde |z3|>eşik ise 2 gün uzat, değilse 18:00–18:10 uzlaşmada iki bacağı kapat.")
+alertcondition(exitDay, title="KOZA bugün çıkış günü (sabah hatırlatma)",
+     message="KOZA: bugün planlanan çıkış/uzatma günü. 17:50'de z3'e bak; karar 18:00–18:10 uzlaşma penceresinde.")
+alertcondition(inWin and act != 0, title="KOZA |z3| eşik üstü (durumdan bağımsız)",
+     message="KOZA |z3| eşik üstü (z3={{plot_0}}). Kural durumu ve kilit için göstergeye bak.")

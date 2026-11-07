@@ -1,0 +1,25 @@
+//@version=5
+// LL_z: oncu sembolun piyasa-artigi L gunluk toplaminin 252 gunluk z-skoru.
+// Kullanim (leadlag_abd_uygulama.md §3.1): BDX icin oncu = NYSE:HCA (FF49 Hlth vekili), L = 5.
+// z > +1 -> sonraki 3-5 seansta MedEq/BDX lehine FILTRE (oncelik). Tek basina giris sebebi DEGIL.
+// Test edilen sey FF49 sektor portfoyuydu (MedEq <- Hlth); tek hisse vekili (HCA) daha gurultulu.
+// BU BETIK DERLENMEDI VE TEST EDILMEDI. Ilk kullanimda degerleri elle bir iki gunde kontrol et.
+indicator("LL_z oncu artik z-skoru (ABD)", shorttitle="LL_z", overlay=false)
+lead = input.symbol("NYSE:HCA", "Oncu sembol")
+bm   = input.symbol("SP:SPX", "Piyasa")
+L    = input.int(5, "Sinyal penceresi (seans)", minval=1)
+W    = input.int(252, "Beta ve z penceresi", minval=60)
+
+pl = request.security(lead, "D", close, lookahead=barmerge.lookahead_off)
+pm = request.security(bm, "D", close, lookahead=barmerge.lookahead_off)
+rl = math.log(pl / pl[1])
+rm = math.log(pm / pm[1])
+beta = ta.correlation(rl, rm, W) * ta.stdev(rl, W) / ta.stdev(rm, W)
+e  = rl - beta * rm
+eL = math.sum(e, L)
+z  = (eL - ta.sma(eL, W)) / ta.stdev(eL, W)
+
+plot(z, "z", color = z > 1 ? color.green : z < -1 ? color.red : color.gray, style = plot.style_columns)
+hline(1.0, "+1")
+hline(0.0, "0")
+hline(-1.0, "-1")
