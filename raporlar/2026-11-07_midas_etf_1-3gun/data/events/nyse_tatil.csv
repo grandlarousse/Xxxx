@@ -1,0 +1,140 @@
+date,event,detail,source
+2016-01-01,NYSE_tatil,New Year's Day; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2016-01-18,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2016-02-15,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2016-03-25,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2016-05-30,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2016-07-04,NYSE_tatil,Independence Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2016-09-05,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2016-11-24,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2016-11-25,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2016-12-26,NYSE_tatil,Christmas Day (gözlenen); Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2017-01-02,NYSE_tatil,New Year's Day (gözlenen); Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2017-01-16,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2017-02-20,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2017-04-14,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2017-05-29,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2017-07-03,NYSE_erken_kapanis,Independence Day öncesi erken kapanış 13:00 ET (opsiyon 13:15); Pzt; kural,kural (NYSE erken kapanış kuralı)
+2017-07-04,NYSE_tatil,Independence Day; Sal; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2017-09-04,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2017-11-23,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2017-11-24,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2017-12-25,NYSE_tatil,Christmas Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-01-01,NYSE_tatil,New Year's Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-01-15,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-02-19,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-03-30,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-05-28,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-07-03,NYSE_erken_kapanis,Independence Day öncesi erken kapanış 13:00 ET (opsiyon 13:15); Sal; kural,kural (NYSE erken kapanış kuralı)
+2018-07-04,NYSE_tatil,Independence Day; Çar; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-09-03,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-11-22,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-11-23,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2018-12-05,NYSE_tatil,Ulusal yas günü (George H.W. Bush) — özel kapanış; Çar; tam gün kapalı; özel kapanış (bilinen istisna),kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2018-12-24,NYSE_erken_kapanis,Noel arifesi erken kapanış 13:00 ET (opsiyon 13:15); Pzt; kural,kural (NYSE erken kapanış kuralı)
+2018-12-25,NYSE_tatil,Christmas Day; Sal; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2019-01-01,NYSE_tatil,New Year's Day; Sal; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2019-01-21,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2019-02-18,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2019-04-19,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2019-05-27,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2019-07-03,NYSE_erken_kapanis,Independence Day öncesi erken kapanış 13:00 ET (opsiyon 13:15); Çar; kural,kural (NYSE erken kapanış kuralı)
+2019-07-04,NYSE_tatil,Independence Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2019-09-02,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2019-11-28,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2019-11-29,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2019-12-24,NYSE_erken_kapanis,Noel arifesi erken kapanış 13:00 ET (opsiyon 13:15); Sal; kural,kural (NYSE erken kapanış kuralı)
+2019-12-25,NYSE_tatil,Christmas Day; Çar; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2020-01-01,NYSE_tatil,New Year's Day; Çar; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2020-01-20,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2020-02-17,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2020-04-10,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2020-05-25,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2020-07-03,NYSE_tatil,Independence Day (gözlenen); Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2020-09-07,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2020-11-26,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2020-11-27,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2020-12-24,NYSE_erken_kapanis,Noel arifesi erken kapanış 13:00 ET (opsiyon 13:15); Per; kural,kural (NYSE erken kapanış kuralı)
+2020-12-25,NYSE_tatil,Christmas Day; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2021-01-01,NYSE_tatil,New Year's Day; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2021-01-18,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2021-02-15,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2021-04-02,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2021-05-31,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2021-07-05,NYSE_tatil,Independence Day (gözlenen); Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2021-09-06,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2021-11-25,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2021-11-26,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2021-12-24,NYSE_tatil,Christmas Day (gözlenen); Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2022-01-17,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2022-02-21,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2022-04-15,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2022-05-30,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2022-06-20,NYSE_tatil,Juneteenth (gözlenen); Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2022-07-04,NYSE_tatil,Independence Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2022-09-05,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2022-11-24,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2022-11-25,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2022-12-26,NYSE_tatil,Christmas Day (gözlenen); Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-01-02,NYSE_tatil,New Year's Day (gözlenen); Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-01-16,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-02-20,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-04-07,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-05-29,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-06-19,NYSE_tatil,Juneteenth; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-07-03,NYSE_erken_kapanis,Independence Day öncesi erken kapanış 13:00 ET (opsiyon 13:15); Pzt; kural,kural (NYSE erken kapanış kuralı)
+2023-07-04,NYSE_tatil,Independence Day; Sal; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-09-04,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-11-23,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2023-11-24,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2023-12-25,NYSE_tatil,Christmas Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-01-01,NYSE_tatil,New Year's Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-01-15,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-02-19,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-03-29,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-05-27,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-06-19,NYSE_tatil,Juneteenth; Çar; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-07-03,NYSE_erken_kapanis,Independence Day öncesi erken kapanış 13:00 ET (opsiyon 13:15); Çar; kural,kural (NYSE erken kapanış kuralı)
+2024-07-04,NYSE_tatil,Independence Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-09-02,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-11-28,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2024-11-29,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2024-12-24,NYSE_erken_kapanis,Noel arifesi erken kapanış 13:00 ET (opsiyon 13:15); Sal; kural,kural (NYSE erken kapanış kuralı)
+2024-12-25,NYSE_tatil,Christmas Day; Çar; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-01-01,NYSE_tatil,New Year's Day; Çar; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-01-09,NYSE_tatil,Ulusal yas günü (Jimmy Carter) — özel kapanış; Per; tam gün kapalı; özel kapanış (bilinen istisna),kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-01-20,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; kural",kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-02-17,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-04-18,NYSE_tatil,Good Friday; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-05-26,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-06-19,NYSE_tatil,Juneteenth; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-07-03,NYSE_erken_kapanis,Independence Day öncesi erken kapanış 13:00 ET (opsiyon 13:15); Per; kural,kural (NYSE erken kapanış kuralı)
+2025-07-04,NYSE_tatil,Independence Day; Cum; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-09-01,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-11-27,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2025-11-28,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; kural,kural (NYSE erken kapanış kuralı)
+2025-12-24,NYSE_erken_kapanis,Noel arifesi erken kapanış 13:00 ET (opsiyon 13:15); Çar; kural,kural (NYSE erken kapanış kuralı)
+2025-12-25,NYSE_tatil,Christmas Day; Per; tam gün kapalı; kural,kural (NYSE kuralı) + SPY/VIX işlem günleriyle doğrulama
+2026-01-01,NYSE_tatil,New Year's Day; Per; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-01-19,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; resmî liste (nyse.com)",https://www.nyse.com/markets/hours-calendars
+2026-02-16,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-04-03,NYSE_tatil,Good Friday; Cum; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-05-25,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-06-19,NYSE_tatil,Juneteenth; Cum; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-07-03,NYSE_tatil,Independence Day (gözlenen); Cum; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-09-07,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-11-26,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-11-27,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-12-24,NYSE_erken_kapanis,Noel arifesi erken kapanış 13:00 ET (opsiyon 13:15); Per; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2026-12-25,NYSE_tatil,Christmas Day; Cum; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-01-01,NYSE_tatil,New Year's Day; Cum; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-01-18,NYSE_tatil,"Martin Luther King, Jr. Day; Pzt; tam gün kapalı; resmî liste (nyse.com)",https://www.nyse.com/markets/hours-calendars
+2027-02-15,NYSE_tatil,Washington's Birthday; Pzt; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-03-26,NYSE_tatil,Good Friday; Cum; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-05-31,NYSE_tatil,Memorial Day; Pzt; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-06-18,NYSE_tatil,Juneteenth (gözlenen); Cum; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-07-05,NYSE_tatil,Independence Day (gözlenen); Pzt; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-09-06,NYSE_tatil,Labor Day; Pzt; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-11-25,NYSE_tatil,Thanksgiving Day; Per; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-11-26,NYSE_erken_kapanis,Thanksgiving ertesi erken kapanış 13:00 ET (opsiyon 13:15); Cum; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars
+2027-12-24,NYSE_tatil,Christmas Day (gözlenen); Cum; tam gün kapalı; resmî liste (nyse.com),https://www.nyse.com/markets/hours-calendars

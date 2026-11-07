@@ -1,0 +1,453 @@
+{
+ "nyse_resmi_2026_2027": {
+  "resmi_tatil_sayisi": 20,
+  "hesap_tatil_sayisi": 20,
+  "fark_tatil": [],
+  "fark_erken_kapanis": []
+ },
+ "nyse_fiyat_verisi": {
+  "aralik": "2016-01-01..2026-11-06 (VIX 2016-01..; SPY 2016-11-07..)",
+  "islem_yok_haftaici": 103,
+  "hesap_tatil": 103,
+  "veride_islem_var_ama_tatil_dedik": [],
+  "veride_islem_yok_ama_tatil_degil": []
+ },
+ "satir_sayilari": {
+  "nyse_tatil.csv": 139,
+  "fomc.csv": 96,
+  "cpi.csv": 132,
+  "nfp.csv": 132,
+  "eia_ng_storage.csv": 574,
+  "eia_petroleum.csv": 572,
+  "opex.csv": 132,
+  "vadeler.csv": 396,
+  "ung_uso_roll.csv": 1806,
+  "hazine_ihale_10y30y.csv": 264
+ },
+ "kaynak_notlari": {
+  "nyse_tatil.csv": "2026-2027 resmî NYSE listesi; 2016-2025 kuraldan (özel kapanışlar 2018-12-05, 2025-01-09) + SPY/VIX günlük veride işlem olmayan günlerle karşılaştırma",
+  "fomc.csv": "federalreserve.gov fomccalendars.htm (2021-2026) + fomchistorical2016-2020.htm + plansız/notation vote basın bültenleri (saatler bültenlerden)",
+  "cpi.csv": "BLS arşiv sayfası https://www.bls.gov/bls/news-release/cpi.htm (URL'deki yayım tarihleri) + BLS takvimi https://www.bls.gov/schedule/news_release/cpi.htm + https://www.bls.gov/bls/2025-lapse-revised-release-dates.htm; requests 403 verdiği için WebFetch ile okundu",
+  "nfp.csv": "BLS arşiv sayfası https://www.bls.gov/bls/news-release/empsit.htm (URL'deki yayım tarihleri) + BLS takvimi https://www.bls.gov/schedule/news_release/empsit.htm + https://www.bls.gov/bls/2025-lapse-revised-release-dates.htm; requests 403 verdiği için WebFetch ile okundu",
+  "eia_ng_storage.csv": "2025-2026: resmî EIA takvimi (ir.eia.gov/ngs/schedule.html); 2016-2024: kural (resmî arşiv takvimi erişilemedi; web.archive.org engelli) + 6 tarihlik teyit",
+  "eia_petroleum.csv": "EIA WPSR arşiv sayfası (gerçekleşen yayım tarihleri, 2016-01..2026-11-04) + WPSR takvim sayfası (2026 kalan haftalar)",
+  "opex.csv": "Kuraldan hesaplandı (3. Cuma; tatilse Perşembe). Cboe 2026 tatil listesi (19 Haz 2026 Juneteenth) ile tutarlı",
+  "vadeler.csv": "NG/CL: kuraldan (CME tatili ~ NYSE düzenli tatilleri) + EIA günlük C1/C2 fiyat geçişiyle 2016-2024 kontrol; VIX: Cboe resmî ürün listesi + kural karşılaştırması",
+  "ung_uso_roll.csv": "Tamamı kuraldan hesaplandı (USCF/ProShares/Bloomberg belgelerindeki kurallar); USCF'nin yayımladığı roll CSV'sine erişilemedi",
+  "hazine_ihale_10y30y.csv": "fiscaldata.treasury.gov auctions_query (gerçekleşen, 2016-01..2026-10) + Hazine geçici ihale takvimi PDF (Kasım-Aralık 2026)"
+ },
+ "fomc": {
+  "planli_karar": 87,
+  "yillara_gore": {
+   "2016": 8,
+   "2017": 8,
+   "2018": 8,
+   "2019": 8,
+   "2020": 7,
+   "2021": 8,
+   "2022": 8,
+   "2023": 8,
+   "2024": 8,
+   "2025": 8,
+   "2026": 8
+  },
+  "SEP_sayisi": 43,
+  "carsamba_olmayan_planli": [
+   "2024-11-07",
+   "2018-11-08",
+   "2020-11-05"
+  ],
+  "plansiz_diger_iptal": [
+   [
+    "2025-08-22",
+    "FOMC_diger"
+   ],
+   [
+    "2019-10-11",
+    "FOMC_plansiz"
+   ],
+   [
+    "2020-03-03",
+    "FOMC_plansiz"
+   ],
+   [
+    "2020-03-15",
+    "FOMC_plansiz"
+   ],
+   [
+    "2020-03-18",
+    "FOMC_iptal"
+   ],
+   [
+    "2020-03-19",
+    "FOMC_diger"
+   ],
+   [
+    "2020-03-23",
+    "FOMC_plansiz"
+   ],
+   [
+    "2020-03-31",
+    "FOMC_diger"
+   ],
+   [
+    "2020-08-27",
+    "FOMC_diger"
+   ]
+  ]
+ },
+ "cpi": {
+  "yayim_sayisi": 131,
+  "yillara_gore": {
+   "2016": 12,
+   "2017": 12,
+   "2018": 12,
+   "2019": 12,
+   "2020": 12,
+   "2021": 12,
+   "2022": 12,
+   "2023": 12,
+   "2024": 12,
+   "2025": 11,
+   "2026": 12
+  },
+  "gun_dagilimi": {
+   "Çar": 50,
+   "Cum": 20,
+   "Per": 30,
+   "Sal": 31
+  },
+  "cpi_ornek_son5": [
+   "2026-08-12",
+   "2026-09-11",
+   "2026-10-14",
+   "2026-11-10",
+   "2026-12-10"
+  ],
+  "tatil_cakisma": [
+   "2017-04-14",
+   "2020-04-10"
+  ]
+ },
+ "nfp": {
+  "yayim_sayisi": 131,
+  "yillara_gore": {
+   "2016": 12,
+   "2017": 12,
+   "2018": 12,
+   "2019": 12,
+   "2020": 12,
+   "2021": 12,
+   "2022": 12,
+   "2023": 12,
+   "2024": 12,
+   "2025": 11,
+   "2026": 12
+  },
+  "gun_dagilimi": {
+   "Cum": 125,
+   "Per": 4,
+   "Sal": 1,
+   "Çar": 1
+  },
+  "nfp_cuma_disi": [
+   "2020-07-02 Per",
+   "2025-07-03 Per",
+   "2025-11-20 Per",
+   "2025-12-16 Sal",
+   "2026-02-11 Çar",
+   "2026-07-02 Per"
+  ],
+  "tatil_cakisma": [
+   "2021-04-02",
+   "2023-04-07",
+   "2026-04-03"
+  ]
+ },
+ "ng_depolama": {
+  "resmi_istisnalar": {
+   "2025-01-03": "Friday 10:30 a.m.",
+   "2025-01-08": "Wednesday 12:00 p.m.",
+   "2025-06-18": "Wednesday 12:00 p.m.",
+   "2025-11-14": "Friday 10:30 a.m.",
+   "2025-11-26": "Wednesday 12:00 p.m.",
+   "2025-12-29": "Monday 12:00 p.m.",
+   "2025-12-31": "Wednesday 12:00 p.m.",
+   "2026-11-13": "Friday 10:30 a.m.",
+   "2026-11-25": "Wednesday 12:00 p.m."
+  },
+  "kural_vs_resmi_2025_2026_farklar": [
+   [
+    "2025-12-25",
+    "kural=tanımsız",
+    "resmî=2025-12-29"
+   ]
+  ],
+  "kural_istisnalari_2016_2024": [
+   "2016-11-23 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2017-07-07 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2017-11-22 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2018-07-06 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2018-11-21 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2018-12-07 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2018-12-28 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2019-01-04 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2019-07-03 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2019-11-27 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2019-12-27 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2020-01-03 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2020-11-13 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2020-11-25 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2020-12-23 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2021-11-10 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2021-11-24 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2022-11-23 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2023-07-07 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2023-11-22 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2024-06-21 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30",
+   "2024-07-03 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2024-11-27 Çar 12:00 ET | Perşembe kapalı -> Çarşamba 12:00",
+   "2024-12-27 Cum 10:30 ET | Salı/Çarşamba kapalı -> Cuma 10:30"
+  ],
+  "teyitli_kural_tarihleri": [
+   "2021-11-10",
+   "2023-07-07",
+   "2023-11-22",
+   "2024-06-21",
+   "2024-11-27",
+   "2024-12-27"
+  ]
+ },
+ "wpsr": {
+  "arsiv_yayim_2016+": 564,
+  "son_arsiv": "2026-11-04",
+  "carsamba_disi": 85,
+  "atlanan_haftalar(>9 gun bosluk)": [
+   [
+    "2022-06-15",
+    "2022-06-29"
+   ],
+   [
+    "2023-11-01",
+    "2023-11-15"
+   ],
+   [
+    "2025-12-17",
+    "2025-12-29"
+   ]
+  ],
+  "takvim_istisnasi_arsivde_yok": [],
+  "ornek_istisnalar": [
+   "2025-01-02 Thursday New Year's Day",
+   "2025-01-23 Thursday Martin Luther King Jr. Day / Inauguration",
+   "2025-02-20 Thursday President's Day",
+   "2025-05-29 Thursday Memorial Day",
+   "2025-09-04 Thursday Labor Day",
+   "2025-10-16 Thursday Columbus Day"
+  ]
+ },
+ "opex": {
+  "satir": 132,
+  "cuma_disi": [
+   "2019-04-18",
+   "2022-04-14",
+   "2025-04-17",
+   "2026-06-18"
+  ]
+ },
+ "vadeler_tradingview_capraz": {
+  "eslesen": 76,
+  "farkli": []
+ },
+ "vadeler": {
+  "NG_kontrol": {
+   "uyumlu": 95,
+   "UYUMSUZ": 2,
+   "veri yok": 34,
+   "belirsiz": 1
+  },
+  "CL_kontrol": {
+   "uyumlu": 78,
+   "belirsiz": 19,
+   "UYUMSUZ": 2,
+   "veri yok": 33
+  },
+  "sorunlu": [
+   [
+    "NGH16",
+    "2016-02-25",
+    "UYUMSUZ (veri 2016-02-24 gösteriyor)"
+   ],
+   [
+    "CLZ16",
+    "2016-11-21",
+    "belirsiz (en iyi aday 2016-11-17)"
+   ],
+   [
+    "CLH17",
+    "2017-02-21",
+    "belirsiz (en iyi aday 2017-02-15)"
+   ],
+   [
+    "CLU17",
+    "2017-08-22",
+    "belirsiz (en iyi aday 2017-08-17)"
+   ],
+   [
+    "CLV17",
+    "2017-09-20",
+    "belirsiz (en iyi aday 2017-09-22)"
+   ],
+   [
+    "CLN18",
+    "2018-06-20",
+    "UYUMSUZ (veri 2018-06-19 gösteriyor)"
+   ],
+   [
+    "CLV18",
+    "2018-09-20",
+    "belirsiz (en iyi aday 2018-09-21)"
+   ],
+   [
+    "CLX18",
+    "2018-10-22",
+    "belirsiz (en iyi aday 2018-10-23)"
+   ],
+   [
+    "CLK19",
+    "2019-04-22",
+    "belirsiz (en iyi aday 2019-04-19)"
+   ],
+   [
+    "CLU19",
+    "2019-08-20",
+    "belirsiz (en iyi aday 2019-08-22)"
+   ],
+   [
+    "CLF20",
+    "2019-12-19",
+    "belirsiz (en iyi aday 2019-12-19)"
+   ],
+   [
+    "CLK20",
+    "2020-04-21",
+    "UYUMSUZ (veri 2020-04-20 gösteriyor)"
+   ],
+   [
+    "CLN20",
+    "2020-06-22",
+    "belirsiz (en iyi aday 2020-06-18)"
+   ],
+   [
+    "CLJ21",
+    "2021-03-22",
+    "belirsiz (en iyi aday 2021-03-23)"
+   ],
+   [
+    "CLG22",
+    "2022-01-20",
+    "belirsiz (en iyi aday 2022-01-18)"
+   ],
+   [
+    "CLM22",
+    "2022-05-20",
+    "belirsiz (en iyi aday 2022-05-19)"
+   ],
+   [
+    "CLV22",
+    "2022-09-20",
+    "belirsiz (en iyi aday 2022-09-20)"
+   ],
+   [
+    "CLX22",
+    "2022-10-20",
+    "belirsiz (en iyi aday 2022-10-18)"
+   ],
+   [
+    "NGH23",
+    "2023-02-24",
+    "belirsiz (en iyi aday 2023-03-01)"
+   ],
+   [
+    "CLH23",
+    "2023-02-21",
+    "belirsiz (en iyi aday 2023-02-23)"
+   ],
+   [
+    "CLX23",
+    "2023-10-20",
+    "belirsiz (en iyi aday 2023-10-23)"
+   ],
+   [
+    "CLZ23",
+    "2023-11-20",
+    "belirsiz (en iyi aday 2023-11-16)"
+   ],
+   [
+    "NGH24",
+    "2024-02-27",
+    "UYUMSUZ (veri 2024-02-26 gösteriyor)"
+   ],
+   [
+    "CLJ24",
+    "2024-03-20",
+    "belirsiz (en iyi aday 2024-03-15)"
+   ]
+  ],
+  "VIX_resmi_sayi": 132,
+  "VIX_kural_farki": [],
+  "EIA_veri_son_gun": {
+   "NG": "2024-04-05",
+   "CL": "2024-04-05"
+  }
+ },
+ "roll": {
+  "satir": {
+   "UNG_roll": 528,
+   "USO_roll": 948,
+   "BOIL_KOLD_roll": 330
+  },
+  "ornek_UNG_2026_11": [
+   "2026-11-11 gün 1/4 (benchmark %25 yeni kontrat, gün sonu); NGZ26->NGF27",
+   "2026-11-12 gün 2/4 (benchmark %50 yeni kontrat, gün sonu); NGZ26->NGF27",
+   "2026-11-13 gün 3/4 (benchmark %75 yeni kontrat, gün sonu); NGZ26->NGF27",
+   "2026-11-16 gün 4/4 (benchmark %100 yeni kontrat, gün sonu); NGZ26->NGF2",
+   "2026-12-15 gün 1/4 (benchmark %25 yeni kontrat, gün sonu); NGF27->NGG27",
+   "2026-12-16 gün 2/4 (benchmark %50 yeni kontrat, gün sonu); NGF27->NGG27",
+   "2026-12-17 gün 3/4 (benchmark %75 yeni kontrat, gün sonu); NGF27->NGG27",
+   "2026-12-18 gün 4/4 (benchmark %100 yeni kontrat, gün sonu); NGF27->NGG2"
+  ],
+  "ornek_BOIL_2026_12": [
+   "2026-12-08 gün 1/5 (%20/gün); NGF27->NGH27; ayın 6.",
+   "2026-12-09 gün 2/5 (%20/gün); NGF27->NGH27; ayın 6.",
+   "2026-12-10 gün 3/5 (%20/gün); NGF27->NGH27; ayın 6.",
+   "2026-12-11 gün 4/5 (%20/gün); NGF27->NGH27; ayın 6.",
+   "2026-12-14 gün 5/5 (%20/gün); NGF27->NGH27; ayın 6."
+  ],
+  "ornek_USO_2026_11": [
+   "2026-11-02 gün 1/5; ayın ilk 5 iş günü; CLZ26->CLF2",
+   "2026-11-03 gün 2/5; ayın ilk 5 iş günü; CLZ26->CLF2",
+   "2026-11-04 gün 3/5; ayın ilk 5 iş günü; CLZ26->CLF2",
+   "2026-11-05 gün 4/5; ayın ilk 5 iş günü; CLZ26->CLF2",
+   "2026-11-06 gün 5/5; ayın ilk 5 iş günü; CLZ26->CLF2"
+  ]
+ },
+ "hazine_ayni_ay_ikinci_kayit_cikarildi": [
+  "2019-06-21 UST10Y_ihale 9-Year 11-Month 9128286T2"
+ ],
+ "hazine": {
+  "yil_ihale": {
+   "2016": "10Y=12, 30Y=12",
+   "2017": "10Y=12, 30Y=12",
+   "2018": "10Y=12, 30Y=12",
+   "2019": "10Y=12, 30Y=12",
+   "2020": "10Y=12, 30Y=12",
+   "2021": "10Y=12, 30Y=12",
+   "2022": "10Y=12, 30Y=12",
+   "2023": "10Y=12, 30Y=12",
+   "2024": "10Y=12, 30Y=12",
+   "2025": "10Y=12, 30Y=12",
+   "2026": "10Y=12, 30Y=12"
+  }
+ }
+}

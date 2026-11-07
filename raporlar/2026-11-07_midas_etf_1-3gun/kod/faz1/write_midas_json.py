@@ -1,0 +1,158 @@
+"""notlar/midas_kosullari.json dosyasını üretir (makine okunur özet).
+
+Kullanım: python -I write_midas_json.py <cikti.json>
+Değerler notlar/midas_kosullari.md'deki bulgulardan elle aktarılmıştır.
+"""
+import json
+import sys
+
+SEMBOLLER = [
+    "TQQQ", "SQQQ", "SOXL", "SOXS", "UPRO", "TNA", "BOIL", "KOLD", "UCO", "SCO",
+    "NUGT", "DUST", "TMF", "TMV", "UVXY", "SVXY", "VXX", "IBIT", "FBTC", "ETHA",
+    "BITO", "NVDL", "TSLL", "MSTU", "CONL", "UNG", "USO", "GLD", "SLV",
+]
+
+# var = somut kanıt; belirsiz = muhtemel veya doğrulanamadı (ayrıntı sembol_detay'da)
+DURUM = {s: "belirsiz" for s in SEMBOLLER}
+DURUM["UNG"] = "var"
+
+PTP = {"BOIL", "KOLD", "UCO", "SCO", "UVXY", "SVXY", "UNG", "USO"}
+
+DETAY = {s: {"degerlendirme": "doğrulanamadı", "ptp_k1": s in PTP} for s in SEMBOLLER}
+DETAY["TQQQ"].update(degerlendirme="muhtemel",
+                     kanit="r10.net kullanıcı beyanı 18.03.2024 ('Kaldıraçlı ETF'ler var … TQQQ … SPXL')")
+DETAY["UNG"].update(degerlendirme="var (2023-2024)",
+                    kanit="Şikayetvar 27.11.2023; Midas resmi yanıtı 30.11.2023 limit emrin gerçekleştiğini teyit ediyor; 09.2024'te uygulamada PTP ibaresi ve geçici %10 kesinti (kullanıcı beyanı)")
+for s in ("IBIT", "FBTC", "ETHA"):
+    DETAY[s].update(degerlendirme="muhtemel",
+                    kanit="Aynı sınıftan ETHE ve GBTC'nin getmidas.com sembol sayfası (AL butonlu) mevcut")
+DETAY["GLD"].update(degerlendirme="muhtemel",
+                    kanit="Midas Akademi/Midas'ın Kulakları GLD'yi örnek veriyor; bulunurluk ifadesi yok")
+DETAY["VXX"]["not"] = "ETN (PTP değil)"
+DETAY["BITO"]["not"] = "Yüksek aylık dağıtım; ex-date'te %20 ABD stopajı"
+
+data = {
+    "tarih": "2026-11-07",
+    "komisyon_usd_islem": 1.5,
+    "komisyon_detay": {
+        "birim": "emir başına sabit (kısmi dolumlar dahil tek ücret)",
+        "alt_ust_limit": "yok",
+        "bir_dolar_alti_kurali": "ilk 300 adet 1,5 USD; 300 üstü her adet +0,005 USD",
+        "bsmv": "sözleşmede 'BSMV hariç' ifadesi var; ABD işlemlerinde eklenip eklenmediği doğrulanamadı",
+        "gidis_donus_maliyet_ornek_pct": {"500": 0.6, "1000": 0.3, "2500": 0.12, "5000": 0.06, "10000": 0.03},
+        "saklama_hesap_isletim": "ücretsiz (ADR'lerde hisse başı 0,01-0,03 USD ADR ücreti)",
+        "para_yatirma": "Midas ücret almıyor (banka/SWIFT masrafları müşteride)",
+        "virman_disari": "ACATS 25 USD, DTC hisse başı 5 USD",
+    },
+    "doviz": {
+        "tl_usd_makas": "bulunamadı (yayımlanmıyor)",
+        "doviz_saatleri": "7/24",
+        "usd_bakiye_tutulabilir": True,
+        "usd_cekim": "ABD hesabından sadece USD",
+        "usd_nema": "var (18:45 bakiyesi üzerinden, oran uygulamada)",
+        "otomatik_cevrim": "farklı para birimiyle alımda gün sonu kapanış kuru (sözleşme)",
+    },
+    "saat_dilimi_durumu": "ABD kış saati (EST) 01.11.2026'dan 14.03.2027'ye kadar",
+    "normal_seans_tr": {"kis_EST": "17:30-00:00", "yaz_EDT": "16:30-23:00"},
+    "pre_market_tr": {"kis_EST": "12:00-17:30", "yaz_EDT": "11:00-16:30"},
+    "after_hours_tr": {"kis_EST": "00:00-04:00", "yaz_EDT": "23:00-03:00"},
+    "gece_piyasasi_tr": {"kis_EST": "04:00-12:00", "yaz_EDT": "03:00-11:00 (türetilmiş)",
+                         "kapsam": "~2.000 hisse ve yatırım fonu, liste günlük güncelleniyor"},
+    "yarim_gun_kapanis_tr": {"2026-11-27": "21:00", "2026-12-24": "21:00"},
+    "uzatilmis_ve_gece_emir_tipi": ["limit"],
+    "etf_uzatilmis_saatte": "evet (genel); sembol bazında gece listesi doğrulanamadı",
+    "emir_tipleri": ["piyasa", "limit", "stop", "stop-limit", "kar_al_zarar_durdur"],
+    "takip_eden_stop": "bulunamadı (Midas listesinde yok)",
+    "moc_loc": "bulunamadı (Midas listesinde yok)",
+    "emir_gecerlilik": {
+        "limit": "günlük (04:00-04:00 TSİ) veya iptal edilene kadar (en fazla 3 ay)",
+        "stop": "GTC yok (kullanıcı beyanı, doğrulanamadı)",
+        "zarar_durdur_davranisi": "tetiklenince tetik fiyatının %2 altına limitli stop-limit",
+        "kar_al_zarar_durdur_degistirme": "değiştirilemez, iptal edip yeniden verilir",
+        "celiski": "limit emir sayfası 'kapanışta iptal' diyor; uzatılmış saatler sayfası 04:00-04:00 diyor",
+    },
+    "bloke_kurallari": {"alimda_ek_nakit_pct": 1.0, "kapali_piyasa_piyasa_emri_marj_pct": 3.0,
+                        "stop_emri_marj_pct": 2.5},
+    "kesirli": "evet (min 1 USD; tüm sembollerde değil; ETF'lerde de var)",
+    "aciga_satis": "hayir",
+    "kredili_islem_abd": "hayir (kredili yatırım sadece BIST)",
+    "pdt": "kaldırıldı (04.06.2026)",
+    "takas": "T+1, ertesi iş günü 12:00 TSİ",
+    "kaldiracli_etf": "belirsiz",
+    "kaldiracli_etf_degerlendirme": "muhtemel: Alpaca sözleşmesi (Midas TR metni) kaldıraçlı/ters ETF'leri ele alıyor; 2024 kullanıcı beyanı TQQQ/SPXL; resmi sembol listesi yok",
+    "ters_etf": "belirsiz",
+    "ters_etf_degerlendirme": "muhtemel (kaldıraçlı ETF ile aynı gerekçe); doğrulanamadı",
+    "kripto_etf": "evet",
+    "kripto_etf_degerlendirme": "ETHE ve GBTC getmidas.com sembol sayfası var; IBIT/FBTC/ETHA muhtemel, doğrulanamadı",
+    "tek_hisse_kaldiracli": "belirsiz",
+    "tek_hisse_kaldiracli_degerlendirme": "doğrulanamadı",
+    "vix_urunleri": "belirsiz",
+    "vix_urunleri_degerlendirme": "doğrulanamadı; UVXY/SVXY/VIXY PTP (1446(f) riski), VXX ETN",
+    "ptp_riski": "Uygulamada 'PTP' ibaresi var; 09.2024'te UNG'de ~1-1,5 hafta %10 brüt satış kesintisi bildirildi (kullanıcı); ProShares Trust II (26.02.2026) ve USCF (31.07.2026) 10% istisna bildirimi yayımlamış",
+    "uygunluk_testi": "genel müşteri gerçek kişiler için zorunlu (sözleşme); kaldıraçlı/ters ETF'e özel ek onay bulunamadı",
+    "veri": "ABD canlı veri ücretsiz (gecikmesiz); TradingView entegrasyonunda veri CBOE One",
+    "vergi": {
+        "abd_temettu_stopaji_pct": 20,
+        "w8ben": "hesap açılışında; en az 36 ayda bir yeniden tasdik",
+        "tr_alim_satim": "değer artışı (GVK Mük. 80/81); tutar ne olursa olsun yıllık beyan; istisna yok",
+        "tr_kur_farki": "vergilenir (TL bazında hesap)",
+        "tr_yiufe_endeksleme": "artış >=%10 ise; alım ayı dahil, satım ayı hariç (1-3 günde pratikte yok)",
+        "tr_zarar_mahsubu": "aynı yıl içinde menkul kıymet kazançlarından; sonraki yıla devir yok; diğer gelirlerden yok",
+        "tr_temettu_beyan_siniri_2026_tl": 22000,
+        "beyan_donemi_2026_kazanclari": "Mart 2027",
+        "tarife_2026_ucret_disi_tl": [[190000, 15], [400000, 20], [1000000, 27], [5300000, 35], ["üstü", 40]],
+    },
+    "sembol_bazinda": DURUM,
+    "sembol_detay": DETAY,
+    "sembol_sayfasi_olan_ekstra": {"ETHE": "var", "GBTC": "var"},
+    "kaynaklar": [
+        "https://www.getmidas.com/ucretler/",
+        "https://www.getmidas.com/abd-borsalari/",
+        "https://www.getmidas.com/destek/amerikan-borsasi/alim-satim-islemleri-ve-emirler/midasta-hangi-emir-tiplerini-kullanabilirim",
+        "https://www.getmidas.com/destek/amerikan-borsasi/alim-satim-islemleri-ve-emirler/limit-emir-nedir",
+        "https://www.getmidas.com/destek/amerikan-borsasi/alim-satim-islemleri-ve-emirler/amerikan-borsasi-piyasa-emirlerindeki-marj-kurali-nedir",
+        "https://www.getmidas.com/destek/amerikan-borsasi/alim-satim-islemleri-ve-emirler/tutar-veya-adet-ile-parca-hisse-alim-satimi-nasil-yapilir",
+        "https://www.getmidas.com/destek/amerikan-borsasi/amerikan-borsasi-piyasa-bilgileri/hangi-saatler-arasinda-emir-verebilirim",
+        "https://www.getmidas.com/destek/amerikan-borsasi/uzatilmis-islem-saatleri/uzatilmis-islem-saatlerinde-hangi-emir-tiplerini-iletebilirim",
+        "https://www.getmidas.com/destek/amerikan-borsasi/uzatilmis-islem-saatleri/limit-emirler-ne-zamana-kadar-gecerlidir",
+        "https://www.getmidas.com/destek/amerikan-borsasi/gece-piyasasi/gece-piyasasinda-hangi-emir-turunu-kullanabilirim",
+        "https://www.getmidas.com/destek/amerikan-borsasi/gece-piyasasi/gece-piyasasinda-hangi-hisselerde-islem-yapabilirim",
+        "https://www.getmidas.com/destek/amerikan-borsasi/amerikan-borsasi-piyasa-bilgileri/amerikan-borsasinin-kapali-oldugu-ozel-gunler",
+        "https://www.getmidas.com/destek/amerikan-borsasi/gunluk-al-sat-limiti/gunluk-al-sat-islemlerinde-limit-var-mi",
+        "https://www.getmidas.com/destek/amerikan-borsasi/kar-al-zarar-durdur/zarar-durdur-emri-nedir",
+        "https://www.getmidas.com/destek/amerikan-borsasi/amerikan-borsasi-piyasa-bilgileri/amerikan-borsasinda-takas-suresi-ne-anlama-gelir",
+        "https://www.getmidas.com/destek/amerikan-borsasi/tradingview-entegrasyonu/tradingview-uzerinden-verecegim-emirlerin-islem-ucreti-ne-kadar",
+        "https://www.getmidas.com/destek/amerikan-borsasi/tradingview-entegrasyonu/uygulamada-gordugum-fiyat-ile-tradingviewdaki-fiyat-arasinda-fark-var-neden",
+        "https://www.getmidas.com/kredili-islem/",
+        "https://www.getmidas.com/destek/midas-ile-yatirima-baslarken/midas-ile-neler-yapabilirim/midas-yatirim-hesabin-ile-hangi-yatirimlari-yapabilirsin",
+        "https://www.getmidas.com/midas-akademi/parca-hisse-senedi-nedir/",
+        "https://www.getmidas.com/midas-akademi/abd-acilis-oncesi-islemler-ve-kapanis-sonrasi-pre-market-post-market-nedir/",
+        "https://www.getmidas.com/destek/amerikan-borsasi/temettu/temettu-nedir",
+        "https://www.getmidas.com/destek/amerikan-borsasi/vergilendirme/amerikan-borsasindaki-hangi-kazanclarim-icin-vergi-beyaninda-bulunmaliyim",
+        "https://www.getmidas.com/destek/amerikan-borsasi/vergilendirme/beyanname-nasil-verilir",
+        "https://www.getmidas.com/destek/para-transferi-ve-doviz-al-sat/doviz-al-sat/hangi-saatler-arasinda-doviz-al-sat-yapabilirim",
+        "https://www.getmidas.com/destek/amerikan-borsasi/dolar-nema-getirisi/dolar-nema-getirimi-nasil-hesaplayabilirim",
+        "https://www.getmidas.com/midas-us-stock-sitemap1.xml",
+        "https://www.getmidas.com/amerikan-borsasi/ethe-hisse/",
+        "https://www.getmidas.com/amerikan-borsasi/gbtc-hisse/",
+        "https://webcdn.getmidas.com/uploads/2025/12/04160345/yurt-disi-islemlere-aracilik-sozlesmesi.pdf",
+        "https://webcdn.getmidas.com/uploads/2025/12/04155950/yurt-disi-borsalari-kullanici-sozlesmesi-1.pdf",
+        "https://webcdn.getmidas.com/uploads/2025/12/04160304/W8-BEN-Disclosure.docx.pdf",
+        "https://webcdn.getmidas.com/uploads/2026/08/24134138/Yurt-Disinda-Islem-Araciligi-Faaliyet-Izni.pdf",
+        "https://www.tradingview.com/broker/Midas/",
+        "https://www.r10.net/sorum-var/4027951-midas-ta-kaldiracli-islemler-var-mi.html",
+        "https://www.sikayetvar.com/midas/midas-dogalgaz-fonlari-etf-yatirim-araci-degil-batirim-araci-ung",
+        "https://www.sikayetvar.com/midas/midas-ung-fonunda-10-vergiyi-belirtmedi",
+        "https://www.proshares.com/globalassets/proshares/documents/qualified-reports/pst_ii_qualified_notice_02262026.pdf",
+        "https://secure.alpsinc.com/MarketingAPI/api/v1/Content/uscfinvestments/uscfinvestments-taxst-20260731.pdf",
+        "https://www.yapikredi.com.tr/medium/file/yabanci-hisse-senedi-gelirlerinde-2026-yili-vergi-durumu_71999/view",
+        "https://vergimerkezi.com.tr/yurtdisi-hisse-senedi-vergilendirme-rehberi-2025/",
+        "https://kpmgvergi.com/yayinlar/mali-bultenler/vergi/vergi-kanunlarinda-onemli-degisiklikler-ongoren-kanun-teklifi-tbmm-ye-sunulmustur/4485",
+        "https://www.forbes.com.tr/ekonomi/2026-yili-gelir-vergisi-tarifesi-ve-istisna-tutarlari-belirlendi",
+        "https://tr.euronews.com/business/2026/08/18/nasdaq-araliktan-itibaren-23-saatlik-islem-icin-gece-seansini-onayladi",
+    ],
+}
+
+with open(sys.argv[1], "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("ok", len(data["sembol_bazinda"]), "sembol")

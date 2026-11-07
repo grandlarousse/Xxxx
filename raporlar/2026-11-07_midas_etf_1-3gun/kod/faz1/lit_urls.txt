@@ -1,0 +1,66 @@
+# Literatür taraması için indirilen kaynaklar (faz1). Her satır bir URL.
+# (a) IBS / RSI2 / ortalamaya dönüş
+https://arxiv.org/pdf/2306.12434
+https://faculty.tuck.dartmouth.edu/images/uploads/faculty/jonathan-lewellen/Autocorrelations.pdf
+https://counterpointfunds.com/wp-content/uploads/2017/07/PredictabilityMcleanPontiff.pdf
+https://tradingmarkets.com/?p=1593757
+# (b) takvim / FOMC / makro
+https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr512.pdf
+https://www.skidmore.edu/economics/documents/KSSW2017-PriceDriftBeforeUSMacroeconomicNews.pdf
+https://stern.nyu.edu/sites/default/files/assets/documents/cycle_paper_cieslak_morse_vissingjorgensen.pdf
+https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Draft20111128p_edited.pdf
+https://apps.it.purdue.edu/sites/Home/DirectoryApi/Files/fed4cdba-2490-4cc5-893d-9f0d5efb626f/Download
+https://quantpedia.com/strategies/option-expiration-week-effect
+# (c) gece/gün içi
+https://personal.lse.ac.uk/polk/research/TugOfWar.pdf
+https://quantpedia.com/dangers-of-relying-on-ohlc-prices-the-case-of-overnight-drift-in-gdx-etf/
+# (d) kaldıraçlı ETF
+https://www3.nd.edu/~zda/intramom.pdf
+https://www.aimspress.com/article/doi/10.3934/QFE.2024031
+https://arxiv.org/abs/2608.03703
+https://arxiv.org/abs/2604.27287
+https://www.federalreserve.gov/pubs/feds/2013/201348/
+# (e) VIX
+https://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2013-Reading/papers/EFMA2013_0164_fullpaper.pdf
+https://quantpedia.com/strategies/exploiting-term-structure-of-vix-futures
+https://www.cxoadvisory.com/volatility-effects/buying-and-holding-exchange-traded-products-based-on-vix-futures
+# (f) doğalgaz
+https://centaur.reading.ac.uk/90003/1/NG_paper_final_round.pdf
+https://ou.edu/content/dam/price/Management/Energy%20Institute/docs/Linn%20and%20Zhu%20JFM%202004.pdf
+# (g) petrol
+https://www.ou.edu/content/dam/price/Finance/energyfinanceconference/Liquidity%20and%20Market%20Quality%20around%20Predictable%20Trades.pdf
+https://www.cftc.gov/idc/groups/public/@economicanalysis/documents/file/oce_predatorysunshine0314.pdf
+# (h) altın
+https://quantpedia.com/golds-rally-and-the-gold-mining-stocks-trap/
+https://www.nber.org/papers/w18706.pdf
+# (i) tahvil
+https://rodneywhitecenter.wharton.upenn.edu/wp-content/uploads/2019/12/17-19.Schwarz.pdf
+https://quantpedia.com/secular-decline-in-yields-around-fomc-meetings/
+# (j) döviz
+https://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2008-Athens/papers/376.pdf
+https://www.bankofcanada.ca/wp-content/uploads/2021/10/swp2021-48.pdf
+https://www.fmg.ac.uk/sites/default/files/publications/dp-54.pdf
+# (k) kripto
+https://cesifo.org/DocDL/cesifo1_wp6716.pdf
+https://falconx.io/newsroom/what-can-spot-etf-flows-tell-us-about-the-trajectory-of-bitcoin-prices-a-preliminary-statistical-investigation
+# (l) ülke ETF
+https://efmaefm.org/0EFMSYMPOSIUM/2012/papers/021.pdf
+# (m)/(n) sektör ve öncü-ardıl
+https://escholarship.org/content/qt6x49x543/qt6x49x543.pdf?t=krnr78
+https://core.ac.uk/download/18510526.pdf
+https://blogs.cfainstitute.org/blog/2023/03/16/is-the-copper-gold-ratio-a-leading-indicator-on-rates
+# ek indirmeler (2. tur)
+https://econ.biu.ac.il/sites/econ/files/shared/riedp_1-13.pdf
+https://eprints.lse.ac.uk/46329/
+https://cfr.ivo-welch.info/published/papers/martineau2021rest.pdf
+https://cfr.ivo-welch.info/published/papers/ko2021pre.pdf
+https://www.robeco.com/en-sg/insights/2025/03/quant-chart-us-treasuries-up-for-auction
+https://quantpedia.com/are-there-seasonal-intraday-or-overnight-anomalies-in-bitcoin/
+https://www.wealthmanagement.com/etfs/-night-effect-etfs-to-shut-down-with-overnight-stock-returns-elusive
+https://www.sec.gov/Archives/edgar/data/0001415311/000119312518059052/d503117dex991.htm
+https://www.investor.gov/news-alerts/investor-alerts/sec-finra-investor-alert-leveraged-inverse-etfs
+https://www.caixinglobal.com/2026-07-03/analysis-gold-caught-in-a-tug-of-war-between-asian-bulls-and-a-hawkish-fed-102460438.html
+https://mdpi.com/1911-8074/12/3/113
+https://ir.eia.gov/
+https://www.cxoadvisory.com/volatility-effects/front-running-leveraged-etfs-at-the-end-of-the-day
+https://papers.ssrn.com/abstract=3925725
