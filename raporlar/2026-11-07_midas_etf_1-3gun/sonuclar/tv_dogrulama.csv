@@ -3,7 +3,7 @@ CME_MINI:ES1!,dogrulandi,S&P 500 E-Mini Futures Chart — ES Futures Quotes — 
 CME_MINI:NQ1!,dogrulandi,Nasdaq 100 Futures Live Chart — NQ Futures — TradingView,https://www.tradingview.com/symbols/CME_MINI-NQ1!/
 CME_MINI:RTY1!,dogrulandi,E-Mini Russell 2000 Index Futures Price Chart — CME_MINI:RTY1! — TradingView,https://www.tradingview.com/symbols/CME_MINI-RTY1!/
 CBOT_MINI:YM1!,dogrulandi,Dow Jones Futures Live Chart — DJIA Futures — TradingView,https://www.tradingview.com/symbols/CBOT_MINI-YM1!/
-SP:SPX,yonlendirildi,S&P 500 Index Chart — SPX Quote — TradingView,https://www.tradingview.com/symbols/SPX/
+SP:SPX,dogrulandi_kanonik,S&P 500 Index Chart — SPX Quote — TradingView,https://www.tradingview.com/symbols/SPX/
 NASDAQ:NDX,dogrulandi,Nasdaq 100 Index Chart — NDX Quote — TradingView,https://www.tradingview.com/symbols/NASDAQ-NDX/
 TVC:RUT,dogrulandi,Russell 2000 Today — TVC:RUT Index Chart — TradingView,https://www.tradingview.com/symbols/TVC-RUT/
 NASDAQ:SOX,dogrulandi,Philadelphia Semiconductor Index (SOX) Charts and Quotes — TradingView,https://www.tradingview.com/symbols/NASDAQ-SOX/
@@ -16,7 +16,7 @@ CBOE:VVIX,dogrulandi,CBOE VIX VOLATILITY INDEX Today — CBOE:VVIX Index Chart �
 CBOE:OVX,dogrulandi,CBOE Crude Oil Volatility Index Today — CBOE:OVX Index Chart — TradingView,https://www.tradingview.com/symbols/CBOE-OVX/
 CBOE:GVZ,dogrulandi,GOLD VOLATILITY INDEX Today — CBOE:GVZ Index Chart — TradingView,https://www.tradingview.com/symbols/CBOE-GVZ/
 CBOE:VX1!,dogrulandi,Cboe Volatility Index (VIX) Futures Price Chart — CBOE:VX1! — TradingView,https://www.tradingview.com/symbols/CBOE-VX1!/
-CBOE:VX2!,yonlendirildi,Cboe Volatility Index (VIX) Futures Price Chart — CBOE:VX2! — TradingView,https://www.tradingview.com/symbols/CBOE-VX1!/?contract=VX2%21
+CBOE:VX2!,dogrulandi_kanonik,Cboe Volatility Index (VIX) Futures Price Chart — CBOE:VX2! — TradingView,https://www.tradingview.com/symbols/CBOE-VX1!/?contract=VX2%21
 CBOE:SKEW,dogrulandi,CBOE SKEW INDEX Today — CBOE:SKEW Index Chart — TradingView,https://www.tradingview.com/symbols/CBOE-SKEW/
 CBOE:VXN,dogrulandi,CBOE NASDAQ 100 Volatility Today — CBOE:VXN Index Chart — TradingView,https://www.tradingview.com/symbols/CBOE-VXN/
 TVC:DXY,dogrulandi,DXY — U.S. Dollar Index Chart — TradingView,https://www.tradingview.com/symbols/TVC-DXY/
@@ -38,45 +38,45 @@ COMEX:SI1!,dogrulandi,Silver Futures Price Chart — COMEX:SI1! — TradingView,
 COMEX:HG1!,dogrulandi,Copper Futures Price Chart — COMEX:HG1! — TradingView,https://www.tradingview.com/symbols/COMEX-HG1!/
 NYMEX:PL1!,dogrulandi,Platinum Futures Price Chart — NYMEX:PL1! — TradingView,https://www.tradingview.com/symbols/NYMEX-PL1!/
 NYMEX:PA1!,dogrulandi,Palladium Futures Price Chart — NYMEX:PA1! — TradingView,https://www.tradingview.com/symbols/NYMEX-PA1!/
-TVC:GOLD,yonlendirildi,GOLD Charts and Quotes — TradingView,https://www.tradingview.com/symbols/GOLD/
-TVC:SILVER,yonlendirildi,SILVER Charts and Quotes — TradingView,https://www.tradingview.com/symbols/SILVER/
-OANDA:XAUUSD,yonlendirildi,XAUUSD Chart — Gold Spot Price Today — TradingView,https://www.tradingview.com/symbols/XAUUSD/
-OANDA:XAGUSD,yonlendirildi,XAGUSD Chart — Silver Spot Price Today — TradingView,https://www.tradingview.com/symbols/XAGUSD/
+TVC:GOLD,dogrulandi_kanonik,GOLD Charts and Quotes — TradingView,https://www.tradingview.com/symbols/GOLD/
+TVC:SILVER,dogrulandi_kanonik,SILVER Charts and Quotes — TradingView,https://www.tradingview.com/symbols/SILVER/
+OANDA:XAUUSD,dogrulandi_kanonik,XAUUSD Chart — Gold Spot Price Today — TradingView,https://www.tradingview.com/symbols/XAUUSD/
+OANDA:XAGUSD,dogrulandi_kanonik,XAGUSD Chart — Silver Spot Price Today — TradingView,https://www.tradingview.com/symbols/XAGUSD/
 NYMEX:CL1!,dogrulandi,WTI Crude Oil Futures Price & Chart — CL Futures — TradingView,https://www.tradingview.com/symbols/NYMEX-CL1!/
-NYMEX:CL2!,yonlendirildi,Crude Oil Futures Price Chart — NYMEX:CL2! — TradingView,https://www.tradingview.com/symbols/NYMEX-CL1!/?contract=CL2%21
+NYMEX:CL2!,dogrulandi_kanonik,Crude Oil Futures Price Chart — NYMEX:CL2! — TradingView,https://www.tradingview.com/symbols/NYMEX-CL1!/?contract=CL2%21
 NYMEX:NG1!,dogrulandi,Natural Gas Futures Chart — NG Futures Quotes — TradingView,https://www.tradingview.com/symbols/NYMEX-NG1!/
-NYMEX:NG2!,yonlendirildi,Henry Hub Natural Gas Futures Price Chart — NYMEX:NG2! — TradingView,https://www.tradingview.com/symbols/NYMEX-NG1!/?contract=NG2%21
+NYMEX:NG2!,dogrulandi_kanonik,Henry Hub Natural Gas Futures Price Chart — NYMEX:NG2! — TradingView,https://www.tradingview.com/symbols/NYMEX-NG1!/?contract=NG2%21
 NYMEX:RB1!,dogrulandi,RBOB Gasoline Futures Chart and Price — TradingView,https://www.tradingview.com/symbols/NYMEX-RB1!/
 NYMEX:HO1!,dogrulandi,NY Harbor ULSD Futures Price Chart — NYMEX:HO1! — TradingView,https://www.tradingview.com/symbols/NYMEX-HO1!/
 ICEEUR:BRN1!,dogrulandi,Brent Crude Futures Price Chart — ICEEUR:BRN1! — TradingView,https://www.tradingview.com/symbols/ICEEUR-BRN1!/
-ICEEUR:BRN2!,yonlendirildi,Brent Crude Futures Price Chart — ICEEUR:BRN2! — TradingView,https://www.tradingview.com/symbols/ICEEUR-BRN1!/?contract=BRN2%21
+ICEEUR:BRN2!,dogrulandi_kanonik,Brent Crude Futures Price Chart — ICEEUR:BRN2! — TradingView,https://www.tradingview.com/symbols/ICEEUR-BRN1!/?contract=BRN2%21
 ICEENDEX:TFM1!,dogrulandi,Dutch TTF Natural Gas Futures Price Chart — ICEENDEX:TFM1! — TradingView,https://www.tradingview.com/symbols/ICEENDEX-TFM1!/
-TVC:USOIL,yonlendirildi,USOIL Price Chart — WTI Crude Oil — TradingView,https://www.tradingview.com/symbols/USOIL/
-TVC:UKOIL,yonlendirildi,UKOIL — Brent Crude Oil Price Chart — TradingView,https://www.tradingview.com/symbols/UKOIL/
+TVC:USOIL,dogrulandi_kanonik,USOIL Price Chart — WTI Crude Oil — TradingView,https://www.tradingview.com/symbols/USOIL/
+TVC:UKOIL,dogrulandi_kanonik,UKOIL — Brent Crude Oil Price Chart — TradingView,https://www.tradingview.com/symbols/UKOIL/
 CBOT:ZC1!,dogrulandi,Corn Futures Price Chart — CBOT:ZC1! — TradingView,https://www.tradingview.com/symbols/CBOT-ZC1!/
 CBOT:ZW1!,dogrulandi,Wheat Futures Price Chart — CBOT:ZW1! — TradingView,https://www.tradingview.com/symbols/CBOT-ZW1!/
 CBOT:ZS1!,dogrulandi,Soybean Futures Price Chart — CBOT:ZS1! — TradingView,https://www.tradingview.com/symbols/CBOT-ZS1!/
 ICEUS:SB1!,dogrulandi,Sugar No. 11 Futures Price Chart — ICEUS:SB1! — TradingView,https://www.tradingview.com/symbols/ICEUS-SB1!/
 ICEUS:KC1!,dogrulandi,Coffee C Futures Price Chart — ICEUS:KC1! — TradingView,https://www.tradingview.com/symbols/ICEUS-KC1!/
-FX:USDJPY,yonlendirildi,USDJPY Chart — Dollar Yen Live Rate — TradingView,https://www.tradingview.com/symbols/USDJPY/
-FX:EURUSD,yonlendirildi,EUR USD Live Chart — Euro to Dollar Rate — TradingView,https://www.tradingview.com/symbols/EURUSD/
-FX:GBPUSD,yonlendirildi,GBPUSD Chart — Pound Dollar Live Rate — TradingView,https://www.tradingview.com/symbols/GBPUSD/
-FX:AUDUSD,yonlendirildi,AUD to USD — Australian Dollar to USD Chart — TradingView,https://www.tradingview.com/symbols/AUDUSD/
-FX:USDCAD,yonlendirildi,USDCAD Chart — USD to CAD Rate — TradingView,https://www.tradingview.com/symbols/USDCAD/
-FX:USDCHF,yonlendirildi,USD CHF Chart - Dollar Franc Rate — TradingView,https://www.tradingview.com/symbols/USDCHF/
-FX_IDC:USDCNH,yonlendirildi,USDCNH Chart — U.S. Dollar to Chinese Yuan Rate — TradingView,https://www.tradingview.com/symbols/USDCNH/
-FX:USDCNH,yonlendirildi,USDCNH Chart — U.S. Dollar to Chinese Yuan Rate — TradingView,https://www.tradingview.com/symbols/USDCNH/
-FX_IDC:USDTRY,yonlendirildi,USD TRY Chart – Dollar Lira Rate — TradingView,https://www.tradingview.com/symbols/USDTRY/
-FX:USDTRY,yonlendirildi,USD TRY Chart – Dollar Lira Rate — TradingView,https://www.tradingview.com/symbols/USDTRY/
-FX_IDC:USDBRL,yonlendirildi,USD BRL Chart – Dollar to Real Rate — TradingView,https://www.tradingview.com/symbols/USDBRL/
-FX_IDC:USDMXN,yonlendirildi,USDMXN Chart – U.S. Dollar to Mexican Peso Rate — TradingView,https://www.tradingview.com/symbols/USDMXN/
-COINBASE:BTCUSD,yonlendirildi,BTC USD — Bitcoin Price and Chart — TradingView,https://www.tradingview.com/symbols/BTCUSD/
-COINBASE:ETHUSD,yonlendirildi,ETHUSD — Ethereum Price Chart — TradingView,https://www.tradingview.com/symbols/ETHUSD/
-COINBASE:SOLUSD,yonlendirildi,SOLUSD — Solana to USD Price Chart — TradingView,https://www.tradingview.com/symbols/SOLUSD/
-BITSTAMP:BTCUSD,yonlendirildi,BTC USD — Bitcoin Price and Chart — TradingView,https://www.tradingview.com/symbols/BTCUSD/
+FX:USDJPY,dogrulandi_kanonik,USDJPY Chart — Dollar Yen Live Rate — TradingView,https://www.tradingview.com/symbols/USDJPY/
+FX:EURUSD,dogrulandi_kanonik,EUR USD Live Chart — Euro to Dollar Rate — TradingView,https://www.tradingview.com/symbols/EURUSD/
+FX:GBPUSD,dogrulandi_kanonik,GBPUSD Chart — Pound Dollar Live Rate — TradingView,https://www.tradingview.com/symbols/GBPUSD/
+FX:AUDUSD,dogrulandi_kanonik,AUD to USD — Australian Dollar to USD Chart — TradingView,https://www.tradingview.com/symbols/AUDUSD/
+FX:USDCAD,dogrulandi_kanonik,USDCAD Chart — USD to CAD Rate — TradingView,https://www.tradingview.com/symbols/USDCAD/
+FX:USDCHF,dogrulandi_kanonik,USD CHF Chart - Dollar Franc Rate — TradingView,https://www.tradingview.com/symbols/USDCHF/
+FX_IDC:USDCNH,dogrulandi_kanonik,USDCNH Chart — U.S. Dollar to Chinese Yuan Rate — TradingView,https://www.tradingview.com/symbols/USDCNH/
+FX:USDCNH,dogrulandi_kanonik,USDCNH Chart — U.S. Dollar to Chinese Yuan Rate — TradingView,https://www.tradingview.com/symbols/USDCNH/
+FX_IDC:USDTRY,dogrulandi_kanonik,USD TRY Chart – Dollar Lira Rate — TradingView,https://www.tradingview.com/symbols/USDTRY/
+FX:USDTRY,dogrulandi_kanonik,USD TRY Chart – Dollar Lira Rate — TradingView,https://www.tradingview.com/symbols/USDTRY/
+FX_IDC:USDBRL,dogrulandi_kanonik,USD BRL Chart – Dollar to Real Rate — TradingView,https://www.tradingview.com/symbols/USDBRL/
+FX_IDC:USDMXN,dogrulandi_kanonik,USDMXN Chart – U.S. Dollar to Mexican Peso Rate — TradingView,https://www.tradingview.com/symbols/USDMXN/
+COINBASE:BTCUSD,dogrulandi_kanonik,BTC USD — Bitcoin Price and Chart — TradingView,https://www.tradingview.com/symbols/BTCUSD/
+COINBASE:ETHUSD,dogrulandi_kanonik,ETHUSD — Ethereum Price Chart — TradingView,https://www.tradingview.com/symbols/ETHUSD/
+COINBASE:SOLUSD,dogrulandi_kanonik,SOLUSD — Solana to USD Price Chart — TradingView,https://www.tradingview.com/symbols/SOLUSD/
+BITSTAMP:BTCUSD,dogrulandi_kanonik,BTC USD — Bitcoin Price and Chart — TradingView,https://www.tradingview.com/symbols/BTCUSD/
 CME:BTC1!,dogrulandi,Bitcoin Futures — Price and Chart — TradingView,https://www.tradingview.com/symbols/CME-BTC1!/
 CME:ETH1!,dogrulandi,Ether Futures Price Chart — CME:ETH1! — TradingView,https://www.tradingview.com/symbols/CME-ETH1!/
-CRYPTOCAP:BTC.D,yonlendirildi,Bitcoin Dominance Chart — BTC.D — TradingView,https://www.tradingview.com/symbols/BTC.D/
+CRYPTOCAP:BTC.D,dogrulandi_kanonik,Bitcoin Dominance Chart — BTC.D — TradingView,https://www.tradingview.com/symbols/BTC.D/
 TVC:NI225,dogrulandi,Nikkei 225 Index Chart — Japan 225 (NI225) Quote — TradingView,https://www.tradingview.com/symbols/TVC-NI225/
 OSE:NK2251!,dogrulandi,Nikkei 225 Futures Price Chart — OSE:NK2251! — TradingView,https://www.tradingview.com/symbols/OSE-NK2251!/
 TVC:HSI,dogrulandi,Hang Seng Index Today — TVC:HSI Index Chart — TradingView,https://www.tradingview.com/symbols/TVC-HSI/
@@ -98,3 +98,38 @@ NSE:NIFTY,dogrulandi,Nifty 50 Index Today — Chart and News — TradingView,htt
 TVC:SHCOMP,yok,Page not found — TradingView,https://www.tradingview.com/symbols/TVC-SHCOMP/
 SGX:CN1!,dogrulandi,FTSE CHINA A50 INDEX Futures Price Chart — SGX:CN1! — TradingView,https://www.tradingview.com/symbols/SGX-CN1!/
 TVC:CAC40,dogrulandi,CAC 40 Index Chart and Quotes — TradingView,https://www.tradingview.com/symbols/TVC-CAC40/
+FX_IDC:USDJPY,dogrulandi_kanonik,USDJPY Chart — Dollar Yen Live Rate — TradingView,https://www.tradingview.com/symbols/USDJPY/
+FX_IDC:EURUSD,dogrulandi_kanonik,EUR USD Live Chart — Euro to Dollar Rate — TradingView,https://www.tradingview.com/symbols/EURUSD/
+FX_IDC:XAUUSD,dogrulandi_kanonik,XAUUSD Chart — Gold Spot Price Today — TradingView,https://www.tradingview.com/symbols/XAUUSD/
+FX_IDC:XAGUSD,dogrulandi_kanonik,XAGUSD Chart — Silver Spot Price Today — TradingView,https://www.tradingview.com/symbols/XAGUSD/
+CRYPTO:BTCUSD,dogrulandi_kanonik,BTC USD — Bitcoin Price and Chart — TradingView,https://www.tradingview.com/symbols/BTCUSD/
+CBOE:VX3!,yok,Page not found — TradingView,https://www.tradingview.com/symbols/CBOE-VX3!/
+SSE:000300,dogrulandi,CSI 300 Index Today — SSE:000300 Index Chart — TradingView,https://www.tradingview.com/symbols/SSE-000300/
+TVC:US05Y,dogrulandi,US05Y Bond Yield and Price Chart — TradingView,https://www.tradingview.com/symbols/TVC-US05Y/
+TVC:JP10Y,dogrulandi,JP10Y Bond Yield and Price Chart — TradingView,https://www.tradingview.com/symbols/TVC-JP10Y/
+TVC:DE10Y,dogrulandi,DE10Y Bond Yield and Price Chart — TradingView,https://www.tradingview.com/symbols/TVC-DE10Y/
+NYMEX:NG3!,yok,Page not found — TradingView,https://www.tradingview.com/symbols/NYMEX-NG3!/
+NYMEX:NG12!,yok,Page not found — TradingView,https://www.tradingview.com/symbols/NYMEX-NG12!/
+NYMEX:CL12!,yok,Page not found — TradingView,https://www.tradingview.com/symbols/NYMEX-CL12!/
+COMEX:GC2!,dogrulandi_kanonik,Gold Futures Price Chart — COMEX:GC2! — TradingView,https://www.tradingview.com/symbols/COMEX-GC1!/?contract=GC2%21
+CBOT:ZC2!,dogrulandi_kanonik,Corn Futures Price Chart — CBOT:ZC2! — TradingView,https://www.tradingview.com/symbols/CBOT-ZC1!/?contract=ZC2%21
+NYMEX:QG1!,yok,Page not found — TradingView,https://www.tradingview.com/symbols/NYMEX-QG1!/
+NYMEX:MCL1!,dogrulandi,Micro WTI Crude Oil Futures Price Chart — NYMEX:MCL1! — TradingView,https://www.tradingview.com/symbols/NYMEX-MCL1!/
+ECONOMICS:USCPI,dogrulandi,United States Consumer Price Index — Economic Data and Chart — TradingView,https://www.tradingview.com/symbols/ECONOMICS-USCPI/
+ECONOMICS:USINTR,dogrulandi,United States Interest Rate — Economic Data and Chart — TradingView,https://www.tradingview.com/symbols/ECONOMICS-USINTR/
+CBOE:SPX,yonlendirildi,S&P 500 Index Chart — SPX Quote — TradingView,https://www.tradingview.com/symbols/SPX/
+SP:SVX,dogrulandi,S&P 500 Value Index Today — SP:SVX Index Chart — TradingView,https://www.tradingview.com/symbols/SP-SVX/
+NASDAQ:NVDA,dogrulandi,Nvidia Stock Price Chart — NASDAQ:NVDA — TradingView,https://www.tradingview.com/symbols/NASDAQ-NVDA/
+NASDAQ:TSLA,dogrulandi,Tesla Stock Chart — NASDAQ:TSLA Stock Price — TradingView,https://www.tradingview.com/symbols/NASDAQ-TSLA/
+NASDAQ:MSTR,dogrulandi,MicroStrategy Stock — NASDAQ:MSTR Price and Chart — TradingView,https://www.tradingview.com/symbols/NASDAQ-MSTR/
+NASDAQ:COIN,dogrulandi,Coinbase (COIN) Stock Price and Chart — TradingView,https://www.tradingview.com/symbols/NASDAQ-COIN/
+NASDAQ:AAPL,dogrulandi,Apple Stock Chart — NASDAQ:AAPL Stock Price — TradingView,https://www.tradingview.com/symbols/NASDAQ-AAPL/
+NASDAQ:AMZN,dogrulandi,Amazon Stock Chart — NASDAQ:AMZN Stock Price — TradingView,https://www.tradingview.com/symbols/NASDAQ-AMZN/
+NASDAQ:META,dogrulandi,META Stock Price — Meta Platforms Chart — TradingView,https://www.tradingview.com/symbols/NASDAQ-META/
+NASDAQ:MSFT,dogrulandi,Microsoft Stock Price — NASDAQ:MSFT Stock Chart — TradingView,https://www.tradingview.com/symbols/NASDAQ-MSFT/
+NASDAQ:GOOGL,dogrulandi,GOOGL Stock Price and Chart — NASDAQ:GOOGL — TradingView,https://www.tradingview.com/symbols/NASDAQ-GOOGL/
+NYSE:TSM,dogrulandi,TSM Stock Price — TSMC Chart — TradingView,https://www.tradingview.com/symbols/NYSE-TSM/
+NASDAQ:AVGO,dogrulandi,AVGO Stock Price and Chart — NASDAQ:AVGO — TradingView,https://www.tradingview.com/symbols/NASDAQ-AVGO/
+CME:BTC2!,dogrulandi_kanonik,Bitcoin Futures Price Chart — CME:BTC2! — TradingView,https://www.tradingview.com/symbols/CME-BTC1!/?contract=BTC2%21
+TVC:CN10Y,dogrulandi,CN10Y Bond Yield and Price Chart — TradingView,https://www.tradingview.com/symbols/TVC-CN10Y/
+TVC:XAUUSD,yok,Page not found — TradingView,https://www.tradingview.com/symbols/TVC-XAUUSD/

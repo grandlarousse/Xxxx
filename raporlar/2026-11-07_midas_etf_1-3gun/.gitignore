@@ -2,3 +2,4 @@ data/
 __pycache__/
 *.pyc
 ham_sayfalar/
+sonuclar/genel_tum.csv

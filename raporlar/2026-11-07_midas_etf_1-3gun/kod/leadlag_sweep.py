@@ -126,7 +126,7 @@ if __name__ == "__main__":
     for c in ["lag_t_h1", "lag_t_h3", "catch_t_h1", "catch_t_h3"]:
         p = 2 * st.norm.sf(res[c].abs())
         res["p_" + c] = p
-        res["fdr10_" + c] = lib.bh_fdr(p.values, 0.10)
+        res["fdr10_" + c] = lib.bh_fdr(np.asarray(p), 0.10)
     res.to_csv(os.path.join(lib.ROOT, "sonuclar", "leadlag_sweep.csv"), index=False)
     X.describe().T.to_csv(os.path.join(lib.ROOT, "sonuclar", "leadlag_leaders_desc.csv"))
     print(res.shape, {c: int(res["fdr10_" + c].sum()) for c in ["lag_t_h1", "lag_t_h3", "catch_t_h1", "catch_t_h3"]})

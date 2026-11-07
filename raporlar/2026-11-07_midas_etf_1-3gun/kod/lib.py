@@ -38,12 +38,55 @@ def available():
     d = os.path.join(DATA, "etf")
     return sorted(f[:-8] for f in os.listdir(d) if f.endswith(".parquet"))
 
+BAD_BARS = {"DFEN": ["2024-06-03"]}            # tek günlük hatalı fiyat (ertesi gün tam geri dönüş, dayanakta hareket yok)
+TRUST_START = {"ETHE": "2024-07-23", "GBTC": "2024-01-11", "USHY": "2019-04-22"}   # ETHE/GBTC: öncesi OTC tröst (prim/iskonto); USHY: 2019-04 öncesi tutarsız seri
+FIX_LOG = []
+REAL_SHOCKS = ["2024-06-04"]   # Hindistan seçim şoku (gerçek fiyat hareketi; dağıtım değil)
+
+def _fix_dividends(df, sym):
+    """(1) Bölünme ölçeklemesi yapılmamış temettüleri açılış boşluğuna göre yeniden ölçekler.
+    (2) Nasdaq'ın kaçırdığı büyük dağıtımları (düşük oynaklıklı ETF'de, piyasa sakin iken >%4 açılış düşüşü,
+        gün içi sakin) tespit edip temettü olarak ekler. Değişiklikler FIX_LOG'a yazılır."""
+    c_prev = df["c"].shift(1)
+    gap = df["o"] / c_prev - 1
+    y = df["div"] / c_prev
+    for d in df.index[(y > 0.03).fillna(False)]:
+        g = gap.get(d)
+        if not np.isfinite(g): continue
+        if g > -y[d] / 2:   # fiyat temettünün yarısı kadar bile düşmediyse: ölçeklenmemiş (bölünme öncesi birimde) temettü
+            new = max(0.0, -g) * c_prev[d]
+            FIX_LOG.append((sym, str(d.date()), "temettu_olcek", float(df.at[d, "div"]), float(new)))
+            df.at[d, "div"] = new
+    sd = np.log(df["c"]).diff().rolling(60).std().shift(1)
+    try:
+        spy = pd.read_parquet(os.path.join(DATA, "etf", "SPY.parquet"))
+        spy_gap = (spy["o"] / spy["c"].shift(1) - 1).reindex(df.index)
+    except Exception:
+        spy_gap = pd.Series(0.0, index=df.index)
+    intr = (df["c"] / df["o"] - 1).abs()
+    mon = pd.Series(df.index.month, index=df.index).isin([6, 12])
+    real = pd.Series(df.index.isin(pd.to_datetime(REAL_SHOCKS)), index=df.index)
+    cand = (gap < -0.04) & (gap < -6 * sd) & (sd < 0.025) & (spy_gap.abs() < 0.03) & (intr < 0.03) & (df["div"] == 0) & mon & ~real
+    for d in df.index[cand.fillna(False)]:
+        amt = float(-(gap[d]) * c_prev[d])
+        FIX_LOG.append((sym, str(d.date()), "kayip_dagitim_eklendi", 0.0, amt))
+        df.at[d, "div"] = amt
+    return df
+
 def load(sym, clean=True):
     """Toplam getiri düzeltmeli OHLC: o,h,l,c (düzeltilmiş), raw_c, v, dv (dolar hacim)."""
     key = (sym, clean)
     if key in _cache: return _cache[key].copy()
     df = pd.read_parquet(os.path.join(DATA, "etf", sym + ".parquet"))
     df = df[df["c"] > 0].copy()
+    if clean:
+        for d in BAD_BARS.get(sym, []):
+            df = df.drop(pd.Timestamp(d), errors="ignore")
+        if sym in TRUST_START:
+            df = df[df.index >= pd.Timestamp(TRUST_START[sym])]
+        df = _fix_dividends(df, sym)
+        tr = (df["c"] + df["div"]) / df["c"].shift(1); tr.iloc[0] = 1.0
+        df["adjc"] = df["c"].iloc[-1] * tr.cumprod() / tr.cumprod().iloc[-1]
     f = df["adjc"] / df["c"]
     out = pd.DataFrame(index=df.index)
     o = df["o"].where(df["o"] > 0)

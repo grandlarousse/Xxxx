@@ -21,7 +21,11 @@ def check(s, tk):
         if r.status_code == 404: return "yok", title, final
         if r.status_code == 200:
             ok = (ex.upper() + "-" + sym.upper().replace("!", "%21") in final.upper()) or (ex.upper() + "-" + sym.upper() in final.upper())
-            return ("dogrulandi" if ok else "yonlendirildi"), title, final
+            if ok: return "dogrulandi", title, final
+            # kanonik sayfaya yönlendirme (FX, kripto, 2. vade vb.): istenen kod sayfa içinde geçiyorsa geçerli say
+            if tk.upper() in r.text.upper() or ("contract=" + sym.replace("!", "%21")).upper() in final.upper():
+                return "dogrulandi_kanonik", title, final
+            return "yonlendirildi", title, final
         return f"HTTP{r.status_code}", title, final
     return "ag_hatasi", "", url
 
@@ -32,7 +36,7 @@ if __name__ == "__main__":
         for row in csv.DictReader(open(OUT)): done[row["ticker"]] = row
     s = requests.Session(); s.headers["User-Agent"] = "etf-research-script/1.0"
     for tk in tks:
-        if tk in done and done[tk]["durum"] in ("dogrulandi", "yok"): continue
+        if tk in done and done[tk]["durum"] in ("dogrulandi", "dogrulandi_kanonik", "yok"): continue
         st, title, final = check(s, tk)
         done[tk] = {"ticker": tk, "durum": st, "baslik": title[:160], "url": final}
         print(tk, st, title[:80], flush=True)
