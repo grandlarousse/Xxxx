@@ -142,7 +142,7 @@ TAKVIM = [
 
 # ---------------------------------------------------------------------------------------------------------------
 KAYNAK = {}   # ad -> dict(durum, son, not)
-ISY = {"down": False, "hata_ardisik": 0, "istek": 0}
+ISY = {"down": False, "hata_ardisik": 0, "istek": 0, "basari": 0}
 T0 = time.time()
 
 
@@ -185,12 +185,15 @@ def isy_istek(kod, bas, son, bekle):
             if r.status_code == 200 and r.text.strip():
                 d = r.json().get("data") or []
                 if d:
-                    ISY["hata_ardisik"] = 0
+                    ISY["hata_ardisik"] = 0; ISY["basari"] += 1
                     ts = pd.to_datetime([x[0] for x in d], unit="ms") + pd.Timedelta(hours=3)
                     time.sleep(bekle)
                     return pd.Series([float(x[1]) for x in d], index=ts.normalize(), name=kod)
         except requests.ConnectionError:
             baglanti_hatasi += 1
+            if ISY["basari"] == 0 and baglanti_hatasi >= 2:   # hic basari yokken 2 baglanti hatasi: kaynak kapali say
+                ISY["down"] = True
+                return pd.Series(dtype=float, name=kod)
         except (requests.RequestException, ValueError):
             pass
         time.sleep(1.5 * (k + 1))
@@ -232,6 +235,7 @@ def isy_hacim(kod, veri, kesim, bekle, cevrimdisi):
     bas = (eski.index[-1] - pd.Timedelta(days=10)) if eski is not None and len(eski) else kesim - pd.Timedelta(days=120)
     p = {"hisse": kod, "startdate": bas.strftime("%d-%m-%Y"), "enddate": kesim.strftime("%d-%m-%Y")}
     yeni = None
+    hata = 0
     for k in range(2):
         try:
             ISY["istek"] += 1
@@ -239,13 +243,20 @@ def isy_hacim(kod, veri, kesim, bekle, cevrimdisi):
             if r.status_code == 200 and r.text.strip():
                 v = r.json().get("value") or []
                 if v:
+                    ISY["hata_ardisik"] = 0
                     yeni = pd.DataFrame({"hacim": [x.get("HGDG_HACIM") for x in v], "ham": [x.get("HG_KAPANIS") for x in v]},
                                         index=pd.to_datetime([x["HGDG_TARIH"] for x in v], format="%d-%m-%Y"))
                 break
             if r.status_code == 429:
                 time.sleep(10 * (k + 1))
+        except requests.ConnectionError:
+            hata += 1; time.sleep(2 * (k + 1))
         except (requests.RequestException, ValueError):
             time.sleep(2 * (k + 1))
+    if hata == 2:
+        ISY["hata_ardisik"] += 1
+        if ISY["hata_ardisik"] >= 3:
+            ISY["down"] = True
     time.sleep(bekle)
     if yeni is None:
         return eski
@@ -282,37 +293,76 @@ def viop_iki_bulten(kesim, veri, bekle, cevrimdisi):
     return (B1, g1), (B0, g0)
 
 
-def pay_bulteni(tarih, veri, bekle):
-    """Borsa Istanbul pay piyasasi gunluk bulteni (yedek kip): KOD -> kapanis, hacim."""
+def pay_bulteni_gun(g, veri, bekle, cevrimdisi=False):
+    """Borsa Istanbul pay piyasasi gunluk bulteni (thbYYYYMMDD1.zip), tek gun: KOD -> kapanis, TL hacim. Yoksa None."""
     d = os.path.join(veri, "thb"); os.makedirs(d, exist_ok=True)
+    g = pd.Timestamp(g).normalize()
+    fn = os.path.join(d, f"thb{g:%Y%m%d}1.zip")
+    icerik = open(fn, "rb").read() if os.path.exists(fn) else None
+    if icerik is None and not cevrimdisi:
+        r = al(THB_URL.format(g, g, g), timeout=40, deneme=2, bekle=bekle)
+        if r is not None and r.content[:2] == b"PK":
+            icerik = r.content
+            open(fn, "wb").write(icerik)
+    if not icerik:
+        return None
+    try:
+        z = zipfile.ZipFile(io.BytesIO(icerik))
+        ad = [n for n in z.namelist() if n.lower().endswith(".csv")][0]
+        metin = z.read(ad).decode("utf-8", "replace").splitlines()
+        bas = [x.strip() for x in metin[0].split(";")]
+        i_kod, i_kap, i_hac = bas.index("ISLEM  KODU"), bas.index("KAPANIS FIYATI"), bas.index("TOPLAM ISLEM HACMI")
+        sat = {}
+        for x in metin[2:]:
+            k = x.split(";")
+            if len(k) > i_hac and k[i_kod].endswith(".E"):
+                sat[k[i_kod][:-2]] = (pd.to_numeric(k[i_kap].replace(",", "."), errors="coerce"),
+                                      pd.to_numeric(k[i_hac].replace(",", "."), errors="coerce"))
+        return pd.DataFrame.from_dict(sat, orient="index", columns=["KAPANIS FIYATI", "TOPLAM ISLEM HACMI"])
+    except Exception:
+        return None
+
+
+def pay_bulteni(tarih, veri, bekle, cevrimdisi=False):
+    """tarih'ten geriye ilk bulunan pay bulteni (yedek kip)."""
     g = pd.Timestamp(tarih).normalize()
     for _ in range(5):
-        while g.weekday() >= 5:
+        while not is_gunu(g, TATIL_BIST):
             g -= pd.Timedelta(days=1)
-        fn = os.path.join(d, f"thb{g:%Y%m%d}1.zip")
-        icerik = open(fn, "rb").read() if os.path.exists(fn) else None
-        if icerik is None:
-            r = al(THB_URL.format(g, g, g), timeout=40, deneme=2, bekle=bekle)
-            if r is not None and r.content[:2] == b"PK":
-                icerik = r.content
-                open(fn, "wb").write(icerik)
-        if icerik:
-            try:
-                z = zipfile.ZipFile(io.BytesIO(icerik))
-                ad = [n for n in z.namelist() if n.lower().endswith(".csv")][0]
-                metin = z.read(ad).decode("utf-8", "replace").splitlines()
-                bas = [x.strip() for x in metin[0].split(";")]
-                kayit = [x.split(";") for x in metin[2:] if x.strip()]
-                df = pd.DataFrame([k[:len(bas)] + [""] * (len(bas) - len(k)) for k in kayit], columns=bas)
-                df = df[df["ISLEM  KODU"].str.endswith(".E")].copy()
-                df["KOD"] = df["ISLEM  KODU"].str[:-2]
-                for c in ("KAPANIS FIYATI", "TOPLAM ISLEM HACMI"):
-                    df[c] = pd.to_numeric(df[c].str.replace(",", "."), errors="coerce")
-                return df.set_index("KOD"), g
-            except Exception:
-                pass
+        df = pay_bulteni_gun(g, veri, bekle, cevrimdisi)
+        if df is not None:
+            return df, g
         g -= pd.Timedelta(days=1)
     return None, None
+
+
+def likidite_bulten(son, veri, bekle, cevrimdisi, n=60, butce=240):
+    """Son n BIST gununun pay bultenlerinden 60g medyan TL hacim (PLAN_BIST s4.1 likidite sirasi).
+    Doner: (medyan sozlugu, basarili gun sayisi, son bulten tarihi, son bulten DataFrame)."""
+    gunler, g = [], pd.Timestamp(son).normalize()
+    while len(gunler) < n:
+        if is_gunu(g, TATIL_BIST):
+            gunler.append(g)
+        g -= pd.Timedelta(days=1)
+    t0 = time.time(); V = {}; hata = 0; son_df = None; son_g = None
+    for g in gunler:
+        if time.time() - t0 > butce:
+            break
+        df = pay_bulteni_gun(g, veri, bekle, cevrimdisi)
+        if df is None:
+            hata += 1
+            if not V and hata >= 3:
+                break
+            continue
+        V[g] = df["TOPLAM ISLEM HACMI"]
+        if son_df is None:
+            son_df, son_g = df, g
+    if not V:
+        return {}, 0, None, None
+    X = pd.DataFrame(V)
+    X = X.where(X > 0)
+    med = X.median(axis=1)[X.count(axis=1) >= min(20, max(len(V) // 2, 1))]
+    return med.to_dict(), len(V), son_g, son_df
 
 
 def fred(sid, veri, bekle, cevrimdisi):
@@ -633,7 +683,7 @@ def pr_temiz_getiri(s, cal):
     return r
 
 
-def pr_sahol(D, hesap, Fs=None, Fa=None):
+def pr_sahol(D, hesap, risk=0.0025, Fs=None, Fa=None):
     cal = D["XU100"].index
     rA, rB = pr_temiz_getiri(D["SAHOL"], cal), pr_temiz_getiri(D["AKBNK"], cal)
     idx = rA.index.intersection(rB.index); rA, rB = rA.reindex(idx), rB.reindex(idx)
@@ -675,7 +725,7 @@ def pr_sahol(D, hesap, Fs=None, Fa=None):
         tet[tg] = (pa * np.exp(x), pb * np.exp(-x / bn)) if np.isfinite(x) else (np.nan, np.nan)
     b = beta.iloc[-1]
     fa, fb = (Fs or pa), (Fa or pb)
-    na_ = int(np.floor(hesap * 0.01 / (0.09 * fa * 100))); nb_ = int(round(na_ * b * fa / fb)) if np.isfinite(b) else 0
+    na_ = max(int(np.floor(hesap * risk / (0.09 * fa * 100))), 1); nb_ = int(round(na_ * b * fa / fb)) if np.isfinite(b) else 0
     return dict(z=z, beta=b, beta_yarin=bn, side=side, held=held, act=act, T=T, tet=tet, pa=pa, pb=pb, n=(na_, nb_),
                 tarih=z.index[-1], fa=fa, fb=fb)
 
@@ -980,37 +1030,62 @@ def main():
     D, bos = {}, []
     bas = datetime.strptime(a.bas, "%Y-%m-%d")
     t_isy = time.time()
-    for i, k in enumerate(endeksler + hisseler, 1):
-        if time.time() - t_isy > a.butce * 0.6 and not ISY["down"] and not a.cevrimdisi:
-            ISY["butce_asildi"] = True
-        s = isy_seri(k, pxdir, bas, simdi.replace(tzinfo=None), a.bekle, a.cevrimdisi or ISY.get("butce_asildi", False))
-        s = s[s.index <= kesim] if len(s) else s
-        if len(s): D[k] = s.astype(float)
-        else: bos.append(k)
-        if i == 1 and ISY["down"]:
-            print("  Is Yatirim baglantisi kurulamadi (devre kesici); onbellek kullaniliyor", flush=True)
-        if i % 40 == 0: print(f"  fiyat {i}/{len(endeksler) + len(hisseler)} ({time.time() - T0:.0f} sn)", flush=True)
+    kodlar = endeksler + hisseler
+
+    def fiyat_turu(liste, etiket):
+        for i, k in enumerate(liste, 1):
+            if time.time() - t_isy > a.butce and not ISY["down"] and not a.cevrimdisi:
+                ISY["butce_asildi"] = True
+            s = isy_seri(k, pxdir, bas, simdi.replace(tzinfo=None), a.bekle, a.cevrimdisi or ISY.get("butce_asildi", False))
+            s = s[s.index <= kesim] if len(s) else s
+            if len(s): D[k] = s.astype(float)
+            if i == 1 and ISY["down"]:
+                print(f"  {etiket}: Is Yatirim baglantisi kurulamadi (devre kesici); onbellek kullaniliyor", flush=True)
+            if i % 40 == 0: print(f"  {etiket} {i}/{len(liste)} ({time.time() - T0:.0f} sn)", flush=True)
+    fiyat_turu(kodlar, "fiyat")
+
+    # ---- likidite: Borsa Istanbul pay bultenleri (60 gun); olmazsa HisseTekil ------------------------------------------
+    son_tah = D["XU100"].index[-1] if "XU100" in D else beklenen_bist
+    HVb, n_b, pbt, PB = likidite_bulten(son_tah, veri, min(a.bekle, 0.3), a.cevrimdisi)
+    kaynak("Borsa İstanbul pay piyasası bülteni", "OK" if n_b >= 40 and pbt is not None and pbt >= son_tah else ("EKSİK" if n_b else "YOK"),
+           pbt.date() if pbt is not None else None, f"{n_b}/60 gün; 60g medyan TL hacim (likidite sırası) ve yedek kapanış")
+    print(f"  pay bulteni {n_b} gun ({time.time() - T0:.0f} sn)", flush=True)
+
+    # ---- ikinci tur: Is Yatirim kopmussa eksik seriler bir kez daha (aralikli erisim) -------------------------------
+    eksik = [k for k in kodlar if k not in D or (len(D[k]) and D[k].index[-1] < beklenen_bist)]
+    if eksik and ISY["down"] and not a.cevrimdisi and time.time() - T0 < 330:
+        print(f"  ikinci tur: {len(eksik)} eksik/bayat seri", flush=True)
+        ISY.update(down=False, hata_ardisik=0, basari=0, ikinci_tur=len(eksik))
+        fiyat_turu(eksik, "ikinci tur")
+    bos = [k for k in kodlar if k not in D]
     bist_ok = "XU100" in D and "XBANK" in D and "SAHOL" in D and "AKBNK" in D and len(D["XU100"]) > 260
     son = D["XU100"].index[-1] if "XU100" in D else None
     HV = {}
     if bist_ok:
-        for i, k in enumerate(hisseler, 1):
-            if k not in D: continue
-            gec = time.time() - t_isy > a.butce
-            h = isy_hacim(k, veri, kesim, a.bekle, a.cevrimdisi or gec)
-            if gec: ISY["hacim_butce"] = True
-            if h is not None and len(h):
-                h = h[h.index <= son]
-                HV[k] = float(h["hacim"].iloc[-60:].median()) if len(h) >= 20 else np.nan
-            if i % 40 == 0: print(f"  hacim {i}/{len(hisseler)} ({time.time() - T0:.0f} sn)", flush=True)
-    isy_not = f"{ISY['istek']} istek" + ("; BAĞLANTI KOPTU (devre kesici) → önbellek" if ISY["down"] else "") + \
+        HV = {k: v for k, v in HVb.items() if k in D}
+        if n_b < 40:   # bulten yoksa HisseTekil (Is Yatirim) yedegi
+            HV = {}
+            for i, k in enumerate(hisseler, 1):
+                if k not in D: continue
+                gec = time.time() - T0 > a.butce + 60
+                h = isy_hacim(k, veri, kesim, a.bekle, a.cevrimdisi or gec)
+                if gec: ISY["hacim_butce"] = True
+                if h is not None and len(h):
+                    h = h[h.index <= son]
+                    HV[k] = float(h["hacim"].iloc[-60:].median()) if len(h) >= 20 else np.nan
+                if i % 40 == 0: print(f"  hacim {i}/{len(hisseler)} ({time.time() - T0:.0f} sn)", flush=True)
+            kaynak("İş Yatırım HisseTekil (hacim, yedek)", "OK" if len(HV) >= 100 else ("EKSİK" if HV else "YOK"), None,
+                   f"{len(HV)} hisse 60g medyan TL hacim")
+    isy_not = f"{ISY['istek']} istek" + (f"; ikinci tur {ISY['ikinci_tur']} seri" if ISY.get("ikinci_tur") else "") + \
+              ("; BAĞLANTI KOPTU (devre kesici) → önbellek" if ISY["down"] else "") + \
               ("; zaman bütçesi aşıldı → kalanlar önbellekten" if ISY.get("butce_asildi") or ISY.get("hacim_butce") else "")
     if son is not None:
-        kaynak("İş Yatırım ChartData (fiyat)", "OK" if son >= beklenen_bist else "BAYAT", son.date(),
-               f"{len(D)} seri; bulunamayan: {', '.join(bos[:12]) + (' …' if len(bos) > 12 else '') or '—'}; {isy_not}")
+        kaynak("İş Yatırım ChartData (fiyat)", ("ÖNBELLEK" if (ISY["down"] or a.cevrimdisi) else "OK") if son >= beklenen_bist else "BAYAT", son.date(),
+               f"{len(D)}/{len(kodlar)} seri; bulunamayan: {', '.join(bos[:12]) + (' …' if len(bos) > 12 else '') or '—'}; {isy_not}")
     else:
         kaynak("İş Yatırım ChartData (fiyat)", "YOK", None, isy_not)
-    kaynak("İş Yatırım HisseTekil (hacim)", "OK" if len(HV) >= 100 else ("EKSİK" if HV else "YOK"), None, f"{len(HV)} hisse 60g medyan TL hacim")
+    if not bist_ok and PB is not None:
+        kaynak("Borsa İstanbul pay piyasası bülteni", "OK", pbt.date(), "YEDEK KİP: son tetikler bu kapanışla kontrol edildi")
 
     # ---- VIOP bulteni ---------------------------------------------------------------------------------------------
     (B1, g1), (B0, g0) = viop_iki_bulten(kesim, veri, a.bekle, a.cevrimdisi)
@@ -1021,13 +1096,6 @@ def main():
                f"önceki bülten {g0.date() if g0 is not None else '—'}; bülten ~20:28–20:49 TSİ'de çıkar")
     else:
         kaynak("Borsa İstanbul VİOP bülteni", "YOK", None, "indirilemedi")
-
-    # ---- yedek kip: pay piyasasi bulteni ------------------------------------------------------------------------------
-    PB, pbt = (None, None)
-    if not bist_ok or (son is not None and son < beklenen_bist):
-        PB, pbt = pay_bulteni(beklenen_bist, veri, a.bekle) if not a.cevrimdisi else (None, None)
-        kaynak("Borsa İstanbul pay piyasası bülteni (yedek)", "OK" if PB is not None else "YOK", pbt.date() if pbt is not None else None,
-               "İş Yatırım verisi yok/bayat olduğu için son tetikler bununla kontrol edildi")
 
     # ---- ABD verisi -----------------------------------------------------------------------------------------------
     spx_f = fred("SP500", veri, a.bekle, a.cevrimdisi); ndx_f = fred("NASDAQ100", veri, a.bekle, a.cevrimdisi)
@@ -1049,7 +1117,7 @@ def main():
             print("  BIST hesap hatasi:", repr(e), flush=True); R = None; KAYNAK["BIST hesap"] = dict(durum="HATA", son=None, notu=repr(e)[:120])
     sonraki_seans = sonraki(son if son is not None else beklenen_bist)
     PS = KZ = AL_ = BZ = None
-    for ad, fn in (("PS", lambda: pr_sahol(D, hesap)), ("KZ", lambda: pr_koza(D, hesap, R["k9_risk"] if R else 0.0025)),
+    for ad, fn in (("PS", lambda: pr_sahol(D, hesap, R["k9_risk"] if R else 0.0025)), ("KZ", lambda: pr_koza(D, hesap, R["k9_risk"] if R else 0.0025)),
                    ("AL", lambda: pr_altin(B1, g1, D, hesap)), ("BZ", lambda: pr_baz(B1, g1, B0, g0, D))):
         try:
             if ad in ("PS", "KZ") and not bist_ok: continue
@@ -1143,8 +1211,7 @@ def main():
         mod = DUR["ayarlar"].get("pratik_sahol_akbnk", "kagit")
         if PS["act"].startswith(("AÇ", "KAPAT +")) or abs(zz) > 1.5:
             yon = "F_SAHOL SAT + F_AKBNK AL" if zz > 0 else "F_SAHOL AL + F_AKBNK SAT"
-            mt = (f"PRATİK SAHOL/AKBNK z {f(zz)} > eşik: kural bugünkü uzlaşmada **{yon}** ({PS['n'][0]}:{PS['n'][1]} kontrat / "
-                  f"{f(hesap / 1e6, 'f1')} mn TL, %1 risk) girerdi; 21:05'te kaçtı. Ertesi gün girişi test edilmedi → yarın 17:50'de |z| hâlâ > 1,5 "
+            mt = (f"PRATİK SAHOL/AKBNK z {f(zz)} > eşik: kural bugünkü uzlaşmada **{yon}** ({PS['n'][0]}:{PS['n'][1]} kontrat, K9 riski) girerdi; 21:05'te kaçtı. Ertesi gün girişi test edilmedi → yarın 17:50'de |z| hâlâ > 1,5 "
                   f"ise yalnız {'kâğıt' if mod != 'canli' else 'yarım boy'}; çıkış |z| ≤ 1,5 olunca uzlaşmada")
             eylem.append((6 if mod == "canli" else 7, mt))
         elif PS["act"] == "KAPAT":
@@ -1181,6 +1248,20 @@ def main():
     if BZ is not None and abs(BZ["z"]) > 1:
         eylem.append((7, f"XU030 bazı: Δb {f(BZ['db'] * 1e4, 'f0')} bps (z {f(BZ['z'])}) → kural 18:10–18:15'te **{'XU030D1! SAT' if BZ['z'] > 0 else 'XU030D1! AL'}** "
                          f"açıp {tr_tarih(ns)} uzlaşmasında kapatırdı; bu akşam için geç (yalnız canlı alarmla)"))
+    # canli izleme hatirlatmasi (TradingView)
+    izle_tv = []
+    if KZ is not None and KZ["pos"] is None:
+        izle_tv.append(f"Koza TRMET ≥ {f(KZ['tet_al'])} / ≤ {f(KZ['tet_sat'])}")
+    if PS is not None and PS["side"] == 0:
+        izle_tv.append(f"SAHOL/AKBNK z ±1,5 (SAHOL ≥ {f(PS['tet'][1.5][0])} / ≤ {f(PS['tet'][-1.5][0])}; {DUR['ayarlar'].get('pratik_sahol_akbnk', 'kagit')})")
+    if AL_ is not None:
+        izle_tv.append("altın 17:55 TVC:GOLD dünkü 17:55'e göre ±%1,70")
+    if BZ is not None:
+        izle_tv.append("XU030D1!/XU030 oranı " + f"{BZ['oran_alt']:.4f}–{BZ['oran_ust']:.4f}".replace(".", ",") + " dışı (18:10)")
+    izle_tv.append("TUPRS z (tuprs_alarm.pine, sabah)")
+    eng_tv = tum_engel or giris_engeli(ns, "K9", ["TRMET", "TRALT"], bs.BILANCO_9_11, aciklayan)
+    eylem.append((8, f"TradingView canlı alarmları ({tr_tarih(ns)} 17:45–17:55): " + "; ".join(izle_tv)
+                  + (f". **Not:** {tr_tarih(ns)} için engel: {eng_tv}" if eng_tv else "")))
     # takvim (sonraki seans)
     for b, e, p, o, kural, blok in takvim_bayraklari(ns, 0):
         eylem.append((1 if p == "BIST" and blok else 10, f"Takvim {tr_tarih(ns)} [{p}]: {o} — {kural}"))
@@ -1195,7 +1276,8 @@ def main():
     def tet(kol, en, kosul, seviye, bugun_, islem, canli=False, zaman=None):
         if seviye is None or bugun_ is None or not np.isfinite(seviye) or not np.isfinite(bugun_) or bugun_ == 0:
             return
-        tetik.append(dict(kol=kol, en=en, kosul=kosul, seviye=float(seviye), bugun=float(bugun_), uzak=float(seviye) / float(bugun_) - 1,
+        op = "≥" if ("≥" in kosul or ">" in kosul) else "≤"
+        tetik.append(dict(kol=kol, en=en, kosul=kosul, op=op, seviye=float(seviye), bugun=float(bugun_), uzak=float(seviye) / float(bugun_) - 1,
                           islem=islem, canli=canli, zaman=zaman or ("canlı 17:45–17:55 (aynı gün uzlaşma)" if canli else "BIST kapanışı → ertesi gün emir")))
     if R is not None:
         for k, x in R["izle"].iterrows():
@@ -1253,15 +1335,19 @@ def main():
     md = [f"# Günlük öneri — {tr_tarih(tarih_etiket)} kapanışı (üretim {simdi:%d.%m.%Y %H:%M} TSİ)", "",
           f"Sonraki BIST seansı: **{tr_tarih(ns)}**. Hesap büyüklüğü (durum.json): {f(hesap / 1e6, 'f1')} mn TL. "
           "Bilgi amaçlıdır; yatırım tavsiyesi değildir. Kurallar: PLAN_BIST.md, PLAN_ABD.md, 2026-11-04_kapanis_1-3gun/PRATIK_LISTE.md.", ""]
-    uyarilar = []
+    uyarilar, kisa_uyari = [], []
     if makro_yas > 7:
         uyarilar.append(f"makro.json {makro_yas} gündür güncellenmedi (son {M.get('guncellendi')}) → M1/M2/KRİZ (c, d)/K6 BAYAT olabilir.")
+        kisa_uyari.append(f"makro.json {makro_yas} gün eski")
     if makro_yeni:
         uyarilar.append("makro.json bu çalışmada 05.11 plan değerleriyle oluşturuldu; Perşembe rezervinden sonra güncelleyin.")
     if ISY["down"]:
         uyarilar.append("İş Yatırım bağlantısı koptu: BIST hesapları " + ("önbellekteki verilerle yapıldı." if bist_ok else "yapılamadı (veri yok)."))
-    if any(v["durum"] in ("BAYAT", "YOK") for v in KAYNAK.values()):
-        uyarilar.append("Bazı kaynaklar BAYAT/YOK: §6 tazelik tablosuna bakın.")
+        kisa_uyari.append("İş Yatırım yok" + (" (önbellek)" if bist_ok else ""))
+    bayat = [k for k, v in KAYNAK.items() if v["durum"] in ("BAYAT", "YOK")]
+    if bayat:
+        uyarilar.append("BAYAT/YOK kaynak: " + ", ".join(bayat) + " (§6).")
+        kisa_uyari.append("bayat: " + ", ".join(b.split(" (")[0] for b in bayat)[:80])
     if uyarilar:
         md += ["> **Uyarı:** " + " ".join(uyarilar), ""]
 
@@ -1370,7 +1456,7 @@ def main():
         zz = PS["z"].iloc[-1]; t15 = PS["tet"]
         satir.append(["SAHOL/AKBNK artık z (β250 gecikmeli, z60)", f"z {f(zz)}, β {f(PS['beta'], 'f2')}",
                       f"z=+1,5: SAHOL ≥ {f(t15[1.5][0])} ya da AKBNK ≤ {f(t15[1.5][1])}; z=−1,5: SAHOL ≤ {f(t15[-1.5][0])} ya da AKBNK ≥ {f(t15[-1.5][1])}",
-                      f"z>+1,5: F_SAHOL SAT + F_AKBNK AL; z<−1,5 tersi; {PS['n'][0]}:{PS['n'][1]} kontrat/{f(hesap / 1e6, 'f1')} mn TL (%1 risk, kötü durum %9); aynı gün uzlaşma; çıkış |z| ≤ 1,5",
+                      f"z>+1,5: F_SAHOL SAT + F_AKBNK AL; z<−1,5 tersi; {PS['n'][0]}:{PS['n'][1]} kontrat (K9 riski {pc2(R['k9_risk'] if R else 0.0025)}, kötü durum %9; rehber %1 riskte 4 katı); aynı gün uzlaşma; çıkış |z| ≤ 1,5",
                       f"model: {'LONG' if PS['side'] > 0 else 'SHORT' if PS['side'] < 0 else 'yok'}{(' (%d g)' % PS['held']) if PS['side'] else ''}, bugün {PS['act']}; "
                       f"mod: {DUR['ayarlar'].get('pratik_sahol_akbnk', 'kagit')} (K1 öncelikli)"])
     else:
@@ -1431,7 +1517,7 @@ def main():
                + f"; CBOE VIX son {abd['vix_son'].date() if abd['vix_son'] is not None else '—'}). Bu çalışmada işlenen yeni ABD günleri: {', '.join(abd['yeni']) or 'yok'}.", "",
                tablo(["Girdi", "Değer", "Koşul"], [
                    ["S&P 500", f"{f(k['spx'])} ({f(abd['spx_d'], '%')})", "—"],
-                   ["S&P / 200 GHO", f"{f(k['s200'])} → oran {k['spx'] / k['s200']:.3f}".replace(".", ","), ("üstünde" if k["spx"] > k["s200"] else "**altında**") + ("; yakın bölge (< 1,02)" if k["spx"] / k["s200"] < 1.02 else "")],
+                   ["S&P / 200 GHO", f"{f(k['s200'])} → oran " + f"{k['spx'] / k['s200']:.3f}".replace(".", ","), ("üstünde" if k["spx"] > k["s200"] else "**altında**") + ("; yakın bölge (< 1,02)" if k["spx"] / k["s200"] < 1.02 else "")],
                    ["S&P 10 / 20 / 50 GHO", f"{f(k['s10'], 'f0')} / {f(k['s20'], 'f0')} / {f(k['s50'], 'f0')}", "10 > 20 ✓" if k["s10"] > k["s20"] else "10 < 20 ✗"],
                    ["Nasdaq-100 10 / 20 GHO", f"{f(abd['n10'], 'f0')} / {f(abd['n20'], 'f0')} ({abd['ndx_t'].date() if abd['ndx_t'] is not None else '—'})", "10 > 20 ✓" if abd["n10"] > abd["n20"] else "10 < 20 ✗"],
                    ["VIX/VIX3M bugün / önceki", f"{f(k['vr'])} / {f(k['vr_onceki'])}", "KIRMIZI (a)" if k["ka"] else "< 1,00 ✓"],
@@ -1482,11 +1568,11 @@ def main():
     else:
         parca.append(f"{tr_tarih(ns)}: işlem yok")
     if yakin:
-        parca.append("Yakın tetik: " + ", ".join(f"{t_['en']} {t_['kosul'].split(' ')[0]} {f(t_['seviye'])} ({f(t_['uzak'], '%')})" for t_ in yakin[:4]))
+        parca.append("Yakın tetik: " + ", ".join(f"{t_['en']} {t_['op']}{f(t_['seviye'])} ({t_['kol']})" for t_ in yakin[:4]))
     if abd and "k" in abd:
         parca.append(f"ABD {A['durum']} (VIX/VIX3M {f(abd['k']['vr'])}); en erken pilot {abd['en_erken']['pilot']:%d.%m}")
-    if uyarilar:
-        parca.append("Uyarı: " + uyarilar[0][:90])
+    if kisa_uyari:
+        parca.append("Uyarı: " + "; ".join(kisa_uyari))
     parca.append("Ayrıntı gunluk/SON.md")
     bil = ". ".join(parca)
     if len(bil) > 600:
