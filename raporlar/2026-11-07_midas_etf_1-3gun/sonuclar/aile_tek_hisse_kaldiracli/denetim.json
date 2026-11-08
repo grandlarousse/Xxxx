@@ -1,0 +1,90 @@
+{
+ "family": "tek_hisse_kaldiracli",
+ "stratejiler": [
+  {
+   "id": "tek_hisse_kaldiracli_S1",
+   "karar": "zayif",
+   "yeniden_uretim": "Bağımsız simülasyonla birebir yeniden üretildi (lib.trades/evaluate/thk kullanılmadı; RSI Wilder/RMA, SMA, sentetik 2x ve havuz kendi kodum). 605 işlemin 605'i ajanınkiyle aynı (hisse, sinyal ve çıkış günü). Dayanak C0 n=605 net 111,0 bp t=3,13 (IS 103,8 t=2,01, OOS 117,1 t=2,40); O1 101,2 t=2,93; C1 75,9 t=2,14. Gerçek ETF C0 n=261 127,6 bp t=2,65, O1 107,8 t=2,38, C1 85,5 t=1,66. Sentetik kalibrasyon bağımsız ölçümle aynı (gerçek ETF − sentetik, günde -1,1 ile -2,8 bp; MSTR -13). İleriye bakma yok: sinyal t kapanışına kadarki veriyle, SMA5 çıkışı j kapanışında görülüp uygulanıyor, bilanço takvimi önceden bilinir. En büyük 5 kazanç gerçek olay, veri hatası değil: 3'ü bilanço tepki günü (TSLA 24.10.2024 +%21,9; META 27.04.2023 +%13,9; NVDA 23.02.2023 +%14,0); diğer ikisi TSLA 31.01.2022 ve 09.09.2020. Muhafazakâr çıkış (ertesi açılışta satış) C0 139 bp t=3,39: kapanışta çıkış varsayımı iyimser değil.",
+   "sorunlar": "(1) maxDD olduğundan küçük: ajanın -%11,5'i sinyal-günü ortalamalarının ardışık çarpımı. Günlük değerlemeli portföyde (her hisseye 1/7) maxDD -%25,3 (10.03.2020 → 18.03.2020); 2020 dışında -%14,8. (2) 'Bilanço hariç' +84 bp t=2,44 gerçekleşen tutuşa göre süzülmüş: SMA5 çıkışı ileriki fiyata bağlı olduğundan hafif ileriye bakma var ve uygulanamaz. Uygulanabilir 'ATLA' (tepki günü t+1..t+3 içindeyse girme) C0 79,4 bp t=2,33 (IS t 1,63, OOS t 1,66), pozitif yıl %50: eşik altı. (3) Güncel durum eksik: META ve GOOGL de SMA200'ün altında, filtre 7 hissenin 4'ünde kapalı (ajan yalnız NVDA ve TSLA'yı yazmış). (4) EN ÖNEMLİSİ seçim yanlılığı: aynı kural ex-ante evrende çalışmıyor. S1 dışı 47 hisse (Kasım 2016'nın en büyük 30'u + tek hisse LETF'i olan diğer 15 + TSM/AVGO) C0 net 11,5 bp t=0,77, zamanlama kenarı 5,5 bp t=0,37. 2016'nın en büyük 30'u 8,9 bp t=0,64 (IS -10 bp). LETF'i olan diğer 15 hisse 18,9 bp t=0,60, kenar -14 bp. (5) Kenar iki yıla bağlı: 2020 ve 2024 hariç C0 52 bp t=1,42, OOS 44 bp t=0,79. (6) Birleşik FDR'yi geçmiyor (p=0,0019; ~7.800 test, BH eşiği ~4e-5).",
+   "saglamlik": "7 hisse içinde zamanlama kenarı gerçek. Rastgele giriş permütasyonu (2.000): C0 tüm günler p=0,008, rejim eşlenik p=0,003; O1 p=0,0045 / 0,001. Ortak dairesel kaydırma (kümelenme korunur) p=0,001. Kenar 75-84 bp. Parametre platosu: 180 komşu varyantın (RSI 6-14, trend SMA 150-250, çıkış SMA 3-7, en uzun tutuş 2-5 gün) hepsi pozitif, 158'inde t≥2, medyan 109 bp t=2,77; ana kural t sırasında 50/180 (RSI<8'de çukur 78 bp t=1,85). Yıl çıkarma: 2020 hariç 94 bp t=2,69 (IS 61, t=1,26); 2022 hariç 118 t=3,33; 2020 ve 2022 hariç 102 t=2,91; 2020 ve 2024 hariç 52 t=1,42. En iyi 5 işlem çıkarılınca C0 93 t=2,74, O1 72,5 t=2,29; en iyi 10 çıkarılınca C0 70 t=2,16, O1 57,5 t=1,87. Maliyet (1.000$): C0 93,0 t=2,62, O1 83,2 t=2,41, C1 57,9 t=1,63; gerçek ETF 1.000$ C0 109,6 t=2,28, O1 89,8 t=1,98. Günlük portföy Newey-West t: C0 2,75 (IS 1,77, OOS 2,20), O1 2,29. Piyasa dibi (aynı gün QQQ RSI2<10) n=251 111,5 bp t=1,73; hisseye özgü dip n=354 110,7 bp t=2,61. QQQ'nun kendi kuralı O1'de 17 bp t=0,38: etki endeksten gelmiyor. Midas: sinyal günlerinin %33'ünde RSI(2) eşiğe yakın (7-10), C0 kararı son dakikada dönebilir; O1 temiz yedek. Ürün bulunurluğu doğrulanmadı. PTP beklenmez. En kötü işlem -%44,6. Hüküm: mekanik kabul eşiklerini geçiyor ve 7 hisse içinde sağlam; ama ex-ante evrende yok ve iki yıla bağlı. Seçilmiş kazananların sürmesine dayalı bir rejim bahsi: küçük pozisyonla.",
+   "duzeltilmis_kural": "Ana kural aynı (TH03). Değişiklikler: (a) Bilanço: tepki günü t+1..t+3 içindeyse gir, ama duyuru günü (E, seans sonrası duyuru) kapanışından önce sat ('ERKEN ÇIK'; C0 98,4 bp t=2,87, IS 103,7 t=2,03, OOS 93,9 t=2,03, pozitif yıl %70). Ajanın 'bilanço hariç +84 bp' sayısı uygulanabilir değil. (b) 15:45 ET'de (TR kış 23:45) RSI(2) 7-13 aralığındaysa C0 yerine O1 kullan (ertesi açılış; 101 bp t=2,93). (c) Sermaye: her hisseye en çok 1/7; 7 pozisyon aynı anda açılabilir; günlük değerlemeli maxDD -%25. (d) Alternatif araç: aynı sinyalle hissenin kendisi. Midas'ta kesin var; 1x C0 2.500$ net 57,9 bp t=3,27, 5.000$ 63,9 bp t=3,61; swap sürüklemesi ve ürün bulunurluğu riski yok.",
+   "duzeltilmis_sayilar": "maxDD (günlük değerlemeli, 1/7 sermaye): -%25,3 (ajan -%11,5); 2020 dışı -%14,8. Bilanço uygulanabilir: ATLA C0 79,4 bp t=2,33, pozitif yıl %50; ERKEN ÇIK C0 98,4 t=2,87, O1 75,1 t=2,39 (OOS 53,5 t=1,44). 2020+2024 hariç: C0 52 bp t=1,42 (OOS 44 t=0,79). Ex-ante evren (S1 dışı 47 hisse): net 11,5 bp t=0,77, kenar 5,5 bp t=0,37. Günlük portföy NW t: C0 2,75, O1 2,29. Güncel durum (06.11.2026): NVDA, TSLA, META, GOOGL SMA200 altında; filtre açık yalnız AAPL, AMZN, MSFT; RSI2<10 olan yok. Toplam test ~7.800 (ajan 7.310 + denetim ~490); S1 p=0,0019, birleşik FDR'yi geçmiyor."
+  }
+ ],
+ "onculer": [
+  {
+   "sym": "AMZU",
+   "oncu": "AMEX:SPY günlük getirisi (t) -> AMZN t+1 (negatif katsayı, kendi gecikmesi kontrollü)",
+   "karar": "zayif",
+   "not": "Yeniden hesap: t -3,28 (IS -2,59, OOS -2,06); 2x etkisi 1 sd'de -51 bp (OOS -46 bp). İşaret IS ve OOS'ta tutarlı; ajanın 'OOS zayıf' notu bu çift için yanlış. Tek hisse kuralı (SPY z<-1/-1,5/-2 -> AMZU 2x, 1 gün) C0 t 1,11-1,62, O1 t 1,10-1,37, OOS yarıya iniyor: maliyet sonrası işlem kuralı doğrulanmadı."
+  },
+  {
+   "sym": "GGLL",
+   "oncu": "AMEX:SPY (t) -> GOOGL t+1 (negatif)",
+   "karar": "curutuldu",
+   "not": "t -3,19 (IS -3,05, OOS -1,54); OOS etkisi -26 bp. Kural C0 OOS negatif (z<-1,5: -34,5 bp; z<-2: -42,8 bp). İşlem için öncü değil."
+  },
+  {
+   "sym": "AAPU",
+   "oncu": "AMEX:SPY yetişme -> AAPL t+1 (negatif)",
+   "karar": "curutuldu",
+   "not": "Lag t -2,84 (IS -3,57, OOS -0,67), OOS etkisi -11 bp, maliyetin (16 bp) altında. Kural C0 OOS negatif (-21 ile -153 bp)."
+  },
+  {
+   "sym": "MSFU",
+   "oncu": "AMEX:SPY yetişme -> MSFT t+1 (negatif)",
+   "karar": "curutuldu",
+   "not": "Lag t -2,48 (IS -2,65, OOS -0,84), OOS etkisi -16 bp. Kural C0 z<-1,5 +91 bp t=2,07, ama tamamı IS'ten (IS +203, OOS +4); O1 OOS negatif."
+  },
+  {
+   "sym": "NVDL",
+   "oncu": "AMEX:XLK yetişme (beta60·r_XLK - r_NVDA) -> NVDA t+1 (negatif)",
+   "karar": "curutuldu",
+   "not": "Lag t -2,70 (IS -4,02, OOS +0,26); yetişme OOS -0,13. OOS'ta etki yok."
+  },
+  {
+   "sym": "NVDL",
+   "oncu": "NASDAQ:SMH -> NVDA t+1",
+   "karar": "curutuldu",
+   "not": "Lag t -1,92 (IS -2,96, OOS +0,31); yetişme OOS -0,12. Ajanla aynı: öncü değil."
+  },
+  {
+   "sym": "NVDU",
+   "oncu": "AMEX:XLK yetişme (NVDL kopyası)",
+   "karar": "curutuldu",
+   "not": "NVDL ile aynı dayanak, bağımsız kanıt değil."
+  },
+  {
+   "sym": "MSTU",
+   "oncu": "COINBASE:BTCUSD gece hareketi (16:00 ET -> 09:00 ET) -> MSTR açılış boşluğu (gerçek zamanlı izleme, öncü değil)",
+   "karar": "dogrulandi",
+   "not": "Bağımsız: corr 0,880, beta 1,23, R² 0,77 (n=863, 2023-06+); COIN corr 0,776. Ertesi gün öncülüğü (TH06) yok: ajanla uyumlu. Yalnız açılış boşluğunu önceden gösteren izleme aracı."
+  },
+  {
+   "sym": "TSLL",
+   "oncu": "NASDAQ:QQQ -> TSLA t+1",
+   "karar": "curutuldu",
+   "not": "t -0,34 (IS -0,40, OOS +0,04): ilişki yok. Ajanın 'öncü yok' kararı doğru."
+  }
+ ],
+ "izleme_itirazlari": [
+  {
+   "sym": "AAPU",
+   "itiraz": "kabul -> yedek. AAPL S1'in en zayıf dayanağı: C0 54 bp t=0,93, O1 36 bp, C1 -7 bp; gerçek ETF 35 bp t=0,57. Maliyet/oynaklık 0,051, kabul edilenlerin en kötüsü. Geriye yalnız dayanak sürücüsü gerekçesi kalıyor."
+  },
+  {
+   "sym": "METU",
+   "itiraz": "kabul -> yedek. Gerçek ETF'te S1 C0 -45, O1 -100, C1 -217 bp. Geçmiş kısa (2024-06+). Sentetikte de en zayıf (45 bp t=0,66)."
+  },
+  {
+   "sym": "TSLL",
+   "itiraz": "Kabul edilebilir, ama maliyet 23 bp (8,8$ fiyatta 1 sentlik adım ~11 bp makas) ve 2x TSLA'da en kötü işlem -%45: pozisyon küçük tutulmalı. S1 gerçek ETF t=0,51."
+  },
+  {
+   "sym": "NVDL/TSLL/AMZU/MSFU/GGLL",
+   "itiraz": "'Kabul' gerekçesi 'S1 sepetinin aracı' diye yazılmış. S1 zayıf (ex-ante evrende kenar yok), bu yüzden kabulün dayanağı likidite ve dayanak hissenin net sürücü olması. Ayrıca 06.11.2026 itibarıyla NVDA, TSLA, META ve GOOGL SMA200 altında: S1 bu dört hissede şu an sinyal üretmez."
+  }
+ ],
+ "kacirilan": "(1) Aynı sinyali doğrudan HİSSEYLE uygulamak. Midas'ta ABD hisseleri kesin var, kaldıraçlı ETF bulunurluğu doğrulanmadı. 1x C0 2.500$ net 57,9 bp t=3,27 (IS t 2,13, OOS t 2,48), en kötü işlem -%23. 5.000$ hisse, 2.500$'lık 2x ETF ile aynı dolar maruziyeti: net 63,9 bp t=3,61, işlem başına ~32$ (2x ETF'te ~28$). Swap sürüklemesi (3 günde 10-15 bp), fon kapanma ve ürün bulunurluğu riski yok. Kaldıraç yalnız sermaye kısıtı varsa gerekli. (2) Ajanın nitel olarak andığı seçim yanlılığı test edilmemişti. Ex-ante evren testi (S1 dışı 47 hisse: 11,5 bp t=0,77; Kasım 2016'nın en büyük 30'u: 8,9 bp t=0,64) kenarın genel olmadığını gösteriyor: S1'in ana riski bu. (3) Gerçek drawdown -%25 (Mart 2020). Sinyaller piyasa çöküşlerinde 7 hissede birden tetikleniyor: hisse başına sermaye sınırı şart.",
+ "genel": "Kod doğru; S1 ve öncü sayıları birebir yeniden üretildi. S1 mekanik kabul eşiklerini geçiyor; 7 hisse içinde permütasyon ve parametre testleri sağlam (p≈0,001-0,008, plato). Ama aynı kural ex-ante seçilmiş 47 hissede çalışmıyor (net 11,5 bp t=0,77). Kenar 2020 ve 2024'e bağlı (ikisi hariç t=1,42). Birleşik FDR'yi geçmiyor. Bu yüzden karar 'zayıf': sonradan seçilmiş kazananların V-dönüşü bahsi, düşük güvenle küçük pozisyonda. Düzeltmeler: maxDD -%25,3 (ajan -%11,5); uygulanabilir bilanço varyantı 'erken çık' 98 bp t=2,87 (ajanın +84 bp'si ileriye bakan süzgeç); META ve GOOGL de SMA200 altında. Gecikmeli öncü yok kararı doğru: piyasa-geri dönüşü regresyonları OOS'ta sönüyor; tek tutarlı olan AMZN←SPY de kurala çevrilince t<1,7. BTC gece hareketi MSTU için gerçek zamanlı izleme olarak doğrulandı (corr 0,88). İzleme listesinde AAPU ve METU yedeğe alınmalı. TradingView kodlarının hepsi doğrulanmış listelerde."
+}

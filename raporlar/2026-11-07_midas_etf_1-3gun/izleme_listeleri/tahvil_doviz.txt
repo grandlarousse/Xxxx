@@ -1,0 +1,1 @@
+###Tahvil ve döviz ETF,NASDAQ:TLT,AMEX:TMV,AMEX:TBT,AMEX:TMF,###Tahvil ve döviz öncü-sürücü,TVC:US30Y,NASDAQ:IEF,TVC:US10Y,AMEX:LQD,FRED:DFII10,###Tahvil ve döviz gerçek zamanlı,CBOT:UB1!,CBOT:ZB1!,CBOT:ZN1!,TVC:DE10Y,TVC:JP10Y,CME_MINI:ES1!

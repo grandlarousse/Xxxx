@@ -84,6 +84,21 @@ def midas_info():
 MIDAS_DET, MIDAS_SB = midas_info()
 PTP = {k for k, v in MIDAS_DET.items() if isinstance(v, dict) and v.get("ptp_k1")}
 TAR = pd.read_csv(os.path.join(ROOT, "sonuclar", "tarama.csv")).set_index("sym")
+SON = pd.read_csv(os.path.join(ROOT, "sonuclar", "izleme_son.csv"))
+SK = pd.read_csv(os.path.join(ROOT, "sonuclar", "son_kontrol.csv"))
+KAD_TR = {"A": "A — denetimden geçmiş kural var", "B": "B — kural var ama kanıt zayıf (küçük boyut / kağıt üstünde izle)", "C": "C — kural yok; sürücüleriyle takip"}
+
+def sk_line(sid, sym):
+    """Ana ajanın son kontrolü (Yahoo dağıtım düzeltmeli veri, ortak motor)."""
+    v = SK[(SK["id"] == sid) & (SK["pos_usd"] == 2500) & ((SK["arac"] == sym) | SK["arac"].str.contains("sepet", na=False))]
+    if v.empty: return ""
+    parts = []
+    for m in ("C0", "O1", "C1"):
+        r = v[v["mode"] == m]
+        if len(r): r = r.iloc[0]; parts.append(f"{m}: net {r['mean_net_bp']:.0f} bp (t {r['t']:.1f}, n={int(r['n'])})")
+    r1 = SK[(SK["id"] == sid) & (SK["pos_usd"] == 1000) & SK["ana_mod"] & ((SK["arac"] == sym) | SK["arac"].str.contains("sepet", na=False))]
+    extra = f"; 1.000$ pozisyonda ana mod net {r1.iloc[0]['mean_net_bp']:.0f} bp (t {r1.iloc[0]['t']:.1f})" if len(r1) else ""
+    return "- **Ana ajan son kontrolü (düzeltilmiş veri, 2.500$):** " + " · ".join(parts) + extra
 
 def midas_line(sym):
     d = MIDAS_DET.get(sym); s = MIDAS_SB.get(sym)
@@ -91,6 +106,8 @@ def midas_line(sym):
     if sym in PTP:
         txt += " · ⚠ PTP/K-1 ürünü: satışta %10 brüt kesinti (1446(f)) riski"
     return txt
+
+CUR_SYM = None
 
 def strat_block(s, v):
     lines = []
@@ -114,9 +131,14 @@ def strat_block(s, v):
     if s.get("maliyet_duyarlilik"): lines.append(f"- **Maliyet duyarlılığı:** {s['maliyet_duyarlilik']}")
     if s.get("notlar"): lines.append(f"- **Not:** {s['notlar']}")
     lines.append(f"- Betik: `{s.get('betik','')}`")
+    if CUR_SYM:
+        sk = sk_line(s["id"], CUR_SYM)
+        if sk: lines.insert(6, sk)
     return "\n".join(lines) + "\n"
 
-def card(fam, sym, item, res, sv, ov):
+def card(fam, sym, item, res, sv, ov, kademe="C", note=""):
+    global CUR_SYM
+    CUR_SYM = sym
     ll = next((x for x in res.get("leadlag", []) if x["sym"].upper() == sym), None)
     tr = TAR.loc[sym] if sym in TAR.index else None
     name = (tr["name"] if tr is not None and isinstance(tr["name"], str) else "")
@@ -128,7 +150,8 @@ def card(fam, sym, item, res, sv, ov):
         L.append("| Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |")
         L.append("|---|---|---|---|---|---|")
         L.append(f"| {num(tr['med_dollar_vol_m'],'{:,.0f}')} | {num(tr['cost_rt_bp'])} | {num(tr['vol_1d_bp'],'{:.0f}')} | %{num(tr['worst_1d_1y']*100)} | {tr['lev']} | {tr['first']} |\n")
-    L.append(f"**Neden izleme listesinde:** {item['gerekce']}\n")
+    L.append(f"**Kademe:** {KAD_TR.get(kademe, kademe)}  ")
+    L.append(f"**Neden izleme listesinde:** {item['gerekce']}" + (f" **Ana ajan notu:** {note}" if note else "") + "\n")
     # stratejiler
     mine = [s for s in res.get("stratejiler", []) if sym in [x.upper() for x in (s.get("islem_etf") or [])] or (s.get("sinyal_etf") or "").upper() == sym]
     ok = [s for s in mine if sv.get(s["id"], {}).get("karar") == "dogrulandi"]
@@ -179,8 +202,9 @@ def card(fam, sym, item, res, sv, ov):
     return "\n".join(L)
 
 def watch_txt(fam, res, sv):
-    acc = [x["sym"].upper() for x in res.get("izleme", []) if x["karar"] == "kabul"]
-    yed = [x["sym"].upper() for x in res.get("izleme", []) if x["karar"] == "yedek"]
+    fin = SON[SON["aile"] == fam]
+    acc = fin[fin["karar"] == "kabul"]["sym"].tolist()
+    yed = fin[fin["karar"] == "yedek"]["sym"].tolist()
     def ok_tv(t):
         return [TV_OK[k] for k in re.findall(r"[A-Z_]+:[A-Z0-9!\.\-]+", (t or "").upper()) if k in TV_OK]
     etf = [TV_ETF[s] for s in acc + yed if s in TV_ETF]
@@ -202,18 +226,21 @@ def main():
         res, den = load_fam(fam)
         if not res: print("yok:", fam); continue
         sv, ov = verdict_maps(den)
+        fin = SON[SON["aile"] == fam].set_index("sym")
         for item in res.get("izleme", []):
-            if item["karar"] not in ("kabul", "yedek"): continue
             sym = item["sym"].upper()
-            open(os.path.join(ROOT, "kartlar", f"{sym}.md"), "w").write(card(fam, sym, item, res, sv, ov))
+            if sym not in fin.index or fin.loc[sym, "karar"] not in ("kabul", "yedek"): continue
+            item = dict(item); item["karar"] = fin.loc[sym, "karar"]
+            note = fin.loc[sym, "not"] if isinstance(fin.loc[sym, "not"], str) else ""
+            open(os.path.join(ROOT, "kartlar", f"{sym}.md"), "w").write(card(fam, sym, item, res, sv, ov, fin.loc[sym, "kademe"], note))
             nstr = sum(1 for s in res.get("stratejiler", []) if (sym in [x.upper() for x in (s.get("islem_etf") or [])] or (s.get("sinyal_etf") or "").upper() == sym) and sv.get(s["id"], {}).get("karar") == "dogrulandi")
-            index.append((fam, sym, item["karar"], nstr))
+            index.append((fam, sym, item["karar"], nstr, fin.loc[sym, "kademe"]))
         txt, etf, lead, rt = watch_txt(fam, res, sv)
         open(os.path.join(ROOT, "izleme_listeleri", f"{fam}.txt"), "w").write(txt + "\n")
         allparts.append(txt)
         print(fam, "kart:", sum(1 for i in index if i[0] == fam), "etf:", len(etf), "öncü:", len(lead), "gz:", len(rt))
     open(os.path.join(ROOT, "izleme_listeleri", "TUM_ETF_bolumlu.txt"), "w").write(",".join(allparts) + "\n")
-    pd.DataFrame(index, columns=["aile", "sym", "karar", "dogrulanmis_strateji"]).to_csv(os.path.join(ROOT, "sonuclar", "kart_indeksi.csv"), index=False)
+    pd.DataFrame(index, columns=["aile", "sym", "karar", "dogrulanmis_strateji", "kademe"]).to_csv(os.path.join(ROOT, "sonuclar", "kart_indeksi.csv"), index=False)
     open(os.path.join(ROOT, "sonuclar", "tv_eksik.txt"), "w").write("\n".join(sorted(MISSING)) + ("\n" if MISSING else ""))
     print("doğrulanmamış TV kodları:", len(MISSING))
 

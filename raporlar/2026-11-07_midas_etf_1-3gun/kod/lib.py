@@ -38,7 +38,7 @@ def available():
     d = os.path.join(DATA, "etf")
     return sorted(f[:-8] for f in os.listdir(d) if f.endswith(".parquet"))
 
-BAD_BARS = {"DFEN": ["2024-06-03"]}            # tek günlük hatalı fiyat (ertesi gün tam geri dönüş, dayanakta hareket yok)
+BAD_BARS = {"DFEN": ["2024-06-03"], "IAU": ["2021-03-08"]}            # tek günlük hatalı fiyat (ertesi gün tam geri dönüş, dayanakta hareket yok)
 TRUST_START = {"ETHE": "2024-07-23", "GBTC": "2024-01-11", "USHY": "2019-04-22"}   # ETHE/GBTC: öncesi OTC tröst (prim/iskonto); USHY: 2019-04 öncesi tutarsız seri
 FIX_LOG = []
 REAL_SHOCKS = ["2024-06-04"]   # Hindistan seçim şoku (gerçek fiyat hareketi; dağıtım değil)

@@ -50,6 +50,14 @@ def eia_winter_sig(sym):
 def bb_low(sym):
     d = lib.load(sym); c = d["c"]; return c < sma(c, 20) - 2 * c.rolling(20).std()
 
+def rsi2_svxy():
+    d = lib.load("SVXY"); c = d["c"]; return (lib.rsi(c, 2) < 10) & (c > sma(c, 200))
+
+def stock(sym):
+    return pd.read_parquet(os.path.join(lib.DATA, "stock", sym + ".parquet"))["c"]
+
+MEGA = {"NVDA": "NVDL", "TSLA": "TSLL", "AAPL": "AAPU", "AMZN": "AMZU", "META": "METU", "MSFT": "MSFU", "GOOGL": "GGLL"}
+
 def trend_10_50(sym):
     d = lib.load(sym); c = d["c"]; return (c > sma(c, 10)) & (sma(c, 10) > sma(c, 50))
 
@@ -66,6 +74,7 @@ RULES = [
     ("enerji_tarim_S1", "EIA öncesi KOLD (Kas-Mar)", lambda: eia_winter_sig("KOLD"), "takvim", ["KOLD"], 1, "C0", "zayif"),
     ("enerji_tarim_S2", "USO alt Bollinger → C1 2 gün", lambda: bb_low("USO"), "USO", ["USO"], 2, "C1", "zayif"),
     ("kripto_S2", "IBIT trend (C>SMA10>SMA50) → 3 gün", lambda: trend_10_50("IBIT"), "IBIT", ["IBIT"], 3, "C0", "zayif"),
+    ("volatilite_S1", "SVXY RSI(2)<10 & >SMA200 → 2 gün", rsi2_svxy, "SVXY", ["SVXY", "SVIX"], 2, "C0", "zayif"),
 ]
 ASIA = ["EWJ", "EWY", "EWT", "FXI", "EWA", "EWH"]
 
@@ -111,6 +120,19 @@ def main():
                             a = df.index.get_loc(t["entry_date"]); b = df.index.get_loc(t["exit_date"])
                             pos_mask.iloc[a + 1:b + 1] = 1.0
                         daily[rid] = (ret * pos_mask).fillna(0)
+    # Mega-cap RSI(2) -> 2x tek hisse ETF (tek_hisse_kaldiracli_S1): sinyal ve çıkış hisseden
+    for mode in ("C0", "O1", "C1"):
+        for pos in (1000, 2500, 10000):
+            alltr = []
+            for st, etf in MEGA.items():
+                c = stock(st); sg = (lib.rsi(c, 2) < 10) & (c > sma(c, 200)); ex = c > sma(c, 5)
+                df = lib.load(etf); sgr = sg.reindex(df.index).fillna(False); sgr.iloc[:5] = False
+                tr = lib.trades(df, sgr, 3, mode, ex.reindex(df.index).fillna(False), cost_for(df, pos)); tr["sym"] = etf; alltr.append(tr)
+            tr = pd.concat(alltr).sort_values("sig_date")
+            s_ = summarize(tr, None, 3, mode, "mega-cap 2x")
+            s_.update({"id": "tek_hisse_kaldiracli_S1", "ad": "Mega-cap hisse RSI(2)<10 & >SMA200 → 2x ETF, SMA5'te çık (≤3 gün)", "sinyal": "hisse", "arac": "2x ETF sepeti(7)",
+                       "h": 3, "mode": mode, "pos_usd": pos, "cost_bp": np.nan, "ana_mod": mode == "C0", "aile_karar": "zayif", "baslangic": "2022+"})
+            rows.append(s_)
     # Asya sepeti (uluslararasi_S1): ETF başına sinyal, h=1, eşit ağırlık
     for mode in ("C0", "O1", "C1"):
         for pos in (1000, 2500, 10000):

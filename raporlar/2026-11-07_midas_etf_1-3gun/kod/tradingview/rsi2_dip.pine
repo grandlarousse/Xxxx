@@ -1,0 +1,29 @@
+// RSI(2) dip sinyali — Midas 1-3 gün çalışması (2026-11-07). Pine Script v5. Derlenmedi.
+// Kullanım (hepsi Kademe B, zayıf kanıt):
+//   CBOE:SVXY  -> RSI(2) < 10 ve kapanış > SMA(200): SVXY al, 2 gün tut (PTP %10 kesinti riski; Midas'ta teyit et)
+//   NASDAQ:NVDA / AMZN / MSFT / GOOGL / TSLA -> aynı koşul hissenin KENDİ grafiğinde; işlem 2x ETF'te (NVDL, AMZU, MSFU, GGLL, TSLL);
+//      çıkış: hisse kapanışı > SMA(5) olan ilk gün, en geç 3. gün.
+//@version=5
+indicator("RSI(2) dip (Midas 1-3 gün)", overlay=true)
+esik = input.float(10, "RSI(2) eşiği")
+trendUzun = input.int(200, "Trend SMA")
+cikisSma = input.int(5, "Çıkış SMA (0 = yalnız süre)")
+maxGun = input.int(3, "En çok tutuş (gün)")
+r = ta.rsi(close, 2)
+trend = close > ta.sma(close, trendUzun)
+sig = r < esik and trend
+var int girisBar = na
+cikis = false
+if not na(girisBar)
+    gun = bar_index - girisBar
+    if gun >= maxGun or (cikisSma > 0 and gun >= 1 and close > ta.sma(close, cikisSma))
+        cikis := true
+        girisBar := na
+giris = sig and na(girisBar)
+if giris
+    girisBar := bar_index
+plotshape(giris, "Giriş", shape.triangleup, location.belowbar, color.new(color.teal, 0), size=size.small)
+plotshape(cikis, "Çıkış", shape.square, location.abovebar, color.new(color.orange, 0), size=size.tiny)
+plot(ta.sma(close, trendUzun), "SMA trend", color.new(color.gray, 30))
+alertcondition(giris, "RSI2 giriş", "{{ticker}}: RSI(2) dip sinyali")
+alertcondition(cikis, "RSI2 çıkış", "{{ticker}}: RSI(2) çıkış")

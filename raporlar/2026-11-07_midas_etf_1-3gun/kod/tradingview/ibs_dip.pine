@@ -1,0 +1,32 @@
+// IBS dip sinyali — Midas 1-3 gün çalışması (2026-11-07). Pine Script v5. Derlenmedi: TradingView'da ilk eklemede hata verirse bildirin.
+// Günlük (1D) grafikte kullanın. Ön ayarlar (raporda doğrulanan/zayıf kurallar):
+//   NASDAQ:QQQ  -> eşik 0.10, düşüş şartı AÇIK, tutuş 3  (Kademe A; ana mod C1 = sinyalden sonraki gün kapanışta gir)
+//   NASDAQ:SMH  -> eşik 0.20, düşüş şartı KAPALI, tutuş 1 (Kademe A; yalnız C0 = sinyal günü kapanışında/after-hours limitle gir)
+//   AMEX:SPY    -> eşik 0.10, düşüş AÇIK, tutuş 3 (B; QQQ ile aynı gün sinyal verirse yalnız QQQ)
+//   AMEX:GDXJ   -> eşik 0.10, düşüş AÇIK, tutuş 3 (B, C0)
+//   AMEX:EWY    -> eşik 0.10, düşüş AÇIK, tutuş 1 (B, C0)
+// Üçgen = sinyal (t kapanışı). Kare = çakışmasız kuralla çıkış günü (C0 sayımı: giriş t kapanışı, çıkış t+tutuş kapanışı).
+//@version=5
+indicator("IBS dip (Midas 1-3 gün)", overlay=true, max_labels_count=200)
+esik      = input.float(0.10, "IBS eşiği", minval=0.01, maxval=0.5, step=0.01)
+dususSart = input.bool(true, "Düşüş günü şartı (close < close[1])")
+tutus     = input.int(3, "Tutuş (işlem günü)", minval=1, maxval=5)
+ibs = high > low ? (close - low) / (high - low) : na
+sig = not na(ibs) and ibs < esik and (not dususSart or close < close[1])
+var int girisBar = na
+cikis = false
+if not na(girisBar) and bar_index - girisBar >= tutus
+    cikis := true
+    girisBar := na
+giris = sig and na(girisBar)
+if giris
+    girisBar := bar_index
+plotshape(sig and not giris, "Sinyal (pozisyondayken, yok sayılır)", shape.triangleup, location.belowbar, color.new(color.gray, 40), size=size.tiny)
+plotshape(giris, "Giriş sinyali", shape.triangleup, location.belowbar, color.new(color.teal, 0), size=size.small)
+plotshape(cikis, "Çıkış günü", shape.square, location.abovebar, color.new(color.orange, 0), size=size.tiny)
+var table t = table.new(position.top_right, 1, 2, border_width=1)
+if barstate.islast
+    table.cell(t, 0, 0, "IBS: " + str.tostring(ibs, "#.00"), bgcolor=color.new(color.blue, 80))
+    table.cell(t, 0, 1, sig ? "SİNYAL (eşik " + str.tostring(esik) + ")" : "sinyal yok", bgcolor=sig ? color.new(color.teal, 60) : color.new(color.gray, 85))
+alertcondition(giris, "IBS giriş sinyali", "{{ticker}}: IBS dip sinyali (kapanışa yakın kontrol et)")
+alertcondition(cikis, "IBS çıkış günü", "{{ticker}}: IBS kuralının çıkış günü")

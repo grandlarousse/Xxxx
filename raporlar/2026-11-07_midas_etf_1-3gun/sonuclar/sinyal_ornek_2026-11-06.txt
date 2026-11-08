@@ -1,0 +1,42 @@
+Çalışma zamanı: 08.11.2026 03:31 TR  (son tamamlanmış günlük mum)
+
+Son mum: 2026-11-06  · sonraki işlem günleri: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12
+
+[A] QQQ IBS<0,10 + düşüş günü -> 3 gün (araç: QQQ; 2x QLD / 3x TQQQ küçük payla)
+     durum: bugün IBS=0.20, günlük +1.40% -> sinyal yok; son 6 gündeki sinyaller: 2026-11-02, 2026-11-05
+     eylem: yeni giriş yok
+     pozisyon (C1 ana): SON KAPANIŞTA KAPANDI: sinyal 2026-11-02 -> giriş 2026-11-03 kapanış (TR 04.11 00:00), çıkış 2026-11-06 kapanış (TR 07.11 00:00)
+     pozisyon (C0 alternatif): AÇIK: sinyal 2026-11-05 -> giriş 2026-11-05 kapanış (TR 06.11 00:00), çıkış 2026-11-10 kapanış (TR 11.11 00:00)
+[A] SMH IBS<0,20 -> 1 gün (araç: SMH/SOXX; SOXL yalnız koşullu)
+     durum: bugün IBS=0.38 -> sinyal yok
+     eylem: yeni giriş yok
+     pozisyon (C0): SON KAPANIŞTA KAPANDI: sinyal 2026-11-05 -> giriş 2026-11-05 kapanış (TR 06.11 00:00), çıkış 2026-11-06 kapanış (TR 07.11 00:00)
+[B] SPY IBS<0,10 + düşüş -> 3 gün (zayıf; QQQ ile sinyallerin ~%73'ü ortak — ikisini birden alma)
+     durum: IBS=0.09 -> sinyal yok
+     eylem: - · pozisyon (C1): SON KAPANIŞTA KAPANDI: sinyal 2026-11-02 -> giriş 2026-11-03 kapanış (TR 04.11 00:00), çıkış 2026-11-06 kapanış (TR 07.11 00:00)
+[B] GDXJ IBS<0,10 + düşüş -> 3 gün (kapanışa bağımlı)
+     durum: IBS=0.99 -> sinyal yok
+     eylem: - · pozisyon (C0): açık/bekleyen pozisyon yok
+[B] EWY IBS<0,10 + düşüş -> 1 gün (2026 oynaklık rejimine bağlı)
+     durum: IBS=0.35 -> sinyal yok
+     eylem: -
+[B] SPY ≤ -%1,5 gününde SPY'dan çok düşen Asya ETF'leri -> 1 gün
+     durum: SPY +0.31% -> sinyal yok
+     eylem: -
+[B] SVXY RSI(2)<10 ve SMA200 üstü -> 2 gün (PTP %10 kesinti riski; Midas'ta teyit et)
+     durum: RSI2=21.4, SMA200 üstü=False -> sinyal yok
+     eylem: -
+[B] Mega-cap RSI(2) özet: NVDA:RSI2=33(SMA200 altı) · TSLA:RSI2=37(SMA200 altı) · AMZN:RSI2=54 · MSFT:RSI2=39 · GOOGL:RSI2=53(SMA200 altı) · AAPL:RSI2=44 · META:RSI2=41(SMA200 altı)
+[B] USO alt Bollinger(20,2) kırılımı -> ertesi gün kapanışta al, 2 gün tut (PTP riski)
+     durum: sinyal yok
+     eylem: -
+
+Takvim kuralları (B):
+  - Ay sonu GDX/GLD: sonraki giriş 2026-11-30 kapanış (TR 01.12 00:00), çıkış 2026-12-03 kapanış (TR 04.12 00:00). GDX ve GLD aynı bahis: birini seç.
+  - 10Y Hazine ihalesi 2026-11-10: TMV/TBT giriş 2026-11-05 kapanış (A-3), çıkış 2026-11-09 kapanış (A-1). (TBT daha düşük kuyruk riski)
+  - EIA doğalgaz raporu 2026-11-13: KOLD giriş 2026-11-12 kapanış, çıkış 2026-11-13 kapanış (zayıf; PTP; tek işlemde -%16 görüldü)
+  - EIA doğalgaz raporu 2026-11-19: KOLD giriş 2026-11-18 kapanış, çıkış 2026-11-19 kapanış (zayıf; PTP; tek işlemde -%16 görüldü)
+  - EIA doğalgaz raporu 2026-11-25: KOLD giriş 2026-11-24 kapanış, çıkış 2026-11-25 kapanış (zayıf; PTP; tek işlemde -%16 görüldü)
+
+Not: Midas'ta MOC/LOC yok. 'Kapanışta al' = kapanıştan ~5-10 dk önce piyasa/agresif limit emir ya da kapanıştan sonra after-hours'ta kapanış fiyatına yakın LİMİT emir.
+Yatırım tavsiyesi değildir; ayrıntı: RAPOR.md ve kartlar/<SYM>.md
