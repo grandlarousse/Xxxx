@@ -1,24 +1,22 @@
-# Günlük öneri — Cum 06.11.2026 kapanışı (üretim 08.11.2026 03:05 TSİ)
+# Günlük öneri — Cum 06.11.2026 kapanışı (üretim 08.11.2026 03:49 TSİ)
 
-Sonraki BIST seansı: **Pzt 09.11.2026**. Hesap büyüklüğü (durum.json): 1,0 mn TL. Bilgi amaçlıdır; yatırım tavsiyesi değildir. Kurallar: PLAN_BIST.md, PLAN_ABD.md, 2026-11-04_kapanis_1-3gun/PRATIK_LISTE.md.
-
-> **Uyarı:** İş Yatırım bağlantısı koptu: BIST hesapları önbellekteki verilerle yapıldı.
+Sonraki BIST seansı: **Pzt 09.11.2026**. Hesap büyüklüğü (durum.json): 1,0 mn TL. Bilgi amaçlıdır; yatırım tavsiyesi değildir. Kurallar: PLAN_BIST.md, PLAN_ABD.md, LEADLAG_UYGULAMA.md, 2026-11-04_kapanis_1-3gun/PRATIK_LISTE.md.
 
 ## 0. BUGÜN NE YAPILIR (sonraki seans için, öncelik sırasıyla)
 
-1. **İşlem yok** — BIST rejimi KAPALI, KRİZ yok, K4 nitelikli 0, K1 z −0,54; Koza z3 0,71; SAHOL/AKBNK z −0,63; ABD KIRMIZI.
-2. Takvim Pzt 09.11.2026 [BIST]: 3Ç konsolide bilançoların son günü (A1) — Bilançosunu 9.11 18:00'den önce açıklamamış isimlerde 9.11 gecesi pozisyon taşınmaz, yeni giriş yok; ilk karar 10.11 kapanışı.
-3. TradingView canlı alarmları (Pzt 09.11.2026 17:45–17:55): Koza TRMET ≥ 116,92 / ≤ 105,16; SAHOL/AKBNK z ±1,5 (SAHOL ≥ 91,83 / ≤ 85,44; kagit); altın 17:55 TVC:GOLD dünkü 17:55'e göre ±%1,70; XU030D1!/XU030 oranı 1,0361–1,0466 dışı (18:10); TUPRS z (tuprs_alarm.pine, sabah). **Not:** Pzt 09.11.2026 için engel: A1: TRMET, TRALT bilançosu 9.11 18:00'e kadar açıklanmadıysa giriş yok
-4. ABD rejimi **KIRMIZI** (06.11 kapanışı) → yeni canlı giriş yok; en erken SARI kapanışı Cum 13.11.2026, en erken pilot Pzt 16.11.2026 16:45–17:15
+1. **İşlem yok** — BIST rejimi KAPALI, KRİZ yok, K4 nitelikli 0, K1 z −0,54; Koza z3 0,71; Kural 0 teyitsiz (VİOP kâğıt); ABD KIRMIZI.
+2. **Kural 0 teyitsiz** → Pzt 09.11.2026 için bütün VİOP sinyalleri ve kayıtları **KÂĞIT** (K1, XU030 bazı, TUPRS, Koza, altın); yalnız spot kollar (burada K4) canlı açılabilir. Aracı kurumun yazılı cevabı gelince makro.json 'kural0_teyit': true.
+3. Takvim Pzt 09.11.2026 [BIST]: 3Ç konsolide bilançoların son günü (A1) — Bilançosunu 9.11 18:00'den önce açıklamamış isimlerde 9.11 gecesi pozisyon taşınmaz, yeni giriş yok; ilk karar 10.11 kapanışı.
+4. KÂĞIT kaydı için TradingView alarmları (Pzt 09.11.2026 17:45–18:15; Kural 0 yazılı teyidi yok (makro.json kural0_teyit = false; PLAN_BIST §6.1): VİOP kolu canlı açılmaz): XU030D1!/XU030 oranı < 1,0343 AL / > 1,0484 SAT (18:08–18:15; std120 68 bps); TUPRS z (tuprs_alarm.pine, sabah); Koza TRMET ≥ 116,92 / ≤ 105,16 (kâğıt); altın 17:55 TVC:GOLD dünkü 17:55'e göre ±%1,70 (kâğıt); RYGYO ≥ 50,61 / ≤ 47,63 (bar kapanışı; K4 RYSAS filtresi, kâğıt). **Not:** Pzt 09.11.2026 için engel: A1: TRMET, TRALT bilançosu 9.11 18:00'e kadar açıklanmadıysa giriş yok
+5. ABD rejimi **KIRMIZI** (06.11 kapanışı) → yeni canlı giriş yok; en erken SARI kapanışı Cum 13.11.2026, en erken pilot Pzt 16.11.2026 16:45–17:15
 
-**Yarın tetiklenebilecekler** (tetiğe ≤ %3; seviye = Pzt 09.11.2026 kapanışı için kesin fiyat; 'canlı' satırlar aynı gün uzlaşmada işlem ister → 17:45–17:55 TradingView alarmı, bkz. ../TRADINGVIEW_ALARMLARI.md):
+**Yarın tetiklenebilecekler** (tetiğe ≤ %3; seviye = Pzt 09.11.2026 kapanışı için kesin fiyat; 'aynı gün' satırları kararı o günün uzlaşmasında ister → 17:45–17:55 TradingView alarmı, bkz. ../TRADINGVIEW_ALARMLARI.md; **KÂĞIT** satırları canlı işlem değildir):
 
 | Kol | Enstrüman | Koşul | Tetik | Bugün | Gereken | Tetiklenirse | Zaman |
 |---|---|---|---|---|---|---|---|
 | ABD ralli | S&P 500 | kapanış < ralli dibi | 7.353,73 | 7.376,86 | −%0,3 | ralli denemesi sıfırlanır, FTD en erken 4 seans sonra | ABD kapanışı (00:00 TSİ) |
 | ABD | S&P 500 | kapanış < yarının 200 GHO | 7.327,11 | 7.376,86 | −%0,7 | 2 kapanış üst üste altında → KIRMIZI (b), sayım yeniden | ABD kapanışı (00:00 TSİ) |
 | ABD ralli | Nasdaq-100 | kapanış < ralli dibi | 26.629,81 | 26.989,99 | −%1,3 | ralli denemesi sıfırlanır, FTD en erken 4 seans sonra | ABD kapanışı (00:00 TSİ) |
-| PRATİK | SAHOL | ≤ (AKBNK sabit), z=−1,5 | 85,44 | 87,30 | −%2,1 | aynı gün uzlaşmada F_SAHOL AL + F_AKBNK SAT (kâğıt) | canlı 17:45–17:55 (aynı gün uzlaşma) |
 
 ## 1. BIST rejimi ve KRİZ kesicisi (PLAN_BIST §2)
 
@@ -32,7 +30,7 @@ Sonraki BIST seansı: **Pzt 09.11.2026**. Hesap büyüklüğü (durum.json): 1,0
 | M4 | CDS < 230 ve düşüyor (teyitli) | 248 (teyitli H) | 0 |
 | M5 | XBANK > SMA200 | 16.398 vs 16.948 (−%3,2) | 0 |
 
-**Durum: KAPALI** (0/7 açık) → K4 r₀ %0,25, K9 (1–3 günlük sinyaller) risk %0,25; ertesi işlem gününden geçerli.
+**Durum: KAPALI** (0/7 açık) → K4 r₀ %0,25, K9 (yalnız plan dışı yeni fikir, fikir kartı) risk %0,25; eski lead-lag sinyalleri K9 değil: toplam ≤ %0,5, K4 sonda bütçesinden (§3); ertesi işlem gününden geçerli.
 
 **KRİZ kesicisi:**
 | Tetik | Değer | Tetiklendi |
@@ -56,7 +54,7 @@ Makro: makro.json (güncellendi 2026-11-05, 3 gün önce).
 | K1 | −0,54 | 2026-10-22 | sinyal yok; model işlemi: sinyal 22.10, çıkış 20. gün |
 | K2 | 1,56 | 2026-11-03 | yalnız yeni kesişimde; varsayılan kâğıt |
 
-K1 tam tetikler (öbür bacak sabit; SAHOL 87,30, AKBNK 68,65): z=+2 → SAHOL ≥ 93,03 ya da AKBNK ≤ 64,42; z=−2 → SAHOL ≤ 84,05 ya da AKBNK ≥ 71,30. Kapı: Kural 0 = H, komisyon = — bps (≤ 5 gerekir).
+K1 tam tetikler (öbür bacak sabit; SAHOL 87,30, AKBNK 68,65): z=+2 → SAHOL ≥ 93,03 ya da AKBNK ≤ 64,42; z=−2 → SAHOL ≤ 84,05 ya da AKBNK ≥ 71,30. Kapı: Kural 0 yazılı teyidi (makro.json kural0_teyit) = H, komisyon = — bps (≤ 5 gerekir) → K1 **kâğıt**.
 
 TradingView oran alarmı (BIST:SAHOL/BIST:AKBNK, 1G, 'Bar kapanışında'): **≥ 1,3552** (z=+2 → F_SAHOL SAT + F_AKBNK AL) ya da **≤ 1,2243** (z=−2 → F_SAHOL AL + F_AKBNK SAT); bugünkü oran 1,2717. Seviyeler her akşam bu rapordan güncellenir; giriş ertesi gün 17:55.
 
@@ -119,23 +117,31 @@ Pay vadelileri (§1.5 long kuralı: mevduat neti − ima ≥ 3 puan, açık poz.
 | F_TRMET1126 | 24 | 112,85 | 111,90 | %12,9 | +19,7 | 281 | 26.686 | H |
 | F_TRMET1226 | 55 | 118,05 | 111,90 | %36,5 | -3,9 | 9 | 2.483 | H |
 
-**K6 carry kapısı:** KAPALI — 1 net rezerv 2 hf ≥ −2 ve ≥ 20: ✗; 2 yabancı DİBS ≥ −500 mn $: ✗; 3 F_USDTRY ima ≤ politika+5: ✓; 4 USDTRY 10g ≤ %30: ✓; 5 brüt rezerv ≥ 160: ✗; 6 Kural 0: ✗
+**K6 carry kapısı:** KAPALI — 1 net rezerv 2 hf ≥ −2 ve ≥ 20: ✗; 2 yabancı DİBS ≥ −500 mn $: ✗; 3 F_USDTRY ima ≤ politika+5: ✓; 4 USDTRY 10g ≤ %30: ✓; 5 brüt rezerv ≥ 160: ✗; 6 Kural 0 (kural0_teyit): ✗
 
-## 3. 1–3 günlük PRATİK sinyaller (PLAN_BIST'te K9 kanalı: fikir kartı, risk ≤ %0,25 KAPALI / %0,5 diğer, en çok 2)
+## 3. Eski lead-lag sinyalleri ve FİLTRE'ler (K9 DEĞİL)
 
-Karar anı kapanış penceresi (17:50–18:10). Bu rapor 21:05'te çıktığı için **bugün tetiklenen sinyalin kendi giriş anı geçmiştir**; rapor yarının tetik fiyatlarını verir, aynı gün yakalamak için TradingView alarmı gerekir.
+**Bütçe (PLAN_BIST K9 'Eski lead-lag sinyalleri', §3.11):** XU030 bazı, TUPRS ve Koza canlıya geçerse hepsinin **toplam açık riski ≤ %0,5** ve bu bütçe **K4 sondalarından düşülür**; boylar işlem başı ~%0,25 (aynı anda iki sinyal sığsın). Bugün canlı açık eski lead-lag riski %0,00, kalan %0,50. **K9 bu sinyallerin kanalı değildir:** K9 yalnız plan dışı yeni fikirler içindir (fikir kartı 18:45'e kadar, emir ertesi gün kapanış seansında, stop zorunlu, yalnız VİOP-47 hissesi ya da 1x vadeli; risk %0,25). Altın → TRALT ve kredi notu düşük güvenli: **yalnız kâğıt** (altının aynı gün kuralı K9'un ertesi gün emriyle uyuşmaz). SAHOL/AKBNK 1–3G emekli (K1, 20 gün). Kural 0 yazılı teyidi: **H** → bütün VİOP satırları kâğıt.
+
+Karar anı kapanış penceresi (17:50–18:15). Bu rapor 21:05'te çıktığı için **bugün tetiklenen sinyalin kendi giriş anı geçmiştir**; rapor yarının tetik fiyatlarını verir, aynı gün yakalamak için TradingView alarmı gerekir.
 
 | Sinyal | Bugün | Yarın tetik | Tetiklenirse işlem (1 mn TL) | Durum |
 |---|---|---|---|---|
-| SAHOL/AKBNK artık z (β250 gecikmeli, z60) | z −0,63, β 0,66 | z=+1,5: SAHOL ≥ 91,83 ya da AKBNK ≤ 63,59; z=−1,5: SAHOL ≤ 85,44 ya da AKBNK ≥ 70,92 | z>+1,5: F_SAHOL SAT + F_AKBNK AL; z<−1,5 tersi; 3:3 kontrat (K9 riski %0,25, kötü durum %9; rehber %1 riskte 4 katı); aynı gün uzlaşma; çıkış \|z\| ≤ 1,5 | model: yok, bugün BEKLE; mod: kagit (K1 öncelikli) |
-| Koza z3 (TRMET − β·ort(TRALT,TRENJ), 3 gün) | z3 0,71, σ60 195 bps, β_TA 0,69 | TRMET ≥ 116,92 (AL) / ≤ 105,16 (SAT), TRALT ve TRENJ yatayken | z3>+1,5: TRMET1! AL + TRALT1! SAT (1:2,0); 6:12 kontrat (G 122 bin TL); uzlaşmada gir, 2 gün, sinyal sürerse +2 (≤6) | model: pozisyon yok |
-| Altın → TRALT (vekil: VİOP F_XAUUSD1226 uzlaşma değişimi) | g −%1,5, z −0,88 (σ %1,70 sabit) | yarın 17:55 TVC:GOLD, bugünkü 17:55 fiyatına göre ±%1,70 (VİOP uzlaşmasıyla ≈ 4148,7 / 4010,0) | z>+1: TRALT1! AL + XU030D1! SAT; 1 XU030D : 29 TRALT1! (β 1,30); 1 mn TL'de 1 birim; 2 gün | canlı karar 17:55 (altin.pine alarmı) |
-| XU030 kapanış bazı sıçraması | b 405 bps, Δb −41 bps (z −0,83; σ≈50 bps sabit) | 18:10–18:15 F/S oranı > 1,04656 (SAT) ya da < 1,03615 (AL); bugünkü spotla F ≥ 14.956 / ≤ 14.807 | ucuz kapandıysa XU030D1! AL, pahalıysa SAT; ertesi gün uzlaşmada kapat; 1 mn TL'de 1 kontrat (K9 riski) | **TradingView alarmıyla izlenir** (canlı 18:10 fiyatı gerekir; bülten değeri yalnız bilgi) |
-| TUPRS ← ABD rafinerileri (VLO, MPC, PSX, PBF − β·SPX) | ABD tekil hisse verisi meşru kaynaktan yok | sinyal ABD kapanışında (00:00 TSİ) kesinleşir | \|z\|>1: F_TUPRS z yönünde t uzlaşması, t+2 uzlaşmasında çık | **TradingView alarmıyla izlenir** (tuprs_alarm.pine) |
+| XU030 kapanış bazı sıçraması (KENAR, mikroyapı) | b 405 bps, Δb −41 bps, z −0,61 (std120 dün 68 bps) | 18:08–18:15 F/S oranı **> 1,0484 SAT / < 1,0343 AL** (\|Δb\| > std120 = 68 bps; bugünkü spotla F ≥ 14.982 / ≤ 14.781; spot değişeceği için oranı kullanın) | ucuz kapandıysa XU030D1! AL, pahalıysa SAT; ertesi gün uzlaşmada kapat; 1 mn TL'de en çok 1 kontrat (≈ 149 bin TL nominal); stop yok (1 gün) | TradingView alarmı (canlı 18:10 fiyatı gerekir; bülten kapanış fiyatı yalnız yaklaşık); **KÂĞIT** (Kural 0 teyitsiz) |
+| TUPRS ← ABD rafinerileri (VLO, MPC, PSX, PBF − β·SPX; KENAR) | ABD tekil hisse verisi meşru kaynaktan yok | sinyal ABD kapanışında (00:00 TSİ) kesinleşir; 08:30–10:00 sinyal_tuprs.py ya da tuprs_alarm.pine | \|z\|>1: F_TUPRS z yönünde aynı gün 18:00–18:09 limitli, t+2'de kontrol; hedge yok; 1 kontrat F_TUPRS1226 (kontrat başı risk ≈ 2.081 TL = 100 × 354,65 × L %5,9 → %0,2; işlem başı ~%0,25) | TradingView alarmı (tuprs_alarm.pine); **KÂĞIT** (Kural 0 teyitsiz) |
+| Koza z3 (TRMET − β·ort(TRALT,TRENJ), 3 gün; KENAR, sönmüş) | z3 0,71, σ60 195 bps, β_TA 0,69 | TRMET ≥ 116,92 (AL) / ≤ 105,16 (SAT), TRALT ve TRENJ yatayken | z3>+1,5: TRMET1! AL + TRALT1! SAT (1:2,0); 6:12 kontrat (G 122 bin TL, işlem başı ~%0,25); uzlaşmada gir, 2 gün, sinyal sürerse +2 (≤6) | model: pozisyon yok; **KÂĞIT** (NET_LISTE_BIST: IZLE); Kural 0 teyitsiz |
+| Altın → TRALT (KENAR, DÜŞÜK; vekil: VİOP F_XAUUSD1226 uzlaşma değişimi) | g −%1,5, z −0,88 (karar σ %1,70 sabit; vekil σ150 %1,48) | yarın 17:55 TVC:GOLD, bugünkü 17:55 fiyatına göre ±%1,70 (VİOP uzlaşmasıyla ≈ 4148,7 / 4010,0) | z>+1: TRALT1! AL + XU030D1! SAT; 1 XU030D : 29 TRALT1! (β 1,30); kâğıt boyu 1 mn TL'de 1 birim; 2 gün | **yalnız KÂĞIT** (düşük güvenli, eski dörde dahil değil; aynı gün kuralı K9'un ertesi gün emriyle uyuşmaz); 17:55 altin.pine alarmı kâğıt kaydı için |
+| RYGYO → RYSAS (FİLTRE, kenar adayı; LEADLAG §1.7) | RYGYO 49,10 (+%0,7), sd250 %3,03 → z 0,23 (sinyal yok) | RYGYO kapanışı ≥ 50,61 (z > +1) / ≤ 47,63 (z < −1) (= kapanış × e^(±sd250), sd250 bugün dahil %3,03) | (a) **K4 RYSAS filtresi:** giriş günü RYGYO z < −1 ise o akşam girme (emir 18:01'de: vekil 17:55 canlı değişim ≤ −sd250; K4 ile birlikte test edilmedi). (b) kâğıt kural: z > +1 → RYSAS 18:10–18:15 KFİ'de al, ertesi kapanışta sat | yalnız FİLTRE + kâğıt; **canlı işlem kanalı yok** (RYSAS VİOP-47 değil, K9 emri ertesi güne atar: 1 gün geç giriş −15,8 bps). RYSAS 27,34 |
+| SAHOL/AKBNK 1–3G artık z — **kâğıt (emekli)** | z −0,63, β 0,66 | (kâğıt) z=+1,5: SAHOL ≥ 91,83 ya da AKBNK ≤ 63,59; z=−1,5: SAHOL ≤ 85,44 ya da AKBNK ≥ 70,92 | işlem yok: kural emekli, yerine K1 (20 gün; PLAN_BIST §3.11) | kâğıt model: yok, bugün BEKLE |
+| Kredi notu kararı → F_XU030 (KENAR, DÜŞÜK; olay) | karar takvimi dosyada yok (ajans/aracı kurumdan teyit) | — | tepki günü uzlaşmasında kararın tersine, 2 gün | **KÂĞIT**; canlı yalnız K9 (fikir kartı tepki gününden önce, stop zorunlu, risk ≤ %0,25, en çok 1 kontrat) ve Kural 0'dan sonra |
 
-Koza pratik kural, son işlemler (spot verisiyle yeniden oynatma): 26.06 +TRMET → 30.06; 24.07 +TRMET → 30.07; 23.09 +TRMET → 25.09
+**XU030 eşiği std120(Δb)** (sabit 50 bps değil): gunluk/xu030_baz.csv'deki son 120 bülten günü (devir günü Δb boş ama pencerede yer tutar; araştırma tanımı rolling(120).std, bir gün gecikmeli). Bugün std120 **68 bps** (117 gözlem; geçmiş 150 bülten günü, başlangıç 01.04.2026). Pencerede şok: 21.05.2026 Δb −458 bps (F_XU0300626 −%10,0, spot −%5,8) → Per 12.11.2026 akşamı pencereden çıkar; 22.05.2026 Δb 352 bps (F_XU0300626 +%8,7, spot +%4,9) → Cum 13.11.2026 akşamı pencereden çıkar. Şoklar hariç std ≈ **42 bps**: yeni şok olmazsa eşik şoklar çıktıkça buna iner, seviyeler daralır. Alarm seviyelerini her akşam bu rapordan kurun (sabit 50 de sabit 68 de yanlış olur).
 
-SAHOL/AKBNK model, son işlemler: 16.09 LONG (z −2,67) → 01.10; 09.10 LONG (z −2,90) → 14.10; 15.10 LONG (z −1,51) → 16.10
+**Altın σ:** karar eşiği sabit %1,70 (rehber σ250, TVC:GOLD 17:55 → 17:55; bu seri izinli kaynakta yok, değiştirmek için altin.pine'ın σ250'si). Vekil (F_XAUUSD uzlaşma değişimi, gunluk/altin_vekil.csv) σ150 = %1,48: yalnız kontrol; 250 güne ulaşınca (≈ Mart 2027) ve fark 0,3 puanı aşarsa altin.pine σ'sıyla karşılaştırın.
+
+Koza kural (kâğıt), son işlemler (spot verisiyle yeniden oynatma): 26.06 +TRMET → 30.06; 24.07 +TRMET → 30.07; 23.09 +TRMET → 25.09
+
+SAHOL/AKBNK 1–3G (kâğıt, emekli) model, son işlemler: 16.09 LONG (z −2,67) → 01.10; 09.10 LONG (z −2,90) → 14.10; 15.10 LONG (z −1,51) → 16.10
 
 ## 4. Takvim bayrakları (önümüzdeki 14 gün; statik tablo, PLAN_BIST §3.10/§7, PLAN_ABD §7)
 
@@ -143,9 +149,9 @@ SAHOL/AKBNK model, son işlemler: 16.09 LONG (z −2,67) → 01.10; 09.10 LONG (
 |---|---|---|---|
 | 09.11 | BIST | 3Ç konsolide bilançoların son günü (A1) | Bilançosunu 9.11 18:00'den önce açıklamamış isimlerde 9.11 gecesi pozisyon taşınmaz, yeni giriş yok; ilk karar 10.11 kapanışı. |
 | 10.11 | ABD | 16:30 TSİ Ekim CPI | ABD'de 16:45'ten önce emir yok (veri günü kuralı). MDT yasağı başlar. |
-| 11.11 | BIST | MSCI duyurusu öncesi kapanış (A2, A3) | Hiçbir kolda yeni giriş yok (K1 ve 1–3 günlük sinyaller dahil). |
+| 11.11 | BIST | MSCI duyurusu öncesi kapanış (A2, A3) | Hiçbir kolda yeni giriş yok (K1 ve eski lead-lag sinyalleri dahil). |
 | 11.11 | ABD | Gaziler Günü: tahvil kapalı, hisse açık | En erken FTD kapanışı (06.11 1. gün olduysa); hacim şartına dikkat. |
-| 12.11–13.11 | BIST | MSCI sonuçları (12.11 01:00), 14:30 rezerv, SPK kredili esneklik kararı (A2) | Yeni K3/K4/K5/K9 girişi yok (1–3 günlük sinyaller K9 kanalıdır); K1 normal. 12.11 14:30 rezervi makro.json'a yaz: haftalık değişim ≤ −5 mlr $ ise KRİZ (d). |
+| 12.11–13.11 | BIST | MSCI sonuçları (12.11 01:00), 14:30 rezerv, SPK kredili esneklik kararı (A2) | Yeni K3/K4/K5/K9 girişi yok; eski lead-lag sinyallerinde de yeni giriş yok (K9 değiller ama bütçeleri K4 sondalarından düşer; ihtiyat); K1 normal. 12.11 14:30 rezervi makro.json'a yaz: haftalık değişim ≤ −5 mlr $ ise KRİZ (d). |
 | 13.11 | BIST | Kredili esneklik seans sonunda bitiyor (A4) | Uzatılmazsa: K4 girişi 23.11'e, VİOP-47 dışı long 30.11'e kadar yok; zarardaki VİOP-47 dışı spot satılır. makro.json 'kredili_esneklik_uzatildi' alanını doldur. |
 | 13.11 | ABD | 16:30 PPI | Veri günü kuralı. En erken SARI kapanışı. |
 | 17.11 | ABD | NVDA sonuçları (kapanış sonrası) | Bütün kümelerde yeni giriş yok. |
@@ -193,9 +199,10 @@ Son günler: 11-05 KIRMIZI; 11-06 KIRMIZI
 | FRED NASDAQ100 | 2026-11-06 | OK | FRED ~1 iş günü gecikmeli |
 | CBOE VIX | 2026-11-06 | OK | ABD kapanışı 00:00 TSİ (kış); VIX 00:15 |
 | CBOE VIX3M | 2026-11-06 | OK | ABD kapanışı 00:00 TSİ (kış); VIX 00:15 |
-| İş Yatırım ChartData (fiyat) | 2026-11-06 | ÖNBELLEK | 163/163 seri; bulunamayan: —; 2 istek; BAĞLANTI KOPTU (devre kesici) → önbellek |
+| İş Yatırım ChartData (fiyat) | 2026-11-06 | OK | 163/163 seri; bulunamayan: —; 175 istek; eksik geçmiş tekrarı 12 (hâlâ kısa/delikli: ALTNY, BINHO, ENERY, ENTRA, GLRMK, LMKDC, OBAMS, ONRYT, PAHOL, RGYAS …; yeni halka arzlar normal) |
 | Borsa İstanbul VİOP bülteni | 2026-11-06 | OK | önceki bülten 2026-11-05; bülten ~20:28–20:49 TSİ'de çıkar |
+| XU030 baz geçmişi (gunluk/xu030_baz.csv) | 2026-11-06 | OK | 150 bülten günü (2026-04-01…); std120(Δb) bundan |
 | makro.json (elle) | 2026-11-05 | OK | 3 gün önce |
 | durum.json ABD sayaçları | 2026-11-06 | OK | PLAN_ABD §2.3–2.4 |
 
-Çalışma süresi 29 sn. Komut: `python3 kod/gunluk_oneri.py --cikti gunluk --veri <önbellek>`. Ayrıntı: ../OTOMASYON.md.
+Çalışma süresi 119 sn. Komut: `python3 kod/gunluk_oneri.py --cikti gunluk --veri <önbellek>`. Ayrıntı: ../OTOMASYON.md.
