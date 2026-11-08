@@ -1,0 +1,107 @@
+{
+ "family": "sektor_tematik",
+ "stratejiler": [
+  {
+   "id": "sektor_tematik_S1",
+   "karar": "dogrulandi",
+   "yeniden_uretim": "Bağımsız simülatörle (lib.trades/evaluate kullanılmadan) birebir: n=492, brüt 54.8, net 41.8 bp @2.500$, t 3.69, IS 43.3 (t 3.13) / OOS 40.1 (t 2.20), 11 yılın 10'u +, maxDD -%21.4, en kötü -1069 bp. 492 işlemin 492'si ajanın listesiyle aynı (brüt farkı 1e-16). IBS ham ve düzeltilmiş fiyattan aynı. Tut kuralı (ardışık sinyalde satma): 406 pozisyon, 52.7 bp, t 4.25.",
+   "sorunlar": "(1) Kapanışa bağımlı: IBS t kapanışını kullanır; ajanın önerdiği kapanış öncesi giriş (TR 23:45-23:58) pahalı. Gün içi veri (Yahoo 60 dk, 2023-12..2026-11): sinyal günlerinde 15:30->kapanış -33 bp; 15:30 IBS+15:30 giriş backtest'e göre brüt -18.6 bp (net 44.2 vs 62.8, t 1.61 vs 2.23); 5 dk örnekte (n=10) 15:45-15:55 fiyatı resmi kapanışın 16-22 bp üstünde. Ajan bunu 'hafif iyimser' diye niteledi: aslında kenarın ~%40-45'i. (2) FDR iddiası abartılı: iki yönlü BH'yi maliyetin anlamlı kıldığı negatif satırlar gevşetiyor (aile 995 geçen, %96 negatif); tek yönlü (pozitif) BH'de genel_tum 92k ve aile 22k satırında HİÇBİR test geçmiyor (S1 p1=2.1e-4, ilk sıra eşiği 4.5e-6); Bonferroni geçmez; yalnız ajanın seçim sonrası 1302'lik kümesinde geçer. (3) Kenar oynaklıkla ölçekleniyor: 20g oynaklık Q1 6 bp (t 0.39) ... Q5 85 bp; 2020+2026 hariç 24.8 bp (t 2.07); 2017-2019 25.3 (t 1.71). (4) 1.000$'da gerçekçi girişle eşik altında (AH: 17.8 bp t 1.57, OOS t 0.88, yılların %55'i +; kapanış öncesi: 4.8 bp). (5) O1 h1 net 15.5 (t 1.83), OOS t 0.96; O1 1.000$ -2.5 bp. (6) Bağımsız değil: sinyallerin %70'i QQQ IBS<0.2 ile aynı gün; abd_endeks QQQ IBS stratejisiyle aynı bahis.",
+   "saglamlik": "Permütasyon (10.000, aynı sayıda rastgele gün, h=1): p=0.0001 düz; yıl tabakalı 0.0001; oynaklık beşliği tabakalı 0.0001; 1g getiri ondalığı tabakalı 0.0006 (kenarın ~16 bp'si düz 1g dönüş). NW regresyonu z1+düşüş günü kontrollü IBS<0.2 katsayısı +39 bp (t 2.89). En iyi 5 hariç 31.5 bp (t 3.05), en iyi 10 hariç 25.3 (t 2.51). En iyi 5 işlem gerçek olaylar (2025-04-09, 2022-11-10, 2020-03-13, 2020-03-17, 2024-07-31), SOXX'te bağımsız olarak doğrulanıyor; bozuk kapanış izi yok (SMH-SOXX kalıntısı t +3.4 / t+1 -3.8 bp). Eşik plato: C0 0.10-0.30 net 29-55 bp, t 3.2-4.1 (O1'de plato zayıf). 2020 hariç 32.3 (t 2.78), 2022 hariç 47.8 (t 4.05), 2020+2022 hariç 37.7 (t 3.12). Ailede aynı kural: yalnız SMH/SOXX Bonferroni(39) geçer; XLK 19 (OOS 5), QQQ 17.6, XBI 15.9; diğerleri <=7 bp. C1 h1 kenar ~0; O1 brüt kenar +27 bp (>0).",
+   "duzeltilmis_sayilar": "Uygulama cezalı (2.500$): AH girişi (+6 bp, ölçülen 17:00 ET primi) net 35.8 bp, t 3.16, IS 37.3 (t 2.69) / OOS 34.1 (t 1.87), yılların %82'si +, PF 1.49; AH + makas varsayımı (+11 bp) 30.8 bp, t 2.72, OOS t 1.60; kapanış öncesi giriş (+19 bp) 22.8 bp, t 2.01, OOS 21.1 (t 1.16), yılların %73'ü +. 1.000$: AH 17.8 bp (t 1.57) / kapanış öncesi 4.8 bp (t 0.42) -> eşik altında. 10.000$: AH 44.8 bp. Tut kuralı + AH: 46.7 bp/pozisyon (t 3.77). FDR: iki yönlü BH geçer, tek yönlü BH (92k ve 22k tarama) geçmez.",
+   "duzeltilmis_kural": "NASDAQ:SMH günlük IBS=(close-low)/(high-low) RESMİ KAPANIŞTAN SONRA hesaplanır; IBS<0.20 ise after-hours'ta (kış TR 00:00-01:00, yaz 23:00-00:00) resmi kapanış fiyatı + 2-5 sent limit emirle al (Midas'ta uzatılmış saatte yalnız limit). Ertesi gün kapanışa yakın sat (ya da yine after-hours limitle); ertesi gün de IBS<0.20 ise satma, bir gün daha tut. Pozisyon en az 2.500$ (1.000$'da kenar komisyon+giriş cezasıyla ~0). İsteğe bağlı (yalnız IS'te seçildi): 20g yıllık oynaklık < ~%24 iken sinyali atla (2.500$ AH: 46.3 bp, t 3.17, OOS 40.2 t 2.00). abd_endeks QQQ IBS pozisyonu açıksa ek risk sayılır (aynı bahis)."
+  },
+  {
+   "id": "sektor_tematik_S2",
+   "karar": "zayif",
+   "yeniden_uretim": "Birebir: n=492, brüt 160.0, net 145.8 bp, t 4.23, IS 144.0 / OOS 147.7, maxDD -%53.5, en kötü -3056 bp. En iyi 5 hariç 114.3 (t 3.64); O1 h1 72.3 (t 2.74); C1 h1 kenar ~0. Gün içi test: 15:30 IBS + 15:30 giriş net 190 bp (t 2.22) vs backtest 229 (t 2.59).",
+   "sorunlar": "S1 ile aynı sinyal (bağımsız kanıt değil); SOXL'ün Midas'ta bulunurluğu doğrulanmadı; risk eşdeğeri boyutta (833$) işlem başına 10.15$ vs SMH 2.500$ ile 10.44$: ek getiri yok, yalnız sermaye verimi; tam tutarla maxDD -%53.5, en kötü işlem -%30.6; işlem günlerinde SOXL-3xSOXX -15.7 bp; SOXL 2026-06-04 262.7 -> 2026-11-06 46 (-%82), 1g oynaklık ~%9: S1 sinyalleri bu rejimde sık tetiklenir ve tek işlem -%30 olabilir. S1'in kapanış/FDR sorunları aynen geçerli.",
+   "saglamlik": "İstatistik olarak S1'in 3 katı; S1'in sağlamlık testleri geçerli. 1.000$: 127.8 bp (t 3.71) backtest.",
+   "duzeltilmis_sayilar": "AH girişi cezası SOXL'de ~3x (yaklaşık -18 bp) varsayılırsa 2.500$ net ~128 bp; risk eşdeğeri (SMH tutarının 1/3'ü) dolar kârı SMH ile aynı.",
+   "duzeltilmis_kural": "Ayrı strateji olarak sunulmamalı; S1'in isteğe bağlı aracı, yalnız Midas'ta SOXL doğrulanırsa ve SMH tutarının en fazla 1/3'üyle; aynı after-hours giriş kuralı."
+  }
+ ],
+ "onculer": [
+  {
+   "sym": "KWEB",
+   "oncu": "EEM (negatif, h1)",
+   "karar": "dogrulandi",
+   "not": "Yeniden hesap: t -3.64 (IS -2.52 / OOS -2.70), -34 bp/sd; büyük günler hariç t -4.37; SPY(t) kontrolüyle -2.73. Kural EEM z>+1 -> KWEB C0 h1 brüt -30.5 bp, net -46.5 (t -3.73), IS -33.8 / OOS -59.4, 10 yılın 7'si negatif: maliyetten büyük. Mekanizma: EEM'in kendi ertesi gün dönüşü (EEM AR1 -0.13, t -2.47) beta ile KWEB'e taşınıyor (EEM(t+1) eşzamanlı kontrolüyle t +0.74). Long-only'de yalnız 'alma/çık' filtresi; ailede kısa araç yok. Bayat fiyat riski yok (KWEB 594 mn$/gün)."
+  },
+  {
+   "sym": "KWEB",
+   "oncu": "FXI (negatif)",
+   "karar": "zayif",
+   "not": "t -2.54, OOS -1.67; EEM ile aynı olgu."
+  },
+  {
+   "sym": "IGV",
+   "oncu": "QQQ (negatif, h1)",
+   "karar": "zayif",
+   "not": "Regresyon yeniden üretildi (t -3.43, IS -2.05 / OOS -2.53, -32 bp/sd) ama SPY(t) kontrolüyle t 0.17, QQQ(t+1) eşzamanlı kontrolüyle t -1.03 (-5 bp/sd): IGV'ye özgü öncü değil, QQQ/SPY'ın kendi ertesi gün dönüşü (QQQ AR1 -0.118, t -2.46) beta üzerinden. Kural QQQ z>+1 -> IGV brüt -5.8 bp (maliyet 13 bp), yılların yarısı negatif: ekonomik büyüklük maliyetin altında."
+  },
+  {
+   "sym": "IGV",
+   "oncu": "SPY (negatif, h1)",
+   "karar": "zayif",
+   "not": "t -3.52; QQQ ile aynı olgu (piyasa dönüşü); ayrı kanıt değil."
+  },
+  {
+   "sym": "SMH",
+   "oncu": "QQQ (negatif)",
+   "karar": "zayif",
+   "not": "t -2.38, IS -2.10 / OOS -1.12; ajanla aynı sonuç (doğrulanmadı)."
+  },
+  {
+   "sym": "SMH",
+   "oncu": "NVDA/TSM/AVGO/EWT/EWY ('öncü değil' iddiası)",
+   "karar": "dogrulandi",
+   "not": "Kendi gecikmesi kontrollü t: 0.22 / 0.54 / -0.27 / 0.78 / 0.41; h3'te de anlamsız. İddia doğru: bunlar eşzamanlı sürücü/izleme aracı."
+  },
+  {
+   "sym": "XBI",
+   "oncu": "SPY (negatif)",
+   "karar": "zayif",
+   "not": "t -3.02 ama OOS -1.16; ajanla aynı."
+  },
+  {
+   "sym": "COPX",
+   "oncu": "XME (pozitif)",
+   "karar": "zayif",
+   "not": "t 2.82, OOS 1.58, büyük günler hariç 1.64; kural maliyeti karşılamıyor (ajan: 4.6 bp net)."
+  },
+  {
+   "sym": "XLK",
+   "oncu": "AAPL (negatif, h3)",
+   "karar": "zayif",
+   "not": "t -3.44, IS -2.08 / OOS -2.42, SPY kontrolüyle -3.25 (istatistikte tutarlı) ama h1'de yok, mekanizma yok, kurala çevrilmedi; ajanın 'kullanma' kararı makul."
+  }
+ ],
+ "izleme_itirazlari": [
+  {
+   "sym": "SOXL",
+   "itiraz": "'kabul' yerine 'yedek/koşullu': Midas'ta bulunurluğu doğrulanmadı; risk eşdeğeri boyutta SMH'ye göre ek getiri yok; tam tutarla maxDD -%53.5; SOXL Haziran 2026'dan beri -%82 ve 1g oynaklık ~%9 (şu anki rejim)."
+  },
+  {
+   "sym": "SMH",
+   "itiraz": "Kabul doğru ama kural değişmeli: kapanış öncesi değil, resmi kapanış sonrası after-hours limit girişi; en az 2.500$ pozisyon (1.000$'da kenar ~0); abd_endeks QQQ IBS ile aynı bahis."
+  },
+  {
+   "sym": "IGV",
+   "itiraz": "'Doğrulanmış negatif gecikme' gerekçesi zayıf: SPY(t) kontrolüyle t 0.17; kural brüt -5.8 bp < maliyet. Strateji ya da özgün öncü yok: 'red' ya da yalnız likit yedek."
+  },
+  {
+   "sym": "XLK",
+   "itiraz": "IBS kuralı OOS 5.2 bp; AH cezasıyla OOS ~-1 bp; SMH ile 0.94 korelasyon: ayrı fırsat yok, 'red' önerilir."
+  },
+  {
+   "sym": "KRE",
+   "itiraz": "FOMC günü riski büyük ölçüde piyasa geneli: 6 faize duyarlı ETF sepeti karar günü gün içi -30.1 bp ama SPY aynı günler -17.1 bp, fark -13.0 bp (t -1.43, anlamsız). 'Faize duyarlı sektöre özgü' vurgusu abartılı."
+  },
+  {
+   "sym": "KWEB",
+   "itiraz": "Öncü (EEM) doğrulandı ama yalnız 'alma' filtresi; long kural olmadığından pratik değeri sınırlı; yedek kalabilir."
+  }
+ ],
+ "kacirilan": "(1) Uygulama: S1 sinyal günlerinde SMH kapanışa kadar düşmeye devam ediyor (15:30->kapanış -33 bp; 15:45-15:55 fiyatı kapanışın 16-22 bp üstünde), after-hours 17:00 ET fiyatı ise kapanışın yalnız +6 bp üstünde (121 sinyal, 2023-12..2026-11). Midas after-hours limit emri (kış TR 00:00-04:00) ile resmi kapanış IBS'i görüldükten sonra girmek kenarın ~%85'ini korur (2.500$ net ~35 bp, t 3.2) ve sınıflama hatasını sıfırlar; ajanın önerdiği kapanış öncesi giriş ~23 bp'ye düşürür. (2) Oynaklık rejimi: kenar 20g oynaklıkla monoton (Q1 6 bp ... Q5 85 bp); IS'te seçilen eşik (oynaklık > IS medyanı %24) AH cezasıyla 2.500$'da 46.3 bp (t 3.17, OOS 40.2 t 2.00), 1.000$'da 28.3 bp (t 1.93, OOS t 1.10); komşu eşikler benzer. (3) Risk: şu an aşırı oynaklık (yıllık %62; SMH 2026-11-05 -%11.2): S1 sık tetiklenir, tek işlem SMH'de -%10 / SOXL'de -%30 olabilir.",
+ "genel": "Ajanın kodu temiz; S1/S2 sayıları bağımsız simülatörle birebir yeniden üretildi, ileriye bakma hatası yok, en büyük kazançlar gerçek olaylar. S1'in sinyali permütasyon (p<0.0001, tabakalı sürümler dahil), en iyi 5/10 çıkarma, eşik platosu ve IS/OOS testlerinden geçiyor: 'dogrulandi', ancak üç düzeltmeyle: (a) C0 varsayımı 'hafif' değil, kapanış öncesi girişte ~15-20 bp; after-hours limit girişiyle ~6 bp -> gerçekçi net 2.500$'da ~31-36 bp (t 2.7-3.2), 1.000$'da eşik altında; (b) FDR yalnız iki yönlü BH ile geçiyor, tek yönlü BH'de keşif taramasında (22k/92k) hiçbir test geçmiyor -> kanıt literatür önseli ve teknoloji kümesi tutarlılığına dayanıyor; (c) kenar oynaklık rejimine bağlı (düşük oynaklıkta ~0). S1, abd_endeks QQQ IBS ile aynı bahis. S2 'zayif' (bağımsız değil, Midas'ta doğrulanmadı, risk eşdeğerinde ek getiri yok). Lead-lag: EEM->KWEB negatif doğrulandı (yalnız filtre); QQQ/SPY->IGV piyasa dönüşü, maliyet altında (zayif); yarı iletkenlerde hisse/Asya öncüsü yok iddiası doğru. Reddedilen kuralların (kalıntı dönüşü vb.) reddi doğru. 105 TradingView kodunun tamamı doğrulanmış. Denetim kodu: kod/denetim_sektor_tematik/ (d1-d10), çıktılar: sonuclar/aile_sektor_tematik/denetim/, not: notlar/denetim_sektor_tematik.md."
+}

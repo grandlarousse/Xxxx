@@ -1,0 +1,110 @@
+Sweep: aile hedef x öncü satırı: 576  FDR bayraklı satır: 0
+     target    leader     n  lag_t_h1  lag_t_h3  catch_t_h1  catch_t_h3  lag_bp_per_sd_h1  catch_bp_per_sd_h1
+9623   NVDS       IEF  1084     -0.21      0.23        1.79        2.64             -2.69               30.26
+9624   NVDS       SHY  1084     -0.03     -0.16        1.85        2.60             -0.46               31.13
+9661   NVDS   DGS10_d  1068      0.03     -0.28        1.65        2.57              0.35               28.59
+9664   NVDS  DFII10_d  1068      0.11     -0.38        1.75        2.53              1.32               30.01
+9653   NVDS       TIP  1084     -0.36      0.33        1.85        2.52             -4.32               30.83
+9630   NVDS      CPER  1084      0.02      0.68        1.88        2.51              0.30               30.60
+9475   AMZU       QQQ  1046     -1.71     -2.50       -1.55       -0.96            -32.73              -22.94
+9474   AMZU       SPY  1046     -1.96     -2.50       -1.51       -0.85            -38.17              -21.84
+9286   GGLL       TLT  1046     -2.50     -1.26       -0.78        0.54            -26.24              -10.20
+9662   NVDS    DGS2_d  1068      0.50      0.46        1.52        2.42              6.61               25.14
+9634   NVDS       UNL  1084     -0.77     -0.20        1.76        2.39            -11.21               29.73
+9505   AMZU      IBIT   708      2.38      0.82        0.00        0.90             36.44                0.03
+     etf     surucu               tv  corr_1y  beta_1y   kaynak
+0   NVDL       NVDA      NASDAQ:NVDA    0.999    1.990  dayanak
+1   NVDL        XLK         AMEX:XLK    0.747    2.012    sweep
+2   NVDL        SMH       NASDAQ:SMH    0.729    1.308    sweep
+3   NVDL        QQQ       NASDAQ:QQQ    0.715    2.566    sweep
+4   NVDL        SPY         AMEX:SPY    0.673    3.788    sweep
+5   NVDL        EEM         AMEX:EEM    0.601    1.747    sweep
+6   TSLL       TSLA      NASDAQ:TSLA    0.999    2.024  dayanak
+7   TSLL        QQQ       NASDAQ:QQQ    0.665    2.920    sweep
+8   TSLL        SPY         AMEX:SPY    0.628    4.327    sweep
+9   TSLL        XLK         AMEX:XLK    0.588    1.937    sweep
+10  TSLL        SMH       NASDAQ:SMH    0.550    1.207    sweep
+11  TSLL   VIX_dlog         CBOE:VIX   -0.539   -0.384    sweep
+12  MSTU       MSTR      NASDAQ:MSTR    0.998    1.974  dayanak
+13  MSTU       IBIT      NASDAQ:IBIT    0.861    3.089    sweep
+14  MSTU   BTC_16ET  COINBASE:BTCUSD    0.859    3.101    sweep
+15  MSTU       BITO        AMEX:BITO    0.837    2.923    sweep
+16  MSTU       ETHA      NASDAQ:ETHA    0.792    2.080    sweep
+17  MSTU   ETH_16ET  COINBASE:ETHUSD    0.788    2.086    sweep
+18  CONL       COIN      NASDAQ:COIN    0.999    1.987  dayanak
+19  CONL       IBIT      NASDAQ:IBIT    0.799    2.567    sweep
+20  CONL   BTC_16ET  COINBASE:BTCUSD    0.797    2.575    sweep
+21  CONL       BITO        AMEX:BITO    0.782    2.446    sweep
+22  CONL       ETHA      NASDAQ:ETHA    0.755    1.775    sweep
+23  CONL   ETH_16ET  COINBASE:ETHUSD    0.752    1.782    sweep
+24  NVDU       NVDA      NASDAQ:NVDA    0.999    1.987  dayanak
+25  NVDU        XLK         AMEX:XLK    0.748    2.011    sweep
+26  NVDU        SMH       NASDAQ:SMH    0.730    1.307    sweep
+27  NVDU        QQQ       NASDAQ:QQQ    0.716    2.566    sweep
+28  NVDU        SPY         AMEX:SPY    0.673    3.788    sweep
+29  NVDU        EEM         AMEX:EEM    0.601    1.746    sweep
+30  TSLQ       TSLA      NASDAQ:TSLA   -0.996   -1.955  dayanak
+31  TSLQ        QQQ       NASDAQ:QQQ   -0.665   -2.828    sweep
+32  TSLQ        SPY         AMEX:SPY   -0.626   -4.181    sweep
+33  TSLQ        XLK         AMEX:XLK   -0.590   -1.881    sweep
+34  TSLQ        SMH       NASDAQ:SMH   -0.549   -1.168    sweep
+35  TSLQ   VIX_dlog         CBOE:VIX    0.527    0.363    sweep
+36  NVDS       NVDA      NASDAQ:NVDA   -0.998   -1.497  dayanak
+37  NVDS        XLK         AMEX:XLK   -0.736   -1.493    sweep
+38  NVDS        SMH       NASDAQ:SMH   -0.714   -0.965    sweep
+39  NVDS        QQQ       NASDAQ:QQQ   -0.701   -1.896    sweep
+40  NVDS        SPY         AMEX:SPY   -0.660   -2.799    sweep
+41  NVDS        EEM         AMEX:EEM   -0.591   -1.295    sweep
+42  AAPU       AAPL      NASDAQ:AAPL    0.999    2.000  dayanak
+43  AAPU        DIA         AMEX:DIA    0.356    1.318    sweep
+44  AAPU        XLF         AMEX:XLF    0.330    1.079    sweep
+45  AAPU        SPY         AMEX:SPY    0.321    1.174    sweep
+46  AAPU   VIX_dlog         CBOE:VIX   -0.299   -0.113    sweep
+47  AAPU    VIXTS_d                    -0.278   -0.237    sweep
+48  AMZU       AMZN      NASDAQ:AMZN    0.998    1.967  dayanak
+49  AMZU        SPY         AMEX:SPY    0.558    2.707    sweep
+50  AMZU   VIX_dlog         CBOE:VIX   -0.504   -0.252    sweep
+51  AMZU        QQQ       NASDAQ:QQQ    0.499    1.542    sweep
+52  AMZU    VIXTS_d                    -0.474   -0.535    sweep
+53  AMZU  VVIX_dlog                    -0.454   -0.308    sweep
+54  METU       META      NASDAQ:META    0.999    1.999  dayanak
+55  METU        SPY         AMEX:SPY    0.444    2.684    sweep
+56  METU        QQQ       NASDAQ:QQQ    0.400    1.539    sweep
+57  METU   VIX_dlog         CBOE:VIX   -0.353   -0.220    sweep
+58  METU  VVIX_dlog                    -0.336   -0.285    sweep
+59  METU    VIXTS_d                    -0.326   -0.459    sweep
+60  MSFU       MSFT      NASDAQ:MSFT    0.998    1.972  dayanak
+61  MSFU        SPY         AMEX:SPY    0.418    2.027    sweep
+62  MSFU   VIX_dlog         CBOE:VIX   -0.367   -0.184    sweep
+63  MSFU        XLK         AMEX:XLK    0.365    0.847    sweep
+64  MSFU        QQQ       NASDAQ:QQQ    0.360    1.113    sweep
+65  MSFU  VVIX_dlog                    -0.353   -0.240    sweep
+66  GGLL      GOOGL     NASDAQ:GOOGL    0.999    2.026  dayanak
+67  GGLL        SPY         AMEX:SPY    0.519    2.624    sweep
+68  GGLL        QQQ       NASDAQ:QQQ    0.469    1.511    sweep
+69  GGLL        HYG         AMEX:HYG    0.396    6.365    sweep
+70  GGLL   VIX_dlog         CBOE:VIX   -0.395   -0.207    sweep
+71  GGLL        DIA         AMEX:DIA    0.391    2.001    sweep
+
+Ek regresyon testleri (tam dönem): 152  FDR geçen: 13  geçerli öncü (FDR+IS/OOS aynı işaret+ekonomik): 12
+     hisse oncu      tip  h     n     b     t  t_ham  t_own  t_IS  t_OOS  etki_2x_bp_per_sd  maliyet_rt_bp    fdr  gecerli_oncu
+92    AMZN  SPY      lag  1  2512 -0.22 -3.31  -2.54   2.00 -2.65  -2.05             -50.29          16.00   True          True
+140  GOOGL  SPY      lag  1  2512 -0.24 -3.25  -2.92   1.91 -3.11  -1.58             -54.24          16.00   True          True
+142  GOOGL  SPY  yetisme  1  2453 -0.17 -3.08  -1.37  -2.76 -2.71  -1.67             -43.92          16.00   True          True
+78    AAPL  SPY  yetisme  1  2453 -0.17 -3.01  -1.33  -2.45 -3.30  -0.77             -42.05          16.00   True          True
+88    AMZN  QQQ      lag  1  2512 -0.17 -2.91  -2.01   2.15 -2.24  -1.92             -50.14          16.00   True          True
+76    AAPL  SPY      lag  1  2512 -0.21 -2.88  -2.45   0.94 -3.54  -0.75             -46.89          16.00   True          True
+94    AMZN  SPY  yetisme  1  2453 -0.15 -2.81  -1.75  -2.15 -2.04  -2.04             -44.68          16.00   True          True
+107   META  QQQ  yetisme  3  2451 -0.21 -2.71  -1.06  -3.13  0.21  -3.07             -75.66          16.73   True         False
+90    AMZN  QQQ  yetisme  1  2453 -0.14 -2.70  -1.83  -1.93 -1.52  -2.17             -37.84          16.00   True          True
+14    NVDA  XLK  yetisme  1  2453 -0.17 -2.69  -0.91  -3.36 -3.64  -0.14             -64.03          16.22   True          True
+150  GOOGL  XLK  yetisme  1  2453 -0.16 -2.68  -1.18  -2.51 -2.54  -1.10             -42.02          16.00   True          True
+4     NVDA  SPY      lag  1  2512 -0.34 -2.65  -3.45   0.03 -3.25  -0.39             -77.62          16.22   True          True
+126   MSFT  SPY  yetisme  1  2453 -0.17 -2.64   0.44  -2.82 -2.22  -1.01             -38.06          16.00   True          True
+86    AAPL  XLK  yetisme  1  2453 -0.17 -2.60  -1.36  -2.21 -2.87  -0.38             -36.54          16.00  False         False
+74    AAPL  QQQ  yetisme  1  2453 -0.15 -2.55  -1.04  -2.18 -2.81  -0.45             -33.72          16.00  False         False
+12    NVDA  XLK      lag  1  2512 -0.28 -2.55  -3.37   0.61 -3.69   0.26             -88.05          16.22  False         False
+6     NVDA  SPY  yetisme  1  2453 -0.15 -2.52  -0.09  -3.21 -3.12  -0.54             -65.01          16.22  False         False
+124   MSFT  SPY      lag  1  2512 -0.21 -2.48  -2.79  -0.62 -2.69  -0.81             -46.87          16.00  False         False
+111   META  SPY  yetisme  3  2451 -0.22 -2.46  -0.82  -2.92  0.48  -3.10             -88.03          16.73  False         False
+136  GOOGL  QQQ      lag  1  2512 -0.14 -2.46  -2.33   1.10 -2.49  -0.93             -40.17          16.00  False         False

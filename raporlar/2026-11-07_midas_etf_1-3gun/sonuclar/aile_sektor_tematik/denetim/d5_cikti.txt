@@ -1,0 +1,29 @@
+Toplam benzersiz kod: 105  doğrulanmış: 105
+DOĞRULANMAMIŞ / LİSTEDE OLMAYAN KODLAR:
+Empty DataFrame
+Columns: [tur, etf, tv, durum]
+Index: []
+
+fomc.csv sütunları: ['date', 'event', 'detail', 'source'] [{'date': '2016-01-27', 'event': 'FOMC_karar', 'detail': 'Planlı toplantı 2016-01-26..2016-01-27 (January 26-27); karar açıklaması 2. gün 14:00 ET (TR 22:00); SEP/projeksiyon: hayır; basın toplantısı 14:30 ET: yok', 'source': 'https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm'}, {'date': '2016-03-16', 'event': 'FOMC_karar', 'detail': 'Planlı toplantı 2016-03-15..2016-03-16 (March 15-16); karar açıklaması 2. gün 14:00 ET (TR 21:00); SEP/projeksiyon: EVET; basın toplantısı 14:30 ET: var', 'source': 'https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm'}, {'date': '2016-04-27', 'event': 'FOMC_karar', 'detail': 'Planlı toplantı 2016-04-26..2016-04-27 (April 26-27); karar açıklaması 2. gün 14:00 ET (TR 21:00); SEP/projeksiyon: hayır; basın toplantısı 14:30 ET: yok', 'source': 'https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm'}]
+
+FOMC karar günü gün içi (O1 açılış->kapanış) brüt:
+   etf  n_fomc  gun_ici_fomc_bp  gun_ici_diger_bp  t_fark  is_bp  oos_bp
+0  KRE      87           -22.52              0.12   -0.88 -27.46  -16.73
+1  XLF      87           -23.26              2.64   -1.81 -27.03  -18.82
+2  ITB      87           -28.68              3.49   -1.41 -18.25  -40.93
+3  VNQ      87           -38.00              0.57   -2.75 -33.64  -43.13
+4  XLU      87           -40.68              2.35   -3.19 -54.02  -25.00
+5  KIE      87           -27.42              3.16   -2.47 -30.37  -23.96
+6  SPY      87           -17.13              2.57   -1.82 -18.49  -15.54
+Sepet: FOMC n=87 ort -30.1 bp (t -2.15); diğer günler 2.1; SPY aynı günler -17.1 bp; sepet-SPY -13.0 bp (t -1.43)
+Sepet FOMC permütasyon p (tek yönlü, <=): 0.0013
+
+S1 sonuç / 20g yıllık oynaklık beşliği:
+             n  net_bp     t  en_kotu
+vq                                   
+Q1 düşük    65    6.03  0.39  -287.26
+Q2          96   22.51  1.42  -463.88
+Q3         103   37.72  1.83  -996.44
+Q4         116   43.68  2.02  -609.33
+Q5 yüksek  110   85.32  2.31 -1068.75
+Beşlik sınırları (yıllık): [0.198, 0.255, 0.321, 0.394]  bugünkü (2026-11-06): 0.621

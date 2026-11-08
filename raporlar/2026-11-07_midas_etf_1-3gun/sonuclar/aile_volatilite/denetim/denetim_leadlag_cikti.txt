@@ -1,0 +1,44 @@
+   hedef      oncu  h hiz     n  bp_sd_tum  t_tum  t_own_yalniz  t_own_ile  bp_sd_is  t_is  bp_sd_oos  t_oos  ust20_minus_ort_bp  alt20_minus_ort_bp
+0    VXX  VVIX/VIX  1  C0  2211      22.84   1.95         -2.17      -2.02     20.01  0.89      26.13   2.69               35.86              -17.76
+1    VXX     QQQ_r  1  C0  2211      38.88   1.59         -2.17      -0.14    118.29  2.80     -21.01  -1.29                9.63              -49.92
+2    VXX  VVIX/VIX  1  O1  2211      21.66   3.17         -2.61      -2.44     22.45  2.05      22.03   2.72               32.40              -37.09
+3    VXX     QQQ_r  1  O1  2211       3.76   0.29         -2.61      -1.77     54.20  2.84     -35.77  -2.33               -5.84              -50.81
+4    VXX  VVIX/VIX  3  C0  2209      67.92   2.17         -0.80      -0.59     73.08  1.24      66.27   2.76              120.31              -24.96
+5    VXX     QQQ_r  3  C0  2209      77.78   2.98         -0.80       0.99    111.70  2.30      49.20   1.90               30.25              -90.79
+6    VXX  VVIX/VIX  3  O1  2209      66.73   2.60         -0.80      -0.58     75.53  1.64      62.24   2.82              116.69              -44.79
+7    VXX     QQQ_r  3  O1  2209      42.68   1.71         -0.80       0.34     47.61  1.04      34.25   1.41               14.95              -92.11
+8   SVXY  VVIX/VIX  1  C0  2044      -6.96  -1.01         -1.68      -1.57      0.65  0.04     -12.44  -2.23              -10.97                0.24
+9   SVXY     QQQ_r  1  C0  2044     -29.96  -2.01         -1.68       0.55    -79.32 -2.88       3.07   0.27              -11.33               26.14
+10  SVXY  VVIX/VIX  1  O1  2044      -9.29  -2.51         -2.48      -2.30     -7.41 -1.16     -11.27  -2.63               -9.42               12.37
+11  SVXY     QQQ_r  1  O1  2044      -7.27  -1.01         -2.48      -1.20    -37.58 -3.38      13.20   1.71                0.92               27.61
+12  SVXY  VVIX/VIX  3  C0  2042     -20.60  -1.15         -0.59      -0.46     -8.59 -0.24     -31.09  -2.21              -40.88                3.52
+13  SVXY     QQQ_r  3  C0  2042     -46.54  -2.89         -0.59       1.18    -73.37 -2.33     -27.66  -1.86              -18.85               40.22
+14  SVXY  VVIX/VIX  3  O1  2042     -22.91  -1.59         -0.57      -0.42    -16.64 -0.61     -29.93  -2.37              -39.36               15.60
+15  SVXY     QQQ_r  3  O1  2042     -23.77  -1.64         -0.57       0.46    -31.63 -1.13     -17.18  -1.30               -6.65               41.82
+16  SVIX  VVIX/VIX  1  C0  1155     -20.81  -1.82         -0.69      -0.64       NaN   NaN     -20.81  -1.82              -26.91               12.77
+17  SVIX     QQQ_r  1  C0  1155      -4.00  -0.18         -0.69      -0.47       NaN   NaN      -4.00  -0.18                5.95               31.85
+18  SVIX  VVIX/VIX  1  O1  1155     -20.04  -2.28         -2.38      -2.32       NaN   NaN     -20.04  -2.28              -12.24               33.26
+19  SVIX     QQQ_r  1  O1  1155      17.48   1.29         -2.38      -2.88       NaN   NaN      17.48   1.29                2.75               43.05
+20  SVIX  VVIX/VIX  3  C0  1153     -52.45  -1.80         -0.69      -0.59       NaN   NaN     -52.45  -1.80              -73.60               50.98
+21  SVIX     QQQ_r  3  C0  1153     -59.91  -2.01         -0.69       0.48       NaN   NaN     -59.91  -2.01              -31.21               80.50
+22  SVIX  VVIX/VIX  3  O1  1153     -51.70  -1.98         -2.34      -2.17       NaN   NaN     -51.70  -1.98              -59.08               71.32
+23  SVIX     QQQ_r  3  O1  1153     -37.48  -1.49         -2.34      -0.79       NaN   NaN     -37.48  -1.49              -34.55               92.86
+  VXX VVIX/VIX>IS_p80(6.80) C0 h1: n=227 brüt=34.6 net=18.0 t=0.71 IS=23.6 OOS=-23.3
+  VXX VVIX/VIX>IS_p80(6.80) C0 h2: n=123 brüt=63.7 net=47.2 t=0.84 IS=57.3 OOS=-16.1
+  VXX VVIX/VIX>IS_p80(6.80) O1 h1: n=227 brüt=32.4 net=15.9 t=0.79 IS=22.9 OOS=-36.1
+  VXX VVIX/VIX>IS_p80(6.80) O1 h2: n=123 brüt=92.8 net=76.3 t=1.43 IS=93.6 OOS=-32.0
+  VXX VVIX/VIX>IS_p80(6.80) C1 h1: n=123 brüt=63.0 net=46.4 t=1.14 IS=63.5 OOS=-60.5
+  VXX VVIX/VIX>IS_p80(6.80) C1 h2: n=94 brüt=60.9 net=44.3 t=0.64 IS=51.3 OOS=0.9
+
+sweep aile satırı: 336 FDR bayrağı olan: 0
+      target leader  corr_1y  lag_t_h1  lag_t_h3  lag_t_h1_is  lag_t_h1_oos  catch_t_h1  fdr10_lag_t_h1  fdr10_lag_t_h3  fdr10_catch_t_h1  fdr10_catch_t_h3
+13647   VIXM    QQQ    -0.64      2.60      3.71         3.20          0.40       -0.55           False           False             False             False
+13674   VIXM    XLK    -0.57      2.54      3.57         3.25          0.27       -0.49           False           False             False             False
+13359   UVXY    QQQ    -0.74      2.23      3.11         4.27         -1.12       -0.27           False           False             False             False
+13646   VIXM    SPY    -0.74      2.62      3.03         2.93          0.60       -0.69           False           False             False             False
+13386   UVXY    XLK    -0.67      2.22      2.97         4.50         -1.19       -0.28           False           False             False             False
+13551   VIXY    QQQ    -0.74      2.19      2.95         3.80         -0.90       -0.45           False           False             False             False
+13503   SVXY    QQQ     0.74     -2.25     -2.89        -3.44          0.23       -0.74           False           False             False             False
+13407    VXX    QQQ    -0.74      1.79      2.82         3.28         -1.12        0.11           False           False             False             False
+13578   VIXY    XLK    -0.68      2.07      2.81         3.81         -1.04       -0.34           False           False             False             False
+13530   SVXY    XLK     0.67     -2.17     -2.70        -3.45          0.41       -0.74           False           False             False             False

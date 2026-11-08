@@ -1,0 +1,161 @@
+{
+ "family": "uluslararasi",
+ "stratejiler": [
+  {
+   "id": "uluslararasi_S1",
+   "karar": "zayif",
+   "yeniden_uretim": "Bağımsız simülatörle (lib.trades/evaluate kullanılmadan) BİREBİR: 110 sinyal günü, 293 işlem, brüt 70,37 bp, net 55,84 bp (2.500$), NW t 2,22, IS 68,0 / OOS 45,7 bp, yıl+ 0,78, en kötü -1.356 bp (EWA 11.03.2020); ETF bazında EWY 108 (t 2,41), EWT 63 (2,00), FXI 37 (1,17), EWJ 30 (1,21), EWA 51 (0,97), EWH 49 (1,54) aynı. Zamanlama temiz: giriş c[t]/çıkış c[t+1] hatası 0, SPY-ETF takvim farkı yok, ham ve düzeltilmiş fiyatla sinyal farkı 0 gün; en büyük kazançlar (EWA 12.03.2020 +1.399, EWY 23.03.2020 +1.232, EWA 23.03.2020 +1.209, EWY 29.07.2026 +1.166, EWY 10.06.2026 +1.135 bp) veri_kalitesi'nde bayraksız gerçek kriz günleri; 2026 EWY hareketleri KORU ile tutarlı (beta 2,92, korelasyon 0,999).",
+   "sorunlar": "(1) Gün-kümeli seride basit t 1,99; NW(1) 2,22 değeri düzensiz aralıklı ardışık sinyal günleri arasındaki -0,19 otokorelasyondan şişiyor (h=1 C0 işlemleri zamanda çakışmaz, NW gerekçesiz) -> t>=2 eşiği sınırda SAĞLANMIYOR. (2) Basit t ile tek yönlü p=0,024 > 0,1/6=0,0167: ajanın '6 birincil hipotez içinde BH geçer' iddiası NW t'ye bağlı, basit t ile GEÇMEZ; Bonferroni(6) de geçmez. (3) Aşırı yoğunlaşma: en iyi 5 gün (110 günden) hariç net 18,7 bp t 0,79; en iyi 10 işlem hariç t 1,33; 2020+2026 hariç 21 bp t 1,00; 2026 hariç OOS 14,9 bp. (4) 1.000$'da net 37,8 bp t 1,35; stres makası +10 bp t 1,64. (5) Kapanışa bağımlı: kenarın 63/76 bp'si gece boşluğu; O1 h1 net -1,7; kenar kapanışı gün dibinde olan işlemlerde (12 Asya ETF IBS<0,1 net 77 bp, IBS>=0,6 -81 bp) toplanıyor -> C0 varsayımı en iyimser olduğu yerde; kapanıştan önce giriş vekili (c + f*aralık, aralık ort. 232 bp) f=0,03 t 1,75, f=0,05 t 1,59. (6) Komşu eşiklerde OOS işareti dönüyor (-1,75: OOS -14; -2,5: OOS -31); ajan yalnız -1,0/-2,0'ı raporlamış. (7) Kural metni ('çıkış günü sinyal varsa pozisyon korunur') ile backtest (çık-yeniden gir, ek maliyet) uyumsuz. (8) Kaldıraçlı sürümlerde KORU verisi 17.03.2020'de tutarsız (EWY +%7,2, KORU -%13,2).",
+   "saglamlik": "Lehte: koşullu permütasyon (aynı SPY<=-%1,5 günlerinde aynı sayıda ETF'i rastgele seçme, 5.000 tekrar) p=0,0014 (gözlenen 55,8 vs sim. ort. 35,4 bp); rastgele tarih p=0,0002; SPY düşüş günlerinden rastgele gün+ETF p=0,0036; eşleştirilmiş fark (ETF<=SPY eksi ETF>SPY) +39,7 bp t 2,84, IS 38,8/OOS 40,5, 2020 hariç t 2,39; plasebo Amerika/Avrupa zayıf; göreli koşul sertleştikçe (k=1,25) brüt artıyor -> göreli aşırı tepki mekanizması gerçek görünüyor. Aleyhte: uzun-tek yönlü mutlak getiri birkaç kriz gününe bağlı (rastgele ETF seçimiyle bile 35 bp), alt örneklerde ve maliyet/kayma duyarlılığında eşik altına düşüyor. Mod: C0 56 / O1 -2 / C1 25 bp net (h1); h=2 C0 73 bp (basit t 2,39) ama en iyi 5 gün hariç t 1,25. Yıllar: 2018 -6, 2019 +74, 2020 +122, 2021 +76, 2022 +18, 2023 +30, 2024 -46, 2025 +34, 2026 +200 bp.",
+   "duzeltilmis_kural": "Kural aynı kalabilir ama statüsü 'aday strateji' değil 'izleme/keşif sinyali' olmalı. Uygulanırsa: yalnız C0 (ABD kapanışından ~10 dk önce, kış TR 23:50) ve ETF başına >= 2.500$ (tercihen >= 5.000$); çıkış günü yeniden sinyal varsa pozisyonu KORU (yeniden giriş maliyeti ödeme; backtest de buna göre yapılmalı); 'kapanış kaçırılırsa O1 h=2' yedeği önerilmez (FXI O1 h1 net -33 bp, t -2,38); kaldıraçlı (KORU/YINN) uygulama önerilmez.",
+   "duzeltilmis_sayilar": "C0 h1 2.500$: net 55,8 bp, gün-kümeli BASİT t 1,99 (NW 2,22 şişkin), OOS t 1,42; tek yönlü p 0,024 -> 6 birincil hipotezde BH GEÇMEZ; en iyi 5 gün hariç 18,7 bp (t 0,79); 2020+2026 hariç 21,2 bp (t 1,00); 1.000$ 37,8 bp (t 1,35); +10 bp stres 45,8 bp (t 1,64). Kural metnine uygun 'koru' sürümü: 106 gün, net 57,5 bp, basit t 2,54, en kötü -852 bp; en iyi 5 gün hariç t 1,28, 2020+2026 hariç t 1,19."
+  },
+  {
+   "id": "uluslararasi_S2",
+   "karar": "zayif",
+   "yeniden_uretim": "BİREBİR: n=214, brüt 55,12, net 42,12 bp, t 2,93, IS 25,8 (t 1,29) / OOS 52,9 (t 2,33), yıl+ 0,70, en kötü -468 bp; O1 net 4,9, C1 brüt 0,75 bp. IBS kendi hesabımla; ham EWY h/l verisinde eksik/0 yok.",
+   "sorunlar": "20.196 satırlık taramadan seçildi (Bonferroni p<2,5e-6 gerekir); IS t 1,29 (anlamsız); 2026 (21 işlem, ort. +232 bp) hariç net 21 bp t 1,70; 2020+2026 hariç 12 bp t 0,95; en iyi 10 işlem hariç t 1,15; aynı kural kardeş Asya ETF'lerinde negatif (EWT -7,7, EWJ -4,3, EWA -4,8, INDA -6,8 bp); C1 brüt ~0 -> tamamen kapanışa bağımlı; 1.000$ t 1,68; kapanış öncesi giriş vekili f=0,10 t 1,69; S1 ile çakışmayan işlemler net 19 bp (t 1,42). 2026'da EWY günlük oynaklığı 403 bp (2017-2025: 100-256) -> sonuç tek bir rejime bağlı.",
+   "saglamlik": "Lehte: IBS eşiği 0,05-0,20 aralığında plato (t 2,4-3,7); yıl-tabakalı permütasyon p=0,0014 (yalnız seçim sonrası tek test için geçerli); EWY'nin negatif 1 günlük otokorelasyonu (IS -0,16 / OOS -0,12) eşzamansızlık mekanizmasını (S1 ile aynı) destekliyor. Aleyhte: çoklu test, IS anlamsız, aile tekrarı yok, 2026 bağımlılığı.",
+   "duzeltilmis_kural": "Strateji olarak önerilmez; keşifsel izleme. İleride yalnız 2027+ verisinde, kural değişmeden test edilmeli.",
+   "duzeltilmis_sayilar": "Ajanınkiyle aynı; ek: 2026 hariç net 21,4 bp t 1,70; 2020+2026 hariç 12,4 bp t 0,95; en iyi 10 hariç 13,1 bp t 1,15; +10 bp kayma t 2,23; f=0,10 kapanış öncesi vekili t 1,69."
+  }
+ ],
+ "onculer": [
+  {
+   "sym": "AILE",
+   "oncu": "Doğrusal gecikmeli öncü yok (aile geneli iddiası)",
+   "karar": "dogrulandi",
+   "not": "Aile içi 5.370 lag testinde (h1+h3) BH q=0,10 geçen 0; en küçük p 1,1e-4 (Bonferroni eşiği 9,3e-6). 20 çiftte taramanın t'leri bağımsız OLS+NW ile ±0,15 içinde tekrarlandı."
+  },
+  {
+   "sym": "EWY",
+   "oncu": "AMEX:SPY koşullu (S1: SPY<=-%1,5 ve EWY<=SPY)",
+   "karar": "zayif",
+   "not": "Tek başına n=68, net 108 bp, t 2,41 (IS 77/OOS 135) ama yalnız C0: O1 net 11 (t 0,47), C1 31 (t 0,91); 2026 rejimine bağlı. Öncü değil koşullu kural."
+  },
+  {
+   "sym": "EWT",
+   "oncu": "AMEX:SPY koşullu (S1)",
+   "karar": "zayif",
+   "not": "n=55, net 63 bp, t 2,00; C1 OOS -22 bp; O1 IS -3."
+  },
+  {
+   "sym": "FXI",
+   "oncu": "AMEX:SPY koşullu (S1)",
+   "karar": "zayif",
+   "not": "n=50, net 37 bp, t 1,17; O1 h1 net -33 bp (t -2,38): ertesi açılışta girmek zararlı."
+  },
+  {
+   "sym": "EWJ",
+   "oncu": "AMEX:SPY koşullu (S1)",
+   "karar": "curutuldu",
+   "not": "Tek başına n=32, net 30 bp, t 1,21, OOS +5 bp, yıl+ 0,50, C1 -35 bp: tek ETF olarak kanıt yok (yalnız sepet üyeliği)."
+  },
+  {
+   "sym": "EWA",
+   "oncu": "AMEX:SPY koşullu (S1)",
+   "karar": "curutuldu",
+   "not": "n=59, net 51 bp, t 0,97, OOS -8 bp; tek başına kanıt yok."
+  },
+  {
+   "sym": "EWH",
+   "oncu": "AMEX:SPY koşullu (S1)",
+   "karar": "zayif",
+   "not": "n=29 (<40), net 49 bp, t 1,54, OOS +8 bp."
+  },
+  {
+   "sym": "KORU",
+   "oncu": "AMEX:EWY üzerinden S1 sinyali",
+   "karar": "zayif",
+   "not": "h1 net 257 bp t 1,95, en kötü -3.188 bp; KORU verisinde 17.03.2020 tutarsızlığı (EWY +%7,2 / KORU -%13,2); Midas bulunurluğu doğrulanmadı."
+  },
+  {
+   "sym": "YINN",
+   "oncu": "AMEX:FXI üzerinden S1 sinyali",
+   "karar": "zayif",
+   "not": "h1 t 1,25; h2 t 2,27 seçilmiş ufuk; en kötü -2.922 bp."
+  },
+  {
+   "sym": "EEM",
+   "oncu": "AMEX:KWEB (gecikmeli, h1)",
+   "karar": "curutuldu",
+   "not": "Kısmi regresyon t 3,33 (IS 2,92/OOS 2,01) kendi gecikmesine koşullu; eşik kuralı KWEB z>=1 -> EEM net -18 bp (t -2,16), z>=1,5 -38 bp; ajanın reddi doğru."
+  },
+  {
+   "sym": "EWY",
+   "oncu": "AMEX:TIP (h3 aday)",
+   "karar": "curutuldu",
+   "not": "Regresyon h3 t 2,78 (OOS 1,60), 39 bp/sd; kural TIP z>=1 -> net 0,7 bp; z>=1,5 -> OOS -8 bp."
+  },
+  {
+   "sym": "EWY",
+   "oncu": "FRED DFII10 düşüşü (h3 aday)",
+   "karar": "zayif",
+   "not": "Regresyon h3 t -2,77 (IS -2,94/OOS -1,69); kural net 8-36 bp, t<0,7; Hazine reel faiz verisi gün sonundan sonra yayımlanır -> C0'da hafif ileriye bakma riski."
+  },
+  {
+   "sym": "EWA",
+   "oncu": "AMEX:IWM (h1)",
+   "karar": "curutuldu",
+   "not": "Regresyon t 3,12 (IS 2,25/OOS 2,08) ama kural IWM z>=1 -> EWA net -30 bp (t -3,35)."
+  },
+  {
+   "sym": "EWA",
+   "oncu": "CBOE:VIX log değişimi (h1)",
+   "karar": "curutuldu",
+   "not": "Regresyon t -3,12; kural (VIX z<=-1 -> EWA al) net -20 bp, t -2,10."
+  },
+  {
+   "sym": "DXJ",
+   "oncu": "NASDAQ:QQQ ters (taramada FDR geçen)",
+   "karar": "curutuldu",
+   "not": "Regresyon t -3,63 tekrarlandı; kural QQQ z<=-1 -> DXJ net 2-3 bp; ajanın reddi doğru."
+  },
+  {
+   "sym": "FXI",
+   "oncu": "AMEX:EEM ters (h1 aday)",
+   "karar": "curutuldu",
+   "not": "Regresyon t -2,55 (OOS -0,93); kural EEM z<=-1 -> FXI net 1 bp."
+  }
+ ],
+ "genel": "Aile ajanının sayıları bağımsız simülatörle birebir yeniden üretildi; kodda ileriye bakma, tarih kayması ya da maliyet hatası bulunmadı. Ancak sonuçların yorumu fazla iyimser: (i) S1'in t>=2 ve '6 birincil hipotezde FDR geçer' sonuçları Newey-West düzeltmesine bağlı; çakışmayan h=1 işlemlerde doğru olan basit t 1,99 ve p=0,024 ile ikisi de geçmiyor; (ii) S1 en iyi 5 gün (110'dan) çıkarılınca t 0,79, 2020+2026 hariç t 1,00, 1.000$'da t 1,35; (iii) kenar kapanışı gün dibinde olan işlemlerde ve gece boşluğunda toplanıyor; Midas'ta MOC yok ve kapanıştan önceki giriş için küçük bir kayma vekili (aralığın %3-5'i) t'yi 1,6-1,75'e indiriyor. Göreli aşırı tepki mekanizması (aynı günlerde ETF<=SPY seçiminin rastgele seçime üstünlüğü, p=0,0014; eşleştirilmiş fark t 2,84, IS/OOS eşit) gerçek görünüyor; ancak bu, uzun-tek yönlü ve maliyetli bir stratejiye sağlam biçimde dönüşmüyor. S2 çoklu testten seçilmiş, IS'te anlamsız, 2026'ya bağımlı ve kardeş ETF'lerde tekrar etmiyor. Lead-lag'de 'doğrulanmış gecikmeli öncü yok' sonucu doğru; kısmi regresyonda anlamlı görünen öncüler (KWEB->EEM, IWM->EWA, TIP->EWY) eşik kuralı olarak sıfır ya da negatif. SONUÇ: Bu ailede kabul eşiğini sağlam biçimde geçen strateji YOK; S1 'zayıf / izleme sinyali'. Denetim yaklaşık 280 sağlamlık değerlendirmesi içeriyor (yeni strateji araması değil). Ajanın yaklaşık 600 havuz testi ve 20.196 genel satırı üzerinde hiçbir sonuç FDR'yi geçmiyor.",
+ "izleme_itirazlari": [
+  {
+   "sym": "EWJ",
+   "itiraz": "kabul -> yedek: tek başına S1 t 1,21, OOS +5 bp, C1 -35 bp; doğrulanmış öncü yok; yalnız likidite ve gerçek zamanlı izlenebilirlik (OSE:NK2251!, FX_IDC:USDJPY) var."
+  },
+  {
+   "sym": "FXI",
+   "itiraz": "kabul kalabilir ama şerhli: S1 tek başına t 1,17; O1 h1 net -33 bp (t -2,38) -> ajanın 'kapanış kaçarsa ertesi açılış' yedeği FXI'de zararlı."
+  },
+  {
+   "sym": "EWY",
+   "itiraz": "kabul doğru (en likit/ucuz, maliyet/oynaklık 0,03) ama S1 ve S2 sonuçları 2026'daki olağandışı oynaklık rejimine (günlük 403 bp; fiyat 97->202->137) bağlı; pozisyon boyutu buna göre küçültülmeli."
+  },
+  {
+   "sym": "EWT",
+   "itiraz": "kabul sınırda: S1 tek başına t 2,00, C1 OOS -22 bp; strateji 'zayıf' olduğundan kabul gerekçesi likidite + eşzamanlı yarı iletken sürücüleri."
+  },
+  {
+   "sym": "EFA",
+   "itiraz": "yedek -> red: günlük oynaklık 104 bp, maliyet/oynaklık 0,125; strateji ya da gecikmeli öncü yok, yalnız eşzamanlı sürücüler."
+  },
+  {
+   "sym": "VGK",
+   "itiraz": "yedek -> red: günlük oynaklık 105 bp, maliyet/oynaklık 0,13; strateji ya da gecikmeli öncü yok."
+  },
+  {
+   "sym": "EWA",
+   "itiraz": "yedek cömert: S1 OOS -8 bp; IWM/VIX öncü adayları kural olarak negatif."
+  },
+  {
+   "sym": "INDA",
+   "itiraz": "yedek ancak Hindistan maruziyeti için: S1 OOS -8, C1 -39 bp; öncü yok."
+  },
+  {
+   "sym": "KORU",
+   "itiraz": "yedek şerhli: 17.03.2020 veri tutarsızlığı, son 1 yılda en kötü gün -%42, makas fiyat adımına dayalı (14,5 bp), Midas bulunurluğu doğrulanmadı; yalnız dayanak sinyaliyle ve en fazla 1 gün tutulmalı."
+  }
+ ],
+ "kacirilan": "(1) RİSK: S1'in istatistiği NW düzeltmesine ve birkaç kriz gününe bağlı (basit t 1,99; en iyi 5 gün hariç t 0,79); güven 'orta' değil 'düşük-orta, izleme sinyali' olmalı. (2) RİSK: C0 iyimserliği; kenar kapanışı gün dibinde olan işlemlerde (12 Asya ETF'inde IBS<0,1 net 77 bp, IBS>=0,6 -81 bp); Midas'ta MOC yok, kapanıştan ~10 dk önceki giriş için aralığın %3-5'i kadar kayma t'yi 1,75/1,59'a indiriyor; after-hours'ta kapanış fiyatına limit dolmayabilir. (3) FIRSAT (sınırlı): S1'in göreli kenarı açığa satış olmadan SH (ters SPY ETF'i) ile korunabilir: en kötü gün -1.202 -> -356 bp, standart sapma 294 -> 138 bp; ama 2.500$ bacaklarda net 18,7 bp (t 1,42); 10.000$ bacaklarda 32 bp (t 2,46), 2020+2026 hariç 13 bp (t 1,05) -> büyük sermaye için risk azaltma seçeneği, strateji değil (d5_kacirilan.py). (4) AİLE DIŞI TEYİT: aynı S1 kuralı KWEB'de (594 mn $, 16 bp) n=73, net 72 bp, t 2,30, IS 33/OOS 102; mekanizmayı destekliyor ama sonradan eklenirse seçim yanlılığı olur. (5) Son S1 sinyali 05.11.2026 (3 ETF)."
+}

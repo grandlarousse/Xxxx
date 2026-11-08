@@ -1,0 +1,30 @@
+(a) vekil ile T10YIE_d eşzamanlı korelasyonu: 0.68
+    SLV h1: tüm t=2.79 (14.4 bp/sd) | IS t=2.69 (21.3 bp/sd) | OOS t=1.11 (6.7 bp/sd)
+    SLV h3: tüm t=1.96 (30.6 bp/sd) | IS t=3.86 (72.0 bp/sd) | OOS t=-1.14 (-12.3 bp/sd)
+    kural vekil z>=1.5 -> SLV C0 h1: n=126 net=16.4 t=0.80 IS t-0.13 OOS t1.30
+    kural vekil z>=1.5 -> SLV C0 h3: n=102 net=25.8 t=0.59 IS t0.31 OOS t0.51
+    kural vekil z>=1.5 -> SLV O1 h1: n=126 net=-1.1 t=-0.09 IS t-1.20 OOS t0.85
+    kural vekil z>=1.5 -> SLV O1 h3: n=102 net=-2.9 t=-0.08 IS t0.03 OOS t-0.12
+    GLD h1: tüm t=3.00 (9.3 bp/sd) | IS t=3.85 (15.5 bp/sd) | OOS t=0.81 (2.5 bp/sd)
+    GLD h3: tüm t=1.73 (15.6 bp/sd) | IS t=4.25 (40.8 bp/sd) | OOS t=-2.00 (-10.7 bp/sd)
+    kural vekil z>=1.5 -> GLD C0 h1: n=126 net=13.8 t=1.27 IS t0.81 OOS t0.98
+    kural vekil z>=1.5 -> GLD C0 h3: n=102 net=16.6 t=0.73 IS t1.15 OOS t-0.11
+    kural vekil z>=1.5 -> GLD O1 h1: n=126 net=1.6 t=0.23 IS t-0.58 OOS t1.02
+    kural vekil z>=1.5 -> GLD O1 h3: n=102 net=-1.9 t=-0.10 IS t0.70 OOS t-0.84
+    GDX h1: tüm t=1.88 (17.6 bp/sd) | IS t=2.87 (35.4 bp/sd) | OOS t=-0.07 (-0.5 bp/sd)
+    GDX h3: tüm t=1.58 (44.0 bp/sd) | IS t=3.20 (110.2 bp/sd) | OOS t=-2.15 (-24.9 bp/sd)
+    kural vekil z>=1.5 -> GDX C0 h1: n=126 net=50.6 t=2.07 IS t1.64 OOS t1.25
+    kural vekil z>=1.5 -> GDX C0 h3: n=102 net=73.4 t=1.78 IS t2.55 OOS t0.14
+    kural vekil z>=1.5 -> GDX O1 h1: n=126 net=38.2 t=1.20 IS t0.59 OOS t1.92
+    kural vekil z>=1.5 -> GDX O1 h3: n=102 net=47.3 t=1.20 IS t1.89 OOS t-0.11
+
+(b) S3 sinyal günü 301; S4 158; ikisi aynı gün 82 (S4 günlerinin %52'i S3 ile aynı); S3 & ay sonu 15
+    S3-S4 aynı gün işlemlerinin net getiri korelasyonu: 0.81 (n=62)
+    S4 yalnız (S3 yok): n=78 net=33.4 t=1.25 | S3 ile birlikte: n=62 net=46.7 t=1.74
+(c) S3, SPY IBS<0.2 = False: n=149 net=75.0 t=2.27
+(c) S3, SPY IBS<0.2 = True: n=91 net=160.0 t=2.53
+(c) S3, GLD IBS<0.2 = False: n=113 net=62.7 t=1.55
+(c) S3, GLD IBS<0.2 = True: n=127 net=146.8 t=3.09
+
+(d) S3 sinyal gecesi (C_t -> O_t+1) ort 33.7 bp (t 2.50); koşulsuz gece ort 10.5 bp
+    en büyük 5 sinyal gecesi (bp): [1877.0, 665.0, 625.0, 602.0, 586.0]

@@ -1,0 +1,174 @@
+====================================================================================================
+S1 — DAYANAK (sentetik kalibre 2x, 2016-11..2026-11), 7 mega-cap; maliyet 2.500$ (birincil ETF makası dahil)
+
+[C0] havuz: {'n': 605, 'n_tarih': 419, 'brut_bp': np.float64(128.054), 'net_bp': np.float64(110.983), 't': np.float64(3.131), 'edge_bp': np.float64(62.202), 't_edge': np.float64(1.759), 'is_n': 193, 'is_net_bp': np.float64(103.771), 'is_t': np.float64(2.009), 'oos_n': 226, 'oos_net_bp': np.float64(117.142), 'oos_t': np.float64(2.399), 'kazanma': 0.635, 'pf': 1.475, 'yil_poz': 0.8, 'en_kotu_bp': -4457.394, 'maxdd_portfoy_1_7': -0.115, 'p': 0.002}
+stock  etf mode   n  mean_gross_bp  mean_net_bp    t  win   pf  maxdd  worst_bp  edge_bp  t_edge  is_net_bp  is_t  oos_net_bp  oos_t  years_pos_frac  cost_bp
+ NVDA NVDL   C0  95         217.30       201.08 1.98 0.65 1.68  -0.54  -2462.90   106.24    1.05     121.11  0.85      267.21   1.86            0.80    16.22
+ TSLA TSLL   C0  69         185.90       162.54 0.94 0.61 1.35  -0.72  -4457.39    82.97    0.48     106.70  0.37      208.09   1.01            0.67    23.36
+ AAPL AAPU   C0 100          69.75        53.75 0.93 0.55 1.28  -0.24  -1661.83    13.28    0.23      54.88  0.56       52.74   0.77            0.60    16.00
+ AMZN AMZU   C0  89         100.17        84.17 1.33 0.64 1.41  -0.39  -1561.59    53.29    0.84      91.22  0.98       76.97   0.89            0.67    16.00
+ META METU   C0  85          61.56        44.83 0.66 0.60 1.22  -0.30  -1617.72    19.28    0.28      36.13  0.49       55.59   0.45            0.67    16.73
+ MSFT MSFU   C0  78         157.30       141.30 2.28 0.72 1.99  -0.18  -1644.13   106.72    1.73     200.32  2.27       56.47   0.70            0.80    16.00
+GOOGL GGLL   C0  89         119.88       103.88 1.84 0.69 1.60  -0.24  -1260.99    72.62    1.29     119.63  1.46       86.26   1.12            0.70    16.00
+Zamanlama kenarı (tutuş süresi eşlenmiş taban): tüm günler 74.0 bp t 2.06 (IS 68.5, OOS 78.7); hisse>SMA200 günleri tabanı 75.9 bp t 2.12 (IS 70.7, OOS 80.3)
+Yıllık (tarih başına ortalama net toplamı, bp): {2017: 1201.0, 2018: 1027.0, 2019: 634.0, 2020: 10530.0, 2021: 6636.0, 2022: -1166.0, 2023: 1996.0, 2024: 19353.0, 2025: -2606.0, 2026: 8897.0}
+Eşzamanlı açık pozisyon: medyan 2 maks 7
+
+[O1] havuz: {'n': 605, 'n_tarih': 419, 'brut_bp': np.float64(118.234), 'net_bp': np.float64(101.163), 't': np.float64(2.927), 'edge_bp': np.float64(64.335), 't_edge': np.float64(1.864), 'is_n': 193, 'is_net_bp': np.float64(100.717), 'is_t': np.float64(1.884), 'oos_n': 226, 'oos_net_bp': np.float64(101.544), 'oos_t': np.float64(2.253), 'kazanma': 0.625, 'pf': 1.445, 'yil_poz': 0.8, 'en_kotu_bp': -5065.144, 'maxdd_portfoy_1_7': -0.127, 'p': 0.004}
+stock  etf mode   n  mean_gross_bp  mean_net_bp    t  win   pf  maxdd  worst_bp  edge_bp  t_edge  is_net_bp  is_t  oos_net_bp  oos_t  years_pos_frac  cost_bp
+ NVDA NVDL   O1  95         151.20       134.99 1.29 0.61 1.43  -0.67  -3087.15    69.62    0.67      58.26  0.36      198.44   1.45            0.70    16.22
+ TSLA TSLL   O1  69         207.23       183.87 1.10 0.64 1.43  -0.79  -5065.14   125.97    0.75      90.13  0.30      260.34   1.40            0.67    23.36
+ AAPL AAPU   O1 100          52.01        36.01 0.59 0.56 1.20  -0.26  -2127.14    -6.94   -0.11      29.74  0.26       41.58   0.78            0.70    16.00
+ AMZN AMZU   O1  89          58.38        42.38 0.70 0.63 1.21  -0.39  -1518.14    27.45    0.45      78.21  0.87        5.72   0.07            0.56    16.00
+ META METU   O1  85          83.29        66.56 1.05 0.61 1.35  -0.25  -1473.60    45.33    0.71      77.19  1.04       53.41   0.49            0.67    16.73
+ MSFT MSFU   O1  78         153.32       137.32 2.09 0.65 2.07  -0.24  -2404.73   114.69    1.74     163.06  1.65      100.32   1.32            0.80    16.00
+GOOGL GGLL   O1  89         136.99       120.99 2.18 0.69 1.80  -0.26  -1297.56    92.34    1.67     131.17  1.68      109.59   1.38            0.70    16.00
+Zamanlama kenarı (tutuş süresi eşlenmiş taban): tüm günler 76.1 bp t 2.18 (IS 77.0, OOS 75.4); hisse>SMA200 günleri tabanı 68.0 bp t 1.95 (IS 69.3, OOS 66.9)
+
+[C1] havuz: {'n': 564, 'n_tarih': 400, 'brut_bp': np.float64(92.991), 'net_bp': np.float64(75.935), 't': np.float64(2.141), 'edge_bp': np.float64(26.688), 't_edge': np.float64(0.754), 'is_n': 189, 'is_net_bp': np.float64(65.386), 'is_t': np.float64(1.348), 'oos_n': 211, 'oos_net_bp': np.float64(85.385), 'oos_t': np.float64(1.66), 'kazanma': 0.606, 'pf': 1.215, 'yil_poz': 0.8, 'en_kotu_bp': -2987.513, 'maxdd_portfoy_1_7': -0.084, 'p': 0.033}
+stock  etf mode  n  mean_gross_bp  mean_net_bp     t  win   pf  maxdd  worst_bp  edge_bp  t_edge  is_net_bp  is_t  oos_net_bp  oos_t  years_pos_frac  cost_bp
+ NVDA NVDL   C1 92          95.78        79.56  0.80 0.66 1.27  -0.42  -2735.03   -15.09   -0.15      93.11  0.71       68.67   0.47            0.60    16.22
+ TSLA TSLL   C1 64         184.05       160.68  0.96 0.56 1.39  -0.61  -2987.51    81.54    0.49     -36.02 -0.15      323.66   1.39            0.67    23.36
+ AAPL AAPU   C1 95           8.83        -7.17 -0.16 0.56 0.96  -0.51  -1310.72   -47.68   -1.05    -118.72 -1.63       93.23   1.76            0.60    16.00
+ AMZN AMZU   C1 80          51.34        35.34  0.57 0.56 1.18  -0.26  -1404.16     4.39    0.07      16.74  0.18       55.89   0.70            0.78    16.00
+ META METU   C1 75           4.09       -12.64 -0.18 0.64 0.95  -0.40  -1625.44   -37.89   -0.55      60.20  0.73     -110.51  -0.96            0.44    16.73
+ MSFT MSFU   C1 73         108.30        92.30  1.46 0.63 1.63  -0.20  -1507.35    57.77    0.92      48.92  0.57      154.49   1.68            0.70    16.00
+GOOGL GGLL   C1 85          45.85        29.85  0.52 0.62 1.16  -0.35  -1480.13    -1.26   -0.02       8.43  0.10       55.12   0.68            0.60    16.00
+Zamanlama kenarı (tutuş süresi eşlenmiş taban): tüm günler 46.7 bp t 1.30 (IS 38.6, OOS 53.9); hisse>SMA200 günleri tabanı 47.8 bp t 1.33 (IS 40.1, OOS 54.8)
+
+Maliyet duyarlılığı (dayanak, havuz):
+  C0 1000$: net 93.0 bp, t 2.62
+  C0 2500$: net 111.0 bp, t 3.13
+  C0 10000$: net 120.0 bp, t 3.38
+  O1 1000$: net 83.2 bp, t 2.41
+  O1 2500$: net 101.2 bp, t 2.93
+  O1 10000$: net 110.2 bp, t 3.19
+
+Komşu parametreler (dayanak havuzu; ana kural: RSI<10, trend filtresi, SMA5 çıkış<=3g). Parametre SEÇİLMEDİ, yalnız rapor:
+  C0 RSI< 5 trend   SMA5<=3: n  272 net   173.2 t  3.01 | IS   142.8 (1.68) OOS   200.5 (2.55) | edge t 2.19
+  C0 RSI< 5 trend  sabit h1: n  429 net   100.5 t  2.65 | IS   112.9 (1.90) OOS    90.4 (1.85) | edge t 2.53
+  C0 RSI< 5 trend  sabit h2: n  303 net   148.5 t  2.71 | IS   143.3 (1.81) OOS   152.9 (2.01) | edge t 2.24
+  C0 RSI< 5 trend  sabit h3: n  272 net   126.3 t  2.06 | IS    91.0 (0.97) OOS   158.0 (1.95) | edge t 1.28
+  C0 RSI< 5 trdsiz  SMA5<=3: n  506 net   163.3 t  3.35 | IS   124.0 (1.69) OOS   188.4 (2.92) | edge t 2.34
+  C0 RSI< 5 trdsiz sabit h1: n  824 net    82.3 t  2.81 | IS   120.7 (2.34) OOS    60.1 (1.70) | edge t 2.64
+  C0 RSI< 5 trdsiz sabit h2: n  576 net   148.3 t  3.47 | IS   142.8 (2.08) OOS   151.7 (2.77) | edge t 2.85
+  C0 RSI< 5 trdsiz sabit h3: n  506 net   133.3 t  2.59 | IS    92.5 (1.14) OOS   159.2 (2.39) | edge t 1.63
+  C0 RSI<10 trend   SMA5<=3: n  605 net   111.0 t  3.13 | IS   103.8 (2.01) OOS   117.1 (2.40) | edge t 1.76
+  C0 RSI<10 trend  sabit h1: n  959 net    33.1 t  1.38 | IS    31.5 (0.82) OOS    34.5 (1.13) | edge t 1.15
+  C0 RSI<10 trend  sabit h2: n  690 net    79.7 t  2.44 | IS    72.9 (1.43) OOS    85.6 (2.03) | edge t 1.62
+  C0 RSI<10 trend  sabit h3: n  605 net   106.0 t  2.71 | IS    97.8 (1.70) OOS   113.0 (2.11) | edge t 1.47
+  C0 RSI<10 trdsiz  SMA5<=3: n 1020 net   115.4 t  3.57 | IS   131.4 (2.75) OOS   104.4 (2.39) | edge t 2.03
+  C0 RSI<10 trdsiz sabit h1: n 1703 net    26.9 t  1.26 | IS    48.7 (1.34) OOS    12.4 (0.48) | edge t 1.01
+  C0 RSI<10 trdsiz sabit h2: n 1186 net    79.2 t  2.80 | IS   106.8 (2.32) OOS    60.6 (1.69) | edge t 1.84
+  C0 RSI<10 trdsiz sabit h3: n 1020 net   134.8 t  3.67 | IS   153.4 (2.69) OOS   122.1 (2.54) | edge t 2.32
+  C0 RSI<15 trend   SMA5<=3: n  894 net    76.1 t  2.59 | IS    74.6 (1.77) OOS    77.6 (1.88) | edge t 0.93
+  C0 RSI<15 trend  sabit h1: n 1511 net    12.6 t  0.69 | IS    28.3 (0.96) OOS    -1.3 (-0.06) | edge t 0.40
+  C0 RSI<15 trend  sabit h2: n 1059 net    34.7 t  1.28 | IS    67.8 (1.62) OOS     3.3 (0.09) | edge t 0.30
+  C0 RSI<15 trend  sabit h3: n  893 net    63.9 t  1.97 | IS    68.4 (1.46) OOS    59.5 (1.33) | edge t 0.46
+  C0 RSI<15 trdsiz  SMA5<=3: n 1431 net    73.6 t  2.76 | IS   107.0 (2.73) OOS    48.0 (1.32) | edge t 0.91
+  C0 RSI<15 trdsiz sabit h1: n 2536 net     6.7 t  0.40 | IS    46.8 (1.61) OOS   -22.5 (-1.11) | edge t 0.09
+  C0 RSI<15 trdsiz sabit h2: n 1708 net    40.4 t  1.65 | IS    84.8 (2.18) OOS     6.5 (0.21) | edge t 0.55
+  C0 RSI<15 trdsiz sabit h3: n 1428 net    65.5 t  2.19 | IS   107.8 (2.48) OOS    33.4 (0.82) | edge t 0.54
+  O1 RSI< 5 trend   SMA5<=3: n  272 net   119.0 t  2.44 | IS   112.4 (1.38) OOS   124.8 (2.17) | edge t 1.68
+  O1 RSI< 5 trend  sabit h1: n  429 net    40.7 t  1.64 | IS    76.5 (1.90) OOS    11.9 (0.38) | edge t 1.88
+  O1 RSI< 5 trend  sabit h2: n  303 net    94.3 t  2.08 | IS   113.1 (1.61) OOS    78.2 (1.32) | edge t 1.74
+  O1 RSI< 5 trend  sabit h3: n  272 net    71.7 t  1.39 | IS    57.3 (0.69) OOS    84.5 (1.34) | edge t 0.68
+  O1 RSI< 5 trdsiz  SMA5<=3: n  506 net   121.5 t  2.78 | IS   102.6 (1.49) OOS   133.5 (2.36) | edge t 1.93
+  O1 RSI< 5 trdsiz sabit h1: n  824 net    37.5 t  1.72 | IS   107.3 (2.96) OOS    -2.9 (-0.11) | edge t 2.03
+  O1 RSI< 5 trdsiz sabit h2: n  576 net   102.7 t  2.84 | IS   126.2 (2.11) OOS    88.0 (1.93) | edge t 2.42
+  O1 RSI< 5 trdsiz sabit h3: n  506 net    91.1 t  1.99 | IS    68.0 (0.95) OOS   105.9 (1.77) | edge t 1.17
+  O1 RSI<10 trend   SMA5<=3: n  605 net   101.2 t  2.93 | IS   100.7 (1.88) OOS   101.5 (2.25) | edge t 1.86
+  O1 RSI<10 trend  sabit h1: n  959 net    13.3 t  0.80 | IS    27.4 (1.06) OOS     1.6 (0.07) | edge t 1.17
+  O1 RSI<10 trend  sabit h2: n  690 net    53.9 t  1.71 | IS    50.3 (1.00) OOS    57.0 (1.44) | edge t 1.22
+  O1 RSI<10 trend  sabit h3: n  605 net    96.5 t  2.51 | IS    94.1 (1.62) OOS    98.5 (1.92) | edge t 1.55
+  O1 RSI<10 trdsiz  SMA5<=3: n 1020 net    95.8 t  3.16 | IS   108.0 (2.41) OOS    87.4 (2.14) | edge t 1.94
+  O1 RSI<10 trdsiz sabit h1: n 1703 net    11.3 t  0.71 | IS    40.7 (1.59) OOS    -8.4 (-0.42) | edge t 1.14
+  O1 RSI<10 trdsiz sabit h2: n 1186 net    55.9 t  2.11 | IS    78.9 (1.82) OOS    40.5 (1.22) | edge t 1.54
+  O1 RSI<10 trdsiz sabit h3: n 1020 net   116.0 t  3.28 | IS   130.2 (2.40) OOS   106.3 (2.28) | edge t 2.23
+  O1 RSI<15 trend   SMA5<=3: n  894 net    79.4 t  2.84 | IS    78.2 (1.89) OOS    80.6 (2.13) | edge t 1.52
+  O1 RSI<15 trend  sabit h1: n 1511 net     2.2 t  0.16 | IS    24.7 (1.15) OOS   -17.6 (-1.04) | edge t 0.62
+  O1 RSI<15 trend  sabit h2: n 1059 net    26.4 t  1.06 | IS    50.0 (1.31) OOS     4.0 (0.12) | edge t 0.45
+  O1 RSI<15 trend  sabit h3: n  893 net    67.9 t  2.16 | IS    71.9 (1.58) OOS    64.1 (1.47) | edge t 0.98
+  O1 RSI<15 trdsiz  SMA5<=3: n 1431 net    74.9 t  2.98 | IS   103.4 (2.83) OOS    53.2 (1.55) | edge t 1.51
+  O1 RSI<15 trdsiz sabit h1: n 2536 net    -0.3 t -0.02 | IS    37.5 (1.81) OOS   -27.8 (-1.71) | edge t 0.51
+  O1 RSI<15 trdsiz sabit h2: n 1708 net    35.2 t  1.61 | IS    65.5 (1.89) OOS    12.0 (0.43) | edge t 0.92
+  O1 RSI<15 trdsiz sabit h3: n 1428 net    68.1 t  2.35 | IS   104.9 (2.53) OOS    40.2 (1.00) | edge t 1.07
+
+Aile içi kontrol: MSTR, COIN (kripto vekilleri; TH03 kapsamı dışı)
+  C0: n 99 net 99.1 t 0.70; hisse: [['MSTR', 68, 130.71, 0.78], ['COIN', 31, -70.77, -0.3]]
+  O1: n 99 net 149.8 t 1.08; hisse: [['MSTR', 68, 190.05, 1.13], ['COIN', 31, -97.97, -0.44]]
+
+====================================================================================================
+S1 — GERÇEK ETF VERİSİ (sinyal hisseden, işlem ETF fiyatında); 2022-2024'te Direxion/GraniteShares ürünleri 1,5x idi
+
+[C0] gerçek ETF (tum) havuz: n 261 tarih 201 brüt 144.6 net 127.6 t 2.65 kazanma 0.64 PF 1.60 yıl+ 0.80 en kötü -2828
+  gerçek ETF zamanlama kenarı: tüm günler 93.9 bp t 1.94; SMA200 rejim tabanı 123.6 bp t 2.58
+ etf  n  mean_gross_bp  mean_net_bp     t  win  worst_bp  maxdd  years_pos_frac  cost_bp
+NVDL 48         378.39       362.17  2.75 0.69  -1965.13  -0.20            1.00    16.22
+TSLL 34         126.49       103.12  0.51 0.65  -2827.75  -0.54            0.50    23.36
+AAPU 45          50.65        34.65  0.57 0.53   -912.26  -0.21            0.80    16.00
+AMZU 44         101.27        85.27  1.04 0.64  -1273.93  -0.21            0.75    16.00
+METU 21         -27.81       -44.54 -0.29 0.67  -1598.99  -0.30            0.67    16.73
+MSFU 29          85.85        69.85  0.92 0.69   -786.28  -0.18            0.75    16.00
+GGLL 40         116.29       100.29  1.36 0.65  -1125.17  -0.14            1.00    16.00
+ETF işlem brüt getirisi − 2×hisse (bp; 2022-24 1,5x dönemi dahil olduğundan negatif/pozitif sapabilir): [('NVDL', 48, -48.10824417483727), ('TSLL', 34, -8.297293507357326), ('AAPU', 45, -12.081446844169971), ('AMZU', 44, -1.9983138069411646), ('METU', 21, -6.673443193053053), ('MSFU', 29, -33.75203462121639), ('GGLL', 40, -22.885036475750766)]
+
+[C0] gerçek ETF (2x_donemi) havuz: n 190 tarih 149 brüt 166.2 net 149.2 t 2.44 kazanma 0.64 PF 1.68 yıl+ 0.67 en kötü -2828
+
+[O1] gerçek ETF (tum) havuz: n 261 tarih 201 brüt 124.9 net 107.8 t 2.38 kazanma 0.62 PF 1.56 yıl+ 0.80 en kötü -2675
+  gerçek ETF zamanlama kenarı: tüm günler 90.3 bp t 1.98; SMA200 rejim tabanı 104.8 bp t 2.32
+ etf  n  mean_gross_bp  mean_net_bp     t  win  worst_bp  maxdd  years_pos_frac  cost_bp
+NVDL 48         297.70       281.49  2.20 0.67  -2209.96  -0.22            1.00    16.22
+TSLL 34         176.56       153.20  0.83 0.62  -2675.10  -0.46            0.50    23.36
+AAPU 45          65.68        49.68  0.96 0.56   -764.87  -0.14            0.80    16.00
+AMZU 44          26.76        10.76  0.14 0.64  -1085.49  -0.30            0.50    16.00
+METU 21         -83.24       -99.98 -0.73 0.57  -1472.57  -0.25            0.33    16.73
+MSFU 29         117.91       101.91  1.39 0.66   -764.81  -0.17            0.75    16.00
+GGLL 40         138.26       122.26  1.56 0.65  -1279.78  -0.14            0.75    16.00
+
+[O1] gerçek ETF (2x_donemi) havuz: n 190 tarih 149 brüt 139.1 net 122.1 t 2.10 kazanma 0.63 PF 1.56 yıl+ 0.67 en kötü -2675
+
+[C1] gerçek ETF (tum) havuz: n 242 tarih 188 brüt 102.5 net 85.5 t 1.66 kazanma 0.61 PF 1.54 yıl+ 0.80 en kötü -2738
+  gerçek ETF zamanlama kenarı: tüm günler 59.2 bp t 1.13; SMA200 rejim tabanı 85.6 bp t 1.65
+ etf  n  mean_gross_bp  mean_net_bp     t  win  worst_bp  maxdd  years_pos_frac  cost_bp
+NVDL 47         149.92       133.71  0.96 0.66  -2737.81  -0.42            1.00    16.22
+TSLL 31         358.84       335.48  1.46 0.65  -1999.22  -0.26            0.75    23.36
+AAPU 43          66.98        50.98  1.17 0.58   -629.63  -0.11            0.80    16.00
+AMZU 38          79.35        63.35  0.83 0.61  -1049.05  -0.13            0.75    16.00
+METU 18        -199.89      -216.62 -1.52 0.50  -1605.03  -0.35            0.00    16.73
+MSFU 28         167.71       151.71  1.68 0.61   -718.20  -0.10            0.75    16.00
+GGLL 37          69.74        53.74  0.66 0.62  -1219.73  -0.21            0.50    16.00
+
+[C1] gerçek ETF (2x_donemi) havuz: n 176 tarih 139 brüt 133.6 net 116.6 t 1.76 kazanma 0.62 PF 1.61 yıl+ 1.00 en kötü -2738
+
+Kopya NVDU (C0): [['NVDU', 40, 337.75, 2.34]]
+NVDL aynı dönem karşılaştırma (C0, tüm): [['NVDL', 48, 362.17, 2.75]]
+Ayna: aynı sinyalle TSLQ almak (beklenen negatif): [['TSLQ', 34, -194.12, -0.98]]
+Ayna: aynı sinyalle NVDS almak (beklenen negatif): [['NVDS', 48, -324.34, -3.33]]
+
+====================================================================================================
+Bilanço etkisi (tutuş içinde bilanço tepki günü olan işlemler)
+  C0 bilanço  dahil: n  605 net   111.0 t  3.13 IS   103.8 (2.01) OOS   117.1 (2.40) yıl+ 0.80 en kötü -4457
+  C0 bilanço  haric: n  581 net    83.7 t  2.44 IS    88.2 (1.68) OOS    79.8 (1.77) yıl+ 0.50 en kötü -4457
+     yıllık: {2017: 1201.0, 2018: -123.0, 2019: -622.0, 2020: 10627.0, 2021: 5323.0, 2022: -643.0, 2023: -1310.0, 2024: 14000.0, 2025: -3324.0, 2026: 8675.0}
+  C0 bilanço yalniz: n   24 net   568.7 t  1.80 IS   517.4 (1.89) OOS   589.8 (1.35) yıl+ 0.78 en kötü -2491
+  C0 gerçek ETF bilanço haric: n 248 net 92.8 t 2.13
+  C0 bilanço hariç 1000$: net 65.7 t 1.92
+  C0 bilanço hariç 10000$: net 92.7 t 2.71
+  O1 bilanço  dahil: n  605 net   101.2 t  2.93 IS   100.7 (1.88) OOS   101.5 (2.25) yıl+ 0.80 en kötü -5065
+  O1 bilanço  haric: n  590 net    74.0 t  2.25 IS    98.4 (1.82) OOS    53.0 (1.34) yıl+ 0.60 en kötü -5065
+     yıllık: {2017: 1158.0, 2018: 377.0, 2019: -216.0, 2020: 12379.0, 2021: 4893.0, 2022: -287.0, 2023: -733.0, 2024: 7086.0, 2025: -2762.0, 2026: 8307.0}
+  O1 bilanço yalniz: n   15 net   866.3 t  2.06 IS   211.7 (0.51) OOS  1104.3 (2.02) yıl+ 0.75 en kötü -1572
+  O1 gerçek ETF bilanço haric: n 252 net 61.0 t 1.57
+  O1 bilanço hariç 1000$: net 56.0 t 1.71
+  O1 bilanço hariç 10000$: net 83.0 t 2.53
+
+====================================================================================================
+Güncel durum (son veri 2026-11-06 kapanışı):
+  NVDA  kapanış    186.64  RSI2   33.1  SMA200    204.67 (ALTINDA)  SMA5    195.42  sinyal: hayır
+  TSLA  kapanış    358.22  RSI2   37.4  SMA200    383.87 (ALTINDA)  SMA5    377.88  sinyal: hayır
+  AAPL  kapanış    342.37  RSI2   43.5  SMA200    298.81 (üstünde)  SMA5    341.25  sinyal: hayır
+  AMZN  kapanış    259.30  RSI2   54.0  SMA200    243.94 (üstünde)  SMA5    256.37  sinyal: hayır
+  META  kapanış    610.15  RSI2   40.9  SMA200    631.94 (ALTINDA)  SMA5    614.60  sinyal: hayır
+  MSFT  kapanış    530.61  RSI2   38.8  SMA200    439.85 (üstünde)  SMA5    530.09  sinyal: hayır
+  GOOGL kapanış    284.78  RSI2   53.5  SMA200    339.51 (ALTINDA)  SMA5    283.06  sinyal: hayır

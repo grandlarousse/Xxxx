@@ -1,0 +1,69 @@
+sym,karar,gerekce,tv,likidite_mn_usd,maliyet_bp,vol_1d_bp
+EWY,kabul,"En likit (medyan 2,36 mlr $/gün) ve en ucuz (13 bp) aile üyesi; maliyet/oynaklık 0,03 (ailenin en düşüğü). S1 sepetinin en güçlü üyesi (C0 h=1 net +108 bp, t 2,41, IS ve OOS > 0) ve S2'nin (keşifsel) işlem aracı. Güçlü negatif 1 günlük otokorelasyon (IS -0,16 / OOS -0,12).",AMEX:EWY,2361.0,13.0,378.0
+FXI,kabul,"Çin büyük şirketleri için en likit araç (872 mn $, 15 bp). S1 sepet üyesi (C0 h=1 net +37 bp, t 1,17; h=2 +108 bp, t 2,19). MCHI aynı hisseleri taşır (kopya; daha az likit).",AMEX:FXI,871.6,14.9,122.0
+EWJ,kabul,"Japonya için tek likit ve ucuz araç (482 mn $, 14 bp). S1 sepet üyesi ama tek başına zayıf (n=32, net +30 bp, t 1,21, OOS +5 bp). Gerçek zamanlı izleme kolay (OSE Nikkei vadelisi, USDJPY).",AMEX:EWJ,482.1,14.0,140.0
+EWT,kabul,"Likit (450 mn $), 14 bp maliyet, maliyet/oynaklık 0,06. S1 sepet üyesi (C0 h=1 net +63 bp, t 2,00; IS +79 / OOS +56).",AMEX:EWT,450.5,14.0,221.0
+EEM,yedek,"Ailenin genel EM ölçütü, çok likit (1,6 mlr $, 13,7 bp). Doğrulanmış strateji yok (S1 kuralı EEM'de n=46, net +57 bp, t 1,6). Kopyalar (IEMG, VWO) arasından en likidi.",AMEX:EEM,1617.2,13.7,166.0
+EFA,yedek,"Gelişmiş ülkeler (EAFE) için en likit araç (1,5 mlr $, 13 bp) ama 1 günlük oynaklık düşük (104 bp; maliyet/oynaklık 0,125). Doğrulanmış strateji yok.",AMEX:EFA,1517.9,13.0,104.0
+EWZ,yedek,"Likit (977 mn $, 15 bp), yüksek oynaklık (222 bp). Doğrulanmış strateji/öncü yok (S1 plasebo grubunda; USO öncülüğü yok).",AMEX:EWZ,977.4,15.1,222.0
+IEMG,yedek,"EEM'in kopyası (MSCI EM IMI); bağımsız kanıt değil. 897 mn $, 14 bp; EEM'e yedek.",AMEX:IEMG,896.5,14.0,161.0
+KORU,yedek,"EWY'nin 3x kaldıraçlısı (405 mn $, 26 bp). Kendi sinyali yok; EWY sinyaliyle (S1/S2) kaldıraçlı uygulama aracı. Midas'ta bulunurluk doğrulanmadı; 1 günlük oynaklık 1.100 bp, son 1 yılda en kötü gün -%42.",AMEX:KORU,405.0,26.5,1104.0
+INDA,yedek,"Hindistan için en likit (299 mn $, 14 bp). S1 kuralı INDA'da C0 h=1 net +111 bp (n=33, t 1,82) ama OOS -8 bp; doğrulanmış değil. EPI kopya.",CBOE:INDA,299.3,14.0,102.0
+VGK,yedek,"Avrupa temsilcisi (234 mn $, 14 bp). Doğrulanmış strateji yok; FDAX/SX5E ile gerçek zamanlı izlenebilir. EZU yakın kopya.",AMEX:VGK,234.0,14.0,105.0
+ASHR,yedek,"Çin A payları (148 mn $, 16 bp). S1 genişletilmiş kontrolde C0 h=1 net +51 bp (t 1,60), IS ve OOS > 0.",AMEX:ASHR,147.8,16.0,115.0
+EWA,yedek,"S1 sepet üyesi (C0 h=1 net +51 bp) ama OOS negatif (-8 bp); 86 mn $, 16 bp.",AMEX:EWA,86.4,16.0,117.0
+EWH,yedek,"S1 sepet üyesi (C0 h=1 net +49 bp, n=29; OOS +8 bp); 67 mn $, 16 bp.",AMEX:EWH,67.1,16.3,110.0
+YINN,yedek,"FXI'nin 3x kaldıraçlısı (56 mn $, 16 bp). FXI sinyaliyle S1 uygulaması (C0 h=2 net +336 bp, t 2,27; C0 h=1 t 1,25). Midas'ta bulunurluk doğrulanmadı.",AMEX:YINN,55.8,16.0,362.0
+CQQQ,yedek,"Çin teknoloji (46 mn $, 20 bp). S1 genişletilmiş kontrolde C0 h=1 net +47 bp (t 1,60), IS ve OOS > 0.",AMEX:CQQQ,45.9,20.0,194.0
+IEFA,red,EFA kopyası; EFA daha likit.,CBOE:IEFA,983.5,14.0,104.0
+VEA,red,EFA kopyası; EFA daha likit.,AMEX:VEA,838.1,14.0,115.0
+VWO,red,EEM/IEMG kopyası (FTSE EM); bağımsız kanıt değil. EEM daha likit.,AMEX:VWO,481.2,14.0,114.0
+MCHI,red,FXI ile büyük ölçüde aynı hisseler (kopya); FXI daha likit/ucuz.,NASDAQ:MCHI,142.8,16.0,120.0
+EWC,red,"ABD ile eşzamanlı; düşük oynaklık (95 bp), maliyet/oynaklık 0,17; strateji yok.",AMEX:EWC,100.1,16.0,95.0
+EWW,red,Likit (98 mn $) ama strateji/öncü yok; S1 plasebosunda negatif (eşzamanlı piyasa).,AMEX:EWW,97.5,16.0,140.0
+ILF,red,Latin Amerika 40 (%60 Brezilya) — EWZ ile örtüşür; strateji yok.,AMEX:ILF,89.6,16.0,170.0
+EZU,red,VGK'nın yakın kopyası (Euro Bölgesi); VGK daha likit/ucuz.,CBOE:EZU,82.3,16.0,116.0
+EWU,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 68 mn $, maliyet 16 bp, maliyet/oynaklık 0.16.",AMEX:EWU,68.1,16.0,101.0
+EWG,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 58 mn $, maliyet 16 bp, maliyet/oynaklık 0.14.",AMEX:EWG,57.9,16.0,117.0
+DXJ,red,"EWJ'nin kur korumalı yakın kopyası (50 mn $, 20 bp). Taramada QQQ/SPY'dan ters yönlü gecikme FDR'yi geçti ama eşik kuralına çevrildiğinde (SPY z<=-2 -> DXJ al) kâr yok (C0 h=1 net -1 bp).",AMEX:DXJ,49.8,20.0,119.0
+EWL,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 28 mn $, maliyet 20 bp, maliyet/oynaklık 0.19.",AMEX:EWL,27.7,20.0,106.0
+EWS,red,"25 mn $, 20 bp; S1 genişletilmiş kontrolde pozitif (t 1,16) ama strateji yok.",AMEX:EWS,25.2,20.0,101.0
+YANG,red,FXI'nin 3x tersi; uzun-tek yönlü stratejimiz yok. Ters yön için KWEB/FXI düşüşü sonrası FXI ertesi gün ortalaması negatif değil (dönüş) -> kullanım alanı yok.,AMEX:YANG,24.6,20.0,360.0
+EPI,red,INDA kopyası; INDA daha likit.,AMEX:EPI,24.1,20.0,101.0
+ECH,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 23 mn $, maliyet 20 bp, maliyet/oynaklık 0.12.",CBOE:ECH,23.0,20.0,163.0
+EWP,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 21 mn $, maliyet 20 bp, maliyet/oynaklık 0.16.",AMEX:EWP,21.2,20.0,126.0
+KSA,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 20 mn $, maliyet 20 bp, maliyet/oynaklık 0.20.",AMEX:KSA,20.0,20.0,98.0
+EWI,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 18 mn $, maliyet 20 bp, maliyet/oynaklık 0.16.",AMEX:EWI,18.5,20.0,123.0
+EWQ,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 15 mn $, maliyet 20 bp, maliyet/oynaklık 0.18.",AMEX:EWQ,15.0,20.0,111.0
+ARGT,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 15 mn $, maliyet 20 bp, maliyet/oynaklık 0.11.",AMEX:ARGT,14.8,20.0,176.0
+EPOL,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 14 mn $, maliyet 20 bp, maliyet/oynaklık 0.13.",AMEX:EPOL,14.2,20.0,149.0
+EZA,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 13 mn $, maliyet 20 bp, maliyet/oynaklık 0.10.",AMEX:EZA,12.7,20.0,209.0
+CWEB,red,"KWEB 2x; likidite sınırda (12 mn $). S1 kuralı KWEB sinyaliyle C0 h=1 net +145 bp (t 2,33) — ilginç ama dayanak KWEB başka ailede ve araç ince.",AMEX:CWEB,12.3,20.0,336.0
+VNM,red,"S1 genişletilmiş kontrolde güçlü (C0 h=1 net +98 bp, t 2,07) fakat likidite sınırda (12 mn $), 20 bp; tek ETF seçimi seçim yanlılığı riski taşır.",CBOE:VNM,12.1,20.0,153.0
+EIDO,red,"Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 11 mn $, maliyet 22 bp, maliyet/oynaklık 0.11.",AMEX:EIDO,11.3,21.9,198.0
+EIS,red,"Likidite yetersiz (medyan 8.7 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",AMEX:EIS,8.7,27.0,156.0
+EDC,red,"EEM 3x; likidite ince (7 mn $), 27 bp.",AMEX:EDC,7.3,27.0,495.0
+TUR,red,"Türk yatırımcı için ilginç ama ince: medyan 6,8 mn $/gün, tahmini makas 15 bp (gidiş-dönüş 27 bp; 1.000$'da 45 bp). Gecikmeli öncü yok (SPY/DIA/XLF'ten ters gecikme yalnız IS'te); genel kütüphanede hiçbir sinyal maliyeti geçmiyor. İzlenecekse BIST:XU100 ve FX_IDC:USDTRY gerçek zamanlı; uzatılmış saatte yalnız limit emir.",NASDAQ:TUR,6.8,27.0,168.0
+EWM,red,"Likidite yetersiz (medyan 6.6 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",AMEX:EWM,6.6,27.0,91.0
+EWD,red,"Likidite yetersiz (medyan 5.9 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",AMEX:EWD,5.9,27.0,131.0
+EWN,red,"Likidite yetersiz (medyan 5.0 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",AMEX:EWN,5.0,27.0,147.0
+GREK,red,"Likidite yetersiz (medyan 4.7 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",AMEX:GREK,4.7,27.0,163.0
+UAE,red,"Likidite yetersiz (medyan 4.4 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",NASDAQ:UAE,4.4,27.0,150.0
+EPU,red,"Likidite yetersiz (medyan 3.9 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",AMEX:EPU,3.9,27.0,205.0
+THD,red,"Likidite yetersiz (medyan 3.8 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",AMEX:THD,3.8,27.0,141.0
+EDZ,red,"EEM -3x; ince (3,8 mn $).",AMEX:EDZ,3.8,27.0,490.0
+BRZU,red,"EWZ 2x; ince (3,7 mn $).",AMEX:BRZU,3.7,27.0,439.0
+EPHE,red,"Likidite yetersiz (medyan 2.9 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",AMEX:EPHE,2.9,27.0,121.0
+CHAU,red,"ASHR 2x; ince (2,3 mn $).",AMEX:CHAU,2.3,27.0,229.0
+EWO,red,"Likidite yetersiz (medyan 1.0 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",AMEX:EWO,1.0,47.0,132.0
+EURL,red,VGK 3x; çok ince (1 mn $).,AMEX:EURL,1.0,47.0,314.0
+INDL,red,"INDA 2x; çok ince (0,9 mn $).",AMEX:INDL,0.9,47.0,205.0
+NORW,red,"Likidite yetersiz (medyan 0.8 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",AMEX:NORW,0.8,47.0,112.0
+ENZL,red,"Likidite yetersiz (medyan 0.8 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",NASDAQ:ENZL,0.8,47.0,105.0
+MEXX,red,"EWW 3x; çok ince (0,6 mn $).",AMEX:MEXX,0.6,47.0,406.0
+EDEN,red,"Likidite yetersiz (medyan 0.5 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",CBOE:EDEN,0.5,47.0,127.0
+EWK,red,"Likidite yetersiz (medyan 0.4 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",AMEX:EWK,0.4,47.0,103.0
+EFNL,red,"Likidite yetersiz (medyan 0.4 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",CBOE:EFNL,0.4,47.0,129.0
+CHIQ,red,"Likidite yetersiz (medyan 0.4 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",AMEX:CHIQ,0.4,47.0,137.0
+QAT,red,"Likidite yetersiz (medyan 0.2 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",NASDAQ:QAT,0.2,47.0,97.0
+KEMQ,red,"Likidite yetersiz (medyan 0.1 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",AMEX:KEMQ,0.1,47.0,173.0

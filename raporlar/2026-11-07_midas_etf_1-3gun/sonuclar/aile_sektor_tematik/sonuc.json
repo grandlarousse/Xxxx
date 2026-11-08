@@ -1,0 +1,1455 @@
+{
+ "family": "sektor_tematik",
+ "ozet": "sektor_tematik (75 ETF, 37 bağımsız küme): 1302 kendi testi + genel kütüphanenin 21.978 aile satırı incelendi. Kabul eşiğini geçen tek bağımsız bulgu yarı iletkenlerde gün sonu zayıflığının ertesi gün dönüşü: S1 = NASDAQ:SMH IBS<0.20 -> SMH'yi kapanışta al, ertesi kapanışta sat (n=492, net 41.8 bp @2.500$, t 3.69, IS 43 / OOS 40 bp, 11 yılın 10'u pozitif, O1'de brüt kenar 27 bp, BH-FDR geçer). S2 aynı sinyali SOXL (3x) ile uygular (net 146 bp, t 4.23, maxDD -53%; Midas'ta bulunurluğu doğrulanamadı); bağımsız kanıt değildir. S1, Nasdaq IBS etkisinin yüksek betalı ifadesidir (sinyallerin %70'i QQQ IBS<0.20 ile aynı gün): abd_endeks ailesinin QQQ IBS kuralıyla aynı bahis. Reddedilenler: 'aşırı satılan sektörü al' (SPY kalıntı z<-2 sonrası sektör geride kalmaya devam ediyor, hedge'li -14 bp, t -2.2), kesitsel 1g dönüş ve 5g momentum (ST02/ST03), ST01, ST04, ST06, 8 sektör çifti, diğer kaldıraçlı araçlar. Genel kütüphanedeki 'MR_ibs_lt01_dusus C1 h3 sektörlerin 33/34'ünde pozitif' bulgusu tek piyasa etkisi (etkin N≈2.6, küme-sağlam t 1.8-2.7, SPY'a göre hedge'li kenar ~0). Lead-lag: gerçek gecikmeli öncüler yalnız negatif ve long-only'de 'alma' filtresi düzeyinde (QQQ->IGV, EEM->KWEB); yarı iletkenlerde NVDA/TSM/AVGO/EWT/EWY öncü değil. Takvim: FOMC karar günü faize duyarlı sektörlerde gün içi brüt -26 bp. Ailede PTP ürünü yok.",
+ "izleme": [
+  {
+   "sym": "SOXL",
+   "karar": "kabul",
+   "gerekce": "S1 sinyalinin 3x aracı (S2). Çok likit (6.5 mlr $/gün), maliyet/oynaklık 0.015. UYARI: Midas'ta bulunurluğu DOĞRULANAMADI; 3x kaldıraç, 1 günden uzun tutuşta oynaklık kaybı; 1940 Kanunu fonu (PTP değil).",
+   "tv": "AMEX:SOXL",
+   "likidite_mn_usd": 6540.2,
+   "maliyet_bp": 14.2,
+   "vol_1d_bp": 915.8
+  },
+  {
+   "sym": "SMH",
+   "karar": "kabul",
+   "gerekce": "S1 (SMH IBS<0.20) burada doğrulandı; en likit yarı iletken ETF'i (medyan ~4 mlr $/gün), maliyet/1g oynaklık 0.05.",
+   "tv": "NASDAQ:SMH",
+   "likidite_mn_usd": 3985.4,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 267.3
+  },
+  {
+   "sym": "SOXX",
+   "karar": "yedek",
+   "gerekce": "SMH'nin kopyası (korelasyon 0.98): S1 aynı sonucu veriyor (43 bp, t 3.9) ama bağımsız kanıt değil; SMH daha likit.",
+   "tv": "NASDAQ:SOXX",
+   "likidite_mn_usd": 3332.9,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 309.2
+  },
+  {
+   "sym": "XLK",
+   "karar": "yedek",
+   "gerekce": "Aynı IBS kuralı zayıf (net 19 bp, t 2.2, OOS yalnız 5 bp); SMH ile 0.94 korelasyon. S1'in daha az oynak yedeği.",
+   "tv": "AMEX:XLK",
+   "likidite_mn_usd": 1896.4,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 178.4
+  },
+  {
+   "sym": "XBI",
+   "karar": "yedek",
+   "gerekce": "IBS<0.20 sınırda (net 16 bp, t 1.8, IS ~2 bp): kabul eşiğini geçmiyor. Likit (1.2 mlr $), ayrı küme (biyoteknoloji); sürücü IWM/VIX.",
+   "tv": "AMEX:XBI",
+   "likidite_mn_usd": 1237.2,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 189.4
+  },
+  {
+   "sym": "IGV",
+   "karar": "yedek",
+   "gerekce": "Doğrulanmış negatif gecikme: QQQ/SPY güçlü yükseldiği günün ertesi IGV zayıf (FDR, IS/OOS aynı işaret); long-only kurala çevrilince maliyeti karşılamıyor, yalnız 'alma' filtresi. Likit (1.2 mlr $), maliyet/oynaklık 0.06.",
+   "tv": "CBOE:IGV",
+   "likidite_mn_usd": 1173.1,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 207.2
+  },
+  {
+   "sym": "KRE",
+   "karar": "yedek",
+   "gerekce": "Strateji yok; net sürücüler (XLF, IWM, faiz). FOMC karar günü riski ölçüldü (faize duyarlı grup gün içi brüt -26 bp). Likit (1 mlr $), maliyet/oynaklık 0.10 (sınırda).",
+   "tv": "AMEX:KRE",
+   "likidite_mn_usd": 1021.7,
+   "maliyet_bp": 13.4,
+   "vol_1d_bp": 130.4
+  },
+  {
+   "sym": "KWEB",
+   "karar": "yedek",
+   "gerekce": "Doğrulanmış negatif gecikme: EEM güçlü yükseldiği günün ertesi KWEB brüt -14..-34 bp (FDR, IS/OOS negatif) -> long-only için 'alma/çık' kuralı. Gerçek zamanlı izleme: Hang Seng vadelisi. Likit (594 mn $).",
+   "tv": "AMEX:KWEB",
+   "likidite_mn_usd": 594.2,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 170.0
+  },
+  {
+   "sym": "XOP",
+   "karar": "yedek",
+   "gerekce": "Strateji yok (enerji_tarim ailesi ayrıca inceliyor); sürücü ham petrol vadelisi. XLE'ye göre daha yüksek oynaklık/maliyet verimi (0.074).",
+   "tv": "AMEX:XOP",
+   "likidite_mn_usd": 532.1,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 189.3
+  },
+  {
+   "sym": "COPX",
+   "karar": "yedek",
+   "gerekce": "Strateji yok; sürücü bakır (CPER/HG1!), maliyet/oynaklık 0.046 (iyi). XME regresyonda öncü görünüyor ama işlem kuralında maliyeti karşılamıyor. metal_madenci ailesi de kapsıyor.",
+   "tv": "AMEX:COPX",
+   "likidite_mn_usd": 239.4,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 302.0
+  },
+  {
+   "sym": "SOXS",
+   "karar": "red",
+   "gerekce": "Ters 3x: kısa yön için doğrulanmış sinyal yok; sürekli değer kaybı (1 yıl -%90). Midas'ta bulunurluğu doğrulanamadı.",
+   "tv": "AMEX:SOXS",
+   "likidite_mn_usd": 2184.0,
+   "maliyet_bp": 13.4,
+   "vol_1d_bp": 929.4
+  },
+  {
+   "sym": "XLE",
+   "karar": "red",
+   "gerekce": "XOP ile aynı sürücü (korelasyon 0.93); 1g oynaklığı daha düşük (maliyet/oynaklık 0.093); enerji_tarim ailesi kapsıyor.",
+   "tv": "AMEX:XLE",
+   "likidite_mn_usd": 2015.6,
+   "maliyet_bp": 13.6,
+   "vol_1d_bp": 147.0
+  },
+  {
+   "sym": "XLF",
+   "karar": "red",
+   "gerekce": "Düşük 1g oynaklık (maliyet/oynaklık 0.14); doğrulanmış kural yok; bankalar KRE ile izlenir.",
+   "tv": "AMEX:XLF",
+   "likidite_mn_usd": 2010.0,
+   "maliyet_bp": 13.7,
+   "vol_1d_bp": 95.9
+  },
+  {
+   "sym": "XLV",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (maliyet/oynaklık 0.12); kenar yok.",
+   "tv": "AMEX:XLV",
+   "likidite_mn_usd": 1711.9,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 106.5
+  },
+  {
+   "sym": "XLI",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (0.12); kenar yok.",
+   "tv": "AMEX:XLI",
+   "likidite_mn_usd": 1486.2,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 112.2
+  },
+  {
+   "sym": "XLP",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (0.13); kenar yok.",
+   "tv": "AMEX:XLP",
+   "likidite_mn_usd": 1091.3,
+   "maliyet_bp": 13.1,
+   "vol_1d_bp": 100.1
+  },
+  {
+   "sym": "XLU",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (0.14); FOMC günü zayıflığı; kenar yok.",
+   "tv": "AMEX:XLU",
+   "likidite_mn_usd": 959.5,
+   "maliyet_bp": 14.3,
+   "vol_1d_bp": 99.1
+  },
+  {
+   "sym": "XLY",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (0.11); kenar yok.",
+   "tv": "AMEX:XLY",
+   "likidite_mn_usd": 950.5,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 124.2
+  },
+  {
+   "sym": "XLC",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (0.13); kısa geçmiş (2018); kenar yok.",
+   "tv": "AMEX:XLC",
+   "likidite_mn_usd": 661.8,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 105.0
+  },
+  {
+   "sym": "XLB",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (0.12); kenar yok.",
+   "tv": "AMEX:XLB",
+   "likidite_mn_usd": 611.1,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 114.4
+  },
+  {
+   "sym": "IYR",
+   "karar": "red",
+   "gerekce": "VNQ'nun kopyası (0.99).",
+   "tv": "AMEX:IYR",
+   "likidite_mn_usd": 585.7,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 91.9
+  },
+  {
+   "sym": "ARKK",
+   "karar": "red",
+   "gerekce": "ST06 (sert düşüş dönüşü) anlamsız; IBS ~0; QQQ'dan negatif gecikme yalnız IS'te.",
+   "tv": "CBOE:ARKK",
+   "likidite_mn_usd": 532.2,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 239.9
+  },
+  {
+   "sym": "XRT",
+   "karar": "red",
+   "gerekce": "Kenar yok; düşük oynaklık (0.10).",
+   "tv": "AMEX:XRT",
+   "likidite_mn_usd": 384.7,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 134.3
+  },
+  {
+   "sym": "VNQ",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (0.15); FOMC günü zayıflığı; kenar yok.",
+   "tv": "AMEX:VNQ",
+   "likidite_mn_usd": 339.7,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 91.3
+  },
+  {
+   "sym": "IBB",
+   "karar": "red",
+   "gerekce": "XBI ile 0.90 korelasyon, daha düşük oynaklık; ST04 (IBB->XBI) anlamsız.",
+   "tv": "NASDAQ:IBB",
+   "likidite_mn_usd": 291.5,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 148.3
+  },
+  {
+   "sym": "XLRE",
+   "karar": "red",
+   "gerekce": "VNQ/IYR ile kopya (0.98); düşük oynaklık (0.16).",
+   "tv": "AMEX:XLRE",
+   "likidite_mn_usd": 273.3,
+   "maliyet_bp": 14.3,
+   "vol_1d_bp": 91.9
+  },
+  {
+   "sym": "XME",
+   "karar": "red",
+   "gerekce": "COPX ile 0.81; IBS kuralı ~0; metal_madenci ailesi kapsıyor.",
+   "tv": "AMEX:XME",
+   "likidite_mn_usd": 226.2,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 237.5
+  },
+  {
+   "sym": "XHB",
+   "karar": "red",
+   "gerekce": "ITB'nin kopyası (0.97).",
+   "tv": "AMEX:XHB",
+   "likidite_mn_usd": 210.9,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 183.8
+  },
+  {
+   "sym": "ITB",
+   "karar": "red",
+   "gerekce": "Strateji yok (ST06 anlamsız); FOMC günü riski; konut kümesi.",
+   "tv": "CBOE:ITB",
+   "likidite_mn_usd": 207.3,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 198.9
+  },
+  {
+   "sym": "ITA",
+   "karar": "red",
+   "gerekce": "Kenar yok; düşük oynaklık (0.11).",
+   "tv": "CBOE:ITA",
+   "likidite_mn_usd": 177.7,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 149.6
+  },
+  {
+   "sym": "URA",
+   "karar": "red",
+   "gerekce": "Kenar yok; SPY/NLR'den negatif gecikme OOS zayıf; metal_madenci ailesi kapsıyor.",
+   "tv": "AMEX:URA",
+   "likidite_mn_usd": 170.8,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 320.5
+  },
+  {
+   "sym": "TECL",
+   "karar": "red",
+   "gerekce": "XLK IBS kuralı OOS zayıf (TECL C0 h1 OOS 31 bp, t 0.8); kaldıraçlı araç gerekiyorsa SOXL daha güçlü sinyal ve likidite.",
+   "tv": "AMEX:TECL",
+   "likidite_mn_usd": 149.5,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 535.0
+  },
+  {
+   "sym": "OIH",
+   "karar": "red",
+   "gerekce": "XOP/XLE ile aynı sürücü; çift (OIH/XLE) testleri negatif.",
+   "tv": "AMEX:OIH",
+   "likidite_mn_usd": 134.0,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 194.8
+  },
+  {
+   "sym": "FNGU",
+   "karar": "red",
+   "gerekce": "2025-02'de yeniden ihraç (ETN, ihraççı kredi riski); kısa geçmiş.",
+   "tv": "AMEX:FNGU",
+   "likidite_mn_usd": 120.2,
+   "maliyet_bp": 16.5,
+   "vol_1d_bp": 442.4
+  },
+  {
+   "sym": "CIBR",
+   "karar": "red",
+   "gerekce": "Kenar yok; QQQ'dan negatif gecikme var ama kural maliyeti karşılamıyor.",
+   "tv": "NASDAQ:CIBR",
+   "likidite_mn_usd": 117.8,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 196.5
+  },
+  {
+   "sym": "KBE",
+   "karar": "red",
+   "gerekce": "KRE'nin kopyası (0.993), daha az likit.",
+   "tv": "AMEX:KBE",
+   "likidite_mn_usd": 107.2,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 123.5
+  },
+  {
+   "sym": "LABU",
+   "karar": "red",
+   "gerekce": "XBI IBS -> LABU IS zayıf (IS t 0.8-1.2), OOS güçlü: kararsız; 3x.",
+   "tv": "AMEX:LABU",
+   "likidite_mn_usd": 99.6,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 565.1
+  },
+  {
+   "sym": "JETS",
+   "karar": "red",
+   "gerekce": "Kenar yok (IBS 7 bp, t 0.8).",
+   "tv": "AMEX:JETS",
+   "likidite_mn_usd": 99.0,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 210.6
+  },
+  {
+   "sym": "ARKG",
+   "karar": "red",
+   "gerekce": "Kenar yok.",
+   "tv": "CBOE:ARKG",
+   "likidite_mn_usd": 98.5,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 295.0
+  },
+  {
+   "sym": "ICLN",
+   "karar": "red",
+   "gerekce": "TAN ile 0.90; kenar yok.",
+   "tv": "NASDAQ:ICLN",
+   "likidite_mn_usd": 98.5,
+   "maliyet_bp": 18.1,
+   "vol_1d_bp": 192.9
+  },
+  {
+   "sym": "LABD",
+   "karar": "red",
+   "gerekce": "Ters 3x; sinyal yok.",
+   "tv": "AMEX:LABD",
+   "likidite_mn_usd": 84.8,
+   "maliyet_bp": 25.8,
+   "vol_1d_bp": 566.0
+  },
+  {
+   "sym": "FAS",
+   "karar": "red",
+   "gerekce": "XLF sinyalleri OOS zayıf; 3x kaldıraç.",
+   "tv": "AMEX:FAS",
+   "likidite_mn_usd": 82.2,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 285.4
+  },
+  {
+   "sym": "FDN",
+   "karar": "red",
+   "gerekce": "Yazılım/internet kümesinde IGV tercih; 79 mn $.",
+   "tv": "AMEX:FDN",
+   "likidite_mn_usd": 78.8,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 136.7
+  },
+  {
+   "sym": "KIE",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (0.15); kenar yok.",
+   "tv": "AMEX:KIE",
+   "likidite_mn_usd": 78.3,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 108.2
+  },
+  {
+   "sym": "PAVE",
+   "karar": "red",
+   "gerekce": "XLI ile 0.94; kenar yok.",
+   "tv": "CBOE:PAVE",
+   "likidite_mn_usd": 76.4,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 135.7
+  },
+  {
+   "sym": "REMX",
+   "karar": "red",
+   "gerekce": "Kenar yok (IBS -13 bp).",
+   "tv": "AMEX:REMX",
+   "likidite_mn_usd": 68.3,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 290.1
+  },
+  {
+   "sym": "XAR",
+   "karar": "red",
+   "gerekce": "ITA ile 0.92; daha az likit.",
+   "tv": "AMEX:XAR",
+   "likidite_mn_usd": 59.0,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 192.2
+  },
+  {
+   "sym": "NAIL",
+   "karar": "red",
+   "gerekce": "3x ITB; IBS kuralı C0'da yok (yalnız C1); kenar yok.",
+   "tv": "AMEX:NAIL",
+   "likidite_mn_usd": 57.4,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 593.3
+  },
+  {
+   "sym": "TAN",
+   "karar": "red",
+   "gerekce": "Kenar yok (ST06, IBS).",
+   "tv": "AMEX:TAN",
+   "likidite_mn_usd": 55.4,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 241.4
+  },
+  {
+   "sym": "NLR",
+   "karar": "red",
+   "gerekce": "URA kopyası (0.95).",
+   "tv": "AMEX:NLR",
+   "likidite_mn_usd": 55.3,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 275.7
+  },
+  {
+   "sym": "DRIP",
+   "karar": "red",
+   "gerekce": "Ters 2x; sinyal yok.",
+   "tv": "AMEX:DRIP",
+   "likidite_mn_usd": 54.8,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 379.0
+  },
+  {
+   "sym": "QTUM",
+   "karar": "red",
+   "gerekce": "Kenar yok; 50 mn $.",
+   "tv": "NASDAQ:QTUM",
+   "likidite_mn_usd": 49.5,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 215.9
+  },
+  {
+   "sym": "IYT",
+   "karar": "red",
+   "gerekce": "Düşük likidite (46 mn $) ve oynaklık (0.15); kenar yok.",
+   "tv": "CBOE:IYT",
+   "likidite_mn_usd": 45.7,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 130.2
+  },
+  {
+   "sym": "TECS",
+   "karar": "red",
+   "gerekce": "Ters 3x; kısa yön sinyali yok.",
+   "tv": "AMEX:TECS",
+   "likidite_mn_usd": 40.2,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 535.1
+  },
+  {
+   "sym": "URNM",
+   "karar": "red",
+   "gerekce": "URA kopyası (0.95), 34 mn $.",
+   "tv": "AMEX:URNM",
+   "likidite_mn_usd": 34.0,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 328.6
+  },
+  {
+   "sym": "FAZ",
+   "karar": "red",
+   "gerekce": "Ters 3x; sinyal yok.",
+   "tv": "AMEX:FAZ",
+   "likidite_mn_usd": 33.6,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 283.5
+  },
+  {
+   "sym": "ERX",
+   "karar": "red",
+   "gerekce": "2x enerji; ailede kural yok (enerji_tarim kapsıyor).",
+   "tv": "AMEX:ERX",
+   "likidite_mn_usd": 29.3,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 294.3
+  },
+  {
+   "sym": "GUSH",
+   "karar": "red",
+   "gerekce": "2x XOP; kural yok; 29 mn $.",
+   "tv": "AMEX:GUSH",
+   "likidite_mn_usd": 29.1,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 377.7
+  },
+  {
+   "sym": "BOTZ",
+   "karar": "red",
+   "gerekce": "Kenar yok; 29 mn $.",
+   "tv": "NASDAQ:BOTZ",
+   "likidite_mn_usd": 29.0,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 171.6
+  },
+  {
+   "sym": "SKYY",
+   "karar": "red",
+   "gerekce": "IGV kümesinde (0.92), 28 mn $.",
+   "tv": "NASDAQ:SKYY",
+   "likidite_mn_usd": 28.2,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 200.6
+  },
+  {
+   "sym": "WCLD",
+   "karar": "red",
+   "gerekce": "IGV kümesinde (0.89), 25 mn $.",
+   "tv": "NASDAQ:WCLD",
+   "likidite_mn_usd": 24.6,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 249.3
+  },
+  {
+   "sym": "FNGD",
+   "karar": "red",
+   "gerekce": "Ters 3x ETN; sinyal yok.",
+   "tv": "AMEX:FNGD",
+   "likidite_mn_usd": 21.5,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 448.0
+  },
+  {
+   "sym": "UFO",
+   "karar": "red",
+   "gerekce": "20 mn $; kenar yok.",
+   "tv": "NASDAQ:UFO",
+   "likidite_mn_usd": 20.0,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 260.1
+  },
+  {
+   "sym": "LIT",
+   "karar": "red",
+   "gerekce": "18 mn $ ve kenar yok.",
+   "tv": "AMEX:LIT",
+   "likidite_mn_usd": 17.9,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 190.6
+  },
+  {
+   "sym": "ERY",
+   "karar": "red",
+   "gerekce": "Ters 2x; sinyal yok.",
+   "tv": "AMEX:ERY",
+   "likidite_mn_usd": 17.7,
+   "maliyet_bp": 22.8,
+   "vol_1d_bp": 293.7
+  },
+  {
+   "sym": "MOO",
+   "karar": "red",
+   "gerekce": "Düşük oynaklık (maliyet/oynaklık 0.21), 18 mn $.",
+   "tv": "AMEX:MOO",
+   "likidite_mn_usd": 17.6,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 95.7
+  },
+  {
+   "sym": "DFEN",
+   "karar": "red",
+   "gerekce": "3x savunma; 16 mn $; kenar yok.",
+   "tv": "AMEX:DFEN",
+   "likidite_mn_usd": 15.9,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 453.3
+  },
+  {
+   "sym": "ARKW",
+   "karar": "red",
+   "gerekce": "ARKK kopyası (0.95), 14 mn $.",
+   "tv": "CBOE:ARKW",
+   "likidite_mn_usd": 14.3,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 215.7
+  },
+  {
+   "sym": "BLOK",
+   "karar": "red",
+   "gerekce": "14 mn $; kenar yok (kripto ailesi kapsıyor).",
+   "tv": "AMEX:BLOK",
+   "likidite_mn_usd": 14.3,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 260.1
+  },
+  {
+   "sym": "HACK",
+   "karar": "red",
+   "gerekce": "CIBR kopyası (0.97), 13 mn $.",
+   "tv": "AMEX:HACK",
+   "likidite_mn_usd": 12.6,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 211.1
+  },
+  {
+   "sym": "ROBO",
+   "karar": "red",
+   "gerekce": "BOTZ kopyası (0.93), 11 mn $.",
+   "tv": "AMEX:ROBO",
+   "likidite_mn_usd": 11.3,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 179.4
+  },
+  {
+   "sym": "CURE",
+   "karar": "red",
+   "gerekce": "Düşük likidite (6.6 mn $), makas ~15 bp.",
+   "tv": "AMEX:CURE",
+   "likidite_mn_usd": 6.6,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 314.8
+  },
+  {
+   "sym": "UTSL",
+   "karar": "red",
+   "gerekce": "Düşük likidite (5.1 mn $).",
+   "tv": "AMEX:UTSL",
+   "likidite_mn_usd": 5.1,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 295.0
+  },
+  {
+   "sym": "RETL",
+   "karar": "red",
+   "gerekce": "Düşük likidite (3.7 mn $).",
+   "tv": "AMEX:RETL",
+   "likidite_mn_usd": 3.7,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 396.2
+  },
+  {
+   "sym": "DRIV",
+   "karar": "red",
+   "gerekce": "1.3 mn $ (likit değil), makas ~35 bp.",
+   "tv": "NASDAQ:DRIV",
+   "likidite_mn_usd": 1.3,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 189.1
+  }
+ ],
+ "stratejiler": [
+  {
+   "id": "sektor_tematik_S1",
+   "ad": "Yarı iletken gün sonu zayıflığı dönüşü (SMH IBS<0.20, 1 gün)",
+   "kural": "TradingView'da NASDAQ:SMH günlük grafiği. Gösterge IBS = (close - low) / (high - low), aynı günün mumu (Pine: ibs = (close-low)/(high-low); high=low ise sinyal yok). Koşul: IBS < 0.20 (kapanış gün içi aralığın alt %20'sinde). İşlem: NASDAQ:SMH long al, ertesi işlem günü kapanışında sat. Filtre yok (SMA200 filtresi sonucu iyileştirmiyor). Pozisyondayken ertesi gün yine IBS<0.20 olursa satma, bir gün daha tut (backtest bunu sat+yeniden al sayar; tutmak 3 $ komisyon kazandırır).",
+   "giris": "C0: ABD kapanışından dakikalar önce SMH'nin anlık fiyatıyla IBS hesapla; <0.20 ise al. Kış saati (1 Kas 2026-14 Mar 2027) TR 23:45-23:58, yaz saati TR 22:45-22:58. Midas'ta MOC/LOC yok: piyasa emri ya da son fiyatın 1-2 sent üstüne limit emir. Kaçırılırsa O1: ertesi gün açılışta (kış TR 17:30 / yaz 16:30) al; beklenen net ~15 bp'ye düşer.",
+   "tutus": "1 işlem günü (h=1). h=2/h=3 de pozitif (net 52/66 bp, t 3.4/3.3) ama birincil kural h=1.",
+   "cikis": "Ertesi işlem günü kapanışından hemen önce sat (kış TR 23:45-23:58 / yaz 22:45-22:58). Stop yok (backtest stopsuz).",
+   "islem_etf": [
+    "SMH"
+   ],
+   "sinyal_etf": "SMH",
+   "n": 492,
+   "brut_bp": 54.8,
+   "net_bp": 41.8,
+   "kazanma": 0.587,
+   "pf": 1.6,
+   "t": 3.69,
+   "is_net_bp": 43.3,
+   "oos_net_bp": 40.1,
+   "yil_pozitif": 0.91,
+   "maxdd": -0.214,
+   "en_kotu_bp": -1069.0,
+   "maliyet_duyarlilik": "1.000$: 23.8 bp | 2.500$: 41.8 bp | 10.000$: 50.8 bp (net, işlem başına)",
+   "mod_saglamlik": "C0 h1 net 41.8; O1 h1 brüt 28.5 (koşulsuza göre kenar 27.1, net 15.5, t 1.83); C1 h1 brüt 15.3 (kenar 1.9 ≈ 0). O1'de brüt kenar > 0 olduğu için yalnız kapanışa bağımlı değil, ama etki ilk gün içinde sönüyor: en iyi kapanışta (C0) girilir; bir gün geç (C1) girmek kenarı yok eder.",
+   "aile_ici": "Aynı kural her ETF'in kendi IBS'iyle 39 ETF'de (37 küme temsilcisi + SOXX + QQQ): SOXX 43.3 bp (t 3.9, kopya), XLK 19.0 (t 2.2, OOS 5), QQQ 17.6 (t 2.1), XBI 15.9 (t 1.8); diğer 35'i ~0 ya da negatif (pozitif oran %31). Etki yarı iletken/teknoloji kümesine özgü: 1 bağımsız küme. SMH sinyallerinin %70'i QQQ IBS<0.20 ile aynı gün; SMH düşük & QQQ değil: 14 bp (t 0.8), ikisi de düşük: 54 bp (t 3.8). QQQ beta-hedge'li kenar 18 bp (t 4.0): yarı iletkenler Nasdaq dönüşünü ~1.8 beta ile büyütüyor. abd_endeks ailesinin QQQ/TQQQ IBS stratejisiyle aynı bahis sayılmalı.",
+   "fdr": "Bu ajanın 1302 testi üzerinde BH-FDR q=0.10: geçti (p=0.00025); ayrıca genel_tum aile satırlarında (21.978 test) BH-FDR q=0.10 geçti.",
+   "test_sayisi": 1302,
+   "guven": "orta",
+   "betik": "python3 -I /home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/strateji_adaylari.py",
+   "notlar": "Kabul eşiklerini geçiyor (n=492 ≥40, t 3.69, IS 43 / OOS 40 bp, 11 yılın 10'u pozitif, O1 brüt kenar > 0). Güven 'orta' çünkü: tek bağımsız küme, aday çok sayıda test içinden seçildi (FDR'yi yine de geçiyor), C0 girişte IBS kapanıştan ~15 dk önce tahmin ediliyor (eşiğe yakın günlerde yanlış sınıflama). Komşu eşikler 0.10/0.15/0.25/0.30: net 55/39/40/29 bp, hepsi t>3 (seçim yapılmadı). En kötü işlemler: 2020-03-11 (-10.7%), 2025-01-24 (DeepSeek, -10.0%), 2025-04-03 (gümrük tarifesi, -7.7%): sinyal sert düşüş günlerinde de tetiklenir, pozisyon küçük tutulmalı. Yılda ~49 işlem (zamanın ~%20'si piyasada). Takvim riskleri: NVDA bilançosu (kapanış sonrası), FOMC/CPI günleri."
+  },
+  {
+   "id": "sektor_tematik_S2",
+   "ad": "S1'in 3x aracı: SMH IBS<0.20 sinyaliyle SOXL (1 gün)",
+   "kural": "Sinyal S1 ile aynı: NASDAQ:SMH günlük IBS = (close-low)/(high-low) < 0.20. İşlem AMEX:SOXL (3x yarı iletken) long al, ertesi işlem günü kapanışında sat. Sinyal SOXL'ün kendi mumundan DEĞİL, SMH'den hesaplanır (SOXX IBS de olur: 139 bp, t 4.3). Aynı riski almak için SOXL tutarı SMH'ye ayrılacak tutarın ~1/3'ü olmalı.",
+   "giris": "C0: kış TR 23:45-23:58 / yaz 22:45-22:58, kapanıştan hemen önce (kaldıraçlı fonun kapanış yeniden dengelemesi son dakikalarda oynaklık yaratır; limit emir). O1 alternatifi: ertesi açılış (kış TR 17:30 / yaz 16:30).",
+   "tutus": "1 işlem günü. 1 günden uzun tutuşta oynaklık kaybı ölçüldü: SOXL-3×SOXX sapması h1 -9 bp, h3 -31 bp, σ20≥%3 iken h3 -75 bp (ortalama).",
+   "cikis": "Ertesi işlem günü kapanışından hemen önce sat. Stop yok.",
+   "islem_etf": [
+    "SOXL"
+   ],
+   "sinyal_etf": "SMH",
+   "n": 492,
+   "brut_bp": 160.0,
+   "net_bp": 145.8,
+   "kazanma": 0.608,
+   "pf": 1.71,
+   "t": 4.23,
+   "is_net_bp": 144.0,
+   "oos_net_bp": 147.7,
+   "yil_pozitif": 0.91,
+   "maxdd": -0.535,
+   "en_kotu_bp": -3056.0,
+   "maliyet_duyarlilik": "1.000$: 127.8 bp | 2.500$: 145.8 bp | 10.000$: 154.8 bp (net, işlem başına; SOXL tutarı)",
+   "mod_saglamlik": "C0 h1 net 145.8; O1 h1 brüt 86.5 (net 72.3, t 2.74); C1 h1 brüt 32.7 (koşulsuza göre kenar -0.3 ≈ 0).",
+   "aile_ici": "S1 ile aynı sinyal: bağımsız kanıt DEĞİL. Diğer 3x araçlar: XLK->TECL C0 h1 74 bp (OOS t 0.8), XBI->LABU C0 h1 66 bp (IS t 0.8), XLF->FAS zayıf; yalnız yarı iletkende tutarlı.",
+   "fdr": "Bu ajanın 1302 testi üzerinde BH-FDR q=0.10: geçti (p=0.000028).",
+   "test_sayisi": 1302,
+   "guven": "orta",
+   "betik": "python3 -I /home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/strateji_adaylari.py",
+   "notlar": "Risk eşdeğeri karşılaştırma: SOXL'ü SMH tutarının 1/3'üyle (ör. 833 $) almak, 2.500 $'lık SMH ile işlem başına ~aynı dolar kârı verir (SOXL 833$: ~122 bp x 833 = ~10.1 $; SMH 2.500$: 41.8 bp x 2.500 = ~10.4 $), çünkü sabit 3 $ komisyon küçük tutarda daha ağır. SOXL'ün tek avantajı sermaye verimi; karşılığında maxDD -53% (işlem başına tam sermaye), en kötü işlem -30.6% (2020-03-11). Midas'ta SOXL bulunurluğu DOĞRULANAMADI (notlar/midas_kosullari.md: 'doğrulanamadı'); uygulamada Keşfet > Pay ara ile kontrol edilmeli. PTP değil (1940 Kanunu fonu)."
+  }
+ ],
+ "elenen": [
+  {
+   "ad": "MR_ibs_lt01_dusus C1 h=3 'sektörlerin 33/34'ünde pozitif' (genel kütüphane)",
+   "neden": "Bağımsız kanıt değil: 34 sektör ETF'inin günlük getiri korelasyonundan etkin N = 2.6. Havuz t: naif 8.5 -> hafta-kümeli 2.72; 37 küme temsilcisinde net 25.0 bp, t_hafta 1.82 / t_ay 1.97 (FDR geçmez). SPY beta-hedge'li kenar 4.1 bp (t 0.86): sektöre özgü katkı yok; aynı sinyal SPY'da 55.7 bp, t 2.79. Piyasa geneli etki (abd_endeks ailesinin konusu)."
+  },
+  {
+   "ad": "ST01 sektör IBS<0.20 & C>SMA200, C0 h=1 (14 sektör havuzu)",
+   "neden": "Havuz net -2.9 bp (t_küme -0.74); O1 h1 -11.3 bp. Maliyet sonrası negatif; IBS etkisi yalnız yarı iletken/teknolojide (S1)."
+  },
+  {
+   "ad": "SPY'a göre kalıntı (beta60) dönüşü: kalıntı z1<-2 -> sektörü al (37 küme / 11 SPDR)",
+   "neden": "Ters işaret: 37 küme C0 h1 net -28.3 bp (t -2.22), SPY-hedge'li -14.1 bp (t -2.21): aşırı satılan sektör ertesi gün de geride kalıyor (kalıntı devamı). 11 SPDR: -14.2 bp. h2/h3 ve O1/C1'de de negatif ya da sıfır. 'Aşırı satılan sektörü al' kuralı reddedildi."
+  },
+  {
+   "ad": "ST02 kesitsel 1g dönüş: SPY'a göre en kötü 2 SPDR, C0 h=3",
+   "neden": "Net -5.9 bp (t -0.88); brüt 7.8 bp, koşulsuz SPDR ortalaması (12.9 bp) altında; kontrol (en iyi 2) daha iyi."
+  },
+  {
+   "ad": "ST03 5 günlük endüstri momentumu: en iyi 3 SPDR, C0 h=3",
+   "neden": "Net 1.2 bp (t 0.22); en kötü 3 kontrolüyle aynı (0.7 bp). 1-3 günde momentum da dönüş de yok."
+  },
+  {
+   "ad": "ST04 büyük->küçük endüstri içi (IBB->XBI, XLE->XOP, XLF->KRE, SPY->RSP), C0 h=1",
+   "neden": "IBB->XBI 10.7 bp (t 0.39, n=117); XLE->XOP -68.1 bp; XLF->KRE -33.0 bp; SPY->RSP n=9. Hiçbiri anlamlı değil; XSD verisi yok (SMH->XSD test edilemedi)."
+  },
+  {
+   "ad": "ST05 kaldıraçlı sektör ETF'inde 1 günden uzun tutuş",
+   "neden": "Ölçüm (strateji değil): log sapma teoriyi izliyor (SOXL h3, σ20≥%3: -168 bp gözlenen / -159 bp teorik). Basit getiri farkı SOXL h1 -9, h3 -31 bp; σ20≥%3 iken h3 -75 bp. Kural: σ20≥%3 iken 3x ürünü en fazla 1 gün tut (st05_kaldirac_kaybi.csv)."
+  },
+  {
+   "ad": "ST06 tematik sert düşüş (r≤-2σ20 & C>SMA50), C0 h=2 (ARKK, TAN, URA, LIT, KWEB, JETS, ITB, XHB)",
+   "neden": "Net -18.9 bp (t -0.57, n=192); IS -48 / OOS +28 bp: tutarsız."
+  },
+  {
+   "ad": "Sektör içi çiftler kalıntı z-skoru (KRE/XLF, XBI/IBB, SMH/QQQ, SOXX/SMH, XOP/XLE, OIH/XLE, ITB/XHB, IGV/XLK), z1 ve z5, ±2",
+   "neden": "8 çift havuzu: geride kalanı al (z1<-2) C0 h1 -32.2 bp (t -1.32); öndekinin ortağını al 13.1 bp (t 1.13). C0'da tek çift t≥2 yok; 324 testte pozitif FDR geçen yok. Yetişme (SMH, QQQ'ya göre geride) -> SMH al: h1 18 bp, t 0.5."
+  },
+  {
+   "ad": "Kaldıraçlı sektör ETF'lerinde dayanak sinyali (XLK->TECL, XLF->FAS, XBI->LABU, XOP->GUSH, ITB->NAIL)",
+   "neden": "Yalnız yarı iletkende (S2) IS ve OOS birlikte güçlü. TECL C0 h1 OOS t 0.8; LABU IS t 0.8-1.2; FAS/GUSH/NAIL C0'da anlamsız. Tek tutarlı küme yarı iletken."
+  },
+  {
+   "ad": "Yarı iletkenlerde hisse/Asya öncüleri (NVDA, TSM, AVGO, EWT, EWY -> SMH/SOXX ertesi gün)",
+   "neden": "Kendi gecikmesi kontrol edilince katkı yok (SMH için t: NVDA 0.21, TSM 0.51, AVGO -0.28, EWT 0.73, EWY 0.37). Tek başına görülen negatif ilişki (NVDA t -3.0) SMH'nin kendi 1 günlük dönüşü."
+  },
+  {
+   "ad": "Lead-lag 'yetişme' bayrakları (SMH 18, SOXX 14, SOXL 5 öncü; GDX, USO, UUP, TIP...)",
+   "neden": "Yetişme sinyali -r_T(t) içerdiği için SMH'nin kendi dönüşünü yakalıyor; aynı öncülerin kendi gecikmesi kontrollü lag_t'si |t|<1.7. Öncü katkısı yok."
+  },
+  {
+   "ad": "XME -> COPX pozitif gecikme",
+   "neden": "Regresyonda t 2.47 (IS 2.0 / OOS 1.5) ama kural: XME z>+1 -> COPX C0 h1 net 4.6 bp (t 0.36), O1 -24 bp. Maliyet sonrası yok."
+  },
+  {
+   "ad": "Faize duyarlı sektörlerde FOMC (KRE, XLF, ITB, VNQ, XLU, KIE)",
+   "neden": "Long kural yok: karar günü gün içi (O1) brüt -26.3 bp, net -40.6 (t -3.01, IS -32 / OOS -48), karar öncesi kapanış->karar kapanışı brüt -13.5. Takvim riski olarak raporlandı (karar günü bu ETF'lerde yeni long açma)."
+  },
+  {
+   "ad": "Genel kütüphane, aile havuzu (31 sinyal × mod × h, 297 test, 37 küme temsilcisi)",
+   "neden": "Küme-sağlam t ile hiçbir pozitif sinyal BH-FDR'yi geçmiyor; FDR geçen 35 satırın hepsi maliyet sonrası negatif (ör. momentum ve haftanın günü O1 h1). Tek ETF düzeyinde geçenler yarı iletken/teknoloji kümesinde toplanıyor."
+  }
+ ],
+ "leadlag": [
+  {
+   "sym": "SMH",
+   "suruculer": [
+    {
+     "ad": "XLK",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.94,
+     "beta_1y": 1.4
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.91,
+     "beta_1y": 1.82
+    },
+    {
+     "ad": "TSM",
+     "tv": "NYSE:TSM",
+     "corr_1y": 0.86,
+     "beta_1y": 0.88
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.85,
+     "beta_1y": 1.38
+    },
+    {
+     "ad": "NVDA",
+     "tv": "NASDAQ:NVDA",
+     "corr_1y": 0.73
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "QQQ (zayıf, doğrulanmadı)",
+     "tv": "NASDAQ:QQQ",
+     "tip": "negatif gecikme (kendi gecikmesi kontrollü)",
+     "etki": "QQQ +1 sd -> SMH ertesi gün -35 bp (h1); IS t -2.46, OOS t -1.03: OOS zayıf, kabul edilmedi",
+     "t": -2.64,
+     "is_t": -2.46,
+     "oos_t": -1.03,
+     "fdr": false,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "işlem kuralı olarak test edilmedi (OOS zayıf)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Nasdaq-100 vadelisi (neredeyse 24 saat)",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "ETF kapalıyken (TR 00:00-17:30) teknoloji yönünü gösterir; açılış boşluğunu önceden verir."
+    },
+    {
+     "ad": "KOSPI endeksi (Kore)",
+     "tv": "KRX:KOSPI",
+     "neden": "Asya seansında (TR ~03:00-09:30) bellek/yarı iletken (Samsung, SK Hynix) hareketi; SMH açılışını önceden gösterir."
+    },
+    {
+     "ad": "Nikkei 225 vadelisi (OSE)",
+     "tv": "OSE:NK2251!",
+     "neden": "Asya seansı risk iştahı (Tokyo Electron, Advantest ağırlıklı)."
+    },
+    {
+     "ad": "NVIDIA (uzatılmış seans)",
+     "tv": "NASDAQ:NVDA",
+     "neden": "Bilanço kapanış sonrası açıklanır; after-hours/pre-market fiyatı SMH açılış boşluğunu gösterir (SMH ile 1y korelasyon 0.73)."
+    },
+    {
+     "ad": "TSMC ADR (pre-market)",
+     "tv": "NYSE:TSM",
+     "neden": "Tayvan seansı sonrası TSMC ADR'ı pre-market'te (TR 12:00-17:30) fiyatlanır."
+    },
+    {
+     "ad": "PHLX Yarı İletken Endeksi",
+     "tv": "NASDAQ:SOX",
+     "neden": "Yalnız ABD seansında hesaplanır: gerçek zamanlı gün içi sürücü, kapalı saatte öncü değil."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok. NVDA/TSM/AVGO/EWT/EWY kendi gecikmesi kontrol edilince katkısız (t 0.2-0.7). Süpürmedeki 18 'yetişme' bayrağı SMH'nin kendi 1 günlük dönüşü (S1 ile aynı olgu). NVDA, TSM ve SOX eşzamanlı sürücüdür, öncü değildir.",
+   "takvim_riskleri": "NVDA bilançosu (ABD kapanışı sonrası; tarih şirket takviminden doğrulanmalı), TSMC aylık satış (ayın ~10'u, Asya saati), FOMC (TR 21:00/22:00), CPI (TR 15:30/16:30), ihracat kontrolü haberleri."
+  },
+  {
+   "sym": "SOXL",
+   "suruculer": [
+    {
+     "ad": "XLK",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.92,
+     "beta_1y": 4.86
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.89,
+     "beta_1y": 6.29
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.84,
+     "beta_1y": 4.79
+    },
+    {
+     "ad": "TSM",
+     "tv": "NYSE:TSM",
+     "corr_1y": 0.83,
+     "beta_1y": 3.01
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Nasdaq-100 vadelisi (neredeyse 24 saat)",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "ETF kapalıyken (TR 00:00-17:30) teknoloji yönünü gösterir; açılış boşluğunu önceden verir."
+    },
+    {
+     "ad": "KOSPI endeksi (Kore)",
+     "tv": "KRX:KOSPI",
+     "neden": "Asya seansında (TR ~03:00-09:30) bellek/yarı iletken (Samsung, SK Hynix) hareketi; SMH açılışını önceden gösterir."
+    },
+    {
+     "ad": "NVIDIA (uzatılmış seans)",
+     "tv": "NASDAQ:NVDA",
+     "neden": "Bilanço kapanış sonrası açıklanır; after-hours/pre-market fiyatı SMH açılış boşluğunu gösterir (SMH ile 1y korelasyon 0.73)."
+    },
+    {
+     "ad": "TSMC ADR (pre-market)",
+     "tv": "NYSE:TSM",
+     "neden": "Tayvan seansı sonrası TSMC ADR'ı pre-market'te (TR 12:00-17:30) fiyatlanır."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok. Sinyal SMH'den alınır (S2). Kaldıraçlı fon kapanışta yeniden dengeler: son dakikalarda oynaklık artabilir.",
+   "takvim_riskleri": "SMH ile aynı; ayrıca σ20≥%3 dönemlerinde 1 günden uzun tutuşta ölçülen kayıp (3 günde ~-75 bp)."
+  },
+  {
+   "sym": "SOXX",
+   "suruculer": [
+    {
+     "ad": "XLK",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.91,
+     "beta_1y": 1.59
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.89,
+     "beta_1y": 2.06
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.84,
+     "beta_1y": 1.57
+    },
+    {
+     "ad": "TSM",
+     "tv": "NYSE:TSM",
+     "corr_1y": 0.83,
+     "beta_1y": 0.98
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Nasdaq-100 vadelisi (neredeyse 24 saat)",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "ETF kapalıyken (TR 00:00-17:30) teknoloji yönünü gösterir; açılış boşluğunu önceden verir."
+    },
+    {
+     "ad": "KOSPI endeksi (Kore)",
+     "tv": "KRX:KOSPI",
+     "neden": "Asya seansında (TR ~03:00-09:30) bellek/yarı iletken (Samsung, SK Hynix) hareketi; SMH açılışını önceden gösterir."
+    },
+    {
+     "ad": "NVIDIA (uzatılmış seans)",
+     "tv": "NASDAQ:NVDA",
+     "neden": "Bilanço kapanış sonrası açıklanır; after-hours/pre-market fiyatı SMH açılış boşluğunu gösterir (SMH ile 1y korelasyon 0.73)."
+    },
+    {
+     "ad": "PHLX Yarı İletken Endeksi",
+     "tv": "NASDAQ:SOX",
+     "neden": "Yalnız ABD seansında hesaplanır: gerçek zamanlı gün içi sürücü, kapalı saatte öncü değil."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok. SMH ile aynı (kopya).",
+   "takvim_riskleri": "SMH ile aynı."
+  },
+  {
+   "sym": "XLK",
+   "suruculer": [
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.96,
+     "beta_1y": 1.28
+    },
+    {
+     "ad": "SMH",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.94,
+     "beta_1y": 0.62
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.85,
+     "beta_1y": 1.78
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.82,
+     "beta_1y": 0.89
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "AAPL (3 gün, negatif)",
+     "tv": "NASDAQ:AAPL",
+     "tip": "negatif gecikme (h3)",
+     "etki": "AAPL +1 sd -> XLK sonraki 3 gün -30 bp; ek testte FDR geçti ama h1'de yok ve son 1 yılda AAPL-XLK korelasyonu 0.16: ekonomik yorumu zayıf, kullanılmamalı",
+     "t": -3.37,
+     "is_t": -2.01,
+     "oos_t": -2.39,
+     "fdr": true,
+     "ufuk": "3 gün",
+     "maliyet_sonrasi": "işlem kuralına çevrilmedi"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Nasdaq-100 vadelisi (neredeyse 24 saat)",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "ETF kapalıyken (TR 00:00-17:30) teknoloji yönünü gösterir; açılış boşluğunu önceden verir."
+    },
+    {
+     "ad": "S&P 500 vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Genel piyasa açılış boşluğu."
+    },
+    {
+     "ad": "NVIDIA (uzatılmış seans)",
+     "tv": "NASDAQ:NVDA",
+     "neden": "Bilanço kapanış sonrası açıklanır; after-hours/pre-market fiyatı SMH açılış boşluğunu gösterir (SMH ile 1y korelasyon 0.73)."
+    }
+   ],
+   "not": "Güvenilir gecikmeli öncü yok (AAPL h3 bulgusu tek ufukta, mekanizmasız). Sürücüler eşzamanlı.",
+   "takvim_riskleri": "NVDA/AAPL/MSFT bilançoları (kapanış sonrası), FOMC, CPI."
+  },
+  {
+   "sym": "IGV",
+   "suruculer": [
+    {
+     "ad": "MSFT",
+     "tv": "NASDAQ:MSFT",
+     "corr_1y": 0.66,
+     "beta_1y": 0.65
+    },
+    {
+     "ad": "XLK",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.51,
+     "beta_1y": 0.59
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.51,
+     "beta_1y": 1.22
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.49,
+     "beta_1y": 0.76
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "tip": "negatif gecikme (kendi gecikmesi kontrollü)",
+     "etki": "QQQ +1 sd (~1.3%) -> IGV ertesi gün ~-32 bp. Kural: QQQ 1g z>+1 -> ertesi gün IGV brüt -6.7 bp (C0), -11.3 bp (O1); IS ve OOS negatif",
+     "t": -3.68,
+     "is_t": -2.29,
+     "oos_t": -2.4,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "Long-only: QQQ z<-1 -> IGV al net -2.6 bp (yok). Yalnız filtre: QQQ güçlü yükseldiği akşam yeni IGV alma / mevcut IGV'yi kapat."
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "tip": "negatif gecikme",
+     "etki": "SPY +1 sd -> IGV ertesi gün ~-35 bp (QQQ ile aynı olgu)",
+     "t": -3.71,
+     "is_t": -2.68,
+     "oos_t": -2.42,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "QQQ ile aynı; ayrı kanıt değil"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Nasdaq-100 vadelisi (neredeyse 24 saat)",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "ETF kapalıyken (TR 00:00-17:30) teknoloji yönünü gösterir; açılış boşluğunu önceden verir."
+    },
+    {
+     "ad": "Microsoft (uzatılmış seans)",
+     "tv": "NASDAQ:MSFT",
+     "neden": "IGV'nin en büyük ağırlıklarından; bilanço kapanış sonrası."
+    }
+   ],
+   "not": "Gerçek gecikmeli ilişki var (kendi gecikmesi kontrollü, FDR, IS/OOS aynı işaret) ama ekonomik büyüklüğü long-only işlemde maliyetin altında; IGV'nin kendi getirisi pozitif katsayılı (kalıntı devamı).",
+   "takvim_riskleri": "MSFT/ORCL/CRM/NOW bilançoları, FOMC."
+  },
+  {
+   "sym": "XBI",
+   "suruculer": [
+    {
+     "ad": "IWM",
+     "tv": "AMEX:IWM",
+     "corr_1y": 0.63,
+     "beta_1y": 1.02
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.52,
+     "beta_1y": 1.14
+    },
+    {
+     "ad": "VIX_dlog",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.51,
+     "beta_1y": -0.12
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.47,
+     "beta_1y": 0.66
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY/QQQ (zayıf, doğrulanmadı)",
+     "tv": "AMEX:SPY",
+     "tip": "negatif gecikme",
+     "etki": "SPY +1 sd -> XBI ertesi gün -25 bp; IS t -3.27, OOS t -1.16: OOS zayıf",
+     "t": -3.16,
+     "is_t": -3.27,
+     "oos_t": -1.16,
+     "fdr": false,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "test edilmedi (OOS zayıf)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Russell 2000 vadelisi",
+     "tv": "CME_MINI:RTY1!",
+     "neden": "Küçük ölçekli/bölgesel banka/biyotek açılış boşluğu."
+    },
+    {
+     "ad": "VIX",
+     "tv": "CBOE:VIX",
+     "neden": "Risk iştahı; gün içi (16:15 ET kapanış)."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok. (SPY/QQQ ilişkisi OOS'ta zayıflıyor).",
+   "takvim_riskleri": "FOMC/CPI (faize duyarlı küçük ölçek), FDA kararları (tek hisse), JPM Sağlık Konferansı (Ocak)."
+  },
+  {
+   "sym": "KRE",
+   "suruculer": [
+    {
+     "ad": "XLF",
+     "tv": "AMEX:XLF",
+     "corr_1y": 0.69,
+     "beta_1y": 0.93
+    },
+    {
+     "ad": "IWM",
+     "tv": "AMEX:IWM",
+     "corr_1y": 0.6,
+     "beta_1y": 0.66
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.38,
+     "beta_1y": 0.58
+    },
+    {
+     "ad": "VIX_dlog",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.38,
+     "beta_1y": -0.06
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Russell 2000 vadelisi",
+     "tv": "CME_MINI:RTY1!",
+     "neden": "Küçük ölçekli/bölgesel banka/biyotek açılış boşluğu."
+    },
+    {
+     "ad": "10 yıllık ABD tahvil vadelisi",
+     "tv": "CBOT:ZN1!",
+     "neden": "Faiz hareketi gece de işler; banka/konut ETF'lerinin açılışını etkiler."
+    },
+    {
+     "ad": "ABD 2 yıllık getiri",
+     "tv": "TVC:US02Y",
+     "neden": "Fed beklentisi; bölgesel bankalar için marj/fonlama baskısı göstergesi."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok. (XLF -> KRE t -1.85; ST04 XLF->KRE anlamsız).",
+   "takvim_riskleri": "FOMC karar günü: faize duyarlı 6 ETF'te gün içi brüt -26 bp (IS -32 / OOS -48), karar günü yeni long açma. CPI, banka bilançoları (Ocak/Nisan/Temmuz/Ekim ortası), Fed stres testi (Haziran)."
+  },
+  {
+   "sym": "XOP",
+   "suruculer": [
+    {
+     "ad": "XLE",
+     "tv": "AMEX:XLE",
+     "corr_1y": 0.92,
+     "beta_1y": 1.19
+    },
+    {
+     "ad": "BNO",
+     "tv": "AMEX:BNO",
+     "corr_1y": 0.71,
+     "beta_1y": 0.43
+    },
+    {
+     "ad": "USO",
+     "tv": "AMEX:USO",
+     "corr_1y": 0.69,
+     "beta_1y": 0.41
+    },
+    {
+     "ad": "DGS10_d",
+     "tv": "TVC:US10Y",
+     "corr_1y": 0.38,
+     "beta_1y": 0.16
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "WTI ham petrol vadelisi",
+     "tv": "NYMEX:CL1!",
+     "neden": "Neredeyse 24 saat işler; XOP açılışını önceden gösterir (XOP-BNO/USO 1y korelasyon ~0.7)."
+    },
+    {
+     "ad": "Brent vadelisi",
+     "tv": "ICEEUR:BRN1!",
+     "neden": "Avrupa/Asya saatlerinde petrol fiyatı."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok. Petrol vadelisi eşzamanlı sürücü ve gece izleme aracıdır (öncü değil).",
+   "takvim_riskleri": "EIA haftalık petrol stokları (Çarşamba 10:30 ET: kış TR 18:30 / yaz 17:30), OPEC+ toplantıları, CL vade sonu (data/events/vadeler.csv)."
+  },
+  {
+   "sym": "KWEB",
+   "suruculer": [
+    {
+     "ad": "FXI",
+     "tv": "AMEX:FXI",
+     "corr_1y": 0.88,
+     "beta_1y": 1.22
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.45,
+     "beta_1y": 0.46
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.41,
+     "beta_1y": 0.81
+    },
+    {
+     "ad": "CPER",
+     "tv": "AMEX:CPER",
+     "corr_1y": 0.39,
+     "beta_1y": 0.37
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "tip": "negatif gecikme (kendi gecikmesi kontrollü)",
+     "etki": "EEM +1 sd -> KWEB ertesi gün ~-34..-37 bp. Kural: EEM 1g z>+1 -> ertesi gün KWEB brüt -34 bp (C0), -14 (O1), -25 (C1); IS -37 / OOS -62 bp net",
+     "t": -3.84,
+     "is_t": -2.86,
+     "oos_t": -2.71,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "Long-only için 'alma/çık' kuralı (brüt etki maliyetin 1-2 katı). Kısa yön ancak ters ETF ile; bu ailede test edilmedi."
+    },
+    {
+     "ad": "FXI",
+     "tv": "AMEX:FXI",
+     "tip": "negatif gecikme",
+     "etki": "FXI +1 sd -> KWEB ertesi gün -47 bp (ek test, FDR); OOS t -1.70",
+     "t": -2.66,
+     "is_t": -2.2,
+     "oos_t": -1.7,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "EEM ile aynı olgu; işlem kuralı EEM ile test edildi"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Hang Seng vadelisi",
+     "tv": "HKEX:HSI1!",
+     "neden": "KWEB varlıklarının çoğu Hong Kong'da işlem görür: ABD kapalıyken (TR 04:15-11:10 + gece seansı) KWEB'in açılış boşluğunu doğrudan gösterir."
+    },
+    {
+     "ad": "Hang Seng endeksi",
+     "tv": "TVC:HSI",
+     "neden": "Spot endeks; seans kapanışı."
+    },
+    {
+     "ad": "USD/CNH",
+     "tv": "FX:USDCNH",
+     "neden": "Yuan zayıflığı Çin varlıklarında risk iştahını gösterir; 24 saat."
+    },
+    {
+     "ad": "FTSE China A50 vadelisi (SGX)",
+     "tv": "SGX:CN1!",
+     "neden": "Çin anakara hisseleri; Asya saatlerinde."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü: EEM (negatif). Hang Seng vadelisi öncü değil, ABD kapalıyken KWEB'in fiyatlandığı piyasadır (açılış boşluğunun kaynağı).",
+   "takvim_riskleri": "Hong Kong tatilleri (KWEB işlem görür, dayanak kapalı: bayat NAV), Çin PMI (ayın 1'i), Ekim Altın Haftası, ABD-Çin ticaret/teknoloji kararları."
+  },
+  {
+   "sym": "COPX",
+   "suruculer": [
+    {
+     "ad": "CPER",
+     "tv": "AMEX:CPER",
+     "corr_1y": 0.82,
+     "beta_1y": 1.39
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.75,
+     "beta_1y": 1.36
+    },
+    {
+     "ad": "GLD",
+     "tv": "AMEX:GLD",
+     "corr_1y": 0.71,
+     "beta_1y": 1.18
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.65,
+     "beta_1y": 2.29
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "XME (regresyonda; kural başarısız)",
+     "tv": "AMEX:XME",
+     "tip": "pozitif gecikme",
+     "etki": "XME +1 sd -> COPX ertesi gün +23 bp (kendi gecikmesi kontrollü); kural XME z>+1 -> COPX C0 h1 net 4.6 bp (t 0.36), O1 -24 bp",
+     "t": 2.47,
+     "is_t": 2.01,
+     "oos_t": 1.5,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "Maliyet sonrası yok; kullanılmamalı"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "COMEX bakır vadelisi",
+     "tv": "COMEX:HG1!",
+     "neden": "Neredeyse 24 saat; COPX açılışını önceden gösterir (COPX-CPER 1y korelasyon 0.82)."
+    },
+    {
+     "ad": "USD/CNH",
+     "tv": "FX:USDCNH",
+     "neden": "Yuan zayıflığı Çin varlıklarında risk iştahını gösterir; 24 saat."
+    },
+    {
+     "ad": "Hang Seng vadelisi",
+     "tv": "HKEX:HSI1!",
+     "neden": "KWEB varlıklarının çoğu Hong Kong'da işlem görür: ABD kapalıyken (TR 04:15-11:10 + gece seansı) KWEB'in açılış boşluğunu doğrudan gösterir."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok. (XME ilişkisi işlem kuralında maliyeti karşılamıyor).",
+   "takvim_riskleri": "Çin PMI/sanayi verileri, HG vade sonu, LME stokları; metal_madenci ailesinin notlarına bakın."
+  }
+ ],
+ "tv_dogrulanacak": [
+  "TWSE:2330 (TSMC Tayvan hissesi; Asya seansında yarı iletken izleme)",
+  "TWSE:TAIEX 'yonlendirildi' çıktı: geçerli Tayvan endeksi kodu (ör. TVC:TWII) doğrulanmalı",
+  "KRX:000660 (SK Hynix; Asya seansında bellek yarı iletkeni)"
+ ],
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/notlar/aile_sektor_tematik.md",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/strateji_adaylari.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/ortak.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/havuz.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/a1_genel_ozet.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/a2_havuz_genel.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/a3_hipotezler.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/a4_leadlag.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/a5_fomc_fdr.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/a6_bagimsizlik.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/a7_xme_copx.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_sektor_tematik/a8_sonuc_json.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/sonuc.json",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/strateji_adaylari_cikti.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/aday_sektor_tematik_S1_islemler.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/aday_sektor_tematik_S2_islemler.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/genel_aile_ozet.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/havuz_genel.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/tests_hipotez.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/st05_kaldirac_kaybi.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/leadlag_ek.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/leadlag_kural.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/suruculer.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/fomc_sektor.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/bagimsizlik.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/xme_copx_kural.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_sektor_tematik/fdr_tum_testler.csv"
+ ]
+}

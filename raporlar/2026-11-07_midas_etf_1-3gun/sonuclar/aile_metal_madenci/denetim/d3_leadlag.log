@@ -1,0 +1,42 @@
+hedef<-öncü h | tüm: b t n bp/sd | IS t | OOS t | gece t | gün içi t
+DBB<-KWEB h1: b=0.041 t=3.94 n=2511 10.4 bp/sd (maliyet 27) | IS 2.60 | OOS 3.02 | gece 2.97 (6.2bp) | gün içi 2.55 (4.2bp)
+DBB<-FXI h1: b=0.052 t=3.26 n=2511 9.0 bp/sd (maliyet 27) | IS 1.80 | OOS 2.75 | gece 1.66 (3.8bp) | gün içi 3.02 (5.2bp)
+CPER<-KWEB h1: b=0.032 t=2.48 n=2511 7.9 bp/sd (maliyet 20) | IS 0.55 | OOS 2.82 | gece 0.99 (2.9bp) | gün içi 2.72 (5.0bp)
+COPX<-KWEB h1: b=0.045 t=2.18 n=2511 11.3 bp/sd (maliyet 14) | IS 1.59 | OOS 1.58 | gece 1.27 (3.9bp) | gün içi 2.13 (7.4bp)
+GLD<-GDX h1: b=0.044 t=2.33 n=2511 10.6 bp/sd (maliyet 13) | IS 1.52 | OOS 1.58 | gece 2.16 (6.1bp) | gün içi 1.52 (4.4bp)
+SLV<-T10YIE h1: b=4.415 t=3.04 n=2493 13.5 bp/sd (maliyet 14) | IS 2.69 | OOS 1.83 | gece 2.53 (8.9bp) | gün içi 1.79 (4.6bp)
+GLD<-T10YIE h1: b=2.166 t=2.70 n=2493 6.6 bp/sd (maliyet 13) | IS 2.27 | OOS 1.65 | gece 2.36 (4.2bp) | gün içi 1.61 (2.4bp)
+PPLT<-GDX h1: b=0.097 t=3.20 n=2511 23.1 bp/sd (maliyet 20) | IS 3.42 | OOS 1.49 | gece 3.40 (15.7bp) | gün içi 1.94 (7.4bp)
+COPX<-GDX h3: b=0.151 t=2.76 n=2509 35.9 bp/sd (maliyet 14) | IS 3.02 | OOS 1.58 | gece 2.44 (18.7bp) | gün içi 0.89 (4.6bp)
+GDX<-LQD h1: b=0.629 t=2.04 n=2511 34.7 bp/sd (maliyet 13) | IS 3.07 | OOS -0.00 | gece 0.12 (1.0bp) | gün içi 1.69 (33.7bp)
+GDXJ<-LQD h1: b=0.751 t=2.15 n=2511 41.4 bp/sd (maliyet 14) | IS 3.30 | OOS -0.00 | gece 0.16 (1.7bp) | gün içi 1.79 (39.7bp)
+URA<-SPY h1: b=-0.196 t=-2.67 n=2511 -22.3 bp/sd (maliyet 16) | IS -2.38 | OOS -1.49 | gece -2.16 (-11.4bp) | gün içi -2.15 (-11.0bp)
+XME<-DIA h1: b=-0.251 t=-2.80 n=2511 -28.0 bp/sd (maliyet 14) | IS -2.69 | OOS -1.47 | gece -1.90 (-14.6bp) | gün içi -2.42 (-13.4bp)
+  DBB düşük hacimli gün: b=0.056 t=3.91 n=1237
+  DBB yüksek hacimli gün: b=0.026 t=1.74 n=1275
+  DBB sıfır hacimli gün: 0; medyan $ hacim son 1y 5.9 mn
+
+Yetişme (res=beta60*r_L - r_T): kontrolsüz res t | L katsayısı (kendi getirisi kontrollü) t | kendi getirisi t
+  GDX<-GLD h1: res t=0.56 | L t=0.04 (IS 0.84 / OOS -1.30) | own t=-0.56
+  GDX<-GLD h3: res t=0.43 | L t=-0.23 (IS 0.69 / OOS -1.52) | own t=-0.34
+  GDXJ<-GLD h1: res t=-0.27 | L t=-0.94 (IS -0.26 / OOS -1.78) | own t=0.22
+  GDXJ<-GLD h3: res t=0.75 | L t=-0.01 (IS 0.70 / OOS -1.55) | own t=-0.78
+  SIL<-SLV h1: res t=-1.29 | L t=-1.46 (IS -1.27 / OOS -1.05) | own t=1.10
+  SIL<-SLV h3: res t=0.22 | L t=-0.34 (IS 0.23 / OOS -0.96) | own t=0.10
+  SILJ<-SLV h1: res t=-1.12 | L t=-1.64 (IS -1.43 / OOS -1.07) | own t=1.02
+  SILJ<-SLV h3: res t=-0.25 | L t=-0.87 (IS -0.85 / OOS -0.59) | own t=0.27
+  COPX<-CPER h1: res t=0.22 | L t=0.40 (IS 1.78 / OOS -2.12) | own t=-0.41
+  COPX<-CPER h3: res t=-0.14 | L t=0.33 (IS 1.13 / OOS -0.81) | own t=0.35
+  IAU<-GLD h1: res t=3.58 | L t=3.28 (IS 4.02 / OOS -0.81) | own t=-3.44
+  IAU<-GLD h3: res t=3.66 | L t=3.18 (IS 3.84 / OOS -0.82) | own t=-3.72
+
+IAU/GLD 2021-03 kontrol:
+             IAU_c  IAU_r%  GLD_r%
+date                             
+2021-03-03  32.68   -1.03   -1.10
+2021-03-04  32.34   -1.04   -0.98
+2021-03-05  32.36    0.06    0.06
+2021-03-08  35.12    8.53   -1.04
+2021-03-09  32.72   -6.83    2.13
+2021-03-10  32.86    0.43    0.51
+2021-03-11  32.86    0.00   -0.09

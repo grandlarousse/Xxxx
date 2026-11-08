@@ -1,0 +1,560 @@
+{
+ "USO": {
+  "suruculer": [
+   {
+    "ad": "BNO",
+    "tv": "AMEX:BNO",
+    "corr_1y": 0.973,
+    "beta_1y": 1.005
+   },
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": 0.912,
+    "beta_1y": 1.457
+   },
+   {
+    "ad": "XLE",
+    "tv": "AMEX:XLE",
+    "corr_1y": 0.634,
+    "beta_1y": 1.373
+   },
+   {
+    "ad": "T10YIE_d",
+    "tv": "FRED:T10YIE",
+    "corr_1y": 0.596,
+    "beta_1y": 0.952
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "WTI ham petrol vadelisi (ön ay)",
+    "tv": "NYMEX:CL1!",
+    "neden": "dayanak; Globex ~23 saat, açılış boşluğunu önceden gösterir"
+   },
+   {
+    "ad": "WTI 2. ay",
+    "tv": "NYMEX:CL2!",
+    "neden": "CL2!/CL1!-1 kontango göstergesi"
+   },
+   {
+    "ad": "Brent vadelisi (ön ay)",
+    "tv": "ICEEUR:BRN1!",
+    "neden": "Brent; Londra saatlerinde fiyat keşfi"
+   },
+   {
+    "ad": "Dolar endeksi",
+    "tv": "TVC:DXY",
+    "neden": "dolar şoku emtiaya ters"
+   }
+  ],
+  "en_guclu_gecikmeli": "VVIX_dlog h3 t=-2.41 (IS -1.00/OOS -2.06, -23.1 bp/sd, FDR=H); KWEB h3 t=2.18 (IS 0.19/OOS 2.56, 25.0 bp/sd, FDR=H); DBA h1 t=2.15 (IS 0.85/OOS 2.56, 13.8 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(USL) h3 t=-1.70 (IS -1.63/OOS -0.35, -40.9 bp/sd)",
+  "gecerli": 0
+ },
+ "XLE": {
+  "suruculer": [
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": 0.702,
+    "beta_1y": 0.518
+   },
+   {
+    "ad": "BNO",
+    "tv": "AMEX:BNO",
+    "corr_1y": 0.647,
+    "beta_1y": 0.309
+   },
+   {
+    "ad": "USO",
+    "tv": "AMEX:USO",
+    "corr_1y": 0.634,
+    "beta_1y": 0.293
+   },
+   {
+    "ad": "T10YIE_d",
+    "tv": "FRED:T10YIE",
+    "corr_1y": 0.427,
+    "beta_1y": 0.314
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "S&P 500 e-mini",
+    "tv": "CME_MINI:ES1!",
+    "neden": "genel hisse yönü"
+   },
+   {
+    "ad": "WTI vadelisi",
+    "tv": "NYMEX:CL1!",
+    "neden": "petrol hareketi aynı gün yansır"
+   },
+   {
+    "ad": "Doğalgaz vadelisi",
+    "tv": "NYMEX:NG1!",
+    "neden": "gaz üreticileri"
+   }
+  ],
+  "en_guclu_gecikmeli": "KWEB h3 t=2.75 (IS 1.88/OOS 2.00, 20.4 bp/sd, FDR=H); UNL h1 t=2.62 (IS 2.02/OOS 1.44, 11.3 bp/sd, FDR=H); VVIX_dlog h3 t=-2.41 (IS -2.18/OOS -1.08, -19.3 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(XOP) h1 t=2.20 (IS 1.60/OOS 1.92, 18.1 bp/sd)",
+  "gecerli": 0
+ },
+ "KOLD": {
+  "suruculer": [
+   {
+    "ad": "UNG",
+    "tv": "AMEX:UNG",
+    "corr_1y": -0.966,
+    "beta_1y": -1.811
+   },
+   {
+    "ad": "UNL",
+    "tv": "AMEX:UNL",
+    "corr_1y": -0.933,
+    "beta_1y": -2.962
+   },
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": -0.237,
+    "beta_1y": -0.823
+   },
+   {
+    "ad": "USO",
+    "tv": "AMEX:USO",
+    "corr_1y": -0.212,
+    "beta_1y": -0.461
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "Henry Hub doğalgaz vadelisi (ön ay)",
+    "tv": "NYMEX:NG1!",
+    "neden": "dayanak; Globex'te gece işler"
+   },
+   {
+    "ad": "Doğalgaz 2. ay",
+    "tv": "NYMEX:NG2!",
+    "neden": "NG2!/NG1!-1 kontango göstergesi"
+   },
+   {
+    "ad": "Hollanda TTF gaz vadelisi",
+    "tv": "ICEENDEX:TFM1!",
+    "neden": "Avrupa gazı; ABD açılışından önce işler"
+   }
+  ],
+  "en_guclu_gecikmeli": "KWEB h3 t=-2.17 (IS -1.84/OOS -1.38, -50.8 bp/sd, FDR=H); GVZ_dlog h1 t=-2.16 (IS -2.70/OOS -0.68, -30.4 bp/sd, FDR=H); SLV h3 t=-1.74 (IS -1.35/OOS -1.20, -45.1 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(UNG) h1 t=-0.85 (IS -0.96/OOS -0.43, -14.2 bp/sd)",
+  "gecerli": 0
+ },
+ "BNO": {
+  "suruculer": [
+   {
+    "ad": "USO",
+    "tv": "AMEX:USO",
+    "corr_1y": 0.973,
+    "beta_1y": 0.942
+   },
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": 0.922,
+    "beta_1y": 1.426
+   },
+   {
+    "ad": "XLE",
+    "tv": "AMEX:XLE",
+    "corr_1y": 0.647,
+    "beta_1y": 1.356
+   },
+   {
+    "ad": "T10YIE_d",
+    "tv": "FRED:T10YIE",
+    "corr_1y": 0.61,
+    "beta_1y": 0.942
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "WTI ham petrol vadelisi (ön ay)",
+    "tv": "NYMEX:CL1!",
+    "neden": "dayanak; Globex ~23 saat, açılış boşluğunu önceden gösterir"
+   },
+   {
+    "ad": "WTI 2. ay",
+    "tv": "NYMEX:CL2!",
+    "neden": "CL2!/CL1!-1 kontango göstergesi"
+   },
+   {
+    "ad": "Brent vadelisi (ön ay)",
+    "tv": "ICEEUR:BRN1!",
+    "neden": "Brent; Londra saatlerinde fiyat keşfi"
+   },
+   {
+    "ad": "Dolar endeksi",
+    "tv": "TVC:DXY",
+    "neden": "dolar şoku emtiaya ters"
+   }
+  ],
+  "en_guclu_gecikmeli": "VVIX_dlog h3 t=-2.92 (IS -1.48/OOS -2.32, -24.9 bp/sd, FDR=H); KWEB h3 t=2.82 (IS 1.16/OOS 2.59, 32.4 bp/sd, FDR=H); VIX_dlog h3 t=-2.70 (IS -1.46/OOS -1.90, -22.9 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(USO) h1 t=0.73 (IS 0.65/OOS 0.38, 6.1 bp/sd)",
+  "gecerli": 0
+ },
+ "UCO": {
+  "suruculer": [
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": 0.99,
+    "beta_1y": 1.994
+   },
+   {
+    "ad": "BNO",
+    "tv": "AMEX:BNO",
+    "corr_1y": 0.931,
+    "beta_1y": 1.213
+   },
+   {
+    "ad": "USO",
+    "tv": "AMEX:USO",
+    "corr_1y": 0.916,
+    "beta_1y": 1.156
+   },
+   {
+    "ad": "XLE",
+    "tv": "AMEX:XLE",
+    "corr_1y": 0.696,
+    "beta_1y": 1.902
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "WTI ham petrol vadelisi (ön ay)",
+    "tv": "NYMEX:CL1!",
+    "neden": "dayanak; Globex ~23 saat, açılış boşluğunu önceden gösterir"
+   },
+   {
+    "ad": "WTI 2. ay",
+    "tv": "NYMEX:CL2!",
+    "neden": "CL2!/CL1!-1 kontango göstergesi"
+   },
+   {
+    "ad": "Brent vadelisi (ön ay)",
+    "tv": "ICEEUR:BRN1!",
+    "neden": "Brent; Londra saatlerinde fiyat keşfi"
+   },
+   {
+    "ad": "Dolar endeksi",
+    "tv": "TVC:DXY",
+    "neden": "dolar şoku emtiaya ters"
+   }
+  ],
+  "en_guclu_gecikmeli": "CPER h3 t=2.78 (IS 1.35/OOS 2.72, 42.8 bp/sd, FDR=H); VVIX_dlog h3 t=-2.59 (IS -1.44/OOS -2.42, -47.8 bp/sd, FDR=H); KWEB h3 t=2.45 (IS 0.52/OOS 2.96, 49.2 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(USO) h3 t=1.61 (IS 2.06/OOS -0.52, 67.8 bp/sd)",
+  "gecerli": 0
+ },
+ "SCO": {
+  "suruculer": [
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": -0.979,
+    "beta_1y": -1.96
+   },
+   {
+    "ad": "BNO",
+    "tv": "AMEX:BNO",
+    "corr_1y": -0.923,
+    "beta_1y": -1.195
+   },
+   {
+    "ad": "USO",
+    "tv": "AMEX:USO",
+    "corr_1y": -0.91,
+    "beta_1y": -1.141
+   },
+   {
+    "ad": "XLE",
+    "tv": "AMEX:XLE",
+    "corr_1y": -0.698,
+    "beta_1y": -1.895
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "WTI ham petrol vadelisi (ön ay)",
+    "tv": "NYMEX:CL1!",
+    "neden": "dayanak; Globex ~23 saat, açılış boşluğunu önceden gösterir"
+   },
+   {
+    "ad": "WTI 2. ay",
+    "tv": "NYMEX:CL2!",
+    "neden": "CL2!/CL1!-1 kontango göstergesi"
+   },
+   {
+    "ad": "Brent vadelisi (ön ay)",
+    "tv": "ICEEUR:BRN1!",
+    "neden": "Brent; Londra saatlerinde fiyat keşfi"
+   },
+   {
+    "ad": "Dolar endeksi",
+    "tv": "TVC:DXY",
+    "neden": "dolar şoku emtiaya ters"
+   }
+  ],
+  "en_guclu_gecikmeli": "VVIX_dlog h3 t=2.84 (IS 1.83/OOS 2.27, 44.0 bp/sd, FDR=H); KWEB h3 t=-2.48 (IS -0.77/OOS -2.68, -47.7 bp/sd, FDR=H); VIX_dlog h3 t=2.26 (IS 1.44/OOS 2.07, 38.0 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(USO) h3 t=0.75 (IS 0.88/OOS -0.21, 17.9 bp/sd)",
+  "gecerli": 0
+ },
+ "UNG": {
+  "suruculer": [
+   {
+    "ad": "UNL",
+    "tv": "AMEX:UNL",
+    "corr_1y": 0.951,
+    "beta_1y": 1.612
+   },
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": 0.253,
+    "beta_1y": 0.469
+   },
+   {
+    "ad": "BNO",
+    "tv": "AMEX:BNO",
+    "corr_1y": 0.223,
+    "beta_1y": 0.267
+   },
+   {
+    "ad": "USO",
+    "tv": "AMEX:USO",
+    "corr_1y": 0.221,
+    "beta_1y": 0.257
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "Henry Hub doğalgaz vadelisi (ön ay)",
+    "tv": "NYMEX:NG1!",
+    "neden": "dayanak; Globex'te gece işler"
+   },
+   {
+    "ad": "Doğalgaz 2. ay",
+    "tv": "NYMEX:NG2!",
+    "neden": "NG2!/NG1!-1 kontango göstergesi"
+   },
+   {
+    "ad": "Hollanda TTF gaz vadelisi",
+    "tv": "ICEENDEX:TFM1!",
+    "neden": "Avrupa gazı; ABD açılışından önce işler"
+   }
+  ],
+  "en_guclu_gecikmeli": "KWEB h3 t=2.55 (IS 2.26/OOS 1.62, 31.0 bp/sd, FDR=H); VVIX_dlog h1 t=-1.87 (IS -0.67/OOS -1.79, -13.7 bp/sd, FDR=H); FXI h3 t=1.74 (IS 1.42/OOS 1.23, 20.9 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(BOIL) h1 t=0.93 (IS -0.15/OOS 1.12, 7.8 bp/sd)",
+  "gecerli": 0
+ },
+ "BOIL": {
+  "suruculer": [
+   {
+    "ad": "UNG",
+    "tv": "AMEX:UNG",
+    "corr_1y": 0.978,
+    "beta_1y": 1.958
+   },
+   {
+    "ad": "UNL",
+    "tv": "AMEX:UNL",
+    "corr_1y": 0.959,
+    "beta_1y": 3.251
+   },
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": 0.263,
+    "beta_1y": 0.978
+   },
+   {
+    "ad": "BNO",
+    "tv": "AMEX:BNO",
+    "corr_1y": 0.231,
+    "beta_1y": 0.555
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "Henry Hub doğalgaz vadelisi (ön ay)",
+    "tv": "NYMEX:NG1!",
+    "neden": "dayanak; Globex'te gece işler"
+   },
+   {
+    "ad": "Doğalgaz 2. ay",
+    "tv": "NYMEX:NG2!",
+    "neden": "NG2!/NG1!-1 kontango göstergesi"
+   },
+   {
+    "ad": "Hollanda TTF gaz vadelisi",
+    "tv": "ICEENDEX:TFM1!",
+    "neden": "Avrupa gazı; ABD açılışından önce işler"
+   }
+  ],
+  "en_guclu_gecikmeli": "KWEB h3 t=2.52 (IS 2.21/OOS 1.60, 59.1 bp/sd, FDR=H); SLV h3 t=1.76 (IS 1.41/OOS 1.37, 64.3 bp/sd, FDR=H); GVZ_dlog h1 t=1.75 (IS 2.37/OOS 0.45, 25.2 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(UNG) h1 t=-0.70 (IS 0.32/OOS -0.87, -9.3 bp/sd)",
+  "gecerli": 0
+ },
+ "XOP": {
+  "suruculer": [
+   {
+    "ad": "XLE",
+    "tv": "AMEX:XLE",
+    "corr_1y": 0.918,
+    "beta_1y": 1.186
+   },
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": 0.742,
+    "beta_1y": 0.706
+   },
+   {
+    "ad": "BNO",
+    "tv": "AMEX:BNO",
+    "corr_1y": 0.706,
+    "beta_1y": 0.435
+   },
+   {
+    "ad": "USO",
+    "tv": "AMEX:USO",
+    "corr_1y": 0.688,
+    "beta_1y": 0.41
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "S&P 500 e-mini",
+    "tv": "CME_MINI:ES1!",
+    "neden": "genel hisse yönü"
+   },
+   {
+    "ad": "WTI vadelisi",
+    "tv": "NYMEX:CL1!",
+    "neden": "petrol hareketi aynı gün yansır"
+   },
+   {
+    "ad": "Doğalgaz vadelisi",
+    "tv": "NYMEX:NG1!",
+    "neden": "gaz üreticileri"
+   }
+  ],
+  "en_guclu_gecikmeli": "VVIX_dlog h3 t=-2.63 (IS -2.54/OOS -1.03, -23.1 bp/sd, FDR=H); UNL h3 t=2.46 (IS 1.61/OOS 1.74, 22.3 bp/sd, FDR=H); UNG h3 t=2.45 (IS 1.93/OOS 1.37, 20.7 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(UNG) h3 t=2.70 (IS 2.36/OOS 1.27, 109.8 bp/sd)",
+  "gecerli": 0
+ },
+ "DRIP": {
+  "suruculer": [
+   {
+    "ad": "XLE",
+    "tv": "AMEX:XLE",
+    "corr_1y": -0.919,
+    "beta_1y": -2.357
+   },
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": -0.739,
+    "beta_1y": -1.397
+   },
+   {
+    "ad": "BNO",
+    "tv": "AMEX:BNO",
+    "corr_1y": -0.7,
+    "beta_1y": -0.856
+   },
+   {
+    "ad": "USO",
+    "tv": "AMEX:USO",
+    "corr_1y": -0.681,
+    "beta_1y": -0.807
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "S&P 500 e-mini",
+    "tv": "CME_MINI:ES1!",
+    "neden": "genel hisse yönü"
+   },
+   {
+    "ad": "WTI vadelisi",
+    "tv": "NYMEX:CL1!",
+    "neden": "petrol hareketi aynı gün yansır"
+   },
+   {
+    "ad": "Doğalgaz vadelisi",
+    "tv": "NYMEX:NG1!",
+    "neden": "gaz üreticileri"
+   }
+  ],
+  "en_guclu_gecikmeli": "VVIX_dlog h3 t=2.46 (IS 2.27/OOS 0.98, 46.8 bp/sd, FDR=H); UNG h3 t=-2.20 (IS -1.61/OOS -1.39, -41.8 bp/sd, FDR=H); UNL h3 t=-2.16 (IS -1.22/OOS -1.73, -43.1 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(XLE) h1 t=-1.69 (IS -1.60/OOS -0.66, -47.9 bp/sd)",
+  "gecerli": 0
+ },
+ "PDBC": {
+  "suruculer": [
+   {
+    "ad": "BNO",
+    "tv": "AMEX:BNO",
+    "corr_1y": 0.899,
+    "beta_1y": 0.389
+   },
+   {
+    "ad": "USO",
+    "tv": "AMEX:USO",
+    "corr_1y": 0.893,
+    "beta_1y": 0.374
+   },
+   {
+    "ad": "USL",
+    "tv": "AMEX:USL",
+    "corr_1y": 0.886,
+    "beta_1y": 0.593
+   },
+   {
+    "ad": "XLE",
+    "tv": "AMEX:XLE",
+    "corr_1y": 0.643,
+    "beta_1y": 0.583
+   }
+  ],
+  "gercek_zamanli": [
+   {
+    "ad": "WTI vadelisi",
+    "tv": "NYMEX:CL1!",
+    "neden": "en büyük bileşen enerji"
+   },
+   {
+    "ad": "Brent",
+    "tv": "ICEEUR:BRN1!",
+    "neden": "petrol"
+   },
+   {
+    "ad": "Altın",
+    "tv": "COMEX:GC1!",
+    "neden": "metal"
+   },
+   {
+    "ad": "Bakır",
+    "tv": "COMEX:HG1!",
+    "neden": "metal"
+   },
+   {
+    "ad": "Mısır",
+    "tv": "CBOT:ZC1!",
+    "neden": "tarım"
+   }
+  ],
+  "en_guclu_gecikmeli": "KWEB h3 t=3.08 (IS 2.02/OOS 2.55, 17.5 bp/sd, FDR=H); FXI h3 t=2.91 (IS 1.71/OOS 2.48, 15.8 bp/sd, FDR=H); KWEB h1 t=2.88 (IS 1.72/OOS 2.63, 8.9 bp/sd, FDR=H)",
+  "yetisme_ek": "gap(DBA) h1 t=2.08 (IS 2.18/OOS 0.92, 12.3 bp/sd)",
+  "gecerli": 0
+ }
+}

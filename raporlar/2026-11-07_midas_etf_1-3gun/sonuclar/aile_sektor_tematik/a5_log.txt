@@ -1,0 +1,102 @@
+                                                               label     n  mean_gross_bp  mean_net_bp  t_cl  is_net_bp  oos_net_bp  years_pos_frac  mean_hedged_bp  t_hedged_cl
+0          FOMC REPS37 C0 (karar oncesi kapanis->karar gunu kapanis)  2645          11.28        -3.95 -0.23       2.72       -9.51             0.6            6.54         1.15
+1                        FOMC REPS37 O1 (karar gunu acilis->kapanis)  2645         -11.68       -26.91 -1.89     -15.87      -36.11             0.1            4.67         0.89
+2                FOMC REPS37 C1 (karar gunu kapanis->ertesi kapanis)  2645         -21.42       -36.65 -1.92     -63.21      -14.52             0.4           -9.85        -1.61
+3  FOMC faize_duyarli6 C0 (karar oncesi kapanis->karar gunu kapanis)   438         -13.50       -27.74 -1.79     -18.45      -35.84             0.2          -20.16        -2.46
+4                FOMC faize_duyarli6 O1 (karar gunu acilis->kapanis)   438         -26.33       -40.58 -3.01     -31.93      -48.12             0.0          -16.89        -2.30
+5        FOMC faize_duyarli6 C1 (karar gunu kapanis->ertesi kapanis)   438         -13.08       -27.32 -1.60     -52.21       -5.62             0.6            3.28         0.38
+
+TOPLAM KENDİ TEST SAYISI: 1302  BH-FDR q=0.10 geçen: 92  bunlardan pozitif etki: 22
+                kaynak                                                 test             p     etki_bp         t  fdr10
+765   hipotez_KALDIRAC                           SMH IBS_lt02 -> SOXL C0 h1  3.105397e-05  146.458054  4.225516   True
+738   hipotez_KALDIRAC                          SOXX IBS_lt02 -> SOXL C0 h1  4.193936e-05  138.356476  4.153601   True
+1293       strateji_S1                           SOXX IBS<0.2 -> SOXX C0 h1  1.045087e-04   43.273424  3.911629   True
+1284       strateji_S1                             SMH IBS<0.2 -> SMH C0 h1  2.494342e-04   41.767591  3.689904   True
+766   hipotez_KALDIRAC                           SMH IBS_lt02 -> SOXL C0 h2  6.828255e-04  160.493056  3.430371   True
+1285       strateji_S1                             SMH IBS<0.2 -> SMH C0 h2  7.108103e-04   51.706828  3.410961   True
+783   hipotez_KALDIRAC                     SMH IBS_lt01_dusus -> SOXL C0 h1  9.660736e-04  178.109338  3.350717   True
+800   hipotez_KALDIRAC                           XLK IBS_lt02 -> TECL C1 h3  9.620383e-04  156.813176  3.337203   True
+1286       strateji_S1                             SMH IBS<0.2 -> SMH C0 h3  9.625034e-04   65.969386  3.328824   True
+756   hipotez_KALDIRAC                    SOXX IBS_lt01_dusus -> SOXL C0 h1  1.112502e-03  176.005392  3.308203   True
+1294       strateji_S1                           SOXX IBS<0.2 -> SOXX C0 h2  1.119206e-03   50.925014  3.281334   True
+741   hipotez_KALDIRAC                          SOXX IBS_lt02 -> SOXL O1 h1  1.578601e-03   77.163329  3.186907   True
+757   hipotez_KALDIRAC                    SOXX IBS_lt01_dusus -> SOXL C0 h2  1.702489e-03  213.712746  3.181263   True
+784   hipotez_KALDIRAC                     SMH IBS_lt01_dusus -> SOXL C0 h2  1.730681e-03  209.052109  3.177627   True
+739   hipotez_KALDIRAC                          SOXX IBS_lt02 -> SOXL C0 h2  1.716849e-03  147.853529  3.162192   True
+812   hipotez_KALDIRAC                     XLK IBS_lt01_dusus -> TECL C0 h3  2.880130e-03  195.224052  3.024409   True
+1295       strateji_S1                           SOXX IBS<0.2 -> SOXX C0 h3  3.829093e-03   60.432249  2.910879   True
+767   hipotez_KALDIRAC                           SMH IBS_lt02 -> SOXL C0 h3  4.192799e-03  191.683799  2.884806   True
+793   hipotez_KALDIRAC                           XLK IBS_lt02 -> TECL C0 h2  4.483304e-03  103.048525  2.863351   True
+768   hipotez_KALDIRAC                           SMH IBS_lt02 -> SOXL O1 h1  5.572142e-03   73.239715  2.790699   True
+811   hipotez_KALDIRAC                     XLK IBS_lt01_dusus -> TECL C0 h2  6.484207e-03  144.899179  2.755896   True
+847   hipotez_KALDIRAC                           XBI IBS_lt02 -> LABU C0 h2  6.897539e-03  106.167339  2.718091   True
+153        havuz_genel                              MO_ibs_gt08 C0 h1 sabit  6.388828e-03  -12.440725 -2.739186   True
+968         leadlag_ek                                          QQQ->IGV h3  5.831539e-03  -36.913035 -2.759468   True
+159        havuz_genel                              MO_ibs_gt08 C1 h1 sabit  5.538018e-03  -11.334610 -2.786592   True
+1224     leadlag_kural         EEM_z>+1 -> al KWEB (beklenen negatif) C1 h1  4.579021e-03  -41.011297 -2.856825   True
+210        havuz_genel                                   CA_pzt O1 h1 sabit  4.420840e-03  -13.916243 -2.861527   True
+1146     leadlag_kural            kontrol: WCLD kendi z<-1 -> al WCLD C0 h1  4.206511e-03  -49.270308 -2.889440   True
+222        havuz_genel                                   CA_sal C1 h1 sabit  3.956667e-03  -18.950795 -2.895740   True
+1262    xme_copx_kural                            XME z>+1 -> COPX al O1 h1  4.006584e-03  -24.346551 -2.897060   True
+246        havuz_genel                                   CA_cum O1 h1 sabit  3.895066e-03  -12.359588 -2.901150   True
+132        havuz_genel                             MO_20g_zirve C1 h1 sabit  3.803920e-03   -9.856474 -2.909025   True
+1280    xme_copx_kural         XME z<-1 -> COPX al (beklenen negatif) O1 h1  3.763944e-03  -26.372440 -2.917802   True
+604       hipotez_CIFT                           OIH/XLE z5<-2 al OIH C0 h2  5.863951e-03 -255.866355 -2.924262   True
+225        havuz_genel                                   CA_car C0 h1 sabit  3.535559e-03  -19.324847 -2.931635   True
+309    hipotez_KALINTI                           kalinti z1<-2 REPS37 O1 h1  3.546520e-03  -23.180556 -2.932141   True
+138        havuz_genel                               MO_z1_gt_2 O1 h1 sabit  3.561114e-03  -28.433103 -2.934636   True
+979         leadlag_ek                                          QQQ->XBI h1  3.069939e-03  -20.574031 -2.963527   True
+1222     leadlag_kural         EEM_z>+1 -> al KWEB (beklenen negatif) O1 h2  2.944131e-03  -51.695446 -2.998167   True
+1258              fomc  FOMC faize_duyarli6 O1 (karar gunu acilis->kapanis)  3.563860e-03  -40.576694 -3.013454   True
+166        havuz_genel                           MO_trend_10_50 O1 h2 sabit  2.663311e-03  -11.936970 -3.020449   True
+162        havuz_genel                           MO_trend_10_50 C0 h1 sabit  2.481116e-03   -8.547803 -3.042236   True
+1176     leadlag_kural         QQQ_z>+1 -> al CIBR (beklenen negatif) O1 h1  2.297018e-03  -19.013877 -3.069598   True
+969         leadlag_ek                                          XLK->IGV h1  2.033764e-03  -29.904700 -3.088490   True
+220        havuz_genel                                   CA_sal O1 h2 sabit  2.060457e-03  -24.367536 -3.098448   True
+363    hipotez_ST02_03                       ST03_kontrol_5g_en_kotu3 C1 h1  1.942118e-03   -8.972599 -3.116145   True
+345    hipotez_ST02_03                        ST02_kontrol_en_iyi2_1g C1 h1  1.872602e-03   -8.416335 -3.127098   True
+148        havuz_genel                         MO_3gun_yukselis O1 h2 sabit  1.830151e-03  -17.010017 -3.134578   True
+981         leadlag_ek                                          SPY->XBI h1  1.588648e-03  -24.889912 -3.161435   True
+157        havuz_genel                              MO_ibs_gt08 O1 h2 sabit  1.620368e-03  -17.463692 -3.170302   True
+201        havuz_genel                          CA_tatil_oncesi O1 h1 sabit  1.420871e-03  -30.439524 -3.295930   True
+532       hipotez_CIFT                           OIH/XLE z1<-2 al OIH C1 h1  1.488054e-03  -81.903417 -3.332961   True
+1041     leadlag_kural          QQQ_z>+1 -> al IGV (beklenen negatif) O1 h1  9.241856e-04  -24.296398 -3.338857   True
+177        havuz_genel                             MO_rsi2_gt90 C1 h1 sabit  8.303290e-04  -10.915426 -3.364923   True
+956         leadlag_ek                                         AAPL->XLK h3  7.639021e-04  -30.460478 -3.369687   True
+274        havuz_genel                           VX_kontango_09 O1 h2 sabit  8.360985e-04  -14.955879 -3.370759   True
+144        havuz_genel                         MO_3gun_yukselis C0 h1 sabit  5.336485e-04  -13.310703 -3.487568   True
+339    hipotez_ST02_03                        ST02_kontrol_en_iyi2_1g C0 h1  5.261817e-04   -8.801093 -3.490718   True
+126        havuz_genel                             MO_20g_zirve C0 h1 sabit  4.912997e-04  -11.250920 -3.510857   True
+228        havuz_genel                                   CA_car O1 h1 sabit  3.866531e-04  -18.018216 -3.574753   True
+330    hipotez_ST02_03                               ST02_en_kotu2_1g C0 h1  3.847811e-04   -9.945085 -3.575626   True
+1001        leadlag_ek                                         EEM->KWEB h1  3.105635e-04  -34.339008 -3.611359   True
+354    hipotez_ST02_03                                ST03_5g_en_iyi3 C1 h1  2.868161e-04   -8.651477 -3.653842   True
+967         leadlag_ek                                          QQQ->IGV h1  2.405958e-04  -32.107774 -3.677368   True
+971         leadlag_ek                                          SPY->IGV h1  2.147452e-04  -35.368185 -3.706428   True
+237        havuz_genel                                   CA_per O1 h1 sabit  2.145169e-04  -17.419913 -3.730736   True
+1219     leadlag_kural         EEM_z>+1 -> al KWEB (beklenen negatif) C0 h2  1.905307e-04  -73.519868 -3.778330   True
+1218     leadlag_kural         EEM_z>+1 -> al KWEB (beklenen negatif) C0 h1  1.848218e-04  -50.137570 -3.780374   True
+300       hipotez_ST01                                           ST01 O1 h1  1.656263e-04  -11.269168 -3.798548   True
+84         havuz_genel                       MR_5gun_dip_ust200 O1 h1 sabit  1.326842e-04  -12.787337 -3.854436   True
+336    hipotez_ST02_03                               ST02_en_kotu2_1g C1 h1  9.511885e-05  -11.143544 -3.935959   True
+357    hipotez_ST02_03                       ST03_kontrol_5g_en_kotu3 C0 h1  8.556933e-05  -10.932443 -3.962116   True
+348    hipotez_ST02_03                                ST03_5g_en_iyi3 C0 h1  8.496463e-05   -8.879961 -3.963864   True
+1221     leadlag_kural         EEM_z>+1 -> al KWEB (beklenen negatif) O1 h1  8.728615e-05  -30.101877 -3.971123   True
+1274    xme_copx_kural                  kontrol: COPX z>+1 -> COPX al O1 h1  7.278509e-05  -31.552070 -4.012809   True
+219        havuz_genel                                   CA_sal O1 h1 sabit  5.828136e-05  -20.515030 -4.056177   True
+171        havuz_genel                             MO_rsi2_gt90 C0 h1 sabit  5.747115e-05  -13.812790 -4.060845   True
+366    hipotez_ST02_03                                       kosulsuz C0 h1  4.755570e-05   -9.199559 -4.104792   True
+52         havuz_genel                       MR_ibs_lt02_ust200 O1 h1 sabit  3.624242e-05  -13.891193 -4.170662   True
+130        havuz_genel                             MO_20g_zirve O1 h2 sabit  2.940544e-05  -18.372723 -4.220963   True
+175        havuz_genel                             MO_rsi2_gt90 O1 h2 sabit  2.327646e-05  -18.953295 -4.275138   True
+270        havuz_genel                           VX_kontango_09 C0 h1 sabit  2.080350e-06  -12.955786 -4.828283   True
+333    hipotez_ST02_03                               ST02_en_kotu2_1g O1 h1  1.324759e-09  -12.271063 -6.185725   True
+156        havuz_genel                              MO_ibs_gt08 O1 h1 sabit  9.462419e-11  -20.747936 -6.623205   True
+360    hipotez_ST02_03                       ST03_kontrol_5g_en_kotu3 O1 h1  2.577277e-11  -13.654275 -6.830095   True
+342    hipotez_ST02_03                        ST02_kontrol_en_iyi2_1g O1 h1  4.865885e-13  -14.038878 -7.434336   True
+351    hipotez_ST02_03                                ST03_5g_en_iyi3 O1 h1  1.103597e-13  -12.408941 -7.650696   True
+147        havuz_genel                         MO_3gun_yukselis O1 h1 sabit  1.464851e-14  -21.732191 -7.945655   True
+174        havuz_genel                             MO_rsi2_gt90 O1 h1 sabit  2.239979e-19  -23.921521 -9.417578   True
+273        havuz_genel                           VX_kontango_09 O1 h1 sabit  1.547183e-19  -19.046112 -9.617287   True
+165        havuz_genel                           MO_trend_10_50 O1 h1 sabit  8.830209e-21  -18.575756 -9.811960   True
+129        havuz_genel                             MO_20g_zirve O1 h1 sabit  7.916944e-21  -23.409938 -9.836977   True

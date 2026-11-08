@@ -1,0 +1,972 @@
+{
+ "family": "tek_hisse_kaldiracli",
+ "ozet": "Tek hisse kaldıraçlı aile (12 ETF, 9 bağımsız dayanak). ETF geçmişleri kısa (2022+) ve Direxion/GraniteShares ürünleri 2024 başına kadar 1,5x idi; bu yüzden kurallar dayanak hisselerde 2016-11..2026-11 sentetik kalibre 2x ile test edilip gerçek ETF verisiyle kontrol edildi. Toplam 7310 test, birleşik BH-FDR'yi geçen pozitif 4 (hepsi tek hisse satırı: seçim yanlılığı). Eşiği geçen tek aday S1: ön-kayıtlı TH03 (hisse RSI(2)<10 ve hisse>SMA200 -> 2x ETF, SMA5'e dönüşte ya da en çok 3 günde çık), 7 mega-cap havuzunda C0 n=605, net 111,0 bp, t=3,13, IS 103,8 / OOS 117,1 bp, O1'de de 101,2 bp (t=2,93); gerçek ETF'de (2022+) C0 127,6 bp t=2,65. Ancak birleşik FDR'yi geçmiyor, koşulsuz sürüklenme düşülmüş zamanlama kenarı t~2,1 ve bunun önemli kısmı ~24 bilanço öncesi dip işleminden geliyor (bilanço işlemleri hariç kenar t~1,4), dayanaklar sonradan kazananlar: güven düşük. Kripto (MSTU/CONL) ve ters ürünler (TSLQ/NVDS) için doğrulanmış strateji yok; ters ETF almak tüm testlerde zarar. Doğrulanmış gecikmeli öncü yok (BTC, SMH, QQQ dahil); ETF'ler kapalıyken izlenecekler: hissenin kendi uzatılmış seansı, CME_MINI:NQ1!, MSTU için COINBASE:BTCUSD. 2x ETF'ler 1-3 günde 2x hisseden 9-14 bp (MSTU 57 bp) geride. Midas'ta bu ürünlerin bulunurluğu resmî doğrulanmadı.",
+ "izleme": [
+  {
+   "sym": "NVDL",
+   "tv": "NASDAQ:NVDL",
+   "karar": "kabul",
+   "gerekce": "S1 sepetinin NVDA aracı (sinyal NASDAQ:NVDA). Medyan günlük hacim 626 mn$, maliyet 16,2 bp, maliyet/1g oynaklık 0,034. Gerçekleşen kaldıraç son 1y 1,98 (2024 başına kadar 1,5x idi). 1y getiri %-23, son 1y en kötü gün %-18,6. NVDA 2x'lerin en likidi (NVDU'dan 13 kat hacim, daha dar makas). Midas'ta bulunurluğu resmî doğrulanmadı.",
+   "likidite_mn_usd": 625.6,
+   "maliyet_bp": 16.2,
+   "vol_1d_bp": 479.4
+  },
+  {
+   "sym": "TSLL",
+   "tv": "NASDAQ:TSLL",
+   "karar": "kabul",
+   "gerekce": "S1 sepetinin TSLA aracı (sinyal NASDAQ:TSLA). Medyan günlük hacim 969 mn$, maliyet 23,4 bp, maliyet/1g oynaklık 0,041. Gerçekleşen kaldıraç son 1y 1,99 (2024 başına kadar 1,5x idi). 1y getiri %-54, son 1y en kötü gün %-29,2. Fiyat 8,8$: 1 sentlik adım ~11 bp makas, maliyet 23 bp (ailede CONL'den sonra en yüksek). Midas'ta bulunurluğu resmî doğrulanmadı.",
+   "likidite_mn_usd": 968.6,
+   "maliyet_bp": 23.4,
+   "vol_1d_bp": 575.4
+  },
+  {
+   "sym": "AAPU",
+   "tv": "NASDAQ:AAPU",
+   "karar": "kabul",
+   "gerekce": "S1 sepetinin AAPL aracı (sinyal NASDAQ:AAPL). Medyan günlük hacim 54 mn$, maliyet 16,0 bp, maliyet/1g oynaklık 0,051. Gerçekleşen kaldıraç son 1y 1,99 (2024 başına kadar 1,5x idi). 1y getiri %39, son 1y en kötü gün %-14,9. AAPL en düşük oynaklıklı dayanak: S1 kenarı en zayıf (C0 +54 bp, t=0,93). Midas'ta bulunurluğu resmî doğrulanmadı.",
+   "likidite_mn_usd": 54.3,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 312.0
+  },
+  {
+   "sym": "AMZU",
+   "tv": "NASDAQ:AMZU",
+   "karar": "kabul",
+   "gerekce": "S1 sepetinin AMZN aracı (sinyal NASDAQ:AMZN). Medyan günlük hacim 83 mn$, maliyet 16,0 bp, maliyet/1g oynaklık 0,038. Gerçekleşen kaldıraç son 1y 1,99 (2024 başına kadar 1,5x idi). 1y getiri %-8, son 1y en kötü gün %-11,1.  Midas'ta bulunurluğu resmî doğrulanmadı.",
+   "likidite_mn_usd": 82.8,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 424.4
+  },
+  {
+   "sym": "METU",
+   "tv": "NASDAQ:METU",
+   "karar": "kabul",
+   "gerekce": "S1 sepetinin META aracı (sinyal NASDAQ:META). Medyan günlük hacim 100 mn$, maliyet 16,7 bp, maliyet/1g oynaklık 0,032. Gerçekleşen kaldıraç son 1y 2,00 (2024 başına kadar 1,5x idi). 1y getiri %-26, son 1y en kötü gün %-17,4. Gerçek ETF geçmişi kısa (2024-06+); S1 gerçek veride n=21, -45 bp (dayanakta +45 bp). Midas'ta bulunurluğu resmî doğrulanmadı.",
+   "likidite_mn_usd": 99.9,
+   "maliyet_bp": 16.7,
+   "vol_1d_bp": 520.8
+  },
+  {
+   "sym": "MSFU",
+   "tv": "NASDAQ:MSFU",
+   "karar": "kabul",
+   "gerekce": "S1 sepetinin MSFT aracı (sinyal NASDAQ:MSFT). Medyan günlük hacim 116 mn$, maliyet 16,0 bp, maliyet/1g oynaklık 0,038. Gerçekleşen kaldıraç son 1y 1,98 (2024 başına kadar 1,5x idi). 1y getiri %-5, son 1y en kötü gün %-20,2. S1'de en güçlü dayanak (MSFT C0 +141 bp, t=2,28) ama tek başına seçme: havuzla uygula. Midas'ta bulunurluğu resmî doğrulanmadı.",
+   "likidite_mn_usd": 115.6,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 422.5
+  },
+  {
+   "sym": "GGLL",
+   "tv": "NASDAQ:GGLL",
+   "karar": "kabul",
+   "gerekce": "S1 sepetinin GOOGL aracı (sinyal NASDAQ:GOOGL). Medyan günlük hacim 141 mn$, maliyet 16,0 bp, maliyet/1g oynaklık 0,037. Gerçekleşen kaldıraç son 1y 2,01 (2024 başına kadar 1,5x idi). 1y getiri %-19, son 1y en kötü gün %-25,6.  Midas'ta bulunurluğu resmî doğrulanmadı.",
+   "likidite_mn_usd": 140.9,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 427.7
+  },
+  {
+   "sym": "NVDU",
+   "tv": "NASDAQ:NVDU",
+   "karar": "yedek",
+   "gerekce": "NVDL'nin kopyası (aynı dayanak, 2x; günlük getiri korelasyonu 1,00). Hacim 49 mn$, maliyet 20 bp (NVDL 16 bp). Yalnız Midas'ta NVDL yoksa S1 için.",
+   "likidite_mn_usd": 48.5,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 478.9
+  },
+  {
+   "sym": "MSTU",
+   "tv": "CBOE:MSTU",
+   "karar": "yedek",
+   "gerekce": "Doğrulanmış strateji YOK (S1 MSTR'de n=68, t=0,78; TH06 BTC öncülüğü yok). Yalnız net sürücüyle takip edilebilir: BTC (corr_1y 0,86); BTC'nin gece hareketi (16:00->09:00 ET) MSTR açılış boşluğu varyansının %77'ini açıklıyor. Maliyet/oynaklık oranı ailede en iyi (0,016) ama 3 günlük tutuşta 2xMSTR'den ort. -57 bp geride (swap finansmanı), 1y getiri %-89, son 1y en kötü gün %-33,9. Çok küçük pozisyon dışında önerilmez.",
+   "likidite_mn_usd": 176.0,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 1025.6
+  },
+  {
+   "sym": "CONL",
+   "tv": "NASDAQ:CONL",
+   "karar": "red",
+   "gerekce": "Fiyat 2,79$: 1 sentlik adım ~36 bp makas, maliyet 48 bp (ailede en yüksek). 1y getiri %-90. COIN'de S1 negatif (n=31, -71 bp); BTC öncülüğü yok. Kripto maruziyeti için MSTU daha ucuz.",
+   "likidite_mn_usd": 111.0,
+   "maliyet_bp": 47.8,
+   "vol_1d_bp": 906.4
+  },
+  {
+   "sym": "TSLQ",
+   "tv": "NASDAQ:TSLQ",
+   "karar": "red",
+   "gerekce": "Ters TSLA (2024-07'den beri -2x; öncesi -1x; tarama.csv 'lev=-1' eski). Ailede doğrulanmış kısa yön sinyali yok: büyük yükseliş sonrası ters (TH02c) C0 h2 -253 bp, RSI2>90 ve SMA200 altı (TH07) -44 bp, S1 aynası -194 bp. Uzun dönem pozitif sürüklenmeye karşı pozisyon.",
+   "likidite_mn_usd": 188.7,
+   "maliyet_bp": 17.7,
+   "vol_1d_bp": 576.3
+  },
+  {
+   "sym": "NVDS",
+   "tv": "NASDAQ:NVDS",
+   "karar": "red",
+   "gerekce": "Ters NVDA (-1,5x; 2024-07 öncesi -1,25x). Hacim yalnız 7,6 mn$, maliyet 27 bp, maliyet/oynaklık 0,075 (ailede en kötü). Büyük NVDA yükselişinden sonra NVDS almak (TH02c) C0 h2 -254 bp t=-3,05 (FDR'de anlamlı ZARAR); S1 aynası -324 bp t=-3,33.",
+   "likidite_mn_usd": 7.6,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 361.6
+  }
+ ],
+ "stratejiler": [
+  {
+   "id": "tek_hisse_kaldiracli_S1",
+   "ad": "Mega-cap hisse RSI(2) dibi (hisse 200 günlük ortalamanın üstünde) -> 2x tek hisse ETF, SMA5'e dönüşte çıkış (en çok 3 gün)",
+   "kural": "TradingView günlük grafik, sinyal DAYANAK HİSSENİN verisinden (ETF'nin kendi fiyatından değil): NASDAQ:NVDA, NASDAQ:TSLA, NASDAQ:AAPL, NASDAQ:AMZN, NASDAQ:META, NASDAQ:MSFT, NASDAQ:GOOGL. Göstergeler (kaynak: kapanış): RSI uzunluk 2 (standart Wilder RSI), SMA 200, SMA 5. Giriş sinyali t günü: hisse RSI(2) < 10 VE hisse kapanışı > hisse SMA(200). İşlem aracı (aynı hissenin 2x ETF'i): NVDA->NASDAQ:NVDL, TSLA->NASDAQ:TSLL, AAPL->NASDAQ:AAPU, AMZN->NASDAQ:AMZU, META->NASDAQ:METU, MSFT->NASDAQ:MSFU, GOOGL->NASDAQ:GGLL. Çıkış: girişten sonraki işlem günlerinde hisse kapanışı > hisse SMA(5) olan ilk gün kapanışta sat; olmazsa girişten sonraki 3. işlem günü kapanışında sat. Aynı hissede pozisyondayken gelen yeni sinyal yok sayılır; hisseler birbirinden bağımsız işlenir (aynı anda birden çok pozisyon olabilir: medyan 2, en çok 7). Stop yok (backtest stopsuz). Bilanço: tutuş içinde bilanço tepki günü olan işlemler ayrıca raporlandı (bkz. notlar).",
+   "giris": "C0 (ana): sinyal günü kapanıştan hemen önce (TR kış 23:45-23:58, yaz 22:45-22:58) hissenin canlı fiyatıyla RSI(2) ve SMA200'ü kontrol edip ETF'i normal seansta piyasa ya da agresif limit emirle al (Midas'ta MOC/LOC yok). RSI(2) son fiyata çok duyarlı: eşiğe yakınsa O1'i kullan. O1 (yedek, kapanış izlemeye gerek yok): ertesi gün açılışta al, TR kış 17:30 (yaz 16:30); pre-market (TR kış 12:00-17:30) yalnız limit emir.",
+   "tutus": "En çok 3 işlem günü (ortalama 2,5 gün: işlemlerin %62'si 3 gün, %22'si 2 gün, %15'i 1 gün).",
+   "cikis": "Her işlem günü kapanıştan hemen önce (TR kış 23:45-23:58, yaz 22:45-22:58) hisse fiyatı kendi SMA(5)'inin üstündeyse ETF'i sat; değilse sinyal gününden sonraki 3. işlem günü (t+3) aynı saatte sat. C0'da kontrol t+1, t+2, t+3 kapanışlarında; O1'de giriş günü (t+1) kapanışından itibaren, en geç t+3. Kapanış sonrası (TR kış 00:00-04:00) yalnız limit emirle satılabilir; backtest kapanış fiyatını kullanır.",
+   "islem_etf": [
+    "NVDL",
+    "TSLL",
+    "AAPU",
+    "AMZU",
+    "METU",
+    "MSFU",
+    "GGLL"
+   ],
+   "sinyal_etf": "Dayanak hisseler: NASDAQ:NVDA, NASDAQ:TSLA, NASDAQ:AAPL, NASDAQ:AMZN, NASDAQ:META, NASDAQ:MSFT, NASDAQ:GOOGL",
+   "n": 605,
+   "brut_bp": 128.1,
+   "net_bp": 111.0,
+   "t": 3.13,
+   "is_net_bp": 103.8,
+   "oos_net_bp": 117.1,
+   "kazanma": 0.635,
+   "pf": 1.48,
+   "maxdd": -0.115,
+   "en_kotu_bp": -4457.0,
+   "yil_pozitif": 0.8,
+   "test_sayisi": 7310,
+   "fdr": "Birleşik BH-FDR q=0,10, toplam 7310 test (genel_tum aile satırları + dayanak genel kütüphane hisse ve havuz satırları + hipotez, öncü-kural, lead-lag regresyon, bilanço ve S1 kontrol testleri): eşik p<=4.1e-05, geçen 4 (pozitif 4; hepsi tek hisse satırı, seçim). S1 ana satırı (C0 havuz) p=0.0019: birleşik FDR'yi GEÇMEZ. Ön-kayıtlı hipotez ailesi içinde (105 havuz testi) GEÇER (C0 ve O1 havuz satırları fdr_havuz=True).",
+   "maliyet_duyarlilik": "Dayanak havuzu C0: 1.000$ 93,0 bp (t=2,62), 2.500$ 111,0 bp (t=3,13), 10.000$ 120,0 bp (t=3,38). O1: 83,2 / 101,2 / 110,2 bp. Gidiş-dönüş maliyet 16-23 bp (TSLL 23 bp: 8,8$ fiyatta 1 sentlik adım ~11 bp makas). Ortalama brüt kenar (128 bp) maliyetin ~6-8 katı.",
+   "mod_saglamlik": "Dayanak havuzu (2016-11..2026-11, sentetik kalibre 2x): C0 net 111,0 bp t=3,13 (IS 103,8 t=2,01, OOS 117,1 t=2,40); O1 101,2 t=2,93 (IS 100,7, OOS 101,5); C1 75,9 t=2,14 (IS 65,4, OOS 85,4). Zamanlama kenarı (aynı tutuş süreli koşulsuz getiri düşülmüş): C0 74,0 bp t=2,06, O1 76,1 bp t=2,18, C1 46,7 bp t=1,30: kenar ilk günlerde, gecikmeli girişte (C1) yarıya iner. Gerçek ETF verisi (2022+, sinyal hisseden): C0 127,6 bp t=2,65 (n=261), O1 107,8 t=2,38, C1 85,5 t=1,66; yalnız 2x dönemi (2024+): C0 149,2 t=2,44, O1 122,1 t=2,10. Kapanışa bağımlı değil (O1'de de çalışıyor).",
+   "aile_ici": "Dayanak (C0, hisse başına): NVDA->NVDL n=95 net 201 bp t=1,98; TSLA->TSLL n=69 net 163 bp t=0,94; AAPL->AAPU n=100 net 54 bp t=0,93; AMZN->AMZU n=89 net 84 bp t=1,33; META->METU n=85 net 45 bp t=0,66; MSFT->MSFU n=78 net 141 bp t=2,28; GOOGL->GGLL n=89 net 104 bp t=1,84. 7/7 pozitif, tek başına t>=2 yalnız MSFT: kanıt havuzdan geliyor. Gerçek ETF (C0, 2022+, 2022-24'te Direxion/GraniteShares ürünleri 1,5x idi): NVDL n=48 net 362 t=2,75; TSLL n=34 net 103 t=0,51; AAPU n=45 net 35 t=0,57; AMZU n=44 net 85 t=1,04; METU n=21 net -45 t=-0,29; MSFU n=29 net 70 t=0,92; GGLL n=40 net 100 t=1,36. Kopya NVDU: NVDL ile aynı sonuç (bağımsız kanıt değil). Kripto vekilleri (MSTR/COIN, TH03 kapsamı dışı): n=99 net 99,1 bp t=0,70 (COIN negatif) -> MSTU/CONL'e uygulanmaz. Ayna: aynı sinyalle ters ETF almak NVDS -324 bp (t=-3,33), TSLQ -194 bp (t=-0,98): beklenen yönde. Komşu parametreler (RSI<5/10/15, trend filtresi var/yok, SMA5 çıkış ya da sabit 1-3 gün; C0 ve O1, 48 varyant): 47 pozitif, 30 tanesi t>=2; RSI<5 ve trend filtresiz varyantlar benzer ya da biraz daha iyi, RSI<15 ve sabit 1 gün zayıf. Parametre seçilmedi (TH03 ön-kayıtlı). Genel kütüphanedeki aynı kural ETF'nin KENDİ fiyatıyla hesaplanınca zayıf (genel_tum: MR_rsi2_lt10_ust200 C0 h3 erken çıkışlı, 9 ETF ort. +12 bp): sinyali hisseden hesapla.",
+   "guven": "dusuk",
+   "betik": "python3 -I /home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/aday_S1.py",
+   "notlar": "Yıllık (sinyal tarihi başına ort. net, bp toplamı): {2017: 1201, 2018: 1027, 2019: 634, 2020: 10530, 2021: 6636, 2022: -1166, 2023: 1996, 2024: 19353, 2025: -2606, 2026: 8897}. Negatif yıllar 2022 ve 2025 (ayı/sert düşüş dönemlerinde dip alımı tekrar tekrar zarar). En kötü işlem -4.457 bp (TSLA 2x, ~-%45); hisse başına maxDD %18-%72 (TSLA); 1/7 sermaye kaba portföy maxDD -11,5%. Sinyaller piyasa geneli düşüşlerde kümelenir (eşzamanlı 7 pozisyona kadar): pozisyon başına sermayeyi buna göre böl. Kanıt sınırlılıkları: (1) dayanak evreni sonradan kazananlardan oluşuyor (hayatta kalma/seçim yanlılığı): net getirinin bir kısmı 2016-2026 mega-cap yükselişi; zamanlama kenarı ~74-76 bp ve t~2,1 (C0/O1), bilanço işlemleri hariç ~47 bp t~1,4. (2) Birleşik FDR'yi geçmiyor. (3) 2x ETF 1-3 günde 2x hisseden 9-14 bp geride (finansman/ücret; TH01). (4) Midas'ta bu ETF'lerin bulunurluğu resmî olarak doğrulanamadı. Son veri (06.11.2026): 7 hissenin hiçbirinde sinyal yok; NVDA, TSLA SMA200 altında (filtre kapalı). BİLANÇO (önemli): işlemlerin 24'ü (~%4) tutuşta bir bilanço tepki gününü taşıyor ve ortalama 569 bp (t=1,80, en kötü -2.491 bp) getiriyor. Bunlar çıkarılınca C0 n=581 net 83,7 bp t=2,44 (IS 88,2 t=1,68, OOS 79,8 t=1,77), O1 74,0 t=2,25, gerçek ETF C0 92,8 t=2,13; zamanlama kenarı ~47 bp t~1,35-1,49 (anlamsız). Yani sürüklenme dışı kenarın önemli kısmı az sayıda bilanço öncesi dip işleminden geliyor. Muhafazakâr kullanım: tutuş içinde bilanço (seans sonrası duyuru) varsa girme ya da duyuru günü kapanıştan önce çık (TH04)."
+  }
+ ],
+ "elenen": [
+  {
+   "ad": "TH02a büyük düşüş günü (r<=-2,5σ20) sonrası 2x long, C_t -> C_t+2 (NVDA/TSLA/MSTR/COIN)",
+   "neden": "Ön-kayıtlı C0 h2: n=134 net 200 bp t=1,45 (eşik altı); C0 h1 t=2,31 ama C1 negatif; diğer 5 dayanakta C0 h2 -39 bp, OOS -148 bp: ailede tutarsız."
+  },
+  {
+   "ad": "TH02b/c büyük yükseliş günü sonrası dönüş (long kapat / ters ETF al)",
+   "neden": "Dönüş yok, tersine devam: 2x long C0 h2 178 bp (t=1,74). Ters ETF almak zarar: NVDS sentetik -254 bp t=-3,05 (FDR'de anlamlı zarar), TSLQ sentetik -253 bp."
+  },
+  {
+   "ad": "TH05 opsiyon vadesi haftası (vade öncesi Cuma -> OE haftası Çarşamba), NVDA/TSLA/AAPL 2x",
+   "neden": "Net 159 bp t=2,13 ama koşulsuz sürüklenmeye göre kenar 23 bp t=0,30: zamanlama değeri yok; diğer 6 dayanakta t=0,72. abd_endeks ailesinde de elendi."
+  },
+  {
+   "ad": "TH06 BTC@16:00 ET artığı -> MSTU/CONL ertesi gün",
+   "neden": "Regresyonda öncülük yok (t -0,9 ile -1,3, 2023-06+). Kural C0 h1 n=45 213 bp t=0,85; IS yok, n küçük."
+  },
+  {
+   "ad": "TH01 kuralı (tahmini 3 günlük oynaklık kaybı >%0,5 ise 1 gün tut) S1 üzerinde",
+   "neden": "S1'i kötüleştiriyor: 9 dayanakta 84 bp (t=2,49) vs kuralsız ~109 bp. 1-3 günde basit getiride beklenen sapma oynaklıktan değil finansman/ücretten geliyor (mega-cap 2x: 3 günde 9-14 bp; MSTU 57 bp)."
+  },
+  {
+   "ad": "NVDL <- SMH yetişme (NVDA, SMH'nin beta-ima ettiği hareketin gerisinde kaldıysa al)",
+   "neden": "C0 h1 n=51 68 bp t=0,55; regresyonda işaret negatif ve OOS sıfır."
+  },
+  {
+   "ad": "TH07 ters rsi2 gt90 ayi tsla (aşırı alım + SMA200 altı -> ters ETF, ek hipotez)",
+   "neden": "C0 h2 -44 bp t=-0,30; tüm varyantlar zayıf/negatif."
+  },
+  {
+   "ad": "TH07 ters rsi2 gt90 ayi nvda (aşırı alım + SMA200 altı -> ters ETF, ek hipotez)",
+   "neden": "C0 h2 -32 bp t=-0,32; tüm varyantlar zayıf/negatif."
+  },
+  {
+   "ad": "Genel kütüphane CA_cum O1 h3 (Cuma sinyali -> Pazartesi açılış al, Çarşamba kapanış sat)",
+   "neden": "Dayanak havuzu 9/9 pozitif, t=3,34 (IS 2,65, OOS 2,27) ama birleşik FDR'yi geçmiyor ve aynı etki QQQ/TQQQ/XLK'de var (piyasa geneli Nasdaq takvim etkisi; abd_endeks ailesi de 'teknoloji trendinin yan ürünü' diye eledi). Mekanizma yok."
+  },
+  {
+   "ad": "Genel kütüphane MR_ibs_lt01_dusus (IBS<0,10 ve düşüş günü), 2x hisse ETF",
+   "neden": "Dayanak havuzu C0 h1 +44 bp t=2,04 (9/9 pozitif) ama O1 h1 +3 bp, C1 negatif: kapanışa bağımlı ve havuz eşiği (2,5) altında."
+  },
+  {
+   "ad": "Genel kütüphane MR_z1_lt_m2 / MO_z1_gt_2 / MO_20g_zirve (büyük gün sonrası devam-dönüş, 20 gün zirvesi)",
+   "neden": "z<-2 dönüşü O1 h1 9/9 pozitif ama t=1,60; 20 gün zirvesi ve z>2 devamı zamanlama kenarı negatif/sıfır."
+  },
+  {
+   "ad": "Piyasa sert düşüş günü (QQQ/SPY z<-2) -> 2x hisse ETF (lead-lag bulgusunun kuralı)",
+   "neden": "Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+  },
+  {
+   "ad": "TH04 bilanço: duyuruyu 2x ETF ile taşımak ve bilanço sonrası sürüklenme (PEAD)",
+   "neden": "Taşıma (C_E -> C_R, 2x): n=342 ort 24 bp t=0,28, std 1.560 bp, en kötü -5.334 bp: kumar. Sonrası C_R -> C_R+2: koşulsuz 17 bp t=0,33; olumlu tepki sonrası 55 bp t=0,74; olumsuz tepki sonrası -17 bp t=-0,23. Mega-cap 7'de olumlu tepki sonrası devam 146 bp t=2,05 ama OOS 72 bp t=0,73 (zayıflıyor); duyuru öncesi 3 gün 76 bp t=1,92 (IS t=2,81, OOS t=0,37). KAÇINILACAK: tepki günü açılışında 2x ETF almak (boşluğu kovalamak) olumlu boşlukta -142 bp (t=-2,55), olumsuz boşlukta -161 bp (t=-2,77); bilanço test ailesinde FDR'den geçiyor, IS ve OOS negatif. Strateji yok; TH04 kuralı (duyurudan önce kapat) risk yönetimi olarak önerilir."
+  }
+ ],
+ "leadlag": [
+  {
+   "sym": "NVDL",
+   "suruculer": [
+    {
+     "ad": "NVDA (dayanak hisse, aynı gün)",
+     "tv": "NASDAQ:NVDA",
+     "corr_1y": 0.999,
+     "beta_1y": 1.99
+    },
+    {
+     "ad": "XLK günlük getiri (aynı gün)",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.747,
+     "beta_1y": 2.012
+    },
+    {
+     "ad": "SMH günlük getiri (aynı gün)",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.729,
+     "beta_1y": 1.308
+    },
+    {
+     "ad": "QQQ günlük getiri (aynı gün)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.715,
+     "beta_1y": 2.566
+    },
+    {
+     "ad": "SPY günlük getiri (aynı gün)",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.673,
+     "beta_1y": 3.788
+    },
+    {
+     "ad": "EEM günlük getiri (aynı gün)",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.601,
+     "beta_1y": 1.747
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "XLK'ya göre geride kalma (beta60 x r_XLK - r_NVDA) (t) -> NVDA t+1",
+     "tv": "AMEX:XLK",
+     "tip": "gecikmeli (yetisme), NEGATİF katsayı",
+     "etki": "1 sd XLK hareketi -> 2x ETF'te ertesi gün -64 bp (ters yönde); maliyet 16 bp",
+     "t": -2.69,
+     "is_t": -3.64,
+     "oos_t": -0.14,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    },
+    {
+     "ad": "SPY günlük getirisi (t) -> NVDA t+1 getirisi, kendi getirisi kontrollü",
+     "tv": "AMEX:SPY",
+     "tip": "gecikmeli (lag), NEGATİF katsayı",
+     "etki": "1 sd SPY hareketi -> 2x ETF'te ertesi gün -78 bp (ters yönde); maliyet 16 bp",
+     "t": -2.65,
+     "is_t": -3.25,
+     "oos_t": -0.39,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "NVDA uzatılmış seans (pre-market 04:00-09:30 ET = TR kış 12:00-17:30; after-hours 16:00-20:00 ET = TR kış 00:00-04:00)",
+     "tv": "NASDAQ:NVDA",
+     "neden": "ETF'nin açılış boşluğunun ana kaynağı hissenin kendi gece fiyatı (2x). TradingView'da 'uzatılmış saatler' açılmalı; bilanço tepkisi after-hours'ta görülür."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Neredeyse 24 saat işler; ETF kapalıyken piyasa yönünü ve açılış boşluğunu önceden gösterir (öncü değil, izleme)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Genel piyasa gece riski (makro veri 08:30 ET = TR 16:30, açılıştan önce)."
+    },
+    {
+     "ad": "Nikkei 225 vadelisi (OSE)",
+     "tv": "OSE:NK2251!",
+     "neden": "Asya seansındaki teknoloji/yarı iletken risk iştahı (zayıf, yalnız bağlam)."
+    }
+   ],
+   "not": "İşlem için doğrulanmış gecikmeli öncü yok. Genel taramada (leadlag_sweep.csv, aile hedefleri 576 satır) FDR bayrağı 0. Ek dayanak testinde (2016+, kendi gecikmesi kontrollü, Newey-West) bulunan ilişkiler NEGATİF işaretli piyasa-geri dönüşü (piyasa bugün yükselirse hisse ertesi gün piyasa kısmını kısmen geri veriyor); OOS'ta zayıf ve kurala çevrilince maliyet sonrası doğrulanmıyor. Eşzamanlı sürücüler (dayanak hisse, QQQ, XLK, SPY) aynı gün hareket eder, öncü değildir. NVDL <- SMH: SMH getirisi -> NVDA t+1 t=-1,72 (IS -2,69, OOS +0,30), yetişme t=-2,08 (OOS -0,13); kural (yetişme>=2sd, C0 h1) +68 bp t=0,55: öncü değil.",
+   "takvim_riskleri": "NVDA sonraki bilanço 2026-11-17 seans sonrası (16:00 ET sonrası; TR kış 00:00 sonrası) (Nasdaq/Zacks tahmini). Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, 27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı."
+  },
+  {
+   "sym": "TSLL",
+   "suruculer": [
+    {
+     "ad": "TSLA (dayanak hisse, aynı gün)",
+     "tv": "NASDAQ:TSLA",
+     "corr_1y": 0.999,
+     "beta_1y": 2.024
+    },
+    {
+     "ad": "QQQ günlük getiri (aynı gün)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.665,
+     "beta_1y": 2.92
+    },
+    {
+     "ad": "SPY günlük getiri (aynı gün)",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.628,
+     "beta_1y": 4.327
+    },
+    {
+     "ad": "XLK günlük getiri (aynı gün)",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.588,
+     "beta_1y": 1.937
+    },
+    {
+     "ad": "SMH günlük getiri (aynı gün)",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.55,
+     "beta_1y": 1.207
+    },
+    {
+     "ad": "VIX_dlog günlük getiri (aynı gün)",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.539,
+     "beta_1y": -0.384
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "TSLA uzatılmış seans (pre-market 04:00-09:30 ET = TR kış 12:00-17:30; after-hours 16:00-20:00 ET = TR kış 00:00-04:00)",
+     "tv": "NASDAQ:TSLA",
+     "neden": "ETF'nin açılış boşluğunun ana kaynağı hissenin kendi gece fiyatı (2x). TradingView'da 'uzatılmış saatler' açılmalı; bilanço tepkisi after-hours'ta görülür."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Neredeyse 24 saat işler; ETF kapalıyken piyasa yönünü ve açılış boşluğunu önceden gösterir (öncü değil, izleme)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Genel piyasa gece riski (makro veri 08:30 ET = TR 16:30, açılıştan önce)."
+    }
+   ],
+   "not": "İşlem için doğrulanmış gecikmeli öncü yok. Genel taramada (leadlag_sweep.csv, aile hedefleri 576 satır) FDR bayrağı 0. Ek dayanak testinde (2016+, kendi gecikmesi kontrollü, Newey-West) bulunan ilişkiler NEGATİF işaretli piyasa-geri dönüşü (piyasa bugün yükselirse hisse ertesi gün piyasa kısmını kısmen geri veriyor); OOS'ta zayıf ve kurala çevrilince maliyet sonrası doğrulanmıyor. Eşzamanlı sürücüler (dayanak hisse, QQQ, XLK, SPY) aynı gün hareket eder, öncü değildir.",
+   "takvim_riskleri": "TSLA sonraki bilanço tarihi henüz açıklanmadı (Nasdaq boş); 2023-2026 düzenine göre yaklaşık 24.01-29.01.2027 arası, seans sonrası (tepki ertesi gün açılış boşluğunda). Son duyuru 2026-10-21. Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, 27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı."
+  },
+  {
+   "sym": "AAPU",
+   "suruculer": [
+    {
+     "ad": "AAPL (dayanak hisse, aynı gün)",
+     "tv": "NASDAQ:AAPL",
+     "corr_1y": 0.999,
+     "beta_1y": 2.0
+    },
+    {
+     "ad": "DIA günlük getiri (aynı gün)",
+     "tv": "AMEX:DIA",
+     "corr_1y": 0.356,
+     "beta_1y": 1.318
+    },
+    {
+     "ad": "XLF günlük getiri (aynı gün)",
+     "tv": "AMEX:XLF",
+     "corr_1y": 0.33,
+     "beta_1y": 1.079
+    },
+    {
+     "ad": "SPY günlük getiri (aynı gün)",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.321,
+     "beta_1y": 1.174
+    },
+    {
+     "ad": "VIX_dlog günlük getiri (aynı gün)",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.299,
+     "beta_1y": -0.113
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY'ya göre geride kalma (beta60 x r_SPY - r_AAPL) (t) -> AAPL t+1",
+     "tv": "AMEX:SPY",
+     "tip": "gecikmeli (yetisme), NEGATİF katsayı",
+     "etki": "1 sd SPY hareketi -> 2x ETF'te ertesi gün -42 bp (ters yönde); maliyet 16 bp",
+     "t": -3.01,
+     "is_t": -3.3,
+     "oos_t": -0.77,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    },
+    {
+     "ad": "SPY günlük getirisi (t) -> AAPL t+1 getirisi, kendi getirisi kontrollü",
+     "tv": "AMEX:SPY",
+     "tip": "gecikmeli (lag), NEGATİF katsayı",
+     "etki": "1 sd SPY hareketi -> 2x ETF'te ertesi gün -47 bp (ters yönde); maliyet 16 bp",
+     "t": -2.88,
+     "is_t": -3.54,
+     "oos_t": -0.75,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "AAPL uzatılmış seans (pre-market 04:00-09:30 ET = TR kış 12:00-17:30; after-hours 16:00-20:00 ET = TR kış 00:00-04:00)",
+     "tv": "NASDAQ:AAPL",
+     "neden": "ETF'nin açılış boşluğunun ana kaynağı hissenin kendi gece fiyatı (2x). TradingView'da 'uzatılmış saatler' açılmalı; bilanço tepkisi after-hours'ta görülür."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Neredeyse 24 saat işler; ETF kapalıyken piyasa yönünü ve açılış boşluğunu önceden gösterir (öncü değil, izleme)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Genel piyasa gece riski (makro veri 08:30 ET = TR 16:30, açılıştan önce)."
+    }
+   ],
+   "not": "İşlem için doğrulanmış gecikmeli öncü yok. Genel taramada (leadlag_sweep.csv, aile hedefleri 576 satır) FDR bayrağı 0. Ek dayanak testinde (2016+, kendi gecikmesi kontrollü, Newey-West) bulunan ilişkiler NEGATİF işaretli piyasa-geri dönüşü (piyasa bugün yükselirse hisse ertesi gün piyasa kısmını kısmen geri veriyor); OOS'ta zayıf ve kurala çevrilince maliyet sonrası doğrulanmıyor. Eşzamanlı sürücüler (dayanak hisse, QQQ, XLK, SPY) aynı gün hareket eder, öncü değildir.",
+   "takvim_riskleri": "AAPL sonraki bilanço tarihi henüz açıklanmadı (Nasdaq boş); 2023-2026 düzenine göre yaklaşık 01.02-30.01.2027 arası, seans sonrası (tepki ertesi gün açılış boşluğunda). Son duyuru 2026-11-02. Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, 27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı."
+  },
+  {
+   "sym": "AMZU",
+   "suruculer": [
+    {
+     "ad": "AMZN (dayanak hisse, aynı gün)",
+     "tv": "NASDAQ:AMZN",
+     "corr_1y": 0.998,
+     "beta_1y": 1.967
+    },
+    {
+     "ad": "SPY günlük getiri (aynı gün)",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.558,
+     "beta_1y": 2.707
+    },
+    {
+     "ad": "VIX_dlog günlük getiri (aynı gün)",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.504,
+     "beta_1y": -0.252
+    },
+    {
+     "ad": "QQQ günlük getiri (aynı gün)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.499,
+     "beta_1y": 1.542
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY günlük getirisi (t) -> AMZN t+1 getirisi, kendi getirisi kontrollü",
+     "tv": "AMEX:SPY",
+     "tip": "gecikmeli (lag), NEGATİF katsayı",
+     "etki": "1 sd SPY hareketi -> 2x ETF'te ertesi gün -50 bp (ters yönde); maliyet 16 bp",
+     "t": -3.31,
+     "is_t": -2.65,
+     "oos_t": -2.05,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    },
+    {
+     "ad": "QQQ günlük getirisi (t) -> AMZN t+1 getirisi, kendi getirisi kontrollü",
+     "tv": "NASDAQ:QQQ",
+     "tip": "gecikmeli (lag), NEGATİF katsayı",
+     "etki": "1 sd QQQ hareketi -> 2x ETF'te ertesi gün -50 bp (ters yönde); maliyet 16 bp",
+     "t": -2.91,
+     "is_t": -2.24,
+     "oos_t": -1.92,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    },
+    {
+     "ad": "SPY'ya göre geride kalma (beta60 x r_SPY - r_AMZN) (t) -> AMZN t+1",
+     "tv": "AMEX:SPY",
+     "tip": "gecikmeli (yetisme), NEGATİF katsayı",
+     "etki": "1 sd SPY hareketi -> 2x ETF'te ertesi gün -45 bp (ters yönde); maliyet 16 bp",
+     "t": -2.81,
+     "is_t": -2.04,
+     "oos_t": -2.04,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    },
+    {
+     "ad": "QQQ'ya göre geride kalma (beta60 x r_QQQ - r_AMZN) (t) -> AMZN t+1",
+     "tv": "NASDAQ:QQQ",
+     "tip": "gecikmeli (yetisme), NEGATİF katsayı",
+     "etki": "1 sd QQQ hareketi -> 2x ETF'te ertesi gün -38 bp (ters yönde); maliyet 16 bp",
+     "t": -2.7,
+     "is_t": -1.52,
+     "oos_t": -2.17,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "AMZN uzatılmış seans (pre-market 04:00-09:30 ET = TR kış 12:00-17:30; after-hours 16:00-20:00 ET = TR kış 00:00-04:00)",
+     "tv": "NASDAQ:AMZN",
+     "neden": "ETF'nin açılış boşluğunun ana kaynağı hissenin kendi gece fiyatı (2x). TradingView'da 'uzatılmış saatler' açılmalı; bilanço tepkisi after-hours'ta görülür."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Neredeyse 24 saat işler; ETF kapalıyken piyasa yönünü ve açılış boşluğunu önceden gösterir (öncü değil, izleme)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Genel piyasa gece riski (makro veri 08:30 ET = TR 16:30, açılıştan önce)."
+    }
+   ],
+   "not": "İşlem için doğrulanmış gecikmeli öncü yok. Genel taramada (leadlag_sweep.csv, aile hedefleri 576 satır) FDR bayrağı 0. Ek dayanak testinde (2016+, kendi gecikmesi kontrollü, Newey-West) bulunan ilişkiler NEGATİF işaretli piyasa-geri dönüşü (piyasa bugün yükselirse hisse ertesi gün piyasa kısmını kısmen geri veriyor); OOS'ta zayıf ve kurala çevrilince maliyet sonrası doğrulanmıyor. Eşzamanlı sürücüler (dayanak hisse, QQQ, XLK, SPY) aynı gün hareket eder, öncü değildir.",
+   "takvim_riskleri": "AMZN sonraki bilanço tarihi henüz açıklanmadı (Nasdaq boş); 2023-2026 düzenine göre yaklaşık 01.02-06.02.2027 arası, seans sonrası (tepki ertesi gün açılış boşluğunda). Son duyuru 2026-10-29. Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, 27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı."
+  },
+  {
+   "sym": "METU",
+   "suruculer": [
+    {
+     "ad": "META (dayanak hisse, aynı gün)",
+     "tv": "NASDAQ:META",
+     "corr_1y": 0.999,
+     "beta_1y": 1.999
+    },
+    {
+     "ad": "SPY günlük getiri (aynı gün)",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.444,
+     "beta_1y": 2.684
+    },
+    {
+     "ad": "QQQ günlük getiri (aynı gün)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.4,
+     "beta_1y": 1.539
+    },
+    {
+     "ad": "VIX_dlog günlük getiri (aynı gün)",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.353,
+     "beta_1y": -0.22
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "META uzatılmış seans (pre-market 04:00-09:30 ET = TR kış 12:00-17:30; after-hours 16:00-20:00 ET = TR kış 00:00-04:00)",
+     "tv": "NASDAQ:META",
+     "neden": "ETF'nin açılış boşluğunun ana kaynağı hissenin kendi gece fiyatı (2x). TradingView'da 'uzatılmış saatler' açılmalı; bilanço tepkisi after-hours'ta görülür."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Neredeyse 24 saat işler; ETF kapalıyken piyasa yönünü ve açılış boşluğunu önceden gösterir (öncü değil, izleme)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Genel piyasa gece riski (makro veri 08:30 ET = TR 16:30, açılıştan önce)."
+    }
+   ],
+   "not": "İşlem için doğrulanmış gecikmeli öncü yok. Genel taramada (leadlag_sweep.csv, aile hedefleri 576 satır) FDR bayrağı 0. Ek dayanak testinde (2016+, kendi gecikmesi kontrollü, Newey-West) bulunan ilişkiler NEGATİF işaretli piyasa-geri dönüşü (piyasa bugün yükselirse hisse ertesi gün piyasa kısmını kısmen geri veriyor); OOS'ta zayıf ve kurala çevrilince maliyet sonrası doğrulanmıyor. Eşzamanlı sürücüler (dayanak hisse, QQQ, XLK, SPY) aynı gün hareket eder, öncü değildir.",
+   "takvim_riskleri": "META sonraki bilanço tarihi henüz açıklanmadı (Nasdaq boş); 2023-2026 düzenine göre yaklaşık 01.02-29.01.2027 arası, seans sonrası (tepki ertesi gün açılış boşluğunda). Son duyuru 2026-10-21. Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, 27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı."
+  },
+  {
+   "sym": "MSFU",
+   "suruculer": [
+    {
+     "ad": "MSFT (dayanak hisse, aynı gün)",
+     "tv": "NASDAQ:MSFT",
+     "corr_1y": 0.998,
+     "beta_1y": 1.972
+    },
+    {
+     "ad": "SPY günlük getiri (aynı gün)",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.418,
+     "beta_1y": 2.027
+    },
+    {
+     "ad": "VIX_dlog günlük getiri (aynı gün)",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.367,
+     "beta_1y": -0.184
+    },
+    {
+     "ad": "XLK günlük getiri (aynı gün)",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.365,
+     "beta_1y": 0.847
+    },
+    {
+     "ad": "QQQ günlük getiri (aynı gün)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.36,
+     "beta_1y": 1.113
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY'ya göre geride kalma (beta60 x r_SPY - r_MSFT) (t) -> MSFT t+1",
+     "tv": "AMEX:SPY",
+     "tip": "gecikmeli (yetisme), NEGATİF katsayı",
+     "etki": "1 sd SPY hareketi -> 2x ETF'te ertesi gün -38 bp (ters yönde); maliyet 16 bp",
+     "t": -2.64,
+     "is_t": -2.22,
+     "oos_t": -1.01,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "MSFT uzatılmış seans (pre-market 04:00-09:30 ET = TR kış 12:00-17:30; after-hours 16:00-20:00 ET = TR kış 00:00-04:00)",
+     "tv": "NASDAQ:MSFT",
+     "neden": "ETF'nin açılış boşluğunun ana kaynağı hissenin kendi gece fiyatı (2x). TradingView'da 'uzatılmış saatler' açılmalı; bilanço tepkisi after-hours'ta görülür."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Neredeyse 24 saat işler; ETF kapalıyken piyasa yönünü ve açılış boşluğunu önceden gösterir (öncü değil, izleme)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Genel piyasa gece riski (makro veri 08:30 ET = TR 16:30, açılıştan önce)."
+    }
+   ],
+   "not": "İşlem için doğrulanmış gecikmeli öncü yok. Genel taramada (leadlag_sweep.csv, aile hedefleri 576 satır) FDR bayrağı 0. Ek dayanak testinde (2016+, kendi gecikmesi kontrollü, Newey-West) bulunan ilişkiler NEGATİF işaretli piyasa-geri dönüşü (piyasa bugün yükselirse hisse ertesi gün piyasa kısmını kısmen geri veriyor); OOS'ta zayıf ve kurala çevrilince maliyet sonrası doğrulanmıyor. Eşzamanlı sürücüler (dayanak hisse, QQQ, XLK, SPY) aynı gün hareket eder, öncü değildir.",
+   "takvim_riskleri": "MSFT sonraki bilanço tarihi henüz açıklanmadı (Nasdaq boş); 2023-2026 düzenine göre yaklaşık 24.01-30.01.2027 arası, seans sonrası (tepki ertesi gün açılış boşluğunda). Son duyuru 2026-10-28. Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, 27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı."
+  },
+  {
+   "sym": "GGLL",
+   "suruculer": [
+    {
+     "ad": "GOOGL (dayanak hisse, aynı gün)",
+     "tv": "NASDAQ:GOOGL",
+     "corr_1y": 0.999,
+     "beta_1y": 2.026
+    },
+    {
+     "ad": "SPY günlük getiri (aynı gün)",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.519,
+     "beta_1y": 2.624
+    },
+    {
+     "ad": "QQQ günlük getiri (aynı gün)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.469,
+     "beta_1y": 1.511
+    },
+    {
+     "ad": "HYG günlük getiri (aynı gün)",
+     "tv": "AMEX:HYG",
+     "corr_1y": 0.396,
+     "beta_1y": 6.365
+    },
+    {
+     "ad": "VIX_dlog günlük getiri (aynı gün)",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.395,
+     "beta_1y": -0.207
+    },
+    {
+     "ad": "DIA günlük getiri (aynı gün)",
+     "tv": "AMEX:DIA",
+     "corr_1y": 0.391,
+     "beta_1y": 2.001
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY günlük getirisi (t) -> GOOGL t+1 getirisi, kendi getirisi kontrollü",
+     "tv": "AMEX:SPY",
+     "tip": "gecikmeli (lag), NEGATİF katsayı",
+     "etki": "1 sd SPY hareketi -> 2x ETF'te ertesi gün -54 bp (ters yönde); maliyet 16 bp",
+     "t": -3.25,
+     "is_t": -3.11,
+     "oos_t": -1.58,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    },
+    {
+     "ad": "SPY'ya göre geride kalma (beta60 x r_SPY - r_GOOGL) (t) -> GOOGL t+1",
+     "tv": "AMEX:SPY",
+     "tip": "gecikmeli (yetisme), NEGATİF katsayı",
+     "etki": "1 sd SPY hareketi -> 2x ETF'te ertesi gün -44 bp (ters yönde); maliyet 16 bp",
+     "t": -3.08,
+     "is_t": -2.71,
+     "oos_t": -1.67,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    },
+    {
+     "ad": "XLK'ya göre geride kalma (beta60 x r_XLK - r_GOOGL) (t) -> GOOGL t+1",
+     "tv": "AMEX:XLK",
+     "tip": "gecikmeli (yetisme), NEGATİF katsayı",
+     "etki": "1 sd XLK hareketi -> 2x ETF'te ertesi gün -42 bp (ters yönde); maliyet 16 bp",
+     "t": -2.68,
+     "is_t": -2.54,
+     "oos_t": -1.1,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "GOOGL uzatılmış seans (pre-market 04:00-09:30 ET = TR kış 12:00-17:30; after-hours 16:00-20:00 ET = TR kış 00:00-04:00)",
+     "tv": "NASDAQ:GOOGL",
+     "neden": "ETF'nin açılış boşluğunun ana kaynağı hissenin kendi gece fiyatı (2x). TradingView'da 'uzatılmış saatler' açılmalı; bilanço tepkisi after-hours'ta görülür."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Neredeyse 24 saat işler; ETF kapalıyken piyasa yönünü ve açılış boşluğunu önceden gösterir (öncü değil, izleme)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Genel piyasa gece riski (makro veri 08:30 ET = TR 16:30, açılıştan önce)."
+    }
+   ],
+   "not": "İşlem için doğrulanmış gecikmeli öncü yok. Genel taramada (leadlag_sweep.csv, aile hedefleri 576 satır) FDR bayrağı 0. Ek dayanak testinde (2016+, kendi gecikmesi kontrollü, Newey-West) bulunan ilişkiler NEGATİF işaretli piyasa-geri dönüşü (piyasa bugün yükselirse hisse ertesi gün piyasa kısmını kısmen geri veriyor); OOS'ta zayıf ve kurala çevrilince maliyet sonrası doğrulanmıyor. Eşzamanlı sürücüler (dayanak hisse, QQQ, XLK, SPY) aynı gün hareket eder, öncü değildir.",
+   "takvim_riskleri": "GOOGL sonraki bilanço tarihi henüz açıklanmadı (Nasdaq boş); 2023-2026 düzenine göre yaklaşık 02.02-30.01.2027 arası, seans sonrası (tepki ertesi gün açılış boşluğunda). Son duyuru 2026-10-28. Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, 27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı."
+  },
+  {
+   "sym": "NVDU",
+   "suruculer": [
+    {
+     "ad": "NVDA (dayanak hisse, aynı gün)",
+     "tv": "NASDAQ:NVDA",
+     "corr_1y": 0.999,
+     "beta_1y": 1.987
+    },
+    {
+     "ad": "XLK günlük getiri (aynı gün)",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.748,
+     "beta_1y": 2.011
+    },
+    {
+     "ad": "SMH günlük getiri (aynı gün)",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.73,
+     "beta_1y": 1.307
+    },
+    {
+     "ad": "QQQ günlük getiri (aynı gün)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.716,
+     "beta_1y": 2.566
+    },
+    {
+     "ad": "SPY günlük getiri (aynı gün)",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.673,
+     "beta_1y": 3.788
+    },
+    {
+     "ad": "EEM günlük getiri (aynı gün)",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.601,
+     "beta_1y": 1.746
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "XLK'ya göre geride kalma (beta60 x r_XLK - r_NVDA) (t) -> NVDA t+1",
+     "tv": "AMEX:XLK",
+     "tip": "gecikmeli (yetisme), NEGATİF katsayı",
+     "etki": "1 sd XLK hareketi -> 2x ETF'te ertesi gün -64 bp (ters yönde); maliyet 16 bp",
+     "t": -2.69,
+     "is_t": -3.64,
+     "oos_t": -0.14,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    },
+    {
+     "ad": "SPY günlük getirisi (t) -> NVDA t+1 getirisi, kendi getirisi kontrollü",
+     "tv": "AMEX:SPY",
+     "tip": "gecikmeli (lag), NEGATİF katsayı",
+     "etki": "1 sd SPY hareketi -> 2x ETF'te ertesi gün -78 bp (ters yönde); maliyet 16 bp",
+     "t": -2.65,
+     "is_t": -3.25,
+     "oos_t": -0.39,
+     "fdr": true,
+     "ufuk": "1 gün",
+     "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. Kurala çevrildiğinde (piyasa sert düşüş günü z<-2 -> 2x hisse ETF long, 9 dayanak havuzu): SPY C0 h1 50 bp t=0,96, O1 h1 66 bp t=1,37; QQQ O1 h1 109 bp t=2,44 (yalnız bu varyant), C0/C1 ve h2-3 anlamsız; gerçek ETF'de (2022+) C0 negatif. İşlem için doğrulanmadı."
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "NVDA uzatılmış seans (pre-market 04:00-09:30 ET = TR kış 12:00-17:30; after-hours 16:00-20:00 ET = TR kış 00:00-04:00)",
+     "tv": "NASDAQ:NVDA",
+     "neden": "ETF'nin açılış boşluğunun ana kaynağı hissenin kendi gece fiyatı (2x). TradingView'da 'uzatılmış saatler' açılmalı; bilanço tepkisi after-hours'ta görülür."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Neredeyse 24 saat işler; ETF kapalıyken piyasa yönünü ve açılış boşluğunu önceden gösterir (öncü değil, izleme)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Genel piyasa gece riski (makro veri 08:30 ET = TR 16:30, açılıştan önce)."
+    },
+    {
+     "ad": "Nikkei 225 vadelisi (OSE)",
+     "tv": "OSE:NK2251!",
+     "neden": "Asya seansındaki teknoloji/yarı iletken risk iştahı (zayıf, yalnız bağlam)."
+    }
+   ],
+   "not": "İşlem için doğrulanmış gecikmeli öncü yok. Genel taramada (leadlag_sweep.csv, aile hedefleri 576 satır) FDR bayrağı 0. Ek dayanak testinde (2016+, kendi gecikmesi kontrollü, Newey-West) bulunan ilişkiler NEGATİF işaretli piyasa-geri dönüşü (piyasa bugün yükselirse hisse ertesi gün piyasa kısmını kısmen geri veriyor); OOS'ta zayıf ve kurala çevrilince maliyet sonrası doğrulanmıyor. Eşzamanlı sürücüler (dayanak hisse, QQQ, XLK, SPY) aynı gün hareket eder, öncü değildir. NVDL <- SMH: SMH getirisi -> NVDA t+1 t=-1,72 (IS -2,69, OOS +0,30), yetişme t=-2,08 (OOS -0,13); kural (yetişme>=2sd, C0 h1) +68 bp t=0,55: öncü değil.",
+   "takvim_riskleri": "NVDA sonraki bilanço 2026-11-17 seans sonrası (16:00 ET sonrası; TR kış 00:00 sonrası) (Nasdaq/Zacks tahmini). Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, 27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı."
+  },
+  {
+   "sym": "MSTU",
+   "suruculer": [
+    {
+     "ad": "MSTR (dayanak hisse, aynı gün)",
+     "tv": "NASDAQ:MSTR",
+     "corr_1y": 0.998,
+     "beta_1y": 1.974
+    },
+    {
+     "ad": "IBIT günlük getiri (aynı gün)",
+     "tv": "NASDAQ:IBIT",
+     "corr_1y": 0.861,
+     "beta_1y": 3.089
+    },
+    {
+     "ad": "BTC_16ET günlük getiri (aynı gün)",
+     "tv": "COINBASE:BTCUSD",
+     "corr_1y": 0.859,
+     "beta_1y": 3.101
+    },
+    {
+     "ad": "BITO günlük getiri (aynı gün)",
+     "tv": "AMEX:BITO",
+     "corr_1y": 0.837,
+     "beta_1y": 2.923
+    },
+    {
+     "ad": "ETHA günlük getiri (aynı gün)",
+     "tv": "NASDAQ:ETHA",
+     "corr_1y": 0.792,
+     "beta_1y": 2.08
+    },
+    {
+     "ad": "ETH_16ET günlük getiri (aynı gün)",
+     "tv": "COINBASE:ETHUSD",
+     "corr_1y": 0.788,
+     "beta_1y": 2.086
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Bitcoin spot (Coinbase)",
+     "tv": "COINBASE:BTCUSD",
+     "neden": "7/24 işler. BTC'nin 16:00 ET -> ertesi 09:00 ET hareketi MSTR açılış boşluğuyla corr 0,88, beta 1,22 (MSTU ≈ 2x): gece BTC %5 düşerse MSTU açılışı ~%12 aşağı beklenir."
+    },
+    {
+     "ad": "CME Bitcoin vadelisi",
+     "tv": "CME:BTC1!",
+     "neden": "Kurumsal BTC fiyatı; hafta sonu kapalı (Pazar akşamı açılış boşluğu)."
+    },
+    {
+     "ad": "MSTR uzatılmış seans",
+     "tv": "NASDAQ:MSTR",
+     "neden": "Pre-market TR kış 12:00-17:30."
+    },
+    {
+     "ad": "Ethereum spot",
+     "tv": "COINBASE:ETHUSD",
+     "neden": "Kripto risk iştahının ikinci göstergesi."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Genel risk iştahı."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok. TH06: BTC 16:00 ET artığı -> MSTR ertesi gün t=-0,98 (h1), BTC getirisi t=-1,26, yetişme boşluğu t=-0,89 (2023-06+, IS yok). Kural testi (u>=2sd -> 2x long, C0 h1) n=45 +213 bp t=0,85. BTC yalnız eşzamanlı sürücü ve gerçek zamanlı izleme aracıdır.",
+   "takvim_riskleri": "MSTR sonraki bilanço tarihi henüz açıklanmadı (Nasdaq boş); 2023-2026 düzenine göre yaklaşık 02.02-05.02.2027 arası, seans sonrası (tepki ertesi gün açılış boşluğunda). Son duyuru 2026-10-29. Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, 27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı."
+  }
+ ],
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/aday_S1_cikti.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/aday_S1_hisse_etf.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/aday_S1_islemler_dayanak_C0.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/aday_S1_islemler_gercek_C0.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/aday_S1_ozet.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/b0_bilanco_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/b0b_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/bilanco_olaylar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/bilanco_tarihleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/bilanco_tarihleri_gecis1.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/bilanco_testleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/btc_gece_acilis.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/dayanak_genel_havuz.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/dayanak_genel_satirlar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/fdr_tum_testler.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/gelecek_bilanco.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/genel_aile_satirlar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/genel_aile_tutarlilik.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/hipotez_testleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/islenebilirlik.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/kaldirac_yillik.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/kopya_korelasyon.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/leadlag_aile_sweep.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/leadlag_ek_regresyon.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/leadlag_suruculer.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/oncu_kural_testleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/smh_nvda_regresyon.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/sonuc.json",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/t2_genel_aile_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/t3_dayanak_genel_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/t4_hipotez_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/t5_leadlag_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/t5b_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/t6_fdr_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/t7_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/th01_oynaklik_kaybi.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tek_hisse_kaldiracli/th06_btc_regresyon.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/aday_S1.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/b0_bilanco.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/b0b_bilanco_pencere.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/b1_gelecek_bilanco.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/hrun.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/t1_islenebilirlik.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/t2_genel_aile.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/t3_dayanak_genel.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/t4_hipotez.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/t5_leadlag.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/t5b_oncu_kural.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/t6_fdr.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/t7_bilanco.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/t8_sonuc.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tek_hisse_kaldiracli/thk.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/notlar/aile_tek_hisse_kaldiracli.md"
+ ],
+ "tv_dogrulanacak": []
+}

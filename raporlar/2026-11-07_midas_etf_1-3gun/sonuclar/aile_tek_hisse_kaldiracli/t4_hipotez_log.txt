@@ -1,0 +1,199 @@
+TH01 (tum kova):
+      etf    L  h kova    n  sg_ort_bp  basit_sapma_ort_bp  basit_sapma_t  basit_sapma_std_bp  log_sapma_ort_bp  log_tahmin_bp  basit_sapma_p05_bp
+0    NVDL  2.0  1  tum  694      283.7                -5.2           -7.4                18.4             -14.2           -9.2               -32.4
+4    NVDL  2.0  2  tum  347      283.6               -11.4           -6.7                31.6             -28.3          -18.3               -49.2
+8    NVDL  2.0  3  tum  231      284.5               -13.5           -5.8                35.4             -42.5          -27.7               -63.7
+12   TSLL  2.0  1  tum  647      355.8                -5.1           -9.4                13.7             -19.0          -14.2               -26.7
+16   TSLL  2.0  2  tum  323      355.7               -10.7           -5.8                33.3             -38.0          -28.4               -55.3
+20   TSLL  2.0  3  tum  215      355.6               -14.4           -3.7                56.5             -56.2          -42.5               -89.8
+24   MSTU  2.0  1  tum  516      507.1               -15.5           -6.7                52.9             -41.9          -29.2               -85.0
+28   MSTU  2.0  2  tum  258      507.4               -35.1           -6.2                90.5             -83.8          -58.3              -155.4
+32   MSTU  2.0  3  tum  172      508.1               -57.0           -5.3               141.2            -125.8          -87.9              -223.4
+36   CONL  2.0  1  tum  694      475.7                -7.5           -9.5                20.6             -30.5          -24.4               -41.0
+40   CONL  2.0  2  tum  347      475.6               -18.2           -6.5                52.6             -61.1          -48.8               -92.2
+44   CONL  2.0  3  tum  231      476.5               -25.3           -4.6                83.0             -91.9          -73.3              -143.5
+48   NVDU  2.0  1  tum  644      280.6                -4.5           -5.4                20.9             -13.3           -9.0               -34.6
+52   NVDU  2.0  2  tum  322      280.4               -10.1           -5.8                31.3             -26.7          -17.9               -48.9
+56   NVDU  2.0  3  tum  214      279.0               -13.2           -4.1                47.1             -39.5          -26.6               -66.1
+60   TSLQ -2.0  1  tum  574      354.7                 2.8            3.4                19.3             -40.5          -42.5               -13.9
+64   TSLQ -2.0  2  tum  287      355.0                 0.6            0.1               104.3             -80.9          -85.1              -139.0
+68   TSLQ -2.0  3  tum  191      355.4                -3.0           -0.2               166.0            -121.3         -128.0              -190.2
+72   NVDS -1.5  1  tum  574      274.4                 1.8            1.3                33.7             -14.3          -16.4               -23.9
+76   NVDS -1.5  2  tum  287      274.4                 0.2            0.1                63.0             -28.6          -32.7               -45.3
+80   NVDS -1.5  3  tum  191      274.9                 8.9            1.6                75.7             -43.0          -49.3               -62.0
+84   AAPU  2.0  1  tum  647      161.2                -3.6           -7.2                12.8              -6.6           -3.1               -20.8
+88   AAPU  2.0  2  tum  323      161.2                -7.6           -7.1                19.2             -13.3           -6.3               -27.7
+92   AAPU  2.0  3  tum  215      160.5                -9.5           -6.3                22.0             -20.0           -9.3               -31.8
+96   AMZU  2.0  1  tum  644      195.9                -4.5           -6.7                16.8              -8.7           -4.3               -19.8
+100  AMZU  2.0  2  tum  322      195.7                -8.3           -8.4                17.7             -17.3           -8.7               -27.7
+104  AMZU  2.0  3  tum  214      195.0               -12.1           -6.0                29.3             -26.0          -12.9               -41.8
+108  METU  2.0  1  tum  588      227.3                -4.1           -7.3                13.6              -9.9           -5.9               -22.3
+112  METU  2.0  2  tum  294      227.1                -8.8           -7.1                21.2             -19.9          -11.8               -33.5
+116  METU  2.0  3  tum  196      227.9               -12.5           -7.2                24.2             -29.8          -17.8               -36.9
+120  MSFU  2.0  1  tum  647      156.3                -3.4           -5.7                15.3              -6.3           -2.9               -23.4
+124  MSFU  2.0  2  tum  323      156.3                -6.7           -6.7                18.1             -12.7           -5.8               -27.2
+128  MSFU  2.0  3  tum  215      154.9                -9.2           -5.6                24.0             -18.9           -8.6               -33.6
+132  GGLL  2.0  1  tum  647      187.3                -3.9           -8.5                11.6              -7.9           -3.8               -21.7
+136  GGLL  2.0  2  tum  323      186.9                -7.5           -8.5                15.7             -15.8           -7.6               -29.5
+140  GGLL  2.0  3  tum  215      187.5               -11.6           -9.6                17.7             -23.7          -11.5               -41.3
+kova  sg_q0  sg_q1  sg_q2   tum
+etf                            
+AAPU  -11.1  -11.3   -6.2  -9.5
+AMZU  -10.6  -11.3  -14.4 -12.1
+CONL   -1.3  -37.6  -37.1 -25.3
+GGLL  -12.7  -11.3  -11.0 -11.6
+METU  -10.8  -13.2  -13.6 -12.5
+MSFU  -11.6  -10.2   -5.8  -9.2
+MSTU  -38.5  -71.3  -61.5 -57.0
+NVDL  -11.0  -16.4  -13.2 -13.5
+NVDS    3.0    5.8   17.9   8.9
+NVDU  -12.5   -5.5  -21.5 -13.2
+TSLL   -7.7  -16.5  -19.0 -14.4
+TSLQ    5.9  -11.3   -3.7  -3.0
+
+TH06 BTC regresyonları (2023-06+, kendi gecikmesi kontrollü, NW):
+   hisse            x        y    n       basla    b_x    t_x  b_own  t_own  bp_per_sd
+0   MSTR       u_TH06       h1  806  2023-08-22 -0.086 -0.977 -0.177 -1.864    -54.183
+1   MSTR       u_TH06       h3  804  2023-08-22  0.197  1.502  0.163  1.031    123.629
+2   MSTR       u_TH06  gap_t+1  806  2023-08-22 -0.046 -0.909 -0.069 -1.286    -28.725
+3   MSTR        r_btc       h1  865  2023-05-26 -0.136 -1.261 -0.026 -0.383    -40.351
+4   MSTR        r_btc       h3  863  2023-05-26  0.021  0.126 -0.047 -0.507      6.303
+5   MSTR        r_btc  gap_t+1  865  2023-05-26 -0.018 -0.351 -0.012 -0.301     -5.367
+6   MSTR  yetisme_gap       h1  806  2023-08-22 -0.073 -0.891 -0.115 -2.385    -24.247
+7   MSTR  yetisme_gap       h3  804  2023-08-22  0.029  0.224 -0.031 -0.422      9.621
+8   MSTR  yetisme_gap  gap_t+1  806  2023-08-22 -0.001 -0.017 -0.022 -0.721     -0.236
+9   COIN       u_TH06       h1  806  2023-08-22 -0.068 -1.058 -0.087 -1.719    -28.656
+10  COIN       u_TH06       h3  804  2023-08-22  0.027  0.193 -0.021 -0.214     11.335
+11  COIN       u_TH06  gap_t+1  806  2023-08-22 -0.012 -0.330 -0.026 -0.813     -5.108
+12  COIN        r_btc       h1  865  2023-05-26 -0.074 -1.065 -0.009 -0.200    -21.951
+13  COIN        r_btc       h3  863  2023-05-26 -0.047 -0.334 -0.005 -0.058    -14.069
+14  COIN        r_btc  gap_t+1  865  2023-05-26 -0.011 -0.231 -0.007 -0.255     -3.404
+15  COIN  yetisme_gap       h1  806  2023-08-22 -0.069 -1.010 -0.073 -1.748    -22.940
+16  COIN  yetisme_gap       h3  804  2023-08-22 -0.073 -0.525 -0.076 -0.986    -24.280
+17  COIN  yetisme_gap  gap_t+1  806  2023-08-22 -0.037 -0.826 -0.035 -1.251    -12.137
+  hisse    n  corr_btc_gece_vs_acilis_boslugu   beta     r2
+0  MSTR  866                            0.880  1.224  0.775
+1  COIN  866                            0.777  0.957  0.603
+
+SMH -> NVDA (kendi gecikmesi kontrollü):
+              x   y donem     n    b_x    t_x  b_own  t_own  bp_per_sd
+0         r_smh  h1   tum  2512 -0.118 -1.715 -0.016 -0.345    -25.375
+1         r_smh  h1    IS  1296 -0.313 -2.687  0.027  0.402    -59.551
+2         r_smh  h1   OOS  1216  0.021  0.298 -0.053 -0.973      5.048
+3         r_smh  h3   tum  2510 -0.135 -1.547  0.011  0.183    -28.713
+4         r_smh  h3    IS  1296 -0.205 -1.603  0.054  0.728    -38.957
+5         r_smh  h3   OOS  1214 -0.060 -0.502 -0.045 -0.522    -14.085
+6   yetisme_gap  h1   tum  2453 -0.130 -2.077 -0.112 -3.134    -21.870
+7   yetisme_gap  h1    IS  1237 -0.275 -2.788 -0.210 -3.450    -48.451
+8   yetisme_gap  h1   OOS  1216 -0.010 -0.130 -0.042 -1.191     -1.515
+9   yetisme_gap  h3   tum  2451 -0.138 -1.622 -0.103 -2.642    -23.109
+10  yetisme_gap  h3    IS  1237 -0.194 -1.587 -0.113 -1.867    -34.216
+11  yetisme_gap  h3   OOS  1214 -0.075 -0.643 -0.098 -1.907    -11.867
+
+Havuz düzeyi hipotez testleri: 105  FDR geçen: 5 | hisse düzeyi: 279  FDR geçen: 0
+                              hipotez                                          stock mode  h  on_kayitli    n  n_tarih  mean_gross_bp  mean_net_bp     t  edge_bp  t_edge  is_net_bp  is_t  oos_net_bp  oos_t  years_pos_frac   win  worst_bp  hisse_pozitif  hisse_k  fdr_havuz
+4            TH02a_buyuk_dusus_long_4                            NVDA+TSLA+MSTR+COIN   C0  1       False  141    124.0         233.83       212.86  2.31   202.13    2.19     128.25  1.07      306.09   2.15            0.70  0.62  -3947.48            4.0      4.0      False
+9            TH02a_buyuk_dusus_long_4                            NVDA+TSLA+MSTR+COIN   C0  2        True  134    119.0         221.39       200.31  1.45   160.01    1.16     139.16  1.23      266.81   1.02            0.80  0.57  -6524.56            4.0      4.0      False
+14           TH02a_buyuk_dusus_long_4                            NVDA+TSLA+MSTR+COIN   C0  3       False  129    116.0         338.62       317.58  2.16   244.44    1.66     169.76  1.27      487.30   1.77            0.80  0.60  -6333.82            4.0      4.0      False
+19           TH02a_buyuk_dusus_long_4                            NVDA+TSLA+MSTR+COIN   O1  1       False  141    124.0         176.35       155.38  1.91   165.72    2.04     104.98  1.11      210.90   1.56            0.90  0.55  -3146.05            4.0      4.0      False
+24           TH02a_buyuk_dusus_long_4                            NVDA+TSLA+MSTR+COIN   O1  2       False  134    119.0         209.05       187.97  1.33   167.61    1.19     148.64  1.35      230.74   0.85            0.80  0.59  -6794.51            4.0      4.0      False
+29           TH02a_buyuk_dusus_long_4                            NVDA+TSLA+MSTR+COIN   O1  3       False  129    116.0         307.81       286.76  2.07   234.46    1.69     156.41  1.24      436.43   1.68            0.80  0.55  -6214.05            4.0      4.0      False
+34           TH02a_buyuk_dusus_long_4                            NVDA+TSLA+MSTR+COIN   C1  1       False  134    119.0          -0.15       -21.23 -0.22   -31.88   -0.33      43.41  0.58      -91.56  -0.50            0.60  0.51  -5334.09            1.0      4.0      False
+39           TH02a_buyuk_dusus_long_4                            NVDA+TSLA+MSTR+COIN   C1  2       False  129    116.0          91.72        70.68  0.68    30.35    0.29      19.40  0.20      129.56   0.67            0.40  0.49  -5493.06            1.0      4.0      False
+44           TH02a_buyuk_dusus_long_4                            NVDA+TSLA+MSTR+COIN   C1  3       False  128    115.0         100.32        79.23  0.49     5.86    0.04      70.17  0.56       89.46   0.28            0.40  0.50  -7900.83            3.0      4.0      False
+50      TH02a_buyuk_dusus_long_diger5                      AAPL+AMZN+META+MSFT+GOOGL   C0  1       False  224    150.0           7.76        -8.40 -0.23    -9.07   -0.24     134.07  2.37     -129.76  -2.85            0.60  0.53  -1477.36            3.0      5.0      False
+56      TH02a_buyuk_dusus_long_diger5                      AAPL+AMZN+META+MSFT+GOOGL   C0  2        True  220    148.0         -22.49       -38.65 -0.91   -55.17   -1.31      86.84  1.33     -148.25  -2.82            0.60  0.51  -2107.77            3.0      5.0      False
+62      TH02a_buyuk_dusus_long_diger5                      AAPL+AMZN+META+MSFT+GOOGL   C0  3       False  215    145.0           2.21       -13.95 -0.26   -46.76   -0.87      79.06  0.95      -91.65  -1.31            0.50  0.50  -2898.59            3.0      5.0      False
+68      TH02a_buyuk_dusus_long_diger5                      AAPL+AMZN+META+MSFT+GOOGL   O1  1       False  224    150.0           9.49        -6.67 -0.21    -1.03   -0.03      64.35  1.32      -67.17  -1.70            0.40  0.50  -1460.84            4.0      5.0      False
+74      TH02a_buyuk_dusus_long_diger5                      AAPL+AMZN+META+MSFT+GOOGL   O1  2       False  220    148.0         -25.80       -41.96 -0.92   -52.38   -1.15      25.76  0.33     -101.10  -2.03            0.50  0.46  -2310.69            2.0      5.0      False
+80      TH02a_buyuk_dusus_long_diger5                      AAPL+AMZN+META+MSFT+GOOGL   O1  3       False  215    145.0          -2.23       -18.39 -0.35   -44.92   -0.85      15.11  0.17      -46.37  -0.71            0.60  0.52  -2310.45            2.0      5.0      False
+86      TH02a_buyuk_dusus_long_diger5                      AAPL+AMZN+META+MSFT+GOOGL   C1  1       False  220    148.0         -30.32       -46.49 -1.27   -47.09   -1.29     -51.67 -0.80      -41.96  -1.07            0.60  0.49  -2869.84            1.0      5.0      False
+92      TH02a_buyuk_dusus_long_diger5                      AAPL+AMZN+META+MSFT+GOOGL   C1  2       False  215    145.0         -14.58       -30.74 -0.62   -47.26   -0.96     -82.90 -0.99       12.83   0.22            0.50  0.53  -2653.58            1.0      5.0      False
+98      TH02a_buyuk_dusus_long_diger5                      AAPL+AMZN+META+MSFT+GOOGL   C1  3       False  211    143.0          26.58        10.41  0.18   -22.29   -0.38     -42.88 -0.50       53.59   0.67            0.70  0.53  -2737.21            3.0      5.0      False
+103       TH02b_buyuk_yukselis_long_4                            NVDA+TSLA+MSTR+COIN   C0  1       False  172    151.0         127.46       104.97  1.30    96.08    1.19      58.12  0.57      160.64   1.23            0.70  0.50  -4274.63            4.0      4.0      False
+108       TH02b_buyuk_yukselis_long_4                            NVDA+TSLA+MSTR+COIN   C0  2        True  165    144.0         200.18       177.58  1.74   139.90    1.37     102.82  0.86      265.93   1.53            0.50  0.52  -2611.36            3.0      4.0      False
+113       TH02b_buyuk_yukselis_long_4                            NVDA+TSLA+MSTR+COIN   C0  3       False  162    141.0         396.09       373.40  2.45   303.86    1.99     326.51  1.57      428.23   1.90            0.80  0.55  -3552.44            4.0      4.0      False
+118       TH02b_buyuk_yukselis_long_4                            NVDA+TSLA+MSTR+COIN   O1  1       False  172    151.0          67.48        44.98  0.70    56.01    0.87      18.33  0.23       76.66   0.73            0.60  0.49  -3369.05            3.0      4.0      False
+123       TH02b_buyuk_yukselis_long_4                            NVDA+TSLA+MSTR+COIN   O1  2       False  165    144.0         152.12       129.51  1.42   110.30    1.21      72.10  0.58      197.36   1.47            0.80  0.53  -3557.34            3.0      4.0      False
+128       TH02b_buyuk_yukselis_long_4                            NVDA+TSLA+MSTR+COIN   O1  3       False  162    141.0         362.07       339.38  2.38   288.81    2.02     317.30  1.59      365.20   1.79            0.90  0.54  -4003.94            4.0      4.0      False
+133       TH02b_buyuk_yukselis_long_4                            NVDA+TSLA+MSTR+COIN   C1  1       False  165    144.0          79.11        56.50  0.78    47.96    0.66       7.54  0.08      114.37   1.05            0.60  0.52  -4718.94            2.0      4.0      False
+138       TH02b_buyuk_yukselis_long_4                            NVDA+TSLA+MSTR+COIN   C1  2       False  162    141.0         286.85       264.16  2.23   226.76    1.91     261.65  1.58      267.09   1.58            0.60  0.54  -4340.65            4.0      4.0      False
+143       TH02b_buyuk_yukselis_long_4                            NVDA+TSLA+MSTR+COIN   C1  3       False  154    133.0         282.51       259.82  1.87   190.20    1.37     207.87  1.28      317.55   1.37            0.70  0.55  -4074.50            4.0      4.0      False
+145         TH02c_buyuk_yukselis_ters                                           TSLA   C0  1       False   53     53.0         -84.28      -101.94 -0.76   -45.99   -0.34     -35.77 -0.21     -220.35  -1.04            0.40  0.49  -2763.00            0.0      1.0      False
+147         TH02c_buyuk_yukselis_ters                                           TSLA   C0  2        True   49     49.0        -235.35      -253.00 -1.40  -158.32   -0.88    -233.08 -1.05     -290.51  -0.91            0.30  0.41  -4180.31            0.0      1.0      False
+149         TH02c_buyuk_yukselis_ters                                           TSLA   C0  3       False   48     48.0        -346.35      -364.00 -1.34  -231.25   -0.85    -399.52 -1.17     -299.22  -0.65            0.40  0.40  -5782.86            0.0      1.0      False
+151         TH02c_buyuk_yukselis_ters                                           TSLA   O1  1       False   53     53.0         -38.92       -56.57 -0.56   -26.19   -0.26      16.38  0.14     -187.11  -1.03            0.50  0.45  -2020.93            0.0      1.0      False
+153         TH02c_buyuk_yukselis_ters                                           TSLA   O1  2       False   49     49.0        -176.30      -193.96 -1.04  -125.17   -0.67    -102.43 -0.42     -366.25  -1.34            0.30  0.41  -4194.92            0.0      1.0      False
+155         TH02c_buyuk_yukselis_ters                                           TSLA   O1  3       False   48     48.0        -379.40      -397.05 -1.52  -289.94   -1.11    -411.67 -1.24     -370.41  -0.86            0.30  0.42  -5793.46            0.0      1.0      False
+157         TH02c_buyuk_yukselis_ters                                           TSLA   C1  1       False   49     49.0        -121.50      -139.16 -0.95   -83.20   -0.57    -100.46 -0.48     -212.00  -1.35            0.30  0.41  -3996.78            0.0      1.0      False
+159         TH02c_buyuk_yukselis_ters                                           TSLA   C1  2       False   48     48.0        -369.44      -387.09 -1.77  -292.36   -1.34    -460.36 -1.58     -253.49  -0.78            0.40  0.38  -5649.72            0.0      1.0      False
+161         TH02c_buyuk_yukselis_ters                                           TSLA   C1  3       False   45     45.0        -447.63      -465.28 -1.96  -332.14   -1.40    -567.95 -1.73     -279.19  -0.90            0.30  0.36  -4374.74            0.0      1.0      False
+163    TH02c_buyuk_yukselis_ters_nvda                                           NVDA   C0  1       False   42     42.0         -88.22      -115.22 -1.73   -55.39   -0.83    -183.26 -2.41      -15.17  -0.13            0.20  0.38  -1081.72            0.0      1.0      False
+165    TH02c_buyuk_yukselis_ters_nvda                                           NVDA   C0  2        True   41     41.0        -226.77      -253.77 -3.05  -159.84   -1.92    -327.89 -3.46     -149.14  -1.00            0.10  0.29  -1559.02            0.0      1.0       True
+167    TH02c_buyuk_yukselis_ters_nvda                                           NVDA   C0  3       False   40     40.0        -280.18      -307.18 -2.68  -179.51   -1.57    -458.46 -3.70     -102.49  -0.50            0.20  0.28  -1520.33            0.0      1.0      False
+169    TH02c_buyuk_yukselis_ters_nvda                                           NVDA   O1  1       False   42     42.0         -20.16       -47.16 -0.76   -13.85   -0.22    -120.47 -1.71       60.66   0.54            0.40  0.48   -812.40            0.0      1.0      False
+171    TH02c_buyuk_yukselis_ters_nvda                                           NVDA   O1  2       False   41     41.0        -158.63      -185.63 -2.16  -118.14   -1.37    -266.37 -2.74      -71.64  -0.46            0.10  0.37  -1446.95            0.0      1.0      False
+173    TH02c_buyuk_yukselis_ters_nvda                                           NVDA   O1  3       False   40     40.0        -208.26      -235.26 -2.05  -133.63   -1.16    -389.47 -3.11      -26.62  -0.13            0.20  0.32  -1647.52            0.0      1.0      False
+175    TH02c_buyuk_yukselis_ters_nvda                                           NVDA   C1  1       False   41     41.0        -157.46      -184.46 -3.44  -124.88   -2.33    -200.98 -2.98     -161.13  -1.80            0.10  0.29  -1072.61            0.0      1.0       True
+177    TH02c_buyuk_yukselis_ters_nvda                                           NVDA   C1  2       False   40     40.0        -212.78      -239.78 -3.22  -146.15   -1.96    -325.70 -3.59     -123.54  -1.01            0.10  0.28  -1180.27            0.0      1.0       True
+179    TH02c_buyuk_yukselis_ters_nvda                                           NVDA   C1  3       False   39     39.0        -163.45      -190.45 -2.24   -63.37   -0.74    -306.17 -2.71      -40.69  -0.33            0.20  0.36  -1187.52            0.0      1.0      False
+187         TH03_rsi2_trend_sma5cikis            NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL   C0  3        True  605    419.0         128.05       110.98  3.13    62.20    1.76     103.77  2.01      117.14   2.40            0.80  0.63  -4457.39            7.0      7.0       True
+195         TH03_rsi2_trend_sma5cikis            NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL   O1  3       False  605    419.0         118.23       101.16  2.93    64.33    1.86     100.72  1.88      101.54   2.25            0.90  0.62  -5065.14            7.0      7.0       True
+203         TH03_rsi2_trend_sma5cikis            NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL   C1  3       False  564    400.0          92.99        75.94  2.14    26.69    0.75      65.39  1.35       85.38   1.66            0.70  0.61  -2987.51            5.0      7.0      False
+206  TH03_rsi2_trend_sma5cikis_kripto                                      MSTR+COIN   C0  3        True   99     93.0         124.65        99.06  0.70    26.13    0.18     149.17  0.73       74.01   0.40            0.75  0.54  -3080.68            1.0      2.0      False
+209  TH03_rsi2_trend_sma5cikis_kripto                                      MSTR+COIN   O1  3       False   99     93.0         175.40       149.81  1.08   100.37    0.72     203.03  0.98      123.20   0.68            0.75  0.52  -2804.20            1.0      2.0      False
+212  TH03_rsi2_trend_sma5cikis_kripto                                      MSTR+COIN   C1  3       False   93     87.0         149.36       123.48  0.86    49.57    0.35     -79.49 -0.37      214.81   1.17            0.50  0.53  -2890.36            2.0      2.0      False
+222         TH01_kurali_TH03_uzerinde  NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL+MSTR+COIN   C0  3        True  755    505.0         102.46        83.74  2.49    29.63    0.88      73.30  1.45       91.79   2.04            0.80  0.62  -3742.38            7.0      9.0      False
+232         TH01_kurali_TH03_uzerinde  NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL+MSTR+COIN   O1  3       False  755    505.0         103.05        84.33  2.68    44.56    1.42      77.70  1.86       89.46   1.96            0.80  0.60  -2679.96            9.0      9.0      False
+242         TH01_kurali_TH03_uzerinde  NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL+MSTR+COIN   C1  3       False  673    464.0          68.56        50.03  1.47    -3.52   -0.10      13.21  0.26       79.68   1.75            0.70  0.59  -3742.38            6.0      9.0      False
+246                 TH05_opex_haftasi                                 NVDA+TSLA+AAPL   C0  5        True  351    117.0         177.56       159.03  2.13    22.54    0.30     183.22  1.61      134.43   1.38            0.60  0.55  -6045.12            3.0      3.0      False
+250                 TH05_opex_haftasi                                 NVDA+TSLA+AAPL   O1  5       False  351    117.0         176.92       158.39  2.59    39.38    0.64     192.53  2.26      123.67   1.40            0.70  0.56  -4478.67            3.0      3.0      False
+254                 TH05_opex_haftasi                                 NVDA+TSLA+AAPL   C1  5       False  351    117.0          99.78        81.26  1.66   -55.35   -1.13      98.39  1.72       63.83   0.80            0.80  0.55  -3689.58            3.0      3.0      False
+261           TH05_opex_haftasi_diger                 MSTR+COIN+AMZN+META+MSFT+GOOGL   C0  5        True  649    117.0          65.79        46.76  0.72   -18.10   -0.28      18.17  0.27       75.83   0.68            0.70  0.49  -3805.81            4.0      6.0      False
+268           TH05_opex_haftasi_diger                 MSTR+COIN+AMZN+META+MSFT+GOOGL   O1  5       False  649    117.0          90.70        71.66  1.23    15.86    0.27      53.96  1.03       89.66   0.85            0.60  0.51  -3631.92            5.0      6.0      False
+275           TH05_opex_haftasi_diger                 MSTR+COIN+AMZN+META+MSFT+GOOGL   C1  5       False  649    117.0          56.81        37.77  0.76   -27.20   -0.55      44.59  1.08       30.84   0.34            0.70  0.49  -2830.55            5.0      6.0      False
+277      TH07_ters_rsi2_gt90_ayi_tsla                                           TSLA   C0  1       False   86     86.0          -5.80       -23.46 -0.30    34.18    0.43     203.56  1.56     -121.83  -1.28            0.50  0.50  -2216.63            0.0      1.0      False
+279      TH07_ters_rsi2_gt90_ayi_tsla                                           TSLA   C0  2        True   64     64.0         -26.54       -44.19 -0.30    54.18    0.37     264.62  1.15     -205.95  -1.13            0.50  0.53  -3926.92            0.0      1.0      False
+281      TH07_ters_rsi2_gt90_ayi_tsla                                           TSLA   C0  3       False   55     55.0        -215.20      -232.85 -1.58   -94.49   -0.64    -188.39 -0.83     -260.31  -1.33            0.25  0.38  -2395.99            0.0      1.0      False
+283      TH07_ters_rsi2_gt90_ayi_tsla                                           TSLA   O1  1       False   86     86.0           5.15       -12.50 -0.21    19.05    0.32     103.81  1.18      -62.91  -0.82            0.38  0.51  -2001.41            0.0      1.0      False
+285      TH07_ters_rsi2_gt90_ayi_tsla                                           TSLA   O1  2       False   64     64.0           2.55       -15.10 -0.12    56.92    0.44     204.63  0.98     -130.20  -0.81            0.38  0.56  -3032.72            0.0      1.0      False
+287      TH07_ters_rsi2_gt90_ayi_tsla                                           TSLA   O1  3       False   55     55.0        -202.33      -219.98 -1.54  -107.68   -0.75    -232.35 -1.06     -212.34  -1.11            0.25  0.40  -2362.78            0.0      1.0      False
+289      TH07_ters_rsi2_gt90_ayi_tsla                                           TSLA   C1  1       False   64     64.0         -48.67       -66.33 -0.60    -8.48   -0.08     107.91  0.55     -157.60  -1.19            0.50  0.50  -3077.69            0.0      1.0      False
+291      TH07_ters_rsi2_gt90_ayi_tsla                                           TSLA   C1  2       False   55     55.0        -198.79      -216.44 -1.63  -117.93   -0.89    -362.19 -1.71     -126.42  -0.74            0.25  0.38  -2677.56            0.0      1.0      False
+293      TH07_ters_rsi2_gt90_ayi_tsla                                           TSLA   C1  3       False   52     52.0        -370.48      -388.14 -2.14  -249.65   -1.38    -285.87 -1.04     -447.02  -1.87            0.38  0.29  -3971.99            0.0      1.0      False
+295      TH07_ters_rsi2_gt90_ayi_nvda                                           NVDA   C0  1       False   58     58.0          33.16         6.16  0.10    69.17    1.17      65.30  0.93      -49.04  -0.53            0.50  0.50   -871.09            1.0      1.0      False
+297      TH07_ters_rsi2_gt90_ayi_nvda                                           NVDA   C0  2        True   39     39.0          -5.31       -32.31 -0.32    68.57    0.67      22.68  0.20      -79.44  -0.48            0.33  0.54  -1441.99            0.0      1.0      False
+299      TH07_ters_rsi2_gt90_ayi_nvda                                           NVDA   C0  3       False   34     34.0         -52.70       -79.70 -0.49    58.40    0.36     -44.70 -0.25     -110.81  -0.42            0.33  0.35  -1790.61            0.0      1.0      False
+301      TH07_ters_rsi2_gt90_ayi_nvda                                           NVDA   O1  1       False   58     58.0          45.88        18.88  0.40    55.60    1.17     137.09  2.31      -91.44  -1.35            0.50  0.53   -783.16            1.0      1.0      False
+303      TH07_ters_rsi2_gt90_ayi_nvda                                           NVDA   O1  2       False   39     39.0          17.94        -9.06 -0.09    65.34    0.67     118.74  1.04     -118.59  -0.79            0.50  0.51  -1251.71            0.0      1.0      False
+305      TH07_ters_rsi2_gt90_ayi_nvda                                           NVDA   O1  3       False   34     34.0         -41.26       -68.26 -0.52    43.84    0.33      13.63  0.09     -141.05  -0.68            0.33  0.44  -1344.68            0.0      1.0      False
+307      TH07_ters_rsi2_gt90_ayi_nvda                                           NVDA   C1  1       False   39     39.0         -65.65       -92.65 -1.50   -29.49   -0.48     -59.89 -0.77     -120.73  -1.28            0.00  0.46   -856.79            0.0      1.0      False
+309      TH07_ters_rsi2_gt90_ayi_nvda                                           NVDA   C1  2       False   34     34.0        -135.29      -162.29 -1.37   -61.55   -0.52    -141.73 -1.22     -180.57  -0.89            0.00  0.38  -1516.29            0.0      1.0      False
+311      TH07_ters_rsi2_gt90_ayi_nvda                                           NVDA   C1  3       False   30     30.0        -364.72      -391.72 -2.74  -254.03   -1.78    -245.93 -2.15     -519.30  -2.09            0.00  0.23  -2142.10            0.0      1.0      False
+314            TH06_btc_artik_u_ge2sd                                      MSTR+COIN   C0  1        True   45     40.0         242.60       213.46  0.85   214.72    0.86        NaN   NaN      213.46   0.85            0.67  0.44  -1900.89            2.0      2.0      False
+317            TH06_btc_artik_u_ge2sd                                      MSTR+COIN   C0  2       False   42     37.0         455.65       426.31  1.48   407.25    1.42        NaN   NaN      426.31   1.48            1.00  0.62  -2487.60            2.0      2.0      False
+320            TH06_btc_artik_u_ge2sd                                      MSTR+COIN   C0  3       False   42     37.0         824.62       795.28  2.13   750.37    2.02        NaN   NaN      795.28   2.13            1.00  0.57  -2543.67            2.0      2.0      False
+323            TH06_btc_artik_u_ge2sd                                      MSTR+COIN   O1  1       False   45     40.0         257.12       227.98  1.16   258.97    1.32        NaN   NaN      227.98   1.16            1.00  0.53  -1983.45            2.0      2.0      False
+326            TH06_btc_artik_u_ge2sd                                      MSTR+COIN   O1  2       False   42     37.0         469.21       439.87  1.78   448.46    1.82        NaN   NaN      439.87   1.78            1.00  0.60  -2564.19            2.0      2.0      False
+329            TH06_btc_artik_u_ge2sd                                      MSTR+COIN   O1  3       False   42     37.0         855.66       826.32  2.32   813.33    2.29        NaN   NaN      826.32   2.32            1.00  0.62  -2554.82            2.0      2.0      False
+332            TH06_btc_artik_u_ge2sd                                      MSTR+COIN   C1  1       False   42     37.0         196.06       166.72  1.11   167.39    1.11        NaN   NaN      166.72   1.11            0.67  0.57  -1683.29            2.0      2.0      False
+335            TH06_btc_artik_u_ge2sd                                      MSTR+COIN   C1  2       False   42     37.0         571.59       542.25  1.89   522.12    1.82        NaN   NaN      542.25   1.89            0.67  0.52  -3166.62            2.0      2.0      False
+338            TH06_btc_artik_u_ge2sd                                      MSTR+COIN   C1  3       False   42     37.0         766.31       736.97  1.94   690.04    1.81        NaN   NaN      736.97   1.94            0.67  0.55  -3080.68            2.0      2.0      False
+341            TH06_btc_yetisme_ge2sd                                      MSTR+COIN   C0  1        True   44     40.0         277.87       248.33  1.13   251.27    1.14        NaN   NaN      248.33   1.13            0.75  0.48  -1921.07            2.0      2.0      False
+344            TH06_btc_yetisme_ge2sd                                      MSTR+COIN   C0  2       False   43     39.0         330.14       301.08  1.20   285.45    1.13        NaN   NaN      301.08   1.20            0.75  0.58  -2746.88            2.0      2.0      False
+347            TH06_btc_yetisme_ge2sd                                      MSTR+COIN   C0  3       False   43     39.0         525.22       496.16  1.33   456.16    1.22        NaN   NaN      496.16   1.33            1.00  0.49  -4117.03            2.0      2.0      False
+350            TH06_btc_yetisme_ge2sd                                      MSTR+COIN   O1  1       False   44     40.0         211.48       181.94  1.00   215.00    1.18        NaN   NaN      181.94   1.00            0.50  0.50  -1618.36            2.0      2.0      False
+353            TH06_btc_yetisme_ge2sd                                      MSTR+COIN   O1  2       False   43     39.0         326.80       297.74  1.22   310.17    1.27        NaN   NaN      297.74   1.22            0.75  0.53  -2324.15            2.0      2.0      False
+356            TH06_btc_yetisme_ge2sd                                      MSTR+COIN   O1  3       False   43     39.0         523.78       494.72  1.36   487.27    1.33        NaN   NaN      494.72   1.36            0.75  0.49  -3773.98            2.0      2.0      False
+359            TH06_btc_yetisme_ge2sd                                      MSTR+COIN   C1  1       False   43     39.0         150.57       121.51  0.69   124.61    0.70        NaN   NaN      121.51   0.69            0.50  0.44  -1901.33            1.0      2.0      False
+362            TH06_btc_yetisme_ge2sd                                      MSTR+COIN   C1  2       False   43     39.0         301.92       272.86  1.00   256.90    0.94        NaN   NaN      272.86   1.00            0.50  0.49  -3430.86            2.0      2.0      False
+365            TH06_btc_yetisme_ge2sd                                      MSTR+COIN   C1  3       False   41     37.0         612.08       582.31  1.50   544.65    1.40        NaN   NaN      582.31   1.50            0.50  0.51  -3906.95            2.0      2.0      False
+367            SMH_NVDA_yetisme_ge2sd                                           NVDA   C0  1        True   51     51.0          84.20        67.98  0.55    45.58    0.37     101.91  0.50       35.36   0.24            0.70  0.53  -2420.60            1.0      1.0      False
+369            SMH_NVDA_yetisme_ge2sd                                           NVDA   C0  2       False   49     49.0          70.50        54.29  0.38    -2.89   -0.02     265.22  1.35     -148.21  -0.75            0.60  0.51  -1964.08            1.0      1.0      False
+371            SMH_NVDA_yetisme_ge2sd                                           NVDA   C0  3       False   48     48.0         179.94       163.72  0.93    68.80    0.39     360.49  1.36      -17.30  -0.07            0.60  0.65  -2439.45            1.0      1.0      False
+373            SMH_NVDA_yetisme_ge2sd                                           NVDA   O1  1       False   51     51.0          53.30        37.09  0.30    43.89    0.36     154.58  0.73      -75.89  -0.61            0.60  0.49  -2164.67            1.0      1.0      False
+375            SMH_NVDA_yetisme_ge2sd                                           NVDA   O1  2       False   49     49.0          14.95        -1.27 -0.01   -30.08   -0.20     250.94  1.25     -243.38  -1.17            0.40  0.49  -1981.23            0.0      1.0      False
+377            SMH_NVDA_yetisme_ge2sd                                           NVDA   O1  3       False   48     48.0         123.98       107.76  0.62    42.51    0.25     354.76  1.39     -119.47  -0.52            0.60  0.58  -2219.88            1.0      1.0      False
+379            SMH_NVDA_yetisme_ge2sd                                           NVDA   C1  1       False   49     49.0           8.18        -8.04 -0.08   -29.77   -0.31     190.26  1.72     -198.40  -1.33            0.40  0.51  -1926.69            0.0      1.0      False
+381            SMH_NVDA_yetisme_ge2sd                                           NVDA   C1  2       False   48     48.0         123.28       107.06  0.86    50.45    0.41     304.66  1.80      -74.73  -0.42            0.60  0.54  -2199.27            1.0      1.0      False
+383            SMH_NVDA_yetisme_ge2sd                                           NVDA   C1  3       False   47     47.0         106.56        90.34  0.66    -4.14   -0.03     367.67  2.17     -175.43  -0.86            0.60  0.62  -2178.97            1.0      1.0      False

@@ -1,0 +1,42 @@
+Aile hedefli satır: 1195 | FDR bayrağı olan satır: 6
+target   leader  corr_1y  lag_t_h1  lag_t_h1_is  lag_t_h1_oos  lag_bp_per_sd_h1  lag_t_h3  lag_t_h3_is  lag_t_h3_oos  lag_bp_per_sd_h3  catch_t_h1  catch_t_h1_is  catch_t_h1_oos  catch_bp_per_sd_h1  catch_t_h3  catch_t_h3_is  catch_t_h3_oos  catch_bp_per_sd_h3  fdr10_lag_t_h1  fdr10_lag_t_h3  fdr10_catch_t_h1  fdr10_catch_t_h3
+   DBO      BNO     0.93      1.38         2.27         -0.73             23.35      2.93         4.07          0.27             63.17        1.93           3.11           -0.44               12.98        3.37           4.41            1.03               27.57           False           False             False              True
+   ERX      XLE     1.00     -0.97        -1.19         -0.40           -112.66     -4.86        -5.06          0.76           -494.81       -2.52          -2.53           -0.35              -76.81       -2.49          -2.50            0.55             -110.97           False            True             False             False
+  CANE      BNO     0.24      3.75         2.41          2.91             11.11      2.33         2.67          0.63             15.06        0.50           0.90           -0.18                1.53       -1.16           0.16           -1.78               -6.51            True           False             False             False
+  CANE      USL     0.20      4.38         2.99          3.23             12.05      2.14         2.34          0.59             12.57        0.47           0.83           -0.15                1.43       -1.37          -0.07           -1.86               -7.75            True           False             False             False
+  CANE      XLE     0.14      3.63         1.72          4.27             11.18      2.32         1.59          2.07             15.08        0.39           0.63           -0.06                1.17       -1.36          -0.27           -1.62               -7.55            True           False             False             False
+  CANE T10YIE_d     0.16      3.77         2.69          2.71             10.58      2.90         3.06          1.20             17.51       -0.10           0.74           -0.87               -0.31       -1.82          -0.28           -2.27              -10.57            True           False             False             False
+
+Kabul/yedek hedeflerde ölçütü geçen gecikmeli öncü satırı: 0
+  (yok)
+
+Bağımsız yeniden hesap (kendi 2 gecikmesi kontrollü, NW):
+hedef           oncu  h  tum_t  tum_bp_sd  is_t  is_bp_sd  oos_t  oos_bp_sd
+ CANE            BNO  1   3.43      10.22  2.02      8.21   2.84      12.49
+ CANE            BNO  3   2.06      13.05  2.33     21.75   0.55       4.16
+ CANE            USO  1   3.15      10.11  1.94      8.78   2.66      11.82
+ CANE            USO  3   1.64      10.89  2.07     19.96   0.06       0.43
+  XOP            UNG  1   1.97      12.47  1.93     19.48   0.51       3.56
+  XOP            UNG  3   2.57      21.39  2.16     26.74   1.36      15.28
+  XLE           KWEB  1   1.55       6.88  0.61      4.07   1.67       9.68
+  XLE           KWEB  3   2.78      21.04  2.02     23.30   1.91      20.30
+  UNG           KWEB  1   1.54      12.47  0.88      8.08   1.25      16.08
+  UNG           KWEB  3   2.56      30.71  2.23     32.62   1.60      29.42
+  BNO VVIX(16:15 ET)  1  -1.43      -6.89 -0.60     -4.45  -1.32      -8.94
+  BNO VVIX(16:15 ET)  3  -2.84     -23.74 -1.45    -17.81  -2.45     -26.82
+  UCO           CPER  1   1.88      18.11  0.67     11.11   2.10      24.25
+  UCO           CPER  3   2.66      39.84  1.21     28.45   2.75      53.05
+ PDBC           KWEB  1   2.58       8.67  1.71      5.61   2.32      12.09
+ PDBC           KWEB  3   2.94      17.22  2.20     11.28   2.39      22.19
+  USO            SPY  1  -1.31     -11.79 -2.14    -30.83   0.60       4.86
+  USO            SPY  3  -0.16      -2.57 -1.55    -41.59   2.24      29.68
+  XLE            SPY  1  -1.62     -13.58 -1.27    -21.49  -0.71      -5.51
+  XLE            SPY  3  -0.14      -1.58 -0.47    -10.22   0.49       5.29
+ KOLD            SPY  1  -0.45      -7.41  0.59     11.17  -1.08     -29.45
+ KOLD            SPY  3   0.14       3.38  0.50     12.31  -0.20      -8.71
+
+CANE: hacmi 0 olan gün oranı 0.000 | kapanış değişmeyen gün oranı 0.021 | medyan günlük hacim (adet) 40891
+  CANE<-BNO h1 düşük hacimli gün (< 60g medyan): n=1181 t=1.28 bp/sd=5.0
+  CANE<-BNO h1 yüksek hacimli gün: n=1267 t=3.74 bp/sd=16.1
+  CANE gap1 ~ r_BNO(t): t=1.17 bp/sd=3.0
+  CANE intr1 ~ r_BNO(t): t=3.31 bp/sd=7.4

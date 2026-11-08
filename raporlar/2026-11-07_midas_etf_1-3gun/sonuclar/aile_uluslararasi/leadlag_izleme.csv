@@ -1,0 +1,117 @@
+sym,tur,ad,tv,corr_1y,beta_1y,neden
+EWY,surucu,EEM,AMEX:EEM,0.93,2.13,
+EWY,surucu,SMH,NASDAQ:SMH,0.83,1.17,
+EWY,surucu,XLK,AMEX:XLK,0.79,1.67,
+EWY,surucu,QQQ,NASDAQ:QQQ,0.78,2.19,
+EWY,gercek_zamanli,KOSPI (seans TR 03:00-09:30),KRX:KOSPI,,,EWY açılış boşluğunu belirleyen yerel seans
+EWY,gercek_zamanli,Nasdaq 100 vadelisi,CME_MINI:NQ1!,,,gece yön; yarı iletken ağırlığı
+EWY,gercek_zamanli,S&P 500 vadelisi,CME_MINI:ES1!,,,gece risk iştahı
+FXI,surucu,KWEB,AMEX:KWEB,0.88,0.63,
+FXI,surucu,EEM,AMEX:EEM,0.45,0.33,
+FXI,surucu,CPER,AMEX:CPER,0.41,0.28,
+FXI,surucu,SLV,AMEX:SLV,0.41,0.12,
+FXI,gercek_zamanli,Hang Seng vadelisi,HKEX:HSI1!,,,gece seansı ~TR 12:15-22:00
+FXI,gercek_zamanli,Hang Seng endeksi,TVC:HSI,,,yerel kapanış TR 11:00
+FXI,gercek_zamanli,USD/CNH,FX:USDCNH,,,24 saat kur
+FXI,gercek_zamanli,FTSE China A50 vadelisi,SGX:CN1!,,,uzun seans Çin duyarlılığı
+EWJ,surucu,EEM,AMEX:EEM,0.8,0.67,
+EWJ,surucu,SPY,AMEX:SPY,0.74,1.21,
+EWJ,surucu,QQQ,NASDAQ:QQQ,0.71,0.74,
+EWJ,surucu,IWM,AMEX:IWM,0.7,0.83,
+EWJ,gercek_zamanli,Nikkei 225 vadelisi,OSE:NK2251!,,,gece seansı ~TR 10:45-00:00; açılış boşluğu
+EWJ,gercek_zamanli,Nikkei 225,TVC:NI225,,,yerel kapanış TR 09:30
+EWJ,gercek_zamanli,USD/JPY,FX_IDC:USDJPY,,,24 saat; EWJ kur korumasız
+EWT,surucu,EEM,AMEX:EEM,0.91,1.22,
+EWT,surucu,SMH,NASDAQ:SMH,0.84,0.7,
+EWT,surucu,QQQ,NASDAQ:QQQ,0.84,1.38,
+EWT,surucu,XLK,AMEX:XLK,0.83,1.03,
+EWT,gercek_zamanli,Nasdaq 100 vadelisi,CME_MINI:NQ1!,,,gece yön; yarı iletken ağırlığı
+EWT,gercek_zamanli,S&P 500 vadelisi,CME_MINI:ES1!,,,gece risk iştahı
+EEM,surucu,SMH,NASDAQ:SMH,0.85,0.53,
+EEM,surucu,QQQ,NASDAQ:QQQ,0.84,1.03,
+EEM,surucu,XLK,AMEX:XLK,0.82,0.76,
+EEM,surucu,EWJ,AMEX:EWJ,0.8,0.95,
+EEM,gercek_zamanli,Hang Seng vadelisi,HKEX:HSI1!,,,Çin ağırlığı
+EEM,gercek_zamanli,KOSPI,KRX:KOSPI,,,Kore ağırlığı
+EEM,gercek_zamanli,USD/CNH,FX:USDCNH,,,24 saat kur
+EEM,gercek_zamanli,S&P 500 vadelisi,CME_MINI:ES1!,,,gece risk iştahı
+EFA,surucu,EWJ,AMEX:EWJ,0.87,0.65,
+EFA,surucu,SPY,AMEX:SPY,0.77,0.94,
+EFA,surucu,EEM,AMEX:EEM,0.77,0.48,
+EFA,surucu,DIA,AMEX:DIA,0.77,0.94,
+EFA,gercek_zamanli,DAX vadelisi,EUREX:FDAX1!,,,Avrupa açılışı öncesi yön
+EFA,gercek_zamanli,Euro Stoxx 50,TVC:SX5E,,,kapanış kış TR 19:30
+EFA,gercek_zamanli,Nikkei 225 vadelisi,OSE:NK2251!,,,Japonya ağırlığı
+EFA,gercek_zamanli,EUR/USD,FX:EURUSD,,,24 saat kur
+EWZ,surucu,EEM,AMEX:EEM,0.41,0.56,
+EWZ,surucu,EWJ,AMEX:EWJ,0.38,0.62,
+EWZ,surucu,IWM,AMEX:IWM,0.35,0.69,
+EWZ,surucu,CPER,AMEX:CPER,0.35,0.44,
+EWZ,gercek_zamanli,Ibovespa,BMFBOVESPA:IBOV,,,ABD ile büyük ölçüde eşzamanlı
+EWZ,gercek_zamanli,USD/BRL,FX_IDC:USDBRL,,,kur getirinin büyük kısmı
+EWZ,gercek_zamanli,Brent vadelisi,ICEEUR:BRN1!,,,Petrobras ağırlığı
+IEMG,surucu,SMH,NASDAQ:SMH,0.85,0.51,
+IEMG,surucu,QQQ,NASDAQ:QQQ,0.84,1.0,
+IEMG,surucu,XLK,AMEX:XLK,0.82,0.73,
+IEMG,surucu,EWJ,AMEX:EWJ,0.8,0.93,
+IEMG,gercek_zamanli,Hang Seng vadelisi,HKEX:HSI1!,,,Çin ağırlığı
+IEMG,gercek_zamanli,KOSPI,KRX:KOSPI,,,Kore ağırlığı
+IEMG,gercek_zamanli,USD/CNH,FX:USDCNH,,,24 saat kur
+IEMG,gercek_zamanli,S&P 500 vadelisi,CME_MINI:ES1!,,,gece risk iştahı
+KORU,surucu,EWY (dayanak),AMEX:EWY,0.995,3.01,
+KORU,surucu,EEM,AMEX:EEM,0.93,6.43,
+KORU,surucu,SMH,NASDAQ:SMH,0.83,3.54,
+KORU,surucu,XLK,AMEX:XLK,0.79,5.04,
+KORU,surucu,QQQ,NASDAQ:QQQ,0.78,6.63,
+KORU,gercek_zamanli,KOSPI (seans TR 03:00-09:30),KRX:KOSPI,,,EWY açılış boşluğunu belirleyen yerel seans
+KORU,gercek_zamanli,Nasdaq 100 vadelisi,CME_MINI:NQ1!,,,gece yön; yarı iletken ağırlığı
+KORU,gercek_zamanli,S&P 500 vadelisi,CME_MINI:ES1!,,,gece risk iştahı
+INDA,surucu,BNO,AMEX:BNO,-0.6,-0.2,
+INDA,surucu,DIA,AMEX:DIA,0.57,0.69,
+INDA,surucu,USO,AMEX:USO,-0.56,-0.18,
+INDA,surucu,USL,AMEX:USL,-0.55,-0.28,
+INDA,gercek_zamanli,Nifty 50,NSE:NIFTY,,,yerel kapanış TR 13:00
+INDA,gercek_zamanli,S&P 500 vadelisi,CME_MINI:ES1!,,,gece risk iştahı
+VGK,surucu,DIA,AMEX:DIA,0.77,0.95,
+VGK,surucu,EWJ,AMEX:EWJ,0.73,0.55,
+VGK,surucu,SPY,AMEX:SPY,0.73,0.89,
+VGK,surucu,HYG,AMEX:HYG,0.72,2.77,
+VGK,gercek_zamanli,DAX vadelisi,EUREX:FDAX1!,,,Avrupa açılışı öncesi yön
+VGK,gercek_zamanli,Euro Stoxx 50,TVC:SX5E,,,kapanış kış TR 19:30
+VGK,gercek_zamanli,FTSE 100,TVC:UKX,,,İngiltere ağırlığı
+VGK,gercek_zamanli,EUR/USD,FX:EURUSD,,,24 saat kur
+ASHR,surucu,EEM,AMEX:EEM,0.68,0.47,
+ASHR,surucu,SMH,NASDAQ:SMH,0.6,0.26,
+ASHR,surucu,EWJ,AMEX:EWJ,0.58,0.48,
+ASHR,surucu,QQQ,NASDAQ:QQQ,0.57,0.49,
+ASHR,gercek_zamanli,CSI 300,SSE:000300,,,dayanak; kapanış TR 10:00
+ASHR,gercek_zamanli,FTSE China A50 vadelisi,SGX:CN1!,,,gece seansı
+ASHR,gercek_zamanli,USD/CNH,FX:USDCNH,,,24 saat kur
+EWA,surucu,EWJ,AMEX:EWJ,0.68,0.57,
+EWA,surucu,IWM,AMEX:IWM,0.67,0.66,
+EWA,surucu,HYG,AMEX:HYG,0.67,2.88,
+EWA,surucu,DIA,AMEX:DIA,0.66,0.91,
+EWA,gercek_zamanli,AUD/USD,FX:AUDUSD,,,24 saat kur
+EWA,gercek_zamanli,Bakır vadelisi,COMEX:HG1!,,,madencilik ağırlığı
+EWA,gercek_zamanli,S&P 500 vadelisi,CME_MINI:ES1!,,,gece risk iştahı
+EWH,surucu,FXI,AMEX:FXI,0.71,0.64,
+EWH,surucu,KWEB,AMEX:KWEB,0.55,0.36,
+EWH,surucu,EEM,AMEX:EEM,0.52,0.35,
+EWH,surucu,EWJ,AMEX:EWJ,0.52,0.41,
+EWH,gercek_zamanli,Hang Seng vadelisi,HKEX:HSI1!,,,gece seansı
+EWH,gercek_zamanli,Hang Seng endeksi,TVC:HSI,,,yerel kapanış TR 11:00
+YINN,surucu,FXI (dayanak),AMEX:FXI,0.996,2.96,
+YINN,surucu,KWEB,AMEX:KWEB,0.88,1.88,
+YINN,surucu,EEM,AMEX:EEM,0.46,1.0,
+YINN,surucu,SLV,AMEX:SLV,0.42,0.36,
+YINN,surucu,CPER,AMEX:CPER,0.42,0.84,
+YINN,gercek_zamanli,Hang Seng vadelisi,HKEX:HSI1!,,,gece seansı ~TR 12:15-22:00
+YINN,gercek_zamanli,Hang Seng endeksi,TVC:HSI,,,yerel kapanış TR 11:00
+YINN,gercek_zamanli,USD/CNH,FX:USDCNH,,,24 saat kur
+YINN,gercek_zamanli,FTSE China A50 vadelisi,SGX:CN1!,,,uzun seans Çin duyarlılığı
+CQQQ,surucu,KWEB,AMEX:KWEB,0.69,0.79,
+CQQQ,surucu,EEM,AMEX:EEM,0.68,0.79,
+CQQQ,surucu,FXI,AMEX:FXI,0.61,0.96,
+CQQQ,surucu,QQQ,NASDAQ:QQQ,0.58,0.84,
+CQQQ,gercek_zamanli,Hang Seng vadelisi,HKEX:HSI1!,,,gece seansı
+CQQQ,gercek_zamanli,USD/CNH,FX:USDCNH,,,24 saat kur

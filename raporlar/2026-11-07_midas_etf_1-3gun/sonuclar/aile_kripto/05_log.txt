@@ -1,0 +1,139 @@
+====================================================================================================
+kripto_S1: Perşembe gün içi ters BTC (SBIT; alternatif BITI)
+====================================================================================================
+SBIT O1 h=1 (C0=Çar kapanış->Per kapanış, C1=Per kapanış->Cum kapanış):  n=133, brüt 100.2 bp, net 84.2 bp, t=2.40, kazanma 0.48, PF 1.76, IS nan / OOS 84.2 bp, yıl+ 1.00, maxDD -0.307, en kötü -916 bp, kenar 90.0 bp (t=2.56)
+   maliyet duyarlılığı net: 1.000$ 66.2 | 2.500$ 84.2 | 10.000$ 93.2 bp; ilk yarı 83.9 / ikinci yarı 84.6 bp
+SBIT C0 h=1 (C0=Çar kapanış->Per kapanış, C1=Per kapanış->Cum kapanış):  n=133, brüt 90.3 bp, net 74.3 bp, t=1.55, kazanma 0.59, PF 1.44, IS nan / OOS 74.3 bp, yıl+ 0.67, maxDD -0.317, en kötü -1748 bp, kenar 100.2 bp (t=2.09)
+SBIT C1 h=1 (C0=Çar kapanış->Per kapanış, C1=Per kapanış->Cum kapanış):  n=133, brüt -60.9 bp, net -76.9 bp, t=-1.53, kazanma 0.50, PF 0.71, IS nan / OOS -76.9 bp, yıl+ 0.00, maxDD -0.777, en kötü -2044 bp, kenar -52.1 bp (t=-1.04)
+BITI O1 h=1 (C0=Çar kapanış->Per kapanış, C1=Per kapanış->Cum kapanış):  n=226, brüt 28.4 bp, net 8.4 bp, t=0.58, kazanma 0.48, PF 1.11, IS nan / OOS 8.4 bp, yıl+ 0.60, maxDD -0.355, en kötü -751 bp, kenar 27.1 bp (t=1.87)
+   maliyet duyarlılığı net: 1.000$ -9.6 | 2.500$ 8.4 | 10.000$ 17.4 bp; ilk yarı -17.5 / ikinci yarı 34.4 bp
+BITI C0 h=1 (C0=Çar kapanış->Per kapanış, C1=Per kapanış->Cum kapanış):  n=226, brüt 13.4 bp, net -6.6 bp, t=-0.33, kazanma 0.49, PF 0.94, IS nan / OOS -6.6 bp, yıl+ 0.40, maxDD -0.517, en kötü -1328 bp, kenar 29.7 bp (t=1.49)
+BITI C1 h=1 (C0=Çar kapanış->Per kapanış, C1=Per kapanış->Cum kapanış):  n=226, brüt -12.9 bp, net -32.9 bp, t=-1.65, kazanma 0.48, PF 0.74, IS nan / OOS -32.9 bp, yıl+ 0.20, maxDD -0.622, en kötü -1098 bp, kenar 3.0 bp (t=0.15)
+
+Dayanak ve aile (long ürünlerde Perşembe gün içi; NEGATİF değer ters ürün lehine):
+  BTC_ET  n=177, brüt -40.3 bp, net -54.7 bp, t=-4.01, kazanma 0.42, PF 0.44, IS nan / OOS -54.7 bp, yıl+ 0.00, maxDD -0.665, en kötü -849 bp, kenar -40.0 bp (t=-2.93)
+  ETH_ET  n=177, brüt -49.2 bp, net -63.2 bp, t=-3.77, kazanma 0.39, PF 0.44, IS nan / OOS -63.2 bp, yıl+ 0.00, maxDD -0.721, en kötü -909 bp, kenar -39.6 bp (t=-2.36)
+  IBIT    n=144, brüt -55.4 bp, net -69.7 bp, t=-4.09, kazanma 0.43, PF 0.39, IS nan / OOS -69.7 bp, yıl+ 0.00, maxDD -0.656, en kötü -921 bp, kenar -51.0 bp (t=-2.99)
+  BITO    n=261, brüt -31.3 bp, net -53.2 bp, t=-3.73, kazanma 0.43, PF 0.52, IS -90.3 / OOS -51.6 bp, yıl+ 0.17, maxDD -0.777, en kötü -931 bp, kenar -24.1 bp (t=-1.69)
+     BITO yıllık (gün içi, bp): {2021: -68.4, 2022: 33.1, 2023: -21.2, 2024: -72.2, 2025: -71.3, 2026: -16.2}  n: {2021: 11, 2022: 52, 2023: 52, 2024: 50, 2025: 52, 2026: 44}
+     BITO keşif dönemi ÖNCESİ (2021-10..2023-05, saatlik BTC verisi yokken): n=85, ort 8.7 bp, t=0.28  (pozitif = ters ürün ALEYHİNE)
+  BITX    n=173, brüt -105.5 bp, net -123.8 bp, t=-4.13, kazanma 0.43, PF 0.42, IS nan / OOS -123.8 bp, yıl+ 0.00, maxDD -0.916, en kötü -1893 bp, kenar -97.0 bp (t=-3.24)
+  ETHA    n=118, brüt -82.9 bp, net -96.9 bp, t=-4.04, kazanma 0.36, PF 0.34, IS nan / OOS -96.9 bp, yıl+ 0.00, maxDD -0.710, en kötü -1047 bp, kenar -69.1 bp (t=-2.88)
+  MSTU    n=110, brüt -176.5 bp, net -192.5 bp, t=-2.23, kazanma 0.45, PF 0.54, IS nan / OOS -192.5 bp, yıl+ 0.33, maxDD -0.970, en kötü -4112 bp, kenar -147.7 bp (t=-1.71)
+  CONL    n=219, brüt -71.4 bp, net -119.2 bp, t=-2.17, kazanma 0.43, PF 0.67, IS nan / OOS -119.2 bp, yıl+ 0.20, maxDD -0.973, en kötü -2571 bp, kenar -82.2 bp (t=-1.50)
+  BLOK    n=453, brüt -19.2 bp, net -39.2 bp, t=-3.97, kazanma 0.39, PF 0.59, IS -33.2 / OOS -44.0 bp, yıl+ 0.00, maxDD -0.859, en kötü -819 bp, kenar -17.4 bp (t=-1.76)
+  SPY     n=515, brüt -0.8 bp, net -13.8 bp, t=-3.49, kazanma 0.42, PF 0.63, IS -9.7 / OOS -18.3 bp, yıl+ 0.00, maxDD -0.520, en kötü -437 bp, kenar -2.6 bp (t=-0.66)
+  QQQ     n=515, brüt -3.5 bp, net -16.5 bp, t=-3.17, kazanma 0.46, PF 0.67, IS -10.5 / OOS -23.0 bp, yıl+ 0.00, maxDD -0.583, en kötü -541 bp, kenar -6.3 bp (t=-1.21)
+
+SBIT O1 yıllık net bp: {2024: 104.5, 2025: 130.7, 2026: 12.3}  n: {2024: 37, 2025: 52, 2026: 44}
+SBIT en iyi 5 işlem hariç net ort 41.8 bp (t=1.36); medyan -4.8 bp
+SBIT CPI günü olan Perşembeler hariç: n=127, net 63.6 bp, t=1.81
+SBIT gün içi (O1 h=1) haftanın diğer günleri (seçim kontrolü):
+   Pzt: n=130, net -39.5, t=-1.08
+   Sal: n=125, net -31.2, t=-1.06
+   Çar: n=136, net -28.2, t=-0.90
+   Per: n=133, net 84.2, t=2.40
+   Cum: n=129, net -16.7, t=-0.47
+
+====================================================================================================
+kripto_S2: BTC trend filtresi (kapanış>SMA10 ve SMA10>SMA50) -> IBIT long 3 gün
+====================================================================================================
+BTC_D  C0 h=3:  n=317, brüt 167.1 bp, net 152.8 bp, t=3.42, kazanma 0.54, PF 1.74, IS 225.0 / OOS 58.0 bp, yıl+ 0.70, maxDD -0.577, en kötü -2498 bp, kenar 87.8 bp (t=1.97)
+BTC_D  C1 h=3:  n=252, brüt 149.5 bp, net 135.1 bp, t=2.75, kazanma 0.52, PF 1.63, IS 219.7 / OOS 26.0 bp, yıl+ 0.70, maxDD -0.466, en kötü -1487 bp, kenar 70.2 bp (t=1.43)
+ETH_D  C0 h=3:  n=314, brüt 275.3 bp, net 261.3 bp, t=3.70, kazanma 0.54, PF 2.01, IS 433.1 / OOS 30.4 bp, yıl+ 0.90, maxDD -0.655, en kötü -4025 bp, kenar 158.2 bp (t=2.24)
+ETH_D  C1 h=3:  n=247, brüt 182.4 bp, net 168.4 bp, t=2.16, kazanma 0.50, PF 1.53, IS 295.9 / OOS 4.4 bp, yıl+ 0.80, maxDD -0.779, en kötü -4574 bp, kenar 65.5 bp (t=0.84)
+BTC_ET C0 h=3:  n=109, brüt 81.0 bp, net 66.7 bp, t=1.36, kazanma 0.46, PF 1.43, IS nan / OOS 66.7 bp, yıl+ 0.75, maxDD -0.387, en kötü -922 bp, kenar 27.2 bp (t=0.55)
+BTC_ET O1 h=3:  n=109, brüt 58.4 bp, net 44.0 bp, t=0.98, kazanma 0.48, PF 1.29, IS nan / OOS 44.0 bp, yıl+ 0.75, maxDD -0.360, en kötü -1084 bp, kenar 23.6 bp (t=0.52)
+BTC_ET C1 h=3:  n=84, brüt 63.8 bp, net 49.5 bp, t=0.89, kazanma 0.50, PF 1.29, IS nan / OOS 49.5 bp, yıl+ 0.75, maxDD -0.353, en kötü -803 bp, kenar 9.6 bp (t=0.17)
+ETH_ET C0 h=3:  n=98, brüt 54.9 bp, net 40.9 bp, t=0.55, kazanma 0.45, PF 1.16, IS nan / OOS 40.9 bp, yıl+ 0.75, maxDD -0.525, en kötü -1667 bp, kenar 19.5 bp (t=0.26)
+ETH_ET O1 h=3:  n=98, brüt 26.4 bp, net 12.4 bp, t=0.19, kazanma 0.46, PF 1.05, IS nan / OOS 12.4 bp, yıl+ 0.75, maxDD -0.545, en kötü -1601 bp, kenar 13.3 bp (t=0.20)
+ETH_ET C1 h=3:  n=81, brüt 53.3 bp, net 39.3 bp, t=0.51, kazanma 0.47, PF 1.17, IS nan / OOS 39.3 bp, yıl+ 0.75, maxDD -0.499, en kötü -1332 bp, kenar 18.0 bp (t=0.23)
+   BTC_D C0 IS: n=180, net 225.0 bp (t=3.22); koşulsuz 3g 132.7 bp -> kenar 106.5 bp
+   BTC_D C0 OOS: n=137, net 58.0 bp (t=1.26); koşulsuz 3g 28.7 bp -> kenar 43.7 bp
+   BTC_D C0 yıllık net bp: {2017: 430.0, 2018: -444.0, 2019: 297.0, 2020: 197.0, 2021: -1.0, 2022: -277.0, 2023: 66.0, 2024: 171.0, 2025: 3.0, 2026: 18.0}
+   Komşu parametreler BTC_D C0 h=3 (SMA kısa/uzun): (5,50): net 178 t=4.17 IS 273 OOS 55; (10,30): net 146 t=3.55 IS 231 OOS 41; (10,50): net 153 t=3.42 IS 225 OOS 58; (20,50): net 149 t=3.50 IS 230 OOS 42; (10,100): net 156 t=3.39 IS 239 OOS 48; 
+
+ETF'ye aktarım:
+  IBIT  sinyal=kendi  C0:  n=75, brüt 44.1 bp, net 29.7 bp, t=0.57, kazanma 0.44, PF 1.19, IS nan / OOS 29.7 bp, yıl+ 1.00, maxDD -0.225, en kötü -928 bp, kenar 27.8 bp (t=0.54)
+  IBIT  sinyal=kendi  O1:  n=75, brüt 49.9 bp, net 35.5 bp, t=0.71, kazanma 0.48, PF 1.26, IS nan / OOS 35.5 bp, yıl+ 0.67, maxDD -0.199, en kötü -1098 bp, kenar 44.8 bp (t=0.89)
+  IBIT  sinyal=kendi  C1:  n=59, brüt -27.5 bp, net -41.9 bp, t=-0.63, kazanma 0.37, PF 0.81, IS nan / OOS -41.9 bp, yıl+ 0.33, maxDD -0.337, en kötü -994 bp, kenar -44.3 bp (t=-0.67)
+  IBIT  sinyal=BTC_ET C0:  n=90, brüt 58.4 bp, net 44.1 bp, t=0.81, kazanma 0.44, PF 1.26, IS nan / OOS 44.1 bp, yıl+ 0.67, maxDD -0.391, en kötü -928 bp, kenar 22.6 bp (t=0.41)
+     maliyet duyarlılığı net: 1.000$ 26.1 | 2.500$ 44.1 | 10.000$ 53.1 bp
+  IBIT  sinyal=BTC_ET O1:  n=90, brüt 31.4 bp, net 17.1 bp, t=0.35, kazanma 0.46, PF 1.10, IS nan / OOS 17.1 bp, yıl+ 0.33, maxDD -0.364, en kötü -1098 bp, kenar 12.2 bp (t=0.25)
+  IBIT  sinyal=BTC_ET C1:  n=69, brüt 14.9 bp, net 0.6 bp, t=0.01, kazanma 0.42, PF 1.00, IS nan / OOS 0.6 bp, yıl+ 0.67, maxDD -0.355, en kötü -768 bp, kenar -22.2 bp (t=-0.36)
+  FBTC  sinyal=kendi  C0:  n=76, brüt 32.5 bp, net 18.5 bp, t=0.35, kazanma 0.43, PF 1.11, IS nan / OOS 18.5 bp, yıl+ 1.00, maxDD -0.266, en kötü -915 bp, kenar 16.2 bp (t=0.31)
+  FBTC  sinyal=kendi  O1:  n=76, brüt 34.6 bp, net 20.6 bp, t=0.41, kazanma 0.47, PF 1.14, IS nan / OOS 20.6 bp, yıl+ 0.67, maxDD -0.259, en kötü -1083 bp, kenar 30.0 bp (t=0.60)
+  FBTC  sinyal=kendi  C1:  n=59, brüt -24.4 bp, net -38.4 bp, t=-0.58, kazanma 0.37, PF 0.82, IS nan / OOS -38.4 bp, yıl+ 0.33, maxDD -0.332, en kötü -987 bp, kenar -41.2 bp (t=-0.62)
+  BITX  sinyal=BTC_ET C0:  n=109, brüt 115.5 bp, net 97.1 bp, t=0.98, kazanma 0.45, PF 1.29, IS nan / OOS 97.1 bp, yıl+ 0.75, maxDD -0.666, en kötü -1900 bp, kenar 46.2 bp (t=0.47)
+  BITX  sinyal=BTC_ET O1:  n=109, brüt 78.6 bp, net 60.2 bp, t=0.66, kazanma 0.49, PF 1.18, IS nan / OOS 60.2 bp, yıl+ 0.50, maxDD -0.622, en kötü -2192 bp, kenar 38.5 bp (t=0.42)
+  BITX  sinyal=BTC_ET C1:  n=84, brüt 93.0 bp, net 74.6 bp, t=0.66, kazanma 0.46, PF 1.21, IS nan / OOS 74.6 bp, yıl+ 0.75, maxDD -0.675, en kötü -1585 bp, kenar 23.0 bp (t=0.20)
+  ETHA  sinyal=kendi  C0:  n=61, brüt 78.1 bp, net 64.1 bp, t=0.66, kazanma 0.41, PF 1.27, IS nan / OOS 64.1 bp, yıl+ 0.67, maxDD -0.324, en kötü -1682 bp, kenar 59.9 bp (t=0.62)
+  ETHA  sinyal=kendi  O1:  n=61, brüt 49.9 bp, net 35.9 bp, t=0.42, kazanma 0.46, PF 1.17, IS nan / OOS 35.9 bp, yıl+ 1.00, maxDD -0.342, en kötü -1611 bp, kenar 51.5 bp (t=0.60)
+  ETHA  sinyal=kendi  C1:  n=49, brüt 0.1 bp, net -13.9 bp, t=-0.13, kazanma 0.37, PF 0.95, IS nan / OOS -13.9 bp, yıl+ 0.00, maxDD -0.356, en kötü -970 bp, kenar -19.2 bp (t=-0.18)
+  ETHA  sinyal=ETH_ET C0:  n=61, brüt 64.0 bp, net 50.0 bp, t=0.51, kazanma 0.41, PF 1.20, IS nan / OOS 50.0 bp, yıl+ 0.67, maxDD -0.324, en kötü -1682 bp, kenar 45.8 bp (t=0.47)
+  ETHA  sinyal=ETH_ET O1:  n=61, brüt 28.2 bp, net 14.2 bp, t=0.16, kazanma 0.41, PF 1.06, IS nan / OOS 14.2 bp, yıl+ 1.00, maxDD -0.342, en kötü -1611 bp, kenar 29.8 bp (t=0.34)
+  ETHA  sinyal=ETH_ET C1:  n=51, brüt 8.6 bp, net -5.4 bp, t=-0.05, kazanma 0.39, PF 0.98, IS nan / OOS -5.4 bp, yıl+ 0.33, maxDD -0.341, en kötü -970 bp, kenar -10.7 bp (t=-0.11)
+  ETHU  sinyal=ETH_ET C0:  n=64, brüt 42.0 bp, net 25.1 bp, t=0.13, kazanma 0.39, PF 1.04, IS nan / OOS 25.1 bp, yıl+ 0.33, maxDD -0.585, en kötü -3171 bp, kenar 64.6 bp (t=0.33)
+  ETHU  sinyal=ETH_ET O1:  n=64, brüt -8.3 bp, net -25.3 bp, t=-0.14, kazanma 0.39, PF 0.95, IS nan / OOS -25.3 bp, yıl+ 0.67, maxDD -0.618, en kötü -3078 bp, kenar 36.2 bp (t=0.21)
+  ETHU  sinyal=ETH_ET C1:  n=54, brüt -62.2 bp, net -79.2 bp, t=-0.39, kazanma 0.37, PF 0.86, IS nan / OOS -79.2 bp, yıl+ 0.33, maxDD -0.659, en kötü -2357 bp, kenar -40.7 bp (t=-0.20)
+  BLOK  sinyal=kendi  C0:  n=291, brüt 61.4 bp, net 41.4 bp, t=1.83, kazanma 0.53, PF 1.36, IS 48.4 / OOS 34.6 bp, yıl+ 0.67, maxDD -0.355, en kötü -1241 bp, kenar 39.1 bp (t=1.73)
+  BLOK  sinyal=kendi  O1:  n=291, brüt 42.7 bp, net 22.7 bp, t=1.06, kazanma 0.53, PF 1.20, IS 18.9 / OOS 26.2 bp, yıl+ 0.56, maxDD -0.328, en kötü -1453 bp, kenar 29.0 bp (t=1.35)
+  BLOK  sinyal=kendi  C1:  n=230, brüt 23.9 bp, net 3.9 bp, t=0.15, kazanma 0.51, PF 1.03, IS -13.7 / OOS 20.7 bp, yıl+ 0.56, maxDD -0.425, en kötü -1116 bp, kenar 1.7 bp (t=0.06)
+  MSTU  sinyal=kendi  C0:  n=27, brüt -287.0 bp, net -303.0 bp, t=-1.61, kazanma 0.41, PF 0.48, IS nan / OOS -303.0 bp, yıl+ 0.33, maxDD -0.689, en kötü -2325 bp, kenar -159.9 bp (t=-0.85)
+  MSTU  sinyal=kendi  O1:  n=27, brüt -275.3 bp, net -291.3 bp, t=-1.79, kazanma 0.37, PF 0.41, IS nan / OOS -291.3 bp, yıl+ 0.00, maxDD -0.630, en kötü -1894 bp, kenar -149.8 bp (t=-0.92)
+  MSTU  sinyal=kendi  C1:  n=24, brüt -186.1 bp, net -202.1 bp, t=-0.69, kazanma 0.33, PF 0.69, IS nan / OOS -202.1 bp, yıl+ 0.33, maxDD -0.491, en kötü -2782 bp, kenar -59.6 bp (t=-0.20)
+  CONL  sinyal=kendi  C0:  n=86, brüt 196.8 bp, net 149.0 bp, t=0.76, kazanma 0.52, PF 1.24, IS nan / OOS 149.0 bp, yıl+ 0.50, maxDD -0.845, en kötü -3352 bp, kenar 106.7 bp (t=0.55)
+  CONL  sinyal=kendi  O1:  n=86, brüt 271.5 bp, net 223.6 bp, t=1.18, kazanma 0.48, PF 1.41, IS nan / OOS 223.6 bp, yıl+ 0.75, maxDD -0.763, en kötü -2970 bp, kenar 196.8 bp (t=1.04)
+  CONL  sinyal=kendi  C1:  n=66, brüt 435.9 bp, net 388.1 bp, t=1.70, kazanma 0.55, PF 1.73, IS nan / OOS 388.1 bp, yıl+ 0.75, maxDD -0.634, en kötü -3037 bp, kenar 347.0 bp (t=1.52)
+  BITO  sinyal=kendi  C0:  n=105, brüt 20.3 bp, net -1.7 bp, t=-0.03, kazanma 0.42, PF 0.99, IS nan / OOS -1.7 bp, yıl+ 0.60, maxDD -0.421, en kötü -1135 bp, kenar 30.0 bp (t=0.55)
+  BITO  sinyal=kendi  O1:  n=105, brüt 3.1 bp, net -18.8 bp, t=-0.37, kazanma 0.41, PF 0.90, IS nan / OOS -18.8 bp, yıl+ 0.60, maxDD -0.404, en kötü -1387 bp, kenar 16.2 bp (t=0.32)
+  BITO  sinyal=kendi  C1:  n=85, brüt 26.9 bp, net 5.0 bp, t=0.08, kazanma 0.45, PF 1.02, IS nan / OOS 5.0 bp, yıl+ 0.60, maxDD -0.409, en kötü -1571 bp, kenar 37.4 bp (t=0.59)
+
+====================================================================================================
+BH-FDR (q=0.10) — ailenin tüm testleri
+====================================================================================================
+Kendi p'li test sayısı: 6213 (+ leadlag_sweep aile satırları 3060 test, orada 0 FDR) -> toplam ~9273
+FDR geçen: 30, p eşiği 0.0004678390578217
+ kaynak                             test            p      net_bp  fdr
+  genel  BLOK|VX_kontango_09|O1|h1|sabit 7.859832e-07  -28.533035 True
+  genel    BITO|CA_ay_sonu_3|O1|h3|sabit 4.046110e-06 -339.824352 True
+  genel    BITO|CA_ay_sonu_3|C1|h2|sabit 2.962771e-05 -298.447462 True
+   aday                     S1 aile BITX 5.611454e-05 -123.837633 True
+  genel          BITO|CA_car|O1|h1|sabit 6.907346e-05  -56.812912 True
+   aday                     S1 aile IBIT 7.179793e-05  -69.693455 True
+   aday                     S1 aile BLOK 8.226268e-05  -39.190924 True
+   aday                   S1 aile BTC_ET 9.033074e-05  -54.681780 True
+   aday                     S1 aile ETHA 9.679266e-05  -96.887508 True
+  genel        BTC_ET|CA_car|O1|h1|sabit 1.001950e-04  -57.303619 True
+  genel    BITO|CA_ay_sonu_3|O1|h2|sabit 1.213541e-04 -139.251350 True
+  genel  BITO|VX_kontango_09|O1|h1|sabit 1.311487e-04  -28.472603 True
+  genel    BITX|CA_ay_sonu_3|O1|h2|sabit 1.454959e-04 -354.341085 True
+  genel      BITO|CA_ay_sonu|C0|h1|sabit 1.604448e-04 -232.136565 True
+  genel        ETH_ET|CA_car|O1|h1|sabit 1.718956e-04  -67.347385 True
+  genel   ETH_D|MO_20g_zirve|C0|h2|sabit 1.735814e-04  270.442561 True
+  genel   ETH_D|MO_20g_zirve|C0|h1|sabit 2.086433e-04  141.071228 True
+hipotez        BTC_20g_zirve|ETH_D|C0|h1 2.086433e-04  141.071228 True
+   aday                   S1 aile ETH_ET 2.241532e-04  -63.167292 True
+   aday                     S1 aile BITO 2.329611e-04  -53.197665 True
+  genel   ETH_D|MO_rsi2_gt90|C0|h2|sabit 2.341450e-04  229.029322 True
+  genel ETH_D|MO_trend_10_50|C0|h3|sabit 2.549863e-04  261.251920 True
+   aday                      S2 ETH_D C0 2.549863e-04  261.251920 True
+  genel    BITO|CA_ay_sonu_3|C0|h3|sabit 2.625197e-04 -281.606407 True
+  genel          BLOK|CA_car|O1|h1|sabit 3.362764e-04  -38.644084 True
+  genel  BTC_ET|CA_ay_sonu_3|O1|h2|sabit 3.700705e-04 -141.668229 True
+  genel          ARKB|CA_car|O1|h1|sabit 3.777453e-04  -74.274173 True
+  genel          BITB|CA_car|O1|h1|sabit 4.004856e-04  -74.479119 True
+  genel          GBTC|CA_car|O1|h1|sabit 4.214215e-04  -74.367014 True
+  genel          FBTC|CA_car|O1|h1|sabit 4.678391e-04  -73.359922 True
+Sweep dahil toplam 9273 test: FDR geçen 10, p eşiği 0.0001001949711569
+  S1 SBIT O1: p=0.01799, FDR=geçmedi
+  S1 BITI O1: p=0.56198, FDR=geçmedi
+  S1 aile BTC_ET: p=0.00009, FDR=GEÇTİ
+  S1 aile BITO: p=0.00023, FDR=GEÇTİ
+  S2 BTC_D C0: p=0.00070, FDR=geçmedi
+  S2 BTC_D C1: p=0.00644, FDR=geçmedi
+  S2 IBIT sinyal=BTC_ET C0: p=0.42075, FDR=geçmedi
+kaynak                      test        p     net_bp  fdr
+ genel   BITO|CA_car|O1|h1|sabit 0.000069 -56.812912 True
+ genel BTC_ET|CA_car|O1|h1|sabit 0.000100 -57.303619 True
+ genel ETH_ET|CA_car|O1|h1|sabit 0.000172 -67.347385 True

@@ -1,0 +1,96 @@
+{
+ "family": "abd_endeks",
+ "stratejiler": [
+  {
+   "id": "abd_endeks_S2",
+   "karar": "dogrulandi",
+   "yeniden_uretim": "Bağımsız motorla (lib.trades/evaluate/ae.full_eval kullanılmadan; IBS ham OHLC'den çapraz kontrol, fark <1e-13) birebir: QQQ C1 h3 n=169, brüt 83,6, net 70,6 bp, kazanma 0,60, PF 2,06, t=3,46, IS 76,2 (t 2,57), OOS 65,9 (t 2,33), yıl+ 1,0, maxDD -%9, en kötü -831 bp. C0 76,2/t3,68; O1 55,3/t2,94; ek C2 (t+2 kapanış) 54,1/t2,65. İleriye bakış yok (sinyal yalnız t OHLC + t-1 kapanış), giriş/çıkış günleri doğru, çakışma yok, maliyet bir kez. En büyük kazançlar 20.03.2020, 03.04.2025 (09.04.2025 gümrük ertelemesi), 11.03.2022: gerçek olaylar, veri hatası yok.",
+   "sorunlar": "(1) Tam çoklu test düzeltmesinde sınırda: tek yönlü BH (17.391 test) 0 geçen, Bonferroni t≈4,4-4,5 gerekir. Kendi seçim düzeltmeli testim (QQQ'da genel kütüphanenin 279 hücresinin max-t'si, dairesel kaydırma null) p=0,025 (C0) / 0,055 (C1); aile düzeyi (19 temsilcinin ort. t'si, 279 hücre) p=0,09. QQQ ailenin en iyi sonucu (ETF seçimi düzeltilmedi). (2) C0 sonucu kapanış öncesi sınıflamaya duyarlı: IBS 0,08-0,12 / |r|<%0,1 sınır günleri çıkarılınca 76→56 bp (t 2,43). (3) 2024+ n=43, t=1,62. (4) En iyi 5 işlem ortalamanın ~23 bp'sini taşıyor (kriz dönüşleri). (5) Örneklem 2016+ boğa piyasası; uzun ayı piyasası test edilmedi. (6) SPY ile sinyal günlerinin %73'ü ortak: S1 ile birlikte almak risk ikilemesi.",
+   "saglamlik": "Permütasyon (2.000): rastgele gün p=0,0005; düşüş günü + VIX beşte biri eşleşmeli p=0,004 (C1) / 0,0005 (C0) / 0,012 (O1); dairesel kaydırma p=0,0005. Parametre platosu: eşik 0,05-0,20 × h 2-4 × 3 mod (54 hücre) medyan net 57 bp, %78'inde t≥2, %96'sında IS>0 ve OOS>0. Takvim zamanlı (örtüşmeli) C1 26,1 bp/gün t=3,52 (OOS 20,5 bp/gün). 2020 hariç 61,5/t3,03; 2022 hariç 80,1/t3,68; en iyi 5 hariç 47,2/t2,65. VIX<20 net 47 bp, VIX≥20 91 bp. Maliyet 1.000/2.500/10.000$: 53/71/80 bp. SPY sinyaliyle QQQ C1 74 bp t=3,34.",
+   "duzeltilmis_sayilar": "Beklenti backtestin altında alınmalı: gerçekçi net ≈45-55 bp/işlem (2.500$; en iyi 5 hariç 47, takvim zamanlı OOS ≈48), t≈2,5-3. Güven: orta. Seçim düzeltmeli p=0,025-0,055 (QQQ), aile düzeyi 0,09."
+  },
+  {
+   "id": "abd_endeks_S1",
+   "karar": "zayif",
+   "yeniden_uretim": "Birebir: SPY C1 h3 n=155, brüt 68,7, net 55,7, kazanma 0,63, PF 1,93, t=2,79, IS 78,1 (t 2,09), OOS 40,3 (t 1,85), yıl+ 1,0, maxDD -%12, en kötü -675. C0 35,9/t1,98 (IS 17/t0,60); O1 24,8/t1,35 (IS 4/t0,14); ek C2 19,0/t0,97 (OOS -3,7). Kaldıraçlı: SSO 121/t3,00, SPXL 183/t2,99, UPRO 185/t3,02 (en kötü -%22,8). Kod hatası/ileriye bakış yok; en büyük 5 kazanç gerçek kriz dönüşleri (20.03.2020 +1.716, 03.04.2025 +858, 11.03.2022 +577, 21.12.2018 +572, 12.05.2020 +476 bp).",
+   "sorunlar": "(1) Başlık hücresi (C1 h=3) 9 mod×tutuş hücresinin en iyisi ve sivri tepe: C1 h=1-4 13/22/56/45 bp (t 1,1/1,3/2,8/1,9); mod ekseninde C0/C1/C2 36/56/19 bp. (2) Seçim düzeltmeli test (SPY'da 279 hücre max-t, dairesel kaydırma): null max-t medyanı 2,29, %95'i 3,22 -> p=0,20; aile düzeyi p=0,09. Tek yönlü BH ve Bonferroni geçmez. (3) En iyi 5 işlem hariç net 30,0 bp, t=1,93 (C0'da 20,1/t1,17). (4) Komşu 54 hücrenin yalnız %30'unda t≥2 (medyan net 27,5 bp). (5) Kâr VIX≥20 günlerinde: VIX<20 n=72 brüt 25,8 -> net 2.500$'da 12,8, 1.000$'da -5,2 bp. (6) C1'in C0'dan iyi görünmesi çakışmasızlık kuralının yol artefaktı: takvim zamanlı sürümde C0 t=2,66 ≈ C1 t=2,70; 'yeni sinyalde süreyi uzat' kuralıyla C0 52 bp/t2,73, C1 54/t2,33. (7) 2024+ n=44 t=1,54. OOS t=1,85<2.",
+   "saglamlik": "Tek test permütasyonu güçlü: rastgele gün p=0,0005; düşüş+VIX eşleşmeli p=0,002; dairesel p=0,0005. IBS katkısı gerçek (düşüş & IBS≥0,30: 5 bp; tüm düşüş günleri 7 bp). 2020 hariç 47,2/t2,79; 2022 hariç 64,1/t2,92. Maliyet 1.000/2.500/10.000$: 38/56/65 bp. Ancak seçim düzeltmesi, komşuluk ve en iyi 5 hariç testlerinde eşik altına düşüyor.",
+   "duzeltilmis_kural": "Kural aynı (SPY IBS<0,10 ve kapanış<önceki kapanış). SPY sinyali bağımsız strateji değil, S2 ile aynı fırsat kümesinin piyasa geneli göstergesi olarak kullanılmalı. İşlem aracı olarak QQQ tercih edilmeli (SPY sinyali -> QQQ C1 74 bp t=3,34; C0 57/t2,65; O1 45/t2,08). C0 ile C1 arasında gerçek fark yok; pozisyondayken gelen sinyalde ne yapılacağı (yok say / uzat) önceden sabitlenmeli.",
+   "duzeltilmis_sayilar": "SPY'da gerçekçi beklenti: net ≈25-35 bp/işlem (2.500$; komşu medyanı 27,5; en iyi 5 hariç 30,0/t1,93; takvim zamanlı OOS ≈24 net). 1.000$ pozisyonda ≈7-17 bp, VIX<20'de negatif. Seçim düzeltmeli p=0,20."
+  },
+  {
+   "id": "abd_endeks_S3",
+   "karar": "curutuldu",
+   "yeniden_uretim": "Birebir: SPY C0 (3 ardışık düşüş, ilk yükselen kapanışta ya da en geç 3. gün çık) n=127, brüt 46,8, net 33,8, kazanma 0,71, PF 1,97, t=2,32, IS 13,6 (t 0,48), OOS 46,2 (t 2,88), yıl+ 0,7, maxDD -%15, en kötü -786. O1 17,0/t1,21; C1 24,1/t1,52; ek C2 2,8/t0,21.",
+   "sorunlar": "(1) Tek kombinasyonda tepe: 2 düşüş 9 bp/t0,88; 3 düşüş sabit tutuş 25/t1,32 (IS -9); 4 düşüş 53/t1,88 ama IS -22; C1'de tüm varyantlar ≤24 bp. (2) IS yılları 2017 -11, 2018 -124, 2019 -222 bp (toplam); sonuç OOS'tan. (3) En iyi 5 işlem hariç 16,2 bp, t=1,33; en büyük kazanç tek olay (07.04->09.04.2025, +877 bp). (4) Ailede yok: IWM/DIA/RSP/MDY t<1,3; QQQ'da yalnız C0 + erken çıkış (C1 9 bp). (5) Genel kütüphanenin MR_3gun_dusus × çıkış × ETF taramasından seçildi; birleşik FDR'yi geçmiyor (p=0,022). (6) Kapanışa bağımlı (C0).",
+   "saglamlik": "Tek test permütasyonu p=0,0005 (rastgele) / 0,008 (düşüş+VIX eşleşmeli) / 0,0015 (dairesel) ama seçim düzeltmesi yapılmadı. 2020 hariç 33,4/t2,55. 1.000$: 16 bp. Kapanış öncesi sınır günleri çıkarılınca 38/t2,56 (eşiğe duyarlı değil). Komşuluk ve IS testlerinden geçmiyor.",
+   "duzeltilmis_sayilar": "Bağımsız strateji olarak kullanılmamalı. En iyi 5 hariç net 16 bp (t 1,33); IS net 14 bp (t 0,48)."
+  }
+ ],
+ "onculer": [
+  {
+   "sym": "SPY/QQQ/IWM/RSP/DIA/MDY",
+   "oncu": "Doğrulanmış gecikmeli öncü yok (ajan iddiası)",
+   "karar": "dogrulandi",
+   "not": "leadlag_sweep aile satırları 2.636: fdr10_lag_t_h1=0, fdr10_lag_t_h3=0 (teyit). Bağımsız NW yeniden tahminde (70 test) yalnız seçilmiş iki satır (QQQ←TIP, QQQ←DFII10) küçük kümede BH geçiyor; tam taramada geçmiyor ve OOS'ta zayıf."
+  },
+  {
+   "sym": "QQQ",
+   "oncu": "TIP (AMEX:TIP) günlük getirisi -> QQQ 3 gün",
+   "karar": "zayif",
+   "not": "Kendi gecikmesi kontrollü NW t=3,06; IS 3,33 / OOS 1,54 (aynı işaret). Etki 1 sd başına 25 bp (IS 41, OOS 11,6): OOS'ta 2.500$ maliyeti (13 bp) düzeyinde. Tam taramada FDR yok. İzleme bilgisi; sinyal değil. TIP 16:00 ET kapanışı -> C0 için zamanlama temiz."
+  },
+  {
+   "sym": "QQQ",
+   "oncu": "DFII10 (10 yıllık reel faiz) değişimi -> QQQ 3 gün (ters işaret)",
+   "karar": "zayif",
+   "not": "NW t=-3,03; IS -2,91 / OOS -1,75; OOS etki -14 bp/sd ≈ maliyet. Hazine eğrisi ~15:30 ET kotasyonlarıyla akşam yayımlanır: ABD kapanışında bilinmez, yalnız O1/C1. TV kodu doğrulanmadı (FRED:DFII10 tv_dogrulama'da yok)."
+  },
+  {
+   "sym": "IWM",
+   "oncu": "SPY günlük getirisi -> IWM ertesi gün (negatif)",
+   "karar": "curutuldu",
+   "not": "IWM kendi gecikmesi kontrollü t=-2,73 (h1); ancak göreli getiri (IWM-SPY) ile t=-1,61 (h1), -0,35 (h3): etki SPY'ın kendi negatif otokorelasyonundan (-0,13), çapraz öncülük değil. Ayrıca açığa satış yok; AE13 'yetişme' long kuralı net -28 bp."
+  },
+  {
+   "sym": "SPY/QQQ/IWM",
+   "oncu": "T10YIE (başabaş enflasyon) 'yetişme' h3",
+   "karar": "curutuldu",
+   "not": "Yeniden hesaplandı: SPY tüm dönem t=3,75, 2020 hariç 0,75, OOS 0,42; QQQ 3,21/0,69/0,63; IWM 2,91/0,18/0,66. Ajanın tespiti doğru: tamamen 2020."
+  },
+  {
+   "sym": "SPY/QQQ/IWM/DIA",
+   "oncu": "CME_MINI:ES1!, CME_MINI:NQ1!, CME_MINI:RTY1!, CBOT_MINI:YM1! (gerçek zamanlı izleme)",
+   "karar": "dogrulandi",
+   "not": "Öncü değil, ETF kapalıyken işleyen izleme araçları; kodlar tv_dogrulama.csv'de 'dogrulandi'. Globex saatleri (kış TR 02:00-01:00, bakım 01:00-02:00) doğru. Küçük düzeltme: OSE:NK2251! seansları 05.11.2024 sonrası gündüz TR 02:45-09:45, gece TR 11:00-00:00 olmalı (ajan 09:15 / 10:30 yazmış; doğrulanmalı)."
+  }
+ ],
+ "izleme_itirazlari": [
+  {
+   "sym": "SPY",
+   "itiraz": "Kabul uygun (araç/sinyal kaynağı) ama gerekçedeki S1 (t=2,79) seçilmiş sivri tepe; seçim düzeltmeli p=0,20, en iyi 5 hariç t=1,93. SPY'da beklenti ≈25-35 bp net; VIX<20'de 1.000$ pozisyonda negatif. Ana işlem aracı QQQ olmalı (SPY sinyaliyle QQQ C1 74 bp t=3,34)."
+  },
+  {
+   "sym": "IWM",
+   "itiraz": "Yedek gerekçesi yanıltıcı: kendi sinyaliyle C1 h=2/3/4 = -4/+39/-1 bp (gürültü), C0 t=0,8, komşu hücrelerin %20'sinde t≥2. Doğrulanabilir stratejisi yok; yedek kalacaksa yalnız 'SPY sinyaliyle likit küçük ölçek aracı, RTY1! ile izlenir' olarak."
+  },
+  {
+   "sym": "DIA",
+   "itiraz": "Yedek yerine red: SPY ile 0,84 korelasyon, S1 yalnız C1 h3'te (C0 t=1,87, C2 10 bp), maliyet/oynaklık 0,15 SPY ile aynı ve daha az likit; bağımsız değer katmıyor."
+  },
+  {
+   "sym": "RSP",
+   "itiraz": "Yedek yerine red (ya da 'yalnız SPY yerine'): S1 deseni SPY'ınkiyle aynı sivri tepe (C0 t=1,8, C2 9,7 bp, OOS C1 t=1,73); maliyet/oynaklık 0,17 SPY'dan kötü."
+  },
+  {
+   "sym": "SPXL",
+   "itiraz": "SPY sinyalinin kırılganlığını 3x taşır: SPY sinyali -> SPXL C0 t=2,18, O1 t=1,71; en kötü işlem C1 -%22,8, C0 -%29,9, O1 -%36,9. Yedek kalabilir ama pozisyon dayanak eşdeğerinin 1/3'ü olmalı."
+  },
+  {
+   "sym": "TQQQ",
+   "itiraz": "Uygun araç (QQQ sinyali sağlam) ama Midas bulunurluğu 'muhtemel'; tek işlemde -%31, 60 günlük işlem kümesinde -%17 (Nisan 2019). Yalnız küçük sermaye payıyla."
+  }
+ ],
+ "kacirilan": "(1) Mod/çakışma yanılgısı: SPY'da C1'in 'en iyi' görünmesi çakışmasızlık kuralının yol artefaktı. Takvim zamanlı (tüm sinyaller) sürümde C0 t=2,66 ≈ C1 t=2,70. 'Pozisyondayken gelen yeni sinyalde süreyi uzat' kuralıyla SPY C0 52 bp/t2,73 (katı kuralda 36/t1,98), QQQ C0 95 bp/t4,43. Kullanıcı için yeni sinyal geldiğinde ne yapılacağı moddan daha belirleyici; kural önceden sabitlenmeli. Güncel örnek: 05.11.2026 sinyali katı kuralda yok sayıldı; uzatma pozisyonu 11.11'e taşırdı (arada 10.11 CPI, TR 16:30). (2) Küçük hesap + rejim riski: SPY S1 kârı VIX≥20 günlerinde (brüt 106 bp); VIX<20'de brüt 26 bp -> 1.000$ pozisyonda net -5 bp. QQQ'da VIX<20'de bile 1.000$ net +29 bp. Sabit 1,5$ komisyonla küçük hesapta doğru araç QQQ (ya da SPY sinyaliyle QQQ). (3) Test edilemeyen kuyruk: veri 2016+; düşüşler hızlı V dönüşüyle bitti, en büyük 5 kazancın 4'ü kriz dönüşü. Uzun ayı piyasasında ardışık sinyallerde birikimli kayıp test edilmedi.",
+ "genel": "Kod ve zamanlama temiz: S1/S2/S3 ve kaldıraçlı araç sayıları bağımsız motorla birebir yeniden üretildi; ileriye bakış, yanlış gün, çakışma ya da maliyet hatası yok. Sorun yorum ve seçimde. Ailede ayakta kalan tek etki 'zayıf kapanış dönüşü'. QQQ sürümü (S2) parametre platosu, mod sağlamlığı, dışlama ve eşleşmeli permütasyon testlerinden geçti; tam çoklu test düzeltmesinde sınırda (QQQ içi seçim düzeltmeli p=0,025-0,055, aile düzeyi 0,09). Bu yüzden orta güvenle doğrulandı; beklenti ≈45-55 bp net. SPY sürümü (S1) seçilmiş sivri tepe: seçim düzeltmeli p=0,20, en iyi 5 hariç t=1,93, VIX<20'de 1.000$'da negatif -> zayıf; SPY sinyal kaynağı, QQQ işlem aracı olarak kullanılmalı. S3 çürütüldü. 'Doğrulanmış gecikmeli öncü yok' sonucu doğru; vadeli kodları izleme aracı. İzleme: IWM gerekçesi gürültüye dayanıyor; DIA ve RSP bağımsız değer katmıyor (red önerisi). Ajanın birleşik iki yönlü FDR geçişi ters ETF negatif satırlarının yarattığı bir yapay sonuç; ajan bunu kendisi de belirtmiş."
+}

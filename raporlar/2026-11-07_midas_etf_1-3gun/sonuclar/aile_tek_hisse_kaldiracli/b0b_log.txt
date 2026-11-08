@@ -1,0 +1,38 @@
+NVDA tahmini kalan: 0 istek 0
+TSLA tahmini kalan: 4 istek 73
+MSTR tahmini kalan: 3 istek 137
+COIN tahmini kalan: 4 istek 177
+AAPL tahmini kalan: 0 istek 185
+AMZN tahmini kalan: 0 istek 189
+META tahmini kalan: 0 istek 190
+MSFT tahmini kalan: 0 istek 192
+GOOGL tahmini kalan: 0 istek 192
+sym    kaynak              
+AAPL   takvim                  25
+       takvim_pencere           6
+       takvim_pencere2          9
+AMZN   takvim                  36
+       takvim_pencere           2
+       takvim_pencere2          2
+COIN   tahmini_hacim_bosluk     4
+       takvim                   9
+       takvim_pencere           1
+       takvim_pencere2          9
+GOOGL  takvim                  37
+       takvim_pencere           3
+META   takvim                  33
+       takvim_pencere           4
+       takvim_pencere2          3
+MSFT   takvim                  32
+       takvim_pencere           4
+       takvim_pencere2          4
+MSTR   tahmini_hacim_bosluk     3
+       takvim                   9
+       takvim_pencere           3
+       takvim_pencere2         25
+NVDA   takvim                  39
+TSLA   tahmini_hacim_bosluk     4
+       takvim                  13
+       takvim_pencere           4
+       takvim_pencere2         19
+dtype: int64

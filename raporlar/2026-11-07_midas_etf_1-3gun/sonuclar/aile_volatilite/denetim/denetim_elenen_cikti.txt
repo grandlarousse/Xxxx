@@ -1,0 +1,14 @@
+VO01 SVXY C0: n=326 net=-20.9 t=-1.35
+VO01 SVXY O1: n=326 net=-28.9 t=-1.95
+VO01 SVXY C1: n=263 net=-21.8 t=-1.35
+H_kont09 SVXY O1 h1: n=1150 net=-19.4 t=-4.45
+  VXX: günlük ort   -9.6 bp, medyan  -61.2, gece ort   -7.7, gün içi ort   -1.5
+  VIXY: günlük ort  -11.1 bp, medyan  -65.5, gece ort   -6.2, gün içi ort   -4.6
+  UVXY: günlük ort  -18.4 bp, medyan -105.0, gece ort  -11.8, gün içi ort   -5.7
+  UVIX: günlük ort  -34.5 bp, medyan -119.0, gece ort  -18.8, gün içi ort  -14.7
+  SVXY: günlük ort    6.0 bp, medyan   32.7, gece ort    5.6, gün içi ort    0.4
+  SVIX: günlük ort   12.0 bp, medyan   52.1, gece ort   12.9, gün içi ort   -0.8
+  VIXM: günlük ort   -2.5 bp, medyan  -15.7, gece ort   -2.6, gün içi ort    0.2
+E2 SVXY Pazartesi gün içi: n=384 net=7.6 t=0.92 IS=-18.1 (t -1.23) OOS=25.7 (t 2.81)
+E2 SVIX Pazartesi gün içi: n=215 net=61.7 t=3.42 IS=nan (t nan) OOS=61.7 (t 3.42)
+E2 VXX Pazartesi gün içi: n=416 net=-51.5 t=-3.02 IS=7.0 (t 0.24) OOS=-101.2 (t -5.19)

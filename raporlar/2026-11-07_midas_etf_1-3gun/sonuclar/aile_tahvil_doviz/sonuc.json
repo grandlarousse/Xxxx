@@ -1,0 +1,873 @@
+{
+ "family": "tahvil_doviz",
+ "ozet": "Tahvil-döviz ailesinde (40 ETF) eşiği geçen TEK strateji: S1 — 10 yıllık Hazine ihalesinden 3 işlem günü önce (A-3) TMV (−3x TLT) al, ihaleden bir gün önce (A-1) kapanışta sat. TMV C0: n=119, brüt 124 bp, net 104 bp (2.500 $), t=3.17, IS 108 / OOS 100 bp, yılların %91'i pozitif, maxDD -13%. Dayanakta TLT bu pencerede ortalama −41 bp (t −3,7; plasebo pencerelerde yok; tüm süre-duyarlı tahvil ETF'lerinde aynı işaret). Önceden kayıtlı hipotez; odaklı birincil sette tek yönlü FDR'yi geçen iki satırdan biri. Güven 'orta': kaldıraçlı ters ETF gerektiriyor, Midas'ta TMV/TBT bulunurluğu doğrulanamadı, A-2 açılışında girişte OOS zayıf (A-3 seansında girilmeli). Diğer her şey (ay sonu, FOMC, CPI/NFP, IBS/RSI2, faiz z-skoru, bakır/altın, HYG←SPY, tüm döviz kuralları) maliyet sonrası eşik altında: tahvil ETF'lerinin 1 günlük hareketi (25-60 bp) 13-16 bp maliyeti zor karşılıyor; döviz ETF'leri hem likiditesiz hem 20-47 bp maliyetli. Döviz ETF'lerindeki 'ABD hisseleri dün yükseldi → döviz bugün yükselir' gecikmesi gerçek (likit UUP'ta da, gün içi parçada da) ama 1 sd başına 5-9 bp: işlenemez. ÖNEMLİ VERİ BULGUSU: Nasdaq verisinde NYSE Arca listeli ETF'lerin dağıtımları eksik; aile Yahoo dağıtımlarıyla yeniden hesaplandı (genel_tum.csv'nin bu ailedeki ay sonu/ex-date sonuçları yanlı).",
+ "izleme": [
+  {
+   "sym": "TMV",
+   "karar": "kabul",
+   "gerekce": "S1'in ana aracı (−3x TLT). Medyan 35,8 mn $/gün, maliyet 20 bp (2.500 $), 1 günlük oynaklık 178 bp (maliyet/oynaklık 0,11). Direxion 1940 Yasası fonu (PTP/K-1 değil; ihraççı belgesiyle teyit önerilir). Midas'ta bulunurluğu resmî olarak doğrulanamadı: uygulamada sembol ve 'parçalı' etiketini kontrol et. Kaldıraçlı ters ETF: tek işlemde −%7,6'ya varan kayıp görüldü.",
+   "tv": "AMEX:TMV",
+   "likidite_mn_usd": 35.81,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 177.9
+  },
+  {
+   "sym": "TBT",
+   "karar": "yedek",
+   "gerekce": "S1'in alternatif aracı (−2x TLT; TMV'ye göre daha düşük risk). Medyan 12,3 mn $/gün (tercih edilen eşiğin alt sınırı), maliyet 20 bp. ProShares Trust (1940 Yasası) fonu; PTP değil (teyit önerilir). Midas bulunurluğu doğrulanamadı.",
+   "tv": "AMEX:TBT",
+   "likidite_mn_usd": 12.28,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 124.1
+  },
+  {
+   "sym": "TLT",
+   "karar": "yedek",
+   "gerekce": "S1'in dayanağı ve faiz izleme aracı; ailenin en likit/ucuz uzun vade ETF'i (2,6 mlr $/gün, 13 bp, maliyet/oynaklık 0,22). Long yönde eşiği geçen strateji YOK (ay sonu net 14 bp t=1,2; FOMC D-1 net 11 bp t=1,1; RSI2/IBS dönüşü net<0). Risk kuralı: 10Y ihale öncesi pencerede (A-3→A-1) TLT long taşımamak (brüt −41 bp, t=−3,7).",
+   "tv": "NASDAQ:TLT",
+   "likidite_mn_usd": 2645.22,
+   "maliyet_bp": 13.2,
+   "vol_1d_bp": 60.1
+  },
+  {
+   "sym": "TMF",
+   "karar": "yedek",
+   "gerekce": "TLT long sinyalleri için komisyon-verimli araç (3x; 159 mn $/gün; 16 bp maliyet ≈ TLT eşdeğerinde ~5 bp). Long sinyaller (FOMC D-1: net 53 bp t=1,91; ay sonu k4: net 52 bp t=1,51) brüt pozitif ama eşik altı; kabul edilmiş long strateji yok. Midas bulunurluğu doğrulanamadı.",
+   "tv": "AMEX:TMF",
+   "likidite_mn_usd": 159.45,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 176.5
+  },
+  {
+   "sym": "UBT",
+   "karar": "red",
+   "gerekce": "2x TLT ama likidite 0,9 mn $/gün, maliyet 47 bp; TMF üstün.",
+   "tv": "AMEX:UBT",
+   "likidite_mn_usd": 0.92,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 120.1
+  },
+  {
+   "sym": "IEF",
+   "karar": "red",
+   "gerekce": "Likit (759 mn $) ama 1g oynaklık 31 bp / maliyet 14 bp (0,45). İhale öncesi brüt −19 bp (t=−4,1) görülür fakat ailede 7-10 yıl için ters araç yok (TBX/PST veri dışı); long strateji yok.",
+   "tv": "NASDAQ:IEF",
+   "likidite_mn_usd": 759.12,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 31.4
+  },
+  {
+   "sym": "SHY",
+   "karar": "red",
+   "gerekce": "1g oynaklık 9 bp < 14 bp maliyet; ay sonu brüt etkisi istatistiksel (t=6) ama 7,7 bp.",
+   "tv": "NASDAQ:SHY",
+   "likidite_mn_usd": 307.76,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 8.8
+  },
+  {
+   "sym": "BIL",
+   "karar": "red",
+   "gerekce": "Nakit benzeri (1g oynaklık 6,6 bp < 14 bp maliyet). leadlag_sweep'teki t≈7-11 'yetişme' sonuçları 0,4-1 bp/sd (ekonomik değil) ve eksik dağıtım verisinin testere dişi artefaktı: düzeltilmiş veride kayboluyor.",
+   "tv": "AMEX:BIL",
+   "likidite_mn_usd": 842.91,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 6.6
+  },
+  {
+   "sym": "SGOV",
+   "karar": "red",
+   "gerekce": "BIL ile aynı (nakit benzeri; 'yetişme' 0,4-1 bp/sd, dağıtım artefaktı).",
+   "tv": "NYSE:SGOV",
+   "likidite_mn_usd": 1878.41,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 6.3
+  },
+  {
+   "sym": "AGG",
+   "karar": "red",
+   "gerekce": "Maliyet/oynaklık 0,52; ay sonu brüt 15 bp (t=3,6) maliyeti karşılamıyor. BND ile kopya (corr 0,97).",
+   "tv": "AMEX:AGG",
+   "likidite_mn_usd": 865.58,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 27.0
+  },
+  {
+   "sym": "BND",
+   "karar": "red",
+   "gerekce": "AGG kopyası.",
+   "tv": "NASDAQ:BND",
+   "likidite_mn_usd": 605.28,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 25.0
+  },
+  {
+   "sym": "LQD",
+   "karar": "red",
+   "gerekce": "Çok likit (3,3 mlr $) ama 1g oynaklık 37 bp / 13 bp; ay sonu/FOMC brüt pozitif ama net eşik altı.",
+   "tv": "AMEX:LQD",
+   "likidite_mn_usd": 3309.11,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 36.8
+  },
+  {
+   "sym": "HYG",
+   "karar": "red",
+   "gerekce": "Likit (3,1 mlr $) ama maliyet/oynaklık 0,49. SPY→HYG gecikmesi NEGATİF (t=−3,0; SPY yükselince ertesi gün HYG geri veriyor) ve 1 sd başına −11 bp < 13 bp; açığa satış yok. SPY sert düşüş sonrası HYG long: net −9 bp.",
+   "tv": "AMEX:HYG",
+   "likidite_mn_usd": 3061.89,
+   "maliyet_bp": 13.3,
+   "vol_1d_bp": 27.0
+  },
+  {
+   "sym": "JNK",
+   "karar": "red",
+   "gerekce": "HYG kopyası (corr 0,98).",
+   "tv": "AMEX:JNK",
+   "likidite_mn_usd": 326.74,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 27.2
+  },
+  {
+   "sym": "TIP",
+   "karar": "red",
+   "gerekce": "Maliyet/oynaklık 0,55; strateji yok. SCHP kopyası.",
+   "tv": "AMEX:TIP",
+   "likidite_mn_usd": 227.62,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 25.3
+  },
+  {
+   "sym": "EMB",
+   "karar": "red",
+   "gerekce": "Maliyet/oynaklık 0,37; genel kütüphanedeki net pozitif satırlar (ör. tatil öncesi C1 h3: net 16 bp, t=1,84; RSI2<10 üst200 O1 h2: net 9 bp, IS 4 bp) tek başına, aile tutarlılığı yok; strateji yok.",
+   "tv": "NASDAQ:EMB",
+   "likidite_mn_usd": 679.11,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 38.0
+  },
+  {
+   "sym": "MUB",
+   "karar": "red",
+   "gerekce": "Maliyet/oynaklık 0,58; dönüş sinyalleri net negatif (FDR'de negatif).",
+   "tv": "AMEX:MUB",
+   "likidite_mn_usd": 416.72,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 24.3
+  },
+  {
+   "sym": "ZROZ",
+   "karar": "red",
+   "gerekce": "EDV/TLT kopyası (corr 0,98-0,99); 37 mn $/gün, maliyet 20 bp; bağımsız strateji yok.",
+   "tv": "AMEX:ZROZ",
+   "likidite_mn_usd": 36.73,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 102.8
+  },
+  {
+   "sym": "EDV",
+   "karar": "red",
+   "gerekce": "TLT'nin daha uzun süreli kopyası (korelasyon 0,98, beta ~1,5); 73 mn $/gün ama TLT/TMF daha ucuz ve bağımsız kanıt değil; ayrı strateji yok.",
+   "tv": "AMEX:EDV",
+   "likidite_mn_usd": 72.8,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 93.0
+  },
+  {
+   "sym": "GOVT",
+   "karar": "red",
+   "gerekce": "IEF benzeri; maliyet/oynaklık 0,66; 'yetişme' (IEF/SHY→GOVT) t≈2,4-3,0 ama 1 sd başına ~5 bp < 16 bp maliyet.",
+   "tv": "CBOE:GOVT",
+   "likidite_mn_usd": 162.92,
+   "maliyet_bp": 16.5,
+   "vol_1d_bp": 24.8
+  },
+  {
+   "sym": "VCIT",
+   "karar": "red",
+   "gerekce": "LQD kopyası (corr 0,96); maliyet/oynaklık 0,50.",
+   "tv": "NASDAQ:VCIT",
+   "likidite_mn_usd": 829.59,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 28.2
+  },
+  {
+   "sym": "IEI",
+   "karar": "red",
+   "gerekce": "Orta vade kopyası (IEF ile corr 0,97); maliyet/oynaklık 0,80.",
+   "tv": "NASDAQ:IEI",
+   "likidite_mn_usd": 175.98,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 20.0
+  },
+  {
+   "sym": "TLH",
+   "karar": "red",
+   "gerekce": "TLT kopyası (corr 0,98, daha kısa süre); TLT daha likit/ucuz.",
+   "tv": "AMEX:TLH",
+   "likidite_mn_usd": 112.95,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 51.9
+  },
+  {
+   "sym": "SCHP",
+   "karar": "red",
+   "gerekce": "TIP kopyası.",
+   "tv": "AMEX:SCHP",
+   "likidite_mn_usd": 104.2,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 24.7
+  },
+  {
+   "sym": "USHY",
+   "karar": "red",
+   "gerekce": "HYG kopyası (corr 0,985); seri 2019-04'ten güvenilir.",
+   "tv": "CBOE:USHY",
+   "likidite_mn_usd": 423.3,
+   "maliyet_bp": 14.8,
+   "vol_1d_bp": 27.0
+  },
+  {
+   "sym": "BKLN",
+   "karar": "red",
+   "gerekce": "Maliyet/oynaklık 0,76; strateji yok.",
+   "tv": "AMEX:BKLN",
+   "likidite_mn_usd": 206.91,
+   "maliyet_bp": 16.9,
+   "vol_1d_bp": 22.1
+  },
+  {
+   "sym": "STIP",
+   "karar": "red",
+   "gerekce": "1g oynaklık 16 bp ≈ maliyet.",
+   "tv": "AMEX:STIP",
+   "likidite_mn_usd": 94.45,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 15.8
+  },
+  {
+   "sym": "UUP",
+   "karar": "red",
+   "gerekce": "Ailenin en likit döviz ETF'i (44,6 mn $) ama 1g oynaklık 42 bp / 20 bp maliyet. Risk varlıkları (SPY/HYG/LQD) → ertesi gün USD düşüşü istatistiksel olarak gerçek (t≈−4, FDR, IS/OOS aynı işaret, gece+gün içi) ama 1 sd başına 8-9 bp; işlem kuralı net −14 bp. Invesco DB fonu (emtia havuzu, K-1/PTP riski: Midas'ta PTP ibaresi kontrol edilmeli).",
+   "tv": "AMEX:UUP",
+   "likidite_mn_usd": 44.64,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 41.7
+  },
+  {
+   "sym": "UDN",
+   "karar": "red",
+   "gerekce": "1,9 mn $/gün, 47 bp maliyet; DB fonu (K-1/PTP riski).",
+   "tv": "AMEX:UDN",
+   "likidite_mn_usd": 1.91,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 38.0
+  },
+  {
+   "sym": "FXE",
+   "karar": "red",
+   "gerekce": "9,8 mn $/gün, 27 bp maliyet / 34 bp oynaklık (0,79). SPY→FXE gecikmesi t=5 ama 6 bp/sd; kural net −20 bp.",
+   "tv": "AMEX:FXE",
+   "likidite_mn_usd": 9.76,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 34.2
+  },
+  {
+   "sym": "FXY",
+   "karar": "red",
+   "gerekce": "9,6 mn $/gün, 27 bp / 51 bp. FXY←VIX/SPY şoku hipotezi ters çıktı (şok sonrası ertesi gün yen zayıflıyor, brüt −13 bp, t=−3,5) ve işlenebilir araç yok; FXY←DGS2 net negatif.",
+   "tv": "AMEX:FXY",
+   "likidite_mn_usd": 9.64,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 51.0
+  },
+  {
+   "sym": "FXB",
+   "karar": "red",
+   "gerekce": "1,5 mn $/gün, 47 bp maliyet.",
+   "tv": "AMEX:FXB",
+   "likidite_mn_usd": 1.53,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 39.0
+  },
+  {
+   "sym": "FXA",
+   "karar": "red",
+   "gerekce": "0,7 mn $/gün, 47 bp maliyet.",
+   "tv": "AMEX:FXA",
+   "likidite_mn_usd": 0.72,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 50.4
+  },
+  {
+   "sym": "FXC",
+   "karar": "red",
+   "gerekce": "1,5 mn $/gün, 47 bp; maliyet/oynaklık 1,64.",
+   "tv": "AMEX:FXC",
+   "likidite_mn_usd": 1.51,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 28.6
+  },
+  {
+   "sym": "FXF",
+   "karar": "red",
+   "gerekce": "4,9 mn $/gün (likiditesiz). SPY→FXF gecikmesi (t=5,3) gece+gün içi parçalarında var; bayat kapanış tek açıklama değil (likit UUP'ta da var) ama 8 bp/sd < 27 bp.",
+   "tv": "AMEX:FXF",
+   "likidite_mn_usd": 4.9,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 45.9
+  },
+  {
+   "sym": "CEW",
+   "karar": "red",
+   "gerekce": "0,06 mn $/gün; neredeyse işlem görmüyor.",
+   "tv": "AMEX:CEW",
+   "likidite_mn_usd": 0.06,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 44.9
+  },
+  {
+   "sym": "YCS",
+   "karar": "red",
+   "gerekce": "−2x yen; 0,9 mn $/gün, 47 bp; ProShares Trust II (K-1/PTP riski).",
+   "tv": "AMEX:YCS",
+   "likidite_mn_usd": 0.93,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 103.7
+  },
+  {
+   "sym": "YCL",
+   "karar": "red",
+   "gerekce": "2x yen; 0,5 mn $/gün; ProShares Trust II (K-1/PTP riski).",
+   "tv": "AMEX:YCL",
+   "likidite_mn_usd": 0.55,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 100.4
+  },
+  {
+   "sym": "EUO",
+   "karar": "red",
+   "gerekce": "−2x euro; 0,5 mn $/gün; ProShares Trust II (K-1/PTP riski).",
+   "tv": "AMEX:EUO",
+   "likidite_mn_usd": 0.52,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 69.8
+  },
+  {
+   "sym": "ULE",
+   "karar": "red",
+   "gerekce": "2x euro; 0,06 mn $/gün; ProShares Trust II (K-1/PTP riski).",
+   "tv": "AMEX:ULE",
+   "likidite_mn_usd": 0.06,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 70.7
+  }
+ ],
+ "stratejiler": [
+  {
+   "id": "tahvil_doviz_S1",
+   "ad": "10 yıllık Hazine ihalesi öncesi uzun vade zayıflığı — TMV (−3x TLT) ile 2 gün",
+   "kural": "Takvim sinyali (fiyat göstergesi yok): A = ABD Hazinesi 10 yıllık tahvil (10-Year Note) ihale günü — TreasuryDirect 'Upcoming Auctions' / Hazine geçici ihale takvimi; TradingView Ekonomik Takvim'de '10-Year Note Auction' (sonuç 13:00 ET = TR 21:00 kış / 20:00 yaz). SİNYAL GÜNÜ = A'dan 3 işlem günü önceki gün (A-3; ihale Salı ise önceki Perşembe, Çarşamba ise önceki Cuma; NYSE tatilleri sayılmaz). İŞLEM: AMEX:TMV long (alternatif AMEX:TBT, −2x). A-3 günü al, A-1 günü (ihaleden bir önceki işlem günü) kapanışta sat; ihale günü tutulmaz. Stop yok, erken çıkış yok. 30 yıllık ihale (A30) penceresi KULLANILMAZ (zayıf). Dayanak kontrolü: NASDAQ:TLT aynı pencerede ortalama −41 bp.",
+   "giris": "A-3 günü kapanıştan 5-10 dk önce piyasa ya da agresif limit emriyle (kış saati TR ~23:50, yaz saati TR ~22:50; Midas'ta MOC/LOC yok). Sinyal takvimden bilindiği için aynı gün açılışta (TR 17:30 kış / 16:30 yaz) almak da test edildi ve benzer sonuç verdi. Sıradaki: 10 Kas 2026 (Sal) ihalesi -> A-3 = 5 Kas Per (geçti; açık pozisyon 9 Kas Pzt kapanışta kapanır); 8 Ara 2026 (Sal, yeniden ihraç) -> giriş 3 Ara 2026 Per TR ~23:50.",
+   "tutus": "2 işlem günü (A-2 ve A-1)",
+   "cikis": "A-1 günü kapanıştan 5-10 dk önce (kış TR ~23:50 / yaz ~22:50) sat; örn. 8 Ara 2026 ihalesi için 7 Ara 2026 Pzt. Uzatılmış saatlerde yalnız limit emir verilebildiği için normal seansta çık.",
+   "islem_etf": [
+    "TMV",
+    "TBT"
+   ],
+   "sinyal_etf": "takvim (10Y Hazine ihalesi); dayanak NASDAQ:TLT",
+   "n": 119,
+   "brut_bp": 124.1,
+   "net_bp": 104.1,
+   "kazanma": 0.588,
+   "pf": 2.19,
+   "t": 3.17,
+   "is_net_bp": 108.2,
+   "oos_net_bp": 99.9,
+   "yil_pozitif": 0.909,
+   "maxdd": -0.13,
+   "en_kotu_bp": -764.0,
+   "maliyet_duyarlilik": "TMV net/işlem: 1.000$: 86 bp | 2.500$: 104 bp | 10.000$: 113 bp (maliyet 2.500$'da 20 bp = 12 komisyon + 8 makas)",
+   "mod_saglamlik": "C0: brüt 124 bp, net 104 bp, t=3.17 (OOS 100 bp); O1: brüt 81 bp, net 61 bp, t=1.98 (OOS 23 bp); C1: brüt 65 bp, net 45 bp, t=1.14 (OOS 12 bp); ek: A-3 AÇILIŞINDA giriş (TR 17:30 kış) brüt 118 bp, net 98 bp, t=2.82, IS 93 / OOS 103 bp. O1 (=A-2 açılışı) zayıf çünkü A-3 kapanışı→A-2 açılışı (çoğunlukla hafta sonu) boşluğu etkinin bir kısmını taşıyor: giriş A-3 seansı içinde yapılmalı.",
+   "aile_ici": "Aynı pencerede uzun ETF'ler brüt (C0): TLT -41 bp (t -3.7), EDV -54 bp (t -3.6), ZROZ -60 bp (t -3.7), TLH -31 bp (t -3.7), IEF -19 bp (t -4.1), IEI -10 bp (t -4.1), GOVT -15 bp (t -4.2), AGG -13 bp (t -3.4), LQD -22 bp (t -3.2), TIP -13 bp (t -2.4), EMB -21 bp (t -2.6), SHY -3 bp (t -3.5), MUB -3 bp (t -0.8), HYG -3 bp (t -0.6), TMF -128 bp (t -3.9); ters: TBT +82 bp (net 62 bp, t=2.87, IS 63 / OOS 62 bp), TMV +124 bp. Hepsi aynı faiz faktörü: bağımsız kanıt değil, ama süreyle orantılı ölçekleniyor (beklenen işaret ve büyüklük).",
+   "test_sayisi": 12827,
+   "fdr": "Toplam 12827 test (strateji 12515: genel kütüphane dağıtım-düzeltmeli aile satırları 11880 + aileye özel hipotez 693 + S1/S2 sağlamlık ve döviz kuralları; lead-lag regresyonu 312). (1) İki yönlü BH-FDR q=0,10 (tüm strateji testleri): 8709 geçen (eşik p≤0.0696; çoğu maliyet yüzünden net negatif satır), net pozitif geçen 29; S1-TMV C0 p=0.0020 GEÇTİ, S1-TBT C0 p=0.0049 GEÇTİ. (2) Katı tek yönlü BH ('net>0', 12515 test): 0 geçen — S1 de geçmiyor. (3) Odaklı önceden kayıtlı birincil kurallar (58 test, notlar/hipotezler.csv TD01-TD09 + yönlendirme): tek yönlü BH'de geçen 2: TD02_ihale_oncesi/TBT (p=0.0030), TD02_ihale_oncesi/TMV (p=0.0012).",
+   "guven": "orta",
+   "notlar": "Literatür: Lou, Yan & Zhang (2013, RFS) ihale öncesi ikincil piyasa fiyat baskısı ve sonrası toparlanma; hipotez önceden kayıtlıydı (notlar/hipotezler.csv TD02 'Ek test: TLT C_A-3→C_A-1 <0'). IS t=2.44, OOS t=2.03; yılların 10/11'i pozitif (2017 hafif negatif). Plasebo (pencere ±5/±10 işlem günü kaydırılmış): etki yok (TLT −3..+17 bp, |t|<1,3). Haftanın günü eşlenik koşulsuz 2 günlük TLT ortalaması −2 bp. Pencerede CPI hiç yok, FOMC hiç yok; NFP içeren 26 pencerede etki daha büyük (TLT −66 bp) ama NFP'siz 93 pencerede de var (TLT −34 bp, TMV net +84 bp, t=2,18). 2020 hariç TMV net 88 bp (t=2,57); 2022 hariç 101 bp (t=2,97). İhale SONRASI toparlanma (A→A+2) ETF verisinde YOK (TLT −9 bp). Riskler: −3x kaldıraçlı ters ETF (en kötü 2 günlük işlem −%7,6, 2019-08; maxDD −%13); TMV/TBT'nin Midas'ta bulunurluğu doğrulanamadı; Treasury piyasa yapısı (ihale büyüklüğü, birincil bayi kapasitesi) değişirse etki zayıflayabilir; 2026'da 10 işlemde ortalama +20 bp (zayıfladı mı izlenmeli). Veri: Yahoo dağıtım düzeltmeli (TMV/TBT dağıtımları Nasdaq verisinde yoktu).",
+   "betik": "kod/ajan_tahvil_doviz/strateji_S1_ihale_oncesi.py"
+  }
+ ],
+ "elenen": [
+  {
+   "ad": "Genel kütüphane (31 sinyal × h × mod) aile içinde",
+   "neden": "Dağıtım-düzeltmeli yeniden çalıştırmada (11880 satır) hiçbir kural temsilcilerin ≥%60'ında net pozitif değil; havuzlanmış sepetlerin hepsi net ≤ +2 bp. Tek tutarlı brüt etki ay sonu (CA_ay_sonu_3: 11/11 tahvil temsilcisinde brüt>0, sepet brüt 9-13 bp, t 2,5-3,5) ama 13-16 bp maliyetin altında. FDR'yi net pozitif geçen 9 satırın hepsi tek ETF/kaldıraçlı (TMF/TMV/TBT) ya da küçük n; aile tutarlılığı yok."
+  },
+  {
+   "ad": "TD01 TLT ay sonu (sondan 4./3. gün → ay sonu/ilk gün)",
+   "neden": "TLT C0 h=3: n=117, brüt 27 bp, net 14 bp, t=1.20, IS 26 / OOS 2 bp; TMF TMF C0 h=3: n=117, brüt 68 bp, net 52 bp, t=1.51, IS 90 / OOS 15 bp. Brüt etki tüm tahvil ETF'lerinde pozitif (IEF/AGG/GOVT brüt t 3,6-3,9) ama OOS'ta TLT'de 2 bp'ye düşmüş (CXO bulgusuyla uyumlu); t<2."
+  },
+  {
+   "ad": "TD02 ihale SONRASI toparlanma (A30/A10 → +2 gün TLT long)",
+   "neden": "TLT C0 h=2: n=117, brüt -5 bp, net -18 bp, t=-1.53, IS 8 / OOS -44 bp. ETF verisinde ihale sonrası toparlanma yok."
+  },
+  {
+   "ad": "TD03 FOMC (D-2→D+1 ve D-1→D) — TLT/TMF long",
+   "neden": "D-1→D TMF C0: n=79, net 53 bp, t=1.91 (IS t 1.42, OOS t 1.31); O1 net 4 bp, C1 -3 bp (etki D-1 kapanışı→D açılışında). Isınma penceresi 60→0 gün değişince t 2,19→1,91 (kırılgan); 2025 ve 2026 negatif. TLT brüt 24 bp (t 2,5) gerçek ama küçük: eşik altı."
+  },
+  {
+   "ad": "TD04 CPI/NFP öncesi TLT long",
+   "neden": "TLT C0 h=1: n=232, brüt -5 bp, net -18 bp, t=-2.43, IS -8 / OOS -28 bp (beklenenin tersi)."
+  },
+  {
+   "ad": "TD10 TLT RSI2/IBS iki yönlü dönüş (TLT/TMF long, TMV/TBT ters)",
+   "neden": "TLT RSI2<10 → TLT: TLT C0 h=3: n=171, brüt 7 bp, net -7 bp, t=-0.61, IS -8 / OOS -5 bp; RSI2>90 → TMV: TMV C0 h=3: n=171, brüt 77 bp, net 57 bp, t=1.69, IS 48 / OOS 70 bp; IBS kuralları net negatif. Hiçbiri t≥2 değil."
+  },
+  {
+   "ad": "TD11 10 yıllık getiri değişimi z-skoru (|z|≥2) sonrası dönüş",
+   "neden": "TLT C0 h=1: n=63, brüt -31 bp, net -44 bp, t=-2.83, IS -41 / OOS -48 bp — dönüş değil, ertesi gün devam (momentum) görülüyor ama C1'de kayboluyor ve sonradan seçilmiş yön olur; z≤−2 → TMV net 37 bp, t 0,55."
+  },
+  {
+   "ad": "TD05 FOMC günü döviz (FXA/UDN/FXE long, UUP)",
+   "neden": "Brüt 5-16 bp, maliyet 27-47 bp: tümü net −22..−41 bp (ör. FXA C0 h=1: n=77, brüt 16 bp, net -31 bp, t=-3.26, IS -25 / OOS -36 bp)."
+  },
+  {
+   "ad": "TD06 ay sonu USD hedge dengelemesi",
+   "neden": "FXE C0 h=2: n=37, brüt 3 bp, net -24 bp, t=-2.72, IS -19 / OOS -30 bp; UUP (SPY ≤ −%3) n=19 net −35 bp."
+  },
+  {
+   "ad": "TD07 FXY güvenli liman (SPY ≤ −%2 veya VIX +%20)",
+   "neden": "FXY C0 h=2: n=99, brüt -12 bp, net -39 bp, t=-3.51, IS -48 / OOS -27 bp. Ters yönde (şok sonrası yen/frank geri veriyor; FXF O1 brüt −16 bp, t −5,2) ama işlenebilir ucuz araç yok (YCS 47 bp) ve sonradan bulunan yön."
+  },
+  {
+   "ad": "TD08 döviz gün saati (gece vs gün içi)",
+   "neden": "UUP/FXE/FXY/FXF/FXB'de gece ve gün içi ortalamalar |≤2,3| bp/gün; maliyet 20-47 bp. Ekonomik değil."
+  },
+  {
+   "ad": "TD09 bakır/altın oranı → TBT/TMV",
+   "neden": "TBT C0 h=3: n=184, brüt 32 bp, net 12 bp, t=0.60, IS -16 / OOS 41 bp (IS negatif)."
+  },
+  {
+   "ad": "TD12 USDJPY ← DGS2 değişimi (YCS/FXY)",
+   "neden": "YCS C0 h=1: n=161, brüt -6 bp, net -53 bp, t=-5.70, IS -53 / OOS -53 bp; FXY C0 h=1: n=155, brüt 1 bp, net -26 bp, t=-4.64, IS -33 / OOS -17 bp."
+  },
+  {
+   "ad": "TD13 HYG/JNK ← SPY",
+   "neden": "Kendi gecikmesi kontrollü SPY→HYG t=−2,96 (IS −2,5 / OOS −1,5), −11 bp/sd < 13 bp; SPY z≤−1,5 sonrası HYG long HYG C0 h=1: n=175, brüt 5 bp, net -9 bp, t=-1.66, IS -3 / OOS -14 bp."
+  },
+  {
+   "ad": "TD14 döviz 5 günlük momentum/dönüş",
+   "neden": "7 döviz ETF'inde 14 kural: en iyisi FXF C0 h=3: n=80, brüt 14 bp, net -13 bp, t=-1.19, IS -20 / OOS -5 bp."
+  },
+  {
+   "ad": "Döviz ETF'leri ← ABD hisseleri (SPY/HYG/LQD) gecikmesi",
+   "neden": "İstatistiksel olarak gerçek (FDR; IS/OOS aynı işaret; gece ve gün içi parçalarında; likit UUP'ta da var → yalnız bayat kapanış artefaktı değil) ama 1 sd başına 5-9 bp. İşlem kuralı (SPY z≥1 → FXE/FXF/FXY/FXB, SPY z≤−1 → UUP): brüt +2..+8 bp, net −14..−44 bp; z≥2 eşiğinde bile net < 0 (10.000 $ pozisyonda en iyi +3 bp, t<1)."
+  },
+  {
+   "ad": "BIL/SGOV 'yetişme' (catch-up) sonuçları",
+   "neden": "leadlag_sweep'te t≈7-11 ama 1 sd başına 0,4-1 bp (maliyet 13-14 bp). Ayrıca eksik dağıtım verisinin testere dişi deseninden kaynaklanıyor: dağıtım-düzeltmeli veride kendi gecikmesi kontrol edilince işaret dönüyor/kayboluyor. Ekonomik değil."
+  },
+  {
+   "ad": "GOVT/TBT/TIP/SCHP 'yetişme' satırları",
+   "neden": "Kendi gecikmesi kontrollü t 1,8-3,0 ama 1 sd başına 4-16 bp < 14-20 bp maliyet (TBT←IEF h3 kontrollü t=1,83)."
+  },
+  {
+   "ad": "VERİ UYARISI (genel_tum.csv ve leadlag_sweep.csv)",
+   "neden": "Nasdaq API NYSE Arca/Cboe listeli ETF'lerin dağıtımlarını vermiyor: ailenin 33/40 ETF'inde (HYG, AGG, LQD, TIP, MUB, BIL, SGOV, JNK, EDV, ZROZ, GOVT, TLH, SCHP, USHY, BKLN, STIP, TMF/TMV/TBT/UBT, döviz ETF'leri) toplam getiri eksik; ex-date (ayın ilk işlem günü) getirileri −16..−42 bp aşağı yanlı ve CA_ay_sonu sinyali sahte negatif çıkıyordu (HYG brüt −34 bp, t_edge −7). Bu aile Yahoo dağıtım olaylarıyla (td.load) yeniden hesaplandı; diğer aileler (ör. SPY dahil NYSE Arca listeli hisse ETF'leri) için de aynı sorun olabilir."
+  }
+ ],
+ "leadlag": [
+  {
+   "sym": "TMV",
+   "suruculer": [
+    {
+     "ad": "TLT — eşzamanlı, öncü değil",
+     "tv": "NASDAQ:TLT",
+     "corr_1y": -0.998,
+     "beta_1y": -2.953
+    },
+    {
+     "ad": "ABD 30 yıllık getiri değişimi (yüzde puan; beta = getiri/1 puan) — eşzamanlı, öncü değil",
+     "tv": "TVC:US30Y",
+     "corr_1y": 0.969,
+     "beta_1y": 0.452
+    },
+    {
+     "ad": "IEF (7-10 yıl) — eşzamanlı, öncü değil",
+     "tv": "NASDAQ:IEF",
+     "corr_1y": -0.907,
+     "beta_1y": -5.137
+    },
+    {
+     "ad": "ABD 10 yıllık getiri değişimi (yüzde puan) — eşzamanlı, öncü değil",
+     "tv": "TVC:US10Y",
+     "corr_1y": 0.905,
+     "beta_1y": 0.368
+    },
+    {
+     "ad": "LQD (yatırım yapılabilir kredi) — eşzamanlı, öncü değil",
+     "tv": "AMEX:LQD",
+     "corr_1y": -0.902,
+     "beta_1y": -4.536
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "10Y Hazine ihale takvimi: A-3 kapanışı → A-1 kapanışı penceresi",
+     "tv": "yok (takvim: TreasuryDirect 'Upcoming Auctions' / TradingView Ekonomik Takvim '10-Year Note Auction')",
+     "tip": "takvim olayı (önceden bilinir; gecikmeli öngörü)",
+     "ufuk": "t+1..t+2 (A-2, A-1)",
+     "etki": "TMV brüt +124 bp / pencere (t 3.77); TLT −41 bp",
+     "t": 3.77,
+     "fdr": true,
+     "is_t": 2.44,
+     "oos_t": 2.03,
+     "maliyet_sonrasi": "net +104 bp/işlem (2.500 $; t=3.17) — strateji S1"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Ultra T-Bond vadeli (CBOT)",
+     "tv": "CBOT:UB1!",
+     "neden": "TLT'nin süresine en yakın vadeli; CME Globex Pazar-Cuma neredeyse 23 saat (kış TR 02:00 → ertesi gün 01:00, 01:00-02:00 ara; yaz saatinde bir saat erken). TR 12:00-17:30 arasında TLT/TMV açılış boşluğunu önceden gösterir — öncü değil, izleme aracı."
+    },
+    {
+     "ad": "30 yıllık T-Bond vadeli (CBOT)",
+     "tv": "CBOT:ZB1!",
+     "neden": "UB1! ile aynı saatler; daha likit."
+    },
+    {
+     "ad": "10 yıllık T-Note vadeli (CBOT)",
+     "tv": "CBOT:ZN1!",
+     "neden": "Faiz piyasasının en likit vadelisi; ABD veri açıklamaları (TR 16:30) anında tepki."
+    },
+    {
+     "ad": "ABD 30 yıllık getiri",
+     "tv": "TVC:US30Y",
+     "neden": "TLT ile eşzamanlı korelasyon −0,97; Asya/Avrupa saatlerinde de kotasyon."
+    },
+    {
+     "ad": "ABD 10 yıllık getiri",
+     "tv": "TVC:US10Y",
+     "neden": "Genel faiz yönü; CPI/NFP (TR 16:30) tepkisi açılıştan önce görülür."
+    },
+    {
+     "ad": "Almanya 10 yıllık getiri",
+     "tv": "TVC:DE10Y",
+     "neden": "Avrupa seansında (TR ~10:00-19:00) küresel faiz hareketi; ABD açılışından önce."
+    },
+    {
+     "ad": "Japonya 10 yıllık getiri",
+     "tv": "TVC:JP10Y",
+     "neden": "Asya seansında (TR ~03:00-09:00) küresel uzun vade baskısı (BoJ)."
+    }
+   ],
+   "not": "Fiyat/faiz/kredi/risk öncüleri arasında doğrulanmış gecikmeli öncü YOK: TMV için 18-19 aday × h∈{1,3} (kendi gecikmesi kontrollü, NW) içinde BH-FDR (224 testlik izleme seti) geçen 0; en güçlüsü IEF (h3) t=-2.37, -78 bp/sd. leadlag_sweep'te de bu hedef için FDR'li öncü yok. Tek gecikmeli öngörücü TAKVİM: 10Y ihale öncesi pencere (S1). Eşzamanlı sürücüler (30Y/10Y getiri, IEF, LQD) öncü değildir.",
+   "takvim_riskleri": "10 Kas 2026 Sal: 10Y ihale (13:00 ET=TR 21:00) + CPI (TR 16:30) aynı gün; 11 Kas Çar Veterans Day (tahvil nakit piyasası kapalı, NYSE açık: ince işlem); 12 Kas Per 30Y ihale; 26 Kas NYSE kapalı, 27 Kas erken kapanış 13:00 ET (TR 21:00); 4 Ara Cum NFP (8 Ara ihale penceresinin içinde: tarihsel olarak etki daha büyük ama oynak); 8 Ara Sal 10Y yeniden ihraç; 9 Ara Çar FOMC (SEP; TR 22:00); 10 Ara Per 30Y + CPI; 24 Ara erken kapanış, 25 Ara kapalı. TMV/TBT çeyreklik dağıtım ex-date'leri ~Mar/Haz/Eyl/Ara 20-25'i (S1 penceresine denk gelmez)."
+  },
+  {
+   "sym": "TBT",
+   "suruculer": [
+    {
+     "ad": "TLT — eşzamanlı, öncü değil",
+     "tv": "NASDAQ:TLT",
+     "corr_1y": -0.989,
+     "beta_1y": -2.029
+    },
+    {
+     "ad": "ABD 30 yıllık getiri değişimi (yüzde puan; beta = getiri/1 puan) — eşzamanlı, öncü değil",
+     "tv": "TVC:US30Y",
+     "corr_1y": 0.961,
+     "beta_1y": 0.311
+    },
+    {
+     "ad": "ABD 10 yıllık getiri değişimi (yüzde puan) — eşzamanlı, öncü değil",
+     "tv": "TVC:US10Y",
+     "corr_1y": 0.898,
+     "beta_1y": 0.253
+    },
+    {
+     "ad": "IEF (7-10 yıl) — eşzamanlı, öncü değil",
+     "tv": "NASDAQ:IEF",
+     "corr_1y": -0.896,
+     "beta_1y": -3.52
+    },
+    {
+     "ad": "LQD (yatırım yapılabilir kredi) — eşzamanlı, öncü değil",
+     "tv": "AMEX:LQD",
+     "corr_1y": -0.893,
+     "beta_1y": -3.116
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "10Y Hazine ihale takvimi: A-3 kapanışı → A-1 kapanışı penceresi",
+     "tv": "yok (takvim: TreasuryDirect 'Upcoming Auctions' / TradingView Ekonomik Takvim '10-Year Note Auction')",
+     "tip": "takvim olayı (önceden bilinir; gecikmeli öngörü)",
+     "ufuk": "t+1..t+2 (A-2, A-1)",
+     "etki": "TBT brüt +82 bp / pencere (t 3.79); TLT −41 bp",
+     "t": 3.79,
+     "fdr": true,
+     "is_t": 2.17,
+     "oos_t": 1.88,
+     "maliyet_sonrasi": "net +62 bp/işlem (2.500 $; t=2.87) — strateji S1"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Ultra T-Bond vadeli (CBOT)",
+     "tv": "CBOT:UB1!",
+     "neden": "TLT'nin süresine en yakın vadeli; CME Globex Pazar-Cuma neredeyse 23 saat (kış TR 02:00 → ertesi gün 01:00, 01:00-02:00 ara; yaz saatinde bir saat erken). TR 12:00-17:30 arasında TLT/TMV açılış boşluğunu önceden gösterir — öncü değil, izleme aracı."
+    },
+    {
+     "ad": "30 yıllık T-Bond vadeli (CBOT)",
+     "tv": "CBOT:ZB1!",
+     "neden": "UB1! ile aynı saatler; daha likit."
+    },
+    {
+     "ad": "10 yıllık T-Note vadeli (CBOT)",
+     "tv": "CBOT:ZN1!",
+     "neden": "Faiz piyasasının en likit vadelisi; ABD veri açıklamaları (TR 16:30) anında tepki."
+    },
+    {
+     "ad": "ABD 30 yıllık getiri",
+     "tv": "TVC:US30Y",
+     "neden": "TLT ile eşzamanlı korelasyon −0,97; Asya/Avrupa saatlerinde de kotasyon."
+    },
+    {
+     "ad": "ABD 10 yıllık getiri",
+     "tv": "TVC:US10Y",
+     "neden": "Genel faiz yönü; CPI/NFP (TR 16:30) tepkisi açılıştan önce görülür."
+    },
+    {
+     "ad": "Almanya 10 yıllık getiri",
+     "tv": "TVC:DE10Y",
+     "neden": "Avrupa seansında (TR ~10:00-19:00) küresel faiz hareketi; ABD açılışından önce."
+    },
+    {
+     "ad": "Japonya 10 yıllık getiri",
+     "tv": "TVC:JP10Y",
+     "neden": "Asya seansında (TR ~03:00-09:00) küresel uzun vade baskısı (BoJ)."
+    }
+   ],
+   "not": "Fiyat/faiz/kredi/risk öncüleri arasında doğrulanmış gecikmeli öncü YOK: TBT için 18-19 aday × h∈{1,3} (kendi gecikmesi kontrollü, NW) içinde BH-FDR (224 testlik izleme seti) geçen 0; en güçlüsü DGS10_d (h3) t=2.30, +35 bp/sd. leadlag_sweep'te de bu hedef için FDR'li öncü yok. Tek gecikmeli öngörücü TAKVİM: 10Y ihale öncesi pencere (S1). Eşzamanlı sürücüler (30Y/10Y getiri, IEF, LQD) öncü değildir.",
+   "takvim_riskleri": "10 Kas 2026 Sal: 10Y ihale (13:00 ET=TR 21:00) + CPI (TR 16:30) aynı gün; 11 Kas Çar Veterans Day (tahvil nakit piyasası kapalı, NYSE açık: ince işlem); 12 Kas Per 30Y ihale; 26 Kas NYSE kapalı, 27 Kas erken kapanış 13:00 ET (TR 21:00); 4 Ara Cum NFP (8 Ara ihale penceresinin içinde: tarihsel olarak etki daha büyük ama oynak); 8 Ara Sal 10Y yeniden ihraç; 9 Ara Çar FOMC (SEP; TR 22:00); 10 Ara Per 30Y + CPI; 24 Ara erken kapanış, 25 Ara kapalı. TMV/TBT çeyreklik dağıtım ex-date'leri ~Mar/Haz/Eyl/Ara 20-25'i (S1 penceresine denk gelmez)."
+  },
+  {
+   "sym": "TLT",
+   "suruculer": [
+    {
+     "ad": "ABD 30 yıllık getiri değişimi (yüzde puan; beta = getiri/1 puan) — eşzamanlı, öncü değil",
+     "tv": "TVC:US30Y",
+     "corr_1y": -0.969,
+     "beta_1y": -0.153
+    },
+    {
+     "ad": "IEF (7-10 yıl) — eşzamanlı, öncü değil",
+     "tv": "NASDAQ:IEF",
+     "corr_1y": 0.908,
+     "beta_1y": 1.738
+    },
+    {
+     "ad": "ABD 10 yıllık getiri değişimi (yüzde puan) — eşzamanlı, öncü değil",
+     "tv": "TVC:US10Y",
+     "corr_1y": -0.905,
+     "beta_1y": -0.124
+    },
+    {
+     "ad": "LQD (yatırım yapılabilir kredi) — eşzamanlı, öncü değil",
+     "tv": "AMEX:LQD",
+     "corr_1y": 0.902,
+     "beta_1y": 1.532
+    },
+    {
+     "ad": "10 yıllık reel getiri (TIPS) değişimi (yüzde puan; FRED günlük, gecikmeli yayımlanır) — eşzamanlı, öncü değil",
+     "tv": "FRED:DFII10",
+     "corr_1y": -0.804,
+     "beta_1y": -0.134
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "10Y Hazine ihale takvimi: A-3 kapanışı → A-1 kapanışı penceresi",
+     "tv": "yok (takvim: TreasuryDirect 'Upcoming Auctions' / TradingView Ekonomik Takvim '10-Year Note Auction')",
+     "tip": "takvim olayı (önceden bilinir; gecikmeli öngörü)",
+     "ufuk": "t+1..t+2 (A-2, A-1)",
+     "etki": "TLT brüt -41 bp / pencere (t -3.72); TLT −41 bp",
+     "t": -3.72,
+     "fdr": true,
+     "maliyet_sonrasi": "long yönde işlenmez (açığa satış yok): risk kuralı = pencerede long taşıma; kısa yön TMV/TBT ile (S1)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Ultra T-Bond vadeli (CBOT)",
+     "tv": "CBOT:UB1!",
+     "neden": "TLT'nin süresine en yakın vadeli; CME Globex Pazar-Cuma neredeyse 23 saat (kış TR 02:00 → ertesi gün 01:00, 01:00-02:00 ara; yaz saatinde bir saat erken). TR 12:00-17:30 arasında TLT/TMV açılış boşluğunu önceden gösterir — öncü değil, izleme aracı."
+    },
+    {
+     "ad": "30 yıllık T-Bond vadeli (CBOT)",
+     "tv": "CBOT:ZB1!",
+     "neden": "UB1! ile aynı saatler; daha likit."
+    },
+    {
+     "ad": "10 yıllık T-Note vadeli (CBOT)",
+     "tv": "CBOT:ZN1!",
+     "neden": "Faiz piyasasının en likit vadelisi; ABD veri açıklamaları (TR 16:30) anında tepki."
+    },
+    {
+     "ad": "ABD 30 yıllık getiri",
+     "tv": "TVC:US30Y",
+     "neden": "TLT ile eşzamanlı korelasyon −0,97; Asya/Avrupa saatlerinde de kotasyon."
+    },
+    {
+     "ad": "ABD 10 yıllık getiri",
+     "tv": "TVC:US10Y",
+     "neden": "Genel faiz yönü; CPI/NFP (TR 16:30) tepkisi açılıştan önce görülür."
+    },
+    {
+     "ad": "Almanya 10 yıllık getiri",
+     "tv": "TVC:DE10Y",
+     "neden": "Avrupa seansında (TR ~10:00-19:00) küresel faiz hareketi; ABD açılışından önce."
+    },
+    {
+     "ad": "Japonya 10 yıllık getiri",
+     "tv": "TVC:JP10Y",
+     "neden": "Asya seansında (TR ~03:00-09:00) küresel uzun vade baskısı (BoJ)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadeli",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Risk iştahı; hisse-tahvil korelasyonu rejime göre değişiyor (2022'de pozitif)."
+    }
+   ],
+   "not": "Fiyat/faiz/kredi/risk öncüleri arasında doğrulanmış gecikmeli öncü YOK: TLT için 18-19 aday × h∈{1,3} (kendi gecikmesi kontrollü, NW) içinde BH-FDR (224 testlik izleme seti) geçen 0; en güçlüsü IEF (h3) t=2.61, +27 bp/sd. leadlag_sweep'te de bu hedef için FDR'li öncü yok. Tek gecikmeli öngörücü TAKVİM: 10Y ihale öncesi pencere (S1). Eşzamanlı sürücüler (30Y/10Y getiri, IEF, LQD) öncü değildir.",
+   "takvim_riskleri": "10 Kas 2026 Sal: 10Y ihale (13:00 ET=TR 21:00) + CPI (TR 16:30) aynı gün; 11 Kas Çar Veterans Day (tahvil nakit piyasası kapalı, NYSE açık: ince işlem); 12 Kas Per 30Y ihale; 26 Kas NYSE kapalı, 27 Kas erken kapanış 13:00 ET (TR 21:00); 4 Ara Cum NFP (8 Ara ihale penceresinin içinde: tarihsel olarak etki daha büyük ama oynak); 8 Ara Sal 10Y yeniden ihraç; 9 Ara Çar FOMC (SEP; TR 22:00); 10 Ara Per 30Y + CPI; 24 Ara erken kapanış, 25 Ara kapalı. TMV/TBT çeyreklik dağıtım ex-date'leri ~Mar/Haz/Eyl/Ara 20-25'i (S1 penceresine denk gelmez)."
+  },
+  {
+   "sym": "TMF",
+   "suruculer": [
+    {
+     "ad": "TLT — eşzamanlı, öncü değil",
+     "tv": "NASDAQ:TLT",
+     "corr_1y": 0.998,
+     "beta_1y": 2.933
+    },
+    {
+     "ad": "ABD 30 yıllık getiri değişimi (yüzde puan; beta = getiri/1 puan) — eşzamanlı, öncü değil",
+     "tv": "TVC:US30Y",
+     "corr_1y": -0.97,
+     "beta_1y": -0.449
+    },
+    {
+     "ad": "IEF (7-10 yıl) — eşzamanlı, öncü değil",
+     "tv": "NASDAQ:IEF",
+     "corr_1y": 0.906,
+     "beta_1y": 5.095
+    },
+    {
+     "ad": "ABD 10 yıllık getiri değişimi (yüzde puan) — eşzamanlı, öncü değil",
+     "tv": "TVC:US10Y",
+     "corr_1y": -0.906,
+     "beta_1y": -0.366
+    },
+    {
+     "ad": "LQD (yatırım yapılabilir kredi) — eşzamanlı, öncü değil",
+     "tv": "AMEX:LQD",
+     "corr_1y": 0.902,
+     "beta_1y": 4.504
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "10Y Hazine ihale takvimi: A-3 kapanışı → A-1 kapanışı penceresi",
+     "tv": "yok (takvim: TreasuryDirect 'Upcoming Auctions' / TradingView Ekonomik Takvim '10-Year Note Auction')",
+     "tip": "takvim olayı (önceden bilinir; gecikmeli öngörü)",
+     "ufuk": "t+1..t+2 (A-2, A-1)",
+     "etki": "TMF brüt -128 bp / pencere (t -3.94); TLT −41 bp",
+     "t": -3.94,
+     "fdr": true,
+     "maliyet_sonrasi": "long yönde işlenmez (açığa satış yok): risk kuralı = pencerede long taşıma; kısa yön TMV/TBT ile (S1)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Ultra T-Bond vadeli (CBOT)",
+     "tv": "CBOT:UB1!",
+     "neden": "TLT'nin süresine en yakın vadeli; CME Globex Pazar-Cuma neredeyse 23 saat (kış TR 02:00 → ertesi gün 01:00, 01:00-02:00 ara; yaz saatinde bir saat erken). TR 12:00-17:30 arasında TLT/TMV açılış boşluğunu önceden gösterir — öncü değil, izleme aracı."
+    },
+    {
+     "ad": "30 yıllık T-Bond vadeli (CBOT)",
+     "tv": "CBOT:ZB1!",
+     "neden": "UB1! ile aynı saatler; daha likit."
+    },
+    {
+     "ad": "10 yıllık T-Note vadeli (CBOT)",
+     "tv": "CBOT:ZN1!",
+     "neden": "Faiz piyasasının en likit vadelisi; ABD veri açıklamaları (TR 16:30) anında tepki."
+    },
+    {
+     "ad": "ABD 30 yıllık getiri",
+     "tv": "TVC:US30Y",
+     "neden": "TLT ile eşzamanlı korelasyon −0,97; Asya/Avrupa saatlerinde de kotasyon."
+    },
+    {
+     "ad": "ABD 10 yıllık getiri",
+     "tv": "TVC:US10Y",
+     "neden": "Genel faiz yönü; CPI/NFP (TR 16:30) tepkisi açılıştan önce görülür."
+    },
+    {
+     "ad": "Almanya 10 yıllık getiri",
+     "tv": "TVC:DE10Y",
+     "neden": "Avrupa seansında (TR ~10:00-19:00) küresel faiz hareketi; ABD açılışından önce."
+    },
+    {
+     "ad": "Japonya 10 yıllık getiri",
+     "tv": "TVC:JP10Y",
+     "neden": "Asya seansında (TR ~03:00-09:00) küresel uzun vade baskısı (BoJ)."
+    },
+    {
+     "ad": "S&P 500 E-mini vadeli",
+     "tv": "CME_MINI:ES1!",
+     "neden": "Risk iştahı; hisse-tahvil korelasyonu rejime göre değişiyor (2022'de pozitif)."
+    }
+   ],
+   "not": "Fiyat/faiz/kredi/risk öncüleri arasında doğrulanmış gecikmeli öncü YOK: TMF için 18-19 aday × h∈{1,3} (kendi gecikmesi kontrollü, NW) içinde BH-FDR (224 testlik izleme seti) geçen 0; en güçlüsü IEF (h3) t=2.41, +74 bp/sd. leadlag_sweep'te de bu hedef için FDR'li öncü yok. Tek gecikmeli öngörücü TAKVİM: 10Y ihale öncesi pencere (S1). Eşzamanlı sürücüler (30Y/10Y getiri, IEF, LQD) öncü değildir.",
+   "takvim_riskleri": "10 Kas 2026 Sal: 10Y ihale (13:00 ET=TR 21:00) + CPI (TR 16:30) aynı gün; 11 Kas Çar Veterans Day (tahvil nakit piyasası kapalı, NYSE açık: ince işlem); 12 Kas Per 30Y ihale; 26 Kas NYSE kapalı, 27 Kas erken kapanış 13:00 ET (TR 21:00); 4 Ara Cum NFP (8 Ara ihale penceresinin içinde: tarihsel olarak etki daha büyük ama oynak); 8 Ara Sal 10Y yeniden ihraç; 9 Ara Çar FOMC (SEP; TR 22:00); 10 Ara Per 30Y + CPI; 24 Ara erken kapanış, 25 Ara kapalı. TMV/TBT çeyreklik dağıtım ex-date'leri ~Mar/Haz/Eyl/Ara 20-25'i (S1 penceresine denk gelmez)."
+  }
+ ],
+ "tv_dogrulanacak": [
+  "AMEX:TBF (ProShares Short 20+ Year Treasury, −1x; kaldıraçsız ters alternatif — veri ve TV kodu doğrulanmadı)",
+  "TradingView Ekonomik Takvim '10-Year Note Auction' girdisi (kod değil; takvim kontrolü TreasuryDirect ile yapılmalı)"
+ ],
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/notlar/aile_tahvil_doviz.md",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/sonuc.json",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/strateji_S1_ihale_oncesi.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/td.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/00_temettu_indir.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/01_islenebilirlik.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/02a_genel_duzeltilmis.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/02_genel_aile.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/03_hipotezler.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/04_leadlag.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/strateji_S2_fomc.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_tahvil_doviz/06_sonuc_json.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/S1_ana.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/S1_aile.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/S1_komsu.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/S1_plasebo.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/S1_yillar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/S1_islemler_TMV_C0.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/hipotez_testleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/genel_duzeltilmis.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/genel_aile_tutarlilik_tahvil.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/genel_aile_havuz.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/islenebilirlik.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/kopya_gruplari.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/leadlag_izleme_oncu.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/leadlag_fx_spy.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/leadlag_fx_kural.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/leadlag_catch_kontrollu.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_tahvil_doviz/temettu_yahoo.csv"
+ ]
+}

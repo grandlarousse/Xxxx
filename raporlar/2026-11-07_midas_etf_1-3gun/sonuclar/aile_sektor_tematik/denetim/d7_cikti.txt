@@ -1,0 +1,1 @@
+11 SPDR kalıntı z1<-2 -> al C0 h1: n=820 net=-14.2 bp, hedge'li brüt=-6.4 bp; hafta-ortalaması t: net -1.15, hedge'li -0.17

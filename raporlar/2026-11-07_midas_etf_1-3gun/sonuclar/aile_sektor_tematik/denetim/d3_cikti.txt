@@ -1,0 +1,19 @@
+Saatlik AH (16:00-17:00 ET) barı:
+             kume    n  AH_ilk_islem_vs_kapanis_bp  AH_16_17_kapanis_vs_kapanis_bp  AH_16_17_dusuk_le_kapanis_orani  AH_16_17_hacim_medyan
+0      tum_gunler  729                       0.012                           4.039                            0.997                    0.0
+1  sinyal_gunleri  121                      -0.481                           5.891                            1.000                    0.0
+
+C0 uygulama senaryoları (2023-12..2026-11, sinyal: resmî IBS<0.2):
+                                         senaryo    n  doluluk  brut_bp  net_bp     t
+0                       resmi kapanis (backtest)  121      1.0    75.77   62.77  2.23
+1             AH limit = resmi kapanis (dolarsa)  121      1.0    75.77   62.77  2.23
+2            AH limit = kapanis + 5 bp (dolarsa)  121      1.0    70.74   57.74  2.06
+3                             AH 17:00 ET fiyati  121      1.0    69.94   56.94  2.03
+4  dolmayan sinyaller (resmi kapanistan olsaydi)    0      NaN      NaN     NaN   NaN
+
+5 dk (son ~60 gün): kapanış öncesi fiyat - resmî kapanış (bp) ve AH ilk 15 dk'da kapanış fiyatından dolma:
+      p1545_vs_C_bp       p1550_vs_C_bp       p1555_vs_C_bp       ah_low_le_C       ah_vol_15dk      
+               mean count          mean count          mean count        mean count        mean count
+sig                                                                                                  
+False         -7.98    50         -4.26    50         -8.02    50         1.0    50    20744.26    50
+True          15.75    10         21.65    10         16.96    10         1.0    10     6058.40    10

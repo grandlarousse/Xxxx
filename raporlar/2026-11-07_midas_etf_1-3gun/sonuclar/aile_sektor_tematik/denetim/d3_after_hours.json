@@ -1,0 +1,104 @@
+{
+ "ah_ozet": [
+  {
+   "kume": "tum_gunler",
+   "n": 729,
+   "AH_ilk_islem_vs_kapanis_bp": 0.012,
+   "AH_16_17_kapanis_vs_kapanis_bp": 4.039,
+   "AH_16_17_dusuk_le_kapanis_orani": 0.997,
+   "AH_16_17_hacim_medyan": 0.0
+  },
+  {
+   "kume": "sinyal_gunleri",
+   "n": 121,
+   "AH_ilk_islem_vs_kapanis_bp": -0.481,
+   "AH_16_17_kapanis_vs_kapanis_bp": 5.891,
+   "AH_16_17_dusuk_le_kapanis_orani": 1.0,
+   "AH_16_17_hacim_medyan": 0.0
+  }
+ ],
+ "senaryolar": [
+  {
+   "senaryo": "resmi kapanis (backtest)",
+   "n": 121,
+   "doluluk": 1.0,
+   "brut_bp": 75.77,
+   "net_bp": 62.77,
+   "t": 2.234
+  },
+  {
+   "senaryo": "AH limit = resmi kapanis (dolarsa)",
+   "n": 121,
+   "doluluk": 1.0,
+   "brut_bp": 75.77,
+   "net_bp": 62.77,
+   "t": 2.234
+  },
+  {
+   "senaryo": "AH limit = kapanis + 5 bp (dolarsa)",
+   "n": 121,
+   "doluluk": 1.0,
+   "brut_bp": 70.735,
+   "net_bp": 57.735,
+   "t": 2.055
+  },
+  {
+   "senaryo": "AH 17:00 ET fiyati",
+   "n": 121,
+   "doluluk": 1.0,
+   "brut_bp": 69.944,
+   "net_bp": 56.944,
+   "t": 2.031
+  },
+  {
+   "senaryo": "dolmayan sinyaller (resmi kapanistan olsaydi)",
+   "n": 0,
+   "doluluk": NaN,
+   "brut_bp": NaN,
+   "net_bp": NaN,
+   "t": NaN
+  }
+ ],
+ "bes_dk": {
+  "('p1545_vs_C_bp', 'mean')": {
+   "false": -7.975,
+   "true": 15.75
+  },
+  "('p1545_vs_C_bp', 'count')": {
+   "false": 50,
+   "true": 10
+  },
+  "('p1550_vs_C_bp', 'mean')": {
+   "false": -4.255,
+   "true": 21.654
+  },
+  "('p1550_vs_C_bp', 'count')": {
+   "false": 50,
+   "true": 10
+  },
+  "('p1555_vs_C_bp', 'mean')": {
+   "false": -8.017,
+   "true": 16.96
+  },
+  "('p1555_vs_C_bp', 'count')": {
+   "false": 50,
+   "true": 10
+  },
+  "('ah_low_le_C', 'mean')": {
+   "false": 1.0,
+   "true": 1.0
+  },
+  "('ah_low_le_C', 'count')": {
+   "false": 50,
+   "true": 10
+  },
+  "('ah_vol_15dk', 'mean')": {
+   "false": 20744.26,
+   "true": 6058.4
+  },
+  "('ah_vol_15dk', 'count')": {
+   "false": 50,
+   "true": 10
+  }
+ }
+}

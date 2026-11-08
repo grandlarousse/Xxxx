@@ -1,0 +1,116 @@
+/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/denetim_enerji_tarim/d_s1_eia_kold.py:52: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  print("\nEn iyi 5:"); print(tr2.nlargest(5, "net_bp").round(1).to_string(index=False))
+/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/denetim_enerji_tarim/d_s1_eia_kold.py:53: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  print("En kötü 5:"); print(tr2.nsmallest(5, "net_bp").round(1).to_string(index=False))
+KOLD maliyet 2500$: 15.999999999999998 | rapor tarihi KOLD index'te olmayan: 0
+       kural  sym mode  h   n  brut_bp  net_bp     t  kazanma   pf  is_net_bp  is_t  oos_net_bp  oos_t  yil_poz  maxdd  en_kotu_bp  en_iyi_bp
+  S1 Kas-Mar KOLD   C0  1 216   116.47  100.47  2.24     0.58 1.53     113.36  1.97       85.51   1.22     0.64  -0.42    -1663.74    4233.15
+EN01 tam yil KOLD   C0  1 522    59.39   43.39  1.65     0.54 1.22      36.71  1.14       50.49   1.20     0.82  -0.47    -2579.40    4233.15
+  S1 Kas-Mar KOLD   C0  2 216   105.74   89.74  1.43     0.56 1.29     121.92  1.88       52.41   0.46     0.64  -0.49    -2965.12    3752.18
+EN01 tam yil KOLD   C0  2 522    58.31   42.31  1.17     0.52 1.15      38.33  0.96       46.55   0.76     0.64  -0.70    -2965.12    3752.18
+  S1 Kas-Mar KOLD   C0  3 214   209.20  193.20  2.19     0.56 1.49     228.04  2.32      151.95   0.99     0.82  -0.70    -3859.27    5122.43
+EN01 tam yil KOLD   C0  3 520    76.38   60.38  1.19     0.53 1.15      41.24  0.68       80.89   0.98     0.82  -0.94    -3859.27    5122.43
+  S1 Kas-Mar KOLD   O1  1 216    80.51   64.51  2.13     0.56 1.46      56.43  1.57       73.89   1.47     0.73  -0.24    -1294.77    1786.12
+EN01 tam yil KOLD   O1  1 522    40.13   24.13  1.15     0.54 1.15       9.06  0.38       40.16   1.15     0.64  -0.60    -1861.69    2580.79
+  S1 Kas-Mar KOLD   O1  2 216    72.54   56.54  1.00     0.51 1.20      72.15  1.19       38.44   0.38     0.64  -0.59    -2722.77    2657.55
+EN01 tam yil KOLD   O1  2 522    40.18   24.18  0.72     0.50 1.09      13.66  0.37       35.36   0.63     0.73  -0.78    -2722.77    2784.88
+  S1 Kas-Mar KOLD   O1  3 214   179.92  163.92  1.95     0.52 1.43     180.42  1.84      144.40   1.01     0.82  -0.76    -4068.04    5196.71
+EN01 tam yil KOLD   O1  3 520    60.71   44.71  0.91     0.51 1.11      18.59  0.31       72.70   0.92     0.64  -0.97    -4068.04    5196.71
+  S1 Kas-Mar KOLD   C1  1 216   -10.11  -26.11 -0.58     0.48 0.90       1.52  0.03      -58.16  -0.75     0.45  -0.76    -2391.07    1797.15
+EN01 tam yil KOLD   C1  1 522    -1.54  -17.54 -0.71     0.50 0.92     -11.45 -0.41      -24.02  -0.59     0.27  -0.86    -2391.07    1797.15
+  S1 Kas-Mar KOLD   C1  2 214    96.66   80.66  1.07     0.52 1.22     105.96  1.21       50.71   0.40     0.64  -0.81    -3973.97    4163.93
+EN01 tam yil KOLD   C1  2 520    19.23    3.23  0.07     0.51 1.01      -9.49 -0.18       16.87   0.24     0.55  -0.98    -3973.97    4223.86
+  S1 Kas-Mar KOLD   C1  3 213    48.66   32.66  0.37     0.50 1.07      40.16  0.42       23.69   0.15     0.45  -0.90    -5163.31    5437.29
+EN01 tam yil KOLD   C1  3 519     8.83   -7.17 -0.14     0.48 0.98     -37.35 -0.64       25.32   0.30     0.45  -0.99    -5163.31    5437.29
+
+== S1 temel (C0 h1, 2500$): {'label': '', 'n': 216, 'brut_bp': np.float64(116.467), 'net_bp': np.float64(100.467), 't': np.float64(2.243), 't_brut': np.float64(2.6), 'kazanma': 0.583, 'pf': 1.527, 'maxdd': -0.417, 'en_kotu_bp': np.float64(-1663.74), 'en_iyi_bp': np.float64(4233.147), 'maliyet_bp': 16.0, 'is_n': 116, 'is_net_bp': np.float64(113.362), 'is_t': np.float64(1.968), 'oos_n': 100, 'oos_net_bp': np.float64(85.509), 'oos_t': np.float64(1.217), 'yil_poz': 0.636, 'yil_n': 11}
+  pozisyon 1000$: maliyet 34.0 bp, net 82.5 bp, t 1.84
+  pozisyon 2500$: maliyet 16.0 bp, net 100.5 bp, t 2.24
+  pozisyon 10000$: maliyet 7.0 bp, net 109.5 bp, t 2.44
+
+Yıl yıl (net, 2500$):
+       n  ort_bp  toplam_bp
+y                          
+2016   8  -105.0     -839.6
+2017  22   -41.7     -916.8
+2018  22   262.2     5767.6
+2019  21   -22.7     -477.2
+2020  22   212.9     4684.0
+2021  21   234.9     4932.0
+2022  22   -35.4     -779.0
+2023  22    41.7      918.2
+2024  21   166.4     3493.9
+2025  22   207.5     4564.9
+2026  13    27.1      352.9
+
+En iyi 5:
+       sig      giris      cikis  brut  net_bp  UNG_cikis_gunu_bp
+2018-11-14 2018-11-14 2018-11-15   0.4  4233.1            -1912.5
+2024-11-26 2024-11-26 2024-11-27   0.2  1693.6             -842.2
+2022-02-02 2022-02-02 2022-02-03   0.2  1687.4             -916.8
+2020-12-02 2020-12-02 2020-12-03   0.2  1635.4             -873.5
+2023-01-04 2023-01-04 2023-01-05   0.2  1569.6             -959.9
+En kötü 5:
+       sig      giris      cikis  brut  net_bp  UNG_cikis_gunu_bp
+2022-01-26 2022-01-26 2022-01-27  -0.2 -1663.7              872.7
+2017-12-27 2017-12-27 2017-12-28  -0.1 -1315.2              686.5
+2021-02-03 2021-02-03 2021-02-04  -0.1 -1302.9              690.3
+2023-02-22 2023-02-22 2023-02-23  -0.1 -1272.0              646.4
+2020-12-09 2020-12-09 2020-12-10  -0.1 -1080.4              591.6
+
+Alt örneklemler:
+  en iyi 5 hariç: n=211 net=51.6 t=1.34 IS=63.9 OOS=37.1
+  en iyi 10 hariç: n=206 net=21.6 t=0.58 IS=54.0 OOS=-17.8
+  2020 hariç: n=194 net=87.7 t=1.84 IS=90.1 OOS=85.5
+  2022 hariç: n=194 net=115.9 t=2.55 IS=113.4 OOS=119.6
+  2020 ve 2022 hariç: n=172 net=103.5 t=2.13 IS=90.1 OOS=119.6
+  2018 sonrası (2018-11-15 ani çöküş dahil değil): n=164 net=107.9 t=2.19 IS=142.8 OOS=85.5
+  Kasım 2018 hariç: n=212 net=80.6 t=1.96 IS=76.1 OOS=85.5
+  %2,5 winsorize: brüt 104.3 net 88.3 t 2.27
+
+Permütasyon (R=5000, brüt ortalama >= gözlenen):
+  tüm günler: havuz 2510 gün, null ort 10.8 bp, gözlenen 116.5 bp, p=0.0054
+  yalnız Kas-Mar günleri: havuz 1024 gün, null ort 30.3 bp, gözlenen 116.5 bp, p=0.0232
+  Kas-Mar, rapor arifesi olmayan günler: havuz 808 gün, null ort 8.0 bp, gözlenen 116.5 bp, p=0.0064
+
+Kas-Mar, ertesi günün haftanın gününe göre KOLD t->t+1 brüt bp (eve=rapor arifesi):
+                 n  ort_bp     t
+wd_next eve                     
+0.0     False  180   92.13  1.34
+        True     1 -248.31   NaN
+1.0     False  205   -5.99 -0.13
+2.0     False  190  -41.92 -0.76
+        True    13  145.66  0.68
+3.0     False   11   81.88  0.50
+        True   185  128.16  2.65
+4.0     False  195    8.93  0.20
+        True     9   57.10  0.25
+
+Tüm yıl, rapor günü Perşembe değil (tatil kayması) vs rapor olmayan Perşembe:
+  rapor günü, Perşembe değil: n=30 ort=68.7 bp t=0.59
+  Perşembe, rapor değil: n=15 ort=142.6 bp t=1.07
+  rapor günü Perşembe: n=484 ort=61.3 bp t=2.25
+
+Mevsim tanımları (C0 h1, net, 2500$):
+  Eki-Mar: n=261 net=91.2 t=2.35 IS=102.6 (2.05) OOS=78.5 (1.29) yıl+=0.55
+  Kas-Mar: n=216 net=100.5 t=2.24 IS=113.4 (1.97) OOS=85.5 (1.22) yıl+=0.64
+  Kas-Nis: n=259 net=89.2 t=2.26 IS=90.9 (1.81) OOS=87.3 (1.40) yıl+=0.64
+  Ara-Mar: n=173 net=76.7 t=1.64 IS=64.7 (1.19) OOS=89.9 (1.15) yıl+=0.73
+  Kas-Şub: n=172 net=117.4 t=2.23 IS=130.1 (1.89) OOS=102.1 (1.25) yıl+=0.64
+  Ara-Şub: n=129 net=91.1 t=1.60 IS=72.0 (1.06) OOS=113.1 (1.19) yıl+=0.64
+  Eki-Nis: n=304 net=82.9 t=2.36 IS=84.7 (1.90) OOS=81.0 (1.47) yıl+=0.64
+  Nis-Eki: n=306 net=3.1 t=0.10 IS=-21.4 (-0.61) OOS=27.6 (0.53) yıl+=0.50
+  tam yıl: n=522 net=43.4 t=1.65 IS=36.7 (1.14) OOS=50.5 (1.20) yıl+=0.82
+
+Ay ay (tam yıl rapor arifesi, KOLD brüt bp):
+m          1       2      3      4      5      6      7      8      9      10      11     12
+n       43.00   41.00  44.00  43.00  44.00  43.00  44.00  45.00  42.00  45.00   43.00  45.00
+ort_bp  97.15  186.25  50.24  48.51 -22.62  83.27 -12.99 -69.96  49.17  62.79  212.28  44.54
+t        0.97    2.31   0.65   0.63  -0.29   0.83  -0.14  -0.96   0.52   0.92    1.72   0.40
+
+Aynı günler, diğer ETF'ler (C0 h1):
+  UNG: n=216 brüt=-58.3 net=-81.0 t_brüt=-2.40 IS=-87.2 OOS=-73.8
+  BOIL: n=216 brüt=-119.3 net=-137.3 t_brüt=-2.68 IS=-149.3 OOS=-123.3
+  UNL: n=216 brüt=-33.8 net=-80.8 t_brüt=-2.32 IS=-84.9 OOS=-76.0
+
+KOLD~UNG yıllık beta: {2016: -1.81, 2017: -1.89, 2018: -1.93, 2019: -1.85, 2020: -1.75, 2021: -1.92, 2022: -1.88, 2023: -1.82, 2024: -1.64, 2025: -1.81, 2026: -1.88}

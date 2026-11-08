@@ -1,0 +1,111 @@
+tarama makasları: {'SBIT': 4.0, 'BITI': 8.0, 'IBIT': 2.3320895522388057, 'ETHA': 2.0, 'BITO': 9.92063492063492, 'BITX': 6.377551020408164, 'BLOK': 8.0, 'GBTC': 4.0, 'SPY': 1.0, 'QQQ': 1.0}
+
+=== 1) Yeniden üretim ===
+SBIT ajan tanımı (Çar sinyali, O1 h1)                   n= 133 brüt   100.2 net    84.2 t= 2.40 t_brüt= 2.85 kaz 0.48 PF 1.76 maxDD -0.307 en kötü -916 yıl+ 1.00 best5- 41.8 (t 1.36)
+ajan işlem listesiyle eşleşme: {'both': 133, 'left_only': 0, 'right_only': 0}  maks brüt farkı: 9.8879238130678e-17
+Ajan listesinde Perşembe OLMAYAN giriş günleri (tatil kayması): ['2024-07-05 Friday', '2024-11-29 Friday', '2025-01-10 Friday', '2025-06-20 Friday', '2025-11-28 Friday', '2025-12-26 Friday', '2026-01-02 Friday']
+SBIT gerçek Perşembe (açılış->kapanış)                  n= 129 brüt    95.5 net    79.5 t= 2.23 t_brüt= 2.68 kaz 0.48 PF 1.71 maxDD -0.307 en kötü -916 yıl+ 1.00 best5- 35.5 (t 1.15)
+
+=== 2) Maliyet duyarlılığı (gerçek Perşembe) ===
+SBIT Per maliyet 1000$ (34 bp)                          n= 129 brüt    95.5 net    61.5 t= 1.72 t_brüt= 2.68 kaz 0.45 PF 1.51 maxDD -0.348 en kötü -934 yıl+ 0.67 best5- 17.5 (t 0.57)
+SBIT Per maliyet 2500$ (16 bp)                          n= 129 brüt    95.5 net    79.5 t= 2.23 t_brüt= 2.68 kaz 0.48 PF 1.71 maxDD -0.307 en kötü -916 yıl+ 1.00 best5- 35.5 (t 1.15)
+SBIT Per maliyet 10000$ (7 bp)                          n= 129 brüt    95.5 net    88.5 t= 2.48 t_brüt= 2.68 kaz 0.50 PF 1.83 maxDD -0.285 en kötü -907 yıl+ 1.00 best5- 44.5 (t 1.44)
+
+=== 3) Mod sağlamlığı (SBIT) ===
+SBIT C0: Çar kapanış -> Per kapanış                     n= 133 brüt    90.3 net    74.3 t= 1.55 t_brüt= 1.89 kaz 0.59 PF 1.44 maxDD -0.317 en kötü -1748 yıl+ 0.67 best5- 21.2 (t 0.50)
+SBIT O1: Per açılış -> Per kapanış                      n= 133 brüt   100.2 net    84.2 t= 2.40 t_brüt= 2.85 kaz 0.48 PF 1.76 maxDD -0.307 en kötü -916 yıl+ 1.00 best5- 41.8 (t 1.36)
+SBIT C1: Per kapanış -> Cum kapanış                     n= 133 brüt   -60.9 net   -76.9 t=-1.53 t_brüt=-1.21 kaz 0.50 PF 0.71 maxDD -0.777 en kötü -2044 yıl+ 0.00 best5- -119.6 (t -2.47)
+SBIT Gece: Çar kapanış -> Per açılış                    n= 133 brüt    -8.8 net   -24.8 t=-0.71 t_brüt=-0.25 kaz 0.48 PF 0.85 maxDD -0.561 en kötü -1126 yıl+ 0.33 best5- -65.5 (t -2.16)
+
+=== 4) Yıl yıl ve alt dönemler (SBIT gerçek Perşembe) ===
+sig_date   2024   2025  2026
+mean      113.5  115.0  12.3
+count      37.0   48.0  44.0
+yarıyıl  2024H1  2024H2  2025H1  2025H2  2026H1  2026H2
+mean      -33.0   193.0    71.0   159.0    97.0   -99.0
+count      13.0    24.0    24.0    24.0    25.0    19.0
+Son 12 ay (2025-11-07+):
+SBIT Per son 12 ay                                      n=  49 brüt    81.8 net    65.8 t= 0.98 t_brüt= 1.22 kaz 0.43 PF 1.50 maxDD -0.307 en kötü -916 yıl+ 1.00 best5- -49.6 (t -1.03)
+2026:
+SBIT Per 2026                                           n=  44 brüt    28.3 net    12.3 t= 0.19 t_brüt= 0.45 kaz 0.39 PF 1.09 maxDD -0.307 en kötü -916 yıl+ 1.00 best5- -104.4 (t -2.63)
+
+=== 5) En büyük 5 kazanç (tarih tarih) ===
+  2026-02-05: SBIT gün içi    1605 bp | IBIT gün içi   -907 bp, IBIT açılış boşluğu   -450 bp | CPI günü: False | veri_kalitesi/düzeltme: ['SBIT']
+  2024-12-19: SBIT gün içi    1261 bp | IBIT gün içi   -597 bp, IBIT açılış boşluğu    178 bp | CPI günü: False | veri_kalitesi/düzeltme: []
+  2025-11-20: SBIT gün içi    1175 bp | IBIT gün içi   -559 bp, IBIT açılış boşluğu    223 bp | CPI günü: False | veri_kalitesi/düzeltme: []
+  2025-12-18: SBIT gün içi     976 bp | IBIT gün içi   -446 bp, IBIT açılış boşluğu    306 bp | CPI günü: True | veri_kalitesi/düzeltme: []
+  2024-11-14: SBIT gün içi     916 bp | IBIT gün içi   -435 bp, IBIT açılış boşluğu    186 bp | CPI günü: False | veri_kalitesi/düzeltme: []
+
+=== 6) SBIT açılış fiyatı tutarlılığı (IBIT'ten türetilen −2x gün içi ile) ===
+  Perşembe: n=129, korelasyon 0.9992, ort gerçek 95.5 bp, ort türetilmiş 97.9 bp, fark ort -2.4 bp (t=-1.64), |fark| medyan 11.7 bp
+  Tüm günler: fark ort -0.9 bp (t=-1.17)
+
+=== 7) Rastgele giriş permütasyonu (aynı sayıda rastgele gün, gün içi tutuş, 10.000 tekrar) ===
+  SBIT: gözlenen brüt 95.5 bp; rastgele ort 10.0 bp, %95 dilim 59.2 bp; tek yönlü p=0.0025; 5 gün seçimi için Bonferroni ×5 -> 0.013
+  Hafta içi etiket permütasyonu (her haftadan rastgele 1 gün): p=0.0018
+  5 günün EN İYİSİ (seçim düzeltmeli, hafta içi permütasyon): p=0.0116
+
+=== 8) Dayanak satırları: DOĞRU sıfır hipotezi (brüt; long maliyeti düşülmeden) ===
+                       seri                donem   n  per_brut_bp  t_brut  p_brut  diger_gun_bp  fark_t
+BTC 16:00ET (09:30 tahmini)                  tüm 172     -40.9735 -2.9466  0.0037        9.6424 -3.2733
+BTC 16:00ET (09:30 tahmini)             2023-06+ 172     -40.9735 -2.9466  0.0037        9.7183 -3.2764
+BTC 16:00ET (09:30 tahmini) SBIT dönemi 2024-04+ 129     -39.9808 -2.4410  0.0160        4.6518 -2.4751
+                ETH 16:00ET                  tüm 172     -49.1215 -2.8964  0.0043        0.2032 -2.5704
+                ETH 16:00ET             2023-06+ 172     -49.1215 -2.8964  0.0043        0.2377 -2.5706
+                ETH 16:00ET SBIT dönemi 2024-04+ 129     -61.4947 -3.0675  0.0026        0.1547 -2.7012
+                       IBIT                  tüm 141     -56.8181 -3.2591  0.0014        6.9491 -3.3153
+                       IBIT             2023-06+ 141     -56.8181 -3.2591  0.0014        6.9491 -3.3153
+                       IBIT SBIT dönemi 2024-04+ 129     -48.8741 -2.7409  0.0070        5.3665 -2.7651
+                       ETHA                  tüm 114     -80.6845 -3.3295  0.0012        1.7757 -3.0179
+                       ETHA             2023-06+ 114     -80.6845 -3.3295  0.0012        1.7757 -3.0179
+                       ETHA SBIT dönemi 2024-04+ 114     -80.6845 -3.3295  0.0012        1.7757 -3.0179
+                       BITO                  tüm 254     -30.7317 -2.1128  0.0356       -0.8079 -1.8692
+                       BITO             2023-06+ 172     -49.9981 -3.3425  0.0010        9.0459 -3.5424
+                       BITO SBIT dönemi 2024-04+ 129     -48.3139 -2.7342  0.0071        4.1647 -2.6935
+                       BITX                  tüm 168    -104.2567 -3.4203  0.0008       15.0794 -3.5252
+                       BITX             2023-06+ 168    -104.2567 -3.4203  0.0008       15.0794 -3.5252
+                       BITX SBIT dönemi 2024-04+ 129     -95.9863 -2.7052  0.0078       10.2457 -2.7127
+                       BLOK                  tüm 446     -19.9686 -2.0036  0.0457        2.8162 -2.0765
+                       BLOK             2023-06+ 172     -38.3164 -2.2334  0.0268       13.1422 -2.7225
+                       BLOK SBIT dönemi 2024-04+ 129     -39.6524 -1.9809  0.0497        8.2868 -2.1779
+                        SPY                  tüm 506      -0.3532 -0.0875  0.9303        2.4556 -0.6301
+                        SPY             2023-06+ 172     -12.3387 -2.0490  0.0420        5.5343 -2.6540
+                        SPY SBIT dönemi 2024-04+ 129     -16.1655 -2.2386  0.0269        4.7984 -2.5788
+                        QQQ                  tüm 506      -2.6981 -0.5069  0.6125        4.3115 -1.1956
+                        QQQ             2023-06+ 172     -20.9221 -2.4824  0.0140        6.5508 -2.9613
+                        QQQ SBIT dönemi 2024-04+ 129     -25.7205 -2.5340  0.0125        6.0237 -2.8352
+  Ajan fdr_tum: 6213 test, geçen 30; geçenlerin net_bp<0 olanı 24
+   S1 aile BTC_ET: ajan p(net)=0.000090
+   S1 aile IBIT: ajan p(net)=0.000072
+   S1 aile BITO: ajan p(net)=0.000233
+   S1 aile ETHA: ajan p(net)=0.000097
+   S1 aile BITX: ajan p(net)=0.000056
+   S1 aile BLOK: ajan p(net)=0.000082
+  Ajanın sweep hariç BH eşiği p<=0.000468; sweep dahil p<=0.000100.  Brüt p'ler yukarıdaki tabloda (2023-06+ satırları): BTC 16:00ET (09:30 tahmini) p=0.0037, ETH 16:00ET p=0.0043, IBIT p=0.0014, ETHA p=0.0012, BITO p=0.0010, BITX p=0.0008, BLOK p=0.0268, SPY p=0.0420, QQQ p=0.0140
+
+=== 9) Uzun geçmiş: SBIT öncesi ve 2023 öncesi Perşembe gün içi (brüt, long; negatif = ters ürün lehine) ===
+                        seri                  donem   n  per_bp     t  diger_bp  fark_t                                                                                                    yillik
+GBTC tröst (OTC, ABD seansı) 2019-01-17..2024-01-10 254  -20.67 -0.89     -8.26   -0.48                              {2019: -2.0, 2020: 16.0, 2021: -94.0, 2022: -14.0, 2023: -16.0, 2024: 307.0}
+                  ETHE tröst 2019-05-21..2024-07-22 263  -22.58 -0.60    -37.25    0.34                               {2019: -187.0, 2020: 17.0, 2021: -70.0, 2022: 1.0, 2023: 60.0, 2024: -27.0}
+                        BITO 2021-10-19..2024-04-01 125  -12.59 -0.54     -6.14   -0.25                                                      {2021: -65.0, 2022: 32.0, 2023: -23.0, 2024: -106.0}
+            BITI (ters, −1x) 2022-06-21..2024-04-01  91    0.26  0.01     -3.69    0.14                                                                   {2022: -104.0, 2023: 27.0, 2024: 112.0}
+BTC 16:00ET 2023-06..2024-03 2023-06-01..2024-04-01  43  -43.95 -1.67     25.74   -2.29                                                                                {2023: -24.0, 2024: -91.0}
+                  MSTR hisse 2020-08-11..2024-04-01 186  -15.89 -0.43     25.44   -1.01                                         {2020: -76.0, 2021: -28.0, 2022: 66.0, 2023: -40.0, 2024: -102.0}
+                  COIN hisse 2021-04-14..2024-04-01 152  -29.75 -0.65     27.64   -1.14                                                      {2021: -134.0, 2022: -2.0, 2023: 37.0, 2024: -102.0}
+                        BLOK 2018-01-17..2024-04-01 317  -11.96 -1.05      0.51   -0.99                    {2018: -12.0, 2019: 6.0, 2020: 15.0, 2021: -55.0, 2022: -1.0, 2023: -9.0, 2024: -71.0}
+                         QQQ 2016-11-07..2024-04-01 377    5.18  0.84      3.71    0.22 {2016: -46.0, 2017: -6.0, 2018: 4.0, 2019: 13.0, 2020: 8.0, 2021: 10.0, 2022: 7.0, 2023: 5.0, 2024: 10.0}
+  GBTC tröst gün içi ~ BTC 09:30-16:00 korelasyonu (2023-06..2024-01): 0.823 (n=154)
+  SBIT-eşdeğeri (−2×GBTC tröst gün içi, 16 bp) 2019-2023: n=254, net 25.3 bp, t=0.55; yıllık: {2019: -13.0, 2020: -48.0, 2021: 172.0, 2022: 12.0, 2023: 16.0, 2024: -630.0}
+
+=== 10) Hisse piyasası etkisi: IBIT ve BTC Perşembe gün içi ~ QQQ gün içi (2023-06+/2024-01+) ===
+  IBIT: Perşembe kukla (QQQ'suz) -63.8 bp; QQQ kontrollü -38.8 bp (t=-2.39); QQQ beta 0.89; QQQ Perşembe ort -22.6 bp
+  BTC 16:00ET: Perşembe kukla (QQQ'suz) -50.7 bp; QQQ kontrollü -29.9 bp (t=-2.17); QQQ beta 0.76; QQQ Perşembe ort -20.9 bp
+  SBIT: Perşembe kukla (QQQ'suz) 106.8 bp; QQQ kontrollü 50.3 bp (t=1.53); QQQ beta -1.78; QQQ Perşembe ort -25.7 bp
+
+=== 11) Perşembe CPI/PPI/olay günleri ve tatil kayması ===
+SBIT Per CPI hariç                                      n= 123 brüt    74.0 net    58.0 t= 1.63 t_brüt= 2.08 kaz 0.46 PF 1.50 maxDD -0.307 en kötü -916 yıl+ 1.00 best5- 12.0 (t 0.40)
+
+=== 12) BITI (−1x) gerçek Perşembe ===
+BITI Per tüm                                            n= 220 brüt    27.6 net     7.6 t= 0.52 t_brüt= 1.87 kaz 0.48 PF 1.10 maxDD -0.349 en kötü -751 yıl+ 0.60 best5- -6.6 (t -0.49)
+BITI Per SBIT öncesi                                    n=  91 brüt     0.3 net   -19.7 t=-0.79 t_brüt= 0.01 kaz 0.52 PF 0.79 maxDD -0.349 en kötü -751 yıl+ 0.67 best5- -47.4 (t -2.06)
+BITI Per SBIT dönemi                                    n= 129 brüt    47.0 net    27.0 t= 1.52 t_brüt= 2.64 kaz 0.46 PF 1.43 maxDD -0.203 en kötü -468 yıl+ 0.67 best5- 5.3 (t 0.34)

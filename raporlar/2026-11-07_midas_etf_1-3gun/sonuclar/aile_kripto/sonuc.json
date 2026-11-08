@@ -1,0 +1,690 @@
+{
+ "family": "kripto",
+ "ozet": "Kripto ailesi (16 ETF; bağımsız dayanak sayısı fiilen 2-3: BTC, ETH, kripto hisseleri). İstatistiksel güç düşük: spot ETF'ler 2024-01+ (≈700 gün), birebir 16:00 ET BTC serisi 2023-06+; uzun test BTC/ETH günlük UTC mumuyla (2016-11..2026-11, 3-4 saat zaman kayması) yapıldı. Toplam ~9273 test, BH-FDR q=0,10. KATI EŞİĞİ GÜVENLE GEÇEN STRATEJİ YOK. Biçimsel eşiği geçen iki DÜŞÜK güvenli aday: (S1) Perşembe gün içi ters BTC — SBIT'i Perşembe açılışında (TR 17:30) al, kapanışta sat: net 84 bp/işlem (t=2,40, n=133), dayanak satırları aile FDR'sini geçiyor, ama etki 2024-2025'e yoğun, öncesinde ≈0 ve 2026'da zayıf; (S2) BTC trend filtresi (kapanış>SMA10>SMA50) → IBIT 3 gün: BTC 10 yılda net 153 bp (t=3,4; IS 225 / OOS 58), ama FDR geçmiyor, kazanç çoğunlukla IS boğa piyasasından, IBIT döneminde t<1. Elenenler: IBIT 'gece primi' (maliyet sonrası ≈0), hafta sonu (takvim günü drift'i), haftalık momentum (OOS ≤0), ortalamaya dönüş, BTC→MSTR/COIN öncülüğü, ETF akımı (veri yok). İzleme: IBIT (kabul; Midas'ta yoksa GBTC — Midas'ta doğrulanmış), ETHA (kabul; yoksa ETHE — doğrulanmış), SBIT (kabul, S1 aracı), BITX/BITI/ETHU/FBTC yedek; BITO, BITB, ARKB, BITU, BLOK, MSTU, CONL red. Doğrulanmış gecikmeli öncü YOK; gerçek zamanlı izleme: COINBASE:BTCUSD (IBIT açılış boşluğunun %96'sını açıklar), CME:BTC1!, COINBASE:ETHUSD, CME_MINI:NQ1!. Kaldıraçlı long BTC/ETH ürünlerinde 2×'e göre ~8-12 bp/gün takip kaybı var.",
+ "izleme": [
+  {
+   "sym": "IBIT",
+   "karar": "kabul",
+   "gerekce": "Ana spot BTC aracı: medyan 2,0 mlr$/gün, makas ~2 bp, gidiş-dönüş 14 bp (2.500$), maliyet/1g oynaklık 0,05. S2 burada; S1'in long karşılığı. Sürücü: BTC (corr 1,00). Midas'ta bulunurluğu 'muhtemel' (doğrulanmadı) — yoksa GBTC.",
+   "tv": "NASDAQ:IBIT",
+   "likidite_mn_usd": 2000.0,
+   "maliyet_bp": 14.3,
+   "vol_1d_bp": 281.0
+  },
+  {
+   "sym": "FBTC",
+   "karar": "yedek",
+   "gerekce": "IBIT kopyası (corr 0,9993, günlük takip farkı 11 bp); 291 mn$/gün, maliyet 14 bp. Bağımsız kanıt değil; IBIT yoksa kullanılabilir.",
+   "tv": "CBOE:FBTC",
+   "likidite_mn_usd": 291.5,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 281.0
+  },
+  {
+   "sym": "GBTC",
+   "karar": "yedek",
+   "gerekce": "IBIT kopyası (corr 0,9992); 136 mn$/gün, makas ~4 bp (16 bp). Midas'ta sembol sayfası DOĞRULANMIŞ tek spot BTC ETF'si → IBIT/FBTC yoksa birinci seçenek. Yüksek yönetim ücreti 1-3 günde önemsiz.",
+   "tv": "AMEX:GBTC",
+   "likidite_mn_usd": 136.0,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 281.0
+  },
+  {
+   "sym": "BITB",
+   "karar": "red",
+   "gerekce": "IBIT kopyası (corr 0,9998), daha az likit (70 mn$), makas ~4 bp. IBIT/FBTC/GBTC varken gereksiz.",
+   "tv": "AMEX:BITB",
+   "likidite_mn_usd": 69.5,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 280.0
+  },
+  {
+   "sym": "ARKB",
+   "karar": "red",
+   "gerekce": "IBIT kopyası (corr 0,9997), 61 mn$/gün, makas ~4 bp. Gereksiz.",
+   "tv": "CBOE:ARKB",
+   "likidite_mn_usd": 61.4,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 280.0
+  },
+  {
+   "sym": "BITO",
+   "karar": "red",
+   "gerekce": "BTC vadeli ETF: veri kaynağında dağıtım kaydı YOK (ay başı açılışlarda IBIT'e göre ort. −295 bp boşluk = ex-date) → testler aşağı yanlı; yüksek aylık dağıtımlar ABD'de %20 stopaja tabi (ex-date taşımak vergi sızıntısı); vadeli roll maliyeti; fiyat ~10$ → 1 sent makas ~10 bp (22 bp). Spot ETF'ler varken gereksiz.",
+   "tv": "AMEX:BITO",
+   "likidite_mn_usd": 874.8,
+   "maliyet_bp": 21.9,
+   "vol_1d_bp": 288.0
+  },
+  {
+   "sym": "ETHA",
+   "karar": "kabul",
+   "gerekce": "Ana spot ETH aracı: 553 mn$/gün, makas ~2 bp (14 bp), maliyet/oynaklık 0,036. BTC'den kısmen ayrışır (corr 0,83-0,93). S2 aile versiyonu (ETH_D'de FDR geçti; ETHA'da zayıf). Midas'ta 'muhtemel'.",
+   "tv": "NASDAQ:ETHA",
+   "likidite_mn_usd": 553.2,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 384.0
+  },
+  {
+   "sym": "ETHE",
+   "karar": "yedek",
+   "gerekce": "ETHA kopyası (corr 0,9997); 50 mn$/gün, makas ~6 bp (18 bp). Midas'ta sembol sayfası DOĞRULANMIŞ → ETHA yoksa kullan.",
+   "tv": "AMEX:ETHE",
+   "likidite_mn_usd": 50.2,
+   "maliyet_bp": 17.6,
+   "vol_1d_bp": 381.0
+  },
+  {
+   "sym": "BITX",
+   "karar": "yedek",
+   "gerekce": "2x BTC (172 mn$/gün, 18 bp). Dayanak sinyaliyle kaldıraçlı araç; ama 2×IBIT'e göre takip kaybı −11,5 bp/gün (t=−8,7; 3 günde −37 bp). Kaldıraçlı/ters ürünlerin Midas'ta bulunurluğu doğrulanmadı.",
+   "tv": "CBOE:BITX",
+   "likidite_mn_usd": 172.1,
+   "maliyet_bp": 18.4,
+   "vol_1d_bp": 559.0
+  },
+  {
+   "sym": "BITU",
+   "karar": "red",
+   "gerekce": "BITX kopyası (corr 0,987), daha az likit (59 mn$), takip kaybı −11 bp/gün; 24.12.2025'te 2×IBIT'e göre −21 puan açıklanamayan fark (dağıtım/veri). BITX tercih.",
+   "tv": "AMEX:BITU",
+   "likidite_mn_usd": 59.0,
+   "maliyet_bp": 20.2,
+   "vol_1d_bp": 576.0
+  },
+  {
+   "sym": "BITI",
+   "karar": "yedek",
+   "gerekce": "−1x BTC (38 mn$/gün, makas ~8 bp, 20 bp). Long-only hesapta kısa BTC aracı; S1'in düşük riskli alternatifi (net kenar küçük ~8 bp). Ay başlarında açıklanamayan −5 puanlık farklar (dağıtım kaydı eksik olabilir).",
+   "tv": "AMEX:BITI",
+   "likidite_mn_usd": 38.0,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 288.0
+  },
+  {
+   "sym": "SBIT",
+   "karar": "kabul",
+   "gerekce": "−2x BTC (57 mn$/gün, makas ~4 bp, 16 bp; maliyet/oynaklık 0,028). S1 (Perşembe gün içi, düşük güven) aracı. ProShares Trust II PTP listesinde değil. Uyarı: günlük sıfırlamalı −2x; gece taşımada yol bağımlılığı; Midas'ta bulunurluğu doğrulanmadı.",
+   "tv": "AMEX:SBIT",
+   "likidite_mn_usd": 56.7,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 562.0
+  },
+  {
+   "sym": "ETHU",
+   "karar": "yedek",
+   "gerekce": "2x ETH (144 mn$/gün, 17 bp); 2×ETHA'ya göre takip kaybı −7,9 bp/gün. Kendi stratejisi yok; ETH sinyali için kaldıraçlı araç. Günlük oynaklık 767 bp (en kötü gün −28%).",
+   "tv": "CBOE:ETHU",
+   "likidite_mn_usd": 143.9,
+   "maliyet_bp": 17.0,
+   "vol_1d_bp": 767.0
+  },
+  {
+   "sym": "BLOK",
+   "karar": "red",
+   "gerekce": "Blokzincir hisse ETF'si: 14 mn$/gün (sınırda), makas ~8 bp (20 bp), maliyet/oynaklık 0,077 (ailede en kötü). Kendi stratejisi yok; BTC ile eşzamanlı (corr 0,73), gecikmeli öncü yok. BTC/ETH'yi IBIT/ETHA ile işlemek daha ucuz.",
+   "tv": "AMEX:BLOK",
+   "likidite_mn_usd": 14.3,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 260.0
+  },
+  {
+   "sym": "MSTU",
+   "karar": "red",
+   "gerekce": "2x MSTR: 176 mn$/gün ama günlük oynaklık 1.026 bp, en kötü gün −34%, 1 yıl −89%; 2×MSTR'ye göre takip kaybı −15 bp/gün. BTC'den MSTR'ye ertesi gün öncülük yok (t=−1,0; TH06). 1-3 günlük kurallarda kenar yok (S2: −303 bp). Tek hisse kaldıraçlı ailesinde değerlendirilir.",
+   "tv": "CBOE:MSTU",
+   "likidite_mn_usd": 176.0,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 1026.0
+  },
+  {
+   "sym": "CONL",
+   "karar": "red",
+   "gerekce": "2x COIN: fiyat 2,79$ → 1 sentlik adım ~36 bp makas (48 bp gidiş-dönüş); 1 yıl −90%; 2022 verisinde dayanakla tutarsız günler. İşlenebilir değil.",
+   "tv": "NASDAQ:CONL",
+   "likidite_mn_usd": 111.0,
+   "maliyet_bp": 47.8,
+   "vol_1d_bp": 906.0
+  }
+ ],
+ "stratejiler": [
+  {
+   "id": "kripto_S1",
+   "ad": "Perşembe gün içi ters BTC — SBIT (−2x) Perşembe açılış → aynı gün kapanış",
+   "kural": "Takvim kuralı, gösterge yok: her Perşembe (NYSE tam gün açıksa) AMEX:SBIT (ProShares UltraShort Bitcoin, −2x günlük) ABD açılışında AL, aynı gün kapanıştan önce SAT; pozisyon gece taşınmaz. Sinyal ETF'si yok (gün seçimi); izleme için NASDAQ:IBIT / COINBASE:BTCUSD. Alternatif −1x araç AMEX:BITI (net kenar küçük: 2.500$'da ~8 bp). Perşembe tatilse (26 Kas 2026 Şükran Günü) işlem yok. Pine (günlük): sig = dayofweek == dayofweek.thursday; giriş open, çıkış close.",
+   "giris": "Perşembe ABD açılışı: kış saatinde TR 17:30 (yaz saatinde TR 16:30). Açılıştan hemen sonra piyasa emri veya makasın hemen üstünde limit emir. Pre-market (TR 12:00-17:30) yalnız limit emir; piyasa kapalıyken verilen piyasa emri %3 bloke ile açılışta işler.",
+   "tutus": "Gün içi (~6,5 saat), 1 işlem günü",
+   "cikis": "Aynı Perşembe kapanıştan 5-10 dk önce (kış TR ~23:50, yaz ~22:50) piyasa/agresif limit satış (Midas'ta MOC/LOC yok). 24 Ara 2026 Perşembe erken kapanış 13:00 ET = TR 21:00 → çıkış TR ~20:50. Zarar durdur test edilmedi.",
+   "islem_etf": [
+    "SBIT",
+    "BITI"
+   ],
+   "sinyal_etf": "Takvim (Perşembe); dayanak BTC — izleme NASDAQ:IBIT / COINBASE:BTCUSD",
+   "n": 133,
+   "brut_bp": 100.2,
+   "net_bp": 84.2,
+   "kazanma": 0.481,
+   "pf": 1.76,
+   "t": 2.4,
+   "is_net_bp": 9.2,
+   "oos_net_bp": 84.2,
+   "yil_pozitif": 1.0,
+   "maxdd": -0.307,
+   "en_kotu_bp": -916.0,
+   "maliyet_duyarlilik": "1.000$: 66 bp | 2.500$: 84 bp | 10.000$: 93 bp (net, işlem başı; SBIT makası ~4 bp)",
+   "mod_saglamlik": "O1 (asıl; Per açılış→Per kapanış): brüt 100 / net 84 bp, t=2.40; C0 (Çar kapanış→Per kapanış, Çarşamba gecesini de taşır): brüt 90 / net 74, t=1.55; C1 (Per kapanış→Cum kapanış): brüt −61 / net −77, t=−1.53 → etki yalnız Perşembe ABD seansında; açılış girişine bağımlı (kapanışa bağımlı değil).",
+   "aile_ici": "Long ürünlerde Perşembe gün içi BRÜT getiri (negatif = ters ürün lehine): BTC 16:00 ET serisi −40 bp (t=−4.01, n=177), IBIT −55 (t=−4.09), BITO 2021-10+ −31 (t=−3.73), BITX −105, ETHA −83 (t=−4.04), MSTU −177, CONL −71, BLOK 2018+ −19 (2016-2021: −12, 2023-06+: −38); SPY/QQQ'da da 2023-06+ döneminde Perşembe gün içi brüt −12/−21 bp (2016-2023 arası pozitif) → kriptoya özgü değil, dönemsel risk iştahı deseni. Ters araçlar: SBIT net +84 (t=2.40), BITI net +8 (t=0.58; 2022-06..2024-03 −20, 2024-04+ +27). SBIT'te diğer hafta günleri gün içi net −17..−40 bp (yalnız Perşembe pozitif).",
+   "test_sayisi": 9273,
+   "fdr": "BH-FDR q=0,10. Tüm aile testleri (9273: genel kütüphane 4.752 aile satırı + dayanak proxy 990 + hipotez 352 + lead-lag 104 + aday 60 + leadlag_sweep 3.060) üzerinde eşik p≤0,00010; sweep hariç 6213 testte eşik p≤0,00047. SBIT satırı p=0,018 → GEÇMEDİ. Dayanak satırları GEÇTİ: BTC 16:00 ET Perşembe gün içi (p=0,00009-0,00010), BITO (p=0,00007), IBIT, ETHA, BITX (p<0,0001).",
+   "guven": "dusuk",
+   "notlar": "Biçimsel eşiği geçiyor ama güven düşük: (1) Etki 2024-2025'te yoğun: SBIT yıllık net 2024 +105, 2025 +131, 2026 +12 bp (zayıflıyor). (2) SBIT öncesi dönem (BITO 2021-10..2024-03, n=125): Perşembe gün içi −12,6 bp (t=−0,5) → SBIT-eşdeğeri net yalnız +9 bp (is_net_bp alanı bu değer; resmî IS ≤2021'de yalnız 10 Perşembe var); 2022'de ters işaret (BITO +32 bp); BITI 2022-06..2024-03 net −20 bp. (3) En iyi 5 işlem çıkarılınca net +42 bp (t=1,36), medyan −5 bp: kazanç birkaç büyük düşüş Perşembesinden. (4) Mekanizma bilinmiyor; 5 gün × seans seçimi veri madenciliği riski (FDR dayanakta geçiyor, ETF satırında geçmiyor). (5) SPY/QQQ'da da aynı dönemde Perşembe gün içi zayıf → geniş risk iştahı deseni. (6) CPI'lı Perşembeler (ör. 10 Ara 2026) çok oynak (IBIT gün içi ort. −290 bp, n=7); CPI günleri hariç net 64 bp (t=1,81). (7) SBIT/BITI'nin Midas'ta bulunurluğu doğrulanmadı; ProShares Trust II PTP bildiriminde (26.02.2026) yer almıyor → PTP/K-1 görünmüyor; uygulamada 'PTP' ibaresini kontrol et. Öneri: küçük pozisyon, 2026 Q4-2027 Q1 canlı izleme; 12 işlemde ortalama ≤0 ise bırak. Yılda ~50 işlem; ~%48 kazanma, PF 1,76.",
+   "betik": "python3 -I /home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_kripto/05_adaylar.py  (önce 02, 03, 04; işlemler: /home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/aday_kripto_S1_islemler.csv)"
+  },
+  {
+   "id": "kripto_S2",
+   "ad": "BTC trend filtresi (kapanış > SMA10 > SMA50) → IBIT 3 gün long",
+   "kural": "TradingView günlük grafik NASDAQ:IBIT (ETH için NASDAQ:ETHA kendi grafiği). SİNYAL (t kapanışı): kapanış > SMA(10) VE SMA(10) > SMA(50). İŞLEM: NASDAQ:IBIT long (Midas'ta IBIT yoksa AMEX:GBTC — sembol sayfası doğrulanmış — veya CBOE:FBTC). 3 işlem günü tut; pozisyondayken yeni sinyal yok sayılır, çıkış günü koşul sürüyorsa yeniden girilebilir. COINBASE:BTCUSD günlük mumunu sinyal için KULLANMA (00:00 UTC = TR 03:00'te kapanır, ABD kapanışında bilinmez); BTC ile hesaplanacaksa 16:00 ET (kış TR 00:00) anlık fiyatı kullan. Pine: c=close; sig = c > ta.sma(c,10) and ta.sma(c,10) > ta.sma(c,50)",
+   "giris": "C0: t günü kapanıştan 5-10 dk önce (kış TR ~23:50, yaz ~22:50) koşul sağlanıyorsa piyasa/agresif limit alış; alternatif: kapanış sonrası after-hours (kış TR 00:00-04:00, yaz 23:00-03:00) yalnız limit emir. O1 (t+1 açılış TR 17:30) ve C1 (t+1 kapanış) dayanakta pozitif, ETF döneminde zayıf.",
+   "tutus": "3 işlem günü",
+   "cikis": "Girişten 3 işlem günü sonra kapanıştan 5-10 dk önce (kış TR ~23:50, yaz ~22:50) sat. Erken çıkış/stop yok (test edilmedi).",
+   "islem_etf": [
+    "IBIT",
+    "GBTC",
+    "FBTC",
+    "ETHA"
+   ],
+   "sinyal_etf": "IBIT (kendi günlük kapanışı) veya BTC 16:00 ET fiyatı; ETH için ETHA",
+   "n": 317,
+   "brut_bp": 167.1,
+   "net_bp": 152.8,
+   "kazanma": 0.539,
+   "pf": 1.74,
+   "t": 3.42,
+   "is_net_bp": 225.0,
+   "oos_net_bp": 58.0,
+   "yil_pozitif": 0.7,
+   "maxdd": -0.577,
+   "en_kotu_bp": -2498.0,
+   "maliyet_duyarlilik": "Dayanak BTC_D (IBIT maliyeti): 1.000$ 135 | 2.500$ 153 | 10.000$ 162 bp; IBIT 2024+ (BTC 16:00 ET sinyali): 1.000$ 26 | 2.500$ 44 | 10.000$ 53 bp",
+   "mod_saglamlik": "BTC_D 2016-11..2026-11: C0 net 153 (t=3.42), C1 net 135 (t=2.75; IS 220 / OOS 26); BTC 16:00 ET 2023-08+: C0 67 (t=1.36), O1 44, C1 49; IBIT kendi grafiği: C0 30 (t=0.57), O1 36, C1 −42; IBIT←BTC 16:00 ET: C0 44, O1 17, C1 1 bp (net).",
+   "aile_ici": "ETH_D C0 net 261 (t=3.70; IS 433 / OOS 30; FDR geçti), ETHA kendi C0 64, ETHU 25, BITX (BTC sinyali) 97 (t=0.98), BLOK 2018+ 41 (t=1.83; IS 48 / OOS 35), MSTU −303, CONL 149, BITO −2 (dağıtım verisi eksik). Momentum ailesinin diğer kuralları (20 gün zirvesi, RSI2>90, 3 gün yükseliş, z1>2) BTC_D ve ETH_D'de IS ve OOS kenarı (koşulsuz aynı tutuşun üstü) pozitif — aile tutarlı, ama OOS kenarı 12-43 bp.",
+   "test_sayisi": 9273,
+   "fdr": "BTC_D C0 p=0,0007 → GEÇMEDİ (eşik p≤0,00047; sweep dahil p≤0,00010). Aynı kural ETH_D C0'da p=0,00025 → kendi testlerimde GEÇTİ (sweep dahil eşikte geçmiyor).",
+   "guven": "dusuk",
+   "notlar": "Biçimsel eşik dayanak uzun testinde geçiyor (t≥2, IS ve OOS>0, yılların %70'i +, n=317, C1'de de pozitif); ETF döneminde zayıf. Komşu parametreler (SMA 5/50, 10/30, 20/50, 10/100) BTC_D'de benzer (t 3,4-4,2; OOS 41-58 bp) — parametre seçimine duyarlı değil. Ancak: (1) Kazancın çoğu IS boğa piyasası (IS net 225 / kenar 107 bp; OOS net 58 bp t=1,26, kenar 44 bp). (2) Ayı yıllarında kaybeder (yıllık ort. 2018 −444, 2022 −277 bp/işlem). (3) IBIT'te (2024-01..2026-11) C0 +30-44 bp, t<1; C1 ~0/negatif. (4) BTC_D'de sinyal 00:00 UTC kapanışından (16:00 ET'den 3-4 saat sonra) — kendi içinde ileri bakışsız ama ETF zamanlamasıyla birebir değil; birebir 16:00 ET serisi yalnız 3,4 yıl. (5) Kenarın bir kısmı BTC'nin pozitif drift'i: strateji 'trend varken long BTC' — ayı piyasasında da sinyal üretir. (6) Kaldıraçlı araç (BITX) kullanılırsa 2×IBIT'e göre takip kaybı ~−12 bp/gün (3 günde −37 bp). Yılda ~30 işlem; pozisyonda olma oranı ~%40. Hafta sonu riskini (Cuma→Pazartesi boşluğu) taşır.",
+   "betik": "python3 -I /home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_kripto/05_adaylar.py  (işlemler: /home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/aday_kripto_S2_islemler.csv)"
+  }
+ ],
+ "elenen": [
+  {
+   "ad": "KR01 IBIT gece (kapanışta al, açılışta sat)",
+   "neden": "IBIT gece ort. +16,5 bp (t=1,89), gün içi −5 bp; ama her gece işlem → 2.500$'da net +2 bp (t=0,25); 10.000$'da +11 bp (t≈1). Kopyalarda aynı. 'Gece +%165' gözlemi doğru, işlem maliyetinden sonra kenar yok."
+  },
+  {
+   "ad": "KR05 kış/yaz gece farkı ve 21-23 UTC penceresi",
+   "neden": "IBIT kış gecesi brüt 28 bp vs yaz 11 bp (ikisi de t<1,7; net ≤14 bp). BTC 21-23 UTC penceresi ort. +6,4 bp (t=3,4, n=1.263) ama 14 bp maliyetin altında; 2026'da −0,5 bp."
+  },
+  {
+   "ad": "KR02 hafta sonu (Cuma kapanış → Pazartesi kapanış)",
+   "neden": "BTC_D net 55 bp (t=2,28; IS 87 / OOS 22), IBIT 30 bp (t=0,93). Ama takvim günü başına getiri hafta sonu ile hafta içi arasında farksız (fark t=0,5-0,9): 'etki' 3 takvim günü BTC drift'i, anomali değil."
+  },
+  {
+   "ad": "KR03 spot BTC ETF akımı ≥ +500 mn$",
+   "neden": "Akım verisi projede yok → test edilemedi (literatür: ertesi gün korelasyonu ~0,09)."
+  },
+  {
+   "ad": "KR04 haftalık momentum (g7 üst %20, 3 gün)",
+   "neden": "BTC_D C0 net 175 bp ama OOS −5 bp (kenar −21); BTC 16:00 ET ve IBIT'te negatif (IBIT C0 −48 bp)."
+  },
+  {
+   "ad": "KR06 kaldıraçlı BTC/ETH tutuşu",
+   "neden": "Strateji değil, maliyet: BITX−2×IBIT −11,5 bp/gün (t=−8,7), 3 günde −37 bp; BITU −11,4; ETHU −7,9; SBIT +3, BITI ~0. Kaldıraçlı long ürün, dayanak sinyalinin kenarı >~40 bp/3 gün değilse anlamsız."
+  },
+  {
+   "ad": "BTC 1 günlük z > +2 → 3 gün (momentum)",
+   "neden": "Yön tutarlı (BTC_D C0/C1 net ~150 bp, IS ve OOS > 0; BTC 16:00 ET ve IBIT'te üç modda da pozitif) ama t=1,8-1,9 (BTC_D), ETF'de n=16-23 → eşik altı. İzlemeye değer."
+  },
+  {
+   "ad": "BTC 1 günlük z < −2 (dönüş) ve 3 gün düşüş",
+   "neden": "z<−2 yalnız C0 h=1'de pozitif (kapanışa bağımlı; O1/C1 ~0 veya negatif). 3 gün düşüş: kenar ≈ 0 (BTC_D, BTC 16:00 ET, IBIT)."
+  },
+  {
+   "ad": "20 gün zirve kırılımı / 20 gün dip",
+   "neden": "Zirve: BTC_D C0 h3 net 175 (IS 293 / OOS 28; OOS kenar 13), IBIT C1 −28 bp. Dip: kenar negatif/≈0."
+  },
+  {
+   "ad": "Perşembe kapanış → Pazartesi kapanış / Cuma etkisi",
+   "neden": "BTC_D ve ETH_D'de IS/OOS kenarı pozitif ama tutuş 4 takvim günü → drift; IBIT t<1."
+  },
+  {
+   "ad": "Ay sonu BTC zayıflığı (sondan 2 gün)",
+   "neden": "BTC 16:00 ET'de O1 h2 −142 bp (FDR geçti) ama uzun BTC_D'de aynı pencere IS'te güçlü pozitif → 2023-2026'ya özgü; aday değil."
+  },
+  {
+   "ad": "TH06 BTC → MSTR/MSTU, COIN/CONL ertesi gün; yetişme kuralları",
+   "neden": "Kendi gecikmesi kontrollü t: MSTR −0,98, COIN −1,14, MSTU −0,17; yetişme kuralları (u≥+2σ) n=7-27, t<1,2. Öncülük yok (literatürle uyumlu)."
+  },
+  {
+   "ad": "BTC gece hareketi → IBIT gün içi devamı",
+   "neden": "Eğim 0,06 (t=0,9); kural: IBIT +29 bp (t=1,4), SBIT +48 bp (t=1,1) — anlamsız."
+  },
+  {
+   "ad": "BLOK ← reel faiz (DFII10 düşüşü) / TIP",
+   "neden": "Sweep'te IS/OOS aynı işaret (h3 t≈3) ama FDR yok; kural: C0 net 55 (t=2,05) yalnız kapanışa bağımlı ve DFII10 kapanışta bilinmiyor; O1 IS −1 bp, C1 −6 bp. Kriptoya özgü değil."
+  },
+  {
+   "ad": "Genel kütüphane: ortalamaya dönüş (RSI2, IBS, BB, 3 gün düşüş, 5 gün dip)",
+   "neden": "BTC/ETH'de kenar yok ya da yalnız C0 h=1'de (kapanışa bağımlı); IBIT/ETHA'da net negatif ağırlıklı."
+  },
+  {
+   "ad": "Genel kütüphane: VIX rejimi (backwardation, VIX sıçraması)",
+   "neden": "VX_backwardation C1 h1 BTC_D IS/OOS kenarı pozitif (n=112, t=2,1) ama tek koşullu rejim, ETF'de t=1,7 ve n küçük; VIX 16:15 ET kapanır. Eşik altı."
+  },
+  {
+   "ad": "BITO / BITX / BITI ay başı-ay sonu takvim satırları",
+   "neden": "FDR geçen 'negatif' satırlar (BITO CA_ay_sonu_3 vb.) veri artefaktı: BITO dağıtımları veri kaynağında yok (ex-date boşlukları)."
+  },
+  {
+   "ad": "MSTU, CONL, BLOK ürün düzeyinde",
+   "neden": "MSTU: aşırı oynaklık/kaldıraç kaybı, kenar yok; CONL: 2,79$ fiyat → ~48 bp maliyet; BLOK: 14 mn$/gün, maliyet/oynaklık en kötü."
+  }
+ ],
+ "leadlag": [
+  {
+   "sym": "IBIT",
+   "suruculer": [
+    {
+     "ad": "BTC/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:BTCUSD",
+     "corr_1y": 1.0,
+     "beta_1y": 1.01
+    },
+    {
+     "ad": "ETH/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:ETHUSD",
+     "corr_1y": 0.92,
+     "beta_1y": 0.68
+    },
+    {
+     "ad": "Nasdaq-100 (QQQ)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.49,
+     "beta_1y": 1.03
+    },
+    {
+     "ad": "VIX (log değişim)",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.46,
+     "beta_1y": -0.16
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Bitcoin spot (Coinbase)",
+     "tv": "COINBASE:BTCUSD",
+     "neden": "7/24 işler. ETF kapalıyken (TR 00:00-17:30, kış) BTC'nin 16:00 ET'den sonraki hareketi ertesi açılış boşluğunu belirler: IBIT açılış boşluğu ≈ BTC 16:00→09:30 ET hareketi (R²=0,96, eğim 1,00; Pazartesi R²=0,98 = hafta sonu hareketi). Öncü değil, açılışı önceden gösteren izleme aracı."
+    },
+    {
+     "ad": "CME Bitcoin vadeli (ön ay)",
+     "tv": "CME:BTC1!",
+     "neden": "CME Globex Pazar-Cuma (kış: TR 02:00 → ertesi gün 01:00, günlük 1 saat ara); hafta sonu kapalı → Pazartesi 'CME boşluğu'. Kurumsal akış/baz (vadeli primi) göstergesi."
+    },
+    {
+     "ad": "Ethereum spot (Coinbase)",
+     "tv": "COINBASE:ETHUSD",
+     "neden": "7/24; kripto risk iştahı (IBIT ile corr 0,92)."
+    },
+    {
+     "ad": "Nasdaq-100 E-mini vadeli",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "~23 saat işler; ABD hisse risk iştahı (IBIT-QQQ corr 0,49, beta 1,03). Makro haber (CPI/NFP TR 16:30) tepkisini açılış öncesi gösterir."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü YOK. leadlag_sweep'te ailenin 765 hedef×öncü satırında (3.060 test) global ve aile içi BH-FDR geçen 0. Ek testler (BTC/ETH 16:00 ET → hedef t+1/t+3, kendi gecikmesi kontrollü; 'yetişme' u=β60·r_BTC−r_T kendi getirisi kontrollü) hiçbiri |t|≥2 değil. Yetişme kuralları (u≥+2σ → long) maliyetli backtestte anlamsız. BTC gece hareketi → IBIT gün içi devamı: z≥+1'de IBIT O1 net +29 bp (t=1,40), z≤−1'de SBIT +48 bp (t=1,09) — anlamsız. Gün içi BTC ile korelasyon ~1 olduğundan 'sürücüler' eşzamanlıdır, öncü değildir.",
+   "takvim_riskleri": "TR saatiyle (ABD kış saati): CPI 10 Kas 2026 Sal 16:30; aylık opsiyon vadesi 20 Kas Cum; Şükran Günü 26 Kas Per KAPALI (S1 işlemi yok), 27 Kas Cum erken kapanış 21:00; NFP 4 Ara Cum 16:30; FOMC 9 Ara Çar 22:00 (SEP); CPI 10 Ara Per 16:30 (S1 günü — CPI'lı Perşembeler çok oynak); triple witching 18 Ara Cum; 24 Ara Per erken kapanış 21:00; 25 Ara ve 1 Oca kapalı. Kripto 7/24 işler: hafta sonu/tatil hareketi Pazartesi (tatil ertesi) açılışında boşluk olarak gelir. CME BTC/ETH vadeli aylık vadesi ayın son Cuması (kural; takvim dosyalarında yok, doğrulanmadı)."
+  },
+  {
+   "sym": "FBTC",
+   "suruculer": [
+    {
+     "ad": "BTC/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:BTCUSD",
+     "corr_1y": 1.0,
+     "beta_1y": 1.0
+    },
+    {
+     "ad": "IBIT",
+     "tv": "NASDAQ:IBIT",
+     "corr_1y": 1.0,
+     "beta_1y": 1.0
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Bitcoin spot (Coinbase)",
+     "tv": "COINBASE:BTCUSD",
+     "neden": "7/24 işler. ETF kapalıyken (TR 00:00-17:30, kış) BTC'nin 16:00 ET'den sonraki hareketi ertesi açılış boşluğunu belirler: IBIT açılış boşluğu ≈ BTC 16:00→09:30 ET hareketi (R²=0,96, eğim 1,00; Pazartesi R²=0,98 = hafta sonu hareketi). Öncü değil, açılışı önceden gösteren izleme aracı."
+    },
+    {
+     "ad": "CME Bitcoin vadeli (ön ay)",
+     "tv": "CME:BTC1!",
+     "neden": "CME Globex Pazar-Cuma (kış: TR 02:00 → ertesi gün 01:00, günlük 1 saat ara); hafta sonu kapalı → Pazartesi 'CME boşluğu'. Kurumsal akış/baz (vadeli primi) göstergesi."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü YOK (sweep FDR 0; ek testler |t|<2). Sürücüler eşzamanlıdır; ayrıntı IBIT/ETHA girdisinde. IBIT kopyası (corr ~0,999).",
+   "takvim_riskleri": "Bkz. IBIT girdisi: CPI 10 Kas 16:30; 26 Kas kapalı; NFP 4 Ara; FOMC 9 Ara 22:00; CPI 10 Ara (Per) 16:30; 24 Ara erken kapanış 21:00 (TR saati)."
+  },
+  {
+   "sym": "GBTC",
+   "suruculer": [
+    {
+     "ad": "BTC/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:BTCUSD",
+     "corr_1y": 1.0,
+     "beta_1y": 1.0
+    },
+    {
+     "ad": "IBIT",
+     "tv": "NASDAQ:IBIT",
+     "corr_1y": 1.0,
+     "beta_1y": 1.0
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Bitcoin spot (Coinbase)",
+     "tv": "COINBASE:BTCUSD",
+     "neden": "7/24 işler. ETF kapalıyken (TR 00:00-17:30, kış) BTC'nin 16:00 ET'den sonraki hareketi ertesi açılış boşluğunu belirler: IBIT açılış boşluğu ≈ BTC 16:00→09:30 ET hareketi (R²=0,96, eğim 1,00; Pazartesi R²=0,98 = hafta sonu hareketi). Öncü değil, açılışı önceden gösteren izleme aracı."
+    },
+    {
+     "ad": "CME Bitcoin vadeli (ön ay)",
+     "tv": "CME:BTC1!",
+     "neden": "CME Globex Pazar-Cuma (kış: TR 02:00 → ertesi gün 01:00, günlük 1 saat ara); hafta sonu kapalı → Pazartesi 'CME boşluğu'. Kurumsal akış/baz (vadeli primi) göstergesi."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü YOK (sweep FDR 0; ek testler |t|<2). Sürücüler eşzamanlıdır; ayrıntı IBIT/ETHA girdisinde. IBIT kopyası (corr ~0,999).",
+   "takvim_riskleri": "Bkz. IBIT girdisi: CPI 10 Kas 16:30; 26 Kas kapalı; NFP 4 Ara; FOMC 9 Ara 22:00; CPI 10 Ara (Per) 16:30; 24 Ara erken kapanış 21:00 (TR saati)."
+  },
+  {
+   "sym": "BITX",
+   "suruculer": [
+    {
+     "ad": "BTC/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:BTCUSD",
+     "corr_1y": 1.0,
+     "beta_1y": 2.01
+    },
+    {
+     "ad": "IBIT",
+     "tv": "NASDAQ:IBIT",
+     "corr_1y": 1.0,
+     "beta_1y": 2.0
+    },
+    {
+     "ad": "Nasdaq-100 (QQQ)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.49,
+     "beta_1y": 2.04
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Bitcoin spot (Coinbase)",
+     "tv": "COINBASE:BTCUSD",
+     "neden": "7/24 işler. ETF kapalıyken (TR 00:00-17:30, kış) BTC'nin 16:00 ET'den sonraki hareketi ertesi açılış boşluğunu belirler: IBIT açılış boşluğu ≈ BTC 16:00→09:30 ET hareketi (R²=0,96, eğim 1,00; Pazartesi R²=0,98 = hafta sonu hareketi). Öncü değil, açılışı önceden gösteren izleme aracı."
+    },
+    {
+     "ad": "CME Bitcoin vadeli (ön ay)",
+     "tv": "CME:BTC1!",
+     "neden": "CME Globex Pazar-Cuma (kış: TR 02:00 → ertesi gün 01:00, günlük 1 saat ara); hafta sonu kapalı → Pazartesi 'CME boşluğu'. Kurumsal akış/baz (vadeli primi) göstergesi."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü YOK (sweep FDR 0; ek testler |t|<2). Sürücüler eşzamanlıdır; ayrıntı IBIT/ETHA girdisinde. Kaldıraçlı: 2× dayanak getirisi eksi ~8-12 bp/gün takip kaybı; dayanak (IBIT/ETHA) sinyalleriyle işlem aracı.",
+   "takvim_riskleri": "Bkz. IBIT girdisi: CPI 10 Kas 16:30; 26 Kas kapalı; NFP 4 Ara; FOMC 9 Ara 22:00; CPI 10 Ara (Per) 16:30; 24 Ara erken kapanış 21:00 (TR saati)."
+  },
+  {
+   "sym": "BITI",
+   "suruculer": [
+    {
+     "ad": "BTC/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:BTCUSD",
+     "corr_1y": -0.98,
+     "beta_1y": -1.01
+    },
+    {
+     "ad": "IBIT",
+     "tv": "NASDAQ:IBIT",
+     "corr_1y": -0.98,
+     "beta_1y": -1.0
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Bitcoin spot (Coinbase)",
+     "tv": "COINBASE:BTCUSD",
+     "neden": "7/24 işler. ETF kapalıyken (TR 00:00-17:30, kış) BTC'nin 16:00 ET'den sonraki hareketi ertesi açılış boşluğunu belirler: IBIT açılış boşluğu ≈ BTC 16:00→09:30 ET hareketi (R²=0,96, eğim 1,00; Pazartesi R²=0,98 = hafta sonu hareketi). Öncü değil, açılışı önceden gösteren izleme aracı."
+    },
+    {
+     "ad": "CME Bitcoin vadeli (ön ay)",
+     "tv": "CME:BTC1!",
+     "neden": "CME Globex Pazar-Cuma (kış: TR 02:00 → ertesi gün 01:00, günlük 1 saat ara); hafta sonu kapalı → Pazartesi 'CME boşluğu'. Kurumsal akış/baz (vadeli primi) göstergesi."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü YOK (sweep FDR 0; ek testler |t|<2). Sürücüler eşzamanlıdır; ayrıntı IBIT/ETHA girdisinde. Ters ürün: dayanak düşüşünde kazanır; S1 aracı (SBIT) / düşük riskli alternatif (BITI).",
+   "takvim_riskleri": "Bkz. IBIT girdisi: CPI 10 Kas 16:30; 26 Kas kapalı; NFP 4 Ara; FOMC 9 Ara 22:00; CPI 10 Ara (Per) 16:30; 24 Ara erken kapanış 21:00 (TR saati)."
+  },
+  {
+   "sym": "SBIT",
+   "suruculer": [
+    {
+     "ad": "BTC/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:BTCUSD",
+     "corr_1y": -0.99,
+     "beta_1y": -2.01
+    },
+    {
+     "ad": "IBIT",
+     "tv": "NASDAQ:IBIT",
+     "corr_1y": -0.99,
+     "beta_1y": -2.0
+    },
+    {
+     "ad": "Nasdaq-100 (QQQ)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": -0.48,
+     "beta_1y": -2.04
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Bitcoin spot (Coinbase)",
+     "tv": "COINBASE:BTCUSD",
+     "neden": "7/24 işler. ETF kapalıyken (TR 00:00-17:30, kış) BTC'nin 16:00 ET'den sonraki hareketi ertesi açılış boşluğunu belirler: IBIT açılış boşluğu ≈ BTC 16:00→09:30 ET hareketi (R²=0,96, eğim 1,00; Pazartesi R²=0,98 = hafta sonu hareketi). Öncü değil, açılışı önceden gösteren izleme aracı."
+    },
+    {
+     "ad": "CME Bitcoin vadeli (ön ay)",
+     "tv": "CME:BTC1!",
+     "neden": "CME Globex Pazar-Cuma (kış: TR 02:00 → ertesi gün 01:00, günlük 1 saat ara); hafta sonu kapalı → Pazartesi 'CME boşluğu'. Kurumsal akış/baz (vadeli primi) göstergesi."
+    },
+    {
+     "ad": "Ethereum spot (Coinbase)",
+     "tv": "COINBASE:ETHUSD",
+     "neden": "7/24; kripto risk iştahı (IBIT ile corr 0,92)."
+    },
+    {
+     "ad": "Nasdaq-100 E-mini vadeli",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "~23 saat işler; ABD hisse risk iştahı (IBIT-QQQ corr 0,49, beta 1,03). Makro haber (CPI/NFP TR 16:30) tepkisini açılış öncesi gösterir."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü YOK. leadlag_sweep'te ailenin 765 hedef×öncü satırında (3.060 test) global ve aile içi BH-FDR geçen 0. Ek testler (BTC/ETH 16:00 ET → hedef t+1/t+3, kendi gecikmesi kontrollü; 'yetişme' u=β60·r_BTC−r_T kendi getirisi kontrollü) hiçbiri |t|≥2 değil. Yetişme kuralları (u≥+2σ → long) maliyetli backtestte anlamsız. BTC gece hareketi → IBIT gün içi devamı: z≥+1'de IBIT O1 net +29 bp (t=1,40), z≤−1'de SBIT +48 bp (t=1,09) — anlamsız. Gün içi BTC ile korelasyon ~1 olduğundan 'sürücüler' eşzamanlıdır, öncü değildir. Ters ürün: dayanak düşüşünde kazanır; S1 aracı (SBIT) / düşük riskli alternatif (BITI).",
+   "takvim_riskleri": "TR saatiyle (ABD kış saati): CPI 10 Kas 2026 Sal 16:30; aylık opsiyon vadesi 20 Kas Cum; Şükran Günü 26 Kas Per KAPALI (S1 işlemi yok), 27 Kas Cum erken kapanış 21:00; NFP 4 Ara Cum 16:30; FOMC 9 Ara Çar 22:00 (SEP); CPI 10 Ara Per 16:30 (S1 günü — CPI'lı Perşembeler çok oynak); triple witching 18 Ara Cum; 24 Ara Per erken kapanış 21:00; 25 Ara ve 1 Oca kapalı. Kripto 7/24 işler: hafta sonu/tatil hareketi Pazartesi (tatil ertesi) açılışında boşluk olarak gelir. CME BTC/ETH vadeli aylık vadesi ayın son Cuması (kural; takvim dosyalarında yok, doğrulanmadı)."
+  },
+  {
+   "sym": "ETHA",
+   "suruculer": [
+    {
+     "ad": "ETH/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:ETHUSD",
+     "corr_1y": 1.0,
+     "beta_1y": 1.01
+    },
+    {
+     "ad": "BTC/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:BTCUSD",
+     "corr_1y": 0.93,
+     "beta_1y": 1.27
+    },
+    {
+     "ad": "Nasdaq-100 (QQQ)",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.49,
+     "beta_1y": 1.4
+    },
+    {
+     "ad": "VIX (log değişim)",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.49,
+     "beta_1y": -0.23
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Ethereum spot (Coinbase)",
+     "tv": "COINBASE:ETHUSD",
+     "neden": "7/24; ETHA açılış boşluğunu belirleyen dayanak (ETF kapalıyken TR 00:00-17:30, kış)."
+    },
+    {
+     "ad": "CME Ether vadeli (ön ay)",
+     "tv": "CME:ETH1!",
+     "neden": "CME Globex Pazar-Cuma; hafta sonu kapalı; kurumsal akış/baz göstergesi."
+    },
+    {
+     "ad": "Bitcoin spot (Coinbase)",
+     "tv": "COINBASE:BTCUSD",
+     "neden": "Kripto piyasa faktörü (ETHA-BTC corr 0,93, beta 1,27)."
+    },
+    {
+     "ad": "Bitcoin hakimiyeti",
+     "tv": "CRYPTOCAP:BTC.D",
+     "neden": "ETH/BTC göreli gücü (altcoin risk iştahı); eşzamanlı bağlam, öncü değil."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü YOK. leadlag_sweep'te ailenin 765 hedef×öncü satırında (3.060 test) global ve aile içi BH-FDR geçen 0. Ek testler (BTC/ETH 16:00 ET → hedef t+1/t+3, kendi gecikmesi kontrollü; 'yetişme' u=β60·r_BTC−r_T kendi getirisi kontrollü) hiçbiri |t|≥2 değil. Yetişme kuralları (u≥+2σ → long) maliyetli backtestte anlamsız. BTC gece hareketi → IBIT gün içi devamı: z≥+1'de IBIT O1 net +29 bp (t=1,40), z≤−1'de SBIT +48 bp (t=1,09) — anlamsız. Gün içi BTC ile korelasyon ~1 olduğundan 'sürücüler' eşzamanlıdır, öncü değildir.",
+   "takvim_riskleri": "TR saatiyle (ABD kış saati): CPI 10 Kas 2026 Sal 16:30; aylık opsiyon vadesi 20 Kas Cum; Şükran Günü 26 Kas Per KAPALI (S1 işlemi yok), 27 Kas Cum erken kapanış 21:00; NFP 4 Ara Cum 16:30; FOMC 9 Ara Çar 22:00 (SEP); CPI 10 Ara Per 16:30 (S1 günü — CPI'lı Perşembeler çok oynak); triple witching 18 Ara Cum; 24 Ara Per erken kapanış 21:00; 25 Ara ve 1 Oca kapalı. Kripto 7/24 işler: hafta sonu/tatil hareketi Pazartesi (tatil ertesi) açılışında boşluk olarak gelir. CME BTC/ETH vadeli aylık vadesi ayın son Cuması (kural; takvim dosyalarında yok, doğrulanmadı)."
+  },
+  {
+   "sym": "ETHE",
+   "suruculer": [
+    {
+     "ad": "ETH/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:ETHUSD",
+     "corr_1y": 1.0,
+     "beta_1y": 1.0
+    },
+    {
+     "ad": "ETHA",
+     "tv": "NASDAQ:ETHA",
+     "corr_1y": 1.0,
+     "beta_1y": 0.99
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Ethereum spot (Coinbase)",
+     "tv": "COINBASE:ETHUSD",
+     "neden": "7/24; ETHA açılış boşluğunu belirleyen dayanak (ETF kapalıyken TR 00:00-17:30, kış)."
+    },
+    {
+     "ad": "CME Ether vadeli (ön ay)",
+     "tv": "CME:ETH1!",
+     "neden": "CME Globex Pazar-Cuma; hafta sonu kapalı; kurumsal akış/baz göstergesi."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü YOK (sweep FDR 0; ek testler |t|<2). Sürücüler eşzamanlıdır; ayrıntı IBIT/ETHA girdisinde. ETHA kopyası (corr 0,9997).",
+   "takvim_riskleri": "Bkz. IBIT girdisi: CPI 10 Kas 16:30; 26 Kas kapalı; NFP 4 Ara; FOMC 9 Ara 22:00; CPI 10 Ara (Per) 16:30; 24 Ara erken kapanış 21:00 (TR saati)."
+  },
+  {
+   "sym": "ETHU",
+   "suruculer": [
+    {
+     "ad": "ETH/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:ETHUSD",
+     "corr_1y": 1.0,
+     "beta_1y": 2.03
+    },
+    {
+     "ad": "ETHA",
+     "tv": "NASDAQ:ETHA",
+     "corr_1y": 1.0,
+     "beta_1y": 2.01
+    },
+    {
+     "ad": "BTC/USD (16:00 ET getirisi; eşzamanlı)",
+     "tv": "COINBASE:BTCUSD",
+     "corr_1y": 0.92,
+     "beta_1y": 2.56
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Ethereum spot (Coinbase)",
+     "tv": "COINBASE:ETHUSD",
+     "neden": "7/24; ETHA açılış boşluğunu belirleyen dayanak (ETF kapalıyken TR 00:00-17:30, kış)."
+    },
+    {
+     "ad": "CME Ether vadeli (ön ay)",
+     "tv": "CME:ETH1!",
+     "neden": "CME Globex Pazar-Cuma; hafta sonu kapalı; kurumsal akış/baz göstergesi."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü YOK (sweep FDR 0; ek testler |t|<2). Sürücüler eşzamanlıdır; ayrıntı IBIT/ETHA girdisinde. Kaldıraçlı: 2× dayanak getirisi eksi ~8-12 bp/gün takip kaybı; dayanak (IBIT/ETHA) sinyalleriyle işlem aracı.",
+   "takvim_riskleri": "Bkz. IBIT girdisi: CPI 10 Kas 16:30; 26 Kas kapalı; NFP 4 Ara; FOMC 9 Ara 22:00; CPI 10 Ara (Per) 16:30; 24 Ara erken kapanış 21:00 (TR saati)."
+  }
+ ],
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/notlar/aile_kripto.md",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/sonuc.json",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_kripto/kr.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_kripto/01_islenebilirlik.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_kripto/02_genel_aile.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_kripto/03_hipotezler.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_kripto/04_leadlag.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_kripto/05_adaylar.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_kripto/06_sonuc_json.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/islenebilirlik.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/kopya_korelasyon.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/genel_aile_satirlar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/genel_aile_tutarlilik.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/genel_dayanak_satirlar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/hipotez_testleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/gece_gunici.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/seans_getirileri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/ibit_bosluk_btc_gece.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/kaldirac_kaybi.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/persembe_gunici.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/leadlag_aile.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/leadlag_ek_testler.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/leadlag_kural_testleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/aday_detay.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/aday_kripto_S1_islemler.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/aday_kripto_S2_islemler.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/fdr_tum.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/02_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/03_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/04_log.txt",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_kripto/05_log.txt"
+ ],
+ "tv_dogrulanacak": [
+  "DERIBIT:DVOL (BTC örtük oynaklık endeksi; isteğe bağlı izleme, kod doğrulanmadı)"
+ ]
+}

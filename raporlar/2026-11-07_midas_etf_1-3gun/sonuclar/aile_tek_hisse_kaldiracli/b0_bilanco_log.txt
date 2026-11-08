@@ -1,0 +1,46 @@
+NVDA aday 45 bulunan 39 tahmini 0 cagri 0
+TSLA aday 45 bulunan 42 tahmini 24 cagri 53
+MSTR aday 45 bulunan 42 tahmini 29 cagri 101
+COIN aday 28 bulunan 24 tahmini 13 cagri 125
+AAPL aday 45 bulunan 41 tahmini 10 cagri 169
+AMZN aday 45 bulunan 40 tahmini 2 cagri 199
+META aday 45 bulunan 40 tahmini 3 cagri 239
+MSFT aday 45 bulunan 40 tahmini 4 cagri 269
+GOOGL aday 45 bulunan 40 tahmini 0 cagri 290
+sym    kaynak              
+AAPL   tahmini_hacim_bosluk    10
+       takvim                  25
+       takvim_pencere           6
+AMZN   tahmini_hacim_bosluk     2
+       takvim                  36
+       takvim_pencere           2
+COIN   tahmini_hacim_bosluk    13
+       takvim                  10
+       takvim_pencere           1
+GOOGL  takvim                  37
+       takvim_pencere           3
+META   tahmini_hacim_bosluk     3
+       takvim                  33
+       takvim_pencere           4
+MSFT   tahmini_hacim_bosluk     4
+       takvim                  32
+       takvim_pencere           4
+MSTR   tahmini_hacim_bosluk    29
+       takvim                  10
+       takvim_pencere           3
+NVDA   takvim                  39
+TSLA   tahmini_hacim_bosluk    24
+       takvim                  14
+       takvim_pencere           4
+dtype: int64
+date   2017  2018  2019  2020  2021  2022  2023  2024  2025  2026
+sym                                                              
+AAPL      4     4     4     4     5     4     4     4     4     4
+AMZN      4     4     4     4     4     4     4     4     4     4
+COIN      0     0     0     0     3     4     4     5     4     4
+GOOGL     4     4     4     4     4     4     4     4     4     4
+META      4     4     4     4     4     4     4     4     4     4
+MSFT      4     4     4     4     4     4     4     4     4     4
+MSTR      4     4     4     4     4     4     4     4     5     5
+NVDA      4     4     4     4     4     4     4     4     4     3
+TSLA      4     4     5     5     4     4     4     4     4     4

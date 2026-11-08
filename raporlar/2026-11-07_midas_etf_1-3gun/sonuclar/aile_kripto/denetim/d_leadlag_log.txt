@@ -1,0 +1,46 @@
+=== 1) leadlag_sweep aile satırları ===
+  satır 765, test 3060, global FDR bayrağı olan satır: 0
+  aile içi BH (q=0.10) yeniden: geçen 0; en küçük p=2.14e-03
+  IS/OOS aynı işaret ve |t|>=2 satırlar (IS'i olan hedefler; kripto ETF'lerinin çoğunda IS yok):
+hedef          oncu  h      t   t_is  t_oos  bp_per_sd  maliyet     p
+ BLOK           XLE h1 -2.046 -1.850 -0.761    -13.725     20.0 0.041
+ BLOK      DFII10_d h1 -2.050 -1.271 -1.529    -13.000     20.0 0.040
+ BLOK           IEF h3  2.033  1.020  1.966     21.396     20.0 0.042
+ BLOK           LQD h3  2.120  1.386  1.743     27.055     20.0 0.034
+ BLOK           TIP h3  3.022  2.750  2.107     40.898     20.0 0.003
+ BLOK        DGS2_d h3 -2.349 -0.871 -2.264    -22.918     20.0 0.019
+ BLOK      DFII10_d h3 -3.070 -2.104 -2.484    -35.808     20.0 0.002
+ BLOK EEM (yetişme) h3 -2.019 -1.799 -1.134    -21.987     20.0 0.043
+  IBIT: en büyük |lag_t_h1| LQD t=-2.24 (-29.4 bp/sd, p=0.0250); en büyük |catch_t_h1| DGS30_d t=2.31
+  ETHA: en büyük |lag_t_h1| TLT t=-1.55 (-29.4 bp/sd, p=0.1207); en büyük |catch_t_h1| FXI t=1.42
+  SBIT: en büyük |lag_t_h1| LQD t=2.40 (66.4 bp/sd, p=0.0162); en büyük |catch_t_h1| DGS30_d t=2.18
+  BITI: en büyük |lag_t_h1| DIA t=1.64 (21.9 bp/sd, p=0.1005); en büyük |catch_t_h1| DGS30_d t=2.32
+  BITX: en büyük |lag_t_h1| IBIT t=1.90 (761.2 bp/sd, p=0.0568); en büyük |catch_t_h1| DGS30_d t=2.52
+  ETHU: en büyük |lag_t_h1| ETHA t=1.84 (1369.5 bp/sd, p=0.0655); en büyük |catch_t_h1| ETHA t=1.71
+  GBTC: en büyük |lag_t_h1| IBIT t=2.68 (578.1 bp/sd, p=0.0074); en büyük |catch_t_h1| IBIT t=2.41
+  FBTC: en büyük |lag_t_h1| IBIT t=2.83 (649.4 bp/sd, p=0.0046); en büyük |catch_t_h1| IBIT t=2.69
+  ETHE: en büyük |lag_t_h1| TLT t=-1.47 (-27.7 bp/sd, p=0.1419); en büyük |catch_t_h1| FXI t=1.34
+
+=== 2) Bağımsız regresyon: r_T(t+1..t+h) = a + b r_L(t) + c r_T(t)  (NW, 2024+ ETF dönemi; BTC/ETH 16:00 ET) ===
+hedef       oncu  h   n  t_oncu  bp_per_sd  t_kendi  t_1yari  t_2yari     p  maliyet   fdr
+ ETHA DGS10_fark  1 570   1.806     40.489   -1.017    2.400   -0.563 0.071   14.000 False
+ ETHA DGS10_fark  3 568   2.132     80.371    0.319    2.496   -0.106 0.033   14.000 False
+ SBIT   BTC_16ET  1 652   1.736    517.648    1.600    1.484    1.038 0.083   16.000 False
+ SBIT DGS10_fark  1 647  -2.119    -54.636   -2.125   -2.823    0.512 0.034   16.000 False
+ ETHU   ETH_16ET  1 608   1.721    995.621   -1.832    2.136   -0.028 0.085   16.988 False
+ ETHU DGS10_fark  1 603   1.730     78.256   -1.053    2.057   -0.183 0.084   16.988 False
+ ETHU DGS10_fark  3 601   1.733    134.213    0.337    1.894   -0.004 0.083   16.988 False
+ ETHE DGS10_fark  1 570   1.739     38.950   -0.926    2.361   -0.651 0.082   17.609 False
+ ETHE DGS10_fark  3 568   2.097     78.822    0.369    2.475   -0.152 0.036   17.609 False
+  toplam 90 test; |t|>=2: 3; BH-FDR geçen: 0; iki yarıda aynı işaret ve |t|>=2: 0; |bp/sd| > maliyet: 59
+
+=== 3) IBIT kapanış sapması (BTC 16:00 ET'ye göre) -> ertesi gün (yetişme; bayat kapanış kontrolü) ===
+  sd(u)=15.0 bp; n=707
+  on: u katsayısı 0.563 (t=0.62), 8.4 bp/sd; kendi getirisi t=-1.87
+  id: u katsayısı -0.824 (t=-2.18), -12.4 bp/sd; kendi getirisi t=-0.65
+  cc: u katsayısı -0.261 (t=-0.27), -3.9 bp/sd; kendi getirisi t=-1.71
+  u üst %10 (IBIT geride): ertesi C->C ort -30.1 bp (n=71, t=-0.87), gece 14.4; alt %10: C->C 28.3 bp, gece 13.0; maliyet 14.3 bp
+
+=== 4) Gerçek zamanlı: IBIT açılış boşluğu ~ BTC 16:00 -> 09:30 ET; BTC gece -> IBIT gün içi ===
+  boşluk ~ BTC gece (09:30 tahmini): R²=0.962, eğim 1.000; 10:00 fiyatıyla R²=0.893
+  IBIT gün içi ~ BTC gece: eğim 0.056 (t=0.90)

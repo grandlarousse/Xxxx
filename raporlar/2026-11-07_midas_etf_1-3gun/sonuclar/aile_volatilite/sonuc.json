@@ -1,0 +1,398 @@
+{
+ "family": "volatilite",
+ "ozet": "Volatilite ailesinde kabul eşiğini geçen tek kural volatilite_S1 ve güveni düşük. Kural: RSI(2)(SVXY)<10 ve SVXY>SMA200 ise SVXY al, 2 gün tut. SVXY C0 h2: n=59, net +157 bp, t=3,16; IS +144 (n=19, t=1,15), OOS +164. O1 h2: +108 bp (t=2,53). C1'de kenar yok (-28 bp). 3.075 testlik BH-FDR'yi yalnız C0 h2 geçiyor. Uzun dönem vekil testinde 2010-2018 alt döneminde kenar sıfır (n=76), yani etki 2019 sonrasına ait. Uzun vol ürünlerinde (VXX/VIXY/UVXY/UVIX/VIXM) 1-3 günlük hiçbir long kural pozitif değil: rejim değişimi, VIX sıçraması ve backwardation girişleri çoğunlukla kaybettiriyor (ör. VXX C1 h1 rejim girişi -180 bp, t=-2,1). Kontango taşıma kuralı (VO01) 2022 sonrasında negatif. Doğrulanmış gecikmeli öncü yok. Bugün (06.11.2026) VIX/VIX3M=1,04 (backwardation) ve SVXY SMA200'ün altında, S1 sinyali yok. SVXY/UVXY/VIXY/VIXM (ProShares Trust II) ve muhtemelen SVIX/UVIX K-1/PTP ürünleri: Midas'ta %10 brüt kesinti uygulanırsa strateji çöker, önce teyit alınmalı.",
+ "izleme": [
+  {
+   "sym": "SVXY",
+   "tv": "CBOE:SVXY",
+   "karar": "kabul",
+   "gerekce": "S1'in işlem aracı. -0,5x yapıyla kısa vol ürünleri içinde kuyruk riski en düşük olan; likit; maliyet/vol 0,079. PTP/K-1 (ProShares Trust II) %10 kesinti riski var, önce Midas teyidi. 1 günde -%21,4 (05.08.2024), 3 günde -%33,8 görüldü.",
+   "likidite_mn_usd": 85.0,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 201.6
+  },
+  {
+   "sym": "SVIX",
+   "tv": "CBOE:SVIX",
+   "karar": "yedek",
+   "gerekce": "S1'in agresif varyantı (aynı SVXY sinyali, 2022+ C0 h2 +354 bp, t=4,5). -1x yapı: 1 günde -%38,9, 3 günde -%56,4 görüldü; Şubat 2018 tipi olayda neredeyse tamamen silinebilir. PTP/K-1 muhtemel (doğrulanmadı). Yalnız küçük pozisyonla.",
+   "likidite_mn_usd": 60.1,
+   "maliyet_bp": 16.9,
+   "vol_1d_bp": 388.6
+  },
+  {
+   "sym": "VXX",
+   "tv": "CBOE:VXX",
+   "karar": "yedek",
+   "gerekce": "Uzun vol gerekiyorsa tek ETN (PTP değil, Barclays kredi riski var), en likit 1x araç. VIXY'nin kopyası ama ona tercih edilir. 1-3 günlük hiçbir long kural pozitif değil (koşulsuz -9,6 bp/gün); yalnız koruma amaçlı.",
+   "likidite_mn_usd": 214.6,
+   "maliyet_bp": 16.6,
+   "vol_1d_bp": 392.6
+  },
+  {
+   "sym": "VIXY",
+   "tv": "CBOE:VIXY",
+   "karar": "red",
+   "gerekce": "VXX ile aynı endeks (kopya); daha az likit; ProShares Trust II (PTP riski); -11 bp/gün koşulsuz kayıp.",
+   "likidite_mn_usd": 69.6,
+   "maliyet_bp": 16.8,
+   "vol_1d_bp": 394.0
+  },
+  {
+   "sym": "UVXY",
+   "tv": "CBOE:UVXY",
+   "karar": "red",
+   "gerekce": "1,5x kısa vade; -18 bp/gün koşulsuz kayıp; rejim/sıçrama girişleri negatif (C1 h1 rejim girişi -284 bp); PTP riski; al-tut maxDD %-99,99.",
+   "likidite_mn_usd": 237.4,
+   "maliyet_bp": 16.3,
+   "vol_1d_bp": 596.3
+  },
+  {
+   "sym": "UVIX",
+   "tv": "CBOE:UVIX",
+   "karar": "red",
+   "gerekce": "2x; -35 bp/gün koşulsuz kayıp; 1 günde -%43,8 görüldü; tüm long kurallar negatif (VIX gerilmesi O1 h2 -842 bp, t=-4,0).",
+   "likidite_mn_usd": 158.3,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 788.8
+  },
+  {
+   "sym": "VIXM",
+   "tv": "CBOE:VIXM",
+   "karar": "red",
+   "gerekce": "Medyan hacim 3,6 mn $; maliyet 27 bp; maliyet/vol 0,23 (1 günlük hareket maliyeti zor karşılıyor); kural yok; birçok sinyalde anlamlı negatif; ProShares Trust II.",
+   "likidite_mn_usd": 3.64,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 118.4
+  }
+ ],
+ "stratejiler": [
+  {
+   "id": "volatilite_S1",
+   "ad": "SVXY 2 günlük RSI dibi (200 günlük trend üstünde) - kısa vol geri dönüşü",
+   "kural": "TradingView günlük grafik CBOE:SVXY. Gösterge 1: RSI, uzunluk 2, kaynak kapanış (standart Wilder RSI). Gösterge 2: SMA, uzunluk 200, kaynak kapanış. Sinyal günü t: RSI(2) < 10 VE SVXY kapanışı > SMA(200) -> SVXY al (sinyal de işlem de SVXY verisinde; agresif varyantta aynı SVXY sinyaliyle CBOE:SVIX alınır). Tutuş 2 işlem günü, t+2 kapanışında sat. Pozisyondayken yeni sinyal yok sayılır. Stop yok (backtest stopsuz).",
+   "giris": "C0 (ana): sinyal günü kapanıştan hemen önce RSI(2)'yi canlı fiyatla kontrol edip emir ver, TR kış 23:50-23:59 (yaz 22:50-22:59). Midas'ta MOC/LOC yok; normal seansta limit ya da piyasa emri kullanılır. Alternatif O1: ertesi gün açılışta al, TR kış 17:30 (yaz 16:30); açılış öncesi limit emir verilebilir (pre-market TR kış 12:00-17:30).",
+   "tutus": "2 işlem günü (C0: t kapanışı -> t+2 kapanışı; O1: t+1 açılışı -> t+2 kapanışı). 3 gün tutmak daha kötü (C0 h3 +106 bp, t=1,59).",
+   "cikis": "t+2 günü kapanıştan hemen önce sat (TR kış 23:50-23:59, yaz 22:50-22:59). Bir gün gecikmeli giriş (C1) yapılmamalı: kenar ilk 1-2 günde.",
+   "islem_etf": [
+    "SVXY",
+    "SVIX"
+   ],
+   "sinyal_etf": "SVXY",
+   "n": 59,
+   "brut_bp": 173.3,
+   "net_bp": 157.3,
+   "t": 3.16,
+   "is_net_bp": 143.6,
+   "oos_net_bp": 163.8,
+   "kazanma": 0.71,
+   "pf": 2.88,
+   "maxdd": -0.145,
+   "en_kotu_bp": -1375,
+   "yil_pozitif": 0.625,
+   "test_sayisi": 3075,
+   "fdr": "BH-FDR q=0,10, 3.075 strateji testi (2.079 genel kütüphane aile ETF'leri + 996 bu ajan): eşik p<=0,00364. SVXY C0 h2 p=0,0025 GEÇER; O1 h2 p=0,014 ve C0 h1 p=0,017 geçmez. Geçen 113 testin yalnız 8'i pozitif, hepsi bu RSI2-dip ailesinden.",
+   "maliyet_duyarlilik": "SVXY C0 h2 net: 1.000$ +139 bp, 2.500$ +157 bp, 10.000$ +166 bp. O1 h2: +90 / +108 / +117 bp.",
+   "mod_saglamlik": "h=2: C0 +157 (t=3,16), O1 +108 (t=2,53), C1 -28 (t=-0,51). h=1: C0 +82 (2,44), O1 +26 (1,12), C1 +47 (1,51). h=3: C0 +106 (1,59), O1 +46 (0,75), C1 +28 (0,48). C0 ve O1'de çalışıyor, C1'de çalışmıyor: kenar sinyalden sonraki ilk 1-2 günde, gecikmeli girişte kaybolur.",
+   "aile_ici": "Aynı dayanak, bağımsız kanıt değil. SVIX (SVXY sinyali, 2022-03+): C0 h2 n=39 +354 bp t=4,50; O1 h2 +259 t=3,45; C1 h2 -17. SVXY_EK (2017-07..2018-09 VIXY'den -0,5x sentetik ek): C0 h2 n=63 +134 t=2,68, IS +82. Uzun dönem vekil (VIX vade yapısı modeli, -0,5x, 2010-2026): C0 h2 n=135 +38 t=1,11; 2010-2018 alt döneminde n=76, net 0 bp (t=0,00); C1 h2 -22. Ayna: VXX'te RSI2>90 ve <SMA200 iken VXX long C0 h2 -170 bp (t=-2,03), beklenen yönde. Orta vade VIXM'de karşılığı yok.",
+   "guven": "dusuk",
+   "betik": "python3 -I /home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_volatilite/strateji_S1.py",
+   "notlar": "Yıllar (C0 h2 net toplam bp): 2019 -647, 2020 -1042, 2021 +4418, 2022 -681, 2023 +2339, 2024 +1236, 2025 +1146, 2026 +2511. Kuyruk: Mart 2020'de 1 işlem -1.375 bp (sinyal 21.02.2020); Ağustos 2024 +355 bp; Şubat 2018, Nisan 2025 ve Kasım 2026'da pozisyon yok. Parametreye duyarlı: RSI<5 ya da <15 komşuları ve filtresiz sürüm zayıf. Sinyal günü VIX yüksekse kazanç büyüyor (VIX>25 iken ort. +460 bp, n=6); bu tanımlayıcı bir gözlem, filtre değil. 06.11.2026: SVXY 54,72 < SMA200 55,93, RSI2 21, sinyal yok. PTP: SVXY ProShares Trust II (K-1). Midas'ta satışta %10 brüt kesinti uygulanırsa her işlem ~-1.000 bp kaybeder ve strateji çöker; işlemden önce Midas'tan teyit alınmalı. Şubat 2018 tipi bir gecede (endeks +%96) SVXY ~-%45-50, SVIX ~-%90+ kaybedebilir. Pozisyon küçük tutulmalı. Midas zarar-durdur emri boşlukta dolmayabilir."
+  }
+ ],
+ "elenen": [
+  {
+   "ad": "VO01 kontango (VIX/VIX3M<0,90) ve VIX<SMA10 -> SVXY 3 gün (oran>=1 olursa erken çıkış)",
+   "neden": "Gerçek SVXY'de negatif: C0 -21 bp (t=-1,35), O1 -29 (t=-1,95), C1 -22 (n=326). Vekilde 2009-2021 pozitif, 2022+ negatif. Taşıma getirisi maliyeti karşılamıyor."
+  },
+  {
+   "ad": "H_kont09 (VIX/VIX3M<0,90 -> SVXY/SVIX 1-3 gün)",
+   "neden": "SVXY C0 h3 -12 (t=-0,8), O1 h1 -19 (t=-4,5; FDR'de negatif anlamlı). SVIX de negatif."
+  },
+  {
+   "ad": "VO02 backwardation (>=1) -> SVXY negatif getiri",
+   "neden": "Ortalama sıfıra yakın (3 günlük -0,0 bp), yani getiri kuralı değil. Kuyruk 2 kat (std 702'ye karşı 310 bp; %1'lik dilim -2.412'ye karşı -1.053 bp): risk kuralı olarak geçerli."
+  },
+  {
+   "ad": "VO03/uzun vol tutma (VXX, VIXY, UVXY, UVIX koşulsuz)",
+   "neden": "Koşulsuz kayıp doğrulandı: VXX -9,6, UVXY -18,4, UVIX -34,5 bp/gün. Al-tut maxDD %-99,6 / %-99,99. Long kural yok."
+  },
+  {
+   "ad": "VO04 backwardation -> kontango dönüş günü -> SVXY/SVIX",
+   "neden": "SVXY C0 h1 +62 (t=1,5), O1 h1 +59 (1,6), C1 h1 -38 (n=49); vekil C1 h3 +96 (1,8). Anlamlı değil."
+  },
+  {
+   "ad": "VO05 VIX/VIX3M>=1,05 -> SPY/QQQ 3 gün",
+   "neden": "SPY O1 h3 +50 (t=0,76, n=34), QQQ O1 h2 +56 (t=1,32). Anlamlı değil."
+  },
+  {
+   "ad": "VO06 UVXY/UVIX kaldıraç sapması",
+   "neden": "Ölçüm: 3 günlük sapma UVXY -4,4 bp (t=-0,7), UVIX -17,6 (-1,5), SVIX -14,4 (-2,0). Yön teoriyle uyumlu, büyüklük küçük. En oynak dilimde UVXY -33 bp/3 gün."
+  },
+  {
+   "ad": "VIX sıçraması >=%15 / >=%20 -> SVXY 1-3 gün (ortalamaya dönüş)",
+   "neden": "SVXY'de tüm mod ve h'lerde |t|<1,1. SVIX O1 h2 +324 (t=2,0, n=18) yalnız 2022+. Tutarsız."
+  },
+  {
+   "ad": "VIX sıçraması -> VXX/UVXY/UVIX 1-3 gün (devam)",
+   "neden": "Hepsi negatif: VXX %20 C0 h1 -109, O1 h3 -121; UVIX %15 O1 h2 -496 (t=-2,4). Devam yok."
+  },
+  {
+   "ad": "Rejim değişimi (VIX/VIX3M 1'i yukarı keser) -> VXX/UVXY 1-3 gün",
+   "neden": "C0/O1 h1 hafif pozitif ama anlamsız (+74/+68; C0, VIX 16:15 kapanışı yüzünden iyimser). O1 h2-3 -102; C1 h1 VXX -180 (t=-2,07), UVXY -284 (t=-1,96). Kazanma %24-48. Çoğunlukla kayıp."
+  },
+  {
+   "ad": "VIX >= 1,20 x SMA10 (Schaeffer) ve VIX > 1,10 x SMA10 -> SVXY",
+   "neden": "SVXY C1 h1 +64 (t=1,4), C1 h2 -44, IS negatif. SVIX C1 h1 +330 (t=3,1) yalnız 2022+. Tutarsız; uzun vol tarafı negatif."
+  },
+  {
+   "ad": "VIX9D/VIX kontango (<0,90) -> SVXY; VIX9D/VIX>1 -> VXX",
+   "neden": "SVXY O1 h1 -20 (t=-4,0); VXX tarafı -22..-55 bp. Elendi."
+  },
+  {
+   "ad": "VVIX >= 1,10 x SMA10 ve VVIX +%10 sıçrama -> SVXY",
+   "neden": "|t|<=1,5; VVIX sıçraması C1'de negatif (SVXY C1 h1 -69). Elendi."
+  },
+  {
+   "ad": "E1 gergin bölge 0,95<=VIX/VIX3M<1,00 -> SVXY (sonradan bakıldı)",
+   "neden": "SVXY C0 h3 +57 (t=1,36, n=141), O1 h3 +49 (1,28), C1 h1 +7; vekil C0 h1 +2. Anlamlı değil."
+  },
+  {
+   "ad": "E2 Pazartesi gün içi SVXY/SVIX (genel kütüphanede CA_cum O1 h1)",
+   "neden": "SVXY tüm dönem +2 bp (t=0,25): IS -22, OOS +18 (t=1,98); SVIX OOS +48 (t=2,62); VXX OOS -86 (t=-4,46). 2022 sonrası bir rejim gibi, IS'te yok, birleşik FDR'yi geçmiyor. İzlenebilir bir gözlem."
+  },
+  {
+   "ad": "MR_3gun_dusus SVXY (genel kütüphane)",
+   "neden": "C0 h2 +112 (t=2,6), O1 h2 +44 (1,2), C1 h2 +7. S1 ile örtüşüyor ve daha zayıf; FDR'yi geçmiyor."
+  },
+  {
+   "ad": "VIXM ile tüm kurallar",
+   "neden": "Maliyet 27 bp, maliyet/vol 0,23, hacim 3,6 mn $. Pozitif ve anlamlı sinyal yok; birçok sinyal FDR'de negatif anlamlı."
+  }
+ ],
+ "leadlag": [
+  {
+   "sym": "SVXY",
+   "suruculer": [
+    {
+     "ad": "VIX günlük log değişimi",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.905,
+     "beta_1y": -0.225
+    },
+    {
+     "ad": "VVIX günlük log değişimi",
+     "tv": "CBOE:VVIX",
+     "corr_1y": -0.898,
+     "beta_1y": -0.303
+    },
+    {
+     "ad": "SPY günlük getiri",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.833,
+     "beta_1y": 2.006
+    },
+    {
+     "ad": "VIX/VIX3M oranı günlük değişimi",
+     "tv": "CBOE:VIX/CBOE:VIX3M",
+     "corr_1y": -0.825,
+     "beta_1y": -0.462
+    },
+    {
+     "ad": "QQQ günlük getiri",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.739,
+     "beta_1y": 1.134
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "VIX vadelisi ön ay",
+     "tv": "CBOE:VX1!",
+     "neden": "ETF'lerin dayanağı (1. ve 2. ay karışımı). Neredeyse 24 saat işler; ETF kapalıyken açılış boşluğunu doğrudan gösterir. SVXY boşluğu ≈ -0,5 x VX karışımı değişimi."
+    },
+    {
+     "ad": "VIX vadelisi 2. ay",
+     "tv": "CBOE:VX2!",
+     "neden": "Endeks ağırlığı ay içinde 1. aydan 2. aya kayar; vade sonuna doğru VX2! daha belirleyici olur."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "23 saat işler. Gece S&P düşüşü VIX vadelisini yükseltir (SVXY'nin SPY'ye betası ~2)."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Teknoloji kaynaklı gece şoklarını gösterir."
+    },
+    {
+     "ad": "USD/JPY",
+     "tv": "FX_IDC:USDJPY",
+     "neden": "Taşıma işlemi çözülmesi ve risk iştahı göstergesi (5 Ağustos 2024'te yenin sert değer kazanması vol sıçramasından önce geldi). Öncü olarak test edilmedi, yalnız izleme amaçlı."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok: genel taramada aile hedefleri için FDR'yi geçen 0. Ek 144 testte (VIX/VIX3M düzeyi ve değişimi, VIX9D/VIX, VIX gerilmesi, VVIX/VIX, SPY/QQQ/BTC getirileri, DGS10; kendi gecikmesi kontrollü, Newey-West, C0 ve O1 hizalaması) de 0. Eşzamanlı sürücüler öncü değildir. VIX 16:15 ET'de kapandığı için C0 hizalamasındaki VIX öncülüğü kısmen ileri bakıştır. En güçlü (geçmeyen) aday: QQQ getirisi -> SVXY 3 gün (C0 t=-2,89; IS -2,33, OOS -1,86; FDR yok). QQQ'nun yükseldiği günden sonra SVXY hafif geri veriyor. Kendi fiyat sinyali (RSI2) S1'de kullanılıyor; o bir lead-lag değil.",
+   "takvim_riskleri": "Yaklaşan olaylar (ET; TR = ET+8 kış): CPI 10.11.2026 ve 10.12.2026 08:30 (TR 16:30, açılıştan önce); NFP 04.12.2026 08:30; FOMC 09.12.2026 14:00 (TR 22:00); VIX vade/uzlaşma 18.11.2026 ve 16.12.2026 (Çarşamba); aylık opsiyon vadesi 20.11.2026; triple witching 18.12.2026; 26.11.2026 kapalı, 27.11 ve 24.12 erken kapanış (13:00 ET, TR 21:00); 25.12 kapalı. Hafta sonu ve tatil boşlukları kısa vol için risklidir (3 günlük boşluk). Şu an VIX/VIX3M 1,04 (backwardation): kısa vol ürünlerinde 1-3 günlük dağılım normalin ~2 katı."
+  },
+  {
+   "sym": "SVIX",
+   "suruculer": [
+    {
+     "ad": "VIX günlük log değişimi",
+     "tv": "CBOE:VIX",
+     "corr_1y": -0.9,
+     "beta_1y": -0.444
+    },
+    {
+     "ad": "VVIX günlük log değişimi",
+     "tv": "CBOE:VVIX",
+     "corr_1y": -0.895,
+     "beta_1y": -0.599
+    },
+    {
+     "ad": "SPY günlük getiri",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.829,
+     "beta_1y": 3.957
+    },
+    {
+     "ad": "VIX/VIX3M oranı günlük değişimi",
+     "tv": "CBOE:VIX/CBOE:VIX3M",
+     "corr_1y": -0.819,
+     "beta_1y": -0.911
+    },
+    {
+     "ad": "QQQ günlük getiri",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.737,
+     "beta_1y": 2.243
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "VIX vadelisi ön ay",
+     "tv": "CBOE:VX1!",
+     "neden": "ETF'lerin dayanağı (1. ve 2. ay karışımı). Neredeyse 24 saat işler; ETF kapalıyken açılış boşluğunu doğrudan gösterir. SVXY boşluğu ≈ -0,5 x VX karışımı değişimi."
+    },
+    {
+     "ad": "VIX vadelisi 2. ay",
+     "tv": "CBOE:VX2!",
+     "neden": "Endeks ağırlığı ay içinde 1. aydan 2. aya kayar; vade sonuna doğru VX2! daha belirleyici olur."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "23 saat işler. Gece S&P düşüşü VIX vadelisini yükseltir (SVXY'nin SPY'ye betası ~2)."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Teknoloji kaynaklı gece şoklarını gösterir."
+    },
+    {
+     "ad": "USD/JPY",
+     "tv": "FX_IDC:USDJPY",
+     "neden": "Taşıma işlemi çözülmesi ve risk iştahı göstergesi (5 Ağustos 2024'te yenin sert değer kazanması vol sıçramasından önce geldi). Öncü olarak test edilmedi, yalnız izleme amaçlı."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok: genel taramada aile hedefleri için FDR'yi geçen 0. Ek 144 testte (VIX/VIX3M düzeyi ve değişimi, VIX9D/VIX, VIX gerilmesi, VVIX/VIX, SPY/QQQ/BTC getirileri, DGS10; kendi gecikmesi kontrollü, Newey-West, C0 ve O1 hizalaması) de 0. Eşzamanlı sürücüler öncü değildir. VIX 16:15 ET'de kapandığı için C0 hizalamasındaki VIX öncülüğü kısmen ileri bakıştır. SVIX ≈ 2 x SVXY duyarlılığı. VVIX/VIX oranı -> SVIX ertesi gün (O1 t=-2,28) yalnız 2022+ verisinde ve FDR yok.",
+   "takvim_riskleri": "Yaklaşan olaylar (ET; TR = ET+8 kış): CPI 10.11.2026 ve 10.12.2026 08:30 (TR 16:30, açılıştan önce); NFP 04.12.2026 08:30; FOMC 09.12.2026 14:00 (TR 22:00); VIX vade/uzlaşma 18.11.2026 ve 16.12.2026 (Çarşamba); aylık opsiyon vadesi 20.11.2026; triple witching 18.12.2026; 26.11.2026 kapalı, 27.11 ve 24.12 erken kapanış (13:00 ET, TR 21:00); 25.12 kapalı. Hafta sonu ve tatil boşlukları kısa vol için risklidir (3 günlük boşluk). Şu an VIX/VIX3M 1,04 (backwardation): kısa vol ürünlerinde 1-3 günlük dağılım normalin ~2 katı."
+  },
+  {
+   "sym": "VXX",
+   "suruculer": [
+    {
+     "ad": "VIX günlük log değişimi",
+     "tv": "CBOE:VIX",
+     "corr_1y": 0.909,
+     "beta_1y": 0.417
+    },
+    {
+     "ad": "VVIX günlük log değişimi",
+     "tv": "CBOE:VVIX",
+     "corr_1y": 0.901,
+     "beta_1y": 0.56
+    },
+    {
+     "ad": "SPY günlük getiri",
+     "tv": "AMEX:SPY",
+     "corr_1y": -0.839,
+     "beta_1y": -3.722
+    },
+    {
+     "ad": "VIX/VIX3M oranı günlük değişimi",
+     "tv": "CBOE:VIX/CBOE:VIX3M",
+     "corr_1y": 0.825,
+     "beta_1y": 0.852
+    },
+    {
+     "ad": "QQQ günlük getiri",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": -0.743,
+     "beta_1y": -2.102
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "VIX vadelisi ön ay",
+     "tv": "CBOE:VX1!",
+     "neden": "ETF'lerin dayanağı (1. ve 2. ay karışımı). Neredeyse 24 saat işler; ETF kapalıyken açılış boşluğunu doğrudan gösterir. SVXY boşluğu ≈ -0,5 x VX karışımı değişimi."
+    },
+    {
+     "ad": "VIX vadelisi 2. ay",
+     "tv": "CBOE:VX2!",
+     "neden": "Endeks ağırlığı ay içinde 1. aydan 2. aya kayar; vade sonuna doğru VX2! daha belirleyici olur."
+    },
+    {
+     "ad": "S&P 500 E-mini vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "23 saat işler. Gece S&P düşüşü VIX vadelisini yükseltir (SVXY'nin SPY'ye betası ~2)."
+    },
+    {
+     "ad": "Nasdaq 100 E-mini vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "Teknoloji kaynaklı gece şoklarını gösterir."
+    },
+    {
+     "ad": "USD/JPY",
+     "tv": "FX_IDC:USDJPY",
+     "neden": "Taşıma işlemi çözülmesi ve risk iştahı göstergesi (5 Ağustos 2024'te yenin sert değer kazanması vol sıçramasından önce geldi). Öncü olarak test edilmedi, yalnız izleme amaçlı."
+    }
+   ],
+   "not": "Doğrulanmış gecikmeli öncü yok: genel taramada aile hedefleri için FDR'yi geçen 0. Ek 144 testte (VIX/VIX3M düzeyi ve değişimi, VIX9D/VIX, VIX gerilmesi, VVIX/VIX, SPY/QQQ/BTC getirileri, DGS10; kendi gecikmesi kontrollü, Newey-West, C0 ve O1 hizalaması) de 0. Eşzamanlı sürücüler öncü değildir. VIX 16:15 ET'de kapandığı için C0 hizalamasındaki VIX öncülüğü kısmen ileri bakıştır. En güçlü (geçmeyen) aday: VVIX/VIX oranı -> VXX ertesi gün (O1 h1 t=3,17; IS 2,05, OOS 2,72; 1 sd'de 22 bp, maliyetin 1,3 katı; p=0,0015 > FDR eşiği). VXX'in koşulsuz -9,6 bp/gün kaybı karşısında işlenebilir değil.",
+   "takvim_riskleri": "Yaklaşan olaylar (ET; TR = ET+8 kış): CPI 10.11.2026 ve 10.12.2026 08:30 (TR 16:30, açılıştan önce); NFP 04.12.2026 08:30; FOMC 09.12.2026 14:00 (TR 22:00); VIX vade/uzlaşma 18.11.2026 ve 16.12.2026 (Çarşamba); aylık opsiyon vadesi 20.11.2026; triple witching 18.12.2026; 26.11.2026 kapalı, 27.11 ve 24.12 erken kapanış (13:00 ET, TR 21:00); 25.12 kapalı. Hafta sonu ve tatil boşlukları kısa vol için risklidir (3 günlük boşluk). Şu an VIX/VIX3M 1,04 (backwardation): kısa vol ürünlerinde 1-3 günlük dağılım normalin ~2 katı."
+  }
+ ],
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/notlar/aile_volatilite.md",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/sonuc.json",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_volatilite/vlib.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_volatilite/hipotez_testleri.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_volatilite/aday_rsi2.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_volatilite/strateji_S1.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_volatilite/ek_testler.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_volatilite/olcumler.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_volatilite/leadlag_vol.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/hipotez_testleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/aday_rsi2_ozet.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/aday_rsi2_komsu.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/aday_rsi2_islemler_SVXY_C0h2.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/ek_testler.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/tum_testler_fdr.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/olcum_vo02_vo03_rejim.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/olcum_vo06_kaldirac.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/olcum_hafta_gunu.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/olcum_kuyruk.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/leadlag_ek.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/leadlag_esz.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_volatilite/strateji_S1_cikti.txt"
+ ],
+ "tv_dogrulanacak": [
+  "CBOE:VIX/CBOE:VIX3M (TradingView oran ifadesi; bileşen kodlar doğrulandı, ifadenin kendisi sayfada doğrulanmadı)",
+  "CBOE:VIX9D/CBOE:VIX (oran ifadesi; bileşenler doğrulandı)"
+ ]
+}

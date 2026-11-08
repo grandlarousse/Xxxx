@@ -1,0 +1,90 @@
+=== A) VIX düzeyi eşlemeli permütasyon (C0 h2 ve O1 h2) ===
+  C0 h2 eşleme=VIX           gözlenen  157.3  rastgele ort    0.2  p95   62.9  p=0.0003
+  C0 h2 eşleme=VIX+2g_dusus  gözlenen  157.3  rastgele ort   11.3  p95   93.0  p=0.0003
+  O1 h2 eşleme=VIX           gözlenen  107.6  rastgele ort   -4.8  p95   50.9  p=0.0003
+  O1 h2 eşleme=VIX+2g_dusus  gözlenen  107.6  rastgele ort    6.2  p95   76.0  p=0.0057
+
+=== B) Vekil (-0,5x) 2019+ dönemde gerçek SVXY ile örtüşme ===
+  vekil sinyali 2019-07+ : n=57 net=85.5 t=1.80 | gerçek SVXY n=59 net=157.3
+  ortak sinyal günü: 38 / vekil 57 / gerçek 59
+  gerçek sinyal günlerinde: gerçek brüt 173.3 bp, vekil brüt 151.0 bp, korelasyon 0.978
+  vekil 2010-2014: n=52 net=   37.4 t= 0.95
+  vekil 2015-2018: n=24 net=  -80.8 t=-0.61
+  vekil 2019-2021: n=18 net=   59.2 t= 0.50
+  vekil 2022-2026: n=41 net=   99.5 t= 2.33
+  vekil 2010-2018 komşuluk (C0 h2 net bp / n):
+    RSI<5 SMA150: n=37 net= -20.8 t=-0.22
+    RSI<5 SMA200: n=36 net= -22.7 t=-0.24
+    RSI<5 SMA250: n=37 net= -22.0 t=-0.24
+    RSI<10 SMA150: n=73 net=   2.3 t= 0.05
+    RSI<10 SMA200: n=76 net=   0.1 t= 0.00
+    RSI<10 SMA250: n=79 net=  -0.7 t=-0.01
+    RSI<15 SMA150: n=114 net= -15.2 t=-0.37
+    RSI<15 SMA200: n=117 net= -19.3 t=-0.48
+    RSI<15 SMA250: n=123 net= -24.1 t=-0.62
+
+=== C) SVXY işlem getirisi = a + b * QQQ (ve SPY) aynı pencere getirisi ===
+  SPY: beta=2.28, alfa(brüt)=47.8 bp/işlem, artık t=2.37, SPY ort 55.0 bp, R2=0.84
+  QQQ: beta=1.58, alfa(brüt)=37.3 bp/işlem, artık t=1.30, QQQ ort 85.9 bp, R2=0.67
+  tüm günlerde SVXY~SPY günlük beta 1.47
+
+=== D) SVXY sinyali vs aracın kendi RSI2<10&SMA200 sinyali (C0/O1 h2) ===
+                                    tag   n  brut_bp  net_bp     t  is_net_bp  is_t  oos_net_bp  oos_t   win  maxdd  en_kotu_bp  yil_pozitif
+0                   QQQ SVXY_sinyali C0  59    85.87   72.87  2.84      32.93  0.62       91.83   3.27  0.68  -0.07     -660.07         0.62
+1                   QQQ SVXY_sinyali O1  59    59.05   46.05  2.23      37.92  1.03       49.91   1.98  0.61  -0.06     -502.47         0.75
+2                   QQQ SVXY_sinyali C1  55    22.74    9.74  0.41       0.70  0.01       13.78   0.50  0.62  -0.10     -508.40         0.38
+3                     QQQ kendi_RSI2 C0  87    36.50   23.50  1.25      15.73  0.40       27.00   1.29  0.59  -0.10     -416.57         0.75
+4                     QQQ kendi_RSI2 O1  87     7.32   -5.68 -0.29      -0.31 -0.01       -8.10  -0.40  0.46  -0.12     -502.47         0.50
+5                     QQQ kendi_RSI2 C1  73    26.94   13.94  0.64     -10.83 -0.24       25.33   1.06  0.62  -0.12     -508.40         0.62
+6    QQQ SVXY_sinyali_VE_kendi_degil C0  34    87.68   74.68  2.01      32.46  0.35       92.26   2.48  0.68  -0.07     -660.07         0.75
+7    QQQ SVXY_sinyali_VE_kendi_degil O1  34    81.85   68.85  2.61      65.63  1.11       70.19   2.41  0.71  -0.04     -304.65         0.75
+8    QQQ SVXY_sinyali_VE_kendi_degil C1  33    27.99   14.99  0.52      18.01  0.40       13.85   0.38  0.61  -0.09     -338.65         0.50
+9                   QLD SVXY_sinyali C0  59   168.32  154.32  3.01      76.78  0.72      191.15   3.39  0.68  -0.13    -1288.73         0.62
+10                  QLD SVXY_sinyali O1  59   116.98  102.98  2.51      90.05  1.24      109.12   2.16  0.61  -0.11     -985.95         0.75
+11                  QLD SVXY_sinyali C1  55    41.33   27.33  0.57      10.80  0.11       34.72   0.63  0.62  -0.19    -1008.71         0.38
+12                    QLD kendi_RSI2 C0  80    82.75   68.75  1.75      57.95  0.74       74.57   1.69  0.60  -0.18     -646.01         1.00
+13                    QLD kendi_RSI2 O1  80    32.57   18.57  0.45      28.86  0.32       13.03   0.32  0.49  -0.19     -715.21         0.75
+14                    QLD kendi_RSI2 C1  65    51.23   37.23  0.83      -9.43 -0.11       64.54   1.30  0.65  -0.17    -1008.71         0.50
+15   QLD SVXY_sinyali_VE_kendi_degil C0  35   163.35  149.35  1.98      78.35  0.43      177.76   2.27  0.69  -0.13    -1288.73         0.75
+16   QLD SVXY_sinyali_VE_kendi_degil O1  35   145.09  131.09  2.23     150.53  1.31      123.32   1.77  0.71  -0.10     -985.95         0.75
+17   QLD SVXY_sinyali_VE_kendi_degil C1  34    42.09   28.09  0.49      43.40  0.47       22.58   0.31  0.59  -0.16     -667.10         0.50
+18                 TQQQ SVXY_sinyali C0  59   250.38  236.47  3.09     118.48  0.75      292.52   3.47  0.68  -0.19    -1881.86         0.62
+19                 TQQQ SVXY_sinyali O1  59   172.98  159.06  2.59     135.21  1.23      170.39   2.27  0.61  -0.16    -1430.15         0.75
+20                 TQQQ SVXY_sinyali C1  55    62.10   48.19  0.68      27.83  0.20       57.30   0.70  0.62  -0.26    -1473.41         0.38
+21                   TQQQ kendi_RSI2 C0  78   117.22  103.31  1.73      84.77  0.73      113.68   1.68  0.60  -0.26     -978.91         1.00
+22                   TQQQ kendi_RSI2 O1  78    52.24   38.33  0.61      52.71  0.39       30.28   0.48  0.49  -0.26    -1067.79         0.75
+23                   TQQQ kendi_RSI2 C1  63    61.47   47.56  0.70      -7.68 -0.06       81.55   1.07  0.63  -0.25    -1473.41         0.50
+24  TQQQ SVXY_sinyali_VE_kendi_degil C0  36   271.44  257.53  2.30     125.65  0.46      308.25   2.62  0.69  -0.19    -1881.86         0.75
+25  TQQQ SVXY_sinyali_VE_kendi_degil O1  36   224.00  210.09  2.44     220.85  1.26      205.95   2.05  0.72  -0.14    -1430.15         0.75
+26  TQQQ SVXY_sinyali_VE_kendi_degil C1  35    79.71   65.79  0.77      72.85  0.53       63.35   0.60  0.60  -0.23     -983.06         0.50
+27                  SPY SVXY_sinyali C0  59    55.01   42.01  2.10      17.64  0.37       53.58   2.82  0.71  -0.07     -637.63         0.62
+28                  SPY SVXY_sinyali O1  59    39.66   26.66  1.64      15.47  0.44       31.97   1.83  0.66  -0.06     -360.55         0.62
+29                  SPY SVXY_sinyali C1  55     8.59   -4.41 -0.24     -25.27 -0.57        4.92   0.26  0.64  -0.07     -386.76         0.38
+30                    SPY kendi_RSI2 C0  84    35.88   22.88  1.52      -6.12 -0.17       35.16   2.29  0.62  -0.09     -502.25         0.62
+31                    SPY kendi_RSI2 O1  84    15.29    2.29  0.17      -9.77 -0.30        7.40   0.56  0.54  -0.09     -397.02         0.38
+32                    SPY kendi_RSI2 C1  76    28.30   15.30  0.90     -22.57 -0.58       31.73   1.82  0.63  -0.10     -497.25         0.62
+33   SPY SVXY_sinyali_VE_kendi_degil C0  28    36.53   23.53  0.75      22.29  0.25       24.12   1.01  0.68  -0.06     -637.63         0.86
+34   SPY SVXY_sinyali_VE_kendi_degil O1  28    43.02   30.02  1.35      41.86  0.81       24.41   1.06  0.68  -0.03     -337.63         0.71
+35   SPY SVXY_sinyali_VE_kendi_degil C1  28    12.56   -0.44 -0.02      -7.86 -0.14        3.08   0.14  0.71  -0.04     -351.69         0.57
+36                  SSO SVXY_sinyali C0  59   105.50   91.50  2.31      45.85  0.48      113.19   2.98  0.71  -0.13    -1240.82         0.62
+37                  SSO SVXY_sinyali O1  59    78.43   64.43  1.99      44.11  0.63       74.09   2.12  0.68  -0.11     -703.86         0.75
+38                  SSO SVXY_sinyali C1  55    14.47    0.47  0.01     -36.67 -0.42       17.09   0.46  0.64  -0.14     -735.94         0.50
+39                    SSO kendi_RSI2 C0  82    49.55   35.55  1.08     -76.59 -0.96       81.95   2.64  0.60  -0.23    -1240.82         0.62
+40                    SSO kendi_RSI2 O1  82    25.29   11.29  0.40     -46.14 -0.65       35.06   1.29  0.57  -0.19    -1061.77         0.75
+41                    SSO kendi_RSI2 C1  73    65.02   51.02  1.46      26.80  0.35       62.16   1.68  0.62  -0.16     -735.94         0.62
+42   SSO SVXY_sinyali_VE_kendi_degil C0  28   114.36  100.36  2.51     219.43  3.24       52.74   1.15  0.71  -0.05     -303.99         1.00
+43   SSO SVXY_sinyali_VE_kendi_degil O1  28   111.79   97.79  2.74     189.37  4.18       61.16   1.37  0.71  -0.06     -358.87         1.00
+44   SSO SVXY_sinyali_VE_kendi_degil C1  28    44.64   30.64  0.82      82.36  1.03        9.96   0.24  0.71  -0.07     -442.28         0.86
+45                 UPRO SVXY_sinyali C0  59   156.17  142.17  2.40      74.96  0.53      174.10   3.06  0.71  -0.19    -1830.05         0.62
+46                 UPRO SVXY_sinyali O1  59   114.91  100.91  2.08      71.94  0.68      114.66   2.20  0.68  -0.15    -1029.26         0.75
+47                 UPRO SVXY_sinyali C1  55    19.73    5.73  0.10     -50.38 -0.39       30.84   0.55  0.64  -0.20    -1101.79         0.50
+48                   UPRO kendi_RSI2 C0  83    74.59   60.59  1.37     -51.95 -0.51      106.38   2.33  0.59  -0.25    -1433.16         0.62
+49                   UPRO kendi_RSI2 O1  83    40.64   26.64  0.66     -19.19 -0.20       45.29   1.13  0.55  -0.23    -1146.96         0.62
+50                   UPRO kendi_RSI2 C1  72    64.05   50.05  0.93     -59.73 -0.50       98.36   1.77  0.62  -0.28    -1470.05         0.62
+51  UPRO SVXY_sinyali_VE_kendi_degil C0  28   125.11  111.11  1.19      94.94  0.37      118.77   1.62  0.71  -0.18    -1830.05         0.71
+52  UPRO SVXY_sinyali_VE_kendi_degil O1  28   132.19  118.19  1.77     148.23  0.96      103.97   1.50  0.71  -0.10     -986.88         0.71
+53  UPRO SVXY_sinyali_VE_kendi_degil C1  28    17.45    3.45  0.05       2.35  0.01        3.97   0.06  0.64  -0.11    -1020.07         0.71
+  SVXY sinyal günlerinden QQQ kendi RSI2 sinyali ile çakışan: 34 / 73
+  QQQ (SVXY sinyali) C0 h2 yıl yıl ort net bp: {2019: -77.0, 2020: -112.0, 2021: 106.0, 2022: -417.0, 2023: 110.0, 2024: 64.0, 2025: 98.0, 2026: 141.0}
+  en iyi 5 çıkarılınca: 42.7 t 1.77
+  QQQ O1 h2 en iyi 5 çıkarılınca: 23.4 t 1.18

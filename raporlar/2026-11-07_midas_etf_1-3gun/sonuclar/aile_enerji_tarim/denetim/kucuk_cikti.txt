@@ -1,0 +1,5 @@
+S2 kaydırılmış O1 h2 (t+2 açılış -> t+3 kapanış): {'n': 66, 'net_bp': np.float64(90.19), 't': np.float64(3.14), 'is_net_bp': np.float64(83.11), 'oos_net_bp': np.float64(97.26)}
+S2 kaydırılmış O1 h3 (t+2 açılış -> t+4 kapanış): {'n': 54, 'net_bp': np.float64(8.21), 't': np.float64(0.12), 'is_net_bp': np.float64(-110.65), 'oos_net_bp': np.float64(127.08)}
+ERX~XLE yıllık beta: {2016: 2.99, 2017: 2.99, 2018: 2.99, 2019: 2.93, 2020: 2.32, 2021: 2.0, 2022: 2.01, 2023: 1.99, 2024: 1.99, 2025: 1.97, 2026: 1.99}
+  2020-01-01..2020-03-31: beta 2.65
+  2020-04-01..2020-12-31: beta 1.99

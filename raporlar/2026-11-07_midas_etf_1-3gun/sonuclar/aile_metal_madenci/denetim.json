@@ -1,0 +1,150 @@
+{
+ "family": "metal_madenci",
+ "stratejiler": [
+  {
+   "id": "metal_madenci_S3",
+   "karar": "zayif",
+   "yeniden_uretim": "Bağımsız motorla (lib.trades/evaluate kullanılmadan, kod/denetim_metal_madenci/motor.py + d1_yeniden.py) birebir: n=240, brüt 121,2, net 107,2 bp, t 3,39, IS 85,4 (t 1,82) / OOS 127,6 (t 2,99), yıl+ 0,80, PF 1,86, maxDD -%26,2, en kötü -855 bp; 240 işlemin tarihleri ve brüt getirileri ajanınkiyle aynı (fark <1e-16). İleriye bakma yok (IBS ve close<close[1] t barından; C0 girişi aynı kapanış -> kapanışa bağımlı; çıkış t+3 kapanışı; çakışma ve maliyet doğru). Tarihsel likiditeyle maliyet: 106,6 bp/t 3,38; katı çakışma n=222, t 3,28; 200 günlük ısınma kaldırılınca n=258, 103 bp, t 3,34.",
+   "sorunlar": "(1) Çoklu test: 8.316 aile satırında 1. sıra; tek yönlü p≈0,0004, BH (10.049 test, eşik ~6,7e-5) ve Bonferroni altında GEÇMEZ; 'iki yönlü BH'de geçer' ifadesi anlamsız (eşiği maliyet yüzünden anlamlı negatif çıkan testler gevşetiyor). (2) IS kanıtı yalnız seçilen ETF'de: aynı kural IS'te GDX -3 bp, RING -11, SILJ -50; madenci havuzu IS 14 bp/t 0,51 (OOS 113/t 3,45); OOS da seçimde görülmüş veri (tam örneklem t'siyle seçildi). (3) Eşik komşuluğu IS'te çöküyor: 0,125 -> IS t 0,49; 0,15 -> 0,32; 0,20 -> 0,28 (OOS her eşikte 2,7-3,3): 2022-2026 madenci rejimine özgü. (4) 'O1'de de güçlü' abartı: O1 h1..h5 t 0,68/1,39/2,74/1,15/1,50 (sivri tepe); C1 h3 t 0,93; C0 kenarının ~1/3'ü sinyal gecesinde (33,7 bp vs koşulsuz 10,5) -> 'kapanışa bağımlı' etiketlenmeli; Midas'ta MOC yok, sinyal 5-10 dk önceki fiyatla tahmin edilir (yanlış sınıflandırma gün içi veri olmadan ölçülemedi). (5) En büyük kazanç 12.03.2020 (+%33,7): GDXJ -%26,3 kapanırken GDX -%11,4, JNUG'dan çıkan endeks ~-%20,5 -> kapanış NAV'a göre ~%6-7 iskontolu; ertesi açılış +%18,8; gerçek olay ama o gün 2 bp makas varsayımı geçersiz. (6) S4 sinyallerinin %52'si S3 ile aynı gün (getiri korelasyonu 0,81); S3 kenarı GLD de zayıf kapandığında yoğun (GLD IBS<0,2: 147 bp/t 3,09; diğer: 63 bp/t 1,55). (7) IBS etkisi geniş hisse ETF olgusu (genel_tum'da ETF'lerin %84'ünde kenar>0, QQQ t 3,68): ön kanıt var ama GDXJ büyüklüğü seçimle şişmiş.",
+   "saglamlik": "Geçti: 2020 hariç 81,6 bp/t 2,76; 2022 hariç t 3,22; 2020+2022 hariç 80,9/t 2,54; 2024-26 hariç 74/t 2,04; en iyi 5 işlem hariç 70,3/t 2,65; rastgele giriş permütasyonu 5.000 tekrar p=0,0004 (yıl tabakalı p=0,0002; rastgele ort 23-25 bp); 1.000$ (32 bp) 89 bp/t 2,82; 10.000$ 116/t 3,68; +10 bp kayma 97/t 3,08; C0 h1-h5 hepsi t>2,2; JNUG ile 173 bp/t 2,70 (maxDD -%51). Kaldı: FDR/Bonferroni; IS t 1,82<2; eşik ≥0,125'te IS t<0,5; O1/C1 h komşulukları; madenci havuzu IS t 0,51.",
+   "duzeltilmis_sayilar": "Ajanın sayıları doğru. Eklenmesi gerekenler: O1 h1..h5 net 9/27/72/44/61 bp (t 0,68/1,39/2,74/1,15/1,50); C1 h3 31 bp/t 0,93; madenci havuzu IS 14 bp/t 0,51, OOS 113/t 3,45; FDR: tek yönlü GEÇMEZ (iki yönlü 'geçer' kullanılmamalı); güven 'orta' -> 'düşük-orta (zayıf)'.",
+   "duzeltilmis_kural": "Kural aynı, 'KAPANIŞA BAĞIMLI' etiketiyle: AMEX:GDXJ IBS<0,10 & close<close[1]; kapanıştan 5-10 dk önce anlık fiyatla kontrol, limit emir (son fiyat +1-2 sent; panik günlerinde piyasa emri verme); 3. kapanışta çık. Aynı gün S4 (GLD IBS) ya da S1/S2 (ay sonu) tetiklenirse ek pozisyon açma (aynı bahis). Küçük pozisyon (maxDD -%26, tek işlem -%8,5); JNUG yalnız Midas bulunurluğu doğrulanırsa ve yarım boyutla."
+  },
+  {
+   "id": "metal_madenci_S1",
+   "karar": "zayif",
+   "yeniden_uretim": "Birebir: n=111, brüt 97,7, net 84,5 bp, t 2,20, IS 82,3 (t 1,75) / OOS 86,5 (t 1,44); tarih/getiriler aynı. Veride NYSE işlem günlerinden eksik/fazla gün yok, ay sonu tespiti doğru; takvim önceden bilinir, ileriye bakma yok.",
+   "sorunlar": "FDR geçmez (p1 0,015); en iyi 5 işlem hariç 40 bp/t 1,17; 2020 hariç 62/t 1,58; 2024-26 hariç 54/t 1,29; permütasyon p=0,025 (yıl tabakalı 0,028); 1.000$'da 66,5 bp/t 1,74; +10 bp kaymada t 1,94; O1 h3 t 1,23, C1 h3 t 1,36; etkinin yarısı ilk gece (C0 h1 53 bp/t 2,40) -> büyük ölçüde kapanışa bağımlı. Sondan 2./3./4. gün girişleri h1-h3'te negatif (ayın son günü GDX -18 bp): etki yalnız yeni ayın ilk günleri. Madenci havuzu t 1,83 (IS 1,59/OOS 1,17); NUGT 2x döneminde t 1,90.",
+   "saglamlik": "Son gün girişinde tutuş platosu (h1..h6 t 1,8-2,6, hep pozitif); GDXJ/RING/XME/COPX/URA aynı yönde (tek küme, bağımsız değil); baz metallerde yok; TOM literatürüyle uyumlu.",
+   "duzeltilmis_sayilar": "Sayılar doğru. Ek: en iyi 5 hariç 40,2 bp/t 1,17; 2020 hariç 61,7/t 1,58; 2024-26 hariç 53,9/t 1,29; permütasyon p 0,025; 1.000$ 66,5/t 1,74.",
+   "duzeltilmis_kural": "Kural doğru tanımlı; S2 ile aynı anda açılmamalı (aynı bahis); 'büyük ölçüde kapanışa bağımlı' etiketi korunmalı."
+  },
+  {
+   "id": "metal_madenci_S2",
+   "karar": "zayif",
+   "yeniden_uretim": "Birebir: n=111, brüt 52,9, net 39,9 bp, t 2,45, IS 33,8 (t 1,65) / OOS 45,4 (t 1,81), maxDD -%7,7.",
+   "sorunlar": "S1 ile aynı etki (GLD-GDX 0,86) -> bağımsız kanıt değil; FDR geçmez; 2024-26 hariç 15,9 bp/t 0,90 (son üç yılın altın boğasına bağlı); en iyi 5 hariç 21,7/t 1,46; 1.000$'da 21,9/t 1,34; +10 bp kaymada t 1,83; O1 t 1,19, C1 t 1,30; permütasyon p 0,012; 2021-2023 üç yıl üst üste ≤0.",
+   "saglamlik": "2020 hariç t 1,97, 2022 hariç t 2,64; son gün girişinde h2-h6 t 1,8-2,7; kopyalarda aynı (takvim kuralı OHLC'den bağımsız olduğu için beklenen).",
+   "duzeltilmis_sayilar": "Sayılar doğru. Ek: 2024-26 hariç 15,9 bp/t 0,90; en iyi 5 hariç 21,7/t 1,46; 1.000$ 21,9/t 1,34."
+  },
+  {
+   "id": "metal_madenci_S4",
+   "karar": "curutuldu",
+   "yeniden_uretim": "Birebir: n=140, brüt 52,3, net 39,3 bp, t 2,07, IS 54,6 (t 1,90) / OOS 27,4 (t 1,08).",
+   "sorunlar": "En iyi 5 işlem hariç 15,7 bp/t 0,98; 2020 hariç t 1,61; 2022 hariç 1,60; 2020+2022 hariç 1,03; katı çakışma n=130, t 1,68; 1.000$'da t 1,12; +10 bp kaymada t 1,54; eşik komşuları 0,05/0,075/0,125/0,15 -> t 1,88/1,82/1,37/1,62; OOS t 1,08; IAU kopyası t 0,98; O1 h1 -1 bp; sinyallerin %52'si S3 ile aynı gün (korelasyon 0,81), S3'ten bağımsız günlerde 33 bp/t 1,25. FDR yok.",
+   "saglamlik": "Permütasyon p 0,009 (yıl tabakalı 0,003) nominal; çoklu test ve yukarıdaki kırılganlıkla ayakta kalmıyor.",
+   "duzeltilmis_kural": "Bağımsız strateji olarak kullanılmamalı; en fazla S3 için 'altın da zayıf kapandı' teyidi."
+  },
+  {
+   "id": "metal_madenci_S5",
+   "karar": "curutuldu",
+   "yeniden_uretim": "Birebir: n=48, brüt 208,6, net 192,6 bp, t 3,10, IS 189,4 (t 1,87) / OOS 195,3 (t 2,49).",
+   "sorunlar": "8.316 satırda 2. sıra (seçim yanlılığı); parametre komşuluğu sivri: BB uzunluğu 25 -> t 0,62, 30 -> 0,59, k=1,5 -> t≤1,40; bekleme 0/1/2/3 gün -> t 1,03/3,16/1,92/0,91; 200 yerine 20 günlük ısınma (BB20 için yeterli) -> n=55, 150 bp, IS t 1,26 (ajanın ısınması IS'teki kötü işlemleri dışarıda bırakıyor); 2020+2022 hariç t 1,68; en iyi 5 hariç t 1,87; tarihsel likiditeyle maliyet ort. 27,7 bp; yılda 2-8 işlem.",
+   "saglamlik": "Permütasyon p 0,007 nominal; tek yönlü BH (p1 0,0016) geçmez.",
+   "duzeltilmis_sayilar": "Isınma 20 gün: n=55, net 149,8 bp, t 2,56, IS 109 (t 1,26), OOS 195,3.",
+   "duzeltilmis_kural": "Kullanılmamalı."
+  }
+ ],
+ "onculer": [
+  {
+   "sym": "DBB",
+   "oncu": "KWEB (AMEX:KWEB) gecikmeli h1",
+   "karar": "zayif",
+   "not": "Yeniden: b=0,041, t 3,94 (kendi 2 gecikmesi kontrollü, NW), IS 2,60/OOS 3,02; 10,4 bp/sd < 27 bp maliyet. Etki DBB'nin düşük hacimli günlerinde t 3,91, yüksek hacimli günlerde 1,74 -> bayat kapanış artefaktı olasılığı yüksek; FXI'den de benzer (t 3,26). İstatistik doğrulandı, ekonomik olarak kullanılamaz (ajanla aynı sonuç)."
+  },
+  {
+   "sym": "GDX",
+   "oncu": "GLD yetişme (AMEX:GLD)",
+   "karar": "curutuldu",
+   "not": "Ajanın 'yetişme yok' sonucu doğrulandı: kendi getirisi kontrollü GLD katsayısı t 0,04 (IS 0,84/OOS -1,30), h3 -0,23. GDXJ<-GLD, SIL/SILJ<-SLV, COPX<-CPER de ≤0 ya da OOS'ta ters."
+  },
+  {
+   "sym": "GLD",
+   "oncu": "GDX (AMEX:GDX) gecikmeli h1",
+   "karar": "zayif",
+   "not": "t 2,33, IS 1,52/OOS 1,58, 10,6 bp/sd < 13 bp maliyet; etkinin çoğu gece (t 2,16); FDR yok."
+  },
+  {
+   "sym": "SLV",
+   "oncu": "T10YIE günlük değişimi (FRED:T10YIE)",
+   "karar": "curutuldu",
+   "not": "t 3,04 (IS 2,69/OOS 1,83), 13,5 bp/sd ≈ 14 bp maliyet. Veri 15:30 ET kotasyonu, kapanıştan sonra yayımlanır; kapanışta gözlenebilir vekil (r_TIP-β60·r_IEF, T10YIE_d ile korelasyon 0,68) IS t 2,69 ama OOS t 1,11 (h3 OOS -1,14); vekil z≥1,5 kuralı tüm modlarda t<1,3. Kullanılabilir öncü değil."
+  },
+  {
+   "sym": "PPLT",
+   "oncu": "GDX (AMEX:GDX) gecikmeli h1",
+   "karar": "zayif",
+   "not": "t 3,20, IS 3,42/OOS 1,49, 23 bp/sd (maliyet 20); etki çoğunlukla gece (t 3,40) -> PPLT kapanışının bayatlığı/platin vadelisinin 16:00 sonrası işlemesi; FDR yok; ajanın kuralı (GDX z≥1,5) t 0,43."
+  },
+  {
+   "sym": "COPX",
+   "oncu": "GDX (AMEX:GDX) gecikmeli h3",
+   "karar": "zayif",
+   "not": "t 2,76, IS 3,02/OOS 1,58, 36 bp/sd (h3) > 14 bp; gece t 2,44, gün içi 0,89; kural t 1,27, O1 negatif; FDR yok."
+  },
+  {
+   "sym": "GDX",
+   "oncu": "LQD (AMEX:LQD) gecikmeli h1",
+   "karar": "curutuldu",
+   "not": "t 2,04 (GDXJ 2,15) ama IS 3,07-3,30 / OOS -0,00: OOS'ta kayboldu."
+  },
+  {
+   "sym": "URA",
+   "oncu": "SPY (AMEX:SPY) gecikmeli h1, negatif",
+   "karar": "zayif",
+   "not": "t -2,67, IS -2,38/OOS -1,49, -22 bp/sd (maliyet 16); FDR yok; ajanın kuralı t≤1,25."
+  },
+  {
+   "sym": "XME",
+   "oncu": "DIA (AMEX:DIA) gecikmeli h1, negatif",
+   "karar": "zayif",
+   "not": "t -2,80, IS -2,69/OOS -1,47; FDR yok; 13.694 testlik taramada bu düzey t beklenen gürültü."
+  },
+  {
+   "sym": "IAU",
+   "oncu": "GLD yetişme",
+   "karar": "curutuldu",
+   "not": "Veri hatası: 2021-03-08 barıyla t 3,27, bar atılınca -0,56 (ajanın tespiti doğru). Bar lib.BAD_BARS'ta yok -> genel_tum/leadlag_sweep IAU satırları kirli."
+  }
+ ],
+ "izleme_itirazlari": [
+  {
+   "sym": "SLV",
+   "itiraz": "'kabul' -> 'yedek/yalnız izleme': doğrulanmış strateji ve gecikmeli öncü yok; tek gerekçe gerçek zamanlı sürücü COMEX:SI1!; 30.01.2026 tek gün -%28,5 kuyruk riski."
+  },
+  {
+   "sym": "COPX",
+   "itiraz": "'kabul' -> 'yedek': strateji yok (S3 t 0,83, S1 t 1,89), COPX<-GDX gecikmesi zayıf/FDR'siz; yalnız COMEX:HG1! ile izlenir."
+  },
+  {
+   "sym": "GLD",
+   "itiraz": "Kabul uygun (ana araç) ama gerekçe düzeltilmeli: S4 çürütüldü, S2 zayıf -> doğrulanmış strateji yok."
+  },
+  {
+   "sym": "GDX",
+   "itiraz": "Kabul uygun ama S1 zayıf (en iyi 5 hariç t 1,17); IBS kuralı GDX'te IS -3 bp."
+  },
+  {
+   "sym": "GDXJ",
+   "itiraz": "Kabul edilebilir; etiket 'S3 zayıf, kapanışa bağımlı, maxDD -%26' olmalı."
+  },
+  {
+   "sym": "JNUG",
+   "itiraz": "'yedek (koşullu)': Midas bulunurluğu doğrulanmadı; 2020-Q2'ye kadar 3x (karışık kaldıraçlı geçmiş); S3 ile maxDD -%51, en kötü işlem -%21; 48 mn $, 20 bp."
+  },
+  {
+   "sym": "NUGT",
+   "itiraz": "'yedek (koşullu)': S1 ile 2x döneminde t 1,90; bulunurluk doğrulanmadı."
+  },
+  {
+   "sym": "SILJ",
+   "itiraz": "Yedek kalabilir ama S5 gerekçe olarak kullanılmamalı (çürütüldü)."
+  },
+  {
+   "sym": "IAU",
+   "itiraz": "Yedek uygun; 2021-03-08 hatalı bar ortak lib.BAD_BARS'a eklenmeli."
+  }
+ ],
+ "kacirilan": "(1) Yoğunlaşma riski: S3, S4, S1 ve S2 aynı altın kompleksi bahsi; S4 günlerinin %52'si S3 ile aynı gün (getiri korelasyonu 0,81), S3 sinyallerinin 15'i ay sonuna denk geliyor; birlikte açılırsa risk 2-3 katına çıkar -> 'aynı gün tek pozisyon (GDXJ)' kuralı eklenmeli. (2) Stres anında kapanış/NAV sapması: S3'ün en iyi işlemi (12.03.2020) kısmen GDXJ'nin ~%6-7 NAV iskontosunun kapanmasından; böyle günlerde makas 2 bp değil, kapanışa yakın piyasa emri yerine limit emir şart. (3) IAU 2021-03-08 hatalı barı ortak veride düzeltilmemiş (lib.BAD_BARS); genel_tum ve leadlag_sweep'teki IAU satırları kirli. (4) DBB<-KWEB büyük olasılıkla bayat fiyat artefaktı (düşük hacimli günlerde t 3,91, yüksek hacimli günlerde 1,74); PPLT<-GDX ve GLD<-GDX'te etkinin çoğu gece. (5) Yeni fırsat bulunamadı: başabaş enflasyonun kapanışta gözlenebilir vekili (TIP-β·IEF) IS'te güçlü ama OOS'ta yok/ters. (6) IBS etkisi aileye özgü değil (genel_tum'da ETF'lerin %84'ünde kenar>0, QQQ t 3,68); S3 bu genel olgunun seçimle şişmiş bir örneği.",
+ "genel": "Kod ve zamanlama temiz: 5 adayın tamamı bağımsız motorla birebir yeniden üretildi (aynı işlem tarihleri, fark <1e-16); ileriye bakma, yanlış gün ya da maliyet hatası yok; ay sonu takvimi NYSE ile uyumlu. Ama çoklu test sonrası hiçbir aday ayakta değil (tek yönlü BH ve Bonferroni). S3 (GDXJ IBS) ailenin en sağlam bulgusu: yıl/en iyi 5 hariç tutma, permütasyon, 1.000$ maliyet ve +10 bp kaymayı geçiyor. Ancak IS kanıtı yalnız seçilen ETF'de (madenci havuzu IS t 0,51), eşik komşuluğunda IS çöküyor, O1 yalnız h3'te anlamlı ve kural kapanışa bağımlı -> zayıf (ajanın 'orta' güveni fazla). S1/S2 (ay sonu) aynı bahis; en iyi 5 işlem ya da son üç yıl çıkarılınca t<1,5 -> zayıf. S4 (GLD IBS) ve S5 (SILJ BB) çürütüldü. Lead-lag'de ajanın 'doğrulanmış, kullanılabilir gecikmeli öncü yok' sonucu doğrulandı. Gerçek zamanlı izleme kodları (GC1!, SI1!, HG1!, PL1!, XAUUSD...) ve kullanılan 28 TV kodunun tamamı doğrulanmış listede. Denetimde ~340 test ve aday başına 2x5.000 permütasyon yapıldı; yeni aday önerilmiyor."
+}

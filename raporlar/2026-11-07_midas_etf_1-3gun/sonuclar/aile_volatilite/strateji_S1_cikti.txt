@@ -1,0 +1,44 @@
+=== volatilite_S1: RSI2(SVXY)<10 & SVXY>SMA200 -> SVXY long ===
+SVXY C0 h=1                  n= 73  brüt=   98.3  net(2.5k)=   82.3  net(1k)=   64.3  net(10k)=   91.3  t= 2.44  kazanma=0.71  PF=2.04  IS=   45.7(t 0.56,n24)  OOS=  100.2(t 3.22,n49)  yıl+=0.62  maxDD= -18.9%  en_kötü=   -965bp
+SVXY C0 h=2                  n= 59  brüt=  173.3  net(2.5k)=  157.3  net(1k)=  139.3  net(10k)=  166.3  t= 3.16  kazanma=0.71  PF=2.88  IS=  143.6(t 1.15,n19)  OOS=  163.8(t 3.64,n40)  yıl+=0.62  maxDD= -14.5%  en_kötü=  -1375bp
+SVXY C0 h=3                  n= 55  brüt=  121.5  net(2.5k)=  105.5  net(1k)=   87.5  net(10k)=  114.5  t= 1.59  kazanma=0.69  PF=1.72  IS=   68.6(t 0.42,n17)  OOS=  122.0(t 1.92,n38)  yıl+=0.62  maxDD= -22.8%  en_kötü=  -1257bp
+SVXY O1 h=1                  n= 73  brüt=   42.1  net(2.5k)=   26.1  net(1k)=    8.1  net(10k)=   35.1  t= 1.12  kazanma=0.67  PF=1.40  IS=  -10.4(t-0.21,n24)  OOS=   44.0(t 1.79,n49)  yıl+=0.50  maxDD= -12.6%  en_kötü=   -679bp
+SVXY O1 h=2                  n= 59  brüt=  123.6  net(2.5k)=  107.6  net(1k)=   89.6  net(10k)=  116.6  t= 2.53  kazanma=0.68  PF=2.27  IS=  106.7(t 1.11,n19)  OOS=  108.1(t 2.46,n40)  yıl+=0.75  maxDD= -13.6%  en_kötü=   -794bp
+SVXY O1 h=3                  n= 55  brüt=   62.0  net(2.5k)=   46.0  net(1k)=   28.0  net(10k)=   55.0  t= 0.75  kazanma=0.67  PF=1.30  IS=   20.7(t 0.14,n17)  OOS=   57.3(t 0.94,n38)  yıl+=0.62  maxDD= -27.3%  en_kötü=  -1135bp
+SVXY C1 h=1                  n= 59  brüt=   62.7  net(2.5k)=   46.7  net(1k)=   28.7  net(10k)=   55.7  t= 1.51  kazanma=0.68  PF=1.68  IS=   86.2(t 1.15,n19)  OOS=   27.9(t 0.97,n40)  yıl+=0.62  maxDD= -12.6%  en_kötü=   -818bp
+SVXY C1 h=2                  n= 55  brüt=  -11.7  net(2.5k)=  -27.7  net(1k)=  -45.7  net(10k)=  -18.7  t=-0.51  kazanma=0.55  PF=0.82  IS=  -19.6(t-0.15,n17)  OOS=  -31.4(t-0.60,n38)  yıl+=0.50  maxDD= -37.5%  en_kötü=  -1234bp
+SVXY C1 h=3                  n= 50  brüt=   43.9  net(2.5k)=   27.9  net(1k)=    9.9  net(10k)=   36.9  t= 0.48  kazanma=0.60  PF=1.19  IS=   89.8(t 0.69,n16)  OOS=   -1.3(t-0.02,n34)  yıl+=0.50  maxDD= -18.0%  en_kötü=  -1102bp
+
+Ana kural SVXY C0 h=2 — yıllara göre (işlem sayısı, net toplam bp):
+sig_date        2019    2020    2021   2022    2023    2024    2025    2026
+n                4.0     3.0    12.0    1.0    15.0    10.0     4.0    10.0
+net_toplam_bp -647.0 -1042.0  4418.0 -681.0  2339.0  1236.0  1146.0  2511.0
+Kuyruk dönemleri: {'Subat_2018': 'pozisyon yok', 'Mart_2020': '1 islem, toplam net -1375 bp, en kotu -1375 bp', 'Agu_2024': '1 islem, toplam net 355 bp, en kotu 355 bp', 'Nis_2025': 'pozisyon yok', 'Kas_2026': 'pozisyon yok'}
+En kötü 3 işlem (net bp): [('2020-02-21', -1375), ('2022-01-19', -681), ('2019-08-02', -500)]
+Ana kural SVXY O1 h=2 kuyruk: {'Subat_2018': 'pozisyon yok', 'Mart_2020': '1 islem, toplam net -660 bp, en kotu -660 bp', 'Agu_2024': '1 islem, toplam net 185 bp, en kotu 185 bp', 'Nis_2025': 'pozisyon yok', 'Kas_2026': 'pozisyon yok'}
+
+=== Aile içi / uzun dönem (aynı dayanak; bağımsız kanıt DEĞİL) ===
+SVIX (SVXY sinyali) C0 h=2   n= 39  brüt=  370.5  net(2.5k)=  353.5  net(1k)=  335.5  net(10k)=  362.5  t= 4.50  kazanma=0.77  PF=5.38  IS=    nan(t  nan,n0)  OOS=  353.5(t 4.50,n39)  yıl+=1.00  maxDD=  -6.8%  en_kötü=   -683bp
+SVIX (SVXY sinyali) O1 h=2   n= 39  brüt=  276.0  net(2.5k)=  259.1  net(1k)=  241.1  net(10k)=  268.1  t= 3.45  kazanma=0.72  PF=4.04  IS=    nan(t  nan,n0)  OOS=  259.1(t 3.45,n39)  yıl+=1.00  maxDD=  -8.9%  en_kötü=   -889bp
+SVIX (SVXY sinyali) C1 h=2   n= 37  brüt=    0.2  net(2.5k)=  -16.7  net(1k)=  -34.7  net(10k)=   -7.7  t=-0.17  kazanma=0.54  PF=0.93  IS=    nan(t  nan,n0)  OOS=  -16.7(t-0.17,n37)  yıl+=0.50  maxDD= -39.4%  en_kötü=  -1902bp
+SVXY_EK C0 h=2               n= 63  brüt=  149.8  net(2.5k)=  133.8  net(1k)=  115.8  net(10k)=  142.8  t= 2.68  kazanma=0.70  PF=2.40  IS=   81.7(t 0.72,n23)  OOS=  163.8(t 3.64,n40)  yıl+=0.56  maxDD= -25.2%  en_kötü=  -1375bp
+SVXY_EK O1 h=2               n= 63  brüt=  104.3  net(2.5k)=   88.3  net(1k)=   70.3  net(10k)=   97.3  t= 2.07  kazanma=0.67  PF=1.92  IS=   54.0(t 0.60,n23)  OOS=  108.1(t 2.46,n40)  yıl+=0.67  maxDD= -16.6%  en_kötü=   -809bp
+VEKIL_S05 C0 h=2             n=135  brüt=   54.2  net(2.5k)=   38.2  net(1k)=   20.2  net(10k)=   47.2  t= 1.11  kazanma=0.59  PF=1.32  IS=   11.4(t 0.25,n94)  OOS=   99.5(t 2.33,n41)  yıl+=0.59  maxDD= -39.2%  en_kötü=  -2330bp
+    vekil 2010-2018 alt dönemi: n=76, net ort=0.1 bp, t=0.00
+VEKIL_S05 C1 h=2             n=122  brüt=   -6.2  net(2.5k)=  -22.2  net(1k)=  -40.2  net(10k)=  -13.2  t=-0.63  kazanma=0.54  PF=0.85  IS=    3.7(t 0.08,n83)  OOS=  -77.5(t-1.47,n39)  yıl+=0.53  maxDD= -46.8%  en_kötü=  -1361bp
+    vekil 2010-2018 alt dönemi: n=66, net ort=-5.3 bp, t=-0.11
+VXX ayna C0 h=2              n= 90  brüt= -153.1  net(2.5k)= -169.6  net(1k)= -187.6  net(10k)= -160.6  t=-2.03  kazanma=0.33  PF=0.58  IS=  -75.2(t-0.42,n31)  OOS= -219.3(t-2.51,n59)  yıl+=0.12  maxDD= -89.6%  en_kötü=  -2039bp
+VXX ayna O1 h=2              n= 90  brüt= -104.1  net(2.5k)= -120.6  net(1k)= -138.6  net(10k)= -111.6  t=-1.59  kazanma=0.34  PF=0.66  IS= -101.2(t-0.68,n31)  OOS= -130.8(t-1.51,n59)  yıl+=0.25  maxDD= -75.5%  en_kötü=  -1641bp
+VXX ayna C1 h=2              n= 81  brüt=  -27.3  net(2.5k)=  -43.8  net(1k)=  -61.8  net(10k)=  -34.8  t=-0.52  kazanma=0.40  PF=0.85  IS= -175.7(t-1.16,n28)  OOS=   25.8(t 0.26,n53)  yıl+=0.38  maxDD= -59.3%  en_kötü=  -1372bp
+
+=== Çoklu test ===
+  hipotez_testleri.csv: 843 test
+  ek_testler.csv: 45 test
+  aday_rsi2_ozet.csv: 48 test
+  genel kütüphane (aile ETF'leri): 2079 test; aile ajanı ek testleri: 996 test; TOPLAM 3075
+  BH-FDR q=0.10: geçen 113 test; geçiş eşiği p <= 0.00364
+  SVXY C0 h=2: p=0.00251 -> FDR GEÇER
+  SVXY O1 h=2: p=0.01401 -> FDR geçmez
+  SVXY C0 h=1: p=0.01705 -> FDR geçmez
+
+Son gün 2026-11-06: SVXY=54.72, RSI2=21.4, SMA200=55.93, VIX/VIX3M=1.042 -> sinyal YOK

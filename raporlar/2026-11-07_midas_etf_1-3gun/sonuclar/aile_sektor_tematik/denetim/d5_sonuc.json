@@ -1,0 +1,105 @@
+{
+ "tv_dogrulanmamis": [],
+ "fomc": [
+  {
+   "etf": "KRE",
+   "n_fomc": 87,
+   "gun_ici_fomc_bp": -22.525,
+   "gun_ici_diger_bp": 0.122,
+   "t_fark": -0.876,
+   "is_bp": -27.457,
+   "oos_bp": -16.729
+  },
+  {
+   "etf": "XLF",
+   "n_fomc": 87,
+   "gun_ici_fomc_bp": -23.257,
+   "gun_ici_diger_bp": 2.64,
+   "t_fark": -1.806,
+   "is_bp": -27.034,
+   "oos_bp": -18.82
+  },
+  {
+   "etf": "ITB",
+   "n_fomc": 87,
+   "gun_ici_fomc_bp": -28.677,
+   "gun_ici_diger_bp": 3.492,
+   "t_fark": -1.412,
+   "is_bp": -18.252,
+   "oos_bp": -40.926
+  },
+  {
+   "etf": "VNQ",
+   "n_fomc": 87,
+   "gun_ici_fomc_bp": -38.001,
+   "gun_ici_diger_bp": 0.572,
+   "t_fark": -2.75,
+   "is_bp": -33.64,
+   "oos_bp": -43.126
+  },
+  {
+   "etf": "XLU",
+   "n_fomc": 87,
+   "gun_ici_fomc_bp": -40.675,
+   "gun_ici_diger_bp": 2.346,
+   "t_fark": -3.188,
+   "is_bp": -54.018,
+   "oos_bp": -24.997
+  },
+  {
+   "etf": "KIE",
+   "n_fomc": 87,
+   "gun_ici_fomc_bp": -27.425,
+   "gun_ici_diger_bp": 3.157,
+   "t_fark": -2.469,
+   "is_bp": -30.372,
+   "oos_bp": -23.962
+  },
+  {
+   "etf": "SPY",
+   "n_fomc": 87,
+   "gun_ici_fomc_bp": -17.133,
+   "gun_ici_diger_bp": 2.572,
+   "t_fark": -1.816,
+   "is_bp": -18.487,
+   "oos_bp": -15.543
+  }
+ ],
+ "s1_vol": [
+  {
+   "vq": "Q1 düşük",
+   "n": "65",
+   "net_bp": "6.033",
+   "t": "0.389",
+   "en_kotu": "-287.263"
+  },
+  {
+   "vq": "Q2",
+   "n": "96",
+   "net_bp": "22.507",
+   "t": "1.418",
+   "en_kotu": "-463.879"
+  },
+  {
+   "vq": "Q3",
+   "n": "103",
+   "net_bp": "37.724",
+   "t": "1.833",
+   "en_kotu": "-996.444"
+  },
+  {
+   "vq": "Q4",
+   "n": "116",
+   "net_bp": "43.68",
+   "t": "2.023",
+   "en_kotu": "-609.33"
+  },
+  {
+   "vq": "Q5 yüksek",
+   "n": "110",
+   "net_bp": "85.318",
+   "t": "2.309",
+   "en_kotu": "-1068.752"
+  }
+ ]
+}

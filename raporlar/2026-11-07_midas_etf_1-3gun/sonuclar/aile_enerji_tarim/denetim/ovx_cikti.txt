@@ -1,0 +1,2 @@
+t+1->t+4: bayraklı gün 123, |3g| 655 vs 289 bp, oran 2.27 (t 5.70); IS oran 2.89, OOS oran 1.69
+t->t+3: bayraklı gün 123, |3g| 678 vs 287 bp, oran 2.36 (t 6.00); IS oran 2.96, OOS oran 1.80

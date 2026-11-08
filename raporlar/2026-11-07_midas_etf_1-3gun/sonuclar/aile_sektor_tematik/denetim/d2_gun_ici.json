@@ -1,0 +1,76 @@
+{
+ "SMH->SMH": [
+  {
+   "varyant": "A resmi IBS, resmi kapanışta giriş (backtest C0)",
+   "n": 121,
+   "brut_bp": 75.77,
+   "net_bp": 62.77,
+   "t_net": 2.234
+  },
+  {
+   "varyant": "B 15:30 IBS, 15:30 fiyatında giriş, ertesi resmi kapanışta çıkış",
+   "n": 118,
+   "brut_bp": 57.188,
+   "net_bp": 44.188,
+   "t_net": 1.605
+  },
+  {
+   "varyant": "C 15:30 IBS, 15:30 giriş, ertesi gün 15:30 çıkış",
+   "n": 118,
+   "brut_bp": 63.037,
+   "net_bp": 50.037,
+   "t_net": 1.877
+  },
+  {
+   "varyant": "D 15:30 IBS, resmi kapanışta giriş (yalnız sınıflama hatası)",
+   "n": 118,
+   "brut_bp": 53.279,
+   "net_bp": 40.279,
+   "t_net": 1.465
+  },
+  {
+   "varyant": "E resmi IBS ama 15:30 girişi (ayrıştırma; gerçekte uygulanamaz)",
+   "n": 121,
+   "brut_bp": 42.327,
+   "net_bp": 29.327,
+   "t_net": 1.055
+  }
+ ],
+ "SMH->SOXL": [
+  {
+   "varyant": "A resmi IBS, resmi kapanışta giriş (backtest C0)",
+   "n": 121,
+   "brut_bp": 242.73,
+   "net_bp": 228.555,
+   "t_net": 2.587
+  },
+  {
+   "varyant": "B 15:30 IBS, 15:30 fiyatında giriş, ertesi resmi kapanışta çıkış",
+   "n": 118,
+   "brut_bp": 204.232,
+   "net_bp": 190.056,
+   "t_net": 2.219
+  },
+  {
+   "varyant": "C 15:30 IBS, 15:30 giriş, ertesi gün 15:30 çıkış",
+   "n": 118,
+   "brut_bp": 223.945,
+   "net_bp": 209.77,
+   "t_net": 2.508
+  },
+  {
+   "varyant": "D 15:30 IBS, resmi kapanışta giriş (yalnız sınıflama hatası)",
+   "n": 118,
+   "brut_bp": 180.255,
+   "net_bp": 166.08,
+   "t_net": 1.938
+  },
+  {
+   "varyant": "E resmi IBS ama 15:30 girişi (ayrıştırma; gerçekte uygulanamaz)",
+   "n": 121,
+   "brut_bp": 138.029,
+   "net_bp": 123.854,
+   "t_net": 1.435
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+=== 1) Kaldıraç/ters takip kaybı e = r_lev - L r_1x (günlük, bp) ===
+  BITX: ort  -11.5 bp/gün (t=-8.72), medyan -7.3, n=708
+  BITU: ort  -11.4 bp/gün (t=-3.49), medyan -6.4, n=653
+  SBIT: ort    3.1 bp/gün (t=3.14), medyan 3.9, n=653
+  BITI: ort    0.3 bp/gün (t=0.24), medyan 3.1, n=708
+  ETHU: ort   -7.9 bp/gün (t=-6.21), medyan -8.2, n=576
+
+=== 2) BITO dağıtım kaydı ===
+  BITO div toplamı (veri): 0.0000 $; div>0 gün sayısı: 0
+  BITO-IBIT açılış boşluğu farkı: ay ilk günü -295 bp (n=34), diğer -3 bp
+
+=== 3) Uzun dönem: BTC UTC günlük mumunda haftanın günleri (2016-11..2023-05 ve 2023-06+) ===
+  2016-11-01..2023-05-31: {0: (np.float64(46.2), np.float64(1.92)), 1: (np.float64(22.0), np.float64(1.08)), 2: (np.float64(36.1), np.float64(1.57)), 3: (np.float64(-1.6), np.float64(-0.06)), 4: (np.float64(24.9), np.float64(1.14)), 5: (np.float64(31.9), np.float64(1.91)), 6: (np.float64(4.1), np.float64(0.25))} (0=Pzt ... 3=Per; bp, t)
+  2023-06-01..2026-11-07: {0: (np.float64(45.1), np.float64(2.1)), 1: (np.float64(-7.4), np.float64(-0.39)), 2: (np.float64(44.1), np.float64(2.17)), 3: (np.float64(-33.4), np.float64(-1.72)), 4: (np.float64(14.9), np.float64(0.78)), 5: (np.float64(0.4), np.float64(0.04)), 6: (np.float64(13.7), np.float64(0.96))} (0=Pzt ... 3=Per; bp, t)
+
+=== 4) BTC 09:30-16:00 ET (saatlik) Perşembe: 5 günün en iyisi permütasyonu (2023-06+) ===
+  Perşembe BTC gün içi -41.0 bp; 'en kötü gün' seçimine göre düzeltilmiş p=0.0022
+   2023: Perşembe  -23.5 bp (n=30), diğer   19.3
+   2024: Perşembe  -59.9 bp (n=50), diğer   13.6
+   2025: Perşembe  -55.2 bp (n=48), diğer    1.7
+   2026: Perşembe  -16.0 bp (n=44), diğer    8.1
+
+=== 5) Kaçırılan fırsat testi: IBIT gece (C0 al -> O1 sat) büyük pozisyonda ve koşullu ===
+  her gece, 2500$: net 2.2 bp (brüt 16.5, t_brüt=1.89), n=708
+  her gece, 10000$: net 11.2 bp (brüt 16.5, t_brüt=1.89), n=708
+  her gece, 25000$: net 13.0 bp (brüt 16.5, t_brüt=1.89), n=708
+  gün içi z<=-1 (gün içi sert düşüş sonrası gece): n=94, brüt 36.6 bp, t=1.10
+  gün içi z>=+1: n=80, brüt -1.2 bp, t=-0.05
+  Perşembe gecesi (Per kapanış->Cum açılış): n=141, brüt 35.5 bp, t=2.24
+  Çarşamba gecesi: n=144, brüt 16.7 bp, t=0.99
+  BTC Perşembe gün içi -> Perşembe gecesi (16:00->Cum 09:30): 31.9 bp (t=2.21, n=172)

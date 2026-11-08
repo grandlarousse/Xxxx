@@ -1,0 +1,21 @@
+tum_92k {'iki_yonlu_BH': np.True_, 'tek_yonlu_BH': np.False_, 'brut_kenar_tek_yonlu_BH': np.False_, 'bonferroni_iki_yonlu': False, 'BH_gecen_iki_yonlu': 19520, 'BH_gecen_tek_yonlu': 0, 'SMH_p': 0.0004189700638134, 'SMH_p1': 0.00020948503190670273, 'SMH_p1e': 0.00023014079658972437}
+aile_22k {'iki_yonlu_BH': np.True_, 'tek_yonlu_BH': np.False_, 'brut_kenar_tek_yonlu_BH': np.False_, 'bonferroni_iki_yonlu': False, 'BH_gecen_iki_yonlu': 995, 'BH_gecen_tek_yonlu': 0, 'SMH_p': 0.0004189700638134, 'SMH_p1': 0.00020948503190670273, 'SMH_p1e': 0.00023014079658972437}
+  aile tek yönlü BH geçenler (sym sayısı): {}
+
+Ajanın 1302 testi: iki yönlü BH geçen 92 | tek yönlü (pozitif) BH geçen 15
+                kaynak                               test         t        p1     etki_bp
+765   hipotez_KALDIRAC         SMH IBS_lt02 -> SOXL C0 h1  4.225516  0.000016  146.458054
+738   hipotez_KALDIRAC        SOXX IBS_lt02 -> SOXL C0 h1  4.153601  0.000021  138.356476
+1293       strateji_S1         SOXX IBS<0.2 -> SOXX C0 h1  3.911629  0.000052   43.273424
+1284       strateji_S1           SMH IBS<0.2 -> SMH C0 h1  3.689904  0.000125   41.767591
+766   hipotez_KALDIRAC         SMH IBS_lt02 -> SOXL C0 h2  3.430371  0.000341  160.493056
+1285       strateji_S1           SMH IBS<0.2 -> SMH C0 h2  3.410961  0.000355   51.706828
+800   hipotez_KALDIRAC         XLK IBS_lt02 -> TECL C1 h3  3.337203  0.000481  156.813176
+1286       strateji_S1           SMH IBS<0.2 -> SMH C0 h3  3.328824  0.000481   65.969386
+783   hipotez_KALDIRAC   SMH IBS_lt01_dusus -> SOXL C0 h1  3.350717  0.000483  178.109338
+756   hipotez_KALDIRAC  SOXX IBS_lt01_dusus -> SOXL C0 h1  3.308203  0.000556  176.005392
+1294       strateji_S1         SOXX IBS<0.2 -> SOXX C0 h2  3.281334  0.000560   50.925014
+741   hipotez_KALDIRAC        SOXX IBS_lt02 -> SOXL O1 h1  3.186907  0.000789   77.163329
+757   hipotez_KALDIRAC  SOXX IBS_lt01_dusus -> SOXL C0 h2  3.181263  0.000851  213.712746
+739   hipotez_KALDIRAC        SOXX IBS_lt02 -> SOXL C0 h2  3.162192  0.000858  147.853529
+784   hipotez_KALDIRAC   SMH IBS_lt01_dusus -> SOXL C0 h2  3.177627  0.000865  209.052109

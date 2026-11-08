@@ -89,13 +89,27 @@ def p_of(t, n):
     return lib.t_to_p(t, n)
 
 
-def clustered_t(tr, key="week"):
-    """Aile havuzu: işlemleri sinyal haftasına göre grupla (aynı haftadaki farklı ETF işlemlerinin ortalaması),
-    hafta serisinin t'si. Kesitsel korelasyona karşı muhafazakâr."""
-    if tr is None or len(tr) == 0: return np.nan, 0, np.nan
+def clustered_t(tr, key="W-FRI", col="net"):
+    """Aile havuzu: işlem düzeyi ortalamanın küme-sağlam (CR1) t'si; küme = sinyal haftası (key='W-FRI')
+    ya da ayı (key='M'). Aynı haftadaki farklı ETF işlemleri (kesitsel bağımlılık) tek küme sayılır.
+    Dönüş: (t, küme sayısı, ortalama_bp)."""
+    if tr is None or len(tr) < 3: return np.nan, 0, np.nan
+    x = tr[col].values.astype(float); ok = np.isfinite(x)
+    x = x[ok]
+    d = pd.to_datetime(tr["sig_date"]).values[ok]
+    g = pd.PeriodIndex(pd.DatetimeIndex(d), freq=key)
+    m = x.mean(); N = len(x)
+    s = pd.Series(x - m).groupby(g.astype(str).values).sum().values
+    G = len(s)
+    if G < 3: return np.nan, G, m * 1e4
+    var = (G / (G - 1)) * (s ** 2).sum() / N ** 2
+    return (m / math.sqrt(var) if var > 0 else np.nan), G, float(m * 1e4)
+
+
+def week_mean_t(tr, col="net"):
+    """Alternatif tahmin hedefi: her hafta eşit ağırlık (hafta ortalamalarının t'si)."""
     d = pd.to_datetime(tr["sig_date"])
-    wk = d.dt.to_period("W-FRI")
-    s = tr.groupby(wk)["net"].mean()
+    s = tr.groupby(d.dt.to_period("W-FRI").values)[col].mean()
     return tstat(s.values), len(s), float(s.mean() * 1e4)
 
 

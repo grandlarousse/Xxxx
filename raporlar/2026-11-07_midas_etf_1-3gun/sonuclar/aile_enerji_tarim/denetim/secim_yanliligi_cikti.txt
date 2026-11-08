@@ -1,0 +1,48 @@
+genel_tum satır: 92664 | aile satır: 8316 | aile ETF: 28 | sinyal: 31 | exit türleri: <ArrowStringArray>
+['sabit', 'kural_max3']
+Length: 2, dtype: str
+
+(1) MR_bb20_alt C1 h2 sabit, kategori bazında: ETF sayısı, ort net bp, t>2 olan oranı, ort t
+                         n_etf  ort_net  ort_t  t_gt2
+cat                                                  
+abd_genis                   10   -40.02  -1.15   0.00
+abd_kaldiracli              18   -50.15  -0.80   0.00
+altin_gumus_metal           13    16.07   0.29   0.00
+doviz                       13   -35.07  -3.54   0.00
+enerji_emtia                11    31.58   0.83   0.27
+faktor_temettu              27   -36.89  -1.08   0.00
+kripto                      13  -122.86  -0.84   0.00
+madenci                      9    58.23   0.86   0.11
+sektor                      34   -37.96  -0.86   0.00
+sektor_kaldiracli           18   -84.00  -0.71   0.00
+tahvil                      27   -14.12  -3.44   0.00
+tarim_genis_emtia           10    -5.48  -0.34   0.00
+tek_hisse_kaldiracli        12    74.12   0.35   0.00
+tematik                     22   -19.36  -0.54   0.00
+uluslararasi                57   -37.13  -1.06   0.00
+uluslararasi_kaldiracli     11   -48.68  -0.63   0.00
+volatilite                   7    -6.75  -0.03   0.00
+Evren geneli: ort t -0.98, t>2 oranı 0.013, t<-2 oranı 0.112 (n=312)
+Diğer modlar (USO):
+mode  h  exit   n  mean_net_bp     t  is_t  oos_t
+  C0  1 sabit 103       -39.82 -1.02 -1.13   0.01
+  C0  2 sabit  66       -37.73 -0.71 -1.14   0.51
+  C0  3 sabit  54        -9.84 -0.14 -1.00   1.54
+  O1  1 sabit 103       -28.19 -1.19 -1.07  -0.54
+  O1  2 sabit  66        -4.39 -0.10 -0.75   1.15
+  O1  3 sabit  54        67.40  1.23 -0.03   2.57
+  C1  1 sabit  66        18.11  0.51 -0.19   1.33
+  C1  2 sabit  54       121.43  2.95  1.13   3.47
+  C1  3 sabit  49        58.15  0.95 -0.57   2.94
+
+(2) Ailede IS'e göre seçim (n>=40 satır: 8149)
+  IS t'ye göre en iyi 10: IS ort net 184.3 bp, OOS ort net 4.1 bp, OOS>0 oranı 0.30, OOS ort t -0.09
+  IS t'ye göre en iyi 25: IS ort net 168.5 bp, OOS ort net -40.2 bp, OOS>0 oranı 0.20, OOS ort t -0.53
+  IS t'ye göre en iyi 50: IS ort net 145.7 bp, OOS ort net -31.6 bp, OOS>0 oranı 0.18, OOS ort t -0.50
+  IS t'ye göre en iyi 100: IS ort net 146.5 bp, OOS ort net -23.8 bp, OOS>0 oranı 0.26, OOS ort t -0.41
+  Tüm satırlar: OOS ort net -16.1 bp, OOS>0 oranı 0.29
+  Corr(IS t, OOS t) = 0.491 (Spearman 0.318)
+
+(3) USO MR_bb20_alt C1 h2 IS t sırası: [{'is_t': 1.1326370745249572, 'rk': 386.0}] / 8149
+  Tam örneklem t'ye göre en iyi 30 satırın petrol kümesinden olanı: 24
+  Aile genel satırlarında tek yönlü BH(q=0,10) geçen: 0 / 8316 | en küçük p1: 5.25592278898455e-05

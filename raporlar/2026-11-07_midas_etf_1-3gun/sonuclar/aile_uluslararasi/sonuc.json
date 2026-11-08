@@ -1,0 +1,1683 @@
+{
+ "family": "uluslararasi",
+ "ozet": "Uluslararası ailede (68 ETF; 42'si >= 10 mn $/gün, 29 likit bağımsız temsilci) genel kütüphane ve aile hipotezleri gün-kümeli havuz testleriyle sınandı (toplam 564 havuz testi). Genel kütüphanede (IBS, RSI2, takvim, VIX rejimi) ailede tutarlı ve FDR'den geçen sinyal YOK; ülke IBS etkisi (Pandey-Joshi) maliyet sonrası negatif. Tek aday: uluslararasi_S1 (UL03, Levy-Lieberman): SPY <= -%1,5 olan günde SPY'dan daha çok düşen Asya ETF'lerini (EWJ, EWY, EWT, FXI, EWA, EWH) kapanışta al, ertesi kapanışta sat. Sepet: 110 sinyal günü, net +56 bp (2.500$), t 2.22, IS +68 / OOS +46 bp, yılların %78'i pozitif; listede olmayan 6 Asya ETF'inde de pozitif, eşzamanlı Amerika/Avrupa plasebolarında zayıf (mekanizma tutarlı). Zayıflıklar: kapanışa bağımlı (kenarın çoğu gece boşluğunda), getiri 2020 ve 2026 gibi yüksek oynaklık dönemlerinde yoğun, tüm varyantlarla birlikte FDR'yi geçmiyor (yalnız önceden belirlenmiş 6 birincil hipotez içinde geçiyor) -> güven orta. uluslararasi_S2 (EWY IBS dip dönüşü) eşiği biçimsel geçse de taramadan seçilmiş ve FDR'siz -> düşük güven, keşifsel. Lead-lag: aile içi 2.685 hedef-öncü çiftinde doğrusal gecikmeli öncü FDR'den geçmiyor; 'yetişme' sinyalleri ETF'in kendi dönüşünü yansıtıyor; KWEB->EEM ilişkisi kural olarak işe yaramıyor. İzleme: 4 kabul (EWY, EWT, FXI, EWJ), 12 yedek (EWA, EWH, EEM, IEMG, EFA, VGK, EWZ, INDA, ASHR, CQQQ, KORU, YINN). TUR ince (6,8 mn $, 27 bp) -> red. Kaldıraçlı ürünler (KORU/YINN) yalnız dayanak sinyaliyle uygulama aracı; Midas bulunurluğu doğrulanmadı. Bu ailede PTP/K-1 ürünü yok.",
+ "izleme": [
+  {
+   "sym": "EWY",
+   "karar": "kabul",
+   "gerekce": "En likit (medyan 2,36 mlr $/gün) ve en ucuz (13 bp) aile üyesi; maliyet/oynaklık 0,03 (ailenin en düşüğü). S1 sepetinin en güçlü üyesi (C0 h=1 net +108 bp, t 2,41, IS ve OOS > 0) ve S2'nin (keşifsel) işlem aracı. Güçlü negatif 1 günlük otokorelasyon (IS -0,16 / OOS -0,12).",
+   "tv": "AMEX:EWY",
+   "likidite_mn_usd": 2361.0,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 378.0
+  },
+  {
+   "sym": "FXI",
+   "karar": "kabul",
+   "gerekce": "Çin büyük şirketleri için en likit araç (872 mn $, 15 bp). S1 sepet üyesi (C0 h=1 net +37 bp, t 1,17; h=2 +108 bp, t 2,19). MCHI aynı hisseleri taşır (kopya; daha az likit).",
+   "tv": "AMEX:FXI",
+   "likidite_mn_usd": 871.6,
+   "maliyet_bp": 14.9,
+   "vol_1d_bp": 122.0
+  },
+  {
+   "sym": "EWJ",
+   "karar": "kabul",
+   "gerekce": "Japonya için tek likit ve ucuz araç (482 mn $, 14 bp). S1 sepet üyesi ama tek başına zayıf (n=32, net +30 bp, t 1,21, OOS +5 bp). Gerçek zamanlı izleme kolay (OSE Nikkei vadelisi, USDJPY).",
+   "tv": "AMEX:EWJ",
+   "likidite_mn_usd": 482.1,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 140.0
+  },
+  {
+   "sym": "EWT",
+   "karar": "kabul",
+   "gerekce": "Likit (450 mn $), 14 bp maliyet, maliyet/oynaklık 0,06. S1 sepet üyesi (C0 h=1 net +63 bp, t 2,00; IS +79 / OOS +56).",
+   "tv": "AMEX:EWT",
+   "likidite_mn_usd": 450.5,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 221.0
+  },
+  {
+   "sym": "EEM",
+   "karar": "yedek",
+   "gerekce": "Ailenin genel EM ölçütü, çok likit (1,6 mlr $, 13,7 bp). Doğrulanmış strateji yok (S1 kuralı EEM'de n=46, net +57 bp, t 1,6). Kopyalar (IEMG, VWO) arasından en likidi.",
+   "tv": "AMEX:EEM",
+   "likidite_mn_usd": 1617.2,
+   "maliyet_bp": 13.7,
+   "vol_1d_bp": 166.0
+  },
+  {
+   "sym": "EFA",
+   "karar": "yedek",
+   "gerekce": "Gelişmiş ülkeler (EAFE) için en likit araç (1,5 mlr $, 13 bp) ama 1 günlük oynaklık düşük (104 bp; maliyet/oynaklık 0,125). Doğrulanmış strateji yok.",
+   "tv": "AMEX:EFA",
+   "likidite_mn_usd": 1517.9,
+   "maliyet_bp": 13.0,
+   "vol_1d_bp": 104.0
+  },
+  {
+   "sym": "EWZ",
+   "karar": "yedek",
+   "gerekce": "Likit (977 mn $, 15 bp), yüksek oynaklık (222 bp). Doğrulanmış strateji/öncü yok (S1 plasebo grubunda; USO öncülüğü yok).",
+   "tv": "AMEX:EWZ",
+   "likidite_mn_usd": 977.4,
+   "maliyet_bp": 15.1,
+   "vol_1d_bp": 222.0
+  },
+  {
+   "sym": "IEMG",
+   "karar": "yedek",
+   "gerekce": "EEM'in kopyası (MSCI EM IMI); bağımsız kanıt değil. 897 mn $, 14 bp; EEM'e yedek.",
+   "tv": "AMEX:IEMG",
+   "likidite_mn_usd": 896.5,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 161.0
+  },
+  {
+   "sym": "KORU",
+   "karar": "yedek",
+   "gerekce": "EWY'nin 3x kaldıraçlısı (405 mn $, 26 bp). Kendi sinyali yok; EWY sinyaliyle (S1/S2) kaldıraçlı uygulama aracı. Midas'ta bulunurluk doğrulanmadı; 1 günlük oynaklık 1.100 bp, son 1 yılda en kötü gün -%42.",
+   "tv": "AMEX:KORU",
+   "likidite_mn_usd": 405.0,
+   "maliyet_bp": 26.5,
+   "vol_1d_bp": 1104.0
+  },
+  {
+   "sym": "INDA",
+   "karar": "yedek",
+   "gerekce": "Hindistan için en likit (299 mn $, 14 bp). S1 kuralı INDA'da C0 h=1 net +111 bp (n=33, t 1,82) ama OOS -8 bp; doğrulanmış değil. EPI kopya.",
+   "tv": "CBOE:INDA",
+   "likidite_mn_usd": 299.3,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 102.0
+  },
+  {
+   "sym": "VGK",
+   "karar": "yedek",
+   "gerekce": "Avrupa temsilcisi (234 mn $, 14 bp). Doğrulanmış strateji yok; FDAX/SX5E ile gerçek zamanlı izlenebilir. EZU yakın kopya.",
+   "tv": "AMEX:VGK",
+   "likidite_mn_usd": 234.0,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 105.0
+  },
+  {
+   "sym": "ASHR",
+   "karar": "yedek",
+   "gerekce": "Çin A payları (148 mn $, 16 bp). S1 genişletilmiş kontrolde C0 h=1 net +51 bp (t 1,60), IS ve OOS > 0.",
+   "tv": "AMEX:ASHR",
+   "likidite_mn_usd": 147.8,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 115.0
+  },
+  {
+   "sym": "EWA",
+   "karar": "yedek",
+   "gerekce": "S1 sepet üyesi (C0 h=1 net +51 bp) ama OOS negatif (-8 bp); 86 mn $, 16 bp.",
+   "tv": "AMEX:EWA",
+   "likidite_mn_usd": 86.4,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 117.0
+  },
+  {
+   "sym": "EWH",
+   "karar": "yedek",
+   "gerekce": "S1 sepet üyesi (C0 h=1 net +49 bp, n=29; OOS +8 bp); 67 mn $, 16 bp.",
+   "tv": "AMEX:EWH",
+   "likidite_mn_usd": 67.1,
+   "maliyet_bp": 16.3,
+   "vol_1d_bp": 110.0
+  },
+  {
+   "sym": "YINN",
+   "karar": "yedek",
+   "gerekce": "FXI'nin 3x kaldıraçlısı (56 mn $, 16 bp). FXI sinyaliyle S1 uygulaması (C0 h=2 net +336 bp, t 2,27; C0 h=1 t 1,25). Midas'ta bulunurluk doğrulanmadı.",
+   "tv": "AMEX:YINN",
+   "likidite_mn_usd": 55.8,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 362.0
+  },
+  {
+   "sym": "CQQQ",
+   "karar": "yedek",
+   "gerekce": "Çin teknoloji (46 mn $, 20 bp). S1 genişletilmiş kontrolde C0 h=1 net +47 bp (t 1,60), IS ve OOS > 0.",
+   "tv": "AMEX:CQQQ",
+   "likidite_mn_usd": 45.9,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 194.0
+  },
+  {
+   "sym": "IEFA",
+   "karar": "red",
+   "gerekce": "EFA kopyası; EFA daha likit.",
+   "tv": "CBOE:IEFA",
+   "likidite_mn_usd": 983.5,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 104.0
+  },
+  {
+   "sym": "VEA",
+   "karar": "red",
+   "gerekce": "EFA kopyası; EFA daha likit.",
+   "tv": "AMEX:VEA",
+   "likidite_mn_usd": 838.1,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 115.0
+  },
+  {
+   "sym": "VWO",
+   "karar": "red",
+   "gerekce": "EEM/IEMG kopyası (FTSE EM); bağımsız kanıt değil. EEM daha likit.",
+   "tv": "AMEX:VWO",
+   "likidite_mn_usd": 481.2,
+   "maliyet_bp": 14.0,
+   "vol_1d_bp": 114.0
+  },
+  {
+   "sym": "MCHI",
+   "karar": "red",
+   "gerekce": "FXI ile büyük ölçüde aynı hisseler (kopya); FXI daha likit/ucuz.",
+   "tv": "NASDAQ:MCHI",
+   "likidite_mn_usd": 142.8,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 120.0
+  },
+  {
+   "sym": "EWC",
+   "karar": "red",
+   "gerekce": "ABD ile eşzamanlı; düşük oynaklık (95 bp), maliyet/oynaklık 0,17; strateji yok.",
+   "tv": "AMEX:EWC",
+   "likidite_mn_usd": 100.1,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 95.0
+  },
+  {
+   "sym": "EWW",
+   "karar": "red",
+   "gerekce": "Likit (98 mn $) ama strateji/öncü yok; S1 plasebosunda negatif (eşzamanlı piyasa).",
+   "tv": "AMEX:EWW",
+   "likidite_mn_usd": 97.5,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 140.0
+  },
+  {
+   "sym": "ILF",
+   "karar": "red",
+   "gerekce": "Latin Amerika 40 (%60 Brezilya) — EWZ ile örtüşür; strateji yok.",
+   "tv": "AMEX:ILF",
+   "likidite_mn_usd": 89.6,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 170.0
+  },
+  {
+   "sym": "EZU",
+   "karar": "red",
+   "gerekce": "VGK'nın yakın kopyası (Euro Bölgesi); VGK daha likit/ucuz.",
+   "tv": "CBOE:EZU",
+   "likidite_mn_usd": 82.3,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 116.0
+  },
+  {
+   "sym": "EWU",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 68 mn $, maliyet 16 bp, maliyet/oynaklık 0.16.",
+   "tv": "AMEX:EWU",
+   "likidite_mn_usd": 68.1,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 101.0
+  },
+  {
+   "sym": "EWG",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 58 mn $, maliyet 16 bp, maliyet/oynaklık 0.14.",
+   "tv": "AMEX:EWG",
+   "likidite_mn_usd": 57.9,
+   "maliyet_bp": 16.0,
+   "vol_1d_bp": 117.0
+  },
+  {
+   "sym": "DXJ",
+   "karar": "red",
+   "gerekce": "EWJ'nin kur korumalı yakın kopyası (50 mn $, 20 bp). Taramada QQQ/SPY'dan ters yönlü gecikme FDR'yi geçti ama eşik kuralına çevrildiğinde (SPY z<=-2 -> DXJ al) kâr yok (C0 h=1 net -1 bp).",
+   "tv": "AMEX:DXJ",
+   "likidite_mn_usd": 49.8,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 119.0
+  },
+  {
+   "sym": "EWL",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 28 mn $, maliyet 20 bp, maliyet/oynaklık 0.19.",
+   "tv": "AMEX:EWL",
+   "likidite_mn_usd": 27.7,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 106.0
+  },
+  {
+   "sym": "EWS",
+   "karar": "red",
+   "gerekce": "25 mn $, 20 bp; S1 genişletilmiş kontrolde pozitif (t 1,16) ama strateji yok.",
+   "tv": "AMEX:EWS",
+   "likidite_mn_usd": 25.2,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 101.0
+  },
+  {
+   "sym": "YANG",
+   "karar": "red",
+   "gerekce": "FXI'nin 3x tersi; uzun-tek yönlü stratejimiz yok. Ters yön için KWEB/FXI düşüşü sonrası FXI ertesi gün ortalaması negatif değil (dönüş) -> kullanım alanı yok.",
+   "tv": "AMEX:YANG",
+   "likidite_mn_usd": 24.6,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 360.0
+  },
+  {
+   "sym": "EPI",
+   "karar": "red",
+   "gerekce": "INDA kopyası; INDA daha likit.",
+   "tv": "AMEX:EPI",
+   "likidite_mn_usd": 24.1,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 101.0
+  },
+  {
+   "sym": "ECH",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 23 mn $, maliyet 20 bp, maliyet/oynaklık 0.12.",
+   "tv": "CBOE:ECH",
+   "likidite_mn_usd": 23.0,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 163.0
+  },
+  {
+   "sym": "EWP",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 21 mn $, maliyet 20 bp, maliyet/oynaklık 0.16.",
+   "tv": "AMEX:EWP",
+   "likidite_mn_usd": 21.2,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 126.0
+  },
+  {
+   "sym": "KSA",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 20 mn $, maliyet 20 bp, maliyet/oynaklık 0.20.",
+   "tv": "AMEX:KSA",
+   "likidite_mn_usd": 20.0,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 98.0
+  },
+  {
+   "sym": "EWI",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 18 mn $, maliyet 20 bp, maliyet/oynaklık 0.16.",
+   "tv": "AMEX:EWI",
+   "likidite_mn_usd": 18.5,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 123.0
+  },
+  {
+   "sym": "EWQ",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 15 mn $, maliyet 20 bp, maliyet/oynaklık 0.18.",
+   "tv": "AMEX:EWQ",
+   "likidite_mn_usd": 15.0,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 111.0
+  },
+  {
+   "sym": "ARGT",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 15 mn $, maliyet 20 bp, maliyet/oynaklık 0.11.",
+   "tv": "AMEX:ARGT",
+   "likidite_mn_usd": 14.8,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 176.0
+  },
+  {
+   "sym": "EPOL",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 14 mn $, maliyet 20 bp, maliyet/oynaklık 0.13.",
+   "tv": "AMEX:EPOL",
+   "likidite_mn_usd": 14.2,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 149.0
+  },
+  {
+   "sym": "EZA",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 13 mn $, maliyet 20 bp, maliyet/oynaklık 0.10.",
+   "tv": "AMEX:EZA",
+   "likidite_mn_usd": 12.7,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 209.0
+  },
+  {
+   "sym": "CWEB",
+   "karar": "red",
+   "gerekce": "KWEB 2x; likidite sınırda (12 mn $). S1 kuralı KWEB sinyaliyle C0 h=1 net +145 bp (t 2,33) — ilginç ama dayanak KWEB başka ailede ve araç ince.",
+   "tv": "AMEX:CWEB",
+   "likidite_mn_usd": 12.3,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 336.0
+  },
+  {
+   "sym": "VNM",
+   "karar": "red",
+   "gerekce": "S1 genişletilmiş kontrolde güçlü (C0 h=1 net +98 bp, t 2,07) fakat likidite sınırda (12 mn $), 20 bp; tek ETF seçimi seçim yanlılığı riski taşır.",
+   "tv": "CBOE:VNM",
+   "likidite_mn_usd": 12.1,
+   "maliyet_bp": 20.0,
+   "vol_1d_bp": 153.0
+  },
+  {
+   "sym": "EIDO",
+   "karar": "red",
+   "gerekce": "Doğrulanmış strateji/öncü yok (genel kütüphane ve aile hipotezlerinde maliyet sonrası anlamlı sonuç yok); medyan 11 mn $, maliyet 22 bp, maliyet/oynaklık 0.11.",
+   "tv": "AMEX:EIDO",
+   "likidite_mn_usd": 11.3,
+   "maliyet_bp": 21.9,
+   "vol_1d_bp": 198.0
+  },
+  {
+   "sym": "EIS",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 8.7 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",
+   "tv": "AMEX:EIS",
+   "likidite_mn_usd": 8.7,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 156.0
+  },
+  {
+   "sym": "EDC",
+   "karar": "red",
+   "gerekce": "EEM 3x; likidite ince (7 mn $), 27 bp.",
+   "tv": "AMEX:EDC",
+   "likidite_mn_usd": 7.3,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 495.0
+  },
+  {
+   "sym": "TUR",
+   "karar": "red",
+   "gerekce": "Türk yatırımcı için ilginç ama ince: medyan 6,8 mn $/gün, tahmini makas 15 bp (gidiş-dönüş 27 bp; 1.000$'da 45 bp). Gecikmeli öncü yok (SPY/DIA/XLF'ten ters gecikme yalnız IS'te); genel kütüphanede hiçbir sinyal maliyeti geçmiyor. İzlenecekse BIST:XU100 ve FX_IDC:USDTRY gerçek zamanlı; uzatılmış saatte yalnız limit emir.",
+   "tv": "NASDAQ:TUR",
+   "likidite_mn_usd": 6.8,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 168.0
+  },
+  {
+   "sym": "EWM",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 6.6 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",
+   "tv": "AMEX:EWM",
+   "likidite_mn_usd": 6.6,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 91.0
+  },
+  {
+   "sym": "EWD",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 5.9 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",
+   "tv": "AMEX:EWD",
+   "likidite_mn_usd": 5.9,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 131.0
+  },
+  {
+   "sym": "EWN",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 5.0 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",
+   "tv": "AMEX:EWN",
+   "likidite_mn_usd": 5.0,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 147.0
+  },
+  {
+   "sym": "GREK",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 4.7 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",
+   "tv": "AMEX:GREK",
+   "likidite_mn_usd": 4.7,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 163.0
+  },
+  {
+   "sym": "UAE",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 4.4 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",
+   "tv": "NASDAQ:UAE",
+   "likidite_mn_usd": 4.4,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 150.0
+  },
+  {
+   "sym": "EPU",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 3.9 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",
+   "tv": "AMEX:EPU",
+   "likidite_mn_usd": 3.9,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 205.0
+  },
+  {
+   "sym": "THD",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 3.8 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",
+   "tv": "AMEX:THD",
+   "likidite_mn_usd": 3.8,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 141.0
+  },
+  {
+   "sym": "EDZ",
+   "karar": "red",
+   "gerekce": "EEM -3x; ince (3,8 mn $).",
+   "tv": "AMEX:EDZ",
+   "likidite_mn_usd": 3.8,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 490.0
+  },
+  {
+   "sym": "BRZU",
+   "karar": "red",
+   "gerekce": "EWZ 2x; ince (3,7 mn $).",
+   "tv": "AMEX:BRZU",
+   "likidite_mn_usd": 3.7,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 439.0
+  },
+  {
+   "sym": "EPHE",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 2.9 mn $/gün < 10), tahmini gidiş-dönüş maliyet 27 bp; strateji yok.",
+   "tv": "AMEX:EPHE",
+   "likidite_mn_usd": 2.9,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 121.0
+  },
+  {
+   "sym": "CHAU",
+   "karar": "red",
+   "gerekce": "ASHR 2x; ince (2,3 mn $).",
+   "tv": "AMEX:CHAU",
+   "likidite_mn_usd": 2.3,
+   "maliyet_bp": 27.0,
+   "vol_1d_bp": 229.0
+  },
+  {
+   "sym": "EWO",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 1.0 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",
+   "tv": "AMEX:EWO",
+   "likidite_mn_usd": 1.0,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 132.0
+  },
+  {
+   "sym": "EURL",
+   "karar": "red",
+   "gerekce": "VGK 3x; çok ince (1 mn $).",
+   "tv": "AMEX:EURL",
+   "likidite_mn_usd": 1.0,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 314.0
+  },
+  {
+   "sym": "INDL",
+   "karar": "red",
+   "gerekce": "INDA 2x; çok ince (0,9 mn $).",
+   "tv": "AMEX:INDL",
+   "likidite_mn_usd": 0.9,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 205.0
+  },
+  {
+   "sym": "NORW",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 0.8 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",
+   "tv": "AMEX:NORW",
+   "likidite_mn_usd": 0.8,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 112.0
+  },
+  {
+   "sym": "ENZL",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 0.8 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",
+   "tv": "NASDAQ:ENZL",
+   "likidite_mn_usd": 0.8,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 105.0
+  },
+  {
+   "sym": "MEXX",
+   "karar": "red",
+   "gerekce": "EWW 3x; çok ince (0,6 mn $).",
+   "tv": "AMEX:MEXX",
+   "likidite_mn_usd": 0.6,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 406.0
+  },
+  {
+   "sym": "EDEN",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 0.5 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",
+   "tv": "CBOE:EDEN",
+   "likidite_mn_usd": 0.5,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 127.0
+  },
+  {
+   "sym": "EWK",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 0.4 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",
+   "tv": "AMEX:EWK",
+   "likidite_mn_usd": 0.4,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 103.0
+  },
+  {
+   "sym": "EFNL",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 0.4 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",
+   "tv": "CBOE:EFNL",
+   "likidite_mn_usd": 0.4,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 129.0
+  },
+  {
+   "sym": "CHIQ",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 0.4 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",
+   "tv": "AMEX:CHIQ",
+   "likidite_mn_usd": 0.4,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 137.0
+  },
+  {
+   "sym": "QAT",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 0.2 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",
+   "tv": "NASDAQ:QAT",
+   "likidite_mn_usd": 0.2,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 97.0
+  },
+  {
+   "sym": "KEMQ",
+   "karar": "red",
+   "gerekce": "Likidite yetersiz (medyan 0.1 mn $/gün < 10), tahmini gidiş-dönüş maliyet 47 bp; strateji yok.",
+   "tv": "AMEX:KEMQ",
+   "likidite_mn_usd": 0.1,
+   "maliyet_bp": 47.0,
+   "vol_1d_bp": 173.0
+  }
+ ],
+ "stratejiler": [
+  {
+   "id": "uluslararasi_S1",
+   "ad": "ABD sert düşüş günü Asya aşırı tepki dönüşü (UL03, sepet)",
+   "kural": "Günlük veri (TradingView'da temettü düzeltmesi 'ADJ' açık). Sinyal günü t: AMEX:SPY günlük değişimi = close/close[1]-1 <= -%1,50. Bu günde sepetteki her ETF için (AMEX:EWJ, AMEX:EWY, AMEX:EWT, AMEX:FXI, AMEX:EWA, AMEX:EWH) kendi günlük değişimi SPY'ın günlük değişiminden küçük ya da eşitse (ETF SPY'dan daha çok düştüyse) o ETF'te long aç; diğerlerinde işlem yok. Eşit tutar (ör. ETF başına 2.500 $). Çıkış: bir sonraki işlem günü kapanışı (h=1). Çıkış günü yeniden sinyal varsa pozisyon korunur. Açığa satış yok; yalnız long. Pine: spy=request.security(\"AMEX:SPY\",\"D\",close/close[1]-1); sig = spy<=-0.015 and (close/close[1]-1)<=spy.",
+   "giris": "C0: t günü ABD kapanışına ~10-15 dk kala (kış saati TR 23:45-23:50; yaz saati TR 22:45-22:50) koşul o anki fiyatlarla sağlanıyorsa piyasa/limit emirle al. Kaçırılırsa kapanış sonrası after-hours (kış TR 00:00-04:00) yalnız limit emirle, kapanış fiyatına yakın limitle. Kapanışa kadar fiyat değiştiğinden C0 hafif iyimserdir.",
+   "tutus": "1 işlem günü (birincil, önceden belirlenmiş). Varyant h=2: sepet net +73 bp, t 2,33 (seçim yapılmadı, yalnız rapor).",
+   "cikis": "t+1 kapanışına ~10 dk kala sat (kış TR ~23:50, yaz ~22:50). Stop kullanılmadı (testte yok). Yedek giriş: t+1 açılışında (TR 17:30 kış) alındıysa h=2 tut (O1 h=2: net +38 bp, t 1,76).",
+   "islem_etf": [
+    "EWY",
+    "EWT",
+    "FXI",
+    "EWJ",
+    "EWA",
+    "EWH"
+   ],
+   "sinyal_etf": "SPY (koşul) + işlem yapılan ETF'in kendi günlük getirisi",
+   "n": 110,
+   "brut_bp": 70.4,
+   "net_bp": 55.8,
+   "t": 2.22,
+   "is_net_bp": 68.0,
+   "oos_net_bp": 45.7,
+   "kazanma": 0.58,
+   "pf": 1.8,
+   "maxdd": -0.13,
+   "en_kotu_bp": -1356.2,
+   "yil_pozitif": 0.78,
+   "maliyet_duyarlilik": "Sepet C0 h=1 net: 1.000$ 37.8 bp (t 1.51); 2.500$ 55.8 bp (t 2.22); 10.000$ 64.8 bp (t 2.58). Brüt 70.4 bp; ETF başı maliyet 13-16 bp (2.500$).",
+   "mod_saglamlik": "h=1: C0 brüt 70 bp / O1 13 bp / C1 40 bp. h=2: C0 87 / O1 53 (net 38, t 1.76) / C1 31. O1 ve C1'de brüt kenar pozitif ama kenarın büyük kısmı t kapanışı -> t+1 açılışı gece boşluğunda: AĞIRLIKLA KAPANIŞA BAĞIMLI.",
+   "aile_ici": "Listede olmayan 6 Asya ETF'inde (INDA, EWS, ASHR, CQQQ, EIDO, VNM) aynı kural C0 h=1 net 35 bp (t 1.71; IS 48 / OOS 20). Plasebo (eşzamanlı piyasalar): Amerika ETF'leri brüt 21 bp (net 4), Avrupa brüt 17 (net -2), SPY'ın kendisi brüt 24. Aynı günlerde SPY'dan az düşen Asya ETF'leri brüt 22 bp. Eşleştirilmiş fark (aynı gün): ETF<=SPY eksi ETF>SPY +39,7 bp (t 2,88); Asya eksi Amerika +43,8 bp (t 2,40) -> mekanizma (eşzamansız fiyatlamada ABD'ye aşırı tepki) ile tutarlı. Komşu eşikler (seçim için değil): -%1,0 net 28 bp (OOS 15); -%2,0 net 75 bp (OOS 2). ETF bazında C0 h=1 t: EWY 2,41, EWT 2,00, FXI 1,17, EWJ 1,21, EWA 0,97, EWH 1,54 (hepsi net > 0). EEM: net +57 bp (t 1,6).",
+   "test_sayisi": 564,
+   "fdr": "Önceden belirlenmiş 6 literatür hipotezinin birincil spesifikasyonları (UL01-UL06) içinde BH q=0,10 GEÇER (tek yönlü p=0,013 <= 0,0167). Tüm 564 havuz testi (genel kütüphane 297 + aile hipotezleri 135 + sağlamlık 108 + IBS-bölge 24) içinde GEÇMEZ.",
+   "guven": "orta",
+   "betik": "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/strateji_S1_ul03_asya.py",
+   "notlar": "Sinyal seyrek: 10 yılda 110 gün (yılda ~11), sinyal başına ortalama 2,7 ETF; 6 ETF için ~15.000 $ sermaye gerekebilir. Getiri yüksek oynaklık dönemlerinde yoğun: 2020 hariç net 41 bp (t 1,78), 2020 ve 2026 birlikte hariç net 21 bp (t 1,03). Yıllar: 2018 -6, 2019 +74, 2020 +122, 2021 +76, 2022 +18, 2023 +30, 2024 -46, 2025 +34, 2026 +200 bp (sinyal günü ortalaması). En kötü tek işlem EWA 11 Mar 2020 -1.356 bp; en kötü sepet günü -1.202 bp. EWY hariç sepet net 51 bp (t 2,10). Kaldıraçlı uygulama (dayanak sinyaliyle, Midas'ta bulunurluk doğrulanmadı): KORU<-EWY C0 h=1 net +257 bp (t 1,95), h=2 +337 bp (t 2,12), en kötü -3.776 bp; YINN<-FXI C0 h=1 t 1,25, h=2 +336 bp (t 2,27). Kaldıraçlı sürümler t>=2 eşiğini birincil spesifikasyonda geçmiyor; 3x ürünlerde tek gün -%30..-40 mümkün. TradingView'da düzeltilmemiş grafikte EWT/EWY Aralık temettü ex-günleri sahte 'düşüş' gibi görünebilir: ADJ açık kullanın ya da ex-div gününü atlayın."
+  },
+  {
+   "id": "uluslararasi_S2",
+   "ad": "EWY gün sonu dip dönüşü (IBS<0,10 ve düşüş günü) — KEŞİFSEL",
+   "kural": "AMEX:EWY günlük mum: IBS = (close-low)/(high-low) < 0,10 VE close < close[1] ise EWY long (t kapanışı); t+1 kapanışında çık. Pine: ibs=(close-low)/(high-low); sig = ibs<0.10 and close<close[1]. İsteğe bağlı kaldıraçlı uygulama: sinyal EWY'den, işlem AMEX:KORU.",
+   "giris": "C0: EWY kapanışına ~5-10 dk kala (kış TR 23:50, yaz 22:50) gün içi düşük seviyeye çok yakın ve önceki kapanışın altında ise al. IBS kapanış fiyatına bağlı -> C0 iyimser; after-hours limit emriyle de denenebilir.",
+   "tutus": "1 işlem günü",
+   "cikis": "t+1 kapanışına ~10 dk kala sat.",
+   "islem_etf": [
+    "EWY"
+   ],
+   "sinyal_etf": "EWY",
+   "n": 214,
+   "brut_bp": 55.1,
+   "net_bp": 42.1,
+   "t": 2.93,
+   "is_net_bp": 25.8,
+   "oos_net_bp": 52.9,
+   "kazanma": 0.56,
+   "pf": 1.76,
+   "maxdd": -0.181,
+   "en_kotu_bp": -467.6,
+   "yil_pozitif": 0.7,
+   "maliyet_duyarlilik": "Net: 1.000$ 24.1 bp; 2.500$ 42.1 bp; 10.000$ 51.1 bp (brüt 55.1, maliyet 13 bp).",
+   "mod_saglamlik": "C0 brüt 55 bp / O1 18 bp (net 5) / C1 1 bp. Kenar neredeyse tamamen gece boşluğunda: KAPANIŞA BAĞIMLI.",
+   "aile_ici": "Aynı kural ailenin 29 likit bağımsız ETF'inde: pozitif net oranı 0.48, t>=2 yalnız EWY. Asya havuzu brüt 24 bp, net 7 bp (t 1,46); Amerika havuzu net -12 bp. Ailede tutarlı DEĞİL; EWY'nin ayırt edici özelliği en düşük maliyet/oynaklık oranı (0,034) ve güçlü negatif otokorelasyon (IS -0,16 / OOS -0,12).",
+   "test_sayisi": 20196,
+   "fdr": "genel_tum aile satırları (20.196) içinde tek yönlü BH q=0,10 GEÇMEZ (geçen 0). Seçilmiş sonuç.",
+   "guven": "dusuk",
+   "betik": "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/strateji_S2_ewy_ibs.py",
+   "notlar": "Kabul eşiğini biçimsel olarak geçiyor (t 2.93, IS 26 / OOS 53 bp, yılların %70'i pozitif, n=214, O1 brüt > 0) ama tarama içinden seçildi ve FDR'yi geçmiyor. Getirinin yarıdan fazlası 2026'dan (21 işlem, ort. +232 bp) ve 2020'den; 2020 ve 2026 hariç net ~+12 bp. KORU (EWY sinyaliyle) C0 h=1 net 99 bp (t 2.39), en kötü -1397 bp. S1 ile EWY'de çakışabilir (aynı gün iki sinyal = tek pozisyon)."
+  }
+ ],
+ "elenen": [
+  {
+   "ad": "Genel kütüphane (31 sinyal x mod x h, 297 kombinasyon) aile havuzu",
+   "neden": "29 likit bağımsız ETF'te gün-kümeli havuz testinde hiçbir kombinasyon BH-FDR'yi geçmedi; en iyi t 1,69 (CA_tatil_oncesi C1 h=3, mekanizmasız). ETF başına Stouffer toplamları (ör. tatil öncesi 6,9) aynı tarihlerde ortak faktörü saydığı için yanıltıcı."
+  },
+  {
+   "ad": "genel_tum aile satırları (20.196) — tek ETF sonuçları",
+   "neden": "Tek yönlü BH q=0,10 ile geçen yok. İki yönlü p ile görülen 22 'geçen' (BRZU, CWEB, KORU, EWY...) çok sayıda anlamlı negatif sonucun eşiği gevşetmesinden kaynaklanan yapay sonuç."
+  },
+  {
+   "ad": "UL01 ülke IBS<0,20 (C0 h=1)",
+   "neden": "10 ETF havuzu brüt 8.6 bp < maliyet (~15 bp); net -9 bp, OOS -17 bp. Pandey-Joshi (2009-2019, maliyetsiz) etkisi maliyet sonrası yok."
+  },
+  {
+   "ad": "UL02 kesitsel en düşük IBS 3 ülke",
+   "neden": "Brüt 8 bp, net -8 bp (t -3,1); her gün işlem maliyeti öldürüyor."
+  },
+  {
+   "ad": "UL04 (vekil) SPY'a göre kalıntı z<=-2 dönüşü / 'yetişme' sinyali",
+   "neden": "iNAV verisi yok; kalıntı vekili 29 ETF'te brüt 6 bp, net -12 bp; Avrupa'da kalıntı dönüşü ters (devam). Yetişme testindeki FDR sonuçları ilgisiz öncülerle de çıkıyor -> ETF'in kendi dönüşü; öncü katkısı yok."
+  },
+  {
+   "ad": "UL05 ülke ay dönümü (T-1 -> yeni ayın 2. günü)",
+   "neden": "9 ETF havuzu net -5 bp (C0 h=3). Ay sonu kapanışı -> 3. gün varyantı brüt 46 bp ama OOS +4 bp, t 1,38."
+  },
+  {
+   "ad": "UL06 FOMC öncesi (D-1 -> D)",
+   "neden": "Net +7 bp, t 0,52; 2 ve 3 günlük tutuşta negatif. Literatürle uyumlu (2015 sonrası drift yok)."
+  },
+  {
+   "ad": "Y1 Asya <- SPY/QQQ gecikmesi (SPY z<=-2 ya da QQQ z<=-2 -> Asya long)",
+   "neden": "Koşulsuz büyük ABD düşüşü sonrası Asya ETF'leri: net +16 bp (t 0,75), O1/C1 negatif. Ayırt edici olan ETF'in SPY'dan fazla düşmesi (S1)."
+  },
+  {
+   "ad": "DXJ <- QQQ/SPY ters gecikmesi (taramada FDR geçti)",
+   "neden": "Eşik kuralına çevrildiğinde (SPY z<=-2 -> DXJ al) C0 h=1 net -1 bp; doğrusal ilişki uzun-tek yönlü işleme dönüşmüyor."
+  },
+  {
+   "ad": "Y2 KWEB -> EEM/Asya (taramada t~3,4, IS/OOS aynı işaret)",
+   "neden": "KWEB z>=1 sonrası hedeflerde brüt -2 bp (10 ETF, 338 gün); kısmi regresyon katsayısı kendi gecikmesine koşullu. KWEB düşüşü sonrası EEM/FXI ertesi gün yükseliyor (ters işaret) -> öncü olarak kullanılamaz."
+  },
+  {
+   "ad": "Y3 EWZ <- USO (USO z>=1,5 -> EWZ)",
+   "neden": "Net -16 bp (C0 h=1), IS negatif, OOS pozitif; tarama da gecikmeli ilişki göstermiyor (lag_t_h1 -0,47)."
+  },
+  {
+   "ad": "Kaldıraçlı ürünlerin kendi sinyalleri (BRZU, CWEB, KORU, YINN genel kütüphane)",
+   "neden": "Tek yönlü FDR'yi geçmiyor; bunlar dayanak sinyaliyle (S1/S2) uygulama aracı olarak değerlendirildi."
+  },
+  {
+   "ad": "26 ince ETF (medyan dolar hacim < 10 mn $: EIS, EDC, TUR, EWM, EWD, EWN, GREK, UAE, EPU, THD, EDZ, BRZU, EPHE, CHAU, EURL, EWO, INDL, NORW, ENZL, MEXX, EDEN, EFNL, EWK, CHIQ, QAT, KEMQ)",
+   "neden": "Tahmini makas 15-35 bp (gidiş-dönüş 27-47 bp); hiçbir sinyal bu maliyeti tutarlı biçimde aşmıyor."
+  },
+  {
+   "ad": "Kopyalar (VWO/IEMG ~ EEM; VEA/IEFA ~ EFA; EZU ~ VGK; MCHI ~ FXI; EPI ~ INDA; DXJ ~ EWJ)",
+   "neden": "Bağımsız kanıt değil; en likit/ucuz temsilci seçildi."
+  }
+ ],
+ "leadlag": [
+  {
+   "sym": "EWY",
+   "suruculer": [
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.93,
+     "beta_1y": 2.13
+    },
+    {
+     "ad": "SMH",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.83,
+     "beta_1y": 1.17
+    },
+    {
+     "ad": "XLK",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.79,
+     "beta_1y": 1.67
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.78,
+     "beta_1y": 2.19
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY koşullu kuralı (S1: SPY<=-%1,5 ve ETF<=SPY)",
+     "tv": "AMEX:SPY",
+     "tip": "koşullu eşik; doğrusal testte doğrulanmadı",
+     "etki": "Koşul sağlandığında EWY ertesi gün brüt 121 bp (n=68); sepet net +56 bp",
+     "t": 2.41,
+     "fdr": false,
+     "ufuk": "t+1",
+     "maliyet_sonrasi": "net 108 bp (IS 77 / OOS 135)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "KOSPI (seans TR 03:00-09:30)",
+     "tv": "KRX:KOSPI",
+     "neden": "EWY açılış boşluğunu belirleyen yerel seans"
+    },
+    {
+     "ad": "Nasdaq 100 vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "gece yön; yarı iletken ağırlığı"
+    },
+    {
+     "ad": "S&P 500 vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "gece risk iştahı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): TIP h1 t=2.31 (IS 1.88/OOS 1.36), h3 t=2.82. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı S1'in koşullu kuralıdır, doğrusal öncü değildir. Reel faiz düşüşü (FRED:DFII10) 3 gün ufkunda pozitif aday (IS/OOS aynı işaret, FDR yok).",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Kore: Seollal (Şub 2027 başı), çeyreklik vade 10 Ara 2026; KORU'da 3x günlük yeniden dengeleme."
+  },
+  {
+   "sym": "FXI",
+   "suruculer": [
+    {
+     "ad": "KWEB",
+     "tv": "AMEX:KWEB",
+     "corr_1y": 0.88,
+     "beta_1y": 0.63
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.45,
+     "beta_1y": 0.33
+    },
+    {
+     "ad": "CPER",
+     "tv": "AMEX:CPER",
+     "corr_1y": 0.41,
+     "beta_1y": 0.28
+    },
+    {
+     "ad": "SLV",
+     "tv": "AMEX:SLV",
+     "corr_1y": 0.41,
+     "beta_1y": 0.12
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY koşullu kuralı (S1: SPY<=-%1,5 ve ETF<=SPY)",
+     "tv": "AMEX:SPY",
+     "tip": "koşullu eşik; doğrusal testte doğrulanmadı",
+     "etki": "Koşul sağlandığında FXI ertesi gün brüt 52 bp (n=50); sepet net +56 bp",
+     "t": 1.17,
+     "fdr": false,
+     "ufuk": "t+1",
+     "maliyet_sonrasi": "net 37 bp (IS 41 / OOS 34)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Hang Seng vadelisi",
+     "tv": "HKEX:HSI1!",
+     "neden": "gece seansı ~TR 12:15-22:00"
+    },
+    {
+     "ad": "Hang Seng endeksi",
+     "tv": "TVC:HSI",
+     "neden": "yerel kapanış TR 11:00"
+    },
+    {
+     "ad": "USD/CNH",
+     "tv": "FX:USDCNH",
+     "neden": "24 saat kur"
+    },
+    {
+     "ad": "FTSE China A50 vadelisi",
+     "tv": "SGX:CN1!",
+     "neden": "uzun seans Çin duyarlılığı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): EEM h1 t=-2.56 (IS -2.73/OOS -0.94), h3 t=-0.96. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı S1'in koşullu kuralıdır, doğrusal öncü değildir.",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Çin/HK: Ay Yeni Yılı (Şub 2027 başı, teyit edilmeli), teşvik/kur haberleri; YINN 3x."
+  },
+  {
+   "sym": "EWJ",
+   "suruculer": [
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.8,
+     "beta_1y": 0.67
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.74,
+     "beta_1y": 1.21
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.71,
+     "beta_1y": 0.74
+    },
+    {
+     "ad": "IWM",
+     "tv": "AMEX:IWM",
+     "corr_1y": 0.7,
+     "beta_1y": 0.83
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY koşullu kuralı (S1: SPY<=-%1,5 ve ETF<=SPY)",
+     "tv": "AMEX:SPY",
+     "tip": "koşullu eşik; doğrusal testte doğrulanmadı",
+     "etki": "Koşul sağlandığında EWJ ertesi gün brüt 44 bp (n=32); sepet net +56 bp",
+     "t": 1.21,
+     "fdr": false,
+     "ufuk": "t+1",
+     "maliyet_sonrasi": "net 30 bp (IS 61 / OOS 5)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Nikkei 225 vadelisi",
+     "tv": "OSE:NK2251!",
+     "neden": "gece seansı ~TR 10:45-00:00; açılış boşluğu"
+    },
+    {
+     "ad": "Nikkei 225",
+     "tv": "TVC:NI225",
+     "neden": "yerel kapanış TR 09:30"
+    },
+    {
+     "ad": "USD/JPY",
+     "tv": "FX_IDC:USDJPY",
+     "neden": "24 saat; EWJ kur korumasız"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): GDX h1 t=1.20 (IS 2.03/OOS -1.21), h3 t=2.32. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı S1'in koşullu kuralıdır, doğrusal öncü değildir. Reel faiz düşüşü (FRED:DFII10) 3 gün ufkunda pozitif aday (IS/OOS aynı işaret, FDR yok).",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Japonya: BoJ Aralık toplantısı (teyit edilmeli), 31 Ara-3 Oca tatili; USDJPY şokları."
+  },
+  {
+   "sym": "EWT",
+   "suruculer": [
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.91,
+     "beta_1y": 1.22
+    },
+    {
+     "ad": "SMH",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.84,
+     "beta_1y": 0.7
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.84,
+     "beta_1y": 1.38
+    },
+    {
+     "ad": "XLK",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.83,
+     "beta_1y": 1.03
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY koşullu kuralı (S1: SPY<=-%1,5 ve ETF<=SPY)",
+     "tv": "AMEX:SPY",
+     "tip": "koşullu eşik; doğrusal testte doğrulanmadı",
+     "etki": "Koşul sağlandığında EWT ertesi gün brüt 77 bp (n=55); sepet net +56 bp",
+     "t": 2.0,
+     "fdr": false,
+     "ufuk": "t+1",
+     "maliyet_sonrasi": "net 63 bp (IS 79 / OOS 56)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Nasdaq 100 vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "gece yön; yarı iletken ağırlığı"
+    },
+    {
+     "ad": "S&P 500 vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "gece risk iştahı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): TIP h1 t=1.88 (IS 2.69/OOS -0.41), h3 t=2.87. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı S1'in koşullu kuralıdır, doğrusal öncü değildir. Reel faiz düşüşü (FRED:DFII10) 3 gün ufkunda pozitif aday (IS/OOS aynı işaret, FDR yok).",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Tayvan: Ay Yeni Yılı, TSMC aylık satışları (~her ayın 10'u); temettü ex-günleri düzeltilmemiş grafikte sahte düşüş gösterebilir."
+  },
+  {
+   "sym": "EEM",
+   "suruculer": [
+    {
+     "ad": "SMH",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.85,
+     "beta_1y": 0.53
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.84,
+     "beta_1y": 1.03
+    },
+    {
+     "ad": "XLK",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.82,
+     "beta_1y": 0.76
+    },
+    {
+     "ad": "EWJ",
+     "tv": "AMEX:EWJ",
+     "corr_1y": 0.8,
+     "beta_1y": 0.95
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Hang Seng vadelisi",
+     "tv": "HKEX:HSI1!",
+     "neden": "Çin ağırlığı"
+    },
+    {
+     "ad": "KOSPI",
+     "tv": "KRX:KOSPI",
+     "neden": "Kore ağırlığı"
+    },
+    {
+     "ad": "USD/CNH",
+     "tv": "FX:USDCNH",
+     "neden": "24 saat kur"
+    },
+    {
+     "ad": "S&P 500 vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "gece risk iştahı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): KWEB h1 t=3.38 (IS 2.90/OOS 2.07), h3 t=0.76. Sürücüler eşzamanlıdır, öncü değildir. KWEB(t)->EEM(t+1) kısmi katsayısı pozitif (t 3,4) ama tek başına kural olarak ters işaretli -> kullanılamaz.",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. EM: Çin+Kore+Tayvan+Hindistan takvimleri; MSCI Kasım endeks değişikliği ay sonu (teyit edilmeli)."
+  },
+  {
+   "sym": "EFA",
+   "suruculer": [
+    {
+     "ad": "EWJ",
+     "tv": "AMEX:EWJ",
+     "corr_1y": 0.87,
+     "beta_1y": 0.65
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.77,
+     "beta_1y": 0.94
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.77,
+     "beta_1y": 0.48
+    },
+    {
+     "ad": "DIA",
+     "tv": "AMEX:DIA",
+     "corr_1y": 0.77,
+     "beta_1y": 0.94
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "DAX vadelisi",
+     "tv": "EUREX:FDAX1!",
+     "neden": "Avrupa açılışı öncesi yön"
+    },
+    {
+     "ad": "Euro Stoxx 50",
+     "tv": "TVC:SX5E",
+     "neden": "kapanış kış TR 19:30"
+    },
+    {
+     "ad": "Nikkei 225 vadelisi",
+     "tv": "OSE:NK2251!",
+     "neden": "Japonya ağırlığı"
+    },
+    {
+     "ad": "EUR/USD",
+     "tv": "FX:EURUSD",
+     "neden": "24 saat kur"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): QQQ h1 t=-0.95 (IS -1.72/OOS 0.40), h3 t=-2.27. Sürücüler eşzamanlıdır, öncü değildir.",
+   "takvim_riskleri": "Avrupa: ECB Aralık toplantısı (teyit edilmeli), Noel tatilleri; yerel kapanış kış TR 19:30. Japonya: BoJ Aralık toplantısı (teyit edilmeli), 31 Ara-3 Oca tatili; USDJPY şokları."
+  },
+  {
+   "sym": "EWZ",
+   "suruculer": [
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.41,
+     "beta_1y": 0.56
+    },
+    {
+     "ad": "EWJ",
+     "tv": "AMEX:EWJ",
+     "corr_1y": 0.38,
+     "beta_1y": 0.62
+    },
+    {
+     "ad": "IWM",
+     "tv": "AMEX:IWM",
+     "corr_1y": 0.35,
+     "beta_1y": 0.69
+    },
+    {
+     "ad": "CPER",
+     "tv": "AMEX:CPER",
+     "corr_1y": 0.35,
+     "beta_1y": 0.44
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Ibovespa",
+     "tv": "BMFBOVESPA:IBOV",
+     "neden": "ABD ile büyük ölçüde eşzamanlı"
+    },
+    {
+     "ad": "USD/BRL",
+     "tv": "FX_IDC:USDBRL",
+     "neden": "kur getirinin büyük kısmı"
+    },
+    {
+     "ad": "Brent vadelisi",
+     "tv": "ICEEUR:BRN1!",
+     "neden": "Petrobras ağırlığı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): GDX h1 t=1.43 (IS 1.56/OOS -0.48), h3 t=2.33. Sürücüler eşzamanlıdır, öncü değildir.",
+   "takvim_riskleri": "Brezilya: Copom kararları, Karnaval (Şub 2027), BRL oynaklığı."
+  },
+  {
+   "sym": "IEMG",
+   "suruculer": [
+    {
+     "ad": "SMH",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.85,
+     "beta_1y": 0.51
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.84,
+     "beta_1y": 1.0
+    },
+    {
+     "ad": "XLK",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.82,
+     "beta_1y": 0.73
+    },
+    {
+     "ad": "EWJ",
+     "tv": "AMEX:EWJ",
+     "corr_1y": 0.8,
+     "beta_1y": 0.93
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Hang Seng vadelisi",
+     "tv": "HKEX:HSI1!",
+     "neden": "Çin ağırlığı"
+    },
+    {
+     "ad": "KOSPI",
+     "tv": "KRX:KOSPI",
+     "neden": "Kore ağırlığı"
+    },
+    {
+     "ad": "USD/CNH",
+     "tv": "FX:USDCNH",
+     "neden": "24 saat kur"
+    },
+    {
+     "ad": "S&P 500 vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "gece risk iştahı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): KWEB h1 t=3.23 (IS 2.90/OOS 1.85), h3 t=0.65. Sürücüler eşzamanlıdır, öncü değildir. KWEB(t)->EEM(t+1) kısmi katsayısı pozitif (t 3,4) ama tek başına kural olarak ters işaretli -> kullanılamaz.",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. EM: Çin+Kore+Tayvan+Hindistan takvimleri; MSCI Kasım endeks değişikliği ay sonu (teyit edilmeli)."
+  },
+  {
+   "sym": "KORU",
+   "suruculer": [
+    {
+     "ad": "EWY (dayanak)",
+     "tv": "AMEX:EWY",
+     "corr_1y": 0.995,
+     "beta_1y": 3.01
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.93,
+     "beta_1y": 6.43
+    },
+    {
+     "ad": "SMH",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.83,
+     "beta_1y": 3.54
+    },
+    {
+     "ad": "XLK",
+     "tv": "AMEX:XLK",
+     "corr_1y": 0.79,
+     "beta_1y": 5.04
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.78,
+     "beta_1y": 6.63
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY koşullu kuralı (S1: SPY<=-%1,5 ve ETF<=SPY)",
+     "tv": "AMEX:SPY",
+     "tip": "koşullu eşik; doğrusal testte doğrulanmadı",
+     "etki": "Koşul EWY'de sağlandığında KORU ertesi gün brüt 283 bp (n=68); en kötü -3188 bp",
+     "t": 1.95,
+     "fdr": false,
+     "ufuk": "t+1",
+     "maliyet_sonrasi": "KORU için 2.500$'da net 257 bp (IS 122 / OOS 369); t<2 -> eşik altında"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "KOSPI (seans TR 03:00-09:30)",
+     "tv": "KRX:KOSPI",
+     "neden": "EWY açılış boşluğunu belirleyen yerel seans"
+    },
+    {
+     "ad": "Nasdaq 100 vadelisi",
+     "tv": "CME_MINI:NQ1!",
+     "neden": "gece yön; yarı iletken ağırlığı"
+    },
+    {
+     "ad": "S&P 500 vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "gece risk iştahı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): TIP h1 t=2.40 (IS 2.05/OOS 1.37), h3 t=2.93. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı S1'in koşullu kuralıdır, doğrusal öncü değildir. Reel faiz düşüşü (FRED:DFII10) 3 gün ufkunda pozitif aday (IS/OOS aynı işaret, FDR yok).",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Kore: Seollal (Şub 2027 başı), çeyreklik vade 10 Ara 2026; KORU'da 3x günlük yeniden dengeleme."
+  },
+  {
+   "sym": "INDA",
+   "suruculer": [
+    {
+     "ad": "BNO",
+     "tv": "AMEX:BNO",
+     "corr_1y": -0.6,
+     "beta_1y": -0.2
+    },
+    {
+     "ad": "DIA",
+     "tv": "AMEX:DIA",
+     "corr_1y": 0.57,
+     "beta_1y": 0.69
+    },
+    {
+     "ad": "USO",
+     "tv": "AMEX:USO",
+     "corr_1y": -0.56,
+     "beta_1y": -0.18
+    },
+    {
+     "ad": "USL",
+     "tv": "AMEX:USL",
+     "corr_1y": -0.55,
+     "beta_1y": -0.28
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Nifty 50",
+     "tv": "NSE:NIFTY",
+     "neden": "yerel kapanış TR 13:00"
+    },
+    {
+     "ad": "S&P 500 vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "gece risk iştahı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): T10YIE_d h1 t=0.57 (IS 0.55/OOS 0.66), h3 t=2.59. Sürücüler eşzamanlıdır, öncü değildir.",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Hindistan: RBI Aralık toplantısı (teyit edilmeli), bütçe 1 Şub; seçim şokları."
+  },
+  {
+   "sym": "VGK",
+   "suruculer": [
+    {
+     "ad": "DIA",
+     "tv": "AMEX:DIA",
+     "corr_1y": 0.77,
+     "beta_1y": 0.95
+    },
+    {
+     "ad": "EWJ",
+     "tv": "AMEX:EWJ",
+     "corr_1y": 0.73,
+     "beta_1y": 0.55
+    },
+    {
+     "ad": "SPY",
+     "tv": "AMEX:SPY",
+     "corr_1y": 0.73,
+     "beta_1y": 0.89
+    },
+    {
+     "ad": "HYG",
+     "tv": "AMEX:HYG",
+     "corr_1y": 0.72,
+     "beta_1y": 2.77
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "DAX vadelisi",
+     "tv": "EUREX:FDAX1!",
+     "neden": "Avrupa açılışı öncesi yön"
+    },
+    {
+     "ad": "Euro Stoxx 50",
+     "tv": "TVC:SX5E",
+     "neden": "kapanış kış TR 19:30"
+    },
+    {
+     "ad": "FTSE 100",
+     "tv": "TVC:UKX",
+     "neden": "İngiltere ağırlığı"
+    },
+    {
+     "ad": "EUR/USD",
+     "tv": "FX:EURUSD",
+     "neden": "24 saat kur"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): QQQ h1 t=-1.05 (IS -2.03/OOS 0.64), h3 t=-2.16. Sürücüler eşzamanlıdır, öncü değildir.",
+   "takvim_riskleri": "Avrupa: ECB Aralık toplantısı (teyit edilmeli), Noel tatilleri; yerel kapanış kış TR 19:30."
+  },
+  {
+   "sym": "ASHR",
+   "suruculer": [
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.68,
+     "beta_1y": 0.47
+    },
+    {
+     "ad": "SMH",
+     "tv": "NASDAQ:SMH",
+     "corr_1y": 0.6,
+     "beta_1y": 0.26
+    },
+    {
+     "ad": "EWJ",
+     "tv": "AMEX:EWJ",
+     "corr_1y": 0.58,
+     "beta_1y": 0.48
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.57,
+     "beta_1y": 0.49
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "CSI 300",
+     "tv": "SSE:000300",
+     "neden": "dayanak; kapanış TR 10:00"
+    },
+    {
+     "ad": "FTSE China A50 vadelisi",
+     "tv": "SGX:CN1!",
+     "neden": "gece seansı"
+    },
+    {
+     "ad": "USD/CNH",
+     "tv": "FX:USDCNH",
+     "neden": "24 saat kur"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): XLE h1 t=-2.48 (IS -3.86/OOS 0.42), h3 t=-1.88. Sürücüler eşzamanlıdır, öncü değildir.",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Çin/HK: Ay Yeni Yılı (Şub 2027 başı, teyit edilmeli), teşvik/kur haberleri; YINN 3x."
+  },
+  {
+   "sym": "EWA",
+   "suruculer": [
+    {
+     "ad": "EWJ",
+     "tv": "AMEX:EWJ",
+     "corr_1y": 0.68,
+     "beta_1y": 0.57
+    },
+    {
+     "ad": "IWM",
+     "tv": "AMEX:IWM",
+     "corr_1y": 0.67,
+     "beta_1y": 0.66
+    },
+    {
+     "ad": "HYG",
+     "tv": "AMEX:HYG",
+     "corr_1y": 0.67,
+     "beta_1y": 2.88
+    },
+    {
+     "ad": "DIA",
+     "tv": "AMEX:DIA",
+     "corr_1y": 0.66,
+     "beta_1y": 0.91
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY koşullu kuralı (S1: SPY<=-%1,5 ve ETF<=SPY)",
+     "tv": "AMEX:SPY",
+     "tip": "koşullu eşik; doğrusal testte doğrulanmadı",
+     "etki": "Koşul sağlandığında EWA ertesi gün brüt 67 bp (n=59); sepet net +56 bp",
+     "t": 0.97,
+     "fdr": false,
+     "ufuk": "t+1",
+     "maliyet_sonrasi": "net 51 bp (IS 105 / OOS -8)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "AUD/USD",
+     "tv": "FX:AUDUSD",
+     "neden": "24 saat kur"
+    },
+    {
+     "ad": "Bakır vadelisi",
+     "tv": "COMEX:HG1!",
+     "neden": "madencilik ağırlığı"
+    },
+    {
+     "ad": "S&P 500 vadelisi",
+     "tv": "CME_MINI:ES1!",
+     "neden": "gece risk iştahı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): VIX_dlog h1 t=-3.15 (IS -2.63/OOS -1.64), h3 t=-2.32. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı S1'in koşullu kuralıdır, doğrusal öncü değildir. IWM(t)->EWA(t+1) pozitif (t 3,1; IS 2,3/OOS 2,1), FDR yok, keşifsel.",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür."
+  },
+  {
+   "sym": "EWH",
+   "suruculer": [
+    {
+     "ad": "FXI",
+     "tv": "AMEX:FXI",
+     "corr_1y": 0.71,
+     "beta_1y": 0.64
+    },
+    {
+     "ad": "KWEB",
+     "tv": "AMEX:KWEB",
+     "corr_1y": 0.55,
+     "beta_1y": 0.36
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.52,
+     "beta_1y": 0.35
+    },
+    {
+     "ad": "EWJ",
+     "tv": "AMEX:EWJ",
+     "corr_1y": 0.52,
+     "beta_1y": 0.41
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY koşullu kuralı (S1: SPY<=-%1,5 ve ETF<=SPY)",
+     "tv": "AMEX:SPY",
+     "tip": "koşullu eşik; doğrusal testte doğrulanmadı",
+     "etki": "Koşul sağlandığında EWH ertesi gün brüt 66 bp (n=29); sepet net +56 bp",
+     "t": 1.54,
+     "fdr": false,
+     "ufuk": "t+1",
+     "maliyet_sonrasi": "net 49 bp (IS 107 / OOS 8)"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Hang Seng vadelisi",
+     "tv": "HKEX:HSI1!",
+     "neden": "gece seansı"
+    },
+    {
+     "ad": "Hang Seng endeksi",
+     "tv": "TVC:HSI",
+     "neden": "yerel kapanış TR 11:00"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): LQD h1 t=1.25 (IS 0.56/OOS 2.00), h3 t=3.66. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı S1'in koşullu kuralıdır, doğrusal öncü değildir.",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Çin/HK: Ay Yeni Yılı (Şub 2027 başı, teyit edilmeli), teşvik/kur haberleri; YINN 3x."
+  },
+  {
+   "sym": "YINN",
+   "suruculer": [
+    {
+     "ad": "FXI (dayanak)",
+     "tv": "AMEX:FXI",
+     "corr_1y": 0.996,
+     "beta_1y": 2.96
+    },
+    {
+     "ad": "KWEB",
+     "tv": "AMEX:KWEB",
+     "corr_1y": 0.88,
+     "beta_1y": 1.88
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.46,
+     "beta_1y": 1.0
+    },
+    {
+     "ad": "SLV",
+     "tv": "AMEX:SLV",
+     "corr_1y": 0.42,
+     "beta_1y": 0.36
+    },
+    {
+     "ad": "CPER",
+     "tv": "AMEX:CPER",
+     "corr_1y": 0.42,
+     "beta_1y": 0.84
+    }
+   ],
+   "onculer": [
+    {
+     "ad": "SPY koşullu kuralı (S1: SPY<=-%1,5 ve ETF<=SPY)",
+     "tv": "AMEX:SPY",
+     "tip": "koşullu eşik; doğrusal testte doğrulanmadı",
+     "etki": "Koşul FXI'de sağlandığında YINN ertesi gün brüt 136 bp (n=50); en kötü -2706 bp",
+     "t": 1.25,
+     "fdr": false,
+     "ufuk": "t+1",
+     "maliyet_sonrasi": "YINN için 2.500$'da net 120 bp (IS 134 / OOS 108); t<2 -> eşik altında"
+    }
+   ],
+   "gercek_zamanli": [
+    {
+     "ad": "Hang Seng vadelisi",
+     "tv": "HKEX:HSI1!",
+     "neden": "gece seansı ~TR 12:15-22:00"
+    },
+    {
+     "ad": "Hang Seng endeksi",
+     "tv": "TVC:HSI",
+     "neden": "yerel kapanış TR 11:00"
+    },
+    {
+     "ad": "USD/CNH",
+     "tv": "FX:USDCNH",
+     "neden": "24 saat kur"
+    },
+    {
+     "ad": "FTSE China A50 vadelisi",
+     "tv": "SGX:CN1!",
+     "neden": "uzun seans Çin duyarlılığı"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): EEM h1 t=-2.51 (IS -2.80/OOS -0.85), h3 t=-0.69. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı S1'in koşullu kuralıdır, doğrusal öncü değildir.",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Çin/HK: Ay Yeni Yılı (Şub 2027 başı, teyit edilmeli), teşvik/kur haberleri; YINN 3x."
+  },
+  {
+   "sym": "CQQQ",
+   "suruculer": [
+    {
+     "ad": "KWEB",
+     "tv": "AMEX:KWEB",
+     "corr_1y": 0.69,
+     "beta_1y": 0.79
+    },
+    {
+     "ad": "EEM",
+     "tv": "AMEX:EEM",
+     "corr_1y": 0.68,
+     "beta_1y": 0.79
+    },
+    {
+     "ad": "FXI",
+     "tv": "AMEX:FXI",
+     "corr_1y": 0.61,
+     "beta_1y": 0.96
+    },
+    {
+     "ad": "QQQ",
+     "tv": "NASDAQ:QQQ",
+     "corr_1y": 0.58,
+     "beta_1y": 0.84
+    }
+   ],
+   "onculer": [],
+   "gercek_zamanli": [
+    {
+     "ad": "Hang Seng vadelisi",
+     "tv": "HKEX:HSI1!",
+     "neden": "gece seansı"
+    },
+    {
+     "ad": "USD/CNH",
+     "tv": "FX:USDCNH",
+     "neden": "24 saat kur"
+    }
+   ],
+   "not": "Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): XLE h1 t=-3.00 (IS -4.87/OOS -0.35), h3 t=-1.98. Sürücüler eşzamanlıdır, öncü değildir.",
+   "takvim_riskleri": "ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah yansır); NYSE 26 Kas kapalı, 27 Kas/24 Ara erken kapanış (TR 21:00). Yerel tatillerde ETF NAV'sız işlem görür. Çin/HK: Ay Yeni Yılı (Şub 2027 başı, teyit edilmeli), teşvik/kur haberleri; YINN 3x."
+  }
+ ],
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/notlar/aile_uluslararasi.md",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/sonuc.json",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/ortak.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/a1_islenebilirlik_genel.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/a2_aile_havuz.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/a3_hipotezler.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/a4_ul03_saglamlik.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/a5_ibs_bolge.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/strateji_S1_ul03_asya.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/strateji_S2_ewy_ibs.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/ajan_uluslararasi/a6_sonuc_json.py",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/islenebilirlik.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/genel_aile_tutarlilik.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/aile_havuz_genel.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/hipotez_havuz.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/hipotez_etf.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/ul03_saglamlik_havuz.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/ul03_etf.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/ibs_bolge_havuz.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/ibs_bolge_etf.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/S1_havuz.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/S1_etf.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/S1_kaldiracli.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/S2_ewy.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/S2_aile.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/izleme.csv",
+  "/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/sonuclar/aile_uluslararasi/leadlag_izleme.csv"
+ ],
+ "tv_dogrulanacak": [
+  "KRX:K2001! (KOSPI 200 vadelisi)",
+  "FX_IDC:USDKRW",
+  "TAIFEX:TXF1! (Tayvan endeks vadelisi)",
+  "TWSE:TAIEX (tv_dogrulama'da 'yonlendirildi'; doğru TAIEX kodu doğrulanmalı)",
+  "NSEIX:NIFTY1! (GIFT Nifty vadelisi)",
+  "FX_IDC:USDINR",
+  "ASX24:AP1! (ASX SPI 200 vadelisi)",
+  "ICEUS:MME1! (MSCI EM vadelisi)",
+  "EUREX:FESX1! (Euro Stoxx 50 vadelisi)",
+  "HKEX:HTI1! (Hang Seng Tech vadelisi)",
+  "BMFBOVESPA:WIN1! (mini Ibovespa vadelisi)"
+ ]
+}

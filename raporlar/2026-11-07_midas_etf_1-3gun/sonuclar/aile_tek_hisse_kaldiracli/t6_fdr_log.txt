@@ -1,0 +1,32 @@
+Toplam test: 7310  BH-FDR q=0,10 eşik p <= 4.103520296306198e-05  geçen: 4  (pozitif t: 4 , negatif t: 0 )
+                          n  gecen
+grup                              
+1_genel_tum_aile_ETF   3500      0
+2_dayanak_genel_hisse  2673      4
+3_dayanak_genel_havuz   297      0
+4_hipotez               384      0
+5_oncu_kural            180      0
+6_leadlag_ek            152      0
+7_btc_reg                18      0
+7_smh_reg                 4      0
+8_bilanco                28      0
+9_S1_kontrol             74      0
+
+Geçen pozitifler:
+                 grup                                  etiket        p        t  fdr
+2_dayanak_genel_hisse        MSFT|MR_ibs_lt02|C0|3|kural_max3 0.000004 4.693513 True
+2_dayanak_genel_hisse MSFT|MR_ibs_lt02_ust200|C0|3|kural_max3 0.000017 4.389860 True
+2_dayanak_genel_hisse                  AAPL|CA_cum|O1|3|sabit 0.000023 4.280438 True
+2_dayanak_genel_hisse             MSFT|MR_ibs_lt02|C0|2|sabit 0.000041 4.150824 True
+
+S1 (TH03) havuz satırları:
+     grup                                                                   etiket        p        t   fdr
+4_hipotez TH03_rsi2_trend_sma5cikis|havuz|NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL|C0|3 0.001868 3.130506 False
+4_hipotez TH03_rsi2_trend_sma5cikis|havuz|NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL|O1|3 0.003610 2.926917 False
+4_hipotez TH03_rsi2_trend_sma5cikis|havuz|NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL|C1|3 0.032890 2.140864 False
+
+Yalnız strateji testleri: 7136  geçen: 4  pozitif: 4
+     grup                                                                   etiket        p        t   fdr  fdr_strateji
+4_hipotez TH03_rsi2_trend_sma5cikis|havuz|NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL|C0|3 0.001868 3.130506 False         False
+4_hipotez TH03_rsi2_trend_sma5cikis|havuz|NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL|O1|3 0.003610 2.926917 False         False
+4_hipotez TH03_rsi2_trend_sma5cikis|havuz|NVDA+TSLA+AAPL+AMZN+META+MSFT+GOOGL|C1|3 0.032890 2.140864 False         False

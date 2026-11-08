@@ -1,0 +1,6 @@
+Kış (Kas-Mar) brüt 116.5 bp (n=216) vs yaz 19.1 bp (n=306): fark t=1.78 p(iki yönlü)=0.076
+Aylar arası fark: ANOVA p=0.673, Kruskal p=0.756
+Rapor günü |r| (bp): kış 485, yaz 411; ort/var: kış 2.69, yaz 0.63
+  IS: kış 129.4 (t 2.25, n 116) | yaz -5.4 (t -0.15, n 153)
+  OOS: kış 101.5 (t 1.44, n 100) | yaz 43.6 (t 0.83, n 153)
+Kış işlemleri medyan brüt 114.0 bp; işaret testi p=0.004
