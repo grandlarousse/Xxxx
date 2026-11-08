@@ -1,0 +1,270 @@
+====================================================================================================
+AİLE: a5_esz_artik | test sayısı: 1048 | rapor: Rapor /tmp/claude-0/-home-user-Xxxx/7162e4a1-8b83-5632-8869-8b60f6d4bda9/scratchpad/out/a5_esz_artik/RAPOR.md dosyasında (Türkçe; yöntem, bilgi zamanı tablosu, test sayısı, aile teşhisi, IS seçimleri, sağlamlık ve backtest tabloları, erken dönem, negatif bulgular).
+
+Kod ve çıktılar /tmp/claude-0/-home-user-Xxxx/7162e4a1-8b83-5632-8869-8b60f6d4bda9/scratchpad/out/a5_esz_artik/ altında:
+- Betikler: a5_lib.py ve a5_01..a5_05. Hepsi run_all.sh ile yaklaşık 50 sn'de yeniden çalışıyor; kayıt dosyası a5_02'de sıfırlanır.
+- Tablolar: grid_viop.csv, grid_spot.csv, robust.csv, backtests.csv, placebo.csv, early.csv, extra.csv, is_selection.csv, pair_canonical_W120_k1.csv.
+- Kayıt: /tmp/claude-0/-home-user-Xxxx/7162e4a1-8b83-5632-8869-8b60f6d4bda9/scratchpad/out/registry/a5_esz_artik.csv (1.048 satır).
+
+Ana sonuç: bu ailede işlem kuralı olacak kadar güçlü bir ilişki bulunamadı. Tek ORTA (kırılgan) bulgu C1: büyük ABD makro hareketi olan günlerde 12–15 UTC altın artığı 3 gün sürüyor. Yetişme hipotezi reddedildi; oran ve 15→15 artık hipotezlerinde ilişki yok.
+
+Veri notu: çalışma sırasında başka bir süreç panel/duka saatlik dosyalarını güncelledi (23:30 UTC). Raporlanan rakamlar bu güncel veriyle yapılan son tam çalıştırmaya ait; önceki çalıştırmayla farklar küçük (C1 t 3,00 → 2,95).
+
+  [a5_C1_makrogunu_gunici_artik_surme] predictor=e12 = [log(XAU 15:00/12:00) − a − b'·x12]/σ_e; x12 = DOLLARIDXUSD, USTBONDTRUSD, USA500IDXUSD 12:00→15:00 log getirileri; (a,b) geçmiş 60 gün OLS (t−60..t−1); koşul |b'x12/σ_e| > 1,096 (IS 80. yüzdelik, a priori q80) | h=3 | ic=0.171 | t_full=2.95 | t_is=2.1 | t_oos=1.93 | yrs_same_sign=6/7 | sharpe_oos_net=0.6 | sharpe_oos_demeaned=0.58 | trades_per_year=37 | confidence=ORTA
+     kural: Koşul günlerinde t uzlaşmasında sign(e12) yönünde gir (e12>0 uzun, e12<0 kısa), t+3 uzlaşmasında çık; koşulsuz günlerde pozisyon yok; 3 alt portföylü kademeli uygulama, 5 bps gidiş-dönüş
+     bilgi zamanı: gün t 14:59:59 UTC (Dukascopy 14:00 mumu kapanışı) ve 11:59:59 UTC (11:00 mumu); beta t−1'e kadar
+     REP: zayifladi → DUSUK | Sinyal ham Dukascopy saatlik barlarından sıfırdan kuruldu. e12, analistin sinyaliyle 1.872 günün tamamında birebir aynı çıktı (fark 0). Eşik q80 = 1,0965. VİOP'ta n = 272 (IS 121, OOS 151); ilk koşul günü 2019-08-01.
+
+IC (h3): 0,171. NW t (L=5) 2,94; statsmodels'teki gibi küçük örneklem düzeltmesi olmadan 2,95. IS t 2,08, OOS t 1,92. Yıl tutarlılığ || SORUN: Rakamlar analistinkiyle aynı; hesap ya da zamanlama hatası yok. Yine de 'ORTA' etiketi cömert:
+
+(1) Spesifikasyona duyarlı. Beta penceresi W120'de t 2,07 (OOS 1,77), W250'de 1,73 (OOS 0,90). Beta yalnız IS'ten bir kez tahmin edilip sabit tutulunca (koşul aynı) t 1,72, OOS 0,95.
+(2) Ticari sonuç zayıf. OOS P&L t 1,31; tam dönem 1,64. OOS rank t 2'nin altında (1,92). OOS kazancı uzun bacakta; kısa bacak demeaned ≈ 0.
+(3) IS kanıtı yalnız 2019-08..2021-12 aralığından geliyor (121 sinyal) ve 2020'ye dayanıyor. IS Sharpe'ı sinyal olmayan 2017–2019 sıfır günlerini de içeriyor (bu küçük bir teknik no
+     ADV: zayifladi → DUSUK | Sinyali bağımsız olarak yeniden hesapladım, analistin sonucuyla birebir aynı (korelasyon 1,0). IC 0,171, t 2,951 (IS 2,098, OOS 1,935), n 272, eşik 1,096, ilk sinyal 2019-08-01. Pearson t 1,23 (IS 0,28).
+h1..h5 t: 2,00 / 2,59 / 2,95 / 2,19 / 1,50; OOS: 0,93 / 1,48 / 1,94 / 1,43 / 0,94.
+Alt dönemler (h3): 2019 −0,07 (n 39); 2020–21 2,62 (n 82); 2022 || SORUN: İleriye bakma bulamadım:
+- 12:00 ve 15:00 görüntüleri 11:00 ve 14:00 mumlarının kapanışı.
+- 23:30'daki güncelleme geçmişi değiştirmemiş: panel ile güncel duka dosyaları 15:00 ve 12:00'de birebir aynı.
+- Beta yalnız t−1'e kadar tahmin ediliyor; sinyalde v_* sütunu yok.
+
+Zayıf yanlar:
+1. Global ve aile içi FDR'den geçmiyor.
+2. Getiri bazında anlamlı değil: 5 bps net işlem t 1,61 (OOS 1,21), 10 bps'te OOS 0,87. Kazancı birkaç işlem taşıyor: en iyi 5 işlem çıkınca t 1,17.
+3. OOS kazancın tamamı uzun bacakta; kısa bacak drift çıkarılınca sıfır. Bu, boğa piyasasında uzun eğilimi demek.
+4. Seçilen no
+
+  [a5_C4_londra_ny_artik_surme] predictor=e07 = [log(XAU 15:00/07:00) − a − b'·x07]/σ_e; x07 = DXY, US T-bond, S&P CFD 07:00→15:00 log getirileri; b geçmiş 60 gün | h=1 | ic=0.063 | t_full=2.6 | t_is=2.66 | t_oos=1.38 | yrs_same_sign=6/8 | sharpe_oos_net=0.88 | sharpe_oos_demeaned=0.87 | trades_per_year=55 | confidence=DUSUK
+     kural: |e07|>1 ise t uzlaşmasında sign(e07) yönünde gir, t+1 uzlaşmasında çık; aksi halde pozisyon yok
+     bilgi zamanı: gün t 06:59:59 ve 14:59:59 UTC (dk_*_p07, dk_*_p15); beta t−1'e kadar
+     REP: ayakta → DUSUK | IC 0,063; t 2,59; IS t 2,67; OOS t 1,38; yıl 6/8; n 1.782.
+
+thr1 kuralı (|e07|>1, 5 bps):
+- SR IS 0,80 (analist 0,82).
+- SR OOS 0,88; demeaned 0,87; 10 bps'te 0,60.
+- OOS uzun bacak 0,76 (demeaned 0,56), kısa bacak 0,52 (demeaned 0,67).
+- P&L t: tam dönem 2,56, OOS 1,93.
+
+Sürekli sign kuralı OOS SR 0,04. Spot hedef t 2,01 (OOS 0,99); 1 saat atlamal || SORUN: 'trades_per_year 55' aslında maruziyet × 252 ve 2017-03..2026-11'in tamamına, sinyalin olmadığı 2017–2018 günleri de dahil edilerek yayılmış bir ortalama. Sinyalin var olduğu dönemde pozisyonlu gün sayısı yılda yaklaşık 73. Bu bir tanım farkı.
+
+Sonuç tamamen eşik seçimine bağlı: sign kuralında OOS SR 0,04, eşikli kuralda 0,88. IC'nin OOS t'si 1,38. Post-hoc seçim. DÜŞÜK etiketi yerinde.
+     ADV: zayifladi → DUSUK | IC 0,063, t 2,604 (IS 2,661, OOS 1,381), n 1819.
+Alt dönemler: 2019 0,45; 2020–21 2,67; 2022–23 0,57; 2024–26 1,21.
+|e07|>1 olan günlerde IC 0,138, t 3,19 (IS 1,92, OOS 2,52); bu günlerde 2022–23 t 0,69.
+Eşiğe göre OOS SR (5 bps):
+- 0 → 0,04; 0,5 → 0,47; 0,75 → 0,45
+- 1,0 → 0,88; 1,25 → 0,63; 1,5 → 0,79; 2,0 → 0,93
+- eşik 1'de 10 bps: 0,60
+Başlangı || SORUN: İleriye bakma bulamadım: kullanılan görüntüler 06:59:59 ve 14:59:59 UTC'de, beta t−1'e kadar.
+
+Zayıf yanlar:
+- Post-hoc seçildi. h=1 için IS'te seçilen C2 OOS'ta sıfır.
+- Eşikli kuralın OOS SR'si eşiğe ve pencereye duyarlı. 0,88 değeri komşularının üstünde; 9–10 başlangıç saatlerinde sıfıra iniyor.
+- 10 bps'te işlem t 1,07; 2022–23'te etki yok.
+- Raporda 'erken dönem verisi yok' deniyor. Vekil faktörlerle test edince 2019-07 öncesinde etki sıfır çıkıyor.
+- FDR'den uzak.
+
+Lehine olanlar: |e|>1 alt kümesinde OOS rank-IC t 2,52; iki bacak da drift çıkarılınca pozitif. Analistin koşulsuz OOS IC'si
+
+  [a5_B1_altin_gumus_5g_goreli_donus] predictor=GSRD5 = Σ_{son 5 gün}[Δlog XAU15:00 − Δlog XAG15:00] / (σ_120(günlük Δ, t−1'e kadar)·√5) | h=1 | ic=-0.052 | t_full=-2.49 | t_is=-0.68 | t_oos=-2.82 | yrs_same_sign=7/10 | sharpe_oos_net=1.12 | sharpe_oos_demeaned=1.11 | trades_per_year=99 | confidence=DUSUK
+     kural: pos = −sign(GSRD5): altın son 5 günde gümüşü geçtiyse t uzlaşmasında kısa, geride kaldıysa uzun; t+1 uzlaşmasında çık; her gün yeniden kur
+     bilgi zamanı: gün t 14:59:59 UTC (xau_p15, dk_XAGUSD_p15)
+     REP: zayifladi → DUSUK | GSRD5 (Dukascopy 15:00) üzerinde:
+- IC −0,052; t −2,49; IS t −0,68; OOS t −2,82; yıl 7/10.
+- Yıllık IC: 2018, 2019, 2021 pozitif; 2022–2026 hep negatif.
+- Backtest (−sign): OOS SR 1,12, demeaned 1,11; IS SR 0,06; devir yılda 99. OOS P&L t 2,47.
+- Spot hedef 2016+: t −3,10 (OOS −2,93). 1 saat atlamalı hedef OOS −3,31.
+- 2016-01..2017-03 Dukascopy: I || SORUN: (1) Pearson t −1,34 tekrar edilemedi ve analistin çıktılarında da yok. Benim hesabım: Pearson t −0,56; sinyal ±3'te kırpılınca −1,00; 2026 hariç −0,81; IS +0,76.
+
+(2) Erken dönem bulgusu başlangıç tarihine bağlı:
+- Ocak–Mayıs 2010 eklenince (Yahoo geçmişi mevcut): k5 h1 −0,61, h3 −1,68, h5 −1,87.
+- Örneklem Dukascopy XAU 15:00 verisiyle 2008-06'dan başlatılınca: h1 0,08, h3 −0,85, h5 −1,34.
+- 2008-06..2010-01 alt döneminde işaret ters (pozitif).
+- Yani '2010–2016'da da var' desteği büyük ölçüde kayboluyor.
+
+(3) IS'te etki yok (t −0,68, backtest SR 0,06). Yıllık net getiri sırayla: 2018 −%15, 2
+     ADV: zayifladi → DUSUK | IC −0,052, t −2,493 (IS −0,681, OOS −2,822), n 2354. Bağımsız yeniden hesapla korelasyon 1,0.
+Pearson t −0,56 (IS +0,76, OOS −1,28). Raporda −1,34 yazıyor; bu sayıyı üreten kod yok.
+Alt dönemler: 2017–19 −0,72; 2020–21 −0,10; 2022–23 −1,70; 2024–26 −2,03.
+Komşular (k 1–20 × h 1–5):
+- tam dönem t'nin tepesi k5 h1 (−2,49); k4 −1,91, k6 −1,63, k≥8 içi || SORUN: Sinyal yalnız 15:00 Dukascopy fiyatlarından kuruluyor; ileriye bakma yok. VİOP hedefi 15:00 BID görüntüsünün gürültüsünü paylaşmıyor.
+
+Zayıf yanlar:
+1. Tam dönem tablosundan post-hoc seçildi ve tam dönem t'si OOS'tan geliyor. Bu yüzden 'OOS' sonucu gerçek bir örneklem dışı test sayılmaz.
+2. 2017–2021'de ilişki yok; h≥2 komşularında IS işareti ters.
+3. Pearson t −0,56: getiri büyüklüğünde ilişki zayıf. Rapordaki −1,34 kodla yeniden üretilemiyor.
+4. Erken Yahoo vekilinde k5 h1 −1,16 anlamsız; k1 h1 +2,60 ve işareti ters.
+5. FDR'den geçmiyor.
+
+Lehine olanlar: OOS'ta komşular tutarlı; iki bacak da
+
+  [a5_yetisme_eksik_tepki_YOK] predictor=gap = b'·x − g; 12–15 UTC ve 07–15 UTC pencereleri; DXY, T-bond, S&P tek tek ve MACRO3; W 60/120/250; koşulsuz ve büyük makro günleri koşullu | h=1 | ic=-0.05 | t_full=-2.08 | t_is=-2.21 | t_oos=-0.98 | yrs_same_sign=0/8 (yetişme yönünde) | sharpe_oos_net=-0.03 | confidence=YOK
+     kural: gap>0 (altın makronun ima ettiğinin altında kaldı) ise uzun, gap<0 ise kısa; t → t+h uzlaşması
+     bilgi zamanı: gün t 14:59:59 / 11:59:59 / 06:59:59 UTC
+     REP: ayakta → YOK | gap = −e12 (12–15 MACRO3 W60), h1: IC −0,050; t −2,08; IS t −2,20; OOS t −0,98.
+
+Yetişme yönündeki kural (sign(gap)): OOS net SR −0,64 (brüt −0,31); IS net −1,18. Sürme yönündeki sign(e12) kuralı: OOS net SR −0,03 (devir yılda 244).
+
+C ailesi 63 testin hepsi yeniden hesaplandı. IS seçimleri birebir aynı:
+- h1: koşullu W250, IS t 3,54 → OOS −0,02.
+- || SORUN: Sonuç doğru; üç küçük yanlış etiket var:
+
+(1) 'sharpe_oos_net −0,03' yetişme kuralının değil, sürme (sign(e12), yani C3 sign) kuralının Sharpe'ı. Gerçek yetişme kuralının OOS net SR'si −0,64. Bu, YOK sonucunu güçlendiriyor.
+(2) 'yrs 0/8 (yetişme yönünde)' tam doğru değil. Gap yönünde 2022 yıllık IC'si +0,019, 2019 ≈ 0. Yani 1/8 yıl çok zayıf biçimde yetişme yönünde.
+(3) '45 koşulsuz testin hepsi' aslında 44/45. C_I12_DXY_W120_h3'te IC −0,012; analistin kendi grid_viop.csv'sinde de böyle.
+     ADV: ayakta → YOK | C_I12_MACRO3_W60_h1 artık yönünde t 2,079 (IS 2,21, OOS 0,98); gap yönünde −2,08 / −0,98.
+Gap (yetişme) yönünde sign kuralı: OOS SR brüt −0,31, 5 bps net −0,64 (IS −1,18). Raporlanan −0,03 aslında sürme yönündeki C3 sign kuralına ait.
+45 koşulsuz gün içi testin 44'ünde t>0; tek negatif C_I12_DXY_W120_h3 (t −0,55). OOS'ta 40/45 pozitif.
+Koşullu C1'i || SORUN: Sıfır bulgusu ayakta, hatta güçleniyor: yetişme yönünde işlem 5 bps sonrası OOS SR −0,64.
+
+Küçük hatalar (sonucu değiştirmiyor):
+- '45 testin hepsi' değil, 44/45.
+- 'Yetişme yönünde 0/8 yıl' değil, 1/8 (2022, −0,019; 2019 ≈0).
+- sharpe_oos_net alanındaki −0,03 yanlış yönü (sürme) gösteriyor.
+
+  [a5_15to15_artik_donus_YOK] predictor=e_k = k günlük kümülatif 15→15 yuvarlanan-beta artığı, standartlaştırılmış; 11 model (XAG, DXY, TBOND, SPX, USDJPY, USDCNH, BTC, EURUSD, MACRO3, FX3, ALL7) × W 60/120/250 × k 1/3/5; k=1 için β·x − altın | h=1 | ic=0.028 | t_full=1.36 | t_is=2.49 | t_oos=-0.41 | yrs_same_sign=6/10 | sharpe_oos_net=-0.81 | sharpe_oos_demeaned=-0.81 | trades_per_year=257 | confidence=YOK
+     kural: IS'te seçilen yön: h1 için EURUSD W60 k1 artığı yönünde (IS t 2,49); dönüş versiyonunda −sign(e)
+     bilgi zamanı: gün t 14:59:59 UTC (dk_*_p15, xau_p15); beta t−1'e kadar
+     REP: ayakta → YOK | 297 testlik A ızgarası panelin dk_*_p15 fiyatlarıyla yeniden hesaplandı. Bu fiyatların ham 14:00 barlarıyla ortak günlerde aynı olduğunu doğruladım; eksik barda daha erken barın kapanışı kullanılıyor, ileriye bakma yok. Sonuçlar analistin t'leriyle korelasyon 1,0, maksimum fark 0,001.
+
+- |t|>2: 5/297 (%1,7). Maksimum |t| 2,35. IS→OOS işaret uyumu % || SORUN: Küçük farklar:
+- RAPOR'daki tablo |t|>2 sayısını 6 veriyor; yeniden hesapta 5 çıkıyor.
+- Kanonik W120 k1'de maksimum |t| 1,73 (USDJPY h3). '1,7'yi geçmiyor' ifadesi teknik olarak birazcık yanlış.
+- Post-hoc USDJPY sonucu, panelde dakika verisinden yamanan Ekim 2026'daki 27 güne duyarlı. Saf Dukascopy saatlik verisiyle (USDJPY 2026-09-30'da bitiyor): USDJPY W60 k3 h1 t 2,56 (OOS 2,53) ve |t|>2 sayısı 7/297.
+- Hiçbiri YOK sonucunu değiştirmiyor.
+     ADV: ayakta → YOK | 297 A_resid testinin 6'sında |t|>2 (%2,0); IS→OOS işaret uyumu %37.
+IS seçimi A_EURUSD_W60_k1_h1: t 1,36, IS 2,49, OOS −0,41. Sign backtest OOS SR −0,81 (10 bps'te −1,17).
+BTC W250 k3 h5: IS −3,18 → OOS +1,01.
+Kanonik W120 k1'de maks |t| 1,73 (USDJPY h3).
+VİOP birincil ızgarasında en iyi A testinin BH q değeri ≈0,78. || SORUN: Sıfır bulgusu ayakta.
+
+Küçük hata: kanonik W120 k1 için 'hiçbir çiftte |t| 1,7'yi geçmiyor' deniyor. Oysa USDJPY h3 t 1,73; SPX ve MACRO3 h3 t 1,62.
+
+Tam dönemde öne çıkan A1/A2 (t 2,29 / 2,35) 297 testin maksimumu; FDR q ≈0,78.
+
+  [a5_oran_zskor_YOK] predictor=GSRZ_L = z(log XAU15/XAG15), L = 20/60/120; GPTZ/GPTD = altın/platin Yahoo GC_F/PL_F t−1 z ve Δk; VİOP uzlaşmalı altın/gümüş (kapanışta hesaplanan) ve t−1 sürümü | h=5 | ic=0.047 | t_full=1.15 | t_is=2.11 | t_oos=-0.17 | yrs_same_sign=7/10 | confidence=YOK
+     kural: IS'te seçilen: GSRZ_L120 yönünde (oran yüksekse uzun), t → t+5
+     bilgi zamanı: gün t 14:59:59 UTC (dk); Yahoo için t−1 ABD kapanışı (≤ t 00:00 UTC); VİOP oranı t 15:10 UTC (kapanışta hesaplanan)
+     REP: ayakta → YOK | GSRZ_L120, h5: IC 0,046; t 1,15; IS t 2,10; OOS t −0,17; yıl 7/10.
+
+IS'te seçilen L120'nin her üç ufukta da OOS işareti ters dönüyor: h1 1,30 → −1,30; h3 1,57 → −0,75; h5 2,10 → −0,17. L20 ve L60 için de IS–OOS tutarsızlığı aynı.
+
+Altın/platin oranı (Yahoo GC=F/PL=F t−1, Yahoo takviminde hesaplanıp spot gününe as-of eşlendi), z ve Δk ile 18 test: m || SORUN: Önemli bir sorun yok. Platin testlerindeki küçük fark, takvim kurulumundan kaynaklanıyor (Yahoo takvimi ile spot takvimi ve ffill). İki bacaklı spread tanısı ve E ailesi yeniden hesaplanmadı.
+     ADV: ayakta → YOK | B_GSRZ_L120_h5: t 1,15 (IS 2,11, OOS −0,17).
+9 GSRZ testinde IS ve OOS işaretleri ters ya da karışık. L20 ve L60 h1'de OOS t −1,95 / −1,92 (IS'te ters işaret).
+Platin oranı (GPT, 18 test) maks |t| 1,07. Spread tanısı (18 test) maks |t| 1,54.
+E ailesi VGSRD k5 h1: t −2,17 (IS +0,73, OOS −2,46). || SORUN: Sıfır bulgusu ayakta.
+
+Not: kısa pencereli z-skorlar OOS'ta B1 ile aynı yönde, zayıf negatif (t ≈ −1,9). Yani 2022 sonrası rejim oran ailesinde de görünüyor, ama IS'te işaret ters; istikrarlı bir oran sinyali yok.
+
+E ailesi 15:10 uzlaşmalarını kullandığı için kapanışta hesaplanan bir sinyal; analist bunu doğru işaretlemiş.
+
+  NEGATİFLER:
+   - Gün içi eksik tepki → yetişme: 12–15 UTC'de dolar, T-bond ve S&P'ye beta altında tepki veren altın sonraki 1–5 günde yetişmiyor (45 test; işaret hep ters, yani sürme).
+   - [t−1 15:00 → t 15:00] çapraz varlık hareketinin altına yansımamış kısmı (β·x − altın) 1/3/5 günü öngörmüyor. Gümüş, DXY, T-bond, S&P, USDJPY, USDCNH, BTC, EURUSD, MACRO3, FX3 ve ALL7 için W60/120/250 denendi; kanonik W120 k1'de hiçbir çiftte |t| 1,7'yi geçmiyor.
+   - 15→15 yuvarlanan-beta artığında k=3/5 kümülatif dönüş yok: 297 VİOP + 297 spot test, |t|>2 oranı %2 ve %0,3, IS→OOS işaret uyumu %37.
+   - IS'te seçilen A spesifikasyonları OOS'ta tersine döndü: EURUSD W60 k1 h1 (IS t 2,49 → OOS −0,41; backtest OOS SR −0,81), BTC W250 k3 h5 (IS −3,18 → OOS +1,01), BTC W250 k5 h3 (IS −2,71 → OOS +1,58).
+   - Altın/gümüş log oran z-skoru (20/60/120 gün) seviye dönüşü yok; IS ve OOS işaretleri ters (L120 h5: IS 2,11 → OOS −0,17).
+   - Altın/platin oranı (Yahoo PL_F/GC_F t−1; z ve Δk, 18 test) için kanıt yok; maks |t| 1,07. Dukascopy XPTUSD verisi yok.
+   - Altın/gümüş oranı iki bacaklı spread olarak (altın − gümüş ileri getirisi) 1–5 günde dönmüyor (18 test, maks |t| 1,54).
+   - VİOP uzlaşmasıyla hesaplanan altın/gümüş oranı (2021+, kapanışta hesaplanan) ve t−1 sürümü: IS–OOS işaretleri tutarsız; IS'te seçilen 3 spesifikasyonun 2'si OOS'ta tersine döndü.
+   - Faktörün ima ettiği hareket (b'x, fitted) altının sonraki getirisini öngörmüyor (33 test; yalnız gümüş h3 t 2,10, IS 1,79, OOS 1,18, zayıf).
+   - Altının kendi 15→15 getirisi (1/3/5 günlük toplam) 1/3/5 günü öngörmüyor (kontrol, maks |t| 1,58). Kendi 12–15 ve 07–15 getirisi de öngörmüyor (|t| < 1,5).
+   - IS'te en iyi görünen 12–15 koşullu W250 h1 (IS t 3,58) OOS'ta sıfır (−0,02; backtest OOS SR −0,30).
+   - Koşulsuz gün içi artıkla sürekli 'sign' kuralı OOS'ta 5 bps sonrası Sharpe ≈0 (12–15: −0,03; 07–15: 0,04).
+   - Aile genelinde IS'te seçilen 18 spesifikasyondan 5'i OOS'ta işaretini korudu, OOS |t|≥2 ile işaretini koruyan olmadı.
+  REP GENEL: Altı iddia ham tablolardan bağımsız olarak, kendi kodumla yeniden hesaplandı. Hesap ya da zamanlama hatası bulunmadı ve ana sayılar analistinkiyle 0,01–0,02 hassasiyetle örtüşüyor. lib_altin.py ve a5_lib.py kullanılmadı. Kod: /tmp/claude-0/-home-user-Xxxx/7162e4a1-8b83-5632-8869-8b60f6d4bda9/scratchpad/out/a5_esz_artik_rep/ (rep_lib.py, rep01..rep09; hepsini run_all.sh çalıştırır; loglar log_rep*.txt).
+
+**Veri ve zaman doğrulaması**
+- VİOP hedefi viop_long.parquet'ten kuruldu. Aktif kontrat, önceki günün açık pozisyonu en büyük vade. prev_settle aynı kontratın bir önceki uzlaşmasıyla 2.427 günün hepsinde aynı. v_ret ve fwd1/3/5 panelle birebir eşleşiyor; 61 roll günü var.
+- Dukascopy saatlik verisinin index'i gerçekten UTC bar başlangıcı. NFP günlerinin saatlik oynaklık sıçraması yaz saatinde 12:00 barında, kışın 13:00 barında görülüyor.
+- Panelin xau_pHH ve dk_*_p15 değerleri (HH−1):00 barının kapanışıyla birebir aynı. Bar eksikse daha erken bir barın kapanışı alınıyor (as-of); ileriye bakma yok.
+- Uzlaşma zamanı dakika verisiyle, dönem dönem ve üç farklı carry referansıyla kontrol edildi. Sapmanın minimumu hep 15:00–15:10 UTC arasında, hiçbir dönemde 15:00'ten önce değil. Yani 14
+  ADV GENEL: Analistin bütün rakamlarını bağımsız kodla yeniden ürettim; sapma yok. Tek istisna B1 için yazılan Pearson t −1,34: kodda bu sayıyı üreten satır yok, benim hesabım −0,56.
+
+İleriye bakma, saat dilimi, tatil, roll ya da v_* sızıntısı bulamadım:
+- Dukascopy saatleri UTC; 12:00 görüntüsü 11:00 mumunun, 15:00 görüntüsü 14:00 mumunun kapanışı.
+- Panel ile 23:30'da güncellenen duka dosyaları 12:00 ve 15:00'te birebir aynı; güncelleme geçmişi değiştirmemiş.
+- Beta yalnız t−1'e kadar tahmin ediliyor.
+- C ve B sinyallerinde VİOP 15:10 sütunu kullanılmıyor.
+- Aktif kontratta sıfır hacimli gün yok; v_ret=0 olan 7 gün var.
+
+Analistin ana sonucu ('bu ailede işlem kuralı yok') ayakta, hatta güçleniyor.
+
+C1, ORTA değil DÜŞÜK olmalı:
+- Global ve aile içi FDR'den geçmiyor (q 0,30 ve 0,20).
+- Getiri bazında anlamlı değil: 5 bps net işlem t 1,61, OOS 1,21; 10 bps'te OOS 0,87.
+- OOS kazanç yalnız uzun bacakta.
+- Seçilen 12:00/W60/h3 noktası komşu ızgaranın tepesi; 13:00 ve 14:00 başlangıçta OOS sıfır.
+- 2019-07 öncesinde DXY ve EURUSD vekilleriyle tekrar etmiyor.
+
+C4 ve B1 DÜŞÜK düzeyini aşmıyor:
+- C4 erken dönem vekilinde sıfır.
+- B1 post-hoc seçildi ve tamamen 2022 sonrası bir rejim; IS'te yok.
+
+Üç Y
+====================================================================================================
+AİLE: a6_akis_konum_cin | test sayısı: 542 | rapor: /tmp/claude-0/-home-user-Xxxx/7162e4a1-8b83-5632-8869-8b60f6d4bda9/scratchpad/out/a6_akis_konum_cin/RAPOR.md
+
+  [a6_cn_gold_res_comp_h5] predictor=Çin altın hisseleri artık getirisi bileşiği. Her hisse için e = r_hisse − b0 − b1·r_spot_altın(aynı kapanış penceresi) − b2·r_yerel_endeks; betalar 250 günlük kayan OLS'ten, yalnız t−1'e kadarki veriyle. Hisseler: 600547.SS (endeks 000001.SS), 1818.HK ve 2899.HK (endeks ^HSI). Bileşik = artıkların ortalaması (en az 2 hisse). | h=5 | ic=0.065 | t_full=2.83 | t_is=0.37 | t_oos=3.4 | yrs_same_sign=8/9 | sharpe_oos_net=1.41 | sharpe_oos_demeaned=1.4 | trades_per_year=121 | confidence=ORTA
+     kural: pos_t = sign(bileşik_t). Gün t VİOP uzlaşmasında (≈15:10 UTC) gir, t+5 uzlaşmasında çık. Kademeli uygulama: her gün sermayenin 1/5'i. Uzun ve kısa iki yönlü.
+     bilgi zamanı: Gün t 07:00 UTC (SSE) ve 08:10 UTC (HKEX): cutoff'tan ≥6,8 saat önce
+     REP: zayifladi → DUSUK | Kendi inşam: ham Yahoo, hissenin kendi takvimi, 250 günlük geçmiş OLS, 2017-03'ten itibaren. IC 0,053; NW t 2,48 (IS 0,14, OOS 3,24); yıllar 7/10. İşaret kuralı h=5, kademeli, net 5 bps: Sharpe IS −0,14, OOS 1,26 (drift çıkarılmış 1,24); 10 bps'de 1,12. Ciroyu netleştirmeden OOS 1,13. Uzun bacak OOS 1,06 (dm 0,56), kısa bacak 0,13 (dm 0,54). Buy &  || SORUN: (1) Analistin örneklemi 2018-03'te başlıyor; bunun bilinçli bir seçim olmadığını düşünüyorum. statsmodels RollingOLS expanding=False ile çalışınca min_nobs=150 yok sayılıyor; VİOP takviminde 250 gözlem dolana kadar artık NaN kalıyor. 2017-03..2018-03 eklenince tam örneklem t'si 2,8'den 2,5'e düşüyor. (2) Bilgi zamanı ham damgalarla doğrulandı. Yahoo ts_utc = 01:30 UTC açılış, index = yerel tarih. Hisse getirisinin aynı penceredeki altınla korelasyonu 0,53–0,60; bir gün kaydırılmış pencerelerle ≈0. Kayma veya sızıntı yok. Hedef panel fwd ile birebir aynı (aktif kontrat t−1 OI'ye göre, prev_sett
+     ADV: zayifladi → DUSUK | Artıkları bağımsız kurdum: Yahoo ham verisi, Dukascopy, beta yalnız t−1'e kadar, sıfır hacimli günler NaN. Analistin serisiyle korelasyon 0,998. h=5: IC 0,057, t 2,53 (analist serisinde 2,83; ortak örneklemde 2,75), IS t 0,00 (analist 0,37), OOS t 3,37. Benim serim 2017-10'da başlıyor, analistinki 2018-03'te; eklenen 5 ay negatif. Alt dönem IC (t): || SORUN: İleriye bakma bulamadım. Asya kapanışları cutoff'tan en az 6,8 saat önce; tarih hizası doğru; v_* kullanılmıyor; beta shift(1). Asıl sorun seçim ve rejim. (1) Aday, OOS'u da içeren tam örneklem t'sine göre seçildi. Bu yüzden 'OOS t 3,4' temiz bir doğrulama değil. Gerçek dış örneklemler, yani IS 2017–21 (t≈0, kural Sharpe −0,32) ve 2010–16 spot (t 0,77), etkiyi göstermiyor: yaklaşık 12 yıl boş, ardından 2022–26 dolu. Bu 5 yılda da 2023 IC'si 0,005 ve kanıtın çoğu 2024–26'da. (2) Bonferroni hiçbir düzeyde geçmiyor, BH q > 0,10. (3) Mekanizma kısmen tutarsız. 'Çin talebi Asya seansında küresele y
+
+  [a6_res600547_h5] predictor=Shandong Gold 600547.SS artık getirisi (spot altın ve Şanghay Bileşik betası çıkarılmış, 250 günlük kayan OLS) | h=5 | ic=0.069 | t_full=3.02 | t_is=0.86 | t_oos=3.08 | yrs_same_sign=8/9 | sharpe_oos_net=1.02 | sharpe_oos_demeaned=1.07 | trades_per_year=119 | confidence=ORTA
+     kural: pos_t = sign(e_600547,t). h=5 tutuş, kademeli. IS tercile kuralında (IS 1/3 ve 2/3 kantilleri) OOS Sharpe 1,27.
+     bilgi zamanı: Gün t 07:00 UTC
+     REP: zayifladi → DUSUK | Kendi inşam, 2017-03'ten itibaren: IC 0,052; t 2,42 (IS 0,17, OOS 2,91); yıllar 8/10. İşaret kuralı: Sharpe IS 0,07, OOS 1,25 (dm 1,30); 10 bps'de 1,08. IS tercile kuralı OOS 1,15. Uzun bacak OOS 0,89, kısa bacak 0,16. Taklit inşa analistin rakamlarını tutturuyor: IC 0,067–0,069, t 2,98–3,00, IS 0,85–0,89, OOS 3,08, Sharpe OOS 1,02, dm 1,07. Kontro || SORUN: 'Mekanik YÜKSEK eşiklerini geçiyor' iddiası (t_tam 3,02), örneklemin RollingOLS artefaktı yüzünden 2018-03'te başlamasına dayanıyor. 2017 eklenince (2017 yılı IC −0,082) t 2,42'ye iniyor. IS t'si 0,17 ve kontrollü IS t'si negatif, yani etkinin tamamı OOS'tan geliyor. OOS Sharpe inşaya duyarlı: artıkların korelasyonu 0,976 olan iki inşada 1,02 ile 1,25. Bileşikle aynı sorunlar burada da var: j=2 ve j=4–5 gecikme yığılması, 3 hisse + bileşik × 4 ufuk arasından seçim, erken dönemde etki yok. Analistin ORTA'yı DÜŞÜK'e indirmeye çok yakın gerekçeleri bence DÜŞÜK'ü hak ediyor.
+     ADV: zayifladi → DUSUK | h=5: IC 0,066, t 2,91, IS 0,76, OOS 3,08. Alt dönem IC (t): 2017–19 +0,058 (1,37) | 2020–21 −0,006 (−0,13) | 2022–23 +0,022 (0,51) | 2024–26 +0,144 (3,33). Kural sign, net 5 bps Sharpe: 2017–19 0,79 | 2020–21 0,03 | 2022–23 −0,30 | 2024–26 1,72 | IS 0,27 | OOS 1,03 (dm 1,08; uzun 0,79, kısa 0,09); 10 bps OOS 0,86. Tercile_IS: OOS 1,29 (10 bps 1,12) || SORUN: Ana iddiayla aynı kanıt, üstelik 3 hisse + bileşik × 4 ufuk arasından seçilmiş. OOS kârının tamamı 2024–26'dan geliyor: 2022–23 kural Sharpe'ı −0,30 (sign) veya 0,06 (tercile). Kısa bacak OOS'ta 0,09, yani kâr büyük ölçüde uzun bacak ve boğa piyasası. 2010–21'in 12 yılında spot ve VİOP'ta etki yok. 600547'nin 2013–14 ve 2017 askı dönemlerinde getiri 0 sayılmış; erken dönem testini hafifçe bozuyor. İleriye bakma bulunmadı. Ayrı bir sinyal sayılmamalı; mekanik YÜKSEK eşiğini geçmesi seçim etkisi.
+
+  [a6_hsi_h3] predictor=Hang Seng ^HSI gün t log getirisi (gün t 08:10 UTC kapanışı, bir önceki kapanışa göre) | h=3 | ic=0.061 | t_full=3.06 | t_is=2.37 | t_oos=2.11 | yrs_same_sign=8/10 | sharpe_oos_net=0.24 | sharpe_oos_demeaned=0.25 | trades_per_year=132 | confidence=DUSUK
+     kural: pos_t = sign(r_HSI,t). h=3 tutuş, kademeli.
+     bilgi zamanı: Gün t 08:10 UTC
+     REP: curudu → YOK | Kendi inşam (^HSI kendi takviminde günlük getiri): IC 0,057; t 2,86 (IS 2,33, OOS 1,87); yıllar 8/10. İşaret kuralı h=3, net 5 bps: OOS Sharpe 0,14 (dm 0,15); 10 bps'de −0,06. Kontrollü NW t 0,83 (OOS 0,30). h=1'de kontrollü t 1,81 (OOS 2,12). Gecikme profili: yalnız j=1 anlamlı (t 2,58), j=3'te OOS −1,39. 2010–2016 erken dönem: h3 t 0,15, h1 t −2, || SORUN: Ham IC tekrar üretiliyor, ama OOS t bağımsız inşada 2'nin altında. Spot getiri kontrolleri eklenince etki kayboluyor; ham IC aynı günkü spot hareketinin yansıması. Net OOS Sharpe buy & hold'un (0,51) çok altında ve 10 bps'de negatif. Erken dönemde h=1'de işaret ters. Analistin 'ekonomik olarak kullanılamaz' notu doğru; işlem yapılabilir bir lead-lag olarak ayakta değil.
+     ADV: curudu → YOK | h=3: IC 0,061, t 3,06, IS 2,37, OOS 2,11; h=4 OOS 0,77; h=5 1,44 (OOS 1,03). Alt dönem IC hep pozitif: 1,62 / 1,70 / 1,64 / 0,97 (2024–26). Spot r1, r5, 07→15 ve VİOP r_{t−1} kontrolleriyle t 1,04 (IS 1,09, OOS 0,56); corr(HSI_t, spot r1) 0,134. Kural net 5 bps Sharpe: IS 0,43, OOS 0,24, 2024–26 −0,04; 10 bps OOS 0,05. Kısa bacak OOS −0,29; uzun ba || SORUN: HSI getirisi, 15:00 UTC'de zaten bilinen spot altın hareketini (r1, 07→15) taşıyor. Kontrol eklenince bilgi kalmıyor (OOS t 0,56). Maliyet sonrası OOS Sharpe ≈0; son 3 yılda negatif. Erken dönemde işaret ters. İleriye bakma sorunu yok, ama işlem yapılabilir, bağımsız bir sinyal de yok.
+
+  [a6_viop_oi5_x_trend_h5] predictor=VİOP XAUUSD OI 5 günlük % değişimi × sign(5 günlük uzlaşma getirisi). OI, vadesi o gün dolan kontrat hariç bütün vadelerin oi_chg toplamı. t−1 bülteni. | h=5 | ic=-0.076 | t_full=-2.77 | t_is=-3.61 | t_oos=-0.62 | yrs_same_sign=10/10 | sharpe_oos_net=0.38 | sharpe_oos_demeaned=0.4 | trades_per_year=72 | confidence=DUSUK
+     kural: pos_t = −sign(x_t): fiyatla aynı yönde OI birikimi varsa ters yönde pozisyon. h=5, kademeli.
+     bilgi zamanı: t−1 VİOP bülteni (t−1 ~15:30–16:00 UTC)
+     REP: curudu → YOK | Özelliği ham viop_long'dan kurdum: vadesi dolmayan kontratlarda Σoi_chg / Σ(oi − oi_chg), 5 günlük toplam × sign(5 günlük v_ret), shift(1). Analistin serisiyle korelasyon 1,0. oi_chg sütunu kendi OI farkımla %99,97 tutarlı. IC −0,076; t −2,77 (IS −3,61, OOS −0,62); yıllar 10/10. Kural −sign(x), h=5: Sharpe IS 1,33, OOS 0,38 (dm 0,40); 10 bps'de 0,2 || SORUN: Bilgi zamanı doğru: t−1 bülteni cutoff'tan önce yayımlanıyor. Analistin rakamları birebir doğru. Ama OOS IC t'si −0,62, kontrollü OOS t'si −0,09; OOS Sharpe buy & hold'un altında ve kısa bacak zarar ediyor. Etki IS'e ve kısa vadeli fiyat dönüşüne bağlı; OOS'ta teyit edilmiyor.
+     ADV: curudu → YOK | Özelliği bağımsız kurdum, analistinkiyle korelasyon 1,0. oi_chg = OI farkı doğrulandı; OI t−1 bülteninden, r5 t−1 uzlaşmasına kadar, sızıntı yok. h=5: t −2,77, IS −3,61, OOS −0,62. Alt dönem IC (t): −0,135 (−2,75) | −0,149 (−2,49) | −0,030 (−0,47) | −0,030 (−0,64). Kontrollü t −1,21 (IS −1,85, OOS −0,09). Komşu parametreler OI{3,5,10} × sign(r{3,5, || SORUN: Etki tamamen IS'e (2017–21) ait. OOS'ta yok, spot getiri kontrolleriyle de kayboluyor. Komşu getiri pencerelerinde OOS işareti dönüyor, yani tek tepe ve aşırı uyum. OOS'taki küçük kâr uzun bacak ve drift'ten geliyor. 2017 öncesi veri olmadığı için dış geçerlilik test edilemiyor.
+
+  [a6_gpr_z250_h5] predictor=Caldara–Iacoviello günlük GPR log seviyesi, 250 günlük z-skoru. Ham dosyadan, gün t'de D ≤ t−2 değeri kullanıldı. | h=5 | ic=-0.06 | t_full=-2.16 | t_is=-1.86 | t_oos=-1.63 | yrs_same_sign=6/9 | sharpe_oos_net=0.7 | sharpe_oos_demeaned=0.86 | trades_per_year=87 | confidence=DUSUK
+     kural: pos_t = −sign(z_t): GPR yüksekken kısa, düşükken uzun. h=5, kademeli.
+     bilgi zamanı: D+1 23:00 UTC varsayımı (gerçek yayın zamanı belirsiz)
+     REP: zayifladi → DUSUK | Ham gpr_daily.xls, D ≤ t−2: IC −0,060; t −2,16 (IS −1,86, OOS −1,63); yıllar 6/9. Kural: Sharpe IS 0,01, OOS 0,70 (dm 0,86); 10 bps'de 0,63. Uzun bacak OOS 0,96 (dm 0,53), kısa bacak −0,09 (dm 0,37). Yılda 87 değişim. Kontrollü t −2,11. 2010–2016 erken dönem: IC −0,022, t −0,78. Rakamların hepsi analistle birebir. Yayın gecikmesi duyarlılığı: D ≤ t || SORUN: Panel hatası doğrulandı: gpr_* sütunlarındaki sabit 97,667847, ham dosyanın son değeri (2026-11-02). Dosya ≈2026-11-07'de indirildiği halde son gözlem 2026-11-02; yani gerçek zamanlı gecikme en az ≈5 gün ve D+1 varsayımı iyimser. 10 günlük gecikmede etki kayboluyor. Ne IS ne OOS tek başına |t| ≥ 2. Getirinin büyük kısmı yükselen piyasada uzun bacaktan geliyor. Geçmiş değerlerin revize edilip edilmediği bilinmiyor.
+     ADV: curudu → YOK | Analistin özelliğiyle korelasyon 1,0. Paneldeki gpr_* sütunlarının sabit olduğunu doğruladım (nunique=1). h=5, lag 2 gün: t −2,16, IS −1,86, OOS −1,63. Yayın gecikmesine duyarlılık: lag 4 gün −1,18 | 7 gün −2,17 | 10 gün −0,71 | 14 gün +0,30 | 21 gün −0,87. Pencere: z60 −1,06 | z120 −1,72 | z500 −2,09. Alt dönem IC (t): −2,08 | −0,70 | +0,29 (2022– || SORUN: Caldara–Iacoviello günlük endeksi gerçek zamanda haftalık güncelleniyor. Etkin gecikme 2–9 gün arasında değişiyor ve geçmiş değerler revize ediliyor olabilir. Sonuç gecikmeye karşı istikrarsız (4 günde −1,18, 10 günde −0,71, 14 günde +0,30), oysa yavaş bir z-skordan bu beklenmez. Sinyal günlük haber sayımı gürültüsü gibi davranıyor. Alt dönemlerde işaret dönüyor, kural IS'te sıfır, OOS kârı uzun bacak ve drift'ten geliyor, kısa bacak kaybettiriyor. Çoklu test eşiğinin çok uzağında.
+
+  [a6_cn_res_sum5_h1] predictor=Çin altın hisse artık bileşiğinin son 5 günlük toplamı (post-hoc varyant) | h=1 | ic=0.077 | t_full=3.35 | t_is=0.9 | t_oos=3.64 | yrs_same_sign=8/9 | sharpe_oos_net=0.97 | sharpe_oos_demeaned=0.97 | trades_per_year=50 | confidence=DUSUK
+     kural: pos_t = sign(Σ_{t−4..t} bileşik). h=1 (ayrıca h=3) tutuş.
+     bilgi zamanı: Gün t 07:00/08:10 UTC
+     REP: zayifladi → DUSUK | Kendi inşam (comp'un 5 günlük toplamı, min 3): IC 0,068; t 3,16 (IS 0,81, OOS 3,53); yıllar 9/10. İşaret kuralı h=1: Sharpe IS 0,25, OOS 1,03 (dm 1,02); 10 bps'de 0,88. Ciroyu netleştirmeden 0,48. Uzun bacak OOS 1,07, kısa bacak 0,41. Yılda ≈53 değişim. Kontrollü t 3,05 (OOS 3,85). h=3'te t 2,80 (OOS 2,99). 2010–2016 erken dönem: IC 0,017, t 0,76.  || SORUN: Sonuç tekrar üretiliyor ama yeni bir bilgi değil. comp_t'nin kendisi h=1'de IC 0,013 veriyor; h=1 gücü x_{t−1}'in r_{t+1}'i öngörmesinden geliyor, yani bileşikteki aynı j=2 gecikme yığılmasından (placebo shift+1 IC 0,064). Bu yüzden 'yavaş yayılım' kanıtı sayılmaz. Varyant post-hoc seçildi, IS zayıf, erken dönemde etki yok. Netleştirme olmadan h=1'de maliyet hassasiyeti yüksek: OOS 0,48.
+     ADV: zayifladi → DUSUK | h=1: IC 0,072, t 3,14, IS 0,51, OOS 3,71. Komşu toplam pencereleri (h1): sum2 2,85 | sum3 2,57 | sum5 3,14 | sum7 1,86 | sum10 2,10 | sum15 2,71; hepsinde IS ≤ 1,1. Alt dönem IC (t): 0,71 | 0,30 | 1,82 | 3,32. Kontrollü t 3,28 (IS −0,07, OOS 4,04). Kural h1 net 5 bps Sharpe: 2017–19 0,66 | 2020–21 −0,35 | 2022–23 −0,08 | 2024–26 1,68 | IS 0,09 | OO || SORUN: Sonuçlara bakıldıktan sonra seçilmiş bir varyant ve ana sinyalle aynı veri. Ayrı bir kanıt sayılmamalı. Kural kârının tamamı 2024–26'dan geliyor: 2022–23 Sharpe −0,08, IS 0,09. 2010–21 boyunca spot ve VİOP'ta etki yok. Komşu pencerelerin hepsi pozitif ama hepsinde IS boş; bu, rejim tezini güçlendiriyor, sinyali değil. İleriye bakma yok. Ana iddiadan güçlü sayılamaz.
+
+  NEGATİFLER:
+   - CFTC COT altın yönetilen para net/OI seviyesi (52 ve 156 haftalık z), karşıt ve trend yönü: t ≤ |0,9|. Literatürdeki 156h z ±2 karşıt kuralı (h=5): LS net Sharpe −0,10, OOS −0,17. 52h z ±1,5 kuralı: −0,04.
+   - COT haftalık akış (ΔMM net, ΔMM long, ΔMM short, 4 haftalık ΔMM): h ≤ 5'te |t| < 1,6. Yalnız rapor sonrası ilk gün sürümü de yok. Kapanma dönemleri dahil/hariç fark yok.
+   - COT swap ve üretici net/OI z52: yalnız OOS'ta |t| ≈ 2, IS ≈ 0; üretici 2010–2016'da ters işaretli. IS yönüyle kurulan kural OOS Sharpe −0,83.
+   - COT gümüş MM net/OI z ve değişimi; COT OI Δ × sign(ΔMM): h ≤ 5'te ilişki yok; h=10'daki t 2,48 erken dönemde ters işaretli.
+   - SHFE AU0 Şanghay primi (roll temizlenmiş): 1 günlük değişim, 5 günlük değişim, 20g sapma, 250g z ve SHFE 07→07 getirisi: h ≤ 5'te en iyi |t| 1,99 (Δ5, IS −0,55, erken +0,11). Prim/iskonto rejim etkisi 1–5 gün ufkunda yok.
+   - 518880.SS (SGE altın ETF) primi değişimi ve 20g sapması, anormal hacim, işaretli hacim (Çin ETF akış vekili): yok; en iyi t 1,69.
+   - SHFE AG0 gümüş primi 1g değişimi: ham t −2,50, ama spot getiri kontrolleriyle t −0,33. Spot fiyat hareketinin yansıması.
+   - Nikkei, KOSPI, ASX200, Şanghay Bileşik ve vol-ölçekli Asya bileşiği → fwd1/3/5: |t| < 1,8, erken dönemle tutarsız.
+   - Spot altının Asya seansı getirisi (00→07 UTC, gün t): yok.
+   - Çin altın hisselerinin ham getirisi ve 2899.HK (Zijin) artığı: IS işareti karışık ya da ilişki yok; bilgi artık bileşikte.
+   - GPR şoku (MA30'a göre), günlük değişim, MA7/MA30, tehdit ve eylem alt endeksi şokları: yok. GPR > IS %95 uç olayında uzun kuralı (h=5): +21,6 bps, t 0,74; drift çıkarılınca t 0,21.
+   - VİOP XAUUSD OI 1g/5g değişimi, OI seviyesi z250, hacim şoku, işaretli hacim şoku (t−1): yok.
+   - VİOP XAUTRYM (gram altın) OI 5g değişimi, hacim şoku, OI × trend, XAUTRYM/XAUUSD OI oranı: yok. 'Yerli kalabalık' OI z250 IS ile OOS arasında işaret değiştiriyor (IS +0,62, OOS −2,20).
+   - Aynı gün (kapanış sonrası, uygulanamaz) VİOP OI ve hacim sürümleri, t−1 sürümlerinden daha iyi değil.
+   - Çin talebi bileşiği (hisse artığı + 518880 prim Δ + SHFE prim Δ): hisse artığına bilgi eklemiyor (h=5'te t 1,34).
+   - Veri hatası: panel_viop/panel_spot içindeki gpr_* sütunları sabit (97,67); panel kurucudaki tarih dönüşümü bozuk. GPR kullanan her ajan ham dosyadan yeniden kurmalı (d_gpr.py, gpr_asof).
+  REP GENEL: Altı iddianın hepsini sıfırdan, kendi kodumla yeniden hesapladım; lib_altin kullanılmadı. Kod /tmp/claude-0/-home-user-Xxxx/7162e4a1-8b83-5632-8869-8b60f6d4bda9/scratchpad/out/a6_akis_konum_cin_rep/ altında. Hepsi `python3 -W ignore run_all.py` ile ≈30 saniyede yeniden çalışıyor; her betiğin çıktısı log_r*.txt ve r*.csv dosyalarında.
+
+Hedef: viop_long'dan kurduğum aktif kontrat ve fwd1/3/5 panelle birebir aynı (fark 0). Aktif kontrat t−1 OI'ye göre seçiliyor ve prev_settle kendi hesabımla tutarlı. Roll kararında t−1 OI'nin uzlaşma anında henüz kesinleşmemiş olması tek küçük nüans; iki kontrat arasındaki fark yalnız carry olduğu için öngörü sonucunu etkilemiyor.
+
+Bilgi zamanı: Çin ve HK hisseleri ham Yahoo ts_utc (01:30 UTC açılış, index = yerel tarih) ve pencere korelasyonu testiyle doğrulandı. Aynı pencerede korelasyon 0,53–0,60, ±1 gün kaydırılmışlarda ≈0. Sızıntı yok; HK 08:10 UTC, SSE 07:00 UTC kapanıyor.
+
+NW t'yi Bartlett çekirdeğiyle, lag = max(h, 5) alarak, rank-z OLS'ten kendim hesapladım. Kademeli backtest de kendi uygulamam (h alt portföy, netleştirilmiş ciro, 5/10 bps); netleştirmesiz sürümü de raporladım.
+
+Analistle farkların ana nedeni: c_asia.py'de statsmodels Rolling
+  ADV GENEL: Hakem kodu ve logları /tmp/claude-0/-home-user-Xxxx/7162e4a1-8b83-5632-8869-8b60f6d4bda9/scratchpad/out/a6_akis_konum_cin_adv/ altında: adv_cn.py (bağımsız artık kurulumu), adv_tests.py (ufuk, alt dönem, komşu parametre, bacaklar, permütasyon, spot erken dönem, kontroller), adv_mech.py (gecikme yapısı ve seans ayrıştırması), adv_others.py (HSI, OI×trend, GPR gecikme duyarlılığı, sum5), adv_fdr.py (ajan ve global çoklu test), adv_conc.py (PnL yoğunlaşması, prim mekanizması); çıktılar log_adv_*.txt dosyalarında. Genel tablo: 6 iddianın hiçbirinde ileriye bakma bulmadım. Asya kapanışları cutoff'tan en az 6,8 saat önce, betalar t−1, OI t−1 bülteninden. Ancak hiçbiri çoklu test düzeltmesini geçmiyor: Bonferroni |t| eşiği 3,69 (220 birincil), 3,91 (542), 4,50 (7.443 global); ajan içi BH q en iyi 0,127. Ayakta kalan tek aile Çin altın hisseleri artığı (bileşik, 600547, 1818). Bu aile parametrelere karşı sağlam (beta penceresi, eşik, h=2..10) ama etki yalnız 2022–26'da, ağırlıkla 2024–26'da var. 2010–16 spot ve 2017–21 IS'te t≈0. Aday, OOS'u içeren tam örneklem t'siyle seçildiği için 'OOS t 3,4' doğrulama sayılmaz. Bu yüzden ORTA'dan DÜŞÜK'e indirdim ve gerçek ileriye dönük izleme önerisin

@@ -106,6 +106,8 @@ def build(days, name):
     prev = pd.Series(days, index=days).shift(1)
     p20prev = snap(HSER["XAUUSD"], pd.DatetimeIndex(prev.fillna(days[0])), 20, 1); p20prev.index = days
     p15prev = snap(HSER["XAUUSD"], pd.DatetimeIndex(prev.fillna(days[0])), 15, 1); p15prev.index = days
+    # DÜZELTME (doğrulayıcı bulgusu): ilk satırda önceki gün yok -> NaN (eskiden aynı günün değeriyle dolduruluyordu)
+    p20prev.iloc[0] = np.nan; p15prev.iloc[0] = np.nan
     out["xau_p20_prev"] = p20prev; out["xau_p15_prev"] = p15prev
     # --- Dukascopy çapraz varlıklar: 15:00 UTC (t) ve 07:00 UTC (t)
     for sym in DUKA:
@@ -176,8 +178,8 @@ def build(days, name):
     # --- GPR günlük (Caldara-Iacoviello): D değeri D+1 23:00 UTC'de mevcut varsay (gerçek zamanlı yayın haftalık; dikkat)
     try:
         g = pd.read_excel(f"{S}/data/misc/gpr_daily.xls")
-        dc = [c for c in g.columns if str(c).lower() in ("date", "day")][0]
-        g[dc] = pd.to_datetime(g[dc]); g = g.set_index(dc).sort_index()
+        # DÜZELTME (doğrulayıcı bulgusu): 'DAY' sütunu YYYYMMDD tamsayı; 'date' sütunu kullanılmalı
+        g["date"] = pd.to_datetime(g["DAY"].astype(str), format="%Y%m%d"); g = g.set_index("date").sort_index()
         av = pd.Series(pd.DatetimeIndex(g.index).tz_localize(UTC) + pd.Timedelta(days=1, hours=23))
         for c in [c for c in g.columns if str(c).upper() in ("GPRD", "GPRD_ACT", "GPRD_THREAT", "GPRD_MA7", "GPRD_MA30")]:
             x, a = asof_series(pd.to_numeric(g[c], errors="coerce").values, av, days); out[f"gpr_{c}"] = x
