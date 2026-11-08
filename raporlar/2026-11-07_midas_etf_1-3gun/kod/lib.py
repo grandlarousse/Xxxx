@@ -73,8 +73,36 @@ def _fix_dividends(df, sym):
         df.at[d, "div"] = amt
     return df
 
+_YDIV = None
+
+def yahoo_divs():
+    """Yahoo dağıtım tablosu (kod/temettu_yahoo.py). Yahoo'nun bölünme düzeltmeli fiyat bazı Nasdaq fiyatlarıyla
+    birebir aynıdır (sonuclar/yahoo_nasdaq_fiyat_orani.csv), dolayısıyla tutarlar Nasdaq fiyatlarıyla tutarlıdır."""
+    global _YDIV
+    if _YDIV is None:
+        p = os.path.join(ROOT, "sonuclar", "temettu_yahoo_tum.csv")
+        if os.path.exists(p):
+            y = pd.read_csv(p)
+            fetched = set(y.loc[y["kind"] == "fetched", "sym"])
+            y = y[y["kind"] == "div"].copy(); y["date"] = pd.to_datetime(y["date"])
+            _YDIV = (fetched, y)
+        else:
+            _YDIV = (set(), None)
+    return _YDIV
+
+def _yahoo_div_series(df, sym):
+    fetched, y = yahoo_divs()
+    if sym not in fetched or y is None: return None
+    s = pd.Series(0.0, index=df.index)
+    for d, a in y.loc[y["sym"] == sym, ["date", "amount"]].itertuples(index=False):
+        if d < df.index[0] or d > df.index[-1]: continue
+        pos = df.index.searchsorted(d)      # ex-date işlem günü değilse sonraki işlem günü
+        if pos < len(df): s.iloc[pos] += float(a)
+    return s
+
 def load(sym, clean=True):
-    """Toplam getiri düzeltmeli OHLC: o,h,l,c (düzeltilmiş), raw_c, v, dv (dolar hacim)."""
+    """Toplam getiri düzeltmeli OHLC: o,h,l,c (düzeltilmiş), raw_c, v, dv (dolar hacim).
+    Dağıtımlar: Yahoo olayları (tüm ETF'ler; Nasdaq NYSE Arca/Cboe listelilerde dağıtım vermiyor). Yahoo yoksa Nasdaq + sezgisel düzeltme."""
     key = (sym, clean)
     if key in _cache: return _cache[key].copy()
     df = pd.read_parquet(os.path.join(DATA, "etf", sym + ".parquet"))
@@ -84,7 +112,11 @@ def load(sym, clean=True):
             df = df.drop(pd.Timestamp(d), errors="ignore")
         if sym in TRUST_START:
             df = df[df.index >= pd.Timestamp(TRUST_START[sym])]
-        df = _fix_dividends(df, sym)
+        ys = _yahoo_div_series(df, sym)
+        if ys is not None:
+            df["div"] = ys
+        else:
+            df = _fix_dividends(df, sym)
         tr = (df["c"] + df["div"]) / df["c"].shift(1); tr.iloc[0] = 1.0
         df["adjc"] = df["c"].iloc[-1] * tr.cumprod() / tr.cumprod().iloc[-1]
     f = df["adjc"] / df["c"]

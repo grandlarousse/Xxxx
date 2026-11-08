@@ -1,0 +1,60 @@
+====================================================================================================
+(a) Rastgele giriş permütasyonu, 2000 tekrar, brüt getiri (C0 ve O1), işlem-ağırlıklı ortalama
+  [C0] tum_gunler          : gerçek brüt  128.1 bp | rastgele ort   53.2 bp, %95  104.4 | kenar   74.9 bp | p = 0.0080
+  [C0] rejim_sma200_ustu   : gerçek brüt  128.1 bp | rastgele ort   51.4 bp, %95   98.9 | kenar   76.7 bp | p = 0.0030
+  [O1] tum_gunler          : gerçek brüt  116.2 bp | rastgele ort   41.9 bp, %95   89.2 | kenar   74.3 bp | p = 0.0045
+  [O1] rejim_sma200_ustu   : gerçek brüt  116.2 bp | rastgele ort   32.2 bp, %95   75.8 | kenar   84.0 bp | p = 0.0010
+  [C0] ortak dairesel kaydırma (1.000): gerçek  128.1 | kaydırılmış ort   38.5, %95   80.8 | p = 0.0010
+  [O1] ortak dairesel kaydırma (1.000): gerçek  116.2 | kaydırılmış ort   27.0, %95   67.2 | p = 0.0010
+
+(b) Parametre komşuluğu (C0 ve O1; tarih kümelemeli net bp ve t; 2.500$):
+  [C0] 180 varyant: net>0 180, t>=2 158, IS>0 ve OOS>0 178, medyan net 109.4 bp, medyan t 2.77; ana kural sırası (t'ye göre): 50/180
+    RSI eşiği dilimi (trend 200, çıkış SMA5, hmax 3):
+ rsi_esik   n  net_bp    t  is_bp  oos_bp
+        6 326  140.60 2.84  96.28  176.43
+        8 476   77.83 1.85  64.91   88.46
+       10 605  110.97 3.13 103.76  117.12
+       12 724   83.76 2.51  87.60   80.25
+       14 841   67.46 2.24  84.33   50.77
+    hmax dilimi (RSI 10, trend 200, SMA5):
+ hmax   n  net_bp    t  is_bp  oos_bp
+    2 690   75.89 2.35  77.53   74.48
+    3 605  110.97 3.13 103.76  117.12
+    4 564  124.34 3.22 142.78  107.82
+    5 535  140.71 3.65 161.76  121.86
+    çıkış SMA dilimi (RSI 10, trend 200, hmax 3):
+ cikis_sma   n  net_bp    t  is_bp  oos_bp
+         3 608  113.01 3.51 111.32  114.46
+         5 605  110.97 3.13 103.76  117.12
+         7 605  109.66 3.02 104.53  114.05
+    trend SMA dilimi (RSI 10, SMA5, hmax 3):
+ trend_sma   n  net_bp    t  is_bp  oos_bp
+       150 569  122.67 3.30 124.47  121.00
+       200 605  110.97 3.13 103.76  117.12
+       250 642  122.25 3.45 110.94  130.86
+    RSI eşiğine göre tüm varyantların medyanı: {'net_bp': {6: 130.63, 8: 97.79, 10: 123.09, 12: 102.39, 14: 85.28}, 't': {6: 2.62, 8: 2.27, 10: 3.32, 12: 2.95, 14: 2.63}}
+  [O1] 180 varyant: net>0 180, t>=2 125, IS>0 ve OOS>0 170, medyan net 89.0 bp, medyan t 2.33; ana kural sırası (t'ye göre): 44/180
+    RSI eşiği dilimi (trend 200, çıkış SMA5, hmax 3):
+ rsi_esik   n  net_bp    t  is_bp  oos_bp
+        6 326   96.79 2.24 125.55   73.53
+        8 476   77.25 2.00  83.70   71.95
+       10 605  101.15 2.93 100.71  101.53
+       12 724   64.44 2.04  74.05   55.69
+       14 841   46.15 1.63  64.46   28.05
+    hmax dilimi (RSI 10, trend 200, SMA5):
+ hmax   n  net_bp    t  is_bp  oos_bp
+    2 690   49.68 1.62  54.70   45.37
+    3 605  101.15 2.93 100.71  101.53
+    4 564  114.03 3.16 142.92   88.16
+    5 535  128.91 3.41 153.34  107.02
+    çıkış SMA dilimi (RSI 10, trend 200, hmax 3):
+ cikis_sma   n  net_bp    t  is_bp  oos_bp
+         3 608  101.13 3.29 105.97   97.02
+         5 605  101.15 2.93 100.71  101.53
+         7 605   99.78 2.82 100.97   98.75
+    trend SMA dilimi (RSI 10, SMA5, hmax 3):
+ trend_sma   n  net_bp    t  is_bp  oos_bp
+       150 569  112.66 3.12 129.02   97.50
+       200 605  101.15 2.93 100.71  101.53
+       250 642  110.15 3.18  95.36  121.43
+    RSI eşiğine göre tüm varyantların medyanı: {'net_bp': {6: 91.2, 8: 97.6, 10: 112.0, 12: 82.19, 14: 66.63}, 't': {6: 2.03, 8: 2.31, 10: 3.14, 12: 2.55, 14: 2.2}}

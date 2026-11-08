@@ -1,0 +1,12 @@
+(1) günlük MTM maxDD -25.3% tepe 2020-03-10 dip 2020-03-18; 2020 dışı maxDD -14.8%
+   2017: getiri    1.0%  yıl içi maxDD   -3.8%
+   2018: getiri    5.6%  yıl içi maxDD   -9.8%
+   2019: getiri    2.5%  yıl içi maxDD   -8.9%
+   2020: getiri   14.9%  yıl içi maxDD  -25.3%
+   2021: getiri   25.6%  yıl içi maxDD   -8.7%
+   2022: getiri   -2.5%  yıl içi maxDD   -9.4%
+   2023: getiri    7.6%  yıl içi maxDD  -12.9%
+   2024: getiri   36.4%  yıl içi maxDD   -5.4%
+   2025: getiri   -3.9%  yıl içi maxDD  -14.8%
+   2026: getiri   17.3%  yıl içi maxDD   -3.8%
+(2) trend üstü RSI2<10 günleri 959; bunların RSI 7-10 arası (eşiğe yakın) 316 (33%); RSI 10-13 arası sinyal-olmayan 319

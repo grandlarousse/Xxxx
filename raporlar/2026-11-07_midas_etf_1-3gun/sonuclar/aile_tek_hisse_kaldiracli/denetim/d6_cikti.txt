@@ -1,0 +1,41 @@
+(1) S1 sinyali, işlem aracı HİSSENİN KENDİSİ (1x):
+  [C0] 2500$: n 605 brüt 70.9 net 57.9 t 3.27 IS 54.6 (2.13) OOS 60.7 (2.48) en kötü -2338 | dolar başına net (5.000$ hisse ~ 2.500$ 2x): 57.9 bp/2.500$
+  [C0] 5000$: n 605 brüt 70.9 net 63.9 t 3.61 IS 60.6 (2.37) OOS 66.7 (2.72) en kötü -2332 | dolar başına net (5.000$ hisse ~ 2.500$ 2x): 127.8 bp/2.500$
+  [O1] 2500$: n 605 brüt 63.3 net 50.3 t 2.90 IS 49.8 (1.86) OOS 50.7 (2.24) en kötü -2783 | dolar başına net (5.000$ hisse ~ 2.500$ 2x): 50.3 bp/2.500$
+  [O1] 5000$: n 605 brüt 63.3 net 56.3 t 3.25 IS 55.8 (2.08) OOS 56.7 (2.51) en kötü -2777 | dolar başına net (5.000$ hisse ~ 2.500$ 2x): 112.6 bp/2.500$
+  Karşılaştırma: 2x ETF 2.500$ C0 net 111,0 bp/2.500$ (sentetik, swap sürüklemesi dahil); 5.000$ hisse ile aynı maruziyet ~2x net bp/5.000$.
+
+(2) SPY sert düşüş günü (r_SPY < -1 sd60) -> tek hisse 2x long C0, 1 gün (sentetik 2x, 16 bp):
+  AMZN  z<-1.0 [C0] n 285 net   38.3 t  1.16 IS   34.1 OOS   41.8
+  AMZN  z<-1.0 [O1] n 285 net   27.8 t  1.12 IS   25.6 OOS   29.6
+  AMZN  z<-1.5 [C0] n 167 net   72.4 t  1.62 IS  106.0 OOS   46.3
+  AMZN  z<-1.5 [O1] n 167 net   43.4 t  1.37 IS   45.9 OOS   41.5
+  AMZN  z<-2.0 [C0] n  84 net   73.1 t  1.11 IS  142.8 OOS    9.8
+  AMZN  z<-2.0 [O1] n  84 net   50.7 t  1.10 IS   57.3 OOS   44.7
+  GOOGL z<-1.0 [C0] n 285 net   24.9 t  0.95 IS   44.0 OOS    9.2
+  GOOGL z<-1.0 [O1] n 285 net   33.4 t  1.64 IS   50.8 OOS   18.9
+  GOOGL z<-1.5 [C0] n 167 net   31.2 t  0.90 IS  115.7 OOS  -34.5
+  GOOGL z<-1.5 [O1] n 167 net   45.3 t  1.70 IS   82.2 OOS   16.7
+  GOOGL z<-2.0 [C0] n  84 net   53.7 t  1.01 IS  159.9 OOS  -42.8
+  GOOGL z<-2.0 [O1] n  84 net   59.8 t  1.55 IS   97.7 OOS   25.3
+  AAPL  z<-1.0 [C0] n 285 net    3.3 t  0.11 IS   32.3 OOS  -20.7
+  AAPL  z<-1.0 [O1] n 285 net   36.8 t  1.58 IS   61.6 OOS   16.3
+  AAPL  z<-1.5 [C0] n 167 net   -3.4 t -0.09 IS  109.3 OOS  -90.9
+  AAPL  z<-1.5 [O1] n 167 net   31.4 t  1.14 IS   90.9 OOS  -14.8
+  AAPL  z<-2.0 [C0] n  84 net    4.4 t  0.07 IS  177.5 OOS -152.9
+  AAPL  z<-2.0 [O1] n  84 net   54.1 t  1.23 IS  123.8 OOS   -9.2
+  MSFT  z<-1.0 [C0] n 285 net   54.4 t  1.79 IS   94.4 OOS   21.3
+  MSFT  z<-1.0 [O1] n 285 net   23.0 t  1.08 IS   56.3 OOS   -4.5
+  MSFT  z<-1.5 [C0] n 167 net   91.3 t  2.07 IS  203.3 OOS    4.3
+  MSFT  z<-1.5 [O1] n 167 net   29.8 t  1.07 IS  106.2 OOS  -29.6
+  MSFT  z<-2.0 [C0] n  84 net  110.2 t  1.73 IS  284.2 OOS  -48.1
+  MSFT  z<-2.0 [O1] n  84 net   54.0 t  1.30 IS  144.2 OOS  -27.9
+
+(3) Güncel durum (son veri):
+  NVDA  2026-11-06 kapanış   186.64 RSI2  33.1 SMA200   204.67 (ALTINDA) SMA5   195.42
+  TSLA  2026-11-06 kapanış   358.22 RSI2  37.4 SMA200   383.87 (ALTINDA) SMA5   377.88
+  AAPL  2026-11-06 kapanış   342.37 RSI2  43.5 SMA200   298.81 (üstünde) SMA5   341.25
+  AMZN  2026-11-06 kapanış   259.30 RSI2  54.0 SMA200   243.94 (üstünde) SMA5   256.37
+  META  2026-11-06 kapanış   610.15 RSI2  40.9 SMA200   631.94 (ALTINDA) SMA5   614.60
+  MSFT  2026-11-06 kapanış   530.61 RSI2  38.8 SMA200   439.85 (üstünde) SMA5   530.09
+  GOOGL 2026-11-06 kapanış   284.78 RSI2  53.5 SMA200   339.51 (ALTINDA) SMA5   283.06

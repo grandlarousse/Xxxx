@@ -1,0 +1,89 @@
+==============================================================================================================
+1) DAYANAK sentetik 2x (bağımsız kalibrasyon: d1_kalibrasyon.csv), 7 mega-cap, 2.500$
+[C0] n  605 (tarih 419) brüt   128.0 net   111.0 t  3.13 | işlem-ağırlıklı  111.2 (t 3.45) | IS  103.8 (2.01) OOS  117.1 (2.40) | kaz 0.635 PF 1.47 yıl+ tarih 0.80 işlem 0.80 | en kötü -4457
+[O1] n  605 (tarih 419) brüt   118.2 net   101.2 t  2.93 | işlem-ağırlıklı   99.2 (t 3.09) | IS  100.7 (1.88) OOS  101.5 (2.25) | kaz 0.625 PF 1.44 yıl+ tarih 0.80 işlem 0.90 | en kötü -5065
+[C1] n  564 (tarih 400) brüt    93.0 net    75.9 t  2.14 | işlem-ağırlıklı   49.8 (t 1.59) | IS   65.4 (1.35) OOS   85.4 (1.66) | kaz 0.606 PF 1.22 yıl+ tarih 0.80 işlem 0.70 | en kötü -2988
+Ajan işlem listesiyle eşleşme: denetim 605, ajan 605, ortak 605, yalnız denetim 0, yalnız ajan 0
+
+Hisse başına (C0):
+  NVDA  n  95 net(işlem)   201.0 t 1.98 IS 121 OOS 267
+  TSLA  n  69 net(işlem)   162.4 t 0.94 IS 107 OOS 208
+  AAPL  n 100 net(işlem)    53.8 t 0.93 IS 55 OOS 53
+  AMZN  n  89 net(işlem)    84.1 t 1.33 IS 91 OOS 77
+  META  n  85 net(işlem)    44.8 t 0.66 IS 36 OOS 56
+  MSFT  n  78 net(işlem)   141.3 t 2.28 IS 200 OOS 56
+  GOOGL n  89 net(işlem)   104.0 t 1.84 IS 120 OOS 86
+
+2) Maliyet duyarlılığı (pozisyon 1.000 / 2.500 / 10.000 $):
+  C0  1000$: net   93.0 t 2.62  IS 85.8 OOS 99.1
+  C0  2500$: net  111.0 t 3.13  IS 103.8 OOS 117.1
+  C0 10000$: net  120.0 t 3.38  IS 112.8 OOS 126.1
+  O1  1000$: net   83.2 t 2.41  IS 82.7 OOS 83.5
+  O1  2500$: net  101.2 t 2.93  IS 100.7 OOS 101.5
+  O1 10000$: net  110.2 t 3.19  IS 109.7 OOS 110.5
+  C1  1000$: net   57.9 t 1.63  IS 47.4 OOS 67.4
+  C1  2500$: net   75.9 t 2.14  IS 65.4 OOS 85.4
+  C1 10000$: net   84.9 t 2.39  IS 74.4 OOS 94.4
+
+3) Muhafazakâr çıkış: koşul kapanışta görülür, ertesi açılışta satılır:
+  [C0] n  564 (tarih 400) brüt   156.1 net   139.1 t  3.39 | işlem-ağırlıklı  146.6 (t 4.09) | IS  145.4 (2.34) OOS  133.4 (2.45) | kaz 0.637 PF 1.62 yıl+ tarih 0.90 işlem 0.90 | en kötü -5750
+  [O1] n  564 (tarih 400) brüt   144.2 net   127.1 t  3.33 | işlem-ağırlıklı  128.9 (t 3.79) | IS  143.8 (2.47) OOS  112.2 (2.23) | kaz 0.617 PF 1.58 yıl+ tarih 0.90 işlem 0.80 | en kötü -4067
+
+4) Yıl yıl (C0; tarih-ortalama net toplamı bp | işlem sayısı | işlem ort. bp):
+  2017: toplam     1201  n  32  ort    53.7  t 0.69
+  2018: toplam     1027  n  65  ort    49.7  t 0.54
+  2019: toplam      634  n  48  ort    54.4  t 0.57
+  2020: toplam    10529  n  72  ort   132.4  t 0.94
+  2021: toplam     6634  n  89  ort   164.5  t 2.50
+  2022: toplam    -1166  n  22  ort   -14.0  t -0.06
+  2023: toplam     1995  n  65  ort    71.3  t 0.68
+  2024: toplam    19352  n  87  ort   273.3  t 3.40
+  2025: toplam    -2607  n  63  ort   -71.0  t -0.77
+  2026: toplam     8896  n  62  ort   191.6  t 2.26
+  2020 hariç                         [C0] n  533 (tarih 381) brüt   111.4 net    94.4 t  2.69 | işlem-ağırlıklı  108.3 (t 3.46) | IS   61.3 (1.26) OOS  117.1 (2.40) | kaz 0.642 PF 1.50 yıl+ tarih 0.78 işlem 0.78 | en kötü -2840
+  2020 hariç                         [O1] n  533 (tarih 381) brüt    96.1 net    79.1 t  2.44 | işlem-ağırlıklı   92.9 (t 3.19) | IS   46.4 (1.03) OOS  101.5 (2.25) | kaz 0.627 PF 1.47 yıl+ tarih 0.78 işlem 0.89 | en kötü -2680
+  2022 hariç                         [C0] n  583 (tarih 403) brüt   135.3 net   118.3 t  3.33 | işlem-ağırlıklı  115.9 (t 3.58) | IS  103.8 (2.01) OOS  131.6 (2.68) | kaz 0.638 PF 1.51 yıl+ tarih 0.89 işlem 0.89 | en kötü -4457
+  2022 hariç                         [O1] n  583 (tarih 403) brüt   123.5 net   106.4 t  3.05 | işlem-ağırlıklı  102.0 (t 3.15) | IS  100.7 (1.88) OOS  111.7 (2.46) | kaz 0.626 PF 1.47 yıl+ tarih 0.89 işlem 0.89 | en kötü -5065
+  2020 ve 2022 hariç                 [C0] n  511 (tarih 365) brüt   118.7 net   101.7 t  2.91 | işlem-ağırlıklı  113.6 (t 3.63) | IS   61.3 (1.26) OOS  131.6 (2.68) | kaz 0.646 PF 1.54 yıl+ tarih 0.88 işlem 0.88 | en kötü -2840
+  2020 ve 2022 hariç                 [O1] n  511 (tarih 365) brüt   100.9 net    83.9 t  2.59 | işlem-ağırlıklı   95.9 (t 3.29) | IS   46.4 (1.03) OOS  111.7 (2.46) | kaz 0.628 PF 1.50 yıl+ tarih 0.88 işlem 0.88 | en kötü -2680
+  2020 ve 2024 hariç (en iyi iki yıl) [C0] n  446 (tarih 317) brüt    69.5 net    52.4 t  1.42 | işlem-ağırlıklı   76.1 (t 2.25) | IS   61.3 (1.26) OOS   43.9 (0.79) | kaz 0.626 PF 1.32 yıl+ tarih 0.75 işlem 0.75 | en kötü -2840
+  2020 ve 2024 hariç (en iyi iki yıl) [O1] n  446 (tarih 317) brüt    68.4 net    51.3 t  1.51 | işlem-ağırlıklı   72.2 (t 2.30) | IS   46.4 (1.03) OOS   56.0 (1.10) | kaz 0.614 PF 1.34 yıl+ tarih 0.75 işlem 0.88 | en kötü -2680
+
+5) En büyük 5 kazanç (C0) ve veri kalitesi kontrolü:
+  TSLA sinyal 2024-10-22 çıkış 2024-10-24 brüt 3801 bp; hisse günlük: [('2024-10-23', -2.0), ('2024-10-24', 21.9)]; bilanço tepki günü tutuşta: True; veri_kalitesi satırı: 1; veri_duzeltmesi: 0
+  META sinyal 2023-04-25 çıkış 2023-04-27 brüt 3003 bp; hisse günlük: [('2023-04-26', 0.9), ('2023-04-27', 13.9)]; bilanço tepki günü tutuşta: True; veri_kalitesi satırı: 0; veri_duzeltmesi: 0
+  NVDA sinyal 2023-02-21 çıkış 2023-02-23 brüt 2915 bp; hisse günlük: [('2023-02-22', 0.5), ('2023-02-23', 14.0)]; bilanço tepki günü tutuşta: True; veri_kalitesi satırı: 0; veri_duzeltmesi: 0
+  TSLA sinyal 2022-01-27 çıkış 2022-01-31 brüt 2633 bp; hisse günlük: [('2022-01-28', 2.1), ('2022-01-31', 10.7)]; bilanço tepki günü tutuşta: False; veri_kalitesi satırı: 0; veri_duzeltmesi: 0
+  TSLA sinyal 2020-09-08 çıkış 2020-09-11 brüt 2602 bp; hisse günlük: [('2020-09-09', 10.9), ('2020-09-10', 1.4), ('2020-09-11', 0.4)]; bilanço tepki günü tutuşta: False; veri_kalitesi satırı: 0; veri_duzeltmesi: 0
+  En iyi 5 işlem çıkarıldı [C0]: n  600 (tarih 418) brüt   110.1 net    93.1 t  2.74 | işlem-ağırlıklı   87.3 (t 2.86) | IS  101.8 (1.97) OOS   85.6 (1.90) | kaz 0.632 PF 1.37 yıl+ tarih 0.70 işlem 0.70 | en kötü -4457
+  En iyi 5 işlem çıkarıldı [O1]: n  600 (tarih 416) brüt    89.6 net    72.5 t  2.29 | işlem-ağırlıklı   72.4 (t 2.42) | IS   82.0 (1.62) OOS   64.4 (1.62) | kaz 0.622 PF 1.32 yıl+ tarih 0.80 işlem 0.90 | en kötü -5065
+  En iyi 10 işlem çıkarıldı [C0]: n  595 (tarih 414) brüt    86.9 net    69.9 t  2.16 | işlem-ağırlıklı   68.8 (t 2.32) | IS   77.0 (1.55) OOS   63.8 (1.50) | kaz 0.629 PF 1.29 yıl+ tarih 0.70 işlem 0.70 | en kötü -4457
+  En iyi 10 işlem çıkarıldı [O1]: n  595 (tarih 415) brüt    74.6 net    57.5 t  1.87 | işlem-ağırlıklı   52.1 (t 1.81) | IS   61.2 (1.25) OOS   54.5 (1.40) | kaz 0.618 PF 1.23 yıl+ tarih 0.70 işlem 0.70 | en kötü -5065
+
+6) Bilanço tepki günü taşıyan işlemler (ajanın bilanco_tarihleri.csv'si, bağımsız işaretleme):
+  [C0] yalnız bilanço: n 24 işlem ort 569 bp; hariç: n  581 (tarih 404) brüt   100.7 net    83.7 t  2.44 | işlem-ağırlıklı   92.3 (t 3.00) | IS   88.2 (1.68) OOS   79.8 (1.77) | kaz 0.633 PF 1.40 yıl+ tarih 0.50 işlem 0.80 | en kötü -4457
+  [O1] yalnız bilanço: n 15 işlem ort 866 bp; hariç: n  590 (tarih 408) brüt    91.1 net    74.0 t  2.25 | işlem-ağırlıklı   79.7 (t 2.59) | IS   98.4 (1.82) OOS   53.0 (1.34) | kaz 0.624 PF 1.36 yıl+ tarih 0.60 işlem 0.80 | en kötü -5065
+
+7) GERÇEK ETF fiyatı (lib.load), sinyal hisseden:
+  [C0] tum       n  261 (tarih 201) brüt   144.6 net   127.6 t  2.65 | işlem-ağırlıklı  119.9 (t 2.73) | IS    nan (nan) OOS  127.6 (2.65) | kaz 0.640 PF 1.60 yıl+ tarih 0.80 işlem 0.80 | en kötü -2828
+      NVDL n 48 net 362 t 2.75
+      TSLL n 34 net 103 t 0.51
+      AAPU n 45 net 35 t 0.57
+      AMZU n 44 net 85 t 1.04
+      METU n 21 net -45 t -0.29
+      MSFU n 29 net 70 t 0.92
+      GGLL n 40 net 100 t 1.36
+      bilanço hariç: n  248 (tarih 193) brüt   109.9 net    92.8 t  2.13 | işlem-ağırlıklı  105.2 (t 2.70) | IS    nan (nan) OOS   92.8 (2.13) | kaz 0.645 PF 1.57 yıl+ tarih 0.60 işlem 0.80 | en kötü -2828
+  [C0] 2x_donemi n  190 (tarih 149) brüt   166.2 net   149.2 t  2.44 | işlem-ağırlıklı  142.3 (t 2.58) | IS    nan (nan) OOS  149.2 (2.44) | kaz 0.642 PF 1.68 yıl+ tarih 0.67 işlem 0.67 | en kötü -2828
+  [O1] tum       n  261 (tarih 201) brüt   124.9 net   107.8 t  2.38 | işlem-ağırlıklı  104.1 (t 2.52) | IS    nan (nan) OOS  107.8 (2.38) | kaz 0.625 PF 1.56 yıl+ tarih 0.80 işlem 0.80 | en kötü -2675
+  [O1] 2x_donemi n  190 (tarih 149) brüt   139.1 net   122.1 t  2.10 | işlem-ağırlıklı  114.2 (t 2.16) | IS    nan (nan) OOS  122.1 (2.10) | kaz 0.632 PF 1.56 yıl+ tarih 0.67 işlem 0.67 | en kötü -2675
+  [C1] tum       n  242 (tarih 188) brüt   102.5 net    85.5 t  1.66 | işlem-ağırlıklı   97.6 (t 2.08) | IS    nan (nan) OOS   85.5 (1.66) | kaz 0.612 PF 1.54 yıl+ tarih 0.80 işlem 1.00 | en kötü -2738
+  [C1] 2x_donemi n  176 (tarih 139) brüt   133.6 net   116.6 t  1.76 | işlem-ağırlıklı  123.1 (t 2.02) | IS    nan (nan) OOS  116.6 (1.76) | kaz 0.619 PF 1.61 yıl+ tarih 1.00 işlem 1.00 | en kötü -2738
+  [C0] gerçek ETF 1.000$: net 109.6 t 2.28
+  [O1] gerçek ETF 1.000$: net 89.8 t 1.98
+
+8) Günlük portföy getirisi (her hisseye 1/7 sermaye; pozisyondayken 2x sentetik, maliyet giriş günü düşülür), Newey-West t (5 gecikme):
+  [C0] yıllık ort 11.3%  oynaklık 14.7%  Sharpe 0.77  NW t 2.75  ort. maruziyet 0.093  IS NW t 1.77  OOS NW t 2.20
+       maxDD -25.3%
+  [O1] yıllık ort 9.6%  oynaklık 13.3%  Sharpe 0.73  NW t 2.29  ort. maruziyet 0.093  IS NW t 1.30  OOS NW t 2.17
+       maxDD -26.1%

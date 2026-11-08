@@ -1,0 +1,18 @@
+(1) Gecikmeli öncü regresyonları (hisse 2016-11..2026-11; NW t):
+  AMZN  <- SPY : lag t tam -3.28 IS -2.59 OOS -2.06 | 2x etki/1sd  -50.7 bp (OOS  -45.8) | yetişme t tam -2.83 IS -2.09 OOS -2.04 | yetişme 2x etki/1sd  -44.9 bp
+  GOOGL <- SPY : lag t tam -3.19 IS -3.05 OOS -1.54 | 2x etki/1sd  -54.4 bp (OOS  -25.5) | yetişme t tam -3.05 IS -2.75 OOS -1.61 | yetişme 2x etki/1sd  -43.6 bp
+  AAPL  <- SPY : lag t tam -2.84 IS -3.57 OOS -0.67 | 2x etki/1sd  -47.6 bp (OOS  -10.8) | yetişme t tam -2.92 IS -3.27 OOS -0.68 | yetişme 2x etki/1sd  -41.1 bp
+  MSFT  <- SPY : lag t tam -2.48 IS -2.65 OOS -0.84 | 2x etki/1sd  -48.0 bp (OOS  -15.5) | yetişme t tam -2.70 IS -2.31 OOS -1.05 | yetişme 2x etki/1sd  -38.6 bp
+  NVDA  <- XLK : lag t tam -2.70 IS -4.02 OOS  0.26 | 2x etki/1sd  -96.1 bp (OOS    8.6) | yetişme t tam -2.65 IS -3.59 OOS -0.13 | yetişme 2x etki/1sd  -62.8 bp
+  NVDA  <- SMH : lag t tam -1.92 IS -2.96 OOS  0.31 | 2x etki/1sd  -58.8 bp (OOS   10.4) | yetişme t tam -2.09 IS -2.82 OOS -0.12 | yetişme 2x etki/1sd  -44.2 bp
+  NVDA  <- SPY : lag t tam -2.93 IS -3.76 OOS -0.33 | 2x etki/1sd  -86.1 bp (OOS  -10.5) | yetişme t tam -2.46 IS -3.09 OOS -0.47 | yetişme 2x etki/1sd  -63.3 bp
+  TSLA  <- QQQ : lag t tam -0.34 IS -0.40 OOS  0.04 | 2x etki/1sd   -9.2 bp (OOS    1.1) | yetişme t tam -0.62 IS -0.73 OOS -0.04 | yetişme 2x etki/1sd  -20.2 bp
+  META  <- SPY : lag t tam -2.47 IS -3.18 OOS -0.56 | 2x etki/1sd  -46.7 bp (OOS  -14.0) | yetişme t tam -2.04 IS -2.85 OOS -0.67 | yetişme 2x etki/1sd  -44.1 bp
+  Not: maliyet 2x ETF'te ~16 bp gidiş-dönüş; 1 sd'lik sinyal günlerinin yalnız ~%32'sinde |öncü|>1 sd.
+
+(2) BTC gece hareketi -> MSTR açılış boşluğu (2023-06+):
+  n 863 corr 0.880 beta 1.23 R2 0.77
+  COIN: n 863 corr 0.776
+
+(3) leadlag_sweep.csv, aile hedefleri, FDR bayrakları:
+  satır 576; FDR sütunları ['fdr10_lag_t_h1', 'fdr10_lag_t_h3', 'fdr10_catch_t_h1', 'fdr10_catch_t_h3']; bayrak toplamları: {'fdr10_lag_t_h1': 0, 'fdr10_lag_t_h3': 0, 'fdr10_catch_t_h1': 0, 'fdr10_catch_t_h3': 0}

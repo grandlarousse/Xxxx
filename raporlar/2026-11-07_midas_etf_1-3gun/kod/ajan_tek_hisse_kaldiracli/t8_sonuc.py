@@ -64,7 +64,8 @@ S1J = {
               "TSLA->NASDAQ:TSLL, AAPL->NASDAQ:AAPU, AMZN->NASDAQ:AMZU, META->NASDAQ:METU, MSFT->NASDAQ:MSFU, GOOGL->NASDAQ:GGLL. "
               "Çıkış: girişten sonraki işlem günlerinde hisse kapanışı > hisse SMA(5) olan ilk gün kapanışta sat; olmazsa girişten sonraki 3. işlem günü "
               "kapanışında sat. Aynı hissede pozisyondayken gelen yeni sinyal yok sayılır; hisseler birbirinden bağımsız işlenir (aynı anda birden çok pozisyon "
-              "olabilir: medyan 2, en çok 7). Stop yok (backtest stopsuz). Bilanço: tutuş içinde bilanço tepki günü olan işlemler ayrıca raporlandı (bkz. notlar)."),
+              "olabilir: medyan 2, en çok 7). Stop yok (backtest stopsuz). Bilanço: ana kural bilançoyu taşır (işlemlerin ~%4'ü). Muhafazakâr varyant: "
+              "sinyal günü ile t+3 arasında seans sonrası bilanço duyurusu varsa girme, pozisyondaysan duyuru günü kapanıştan önce çık (bu varyant C0 +84 bp, t=2,44; bkz. notlar)."),
     "giris": ("C0 (ana): sinyal günü kapanıştan hemen önce (TR kış 23:45-23:58, yaz 22:45-22:58) hissenin canlı fiyatıyla RSI(2) ve SMA200'ü kontrol edip ETF'i "
               "normal seansta piyasa ya da agresif limit emirle al (Midas'ta MOC/LOC yok). RSI(2) son fiyata çok duyarlı: eşiğe yakınsa O1'i kullan. "
               "O1 (yedek, kapanış izlemeye gerek yok): ertesi gün açılışta al, TR kış 17:30 (yaz 16:30); pre-market (TR kış 12:00-17:30) yalnız limit emir."),
@@ -122,8 +123,10 @@ S1J["notlar"] = (f"Yıllık (sinyal tarihi başına ort. net, bp toplamı): {yr}
 # ---------------- izleme ----------------
 TV = pd.read_csv(os.path.join(R, "sonuclar", "tv_etf.csv")).drop_duplicates("sym").set_index("sym")["tv"].to_dict()
 def ratio(e): return f1(ISL.loc[e, "maliyet_vol_orani"], 3)
-def r1y(e): return f1(100 * ISL.loc[e, "ret_1y"], 0)
-def w1(e): return f1(100 * ISL.loc[e, "worst_1d_1y"], 1)
+def pct(x, d):
+    return ("-%" if x < 0 else "+%") + f1(abs(x), d)
+def r1y(e): return pct(100 * ISL.loc[e, "ret_1y"], 0)
+def w1(e): return pct(100 * ISL.loc[e, "worst_1d_1y"], 1)
 IZ = []
 basket = {"NVDL": "NVDA", "TSLL": "TSLA", "AAPU": "AAPL", "AMZU": "AMZN", "METU": "META", "MSFU": "MSFT", "GGLL": "GOOGL"}
 for e, st in basket.items():
@@ -135,7 +138,7 @@ for e, st in basket.items():
              "GGLL": ""}[e]
     IZ.append({"sym": e, "tv": TV.get(e), "karar": "kabul",
                "gerekce": (f"S1 sepetinin {st} aracı (sinyal NASDAQ:{st}). Medyan günlük hacim {f1(ISL.loc[e,'med_dolar_hacim_mn'],0)} mn$, maliyet {f1(ISL.loc[e,'maliyet_rt_bp_2500'],1)} bp, "
-                           f"maliyet/1g oynaklık {ratio(e)}. Gerçekleşen kaldıraç son 1y {f1(ISL.loc[e,'beta_1y'],2)} (2024 başına kadar 1,5x idi). 1y getiri %{r1y(e)}, son 1y en kötü gün %{w1(e)}. {extra} "
+                           f"maliyet/1g oynaklık {ratio(e)}. Gerçekleşen kaldıraç son 1y {f1(ISL.loc[e,'beta_1y'],2)} (2024 başına kadar 1,5x idi). 1y getiri {r1y(e)}, son 1y en kötü gün {w1(e)}.{(' ' + extra) if extra else ''} "
                            f"Midas'ta bulunurluğu resmî doğrulanmadı."),
                "likidite_mn_usd": num(ISL.loc[e, "med_dolar_hacim_mn"], 1), "maliyet_bp": num(ISL.loc[e, "maliyet_rt_bp_2500"], 1), "vol_1d_bp": num(ISL.loc[e, "vol_1d_bp"], 1)})
 mstu_d = TH01[(TH01.etf == "MSTU") & (TH01.h == 3) & (TH01.kova == "tum")].iloc[0]
@@ -145,12 +148,12 @@ IZ += [
      "likidite_mn_usd": num(ISL.loc["NVDU", "med_dolar_hacim_mn"], 1), "maliyet_bp": num(ISL.loc["NVDU", "maliyet_rt_bp_2500"], 1), "vol_1d_bp": num(ISL.loc["NVDU", "vol_1d_bp"], 1)},
     {"sym": "MSTU", "tv": TV.get("MSTU"), "karar": "yedek",
      "gerekce": (f"Doğrulanmış strateji YOK (S1 MSTR'de n=68, t=0,78; TH06 BTC öncülüğü yok). Yalnız net sürücüyle takip edilebilir: BTC (corr_1y 0,86); BTC'nin gece hareketi "
-                 f"(16:00->09:00 ET) MSTR açılış boşluğu varyansının %{f1(100*NIGHT.loc['MSTR','r2'],0)}'ini açıklıyor. Maliyet/oynaklık oranı ailede en iyi ({ratio('MSTU')}) "
-                 f"ama 3 günlük tutuşta 2xMSTR'den ort. {f1(mstu_d.basit_sapma_ort_bp,0)} bp geride (swap finansmanı), 1y getiri %{r1y('MSTU')}, son 1y en kötü gün %{w1('MSTU')}. "
+                 f"(16:00->09:00 ET) MSTR açılış boşluğu varyansının %{f1(100*NIGHT.loc['MSTR','r2'],0)}'sini açıklıyor. Maliyet/oynaklık oranı ailede en iyi ({ratio('MSTU')}) "
+                 f"ama 3 günlük tutuşta 2xMSTR'den ort. {f1(mstu_d.basit_sapma_ort_bp,0)} bp geride (swap finansmanı), 1y getiri {r1y('MSTU')}, son 1y en kötü gün {w1('MSTU')}. "
                  f"Çok küçük pozisyon dışında önerilmez."),
      "likidite_mn_usd": num(ISL.loc["MSTU", "med_dolar_hacim_mn"], 1), "maliyet_bp": num(ISL.loc["MSTU", "maliyet_rt_bp_2500"], 1), "vol_1d_bp": num(ISL.loc["MSTU", "vol_1d_bp"], 1)},
     {"sym": "CONL", "tv": TV.get("CONL"), "karar": "red",
-     "gerekce": (f"Fiyat {f1(ISL.loc['CONL','fiyat'],2)}$: 1 sentlik adım ~36 bp makas, maliyet {f1(ISL.loc['CONL','maliyet_rt_bp_2500'],0)} bp (ailede en yüksek). 1y getiri %{r1y('CONL')}. "
+     "gerekce": (f"Fiyat {f1(ISL.loc['CONL','fiyat'],2)}$: 1 sentlik adım ~36 bp makas, maliyet {f1(ISL.loc['CONL','maliyet_rt_bp_2500'],0)} bp (ailede en yüksek). 1y getiri {r1y('CONL')}. "
                  f"COIN'de S1 negatif (n=31, -71 bp); BTC öncülüğü yok. Kripto maruziyeti için MSTU daha ucuz."),
      "likidite_mn_usd": num(ISL.loc["CONL", "med_dolar_hacim_mn"], 1), "maliyet_bp": num(ISL.loc["CONL", "maliyet_rt_bp_2500"], 1), "vol_1d_bp": num(ISL.loc["CONL", "vol_1d_bp"], 1)},
     {"sym": "TSLQ", "tv": TV.get("TSLQ"), "karar": "red",
@@ -176,48 +179,44 @@ def gb_txt(st):
     if not len(r) or pd.isna(r.iloc[0].tarih):
         b = BIL[(BIL.sym == st) & (BIL.date.dt.month.isin([1, 2])) & (BIL.date.dt.year >= 2023) & (~BIL.kaynak.str.startswith("tahmini"))]
         if len(b):
-            lo = b.date.dt.strftime("%d.%m").min(); hi = b.date.dt.strftime("%d.%m").max()
+            md = sorted((d.month, d.day) for d in b.date)
+            lo = f"{md[0][1]:02d}.{md[0][0]:02d}"; hi = f"{md[-1][1]:02d}.{md[-1][0]:02d}"
             return (f"{st} sonraki bilanço tarihi henüz açıklanmadı (Nasdaq boş); 2023-2026 düzenine göre yaklaşık {lo}-{hi}.2027 arası, seans sonrası "
                     f"(tepki ertesi gün açılış boşluğunda). Son duyuru {BIL[BIL.sym == st].date.max().date()}.")
         return f"{st} sonraki bilanço tarihi alınamadı."
     r = r.iloc[0]
     z = {"seans_sonrasi": "seans sonrası (16:00 ET sonrası; TR kış 00:00 sonrası)", "seans_oncesi": "seans öncesi"}.get(r.zaman, "saat belirtilmemiş")
     return f"{st} sonraki bilanço {r.tarih} {z}{' (Nasdaq/Zacks tahmini)' if r.tahmini_mi else ''}."
-TAKVIM = ("Yaklaşan ortak olaylar: CPI 10.11.2026 08:30 ET (TR 16:30, açılıştan önce); opsiyon aylık vadesi 20.11.2026; ABD kapalı 26.11.2026, "
-          "27.11.2026 erken kapanış 13:00 ET (TR 21:00); NFP 04.12.2026 08:30 ET (TR 16:30); CPI 10.12.2026; FOMC 09.12.2026 14:00 ET (TR 22:00); "
-          "triple witching 18.12.2026; 24.12 erken kapanış, 25.12 kapalı.")
+TAKVIM = ("Ortak: CPI 10.11 ve 10.12 (TR 16:30); opex 20.11; 26.11 kapalı, 27.11 erken kapanış (TR 21:00); NFP 04.12 (TR 16:30); "
+          "FOMC 09.12 (TR 22:00); triple witching 18.12; 24.12 erken kapanış, 25.12 kapalı.")
 LL = []
 for e in ["NVDL", "TSLL", "AAPU", "AMZU", "METU", "MSFU", "GGLL", "NVDU", "MSTU"]:
     st = thk.UNDER[e]
     d = DRV[DRV.etf == e]
-    sur = [{"ad": (f"{r.surucu} (dayanak hisse, aynı gün)" if r.kaynak == "dayanak" else f"{r.surucu} günlük getiri (aynı gün)"),
-            "tv": (r.tv if isinstance(r.tv, str) and r.tv else ""), "corr_1y": num(r.corr_1y, 3), "beta_1y": num(r.beta_1y, 3)} for _, r in d.iterrows() if isinstance(r.tv, str) and r.tv]
+    NM = {"VIX_dlog": "VIX günlük log değişimi (aynı gün, ters yön)", "BTC_16ET": "BTC 16:00 ET günlük getiri (aynı gün)", "ETH_16ET": "ETH 16:00 ET günlük getiri (aynı gün)"}
+    sur = [{"ad": (f"{r.surucu} (dayanak hisse, aynı gün)" if r.kaynak == "dayanak" else NM.get(r.surucu, f"{r.surucu} günlük getiri (aynı gün)")),
+            "tv": (r.tv if isinstance(r.tv, str) and r.tv else ""), "corr_1y": num(r.corr_1y, 3), "beta_1y": num(r.beta_1y, 3)} for _, r in d.iterrows() if isinstance(r.tv, str) and r.tv][:4]
     onc = []
     x = LLX[(LLX.hisse == st) & (LLX.gecerli_oncu)]
-    for _, r in x.sort_values("t").iterrows():
+    for _, r in x.sort_values("t").head(1).iterrows():   # en güçlüsü (diğerleri leadlag_ek_regresyon.csv)
         nm = {"lag": f"{r.oncu} günlük getirisi (t) -> {st} t+1 getirisi, kendi getirisi kontrollü",
               "yetisme": f"{r.oncu}'ya göre geride kalma (beta60 x r_{r.oncu} - r_{st}) (t) -> {st} t+1"}[r.tip]
         onc.append({"ad": nm, "tv": LLtv.get(r.oncu, ""), "tip": f"gecikmeli ({r.tip}), NEGATİF katsayı",
                     "etki": f"1 sd {r.oncu} hareketi -> 2x ETF'te ertesi gün {f1(r.etki_2x_bp_per_sd,0)} bp (ters yönde); maliyet {f1(r.maliyet_rt_bp,0)} bp",
                     "t": num(r.t, 2), "is_t": num(r.t_IS, 2), "oos_t": num(r.t_OOS, 2), "fdr": True, "ufuk": "1 gün",
-                    "maliyet_sonrasi": ("FDR yalnız 152 testlik ek lead-lag ailesinde geçiyor, birleşik FDR'de geçmiyor; OOS t zayıf. " + kural_txt)})
+                    "maliyet_sonrasi": "FDR yalnız 152 testlik ek lead-lag ailesinde; birleşik FDR yok; OOS zayıf. Kurala çevrilince (piyasa z<-2 -> 2x long) maliyet sonrası doğrulanmadı (bkz. elenen)."})
     gz = [{"ad": f"{st} uzatılmış seans (pre-market 04:00-09:30 ET = TR kış 12:00-17:30; after-hours 16:00-20:00 ET = TR kış 00:00-04:00)", "tv": thk.TV_STOCK[st],
-           "neden": "ETF'nin açılış boşluğunun ana kaynağı hissenin kendi gece fiyatı (2x). TradingView'da 'uzatılmış saatler' açılmalı; bilanço tepkisi after-hours'ta görülür."},
-          {"ad": "Nasdaq 100 E-mini vadelisi", "tv": "CME_MINI:NQ1!", "neden": "Neredeyse 24 saat işler; ETF kapalıyken piyasa yönünü ve açılış boşluğunu önceden gösterir (öncü değil, izleme)."},
-          {"ad": "S&P 500 E-mini vadelisi", "tv": "CME_MINI:ES1!", "neden": "Genel piyasa gece riski (makro veri 08:30 ET = TR 16:30, açılıştan önce)."}]
+           "neden": "ETF açılış boşluğunun ana kaynağı (≈2x). Grafikte uzatılmış saatleri aç; bilanço tepkisi after-hours'ta görülür."},
+          {"ad": "Nasdaq 100 E-mini vadelisi", "tv": "CME_MINI:NQ1!", "neden": "~23 saat işler; ETF kapalıyken piyasa yönünü gösterir (izleme, öncü değil)."}]
     if st == "NVDA":
-        gz.append({"ad": "Nikkei 225 vadelisi (OSE)", "tv": "OSE:NK2251!", "neden": "Asya seansındaki teknoloji/yarı iletken risk iştahı (zayıf, yalnız bağlam)."})
+        gz.append({"ad": "Nikkei 225 vadelisi (OSE)", "tv": "OSE:NK2251!", "neden": "Asya seansı teknoloji risk iştahı (yalnız bağlam)."})
     if st == "MSTR":
         gz = [{"ad": "Bitcoin spot (Coinbase)", "tv": "COINBASE:BTCUSD",
                "neden": f"7/24 işler. BTC'nin 16:00 ET -> ertesi 09:00 ET hareketi MSTR açılış boşluğuyla corr {f1(NIGHT.loc['MSTR','corr_btc_gece_vs_acilis_boslugu'],2)}, beta {f1(NIGHT.loc['MSTR','beta'],2)} (MSTU ≈ 2x): gece BTC %5 düşerse MSTU açılışı ~%12 aşağı beklenir."},
-              {"ad": "CME Bitcoin vadelisi", "tv": "CME:BTC1!", "neden": "Kurumsal BTC fiyatı; hafta sonu kapalı (Pazar akşamı açılış boşluğu)."},
-              {"ad": "MSTR uzatılmış seans", "tv": "NASDAQ:MSTR", "neden": "Pre-market TR kış 12:00-17:30."},
-              {"ad": "Ethereum spot", "tv": "COINBASE:ETHUSD", "neden": "Kripto risk iştahının ikinci göstergesi."},
-              {"ad": "Nasdaq 100 E-mini vadelisi", "tv": "CME_MINI:NQ1!", "neden": "Genel risk iştahı."}]
-    note = ("İşlem için doğrulanmış gecikmeli öncü yok. Genel taramada (leadlag_sweep.csv, aile hedefleri 576 satır) FDR bayrağı 0. "
-            "Ek dayanak testinde (2016+, kendi gecikmesi kontrollü, Newey-West) bulunan ilişkiler NEGATİF işaretli piyasa-geri dönüşü (piyasa bugün yükselirse "
-            "hisse ertesi gün piyasa kısmını kısmen geri veriyor); OOS'ta zayıf ve kurala çevrilince maliyet sonrası doğrulanmıyor. "
-            "Eşzamanlı sürücüler (dayanak hisse, QQQ, XLK, SPY) aynı gün hareket eder, öncü değildir.")
+              {"ad": "CME Bitcoin vadelisi", "tv": "CME:BTC1!", "neden": "Kurumsal BTC fiyatı; hafta sonu kapalı."},
+              {"ad": "MSTR uzatılmış seans", "tv": "NASDAQ:MSTR", "neden": "Pre-market TR kış 12:00-17:30."}]
+    note = ("İşlem için doğrulanmış gecikmeli öncü yok (genel taramada aile FDR bayrağı 0). Ek dayanak testindeki ilişkiler NEGATİF işaretli piyasa-geri "
+            "dönüşü; OOS zayıf, kural olarak maliyet sonrası doğrulanmadı. Sürücüler eşzamanlıdır, öncü değil.")
     if st == "MSTR":
         note = ("Doğrulanmış gecikmeli öncü yok. TH06: BTC 16:00 ET artığı -> MSTR ertesi gün t=-0,98 (h1), BTC getirisi t=-1,26, yetişme boşluğu t=-0,89 (2023-06+, IS yok). "
                 "Kural testi (u>=2sd -> 2x long, C0 h1) n=45 +213 bp t=0,85. BTC yalnız eşzamanlı sürücü ve gerçek zamanlı izleme aracıdır.")
@@ -273,9 +272,10 @@ if BT is not None:
                              f"olumsuz boşlukta {f1(bt('B4_gunici_negatif_bosluk_hepsi').net_bp,0)} bp (t={f1(bt('B4_gunici_negatif_bosluk_hepsi').t,2)}); bilanço test ailesinde FDR'den geçiyor, IS ve OOS negatif. "
                              f"Strateji yok; TH04 kuralı (duyurudan önce kapat) risk yönetimi olarak önerilir.")})
 
-dosyalar = sorted([os.path.join(O, f) for f in os.listdir(O) if f.endswith((".csv", ".txt", ".json")) and not f.startswith("_")]) + \
-    sorted([os.path.join(thk.HERE, f) for f in os.listdir(thk.HERE) if f.endswith(".py")]) + \
-    [os.path.join(R, "notlar", "aile_tek_hisse_kaldiracli.md")]
+KEY = ["sonuc.json", "aday_S1_cikti.txt", "aday_S1_ozet.csv", "aday_S1_hisse_etf.csv", "aday_S1_islemler_dayanak_C0.csv", "aday_S1_islemler_gercek_C0.csv",
+       "islenebilirlik.csv", "kaldirac_yillik.csv", "genel_aile_tutarlilik.csv", "dayanak_genel_havuz.csv", "hipotez_testleri.csv", "th01_oynaklik_kaybi.csv",
+       "bilanco_tarihleri.csv", "bilanco_testleri.csv", "leadlag_suruculer.csv", "leadlag_ek_regresyon.csv", "oncu_kural_testleri.csv", "fdr_tum_testler.csv"]
+dosyalar = [os.path.join(R, "notlar", "aile_tek_hisse_kaldiracli.md"), os.path.join(thk.HERE, "aday_S1.py")] + [os.path.join(O, f) for f in KEY]
 OZ = (f"Tek hisse kaldıraçlı aile (12 ETF, 9 bağımsız dayanak). ETF geçmişleri kısa (2022+) ve Direxion/GraniteShares ürünleri 2024 başına kadar 1,5x idi; "
       f"bu yüzden kurallar dayanak hisselerde 2016-11..2026-11 sentetik kalibre 2x ile test edilip gerçek ETF verisiyle kontrol edildi. Toplam {ntest} test, birleşik BH-FDR'yi geçen pozitif "
       f"{ngec_pos} (hepsi tek hisse satırı: seçim yanlılığı). Eşiği geçen tek aday S1: ön-kayıtlı TH03 (hisse RSI(2)<10 ve hisse>SMA200 -> 2x ETF, SMA5'e dönüşte ya da en çok 3 günde çık), "

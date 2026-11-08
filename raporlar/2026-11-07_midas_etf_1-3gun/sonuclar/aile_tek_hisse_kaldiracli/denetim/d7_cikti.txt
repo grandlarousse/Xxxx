@@ -1,0 +1,6 @@
+  [C0] ana      : n 605 net 111.0 t 3.13 IS 103.8 (2.01) OOS 117.1 (2.40) yıl+ (tarih) 0.80 (işlem) 0.80 en kötü -4457
+  [C0] atla     : n 579 net 79.4 t 2.33 IS 85.7 (1.63) OOS 74.1 (1.66) yıl+ (tarih) 0.50 (işlem) 0.80 en kötü -4457
+  [C0] erken_cik: n 609 net 98.4 t 2.87 IS 103.7 (2.03) OOS 93.9 (2.03) yıl+ (tarih) 0.70 (işlem) 0.70 en kötü -4457
+  [O1] ana      : n 605 net 101.2 t 2.93 IS 100.7 (1.88) OOS 101.5 (2.25) yıl+ (tarih) 0.80 (işlem) 0.90 en kötü -5065
+  [O1] atla     : n 579 net 73.1 t 2.19 IS 94.2 (1.71) OOS 55.3 (1.37) yıl+ (tarih) 0.60 (işlem) 0.70 en kötü -5065
+  [O1] erken_cik: n 609 net 75.1 t 2.39 IS 100.7 (1.90) OOS 53.5 (1.44) yıl+ (tarih) 0.60 (işlem) 0.70 en kötü -5065
