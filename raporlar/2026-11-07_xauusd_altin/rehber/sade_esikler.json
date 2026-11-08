@@ -1,0 +1,321 @@
+{
+ "lowmom": {
+  "aciklama": "TradingView OANDA:XAUUSD günlük grafik, 'Historical Volatility' uzunluk 20 (TV formülü: 100·stdev_pop(ln C/C[1],20)·√365)",
+  "yillik_esik_hv": {
+   "2017": 15.13,
+   "2018": 14.07,
+   "2019": 13.28,
+   "2020": 12.93,
+   "2021": 13.06,
+   "2022": 13.25,
+   "2023": 13.39,
+   "2024": 13.35,
+   "2025": 13.4,
+   "2026": 13.51,
+   "2027": 13.74
+  },
+  "sabit_esik_2010_2021": 13.25,
+  "esik_2010_2026_11": 13.74,
+  "asil_rv20_esik_bugun_yillik_252": 11.67,
+  "viop_uzlasma_yillik_esik_hv": {
+   "2017": 14.88,
+   "2018": 14.21,
+   "2019": 13.51,
+   "2020": 12.99,
+   "2021": 13.19,
+   "2022": 13.32,
+   "2023": 13.45,
+   "2024": 13.36,
+   "2025": 13.4,
+   "2026": 13.46,
+   "2027": 13.69
+  },
+  "viop_uzlasma_sabit_esik_2010_2021": 13.32,
+  "viop_uzlasma_esik_2010_2026_11": 13.69,
+  "son_hv20_15utc": 24.63,
+  "son_hv20_kapanis": 28.7,
+  "son_roc5_kapanis_pct": 5.03,
+  "son_kapanis_gunu": "2026-11-06"
+ },
+ "a4_aylik": {
+  "2025-11": {
+   "beta": 1.612,
+   "esik_pct": 0.631
+  },
+  "2025-12": {
+   "beta": 1.732,
+   "esik_pct": 0.654
+  },
+  "2026-01": {
+   "beta": 1.702,
+   "esik_pct": 0.678
+  },
+  "2026-02": {
+   "beta": 1.437,
+   "esik_pct": 0.726
+  },
+  "2026-03": {
+   "beta": 1.3,
+   "esik_pct": 0.823
+  },
+  "2026-04": {
+   "beta": 1.328,
+   "esik_pct": 0.891
+  },
+  "2026-05": {
+   "beta": 1.551,
+   "esik_pct": 0.855
+  },
+  "2026-06": {
+   "beta": 1.695,
+   "esik_pct": 0.871
+  },
+  "2026-07": {
+   "beta": 2.152,
+   "esik_pct": 1.079
+  },
+  "2026-08": {
+   "beta": 2.123,
+   "esik_pct": 0.886
+  },
+  "2026-09": {
+   "beta": 2.0,
+   "esik_pct": 0.775
+  },
+  "2026-10": {
+   "beta": 1.963,
+   "esik_pct": 0.635
+  },
+  "2026-11": {
+   "beta": 2.051,
+   "esik_pct": 0.631
+  }
+ },
+ "e2_aylik": {
+  "E2-C2j_GDXJ_artik_h3": {
+   "2025-11": {
+    "beta_gld": 1.675,
+    "beta_spy": 0.396
+   },
+   "2025-12": {
+    "beta_gld": 1.708,
+    "beta_spy": 0.435
+   },
+   "2026-01": {
+    "beta_gld": 1.69,
+    "beta_spy": 0.447
+   },
+   "2026-02": {
+    "beta_gld": 1.554,
+    "beta_spy": 0.442
+   },
+   "2026-03": {
+    "beta_gld": 1.496,
+    "beta_spy": 0.469
+   },
+   "2026-04": {
+    "beta_gld": 1.48,
+    "beta_spy": 0.511
+   },
+   "2026-05": {
+    "beta_gld": 1.482,
+    "beta_spy": 0.667
+   },
+   "2026-06": {
+    "beta_gld": 1.454,
+    "beta_spy": 0.971
+   },
+   "2026-07": {
+    "beta_gld": 1.453,
+    "beta_spy": 1.011
+   },
+   "2026-08": {
+    "beta_gld": 1.462,
+    "beta_spy": 1.024
+   },
+   "2026-09": {
+    "beta_gld": 1.493,
+    "beta_spy": 1.048
+   },
+   "2026-10": {
+    "beta_gld": 1.497,
+    "beta_spy": 1.028
+   },
+   "2026-11": {
+    "beta_gld": 1.485,
+    "beta_spy": 1.1
+   }
+  },
+  "E2-C2_GDX_artik_h3": {
+   "2025-11": {
+    "beta_gld": 1.529,
+    "beta_spy": 0.308
+   },
+   "2025-12": {
+    "beta_gld": 1.551,
+    "beta_spy": 0.35
+   },
+   "2026-01": {
+    "beta_gld": 1.536,
+    "beta_spy": 0.358
+   },
+   "2026-02": {
+    "beta_gld": 1.424,
+    "beta_spy": 0.353
+   },
+   "2026-03": {
+    "beta_gld": 1.365,
+    "beta_spy": 0.372
+   },
+   "2026-04": {
+    "beta_gld": 1.349,
+    "beta_spy": 0.408
+   },
+   "2026-05": {
+    "beta_gld": 1.353,
+    "beta_spy": 0.546
+   },
+   "2026-06": {
+    "beta_gld": 1.339,
+    "beta_spy": 0.815
+   },
+   "2026-07": {
+    "beta_gld": 1.324,
+    "beta_spy": 0.844
+   },
+   "2026-08": {
+    "beta_gld": 1.329,
+    "beta_spy": 0.833
+   },
+   "2026-09": {
+    "beta_gld": 1.374,
+    "beta_spy": 0.819
+   },
+   "2026-10": {
+    "beta_gld": 1.375,
+    "beta_spy": 0.799
+   },
+   "2026-11": {
+    "beta_gld": 1.364,
+    "beta_spy": 0.875
+   }
+  },
+  "E2-C1_madenci_oncu_GLD_h5": {
+   "2025-11": {
+    "beta_gld": 1.529,
+    "beta_spy": 0.308
+   },
+   "2025-12": {
+    "beta_gld": 1.551,
+    "beta_spy": 0.35
+   },
+   "2026-01": {
+    "beta_gld": 1.536,
+    "beta_spy": 0.358
+   },
+   "2026-02": {
+    "beta_gld": 1.424,
+    "beta_spy": 0.353
+   },
+   "2026-03": {
+    "beta_gld": 1.365,
+    "beta_spy": 0.372
+   },
+   "2026-04": {
+    "beta_gld": 1.349,
+    "beta_spy": 0.408
+   },
+   "2026-05": {
+    "beta_gld": 1.353,
+    "beta_spy": 0.546
+   },
+   "2026-06": {
+    "beta_gld": 1.339,
+    "beta_spy": 0.815
+   },
+   "2026-07": {
+    "beta_gld": 1.324,
+    "beta_spy": 0.844
+   },
+   "2026-08": {
+    "beta_gld": 1.329,
+    "beta_spy": 0.833
+   },
+   "2026-09": {
+    "beta_gld": 1.374,
+    "beta_spy": 0.819
+   },
+   "2026-10": {
+    "beta_gld": 1.375,
+    "beta_spy": 0.799
+   },
+   "2026-11": {
+    "beta_gld": 1.364,
+    "beta_spy": 0.875
+   }
+  }
+ },
+ "e2_esik_pct": {
+  "E2-C2j_GDXJ_artik_h3": 0.667,
+  "E2-C2_GDX_artik_h3": 0.806,
+  "E2-C1_madenci_oncu_GLD_h5": 2.515
+ },
+ "c1_kaplama_alt_esik_pct": -4.022,
+ "lowmom_kesin_pasif": {
+  "viop_uzlasma_hv_asil_aktifken_maks": 16.58,
+  "viop_uzlasma_hv_asil_aktifken_q99": 15.17,
+  "oanda_hv_asil_aktifken_maks": 20.06,
+  "oanda_hv_asil_aktifken_q99": 18.7,
+  "viop_uzlasma_hv_2026_min": 18.11,
+  "viop_uzlasma_hv_son": 27.35,
+  "oanda_hv_2026_min": 18.08,
+  "oanda_hv_son": 28.87,
+  "oanda_hv_asil_aktifken_maks_2010_2016": 24.83,
+  "oanda_hv_ge21_iken_aktif_gun_2010_2016": 9,
+  "oanda_hv_ge17_iken_aktif_orani_2010_2016": 0.0426,
+  "oanda_hv_asil_aktifken_maks_2010_2026": 24.83,
+  "oanda_hv_ge21_iken_aktif_gun_2010_2026": 9,
+  "oanda_hv_ge17_iken_aktif_orani_2010_2026": 0.0363,
+  "oanda_hv_bugunku_esikle_aktifken_maks_2010_2026": 21.68,
+  "bist_vekili_15utc_hv_aktifken_maks_2010_2016": 16.33,
+  "not_": "viop_*/oanda_* maks ve q99 değerleri yalnız 2017-03+ VİOP günleri; *_2010_2016 / *_2010_2026 anahtarları 2010+ spot günleri (denetim eki). OANDA HV(20) ≥ 22 → bugünkü eşikle 2010–2026'da hiç aktif olmadı; 17–22 arası ≈%3–4 olasılıkla aktif; < 17 → betik."
+ },
+ "denetim_notlari": {
+  "A8_3": "17:00 TSİ saatlik mumun RENGİ değil, KAPANIŞI 16:00 mumunun KAPANIŞIYLA karşılaştırılmalı (kural ln(p15/p14)). Renkle sayım Dukascopy'de 9 günde farklı ve Sharpe tam 0.54→0.49, OOS 0.66→0.58 (SAYIM-5MUM-RENK satırı); kural çok küçük farklara duyarlı.",
+  "midas_sabit_komisyon": {
+   "10K_USD": {
+    "asil_oos_sharpe": 0.55,
+    "sade_oos_sharpe": 0.89,
+    "asil_oos_alfa_pct": 0.18,
+    "asil_oos_alfa_t": 0.09,
+    "sade_oos_alfa_pct": 5.69,
+    "sade_oos_alfa_t": 2.09,
+    "asil_emir_yil": 335.8,
+    "sade_emir_yil": 200.8
+   },
+   "25K_USD": {
+    "asil_oos_sharpe": 0.83,
+    "sade_oos_sharpe": 1.01,
+    "asil_oos_alfa_pct": 3.39,
+    "asil_oos_alfa_t": 1.64,
+    "sade_oos_alfa_pct": 7.64,
+    "sade_oos_alfa_t": 2.81,
+    "asil_emir_yil": 335.8,
+    "sade_emir_yil": 200.8
+   },
+   "50K_USD": {
+    "asil_oos_sharpe": 0.93,
+    "sade_oos_sharpe": 1.05,
+    "asil_oos_alfa_pct": 4.46,
+    "asil_oos_alfa_t": 2.15,
+    "sade_oos_alfa_pct": 8.29,
+    "sade_oos_alfa_t": 3.05,
+    "asil_emir_yil": 335.8,
+    "sade_emir_yil": 200.8
+   }
+  },
+  "midas_not": "Emir başına 1,5 USD (KULLANIM §5) bps maliyetine eklendi. Kademeli dilimler sermayenin 1/15'i kadar küçük emirler üretir; küçük hesapta ASIL ETF planının alfası ücretle erir, SADE plan (yılda ≈200 emir) ayakta kalır.",
+  "parametre_uyumu": "A4 ve E2 aylık sayıları (bu dosya, basit %, ay başı penceresi) parametreler.json'daki haftalık log değerlerinden farklıdır; β ile eşik aynı kaynaktan alınmalı (parametreler.json → denetim.sade_esikler_ile_fark).",
+  "lowmom_kesin_pasif": "OANDA canlı HV(20): ≥ 22 kesin pasif (bugünkü eşikle 2010–2026), 17–22 büyük olasılıkla pasif; yalnız 2017+ örneklemine dayanan 'OANDA ≥ 21 kesin' ifadesi 2010–2016'da 9 aktif günle çürüdü. BIST uzlaşma ≥ 17 kuralı 15:00 UTC spot vekiliyle 2010–2016'da da tuttu (aktifken en yüksek HV %16,3)."
+ }
+}

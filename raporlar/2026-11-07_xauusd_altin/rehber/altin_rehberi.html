@@ -1,0 +1,779 @@
+<title>Altın Trade Rehberi</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Düzen: tek sütun okuma akışı; üstte yapışkan bölüm menüsü; "bugün" kartları iki cephe yan yana, telefonda alt alta. */
+:root {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --ink: #1b2230;
+  --muted: #5a6476;
+  --line: #d9dde5;
+  --brass: #8a6416;
+  --brass-soft: #f3ead6;
+  --good: #1f7a4d;
+  --good-soft: #e3f3ea;
+  --warn: #9a5b00;
+  --warn-soft: #fbefd9;
+  --bad: #b23a3a;
+  --bad-soft: #f8e4e4;
+  --idle: #6b7385;
+  --idle-soft: #eceef2;
+  --f-display: "Bricolage Grotesque", "IBM Plex Sans", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151c; --surface: #181e27; --ink: #e5e8ee; --muted: #9aa3b4; --line: #2b3341;
+    --brass: #d6ac57; --brass-soft: #2c2616; --good: #5ccb92; --good-soft: #15281f; --warn: #e2a64a; --warn-soft: #2d2313;
+    --bad: #ec8080; --bad-soft: #2f1a1c; --idle: #9aa3b4; --idle-soft: #222936; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151c; --surface: #181e27; --ink: #e5e8ee; --muted: #9aa3b4; --line: #2b3341;
+  --brass: #d6ac57; --brass-soft: #2c2616; --good: #5ccb92; --good-soft: #15281f; --warn: #e2a64a; --warn-soft: #2d2313;
+  --bad: #ec8080; --bad-soft: #2f1a1c; --idle: #9aa3b4; --idle-soft: #222936; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15.5px; line-height: 1.6; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.wrap { max-width: 980px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 64px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: clamp(30px, 6vw, 46px); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: clamp(22px, 4vw, 28px); font-weight: 700; }
+h3 { font-size: 18px; font-weight: 700; }
+p { margin: 0; }
+a { color: var(--brass); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+.mono, .num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.muted { color: var(--muted); }
+.small { font-size: 13.5px; }
+
+/* üst bölüm */
+header.top { padding-block: 32px 20px; display: grid; gap: 12px; }
+.lede { max-width: 68ch; color: var(--muted); font-size: 16.5px; }
+.disc { font-size: 13px; color: var(--muted); }
+
+/* menü */
+nav.toc { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding-inline: max(16px, env(safe-area-inset-left, 0px)); }
+nav.toc ul { list-style: none; margin: 0; padding: 10px 0; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+nav.toc a { display: inline-block; white-space: nowrap; padding: 6px 12px; border-radius: 999px; text-decoration: none; color: var(--ink); font-size: 14px; border: 1px solid var(--line); background: var(--surface); }
+nav.toc a:hover { border-color: var(--brass); }
+
+section { padding-block: 36px 8px; display: grid; gap: 18px; scroll-margin-top: 64px; }
+.sec-head { display: grid; gap: 6px; }
+.sec-head p { max-width: 70ch; color: var(--muted); }
+
+/* üç kural kutusu */
+.three { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.three > div { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 6px; align-content: start; }
+.three .k { font-family: var(--f-display); font-size: 17px; font-weight: 700; }
+@media (max-width: 760px) { .three { grid-template-columns: 1fr; } }
+
+/* araç seçimi */
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: grid; gap: 12px; min-width: 0; align-content: start; }
+.panel h3 { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.panel ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+
+/* durum çipleri */
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
+.chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.c-good { color: var(--good); background: var(--good-soft); }
+.c-warn { color: var(--warn); background: var(--warn-soft); }
+.c-bad { color: var(--bad); background: var(--bad-soft); }
+.c-idle { color: var(--idle); background: var(--idle-soft); }
+.c-brass { color: var(--brass); background: var(--brass-soft); }
+
+/* bugün listesi */
+.today { display: grid; gap: 0; border-top: 1px solid var(--line); }
+.today .row { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.today .row .what { font-weight: 600; }
+.today .row .do { grid-column: 1 / -1; color: var(--muted); font-size: 14.5px; }
+.verdict { border-radius: 10px; padding: 12px 14px; font-weight: 600; }
+.verdict.v-good { background: var(--good-soft); color: var(--good); }
+.verdict.v-idle { background: var(--idle-soft); color: var(--ink); }
+.verdict span { font-weight: 400; color: var(--ink); display: block; margin-top: 4px; }
+
+/* zaman çizelgesi */
+.clock { display: grid; gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.clock .t { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 14px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+.clock .t:last-child { border-bottom: 0; }
+.clock .h { font-family: var(--f-mono); font-weight: 500; color: var(--brass); }
+.clock .t.key { background: var(--brass-soft); }
+@media (max-width: 520px) { .clock .t { grid-template-columns: 1fr; gap: 2px; } }
+
+/* kural kartları */
+.rules { display: grid; gap: 14px; }
+.rule { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: grid; gap: 12px; }
+.rule-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
+.rule-head h3 { margin-right: auto; }
+.rule dl { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 8px 16px; margin: 0; }
+.rule dt { color: var(--muted); font-size: 13.5px; font-weight: 600; }
+.rule dd { margin: 0; min-width: 0; }
+@media (max-width: 600px) { .rule dl { grid-template-columns: 1fr; gap: 2px; } .rule dd { margin-bottom: 8px; } }
+.code { font-family: var(--f-mono); font-size: 13px; background: var(--idle-soft); padding: 1px 6px; border-radius: 4px; white-space: nowrap; }
+.formula { font-family: var(--f-mono); font-size: 13.5px; background: var(--idle-soft); border-radius: 8px; padding: 10px 12px; overflow-x: auto; }
+
+/* hesaplayıcı */
+.calc { display: grid; gap: 14px; }
+.calc fieldset { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); padding: 14px 16px 16px; margin: 0; display: grid; gap: 12px; min-width: 0; }
+.calc legend { font-family: var(--f-display); font-weight: 700; font-size: 16px; padding: 0 6px; }
+.fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px 12px; }
+.fields label { display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
+.fields input { font-family: var(--f-mono); font-size: 15px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); width: 100%; min-width: 0; }
+.out { border-radius: 10px; padding: 10px 12px; background: var(--idle-soft); font-size: 14.5px; }
+.out b { font-weight: 600; }
+.out.pos { background: var(--good-soft); }
+.out.neg { background: var(--bad-soft); }
+.note { font-size: 13px; color: var(--muted); }
+
+/* tablolar */
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12.5px; color: var(--muted); font-weight: 600; letter-spacing: 0.02em; background: var(--surface); position: sticky; top: 0; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+.filters select, .filters input { font-family: var(--f-body); font-size: 14px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+details.rowd summary { cursor: pointer; }
+details.rowd p { margin-top: 6px; color: var(--muted); font-size: 13.5px; }
+
+/* raporlar */
+.reports { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 760px) { .reports { grid-template-columns: 1fr; } }
+.rep { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.rep ul { margin: 0; padding-left: 18px; display: grid; gap: 3px; font-size: 14.5px; }
+.rep .path { font-family: var(--f-mono); font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+
+.callout { border-left: 3px solid var(--brass); background: var(--brass-soft); padding: 12px 14px; border-radius: 0 10px 10px 0; }
+footer { padding-block: 40px 0; color: var(--muted); font-size: 13px; display: grid; gap: 6px; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">VİOP ons altın · Midas ABD ETF'leri · 1–3–5 gün</div>
+  <h1>Altın Trade Rehberi</h1>
+  <p class="lede">Araştırmada ayakta kalan kuralları her gün nasıl uygulayacağınızı adım adım anlatır: ne zaman bakacağınızı, neye bakacağınızı, ne zaman alıp satacağınızı ve ne kadar alacağınızı. Veri 6 Kasım 2026 Cuma kapanışına kadar.</p>
+  <p class="disc">Yatırım tavsiyesi değildir. Kurallar geçmiş veriye dayanıyor, binlerce test içinden seçildi ve canlıda denenmedi. Kaldıraçlı türevlerde sermayenin tamamı kaybedilebilir.</p>
+</header>
+
+<nav class="toc" aria-label="Bölümler">
+  <ul>
+    <li><a href="#ozet">Önce bunu okuyun</a></li>
+    <li><a href="#bugun">Pazartesi ne yapılır</a></li>
+    <li><a href="#rutin">Günlük rutin</a></li>
+    <li><a href="#kurallar">Kurallar</a></li>
+    <li><a href="#hesap">Hesaplayıcı</a></li>
+    <li><a href="#takvim">Takvim</a></li>
+    <li><a href="#boyut">Boyut ve risk</a></li>
+    <li><a href="#tahmin">Fiyat tahmini</a></li>
+    <li><a href="#tablo">Sinyal tablosu</a></li>
+    <li><a href="#raporlar">Raporlar</a></li>
+  </ul>
+</nav>
+
+<section id="ozet">
+  <div class="sec-head">
+    <h2>Önce bunu okuyun</h2>
+    <p>Araştırmanın sonucu üç cümleye sığıyor. Bunları kabul etmiyorsanız aşağıdaki kuralları uygulamayın.</p>
+  </div>
+  <div class="three">
+    <div>
+      <div class="k">Çoğu gün hiçbir şey yapmazsınız</div>
+      <p>Altının 1–5 günlük yönünü güvenilir biçimde öngören bir şey bulunamadı. Yalnız aşağıdaki kurallardan biri "tetiklendiğinde" işlem açılır ve kuralın tutuş süresi bitince kapanır. Kalan zaman nakittesiniz.</p>
+    </div>
+    <div>
+      <div class="k">Kurallar zayıf, beklenti küçük</div>
+      <p>Geçmişte bu kurallar yılda birkaç puanlık avantaj bırakmış. Gerçekçi beklenti VİOP'ta yılda ≈%2 (tam nominal başına), Midas'ta altın ETF sepetinin üstüne yılda ≈%3. İlk 6 ay kâğıt üzerinde ya da çok küçük boyutla deneyin.</p>
+    </div>
+    <div>
+      <div class="k">Asıl kararınız boyut</div>
+      <p>VİOP'ta açık pozisyonun toplam değeri (nominal) özsermayenizin 2 katını geçmesin. 2026'da kötü bir hafta altını %12 düşürdü. Bu boyutta özsermayenin ≈%24'ü eder.</p>
+    </div>
+  </div>
+
+  <div class="two">
+    <div class="panel">
+      <h3>Midas hesabınız varsa <span class="chip c-good">5 kural · güven ORTA</span></h3>
+      <ul>
+        <li>ABD'deki altın ve madenci ETF'leriyle işlem yaparsınız: <span class="code">GDXJ</span>, <span class="code">GDX</span>, <span class="code">GLD</span>.</li>
+        <li>Yalnız alırsınız, açığa satış yok. Sinyal yoksa nakitte beklersiniz.</li>
+        <li>Karar kışın 23:00, emir 23:50–23:58 TSİ'de (ABD kapanışından hemen önce).</li>
+        <li>Komisyon emir başına 1,5 USD. Bu yüzden <b>sade uygulama</b> kullanın: sinyal gelince kolu tamamen alın, süre dolunca satın. Test edildi; 10.000 USD'lik hesapta parça parça alıma göre çok daha iyi sonuç veriyor.</li>
+        <li>Midas'ta VİOP'ta yalnız gram altın var. Gram altın vadelisinde uzun kalmak TL faizi yüzünden seans başına ≈%0,17 kaybettiriyor. Bu kurallar için kullanmayın.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>VİOP ons altın hesabınız varsa <span class="chip c-warn">4 kural · güven DÜŞÜK</span></h3>
+      <ul>
+        <li><span class="code">F_XAUUSD</span> sözleşmesi, 1 sözleşme = 1 ons. Midas'ta yok, ons altın vadelisi sunan başka bir aracı kurum gerekir.</li>
+        <li>Uzun ve kısa pozisyon açılabilir. Kaldıraç var, teminat ≈%10.</li>
+        <li>Karar 18:00, emir 18:00–18:10 TSİ (günlük uzlaşma penceresi).</li>
+        <li>Komisyonu gidiş-dönüş ≈5 bps'e (onbinde 2 civarı) indirin. Varsayılan perakende tarifesiyle kurallar zarar eder.</li>
+        <li>Bu taraftaki kanıt Midas tarafından zayıf. Kurallar çoklu test düzeltmesini geçmedi.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="bugun">
+  <div class="sec-head">
+    <div class="eyebrow">Cuma 6 Kasım verisiyle hesaplandı</div>
+    <h2>Pazartesi 9 Kasım'da ne yapılır</h2>
+    <p>Bu tablo araştırmanın kendi sinyal betiğiyle hesaplandı. Pazartesi günü değişen tek şey, o günün altın fiyatına bağlı iki koşullu kural.</p>
+  </div>
+  <div class="two">
+    <div class="panel">
+      <h3>Midas (ABD ETF'leri)</h3>
+      <p class="small muted">ETF'e ayırdığınız parayı 5 eşit "kol"a bölün. Her kural bir kolu yönetir.</p>
+      <div class="today">
+        <div class="row"><span class="what">Altın düştüyse GDXJ</span><span class="chip c-warn">Koşullu</span>
+          <span class="do">23:00 TSİ'de spot altın <b class="num">4.065,68</b> USD'nin altındaysa GDXJ kolu dolu kalır ya da alınır. Üstündeyse bu kol nakit.</span></div>
+        <div class="row"><span class="what">GDXJ artık momentumu</span><span class="chip c-good">Aktif</span>
+          <span class="do">Cuma sinyal verdi. GDXJ kolunu tamamen tutun, son sinyal gününden 3 işlem günü sonra satın.</span></div>
+        <div class="row"><span class="what">GDX artık momentumu</span><span class="chip c-good">Aktif</span>
+          <span class="do">Sinyal var. GDX kolunu tamamen tutun.</span></div>
+        <div class="row"><span class="what">Madenciler öncü → GLD</span><span class="chip c-good">Aktif</span>
+          <span class="do">Sinyal var. GLD kolunu tamamen tutun, son sinyal gününden 5 işlem günü sonra satın.</span></div>
+        <div class="row"><span class="what">Tatil öncesi GDX</span><span class="chip c-idle">Pasif</span>
+          <span class="do">Nakit. Sıradaki giriş 24 Kasım kapanışı.</span></div>
+      </div>
+      <div class="verdict v-good">Pazartesi kapanışından sonra hedef dağılım
+        <span>ETF parasının <b>%20 GDX</b>, <b>%20 GDXJ</b> (altın düştüyse <b>%40</b>), <b>%20 GLD</b>, kalanı nakit. Sıfırdan başlıyorsanız bunları 23:50–23:58 TSİ'de alın. Normalde paranın ortalama %40'ı yatırımda olur; şu an bütün madenci sinyalleri aynı anda açık olduğu için oran yüksek.</span></div>
+      <p class="note">Uyarı: madenci sinyallerinin hepsinin aynı anda "al" demesinin nedeni geçen haftaki sert yükseliş (4 Kasım'da GDXJ +%9). Bu sinyaller 2026'da zayıf çalıştı. GDXJ'nin yıllık oynaklığı %59, yani tek günde %9 düşebilir.</p>
+    </div>
+    <div class="panel">
+      <h3>VİOP F_XAUUSD</h3>
+      <p class="small muted">"1 birim", sizin seçtiğiniz tam pozisyondur (ör. 2 sözleşme). Dört kural 1/4'er ağırlıkla toplanır.</p>
+      <div class="today">
+        <div class="row"><span class="what">Sakin piyasa momentumu</span><span class="chip c-idle">Pasif</span>
+          <span class="do">Altının oynaklığı çok yüksek (yıllık %21, eşik %12). 2026'da hiç çalışmadı.</span></div>
+        <div class="row"><span class="what">Çeyrek sonu</span><span class="chip c-idle">Pasif</span>
+          <span class="do">Sıradaki giriş 30 Aralık 18:00–18:10, F_XAUUSD0227 kontratında.</span></div>
+        <div class="row"><span class="what">GDXJ artığı</span><span class="chip c-good">Uzun dilim</span>
+          <span class="do">Cuma GDXJ altına göre çok güçlüydü. Yeni dilim +1/3 uzun.</span></div>
+        <div class="row"><span class="what">Son saat momentumu</span><span class="chip c-warn">Koşullu</span>
+          <span class="do">18:00'de altının 17:00–18:00 mumu yeşilse +1/5, kırmızıysa −1/5 dilim. Açık dilimlerle toplam −0,2 ya da −0,6.</span></div>
+      </div>
+      <div class="verdict v-idle">Birleşik VİOP pozisyonu ≈ sıfır
+        <span>Dört kuralın toplamı +0,03 ya da −0,07 birim. Bu, <b>VİOP'ta Pazartesi işlem yok</b> demek.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="rutin">
+  <div class="sec-head">
+    <h2>Günlük rutin</h2>
+    <p>Saatler Türkiye saatidir. ABD kış saati 1 Kasım 2026 – 14 Mart 2027 arası geçerli. Yazın Midas saatleri bir saat erkene kayar.</p>
+  </div>
+  <div class="clock">
+    <div class="t"><span class="h">16:30</span><span>ABD verileri (CPI, istihdam) açıklanır. Yazın 15:30. Bu hareket o günün VİOP kapanışına girer.</span></div>
+    <div class="t key"><span class="h">17:45–18:00</span><span><b>VİOP kontrolü.</b> Kuralları kontrol edin (son saat kuralı için 18:00'ı bekleyin).</span></div>
+    <div class="t key"><span class="h">18:00–18:10</span><span><b>VİOP emri.</b> Günlük uzlaşma fiyatı bu 10 dakikanın ortalaması. Emri bu pencerede verin.</span></div>
+    <div class="t"><span class="h">19:00–23:00</span><span>VİOP akşam seansı. Burada piyasa ve stop emri kullanılamaz, işlem yapmanız gerekmez.</span></div>
+    <div class="t"><span class="h">22:00</span><span>FOMC faiz kararı (yazın 21:00). VİOP kapanışından sonra gelir, etkisi ertesi günün kapanışına düşer.</span></div>
+    <div class="t key"><span class="h">22:45–23:00</span><span><b>Midas kontrolü.</b> 23:00 = 15:00 ET. "Altın düştüyse GDXJ" kuralı bu saatin fiyatına bakar. Yazın 21:45–22:00.</span></div>
+    <div class="t key"><span class="h">23:50–23:58</span><span><b>Midas emri.</b> Kapanışta piyasa emri (MOC) yok. Kapanıştan hemen önce limit ya da piyasa emri verin. Yazın 22:50–22:58.</span></div>
+    <div class="t"><span class="h">00:00</span><span>ABD kapanışı (yazın 23:00). ETF kurallarının "kapanış fiyatı" budur.</span></div>
+  </div>
+  <div class="callout small">TradingView'da günlük çubuğun kapanışı akşam seansını da içerebilir. VİOP'u kapanıştan kapanışa kontrol ederken günlük <b>uzlaşma fiyatına</b> bakın (grafik ayarlarında "Use settlement as close" açık olsun) ya da aracı kurumunuzun uzlaşma ekranını kullanın.</div>
+</section>
+
+<section id="kurallar">
+  <div class="sec-head">
+    <h2>Kurallar</h2>
+    <p>Her kart tek bir kuralı anlatır. "Kol" ETF parasının beşte biri, "birim" VİOP'taki tam pozisyonunuz. Midas'ta <b>sade uygulama</b>: sinyal çıktığı gün kolu tamamen alın, son sinyal gününden 3 (4. kuralda 5) işlem günü sonra satın; tutarken yeni sinyal gelirse süre o günden yeniden başlar. VİOP'ta <b>sayım</b>: son 3 (ya da 5) günde kaç uzun ve kaç kısa sinyal çıktığını sayıp farkı kadar pozisyon tutun. Bu sade sürümler ayrıca geriye dönük test edildi; asıl kurallara yakın ya da daha iyi sonuç verdiler.</p>
+  </div>
+
+  <div class="panel">
+    <h3>Midas kuralları arasındaki fark</h3>
+    <p class="small">1. kural ile 2–4. kurallar zıt görünür ama çelişmez. Madencinin hareketinin iki parçası var. <b>Altından gelen parça</b> ertesi gün geri döner (1. kural). <b>Madencinin kendine özgü parçası</b> birkaç gün sürer (2–4. kurallar). 2, 3 ve 4 aynı fikrin kısa, orta ve uzun sürümleridir; çoğu zaman birlikte "al" derler.</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Kural</th><th>Neye bakar</th><th>Fikir</th><th>Ne alınır</th><th class="num">Bakış → tutuş</th><th class="num">Yılda işlem</th></tr></thead>
+        <tbody>
+          <tr><td><b>1</b></td><td>Altının bugünkü hareketi</td><td>Altın düşünce madenciler aşırı satılır, ertesi gün toparlanır (<b>dönüş</b>)</td><td>GDXJ</td><td class="num">bugün → 1 gün</td><td class="num">≈66</td></tr>
+          <tr><td><b>2</b></td><td>GDXJ'nin dünkü, altından ve borsadan bağımsız gücü</td><td>Küçük madencilerin kendine özgü güçlü günü sürer (<b>devam</b>)</td><td>GDXJ</td><td class="num">1 gün → 3 gün</td><td class="num">≈17</td></tr>
+          <tr><td><b>3</b></td><td>GDX'in son 3 gündeki aynı türden gücü</td><td>Büyük madencilerde aynı devam, daha yavaş ölçüm</td><td>GDX</td><td class="num">3 gün → 3 gün</td><td class="num">≈18</td></tr>
+          <tr><td><b>4</b></td><td>GDX'in son 10 gündeki aynı türden gücü</td><td>Madenciler haftalardır altından güçlüyse altın arkasından gelir (<b>öncülük</b>)</td><td>GLD (altının kendisi)</td><td class="num">10 gün → 5 gün</td><td class="num">≈6</td></tr>
+          <tr><td><b>5</b></td><td>Takvim (fiyata bakmaz)</td><td>NYSE tatilinden önce madenciler güçlü</td><td>GDX</td><td class="num">takvim → 1 gün</td><td class="num">≈9</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Kuralları azaltmak isterseniz şöyle seçin. 1. kural en sağlam istatistiğe sahip. 2 ile 3'ten birini seçin, ikisi neredeyse aynı şeyi ölçüyor. 5. kural yılda birkaç kez çalışır. 4. kural en çok, zaten GLD tutanlar için ne zaman nakde geçileceğini söyleyen bir risk filtresi olarak işe yarar.</p>
+  </div>
+
+  <h3 class="eyebrow" style="font-size:13px">Midas · ABD ETF'leri · güven ORTA</h3>
+  <div class="rules">
+    <article class="rule">
+      <div class="rule-head"><h3>1. Altın düştüyse GDXJ ertesi gün toparlanır</h3><span class="chip c-good">ORTA</span><span class="chip c-brass">GDXJ · 1 gün</span></div>
+      <dl>
+        <dt>Ne zaman bakılır</dt><dd>Her işlem günü 23:00 TSİ (15:00 ET). Yazın 22:00.</dd>
+        <dt>Neye bakılır</dt><dd>TradingView <span class="code">OANDA:XAUUSD</span>, 1 saatlik grafik, saat dilimi İstanbul. Dünkü ABD kapanışındaki altın fiyatı (kışın 00:00 TSİ, yazın 23:00 TSİ) ile şu anki altın fiyatı.</dd>
+        <dt>Koşul</dt><dd>Şu anki fiyat dünkü ABD kapanış fiyatından <b>düşükse</b> sinyal var.</dd>
+        <dt>Ne yapılır</dt><dd>Sinyal varsa GDXJ kolunu doldurun (23:50–23:58 TSİ), ertesi gün kapanışta satın. Ertesi gün de sinyal varsa satmayın, tutmaya devam edin. Sinyal yoksa bu kol nakit.</dd>
+        <dt>Geçmişte</dt><dd>2008–2026'da 18 yılın 15'inde aynı yönde çalıştı. Projede çoklu test düzeltmesini geçen tek ilişki bu. 2018–2026'da kural Sharpe 0,71, sürekli GDXJ tutmak 0,54.</dd>
+        <dt>Zayıf yanı</dt><dd>Yılda ≈66 alım-satım. Maliyet 20 bps'e çıkınca avantaj kayboluyor. 2008 gibi kriz yıllarında ağır kaybettirir (GDX'te −%49).</dd>
+      </dl>
+    </article>
+    <article class="rule">
+      <div class="rule-head"><h3>2. GDXJ'nin kendi gücü 3 gün sürer</h3><span class="chip c-good">ORTA</span><span class="chip c-brass">GDXJ · 3 gün kademeli</span></div>
+      <dl>
+        <dt>Ne zaman bakılır</dt><dd>Her işlem günü, dünkü ABD kapanışından sonra (karar 23:00 TSİ'ye kadar).</dd>
+        <dt>Neye bakılır</dt><dd>Dünkü günlük yüzde değişimler: <span class="code">AMEX:GDXJ</span>, <span class="code">AMEX:GLD</span>, <span class="code">AMEX:SPY</span>.</dd>
+        <dt>Hesap</dt><dd><div class="formula">artık = GDXJ − 1,51 × GLD − 1,00 × SPY</div><span class="note">Katsayılar son 250 günden, 6 Kasım 2026 itibarıyla. Ayda bir güncellenir. Hesaplayıcı bunu sizin yerinize yapar.</span></dd>
+        <dt>Koşul</dt><dd>artık &gt; <b class="num">+%0,67</b> ise sinyal var. GDXJ, altın ve borsanın açıklayabileceğinden daha güçlü kapanmış demektir.</dd>
+        <dt>Ne yapılır</dt><dd>GDXJ kolunu tamamen alın. Son sinyal gününden 3 işlem günü sonra satın.</dd>
+        <dt>Geçmişte</dt><dd>Sade uygulamayla 2018–2026 Sharpe 0,71, sürekli GDXJ tutmak 0,54.</dd>
+        <dt>Zayıf yanı</dt><dd>2025–26'da zayıfladı (2026'da sade uygulamada sıfır civarı). VİOP'taki "GDXJ artığı" ile aynı fenomen; ikisini birlikte tam ağırlıkla kullanmayın.</dd>
+      </dl>
+    </article>
+    <article class="rule">
+      <div class="rule-head"><h3>3. GDX'in 3 günlük gücü sürer</h3><span class="chip c-good">ORTA</span><span class="chip c-brass">GDX · 3 gün kademeli</span></div>
+      <dl>
+        <dt>Neye bakılır</dt><dd>Son 3 işlem gününün yüzde değişimi (dünkü kapanış ile 3 gün önceki kapanış arası): <span class="code">AMEX:GDX</span>, <span class="code">AMEX:GLD</span>, <span class="code">AMEX:SPY</span>.</dd>
+        <dt>Hesap</dt><dd><div class="formula">artık₃ = GDX₃ − 1,39 × GLD₃ − 0,77 × SPY₃</div></dd>
+        <dt>Koşul</dt><dd>artık₃ &gt; <b class="num">+%0,81</b> ise sinyal var.</dd>
+        <dt>Ne yapılır</dt><dd>GDX kolunu tamamen alın. Son sinyal gününden 3 işlem günü sonra satın.</dd>
+        <dt>Geçmişte</dt><dd>Sade uygulamayla 2018–2026 Sharpe 1,00, sürekli GDX 0,61.</dd>
+        <dt>Zayıf yanı</dt><dd>2022 sonrasında sürekli tutmayı geçemedi. 2. kuralla aynı aile.</dd>
+      </dl>
+    </article>
+    <article class="rule">
+      <div class="rule-head"><h3>4. Madenciler altına öncülük eder → GLD</h3><span class="chip c-good">ORTA</span><span class="chip c-brass">GLD · 5 gün kademeli</span></div>
+      <dl>
+        <dt>Neye bakılır</dt><dd>Son 10 işlem gününün yüzde değişimi: GDX, GLD, SPY.</dd>
+        <dt>Hesap</dt><dd><div class="formula">artık₁₀ = GDX₁₀ − 1,39 × GLD₁₀ − 0,77 × SPY₁₀</div></dd>
+        <dt>Koşul</dt><dd>artık₁₀ &gt; <b class="num">+%2,52</b> ise sinyal var.</dd>
+        <dt>Ne yapılır</dt><dd>GLD kolunu tamamen alın. Son sinyal gününden 5 işlem günü sonra satın. <b>Zaten GLD tutuyorsanız</b>: artık₁₀ <b class="num">−%4,02</b>'nin altına inerse GLD'yi satın, 5 işlem günü sonra geri alın.</dd>
+        <dt>Geçmişte</dt><dd>Sade uygulamayla 2018–2026 Sharpe 1,05, sürekli GLD 0,81. GLD tutanların nakde geçme sürümü 1,01.</dd>
+        <dt>Zayıf yanı</dt><dd>2018–2024'te etkisi sıfıra yakın. Kazancı 2013–17 ve 2025–26'ya yığılı.</dd>
+      </dl>
+    </article>
+    <article class="rule">
+      <div class="rule-head"><h3>5. NYSE tatilinden önce GDX</h3><span class="chip c-good">ORTA</span><span class="chip c-brass">GDX · 1 gün</span></div>
+      <dl>
+        <dt>Koşul</dt><dd>Takvim kuralı. NYSE tatilinden önceki son işlem gününden <b>bir önceki</b> kapanışta alın, tatilden önceki son günün kapanışında satın.</dd>
+        <dt>Sıradaki</dt><dd>24 Kasım kapanışında al → 25 Kasım kapanışında sat (Şükran Günü). Sonra 23 Aralık → 24 Aralık (yarım gün, 21:00 TSİ kapanış), 30 Aralık → 31 Aralık.</dd>
+        <dt>Geçmişte</dt><dd>Olay başına +47 bps, yılda ≈9 işlem. 2018–2026 Sharpe 0,75, sürekli GDX 0,60.</dd>
+        <dt>Zayıf yanı</dt><dd>Etkinin yarısı o günkü altın hareketinden geliyor. Ortalama kazancın üçte ikisi en iyi 10 günden.</dd>
+      </dl>
+    </article>
+    <div class="panel">
+      <h3>Beş kural birlikte, sade uygulama</h3>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>Dönem</th><th class="num">Sade plan Sharpe</th><th class="num">Parça parça (asıl)</th><th class="num">GDX/GDXJ/GLD sepeti</th></tr></thead>
+        <tbody>
+          <tr><td>2018–2026</td><td class="num">1,08</td><td class="num">1,02</td><td class="num">0,64</td></tr>
+          <tr><td>2022–2026</td><td class="num">1,22</td><td class="num">1,08</td><td class="num">0,79</td></tr>
+          <tr><td>2018–2026, 10.000 USD hesap, 1,5 USD/emir</td><td class="num">0,89</td><td class="num">0,55</td><td class="num">0,64</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">Sade planda paranın ortalama %39'u yatırımda, yılda ≈200 emir günü. Sepete göre yıllık fazla getiri 2018–2026'da %9 (10.000 USD hesapta %5,7). Gerçekçi beklenti bunun yarısı.</p>
+    </div>
+    <article class="rule">
+      <div class="rule-head"><h3>Araç seçimi: GLD yerine PHYS</h3><span class="chip c-idle">yön sinyali değil</span></div>
+      <p class="small">Zaten altın ETF'i alacaksanız ve PHYS (Sprott fiziki altın tröstü) GLD'ye göre son 60 günün normalinden belirgin ucuzsa (z &lt; −1,5), GLD yerine PHYS alın. 5 günde ≈+0,2 puanlık fark. Midas'ta PHYS'in işlem gördüğü teyit edilmedi.</p>
+    </article>
+  </div>
+
+  <h3 class="eyebrow" style="font-size:13px; margin-top:12px">VİOP · F_XAUUSD · güven DÜŞÜK</h3>
+  <div class="callout small"><b>Dört kuralı birleştirme:</b> Her gün 18:00'de A (0 ya da 1), B (−1 ile +1 arası), C (−1 ile +1 arası) ve D (şu an 0) değerlerini toplayın, 4'e bölün ve 1 birimdeki sözleşme sayısıyla çarpıp yuvarlayın. Mevcut pozisyonunuzla farkı 18:00–18:10'da işleyin. Bu sayım yöntemi test edildi: 2022–2026 Sharpe 1,60 (asıl 1,56). Tam kol ile ya da çoğunluk oyuyla yapılan basitleştirmeler belirgin kötü çıktı, kullanmayın.</div>
+  <div class="rules">
+    <article class="rule">
+      <div class="rule-head"><h3>A. Çeyrek sonu</h3><span class="chip c-warn">DÜŞÜK</span><span class="chip c-brass">uzun · 3 gün</span></div>
+      <dl>
+        <dt>Koşul</dt><dd>Mart, Haziran, Eylül, Aralık aylarının sondan 2. VİOP işlem günü.</dd>
+        <dt>Ne yapılır</dt><dd>O günün uzlaşma penceresinde (18:00–18:10) 1 birim uzun açın, 3 VİOP günü sonra aynı saatte kapatın.</dd>
+        <dt>Sıradaki</dt><dd>30 Aralık 2026 al → 5 Ocak 2027 sat. Aralık kontratı 31 Aralık'ta bittiği için F_XAUUSD0227'de açın.</dd>
+        <dt>Geçmişte</dt><dd>39 olayda ortalama +0,77 puan (diğer günler +0,08). Yılda 4 işlem.</dd>
+        <dt>Zayıf yanı</dt><dd>Mekanizması belirsiz. 2017–19 ve 2022–23'te çalışmadı.</dd>
+      </dl>
+    </article>
+    <article class="rule">
+      <div class="rule-head"><h3>B. GDXJ artığı (VİOP için)</h3><span class="chip c-warn">DÜŞÜK</span><span class="chip c-brass">uzun/kısa · 3 gün kademeli</span></div>
+      <dl>
+        <dt>Neye bakılır</dt><dd>Dünkü ABD kapanışında GDXJ ve GLD'nin yüzde değişimi.</dd>
+        <dt>Hesap</dt><dd><div class="formula">artık = GDXJ − 2,00 × GLD</div><span class="note">Bayram dönüşünde VİOP'un son açık gününden bu yana toplam değişimi kullanın. ABD tatilinin ertesi günü yeni kapanış yoksa sinyal yok.</span></dd>
+        <dt>Koşul</dt><dd>artık &gt; <b class="num">+%0,68</b> → uzun sinyal. artık &lt; <b class="num">−%0,68</b> → kısa sinyal. Arası → sinyal yok.</dd>
+        <dt>Ne yapılır</dt><dd>Sayım: bugün dahil son 3 VİOP gününde kaç uzun ve kaç kısa sinyal çıktığını sayın. (uzun − kısa) ÷ 3 birim tutun. Örnek: 2 uzun, 0 kısa → 2/3 birim uzun.</dd>
+        <dt>Zayıf yanı</dt><dd>İşlem kuralı olarak istatistiği zayıf (t 1,6). Midas'taki 2. kuralla aynı fenomen.</dd>
+      </dl>
+    </article>
+    <article class="rule">
+      <div class="rule-head"><h3>C. Son saat momentumu</h3><span class="chip c-warn">DÜŞÜK</span><span class="chip c-brass">uzun/kısa · 5 gün kademeli</span></div>
+      <dl>
+        <dt>Neye bakılır</dt><dd><span class="code">OANDA:XAUUSD</span> 1 saatlik grafik, İstanbul saati. 17:00 mumunun <b>kapanışını</b> (18:00 fiyatı) 16:00 mumunun kapanışıyla (17:00 fiyatı) karşılaştırın. Mumun rengine değil, bu iki kapanışa bakın.</dd>
+        <dt>Koşul</dt><dd>18:00 fiyatı 17:00 fiyatından yüksekse o gün "yukarı", düşükse "aşağı".</dd>
+        <dt>Ne yapılır</dt><dd>Sayım: bugün dahil son 5 VİOP gününde kaç "yukarı" ve kaç "aşağı" var? (yukarı − aşağı) ÷ 5 birim tutun. <b>Tek sözleşmeyle</b> işlem yapıyorsanız yalnız 5 günün en az 4'ü aynı yöndeyse o yönde 1 sözleşme tutun. Arife gibi yarım günler ve spotun kapalı olduğu günler (25 Aralık, 1 Ocak) "sıfır" sayılır.</dd>
+        <dt>Zayıf yanı</dt><dd>2010–2016'da yok, 2024'te kötü bir yıl (Sharpe −2,3). Kazancı 2026'ya yığılı.</dd>
+      </dl>
+    </article>
+    <article class="rule">
+      <div class="rule-head"><h3>D. Sakin piyasa momentumu</h3><span class="chip c-warn">DÜŞÜK</span><span class="chip c-idle">şu an pasif</span></div>
+      <dl>
+        <dt>Koşul</dt><dd>Altının son 20 günlük oynaklığı yıllık ≈%12'nin altındaysa, son 5 günün yönünde 1 birim açın, ertesi gün kapatın.</dd>
+        <dt>Elle kontrol</dt><dd>TradingView'da <span class="code">OANDA:XAUUSD</span> günlük grafiğe "Historical Volatility" göstergesini ekleyin, uzunluğu 20 yapın. Değer 22'nin üstündeyse kural kesin pasif. 22'nin altına inerse elle karar vermeyin; bu kural elle doğru hesaplanamıyor, betik gerekir.</dd>
+        <dt>Durum</dt><dd>2026'da oynaklık hiç bu seviyeye inmedi (şu an HV ≈27–29). Son aktif gün 22 Eylül 2025.</dd>
+      </dl>
+    </article>
+  </div>
+
+  <div class="callout small"><b>Bunları yapmayın.</b> Aşağıdakiler test edildi ve işe yaramadı.
+    <ul style="margin:6px 0 0; padding-left:18px">
+      <li>RSI(2), Bollinger, "2σ düştü, dip al" kuralları (üç dönemde de zarar).</li>
+      <li>FOMC ve CPI günü yön bahsi, haftanın günü, ay mevsimselliği.</li>
+      <li>COT, ETF akışı, Şanghay primi, altın/gümüş oranı.</li>
+      <li>Kaldıraçlı ETF'leri birkaç gün tutmak (NUGT yılda ≈%20 aşınıyor).</li>
+      <li>Gram altın vadelisinde uzun kalmak.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="hesap">
+  <div class="sec-head">
+    <h2>Hesaplayıcı</h2>
+    <p>TradingView'dan okuduğunuz sayıları girin, kuralın bugün ne dediğini gösterir. Yüzdeleri "1,25" ya da "-0,8" gibi yazın. Örnek olarak Pazartesi 9 Kasım kararının girdileri (Cuma kapanışı) dolu. Altın fiyatı alanlarında Cuma gününün kendi saatlerindeki fiyatlar var; Pazartesi o saatlerde okuduğunuz fiyatları yazın.</p>
+  </div>
+  <div class="calc">
+    <fieldset>
+      <legend>Midas · 1. kural · Altın düştüyse GDXJ</legend>
+      <div class="fields">
+        <label for="m_prev">Dünkü ABD kapanışında altın (USD)<input id="m_prev" inputmode="decimal" value="4098,77"></label>
+        <label for="m_now">Şu an (15:00 ET) altın (USD)<input id="m_now" inputmode="decimal" value="4063,32"></label>
+      </div>
+      <div class="out" id="o_m"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Midas · 2.–4. kural · Madenci artıkları</legend>
+      <div class="fields">
+        <label for="x1_gdxj">GDXJ dünkü %<input id="x1_gdxj" inputmode="decimal" value=""></label>
+        <label for="x1_gld">GLD dünkü %<input id="x1_gld" inputmode="decimal" value=""></label>
+        <label for="x1_spy">SPY dünkü %<input id="x1_spy" inputmode="decimal" value=""></label>
+      </div>
+      <div class="out" id="o_c2j"></div>
+      <div class="fields">
+        <label for="x3_gdx">GDX son 3 gün %<input id="x3_gdx" inputmode="decimal" value=""></label>
+        <label for="x3_gld">GLD son 3 gün %<input id="x3_gld" inputmode="decimal" value=""></label>
+        <label for="x3_spy">SPY son 3 gün %<input id="x3_spy" inputmode="decimal" value=""></label>
+      </div>
+      <div class="out" id="o_c2"></div>
+      <div class="fields">
+        <label for="x10_gdx">GDX son 10 gün %<input id="x10_gdx" inputmode="decimal" value=""></label>
+        <label for="x10_gld">GLD son 10 gün %<input id="x10_gld" inputmode="decimal" value=""></label>
+        <label for="x10_spy">SPY son 10 gün %<input id="x10_spy" inputmode="decimal" value=""></label>
+      </div>
+      <div class="out" id="o_c1"></div>
+      <p class="note">Katsayılar 6 Kasım 2026'ya göre: GDXJ için GLD 1,51 / SPY 1,00; GDX için GLD 1,39 / SPY 0,77. Son 12 ayda SPY katsayısı 0,3–1,1 arasında oynadı, ayda bir güncellenmeli. Sonuç yaklaşıktır.</p>
+    </fieldset>
+    <fieldset>
+      <legend>VİOP · B ve C kuralları</legend>
+      <div class="fields">
+        <label for="v_gdxj">GDXJ dünkü %<input id="v_gdxj" inputmode="decimal" value=""></label>
+        <label for="v_gld">GLD dünkü %<input id="v_gld" inputmode="decimal" value=""></label>
+      </div>
+      <div class="out" id="o_a4"></div>
+      <div class="fields">
+        <label for="v_p14">Altın 17:00 TSİ (USD)<input id="v_p14" inputmode="decimal" value="4044,38"></label>
+        <label for="v_p15">Altın 18:00 TSİ (USD)<input id="v_p15" inputmode="decimal" value="4048,55"></label>
+      </div>
+      <div class="out" id="o_l1"></div>
+      <p class="note">VİOP katsayısı: GDXJ için GLD 2,00, eşik ±%0,68 (10 Kasım'dan itibaren geçerli, haftada bir güncellenir).</p>
+      <div class="fields">
+        <label for="s_a">A: çeyrek sonu (0 ya da 1)<input id="s_a" inputmode="decimal" value="0"></label>
+        <label for="s_bu">B: son 3 günde uzun sinyal sayısı<input id="s_bu" inputmode="decimal" value="2"></label>
+        <label for="s_bd">B: son 3 günde kısa sinyal sayısı<input id="s_bd" inputmode="decimal" value="1"></label>
+        <label for="s_cu">C: son 5 günde "yukarı" sayısı<input id="s_cu" inputmode="decimal" value="2"></label>
+        <label for="s_cd">C: son 5 günde "aşağı" sayısı<input id="s_cd" inputmode="decimal" value="3"></label>
+        <label for="s_n">1 birim = kaç sözleşme<input id="s_n" inputmode="decimal" value="4"></label>
+      </div>
+      <div class="out" id="o_viop"></div>
+      <p class="note">D kuralı (sakin piyasa) şu an pasif, 0 sayıldı. Örnek: Pazartesi 9 Kasım. B'de Perşembe +1, Cuma −1, Pazartesi +1. C'de Salı–Cuma 1 yukarı, 3 aşağı; Pazartesi "yukarı" çıkarsa 2 ve 3 girin, "aşağı" çıkarsa 1 ve 4.</p>
+    </fieldset>
+  </div>
+</section>
+
+<section id="takvim">
+  <div class="sec-head">
+    <h2>Takvim</h2>
+    <p>9 Kasım 2026 – 6 Temmuz 2027 arası işlem ve risk günleri. Saatler TSİ. Tarihler NYSE, BLS, Fed ve Türkiye resmi tatil takvimleriyle bağımsız olarak kontrol edildi. Temettü tarihleri tahminidir, ihraççının sitesinden doğrulayın.</p>
+  </div>
+  <div class="filters"><label for="f_cal" class="small">Göster
+    <select id="f_cal"><option value="islem">Yalnız işlem günleri (ETF, VİOP)</option><option value="">Hepsi</option><option value="ABD/risk">ABD verileri ve FOMC</option><option value="NYSE">NYSE tatilleri</option><option value="LBMA">LBMA</option></select></label></div>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Tarih</th><th>Cephe</th><th>Olay</th><th>Ne yapılır</th></tr></thead>
+      <tbody id="cal"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="boyut">
+  <div class="sec-head">
+    <h2>Boyut ve risk</h2>
+    <p>Kaybedebileceğiniz miktarı işlemden önce bilin. Aşağıdaki hesap 2026'nın oynaklığını kullanır.</p>
+  </div>
+  <div class="calc">
+    <fieldset>
+      <legend>VİOP: kaç sözleşme?</legend>
+      <div class="fields">
+        <label for="eq">Özsermaye (TL)<input id="eq" inputmode="decimal" value="500000"></label>
+        <label for="px">Ons altın (USD)<input id="px" inputmode="decimal" value="4078,8"></label>
+        <label for="fx">USDTRY<input id="fx" inputmode="decimal" value="50,16"></label>
+        <label for="lev">Kaldıraç tavanı (nominal/özsermaye)<input id="lev" inputmode="decimal" value="2"></label>
+      </div>
+      <div class="out" id="o_size"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Midas: kol büyüklüğü</legend>
+      <div class="fields">
+        <label for="etfcap">ETF'e ayrılan para (USD)<input id="etfcap" inputmode="decimal" value="10000"></label>
+      </div>
+      <div class="out" id="o_etf"></div>
+    </fieldset>
+  </div>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Araç</th><th class="num">2026 · 1 gün</th><th class="num">2026 · 5 gün</th><th class="num">2017–26 · 1 gün</th><th class="num">2017–26 · 5 gün</th></tr></thead>
+      <tbody>
+        <tr><td>VİOP F_XAUUSD</td><td class="num">%5,0</td><td class="num">%11,8</td><td class="num">%2,9</td><td class="num">%5,4</td></tr>
+        <tr><td>GLD</td><td class="num">%4,1</td><td class="num">%10,8</td><td class="num">%3,1</td><td class="num">%5,9</td></tr>
+        <tr><td>GDXJ</td><td class="num">%8,9</td><td class="num">%15,7</td><td class="num">%7,0</td><td class="num">%13,5</td></tr>
+        <tr><td>NUGT (2x madenci)</td><td class="num">%16,9</td><td class="num">%27,4</td><td class="num">%13,5</td><td class="num">%25,2</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Tablo: 100 günden 1'inde aşılan kayıp (VaR99), pozisyon değerine göre. Yalnız teminat kadar parayla VİOP'a girerseniz teminat çağrısı olasılığı günde ≈%50. 2 kat teminatla 5 günde %2'nin altına iner. "2σ düştü, dip al" yapmayın; büyük düşüşten sonraki gün ortalaması negatif. Stopu getiri için değil, teminat çağrısını önlemek için kullanın (2026'da ≈%5,5 ters hareket). Türkiye tatillerinde VİOP kapalıyken dünya açık: 2026'da tatil boşluğu bir kez −%9,9 oldu, tatil öncesi pozisyonu küçültün.</p>
+</section>
+
+<section id="tahmin">
+  <div class="sec-head">
+    <h2>Altın fiyatını nasıl yordarsınız</h2>
+    <p>Kısa vadede tahmin değil, olay ve risk yönetimi yapılır. Uzun vadede birkaç büyük sürücü belirleyici.</p>
+  </div>
+  <div class="two">
+    <div class="panel">
+      <h3>Dünya fiyatı (ons, USD)</h3>
+      <ul>
+        <li><b>1–5 gün:</b> Yön tahmini neredeyse imkânsız. Takvime bakın: ABD verileri 16:30, FOMC 22:00. 2026 rejiminde güçlü veri → faiz ve dolar yükselir → altın düşer.</li>
+        <li><b>1–3 ay:</b> Fed'in faiz yolu, 10 yıllık reel faizin değişimi, dolar endeksi, ETF akış trendi.</li>
+        <li><b>6–12 ay:</b> Merkez bankası alımları (ayda ≈60 ton taban), Fed'in indirime dönüşü.</li>
+        <li><b>2026'da:</b> Reel faiz geri döndü. Fed Eylül'de faiz artırdı, altın 29 Ocak zirvesinden (5.595) ≈%25 düştü. Kurumların 2027 ortalama tahmini 4.650 USD.</li>
+        <li><b>Yakın tarihler:</b> ABD TÜFE 10 Kasım, istihdam 4 Aralık, FOMC 9 Aralık 22:00.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Türkiye fiyatı (gram, TL)</h3>
+      <div class="formula">gram altın ≈ ons × USDTRY ÷ 31,1035 × (1 + yerel prim)</div>
+      <ul>
+        <li>2024'ten beri gram altın riskinin ≈%97'si onstan geliyor. Gram altını tahmin etmek ≈ onsu tahmin etmek.</li>
+        <li>USDTRY yönetilen kurda yavaş ve öngörülebilir artıyor (2026'da günde ≈%0,07). Son 20 günün ortalama artışı iyi bir tahmin.</li>
+        <li>VİOP gram altın vadelisi bu artışı fazlasıyla fiyatlıyor. Uzun kalana bedava kur kazancı yok, tersine maliyet var.</li>
+        <li>Yerel prim piyasaya göre değişir: VİOP ≈0, Kapalıçarşı −%1 ile +%8, Darphane sertifikası ≈+%9.</li>
+        <li>Ocak–Mart 2026'da VİOP ons altın bile spotun %1–4 üstünde işlem gördü. Prim yüksekken uzun pozisyon ek risk taşır.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="tablo">
+  <div class="sec-head">
+    <h2>Sinyal tablosu</h2>
+    <p>Test edilen 65 iddianın son durumu. "Son güven", bağımsız yeniden üretici ve çürütücü ajanların verdiği iki notun düşük olanı. Satıra dokunarak kuralın tamamını ve zayıf yanını görün.</p>
+  </div>
+  <div class="filters">
+    <label for="f_side" class="small">Cephe
+      <select id="f_side"><option value="">Hepsi</option><option value="ETF">ETF</option><option value="VIOP">VİOP</option><option value="diğer">Diğer</option></select></label>
+    <label for="f_conf" class="small">Son güven
+      <select id="f_conf"><option value="">Hepsi</option><option value="ORTA">ORTA</option><option value="DUSUK">DÜŞÜK</option><option value="YOK">YOK</option></select></label>
+    <label for="f_live" class="small"><input type="checkbox" id="f_live"> Yalnız ayakta kalanlar</label>
+    <span class="small muted" id="f_count"></span>
+  </div>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>İddia</th><th>Cephe</th><th>Son güven</th><th class="num">Tutuş</th><th class="num">OOS Sharpe</th><th class="num">Sürekli tutma</th><th>Durum</th></tr></thead>
+      <tbody id="tb"></tbody>
+    </table>
+  </div>
+  <p class="note">OOS Sharpe: modelin seçilmediği dönemde (VİOP 2022–2026, ETF 2018–2026) maliyet sonrası. "Sürekli tutma": aynı aracı hep tutmanın aynı dönemdeki Sharpe'ı.</p>
+</section>
+
+<section id="raporlar">
+  <div class="sec-head">
+    <h2>Raporlar</h2>
+    <p>Tam metinler GitHub'da, <span class="mono small">claude/laughing-dijkstra-e0ixur</span> dalında, <span class="mono small">raporlar/2026-11-07_xauusd_altin/</span> klasöründe. Ana rapor, sinyal tablosu, kullanım kılavuzu ve hakem raporu sohbette dosya olarak da gönderildi. Özetler:</p>
+    <p><a href="https://github.com/grandlarousse/Xxxx/tree/claude/laughing-dijkstra-e0ixur/raporlar/2026-11-07_xauusd_altin" target="_blank" rel="noopener">Klasörü GitHub'da aç</a></p>
+  </div>
+  <div class="reports" id="reps"></div>
+</section>
+
+<footer>
+  <p>Veri: Borsa İstanbul VİOP bülteni, Dukascopy spot, Yahoo Finance, ABD Hazinesi, CFTC, SSGA. 7.446 test, 59 alt ajan, her bulgu için bağımsız yeniden üretim ve çürütme.</p>
+  <p>Yatırım tavsiyesi değildir.</p>
+</footer>
+</div>
+
+<script>
+const TABLO = [{"id": "A1-LOWMOM-h1", "aile": "a1", "cephe": "VIOP", "ayakta": "EVET (DÜŞÜK'lerin en iyisi)", "son_guven": "DUSUK", "rep": "ORTA", "adv": "DUSUK", "kural": "P=spot XAUUSD 15:00 UTC; x=ln(P_t/P_t-5); rv20=son 20 günlük ΔlnP std; q=rv20'nin 2010'dan beri genişleyen yüzdeliği (bugün dahil). q<1/3 (≈yıllık %11,7) ise t uzlaşmasında sign(x) yönünde 1 birim aç, t+1 uzlaşmasında kapat (aynı yön sürerse netleştir); q≥1/3 ise nakit.", "bilgi_zamani": "t 15:00 UTC (Dukascopy 14:00 barı kapanışı)", "h": 1, "etki_bps_islem": "8,1 bps/aktif gün (OOS 14,9)", "t_IS": 2.38, "t_OOS": 2.68, "oos_sharpe_net": "1,36 (dm 1,31)", "oos_bh_sharpe": "0,53", "yilda_islem": 21.5, "ana_zayiflik": "Izgara tepesi (280 komşunun 99. yüzdeliği; medyan ≈0,4); 2017-19'da etki yok; en iyi 20 gün PnL'in %66-75'i; 2026'da hiç tetiklenmedi.", "islenebilirlik": "Uygulanabilir (VİOP, 5 bps, yılda ~22 gidiş-dönüş; TR yarım günleri hariç); 2026 rejiminde pasif."}, {"id": "A1-LOWMOM-h5", "aile": "a1", "cephe": "VIOP", "ayakta": "EVET (LOWMOM'un 5 günlük tutuş varyantı)", "son_guven": "DUSUK", "rep": "ORTA", "adv": "DUSUK", "kural": "A1-LOWMOM-h1 ile aynı sinyal; t uzlaşmasında aç, t+5'te kapat; her gün sermayenin 1/5'i (kademeli).", "bilgi_zamani": "t 15:00 UTC", "h": 5, "etki_bps_islem": "29,0 bps/aktif gün, 5 günlük (OOS 67,9)", "t_IS": 0.64, "t_OOS": 3.64, "oos_sharpe_net": "1,69 (dm 1,63)", "oos_bh_sharpe": "0,53", "yilda_islem": 11.2, "ana_zayiflik": "h1'in tutuş varyantı, bağımsız değil; IS IC t 0,64; 2017-19 negatif; OOS yalnız 278 aktif güne dayanıyor.", "islenebilirlik": "Uygulanabilir; 2026'da pasif."}, {"id": "A1-VOLREG5-h5", "aile": "a1", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "q<1/3: sign(ln P_t/P_t-5); q>2/3: −sign(...); aksi 0; h=5 kademeli.", "bilgi_zamani": "t 15:00 UTC", "h": 5, "etki_bps_islem": "—", "t_IS": 2.78, "t_OOS": 2.24, "oos_sharpe_net": "1,03 (dm 1,02)", "oos_bh_sharpe": "0,53", "yilda_islem": 21.5, "ana_zayiflik": "LOWMOM dışı kısmı (çalkantıda dönüş) 2010-16'da ve 2022-23'te negatif; k=10'da çöküyor.", "islenebilirlik": "Kullanılabilir içeriği LOWMOM ile aynı; 2026'da yalnız çürük bacak aktif olurdu."}, {"id": "A1-TAILMOM-BB-h1", "aile": "a1", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "Bollinger z(20,2)>2 uzun, <−2 kısa, 1 gün.", "bilgi_zamani": "t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": 1.64, "t_OOS": 0.75, "oos_sharpe_net": "0,40 (dm 0,34)", "oos_bh_sharpe": "0,53", "yilda_islem": 13.6, "ana_zayiflik": "BB dönüş kuralının aynası; hiçbir dönemde t>2 değil; eşiğe duyarlı.", "islenebilirlik": "Tek başına işlem sinyali değil."}, {"id": "A1-REV-NEG", "aile": "a1", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "Kısa vadeli dönüş kuralları (BB±2 ters, 2σ ters, RSI2, Connors, 3+ gün seri ters, −sign(r1)).", "bilgi_zamani": "t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": -2.15, "t_OOS": -1.14, "oos_sharpe_net": "−0,57", "oos_bh_sharpe": "0,53", "yilda_islem": 13.6, "ana_zayiflik": "Negatif bulgu: dönüş kuralları üç dönemde de zarar; kayıp kısmen maliyetten.", "islenebilirlik": "KULLANMA (ortalama düşürme/dip alma işe yaramıyor)."}, {"id": "A1-TREND-MA50", "aile": "a1", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "P15>SMA50 uzun, değilse kısa, 1 gün.", "bilgi_zamani": "t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": -0.72, "t_OOS": 1.82, "oos_sharpe_net": "0,96 (dm 0,83)", "oos_bh_sharpe": "0,53", "yilda_islem": 17.0, "ana_zayiflik": "OOS kârı 2022-26 boğa drift'i; yıl ortalaması çıkarınca Sharpe 0,03; IS negatif.", "islenebilirlik": "Trend filtresi yön kenarı vermiyor."}, {"id": "a2_c1_S2_gece", "aile": "a2", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "ORTA", "adv": "DUSUK", "kural": "VİOP akşam seansı kapanışında (23:00 TSİ) uzun, ertesi sabah normal seans açılışında (09:30 TSİ) kapat.", "bilgi_zamani": "t-1 20:00 → t 00:00 UTC takvim etkisi", "h": 0, "etki_bps_islem": "~3 bps/gün brüt", "t_IS": 3.6, "t_OOS": 4.57, "oos_sharpe_net": "0,28 (gerçek çıkış saatiyle ≈0)", "oos_bh_sharpe": "—", "yilda_islem": 252.0, "ana_zayiflik": "Brüt kenar ≈ maliyet (5 bps); gerçekçi akşam maliyetiyle negatif; drift'in tahakkuk zamanı, lead-lag değil.", "islenebilirlik": "İŞLENEMEZ: kapanıştan kapanışa değil."}, {"id": "a2_c2_baz_donus", "aile": "a2", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "ORTA", "adv": "DUSUK", "kural": "eb_t-1 (uzlaşma−spot−taşıma) üst tercil: VİOP kısa+spot uzun (alt tercil tersi), h=5; hedef VİOP−spot.", "bilgi_zamani": "t-1 15:10 UTC", "h": 5, "etki_bps_islem": "—", "t_IS": -1.9, "t_OOS": -3.08, "oos_sharpe_net": "0,39 (fonlama sonrası ≈0)", "oos_bh_sharpe": "—", "yilda_islem": 36.0, "ana_zayiflik": "İstatistik gerçek ama ekonomik değer yok: OOS kârı taşıma drift'i; düşük hacimli günlerde güçlü (bayat uzlaşma).", "islenebilirlik": "İŞLENEMEZ: göreli (spot bacak gerekir)."}, {"id": "a2_c3_kis_fiks", "aile": "a2", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "Kış (GMT) günlerinde 14→15 UTC işareti yönünde, h=1.", "bilgi_zamani": "t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": 1.63, "t_OOS": 2.08, "oos_sharpe_net": "1,02", "oos_bh_sharpe": "0,53", "yilda_islem": 100.0, "ana_zayiflik": "30 saat×mevsim testinin en iyisi; erken dönemde yok; IS Sharpe 0,13; yaz fiks saati 0.", "islenebilirlik": "—"}, {"id": "a2_c4_C_pre_h3", "aile": "a2", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "sign(ln p15/p00), 3 gün.", "bilgi_zamani": "t 15:00 UTC", "h": 3, "etki_bps_islem": "—", "t_IS": 1.1, "t_OOS": 2.11, "oos_sharpe_net": "0,30", "oos_bh_sharpe": "0,53", "yilda_islem": 83.0, "ana_zayiflik": "Yalnız h=3'te tepe; 2010-16'da IC 0; kâr 2025-26'dan.", "islenebilirlik": "—"}, {"id": "a2_c5_NY_sabahi", "aile": "a2", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "|ln p15/p12|>IS q90 ise işaret yönünde 5 gün.", "bilgi_zamani": "t 15:00 UTC", "h": 5, "etki_bps_islem": "—", "t_IS": 0.33, "t_OOS": 2.33, "oos_sharpe_net": "0,77", "oos_bh_sharpe": "0,53", "yilda_islem": 31.0, "ana_zayiflik": "IS'te hiçbir eşikte yok; erken dönemde ters; 2022-23'e yaslanıyor.", "islenebilirlik": "—"}, {"id": "A3_QEND_h3", "aile": "a3", "cephe": "VIOP", "ayakta": "EVET (DÜŞÜK'lerin en iyisi)", "son_guven": "DUSUK", "rep": "ORTA", "adv": "DUSUK", "kural": "Mar/Haz/Eyl/Ara'nın sondan 2. VİOP işlem günü uzlaşmasında UZUN, 3 VİOP günü sonra (yeni çeyreğin 2. günü) kapat; diğer günler nakit.", "bilgi_zamani": "Takvim (önceden bilinir)", "h": 3, "etki_bps_islem": "+76,7 bps/olay (diğer günler +8,3; fark +68,5)", "t_IS": 2.13, "t_OOS": 2.26, "oos_sharpe_net": "0,99 (dm 0,87)", "oos_bh_sharpe": "0,53", "yilda_islem": 4.0, "ana_zayiflik": "39 olay; sağlam kısım yıl dönümü; Mar/Haz/Eyl 2010-16'da yok (t 0,61); 2017-19 ve 2022-23 ≈0; BH q 0,06.", "islenebilirlik": "Uygulanabilir, çok düşük devir; tek başına küçük katkı."}, {"id": "A3_NFP_MOM_h1", "aile": "a3", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "NFP günü (VİOP açık, yarım gün değil) x=sign(ln p15/p12); uzlaşmada x yönünde gir, ertesi VİOP günü çık.", "bilgi_zamani": "t 15:00 UTC (NFP 12:30/13:30 UTC)", "h": 1, "etki_bps_islem": "+18 bps/olay (IS +5,7, OOS +31)", "t_IS": 0.55, "t_OOS": 3.46, "oos_sharpe_net": "0,90", "oos_bh_sharpe": "0,53", "yilda_islem": 11.4, "ana_zayiflik": "IS'te yok (t 0,47); 2010-21 boyunca sıfır/ters; en iyi 5 olay çıkınca etki kayboluyor; CPI'da ters işaret.", "islenebilirlik": "Uygulanabilir ama yalnız OOS'ta bulunmuş; izleme listesi."}, {"id": "A3_NFP_MOM_h3", "aile": "a3", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "A3_NFP_MOM_h1 ile aynı, 3 gün tut.", "bilgi_zamani": "t 15:00 UTC", "h": 3, "etki_bps_islem": "+35 bps/olay", "t_IS": 0.99, "t_OOS": 2.64, "oos_sharpe_net": "1,07", "oos_bh_sharpe": "0,53", "yilda_islem": 11.4, "ana_zayiflik": "h1 ile aynı sinyal; fazladan iki gün t 1,53; OOS 2024-26'ya dayanıyor.", "islenebilirlik": "Bağımsız değil."}, {"id": "A3_OG_EXPIRY_DAY", "aile": "a3", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "COMEX OG vade gününden önceki uzlaşmada KISA, vade günü uzlaşmasında çık.", "bilgi_zamani": "Takvim", "h": 1, "etki_bps_islem": "−23,8 bps/olay", "t_IS": -0.95, "t_OOS": -3.11, "oos_sharpe_net": "1,03", "oos_bh_sharpe": "0,53", "yilda_islem": 12.0, "ana_zayiflik": "17 yıllık spotta etki 0 (t −0,35); tek günlük sivri tepe; 2024-26 birkaç düşüş günü.", "islenebilirlik": "—"}, {"id": "A3_BAYRAM_POST", "aile": "a3", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "Bayram sonrası ilk VİOP günü KISA, 5 gün.", "bilgi_zamani": "Takvim", "h": 5, "etki_bps_islem": "−78 bps/olay (düzeltilmiş)", "t_IS": -2.1, "t_OOS": -2.08, "oos_sharpe_net": "0,43", "oos_bh_sharpe": "0,53", "yilda_islem": 2.2, "ana_zayiflik": "Kod hatası (sahte olay); 20 olay; erken dönemde ters; mekanizma yok.", "islenebilirlik": "—"}, {"id": "A3_JANUARY", "aile": "a3", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "Ocak'ta her gün uzun.", "bilgi_zamani": "Takvim", "h": 1, "etki_bps_islem": "+15 bps/gün fark", "t_IS": 0.72, "t_OOS": 2.0, "oos_sharpe_net": "0,84", "oos_bh_sharpe": "0,51", "yilda_islem": 1.0, "ana_zayiflik": "12 ay testinden biri; Ocak 2026 ve 2017 çıkınca t 0,94.", "islenebilirlik": "—"}, {"id": "A4-C1_GDXJ_artik_h3", "aile": "a4", "cephe": "VIOP", "ayakta": "EVET (DÜŞÜK'lerin en iyisi)", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "e=r_GDXJ−β60·r_GLD (Yahoo adjclose, t-2→t-1 ABD kapanışı, VİOP satırlarında fark; β önceki 60 gün); z=e/std(e, önceki 120 gün). z>0,43 UZUN, z<−0,43 KISA; 3 gün kademeli.", "bilgi_zamani": "t-1 16:00 ET ABD kapanışı (cutoff'tan 18-19 saat önce)", "h": 3, "etki_bps_islem": "12,1 bps/aktif gün, 3 günlük (OOS 16,9)", "t_IS": 2.53, "t_OOS": 2.63, "oos_sharpe_net": "0,72 (dm 0,76)", "oos_bh_sharpe": "0,53", "yilda_islem": 34.0, "ana_zayiflik": "Kanıt sıra IC'sinde; kural P&L t tam 1,64/IS 0,53; IS gücü 2017'den; 2025-26 IC t 0,86; 2010-16 spotta yok; ABD takvimiyle kurunca OOS 0,52.", "islenebilirlik": "Uygulanabilir; ETF tarafındaki E2-C2j ile aynı öngörücü (sıra korelasyonu 0,87)."}, {"id": "A4-C1b_madenci_kompozit_h3", "aile": "a4", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "GDX, GDXJ, RING ve 7'li sepet artık z ortalamasının işareti, 3 gün.", "bilgi_zamani": "t-1 ABD kapanışı", "h": 3, "etki_bps_islem": "—", "t_IS": 2.27, "t_OOS": 2.43, "oos_sharpe_net": "0,38", "oos_bh_sharpe": "0,53", "yilda_islem": 237.0, "ana_zayiflik": "OOS backtest t 0,83; kısa bacak her iki dönemde zarar; kompozit tek madenciden zayıf.", "islenebilirlik": "A4-C1'in varyantı."}, {"id": "A4-C2_egri_d5_h1", "aile": "a4", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "pos=clip(z(Δ5(10y−2y))/2,−1,1), 1 gün.", "bilgi_zamani": "t-1 22:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": 1.87, "t_OOS": 2.58, "oos_sharpe_net": "0,65", "oos_bh_sharpe": "0,53", "yilda_islem": 243.0, "ana_zayiflik": "Getiri 2020 ve 2025-26'dan; 2013-16'da anlamlı ters (t −2,09).", "islenebilirlik": "—"}, {"id": "A4-C3_dxy_sapma_h1", "aile": "a4", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "−clip(z(β250·r_DXY − r_XAU, t-1 20:00→t 15:00)/2), 1 gün.", "bilgi_zamani": "t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": -2.17, "t_OOS": -1.65, "oos_sharpe_net": "0,27", "oos_bh_sharpe": "0,53", "yilda_islem": 205.0, "ana_zayiflik": "OOS t −1,65; 10 bps'de negatif.", "islenebilirlik": "—"}, {"id": "A4-D1_dolar_emilim", "aile": "a4", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "TANI: dolar t-1 kapanışında yükseldiyse altın [t-1 20:00→t 15:00] penceresinde yükselir.", "bilgi_zamani": "t-1 22:00 UTC", "h": 0, "etki_bps_islem": "—", "t_IS": 1.61, "t_OOS": 2.23, "oos_sharpe_net": "—", "oos_bh_sharpe": "—", "yilda_islem": 0.0, "ana_zayiflik": "Etki giriş öncesi pencerede; doğrusal t 1,1.", "islenebilirlik": "İŞLENEMEZ (pencere VİOP girişinden önce kapanıyor)."}, {"id": "A4-C4_reel_dolar_artik", "aile": "a4", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "log xau ~ real10 + log DXY artık z, 1 gün.", "bilgi_zamani": "t 15:00 / t-1", "h": 1, "etki_bps_islem": "—", "t_IS": 1.62, "t_OOS": 1.7, "oos_sharpe_net": "0,36 (dm 0,06)", "oos_bh_sharpe": "0,53", "yilda_islem": 218.0, "ana_zayiflik": "Drift ve momentum vekili.", "islenebilirlik": "—"}, {"id": "a5_C1_makrogunu_artik_h3", "aile": "a5", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "|b'x12/σ|>1,096 (büyük ABD makro hareketi) günlerinde 12→15 UTC altın artığının işareti yönünde, 3 gün.", "bilgi_zamani": "t 15:00 UTC", "h": 3, "etki_bps_islem": "—", "t_IS": 2.1, "t_OOS": 1.93, "oos_sharpe_net": "0,60", "oos_bh_sharpe": "0,53", "yilda_islem": 37.0, "ana_zayiflik": "Spesifikasyona duyarlı (W120/W250'de zayıf); P&L t 1,3; OOS kazanç uzun bacakta; 2019-07 öncesinde yok.", "islenebilirlik": "Uygulanabilir ama OOS t<2."}, {"id": "a5_C4_londra_ny_artik_h1", "aile": "a5", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "|e07|>1 ise 07→15 UTC artık işareti yönünde, 1 gün.", "bilgi_zamani": "t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": 2.66, "t_OOS": 1.38, "oos_sharpe_net": "0,88", "oos_bh_sharpe": "0,53", "yilda_islem": 55.0, "ana_zayiflik": "Tamamen eşik seçimine bağlı (sign kuralı OOS 0,04); erken vekilde sıfır.", "islenebilirlik": "—"}, {"id": "a5_B1_altin_gumus_5g", "aile": "a5", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "−sign(5 günlük altın−gümüş göreli getiri), 1 gün.", "bilgi_zamani": "t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": -0.68, "t_OOS": -2.82, "oos_sharpe_net": "1,12", "oos_bh_sharpe": "0,53", "yilda_islem": 99.0, "ana_zayiflik": "Post-hoc; IS'te yok; Pearson t −0,56; 2022 sonrası rejim.", "islenebilirlik": "—"}, {"id": "a5_yetisme_YOK", "aile": "a5", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "Makroya eksik tepki → yetişme.", "bilgi_zamani": "t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": -2.21, "t_OOS": -0.98, "oos_sharpe_net": "−0,64", "oos_bh_sharpe": "—", "yilda_islem": 0.0, "ana_zayiflik": "Negatif bulgu: yetişme yok, işaret ters (sürme).", "islenebilirlik": "—"}, {"id": "a5_15to15_artik_YOK", "aile": "a5", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "15→15 yuvarlanan-beta artığı dönüşü (11 model).", "bilgi_zamani": "t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": 2.49, "t_OOS": -0.41, "oos_sharpe_net": "−0,81", "oos_bh_sharpe": "—", "yilda_islem": 257.0, "ana_zayiflik": "Negatif bulgu: 297 testte |t|>2 oranı %2.", "islenebilirlik": "—"}, {"id": "a5_oran_zskor_YOK", "aile": "a5", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "Altın/gümüş, altın/platin oran z-skoru dönüşü.", "bilgi_zamani": "t 15:00 UTC / t-1", "h": 5, "etki_bps_islem": "—", "t_IS": 2.11, "t_OOS": -0.17, "oos_sharpe_net": "—", "oos_bh_sharpe": "—", "yilda_islem": 0.0, "ana_zayiflik": "IS ve OOS işaretleri ters.", "islenebilirlik": "—"}, {"id": "a6_cn_gold_res_comp_h5", "aile": "a6", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "Çin altın hisseleri (600547.SS, 1818.HK, 2899.HK) spot altın ve yerel endeks artıkları ortalamasının işareti, 5 gün kademeli.", "bilgi_zamani": "t 07:00/08:10 UTC", "h": 5, "etki_bps_islem": "—", "t_IS": 0.37, "t_OOS": 3.4, "oos_sharpe_net": "1,41 (REP 1,26)", "oos_bh_sharpe": "0,51", "yilda_islem": 121.0, "ana_zayiflik": "OOS dahil tam örneklemle seçildi; IS 2017-21 ve 2010-16'da t≈0; kanıt 2024-26'da.", "islenebilirlik": "Uygulanabilir ama yalnız OOS'ta bulunmuş; izleme listesi."}, {"id": "a6_res600547_h5", "aile": "a6", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "Shandong Gold artığı işareti, 5 gün.", "bilgi_zamani": "t 07:00 UTC", "h": 5, "etki_bps_islem": "—", "t_IS": 0.86, "t_OOS": 3.08, "oos_sharpe_net": "1,02", "oos_bh_sharpe": "0,51", "yilda_islem": 119.0, "ana_zayiflik": "Ana iddiayla aynı kanıt; 2022-23 negatif.", "islenebilirlik": "Varyant."}, {"id": "a6_hsi_h3", "aile": "a6", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "sign(r_HSI,t), 3 gün.", "bilgi_zamani": "t 08:10 UTC", "h": 3, "etki_bps_islem": "—", "t_IS": 2.37, "t_OOS": 2.11, "oos_sharpe_net": "0,24", "oos_bh_sharpe": "0,51", "yilda_islem": 132.0, "ana_zayiflik": "Spot altın kontrolüyle kayboluyor (OOS t 0,56).", "islenebilirlik": "—"}, {"id": "a6_viop_oi5_x_trend_h5", "aile": "a6", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "−sign(OI 5g % × sign(r5)), 5 gün.", "bilgi_zamani": "t-1 bülten", "h": 5, "etki_bps_islem": "—", "t_IS": -3.61, "t_OOS": -0.62, "oos_sharpe_net": "0,38", "oos_bh_sharpe": "0,51", "yilda_islem": 72.0, "ana_zayiflik": "Etki tamamen IS'te.", "islenebilirlik": "—"}, {"id": "a6_gpr_z250_h5", "aile": "a6", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "−sign(GPR z250), 5 gün.", "bilgi_zamani": "D+1 23:00 varsayımı", "h": 5, "etki_bps_islem": "—", "t_IS": -1.86, "t_OOS": -1.63, "oos_sharpe_net": "0,70", "oos_bh_sharpe": "0,51", "yilda_islem": 87.0, "ana_zayiflik": "Yayın gecikmesine karşı istikrarsız; gerçek zamanlı veri değil.", "islenebilirlik": "—"}, {"id": "a6_cn_res_sum5_h1", "aile": "a6", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "Çin artık bileşiğinin 5 günlük toplamının işareti, 1 gün.", "bilgi_zamani": "t 07:00/08:10 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": 0.9, "t_OOS": 3.64, "oos_sharpe_net": "0,97", "oos_bh_sharpe": "0,51", "yilda_islem": 50.0, "ana_zayiflik": "Post-hoc varyant; aynı veri.", "islenebilirlik": "Varyant."}, {"id": "a7_C1_usdtry_carry", "aile": "a7", "cephe": "VIOP-USDTRY", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "ORTA", "adv": "DUSUK", "kural": "F_USDTRY'de pos=sign(20g ort ΔlnUSDTRY − 1,4×baz/dte), 1 gün (hedef USDTRY, ALTIN DEĞİL).", "bilgi_zamani": "t-1 15:00/15:10", "h": 1, "etki_bps_islem": "—", "t_IS": 3.21, "t_OOS": 2.48, "oos_sharpe_net": "1,19 (dm 0,88)", "oos_bh_sharpe": "hep kısa +0,55", "yilda_islem": 20.5, "ana_zayiflik": "Fiilen 20g kur momentumu; PnL birkaç epizotta; 2024-26'da zamanlama katkısı negatif, kâr carry'den.", "islenebilirlik": "Cephe dışı (altın değil)."}, {"id": "a7_C2_fx_drift", "aile": "a7", "cephe": "VIOP-USDTRY", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "Yönetilen kurda USDTRY h günlük beklenen değişim = h × 20g ortalama.", "bilgi_zamani": "t 15:00", "h": 5, "etki_bps_islem": "—", "t_IS": null, "t_OOS": 2.71, "oos_sharpe_net": "—", "oos_bh_sharpe": "—", "yilda_islem": 0.0, "ana_zayiflik": "Sabit uzun dönem drift eşdeğer; h5 sonucu 2026'ya dayanıyor.", "islenebilirlik": "Tahmin, işlem kuralı değil."}, {"id": "a7_C3_gram_prim_donus", "aile": "a7", "cephe": "VIOP-gram", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "z(gram primi, t-1)>1 gram kısa + ons ve USDTRY uzun (tersi), 3 gün, 3 bacak 15 bps.", "bilgi_zamani": "t-1 15:10", "h": 3, "etki_bps_islem": "—", "t_IS": -2.93, "t_OOS": -5.79, "oos_sharpe_net": "−0,77", "oos_bh_sharpe": "—", "yilda_islem": 75.0, "ana_zayiflik": "İstatistik çok güçlü (t −6,1) ama 3 bacak maliyetiyle net zarar.", "islenebilirlik": "İŞLENEMEZ (net zarar); yalnız araç seçiminde bilgi."}, {"id": "a7_C4_xau_after_usdtry", "aile": "a7", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "−sign(VİOP USDTRY getirisi t-1), 3 gün.", "bilgi_zamani": "t-1 15:10", "h": 3, "etki_bps_islem": "—", "t_IS": -1.56, "t_OOS": -1.45, "oos_sharpe_net": "0,21 (dm −0,01)", "oos_bh_sharpe": "0,53", "yilda_islem": 104.0, "ana_zayiflik": "Tek tepe; drift'ten.", "islenebilirlik": "—"}, {"id": "a7_C5_TR_sok", "aile": "a7", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "TL şoku ya da XU030<−%5 gününde ons kısa, 3 gün.", "bilgi_zamani": "t 15:00 / t-1", "h": 3, "etki_bps_islem": "−48 bps/olay", "t_IS": -2.29, "t_OOS": -1.48, "oos_sharpe_net": "0,45", "oos_bh_sharpe": "0,53", "yilda_islem": 11.8, "ana_zayiflik": "Kümeleme sonrası anlamsız; ~30 bağımsız epizot.", "islenebilirlik": "—"}, {"id": "a7_C6_xautry_oi", "aile": "a7", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "sign(ΔlnOI XAUTRYM, t-1), 3 gün.", "bilgi_zamani": "t-1 bülten", "h": 3, "etki_bps_islem": "—", "t_IS": 0.38, "t_OOS": 2.62, "oos_sharpe_net": "0,28", "oos_bh_sharpe": "0,53", "yilda_islem": 109.0, "ana_zayiflik": "IS'te sıfır; roll sıçramaları.", "islenebilirlik": "—"}, {"id": "A8-1_ML", "aile": "a8", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "103 öznitelikli ridge/lasso/EN/HGB/RF/topluluk, aylık yeniden eğitim.", "bilgi_zamani": "≤ t 15:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": 1.08, "t_OOS": 1.17, "oos_sharpe_net": "−0,91", "oos_bh_sharpe": "0,53", "yilda_islem": 0.0, "ana_zayiflik": "Negatif bulgu: 0/27 pozitif OOS R².", "islenebilirlik": "—"}, {"id": "A8-2_nom2_d5", "aile": "a8", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "−sign(Δ5 ABD 2y getirisi), 1 gün.", "bilgi_zamani": "t-1 22:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": -0.26, "t_OOS": -2.48, "oos_sharpe_net": "0,66", "oos_bh_sharpe": "0,53", "yilda_islem": 57.0, "ana_zayiflik": "OOS 2026'dan; IS'te yok; 309 testten seçildi.", "islenebilirlik": "—"}, {"id": "A8-3_seg_last1h_h5", "aile": "a8", "cephe": "VIOP", "ayakta": "EVET (DÜŞÜK'lerin en iyisi)", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "pos=sign(ln(p15/p14)) (spot 14:00→15:00 UTC); t uzlaşmasında gir, 5 gün kademeli; TR yarım günleri hariç.", "bilgi_zamani": "t 15:00 UTC", "h": 5, "etki_bps_islem": "10,3 bps/aktif gün, 5 günlük (OOS 13,7)", "t_IS": 1.32, "t_OOS": 2.05, "oos_sharpe_net": "0,63 (dm 0,57)", "oos_bh_sharpe": "0,53", "yilda_islem": 25.0, "ana_zayiflik": "2010-16'da h1-h3'te yok; 2024 Sharpe −2,31; kazanç 2026'ya yığılı; kısa bacak her dönemde zarar; 309 testten seçildi.", "islenebilirlik": "Uygulanabilir; Pazartesi 14-15 UTC verisi gerekir."}, {"id": "A8-4_2s10s_d5", "aile": "a8", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "sign(Δ5(10y−2y)), 1 gün.", "bilgi_zamani": "t-1 22:00 UTC", "h": 1, "etki_bps_islem": "—", "t_IS": 1.5, "t_OOS": 2.53, "oos_sharpe_net": "0,85", "oos_bh_sharpe": "0,53", "yilda_islem": 58.0, "ana_zayiflik": "Bilgi −Δ2y bacağından; 2025-26'ya yığılı; erken dönemde ters.", "islenebilirlik": "—"}, {"id": "A8-5_C1_combo", "aile": "a8", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "6 a priori z-skorunun eşit ağırlıklı ortalamasının işareti, 1 gün.", "bilgi_zamani": "≤ t 15:00", "h": 1, "etki_bps_islem": "—", "t_IS": -0.65, "t_OOS": 1.85, "oos_sharpe_net": "0,90", "oos_bh_sharpe": "0,53", "yilda_islem": 36.0, "ana_zayiflik": "Yıl içi IC 7/9 yılda negatif; değer yavaş trendden.", "islenebilirlik": "—"}, {"id": "A8-6_RF_V2_h3", "aile": "a8", "cephe": "VIOP", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "Spot panelde eğitilen RF tahmininin işareti, 3 gün.", "bilgi_zamani": "≤ t 15:00", "h": 3, "etki_bps_islem": "—", "t_IS": -0.92, "t_OOS": 2.11, "oos_sharpe_net": "0,80", "oos_bh_sharpe": "0,53", "yilda_islem": 24.0, "ana_zayiflik": "Tohuma duyarlı; VAL'de ters; şans düzeyinde.", "islenebilirlik": "—"}, {"id": "E1-C1_madenci_takvim_sepeti", "aile": "e1", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "ORTA", "adv": "DUSUK", "kural": "Ayın ilk işlem günü ∪ NYSE tatil öncesi son gün: bir önceki kapanışta GDXJ al, olay günü kapanışında sat.", "bilgi_zamani": "Takvim", "h": 1, "etki_bps_islem": "+59,3 bps/olay (diğer −4,3)", "t_IS": 2.62, "t_OOS": 3.41, "oos_sharpe_net": "1,08 (10 bps)", "oos_bh_sharpe": "—", "yilda_islem": 18.6, "ana_zayiflik": "144 testten sonradan kurulan sepet; ayın ilk günü yarısı aynı gün GLD kontrolüyle kayboluyor; 1983-2007'de t 0,99.", "islenebilirlik": "Sağlam kısmı E1-C2 (tatil öncesi)."}, {"id": "E1-C2_GDX_tatil_oncesi", "aile": "e1", "cephe": "ETF", "ayakta": "EVET (ORTA)", "son_guven": "ORTA", "rep": "ORTA", "adv": "ORTA", "kural": "NYSE tatilinden önceki son işlem gününden bir önceki kapanışta GDX al, tatil öncesi gün kapanışında sat (yalnız uzun).", "bilgi_zamani": "Takvim (önceden bilinir)", "h": 1, "etki_bps_islem": "+47,3 bps/olay (diğer −0,2)", "t_IS": 1.71, "t_OOS": 2.45, "oos_sharpe_net": "0,75 (10 bps; dm 0,65)", "oos_bh_sharpe": "0,61", "yilda_islem": 9.3, "ana_zayiflik": "IS t 1,71<2; global q 0,52; aynı gün GLD+SPY kontrolüyle 20 bps (t 2,0); ortalamanın 2/3'ü en iyi 10 günden; 1983-2007 madenci sepetinde 35 bps (t 2,16) kısmi teyit.", "islenebilirlik": "Midas'ta uygulanabilir (yılda ~9 işlem); açılış/kapanış emri gerekir."}, {"id": "E1-C3_GDX_5gun_dusus", "aile": "e1", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "≥5 gün üst üste düşüş sonrası GDX al, 1 gün.", "bilgi_zamani": "t-1 kapanış", "h": 1, "etki_bps_islem": "+76,6 bps/olay", "t_IS": 2.07, "t_OOS": 2.98, "oos_sharpe_net": "0,78", "oos_bh_sharpe": "—", "yilda_islem": 3.4, "ana_zayiflik": "1.046 testin beklenen maksimumu; eşik 4/6'da çöküyor; GDXJ'de yok.", "islenebilirlik": "—"}, {"id": "E1-C4_GLD_Ocak", "aile": "e1", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "Aralık son günü GLD al, Ocak son günü sat.", "bilgi_zamani": "Takvim", "h": 1, "etki_bps_islem": "+17 bps/gün", "t_IS": 2.22, "t_OOS": 1.19, "oos_sharpe_net": "0,59", "oos_bh_sharpe": "0,81", "yilda_islem": 1.0, "ana_zayiflik": "48 testin en iyisi; 2001-07'de yok.", "islenebilirlik": "—"}, {"id": "E1-C5_GLD_BollZ_alt", "aile": "e1", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "z(20,2)_t-1<−2 ise GLD al, 5 gün.", "bilgi_zamani": "t-1 kapanış", "h": 5, "etki_bps_islem": "+63,9 bps/olay", "t_IS": 0.9, "t_OOS": 2.52, "oos_sharpe_net": "0,70", "oos_bh_sharpe": "—", "yilda_islem": 2.2, "ana_zayiflik": "Parametreye duyarlı; IS'te yok.", "islenebilirlik": "—"}, {"id": "E1-C6_GLD_gece", "aile": "e1", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "DUSUK", "adv": "YOK", "kural": "Her gün kapanışta al, açılışta sat.", "bilgi_zamani": "—", "h": 1, "etki_bps_islem": "—", "t_IS": 1.08, "t_OOS": 3.37, "oos_sharpe_net": "−0,79", "oos_bh_sharpe": "—", "yilda_islem": 252.0, "ana_zayiflik": "Başabaş maliyet 4-7 bps; kısmen mekanik.", "islenebilirlik": "İŞLENEMEZ (kapanıştan kapanışa değil, maliyet)."}, {"id": "E2-C2j_GDXJ_artik_h3", "aile": "e2", "cephe": "ETF", "ayakta": "EVET (ORTA)", "son_guven": "ORTA", "rep": "ORTA", "adv": "ORTA", "kural": "e=r_GDXJ−b_GLD·r_GLD−b_SPY·r_SPY (250 günlük yuvarlanan OLS, beta_t-1; getiriler t-2→t-1 kapanış); x=e_t-1 > IS (2008-17) %70 kantili (≈+0,67%) ise GDXJ'yi t kapanışında al, 3 gün kademeli; aksi nakit.", "bilgi_zamani": "t-1 16:00 ET kapanışı (~23 saat önce)", "h": 3, "etki_bps_islem": "48,5 bps/aktif gün, 3 günlük (OOS 53,1)", "t_IS": 1.9, "t_OOS": 3.04, "oos_sharpe_net": "0,64 log / 0,81 basit", "oos_bh_sharpe": "0,31 log / 0,54 basit", "yilda_islem": 16.9, "ana_zayiflik": "IS t 1,90; geniş ızgarada dürüst IS seçimi OOS'u ≈0'a indiriyor; Bonferroni'de elenir; 2025-26 IC 0,03 (t 0,6); 2026 YTD ≈0.", "islenebilirlik": "Midas'ta uygulanabilir (yalnız uzun); JDST'li ters sürüm KULLANMA."}, {"id": "E2-C2_GDX_artik_h3", "aile": "e2", "cephe": "ETF", "ayakta": "EVET (ORTA)", "son_guven": "ORTA", "rep": "ORTA", "adv": "ORTA", "kural": "GDX'in GLD+SPY'ye göre 3 günlük artık toplamı (t-1'de biter) > IS %70 kantili ise GDX uzun 3 gün; aksi nakit.", "bilgi_zamani": "t-1 16:00 ET", "h": 3, "etki_bps_islem": "38,1 bps/aktif gün, 3 günlük (OOS 44,3)", "t_IS": 2.24, "t_OOS": 2.34, "oos_sharpe_net": "0,58 log / 0,71 basit", "oos_bh_sharpe": "0,41 log / 0,60 basit", "yilda_islem": 17.5, "ana_zayiflik": "2022+ B&H'yi geçmiyor (0,57'ye 0,58); 20 bps'de marjinal; C2j ile aynı fenomen.", "islenebilirlik": "Midas'ta uygulanabilir; C2j ile birlikte tek fenomen say."}, {"id": "E2-C1_madenci_oncu_GLD_h5", "aile": "e2", "cephe": "ETF", "ayakta": "EVET (ORTA)", "son_guven": "ORTA", "rep": "ORTA", "adv": "ORTA", "kural": "GDX'in GLD+SPY'ye göre 10 günlük artık toplamı > IS %80 kantili ise GLD uzun 5 gün kademeli; aksi nakit. Kaplama: GLD tut, yalnız < %20 kantilde nakit.", "bilgi_zamani": "t-1 16:00 ET", "h": 5, "etki_bps_islem": "58,4 bps/aktif gün, 5 günlük (OOS 55,3)", "t_IS": 3.46, "t_OOS": 1.94, "oos_sharpe_net": "0,73 log / 0,78 basit", "oos_bh_sharpe": "0,72 log / 0,81 basit", "yilda_islem": 5.6, "ana_zayiflik": "OOS t<2; yalnız uzun B&H'yi geçmiyor; 2018-24 IC≈0; kaplamanın üstünlüğü 2026 Oca-Şub çöküşüne dayanıyor.", "islenebilirlik": "Midas'ta uygulanabilir; en pratik kullanım GLD tutan için kaplama/risk filtresi."}, {"id": "E2-C5_asya_madenci_GLD", "aile": "e2", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "ORTA", "adv": "DUSUK", "kural": "Asya altın madencileri artığı (gün t HK/SS kapanışı) > IS %70 ise GLD uzun 3 gün.", "bilgi_zamani": "t 08:10 UTC", "h": 3, "etki_bps_islem": "—", "t_IS": 2.08, "t_OOS": 2.48, "oos_sharpe_net": "0,84", "oos_bh_sharpe": "0,72", "yilda_islem": 35.0, "ana_zayiflik": "2018-21 IC 0; 20 bps'de B&H altında; takvim hizasına duyarlı.", "islenebilirlik": "Teyit sinyali olabilir."}, {"id": "E2-C4_platin5_GDX", "aile": "e2", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "Platin vadelisi 5 günlük değişimi < IS %20 ise GDX uzun 3 gün.", "bilgi_zamani": "t-1 NYMEX kapanışı", "h": 3, "etki_bps_islem": "—", "t_IS": -1.99, "t_OOS": -3.87, "oos_sharpe_net": "0,69", "oos_bh_sharpe": "0,41", "yilda_islem": 23.0, "ana_zayiflik": "IS verisi kirli (PL=F 2008-09 sıçramaları); temiz PPLT ile IS t −0,7; mekanizma yok.", "islenebilirlik": "—"}, {"id": "E2-C3_altin_gunici_GDX", "aile": "e2", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "Altın [t-1 16:00→t 15:00 ET] < IS %30 ise GDX uzun 1 gün, > %70 kısa.", "bilgi_zamani": "t 15:00 ET", "h": 1, "etki_bps_islem": "—", "t_IS": -3.25, "t_OOS": -2.05, "oos_sharpe_net": "0,37 (yalnız uzun)", "oos_bh_sharpe": "0,41", "yilda_islem": 105.0, "ana_zayiflik": "Maliyet sonrası ≈0; 2013-17'de yoğun; E3-2 ile aynı.", "islenebilirlik": "—"}, {"id": "E3-1_altin_gunici_GDXJ_donus", "aile": "e3", "cephe": "ETF", "ayakta": "EVET (ORTA)", "son_guven": "ORTA", "rep": "YUKSEK", "adv": "ORTA", "kural": "m_t=ln(spot altın 15:00 ET_t / spot 16:00 ET_t-1). m_t<0 ise GDXJ'yi t kapanışında al, t+1 kapanışında sat (koşul sürerse koru); aksi nakit. ABD yarım günleri hariç.", "bilgi_zamani": "t 15:00 ET (19:00/20:00 UTC)", "h": 1, "etki_bps_islem": "18,0 bps/aktif gün (OOS 20,8)", "t_IS": -4.8, "t_OOS": -2.77, "oos_sharpe_net": "0,72 (10 bps) / 0,51 (20 bps)", "oos_bh_sharpe": "0,54", "yilda_islem": 66.0, "ana_zayiflik": "Maliyet sonrası B&H'ye göre alfa OOS anlamsız (10 bps t 1,41; 20 bps t 0,54); etki 2013-17'de yoğun; GDX'te 2008 −%48,7 (kriz kuyruğu); doğrusal etki zayıf.", "islenebilirlik": "Midas'ta uygulanabilir ama yılda ~66 gidiş-dönüş; 1,5 USD/emir küçük hesapta pahalı."}, {"id": "E3-2_altin_gunici_GDX", "aile": "e3", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "ORTA", "adv": "DUSUK", "kural": "E3-1 kuralı GDX'te.", "bilgi_zamani": "t 15:00 ET", "h": 1, "etki_bps_islem": "—", "t_IS": -3.48, "t_OOS": -1.87, "oos_sharpe_net": "0,61", "oos_bh_sharpe": "0,61", "yilda_islem": 65.0, "ana_zayiflik": "OOS t −1,87; B&H'ye eşit; 2008'de ters.", "islenebilirlik": "E3-1'in uzantısı."}, {"id": "E3-3_PHYS_GLD_iskonto", "aile": "e3", "cephe": "ETF", "ayakta": "araç seçimi kuralı (ORTA)", "son_guven": "ORTA", "rep": "ORTA", "adv": "ORTA", "kural": "z=[ln(PHYS/GLD)_t-1 − 60g medyan]/250g std. z<−1,5 iken altın alınacaksa PHYS'i seç (GLD yerine).", "bilgi_zamani": "t-1 16:00 ET", "h": 5, "etki_bps_islem": "z<−2: PHYS 5 günde +19-21 bps iyi", "t_IS": -4.31, "t_OOS": -4.87, "oos_sharpe_net": "geçiş stratejisi IR −0,29", "oos_bh_sharpe": "—", "yilda_islem": 7.0, "ana_zayiflik": "Ekonomik büyüklük küçük; PHYS fiyat adımı 3-9 bps; Midas'ta PHYS doğrulanmadı.", "islenebilirlik": "Yönlü sinyal değil; yalnız araç seçimi."}, {"id": "E3-4_CEF_artik", "aile": "e3", "cephe": "ETF", "ayakta": "araç seçimi kuralı (ORTA)", "son_guven": "ORTA", "rep": "ORTA", "adv": "ORTA", "kural": "CEF−(β_g·GLD+β_s·SLV) artık z (t-1) < −2 iken CEF'i tercih et.", "bilgi_zamani": "t-1 16:00 ET", "h": 5, "etki_bps_islem": "z<−2: 5 günde +32/+59 bps", "t_IS": -5.15, "t_OOS": -4.41, "oos_sharpe_net": "geçiş IR 0,07", "oos_bh_sharpe": "—", "yilda_islem": 2.0, "ana_zayiflik": "Asimetrik ve kararsız; geçiş kuralı OOS'ta başarısız.", "islenebilirlik": "Yalnız araç seçimi."}, {"id": "E3-5_GLDTR_prim", "aile": "e3", "cephe": "BIST-BYF", "ayakta": "HAYIR", "son_guven": "DUSUK", "rep": "DUSUK", "adv": "DUSUK", "kural": "GLDTR primi üst %20 iken BYF yerine VİOP/ETF seç.", "bilgi_zamani": "t ≤14:30 UTC", "h": 1, "etki_bps_islem": "−18 bps (h1)", "t_IS": null, "t_OOS": -3.85, "oos_sharpe_net": "—", "oos_bh_sharpe": "—", "yilda_islem": 0.0, "ana_zayiflik": "Veri kusuru (kış barları eksik); 3 yıl; IS yok.", "islenebilirlik": "Cephe dışı."}, {"id": "E3-6_GLD_akis", "aile": "e3", "cephe": "ETF", "ayakta": "HAYIR", "son_guven": "YOK", "rep": "YOK", "adv": "YOK", "kural": "GLD/GLDM pay akışları → getiri.", "bilgi_zamani": "t-1/t-2", "h": 1, "etki_bps_islem": "—", "t_IS": 0.47, "t_OOS": -1.3, "oos_sharpe_net": "0,21", "oos_bh_sharpe": "0,81", "yilda_islem": 0.0, "ana_zayiflik": "Akış fiyatı takip ediyor.", "islenebilirlik": "—"}];
+
+function num(id) {
+  const el = document.getElementById(id);
+  if (!el) return NaN;
+  // "4.065,68", "4065,68" ve "4065.68" biçimlerini kabul et
+  const raw = String(el.value).trim().replace(/\s/g, "");
+  let v;
+  if (raw.includes(",")) v = parseFloat(raw.replace(/\./g, "").replace(",", "."));
+  else v = parseFloat(raw);
+  return v;
+}
+const L = p => Math.log(1 + p / 100);         // yüzde → log getiri
+const fmt = (x, d = 2) => (x >= 0 ? "+" : "−") + Math.abs(x).toFixed(d).replace(".", ",");
+const pct = (x, d = 2) => (x >= 0 ? "+%" : "−%") + Math.abs(x).toFixed(d).replace(".", ",");
+const tr = (x, d = 2) => x.toLocaleString("tr-TR", { minimumFractionDigits: d, maximumFractionDigits: d });
+function setOut(id, cls, html) { const o = document.getElementById(id); o.className = "out" + (cls ? " " + cls : ""); o.innerHTML = html; }
+
+function calc() {
+  // 1. kural
+  const mp = num("m_prev"), mn = num("m_now");
+  if (isFinite(mp) && isFinite(mn) && mp > 0) {
+    const m = Math.log(mn / mp) * 100;
+    if (m < 0) setOut("o_m", "pos", `<b>Sinyal var.</b> Altın dünkü kapanıştan bu yana ${pct(m)}. GDXJ kolunu doldurun ya da tutun, ertesi kapanışta yeniden bakın.`);
+    else setOut("o_m", "", `<b>Sinyal yok.</b> Altın ${pct(m)}. Bu kol nakit; GDXJ tutuyorsanız kapanışta satın.`);
+  } else setOut("o_m", "", "İki fiyatı girin.");
+  // 2. kural (C2j)
+  const g1 = num("x1_gdxj"), d1 = num("x1_gld"), s1 = num("x1_spy");
+  if ([g1, d1, s1].every(isFinite)) {
+    const e = (L(g1) - 1.514 * L(d1) - 1.002 * L(s1)) * 100;
+    if (e > 0.667) setOut("o_c2j", "pos", `<b>2. kural: sinyal var.</b> GDXJ artığı ${pct(e)} (eşik +%0,67). GDXJ kolunu tamamen alın; son sinyalden 3 işlem günü sonra satın.`);
+    else setOut("o_c2j", "", `<b>2. kural: bugün sinyal yok.</b> Artık ${pct(e)} (eşik +%0,67). GDXJ tutuyorsanız son sinyal gününden 3 işlem günü geçtiyse satın.`);
+  } else setOut("o_c2j", "", "2. kural için GDXJ, GLD ve SPY'nin dünkü yüzde değişimini girin.");
+  // 3. kural (C2)
+  const g3 = num("x3_gdx"), d3 = num("x3_gld"), s3 = num("x3_spy");
+  if ([g3, d3, s3].every(isFinite)) {
+    const e = (L(g3) - 1.392 * L(d3) - 0.772 * L(s3)) * 100;
+    if (e > 0.806) setOut("o_c2", "pos", `<b>3. kural: sinyal var.</b> GDX 3 günlük artığı ${pct(e)} (eşik +%0,81). GDX kolunu tamamen alın; son sinyalden 3 işlem günü sonra satın.`);
+    else setOut("o_c2", "", `<b>3. kural: bugün sinyal yok.</b> Artık ${pct(e)} (eşik +%0,81).`);
+  } else setOut("o_c2", "", "3. kural için GDX, GLD ve SPY'nin son 3 günlük yüzde değişimini girin.");
+  // 4. kural (C1)
+  const g10 = num("x10_gdx"), d10 = num("x10_gld"), s10 = num("x10_spy");
+  if ([g10, d10, s10].every(isFinite)) {
+    const e = (L(g10) - 1.392 * L(d10) - 0.772 * L(s10)) * 100;
+    if (e > 2.515) setOut("o_c1", "pos", `<b>4. kural: sinyal var.</b> GDX 10 günlük artığı ${pct(e)} (eşik +%2,52). GLD kolunu tamamen alın; son sinyalden 5 işlem günü sonra satın.`);
+    else if (e < -4.022) setOut("o_c1", "neg", `<b>4. kural: risk uyarısı.</b> Artık ${pct(e)} (alt eşik −%4,02). GLD tutuyorsanız satın, 5 işlem günü sonra geri alın.`);
+    else setOut("o_c1", "", `<b>4. kural: bugün sinyal yok.</b> Artık ${pct(e)} (eşik +%2,52).`);
+  } else setOut("o_c1", "", "4. kural için GDX, GLD ve SPY'nin son 10 günlük yüzde değişimini girin.");
+  // VİOP B (A4-C1)
+  const vg = num("v_gdxj"), vd = num("v_gld");
+  if ([vg, vd].every(isFinite)) {
+    const e = (L(vg) - 1.996 * L(vd)) * 100;
+    if (e > 0.682) setOut("o_a4", "pos", `<b>B kuralı: bugün uzun sinyal.</b> Artık ${pct(e)} (eşik ±%0,68). Son 3 günün sayımına +1 ekleyin.`);
+    else if (e < -0.682) setOut("o_a4", "neg", `<b>B kuralı: bugün kısa sinyal.</b> Artık ${pct(e)}. Son 3 günün sayımına −1 ekleyin.`);
+    else setOut("o_a4", "", `<b>B kuralı: bugün sinyal yok.</b> Artık ${pct(e)} (eşik ±%0,68). Sayıma 0 ekleyin.`);
+  } else setOut("o_a4", "", "B kuralı için GDXJ ve GLD'nin dünkü yüzde değişimini girin.");
+  // VİOP C (son saat)
+  const p14 = num("v_p14"), p15 = num("v_p15");
+  if ([p14, p15].every(isFinite) && p14 > 0) {
+    const x = Math.log(p15 / p14) * 1e4;
+    if (x > 0) setOut("o_l1", "pos", `<b>C kuralı: bugün "yukarı".</b> Son saat ${fmt(x, 1)} bps. Son 5 günün sayımına +1 ekleyin.`);
+    else if (x < 0) setOut("o_l1", "neg", `<b>C kuralı: bugün "aşağı".</b> Son saat ${fmt(x, 1)} bps. Son 5 günün sayımına −1 ekleyin.`);
+    else setOut("o_l1", "", "<b>C kuralı: 0.</b> Fiyat değişmemiş.");
+  } else setOut("o_l1", "", "17:00 ve 18:00 fiyatlarını girin.");
+  // VİOP birleşik sayım
+  const sa = num("s_a"), sbu = num("s_bu"), sbd = num("s_bd"), scu = num("s_cu"), scd = num("s_cd"), sn = num("s_n");
+  if ([sa, sbu, sbd, scu, scd, sn].every(isFinite)) {
+    const B = (sbu - sbd) / 3, C = (scu - scd) / 5, A = sa, tot = (A + B + C + 0) / 4;
+    const k = Math.round(tot * sn);
+    const dir = k > 0 ? "uzun" : k < 0 ? "kısa" : "";
+    setOut("o_viop", k > 0 ? "pos" : k < 0 ? "neg" : "", `<b>Birleşik VİOP: ${fmt(tot, 2)} birim → ${k === 0 ? "pozisyon yok" : Math.abs(k) + " sözleşme " + dir}.</b> (A ${fmt(A, 0)}, B ${fmt(B, 2)}, C ${fmt(C, 2)}, D 0; toplam ÷ 4 × ${sn} sözleşme, yuvarlanmış.) Elinizdeki pozisyonla farkı 18:00–18:10'da işleyin.`);
+  } else setOut("o_viop", "", "Sayımları girin.");
+  // boyut
+  const eq = num("eq"), px = num("px"), fx = num("fx"), lev = num("lev");
+  if ([eq, px, fx, lev].every(isFinite) && px > 0 && fx > 0) {
+    const notional1 = px * fx;
+    const n = Math.floor(lev * eq / notional1);
+    const marg = n * px * 0.10 * fx, marg2 = n * px * 0.20 * fx;
+    const nom = n * notional1;
+    if (n < 1) setOut("o_size", "neg", `<b>1 sözleşme bile fazla.</b> 1 sözleşmenin değeri ≈${tr(notional1, 0)} TL. ${tr(lev, 1)} kat tavanla en az ≈${tr(notional1 / lev, 0)} TL özsermaye gerekir.`);
+    else setOut("o_size", "", `<b>En fazla ${n} sözleşme</b> (toplam değer ≈${tr(nom, 0)} TL). Teminat ≈${tr(marg, 0)} TL (aracı kurum %20 isterse ≈${tr(marg2, 0)} TL). 2026 oynaklığında 100 günden 1'inde 1 günlük kayıp ≈${tr(nom * 0.050, 0)} TL, 5 günlük ≈${tr(nom * 0.118, 0)} TL.`);
+  } else setOut("o_size", "", "Değerleri girin.");
+  const cap = num("etfcap");
+  if (isFinite(cap) && cap > 0) {
+    const kol = cap / 5;
+    const cost = 3 / kol * 100;
+    setOut("o_etf", cap < 5000 ? "neg" : "", `<b>Her kol: ${tr(kol, 0)} USD.</b> Bir alım+satımın komisyonu (2×1,5 USD) kolun %${tr(cost, 2)}'i. Aynı ETF'e düşen kolları tek emirde birleştirin (örneğin 1. ve 2. kuralın GDXJ'si).${cap < 5000 ? " Bu tutarda komisyon kuralın avantajını yer; yalnız 5. kuralı ya da 1 ve 5'i kullanın." : ""}`);
+  } else setOut("o_etf", "", "Tutarı girin.");
+}
+document.querySelectorAll("#hesap input, #boyut input").forEach(i => i.addEventListener("input", calc));
+
+// takvim
+const CAL = [["2026-11-10 Sal · 16:30", "ABD/risk", "ABD TÜFE (CPI)", "08:30 ET = 16:30 TSİ. VİOP karar anından (18:00 TSİ) ve A8-3 son saat penceresinden (17:00–18:00 TSİ) ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2026-11-24 Sal · 23:50", "ETF", "E1-C2 GİRİŞ (Şükran Günü 26.11 öncesi)", "GDX'i bugün kapanışa yakın al: 15:50–15:58 ET (23:50–23:58 TSİ). Çıkış 25.11.2026 Çar kapanışında."], ["2026-11-25 Çar · 23:50", "ETF", "E1-C2 ÇIKIŞ (Şükran Günü öncesi son gün)", "Dün alınan GDX'i bugün sat: 15:50–15:58 ET (23:50–23:58 TSİ)."], ["2026-11-26 Per", "NYSE", "NYSE tatili: Şükran Günü", "ABD ETF işlemi yok. Ertesi VİOP gününde A4-C1 için yeni ABD kapanışı yoksa yeni dilim 0."], ["2026-11-27 Cum · 20:50", "NYSE", "NYSE yarım günü (13:00 ET kapanış)", "Kapanış 13:00 ET (21:00 TSİ), karar 12:00 ET (20:00 TSİ). E3-1 devre dışı: yeni GDXJ yok; önceki seansın (25.11.2026 Çar) E3-1 GDXJ pozisyonu varsa 12:50–12:58 ET (20:50–20:58 TSİ; yarım gün, kapanış 13:00 ET) penceresinde satılır. E2 kademeli dilimler ve bütün emirler 12:50–12:58 ET'de."], ["2026-11-27 Cum", "VİOP", "A4-C1: yeni ABD kapanışı yok", "GDXJ/GLD getirisi 0 → e=0 → yeni dilim 0 (son ABD kapanışı 25.11.2026 Çar önceki VİOP gününde de kullanıldı)."], ["2026-12-04 Cum · 16:30", "ABD/risk", "ABD tarım dışı istihdam (NFP)", "08:30 ET = 16:30 TSİ. VİOP karar anından ve son saat penceresinden ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2026-12-09 Çar · 22:00", "ABD/risk", "FOMC faiz kararı (SEP)", "Karar 14:00 ET = 22:00 TSİ, basın toplantısı 22:30 TSİ. VİOP uzlaşmasından SONRA (akşam seansında oynaklık). ETF karar anından (15:00 ET = 23:00 TSİ) ÖNCE: E3-1 m değeri FOMC tepkisini içerir; emir penceresinde spread geniş olabilir, pozisyon boyutunu küçültmeyi düşün."], ["2026-12-10 Per · 16:30", "ABD/risk", "ABD TÜFE (CPI)", "08:30 ET = 16:30 TSİ. VİOP karar anından (18:00 TSİ) ve A8-3 son saat penceresinden (17:00–18:00 TSİ) ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2026-12-18 Cum", "ETF", "TAHMİNİ temettü (ex-date) SPY: ≈%0,25–0,3", "Bu günün yüzde değişimini TradingView'da temettü düzeltmeli oku (ADJ açık) ya da temettü yüzdesini değişime ekle; aksi halde ertesi günün E2/A4 artığı yanlış çıkar. Tarihi ihraççı sitesinden (vaneck.com, ssga.com) kontrol et."], ["2026-12-21 Pzt", "ETF", "TAHMİNİ temettü (ex-date) GDX ve GDXJ: GDX ≈%0,7–1,7, GDXJ ≈%0,5–2,6 (2024–25: %2,3–2,6)", "Bu günün yüzde değişimini TradingView'da temettü düzeltmeli oku (ADJ açık) ya da temettü yüzdesini değişime ekle; aksi halde ertesi günün E2/A4 artığı yanlış çıkar. Tarihi ihraççı sitesinden (vaneck.com, ssga.com) kontrol et."], ["2026-12-23 Çar · 23:50", "ETF", "E1-C2 GİRİŞ (Noel 25.12 öncesi)", "GDX'i bugün kapanışa yakın al: 15:50–15:58 ET (23:50–23:58 TSİ). Çıkış 24.12.2026 Per kapanışında."], ["2026-12-24 Per · 20:50", "ETF", "E1-C2 ÇIKIŞ (Noel öncesi son gün, ABD yarım günü)", "Dün alınan GDX'i bugün sat: 12:50–12:58 ET (20:50–20:58 TSİ; yarım gün, kapanış 13:00 ET). Yarım gün: E3-1 yeni pozisyon açmaz; dünkü E3-1 GDXJ'si de bu pencerede satılır."], ["2026-12-24 Per", "LBMA", "LBMA Gold Price: yalnız AM ihalesi (PM yok)", "Londra likiditesi düşük; VİOP açıksa uzlaşma fiyatı yine 18:00–18:10 VWAP'tır (vade sonu dışında etkisi yok)."], ["2026-12-24 Per · 20:50", "NYSE", "NYSE yarım günü (13:00 ET kapanış)", "Kapanış 13:00 ET (21:00 TSİ), karar 12:00 ET (20:00 TSİ). E3-1 devre dışı: yeni GDXJ yok; önceki seansın (23.12.2026 Çar) E3-1 GDXJ pozisyonu varsa 12:50–12:58 ET (20:50–20:58 TSİ; yarım gün, kapanış 13:00 ET) penceresinde satılır. E2 kademeli dilimler ve bütün emirler 12:50–12:58 ET'de."], ["2026-12-24 Per · 18:00–18:10", "VİOP", "F_XAUUSD1226 → sonraki vade ROLL penceresi başlıyor (24.12–29.12.2026)", "Açık pozisyonları 24.12–29.12.2026 arasında uzlaşma penceresinde (18:00–18:10 TSİ) sonraki vadeye taşı (eski vadeyi kapat, yenisini aç; iki bacak aynı pencerede)."], ["2026-12-25 Cum", "LBMA", "LBMA Gold Price: ihale yok", "Londra likiditesi düşük; VİOP açıksa uzlaşma fiyatı yine 18:00–18:10 VWAP'tır (vade sonu dışında etkisi yok)."], ["2026-12-25 Cum", "NYSE", "NYSE tatili: Noel", "ABD ETF işlemi yok. Ertesi VİOP gününde A4-C1 için yeni ABD kapanışı yoksa yeni dilim 0."], ["2026-12-25 Cum", "VİOP", "Spot altın kapalı (VİOP açık)", "A8-3 yeni dilimi 0 (NÖTR); LOWMOM bir önceki spot gününün değerini kullanır. Açık dilimler sürer."], ["2026-12-28 Pzt", "LBMA", "LBMA Gold Price: ihale yok (Boxing Day)", "Londra likiditesi düşük; VİOP açıksa uzlaşma fiyatı yine 18:00–18:10 VWAP'tır (vade sonu dışında etkisi yok)."], ["2026-12-28 Pzt", "VİOP", "A4-C1: yeni ABD kapanışı yok", "GDXJ/GLD getirisi 0 → e=0 → yeni dilim 0 (son ABD kapanışı 24.12.2026 Per önceki VİOP gününde de kullanıldı)."], ["2026-12-30 Çar · 23:50", "ETF", "E1-C2 GİRİŞ (Yılbaşı 01.01 öncesi)", "GDX'i bugün kapanışa yakın al: 15:50–15:58 ET (23:50–23:58 TSİ). Çıkış 31.12.2026 Per kapanışında."], ["2026-12-30 Çar · 18:00–18:10", "VİOP", "QEND GİRİŞ (12. ay sondan 2. VİOP günü)", "Uzlaşma penceresinde (18:00–18:10 TSİ) 1 birim UZUN, kontrat F_XAUUSD0227 (Aralık vadesi 31.12'de biter). Çıkış 05.01.2027 Sal uzlaşması."], ["2026-12-31 Per · 23:50", "ETF", "E1-C2 ÇIKIŞ (Yılbaşı öncesi son gün)", "Dün alınan GDX'i bugün sat: 15:50–15:58 ET (23:50–23:58 TSİ)."], ["2026-12-31 Per", "LBMA", "LBMA Gold Price: yalnız AM ihalesi (PM yok) — F_XAUUSD1226 vade sonu fiyatı AM olur", "Londra likiditesi düşük; VİOP açıksa uzlaşma fiyatı yine 18:00–18:10 VWAP'tır (vade sonu dışında etkisi yok)."], ["2026-12-31 Per · 18:00–18:10", "VİOP", "31 Aralık: normal seans, akşam seansı yok (1 Ocak tatil)", "Emirler normal uzlaşma penceresinde (18:00–18:10 TSİ). F_XAUUSD1226'nın son işlem günü."], ["2026-12-31 Per", "VİOP", "F_XAUUSD1226 vade sonu (son işlem günü)", "Vade sonu fiyatı LBMA PM'dir ama 31.12.2026'da PM ihalesi YOK (ICE takvimi) → sabah (AM, 10:30 Londra = 13:30 TSİ) fiyatı kullanılır; uzlaşma anından 4,5 saat önceki fiyat (31.12.2025'te de PM yoktu: F_XAUUSD1225 son uzlaşması 4.308,0, 11:00 UTC spot 4.306,3, 15:00 UTC spot 4.345,5 → AM'ye uydu). Açık pozisyonu en geç 29.12 uzlaşmasında 0227'ye taşı. 24.12'den itibaren yeni dilimleri (A8-3 5 gün, A4 3 gün) doğrudan 0227'de aç; 30.12 QEND girişi 0227'de. 2023–2025 Aralık roll'larında açık pozisyon 24–30.12'de geçti."], ["2027-01-01 Cum", "LBMA", "LBMA Gold Price: ihale yok", "Londra likiditesi düşük; VİOP açıksa uzlaşma fiyatı yine 18:00–18:10 VWAP'tır (vade sonu dışında etkisi yok)."], ["2027-01-01 Cum", "NYSE", "NYSE tatili: Yılbaşı", "ABD ETF işlemi yok. Ertesi VİOP gününde A4-C1 için yeni ABD kapanışı yoksa yeni dilim 0."], ["2027-01-01 Cum", "VİOP", "Türkiye resmi tatili — VİOP kapalı", "VİOP işlem yok; kademeli dilim sayımı VİOP günleriyle ilerler (tatil sayılmaz). Midas/ABD ETF normal. Hükümetin ek idari izin günleri VİOP'u kapatmaz (ör. 08.04.2024 tam gün açıktı); BIST yıllık tatil duyurusunu kontrol et."], ["2027-01-05 Sal · 18:00–18:10", "VİOP", "QEND ÇIKIŞ (girişten 3 VİOP günü sonra)", "QEND uzun pozisyonunu uzlaşma penceresinde (18:00–18:10 TSİ) kapat."], ["2027-01-08 Cum · 16:30", "ABD/risk", "ABD tarım dışı istihdam (NFP)", "08:30 ET = 16:30 TSİ. VİOP karar anından ve son saat penceresinden ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-01-13 Çar · 16:30", "ABD/risk", "ABD TÜFE (CPI)", "08:30 ET = 16:30 TSİ. VİOP karar anından (18:00 TSİ) ve A8-3 son saat penceresinden (17:00–18:00 TSİ) ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-01-14 Per · 23:50", "ETF", "E1-C2 GİRİŞ (Martin Luther King Jr. Günü 18.01 öncesi)", "GDX'i bugün kapanışa yakın al: 15:50–15:58 ET (23:50–23:58 TSİ). Çıkış 15.01.2027 Cum kapanışında."], ["2027-01-15 Cum · 23:50", "ETF", "E1-C2 ÇIKIŞ (Martin Luther King Jr. Günü öncesi son gün)", "Dün alınan GDX'i bugün sat: 15:50–15:58 ET (23:50–23:58 TSİ)."], ["2027-01-18 Pzt", "NYSE", "NYSE tatili: Martin Luther King Jr. Günü", "ABD ETF işlemi yok. Ertesi VİOP gününde A4-C1 için yeni ABD kapanışı yoksa yeni dilim 0."], ["2027-01-19 Sal", "VİOP", "A4-C1: yeni ABD kapanışı yok", "GDXJ/GLD getirisi 0 → e=0 → yeni dilim 0 (son ABD kapanışı 15.01.2027 Cum önceki VİOP gününde de kullanıldı)."], ["2027-01-27 Çar · 22:00", "ABD/risk", "FOMC faiz kararı", "Karar 14:00 ET = 22:00 TSİ, basın toplantısı 22:30 TSİ. VİOP uzlaşmasından SONRA (akşam seansında oynaklık). ETF karar anından (15:00 ET = 23:00 TSİ) ÖNCE: E3-1 m değeri FOMC tepkisini içerir; emir penceresinde spread geniş olabilir, pozisyon boyutunu küçültmeyi düşün."], ["2027-02-05 Cum · 16:30", "ABD/risk", "ABD tarım dışı istihdam (NFP)", "08:30 ET = 16:30 TSİ. VİOP karar anından ve son saat penceresinden ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-02-11 Per · 16:30", "ABD/risk", "ABD TÜFE (CPI)", "08:30 ET = 16:30 TSİ. VİOP karar anından (18:00 TSİ) ve A8-3 son saat penceresinden (17:00–18:00 TSİ) ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-02-11 Per · 23:50", "ETF", "E1-C2 GİRİŞ (Başkanlar Günü 15.02 öncesi)", "GDX'i bugün kapanışa yakın al: 15:50–15:58 ET (23:50–23:58 TSİ). Çıkış 12.02.2027 Cum kapanışında."], ["2027-02-12 Cum · 23:50", "ETF", "E1-C2 ÇIKIŞ (Başkanlar Günü öncesi son gün)", "Dün alınan GDX'i bugün sat: 15:50–15:58 ET (23:50–23:58 TSİ)."], ["2027-02-15 Pzt", "NYSE", "NYSE tatili: Başkanlar Günü", "ABD ETF işlemi yok. Ertesi VİOP gününde A4-C1 için yeni ABD kapanışı yoksa yeni dilim 0."], ["2027-02-16 Sal", "VİOP", "A4-C1: yeni ABD kapanışı yok", "GDXJ/GLD getirisi 0 → e=0 → yeni dilim 0 (son ABD kapanışı 12.02.2027 Cum önceki VİOP gününde de kullanıldı)."], ["2027-02-22 Pzt · 18:00–18:10", "VİOP", "F_XAUUSD0227 → sonraki vade ROLL penceresi başlıyor (22.02–24.02.2027)", "Açık pozisyonları 22.02–24.02.2027 arasında uzlaşma penceresinde (18:00–18:10 TSİ) sonraki vadeye taşı (eski vadeyi kapat, yenisini aç; iki bacak aynı pencerede)."], ["2027-02-26 Cum", "VİOP", "F_XAUUSD0227 vade sonu (son işlem günü)", "Son işlem günü 26.02.2027 Cum; vade sonu fiyatı LBMA PM = 15:00 Londra (GMT) = 18:00 TSİ. 19.02'den itibaren yeni A8-3 dilimlerini, 22.02'den itibaren bütün yeni dilimleri 0427'de aç; açık pozisyonu 22–24.02'de taşı."], ["2027-03-05 Cum · 16:30", "ABD/risk", "ABD tarım dışı istihdam (NFP)", "08:30 ET = 16:30 TSİ. VİOP karar anından ve son saat penceresinden ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-03-08 Pzt · 12:30–12:40", "VİOP", "TR yarım günü (Ramazan Bayramı arifesi): VİOP öğleden sonra kapalı, akşam seansı yok", "Uzlaşma penceresi 12:30–12:40 TSİ. LOWMOM ve A8-3 yeni dilim açmaz (DEVRE DIŞI); A4-C1 ve QEND normal, emirler 12:30–12:40'ta. Açık dilimler sürer."], ["2027-03-09 Sal", "VİOP", "Türkiye resmi tatili — VİOP kapalı", "VİOP işlem yok; kademeli dilim sayımı VİOP günleriyle ilerler (tatil sayılmaz). Midas/ABD ETF normal. Hükümetin ek idari izin günleri VİOP'u kapatmaz (ör. 08.04.2024 tam gün açıktı); BIST yıllık tatil duyurusunu kontrol et."], ["2027-03-10 Çar · 16:30", "ABD/risk", "ABD TÜFE (CPI)", "08:30 ET = 16:30 TSİ. VİOP karar anından (18:00 TSİ) ve A8-3 son saat penceresinden (17:00–18:00 TSİ) ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-03-10 Çar", "VİOP", "Türkiye resmi tatili — VİOP kapalı", "VİOP işlem yok; kademeli dilim sayımı VİOP günleriyle ilerler (tatil sayılmaz). Midas/ABD ETF normal. Hükümetin ek idari izin günleri VİOP'u kapatmaz (ör. 08.04.2024 tam gün açıktı); BIST yıllık tatil duyurusunu kontrol et."], ["2027-03-11 Per", "VİOP", "Türkiye resmi tatili — VİOP kapalı", "VİOP işlem yok; kademeli dilim sayımı VİOP günleriyle ilerler (tatil sayılmaz). Midas/ABD ETF normal. Hükümetin ek idari izin günleri VİOP'u kapatmaz (ör. 08.04.2024 tam gün açıktı); BIST yıllık tatil duyurusunu kontrol et."], ["2027-03-12 Cum", "VİOP", "A4-C1: getiri 4 ABD seansını kapsar", "GDXJ ve GLD değişimini 05.03.2027 Cum kapanışından 11.03.2027 Per kapanışına al (tek günlük değil)."], ["2027-03-14 Paz", "ABD/saat", "ABD yaz saatine geçiş (Türkiye UTC+3 sabit)", "15 Mart'tan itibaren ETF saatleri 1 saat ERKEN: karar 15:00 ET = 22:00 TSİ, emir 22:50–22:58 TSİ, kapanış 23:00 TSİ; E3-1 için önceki gün 16:00 ET = 23:00 TSİ. ABD veri saatleri 15:30 TSİ, FOMC 21:00 TSİ. VİOP saatleri değişmez."], ["2027-03-17 Çar · 21:00", "ABD/risk", "FOMC faiz kararı (SEP)", "Karar 14:00 ET = 21:00 TSİ, basın toplantısı 21:30 TSİ. VİOP uzlaşmasından SONRA (akşam seansında oynaklık). ETF karar anından (15:00 ET = 22:00 TSİ) ÖNCE: E3-1 m değeri FOMC tepkisini içerir; emir penceresinde spread geniş olabilir, pozisyon boyutunu küçültmeyi düşün."], ["2027-03-19 Cum", "ETF", "TAHMİNİ temettü (ex-date) SPY: ≈%0,25–0,3", "Bu günün yüzde değişimini TradingView'da temettü düzeltmeli oku (ADJ açık) ya da temettü yüzdesini değişime ekle; aksi halde ertesi günün E2/A4 artığı yanlış çıkar. Tarihi ihraççı sitesinden (vaneck.com, ssga.com) kontrol et."], ["2027-03-24 Çar · 22:50", "ETF", "E1-C2 GİRİŞ (Kutsal Cuma 26.03 öncesi)", "GDX'i bugün kapanışa yakın al: 15:50–15:58 ET (22:50–22:58 TSİ). Çıkış 25.03.2027 Per kapanışında."], ["2027-03-25 Per · 22:50", "ETF", "E1-C2 ÇIKIŞ (Kutsal Cuma öncesi son gün)", "Dün alınan GDX'i bugün sat: 15:50–15:58 ET (22:50–22:58 TSİ)."], ["2027-03-26 Cum", "LBMA", "LBMA Gold Price: ihale yok (Kutsal Cuma)", "Londra likiditesi düşük; VİOP açıksa uzlaşma fiyatı yine 18:00–18:10 VWAP'tır (vade sonu dışında etkisi yok)."], ["2027-03-26 Cum", "NYSE", "NYSE tatili: Kutsal Cuma", "ABD ETF işlemi yok. Ertesi VİOP gününde A4-C1 için yeni ABD kapanışı yoksa yeni dilim 0."], ["2027-03-26 Cum", "VİOP", "Spot altın kapalı (VİOP açık)", "A8-3 yeni dilimi 0 (NÖTR); LOWMOM bir önceki spot gününün değerini kullanır. Açık dilimler sürer."], ["2027-03-29 Pzt", "LBMA", "LBMA Gold Price: ihale yok (Paskalya Pazartesi)", "Londra likiditesi düşük; VİOP açıksa uzlaşma fiyatı yine 18:00–18:10 VWAP'tır (vade sonu dışında etkisi yok)."], ["2027-03-29 Pzt", "VİOP", "A4-C1: yeni ABD kapanışı yok", "GDXJ/GLD getirisi 0 → e=0 → yeni dilim 0 (son ABD kapanışı 25.03.2027 Per önceki VİOP gününde de kullanıldı)."], ["2027-03-30 Sal · 18:00–18:10", "VİOP", "QEND GİRİŞ (3. ay sondan 2. VİOP günü)", "Uzlaşma penceresinde (18:00–18:10 TSİ) 1 birim UZUN, kontrat F_XAUUSD0427. Çıkış 02.04.2027 Cum uzlaşması."], ["2027-04-02 Cum · 15:30", "ABD/risk", "ABD tarım dışı istihdam (NFP)", "08:30 ET = 15:30 TSİ. VİOP karar anından ve son saat penceresinden ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-04-02 Cum · 18:00–18:10", "VİOP", "QEND ÇIKIŞ (girişten 3 VİOP günü sonra)", "QEND uzun pozisyonunu uzlaşma penceresinde (18:00–18:10 TSİ) kapat."], ["2027-04-13 Sal · 15:30", "ABD/risk", "ABD TÜFE (CPI)", "08:30 ET = 15:30 TSİ. VİOP karar anından (18:00 TSİ) ve A8-3 son saat penceresinden (17:00–18:00 TSİ) ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-04-23 Cum", "VİOP", "Türkiye resmi tatili — VİOP kapalı", "VİOP işlem yok; kademeli dilim sayımı VİOP günleriyle ilerler (tatil sayılmaz). Midas/ABD ETF normal. Hükümetin ek idari izin günleri VİOP'u kapatmaz (ör. 08.04.2024 tam gün açıktı); BIST yıllık tatil duyurusunu kontrol et."], ["2027-04-26 Pzt", "VİOP", "A4-C1: getiri 2 ABD seansını kapsar", "GDXJ ve GLD değişimini 21.04.2027 Çar kapanışından 23.04.2027 Cum kapanışına al (tek günlük değil)."], ["2027-04-26 Pzt · 18:00–18:10", "VİOP", "F_XAUUSD0427 → sonraki vade ROLL penceresi başlıyor (26.04–28.04.2027)", "Açık pozisyonları 26.04–28.04.2027 arasında uzlaşma penceresinde (18:00–18:10 TSİ) sonraki vadeye taşı (eski vadeyi kapat, yenisini aç; iki bacak aynı pencerede)."], ["2027-04-28 Çar · 21:00", "ABD/risk", "FOMC faiz kararı", "Karar 14:00 ET = 21:00 TSİ, basın toplantısı 21:30 TSİ. VİOP uzlaşmasından SONRA (akşam seansında oynaklık). ETF karar anından (15:00 ET = 22:00 TSİ) ÖNCE: E3-1 m değeri FOMC tepkisini içerir; emir penceresinde spread geniş olabilir, pozisyon boyutunu küçültmeyi düşün."], ["2027-04-30 Cum", "VİOP", "F_XAUUSD0427 vade sonu (son işlem günü)", "Son işlem günü 30.04.2027 Cum (23.04 Cuma tatil); vade sonu fiyatı LBMA PM = 15:00 Londra (BST, 28.03'ten beri) = 17:00 TSİ, uzlaşma penceresinden 1 saat önce. 22.04'ten itibaren yeni A8-3 dilimlerini, 26.04'ten itibaren bütün yeni dilimleri 0627'de aç; açık pozisyonu 26–28.04'te taşı."], ["2027-05-03 Pzt", "LBMA", "LBMA Gold Price: ihale yok", "Londra likiditesi düşük; VİOP açıksa uzlaşma fiyatı yine 18:00–18:10 VWAP'tır (vade sonu dışında etkisi yok)."], ["2027-05-07 Cum · 15:30", "ABD/risk", "ABD tarım dışı istihdam (NFP)", "08:30 ET = 15:30 TSİ. VİOP karar anından ve son saat penceresinden ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-05-12 Çar · 15:30", "ABD/risk", "ABD TÜFE (CPI)", "08:30 ET = 15:30 TSİ. VİOP karar anından (18:00 TSİ) ve A8-3 son saat penceresinden (17:00–18:00 TSİ) ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-05-17 Pzt", "VİOP", "Türkiye resmi tatili — VİOP kapalı", "VİOP işlem yok; kademeli dilim sayımı VİOP günleriyle ilerler (tatil sayılmaz). Midas/ABD ETF normal. Hükümetin ek idari izin günleri VİOP'u kapatmaz (ör. 08.04.2024 tam gün açıktı); BIST yıllık tatil duyurusunu kontrol et."], ["2027-05-18 Sal", "VİOP", "Türkiye resmi tatili — VİOP kapalı", "VİOP işlem yok; kademeli dilim sayımı VİOP günleriyle ilerler (tatil sayılmaz). Midas/ABD ETF normal. Hükümetin ek idari izin günleri VİOP'u kapatmaz (ör. 08.04.2024 tam gün açıktı); BIST yıllık tatil duyurusunu kontrol et."], ["2027-05-19 Çar", "VİOP", "Türkiye resmi tatili — VİOP kapalı", "VİOP işlem yok; kademeli dilim sayımı VİOP günleriyle ilerler (tatil sayılmaz). Midas/ABD ETF normal. Hükümetin ek idari izin günleri VİOP'u kapatmaz (ör. 08.04.2024 tam gün açıktı); BIST yıllık tatil duyurusunu kontrol et."], ["2027-05-20 Per", "VİOP", "A4-C1: getiri 4 ABD seansını kapsar", "GDXJ ve GLD değişimini 13.05.2027 Per kapanışından 19.05.2027 Çar kapanışına al (tek günlük değil)."], ["2027-05-27 Per · 22:50", "ETF", "E1-C2 GİRİŞ (Anma Günü (Memorial Day) 31.05 öncesi)", "GDX'i bugün kapanışa yakın al: 15:50–15:58 ET (22:50–22:58 TSİ). Çıkış 28.05.2027 Cum kapanışında."], ["2027-05-28 Cum · 22:50", "ETF", "E1-C2 ÇIKIŞ (Anma Günü (Memorial Day) öncesi son gün)", "Dün alınan GDX'i bugün sat: 15:50–15:58 ET (22:50–22:58 TSİ)."], ["2027-05-31 Pzt", "LBMA", "LBMA Gold Price: ihale yok", "Londra likiditesi düşük; VİOP açıksa uzlaşma fiyatı yine 18:00–18:10 VWAP'tır (vade sonu dışında etkisi yok)."], ["2027-05-31 Pzt", "NYSE", "NYSE tatili: Anma Günü (Memorial Day)", "ABD ETF işlemi yok. Ertesi VİOP gününde A4-C1 için yeni ABD kapanışı yoksa yeni dilim 0."], ["2027-06-01 Sal", "VİOP", "A4-C1: yeni ABD kapanışı yok", "GDXJ/GLD getirisi 0 → e=0 → yeni dilim 0 (son ABD kapanışı 28.05.2027 Cum önceki VİOP gününde de kullanıldı)."], ["2027-06-04 Cum · 15:30", "ABD/risk", "ABD tarım dışı istihdam (NFP)", "08:30 ET = 15:30 TSİ. VİOP karar anından ve son saat penceresinden ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-06-09 Çar · 21:00", "ABD/risk", "FOMC faiz kararı (SEP)", "Karar 14:00 ET = 21:00 TSİ, basın toplantısı 21:30 TSİ. VİOP uzlaşmasından SONRA (akşam seansında oynaklık). ETF karar anından (15:00 ET = 22:00 TSİ) ÖNCE: E3-1 m değeri FOMC tepkisini içerir; emir penceresinde spread geniş olabilir, pozisyon boyutunu küçültmeyi düşün."], ["2027-06-10 Per · 15:30", "ABD/risk", "ABD TÜFE (CPI)", "08:30 ET = 15:30 TSİ. VİOP karar anından (18:00 TSİ) ve A8-3 son saat penceresinden (17:00–18:00 TSİ) ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-06-16 Çar · 22:50", "ETF", "E1-C2 GİRİŞ (Juneteenth 18.06 öncesi)", "GDX'i bugün kapanışa yakın al: 15:50–15:58 ET (22:50–22:58 TSİ). Çıkış 17.06.2027 Per kapanışında."], ["2027-06-17 Per · 22:50", "ETF", "E1-C2 ÇIKIŞ (Juneteenth öncesi son gün)", "Dün alınan GDX'i bugün sat: 15:50–15:58 ET (22:50–22:58 TSİ)."], ["2027-06-17 Per", "ETF", "TAHMİNİ temettü (ex-date) SPY: ≈%0,25–0,3 (18 Haziran Juneteenth tatili)", "Bu günün yüzde değişimini TradingView'da temettü düzeltmeli oku (ADJ açık) ya da temettü yüzdesini değişime ekle; aksi halde ertesi günün E2/A4 artığı yanlış çıkar. Tarihi ihraççı sitesinden (vaneck.com, ssga.com) kontrol et."], ["2027-06-18 Cum", "NYSE", "NYSE tatili: Juneteenth", "ABD ETF işlemi yok. Ertesi VİOP gününde A4-C1 için yeni ABD kapanışı yoksa yeni dilim 0."], ["2027-06-21 Pzt", "VİOP", "A4-C1: yeni ABD kapanışı yok", "GDXJ/GLD getirisi 0 → e=0 → yeni dilim 0 (son ABD kapanışı 17.06.2027 Per önceki VİOP gününde de kullanıldı)."], ["2027-06-23 Çar · 18:00–18:10", "VİOP", "F_XAUUSD0627 → sonraki vade ROLL penceresi başlıyor (23.06–25.06.2027)", "Açık pozisyonları 23.06–25.06.2027 arasında uzlaşma penceresinde (18:00–18:10 TSİ) sonraki vadeye taşı (eski vadeyi kapat, yenisini aç; iki bacak aynı pencerede)."], ["2027-06-29 Sal · 18:00–18:10", "VİOP", "QEND GİRİŞ (6. ay sondan 2. VİOP günü)", "Uzlaşma penceresinde (18:00–18:10 TSİ) 1 birim UZUN, kontrat F_XAUUSD0827 (Haziran vadesi 30.06'da biter). Çıkış 02.07.2027 Cum uzlaşması."], ["2027-06-30 Çar", "VİOP", "F_XAUUSD0627 vade sonu (son işlem günü)", "Son işlem günü 30.06.2027 Çar; vade sonu fiyatı LBMA PM = 15:00 Londra (BST) = 17:00 TSİ. 23.06'dan itibaren yeni dilimleri 0827'de aç; açık pozisyonu 23–25.06'da taşı; 29.06 QEND girişi 0827'de (Haziran vadesi tutuş bitmeden kapanır)."], ["2027-07-01 Per · 22:50", "ETF", "E1-C2 GİRİŞ (Bağımsızlık Günü 05.07 öncesi)", "GDX'i bugün kapanışa yakın al: 15:50–15:58 ET (22:50–22:58 TSİ). Çıkış 02.07.2027 Cum kapanışında."], ["2027-07-02 Cum · 15:30", "ABD/risk", "ABD tarım dışı istihdam (NFP)", "08:30 ET = 15:30 TSİ. VİOP karar anından ve son saat penceresinden ÖNCE; ETF kararından önce. Gün içi sert hareket olabilir."], ["2027-07-02 Cum · 22:50", "ETF", "E1-C2 ÇIKIŞ (Bağımsızlık Günü öncesi son gün)", "Dün alınan GDX'i bugün sat: 15:50–15:58 ET (22:50–22:58 TSİ)."], ["2027-07-02 Cum · 18:00–18:10", "VİOP", "QEND ÇIKIŞ (girişten 3 VİOP günü sonra)", "QEND uzun pozisyonunu uzlaşma penceresinde (18:00–18:10 TSİ) kapat."], ["2027-07-05 Pzt", "NYSE", "NYSE tatili: Bağımsızlık Günü", "ABD ETF işlemi yok. Ertesi VİOP gününde A4-C1 için yeni ABD kapanışı yoksa yeni dilim 0."], ["2027-07-06 Sal", "VİOP", "A4-C1: yeni ABD kapanışı yok", "GDXJ/GLD getirisi 0 → e=0 → yeni dilim 0 (son ABD kapanışı 02.07.2027 Cum önceki VİOP gününde de kullanıldı)."]];
+function renderCal() {
+  const f = document.getElementById("f_cal").value;
+  const rows = CAL.filter(r => !f || (f === "islem" ? (r[1] === "ETF" || r[1] === "VİOP") : r[1] === f));
+  document.getElementById("cal").innerHTML = rows.map(r => `<tr><td class="mono small" style="white-space:nowrap">${esc(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td class="small">${esc(r[3])}</td></tr>`).join("");
+}
+document.getElementById("f_cal").addEventListener("change", renderCal);
+
+// sinyal tablosu
+const NAMES = {
+  "E3-1_altin_gunici_GDXJ_donus": "Altın düştüyse GDXJ (1. kural)",
+  "E2-C2j_GDXJ_artik_h3": "GDXJ artık momentumu (2. kural)",
+  "E2-C2_GDX_artik_h3": "GDX 3 günlük artık (3. kural)",
+  "E2-C1_madenci_oncu_GLD_h5": "Madenciler → GLD (4. kural)",
+  "E1-C2_GDX_tatil_oncesi": "Tatil öncesi GDX (5. kural)",
+  "E3-3_PHYS_GLD_iskonto": "PHYS/GLD araç seçimi",
+  "E3-4_CEF_artik": "CEF araç seçimi",
+  "A3_QEND_h3": "Çeyrek sonu (VİOP A)",
+  "A4-C1_GDXJ_artik_h3": "GDXJ artığı (VİOP B)",
+  "A8-3_seg_last1h_h5": "Son saat momentumu (VİOP C)",
+  "A1-LOWMOM-h1": "Sakin piyasa momentumu (VİOP D)",
+  "A1-LOWMOM-h5": "Sakin piyasa momentumu, 5 gün",
+};
+const confChip = c => c === "ORTA" ? '<span class="chip c-good">ORTA</span>' : c === "DUSUK" ? '<span class="chip c-warn">DÜŞÜK</span>' : '<span class="chip c-bad">YOK</span>';
+const sideOf = c => c === "ETF" ? "ETF" : c === "VIOP" ? "VIOP" : "diğer";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+function renderTable() {
+  const fs = document.getElementById("f_side").value, fc = document.getElementById("f_conf").value, fl = document.getElementById("f_live").checked;
+  const rows = TABLO.filter(r => (!fs || sideOf(r.cephe) === fs) && (!fc || r.son_guven === fc) && (!fl || String(r.ayakta).startsWith("EVET") || String(r.ayakta).startsWith("araç")));
+  document.getElementById("f_count").textContent = `${rows.length} iddia`;
+  document.getElementById("tb").innerHTML = rows.map(r => {
+    const live = String(r.ayakta).startsWith("EVET") || String(r.ayakta).startsWith("araç");
+    const nm = NAMES[r.id] || r.id;
+    return `<tr><td><details class="rowd"><summary><b>${esc(nm)}</b></summary><p><b>Kural:</b> ${esc(r.kural)}</p><p><b>Bilgi zamanı:</b> ${esc(r.bilgi_zamani)}</p><p><b>Zayıf yanı:</b> ${esc(r.ana_zayiflik)}</p><p><b>Uygulanabilirlik:</b> ${esc(r.islenebilirlik)}</p><p class="mono">${esc(r.id)} · yeniden üretici: ${esc(r.rep)} · çürütücü: ${esc(r.adv)}</p></details></td><td>${esc(r.cephe)}</td><td>${confChip(r.son_guven)}</td><td class="num">${r.h ?? "—"} g</td><td class="num">${esc(r.oos_sharpe_net ?? "—")}</td><td class="num">${esc(r.oos_bh_sharpe ?? "—")}</td><td>${live ? '<span class="chip c-good">ayakta</span>' : '<span class="chip c-idle">elendi</span>'}</td></tr>`;
+  }).join("");
+}
+["f_side", "f_conf", "f_live"].forEach(id => document.getElementById(id).addEventListener("change", renderTable));
+
+// raporlar
+const REPS = [
+  ["Ana rapor", "RAPOR.md", ["Net cevap, kontrat ve saat gerçekleri, kim nasıl kazanıyor.", "Strateji aileleri tablosu: literatür ve bizim test.", "VİOP ve ETF lead-lag sonuçları, fiyat tahmini, risk, sınırlamalar."]],
+  ["Hakem raporu", "sentez/HAKEM.md", ["7.446 testin sınıflandırılması ve çoklu test düzeltmesi: VİOP'ta geçen yok, ETF'de 18 test geçiyor.", "65 iddianın son güven tablosu ve kuralların örtüşmesi.", "Eşit ağırlıklı birleşim, 9 Kasım durumu, VaR ve stop analizi."]],
+  ["Kullanım kılavuzu", "sinyal/KULLANIM.md", ["Günlük sinyal betiği sinyal_altin.py nasıl çalıştırılır.", "Saat tablosu, emir verme, TradingView kodları.", "Bağımsız denetim özeti: 53 günde fark 0."]],
+  ["VİOP kontratı (r1)", "arastirma/r1_viop_kontrat.md", ["Uzlaşma 18:00–18:10 TSİ VWAP; vade sonu LBMA PM.", "Teminat ≈%10, fiyat limiti ±%10, maliyet ≈5 bps, stopaj %10.", "Akşam seansı, TradingView kodları, likidite."]],
+  ["Kısa vade stratejiler (r2)", "arastirma/r2_kisa_vade_strateji.md", ["Trend, dönüş, takvim, seans, olay, COT, akış stratejilerinin literatür kanıtı.", "Çoğu için altında kısa vadede kanıt zayıf ya da yok."]],
+  ["Dünya fiyatı (r3)", "arastirma/r3_kuresel_tahmin.md", ["Reel faiz, dolar, merkez bankaları, ETF, jeopolitik.", "Akademik sonuç: günlük-haftalık öngörü yok.", "Kurum tahminleri ve 2026 olayları."]],
+  ["Türkiye fiyatı (r4)", "arastirma/r4_turkiye_altin.md", ["Gram altın formülü, prim, ithalat kotası, TCMB.", "Kur kayması ve VİOP gram altının TL carry maliyeti."]],
+  ["Lead-lag literatürü (r5)", "arastirma/r5_leadlag_literatur.md", ["Fiyat keşfi COMEX–Londra–Şanghay; varlıklar arası ilişkiler.", "Saat farkı tuzağı: sahte öncülükler (korelasyon 0,42)."]],
+  ["Kim kazanıyor (r6)", "arastirma/r6_kim_kazaniyor.md", ["Piyasa yapıcılar, carry, fiziki arbitraj, trend takipçileri.", "Türkiye'de kaldıraçlı hesapların yalnız ≈%33'ü kârda."]],
+  ["Midas platformu (m1)", "arastirma/m1_midas_platform.md", ["Ürünler, 1,5 USD komisyon, açığa satış yok, MOC yok.", "Vergi: ABD ETF %15–40 beyan, VİOP %10, BIST BYF %17,5. Veraset riski."]],
+  ["ETF stratejileri (m2)", "arastirma/m2_etf_strateji.md", ["Madenci–altın ilişkisi, kaldıraçlı ETF dengelemesi, gece etkisi, kapalı uçlu fon iskontosu."]],
+  ["Boşluk raporları (g1–g4)", "arastirma/g1…g4_bosluk.md", ["g1: VİOP yerel primi (Q1 2026). g2: uzlaşma saatinin tarihçesi.", "g3: Türk literatürü. g4: oynaklık tahmini, teminat, boyut formülü."]],
+  ["11 analiz ailesi", "analiz/*.md", ["Fiyat dinamiği, seanslar, takvim, ABD çapraz, eşzamanlı artık, COT/Çin, Türkiye, makine öğrenmesi.", "ETF: zaman serisi ve takvim, lead-lag, akış ve prim."]],
+];
+document.getElementById("reps").innerHTML = REPS.map(r => `<div class="rep"><h3>${r[0]}</h3><ul>${r[2].map(x => `<li>${x}</li>`).join("")}</ul><div class="path">${r[1]}</div></div>`).join("");
+
+// örnek değerler (6 Kasım Cuma; dünkü = 5 Kasım ABD kapanışı)
+const SAMPLE = {"x1_gdxj": "2,82", "x1_gld": "-0,79", "x1_spy": "0,31", "x3_gdx": "12,89", "x3_gld": "3,69", "x3_spy": "-2,53", "x10_gdx": "9,23", "x10_gld": "1,61", "x10_spy": "-3,25", "v_gdxj": "2,82", "v_gld": "-0,79"};
+for (const [k, v] of Object.entries(SAMPLE)) { const el = document.getElementById(k); if (el && el.value === "") el.value = v; }
+renderTable();
+renderCal();
+calc();
+</script>

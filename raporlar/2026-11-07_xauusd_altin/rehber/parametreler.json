@@ -1,0 +1,391 @@
+{
+ "tarih": "2026-11-06 Cuma kapanışı itibarıyla (ABD kapanışı 16:00 ET; spot 15:00 UTC). Hesap: 2026-11-08.",
+ "kaynak": "out/sentez/sinyal_altin.py tanımları (P, E2 sözlükleri, madenci_artik, A4 ve lowmom_tablo), panel_etf/panel_viop/panel_spot parquet; betik: rehber_kod/p_parametre.py",
+ "birim": "Getiriler log getiri. Hesaplayıcı TradingView kapanışlarından ln(C_son/C_önce) ile hesaplar; yüzde girilirse r = ln(1 + yüzde/100). Eşikler yüzde (log) cinsinden.",
+ "E2": {
+  "formul": "x_k = ln(Y_{t-1}/Y_{t-1-k}) − b_GLD·ln(GLD_{t-1}/GLD_{t-1-k}) − b_SPY·ln(SPY_{t-1}/SPY_{t-1-k}); t-1 = son ABD seansı, k ABD işlem günü (bar) sayılır. OLS sabiti ÇIKARILMAZ (betik de çıkarmıyor).",
+  "GDXJ": {
+   "b_GLD": 1.5135,
+   "b_SPY": 1.0017,
+   "pencere": "2025-11-10 → 2026-11-06 (250 işlem günü getirisi, Cuma dahil)",
+   "pazartesi_09_11_betik_betasi": {
+    "b_GLD": 1.5201,
+    "b_SPY": 0.9917
+   },
+   "aralik_12ay": {
+    "b_GLD": [
+     1.45,
+     1.726
+    ],
+    "b_SPY": [
+     0.394,
+     1.114
+    ]
+   }
+  },
+  "GDX": {
+   "b_GLD": 1.3924,
+   "b_SPY": 0.7721,
+   "pencere": "2025-11-10 → 2026-11-06 (250 işlem günü getirisi, Cuma dahil)",
+   "pazartesi_09_11_betik_betasi": {
+    "b_GLD": 1.3978,
+    "b_SPY": 0.764
+   },
+   "aralik_12ay": {
+    "b_GLD": [
+     1.327,
+     1.569
+    ],
+    "b_SPY": [
+     0.313,
+     0.887
+    ]
+   }
+  },
+  "kurallar": {
+   "E2-C2j": {
+    "y": "GDXJ",
+    "k": 1,
+    "esik_ust_pct": 0.6672,
+    "islem": "x > eşik ise GDXJ al, 3 gün kademeli (her gün sermayenin 1/3'ü; 3 ABD işlem günü sonra o dilimi sat)"
+   },
+   "E2-C2": {
+    "y": "GDX",
+    "k": 3,
+    "esik_ust_pct": 0.8064,
+    "islem": "x > eşik ise GDX al, 3 gün kademeli"
+   },
+   "E2-C1": {
+    "y": "GDX",
+    "k": 10,
+    "esik_ust_pct": 2.5148,
+    "kaplama_alt_pct": -4.0224,
+    "islem": "x > eşik ise GLD al, 5 gün kademeli; kaplama sürümü: GLD tut, x < alt eşik olan günün 1/5 dilimi nakit"
+   }
+  },
+  "dogrulama_pazartesi_09_11_x_pct": {
+   "E2-C2j": {
+    "betik": 3.674,
+    "elle_pazartesi_betasiyla": 3.674,
+    "elle_son_betayla": 3.666
+   },
+   "E2-C2": {
+    "betik": 9.493,
+    "elle_pazartesi_betasiyla": 9.01,
+    "elle_son_betayla": 9.05
+   },
+   "E2-C1": {
+    "betik": 9.653,
+    "elle_pazartesi_betasiyla": 9.113,
+    "elle_son_betayla": 9.148
+   }
+  },
+  "dogrulama_notu": "C2j (k=1) elle hesap betikle aynı (%3,674). k=3 ve k=10'da betik her günün artığını o günün betasıyla toplar; 05.11 SPY −%4,5 günü pencereye girince GDX b_SPY 0,88 → 0,76 sıçradı, bu yüzden sabit betalı elle hesap ≈45–55 bps düşük. Üçü de eşiğin çok üstünde, sinyal aynı.",
+  "elle_hata_son_3_yil": {
+   "E2-C2j": {
+    "log_adj_gunluk_beta": {
+     "farkli_gun": 2,
+     "gun": 757
+    },
+    "log_adj_haftalik_beta": {
+     "farkli_gun": 1,
+     "gun": 757
+    },
+    "log_adj_aylik_beta": {
+     "farkli_gun": 7,
+     "gun": 757
+    },
+    "log_adj_ceyreklik_beta": {
+     "farkli_gun": 18,
+     "gun": 757
+    },
+    "log_temettusuz_aylik_beta": {
+     "farkli_gun": 8,
+     "gun": 757
+    },
+    "basit_adj_aylik_beta": {
+     "farkli_gun": 6,
+     "gun": 757
+    }
+   },
+   "E2-C2": {
+    "log_adj_gunluk_beta": {
+     "farkli_gun": 5,
+     "gun": 757
+    },
+    "log_adj_haftalik_beta": {
+     "farkli_gun": 6,
+     "gun": 757
+    },
+    "log_adj_aylik_beta": {
+     "farkli_gun": 10,
+     "gun": 757
+    },
+    "log_adj_ceyreklik_beta": {
+     "farkli_gun": 22,
+     "gun": 757
+    },
+    "log_temettusuz_aylik_beta": {
+     "farkli_gun": 14,
+     "gun": 757
+    },
+    "basit_adj_aylik_beta": {
+     "farkli_gun": 10,
+     "gun": 757
+    }
+   },
+   "E2-C1": {
+    "log_adj_gunluk_beta": {
+     "farkli_gun": 6,
+     "gun": 757
+    },
+    "log_adj_haftalik_beta": {
+     "farkli_gun": 3,
+     "gun": 757
+    },
+    "log_adj_aylik_beta": {
+     "farkli_gun": 6,
+     "gun": 757
+    },
+    "log_adj_ceyreklik_beta": {
+     "farkli_gun": 10,
+     "gun": 757
+    },
+    "log_temettusuz_aylik_beta": {
+     "farkli_gun": 7,
+     "gun": 757
+    },
+    "basit_adj_aylik_beta": {
+     "farkli_gun": 14,
+     "gun": 757
+    }
+   }
+  }
+ },
+ "A4_C1": {
+  "formul": "e = r_GDXJ − β60·r_GLD (r = son ABD kapanışının bir önceki VİOP gününde bilinen son ABD kapanışına göre log değişimi); |e| > 0,43·σ_e ise yön sign(e); 3 gün kademeli (VİOP günü).",
+  "beta60": 1.9964,
+  "sigma_e_pct": 1.5867,
+  "esik_pct": 0.6823,
+  "z_esik": 0.43,
+  "pencere_notu": "β60 = son 60 VİOP satırının cov(r_GDXJ, r_GLD)/var(r_GLD); σ_e = son 120 VİOP satırının e std'si (örneklem). İkisi de 09.11 VİOP satırını (Cuma 06.11 ABD getirisi) içerir → Salı 10.11 ve sonrası için.",
+  "pazartesi_09_11_betik": {
+   "beta60": 2.0185,
+   "sigma_e_pct": 1.5413,
+   "esik_pct": 0.6627,
+   "r_GDXJ_pct_log": 2.7763,
+   "r_GLD_pct_log": -0.7941,
+   "e_pct": 4.3792,
+   "z": 2.841
+  },
+  "aralik_12ay": {
+   "beta60": [
+    1.204,
+    2.201
+   ],
+   "sigma_e_pct": [
+    1.466,
+    2.144
+   ],
+   "esik_pct": [
+    0.63,
+    0.922
+   ]
+  },
+  "elle_hata_2024_06_2026_11": {
+   "haftalik": {
+    "farkli_gun": 6,
+    "gun": 600,
+    "oran": 0.01
+   },
+   "aylik": {
+    "farkli_gun": 15,
+    "gun": 600,
+    "oran": 0.025
+   },
+   "ceyreklik": {
+    "farkli_gun": 45,
+    "gun": 600,
+    "oran": 0.075
+   },
+   "aylik_temettusuz_GDXJ": {
+    "farkli_gun": 17,
+    "gun": 600
+   },
+   "aylik_basit_getiri": {
+    "farkli_gun": 16,
+    "gun": 600
+   }
+  }
+ },
+ "LOWMOM": {
+  "rv20_esik_yillik_pct": 11.668,
+  "tanim": "rv20 = 15:00 UTC spot (Dukascopy BID) günlük log getirilerinin 20 günlük örneklem std'si (ddof=1) × √252; eşik = 2010-01-04'ten bu yana bütün rv20 değerlerinin 1/3 kantili (genişleyen, bugün dahil).",
+  "rv20_cuma_pct": 20.99,
+  "yuzdelik_cuma": 0.877,
+  "esik_aralik_12ay_pct": [
+   11.451,
+   11.667
+  ],
+  "rv20_aralik_12ay_pct": [
+   13.02,
+   53.94
+  ],
+  "son_aktif_gun": "2025-09-22",
+  "x5_cuma_pct": 3.291,
+  "TradingView_HV20": {
+   "tanim": "TradingView yerleşik HV = 100 · stdev(ln(C/C[1]), 20) · √365; Pine ta.stdev yanlı (n'ye bölünür). Günlük mum OANDA:XAUUSD (kapanış 17:00 New York).",
+   "esik_HV365": 13.67,
+   "esik_HV365_00UTC_kapanisla": 13.59,
+   "esik_HV365_21UTC_kapanisla": 13.65,
+   "esik_HV252_eger_gosterge_252_kullaniyorsa": 11.36,
+   "teorik_esik_HV365": 13.69,
+   "teorik_carpan": 1.173,
+   "uyum_orani_2010_2026": 0.858,
+   "uyum_orani_2021_2026": 0.852,
+   "HV365_cuma_17ET": 28.7,
+   "HV365_cuma_00UTC": 26.61,
+   "HV365_aralik_12ay": [
+    11.22,
+    67.83
+   ],
+   "bant_aktif_olasiligi": {
+    "(0.0, 10.0]": {
+     "aktif_orani": 0.97,
+     "gun": 296
+    },
+    "(10.0, 11.0]": {
+     "aktif_orani": 0.915,
+     "gun": 270
+    },
+    "(11.0, 12.0]": {
+     "aktif_orani": 0.79,
+     "gun": 328
+    },
+    "(12.0, 12.5]": {
+     "aktif_orani": 0.748,
+     "gun": 139
+    },
+    "(12.5, 13.0]": {
+     "aktif_orani": 0.555,
+     "gun": 164
+    },
+    "(13.0, 13.5]": {
+     "aktif_orani": 0.581,
+     "gun": 191
+    },
+    "(13.5, 14.0]": {
+     "aktif_orani": 0.444,
+     "gun": 144
+    },
+    "(14.0, 14.5]": {
+     "aktif_orani": 0.342,
+     "gun": 149
+    },
+    "(14.5, 15.0]": {
+     "aktif_orani": 0.357,
+     "gun": 168
+    },
+    "(15.0, 16.0]": {
+     "aktif_orani": 0.246,
+     "gun": 329
+    },
+    "(16.0, 17.0]": {
+     "aktif_orani": 0.094,
+     "gun": 308
+    },
+    "(17.0, 18.0]": {
+     "aktif_orani": 0.047,
+     "gun": 253
+    },
+    "(18.0, 20.0]": {
+     "aktif_orani": 0.067,
+     "gun": 386
+    },
+    "(20.0, 100.0]": {
+     "aktif_orani": 0.006,
+     "gun": 1172
+    }
+   },
+   "kullanim": "TradingView'da 18:00 TSİ'de, CANLI son mumla okunur (OANDA:XAUUSD günlük, HV uzunluk 20). HV(20) ≥ 22 → LOWMOM PASİF (bugünkü %11,67 eşiğiyle 2010–2026'da bu bölgede hiç aktif gün yok). 17–22 → büyük olasılıkla PASİF (canlı okumada 2010–2026 aktif oranı %3,6; 2010–2016'da HV %21–25 iken 9 aktif gün oldu), betikle teyit et. 12–17 → sınır bölgesi, tam rv20 hesabı gerekir (betik). < 12 → büyük olasılıkla AKTİF, yine betikle teyit et.",
+   "bant_tablosu_notu": "DENETİM: bant_aktif_olasiligi tablosu aynı günün 17:00 New York KAPANIŞIYLA (VİOP karar anından 6–7 saat SONRA) ve bugünkü sabit eşikle kuruldu; 18:00 TSİ'de görülen canlı mumlu HV biraz farklıdır. Canlı okumayla ve asıl (genişleyen yüzdelik) kuralla: HV ≥ 17 iken aktif oranı %3,6 (2010–2026), aktifken en yüksek HV %24,8 (2010–2016), 2017+ örneklemde %20,4. Bkz. sade_esikler.json lowmom_kesin_pasif.",
+   "gosterge_ayari": "Yerleşik 'Historical Volatility' göstergesinin bilinen Pine kaynağı length = 10 (varsayılan) ve annual = 365 kullanır, ta.stdev yanlıdır (denetçinin bilgisi; 08.11.2026'da çevrimiçi kaynakla doğrulanamadı). Uzunluğu 20 yapın; göstergenin kaynak kodunda annual = 365 olduğunu kontrol edin. 252 kullanıyorsa eşik ≈ 11,36'dır."
+  }
+ },
+ "E3_1": {
+  "pazartesi_09_11_esik_fiyat_usd": 4065.685,
+  "not_": "Cuma 06.11 16:00 ET Dukascopy BID spot. TradingView'da kendi kaynağınızın (OANDA:XAUUSD) aynı anki fiyatını kullanın; iki fiyat aynı kaynaktan olmalı."
+ },
+ "A8_3": {
+  "acik_dilimler_pazartesi": {
+   "2026-11-03": -1.0,
+   "2026-11-04": -1.0,
+   "2026-11-05": -1.0,
+   "2026-11-06": 1.0
+  },
+  "acik_dilim_toplami_bes_te": -0.4
+ },
+ "guncelleme_onerisi": {
+  "E2_betalari": "Haftada bir (Cuma kapanışından sonra, Pazartesi'den önce). Aylık da kabul edilebilir: son 3 yılda sinyalin farklı çıktığı gün oranı haftalıkta %0,1–0,8, aylıkta %0,9–1,3, çeyreklikte %1,3–2,9 (C1 10/757, C2j 18/757, C2 22/757). |SPY| ya da |GLD| > %3 olan bir günden sonra hemen yenile (05.11.2026'da b_SPY tek günde 0,88 → 0,76).",
+  "A4_beta60_sigma_e": "Haftada bir. Hata oranı haftalıkta %1,0, aylıkta %2,5, çeyreklikte %7,5 (2024-06 → 2026-11, 600 VİOP günü). 60 ve 120 günlük pencereler E2'nin 250 gününden hızlı değişir.",
+  "LOWMOM_esik": "Yılda bir. Genişleyen 2010+ yüzdelik; son 12 ayda %11,45–11,67 arasında.",
+  "HV_esdegeri": "Yılda bir (aynı yüzdelik mantığı).",
+  "E2_esikleri": "Hiç değiştirme (IS 2008–2017'de donduruldu; yeniden kalibrasyon sinyal seçimini bozar)."
+ },
+ "denetim": {
+  "tarih": "2026-11-08",
+  "yontem": "Bağımsız denetçi; sinyal_altin.py içe aktarılmadan, ham Yahoo adjclose (panel/yahoo) ve Dukascopy saatlik + Kasım dakikalık XAUUSD'den yeniden hesap: denetim_rehber/d_param.py, d_guncel.py.",
+  "birebir_tutanlar": [
+   "E2 betaları (Cuma dahil ve Pazartesi betik penceresi; GDX ve GDXJ, 4 hane) ve 12 aylık aralıklar",
+   "E2 eşikleri IS (≤2017) kantillerinden: C2j +%0,6672 / −%0,9247, C2 +%0,8064, C1 +%2,5148 ve kaplama −%4,0224",
+   "Pazartesi x: C2j %3,674, C2 %9,493 (sabit betayla %9,01), C1 %9,653 (sabit betayla %9,113)",
+   "A4: Pazartesi β60 2,0185, σ_e %1,5413, eşik %0,6627, z 2,841; Salı+ β60 1,9964, σ_e %1,5867, eşik %0,6823; 12 ay β 1,204–2,201, σ %1,466–2,144",
+   "LOWMOM: rv20 eşiği %11,668, Cuma rv20 %20,99, yüzdelik 0,877, x5 %3,291, son aktif gün 2025-09-22, 12 ay eşik %11,451–11,668; 15:00 UTC spot serisi panel_spot ile 4.354/4.354 gün aynı (maks fark 0)",
+   "E3-1 eşik fiyatı 4.065,685 (06.11 21:00 UTC = 16:00 ET); A8-3 açık dilimler 03–05.11 KISA, 06.11 UZUN → −0,4",
+   "Güncelleme sıklığı hata sayıları (E2 haftalık/aylık/çeyreklik: C2j 1/7/18, C2 6/10/22, C1 3/6/10 gün / 757)",
+   "HV teorik eşik 13,69 ve Cuma HV365 (17:00 NY) 28,70"
+  ],
+  "duzeltilenler": [
+   "guncelleme_onerisi.E2_betalari: çeyreklik hata oranı %2,4–2,9 değil %1,3–2,9 (C1 10/757 = %1,3).",
+   "LOWMOM.TradingView_HV20.kullanim: '≥17 pasif (yanılma ≈%5)' kuralı sade_esikler.json ile çelişiyordu (orada OANDA ≥21). Uyumlu hale getirildi: ≥22 kesin pasif, 17–22 büyük olasılıkla pasif; canlı mum ve 2010–2016 kanıtı eklendi.",
+   "TradingView HV göstergesinin varsayılan uzunluğu (10) ve annual = 365 notu eklendi."
+  ],
+  "kucuk_farklar": [
+   "HV365 1/3 kantil eşiği: denetçinin örneklemiyle 13,86 (burada 13,67); fark örneklem/bayatlık kuralından. Uyum oranı genişleyen yüzdelik etiketiyle 0,834 (burada sabit bugünkü eşikle 0,858). İkisi de HV'nin yalnız ön eleme olduğunu doğruluyor."
+  ],
+  "sade_esikler_ile_fark": {
+   "aciklama": "Bu dosya HAFTALIK güncellenen, log getirili ve betikle aynı pencereli parametreleri verir. sade_esikler.json AYLIK (ay başında, 30.10.2026'da biten pencere), basit % getirili sade sürümün sayılarını verir; sade_backtest.py bu aylık sürümü test etti (A4 OOS 0,74, E2 sabit beta ≈ asıl). İkisi de geçerli, ama aynı hesapta karıştırılmamalı: β ile eşik aynı kaynaktan alınmalı.",
+   "A4_kasim_2026": {
+    "bu_dosya_sali_10_11_ve_sonrasi": {
+     "beta": 1.9964,
+     "esik_pct": 0.6823
+    },
+    "sade_esikler_aylik": {
+     "beta": 2.051,
+     "esik_pct": 0.631
+    }
+   },
+   "E2_GDXJ_kasim_2026": {
+    "bu_dosya_cuma_dahil": {
+     "b_GLD": 1.5135,
+     "b_SPY": 1.0017
+    },
+    "sade_esikler_aylik": {
+     "b_GLD": 1.485,
+     "b_SPY": 1.1
+    }
+   },
+   "E2_GDX_kasim_2026": {
+    "bu_dosya_cuma_dahil": {
+     "b_GLD": 1.3924,
+     "b_SPY": 0.7721
+    },
+    "sade_esikler_aylik": {
+     "b_GLD": 1.364,
+     "b_SPY": 0.875
+    }
+   },
+   "oneri": "Hesaplayıcı tek kaynak kullanmalı. Betikle en yakın sonuç için bu dosyanın haftalık değerleri (log getiri); bakım kolaylığı için sade_esikler.json'ın aylık değerleri (basit %). GDX b_SPY'deki 0,875 → 0,772 farkı 05.11 SPY −%4,5 gününün pencereye girmesinden; |SPY| > %3 günden sonra yenileme kuralı bunun için."
+  }
+ }
+}
