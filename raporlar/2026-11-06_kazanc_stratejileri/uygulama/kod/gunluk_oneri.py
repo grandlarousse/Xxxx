@@ -37,7 +37,8 @@ NOTLAR
     olur ve son basarili calismanin tetikleri pay bulteninin kapanis fiyatlariyla kontrol edilir (yedek kip).
   * Is Yatirim bazen KISALTILMIS gecmis donduruyor (denetim 08.11: GARAN 1 yil): ilk tarihi istenenden > 30 gun sonra gelen
     seri bir kez daha istenir, uzun olani alinir.
-  * Bos onbellekle sure ~3 dk (08.11 olcumu 178 sn: 163 + 60 + ~8 istek); dolu onbellekle ~30 sn; Is Yatirim kapaliyken ~2 dk.
+  * Bos onbellekle sure ~3 dk (08.11 olcumu 178 sn: 163 + 60 + ~8 istek; denetimde Is Yatirim yarida kopunca 382 sn);
+    dolu onbellekle ~30 sn; Is Yatirim hic acilmazsa yoklamayla ~7 dk (ust sinir ~8,5 dk).
   * Ham veri onbellegi --veri klasorundedir; depoya konmaz. durum.json ve makro.json kucuk durum dosyalaridir (ham veri degil).
   * Bilgi amaclidir; yatirim tavsiyesi degildir.
 """
@@ -210,9 +211,14 @@ def isy_istek(kod, bas, son, bekle):
         p["from"] = (bas - timedelta(days=k + 1)).strftime("%Y%m%d000000")
     if baglanti_hatasi == 3:
         ISY["hata_ardisik"] += 1
-        if ISY["hata_ardisik"] >= 3:
+        if ISY["hata_ardisik"] >= 2:   # denetim 08.11: 3 -> 2 (her basarisiz seri ~35 sn yakiyor)
             ISY["down"] = True
     return pd.Series(dtype=float, name=kod)
+
+
+def _supheli(s, bas):
+    """Kesik bas ya da ortada > 20 takvim gunu delik (BIST'te en uzun tatil koprusu ~9-10 gun)."""
+    return bool(s.index[0] > pd.Timestamp(bas) + pd.Timedelta(days=30) or (len(s) > 1 and s.index.to_series().diff().dt.days.max() > 20))
 
 
 def isy_seri(kod, pxdir, bas, simdi, bekle, cevrimdisi):
@@ -238,17 +244,25 @@ def isy_seri(kod, pxdir, bas, simdi, bekle, cevrimdisi):
                 s = pd.concat([eski[eski.index < yeni.index[0]], yeni])
     if s is None:
         s = isy_istek(kod, bas, simdi, bekle)
-        # DENETIM 08.11: Is Yatirim aralikli olarak KISALTILMIS gecmis donduruyor (GARAN 1 yil, OTKAR/ODAS 2024-03'ten).
-        # Ilk tarih istenen baslangictan > 30 gun sonraysa bir kez daha iste, uzun olani al (yeni halka arzlarda ikisi ayni cikar).
-        if len(s) and s.index[0] > pd.Timestamp(bas) + pd.Timedelta(days=30) and not ISY["down"]:
+        # DENETIM 08.11: Is Yatirim aralikli olarak EKSIK gecmis donduruyor: bas tarafi kesik (GARAN yalniz son 1 yil;
+        # MPARK/ULKER/ODAS/OTKAR 2024-03-29'dan) ya da ortada delik (BTCIM 2024-01-03..2024-03-28 yok). Ilk tarih istenenden
+        # > 30 gun sonraysa ya da iki gun arasi > 20 takvim gunuyse bir kez daha iste; iki cevap ortusen gunlerde tutuyorsa
+        # birlestir, tutmuyorsa uzun olani al (yeni halka arzlarda iki cevap ayni cikar).
+        if len(s) and _supheli(s, bas) and not ISY["down"]:
             s2 = isy_istek(kod, bas - timedelta(days=3), simdi, bekle)
             ISY["kisa_tekrar"] = ISY.get("kisa_tekrar", 0) + 1
-            if len(s2) and s2.index[0] < s.index[0]:
-                s = s2
-        if eski is not None and len(eski) and len(s) and eski.index[0] < s.index[0]:
+            if len(s2):
+                ort = s.index.intersection(s2.index)
+                if len(ort) >= 20 and (s2.reindex(ort) / s.reindex(ort) - 1).abs().max() <= 0.002:
+                    s = s2.combine_first(s)
+                elif len(s2) > len(s):
+                    s = s2
+            if _supheli(s, bas):
+                ISY.setdefault("supheli", []).append(kod)
+        if eski is not None and len(eski) and len(s) and len(eski.index.difference(s.index)):
             ort = eski.index.intersection(s.index)
             if len(ort) >= 20 and (s.reindex(ort) / eski.reindex(ort) - 1).abs().max() <= 0.002:
-                s = pd.concat([eski[eski.index < s.index[0]], s])   # onbellekteki daha uzun gecmisi koru
+                s = s.combine_first(eski)   # onbellekteki daha uzun/deliksiz gecmisi koru (ortusen gunler tutuyorsa)
     s = s[~s.index.duplicated(keep="last")].sort_index()
     if len(s):
         s.rename("px").to_frame().to_csv(fn)
@@ -1181,7 +1195,9 @@ def main():
     son = D["XU100"].index[-1] if "XU100" in D else None
     HV = {}
     if bist_ok:
-        HV = {k: v for k, v in HVb.items() if k in D}
+        # DENETIM 08.11: likidite sirasi tum evrende (fiyati inmeyen hisseler de sirada yer tutar); eskiden yalniz D'dekiler
+        # siralaniyordu ve Is Yatirim yarida kopunca kalan hisseler yapay olarak ilk 75'e girebiliyordu
+        HV = {k: v for k, v in HVb.items() if k in set(hisseler)}
         if n_b < 40:   # bulten yoksa HisseTekil (Is Yatirim) yedegi
             HV = {}
             for i, k in enumerate(hisseler, 1):
@@ -1197,7 +1213,8 @@ def main():
                    f"{len(HV)} hisse 60g medyan TL hacim")
     isy_not = f"{ISY['istek']} istek" + (f"; ikinci tur {ISY['ikinci_tur']} seri" if ISY.get("ikinci_tur") else "") + \
               (f"; {ISY['yoklama']} yoklama" + (" (açıldı)" if ISY.get("yoklama_basari") else " (açılmadı)") if ISY.get("yoklama") else "") + \
-              (f"; kısa geçmiş tekrar {ISY['kisa_tekrar']}" if ISY.get("kisa_tekrar") else "") + \
+              (f"; eksik geçmiş tekrarı {ISY['kisa_tekrar']}" if ISY.get("kisa_tekrar") else "") + \
+              (f" (hâlâ kısa/delikli: {', '.join(ISY['supheli'][:10])}{' …' if len(ISY['supheli']) > 10 else ''}; yeni halka arzlar normal)" if ISY.get("supheli") else "") + \
               ("; BAĞLANTI KOPTU (devre kesici) → önbellek" if ISY["down"] else "") + \
               ("; zaman bütçesi aşıldı → kalanlar önbellekten" if ISY.get("butce_asildi") or ISY.get("hacim_butce") else "")
     if son is not None:
@@ -1501,6 +1518,10 @@ def main():
         kisa_uyari.append(f"makro.json {makro_yas} gün eski")
     if makro_yeni:
         uyarilar.append("makro.json bu çalışmada 05.11 plan değerleriyle oluşturuldu; Perşembe rezervinden sonra güncelleyin.")
+    if bist_ok and bos:
+        uyarilar.append(f"{len(bos)} seri indirilemedi ({', '.join(bos[:8])}{' …' if len(bos) > 8 else ''}): bu isimler K4 taramasında, küme RS'inde ve "
+                        "PRATİK sinyallerde yok; liste kısa değilse raporu 30–60 dk sonra yeniden üretin.")
+        kisa_uyari.append(f"{len(bos)} seri eksik")
     if ISY["down"]:
         uyarilar.append("İş Yatırım bağlantısı koptu: BIST hesapları " + ("önbellekteki verilerle yapıldı." if bist_ok else "yapılamadı (veri yok)."))
         kisa_uyari.append("İş Yatırım yok" + (" (önbellek)" if bist_ok else ""))
@@ -1574,7 +1595,8 @@ def main():
                tablo(["Kol", "z", "Son |z|≥2 kesişimi", "Not"], [
                    ["K1", f(z1), R["kes1"].date() if R["kes1"] is not None else "—",
                     ("SİNYAL" if abs(z1) >= 2 else "sinyal yok") + (f"; model işlemi: sinyal {km['sinyal']:%d.%m}, çıkış 20. gün" if km is not None else "")],
-                   ["K2", f(z2), R["kes2"].date() if R["kes2"] is not None else "—", "yalnız yeni kesişimde; varsayılan kâğıt"]]),
+                   ["K2", f(z2), R["kes2"].date() if R["kes2"] is not None else "—", "yalnız yeni kesişimde; varsayılan kâğıt"
+                    + (f"; **sepet eksik: {', '.join(u for u in bs.K2_SEPET if u not in D)} → z güvenilmez**" if any(u not in D for u in bs.K2_SEPET) else "")]]),
                "", f"K1 tam tetikler (öbür bacak sabit; SAHOL {f(D['SAHOL'].iloc[-1])}, AKBNK {f(D['AKBNK'].iloc[-1])}): z=+2 → SAHOL ≥ {f(tt.get('SAHOL_z+2'))} "
                f"ya da AKBNK ≤ {f(tt.get('AKBNK_z+2'))}; z=−2 → SAHOL ≤ {f(tt.get('SAHOL_z-2'))} ya da AKBNK ≥ {f(tt.get('AKBNK_z-2'))}. "
                f"Kapı: Kural 0 = {'E' if M.get('kural0') else 'H'}, komisyon = {M.get('komisyon_viop_bps') or '—'} bps (≤ 5 gerekir).",

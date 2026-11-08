@@ -98,22 +98,23 @@ Seçenekler:
 | TCMB | (yalnız kod hazır, şu an kullanılmıyor) | 0 | — |
 
 **Ölçülen süre:**
-- Boş önbellekle (taze konteyner) **178 sn**, 08.11 01:55'te ölçüldü. Bunun 109 sn'si 163 fiyat serisi, ~60 sn'si 60 pay bülteni (~15 MB).
-- İş Yatırım kapalıyken yedek kipte 114 sn.
-- Dolu önbellekle ~90 sn. Bunun ~60 sn'si pay bültenleri.
+- Boş önbellekle (taze konteyner) **178 sn**, 08.11 01:55'te ölçüldü (inşa). Bunun 109 sn'si 163 fiyat serisi, ~60 sn'si 60 pay bülteni (~15 MB).
+- Denetim 08.11, boş önbellek: İş Yatırım 02:56'da açıktı, 120. seriden sonra koptu → **382 sn**, 145/163 seri, rapor çıktı (eksik 18 seri uyarısıyla). İş Yatırım baştan kapalıyken (yoklama eklenmeden önce) 117 sn.
+- Üst sınır: İş Yatırım hiç açılmazsa ~6,5–7 dk (yoklama 360. sn'ye kadar); son yoklamada açılırsa ~8,5 dk. Hepsi 10 dk sınırının altında.
+- Dolu önbellekle ~30 sn.
 
 **İş Yatırım bağlantısı aralıklı koptu.** 07–08.11 gecesi, bu ortamdan İş Yatırım bağlantıları dakikalarca "connection reset" verdi, sonra yeniden açıldı. Betik bunun için:
 - **Devre kesici:** Hiç başarı yokken 2 bağlantı hatası, ya da 3 ardışık başarısız kod, o kaynağı "kapalı" sayar. Böylece dakikalarca beklenmez.
 - **İkinci tur:** Pay bültenleri indirilince (~1 dk sonra) eksik serileri bir kez daha dener.
 - **Yoklama (denetim 08.11):** Hâlâ kapalıysa diğer kaynaklar bittikten sonra ~60 sn'de bir **tek** istekle yoklar (`--isy-son`, varsayılan çalışmanın 360. sn'sine kadar). Açılırsa eksik serileri indirir. Hiç açılmazsa çalışma ~7 dk sürer ve rapor yedek kipte çıkar.
-- **Kısaltılmış geçmiş koruması (denetim 08.11):** İş Yatırım zaman zaman istenenden **kısa** geçmiş döndürüyor (07.11 gecesi GARAN yalnız son 1 yıl, MPARK/ULKER/ODAS/OTKAR 2024-03'ten). GARAN'ın kısa gelmesi BANKA kümesinin 12 ay RS'ini +%3,9 yerine +%4,5, KCHOL RS'ini 84 yerine 85 gösterdi ve GARAN'ı K4 taramasından düşürdü. Betik artık ilk tarihi istenen başlangıçtan > 30 gün sonra gelen seriyi bir kez daha ister ve uzun olanı alır (yeni halka arzlarda iki cevap aynıdır; ~14 ek istek). Önbellekteki daha uzun geçmiş, örtüşen günler tutuyorsa korunur; artımlı güncellemede örtüşen günler %0,2'den fazla farklıysa (temettü/bölünme düzeltmesi) seri baştan indirilir.
+- **Eksik geçmiş koruması (denetim 08.11):** İş Yatırım zaman zaman **eksik** geçmiş döndürüyor: başı kesik (07.11 gecesi GARAN yalnız son 1 yıl, MPARK/ULKER/ODAS/OTKAR 2024-03-29'dan) ya da ortada delikli (AEFES ve BTCIM'de 2024-01-03…2024-03-28 yok). Delik, satır sayısına dayanan her hesabı (SMA200, 252 gün zirvesi, RS getirileri) kaydırır. Betik ilk tarihi istenenden > 30 gün sonra gelen ya da iki işlem günü arasında > 20 takvim günü boşluk olan seriyi bir kez daha ister; iki cevap örtüşen günlerde tutuyorsa birleştirir. Düzelmeyenler §6'da "hâlâ kısa/delikli" diye yazılır (12 yeni halka arz normaldir). GARAN'ın kısa gelmesi BANKA kümesinin 12 ay RS'ini +%3,9 yerine +%4,5, KCHOL RS'ini 84 yerine 85 gösterdi ve GARAN'ı K4 taramasından düşürdü. Yeni halka arzlarda iki cevap aynıdır (~12 ek istek). Önbellekteki daha uzun/deliksiz geçmiş, örtüşen günler tutuyorsa korunur; artımlı güncellemede örtüşen günler %0,2'den fazla farklıysa (temettü/bölünme düzeltmesi) seri baştan indirilir.
 
 ## 5. Hata durumları
 
 | Durum | Raporda ne görünür | Ne yapılır |
 |---|---|---|
 | İş Yatırım kapalı, önbellek boş (taze konteynerde tipik) | Betik ~6 dk boyunca yoklar. Açılmazsa §1–3 "veri yok". §0'da "BIST verisi yok → yeni giriş yok". **Yedek kip:** son başarılı çalışmanın tetikleri (durum.json `bist.tetikler`: K4, K1, PRATİK, Koza; %10 içindekiler) pay bülteni kapanışıyla kontrol edilir; tetiklenen ya da %3 içinde kalanlar bildirime de yazılır | Zamanlanmış oturum ya da siz komutu 30–60 dk sonra yeniden çalıştırın (aynı akşam, aynı komut). Açık pozisyonları dünkü stoplarla yönetin |
-| İş Yatırım yarıda koptu | §6'da "x/163 seri; bulunamayan: …". Eksik hisse K4 taramasından düşer | Bulunamayan listesi kısaysa rapor kullanılabilir. XU100, XBANK, SAHOL ya da AKBNK eksikse BIST bölümü çıkmaz |
+| İş Yatırım yarıda koptu | Üstte "N seri indirilemedi" uyarısı, bildirimde "N seri eksik"; §6'da "x/163 seri; bulunamayan: …". Eksik hisse K4 taramasından ve küme RS'inden düşer (likidite sırası yine tüm evrende); K2 sepeti eksikse "z güvenilmez" yazar | Bulunamayan listesi kısaysa rapor kullanılabilir. XU100, XBANK, SAHOL ya da AKBNK eksikse BIST bölümü çıkmaz |
 | VİOP bülteni yayımlanmadı | §6 "BAYAT" (dünkü bülten) | İma oranları, altın ve baz satırları dünkü değerdir. 21:15 sonrası yeniden çalıştırın |
 | FRED ya da CBOE yok | §5 "veri yok", son durum durum.json'dan | Sayaçlar ilerlemez. Bir sonraki başarılı çalışmada kaçırılan ABD günleri sırayla işlenir |
 | makro.json 7 günden eski | Üstte uyarı, §6'da BAYAT | Perşembe 14:30 rezervini girin (§6) |

@@ -1,7 +1,7 @@
 {
  "aciklama": "Kalici durum (gunluk_oneri.py her calismada okur ve yazar). 'ayarlar' ve 'acik_pozisyonlar' elle duzenlenir; 'abd' blogu PLAN_ABD s2.2-2.6 sayaclaridir (elle duzeltme: OTOMASYON.md).",
  "surum": 1,
- "son_calisma": "2026-11-08 02:01 TSI",
+ "son_calisma": "2026-11-08 03:05 TSI",
  "ayarlar": {
   "hesap_tl": 1000000,
   "pratik_sahol_akbnk": "kagit",
@@ -104,70 +104,70 @@
     "kol": "K1",
     "en": "SAHOL",
     "kosul": "kapanış ≥ (AKBNK sabit)",
-    "seviye": 93.059,
+    "seviye": 93.031574,
     "islem": "z=+2 → ertesi gün F_SAHOL SAT + F_AKBNK AL"
    },
    {
     "kol": "K1",
     "en": "AKBNK",
     "kosul": "kapanış ≤ (SAHOL sabit)",
-    "seviye": 64.4016,
+    "seviye": 64.420548,
     "islem": "z=+2 → ertesi gün F_SAHOL SAT + F_AKBNK AL"
    },
    {
     "kol": "K1",
     "en": "SAHOL",
     "kosul": "kapanış ≤ (AKBNK sabit)",
-    "seviye": 84.0873,
+    "seviye": 84.050578,
     "islem": "z=−2 → ertesi gün F_SAHOL AL + F_AKBNK SAT"
    },
    {
     "kol": "K1",
     "en": "AKBNK",
     "kosul": "kapanış ≥ (SAHOL sabit)",
-    "seviye": 71.2729,
+    "seviye": 71.304031,
     "islem": "z=−2 → ertesi gün F_SAHOL AL + F_AKBNK SAT"
    },
    {
     "kol": "PRATİK",
     "en": "SAHOL",
     "kosul": "≥ (AKBNK sabit), z=+1,5",
-    "seviye": 91.8334,
+    "seviye": 91.833435,
     "islem": "aynı gün uzlaşmada F_SAHOL SAT + F_AKBNK AL (kâğıt)"
    },
    {
     "kol": "PRATİK",
     "en": "AKBNK",
     "kosul": "≤ (SAHOL sabit), z=+1,5",
-    "seviye": 63.589,
+    "seviye": 63.588987,
     "islem": "aynı gün uzlaşmada F_SAHOL SAT + F_AKBNK AL (kâğıt)"
    },
    {
     "kol": "PRATİK",
     "en": "SAHOL",
     "kosul": "≤ (AKBNK sabit), z=−1,5",
-    "seviye": 85.4407,
+    "seviye": 85.440696,
     "islem": "aynı gün uzlaşmada F_SAHOL AL + F_AKBNK SAT (kâğıt)"
    },
    {
     "kol": "PRATİK",
     "en": "AKBNK",
     "kosul": "≥ (SAHOL sabit), z=−1,5",
-    "seviye": 70.9224,
+    "seviye": 70.922377,
     "islem": "aynı gün uzlaşmada F_SAHOL AL + F_AKBNK SAT (kâğıt)"
    },
    {
     "kol": "KOZA",
     "en": "TRMET",
     "kosul": "kapanış ≥ (TRALT, TRENJ yatay)",
-    "seviye": 116.765,
+    "seviye": 116.924096,
     "islem": "aynı gün uzlaşmada TRMET1! AL + TRALT1! SAT"
    },
    {
     "kol": "KOZA",
     "en": "TRMET",
     "kosul": "kapanış ≤ (TRALT, TRENJ yatay)",
-    "seviye": 105.5393,
+    "seviye": 105.155119,
     "islem": "aynı gün uzlaşmada TRMET1! SAT + TRALT1! AL"
    }
   ]
