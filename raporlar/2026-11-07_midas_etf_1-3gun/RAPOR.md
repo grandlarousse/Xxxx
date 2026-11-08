@@ -22,7 +22,7 @@
 > - **Endeksler ve oynaklık:** VIX 25,6; VIX/VIX3M 1,04, yani ters (backwardation) vade yapısı.
 > - **SMH:** 20 günlük oynaklık %62. Bu, 10 yılın %97'lik dilimi demek. SMH zirvesinden −%31 aşağıda; günlük 1 standart sapmalık hareket ≈ 390 bp.
 > - **QQQ:** oynaklık %33 (%90'lık dilim), zirveden −%14.
-> - **Diğerleri:** EWY'nin oynaklığı %72 (%97'lik dilim); SOXL zirvesinden −%85 aşağıda.
+> - **Diğerleri:** EWY'nin oynaklığı %71 (%97'lik dilim); SOXL 52 haftalık zirvesinden −%85 aşağıda.
 >
 > **Bu ne demek?** A2'nin beklentisi işlem başına ~+35 bp; bu rejimde tek bir günün olağan hareketi bunun ~10 katı.
 > - Tarihsel olarak A2 yüksek oynaklıkta daha iyi çalıştı: yüksek oynaklık dönemlerinde +65 bp (t 2,7), 2026'da +109 bp (n=38).
@@ -37,7 +37,7 @@
 - **Çalışmayanlar:** Doğalgaz, petrol, altın-gümüş, VIX, kripto, döviz, tarım, sektör rotasyonu, takvim etkileri (FOMC, CPI, ay sonu…) ve kırılım stratejileri. "Millet doğalgaz, altın trade ediyor" ama bu ürünlerde 1-3 günlük, maliyeti yenen, sağlam bir giriş kuralı bulunamadı.
 
 **Lead-lag:**
-- 1-3 günlük ufukta, maliyet sonrası işe yarayan **doğrulanmış gecikmeli öncü yok.** 286 hedef ETF × 48 öncü = 13.694 çift tarandı. Dokuz ailenin dokuzunda denetçi de bunu teyit etti.
+- 1-3 günlük ufukta, maliyet sonrası işe yarayan **doğrulanmış gecikmeli öncü yok.** 286 hedef ETF × 48 öncü, kendi-çiftler hariç 13.694 çift tarandı. Dokuz ailenin dokuzunda denetçi de bunu teyit etti. Gecikme testinde FDR'yi geçen 43 bayrağın çoğu döviz ETF'lerinde (1 sd başına 5-9 bp, maliyetin altında); kalanlar IGV/SKYY/KWEB'de negatif gecikmeler (yalnız 'alma' filtresi).
 - İlk taramada FDR'yi geçen 1 günlük "yetişme" bayraklarının çoğu dağıtım verisindeki bir hatadan doğmuştu. Hata düzeltilince sayı 288'den 2'ye indi. 3 günlükte 110 bayrak kaldı; bunlar ETF'in kendi ortalamaya dönüşünü yansıtıyor ve maliyeti karşılamıyor.
 - Doğru kullanım:
   1. **Aynı gün sürücüler:** ETF'yi neyin hareket ettirdiğini gösterir; öncü değildir.
@@ -47,7 +47,7 @@
 **Kuralların gerçek getirisi (10.000 $ portföy simülasyonu, §6):**
 - A1 sermayenin yarısıyla, A2 dörtte biriyle uygulansaydı (2017-2026) yıllık bileşik getiri **%13,3**, en büyük düşüş **−%8,8** olurdu. Hesap günlerin %37'sinde piyasadaydı.
 - Aynı dönemde QQQ'yu al-tut %19,3 getirdi ama −%35 düşüş yaşattı.
-- Yani bu kurallar boğa döneminde al-tut'u **getiride geçmiyor**. Sağladıkları şey çok daha düşük düşüş ve piyasa maruziyeti.
+- Yani bu kurallar boğa döneminde al-tut'u **getiride geçmiyor** (A1 tek başına %100 ağırlıkla bile %14,6). Sağladıkları şey çok daha düşük düşüş ve piyasa maruziyeti.
 
 **Midas'a özgü üç pratik kural:**
 1. **Pozisyon en az ~2.500 $ olsun.** 1.000 $'da komisyon gidiş-dönüş 30 bp eder; SMH ve SPY kenarını yer. A1 + A2 birlikte için ≥ 5.000 $ gerekir. Daha küçük hesapta yalnız A1 (QQQ).
@@ -138,7 +138,7 @@ Stop yok; backtest stopsuz yapıldı. Pozisyondayken gelen yeni sinyal yok sayı
 - 1.000 $'da +24 bp.
 - Denetçinin gerçekçi tahmini: 2.500 $'da 31-36 bp; 1.000 $'da eşik altı.
 - SOXX (kopya): +44 bp.
-- SOXL (3x, A2-3x, zayıf): +148 bp ama maxDD −%53; SOXL Haziran 2026'dan beri −%82'de.
+- SOXL (3x, A2-3x, zayıf): +148 bp ama maxDD −%53; SOXL şu an 52 haftalık zirvesinin −%85 altında.
 
 **Oynaklık rejimine göre:**
 
@@ -155,7 +155,7 @@ Kenar sakin dönemlerde neredeyse yok.
 
 ### A1 ve A2 birlikte
 
-İkisi aynı risk faktörü: sinyallerin ~%70'i aynı günlerde geliyor, pozisyondaki günlük getiri korelasyonu 0,27. Kural: **A1 ana kural; A2 yalnız A1'de pozisyon yokken tam boyutla, varsa yarım boyutla.**
+İkisi aynı risk faktörü: A1 sinyallerinin ~%90'ı A2 sinyal günlerine düşüyor (A2 sinyallerinin ise ~üçte biri A1 ile aynı gün); pozisyondaki günlük getiri korelasyonu 0,27. Kural: **A1 ana kural; A2 yalnız A1'de pozisyon yokken tam boyutla, varsa yarım boyutla.**
 
 ## 3. Zayıf kanıtlı kurallar (Kademe B: kağıt üstünde izle ya da çok küçük boyut)
 
@@ -164,15 +164,15 @@ B4 dışındakiler kabul eşiğini biçimsel olarak geçiyor ama denetçinin sa�
 | Kod | Kural | Araç | Giriş · tutuş | Net bp (t) · C0/O1/C1 | Neden zayıf |
 |---|---|---|---|---|---|
 | B1 | SPY IBS < 0,10 + düşüş | SPY (SSO / SPXL) | C1 · 3 gün | +54 (2,9) · 37/26/54 | Seçilmiş "sivri tepe"; seçim düzeltmeli p = 0,20. VIX < 20'de 1.000 $'da negatif. QQQ ile aynı gün sinyal verirse yalnız A1 |
-| B2 | GDXJ IBS < 0,10 + düşüş | GDXJ (JNUG) | C0 · 3 gün | +102 (3,4) · 102/68/24 | Madenci havuzunda IS kanıtı yok (t 0,5); eşik komşuluğunda IS çöküyor. Kapanışa bağımlı: kapanış kaçarsa atla. maxDD −%26 |
+| B2 | GDXJ IBS < 0,10 + düşüş | GDXJ (JNUG) | C0 · 3 gün | +102 (3,4) · 102/68/24 | Madenci havuzunda IS kanıtı yok (t 0,5); eşik komşuluğunda IS çöküyor. Kapanışa bağımlı: kapanış kaçarsa atla. maxDD −%25 |
 | B3a / B3b | Ay sonu: son işlem günü kapanışı → yeni ayın 3. işlem günü kapanışı | GDX (B3a) ya da GLD (B3b) | C0 · 3 gün | GDX +74 (2,0); GLD +34 (2,2) | En iyi 5 işlem çıkarılınca t < 1,2; son yıllara bağımlı. İkisi aynı bahis |
 | B4 | SPY ≤ −%1,5 olan günde SPY'dan çok düşen Asya ETF'leri | EWJ, EWY, EWT, FXI, EWA, EWH | C0 · 1 gün | +57 (işlem bazında t 3,2; **gün kümeli t 1,9**) · 57/−3/29 | Aynı gün açılan işlemler bağımsız değil: gün bazında t 1,9, eşik altı. En iyi 5 gün çıkarılınca t 0,8. Ertesi açılışta girmek zararlı |
 | B5 | EWY IBS < 0,10 + düşüş | EWY (KORU) | C0 · 1 gün | +42 (3,1) · 42/6/−9 | Taramadan seçildi; 2026'nın aşırı oynaklık rejimine bağlı |
 | B6 | 10Y Hazine ihalesinden 3 iş günü önce kapanışta al, ihaleden 1 gün önce kapanışta sat | TBT (tercih) ya da TMV | C0 · 2 gün | TBT +61 (2,8); TMV +102 (3,1) | 2002-2016'da çalışmıyor; global FDR yok; ters kaldıraçlı ürün; Midas doğrulanmadı |
-| B7 | EIA doğalgaz raporundan önceki gün kapanışta al, rapor günü kapanışında sat (yalnız Kasım-Mart) | KOLD ⚠ | C0 · 1 gün | +118 (2,5) · 118/79/−27 | Mevsim ayrımı sonradan yapıldı; en iyi 10 işlem çıkarılınca t 0,6; PTP; tek işlemde −%16 |
+| B7 | EIA doğalgaz raporundan önceki gün kapanışta al, rapor günü kapanışında sat (yalnız Kasım-Mart) | KOLD ⚠ | C0 · 1 gün | +118 (2,5) · 118/79/−27 | Mevsim ayrımı sonradan yapıldı; en iyi 10 işlem çıkarılınca t 0,6; PTP; tek işlemde −%17 |
 | B8 | USO alt Bollinger (20, 2) kırılımı → ertesi gün kapanışta al, 2 gün tut | USO ⚠ | C1 · 2 gün | +108 (2,8) · −35/−4/108 | Genel taramadan seçildi; yalnız gecikmeli girişte çalışıyor; evrende tekrar etmiyor. TradingView'da StdDev **2,05** girin (popülasyon std farkı) |
 | B9 | SVXY RSI(2) < 10 ve SVXY > SMA200 | SVXY ⚠; PTP teyidi yoksa aynı sinyalle **QQQ / QLD** | C0 · 2 gün | +157 (3,2) · 157/108/−28 | IS kanıtı yalnız 2021; 2010-2018 vekilinde kenar 0; Şubat 2018 tipi kuyruk riski. SVIX elendi |
-| B10 | Mega-cap hisse RSI(2) < 10 ve hisse > SMA200; hisse > SMA5 kapanınca ya da en geç 3 gün sonra çık | 2x ETF: NVDL, TSLL, AMZU, MSFU, GGLL (AAPU, METU yedek). Kaldıraçlı ETF yoksa **hissenin kendisi** | C0 · ≤ 3 gün | ETF sepeti +120 (2,7; gün kümeli 2,65) · 120/104/98 | Sonradan seçilmiş kazanan hisseler: aynı kural önceden seçilmiş 47 hissede çalışmıyor (+12 bp, t 0,8). 2020 ve 2024'e bağlı. Aynı anda en çok 2 hisse |
+| B10 | Mega-cap hisse RSI(2) < 10 ve hisse > SMA200; hisse > SMA5 kapanınca ya da en geç 3 gün sonra çık | 2x ETF: NVDL, TSLL, AMZU, MSFU, GGLL (AAPU, METU yedek). Kaldıraçlı ETF yoksa ya da yüksek oynaklık rejiminde (şu an) **hissenin kendisi** | C0 · ≤ 3 gün | ETF sepeti +120 (2,7; gün kümeli 2,65) · 120/104/98 | Sonradan seçilmiş kazanan hisseler: aynı kural önceden seçilmiş 47 hissede çalışmıyor (+12 bp, t 0,8). 2020 ve 2024'e bağlı. Test edilen hâl: her sinyale eşit pay (aynı anda medyan 2, en çok 7 hisse); sermaye kısıtlıysa en düşük RSI(2)'li 2 hisse seçimi test edilmedi |
 | F | IBIT/BTC kapanış > SMA10 > SMA50 | (filtre) | — | IBIT +30 (0,6) | **Strateji değil**; en fazla "BTC trendi yukarı mı" filtresi |
 
 **Takvimli B kurallarının yakın tarihleri** (`kod/sinyal.py` her akşam hesaplar):
@@ -256,7 +256,7 @@ Ayrıntı: `notlar/aile_*.md` ve `notlar/denetim_*.md`.
 Tam tablo: **`IZLEME_LISTESI.md`**; kural kodları, araç rolleri, sürücüler ve gerçek zamanlı kodlarla. Altında "popüler ama alınmayanlar, neden?" bölümü var. ETF başına kart: **`kartlar/<SYM>.md`**.
 
 **TradingView'a içe aktarma:** İzleme listesi menüsünden "Listeyi içe aktar" ile yüklenir.
-- `izleme_listeleri/TUM_ETF_bolumlu.txt`: tekrarsız 153 sembol. Önce aile bazında ETF bölümleri gelir, sonra "Ortak sürücüler" ve "Gerçek zamanlı izleme" bölümleri.
+- `izleme_listeleri/TUM_ETF_bolumlu.txt`: tekrarsız 150 sembol. Önce aile bazında ETF bölümleri gelir, sonra "Ortak sürücüler" ve "Gerçek zamanlı izleme" bölümleri.
 - Ayrıca aile bazında ayrı dosyalar var: `<aile>.txt`.
 
 Çekirdek liste (kabul):
@@ -279,12 +279,13 @@ Doğalgaz (UNG⚠, KOLD⚠), petrol (USO⚠, UCO⚠, SCO⚠, BNO⚠), gümüş (
 | Ağırlık (özsermayenin) | Yıllık bileşik | Yıllık oynaklık | En büyük düşüş | İşlem/yıl | Piyasada gün |
 |---|---|---|---|---|---|
 | **A1 %50 + A2 %25** | **%13,3** | %8,8 | **−%8,8** (08.04.2025) | ~68 | %37 |
-| A1 %100 | %13,5 | %12,8 | −%12,4 (16.03.2020) | ~18 | %22 |
-| A2 %100 | %27,7 | %18,1 | −%17,0 (14.10.2022) | ~50 | %20 |
+| A1 %100 | %14,6 | %12,8 | −%12,1 (16.03.2020) | ~18 | %22 |
+| A2 %100 | %28,0 | %18,1 | −%16,8 (14.10.2022) | ~50 | %20 |
 | A1 %25 + A2 %25 | %9,2 | %6,2 | −%6,7 | ~68 | %37 |
 | *Karşılaştırma: QQQ al-tut* | *%19,3* | — | *−%35,1* | — | *%100* |
 
-- **Yıllık getiriler (A1 %50 + A2 %25):** 2017 +5,3 · 2018 +8,1 · 2019 +7,4 · 2020 +38,0 · 2021 +7,8 · 2022 +3,9 · 2023 +21,7 · 2024 +14,8 · 2025 +10,3 · 2026 +13,3 (%). Kayıplı yıl yok, ama getirinin büyük kısmı kriz yıllarında (2020) geliyor.
+- **Yıllık getiriler (A1 %50 + A2 %25):** 2017 +5,3 · 2018 +8,8 · 2019 +7,4 · 2020 +38,0 · 2021 +7,8 · 2022 +4,5 · 2023 +21,3 · 2024 +14,8 · 2025 +10,6 · 2026 +14,2 (%; önceki yıl sonuna göre). Kayıplı yıl yok, ama getirinin büyük kısmı kriz yıllarında (2020) geliyor.
+- **Not:** A1 %100 tek başına %14,6 getiriyor; A1 %50 + A2 %25 bileşimi getiriden biraz feragat edip oynaklığı ve düşüşü azaltıyor.
 - **A2'nin %100 sonucu iyimser.** Kapanış fiyatıyla giriş varsayıyor ve A2 tek bir bağımsız kümeye dayanıyor. Bunu hedef değil, üst sınır olarak okuyun.
 - **Vergi:** Türkiye'de kazanç TL bazında beyan edilir (2026 tarifesi %15-40); net getiri buna göre düşer.
 
@@ -292,7 +293,7 @@ Doğalgaz (UNG⚠, KOLD⚠), petrol (USO⚠, UCO⚠, SCO⚠, BNO⚠), gümüş (
 
 **Kurulum (bir kez):**
 - TradingView'da `kod/tradingview/ibs_dip.pine` ve `rsi2_dip.pine` göstergelerini Pine düzenleyiciye yapıştırıp grafiğe ekle (derlenmedi; hata çıkarsa bildir).
-- Alarmı "**Bar kapanışında bir kez**" ile kur. Kış saatinde TR 00:00'da tetiklenir.
+- Alarmları "**Bar kapanışında bir kez**" ile kur; kış saatinde TR 00:00'da (resmî kapanışta) tetiklenir. Üç alarm var: "IBS sinyali" (C0 kurallarında şimdi after-hours limitle al; C1'de bir şey yapma), "Yarın al (C1)" (ertesi gün kapanıştan ~10 dk önce al) ve "Yarın sat" (ertesi gün kapanışa yakın sat). SOXX grafiğinde sinyal SMH'den hesaplanır.
 - Python kullanacaksan: `python3 -m venv .venv` ve `.venv/bin/pip install requests numpy pandas tzdata`. Sonra `.venv/bin/python kod/sinyal.py` (Windows: `py -m venv .venv`, `.venv\Scripts\python kod\sinyal.py`).
 
 **Yalnız TradingView ile izlenebilenler:**
@@ -310,20 +311,20 @@ Doğalgaz (UNG⚠, KOLD⚠), petrol (USO⚠, UCO⚠, SCO⚠, BNO⚠), gümüş (
 1. **~17:30, isteğe bağlı:** `CME_MINI:NQ1!`, `CME_MINI:ES1!`, `COINBASE:BTCUSD` ile gece boşluğunu gör.
    - Bekleyen bir **O1** girişin varsa açılışta emri ver.
    - Açık pozisyonda panik satışı yapma; kurallar stopsuz test edildi.
-2. **~23:45, kapanışa 15 dk kala:** Bugün çıkış günü olan pozisyonları sat. Yarım günlerde (27.11, 24.12) bu adım **TR 20:45**'te.
+2. **~23:45, kapanışa 15 dk kala:** Bugün çıkış günü olan pozisyonları sat. **İstisna (A2):** SMH'de anlık IBS yine < 0,20 ise satma, bir gün daha tut. Yarım günlerde (27.11, 24.12) bu adım **TR 20:45**'te.
    - **A1'i C1 ile uyguluyorsan:** dün gece A1 sinyali geldiyse **şimdi al.**
-   - **A2 ve C0 kuralları için** kapanış öncesi giriş istiyorsan: `sinyal.py --canli` ya da göstergedeki anlık IBS'ye bak.
-3. **00:00 sonrası, resmî kapanış:** `python kod/sinyal.py` çalıştır ya da gelen alarmlara bak. Bu, kesin kapanışla değerlendirme.
-   - **A1 sinyali varsa:** C1 kullanıyorsan **bu gece bir şey yapma**; yarın 23:50'de al. C0 kullanıyorsan şimdi after-hours limitle al. **İkisini birden yapma.**
+   - **C0 kuralları (A2, B2, B5…) için** kapanış öncesi giriş istiyorsan: `sinyal.py --canli` ya da göstergedeki anlık IBS'ye bak (§2'deki 'ikinci yol').
+3. **00:00 sonrası, resmî kapanış** (yarım günlerde 21:00 sonrası; after-hours penceresi 21:00-01:00): `python kod/sinyal.py` çalıştır ya da gelen alarmlara bak. Bu, kesin kapanışla değerlendirme. **Açık pozisyonun varken aynı kuraldan gelen yeni sinyal yok sayılır** (betik ve gösterge bunu 'YOK SAY' / gri üçgen olarak gösterir).
+   - **A1 sinyali varsa:** C1 kullanıyorsan **bu gece bir şey yapma**; yarın 23:50'de al. C0 kullanıyorsan şimdi after-hours limitle al (ya da bir dahaki sefere kapanış öncesi tahminle, §2). **İkisini birden yapma.**
    - **A2 sinyali varsa:** şimdi (00:00-01:00) after-hours'ta kapanış + 2-5 sent limitle, tam adet al.
 4. **Haftalık:** Takvimli B kuralları, önemli veriler ve bilançolar.
    - CPI ve NFP: TR 16:30. FOMC kararı: TR 22:00. EIA doğalgaz: Perşembe TR 18:30.
    - NVDA bilançosu 17.11 kapanış sonrası (tahmini tarih).
 
 Örnek çıktı (06.11.2026 kapanışı): `sonuclar/sinyal_ornek_2026-11-06.txt`.
-- QQQ'da 02.11 ve 05.11'de sinyal var. C1 pozisyonu 06.11 kapanışında kapandı. C0 kullananın 05.11 girişi 10.11'de kapanır.
+- QQQ'da 02.11 ve 05.11'de sinyal var. C1'de 02.11 sinyaliyle 03.11'de girildi, 06.11'de çıkıldı; 05.11 sinyali pozisyon açıkken geldiği için **yok sayıldı**. C0 kullananın 05.11 girişi 10.11'de kapanır.
 - SMH'nin 05.11 sinyali 06.11'de kapandı.
-- B10'da TSLA sinyaliyle açılan TSLL pozisyonu en geç 09.11'de kapanır.
+- B10'da 04.11 TSLA sinyali var (pozisyon en geç 09.11'de kapanır). Yüksek oynaklık rejimi nedeniyle bu sinyalde araç TSLL değil **TSLA hissesinin kendisi** olmalıydı; betik artık bunu uyarıyor.
 - Bugün yeni A sinyali yok.
 
 ## 8. Risk ve pozisyon kuralları
@@ -331,7 +332,7 @@ Doğalgaz (UNG⚠, KOLD⚠), petrol (USO⚠, UCO⚠, SCO⚠, BNO⚠), gümüş (
 **Eşzamanlı pozisyon kuralı (tek kural):**
 - **Teknoloji riski tek bütçe:** A1, A2, B1, B9 ve B10 aynı risk faktörü (ABD teknoloji / risk iştahı).
   - Aynı anda en fazla A1 tam (özsermayenin ~%50'si) + A2 yarım (~%25).
-  - B1 sinyali A1 ile aynı gün gelirse yalnız A1. B10'da aynı anda en çok 2 hisse.
+  - B1 sinyali A1 ile aynı gün gelirse yalnız A1. B10'da her sinyale eşit küçük pay (test edilen hâl); sermaye kısıtlıysa en çok 2 hisse (seçim kuralı test edilmedi).
 - **Diğer B kuralları:** her biri en fazla ~%10-15, toplam en fazla 3 açık pozisyon.
 
 **Minimum sermaye:**

@@ -27,6 +27,7 @@ Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kural�
 - **Tutuş / çıkış:** 1 işlem günü. 1 günden uzun tutuşta oynaklık kaybı ölçüldü: SOXL-3×SOXX sapması h1 -9 bp, h3 -31 bp, σ20≥%3 iken h3 -75 bp (ortalama). — Ertesi işlem günü kapanışından hemen önce sat. Stop yok.
 - **İşlem aracı:** SOXL (sinyal: SMH)
 - **Geçmiş (ajan):** n=492, net 145.8 bp/işlem (brüt 160.0), kazanma %61, t=4.23, IS 144.0 / OOS 147.7 bp, yılların %91'i pozitif, en kötü işlem -3056 bp
+- **Ana ajan son kontrolü (düzeltilmiş veri, 2.500 $):** C0: net 148 bp (t 4,2, n=483) · O1: net 75 bp (t 2,8, n=483) · C1: net 19 bp (t 0,5, n=409); 1.000 $ pozisyonda ana mod net 130 bp (t 3,7)
 - **Denetçi düzeltmesi:** AH girişi cezası SOXL'de ~3x (yaklaşık -18 bp) varsayılırsa 2.500$ net ~128 bp; risk eşdeğeri (SMH tutarının 1/3'ü) dolar kârı SMH ile aynı.
 - **Denetçi kural düzeltmesi:** Ayrı strateji olarak sunulmamalı; A2'nin isteğe bağlı aracı, yalnız Midas'ta SOXL doğrulanırsa ve SMH tutarının en fazla 1/3'üyle; aynı after-hours giriş kuralı.
 - **Denetim:** Birebir: n=492, brüt 160.0, net 145.8 bp, t 4.23, IS 144.0 / OOS 147.7, maxDD -%53.5, en kötü -3056 bp. En iyi 5 hariç 114.3 (t 3.64); O1 h1 72.3 (t 2.74); C1 h1 kenar ~0. Gün içi test: 15:30 IBS + 15:30 giriş net 190 bp (t 2.22) vs backtest 229 (t 2.59). Sağlamlık: İstatistik olarak A2'nin 3 katı; A2'nin sağlamlık testleri geçerli. 1.000$: 127.8 bp (t 3.71) backtest.

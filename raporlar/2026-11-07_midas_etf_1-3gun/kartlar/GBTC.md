@@ -1,7 +1,7 @@
 # GBTC — Grayscale Bitcoin Trust (BTC)
 
 **TradingView:** `AMEX:GBTC` · **Aile:** Kripto · **İzleme kararı:** kabul  
-**Midas:** doğrulanamadı (uygulamada sembolü arayarak kontrol edin)
+**Midas:** sembol sayfası var (getmidas.com; resmî ürün listesi yok)
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|

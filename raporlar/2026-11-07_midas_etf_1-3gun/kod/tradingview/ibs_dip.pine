@@ -5,7 +5,10 @@
 //   SPY  (B1): IBS<0,10 + düşüş, C1, 3 gün      GDXJ (B2): IBS<0,10 + düşüş, C0, 3 gün      EWY (B5): IBS<0,10 + düşüş, C0, 1 gün
 // İşaretler: yeşil üçgen = kabul edilen sinyal (t kapanışı) · mavi daire = C1 giriş günü (t+1 kapanışı) · turuncu kare = çıkış günü (kapanışta sat)
 // gri küçük üçgen = pozisyondayken gelen sinyal (backtestte yok sayıldı). Çakışma kuralı backtest motoruyla (kod/lib.py trades) aynıdır.
-// Alarm: "Bar kapanışında bir kez" (Once Per Bar Close) seçin; TR 00:00'da (kış) tetiklenir -> C1 için ertesi akşam, A2 için after-hours limit emri.
+// Alarm: hepsini "Bar kapanışında bir kez" (Once Per Bar Close) ile kurun; kışın TR 00:00'da (resmî kapanışta) tetiklenir.
+//   "IBS sinyali"  -> C0 kuralında (A2, B2, B5) şimdi after-hours limitle al; C1 kuralında (A1, B1) bir şey yapma.
+//   "Yarın al (C1)" -> ertesi gün kapanıştan ~10 dk önce al.   "Yarın sat" -> ertesi gün kapanışa yakın sat.
+// SOXX grafiğinde sinyal SMH'nin mumundan hesaplanır (A2 kuralı SMH IBS'ine dayanır).
 //@version=5
 indicator("IBS dip (Midas 1-3 gün)", overlay=true, max_labels_count=200)
 otomatik = input.bool(true, "Ön ayarı sembole göre otomatik seç")
@@ -23,8 +26,13 @@ dusus = useP ? not isA2 : dususG
 tutus = useP ? ((t == "QQQ" or t == "SPY" or t == "GDXJ") ? 3 : 1) : tutusG
 mod   = useP ? ((t == "QQQ" or t == "SPY") ? "C1" : "C0") : modG
 
-ibs = high > low ? (close - low) / (high - low) : na
-sig = not na(ibs) and ibs < esik and (not dusus or close < close[1])
+[smhH, smhL, smhC] = request.security("NASDAQ:SMH", "D", [high, low, close])
+useSMH = useP and t == "SOXX"
+hh = useSMH ? smhH : high
+ll = useSMH ? smhL : low
+cc = useSMH ? smhC : close
+ibs = hh > ll ? (cc - ll) / (hh - ll) : na
+sig = not na(ibs) and ibs < esik and (not dusus or cc < cc[1])
 
 var int entryBar = na
 var int exitBar = na
@@ -47,6 +55,8 @@ if barstate.islast
     table.cell(tb, 0, 1, kabul ? "SİNYAL" : "sinyal yok", bgcolor=kabul ? color.new(color.teal, 60) : color.new(color.gray, 85))
     table.cell(tb, 0, 2, bosta ? "pozisyon yok" : "pozisyon: çıkışa " + str.tostring(exitBar - bar_index) + " gün", bgcolor=color.new(color.orange, 85))
 
-alertcondition(kabul, "IBS sinyali", "{{ticker}}: IBS dip sinyali (kural: RAPOR.md)")
-alertcondition(girisC1, "C1 giriş günü", "{{ticker}}: C1 giriş günü — kapanıştan ~10 dk önce al")
-alertcondition(cikis, "Çıkış günü", "{{ticker}}: çıkış günü — kapanışa yakın sat")
+yarinAl = kabul and mod == "C1"
+yarinSat = not na(exitBar) and bar_index + 1 == exitBar
+alertcondition(kabul, "IBS sinyali", "{{ticker}}: IBS dip sinyali (C0 kuralında şimdi after-hours limit; C1 kuralında yarın al)")
+alertcondition(yarinAl, "Yarın al (C1)", "{{ticker}}: C1 — yarın kapanıştan ~10 dk önce al")
+alertcondition(yarinSat, "Yarın sat", "{{ticker}}: yarın kapanışa yakın sat (çıkış günü)")

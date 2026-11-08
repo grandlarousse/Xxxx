@@ -8,7 +8,7 @@
 | 535 | 14,0 | 180 | %-10,2 | 1,0x | 2016-11-07 |
 
 **Kademe:** B — kural var ama kanıt zayıf (küçük boyut / kağıt üstünde izle)  
-**Neden izleme listesinde:** GLD kopyası (korelasyon 0,998); maliyet 14 bp. Veride 2021-03-08 hatalı bar var (lead-lag'de sahte 'yetişme' üretiyor). GLD yerine ancak hisse fiyatı/kesir tercihi için.
+**Neden izleme listesinde:** GLD kopyası (korelasyon 0,998), maliyet 14 bp. Verideki 2021-03-08 hatalı barı çıkarıldı. B3b'de GLD yerine kullanılabilir; 1-3 günde GLD'ye üstünlüğü yok.
 
 *Dayanak / ana araç kartı: `kartlar/GLD.md` (sürücüler ve gerçek zamanlı izleme listesi orada daha ayrıntılı).*
 

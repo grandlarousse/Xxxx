@@ -1,7 +1,7 @@
 # UNG — United States Natural Gas Fund LP
 
 **TradingView:** `AMEX:UNG` · **Aile:** Enerji ve tarım emtiası · **İzleme kararı:** yedek  
-**Midas:** var (2023-2024) · ⚠ PTP/K-1 yapısı: satışta %10 brüt kesinti (1446(f)) riski — uygulamada 'PTP' ibaresini ve kesintiyi teyit etmeden kısa vadeli işlem yapmayın
+**Midas:** işlem görmüş (2023 kullanıcı kaydı; resmî ürün listesi yok) · ⚠ PTP/K-1 yapısı: satışta %10 brüt kesinti (1446(f)) riski — uygulamada 'PTP' ibaresini ve kesintiyi teyit etmeden kısa vadeli işlem yapmayın
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|

@@ -84,6 +84,7 @@ def portfolio(cap=10000.0, w1=0.5, w2=0.25):
         while j < len(ev) and ev[j][0] <= day:
             e = ev[j]; j += 1
             if e[0] != day: continue
+            if e[3] <= 0: continue            # sıfır ağırlıklı kural işlem açmaz
             if any(p["name"] == e[2] for p in open_pos): continue
             d = e[4]; px = d.at[day, "c"]; amt = equity * e[3]
             sh = amt / px; cost = 1.5 + amt * e[5] / 2; equity -= cost; comm += cost
@@ -93,7 +94,8 @@ def portfolio(cap=10000.0, w1=0.5, w2=0.25):
     E = E[E.index >= q.index[60]]
     r = E["ozsermaye"].pct_change().dropna()
     yr = E["ozsermaye"].groupby(E.index.year).agg(["first", "last"])
-    yr["getiri_%"] = (yr["last"] / yr["first"] - 1) * 100
+    prev = yr["last"].shift(1); prev.iloc[0] = cap          # önceki yıl sonu özsermayesine göre (ilk gün dahil)
+    yr["getiri_%"] = (yr["last"] / prev - 1) * 100
     dd = E["ozsermaye"] / E["ozsermaye"].cummax() - 1
     yrs = (E.index[-1] - E.index[0]).days / 365.25
     summ = {"baslangic": str(E.index[0].date()), "bitis": str(E.index[-1].date()), "son_ozsermaye": E["ozsermaye"].iloc[-1],

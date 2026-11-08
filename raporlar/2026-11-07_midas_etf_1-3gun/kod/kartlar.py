@@ -100,8 +100,11 @@ KAD_TR = {"A": "A — denetimden geçmiş kural var", "B": "B — kural var ama 
 
 def sk_line(sid, sym, fallback=None):
     """Ana ajanın son kontrolü (Yahoo dağıtım düzeltmeli veri, ortak motor). Sepetlerde gün kümeli t de verilir."""
+    sid = KR.SK_ID_ALIAS.get(sid, sid)
     v = SK[(SK["id"] == sid) & (SK["pos_usd"] == 2500) & ((SK["arac"] == sym) | SK["arac"].str.contains("sepet", na=False))]
     note = ""
+    if len(v) and v["arac"].str.contains("sepet", na=False).any():
+        note = f" [sepet rakamı: {v['arac'].iloc[0]}; bu ETF tek başına değil]"
     if v.empty and fallback:
         v = SK[(SK["id"] == sid) & (SK["pos_usd"] == 2500) & (SK["arac"] == fallback)]; note = f" [bu ETF için ayrı hesap yok; ana araç {fallback} rakamları]"
     if v.empty: return ""
@@ -118,7 +121,7 @@ def sk_line(sid, sym, fallback=None):
 
 def midas_line(sym):
     d = MIDAS_DET.get(sym); s = MIDAS_SB.get(sym)
-    txt = (d or {}).get("degerlendirme") or s or "doğrulanamadı (uygulamada sembolü arayarak kontrol edin)"
+    txt = KR.MIDAS_OVR.get(sym) or (d or {}).get("degerlendirme") or s or "doğrulanamadı (uygulamada sembolü arayarak kontrol edin)"
     if sym in PTP:
         txt += " · ⚠ PTP/K-1 yapısı: satışta %10 brüt kesinti (1446(f)) riski — uygulamada 'PTP' ibaresini ve kesintiyi teyit etmeden kısa vadeli işlem yapmayın"
     return txt
@@ -128,7 +131,11 @@ CUR_SYM = None
 def patched(s):
     s = dict(s); pt = KR.STRAT_PATCH.get(s["id"], {})
     for k, v_ in pt.items():
-        if k == "notlar_on": s["notlar"] = v_ + (s.get("notlar") or "")
+        if k == "notlar_replace":
+            for a, b in v_: s["notlar"] = (s.get("notlar") or "").replace(a, b)
+        elif k == "kural_replace":
+            for a, b in v_: s["kural"] = (s.get("kural") or "").replace(a, b)
+        elif k == "notlar_on": s["notlar"] = v_ + (s.get("notlar") or "")
         elif k == "ad_on": s["ad"] = v_ + s["ad"]
         else: s[k] = v_
     return s
@@ -299,6 +306,15 @@ def main():
         if e2: parts += [f"###{FAM_TR[fam_]} ETF"] + e2
     L2 = [x for _, _, lead_, _ in COMBINED for x in lead_ if x not in seen]; L2 = list(dict.fromkeys(L2)); seen.update(L2)
     R2 = [x for _, _, _, rt_ in COMBINED for x in rt_ if x not in seen]; R2 = list(dict.fromkeys(R2))
+    # aynı döviz çiftinin farklı veri kaynakları (FX:USDCNH ve FX_IDC:USDCNH) -> tek kayıt
+    fxbase = set(); R3 = []
+    for x in L2 + R2:
+        pre, base = x.split(":", 1)
+        if pre in ("FX", "FX_IDC", "OANDA") :
+            if base in fxbase: continue
+            fxbase.add(base)
+        R3.append(x)
+    L2 = [x for x in L2 if x in R3]; R2 = [x for x in R2 if x in R3]
     parts += ["###Ortak sürücüler (aynı gün)"] + L2 + ["###Gerçek zamanlı izleme (vadeli / kripto / döviz)"] + R2
     open(os.path.join(ROOT, "izleme_listeleri", "TUM_ETF_bolumlu.txt"), "w").write(",".join(parts) + "\n")
     pd.DataFrame(index, columns=["aile", "sym", "karar", "dogrulanmis_strateji", "kademe"]).to_csv(os.path.join(ROOT, "sonuclar", "kart_indeksi.csv"), index=False)

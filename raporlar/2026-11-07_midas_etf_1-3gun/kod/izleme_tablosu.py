@@ -26,6 +26,10 @@ def red_popular(son):
                 nt = r[r.aile == f]["not"].iloc[0] if len(r[r.aile == f]) else ""
                 reason = (nt if isinstance(nt, str) and nt else "") or x["gerekce"]; fam = f; break
         reason = reason or "Aile analizinde değerlendirilmedi."
+        fm = KR.FAM_S.get(fam, {})
+        if fm:
+            import re as _re
+            reason = _re.sub(r"(?<![A-Za-z_0-9])S(\d)(?![0-9])", lambda m_: fm.get("S" + m_.group(1), m_.group(0)), reason)
         L.append(f"| {sym}{' ⚠' if sym in K.PTP else ''} | `{K.TV_ETF.get(sym, '')}` | {K.FAM_TR.get(fam, fam)} | {reason.replace('|', '/')[:420]} |")
     return L + [""]
 

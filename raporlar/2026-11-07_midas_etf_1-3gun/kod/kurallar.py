@@ -65,7 +65,7 @@ PTP_EXTRA = {"UNG", "USO", "BNO", "USL", "UNL", "UGA", "CPER",                  
 
 # Kart metni düzeltmeleri (denetçi düzeltmeleri ve eleştiri bulguları)
 STRAT_PATCH = {
-    "sektor_tematik_S1": {"giris": "ANA YOL: resmî ABD kapanışından sonra kesin IBS'yi gör (SMH günlük mum); IBS<0,20 ise after-hours'ta (tercihen TR 00:00-01:00 kış / 23:00-00:00 yaz) "
+    "sektor_tematik_S1": {"notlar_replace": [("(FDR'yi yine de geçiyor)", "(iki yönlü BH'de geçiyor; tek yönlü katı BH'de geçmiyor — RAPOR §9)")], "giris": "ANA YOL: resmî ABD kapanışından sonra kesin IBS'yi gör (SMH günlük mum); IBS<0,20 ise after-hours'ta (tercihen TR 00:00-01:00 kış / 23:00-00:00 yaz) "
                           "resmî kapanış fiyatı + 2-5 sent LİMİT emirle, tam adet al (denetçi bu yolun maliyetini ~6 bp ölçtü). İKİNCİ YOL: kapanıştan dakikalar önce (kış TR 23:45-23:58) anlık IBS ile "
                           "piyasa/agresif limit emir (kapanış öncesi sınıflama hatası ~15-20 bp maliyet). Ertesi açılışta (O1) GİRME: kenar ~17 bp'ye, C1'de ~0'a düşer."},
     "metal_madenci_S3": {"guven": "dusuk", "giris": "C0: sinyal günü kapanışında (kış TR ~23:45-23:55 anlık IBS ile ya da kapanış sonrası after-hours limit). Kapanış kaçarsa bu işlemi ATLA "
@@ -73,14 +73,22 @@ STRAT_PATCH = {
     "uluslararasi_S1": {"cikis": "t+1 kapanışına ~10 dk kala sat (kış TR ~23:50, yaz ~22:50). Stop kullanılmadı. Ertesi açılışta GİRME (O1 sepette −3 bp; FXI'de −33 bp)."},
     "volatilite_S1": {"islem_etf": ["SVXY"], "notlar_on": "SVIX nihai olarak elendi (−1x yapı, Şubat 2018 tipi olayda ~%90+ kayıp). PTP kesintisi yoksa SVXY; teyit yoksa aynı SVXY sinyaliyle QQQ/QLD (denetçi önerisi). "},
     "tek_hisse_kaldiracli_S1": {"notlar_on": "Kaldıraçlı ETF Midas'ta yoksa ya da riski fazla geliyorsa aynı sinyalle hissenin kendisi (denetçi: 1x hisse daha sağlam araç). Aynı anda en çok 2 hisse. "},
+    "tahvil_doviz_S1": {"islem_etf": ["TBT", "TMV"], "ad": "10 yıllık Hazine ihalesi öncesi uzun vade zayıflığı — TBT (−2x, tercih) ya da TMV (−3x) ile 2 gün",
+                        "kural_replace": [("İŞLEM: AMEX:TMV long (alternatif AMEX:TBT, −2x).", "İŞLEM: AMEX:TBT long (−2x; daha düşük kuyruk riski, tercih) ya da AMEX:TMV (−3x).")]},
+    "sektor_tematik_S1_extra": {},
     "kripto_S2": {"ad_on": "FİLTRE (strateji değil) — ", "notlar_on": "Aşağıdaki 'Geçmiş (ajan)' rakamı dayanak BTC'nin 00:00 UTC serisine (2016+) aittir; ETF'te geçerli değildir (son kontrol: IBIT C0 +30 bp, t 0,6). Yalnız 'BTC trendi yukarı mı' filtresi olarak kullanın. "},
 }
 GEREKCE_PATCH = {
     "SPY": "S&P 500'ün ana, en likit aracı (41,6 mlr $/gün, makas ~1 bp). B1 (zayıf) kuralının aracı ve A1 için piyasa teyidi; CME_MINI:ES1! ile izlenir.",
     "GLD": "Altının ana ve PTP olmayan aracı (3,7 mlr $/gün, ~13 bp). Doğrulanmış strateji yok; yalnız B3b (ay sonu, zayıf). COMEX:GC1! ile izlenir; getirisi çoğunlukla gece oluşur.",
     "GDX": "Altın madencilerinin ana aracı (1,9 mlr $/gün, ~13 bp). Yalnız B3a (ay sonu, zayıf: en iyi 5 işlem çıkarılınca t<1,2). IBS kuralı GDX'te çalışmıyor (GDXJ'de B2).",
+    "TBT": "B6'nın tercih edilen aracı (−2x TLT): TMV'ye göre daha düşük kuyruk riski (en kötü işlem −516 bp, maxDD −%9); likidite 12,3 mn $/gün ile alt sınırda; Midas'ta doğrulanmadı.",
+    "IAU": "GLD kopyası (korelasyon 0,998), maliyet 14 bp. Verideki 2021-03-08 hatalı barı çıkarıldı. B3b'de GLD yerine kullanılabilir; 1-3 günde GLD'ye üstünlüğü yok.",
     "SBIT": "Kısa BTC görüşü için −2x araç (yedek). Perşembe kuralı (S1) çürütüldü; doğrulanmış strateji yok.",
 }
+MIDAS_OVR = {"GBTC": "sembol sayfası var (getmidas.com; resmî ürün listesi yok)", "ETHE": "sembol sayfası var (getmidas.com; resmî ürün listesi yok)",
+             "UNG": "işlem görmüş (2023 kullanıcı kaydı; resmî ürün listesi yok)"}
+SK_ID_ALIAS = {"sektor_tematik_S2": "sektor_tematik_S1"}   # SOXL son kontrolü A2 sinyaliyle hesaplandı
 TEXT_FIX = [
     ("OSE gündüz seansı TR 02:45-09:15, gece seansı TR 10:30-00:00", "OSE gündüz seansı TR 02:45-09:45, gece seansı TR 11:00-00:00"),
 ]

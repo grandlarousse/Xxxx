@@ -1,6 +1,7 @@
-Çalışma zamanı: 08.11.2026 03:58 TR  (son tamamlanmış günlük mum)
+Çalışma zamanı: 08.11.2026 04:22 TR  (son tamamlanmış günlük mum)
 
 Son mum: 2026-11-06  · sonraki işlem günleri: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
+  Rejim (20g oynaklık / 10y medyan): QQQ %33 / %18 -> boyut çarpanı 0.54 · SMH %62 / %29 -> boyut çarpanı 0.46 · SPY %20 / %12 -> boyut çarpanı 0.61  ⚠ YÜKSEK OYNAKLIK: kaldıraçlı araç kullanma (B10'da hissenin kendisi)
 
 [A1] QQQ IBS<0,10 + düşüş günü -> 3 gün (araç QQQ; 2x QLD / 3x TQQQ yalnız küçük payla)
      durum: IBS=0.20, günlük +1.40% -> sinyal yok
@@ -39,7 +40,7 @@ Son mum: 2026-11-06  · sonraki işlem günleri: 2026-11-09, 2026-11-10, 2026-11
      pozisyon (C0): açık/bekleyen pozisyon yok
 [B10] Mega-cap hisse RSI(2)<10 ve SMA200 üstü -> 2x ETF (ya da hissenin kendisi); hisse > SMA5 kapanınca, en geç 3 gün sonra sat
      durum: NVDA:RSI2=33(SMA200 altı) · TSLA:RSI2=37(SMA200 altı) · AMZN:RSI2=54 · MSFT:RSI2=39 · GOOGL:RSI2=53(SMA200 altı) · AAPL:RSI2=44 · META:RSI2=41(SMA200 altı)
-     eylem: aynı anda en çok 2 hisse; sinyal varsa bugün kapanışta al
+     eylem: sinyal varsa bugün kapanışta al (test edilen hâl: her hisseye eşit pay); YÜKSEK OYNAKLIK: araç olarak 2x ETF değil hissenin kendisi
      TSLA->TSLL: AÇIK: sinyal 2026-11-04 -> giriş 2026-11-04 kapanış (TR 05.11 00:00), çıkış 2026-11-09 kapanış (TR 10.11 00:00) (en geç; erken çıkış koşulunu her akşam kontrol et)
 
 Takvim kuralları:
@@ -51,4 +52,4 @@ Takvim kuralları:
   [B7] EIA doğalgaz raporu 2026-11-25: KOLD giriş 2026-11-24 kapanış (TR 25.11 00:00), çıkış 2026-11-25 kapanış (zayıf; ⚠ PTP; tek işlemde -%16)
 
 Notlar: Midas'ta MOC/LOC yok. 'Kapanışta al' = kapanıştan ~5-10 dk önce piyasa/agresif limit emir YA DA kapanıştan sonra after-hours'ta (yalnız limit emir; kesirli emir kabul edilmeyebilir -> tam adet) kapanış fiyatına yakın limit. Aynı gece sat-al yaparken takas (T+1) ve kullanılabilir bakiye kontrolü.
-A1, A2, B1 ve B10 aynı risk faktörü (ABD teknoloji): aynı anda en fazla birini tam boyutla taşı. Yatırım tavsiyesi değildir; ayrıntı: RAPOR.md, kartlar/<SYM>.md
+A1, A2, B1, B9 ve B10 aynı risk faktörü (ABD teknoloji): aynı anda en fazla A1 tam (~%50) + A2 yarım (~%25); B1 A1 ile aynı gün gelirse yalnız A1. Tutarları yukarıdaki boyut çarpanıyla küçült. Yatırım tavsiyesi değildir; ayrıntı: RAPOR.md, kartlar/<SYM>.md

@@ -8,7 +8,7 @@
 | 12 | 20,0 | 123 | %-4,0 | -2,0x | 2016-11-07 |
 
 **Kademe:** B — kural var ama kanıt zayıf (küçük boyut / kağıt üstünde izle)  
-**Neden izleme listesinde:** B6'nın alternatif aracı (−2x TLT; TMV'ye göre daha düşük risk). Medyan 12,3 mn $/gün (tercih edilen eşiğin alt sınırı), maliyet 20 bp. ProShares Trust (1940 Yasası) fonu; PTP değil (teyit önerilir). Midas bulunurluğu doğrulanamadı.
+**Neden izleme listesinde:** B6'nın tercih edilen aracı (−2x TLT): TMV'ye göre daha düşük kuyruk riski (en kötü işlem −516 bp, maxDD −%9); likidite 12,3 mn $/gün ile alt sınırda; Midas'ta doğrulanmadı.
 
 *Dayanak / ana araç kartı: `kartlar/TMV.md` (sürücüler ve gerçek zamanlı izleme listesi orada daha ayrıntılı).*
 
@@ -18,14 +18,14 @@ Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kural�
 
 ### İzlemede (zayıf kanıt ya da yalnız filtre — tek başına işlem gerekçesi değil)
 
-#### B6 — 10 yıllık Hazine ihalesi öncesi uzun vade zayıflığı — TMV (−3x TLT) ile 2 gün  
+#### B6 — 10 yıllık Hazine ihalesi öncesi uzun vade zayıflığı — TBT (−2x, tercih) ya da TMV (−3x) ile 2 gün  
 *İzlemede — zayıf kanıt · güven: orta · aile kimliği: `tahvil_doviz_S1`*  
 *Bu ETF'nin rolü: tercih edilen araç (−2x, daha düşük kuyruk)*
 
-- **Sinyal (t kapanışında):** Takvim sinyali (fiyat göstergesi yok): A = ABD Hazinesi 10 yıllık tahvil (10-Year Note) ihale günü — TreasuryDirect 'Upcoming Auctions' / Hazine geçici ihale takvimi; TradingView Ekonomik Takvim'de '10-Year Note Auction' (sonuç 13:00 ET = TR 21:00 kış / 20:00 yaz). SİNYAL GÜNÜ = A'dan 3 işlem günü önceki gün (A-3; ihale Salı ise önceki Perşembe, Çarşamba ise önceki Cuma; NYSE tatilleri sayılmaz). İŞLEM: AMEX:TMV long (alternatif AMEX:TBT, −2x). A-3 günü al, A-1 günü (ihaleden bir önceki işlem günü) kapanışta sat; ihale günü tutulmaz. Stop yok, erken çıkış yok. 30 yıllık ihale (A30) penceresi KULLANILMAZ (zayıf). Dayanak kontrolü: NASDAQ:TLT aynı pencerede ortalama −41 bp.
+- **Sinyal (t kapanışında):** Takvim sinyali (fiyat göstergesi yok): A = ABD Hazinesi 10 yıllık tahvil (10-Year Note) ihale günü — TreasuryDirect 'Upcoming Auctions' / Hazine geçici ihale takvimi; TradingView Ekonomik Takvim'de '10-Year Note Auction' (sonuç 13:00 ET = TR 21:00 kış / 20:00 yaz). SİNYAL GÜNÜ = A'dan 3 işlem günü önceki gün (A-3; ihale Salı ise önceki Perşembe, Çarşamba ise önceki Cuma; NYSE tatilleri sayılmaz). İŞLEM: AMEX:TBT long (−2x; daha düşük kuyruk riski, tercih) ya da AMEX:TMV (−3x). A-3 günü al, A-1 günü (ihaleden bir önceki işlem günü) kapanışta sat; ihale günü tutulmaz. Stop yok, erken çıkış yok. 30 yıllık ihale (A30) penceresi KULLANILMAZ (zayıf). Dayanak kontrolü: NASDAQ:TLT aynı pencerede ortalama −41 bp.
 - **Giriş:** A-3 günü kapanıştan 5-10 dk önce piyasa ya da agresif limit emriyle (kış saati TR ~23:50, yaz saati TR ~22:50; Midas'ta MOC/LOC yok). Sinyal takvimden bilindiği için aynı gün açılışta (TR 17:30 kış / 16:30 yaz) almak da test edildi ve benzer sonuç verdi. Sıradaki: 10 Kas 2026 (Sal) ihalesi -> A-3 = 5 Kas Per (geçti; açık pozisyon 9 Kas Pzt kapanışta kapanır); 8 Ara 2026 (Sal, yeniden ihraç) -> giriş 3 Ara 2026 Per TR ~23:50.
 - **Tutuş / çıkış:** 2 işlem günü (A-2 ve A-1) — A-1 günü kapanıştan 5-10 dk önce (kış TR ~23:50 / yaz ~22:50) sat; örn. 8 Ara 2026 ihalesi için 7 Ara 2026 Pzt. Uzatılmış saatlerde yalnız limit emir verilebildiği için normal seansta çık.
-- **İşlem aracı:** TMV, TBT (sinyal: takvim (10Y Hazine ihalesi); dayanak NASDAQ:TLT)
+- **İşlem aracı:** TBT, TMV (sinyal: takvim (10Y Hazine ihalesi); dayanak NASDAQ:TLT)
 - **Geçmiş (ajan):** n=119, net 104.1 bp/işlem (brüt 124.1), kazanma %59, t=3.17, IS 108.2 / OOS 99.9 bp, yılların %91'i pozitif, en kötü işlem -764 bp
 - **Ana ajan son kontrolü (düzeltilmiş veri, 2.500 $):** C0: net 61 bp (t 2,8, n=117) · O1: net 38 bp (t 1,6, n=117) · C1: net 17 bp (t 0,7, n=117); 1.000 $ pozisyonda ana mod net 43 bp (t 2,0)
 - **Denetçi düzeltmesi:** Sayılar örneklem içinde birebir doğru (TMV C0 n=119, net 104 bp, t 3,17; TBT net 62 bp, t 2,87). Eklenmesi gerekenler: örneklem öncesi TLT 2002-2016 brüt +7,6 bp (t 0,79), TBT 2008-2016 brüt −17 bp (t −0,68, net −37 bp); havuzlanmış TBT 2008-2026 (n≈218) brüt ≈ +37 bp, net ≈ +17 bp; en iyi 10 hariç TMV net 34,6 bp t 1,30; OOS eşlenik-permütasyon fazlası ~76 bp (p 0,04). Güven 'orta' değil 'düşük'.

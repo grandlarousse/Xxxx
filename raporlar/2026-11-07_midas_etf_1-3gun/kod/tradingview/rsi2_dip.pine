@@ -3,7 +3,9 @@
 //   SVXY (B9): RSI(2) < 10 ve kapanış > SMA(200) -> C0 al, 2 gün tut (SMA çıkışı yok). ⚠ PTP: Midas'ta %10 kesinti yoksa; yoksa aynı sinyalle QQQ.
 //   NVDA, AMZN, MSFT, GOOGL, TSLA, AAPL, META (B10): aynı koşul HİSSENİN grafiğinde; işlem 2x ETF'te (NVDL, AMZU, MSFU, GGLL, TSLL, AAPU, METU)
 //      ya da hissenin kendisinde; çıkış: girişten sonra hisse kapanışı > SMA(5) olan ilk gün, en geç 3. gün.
-// Alarm: "Bar kapanışında bir kez". Çakışma kuralı backtest motoruyla aynı (pozisyondayken gelen sinyal yok sayılır).
+// Alarm: "Bar kapanışında bir kez" (kışın TR 00:00). "RSI2 giriş" -> C0: şimdi after-hours limitle al. "RSI2 çıkış" -> çıkış koşulu
+// bu kapanışta oluştu: kapanış öncesi canlı fiyatla kontrol etmediysen ilk fırsatta (after-hours limit) sat. "En geç yarın sat" -> süre doluyor.
+// Çakışma kuralı backtest motoruyla aynı (pozisyondayken gelen sinyal yok sayılır).
 //@version=5
 indicator("RSI(2) dip (Midas 1-3 gün)", overlay=true)
 otomatik = input.bool(true, "Ön ayarı sembole göre otomatik seç")
@@ -42,5 +44,7 @@ if kabul
 plotshape(kabul, "Giriş (C0: bu kapanışta)", shape.triangleup, location.belowbar, color.new(color.teal, 0), size=size.small)
 plotshape(cikis, "Çıkış", shape.square, location.abovebar, color.new(color.orange, 0), size=size.tiny)
 plot(trendSma, "Trend SMA", color.new(color.gray, 30))
+enGecYarin = not na(entryBar) and bar_index - entryBar + 1 >= maxGun
 alertcondition(kabul, "RSI2 giriş", "{{ticker}}: RSI(2) dip sinyali (kural: RAPOR.md B9/B10)")
+alertcondition(enGecYarin, "En geç yarın sat", "{{ticker}}: süre doluyor — en geç yarın kapanışa yakın sat")
 alertcondition(cikis, "RSI2 çıkış", "{{ticker}}: RSI(2) kuralının çıkış günü")

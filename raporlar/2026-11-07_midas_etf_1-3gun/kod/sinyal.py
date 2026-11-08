@@ -114,6 +114,32 @@ def positions(sig, mode, h, last, exit_sig=None, lookback=25):
             out.append(f"{st}: sinyal {d.date()} -> giriş {cal[e]} {ne} (TR {tr_open(cal[e]) if mode == 'O1' else tr_close(cal[e])}), çıkış {cal[x]} kapanış (TR {tr_close(cal[x])}){extra}")
     return "; ".join(out) if out else "açık/bekleyen pozisyon yok"
 
+def accepted_last(sig, mode, h, exit_sig=None, lookback=40):
+    """Son mumdaki sinyal çakışmasız kuralla (lib.trades) kabul edilir mi? (pozisyondayken gelen sinyal yok sayılır)"""
+    sig = sig.dropna().iloc[-lookback:]
+    if not sig.iloc[-1]: return False
+    days = list(sig.index); n = len(days)
+    ex = None if exit_sig is None else exit_sig.reindex(sig.index).fillna(False).values
+    busy = -1; i = 0
+    while i < n:
+        if not sig.iloc[i] or i < busy: i += 1; continue
+        if i == n - 1: return True
+        e = i if mode == "C0" else i + 1
+        x = (i + h) if mode in ("C0", "O1") else (i + 1 + h)
+        if ex is not None:
+            for j in range(e + 1 if mode != "O1" else e, min(x, n - 1) + 1):
+                if ex[j]: x = j; break
+        busy = max(x, i + 1); i += 1
+    return False
+
+def tr_before(d, minutes=10):
+    hh = 13 if d in EARLY else 16
+    t = (dt.datetime(d.year, d.month, d.day, hh, 0, tzinfo=NY) - dt.timedelta(minutes=minutes)).astimezone(TR)
+    return t.strftime("%d.%m %H:%M") + (" (YARIM GÜN)" if d in EARLY else "")
+
+IGNORED = "pozisyondayken gelen sinyal: YOK SAY (çakışmasız kural; backtest ve gösterge de yok sayar)"
+MED_VOL = {"QQQ": 0.175, "SMH": 0.288, "SPY": 0.123}   # 2016-2026 20 günlük oynaklık medyanları (sonuclar/ek_rejim.csv)
+
 def line(kad, ad, durum, eylem, poz=None):
     print(f"[{kad}] {ad}\n     durum: {durum}\n     eylem: {eylem}")
     if poz:
@@ -146,22 +172,29 @@ def main():
     print(f"Son mum: {last}  · sonraki işlem günleri: {', '.join(str(x) for x in nb)}")
     soon_early = [x for x in nb if x in EARLY]
     if soon_early: print(f"  ⚠ YARIM GÜN(LER): {', '.join(str(x) for x in soon_early)} — kapanış 13:00 ET (TR 21:00 kış / 20:00 yaz)")
+    vol = {k: float(np.log(D[k]["c"]).diff().tail(20).std() * np.sqrt(252)) for k in MED_VOL}
+    mult = {k: min(1.0, MED_VOL[k] / v) for k, v in vol.items()}
+    high = any(v > 1.5 * MED_VOL[k] for k, v in vol.items())
+    print("  Rejim (20g oynaklık / 10y medyan): " + " · ".join(f"{k} %{100*vol[k]:.0f} / %{100*MED_VOL[k]:.0f} -> boyut çarpanı {mult[k]:.2f}" for k in vol)
+          + ("  ⚠ YÜKSEK OYNAKLIK: kaldıraçlı araç kullanma (B10'da hissenin kendisi)" if high else ""))
     if CAL_END and (CAL_END - last).days < 45: print(f"  ⚠ NYSE tatil takvimi {CAL_END} tarihinde bitiyor: data/events/nyse_tatil.csv'yi güncelleyin")
     print()
 
     # A1 — QQQ IBS<0,10 & düşüş -> 3 gün (C1 ana)
     q = D["QQQ"]; sq = (ibs(q) < 0.10) & (q["c"] < q["c"].shift(1))
     durum = f"IBS={ibs(q).iloc[-1]:.2f}, günlük {100*(q['c'].iloc[-1]/q['c'].iloc[-2]-1):+.2f}% -> {'SİNYAL' if sq.iloc[-1] else 'sinyal yok'}"
-    ey = "sinyal yok" if not sq.iloc[-1] else (
-        f"C1 (ana): bu gece bir şey yapma; {nb[0]} kapanıştan ~10 dk önce (TR {tr_close(nb[0])}) QQQ al, {next_bdays(nb[0], 3)[-1]} kapanışında sat. "
-        "C0 kullanıyorsan (ikisini birden YAPMA): bugünün kapanışında/after-hours limitle al, 3 gün sonra sat.")
+    acc1, acc0 = accepted_last(sq, "C1", 3), accepted_last(sq, "C0", 3)
+    if not sq.iloc[-1]: ey = "sinyal yok"
+    else:
+        ey = (f"C1 (ana): {'bu gece bir şey yapma; ' + str(nb[0]) + ' TR ' + tr_before(nb[0]) + ' civarı QQQ al, ' + str(next_bdays(nb[0], 3)[-1]) + ' kapanışında sat' if acc1 else IGNORED}. "
+              f"C0 kullanıyorsan (ikisini birden YAPMA): {'bugünün kapanışında (kapanış öncesi tahmin ya da after-hours limit) al, ' + str(next_bdays(last, 3)[-1]) + ' kapanışında sat' if acc0 else IGNORED}.")
     line("A1", "QQQ IBS<0,10 + düşüş günü -> 3 gün (araç QQQ; 2x QLD / 3x TQQQ yalnız küçük payla)", durum, ey,
          [f"pozisyon (C1 ana): {positions(sq, 'C1', 3, last)}", f"pozisyon (C0 kullanıyorsan): {positions(sq, 'C0', 3, last)}"])
 
     # A2 — SMH IBS<0,20 -> 1 gün (C0)
     m = D["SMH"]; sm = ibs(m) < 0.20
     durum = f"IBS={ibs(m).iloc[-1]:.2f} -> {'SİNYAL' if sm.iloc[-1] else 'sinyal yok'}"
-    ey = "sinyal yok" if not sm.iloc[-1] else (
+    ey = "sinyal yok" if not sm.iloc[-1] else ("açık A2 pozisyonun varsa SATMA, bir gün daha tut (ertesi gün de IBS<0,20)" if not accepted_last(sm, "C0", 1) else
         f"C0: resmî kapanıştan sonra after-hours'ta (TR 00:00-01:00 tercih) kapanış fiyatı + 2-5 sent LİMİT emirle SMH al (tam adet); "
         f"{nb[0]} kapanışından önce sat — o gün de IBS<0,20 olacaksa satma, bir gün daha tut. Ertesi açılışta girme (kenar kaybolur).")
     line("A2", "SMH IBS<0,20 -> 1 gün (araç SMH ya da SOXX; SOXL yalnız koşullu)", durum, ey, [f"pozisyon (C0): {positions(sm, 'C0', 1, last)}"])
@@ -169,13 +202,13 @@ def main():
     # B1 — SPY
     p = D["SPY"]; sp = (ibs(p) < 0.10) & (p["c"] < p["c"].shift(1))
     line("B1", "SPY IBS<0,10 + düşüş -> 3 gün (zayıf; QQQ ile sinyallerin ~%73'ü ortak — ikisini birden alma)",
-         f"IBS={ibs(p).iloc[-1]:.2f} -> {'SİNYAL' if sp.iloc[-1] else 'sinyal yok'}", "QQQ sinyali de varsa yalnız A1'i kullan" if sp.iloc[-1] else "-",
+         f"IBS={ibs(p).iloc[-1]:.2f} -> {'SİNYAL' if sp.iloc[-1] else 'sinyal yok'}", ("QQQ sinyali de varsa yalnız A1'i kullan" if accepted_last(sp, "C1", 3) else IGNORED) if sp.iloc[-1] else "-",
          [f"pozisyon (C1): {positions(sp, 'C1', 3, last)}"])
 
     # B2 — GDXJ (C0, 3 gün)
     g = D["GDXJ"]; sg = (ibs(g) < 0.10) & (g["c"] < g["c"].shift(1))
     line("B2", "GDXJ IBS<0,10 + düşüş -> 3 gün (kapanışa bağımlı; ertesi açılışta girme)", f"IBS={ibs(g).iloc[-1]:.2f} -> {'SİNYAL' if sg.iloc[-1] else 'sinyal yok'}",
-         f"C0: bugün kapanışta/after-hours limitle al, {next_bdays(last, 3)[-1]} kapanışında sat" if sg.iloc[-1] else "-", [f"pozisyon (C0): {positions(sg, 'C0', 3, last)}"])
+         (f"C0: bugün kapanışta/after-hours limitle al, {next_bdays(last, 3)[-1]} kapanışında sat" if accepted_last(sg, "C0", 3) else IGNORED) if sg.iloc[-1] else "-", [f"pozisyon (C0): {positions(sg, 'C0', 3, last)}"])
 
     # B4 — Asya sepeti (C0, 1 gün)
     spy_r = p["c"].pct_change()
@@ -191,18 +224,18 @@ def main():
     # B5 — EWY (C0, 1 gün)
     k = D["EWY"]; sk = (ibs(k) < 0.10) & (k["c"] < k["c"].shift(1))
     line("B5", "EWY IBS<0,10 + düşüş -> 1 gün (2026 oynaklık rejimine bağlı)", f"IBS={ibs(k).iloc[-1]:.2f} -> {'SİNYAL' if sk.iloc[-1] else 'sinyal yok'}",
-         f"C0: bugün kapanışta al, {nb[0]} kapanışında sat" if sk.iloc[-1] else "-", [f"pozisyon (C0): {positions(sk, 'C0', 1, last)}"])
+         (f"C0: bugün kapanışta al, {nb[0]} kapanışında sat" if accepted_last(sk, "C0", 1) else "açık pozisyonu bir gün daha tut") if sk.iloc[-1] else "-", [f"pozisyon (C0): {positions(sk, 'C0', 1, last)}"])
 
     # B8 — USO alt Bollinger -> C1 2 gün (PTP)
     u = D["USO"]["c"]; bb = u < (u.rolling(20).mean() - 2 * u.rolling(20).std())
     line("B8", "USO alt Bollinger(20,2) kırılımı -> ertesi gün kapanışta al, 2 gün tut (⚠ PTP)", f"{'SİNYAL' if bb.iloc[-1] else 'sinyal yok'}",
-         f"C1: {nb[0]} kapanışında al, {next_bdays(nb[0], 2)[-1]} kapanışında sat" if bb.iloc[-1] else "-", [f"pozisyon (C1): {positions(bb, 'C1', 2, last)}"])
+         (f"C1: {nb[0]} kapanışında al, {next_bdays(nb[0], 2)[-1]} kapanışında sat" if accepted_last(bb, "C1", 2) else IGNORED) if bb.iloc[-1] else "-", [f"pozisyon (C1): {positions(bb, 'C1', 2, last)}"])
 
     # B9 — SVXY RSI(2)<10 & >SMA200 -> 2 gün (PTP)
     v = D["SVXY"]["c"]; sv = (rsi(v) < 10) & (v > v.rolling(200).mean())
     line("B9", "SVXY RSI(2)<10 ve SMA200 üstü -> 2 gün (⚠ PTP; teyit yoksa aynı sinyalle QQQ)",
          f"RSI2={rsi(v).iloc[-1]:.1f}, SMA200 üstü={bool(v.iloc[-1] > v.rolling(200).mean().iloc[-1])} -> {'SİNYAL' if sv.iloc[-1] else 'sinyal yok'}",
-         f"C0: bugün kapanışta al, {next_bdays(last, 2)[-1]} kapanışında sat" if sv.iloc[-1] else "-", [f"pozisyon (C0): {positions(sv, 'C0', 2, last)}"])
+         (f"C0: bugün kapanışta al, {next_bdays(last, 2)[-1]} kapanışında sat" if accepted_last(sv, "C0", 2) else IGNORED) if sv.iloc[-1] else "-", [f"pozisyon (C0): {positions(sv, 'C0', 2, last)}"])
 
     # B10 — mega-cap RSI(2) -> 2x ETF, SMA5'te çık (≤3 gün)
     poz, summ = [], []
@@ -212,7 +245,8 @@ def main():
         pp = positions(sig, "C0", 3, last, exit_sig=ex)
         if "yok" not in pp: poz.append(f"{stk}->{etf}: {pp}")
     line("B10", "Mega-cap hisse RSI(2)<10 ve SMA200 üstü -> 2x ETF (ya da hissenin kendisi); hisse > SMA5 kapanınca, en geç 3 gün sonra sat",
-         " · ".join(summ), "aynı anda en çok 2 hisse; sinyal varsa bugün kapanışta al", poz or ["pozisyon: açık/bekleyen pozisyon yok"])
+         " · ".join(summ), ("sinyal varsa bugün kapanışta al (test edilen hâl: her hisseye eşit pay); "
+                            + ("YÜKSEK OYNAKLIK: araç olarak 2x ETF değil hissenin kendisi" if high else "araç: 2x ETF ya da hissenin kendisi")), poz or ["pozisyon: açık/bekleyen pozisyon yok"])
 
     # Takvim kuralları
     print("\nTakvim kuralları:")
@@ -254,7 +288,8 @@ def main():
         if e and (e[-1] - last).days < 45: print(f"  ⚠ [B7] EIA takvim dosyası {e[-1]} tarihinde bitiyor; güncelleyin.")
     print("\nNotlar: Midas'ta MOC/LOC yok. 'Kapanışta al' = kapanıştan ~5-10 dk önce piyasa/agresif limit emir YA DA kapanıştan sonra after-hours'ta"
           " (yalnız limit emir; kesirli emir kabul edilmeyebilir -> tam adet) kapanış fiyatına yakın limit. Aynı gece sat-al yaparken takas (T+1) ve kullanılabilir bakiye kontrolü.")
-    print("A1, A2, B1 ve B10 aynı risk faktörü (ABD teknoloji): aynı anda en fazla birini tam boyutla taşı. Yatırım tavsiyesi değildir; ayrıntı: RAPOR.md, kartlar/<SYM>.md")
+    print("A1, A2, B1, B9 ve B10 aynı risk faktörü (ABD teknoloji): aynı anda en fazla A1 tam (~%50) + A2 yarım (~%25); B1 A1 ile aynı gün gelirse yalnız A1."
+          " Tutarları yukarıdaki boyut çarpanıyla küçült. Yatırım tavsiyesi değildir; ayrıntı: RAPOR.md, kartlar/<SYM>.md")
 
 if __name__ == "__main__":
     main()
