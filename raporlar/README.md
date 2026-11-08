@@ -48,3 +48,23 @@ Klasör: `2026-11-05_jung_kitaplari/` (giriş için klasördeki `README.md`)
 
 - `ajan_ciktilari/`: Alt ajanların çıktıları. 50 kitap raporu (her birinde yazar–hakem tartışma eki), 12 küme sentezi, envanter denetimi, üç bakışlı tartışma ve "Ajanların Ortak Raporu".
 - `ana_ajan_analizi/`: Ana ajanın ayrı analizi. Ajan bulgularının denetimi ve güven haritası, külliyat haritası ve 50 eserlik tablo, tartışmanın hakemliği ve Türkçe okuma yolları, düzeltmeler ve açık sorular.
+
+---
+
+# Altın: VİOP Ons Altın (F_XAUUSD) ve Midas ETF'leri ile 1–3–5 günlük trade, fiyat tahmini ve lead-lag (07–08.11.2026)
+
+Klasör: `2026-11-07_xauusd_altin/`
+
+- `RAPOR.md`: Ana sentez.
+  - Net cevap.
+  - Kontrat, saat ve maliyet gerçekleri: VİOP, Midas ABD ETF'leri ve BIST BYF'leri yan yana.
+  - Altından kim, nasıl kazanıyor.
+  - 1–3–5 günlük strateji aileleri: literatür ve bizim test.
+  - VİOP lead-lag sonuçları ve Midas ETF cephesi.
+  - Dünya ve Türkiye altın fiyatının yordanması.
+  - Günlük rutin, risk ve boyut, sınırlamalar.
+- `sentez/HAKEM.md`: 7.446 testin çoklu test düzeltmesi, 65 iddianın son güven tablosu (yeniden üretici + çürütücü), örtüşme, eşit ağırlıklı birleşim, 09.11.2026 durumu, risk.
+- `sinyal/sinyal_altin.py` + `sinyal/KULLANIM.md`: Ayakta kalan 11 kuralın günlük sinyal betiği. VİOP için 18:00 TSİ, Midas için 15:00 ET. Bağımsız denetimden geçti.
+- `analiz/`, `arastirma/`, `dogrulama/`, `kod/`, `veri_ozet/`: Ajan raporları, araştırma ve doğrulama notları, kod, test kayıtları.
+
+Yatırım tavsiyesi değildir.

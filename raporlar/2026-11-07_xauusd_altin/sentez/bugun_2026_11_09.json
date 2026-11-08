@@ -1,0 +1,93 @@
+{
+ "bugun": {
+  "V_LOWMOM_h1": {
+   "durum": "PASİF",
+   "neden": "rv20 (spot 15:00 UTC) = %21.0, 2010'dan beri yüzdeliği 0.88 ≥ 1/3; eşik ≈ %11.7. 2026'da hiç tetiklenmedi (2026 en düşük rv20 %14.9).",
+   "son_5g_spot_getiri_pct": 3.29,
+   "eksik": "Pazartesi 15:00 UTC spot (rv20 ve 5 günlük getiri güncellenir; rejim değişmesi için oynaklığın yarıdan fazla düşmesi gerekir)"
+  },
+  "V_QEND_h3": {
+   "durum": "PASİF",
+   "neden": "Takvim: bir sonraki giriş Aralık 2026'nın sondan 2. VİOP günü = 2026-12-30 Çarşamba uzlaşması (31 Aralık işlem günü varsayımıyla), çıkış 3 VİOP günü sonra (≈2027-01-05).",
+   "eksik": "yok (takvim)"
+  },
+  "V_GDXJRES_h3": {
+   "durum": "AKTİF",
+   "yeni_dilim": 1.0,
+   "z": 2.84,
+   "r_GDXJ_cuma_pct": 2.78,
+   "r_GLD_cuma_pct": -0.79,
+   "beta60": 2.02,
+   "acik_dilimler": {
+    "2026-11-05": 1.0,
+    "2026-11-06": -1.0
+   },
+   "etkin_poz_pazartesi_sonrasi": 0.333,
+   "eksik": "yok (Cuma ABD kapanışı biliniyor)"
+  },
+  "V_LAST1H_h5": {
+   "durum": "KOŞULLU",
+   "kural": "Pazartesi 15:00 UTC'de ln(spot15/spot14)>0 ise yeni 1/5 dilim UZUN, <0 ise KISA",
+   "acik_dilimler": {
+    "2026-11-03": -1.0,
+    "2026-11-04": -1.0,
+    "2026-11-05": -1.0,
+    "2026-11-06": 1.0
+   },
+   "acik_dilim_toplami_bes_te": -0.4,
+   "cuma_14_15_pct": 0.103,
+   "eksik": "Pazartesi 14:00 ve 15:00 UTC spot fiyatı"
+  },
+  "E_GDXTATIL_h1": {
+   "durum": "PASİF",
+   "neden": "Bir sonraki olay günü 2026-11-25 (Şükran Günü öncesi); giriş bir önceki kapanış 2026-11-24, çıkış 2026-11-25 kapanışı.",
+   "eksik": "yok (takvim)"
+  },
+  "E_C2J_h3": {
+   "durum": "AKTİF (UZUN)",
+   "x": 3.674,
+   "esik_ust_pct": 0.667,
+   "esik_alt_pct": -0.925,
+   "acik_dilimler": {
+    "2026-11-05": 1.0,
+    "2026-11-06": 1.0
+   },
+   "etkin_poz_pazartesi_sonrasi": 1.0,
+   "eksik": "yok (Cuma ABD kapanışı biliniyor)"
+  },
+  "E_C2_h3": {
+   "durum": "AKTİF (UZUN)",
+   "x": 9.493,
+   "esik_ust_pct": 0.806,
+   "esik_alt_pct": -1.347,
+   "acik_dilimler": {
+    "2026-11-05": 1.0,
+    "2026-11-06": 1.0
+   },
+   "etkin_poz_pazartesi_sonrasi": 1.0,
+   "eksik": "yok (Cuma ABD kapanışı biliniyor)"
+  },
+  "E_C1_h5": {
+   "durum": "AKTİF (UZUN)",
+   "x": 9.653,
+   "esik_ust_pct": 2.515,
+   "esik_alt_pct": -4.022,
+   "acik_dilimler": {
+    "2026-11-03": 0.0,
+    "2026-11-04": 0.0,
+    "2026-11-05": 0.0,
+    "2026-11-06": 1.0
+   },
+   "etkin_poz_pazartesi_sonrasi": 0.4,
+   "eksik": "yok (Cuma ABD kapanışı biliniyor)"
+  },
+  "E_M_GDXJ_h1": {
+   "durum": "KOŞULLU",
+   "kural": "Pazartesi 15:00 ET'de spot altın < Cuma 16:00 ET fiyatı (4065.68 USD) ise GDXJ'yi kapanışta al, Salı kapanışında sat; değilse nakit.",
+   "cuma_m_pct": -0.87,
+   "cuma_pozisyon": 1.0,
+   "eksik": "Pazartesi 15:00 ET (20:00 UTC) spot altın"
+  }
+ },
+ "lowmom_esik": 0.11668049481165992
+}

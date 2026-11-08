@@ -1,0 +1,111 @@
+kume,alan,agent,family,test_id,h,t,t_is,t_oos,p,q_bh,p_bonf,note
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_timing,d2_zm14_GDXJ_h1,1,-5.59,-4.888894478171896,-3.079231384219024,2.262279275022649e-08,0.0001,0.0001,
+islenebilir_genis,ETF,e3_etf_akis_prim,d_letf_cut,d_zm_GDXJ_h1,1,-5.3,-4.796496054288007,-2.7710301653102736,1.1403450828062489e-07,0.0001,0.0003,
+islenebilir_genis,ETF,e3_etf_akis_prim,d_letf_cut,d_zm_GDXJ_h5,5,-4.49,-3.129160079317243,-3.271173812110183,7.022447099380713e-06,0.0044,0.0163,
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_timing,d2_zm14_GDXJ_h5,5,-4.47,-3.311734408422357,-3.071953989217717,7.645017555457656e-06,0.0044,0.0177,
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_timing,d2_zm14_GDX_h1,1,-4.32,-3.7753134145362304,-2.2975133715226,1.5359077150334244e-05,0.0071,0.0356,
+islenebilir_genis,ETF,e1_etf_zaman_takvim,f_final,f_final|madenci_takvim_sepeti(tatil_oncesi|ilk_gun)|GDXJ|h1,1,4.25,2.6232794645381623,3.411806326438848,2.124369887801513e-05,0.0074,0.0492,son aday; yalnız uzun bacak
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a3_GDX~GLD+SPY_W60_k10_GLD_h5,5,4.24,3.825845968671832,1.9664737986938323,2.233854872968344e-05,0.0074,0.0517,beta penceresi duyarlılığı
+islenebilir_genis,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_PLATIN_d5_GDX_h3,3,-4.18,-1.992765095908271,-3.8680541244309854,2.9722664861120407e-05,0.0086,0.0688,
+islenebilir_genis,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_PLATIN_d5_GDX_h5,5,-4.12,-2.192804926830542,-3.660172262930429,3.833838472511175e-05,0.0099,0.0888,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a3_GDX~GLD+SPY_W60_k10_GLD_h3,3,4.03,3.5791879100632267,1.986768096085992,5.4675378932333984e-05,0.0127,0.1266,beta penceresi duyarlılığı
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_miners,d2_zm_JNUG_h1,1,-4.01,-4.177671549368765,-1.720462758539936,6.041752508734177e-05,0.0127,0.1399,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k10_GLD_h5,5,3.93,3.464160189899925,1.9422741934981245,8.527937300373267e-05,0.0157,0.1974,win=120
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_miners,d2_zm_JNUG_h5,5,-3.92,-2.6485139576340075,-2.7913393524250623,8.840446223334908e-05,0.0157,0.2047,
+islenebilir_genis,ETF,e2_etf_leadlag,b_gunici_rv,b1_xau_intraday_GDX_h1,1,-3.84,-3.4119911489294013,-1.863197395595396,0.0001250169959392,0.0199,0.2894,IS=2018-2021 OOS=2022+
+islenebilir_genis,ETF,e3_etf_akis_prim,d_letf_cut,d_zm_GDX_h1,1,-3.82,-3.483202009284286,-1.8663548670486425,0.000133270991242,0.0199,0.3085,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a3_GDX~GLD+SPY_W500_k10_GLD_h5,5,3.81,3.193073771211662,2.028736302867653,0.0001375121554405,0.0199,0.3183,beta penceresi duyarlılığı
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_timing,d2_zB_abd_sabah_GDXJ_h1,1,-3.79,-3.1120180518581817,-2.1994847689383423,0.000151283387098,0.0206,0.3502,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k10_GLD_h3,3,3.76,3.243177561878293,1.9983045164625568,0.0001686039529786,0.0217,0.3903,win=120
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_timing,d2_zA_asya_avrupa_GDX_h5,5,-3.65,-1.7159218484426169,-3.336676718240484,0.0002584343010143,0.0315,0.5983,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a3_GDX~GLD+SPY_W500_k10_GLD_h3,3,3.61,2.934378024179514,2.084137754780888,0.0003018007959585,0.0348,0.6987,beta penceresi duyarlılığı
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a3_GDX~GLD+SPY_W500_k5_GLD_h5,5,3.6,3.255272782758095,1.6314516638211938,0.0003160684518268,0.0348,0.7317,beta penceresi duyarlılığı
+islenebilir_genis,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_JP_GOLD_ETF_1328_d5_GDX_h5,5,-3.57,-2.2929490528572334,-2.8353238650870622,0.0003591186275173,0.0359,0.8314,
+islenebilir_genis,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_PLATIN_d5_GDX_h1,1,-3.56,-2.0824903446683103,-2.9944806055068818,0.0003737618746351,0.0359,0.8653,
+islenebilir_genis,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_PLATIN_d1_GDX_h5,5,-3.55,-2.057056630562248,-2.966367715273199,0.0003796239684206,0.0359,0.8788,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a3_GDX~GLD+SPY_W500_k5_GLD_h3,3,3.55,2.735023341085916,2.1418918028679523,0.0003879283254781,0.0359,0.8981,beta penceresi duyarlılığı
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a4_GDX~GLD+SPY_k10_GLD_h5_uc_haric,5,3.51,3.0950672174848783,1.7407580955822668,0.0004476279672598,0.0397,1.0,robust
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_timing,d2_zB_abd_sabah_GDXJ_h5,5,-3.5,-2.9215429309091223,-2.0833551811303974,0.0004630201391055,0.0397,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k1_GDXJ_h3,3,3.47,1.9019449672387283,3.0381039385567825,0.0005247431087302,0.043,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k5_GLD_h5,5,3.44,3.39074570417494,1.248601418874331,0.0005746320180926,0.043,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k10_GLD_h1,1,3.43,3.5961244472918152,1.2966715066876295,0.0005932290156038,0.043,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a4_GDXJ~GLD+SPY_k1_GDXJ_h3_uc_haric,3,3.43,1.848831413423322,3.0952910325530825,0.0005938355042667,0.043,1.0,robust
+islenebilir_genis,ETF,e1_etf_zaman_takvim,f_final,f_final|GDX_5gun_dusus_sonrasi_al_h1|GDX|h1,1,3.43,2.071216731285331,2.976635443563074,0.0006106811811985,0.043,1.0,son aday; yalnız uzun bacak
+islenebilir_genis,ETF,e1_etf_zaman_takvim,a3_os,a3_os|GDX|streak<=-5|h1,1,3.43,2.0710797220478976,2.976635443563074,0.0006127711588463,0.043,1.0,yalnız uzun bacak: sinyal günü vs diğer
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a2_lag_GLD_k5_GDXJ_h5,5,-3.41,-2.3530700182495914,-2.5386729239725825,0.0006458926133852,0.044,1.0,
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_miners,d2_zm_NUGT_h1,1,-3.4,-3.5850511172636312,-1.2387336786258911,0.0006841949079172,0.0453,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a3_GDX~GLD+SPY_W60_k5_GLD_h5,5,3.36,3.3692268151169147,1.1485847495804204,0.000776671825742,0.049,1.0,beta penceresi duyarlılığı
+islenebilir_genis,ETF,e3_etf_akis_prim,d_letf_cut,d_zm_GDXJ_h3,3,-3.36,-2.926520082152397,-1.8503409546654568,0.0007824219310954,0.049,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k1_GLD_h3,3,3.32,0.9939505781787638,3.835337680572272,0.0009138847332996,0.0557,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k10_GLD_h5,5,3.3,3.489154121186255,1.0695915559365368,0.0009828142148538,0.0557,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k5_GLD_h3,3,3.29,2.759814720017804,1.7282233958954116,0.0009967392201286,0.0557,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k3_GDX_h3,3,3.29,2.238177518727392,2.342877889579901,0.0010109407548473,0.0557,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a5_asya_madenci_artik_k1_GLD_h3,3,3.29,2.0766951353413017,2.48053248887006,0.0010110632465767,0.0557,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a4_GDX~GLD+SPY_k5_GLD_h5_uc_haric,5,3.25,3.535429573643588,0.8674643732527962,0.0011547397030537,0.062,1.0,robust
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_miners,d2_zm_AEM_h1,1,-3.24,-3.5605683705006115,-0.8741823200237581,0.0011802317855023,0.062,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a2_lag_GLD_k5_GDX_h5,5,-3.23,-2.0593178511325623,-2.6126885270900018,0.0012261819981405,0.062,1.0,
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_timing,d2_zA_asya_avrupa_GDXJ_h5,5,-3.23,-0.8839338225080958,-3.5219452405537486,0.0012311728912994,0.062,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_JP_GOLD_ETF_1328_d5_GDX_h3,3,-3.21,-1.9903218166938192,-2.6456677938495874,0.0013113471563206,0.063,1.0,
+islenebilir_genis,ETF,e1_etf_zaman_takvim,c_tom,c_tom|GDXJ|ayin_ilk_gunu|h1,1,3.21,1.962482611282983,2.6038060867517565,0.0013320649049957,0.063,1.0,
+islenebilir_genis,ETF,e1_etf_zaman_takvim,f_final,f_final|madenci_ayin_ilk_gunu|GDXJ|h1,1,3.21,1.958573433207877,2.6038060867517565,0.0013456280713968,0.063,1.0,son aday; yalnız uzun bacak
+islenebilir_genis,ETF,e2_etf_leadlag,b_gunici_rv,b2_GDXJ~GLD+SPY_GLD_h5,5,3.19,4.720810345136238,0.8689512341428772,0.0014085264770513,0.063,1.0,hourly 730d; IS=ilk yarı (≤2025-05) OOS=ikinci yarı
+islenebilir_genis,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_HK_GOLD_ETF_2840_d5_GDX_h5,5,-3.19,-1.83476021775136,-2.762363740704528,0.0014123489706827,0.063,1.0,
+islenebilir_genis,ETF,e3_etf_akis_prim,d2_timing,d2_zm14_GDX_h5,5,-3.19,-2.18577668958652,-2.41433295436424,0.0014157032937227,0.063,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a5_asya_madenci_artik_k1_GDX_h3,3,3.19,1.9954718636595248,2.42935791870805,0.0014470927677712,0.0632,1.0,
+islenebilir_genis,ETF,e1_etf_zaman_takvim,b_pred,b_pred|GDXJ|gece_t(acilis_boslugu)|h1,1,-3.17,-2.1574075530297128,-2.373788635210582,0.0015103865556518,0.0648,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k10_GLD_h3,3,3.16,3.212143048789027,1.27321882525453,0.0015508479596626,0.0653,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_WTI_d1_GDX_h5,5,-3.14,-1.9396232897011856,-2.5800510796787544,0.001700291921397,0.0703,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k3_GDXJ_h3,3,3.11,1.8685681297464465,2.599905668394204,0.0018853396552436,0.0766,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a3_GDX~GLD+SPY_W60_k5_GLD_h3,3,3.07,2.660408102057169,1.5190677226680878,0.0021202306894805,0.0846,1.0,beta penceresi duyarlılığı
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k3_GLD_h3,3,3.07,1.5992640694931346,2.787129935590645,0.002174392426177,0.0851,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,b_gunici_rv,b3_C1+gunici_GLD_h5,5,3.06,2.128105495157921,2.4892455131982194,0.0022341448126472,0.0851,1.0,hourly 730d
+islenebilir_genis,ETF,e1_etf_zaman_takvim,b_pred,b_pred|GDX|gece_t(acilis_boslugu)|h1,1,-3.06,-2.4894641572194294,-1.8526378084737527,0.0022427448781885,0.0851,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k3_GLD_h5,5,3.05,2.587227137536618,1.5741434383127235,0.0023030987452015,0.086,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_FXI_d5_GDX_h5,5,-3.04,-1.491873796046968,-2.933669032399317,0.0023856740596892,0.0877,1.0,
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k3_GLD_h1,1,3.02,0.94951258588776,3.399785404165271,0.0024876071812118,0.09,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k3_GLD_h3,3,3.01,1.3010760080693808,2.988377164424085,0.0025809560064933,0.091,1.0,win=120
+islenebilir_genis,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD_k1_GLD_h3,3,3.01,0.7775439127924081,3.673661482236421,0.0025935452254861,0.091,1.0,win=120
+birincil,ETF,e3_etf_akis_prim,d2_timing,d2_zm14_GDXJ_h1,1,-5.59,-4.888894478171896,-3.079231384219024,2.262279275022649e-08,0.0,0.0,
+birincil,ETF,e3_etf_akis_prim,d_letf_cut,d_zm_GDXJ_h1,1,-5.3,-4.796496054288007,-2.7710301653102736,1.1403450828062489e-07,0.0001,0.0002,
+birincil,ETF,e3_etf_akis_prim,d_letf_cut,d_zm_GDXJ_h5,5,-4.49,-3.129160079317243,-3.271173812110183,7.022447099380713e-06,0.0041,0.015,
+birincil,ETF,e3_etf_akis_prim,d2_timing,d2_zm14_GDXJ_h5,5,-4.47,-3.311734408422357,-3.071953989217717,7.645017555457656e-06,0.0041,0.0163,
+birincil,ETF,e3_etf_akis_prim,d2_timing,d2_zm14_GDX_h1,1,-4.32,-3.7753134145362304,-2.2975133715226,1.5359077150334244e-05,0.0065,0.0327,
+birincil,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_PLATIN_d5_GDX_h3,3,-4.18,-1.992765095908271,-3.8680541244309854,2.9722664861120407e-05,0.0106,0.0633,
+birincil,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_PLATIN_d5_GDX_h5,5,-4.12,-2.192804926830542,-3.660172262930429,3.833838472511175e-05,0.0117,0.0817,
+birincil,ETF,e3_etf_akis_prim,d2_miners,d2_zm_JNUG_h1,1,-4.01,-4.177671549368765,-1.720462758539936,6.041752508734177e-05,0.0161,0.1287,
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k10_GLD_h5,5,3.93,3.464160189899925,1.9422741934981245,8.527937300373267e-05,0.0188,0.1816,win=120
+birincil,ETF,e3_etf_akis_prim,d2_miners,d2_zm_JNUG_h5,5,-3.92,-2.6485139576340075,-2.7913393524250623,8.840446223334908e-05,0.0188,0.1883,
+birincil,ETF,e2_etf_leadlag,b_gunici_rv,b1_xau_intraday_GDX_h1,1,-3.84,-3.4119911489294013,-1.863197395595396,0.0001250169959392,0.0237,0.2663,IS=2018-2021 OOS=2022+
+birincil,ETF,e3_etf_akis_prim,d_letf_cut,d_zm_GDX_h1,1,-3.82,-3.483202009284286,-1.8663548670486425,0.000133270991242,0.0237,0.2839,
+birincil,ETF,e3_etf_akis_prim,d2_timing,d2_zB_abd_sabah_GDXJ_h1,1,-3.79,-3.1120180518581817,-2.1994847689383423,0.000151283387098,0.0248,0.3222,
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k10_GLD_h3,3,3.76,3.243177561878293,1.9983045164625568,0.0001686039529786,0.0257,0.3591,win=120
+birincil,ETF,e3_etf_akis_prim,d2_timing,d2_zA_asya_avrupa_GDX_h5,5,-3.65,-1.7159218484426169,-3.336676718240484,0.0002584343010143,0.0367,0.5505,
+birincil,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_JP_GOLD_ETF_1328_d5_GDX_h5,5,-3.57,-2.2929490528572334,-2.8353238650870622,0.0003591186275173,0.0449,0.7649,
+birincil,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_PLATIN_d5_GDX_h1,1,-3.56,-2.0824903446683103,-2.9944806055068818,0.0003737618746351,0.0449,0.7961,
+birincil,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_PLATIN_d1_GDX_h5,5,-3.55,-2.057056630562248,-2.966367715273199,0.0003796239684206,0.0449,0.8086,
+birincil,ETF,e3_etf_akis_prim,d2_timing,d2_zB_abd_sabah_GDXJ_h5,5,-3.5,-2.9215429309091223,-2.0833551811303974,0.0004630201391055,0.0519,0.9862,
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k1_GDXJ_h3,3,3.47,1.9019449672387283,3.0381039385567825,0.0005247431087302,0.0559,1.0,win=120
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k5_GLD_h5,5,3.44,3.39074570417494,1.248601418874331,0.0005746320180926,0.0567,1.0,win=120
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k10_GLD_h1,1,3.43,3.5961244472918152,1.2966715066876295,0.0005932290156038,0.0567,1.0,win=120
+birincil,ETF,e1_etf_zaman_takvim,a3_os,a3_os|GDX|streak<=-5|h1,1,3.43,2.0710797220478976,2.976635443563074,0.0006127711588463,0.0567,1.0,yalnız uzun bacak: sinyal günü vs diğer
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a2_lag_GLD_k5_GDXJ_h5,5,-3.41,-2.3530700182495914,-2.5386729239725825,0.0006458926133852,0.0573,1.0,
+birincil,ETF,e3_etf_akis_prim,d2_miners,d2_zm_NUGT_h1,1,-3.4,-3.5850511172636312,-1.2387336786258911,0.0006841949079172,0.0583,1.0,
+birincil,ETF,e3_etf_akis_prim,d_letf_cut,d_zm_GDXJ_h3,3,-3.36,-2.926520082152397,-1.8503409546654568,0.0007824219310954,0.0641,1.0,
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k1_GLD_h3,3,3.32,0.9939505781787638,3.835337680572272,0.0009138847332996,0.0695,1.0,win=120
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k10_GLD_h5,5,3.3,3.489154121186255,1.0695915559365368,0.0009828142148538,0.0695,1.0,win=120
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k5_GLD_h3,3,3.29,2.759814720017804,1.7282233958954116,0.0009967392201286,0.0695,1.0,win=120
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDX~GLD+SPY_k3_GDX_h3,3,3.29,2.238177518727392,2.342877889579901,0.0010109407548473,0.0695,1.0,win=120
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a5_asya_madenci_artik_k1_GLD_h3,3,3.29,2.0766951353413017,2.48053248887006,0.0010110632465767,0.0695,1.0,
+birincil,ETF,e3_etf_akis_prim,d2_miners,d2_zm_AEM_h1,1,-3.24,-3.5605683705006115,-0.8741823200237581,0.0011802317855023,0.0771,1.0,
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a2_lag_GLD_k5_GDX_h5,5,-3.23,-2.0593178511325623,-2.6126885270900018,0.0012261819981405,0.0771,1.0,
+birincil,ETF,e3_etf_akis_prim,d2_timing,d2_zA_asya_avrupa_GDXJ_h5,5,-3.23,-0.8839338225080958,-3.5219452405537486,0.0012311728912994,0.0771,1.0,
+birincil,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_JP_GOLD_ETF_1328_d5_GDX_h3,3,-3.21,-1.9903218166938192,-2.6456677938495874,0.0013113471563206,0.0771,1.0,
+birincil,ETF,e1_etf_zaman_takvim,c_tom,c_tom|GDXJ|ayin_ilk_gunu|h1,1,3.21,1.962482611282983,2.6038060867517565,0.0013320649049957,0.0771,1.0,
+birincil,ETF,e2_etf_leadlag,b_gunici_rv,b2_GDXJ~GLD+SPY_GLD_h5,5,3.19,4.720810345136238,0.8689512341428772,0.0014085264770513,0.0771,1.0,hourly 730d; IS=ilk yarı (≤2025-05) OOS=ikinci yarı
+birincil,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_HK_GOLD_ETF_2840_d5_GDX_h5,5,-3.19,-1.83476021775136,-2.762363740704528,0.0014123489706827,0.0771,1.0,
+birincil,ETF,e3_etf_akis_prim,d2_timing,d2_zm14_GDX_h5,5,-3.19,-2.18577668958652,-2.41433295436424,0.0014157032937227,0.0771,1.0,
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a5_asya_madenci_artik_k1_GDX_h3,3,3.19,1.9954718636595248,2.42935791870805,0.0014470927677712,0.0771,1.0,
+birincil,ETF,e1_etf_zaman_takvim,b_pred,b_pred|GDXJ|gece_t(acilis_boslugu)|h1,1,-3.17,-2.1574075530297128,-2.373788635210582,0.0015103865556518,0.0785,1.0,
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k10_GLD_h3,3,3.16,3.212143048789027,1.27321882525453,0.0015508479596626,0.0787,1.0,win=120
+birincil,ETF,e2_etf_leadlag,c_capraz_gecikmeli,c_WTI_d1_GDX_h5,5,-3.14,-1.9396232897011856,-2.5800510796787544,0.001700291921397,0.0842,1.0,
+birincil,ETF,e2_etf_leadlag,a_madenci_artik,a1_GDXJ~GLD+SPY_k3_GDXJ_h3,3,3.11,1.8685681297464465,2.599905668394204,0.0018853396552436,0.0913,1.0,win=120
