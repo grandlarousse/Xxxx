@@ -1,0 +1,331 @@
+<title>Midas ETF Sinyal Rehberi</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Düzen: tek sütun okuma akışı; en üstte "bugün ne yapmalıyım" paneli, sonra kurallar, hesaplayıcı, rutin, liste. Kodlar terminal fişi gibi. */
+:root {
+  --bg: #F3F5F7; --surface: #FFFFFF; --ink: #15202B; --muted: #566270; --line: #D7DDE4;
+  --accent: #1E4CC8; --accent-soft: #E7EDFB;
+  --ok: #1D7447; --ok-soft: #E2F2E9; --warn: #8F5B00; --warn-soft: #FAEFD9; --bad: #B0281F; --bad-soft: #FBE7E5;
+  --f-display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0E141B; --surface: #151D26; --ink: #E5EBF1; --muted: #9CA8B6; --line: #283341;
+  --accent: #86A6FF; --accent-soft: #1B2948;
+  --ok: #62D29C; --ok-soft: #13311F; --warn: #F0BA5C; --warn-soft: #382A10; --bad: #FF8F86; --bad-soft: #3B1C1A; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0E141B; --surface: #151D26; --ink: #E5EBF1; --muted: #9CA8B6; --line: #283341;
+  --accent: #86A6FF; --accent-soft: #1B2948;
+  --ok: #62D29C; --ok-soft: #13311F; --warn: #F0BA5C; --warn-soft: #382A10; --bad: #FF8F86; --bad-soft: #3B1C1A; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 400 16px/1.6 var(--f-body); margin: 0 }
+.wrap { max-width: 960px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 40px }
+h1, h2, h3 { font-family: var(--f-display); line-height: 1.15; text-wrap: balance; margin: 0 }
+h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 700; letter-spacing: -0.01em }
+h2 { font-size: clamp(22px, 3.4vw, 28px); font-weight: 700 }
+h3 { font-size: 19px; font-weight: 600 }
+p { margin: 0; max-width: 68ch }
+.muted { color: var(--muted) }
+.eyebrow { font: 600 12px/1.3 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+section { display: grid; gap: 16px; min-width: 0 }
+.tk { font-family: var(--f-mono); font-size: .86em; background: var(--accent-soft); color: var(--accent); padding: 1px 6px; border-radius: 4px; white-space: nowrap }
+.num { font-variant-numeric: tabular-nums }
+header { display: grid; gap: 10px }
+.lede { font-size: 18px; max-width: 62ch }
+
+/* bugün paneli */
+.today { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden }
+.today-head { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between; align-items: baseline; padding: 16px 18px; border-bottom: 1px solid var(--line) }
+.trow { display: grid; grid-template-columns: 150px 1fr; gap: 6px 16px; padding: 14px 18px; border-bottom: 1px solid var(--line); align-items: start }
+.trow:last-child { border-bottom: 0 }
+.trow > div { min-width: 0 }
+@media (max-width: 600px) { .trow { grid-template-columns: 1fr } }
+.pill { display: inline-block; font: 600 12px/1 var(--f-mono); letter-spacing: .04em; padding: 6px 9px; border-radius: 999px; text-transform: uppercase }
+.p-ok { background: var(--ok-soft); color: var(--ok) } .p-warn { background: var(--warn-soft); color: var(--warn) } .p-bad { background: var(--bad-soft); color: var(--bad) } .p-n { background: var(--accent-soft); color: var(--accent) }
+
+/* kural kartları */
+.rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px }
+.rule { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 12px; align-content: start }
+.rule .code { font: 700 13px/1 var(--f-mono); color: var(--accent) }
+.steps { margin: 0; padding-left: 20px; display: grid; gap: 6px }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px; border-top: 1px solid var(--line); padding-top: 12px }
+.facts dt { font-size: 12px; color: var(--muted) } .facts dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums }
+.example { background: var(--accent-soft); border-radius: 8px; padding: 14px 16px; display: grid; gap: 6px }
+.formula { font-family: var(--f-mono); font-size: 14px; overflow-x: auto }
+
+/* hesaplayıcı */
+.calc { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 16px }
+.calc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px }
+label { display: grid; gap: 4px; font-size: 13px; color: var(--muted) }
+input, select { font: 500 16px var(--f-mono); padding: 9px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); width: 100% }
+input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.btns { display: flex; flex-wrap: wrap; gap: 8px }
+button { font: 600 14px var(--f-body); padding: 8px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer }
+button.primary { background: var(--accent); border-color: var(--accent); color: var(--surface) }
+.result { border-radius: 8px; padding: 14px 16px; display: grid; gap: 6px; border: 1px solid var(--line) }
+.result.yes { background: var(--ok-soft); border-color: transparent } .result.no { background: var(--bg) } .result.err { background: var(--bad-soft); border-color: transparent }
+.result .big { font: 700 22px/1.2 var(--f-display) }
+
+/* tablolar */
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface) }
+table { border-collapse: collapse; width: 100%; font-size: 14px }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top }
+th { font: 600 12px/1.3 var(--f-mono); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); background: var(--bg); position: sticky; top: 0 }
+tr:last-child td { border-bottom: 0 }
+td .tk { display: inline-block; margin: 1px 4px 1px 0 }
+.kad { font: 700 12px var(--f-mono); padding: 3px 7px; border-radius: 4px }
+.kA { background: var(--ok-soft); color: var(--ok) } .kB { background: var(--warn-soft); color: var(--warn) } .kC { background: var(--accent-soft); color: var(--muted) }
+.toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: end }
+.toolbar label { min-width: 200px; flex: 1 }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--muted) }
+.note { font-size: 14px; color: var(--muted) }
+ol.routine { margin: 0; padding-left: 22px; display: grid; gap: 10px; max-width: 72ch }
+ol.routine li::marker { font-family: var(--f-mono); color: var(--accent) }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px }
+.box { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: grid; gap: 8px; align-content: start }
+ul.plain { margin: 0; padding-left: 18px; display: grid; gap: 6px }
+footer { border-top: 1px solid var(--line); padding-top: 16px; display: grid; gap: 6px; font-size: 13px; color: var(--muted) }
+@media (prefers-reduced-motion: no-preference) { button { transition: background .15s } }
+</style>
+
+<div class="wrap">
+<header>
+  <span class="eyebrow">Midas · ABD ETF · 1-3 gün · veri 06.11.2026 kapanışı</span>
+  <h1>Midas ETF Sinyal Rehberi</h1>
+  <p class="lede">313 ETF 10 yıllık veriyle test edildi. Komisyon ve makas düşüldükten sonra ayakta kalan <strong>yalnız iki kural</strong> var. İkisini de aynı soruyla takip edersin: <em>ETF bugün günün dibine yakın mı kapandı?</em> Aşağıda bu soruyu nasıl soracağın, bugünkü durum ve izleme listesi var.</p>
+  <p class="note">Yatırım tavsiyesi değildir. Geçmiş sonuç geleceği garanti etmez. Saatler Türkiye saati, ABD kış saatine göre (1 Kasım 2026 – 14 Mart 2027); yazın her şey 1 saat erken.</p>
+</header>
+
+<section aria-labelledby="bugun">
+  <h2 id="bugun">Bugün ne yapmalıyım?</h2>
+  <div class="today">
+    <div class="today-head">
+      <strong>06.11.2026 Cuma kapanışına göre</strong>
+      <span class="muted">Sonraki kontrol: 09.11 Pazartesi akşamı</span>
+    </div>
+    <div class="trow"><div><span class="pill p-n">A1 · QQQ</span></div><div><strong>Yeni işlem yok.</strong> Cuma IBS 0,20 ve gün yükselişle kapandı (+%1,4), sinyal değil. 02.11 sinyaliyle alınan pozisyon 06.11 kapanışında satıldı. 05.11 sinyali o sırada pozisyon açık olduğu için yok sayıldı.</div></div>
+    <div class="trow"><div><span class="pill p-n">A2 · SMH</span></div><div><strong>Yeni işlem yok.</strong> Cuma IBS 0,38, sinyal değil. 05.11 sinyaliyle alınan pozisyon 06.11'de satıldı.</div></div>
+    <div class="trow"><div><span class="pill p-bad">Piyasa</span></div><div><strong>Oynaklık çok yüksek.</strong> VIX 25,6; SMH'nin günlük oynaklığı 10 yılın en yüksek %3'ünde. Sinyal gelirse <strong>normal tutarın yarısıyla</strong> gir, kaldıraçlı ETF (TQQQ, SOXL, NVDL, TSLL) kullanma.</div></div>
+    <div class="trow"><div><span class="pill p-warn">Takvim</span></div><div>İsteğe bağlı zayıf kurallar: 09.11 kapanışında 10 yıllık ihale pozisyonu (TBT/TMV) kapanır; 12.11 kapanışında EIA doğalgaz kuralı (KOLD); 30.11 kapanışında ay sonu kuralı (GDX). Bunları yapmak zorunda değilsin.</div></div>
+  </div>
+</section>
+
+<section aria-labelledby="kurallar">
+  <h2 id="kurallar">Neye göre işlem yapacaksın: iki kural</h2>
+  <p>Bir ETF'nin günü kendi gün içi aralığının <strong>en dibine yakın</strong> kapatıp kapatmadığını <strong>IBS</strong> adlı basit bir oranla ölçersin. 0 = kapanış günün en düşüğünde, 1 = günün en yükseğinde. Bu iki ETF'de dipte kapanan günlerin ardından fiyat 10 yıl boyunca ortalamada toparlandı.</p>
+  <div class="example">
+    <span class="eyebrow">Gerçek örnek: QQQ, 05.11.2026</span>
+    <div class="formula num">IBS = (kapanış − günün en düşüğü) ÷ (günün en yükseği − günün en düşüğü)<br>= (647,05 − 647,05) ÷ (683,65 − 647,05) = 0,00 → 0,10'un altında ve gün düşüşle kapandı → <strong>SİNYAL</strong></div>
+  </div>
+  <div class="rules">
+    <article class="rule">
+      <span class="code">A1 · ANA KURAL</span>
+      <h3>QQQ dipte kapandıysa: ertesi gün al, 3 gün tut</h3>
+      <ol class="steps">
+        <li><strong>Koşul:</strong> <span class="tk">NASDAQ:QQQ</span> günlük mumunda IBS 0,10'un altında <strong>ve</strong> kapanış dünkü kapanışın altında.</li>
+        <li><strong>Al:</strong> sinyali gece öğren; <strong>ertesi işlem günü</strong> kapanıştan ~10 dk önce (TR 23:50) QQQ al.</li>
+        <li><strong>Sat:</strong> aldıktan 3 işlem günü sonra, yine kapanıştan ~10 dk önce.</li>
+        <li><strong>Pozisyondayken</strong> yeni QQQ sinyali gelirse yok say.</li>
+      </ol>
+      <dl class="facts">
+        <div><dt>Beklenen net kazanç / işlem</dt><dd>+%0,45 – 0,55</dd></div>
+        <div><dt>Kazanan işlem oranı</dt><dd>%60</dd></div>
+        <div><dt>Yılda kaç işlem</dt><dd>~18</dd></div>
+        <div><dt>En kötü işlem (10 yıl)</dt><dd>−%8,3</dd></div>
+      </dl>
+    </article>
+    <article class="rule">
+      <span class="code">A2 · İKİNCİ KURAL</span>
+      <h3>SMH dipte kapandıysa: o gece al, ertesi gün sat</h3>
+      <ol class="steps">
+        <li><strong>Koşul:</strong> <span class="tk">NASDAQ:SMH</span> günlük mumunda IBS 0,20'nin altında (düşüş şartı yok).</li>
+        <li><strong>Al:</strong> resmî kapanıştan hemen sonra, after-hours'ta (TR 00:00-01:00) kapanış fiyatının 2-5 sent üstüne <strong>limit emir</strong>, tam adet.</li>
+        <li><strong>Sat:</strong> ertesi işlem günü kapanıştan ~10 dk önce. O gün de IBS 0,20'nin altında kapanacak gibiyse satma, bir gün daha tut.</li>
+        <li><strong>Ertesi sabah alma:</strong> kazancın neredeyse tamamı ilk gecede oluşuyor.</li>
+      </ol>
+      <dl class="facts">
+        <div><dt>Beklenen net kazanç / işlem</dt><dd>+%0,31 – 0,36</dd></div>
+        <div><dt>Kazanan işlem oranı</dt><dd>%58</dd></div>
+        <div><dt>Yılda kaç işlem</dt><dd>~50</dd></div>
+        <div><dt>En kötü işlem (10 yıl)</dt><dd>−%10,7</dd></div>
+      </dl>
+    </article>
+  </div>
+  <p class="note">İkisi aynı riski taşır (teknoloji hisseleri). İkisi aynı anda açıksa A1 tam, A2 yarım tutarla. Rakamlar 2.500 $ pozisyon içindir; 1.000 $'ın altında Midas'ın 1,5 $ komisyonu kazancı yer. Kurallar stopsuz test edildi.</p>
+</section>
+
+<section aria-labelledby="hesap">
+  <h2 id="hesap">Sinyal hesaplayıcı</h2>
+  <p>Kapanıştan ~15 dakika önce (TR 23:45) ya da kapanıştan sonra TradingView'dan günün en yükseğini, en düşüğünü ve son fiyatı gir. Sayfa sana sinyal olup olmadığını ve ne yapacağını söyler.</p>
+  <form class="calc" id="calcForm" novalidate>
+    <div class="calc-grid">
+      <label for="cEtf">ETF ve kural
+        <select id="cEtf">
+          <option value="QQQ">QQQ · A1 (ana)</option>
+          <option value="SMH">SMH · A2</option>
+          <option value="SPY">SPY · B1 (zayıf)</option>
+          <option value="GDXJ">GDXJ · B2 (zayıf)</option>
+          <option value="EWY">EWY · B5 (zayıf)</option>
+        </select>
+      </label>
+      <label for="cHigh">Günün en yükseği<input id="cHigh" inputmode="decimal" autocomplete="off"></label>
+      <label for="cLow">Günün en düşüğü<input id="cLow" inputmode="decimal" autocomplete="off"></label>
+      <label for="cClose">Son fiyat / kapanış<input id="cClose" inputmode="decimal" autocomplete="off"></label>
+      <label for="cPrev">Dünkü kapanış<input id="cPrev" inputmode="decimal" autocomplete="off"></label>
+    </div>
+    <div class="btns" id="dayBtns" aria-label="Kayıtlı günleri yükle"></div>
+    <div class="result no" id="cOut" aria-live="polite"></div>
+  </form>
+</section>
+
+<section aria-labelledby="rutin">
+  <h2 id="rutin">Her akşam: adım adım</h2>
+  <ol class="routine">
+    <li><strong>TR ~23:40 – 23:50 (kapanışa 10-20 dk):</strong> Bugün satış günü olan pozisyonu sat. Dün gece QQQ sinyali geldiyse <strong>şimdi QQQ al</strong> (A1). Yarım günlerde (27.11 ve 24.12) piyasa TR 21:00'de kapanır, bu adımı 20:45'te yap.</li>
+    <li><strong>TR 00:00 sonrası (kapanış kesinleşti):</strong> TradingView'da QQQ ve SMH'nin günlük mumuna bak ya da hesaplayıcıya gir.
+      <ul class="plain"><li>SMH sinyali varsa: hemen after-hours'ta limit emirle al (A2).</li><li>QQQ sinyali varsa: bu gece bir şey yapma; yarın 23:50'de al (A1).</li><li>Açık pozisyonun varken aynı ETF'de gelen yeni sinyali yok say.</li></ul></li>
+    <li><strong>Haftada bir:</strong> önemli veri ve bilanço günlerine bak. ABD enflasyonu (CPI) ve istihdam (NFP) TR 16:30, Fed kararı TR 22:00. NVDA bilançosu 17.11 kapanış sonrası (tahmini tarih); o gece yeni A2 işlemi açmamayı düşün.</li>
+  </ol>
+  <p class="note">TradingView'da otomatik takip istersen rapor klasöründeki <span class="tk">ibs_dip.pine</span> göstergesini kullan; alarmı "bar kapanışında bir kez" ile kur.</p>
+</section>
+
+<section aria-labelledby="risk">
+  <h2 id="risk">Para ve risk</h2>
+  <div class="cols">
+    <div class="box"><h3>Ne kadar?</h3><ul class="plain"><li>Pozisyon en az ~2.500 $. A1 ve A2 birlikte için en az ~5.000 $.</li><li>A1 açıkken A2 gelirse A2 yarım tutar.</li><li>Şu an oynaklık yüksek: normal tutarın yarısı.</li></ul></div>
+    <div class="box"><h3>Kaldıraç</h3><ul class="plain"><li>2x ETF'de 1x tutarın yarısı, 3x'te üçte biri.</li><li>TQQQ tek işlemde −%31 kaybettirdi (Mart 2020).</li><li>Yüksek oynaklıkta kaldıraç kullanma.</li></ul></div>
+    <div class="box"><h3>Midas'a özgü</h3><ul class="plain"><li>Kapanışta piyasa emri (MOC) yok: kapanıştan dakikalar önce ya da after-hours'ta limit emir.</li><li>UNG, USO, BOIL, KOLD, UVXY, SVXY gibi fonlarda satışta %10 kesinti riski (PTP); teyit etmeden kısa vadeli işlem yapma.</li><li>Açığa satış yok; ürünün Midas'ta olup olmadığını uygulamada arayarak kontrol et.</li></ul></div>
+  </div>
+  <p class="note">10.000 $ ile 2017-2026 simülasyonu (A1 yarım, A2 çeyrek sermaye): yıllık %13,3, en büyük düşüş −%8,8, günlerin %37'sinde piyasada. Aynı dönemde QQQ'yu al-tut %19,3 getirdi ama −%35 düştü. Kurallar boğa piyasasında al-tut'u getiride geçmiyor; çok daha az düşüş sağlıyor.</p>
+</section>
+
+<section aria-labelledby="liste">
+  <h2 id="liste">İzleme listesi ve lead-lag</h2>
+  <p>77 ETF. <strong>Lead-lag sonucu:</strong> hiçbir göstergenin bugünkü hareketi yarını maliyeti aşacak kadar önceden göstermiyor. Bu yüzden her ETF için iki tür kod veriliyor: <strong>aynı gün sürücüler</strong> (ETF'yi neyin hareket ettirdiğini gösterir) ve <strong>gerçek zamanlı izleme</strong> (ETF kapalıyken işleyen vadeli/kripto/döviz; ertesi açılışın yönünü önceden gösterir).</p>
+  <div class="legend"><span><span class="kad kA">A</span> doğrulanmış kural</span><span><span class="kad kB">B</span> zayıf kural (isteğe bağlı)</span><span><span class="kad kC">C</span> kural yok, sadece takip</span><span>⚠ PTP riski</span></div>
+  <div class="toolbar">
+    <label for="fText">Ara (ETF, aile ya da kod)<input id="fText" placeholder="örn. QQQ, doğalgaz, NG1!" autocomplete="off"></label>
+    <label for="fKarar" style="min-width:160px;flex:0">Göster<select id="fKarar"><option value="kabul">Ana liste (22)</option><option value="hepsi">Hepsi (77)</option></select></label>
+    <button type="button" id="copyBtn">TradingView listesini kopyala</button>
+  </div>
+  <p class="note" id="copyMsg">Kopyaladığın metni bir .txt dosyasına yapıştırıp TradingView'da İzleme listesi → "Listeyi içe aktar" ile yükleyebilirsin.</p>
+  <div class="tbl-wrap"><table id="wl"><thead><tr><th>ETF</th><th>Kademe</th><th>Kural</th><th>Maliyet</th><th>Aynı gün sürücüler</th><th>Gerçek zamanlı izleme</th></tr></thead><tbody></tbody></table></div>
+  <p class="note">Maliyet: 2.500 $ pozisyonda alış + satış toplamı (komisyon + makas), yüzde olarak.</p>
+  <textarea id="tumText" hidden></textarea>
+</section>
+
+<section aria-labelledby="zayif">
+  <h2 id="zayif">İsteğe bağlı zayıf kurallar</h2>
+  <p>Bunlar geçmişte kazandırmış ama denetimde sağlam çıkmamış kurallar. Kağıt üstünde izle ya da çok küçük tutarla dene.</p>
+  <div class="tbl-wrap"><table><thead><tr><th>Kod</th><th>Kural</th><th>Araç</th><th>Neden zayıf</th></tr></thead><tbody>
+    <tr><td>B1</td><td>SPY'da A1'in aynısı</td><td><span class="tk">AMEX:SPY</span></td><td>Sonuç tek parametre seçimine bağlı; QQQ ile aynı günler</td></tr>
+    <tr><td>B2</td><td>GDXJ IBS &lt; 0,10 + düşüş, kapanışta al, 3 gün</td><td><span class="tk">AMEX:GDXJ</span></td><td>Diğer madenci ETF'lerinde tekrar etmiyor</td></tr>
+    <tr><td>B3</td><td>Ayın son günü kapanışta al, yeni ayın 3. günü sat</td><td><span class="tk">AMEX:GDX</span> ya da <span class="tk">AMEX:GLD</span></td><td>Birkaç büyük kazanca bağlı</td></tr>
+    <tr><td>B4</td><td>SPY %1,5+ düştüğü gün SPY'dan çok düşen Asya ETF'leri, 1 gün</td><td>EWJ, EWY, EWT, FXI</td><td>Gün bazında istatistik eşiğin altında</td></tr>
+    <tr><td>B5</td><td>EWY IBS &lt; 0,10 + düşüş, 1 gün</td><td><span class="tk">AMEX:EWY</span></td><td>2026'nın aşırı oynaklığına bağlı</td></tr>
+    <tr><td>B6</td><td>10 yıllık tahvil ihalesinden 3 gün önce al, 1 gün önce sat</td><td><span class="tk">AMEX:TBT</span></td><td>2016 öncesinde çalışmıyor</td></tr>
+    <tr><td>B7</td><td>EIA doğalgaz raporundan önceki gün al, rapor günü sat (Kasım-Mart)</td><td><span class="tk">AMEX:KOLD</span> ⚠</td><td>Birkaç işleme bağlı; PTP riski</td></tr>
+    <tr><td>B8</td><td>USO alt Bollinger kırılımı, ertesi gün al, 2 gün</td><td><span class="tk">AMEX:USO</span> ⚠</td><td>Taramadan seçildi; PTP riski</td></tr>
+    <tr><td>B9</td><td>SVXY RSI(2) &lt; 10 ve 200 günlük ortalamanın üstünde, 2 gün</td><td><span class="tk">CBOE:SVXY</span> ⚠</td><td>Kanıt 2021'e bağlı; çöküş riski</td></tr>
+    <tr><td>B10</td><td>Büyük hisse (NVDA, TSLA, AMZN, MSFT, GOOGL) RSI(2) &lt; 10, en çok 3 gün</td><td>Hissenin kendisi ya da 2x ETF</td><td>Sonradan seçilmiş kazanan hisseler</td></tr>
+  </tbody></table></div>
+</section>
+
+<section aria-labelledby="yok">
+  <h2 id="yok">Popüler ama işe yaramayanlar</h2>
+  <div class="cols">
+    <div class="box"><h3>Doğalgaz (UNG, BOIL, KOLD)</h3><p>Hiçbir alış kuralı maliyeti aşmıyor; BOIL günde ortalama −%0,36 eriyor. Tek işe yarayan bilgi: UNG/BOIL alımını EIA raporu gününe (Perşembe TR 18:30) taşıma.</p></div>
+    <div class="box"><h3>Altın, gümüş, petrol</h3><p>Faiz, dolar, Fed günü, rapor günü kuralları maliyet sonrası çalışmıyor. Takip için <span class="tk">COMEX:GC1!</span>, <span class="tk">COMEX:SI1!</span>, <span class="tk">NYMEX:CL1!</span>.</p></div>
+    <div class="box"><h3>VIX, kripto, ters ETF'ler</h3><p>UVXY/VXX ile 1-3 günlük alış kuralı yok; kripto ETF'lerinde haftanın günü ve gece etkileri tutmuyor; SQQQ, SOXS gibi ters ETF'lerle kısa denemeler hep zarar.</p></div>
+    <div class="box"><h3>Kırılım stratejileri</h3><p>20 günlük zirveyi kıranı almak neredeyse her ETF'de zararlı. 1-3 günde trend değil, dipten dönüş çalışıyor.</p></div>
+  </div>
+</section>
+
+<footer>
+  <span>Ayrıntılı rapor, ETF başına kartlar ve kod: repo <span class="tk">raporlar/2026-11-07_midas_etf_1-3gun/</span> (RAPOR.md, IZLEME_LISTESI.md, kartlar/).</span>
+  <span>Yöntem: 313 ETF, 2016-11 – 2026-11 günlük veri, 92.664 genel test + aile başına özel testler; her aday bağımsız bir denetçi tarafından ayrı kodla yeniden üretildi ve çürütülmeye çalışıldı. TradingView kodları sembol sayfaları açılarak doğrulandı.</span>
+</footer>
+</div>
+
+<script>
+const DATA = __DATA__;
+const $ = (id) => document.getElementById(id);
+const fmt = (x, d = 2) => Number(x).toLocaleString("tr-TR", { minimumFractionDigits: d, maximumFractionDigits: d });
+const RULES = {
+  QQQ: { code: "A1", thr: 0.10, down: true, mode: "C1", hold: 3 },
+  SMH: { code: "A2", thr: 0.20, down: false, mode: "C0", hold: 1 },
+  SPY: { code: "B1", thr: 0.10, down: true, mode: "C1", hold: 3 },
+  GDXJ: { code: "B2", thr: 0.10, down: true, mode: "C0", hold: 3 },
+  EWY: { code: "B5", thr: 0.10, down: true, mode: "C0", hold: 1 },
+};
+const parse = (v) => { const s = String(v).trim().replace(/\s/g, ""); if (!s) return NaN; const t = s.includes(",") ? s.replace(/\./g, "").replace(",", ".") : s; return Number(t); };
+
+function evaluate() {
+  const sym = $("cEtf").value, r = RULES[sym];
+  const h = parse($("cHigh").value), l = parse($("cLow").value), c = parse($("cClose").value), p = parse($("cPrev").value);
+  const out = $("cOut");
+  if ([h, l, c].some(Number.isNaN)) { out.className = "result no"; out.innerHTML = "<span>Günün en yükseğini, en düşüğünü ve son fiyatı gir.</span>"; return; }
+  if (h <= l || c > h || c < l) { out.className = "result err"; out.innerHTML = "<span class='big'>Sayıları kontrol et</span><span>En yüksek, en düşükten büyük olmalı; son fiyat ikisinin arasında olmalı.</span>"; return; }
+  const ibs = (c - l) / (h - l);
+  const downOk = !r.down || (!Number.isNaN(p) && c < p);
+  const needPrev = r.down && Number.isNaN(p);
+  const sig = ibs < r.thr && downOk;
+  let what = "";
+  if (sig && r.mode === "C1") what = `Bu gece bir şey yapma. <strong>Bir sonraki işlem günü</strong> kapanıştan ~10 dk önce (TR 23:50) ${sym} al, ${r.hold} işlem günü sonra kapanıştan önce sat. Açık ${sym} pozisyonun varsa bu sinyali yok say.`;
+  if (sig && r.mode === "C0") what = `Kapanıştan sonra after-hours'ta (TR 00:00-01:00) kapanış fiyatının 2-5 sent üstüne limit emirle, tam adet ${sym} al; ${r.hold === 1 ? "ertesi işlem günü" : r.hold + " işlem günü sonra"} kapanıştan önce sat. Açık ${sym} pozisyonun varsa ${r.code === "A2" ? "satma, bir gün daha tut" : "bu sinyali yok say"}.`;
+  out.className = "result " + (sig ? "yes" : "no");
+  out.innerHTML = `<span class="big">${sig ? "SİNYAL VAR · " + r.code : "Sinyal yok"}</span>
+    <span class="num formula">IBS = (${fmt(c)} − ${fmt(l)}) ÷ (${fmt(h)} − ${fmt(l)}) = <strong>${fmt(ibs)}</strong> · eşik ${fmt(r.thr)}${r.down ? " · düşüş günü: " + (Number.isNaN(p) ? "dünkü kapanışı gir" : (c < p ? "evet" : "hayır")) : ""}</span>
+    <span>${sig ? what : (needPrev ? "Düşüş şartını kontrol etmek için dünkü kapanışı da gir." : (ibs >= r.thr ? "Kapanış günün dibine yeterince yakın değil." : "Gün yükselişle kapandı; bu kuralda düşüş günü şart.")) + (sig ? "" : " Bugün yeni işlem yok.")}</span>
+    <span class="note">Kapanıştan önce girdiysen sonuç geçicidir; kesin karar resmî kapanış fiyatıyla verilir.</span>`;
+}
+
+function loadDay(sym, i) {
+  const bars = DATA.bars[sym]; const b = bars[i], prev = bars[i - 1];
+  $("cEtf").value = sym; $("cHigh").value = fmt(b.h); $("cLow").value = fmt(b.l); $("cClose").value = fmt(b.c); $("cPrev").value = prev ? fmt(prev.c) : "";
+  evaluate();
+}
+function renderDayButtons() {
+  const sym = $("cEtf").value, bars = DATA.bars[sym] || [], box = $("dayBtns");
+  box.innerHTML = "<span class='note' style='align-self:center'>Kayıtlı günler:</span>";
+  for (let i = Math.max(1, bars.length - 4); i < bars.length; i++) {
+    const b = document.createElement("button"); b.type = "button";
+    const [y, m, d] = bars[i].tarih.split("-"); b.textContent = `${sym} ${d}.${m}`;
+    b.addEventListener("click", () => loadDay(sym, i)); box.appendChild(b);
+  }
+}
+["cHigh", "cLow", "cClose", "cPrev"].forEach((id) => $(id).addEventListener("input", evaluate));
+$("cEtf").addEventListener("change", () => { renderDayButtons(); const bars = DATA.bars[$("cEtf").value]; loadDay($("cEtf").value, bars.length - 1); });
+$("calcForm").addEventListener("submit", (e) => { e.preventDefault(); evaluate(); });
+renderDayButtons(); loadDay("QQQ", DATA.bars.QQQ.findIndex((b) => b.tarih === "2026-11-05"));
+
+const esc = (s) => String(s).replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+const tk = (t, title) => t ? `<span class="tk"${title ? ` title="${esc(title)}"` : ""}>${esc(t)}</span>` : "";
+function renderTable() {
+  const q = $("fText").value.trim().toLocaleLowerCase("tr-TR"), mode = $("fKarar").value;
+  const rows = DATA.izleme.filter((r) => mode === "hepsi" || r.karar === "kabul").filter((r) => {
+    if (!q) return true;
+    const hay = [r.sym, r.tv, r.aile, ...r.surucu.map((s) => s.tv + " " + s.ad), ...r.gz.map((g) => g.tv + " " + g.ad)].join(" ").toLocaleLowerCase("tr-TR");
+    return hay.includes(q);
+  });
+  $("wl").querySelector("tbody").innerHTML = rows.map((r) => `<tr>
+    <td><strong>${esc(r.sym)}</strong>${r.ptp ? " ⚠" : ""}<br>${tk(r.tv)}<br><span class="note">${esc(r.aile)}${r.karar === "yedek" ? " · yedek" : ""}</span></td>
+    <td><span class="kad k${r.kademe}">${r.kademe}</span></td>
+    <td>${r.kurallar.length ? esc(r.kurallar.join(", ")) : "—"}</td>
+    <td class="num">%${fmt(r.maliyet / 100)}</td>
+    <td>${r.surucu.map((s) => tk(s.tv, s.ad + (s.corr != null ? " · korelasyon " + fmt(s.corr) : ""))).join("") || "—"}</td>
+    <td>${r.gz.map((g) => tk(g.tv, g.ad + ": " + g.neden)).join("") || "—"}</td></tr>`).join("") || `<tr><td colspan="6">Eşleşen ETF yok.</td></tr>`;
+}
+$("fText").addEventListener("input", renderTable); $("fKarar").addEventListener("change", renderTable); renderTable();
+
+$("tumText").value = DATA.tum;
+$("copyBtn").addEventListener("click", () => {
+  const msg = $("copyMsg");
+  const done = () => { msg.textContent = "Kopyalandı. Bir .txt dosyasına yapıştırıp TradingView'da İzleme listesi → \"Listeyi içe aktar\" ile yükle."; };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(DATA.tum).then(done).catch(() => { const t = $("tumText"); t.hidden = false; t.style.width = "100%"; t.rows = 4; t.select(); msg.textContent = "Otomatik kopyalama engellendi; aşağıdaki seçili metni kendin kopyala."; });
+  } else { const t = $("tumText"); t.hidden = false; t.rows = 4; t.select(); }
+});
+</script>
