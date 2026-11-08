@@ -213,3 +213,17 @@ Başlangıç durumu: `tarama/abd_rejim_20261106.md`.
 - **XU030 bazı:** rapordaki b bülten kapanış fiyatıyla hesaplanır, yani 18:10 son fiyatına göre yaklaşıktır. Kural canlı 18:10 fiyatı ister. Eşik aynı bülten yöntemiyle ölçüldüğü için tutarlıdır.
 - **RYGYO → RYSAS:** FİLTRE'dir, işlem kanalı değildir. Rapor bugünkü z'yi ve yarının RYGYO seviyelerini (kapanış × e^(±sd250)) yazar. K4 RYSAS girişi yazılırsa satıra "RYGYO ≤ seviye ise o akşam girme" eklenir. z > +1 günlerinde kâğıt kural satırı çıkar.
 - **Pine dosyaları** (`koza_alarm.pine`, `tuprs_alarm.pine` ve mevcutlar) derlenmedi.
+
+## Ek: kurulu zamanlanmış görevler (08.11.2026)
+
+| Görev | Saat (TSİ) | Ne yapar | Neden |
+|---|---|---|---|
+| **Günlük borsa önerisi (BIST + ABD)** | Hafta içi 21:05 | Taze bir oturum depoyu klonlar, `python3 -m pip install numpy pandas requests` ile bağımlılıkları kurar, `gunluk_oneri.py`'yi çalıştırır ve özeti telefona **bildirim** olarak gönderir. Commit/push yapmaz. | Bildirim yalnız taze oturum modunda gönderilebiliyor. |
+| **Günlük borsa raporunu dala kaydet** | Hafta içi 21:20 | Bu ana oturumda çalışır: betiği yeniden çalıştırır, `gunluk/` dosyalarını commit edip `claude/borsa-kazanc-stratejileri-rfxr81` dalına gönderir. | Taze oturumların bu depoya yazma yetkisi yok. Hat testi (08.11 01:00 UTC) push'ta HTTP 403 verdi. `durum.json` (ABD sayaçları) ve `xu030_baz.csv` geçmişi bu adımla sürer. |
+
+**Hat testi sonucu (08.11):** Klon ve checkout çalıştı. Betik, bağımlılıklar `python3 -m pip` ile kurulduktan sonra 189 sn'de çıkış kodu 0 ile bitti. Push yetki hatası verdi. Bu yüzden görev ikiye bölündü.
+
+**Değiştirme, durdurma:**
+- Claude uygulamasında "Zamanlanmış görevler".
+- İkinci görev bu ana oturuma bağlı. Oturum arşivlenirse çalışmaz; o durumda ilk görev yine bildirim gönderir, ama `durum.json` güncellenmez.
+- Kalıcı çözüm için depoyu ortamın Repositories listesine ekleyip görevi o depo seçili olarak yeniden oluşturmak gerekir (claude.ai, ortam ayarları).
