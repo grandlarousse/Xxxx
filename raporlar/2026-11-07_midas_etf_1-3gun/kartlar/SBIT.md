@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 57 | 16.0 | 561 | %-20.3 | -2.0 | 2024-04-02 |
+| 57 | 16,0 | 561 | %-20,3 | -2,0x | 2024-04-02 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** −2x BTC (57 mn$/gün, makas ~4 bp, 16 bp; maliyet/oynaklık 0,028). S1 (Perşembe gün içi, düşük güven) aracı. ProShares Trust II PTP listesinde değil. Uyarı: günlük sıfırlamalı −2x; gece taşımada yol bağımlılığı; Midas'ta bulunurluğu doğrulanmadı. **Ana ajan notu:** S1 çürütüldü; yalnız kısa BTC görüşü için araç.
+**Neden izleme listesinde:** Kısa BTC görüşü için −2x araç (yedek). Perşembe kuralı (S1 (çürütüldü)) çürütüldü; doğrulanmış strateji yok. **Ana ajan notu:** S1 (çürütüldü) çürütüldü; yalnız kısa BTC görüşü için araç.
 
 ## 1. Ne zaman girilir?
 
@@ -39,11 +39,11 @@ Doğrulanmış (denetimden geçmiş) gecikmeli öncü yok: bu ETF'nin sürücül
 
 ## 3. Takvim ve olay riskleri
 
-TR saatiyle (ABD kış saati): CPI 10 Kas 2026 Sal 16:30; aylık opsiyon vadesi 20 Kas Cum; Şükran Günü 26 Kas Per KAPALI (S1 işlemi yok), 27 Kas Cum erken kapanış 21:00; NFP 4 Ara Cum 16:30; FOMC 9 Ara Çar 22:00 (SEP); CPI 10 Ara Per 16:30 (S1 günü — CPI'lı Perşembeler çok oynak); triple witching 18 Ara Cum; 24 Ara Per erken kapanış 21:00; 25 Ara ve 1 Oca kapalı. Kripto 7/24 işler: hafta sonu/tatil hareketi Pazartesi (tatil ertesi) açılışında boşluk olarak gelir. CME BTC/ETH vadeli aylık vadesi ayın son Cuması (kural; takvim dosyalarında yok, doğrulanmadı).
+TR saatiyle (ABD kış saati): CPI 10 Kas 2026 Sal 16:30; aylık opsiyon vadesi 20 Kas Cum; Şükran Günü 26 Kas Per KAPALI (S1 (çürütüldü) işlemi yok), 27 Kas Cum erken kapanış 21:00; NFP 4 Ara Cum 16:30; FOMC 9 Ara Çar 22:00 (SEP); CPI 10 Ara Per 16:30 (S1 (çürütüldü) günü — CPI'lı Perşembeler çok oynak); triple witching 18 Ara Cum; 24 Ara Per erken kapanış 21:00; 25 Ara ve 1 Oca kapalı. Kripto 7/24 işler: hafta sonu/tatil hareketi Pazartesi (tatil ertesi) açılışında boşluk olarak gelir. CME BTC/ETH vadeli aylık vadesi ayın son Cuması (kural; takvim dosyalarında yok, doğrulanmadı).
 
 ## 4. Notlar
 
-Doğrulanmış gecikmeli öncü YOK. leadlag_sweep'te ailenin 765 hedef×öncü satırında (3.060 test) global ve aile içi BH-FDR geçen 0. Ek testler (BTC/ETH 16:00 ET → hedef t+1/t+3, kendi gecikmesi kontrollü; 'yetişme' u=β60·r_BTC−r_T kendi getirisi kontrollü) hiçbiri |t|≥2 değil. Yetişme kuralları (u≥+2σ → long) maliyetli backtestte anlamsız. BTC gece hareketi → IBIT gün içi devamı: z≥+1'de IBIT O1 net +29 bp (t=1,40), z≤−1'de SBIT +48 bp (t=1,09) — anlamsız. Gün içi BTC ile korelasyon ~1 olduğundan 'sürücüler' eşzamanlıdır, öncü değildir. Ters ürün: dayanak düşüşünde kazanır; S1 aracı (SBIT) / düşük riskli alternatif (BITI).
+Doğrulanmış gecikmeli öncü YOK. leadlag_sweep'te ailenin 765 hedef×öncü satırında (3.060 test) global ve aile içi BH-FDR geçen 0. Ek testler (BTC/ETH 16:00 ET → hedef t+1/t+3, kendi gecikmesi kontrollü; 'yetişme' u=β60·r_BTC−r_T kendi getirisi kontrollü) hiçbiri |t|≥2 değil. Yetişme kuralları (u≥+2σ → long) maliyetli backtestte anlamsız. BTC gece hareketi → IBIT gün içi devamı: z≥+1'de IBIT O1 net +29 bp (t=1,40), z≤−1'de SBIT +48 bp (t=1,09) — anlamsız. Gün içi BTC ile korelasyon ~1 olduğundan 'sürücüler' eşzamanlıdır, öncü değildir. Ters ürün: dayanak düşüşünde kazanır; S1 (çürütüldü) aracı (SBIT) / düşük riskli alternatif (BITI).
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_kripto.md`, `notlar/denetim_kripto.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_kripto.md`, `notlar/denetim_kripto.md`.*

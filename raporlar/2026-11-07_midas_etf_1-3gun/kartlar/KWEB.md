@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 594 | 16.0 | 168 | %-4.5 | 1.0 | 2016-11-07 |
+| 594 | 16,0 | 168 | %-4,5 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** Doğrulanmış negatif gecikme: EEM güçlü yükseldiği günün ertesi KWEB brüt -14..-34 bp (FDR, IS/OOS negatif) -> long-only için 'alma/çık' kuralı. Gerçek zamanlı izleme: Hang Seng vadelisi. Likit (594 mn $).
@@ -50,4 +50,4 @@ Hong Kong tatilleri (KWEB işlem görür, dayanak kapalı: bayat NAV), Çin PMI 
 Doğrulanmış gecikmeli öncü: EEM (negatif). Hang Seng vadelisi öncü değil, ABD kapalıyken KWEB'in fiyatlandığı piyasadır (açılış boşluğunun kaynağı).
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_sektor_tematik.md`, `notlar/denetim_sektor_tematik.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_sektor_tematik.md`, `notlar/denetim_sektor_tematik.md`.*

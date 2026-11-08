@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 171 | 16.0 | 318 | %-9.9 | 1.0 | 2016-11-07 |
+| 171 | 16,0 | 318 | %-9,9 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** Uranyum: 171 mn $, ~16 bp, oynaklık 320 bp. Strateji yok; risk iştahı (ES/NQ) ve EEM ile eşzamanlı hareket; SPY ile ters gecikmeli ilişki zayıf (FDR yok).
@@ -47,4 +47,4 @@ Kazatomprom/Cameco üretim açıklamaları, SPUT fon alımları, ABD enerji poli
 Doğrulanmış gecikmeli öncü yok. Fiziki uranyum (Sprott SPUT) ve Cameco gerçek zamanlı izlenebilir ama TradingView kodları doğrulanmadı (tv_dogrulanacak).
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*

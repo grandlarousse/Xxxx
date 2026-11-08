@@ -5,26 +5,27 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 86 | 16.0 | 115 | %-3.4 | 1.0 | 2016-11-07 |
+| 86 | 16,0 | 115 | %-3,4 | 1,0x | 2016-11-07 |
 
 **Kademe:** B — kural var ama kanıt zayıf (küçük boyut / kağıt üstünde izle)  
-**Neden izleme listesinde:** S1 sepet üyesi (C0 h=1 net +51 bp) ama OOS negatif (-8 bp); 86 mn $, 16 bp.
+**Neden izleme listesinde:** B4 sepet üyesi (C0 h=1 net +51 bp) ama OOS negatif (-8 bp); 86 mn $, 16 bp.
 
 ## 1. Ne zaman girilir?
 
 Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kuralı yok.
 
-### İzlemede (zayıf kanıt — tek başına işlem gerekçesi değil)
+### İzlemede (zayıf kanıt ya da yalnız filtre — tek başına işlem gerekçesi değil)
 
-#### ABD sert düşüş günü Asya aşırı tepki dönüşü (UL03, sepet)  
-*İzlemede — zayıf kanıt · güven: orta · id: `uluslararasi_S1`*
+#### B4 — ABD sert düşüş günü Asya aşırı tepki dönüşü (UL03, sepet)  
+*İzlemede — zayıf kanıt · güven: orta · aile kimliği: `uluslararasi_S1`*  
+*Bu ETF'nin rolü: sepet üyesi*
 
 - **Sinyal (t kapanışında):** Günlük veri (TradingView'da temettü düzeltmesi 'ADJ' açık). Sinyal günü t: AMEX:SPY günlük değişimi = close/close[1]-1 <= -%1,50. Bu günde sepetteki her ETF için (AMEX:EWJ, AMEX:EWY, AMEX:EWT, AMEX:FXI, AMEX:EWA, AMEX:EWH) kendi günlük değişimi SPY'ın günlük değişiminden küçük ya da eşitse (ETF SPY'dan daha çok düştüyse) o ETF'te long aç; diğerlerinde işlem yok. Eşit tutar (ör. ETF başına 2.500 $). Çıkış: bir sonraki işlem günü kapanışı (h=1). Çıkış günü yeniden sinyal varsa pozisyon korunur. Açığa satış yok; yalnız long. Pine: spy=request.security("AMEX:SPY","D",close/close[1]-1); sig = spy<=-0.015 and (close/close[1]-1)<=spy.
 - **Giriş:** C0: t günü ABD kapanışına ~10-15 dk kala (kış saati TR 23:45-23:50; yaz saati TR 22:45-22:50) koşul o anki fiyatlarla sağlanıyorsa piyasa/limit emirle al. Kaçırılırsa kapanış sonrası after-hours (kış TR 00:00-04:00) yalnız limit emirle, kapanış fiyatına yakın limitle. Kapanışa kadar fiyat değiştiğinden C0 hafif iyimserdir.
-- **Tutuş / çıkış:** 1 işlem günü (birincil, önceden belirlenmiş). Varyant h=2: sepet net +73 bp, t 2,33 (seçim yapılmadı, yalnız rapor). — t+1 kapanışına ~10 dk kala sat (kış TR ~23:50, yaz ~22:50). Stop kullanılmadı (testte yok). Yedek giriş: t+1 açılışında (TR 17:30 kış) alındıysa h=2 tut (O1 h=2: net +38 bp, t 1,76).
+- **Tutuş / çıkış:** 1 işlem günü (birincil, önceden belirlenmiş). Varyant h=2: sepet net +73 bp, t 2,33 (seçim yapılmadı, yalnız rapor). — t+1 kapanışına ~10 dk kala sat (kış TR ~23:50, yaz ~22:50). Stop kullanılmadı. Ertesi açılışta GİRME (O1 sepette −3 bp; FXI'de −33 bp).
 - **İşlem aracı:** EWY, EWT, FXI, EWJ, EWA, EWH (sinyal: SPY (koşul) + işlem yapılan ETF'in kendi günlük getirisi)
 - **Geçmiş (ajan):** n=110, net 55.8 bp/işlem (brüt 70.4), kazanma %58, t=2.22, IS 68.0 / OOS 45.7 bp, yılların %78'i pozitif, en kötü işlem -1356 bp
-- **Ana ajan son kontrolü (düzeltilmiş veri, 2.500$):** C0: net 57 bp (t 3.2, n=288) · O1: net -3 bp (t -0.3, n=288) · C1: net 29 bp (t 2.0, n=274); 1.000$ pozisyonda ana mod net 39 bp (t 2.2)
+- **Ana ajan son kontrolü (düzeltilmiş veri, 2.500 $):** C0: net 57 bp (t 3,2, gün kümeli t 1,9, n=288) · O1: net -3 bp (t -0,3, gün kümeli t -0,2, n=288) · C1: net 29 bp (t 2,0, gün kümeli t 1,3, n=274); 1.000 $ pozisyonda ana mod net 39 bp (t 2,2)
 - **Denetçi düzeltmesi:** C0 h1 2.500$: net 55,8 bp, gün-kümeli BASİT t 1,99 (NW 2,22 şişkin), OOS t 1,42; tek yönlü p 0,024 -> 6 birincil hipotezde BH GEÇMEZ; en iyi 5 gün hariç 18,7 bp (t 0,79); 2020+2026 hariç 21,2 bp (t 1,00); 1.000$ 37,8 bp (t 1,35); +10 bp stres 45,8 bp (t 1,64). Kural metnine uygun 'koru' sürümü: 106 gün, net 57,5 bp, basit t 2,54, en kötü -852 bp; en iyi 5 gün hariç t 1,28, 2020+2026 hariç t 1,19.
 - **Denetçi kural düzeltmesi:** Kural aynı kalabilir ama statüsü 'aday strateji' değil 'izleme/keşif sinyali' olmalı. Uygulanırsa: yalnız C0 (ABD kapanışından ~10 dk önce, kış TR 23:50) ve ETF başına >= 2.500$ (tercihen >= 5.000$); çıkış günü yeniden sinyal varsa pozisyonu KORU (yeniden giriş maliyeti ödeme; backtest de buna göre yapılmalı); 'kapanış kaçırılırsa O1 h=2' yedeği önerilmez (FXI O1 h1 net -33 bp, t -2,38); kaldıraçlı (KORU/YINN) uygulama önerilmez.
 - **Denetim:** Bağımsız simülatörle (lib.trades/evaluate kullanılmadan) BİREBİR: 110 sinyal günü, 293 işlem, brüt 70,37 bp, net 55,84 bp (2.500$), NW t 2,22, IS 68,0 / OOS 45,7 bp, yıl+ 0,78, en kötü -1.356 bp (EWA 11.03.2020); ETF bazında EWY 108 (t 2,41), EWT 63 (2,00), FXI 37 (1,17), EWJ 30 (1,21), EWA 51 (0,97), EWH 49 (1,54) aynı. Zamanlama temiz: giriş c[t]/çıkış c[t+1] hatası 0, SPY-ETF takvim farkı yok, ham ve düzeltilmiş fiyatla sinyal farkı 0 gün; en büyük kazançlar (EWA 12.03.2020 +1.399, EWY 23.03.2020 +1.232, EWA 23.03.2020 +1.209, EWY 29.07.2026 +1.166, EWY 10.06.2026 +1.135 bp) veri_kalitesi'nde bayraksız gerçek kriz günleri; 2026 EWY hareketleri KORU ile tutarlı (beta 2,92, korelasyon 0,999). Sağlamlık: Lehte: koşullu permütasyon (aynı SPY<=-%1,5 günlerinde aynı sayıda ETF'i rastgele seçme, 5.000 tekrar) p=0,0014 (gözlenen 55,8 vs sim. ort. 35,4 bp); rastgele tarih p=0,0002; SPY düşüş günlerinden rastgele gün+ETF p=0,0036; eşleştirilmiş fark (ETF<=SPY eksi ETF>SPY) +39,7 bp t 2,84, IS 38,8/OOS 40,5, 2020 hariç t 2,39; plasebo Amerika/Avrupa zayıf; göreli koşul sertleştikçe (k=1,25) brüt artıyor -> göreli aşırı tepki mekanizması gerçek görünüyor. Aleyhte: uzun-tek yönlü mutlak getiri birkaç kriz gününe bağlı (rastgele ETF seçimiyle bile 35 bp), alt örneklerde ve maliyet/kayma duyarlılığında eşik altına düşüyor. Mod: C0 56 / O1 -2 / C1 25 bp net (h1); h=2 C0 73 bp (basit t 2,39) ama en iyi 5 gün hariç t 1,25. Yıllar: 2018 -6, 2019 +74, 2020 +122, 2021 +76, 2022 +18, 2023 +30, 2024 -46, 2025 +34, 2026 +200 bp.
@@ -49,7 +50,7 @@ Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kural�
 
 | Öncü | TradingView | Tür | Ufuk | Ne beklenir | t (IS/OOS) | Maliyet sonrası | Denetim |
 |---|---|---|---|---|---|---|---|
-| SPY koşullu kuralı (S1: SPY<=-%1,5 ve ETF<=SPY) | `AMEX:SPY` | koşullu eşik; doğrusal testte doğrulanmadı | t+1 | Koşul sağlandığında EWA ertesi gün brüt 67 bp (n=59); sepet net +56 bp | 1.0 (—/—) | net 51 bp (IS 105 / OOS -8) | denetlenmedi |
+| SPY koşullu kuralı (B4: SPY<=-%1,5 ve ETF<=SPY) | `AMEX:SPY` | koşullu eşik; doğrusal testte doğrulanmadı | t+1 | Koşul sağlandığında EWA ertesi gün brüt 67 bp (n=59); sepet net +56 bp | 1.0 (—/—) | net 51 bp (IS 105 / OOS -8) | denetlenmedi |
 
 ### Gerçek zamanlı izlenecekler (ETF kapalıyken işler; açılış boşluğunu önceden gösterir)
 
@@ -65,7 +66,7 @@ ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah ya
 
 ## 4. Notlar
 
-Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): VIX_dlog h1 t=-3.15 (IS -2.63/OOS -1.64), h3 t=-2.32. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı S1'in koşullu kuralıdır, doğrusal öncü değildir. IWM(t)->EWA(t+1) pozitif (t 3,1; IS 2,3/OOS 2,1), FDR yok, keşifsel.
+Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): VIX_dlog h1 t=-3.15 (IS -2.63/OOS -1.64), h3 t=-2.32. Sürücüler eşzamanlıdır, öncü değildir. SPY satırı B4'ün koşullu kuralıdır, doğrusal öncü değildir. IWM(t)->EWA(t+1) pozitif (t 3,1; IS 2,3/OOS 2,1), FDR yok, keşifsel.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*

@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 38 | 20.0 | 279 | %-10.0 | -1.0 | 2022-06-21 |
+| 38 | 20,0 | 279 | %-10,0 | -1,0x | 2022-06-21 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** −1x BTC (38 mn$/gün, makas ~8 bp, 20 bp). Long-only hesapta kısa BTC aracı; S1'in düşük riskli alternatifi (net kenar küçük ~8 bp). Ay başlarında açıklanamayan −5 puanlık farklar (dağıtım kaydı eksik olabilir).
+**Neden izleme listesinde:** −1x BTC (38 mn$/gün, makas ~8 bp, 20 bp). Long-only hesapta kısa BTC aracı; S1 (çürütüldü)'in düşük riskli alternatifi (net kenar küçük ~8 bp). Ay başlarında açıklanamayan −5 puanlık farklar (dağıtım kaydı eksik olabilir).
 
 ## 1. Ne zaman girilir?
 
@@ -40,7 +40,7 @@ Bkz. IBIT girdisi: CPI 10 Kas 16:30; 26 Kas kapalı; NFP 4 Ara; FOMC 9 Ara 22:00
 
 ## 4. Notlar
 
-Doğrulanmış gecikmeli öncü YOK (sweep FDR 0; ek testler |t|<2). Sürücüler eşzamanlıdır; ayrıntı IBIT/ETHA girdisinde. Ters ürün: dayanak düşüşünde kazanır; S1 aracı (SBIT) / düşük riskli alternatif (BITI).
+Doğrulanmış gecikmeli öncü YOK (sweep FDR 0; ek testler |t|<2). Sürücüler eşzamanlıdır; ayrıntı IBIT/ETHA girdisinde. Ters ürün: dayanak düşüşünde kazanır; S1 (çürütüldü) aracı (SBIT) / düşük riskli alternatif (BITI).
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_kripto.md`, `notlar/denetim_kripto.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_kripto.md`, `notlar/denetim_kripto.md`.*

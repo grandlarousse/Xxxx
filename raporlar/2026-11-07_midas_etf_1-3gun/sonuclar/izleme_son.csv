@@ -175,7 +175,7 @@ metal_madenci,SLV,kabul,yedek,C,"Strateji/öncü yok; COMEX:SI1! ile izlenir; 30
 metal_madenci,GDXJ,kabul,kabul,B,
 metal_madenci,COPX,kabul,yedek,C,Strateji yok; COMEX:HG1! ile izlenir.
 metal_madenci,IAU,yedek,yedek,B,
-metal_madenci,GLDM,yedek,yedek,C,
+metal_madenci,GLDM,yedek,yedek,B,
 metal_madenci,XME,yedek,yedek,C,
 metal_madenci,URA,yedek,yedek,C,
 metal_madenci,SILJ,yedek,yedek,C,
@@ -238,7 +238,7 @@ tahvil_doviz,YCL,red,red,C,
 tahvil_doviz,EUO,red,red,C,
 tahvil_doviz,ULE,red,red,C,
 volatilite,SVXY,kabul,kabul,B,Koşullu: Midas'ta sembol ve PTP %10 kesintisi yoksa; aksi halde yalnız sinyal kaynağı.
-volatilite,SVIX,yedek,red,B,"Denetçi: kanıt yalnız 2022+, -1x yapı Şubat 2018 tipi olayda ~%90+ kayıp."
+volatilite,SVIX,yedek,red,C,"Denetçi: kanıt yalnız 2022+, -1x yapı Şubat 2018 tipi olayda ~%90+ kayıp."
 volatilite,VXX,yedek,yedek,C,İşlem adayı değil; yalnız koruma (1-3 günlük hiçbir long kural pozitif değil).
 volatilite,VIXY,red,red,C,
 volatilite,UVXY,red,red,C,

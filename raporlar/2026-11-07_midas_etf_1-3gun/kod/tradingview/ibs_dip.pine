@@ -1,32 +1,52 @@
-// IBS dip sinyali — Midas 1-3 gün çalışması (2026-11-07). Pine Script v5. Derlenmedi: TradingView'da ilk eklemede hata verirse bildirin.
-// Günlük (1D) grafikte kullanın. Ön ayarlar (raporda doğrulanan/zayıf kurallar):
-//   NASDAQ:QQQ  -> eşik 0.10, düşüş şartı AÇIK, tutuş 3  (Kademe A; ana mod C1 = sinyalden sonraki gün kapanışta gir)
-//   NASDAQ:SMH  -> eşik 0.20, düşüş şartı KAPALI, tutuş 1 (Kademe A; yalnız C0 = sinyal günü kapanışında/after-hours limitle gir)
-//   AMEX:SPY    -> eşik 0.10, düşüş AÇIK, tutuş 3 (B; QQQ ile aynı gün sinyal verirse yalnız QQQ)
-//   AMEX:GDXJ   -> eşik 0.10, düşüş AÇIK, tutuş 3 (B, C0)
-//   AMEX:EWY    -> eşik 0.10, düşüş AÇIK, tutuş 1 (B, C0)
-// Üçgen = sinyal (t kapanışı). Kare = çakışmasız kuralla çıkış günü (C0 sayımı: giriş t kapanışı, çıkış t+tutuş kapanışı).
+// IBS dip sinyali — Midas 1-3 gün çalışması (2026-11-07). Pine Script v5. TradingView'da derlenmedi: ilk eklemede hata çıkarsa bildirin.
+// Günlük (1D) grafikte kullanın. "Ön ayar otomatik" açıkken sembole göre kural seçilir (RAPOR.md):
+//   QQQ  (A1): IBS<0,10 + düşüş günü, C1 (sinyalden sonraki gün kapanışta gir), 3 gün tut
+//   SMH / SOXX (A2): IBS<0,20, düşüş şartı yok, C0 (sinyal günü kapanışında / after-hours limit), 1 gün
+//   SPY  (B1): IBS<0,10 + düşüş, C1, 3 gün      GDXJ (B2): IBS<0,10 + düşüş, C0, 3 gün      EWY (B5): IBS<0,10 + düşüş, C0, 1 gün
+// İşaretler: yeşil üçgen = kabul edilen sinyal (t kapanışı) · mavi daire = C1 giriş günü (t+1 kapanışı) · turuncu kare = çıkış günü (kapanışta sat)
+// gri küçük üçgen = pozisyondayken gelen sinyal (backtestte yok sayıldı). Çakışma kuralı backtest motoruyla (kod/lib.py trades) aynıdır.
+// Alarm: "Bar kapanışında bir kez" (Once Per Bar Close) seçin; TR 00:00'da (kış) tetiklenir -> C1 için ertesi akşam, A2 için after-hours limit emri.
 //@version=5
 indicator("IBS dip (Midas 1-3 gün)", overlay=true, max_labels_count=200)
-esik      = input.float(0.10, "IBS eşiği", minval=0.01, maxval=0.5, step=0.01)
-dususSart = input.bool(true, "Düşüş günü şartı (close < close[1])")
-tutus     = input.int(3, "Tutuş (işlem günü)", minval=1, maxval=5)
+otomatik = input.bool(true, "Ön ayarı sembole göre otomatik seç")
+esikG    = input.float(0.10, "IBS eşiği (elle)", minval=0.01, maxval=0.5, step=0.01)
+dususG   = input.bool(true, "Düşüş günü şartı (elle)")
+tutusG   = input.int(3, "Tutuş, işlem günü (elle)", minval=1, maxval=5)
+modG     = input.string("C1", "Giriş modu (elle)", options=["C0", "C1"])
+
+t = syminfo.ticker
+isA2 = t == "SMH" or t == "SOXX"
+preset = t == "QQQ" or t == "SPY" or t == "GDXJ" or t == "EWY" or isA2
+useP = otomatik and preset
+esik  = useP ? (isA2 ? 0.20 : 0.10) : esikG
+dusus = useP ? not isA2 : dususG
+tutus = useP ? ((t == "QQQ" or t == "SPY" or t == "GDXJ") ? 3 : 1) : tutusG
+mod   = useP ? ((t == "QQQ" or t == "SPY") ? "C1" : "C0") : modG
+
 ibs = high > low ? (close - low) / (high - low) : na
-sig = not na(ibs) and ibs < esik and (not dususSart or close < close[1])
-var int girisBar = na
-cikis = false
-if not na(girisBar) and bar_index - girisBar >= tutus
-    cikis := true
-    girisBar := na
-giris = sig and na(girisBar)
-if giris
-    girisBar := bar_index
-plotshape(sig and not giris, "Sinyal (pozisyondayken, yok sayılır)", shape.triangleup, location.belowbar, color.new(color.gray, 40), size=size.tiny)
-plotshape(giris, "Giriş sinyali", shape.triangleup, location.belowbar, color.new(color.teal, 0), size=size.small)
+sig = not na(ibs) and ibs < esik and (not dusus or close < close[1])
+
+var int entryBar = na
+var int exitBar = na
+cikis = not na(exitBar) and bar_index == exitBar
+girisC1 = mod == "C1" and not na(entryBar) and bar_index == entryBar
+bosta = na(exitBar) or bar_index >= exitBar
+kabul = sig and bosta
+if kabul
+    entryBar := mod == "C0" ? bar_index : bar_index + 1
+    exitBar := mod == "C0" ? bar_index + tutus : bar_index + 1 + tutus
+
+plotshape(sig and not kabul, "Sinyal (pozisyondayken, yok sayılır)", shape.triangleup, location.belowbar, color.new(color.gray, 40), size=size.tiny)
+plotshape(kabul, "Sinyal (kabul)", shape.triangleup, location.belowbar, color.new(color.teal, 0), size=size.small)
+plotshape(girisC1, "C1 giriş günü", shape.circle, location.belowbar, color.new(color.blue, 0), size=size.tiny)
 plotshape(cikis, "Çıkış günü", shape.square, location.abovebar, color.new(color.orange, 0), size=size.tiny)
-var table t = table.new(position.top_right, 1, 2, border_width=1)
+
+var table tb = table.new(position.top_right, 1, 3, border_width=1)
 if barstate.islast
-    table.cell(t, 0, 0, "IBS: " + str.tostring(ibs, "#.00"), bgcolor=color.new(color.blue, 80))
-    table.cell(t, 0, 1, sig ? "SİNYAL (eşik " + str.tostring(esik) + ")" : "sinyal yok", bgcolor=sig ? color.new(color.teal, 60) : color.new(color.gray, 85))
-alertcondition(giris, "IBS giriş sinyali", "{{ticker}}: IBS dip sinyali (kapanışa yakın kontrol et)")
-alertcondition(cikis, "IBS çıkış günü", "{{ticker}}: IBS kuralının çıkış günü")
+    table.cell(tb, 0, 0, "IBS: " + str.tostring(ibs, "#.00") + "  (eşik " + str.tostring(esik) + ", " + mod + ", " + str.tostring(tutus) + " gün)", bgcolor=color.new(color.blue, 80))
+    table.cell(tb, 0, 1, kabul ? "SİNYAL" : "sinyal yok", bgcolor=kabul ? color.new(color.teal, 60) : color.new(color.gray, 85))
+    table.cell(tb, 0, 2, bosta ? "pozisyon yok" : "pozisyon: çıkışa " + str.tostring(exitBar - bar_index) + " gün", bgcolor=color.new(color.orange, 85))
+
+alertcondition(kabul, "IBS sinyali", "{{ticker}}: IBS dip sinyali (kural: RAPOR.md)")
+alertcondition(girisC1, "C1 giriş günü", "{{ticker}}: C1 giriş günü — kapanıştan ~10 dk önce al")
+alertcondition(cikis, "Çıkış günü", "{{ticker}}: çıkış günü — kapanışa yakın sat")

@@ -1,30 +1,31 @@
 # USO — United States Oil Fund
 
 **TradingView:** `AMEX:USO` · **Aile:** Enerji ve tarım emtiası · **İzleme kararı:** yedek  
-**Midas:** doğrulanamadı · ⚠ PTP/K-1 ürünü: satışta %10 brüt kesinti (1446(f)) riski
+**Midas:** doğrulanamadı · ⚠ PTP/K-1 yapısı: satışta %10 brüt kesinti (1446(f)) riski — uygulamada 'PTP' ibaresini ve kesintiyi teyit etmeden kısa vadeli işlem yapmayın
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 745 | 14.0 | 320 | %-9.8 | 1.0 | 2016-11-07 |
+| 745 | 14,0 | 320 | %-9,8 | 1,0x | 2016-11-07 |
 
 **Kademe:** B — kural var ama kanıt zayıf (küçük boyut / kağıt üstünde izle)  
-**Neden izleme listesinde:** [PTP] maliyet/oynaklık 0.044. Ham petrolün en likit ETF'i (745 mn$, 14 bp); S2 adayının aracı; NYMEX:CL1! ile gece/gündüz izlenebilir. PTP: %10 brüt satış stopajı riski (USCF bildirimi 31.10.2026'da süresi doldu) -> her işlemden önce uygulamada kontrol; Midas'ta bulunurluk doğrulanamadı. 2020 sonrası çok vadeli/5 günlük roll yapısı. **Ana ajan notu:** PTP %10 kesinti riski teyit edilene kadar referans/izleme; S2 zayıf.
+**Neden izleme listesinde:** [PTP] maliyet/oynaklık 0.044. Ham petrolün en likit ETF'i (745 mn$, 14 bp); B8 adayının aracı; NYMEX:CL1! ile gece/gündüz izlenebilir. PTP: %10 brüt satış stopajı riski (USCF bildirimi 31.10.2026'da süresi doldu) -> her işlemden önce uygulamada kontrol; Midas'ta bulunurluk doğrulanamadı. 2020 sonrası çok vadeli/5 günlük roll yapısı. **Ana ajan notu:** PTP %10 kesinti riski teyit edilene kadar referans/izleme; B8 zayıf.
 
 ## 1. Ne zaman girilir?
 
 Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kuralı yok.
 
-### İzlemede (zayıf kanıt — tek başına işlem gerekçesi değil)
+### İzlemede (zayıf kanıt ya da yalnız filtre — tek başına işlem gerekçesi değil)
 
-#### USO alt Bollinger kırılımı, 1 gün bekle, 2 gün long (ham petrol)  
-*İzlemede — zayıf kanıt · güven: dusuk · id: `enerji_tarim_S2`*
+#### B8 — USO alt Bollinger kırılımı, 1 gün bekle, 2 gün long (ham petrol)  
+*İzlemede — zayıf kanıt · güven: dusuk · aile kimliği: `enerji_tarim_S2`*  
+*Bu ETF'nin rolü: ana araç (⚠ PTP)*
 
 - **Sinyal (t kapanışında):** AMEX:USO günlük grafiği, Bollinger Bantları (uzunluk 20, kaynak kapanış, StdDev 2.05 — TradingView popülasyon std kullandığı için 2.05, backtestteki örneklem std'li 2.0'a denk). Sinyal: t günü USO kapanışı alt bandın altında. t günü işlem YAPMA; t+1 günü kapanışa yakın AMEX:USO al (2x araç: AMEX:UCO), t+3 günü kapanışında sat. Pozisyondayken gelen yeni sinyaller yok sayılır. PTP'siz uygulama AMEX:XOP ile denendi: daha zayıf ve ufka duyarlı (notlar).
 - **Giriş:** Sinyal gününden SONRAKİ işlem günü (t+1) ABD kapanışına yakın: kış TR 23:45-23:59, yaz 22:45-22:59 piyasa emri ya da after-hours limit. t kapanışında girmek (C0) zararlı çıktı.
 - **Tutuş / çıkış:** 2 işlem günü (t+1 kapanışı -> t+3 kapanışı) — t+3 günü ABD kapanışından dakikalar önce sat (TR ~23:45-23:59 kış). Erken çıkış kuralı yok.
 - **İşlem aracı:** USO, UCO (sinyal: USO)
 - **Geçmiş (ajan):** n=54, net 121.4 bp/işlem (brüt 135.4), kazanma %68, t=2.95, IS 75.4 / OOS 167.5 bp, yılların %78'i pozitif, en kötü işlem -763 bp
-- **Ana ajan son kontrolü (düzeltilmiş veri, 2.500$):** C0: net -35 bp (t -0.7, n=72) · O1: net -4 bp (t -0.1, n=72) · C1: net 108 bp (t 2.8, n=59); 1.000$ pozisyonda ana mod net 90 bp (t 2.4)
+- **Ana ajan son kontrolü (düzeltilmiş veri, 2.500 $):** C0: net -35 bp (t -0,7, n=72) · O1: net -4 bp (t -0,1, n=72) · C1: net 108 bp (t 2,8, n=59); 1.000 $ pozisyonda ana mod net 90 bp (t 2,4)
 - **Denetçi düzeltmesi:** Sayılar doğru. Ek: en iyi 5 hariç 74,6 bp t 1,89; 2022 hariç t 1,99; 2025-26 son 7 işlem ort. -32 bp; IS sırası 386/8.149; evrende ort. t -0,98.
 - **Denetçi kural düzeltmesi:** Kural aynı; 'aday strateji' değil, veri madenciliğinden çıkmış ve yalnız WTI kümesine özgü bir gözlem olarak işaretlenmeli. UCO'yu '2x araç' diye önermek yerine '2026'da USO'ya göre ~1,1-1,6x' notu düşülmeli.
 - **Denetim:** Bağımsız simülatörle birebir: n=54, brüt 135,4 / net 121,4 bp, t 2,95, kazanma %68,5, PF 2,63, IS 75 bp (t 1,13) / OOS 167 bp (t 3,47), yıl+ 7/9, maxDD -%9,3, en kötü -763 bp; C0/O1/C1 ızgarası, 'sinyal+1 gün O1 h2' (net 90 bp t 3,14) ve diğer ETF'ler (BNO 94, DBO 95, UCO 225, XOP 131, XLE 63, PDBC 41, SCO -277) aynı. Sinyal t kapanışıyla, giriş t+1 kapanışı, çıkış t+3 kapanışı; ileriye bakma yok. En iyi 5 işlem (2022-07-06, 2020-03-09, 2022-09-08, 2021-07-20, 2020-02-28) gerçek olaylar. TradingView 2,05 çarpanı doğru (2*sqrt(20/19)). Sağlamlık: Lehte: permütasyon p 0,005 (tüm günler) ve 0,005 (düşüş rejimi eşli); winsorize t 3,18; 2020 hariç t 3,44; 2020+2022 hariç t 2,35; 1.000$'da net 103 bp t 2,51; WTI fonları kendi bantlarıyla da pozitif (UCO 288 bp t 4,19, DBO 85 t 2,37, USL 61 t 1,85). Aleyhte: yukarıdaki sorunlar. Maliyet: 1.000$ 103 (t 2,51) / 2.500$ 121 (2,95) / 10.000$ 130 (3,17).
@@ -63,7 +64,7 @@ EIA WPSR Çar 10:30 ET (TR 18:30; 12 Kas Per 12:00 ET); API Salı 16:30 ET; CL v
 
 ## 4. Notlar
 
-Doğrulanmış gecikmeli öncü YOK (ölçüt: FDR + IS/OOS aynı işaret + bp/sd > 14 bp maliyet; geçen 0). En güçlü geçmeyen: VVIX_dlog h3 t=-2.41 (IS -1.00/OOS -2.06, -23.1 bp/sd, FDR=H). Yetişme boşluğunun kendi getirisine ek katkısı: gap(USL) h3 t=-1.70 (IS -1.63/OOS -0.35, -40.9 bp/sd). Sürücüler eşzamanlıdır, öncü değildir. Kendi fiyat sinyali: S2 (düşük güven).
+Doğrulanmış gecikmeli öncü YOK (ölçüt: FDR + IS/OOS aynı işaret + bp/sd > 14 bp maliyet; geçen 0). En güçlü geçmeyen: VVIX_dlog h3 t=-2.41 (IS -1.00/OOS -2.06, -23.1 bp/sd, FDR=H). Yetişme boşluğunun kendi getirisine ek katkısı: gap(USL) h3 t=-1.70 (IS -1.63/OOS -0.35, -40.9 bp/sd). Sürücüler eşzamanlıdır, öncü değildir. Kendi fiyat sinyali: B8 (düşük güven).
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*

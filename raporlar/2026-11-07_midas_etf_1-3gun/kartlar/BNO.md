@@ -1,11 +1,11 @@
 # BNO — United States Brent Oil Fund, LP ETV
 
 **TradingView:** `AMEX:BNO` · **Aile:** Enerji ve tarım emtiası · **İzleme kararı:** yedek  
-**Midas:** doğrulanamadı (uygulamada sembolü arayarak kontrol edin)
+**Midas:** doğrulanamadı (uygulamada sembolü arayarak kontrol edin) · ⚠ PTP/K-1 yapısı: satışta %10 brüt kesinti (1446(f)) riski — uygulamada 'PTP' ibaresini ve kesintiyi teyit etmeden kısa vadeli işlem yapmayın
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 91 | 16.0 | 309 | %-10.3 | 1.0 | 2016-11-07 |
+| 91 | 16,0 | 309 | %-10,3 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** [PTP] maliyet/oynaklık 0.052. Brent; USO ile 0,97-0,98 korelasyon (bağımsız kanıt değil). USO yerine kullanılabilir (91 mn$, 16 bp); aynı PTP (USCF) riski.
@@ -46,4 +46,4 @@ EIA WPSR Çar 10:30 ET (TR 18:30; 12 Kas Per 12:00 ET); API Salı 16:30 ET; CL v
 Doğrulanmış gecikmeli öncü YOK (ölçüt: FDR + IS/OOS aynı işaret + bp/sd > 16 bp maliyet; geçen 0). En güçlü geçmeyen: VVIX_dlog h3 t=-2.92 (IS -1.48/OOS -2.32, -24.9 bp/sd, FDR=H). Yetişme boşluğunun kendi getirisine ek katkısı: gap(USO) h1 t=0.73 (IS 0.65/OOS 0.38, 6.1 bp/sd). Sürücüler eşzamanlıdır, öncü değildir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*

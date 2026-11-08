@@ -1,11 +1,11 @@
 # SCO — ProShares UltraShort Bloomberg Crude Oil
 
 **TradingView:** `AMEX:SCO` · **Aile:** Enerji ve tarım emtiası · **İzleme kararı:** yedek  
-**Midas:** doğrulanamadı · ⚠ PTP/K-1 ürünü: satışta %10 brüt kesinti (1446(f)) riski
+**Midas:** doğrulanamadı · ⚠ PTP/K-1 yapısı: satışta %10 brüt kesinti (1446(f)) riski — uygulamada 'PTP' ibaresini ve kesintiyi teyit etmeden kısa vadeli işlem yapmayın
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 102 | 17.3 | 399 | %-12.2 | -2.0 | 2016-11-07 |
+| 102 | 17,3 | 399 | %-12,2 | -2,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** [PTP] maliyet/oynaklık 0.043. -2x ham petrol (102 mn$, 17 bp); açığa satış olmadığından petrol düşüş görüşü için tek pratik araç. Doğrulanmış strateji yok. PTP.
@@ -46,4 +46,4 @@ EIA WPSR Çar 10:30 ET (TR 18:30; 12 Kas Per 12:00 ET); API Salı 16:30 ET; CL v
 Doğrulanmış gecikmeli öncü YOK (ölçüt: FDR + IS/OOS aynı işaret + bp/sd > 17 bp maliyet; geçen 0). En güçlü geçmeyen: VVIX_dlog h3 t=2.84 (IS 1.83/OOS 2.27, 44.0 bp/sd, FDR=H). Yetişme boşluğunun kendi getirisine ek katkısı: gap(USO) h3 t=0.75 (IS 0.88/OOS -0.21, 17.9 bp/sd). Sürücüler eşzamanlıdır, öncü değildir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*

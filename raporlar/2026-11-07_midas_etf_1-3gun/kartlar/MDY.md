@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 476 | 14.0 | 97 | %-3.9 | 1.0 | 2016-11-07 |
+| 476 | 14,0 | 97 | %-3,9 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** S&P 400 orta ölçek: S1 kuralı bu ETF'de C1 h=3 net 47 bp (t=2.5); makas 2 bp, 476 mn$/gün. IWM ile 0,92 korelasyon.
+**Neden izleme listesinde:** S&P 400 orta ölçek: B1 kuralı bu ETF'de C1 h=3 net 47 bp (t=2.5); makas 2 bp, 476 mn$/gün. IWM ile 0,92 korelasyon.
 
 ## 1. Ne zaman girilir?
 
@@ -45,4 +45,4 @@ SPY satırındaki takvimle aynı (CPI 10 Kas, OPEX 20 Kas, 26-27 Kas tatil/erken
 Doğrulanmış gecikmeli öncü YOK (aile alt kümesi BH-FDR 0/2.636; yetişme, faiz kanalı ve IWM-SPY ayrıntısı SPY satırında). En güçlü (FDR'siz) gecikmeli satırlar: SPY (h1): t=-2.52, IS -2.1/OOS -1.6, -25 bp/sd; TIP (h3): t=2.51, IS 3.2/OOS 1.1, 29 bp/sd.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_abd_endeks.md`, `notlar/denetim_abd_endeks.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_abd_endeks.md`, `notlar/denetim_abd_endeks.md`.*

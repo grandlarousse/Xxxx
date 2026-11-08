@@ -5,10 +5,12 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 172 | 18.4 | 556 | %-26.2 | 2.0 | 2023-06-27 |
+| 172 | 18,4 | 556 | %-26,2 | 2,0x | 2023-06-27 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** 2x BTC (172 mn$/gün, 18 bp). Dayanak sinyaliyle kaldıraçlı araç; ama 2×IBIT'e göre takip kaybı −11,5 bp/gün (t=−8,7; 3 günde −37 bp). Kaldıraçlı/ters ürünlerin Midas'ta bulunurluğu doğrulanmadı.
+
+*Dayanak / ana araç kartı: `kartlar/IBIT.md` (sürücüler ve gerçek zamanlı izleme listesi orada daha ayrıntılı).*
 
 ## 1. Ne zaman girilir?
 
@@ -44,4 +46,4 @@ Bkz. IBIT girdisi: CPI 10 Kas 16:30; 26 Kas kapalı; NFP 4 Ara; FOMC 9 Ara 22:00
 Doğrulanmış gecikmeli öncü YOK (sweep FDR 0; ek testler |t|<2). Sürücüler eşzamanlıdır; ayrıntı IBIT/ETHA girdisinde. Kaldıraçlı: 2× dayanak getirisi eksi ~8-12 bp/gün takip kaybı; dayanak (IBIT/ETHA) sinyalleriyle işlem aracı.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_kripto.md`, `notlar/denetim_kripto.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_kripto.md`, `notlar/denetim_kripto.md`.*

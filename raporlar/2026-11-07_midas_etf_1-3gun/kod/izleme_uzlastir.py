@@ -5,6 +5,7 @@ Kademe: A = denetimden geçmiş (doğrulandı) kuralın sinyal/işlem aracı; B 
 import os, sys, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pandas as pd
+import kurallar as KR
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 
 OVR = {  # (aile, sym): (yeni karar, not)
@@ -61,7 +62,7 @@ def main():
             if (f, sym) in OVR: karar, note = OVR[(f, sym)]
             ks = tools.get(sym, set())
             kad = "A" if "dogrulandi" in ks else ("B" if "zayif" in ks else "C")
-            kad = KAD_OVR.get(sym, kad)
+            kad = KR.kademe_for(sym)   # tek kaynak: kurallar.py
             rows.append({"aile": f, "sym": sym, "ajan_karar": x["karar"], "karar": karar, "kademe": kad, "not": note})
     df = pd.DataFrame(rows)
     df.to_csv(os.path.join(ROOT, "sonuclar", "izleme_son.csv"), index=False)

@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 139 | 16.0 | 377 | %-15.0 | 1.0 | 2016-11-07 |
+| 139 | 16,0 | 377 | %-15,0 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** Genç gümüş madencileri: 139 mn $, ~16 bp; S5 (düşük güven) bu ETF'de; GDX ile 0,96 korelasyon.
+**Neden izleme listesinde:** Genç gümüş madencileri: 139 mn $, ~16 bp; S5 (çürütüldü) (düşük güven) bu ETF'de; GDX ile 0,96 korelasyon.
 
 ## 1. Ne zaman girilir?
 
@@ -40,11 +40,11 @@ Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kural�
 
 ## 3. Takvim ve olay riskleri
 
-FOMC 09.12.2026 14:00 ET (TR 22:00; örneklemde FOMC sonrası altın zayıf, anlamsız); CPI 10.11 ve 10.12.2026, NFP 04.12.2026 08:30 ET (TR 16:30, açılıştan 1 saat önce); COMEX teminat değişiklikleri (30.01.2026 gümüş şoku); Çin tatilleri Asya seansını inceltir; ay sonu 30.11.2026 (S1/S2). Ek: madenci bilanço dönemleri (Şub, Nis-May, Tem-Ağu, Eki-Kas).
+FOMC 09.12.2026 14:00 ET (TR 22:00; örneklemde FOMC sonrası altın zayıf, anlamsız); CPI 10.11 ve 10.12.2026, NFP 04.12.2026 08:30 ET (TR 16:30, açılıştan 1 saat önce); COMEX teminat değişiklikleri (30.01.2026 gümüş şoku); Çin tatilleri Asya seansını inceltir; ay sonu 30.11.2026 (B3a/B3b). Ek: madenci bilanço dönemleri (Şub, Nis-May, Tem-Ağu, Eki-Kas).
 
 ## 4. Notlar
 
 Doğrulanmış gecikmeli öncü yok.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*

@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 215 | 16.6 | 393 | %-9.6 | 1.0 | 2018-01-18 |
+| 215 | 16,6 | 393 | %-9,6 | 1,0x | 2018-01-18 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** Uzun vol gerekiyorsa tek ETN (PTP değil, Barclays kredi riski var), en likit 1x araç. VIXY'nin kopyası ama ona tercih edilir. 1-3 günlük hiçbir long kural pozitif değil (koşulsuz -9,6 bp/gün); yalnız koruma amaçlı. **Ana ajan notu:** İşlem adayı değil; yalnız koruma (1-3 günlük hiçbir long kural pozitif değil).
@@ -49,4 +49,4 @@ Yaklaşan olaylar (ET; TR = ET+8 kış): CPI 10.11.2026 ve 10.12.2026 08:30 (TR 
 Doğrulanmış gecikmeli öncü yok: genel taramada aile hedefleri için FDR'yi geçen 0. Ek 144 testte (VIX/VIX3M düzeyi ve değişimi, VIX9D/VIX, VIX gerilmesi, VVIX/VIX, SPY/QQQ/BTC getirileri, DGS10; kendi gecikmesi kontrollü, Newey-West, C0 ve O1 hizalaması) de 0. Eşzamanlı sürücüler öncü değildir. VIX 16:15 ET'de kapandığı için C0 hizalamasındaki VIX öncülüğü kısmen ileri bakıştır. En güçlü (geçmeyen) aday: VVIX/VIX oranı -> VXX ertesi gün (O1 h1 t=3,17; IS 2,05, OOS 2,72; 1 sd'de 22 bp, maliyetin 1,3 katı; p=0,0015 > FDR eşiği). VXX'in koşulsuz -9,6 bp/gün kaybı karşısında işlenebilir değil.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_volatilite.md`, `notlar/denetim_volatilite.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_volatilite.md`, `notlar/denetim_volatilite.md`.*

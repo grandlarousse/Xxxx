@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 46 | 20.0 | 194 | %-5.3 | 1.0 | 2016-11-07 |
+| 46 | 20,0 | 194 | %-5,3 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** Çin teknoloji (46 mn $, 20 bp). S1 genişletilmiş kontrolde C0 h=1 net +47 bp (t 1,60), IS ve OOS > 0.
+**Neden izleme listesinde:** Çin teknoloji (46 mn $, 20 bp). B4 genişletilmiş kontrolde C0 h=1 net +47 bp (t 1,60), IS ve OOS > 0.
 
 ## 1. Ne zaman girilir?
 
@@ -45,4 +45,4 @@ ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah ya
 Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): XLE h1 t=-3.00 (IS -4.87/OOS -0.35), h3 t=-1.98. Sürücüler eşzamanlıdır, öncü değildir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*

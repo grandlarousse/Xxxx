@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 55 | 16.0 | 379 | %-11.4 | -2.0 | 2016-11-07 |
+| 55 | 16,0 | 379 | %-11,4 | -2,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** [40act] maliyet/oynaklık 0.042. -2x XOP (55 mn$, 16 bp); PTP'siz enerji düşüş aracı (ERY'den likit/ucuz). Doğrulanmış strateji yok.
@@ -45,4 +45,4 @@ EIA WPSR (Çar); CPI 10 Kas, NFP 4 Ara, FOMC 9 Ara 2026; yarım gün 27 Kas (TR 
 Doğrulanmış gecikmeli öncü YOK (ölçüt: FDR + IS/OOS aynı işaret + bp/sd > 16 bp maliyet; geçen 0). En güçlü geçmeyen: VVIX_dlog h3 t=2.46 (IS 2.27/OOS 0.98, 46.8 bp/sd, FDR=H). Yetişme boşluğunun kendi getirisine ek katkısı: gap(XLE) h1 t=-1.69 (IS -1.60/OOS -0.66, -47.9 bp/sd). Sürücüler eşzamanlıdır, öncü değildir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*

@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 1,022 | 13.4 | 131 | %-5.1 | 1.0 | 2016-11-07 |
+| 1.022 | 13,4 | 131 | %-5,1 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** Strateji yok; net sürücüler (XLF, IWM, faiz). FOMC karar günü riski ölçüldü (faize duyarlı grup gün içi brüt -26 bp). Likit (1 mlr $), maliyet/oynaklık 0.10 (sınırda).
@@ -46,4 +46,4 @@ FOMC karar günü: faize duyarlı 6 ETF'te gün içi brüt -26 bp (IS -32 / OOS 
 Doğrulanmış gecikmeli öncü yok. (XLF -> KRE t -1.85; ST04 XLF->KRE anlamsız).
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_sektor_tematik.md`, `notlar/denetim_sektor_tematik.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_sektor_tematik.md`, `notlar/denetim_sektor_tematik.md`.*

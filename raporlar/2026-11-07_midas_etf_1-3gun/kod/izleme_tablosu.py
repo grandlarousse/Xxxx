@@ -4,19 +4,20 @@ import os, sys, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pandas as pd
 import kartlar as K
+import kurallar as KR
 
 ROOT = K.ROOT
 FAM_ORDER = K.ORDER
 
 POP = ["BOIL","UVXY","UVIX","SVIX","VIXY","SQQQ","SOXS","SPXU","SPXS","TZA","SDS","SH","PSQ","TNA","UPRO","CONL","TSLQ","NVDS","AGQ","UGL","ZSL","GLL",
-       "DUST","JDST","TUR","BITO","BITU","DIA","RSP","XLK","XLF","EFA","VGK","ARKK","URA","TAN","LABU","FAS","TECL","FNGU","CPER","DBA","UNL","WEAT","CORN","SCHD","JEPI","JEPQ"]
+       "DUST","JDST","UUP","FXE","FXY","FXB","TUR","BITO","BITU","DIA","RSP","XLK","XLF","EFA","VGK","ARKK","URA","TAN","LABU","FAS","TECL","FNGU","CPER","DBA","UNL","WEAT","CORN","SCHD","JEPI","JEPQ"]
 
 def red_popular(son):
     allson = pd.read_csv(os.path.join(ROOT, "sonuclar", "izleme_son.csv"))
     L = ["", "## Popüler ama izleme listesine alınmayanlar (neden?)", "", "| ETF | TradingView | Aile | Neden alınmadı |", "|---|---|---|---|"]
     for sym in POP:
         r = allson[allson.sym == sym]
-        if len(r) and r.iloc[0].karar in ("kabul", "yedek"): continue
+        if len(r) and r.karar.isin(["kabul", "yedek"]).any(): continue
         reason, fam = "", ""
         for f in FAM_ORDER:
             res, _ = K.load_fam(f)
@@ -32,7 +33,7 @@ def main():
     son = pd.read_csv(os.path.join(ROOT, "sonuclar", "izleme_son.csv"))
     son = son[son.karar.isin(["kabul", "yedek"])]
     L = ["# İzleme listesi — Midas ETF 1-3 gün (07.11.2026)", "",
-         "Kademe: **A** = denetimden geçmiş kural var · **B** = kural var ama kanıt zayıf (küçük boyut / kağıt üstünde) · **C** = kural yok, sürücüleriyle takip.",
+         "Kademe: **A** = denetimden geçmiş kural var · **B** = kural var ama kanıt zayıf (küçük boyut / kağıt üstünde) · **C** = kural yok, sürücüleriyle takip. Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynı.",
          "Karar: **kabul** = ana izleme · **yedek** = alternatif/kopya/kaldıraçlı araç. Ayrıntı ve tam lead-lag: `kartlar/<SYM>.md`. TradingView içe aktarma: `izleme_listeleri/`.",
          "⚠ = PTP/K-1 ürünü (Midas'ta satışta %10 brüt kesinti riski). Maliyet = 2.500$ pozisyonda gidiş-dönüş (komisyon 12 bp + makas).", ""]
     for fam in FAM_ORDER:
@@ -50,15 +51,9 @@ def main():
             ll = next((x for x in res.get("leadlag", []) if x["sym"].upper() == sym), {})
             dr = ", ".join(f"`{d['tv']}`" for d in (ll.get("suruculer") or [])[:2] if d.get("tv"))
             rt = ", ".join(f"`{g['tv']}`" for g in (ll.get("gercek_zamanli") or [])[:2] if g.get("tv"))
-            rules = []
-            for s in res.get("stratejiler", []):
-                tools = [x.split(" ")[0].upper() for x in (s.get("islem_etf") or [])] + [(s.get("sinyal_etf") or "").split(" ")[0].replace("AMEX:", "").upper()]
-                k = sv.get(s["id"], {}).get("karar")
-                if sym in tools and k in ("dogrulandi", "zayif"):
-                    rules.append(f"{s['ad'].split('—')[0].strip()[:48]} ({'doğrulandı' if k == 'dogrulandi' else 'zayıf'})")
-            if sym == "SOXX": rules.append("SMH IBS<0,20 kopya aracı")
+            rules = [f"**{c}**: {rl['kisa']} — {role}" for c, rl, role in KR.rules_for(sym)]
             ptp = " ⚠" if sym in K.PTP else ""
-            L.append(f"| **{sym}**{ptp} | `{tv}` | {r.karar} | {r.kademe} | {K.num(tr['cost_rt_bp'],'{:.0f}') if tr is not None else '—'} | {K.num(tr['vol_1d_bp'],'{:.0f}') if tr is not None else '—'} | {'; '.join(rules) or '—'} | {dr or '—'} | {rt or '—'} |")
+            L.append(f"| **{sym}**{ptp} | `{tv}` | {r.karar} | {r.kademe} | {K.trnum(tr['cost_rt_bp'],0) if tr is not None else '—'} | {K.trnum(tr['vol_1d_bp'],0) if tr is not None else '—'} | {'; '.join(rules) or '—'} | {dr or '—'} | {rt or '—'} |")
         L.append("")
     L += red_popular(son)
     L.append("*Yatırım tavsiyesi değildir. Geçmiş performans geleceği garanti etmez.*")

@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 239 | 14.0 | 302 | %-10.6 | 1.0 | 2016-11-07 |
+| 239 | 14,0 | 302 | %-10,6 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** Bakır madencileri: 239 mn $, ~14 bp, oynaklık 302 bp; CPER'in likit/PTP'siz alternatifi. Strateji yok; COMEX:HG1! ve Çin göstergeleriyle izlenir. **Ana ajan notu:** Strateji yok; COMEX:HG1! ile izlenir.
@@ -50,4 +50,4 @@ Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kural�
 Doğrulanmış gecikmeli öncü yok. Bakır vadeli (HG1!) ve Asya seansı açılış boşluğunu gösterir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*

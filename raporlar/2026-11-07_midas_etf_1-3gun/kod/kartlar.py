@@ -8,6 +8,7 @@ Kullanım: python3 -I kod/kartlar.py"""
 import os, sys, json, csv, re, glob
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pandas as pd, numpy as np
+import kurallar as KR
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 
 FAM_TR = {"abd_endeks": "ABD endeks ve faktör", "sektor_tematik": "Sektör ve tematik", "tek_hisse_kaldiracli": "Tek hisse kaldıraçlı",
@@ -47,6 +48,15 @@ def tvfmt(tv):
             out.append(f"`{p}`")
     return ", ".join(out) if out else "—"
 
+def trnum(x, dec=1):
+    """Türkçe sayı biçimi: binlik '.', ondalık ','."""
+    try:
+        if x is None or (isinstance(x, float) and np.isnan(x)): return "—"
+        s_ = f"{float(x):,.{dec}f}"
+        return s_.replace(",", "§").replace(".", ",").replace("§", ".")
+    except Exception:
+        return str(x)
+
 def num(x, fmt="{:.1f}"):
     try:
         if x is None or (isinstance(x, float) and np.isnan(x)): return "—"
@@ -82,37 +92,54 @@ def midas_info():
     return det, sb
 
 MIDAS_DET, MIDAS_SB = midas_info()
-PTP = {k for k, v in MIDAS_DET.items() if isinstance(v, dict) and v.get("ptp_k1")}
+PTP = {k for k, v in MIDAS_DET.items() if isinstance(v, dict) and v.get("ptp_k1")} | KR.PTP_EXTRA
 TAR = pd.read_csv(os.path.join(ROOT, "sonuclar", "tarama.csv")).set_index("sym")
 SON = pd.read_csv(os.path.join(ROOT, "sonuclar", "izleme_son.csv"))
 SK = pd.read_csv(os.path.join(ROOT, "sonuclar", "son_kontrol.csv"))
 KAD_TR = {"A": "A — denetimden geçmiş kural var", "B": "B — kural var ama kanıt zayıf (küçük boyut / kağıt üstünde izle)", "C": "C — kural yok; sürücüleriyle takip"}
 
-def sk_line(sid, sym):
-    """Ana ajanın son kontrolü (Yahoo dağıtım düzeltmeli veri, ortak motor)."""
+def sk_line(sid, sym, fallback=None):
+    """Ana ajanın son kontrolü (Yahoo dağıtım düzeltmeli veri, ortak motor). Sepetlerde gün kümeli t de verilir."""
     v = SK[(SK["id"] == sid) & (SK["pos_usd"] == 2500) & ((SK["arac"] == sym) | SK["arac"].str.contains("sepet", na=False))]
+    note = ""
+    if v.empty and fallback:
+        v = SK[(SK["id"] == sid) & (SK["pos_usd"] == 2500) & (SK["arac"] == fallback)]; note = f" [bu ETF için ayrı hesap yok; ana araç {fallback} rakamları]"
     if v.empty: return ""
     parts = []
     for m in ("C0", "O1", "C1"):
         r = v[v["mode"] == m]
-        if len(r): r = r.iloc[0]; parts.append(f"{m}: net {r['mean_net_bp']:.0f} bp (t {r['t']:.1f}, n={int(r['n'])})")
+        if len(r):
+            r = r.iloc[0]
+            tk = f", gün kümeli t {trnum(r['t_gun_kumeli'])}" if "sepet" in str(r["arac"]) and pd.notna(r.get("t_gun_kumeli")) else ""
+            parts.append(f"{m}: net {trnum(r['mean_net_bp'],0)} bp (t {trnum(r['t'])}{tk}, n={int(r['n'])})")
     r1 = SK[(SK["id"] == sid) & (SK["pos_usd"] == 1000) & SK["ana_mod"] & ((SK["arac"] == sym) | SK["arac"].str.contains("sepet", na=False))]
-    extra = f"; 1.000$ pozisyonda ana mod net {r1.iloc[0]['mean_net_bp']:.0f} bp (t {r1.iloc[0]['t']:.1f})" if len(r1) else ""
-    return "- **Ana ajan son kontrolü (düzeltilmiş veri, 2.500$):** " + " · ".join(parts) + extra
+    extra = f"; 1.000 $ pozisyonda ana mod net {trnum(r1.iloc[0]['mean_net_bp'],0)} bp (t {trnum(r1.iloc[0]['t'])})" if len(r1) else ""
+    return "- **Ana ajan son kontrolü (düzeltilmiş veri, 2.500 $):** " + " · ".join(parts) + extra + note
 
 def midas_line(sym):
     d = MIDAS_DET.get(sym); s = MIDAS_SB.get(sym)
     txt = (d or {}).get("degerlendirme") or s or "doğrulanamadı (uygulamada sembolü arayarak kontrol edin)"
     if sym in PTP:
-        txt += " · ⚠ PTP/K-1 ürünü: satışta %10 brüt kesinti (1446(f)) riski"
+        txt += " · ⚠ PTP/K-1 yapısı: satışta %10 brüt kesinti (1446(f)) riski — uygulamada 'PTP' ibaresini ve kesintiyi teyit etmeden kısa vadeli işlem yapmayın"
     return txt
 
 CUR_SYM = None
 
-def strat_block(s, v):
+def patched(s):
+    s = dict(s); pt = KR.STRAT_PATCH.get(s["id"], {})
+    for k, v_ in pt.items():
+        if k == "notlar_on": s["notlar"] = v_ + (s.get("notlar") or "")
+        elif k == "ad_on": s["ad"] = v_ + s["ad"]
+        else: s[k] = v_
+    return s
+
+def strat_block(s, v, code=None, role=None, fallback=None):
+    s = patched(s)
     lines = []
     lab = {"dogrulandi": "Uygulanabilir (denetçi doğruladı)", "zayif": "İzlemede — zayıf kanıt", None: "Denetlenmedi"}[v["karar"] if v else None]
-    lines.append(f"#### {s['ad']}  \n*{lab} · güven: {s.get('guven','—')} · id: `{s['id']}`*\n")
+    if code == "F": lab = "Filtre — strateji değil"
+    head = f"{code} — " if code else ""
+    lines.append(f"#### {head}{s['ad']}  \n*{lab} · güven: {s.get('guven','—')} · aile kimliği: `{s['id']}`*" + (f"  \n*Bu ETF'nin rolü: {role}*" if role else "") + "\n")
     lines.append(f"- **Sinyal (t kapanışında):** {s['kural']}")
     lines.append(f"- **Giriş:** {s['giris']}")
     lines.append(f"- **Tutuş / çıkış:** {s['tutus']} — {s['cikis']}")
@@ -132,7 +159,7 @@ def strat_block(s, v):
     if s.get("notlar"): lines.append(f"- **Not:** {s['notlar']}")
     lines.append(f"- Betik: `{s.get('betik','')}`")
     if CUR_SYM:
-        sk = sk_line(s["id"], CUR_SYM)
+        sk = sk_line(s["id"], CUR_SYM, fallback)
         if sk: lines.insert(6, sk)
     return "\n".join(lines) + "\n"
 
@@ -149,25 +176,38 @@ def card(fam, sym, item, res, sv, ov, kademe="C", note=""):
     if tr is not None:
         L.append("| Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |")
         L.append("|---|---|---|---|---|---|")
-        L.append(f"| {num(tr['med_dollar_vol_m'],'{:,.0f}')} | {num(tr['cost_rt_bp'])} | {num(tr['vol_1d_bp'],'{:.0f}')} | %{num(tr['worst_1d_1y']*100)} | {tr['lev']} | {tr['first']} |\n")
+        L.append(f"| {trnum(tr['med_dollar_vol_m'],0)} | {trnum(tr['cost_rt_bp'])} | {trnum(tr['vol_1d_bp'],0)} | %{trnum(tr['worst_1d_1y']*100)} | {trnum(tr['lev'],1)}x | {tr['first']} |\n")
     L.append(f"**Kademe:** {KAD_TR.get(kademe, kademe)}  ")
-    L.append(f"**Neden izleme listesinde:** {item['gerekce']}" + (f" **Ana ajan notu:** {note}" if note else "") + "\n")
+    L.append(f"**Neden izleme listesinde:** {KR.GEREKCE_PATCH.get(sym, item['gerekce'])}" + (f" **Ana ajan notu:** {note}" if note else "") + "\n")
+    if sym in KR.UNDERLYING_CARD:
+        u = KR.UNDERLYING_CARD[sym]
+        L.append(f"*Dayanak / ana araç kartı: `kartlar/{u}.md` (sürücüler ve gerçek zamanlı izleme listesi orada daha ayrıntılı).*\n")
     # stratejiler
-    mine = [s for s in res.get("stratejiler", []) if sym in [x.upper() for x in (s.get("islem_etf") or [])] or (s.get("sinyal_etf") or "").upper() == sym]
-    ok = [s for s in mine if sv.get(s["id"], {}).get("karar") == "dogrulandi"]
-    weak = [s for s in mine if sv.get(s["id"], {}).get("karar") == "zayif"]
-    und = [s for s in mine if s["id"] not in sv]
+    byid = {s["id"]: s for s in res.get("stratejiler", [])}
+    mine = []   # (strateji, kod, rol, yedek araç)
+    for code, rule, role in KR.rules_for(sym):
+        if rule["id"] in byid:
+            main_tool = list(rule["araclar"])[0]
+            mine.append((byid[rule["id"]], code, role, main_tool if main_tool != sym else None))
+    seen = {m[0]["id"] for m in mine}
+    for s_ in res.get("stratejiler", []):
+        if s_["id"] in seen or sv.get(s_["id"], {}).get("karar") == "curutuldu": continue
+        if sym in [x.split(" ")[0].upper() for x in (s_.get("islem_etf") or [])] or (s_.get("sinyal_etf") or "").upper() == sym:
+            mine.append((s_, KR.ID2CODE.get(s_["id"]), None, None))
+    ok = [m for m in mine if sv.get(m[0]["id"], {}).get("karar") == "dogrulandi" and m[1] != "F"]
+    weak = [m for m in mine if sv.get(m[0]["id"], {}).get("karar") == "zayif" or m[1] == "F"]
+    und = [m for m in mine if m[0]["id"] not in sv]
     L.append("## 1. Ne zaman girilir?\n")
     if ok:
-        for s in ok: L.append(strat_block(s, sv[s["id"]]))
+        for s_, c_, r_, fb in ok: L.append(strat_block(s_, sv[s_["id"]], c_, r_, fb))
     else:
         L.append("Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kuralı yok.\n")
     if weak:
-        L.append("### İzlemede (zayıf kanıt — tek başına işlem gerekçesi değil)\n")
-        for s in weak: L.append(strat_block(s, sv[s["id"]]))
+        L.append("### İzlemede (zayıf kanıt ya da yalnız filtre — tek başına işlem gerekçesi değil)\n")
+        for s_, c_, r_, fb in weak: L.append(strat_block(s_, sv.get(s_["id"]), c_, r_, fb))
     if und:
         L.append("### Denetlenmemiş adaylar\n")
-        for s in und: L.append(strat_block(s, None))
+        for s_, c_, r_, fb in und: L.append(strat_block(s_, None, c_, r_, fb))
     L.append("## 2. Lead-lag\n")
     if ll:
         L.append("### Eşzamanlı sürücüler (aynı gün birlikte hareket eder — öncü değildir)\n")
@@ -198,8 +238,18 @@ def card(fam, sym, item, res, sv, ov, kademe="C", note=""):
         if ll.get("not"): L.append(f"## 4. Notlar\n\n{ll['not']}\n")
     else:
         L.append("Aile ajanı bu ETF için lead-lag girdisi üretmedi.\n")
-    L.append("---\n*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_%s.md`, `notlar/denetim_%s.md`.*\n" % (fam, fam))
-    return "\n".join(L)
+    L.append("---\n*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_%s.md`, `notlar/denetim_%s.md`.*\n" % (fam, fam))
+    out = "\n".join(L)
+    fm = KR.FAM_S.get(fam, {})
+    if fm:
+        out = re.sub(r"(?<![A-Za-z_0-9])S(\d)(?![0-9])", lambda m_: fm.get("S" + m_.group(1), m_.group(0)), out)
+    for a, b in KR.TEXT_FIX: out = out.replace(a, b)
+    # kod değişiminden sonra Türkçe ilgi eki uyumu (S1'in -> A2'nin vb.)
+    GEN = {"A1": "'in", "A2": "'nin", "A2-3x": "'in", "B1": "'in", "B2": "'nin", "B3a": "'nın", "B3b": "'nin", "B4": "'ün", "B5": "'in", "B6": "'nın",
+           "B7": "'nin", "B8": "'in", "B9": "'un", "B10": "'un"}
+    out = re.sub(r"(?<![A-Za-z0-9_])(A2-3x|B3a|B3b|B10|A1|A2|B[1-9])'(?:in|nin|ün|ın|un|nın|nun|ün)(?![a-zçğıöşü])",
+                 lambda m_: m_.group(1) + GEN.get(m_.group(1), "'in"), out)
+    return out
 
 def watch_txt(fam, res, sv):
     fin = SON[SON["aile"] == fam]
@@ -216,8 +266,10 @@ def watch_txt(fam, res, sv):
     uniq = lambda xs: list(dict.fromkeys(xs))
     lead = [x for x in uniq(lead) if x not in etf]; rt = [x for x in uniq(rt) if x not in etf and x not in lead]
     name = FAM_TR.get(fam, fam)
-    parts = [f"###{name} ETF"] + uniq(etf) + [f"###{name} öncü-sürücü"] + lead + [f"###{name} gerçek zamanlı"] + rt
+    parts = [f"###{name} ETF"] + uniq(etf) + [f"###{name} sürücüler (aynı gün)"] + lead + [f"###{name} gerçek zamanlı"] + rt
     return ",".join(parts), uniq(etf), lead, rt
+
+COMBINED = []
 
 def main():
     os.makedirs(os.path.join(ROOT, "kartlar"), exist_ok=True); os.makedirs(os.path.join(ROOT, "izleme_listeleri"), exist_ok=True)
@@ -236,10 +288,19 @@ def main():
             nstr = sum(1 for s in res.get("stratejiler", []) if (sym in [x.upper() for x in (s.get("islem_etf") or [])] or (s.get("sinyal_etf") or "").upper() == sym) and sv.get(s["id"], {}).get("karar") == "dogrulandi")
             index.append((fam, sym, item["karar"], nstr, fin.loc[sym, "kademe"]))
         txt, etf, lead, rt = watch_txt(fam, res, sv)
+        COMBINED.append((fam, etf, lead, rt))
         open(os.path.join(ROOT, "izleme_listeleri", f"{fam}.txt"), "w").write(txt + "\n")
         allparts.append(txt)
         print(fam, "kart:", sum(1 for i in index if i[0] == fam), "etf:", len(etf), "öncü:", len(lead), "gz:", len(rt))
-    open(os.path.join(ROOT, "izleme_listeleri", "TUM_ETF_bolumlu.txt"), "w").write(",".join(allparts) + "\n")
+    # birleşik dosya: önce tüm ailelerin ETF bölümleri, sonra ortak sürücü/öncü ve gerçek zamanlı bölümleri (tekrarsız)
+    seen = set(); parts = []
+    for fam_, etf_, lead_, rt_ in COMBINED:
+        e2 = [x for x in etf_ if x not in seen]; seen.update(e2)
+        if e2: parts += [f"###{FAM_TR[fam_]} ETF"] + e2
+    L2 = [x for _, _, lead_, _ in COMBINED for x in lead_ if x not in seen]; L2 = list(dict.fromkeys(L2)); seen.update(L2)
+    R2 = [x for _, _, _, rt_ in COMBINED for x in rt_ if x not in seen]; R2 = list(dict.fromkeys(R2))
+    parts += ["###Ortak sürücüler (aynı gün)"] + L2 + ["###Gerçek zamanlı izleme (vadeli / kripto / döviz)"] + R2
+    open(os.path.join(ROOT, "izleme_listeleri", "TUM_ETF_bolumlu.txt"), "w").write(",".join(parts) + "\n")
     pd.DataFrame(index, columns=["aile", "sym", "karar", "dogrulanmis_strateji", "kademe"]).to_csv(os.path.join(ROOT, "sonuclar", "kart_indeksi.csv"), index=False)
     open(os.path.join(ROOT, "sonuclar", "tv_eksik.txt"), "w").write("\n".join(sorted(MISSING)) + ("\n" if MISSING else ""))
     print("doğrulanmamış TV kodları:", len(MISSING))

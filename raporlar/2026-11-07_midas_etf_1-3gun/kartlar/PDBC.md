@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 92 | 17.3 | 134 | %-4.3 | 1.0 | 2016-11-07 |
+| 92 | 17,3 | 134 | %-4,3 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** [40act] maliyet/oynaklık 0.130. K-1'siz geniş emtia (92 mn$, 17 bp), USO ile 0,89 korelasyon: petrol görüşü için PTP'siz ama düşük oynaklıklı vekil (maliyet/oynaklık 0,13). Doğrulanmış strateji yok.
@@ -47,4 +47,4 @@ EIA WPSR (Çar); CPI 10 Kas, FOMC 9 Ara 2026; dolar şokları.
 Doğrulanmış gecikmeli öncü YOK (ölçüt: FDR + IS/OOS aynı işaret + bp/sd > 17 bp maliyet; geçen 0). En güçlü geçmeyen: KWEB h3 t=3.08 (IS 2.02/OOS 2.55, 17.5 bp/sd, FDR=H). Yetişme boşluğunun kendi getirisine ek katkısı: gap(DBA) h1 t=2.08 (IS 2.18/OOS 0.92, 12.3 bp/sd). Sürücüler eşzamanlıdır, öncü değildir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*

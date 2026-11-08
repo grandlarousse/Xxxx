@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 977 | 15.1 | 220 | %-19.8 | 1.0 | 2016-11-07 |
+| 977 | 15,1 | 220 | %-19,8 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** Likit (977 mn $, 15 bp), yüksek oynaklık (222 bp). Doğrulanmış strateji/öncü yok (S1 plasebo grubunda; USO öncülüğü yok).
+**Neden izleme listesinde:** Likit (977 mn $, 15 bp), yüksek oynaklık (222 bp). Doğrulanmış strateji/öncü yok (B4 plasebo grubunda; USO öncülüğü yok).
 
 ## 1. Ne zaman girilir?
 
@@ -46,4 +46,4 @@ Brezilya: Copom kararları, Karnaval (Şub 2027), BRL oynaklığı.
 Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): GDX h1 t=1.43 (IS 1.56/OOS -0.48), h3 t=2.33. Sürücüler eşzamanlıdır, öncü değildir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*

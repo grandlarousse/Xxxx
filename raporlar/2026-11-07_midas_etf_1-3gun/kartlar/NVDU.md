@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 49 | 20.0 | 479 | %-18.8 | 2.0 | 2023-09-13 |
+| 49 | 20,0 | 479 | %-18,8 | 2,0x | 2023-09-13 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** NVDL'nin kopyası (aynı dayanak, 2x; günlük getiri korelasyonu 1,00). Hacim 49 mn$, maliyet 20 bp (NVDL 16 bp). Yalnız Midas'ta NVDL yoksa S1 için.
+**Neden izleme listesinde:** NVDL'nin kopyası (aynı dayanak, 2x; günlük getiri korelasyonu 1,00). Hacim 49 mn$, maliyet 20 bp (NVDL 16 bp). Yalnız Midas'ta NVDL yoksa B10 için.
 
 ## 1. Ne zaman girilir?
 
@@ -48,4 +48,4 @@ NVDA sonraki bilanço 2026-11-17 seans sonrası (16:00 ET sonrası; TR kış 00:
 İşlem için doğrulanmış gecikmeli öncü yok (genel taramada aile FDR bayrağı 0). Ek dayanak testindeki ilişkiler NEGATİF işaretli piyasa-geri dönüşü; OOS zayıf, kural olarak maliyet sonrası doğrulanmadı. Sürücüler eşzamanlıdır, öncü değil. NVDL <- SMH: SMH getirisi -> NVDA t+1 t=-1,72 (IS -2,69, OOS +0,30), yetişme t=-2,08 (OOS -0,13); kural (yetişme>=2sd, C0 h1) +68 bp t=0,55: öncü değil.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_tek_hisse_kaldiracli.md`, `notlar/denetim_tek_hisse_kaldiracli.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_tek_hisse_kaldiracli.md`, `notlar/denetim_tek_hisse_kaldiracli.md`.*

@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 44 | 20.0 | 320 | %-18.4 | 1.0 | 2016-11-07 |
+| 44 | 20,0 | 320 | %-18,4 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** Platin: 44 mn $, ~20 bp, oynaklık 320 bp. Strateji yok; NYMEX:PL1! ile izlenir. GDX sert düştüğü günün ertesinde PPLT de zayıf (kaçınma işareti, FDR'siz).
@@ -47,4 +47,4 @@ WPIC arz-talep raporları, Rusya/Güney Afrika arz haberleri, otomotiv talebi; F
 Doğrulanmış gecikmeli öncü yok.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*

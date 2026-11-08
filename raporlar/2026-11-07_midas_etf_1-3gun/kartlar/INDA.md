@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 299 | 14.0 | 102 | %-2.8 | 1.0 | 2016-11-07 |
+| 299 | 14,0 | 102 | %-2,8 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** Hindistan için en likit (299 mn $, 14 bp). S1 kuralı INDA'da C0 h=1 net +111 bp (n=33, t 1,82) ama OOS -8 bp; doğrulanmış değil. EPI kopya.
+**Neden izleme listesinde:** Hindistan için en likit (299 mn $, 14 bp). B4 kuralı INDA'da C0 h=1 net +111 bp (n=33, t 1,82) ama OOS -8 bp; doğrulanmış değil. EPI kopya.
 
 ## 1. Ne zaman girilir?
 
@@ -45,4 +45,4 @@ ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah ya
 Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): T10YIE_d h1 t=0.57 (IS 0.55/OOS 0.66), h3 t=2.59. Sürücüler eşzamanlıdır, öncü değildir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*

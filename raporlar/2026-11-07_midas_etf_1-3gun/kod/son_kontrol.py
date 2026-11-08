@@ -83,6 +83,13 @@ def cost_for(df, pos):
 
 def summarize(tr, df, h, mode, label):
     s = lib.stats(tr, df, h, mode, label)
+    if len(tr) > 3:
+        # gün kümeli t: aynı sinyal gününde açılan işlemler (sepet) tek gözlem sayılır
+        g = tr.groupby("sig_date")["net"].mean().values
+        s["n_gun"] = len(g)
+        s["t_gun_kumeli"] = g.mean() / (g.std(ddof=1) / math.sqrt(len(g))) if len(g) > 2 and g.std(ddof=1) > 0 else np.nan
+        yrs = (tr["sig_date"].max() - tr["sig_date"].min()).days / 365.25
+        s["islem_yil"] = len(tr) / yrs if yrs > 0 else np.nan
     if len(tr) > 6:
         x = tr["net"].sort_values().values[:-5]
         s["t_en_iyi5_haric"] = x.mean() / (x.std(ddof=1) / math.sqrt(len(x)))

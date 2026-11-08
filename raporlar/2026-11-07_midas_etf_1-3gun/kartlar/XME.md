@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 226 | 14.0 | 238 | %-7.8 | 1.0 | 2016-11-07 |
+| 226 | 14,0 | 238 | %-7,8 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** Metal-madencilik hisseleri: 226 mn $, ~14 bp. Ay sonu kuralı XME'de de eşikte (t 2,33) -> S1 ailesinin kanıtı; tek başına strateji değil.
+**Neden izleme listesinde:** Metal-madencilik hisseleri: 226 mn $, ~14 bp. Ay sonu kuralı XME'de de eşikte (t 2,33) -> B3a ailesinin kanıtı; tek başına strateji değil.
 
 ## 1. Ne zaman girilir?
 
@@ -42,11 +42,11 @@ Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kural�
 
 ## 3. Takvim ve olay riskleri
 
-ABD çelik/alüminyum tarife kararları, Çin PMI, ay sonu (S1 ailesi). FOMC/CPI genel risk.
+ABD çelik/alüminyum tarife kararları, Çin PMI, ay sonu (B3a ailesi). FOMC/CPI genel risk.
 
 ## 4. Notlar
 
 Doğrulanmış gecikmeli öncü yok.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*

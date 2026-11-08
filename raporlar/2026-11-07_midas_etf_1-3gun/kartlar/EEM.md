@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 1,617 | 13.7 | 165 | %-6.5 | 1.0 | 2016-11-07 |
+| 1.617 | 13,7 | 165 | %-6,5 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** Ailenin genel EM ölçütü, çok likit (1,6 mlr $, 13,7 bp). Doğrulanmış strateji yok (S1 kuralı EEM'de n=46, net +57 bp, t 1,6). Kopyalar (IEMG, VWO) arasından en likidi.
+**Neden izleme listesinde:** Ailenin genel EM ölçütü, çok likit (1,6 mlr $, 13,7 bp). Doğrulanmış strateji yok (B4 kuralı EEM'de n=46, net +57 bp, t 1,6). Kopyalar (IEMG, VWO) arasından en likidi.
 
 ## 1. Ne zaman girilir?
 
@@ -47,4 +47,4 @@ ABD: CPI 10 Kas, NFP 4 Ara, CPI 10 Ara, FOMC 9 Ara 2026 (Asya'ya ertesi sabah ya
 Doğrulanmış (doğrusal) gecikmeli öncü YOK: aile içi BH-FDR geçen çift yok. En güçlü aday (FDR'siz): KWEB h1 t=3.38 (IS 2.90/OOS 2.07), h3 t=0.76. Sürücüler eşzamanlıdır, öncü değildir. KWEB(t)->EEM(t+1) kısmi katsayısı pozitif (t 3,4) ama tek başına kural olarak ters işaretli -> kullanılamaz.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_uluslararasi.md`, `notlar/denetim_uluslararasi.md`.*

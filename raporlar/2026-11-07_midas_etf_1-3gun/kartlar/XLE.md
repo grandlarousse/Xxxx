@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 2,016 | 13.6 | 147 | %-4.7 | 1.0 | 2016-11-07 |
+| 2.016 | 13,6 | 147 | %-4,7 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** [40act] maliyet/oynaklık 0.093. Ailenin en likit ve PTP'siz aracı (2 mlr$, 13,6 bp). Doğrulanmış strateji yok (EN06 yetişme, EN08 IBS elendi; S2 sinyaliyle t 1,80); sürücüleri net (petrol, S&P 500). Enerjide PTP riski almadan yön görüşü için ana araç.
+**Neden izleme listesinde:** [40act] maliyet/oynaklık 0.093. Ailenin en likit ve PTP'siz aracı (2 mlr$, 13,6 bp). Doğrulanmış strateji yok (EN06 yetişme, EN08 IBS elendi; B8 sinyaliyle t 1,80); sürücüleri net (petrol, S&P 500). Enerjide PTP riski almadan yön görüşü için ana araç.
 
 ## 1. Ne zaman girilir?
 
@@ -45,4 +45,4 @@ EIA WPSR (Çar); CPI 10 Kas, NFP 4 Ara, FOMC 9 Ara 2026; yarım gün 27 Kas (TR 
 Doğrulanmış gecikmeli öncü YOK (ölçüt: FDR + IS/OOS aynı işaret + bp/sd > 14 bp maliyet; geçen 0). En güçlü geçmeyen: KWEB h3 t=2.75 (IS 1.88/OOS 2.00, 20.4 bp/sd, FDR=H). Yetişme boşluğunun kendi getirisine ek katkısı: gap(XOP) h1 t=2.20 (IS 1.60/OOS 1.92, 18.1 bp/sd). Sürücüler eşzamanlıdır, öncü değildir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*

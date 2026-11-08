@@ -5,10 +5,10 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 176 | 16.0 | 1026 | %-33.9 | 2.0 | 2024-09-18 |
+| 176 | 16,0 | 1.026 | %-33,9 | 2,0x | 2024-09-18 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
-**Neden izleme listesinde:** Doğrulanmış strateji YOK (S1 MSTR'de n=68, t=0,78; TH06 BTC öncülüğü yok). Yalnız net sürücüyle takip edilebilir: BTC (corr_1y 0,86); BTC'nin gece hareketi (16:00->09:00 ET) MSTR açılış boşluğu varyansının %77'sini açıklıyor. Maliyet/oynaklık oranı ailede en iyi (0,016) ama 3 günlük tutuşta 2xMSTR'den ort. -57 bp geride (swap finansmanı), 1y getiri -%89, son 1y en kötü gün -%33,9. Çok küçük pozisyon dışında önerilmez.
+**Neden izleme listesinde:** Doğrulanmış strateji YOK (B10 MSTR'de n=68, t=0,78; TH06 BTC öncülüğü yok). Yalnız net sürücüyle takip edilebilir: BTC (corr_1y 0,86); BTC'nin gece hareketi (16:00->09:00 ET) MSTR açılış boşluğu varyansının %77'sini açıklıyor. Maliyet/oynaklık oranı ailede en iyi (0,016) ama 3 günlük tutuşta 2xMSTR'den ort. -57 bp geride (swap finansmanı), 1y getiri -%89, son 1y en kötü gün -%33,9. Çok küçük pozisyon dışında önerilmez.
 
 ## 1. Ne zaman girilir?
 
@@ -46,4 +46,4 @@ MSTR sonraki bilanço tarihi henüz açıklanmadı (Nasdaq boş); 2023-2026 düz
 Doğrulanmış gecikmeli öncü yok. TH06: BTC 16:00 ET artığı -> MSTR ertesi gün t=-0,98 (h1), BTC getirisi t=-1,26, yetişme boşluğu t=-0,89 (2023-06+, IS yok). Kural testi (u>=2sd -> 2x long, C0 h1) n=45 +213 bp t=0,85. BTC yalnız eşzamanlı sürücü ve gerçek zamanlı izleme aracıdır.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_tek_hisse_kaldiracli.md`, `notlar/denetim_tek_hisse_kaldiracli.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_tek_hisse_kaldiracli.md`, `notlar/denetim_tek_hisse_kaldiracli.md`.*

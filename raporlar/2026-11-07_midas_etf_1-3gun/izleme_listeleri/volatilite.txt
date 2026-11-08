@@ -1,1 +1,1 @@
-###Volatilite (VIX) ETF,CBOE:SVXY,CBOE:VXX,###Volatilite (VIX) öncü-sürücü,CBOE:VIX,CBOE:VVIX,AMEX:SPY,CBOE:VIX3M,NASDAQ:QQQ,###Volatilite (VIX) gerçek zamanlı,CBOE:VX1!,CBOE:VX2!,CME_MINI:ES1!,CME_MINI:NQ1!,FX_IDC:USDJPY
+###Volatilite (VIX) ETF,CBOE:SVXY,CBOE:VXX,###Volatilite (VIX) sürücüler (aynı gün),CBOE:VIX,CBOE:VVIX,AMEX:SPY,CBOE:VIX3M,NASDAQ:QQQ,###Volatilite (VIX) gerçek zamanlı,CBOE:VX1!,CBOE:VX2!,CME_MINI:ES1!,CME_MINI:NQ1!,FX_IDC:USDJPY

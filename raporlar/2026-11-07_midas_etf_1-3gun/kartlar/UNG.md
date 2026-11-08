@@ -1,11 +1,11 @@
 # UNG — United States Natural Gas Fund LP
 
 **TradingView:** `AMEX:UNG` · **Aile:** Enerji ve tarım emtiası · **İzleme kararı:** yedek  
-**Midas:** var (2023-2024) · ⚠ PTP/K-1 ürünü: satışta %10 brüt kesinti (1446(f)) riski
+**Midas:** var (2023-2024) · ⚠ PTP/K-1 yapısı: satışta %10 brüt kesinti (1446(f)) riski — uygulamada 'PTP' ibaresini ve kesintiyi teyit etmeden kısa vadeli işlem yapmayın
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 137 | 22.7 | 363 | %-24.9 | 1.0 | 2016-11-07 |
+| 137 | 22,7 | 363 | %-24,9 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** [PTP] maliyet/oynaklık 0.063. Doğalgaz dayanak referansı (137 mn$, 22,7 bp). Uzun vadeli negatif sürüklenme (koşulsuz -10 bp/gün); EIA günü long tutmayın. PTP ve Midas'ta 2024'te %10 kesinti şikâyeti belgelenmiş. Long araç olarak önerilmez.
@@ -47,4 +47,4 @@ EIA depolama: 13 Kas Cum, 19 Kas, 25 Kas Çar 12:00 ET, 3/10/17/24/31 Ara (TR 18
 Doğrulanmış gecikmeli öncü YOK (ölçüt: FDR + IS/OOS aynı işaret + bp/sd > 23 bp maliyet; geçen 0). En güçlü geçmeyen: KWEB h3 t=2.55 (IS 2.26/OOS 1.62, 31.0 bp/sd, FDR=H). Yetişme boşluğunun kendi getirisine ek katkısı: gap(BOIL) h1 t=0.93 (IS -0.15/OOS 1.12, 7.8 bp/sd). Sürücüler eşzamanlıdır, öncü değildir.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_enerji_tarim.md`, `notlar/denetim_enerji_tarim.md`.*

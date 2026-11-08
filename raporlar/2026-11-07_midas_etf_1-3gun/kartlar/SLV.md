@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 1,376 | 14.1 | 398 | %-28.5 | 1.0 | 2016-11-07 |
+| 1.376 | 14,1 | 398 | %-28,5 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** Gümüşün ana aracı: 1,4 mlr $, ~14 bp, 1g oynaklık ~400 bp (maliyet/oynaklık 0,035). Doğrulanmış strateji YOK; COMEX:SI1! ve altın ile izlenir. 30.01.2026'da -%28,5 (tek gün) gerçek kuyruk riski. **Ana ajan notu:** Strateji/öncü yok; COMEX:SI1! ile izlenir; 30.01.2026'da tek gün -%28,5.
@@ -43,11 +43,11 @@ Bu ETF için denetimden geçmiş (doğrulanmış) bir 1-3 günlük giriş kural�
 
 ## 3. Takvim ve olay riskleri
 
-FOMC 09.12.2026 14:00 ET (TR 22:00; örneklemde FOMC sonrası altın zayıf, anlamsız); CPI 10.11 ve 10.12.2026, NFP 04.12.2026 08:30 ET (TR 16:30, açılıştan 1 saat önce); COMEX teminat değişiklikleri (30.01.2026 gümüş şoku); Çin tatilleri Asya seansını inceltir; ay sonu 30.11.2026 (S1/S2).
+FOMC 09.12.2026 14:00 ET (TR 22:00; örneklemde FOMC sonrası altın zayıf, anlamsız); CPI 10.11 ve 10.12.2026, NFP 04.12.2026 08:30 ET (TR 16:30, açılıştan 1 saat önce); COMEX teminat değişiklikleri (30.01.2026 gümüş şoku); Çin tatilleri Asya seansını inceltir; ay sonu 30.11.2026 (B3a/B3b).
 
 ## 4. Notlar
 
 Doğrulanmış gecikmeli öncü yok. 30.01.2026 (-%28,5) gibi teminat/likidasyon şokları gece oluşur; gerçek zamanlı COMEX:SI1! izlenmeli.
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_metal_madenci.md`, `notlar/denetim_metal_madenci.md`.*

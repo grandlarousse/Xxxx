@@ -5,7 +5,7 @@
 
 | Medyan günlük işlem (mn $) | Gidiş-dönüş maliyet, 2.500$ (bp) | Günlük oynaklık (bp, 1y) | Son 1 yılda en kötü gün | Kaldıraç | Veri başlangıcı |
 |---|---|---|---|---|---|
-| 1,237 | 13.0 | 190 | %-6.7 | 1.0 | 2016-11-07 |
+| 1.237 | 13,0 | 190 | %-6,7 | 1,0x | 2016-11-07 |
 
 **Kademe:** C — kural yok; sürücüleriyle takip  
 **Neden izleme listesinde:** IBS<0.20 sınırda (net 16 bp, t 1.8, IS ~2 bp): kabul eşiğini geçmiyor. Likit (1.2 mlr $), ayrı küme (biyoteknoloji); sürücü IWM/VIX.
@@ -47,4 +47,4 @@ FOMC/CPI (faize duyarlı küçük ölçek), FDA kararları (tek hisse), JPM Sağ
 Doğrulanmış gecikmeli öncü yok. (SPY/QQQ ilişkisi OOS'ta zayıflıyor).
 
 ---
-*Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_sektor_tematik.md`, `notlar/denetim_sektor_tematik.md`.*
+*Kural kodları (A1, A2, B1-B10, F) RAPOR.md ile aynıdır. Geçmiş performans geleceği garanti etmez. Yatırım tavsiyesi değildir. Kaynak: `notlar/aile_sektor_tematik.md`, `notlar/denetim_sektor_tematik.md`.*
