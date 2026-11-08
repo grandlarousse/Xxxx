@@ -218,10 +218,12 @@ Başlangıç durumu: `tarama/abd_rejim_20261106.md`.
 
 | Görev | Saat (TSİ) | Ne yapar | Neden |
 |---|---|---|---|
-| **Günlük borsa önerisi (BIST + ABD)** | Hafta içi 21:05 | Taze bir oturum depoyu klonlar, `python3 -m pip install numpy pandas requests` ile bağımlılıkları kurar, `gunluk_oneri.py`'yi çalıştırır ve özeti telefona **bildirim** olarak gönderir. Commit/push yapmaz. | Bildirim yalnız taze oturum modunda gönderilebiliyor. |
+| **Günlük borsa önerisi (BIST + ABD)** | Hafta içi **17:36** başlar, bildirim **~17:45–17:55** | Taze bir oturum depoyu klonlar, `python3 -m pip install numpy pandas requests` ile bağımlılıkları kurar, `gunluk_oneri.py`'yi çalıştırır ve özeti telefona **bildirim** olarak gönderir. Commit/push yapmaz. Rapor **önceki BIST kapanışına** göre hesaplanır (18:20'den önce bugünün bitmemiş barı atılır) ve **bugünkü kapanış seansının (18:01–18:10) emir kâğıdıdır**: önceki kapanışta oluşan sinyallerin bugünkü emirleri, bugünün kapanışında tetiklenebilecek seviyeler ve XU030 baz AL/SAT oranları. 08.11'de kullanıcı isteğiyle 21:05'ten 17:55'e alındı. | Bildirim yalnız taze oturum modunda gönderilebiliyor. |
 | **Günlük borsa raporunu dala kaydet** | Hafta içi 21:20 | Bu ana oturumda çalışır: betiği yeniden çalıştırır, `gunluk/` dosyalarını commit edip `claude/borsa-kazanc-stratejileri-rfxr81` dalına gönderir. | Taze oturumların bu depoya yazma yetkisi yok. Hat testi (08.11 01:00 UTC) push'ta HTTP 403 verdi. `durum.json` (ABD sayaçları) ve `xu030_baz.csv` geçmişi bu adımla sürer. |
 
-**Hat testi sonucu (08.11):** Klon ve checkout çalıştı. Betik, bağımlılıklar `python3 -m pip` ile kurulduktan sonra 189 sn'de çıkış kodu 0 ile bitti. Push yetki hatası verdi. Bu yüzden görev ikiye bölündü.
+**Not: 17:36 başlangıcı ABD Pasifik saatiyle 06:36'ya denk gelir; zamanlayıcının yoğun saatlerine düştüğü için birkaç dakikalık gecikme olabilir. 17:49'dan sonra betik yeniden çalıştırılmaz, bildirim olduğu gibi gönderilir.
+
+**Hat testi sonucu (08.11):**** Klon ve checkout çalıştı. Betik, bağımlılıklar `python3 -m pip` ile kurulduktan sonra 189 sn'de çıkış kodu 0 ile bitti. Push yetki hatası verdi. Bu yüzden görev ikiye bölündü.
 
 **Değiştirme, durdurma:**
 - Claude uygulamasında "Zamanlanmış görevler".
