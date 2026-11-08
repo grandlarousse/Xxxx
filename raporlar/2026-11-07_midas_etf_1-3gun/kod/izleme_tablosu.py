@@ -8,6 +8,26 @@ import kartlar as K
 ROOT = K.ROOT
 FAM_ORDER = K.ORDER
 
+POP = ["BOIL","UVXY","UVIX","SVIX","VIXY","SQQQ","SOXS","SPXU","SPXS","TZA","SDS","SH","PSQ","TNA","UPRO","CONL","TSLQ","NVDS","AGQ","UGL","ZSL","GLL",
+       "DUST","JDST","TUR","BITO","BITU","DIA","RSP","XLK","XLF","EFA","VGK","ARKK","URA","TAN","LABU","FAS","TECL","FNGU","CPER","DBA","UNL","WEAT","CORN","SCHD","JEPI","JEPQ"]
+
+def red_popular(son):
+    allson = pd.read_csv(os.path.join(ROOT, "sonuclar", "izleme_son.csv"))
+    L = ["", "## Popüler ama izleme listesine alınmayanlar (neden?)", "", "| ETF | TradingView | Aile | Neden alınmadı |", "|---|---|---|---|"]
+    for sym in POP:
+        r = allson[allson.sym == sym]
+        if len(r) and r.iloc[0].karar in ("kabul", "yedek"): continue
+        reason, fam = "", ""
+        for f in FAM_ORDER:
+            res, _ = K.load_fam(f)
+            x = next((i for i in res.get("izleme", []) if i["sym"].upper() == sym), None)
+            if x:
+                nt = r[r.aile == f]["not"].iloc[0] if len(r[r.aile == f]) else ""
+                reason = (nt if isinstance(nt, str) and nt else "") or x["gerekce"]; fam = f; break
+        reason = reason or "Aile analizinde değerlendirilmedi."
+        L.append(f"| {sym}{' ⚠' if sym in K.PTP else ''} | `{K.TV_ETF.get(sym, '')}` | {K.FAM_TR.get(fam, fam)} | {reason.replace('|', '/')[:420]} |")
+    return L + [""]
+
 def main():
     son = pd.read_csv(os.path.join(ROOT, "sonuclar", "izleme_son.csv"))
     son = son[son.karar.isin(["kabul", "yedek"])]
@@ -40,6 +60,7 @@ def main():
             ptp = " ⚠" if sym in K.PTP else ""
             L.append(f"| **{sym}**{ptp} | `{tv}` | {r.karar} | {r.kademe} | {K.num(tr['cost_rt_bp'],'{:.0f}') if tr is not None else '—'} | {K.num(tr['vol_1d_bp'],'{:.0f}') if tr is not None else '—'} | {'; '.join(rules) or '—'} | {dr or '—'} | {rt or '—'} |")
         L.append("")
+    L += red_popular(son)
     L.append("*Yatırım tavsiyesi değildir. Geçmiş performans geleceği garanti etmez.*")
     open(os.path.join(ROOT, "IZLEME_LISTESI.md"), "w").write("\n".join(L) + "\n")
     print("yazıldı", len(son))

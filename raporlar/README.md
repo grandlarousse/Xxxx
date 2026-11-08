@@ -48,3 +48,18 @@ Klasör: `2026-11-05_jung_kitaplari/` (giriş için klasördeki `README.md`)
 
 - `ajan_ciktilari/`: Alt ajanların çıktıları. 50 kitap raporu (her birinde yazar–hakem tartışma eki), 12 küme sentezi, envanter denetimi, üç bakışlı tartışma ve "Ajanların Ortak Raporu".
 - `ana_ajan_analizi/`: Ana ajanın ayrı analizi. Ajan bulgularının denetimi ve güven haritası, külliyat haritası ve 50 eserlik tablo, tartışmanın hakemliği ve Türkçe okuma yolları, düzeltmeler ve açık sorular.
+
+---
+
+# Midas'ta ABD ETF'leriyle 1-3 günlük alım-satım: stratejiler, izleme listesi, lead-lag (07.11.2026)
+
+Klasör: `2026-11-07_midas_etf_1-3gun/`
+
+- `RAPOR.md`: Net cevap, Midas koşulları (komisyon, saatler, MOC yok, PTP riski), denetimden geçen 2 kural (QQQ ve SMH IBS dönüşü), zayıf kanıtlı 10 kural, popüler ama çalışmayanlar (doğalgaz, petrol, altın, VIX, kripto, sektör, takvim), lead-lag sonuçları ve akşam rutini (TR saati).
+- `IZLEME_LISTESI.md`: 77 ETF (22 kabul, 55 yedek); kademe (A/B/C), TradingView kodu, maliyet, kural, sürücü ve gerçek zamanlı izleme kodları.
+- `kartlar/<SYM>.md`: ETF başına kart: kurallar, ajan, denetçi ve son kontrol rakamları, aynı gün sürücüler, gecikmeli öncüler, gerçek zamanlı izleme (TradingView kodları sayfa okunarak doğrulandı).
+- `izleme_listeleri/`: TradingView'a içe aktarılacak listeler (aile bazında ve tümü, bölümlü).
+- `kod/sinyal.py`: Akşam kontrol betiği (`--canli` ile kapanış öncesi). `kod/tradingview/*.pine`: IBS ve RSI(2) göstergeleri (derlenmedi).
+- `notlar/`, `sonuclar/`, `kod/`: Aile ajanlarının ve bağımsız denetçilerin notları, tablolar, tüm kod. Ham veri repoda yok (`kod/dl.py all`, `kod/temettu_yahoo.py` ile yeniden indirilir); olay takvimleri `data/events/` altında.
+
+Yatırım tavsiyesi değildir.

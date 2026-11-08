@@ -126,4 +126,58 @@ Karar: **kabul** = ana izleme · **yedek** = alternatif/kopya/kaldıraçlı ara�
 | **INDA** | `CBOE:INDA` | yedek | C | 14 | 102 | — | `AMEX:BNO`, `AMEX:DIA` | `NSE:NIFTY`, `CME_MINI:ES1!` |
 | **YINN** | `AMEX:YINN` | yedek | C | 16 | 362 | — | `AMEX:FXI`, `AMEX:KWEB` | `HKEX:HSI1!`, `TVC:HSI` |
 
+
+## Popüler ama izleme listesine alınmayanlar (neden?)
+
+| ETF | TradingView | Aile | Neden alınmadı |
+|---|---|---|---|
+| BOIL ⚠ | `AMEX:BOIL` | Enerji ve tarım emtiası | Long stratejisi yok, koşulsuz bozulma -36 bp/gün, EIA günü -66 bp; yalnız 'kaçın' kuralı. |
+| UVXY ⚠ | `CBOE:UVXY` | Volatilite (VIX) | 1,5x kısa vade; -18 bp/gün koşulsuz kayıp; rejim/sıçrama girişleri negatif (C1 h1 rejim girişi -284 bp); PTP riski; al-tut maxDD %-99,99. |
+| UVIX | `CBOE:UVIX` | Volatilite (VIX) | 2x; -35 bp/gün koşulsuz kayıp; 1 günde -%43,8 görüldü; tüm long kurallar negatif (VIX gerilmesi O1 h2 -842 bp, t=-4,0). |
+| SVIX | `CBOE:SVIX` | Volatilite (VIX) | Denetçi: kanıt yalnız 2022+, -1x yapı Şubat 2018 tipi olayda ~%90+ kayıp. |
+| VIXY | `CBOE:VIXY` | Volatilite (VIX) | VXX ile aynı endeks (kopya); daha az likit; ProShares Trust II (PTP riski); -11 bp/gün koşulsuz kayıp. |
+| SQQQ | `NASDAQ:SQQQ` | ABD endeks ve faktör | Ters ETF: kısa yön sinyali yok (RSI2>90, 3 gün yükseliş, IBS>0,8 -> ters ETF testleri net negatif); 3 günde ≈33 bp sıfırlama kaybı. Yalnız koruma amaçlı. |
+| SOXS | `AMEX:SOXS` | Sektör ve tematik | Ters 3x: kısa yön için doğrulanmış sinyal yok; sürekli değer kaybı (1 yıl -%90). Midas'ta bulunurluğu doğrulanamadı. |
+| SPXU | `AMEX:SPXU` | ABD endeks ve faktör | Ters ETF: kısa yön sinyali yok (RSI2>90, 3 gün yükseliş, IBS>0,8 -> ters ETF testleri net negatif); 3 günde ≈13 bp sıfırlama kaybı. Yalnız koruma amaçlı. |
+| SPXS | `AMEX:SPXS` | ABD endeks ve faktör | Ters ETF: kısa yön sinyali yok (RSI2>90, 3 gün yükseliş, IBS>0,8 -> ters ETF testleri net negatif); 3 günde ≈13 bp sıfırlama kaybı. Yalnız koruma amaçlı. SPXU kopyası. |
+| TZA | `AMEX:TZA` | ABD endeks ve faktör | Ters ETF: kısa yön sinyali yok (RSI2>90, 3 gün yükseliş, IBS>0,8 -> ters ETF testleri net negatif); 3 günde ≈25 bp sıfırlama kaybı. Yalnız koruma amaçlı. |
+| SDS | `AMEX:SDS` | ABD endeks ve faktör | Ters ETF: kısa yön sinyali yok (RSI2>90, 3 gün yükseliş, IBS>0,8 -> ters ETF testleri net negatif); 3 günde ≈7 bp sıfırlama kaybı. Yalnız koruma amaçlı. |
+| SH | `AMEX:SH` | ABD endeks ve faktör | Ters ETF: kısa yön sinyali yok (RSI2>90, 3 gün yükseliş, IBS>0,8 -> ters ETF testleri net negatif); 3 günde ≈2 bp sıfırlama kaybı. Yalnız koruma amaçlı. |
+| PSQ | `AMEX:PSQ` | ABD endeks ve faktör | Ters ETF: kısa yön sinyali yok (RSI2>90, 3 gün yükseliş, IBS>0,8 -> ters ETF testleri net negatif); 3 günde ≈5 bp sıfırlama kaybı. Yalnız koruma amaçlı. |
+| TNA | `AMEX:TNA` | ABD endeks ve faktör | IWM 3x: IWM sinyali zayıf (S1 C0 t=0,8); TNA'da S1 C1 en kötü işlem −%35, maxDD −%40. Kuyruk riski kazancı haklı çıkarmıyor. |
+| UPRO | `AMEX:UPRO` | ABD endeks ve faktör | SPXL kopyası (0,9996); SPXL daha likit (aynı makas). |
+| CONL | `NASDAQ:CONL` | Tek hisse kaldıraçlı | Fiyat 2,79$: 1 sentlik adım ~36 bp makas, maliyet 48 bp (ailede en yüksek). 1y getiri -%90. COIN'de S1 negatif (n=31, -71 bp); BTC öncülüğü yok. Kripto maruziyeti için MSTU daha ucuz. |
+| TSLQ | `NASDAQ:TSLQ` | Tek hisse kaldıraçlı | Ters TSLA (2024-07'den beri -2x; öncesi -1x; tarama.csv 'lev=-1' eski). Ailede doğrulanmış kısa yön sinyali yok: büyük yükseliş sonrası ters (TH02c) C0 h2 -253 bp, RSI2>90 ve SMA200 altı (TH07) -44 bp, S1 aynası -194 bp. Uzun dönem pozitif sürüklenmeye karşı pozisyon. |
+| NVDS | `NASDAQ:NVDS` | Tek hisse kaldıraçlı | Ters NVDA (-1,5x; 2024-07 öncesi -1,25x). Hacim yalnız 7,6 mn$, maliyet 27 bp, maliyet/oynaklık 0,075 (ailede en kötü). Büyük NVDA yükselişinden sonra NVDS almak (TH02c) C0 h2 -254 bp t=-3,05 (FDR'de anlamlı ZARAR); S1 aynası -324 bp t=-3,33. |
+| AGQ | `AMEX:AGQ` | Değerli/sanayi metalleri ve madenciler | 2x gümüş, PTP/K-1 riski; 30.01.2026'da -%60 gün; strateji yok. |
+| UGL | `AMEX:UGL` | Değerli/sanayi metalleri ve madenciler | 2x altın; ProShares Trust II = PTP/K-1 -> %10 brüt satış stopajı (1446(f)) riski; Midas'ta PTP ibaresi kontrol edilmeli. Kaldıraç gerekiyorsa pozisyon büyütmek (GLD) daha güvenli. |
+| ZSL | `AMEX:ZSL` | Değerli/sanayi metalleri ve madenciler | -2x gümüş, PTP/K-1 riski; kısa yön sinyali yok. |
+| GLL | `AMEX:GLL` | Değerli/sanayi metalleri ve madenciler | -2x altın, PTP/K-1 riski; doğrulanmış kısa yön sinyali yok (FOMC sonrası düşüş anlamsız: t -1,6). |
+| DUST | `AMEX:DUST` | Değerli/sanayi metalleri ve madenciler | -2x GDX; doğrulanmış kısa yön sinyali yok; ters ürün. |
+| JDST | `AMEX:JDST` | Değerli/sanayi metalleri ve madenciler | -2x GDXJ; kısa yön sinyali yok; 23 mn $. |
+| TUR | `NASDAQ:TUR` | Uluslararası / ülke | Türk yatırımcı için ilginç ama ince: medyan 6,8 mn $/gün, tahmini makas 15 bp (gidiş-dönüş 27 bp; 1.000$'da 45 bp). Gecikmeli öncü yok (SPY/DIA/XLF'ten ters gecikme yalnız IS'te); genel kütüphanede hiçbir sinyal maliyeti geçmiyor. İzlenecekse BIST:XU100 ve FX_IDC:USDTRY gerçek zamanlı; uzatılmış saatte yalnız limit emir. |
+| BITO | `AMEX:BITO` | Kripto | BTC vadeli ETF: veri kaynağında dağıtım kaydı YOK (ay başı açılışlarda IBIT'e göre ort. −295 bp boşluk = ex-date) → testler aşağı yanlı; yüksek aylık dağıtımlar ABD'de %20 stopaja tabi (ex-date taşımak vergi sızıntısı); vadeli roll maliyeti; fiyat ~10$ → 1 sent makas ~10 bp (22 bp). Spot ETF'ler varken gereksiz. |
+| BITU | `AMEX:BITU` | Kripto | BITX kopyası (corr 0,987), daha az likit (59 mn$), takip kaybı −11 bp/gün; 24.12.2025'te 2×IBIT'e göre −21 puan açıklanamayan fark (dağıtım/veri). BITX tercih. |
+| DIA | `AMEX:DIA` | ABD endeks ve faktör | Denetçi: SPY ile 0,84 korelasyon, daha az likit; bağımsız değer yok. |
+| RSP | `AMEX:RSP` | ABD endeks ve faktör | Denetçi: SPY ile aynı sivri tepe; bağımsız değer yok. |
+| XLK | `AMEX:XLK` | Sektör ve tematik | Denetçi: IBS kuralı OOS ~5 bp, SMH ile 0,94 korelasyon. |
+| XLF | `AMEX:XLF` | Sektör ve tematik | Düşük 1g oynaklık (maliyet/oynaklık 0.14); doğrulanmış kural yok; bankalar KRE ile izlenir. |
+| EFA | `AMEX:EFA` | Uluslararası / ülke | Günlük oynaklık 104 bp, maliyet/oynaklık 0,125; strateji/öncü yok. |
+| VGK | `AMEX:VGK` | Uluslararası / ülke | Günlük oynaklık 105 bp, maliyet/oynaklık 0,13; strateji/öncü yok. |
+| ARKK | `CBOE:ARKK` | Sektör ve tematik | ST06 (sert düşüş dönüşü) anlamsız; IBS ~0; QQQ'dan negatif gecikme yalnız IS'te. |
+| URA | `AMEX:URA` | Sektör ve tematik | Kenar yok; SPY/NLR'den negatif gecikme OOS zayıf; metal_madenci ailesi kapsıyor. |
+| TAN | `AMEX:TAN` | Sektör ve tematik | Kenar yok (ST06, IBS). |
+| LABU | `AMEX:LABU` | Sektör ve tematik | XBI IBS -> LABU IS zayıf (IS t 0.8-1.2), OOS güçlü: kararsız; 3x. |
+| FAS | `AMEX:FAS` | Sektör ve tematik | XLF sinyalleri OOS zayıf; 3x kaldıraç. |
+| TECL | `AMEX:TECL` | Sektör ve tematik | XLK IBS kuralı OOS zayıf (TECL C0 h1 OOS 31 bp, t 0.8); kaldıraçlı araç gerekiyorsa SOXL daha güçlü sinyal ve likidite. |
+| FNGU | `AMEX:FNGU` | Sektör ve tematik | 2025-02'de yeniden ihraç (ETN, ihraççı kredi riski); kısa geçmiş. |
+| CPER | `AMEX:CPER` | Değerli/sanayi metalleri ve madenciler | Bakır vadeli fonu: 20,8 mn $, ~20 bp (maliyet/oynaklık 0,11), USCF emtia havuzu (PTP/K-1 olasılığı yüksek). Bakıra maruziyet için COPX daha likit; ay sonu/IBS kuralları CPER'de çalışmıyor. |
+| DBA | `AMEX:DBA` | Enerji ve tarım emtiası | [K1_muhtemel] maliyet/oynaklık 0.279. Maliyet/oynaklık 0,28 (günlük oynaklık 72 bp); K-1; strateji yok. |
+| UNL | `AMEX:UNL` | Enerji ve tarım emtiası | [PTP] maliyet/oynaklık 0.219. Likidite 0,45 mn$, maliyet 47 bp; UNG kopyası. Kontango vekili (UNG/UNL) testi de elendi. |
+| WEAT | `AMEX:WEAT` | Enerji ve tarım emtiası | [K1_muhtemel] maliyet/oynaklık 0.129. 10 mn$, maliyet/oynaklık 0,13; K-1; genel kütüphanede tutarlı sinyal yok. |
+| CORN | `AMEX:CORN` | Enerji ve tarım emtiası | [K1_muhtemel] maliyet/oynaklık 0.248. 4,7 mn$, 27 bp, maliyet/oynaklık 0,25; K-1; strateji yok. |
+| SCHD | `AMEX:SCHD` | ABD endeks ve faktör | Temettü: dar hareket (75 bp/gün, maliyet/oynaklık 0,20); S1 kuralı bu ETF'de C1 h=3 net 31 bp (t=1.8) (eşik altı). |
+| JEPI | `AMEX:JEPI` | ABD endeks ve faktör | Kapalı alım (covered call) fonu: yukarı hareket sınırlı, dar hareket (58 bp/gün, maliyet/oynaklık 0,24); S1 OOS'ta zayıf. |
+| JEPQ | `NASDAQ:JEPQ` | ABD endeks ve faktör | Kapalı alım (NDX), 2022+ kısa geçmiş; QQQ dönüşünü kısmen keser. |
+
 *Yatırım tavsiyesi değildir. Geçmiş performans geleceği garanti etmez.*
