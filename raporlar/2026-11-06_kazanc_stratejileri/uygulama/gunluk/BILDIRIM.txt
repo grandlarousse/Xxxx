@@ -1,1 +1,1 @@
-Pzt 09.11: İŞLEM YOK. 06.11 kapanışı: BIST KAPALI. Takvim: 3Ç konsolide bilançoların son günü. Yakın tetik: S&P 500 ≤7.353,73 (ABD ralli), S&P 500 ≤7.327,11 (ABD), Nasdaq-100 ≤26.629,81 (ABD ralli). ABD KIRMIZI (VIX/VIX3M 1,04); en erken pilot 16.11. Ayrıntı gunluk/SON.md
+Sal 10.11: İŞLEM YOK. 09.11 kapanışı: BIST KAPALI. Yakın tetik: XBANK ≥16.939,44 (Rejim M5), SAHOL ≤86,74 (K1, kâğıt), AKBNK ≥72,31 (K1, kâğıt), ENERY ≥14,60 (K4). ABD KIRMIZI (VIX/VIX3M 1,04); en erken pilot 16.11. Ayrıntı gunluk/SON.md
