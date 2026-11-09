@@ -48,3 +48,14 @@ Klasör: `2026-11-05_jung_kitaplari/` (giriş için klasördeki `README.md`)
 
 - `ajan_ciktilari/`: Alt ajanların çıktıları. 50 kitap raporu (her birinde yazar–hakem tartışma eki), 12 küme sentezi, envanter denetimi, üç bakışlı tartışma ve "Ajanların Ortak Raporu".
 - `ana_ajan_analizi/`: Ana ajanın ayrı analizi. Ajan bulgularının denetimi ve güven haritası, külliyat haritası ve 50 eserlik tablo, tartışmanın hakemliği ve Türkçe okuma yolları, düzeltmeler ve açık sorular.
+
+---
+
+# Arkadaşlığın iyi gittiğini söylemek onu "lanetler" mi? (09.11.2026)
+
+Klasör: `2026-11-09_ovgu_ve_nazar_arkadaslik/`
+
+- `RAPOR.md`: Sentez. Kısa cevap, 14 mekanizmalık tablo (algı ve istatistik, gerçek kişilerarası dinamikler, kendini gerçekleştiren kehanet, nazar ve mutluluk korkusu, karşı kanıt), ağırlık yorumu, pratik öneriler, kendi verinle test etme planı, sınırlamalar ve doğrulama durumu işaretli kaynakça.
+- `ajan_ciktilari/`: 4 araştırma ajanının ve 4 doğrulama ajanının çıktıları. `bulgular_ve_dogrulama_EN.txt` okunabilir özet, `ham_sonuclar.json` tam çıktı.
+
+Psikolojik bilgilendirme amaçlıdır; klinik değerlendirme değildir.
