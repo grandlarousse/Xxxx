@@ -258,7 +258,7 @@ Bu yüzden RDR2'deki kefaret bir **sonuç** değil, bir **yöneliştir**. Yükse
 **Yorum (bu raporun kendi okuması, bir kaynakta görülmedi).** İngilizcede "redemption" hem "kefaret, kurtuluş" hem de "borcun ödenmesi, rehinin geri alınması, tahvilin itfası" demektir. RDR2'nin kefaret hikâyesi baştan sona bir borç hikâyesidir:
 
 - Arthur borç tahsil ederken hastalanır ("Money Lending and Other Sins III"). [A]
-- Kefaret görevlerinin çoğu borç silmektir (Weathers, Londonderry) ve tefecinin kovulmasıyla biter. Yüksek onurlu Arthur Strauss'a şunu der: "You and me, we ain't decent... but those folk... they was." ("Sen de ben de düzgün insanlar değiliz… ama o insanlar… onlar düzgündü.") [B]
+- Kefaret görevlerinin bir kolu borç silmektir (Weathers, Londonderry) ve tefecinin kovulmasıyla biter. [Hakem düzeltmesi: Önceki metin "çoğu" diyordu. Bu abartı. Kefaretle ilişkilendirilen öteki isteğe bağlı işler (Downes ailesine yardım, Calderón'a bağış, Rains Fall ve Monroe'ya yardım, Sadie'nin görevi, Jimmy Brooks) borç silme değildir. Kaynak: olgu dosyası §7.5.] Yüksek onurlu Arthur Strauss'a şunu der: "You and me, we ain't decent... but those folk... they was." ("Sen de ben de düzgün insanlar değiliz… ama o insanlar… onlar düzgündü.") [B]
 - Çetenin Blackwater'dan sonraki ilk büyük vurgunu, Cornwall'un trenindeki tahvillerdir. [B]
 - Epilogda John çiftliği bankadan borçla kurar ve borcu Blackwater parasıyla öder. [A]
 
@@ -290,7 +290,7 @@ Bu çerçevede Arthur'un dönüşümü, borç tahsil eden adamdan borç silen ad
 - Wikipedia'ya göre oyunun mekânları "the locales contrast between civilization and wilderness" (uygarlık ve vahşi doğa arasındaki karşıtlık) üzerine kuruludur. [A]
 - Houser, Arthur'u "caught between the nastiness of nature and the brutality of encroaching industrialization in civilization" (doğanın çirkinliği ile uygarlıkta ilerleyen sanayileşmenin vahşeti arasında sıkışmış) biri olarak tanımlar. [A] (Wikipedia, Vulture 2018'e atıfla)
 - Dutch Milton'a: "This place... ain't no such thing as civilized." ("Bu yer… medeni diye bir şey yok.") [B]
-- Dutch RDR2'de bir ordu yüzbaşısına: "You can't fight nature, captain. You can't fight change. You can't fight... gravity." ("Doğayla savaşamazsın yüzbaşı. Değişimle savaşamazsın. Yerçekimiyle… savaşamazsın.") [B]
+- Dutch RDR2'de bir ordu yüzbaşısına: "You can't fight nature, captain. You can't fight change. You can't fight... gravity." ("Doğayla savaşamazsın yüzbaşı. Değişimle savaşamazsın. Yerçekimiyle… savaşamazsın.") [B] [Hakem eki: Red Dead Wiki'ye göre bu sözü Dutch, Arthur'la birlikte nehre atlamadan hemen önce bir ordu yüzbaşısına söyler. Aynı kalıp RDR1'de, Dutch'ın son sahnesinde John'a döner: "We can't always fight nature, John. We can't fight change. We can't fight gravity. We can't fight nothin'. My whole life, all I ever did was fight." Seri bu cümleyi bilinçli bir köprü gibi tekrar eder. [B] Kaynak: Red Dead Wiki "Dutch van der Linde".]
 
 **Yorum.** Houser'ın cümlesi kritik bir şey söyler: Doğa da masum değildir. Oyun Colter'deki kar fırtınasıyla başlar. Kurtlar John'u yaralar. [B] Vahşi doğa romantik bir cennet değil, öldürücü bir yerdir. Uygarlık da aynı ölçüde öldürücüdür: fabrika dumanı, zehirli göl, grevcilere ateş. [B] Oyun Turner'ın "vahşet/uygarlık" ikiliğini kullanır, ama değerleri ters çevirmez. İki tarafa da şüpheyle bakar. Arthur için gerçek seçim "doğa mı, uygarlık mı?" değildir. Asıl seçim "kime ve neye bakım göstereceğim?" sorusudur.
 
@@ -298,7 +298,7 @@ Bu çerçevede Arthur'un dönüşümü, borç tahsil eden adamdan borç silen ad
 
 **Yorum.** Dutch'ın özgürlüğü, yükümlülükten kurtulmuş bir özgürlüktür. Vergi, yasa ve işveren yoktur. Ama bu özgürlüğün altyapısı başkalarının emeğidir: çalınan para, tahsil edilen borç. Epilog başka bir özgürlük modeli sunar. John banka borcuyla çiftlik kurar, çit çeker, ahır yapar. [A]/[B] Bu "düzen" Dutch'ın gözünde teslimiyettir. Ama Abigail'in sorusu ("Tahiti or killing?") başka bir şeyi gösterir: Gerçek seçenekler hayali bir cennet ile şiddet değildir. Seçenek, sıkıcı ama yaşanabilir bir hayattır.
 
-**Karşı görüş.** Epilogun bu "evcilleşme" anlatısı da masum değildir. Wright, oyunların Batı'nın sömürgeleştirilmesine dair verdiği izlenimin "bears little resemblance to historical reality" (tarihsel gerçeklikle pek benzerlik taşımadığını) yazar. [A] Bu eleştiri epiloga da uygulanabilir: John'un çiftlik kurduğu topraklar da birilerinden alınmıştır. Oyun bunu açıkça tartışmaz.
+**Karşı görüş.** Epilogun bu "evcilleşme" anlatısı da masum değildir. Wright, oyunların Batı'nın sömürgeleştirilmesine dair verdiği izlenimin "bears little resemblance to historical reality" (tarihsel gerçeklikle pek benzerlik taşımadığını) yazar. [A] Bu eleştiri epiloga da uygulanabilir: John'un çiftlik kurduğu topraklar da birilerinden alınmıştır. Oyun bunu açıkça tartışmaz. [Hakem eki: Wright bu bağlantıyı zaten kendisi kurar. Aynı paragrafta 1860–1900 arasında toprağın yalnızca yüzde onunun bireysel çiftçilerce yerleşildiğini, gerisinin şirketlere ve eyaletlere geçtiğini yazar. Van der Linde çetesinin ve sonra Marston ailesinin "özgür, dürüst çiftçi" hayatı arayışının bu ideali ve onun kayıp vaadini yansıttığını söyler. [A] Kaynak: Wright 2021, OpenEdition tam metni.]
 
 ---
 
@@ -312,17 +312,17 @@ Bu çerçevede Arthur'un dönüşümü, borç tahsil eden adamdan borç silen ad
 - Albay Favours, Cornwall'un petrol çıkarı için Wapiti'leri topraktan sürmeye çalışır. Aşıları rezervasyondan uzak tutar. [B]
 - Dutch, Eagle Flies'ı kendi savaşı için kullanır. Arthur bunu görür ve itiraz eder, ama dinlenmez. [B]
 - Eagle Flies rafineri baskınında ölür ("My Last Boy"). [B] Wapiti'ler 1899'un sonunda Kanada'ya kaçar. 1907 tarihli bir oyun içi gazeteye göre rezervasyonda çok az petrol bulunmuş, sondaj bırakılmıştır. [B]
-- Eagle Flies'ın sözü: "All the young have been taken from our Reservation, shipped off to reform schools." ("Bütün gençler rezervasyonumuzdan alındı, ıslahevlerine gönderildi.") [B] (Wright 2021'de alıntı)
+- Eagle Flies'ın sözü: "All the young have been taken from our Reservation, shipped off to reform schools." ("Bütün gençler rezervasyonumuzdan alındı, ıslahevlerine gönderildi.") [B] (Wright 2021'de alıntı) [Hakem eki: Wright'ın notuna göre replik Bölüm 6'daki "Favored Sons" görevinde, at sırtındaki bir sohbette geçer; cümlenin devamı "Many women too." (Kadınların çoğu da.) Hakem Wright'ın tam metninde gördü.]
 
-**OLGU (tarih, genel bilgi).** 1887 Dawes Yasası ortak kabile topraklarını parçaladı. 1890'da Wounded Knee'de ordu yüzlerce Lakota'yı öldürdü. Yerli çocuklar zorla yatılı okullara gönderildi. [B] (güçlü tarihçi konsensüsü) Oyundaki "ıslahevi" ve "bozulan antlaşmalar" bu gerçekliğe gönderme yapar.
+**OLGU (tarih, genel bilgi).** 1887 Dawes Yasası ortak kabile topraklarını parçaladı. 1890'da Wounded Knee'de ordu yüzlerce Lakota'yı öldürdü. Yerli çocuklar zorla yatılı okullara gönderildi. [B] (güçlü tarihçi konsensüsü) Oyundaki "ıslahevi" ve "bozulan antlaşmalar" bu gerçekliğe bir gönderme olarak okunabilir. [Hakem: "gönderme yapar" kesinliği yumuşatıldı; Rockstar'ın bu konuda bir açıklaması görülmedi.]
 
 **Yorum.** Wapiti hikâyesi, uygarlık anlatısının en çirkin yüzünü gösterir. Turner'ın "boş toprak" dediği şey boş değildi. Oyunun ironisi acıdır: Cornwall ölür, ama Wapiti'ler yine de sürülür. Sürüldükleri toprakta beklenen petrol de çıkmaz. Şiddetin bir anlamı bile yoktur.
 
 **Karşı görüş.** Akademik ve eleştirel çevreler bu temsili yetersiz bulur:
 - Wright'a göre Yerli karakterler "only included... insofar as they offer a convenient device" (yalnızca işe yarar bir anlatı aracı oldukları ölçüde yer alır). Rezervasyon "largely only includes the old and infirm" (büyük ölçüde yalnızca yaşlıları ve hastaları içerir). Bu da "yok olan Kızılderili" klişesini güçlendirir. [A]
-- Wikipedia'nın aktardığına göre Giant Bomb anlatının "clichéd Native American portrayal" (klişe Yerli temsili) yüzünden zarar gördüğünü, Polygon da Yerli karakterlerin temsilini "insensitive and confusing" (duyarsız ve kafa karıştırıcı) bulduğunu yazdı. [A]
+- Wikipedia'nın aktardığına göre Giant Bomb anlatının "clichéd Native American portrayal" (klişe Yerli temsili) yüzünden zarar gördüğünü, Polygon da Yerli karakterlerin temsilini "insensitive and confusing" (duyarsız ve kafa karıştırıcı) bulduğunu yazdı. [A] [Hakem eki: Giant Bomb'da Alex Navarro, Polygon'da Chris Plante. Aynı Wikipedia bölümünde karşı görüş de var: IGN'den Reilly oyunun kültürel çeşitliliğini ve karikatürden kaçınmasını övmüştür. [A] Kaynak: Wikipedia RDR2 (Reception).]
 
-Bu eleştiri haklıdır. Wapiti'ler kendi hikâyelerinin öznesi değil, Arthur'un dönüşümünün tanıklarıdır. Rains Fall bilge yaşlı, Eagle Flies öfkeli genç savaşçı kalıbına yakındır.
+[Hakem düzeltmesi: Önceki metin "Bu eleştiri haklıdır." diye kesin bir hüküm veriyordu. Yumuşatıldı:] Bu rapora göre eleştiri büyük ölçüde yerindedir. Wapiti'ler kendi hikâyelerinin öznesi değil, Arthur'un dönüşümünün tanıklarıdır. Rains Fall bilge yaşlı, Eagle Flies öfkeli genç savaşçı kalıbına yakındır.
 
 ### 6.2 Guarma: sömürge plantasyonu
 
@@ -331,8 +331,8 @@ Bu eleştiri haklıdır. Wapiti'ler kendi hikâyelerinin öznesi değil, Arthur'
 - Red Dead Wiki'ye göre plantasyonlarda sözleşmeli işçiler ve siyasi tutuklular çalışır; bunlar "slaves in all but name" (adı dışında her şeyiyle köle) durumundadır. [B]
 - Adayı Albay Alberto Fussar yönetir. Haitili kaçakçı Hercule Fontaine'in desteklediği bir isyan vardır. [B]
 - Çete isyancılara yardım eder, ama asıl amacı adadan kaçmak için bir tekne bulmaktır. [B]
-- Dutch, mağarada para isteyen yaşlı kadın Gloria'yı öldürür. ⟨değişken⟩ Yüksek onurlu Arthur "insanları öldürmeye devam ediyorsun" diye tepki verir. Düşük onurlu Arthur "hepimiz çürüdük" der. [B]
-- Fussar'ın son sözü: "You maggots are going to die. The US Navy is on the way." ("Siz kurtçuklar öleceksiniz. ABD Donanması yolda.") [B]
+- Dutch, mağarada para isteyen yaşlı kadın Gloria'yı öldürür. Yüksek onurlu Arthur "insanları öldürmeye devam ediyorsun" diye tepki verir. Düşük onurlu Arthur "hepimiz çürüdük" der ⟨değişken⟩. [B] [Hakem düzeltmesi: ⟨değişken⟩ işareti cinayetin kendisine konmuştu. Cinayet her oyunda olur; yalnızca Arthur'un tepkisi onura göre değişir. Ayrıca Red Dead Wiki "Gloria" sayfasına göre kadın daha fazla para isteyip Dutch'a bıçak çeker; Dutch onu silahsızlandırıp boğar. Görev: "A Kind and Benevolent Despot".]
+- Fussar'ın son sözü: "You maggots are going to die. The US Navy is on the way." ("Siz kurtçuklar öleceksiniz. ABD Donanması yolda.") [B] [Hakem notu: Aynı wiki sayfalarına göre görevlerde gerçekten görünen savaş gemisi bir **Küba** gemisidir ve Fussar Küba Donanması'nı uyarır. "ABD Donanması" yalnızca Fussar'ın son tehdidinde geçer. Kaynak: Red Dead Wiki "Alberto Fussar", "Guarma".]
 
 **OLGU (tarih, genel bilgi).** 1898 İspanyol-Amerikan Savaşı'ndan sonra ABD Küba'yı askerî olarak işgal etti ve Karayipler'de etkisini büyüttü. [B] (güçlü konsensüs)
 
@@ -350,7 +350,7 @@ Bu eleştiri haklıdır. Wapiti'ler kendi hikâyelerinin öznesi değil, Arthur'
 
 **Yorum (Kayıp Dava yankısı).** "Lost Cause" (Kayıp Dava), İç Savaş sonrası Güney'de yayılan bir mittir. Bu mit Konfederasyonu soylu bir dava, köleliği ikincil bir konu, Yeniden Yapılanma'yı ise Kuzey'in bir işgali olarak anlatır. [B] (tarihçi konsensüsü) Oyun bu mitin taşıyıcılarını gösterir: eski plantasyon aileleri, gri üniformalı milisler, "Kuzeyli fırsatçıları" lanetleyen yaşlı asker. Ama mitin kendisini yüceltmez. Raiders kana susamış bir çetedir. Braithwaite ve Gray aileleri çürümüş, birbirini yiyen soylulardır. Klan ise alay konusudur. Dutch'ın babasının Konfederasyona karşı savaşırken öldüğünü söylemesi bu bölümün arka planına kişisel bir renk katar. [B]
 
-**Karşı görüş.** Klan'ı gülünç göstermek iki ucu keskin bir seçimdir. Bir yandan nefreti küçümser ve oyuncunun Klan'a karşı tavır almasını kolaylaştırır. Öte yandan 1890'larda linç ve Jim Crow yasalarıyla kurumsallaşan gerçek ırkçı şiddeti hafife alabilir. Wright'a göre oyunların ırk bilimi ve öjeni hicvi, ırkçılığı yapısal bir düzen olarak değil, geçmişteki tek tek kişilerin işi olarak gösterir. Wright, Arthur'un Forsythe karşısındaki kısa cevabının "hardly provides enough space for critical reflection" (eleştirel düşünmeye pek yer bırakmadığını) söyler. [A] Olsson da oyunun Appalachia için "shoeless, toothless" (yalınayak, dişsiz) klişelerini tekrarladığını söyler. [A]
+**Karşı görüş.** Klan'ı gülünç göstermek iki ucu keskin bir seçimdir. Bir yandan nefreti küçümser ve oyuncunun Klan'a karşı tavır almasını kolaylaştırır. Öte yandan 1890'larda linç ve Jim Crow yasalarıyla kurumsallaşan gerçek ırkçı şiddeti hafife alabilir. Wright'a göre oyunların ırk bilimi ve öjeni hicvi, ırkçılığı yapısal bir düzen olarak değil, geçmişteki tek tek kişilerin işi olarak gösterir. Wright, Arthur'un Forsythe karşısındaki kısa cevabının "hardly provides enough space for critical reflection" (eleştirel düşünmeye pek yer bırakmadığını) söyler. [A] [Hakem notu: İkinci cümle birebir doğrulandı. Birinci cümle Wright'ın serbest bir özetidir. Wright'ın kendi ifadeleri şunlardır: Arthur'un "her ırktan dostum var" cevabı, "ırk görmüyorum" söylemi gibi "yapısal ırkçılığı" gizler; makale de "derin yapısal şiddetin yalnızca yüzeyini kazıyan" eleştirinin değerini sorgular. Kaynak: Wright 2021, OpenEdition tam metni.] Olsson da oyunun Appalachia için "shoeless, toothless" (yalınayak, dişsiz) klişelerini tekrarladığını söyler. [A]
 
 ### 6.4 Arthur'un görüşleri değişiyor mu?
 
@@ -361,7 +361,7 @@ Bu eleştiri haklıdır. Wapiti'ler kendi hikâyelerinin öznesi değil, Arthur'
 | Çetenin "davası" | "Always, Dutch." | "Be loyal to what matters." ⟨değişken⟩ | **Belirgin değişim.** | [A]/[B] |
 | Kadınlar | Sadie'yi silah arkadaşı olarak kabul eder. | Sadie: "Apart from my Jake, you're the best man I've known." ⟨değişken⟩ | Küçük; ilişki derinleşir. | [A] |
 
-**Yorum.** Arthur'un ırk konusundaki tavrı neredeyse baştan "doğru" kurulmuştur. Bu, oyuncunun onunla özdeşleşmesini kolaylaştırır. Eleştirmenlerin işaret ettiği gibi bu, tarihsel olarak pek olası değildir. 1863 doğumlu, sokakta büyümüş bir kanun kaçağının bu kadar önyargısız olması bir tasarım tercihidir. Gerçek dönüşüm başka bir eksende olur: Arthur "zayıflık" sandığı şeyi (yumuşaklık, barışçılık, bakım) bilgelik olarak görmeye başlar. Rains Fall'un sözü bu yüzden önemlidir: "Sometimes the correct path, the bravest path, is the least obvious... and also the gentlest." ("Bazen doğru yol, en cesur yol, en az göze çarpanıdır… ve aynı zamanda en yumuşak olanı.") [B]
+**Yorum.** Arthur'un ırk konusundaki tavrı neredeyse baştan "doğru" kurulmuştur. Bu, oyuncunun onunla özdeşleşmesini kolaylaştırır. Bu raporun kanısına göre bu, tarihsel olarak pek olası değildir. 1863 doğumlu, sokakta büyümüş bir kanun kaçağının bu kadar önyargısız olması bir tasarım tercihi gibi görünür. [Hakem düzeltmesi: Önceki metin "Eleştirmenlerin işaret ettiği gibi" diyordu, ama bunu söyleyen bir eleştirmen kaynakta gösterilmemişti. Hakemin gördüğü en yakın eleştiri Wright'ınkidir ve tarihsel olasılık üzerine değil, Arthur'un "her ırktan dostum var" cevabının yapısal ırkçılığı gizlemesi üzerinedir (bkz. §6.3).] Gerçek dönüşüm başka bir eksende olur: Arthur "zayıflık" sandığı şeyi (yumuşaklık, barışçılık, bakım) bilgelik olarak görmeye başlar. Rains Fall'un sözü bu yüzden önemlidir: "Sometimes the correct path, the bravest path, is the least obvious... and also the gentlest." ("Bazen doğru yol, en cesur yol, en az göze çarpanıdır… ve aynı zamanda en yumuşak olanı.") [B]
 
 ---
 
@@ -382,9 +382,9 @@ Bu eleştiri haklıdır. Wapiti'ler kendi hikâyelerinin öznesi değil, Arthur'
 
 **OLGU.**
 - Wikipedia'nın aktardığına göre bazı eleştirmenler oyunun "emphasis on realism" (gerçekçiliğe verdiği ağırlık) ve uzatılmış animasyonlardan yakındı. Bazıları da "slow opening hours" (yavaş açılış saatleri) ve "lengthy epilogue" (uzun epilog) üzerinde durdu. [A]
-- Wired'ın incelemesinin başlığı: "Red Dead Redemption 2 review: so big it feels like a chore." ("O kadar büyük ki angarya gibi geliyor.") [B]
-- Rockstar North'tan Rob Nelson'ın bir röportajının başlığı (Fransızca, JeuxActu, 2018): oyuncunun çevresindeki dünyaya "le plus possible" (olabildiğince) bağlı olmasının hedeflendiğini söyler. [B] (Wikipedia kaynakçası)
-- Game Studies dergisinde John Vanderhoef ve Matthew Thomas Payne, "Press X to Wait: The Cultural Politics of Slow Game Time in Red Dead Redemption 2" (2022) makalesinde "slow game time" (yavaş oyun zamanı) kavramını önerir. Özetlerine göre oyunun yavaşlığı, oyuncunun hız ve verimlilik beklentisini boşa çıkarır ve "contemplation, stillness, unproductive wait time and emotional resonance" (tefekkür, durgunluk, verimsiz bekleme süresi ve duygusal yankı) yaratır. [B] (makalenin yalnızca özeti görüldü)
+- Wired'ın incelemesinin başlığı: "Red Dead Redemption 2 review: so big it feels like a chore." ("O kadar büyük ki angarya gibi geliyor.") [A] [Hakem: Wikipedia RDR2 kaynakçasında görüldü: Matt Reynolds, Wired (UK), 26.10.2018.]
+- Rockstar North'tan Rob Nelson'ın bir röportajının başlığı (Fransızca, JeuxActu, 2018): oyuncunun çevresindeki dünyaya "le plus possible" (olabildiğince) bağlı olmasının hedeflendiğini söyler. [A: başlık] (Wikipedia kaynakçası) [Hakem: Başlık "Rob Nelson: 'Avec Red Dead 2, on veut que le joueur soit connecté le plus possible avec le monde qui l'entoure'", Maxime Chao, JeuxActu, 03.05.2018. Röportajın içeriği açılmadı.]
+- Game Studies dergisinde John Vanderhoef ve Matthew Thomas Payne, "Press X to Wait: The Cultural Politics of Slow Game Time in Red Dead Redemption 2" (2022) makalesinde "slow game time" (yavaş oyun zamanı) kavramını önerir. Özetlerine göre oyunun yavaşlığı, oyuncunun hız ve verimlilik beklentisini boşa çıkarır ve "contemplation, stillness, unproductive wait time and emotional resonance" (tefekkür, durgunluk, verimsiz bekleme süresi ve duygusal yankı) yaratır. [B] (makalenin yalnızca özeti görüldü) [Hakem: Künye doğrulandı: *Game Studies* 22(3), Ağustos 2022 (dblp kaydı ve Payne'in özgeçmişi). Hakem gamestudies.org'a da bağlanamadı (503 / bağlantı sıfırlandı). Arama özetleri "stillness, unproductive waiting, and emotional resonance" fikrini doğruluyor, ama tırnak içindeki birebir ifade, özellikle "contemplation" kelimesi, bu denetimde görülemedi. Birebir alıntı olarak kullanmadan önce teyit edilmeli.]
 - Atı fırçalamak, beslemek, kampa erzak getirmek, kamp işleri yapmak, yemek yemek, tıraş olmak, günlük tutmak oyunun gündelik işleridir. Kamp işleri ve yardımlar onur kazandırır. Atla bağ seviyesi yüksekse Arthur son görevde ölen atını teselli eder. [B]
 
 **Yorum.** Yavaşlık burada bir temadır. Arthur'un hikâyesi "kalan zaman" üzerine kuruludur. Oyun da oyuncuya zamanı israf ettirir, bekletir, tekrarlatır. Bu, zamanın değerini hissettirir. Atı fırçalamak, yemek yapmak, Jack'e balık tutmayı öğretmek gibi işler "verimsiz" görünür. Ama Calderón'un önerdiği şey tam da budur: "Perhaps you could help somebody? Helping makes you really happy." ("Belki birine yardım edebilirsin? Yardım etmek insanı gerçekten mutlu eder.") [A] Anlam büyük planlarda değil, küçük bakım eylemlerinde bulunur. Dutch'ın hep ertelenen "plan"ı ile Arthur'un gündelik bakım ritüelleri arasındaki karşıtlık, oyunun en güçlü örtük argümanlarından biridir.
@@ -408,9 +408,9 @@ Bu eleştiri haklıdır. Wapiti'ler kendi hikâyelerinin öznesi değil, Arthur'
 
 ### 8.2 Oyuncunun suç ortaklığı
 
-**OLGU.** Downes görevi zorunludur. Oyuncu Downes'a vurmasa bile kan öksürme sahnesi oynar. [A] New York Times eleştirmeni Peter Suderman'a göre oyuncular Arthur'la bağ kurar, "çünkü onun seçimleri aslında sizin seçimleriniz". [A] (Wikipedia aktarımı)
+**OLGU.** Downes görevi zorunludur. Oyuncu Downes'a vurmasa bile kan öksürme sahnesi oynar. [A] New York Times'ta yazan Peter Suderman'a göre oyuncular Arthur'la bağ kurar, "çünkü onun seçimleri aslında sizin seçimleriniz". [A] (Wikipedia aktarımı) [Hakem düzeltmesi: Suderman NYT'nin oyun eleştirmeni değildir; alıntı, NYT'nin görüş sayfasında yayımlanan "Red Dead Redemption 2 Is True Art" (23.11.2018) yazısındandır. Kaynak: Wikipedia "Arthur Morgan" kaynakçası.]
 
-**Yorum.** Oyun oyuncuyu suça ortak eder. Oyuncu Downes'u döven eli kontrol eder ve sonra bunun sonucunu Arthur'un bedeninde taşır. Bu, filmin yapamayacağı bir şeydir. Suçluluk izlenmez, oynanır. Ama burada bir paradoks vardır: Suç zorunludur, kefaret isteğe bağlıdır. Oyun oyuncuyu günaha mecbur eder, ama kefareti ona bırakır.
+**Yorum.** Oyun oyuncuyu suça ortak eder. Oyuncu Downes sahnesini kendisi oynar ve sonra bunun sonucunu Arthur'un bedeninde taşır. [Hakem düzeltmesi: Önceki metin "Oyuncu Downes'u döven eli kontrol eder" diyordu. Bu, bir cümle önceki olguyla çelişiyordu: Oyuncu vurmasa bile kan öksürme sahnesi oynar. Oyuncunun suç ortaklığı göreve katılmaktadır, her darbeyi seçmekte değil.] Bu, filmin yapamayacağı bir şeydir. Suçluluk izlenmez, oynanır. Ama burada bir paradoks vardır: Suç zorunludur, kefaret isteğe bağlıdır. Oyun oyuncuyu günaha mecbur eder, ama kefareti ona bırakır.
 
 ### 8.3 Günlük: diegetik anlatıcı
 
@@ -439,13 +439,13 @@ Aşağıdaki çıkarımlar yorumdur. Her biri oyundaki bir kanıta bağlanmış 
 
 ### 9.1 Kim olacağını seçmek için geç değildir, ama geçmiş silinmez
 
-**Kanıt:** Edith Downes: "decide the man you wanna be, for the time you have left." [B] Clark: Arthur kalan zamanında iyilik yapmaya çalışır. [A] Mezar yazıtı doğruluğa "acıkanları" kutsar. [A]
+**Kanıt:** Edith Downes: "decide the man you wanna be, for the time you have left." [B] ⟨değişken: yalnızca yeterli onurla⟩ Clark: Arthur kalan zamanında iyilik yapmaya çalışır. [A] Mezar yazıtı doğruluğa "acıkanları" kutsar. [A]
 **Ders:** Değişim, ölümün eşiğinde bile anlamlıdır. Arthur'un iyi eylemleri birkaç ay sürer, ama John'un ailesinin bütün geleceğini değiştirir.
 **Karşı görüş:** Bu iyimserlik, kurbanları için çok geç gelir. Downes ölüdür, Edith affetmez, Londonderry'nin dul karısı "keşke daha önce" der. [B] Ders "geç değil" kadar "keşke daha erken" de olmalıdır.
 
 ### 9.2 Sadakat sorgulanmalıdır: kime değil, neye?
 
-**Kanıt:** "All that ever mattered to me was loyalty... but not anymore." [B] "Be loyal to what matters." [A]
+**Kanıt:** "All that ever mattered to me was loyalty... but not anymore." [B] "Be loyal to what matters." [A] ⟨değişken: yalnızca yüksek onur⟩
 **Ders:** Sadakat bir erdemdir, ama nesnesi yanlışsa insanı suçun aracına çevirir. Sağlıklı sadakat kişilere değil, değerlere ve savunmasız insanlara yönelir.
 **Karşı görüş:** Arthur'un sorgusu ancak kendi çıkarı ve canı tehlikeye girince başlar. Dutch'ın kararlarının bedelini başkaları (Hosea, Lenny, Wapiti'ler) çoktan ödemiştir.
 
@@ -457,7 +457,7 @@ Aşağıdaki çıkarımlar yorumdur. Her biri oyundaki bir kanıta bağlanmış 
 
 ### 9.4 Anlam, başkalarına bakımda bulunur
 
-**Kanıt:** Calderón: "Helping makes you really happy." [A] Arthur'un son günleri Jack'e, Abigail'e, John'a, Downes ailesine, Rains Fall'a bakımla geçer. [A]/[B] Oyunun gündelik ritüelleri (at bakımı, kamp işleri) onur kazandırır. [B]
+**Kanıt:** Calderón: "Helping makes you really happy." [A] Arthur'un son günleri Jack'e, Abigail'e, John'a, Downes ailesine, Rains Fall'a bakımla geçer. [A]/[B] [Hakem notu: Downes ailesine yardım yalnızca yeterli onurla açılır ⟨değişken⟩; Rains Fall'la ilgili bazı sahneler (Isaac'ın anlatılması) isteğe bağlıdır. Abigail'i kurtarma ve John'a yardım yolu ise ana görevlerdedir.] Oyunun gündelik ritüelleri (at bakımı, kamp işleri) onur kazandırır. [B]
 **Ders:** Dutch anlamı büyük bir planda arar ve bulamaz. Arthur anlamı küçük, somut ilgide bulur. Teşhisten sonra dünyanın "neredeyse daha iyi" görünmesi buna bağlıdır. [B]
 **Karşı görüş:** Bakım etiği burada büyük ölçüde bireyseldir. Cornwall'un, ordunun ve plantasyonun yapısal şiddeti karşısında tek tek iyilikler sınırlıdır. Oyun bu sınırı Wapiti'lerin kaçışıyla dürüstçe gösterir.
 
@@ -471,7 +471,7 @@ Aşağıdaki çıkarımlar yorumdur. Her biri oyundaki bir kanıta bağlanmış 
 
 **Kanıt:** Calderón: "for the first time, you see your life clearly." [A] Houser'ın "ölümsüz" sandığı karakteri bilinçle ölümle yüz yüze getirmesi. [A] Gwaltney'nin "memento mori" okuması. [A]
 **Ders:** Sınırlı zaman öncelikleri değiştirir. Arthur para yerine insanları, intikam yerine kaçışı seçer ⟨değişken⟩.
-**Karşı görüş:** Ölümle yüzleşme herkesi iyileştirmez. Düşük onurlu Arthur teşhisten sonra karanlık bir trans yaşar ve "hepimiz çürüdük" der. [B] Ölüm bir fırsattır, garanti değildir.
+**Karşı görüş:** Ölümle yüzleşme herkesi iyileştirmez. Düşük onurlu Arthur teşhisten sonra karanlık bir trans yaşar (gri sis, karamsar sözler, bir çakal). [B] ⟨değişken⟩ Ölüm bir fırsattır, garanti değildir. [Hakem düzeltmesi: Önceki metin düşük onurlu Arthur'un teşhisten sonra "hepimiz çürüdük" dediğini yazıyordu. Bu iki sahneyi karıştırıyor. "Hepimiz çürüdük" tepkisi Bölüm 5'te, Guarma'da, Dutch'ın Gloria'yı öldürmesinin ardındandır; teşhis ise Guarma dönüşünden sonradır ("A Fork in the Road"). Kaynak: olgu dosyası §5 (Bölüm 5) ve §6.3; bu raporun kendi §6.2'si.]
 
 ### 9.7 Kefaret tanıksız kalabilir
 
@@ -547,9 +547,9 @@ Aşağıdaki çıkarımlar yorumdur. Her biri oyundaki bir kanıta bağlanmış 
 
 **Basın ve röportajlar**
 - Rob Dolen, "Red Dead Redemption 2: Arthur Morgan's Morality From Roger Clark's Perspective", Game Rant, 30.10.2020: https://gamerant.com/red-dead-redemption-2-arthur-morgan-morality-high-low-honor-roger-clark-interview/
-- Andrew Scariati, Dutch'ın "plan" sayımı, TheGamer, 28.05.2023: https://www.thegamer.com/red-dead-redemption-2-dutch-says-plan/
+- Andrew Scariati, Dutch'ın "plan" sayımı, TheGamer, 28.05.2023: https://www.thegamer.com/red-dead-redemption-2-dutch-says-plan/ [Hakem: Sayfa doğrudan açılamadı (HTTP/2 hatası). Arama özetine göre sayı 28'dir; tekrar eden ve rastgele diyaloglar sayıma dahil değildir, bu yüzden "en az 28" ifadesi doğrudur. Yazar adı ve tarih bu denetimde doğrulanmadı.]
 - Gameranx (Houser, Lex Fridman Podcast #484 aktarımı), 06.11.2025: https://gameranx.com/updates/id/556846/article/dan-houser-explored-terminal-illness-in-red-dead-redemption-2-for-a-surprisingly-personal-reason/
-- Fandom yazısı, Cornwall–Rockefeller karşılaştırması (yorum): https://www.fandom.com/articles/leviticus-cornwall (yalnızca arama özeti görüldü)
+- Fandom yazısı, Cornwall–Rockefeller karşılaştırması (yorum): https://www.fandom.com/articles/leviticus-cornwall (yalnızca arama özeti görüldü) [Hakem: Adres bu denetimde açılamadı (403/Cloudflare) ve web aramasında da bulunamadı; varlığı doğrulanamadı. Yerine Red Dead Wiki "Leviticus Cornwall" (Trivia) kullanılmalı, bkz. §1.3.]
 
 ---
 
@@ -562,3 +562,74 @@ Aşağıdaki çıkarımlar yorumdur. Her biri oyundaki bir kanıta bağlanmış 
 5. **Doğrulanamayanlar.** "More and more civilization..." cümlesinin oyun içinde nerede geçtiği; Braithwaite–Gray kan davasının 1806 kökeninin oyun içi kaynağı; Cornwall'un Rockefeller'a dayandığı (bir yazarın yorumu, Rockstar teyidi yok); Saint Denis'in New Orleans'a ne kadar birebir dayandığı (Wikipedia "analogous" der, Rockstar'ın resmî açıklaması görülmedi).
 6. **Yorumların statüsü.** "Borç ve kefaret" (§4.3), "batan güneş / doğan güneş" (§7.1) ve "suç zorunlu, kefaret isteğe bağlı" (§8.2) okumaları bu raporun kendi yorumlarıdır. Bir kaynakta görülmediler. Tartışmaya açıktırlar.
 7. **Onura bağlı içerik.** Raporun önemli bir kısmı (Calderón sahnesi, Downes görevleri, Isaac sohbeti, yazıtlar, son konuşmalar) oyuncunun onuruna ve isteğe bağlı görevlere bağlıdır. Bir oyuncunun deneyimi burada anlatılan Arthur'dan belirgin biçimde farklı olabilir. Psikolojik çözümleme ve oynanış–anlatı uyumsuzluğunun ayrıntılı eleştirisi bu raporun kapsamı dışındadır.
+
+---
+
+## Ek: Hakem Denetimi
+
+**Hakem:** Tema merceği hakemi (ajan 3'ün denetçisi). **Tarih:** 09.11.2026. **Duruş:** Şüpheci.
+
+**Yöntem.** Hakem her iddiayı yazarın kaynaklarından bağımsız olarak yeniden kontrol etti:
+- Oyun içi replikler için Red Dead Wiki'nin ham metni MediaWiki API'si üzerinden okundu. Sayfalar: "The New South/dialogues", "A Fisher of Men/dialogues", "Just a Social Call", "Leviticus Cornwall", "Angelo Bronte", "Saint Denis", "The Gilded Cage", "Alberto Fussar", "Guarma", "Gloria", "Evelyn Miller", "Dutch van der Linde", "John Marston", "Charles Smith", "Rains Fall", "Wapiti Indian Reservation", "Lemoyne Raiders", "Ku Klux Klan", "Braithwaite family", "Gray family", "Norris Forsythe", "Arthur Morgan", "Country Pursuits", "Our Best Selves", "A Fork in the Road".
+- Wikipedia'nın "Red Dead Redemption 2", "Arthur Morgan", "Pinkerton (detective agency)", "Frontier Thesis" ve "Monopoly on violence" sayfaları ham wikitext olarak okundu. Wikiquote RDR2 ve Wikisource'taki Turner metni de ham hâliyle okundu.
+- Esther Wright'ın makalesi (OpenEdition) ve Den of Geek'teki Olsson röportajı tam metin olarak açıldı. Game Rant'teki Clark röportajı WebFetch ile okundu. Iperstoria (Razzi) ve New Books Network (Olsson) sayfaları açıldı.
+- Game Studies, TheGamer ve fandom.com/articles bağlantıları açılamadı. Bunlar için yalnızca arama sonuçlarına dayanıldı.
+- Düzeltmeler metnin içinde "[Hakem düzeltmesi: …]", ekler ve notlar "[Hakem eki/notu: …]" diye işaretlidir.
+- Bu rapor Jung, McAdams, Shay, Litz, Tangney, Yalom, Erikson, Kübler-Ross, Hocking, Hobsbawm, Frye ya da Campbell'a atıf yapmıyor. Bu yüzden depodaki Jung raporlarıyla karşılaştırma gerekmedi. Sontag'a yalnızca hakem notunda değinildi.
+
+| # | İtiraz | Önem | Karar / Yapılan düzeltme | Kaynak |
+|---|---|---|---|---|
+| 1 | §3.2 yorumu: "Dutch rafinerinin içinde John'u ölüme terk eder." John rafineride terk edilmez. Ordu maaş treni soygununda ("Our Best Selves") vurulup trenden düşer. | önemli | Düzeltildi | Red Dead Wiki "Our Best Selves"; olgu dosyası §5; Wikipedia RDR2 |
+| 2 | §9.6: Düşük onurlu Arthur'un teşhisten sonra "hepimiz çürüdük" dediği yazılmış. Bu replik teşhisten önce, Guarma'da, Gloria'nın öldürülmesine verilen tepkidir. İki sahne karıştırılmış. | önemli | Düzeltildi (teşhis sonrası trans: gri sis, karamsar sözler, çakal) | Olgu dosyası §5 ve §6.3; raporun kendi §6.2'si |
+| 3 | Özet: "tüberkülozla ölen beden". Ölüm biçimi onura bağlıdır; düşük onurda Arthur'u Micah öldürür. | önemli | Düzeltildi (⟨değişken⟩ notuyla "çöken beden") | Olgu dosyası §9.2; Wikipedia |
+| 4 | §2.2: "I can't fight my own nature, none of us can" [A] etiketli. "Dutch Bölüm 6'da tekrarlar" bilgisi yalnızca Wikiquote'un kaynaksız notunda geçiyor. RDR1'deki replik farklı ve "paradoks" bağlamında. "Mazeret" okumasına karşı kanıt verilmemiş. | önemli | [B]'ye indirildi; RDR1'deki tam metin ve karşı okuma eklendi | Wikiquote RDR2; Red Dead Wiki "Evelyn Miller", "Dutch van der Linde" |
+| 5 | Onura bağlılık işaretleri eksikti: Özet'te "Be loyal to what matters" ve Edith Downes; §9.1, §9.2, §9.4'te Downes ailesine yardım. | önemli | ⟨değişken⟩ işaretleri ve notlar eklendi | Olgu dosyası §6.4, §7.3 |
+| 6 | §6.4: "Eleştirmenlerin işaret ettiği gibi tarihsel olarak pek olası değildir." Böyle bir eleştirmen gösterilmemiş. | önemli | Raporun kendi kanısı olarak yeniden etiketlendi; Wright'ın asıl eleştirisi belirtildi | Wright 2021 (tam metin) |
+| 7 | §1.4: Milton'ın alıntısı. Wiki dökümünde satır bozuk ("a you will die... savagery. All of you."). "Vahşice öleceksiniz" çevirisi bir tahmin. Muhatap çete değil, Arthur. | küçük | Not eklendi | Red Dead Wiki "A Fisher of Men/dialogues" |
+| 8 | §1.4 ve §6.2: Gloria "masum kurban" gibi sunulmuş; kadının Dutch'a bıçak çektiği yazılmamış. ⟨değişken⟩ işareti cinayete konmuş, oysa yalnız Arthur'un tepkisi değişir. | küçük | Düzeltildi | Red Dead Wiki "Gloria" |
+| 9 | §1.3: "Gilded Age" adı yalnız Mark Twain'e bağlanmış. | küçük | Düzeltildi (Twain ve Warner, 1873) | Red Dead Wiki "The Gilded Cage" |
+| 10 | §1.3: Cornwall–Rockefeller benzetmesinin kaynağı (fandom.com/articles) açılamadı ve bulunamadı. Wiki onu bileşik bir karakter sayar. | küçük | [C] notu; wiki'nin "bileşik karakter" bilgisi eklendi | Red Dead Wiki "Leviticus Cornwall" |
+| 11 | §4.3: "Kefaret görevlerinin çoğu borç silmektir." Abartılı. | küçük | "bir kolu" olarak düzeltildi | Olgu dosyası §7.5 |
+| 12 | §6.1: "Bu eleştiri haklıdır." Kesin hüküm verilmiş. IGN'nin olumlu karşı görüşü yok. | küçük | Yumuşatıldı; karşı görüş eklendi | Wikipedia RDR2 (Reception) |
+| 13 | §8.2: "Oyuncu Downes'u döven eli kontrol eder." Bir önceki cümleyle çelişiyor (vurmasa da sahne oynar). | küçük | Düzeltildi | Olgu dosyası §6.1 |
+| 14 | §8.2: Suderman "NYT eleştirmeni" diye anılmış. Alıntı bir görüş yazısından. | küçük | Düzeltildi | Wikipedia "Arthur Morgan" kaynakçası |
+| 15 | §1.5 tablosu: Yorum içeren hücreler (örn. "para ekonomisi", "kendini özgür sanır") [A]/[B] etiketi taşıyor. | küçük | Tablo altına uyarı notu eklendi | — |
+| 16 | §1.5: Verem yalnız "yoksulluk hastalığı" diye sunulmuş. 19. yüzyıldaki romantik verem imgesi eksik (karşı kanıt). | küçük | Not eklendi (Sontag 1978; Polygon/Gumeny) | Wikipedia RDR2; genel bilgi [B] |
+| 17 | §2.3: Arthur'un Dutch'ı seçmesiyle Hosea'nın ölümü arasında örtük bir nedensellik kurulmuş. | küçük | Not eklendi: Hosea banka soygununda ölür; bağ bir yorumdur | Red Dead Wiki "Country Pursuits"; olgu dosyası |
+| 18 | §6.3: Wright'ın "ırkçılık tek tek kişilerin işi" özeti serbest bir özet. | küçük | Wright'ın birebir ifadeleri not olarak eklendi | Wright 2021 |
+| 19 | §1.3: "Oyun tam da bu gri alanı dramatize eder." Tasarım niyeti varsayılmış. | küçük | "okunabilir" diye yumuşatıldı | — |
+| 20 | §4.2: "We can't change what's done…" kefaret kanıtı olarak kullanılmış. Replik Bölüm 4'te, teşhisten önce söylenir; bağlamı görülmedi. | küçük | Not eklendi | Red Dead Wiki ("A Fork in the Road" sayfasındaki satır içi alıntı) |
+| 21 | §4.2: "Üç yazıt … gösterir." Fazla kesin. | küçük | "düşündürür" önerisi notu; "Blessed are the Peacemakers" görev adı destekleyici kanıt olarak eklendi | Olgu dosyası §5, §9.4 |
+| 22 | §1.4: Weber'in tanımı "tek topluluk" diye çevrilmiş. | küçük | Düzeltildi | Wikipedia "Monopoly on violence" |
+| 23 | §7.2: Vanderhoef ve Payne'den yapılan birebir alıntıdaki "contemplation" kelimesi doğrulanamadı. | küçük | Not eklendi; künye doğrulandı | dblp; arama özetleri |
+| 24 | §6.2: "ABD Donanması yolda" yorumda emperyal zincire bağlanmış. Görevde görünen gemi wiki'ye göre Küba gemisi. | küçük | Not eklendi | Red Dead Wiki "Alberto Fussar", "Guarma" |
+| 25 | §6.1: "Islahevi" ve "antlaşmalar" için "gönderme yapar" denmiş. Niyet kesin değil. | küçük | "okunabilir" diye yumuşatıldı | — |
+| 26 | Etiket ve künye eksikleri: Den of Geek "30 yıl" [B], Wired [B], JeuxActu [B]; Limerick'in künyesi yok; Eagle Flies repliğinin görevi belirtilmemiş. | küçük | [A]'ya yükseltildi; künye ve görev ("Favored Sons") eklendi | Den of Geek; Wikipedia RDR2 kaynakçası; Wright 2021 |
+
+**Doğrulanan ve değişmeyenler (seçme).**
+- **Turner:** Dört alıntı Wikisource'ta birebir. 1893, Chicago ve Amerikan Tarih Derneği bilgileri doğru.
+- **Limerick:** Alıntı, Wright'ın metninde.
+- **Wright'tan altı alıntı:** "pivotal moment…", "bears little resemblance…", "convenient device", "old and infirm", "critical reflection" ve PC fragmanındaki "More and more civilization…". Hepsi birebir.
+- **Olsson'dan dört alıntı:** Hepsi Den of Geek'te birebir. Kitabın yayınevi St. Martin's Press (2024).
+- **"The New South" dökümü:** "We're thieves…", Dutch'ın "dreamers…" cevabı, "lofty goals…", "stick with the plan…", "The curious couple…" ve Dutch'ın babası.
+- **"A Fisher of Men" dökümü:** "old fashioned", "seconded to the United States Government", "rich man's toy", "silver tongue". Jack'e söylenen "disagreeable men" sözü Pinkerton'lar gittikten sonra gelir; raporun ironi okuması tutarlı.
+- **Öteki replikler:** Cornwall'un "two figs" sözü; Dutch'ın "You kill, I kill"i ("Just a Social Call"); "Maybe time for folks like us is passed"; Bronte; Fussar (İspanyolca konuşma ve son sözler); Rains Fall'un "three treaties"i; Raiders'tan yaşlı adamın konuşması; Klan'ın üç karşılaşması ve anakronizm notu; Forsythe; Charles; Abigail'in "Tahiti or killing?" sorusu ("The Wheel"); Miller'ın "terrible fraud" sözü ve Princeton geçmişi; "Country Pursuits"te Arthur'un Dutch'ı seçmesi.
+- **Tarih:** Pinkerton'lar (Jesse James, Wild Bunch, Homestead'de 300 ajan, 1893 yasası). Wikipedia'daki "analogous to New Orleans", "civilization and wilderness" ve eleştiri özetleri (Giant Bomb, Polygon, "slow opening hours", "lengthy epilogue").
+- **Basın ve künyeler:** Clark'ın Game Rant'teki dört alıntısı (Rob Dolen, 30.10.2020). TheGamer'ın 28 sayımı. Rockstar oynanış videosunun tarihi (9 Ağustos 2018). Razzi'nin makalesi (*Iperstoria* 18, 2021). Bello'nun makalesi (*Game Studies* 24(3)).
+
+**Uydurma alıntı ya da uydurma kaynak bulunmadı.** Kontrol edilebilen bütün İngilizce replikler kaynaklarla birebir örtüşüyor. Tek istisna Milton'ın, kaynağın kendisinde bozuk yazılmış satırı.
+
+### Puan: 8/10
+
+### Güvenilirlik
+
+Rapor genel olarak **güvenilir** ve dikkatli. OLGU ile YORUM çoğu yerde açıkça ayrılmış. Güven etiketleri genellikle dürüst kullanılmış. Akademik eleştiri (Wright, Olsson) her bölümde karşı görüş olarak işlenmiş. Kendi okumalarını ("borç ve kefaret", "batan/doğan güneş") yorum diye açıkça işaretlemiş. Akademik ve tarihsel atıfların hepsi doğru kişiye, doğru esere ve doğru yıla bağlanmış.
+
+Denetimde **üç önemli olgu hatası** bulundu ve düzeltildi:
+1. John'un terk edildiği sahne yanlış göreve bağlanmıştı.
+2. "Hepimiz çürüdük" tepkisi teşhis sonrasına taşınmıştı.
+3. Özet, Arthur'un ölüm biçiminin onura bağlı olduğunu görmezden geliyordu.
+
+Bunlara ek olarak bir alıntı fazla yüksek etiketlenmişti ("I can't fight my own nature"). Birkaç yerde onura bağlılık işaretlenmemişti. Bir yerde de kaynaksız bir "eleştirmenler" genellemesi vardı.
+
+Bu hatalar raporun ana argümanlarını çürütmüyor. Ama okur, ⟨değişken⟩ işaretli sahnelerin (Edith, "Be loyal to what matters", Calderón) her oyuncunun deneyiminde bulunmadığını unutmamalıdır. Tek kaynağa (Red Dead Wiki) dayanan [B] repliklerine de bu gözle bakmalıdır.

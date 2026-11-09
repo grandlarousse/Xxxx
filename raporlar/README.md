@@ -48,3 +48,12 @@ Klasör: `2026-11-05_jung_kitaplari/` (giriş için klasördeki `README.md`)
 
 - `ajan_ciktilari/`: Alt ajanların çıktıları. 50 kitap raporu (her birinde yazar–hakem tartışma eki), 12 küme sentezi, envanter denetimi, üç bakışlı tartışma ve "Ajanların Ortak Raporu".
 - `ana_ajan_analizi/`: Ana ajanın ayrı analizi. Ajan bulgularının denetimi ve güven haritası, külliyat haritası ve 50 eserlik tablo, tartışmanın hakemliği ve Türkçe okuma yolları, düzeltmeler ve açık sorular.
+
+---
+
+# Arthur Morgan: kimlik, psikolojik altyapı, arketipler ve temalar (09.11.2026)
+
+Klasör: `2026-11-09_arthur_morgan/` (giriş için klasördeki `README.md`)
+
+- `ana_ajan_analizi/ARTHUR_MORGAN_SENTEZ.md`: Sentez. Arthur Morgan kimdir, psikolojik altyapısı, arketipleri, temaları, eleştirel karşı-okuma ve "bize ne anlatır".
+- `ajan_ciktilari/`: Hakem denetimli olgu dosyası ve dört mercek raporu (psikoloji, arketip, tema, eleştiri). Arketip raporu depodaki Jung raporlarına atıf yapar. Eleştiri raporu hakem denetiminden geçmedi.
