@@ -57,3 +57,14 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# Gençliğin geçişi ve İstanbul vedası: on bir bakış (10.11.2026)
+
+Klasör: `2026-11-10_genclik_ve_veda/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, beş somut hamle, on bir bakış (duygu bilimi, Kant ve Jankélévitch, geçmişin statüsü, pişmanlık, çağ eleştirisi, gelişim psikolojisi ve Jung, şehir, eve dönüş, eşik ve tören, gelenekler, önceden yas), çatışmalar ve öngörü tablosu, doğrulama kapsamı, kaynaklar.
+- `ek/1`–`ek/9`: Dokuz araştırma ajanının özetleri ve iddia defterleri.
+- `ek/dogrulama_1`–`3`: Raporun dayandığı 58 iddianın kaynak kontrolü.
+- `ek/elestiri.md`: Eleştirmenin taslağa itirazları.
