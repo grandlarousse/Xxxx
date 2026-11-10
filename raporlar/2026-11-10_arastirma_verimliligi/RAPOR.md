@@ -53,7 +53,7 @@ Kota payı, şu anki planın haftalık ~2.200 $'ına göre hesaplandı (2 Kasım
 - **Model.** Opus 3.347 $, Fable 273 $, Sonnet 68 $, Haiku 70 $. Kayıtlardaki birim fiyatlara göre Sonnet, Opus'un yarısı; Haiku kırkta biri.
 - **Alt ajanlar.** 13 günde 987 alt ajan. Ana ajanın kendi döngüsü harcamanın yalnızca %8'i.
 - **Doğrulama katmanı.** Ajanların %46'sı doğrulayıcı, hakem, çürütücü ya da düzeltici. Çoğu işte üretici başına bir, bazılarında iki-üç.
-- **Araç döngüsü.** Ajan başına araç çağrısı medyanı 36, üst çeyrek 73; iş akışlarının onda birinde 100'ün üstünde. Bir iş akışında ajanlara “15–25 arama” denmiş, ortalama 95 çağrı yapmışlar. Ajan başına maliyet 0,9 $ ile 10 $ arasında değişiyor ve çağrı sayısıyla birlikte artıyor.
+- **Araç döngüsü.** Ajan başına araç çağrısı medyanı 36, üst çeyrek 73; iş akışlarının onda birinde 100'ün üstünde. Bir iş akışında ajanlara “15–25 arama” denmiş, ortalama 95 çağrı yapmışlar (bu sayıya dosya okuma ve yazma da dahil). Ajan başına maliyet 0,9 $ ile 10 $ arasında değişiyor ve çağrı sayısıyla birlikte artıyor.
 - **Bağlam.** Harcamanın üçte biri yazılan metin, üçte ikisi bağlam: araç sonuçlarının yazılması ve her çağrıda yeniden okunması.
 - **Belirsiz ekonomi sözleri işe yaramadı.** “Rasyonel ol, f/p” denen Jung 214 $, “idareli kullan” denen psikoloji özetleri 133 $ tuttu. “Eko yap, kotam az” denen havacılık işi 6 $ tuttu ve sunulamaz çıktı.
 
@@ -70,7 +70,7 @@ Kota payı, şu anki planın haftalık ~2.200 $'ına göre hesaplandı (2 Kasım
 | Seviye | Alt ajan | Tahmini maliyet | Haftalık kota payı |
 |---|---|---|---|
 | S | 0–2 | 1–3 $ | ~%0,1 |
-| M | 4–9 | 10–20 $ | ~%0,5–1 |
+| M | 4–9 | 10–25 $ | ~%0,5–1 |
 | L | en çok 24 | 35–60 $ | ~%2–3 |
 
 Tahmin, kayıtlardaki ajan başı maliyetten türetildi: 20 çağrı civarında kalan bir Opus ajanı 1,2–2 $ tutmuş, Sonnet bunun yarısı; üstüne ana ajanın 3–20 $'lık kendi döngüsü.
@@ -116,7 +116,7 @@ Araştırma kuralları: Kalite düşmeyecek, token israfı olmayacak.
    M = 3–6 üretici + 1–3 doğrulayıcı. L = en çok 18 üretici + 6 doğrulayıcı, öğeleri 3–5'li grupla.
 2) Her alt ajana model yaz: veri indirme ve biçim işi haiku; araştırma, yazım, kod ve
    kaynak kontrolü sonnet; yöntem denetimi ve eleştirmen opus. Sentezi sen yap.
-3) Her alt ajana dar soru, kendi hipotezlerin ve aday kaynaklar, en fazla 20 araç çağrısı.
+3) Her alt ajana dar soru, kendi hipotezlerin ve aday kaynaklar, en fazla 30 araç çağrısı.
    Dönüş: 400 kelime özet + iddia defteri (iddia | URL | kısa alıntı ya da sayı | güven).
 4) Doğrulama: sonucun dayandığı ve şaşırtıcı iddialar tam, kalanı örneklemle.
    Rapordaki her sayı, tarih ve alıntı bir defter satırına dayansın. Tartışma = tek eleştirmen turu.
