@@ -1,2 +1,4 @@
-pred,tgt,n,yilda,brut,net_dusuk,t_dusuk,isabet_dusuk,net_bireysel,t_bireysel,isabet_bireysel,net_r1920,n_r1920,net_r2123,n_r2123,net_r2426,n_r2426,net_en_iyi2pct_haric,net_long,n_long,net_short,n_short,plasebo_p,taban_long_k2
-eGDXJ,A3,334,42.3,41.848,32.102,1.339,0.542,13.028,0.544,0.518,-0.906,46,-6.703,136,34.898,152,-16.801,38.46,163,-11.215,171,0.036,7.013
+pred,tgt,k,n,yilda,brut,net_dusuk,t_dusuk,isabet_dusuk,net_bireysel,t_bireysel,isabet_bireysel,net_r1920,n_r1920,net_r2123,n_r2123,net_r2426,n_r2426,net_en_iyi2pct_haric,net_long,n_long,net_short,n_short,plasebo_p,taban_long
+eGDXJ,A3,1,430,54.458,29.787,19.992,1.304,0.495,0.805,0.052,0.458,-15.32,60,2.899,172,3.872,198,-22.428,28.917,199,-23.413,231,0.024,3.562
+eGDXJ,A3,2,334,42.3,41.848,32.102,1.339,0.542,13.028,0.544,0.518,-0.906,46,-6.703,136,34.898,152,-16.801,38.46,163,-11.215,171,0.036,7.013
+eGDXJ,A3,3,270,34.195,75.904,66.141,2.064,0.519,47.028,1.468,0.5,17.387,35,77.284,114,27.097,121,12.419,82.293,134,12.282,136,0.018,10.258

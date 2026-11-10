@@ -185,13 +185,13 @@ L(A.pivot_table(index=['fam', 'pred'], columns=['tgt', 'k'], values='t_t1', aggf
 # ---- islem kurali (gecenler)
 dates = idx; yrs = (pd.Timestamp('2026-11-09') - pd.Timestamp('2018-12-17')).days / 365.25
 COST = {'A1': (8, 23), 'A3': (8, 23), 'B1': (3, 10)}
-def engine(sig_dir, y, cost_extra, tgt, lo_hi):
+def engine(sig_dir, y, cost_extra, tgt, lo_hi, kk=2):
     ci = lo_hi
     c0 = COST[tgt][ci]
     take = []; i = 0
     while i < N:
         if sig_dir[i] != 0 and np.isfinite(y[i]) and elig[tgt][i]:
-            take.append(i); i += 2
+            take.append(i); i += kk
         else: i += 1
     take = np.array(take, int)
     if len(take) == 0: return take, np.array([]), np.array([])
@@ -212,30 +212,30 @@ for _, pr in passers.iterrows():
     xv = X[pname].values
     dsg = np.sign(pr.coef)
     sd = np.where(np.abs(xv) > 1, np.sign(xv) * dsg, 0.0); sd[~np.isfinite(xv)] = 0
-    y = Y[(pr.tgt, 2)].values
-    ce = np.abs(bT.values) if pr.tgt == 'A3' else None
-    res = {'pred': pr.pred, 'tgt': pr.tgt}
-    for ci, nm in ((0, 'dusuk'), (1, 'bireysel')):
-        take, gr, net = engine(sd, y, ce, pr.tgt, ci)
-        res[f'n'] = len(take); res['yilda'] = len(take) / yrs
-        res[f'brut'] = gr.mean(); res[f'net_{nm}'] = net.mean(); res[f't_{nm}'] = tstat(net); res[f'isabet_{nm}'] = (net > 0).mean()
-        if ci == 1:
-            dd_ = dates[take]
-            for nmr, a_, b_ in (('r1920', '2019', '2020'), ('r2123', '2021', '2023'), ('r2426', '2024', '2026')):
-                m = (dd_ >= a_ + '-01-01') & (dd_ <= b_ + '-12-31'); res['net_' + nmr] = net[m].mean() if m.sum() else np.nan; res['n_' + nmr] = int(m.sum())
-            cut = int(np.ceil(0.02 * len(net))); res['net_en_iyi2pct_haric'] = np.sort(net)[:-cut].mean()
-            s_ = sd[take]; res['net_long'] = net[s_ > 0].mean(); res['n_long'] = int((s_ > 0).sum()); res['net_short'] = net[s_ < 0].mean(); res['n_short'] = int((s_ < 0).sum())
-            obs = net.mean(); cnt = 0; shifts = rng.integers(20, N - 20, 500)
-            for s in shifts:
-                _, _, n2 = engine(np.roll(sd, s), y, ce, pr.tgt, 1)
-                if len(n2) and n2.mean() >= obs: cnt += 1
-            res['plasebo_p'] = (cnt + 1) / 501
-    # kosulsuz taban (her zaman long, k=2):
-    ok = elig[pr.tgt] & np.isfinite(y); res['taban_long_k2'] = np.nanmean(y[ok])
-    strat.append(res)
+    for kk in (1, 2, 3):
+        y = Y[(pr.tgt, kk)].values
+        ce = np.abs(bT.values) if pr.tgt == 'A3' else None
+        res = {'pred': pr.pred, 'tgt': pr.tgt, 'k': kk}
+        for ci, nm in ((0, 'dusuk'), (1, 'bireysel')):
+            take, gr, net = engine(sd, y, ce, pr.tgt, ci, kk)
+            res['n'] = len(take); res['yilda'] = len(take) / yrs
+            res['brut'] = gr.mean(); res['net_' + nm] = net.mean(); res['t_' + nm] = tstat(net); res['isabet_' + nm] = (net > 0).mean()
+            if ci == 1:
+                dd_ = dates[take]
+                for nmr, a_, b_ in (('r1920', '2019', '2020'), ('r2123', '2021', '2023'), ('r2426', '2024', '2026')):
+                    m = (dd_ >= a_ + '-01-01') & (dd_ <= b_ + '-12-31'); res['net_' + nmr] = net[m].mean() if m.sum() else np.nan; res['n_' + nmr] = int(m.sum())
+                cut = int(np.ceil(0.02 * len(net))); res['net_en_iyi2pct_haric'] = np.sort(net)[:-cut].mean()
+                s_ = sd[take]; res['net_long'] = net[s_ > 0].mean(); res['n_long'] = int((s_ > 0).sum()); res['net_short'] = net[s_ < 0].mean(); res['n_short'] = int((s_ < 0).sum())
+                obs = net.mean(); cnt = 0; shifts = rng.integers(20, N - 20, 500)
+                for s in shifts:
+                    _, _, n2 = engine(np.roll(sd, s), y, ce, pr.tgt, 1, kk)
+                    if len(n2) and n2.mean() >= obs: cnt += 1
+                res['plasebo_p'] = (cnt + 1) / 501
+        ok = elig[pr.tgt] & np.isfinite(y); res['taban_long'] = np.nanmean(y[ok])
+        strat.append(res)
 S = pd.DataFrame(strat)
 S.round(3).to_csv(OUT + '/islem_kurali.csv', index=False)
-L('ISLEM KURALI (k=2, |z|>1, orttusmesiz)'); L(S.round(2).to_string() if len(S) else 'gecen yok')
+L('ISLEM KURALI (k=1,2,3, |z|>1, orttusmesiz)'); L(S.round(2).to_string() if len(S) else 'gecen yok')
 L('KOSULSUZ TABAN (her zaman long, ort bps; tum/19-20/21-23/24-26):')
 for tgt in ('A1', 'A3', 'B1'):
     for k in (1, 2, 3):
@@ -243,3 +243,7 @@ for tgt in ('A1', 'A3', 'B1'):
         parts = [np.nanmean(y[ok])] + [np.nanmean(y[ok & (idx >= a) & (idx <= b)]) for a, b in (('2019', '2020-12-31'), ('2021', '2023-12-31'), ('2024', '2026-12-31'))]
         L(tgt, k, int(ok.sum()), np.round(parts, 1))
 L('ornek n', int((idx >= '2018-12-17').sum()), 'gz dolu', int(X['gz'][idx >= '2018-12-17'].notna().sum()))
+
+L('GECENLERIN DONEM t-degerleri:')
+for _, pr in D[D.karar == 'gecti'].iterrows():
+    L(T[(T.pred == pr.pred) & (T.tgt == pr.tgt) & (T.k == pr.k)][['period', 'n', 'coef', 't']].round(2).to_string())
