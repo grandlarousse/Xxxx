@@ -1,0 +1,364 @@
+{
+ "A": {
+  "arac": "17/20",
+  "satirlar": [
+   {
+    "no": "A1",
+    "karar": "düzeltildi",
+    "duzeltme": "Wikipedia yalnızca 'çoğunlukla pentatonik ve çoksesli' diyor. 'Yarım ses içermeyen' ve 'Yunanistan'ın geri kalanından ayıran özellik' ifadeleri görülmedi. Songlines: mirologi pentatonik, ama köy şenliği müziğinde yedi sesli skari de var. Rapora 'çoğunlukla pentatonik' olarak yazılmalı.",
+    "kaynak": "https://en.wikipedia.org/wiki/Music_of_Epirus",
+    "alinti": "mostly pentatonic and polyphonic"
+   },
+   {
+    "no": "A2",
+    "karar": "doğru",
+    "duzeltme": "",
+    "kaynak": "https://en.wikipedia.org/wiki/Polyphonic_song_of_Epirus",
+    "alinti": "Taker (partis): is the voice that sings the main melody. Isokrates: one who holds the ison, the note that holds on the whole length of a song."
+   },
+   {
+    "no": "A3",
+    "karar": "doğru",
+    "duzeltme": "'Başyapıt' sözcüğü sayfada geçmiyor ama 'proclaimed 2005' yazıyor.",
+    "kaynak": "https://ich.unesco.org/en/RL/albanian-folk-iso-polyphony-00155",
+    "alinti": "originally proclaimed in 2005 (Temsili Liste'ye yazım: 2008)"
+   },
+   {
+    "no": "A4",
+    "karar": "doğru",
+    "duzeltme": "",
+    "kaynak": "https://en.wikipedia.org/wiki/Polyphonic_song_of_Epirus",
+    "alinti": "was inscribed in the UNESCO Intangible Cultural Heritage List of Good Safeguarding Practices in 2020."
+   },
+   {
+    "no": "A5",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "Önerilen PDF okunamadı. Arama özetinde Halkias arşivi 'yaklaşık 1830–1835' diyor, ama başka kaynaklar 1830 ya da 19. yüzyıl başı veriyor; tarih tartışmalı. Roman rolü yalnızca bir arama özetinde (Marinis, 'The Clarinet in Greece': Tourkogiftoi/Tourkalvanoi) geçiyor, sayfa görülmedi. Wikipedia sayfasında tarih ve Roman rolü yok.",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "A6",
+    "karar": "desteklenmedi",
+    "duzeltme": "Şenliğin ağıtla açıldığı hiçbir kaynakta görülmedi. Yalnızca bir albümün açılış parçasının doğaçlama miroloi olduğu ve Epir'de ağıtların çalgıyla çalındığı yazılı.",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "A7",
+    "karar": "doğru",
+    "duzeltme": "",
+    "kaynak": "https://kirkusreviews.com/book-reviews/christopher-c-king/lament-from-epirus",
+    "alinti": "preeminent purpose ... therapeutic and curative to the individual and the village; music 'was a tool for survival' (Norton, 29 Mayıs 2018)"
+   },
+   {
+    "no": "A8",
+    "karar": "doğru",
+    "duzeltme": "Harisiadis 1929–31 Atina kayıtları (Songlines özeti) ve Zoumbas 'Epirotiko Mirologi' 20 Eylül 1926 görüldü (arama özeti). 'New York' yeri doğrudan görülmedi.",
+    "kaynak": "https://songlines.co.uk/review/lament-in-a-deep-style",
+    "alinti": "recorded 24 tracks in Athens between 1929 and 1931 (arama özeti); Zoumbas recorded Epirotiko Mirologi on September 20, 1926"
+   },
+   {
+    "no": "A9",
+    "karar": "düzeltildi",
+    "duzeltme": "Wikipedia dansları 'ağır ve vakur' diye tanımlıyor, repertuvarı ise 'rahat, yumuşak, çok güzel'. 'Hüzünlü/ağıt gibi' diyen bağımsız kaynak bulunamadı. Rapora yalnızca 'ağır, vakur' yazılmalı.",
+    "kaynak": "https://en.wikipedia.org/wiki/Music_of_Epirus",
+    "alinti": "slow and stately"
+   },
+   {
+    "no": "A10",
+    "karar": "doğru",
+    "duzeltme": "Kayıt başlığı, 1973, 'Ηπειρώτικος Γάμος' koleksiyonu ve Thesprotia-Konitsa dansı arama özetinde görüldü; sayfa kendisi açılmadı. Columbia/EMI görülmedi.",
+    "kaynak": "https://digital.mmb.org.gr/digma/handle/123456789/40575",
+    "alinti": "Εκκλησία μου κουκλωτή = The \"doll\" chapel (1973, Ηπειρώτικος Γάμος)"
+   },
+   {
+    "no": "A11",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "Yazılı bir sözlere ulaşılamadı; düğünün hangi anında söylendiği de görülmedi. Ioannina Üniversitesi 'düğün şarkılarının töresel işlevi' makalesi (olympias.lib.uoi.gr, kayıt 6140) olası kaynak.",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "A12",
+    "karar": "doğru",
+    "duzeltme": "Doğrudan Alexiou metni görülmedi. Alexiou'nun içindekiler listesi evden ayrılış ve evlilik ağıtlarını ayrı bölümde veriyor; 'The Tragic Wedding' (JHS) gelin ile ölü arasındaki ortak ritüel yapıyı ve Alexiou s.120–22'yi anıyor. İmge örneği klasik dönemden; kesin sağlamlık için kitabın kendisi gerek.",
+    "kaynak": "https://core-cms.cambridgecore.org/core/journals/journal-of-hellenic-studies/article/tragic-wedding/37AD3368130C448C7EB54C83707B401D",
+    "alinti": "washed, anointed, and given special garments and a special torch in order to be conveyed on an irreversible, torchlit journey (arama özeti)"
+   },
+   {
+    "no": "A13",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "Alexiou'nun xenitia ağıtlarını ölü ağıtlarıyla aynı kümede ele aldığı görülmedi. Yalnızca 'ayrılık, din değiştirme, evlilik' ağıtları bölümü ve Songlines'ta 'ölüm ya da sürgün ağıtları' ifadesi görüldü.",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "A14",
+    "karar": "doğru",
+    "duzeltme": "Kesin tarih: 21 Şubat 1913 (Bizani Muharebesi sonrası).",
+    "kaynak": "https://en.wikipedia.org/wiki/Ioannina",
+    "alinti": "Ioannina surrendered to the Ottomans in 1430; incorporated into Greece on 21 February 1913."
+   },
+   {
+    "no": "A15",
+    "karar": "doğru",
+    "duzeltme": "Rakamlar şehir tek başına değil, 'şehir ve çevresi'; Yanya sancağının merkez kazası.",
+    "kaynak": "https://en.wikipedia.org/wiki/Ioannina",
+    "alinti": "77,258 Greek Orthodox, 4,759 Muslims, and 3,334 Jews (city and its environs)"
+   },
+   {
+    "no": "A16",
+    "karar": "doğru",
+    "duzeltme": "",
+    "kaynak": "https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey",
+    "alinti": "signed at Lausanne on 30 January 1923; religion used as criterion"
+   },
+   {
+    "no": "A17",
+    "karar": "düzeltildi",
+    "duzeltme": "Muafiyet 1923 sözleşmesinde değil, 1925'te İtalyan ve Arnavut baskısıyla verildi; Müslüman Çamlar Arnavut kökenlerini kanıtlamak zorundaydı. Milletler Cemiyeti 2.993 kişinin yine de Türkiye'ye gittiğini tahmin ediyor (kendilerini Türk beyan ederek); Pallis muaf sayısını yalnızca 1.700 veriyor. 1944–45'te çoğu Arnavutluk'a kaçtı ya da sürüldü.",
+    "kaynak": "https://en.wikipedia.org/wiki/Cham_Albanians",
+    "alinti": "the compulsory exchange shall not be applicable to the Moslem subjects of Albanian origin"
+   },
+   {
+    "no": "A18",
+    "karar": "düzeltildi",
+    "duzeltme": "Tarihler doğru (28 Şubat 1914 Gjirokastër; Korfu Protokolü 17 Mayıs 1914). Bayrak: Yunan bayrağının bir çeşidi, mavi zeminde beyaz haç ve haçın üstünde siyah Bizans kartalı; 'çift başlı' sözcüğü özette yok, doğrulanmadı.",
+    "kaynak": "https://en.wikipedia.org/wiki/Autonomous_Republic_of_Northern_Epirus",
+    "alinti": "white cross on a blue field and a black Byzantine eagle above the cross"
+   },
+   {
+    "no": "A19",
+    "karar": "düzeltildi",
+    "duzeltme": "Sayfa 'Aromanlar' diyor ve dördüncü grup olarak etnik Makedonları da sayıyor; 'ortaktır' yerine 'bu gruplar arasında icra edilir' denmeli. Sınırın iki yanında milliyetçi biçimde kullanımı doğrulandı.",
+    "kaynak": "https://en.wikipedia.org/wiki/Polyphonic_song_of_Epirus",
+    "alinti": "practiced among Albanians, Aromanians, Greeks and ethnic Macedonians ... contested and used by both sides ... in a nationalistic manner."
+   },
+   {
+    "no": "A20",
+    "karar": "doğru",
+    "duzeltme": "Bir Türkçe makale çalışmanın 1934'te hazırlanıp 1936'da basıldığını söylüyor; 1936 yayın yılı.",
+    "kaynak": "https://quaibranly.fr/en/explore-collections/base/Bibliography/action/show/notice/000075771-tuerk-halk-musikisinde-pentatonism",
+    "alinti": "Saygun Ahmed Adnan; Istanbul Nümune Matbaasi; 1936 (arama özeti); Bartók 1936'da Ankara Halkevi davetiyle geldi"
+   },
+   {
+    "no": "A21",
+    "karar": "doğru",
+    "duzeltme": "Künye doğrulandı. Konu: göçle ilgili müzik, acı ve özlemin yaratıcılığı. Çoksesli şarkı vurgusu özette açıkça görülmedi.",
+    "kaynak": "https://libcat.library.tamu.edu/Record/in00003711728",
+    "alinti": "Ashgate, 2015, xviii + 248 s.; pain and longing as source for cultural creativity (arama özeti)"
+   }
+  ],
+  "notlar": "Ana düzeltmeler: A1 (yalnızca 'çoğunlukla pentatonik'; 'anhemitonik' ve 'ayırt edici' görülmedi, yedi sesli skari de var), A6 desteklenmedi (şenlik ağıtla açılır iddiası hiçbir yerde yok), A9 (dans 'ağır, vakur'; 'hüzünlü' desteksiz), A17 (muafiyet 1925'te; 2.993 ve 1.700 tahminleri), A18 (kartal 'çift başlı' doğrulanmadı), A19 (Makedonlar da sayılıyor). A5 ve A11, A13 kontrol edilemedi. Ek kaynaklar: Kirkus (King), Songlines 'Lament in a Deep Style' incelemesi, Marinis 'The Clarinet in Greece' (clarinet.org PDF, okunmadı), Ioannina Üniversitesi düğün şarkıları makalesi. Not: WebFetch özetleri küçük bir model üretti; A3 ve A10'da sayfa özeti ya da arama özetine dayanıldı."
+ },
+ "B": {
+  "arac": "18/20",
+  "satirlar": [
+   {
+    "no": "B1",
+    "karar": "doğru",
+    "duzeltme": "",
+    "kaynak": "https://pubmed.ncbi.nlm.nih.gov/29715721/",
+    "alinti": "Cognition and Emotion 17(2), 297–314; two core appraisals: perceived vastness and a need for accommodation (secondary summary; full text not seen)"
+   },
+   {
+    "no": "B2",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B3",
+    "karar": "doğru",
+    "duzeltme": "Özet düzeyinde doğru: kaudat beklenti, akumbens doruk. Not: ikincil kaynaklar PET/raclopride ile fMRI'yı ayırıyor; DOI 10.1038/nn.2726. Makalenin kendisi görülmedi.",
+    "kaynak": "https://brams.org/2011/01/09/salimpoor/",
+    "alinti": "caudate was more involved during anticipation, while the nucleus accumbens was more involved during the peak experience (arama özeti)"
+   },
+   {
+    "no": "B4",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B5",
+    "karar": "doğru",
+    "duzeltme": "",
+    "kaynak": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4456364",
+    "alinti": "Most scenarios can be assigned to significant relationship and critical life events (especially death, birth, marriage, separation, and reunion)"
+   },
+   {
+    "no": "B6",
+    "karar": "doğru",
+    "duzeltme": "",
+    "kaynak": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5359245",
+    "alinti": "The pleasure evoked by sad music is mediated by feelings of being moved (Frontiers in Psychology 8:439)"
+   },
+   {
+    "no": "B7",
+    "karar": "doğru",
+    "duzeltme": "",
+    "kaynak": "https://research.tilburguniversity.edu/en/publications/kama-muta-conceptualizing-and-measuring-the-experience-often-labe/",
+    "alinti": "sudden intensification of communal sharing; 19 nations, 15 languages, Emotion 19(3) 402–424 (arama özeti)"
+   },
+   {
+    "no": "B8",
+    "karar": "doğru",
+    "duzeltme": "Dergi cilt/yıl: 17(2), 2023; çevrimiçi 2021 uyumlu.",
+    "kaynak": "https://durham-repository.worktribe.com/output/1234625",
+    "alinti": "Vigilance conditions elicited higher ratings of awe, and social conditions elicited higher ratings of being moved."
+   },
+   {
+    "no": "B9",
+    "karar": "doğru",
+    "duzeltme": "Eerola 2021 (Ann NY Acad Sci, n=62 kadın) prolaktin düşüşü buldu, Huron hipotezine ters. Huron'un editöre mektubunda kendi hipotezinin yanlış olduğunu yazdığı arama özetinde var ama mektubun kendisi ve tarihi/dergisi görülmedi. Eerola çalışması ürperti ölçmedi (görülmedi).",
+    "kaynak": "https://jyx.jyu.fi/handle/123456789/77189",
+    "alinti": "the Prolactin Theory of sad-music enjoyment is wrong (Huron letter, arama özetinde alıntılanmış)"
+   },
+   {
+    "no": "B10",
+    "karar": "doğru",
+    "duzeltme": "Panksepp: hüzünlü müzik daha çok ürperti (ikincil kaynak, s.194). Zayıf destek: Kemp'in Durham tezi hipotezi sorgular (tarih kaynakta '2025', teze doğrudan bakılmadı).",
+    "kaynak": "https://etheses.durham.ac.uk/id/eprint/15886/",
+    "alinti": "SCRUTINISING PANKSEPP’S (1995) SEPARATION CALL HYPOTHESIS OF PILOERECTION AND CHILLS: AN EMPIRICAL STUDY"
+   },
+   {
+    "no": "B11",
+    "karar": "düzeltildi",
+    "duzeltme": "Makale Nusbaum & Silvia, 'Shivers and Timbres', Soc Psychol Pers Sci 2(2); bazı kaynaklarda 2010 (çevrimiçi), cilt yılı 2011. Açıklık ve %8 doğru ama örneklem öğrenci örneklemi; 'en güçlü yordayıcı' yerine bulgu, Big Five içinde yalnızca açıklığın ürpertiyle ilişkili olmasıdır.",
+    "kaynak": "https://www.sciencedaily.com/releases/2010/12/101207191525.htm",
+    "alinti": "only openness to experience was related to feeling chills; around 8% of people in our study never experienced chills"
+   },
+   {
+    "no": "B12",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B13",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B14",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B15",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B16",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B17",
+    "karar": "doğru",
+    "duzeltme": "Britannica 'mysterium tremendum' ifadesini aktarıyor; 'et fascinans' tam formülü Britannica sayfasında görülmedi, fascinans yönü başka kaynaklarda (Kenyon, NWE) var.",
+    "kaynak": "https://www.britannica.com/biography/Rudolf-Otto",
+    "alinti": "Das Heilige (1917); 'there is only one appropriate expression, mysterium tremendum' (arama özeti)"
+   },
+   {
+    "no": "B18",
+    "karar": "doğru",
+    "duzeltme": "Birebir 'dynamic agency or effect not caused by an arbitrary act of will' cümlesi bir kaynak sayfasında doğrudan görülmedi; Jung'un numinosumu Otto'dan aldığı ve iradeden bağımsız deneyim olarak tanımladığı görüldü. Cümleyi 'doğrulanmadı' diye etiketlemek güvenli.",
+    "kaynak": "https://jungiancenter.org/jung-and-the-numinosum/",
+    "alinti": "numinosum is an experience of the subject independent of his will (arama özeti)"
+   },
+   {
+    "no": "B19",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "İkincil kaynak: 'Mystical states, when well developed, usually are, and have the right to be, absolutely authoritative over the individuals to whom they come' (arama özetindeki alıntı); dışarıdakiler için yetke taşımadığı fikri özetlerde var. Gutenberg tam metin görülmedi (dosya 1,1 MB, ilk 100 bin karakter Ders III'te bitti). Dört işaret görülmedi.",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B20",
+    "karar": "doğru",
+    "duzeltme": "Ayet Mü'minûn 23/1-2 aralığı olarak aktarılıyor. Madde ayrıca çoğu fakihin huşûyu namazın şartı değil kemali saydığını yazıyor. 'Kalp, beden ya da ikisi' ifadesi birebir görülmedi; maddede kökü kalpte, belirtisi bedende.",
+    "kaynak": "https://islamansiklopedisi.org.tr/husu",
+    "alinti": "Gerçekten namazlarında huşû içinde olan müminler kurtuluşa ermiştir (el-Mü’minûn 23/1-2)"
+   },
+   {
+    "no": "B21",
+    "karar": "doğru",
+    "duzeltme": "Kitap Johns çevirisinde İhyâ XVIII; 'Kitap 8' etiketi tutarsız. TDV 'semâ' maddesi görülmedi, ikincil kaynaklardan doğrulandı.",
+    "kaynak": "https://eprints.walisongo.ac.id/id/eprint/27239",
+    "alinti": "human hearts are full of secrets. What is good or defective within them is activated by listening to music."
+   },
+   {
+    "no": "B22",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B23",
+    "karar": "doğru",
+    "duzeltme": "SEP sayfası görülmedi; §52 ve alıntı ikincil yorumlarda var.",
+    "kaynak": "https://that-which.com/?p=1118",
+    "alinti": "music is by no means like the other arts, namely a copy of the Ideas, but a copy of the will itself"
+   },
+   {
+    "no": "B24",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B25",
+    "karar": "doğru",
+    "duzeltme": "Springer makalesinin özeti üzerinden; Rosa'nın kendi metni görülmedi.",
+    "kaynak": "https://link.springer.com/article/10.1007/s10767-019-9313-6",
+    "alinti": "resonance cannot be brought about at will or in a purely instrumental fashion; a moment of constitutive unavailability [Unverfügbarkeit]"
+   },
+   {
+    "no": "B26",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B27",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B28",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   },
+   {
+    "no": "B29",
+    "karar": "kontrol edilemedi",
+    "duzeltme": "",
+    "kaynak": "",
+    "alinti": "kaynak görülmedi"
+   }
+  ],
+  "notlar": "Araç kullanımı: 17 çağrı + 1 ToolSearch. Çoğu kontrol arama özeti üzerinden; birincil metinler (Keltner-Haidt, Salimpoor, Jung, James, Rosa) doğrudan görülmedi, bu yüzden birebir alıntılar özet içi. Önemli düzeltmeler: B11 yıl 2010 çevrimiçi / 2011 cilt, bulgu \"yalnızca açıklık ilişkili\"; B18 Jung'un tam cümlesi doğrulanamadı; B19 James'in yetke cümlesinin ilk yarısı ikincil kaynakta var, ikinci yarı ve dört işaret görülmedi. B9: Huron'un kendi mektubuyla hipotezi reddettiği yönünde kanıt var (Eerola 2021 + Huron mektubu özeti), ancak mektubun künyesi bulunmadı; Eerola çalışması ürperti ölçmedi. B10 için zayıf destek kaynağı: Kemp Durham tezi (etheses.durham.ac.uk/id/eprint/15886). Bütçe nedeniyle B2, B4, B12-B16, B22, B24, B26-B29 bakılmadı."
+ }
+}
