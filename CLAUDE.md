@@ -16,7 +16,7 @@ Ajan başlatmadan önce işi bir seviyeye yerleştir ve ilk mesajında tek satı
 | Seviye | Ne zaman | Alt ajan (hepsi dahil) | Ajan başına araç çağrısı |
 |---|---|---|---|
 | **S** | Tek soru, tek alan: tanım, olgu, açıklama, yorum. Tasarım ve içerik işleri (harita, logo, gönderi metni) | 0; gerekirse 1–2 yardımcı | ana ajan ≤ 20, yardımcı ≤ 15 |
-| **M** | Çok yönlü araştırma, karşılaştırma, strateji, veri gerektiren ya da sunulacak rapor | 3–6 üretici + 1–3 doğrulayıcı/eleştirmen | üretici ≤ 30, doğrulayıcı ≤ 20 |
+| **M** | Çok yönlü araştırma, karşılaştırma, strateji, veri gerektiren ya da sunulacak rapor | 3–6 üretici + 1–3 doğrulayıcı/eleştirmen | üretici ≤ 35, doğrulayıcı ≤ 20 |
 | **L** | Büyük külliyat, çok sayıda öğe (kitap, eyalet, hisse), veri ve backtest | toplam ≤ 18 üretici + ≤ 6 doğrulayıcı/eleştirmen; dalga başına ≤ 8 | üretici ≤ 35, doğrulayıcı ≤ 20, kod/veri ajanı ≤ 40 |
 
 - Seviyeyi işin türü belirler. Kullanıcı `Seviye: S`, `M` ya da `L` yazdıysa onu kullan.

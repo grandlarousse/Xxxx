@@ -116,7 +116,7 @@ Araştırma kuralları: Kalite düşmeyecek, token israfı olmayacak.
    M = 3–6 üretici + 1–3 doğrulayıcı. L = en çok 18 üretici + 6 doğrulayıcı, öğeleri 3–5'li grupla.
 2) Her alt ajana model yaz: veri indirme ve biçim işi haiku; araştırma, yazım, kod ve
    kaynak kontrolü sonnet; yöntem denetimi ve eleştirmen opus. Sentezi sen yap.
-3) Her alt ajana dar soru, kendi hipotezlerin ve aday kaynaklar, en fazla 30 araç çağrısı.
+3) Her alt ajana dar soru, kendi hipotezlerin ve aday kaynaklar, en fazla 35 araç çağrısı.
    Dönüş: 400 kelime özet + iddia defteri (iddia | URL | kısa alıntı ya da sayı | güven).
 4) Doğrulama: sonucun dayandığı ve şaşırtıcı iddialar tam, kalanı örneklemle.
    Rapordaki her sayı, tarih ve alıntı bir defter satırına dayansın. Tartışma = tek eleştirmen turu.
