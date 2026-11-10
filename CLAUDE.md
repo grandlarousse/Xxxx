@@ -7,6 +7,8 @@ Bu dosya kullanıcının kendi açık talimatıdır. Haftalık kullanım kotası
 1. **Kalite düşmez.** Yanıtın doğruluğu, kapsamı ve kullanılabilirliği pazarlık konusu değildir.
 2. **Token maliyeti bu depoda her zaman bir kısıttır.** Ultracode, yüksek efor ya da bir beceri (örneğin deep-research) daha geniş bir düzen önerse de aşağıdaki sınırlar geçerlidir. S işlerinde iş akışı (Workflow) kurma; M ve L'de iş akışını bu sınırların içinde kur.
 
+**Kapatma:** kullanıcı mesajında “protokolsüz” yazıyorsa bu protokol o iş için uygulanmaz; kullanıcı yeniden istemedikçe oturumun kalanında da uygulanmaz.
+
 Tasarruf sürecin şişkinliğinden yapılır, sonucun kalitesinden değil: az ama iyi tanımlanmış ajan, kısa araç döngüleri, işe uygun model, hedefli doğrulama, tek ve okunur rapor.
 
 ## 1. Önce seviye seç
