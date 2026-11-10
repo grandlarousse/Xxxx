@@ -1,0 +1,14 @@
+0 SPY 2.5
+40 UUP 7.9
+80 SILJ 13.2
+120 IYT 18.8
+160 BCI 24.5
+200 ASHR 29.5
+/home/user/Xxxx/raporlar/2026-11-07_midas_etf_1-3gun/kod/denetim_c0/d7_wild.py:43: RuntimeWarning: All-NaN slice encountered
+  med_obs = np.nanmedian(obs, 1); medN = np.nanmedian(nul, 1)
+D (wild, P=1000): gözlenen max medyan t 1.379; null max q50 1.633 q90 2.110 q95 2.306 q99 2.760; p_seçim=0.788
+  TLT L_UP h3 tek başına: null medyan t ort -0.080, p=0.0210
+  QQQ h3 tek p=0.047, SMH h3 tek p=0.011
+  t>2.5 sayısı gözlenen 139, null medyan 301, p=0.913; max t gözlenen 3.67, null q50 4.09, p=0.884
+  medyan t'lerin genel ortalaması: gözlenen -1.456, null -1.135
+bitti 39.7
