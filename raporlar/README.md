@@ -57,3 +57,15 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# TRALT ve ons altın vadelisi: panel ve strateji denetimi (10.11.2026)
+
+Klasör: `2026-11-10_altin_panel_denetimi/`
+
+- `RAPOR.md`: Panelin kusurları, paneldeki araçların 1–3 günlük öngörü testi (222 test), mevcut stratejinin beklenen kazancı (hedge'siz, bireysel maliyet), iyileştirme denemeleri, doğrulama kapsamı.
+- `ek/`: Yöntem şartnamesi, ajan çıktıları (sözleşme/vergi, literatür, taban oranları, panel testleri, strateji beklentisi), bağımsız yeniden hesap ve iddia defteri doğrulaması.
+- `kod/`, `hesap/`: Betikler ve sonuç tabloları (işlem listeleri dahil). Ham veri depoda yok; `kod/00_indir.py` ile yeniden iner.
+
+Yatırım tavsiyesi değildir.
