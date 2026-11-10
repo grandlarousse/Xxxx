@@ -57,3 +57,15 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# Aynı kapanışta giriş, 1–3 gün: bütün araştırmalardan net lead-lag listesi (10.11.2026)
+
+Klasör: `2026-11-10_leadlag_net_liste/`
+
+- `RAPOR.md`: Önceki altı çalışmanın ve bağımsız yeniden hesabın tek listesi. Gerçek parayla yapılabilecekler (QQQ, SMH), kâğıtta izlenecek BIST kuralları (rafineri → TUPRS, KBE → AKBNK, güçlü XU030 günü, RYGYO → RYSAS, SAHOL/AKBNK), listeden çıkanlar ve "bakma" tablosu.
+- `ek/E1…E5`: Önceki çalışmalardan çıkarım defterleri. `ek/V1`, `ek/C1`: doğrulama ve eleştiri notları.
+- `ek/yeniden_hesap/`: Yahoo günlük veriyle bağımsız yeniden hesap (K1, K2), faiz üstü getiri tablosu ve kod. İndirilen veri repoya eklenmedi; `kod/k1_indir.py` yeniden indirir.
+
+Yatırım tavsiyesi değildir.
