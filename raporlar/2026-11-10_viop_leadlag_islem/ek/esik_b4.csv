@@ -1,0 +1,9 @@
+kural;esik_z;esik_sade;gun_250;bugun_z
+K1_XU030_BAZ;1;"XU030 vadeli-spot (baz) farki bir gunde +-67 bps (std son 120 gun); bugun -6 bps";68;-0.09154
+K2_SAHOL_AKBNK;1.5;"SAHOL/AKBNK (beta ayarli) orani son 60 gun ortalamasindan +-%3.6; bugun ortalamadan %-3.3";62;-1.392
+K3_KOZA_Z3;1.5;"TRMET, TRALT/TRENJ ortalamasina gore 3 gunluk birikimli fark +-%5.1 (gunluk sapma std %1.96); bugun 3g toplam %-0.2";29;-0.04732
+K4_ABD_RAFINERI_TUPRS;1;"rafineri sepeti (VLO,MPC,PSX,PBF) S&P 500e gore bir ABD gununde +-%2.72; bugunku (t-1) deger %+4.21";84;1.554
+K5_ALTIN_TRALT;1;"VIOP altin (XAUUSD) uzlasma bir gunde +-%1.77; bugun %-1.70";71;-0.9604
+K6_FMG_BHP_EREGL;1;"FMG+BHP ortalamasi ASX200e gore +-%1.34; bugun %-0.79";71;-0.5939
+K7_USDTRY5G_THYAO_HAM_h3;1;"VIOP USDTRY 5 gunluk degisim +-%0.19 (HAM_h3); bugun %-0.20";97;-1.043
+K7_USDTRY5G_THYAO_DRIFT_DUZ_h3;1;"VIOP USDTRY 5 gunluk degisim +-%0.18 (DRIFT_DUZ_h3); bugun %-0.02";26;-0.1223
