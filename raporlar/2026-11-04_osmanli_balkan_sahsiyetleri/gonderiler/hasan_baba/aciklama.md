@@ -50,3 +50,16 @@ Haritada eksik olan kim var? Köyündeki türbeyi, tekkeyi yorumlara yaz, harita
 Kaynak: B. Kaya Yiğit ve A. Kayapınar, "Gazi Kırcaali Baba" (RumeliDE, 2018); Bulgarca Vikipedi köy maddeleri.
 
 #Kırcaali #Koşukavak #Mestanlı #Rodoplar #DoğuRodoplar #HasanBaba #YağmurBaba #AhadBaba #ElmalıBaba #Tekke #Türbe #Rumeli #BalkanTürkleri #BulgaristanTürkleri
+
+---
+
+# Köy fotoğrafları
+
+- `bastino_koy_1.jpg`: Baştino köyü ve camisi, 2011. Commons dosyası: "Bashtino 2011 PD 57.JPG".
+- `bastino_koy_2.jpg`: Köyün uzaktan görünümü, 2011. Commons dosyası: "Bashtino 2011 PD 32.JPG".
+
+Lisans: CC BY-SA 3.0. Paylaşırken şu satırı ekleyin: **Fotoğraf: Bin im Garten / Wikimedia Commons, CC BY-SA 3.0**
+
+Serinin tamamı (70'ten fazla fotoğraf): https://commons.wikimedia.org/wiki/Category:Bashtino,_Kardzhali_Province
+
+Tekkenin ya da mezar yerinin fotoğrafı bulunamadı.
