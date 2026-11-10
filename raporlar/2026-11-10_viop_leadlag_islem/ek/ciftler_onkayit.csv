@@ -1,28 +1,28 @@
 aile;hedef;oncu;isaret;zaman;mekanizma
 F1_GRUP;SAHOL;AKBNK.IS;1;YURTICI;Sabancı Holding NAV'ının en büyük kalemi Akbank
-F1_GRUP;SAHOL;AKBNK.IS+ENJSA.IS+CIMSA.IS+AKCNS.IS+KORDS.IS+BRISA.IS+AGESA.IS;1;YURTICI;Sabancı NAV sepeti
-F1_GRUP;AKBNK;SAHOL.IS;1;YURTICI;ters yön kontrolü (holding -> iştirak)
+F1_GRUP;SAHOL;AKBNK.IS+ENJSA.IS+CIMSA.IS+AKCNS.IS+KORDS.IS+BRISA.IS+AGESA.IS+AKGRT.IS;1;YURTICI;Sabancı NAV sepeti
+F1_KONTROL;AKBNK;SAHOL.IS;1;YURTICI;ters yön kontrolü (holding -> iştirak)
 F1_GRUP;KCHOL;TUPRS.IS+FROTO.IS+TOASO.IS+ARCLK.IS+YKBNK.IS+OTKAR.IS+TTRAK.IS+AYGAZ.IS;1;YURTICI;Koç NAV sepeti
 F1_GRUP;KCHOL;TUPRS.IS;1;YURTICI;Koç NAV en büyük kalem
 F1_GRUP;KCHOL;FROTO.IS;1;YURTICI;Koç NAV
 F1_GRUP;KCHOL;YKBNK.IS;1;YURTICI;Koç NAV
-F1_GRUP;TUPRS;KCHOL.IS;1;YURTICI;holding -> iştirak
-F1_GRUP;FROTO;KCHOL.IS;1;YURTICI;holding -> iştirak
-F1_GRUP;TOASO;KCHOL.IS;1;YURTICI;holding -> iştirak
-F1_GRUP;ARCLK;KCHOL.IS;1;YURTICI;holding -> iştirak
-F1_GRUP;YKBNK;KCHOL.IS;1;YURTICI;holding -> iştirak
+F1_KONTROL;TUPRS;KCHOL.IS;1;YURTICI;holding -> iştirak
+F1_KONTROL;FROTO;KCHOL.IS;1;YURTICI;holding -> iştirak
+F1_KONTROL;TOASO;KCHOL.IS;1;YURTICI;holding -> iştirak
+F1_KONTROL;ARCLK;KCHOL.IS;1;YURTICI;holding -> iştirak
+F1_KONTROL;YKBNK;KCHOL.IS;1;YURTICI;holding -> iştirak
 F1_GRUP;TRMET;TRALT.IS+TRENJ.IS;1;YURTICI;Koza grubu çapraz iştirak zinciri
 F1_GRUP;TRMET;TRALT.IS;1;YURTICI;Koza grubu
 F1_GRUP;TRALT;TRMET.IS;1;YURTICI;Koza grubu
-F1_GRUP;SISE;ISCTR.IS;1;YURTICI;İş Bankası Şişecam'ın ana ortağı
+F1_KONTROL;SISE;ISCTR.IS;1;YURTICI;İş Bankası Şişecam'ın ana ortağı
 F1_GRUP;ISCTR;SISE.IS;1;YURTICI;iştirak -> ana ortak
-F1_GRUP;TSKB;ISCTR.IS;1;YURTICI;İş Bankası TSKB'nin ana ortağı
-F1_GRUP;ENJSA;SAHOL.IS;1;YURTICI;holding -> iştirak
-F1_GRUP;CIMSA;SAHOL.IS;1;YURTICI;holding -> iştirak
+F1_KONTROL;TSKB;ISCTR.IS;1;YURTICI;İş Bankası TSKB'nin ana ortağı
+F1_KONTROL;ENJSA;SAHOL.IS;1;YURTICI;holding -> iştirak
+F1_KONTROL;CIMSA;SAHOL.IS;1;YURTICI;holding -> iştirak
 F1_GRUP;EREGL;ISDMR.IS;1;YURTICI;İsdemir Erdemir'in bağlı ortaklığı
 F1_GRUP;KRDMD;KRDMA.IS+KRDMB.IS;1;YURTICI;aynı şirketin pay grupları
 F1_GRUP;AEFES;CCOLA.IS;1;YURTICI;Anadolu Efes CCİ'nin ana ortağı
-F1_GRUP;TAVHL;THYAO.IS+PGSUS.IS;1;YURTICI;havalimanı trafiği havayollarına bağlı
+F2_SEKTOR;TAVHL;THYAO.IS+PGSUS.IS;1;YURTICI;havalimanı trafiği havayollarına bağlı
 F1_GRUP;VESTL;VESBE.IS;1;YURTICI;bağlı ortaklık (veri yoksa atla)
 F2_SEKTOR;AKBNK;GARAN.IS+YKBNK.IS+ISCTR.IS+VAKBN.IS+HALKB.IS;1;YURTICI;banka sepeti (hisse hariç)
 F2_SEKTOR;GARAN;AKBNK.IS+YKBNK.IS+ISCTR.IS+VAKBN.IS+HALKB.IS;1;YURTICI;banka sepeti
@@ -128,10 +128,14 @@ F4_MAKRO;EREGL;VIOP:USDTRY;1;VIOP_T;dolar bazlı fiyatlama
 F4_MAKRO;SISE;VIOP:USDTRY;1;VIOP_T;ihracatçı
 F4_MAKRO;ENKAI;VIOP:USDTRY;1;VIOP_T;döviz varlıklı
 F4_MAKRO;TUPRS;VIOP:USDTRY;1;VIOP_T;dolar bazlı fiyatlama
-F5_VIOP;XLBNK;VIOP:XU030;1;VIOP_T;endeks vadelileri arası
-F5_VIOP;XU030;VIOP:XLBNK;1;VIOP_T;endeks vadelileri arası
+F5_OZDESLIK;XLBNK;VIOP:XU030;1;VIOP_T;endeks vadelileri arası
+F5_OZDESLIK;XU030;VIOP:XLBNK;1;VIOP_T;endeks vadelileri arası
 F5_VIOP;XU030;XBANK.IS;1;YURTICI;banka endeksi -> BIST30
 F5_VIOP;XAGUSD;VIOP:XAUUSD;1;VIOP_T;altın -> gümüş
 F5_VIOP;XAUUSD;VIOP:XAGUSD;1;VIOP_T;gümüş -> altın
-F5_VIOP;XAUTRY;VIOP:XAUUSD;1;VIOP_T;ons -> gram (kur sabitken özdeşlik)
-F5_VIOP;XAUTRY;VIOP:USDTRY;1;VIOP_T;kur -> gram altın
+F5_OZDESLIK;XAUTRY;VIOP:XAUUSD;1;VIOP_T;ons -> gram (kur sabitken özdeşlik)
+F5_OZDESLIK;XAUTRY;VIOP:USDTRY;1;VIOP_T;kur -> gram altın
+F1_GRUP;ISCTR;SISE.IS+TSKB.IS+ISMEN.IS+ANSGR.IS+ISGYO.IS;1;YURTICI;İş Bankası iştirak (NAV) sepeti
+F3_DIS;TUPRS;CRACK321;1;DIS;rafineri marjı: (2·RB=F+HO=F)·42/3 − BZ=F, değişimi Brent fiyatına oranlı
+F3_DIS;EREGL;HRC=F;1;DIS;ABD sıcak rulo çelik vadelisi (veri inceyse atla)
+F3_DIS;KRDMD;HRC=F;1;DIS;ABD sıcak rulo çelik vadelisi (veri inceyse atla)
