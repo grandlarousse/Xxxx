@@ -52,6 +52,22 @@ Amaç: Kullanıcının paneli (GLD, TVC:GOLD, VİOP ons altın, GDX, PHYS, GDXJ,
 8. F_XAUUSD taşıma maliyeti: bültendeki ardışık iki vadenin uzlaşma farkından yıllıklandırılmış taşıma (carry). Long pozisyonun 2 günlük maliyeti bps olarak.
 9. Likidite: son 12 ayda F_XAUUSD ve F_TRALT ön vadede medyan günlük işlem hacmi, miktar, açık pozisyon; 10–30 bin USD'nin günlük hacme oranı.
 
+## Yöntem denetimi sonrası değişiklikler (opus denetçi, hesaptan önce; bunlar yukarıdaki metnin önüne geçer)
+
+1. **Ana kurallar:** R1 = A1 (hedge'siz TRALT), R2 = A3 (TRALT − b·ons altın, tam sayı kontrat), R3 = B1 (ons altın). Kullanıcı XU030 ile işlem yapmıyor; A2 yalnız sağlama ve kıyas içindir.
+2. **Artımsal test:** TRALT ailesinde y = a + b·g + c·r_TRALT,t + d·x; altın ailesinde y = a + b·g + d·x. Geçme ölçütü d'ye uygulanır. g ayrıca tek başına test edilir. (GLD, PHYS, GC ve spot altın g'nin kopyasıdır; tek değişkenli testte hepsi "geçer".)
+3. **Saatlik/5 dk barlar:** Yahoo damgası barın başlangıcıdır. Bir barın kapanışı ancak bitişi ≤ 14:55 UTC ise kullanılabilir; barın açılış fiyatı başlangıç anında bilinir. ABD ETF'leri için anlık fiyat = 14:30 UTC'de başlayan saatlik barın açılışı (kışın açılış fiyatı, yazın seansın 1. saati sonu). Altın için = 14:00 UTC'de başlayan GC=F barının açılışı. Yaz/kış ayrımı America/New_York saat diliminden yapılır.
+4. **Uzlaşmadan kurulan öngörücüler** (TRALT'ın kendi hareketi, TRMET göreli, teknik, altın momentumu) ayrıca (i) t−1 uzlaşmasıyla ve (ii) 2024-06+ döneminde anlık fiyatla tekrar edilir. İşaret değişirse sonuç "artefakt" sayılır.
+5. **Panel tablosu (yeni):** her panel sembolü için karar anındaki verinin tazeliği (yaz/kış), aynı saatte ölçülen günlük değişimin g ile korelasyonu, sürekli vadeli seride vade sıçraması günleri.
+6. **Tatil:** z = g/(σ·√d), d = boşluk günü sayısı. Bir ABD seansı yalnız bir kez kullanılır; yoksa NA.
+7. **Bootstrap:** 6 aylık takvim blokları, 5.000 tekrar, tek nominal (doğrusal ölçek). Senaryolar: tam dönem; 2019–20 / 2021–23 / 2024–26 ayrı; en iyi %2 işlem çıkarılmış. Yıllık zarar olasılığı ve 5. persentil raporlanır.
+8. **"Kazandırır" tanımı (önceden sabit):** bireysel maliyetle net t ≥ 2; en iyi %2 işlem çıkınca ortalama > 0; üç rejimin en az ikisinde > 0; "her zaman long" tabanının üstünde.
+9. **Taşıma (madde 8):** yalnız bilgi. Aynı kontratın uzlaşma getirisi taşımayı zaten içerir; maliyetten ayrıca düşülmez.
+10. **Kısa örneklem:** geçemeyen test için minimum saptanabilir etki (MDE) verilir; karar "öngörmüyor" değil "yetersiz güç" olabilir.
+11. **IS/OOS** "sözde örneklem dışı" diye etiketlenir (önceki çalışma tüm dönemi gördü). Gerçek örneklem dışı = 05.11.2026 sonrası.
+12. Çıkış günü kilit varsa çıkış sonraki uzlaşmaya kayar. Giriş günü işlem miktarı 0 ise (teorik uzlaşma) işlem dışı. Plasebo kaydırması en az ±20 gün. Sağlama toleransı: n ±3, ortalama ±5 bps.
+13. Madde 9'daki ek öngörücüler (SLV, DXY, ^TNX, TIP, ^VIX, SPY) panelde yok; ayrı bir "keşif" ailesi olarak, kendi FDR'siyle raporlanır. Teknikten yalnız %b ve sign(P − MA20) kalır.
+
 ## Bilinen tuzaklar (denetçiden özellikle bakması istenir)
 
 - Sinyal uzlaşmada oluşuyorsa girişte bilinmez (g vekili). ABD seansı eşlemesinde ileriye bakma.
