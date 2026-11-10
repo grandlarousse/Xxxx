@@ -57,3 +57,12 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# Kaplumbağa: Türk ve Çin mitolojisindeki yeri, "karışmadan yol gösteren" figür (10.11.2026)
+
+Klasör: `2026-11-10_kaplumbaga_mitoloji/`
+
+- `RAPOR.md`: Kısa yanıt, ne yapmalıyım, kanıt (Türk mitolojisi, Çin mitolojisi, başka kültürler, tanrı mı yarı-tanrı mı, kurmacadaki bilge kaplumbağalar), doğrulama kapsamı, kaynaklar, devam notu.
+- `ek/`: Üç araştırmacının iddia defterleri (A Türk, B Çin, C figür kategorisi), iki doğrulayıcının kararları (V1, V2) ve ham sonuç (`ham_sonuc.json`).

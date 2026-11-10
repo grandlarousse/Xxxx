@@ -1,0 +1,885 @@
+{
+ "A": {
+  "arac": "22/32",
+  "ozet": "Kısa yanıt: \"Kutsal ve uğur simgesi\" olarak düz biçimde söylemek abartı. Kaplumbağanın Türk kültüründeki yeri gerçek ama ikincil, çok katmanlı ve büyük ölçüde dışarıdan alınmıştır. \"Tanrı/yarı-tanrı\" ya da \"yol gösteren koruyucu varlık\" olarak bir Türk mitolojisi kaydı bulamadım.\n\nGerekçe:\n1) Kutsal/uğur iddiasının asıl dayanağı, ikincil bir makale (Şimşek 2016) ve ondan türeyen ansiklopedi maddesi (KÜRE). Şimşek'in kendi sayfasında Ögel ve Çoruhlu atıf olarak geçer. Ama aynı sayfada kaplumbağa için \"yerine göre şansızlık, sıkıntı ve zorluk\" da deniyor. Yani kaynağın kendisi iddiayı çift yönlü veriyor. Ögel'in ana metnini (Türk Mitolojisi, 1989) göremedim; PDF okunamadı.\n2) Göktürk-Uygur dönemi: Kaplumbağa kaideli anıtlar (Bugut, Kül Tigin, Bilge Kağan, Tariat) gerçektir. Fakat bixi (kaplumbağa kaideli dikili taş) Çin buluşudur; en eski örnek Han dönemi, Sichuan'daki Fan Min mezarı sayılır. Bugut kaidesinin Çin örneğinden etkilendiği görüşü (Alyılmaz) kayıtlı. Yani bu, kutsal bir Türk hayvanı kanıtından çok, Çin'den alınmış mezar-anıt geleneğidir. Anlam yorumu (süreklilik, uzun ömür) sonradan yapılmış çıkarımdır, yazıtların kendisinde kaplumbağa için bir inanç ifadesi görmedim.\n3) Altay-Sibirya/Orta Asya: Kaplumbağa üzerinde duran dünya anlatısı Türkistan, Özbek/Türkmen ve Kalmuk (Moğol) derlemelerinde var. Şimşek bunu Hint-Çin kökenli ve Budizm yoluyla Orta Asya'ya girmiş sayar (Ögel 1989: 442'ye atıfla). Altay'a özgü bir kaplumbağa anlatısı bulamadım (Altay'ın bilinen yaratılış anlatısı Radloff derlemesidir ve kaplumbağa anılmaz). Bu nedenle motif büyük olasılıkla yerli değil, Çin/Hint-Budist aracılığıyla gelmiştir. Kesin hüküm için Ögel'in ilgili sayfası gerekir.\n4) Anadolu halk inancı iki yönlüdür: nazardan korunma, uğur, halk hekimliği, yağmur duasında kaplumbağa asma, kilim/takı motifi. Öte yanda, Türk dünyasında yaygın \"hileli tartı yapan tüccar kaplumbağaya dönüşür\" efsanesi (Karakalpak, Karaçay, Özbek, Kırgız, Kazak, Tunceli-Mazgirt). Yani kaplumbağa çoğu anlatıda bir ceza sonucu. Bu, \"kutsal\" ile çelişir. Bu efsaneler İslami (Hızır) çerçevededir, yani eski Türk mitolojisi değil.\n5) Çoruhlu'ya atfedilen \"kuzey/kara yılan\" eşlemesi ve Esin'in kozmoloji yorumu: Esin'de Çinli \"Yılan-Kaplumbağa\" takımyıldızına Türkçede \"kara yılan\" denmesi görüldü (arama özeti). Bu da kaplumbağanın ayrı bir Türk figürü değil, Çin dört yön sisteminin uyarlaması olduğunu destekler.\n\nEn sağlam üç dayanak: (a) Bixi'nin Çin kökeni ve Bugut'tan itibaren Türk anıtlarına geçişi; (b) Şimşek'in kendi sayfasında kaplumbağanın şans/şanssızlık çift yönlülüğünü, dünya-kaplumbağa inancının Budizm yoluyla girdiğini belirtmesi; (c) \"hileli tüccar kaplumbağa olur\" efsanelerinin Türk dünyasında yaygınlığı.\n\nBildiklerinizden #4 (12 hayvanlı takvimde kaplumbağa yok) ana akım takvim için doğru görünüyor, ama Şimşek, Kars Söğütlü köyünde 10. hayvanın kaplumbağa olduğunu yerel bir derleme olarak aktarıyor (Kalafat 2013 atfıyla): kesin ifadeyi yumuşatın.",
+  "defter": [
+   {
+    "iddia": "Şimşek makalesi, kaplumbağanın Türk inancında uğurlu ve kutsal sayıldığını söyler (iddianın asıl akademik dayanağı, ikincil kaynak).",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "Türk inancında uğurlu ve kutsal sayılmış, devletin gücünü, koruyuculuğu, ölümsüzlüğü, bilgeliği, mutluluğu, sabrı... simgelemiştir",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Aynı makale, kaplumbağanın yer unsuruyla ilişkisi nedeniyle şansızlık ve zorluğu da temsil ettiğine inanıldığını belirtir (Çoruhlu 1999: 171 atfıyla).",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "yerine göre şansızlık, sıkıntı ve zorluğu da temsil ettiğine de inanılmıştır (Çoruhlu 1999: 171)",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Dünyanın kaplumbağa sırtında durduğu inancı Hint-Çin kökenlidir ve Budizm yoluyla Orta Asya'ya girmiştir (Ögel 1989: 442 atfıyla, Ögel metni görülmedi).",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "Bu inanış Budizm yoluyla Orta Asya'ya da girmiştir (Ögel 1989: 442).",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "KÜRE maddesi kaplumbağanın Türk mitolojisine Çin ve Hint inanç sistemlerinden geçtiğinin düşünüldüğünü yazar.",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/kaplumbaganin-cesitli-mitolojilerdeki-anlami-6ddc9",
+    "alinti": "Kaplumbağanın, Türk mitolojisine de Çin ve Hint inanç sistemlerinden geçtiği düşünülmektedir.",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "KÜRE maddesi de kaplumbağanın Türk mitolojisinde uğurlu ve kutsal sayıldığını yazar (Şimşek ile aynı ifade; bağımsız doğrulama değildir).",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/kaplumbaganin-cesitli-mitolojilerdeki-anlami-6ddc9",
+    "alinti": "uğurlu ve kutsal bir varlık olarak kabul edilmiştir",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Kaplumbağa kaideli stel geleneği Çin kökenlidir; en eski örnek Fan Min mezarı (Sichuan).",
+    "kaynak": "https://en.wikipedia.org/wiki/Bixi",
+    "alinti": "the earliest extant tortoise-borne stele is thought to be the one at the tomb of Fan Min",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Bugut Yazıtı (6. yy sonu) taş kaplumbağa üzerine kurulmuştur; Alyılmaz'a göre bu tasarım 8. yy Türk yazıtlarını etkilemiştir.",
+    "kaynak": "https://en.wikipedia.org/wiki/Bixi",
+    "alinti": "was installed on a stone tortoise ... it was the design of this stele that influenced the builders of the important 8th-century stelae",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Kül Tigin yazıtı kaplumbağa kaide üzerine oturtulmuştu; Bilge Kağan kaidesinde yazı yoktur (arama özeti).",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/orhon-yazitlari",
+    "alinti": "arama özeti: Kül Tigin yazıtı kaplumbağa kaide üzerine oturtulmuştu",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "KÜRE maddesi Bilge Kağan, Köl Tigin ve Moyun Çor yazıtlarının kaplumbağa kaidesini barış, uzun ömür ve süreklilik temasıyla yorumlar.",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/kaplumbaganin-cesitli-mitolojilerdeki-anlami-6ddc9",
+    "alinti": "barış, huzur, uzun ömür ve süreklilik temalarının simgesel bir yansıması olarak değerlendirilmiştir",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Türkistan Türklerine ait anlatıda Gök Tanrı kaplumbağanın karnına dünyayı koyar (kulturelbellek atfıyla, ikincil).",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "Gök Tanrı, bu kaplumbağayı sırt üstü çevirdi ve dünyayı onun karnının üzerine koydu",
+    "guven": "düşük",
+    "kritik": true
+   },
+   {
+    "iddia": "Kalmuk inancında dünyayı taşıyan kaplumbağa ters dönünce dünyanın sonu gelir.",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "dünyayı taşıyan kaplumbağa da ... ters dönecek ve böylece dünyanın sonu gelecektir (Roux 20...",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Hileli tartı yapan tüccarın kaplumbağaya dönüşmesi efsanesi Karakalpak, Karaçay, Özbek, Kırgız, Kazak ve Tunceli'de vardır.",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "tartıda hile yapan tüccara, Hıdır İlyas Baba ... Tüccar bu hâliyle kaplumbağaya dönüşür (Sakaoğlu 2003: 62-63)",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Kaplumbağaya dönüşme sebepleri: hileli ticaret, hak yeme, cimrilik, nimete ve ataya saygısızlık vb.; çoğu anlatıda ceza.",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "Kaplumbağaya dönüşme sebebi ise; hileli ticaret, hak yeme, cimrilik, nimete saygısızlık, ataya saygısızlık",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Halk kültüründe kaplumbağa yağmur yağdırma, nazardan korunma, hastalık tedavisi, kilim ve takı motifinde kullanılır.",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "yağmur yağdırma, nazardan korunma, çeşitli hastalıkların tedavisi, halı ve kilim motifleri, takılar",
+    "guven": "yüksek",
+    "kritik": false
+   },
+   {
+    "iddia": "Bazı Başkurt ve Kırgız topluluklarının geçmişte kaplumbağalara taptığı söylenir (Roux atfıyla, zayıf).",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "Başkurt ve Kırgızlarda bazı toplulukların geçmişte kaplumbağalara taptığı söylenirken (Roux 2005: 389)",
+    "guven": "düşük",
+    "kritik": true
+   },
+   {
+    "iddia": "Kars Söğütlü köyünde 12 hayvanlı takvimde 10. hayvan kaplumbağadır (yerel derleme, bildiğiniz #4 ile kısmen çelişir).",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "Kars'ın Söğütlü köyünde 12 hayvanlı Türk takviminde, hayvanlardan onuncusu kaplumbağadır (Kalafat 2013: 31)",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Kaplumbağa Anadolu'da tusbağa, tosbağa, toskaba, tostos adlarıyla anılır; Kırgız/Kazak 'taş baka/tasbaka'.",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "tusbağa, tusbaa, tosbağa, tosbaa, toskaba, tostos ... tasbaka (Kazakistan), taş baka (Kırgızistan)",
+    "guven": "yüksek",
+    "kritik": false
+   },
+   {
+    "iddia": "Altay yaratılış anlatısında (Radloff) kaplumbağa yer almaz; Ülgen yardımcı tanrıdır (arama özeti).",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/turk-yaratilis-destani-radloff-derlemesi-82297",
+    "alinti": "arama özeti: Ülgen ikinci derecede ve yardımcı bir Tanrı'dır",
+    "guven": "düşük",
+    "kritik": false
+   },
+   {
+    "iddia": "Esin'in sisteminde Çincede Yılan-Kaplumbağa denen takımyıldızı Türkçede 'kara yılan' adını taşır.",
+    "kaynak": "https://folkloredebiyat.org/DergiPdfDetay.aspx?ID=174",
+    "alinti": "arama özeti: Çince Yılan ve Kaplumbağa, Türkçe Kara yılan takımyıldızı (sayfa açılmadı)",
+    "guven": "düşük",
+    "kritik": false
+   },
+   {
+    "iddia": "Kül Tigin yazıtının bir yüzündeki Çince metin 732'de Tang imparatoru tarafından yazdırılmıştır (Çin-Göktürk etkileşimi).",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/orhon-yazitlari",
+    "alinti": "arama özeti: batı yüzündeki metin Çince, Tang İmparatoru Xuan Zong",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Çin'de kaplumbağa kutsal dört yaratıktan biridir; sırt yang, karın yin yorumu Çin düşüncesine aittir.",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/kaplumbaganin-cesitli-mitolojilerdeki-anlami-6ddc9",
+    "alinti": "sırt \"yang\", karın ise \"yin\" olarak yorumlanmıştır",
+    "guven": "yüksek",
+    "kritik": true
+   }
+  ],
+  "aykiri": "1) Ögel'e atfedilen en güçlü cümle yalnızca \"dünya kaplumbağa sırtında\" inancının Budizm yoluyla girdiğini söylüyor; \"kutsal Türk hayvanı\" demiyor (Ögel'in kendi metni görülmedi). 2) Kaplumbağa çoğu Türk anlatısında ceza/lanet sonucudur, kutsal değildir. 3) Şimşek, kaplumbağanın yerine göre şansızlık getirdiğini yazar. 4) Bildiklerim #4'ten sapma: Kars Söğütlü'de yerel 12 hayvanlı takvimde kaplumbağa varmış (tek yerel derleme). 5) Bildiklerim #3: \"kara yılan = Çin kara kaplumbağası\" bağı sadece Esin'e dair arama özetinde var, kaynak sayfası okunmadı. 6) Bildiklerim #2'deki Altay üç balık / Buryat Mandişire kaplumbağa çeşitlemesi bulunamadı; kaplumbağalı dünya anlatısı Türkistan, Özbek-Türkmen ve Kalmuk derlemelerinde çıktı. 7) Hiçbir kaynakta kaplumbağa 'yol gösteren' ya da 'tanrı/yarı-tanrı' olarak görünmüyor.",
+  "acik_kalanlar": [
+   "Ögel Türk Mitolojisi I s.442 ana metni görülemedi (archive.org PDF okunamadı).",
+   "Çoruhlu, Esin ve Kalafat 2013 ana metinleri görülemedi; yalnızca Şimşek'in atıfları var.",
+   "Bugut/Kül Tigin kaidesinin anlamına dair Göktürk yazıtlarından doğrudan kanıt bulunamadı; anlam yorumları sonradan.",
+   "Altay üç balık ve Buryat Mandişire-kaplumbağa çeşitlemesi doğrulanamadı.",
+   "Divânü Lugâti't-Türk 'müngüz baka' ve Türk takvimindeki kaplumbağa yokluğu için sayfa okunamadı (Vikipedi 429/404, içerik kısa).",
+   "Oğuz Kağan/Ergenekon karşılaştırması ve 'yol gösteren kaplumbağa' karşı örneği için ayrı arama yapılmadı.",
+   "Osman Hamdi (#9) kontrol edilmedi; KÜRE yalnızca tabloyu anıyor."
+  ]
+ },
+ "B": {
+  "arac": "17/34",
+  "ozet": "Sonuç: (a) YANLIŞ, (b) KISMEN doğru, (c) KISMEN doğru (büyük olasılıkla karışıklık var).\n\n(a) \"Üst kabuk yang = iyilik, alt kabuk yin = kötülük\": Yanlış. Yin-yang iyi-kötü ikiliği değil, birbirini tamamlayan karşıtlardır; arama kaynakları bunu açıkça belirtiyor. Kabuk-kozmoloji eşlemesi gerçek ama ahlaki değil, mekânsaldır: kubbeli üst kabuk gökle, düz alt kabuk yerle ilişkilendirilir. Arama sonuçlarında kabuğun yuvarlak gök/düz yer benzerliği geçti; \"üst yang, alt yin\" ayrımını doğrudan metinle görmedim, yalnızca Bencao metninde alt kısmın yin ile bağlandığı aktarıldı. Not: Konfüçyüsçü Dong Zhongshu yin-yang'a ahlaki boyut yükledi, yani \"hiç ahlaki değil\" demek de fazla keskin. Düzeltilmiş biçim: Kaplumbağanın kubbeli üst kabuğu gökle (yang), düz alt kabuğu yerle (yin) eşlenir; bu eşleme iyi-kötü değil, evrenin iki tamamlayıcı yarısıdır.\n\n(b) \"Dengenin simgesi\": Kısmen. Kaplumbağa kozmosun modeli (gök-yer bir arada) ve Kuzey/kış simgesidir; kuzeyde yılanla sarmaş (Xuanwu) bir iç gerilim/karşıtların birliği olarak yorumlanıyor. Ama \"denge\" onun tek ya da standart anlamı değil; asıl anlamları kozmos, uzun ömür, kehanet ve kuzey/kış. Düzeltilmiş biçim: Kaplumbağa evrenin bir minyatürü ve karşıtların (gök-yer, kaplumbağa-yılan) birlikteliğinin simgesidir; \"denge\" bunun yorumudur, tek tanımı değil.\n\n(c) \"Takvimdeki tanrısal hayvan\": Kısmen. Kara Kaplumbağa (Xuanwu) Dört Simge'den biridir: kuzeyi ve kışı temsil eder, 28 ay konağının 7'sini yönetir. Bu gökyüzü/mevsim sistemidir. 12 hayvanlı Çin burcunda kaplumbağa yok (liste: fare, öküz, kaplan, tavşan, ejder, yılan, at, koyun/keçi, maymun, horoz, köpek, domuz). Düzeltilmiş biçim: Kaplumbağa 12 yıllık burç takviminde değil, gök haritası ve mevsim düzeninde (Kuzey/kış) yer alan gök koruyucusudur.\n\n\"Tanrı/yarı tanrı\" sorusu: Çin'de kaplumbağa uzun süre tanrı değil kutsal/uğurlu bir varlıktı (Liji'deki Dört Uğurlu Varlık). Xuanwu, Kuzey Song döneminde (960-1126) insan biçimli tanrı Zhenwu olarak kişileşti; yani tanrılaşma geç ve sonradan. \"Karışmadan yol gösterme\" fikri kehanetle uyuşuyor: Shang döneminde kaplumbağa alt kabuğu falda kullanılıyordu ve en eski Çin yazısı bunlarda. Ama Nüwa'nın göğü onarmak için Ao'nun bacaklarını kesmesi, kaplumbağanın pasif/kutsal korunaklı değil, kullanılan bir taşıyıcı olabildiğini gösterir.\n\nAykırı: geç dönemde \"wangba\" hakaret. Kaplumbağa hep kutsal değildir.\n\nDiğer kültürler (en çok 8 satır):\n1. Hint: Vişnu'nun Kurma avatarı, süt okyanusunda dağı taşır; dünya kaplumbağası Akupara.\n2. Kuzey Amerika: Haudenosaunee yaratılışında Gök Kadın'ın kaplumbağa sırtına inmesi, Kaplumbağa Adası.\n3. Vietnam: Kim Quy, Hoàn Kiếm'de kılıcı geri alır (hükümdar adı kaynaklarda değişiyor).\n4. Japonya: Genbu, Kyoto'nun kuzey koruyucusu.\n5. Çin Luo Shu: Yu'ya Luo Irmağı'ndan çıkan kaplumbağa sırtında 3x3 sayı karesi.\n6. Çin Ao: Nüwa göğü dört direkle onarır.\n7-8. Yunan (Hermes lir) ve Ijapa: aramada doğrulanmadı.",
+  "defter": [
+   {
+    "iddia": "Kaplumbağanın düz alt kabuğu ve kubbeli üst kabuğu eski Çin kozmolojisindeki düz yer ve kubbeli gökle paralel görülür.",
+    "kaynak": "https://en.wikipedia.org/wiki/Turtle_shell (arama özeti, kaynak sayfa tam açılmadı)",
+    "alinti": "the flat plastron and domed carapace of a turtle parallel the ancient Chinese idea of a flat earth and domed sky",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Yin-yang iyi-kötü ikiliği değil, tamamlayıcı karşıtlardır.",
+    "kaynak": "https://www.newworldencyclopedia.org/entry/Yin-Yang",
+    "alinti": "yin and yang are equally important, unlike the dualism of good and evil",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Konfüçyüsçü Dong Zhongshu yin-yang'a ahlaki bir boyut yükledi (iyi-kötü tamamen dışlanamaz).",
+    "kaynak": "https://www.newworldencyclopedia.org/entry/Yin-Yang",
+    "alinti": "Dong Zhongshu (c. 2nd century BC) ... moral dimension is attached to the idea of yin and yang",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Xuanwu (Kara Kaplumbağa-Yılan) Dört Simge'den biridir, kuzeyi ve kışı temsil eder.",
+    "kaynak": "https://en.wikipedia.org/wiki/Black_Turtle-Snake",
+    "alinti": "It represents the north ... xuanwu (玄武) as a whole represents the season of winter.",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Dört Simge her biri yedi ay konağı yöneten, toplam 28 konak.",
+    "kaynak": "https://en.wikipedia.org/wiki/Twenty-Eight_Mansions",
+    "alinti": "each region holds seven mansions, for 28 total",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Tekrar eden 12 hayvanlı burç listesinde kaplumbağa yok.",
+    "kaynak": "https://www.scmp.com/lifestyle/chinese-zodiac/article/3295998/how-12-chinese-zodiac-animals-were-chosen-and-put-order-and-why-theres-no-cat",
+    "alinti": "rat, ox, tiger, rabbit, dragon, snake, horse, goat, monkey, rooster, dog, pig",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Zodyak Han döneminde biçimlendi, 12 yıllık döngü.",
+    "kaynak": "https://www.asiaculturaltravel.co.uk/?p=13536",
+    "alinti": "started to take shape during the Han Dynasty",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Liji'ye göre dört zeki/uğurlu varlık qilin, anka, kaplumbağa, ejderdir.",
+    "kaynak": "https://en.wikipedia.org/wiki/Four_Holy_Beasts",
+    "alinti": "the Qi-lin, the phoenix, the tortoise, and the dragon",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Kaplumbağa uzun ömürle ilişkilidir.",
+    "kaynak": "https://chiculture.org.hk/en/china-five-thousand-years/2452",
+    "alinti": "living as long as turtles and cranes",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Zhenwu insan biçimli tanrı olarak Kuzey Song başında ortaya çıktı, öncesinde Xuanwu kaplumbağa-yılandı.",
+    "kaynak": "https://kuscholarworks.ku.edu/entities/publication/a100387c-31a6-4a00-9fbb-76d403c71027",
+    "alinti": "emerged as an anthropomorphic deity in the early Northern Song (960-1126) ... appeared as a tortoise entwined with a snake",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Zhenwu'nun Wudang'daki kültü Ming imparatorluk himayesiyle büyüdü.",
+    "kaynak": "https://en.wikipedia.org/wiki/Xuanwu_(god)",
+    "alinti": "Yongle emperor ... extensive complex of Taoist monasteries in the Wudang Mountains",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Shang dönemi falı kaplumbağa alt kabuğu ve öküz kürek kemiğiyle yapılırdı.",
+    "kaynak": "https://www.worldhistory.org/Oracle_Bones/",
+    "alinti": "plastromancy if turtle plastrons were used",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Kâhin kemikleri en eski önemli Çin yazı külliyatıdır.",
+    "kaynak": "https://www.worldhistory.org/Oracle_Bones/",
+    "alinti": "earliest known significant corpus of ancient Chinese writing",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Plastron düz olduğu için işlenmesi kolaydı.",
+    "kaynak": "https://si.edu/object/3d/inscribed-turtle-plastron:58be9e1e-9966-4f22-8eb8-b62a0205c697",
+    "alinti": "the flatter part of the shell and thus more easily drilled or chiseled",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Nüwa göğü onarmak için büyük kaplumbağanın bacaklarını kesip dört direk yaptı (Huainanzi).",
+    "kaynak": "https://en.wikipedia.org/wiki/N%C3%BCwa",
+    "alinti": "cutting off the feet of the great turtle and set them up as the four new pillars",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Luo Shu: Yu'ya Luo Irmağı'ndan çıkan kaplumbağanın sırtında 3x3 sayı dizisi.",
+    "kaynak": "https://en.wikipedia.org/wiki/Luoshu_Square",
+    "alinti": "a tortoise emerged from the water bearing on its undershell a 3x3 array of the numbers 1 through 9",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Wangba kaplumbağa/aldatılan koca anlamlı bir küfürdür; kökeni belirsiz.",
+    "kaynak": "https://en.wikipedia.org/wiki/Wangba",
+    "alinti": "cuckold or turtle (Mandarin Chinese profanity)",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Wangba için kaynaklar çelişkili köken hikayeleri veriyor (halk etimolojisi).",
+    "kaynak": "https://piccola-chinita.blogspot.com/2024/10/why-wang-ba-for-tortoise-scoundrel.html",
+    "alinti": "plastron of the tortoise looks like the character 王, and the two ends look like the character 八",
+    "guven": "düşük",
+    "kritik": false
+   },
+   {
+    "iddia": "Hint kozmolojisinde Kurma ve Akupara dünya kaplumbağasıdır.",
+    "kaynak": "https://www.atlasobscura.com/articles/world-turtle-cosmic-discworld",
+    "alinti": "World Turtle is called Akūpāra in Hinduism",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Haudenosaunee yaratılışında Gök Kadın kaplumbağa sırtına iner; Kaplumbağa Adası.",
+    "kaynak": "https://www.hitchhikersguidetoreligion.com/lore/lakota-creation-turtle/",
+    "alinti": "Sky Woman falls through the hole in the sky and lands on the turtle's back",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Kim Quy Hoàn Kiếm Gölü'nde kılıcı geri alır; hükümdar adı kaynaklarda değişiyor.",
+    "kaynak": "https://Www.Wikipedia.org/wiki/Kim_Quy",
+    "alinti": "Hoàn Kiếm (Lake of the Returned Sword)",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Japonya'da Genbu Kyoto'nun kuzey koruyucusudur.",
+    "kaynak": "https://en.wikipedia.org/wiki/Black_Turtle-Snake",
+    "alinti": "It is said to protect Kyoto on the north side, being one of the four guardian spirits",
+    "guven": "yüksek",
+    "kritik": false
+   },
+   {
+    "iddia": "Xuanwu'nun yılanla sarmaşması iç mücadele olarak yorumlanır.",
+    "kaynak": "https://en.wikipedia.org/wiki/Black_Turtle-Snake",
+    "alinti": "likely symbolizes a state of inner struggle",
+    "guven": "orta",
+    "kritik": true
+   }
+  ],
+  "aykiri": "1) \"Hep kutsal\" iddiasına aykırı: wangba kaplumbağa küfrü (aldatılan koca/gayrimeşru çocuk anlamı; kökeni belirsiz). 2) Dong Zhongshu'da yin-yang'ın ahlaki boyutu: \"yin-yang ahlaki değil\" kesin değil. 3) Listeyle çelişen: kabuğun yang/yin eşlemesini birincil kaynaktan göremedim, yalnızca Bencao alıntısı arama özetinde var. 4) Zhenwu'nun kişileşmesi Song'da, yani kaplumbağa uzun süre tanrı değildi. 5) Kim Quy'daki hükümdar adı kaynaklara göre değişiyor (Lê Lợi mi Lý Thái Tổ mu belirsiz). 6) Wikipedia oku.py 429 verdi; tüm doğrulama arama özetlerinden.",
+  "acik_kalanlar": [
+   "Sarah Allan'ın kitabının kendisi görülmedi; kabuk-kozmoloji eşlemesi ikincil özetten.",
+   "Bixi, Zhuangzi çamurda kuyruk öyküsü, Eberhard sözlüğü kontrol edilmedi.",
+   "Yunan (Hermes lir/Khelone) ve Ijapa görülmedi.",
+   "Wangba'nın yaşı/tarihi doğrulanmadı.",
+   "Dört Uğurlu Varlık'ta kaplumbağanın tek gerçek hayvan olduğu görüşü teyit edilmedi.",
+   "Xuantian Shangdi unvanının tarihi ve Wudang bağı kesin görülmedi."
+  ]
+ },
+ "C": {
+  "arac": "17/32",
+  "ozet": "Kısa yanıt: Sohbetteki tanıma tam uyan tek bir hazır \"tanrı türü\" adı yok. \"Yarı-tanrı\" uymuyor, \"tanrı\" ise ancak \"çekilmiş tanrı\" (deus otiosus) anlamında kısmen uyuyor. En iyi iki öneri: (1) \"bilge rehber / mentor\" (Jung'un Yaşlı Bilge'si, Campbell'ın doğaüstü yardımcısı), kaplumbağanın ölümsüz-bilge (xian) niteliğiyle birlikte; (2) \"koruyucu ruh / iye\" ya da \"kutsal hayvan-kılavuz\". Felsefi olarak en yakın karşılık Taocu wu wei: karışmadan etkili olan, varlığı ancak bilinen yönetici (Tao Te Ching 17).\n\nSeçenekler tek cümleyle: Tanrı: yaratıcı ve yüce olanı anlatır, \"yol gösteren\" yanı zayıftır; ancak \"karışmayan\" yanı deus otiosus ile örtüşür. Yarı-tanrı: Yunan geleneğinde tanrı-insan çocuğu ya da tanrılaşmış kahramandır, eylem insanıdır; karışmayan bilgeye uymaz. Çekilmiş tanrı (deus otiosus): karışmama kısmını karşılar, rehberlik kısmını karşılamaz. Koruyucu ruh/iye: Türk inancında yerleşiktir ve \"koruyucu\" yanı güçlüdür, ama düşündürme rolü yoktur. Yaşlı Bilge/mentor: yol gösterme ve düşündürme rolünü en iyi karşılar; tanrısal statü gerektirmez. Ölümsüz bilge (xian): Çin kültüründe kaplumbağanın uzun ömür simgesiyle uyumludur ve tanrıdan çok \"ermiş\" gibidir.\n\nÖnemli düzeltmeler: (a) Türk mitolojisinde kaplumbağa baskın kutsal hayvan değildir; kaynaklar kurt, geyik, kartal ve atı öne çıkarıyor. Kaplumbağa uğur/uzun ömür/koruyuculuk simgesi sayılsa da dünyayı taşıyan kaplumbağa anlatısı Hint ve Çin kaynaklı bildiriliyor; bazı topluluklarda tapınma iddiası tartışmalı. Arkadaşın \"kutsal ve uğurun simgesi\" sözü kısmen destekleniyor ama abartılı olabilir. (b) Çin'de kaplumbağa (Xuanwu, Kuzey'in Kara Kaplumbağası) yön ve mevsim koruyucusudur; üst kabuk gökyüzü, alt kabuk yeryüzüdür. \"Üst kabuk yang iyilik, alt kabuk yin kötülük\" ifadesini destekleyen kaynak bulunamadı: yin ve yang ahlaki iyi/kötü değil, tamamlayıcı ilkedir, ve kaplumbağa-yılan çifti denge simgesi olarak anılır. Bazı kaynaklar tüm yaratığı yang diye yorumlar, yani yorumlar değişiyor. (c) Altay yaratılışında Ak Ana'nın sözü kaynağımda \"Yaptım oldu\" biçiminde geçiyor; \"yap dedim, oldu de\" biçimi doğrulanmadı.\n\nTürk karşılıkları: iye, Umay, Ak Ana (Ülgen'e ilham verip suya geri döner: karışmayan yol gösterici örneği olarak en yakın), Ülgen, Hızır ve Dede Korkut tipi bilgeler. Kayra Han'ın deus otiosus sayılması bu oturumda doğrulanamadı; Eliade Tengri için bu eğilimi anıyor.\n\nKaplumbağa için pratik öneri: ona \"tanrı\" ya da \"yarı-tanrı\" demek yerine \"koruyucu bilge ruh\" ya da \"ölümsüz bilge rehber\" demek hem mitolojik açıdan daha doğru hem de sohbetteki rolle uyumlu. Kurmacada benzer bilge kaplumbağalar (Oogway, Morla, A'Tuin) var; klişe riski için bunu bu oturumda doğrulamadım.",
+  "defter": [
+   {
+    "iddia": "Deus otiosus, evreni yarattıktan sonra yönetimden çekilmiş tanrı fikridir; Eliade'ye göre yüce gök tanrısı gündelik işleri alt ruhlara bırakır.",
+    "kaynak": "https://en.wikipedia.org/wiki/Deus_otiosus",
+    "alinti": "a creator god who has entirely withdrawn from governing the universe after creating it",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Eliade, Tengri'nin siyasi birlik bozulunca deus otiosus'a dönüşme eğiliminde olduğunu yazar.",
+    "kaynak": "https://www.Britannica.Com/topic/nature-worship/Heaven-and-earth-as-sacred-spaces-forces-or-processes",
+    "alinti": "Tängri ... tends to become a deus otiosus when political unity breaks down",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Kayra Han'ın deus otiosus sayılması arama sonuçlarında doğrulanmadı.",
+    "kaynak": "https://en.wikipedia.org/wiki/Deus_otiosus",
+    "alinti": "kaynak görülmedi",
+    "guven": "düşük",
+    "kritik": false
+   },
+   {
+    "iddia": "Hemitheos 'yarı-tanrı' demektir; Yunan/Roma'da tutarlı bir tanımı yoktu, ölen kahramanlar da bu adla anılabilirdi.",
+    "kaynak": "https://en.wikipedia.org/wiki/Demigod",
+    "alinti": "the concept of a demigod did not have a consistent definition in the Greek and Roman world",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Yarı-tanrı genel kullanımda tanrı ile ölümlünün çocuğudur (Herakles, Sarpedon).",
+    "kaynak": "https://en.wikipedia.org/wiki/Demigod",
+    "alinti": "one parent was a god or goddess and whose other parent was human",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Tao Te Ching 17: en iyi yönetici, halkın yalnızca varlığını bildiği kişidir; bu wu wei ile ilişkilendirilir.",
+    "kaynak": "https://jdinkla.github.io/tao-te-ching/chapters/chapter-17/",
+    "alinti": "太上,下知有之",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Mitchell çevirisi en iyi yöneticiyi 'varlığından neredeyse haberdar olunmayan' diye verir.",
+    "kaynak": "https://mirror.explodie.org/tao-te-ching.html",
+    "alinti": "hardly aware that he exists",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Sokrates'in daimonion'u yalnızca alıkoyucudur, yöneltmez (Apology 31d'ye atıfla).",
+    "kaynak": "https://en.wikipedia.org/wiki/Daimonion_(Socrates)",
+    "alinti": "exclusively apotreptic, meaning it turns him away and never directs him toward action",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Ksenophon'un anlatımında daimonion bazı eylemleri onaylayıp yöneltir; yani 'yalnızca alıkoyar' tek yorum değildir.",
+    "kaynak": "https://en.wikipedia.org/wiki/Daimonion_(Socrates)",
+    "alinti": "did not hesitate to endorse one action over another",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Dhammapada 276: Budalar yalnızca yolu gösterir, çabayı kişi gösterir.",
+    "kaynak": "https://accesstoinsight.org/tipitaka/kn/dhp/dhp.20.budd.html",
+    "alinti": "You yourselves must strive; the Buddhas only point the way.",
+    "guven": "yüksek",
+    "kritik": true
+   },
+   {
+    "iddia": "Altay anlatısında Ak Ana sudan çıkıp Ülgen'e öğüt verir ve suya geri döner; söz 'Yaptım oldu' biçiminde aktarılır.",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/ak-ana-1ee53",
+    "alinti": "Yaptım oldu!",
+    "guven": "düşük",
+    "kritik": true
+   },
+   {
+    "iddia": "Türk inancında her varlığın iyesi (koruyucu ruh) olduğuna inanılır.",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/turk-mitolojisi-9ac82",
+    "alinti": "her varlığın bir iyesi olduğu",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Türk mitolojisinde kaplumbağa uğurlu/koruyucu/ölümsüzlük simgesi sayılır ama kurt, geyik, kartal ve at kadar baskın değildir.",
+    "kaynak": "https://dergipark.org.tr/download/article-file/324559",
+    "alinti": "kaynak görülmedi (arama özeti)",
+    "guven": "düşük",
+    "kritik": true
+   },
+   {
+    "iddia": "Dünyayı sırtında taşıyan kaplumbağa anlatısının Hint ve Çin mitolojisinden Budizm yoluyla Orta Asya'ya geldiği bildirilir.",
+    "kaynak": "https://kureansiklopedi.com/tr/detay/kaplumbaganin-cesitli-mitolojilerdeki-anlami-6ddc9",
+    "alinti": "kaynak görülmedi (arama özeti)",
+    "guven": "düşük",
+    "kritik": true
+   },
+   {
+    "iddia": "Çin'de Kara Kaplumbağa (Xuanwu) kuzeyi/kışı yönetir; üst kabuk gökyüzü, alt kabuk yeryüzünü temsil eder.",
+    "kaynak": "https://en.wikipedia.org/wiki/Black_Turtle-Snake",
+    "alinti": "carapace representing heaven and its underbelly, the earth",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Kaplumbağa-yılan çifti uzun ömür, bereket ve yin-yang dengesi simgesidir; bazı kaynaklar canlıyı tümüyle yang sayar. 'Yin kötü, yang iyi' yorumu görülmedi.",
+    "kaynak": "https://en.wikipedia.org/wiki/Black_Turtle-Snake",
+    "alinti": "balance of yin and yang",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Campbell'ın 'doğaüstü yardım' evresinde yaşlı bilge figür kahramana koruma ve bilgi sağlar; Campbell Jung'un arketiplerinden yararlanmıştır.",
+    "kaynak": "https://jpellegrino.com/teaching/backgrounds/monomyth.html",
+    "alinti": "the first encounter of the hero journey is with a protective figure",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Xian terimi felsefede bilge/aydınlanmış kişi, sonraki Taoculukta fiziksel ölümsüz varlık anlamına gelir; kaplumbağa Taocu sanatta uzun ömür simgesidir.",
+    "kaynak": "https://www.newworldencyclopedia.org/entry/Xian_(Daoist_immortal)",
+    "alinti": "it can denote a sage or someone who has achieved enlightenment or spiritual transcendence",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Hızır-Musa kıssası Kehf suresinde yer alır; TDV'nin Hızır maddesi bu oturumda okunmadı.",
+    "kaynak": "https://islamansiklopedisi.org.tr/hizir/iliskili-maddeler",
+    "alinti": "Kehf Sûresi",
+    "guven": "düşük",
+    "kritik": false
+   }
+  ],
+  "aykiri": "1) Türk mitolojisinde kaplumbağa belirgin kutsal figür değil; arkadaşın birinci iddiası kısmen abartılı olabilir. 2) 'Üst kabuk yang=iyilik, alt kabuk yin=kötülük' görülmedi; yin/yang ahlaki iyi-kötü değildir ve kaynaklar yorumda ayrışıyor. 3) Sokrates'in daimonion'u Ksenophon'da yalnızca alıkoymaz, yöneltir de. 4) Ak Ana'nın sözü 'Yaptım oldu' biçiminde bulundu, 'yap dedim, oldu de' değil. 5) Kayra Han'ın deus otiosus olduğu doğrulanmadı; Eliade bunu Tengri için söylüyor. 6) Vikipedi yardımcısı 429 verdi, tr.wikipedia sayfaları okunamadı.",
+  "acik_kalanlar": [
+   "Dede Korkut'un rolü ve TDV Hızır maddesi okunmadı.",
+   "Oğuz Kağan destanındaki kurt kılavuz bu oturumda kontrol edilmedi.",
+   "Kurmacadaki bilge kaplumbağalar (Oogway, Morla, A'Tuin, Maturin) ve klişe riski doğrulanmadı.",
+   "Eliade'nin Patterns in Comparative Religion metni doğrudan görülmedi; yalnızca ikincil özetler.",
+   "Tao Te Ching 2. bölüm ve Kehf 60-82 metinleri görülmedi.",
+   "Kaplumbağa makalelerinin (Şimşek 2016, Aksoy 2022) tam metni okunmadı; kaplumbağa bilgileri arama özetine dayanıyor.",
+   "Jung'un Yaşlı Bilge tanımı birincil kaynaktan görülmedi."
+  ]
+ },
+ "V1": {
+  "arac": "araç: 15/20",
+  "satirlar": [
+   {
+    "no": "A1",
+    "karar": "doğrulandı",
+    "kanit": "Türk inancında uğurlu ve kutsal sayılmış, devletin gücünü, koruyuculuğu, ölümsüzlüğü, bilgeliği, mutluluğu, sabrı, azmi... simgelemiştir (Öz).",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A2",
+    "karar": "doğrulandı",
+    "kanit": "yerine göre şansızlık, sıkıntı ve zorluğu da temsil ettiğine de inanılmıştır (Çoruhlu 1999: 171).",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A3",
+    "karar": "doğrulandı",
+    "kanit": "Hint ve Çin mitolojisinde, dünya yaratıldığında bir kaplumbağanın sırtına yerleştirildiği... Bu inanış Budizm yoluyla Orta Asya'ya da girmiştir (Ögel 1989: 442). Ögel metni görülmedi.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A4",
+    "karar": "doğrulandı",
+    "kanit": "Kaplumbağanın, Türk mitolojisine de Çin ve Hint inanç sistemlerinden geçtiği düşünülmektedir.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A6",
+    "karar": "doğrulandı",
+    "kanit": "earliest extant tortoise-borne stele is thought to be the one at the tomb of Fan Min, Lushan County, Ya'an, Sichuan; geleneğin kökeni geç Han dönemi.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A7",
+    "karar": "doğrulandı",
+    "kanit": "Bugut Stele of the late 6th century... was installed on a stone tortoise. According to Cengiz Alyilmaz, it was the... (devamı kesik görüldü).",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A10",
+    "karar": "doğrulandı",
+    "kanit": "Gök Tanrı, bu kaplumbağayı sırt üstü çevirdi ve dünyayı onun karnının üzerine koydu... (kulturelbellek.com atfıyla, ikincil).",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A12",
+    "karar": "doğrulandı",
+    "kanit": "Karakalpak (Hıdır İlyas Baba), Karaçay (Taşmaka), Tunceli Mazgirt; Özbekistan, Kırgızistan, Kazakistan efsanelerinde de işlenir. Karaçay'da insan yerine ekmek kaplumbağaya dönüşür.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A13",
+    "karar": "doğrulandı",
+    "kanit": "Kaplumbağaya dönüşme sebebi ise; hileli ticaret, hak yeme, cimrilik, nimete saygısızlık, ataya saygısızlık, tembellik, beceriksizlik ve utanma; ceza vurgusu.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A15",
+    "karar": "doğrulandı",
+    "kanit": "Başkurt ve Kırgızlarda bazı toplulukların geçmişte kaplumbağalara taptığı söylenirken (Roux 2005: 389)",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A16",
+    "karar": "doğrulandı",
+    "kanit": "Kars'ın Söğütlü köyünde 12 hayvanlı Türk takviminde, hayvanlardan onuncusu kaplumbağadır (Kalafat 2013: 31).",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A21",
+    "karar": "doğrulandı",
+    "kanit": "Çin mitolojisinde kaplumbağa dört kutsal yaratık arasında; sırt 'yang', karın 'yin' olarak yorumlanmıştır.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C1",
+    "karar": "doğrulandı",
+    "kanit": "belief in a creator god who has entirely withdrawn from governing the universe... Britannica: gök tanrısı işleri ataların/doğa ruhlarının eline bırakır.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": "https://www.Britannica.Com/topic/nature-worship/Heaven-and-earth-as-sacred-spaces-forces-or-processes (arama özeti)"
+   },
+   {
+    "no": "C2",
+    "karar": "kısmen",
+    "kanit": "Britannica sayfası 403, görülemedi. Arama özeti: Eliade, imparatorluk yokken Tängri'nin deus otiosus'a dönüşme eğilimini yazar (Histoire des croyances III, §242).",
+    "duzeltme": "İddia Eliade'ye ait ve doğru, ama dayanak Britannica değil Eliade'nin kendi metni; 'siyasi birlik' yerine 'imparatorluk dağılınca/anarşi' ifadesi daha yakın.",
+    "bagimsiz_kaynak": "https://www.abebooks.it/HISTORY-RELIGIOUS-IDEAS-V-3-ELIADE/31767595354/bd (arama özeti)"
+   },
+   {
+    "no": "C4",
+    "karar": "doğrulandı",
+    "kanit": "the concept of a demigod did not have a consistent definition in the Greek and Roman world; Homer and Hesiod describe dead heroes as hemitheoi.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C5",
+    "karar": "kısmen",
+    "kanit": "Sayfada 'one parent' geçişi görüldü ama yalnızca klasik hemitheoi'nin gerçek ebeveyn anlamı taşımadığı bağlamında; Sarpedon sayfada bulunamadı.",
+    "duzeltme": "Genel tanım (bir ebeveyn tanrı, biri ölümlü) olası ama bu sayfada tam alıntı ve Sarpedon örneği doğrulanamadı.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C6",
+    "karar": "doğrulandı",
+    "kanit": "太上，下知有之: those below merely know that he is there; sayfa wu wei ile ilişkilendirir.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C8",
+    "karar": "kısmen",
+    "kanit": "Wikipedia sayfasında 'apotreptic' ifadesi bulunamadı; arama: Platon'da daimonion yalnızca apotreptic, Apology 31c8-d4 (CAMWS özeti); Xenophon'da protreptic de var.",
+    "duzeltme": "Doğru ama yalnızca Platon'un Sokrates'i için; Xenophon'da yöneltici de olabilir. Kaynak olarak Wikipedia değil CAMWS özeti.",
+    "bagimsiz_kaynak": "https://camws.org/sites/default/files/meeting2022/2603Socratesdaimonion_0.pdf (arama özeti)"
+   },
+   {
+    "no": "C10",
+    "karar": "doğrulandı",
+    "kanit": "276. You yourselves must strive; the Buddhas only point the way.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C11",
+    "karar": "doğrulandı",
+    "kanit": "Ak Ana, Ülgen'e ilk ilhamı ve tavsiyeyi verdi; 'De ki hep Yaptım oldu!'; tekrar suya dalarak gözden kaybolmuştur.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C12",
+    "karar": "kısmen",
+    "kanit": "Her dağın, ormanın, ırmağın bir koruyucu ruhu (İye veya Yer-Su ruhu) olduğu düşünülürdü.",
+    "duzeltme": "Kaynak 'her varlığın' demiyor; doğa unsurlarının (dağ, orman, ırmak, su) iyesi olduğunu söylüyor.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C13",
+    "karar": "kontrol edilemedi",
+    "kanit": "Karşılaştırmalı iddia (kurt, geyik, kartal, at kadar baskın değil); Şimşek makalesinde böyle bir karşılaştırma görülmedi, destek yok.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C14",
+    "karar": "kısmen",
+    "kanit": "KÜRE: Türk mitolojisine Çin ve Hint inanç sistemlerinden geçtiği düşünülür; Budizm/Orta Asya ifadesi KÜRE'de yok.",
+    "duzeltme": "Budizm yoluyla Orta Asya'ya girdiği Şimşek (Ögel 1989: 442 atfı) kaynaklıdır, KÜRE kaynaklı değil.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C15",
+    "karar": "kısmen",
+    "kanit": "Wikipedia: Xuanwu kuzeyi ve kışı temsil eder; 'carapace/heaven' ifadesi o sayfada yok. Arama: kabuk gökyüzü, alt kabuk yeryüzü (asianart, traditionalkyoto).",
+    "duzeltme": "Kuzey/kış Wikipedia'da var; üst kabuk gök, alt kabuk yer yorumu başka kaynaklarda.",
+    "bagimsiz_kaynak": "https://asianart.com/exhibitions/shandong/31.html (arama özeti)"
+   },
+   {
+    "no": "C16",
+    "karar": "kısmen",
+    "kanit": "Wikipedia sayfasında 'balance of yin and yang' bulunamadı; arama: iç içe geçme uzun ömür, bereket ve yin-yang dengesi (traditionalkyoto).",
+    "duzeltme": "Uzun ömür ve yin-yang dengesi doğru ama Wikipedia'da değil; 'canlıyı tümüyle yang sayan kaynaklar' kontrol edilemedi.",
+    "bagimsiz_kaynak": "https://traditionalkyoto.com/culture/figures/turtle/ (arama özeti)"
+   },
+   {
+    "no": "C17",
+    "karar": "kısmen",
+    "kanit": "Sayfa Campbell'ın Jung psikolojisini kullandığını ve 'supernatural aid' evresini listeler; 'protective figure' ifadesi yok, 'wise old man' arketipi Zeus için geçer.",
+    "duzeltme": "Jung bağlantısı ve evre doğrulandı; yaşlı bilgenin koruma ve bilgi sağladığı bu sayfada açıkça yazmıyor.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "C18",
+    "karar": "kısmen",
+    "kanit": "used in a philosophical context to refer to a sage or someone who has achieved enlightenment; later texts: physically immortal beings. Kaplumbağa/uzun ömür sanat simgesi bu sayfada yok.",
+    "duzeltme": "Xian tanımı doğru; kaplumbağanın Taocu sanatta uzun ömür simgesi olduğu bu kaynaktan doğrulanamadı.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A5",
+    "karar": "doğrulandı",
+    "kanit": "Türk mitolojisinde kaplumbağa... uğurlu ve kutsal bir varlık olarak kabul edilmiştir.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A8",
+    "karar": "doğrulandı",
+    "kanit": "Boz bir granit kaya üzerine... taş, bir kaplumbağa kaide üzerine oturtulmuşken (Kül Tigin); 'Kaplumbağa kaidenin üzerinde yazı yoktur' (Bilge Kağan bölümü).",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "A9",
+    "karar": "doğrulandı",
+    "kanit": "Bilge Kağan, Köl Tigin ve Moyun Çor yazıtlarının kaplumbağa kaideler üzerine yerleştirilmesi; barış, huzur, uzun ömür ve süreklilik temalarının simgesel yansıması.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   }
+  ],
+  "genel_not": "Defter genel olarak güvenilir: Şimşek ve KÜRE kaynaklı kaplumbağa satırlarının hepsi alıntıyla birebir tuttu. Tekrar eden hata: alıntı doğru, ama ayrıntı ya başka bir kaynaktan (Wikipedia'da olmayan Black Turtle-Snake ifadeleri, Britannica yerine Eliade, Wikipedia yerine CAMWS) ya da genelleştirilmiş (C12 'her varlığın'). Düzeltilmesi gerekenler: C13 desteksiz; C14 Budizm bağı Şimşek/Ögel'e ait; C2 dayanağı Eliade'nin kendi metni; C8 yalnızca Platon için geçerli. Açık kalanlar: Ögel, Çoruhlu, Roux asıl metinleri; Britannica sayfası (403); C5 Sarpedon örneği."
+ },
+ "V2": {
+  "arac": "14/20",
+  "satirlar": [
+   {
+    "no": "B1",
+    "karar": "kısmen",
+    "kanit": "Kaynak sayfada (Turtle shell) 'domed' ve 'sky' geçmedi; yalnızca 'plastrons were used by the ancient Chinese in plastromancy'. Paralellik Vikipedi türevi sitelerde var.",
+    "duzeltme": "Paralellik, Turtle shell sayfasında değil Cultural depictions of turtles türevi kaynaklarda geçer ve modern yazarların yorumudur (bkz. Sarah Allan, The Shape of the Turtle).",
+    "bagimsiz_kaynak": "https://www.Wikipedia.org/wiki/Minogame"
+   },
+   {
+    "no": "B2",
+    "karar": "doğrulandı",
+    "kanit": "Yin and yang are equally important, unlike the dualism of good and evil. Neither can exist without the other.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B3",
+    "karar": "doğrulandı",
+    "kanit": "Dong Zhongshu (c. 2nd century BC), a moral dimension is attached to the idea of yin and yang (Vikipedi Yin and yang; NWE sayfasında geçmedi).",
+    "duzeltme": "Kaynak olarak NWE yerine Wikipedia Yin and yang gösterilmeli; 'iyi-kötü tamamen dışlanamaz' yorumu metinde yok, yalnızca ahlaki boyut ekleniyor.",
+    "bagimsiz_kaynak": "https://en.wikipedia.org/wiki/Yin_and_yang"
+   },
+   {
+    "no": "B4",
+    "karar": "doğrulandı",
+    "kanit": "It represents the north... xuanwu as a whole represents the season of winter; Four Symbols'tan biri.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B5",
+    "karar": "doğrulandı",
+    "kanit": "Each region contains seven mansions, making a total of 28 mansions.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B6",
+    "karar": "kontrol edilemedi",
+    "kanit": "SCMP sayfası 403 verdi. Chinese zodiac Vikipedi sayfasında 12 hayvan standart; kaplumbağa yalnızca Malay zodiac'ında domuz yerine geçiyor.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": "https://en.wikipedia.org/wiki/Chinese_zodiac"
+   },
+   {
+    "no": "B7",
+    "karar": "doğrulandı",
+    "kanit": "standardized in the Han Dynasty, when the Chinese zodiac started to take shape; twelve-year cycle (Vikipedi). Asiaculturaltravel sayfasında anahtar bulunamadı.",
+    "duzeltme": "Kaynak olarak Wikipedia Chinese zodiac gösterilmeli.",
+    "bagimsiz_kaynak": "https://en.wikipedia.org/wiki/Chinese_zodiac"
+   },
+   {
+    "no": "B8",
+    "karar": "doğrulandı",
+    "kanit": "Liji alıntısı: 麟鳳龜龍，謂之四靈; Legge: the lin, the feng, the tortoise, and the dragon. Sayfada 'Qi-lin' yazımı yok, 'lin'.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B9",
+    "karar": "kontrol edilemedi",
+    "kanit": "chiculture.org.hk sayfası bot koruması (Just a moment) nedeniyle açılmadı.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B10",
+    "karar": "doğrulandı",
+    "kanit": "Zhenwu emerged as an anthropomorphic deity in the early Northern Song (960-1126); before he was Xuanwu, a tortoise entwined with a snake (arama özeti; KU sayfası açılmadı).",
+    "duzeltme": "",
+    "bagimsiz_kaynak": "https://kuscholarworks.ku.edu/entities/publication/a100387c-31a6-4a00-9fbb-76d403c71027"
+   },
+   {
+    "no": "B11",
+    "karar": "doğrulandı",
+    "kanit": "Yongle Emperor sponsored an extensive complex of Taoist monasteries in the Wudang Mountains; Ming patronage bölümü.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B12",
+    "karar": "kısmen",
+    "kanit": "Oracle bones are pieces of ox scapula and turtle plastron; plastromancy if turtle plastrons were used. Shang'a özgü değil: Late Shang ve erken Zhou.",
+    "duzeltme": "Kemikler öküz kürek kemiği ve kaplumbağa plastronudur; çoğu Shang, bir kısmı erken Zhou dönemine aittir.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B13",
+    "karar": "kısmen",
+    "kanit": "Alıntı sayfada yok; Tanner'dan: oracle bones are the earliest written records of Chinese civilization.",
+    "duzeltme": "'En eski önemli yazı külliyatı' yerine 'en eski yazılı kayıtlar' ifadesi kaynakta geçer; sayfadaki doğrudan alıntı bu.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B14",
+    "karar": "kontrol edilemedi",
+    "kanit": "si.edu sayfası 403 doğrulama istedi, içerik alınamadı.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B15",
+    "karar": "doğrulandı",
+    "kanit": "Nüwa... cut off the legs of the great turtle to set them up as the four pillars (Huainanzi).",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B16",
+    "karar": "kısmen",
+    "kanit": "A magical turtle emerged from the water with the Lo Shu pattern on its shell: dots arranged in a three-by-three grid. Luo River, Yu bağlantısı doğru.",
+    "duzeltme": "Sayı dizisi 'alt kabukta' değil 'kabuğunda' (on its shell) deniyor; alıntıdaki 'undershell' sayfada yok.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B17",
+    "karar": "doğrulandı",
+    "kanit": "Wangba, a Mandarin Chinese profanity meaning 'cuckold' or 'turtle' (anlam doğru; kökenin belirsizliği sayfada yok).",
+    "duzeltme": "Kaynak yalnızca anlam belirsizliği sayfası; 'kökeni belirsiz' kısmı kaynakla desteklenmiyor.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B18",
+    "karar": "kontrol edilemedi",
+    "kanit": "Blogspot sayfası 503 verdi; zayıf kaynak.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B19",
+    "karar": "kısmen",
+    "kanit": "Kurma Vikipedi: synonymous with Akupara, the World-Turtle supporting the Earth. Atlas Obscura 403 verdi.",
+    "duzeltme": "Kurma, Vishnu'nun kaplumbağa avatarıdır ve Akupara ile eşanlamlı kabul edilir; ikisi tam aynı varlık değildir.",
+    "bagimsiz_kaynak": "https://en.wikipedia.org/wiki/Kurma"
+   },
+   {
+    "no": "B20",
+    "karar": "doğrulandı",
+    "kanit": "Haudenosaunee Sky Woman falls through the hole in the sky and lands on the turtle's back, which becomes Turtle Island.",
+    "duzeltme": "Kaynak Lakota sayfasının 'echoes' bölümü; ikincil.",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B21",
+    "karar": "doğrulandı",
+    "kanit": "Kim Quy appeared to Lê from the lake to take back the sword; The Lake of the Returned Sword (Hoàn Kiếm).",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B22",
+    "karar": "doğrulandı",
+    "kanit": "It is said to protect Kyoto on the north side, being one of the four guardian spirits that protect the city.",
+    "duzeltme": "",
+    "bagimsiz_kaynak": ""
+   },
+   {
+    "no": "B23",
+    "karar": "kısmen",
+    "kanit": "likely symbolizes a state of inner struggle. [citation needed]",
+    "duzeltme": "Sayfa bu yorumu 'citation needed' ile işaretlemiş; kaynaksız bir yorum olarak sunulmalı.",
+    "bagimsiz_kaynak": ""
+   }
+  ],
+  "genel_not": "araç: 14/20. Defter genel olarak güvenilir; çekirdek iddialar (Xuanwu, 28 konak, Liji dört varlık, Nüwa, Zhenwu) kaynakla örtüşüyor. Tekrar eden hata türü: alıntı ya da iddia başka bir sayfadan alınıp yanlış URL'ye bağlanmış (B1, B3, B13, B16). B23 kaynakta 'citation needed' etiketli, B1 yorum niteliğinde. Birçok ticari/ikincil site 403 verdi (SCMP, Atlas Obscura, si.edu, chiculture, blog); B6, B9, B14, B18 doğrulanamadı. B6 için kaplumbağanın 12'li listede olmaması Vikipedi'den bilinen standart listeyle uyumlu."
+ },
+ "dogrulanmayan_satirlar": [
+  "A11",
+  "A14",
+  "A17",
+  "A18",
+  "A19",
+  "A20",
+  "C3",
+  "C7",
+  "C9",
+  "C19"
+ ]
+}
