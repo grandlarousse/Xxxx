@@ -167,8 +167,9 @@ footer { padding-block: 40px 0; color: var(--muted); font-size: 13px; display: g
 
 <nav class="toc" aria-label="Bölümler">
   <ul>
+    <li><a href="#ana">Ana strateji</a></li>
     <li><a href="#ozet">Önce bunu okuyun</a></li>
-    <li><a href="#bugun">Pazartesi ne yapılır</a></li>
+    <li><a href="#bugun">Örnek gün</a></li>
     <li><a href="#rutin">Günlük rutin</a></li>
     <li><a href="#kurallar">Kurallar</a></li>
     <li><a href="#hesap">Hesaplayıcı</a></li>
@@ -179,6 +180,28 @@ footer { padding-block: 40px 0; color: var(--muted); font-size: 13px; display: g
     <li><a href="#raporlar">Raporlar</a></li>
   </ul>
 </nav>
+
+<section id="ana">
+  <div class="sec-head">
+    <div class="eyebrow">Tek kural</div>
+    <h2>Ana strateji: madenciler altından güçlüyse altın al</h2>
+    <p>Altına kapanıştan kapanışa öncülük eden tek şey altın madencisi hisseleri çıktı. Dolar, faiz, S&amp;P, gümüş, petrol, Bitcoin, Asya borsaları, COT ve ETF akışları da test edildi; hiçbiri altının sonraki günlerini öngörmüyor.</p>
+  </div>
+  <article class="rule">
+    <div class="rule-head"><h3>Sinyal → al → 3 gün sonra sat</h3><span class="chip c-good">Bugün: sinyal açık</span><span class="chip c-brass">VİOP F_XAUUSD ya da GLD</span></div>
+    <dl>
+      <dt>Sinyal</dt><dd>TradingView'da <span class="code">AMEX:GDX</span>, <span class="code">AMEX:GLD</span> ve <span class="code">AMEX:SPY</span>'nin dünkü ABD kapanışına kadarki son 10 işlem günlük yüzde değişimini okuyun.
+        <div class="formula">güç = GDX₁₀ − 1,4 × GLD₁₀ − 0,8 × SPY₁₀</div>
+        <b>güç &gt; +%2,5</b> ise sinyal var. Anlamı: madenciler son iki haftada, altının ve borsanın açıklayabileceğinden belirgin fazla yükselmiş. Hesabı <a href="#hesap">hesaplayıcı</a> yapar.</dd>
+      <dt>Al</dt><dd>Sinyal varsa aynı gün <b>18:00–18:10</b>'da VİOP'ta F_XAUUSD alın. Midas'tan girecekseniz 23:50–23:58'de GLD alın (yazın 22:50–22:58).</dd>
+      <dt>Sat</dt><dd>Son sinyal gününden <b>3 işlem günü sonra</b> aynı saatte satın. Sinyal ertesi gün de sürüyorsa satış tarihi bir gün ileri kayar. Sinyal yokken pozisyon yok.</dd>
+      <dt>Geçmişte</dt><dd>VİOP'ta 2017–2026 arasında 84 işlem, yılda ≈9. İşlem başına ortalama <b>+%0,9</b>, işlemlerin <b>%65</b>'i kârlı, en kötüsü −%5,5, en iyisi +%9,4. Sinyalden sonraki 3 günde altın ortalama +%0,26 yükseldi; sıradan günlerde +%0,10. Spot altında 2010–2016'da da aynı yönde çalıştı.</dd>
+      <dt>Zayıf yanı</dt><dd>2022–2024'te fark yaratmadı (zarar da ettirmedi). Avantaj küçük: tek tek işlemler −%4 ile −%5 kaybedebilir, 2026'da üç işlem böyle bitti. Varsayılan perakende komisyonla avantajın üçte biri gidiyor.</dd>
+      <dt>Bugün</dt><dd>10 Kasım Salı: güç <b>+%9,6</b>, sinyal 6 Kasım Cuma'dan beri açık. Bu kuralın VİOP'a uygulanması 10 Kasım'da ek olarak test edildi; bağımsız doğrulamanın sonucu buraya eklenecek.</dd>
+    </dl>
+  </article>
+  <div class="callout small"><b>Hızlı sürüm (günlük).</b> Dün <span class="code">GDXJ</span>'nin yüzde değişimi, <span class="code">GLD</span>'ninkinin 2 katından en az 0,7 puan fazlaysa (GDXJ − 2 × GLD &gt; +%0,7) aynı şekilde alın, 3 gün sonra satın. Sinyalden sonraki 3 günde altın ortalama +%0,22 yükseldi (sıradan günlerde +%0,09), isabet %57. Aynı fikrin bir günlük ölçümü; kanıtı ana kuraldan zayıf.</div>
+</section>
 
 <section id="ozet">
   <div class="sec-head">
@@ -226,7 +249,7 @@ footer { padding-block: 40px 0; color: var(--muted); font-size: 13px; display: g
 
 <section id="bugun">
   <div class="sec-head">
-    <div class="eyebrow">Cuma 6 Kasım verisiyle hesaplandı</div>
+    <div class="eyebrow">Örnek gün · Cuma 6 Kasım verisiyle hesaplandı</div>
     <h2>Pazartesi 9 Kasım'da ne yapılır</h2>
     <p>Bu tablo araştırmanın kendi sinyal betiğiyle hesaplandı. Pazartesi günü değişen tek şey, o günün altın fiyatına bağlı iki koşullu kural.</p>
   </div>
@@ -441,14 +464,14 @@ footer { padding-block: 40px 0; color: var(--muted); font-size: 13px; display: g
 <section id="hesap">
   <div class="sec-head">
     <h2>Hesaplayıcı</h2>
-    <p>TradingView'dan okuduğunuz sayıları girin, kuralın bugün ne dediğini gösterir. Yüzdeleri "1,25" ya da "-0,8" gibi yazın. Örnek olarak Pazartesi 9 Kasım kararının girdileri (Cuma kapanışı) dolu. Altın fiyatı alanlarında Cuma gününün kendi saatlerindeki fiyatlar var; Pazartesi o saatlerde okuduğunuz fiyatları yazın.</p>
+    <p>TradingView'dan okuduğunuz sayıları girin, kuralın bugün ne dediğini gösterir. Yüzdeleri "1,25" ya da "-0,8" gibi yazın. Örnek olarak Salı 10 Kasım kararının girdileri (Pazartesi ABD kapanışı) dolu. Altın fiyatı alanlarına o gün kendi saatlerinde okuduğunuz fiyatları yazın.</p>
   </div>
   <div class="calc">
     <fieldset>
       <legend>Midas · 1. kural · Altın düştüyse GDXJ</legend>
       <div class="fields">
-        <label for="m_prev">Dünkü ABD kapanışında altın (USD)<input id="m_prev" inputmode="decimal" value="4098,77"></label>
-        <label for="m_now">Şu an (15:00 ET) altın (USD)<input id="m_now" inputmode="decimal" value="4063,32"></label>
+        <label for="m_prev">Dünkü ABD kapanışında altın (USD)<input id="m_prev" inputmode="decimal" value="4141,58"></label>
+        <label for="m_now">Şu an (15:00 ET) altın (USD)<input id="m_now" inputmode="decimal" value="4039,00"></label>
       </div>
       <div class="out" id="o_m"></div>
     </fieldset>
@@ -467,7 +490,7 @@ footer { padding-block: 40px 0; color: var(--muted); font-size: 13px; display: g
       </div>
       <div class="out" id="o_c2"></div>
       <div class="fields">
-        <label for="x10_gdx">GDX son 10 gün %<input id="x10_gdx" inputmode="decimal" value=""></label>
+        <label for="x10_gdx">Ana strateji: GDX son 10 gün %<input id="x10_gdx" inputmode="decimal" value=""></label>
         <label for="x10_gld">GLD son 10 gün %<input id="x10_gld" inputmode="decimal" value=""></label>
         <label for="x10_spy">SPY son 10 gün %<input id="x10_spy" inputmode="decimal" value=""></label>
       </div>
@@ -482,8 +505,8 @@ footer { padding-block: 40px 0; color: var(--muted); font-size: 13px; display: g
       </div>
       <div class="out" id="o_a4"></div>
       <div class="fields">
-        <label for="v_p14">Altın 17:00 TSİ (USD)<input id="v_p14" inputmode="decimal" value="4044,38"></label>
-        <label for="v_p15">Altın 18:00 TSİ (USD)<input id="v_p15" inputmode="decimal" value="4048,55"></label>
+        <label for="v_p14">Altın 17:00 TSİ (USD)<input id="v_p14" inputmode="decimal" value="4051,88"></label>
+        <label for="v_p15">Altın 18:00 TSİ (USD)<input id="v_p15" inputmode="decimal" value="4039,01"></label>
       </div>
       <div class="out" id="o_l1"></div>
       <p class="note">VİOP katsayısı: GDXJ için GLD 2,00, eşik ±%0,68 (10 Kasım'dan itibaren geçerli, haftada bir güncellenir).</p>
@@ -666,9 +689,9 @@ function calc() {
   const g10 = num("x10_gdx"), d10 = num("x10_gld"), s10 = num("x10_spy");
   if ([g10, d10, s10].every(isFinite)) {
     const e = (L(g10) - 1.392 * L(d10) - 0.772 * L(s10)) * 100;
-    if (e > 2.515) setOut("o_c1", "pos", `<b>4. kural: sinyal var.</b> GDX 10 günlük artığı ${pct(e)} (eşik +%2,52). GLD kolunu tamamen alın; son sinyalden 5 işlem günü sonra satın.`);
+    if (e > 2.515) setOut("o_c1", "pos", `<b>Ana strateji: sinyal var.</b> Güç ${pct(e)} (eşik +%2,5). VİOP: 18:00–18:10'da F_XAUUSD alın, son sinyalden 3 işlem günü sonra satın. Midas: kapanışa yakın GLD alın.`);
     else if (e < -4.022) setOut("o_c1", "neg", `<b>4. kural: risk uyarısı.</b> Artık ${pct(e)} (alt eşik −%4,02). GLD tutuyorsanız satın, 5 işlem günü sonra geri alın.`);
-    else setOut("o_c1", "", `<b>4. kural: bugün sinyal yok.</b> Artık ${pct(e)} (eşik +%2,52).`);
+    else setOut("o_c1", "", `<b>Ana strateji: bugün sinyal yok.</b> Güç ${pct(e)} (eşik +%2,5). Pozisyonunuz varsa son sinyal gününden 3 işlem günü geçtiyse satın.`);
   } else setOut("o_c1", "", "4. kural için GDX, GLD ve SPY'nin son 10 günlük yüzde değişimini girin.");
   // VİOP B (A4-C1)
   const vg = num("v_gdxj"), vd = num("v_gld");
@@ -771,7 +794,7 @@ const REPS = [
 document.getElementById("reps").innerHTML = REPS.map(r => `<div class="rep"><h3>${r[0]}</h3><ul>${r[2].map(x => `<li>${x}</li>`).join("")}</ul><div class="path">${r[1]}</div></div>`).join("");
 
 // örnek değerler (6 Kasım Cuma; dünkü = 5 Kasım ABD kapanışı)
-const SAMPLE = {"x1_gdxj": "2,82", "x1_gld": "-0,79", "x1_spy": "0,31", "x3_gdx": "12,89", "x3_gld": "3,69", "x3_spy": "-2,53", "x10_gdx": "9,23", "x10_gld": "1,61", "x10_spy": "-3,25", "v_gdxj": "2,82", "v_gld": "-0,79"};
+const SAMPLE = {"x1_gdxj": "4,94", "x1_gld": "1,88", "x1_spy": "2,37", "x3_gdx": "8,12", "x3_gld": "1,89", "x3_spy": "-1,84", "x10_gdx": "12,89", "x10_gld": "3,18", "x10_spy": "-1,66", "v_gdxj": "4,94", "v_gld": "1,88"};
 for (const [k, v] of Object.entries(SAMPLE)) { const el = document.getElementById(k); if (el && el.value === "") el.value = v; }
 renderTable();
 renderCal();
