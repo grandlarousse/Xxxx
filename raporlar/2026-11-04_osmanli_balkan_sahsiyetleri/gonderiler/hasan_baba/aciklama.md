@@ -20,3 +20,33 @@ Bilmediğimiz de çok: Ne zaman doğdu, ne zaman öldü? Kayıtlardaki "Boğacı
 Kaynak: B. Kaya Yiğit ve A. Kayapınar, "Gazi Kırcaali Baba" (RumeliDE, 2018); G. Boykov ve M. Kiprovska (2020), Bulgarca Vikipedi üzerinden.
 
 #HasanBaba #YağmurBaba #Kırcaali #Koşukavak #Mestanlı #Rodoplar #DoğuRodoplar #Rumeli #BalkanTürkleri #BulgaristanTürkleri #Tekke #Türbe #OsmanlıTarihi
+
+---
+
+# Harita karesi tek başına paylaşılırsa (hasan_baba_2.png)
+
+## Açıklama
+
+Doğu Rodoplar'ın ilk dervişleri 📍
+
+Osmanlı fethinden sonra Kırcaali, Mestanlı ve Koşukavak yöresine yerleşen dervişler buralarda zaviyeler kurdu. Adları Osmanlı kayıtlarında geçiyor; türbe ve tekkeleri bugün de köylerinde duruyor.
+
+🟡 Hasan Baba · Baştino (Hasan Babalar), Kırcaali
+Yağmur Baba'nın oğlu. Mezarı sayılan yerde her yıl "mahya" toplantısı yapılıyor.
+
+🟢 Yağmur Baba · Dıjdovnik, Koşukavak
+Hasan Baba'nın babası. Türbesi köyün Teke mahallesinde.
+
+🟢 Ahad Baba · Postnik, Mestanlı
+Köyün eski adı Teke. Tekkesinin çevresinde eski mezar taşları korunuyor.
+
+🟢 Elmalı Baba · Bivolyane, Mestanlı
+Köyde her eylülün ilk cumartesisi onun adına toplanılıyor.
+
+Tarihçi Ömer Lütfi Barkan bu dervişlere "kolonizatör Türk dervişleri" der.
+
+Haritada eksik olan kim var? Köyündeki türbeyi, tekkeyi yorumlara yaz, haritaya ekleyelim.
+
+Kaynak: B. Kaya Yiğit ve A. Kayapınar, "Gazi Kırcaali Baba" (RumeliDE, 2018); Bulgarca Vikipedi köy maddeleri.
+
+#Kırcaali #Koşukavak #Mestanlı #Rodoplar #DoğuRodoplar #HasanBaba #YağmurBaba #AhadBaba #ElmalıBaba #Tekke #Türbe #Rumeli #BalkanTürkleri #BulgaristanTürkleri
