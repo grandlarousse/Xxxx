@@ -1,0 +1,20 @@
+TAZE-3GÜN: n 126 ort % 0.44 medyan % 0.41 kazanan % 60 en kötü % -4.2 en iyi % 6.3 std % 1.7
+  tüm günlerin 3 günlük ort % 0.109 | kazanan % 53
+  yıl yıl: {2017: {'size': 9, 'mean': 0.26}, 2018: {'size': 11, 'mean': -0.13}, 2019: {'size': 11, 'mean': 0.37}, 2020: {'size': 14, 'mean': 0.86}, 2021: {'size': 11, 'mean': 0.28}, 2022: {'size': 19, 'mean': 0.2}, 2023: {'size': 10, 'mean': 0.71}, 2024: {'size': 9, 'mean': -0.23}, 2025: {'size': 20, 'mean': 1.36}, 2026: {'size': 12, 'mean': -0.08}}
+  rastgele n gün plasebosu: ort yüzdelik % 98.6
+  None..2024: n 94 ort %0.31 (tüm günler %0.08) yüzdelik %93.6
+  2018..2024: n 85 ort %0.31 (tüm günler %0.08) yüzdelik %92.1
+  2025..None: n 32 ort %0.82 (tüm günler %0.22) yüzdelik %92.4
+
+ORAN BİÇİMİ (GDX 10g getirisi − GLD 10g getirisi > % 3.62 ) H=3, 5 bps:
+y     2017  2018  2019   2020   2021   2022  2023  2024   2025   2026
+size  5.00  5.00  7.00   7.00  10.00  11.00  6.00  9.00  12.00   6.00
+mean  1.98 -0.43  0.79   2.73  -0.82  -0.34  1.10  0.74   2.45   3.49
+sum   9.89 -2.17  5.55  19.14  -8.23  -3.79  6.58  6.64  29.34  20.96
+  tam      Sharpe 0.95 (B&H 0.57) alfa %5.6 t 2.16 | h3 t 2.20 h5 t 2.14
+  2018-26  Sharpe 0.90 (B&H 0.57) alfa %5.3 t 1.88 | h3 t 1.92 h5 t 1.97
+  2018-24  Sharpe 0.48 (B&H 0.51) alfa %1.5 t 0.61 | h3 t 0.48 h5 t 0.67
+  2022-24  Sharpe 0.40 (B&H 0.46) alfa %1.0 t 0.29 | h3 t 0.03 h5 t -0.47
+  2025-26  Sharpe 1.85 (B&H 0.78) alfa %19.9 t 2.05 | h3 t 2.12 h5 t 2.09
+  V0 ile aynı gün sinyal veren oran: 0.62 | oran sinyal günü: 489 | işlem: 78 ort % 1.08 kazanan % 59 en kötü % -4.5
+  KESİŞİM (ikisi de sinyal): gün 305 Sharpe 0.78 alfa t 1.77 | 2018–24 Sharpe 0.19

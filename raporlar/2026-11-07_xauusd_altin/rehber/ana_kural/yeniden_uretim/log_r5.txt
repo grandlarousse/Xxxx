@@ -1,0 +1,53 @@
+YAHOO TARIH HIZASI (GLD getirisi vs spot altin 16:00 ET->16:00 ET):
+  2008-16: es zamanli korelasyon 0.999 | GLD(d) ~ spot(d-1) 0.001 | GLD(d) ~ spot(d+1) 0.007 | n 2226
+  2017-26: es zamanli korelasyon 0.999 | GLD(d) ~ spot(d-1) -0.006 | GLD(d) ~ spot(d+1) 0.000 | n 2443
+  GDX(d) ~ GLD(d) 0.767 | GDX(d) ~ GLD(d-1) -0.026 | GDX(d) ~ GLD(d+1) 0.040
+  SPY(d) ~ S&P500 CFD(d) 0.999 | (d-1) -0.129 | (d+1) -0.126
+  panel y_GDX == benim (tarih<t son kapanis) GDX fiyatim: maks |fark| 0.0
+  panel y_GDX_avail her zaman < gun t 15:00 UTC: True | yarim gunlerde < 09:30 UTC: True
+
+ELLE NEWEY-WEST (kucuk orneklem duzeltmesiz) vs statsmodels:
+  esik A h1: elle fark +0.079% t 1.60 | statsmodels t 1.60
+  esik A h3: elle fark +0.217% t 1.86 | statsmodels t 1.86
+  esik A h5: elle fark +0.420% t 2.42 | statsmodels t 2.42
+  esik C h1: elle fark +0.089% t 1.85 | statsmodels t 1.85
+  esik C h3: elle fark +0.239% t 2.09 | statsmodels t 2.09
+  esik C h5: elle fark +0.449% t 2.64 | statsmodels t 2.64
+
+ORTUSMEYEN ORNEKLEME (her h. gun; h ayri faz) — sinyal vs diger, Welch t:
+  esik A h3: faz t'leri [1.7, 0.96, 1.63] | ortalama 1.43
+  esik A h5: faz t'leri [1.88, 0.95, 1.92, 1.32, 1.85] | ortalama 1.58
+  esik C h3: faz t'leri [2.2, 1.21, 1.46] | ortalama 1.62
+  esik C h5: faz t'leri [1.66, 1.96, 2.09, 1.37, 1.76] | ortalama 1.77
+
+ALT DONEMLER:
+  esik A h3: 2018-2024 fark +0.030% t 0.28 (n 276) | 2018-2021 +0.121% t 0.94 | 2017(03-12) +0.755% t 2.86 (n 36)
+  esik A h5: 2018-2024 fark +0.065% t 0.39 (n 276) | 2018-2021 +0.284% t 1.42 | 2017(03-12) +1.210% t 3.51 (n 36)
+  esik C h3: 2018-2024 fark +0.023% t 0.22 (n 302) | 2018-2021 +0.138% t 1.06 | 2017(03-12) +0.697% t 2.56 (n 37)
+  esik C h5: 2018-2024 fark +0.078% t 0.48 (n 302) | 2018-2021 +0.315% t 1.60 | 2017(03-12) +1.087% t 2.87 (n 37)
+
+LIKIDITE (F_XAUUSD, tum vadeler toplam; yillik medyan gunluk): kontrat / milyon TL / islem
+date      2017    2018     2019     2020     2021     2022     2023     2024     2025     2026
+volume  7472.0  9384.0  22124.0  65810.0  50096.0  22006.0  20021.0  24704.0  51438.0  42912.0
+value     34.0    56.0    173.0    839.0    777.0    662.0    896.0   1951.0   7023.0   8766.0
+trades   953.0  1060.0   3341.0  12116.0   8439.0   4360.0   4160.0   4820.0  10156.0   9281.0
+
+GUNCEL: son ABD kapanislari ve x (%):
+            e250  X250
+date                  
+2026-10-28  0.16  1.22
+2026-10-29 -1.01 -1.37
+2026-10-30  1.07 -2.26
+2026-11-02  0.83 -0.49
+2026-11-03 -1.33 -1.85
+2026-11-04  2.26  0.60
+2026-11-05  4.23  6.15
+2026-11-06  3.01  9.65
+  esik A 2.541% | esik C 2.307% | son ABD kapanisi 2026-11-06 x = 9.65% -> bir sonraki VIOP gunu icin sinyal: VAR
+  son VIOP gunu veri setinde: 2026-11-06 | o gun sinyal: 1
+
+SINYAL ve OYNAKLIK: sinyal gunlerinde onceki 20 gun VIOP oynakligi ort 17.1 | diger 13.6
+  yuksek oynaklik yarisi h3: fark +0.231% t 1.34 (n 275)
+  yuksek oynaklik yarisi h5: fark +0.438% t 1.80 (n 275)
+  dusuk oynaklik yarisi h3: fark +0.255% t 1.80 (n 177)
+  dusuk oynaklik yarisi h5: fark +0.501% t 2.19 (n 177)

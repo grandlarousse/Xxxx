@@ -1,0 +1,16 @@
+temel                        th 2.300 n  494 | h3 0.288/0.094 t 2.13 | h5 0.516/0.155 t 2.67 || 85(+1) net 1.00 brut 1.05 kaz 67 enkotu -5.5 Sh 1.01 alfa 6.1 t 2.60 | 22: Sh 0.84 t 1.95
+temel                        th 2.350 n  486 | h3 0.287/0.094 t 2.11 | h5 0.515/0.155 t 2.62 || 84(+1) net 0.97 brut 1.02 kaz 68 enkotu -5.5 Sh 0.98 alfa 5.8 t 2.48 | 22: Sh 0.80 t 1.84
+temel                        th 2.400 n  478 | h3 0.294/0.094 t 2.16 | h5 0.521/0.155 t 2.64 || 84(+1) net 0.99 brut 1.04 kaz 68 enkotu -5.5 Sh 1.00 alfa 5.9 t 2.56 | 22: Sh 0.82 t 1.91
+temel                        th 2.450 n  465 | h3 0.284/0.094 t 2.03 | h5 0.509/0.155 t 2.52 || 82(+1) net 0.95 brut 1.00 kaz 67 enkotu -5.5 Sh 0.95 alfa 5.5 t 2.42 | 22: Sh 0.78 t 1.78
+temel                        th 2.500 n  460 | h3 0.285/0.094 t 2.04 | h5 0.508/0.155 t 2.52 || 82(+1) net 0.96 brut 1.01 kaz 67 enkotu -5.5 Sh 0.97 alfa 5.6 t 2.49 | 22: Sh 0.80 t 1.85
+temel                        th 2.550 n  452 | h3 0.271/0.094 t 1.86 | h5 0.498/0.155 t 2.41 || 80(+1) net 0.94 brut 0.99 kaz 66 enkotu -5.5 Sh 0.93 alfa 5.3 t 2.35 | 22: Sh 0.76 t 1.72
+temel                        th 2.600 n  440 | h3 0.278/0.094 t 1.89 | h5 0.517/0.155 t 2.50 || 82(+1) net 0.95 brut 1.00 kaz 66 enkotu -5.5 Sh 0.97 alfa 5.6 t 2.49 | 22: Sh 0.80 t 1.85
+temel                        th 2.650 n  427 | h3 0.276/0.094 t 1.85 | h5 0.489/0.155 t 2.29 || 83(+1) net 0.91 brut 0.96 kaz 65 enkotu -5.5 Sh 0.95 alfa 5.4 t 2.43 | 22: Sh 0.77 t 1.77
+temel                        th 2.700 n  420 | h3 0.282/0.094 t 1.92 | h5 0.500/0.155 t 2.38 || 84(+1) net 0.93 brut 0.98 kaz 65 enkotu -5.5 Sh 1.00 alfa 5.7 t 2.62 | 22: Sh 0.82 t 1.94
+temel                        th 2.750 n  409 | h3 0.270/0.094 t 1.76 | h5 0.470/0.155 t 2.16 || 85(+1) net 0.87 brut 0.92 kaz 64 enkotu -5.5 Sh 0.95 alfa 5.3 t 2.42 | 22: Sh 0.76 t 1.74
+temel                        th 2.800 n  405 | h3 0.267/0.094 t 1.72 | h5 0.455/0.155 t 2.04 || 85(+1) net 0.85 brut 0.90 kaz 65 enkotu -5.5 Sh 0.93 alfa 5.2 t 2.37 | 22: Sh 0.75 t 1.68
+temel                        th 2.850 n  394 | h3 0.262/0.094 t 1.64 | h5 0.451/0.155 t 1.96 || 84(+1) net 0.81 brut 0.86 kaz 63 enkotu -5.5 Sh 0.89 alfa 4.8 t 2.21 | 22: Sh 0.70 t 1.53
+temel                        th 2.900 n  382 | h3 0.270/0.094 t 1.68 | h5 0.447/0.155 t 1.89 || 84(+1) net 0.82 brut 0.87 kaz 65 enkotu -5.5 Sh 0.89 alfa 4.8 t 2.23 | 22: Sh 0.71 t 1.55
+temel                        th 2.950 n  377 | h3 0.274/0.094 t 1.69 | h5 0.442/0.155 t 1.84 || 83(+1) net 0.82 brut 0.87 kaz 65 enkotu -5.5 Sh 0.89 alfa 4.8 t 2.21 | 22: Sh 0.70 t 1.54
+sabit cikarilmis 2008-17     th 3.268 n  405 | h3 0.235/0.094 t 1.40 | h5 0.373/0.155 t 1.51 || 82(+1) net 0.76 brut 0.81 kaz 63 enkotu -5.5 Sh 0.81 alfa 4.2 t 1.91 | 22: Sh 0.63 t 1.25
+sabit cikarilmis <=2017      th 3.214 n  413 | h3 0.238/0.094 t 1.44 | h5 0.392/0.155 t 1.64 || 82(+1) net 0.76 brut 0.81 kaz 65 enkotu -5.5 Sh 0.81 alfa 4.2 t 1.91 | 22: Sh 0.63 t 1.25

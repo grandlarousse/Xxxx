@@ -185,22 +185,24 @@ footer { padding-block: 40px 0; color: var(--muted); font-size: 13px; display: g
   <div class="sec-head">
     <div class="eyebrow">Tek kural</div>
     <h2>Ana strateji: madenciler altından güçlüyse altın al</h2>
-    <p>Altına kapanıştan kapanışa öncülük eden tek şey altın madencisi hisseleri çıktı. Dolar, faiz, S&amp;P, gümüş, petrol, Bitcoin, Asya borsaları, COT ve ETF akışları da test edildi; hiçbiri altının sonraki günlerini öngörmüyor.</p>
+    <p>Altında "bir varlık yükseldi, altını al, 1–3 gün sonra sat" biçiminde güvenle çalışan bir öncü bulunamadı. Test edilenler içinde ayakta kalan tek aday altın madencisi hisseleri ve kanıtı zayıf. Dolar, faiz, S&amp;P, gümüş, petrol, Bitcoin, Asya borsaları, COT ve ETF akışları altının sonraki günlerini öngörmüyor.</p>
   </div>
   <article class="rule">
-    <div class="rule-head"><h3>Sinyal → al → 3 gün sonra sat</h3><span class="chip c-good">Bugün: sinyal açık</span><span class="chip c-brass">VİOP F_XAUUSD ya da GLD</span></div>
+    <div class="rule-head"><h3>Sinyal → al → sinyal bitince sat</h3><span class="chip c-warn">güven DÜŞÜK</span><span class="chip c-good">10 Kasım: sinyal açık</span><span class="chip c-brass">VİOP F_XAUUSD ya da GLD</span></div>
     <dl>
-      <dt>Sinyal</dt><dd>TradingView'da <span class="code">AMEX:GDX</span>, <span class="code">AMEX:GLD</span> ve <span class="code">AMEX:SPY</span>'nin dünkü ABD kapanışına kadarki son 10 işlem günlük yüzde değişimini okuyun.
-        <div class="formula">güç = GDX₁₀ − 1,4 × GLD₁₀ − 0,8 × SPY₁₀</div>
-        <b>güç &gt; +%2,5</b> ise sinyal var. Anlamı: madenciler son iki haftada, altının ve borsanın açıklayabileceğinden belirgin fazla yükselmiş. Hesabı <a href="#hesap">hesaplayıcı</a> yapar.</dd>
-      <dt>Al</dt><dd>Sinyal varsa aynı gün <b>18:00–18:10</b>'da VİOP'ta F_XAUUSD alın. Midas'tan girecekseniz 23:50–23:58'de GLD alın (yazın 22:50–22:58).</dd>
-      <dt>Sat</dt><dd>Son sinyal gününden <b>3 işlem günü sonra</b> aynı saatte satın. Sinyal ertesi gün de sürüyorsa satış tarihi bir gün ileri kayar. Sinyal yokken pozisyon yok.</dd>
-      <dt>Geçmişte</dt><dd>VİOP'ta 2017–2026 arasında 84 işlem, yılda ≈9. İşlem başına ortalama <b>+%0,9</b>, işlemlerin <b>%65</b>'i kârlı, en kötüsü −%5,5, en iyisi +%9,4. Sinyalden sonraki 3 günde altın ortalama +%0,26 yükseldi; sıradan günlerde +%0,10. Spot altında 2010–2016'da da aynı yönde çalıştı.</dd>
-      <dt>Zayıf yanı</dt><dd>2022–2024'te fark yaratmadı (zarar da ettirmedi). Avantaj küçük: tek tek işlemler −%4 ile −%5 kaybedebilir, 2026'da üç işlem böyle bitti. Varsayılan perakende komisyonla avantajın üçte biri gidiyor.</dd>
-      <dt>Bugün</dt><dd>10 Kasım Salı: güç <b>+%9,6</b>, sinyal 6 Kasım Cuma'dan beri açık. Bu kuralın VİOP'a uygulanması 10 Kasım'da ek olarak test edildi; bağımsız doğrulamanın sonucu buraya eklenecek.</dd>
+      <dt>Sinyal</dt><dd>TradingView'da <span class="code">AMEX:GDX</span> ve <span class="code">AMEX:GLD</span>'nin dünkü ABD kapanışına kadarki son 10 işlem günlük yüzde değişimini okuyun.
+        <div class="formula">güç = GDX₁₀ − GLD₁₀</div>
+        <b>güç &gt; +3,6 puan</b> ise sinyal var: madenciler son iki haftada altından belirgin fazla yükselmiş. Hesabı <a href="#hesap">hesaplayıcı</a> yapar.</dd>
+      <dt>Al</dt><dd>Sinyal varsa o gün <b>18:00–18:10</b>'da VİOP'ta F_XAUUSD alın. Midas'tan girecekseniz 23:50–23:58'de GLD alın (yazın 22:50–22:58).</dd>
+      <dt>Sat</dt><dd>Son sinyal gününden <b>3 işlem günü sonra</b> aynı saatte satın. Sinyal günlerce açık kalabildiği için bir işlem ortalama 8–9 işlem günü sürer; işlemlerin yalnız beşte biri 3 günde kapanır.</dd>
+      <dt>Geçmişte</dt><dd>VİOP'ta 2017–2026: yılda 8–9 işlem. İşlem başına ortalama <b>+%1,0</b> (medyan +%0,6), işlemlerin <b>%60–66</b>'sı kârlı, en kötüsü −%5,5 (pozisyon içindeyken −%8 ile −%9 görüldü).</dd>
+      <dt>Zayıf yanı</dt><dd><b>2018–2024 arasındaki 7 yılda altını sürekli tutmaktan iyi değildi</b> (işlem başına ortalama +%0,3). Kazancın üçte ikisi 2025–26'dan, yarısı en iyi 5 işlemden geliyor. Gidiş-dönüş komisyon 10 bps'i geçerse avantaj istatistiksel olarak kayboluyor. Hızlı bir 1–3 günlük sinyal değil, yavaş bir rejim göstergesi.</dd>
+      <dt>Doğrulama</dt><dd>İki bağımsız ajan kuralı sıfırdan kurdu. İleriye bakma yok, rakamlar tuttu, kural rastgele girişlere göre en iyi %1'lik dilimde. Yukarıdaki zayıflıklar yüzünden son güven DÜŞÜK.</dd>
+      <dt>Nasıl kullanılır</dt><dd>Küçük boyutla: pozisyonun toplam değeri özsermayenizi geçmesin. İlk aylarda kâğıt üzerinde izleyin. Yıllarca getirisiz kalabilir.</dd>
+      <dt>Bugün</dt><dd>10 Kasım Salı: 9 Kasım kapanışıyla güç <b>+9,0 puan</b>. Sinyal 9 Kasım Pazartesi'den beri açık.</dd>
     </dl>
   </article>
-  <div class="callout small"><b>Hızlı sürüm (günlük).</b> Dün <span class="code">GDXJ</span>'nin yüzde değişimi, <span class="code">GLD</span>'ninkinin 2 katından en az 0,7 puan fazlaysa (GDXJ − 2 × GLD &gt; +%0,7) aynı şekilde alın, 3 gün sonra satın. Sinyalden sonraki 3 günde altın ortalama +%0,22 yükseldi (sıradan günlerde +%0,09), isabet %57. Aynı fikrin bir günlük ölçümü; kanıtı ana kuraldan zayıf.</div>
+  <div class="callout small"><b>Hızlı sürüm (günlük).</b> Dün <span class="code">GDXJ</span>'nin yüzde değişimi, <span class="code">GLD</span>'ninkinin 2 katından en az 0,7 puan fazlaysa (GDXJ − 2 × GLD &gt; +%0,7) aynı şekilde alın, 3 gün sonra satın. Sinyalden sonraki 3 günde altın ortalama +%0,22 yükseldi (sıradan günlerde +%0,09), isabet %57. Aynı fikrin bir günlük ölçümü; güveni yine DÜŞÜK.</div>
 </section>
 
 <section id="ozet">
@@ -492,7 +494,7 @@ footer { padding-block: 40px 0; color: var(--muted); font-size: 13px; display: g
       <div class="fields">
         <label for="x10_gdx">Ana strateji: GDX son 10 gün %<input id="x10_gdx" inputmode="decimal" value=""></label>
         <label for="x10_gld">GLD son 10 gün %<input id="x10_gld" inputmode="decimal" value=""></label>
-        <label for="x10_spy">SPY son 10 gün %<input id="x10_spy" inputmode="decimal" value=""></label>
+        <label for="x10_spy">SPY son 10 gün % (4. kural için)<input id="x10_spy" inputmode="decimal" value=""></label>
       </div>
       <div class="out" id="o_c1"></div>
       <p class="note">Katsayılar 6 Kasım 2026'ya göre: GDXJ için GLD 1,51 / SPY 1,00; GDX için GLD 1,39 / SPY 0,77. Son 12 ayda SPY katsayısı 0,3–1,1 arasında oynadı, ayda bir güncellenmeli. Sonuç yaklaşıktır.</p>
@@ -685,14 +687,15 @@ function calc() {
     if (e > 0.806) setOut("o_c2", "pos", `<b>3. kural: sinyal var.</b> GDX 3 günlük artığı ${pct(e)} (eşik +%0,81). GDX kolunu tamamen alın; son sinyalden 3 işlem günü sonra satın.`);
     else setOut("o_c2", "", `<b>3. kural: bugün sinyal yok.</b> Artık ${pct(e)} (eşik +%0,81).`);
   } else setOut("o_c2", "", "3. kural için GDX, GLD ve SPY'nin son 3 günlük yüzde değişimini girin.");
-  // 4. kural (C1)
+  // Ana strateji (sade biçim) ve 4. kural (tam biçim)
   const g10 = num("x10_gdx"), d10 = num("x10_gld"), s10 = num("x10_spy");
-  if ([g10, d10, s10].every(isFinite)) {
-    const e = (L(g10) - 1.392 * L(d10) - 0.772 * L(s10)) * 100;
-    if (e > 2.515) setOut("o_c1", "pos", `<b>Ana strateji: sinyal var.</b> Güç ${pct(e)} (eşik +%2,5). VİOP: 18:00–18:10'da F_XAUUSD alın, son sinyalden 3 işlem günü sonra satın. Midas: kapanışa yakın GLD alın.`);
-    else if (e < -4.022) setOut("o_c1", "neg", `<b>4. kural: risk uyarısı.</b> Artık ${pct(e)} (alt eşik −%4,02). GLD tutuyorsanız satın, 5 işlem günü sonra geri alın.`);
-    else setOut("o_c1", "", `<b>Ana strateji: bugün sinyal yok.</b> Güç ${pct(e)} (eşik +%2,5). Pozisyonunuz varsa son sinyal gününden 3 işlem günü geçtiyse satın.`);
-  } else setOut("o_c1", "", "4. kural için GDX, GLD ve SPY'nin son 10 günlük yüzde değişimini girin.");
+  if ([g10, d10].every(isFinite)) {
+    const sade = (L(g10) - L(d10)) * 100;
+    const tam = isFinite(s10) ? (L(g10) - 1.392 * L(d10) - 0.772 * L(s10)) * 100 : NaN;
+    const tamTxt = isFinite(tam) ? ` Tam biçim (4. kural, SPY dahil): ${pct(tam)}, eşik +%2,5${tam < -4.022 ? "; GLD tutanlar için risk uyarısı (−%4,0'ın altı)" : ""}.` : "";
+    if (sade > 3.62) setOut("o_c1", "pos", `<b>Ana strateji: sinyal var.</b> GDX, GLD'den ${fmt(sade, 1)} puan güçlü (eşik +3,6). VİOP: 18:00–18:10'da F_XAUUSD alın, son sinyalden 3 işlem günü sonra satın. Midas: kapanışa yakın GLD alın.${tamTxt}`);
+    else setOut("o_c1", "", `<b>Ana strateji: bugün sinyal yok.</b> GDX − GLD farkı ${fmt(sade, 1)} puan (eşik +3,6). Pozisyonunuz varsa son sinyal gününden 3 işlem günü geçtiyse satın.${tamTxt}`);
+  } else setOut("o_c1", "", "Ana strateji için GDX ve GLD'nin son 10 günlük yüzde değişimini girin.");
   // VİOP B (A4-C1)
   const vg = num("v_gdxj"), vd = num("v_gld");
   if ([vg, vd].every(isFinite)) {

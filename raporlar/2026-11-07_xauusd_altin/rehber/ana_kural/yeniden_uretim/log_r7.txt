@@ -1,0 +1,7 @@
+fwd1: benim hedefim ile panel fwd1 maks |fark| = 0.0
+fwd3: benim hedefim ile panel fwd3 maks |fark| = 0.0
+fwd5: benim hedefim ile panel fwd5 maks |fark| = 0.0
+esik A H=3: vektorel Sharpe 0.931 vs dongu 0.931 | pos ayni: True | islem 81 vs 81 | brut ort %0.979 vs %0.979 | medyan %0.86 | kazanan(brut) %66.7 | net(5bps) kazanan %66.7
+esik A H=5: vektorel Sharpe 0.982 vs dongu 0.982 | pos ayni: True | islem 67 vs 67 | brut ort %1.410 vs %1.410 | medyan %1.40 | kazanan(brut) %65.7 | net(5bps) kazanan %65.7
+esik C H=3: vektorel Sharpe 1.004 vs dongu 1.004 | pos ayni: True | islem 85 vs 85 | brut ort %1.037 vs %1.037 | medyan %0.61 | kazanan(brut) %67.1 | net(5bps) kazanan %65.9
+esik C H=5: vektorel Sharpe 1.003 vs dongu 1.003 | pos ayni: True | islem 73 vs 73 | brut ort %1.346 vs %1.346 | medyan %0.94 | kazanan(brut) %64.4 | net(5bps) kazanan %64.4

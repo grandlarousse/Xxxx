@@ -1,0 +1,58 @@
+xau_p15 eksik gün: 20
+TAŞIMA (spot getirisi − vadeli getirisi), yıllık %: 4.71 | yıl yıl: {2017: 1.7, 2018: 2.6, 2019: 2.9, 2020: 1.8, 2021: 1.1, 2022: 4.9, 2023: 8.7, 2024: 7.6, 2025: 5.8, 2026: 10.3}
+uzlaşma/spot primi yıllıklandırılmış medyan % (dte>20): {2017: 1.6, 2018: 2.7, 2019: 3.2, 2020: 2.2, 2021: 1.2, 2022: 3.8, 2023: 7.1, 2024: 6.7, 2025: 5.4, 2026: 5.8}
+B&H vadeli: yıllık %9.0 Sharpe 0.57 | B&H spot (taşımasız): yıllık %12.3 Sharpe 0.78
+
+=== MALİYET × H (tam örneklem ve 2018+) ===
+ H  bps  Sharpe  Sh_18p  Sh_18_24  yillik  alfa  alfa_t  alfa18_t  alfa_vs_spotBH  t_vs_spot  spotKural_Sh  spotKural_alfa  spotKural_t  ort_islem  maxDD
+ 3    0    1.06    1.01      0.48     9.2   6.4    2.76      2.47             5.0       2.09          1.17             6.5         2.75       1.04  -13.0
+ 3    5    1.00    0.96      0.42     8.7   6.0    2.57      2.29             4.5       1.90          1.12             6.0         2.56       0.99  -13.1
+ 3   10    0.95    0.91      0.36     8.3   5.6    2.38      2.11             4.1       1.71          1.07             5.6         2.37       0.94  -13.2
+ 3   22    0.83    0.78      0.21     7.2   4.5    1.93      1.68             3.0       1.26          0.94             4.5         1.92       0.82  -13.4
+ 3   40    0.65    0.60     -0.00     5.6   2.9    1.25      1.03             1.4       0.58          0.76             2.9         1.23       0.64  -14.7
+ 5    0    1.04    0.98      0.59    10.1   6.7    2.62      2.26             5.0       1.89          1.16             6.7         2.55       1.35  -13.0
+ 5    5    1.00    0.94      0.55     9.8   6.4    2.47      2.12             4.6       1.75          1.12             6.3         2.40       1.30  -13.1
+ 5   10    0.96    0.90      0.50     9.4   6.0    2.32      1.98             4.3       1.60          1.09             5.9         2.26       1.25  -13.2
+ 5   22    0.87    0.81      0.39     8.5   5.1    1.97      1.65             3.4       1.26          0.99             5.0         1.91       1.13  -13.7
+ 5   40    0.73    0.67      0.22     7.1   3.7    1.44      1.15             2.0       0.75          0.85             3.7         1.39       0.95  -14.3
+
+kuralın ödediği taşıma: yılda %1.62 (piyasada %30); B&H vadeli yılda %4.71 öder.
+Sharpe farkı ayrıştırma (5 bps, H=3): vadeli kural 1.00 − vadeli B&H 0.57 = +0.44 ; aynı kural spot getirisiyle 1.12 − spot B&H 0.78 = +0.34
+  maks düşüş: kural % -13.1 | B&H vadeli % -35.4
+
+İŞLEM SÜRESİ (H=3; VİOP günü): {'count': 85.0, 'mean': 8.5, 'std': 6.6, 'min': 3.0, '25%': 4.0, '50%': 6.0, '75%': 11.0, 'max': 34.0} | 3 gün olan % 18 | ≤5 gün % 46 | >10 gün % 26
+  süreye göre ort getiri %: {Interval(0, 3, closed='right'): {'size': 15, 'mean': 0.37, 'sum': 5.59}, Interval(3, 5, closed='right'): {'size': 24, 'mean': 1.04, 'sum': 25.05}, Interval(5, 10, closed='right'): {'size': 24, 'mean': 0.78, 'sum': 18.79}, Interval(10, 100, closed='right'): {'size': 22, 'mean': 1.57, 'sum': 34.5}}
+
+SİNYAL YAŞI → sonraki getiriler (ort %):
+  1. gün (taze)  n  127  h1 +0.151  h3 +0.422  h5 +0.615
+  2–3. gün       n  145  h1 +0.133  h3 +0.244  h5 +0.560
+  4–7. gün       n  122  h1 +0.068  h3 +0.288  h5 +0.473
+  8+ gün         n   99  h1 +0.035  h3 +0.161  h5 +0.364
+  sinyal yok     n 1934  h1 +0.013  h3 +0.045  h5 +0.064
+  yalnız TAZE sinyalde gir, tam 3 gün tut (uzatma yok): fark {'diff': np.float64(0.346), 't': np.float64(2.399), 'n1': 126, 'm1': np.float64(0.422), 'm0': np.float64(0.076)}
+  yalnız TAZE sinyalde gir, tam 5 gün tut: {'diff': np.float64(0.485), 't': np.float64(2.173), 'n1': 126, 'm1': np.float64(0.615), 'm0': np.float64(0.13)}
+  sinyalin söndüğü ilk gün sonrası h3: 0.518 n 126
+
+=== PLASEBO (1000 simülasyon; H=3, 5 bps). GERÇEK KURAL: Sharpe 1.00, ort_islem% 0.99, alfa% 6.01, alfa_t 2.57, yillik% 8.72, islem 85.00, piyasada 0.30, medyan_islem% 0.56, kazanan 0.66
+[A dairesel kaydırma (kümelenme aynı, zaman rastgele)]
+   plasebo medyan: Sharpe 0.27, ort_islem% 0.26, alfa% -0.48, alfa_t -0.19, yillik% 2.36, islem 86.00, piyasada 0.30, medyan_islem% 0.15, kazanan 0.53
+   plasebo %5–%95: Sharpe [-0.15, 0.70], ort_islem% [-0.15, 0.68], alfa% [-4.10, 3.39], alfa_t [-1.67, 1.42], yillik% [-1.30, 6.04]
+   kuralın yüzdeliği: Sharpe %99.6, ort_islem% %99.9, alfa% %99.7, alfa_t %99.7, yillik% %99.8
+[B koşu karıştırma (aynı işlem süreleri, rastgele sıra)]
+   plasebo medyan: Sharpe 0.26, ort_islem% 0.24, alfa% -0.46, alfa_t -0.19, yillik% 2.25, islem 85.00, piyasada 0.30, medyan_islem% 0.14, kazanan 0.53
+   plasebo %5–%95: Sharpe [-0.17, 0.71], ort_islem% [-0.17, 0.68], alfa% [-4.33, 3.45], alfa_t [-1.76, 1.48], yillik% [-1.47, 6.00]
+   kuralın yüzdeliği: Sharpe %99.2, ort_islem% %99.3, alfa% %99.3, alfa_t %99.3, yillik% %99.4
+[C YIL İÇİ kaydırma (her yıl aynı sayıda sinyal günü)]
+   plasebo medyan: Sharpe 0.26, ort_islem% 0.26, alfa% -0.81, alfa_t -0.32, yillik% 2.37, islem 87.00, piyasada 0.30, medyan_islem% 0.19, kazanan 0.54
+   plasebo %5–%95: Sharpe [-0.16, 0.70], ort_islem% [-0.17, 0.73], alfa% [-5.02, 3.39], alfa_t [-1.98, 1.34], yillik% [-1.52, 6.54]
+   kuralın yüzdeliği: Sharpe %100.0, ort_islem% %100.0, alfa% %100.0, alfa_t %100.0, yillik% %100.0
+[D tamamen rastgele günler (kümelenmesiz)]
+   plasebo medyan: Sharpe 0.28, ort_islem% 0.12, alfa% -1.29, alfa_t -0.50, yillik% 3.16, islem 249.00, piyasada 0.49, medyan_islem% 0.10, kazanan 0.52
+   plasebo %5–%95: Sharpe [-0.09, 0.68], ort_islem% [-0.04, 0.29], alfa% [-5.63, 3.09], alfa_t [-2.16, 1.20], yillik% [-0.99, 7.43]
+   kuralın yüzdeliği: Sharpe %100.0, ort_islem% %100.0, alfa% %99.9, alfa_t %100.0, yillik% %98.4
+[2018–2026 / plasebo A] kural Sharpe 0.96 (yüzdelik %99.0; plasebo medyan 0.25) | ort işlem %0.95 (yüzdelik %99.0; medyan 0.25) | alfa %5.7 (yüzdelik %99.0)
+[2018–2026 / plasebo C] kural Sharpe 0.96 (yüzdelik %99.6; plasebo medyan 0.27) | ort işlem %0.95 (yüzdelik %99.4; medyan 0.28) | alfa %5.7 (yüzdelik %99.6)
+[2018–2024 / plasebo A] kural Sharpe 0.42 (yüzdelik %74.6; plasebo medyan 0.19) | ort işlem %0.34 (yüzdelik %74.6; medyan 0.15) | alfa %1.1 (yüzdelik %76.0)
+[2018–2024 / plasebo C] kural Sharpe 0.42 (yüzdelik %78.0; plasebo medyan 0.15) | ort işlem %0.34 (yüzdelik %77.4; medyan 0.12) | alfa %1.1 (yüzdelik %78.0)
+[2026 hariç / plasebo A] kural Sharpe 1.09 (yüzdelik %99.0; plasebo medyan 0.37) | ort işlem %0.90 (yüzdelik %99.2; medyan 0.32) | alfa %4.9 (yüzdelik %99.0)
+[2026 hariç / plasebo C] kural Sharpe 1.09 (yüzdelik %99.2; plasebo medyan 0.40) | ort işlem %0.90 (yüzdelik %99.0; medyan 0.35) | alfa %4.9 (yüzdelik %99.2)
