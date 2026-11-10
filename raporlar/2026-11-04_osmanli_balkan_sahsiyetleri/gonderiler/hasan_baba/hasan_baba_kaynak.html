@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;0,800;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<style>
+:root{--bg:#12201b;--ink:#ede8dc;--muted:#a9b3ab;--ochre:#d9a552;--teal:#6dc1a7;--rule:#2c3d35;
+--d:"Alegreya",Georgia,serif;--b:"Alegreya Sans",system-ui,sans-serif;--m:"IBM Plex Mono",Menlo,monospace}
+*{box-sizing:border-box;margin:0}
+body{background:#000}
+.s{width:1080px;height:1350px;background:var(--bg);color:var(--ink);font-family:var(--b);padding:84px 80px 64px;display:flex;flex-direction:column;gap:26px;position:relative;overflow:hidden}
+.eb{font:500 23px var(--m);letter-spacing:.12em;text-transform:uppercase;color:var(--ochre);display:flex;justify-content:space-between}
+.eb span{color:var(--muted);letter-spacing:.04em}
+.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid var(--rule);padding-top:18px;font:400 18px/1.4 var(--m);color:var(--muted)}
+.foot strong{font:500 22px var(--d);color:var(--ink);white-space:nowrap}
+/* 1 */
+.hook{font:800 118px/1.02 var(--d);letter-spacing:-.015em;margin-top:80px}
+.hook em{font-style:normal;color:var(--ochre);display:block;margin-top:14px}
+.who{display:flex;flex-direction:column;gap:12px;border-left:5px solid var(--ochre);padding-left:26px;margin-top:64px}
+.who b{font:700 62px/1.05 var(--d)}
+.who span{font-size:32px;line-height:1.3;color:var(--muted)}
+.kaydir{position:absolute;right:80px;bottom:150px;font:500 26px var(--m);color:var(--bg);background:var(--ochre);padding:12px 20px;border-radius:4px}
+/* 2 */
+h2{font:800 72px/1.03 var(--d);letter-spacing:-.01em}
+.lead{font-size:29px;line-height:1.33;color:var(--muted)}
+.map svg{display:block;border-radius:6px}
+.legend{display:grid;grid-template-columns:1fr 1fr;gap:12px 30px;font-size:26px;line-height:1.28}
+.legend div{display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:start}
+.legend i{width:20px;height:20px;border-radius:50%;margin-top:7px;background:var(--teal)}
+.legend .h i{background:var(--ochre)}
+.legend small{display:block;font:400 19px/1.35 var(--m);color:var(--muted)}
+/* 3 */
+.blk{display:flex;flex-direction:column;gap:16px;margin-top:8px}
+.blk h3{font:500 25px var(--m);letter-spacing:.12em;text-transform:uppercase;color:var(--teal)}
+.blk.q h3{color:var(--ochre)}
+.blk ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:18px}
+.blk li{font-size:35px;line-height:1.3;padding-left:32px;position:relative}
+.blk li::before{content:"";position:absolute;left:0;top:18px;width:12px;height:12px;border-radius:50%;background:var(--teal)}
+.blk.q li::before{background:none;border:2px solid var(--ochre)}
+.blk li small{font:400 19px var(--m);color:var(--muted)}
+.not{border-left:4px solid var(--teal);padding-left:22px;font-size:29px;line-height:1.35;color:var(--muted);margin-top:6px}
+.not b{display:block;font:500 21px var(--m);letter-spacing:.1em;text-transform:uppercase;color:var(--teal);margin-bottom:8px}
+.cta{font:700 48px/1.2 var(--d);border-top:1px solid var(--rule);padding-top:26px;margin-top:6px}
+.cta span{display:block;font:400 31px/1.4 var(--b);color:var(--muted);margin-top:8px}
+</style></head><body>
+
+<section class="s" id="s1">
+  <div class="eb">Rumeli'nin Unutulan Adları · Kırcaali <span>1/3</span></div>
+  <div class="hook">Kırcaali'de bir köy, bir dervişin adıyla anılır:<em>Hasan Babalar.</em></div>
+  <div class="who"><b>Hasan Baba</b><span>Yağmur Baba'nın oğlu · 15.-16. yüzyıl<br>Tekkesi ve mezarı Baştino köyünde</span></div>
+  <div class="kaydir">Kaydır →</div>
+  <div class="foot"><div>Memleket · Doğu Rodoplar</div><strong>Rumeli'nin Unutulan Adları</strong></div>
+</section>
+
+<section class="s" id="s2">
+  <div class="eb">Harita <span>2/3</span></div>
+  <h2>Doğu Rodoplar'ın ilk dervişleri</h2>
+  <p class="lead">Osmanlı fethinden sonra yöreye yerleşip zaviye kuran dervişler. Adları Osmanlı kayıtlarında geçer; türbe ve tekkeleri bugün de köylerinde durur.</p>
+  <div class="map"><svg id="map" width="920" height="708"></svg></div>
+  <div class="legend">
+    <div class="h"><i></i><span><b>Hasan Baba</b><small>Baştino (Hasan Babalar), Kırcaali</small></span></div>
+    <div><i></i><span><b>Yağmur Baba</b>, babası<small>Dıjdovnik, Koşukavak</small></span></div>
+    <div><i></i><span><b>Ahad Baba</b><small>Postnik, Mestanlı</small></span></div>
+    <div><i></i><span><b>Elmalı Baba</b><small>Bivolyane, Mestanlı</small></span></div>
+  </div>
+  <div class="foot"><div>Bugünkü harita · Veri: Natural Earth</div><strong>Rumeli'nin Unutulan Adları</strong></div>
+</section>
+
+<section class="s" id="s3">
+  <div class="eb">Ne biliyoruz? <span>3/3</span></div>
+  <h2>Hasan Baba</h2>
+  <div class="blk">
+    <h3>Kaynakların söylediği</h3>
+    <ul>
+      <li>Osmanlı kayıtlarında “Hasan Baba veled-i Yağmur”, yani Yağmur oğlu Hasan Baba adıyla geçer.</li>
+      <li>Tekkesini Çirmen sancakbeyi Malkoçoğlu Bali Bey yaptırdı; köy tekkeyi vakıf olarak yaşattı.</li>
+      <li>Mezarı sayılan yer bugün de ziyaret edilir. Her yıl burada “mahya” toplantısı yapılır.</li>
+    </ul>
+  </div>
+  <div class="blk q">
+    <h3>Bilinmeyen</h3>
+    <ul>
+      <li>Ne zaman doğup öldüğü. 15.-16. yüzyılda yaşadığı tahmin edilir.</li>
+      <li>Kayıtlardaki zaviyesi “Boğacık”ın Baştino olup olmadığı.</li>
+    </ul>
+  </div>
+  <div class="not"><b>Kolonizatör dervişler</b>Tarihçi Ömer Lütfi Barkan, fetihten sonra ıssız yerlere zaviye kuran bu dervişlere “kolonizatör Türk dervişleri” adını verir.</div>
+  <div class="cta">Senin köyünde de bir baba türbesi var mı?<span>Yorumlara yaz, birlikte kayda geçirelim.</span></div>
+  <div class="foot"><div>Kaynak: Kaya Yiğit ve Kayapınar (RumeliDE 2018)<br>Boykov ve Kiprovska (2020), bg.wikipedia üzerinden</div><strong>Rumeli'nin Unutulan Adları</strong></div>
+</section>
+
+<script>
+const SU={"rivers": [{"n": "Arda", "src": "ne_10m_rivers_europe", "p": [[25.451, 41.6248], [25.4514, 41.6247], [25.4522, 41.6249]]}, {"n": "Arda", "src": "ne_10m_rivers_europe", "p": [[25.4637, 41.6265], [25.4705, 41.6275], [25.4705, 41.6275]]}, {"n": "Arda", "src": "ne_10m_rivers_europe", "p": [[25.603, 41.6385], [25.6133, 41.6309], [25.6294, 41.6238], [25.6473, 41.6216], [25.677, 41.6288], [25.7131, 41.623], [25.73, 41.6265], [25.7433, 41.636], [25.7621, 41.6581], [25.7747, 41.6646], [25.7956, 41.6643], [25.825, 41.6583], [25.8638, 41.6536], [25.9071, 41.6567], [25.948, 41.6532], [25.9807, 41.6328], [26.0046, 41.6084], [26.0242, 41.5952], [26.0447, 41.593], [26.0957, 41.5949], [26.1128, 41.5867], [26.1281, 41.5752], [26.1488, 41.5671], [26.1653, 41.5651], [26.1706, 41.5687], [26.1751, 41.5773], [26.1902, 41.5878], [26.2124, 41.5945], [26.257, 41.5945], [26.3096, 41.6148], [26.3906, 41.6296], [26.4149, 41.6387], [26.4343, 41.6492], [26.4994, 41.6674]]}, {"n": "Arda", "src": "ne_10m_rivers_europe", "p": [[24.6086, 41.4499], [24.6244, 41.4611], [24.634, 41.4731], [24.6345, 41.4865], [24.6397, 41.4999], [24.6604, 41.5119], [24.6893, 41.5181], [24.7346, 41.5142], [24.7757, 41.5144], [24.8035, 41.5072], [24.8377, 41.5059], [24.875, 41.5194], [24.9098, 41.5366], [24.9377, 41.5443], [24.9964, 41.5539], [25.0246, 41.5659], [25.0594, 41.6025], [25.1174, 41.6365], [25.1284, 41.6508], [25.1318, 41.6652], [25.1406, 41.6811], [25.1592, 41.692], [25.1857, 41.6943], [25.2251, 41.6836], [25.3179, 41.6465], [25.3416, 41.6455], [25.3517, 41.6496], [25.3827, 41.6362], [25.4173, 41.6281], [25.4338, 41.6265]]}, {"n": "Arda", "src": "ne_10m_rivers_europe", "p": [[25.4338, 41.6265], [25.451, 41.6248]]}, {"n": "Arda", "src": "ne_10m_rivers_europe", "p": [[25.4522, 41.6249], [25.4637, 41.6265]]}, {"n": "Arda", "src": "ne_10m_rivers_europe", "p": [[25.4705, 41.6275], [25.4878, 41.6352], [25.5176, 41.6439], [25.5508, 41.6499], [25.5763, 41.6508], [25.5925, 41.6463], [25.603, 41.6385]]}], "lakes": [{"n": null, "src": "ne_10m_lakes_europe", "p": [[25.4663, 41.6258], [25.4699, 41.6261], [25.4695, 41.6249], [25.4663, 41.6258]]}, {"n": null, "src": "ne_10m_lakes_europe", "p": [[25.4663, 41.6258], [25.4397, 41.624], [25.4163, 41.6338], [25.4307, 41.6372], [25.454, 41.6292], [25.4663, 41.6258]]}, {"n": null, "src": "ne_10m_lakes_europe", "p": [[25.6011, 41.6499], [25.606, 41.6399], [25.5999, 41.6371], [25.5786, 41.645], [25.5466, 41.6472], [25.5248, 41.6411], [25.502, 41.6359], [25.4758, 41.6265], [25.4699, 41.6261], [25.4744, 41.6377], [25.488, 41.645], [25.5139, 41.6453], [25.5418, 41.6544], [25.5603, 41.6669], [25.5708, 41.6693], [25.5786, 41.659], [25.5874, 41.6526], [25.6011, 41.6499]]}]};
+(async function(){
+const W=920,H=708,C={sea:'#0c1719',land:'#1c2e27',water:'#2b4a52',border:'#8a9b92',ink:'#ede8dc',muted:'#a9b3ab',ochre:'#d9a552',teal:'#6dc1a7'};
+const svg=d3.select('#map');
+const proj=d3.geoMercator().fitExtent([[0,0],[W,H]],{type:'MultiPoint',coordinates:[[24.98,41.205],[26.16,41.205],[24.98,41.885],[26.16,41.885]]});
+const path=d3.geoPath(proj);
+const topo=await d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-10m.json');
+const all=topojson.feature(topo,topo.objects.countries);
+const land={type:'FeatureCollection',features:all.features.filter(f=>['100','300','792'].includes(String(f.id)))};
+const borders=topojson.mesh(topo,topo.objects.countries,(a,b)=>a!==b);
+svg.append('defs').html(`<clipPath id="c"><rect width="${W}" height="${H}" rx="6"/></clipPath>`);
+const g=svg.append('g').attr('clip-path','url(#c)');
+g.append('rect').attr('width',W).attr('height',H).attr('fill',C.sea);
+g.append('path').datum(land).attr('d',path).attr('fill',C.land);
+const ln=d3.line().x(p=>proj(p)[0]).y(p=>proj(p)[1]).curve(d3.curveCatmullRom);
+SU.rivers.filter(r=>r.n==='Arda').forEach(r=>g.append('path').attr('d',ln(r.p)).attr('fill','none').attr('stroke',C.water).attr('stroke-width',4).attr('stroke-linecap','round'));
+SU.lakes.forEach(l=>g.append('path').attr('d',ln(l.p)+'Z').attr('fill',C.water).attr('stroke',C.water).attr('stroke-width',5).attr('stroke-linejoin','round'));
+g.append('path').datum(borders).attr('d',path).attr('fill','none').attr('stroke',C.border).attr('stroke-width',1.6).attr('stroke-dasharray','7 5');
+const P=(lon,lat)=>proj([lon,lat]);
+const T=(lon,lat,txt,o={})=>{const [x,y]=P(lon,lat);return g.append('text').attr('x',x+(o.dx||0)).attr('y',y+(o.dy||0)).attr('text-anchor',o.a||'start').attr('fill',o.c||C.muted)
+  .attr('font-family',o.f||'Alegreya Sans').attr('font-size',o.s||22).attr('font-weight',o.w||400).attr('font-style',o.i?'italic':'normal').attr('letter-spacing',o.ls||0).text(txt);};
+T(25.03,41.84,'BULGARİSTAN',{f:'IBM Plex Mono',s:16,ls:5,c:'#6f8279'});
+T(25.03,41.232,'YUNANİSTAN',{f:'IBM Plex Mono',s:16,ls:5,c:'#6f8279'});
+T(25.03,41.45,'R o d o p l a r',{f:'Alegreya',i:1,s:24,c:'#6f8279'});
+T(25.93,41.67,'Arda',{f:'Alegreya',i:1,s:22,c:'#6d98a0'});
+// şehirler
+[['Kırcaali',25.3777,41.6338,{a:'end',dx:-14,dy:-16}],['Mestanlı',25.4086,41.5272,{a:'end',dx:-14,dy:8}],['Eğridere',25.133,41.583,{dx:14,dy:8}],['Cebel',25.303,41.496,{a:'end',dx:-14,dy:8}],['Ortaköy',26.124,41.527,{a:'end',dx:-14,dy:8}]]
+ .forEach(([n,lon,lat,o])=>{const [x,y]=P(lon,lat);g.append('rect').attr('x',x-5).attr('y',y-5).attr('width',10).attr('height',10).attr('fill',C.muted);T(lon,lat,n,o);});
+// baba-oğul bağı
+const yb=P(25.667,41.467), hb=P(25.567,41.717);
+g.append('path').attr('d',`M${yb[0]},${yb[1]} Q${(yb[0]+hb[0])/2+210},${(yb[1]+hb[1])/2+10} ${hb[0]},${hb[1]}`).attr('fill','none').attr('stroke',C.ochre).attr('stroke-width',2.5).attr('stroke-dasharray','8 7');
+T(25.767,41.585,'baba ve oğul',{f:'IBM Plex Mono',s:17,c:C.ochre,dx:10});
+// tekkeler
+const tek=(lon,lat,ad,yer,o)=>{const [x,y]=P(lon,lat);const hi=o.hi;
+  if(hi)g.append('circle').attr('cx',x).attr('cy',y).attr('r',22).attr('fill','none').attr('stroke',C.ochre).attr('stroke-width',2.5);
+  g.append('circle').attr('cx',x).attr('cy',y).attr('r',hi?12:10).attr('fill',hi?C.ochre:C.teal).attr('stroke','#12201b').attr('stroke-width',3);
+  T(lon,lat,ad,{a:o.a,dx:o.dx,dy:o.dy,c:hi?C.ochre:C.ink,w:700,s:hi?30:25});
+  T(lon,lat,yer,{a:o.a,dx:o.dx,dy:(o.dy||0)+(hi?26:23),c:hi?C.ochre:C.muted,f:'IBM Plex Mono',s:hi?18:16});};
+tek(25.667,41.467,'Yağmur Baba','Dıjdovnik · Koşukavak',{a:'end',dx:-20,dy:2});
+tek(25.561,41.580,'Ahad Baba','Postnik',{dx:18,dy:-12});
+tek(25.517,41.583,'Elmalı Baba','Bivolyane',{a:'end',dx:-18,dy:-12});
+tek(25.567,41.717,'Hasan Baba','Baştino',{hi:1,a:'end',dx:-32,dy:0});
+// yön notu ve ölçek
+T(25.4066,41.226,'↓ Gümülcine',{f:'IBM Plex Mono',s:16,c:C.muted,a:'middle'});
+const a=P(25.95,41.232), km=10, b=P(25.95+km/(111.32*Math.cos(41.232*Math.PI/180)),41.232);
+g.append('line').attr('x1',a[0]).attr('y1',a[1]).attr('x2',b[0]).attr('y2',b[1]).attr('stroke',C.muted).attr('stroke-width',3);
+g.append('text').attr('x',(a[0]+b[0])/2).attr('y',a[1]-10).attr('text-anchor','middle').attr('fill',C.muted).attr('font-family','IBM Plex Mono').attr('font-size',15).text('10 km');
+document.body.dataset.ok='1';
+})();
+</script>
+</body></html>
