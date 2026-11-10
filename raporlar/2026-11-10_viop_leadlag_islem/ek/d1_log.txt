@@ -1,0 +1,32 @@
+REG yil yil E0 h2 (n, ort): {2018: {'count': 6, 'mean': 4.4}, 2019: {'count': 9, 'mean': 61.9}, 2020: {'count': 32, 'mean': 65.8}, 2021: {'count': 34, 'mean': 26.6}, 2022: {'count': 31, 'mean': -68.4}, 2023: {'count': 15, 'mean': 131.5}, 2024: {'count': 25, 'mean': 163.7}, 2025: {'count': 23, 'mean': 147.1}, 2026: {'count': 22, 'mean': 85.3}}
+REG yil yil E2 h2: {2017: {'count': 1, 'mean': 129.7}, 2018: {'count': 8, 'mean': -26.8}, 2019: {'count': 9, 'mean': 69.5}, 2020: {'count': 32, 'mean': 55.5}, 2021: {'count': 35, 'mean': 118.6}, 2022: {'count': 32, 'mean': -44.3}, 2023: {'count': 14, 'mean': -9.6}, 2024: {'count': 25, 'mean': 46.8}, 2025: {'count': 24, 'mean': 147.5}, 2026: {'count': 22, 'mean': -40.6}}
+REG en iyi 10 islemin toplami / tum toplam: 0.62 en buyuk islem bps 1263.0 ilk 3 yil payi: {2018: 0.0, 2019: 0.04, 2020: 0.16, 2021: 0.07, 2022: -0.17, 2023: 0.15, 2024: 0.32, 2025: 0.26, 2026: 0.15}
+REG DOYGUN_K1 TAM n=182 brut=50.9 t=1.7 med=33.6 hit=0.6 net=23.8 ex10=1.2 t10=0.0 bps_gun=18.0 hold=2.8 | DOYGUN_1730 KATIDON n=68 brut=139.3 t=3.6 med=184.3 hit=0.7 net=111.6 ex10=57.5 t10=1.7 bps_gun=60.7 hold=2.3
+SADE yil yil E0 h2 (n, ort): {2018: {'count': 6, 'mean': -56.5}, 2019: {'count': 14, 'mean': -79.9}, 2020: {'count': 35, 'mean': 0.1}, 2021: {'count': 29, 'mean': -16.2}, 2022: {'count': 28, 'mean': -46.6}, 2023: {'count': 16, 'mean': 67.1}, 2024: {'count': 22, 'mean': 14.8}, 2025: {'count': 22, 'mean': 150.8}, 2026: {'count': 20, 'mean': 120.9}}
+SADE yil yil E2 h2: {2017: {'count': 1, 'mean': 129.7}, 2018: {'count': 9, 'mean': -8.8}, 2019: {'count': 14, 'mean': -78.8}, 2020: {'count': 35, 'mean': 77.4}, 2021: {'count': 29, 'mean': 130.0}, 2022: {'count': 29, 'mean': -57.1}, 2023: {'count': 16, 'mean': 3.6}, 2024: {'count': 22, 'mean': -7.7}, 2025: {'count': 22, 'mean': 126.4}, 2026: {'count': 20, 'mean': -2.2}}
+SADE en iyi 10 islemin toplami / tum toplam: 2.06 en buyuk islem bps 1407.0 ilk 3 yil payi: {2018: -0.09, 2019: -0.29, 2020: 0.0, 2021: -0.12, 2022: -0.33, 2023: 0.27, 2024: 0.08, 2025: 0.85, 2026: 0.62}
+SADE DOYGUN_K1 TAM n=184 brut=29.0 t=0.9 med=63.4 hit=0.6 net=2.6 ex10=-22.1 t10=-0.8 bps_gun=10.2 hold=2.8 | DOYGUN_1730 KATIDON n=72 brut=140.4 t=3.8 med=178.5 hit=0.8 net=113.7 ex10=66.9 t10=2.0 bps_gun=63.6 hold=2.2
+SADE esik bugun (dun itibariyle sigma) oncu % 0.86 hedef % 0.34 | yarin icin 0.86 0.35
+B tutma gun: n 135 medyan 2.0 p75 5.0 p90 10.600000000000009 ort 4.27
+B SON2Y n 39 ort 111.2 hold>5 n 5 ort -54.3 hold<=5 ort 135.5 toplam payi hold>5 -0.06 en iyi 3 toplam payi 0.25
+B yil yil E0: {2017: {'count': 1, 'mean': 142.5}, 2018: {'count': 4, 'mean': -84.9}, 2019: {'count': 12, 'mean': 59.3}, 2020: {'count': 21, 'mean': 44.5}, 2021: {'count': 17, 'mean': 99.1}, 2022: {'count': 12, 'mean': -7.4}, 2023: {'count': 22, 'mean': 136.2}, 2024: {'count': 9, 'mean': -17.1}, 2025: {'count': 18, 'mean': 87.4}, 2026: {'count': 19, 'mean': 130.6}}
+B kalibrasyon z 2026-11-03 (beklenen ~ -0.33): -0.31
+        tarih  REG_zL  REG_zT  REG_d  SADE_lead_pct  SADE_hedef_pct  SADE_lead_esik_pct  SADE_hedef_esik_pct  SADE_d   B_z
+0  2026-10-27    2.14   -0.61      1           1.68           -0.85                0.78                 0.35       1  0.54
+1  2026-10-28   -1.50    0.27     -1          -1.19            0.37                0.79                 0.35      -1 -0.28
+2  2026-10-30   -0.99    0.11      0          -0.65            0.37                0.80                 0.35       0 -0.41
+3  2026-11-02   -0.71   -0.31      0          -0.50           -0.56                0.80                 0.35       0 -0.52
+4  2026-11-03   -1.66   -0.36      0          -1.20           -0.52                0.80                 0.35       0 -0.31
+5  2026-11-04   -0.60   -0.05      0          -1.04           -0.35                0.81                 0.35       0 -0.15
+6  2026-11-05    1.70    0.84      0           1.05            1.26                0.81                 0.34       0 -1.14
+7  2026-11-06    3.19    0.45      0           2.71            0.54                0.82                 0.34       0 -0.64
+8  2026-11-09   -0.81    0.69      0          -1.08            0.81                0.85                 0.34      -1 -1.02
+9  2026-11-10    0.16   -2.19      0          -0.16           -2.99                0.86                 0.34       0 -1.41
+B bugun z -1.41 beta 0.664 SAHOL 87.30000305175781 AKBNK 70.69999694824219 son tarih 2026-11-10
+B yarin esik |z|=1.5: SAHOL sabit iken AKBNK kapanis 63.68 | AKBNK sabit iken SAHOL kapanis 93.58
+B yarin esik |z|=-1.5: SAHOL sabit iken AKBNK kapanis 71.09 | AKBNK sabit iken SAHOL kapanis 86.98
+           kural  gun  ayni_durum  kapanis_sinyal  k1450_sinyal  ikisinde_ayni_yon  ters_yon  kapanis_sinyali_kacirilan  yeni_sinyal
+0          A_REG   59          51               8            10                  5         0                          3            5
+1         A_SADE   59          54              11            12                  9         0                          2            3
+2  B_SAHOL_AKBNK   59          58              20            19                 19         0                          1            0
+dk5 gun araligi 2026-08-18 2026-11-10 59

@@ -57,3 +57,17 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# VİOP'ta "öncü oynadı, hedef oynamadı" kuralı: önkayıtlı test ve işlem listesi (10.11.2026)
+
+Klasör: `2026-11-10_viop_leadlag_islem/`
+
+- `RAPOR.md`: Sonuç ve dört kural kartı (KCHOL ← Koç iştirakleri, SAHOL/AKBNK oranı, TUPRS ← ABD rafinerileri, XU030 vadeli–spot farkı), yapma listesi, 10.11.2026 durumu, doğrulama kapsamı.
+- `izleme_listesi.txt`: TradingView izleme listesi (kural kural bölümlü).
+- `ek/PLAN.md`, `ek/ciftler_onkayit.csv`: Hesaptan önce yazılan plan ve 140 çift.
+- `ek/ozet_birlesik_fdr.csv`: Bütün önkayıtlı çiftlerin sonucu ve çoklu test düzeltmesi. `ek/dogrulama_d1.md`, `ek/dogrulama_d2.md`: bağımsız yeniden üretim. Diğer `ek/` dosyaları ham ajan çıktılarıdır.
+- `kod/`: Veri indirme, backtest ve doğrulama betikleri. Veri depoda yok; `ek/README_veri.md` nasıl yeniden kurulacağını anlatır.
+
+Yatırım tavsiyesi değildir.
