@@ -90,10 +90,27 @@ Taslak, geçmişteki 6 gerçek isteğin üzerinde yalnızca plan çıkartılarak
 
 Planlayıcılar ve iki eleştirmen 16 sorun buldu; hepsi son sürüme işlendi. En önemlileri: “kotam az” sözünün kaliteyi düşürmemesi, alıntı ve sayı çıkarmanın Haiku'ya verilmemesi, backtest sonuçlarının ayrıca doğrulanması, karar tablosunun ana raporda kalması, alt ajanların dosyanın yalnızca ilk paragrafını uygulaması.
 
+### Protokolle ilk 7 araştırmanın ölçümü (10–11 Kasım)
+
+| Araştırma | Maliyet | Alt ajan | Ana ajanın payı |
+|---|---|---|---|
+| Gençliğin geçişi | 21 $ | 13 | 13,6 $ |
+| Lead-lag (1) | 22 $ | 9 | 13,7 $ |
+| Lead-lag (2) | 24 $ | 9 | 13,8 $ |
+| Epir müziği | 23 $ | 13 | 16,9 $ |
+| Kaplumbağa simgesi | 8 $ | 5 | 6,1 $ |
+| Bekarlık | 16 $ | 9 | 10,6 $ |
+| Uyku zemini | 13 $ | 9 | 8,6 $ |
+
+- Toplam 127 $, araştırma başına ortalama 18 $ (haftalık kotanın ~%0,8'i). Benzer işler protokolden önce 119–189 $ tutuyordu.
+- Harcamanın %66'sı artık ana ajanda (Fable), %22'si Sonnet alt ajanlarda. Kayıtlardaki fiyatlara göre Fable, Opus'un iki katı: ana model Opus olsaydı aynı 7 araştırma yaklaşık 85 $ tutardı.
+- Araç sınırı bağlayıcı çıktı: üreticiler 30'luk sınırda 21–28, doğrulayıcılar 20'lik sınırda 17–18 çağrıda durdu. Epir araştırmasında 50 iddiadan 17'si doğrulanamadan kaldı; kontrol edilen 33 iddianın 7'si hatalı ya da desteksizdi.
+- Bu yüzden 11 Kasım'da sınır kontrol noktasına çevrildi ve doğrulayıcı bütçesi satır sayısına bağlandı.
+
 ## Emin olunmayanlar ve doğrulama kapsamı
 
 - Dolar tutarları, oturum kayıtlarındaki kullanım verisinin liste fiyatı karşılığıdır; abonelikte bu para ödenmiyor. Kotanın modelleri nasıl ağırlıklandırdığı belgelenmemiş. “Haftalık kota ≈ 2.200 $” iki haftalık pencerede kota yüzdesi ile maliyetin karşılaştırılmasından çıktı (2.155 $ ve 2.277 $).
-- 5–10 kat tasarruf ölçülmedi, tahmin. İlk iki-üç araştırmada rapor sonundaki maliyet satırını bu tabloyla karşılaştır.
+- Tasarruf ilk 7 araştırmada ölçüldü (yukarıdaki tablo): benzer işlere göre yaklaşık 7–8 kat. Kontrol noktası kuralı ise henüz ölçülmedi.
 - Kalite riski: Sonnet üreticiler Opus'un yakalayacağı bir şeyi kaçırabilir. Karşılığında örneklemli doğrulama, hata oranı yüksekse tam kontrol ve üst modele çıkma kuralı var. İlk işlerde kalite düşerse seviyeyi yükselt (`Seviye: L`); protokolü kaldırma.
 - Araç bütçesi sert biçimde uygulanamıyor; ajan bütçeyi aşabilir. Protokol aşımı görünür kılıyor (`araç: kullanılan/bütçe`) ve sonraki dalgayı daraltıyor.
 - Ultracode'un geçmiş oturumların hepsinde açık olduğu kayıtlardan görülemiyor; iki oturumda kesin.
@@ -116,7 +133,8 @@ Araştırma kuralları: Kalite düşmeyecek, token israfı olmayacak.
    M = 3–6 üretici + 1–3 doğrulayıcı. L = en çok 18 üretici + 6 doğrulayıcı, öğeleri 3–5'li grupla.
 2) Her alt ajana model yaz: veri indirme ve biçim işi haiku; araştırma, yazım, kod ve
    kaynak kontrolü sonnet; yöntem denetimi ve eleştirmen opus. Sentezi sen yap.
-3) Her alt ajana dar soru, kendi hipotezlerin ve aday kaynaklar, en fazla 35 araç çağrısı.
+3) Her alt ajana dar soru, kendi hipotezlerin ve aday kaynaklar. Kontrol noktası 35 araç çağrısı:
+   orada dur, eksik sonuca etki ediyorsa ve son çağrılar yeni bilgi getiriyorsa 70'e kadar devam et.
    Dönüş: 400 kelime özet + iddia defteri (iddia | URL | kısa alıntı ya da sayı | güven).
 4) Doğrulama: sonucun dayandığı ve şaşırtıcı iddialar tam, kalanı örneklemle.
    Rapordaki her sayı, tarih ve alıntı bir defter satırına dayansın. Tartışma = tek eleştirmen turu.
