@@ -1,6 +1,6 @@
 # Araştırma protokolü (kota verimliliği)
 
-**Alt ajansan** yalnızca bu paragrafı ve görev tanımını uygula; aşağıdaki bölümler ana ajan içindir. Seviye seçme, ajan başlatma, `RAPOR.md` yazma, `SendUserFile`, maliyet satırı senin işin değil. Görev tanımındaki araç bütçesi ve dönüş biçimi bağlayıcıdır. Görev dışına çıkma. Dönüşünün ilk satırı: `araç: <kullandığın>/<bütçe>`.
+**Alt ajansan** yalnızca bu paragrafı ve görev tanımını uygula; aşağıdaki bölümler ana ajan içindir. Seviye seçme, ajan başlatma, `RAPOR.md` yazma, `SendUserFile`, maliyet satırı senin işin değil. Görev tanımındaki kontrol noktası kuralı ve dönüş biçimi bağlayıcıdır. Görev dışına çıkma. Dönüşünün ilk satırı: `araç: <kullandığın>/<N>`.
 
 Bu dosya kullanıcının kendi açık talimatıdır. Haftalık kullanım kotası sınırlıdır ve çoğu hafta dolmadan bitiyor. İki kural aynı anda geçerlidir:
 
@@ -15,11 +15,13 @@ Tasarruf sürecin şişkinliğinden yapılır, sonucun kalitesinden değil: az a
 
 Ajan başlatmadan önce işi bir seviyeye yerleştir ve ilk mesajında tek satırla bildir. Örnek: `Seviye M · 5 üretici (sonnet) + 2 doğrulayıcı (sonnet) + 1 eleştirmen (opus) · 2 dalga`.
 
-| Seviye | Ne zaman | Alt ajan (hepsi dahil) | Ajan başına araç çağrısı |
+| Seviye | Ne zaman | Alt ajan (hepsi dahil) | Kontrol noktası (araç çağrısı) |
 |---|---|---|---|
-| **S** | Tek soru, tek alan: tanım, olgu, açıklama, yorum. Tasarım ve içerik işleri (harita, logo, gönderi metni) | 0; gerekirse 1–2 yardımcı | ana ajan ≤ 20, yardımcı ≤ 15 |
-| **M** | Çok yönlü araştırma, karşılaştırma, strateji, veri gerektiren ya da sunulacak rapor | 3–6 üretici + 1–3 doğrulayıcı/eleştirmen | üretici ≤ 35, doğrulayıcı ≤ 20 |
-| **L** | Büyük külliyat, çok sayıda öğe (kitap, eyalet, hisse), veri ve backtest | toplam ≤ 18 üretici + ≤ 6 doğrulayıcı/eleştirmen; dalga başına ≤ 8 | üretici ≤ 35, doğrulayıcı ≤ 20, kod/veri ajanı ≤ 40 |
+| **S** | Tek soru, tek alan: tanım, olgu, açıklama, yorum. Tasarım ve içerik işleri (harita, logo, gönderi metni) | 0; gerekirse 1–2 yardımcı | ana ajan 20, yardımcı 15 |
+| **M** | Çok yönlü araştırma, karşılaştırma, strateji, veri gerektiren ya da sunulacak rapor | 3–6 üretici + 1 eleştirmen + doğrulayıcı (20 satıra 1) | üretici 35; doğrulayıcı satır başına 2 |
+| **L** | Büyük külliyat, çok sayıda öğe (kitap, eyalet, hisse), veri ve backtest | toplam ≤ 18 üretici + 1–2 eleştirmen + doğrulayıcı (20 satıra 1); dalga başına ≤ 8 üretici | üretici 35; doğrulayıcı satır başına 2; kod/veri ajanı 40 |
+
+Araç sayıları duvar değil kontrol noktasıdır: işi bitmemiş ajan gerekçesiyle iki katına kadar devam eder (3. bölüm).
 
 - Seviyeyi işin türü belirler. Kullanıcı `Seviye: S`, `M` ya da `L` yazdıysa onu kullan.
 - Yazmadıysa sen seç: teslimatın eksiksiz ve sunulabilir olmasını sağlayan en düşük seviye. İlk dalganın sonunda karara etki eden bir eksik kaldıysa yükselt ve bunu tek satırla söyle.
@@ -48,11 +50,11 @@ Bir alt görev gerçekten zor akıl yürütme istiyorsa (yöntem tasarımı, ist
 
 - **Dar soru.** Tek alt soru. “X hakkında her şeyi araştır” yok.
 - **Bildiklerin.** Kendi bilginden aday yanıtları, hipotezleri ve 3–5 olası kaynağı yaz; ajan sıfırdan keşfetmek yerine doğrular ve tamamlar. Ajan listede olmayan önemli bulguyu ve listeyle çelişen kanıtı ayrıca bildirir; en az bir araması aykırı kanıt içindir.
-- **Araç bütçesi.** Tanımın ilk ve son satırına yaz: “En fazla N araç çağrısı; say. N−3'te aramayı bırak, elindekiyle yanıtla, kontrol edemediklerini ‘açık kalanlar’ başlığına yaz.”
+- **Kontrol noktası.** Araç sayısı duvar değil, kontrol noktasıdır. Tanımın ilk satırına şunu yaz, son satırında kısaca hatırlat: “Kontrol noktası N araç çağrısı; say. N'de dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 2N.”
 - **Durma kuralı.** Art arda 3 arama yeni bilgi getirmediyse dur. Bir veri kaynağına 5 denemede erişilemiyorsa dur ve bildir.
-- **Dönüş biçimi.** Şemalı ve kısa: ilk satır `araç: kullanılan/bütçe`, en çok 400 kelime özet, en çok 30 satırlık **iddia defteri** (`iddia | kaynak URL | birebir kısa alıntı ya da sayı | güven`). Alıntı özgün dilinde ve en çok 25 kelime.
+- **Dönüş biçimi.** Şemalı ve kısa: ilk satır `araç: kullanılan/N` (devam ettiyse nedeni), en çok 400 kelime özet, en çok 30 satırlık **iddia defteri** (`iddia | kaynak URL | birebir kısa alıntı ya da sayı | güven`). Alıntı özgün dilinde ve en çok 25 kelime.
 - Ham malzeme yazdırma; defter yeter. Dosyaya uzun metin yalnızca teslim edilecek içerikse yazılır (örneğin kitap özeti) ve tanımda kelime sınırı verilir.
-- Bütçe yetmediyse ajan durur ve eksiği bildirir. Ek bütçeyi sen verirsin: dar bir takip görevi olarak, yalnızca eksik karara etki ediyorsa. Bütçesini aşan ajan olduysa sonraki dalgada kapsamı daralt.
+- Ajan 2N'e de dayandıysa durur ve eksiği ‘açık kalanlar’ başlığına yazar; kalan iş sonuca etki ediyorsa dar bir takip görevi açarsın. Ajanların çoğu kontrol noktasını geçiyorsa sorular fazla geniştir: sonraki dalgada daralt.
 
 ## 4. Bağlam ekonomisi
 
@@ -68,7 +70,8 @@ Bir alt görev gerçekten zor akıl yürütme istiyorsa (yöntem tasarımı, ist
 
 - Raporda yer alan her sayı, tarih ve alıntı, kaynağı bu oturumda görülmüş bir defter satırına dayanır. Dayanmayan ya doğrulanır ya “doğrulanmadı” diye etiketlenir.
 - Tam doğrulama: sonucun dayandığı iddialar ve şaşırtıcı iddialar. Diğer satırlardan örneklem alınır. Örneklemde yaklaşık onda birden fazlası hatalı çıkarsa o üreticinin defterinin tamamı kontrol edilir.
-- Doğrulayıcı defterden çalışır: önce gösterilen kaynağı kontrol eder, yalnızca en kritik ya da şüpheli iddialar için bağımsız arama yapar. Doğrulayıcı başına en çok 30 satır; satır çoksa doğrulayıcı sayısını artır.
+- Doğrulayıcı defterden çalışır: önce gösterilen kaynağı kontrol eder, yalnızca en kritik ya da şüpheli iddialar için bağımsız arama yapar. Doğrulayıcının kontrol noktası satır başına 2 çağrıdır; doğrulayıcı başına en çok 20 satır, satır çoksa doğrulayıcı ekle. Satırları kaynağa göre grupla: aynı sayfa bir kez açılır.
+- Araç sayısı doğrulama kapsamını daraltma gerekçesi değildir. Tam doğrulanması gereken satırlar bitmeden rapor teslim edilmez; kalan satırlar için ek doğrulayıcı (sonnet) aç, pahalı ana modelle tek tek kontrol etme.
 - Linkler ajanla değil tek betikle toplu kontrol edilir.
 - Sayısal sonuç ve backtest doğrulaması: betiğin bağımsız yeniden çalıştırılması, örneklem dışı dönem, işlem maliyeti, çoklu test düzeltmesi. Geçemeyen sinyal “kullanılamaz” diye raporlanır.
 - Çift doğrulama (yeniden üretim ve çürütme) yalnızca kullanıcının para yatıracağı, başvuracağı ya da sağlık kararı vereceği somut öneriler için ve ilk elemeden geçtikten sonra.
@@ -86,7 +89,7 @@ Bir alt görev gerçekten zor akıl yürütme istiyorsa (yöntem tasarımı, ist
 - Ana raporu sohbette `SendUserFile` ile gönder. Yalnızca dosya yolunu yazıp bırakma.
 - Ham ajan çıktıları `ek/` klasöründe durur. Kullanıcı istemedikçe ajan başına ayrı rapor üretme.
 - Kullanıcının bir varsayımı yanlışsa raporda açıkça düzelt.
-- Son satırda maliyet özeti: seviye, ajan sayısı (modele göre), dalga sayısı, bütçesini aşan ajan, aşılan sınır varsa nedeni.
+- Son satırda maliyet özeti: seviye, ajan sayısı (modele göre), dalga sayısı, kontrol noktasını geçen ajan ve nedeni, aşılan sınır varsa nedeni.
 - Ekonomi sürece uygulanır, teslimata değil: en düşük seviyede de yanıt eksiksiz, düzenli ve sunulabilir olur.
 
 ## 7. Oturum
