@@ -45,3 +45,10 @@ Erkek goriller sıklıkla yerde uyur | https://pmc.ncbi.nlm.nih.gov/articles/PMC
 - Zemin seviyesinde akar/toz yoğunluğunun yatak yüksekliğine göre farkı: doğrudan ölçüm çıkmadı.
 - Oturarak uyumada damar pıhtısı riski, kalp yetmezliğinde koltukta uyuma: doğrudan çalışma çıkmadı.
 - Nicholson & Stone 1987, Worthman & Melby 2002, Stewart 2011: PubMed'de bulunamadı. Tetley 2000 (PMID 11124203) ve Bayer 2011 (PMID 21683897) kayıtları var, özetleri yok.
+
+## Doğrulama dalgasından sonra eklenen satırlar
+iddia | kaynak URL | alıntı/sayı | güven | tür ve n
+En çok soğuyanlarda REM azaldı | https://pubmed.ncbi.nlm.nih.gov/38409133/ | "Subjects with a greater degree of body cooling exhibited a significant increase in nocturnal N3 and a decrease in REM sleep" | yüksek | Herberger 2024, n=72
+Kamp yatağında sabah uykululuk daha az (karton yatağa göre) | https://pubmed.ncbi.nlm.nih.gov/38803581/ | "leading to improved sleep satisfaction, bedding comfort, and reduced morning sleepiness" | yüksek | Hamanishi 2024, n=20
+Avcı-toplayıcılarda uyku uzun uyanıklıklarla bölünmüyor | https://pubmed.ncbi.nlm.nih.gov/26480842/ | "was not interrupted by extended periods of waking" | yüksek | Yetish 2015
+Hava ve jel yüzeyler köpüğe göre bası yarası riskini azaltabilir | https://pubmed.ncbi.nlm.nih.gov/34398473/ | "Compared with foam surfaces, reactive air surfaces may reduce pressure ulcer risk and may increase complete ulcer healing" | orta (düşük kesinlik) | Cochrane genel bakış, Shi 2021
