@@ -214,7 +214,7 @@ Aynı gelenekler frene de basıyor. **William James** bu tür hallerin yaşayan 
 1. Soru: Epir düğün şarkıları (Κανάλι ΟΚΕ, "Τραγούδια του γάμου" dizisi, 17 ve 31 numara) dinleyicide neden huşu uyandırıyor, neye delalet eder?
 2. Sonuç: dört katman (ses, tören, dinleyici, anlam). Kanıt en çok "derinden etkilenme"yi (being moved, kama muta) destekliyor; iki parça ağıt değil, dua ve sevinç çağrısı.
 3. Açık kalanlar: ses dinlenemedi (YouTube engeli); sözler yalnızca makine altyazısından; Gkikas derlemesinin kimliği bilinmiyor; hangi katmanın dinleyicide çalıştığı bilinmiyor.
-4. Dosyalar: bu rapor; `ek/uretici_defterleri.md` (111 satır), `ek/dogrulama.md` (50 satır), `ek/elestirmen.md` (10 itiraz), `ek/link_kontrol.txt`.
+4. Dosyalar: bu rapor; `IKI_KITAP.md` (King ve Pistrick kitaplarının tanıtımı, 11.11.2026); `ek/uretici_defterleri.md` (111 satır), `ek/dogrulama.md` (50 satır), `ek/elestirmen.md` (10 itiraz), `ek/link_kontrol.txt`.
 5. Sonraki adım: kullanıcı parça numarası ve saniye verirse o anın çözümlemesi; ses dosyası sağlanırsa dizi, dem ve tempo ölçümü.
 
 Maliyet: Seviye M · 5 üretici (sonnet) + 2 doğrulayıcı (sonnet) + 1 eleştirmen (opus) · 1 üretim dalgası + 1 doğrulama turu · bütçesini aşan ajan yok · sınır aşılmadı · alt ajan toplamı yaklaşık 793 bin token.
