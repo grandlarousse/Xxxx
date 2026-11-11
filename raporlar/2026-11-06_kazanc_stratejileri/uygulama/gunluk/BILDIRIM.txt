@@ -1,1 +1,1 @@
-Çar 11.11: İŞLEM YOK. 10.11 kapanışı: BIST KAPALI. Takvim: MSCI duyurusu öncesi kapanış. Yakın tetik: XBANK ≥16.935,71 (Rejim M5), SAHOL ≤86,27 (K1, kâğıt), AKBNK ≥71,54 (K1, kâğıt), S&P 500 ≤7.353,73 (ABD ralli). ABD KIRMIZI (VIX/VIX3M 0,96); en erken pilot 16.11. Ayrıntı gunluk/SON.md
+Per 12.11: İŞLEM YOK. 11.11 kapanışı: BIST KAPALI. Takvim: MSCI sonuçları. Yakın tetik: SAHOL ≤86,13 (K1, kâğıt), AKBNK ≥70,82 (K1, kâğıt), XBANK ≥16.930,01 (Rejim M5), S&P 500 ≥7.633,74 (ABD FTD). ABD TURUNCU (VIX/VIX3M 0,94); en erken pilot 16.11. Ayrıntı gunluk/SON.md
