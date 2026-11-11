@@ -3,7 +3,7 @@
 ## Kısa yanıt
 
 - Tek bir neden yok; üst üste binen dört katman var: **ses**, **tören**, **sen** ve **anlam**.
-- Sözlerini kısmen okuyabildiğim iki parça ağıt değil: biri dua, öteki sevinç çağrısı. Bu müzikte sevinç ile veda iç içe ve ikisi de ağır, vakur söyleniyor. Seni hangisinin tuttuğunu ancak sen söyleyebilirsin.
+- Sözlerini kısmen okuyabildiğim iki parça ağıt değil: biri dua, öteki sevinç çağrısı. Ama bu bölgede düğün şarkıları ağıtlarla ezgi paylaşıyor; halkın deyişiyle "bütün şarkılarımız bir zamanlar ağıttı". Sevinç bu yüzden ağır ve vakur duyuluyor. Seni hangisinin tuttuğunu ancak sen söyleyebilirsin.
 - Araştırmalar bu hali en iyi "derinden etkilenme" ile açıklıyor: topluluk bağının birden yoğunlaşması. Düğün, ölüm, ayrılık ve kavuşma bunun en tipik tetikleyicileri. Huşunun payı daha belirsiz.
 - Bu deneyim senin hakkında bir veri. Soyun, metafizik bir hakikat ya da Epir'in kime ait olduğu hakkında kanıt değil. Yapılacak şey: zorlamadan korumak, hangi katmanın sende çalıştığını gözlemek, işaret ettiği şeyi kendi hayatında sınamak.
 
@@ -51,11 +51,11 @@ Bu, soruyu biraz değiştiriyor. "Hüzünlü müzik neden iyi gelir" sorusu bura
 
 Önce bir sınır: kayıtların sesini dinleyemedim. Aşağıdakiler Epir müziğinin genel özellikleri; senin iki parçanda hangilerinin bulunduğunu bilmiyorum. Klarnetli düğün takımı ile çalgısız çoksesli şarkı bu geleneğin iki ayrı kolu olabilir; dem ikincisine ait.
 
-**Beş sesli dizi.** Epir müziği kaynaklarda "çoğunlukla beş sesli (pentatonik) ve çoksesli" diye özetleniyor. Müzikolog Athena Katsanevaki'ye göre baskın olan, yarım ses aralığı içermeyen türü; aynı araştırmacı yarım sesli biçimler de bulmuş (bu atfı arama özetinden aldım, makaleyi açamadım). Yarım ses, Batı müziğinde ve makam müziğinde ezgiyi bir yere "çeken" gerilimi üretir. O olmayınca ezgi bir çözüme koşmaz, bir merkezin çevresinde döner; müzik acele etmeyen, geniş bir şey gibi duyulur. Bu son açıklama benim müzik kuramından çıkarımım.
+**Beş sesli dizi.** Epir müziği kaynaklarda "çoğunlukla beş sesli (pentatonik) ve çoksesli" diye özetleniyor. Müzikolog Athena Katsanevaki'ye göre Epir'de baskın olan, yarım ses aralığı içermeyen türü; aynı araştırmacı sonradan Batı Yunanistan'da yarım sesli biçimler de bulmuş. Yarım ses, Batı müziğinde ve makam müziğinde ezgiyi bir yere "çeken" gerilimi üretir. O olmayınca ezgi bir çözüme koşmaz, bir merkezin çevresinde döner; müzik acele etmeyen, geniş bir şey gibi duyulur. Bu son açıklama benim müzik kuramından çıkarımım.
 
 **Dem.** Çoksesli Epir şarkısında bir grup (ισοκράτες, "dem tutanlar") tek bir sesi şarkı boyunca tutar; ezgiyi alan, ona karşılık veren ve çevresinde dolanan sesler bunun üstünde hareket eder. Dem bir zemin duygusu verir: her şey ona göre ölçülür ve o değişmez.
 
-**Ağlayan klarnet.** Klarnet bölgeye ancak 19. yüzyılın ilk yarısında girdi (bir kaynakta 1830–35 dolayı; kesin değil). Yayılmasında Roman çalgıcıların payı olduğu yazılıyor; bunu doğrulayamadım. Üslubu kaydırmalar, titretmeler ve inlemeye benzer sıçramalarla anlatılıyor. Sağlam bir bulgu şu: duygu ifadesinde insan sesi ile müzik benzer akustik ipuçları kullanır (Juslin ve Laukka, 2003; 104 ses ve 41 müzik çalışmasının derlemesi). Sese bu kadar benzeyen bir çalgının insana bir insanın hali gibi geçmesi bununla uyumlu.
+**Ağlayan klarnet.** Klarnet Yunanistan'a ancak 19. yüzyılda geldi; araştırmacı Despoina Mazaraki'ye göre 1834'te. Aynı kaynağa göre Trakya ve Epir'den, "Türk-Çingene" ve "Türk-Arnavut Çingene" diye anılan Roman çalgıcıların eliyle yayıldı. Üslubu kaydırmalar, titretmeler ve inlemeye benzer sıçramalarla anlatılıyor. Sağlam bir bulgu şu: duygu ifadesinde insan sesi ile müzik benzer akustik ipuçları kullanır (Juslin ve Laukka, 2003; 104 ses ve 41 müzik çalışmasının derlemesi). Sese bu kadar benzeyen bir çalgının insana bir insanın hali gibi geçmesi bununla uyumlu.
 
 **Ağır yürüyüş.** Epir dansları "ağır ve vakur" diye tanımlanıyor. Sevinç burada hızla değil, ağırlıkla söyleniyor.
 
@@ -63,7 +63,15 @@ Bir düzeltme: bu müziğin "antik çağdan kalma" olduğu sık söylenir. Kanı
 
 ### 3. Tören katmanı
 
-Yunan halk geleneğinde düğün bir ayrılık törenidir de: gelin baba evinden kopar. Araştırmacılar gelin ile ölü için yapılan törenlerin ortak bir yapı taşıdığını, gurbet (ξενιτιά) şarkılarının da ağıta benzediğini yazıyor (bu bağı ikinci el kaynaklardan gördüm). Senin dizinde 5 numaranın adı "Beni büyüten babam", sonuncusununki "Gitme vaktimiz geldi". Sevinç ile veda aynı törenin içinde duruyor. Christopher King bu müziğin asıl amacının güzellik değil, kişiyi ve köyü sağaltmak olduğunu savunur; ona göre müzik "hayatta kalma aracı"ydı.
+Yunan halk geleneğinde düğün bir ayrılık törenidir de: gelin baba evinden kopar. Bunun en sağlam kaynağı Katsanevaki'nin Kuzeybatı Yunanistan'da (Epir, Batı Makedonya, Teselya) yıllar süren alan çalışması (2017):
+
+- Yöre halkı ona tekrar tekrar aynı cümleyi söylemiş: "Bütün şarkılarımız bir zamanlar ağıttı."
+- Bazı düğün şarkıları, komşu köylerin ölü ağıtlarıyla aynı ezgiyi paylaşıyor.
+- Gelin evden çıkarken ağıt söylenebiliyor. Kadınların anlatımıyla: "Ağladık! Gelin için ağlıyorduk. O ağladı, hepimiz ağladık."
+- Ağıt yalnız ölümü değil öteki eşikleri de işaretliyor: gelinin çıkışını ve gurbete gidenin ayrılışını.
+- Ağıt geleneği bir "toplumsal sağaltım" aracı; topluluğun belleğini ve bağını ayakta tutuyor.
+
+Senin iki parçanın ağıt ezgisi taşıyıp taşımadığını bilmiyorum. Ama bir duanın ve bir sevinç çağrısının neden ağır duyulduğunun en iyi açıklaması bu: bölgenin ses dili ağıttan geliyor. Senin dizinde de 5 numaranın adı "Beni büyüten babam", sonuncusununki "Gitme vaktimiz geldi". Plak koleksiyoncusu Christopher King aynı şeyi daha iddialı söyler: ona göre bu müziğin asıl amacı güzellik değil sağaltımdı, bir "hayatta kalma aracı"ydı.
 
 Psikolojide buna en yakın konu "derinden etkilenme" (İngilizce *being moved*):
 
@@ -78,11 +86,11 @@ Huşunun kendisi için yaygın tanım Keltner ve Haidt'in (2003): algılanan **e
 
 ### 4. Sen: neden herkes değil de sen
 
-**Mizaç payı olabilir.** Müzikle ürperme herkeste olmaz. Üniversite öğrencileriyle yapılan bir çalışmada katılımcıların yaklaşık %8'i hiç yaşamadığını söyledi; beş temel kişilik özelliğinden yalnızca "deneyime açıklık" ürpertiyle ilişkili çıktı (Nusbaum ve Silvia, 2011). Hüzünlü müziği sevmek ayrıca empatiyle ilişkili (Vuoskoski ve ark., 2012). Müzikten hiç haz almayan sağlıklı insanlar da var. Tek bir deneyimden kişilik çıkarılmaz; ama bu, baktığın yönlerden biri.
+**Mizaç payı olabilir.** Müzikle ürperme herkeste olmaz. Genç yetişkinlerle yapılan bir çalışmada müzikle ürpermenin en güçlü kişilik yordayıcısı "deneyime açıklık" çıktı; yazarlara göre katılımcıların yaklaşık %8'i hiç ürpermiyordu (Nusbaum ve Silvia, 2011). Hüzünlü müziği sevmek ayrıca empatiyle ilişkili (Vuoskoski ve ark., 2012). Müzikten hiç haz almayan sağlıklı insanlar da var. Tek bir deneyimden kişilik çıkarılmaz; ama bu, baktığın yönlerden biri.
 
 **Tanıdık ama başka.** Yanya 1430'dan 1913'e Osmanlı yönetimindeydi. Türkçe müzikle büyüdüysen klarnetli takım, ağlayan çalgı ve gurbet teması sana yabancı gelmez; beş sesli dizi ise makam müziğinin alışkanlıklarına uymaz. Araştırmalar yabancı bir gelenekteki temel duyguların sözü anlamadan da tanınabildiğini, aşinalığın bunu keskinleştirdiğini gösteriyor. Belki sende ikisi birden var: çözebilecek kadar tanıdık, şaşırtacak kadar başka. Eşleştirme benim çıkarımım; Epir ağıtı ile uzun havayı karşılaştıran bir çalışma bulunamadı.
 
-**Yaşanmamış geçmişe özlem.** Siyah beyaz bir düğün fotoğrafı, cızırtılı bir kayıt, artık öyle yapılmayan bir tören. Svetlana Boym iki tür nostalji ayırır: kayıp yuvayı yeniden kurmak isteyen (restoratif) ve özlemin kendisinde duran (reflektif). İkincisi verimli olandır; birincisi siyasete kolayca bağlanır (6. başlık).
+**Yaşanmamış geçmişe özlem.** Siyah beyaz bir düğün fotoğrafı, cızırtılı bir kayıt, artık öyle yapılmayan bir tören. Svetlana Boym iki tür nostalji ayırır: kayıp yuvayı yeniden kurmak isteyen (restoratif) ve özlemin kendisinde duran (reflektif). İkincisi verimli olandır; birincisi siyasete kolayca bağlanır (6. başlık). Ayrıntısı `EK_NOSTALJI_REZONANS.md` dosyasında.
 
 **Daha sıradan açıklamalar.** Bunları da hesaba kat:
 
@@ -98,14 +106,14 @@ Bunlar deneyimi değersiz kılmaz. Ama "bu müzikte benzersiz bir şey var" deme
 
 "Huşu"yu gündelik anlamıyla söylemiş olabilirsin; sözcüğün bir de derin geçmişi var. İslam geleneğinde **huşû** kökü kalpte, belirtisi bedende olan bir haldir; âlimlerin çoğuna göre irade dışı yönleri vardır ve bir terbiye süreciyle kazanılır. Kavram namaz için kullanılır; müziğe taşımak benim benzetmem. Müziğin kendi geleneğinde, Ortodoks Hristiyanlıkta yakın bir kavram var: **κατάνυξις** (katanyksis), ilahilerle uyanan ve gözyaşına varan kalp yumuşaması. Dinlediğin şarkılar ilahi değil halk şarkısı; ama iki gelenek de bu hali tanıyıp adlandırmış.
 
-- **Rudolf Otto** (1917) kutsalla karşılaşmayı "hem ürperten hem çeken sır" diye tanımlar ve onu, bir müzik eserinin güzelliği gibi, kavramla tam çözümlenemeyen bir şey olarak anlatır. Çekilme ile çekinme birlikte gelir.
-- **Gazzâlî**'ye göre dinleme (semâ) kalbe yeni bir şey koymaz, orada olanı harekete geçirir: "İnsan kalpleri sırlarla doludur; içlerindeki iyi ya da kusurlu olan, dinlemeyle harekete geçer." **Kant** da yüceliği nesnede değil, yaşayanın zihninde arar. İkisi aynı yere bakıyor: müzik sana bir şey eklemiyor, sende olanı açığa çıkarıyor.
+- **Rudolf Otto** (1917) kutsalla karşılaşmayı "hem ürperten hem çeken sır" diye tanımlar; çekilme ile çekinme birlikte gelir. Müzik için ilginç bir şey söyler: müzik kutsalı doğrudan ifade edemez, ona en çok kısılarak ve susarak yaklaşır; en yoğun an, "sessizliğin duyulduğu" andır. Ağır ve vakur bir söyleyişin neden huşu verdiğine dair bir ipucu.
+- Tasavvufta dinlemenin (semâ) etkisi dinleyene bağlıdır. Zünnûn el-Mısrî'nin sözüyle: "Semâı Hak ile dinleyen hakikat mertebesine çıkar; nefsiyle dinleyen zındıklık derekesine düşer." **Gazzâlî** semâ için uygun zaman, mekân ve dost şartını koyar; ona atfedilen bir söze göre de kalpler sırlarla doludur ve içlerindeki, dinlemeyle harekete geçer. **Kant** yüceliği nesnede değil zihinde arar: "Yücelik doğadaki hiçbir şeyde değil, yalnızca bizim zihnimizdedir." Hepsi aynı yere bakıyor: müzik sana bir şey eklemiyor, sende olanı açığa çıkarıyor.
 - **Mevlânâ**'nın Mesnevî'si neyin ayrılıklardan şikâyetiyle açılır: aslından uzak düşen, dönüş gününü özler. Gurbet temasıyla koşutluk açık; ama bu koşutluğu kuran bir kaynak bulunamadı, benzetme benim.
 - **Schopenhauer**'e göre öteki sanatlar şeylerin idealarını kopyalar; müzik ise doğrudan iradenin kendisini dile getirir. Kavramı atlayıp işlemesi bundandır.
 - **Jung** aynı deneyime Otto'dan aldığı sözcükle "numinosum" der: iradeden bağımsız, kişiyi ele geçiren bir etki.
-- **Hartmut Rosa** buna "rezonans" der: ısmarlanamaz, araç gibi kullanılamaz. Gelir ve gider.
+- **Hartmut Rosa** buna "rezonans" der: ısmarlanamaz, araç gibi kullanılamaz. Gelir ve gider. Ayrıntısı `EK_NOSTALJI_REZONANS.md` dosyasında.
 
-Aynı gelenekler frene de basıyor. **William James** bu tür hallerin yaşayan için yetke taşıdığını, ama dışarıdakini onları eleştirisiz kabule zorlayan bir yetke taşımadığını söyler. **Steven Katz**'a göre "saf, aracısız deneyim yoktur": ne yaşadığın, o ana getirdiğin birikimle biçimlenir. Hissin gerçek; ondan çıkardığın sonuç ise senin yorumun.
+Aynı gelenekler frene de basıyor. **William James** bu tür hallerin yaşayan için yetke taşıdığını, ama dışarıdakini onları eleştirisiz kabule zorlayan bir yetke taşımadığını söyler. **Steven Katz**'ın çalışma varsayımına göre "saf, aracısız deneyim yoktur": ne yaşadığın, o ana getirdiğin birikimle biçimlenir. Hissin gerçek; ondan çıkardığın sonuç ise senin yorumun.
 
 ### 6. Neye delalet eder, neye etmez
 
@@ -137,21 +145,21 @@ Aynı gelenekler frene de basıyor. **William James** bu tür hallerin yaşayan 
 - "Ağlayan çalgı bebek ağlamasına verilen tepkiyi tetikler": doğrudan sınamada desteği zayıf.
 - İlk dalgadaki "köy şenliği çalgısal ağıtla açılır" iddiası da doğrulamada desteklenmedi; rapora alınmadı.
 
-**İkinci el ya da doğrulanmamış kalanlar**
+**İkinci el ya da doğrulanmamış kalanlar** (11 Kasım'daki ikinci turdan sonra)
 
-- Düğün ile ağıt bağı: Alexiou ve Danforth'un kitapları açılamadı; onları aktaran kaynaklardan.
-- Kant: birincil metin ve birebir alıntı görülmedi. James, Schopenhauer, Jung ve Rosa: alıntılayan ikincil kaynaklardan.
-- Klarnetin geliş tarihi ve Roman çalgıcıların payı: tek makale ve arama özeti.
-- Katsanevaki ve katanyksis: arama özeti düzeyinde.
-- "Beğeni tekrarla önce artıp sonra düşer": 57 çalışmalık bir derlemenin özetinden (50'si bu kalıba uyuyor); derleme müzik tercihi üzerine, huşu üzerine değil.
+- Şarkı sözleri: yazılı kaynak yine bulunamadı; makine altyazısı olarak kalıyor.
+- Alexiou ve Danforth'un kitapları yine açılamadı. Düğün ile ağıt bağı artık onlara değil, Katsanevaki'nin 2017 tarihli alan çalışmasına dayanıyor.
+- Jung'un numinosum tanımı ve Gazzâlî'ye atfedilen "kalpler sırlarla doludur" sözü ikincil kaynaklardan.
+- Mesnevî'nin açılışı Farsça özgün dizeyle ve İngilizce çevirilerle görüldü; basılı bir Türkçe çeviriden görülmedi.
+- "Beğeni tekrarla önce artıp sonra düşer": 57 çalışmalık bir derlemenin özetinden (50'si bu kalıba uyuyor). Derleme müzik tercihi üzerine, huşu üzerine değil; başka bir çalışma aynı derlemeyi daha dar bir ölçütle sayıyor.
 
 **Doğrulama kapsamı**
 
-- Beş araştırmacının defterinde 111 satır vardı. Rapora girecek 50 iddia iki doğrulayıcıya verildi: 26'sı doğrulandı, 6'sı düzeltildi, 1'i desteklenmedi, 17'sine bütçe yetmedi.
-- O 17'den 12'si raporda geçiyor. 4'ünü ben ayrıca aradım ve doğrulandı (Juslin ve Laukka, Fritz, Mas-Herrero, James). 5'i ilk dalgada kaynağında alıntısıyla görülmüştü (Vuoskoski 2012, Mesnevî, Boym, Katz, gurbet ile ağıt). 3'ü yukarıda "doğrulanmadı" diye duruyor (klarnet tarihi, sözler, Kant).
+- Birinci tur (10 Kasım): beş araştırmacının defterinde 111 satır vardı. Rapora girecek 50 iddia iki doğrulayıcıya verildi: 26'sı doğrulandı, 6'sı düzeltildi, 1'i desteklenmedi, 17'sine bütçe yetmedi. Eleştirmenin 10 itirazı işlendi.
+- İkinci tur (11 Kasım): o 17 iddianın 14'ü doğrulandı, 2'si kısmen doğrulandı, 1'i (şarkı sözleri) doğrulanamadı. İkinci elden kalan 11 iddiaya da bakıldı; 8'i birincil metinde ya da makalenin kendi özetinde görüldü. Satır satır döküm `EK_NOSTALJI_REZONANS.md` dosyasının 4. başlığında.
+- İkinci turda düzeltilenler: klarnetin tarihi (1834, Mazaraki'ye göre), Nusbaum ve Silvia'nın bulgusu ("en güçlü yordayıcı"), Otto'nun müzik üzerine söylediği, Gazzâlî atfı. Güçlenenler: düğün ile ağıt bağı, beş sesli dizi, Kant, Schopenhauer ve James alıntıları.
 - YouTube başlıkları, açıklamaları, tarihleri ve altyazıları defterden değil, benim doğrudan okuduğum sayfa verisinden.
-- Eleştirmen 10 itiraz yazdı; hepsi işlendi. En önemlileri: "hüzün değil, sevinç" savının yumuşatılması, genel tür bilgisinin senin kayıtlarının özelliği gibi sunulmaması, alkış ve "an" tahminlerinin etiketlenmesi, sıradan açıklamaların eklenmesi, önerilerin koşullu yazılması.
-- Kaynak bağlantıları tek betikle denendi: 46 bağlantının 38'i açıldı, 3'ü bot engeline takıldı (403), 4 YouTube adresi hız sınırına takıldı (429; bu sayfaların verisini daha önce okumuştum), Benaki arşivi yanıt vermedi. Döküm `ek/link_kontrol.txt` dosyasında.
+- Kaynak bağlantıları tek betikle denendi; dökümler `ek/link_kontrol.txt` ve `ek/ek_link_kontrol.txt` dosyalarında.
 
 ## Kaynaklar
 
@@ -166,8 +174,9 @@ Aynı gelenekler frene de basıyor. **William James** bu tür hallerin yaşayan 
 - Music of Epirus: https://en.wikipedia.org/wiki/Music_of_Epirus
 - Polyphonic song of Epirus: https://en.wikipedia.org/wiki/Polyphonic_song_of_Epirus
 - UNESCO, Albanian folk iso-polyphony: https://ich.unesco.org/en/RL/albanian-folk-iso-polyphony-00155
-- Katsanevaki (açılamadı): https://amsacta.unibo.it/id/eprint/3203/1/Microsoft_Word_-_Katsanevaki_MOISA,Bologna__2_.pdf
-- Klarnet ve Epir ağıtı üzerine makale: https://dergipark.org.tr/en/download/article-file/753545
+- Katsanevaki, Pindos'ta beş sesli ezgiler: https://amsacta.unibo.it/id/eprint/3203/1/Microsoft_Word_-_Katsanevaki_MOISA,Bologna__2_.pdf
+- Katsanevaki 2017, Kuzeybatı Yunanistan'da ağıtlar (alan çalışması): https://dergipark.org.tr/en/download/article-file/753545
+- Marinis, Yunanistan'da klarnet: https://clarinet.org/wp-content/uploads/2016/03/Marinis-Paper-2010.pdf
 - King kitabının eleştirisi (Kirkus): https://kirkusreviews.com/book-reviews/christopher-c-king/lament-from-epirus
 - Harisiadis kayıtları (Songlines): https://songlines.co.uk/review/lament-in-a-deep-style
 - Pistrick kitabı: https://libcat.library.tamu.edu/Record/in00003711728
@@ -186,6 +195,7 @@ Aynı gelenekler frene de basıyor. **William James** bu tür hallerin yaşayan 
 - Zickfeld ve ark. 2019 (kama muta): https://research.tilburguniversity.edu/en/publications/kama-muta-conceptualizing-and-measuring-the-experience-often-labe/
 - Bannister ve Eerola 2023: https://durham-repository.worktribe.com/output/1234625
 - Nusbaum ve Silvia 2011 (haber özeti): https://www.sciencedaily.com/releases/2010/12/101207191525.htm
+- Nusbaum ve Silvia 2011 (makale özeti): https://api.crossref.org/works/10.1177/1948550610386810
 - Vuoskoski ve ark. 2012: https://jyx.jyu.fi/handle/123456789/48421
 - Juslin ve Laukka 2003'ü aktaran derleme: https://pmc.ncbi.nlm.nih.gov/articles/PMC4017128
 - Mas-Herrero ve ark. 2014: https://www.ub.edu/brainvitge/wp-content/uploads/2014/12/Mas_Current_Biology_2014.pdf
@@ -198,14 +208,17 @@ Aynı gelenekler frene de basıyor. **William James** bu tür hallerin yaşayan 
 **Felsefe ve din**
 - Otto (Britannica): https://www.britannica.com/biography/Rudolf-Otto/The-Idea-of-the-Holy
 - Otto (ders notu): https://www2.kenyon.edu/Depts/Religion/Fac/Adler/Reln101/Otto.htm
+- Otto, The Idea of the Holy (kitap metni): https://archive.org/details/ideaofholy0000rudo_q2q8
+- TDV İslâm Ansiklopedisi, "semâ": https://islamansiklopedisi.org.tr/sema--tasavvuf
+- Kant, Yargı Yetisinin Eleştirisi (Bernard çevirisi): https://www.gutenberg.org/ebooks/48433
 - TDV İslâm Ansiklopedisi, "huşû": https://islamansiklopedisi.org.tr/husu
 - Gazzâlî'nin semâ bahsi üzerine çalışma: https://eprints.walisongo.ac.id/id/eprint/27239
 - Katanyksis: Mellas, *Liturgy and the Emotions in Byzantium* (Cambridge): https://www.cambridge.org/core/product/identifier/9781108767361/type/book
 - Mesnevî'nin açılışı, çeviriler: https://www.flutopedia.com/lit_rumi.htm
-- Schopenhauer alıntısı: https://that-which.com/?p=1118
+- Schopenhauer, İstenç ve Tasarım Olarak Dünya (Haldane ve Kemp çevirisi): https://www.gutenberg.org/ebooks/38427
 - Jung ve numinosum: https://jungiancenter.org/jung-and-the-numinosum/
 - Rosa üzerine makale: https://link.springer.com/article/10.1007/s10767-019-9313-6
-- James: https://1000wordphilosophy.com/2024/11/21/james-mystical-experience/
+- James, Dinî Deneyimin Çeşitleri, mistisizm dersleri: https://standardebooks.org/ebooks/william-james/the-varieties-of-religious-experience/text/chapter-11
 - Katz üzerine değerlendirme: https://people.bu.edu/wwildman/relexp/reviews/review_katz01.htm
 - Boym: https://mountauburn.org/?p=7987
 
@@ -214,7 +227,8 @@ Aynı gelenekler frene de basıyor. **William James** bu tür hallerin yaşayan 
 1. Soru: Epir düğün şarkıları (Κανάλι ΟΚΕ, "Τραγούδια του γάμου" dizisi, 17 ve 31 numara) dinleyicide neden huşu uyandırıyor, neye delalet eder?
 2. Sonuç: dört katman (ses, tören, dinleyici, anlam). Kanıt en çok "derinden etkilenme"yi (being moved, kama muta) destekliyor; iki parça ağıt değil, dua ve sevinç çağrısı.
 3. Açık kalanlar: ses dinlenemedi (YouTube engeli); sözler yalnızca makine altyazısından; Gkikas derlemesinin kimliği bilinmiyor; hangi katmanın dinleyicide çalıştığı bilinmiyor.
-4. Dosyalar: bu rapor; `IKI_KITAP.md` (King ve Pistrick kitaplarının tanıtımı, 11.11.2026); `ek/uretici_defterleri.md` (111 satır), `ek/dogrulama.md` (50 satır), `ek/elestirmen.md` (10 itiraz), `ek/link_kontrol.txt`.
+4. Dosyalar: bu rapor; `EK_NOSTALJI_REZONANS.md` (Boym ve Rosa kavramları, ikinci tur doğrulama dökümü, 11.11.2026); `IKI_KITAP.md` (King ve Pistrick kitaplarının tanıtımı, 11.11.2026); `ek/ek_dalga.md`; `ek/uretici_defterleri.md` (111 satır), `ek/dogrulama.md` (50 satır), `ek/elestirmen.md` (10 itiraz), `ek/link_kontrol.txt`.
 5. Sonraki adım: kullanıcı parça numarası ve saniye verirse o anın çözümlemesi; ses dosyası sağlanırsa dizi, dem ve tempo ölçümü.
 
 Maliyet: Seviye M · 5 üretici (sonnet) + 2 doğrulayıcı (sonnet) + 1 eleştirmen (opus) · 1 üretim dalgası + 1 doğrulama turu · bütçesini aşan ajan yok · sınır aşılmadı · alt ajan toplamı yaklaşık 793 bin token.
+Ek dalga (11.11.2026): Seviye M alt uç · 2 üretici (sonnet) + 2 doğrulayıcı (sonnet) · tek dalga · bütçesini aşan ajan yok · alt ajan toplamı yaklaşık 370 bin token.

@@ -1,0 +1,522 @@
+{
+ "sonuc": {
+  "boym": {
+   "arac": "14/30",
+   "ozet": "Boym'un iki ayrımı doğrulandı, ama Hedgehog Review tam metni 403 verdi; birebir alıntıların çoğu ikincil/üçüncül sayfalardan (base.milano.it'teki monumenttotransformation uyarlaması, Harvard Magazine röportajı, Bewes'in NLR yazısı). Doğrulananlar: restoratif nostalji nóstos'a vurgu yapar, \"transhistorical reconstruction of the lost home\" ister; reflektif nostalji álgos'ta yaşar, eve dönüşü erteler \"wistfully, ironically, desperately\". \"Álgos is what we share, yet nóstos is what divides us\" cümlesi gerçekten var (kitabın uyarlamasında). Tehlike uyarısı: \"The danger of nostalgia is that it tends to confuse the actual home with an imaginary one.\" Harvard Magazine: restoratif \"heritage and tradition\" ile ilgili, çoğu zaman \"invented tradition\" (Wagner'in Alman mitleri örnek); nostalji \"incurable modern condition\". Bewes restoratif örnek olarak NATO sitesini bozan genç korsanları (\"From Russia with Love\") ve reflektif örnek olarak Boym'un 1988–91 geçiş dönemi özlemini aktarıyor; Bewes'in eleştirisi reflektif nostaljide \"öfke boyutu\" eksikliği. Pickering-Keightley 2006 (Current Sociology 54(6):919–941) nostaljinin salt gerici sayılmasına itiraz eder; Boym'a doğrudan itirazı bu oturumda görülmedi (makale kapalı erişim). Psikoloji: Sedikides-Wildschut nostaljiyi toplumsal bağlılık, anlam ve benlik sürekliliği sağlayan düzenleyici bir kaynak olarak görür; müzikle uyarılan nostalji için ayrı derleme var (Sedikides, Leunissen, Wildschut, Psychology of Music). Yaşanmamış geçmiş: Stern'in \"historical nostalgia\"sı kişisel olmayan, dolaylı dönemlere özlemdir (ikincil kaynak); Goulding ve Appadurai (ikincil kaynakta \"ersatz nostalgia\") birincil görülmedi. Türkçe künye: çevirmen Ferit Burak Aydar doğrulandı; Metis olduğu Birgün'den dolaylı; ancak Kitapyurdu 01.06.2021 ve 700 TL veriyor, bu benim \"2009\" tahminimle çelişiyor; yıl muhtemelen yanlıştı, kesin değil. Boym'un müzik/şarkı hakkında bir söz söylediği doğrulanamadı; off-modern ve \"tendencies\" cümleleri de görülemedi. Dinleyici durumu için çıkarım (yorum, kaynaklı değil): yaşanmamış başka bir halkın şarkısına özlem, Stern/Goulding anlamında dolaylı-tarihsel nostaljiye yakın; Boym'un ölçütü, ev özleminin geri kurma isteğine mi yoksa özlemin kendisini düşünmeye mi döndüğüdür.",
+   "defter": [
+    {
+     "iddia": "Restoratif nostalji nóstos'a vurgu yapar ve kayıp yuvanın aşkın-tarihsel yeniden inşasını dener.",
+     "kaynak": "https://base.milano.it/en/extracts-from-an-adoptation-and-elaboration-of-the-future-of-nostalgia-by-svetlana-boym-2001-as-published-on-monumenttotransformation-org/",
+     "alinti": "Restorative nostalgia stresses nóstos (home) and attempts a transhistorical reconstruction of the lost home.",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "Reflective nostalji álgos'ta (özlemin kendisinde) yaşar ve eve dönüşü erteler.",
+     "kaynak": "https://base.milano.it/en/extracts-from-an-adoptation-and-elaboration-of-the-future-of-nostalgia-by-svetlana-boym-2001-as-published-on-monumenttotransformation-org/",
+     "alinti": "Reflective nostalgia thrives in álgos, the longing itself, and delays the homecoming—wistfully, ironically, desperately.",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "'Algia ortak, nostos böler' cümlesi Boym'un metninde var.",
+     "kaynak": "https://base.milano.it/en/extracts-from-an-adoptation-and-elaboration-of-the-future-of-nostalgia-by-svetlana-boym-2001-as-published-on-monumenttotransformation-org/",
+     "alinti": "Álgos (longing) is what we share, yet nóstos (the return home) is what divides us.",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "Boym'un tehlike uyarısı: nostalji gerçek yuvayı hayali yuvayla karıştırma eğilimindedir.",
+     "kaynak": "https://base.milano.it/en/extracts-from-an-adoptation-and-elaboration-of-the-future-of-nostalgia-by-svetlana-boym-2001-as-published-on-monumenttotransformation-org/",
+     "alinti": "The danger of nostalgia is that it tends to confuse the actual home with an imaginary one.",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "Nostaljinin ikili olumlu-olumsuz doğası: şiirsel yaratım, hayatta kalma mekanizması, zehir ve çare.",
+     "kaynak": "https://base.milano.it/en/extracts-from-an-adoptation-and-elaboration-of-the-future-of-nostalgia-by-svetlana-boym-2001-as-published-on-monumenttotransformation-org/",
+     "alinti": "Nostalgia can be a poetic creation, an individual mechanism of survival, a countercultural practice, a poison, and a cure.",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "Boym'a göre restoratif nostalji hafıza değil miras ve gelenekle ilgilidir; çoğu kez icat edilmiş gelenektir.",
+     "kaynak": "https://www.harvardmagazine.com/2001/09/hypochondria-of-the-hear-html",
+     "alinti": "is not about memory and history but about heritage and tradition.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Restoratif nostalji örneği olarak Wagner'in operalarında kullandığı Alman mitleri anılır.",
+     "kaynak": "https://www.harvardmagazine.com/2001/09/hypochondria-of-the-hear-html",
+     "alinti": "the German myths that Wagner used for his operas",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Boym nostaljide travmanın unutulabileceği ve geçmişin hatırlandığı gibi olmadığı uyarısını yapar.",
+     "kaynak": "https://www.harvardmagazine.com/2001/09/hypochondria-of-the-hear-html",
+     "alinti": "The past can't be recaptured, and it never really was the way you recall it.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Hofer'in 1688 tanımı (vatan özleminden doğan hüzünlü ruh hali) röportajda anılıyor; Hofer'in adı ve yılı birincil metinde görülmedi.",
+     "kaynak": "https://www.harvardmagazine.com/2001/09/hypochondria-of-the-hear-html",
+     "alinti": "the sad mood originating from the desire for return to one's native land.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Reflective nostalji, Boym'a göre, deneyimi keşfetmeye yarayan olumlu bir güçtür.",
+     "kaynak": "https://www.harvardmagazine.com/2001/09/hypochondria-of-the-hear-html",
+     "alinti": "It's a positive force that helps us explore our experience.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Bewes'e göre Boym'un restoratif örneği NATO sitesini bozan gençlerdir; reflektif örnek Boym'un 1988-91 özlemidir.",
+     "kaynak": "https://newleftreview.org/issues/II14/articles/timothy-bewes-an-anatomy-of-nostalgia.pdf",
+     "alinti": "This, apparently, is restorative nostalgia.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Eleştiri (Bewes): reflektif nostalji öfke boyutundan yoksun görünür.",
+     "kaynak": "https://newleftreview.org/issues/II14/articles/timothy-bewes-an-anatomy-of-nostalgia.pdf",
+     "alinti": "seems to lack the dimension of anger",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Pickering ve Keightley 2006, Current Sociology 54(6):919-941; nostaljinin yalnızca gerici/melankolik sayılmasına itiraz eden bir çerçeve sunar. Boym'a doğrudan itirazı görülmedi.",
+     "kaynak": "https://repository.lboro.ac.uk/articles/journal_contribution/The_modalities_of_nostalgia/9477068",
+     "alinti": "kaynak görülmedi",
+     "guven": "düşük"
+    },
+    {
+     "iddia": "Sedikides ve Wildschut nostaljiyi toplumsal bağlılık, anlam ve benlik sürekliliğini güçlendiren işlevsel bir mekanizma olarak görür; müzikle uyarılan nostalji için de derleme var.",
+     "kaynak": "https://southampton.ac.uk/~crsi/Sedikides, Leunissen, & Wildschut, 2022, Psychology of Music.pdf",
+     "alinti": "kaynak görülmedi",
+     "guven": "düşük"
+    },
+    {
+     "iddia": "Stern'in historical nostalgia'sı doğrudan yaşanmamış dönemlere özlemdir; Goulding ve Appadurai tanımları birincil kaynakta görülmedi.",
+     "kaynak": "https://espace.curtin.edu.au/bitstream/handle/20.500.11937/17762/137589_137589.pdf",
+     "alinti": "kaynak görülmedi",
+     "guven": "düşük"
+    },
+    {
+     "iddia": "Türkçe baskı: çevirmen Ferit Burak Aydar; Kitapyurdu tarihi 01.06.2021, liste fiyatı 700 TL; Metis yayıncısı Birgün'de dolaylı geçiyor.",
+     "kaynak": "https://www.kitapyurdu.com/kitap/nostaljinin-gelecegi/140901.html?path=1",
+     "alinti": "kaynak görülmedi",
+     "guven": "düşük"
+    }
+   ],
+   "yeni_bulgular": [
+    "Boym'un uyarlama metninde 'Unelected nostalgia breeds monsters' ve 'uncannily contemporary' ifadeleri geçiyor.",
+    "Boym röportajında nostaljiyi 'the incurable modern condition' olarak anıyor.",
+    "Türkçe baskı yılı Kitapyurdu'nda 2021 görünüyor; Metis 2009 iddiası doğrulanamadı.",
+    "Bewes'in NLR yazısı, Boym'a yönelik somut ve kullanılabilir bir eleştiri sunuyor: reflektif nostalji öfkesiz kalabilir.",
+    "Sedikides, Leunissen ve Wildschut'un müzikle uyarılan nostalji derlemesi dinleyicinin durumuna doğrudan yakın bir psikoloji kaynağı."
+   ],
+   "celisen_kanit": [
+    "Türkçe baskı yılı: tahmin 2009; Kitapyurdu 01.06.2021 (muhtemelen yeni basım/tarih; doğrulanmadı).",
+    "Boym nostos/algia için bazı kaynaklarda 'algos (acı)' yazıyor; Boym 'longing' anlamını kullanıyor."
+   ],
+   "acik_kalanlar": [
+    "Hedgehog Review tam metni 403: 'no longer exists or has never existed' ve 'romance with one's own fantasy' alıntıları kaynağında görülmedi.",
+    "'Tendencies / mutlak tip değil' ve 'off-modern', 'prospective' ifadeleri birincil kaynakta görülmedi.",
+    "Boym'un müzik/şarkı hakkında söylediği bir şey bulunamadı.",
+    "Pickering-Keightley'nin Boym ayrımına itirazı doğrulanamadı (kapalı erişim).",
+    "Goulding 2002 ve Appadurai birincil tanımları görülmedi; anemoia kaynaksız.",
+    "Metis künyesi (yıl, sayfa, ISBN, satış durumu) görülemedi; metiskitap.com ve Kitapyurdu erişilemedi.",
+    "Her tür için en az iki Boym örneği tam karşılanmadı (restoratifte Wagner/NATO hackerları, reflektifte 1988-91 özlemi; ikincil kaynaklardan)."
+   ]
+  },
+  "rosa": {
+   "arac": "26/30",
+   "ozet": "Rosa'nın kendi metninden (Global Dialogue 2018) doğrulananlar: rezonans, bir \"çift hareket\" olarak tanımlanıyor (dokunulma + yanıt); dört öğe Rosa'nın kendi ifadesiyle var: dokunulma (\"truly touched or moved\"), yanıtlayıcı öz-etkinlik, süregiden dönüşüm, kontrol edilemezlik. Yankı ayrımı doğrulandı (rezonans \"kendini yükseltilmiş duymak ya da yeniden güvence bulmak\" değil; Public Seminar'da \"yalnızca aynısını yükseltilmiş duyarsın, bu yankı gibi\"). \"Rezonansı uyum ya da ahenk olarak anlamıyorum\" cümlesi de var. Hüzün konusunda Rosa'nın birebir cümlesini kendi metninde bulamadım: 2018 makalesi yalnızca rezonansın \"rahatsız edici yönler\" taşıyabildiğini söylüyor; \"hüzünlü hikâyeleri sevebiliriz\" ifadesi Wikipedia'da ve ikincil kaynakta görülüyor, Rosa'dan birebir doğrulanmadı. Eksenler: bildiğim yatay/çapraz/dikey ayrımı Wikipedia'da ve Pfleiderer'in Rosa 2016 şemasında doğrulandı (dikey eksende doğa, din, tarih, sanat/müzik; müzik topluluğu yatay, müzik malzemesiyle çalışma çapraz); 2018 makalesi ise farklı adlandırıyor (toplumsal, maddi, varoluşsal) ve müziği güvenilir bir eksen örneği sayıyor. Wikipedia ayrıca sonradan eklenen \"benlik\" eksenini anıyor. Karşıtı yabancılaşma: Jaeggi'nin \"ilişkisizlik ilişkisi\" Wikipedia'da doğrulandı; Rosa 2018'de \"gerçek ilişkisi olmayan ilişki\" diyor. Kontrol edilemezlik: LARB'a göre rezonans \"ne zorlanabilir ne kesin olarak engellenebilir\"; dünyayı mühendislikle yönetilebilir kılma isteği boğucu; Age of Artists söyleşisinde \"belirli bir zamanda rezonans yaratmak imkânsız\", yapay \"rezonans vahaları\" eleştirilir; Wikipedia'ya göre Rosa \"rezonansı satın al\" vaadini araçsallaştırma sayar. Anverwandlung/Aneignung: Pfleiderer'in sunumu Rosa 2016'dan \"Anverwandlung (nicht Aneignung) von Welt\" ifadesini aktarıyor; ayrımın ayrıntılı birebir tanımı görülmedi. Rosa'nın heavy metal kitabı Polity değil Kohlhammer (2023) yayını, bu bir düzeltme. Eleştiriler: Brumlik (kavram fazla geniş, kesinlikten yoksun) doğrulandı; Susen 2020 ve normatif tekçilik (Lindner) başlık düzeyinde doğrulandı; \"kötü rezonans\" ve Rosa'nın yanıtı (2020 ve 2023 yanıt makaleleri) içerik olarak okunamadı. Türkçe künye: Yabancılaşma ve Hızlanma (çev. B. Konuk) ve Dünyanın Kontrol Edilemezliği (çev. M. Kaya), İstanbul: Albaraka Yayınları, 2022; Rezonans: Dünya ile İlişkinin Sosyolojisi'nin çevirmeni Mahmut Kamadan, 672 sayfa, 03.03.2026 (Kitapyurdu listesi; yayınevi alanı görülmedi, aynı yayınevinin önceki Rosa çevirilerini andığı için Albaraka olması muhtemel ama doğrulanmadı).",
+   "defter": [
+    {
+     "iddia": "Rosa rezonansı, dokunulma ve yanıtın 'çift hareketi' olarak tanımlar ve bedensel temeli olduğunu söyler.",
+     "kaynak": "https://globaldialogue.isa-sociology.org/articles/the-idea-of-resonance-as-a-sociological-concept",
+     "alinti": "dual movement (WebFetch özeti; Rosa'dan birebir cümle görülmedi, 'always and inevitably has a bodily basis' özet içinde)",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Dört öğe: dokunulma, yanıtlayıcı öz-etkinlik, dönüşüm, kontrol edilemezlik; Rosa'nın kendi makalesinde bu ifadelerle geçer.",
+     "kaynak": "https://globaldialogue.isa-sociology.org/articles/the-idea-of-resonance-as-a-sociological-concept",
+     "alinti": "the experience of responsive (as opposed to purely instrumental) self-efficacy",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rezonans yankı değildir; kendini yükseltilmiş duymak ya da yeniden güvence bulmak anlamına gelmez.",
+     "kaynak": "https://globaldialogue.isa-sociology.org/articles/the-idea-of-resonance-as-a-sociological-concept",
+     "alinti": "does not mean to hear oneself amplified or to simply feel re-assured",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rosa farklılık olmayınca diyalog olmadığını, yalnızca yankı duyulduğunu söyler.",
+     "kaynak": "https://publicseminar.org/2017/01/the-crisis-of-dynamic-stabilization-and-the-sociology-of-resonance/",
+     "alinti": "There is no dialogue. You only hear the same amplified, and that's just like an echo.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rosa rezonansı uyum ya da ahenk olarak anlamaz.",
+     "kaynak": "https://publicseminar.org/2017/01/the-crisis-of-dynamic-stabilization-and-the-sociology-of-resonance/",
+     "alinti": "I do not understand resonance as harmony or consonance.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rezonans rahatsız edici yönler de taşıyabilir; depresyon ve tükenmişlikte rezonans belirgin biçimde yoktur.",
+     "kaynak": "https://globaldialogue.isa-sociology.org/articles/the-idea-of-resonance-as-a-sociological-concept",
+     "alinti": "can harbor essentially disturbing aspects too",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rezonans bir ilişki kipidir, duygu durumu değil; Wikipedia'ya göre 'hüzünlü hikâyeleri sevebiliriz'. Rosa'dan birebir cümle görülmedi.",
+     "kaynak": "https://en.wikipedia.org/wiki/Resonance_(sociology)",
+     "alinti": "we can love sad stories (WebFetch özeti, ikincil)",
+     "guven": "düşük"
+    },
+    {
+     "iddia": "Eksenler yatay (insanlar), çapraz (şeyler, okul, spor), dikey (doğa, sanat, tarih, din); sonradan 'benlik' ekseni eklenmiş.",
+     "kaynak": "https://en.wikipedia.org/wiki/Resonance_(sociology)",
+     "alinti": "Horizontal / Diagonal / Vertical / Self (WebFetch özeti)",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Pfleiderer'in Rosa 2016 şemasında dikey eksende sanat/müzik, yatay eksende müzik topluluğu yer alır.",
+     "kaynak": "https://uni-weimar.de/fileadmin/user/fak/gestaltung/Projekte/Resonanzraeume/PDF_-_Vortragstexte/Pfleiderer__Martin_Resonanz__Musik_und_geleingendes_Leben_Keynotevortrag_am_15.11.2020.pdf",
+     "alinti": "Kunst / Musik … Vertikale Resonanzachsen; Familie, Freundschaft, Schulklasse, Musikensemble",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "Rosa 2018 makalesinde eksenleri toplumsal, maddi, varoluşsal diye adlandırır ve müziği güvenilir bir eksen örneği sayar.",
+     "kaynak": "https://globaldialogue.isa-sociology.org/articles/the-idea-of-resonance-as-a-sociological-concept",
+     "alinti": "the social, material, and existential dimensions of resonance",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rezonans metaforu müzikal akustikten gelir: titreşen sistem ve yankılanan sistem birbirini uyarır, her ikisi kendi sesiyle konuşur.",
+     "kaynak": "https://en.wikipedia.org/wiki/Resonance_(sociology)",
+     "alinti": "a vibrating system in which both sides mutually stimulate each other",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Yabancılaşma, rezonansın yokluğudur; Jaeggi'den 'ilişkisizlik ilişkisi'. Rosa: 'gerçek ilişkisi olmayan ilişki'.",
+     "kaynak": "https://en.wikipedia.org/wiki/Resonance_(sociology)",
+     "alinti": "a relation of relationlessness",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "Rosa 2016'dan: 'Rezonans modernitenin vaadi olarak kalır, yabancılaşma onun gerçekliğidir' (s. 624); 'Anverwandlung (nicht Aneignung) von Welt'.",
+     "kaynak": "https://uni-weimar.de/fileadmin/user/fak/gestaltung/Projekte/Resonanzraeume/PDF_-_Vortragstexte/Pfleiderer__Martin_Resonanz__Musik_und_geleingendes_Leben_Keynotevortrag_am_15.11.2020.pdf",
+     "alinti": "Resonanz bleibt das Versprechen der Moderne, Entfremdung ist ihre Realität.",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "Anverwandlung kavramı eğitim literatüründe Aneignung'a (sahiplenme, yeterlik) karşıt konur.",
+     "kaynak": "https://uni-weimar.de/fileadmin/user/fak/gestaltung/Projekte/Resonanzraeume/PDF_-_Vortragstexte/Pfleiderer__Martin_Resonanz__Musik_und_geleingendes_Leben_Keynotevortrag_am_15.11.2020.pdf",
+     "alinti": "Anverwandlung (nicht Aneignung) von Welt.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rezonans ne zorlanabilir ne de kesinlikle engellenebilir.",
+     "kaynak": "https://www.lareviewofbooks.org/article/control-everything-on-hartmut-rosas-the-uncontrollability-of-the-world",
+     "alinti": "can be neither forced nor prevented with absolute certainty",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rosa: rezonans kontrol edilemeyen ama erişilebilir bir dünya ister; tamamen kontrol edilen şeyler rezonanslı niteliğini yitirir.",
+     "kaynak": "https://www.lareviewofbooks.org/article/control-everything-on-hartmut-rosas-the-uncontrollability-of-the-world",
+     "alinti": "Resonance requires a world that can be reached, not one that can be limitlessly controlled.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rosa belirli bir anda rezonans yaratmanın imkânsız olduğunu, yapay rezonans vahalarına karşı olduğunu söyler.",
+     "kaynak": "https://ageofartists.org/aoa-insights/its-impossible-to-create-resonance-at-a-certain-time/",
+     "alinti": "It's impossible to create resonance at a certain time.",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "Rosa tüketim kültürünün 'rezonansı satın al' vaadinin deneyimi araçsallaştırıp engellediğini savunur.",
+     "kaynak": "https://en.wikipedia.org/wiki/Resonance_(sociology)",
+     "alinti": "Buy yourself resonance! (WebFetch özeti, ikincil)",
+     "guven": "düşük"
+    },
+    {
+     "iddia": "Rezonans önceden karara bağlanamaz, garanti edilemez.",
+     "kaynak": "https://publicseminar.org/2017/01/the-crisis-of-dynamic-stabilization-and-the-sociology-of-resonance/",
+     "alinti": "There is no way to guarantee that something will create resonance.",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Rosa müziği rezonans örneği olarak kullanır; metal için 'sert bir dokunuş, bir kucaklama' der.",
+     "kaynak": "https://www.uni-erfurt.de/en/university/current/news/news-detail/i-interpret-the-music-as-a-fierce-touch-as-an-embrace",
+     "alinti": "I interpret the music as a fierce touch, as an embrace",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "When Monsters Roar and Angels Sing Polity değil Kohlhammer (Stuttgart, 2023) yayını, Almanca alt başlığı 'Eine kleine Soziologie des Heavy Metal'.",
+     "kaynak": "https://www.uni-erfurt.de/en/research/news/publications/publikation-detail/when-monsters-roar-and-angels-sing",
+     "alinti": "kaynak görülmedi (yalnızca arama özeti)",
+     "guven": "düşük"
+    },
+    {
+     "iddia": "Brumlik, rezonans kavramının fazla geniş olduğunu ve kesinlikten yoksun bulunduğunu savunur.",
+     "kaynak": "https://en.wikipedia.org/wiki/Resonance_(sociology)",
+     "alinti": "Micha Brumlik argues the concept is so broad that it lacks conceptual precision (özet)",
+     "guven": "orta"
+    },
+    {
+     "iddia": "Susen 2020 makalesi rezonans ve yabancılaşma diyalektiğinin 'iyi yaşam/kötü yaşam' normatif ölçütleri verdiğini savunur ve Rosa'nın eleştirmenlere savunmasını inceler.",
+     "kaynak": "https://link.springer.com/article/10.1007/s10767-019-9313-6",
+     "alinti": "kaynak görülmedi (yalnızca arama özeti; sayfa açılamadı)",
+     "guven": "düşük"
+    },
+    {
+     "iddia": "Lindner, Rosa'nın 'normatif tekçiliğini' eleştirir (Suhrkamp 'Resonanz und Kritik' ciltinde).",
+     "kaynak": "https://res.cloudinary.com/suhrkamp/images/q_auto/v1752131760/158387/resonanz-und-kritik_9783518300459_leseprobe.pdf",
+     "alinti": "kaynak görülmedi (arama özeti: 'Resonanz und Gleichheit. Eine Kritik an Hartmut Rosas normativem Monismus')",
+     "guven": "düşük"
+    },
+    {
+     "iddia": "Rosa'nın yanıt makaleleri: 'Resonance as a medio-passive, emancipatory and transformative power: a reply to my critics' (Journal of Chinese Sociology, 2023); 2020'de Journal of Political Power'da 'Beethoven, the Sailor, the Boy and the Nazi' adlı yanıt iddiası doğrulanamadı.",
+     "kaynak": "https://libmast.utm.my/Record/doaj.art-6cd7f134de9b4c28a09ce8d7c40cf96c",
+     "alinti": "kaynak görülmedi (yalnızca başlık arama sonucunda)",
+     "guven": "düşük"
+    },
+    {
+     "iddia": "Türkçe: Yabancılaşma ve Hızlanma (çev. B. Konuk) ve Dünyanın Kontrol Edilemezliği (çev. M. Kaya), İstanbul: Albaraka Yayınları, 2022.",
+     "kaynak": "https://dergipark.org.tr/tr/download/article-file/3484851",
+     "alinti": "Rosa, H. (2022b). Dünyanın Kontrol Edilemezliği (M. Kaya, Çev.). İstanbul: Albaraka Yayınları.",
+     "guven": "yüksek"
+    },
+    {
+     "iddia": "Rezonans: Dünya ile İlişkinin Sosyolojisi'nin Türkçesi: çevirmen Mahmut Kamadan, 672 sayfa, 03.03.2026; yayınevi görülmedi.",
+     "kaynak": "https://www.kitapyurdu.com/kitap/rezonans-dunya-ile-iliskinin-sosyolojisi/748277.html",
+     "alinti": "kaynak görülmedi (sayfa 403 verdi; yalnızca arama özeti)",
+     "guven": "düşük"
+    }
+   ],
+   "yeni_bulgular": [
+    "Rosa ile Pfleiderer'in birlikte yazdığı 'Musik als Resonanzsphäre' (Musik & Ästhetik 95, Temmuz 2020, s. 5-36) müzik-rezonans için doğrudan okunacak kaynak.",
+    "Rosa'nın 2018 makalesi eksenleri toplumsal/maddi/varoluşsal diye adlandırıyor; yatay/çapraz/dikey 2016 kitabının terimleri.",
+    "Pfleiderer slaytlarında 'Entfremdungsresonanz' (yabancılaşma rezonansı) ve 'Scheinresonanzen' (sahte rezonans) kavramları açık tartışma maddesi olarak geçiyor; 'kötü rezonans' sorununa Rosa'nın cevabı bu kavramlardan geçiyor olabilir.",
+    "Heavy metal kitabının yayıncısı Polity değil Kohlhammer (2023, Metalbücher serisi).",
+    "Rosa'nın Türkçe çevirileri Albaraka Yayınları'nda (2022); Rezonans'ın 2026 çevirisi çıkmış (çevirmen M. Kamadan).",
+    "LARB eleştirmeni, yabancılaşma anlatısının kontrol edilemezliğe gerçekten yer bırakıp bırakmadığını sorguluyor."
+   ],
+   "celisen_kanit": [
+    "Bildiklerimdeki 'yatay/çapraz/dikey' eksen adları Rosa'nın 2018 makalesinde yok (toplumsal/maddi/varoluşsal); 2016 kitabı ve Wikipedia'da var.",
+    "Bildiklerimdeki 'When Monsters Roar and Angels Sing, Polity' yanlış görünüyor: Kohlhammer 2023.",
+    "Bildiklerimdeki 'Rosa'nın kendi cümlesi: hüzünlü müzik de rezonans olabilir' Rosa'nın 2018 makalesinde birebir bulunmadı; yalnızca 'rahatsız edici yönler' ifadesi görüldü.",
+    "Bir arama özeti Rosa'ya ait 2020 'Beethoven, the Sailor, the Boy and the Nazi' yanıtını anmıştı; ikinci aramada bu kayıt bulunamadı, doğrulanamadı."
+   ],
+   "acik_kalanlar": [
+    "Rosa'nın hüzünlü deneyimin rezonans sayılmasına dair birebir cümlesi (Resonanz 2016 ya da Pfleiderer-Rosa 2020 makalesi).",
+    "Rosa'nın 'kötü rezonans' (faşist kitle gösterileri) itirazına yanıtı; Susen 2020 ve Rosa yanıt makaleleri açılamadı (Springer yönlendirme, core.ac.uk 403).",
+    "Anverwandlung ile Aneignung ayrımının Rosa'dan birebir tanımı.",
+    "Korku, zaman baskısı ve rekabetin rezonansı kapattığına dair Rosa'dan birebir alıntı.",
+    "Rezonans Türkçe baskısının yayınevi, ISBN ve künyesi (Kitapyurdu 403).",
+    "Rosa'nın müzik üzerine söyledikleri: Pfleiderer-Rosa 2020 ve Zaretsky söyleşisi açılmadı.",
+    "Susen'in eleştirilerinin içeriği ve Lindner, Brumlik'in kaynağında kendi sözleri."
+   ]
+  },
+  "v1": {
+   "arac": "17/20",
+   "satirlar": [
+    {
+     "no": "C1",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "Marinis PDF'i sıkıştırılmış ikili olarak geldi, metin okunamadı (dosya yerelde kayıtlı). 1830–1835 tarihi ve Roman rolü görülmedi; rapor 'doğrulanmadı' etiketiyle taşımalı. Diğer üç aday kaynak açılmadı.",
+     "kaynak": "",
+     "alinti": "kaynak görülmedi",
+     "duzey": "yok"
+    },
+    {
+     "no": "C2",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "Sözler görülemedi. Şarkının varlığı doğrulandı: arşiv kaydı başlığı 'Εκκλησία μου κουκλωτή' (Εκκλησία yazımı), 1973 kaydı, 'Ηπειρώτικος Γάμος' koleksiyonunda, Βάγιας/Σιάτρας yorumuyla. Düğünün hangi anında söylendiği ve (b) şarkısı görülmedi. Makine altyazısı okumaları yazılı metinle sınanmadı.",
+     "kaynak": "https://digital.mmb.org.gr/digma/handle/123456789/40575",
+     "alinti": "Εκκλησία μου κουκλωτή = The \"doll\" chapel",
+     "duzey": "özet ya da künye sayfası"
+    },
+    {
+     "no": "C3",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "Harvard CHS sayfası boş döndü; birincil metin görülmedi. (b) için yalnızca ikincil destek: ksenitya şarkılarının ağıtlarla aynı halk şarkısı döngüsüne ait olduğu bir blogda Alexiou'ya atfen anılıyor. (a) görülmedi. Kitabın 2002 ikinci baskısı ve 1974 ilk baskısı künyesi BMCR'den teyitli.",
+     "kaynak": "https://corfublues.blogspot.jp/2017/06/mirologia-greek-songs-of-lamentation-of.html",
+     "alinti": "songs of xeniteia belong to the same cycle of Greek demotic folk-songs as the laments for the dead",
+     "duzey": "arama özeti"
+    },
+    {
+     "no": "C4",
+     "karar": "doğru",
+     "duzeltme": "Başlık: 'Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion', PNAS 2001. Özette PET ile ürperti şiddeti arttıkça ventral striatum, amigdala gibi ödül, duygu ve uyarılma bölgelerinde kan akımı değişimi bildiriliyor. 'Nedensel' değil, ilişkisel; rapor 'ilişkili' demeli.",
+     "kaynak": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:11573015%20AND%20SRC:MED&resultType=core&format=json",
+     "alinti": "Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion.",
+     "duzey": "özet ya da künye sayfası"
+    },
+    {
+     "no": "C5",
+     "karar": "doğru",
+     "duzeltme": "Başlık: 'Dopamine modulates the reward experiences elicited by music', PNAS 2019. Çift kör, denek içi tasarım, 27 sağlıklı katılımcı; levodopa müzik hazzı ve motivasyonu artırdı, risperidon azalttı. Ek bilgi: n=27, plasebo kontrollü.",
+     "kaynak": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30670642%20AND%20SRC:MED&resultType=core&format=json",
+     "alinti": "Dopamine modulates the reward experiences elicited by music.",
+     "duzey": "özet ya da künye sayfası"
+    },
+    {
+     "no": "C6",
+     "karar": "doğru",
+     "duzeltme": "Music Perception 29(3), 311–317; 148 katılımcı, 16 müzik parçası. Deneyime açıklık ve empati hem hüzünlü müziği sevmeyle hem tepkilerin şiddetiyle ilişkili. Ek: hüzünlü parçalarda baskın duygu hüzün, ama nostalji, huzur ve hayranlık da bildirilmiş. Özet arama sonucundan okundu, metin açılmadı.",
+     "kaynak": "https://research.bond.edu.au/en/publications/who-enjoys-listening-to-sad-music-and-why/",
+     "alinti": "kaynak görülmedi",
+     "duzey": "arama özeti"
+    },
+    {
+     "no": "C7",
+     "karar": "düzeltildi",
+     "duzeltme": "Doğru künye: Barrett, Grimm, Robins, Wildschut, Sedikides ve Janata (2010), 'Music-evoked nostalgia: affect, memory, and personality', Emotion 10(3), 390–403. Nostaljiye yatkınlık hüzün boyutu ve nörotisizmle ilişkili. 'Hem sevinç hem hüzün' ifadesi arama özetinde görülmedi; yalnızca duygulanım ve kişilik bulguları görüldü, o yüzden bu ifade doğrulanmadı.",
+     "kaynak": "https://eprints.soton.ac.uk/79905",
+     "alinti": "kaynak görülmedi",
+     "duzey": "arama özeti"
+    },
+    {
+     "no": "C8",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "Özet görülemedi. İkincil kaynaklar yalnızca deneyime açıklığın tek ilişkili özellik olduğunu aktarıyor; n ve %8 görülmedi. Not: kaynaklar yayın tarihini 2010 çevrimiçi olarak veriyor, 2011 basılı sayı olabilir; teyit edilmedi.",
+     "kaynak": "https://www.eurekalert.org/news-releases/615549",
+     "alinti": "kaynak görülmedi",
+     "duzey": "arama özeti"
+    },
+    {
+     "no": "C9",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "Katsanevaki PDF'i okunamadı (sıkıştırılmış ikili, yerelde kayıtlı). Anhemitonik baskınlık iddiası görülmedi.",
+     "kaynak": "",
+     "alinti": "kaynak görülmedi",
+     "duzey": "yok"
+    },
+    {
+     "no": "C10",
+     "karar": "doğru",
+     "duzeltme": "Psychology of Music 45(6), 886–909. 57 çalışmanın 50'si (%87,7) ters U ile uyumlu; 5 karışık, 2 tamamen uyumsuz. Dikkat: Gold ve ark. 2023 aynı derlemeyi 57 çalışmadan yalnızca 15'inde Wundt etkisi diye anıyor; 'ters U uyumlu' ile 'Wundt etkisi' ayrı sayımlar, rapor ifadeyi buna göre seçmeli.",
+     "kaynak": "https://researchers.westernsydney.edu.au/en/publications/back-to-the-inverted-u-for-music-preference-a-review-of-the-liter/",
+     "alinti": "fifty of the 57 studies (87.7%) were categorized as compatible with an overarching (segmented) inverted-U model",
+     "duzey": "özet ya da künye sayfası"
+    },
+    {
+     "no": "C11",
+     "karar": "doğru",
+     "duzeltme": "Başlık: 'Music and emotions in the brain: familiarity matters', PLoS ONE 6(11), 2011. fMRI; tanıdık müzikte limbik ve ödül bölgeleri daha etkin. Ek: beğenme ile tanıdıklık ayrıştırıldı; sonuç tanıdıklığın duygusal bağlanmada kritik olduğu.",
+     "kaynak": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22110619%20AND%20SRC:MED&resultType=core&format=json",
+     "alinti": "familiarity seems to be a crucial factor in making the listeners emotionally engaged with music",
+     "duzey": "özet ya da künye sayfası"
+    }
+   ],
+   "notlar": "Doğrulanan: C4, C5, C6, C10, C11 (özet düzeyi), C7 kısmen düzeltildi (yazar listesi). Doğrulanamayan: C1, C2, C3, C8, C9; PubMed çerez engeli verdi, Europe PMC ile künye ve özet okundu. PDF'ler (Marinis, Katsanevaki) ikili döndü ve yerelde kayıtlı; pdftotext ile okunabilir (/root/.claude/projects/-home-user-Xxxx/7b98279d-1b0c-5d40-a1b5-911b1278aa0a/tool-results/webfetch-1794401746784-slvoew.pdf ve webfetch-1794401750453-6dufmq.pdf), sonraki turda birkaç çağrıyla C1 ve C9 çözülür. C3 için Harvard CHS sayfası boş geldi, başka bir kopya aranmalı. Güçlü kaynaklar: Western Sydney repo (C10), Southampton eprints (C7 tam metin), Jyväskylä jyx tam metni (C6), digital.mmb.org.gr (C2 kayıt künyesi). C2 için olympias.lib.uoi.gr kayıtları (handle 31801, 25161) arama sonucunda çıktı, açılmadı."
+  },
+  "v2": {
+   "arac": "17/20",
+   "satirlar": [
+    {
+     "no": "D1",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "Gutenberg 48433 (Bernard) açıldı ama §28 bölümüne WebFetch ile ulaşılamadı. Sayfa 833 bin karakter; 560-660 bin aralığı §75-85'i veriyor, §28 daha önceki aralıkta.",
+     "kaynak": "",
+     "alinti": "kaynak görülmedi",
+     "duzey": "yok"
+    },
+    {
+     "no": "D2",
+     "karar": "doğru",
+     "duzeltme": "Dört işaret ve her ikisi de doğrulandı. James ilk ikisini (ineffability, noetic quality) tanımlayıcı sayar, transiency ve passivity'yi 'daha az belirgin ama genellikle bulunan' işaretler olarak sunar; rapor bunu belirtmeli.",
+     "kaynak": "https://standardebooks.org/ebooks/william-james/the-varieties-of-religious-experience/text/chapter-11",
+     "alinti": "absolutely authoritative over the individuals to whom they come; No authority emanates from them which should make it a duty for those who stand outside of them",
+     "duzey": "birincil metin"
+    },
+    {
+     "no": "D3",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "",
+     "kaynak": "",
+     "alinti": "kaynak görülmedi",
+     "duzey": "yok"
+    },
+    {
+     "no": "D4",
+     "karar": "doğru",
+     "duzeltme": "Boym'un kendi metni görülmedi; ikincil alıntılarda nostos 'eve dönüş', algia 'özlem, sızı' olarak veriliyor ve restoratif nostalji nostos'a, reflektif nostalji algia'ya yaslanıyor. Kesin ifade için The Future of Nostalgia (2001) ya da Hedgehog Review makalesi (403 verdi) gerekir.",
+     "kaynak": "https://www.psychologytoday.com/us/blog/time-travelling-apollo/201606/the-two-faces-nostalgia",
+     "alinti": "dwells in algia (aching), in longing and loss",
+     "duzey": "ikincil kaynak"
+    },
+    {
+     "no": "D5",
+     "karar": "doğru",
+     "duzeltme": "Aranan cümlenin birebir metni görülmedi; arama özeti ifadeyi Katz'a (1978, Mysticism and Philosophical Analysis, s. 22-74; iddia s. 26) atfediyor. Katz bunu kanıtlanmış sonuç değil çalışma hipotezi olarak sunar.",
+     "kaynak": "https://people.bu.edu/wwildman/relexp/reviews/review_katz01.htm",
+     "alinti": "kaynak görülmedi (özet: s. 26'da dile getirildi, 'working hypothesis')",
+     "duzey": "arama özeti"
+    },
+    {
+     "no": "D6",
+     "karar": "doğru",
+     "duzeltme": "Çevirmen belli olmayan bir İngilizce sayfada ifade görüldü; Jowett olduğu doğrulanamadı. Burnet çevirisi tıbbi arınma imgesini veriyor (VIII, 1341b35-1342a28).",
+     "kaynak": "https://wom.maximesmusic.com/?p=16058",
+     "alinti": "restored as though they had found healing and purgation",
+     "duzey": "arama özeti"
+    },
+    {
+     "no": "D7",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "",
+     "kaynak": "",
+     "alinti": "kaynak görülmedi",
+     "duzey": "yok"
+    },
+    {
+     "no": "D8",
+     "karar": "doğru",
+     "duzeltme": "Birebir ifade çeviriye göre değişir (copy of the Ideas / copy of the will itself). Haldane-Kemp metni açılmadı.",
+     "kaynak": "https://commons.princeton.edu/eng266-s25/wp-content/uploads/sites/433/2025/02/Schopenhauer-The-World-as-Will-and-Representation-excerpt.pdf",
+     "alinti": "music is not a copy of the Ideas ... but a copy of the will itself",
+     "duzey": "arama özeti"
+    },
+    {
+     "no": "D9",
+     "karar": "doğru",
+     "duzeltme": "Tarih notu: Terry Lectures 1937'de verildi, kitap 1938'de çıktı. Özet 'victim rather than creator' ve Otto'dan alıntıyı destekliyor; CW 11 §6 numarası ve birebir metin görülmedi.",
+     "kaynak": "https://jungiancenter.org/jung-and-the-numinosum/",
+     "alinti": "always rather its victim than its creator",
+     "duzey": "arama özeti"
+    },
+    {
+     "no": "D10",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "Mysterium tremendum ve fascinans ikincil kaynakta doğrulandı (awfulness, overpoweringness, energy, wholly other, fascination). Otto'nun müzik benzetmesi yalnızca Armstrong'un özetinde görüldü, Otto'nun metninde değil; rapor 'Otto müzikle benzetme kurar' derken bunu Armstrong'a atfetmeli.",
+     "kaynak": "https://hirr.hartfordinternational.edu/articles/4486/",
+     "alinti": "kaynak görülmedi",
+     "duzey": "ikincil kaynak"
+    },
+    {
+     "no": "D11",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "TDV 'semâ' maddesi doğru adresle bulunamadı (sema--musiki yanlış sayfa). Gazzâlî'nin semâ ve vecd bahsinin İhyâ'nın ikinci cildinde yer aldığı görüldü, ilgili cümleler görülmedi.",
+     "kaynak": "",
+     "alinti": "kaynak görülmedi",
+     "duzey": "yok"
+    },
+    {
+     "no": "D12",
+     "karar": "doğru",
+     "duzeltme": "Üç parça da maddede var. 'Âlimlerin çoğuna göre' kısmı için çevreleyen cümle tam görülmedi, yalnızca ifade parçaları geldi.",
+     "kaynak": "https://islamansiklopedisi.org.tr/husu",
+     "alinti": "huşû kökleri kalpte, belirtisi bedende; huşûun irade dışı yönlerinin bulunduğu; kazanılmasının belli bir terbiye sürecini gerektirdiği",
+     "duzey": "birincil metin"
+    },
+    {
+     "no": "D13",
+     "karar": "kontrol edilemedi",
+     "duzeltme": "Bütçe yetmedi, arama yapılmadı.",
+     "kaynak": "",
+     "alinti": "kaynak görülmedi",
+     "duzey": "yok"
+    }
+   ],
+   "notlar": "Doğrulananlar: D2 ve D12 birincil metinde görüldü; D4, D5, D6, D8, D9 yalnızca ikincil kaynak ya da arama özetinde, raporda 'doğrulandı' yerine 'ikincil kaynakta görüldü' denmeli. Kontrol edilemeyenler D1, D3, D7, D10 (müzik benzetmesi), D11, D13. Düzeltmeler: D2'de James yalnızca iki işareti tanımlayıcı sayar; D5 Katz için 'çalışma hipotezi' ayrımı; D9'da 1937 konferans, 1938 yayın; D6'da Jowett atfı doğrulanmadı. İyi kaynak: standardebooks.org James (Lecture XVI-XVII) ve TDV huşû maddesi tam metinle çalışıyor. Gutenberg 621 ve 38427 adresleri 404 verdi; pg621-images sayfası çok uzun, 'offset' gerektirir. Hedgehog Review 403 verdi."
+  }
+ },
+ "eksik": []
+}
