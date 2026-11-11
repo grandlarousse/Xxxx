@@ -139,7 +139,7 @@ Antropolog Arnold van Gennep (1909) geçiş törenlerinin üç evresini ayırır
 
 Bu şemayı sana uygulamak bana ait. Beş yıl önce evden ayrıldın. Üniversite yılları uzun bir eşikti: ne çocuk ne yerleşik yetişkin, etrafında aynı durumda insanlar. Şimdi sıra üçüncü evrede. Geleneksel toplumlarda yeniden katılma törenle yapılır ve topluluk dönen kişiyi yeni konumuyla tanır. Sende eksik olan bu. Diploma töreni okulu kapatır. Memleket ise, Schütz'ün dediği gibi, seni eski halinle bekler. "Kabulün icrasının zorunluluğu" demiştin: icra sana kaldı, çünkü seni yeni halinle karşılayacak bir tören yok.
 
-William Bridges aynı yapıyı bugünün diliyle söyler: geçiş bir bitişle başlar, ardından ne eskinin ne yeninin geçerli olduğu bir boş bölge gelir, yeni başlangıç en sondadır. Buna göre dönüşün ilk ayları yeni hayat değil, boş bölge olacak. Senin kelimelerinden "berzah" burayı adlandırır: iki âlem arasındaki geçit.
+William Bridges aynı yapıyı bugünün diliyle söyler: geçiş bir bitişle başlar, ardından ne eskinin ne yeninin geçerli olduğu bir boş bölge gelir, yeni başlangıç en sondadır. Buna göre dönüşün ilk ayları yeni hayat değil, boş bölge olacak. İlk cevabımda önerdiğim "berzah" kelimesi burayı adlandırır: iki âlem arasındaki geçit.
 
 ### 10. Gelenekler dört ayrı şey söyler
 
@@ -294,7 +294,7 @@ Kavafis'in öbür şiiri "Tanrı Antonius'u Terk Ediyor". Antonius gece yarısı
 ## Devam notu
 
 1. Soru: 23 yaşında, beş yıllık İstanbul'dan memlekete dönerken yaşanan "gençlik geçiyor" hissi üzerine çok açılı araştırma. Sonuç: üç ayrı kayıp (yer, zaman, erteleme süresi); soru ölçütsüz olduğu için kapanmıyor; geçmiş hem kayıp hem mülk.
-2. Ana dosya: `raporlar/2026-11-10_genclik_ve_veda/RAPOR.md`. Ham defterler: `ek/1`–`ek/9`. Doğrulama: `ek/dogrulama_1`–`3`. Eleştiri: `ek/elestiri.md`.
+2. Ana dosya: `raporlar/2026-11-10_genclik_ve_veda/RAPOR.md`. Ham defterler: `ek/1`–`ek/9`. Doğrulama: `ek/dogrulama_1`–`3`. Eleştiri: `ek/elestiri.md`. On beş pasajın ayrıntılı açılımı: `ACILIMLAR.md`.
 3. Birebir metni görülemeyenler yukarıda listeli; en değerli tamamlama Kierkegaard'ın *Tekrar*'ı, Schütz, Heidegger §65, Benjamin önsözü ve Gürbilek'in denemesidir (basılı kitaptan).
 4. Açılmamış damarlar: Levinson'ın "Düş" kavramı, Tanpınar ve Yahya Kemal'de zaman, Kuşeyrî Risâlesi'nde vakit ve hüzün bahisleri, büyük şehirden dönenler üzerine Türkiye verisi.
 5. Olası devam: bakışlardan birini (örneğin Jung ve "yaşanmamış hayat", ya da tasavvufta vakit ve muhasebe) tek başına derinleştirmek.
