@@ -66,6 +66,7 @@ Klasör: `2026-11-10_genclik_ve_veda/`
 
 - `RAPOR.md`: Ana rapor. Kısa yanıt, beş somut hamle, on bir bakış (duygu bilimi, Kant ve Jankélévitch, geçmişin statüsü, pişmanlık, çağ eleştirisi, gelişim psikolojisi ve Jung, şehir, eve dönüş, eşik ve tören, gelenekler, önceden yas), çatışmalar ve öngörü tablosu, doğrulama kapsamı, kaynaklar.
 - `ACILIMLAR.md`: Raporda işaretlenen on beş pasajın tek tek açılımı (kaynakta ne var, okura dönük yüzü, zayıf yeri).
+- `ORTA_YAS_PARALELI.md`: Yirmi üç yaştaki hislerin orta yaş kriziyle paralelliği: kavramın ampirik durumu, beş parçalı mekanizma, nasıl çözüldüğü.
 - `ek/1`–`ek/9`: Dokuz araştırma ajanının özetleri ve iddia defterleri.
 - `ek/dogrulama_1`–`3`: Raporun dayandığı 58 iddianın kaynak kontrolü.
 - `ek/elestiri.md`: Eleştirmenin taslağa itirazları.
