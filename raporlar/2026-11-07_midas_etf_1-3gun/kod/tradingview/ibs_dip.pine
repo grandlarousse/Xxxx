@@ -1,8 +1,8 @@
 // IBS dip sinyali — Midas 1-3 gün çalışması (2026-11-07). Pine Script v5. TradingView'da derlenmedi: ilk eklemede hata çıkarsa bildirin.
 // Günlük (1D) grafikte kullanın. "Ön ayar otomatik" açıkken sembole göre kural seçilir (RAPOR.md):
-//   QQQ  (A1): IBS<0,10 + düşüş günü, C1 (sinyalden sonraki gün kapanışta gir), 3 gün tut
+//   QQQ  (A1): IBS<0,10 + düşüş günü, C0 (sinyal günü kapanışında gir), 3 gün tut   [C1 istersen "otomatik"i kapatıp elle seç]
 //   SMH / SOXX (A2): IBS<0,20, düşüş şartı yok, C0 (sinyal günü kapanışında / after-hours limit), 1 gün
-//   SPY  (B1): IBS<0,10 + düşüş, C1, 3 gün      GDXJ (B2): IBS<0,10 + düşüş, C0, 3 gün      EWY (B5): IBS<0,10 + düşüş, C0, 1 gün
+//   SPY  (B1): IBS<0,10 + düşüş, C0, 3 gün      GDXJ (B2): IBS<0,10 + düşüş, C0, 3 gün      EWY (B5): IBS<0,10 + düşüş, C0, 1 gün
 // İşaretler: yeşil üçgen = kabul edilen sinyal (t kapanışı) · mavi daire = C1 giriş günü (t+1 kapanışı) · turuncu kare = çıkış günü (kapanışta sat)
 // gri küçük üçgen = pozisyondayken gelen sinyal (backtestte yok sayıldı). Çakışma kuralı backtest motoruyla (kod/lib.py trades) aynıdır.
 // Alarm: hepsini "Bar kapanışında bir kez" (Once Per Bar Close) ile kurun; kışın TR 00:00'da (resmî kapanışta) tetiklenir.
@@ -15,7 +15,7 @@ otomatik = input.bool(true, "Ön ayarı sembole göre otomatik seç")
 esikG    = input.float(0.10, "IBS eşiği (elle)", minval=0.01, maxval=0.5, step=0.01)
 dususG   = input.bool(true, "Düşüş günü şartı (elle)")
 tutusG   = input.int(3, "Tutuş, işlem günü (elle)", minval=1, maxval=5)
-modG     = input.string("C1", "Giriş modu (elle)", options=["C0", "C1"])
+modG     = input.string("C0", "Giriş modu (elle)", options=["C0", "C1"])
 
 t = syminfo.ticker
 isA2 = t == "SMH" or t == "SOXX"
@@ -24,7 +24,7 @@ useP = otomatik and preset
 esik  = useP ? (isA2 ? 0.20 : 0.10) : esikG
 dusus = useP ? not isA2 : dususG
 tutus = useP ? ((t == "QQQ" or t == "SPY" or t == "GDXJ") ? 3 : 1) : tutusG
-mod   = useP ? ((t == "QQQ" or t == "SPY") ? "C1" : "C0") : modG
+mod   = useP ? "C0" : modG      // kullanıcının düzeni: sinyal günü kapanışında giriş
 
 [smhH, smhL, smhC] = request.security("NASDAQ:SMH", "D", [high, low, close])
 useSMH = useP and t == "SOXX"

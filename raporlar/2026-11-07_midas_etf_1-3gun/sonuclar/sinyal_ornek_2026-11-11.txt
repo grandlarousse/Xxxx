@@ -1,0 +1,53 @@
+Çalışma zamanı: 12.11.2026 18:17 TR  (son tamamlanmış günlük mum)
+
+Son mum: 2026-11-11  · sonraki işlem günleri: 2026-11-12, 2026-11-13, 2026-11-16, 2026-11-17, 2026-11-18
+  Rejim (20g oynaklık / 10y medyan): QQQ %37 / %18 -> boyut çarpanı 0.48 · SMH %68 / %29 -> boyut çarpanı 0.43 · SPY %23 / %12 -> boyut çarpanı 0.54  ⚠ YÜKSEK OYNAKLIK: kaldıraçlı araç kullanma (B10'da hissenin kendisi)
+
+[A1] QQQ IBS<0,10 + düşüş günü -> 3 gün (araç QQQ; 2x QLD / 3x TQQQ yalnız küçük payla)
+     durum: IBS=0.57, günlük +2.31% -> sinyal yok
+     eylem: sinyal yok
+     pozisyon (C1 ana): açık/bekleyen pozisyon yok
+     pozisyon (C0 kullanıyorsan): açık/bekleyen pozisyon yok
+[A2] SMH IBS<0,20 -> 1 gün (araç SMH ya da SOXX; SOXL yalnız koşullu)
+     durum: IBS=0.53 -> sinyal yok
+     eylem: sinyal yok
+     pozisyon (C0): açık/bekleyen pozisyon yok
+[B1] SPY IBS<0,10 + düşüş -> 3 gün (zayıf; QQQ ile sinyallerin ~%73'ü ortak — ikisini birden alma)
+     durum: IBS=0.65 -> sinyal yok
+     eylem: -
+     pozisyon (C1): açık/bekleyen pozisyon yok
+[B2] GDXJ IBS<0,10 + düşüş -> 3 gün (kapanışa bağımlı; ertesi açılışta girme)
+     durum: IBS=0.09 -> SİNYAL
+     eylem: C0: bugün kapanışta/after-hours limitle al, 2026-11-16 kapanışında sat
+     pozisyon (C0): AÇIK: sinyal 2026-11-11 -> giriş 2026-11-11 kapanış (TR 12.11 00:00), çıkış 2026-11-16 kapanış (TR 17.11 00:00)
+[B4] SPY ≤ -%1,5 gününde SPY'dan çok düşen Asya ETF'leri -> 1 gün (gün kümeli t 1,9: eşik altı)
+     durum: SPY +1.32% -> sinyal yok
+     eylem: -
+     pozisyon: açık/bekleyen pozisyon yok
+[B5] EWY IBS<0,10 + düşüş -> 1 gün (2026 oynaklık rejimine bağlı)
+     durum: IBS=0.50 -> sinyal yok
+     eylem: -
+     pozisyon (C0): açık/bekleyen pozisyon yok
+[B8] USO alt Bollinger(20,2) kırılımı -> ertesi gün kapanışta al, 2 gün tut (⚠ PTP)
+     durum: sinyal yok
+     eylem: -
+     pozisyon (C1): AÇIK: sinyal 2026-11-09 -> giriş 2026-11-10 kapanış (TR 11.11 00:00), çıkış 2026-11-12 kapanış (TR 13.11 00:00)
+[B9] SVXY RSI(2)<10 ve SMA200 üstü -> 2 gün (⚠ PTP; teyit yoksa aynı sinyalle QQQ)
+     durum: RSI2=83.0, SMA200 üstü=True -> sinyal yok
+     eylem: -
+     pozisyon (C0): açık/bekleyen pozisyon yok
+[B10] Mega-cap hisse RSI(2)<10 ve SMA200 üstü -> 2x ETF (ya da hissenin kendisi); hisse > SMA5 kapanınca, en geç 3 gün sonra sat
+     durum: NVDA:RSI2=40(SMA200 altı) · TSLA:RSI2=86 · AMZN:RSI2=46 · MSFT:RSI2=20 · GOOGL:RSI2=89(SMA200 altı) · AAPL:RSI2=84 · META:RSI2=39(SMA200 altı)
+     eylem: sinyal varsa bugün kapanışta al (test edilen hâl: her hisseye eşit pay); YÜKSEK OYNAKLIK: araç olarak 2x ETF değil hissenin kendisi
+     pozisyon: açık/bekleyen pozisyon yok
+
+Takvim kuralları:
+  [B3] Ay sonu GDX (ya da GLD): sonraki giriş 2026-11-30 kapanış (TR 01.12 00:00), çıkış 2026-12-03 kapanış (TR 04.12 00:00). GDX ve GLD aynı bahis: birini seç.
+  [B6] 10Y Hazine ihalesi 2026-12-08 (takvim dosyası): TBT (ya da TMV) giriş 2026-12-03 kapanış (A-3) [bekleniyor], çıkış 2026-12-07 kapanış (A-1, TR 08.12 00:00)
+  ⚠ [B6] 10Y ihale takvimi 2026-12-08 tarihinde bitiyor: TreasuryDirect 'Tentative Auction Schedule' ile data/events/hazine_ihale_10y30y.csv'yi güncelleyin.
+  [B7] EIA doğalgaz raporu 2026-11-13: KOLD giriş 2026-11-12 kapanış (TR 13.11 00:00), çıkış 2026-11-13 kapanış (zayıf; ⚠ PTP; tek işlemde -%16)
+  [B7] EIA doğalgaz raporu 2026-11-19: KOLD giriş 2026-11-18 kapanış (TR 19.11 00:00), çıkış 2026-11-19 kapanış (zayıf; ⚠ PTP; tek işlemde -%16)
+  [B7] EIA doğalgaz raporu 2026-11-25: KOLD giriş 2026-11-24 kapanış (TR 25.11 00:00), çıkış 2026-11-25 kapanış (zayıf; ⚠ PTP; tek işlemde -%16)
+
+Notlar: Midas'ta MOC/LOC yok. 'Kapanışta al' = kapanıştan ~5-10 dk önce piyasa/agresif limit emir YA DA kapanıştan sonra after-hours'ta (yalnız limit emir; kesirli emir kabul edilmeyebilir -> tam adet) kapanış fiyatına yakın limit. Aynı gece sat-al yaparken takas (T+1) ve kullanılabilir bakiye kontrolü.
+A1, A2, B1, B9 ve B10 aynı risk faktörü (ABD teknoloji): aynı anda en fazla A1 tam (~%50) + A2 yarım (~%25); B1 A1 ile aynı gün gelirse yalnız A1. Tutarları yukarıdaki boyut çarpanıyla küçült. Yatırım tavsiyesi değildir; ayrıntı: RAPOR.md, kartlar/<SYM>.md

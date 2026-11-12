@@ -92,7 +92,7 @@ footer { border-top: 1px solid var(--line); padding-top: 16px; display: grid; ga
 
 <div class="wrap">
 <header>
-  <span class="eyebrow">Midas · ABD ETF · 1-3 gün · veri 06.11.2026 kapanışı</span>
+  <span class="eyebrow">Midas · ABD ETF · 1-3 gün · sinyal kapanışta, alım aynı kapanışta · veri 11.11.2026</span>
   <h1>Midas ETF Sinyal Rehberi</h1>
   <p class="lede">313 ETF 10 yıllık veriyle test edildi. Komisyon ve makas düşüldükten sonra ayakta kalan <strong>yalnız iki kural</strong> var. İkisini de aynı soruyla takip edersin: <em>ETF bugün günün dibine yakın mı kapandı?</em> Aşağıda bu soruyu nasıl soracağın, bugünkü durum ve izleme listesi var.</p>
   <p class="note">Yatırım tavsiyesi değildir. Geçmiş sonuç geleceği garanti etmez. Saatler Türkiye saati, ABD kış saatine göre (1 Kasım 2026 – 14 Mart 2027); yazın her şey 1 saat erken.</p>
@@ -102,13 +102,13 @@ footer { border-top: 1px solid var(--line); padding-top: 16px; display: grid; ga
   <h2 id="bugun">Bugün ne yapmalıyım?</h2>
   <div class="today">
     <div class="today-head">
-      <strong>06.11.2026 Cuma kapanışına göre</strong>
-      <span class="muted">Sonraki kontrol: 09.11 Pazartesi akşamı</span>
+      <strong>11.11.2026 Çarşamba kapanışına göre</strong>
+      <span class="muted">Sonraki kontrol: 12.11 Perşembe akşamı</span>
     </div>
-    <div class="trow"><div><span class="pill p-n">A1 · QQQ</span></div><div><strong>Yeni işlem yok.</strong> Cuma IBS 0,20 ve gün yükselişle kapandı (+%1,4), sinyal değil. 02.11 sinyaliyle alınan pozisyon 06.11 kapanışında satıldı. 05.11 sinyali o sırada pozisyon açık olduğu için yok sayıldı.</div></div>
-    <div class="trow"><div><span class="pill p-n">A2 · SMH</span></div><div><strong>Yeni işlem yok.</strong> Cuma IBS 0,38, sinyal değil. 05.11 sinyaliyle alınan pozisyon 06.11'de satıldı.</div></div>
-    <div class="trow"><div><span class="pill p-bad">Piyasa</span></div><div><strong>Oynaklık çok yüksek.</strong> VIX 25,6; SMH'nin günlük oynaklığı 10 yılın en yüksek %3'ünde. Sinyal gelirse <strong>normal tutarın yarısıyla</strong> gir, kaldıraçlı ETF (TQQQ, SOXL, NVDL, TSLL) kullanma.</div></div>
-    <div class="trow"><div><span class="pill p-warn">Takvim</span></div><div>İsteğe bağlı zayıf kurallar: 09.11 kapanışında 10 yıllık ihale pozisyonu (TBT/TMV) kapanır; 12.11 kapanışında EIA doğalgaz kuralı (KOLD); 30.11 kapanışında ay sonu kuralı (GDX). Bunları yapmak zorunda değilsin.</div></div>
+    <div class="trow"><div><span class="pill p-n">A1 · QQQ</span></div><div><strong>Sinyal yok, açık pozisyon yok.</strong> 11.11'de IBS 0,57 ve gün yükselişle kapandı (+%2,3). 05.11 sinyaliyle aynı kapanışta alınan pozisyon 10.11 kapanışında satıldı.</div></div>
+    <div class="trow"><div><span class="pill p-n">A2 · SMH</span></div><div><strong>Sinyal yok, açık pozisyon yok.</strong> 11.11'de IBS 0,53.</div></div>
+    <div class="trow"><div><span class="pill p-bad">Piyasa</span></div><div><strong>Oynaklık çok yüksek.</strong> QQQ'nun 20 günlük oynaklığı %37 (normalin ~2 katı), SMH'ninki %68. Sinyal gelirse <strong>normal tutarın yarısıyla</strong> gir, kaldıraçlı ETF (TQQQ, SOXL, NVDL, TSLL) kullanma.</div></div>
+    <div class="trow"><div><span class="pill p-warn">Takvim</span></div><div>İsteğe bağlı zayıf kurallar: GDXJ'de 11.11 kapanışında B2 sinyali vardı (aynı kapanışta alındıysa 16.11 kapanışında sat). 12.11 kapanışında EIA doğalgaz kuralı (KOLD, 13.11 kapanışında sat); 30.11 kapanışında ay sonu (GDX); 03.12 kapanışında 10 yıllık ihale (TBT). Bunları yapmak zorunda değilsin.</div></div>
   </div>
 </section>
 
@@ -122,18 +122,18 @@ footer { border-top: 1px solid var(--line); padding-top: 16px; display: grid; ga
   <div class="rules">
     <article class="rule">
       <span class="code">A1 · ANA KURAL</span>
-      <h3>QQQ dipte kapandıysa: ertesi gün al, 3 gün tut</h3>
+      <h3>QQQ dipte kapandıysa: aynı kapanışta al, 3 gün tut</h3>
       <ol class="steps">
         <li><strong>Koşul:</strong> <span class="tk">NASDAQ:QQQ</span> günlük mumunda IBS 0,10'un altında <strong>ve</strong> kapanış dünkü kapanışın altında.</li>
-        <li><strong>Al:</strong> sinyali gece öğren; <strong>ertesi işlem günü</strong> kapanıştan ~10 dk önce (TR 23:50) QQQ al.</li>
+        <li><strong>Al:</strong> sinyali gördüğün <strong>aynı kapanışta</strong>: kapanıştan ~10 dk önce (TR 23:50) anlık IBS ile ya da kapanıştan hemen sonra after-hours'ta limit emirle.</li>
         <li><strong>Sat:</strong> aldıktan 3 işlem günü sonra, yine kapanıştan ~10 dk önce.</li>
         <li><strong>Pozisyondayken</strong> yeni QQQ sinyali gelirse yok say.</li>
       </ol>
       <dl class="facts">
-        <div><dt>Beklenen net kazanç / işlem</dt><dd>+%0,45 – 0,55</dd></div>
-        <div><dt>Kazanan işlem oranı</dt><dd>%60</dd></div>
-        <div><dt>Yılda kaç işlem</dt><dd>~18</dd></div>
-        <div><dt>En kötü işlem (10 yıl)</dt><dd>−%8,3</dd></div>
+        <div><dt>Beklenen net kazanç / işlem</dt><dd>+%0,77 (backtest; kapanış öncesi alımda ~%0,2 eksik)</dd></div>
+        <div><dt>Kazanan işlem oranı</dt><dd>%64</dd></div>
+        <div><dt>Yılda kaç işlem</dt><dd>~19</dd></div>
+        <div><dt>En kötü işlem (10 yıl)</dt><dd>−%8,0</dd></div>
       </dl>
     </article>
     <article class="rule">
@@ -154,6 +154,21 @@ footer { border-top: 1px solid var(--line); padding-top: 16px; display: grid; ga
     </article>
   </div>
   <p class="note">İkisi aynı riski taşır (teknoloji hisseleri). İkisi aynı anda açıksa A1 tam, A2 yarım tutarla. Rakamlar 2.500 $ pozisyon içindir; 1.000 $'ın altında Midas'ın 1,5 $ komisyonu kazancı yer. Kurallar stopsuz test edildi.</p>
+</section>
+
+<section aria-labelledby="kodlar">
+  <h2 id="kodlar">TradingView'da tam olarak hangi kodlar</h2>
+  <div class="tbl-wrap"><table><thead><tr><th>Kural</th><th>Grafikte aç (sinyal)</th><th>Midas'ta al-sat</th><th>Tut</th></tr></thead><tbody>
+    <tr><td><strong>A1</strong> doğrulandı</td><td><span class="tk">NASDAQ:QQQ</span></td><td>QQQ</td><td>3 gün (2 gün de olur)</td></tr>
+    <tr><td><strong>A2</strong> doğrulandı</td><td><span class="tk">NASDAQ:SMH</span></td><td>SMH (yoksa SOXX)</td><td>1 gün</td></tr>
+    <tr><td>B2 zayıf</td><td><span class="tk">AMEX:GDXJ</span></td><td>GDXJ</td><td>3 gün</td></tr>
+    <tr><td>B5 zayıf</td><td><span class="tk">AMEX:EWY</span></td><td>EWY</td><td>1 gün</td></tr>
+    <tr><td>B9 zayıf ⚠</td><td><span class="tk">CBOE:SVXY</span></td><td>SVXY (PTP teyidi yoksa QQQ)</td><td>2 gün</td></tr>
+    <tr><td>B10 zayıf</td><td><span class="tk">NASDAQ:NVDA</span> <span class="tk">NASDAQ:TSLA</span> <span class="tk">NASDAQ:AMZN</span> <span class="tk">NASDAQ:MSFT</span> <span class="tk">NASDAQ:GOOGL</span></td><td>Hissenin kendisi (oynaklık normalse 2x: NVDL, TSLL, AMZU, MSFU, GGLL)</td><td>en çok 3 gün</td></tr>
+    <tr><td>B6 takvim</td><td><span class="tk">AMEX:TBT</span></td><td>TBT</td><td>2 gün</td></tr>
+    <tr><td>B7 takvim ⚠</td><td><span class="tk">AMEX:KOLD</span></td><td>KOLD</td><td>1 gün</td></tr>
+  </tbody></table></div>
+  <p class="note">Alma uyarısı (öncü → hedef): <span class="tk">AMEX:EEM</span> sert yükseldiyse o kapanışta <span class="tk">AMEX:KWEB</span> / <span class="tk">AMEX:CWEB</span> alma; <span class="tk">NASDAQ:QQQ</span> sert yükseldiyse <span class="tk">CBOE:IGV</span> alma. Kapanış öncesi bakılacaklar: <span class="tk">CME_MINI:NQ1!</span>, <span class="tk">NASDAQ:SOX</span>, <span class="tk">CBOE:VIX</span>.</p>
 </section>
 
 <section aria-labelledby="hesap">
@@ -183,9 +198,9 @@ footer { border-top: 1px solid var(--line); padding-top: 16px; display: grid; ga
 <section aria-labelledby="rutin">
   <h2 id="rutin">Her akşam: adım adım</h2>
   <ol class="routine">
-    <li><strong>TR ~23:40 – 23:50 (kapanışa 10-20 dk):</strong> Bugün satış günü olan pozisyonu sat. Dün gece QQQ sinyali geldiyse <strong>şimdi QQQ al</strong> (A1). Yarım günlerde (27.11 ve 24.12) piyasa TR 21:00'de kapanır, bu adımı 20:45'te yap.</li>
+    <li><strong>TR ~23:40 – 23:50 (kapanışa 10-20 dk):</strong> Bugün satış günü olan pozisyonu sat. QQQ ve SMH'nin anlık IBS'ine bak (hesaplayıcı ya da gösterge); sinyal varsa <strong>şimdi al</strong> (A1 / A2). Yarım günlerde (27.11 ve 24.12) piyasa TR 21:00'de kapanır, bu adımı 20:45'te yap.</li>
     <li><strong>TR 00:00 sonrası (kapanış kesinleşti):</strong> TradingView'da QQQ ve SMH'nin günlük mumuna bak ya da hesaplayıcıya gir.
-      <ul class="plain"><li>SMH sinyali varsa: hemen after-hours'ta limit emirle al (A2).</li><li>QQQ sinyali varsa: bu gece bir şey yapma; yarın 23:50'de al (A1).</li><li>Açık pozisyonun varken aynı ETF'de gelen yeni sinyali yok say.</li></ul></li>
+      <ul class="plain"><li>SMH sinyali varsa: hemen after-hours'ta limit emirle al (A2).</li><li>QQQ sinyali varsa ve kapanıştan önce almadıysan: şimdi after-hours'ta limit emirle al (A1).</li><li>Açık pozisyonun varken aynı ETF'de gelen yeni sinyali yok say.</li></ul></li>
     <li><strong>Haftada bir:</strong> önemli veri ve bilanço günlerine bak. ABD enflasyonu (CPI) ve istihdam (NFP) TR 16:30, Fed kararı TR 22:00. NVDA bilançosu 17.11 kapanış sonrası (tahmini tarih); o gece yeni A2 işlemi açmamayı düşün.</li>
   </ol>
   <p class="note">TradingView'da otomatik takip istersen rapor klasöründeki <span class="tk">ibs_dip.pine</span> göstergesini kullan; alarmı "bar kapanışında bir kez" ile kur.</p>
@@ -254,9 +269,9 @@ const DATA = {"bars": {"QQQ": [{"tarih": "2026-10-30", "o": 697.21, "h": 698.63,
 const $ = (id) => document.getElementById(id);
 const fmt = (x, d = 2) => Number(x).toLocaleString("tr-TR", { minimumFractionDigits: d, maximumFractionDigits: d });
 const RULES = {
-  QQQ: { code: "A1", thr: 0.10, down: true, mode: "C1", hold: 3 },
+  QQQ: { code: "A1", thr: 0.10, down: true, mode: "C0", hold: 3 },
   SMH: { code: "A2", thr: 0.20, down: false, mode: "C0", hold: 1 },
-  SPY: { code: "B1", thr: 0.10, down: true, mode: "C1", hold: 3 },
+  SPY: { code: "B1", thr: 0.10, down: true, mode: "C0", hold: 3 },
   GDXJ: { code: "B2", thr: 0.10, down: true, mode: "C0", hold: 3 },
   EWY: { code: "B5", thr: 0.10, down: true, mode: "C0", hold: 1 },
 };
