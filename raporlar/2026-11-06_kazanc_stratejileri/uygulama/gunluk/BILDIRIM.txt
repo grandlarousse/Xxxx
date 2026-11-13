@@ -1,1 +1,1 @@
-Cum 13.11: İŞLEM YOK. İzle/kâğıt: ALTIN kâğıt: TRALT1! SAT (z −2,19). 12.11 kapanışı: BIST KAPALI. Takvim: MSCI sonuçları. Yakın tetik: XBANK ≥16.923,36 (Rejim M5), AKBNK ≥69,73 (K1, kâğıt), SAHOL ≤84,95 (K1, kâğıt), ENERY ≥14,60 (K4). ABD TURUNCU (VIX/VIX3M 0,91); en erken pilot 16.11. Ayrıntı gunluk/SON.md
+Pzt 16.11: İŞLEM YOK. 13.11 kapanışı: BIST KAPALI. Yakın tetik: ENERY ≥14,60 (K4), SAHOL ≤84,57 (K1, kâğıt), AKBNK ≥70,47 (K1, kâğıt), XBANK ≥16.917,32 (Rejim M5). ABD TURUNCU (VIX/VIX3M 0,93); en erken pilot 16.11. Uyarı: makro.json 8 gün eski. Ayrıntı gunluk/SON.md
