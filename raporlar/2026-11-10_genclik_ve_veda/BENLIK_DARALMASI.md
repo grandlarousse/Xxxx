@@ -65,28 +65,107 @@ Bu bulgu "kariyer" ile "kariyerizm"i ayırmaya yarar. Aynı iş iki türlü yap�
 
 Sınırları: iki çalışma da ABD'den; ikincisi yalnızca bir yılı kapsıyor ve nedensellik göstermiyor.
 
-## 5. Sana dönük yüzü
+## 5. Çözüm önerileri
 
-Buradan sonrası benim okumam. "Kariyerizm peşinde koşarken" iki türlü anlaşılabilir; ikisine de bakıyorum.
+Önce iki sınır. Daralmayı önlemek mümkün değil; Jung'a ve Weber'e göre doğru da değil. Bu öneriler üç şeyi hedefliyor: daralmayı seçerek yapmak, benliği tek alana yığmamak ve dışarıda kalanı unutmamak. İkincisi: "kariyerizm peşinde koşarken" sözünü hem geçen beş yıl hem önündeki dönem için okudum; öneriler ikisine de uyuyor.
 
-**Geçmişe dönük okuma.** Beş yılda zaten daraldıysan, "yaşanmamışlık" hissinin bir kısmı bunun faturası olabilir: neyi dışarıda bıraktığını şimdi, bölüm kapanırken görüyorsun. Jung'un iki kaybı burada iki soruya dönüşür. Geçmişten ne gitti: İstanbul'a gelmeden önce seni sen yapan hangi ilgi ya da hal bu beş yılda kurudu? Gelecekten ne gitti: hangi yol artık açık değil?
+### Özet
 
-**Geleceğe dönük okuma.** Önündeki dönemde daralacaksın ve Jung da Weber de bunun doğru olduğunu söylüyor. O zaman yapılacak iş daralmaktan kaçmak değil, dört ayrımı tutmaktır:
+| Risk | Ne yap | İşe yaradığının işareti |
+|---|---|---|
+| Ödediğin bedeli unutmak | Feragat dökümü yaz, yılda bir gözden geçir | Bıraktığın şeyi savunmaya geçmeden anlatabiliyorsun |
+| Dışarıda kalanın sönmesi | Bir "kor"u en küçük haliyle yaşat | Listeye bakınca pişmanlık değil tanıma duyuyorsun |
+| Benliğin işe yığılması | İşten bağımsız iki alanı takvime koy | İşte kötü geçen gün, günün tamamını karartmıyor |
+| Rolle bir olmak | Seni rolünden önce tanıyan üç insanı koru | Onlarla işten söz etmeden bir saat geçiyor |
+| Hedefin dışsallaşması | Her büyük hedefe iki soru sor | Hedefe ulaşınca hemen bir sonrakine ihtiyaç duymuyorsun |
+| İşin bütün zihni kaplaması | İş dışında zihnen kop | Akşam işi düşünmeden geçen saatler var |
+| Korkudan daralmak | Karardan önce üç soru, karara bir gözden geçirme tarihi | Kararı "mecburdum" değil "seçtim" diye anlatıyorsun |
 
-1. **Seçerek daralmak ile özdeşleşerek daralmak.** İlki "şimdilik şunu yapıyorum, şunları bilerek bırakıyorum" der. İkincisi "ben buyum" der. İşareti Linville'in bulgusundan çıkar: iş kötü gittiği gün kendini bütünüyle kötü hissediyorsan, benlik işe yığılmış demektir.
-2. **Sandık odasının dökümü.** Jung'un asıl uyarısı "gözden kaçırırız" idi. Dışarıda bıraktığın şeyleri yazmak, onları yaşamak anlamına gelmez; unutmamak anlamına gelir. Hangilerinin hâlâ "kor" olduğu, hangilerinin gerçekten söndüğü de böyle anlaşılır.
-3. **"Çözülmüş görünme" sınaması.** "Ne olacağım" sorusu tamamen kapanmış görünüyorsa, Jung'a göre bir şey yitirilmiştir. Sorunun bir ucunu açık tutmak kararsızlık değildir.
-4. **Korkudan daralma.** Memlekete dönüş iki ayrı şey olabilir: kök salmak ya da geri çekilmek. İkisi dışarıdan aynı görünür. Ayıran, kararın neye karşı verildiğidir.
+### 1. Feragat dökümü
 
-**Çözülmeyen gerilim.** Bu dosyalarda dört ses var ve uzlaşmıyorlar. Heckhausen "hedefe yüklen" der. Mill "bütün mutluluğu hedefe bağlama" der. Weber "çok yönlülükten vazgeç" der. Jung "vazgeç, ama bedelini bil" der. Benim vardığım yer şu: daralma, bir şeyi iyi yapmanın fiyatıdır ve ödenmesi gerekir. Kaçınılabilir olan, ödediğini unutmaktır.
+**Ne yapılır.** Tek sayfa. Üstte: önümüzdeki iki üç yıl neye yükleniyorum. Altta: bunun için bilerek neyi bırakıyorum (üç ila beş kalem). Her kalemin yanına iki nottan biri: "şimdilik" ya da "tamamen".
+
+**Ne zaman.** İlkini İstanbul'dan ayrılmadan yaz; neyi bıraktığını en net şimdi görüyorsun. Sonra yılda bir, sabit bir tarihte gözden geçir ve üç soru sor: bu yıl neyi kapattım, neyi unuttum, hangi kalem "şimdilik"ten "tamamen"e geçti?
+
+**Dayanak.** Jung'un asıl uyarısı "gözden kaçırırız" idi; Weber'e göre eylem ve feragat birbirini koşullar. Yıllık sorular, Jung'un "çözülmüş görünüyorsa bir şey yitirilmiştir" sınamasının uygulamasıdır.
+
+**Sınırı.** Döküm bir şeyi yaşatmaz, yalnızca unutmayı önler.
+
+### 2. Tek kor
+
+**Ne yapılır.** Dökümdeki "şimdilik" kalemlerinden birini seç ve en küçük biçimiyle sürdür. "Yazar olmak" değil, ayda bir sayfa. "Müzik" değil, haftada bir saat. Ölçü, bırakmayacağın kadar küçük olması.
+
+**Dayanak.** Jung'un "gri küllerin altındaki kor"u. Hedefi bırakmak yerine küçültmek, pahalılaşan hedefler için söylediğimle aynı mantık.
+
+**Sınırı.** Bir taneden fazlası, yine her şeyi açık tutma çabasına döner; Jung buna "çalkalanmak" diyordu.
+
+### 3. İşten bağımsız iki alan
+
+**Ne yapılır.** İş başarına bağlı olmayan iki alan seç ve her birine haftada sabit bir zaman ayır. İki ölçüt: o alanda unvanın işe yaramamalı ve oradaki insanlar iş çevrenle aynı olmamalı. İkisinden biri oyun olsun: sonucu, ölçüsü ve seyircisi olmayan bir şey.
+
+**Dayanak.** Linville'de koruyucu olan, benlik yönlerinin hem çok hem birbirinden ayrı olmasıdır. Oyun ölçütü Schiller'in kendi çaresidir: *"man only plays when in the full meaning of the word he is a man, and he is only completely a man when he plays"* (insan ancak kelimenin tam anlamıyla insan olduğunda oynar ve ancak oynarken tam insandır).
+
+**Sınırı.** Alan özgeçmişe yazılacak bir "hobi"ye dönerse işin uzantısı olur ve koruma biter. Linville'in etkisini sonraki derlemeler daha zayıf bulmuştur (kendi bilgimden).
+
+### 4. Rolünden önce tanıyanlar
+
+**Ne yapılır.** Seni unvansız tanıyan iki üç insanla düzenli teması koru. İstanbul'daki arkadaşların bu açıdan değerli: seni, kimse bir konumdan konuşmazken tanıdılar.
+
+**Dayanak.** Maske, ancak onu tanımayan birinin yanında maske olarak fark edilir. Bu uygulama bana ait.
+
+**Sınırı.** Onlar da konum sahibi olacak. Bu yüzden işaret eski günleri anmak değil, işten söz etmeden geçen bir saattir.
+
+### 5. Hedef içeriği sınaması
+
+**Ne yapılır.** Her büyük hedef için iki soru. Kimse görmeyecek olsa yine ister miydim? Buna ulaşınca hangi ihtiyacım karşılanacak: kendi işime karar verebilmek mi, bir şeyde ustalaşmak mı, insanlara yakınlık mı, yoksa hiçbiri mi? İş seçerken de aynı üç ölçüte bak.
+
+**Dayanak.** Niemiec, Ryan ve Deci'de iyi oluşu artıran şey hedefe ulaşmanın kendisi değil, ulaşılan hedefin bu üç ihtiyacı karşılamasıydı.
+
+**Sınırı.** Bu, parayı ve konumu kötülemek değildir; geçimini sağlayamayan birinin özerkliği de olmaz. Sınama, aracın amaca dönüşüp dönüşmediğini yoklar.
+
+### 6. İş dışında zihnen kopmak
+
+**Ne yapılır.** İşten çıkışa sabit bir geçiş koy: bir yürüyüş ya da iş bildirimlerini kapatmak. İş dışı zamanda işi düşünmemeyi bir alıştırma olarak gör.
+
+**Dayanak.** 38.124 çalışanı kapsayan bir toplu analizde (Wendsche ve Lohmann-Haislah) işten zihnen kopabilenlerde tükenme daha az, hayat memnuniyeti ve uyku daha iyi, görev performansı da biraz daha yüksek çıktı.
+
+**Sınırı.** Aynı analizde kopma, yaratıcılıkla ve görev tanımının ötesindeki katkıyla olumsuz ilişkili. Bedava değil: tam kopan kişi işinde daha az parlayabilir.
+
+### 7. Korkudan daralma sınaması
+
+**Ne yapılır.** Dönüş ya da iş kararından önce üç soruyu yazarak cevapla. Korkmasaydım neyi seçerdim? Tam olarak neden korkuyorum? O şey gerçekleşirse ne yaparım? Sonra karara bir gözden geçirme tarihi koy, örneğin on iki ay sonrası.
+
+**Dayanak.** Jung'un iflas eden iş adamı örneği: korkuyla çekilen kişi krizden önceki boyutuna döner, ama küçülmüş olarak.
+
+**Sınırı.** Korkmak kararın yanlış olduğunu göstermez. Sınama yalnızca kararı korkunun mu verdiğini ayırt etmeye yarar.
+
+### Erken uyarı işaretleri
+
+Daralmanın fark edilmeden ilerlediğini gösteren beş işaret. Sonuncusu Jung'dan, ötekiler benim derlemem:
+
+- İş dışında ne yapacağını bilememek.
+- Eski ilgilerini küçümsemeye başlamak.
+- İnsanları işe yararlığına göre tartmak.
+- Başka türlü yaşayanlara karşı açıklayamadığın bir öfke ya da kıskançlık.
+- "Ne olacağım" sorusunun tamamen kapanmış görünmesi.
+
+### Sıra
+
+1. **Ayrılmadan önce:** feragat dökümü (1) ve korku sınaması (7).
+2. **Dönüşün ilk aylarında:** rolünden önce tanıyanlar (4) ve tek kor (2).
+3. **İşe başlarken:** iki alan (3), hedef sınaması (5), zihnen kopma (6).
+
+### Çözülmeyen gerilim
+
+Bu dosyalarda dört ses var ve uzlaşmıyorlar. Heckhausen "hedefe yüklen" der. Mill "bütün mutluluğu hedefe bağlama" der. Weber "çok yönlülükten vazgeç" der. Jung "vazgeç, ama bedelini bil" der. Benim vardığım yer: daralma bir şeyi iyi yapmanın fiyatıdır ve ödenmesi gerekir. Kaçınılabilir olan, ödediğini unutmaktır.
 
 ## Doğrulama notu
 
-**Bu oturumda kaynakta gördüklerim.** Jung'un "Hayatın Evreleri" metni (CW 8, 769–772. ve 787. paragraflar; iki sütunlu taramadan okundu, alıntılar oradan). Weber, *Protestan Ahlakı*'nın son bölümü (İngilizce çeviri). Schiller, Altıncı Mektup (İngilizce çeviri). Linville 1987 ve Niemiec, Ryan ve Deci 2009'un özetleri. Senin Jung raporundaki CW 7 özeti.
+**Bu oturumda kaynakta gördüklerim.** Jung'un "Hayatın Evreleri" metni (CW 8, 769–772. ve 787. paragraflar; iki sütunlu taramadan okundu, alıntılar oradan). Weber, *Protestan Ahlakı*'nın son bölümü (İngilizce çeviri). Schiller, Altıncı Mektup (İngilizce çeviri). Schiller, On Beşinci Mektup. Linville 1987, Niemiec, Ryan ve Deci 2009 ile Wendsche ve Lohmann-Haislah'ın toplu analizinin özetleri. Senin Jung raporundaki CW 7 özeti.
 
 **Kendi bilgimden yazdıklarım.** Persona ve tek yanlı gelişme özetleri. İçsel ve dışsal hedeflerin içeriği. Linville'in bulgusunu zayıflatan sonraki derlemeler.
 
-**Bana ait olanlar.** Beşinci bölümün tamamı, "kariyer ile kariyerizm" ayrımı ve dört sesin karşılaştırması.
+**Bana ait olanlar.** Yedi önerinin "ne yapılır" kısımları, işaretler ve sıra; "kariyer ile kariyerizm" ayrımı ve dört sesin karşılaştırması. Öneriler sınanmış bir program değil, kaynaklardan çıkardığım uygulamalardır.
 
 ## Kaynaklar
 
@@ -95,4 +174,5 @@ Buradan sonrası benim okumam. "Kariyerizm peşinde koşarken" iki türlü anla�
 - [Schiller, Aesthetical and Philosophical Essays](https://www.gutenberg.org/cache/epub/6798/pg6798.txt)
 - [Linville 1987](https://doi.org/10.1037/0022-3514.52.4.663)
 - [Niemiec, Ryan ve Deci 2009](https://doi.org/10.1016/j.jrp.2008.09.001)
+- [Wendsche ve Lohmann-Haislah, işten kopma üzerine toplu analiz](https://doi.org/10.3389/fpsyg.2016.02072)
 - Depoda: `raporlar/2026-11-05_jung_kitaplari/ajan_ciktilari/1_kitap_raporlari/K04-2_cw07-analitik-psikoloji-uzerine-iki-deneme.md`
