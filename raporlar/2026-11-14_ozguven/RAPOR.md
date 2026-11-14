@@ -4,15 +4,15 @@
 
 ## Kısa yanıt
 
-1. Önce bir düzeltme: diş hekimliği diploması klinik alandaki yeterliğin kanıtıdır. Kendine biçtiğin genel değeri ve insanların arasındaki rahatlığını başka süreçler belirler. “Bu kadar okudum, hâlâ güvensizim” bir çelişki değil, araştırmaların beklediği bir durumdur.
+1. Sorudaki varsayım tutmuyor: diş hekimliği diploması klinik alandaki yeterliğin kanıtıdır. Kendine biçtiğin genel değeri ve insanların arasındaki rahatlığını başka süreçler belirler. “Bu kadar okudum, hâlâ güvensizim” bu yüzden bir çelişki değil; sık görülen ve araştırmalarla uyumlu bir durum.
 2. Kendine karşı güvensizliği en çok, değerini başarıya bağlamak ve sert iç eleştiri besler. Toplum içindeki güvensizliği ise dikkatin kendine dönmesi ve kaygıyı gizlemek için yapılan küçük önlemler sürdürür.
 3. İkisi de değişir, ama aylar içinde ve yaparak. En sağlam kanıt küçük davranış deneylerinde, öz-şefkatte ve ustalık deneyimi biriktirmekte.
-4. Hissin bir kısmı sana ait değil: Türkiye'de mesleğin koşulları ve kültürel baskılar da payına düşeni yapıyor.
-5. Altı aydan uzun sürüyor ve işini ya da ilişkilerini kısıtlıyorsa, bireysel bilişsel davranışçı terapi en etkili seçenektir.
+4. Türkiye'de mesleğin koşulları ve kültürel baskılar da bu hissi besliyor olabilir; bunu doğrudan ölçen bir çalışma bulamadım.
+5. Kaygı ya da kaçınma işini ya da ilişkilerini belirgin biçimde kısıtlıyorsa beklemeden bir uzmana başvur; sosyal kaygıda ilk seçenek bireysel bilişsel davranışçı terapidir.
 
 ## Ne yapmalıyım
 
-12 haftalık bir deneme öneriyorum. Dört kol aynı anda yürür: ölçmek, toplum içinde denemek, iç eleştirmenle çalışmak, zemini sağlamlaştırmak.
+12 haftalık bir deneme öneriyorum. Aşağıdaki ilk beş başlık aynı anda yürür. Zor bir haftada planı bırakma, küçült: bir deney ve iki öz-şefkat molası yeter.
 
 | Hafta | Ne yapılır | Nasıl anlarsın |
 |---|---|---|
@@ -20,13 +20,15 @@
 | 2–5 | Haftada 3 davranış deneyi (alt basamaklar), her gün öz-şefkat molası, vaka günlüğü | Tahmin ile sonuç arasındaki fark |
 | 6–9 | Üst basamaklar, video izleme, bir hafta “yabancılarla konuşma” oyunu | Kaçındığın durum sayısı azalıyor mu |
 | 10–11 | En zor iki basamağı farklı ortamlarda yinele | Aynı durumda kaygı daha çabuk iniyor mu |
-| 12 | Ölçekleri yeniden doldur, karar ver | Puan farkı ve yardım eşiği |
+| 12 | Ölçekleri yeniden doldur | Puanlar düzeldiyse merdiveni sürdür; değişmediyse ya da kötüleştiyse uzmana başvur |
 
 ### 1. Ölç
 
 İlk hafta üç kısa ölçek doldur ve puanları yaz: Rosenberg Benlik Saygısı Ölçeği (genel değer duygusu), Liebowitz Sosyal Anksiyete Ölçeği (sosyal kaygı) ve PHQ-9 (depresyon taraması). Amaç tanı koymak değil. Hangi sorunun baskın olduğunu görmek ve 12. haftada karşılaştırmak için.
 
 ### 2. Toplum içinde: davranış deneyleri
+
+Güvenlik notu: belirgin depresyon, kendine zarar verme düşüncesi, sık panik atağı, travma öyküsü ya da alkol ve ilaçla rahatlama alışkanlığın varsa deneylere bir terapistle başla. Hiçbir deneyi içkili yapma.
 
 **Güvenlik davranışlarını bul.** Bunlar kaygıyı gizlemek için yapılan küçük önlemlerdir: göz temasından kaçınmak, cümleyi içinden prova etmek, az konuşmak, telefona bakmak, içkiyle gevşemek. Kendi listeni çıkar.
 
@@ -38,11 +40,12 @@
 2. Bir meslektaşa “Bu vakada sen ne yapardın?” diye sor.
 3. Markette ya da kafede bir yabancıyla iki cümle konuş.
 4. Bir kursta ya da toplantıda soru sor.
-5. Katılmadığın bir fikre katılmadığını söyle.
-6. Küçük bir grupta iki dakikalık bir vaka anlat.
-7. Bilerek küçük bir kusur göster: duraksa, “şu an kelime aklıma gelmedi” de. Ne olduğunu gözle.
+5. Bir ricayı geri çevir ya da bir isteğini açıkça söyle; gerekçeyi kısa tut.
+6. Katılmadığın bir fikre katılmadığını söyle.
+7. Küçük bir grupta iki dakikalık bir vaka anlat.
+8. Bilerek küçük bir kusur göster: duraksa, “şu an kelime aklıma gelmedi” de. Ne olduğunu gözle.
 
-Her basamağı farklı kişilerle ve farklı yerlerde yinele.
+Şu an hasta görmüyorsan 1., 2. ve 7. basamağın yerine şunları koy: bir meslektaşla vaka konuşmak, iş görüşmesi provası, kısa bir sunum. Her basamağı farklı kişilerle ve farklı yerlerde yinele.
 
 **Kendini videoda izle.** İki dakikalık bir konuşmanı kaydet. İzlemeden önce nasıl göründüğünü tahmin et (titreme, kızarma, sıkıcılık; 0–10). Sonra kendini bir yabancıyı izler gibi izle ve tahminle karşılaştır.
 
@@ -60,7 +63,7 @@ Her basamağı farklı kişilerle ve farklı yerlerde yinele.
 
 ### 4. Mesleki ustalık
 
-En az güvendiğin bir işlemi seç (çoğu yeni mezunda kanal tedavisi ya da kuron). Deneyimli birini izle, gözetim altında yap, geri bildirim iste. Her vaka için üç satır yaz: beklediğim zorluk, gerçekleşen, bir dahaki sefere. Karmaşık işlemlerde düşük güven yeni mezunlarda kuraldır, istisna değil.
+En az güvendiğin bir işlemi seç (çoğu yeni mezunda kanal tedavisi ya da kuron). Deneyimli birini izle, gözetim altında yap, geri bildirim iste. Her vaka için üç satır yaz: beklediğim zorluk, gerçekleşen, bir dahaki sefere. Şu an çalışmıyorsan aynı günlüğü kurs, gözlem ya da maket çalışması üzerinden tut. Karmaşık işlemlerde düşük güven yeni mezunlarda kuraldır, istisna değil.
 
 ### 5. Zemin ve çevre
 
@@ -70,7 +73,15 @@ En az güvendiğin bir işlemi seç (çoğu yeni mezunda kanal tedavisi ya da ku
 
 ### 6. Ne zaman uzmana
 
-Şu durumlarda beklemeden bir psikiyatri uzmanına ya da klinik psikoloğa başvur: kaygı ve kaçınma altı aydan uzun sürüyorsa ve işini ya da ilişkilerini kısıtlıyorsa; PHQ-9 puanın 10 ve üzerindeyse; 12 hafta sonunda ilerleme yoksa. Kendine zarar verme düşüncen varsa aynı gün başvur. Terapiste bilişsel davranışçı terapi (BDT) eğitimi olup olmadığını sor.
+Şu durumlarda beklemeden bir psikiyatri uzmanına ya da klinik psikoloğa başvur:
+
+- Kaygı ya da kaçınma işini ya da ilişkilerini belirgin biçimde kısıtlıyorsa, süresi ne olursa olsun.
+- PHQ-9 puanın 10 ve üzerindeyse.
+- 12 hafta sonunda puanların değişmediyse ya da kötüleştiyse.
+
+PHQ-9'un 9. sorusuna (kendine zarar verme düşüncesi) “hiç” dışında bir yanıt verdiysen, toplam puanın ne olursa olsun aynı gün bir hekime başvur. Düşünce yoğunsa ya da bir planın varsa 112'yi ara ya da en yakın acil servise git.
+
+Sosyal kaygı belirgin düzeydeyse ilk seçenek bu soruna özgü bireysel bilişsel davranışçı terapidir (BDT: düşünce ve davranış kalıplarını deneylerle değiştiren terapi). İstemeyen ya da yararlanmayan için psikiyatrist ilaç (SSRI grubu) önerebilir. Terapiste BDT eğitimi olup olmadığını sor. Kaygı için kendi kendine ilaç kullanma.
 
 ## Gerekçe ve kanıt
 
@@ -82,7 +93,7 @@ Veriler bunu destekliyor. Bir alandaki öz-kavram ile o alandaki başarı birbir
 
 ### Kendine karşı güvensizlik
 
-**Koşullu öz-değer.** Değerini başarıya bağlayan kişide her başarı kısa bir rahatlama, her aksama bir tehdit olur (Crocker ve Wolfe 2001). Kendini kanıtlama çabasının uzun vadeli bedeli kısa vadeli yararını aşar; çıkış yolu öğrenme ve katkı hedefleridir (Crocker ve Park 2004). Çok okumuş olmak bu döngüyü çözmez, çoğu zaman besler: sınavla ilerleyen bir eğitim “değerim notum kadar” kuralını pekiştirir.
+**Koşullu öz-değer.** Değerini başarıya bağlayan kişide her başarı kısa bir rahatlama, her aksama bir tehdit olur (Crocker ve Wolfe 2001). Kendini kanıtlama çabasının uzun vadeli bedeli kısa vadeli yararını aşar; çıkış yolu öğrenme ve katkı hedefleridir (Crocker ve Park 2004). Çok okumuş olmak bu döngüyü çözmez; sınavla ilerleyen bir eğitim “değerim notum kadar” kuralını pekiştirebilir (bu benim çıkarımım).
 
 **Sahtekârlık duygusu** (impostor: başarılarını hak etmediğine ve bir gün “yakalanacağına” inanmak). 62 çalışmayı ve 14.161 kişiyi kapsayan derlemede yaygınlık ölçeğe göre %9 ile %82 arasında değişiyor (Bravata ve ark. 2020). Yani yaygın, ama bir teşhis değil ve ölçümü tartışmalı. Sağlık öğrencilerinde mükemmeliyetçilik ve sahtekârlık duygusu, ruhsal sıkıntıyı yaştan ve cinsiyetten daha iyi öngörüyor (Henning ve ark. 1998).
 
@@ -110,11 +121,11 @@ Türkiye'ye özgü iki örüntü öne çıkıyor. Onur kültürlerinde kişinin 
 
 ### Beden, mizaç, evrim
 
-Çekingen mizaç erken ortaya çıkar ve riski artırır: küçükken yeni ortamlarda ketlenen çocukların yaklaşık %43'ü sonradan sosyal anksiyete bozukluğu geliştiriyor (Clauss ve Blackford 2012). Geri kalan çoğunluk geliştirmiyor. Sosyal kaygıda genetik pay %40 civarında; kalanı yaşantı (Scaini ve ark. 2014). Kişilik de değişiyor: 207 çalışmanın analizinde müdahaleler ortalama 24 haftada ölçülebilir değişim sağladı, en çok duygusal dengede (Roberts ve ark. 2017).
+Çekingen mizaç erken ortaya çıkar ve riski artırır: küçükken yeni ortamlarda ketlenen çocukların yaklaşık %43'ü sonradan sosyal anksiyete bozukluğu geliştiriyor (Clauss ve Blackford 2012). Geri kalan çoğunluk geliştirmiyor. Sosyal kaygıda genetik pay %40 civarında; kalanı yaşantı (Scaini ve ark. 2014). Kişilik de değişiyor: 207 çalışmanın analizinde müdahaleler ortalama 24 haftada ölçülebilir değişim sağladı, en çok duygusal dengede (Roberts ve ark. 2017). Ama çalışmaların çoğu terapi alan hastalarda ve kontrol grupsuzdu; gerçek etki muhtemelen daha küçük.
 
 İçe dönüklük özgüvensizlik değildir. Bir hafta “dışadönük davranma” ortalamada iyi geldi, ama görece içe dönüklerde yorgunluk ve “kendim değilim” hissi arttı (Jacques-Hamilton ve ark. 2019). Hedef başka biri olmak değil, kaçınmadan yaşayabilmek.
 
-Evrimsel açıdan sosyal kaygı, grupta rütbe kaybetme tehdidine karşı gelişmiş bir alarm sistemidir (Gilbert 2001). Statüye iki yol vardır: baskınlık ve prestij, yani beceri ve yardımseverlikle gönüllü kazanılan saygı (Henrich ve Gil-White 2001). Hekimlik ikinci yolun mesleğidir.
+Evrimsel açıdan sosyal kaygı, grupta rütbe kaybetme tehdidine karşı gelişmiş bir alarm sistemidir (Gilbert 2001). Statüye iki yol vardır: baskınlık ve prestij, yani beceri ve yardımseverlikle gönüllü kazanılan saygı (Henrich ve Gil-White 2001). Hekimlik bu ikinci yola uygun bir meslek olabilir; bu benim yorumum.
 
 Beden zemini: uykuyu düzeltmek kaygıyı orta düzeyde azaltıyor (Scott ve ark. 2021); egzersiz de öyle (Singh ve ark. 2023). Sosyal anksiyete bozukluğu olanlarda alkol bağımlılığı olasılığı 2,8 kat yüksek (Schneier ve ark. 2010). Bunlar özgüveni kurmaz, denemeleri yapabileceğin zemini hazırlar.
 
