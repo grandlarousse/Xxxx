@@ -57,3 +57,11 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# 1885 Doğu Rumeli krizi: 85 saniyelik dikey belgesel paketi (14.11.2026)
+
+Klasör: `2026-11-14_1885_dogu_rumeli_video/`
+
+- `VIDEO_PAKETI.md`: Başlıklar, kaynaklı tarih özeti, karakter tanımı, seslendirme metni (175 kelime), 10 sahnelik plan, 24 görsel/video promptu, kamera-ses tasarımı, kurgu planı, kaynakça, YouTube açıklaması, kalite kontrolü ve doğrulama kapsamı.
