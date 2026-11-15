@@ -7,10 +7,10 @@
 
 1. **Bulgar pasaportu diş hekimine özel bir çalışma izni kısayolu vermiyor.** AB–Kanada ticaret anlaşmasının (CETA) serbest meslek yolları diş hekimliğinde kapalı, gençlik değişim programında Bulgaristan yok, puan sisteminde vatandaşlık puanı yok.
 2. **Pasaportun gerçek faydası:** vizesiz giriş ve çalışma iznine sınır kapısında başvurabilme. İş görüşmesine ya da klinik görmeye uçağa binip gidebilirsin.
-3. **En güçlü yol çalışma izni değil, doğrudan kalıcı oturum.** Express Entry'nin sağlık kategorisinde diş hekimi var, iş teklifi şart değil, yurt dışı deneyim sayılıyor. 2026 eşikleri 467–475 puan.
-4. **Kolaylığı üç şey belirliyor: yaş, Fransızca, iş teklifi.** Orta düzey Fransızcan varsa kolay. 30 yaş civarı ve çok iyi İngilizceyle orta. 36 yaş üstü, Fransızcasız ve teklifsizse zor.
+3. **Ana yol çalışma izni değil, doğrudan kalıcı oturum; ama tek başına yetmeyebilir.** Express Entry'nin sağlık kategorisinde diş hekimi var, iş teklifi şart değil, yurt dışı deneyim sayılıyor. 2026 eşikleri 467–475 puan; yalnız İngilizceyle 30 yaşında bile 464'te kalıyorsun.
+4. **Kolaylığı üç şey belirliyor: Fransızca, iş teklifi, yaş.** Dört beceride NCLC 7 Fransızcan (üst-orta düzey) varsa kolay. Geçerli bir iş teklifin varsa orta. İkisi de yoksa 30 yaşında zor-orta, 36 yaş üstünde zor.
 5. **Çalışma izni için iki gerçekçi kapı var:** işverenin LMIA alması (yaklaşık 5 ay, üstüne izin süresi) ya da Fransızca biliyorsan LMIA'sız Francophone Mobility.
-6. **"Bilinmeyen patika" adayı tek:** muayenehane satın alıp CETA yatırımcı izni almak. Kâğıt üzerinde açık, ama bizzat hasta bakan hekime uymuyor; riskli.
+6. **CETA'nın diğer sıfatları açık, ama hiçbiri hasta bakmana izin vermiyor** (şirket içi transfer, danışmanlık sözleşmesi, iş ziyaretçisi; 3.9). Hekim olarak tek aday muayenehane satın alıp yatırımcı izni almak; o da bizzat hasta bakan hekime uymuyor, riskli.
 
 ## 2. Ne yapmalıyım
 
@@ -22,12 +22,14 @@
    - ECA, yani diplomanın göçmenlik puanı için değerlendirilmesi (WES gibi beş genel kurumdan biri). Bu, NDEB denkliğinden ayrı, yalnızca puan için istenen bir evrak.
 5. **Express Entry profilini aç.** Sağlık çekilişi 2026'da üç kez yapıldı (Şubat, Haziran, Eylül); profilin havuzda değilse çekilişe giremezsin.
 6. **Puanın 470'in altındaysa bir kaldıraç seç:**
-   - Fransızca (en güçlüsü): orta düzey Fransızca hem +62 puan getiriyor hem de eşiği 382–435 olan ayrı çekilişlere sokuyor.
+   - Fransızca (en güçlüsü): dört beceride NCLC 7 hem +62 puan getiriyor hem de eşiği 382–435 olan ayrı çekilişlere sokuyor. Bu, Francophone Mobility'nin istediğinden (yalnız konuşma-dinlemede NCLC 5) daha yüksek bir düzey.
    - İş teklifi: diş hekimi için +70 puan (koşulları 3.4'te).
-   - İngilizceyi bir kademe yükseltmek.
-7. **İş aramayı paralel yürüt.** Vizesiz girişi görüşme ve klinik ziyareti için kullan (çalışmak yasak). İlk hedefler: Saskatchewan (programında diş hekimi adıyla geçiyor), British Columbia, kırsal Atlantik. İşverene iki soru sor: maaşlı sözleşme veriyor mu, LMIA ya da eyalet adaylığı için destek oluyor mu.
-8. **Teklif gelince** Express Entry şartlarını tuttuğunu kontrol et: en az 1 yıl, tam zamanlı, ücret ya da komisyon karşılığı. "Yurt dışındaki aday bu puanı alır mı" sorusunu profiline yazmadan önce IRCC'den ya da kayıtlı bir danışmandan teyit et; resmî metin bu noktada açık değil.
-9. **Uzak dur:** LMIA karşılığı para isteyen işveren ya da aracı (yasa dışı), "AB vatandaşısın, CETA ile serbest çalışırsın" diyen danışman (diş hekimi için yanlış), kaydı olmayan danışman. Danışmanı CICC'nin açık sicilinden doğrula.
+   - İş teklifi + Express Entry'ye bağlı eyalet adaylığı: +600 puan, daveti fiilen garantiler. 40 yaş üstü için en sağlam yol.
+   - İngilizceyi CLB 10'a çıkarmak: yalnızca +12 puan; ancak 30 yaş civarında eşiği geçirir.
+7. **Eyalet kayıt belgeni hazır tut.** Çalışacağın eyaletin diş hekimleri kurumuna kaydın ya da kayda uygun olduğunu gösteren yazı, hem çalışma izni başvurusunda hem de iş teklifi puanının değerlendirilmesinde soruluyor.
+8. **İş aramayı paralel yürüt.** Vizesiz girişi görüşme ve klinik ziyareti için kullan (çalışmak yasak). İlk hedefler: Saskatchewan (programında diş hekimi adıyla geçiyor), British Columbia, kırsal Atlantik. İşverene iki soru sor: işçi sözleşmesi veriyor mu, LMIA ya da eyalet adaylığı için destek oluyor mu.
+9. **Teklif gelince** Express Entry şartlarını tuttuğunu kontrol et: gerçek bir işverenden, en az 1 yıl, tam zamanlı, ücret ya da komisyon karşılığı. Serbest çalışan sözleşmesi yerine işçi sözleşmesi iste.
+10. **Uzak dur:** LMIA karşılığı para isteyen işveren ya da aracı (yasa dışı), "AB vatandaşısın, CETA ile serbest çalışırsın" diyen danışman (diş hekimi için yanlış), kaydı olmayan danışman. Danışmanı CICC'nin açık sicilinden doğrula.
 
 ## 3. Gerekçe ve kanıt
 
@@ -44,6 +46,8 @@ Terimler: **PR** kalıcı oturum. **Express Entry** federal puanlı başvuru hav
 | IEC (working holiday) | **Kapalı.** Bulgaristan'ın Kanada ile gençlik anlaşması yok. |
 | Express Entry'de vatandaşlık puanı | Yok. |
 
+"Unbound" yasak demek değil; Kanada'nın o alanda anlaşmayla hak tanımadığı demek. Diş hekimi olarak yine gelebilirsin, ama anlaşmanın kolaylığıyla değil, herkesin kullandığı yollarla.
+
 Vizeye tabi bir pasaporta (örneğin Türk) göre fark şu: vize başvurusu ve beklemesi yok, keşif ve görüşme için serbestçe gidip gelebiliyorsun. İzin ve oturum şartlarının kendisi aynı (bu son cümle benim çıkarımım; kurallarda vatandaşlığa göre ayrım görülmedi).
 
 30 Ekim 2026'da Kanada ve AB nitelikli işçi hareketliliği için görüşme başlattı. Yeni bir hak doğmadı; tek kaynak ikincil, izlemeye değer.
@@ -52,9 +56,10 @@ Vizeye tabi bir pasaporta (örneğin Türk) göre fark şu: vize başvurusu ve b
 
 | Yol | Ne ister | Kolaylık |
 |---|---|---|
-| Express Entry sağlık kategorisi (doğrudan PR, teklifsiz) | Son 3 yılda 12 ay deneyim, CRS yaklaşık 467–475 | 30 yaş civarı + çok iyi İngilizce: orta. 36+: zor |
-| Express Entry + Fransızca | Fransızca NCLC 7; Fransızca çekilişi eşiği 382–435 | Fransızca varsa kolay |
-| Express Entry + iş teklifi puanı | Yazılı, en az 1 yıllık, tam zamanlı teklif; LMIA gerekmez; +70 puan | Orta (teklif bulmak ve bir belirsizlik) |
+| Express Entry sağlık kategorisi (doğrudan PR, teklifsiz) | Son 3 yılda 12 ay deneyim, CRS yaklaşık 467–475 | 30 yaş civarı: zor-orta. 36+: zor |
+| Express Entry + Fransızca | Dört beceride Fransızca NCLC 7; Fransızca çekilişi eşiği 382–435 | Fransızca varsa kolay |
+| Express Entry + iş teklifi puanı | Yazılı, en az 1 yıllık, tam zamanlı teklif; LMIA gerekmez; +70 puan | Orta (teklif bulmak; memur teklifi ayrıca değerlendirir) |
+| İş teklifi + Express Entry'ye bağlı eyalet adaylığı | Eyalet akımının şartları; +600 puan | Orta; teklif bulunursa en sağlam yol |
 | LMIA'lı çalışma izni | Maaşlı iş teklifi; işveren LMIA alır | Orta |
 | Francophone Mobility (LMIA'sız) | Quebec dışı iş teklifi + Fransızca konuşma-dinleme NCLC 5 | Fransızca varsa kolay |
 | Saskatchewan Health Talent Pathway | Onaylı iş teklifi, lisansa uygunluk, CLB 5 ya da 7 | Orta |
@@ -66,11 +71,12 @@ Vizeye tabi bir pasaporta (örneğin Türk) göre fark şu: vize başvurusu ve b
 | Kanada'da yüksek lisans, sonra mezuniyet izni | Kabul, öğrenim ücreti, CLB 7 | Orta, yavaş ve pahalı |
 | CETA yatırımcı izni | Muayenehaneye ciddi sermaye, yönetici rolü | Zor, riskli |
 | C11 (işletme sahibi geçici izni) | Geçici iş, en çok 18 ay | Uygun değil |
-| CETA serbest meslek, IEC, Start-up Visa, Self-Employed, ziyaretçiyken içeriden izin, Alberta sağlık yolu | — | Kapalı |
+| CETA şirket içi transfer ya da danışmanlık sözleşmesi | Diş hekimliği dışı bir rol (3.9) | Dar; hasta bakamazsın |
+| CETA ile diş hekimliği (serbest meslek kategorileri), IEC, Start-up Visa, Self-Employed, ziyaretçiyken içeriden izin, Alberta sağlık yolu | — | Kapalı |
 
 ### 3.3 Express Entry: puan senaryoları
 
-Sağlık kategorisinde diş hekimi (31110) listede. Şart: son 3 yılda, tek meslekte, 12 ay tam zamanlı deneyim; Kanada dışında kazanılmış olabilir. İş teklifi ve Kanada lisansı aranmıyor.
+Sağlık kategorisinde diş hekimi (31110) listede. Şart: son 3 yılda, tek meslekte, 12 ay tam zamanlı deneyim; Kanada dışında kazanılmış olabilir, kesintisiz olması gerekmiyor. İş teklifi ve Kanada lisansı aranmıyor.
 
 2026 sağlık çekilişleri (resmî veri): 20 Şubat 4.000 davet / 467 puan, 25 Haziran 4.000 / 475, 4 Eylül 3.500 / 475. Fransızca çekilişleri 382–435 arasında kaldı (haber kaynağı). Son çekiliş 28 Ekim'di.
 
@@ -86,7 +92,10 @@ Okuma:
 - Yalnız İngilizceyle 30 yaş bile eşiğin hemen altında. 30–36 arası her yıl ortalama 5–6 puan, 36–42 arası ortalama 7 puan gidiyor.
 - İş teklifi 36 yaşı eşiğin üstüne taşıyor, 42 yaşı taşımıyor.
 - Fransızca 42 yaşı bile Fransızca çekilişinin üstüne çıkarıyor. Bu yüzden en güçlü kaldıraç Fransızca.
-- Evliysen hesap değişir; hesaplanmadı. ECA diplomanı lisans düzeyi sayarsa puan belirgin düşer; büyüklüğü hesaplanmadı.
+- Fransızca sütunu dört beceride NCLC 7 varsayar.
+- İngilizceyi CLB 10'a çıkarmak +12 puan getirir (30 yaş: 476, 36 yaş: 443).
+- ECA diplomanı yüksek lisans yerine lisans düzeyi sayarsa yaklaşık 40 puan düşer (424 / 391 / 347). Bu satır ve bir üstteki eleştirmenin hesabı; resmî tablodan ayrıca teyit edilmedi.
+- Evliysen hesap değişir; hesaplanmadı.
 
 Diğer şartlar: Federal Skilled Worker asgarileri (son 10 yılda 1 yıl kesintisiz deneyim, CLB 7, ECA) ve yerleşim fonu. Fon tutarı Temmuz 2025 tablosunda tek kişi için 15.263 CAD, iki kişi için 19.001 CAD; 2026 tutarı teyit edilmedi. İşlem süresi hedefi 6 ay, Şubat 2026'da gerçekleşen 7 ay.
 
@@ -98,10 +107,12 @@ Mart 2025'te kaldırılan iş teklifi puanı 3 Kasım 2026'da yüksek ücretli m
 
 Teklifin şartları (bakanlık talimatı): Kanada'da tam zamanlı (haftada en az 30 saat), PR vizesinin verildiği günden itibaren en az 1 yıl kesintisiz, ücret ya da komisyon karşılığı.
 
-Üç belirsizlik:
-- **Yurt dışındaki aday bu puanı alır mı?** Okunan resmî metinlerde yurt dışındaki adayı dışlayan bir şart görülmedi, ama "alır" diyen açık bir cümle de bulunamadı. Teyit et.
-- **Serbest çalışan (bağımsız yüklenici) sözleşmesi sayılır mı?** Açık hüküm yok. "Ücret ya da komisyon" dili işçi ilişkisini işaret ediyor. Maaşlı ya da komisyonlu işçi sözleşmesi iste.
-- **Eşikler yükselir mi?** Aynı kural havuzdaki başkalarına da puan veriyor. 3 Kasım'dan sonra henüz çekiliş yapılmadı; yeni eşik bilinmiyor.
+Yurt dışında yaşayan aday için engel yok: talimatta Kanada'da bulunma, çalışma izni ya da "hâlen çalışıyor olma" şartı geçmiyor; "Kanada'da" ifadesi işin yerini anlatıyor (eleştirmenin resmî metinden ikinci kontrolü).
+
+Üç risk:
+- **Memur teklifi ayrıca değerlendirir.** Ölçütlerden biri, o işe nitelikli olman ve işi yapabilecek durumda olman. Eyalet kaydın yoksa puan son aşamada düşebilir; puan düşerse davetin dayanağı kalmaz.
+- **Serbest çalışan (bağımsız yüklenici) sözleşmesi.** Açık hüküm yok; "ücret ya da komisyon" dili işçi ilişkisini işaret ediyor. İşçi sözleşmesi iste.
+- **Eşikler yükselebilir.** Aynı kural havuzdaki başkalarına da puan veriyor. 3 Kasım'dan sonra henüz çekiliş yapılmadı; yeni eşik bilinmiyor.
 
 Teklif seni fon şartından kurtarmaz: muafiyet için ayrıca Kanada'da çalışmaya yetkili olman gerekiyor.
 
@@ -130,7 +141,7 @@ Hepsinde iş teklifi şart. Yurt dışından teklifsiz girilebilen bir eyalet yo
 
 ### 3.7 Yan yollar
 
-**Eş üzerinden.** Eşin Kanada'da 16 ay ya da daha uzun bir yüksek lisansta, doktorada ya da seçili bir profesyonel programda okursa sana açık çalışma izni çıkıyor. Açık izin işverene bağlı değildir. Tersi de geçerli: sen TEER 1 meslekte izin alırsan eşin açık izin alabilir.
+**Eş üzerinden.** Eşin Kanada'da 16 ay ya da daha uzun bir yüksek lisansta, doktorada ya da seçili bir profesyonel programda okursa sana açık çalışma izni çıkıyor. Açık izin işverene bağlı değildir. Tersi de geçerli: sen TEER 1 meslekte izin alırsan eşin açık izin alabilir (iznin, eşinin başvurusundan sonra en az 16 ay daha geçerli olmalı).
 
 **Kendi eğitimin.** 2026'da kamu üniversitelerindeki yüksek lisans ve doktora öğrenci kotasından muaf. Mezuniyet sonrası açık çalışma izninde yüksek lisans için alan şartı yok. Yol açık ama pahalı ve yavaş.
 
@@ -142,12 +153,43 @@ Hepsinde iş teklifi şart. Yurt dışından teklifsiz girilebilen bir eyalet yo
 
 Start-up Visa yeni başvuruya kapalı. Self-Employed programı durdurulmuş. Ziyaretçiyken Kanada içinden çalışma iznine geçiş politikası 28 Ağustos 2024'te bitti (danışmanlık kaynağı). Ziyaretçi görüşmeye gelebilir, çalışamaz.
 
+### 3.9 CETA'da başka hangi sıfatlar var
+
+Anlaşmanın geçici giriş bölümü altı sıfat tanıyor. Aşağıdaki tablo doğrudan anlaşma metninden (Bölüm 10 ve ekleri).
+
+| Sıfat | Koşul | Süre | Sana yarar mı |
+|---|---|---|---|
+| Kısa süreli iş ziyaretçisi | Toplantı, görüşme, araştırma, eğitim semineri, fuar. Kanada'dan ücret almazsın | 6 ayda 90 gün | Keşif ve görüşme için evet. Hasta bakamazsın |
+| Yatırım amaçlı iş ziyaretçisi | Şirket kurmakla görevli yönetici ya da uzman; halkla doğrudan işlem yok, Kanada'dan ücret yok | 6 ayda 90 gün | Muayenehane alım hazırlığı için |
+| Yatırımcı (T46) | Önemli sermaye, denetleyici ya da yönetici rol | 1 yıl, uzatma takdire bağlı | Riskli (3.7) |
+| Şirket içi transfer | AB'deki bir şirkette en az 1 yıl çalışmış ya da ortak olmuş olmak; Kanada'daki şubeye, bağlı şirkete ya da ana şirkete geçici transfer; üst düzey yönetici, uzman ya da stajyer mezun | 3 yıl, 18 aya kadar uzatma (stajyer 1 yıl) | Yalnız dental sektörde bir şirkette, klinik dışı rolle |
+| Sözleşmeli hizmet sunucusu | Kanada'da kuruluşu olmayan AB şirketinin çalışanı; o şirkette en az 1 yıl, sektörde en az 3 yıl deneyim; sözleşme en çok 12 ay | 24 ayda en çok 12 ay | Sağlık kapalı. Açık sektörlerde, o sektörün deneyimiyle |
+| Bağımsız profesyonel | AB'de serbest çalışan; sektörde en az 6 yıl deneyim; sözleşme en çok 12 ay | 24 ayda en çok 12 ay | Sağlık kapalı. Açık sektörlerde, o sektörün deneyimiyle |
+
+Son iki sıfatta Kanada'nın sektör sektör tutumu:
+
+| Kanada'nın tutumu | Sektörler |
+|---|---|
+| İki sıfata da açık | Uluslararası ve yabancı hukuk danışmanlığı, mimarlık ve şehir planlama, mühendislik, bilgisayar hizmetleri, araştırma-geliştirme, pazar araştırması, yönetim danışmanlığı ve bağlı hizmetler, madencilik danışmanlığı, çeviri-tercümanlık, sigorta ve finans danışmanlığı; yönetici olmayanlar için telekom, posta, ulaştırma ve imalat danışmanlığı |
+| Yalnız sözleşmeli hizmet sunucusuna açık | Muhasebe, vergi danışmanlığı, reklam, teknik test ve analiz, bilimsel-teknik danışmanlık, bakım-onarım, inşaat, zemin etüdü, tarım danışmanlığı, çevre hizmetleri, seyahat acenteliği, turist rehberliği |
+| İkisine de kapalı | Tıp ve diş hekimliği, veterinerlik, ebelik, hemşirelik-fizyoterapi-paramedikal hizmetler, yükseköğretim |
+
+Okuma:
+- Kapalı satır bütün sağlık mesleklerini ve üniversite hocalığını kapsıyor. Kanada bu alanı anlaşmanın dışında tutmuş.
+- Diş hekimi kimliğine en yakın açık sektörler araştırma-geliştirme ile yönetim danışmanlığı. Ama bu sıfatla gidersen o işi yaparsın, hasta bakamazsın; ayrıca o sektörde 3 ya da 6 yıl deneyim ve gerçek bir Kanadalı müşteriyle sözleşme gerekir. Süre de 12 ayla sınırlı.
+- Şirket içi transfer tek uzun süreli sıfat. Pratikte şu demek: AB'de ve Kanada'da kuruluşu olan bir dental şirkette (implant, malzeme, cihaz, klinik zinciri) en az 1 yıl çalışıp Kanada'ya uzman ya da yönetici olarak geçmek. Hekimlik değil, şirket işi.
+- Bu sıfatlarla Kanada'da geçen sürenin kalıcı oturum puanına nasıl yansıdığı bu araştırmada doğrulanmadı.
+
 ## 4. Emin olunmayanlar ve doğrulama kapsamı
 
 **Doğrulama.** 8 araştırmacı toplam 99 iddia satırı üretti. Sonucun dayandığı ve şaşırtıcı olan 75 satır ayrı doğrulayıcılarca kaynağına gidilerek kontrol edildi: 65'i doğrulandı, 8'i düzeltildi, 2'si doğrulanamadı. Düzeltmeler rapora işlendi. Doğrulanamayan iki satırdan biri (C11 koşulları) sonradan resmî sayfadan teyit edildi; diğeri (Nova Scotia'nın diş hekimini birinci önceliğe aldığı iddiası) rapora kesin bilgi olarak alınmadı.
 
+**Eleştirmen turu.** Taslağa 8 itiraz geldi, hepsi işlendi. En önemlileri: teklifsiz yolun notu "orta"dan "zor-orta"ya indi; Fransızca düzeyi düzeltildi (puan için dört beceride NCLC 7); iş teklifi puanında yurt dışı aday belirsizliği kalktı, yerine memurun değerlendirme riski yazıldı; eyalet adaylığının +600 puanı eklendi. Eleştirmen ayrıca beş hukuki iddiayı resmî kaynaktan ikinci kez kontrol etti: dördü doğrulandı, biri lehte düzeltildi.
+
+**Linkler.** 26 kaynak linkinin 8'i betikle açıldı. Kalan 18'i canada.ca adresleri; bu ortamdan betikle erişilemiyor, ama hepsi bu oturumda araştırmacı ve doğrulayıcılarca açılıp okundu.
+
 **Açık kalanlar:**
-- Yurt dışındaki adayın iş teklifi puanını alıp alamayacağı.
+- Memurun iş teklifi değerlendirmesinde eyalet kaydını nasıl tarttığı.
 - Serbest çalışan sözleşmesinin iş teklifi sayılıp sayılmadığı.
 - 3 Kasım 2026 sonrası çekiliş eşikleri.
 - Fransızca çekiliş eşikleri ve dentalcorp ilanı ikincil kaynaktan.
@@ -191,7 +233,9 @@ Tam iddia defterleri ve doğrulama tabloları `ek/` klasöründe.
 ## 6. Devam notu
 
 1. Soru: NDEB'yi geçmiş Bulgar (AB) vatandaşı diş hekiminin Kanada'da çalışma izni ve PR yolları. Denklik araştırılmadı, araştırılmayacak.
-2. Sonuç: AB pasaportu kısayol vermiyor (CETA serbest meslek kapalı, IEC yok); ana yol Express Entry sağlık kategorisi (eşik 467–475); kaldıraçlar Fransızca, iş teklifi (+70, 3 Kasım 2026), yaş.
+2. Sonuç: AB pasaportu kısayol vermiyor (CETA'da bütün sağlık meslekleri kapalı, IEC yok); ana yol Express Entry sağlık kategorisi (eşik 467–475); kaldıraçlar Fransızca (dört beceride NCLC 7), iş teklifi (+70, 3 Kasım 2026), eyalet adaylığı (+600), yaş.
 3. Eksik kullanıcı bilgisi: yaş, dil düzeyi, Fransızca, medeni durum, son 3 yıldaki deneyim ayı. Gelince tek yola indirilecek.
-4. Açık teyitler: yurt dışı adayın iş teklifi puanı, 3 Kasım sonrası eşikler, Manitoba ve Atlantik öncelik listeleri.
+4. Açık teyitler: 3 Kasım sonrası eşikler, memurun teklif değerlendirmesi, Manitoba ve Atlantik öncelik listeleri, CETA sıfatlarıyla geçen sürenin PR puanına etkisi.
 5. Dosyalar: bu rapor; `ek/A…F2` iddia defterleri; `ek/dogrulama_1…4` doğrulama tabloları.
+
+Maliyet: Seviye M · 13 ajan: 8 üretici (sonnet) + 4 doğrulayıcı (sonnet) + 1 eleştirmen (opus) · 2 üretim dalgası · kontrol noktasını geçen ajan yok · aşılan sınır: üretici sayısı 6 yerine 8 (iki dar takip görevi: iş teklifi puanı ve yatırımcı yolu). CETA sıfatları sorusu ajan açılmadan, anlaşma metninden yanıtlandı.
