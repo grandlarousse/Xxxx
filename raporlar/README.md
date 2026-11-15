@@ -57,3 +57,18 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# Gizli mutsuzluk: nereden geliyor, ne anlama geliyor, ne yapılır (15.11.2026)
+
+Klasör: `2026-11-15_gizli-mutsuzluk/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, ne yapmalıyım, gerekçe ve kanıt (beş okuma ve varılan sonuç), doğrulama kapsamı, kaynaklar, devam notu.
+- `EK-1_aci_aci_bulgular.md`: Bakılan 29 açının kısa özetleri.
+- `EK-2_dusunurler_ve_metinler.md`: Felsefe, derinlik psikolojisi, din ve edebiyattan doğrulanmış alıntılarla yedi teşhis, çıkışlar ve dört vaka.
+- `EK-3_gozlem_ve_karar_protokolu.md`: Üç haftalık kısa kayıt ve okuma kılavuzu.
+- `EK-4_dogrulama_defteri.md`: Kullanılan 290 iddianın doğrulanmış hâli, kaynağı, alıntısı ve doğrulayıcı notu (betikle üretildi).
+- `ek/`: Ham ajan çıktıları. Araştırma defterleri (P1–P25, D1–D7), dört savunma (K_H1–H4), dört eleştiri (E1–E4), doğrulama tabloları (V1–V4, G01–G24), bağlantı kontrolü, etiketli taslaklar (`taslak/`).
+
+Tanı ya da tedavi önerisi değildir.

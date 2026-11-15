@@ -157,7 +157,7 @@ Aşağıdakiler birlikte görülen şeylerdir; birinin ötekine yol açtığın�
 
 "Hiçbir şey aynı anda mükemmel gidemez" diye biliyorsun; his yine geliyor. Sık ve kendiliğinden gelen mükemmeliyetçi düşünceler, kişilik ölçümlerinin ötesinde sıkıntıyla ilişkili. [D2-25] Benim yorumum: bu düşünceler alışkanlıkla geliyor ve doğru olmadıklarını bilmek onları durdurmuyor. Bu yüzden Adım 3 bir açıklama değil, bir alıştırma. Çok düşünmek burada avantaj değil.
 
-John Stuart Mill yirmi yaşındaki bunalımını anlatırken benzer bir şey fark eder: çözümleme alışkanlığının duyguları aşındırma eğilimi vardır. [X5-03] Onu çıkaran yeni bir açıklama değil, okuduğu bir anı kitabında ağlaması ve ardından şiir oldu.
+John Stuart Mill yirmi yaşındaki bunalımını anlatırken benzer bir şey fark eder: başka zihinsel alışkanlıklar geliştirilmediğinde, çözümleme alışkanlığının duyguları aşındırma eğilimi vardır. [X5-03] Onu çıkaran yeni bir açıklama değil, okuduğu bir anı kitabında ağlaması ve ardından şiir oldu.
 
 ### 4. Zaman neden boşa geçiyor gibi
 
@@ -178,13 +178,13 @@ Sınır: genç yetişkinlerde "geride kalma" duygusunu doğrudan ölçen bir ça
 
 **Mizaç erken belirir.** Üç yaşındaki davranış biçimi yetişkin kişiliğini bir ölçüde öngörür. [D7-19] İkiz çalışmalarında aynı evde büyümenin kişiliğe etkisi küçük; aile etkisi varsa çoğunlukla çocuğa özgü işliyor. [D7-21] [D7-22] Nedeni ailede aramak bu yüzden az şey açıklar.
 
-**Koşullu ilgi.** İlginin başarıya bağlı hissedildiği yerde çocuk isteneni yapar, ama duygusal bedelle: iç zorlama duygusu, not odaklı çalışma. [D7-11] [D7-09] Kendine sorulacak soru: iyi bir sonuç aldığımda kendimi daha sevilmeye değer hisseder miydim? Geriye dönük hatırlama güvenilir değil; yanıtı temkinle tut. [P7-14]
+**Koşullu ilgi.** İlginin başarıya bağlı hissedildiği yerde çocuk isteneni yapar, ama duygusal bedelle: iç zorlama duygusu, not odaklı çalışma. [D7-11] [D7-09] Kendine sorulacak soru: iyi bir sonuç aldığımda kendimi daha sevilmeye değer hisseder miydim? Geriye dönük hatırlama ayrıntılarda güvenilir değil; yanıtı temkinle tut. [P7-14]
 
 **Sınav zinciri.** Ergenlerde akademik baskı ile ruh sağlığı sorunları arasındaki ilişkiyi inceleyen 52 çalışmanın 48'i ilişki bulmuş; çoğu tek bir ölçüme dayanıyor. [D7-25] LGS, YKS, fakülte ve DUS zincirinde her basamak bir sonrakinin hazırlığıdır. Bunun "ertelenmiş hayat" duygusuyla bağını doğrudan sınayan bir çalışma bulunamadı; bağlantı benim yorumum.
 
 **Fakülte.** Mersin'de tek bir fakültede 141 klinik öğrencisinin üçte birinde ölçekle orta düzey depresyon bulunmuş; iki ayrı çalışmada sıkıntı dördüncü sınıfta zirve yapıp beşinci sınıfta düşüyor. [D5-18] [D5-20] Bu, sıkıntının bu sınıflarda yaygın olduğunu gösterir; senin tarif ettiğin his ayrıca ölçülmüş değil.
 
-**Seçim.** Marmara'da diş hekimliği öğrencilerinin yüzde 42'si mesleği yeniden seçeceğini söylüyor. [D3-22] Güvenilen birinin yönlendirmesi ise tek başına zararlı görünmüyor. [D3-19]
+**Seçim.** Marmara'da diş hekimliği öğrencilerinin yüzde 42'si mesleği yeniden seçeceğini söylüyor. [D3-22] Güvenilen birinin yönlendirmesi ise tek başına zararlı görünmüyor: bir deneyde Asya kökenli Amerikalı çocuklar, seçimi güvendikleri biri yaptığında en yüksek içsel güdüyü gösterdi. [D3-19]
 
 **Kuşak.** Üniversite öğrencilerinde mükemmeliyetçilik 1989'dan 2016'ya arttı; en çok artan, başkalarının senden mükemmellik beklediği inancı. [P2-02] Gençlerin algıladığı ebeveyn beklentisi de arttı. [P7-02]
 

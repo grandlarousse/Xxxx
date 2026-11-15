@@ -12,14 +12,14 @@ Ana rapor: `RAPOR.md`. Bu ek, raporun "anlamlandırma" bölümünün uzun hâlid
 - **Budizm** (SN 56.11): acının kaynağı susuzluktur (tanha). Üç türünden biri "olma susuzluğu"dur (bhava-tanha); modern yorumla, bir şey olmaya, bir yere varmaya duyulan susuzluk. [D4-03]
 - **Hadis** (Buhârî 6436; Müslim 1048): "Âdemoğlunun iki vadi dolusu malı olsa üçüncüsünü ister." [P22-04]
 - **Durkheim** (İntihar, 1897, II. kitap 5. bölüm): dışarıdan bir sınır çizilmezse insanın duyarlılığı "hiçbir şeyin dolduramayacağı dipsiz bir uçurum"dur; "ne kadar çok şeye sahip olunursa o kadar çok istenir". [P23-07] [P23-09]
-- **Epikuros** (Temel Öğretiler 18): eksiklik giderildikten sonra haz artmaz, yalnız çeşitlenir. [P17-25]
+- **Epikuros** (Temel Öğretiler 18): bedendeki haz, eksikliğin acısı giderildikten sonra artmaz, yalnız çeşitlenir. [P17-25]
 
 Sana söylediği: "Her şey 10/10 olunca mutlu olacağım" beklentisi bu geleneklerin hepsine göre yanlış kurulmuş bir beklentidir. Senin kendi cümlen de bunu biliyor: "hayatta hiçbir şey aynı anda mükemmel gidemez". Bu küme, bildiğin şeyin neden hissine dönüşmediğini açıklamaz; yalnızca hissin sana özgü bir kusur olmadığını söyler.
 
 ### 2. "Mutluluk doğrudan hedeflenince kaçar"
 
 - **Mill** (Otobiyografi, V. bölüm): "Kendine mutlu olup olmadığını sor, mutlu olmaktan çıkarsın." Mutlu olanlar, zihnini kendi mutluluğundan başka bir nesneye bağlayanlardır. [P4-06]
-- **Frankl** (İnsanın Anlam Arayışı, önsöz): başarı da mutluluk gibi kovalanamaz; kendinden büyük bir işe adanmanın istenmeden gelen yan ürünüdür. [P4-27] (Bu cümle basılı metinden değil, birden çok aktarımdan görüldü.)
+- **Frankl** (İnsanın Anlam Arayışı, önsöz): başarı da mutluluk gibi kovalanamaz; kendinden büyük bir işe adanmanın istenmeden gelen yan ürünüdür. [P4-27]
 - **Schopenhauer** (§38): şeyler istemeden bağımsız seyredildiğinde, arzu yolunda hep kaçan huzur "kendiliğinden gelir". [D4-18]
 
 Bu teşhisin deneysel karşılığı var; ana raporda "hisle ilişki" başlığında anlatılıyor. Mutluluğu istemek iyi oluşla güvenilir biçimde ilişkili değil; mutluluk konusunda kaygılanmak ise daha düşük yaşam doyumu ve daha çok depresif belirtiyle ilişkili. [P3-07]
@@ -60,13 +60,13 @@ Tocqueville'in cümlesi senin 10/10 ve 7/10 örneğine en yakın klasik tariftir
 - **Tolstoy** (İvan İlyiç'in Ölümü, XI): "Ya bütün hayatım, bilinçli hayatım, gerçekte doğru şey değildiyse?" [P21-01]
 - **Hesse** (Demian, motto): "Kendiliğinden içimden çıkmak isteyeni yaşamaya çalışmaktan başka bir şey istemiyordum. Bu neden bu kadar zordu?" [P21-24]
 - **Mevlânâ** (Fîhi Mâ Fîh, 4. fasıl): insan dünyaya belli bir iş için gelir; o iş unutulursa başka ne yapılsa hiçbir şey yapılmamış olur. [P22-22]
-- **Jung** (CW 9i ¶221): persona, "insanın gerçekte olmadığı, ama kendisinin de başkalarının da olduğunu sandığı şey"dir. [D4-09] (İkincil kaynaktan, paragraf numarasıyla görüldü.)
+- **Jung** (CW 9i ¶221): "biraz abartarak" söylersek persona, "insanın gerçekte olmadığı, ama kendisinin de başkalarının da olduğunu sandığı şey"dir. [D4-09] (İkincil kaynaktan, paragraf numarasıyla görüldü.)
 
 Bu küme "sorun ölçme biçiminde değil, yaşanan içerikte" der. Ana raporun dördüncü bölümünde bu açıklama diğer üçüyle karşılaştırılıyor.
 
 ### 7. Bir arıza değil, bir eşik
 
-- **Akedia.** 4. yüzyıl çöl keşişleri bu duyguya deneyimce benzeyen bir hâli ayrıntıyla tarif etti. Evagrius: gün "elli saat sürer gibi" gelir; keşiş bulunduğu yerden, yaşam biçiminden ve el işinden nefret eder. Cassianus: keşiş orada kaldıkça "hiçbir manevi meyve veremediğinden" ve "işe yaramadığından" yakınır. [P24-01] [P24-02] [P24-06] Evagrius'a göre akedia yenildiğinde ruhu "tarifsiz bir sevinç" kaplar. [P24-04] Bu benzerlik deneyim düzeyindedir; akedia dinî bir kusur sayılıyordu ve bugünkü can sıkıntısıyla aynı kavram değildir. [P24-14] Keşişin reçetesi (yerinde kal, çalış) çağrısından emin olan içindir; senin için o soru açık.
+- **Akedia.** 4. yüzyıl çöl keşişleri bu duyguya deneyimce benzeyen bir hâli ayrıntıyla tarif etti. Evagrius: gün "elli saat sürer gibi" gelir; keşiş bulunduğu yerden, yaşam biçiminden ve el işinden nefret eder. Cassianus: keşiş orada kaldıkça "hiçbir manevi meyve veremediğinden" ve "işe yaramadığından" yakınır. [P24-01] [P24-02] [P24-06] Evagrius'a göre onunla mücadelenin ardından ruhu "tarifsiz bir sevinç" kaplar. [P24-04] Bu benzerlik deneyim düzeyindedir; akedia dinî bir kusur sayılıyordu ve bugünkü can sıkıntısıyla aynı kavram değildir. [P24-14] Keşişin reçetesi (yerinde kal, çalış) çağrısından emin olan içindir; senin için o soru açık.
 - **Kuşeyrî** (Risâle): daralma ve genişleme (kabz ve bast) geleceğe değil "şimdiki vakte" ait hâllerdir; hüzün "kalbi dağınıklıktan ve gafletten arındırır". [P22-14] [P22-15] (Farsça çeviriden görüldü.)
 - **Camus** (Sisifos Söyleni): mekanik günler sürerken "bir gün 'neden' belirir ve her şey şaşkınlıkla karışık o usançta başlar". [D4-26]
 - **Jung** (Yaşamın Evreleri, CW 8 ¶771): "Hayatın ciddi sorunları hiçbir zaman tam çözülmez. Çözülmüş görünüyorlarsa bu, bir şeyin yitirildiğinin kesin işaretidir. Bir sorunun anlamı ve amacı çözümünde değil, onun üzerinde durmadan çalışmamızda yatıyor gibidir." [D4-04] [D4-05]
@@ -74,7 +74,7 @@ Bu küme "sorun ölçme biçiminde değil, yaşanan içerikte" der. Ana raporun 
 - **Goethe** (Faust II, son sahne): melekler "durmadan çabalayanı kurtarabiliriz" der ve ardından yukarıdan gelen sevgiyi ekler. [P21-19]
 - **Kur'an ve Mevlânâ.** Ra'd 13:28: "Kalpler ancak Allah'ı anmakla huzur bulur." Mesnevî'nin açılışı: "Kaynağından uzak kalan herkes, kavuşma zamanını yeniden arar." Bu okumada nimet içindeki huzursuzluk bir ölçme hatası değil, yönü olan bir özlemdir. [P4-24] [P4-25]
 
-Bu küme hoşnutsuzluğu susturulacak bir gürültü değil, bir işaret sayar. Sınırı: hoşnutsuzluğu "derinlik" diye sahiplenmek onu sürdürebilir. Sontag'ın uyarısı bunun için: romantik melankoli acıyı ilgi çekici bir kimliğe çevirir. [P21-30] (Yalnız arama özetinde görüldü.)
+Bu küme hoşnutsuzluğu susturulacak bir gürültü değil, bir işaret sayar. Sınırı: hoşnutsuzluğu "derinlik" diye sahiplenmek onu sürdürebilir. Sontag'ın cümlesi burada uyarı işi görür: "Depresyon, cazibesinden arındırılmış melankolidir." [P21-30] (İkincil kaynaktan görüldü.) Melankoliyi çekici bulmak, onu bir kimliğe çevirmenin ilk adımıdır.
 
 ## B. Beş çıkış
 

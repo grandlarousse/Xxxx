@@ -120,13 +120,13 @@ Duygusunu alışkanlıkla bastıranlar daha az olumlu duygu yaşıyor ve bunu "k
 
 ### 18. Sosyal teori
 
-Durkheim: sınır çizilmezse "ne kadar çok şeye sahip olunursa o kadar çok istenir". [P23-09] Tocqueville: her şey neredeyse eşitken en küçük fark göze batar. [P23-04] Ehrenberg: depresyon artık yasak ve suçluluk hastalığı değil, yetersizlik ve sorumluluk hastalığıdır; ama bunun insanların daha çok acı çektiği anlamına gelmediğini kendisi söyler. [P23-16] [P23-18] Rosa: yerinde kalabilmek için her yıl daha hızlı koşmak. [P23-21]
+Durkheim: sınır çizilmezse "ne kadar çok şeye sahip olunursa o kadar çok istenir". [P23-09] Tocqueville: her şey neredeyse eşitken en küçük fark göze batar. [P23-04] Ehrenberg: depresyon, yetersizliğin suçluluğa baskın geldiği bir sorumluluk hastalığıdır; ama bunun insanların daha çok acı çektiği anlamına gelmediğini kendisi söyler. [P23-16] [P23-18] Rosa: yerinde kalabilmek için her yıl daha hızlı koşmak. [P23-21]
 
 **Sınır:** boş zaman uzun dönemde artmış; artan, telaş duygusu. [P23-26] · `P23_sosyal_teori.md`
 
 ### 19. Z kuşağı ve sosyal medya
 
-Gençlerde iyi oluşun düşüşü bazı ülkelerde belgeli ama evrensel değil ve nedeni tartışmalı. [P5-01] Ekran kullanımının iyi oluşla ilişkisi ters yönde ama çok küçük. [P18-29] Türkiye'de 15 yaşındakilerin yaşam doyumu 2015'ten 2022'ye 6,12'den 4,90'a düşmüş; 18–24 yaşta ise mutluluk oranı genel nüfustan düşük değil. [D5-26] [D5-01]
+ABD ve İngiltere verisinde yaklaşık 2011'den beri en kötü durumdaki yaş grubu gençler; örüntü 34 ülkede yinelenmiş (hakem sürecinden geçmemiş bir çalışma). Nedeni tartışmalı. [P5-01] Ekran kullanımının iyi oluşla ilişkisi ters yönde ama çok küçük. [P18-29] Türkiye'de 15 yaşındakilerin yaşam doyumu 2015'ten 2022'ye 6,12'den 4,90'a düşmüş; 18–24 yaşta ise mutluluk oranı genel nüfustan düşük değil. [D5-26] [D5-01]
 
 **Sana uyan:** zayıf. Kuşak, senin tablonu açıklamıyor. · `D5_turkiye_veri_derin.md`
 
