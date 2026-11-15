@@ -62,11 +62,11 @@ Mükemmeliyetçiliğe yönelik bilişsel davranışçı terapinin (BDT) dört bi
 2. **Deney.** Haftada bir işi bilerek 8/10'da bırak. Önce ne olacağını tahmin et, sonra ne olduğunu yaz.
 3. **Kural avı.** "10 değilse başarısız" türü ya hep ya hiç kurallarını yakaladığın yerde yaz.
 
-Amaç standardı düşürmek değil. Yüksek standardın kendisi öz-saygıyla neredeyse ilişkisiz; zarar, değerin o standarda bağlanmasından geliyor. [D2-08] "Beklentini düşür" önerisi de kanıtla desteklenmiyor. [P19-25]
+Amaç standardı düşürmek değil. Yüksek standardın kendisi öz-saygıyla neredeyse ilişkisiz; zarar, değerin o standarda bağlanmasından geliyor. [D2-08] "Beklentini düşür" önerisi de kanıtla desteklenmiyor: eğitim beklentileri üzerine bir ABD çalışmasında yüksek hedeflemenin uzun vadeli duygusal bedeli neredeyse yok. [P19-25]
 
 ### Adım 4. Hisle ilişkini değiştir
 
-- **Yoklamayı bırak.** Mutluluğu istemek zararsız; zarar veren, anlık durumu sürekli "yeterince mutlu muyum" diye yargılamak. [P15-03]
+- **Yoklamayı bırak.** Mutluluğu istemek iyi oluşla güvenilir biçimde ilişkili değil; mutluluk konusunda kaygılanmak ise altı ay sonra daha düşük yaşam doyumu ve daha çok depresif belirtiyle ilişkili. [P3-07]
 - **İki acıyı ayır.** 7/10'un kendi rahatsızlığı bir şeydir, "her şey iyiyken neden hâlâ mutsuzum" yargısı başka bir şey. Çoğu zaman ağır olan ikincisi.
 - **Soyuttan somuta in.** "Neden hâlâ olmam gereken yerde değilim" sorusu soyut ve değerlendiricidir; bu tür tekrarlayan düşünce yıkıcıdır. "Şu an önümdeki adım ne" sorusu somuttur ve yapıcıdır. [P24-25]
 - **Hissi kusur sayma.** Olumsuz duyguyu yargılamadan kabul edenler altı ay sonra daha iyi durumda (gözlemsel bulgu). [D6-22]
@@ -98,7 +98,7 @@ Duygusunu alışkanlıkla saklayan kişi kendini daha az sahici hisseder ve yak�
 ### Terapi seçersen
 
 - Yöntemden çok terapistle kurduğun çalışma ilişkisi sonucu belirler. [P12-22] İlk üç dört seansta bunu tart.
-- Mükemmeliyetçilik kısa tedavilerde sonucu zayıflatır. [P7-07] Hedefin öz-eleştiri ve mükemmeliyetçilik olduğunu baştan söyle.
+- Mükemmeliyetçilik, kısa depresyon tedavilerinde hangi yöntem kullanılırsa kullanılsın daha kötü sonucu öngörmüş. [P12-21] Hedefin öz-eleştiri ve mükemmeliyetçilik olduğunu baştan söyle.
 - Süreğen tablolarda en az 18 seans gerektiği bildirilmiş. [P12-03]
 
 ### Yapma
@@ -126,7 +126,7 @@ Mizaç tarafı: olumsuz duygulara yatkınlık (nevrotiklik) yaşam doyumuyla −
 
 | Katman | Ne bulunmuş | Sendeki karşılığı |
 |---|---|---|
-| **Mizaç zemini** | İyi oluşun kalıtım payı yaklaşık %36–40. [P1-10] Mükemmeliyetçi kaygılar nevrotiklikle güçlü örtüşüyor. [D2-10] | İçerik değişse de süren taban ton |
+| **Mizaç zemini** | İyi oluşun kalıtım payı yaklaşık üçte bir. [P14-21] Mükemmeliyetçi kaygılar nevrotiklikle güçlü örtüşüyor. [D2-10] | İçerik değişse de süren taban ton |
 | **Değerin başarıya bağlanması** | Klinik mükemmeliyetçiliğin özü, kendini değerlendirmenin zorlu standartlara ulaşmaya aşırı bağlanması. [P2-04] Öz-saygı iyi not günü yükselip kötü not günü düşüyor. [D2-29] Başarının getirdiği yükseliş, başarısızlığın getirdiği düşüşten küçük. [D2-30] | 7 olunca yalnız durum değil, sen de düşüyorsun |
 | **Kayan çıta** | Mükemmel olma çabası, başarıdan sonra hedef düzeyini yükseltiyor. [D2-17] Tıp öğrencilerinde başarı çabası altı ay sonra performanstan memnuniyetsizliği öngörüyor. [D2-16] | Mezuniyetin sönük geçmesi |
 | **Referans noktası** | Değer, beklentiye göre kazanç ya da kayıp diye kodlanıyor. [P19-04] Parasal deneylerde kayıp, kazancın yaklaşık iki katı ağır. [P19-01] Anlık mutluluk kazancı değil, beklentiden sapmayı izliyor. [P8-01] | 10 beklenen yerde 7, artı 7 değil eksi 3 |
@@ -147,7 +147,7 @@ Bu satırların çoğu ilişki bulgusudur, neden kanıtı değil. Deneysel olanl
 
 **Sınav zinciri.** Ergenlerde akademik baskı ile ruh sağlığı sorunları arasındaki ilişkiyi inceleyen 52 çalışmanın 48'i olumlu ilişki bulmuş; çoğu kesitsel. [D7-25] LGS, YKS, fakülte ve DUS zincirinde her basamak bir sonrakinin hazırlığı olarak yaşanır. Durkheim'ın cümlesi bunu anlatır: her şeyi gelecekten bekleyen için geçmiş, "sabırsızca geçilmiş aşamalardır". [P23-10] Bu bağlantı benim yorumum; doğrudan sınayan bir çalışma bulunamadı.
 
-**Fakülte.** Sürekli not ve klinik değerlendirme, değeri başarıya bağlı biri için öz-saygının her hafta oynaması demektir. Türkiye'de son sınıf diş hekimliği öğrencilerinde orta düzey depresyon %33, çok şiddetli kaygı %28 bulunmuş; iki çalışmada sıkıntı dördüncü sınıfta zirve yapıp beşinci sınıfta düşüyor. [D5-18] [D5-20] Beş yıl boyunca bu hisle karşılaşman senin sınıfın için olağandışı değil.
+**Fakülte.** Sürekli not ve klinik değerlendirme, değeri başarıya bağlı biri için öz-saygının her hafta oynaması demektir. Mersin'de dördüncü ve beşinci sınıf diş hekimliği öğrencilerinde orta düzey depresyon %33, çok şiddetli kaygı %28 bulunmuş; iki çalışmada sıkıntı dördüncü sınıfta zirve yapıp beşinci sınıfta düşüyor. [D5-18] [D5-20] Beş yıl boyunca bu hisle karşılaşman senin sınıfın için olağandışı değil.
 
 **Seçim.** Marmara'da diş hekimliği öğrencilerinin %42'si mesleği yeniden seçeceğini söylüyor; seçimi en çok aile etkilemiş. [D3-22] [D3-23] Ama ailenin yönlendirmesi tek başına zararlı değil. [D3-19] Belirleyici olan, seçimi bugün benimseyip benimsemediğin.
 
@@ -199,7 +199,7 @@ Ayrıntı ve alıntılar `EK-2_dusunurler_ve_metinler.md` dosyasında. Üç sonu
 
 **Çıkışlar şaşırtıcı ölçüde örtüşüyor.** Jung: "Bir sorunun anlamı çözümünde değil, onun üzerinde durmadan çalışmamızda yatıyor gibidir." [D4-05] Von Franz: önündeki toprağı sür. [D4-13] Russell: mutluluğu "kendimle giderek azalan meşguliyete" borçluyum. [P17-21] Mill: mutluluk başka bir nesneye yönelince gelir. [P4-06] Montaigne: "Bugün hiçbir şey yapmadım. Ne? Yaşamadın mı?" [P17-27]
 
-Dinî gelenek de aynı yere varır: şükür mutlu hissetme zorunluluğu değildir, sıkıntı için öngörülen tavır sabırdır; kanaat, "sevilen şey bulunmadığında gönlün huzuru"dur. [P22-07] [P22-17]
+Dinî gelenek de aynı yere varır: şükür mutlu hissetme zorunluluğu değildir, sıkıntı için öngörülen tavır sabırdır; Kuşeyrî'nin aktardığı bir söze göre kanaat, "sevilen şey bulunmadığında gönlün huzuru"dur. [P22-07] [P22-17]
 
 ### 7. Toplum, kuşak, Türkiye
 
@@ -207,7 +207,7 @@ Dinî gelenek de aynı yere varır: şükür mutlu hissetme zorunluluğu değild
 
 **Sınırı.** Bu teoriler neden senin, sınıf arkadaşından daha yoğun yaşadığını açıklamaz. Ampirik karşılıkları da küçük: depresyon yaygınlığı 1990–2010 arasında artmadı; materyalizmin yaşam doyumuyla ilişkisi zayıf. [P23-25] [P23-27]
 
-**Z kuşağı.** ABD ve İngiltere verisinde gençlerin iyi oluşu yaklaşık 2011'den beri düşüyor. [P5-01] Ama bu evrensel değil ve nedeni tartışmalı; ekran kullanımı ergen iyi oluşundaki farkın en çok %0,4'üyle ilişkili. [P5-23] Türkiye'de tablo farklı: TÜİK'e göre 18–24 yaşta mutlu olduğunu söyleyenler %54,4, genel nüfustan düşük değil. Dünya Mutluluk Raporu'nda Türkiye'nin kendi içinde en mutlu yaş grubu gençler. [D5-01] [D5-25] "Kuşağım mutsuz, ben de öyleyim" açıklaması Türkiye verisiyle desteklenmiyor.
+**Z kuşağı.** ABD ve İngiltere verisinde gençlerin iyi oluşu yaklaşık 2011'den beri düşüyor. [P5-01] Ama bu evrensel değil ve nedeni tartışmalı; ekran kullanımı ergen iyi oluşundaki farkın en çok %0,4'üyle ilişkili. [P18-29] Türkiye'de tablo farklı: TÜİK'e göre 18–24 yaşta mutlu olduğunu söyleyenler %54,4, genel nüfustan düşük değil. Dünya Mutluluk Raporu'nda Türkiye'nin kendi içinde en mutlu yaş grubu gençler. [D5-01] [D5-25] "Kuşağım mutsuz, ben de öyleyim" açıklaması Türkiye verisiyle desteklenmiyor.
 
 **Diş hekimliği.** Burada gerçek bir belirsizlik zemini var. Fakülte sayısı 105, yıllık mezun yaklaşık 7.200. [D5-09] Mezun sayısı 2010'da 950 iken 2022'de 4.607 oldu. [D5-13] 2025'te iki DUS döneminde toplam yaklaşık 1.680 uzmanlık yeri açıldı; bu, bir yılın mezununun dörtte birinden az. [D5-07] İstanbul'da 29 yaş altı diş hekimlerinin %93'ü gelecek kaygısı bildiriyor (meslek odası anketi). [D5-17] Yani "hedefe kilitlenince rahatlama" yalnız psikolojik değil: belirsiz bir zeminde tek bir net hedef, belirsizliği de askıya alıyor.
 
@@ -218,7 +218,7 @@ Dinî gelenek de aynı yere varır: şükür mutlu hissetme zorunluluğu değild
 | Mükemmeliyetçiliğe yönelik BDT | Değerin dayanağı, kayan çıta, dikkat | Mükemmeliyetçilikte orta-büyük, depresyonda orta etki (15 çalışma, 912 kişi) [P6-01] | Karşılaştırmaların hepsi bekleme listesine; aktif tedaviyle karşılaştıran tek çalışma var [D6-05] [D6-09] |
 | Ruminasyon eğitimi | Soyut "neden" döngüsü | Gençlerde 12 ayda depresyon %15'e karşı %32 [D6-16] | Karşılaştırma bekleme listesi |
 | Öz-şefkat çalışması | Öz-eleştiri | Öz-eleştiri ve depresyonda orta etki (27 çalışma) [P6-08] | — |
-| Nevrotikliği hedefleyen birleşik protokol | Mizaç zemini | Nevrotikliği belirti odaklı BDT'den biraz daha çok düşürdü [D1-16] | Kaygı bozukluğu örneklemi |
+| Nevrotikliği hedefleyen birleşik protokol | Mizaç zemini | Nevrotikliği tek tanıya özgü BDT protokollerinden biraz daha çok düşürdü [D1-16] | Kaygı bozukluğu örneklemi |
 | Kabul ve kararlılık terapisi | Hisle ilişki, değerler | Çoğu karşılaştırmaya üstün, BDT'ye üstünlüğü gösterilmedi [P6-07]; deneyimsel alıştırma, gerekçe anlatmaktan güçlü [D6-23] | Mükemmeliyetçilikte tek ve zayıf çalışmalar |
 | Eşik altı belirtide psikoterapi | Belirti | Küçük-orta etki; altı ayda majör depresyon riski azalıyor [D1-09] [D1-10] | — |
 | Başkası için iyilik | Kendine odak | Küçük-orta etki [P15-10]; büyük ön kayıtlı yinelemelerde küçük ya da sıfır [P15-13] | — |

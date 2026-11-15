@@ -22,7 +22,7 @@ Sana söylediği: "Her şey 10/10 olunca mutlu olacağım" beklentisi bu gelenek
 - **Frankl** (İnsanın Anlam Arayışı, önsöz): başarı da mutluluk gibi kovalanamaz; kendinden büyük bir işe adanmanın istenmeden gelen yan ürünüdür. [P4-27] (Bu cümle basılı metinden değil, birden çok aktarımdan görüldü.)
 - **Schopenhauer** (§38): şeyler istemeden bağımsız seyredildiğinde, arzu yolunda hep kaçan huzur "kendiliğinden gelir". [D4-18]
 
-Bu teşhisin deneysel karşılığı var; ana raporda "hisle ilişki" başlığında anlatılıyor. Mutluluğu bir hedef saymak zararsız, anlık durumu sürekli "yeterince mutlu muyum" diye yoklamak zararlı bulunmuş. [P15-03]
+Bu teşhisin deneysel karşılığı var; ana raporda "hisle ilişki" başlığında anlatılıyor. Mutluluğu istemek iyi oluşla güvenilir biçimde ilişkili değil; mutluluk konusunda kaygılanmak ise daha düşük yaşam doyumu ve daha çok depresif belirtiyle ilişkili. [P3-07]
 
 ### 3. "Henüz" kipi: ertelenmiş hayat
 
@@ -41,7 +41,7 @@ Sana söylediği: beş yıllık fakülteyi "geçilecek bir aşama" gibi yaşadı
 - **Russell** (Mutluluğun Fethi, 1930): hedef aldığı şey "görünür bir dış nedeni olmadığı için kaçınılmaz görünen" gündelik mutsuzluktur. Kendi mutluluğunu büyük ölçüde "kendimle giderek azalan meşguliyete" bağlar: "Zamanla kendime ve eksiklerime kayıtsız kalmayı öğrendim." [P17-22] [P17-21]
 - **Dostoyevski** (Yeraltından Notlar): "Fazla bilinçli olmak bir hastalıktır, gerçek, tam bir hastalık." [P21-20]
 - **Pascal** (Düşünceler, Brunschvicg 139): insanın bütün mutsuzluğu bir odada sakin oturamamaktan gelir; oyalanmaya bu yüzden koşarız. [P4-16]
-- **William James** (30 Nisan 1870 günlüğü): bir yıl boyunca kuruntulu düşünmeden uzak durmaya karar verir; "kurtuluş özdeyişlerde değil, biriktirilmiş eylemlerdedir". [P17-10]
+- **William James** (30 Nisan 1870 tarihli defter notu): yılın kalanında kuruntulu düşünmeden uzak durmaya karar verir; "kurtuluş özdeyişlerde değil, biriktirilmiş eylemlerdedir". [P17-10]
 
 Bu küme ile bir önceki arasında gerilim var: Pascal meşguliyeti kaçış sayar, Russell ve James dışa dönük uğraşı çare. Ayrım uğraşın türündedir: kendinden kaçmak için koşulan iş ile ilgi duyulan bir nesneye yönelen iş aynı şey değildir.
 
@@ -72,7 +72,7 @@ Bu küme "sorun ölçme biçiminde değil, yaşanan içerikte" der. Ana raporun 
 - **Camus** (Sisifos Söyleni): mekanik günler sürerken "bir gün 'neden' belirir ve her şey şaşkınlıkla karışık o usançta başlar". [D4-26]
 - **Jung** (Yaşamın Evreleri, CW 8 ¶771): "Hayatın ciddi sorunları hiçbir zaman tam çözülmez. Çözülmüş görünüyorlarsa bu, bir şeyin yitirildiğinin kesin işaretidir. Bir sorunun anlamı ve amacı çözümünde değil, onun üzerinde durmadan çalışmamızda yatıyor gibidir." [D4-04] [D4-05]
 - **Frankl**: ruh sağlığı gerilimsiz bir duruma değil, olunan ile olunması gereken arasındaki belirli bir gerilime dayanır. [P24-21] (Alıntı sitesinden görüldü; basılı sayfa görülmedi.)
-- **Goethe** (Faust II, son sahne): "Durmadan çabalayanı kurtarabiliriz." [P21-19]
+- **Goethe** (Faust II, son sahne): melekler "durmadan çabalayanı kurtarabiliriz" der ve ardından yukarıdan gelen sevgiyi ekler. [P21-19]
 
 Bu küme hoşnutsuzluğu susturulacak bir gürültü değil, bir işaret sayar. Sınırı: hoşnutsuzluğu "derinlik" diye sahiplenmek onu sürdürebilir. Sontag'ın uyarısı bunun için: romantik melankoli acıyı ilgi çekici bir kimliğe çevirir. [P21-30] (Yalnız arama özetinde görüldü.)
 
@@ -83,7 +83,7 @@ Bu küme hoşnutsuzluğu susturulacak bir gürültü değil, bir işaret sayar. 
 | **Hedefin yapısını değiştir** | Setiya; Aristoteles; Spinoza; Rogers | Bitince tükenen (telik) uğraşların yanına, yapılırken tamam olan (atelik) uğraşları koy. İyi, bir durum değil etkinliktir. [P4-03] [P4-05] [D4-19] [P17-29] |
 | **Bağlan ve kal** | von Franz; Jung; Cassianus; James | Doğru işi beklemeden önündeki işe bağlan. Kaçma, hücrende kal, elinle çalış. Kurtuluş biriktirilmiş eylemlerdedir. [D4-12] [D4-13] [P24-08] [P24-09] [P17-10] |
 | **Dışa dön** | Russell; Mill; Frankl | İlgini kendinden başka bir nesneye bağla; duygularını işle (Mill'i sanat çıkardı, yeni bir amaç değil). [P17-21] [P17-05] |
-| **Sınır koy** | Durkheim; Epikuros; Tao Te Ching; Kuşeyrî | Sınırsız hedef, olduğu yerde çırpınmaktır; tanımlı hedef dinlendirir. Kanaat, "sevilen şey bulunmadığında gönlün huzuru"dur. [P23-08] [P17-28] [P22-17] |
+| **Sınır koy** | Durkheim; Epikuros; Tao Te Ching; Kuşeyrî | Sınırsız hedef, olduğu yerde çırpınmaktır; tanımlı hedef dinlendirir. Kuşeyrî'nin aktardığı bir söze göre kanaat, "sevilen şey bulunmadığında gönlün huzuru"dur. [P23-08] [P17-28] [P22-17] |
 | **Kabul et** | Nietzsche; İbn Atâullah; Montaigne; Wittgenstein | "Dünyadayken kederlerin varlığına şaşırma." "Bugün hiçbir şey yapmadım. Ne? Yaşamadın mı?" Yaşam sorununun çözümü, sorunun kaybolmasında görülür. [P22-18] [P17-27] [P17-30] |
 
 Üç not:
@@ -102,7 +102,7 @@ Dördünün ortak noktası, krizin dış koşullar iyiyken gelmesidir.
 
 **Lev Tolstoy (1870'ler, 50 yaş civarı).** Kriz, "tam bir talih" sayılan her şeye (seven bir eş, çocuklar, mülk, ün) sahipken geldi. [P17-17] Soru hep aynıydı: "Gogol'den, Puşkin'den, Shakespeare'den daha ünlü olacaksın. Peki ne olmuş?" [P17-16] Çözümü inançta buldu, ama yaşam gücünün "fark edilmeden ve yavaş yavaş" döndüğünü yazdı. [P17-19]
 
-**Bertrand Russell (ergenlik).** "Hayattan nefret ediyordum ve sürekli intiharın eşiğindeydim; beni alıkoyan, daha çok matematik öğrenme isteğiydi." [P17-20] Sonraki mutluluğunu iki şeye bağladı: kendisiyle azalan meşguliyet ve ulaşılamaz arzulardan vazgeçmek. [P17-21]
+**Bertrand Russell (ergenlik).** "Hayattan nefret ediyordum ve sürekli intiharın eşiğindeydim; beni alıkoyan, daha çok matematik öğrenme isteğiydi." [P17-20] Sonraki mutluluğunu en çok kendisiyle azalan meşguliyete, kısmen de ulaşılamaz bazı arzulardan vazgeçmeye bağladı. [P17-21]
 
 **Bu vakalardan ne taşınabilir, ne taşınamaz.** Mill, James ve Tolstoy'un krizleri ağırdı: zevk alamama, panik, intihar düşüncesi. Senin tablon hafif ve işlevsel; kurtuluş anlarını (bir inanç kararı, bir aydınlanma) birebir taşımak yanlış olur. Taşınabilecek olan yapıdır: (1) çıkış yavaştı, (2) yeni bir büyük hedefle değil, dikkatin ve bağlanmanın yön değiştirmesiyle geldi, (3) somut, süren bir iş belirleyici oldu. Bunlar tek tek hayat öyküleridir ve sonradan yazılmış anlatılardır; James'in kendisi bu tür anlatıların "bütün sırrını açmadığını" söyler. [P17-13]
 

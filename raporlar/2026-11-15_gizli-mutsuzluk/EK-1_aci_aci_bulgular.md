@@ -150,7 +150,7 @@ Yedi teşhis ve beş çıkış Ek 2'de. En keskin oturan iki pasaj: von Franz'ı
 
 ### 23. Hümanist ve varoluşçu psikoloji
 
-Rogers'a göre koşullu ilgi görmüş kişi kendini ancak koşulları sağladığında değerli hisseder. [P16-13] Frankl'a göre insanın ihtiyacı gerilimsiz bir durum değil, değerli bir hedef için çabadır. [P16-22] Maslow'un ünlü sıralaması zayıf destekli: ihtiyaçların iyi oluşa katkısı birbirinden büyük ölçüde bağımsız. [P16-08]
+Rogers'a göre kişi bir yaşantıdan, yalnızca onu kendine değer vermeye daha az layık kıldığı için kaçınıyorsa bir "değer koşulu" edinmiştir. [P16-13] Frankl'a göre insanın ihtiyacı gerilimsiz bir durum değil, değerli bir hedef için çabadır. [P16-22] Maslow'un ünlü sıralaması zayıf destekli: ihtiyaçların iyi oluşa katkısı birbirinden büyük ölçüde bağımsız. [P16-08]
 
 **Sana uyan:** Rogers'ın tarifi, tek eksiğe kilitlenmeyi iyi anlatıyor. **Sınır:** bu kuramlar klinik gözleme dayanır. · `P16_humanist_varoluscu.md`
 

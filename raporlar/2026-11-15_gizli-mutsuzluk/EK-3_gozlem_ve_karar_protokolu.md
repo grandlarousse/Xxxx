@@ -6,7 +6,7 @@ Ana rapor: `RAPOR.md`. Bu ek, raporun 1. adımının uygulama kılavuzudur.
 
 **Üç ilke.**
 
-1. **Gözle, değerlendirme.** Puanlar bir karne değil, veri. "Bugün kaç aldım" diye bakarsan protokol, ölçmeye çalıştığı mekanizmayı besler: anlık durumu "yeterince mutlu muyum" diye yargılamak zararlı bulunmuş. [P15-03]
+1. **Gözle, değerlendirme.** Puanlar bir karne değil, veri. "Bugün kaç aldım" diye bakarsan protokol, ölçmeye çalıştığı mekanizmayı besler: mutluluk konusunda kaygılanmak, daha düşük yaşam doyumu ve daha çok depresif belirtiyle ilişkili bulunmuş. [P3-07]
 2. **Üç hafta, sonra bırak.** Süre bitince kaydı kapat.
 3. **Bu bir test değil.** Tek kişilik, kısa, öz-bildirime dayalı bir gözlem. Sonuç kesinlik vermez, ağırlık verir. Eşikler benim kaba kılavuzumdur, geçerliği sınanmış kesme puanları değildir.
 
