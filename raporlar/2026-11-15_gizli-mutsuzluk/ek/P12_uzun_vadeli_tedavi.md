@@ -1,0 +1,47 @@
+# P12 Süreğen/karakter düzeyi örüntülerde uzun vadeli tedavi kanıtı
+
+araç: ~17/35
+
+## Özet
+Süreğen depresyonda (en az 2 yıl) psikoterapi ve ilaç etkili ama etkiler orta-küçük. Cuijpers 2010: psikoterapi kontrole göre d=0,23; ilaç distimide psikoterapiden iyi (d=-0,31); en az 18 seans. CBASP'ta Keller 2000: kombinasyon %73, tekler %48. Furukawa 2018 (BKV ağ meta-analizi): kombinasyon her iki tekten üstün, tekler benzer. Uzun süreli psikodinamik terapi (LTPP): Leichsenring-Rabung 2008 üstünlük iddia etti, Bhar 2010 hesap hatası ve küçük/heterojen çalışma eleştirisi getirdi; TADS (Fonagy 2015) dirençli depresyonda 42. ayda tam iyileşme %14,9 vs %4,4. Şema terapi: kişilik bozukluklarında RKÇ (Bamelis 2014, n=323) üstün; süreğen depresyonda yalnız küçük kontrolsüz seri, RKÇ yok. Şefkat odaklı terapi: Millard 2023 15 çalışma, öz-eleştiri etkisi 0,15-0,72, kalite çoğunlukla belirsiz. Ortak etkenler: ittifak r=.278; terapist etkisi ~%5-8; kötüleşme medyan %4. Profil (23 yaş, işlevsel, hafif kronik hoşnutsuzluk) bu çalışmaların çoğundan (tanılı süreğen depresyon, tedaviye dirençli) farklı; bulgular doğrudan genellenemez.
+
+## Defter
+| iddia | kaynak URL | alıntı/sayı | güven | kritik |
+|---|---|---|---|---|
+| Süreğen depresyon/distimide psikoterapi kontrole göre küçük etkili | https://research.vu.nl/en/publications/psychotherapy-for-chronic-major-depression-and-dysthymia-a-meta-a/ | "psychotherapy had a small but significant effect (d = 0.23) on depression when compared to control groups." | yüksek | true |
+| Doğrudan karşılaştırmada psikoterapi ilaçtan daha az etkili; bu fark distimi çalışmalarından geliyor | aynı | "Psychotherapy was significantly less effective than pharmacotherapy in direct comparisons (d = - 0.31)" | yüksek | true |
+| En az 18 seans gerekir | aynı | "at least 18 treatment sessions are needed to realize optimal effects of psychotherapy." | yüksek | true |
+| Cuijpers 2010 16 RKÇ'ye dayanıyor; distimi sonucu 5 çalışmaya dayanıyor diye eleştirildi (2008 önceki derleme için) | https://www.psychiatrist.com/jcp/premature-conclusions-psychotherapy-dysthymia | kaynak görülmedi (arama özeti) | düşük | false |
+| Keller 2000: 681 hasta, kombinasyon %73, nefazodon %48, CBASP %48 | https://scholarscompass.vcu.edu/psyc_pubs/29 | "48 percent in both the nefazodone group and the psychotherapy group, as compared with 73 percent in the combined-treatment group" (arama özeti) | orta | true |
+| Furukawa 2018 (3 çalışma, 1.036 katılımcı): kombinasyon etkililik ve kabul edilebilirlikte her iki tekten üstün, tekler benzer; bazı alt gruplarda tek tedavi yeterli | https://boris.unibe.ch/116925 | "combination therapy showed significant superiority over both monotherapies" (arama özeti) | orta | true |
+| Kriston 2014: 15 psikoterapi çalışması, 2.657 hasta; IPT+ilaç, ilaç tek başınaya üstün (kronik majör depresyon), CBASP+ilaç kısmen belirsiz | https://pubmed.ncbi.nlm.nih.gov/24448972/ | "15 trials that tested five psychotherapeutic and five combined interventions" (arama özeti) | orta | false |
+| Negt 2016: CBASP meta-analizi, 6 çalışma, 1.510 hasta, g=0,34-0,44 | https://pmc.ncbi.nlm.nih.gov/articles/PMC4864084 | "g = 0.34–0.44, P < 0.01" (arama özeti) | orta | true |
+| Schramm 2017 RKÇ: CBASP, destekleyici psikoterapiden orta düzeyde üstün (erken başlangıçlı süreğen depresyon, ilaçsız) | https://fis.uke.de/portal/en/publications/effect-of-disorderspecific-vs-nonspecific-psychotherapy-for-chronic-depression(50076ca6-179f-4194-bb4b-ba4f75edbb3a).html | kaynak görülmedi (özet) | orta | false |
+| Distimide antidepresan plasebodan üstün (Levkovitz 2011 RR=1,75); Cochrane (Lima & Moncrieff) SSRI yanıtsızlık RR 0,64, NNT 4,7 | https://www.psychiatrist.com/jcp/efficacy-antidepressants-dysthymia-meta-analysis-placebo/ | "risk ratio = 1.75; 95% CI, 1.49–2.04" (arama özeti) | orta | false |
+| Cochrane aktif karşılaştırma (Silva de Lima & Hotopf 2003): antidepresan sınıfları arasında etkililik farkı yok | https://www.aafp.org/afp/2004/1001/p1269 | kaynak görülmedi (özet) | düşük | false |
+| LTPP (Leichsenring & Rabung 2008): 23 çalışma (11 RKÇ), LTPP daha kısa psikoterapiden üstün | https://fis.uke.de/portal/en/publications/effectiveness-of-longterm-psychodynamic-psychotherapy-a-metaanalysis(ca093096-e1c2-4d1c-af29-2072b0885d08)/export.html | "11 randomized controlled trials and 12 observational studies" (arama özeti) | orta | true |
+| Bhar 2010: etki büyüklüğü hesabı yanlış, küçük/heterojen çalışmalar; üstünlük kanıtı yok | https://pmc.ncbi.nlm.nih.gov/articles/PMC2889262 | "Overall, we found no evidence to support claims of superiority of LTPP over shorter-term methods of psychotherapy." | yüksek | true |
+| Bhar: LTPP kolları çoğunlukla 15-30 hasta, 12 tür karşılaştırma koşulu | aynı | "LTPP was compared to 12 types of comparison-controls" | yüksek | false |
+| Kısa süreli psikodinamik terapi (Driessen 2015): 54 çalışma (33 RKÇ), kontrole göre d=0,49-0,69; diğer psikoterapilerle fark yok (d≈0,14) | https://latam-cl.demo.elsevierpure.com/en/publications/the-efficacy-of-short-term-psychodynamic-psychotherapy-for-depres-3 | "54 studies (33 randomized clinical trials) totaling 3946 subjects" (arama özeti) | orta | true |
+| TADS: dirençli depresyonda 18 ay LTPP+olağan bakım; 42. ayda tam iyileşme %14,9 vs %4,4 | https://repository.tavistockandportman.ac.uk/1096/1/Fonagy_et_al-2015-World_Psychiatry.pdf | "(9.4% in the LTPP group vs. 6.5% in the control group) as well as at 42-month follow-up (14.9% vs. 4.4%)" | orta | true |
+| TADS n=129, tek çalışma, bağımsız replikasyon bulunamadı | aynı | "N=129" | orta | false |
+| Şema terapi kişilik bozukluklarında (kümeC, paranoid, histriyonik, narsisistik) 50 seans, 3. yılda TAU ve klarifikasyon terapisinden üstün iyileşme | https://www.sciencedaily.com/releases/2014/02/140210101955.htm | "A significantly greater proportion of patients recovered in schema therapy" (arama özeti; yüzdeler görülmedi) | orta | true |
+| Şema terapi süreğen depresyon için RKÇ yok; kanıt küçük kontrolsüz seri (Renner 2016) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11022394/ | "no randomized clinical trials currently exist" (özet) | orta | true |
+| Şefkat odaklı terapi (Millard 2023): 15 RKÇ/pilot, öz-eleştiri etkisi 0,15-0,72, 7/15 kalite belirsiz | https://recercat.cat/handle/2445/216627 | "0.15–0.72" (arama özeti) | orta | true |
+| Şefkat odaklı terapi, öz-eleştiride pooled g=0,40 (Petrocchi ve ark. 2023, 47 kontrollü çalışma) | https://diposit.ub.edu/dspace/handle/2445/216627 | kaynak görülmedi (arama özeti) | düşük | false |
+| Mükemmeliyetçilik (Blatt 1995) tüm tedavi kollarında (BDT, IPT, imipramin, plasebo) kötü sonuçla ilişkili; tedaviyle etkileşim yok | https://typeset.io/pdf/when-and-how-perfectionism-impedes-the-brief-treatment-of-287k51pov6.pdf | "consistently significant negative relationships with all the outcome measures in all four treatment conditions" (özet) | orta | true |
+| İttifak-sonuç ilişkisi r=.278 (295 etki büyüklüğü) | https://www.societyforpsychotherapy.org/wp-content/uploads/2018/10/Fluckiger-et-al-2018.pdf | "r .278 (95% confidence intervals [.256, .299]" | yüksek | true |
+| Terapist etkisi ağırlıklı ortalama %5 (RKÇ'lerde %8,2; aralık %0,2-29) | https://eprints.whiterose.ac.uk/138182/ | "weighted average of 5%" (arama özeti) | orta | true |
+| Terapist ve kötüleşme: medyan kötüleşme %4, bazı çalışmalarda >%10; 20 kişide 1 kötüleşme önlenir | https://research.vu.nl/en/publications/negative-effects-of-psychotherapies-for-adult-depression-a-meta-a/ | "The median deterioration rate in the therapy groups was 4%, and in some studies more than 10%." | yüksek | true |
+| Danışan tercihine uyum sonucu iyileştirir, bırakmayı azaltır (Swift 2018); efekt değerleri görülmedi | https://www.scranton.edu/faculty/norcross/Documents/psychotherapy_preferences_2019.pdf | kaynak görülmedi (ikincil özet) | düşük | false |
+| Türkiye: 2020'de 100 bin kişiye 3,43 psikiyatrist ve 5,04 psikolog (Ulusal Ruh Sağlığı Eylem Planı'na atıf) | https://medyascope.tv/2023/01/30/psikolojik-destek-hizmetlerine-erisimi-uzmanlar-anlatiyor-siyasal-ve-toplumsal-degisiklige-ihtiyac-var/ | kaynak görülmedi (arama özeti, birincil belge açılmadı) | düşük | false |
+| Türkiye'de psikolog ruhsatı için aranabilir devlet kaydı yok; özel seans ücretleri yüksek (haberde 400-2000 TL) | https://www.timeturk.com/saglik/turkiye-de-terapi-ucretleri-neden-yuksek/haber-1751791 | kaynak görülmedi (arama özeti) | düşük | false |
+
+## Aykırı kanıt
+Bhar 2010 LTPP üstünlüğünü çürütüyor; Driessen 2015 psikoterapi türleri arasında fark yok; Cuijpers 2010 psikoterapinin distimide ilaçtan zayıf çıktığını gösteriyor; şema terapi süreğen depresyonda RKÇ'siz; TADS tek çalışma; şefkat terapisi çalışmalarının kalitesi çoğunlukla belirsiz.
+
+## Listede olmayanlar
+Kriston 2014'te IPT+ilaç bulgusu; Schramm 2017 (CBASP vs destekleyici, orta üstünlük); Schramm 2011 CBASP vs IPT (görülmedi); Levkovitz 2011 distimi RR 1,75; Petrocchi 2023 g=0,40; DEPRE-ST protokolü (kontrollü şema terapi çalışması sürüyor); Zuroff/Blatt ittifak aracılığı bu oturumda yalnız ikincil özetle görüldü.
+
+## Açık kalanlar
+Cipriani 2018 ve Fournier 2010 bakılmadı (önceki dalga kapsamı dışı değil ama araç bütçesi). Furukawa 2018 ve Keller 2000 birincil özet görülmedi (arama özeti). Baldwin & Imel 2013, Körük & Özabacı, Carter 2013, Leichsenring 2011 doğrulanmadı. Bamelis yüzdeleri görülmedi. Türkiye erişimi için birincil resmi kaynak açılmadı. Hafif/subklinik profil için doğrudan kanıt yok.
