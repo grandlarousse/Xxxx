@@ -9,7 +9,7 @@ Ana rapor: `RAPOR.md`. Bu ek, raporun "anlamlandırma" bölümünün uzun hâlid
 ### 1. "Arzu doymaz": eksiklik yapısaldır
 
 - **Schopenhauer** (İsteme ve Tasarım Olarak Dünya I, §57): istemenin temeli eksiklik ve acıdır; arzu kolay doyunca can sıkıntısı gelir. "Hayat acı ile can sıkıntısı arasında bir sarkaç gibi salınır." [P4-01]
-- **Budizm** (SN 56.11): acının kaynağı susuzluktur (tanha). Üç türünden biri "olma susuzluğu"dur (bhava-tanha): bir şey olmaya, bir yere varmaya duyulan susuzluk. [D4-03]
+- **Budizm** (SN 56.11): acının kaynağı susuzluktur (tanha). Üç türünden biri "olma susuzluğu"dur (bhava-tanha); modern yorumla, bir şey olmaya, bir yere varmaya duyulan susuzluk. [D4-03]
 - **Hadis** (Buhârî 6436; Müslim 1048): "Âdemoğlunun iki vadi dolusu malı olsa üçüncüsünü ister." [P22-04]
 - **Durkheim** (İntihar, 1897, II. kitap 5. bölüm): dışarıdan bir sınır çizilmezse insanın duyarlılığı "hiçbir şeyin dolduramayacağı dipsiz bir uçurum"dur; "ne kadar çok şeye sahip olunursa o kadar çok istenir". [P23-07] [P23-09]
 - **Epikuros** (Temel Öğretiler 18): eksiklik giderildikten sonra haz artmaz, yalnız çeşitlenir. [P17-25]
@@ -39,20 +39,19 @@ Sana söylediği: beş yıllık fakülteyi "geçilecek bir aşama" gibi yaşadı
 ### 4. Kendine gömülme
 
 - **Russell** (Mutluluğun Fethi, 1930): hedef aldığı şey "görünür bir dış nedeni olmadığı için kaçınılmaz görünen" gündelik mutsuzluktur. Kendi mutluluğunu büyük ölçüde "kendimle giderek azalan meşguliyete" bağlar: "Zamanla kendime ve eksiklerime kayıtsız kalmayı öğrendim." [P17-22] [P17-21]
-- **Dostoyevski** (Yeraltından Notlar): "Fazla bilinçli olmak bir hastalıktır, gerçek, tam bir hastalık." [P21-20]
+- **Dostoyevski** (Yeraltından Notlar): "Fazla bilinçli olmak bir hastalıktır, gerçek, tam bir hastalık." Bu, romanın güvenilmez ve alaycı anlatıcısının sözüdür; yazarın hükmü diye okunmamalı. [P21-20]
 - **Pascal** (Düşünceler, Brunschvicg 139): insanın bütün mutsuzluğu bir odada sakin oturamamaktan gelir; oyalanmaya bu yüzden koşarız. [P4-16]
 - **William James** (30 Nisan 1870 tarihli defter notu): yılın kalanında kuruntulu düşünmeden uzak durmaya karar verir; "kurtuluş özdeyişlerde değil, biriktirilmiş eylemlerdedir". [P17-10]
 
-Bu küme ile bir önceki arasında gerilim var: Pascal meşguliyeti kaçış sayar, Russell ve James dışa dönük uğraşı çare. Ayrım uğraşın türündedir: kendinden kaçmak için koşulan iş ile ilgi duyulan bir nesneye yönelen iş aynı şey değildir.
+Bu kümenin içinde çözülmemiş bir gerilim var: Pascal meşguliyeti kaçış sayar, Russell ve James dışa dönük uğraşı çare. "Kaçmak için koşulan iş ile ilgi duyulan bir nesneye yönelen iş aynı şey değildir" diye ayırmak mümkün, ama Pascal bu ayrımı kabul etmezdi: ona göre ciddi iş de oyalanmadır.
 
 ### 5. Kıyas ve en küçük fark
 
-- **Tocqueville** (Amerika'da Demokrasi II, 1840, 2. kısım 13. bölüm): en özgür ve en varlıklı insanları "zevkleri içinde bile ciddi, neredeyse hüzünlü" bulur, çünkü sürekli "sahip olmadıkları üstünlükleri düşünürler". "Her şey neredeyse aynı düzeydeyken en küçük eşitsizlik bile göze batacak kadar belirgindir." Aynı yerde bu manzaranın "dünya kadar eski" olduğunu da söyler. [P23-01] [P23-02] [P23-04] [P23-03]
+- **Tocqueville** (Amerika'da Demokrasi II, 1840, 2. kısım 13. bölüm): en özgür ve en aydın insanları "zevkleri içinde bile ciddi, neredeyse hüzünlü" bulur, çünkü sürekli "sahip olmadıkları üstünlükleri düşünürler". "Her şey neredeyse aynı düzeydeyken en küçük eşitsizlik bile göze batacak kadar belirgindir." Aynı yerde bu manzaranın "dünya kadar eski" olduğunu da söyler. [P23-01] [P23-02] [P23-04] [P23-03]
 - **Russell**: "Karşılaştırmalar üzerinden düşünme alışkanlığı ölümcüldür." [P17-24]
 - **Hadis** (Müslim 2963): "Sizden aşağıda olana bakın, yukarıda olana bakmayın; bu, nimeti küçümsememeniz için daha uygundur." [P22-06]
-- **Kavafis** ("Şehir", 1910): "Yeni yerler bulamayacaksın, başka denizler bulamayacaksın. Şehir peşinden gelecek." [P21-14]
 
-Tocqueville'in cümlesi senin 10/10 ve 7/10 örneğine en yakın klasik tariftir, ama o bunu insanlar arası eşitsizlik için söyler; kendi hayatının alanları arasındaki farka uygulamak bir benzetmedir.
+Tocqueville'in cümlesi senin 10/10 ve 7/10 örneğine en yakın klasik tariftir, ama o bunu insanlar arası eşitsizlik için söyler; kendi hayatının alanları arasındaki farka uygulamak bir benzetmedir. Ona göre yeni olan hissin kendisi değil, bütün bir topluma yayılmasıdır.
 
 ### 6. Yanlış ya da henüz benimsenmemiş yol
 
@@ -67,12 +66,13 @@ Bu küme "sorun ölçme biçiminde değil, yaşanan içerikte" der. Ana raporun 
 
 ### 7. Bir arıza değil, bir eşik
 
-- **Akedia.** 4. yüzyıl çöl keşişleri bu duyguyu ayrıntıyla tarif etti. Evagrius: gün "elli saat sürer gibi" gelir; keşiş bulunduğu yerden, yaşam biçiminden ve el işinden nefret eder. Cassianus: keşiş orada kaldıkça "hiçbir manevi meyve veremediğinden" ve "işe yaramadığından" yakınır. [P24-01] [P24-02] [P24-06] Bu benzerlik deneyim düzeyindedir; akedia dinî bir kusur sayılıyordu ve bugünkü can sıkıntısıyla aynı kavram değildir. [P24-14]
+- **Akedia.** 4. yüzyıl çöl keşişleri bu duyguya deneyimce benzeyen bir hâli ayrıntıyla tarif etti. Evagrius: gün "elli saat sürer gibi" gelir; keşiş bulunduğu yerden, yaşam biçiminden ve el işinden nefret eder. Cassianus: keşiş orada kaldıkça "hiçbir manevi meyve veremediğinden" ve "işe yaramadığından" yakınır. [P24-01] [P24-02] [P24-06] Evagrius'a göre akedia yenildiğinde ruhu "tarifsiz bir sevinç" kaplar. [P24-04] Bu benzerlik deneyim düzeyindedir; akedia dinî bir kusur sayılıyordu ve bugünkü can sıkıntısıyla aynı kavram değildir. [P24-14] Keşişin reçetesi (yerinde kal, çalış) çağrısından emin olan içindir; senin için o soru açık.
 - **Kuşeyrî** (Risâle): daralma ve genişleme (kabz ve bast) geleceğe değil "şimdiki vakte" ait hâllerdir; hüzün "kalbi dağınıklıktan ve gafletten arındırır". [P22-14] [P22-15] (Farsça çeviriden görüldü.)
 - **Camus** (Sisifos Söyleni): mekanik günler sürerken "bir gün 'neden' belirir ve her şey şaşkınlıkla karışık o usançta başlar". [D4-26]
 - **Jung** (Yaşamın Evreleri, CW 8 ¶771): "Hayatın ciddi sorunları hiçbir zaman tam çözülmez. Çözülmüş görünüyorlarsa bu, bir şeyin yitirildiğinin kesin işaretidir. Bir sorunun anlamı ve amacı çözümünde değil, onun üzerinde durmadan çalışmamızda yatıyor gibidir." [D4-04] [D4-05]
 - **Frankl**: ruh sağlığı gerilimsiz bir duruma değil, olunan ile olunması gereken arasındaki belirli bir gerilime dayanır. [P24-21] (Alıntı sitesinden görüldü; basılı sayfa görülmedi.)
 - **Goethe** (Faust II, son sahne): melekler "durmadan çabalayanı kurtarabiliriz" der ve ardından yukarıdan gelen sevgiyi ekler. [P21-19]
+- **Kur'an ve Mevlânâ.** Ra'd 13:28: "Kalpler ancak Allah'ı anmakla huzur bulur." Mesnevî'nin açılışı: "Kaynağından uzak kalan herkes, kavuşma zamanını yeniden arar." Bu okumada nimet içindeki huzursuzluk bir ölçme hatası değil, yönü olan bir özlemdir. [P4-24] [P4-25]
 
 Bu küme hoşnutsuzluğu susturulacak bir gürültü değil, bir işaret sayar. Sınırı: hoşnutsuzluğu "derinlik" diye sahiplenmek onu sürdürebilir. Sontag'ın uyarısı bunun için: romantik melankoli acıyı ilgi çekici bir kimliğe çevirir. [P21-30] (Yalnız arama özetinde görüldü.)
 
@@ -80,17 +80,23 @@ Bu küme hoşnutsuzluğu susturulacak bir gürültü değil, bir işaret sayar. 
 
 | Çıkış | Kim söylüyor | Ne öneriyor |
 |---|---|---|
-| **Hedefin yapısını değiştir** | Setiya; Aristoteles; Spinoza; Rogers | Bitince tükenen (telik) uğraşların yanına, yapılırken tamam olan (atelik) uğraşları koy. İyi, bir durum değil etkinliktir. [P4-03] [P4-05] [D4-19] [P17-29] |
+| **Hedefin yapısını değiştir** | Setiya; Aristoteles | Bitince tükenen (telik) uğraşların yanına, yapılırken tamam olan (atelik) uğraşları koy. İyi, bir durum değil etkinliktir. [P4-03] [P4-05] [D4-19] |
 | **Bağlan ve kal** | von Franz; Jung; Cassianus; James | Doğru işi beklemeden önündeki işe bağlan. Kaçma, hücrende kal, elinle çalış. Kurtuluş biriktirilmiş eylemlerdedir. [D4-12] [D4-13] [P24-08] [P24-09] [P17-10] |
 | **Dışa dön** | Russell; Mill; Frankl | İlgini kendinden başka bir nesneye bağla; duygularını işle (Mill'i sanat çıkardı, yeni bir amaç değil). [P17-21] [P17-05] |
-| **Sınır koy** | Durkheim; Epikuros; Tao Te Ching; Kuşeyrî | Sınırsız hedef, olduğu yerde çırpınmaktır; tanımlı hedef dinlendirir. Kuşeyrî'nin aktardığı bir söze göre kanaat, "sevilen şey bulunmadığında gönlün huzuru"dur. [P23-08] [P17-28] [P22-17] |
-| **Kabul et** | Nietzsche; İbn Atâullah; Montaigne; Wittgenstein | "Dünyadayken kederlerin varlığına şaşırma." "Bugün hiçbir şey yapmadım. Ne? Yaşamadın mı?" Yaşam sorununun çözümü, sorunun kaybolmasında görülür. [P22-18] [P17-27] [P17-30] |
+| **Sınıra bağlan** | Durkheim; Epikuros; Tao Te Ching; Kuşeyrî | Sınırsız hedef, olduğu yerde çırpınmaktır. Durkheim'a göre sınırı kişi tek başına koyamaz; sınır dışarıdan, saygı duyulan bir ölçüden gelir: bir topluluk, bir usta, bir meslek. Kuşeyrî'nin aktardığı bir söze göre kanaat, "sevilen şey bulunmadığında gönlün huzuru"dur. [P23-07] [P23-08] [P17-28] [P22-17] |
+| **Kabul et** | İbn Atâullah; Montaigne; Wittgenstein | "Dünyadayken kederlerin varlığına şaşırma." "Bugün hiçbir şey yapmadım. Ne? Yaşamadın mı?" Yaşam sorununun çözümü, sorunun kaybolmasında görülür. [P22-18] [P17-27] [P17-30] |
+| **Olumla** | Nietzsche | Kabulden farklıdır: zorunlu olanı güzel görmeyi öğrenmek, "yalnız evet diyen olmak" (amor fati). Nietzsche hoşnutluğun sert bir eleştirmenidir; onda hoşnutsuzluk giderilecek değil, kullanılacak bir güçtür. [D4-16] |
+| **Değiştir, kendin ol** | Kierkegaard; Tolstoy; Mevlânâ | His bir çağrıdır; çıkış bir dikkat ayarı değil, hayatın, inancın ya da yapılan işin değişmesidir. [P4-15] [P17-19] [P22-22] |
 
-Üç not:
+İlk dört satır "olduğun yerde kal, tutumu değiştir" yönündedir; son ikisi hissi bir çağrı sayar. Bu iki yön birbiriyle uzlaşmaz ve hangisinin sana ait olduğunu bu metinler söyleyemez.
 
-- **Von Franz'ın çıkışı şaşırtıcı ölçüde sıradandır.** Tedavi eden iş, coşkuyla yapılan iş değildir; "kasvetli bir sabah kendini yataktan atıp sıkıcı işi yeniden ve yeniden ele almak"tır. Jung'un ona aktardığı öğüt: "Boş ver, bulabildiğin ilk toprak parçasını al. Sür ve bir şey ek." [D4-12] [D4-13]
+Beş not:
+
+- **Von Franz'ın çıkışı şaşırtıcı ölçüde sıradandır.** Tedavi eden iş, coşkuyla yapılan iş değildir; "kasvetli bir sabah kendini yataktan atıp sıkıcı işi yeniden ve yeniden ele almak"tır. Jung'un bir danışanına söylediğini hatırladığı öğüt: "Boş ver, bulabildiğin ilk toprak parçasını al. Sür ve bir şey ek." Bu, Jung'un yazılı metni değil, von Franz'ın hatırasıdır. [D4-12] [D4-13] Bu reçete bağlanmaktan kaçan biri içindir. Sen beş yıllık fakülteyi bitirdin ve sınava tam gaz çalıştın; sana uyan kısım olsa olsa "ana bağlanmaya iç ret"tir, onu da daha çok çalışmak vermez.
 - **Nietzsche'nin sınaması teselli değildir.** Şen Bilim §341'deki soru ("Bunu bir kez daha, sayısız kez daha istiyor musun?") bir ölçüttür ve aynı paragraf bu düşüncenin insanı "ezebileceğini" söyler. [D4-14] İşe yarar kullanımı şu: hayatın bugünkü hâli sana "ezici" mi geliyor, yoksa "onaylanabilir ama eksik" mi? İlki yönle, ikincisi kabulle ilgili bir sorundur.
-- **Kierkegaard'ın "dönüşümlü ekim"i bir reçete değildir.** Toprağı değiştirmeyi (yeni şehir, yeni hedef) sahte sonsuzluk sayan ve "sınırlama ilkesi"ni öneren ses, kitabın ironik estetidir. [D4-25] Yine de uyarı yerindedir: ortam değiştirmenin etkisi ana rapordaki verilere göre kısa sürüyor.
+- **Kierkegaard'ın "dönüşümlü ekim"i bir reçete değildir.** Toprağı değiştirmeyi (yeni şehir, yeni hedef) sahte sonsuzluk sayan ve "sınırlama ilkesi"ni öneren ses, kitabın ironik estetidir. [D4-25] Yine de uyarı yerindedir: ortam değiştirmenin etkisi ana rapordaki verilere göre kısa sürüyor. Kavafis aynı şeyi şiirle söyler ("Şehir", 1910): "Yeni yerler bulamayacaksın, başka denizler bulamayacaksın. Şehir peşinden gelecek." [P21-14]
+- **Spinoza'nın tanımı ilerleme okumasını destekler.** Ethica'ya göre sevinç yetkinliğin kendisi değil, "daha büyük bir yetkinliğe geçiş"tir. [P17-29] Bu, duygunun varılan yeri değil gidişi izlediği görüşüyle aynı yöndedir ve "hedefsiz ol" öğüdüne karşı bir sestir.
+- **Durkheim bireye öğüt vermez.** Ona göre sınır dışarıdan gelir. Ana raporun yorumu buna dayanır: sınav zinciri bitince çıtayı koyan kurum da ortadan kalktı.
 
 ## C. Dört vaka: bu duyguyu yaşayıp aşanlar
 
@@ -104,7 +110,7 @@ Dördünün ortak noktası, krizin dış koşullar iyiyken gelmesidir.
 
 **Bertrand Russell (ergenlik).** "Hayattan nefret ediyordum ve sürekli intiharın eşiğindeydim; beni alıkoyan, daha çok matematik öğrenme isteğiydi." [P17-20] Sonraki mutluluğunu en çok kendisiyle azalan meşguliyete, kısmen de ulaşılamaz bazı arzulardan vazgeçmeye bağladı. [P17-21]
 
-**Bu vakalardan ne taşınabilir, ne taşınamaz.** Mill, James ve Tolstoy'un krizleri ağırdı: zevk alamama, panik, intihar düşüncesi. Senin tablon hafif ve işlevsel; kurtuluş anlarını (bir inanç kararı, bir aydınlanma) birebir taşımak yanlış olur. Taşınabilecek olan yapıdır: (1) çıkış yavaştı, (2) yeni bir büyük hedefle değil, dikkatin ve bağlanmanın yön değiştirmesiyle geldi, (3) somut, süren bir iş belirleyici oldu. Bunlar tek tek hayat öyküleridir ve sonradan yazılmış anlatılardır; James'in kendisi bu tür anlatıların "bütün sırrını açmadığını" söyler. [P17-13]
+**Bu vakalardan ne taşınabilir, ne taşınamaz.** Mill, James ve Tolstoy'un krizleri ağırdı: zevk alamama, panik, intihar düşüncesi. Anlattığın tablo işlevsel; ağırlığını uzaktan bilemem. Yine de kurtuluş anlarını (bir inanç kararı, bir aydınlanma) birebir taşımak yanlış olur. Taşınabilecek olan yapıdır: (1) çıkış yavaştı, (2) yeni bir büyük hedefle değil, dikkatin ve bağlanmanın yön değiştirmesiyle geldi, (3) somut, süren bir iş belirleyici oldu. Bunlar tek tek hayat öyküleridir ve sonradan yazılmış anlatılardır; James'in kendisi bu tür anlatıların "bütün sırrını açmadığını" söyler. [P17-13]
 
 ## D. Dört uyarı
 

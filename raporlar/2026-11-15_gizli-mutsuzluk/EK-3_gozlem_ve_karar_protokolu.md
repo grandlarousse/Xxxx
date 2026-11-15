@@ -1,105 +1,126 @@
-# Ek 3. Üç haftalık gözlem ve karar protokolü
+# Ek 3. Üç haftalık kısa kayıt ve okuma kılavuzu
 
-Ana rapor: `RAPOR.md`. Bu ek, raporun 1. adımının uygulama kılavuzudur.
+Ana rapor: `RAPOR.md`. Bu ek, raporun 2. adımının uygulama kılavuzudur.
 
-**Amaç.** Raporda dört açıklama var: mizaç zemini (H1), ölçme biçimi (H2), yol ve anlam (H3), hisle kurulan ilişki (H4). Dördünü savunan araştırmacıların ortak itirazı şuydu: hiçbir şey ölçülmedi. Bu protokol, hangisinin sende ne kadar işlediğini üç haftada kendi gözleminle ayırmak için.
+**Amaç.** Raporda beş okuma var: mizaç, tartma alışkanlığı, yol ve anlam, hisle kurulan ilişki, kısmen yerinde bir değerlendirme. Hiçbiri sende ölçülmedi. Bu kayıt, hangisinin ağır bastığına dair ipucu toplamak için.
 
-**Üç ilke.**
+**Dört ilke.**
 
-1. **Gözle, değerlendirme.** Puanlar bir karne değil, veri. "Bugün kaç aldım" diye bakarsan protokol, ölçmeye çalıştığı mekanizmayı besler: mutluluk konusunda kaygılanmak, daha düşük yaşam doyumu ve daha çok depresif belirtiyle ilişkili bulunmuş. [P3-07]
-2. **Üç hafta, sonra bırak.** Süre bitince kaydı kapat.
-3. **Bu bir test değil.** Tek kişilik, kısa, öz-bildirime dayalı bir gözlem. Sonuç kesinlik vermez, ağırlık verir. Eşikler benim kaba kılavuzumdur, geçerliği sınanmış kesme puanları değildir.
+1. **Gözle, not verme.** Puanlar karne değil, veri. Mutluluk konusunda kaygılanmak, daha düşük yaşam doyumu ve daha çok depresif belirtiyle ilişkili bulunmuş. [P3-07] Bu kayıt, bırakmanı isteyeceğim şeyin kısa ve bilinçli bir dozu; bu yüzden kısa.
+2. **Üç hafta, sonra bırak.**
+3. **Eksik gün doldurulmaz.** Kaçırdığın günü geçmişe dönük yazma; eksik kayıt da veridir. Bunu 10/10 tutmaya çalışma.
+4. **Bu bir test değil.** Tek kişilik, kısa, öz-bildirime dayalı bir gözlem. Bir açıklamayı güçlendirir, kanıtlamaz. Klinik kuşkuyu artırabilir, ortadan kaldıramaz; kesin yanıtı klinik görüşme verir. Aşağıdaki eşikler benim kaba kılavuzumdur.
 
-## A. Günlük kayıt
+## A. Asgari sürüm (günde iki dakika)
 
-Telefonda bir not ya da tablo yeter. Toplam süre günde üç dört dakika.
+**Gün içinde iki kez** (alarm kur, saatleri her gün biraz kaydır): o anki duygun 0–10 ve tek kelimeyle ne yaptığın.
 
-**Gün içinde üç kez** (alarm kur; saatleri her gün biraz kaydır):
+**Akşam tek satır:** bugün takıldığın alan ya da "yok". Takıldıysan üç şey: o alanın kendisi ne kadar rahatsız etti (0–10); "bu his olmamalı, neden hâlâ var" düşüncesi ne kadar rahatsız etti (0–10); his belirginleştiğinde ne kadar sürdü (dakikalar, saatler, bütün gün). Sonuna dün gecenin yatış ve kalkış saati.
 
-| # | Soru | Yanıt |
-|---|---|---|
-| 1 | Şu an nasıl hissediyorum? | 0–10 |
-| 2 | Ne yapıyorum? | **D**: değer verdiğim için seçtiğim iş · **İ**: ilerlemesi ölçülen ama önemsemediğim iş · **O**: yalnız oyalayan iş (dizi, telefon, oyun) · **Z**: zorunlu iş · **B**: boş |
-| 3 | Zihnim yaptığım işte mi? | E / H |
+Telefon notuna kopyalayabileceğin kalıp:
 
-**Akşam** (iki dakika):
+```
+Pzt | 11:40 6 ders | 17:15 4 telefon | akşam: kariyer, alan 5, olmamalı 7, saatler | uyku 01:00–08:30
+```
 
-| # | Soru | Yanıt |
-|---|---|---|
-| 4 | Hayatım olması gereken yerde mi? | 0–10 |
-| 5 | Bugün takıldığım alan | tek kelime ya da "yok" |
-| 6a | Takıldıysam: o alanın kendisi ne kadar rahatsız etti? | 0–10 |
-| 6b | "Bu his olmamalı, neden hâlâ var" düşüncesi ne kadar rahatsız etti? | 0–10 |
-| 7 | Bugün kişi olarak kendimi nasıl görüyorum? | 0–10 |
-| 8 | Dün gece yatış ve kalkış saati | saat |
-| 9 | "Şu olunca asıl hayat başlayacak" türü bir cümle kurdum mu? | E / H, konu |
+## B. Haftada bir (pazar akşamı, üç soru)
 
-## B. Haftada bir
+1. Bu hafta en çok takıldığım gün yalnız durum mu kötü göründü, yoksa kendime bakışım da mı düştü?
+2. Bu hafta "şu olunca asıl hayat başlayacak" türü bir cümle kurdum mu? Ne hakkında?
+3. His bu hafta en çok ne zaman geldi: sakin ve iyi giden günlerde mi, yorgun ve sıkışık günlerde mi?
 
-- **PHQ-9.** Dokuz soruluk depresyon tarama formu; Türkçe geçerlik çalışması var. [D1-23] Toplam puanı ve dokuzuncu sorunun (kendine zarar verme düşüncesi) yanıtını yaz.
-- **Beş hedef, dört neden.** Şu an peşinde olduğun beş hedefi yaz. Her biri için dört nedeni 1–7 arasında puanla: "başkaları istediği için", "yapmazsam kötü hissedeceğim için", "değer verdiğim için", "keyif aldığım için". İlk ikisi yüksekse hedef dışarıdan taşınıyor, son ikisi yüksekse senin. İyi oluş getirisi, hedefe ulaşmaktan çok ikinci türden hedefler için çabalarken biriken yaşantılardan geliyor. [D3-11]
+## C. İstersen ekle
 
-## C. Bir kez yapılacaklar
-
-| Ne | Nasıl | Neyi ayırır |
-|---|---|---|
-| **Mill'in sorusu** | Birinci ve üçüncü hafta yazılı yanıtla: "Bütün hedeflerim şu an gerçekleşse bu his kalıcı olarak geçer mi?" [P17-01] | "Hayır, başka bir şey bulurum" ise ölçme biçimi; "evet, şu tek alan düzelirse" ise içerik |
-| **Gözlemci puanı** | Seni iyi tanıyan iki kişiye sor: "Beni ne kadar endişeli, karamsar, alıngan görüyorsun?" 1–5 | Onlar da yüksek görüyorsa mizaç zemini; sakin görüyorlarsa sıkıntı iç değerlendirmede |
-| **Yaşıt sorusu** | İki üç yaşıt arkadaşa sor: "Her şey yolundayken 'zaman geçiyor, olmam gereken yerde değilim' hissini bilir misin?" | Çoğu biliyorsa fark hisste değil, hisle ilişkide |
-| **Vekil görüşme** | Senden üç beş yıl önde iki üç diş hekimiyle (uzman ve genel) konuş: "Sıradan bir günün nasıl geçiyor, o gün ne hissediyorsun?" [P20-10] | O günü hayal edince "bu benim değil" ağırlığı geliyorsa içerik işareti |
-| **Aile sorusu** | Kendine sor, mümkünse bir kardeşe ya da yakın akrabaya da: "Bizde başarı ilgiyle, başarısızlık ilginin geri çekilmesiyle mi karşılanırdı?" | Koşullu ilgi örüntüsü. Hatırlama yanıltıcı olabilir, yanıtı temkinle tut |
+- **PHQ-9, başta ve sonda birer kez.** Dokuz soruluk depresyon tarama formu. Türkçe güvenirlik çalışması var; Türkçe örneklemde tanısal kesme puanını bu oturumda doğrulayamadım. [D1-23]
+- **Beş hedef, dört neden (bir kez).** Peşinde olduğun beş hedefi yaz. Her biri için dört nedeni 1–7 arasında puanla: "başkaları istediği için", "yapmazsam kötü hissedeceğim için", "değer verdiğim için", "keyif aldığım için". İyi oluş getirisi, hedefe ulaşmaktan çok, kendi hedefin için çabalarken biriken yaşantılardan geliyor. [D3-11]
+- **Gündüz kaydına iki ek:** zihnim yaptığım işte miydi (E/H); hafta sonunda, puanlara bakmadan, etkinlikleri üçe ayır: değer verdiğim için yaptığım, ilerlemesi ölçülen ama önemsemediğim, yalnız oyalayan.
 
 ## D. Üçüncü hafta denemesi
 
-İlk iki hafta his geldiğinde her zaman yaptığını yap. Üçüncü hafta şunu dene:
+İlk iki hafta his geldiğinde her zaman yaptığını yap. Üçüncü hafta üç hareketi dene:
 
-1. His gelince adını koy: "O his yine geldi."
+1. Adını koy: "O his geldi."
 2. Nedenini çözmeye, plan yapmaya, düzeltmeye çalışma.
 3. Dikkatini o an elindeki somut işe geri getir.
 
-Her nöbetin yaklaşık süresini ve şiddetini (0–10) not et. İlk iki haftayla karşılaştır.
+Akşam satırındaki süre notunu ilk iki haftayla karşılaştır. Bu kontrolsüz bir karşılaştırmadır; ipucu verir, kanıt vermez.
 
-## E. Karar tablosu
+## E. Görüşmeler (hiçbiri zorunlu değil)
 
-Üç haftanın sonunda verilere bir kez, sakin bir saatte bak.
+Hissini açıklamadan yapabileceklerin ilk ikisidir.
 
-| # | Neye bak | Ne görürsen | Hangi açıklama güçlenir |
-|---|---|---|---|
-| 1 | Anlık duygu ortalaması (soru 1) ile akşam yargısı ortalaması (soru 4) | Anlık duygu belirgin yüksek (iki puan ve üstü fark) | H2 ve H4: sorun ölçmede |
-| | | Anlık duygu da düşük ya da donuk, değerlendirme anları dışında da | H1 |
-| 2 | Takıldığın alanların listesi (soru 5) | Alan kayıyor: o gün hangisi düşükse orası | H2 |
-| | | Hep aynı küme: meslek, yön, zaman, "asıl hayat" | H3 |
-| | | Belli bir alan yok, ton genel | H1 |
-| 3 | Etkinlik türüne göre anlık duygu (soru 2) | D belirgin biçimde en yüksek | H3: içerik önemli |
-| | | İ de D kadar iyi | H2: ilerleme sinyali |
-| | | O da aynı ölçüde iyi | H1: dolu dikkat yetiyor |
-| 4 | 6a ile 6b | 6b çoğu gün 6a'ya eşit ya da büyük | H4: asıl yük ikinci katman |
-| | | 6a baskın ve alan hep aynı | H3 |
-| 5 | Takıldığın günlerde kendine bakışın (soru 7) | Takıldığın gün belirgin düşüyor | H2: değer başarıya bağlı |
-| | | Sabit kalıyor | H4 ya da H1 |
-| 6 | Zihnin işteyken ve değilken anlık duygu (soru 3) | Zihin işte değilken belirgin düşük | Dikkat mekanizması; Adım 7 |
-| 7 | Uyku ile ertesi günün duygusu (soru 8) | Kısa ya da kaymış uykudan sonra belirgin düşük | Bedensel katkı; önce uykuyu düzelt |
-| 8 | Hissin zamanlaması | Sakin, iyi günlerde ve başarı sonrasında artıyor | H4 ve H2 |
-| | | Stresli, yorgun günlerde artıyor | H1 |
-| 9 | Üçüncü hafta denemesi | Nöbetler belirgin kısaldı | H4; Adım 4 işliyor |
-| | | Fark yok | H1 ya da H3 |
-| 10 | PHQ-9 | Üç haftada da 10 ve üstü, ya da dokuzuncu soruya "hiç" dışında yanıt | Değerlendirme görüşmesine git |
-| 11 | "Asıl hayat" cümleleri (soru 9) | Sık ve hep aynı konuda | H3 ve "geçici hayat" |
+**O yolu yaşayana sor.** Senden üç beş yıl önde iki üç diş hekimiyle (uzman ve genel) konuş: "Sıradan bir günün nasıl geçiyor? Hangi kısmı sana iyi geliyor, hangisi yoruyor?" Kendi hayaline değil, onların anlattığı duyguya bak. Küçük deneylerde, bir şeyi yaşamış birinin bildirdiği duygu, kişinin kendi tahmininden daha isabetli çıkmış. [P20-10]
 
-## F. Dört olası sonuç
+**Yaşıt sorusu.** İki üç yaşıt arkadaşa: "Her şey yolundayken 'zaman geçiyor, olmam gereken yerde değilim' hissini bilir misin?"
 
-**1. Değerlendirme ağırlıklı.** Anlık duygu iyi, akşam yargısı düşük; alan kayıyor; takıldığın gün kendine bakışın düşüyor. Tarifine en çok uyan sonuç bu. Raporun 3. ve 4. adımlarına ağırlık ver.
+**Mill'den uyarlanan soru.** John Stuart Mill kendine şunu sormuştu: "Hayattaki bütün amaçların gerçekleşse, bu sana büyük bir sevinç ve mutluluk verir miydi?" [P17-01] Aynı soruyu yazılı yanıtla. "Hayır" yanıtı tek başına bir şey ayırmaz; ardından sor: "Hedefler tümüyle bana ait olsaydı yanıt değişir miydi?" Değişiyorsa sorun hedeflerin içeriğinde, değişmiyorsa tartıda olabilir.
 
-**2. İkinci katman ağırlıklı.** 6b baskın; his iyi günlerde artıyor; üçüncü hafta denemesi nöbetleri kısaltıyor. 4. ve 7. adımlara ağırlık ver. Mükemmeliyetçilik çalışmasını yeni bir "kendimi düzeltme projesi"ne çevirmemeye dikkat et.
+**Kendine sorulacak soru.** "İyi bir sonuç aldığımda kendimi daha sevilmeye değer hisseder miydim?"
 
-**3. İçerik işareti.** Alan hep aynı ve meslekle ya da yönle ilgili; değerinle seçtiğin işler belirgin biçimde daha iyi geliyor; vekil görüşmelerde "bu benim değil" ağırlığı geliyor. 5. adıma ağırlık ver. Bu sonuç "mesleği bırak" demek değildir: önce mesleğin içinde değer verdiğin kısmı büyütmeyi dene; yön değişikliğini küçük, geri alınabilir deneylerle sına. Gönüllü iş değişikliğinin getirdiği doyum kısa sürüyor. [P20-15]
+**Gözlemci (isteğe bağlı).** Seni iyi tanıyan birine: "Beni ne kadar endişeli ya da karamsar görüyorsun?" Sakin görmeleri bir şey söylemez, çünkü his içeride. Yalnız "evet, ben de görüyorum" yanıtı bilgi verir.
 
-**4. Süreğen duygu durumu.** Anlık duygu günlerin çoğunda düşük; uyku, enerji, iştah ya da odak aylardır bozuk; PHQ-9 yüksek; yakınların da seni karamsar görüyor. Raporun 2. adımını bekletme. Eşik altı belirtilerde bile psikoterapi yararlı bulunmuş ve majör depresyon riskini azaltıyor. [D1-09] [D1-10]
+## F. Üç hafta sonunda: dört sayı
 
-Gerçek hayatta sonuç çoğu zaman karışık çıkar. O durumda 4. adımla başla (maliyeti en düşük, zararı en az), 3. adımı ekle.
+Kaydından şu dört sayıyı çıkar:
 
-## G. Sınırlar
+1. İki anlık puanın ortalaması **kaç günde 4 ve altında**?
+2. Takıldığın alanların listesi: **kaç farklı alan** var, en sık olan kaç kez geçiyor?
+3. **Kaç akşam** "olmamalı" puanı, alan puanına eşit ya da ondan büyük?
+4. Altı saatten kısa ya da iki saatten fazla kaymış gecelerin **ertesi günü** ile öteki günlerin duygu ortalaması.
 
-- Üç hafta kısa bir süre; DUS'un hemen sonrasına denk geliyor. Mezuniyet sonrası ilk yıl, mezunların üçte birinin bir gelişimsel kriz bildirdiği bir dönem. [D3-04] Sonuçları bu döneme özgü olabilecek veriler olarak oku.
-- Kendini izlemek duyguyu değiştirebilir. Kayıt tutarken belirgin biçimde kötüleşirsen bırak.
-- Bu kaydı bir klinisyene götürürsen görüşmeyi çok kolaylaştırır.
+## G. Ne söylerler
+
+Her gözlemin altında, aynı sonucun başka hangi okumalarla da uyumlu olduğu yazıyor. Tek bir gözlem hiçbir okumayı tek başına seçmez.
+
+**Gün içi duygu.**
+Günlerin yarısından çoğunda 4 ve altında ya da donuksa: mizaç ve süreğen duygu durumu okuması güçlenir. Raporun 1. adımındaki görüşmeyi erteleme.
+Çoğu gün iyiyse: bu okuma zayıflar ama ortadan kalkmaz. Öteki okumalar arasında ayrım yapmaz.
+
+**Takıldığın alan.**
+Kayıyorsa, yani o gün hangi alan düşükse oraya gidiyorsa: tartma alışkanlığı güçlenir. Aynı gözlem mizaç ve "isteğin yapısı" okumalarıyla da uyumludur. Ayırıcı ipucu: kayma başarıyla ilgisiz konulara da (sağlık, küçük aksilikler) gidiyorsa mizaç lehinedir.
+Hep aynı kümedeyse ve yolla ilgiliyse (meslek, yön, zaman, "asıl hayat"): yol ve anlam okuması güçlenir.
+
+**İki puan.**
+"Olmamalı" puanı çoğu akşam alan puanına eşit ya da büyükse: asıl yük hisle kurulan ilişkidedir. Raporun 3. adımındaki üç hareket ilk iştir.
+Alan puanı baskınsa ve alan hep aynıysa: yol ve anlam.
+
+**Kendine bakış (haftalık 1. soru).**
+Takıldığın gün kendine bakışın da düşüyorsa: değerin başarıya bağlı olduğu varsayımı güçlenir. Düşük kendine güven depresif bir belirti de olabilir; bu gözlem mizaç okumasıyla da uyumlu.
+Düşmüyorsa: bu varsayım zayıflar; tartma alışkanlığı açıklaması "yüksek beklenti ve dikkat" ile sınırlı kalır.
+
+**Zamanlama (haftalık 3. soru).**
+His sakin ve iyi günlerde, "mutlu olmam gerekirken" artıyorsa: hisle ilişki ve tartı. Yorgun ve sıkışık günlerde artıyorsa: mizaç. Bu zayıf bir ipucudur.
+
+**"Asıl hayat" cümleleri (haftalık 2. soru).**
+Sık ve hep aynı konudaysa: yol ve anlam; "geçici hayat" tarifi.
+
+**Uyku.**
+Kötü gecelerin ertesi günü belirgin düşükse: önce uykuyu düzelt, sonra yeniden bak.
+
+**Üçüncü hafta denemesi.**
+Süreler belirgin kısaldıysa: hisle ilişki okuması güçlenir ve bu hareketler sende işliyor demektir. Fark yoksa bir şey ayırmaz.
+
+**Görüşmeler.**
+Hekimlerin anlattığı günün hiçbir kısmı sana çekici gelmiyorsa: içerik işareti. Çekici kısımlar varsa ama his sürüyorsa: tartı ya da hisle ilişki.
+
+**PHQ-9 (doldurduysan).**
+Tek ölçümde 15 ve üstü: üç haftayı bekleme, randevu al. İki ölçümde de 10 ve üstü: değerlendirmeye git. İkisinde de 5–9: süreğen, eşik altı bir belirti düzeyi olabilir; bir kez değerlendirme makul. 0–4: şu an depresif bir dönem olasılığını düşürür, beş yıldır süren his sorusunu yanıtlamaz, çünkü form son iki haftaya bakar. Form tek başına yaygınlığı yaklaşık iki kat fazla gösterir; yüksek puan tanı değildir, düşük puan da aklamaz. [D1-22]
+Dokuzuncu soru: ölmüş olmayı isteme ya da kendine zarar verme düşüncesi "hiç" dışında bir yanıtsa, bunu güvendiğin birine söyle ve birkaç gün içinde psikiyatri randevusu al. Bir plan, niyet ya da kendini güvende tutamama duygusu varsa hemen 112'yi ara ya da acil servise git.
+
+## H. Olası sonuçlar
+
+**Tartı ağırlıklı.** Duygu çoğu gün iyi, alan kayıyor, takıldığın gün kendine bakışın düşüyor. Raporun 3. adımındaki "kuralı sına" işine ağırlık ver.
+
+**Hisle ilişki ağırlıklı.** "Olmamalı" puanı baskın, his iyi günlerde artıyor, üçüncü hafta denemesi süreleri kısaltıyor. 3. adımdaki üç harekete ağırlık ver. Bunu yeni bir "kendimi düzeltme projesi"ne çevirme.
+
+**İçerik işareti.** Alan hep aynı ve yolla ilgili; değer verdiğin için yaptığın işler belirgin biçimde daha iyi geliyor; görüşmelerde hiçbir kısım çekici gelmiyor. Raporun 4. adımında sırayı çevir: önce görüşmeler ve küçük denemeler. Bu sonuç "mesleği bırak" demek değildir; önce mesleğin içinde değer verdiğin kısmı büyütmeyi dene.
+
+**Süreğen duygu durumu.** Duygu günlerin çoğunda düşük; uyku, enerji, iştah ya da odak aylardır bozuk. Raporun 1. adımındaki görüşmeyi bekletme. Eşik altı belirtilerde bile psikoterapi küçük-orta düzeyde yararlı bulunmuş. [D1-09]
+
+**Karışık.** Gerçek hayatta en sık çıkan sonuç. 3. adımdaki üç hareketle başla; maliyeti en düşük, zararı en az olan o.
+
+## I. Durdurma kuralı ve sınırlar
+
+- **Durdur:** kayıt iki gün üst üste yarım saatten uzun düşünme başlatıyorsa, uykunu bozuyorsa ya da puanların ilk haftaya göre belirgin düşüyorsa bırak ve raporun 1. adımındaki listeye bak.
+- **Pencere dar.** Üç hafta kısa; DUS'un hemen sonrasına ve büyük olasılıkla sonuç bekleme haftalarına denk geliyor. Mezuniyet sonrası ilk yıl, mezunların üçte birinin bir gelişimsel kriz bildirdiği bir dönem. [D3-04] Ayrıca bu pencere, hissin en yoğun olduğunu söylediğin koşulu (sürekli değerlendirilmeyi) içermiyor. "Bir şey çıkmadı" sonucu bu yüzden bilgi taşımaz.
+- **Bu kaydı görüşmeye götür.** Klinik soru burada değil, orada yanıtlanır.

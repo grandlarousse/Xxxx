@@ -10,7 +10,7 @@ Buradaki bulgular grup ortalamalarıdır. "Sana uyan" satırları tanı değil, 
 
 Süreğen depresif bozukluk (eski adıyla distimi) en az iki yıl, günlerin çoğunda çökkün duygu durumu ve altı belirtiden en az ikisini ister; iki aydan uzun belirtisiz dönem olmamalıdır. [D1-04] Ölçüt "belirgin sıkıntı ya da işlev bozulması"dır. [D1-03] Klinik örneklemlerde on yılda iyileşme oranı %74, iyileşenlerde yeni bir süreğen depresyon dönemi riski %71. [D1-06] Hafif ve eşik altı tablolarda kılavuzun ilk önerisi en az müdahaleci seçenektir; antidepresan rutin ilk basamak değildir. [D1-19]
 
-**Sana uyan:** süre ve gizlilik. **Uymayan:** yakınman duygu değil değerlendirme dilinde ve günlerin aktif geçiyor. Hangisi olduğunu ancak kayıt ve görüşme ayırır. · `D1_klinik_derin.md`
+**Sana uyan:** süre ve hissin örtük olması. Tarifinde hem duygu dili ("içimde hep bir mutsuzluk") hem yargı dili ("vakit harcanıyor") var; hangisinin ağır bastığını ancak görüşme söyler. · `D1_klinik_derin.md`
 
 ### 2. Mizaç ve kalıtım
 
@@ -30,13 +30,13 @@ En güçlü aday uyku: uyku kaybı olumlu duyguyu büyük ölçüde azaltır, ol
 
 Mükemmeliyetçiliğin iki yüzü var. "Kaygılar" (hata korkusu, yetmeme duygusu) depresyon ve kaygıyla orta düzeyde, "çabalar" (yüksek standart) küçük düzeyde ilişkili. [D2-07] Standart ile ulaşılan arasındaki algılanan fark ölçeği iki parçaya ayrılıyor: saf fark ve süreğen memnuniyetsizlik. [D2-12] Ya hep ya hiç düşünmek, olumsuz mükemmeliyetçiliği en iyi öngören değişken. [D2-04] Mükemmeliyetçi kaygılar, küçük aksilikleri büyüten yorumlar ve geçmişi kabullenme güçlüğü ile birlikte depresif belirtiye gidiyor. [D2-21]
 
-**Sana uyan:** işlevin tam, standardın yüksek, doyumun eksik; bu "çaba artı süreğen memnuniyetsizlik" bileşimine benziyor. **Sınır:** bu ilişkilerin yönü tartışmalı; kaygılar depresif durumun sonucu da olabilir. [D2-05] [D2-06] · `D2_mukemmeliyetcilik_derin.md`
+**Sana uyabilir:** işlevin tam, standardın yüksek, doyumun eksik; bu "çaba artı süreğen memnuniyetsizlik" bileşimine benzeyebilir. **Sınır:** bu ilişkilerin yönü tartışmalı; kaygılar depresif durumun sonucu da olabilir. [D2-05] [D2-06] · `D2_mukemmeliyetcilik_derin.md`
 
 ### 5. Beklenti ve referans noktası
 
 Değer mutlak düzeye göre değil, yakın geçmişteki beklentiye göre kodlanır. [P19-04] Gelir arttıkça gelir özlemi de artar ve yüksek özlem, diğer koşullar aynıyken doyumu düşürür. [P19-05] [P19-06] Gençler gelecekteki yaşam doyumlarını sistematik olarak fazla tahmin eder: 21 yaşında yaklaşık yüzde on. [P19-09] Gümüş madalyalının hayal kırıklığı, beklentisinin bronz alandan yüksek olmasından gelir. [P19-19]
 
-**Sana uyan:** "olmam gereken nokta" büyük olasılıkla fazla iyimser bir geçmiş tahmindir. **Kendine sor:** 7/10 dediğim alan için kafamda "şu yaşta şurada olmalıydım" diye bir takvim var mı; o takvimi kim yazdı? · `P19_beklenti_referans.md`
+**Sana uyabilir:** "olmam gereken nokta" fazla iyimser bir geçmiş tahmin olabilir. **Kendine sor:** 7/10 dediğim alan için kafamda "şu yaşta şurada olmalıydım" diye bir takvim var mı; o takvimi kim yazdı? · `P19_beklenti_referans.md`
 
 ### 6. Tahmin hatası ve dikkat
 
@@ -46,7 +46,7 @@ Bir laboratuvar görevinde anlık mutluluk kazancı değil, beklentiyi ve beklen
 
 ### 7. Hissi ölçmek
 
-Mutluluğa değer vermeye yönlendirilen kadınlar mutlu bir filmde daha az olumlu duygu yaşadı; hüzünlü filmde fark olmadı. [P15-01] Mutluluğu istemek iyi oluşla güvenilir biçimde ilişkili değil; mutluluk konusunda kaygılanmak ise altı ay sonra daha düşük yaşam doyumu ve daha çok depresif belirtiyle ilişkili. [P3-07] Mutluluk arayışı ABD'de düşük, Rusya ve Doğu Asya'da yüksek iyi oluşu öngörüyor; farkı, mutluluğun başkalarıyla birlikte aranması açıklıyor. [P15-05]
+Mutluluğa değer vermeye yönlendirilen kadınlar mutlu bir filmde daha az olumlu duygu yaşadı; hüzünlü filmde fark olmadı. [P15-01] Mutluluğu istemenin iyi oluşla tutarlı bir ilişkisi yok; mutluluk konusunda kaygılanmak ise altı ay sonra daha düşük yaşam doyumu ve daha çok depresif belirtiyle ilişkili. [P3-07] Mutluluk arayışı ABD'de düşük, Rusya ve Doğu Asya'da yüksek iyi oluşu öngörüyor; farkı, mutluluğun başkalarıyla birlikte aranması açıklıyor. [P15-05]
 
 **Sana uyan:** "her şey iyiyken neden mutlu değilim" sorusunun kendisi. · `P15_kendini_asma.md`
 
@@ -78,7 +78,7 @@ Fikir değiştirme hakkı olanlar seçtikleri şeyi daha az sevdi; yine de çoğ
 
 ### 12. Zaman ve geride kalma
 
-Boş zamanı israf sayanlar ondan daha az keyif alıyor ve daha çok depresyon, kaygı bildiriyor. [P10-08] İnsanlar bir gerekçe bulunca meşgul olmayı seçiyor ve meşgulken daha mutlu. [P10-04] En kalıcı pişmanlıklar, olunması gerekenden değil, olunmak istenenden sapmalardan doğuyor. [P10-01] Yirmili yaşlarda zaman ufku açık algılanır; bu dönemde gelecek ve hazırlık hedeflerinin öne çıkması beklenen bir şeydir. [P10-11]
+Boş zamanı israf sayanlar ondan daha az keyif alıyor ve daha çok depresyon, kaygı bildiriyor. [P10-08] İnsanlar bir gerekçe bulunca meşgul olmayı seçiyor ve meşgulken daha mutlu. [P10-04] En kalıcı pişmanlıklar, olunması gerekenden değil, olunmak istenenden sapmalardan doğuyor. [P10-01] Bir kurama göre zaman ufku açık algılandığında gelecek ve hazırlık hedefleri, daraldığında şimdideki duygusal anlam öne çıkar. [P10-11]
 
 **Sınır:** genç yetişkinlerde "geride kalma" duygusunu doğrudan ölçen bir çalışma bulunamadı. **Kendine sor:** "Boşa geçti" dediğim zaman, verim ölçütüyle mi boşa geçti? · `P10_zaman_geride_kalma.md`
 
@@ -86,7 +86,7 @@ Boş zamanı israf sayanlar ondan daha az keyif alıyor ve daha çok depresyon, 
 
 Disiplinin kendisi sorun değil: öz-denetimi yüksek insanlar anlık duyguda da daha iyi ve bunun nedeni hedefler arası çatışmayı daha iyi yönetmeleri. [P25-01] [P25-02] Sorun katılıkta: sorumluluk çok yüksek uçta iyi oluşla ilişkisini yitiriyor. [P25-05] "Aşırı kontrol" için geliştirilen terapinin tek büyük çalışmasında yedinci ayda fark vardı, birincil hedef olan on ikinci ayda yoktu. [P25-16] [P25-17]
 
-**Sana uyan:** klinik "aşırı kontrol" tablosu sana uymuyor, çünkü ilişkilerin yerinde. Uyabilecek tek parça, iyi anı küçültme alışkanlığı. [P25-29] · `P25_asiri_kontrol.md`
+**Sana uyan:** klinik "aşırı kontrol" tablosu tarifine uymuyor görünüyor, çünkü ilişkilerinin yerinde olduğunu söylüyorsun. Uyabilecek tek parça, iyi anı "bu sürmez" diye küçültme alışkanlığı (bir basın haberine göre). [P25-29] · `P25_asiri_kontrol.md`
 
 ## D. Köken
 
@@ -106,7 +106,7 @@ Genç yetişkinlerin büyük bölümü kimlik sorusunu henüz kapatmamış. [D7-
 
 Akademik baskı ile ergen ruh sağlığı arasındaki ilişki 52 çalışmanın 48'inde bulunmuş. [D7-25] Sivas'ta diş hekimliği öğrencilerinin %41'inin hayalindeki fakülte diş hekimliğiydi, %35'ininki tıptı. [D7-28] Uşak'ta öğrencilerin %65'inde orta düzey tükenmişlik var. [D5-22]
 
-**Sana uyan:** beş yıl boyunca bu hissi yaşaman, senin sınıfın için istisna değil. · `D5_turkiye_veri_derin.md`
+**Sana uyan:** sıkıntı bu sınıflarda yaygın. Senin tarif ettiğin his ise bu çalışmalarda ayrıca ölçülmüş değil. · `D5_turkiye_veri_derin.md`
 
 ## E. İlişki ve gizlilik
 
@@ -132,7 +132,7 @@ Gençlerde iyi oluşun düşüşü bazı ülkelerde belgeli ama evrensel değil 
 
 ### 20. Türkiye'de diş hekimliği
 
-Mezun sayısı nüfusa oranla OECD ortalamasının yaklaşık iki katı. [D5-13] Diş hekimlerinin yurt dışı için iyi hâl belgesi başvurusu 2020'de 27 iken 2023'te 416. [D5-15] Uzmanlık öğrencilerinde yüksek tükenmişlik %75. [D5-23] Bu sayıların bir kısmı meslek örgütünden geliyor; örgüt bu tartışmanın tarafıdır.
+Mezun sayısı nüfusa oranla OECD ortalamasının yaklaşık iki katı. [D5-13] Diş hekimlerinin yurt dışı için iyi hâl belgesi başvurusu 2020'de 27 iken 2023'te 416. [D5-15] Tek bir fakültede 60 uzmanlık ve doktora öğrencisinin dörtte üçünde yüksek tükenmişlik bulunmuş. [D5-23] Bu sayıların bir kısmı meslek örgütünden geliyor; örgüt bu tartışmanın tarafıdır.
 
 **Sana uyan:** "asıl hayat sonra" duygusunun gerçek bir zemini var: önündeki yol gerçekten belirsiz. · `D5_turkiye_veri_derin.md`
 
@@ -174,7 +174,7 @@ Mükemmeliyetçiliğe yönelik BDT'nin kendi kendine yardım biçiminde depresyo
 
 ### 27. Uzun vadeli terapi ve terapist seçimi
 
-Süreğen depresyonda psikoterapinin etkisi küçük ama anlamlı; ilaç ve terapi birlikte, tek tek her birinden üstün. [P12-01] [P12-04] Kısa süreli psikodinamik terapi diğer psikoterapilerle denk. [P12-14] Uzun süreli psikodinamik terapinin üstün olduğu iddiası yeniden analizde desteklenmedi. [P12-12] Terapist ile kurulan ittifakın sonuçla ilişkisi 0,28; terapistler arası fark sonucun yaklaşık yüzde beşini açıklıyor. [P12-22] [P12-23] Psikoterapide kötüleşme oranı ortanca yüzde dört. [P12-24]
+Süreğen depresyonda psikoterapinin etkisi küçük ama anlamlı; bir çalışmada ilaç ve terapi birlikte, tek tek her birinden üstün çıkmış. [P12-01] [P12-04] Kısa süreli psikodinamik terapi diğer psikoterapilerle denk. [P12-14] Uzun süreli psikodinamik terapinin üstün olduğu iddiası yeniden analizde desteklenmedi. [P12-12] Terapist ile kurulan ittifakın sonuçla ilişkisi 0,28; terapistler arası fark sonucun yaklaşık yüzde beşini açıklıyor. [P12-22] [P12-23] Psikoterapide kötüleşme oranı ortanca yüzde dört. [P12-24]
 
 **Sana uyan:** ekol aramaktan çok, iyi çalışabildiğin bir terapist ara. Bu sayılar tanı almış hastalardan geliyor. · `P12_uzun_vadeli_tedavi.md`
 
@@ -188,4 +188,4 @@ Süreğen depresyonda psikoterapinin etkisi küçük ama anlamlı; ilaç ve tera
 
 Sıra düzeni (akranlarına göre yerin) genç yetişkinlikte oturuyor, ama uyumsuz ve dar özellikler daha az kararlı. [P14-04] [P14-05] Klinik çalışmalarda en büyük değişim duygusal dengede. [P14-08] Bir özelliği azaltmak isteyenlerde yakınların gözlediği değişim anlamlı değil; değişim isteği tek başına değişimi öngörmüyor. [P14-14] [P14-15] On yedi yılda kişilerin dörtte birinin yaşam doyumu anlamlı biçimde değişmiş. [P14-19]
 
-**Sana uyan:** en hızlı değişim döneminin içindesin. Yönü belirleyen istek değil, sürdürülen davranış ve ilişkiler. · `P14_seyir_degisebilirlik.md`
+**Sana uyan:** ortalamada en hızlı değişimin görüldüğü yaş aralığındasın; bu sana söz vermez. Değişimi öngören istek değil, sürdürülen davranış. · `P14_seyir_degisebilirlik.md`
