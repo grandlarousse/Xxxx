@@ -2,7 +2,7 @@
 
 ## Bu bölüm kitapta nerede duruyor
 
-*Maskülen* güneş kahramanıyla başlar, babadan ve anima'dan geçer, son bölümde tine varır. Beebe'nin girişine göre (özetten aktarıyorum, girişin kendisini bu görevde açmadım) Mercurius, Jung'un bilinçdışı arketipinin ve kendi üslubunun portresidir, "nihai baba figürü"dür. Beebe aynı yerde her erilliğin buna dayanmadığını, bu denemenin son söz olamayacağını da ekler. Bölüm Routledge 2003 baskısında s. 157'de başlar. İki metnin kitaptaki tam ya da kısaltılmış olduğu doğrulanmadı; aşağıda iki denemenin tam metnini (CW 9/i ve CW 13) okuyarak anlatıyorum.
+*Maskülen* güneş kahramanıyla başlar, babadan ve anima'dan geçer, son bölümde tine varır. Beebe'nin girişine göre (V5 doğrulaması: Routledge 2003 önizlemesindeki giriş metninden doğrulandı: "Jung's ultimate father-figure", "not every masculinity will be grounded in this mythologem") Mercurius, Jung'un bilinçdışı arketipinin ve kendi üslubunun portresidir, "nihai baba figürü"dür. Beebe aynı yerde her erilliğin buna dayanmadığını, bu denemenin son söz olamayacağını da ekler. Bölüm Routledge 2003 baskısında s. 157'de başlar. İki metnin kitaptaki tam ya da kısaltılmış olduğu doğrulanmadı; aşağıda iki denemenin tam metnini (CW 9/i ve CW 13) okuyarak anlatıyorum.
 
 ---
 

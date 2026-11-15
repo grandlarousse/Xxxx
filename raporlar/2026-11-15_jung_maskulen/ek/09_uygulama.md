@@ -1,11 +1,13 @@
-# Uygulama: Maskülen'deki yedi temayla nasıl çalışılır?
+# Uygulama: kitaptaki temalarla nasıl çalışılır? (bölüm sırasını izlemez)
 
-**Kapsam notu.** Aşağıdaki öneriler yalnızca Jung'un ve Jungcu analistlerin yayımlanmış yöntemlerine dayanır; yeni alıştırma yok. Analist kitaplarının çoğuna bu oturumda birincil metinden değil, özet ve tanıtım sayfalarından ulaşıldı; bu yüzden ayrıntı "doğrulanmadı" diye işaretli. Bu metin tıbbi tavsiye değildir.
+**Kapsam notu.** Aşağıdaki öneriler yalnızca Jung'un ve Jungcu analistlerin yayımlanmış yöntemlerine dayanır; yeni alıştırma yok. Analist kitaplarının çoğuna bu oturumda birincil metinden değil, özet ve tanıtım sayfalarından ulaşıldı; bu yüzden ayrıntı "doğrulanmadı" diye işaretli. Buradaki öneriler genel okuma önerileridir; tanı ya da tedavi yerine geçmez.
+
+**Okuma notu.** Buradaki soru listeleri ek niteliğindedir; temel set ana rapordaki yedi sorudur. Metindeki K04-2, K05-1 gibi kodlar depodaki 5 Kasım 2026 tarihli Jung raporlarının dosya adlarıdır. Terimler: *telafi* (rüyanın bilinçli tutumun tek yanlılığını dengelemesi), *amplifikasyon* (bir imgeyi mit ve masallardaki benzerleriyle genişletme), *mana-kişilik* (kişinin kendini olağanüstü bilge ya da güçlü sanması), *dizi ilkesi* (rüyaları tek tek değil sırayla okuma).
 
 ## Önce: genel sıra (Jung'dan)
 
 1. **Rüya**: bilinçli tutumun tek yanlılığını dengeleyen mesajlar (telafi). Rüya ancak yaşayanın durumu bilinince anlaşılır; kalıp "rüya sözlüğü" reddedilir. Yorum, kişinin kendi yaşantısıyla doğrulanmadıkça geçerli sayılmaz (Jung, "Rüya Analizinin Pratik Kullanımı", CW 16, 1934; yerel rapor K05-3).
-2. **Ruh hâlini kişileştirme**: ruh hâli bir "o" gibi dinlenir, ona söz verilir, ego cevap verir. Sonuç estetik ya da kuramsal değil, ahlaki bir yükümlülük olarak ele alınır (CW 7; K04-2).
+2. **Ruh hâlini kişileştirme**: ruh hâli bir "o" gibi dinlenir, ona söz verilir, ego cevap verir. Sonuç estetik ya da kuramsal değil, ahlaki bir yükümlülük olarak ele alınır (CW 7 §323, §348; K04-2). Not (V5 doğrulaması): CW 7'nin editörleri bu tekniğin başka yerde "aktif imgelem" diye anıldığını belirtir (CW 7, dipnot); yani bu alıştırma aktif imgelemin hafif ve kısa biçimidir, ondan ayrı bir şey değildir. Kısa, yazılı ve tek oturumluk tutmak güvenli yöndür.
 3. **Aktif imgelem / aşkın işlev**: malzemeyi somutlaştırmak (yazı, resim), sonra egonun onunla hesaplaşması; ürün, ikisinden de türemeyen "üçüncü" bir simgedir (CW 8, "Aşkın İşlev"; K05-1).
 4. **Yansıtmayı geri çekme**: Önce gölge, sonra anima (Aion; K06-2).
 
@@ -27,7 +29,7 @@ Yöntemlerin sırası kitabın bölüm sırasını izlemez; çoğu temada 1. ve 
 
 **(a) Belirti.** Hollis "Gerekli Yaralanma: Geçiş Törenleri" başlığını taşıyan bir bölüm yazar; modern erkeğin törenden yoksun olduğunu savunur (içindekiler; ikincil özet). Johnson, *He*'de her ergenin kendi "Balıkçı Kral yarası"nı aldığını söyler; Grail öyküsünde iyileşme "Kâse kime hizmet eder?" sorusuyla gelir (Substack özetleri; doğrulanmadı).
 
-**(b) Çalışma.** Tören yerine anlamlı bir somut eylem: Johnson'ın dördüncü adımı (rüya ya da imgeyi fiziksel bir ritüelle pekiştirmek). Jung açısından erginlenme, ego ile Kendilik'in (kişiliğin bütünü) ayrılmasıdır; ego Kendilik'e bağlıdır, onunla özdeşleşmez (Aion; K06-2).
+**(b) Çalışma.** Tören yerine anlamlı bir somut eylem: Johnson'ın dördüncü adımı (rüya ya da imgeyi fiziksel bir ritüelle pekiştirmek). Ritüel küçük, güvenli ve geri alınabilir olmalıdır: bir not yazmak, bir yürüyüş, bir nesneyi saklamak gibi. Kendine ya da başkasına zarar veren eylemler ya da ayrılık, istifa gibi büyük kararlar ritüel sayılmaz (ihtiyat notu, kaynaklı değil). Jung açısından erginlenme, ego ile Kendilik'in (kişiliğin bütünü) ayrılmasıdır; ego Kendilik'e bağlıdır, onunla özdeşleşmez (Aion; K06-2).
 
 **(c) Tuzak.** Törenin görünüşünü almak, ama ahlaki ve duygusal yükümlülüğü atlamak. Jung bunu "sanat" ya da "kuram" diye kaçmak olarak anlatır (CW 7; K04-2).
 
@@ -46,6 +48,7 @@ Yöntemlerin sırası kitabın bölüm sırasını izlemez; çoğu temada 1. ve 
 **(d) Sorular.**
 - Hangi "geçici" tutumlarımı artık taşıyamıyorum?
 - Ölüm düşüncesi bende ne uyandırıyor; ondan kaçıyor muyum?
+- Güvenlik notu: bu soru ölme ya da kendine zarar verme düşüncelerini çağırıyorsa çalışmayı bırak ve bir psikiyatriste ya da klinik psikoloğa başvur; acil tehlike varsa 112'yi ara.
 
 ## 4. Baba kompleksi
 
@@ -53,7 +56,7 @@ Yöntemlerin sırası kitabın bölüm sırasını izlemez; çoğu temada 1. ve 
 
 **(b) Çalışma.** Rüyalardaki baba/otorite figürlerini sıralamak (dizi ilkesi); kişisel babayı arketipsel babadan ayırmak (Jung, CW 4, 1949 katmanı).
 
-**(c) Tuzak.** Her şeyi babaya yüklemek. Jung de erken determinizmi kolektif katmanla dengeler. Ayrıca von Franz'a göre anne kompleksi olan erkek her zaman *puer aeternus* (sonsuz delikanlı: büyümeyi reddeden erkek) eğilimiyle uğraşır; çaresi sıkıcı, düzenli iştir (*Puer Aeternus*, 1970; blog özetleri, doğrulanmadı).
+**(c) Tuzak.** Her şeyi babaya yüklemek. Jung de erken determinizmi kolektif katmanla dengeler. Ayrıca von Franz'a göre anne kompleksi *puer aeternus* (sonsuz delikanlı: büyümeyi reddeden erkek) eğilimini artırabilir; çare olarak sıradan, düzenli işi önerir (*Puer Aeternus*, 1970; blog özetleri, doğrulanmadı).
 
 **(d) Sorular.**
 - Babamdan öğrendiğim "erkek olmak" cümleleri nelerdi, hangisini hâlâ uyguluyorum?
@@ -79,19 +82,19 @@ Yöntemlerin sırası kitabın bölüm sırasını izlemez; çoğu temada 1. ve 
 - Jung'un ayrım tekniği: ruh hâlini kişileştirmek, "Kim konuşuyor?" diye sormak, ona söz vermek, ego olarak cevap vermek, ürünü ahlaki yükümlülük saymak (CW 7; K04-2).
 - Gölgeden başlamak: gölgeyi fark etmek "ahlaki bir iş"tir (Aion §14; K06-2).
 - Von Franz *Projection and Re-Collection*'da yansıtmanın geri çekilmesini beş evrede anlatır; ilk evre yansıtmayı eleştirmeden yaşamaktır (örnek: ağaç beni çağırıyor). Evrelerin tam sırası doğrulanmadı.
-- Johnson'ın aktif imgelem adımları: davet, diyalog, değerler (etik), somut ritüel.
+- Aktif imgelem bu listede bir kendi kendine alıştırma değildir; yalnızca bir analist ya da deneyimli bir terapistle çalışırken denenir (bkz. Uyarılar). Johnson'ın tarif ettiği adımlar (davet, diyalog, değerler, somut ritüel) yalnızca bilgi için anılır.
 
 **(c) Tuzak.** Estetik tuzak: imgeyi "sanat" saymak. Entelektüel tuzak: erkenden şemaya yerleştirmek (CW 8; K05-1). Bilinçdışını "yendikten" sonra gelen manevi şişme (mana-kişilik) (CW 7; K04-2).
 
 **(d) Sorular.**
-- Bir kadına duyduğum öfke ya da hayranlık, onun gerçek kişiliğiyle ne kadar örtüşüyor?
+- Birine duyduğum öfke ya da hayranlık, onun gerçekte yaptıklarıyla ne kadar örtüşüyor?
 - Ruh hâllerim geldiğinde onlarla mı yaşıyorum, yoksa onlara mı esirim?
 
 ## 7. Tin ve anlam
 
 **(a) Belirti.** Jung için psişenin ikinci yarısı anlamla ilgilidir: "ölüme hazırlık" olarak dinler (CW 8 §§796–815; K05-1). Hollis, orta yaşta sorunun mutlulukla değil anlamla ilgili olduğunu söyler (alt başlık: Sefaletten Anlama; tanıtım).
 
-**(b) Çalışma.** Rüya dizisi, aktif imgelem, Johnson'ın etik adımı. Johnson'a göre yöntem "bilinçdışıyla ortaklık içinde yaşamak, onun elinde olmamak" içindir (Applied Jung incelemesi).
+**(b) Çalışma.** Rüya dizisi ve yazarak düşünme. Aktif imgelem yalnızca bir uzmanla çalışırken denenir (bkz. Uyarılar). Johnson'a göre yöntem "bilinçdışıyla ortaklık içinde yaşamak, onun elinde olmamak" içindir (Applied Jung incelemesi).
 
 **(c) Tuzak.** Tini düşünce olarak sahiplenmek, yaşamamak (puer eğilimi).
 
@@ -101,11 +104,12 @@ Yöntemlerin sırası kitabın bölüm sırasını izlemez; çoğu temada 1. ve 
 
 ## Uyarılar (ne zaman uzmana gitmeli?)
 
-- **Aktif imgelem tehlikeli olabilir.** Jung, arketipik deneyimlerin "psikozların matrisi" de olduğunu yazar (CW 9i §621; arama özetinden, doğrulanmadı). IAAP: bu karşılaşmalar ego için bir sınavdır ve parçalanma ya da psikoz riski taşır; yeterli ego gücü gerekir (Kiehl'den aktarım, IAAP sitesi).
+- **Aktif imgelem tehlikeli olabilir.** Jung, arketipik deneyimlerin "psikozların matrisi" de olduğunu yazar (CW 9i §621; arama özetinden, doğrulanmadı). IAAP: bu karşılaşmalar ego için bir sınavdır ve parçalanma ya da psikoz riski taşır; yeterli ego gücü gerekir (Kiehl'den aktarım, IAAP sitesi). Düzeltme (V5): IAAP sayfası "aşkın işlev" (bilinçdışıyla karşılaşma) hakkındadır, aktif imgelemi yalnızca ayrı bir makaleye bağlantıyla anar; uyku, panik, gerçeklik duygusu gibi belirti listesi IAAP'den değil, bu raporun kendi ihtiyat önerisidir.
 - Jung kendi bilinçdışıyla yüzleşme yıllarında psikoz tehlikesinin farkındaydı; aileye ve mesleğe tutunarak dengelediğini anlatır (*Anılar*; K03-3).
 - Von Franz'ın uzman desteği olmadan yapılmaması gerektiğini söylediği aktarılıyor (blog; güvenilirliği düşük).
-- **Pratik sonuç (benim yorumum, kaynaklı değil):** gerçeklik duygusunda bozulma, uykusuzluk, sesler ya da yoğun panik belirirse ya da psikoz öyküsü varsa çalışmaya ara verip bir ruh sağlığı uzmanına gitmek gerekir.
-- **Kanıt tabanı sınırlıdır.** Roesler (2013) ortalama yaklaşık 90 seanslık Jungcu terapide anlamlı değişim bildirir, ama randomize kontrollü çalışma yoktur; PAL çalışmasında kontrol grubu yoktur; hastaların %10–20'si yarar görmemiştir (Behavioral Sciences 3(4), 562–575). Bu bulgular **kitap okuyarak kendi kendine çalışmaya** değil, terapiye dairdir.
+- **Ne zaman bırakıp uzmana gitmeli (ihtiyat önerisi, bir kaynaktan alınmadı):** şunlardan biri varsa alıştırmaları bırak ve bir psikiyatriste ya da klinik psikoloğa git: kendine zarar verme ya da ölme düşünceleri; başkalarının duymadığı sesler ya da gerçeklik duygusunda kayma; günlerce süren uykusuzluk; yoğun panik; geçmişte psikoz ya da ikili bozukluk tanısı; ağır bir travma geçmişi. Acil tehlike varsa 112'yi ara. Bir tedavi görüyorsan bu alıştırmalardan önce terapistinle konuş.
+- **Kavramları başkasına etiket yapma.** Anima, animus ve yansıtma kişinin kendine soracağı sorular içindir; eşe, sevgiliye ya da çocuğa "animusun konuşuyor" demek karşıdakini susturur. Şiddet, tehdit ya da baskı bir yansıtma sorusu değildir; önce güvenlik gelir (ihtiyat notu).
+- **Kanıt tabanı sınırlıdır.** Roesler (2013), kendisi de Jungcu olan bir araştırmacının derlemesidir (*Behavioral Sciences* 3(4), 562–575). Derlenen çalışmalar ortalama yaklaşık 90 seanslık terapide iyileşme bildirir; ama hiçbiri randomize kontrollü çalışma değildir, yalnızca biri (PAP-S) kontrol grupludur; hastalar çalışmaya kendileri katılmayı seçmiştir. Hastaların %10–20'si yarar görmemiştir; yazara göre bu oran başka terapi okullarında da benzerdir. Yazar özette yöntemi "ampirik olarak kanıtlanmış" diye niteler, gövdede ise etkililiğin randomize çalışmayla kanıtlanması gerektiğini yazar. Bu bulgular terapiye dairdir; **kitap okuyarak ya da tek başına yapılan alıştırmaların** yararı ya da zararı hakkında veri yoktur.
 - Kitap temaları (Logos–Eros, anima/animus) çağdaş okumada cinsiyetçi kalıp riski taşır.
 
 ## Türkçe erişim

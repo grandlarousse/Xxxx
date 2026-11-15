@@ -3,10 +3,10 @@
 Not: kitapyurdu, 1000kitap, n11 ve BTU sayfaları bu oturumda da açılmadı (403/503). Künye arama özetlerine dayanır. ISBN bulunamadı.
 
 ## 1. Künye
-- Başlık: *Maskülen: Erilliğin Farklı Yüzleri*. Yazar: C. G. Jung. Pinhan Yayıncılık, İstanbul, 2016.
-- Kitapyurdu (Pinhan yayınevi sayfası, arama özeti): 05.12.2016, 204 sayfa, karton kapak, Türkçe.
-- Çevirmen: BTU kataloğu Didem Gamze Erdinç'i "diğer yazar" olarak gösteriyor (arama özeti). "Çevirmen" sıfatı hiçbir kaynakta açıkça görülmedi. Aday olarak kalıyor.
-- ISBN: bulunamadı. Sayfa sayısı 204 (Kitapyurdu); özgün Routledge 2003 baskısı 224 sayfa civarı olduğundan fark beklenen düzeydedir (yayın biçimine bağlı).
+- Başlık: *Maskülen: Erilliğin Farklı Yüzleri*. Yazar: C. G. Jung. Pinhan Yayıncılık, İstanbul. DÜZELTME (doğrulama turu): ilk baskı Mart 2015 (Pandora: "Mart 2015"; Idefix: ilk baskı yılı 2015); 2016 tarihli kayıtlar 2. baskıdır (Simurg Kitabevi: "Basım Tarihi: 2016, Baskı: 2").
+- Sayfa: 204 (Pandora; Kitapyurdu 05.12.2016 kaydı da 204). Bazı satıcılar 199 yazıyor (Simurg, Amazon.com.tr özeti); baskıya göre değişir.
+- Çevirmen: Didem Gamze Erdinç. DÜZELTME: Pandora ve Simurg Kitabevi ürün sayfalarında "Çevirmen: Didem Gamze Erdinç" yazıyor; Amazon.com.tr ve Nadirkitap arama özetleri de aynı adı veriyor. BTU kaydı yalnızca "diğer yazar" diyordu.
+- ISBN: 9786055302580 (Pandora, Nadirkitap/Amazon.com.tr özeti, Simurg etiketi). Özgün Routledge 2003 baskısı 224 sayfa civarı olduğundan sayfa farkı beklenen düzeydedir (yayın biçimine bağlı).
 - Özgün ad: hiçbir Türkçe sayfada yazılı görülmedi. Dolaylı kanıtlar: (a) Türkçe alt başlık "Erilliğin Farklı Yüzleri", eş kitabın "Dişilliğin Farklı Yüzleri" kalıbıyla aynı, eş kitap *Aspects of the Feminine*'e karşılık geliyor; (b) Idefix, Feminen sayfasında Maskülen'i "paralel" okuma olarak öneriyor; (c) Türkçe okur yorumları kitabın "doğumdan ölüme erillik gelişimi" ve yoğun Hristiyan teolojisi bölümü içerdiğini söylüyor; bu, *Aspects of the Masculine*'deki "Stages of Life" ve "Tin" bölümleriyle uyuşuyor. Sonuç: yüksek olasılıkla *Aspects of the Masculine*; doğrudan teyit yok.
 - Türkçe içindekiler ve arka kapak yazısı: görülemedi.
 - Eş kitap: *Feminen: Dişilliğin Farklı Yüzleri*, Pinhan, çev. Tuğrul Veli Soylu, ilk basım 2015, yaklaşık 200 sayfa (Idefix). Başka bir kaynakta yıl 2016 görünüyor; yıl çelişkisi açık.

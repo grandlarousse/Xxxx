@@ -22,7 +22,7 @@ Diğer klasikler (doğrulanmadı, listeden): von Franz, *Puer Aeternus* (1970); 
 
 **David Tacey.** *Remaking Men: Jung, Spirituality and Social Change* (Routledge, 1997; künye ikinci elde göründü). Makale: "Remaking Men: Jungian Thought and the Post-Patriarchal Psyche", Australian Humanities Review 4 (Aralık 1996). Tacey Bly çizgisini "reaksiyoner" bulur, arketiplerin "sabit" sayılmasını eleştirir:
 - "Jungian archetypes are viewed, quite wrongly, as fixed and stable elements embedded in an unchanging eternal mind."
-- Erkeklik bilinçdışına itilirse "compensatory eruptions and explosions of primal, and probably fascistic, masculinity" beklenir.
+- Tacey bunu erkeklik anneyle kaynaştığında (babayı "öldürmeye" dayanan, erilliği yok sayan profeminist/karşıt-erkeklik söylemi için) söyler; "hiç konuşulmama" değil: erkeklik bilinçdışına düşerse "compensatory eruptions and explosions of primal, and probably fascistic, masculinity" beklenir.
 Yani Jung'u Bly'dan *kurtarmak* ister; Jung'un arketip kuramını tarihsel ve toplumsal değişime açık okur. Kitaplar hakkında Guy Rundle'ın eleştirisi (Australian Book Review, 1997-98), "ataerkil olmayan erkekliğin" içeriksiz kaldığını söyler (ikinci el özet).
 
 **Diğerleri (doğrulanmadı; yalnızca aday listede):** Beebe'nin sonraki çalışmaları, Young-Eisendrath, Zoja *The Father* (2000), Monick *Phallos* (1987), Corneau *Absent Fathers, Lost Sons* (1989), Samuels (ed.) *The Father* (1985). Bu oturumda içerikleri görülmedi. Ortak yön: baba yokluğu ve erkek bedeni gibi *Maskülen*'in "Baba" bölümünün bıraktığı boşluklar.

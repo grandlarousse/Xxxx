@@ -8,15 +8,15 @@ Not: Türkçe başlık "Kadındaki Eril" görev tanımından alındı. Özgün b
 ---
 
 ### 12 Kasım 1957 tarihli mektup (*Letter of 12 November 1957*)
-- **Künye:** *C. G. Jung: Letters*, c. 2 (1951–1961), Princeton 1975; yazışma dizinde "Anonim", hitap "Dear Dr. N.", özgün dili İngilizce, mektup no. 401. Sayfa: ikincil bir alıntı sayfa 402 der (doğrulanmadı). Kitaba tam mı alındığı doğrulanmadı. Routledge'de bütün mektup s. 121'e sığar, yani muhtemelen kısadır. Mektubun kendisini bu oturumda birincil metinden okuyamadım; aşağıdaki içerik bir blog dökümüne ve arama özetlerine dayanır.
-- **Kime, ne için:** Yazıldığı kişi adı verilmeyen bir kadındır. Psikiyatrı onu "eşiti" saymakta ve bir bilmece gibi görmektedir. Jung bunu klasik bir yansıtma öyküsü olarak okur.
+- **Künye:** *C. G. Jung: Letters*, c. 2 (1951–1961), Princeton 1975, s. 401–402 ("401" sayfa numarasıdır, mektup numarası değil); dizinde "Anonim", hitap "Dear Dr. N.", özgün dili İngilizce; dipnota göre alıcı İngiltere'de bir kadın doktordur (M.D.). Mektubun tam metni V4 doğrulamasında archive.org'daki Letters c. 2 taramasından okundu; kısa bir mektuptur. Kitaba tam mı alındığı doğrulanmadı.
+- **Kime, ne için:** Yazıldığı kişi adı verilmeyen bir kadındır. Psikiyatr onu "eşiti" saymakta; kadın ona "sfenks" gibi görünmektedir. Jung bunu anima ve animus yansıtmasının tipik öyküsü olarak okur.
 - **Ne anlatıyor:**
-  1. Psikiyatr, kendi animasını (erkeğin içindeki kadın ruh-imgesi) kadına yansıtmıştır.
-  2. Kadın bu yansıtmadan sorumlu değildir. Yalnızca kendi animusundan sorumludur.
-  3. Animus, kadındaki ruhsal (tinsel) güçlerin eril bir figürle simgelenmiş imgesidir.
-  4. Bilinçdışı kaldığında karşılıklı büyülenme yaratır. Olumsuzken "kanaat iblisi" gibi katı kanılar üretir. Olumluyken sağlamlık ve açıklık verir.
-  5. Çözüm animusu içerdeki özerk bir etken olarak tanıyıp onunla konuşmaktır. Mektup ayrıca Frieda Fordham'ın giriş kitabını önerir (blog dökümü; doğrulanmadı).
-- **Ana kavramlar:** anima (erkeğin kadın ruh-imgesi); animus; yansıtma (kendi içeriğini başkasında görmek); özerk kompleks; karşılıklı büyülenme.
+  1. Psikiyatr, kendi animasını (erkeğin ruh-imgesi; Jung'a göre ilişki işlevini simgeler) kadına yansıtmıştır. Onu gerçek bir kadın olarak göremediği için kadın ona "sfenks" gibi görünür; oysa sfenks onun kendi ruhudur ve bilmeceyi kendisi çözmelidir.
+  2. Kadın da yardıma muhtaçtır: Jung, yalnız psikiyatrın yardıma ihtiyacı olduğunu sanmasının yanlış olduğunu söyler. Kadının "uluslararası ünlü psikiyatr"a animus yansıtması, ruh ve gizemleri hakkında daha çok bilgi edinmesi gerektiğini gösterir.
+  3. Animus, kadındaki ruhsal (tinsel) güçlerin eril bir figürle simgelenmiş imgesidir. Bu iç güçler bilinçsiz kalınca yansıma olarak görünür.
+  4. Anima ve animus yansıması karşılıklı büyülenme yaratır. "Telepatik" sanılan olaylar, bilinçdışının bilince girme fırsatı bulduğu duygusal anlarda olur.
+  5. Öneri: yaşamın ikinci yarısında iç dünyayla tanışmaya başlamak; bilinçdışı psikolojisini öğrenmek. Jung okuma olarak Frieda Fordham'ın *Introduction to Jung's Psychology* (Pelican) kitabını önerir. Mektupta "katı kanılar üreten olumsuz animus" ya da "olumlu animus sağlamlık verir" gibi bir anlatım yoktur.
+- - **Ana kavramlar:** anima (erkeğin kadın ruh-imgesi); animus; yansıtma (kendi içeriğini başkasında görmek); özerk kompleks; karşılıklı büyülenme.
 - **Erillik hakkında:** Erkek okur için ders şudur: karşısındaki kadına duyduğu büyü, çoğu zaman kendi animasıdır. Kadında erilin yeri de aynı yansıtma mantığıyla anlatılır.
 - **Zayıf yanı:** Tek bir kişisel vakadan genel kural çıkarır. "Animus = tin" eşitliği Jung'un dönemindeki cinsiyet varsayımını taşır.
 - **Bugünün okuru için:** Güçlü bir fikir ifade eden kadına "animusu konuşuyor" demek tartışmayı kapatan bir hamle olabilir. Bir kişide hayran olduğun ya da korktuğun şeyin ne kadarı sana aittir?

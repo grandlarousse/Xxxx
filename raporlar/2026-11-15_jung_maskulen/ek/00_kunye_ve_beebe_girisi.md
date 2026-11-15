@@ -7,8 +7,8 @@
 - Sayfa numaraları baskıya göre değişir: Princeton'da giriş vii–xviii, kitap 174'e kadar; Routledge 2003'te giriş ix–xxii. Aşağıdaki sayfalar Routledge 2003'tür.
 
 ## Türkçe baskı
-- *Maskülen: Erilliğin Farklı Yüzleri*, Pinhan Yayıncılık, İstanbul, 2016; Kitapyurdu: 05.12.2016, 204 s.
-- Çevirmen: BTU kataloğunda "diğer yazar" olarak Didem Gamze Erdinç görünüyor. Çevirmen olduğu doğrulanmadı.
+- *Maskülen: Erilliğin Farklı Yüzleri*, Pinhan Yayıncılık, İstanbul; ilk baskı Mart 2015 (Pandora, Idefix), 2. baskı 2016 (Simurg); 204 s. (bazı satıcılarda 199); ISBN 9786055302580.
+- Çevirmen: Didem Gamze Erdinç (Pandora ve Simurg ürün sayfalarında "Çevirmen" olarak yazıyor).
 - Özgün eserin *Aspects of the Masculine* olduğu doğrulanmadı. İpuçları: Idefix, eş kitap *Feminen: Dişilliğin Farklı Yüzleri* (Pinhan, 2015, 200 s., çev. Tuğrul Veli Soylu) sayfasında bu kitabı "paralel" öneriyor. Türkçe içindekiler görülmedi.
 
 ## Kesin içindekiler (Routledge 2003)
