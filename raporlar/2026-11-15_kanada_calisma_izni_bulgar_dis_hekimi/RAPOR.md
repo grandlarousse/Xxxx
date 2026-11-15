@@ -101,6 +101,21 @@ Diğer şartlar: Federal Skilled Worker asgarileri (son 10 yılda 1 yıl kesinti
 
 Bu yolun bir üstünlüğü daha var (çıkarım): PR ile geldiğinde bir işverene bağlı olmazsın; maaşlı da çalışırsın, serbest de.
 
+#### Kullanıcının profili: 24 yaş, Fransızca yok (15 Kasım 2026'da eklendi)
+
+Tek başvuran, diploma "mesleki derece" sayılmış, Kanada deneyimi yok. Değerler resmî CRS tablosundan (sayfa tarihi 3 Kasım 2026): yaş 20–29 için 110, eğitim 135, dil beceri başına CLB 8/9/10 için 23/31/34.
+
+| İngilizce | 1–2 yıl deneyim | 3+ yıl deneyim |
+|---|---|---|
+| CLB 8 | 375 | 387 |
+| CLB 9 | 444 | 469 |
+| CLB 10 | 456 | 481 |
+
+- Sağlık eşiği 467–475. Teklifsiz yalnız "CLB 10 + 3 yıl" rahat geçiyor; "CLB 9 + 3 yıl" sınırda.
+- İş teklifi +70: CLB 9 ve 1–2 yıl deneyimle 514.
+- 1 yıldan az deneyimle havuza girilemiyor (Federal Skilled Worker 1 yıl kesintisiz deneyim, sağlık kategorisi son 3 yılda 12 ay ister).
+- Yaş puanı 30'a kadar düşmüyor; deneyim biriktikçe puan artıyor.
+
 ### 3.4 Yeni kural: iş teklifi puanı (3 Kasım 2026)
 
 Mart 2025'te kaldırılan iş teklifi puanı 3 Kasım 2026'da yüksek ücretli meslekler için geri geldi. Diş hekimi orta basamakta: **70 puan**. LMIA gerekmiyor.
@@ -234,7 +249,7 @@ Tam iddia defterleri ve doğrulama tabloları `ek/` klasöründe.
 
 1. Soru: NDEB'yi geçmiş Bulgar (AB) vatandaşı diş hekiminin Kanada'da çalışma izni ve PR yolları. Denklik araştırılmadı, araştırılmayacak.
 2. Sonuç: AB pasaportu kısayol vermiyor (CETA'da bütün sağlık meslekleri kapalı, IEC yok); ana yol Express Entry sağlık kategorisi (eşik 467–475); kaldıraçlar Fransızca (dört beceride NCLC 7), iş teklifi (+70, 3 Kasım 2026), eyalet adaylığı (+600), yaş.
-3. Eksik kullanıcı bilgisi: yaş, dil düzeyi, Fransızca, medeni durum, son 3 yıldaki deneyim ayı. Gelince tek yola indirilecek.
+3. Kullanıcı: 24 yaş, Fransızca yok, İngilizce "iyi" (sınav puanı bilinmiyor); senaryo tablosu 3.3'ün sonunda. Eksik: tam zamanlı deneyim ayı, İngilizce sınav puanı, medeni durum.
 4. Açık teyitler: 3 Kasım sonrası eşikler, memurun teklif değerlendirmesi, Manitoba ve Atlantik öncelik listeleri, CETA sıfatlarıyla geçen sürenin PR puanına etkisi.
 5. Dosyalar: bu rapor; `ek/A…F2` iddia defterleri; `ek/dogrulama_1…4` doğrulama tabloları.
 
