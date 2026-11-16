@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>SOS 337 Kültür Sosyolojisi – Vize Tekrar: Sorular ve Cevaplar</title>
+<style>
+  @page { size: 148mm 210mm; margin: 13mm 11mm 15mm 11mm; }
+  :root {
+    --ink: #1c2530; --muted: #5a6875; --line: #c9d2d8;
+    --teal: #0e6b62; --teal-bg: #e8f3f1;
+    --amber: #b47a00; --amber-bg: #fdf5df;
+    --blue: #3b5aa6; --blue-bg: #eef1f9;
+    --red: #b3372f; --red-bg: #fcecea;
+    --navy: #17323f;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: "Inter", "DejaVu Sans", sans-serif; font-size: 10.2pt; line-height: 1.5; color: var(--ink); margin: 0; }
+  p { margin: 0 0 6.5pt 0; }
+  ul, ol { margin: 0 0 6.5pt 0; padding-left: 15pt; }
+  li { margin-bottom: 2.5pt; }
+  b, strong { font-weight: 650; }
+  u { text-decoration-thickness: 1.1pt; text-underline-offset: 2pt; }
+  a { color: inherit; text-decoration: none; }
+
+  /* Kapak */
+  .cover { height: 180mm; display: flex; flex-direction: column; justify-content: space-between; break-after: page; }
+  .cover .tag { font-size: 9pt; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); font-weight: 700; }
+  .cover h1 { font-family: "Inter Display", "Inter", sans-serif; font-size: 27pt; line-height: 1.12; margin: 8pt 0 8pt 0; font-weight: 750; letter-spacing: -.01em; color: var(--navy); }
+  .cover .sub { font-size: 11.5pt; color: var(--muted); line-height: 1.45; }
+  .cover .bar { width: 46pt; height: 4pt; background: var(--teal); margin: 12pt 0; border-radius: 2pt; }
+  .scope { border: .8pt solid var(--line); border-radius: 7pt; padding: 9pt 11pt; font-size: 9.4pt; }
+  .scope h4 { margin: 0 0 4pt 0; font-size: 9pt; letter-spacing: .08em; text-transform: uppercase; color: var(--teal); }
+  .scope ul { margin: 0; }
+
+  /* Bölüm başlıkları */
+  h1.part { font-family: "Inter Display", "Inter", sans-serif; font-size: 18pt; line-height: 1.2; color: var(--navy); margin: 0 0 3pt 0; break-before: page; font-weight: 750; }
+  .partnote { color: var(--muted); font-size: 9.6pt; margin-bottom: 10pt; border-bottom: 1.2pt solid var(--teal); padding-bottom: 7pt; }
+  h2 { font-size: 13pt; color: var(--navy); margin: 15pt 0 5pt 0; break-after: avoid; line-height: 1.25; }
+  h4 { font-size: 10.2pt; margin: 9pt 0 3pt 0; break-after: avoid; color: var(--navy); }
+
+  /* Soru kartı */
+  .q { margin-top: 15pt; }
+  .q > h3 { font-size: 11.6pt; line-height: 1.32; margin: 0 0 6pt 0; display: flex; gap: 7pt; align-items: flex-start; break-after: avoid; color: var(--navy); font-weight: 700; }
+  .no { flex: 0 0 auto; min-width: 19pt; height: 19pt; padding: 0 4pt; border-radius: 10pt; background: var(--navy); color: #fff; font-size: 9.4pt; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; margin-top: .5pt; }
+  .box { padding: 6.5pt 9pt 6.5pt 9pt; border-left: 3.2pt solid; border-radius: 0 6pt 6pt 0; margin: 0 0 7pt 0; break-inside: avoid; }
+  .box > :last-child { margin-bottom: 0; }
+  .lab { display: block; font-size: 7.8pt; font-weight: 750; letter-spacing: .09em; text-transform: uppercase; margin-bottom: 2pt; }
+  .kisa { background: var(--teal-bg); border-color: var(--teal); }
+  .kisa .lab { color: var(--teal); }
+  .ipucu { background: var(--amber-bg); border-color: var(--amber); }
+  .ipucu .lab { color: var(--amber); }
+  .derin { background: var(--blue-bg); border-color: var(--blue); }
+  .derin .lab { color: var(--blue); }
+  .dikkat { background: var(--red-bg); border-color: var(--red); }
+  .dikkat .lab { color: var(--red); }
+  .model { border: .9pt solid #9fb7b3; border-radius: 7pt; padding: 8pt 10pt; background: #fbfdfc; margin: 0 0 7pt 0; }
+  .model > :last-child { margin-bottom: 0; }
+  .model .lab { color: var(--teal); }
+  .soru-metni { font-style: italic; color: #2c3945; border-left: 2pt solid var(--line); padding-left: 8pt; margin: 0 0 7pt 0; }
+
+  /* Tablolar */
+  table { width: 100%; border-collapse: collapse; font-size: 8.7pt; line-height: 1.38; margin: 3pt 0 8pt 0; }
+  th { background: var(--navy); color: #fff; text-align: left; font-weight: 650; }
+  th, td { padding: 4.2pt 5.2pt; border: .6pt solid var(--line); vertical-align: top; }
+  tr { break-inside: avoid; }
+  tbody tr:nth-child(even) td { background: #f6f8f9; }
+  td.k { font-weight: 650; color: var(--navy); }
+  .ok { color: var(--teal); font-weight: 700; }
+  .no-x { color: var(--red); font-weight: 700; }
+
+  /* Test soruları */
+  .mcq { margin: 0 0 10pt 0; break-inside: avoid; }
+  .mcq .stem { font-weight: 650; margin-bottom: 3pt; }
+  .mcq ul { list-style: none; padding-left: 0; margin: 0 0 3.5pt 0; font-size: 9.5pt; }
+  .mcq li { margin: 0; padding: 1pt 6pt; border-radius: 4pt; }
+  .mcq li.dogru { background: var(--teal-bg); font-weight: 650; color: #0a4f48; }
+  .mcq .why { font-size: 9.5pt; color: #2c3945; margin: 0; }
+  .anahtar { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4pt; margin: 4pt 0 10pt 0; }
+  .anahtar div { border: .7pt solid var(--line); border-radius: 5pt; text-align: center; padding: 3.5pt 0; font-size: 9.6pt; }
+  .anahtar b { color: var(--teal); }
+
+  .toc { font-size: 9.2pt; line-height: 1.4; }
+  .toc p { margin: 6pt 0 2pt 0; }
+  .toc ol, .toc ul { padding-left: 16pt; margin-bottom: 2pt; }
+  .toc li { margin-bottom: .6pt; }
+  .small { font-size: 9pt; color: var(--muted); }
+  .src { font-size: 8.6pt; line-height: 1.4; }
+  .src li { margin-bottom: 2pt; word-break: break-word; }
+  dl.soz { margin: 0; }
+  dl.soz dt { font-weight: 700; color: var(--navy); margin-top: 5pt; break-after: avoid; }
+  dl.soz dd { margin: 0 0 0 0; }
+</style>
+</head>
+<body>
+
+<!-- ======================= KAPAK ======================= -->
+<div class="cover">
+  <div>
+    <div class="tag">SOS 337 · Kültür Sosyolojisi</div>
+    <h1>Vize Tekrar:<br>Sorular ve Cevaplar</h1>
+    <div class="bar"></div>
+    <div class="sub">Defter notlarındaki 18 soru, Malinowski belgesindeki 10 test ve 2 açık uçlu soru; ayrıca kuram tablosu, kavram sözlüğü ve 3 yorum sorusu denemesi.</div>
+  </div>
+  <div>
+    <div class="scope" style="margin-bottom:8pt">
+      <h4>Kutular ne anlama geliyor?</h4>
+      <ul>
+        <li><b style="color:var(--teal)">Kısa cevap:</b> boşluk doldurma ve test için ezberlenecek kısım.</li>
+        <li><b>Açıklama (düz metin):</b> açık uçlu soruda yazacağın gövde.</li>
+        <li><b style="color:var(--amber)">Sınav ipucu:</b> karıştırılan ya da hocanın vurguladığı nokta.</li>
+        <li><b style="color:var(--blue)">Derin bilgi:</b> sorulmasa da yorum sorusunda artı puan getirir.</li>
+        <li><b style="color:var(--red)">Dikkat:</b> notlarda ya da belgede düzeltilmesi gereken yer.</li>
+      </ul>
+    </div>
+    <div class="scope">
+      <h4>Hocanın notlarına göre sınav kapsamı</h4>
+      <ul>
+        <li>Kültür dosyası, “Kültürel Çalışmalar” başlığına kadar.</li>
+        <li>Soru tipi: açık uçlu sorular ve 2–3 yorum sorusu.</li>
+        <li>Kültür dosyasının anahtar kavramları.</li>
+        <li>Ana ders kitabı 4. bölüm: anahtar kavramlar ve bölüm soruları.</li>
+        <li>Nuerler ve Clifford Geertz: derinlemesine betimleme üzerinden soru gelebilir.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ======================= İÇİNDEKİLER ======================= -->
+<h2 style="margin-top:0">İçindekiler</h2>
+<div class="toc">
+  <p><b><a href="#b1">Bölüm 1 · Defter notlarındaki sorular</a></b></p>
+  <ol>
+    <li><a href="#q1">Kültür ilk kez hangi bilim dalının konusu oldu?</a></li>
+    <li><a href="#q2">Kültür sosyolojisine dair hangi bilgi yanlıştır?</a></li>
+    <li><a href="#q3">Kültürleme, kültürlenme, kültürleşme (boşluk doldurma)</a></li>
+    <li><a href="#q4">İlk kültürel öğrenme süreci</a></li>
+    <li><a href="#q5">Kültürlemenin aktörleri</a></li>
+    <li><a href="#q6">Kültürleme ile sosyalleşmenin farkı</a></li>
+    <li><a href="#q7">Açık uçlu soru: Ahmet vakası</a></li>
+    <li><a href="#q8">İlk kültür kuramı: Evrimcilik</a></li>
+    <li><a href="#q9">Evrimcilik ile Tarihsel Tikelciliğin farkı</a></li>
+    <li><a href="#q10">Evrimciliğe tepki: Tarihsel Tikelcilik ve Boas</a></li>
+    <li><a href="#q11">Malinowski hangi kuramın kurucusudur?</a></li>
+    <li><a href="#q12">İlk etnografya kime aittir?</a></li>
+    <li><a href="#q13">Malinowski ne sorar, Radcliffe-Brown ne sorar?</a></li>
+    <li><a href="#q14">Yoğun betimleme kimindir?</a></li>
+    <li><a href="#q15">Yoğun betimlemeye örnek</a></li>
+    <li><a href="#q16">İhtiyaçlar Teorisi</a></li>
+    <li><a href="#q17">Kültürel artık</a></li>
+    <li><a href="#q18">Nuerler ve Geertz: derinlemesine betimleme</a></li>
+  </ol>
+  <p><b><a href="#b2">Bölüm 2 · Malinowski belgesi</a></b></p>
+  <ul>
+    <li><a href="#b2ozet">Konu özeti ve belgede düzeltilecek iki nokta</a></li>
+    <li><a href="#b2test">10 test sorusu: cevap anahtarı ve gerekçeler</a></li>
+    <li><a href="#b2a1">Açık uçlu Soru 1: Türk toplumunda aile</a></li>
+    <li><a href="#b2a2">Açık uçlu Soru 2: Kültürel artık</a></li>
+  </ul>
+  <p><b><a href="#b3">Bölüm 3 · Sınav için ek</a></b></p>
+  <ul>
+    <li><a href="#b3kuram">Beş kuram tek tabloda</a></li>
+    <li><a href="#b3isim">İsim, eser, kavram eşleştirmesi</a></li>
+    <li><a href="#b3yorum">Üç yorum sorusu denemesi</a></li>
+    <li><a href="#b3formul">Açık uçlu cevap yazma formülü</a></li>
+    <li><a href="#b3sozluk">Anahtar kavramlar sözlüğü</a></li>
+    <li><a href="#b3eksik">Eksik kalanlar, doğrulama ve kaynaklar</a></li>
+  </ul>
+</div>
+
+<!-- ======================= BÖLÜM 1 ======================= -->
+<h1 class="part" id="b1">Bölüm 1 · Defter notlarındaki sorular</h1>
+<div class="partnote">Sorular defterdeki sırayla. Her sorunun kısa cevabı hocanın verdiği cevapla uyumludur; açıklamalar benim yazdığım, sınavda genişletmek için kullanacağın kısımdır.</div>
+
+<!-- Q1 -->
+<section class="q" id="q1">
+  <h3><span class="no">1</span><span>Kültür hangi bilim dalının ilk kez konusu olmuştur?</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Antropoloji (insanbilim).</div>
+  <p>Kültürü başlı başına bir inceleme konusu yapan ve ilk bilimsel tanımını veren disiplin antropolojidir. İngiliz antropolog <b>Edward Burnett Tylor</b>, 1871'de yayımlanan <i>İlkel Kültür</i> (Primitive Culture) kitabında kültürü şöyle tanımlar:</p>
+  <p class="soru-metni">Kültür; bilgi, inanç, sanat, ahlak, hukuk, gelenek ve insanın toplumun bir üyesi olarak edindiği diğer bütün yetenek ve alışkanlıkları içeren karmaşık bütündür.</p>
+  <p>Bu tanımdan üç sonuç çıkar ve üçü de sınavda işe yarar:</p>
+  <ul>
+    <li><b>Kültür öğrenilir.</b> Doğuştan gelmez, sonradan “edinilir”.</li>
+    <li><b>Kültür toplumsaldır.</b> İnsan onu tek başına değil, “toplumun bir üyesi olarak” edinir.</li>
+    <li><b>Kültür bir bütündür.</b> Yalnızca sanat ve edebiyat değil, yaşamın tamamıdır.</li>
+  </ul>
+  <p>Sosyoloji kültürle daha sonra, toplumu anlamanın bir yolu olarak ilgilenmiştir. Antropoloji ise baştan beri “kültürün bilimi” olarak kurulmuştur.</p>
+</section>
+
+<!-- Q2 -->
+<section class="q" id="q2">
+  <h3><span class="no">2</span><span>Kültür sosyolojisine dair hangi bilgi yanlıştır?</span></h3>
+  <table>
+    <thead><tr><th style="width:62%">İfade</th><th>Durum</th></tr></thead>
+    <tbody>
+      <tr><td>Sosyolojinin alt dalıdır.</td><td class="ok">Doğru ✓</td></tr>
+      <tr><td>Özellikle Amerika'da ortaya çıkmıştır.</td><td class="ok">Doğru ✓</td></tr>
+      <tr><td>Topluluğu bütünsel ele alır.</td><td class="ok">Doğru ✓</td></tr>
+      <tr><td>Sosyolojinin ilk alt dalıdır.</td><td class="no-x">Yanlış ✗</td></tr>
+    </tbody>
+  </table>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Yanlış olan: “Sosyolojinin ilk alt dalıdır.”</div>
+  <p>Kültür sosyolojisi, sosyolojinin kültürü yani anlamları, sembolleri, değerleri ve yaşam biçimlerini merkeze alan alt dalıdır. Ayrı bir alt dal olarak görece geç, özellikle Amerika Birleşik Devletleri'nde gelişmiş ve kurumsallaşmıştır. Topluluğu bütünsel ele alır: aileyi, dini, ekonomiyi, sanatı ayrı ayrı parçalar olarak değil, birbirine bağlı bir anlam bütünü olarak inceler.</p>
+  <p>“İlk alt dal” ifadesi ise yanlıştır. Sosyolojinin erken dönemde uğraştığı konular din, aile, iş bölümü ve kent gibi alanlardır; kültür sosyolojisi bunlardan sonra ayrı bir alan hâline gelmiştir. Üstelik kültür, ilk kez sosyolojinin değil antropolojinin konusu olmuştur (Soru 1).</p>
+  <div class="box derin" id="q2-derin"><span class="lab">Derin bilgi</span>“Kültür sosyolojisi” adının Almanya'da da eski bir geçmişi vardır: Alfred Weber 1935'te adında “kültür sosyolojisi” geçen bir kitap yayımlamıştır. Yine de alanın bugünkü hâliyle geliştiği yer Amerika'dır ve sınavda hocanın anahtarı geçerlidir.</div>
+</section>
+
+<!-- Q3 -->
+<section class="q" id="q3">
+  <h3><span class="no">3</span><span>“Birey doğduğunda ____ yaşar. Az çok öz kültürüne benzeyenlerle ____ yaşar. Bazen farklı olanla ____ yaşar.”</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Sırasıyla: <b>kültürleme</b> / <b>kültürlenme</b> / <b>kültürleşme</b>.</div>
+  <table>
+    <thead><tr><th style="width:21%">Kavram</th><th style="width:22%">Kiminle?</th><th style="width:25%">Ne olur?</th><th>Örnek</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Kültürleme<br><span class="small">enculturation</span></td><td>Kendi ailesi ve toplumu</td><td>Birey kendi kültürünü öğrenir ve içselleştirir.</td><td>Çocuğun ana dilini, sofra adabını, büyüklere saygıyı evde öğrenmesi.</td></tr>
+      <tr><td class="k">Kültürlenme</td><td>Az çok kendine benzeyenler: aynı toplumun farklı çevreleri, alt kültürleri</td><td>Karşılıklı etkileşimle yeni alışkanlıklar, yeni bileşimler oluşur.</td><td>Yurtta kalan Karadenizli ve Egeli öğrencilerin birbirinin yemeğini, deyimini, müziğini benimsemesi.</td></tr>
+      <tr><td class="k">Kültürleşme<br><span class="small">acculturation</span></td><td>Belirgin biçimde farklı bir kültür</td><td>Sürekli temas sonunda iki taraf da değişir.</td><td>Almanya'ya göçen Türk aileleri ile Alman toplumu: döner Alman sokak yemeği olur, aileler de Alman iş ve zaman düzenini benimser.</td></tr>
+    </tbody>
+  </table>
+  <div class="box ipucu"><span class="lab">Sınav ipucu · ezber anahtarı</span>Sondaki harfe bak. Kültürle<b>M</b>e: evi<b>m</b>, aile<b>m</b> (ilk öğrenme). Kültürle<b>N</b>me: be<b>n</b>zeyenle. Kültürle<b>Ş</b>me: ba<b>ş</b>kasıyla.</div>
+  <div class="box dikkat"><span class="lab">Dikkat · kültürlenme terimi</span>Kültürleme ve kültürleşme kaynaklarda aynı anlamda geçer. <b>Kültürlenme</b> ise Türkçe kaynaklarda tek bir anlamda kullanılmaz: kimi kaynak onu kültürlemenin birey tarafındaki sonucu, kimi farklı grupların karşılaşmasından doğan yeni bileşim diye tanımlar. Sınavda hocanın derste verdiği üçlü ayrımı, yani yukarıdaki tabloyu kullan.</div>
+</section>
+
+<!-- Q4 -->
+<section class="q" id="q4">
+  <h3><span class="no">4</span><span>İlk kültürel öğrenme süreci hangisidir?</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Kültürleme.</div>
+  <p>Kültürleme doğumla başlar ve bireyin kendi toplumunun kültürünü edinmesidir. İki yolla işler: <b>bilinçli öğretme</b> (annenin “misafire böyle davranılmaz” demesi) ve <b>farkında olmadan öğrenme</b> (çocuğun büyükleri taklit etmesi). Bir ömür boyu sürer, ama temeli çocuklukta ve ailede atılır. Bu yüzden “ilk” kültürel öğrenme sürecidir; kültürlenme ve kültürleşme ancak bunun üzerine gelir.</p>
+</section>
+
+<!-- Q5 -->
+<section class="q" id="q5">
+  <h3><span class="no">5</span><span>Kültürleme nerede gerçekleşir? En önemli aktörleri nelerdir?</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Aile, akraba, akran grubu, okul, dil ve din, medya, devlet (örneğin Millî Eğitim Bakanlığı), iş yaşamı, dijital ortam, ekonomi, sanat ve benzerleri. Yani hepsi; ama en önemlisi <b>aile</b>.</div>
+  <table>
+    <thead><tr><th style="width:30%">Aktör</th><th>Ne öğretir?</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Aile</td><td>Ana dil, temel alışkanlıklar, ilk değerler, sevgi ve güven.</td></tr>
+      <tr><td class="k">Akraba ve komşu</td><td>Saygı kalıpları, dayanışma, bayram ve düğün ritüelleri.</td></tr>
+      <tr><td class="k">Akran grubu</td><td>Eşitler arası ilişki, paylaşma, oyun, moda, gençlik dili.</td></tr>
+      <tr><td class="k">Okul</td><td>Resmî bilgi, disiplin, zaman düzeni, yurttaşlık.</td></tr>
+      <tr><td class="k">Dil ve din</td><td>Dünyayı adlandırma biçimi; iyi ile kötü, helal ile haram, kutsal olan.</td></tr>
+      <tr><td class="k">Medya ve dijital ortam</td><td>Popüler kültür, tüketim kalıpları, küresel etkiler.</td></tr>
+      <tr><td class="k">Devlet (MEB)</td><td>Müfredat, resmî törenler, ortak tarih anlatısı.</td></tr>
+      <tr><td class="k">İş yaşamı ve ekonomi</td><td>Çalışma ahlakı, meslek kültürü, para ve emekle ilişki.</td></tr>
+      <tr><td class="k">Sanat</td><td>Estetik beğeni, ortak duygular ve hikâyeler.</td></tr>
+    </tbody>
+  </table>
+  <p><b>Neden en önemlisi aile?</b> Dört gerekçe yazabilirsin: (1) İlk aktördür; çocuk diğerleriyle karşılaşmadan önce aileyle tanışır. (2) En uzun ve en yoğun temas ailededir. (3) Aile sevgi ve güven bağıyla öğretir, bu yüzden öğrettikleri derine işler. (4) Diğer aktörlerin etkisini süzer: hangi okula gidileceğine, hangi yayının izleneceğine uzun süre aile karar verir.</p>
+</section>
+
+<!-- Q6 -->
+<section class="q" id="q6">
+  <h3><span class="no">6</span><span>“Kültürleme ____ iken; sosyalleşme ____.”</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Kültürleme, bireyin <b>ilk öğrenme aşamasıdır</b> ve topluluğun norm, değer ve sembollerinin <b>içselleştirilmesidir</b>; sosyalleşme ise toplumun kurallarını <b>öğrenme ve uyum sağlama</b> sürecidir.</div>
+  <table>
+    <thead><tr><th style="width:24%"></th><th style="width:38%">Kültürleme</th><th>Sosyalleşme</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Ne öğrenilir?</td><td>Kültürün içeriği: değerler, semboller, anlamlar, inançlar.</td><td>Toplumun kuralları ve roller: öğrenci, çalışan, yurttaş olmak.</td></tr>
+      <tr><td class="k">Sonuç</td><td>İçselleştirme: “bizden biri” olmak.</td><td>Uyum: toplumun içinde işleyebilmek.</td></tr>
+      <tr><td class="k">Yer</td><td>Önce aile ve yakın çevre.</td><td>Aileyle başlar; okul, iş ve kurumlarla genişler.</td></tr>
+      <tr><td class="k">Sorduğu soru</td><td>“Biz kimiz, neye değer veririz?”</td><td>“Burada nasıl davranılır?”</td></tr>
+      <tr><td class="k">Kökeni</td><td>Antropolojinin kavramı.</td><td>Sosyolojinin kavramı.</td></tr>
+    </tbody>
+  </table>
+  <p>İki süreç iç içedir ve gerçek hayatta aynı anda yaşanır. Farkı şöyle aklında tut: kültürleme <b>içeriği</b> (ne öğrenildiğini), sosyalleşme <b>uyumu</b> (topluma katılmayı) vurgular. Bu yüzden bir insan iyi kültürlenmiş, ama yeterince sosyalleşememiş olabilir. Bir sonraki sorudaki Ahmet tam olarak bu durumdadır.</p>
+</section>
+
+<!-- Q7 -->
+<section class="q" id="q7">
+  <h3><span class="no">7</span><span>Açık uçlu soru: Ahmet vakası</span></h3>
+  <p class="soru-metni">“Ahmet, doğduğu evde ailesi ve akrabaları tarafından çok sevilirken, okul ve iş hayatında sorun yaşayan biri olmuştur. Bu hususu şu kavramlarla ele alıp açıklayın: kültür, kültürleme, sosyalleşme, kültürlenme, kültürleşme, kültürel şok. Ele alırken kavramların altını çizin.”</p>
+  <h4>Önce: her kavram Ahmet'te neye karşılık geliyor?</h4>
+  <table>
+    <thead><tr><th style="width:24%">Kavram</th><th>Ahmet'in hikâyesindeki karşılığı</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Kültür</td><td>Ahmet'in doğuştan getirmediği, çevresinden öğrendiği her şey.</td></tr>
+      <tr><td class="k">Kültürleme</td><td>Evde ailesinden ve akrabalarından öğrendikleri. Başarılı: çok seviliyor.</td></tr>
+      <tr><td class="k">Sosyalleşme</td><td>Okulun ve işin kurallarına uyum. Sorunlu olan kısım burası.</td></tr>
+      <tr><td class="k">Kültürlenme</td><td>Okulda ve işte kendine az çok benzeyen kişilerle alışveriş. Temkinli kalmış.</td></tr>
+      <tr><td class="k">Kültürleşme</td><td>Kendinden farklı bir çevreyle karşılıklı değişim. Gerçekleşmemiş.</td></tr>
+      <tr><td class="k">Kültürel şok</td><td>Bildiği kuralların geçmediği ortamda yaşadığı bocalama ve kaygı.</td></tr>
+    </tbody>
+  </table>
+  <div class="model">
+    <span class="lab">Model cevap</span>
+    <p><u>Kültür</u>, bir toplumun üyelerinin öğrenerek edindiği ve paylaştığı her şeydir: dil, değerler, kurallar, alışkanlıklar. İnsan üretir, ama bireysel değil toplumsaldır. Ahmet de kültürü doğuştan getirmemiş, çevresinden öğrenmiştir.</p>
+    <p>Ahmet'in ilk öğrenme yeri evidir. Dilini, sofra adabını, neyin ayıp neyin makbul olduğunu ailesinden ve akrabalarından öğrenmiştir. Buna <u>kültürleme</u> denir. Evde çok sevilmesi, ailesinin değerlerini iyi içselleştirdiğini, yani kültürlemenin sorunsuz gerçekleştiğini gösterir.</p>
+    <p>Sorun evden dışarı çıkınca başlar. Okul ve iş, kuralların yazılı, ilişkilerin resmî olduğu ve insanın sevgiyle değil başarıyla değerlendirildiği ortamlardır. Bireyin bu geniş toplumun kurallarını öğrenip uyum sağlamasına <u>sosyalleşme</u> denir. Ahmet'in eksiği buradadır: evde geçerli olan davranışlar, örneğin her isteğinin karşılanması ya da hatalarının hoş görülmesi, okulda ve işte karşılık bulmamıştır. Ahmet iyi kültürlenmiş, ama yeterince sosyalleşememiştir.</p>
+    <p>Okulda ve işte Ahmet, kendi kültürüne az çok benzeyen ama başka ailelerden ve çevrelerden gelen insanlarla karşılaşır. Onlarla etkileşerek yeni alışkanlıklar edinmesi <u>kültürlenme</u> olurdu. Ahmet bu alışverişe girmekte temkinli davranmış, “bizim evde böyle yapılmaz” diyerek kendini kapatmıştır.</p>
+    <p>Çevresi kendi kültüründen belirgin biçimde farklıysa, örneğin başka bir şehirde farklı bir yaşam tarzının hâkim olduğu bir okul ya da iş yerindeyse, Ahmet'ten beklenen <u>kültürleşme</u>dir: karşı taraftan bir şeyler alıp kendi kültüründen bir şeyler vererek değişmek. Ahmet bunun yerine büyük olasılıkla <u>kültürel şok</u> yaşamıştır; yani bildiği kuralların geçmediği bir ortamda bocalamış, yabancılık ve kaygı duymuştur. Şok karşısında uyum sağlamak yerine öz kültürünü korumaya çekilmiş, bu da okul ve iş hayatındaki sorunlarını kalıcı hâle getirmiştir.</p>
+    <p><b>Sonuç:</b> Ahmet'in sorunu kültürsüzlük değil, tek bir çevrenin, yani ailenin kültürüyle sınırlı kalmasıdır. Aile kültürlemeyi başarmış; ancak Ahmet'i ev dışındaki topluma hazırlayan sosyalleşme, kültürlenme ve kültürleşme süreçleri aksamıştır.</p>
+  </div>
+  <div class="box ipucu"><span class="lab">Sınav ipucu</span>Soru “altını çizin” diyor; çizmeyi unutma. Her kavramı önce bir cümleyle tanımla, sonra Ahmet'e bağla. Sırayı bozma: kültür, kültürleme, sosyalleşme, kültürlenme, kültürleşme, kültürel şok. Kişi adı değişse de (Ayşe, köyden kente göçen aile, yurt dışına giden öğrenci) iskelet aynıdır.</div>
+</section>
+
+<!-- Q8 -->
+<section class="q" id="q8">
+  <h3><span class="no">8</span><span>İlk kültür çalışmaları kuramı hangisidir? Temsilcileri kimlerdir?</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span><b>Evrimcilik.</b> Temsilcileri: Edward Burnett Tylor, Lewis Henry Morgan, Herbert Spencer, James George Frazer.</div>
+  <p>Evrimcilik 19. yüzyılın ikinci yarısında ortaya çıkar. Biyolojideki evrim düşüncesini topluma uygular. Temel iddiası şudur: <b>bütün toplumlar aynı basamaklardan, aynı sırayla geçer.</b> Buna tek çizgili evrim denir. Bu bakışa göre “ilkel” denen toplumlar, Avrupa'nın çoktan geride bıraktığı basamaklarda duran toplumlardır.</p>
+  <table>
+    <thead><tr><th style="width:20%">Kim</th><th style="width:30%">Eser</th><th>Aşama şeması</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Tylor</td><td><i>İlkel Kültür</i> (1871)</td><td>Dinin ilk aşaması animizmdir (canlıcılık: doğadaki varlıkların ruhu olduğu inancı). Ders kitaplarında dizi çoğunlukla animizm → çoktanrıcılık → tektanrıcılık diye verilir. “Kalıntı” kavramı da onundur.</td></tr>
+      <tr><td class="k">Morgan</td><td><i>Eski Toplum</i> (1877)</td><td>Yabanıllık → barbarlık → uygarlık.</td></tr>
+      <tr><td class="k">Spencer</td><td>Toplumsal evrim düşüncesi</td><td>Toplum bir organizma gibi basitten karmaşığa doğru evrilir.</td></tr>
+      <tr><td class="k">Frazer</td><td><i>Altın Dal</i> (1890)</td><td>Düşüncenin evrimi: büyü → din → bilim.</td></tr>
+    </tbody>
+  </table>
+  <p><b>Dört özellik</b> (açık uçlu soruda yazılacak):</p>
+  <ul>
+    <li><b>Tek çizgili:</b> her toplum için tek bir gelişme yolu vardır.</li>
+    <li><b>Karşılaştırmalı:</b> toplumları yan yana koyup basamaklara dizer.</li>
+    <li><b>Masa başı antropolojisi:</b> çoğu, incelediği toplumlara gitmeden gezgin, misyoner ve sömürge memurlarının raporlarıyla çalışmıştır.</li>
+    <li><b>Etnosantrik:</b> etnosantrizm, başka kültürleri kendi kültürünü ölçü alarak yargılamaktır. Evrimciler merdivenin en üst basamağına kendi toplumlarını, yani Batı'yı koyar.</li>
+  </ul>
+</section>
+
+<!-- Q9 -->
+<section class="q" id="q9">
+  <h3><span class="no">9</span><span>Evrimcilik ile Tarihsel Tikelciliğin farkı nedir?</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Evrimcilik çok etnosantriktir: bütün toplumları tek bir gelişme merdivenine dizer. Tarihsel tikelcilik ise her kültürü kendi yerel koşulları ve kendi tarihi içinde ele alır.</div>
+  <table>
+    <thead><tr><th style="width:22%"></th><th style="width:38%">Evrimcilik</th><th>Tarihsel Tikelcilik</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Temel soru</td><td>Bu toplum merdivenin hangi basamağında?</td><td>Bu kültür kendi tarihinde nasıl oluştu?</td></tr>
+      <tr><td class="k">Tarih anlayışı</td><td>Herkes için tek ve ortak bir yol.</td><td>Her kültürün kendine özgü yolu.</td></tr>
+      <tr><td class="k">Değer yargısı</td><td>İleri ve geri toplum ayrımı yapar.</td><td>Üstün ya da geri kültür yoktur (kültürel görelilik).</td></tr>
+      <tr><td class="k">Yöntem</td><td>Masa başı; ikinci el raporlar; büyük genellemeler.</td><td>Saha çalışması; önce ayrıntılı veri, sonra dikkatli genelleme.</td></tr>
+      <tr><td class="k">Benzerlikler</td><td>Aynı aşamada olmanın kanıtı.</td><td>Farklı nedenlerden ya da kültürler arası alışverişten doğabilir.</td></tr>
+      <tr><td class="k">Temsilci</td><td>Tylor, Morgan, Spencer, Frazer.</td><td>Franz Boas ve öğrencileri.</td></tr>
+    </tbody>
+  </table>
+  <p><b>Aynı olaya iki bakış:</b> Bir köyde yağmur duası yapıldığını düşün. Evrimci, “bu, büyü aşamasından kalma bir uygulamadır; toplum ilerledikçe kaybolacak” der. Boas'ın izinden giden biri ise “bu topluluğun tarihinde bu uygulama nasıl oluştu, bugün onlar için ne ifade ediyor?” diye sorar ve başka toplumlarla ileri-geri kıyaslaması yapmaz.</p>
+</section>
+
+<!-- Q10 -->
+<section class="q" id="q10">
+  <h3><span class="no">10</span><span>Evrimciliğe eleştirel olarak doğan kuram hangisidir? Temel varsayımı nedir?</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span><b>Tarihsel Tikelcilik</b>, kurucusu <b>Franz Boas</b>. Temel varsayımı: her toplum kendi tarihsel koşulları içinde incelenir.</div>
+  <p>“Tikel”, tekil ve kendine özgü demektir. Boas, Alman asıllı Amerikalı bir antropologdur ve Amerikan antropolojisinin kurucusu sayılır. Evrimciliğe dört noktada itiraz eder:</p>
+  <ol>
+    <li><b>Tek çizgili evrim kanıtlanmamış bir varsayımdır.</b> Birbirine benzeyen gelenekler farklı toplumlarda farklı nedenlerle ortaya çıkmış olabilir; benzerlik aynı basamakta olmayı göstermez.</li>
+    <li><b>Kültürler ileri ve geri diye sıralanamaz.</b> Her kültür kendi ölçüleriyle anlaşılmalıdır. Buna kültürel görelilik denir ve etnosantrizmin karşıtıdır.</li>
+    <li><b>Masa başında değil sahada çalışılmalıdır.</b> Önce ayrıntılı veri toplanır, genelleme ondan sonra gelir.</li>
+    <li><b>Kültürler birbirinden öğe alır.</b> Buna kültürel yayılma (difüzyon) denir. Her kültür, kendi tarihinin ve aldığı etkilerin özgün bir bileşimidir.</li>
+  </ol>
+  <div class="box derin" id="q10-derin"><span class="lab">Derin bilgi</span>Boas'ın öğrencileri arasında Alfred Kroeber, Ruth Benedict, Margaret Mead ve Edward Sapir vardır. Bu yüzden tarihsel tikelcilik 20. yüzyılın ilk yarısında Amerikan antropolojisine damga vurmuştur.</div>
+</section>
+
+<!-- Q11 -->
+<section class="q" id="q11">
+  <h3><span class="no">11</span><span>Malinowski hangi kuramın kurucusudur?</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>İşlevselcilik (fonksiyonalizm).</div>
+  <p><b>Bronislaw Malinowski</b> Polonya doğumlu, İngiltere'de çalışmış bir antropologdur. İşlevselciliğin ana fikri şudur: bir kültürdeki her öğe, yani her kurum, gelenek ve inanç <b>bir işe yarar</b>; insanın bir ihtiyacını karşılar. Bu yüzden işlevselci, evrimci gibi “bu gelenek hangi aşamadan kaldı?” ya da tarihselci gibi “nereden geldi?” diye sormaz. Sorusu şudur: <b>“Bu gelenek bugün, bu toplumda ne işe yarıyor?”</b></p>
+  <p>Malinowski'nin işlevselciliği bireyin ihtiyaçlarından yola çıkar (Soru 16'daki İhtiyaçlar Teorisi). Aynı dönemde Radcliffe-Brown'ın geliştirdiği çizgi ise bireyi değil toplumsal yapıyı merkeze alır ve “yapısal işlevselcilik” adını taşır (Soru 13).</p>
+</section>
+
+<!-- Q12 -->
+<section class="q" id="q12">
+  <h3><span class="no">12</span><span>İlk etnografya kime aittir?</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span><b>Malinowski</b>'ye aittir; Trobriand Adaları yerlileri üzerinedir.</div>
+  <p><b>Etnografya</b>, bir topluluğun yaşamını yerinde ve uzun süre gözleyerek ayrıntılı biçimde yazıya dökmektir. Malinowski, Birinci Dünya Savaşı yıllarında Yeni Gine'nin doğusundaki Trobriand Adaları'nda yerlilerin arasında yaşadı, dillerini öğrendi, gündelik hayatlarına katıldı. Bu çalışmasını 1922'de <i>Batı Pasifik'in Argonotları</i> (Argonauts of the Western Pacific) adıyla yayımladı. Kitabın ana konusu <b>Kula</b>'dır: adalar arasında kolye ve bilezik gibi değerli eşyaların törenle değiş tokuş edildiği bir halka.</p>
+  <p>Kullandığı yönteme <b>katılımcı gözlem</b> denir: araştırmacı incelediği insanlarla birlikte yaşar, onların yaptığını yapar ve gözler. Malinowski amacını “yerlinin bakış açısını kavramak” diye özetler.</p>
+  <div class="box derin"><span class="lab">Derin bilgi</span>Malinowski'den önce de topluluklar üzerine yazılmış eserler vardı; Morgan İrokua yerlilerini, Boas Kuzey Amerika'nın yerli halklarını yerinde incelemişti. Malinowski'nin “ilk” sayılmasının nedeni, uzun süreli, yerel dilde yürütülen ve katılımcı gözleme dayanan modern etnografyanın ölçüsünü onun koymasıdır. Evrimcilerin masa başı antropolojisinin tam tersidir.</div>
+</section>
+
+<!-- Q13 -->
+<section class="q" id="q13">
+  <h3><span class="no">13</span><span>“Malinowski ____ diye sorarken; Radcliffe-Brown ____ diye sorar.”</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Malinowski: “Bir kurum <b>bireylerin hangi ihtiyaçlarını</b> karşılıyor?”<br>Radcliffe-Brown: “Bu kurum <b>toplumsal yapının devamlılığına</b> nasıl katkıda bulunuyor?”</div>
+  <table>
+    <thead><tr><th style="width:22%"></th><th style="width:38%">Malinowski</th><th>Radcliffe-Brown</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Odak</td><td>Birey ve ihtiyaçları.</td><td>Toplum ve yapısı.</td></tr>
+      <tr><td class="k">İşlev nedir?</td><td>Bir ihtiyacın karşılanması.</td><td>Toplumsal yapının sürmesine yapılan katkı.</td></tr>
+      <tr><td class="k">Kuramın adı</td><td>İşlevselcilik.</td><td>Yapısal işlevselcilik.</td></tr>
+      <tr><td class="k">Benzetme</td><td>Kültür, ihtiyaçları karşılayan bir araçtır.</td><td>Toplum bir beden gibidir; kurumlar organlardır.</td></tr>
+      <tr><td class="k">Cenaze töreni</td><td>Yakınını kaybeden kişinin acısını ve ölüm korkusunu yatıştırır.</td><td>Ölümle sarsılan grubu yeniden bir araya getirir, dayanışmayı tazeler.</td></tr>
+      <tr><td class="k">Bayramlaşma</td><td>Kişinin ait olma ve sevilme ihtiyacını karşılar.</td><td>Akrabalık bağlarını ve kuşaklar arası saygı düzenini yeniden kurar.</td></tr>
+    </tbody>
+  </table>
+  <p><b>Toplumsal yapı</b>, bir toplumdaki insanlar ve gruplar arasındaki düzenli ilişkiler ağıdır: akrabalık, yaş, statü, otorite ilişkileri gibi. Radcliffe-Brown'a göre bir geleneğin işlevi, bu ağın dağılmadan sürmesine yaptığı katkıdır.</p>
+  <div class="box ipucu"><span class="lab">Sınav ipucu</span>İkisi de işlevselcidir; ikisi de “ne işe yarıyor?” diye sorar. Fark, “kimin için?” sorusundadır. Malinowski: birey için. Radcliffe-Brown: toplumun bütünü için.</div>
+</section>
+
+<!-- Q14 -->
+<section class="q" id="q14">
+  <h3><span class="no">14</span><span>“Yoğun betimleme” kim tarafından ele alınır?</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Clifford Geertz.</div>
+  <p><b>Clifford Geertz</b> Amerikalı bir antropologdur ve <b>yorumsamacı antropolojinin</b> en bilinen ismidir. Yoğun betimlemeyi 1973 tarihli <i>Kültürlerin Yorumlanması</i> kitabının ilk bölümünde anlatır. Terimi filozof Gilbert Ryle'dan almıştır. Türkçede “kalın betimleme” ve “derinlemesine betimleme” diye de geçer; üçü aynı şeydir.</p>
+  <p>Geertz, sosyolog Max Weber'e dayanarak kültürü insanın kendi ördüğü <b>anlam ağları</b> olarak tanımlar. Bu yüzden antropoloğun işi doğa bilimci gibi yasa aramak değil, anlamı yorumlamaktır.</p>
+  <ul>
+    <li><b>İnce (yüzeysel) betimleme:</b> davranışı dışarıdan görüldüğü kadarıyla kaydeder.</li>
+    <li><b>Yoğun betimleme:</b> davranışı, o toplumdaki anlamı, bağlamı ve yapanın niyetiyle birlikte anlatır.</li>
+  </ul>
+  <p><b>Geertz'in kendi örneği: göz kırpma.</b> İki çocuk sağ göz kapağını hızla kapatıp açıyor. Kamera ikisini de aynı kaydeder. Oysa birinin gözü seğiriyor, öteki arkadaşına gizlice işaret veriyor. Üçüncü bir çocuk da ikincinin taklidini yapıp onunla alay ediyor olabilir. İnce betimleme üçü için de “göz kapağı kapandı” der. Yoğun betimleme, hangisinin seğirme, hangisinin işaret, hangisinin alay olduğunu anlatır.</p>
+</section>
+
+<!-- Q15 -->
+<section class="q" id="q15">
+  <h3><span class="no">15</span><span>Yoğun betimlemeye örnek veriniz.</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Yoğun betimleme, betimlemenin daha derin ve daha sembolik hâlidir. Örnek: sınıflardaki Atatürk fotoğrafı bir Amerikalı için “bir adamın fotoğrafı”dır; bizim için ise kurucu lidere, kutsal sayılan bir değere karşılık gelir.</div>
+  <table>
+    <thead><tr><th style="width:21%">Durum</th><th style="width:30%">İnce betimleme</th><th>Yoğun betimleme</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Sınıftaki Atatürk fotoğrafı</td><td>Duvarda çerçeveli bir erkek fotoğrafı asılı.</td><td>Cumhuriyetin kurucusunu, bağımsızlığı ve devleti simgeler; yeri tahtanın üstüdür, önünde saygıyla durulur. Fotoğraf değil semboldür.</td></tr>
+      <tr><td class="k">Misafire çay</td><td>Ev sahibi küçük bir bardakta sıcak içecek veriyor.</td><td>“Hoş geldin, seni ağırlıyorum” demektir. Geri çevirmek ayıp sayılabilir; bardağın üstüne kaşık koymak “yeter” anlamına gelir.</td></tr>
+      <tr><td class="k">Bayramda el öpme</td><td>Genç, yaşlının elini dudağına, sonra alnına götürüyor.</td><td>Saygının ve kuşaklar arası bağın ifadesidir; alna koymak “seni başımın üstünde tutuyorum” demektir. Karşılığında dua ve harçlık gelir.</td></tr>
+      <tr><td class="k">Düğün konvoyu</td><td>Arabalar arka arkaya korna çalarak gidiyor.</td><td>Evlilik topluma duyurulmaktadır; sevinç paylaşılır, iki aile birleştiğini herkese ilan eder.</td></tr>
+    </tbody>
+  </table>
+  <div class="box ipucu"><span class="lab">Sınav ipucu · üç adımda yoğun betimleme</span>(1) Ne görülüyor? (2) Bu toplumda ne anlama geliyor? (3) Bu anlam hangi değerden, tarihten ya da ilişkiden geliyor? Kendi örneğini kurarken bu üç adımı sırayla yaz; aynı davranışın bir yabancıya ne kadar anlamsız görüneceğini de bir cümleyle ekle.</div>
+</section>
+
+<!-- Q16 -->
+<section class="q" id="q16">
+  <h3><span class="no">16</span><span>İhtiyaçlar Teorisini ele alınız.</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Malinowski'nin bir toplumun kültürünü ele alıp anlama biçimidir. İşlevsel olan her şeyin bir ihtiyaca dayandığını varsayar; bu yüzden Malinowski işlevselci ekolün öncüsüdür. Temel ihtiyaçlar ile kültürün bu ihtiyaçlara verdiği tepkiyi birbirinden ayırarak ele alır. Örnek: sağlık bir temel ihtiyaçtır; bir toplumun farenjit ilacı bulması kültürün tepkisidir.</div>
+  <p>Malinowski bu kuramı ölümünden sonra, 1944'te yayımlanan <i>Bilimsel Bir Kültür Teorisi</i> kitabında toplu hâlde anlatır. Kuram üç katmandan oluşur.</p>
+  <h4>1. Temel (biyolojik) ihtiyaçlar ve kültürün tepkileri</h4>
+  <p>İnsan da bir canlıdır; yaşamak için bazı ihtiyaçlarını karşılamak zorundadır. Bu ihtiyaçlar bütün toplumlarda aynıdır. Kültür, her birine örgütlü bir karşılık üretir. Malinowski'nin tablosunda yedi çift vardır:</p>
+  <table id="q16-tablo">
+    <thead><tr><th style="width:27%">Temel ihtiyaç</th><th style="width:28%">Kültürün tepkisi</th><th>Günlük örnek</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Beslenme (metabolizma)</td><td>Yiyecek sağlama düzeni</td><td>Tarım, pazar, mutfak, sofra adabı.</td></tr>
+      <tr><td class="k">Üreme</td><td>Akrabalık</td><td>Evlilik, aile, soy.</td></tr>
+      <tr><td class="k">Bedensel rahatlık</td><td>Barınma</td><td>Ev, giyim, ısınma.</td></tr>
+      <tr><td class="k">Güvenlik</td><td>Korunma</td><td>Savunma, kolluk, itfaiye.</td></tr>
+      <tr><td class="k">Hareket</td><td>Etkinlikler</td><td>Oyun, spor, iş, yolculuk.</td></tr>
+      <tr><td class="k">Büyüme</td><td>Yetiştirme, eğitim</td><td>Çocuk bakımı, çıraklık, okul.</td></tr>
+      <tr><td class="k">Sağlık</td><td>Sağlık bakımı (hijyen)</td><td>Temizlik, hekimlik, ilaç; hocanın farenjit ilacı örneği.</td></tr>
+    </tbody>
+  </table>
+  <h4>2. Türemiş (araçsal) ihtiyaçlar</h4>
+  <p>İnsanlar temel ihtiyaçlarını tek başlarına değil, örgütlenerek karşılar. Örgütlenmenin kendisi de yeni ihtiyaçlar doğurur. Bunlar biyolojik değildir; kültürden türer. Dört başlıkta toplanır:</p>
+  <ul>
+    <li><b>Ekonomi:</b> araç gerecin ve malların üretilmesi, dağıtılması, yenilenmesi.</li>
+    <li><b>Toplumsal denetim:</b> davranışların hukuk, ahlak ve gelenekle kurala bağlanması.</li>
+    <li><b>Eğitim:</b> bilginin ve geleneğin yeni kuşaklara aktarılması.</li>
+    <li><b>Siyasal örgütlenme:</b> otoritenin belirlenmesi, kararların alınıp uygulanması.</li>
+  </ul>
+  <h4>3. Bütünleştirici (simgesel) ihtiyaçlar</h4>
+  <p>Bir toplumun üyelerini ortak anlamlar etrafında birleştiren ihtiyaçlardır: <b>bilgi, din, büyü, sanat</b> ve bunları taşıyan dil ile semboller. İnsan yalnızca doymak ve korunmak istemez; yaptığı şeyin bir anlamı olsun ister.</p>
+  <div class="box ipucu"><span class="lab">Sınav ipucu · kuramın tek cümlesi</span><b>İhtiyaç evrenseldir, tepki kültüreldir.</b> Herkes acıkır; bu biyolojidir. Ama kimin ne yiyeceğini, neyi yemeyeceğini, çatalla mı çubukla mı yiyeceğini kültür belirler. Zincir şöyle işler: ihtiyaç → kültürel tepki (kurum) → yeni ihtiyaç → yeni kurum.</div>
+  <div class="box derin"><span class="lab">Derin bilgi · kurama yöneltilen eleştiriler</span>
+    <ul>
+      <li>Kültürü biyolojiye indirger.</li>
+      <li>Aynı ihtiyaca farklı toplumların neden farklı tepki verdiğini açıklayamaz.</li>
+      <li>Her şeyde bir işlev bulur; çatışmayı, işe yaramayan kurumları ve değişmeyi açıklamakta zayıf kalır.</li>
+      <li>Açıklaması kendi içinde döner: “Bu gelenek var, çünkü işlevi var; işlevi var, çünkü hâlâ yaşıyor.”</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Q17 -->
+<section class="q" id="q17">
+  <h3><span class="no">17</span><span>Kültürel artık nedir? Örnek veriniz.</span></h3>
+  <div class="box kisa"><span class="lab">Kısa cevap</span>Toplumda artık eskisi kadar yeri olmayan, yani işlevselliğini büyük ölçüde yitirmiş olduğu hâlde varlığını sürdüren kültür unsurudur. Örnek: gaz lambası.</div>
+  <p><b>Başka örnekler.</b> Maddi kültürden: daktilo, çevirmeli telefon, karasaban, kömür ütüsü. Manevi kültürden: kurşun dökme, tahtaya vurma, eşikte oturmama, nazarlık takma.</p>
+  <p><b>Gaz lambası örneğini nasıl açarsın?</b> Elektrik yaygınlaşmadan önce gaz lambası evin temel aydınlatma aracıydı. Bugün aydınlatma ihtiyacını elektrik karşılıyor; lamba bu işlevini yitirdi. Yine de tümüyle kaybolmadı: evlerde süs eşyası, hatıra, nostalji nesnesi olarak ya da elektrik kesildiğinde yedek olarak duruyor. Yani ilk işlevi büyük ölçüde bitmiş, ama kendisi kültürde yaşamaya devam ediyor.</p>
+  <div class="box derin" id="q17-derin"><span class="lab">Derin bilgi · kavram nereden geliyor?</span>Bu fikrin kökü evrimci Tylor'ın “kalıntı” kavramıdır: eski bir aşamadan kalan, işlevini yitirdiği hâlde alışkanlıkla süren öğe. Evrimciler kalıntıları geçmiş aşamaların kanıtı sayar. Malinowski ise buna itiraz eder: ona göre hiçbir öğe tümüyle işlevsiz yaşamaz; yaşıyorsa işlevi değişmiştir. Sınavda tanımın ardından “işlev çoğu zaman kaybolmaz, değişir” cümlesini eklemek cevabını güçlendirir.<br><br><b>Terim notu:</b> Taradığım Türkçe kaynaklarda bu kavram “kültürel artık” adıyla değil, “kalıntı” adıyla geçiyor. “Kültürel artık” büyük olasılıkla dersin kendi terimi; sınavda hocanın terimini kullan, ama başka bir kitapta “kalıntı” görürsen aynı şey olduğunu bil.</div>
+  <div class="box ipucu"><span class="lab">Sınav ipucu · karıştırma</span><b>Kültürel gecikme</b> başka bir kavramdır: maddi kültür hızlı değişir, manevi kültür arkadan gelir. Örnek: akıllı telefon herkesin elinde, ama onu toplu taşımada nasıl kullanacağımıza dair görgü kuralları oturmadı. Kültürel artık <b>eskinin sürmesi</b>, kültürel gecikme <b>yeniye yetişememe</b>dir.</div>
+</section>
+
+<!-- Q18 -->
+<section class="q" id="q18">
+  <h3><span class="no">18</span><span>Nuerler ve Clifford Geertz: derinlemesine betimleme üzerinden gelebilecek soru</span></h3>
+  <p>Hoca bu konudan soru gelebileceğini not düşmüş. Önce bilmen gerekenler, sonra olası bir soru ve model cevabı.</p>
+  <h4>Nuerler kimdir?</h4>
+  <p>Nuerler, Güney Sudan'da Nil çevresinde yaşayan, geçimini sığır yetiştirerek sağlayan bir halktır. Onları İngiliz antropolog <b>E. E. Evans-Pritchard</b> incelemiş ve 1940'ta <i>Nuerler</i> (The Nuer) adlı etnografyasını yayımlamıştır. Üç nokta önemlidir:</p>
+  <ul id="q18-liste">
+    <li><b>Sığır hayatın merkezindedir.</b> Evlilik, dostluk, kavga, ibadet, hepsi sığır üzerinden yürür.</li>
+    <li><b>Devlet ve kral yoktur, ama düzen vardır.</b> Evans-Pritchard buna “düzenli anarşi” der. Toplum, soy gruplarının dengesiyle ayakta durur; anlaşmazlıklarda “leopar derili şef” denen kişi arabuluculuk yapar.</li>
+    <li><b>Zaman saatle değil yaşamla ölçülür.</b> Yağışlı ve kurak mevsim, sağım vakti, sürünün otlağa çıkışı gibi işler zamanı belirler.</li>
+  </ul>
+  <h4>Olası soru</h4>
+  <p class="soru-metni">“Nuerlerde sığırın yerini ince ve yoğun (derinlemesine) betimleme ile anlatınız. Geertz'in yaklaşımıyla ilişkilendiriniz.”</p>
+  <div class="model">
+    <span class="lab">Model cevap</span>
+    <p>İnce betimleme yalnızca görüneni söyler: “Nuerler sığır besler, sütünü içer, sürüleriyle birlikte mevsime göre yer değiştirir.” Bu cümle doğrudur ama Nuer'i anlamaya yetmez; çünkü aynı cümle sığır besleyen her topluluk için kurulabilir.</p>
+    <p>Yoğun betimleme, sığırın Nuer için ne anlama geldiğini anlatır. Sığır evliliğin koşuludur: damat tarafı gelinin ailesine sığır vermeden evlilik kurulmuş sayılmaz. Sığır barışın aracıdır: kan davası, ölenin ailesine sığır ödenerek kapatılır. Sığır ibadettir: kurban edilerek Tanrı ve atalarla bağ kurulur. Sığır kimliktir: genç bir erkek en sevdiği öküzün adıyla anılır, ona şarkılar söyler. Kavgaların çoğu da sığır yüzünden çıkar. Kısacası sığır Nuer için bir hayvan ya da mal değil, toplumsal ilişkilerin dilidir. Evans-Pritchard bu yüzden Nuer'i anlamak isteyene “ineği arayın” öğüdünü verir.</p>
+    <p>Bu, Geertz'in yoğun betimleme dediği şeyin tam karşılığıdır. Geertz'e göre kültür anlam ağlarıdır ve araştırmacının işi davranışı kaydetmek değil, o davranışın içindekiler için taşıdığı anlamı yorumlamaktır. Geertz bunu Bali'deki horoz dövüşleri üzerinde gösterir. İnce betimlemeyle horoz dövüşü, iki horozun dövüştüğü ve insanların bahis oynadığı bir eğlencedir. Yoğun betimlemeyle ise erkeklerin onurunun ve toplumdaki yerinin sahneye konduğu bir gösteridir; Balililer bu dövüşte kendi toplumlarını seyreder.</p>
+    <p><b>Sonuç:</b> Bir toplumu anlamak için “ne yapıyorlar?” sorusu yetmez; “bu, onlar için ne demek?” diye sormak gerekir. Nuer'in sığırı da, Bali'nin horozu da ancak bu ikinci soruyla anlaşılır.</p>
+  </div>
+</section>
+
+<!-- ======================= BÖLÜM 2 ======================= -->
+<h1 class="part" id="b2">Bölüm 2 · Malinowski belgesi</h1>
+<div class="partnote">Belgedeki konu anlatımının özeti, 10 test sorusunun gerekçeli cevapları ve iki açık uçlu soruya benim yazdığım cevaplar. Belgedeki örnek cevapları kopyalamadım; aynı sorulara baştan cevap verdim.</div>
+
+<h2 id="b2ozet">Konu özeti</h2>
+<p><b>Malinowski kimdir?</b> Polonya doğumlu, İngiltere'de çalışmış antropolog. İşlevselciliğin kurucusu ve Trobriand Adaları'ndaki saha araştırmasıyla modern etnografyanın öncüsüdür.</p>
+<p><b>Ana fikir.</b> Kültür rastgele oluşmuş gelenekler yığını değildir; insanların ihtiyaçlarını karşılamak için geliştirdiği kurum, kural, inanç ve davranışlardan oluşan <b>işlevsel bir sistemdir</b>. Zincir: biyolojik ihtiyaç → kültürel düzenleme → bu düzenlemenin doğurduğu yeni ihtiyaçlar.</p>
+<table>
+  <thead><tr><th style="width:25%">Kavram</th><th style="width:33%">Sorduğu soru</th><th>Örnek</th></tr></thead>
+  <tbody>
+    <tr><td class="k">Temel ihtiyaçlar</td><td>İnsan yaşamak için neye muhtaç?</td><td>Beslenme, üreme, barınma, güvenlik, sağlık.</td></tr>
+    <tr><td class="k">Türemiş (kültürel) ihtiyaçlar</td><td>Toplum bu ihtiyaçları karşılarken hangi düzene muhtaç olur?</td><td>Ekonomi, hukuk, eğitim, siyaset.</td></tr>
+    <tr><td class="k">Kültürel artık</td><td>Eski işlevini yitiren öğe neden sürüyor?</td><td>Gaz lambası, nazarlık, bazı düğün ritüelleri.</td></tr>
+  </tbody>
+</table>
+<p><b>Düğün örneğiyle üçü birden.</b> Temel ihtiyaç: üreme ve aile kurma. Türemiş ihtiyaç: evliliğin toplumca tanınması, iki ailenin bağlanması, akrabalık kurallarının işlemesi. Kültürel artık: gelin alayı gibi, ilk çıkış nedeni unutulmuş ama sürdürülen ritüeller.</p>
+<div class="box dikkat" id="b2-dikkat"><span class="lab">Dikkat · belgede düzeltilecek iki nokta</span>
+  <ol style="margin-bottom:0">
+    <li><b>Temel ihtiyaç sayısı.</b> Belgedeki tabloda sekiz satır var; sekizincisi “dinlenme → oyun, eğlence”. Malinowski'nin kendi tablosunda yedi çift bulunur ve dinlenme bunların arasında değildir (Soru 16'daki tablo). Sınavda hocanın verdiği listeyi esas al; ama “kaç temel ihtiyaç?” diye sorulursa özgün sayının yedi olduğunu bil.</li>
+    <li><b>“Kültürel artık (Residual Needs)” başlığı.</b> Malinowski'nin sınıflamasında böyle bir ihtiyaç türü yoktur; üç katman temel, türemiş ve bütünleştirici ihtiyaçlardır. Kültürel artık bir ihtiyaç değil, işlevi azaldığı hâlde süren bir <b>kültür öğesidir</b>. Kavramın kökü Tylor'ın “kalıntı”sıdır ve Malinowski bu kavramı eleştirir. Belge de aynı paragrafta bunu kabul ediyor.</li>
+  </ol>
+</div>
+
+<h2 id="b2test">10 test sorusu: cevap anahtarı ve gerekçeler</h2>
+<div class="anahtar">
+  <div>1 · <b>B</b></div><div>2 · <b>C</b></div><div>3 · <b>A</b></div><div>4 · <b>D</b></div><div>5 · <b>B</b></div>
+  <div>6 · <b>C</b></div><div>7 · <b>B</b></div><div>8 · <b>B</b></div><div>9 · <b>B</b></div><div>10 · <b>C</b></div>
+</div>
+
+<div class="mcq">
+  <p class="stem">1. Malinowski'nin kültür anlayışının temelinde hangi düşünce bulunmaktadır?</p>
+  <ul>
+    <li>A) Kültürün yalnızca sanat eserlerinden oluşması</li>
+    <li class="dogru">B) Kültürün insan ihtiyaçlarını karşılayan işlevsel bir sistem olması ✓</li>
+    <li>C) Kültürün biyolojik özelliklerden tamamen bağımsız olması</li>
+    <li>D) Kültürün yalnızca din tarafından belirlenmesi</li>
+  </ul>
+  <p class="why"><b>Neden B?</b> İşlevselciliğin tanımı budur. A kültürü sanata indirger. C tam tersini söyler: Malinowski'de kültür biyolojik ihtiyaçlardan doğar. D'de din yalnızca bütünleştirici ihtiyaçlardan biridir, tek belirleyici değildir.</p>
+</div>
+
+<div class="mcq">
+  <p class="stem">2. Aşağıdakilerden hangisi temel biyolojik ihtiyaçlardan biridir?</p>
+  <ul>
+    <li>A) Hukuk sistemi</li>
+    <li>B) Siyasi örgütlenme</li>
+    <li class="dogru">C) Beslenme ✓</li>
+    <li>D) Eğitim kurumu</li>
+  </ul>
+  <p class="why"><b>Neden C?</b> Beslenme bedenin yaşaması için zorunludur. Hukuk, siyasi örgütlenme ve eğitim kurumu doğada yoktur; insanların kurduğu düzenden türer.</p>
+</div>
+
+<div class="mcq">
+  <p class="stem">3. Malinowski'ye göre temel ihtiyaçlar kültürle nasıl bir ilişki içindedir?</p>
+  <ul>
+    <li class="dogru">A) Kültür temel ihtiyaçların karşılanma biçimini düzenler. ✓</li>
+    <li>B) Temel ihtiyaçlar yalnızca ekonomik sistemle ilgilidir.</li>
+    <li>C) Kültür biyolojik ihtiyaçları ortadan kaldırır.</li>
+    <li>D) Temel ihtiyaçların kültürle hiçbir ilişkisi yoktur.</li>
+  </ul>
+  <p class="why"><b>Neden A?</b> “İhtiyaç evrensel, tepki kültürel” cümlesinin karşılığıdır. Kültür açlığı ortadan kaldırmaz (C yanlış); neyin, nasıl, kiminle yeneceğini belirler. “Yalnızca” ve “hiçbir” gibi kesin sözler çoğu zaman çeldiricidir.</p>
+</div>
+
+<div class="mcq">
+  <p class="stem">4. Aşağıdakilerden hangisi türemiş kültürel ihtiyaca örnektir?</p>
+  <ul>
+    <li>A) Susamak</li>
+    <li>B) Açlık</li>
+    <li>C) Uyumak</li>
+    <li class="dogru">D) Hukuk ve toplumsal düzen ✓</li>
+  </ul>
+  <p class="why"><b>Neden D?</b> Susamak, açlık ve uyku bedenden gelir. Hukuk ve toplumsal düzen, insanlar birlikte yaşayınca ortaya çıkan “toplumsal denetim” ihtiyacıdır.</p>
+</div>
+
+<div class="mcq">
+  <p class="stem">5. Eğitim kurumunun Malinowski'nin yaklaşımındaki temel işlevlerinden biri nedir?</p>
+  <ul>
+    <li>A) Biyolojik üremeyi doğrudan gerçekleştirmek</li>
+    <li class="dogru">B) Bilgi ve kültürel değerleri yeni kuşaklara aktarmak ✓</li>
+    <li>C) İnsanların beslenme ihtiyacını ortadan kaldırmak</li>
+    <li>D) Bütün gelenekleri yok etmek</li>
+  </ul>
+  <p class="why"><b>Neden B?</b> Eğitim, kültürün kuşaktan kuşağa geçmesini sağlar; kültürlemenin kurumsal hâlidir. A üremenin, yani akrabalık kurumunun alanıdır. C ve D'de kurumlar ihtiyaçları ya da gelenekleri yok etmez, düzenler.</p>
+</div>
+
+<div class="mcq">
+  <p class="stem">6. Kültürel artık kavramı genel antropolojik kullanımda neyi ifade eder?</p>
+  <ul>
+    <li>A) Yeni ortaya çıkan teknolojileri</li>
+    <li>B) Yalnızca ekonomik faaliyetleri</li>
+    <li class="dogru">C) Geçmişten kalan ve değişerek devam eden kültürel unsurları ✓</li>
+    <li>D) Bütün biyolojik ihtiyaçları</li>
+  </ul>
+  <p class="why"><b>Neden C?</b> Artık, tanımı gereği eskidir (A olamaz), ekonomiyle sınırlı değildir (B olamaz) ve bir ihtiyaç değil bir kültür öğesidir (D olamaz).</p>
+</div>
+
+<div class="mcq">
+  <p class="stem">7. Bir toplumda tarımsal üretimin düzenlenmesi için iş bölümü ve mülkiyet kurallarının oluşturulması hangi kavramla ilişkilidir?</p>
+  <ul>
+    <li>A) Temel biyolojik ihtiyaç</li>
+    <li class="dogru">B) Türemiş kültürel ihtiyaç ✓</li>
+    <li>C) Biyolojik kalıtım</li>
+    <li>D) Fiziksel çevre</li>
+  </ul>
+  <p class="why"><b>Neden B?</b> Beslenme temel ihtiyaçtır; ama tarlayı kimin süreceği, ürünün kime ait olacağı gibi kurallar bu ihtiyacı karşılamak için kurulan düzenin gereğidir. Türemiş ihtiyaçlardan “ekonomi” başlığına girer.</p>
+</div>
+
+<div class="mcq">
+  <p class="stem">8. Malinowski'nin antropolojiye önemli katkılarından biri aşağıdakilerden hangisidir?</p>
+  <ul>
+    <li>A) Kültürü yalnızca yazılı belgelerle incelemesi</li>
+    <li class="dogru">B) Saha araştırması ve katılımcı gözlemi önemsemesi ✓</li>
+    <li>C) Toplumların birbirinden tamamen bağımsız olduğunu savunması</li>
+    <li>D) Kültürü yalnızca genetik özelliklerle açıklaması</li>
+  </ul>
+  <p class="why"><b>Neden B?</b> Trobriand Adaları'ndaki uzun saha çalışması modern etnografyanın ölçüsünü koymuştur. A, onun karşı çıktığı masa başı antropolojisidir. C ve D Malinowski'nin savunmadığı görüşlerdir.</p>
+</div>
+
+<div class="mcq">
+  <p class="stem">9. Bir geleneğin geçmişteki işlevini kaybetmesine rağmen sürdürülmesi hangi kavramla açıklanabilir?</p>
+  <ul>
+    <li>A) Temel ihtiyaç</li>
+    <li class="dogru">B) Kültürel artık ✓</li>
+    <li>C) Biyolojik zorunluluk</li>
+    <li>D) Ekonomik üretim</li>
+  </ul>
+  <p class="why"><b>Neden B?</b> Soru, kültürel artığın tanımını vermektedir: işlev gitmiş, öğe kalmış.</p>
+</div>
+
+<div class="mcq">
+  <p class="stem">10. Malinowski'nin işlevselci yaklaşımına göre bir kültürel kurumu incelerken öncelikle ne araştırılmalıdır?</p>
+  <ul>
+    <li>A) Yalnızca ne zaman ortaya çıktığı</li>
+    <li>B) Yalnızca hangi toplumda görüldüğü</li>
+    <li class="dogru">C) İnsan ve toplum yaşamında hangi ihtiyacı karşıladığı ✓</li>
+    <li>D) Başka toplumlarda bulunup bulunmadığı</li>
+  </ul>
+  <p class="why"><b>Neden C?</b> İşlevselcinin sorusu “ne işe yarıyor?” sorusudur. A tarihçinin ve evrimcinin sorusudur; B ve D karşılaştırma yapanın sorusudur.</p>
+</div>
+
+<h2 id="b2a1">Açık uçlu Soru 1</h2>
+<p class="soru-metni">Malinowski'nin temel ihtiyaçlar ve kültürel ihtiyaçlar yaklaşımını Türk toplumundaki aile kurumu üzerinden değerlendiriniz.</p>
+<div class="model">
+  <span class="lab">Benim cevabım</span>
+  <p>Malinowski'ye göre kültür, insan ihtiyaçlarını karşılayan işlevsel bir bütündür; bir kurumu anlamak için “hangi ihtiyacı karşılıyor?” diye sorulur. Aile bu soruya en zengin cevabı veren kurumdur, çünkü birden çok ihtiyaca aynı anda karşılık verir.</p>
+  <p><b>Temel ihtiyaçlar düzeyinde</b> aile, üremeyi evlilik ve akrabalık yoluyla düzenler. Çocuğun büyümesini bakım ve terbiyeyle sağlar. Barınmayı ortak haneyle, beslenmeyi ortak sofrayla, güvenliği ve sağlığı da üyelerinin birbirini kollamasıyla karşılar. Türk toplumunda hasta ve yaşlı bakımının önce aileden beklenmesi, torunlara büyükanne ve büyükbabanın bakması buna örnektir.</p>
+  <p><b>Türemiş ihtiyaçlar düzeyinde</b> aile yalnızca biyolojik bir birim olmaktan çıkar. Ekonomik bir birimdir: hanede iş bölümü yapılır, düğünde takılan takı ve hazırlanan çeyiz yeni haneye başlangıç sermayesi olur, miras malın kuşaklar arasında geçişini düzenler. Bir toplumsal denetim aracıdır: “ayıp” ve “el âlem ne der” kaygısı ile büyük sözü dinleme beklentisi davranışı sınırlar. İlk eğitim kurumudur: dil, görgü ve inanç önce evde öğrenilir. Otoritenin ilk tanımlandığı yerdir: önemli kararlarda büyüklerin sözü ağır basar.</p>
+  <p><b>Bütünleştirici düzeyde</b> kız isteme, kına, düğün, sünnet ve bayramda el öpme gibi ritüeller aileye anlam kazandırır. Hala ile teyzeyi, amca ile dayıyı ayıran zengin akrabalık terimleri de herkese aile içindeki yerini bildirir.</p>
+  <p><b>Değerlendirme.</b> Kentleşmeyle birlikte geniş aile yerini çekirdek aileye bırakmış; kreş, okul, hastane ve sosyal güvenlik ailenin bazı işlevlerini üstlenmiştir. Malinowski açısından bu, ihtiyaçların ortadan kalktığını değil, başka kurumlarca da karşılanmaya başladığını gösterir. Ailenin biçimi değişse de karşıladığı ihtiyaçlar sürdüğü için kurum varlığını korur. Yaklaşımın zayıf yanı ise aileyi hep uyum içinde göstermesi, aile içindeki çatışmaları ve eşitsizlikleri açıklamakta yetersiz kalmasıdır.</p>
+</div>
+<div class="box ipucu"><span class="lab">Cevabın iskeleti</span>Kuramın tek cümlelik tanımı → temel ihtiyaçlar ve ailedeki karşılığı → türemiş ihtiyaçlar ve ailedeki karşılığı → Türk toplumundan en az iki somut örnek → kısa değerlendirme. Soru başka bir kurumu sorarsa (eğitim, din, ekonomi) aynı iskelet işler.</div>
+
+<h2 id="b2a2">Açık uçlu Soru 2</h2>
+<p class="soru-metni">Kültürel artık kavramını Türk toplumundan örneklerle açıklayınız. Geçmişten gelen her geleneğin günümüzde işlevsiz olduğunu söylemek doğru mudur?</p>
+<div class="model">
+  <span class="lab">Benim cevabım</span>
+  <p>Kültürel artık, ortaya çıktığı dönemde belirli bir işi gören, bugün ise bu ilk işlevini büyük ölçüde yitirdiği hâlde yaşamaya devam eden kültür unsurudur. Türk toplumunda maddi kültürden gaz lambası, daktilo ve çevirmeli telefon; manevi kültürden nazarlık takma, kurşun dökme ve kına gecesi bu açıdan ele alınabilir.</p>
+  <p>Ancak geçmişten gelen her geleneğin bugün işlevsiz olduğunu söylemek doğru değildir. Üç gerekçe gösterilebilir.</p>
+  <p><b>Birincisi, işlev değişir.</b> Nazarlık bir zamanlar kötü bakıştan korunmanın aracıydı. Bugün birçok kişi için süs, hediye ve kimlik simgesidir; yeni doğan bebeğe takılarak aile bağını da gösterir. Kına gecesi, gelinin baba evinden ayrılışının hüzünlü töreniyken bugün daha çok eğlence ve iki ailenin kaynaşması işini görür.</p>
+  <p id="b2a2-gizli"><b>İkincisi, bir geleneğin görünmeyen işlevleri olabilir.</b> Yağmur duası yağmur yağdırmasa da köylüyü bir araya getirir, ortak kaygıyı paylaştırır ve dayanışmayı güçlendirir. Görünen amaç gerçekleşmese bile gelenek toplum için bir iş görmektedir.</p>
+  <p id="b2a2-mal"><b>Üçüncüsü, işlevselci bakışa göre</b> hiçbir öğe hiçbir işe yaramadan yaşamaz. Malinowski'nin yaklaşımıyla söylersek, bir gelenek sürüyorsa insanların bir ihtiyacına dokunuyordur; bu ihtiyaç artık korunma değil, ait olma, güven duyma ya da geçmişle bağ kurma olabilir.</p>
+  <p>Öte yandan bazı öğeler gerçekten sönümlenir; daktilo ve çevirmeli telefon gündelik hayattan neredeyse tümüyle çekilmiştir. Demek ki kültürel artık sabit bir etiket değil, bir süreçtir: öğe ya yeni bir işlev kazanıp yaşar ya da yavaş yavaş kaybolur.</p>
+  <p><b>Sonuç.</b> Bir geleneği değerlendirirken “eskiden ne işe yarardı?” sorusu yetmez; “bugün kimin için ne işe yarıyor ve ne anlama geliyor?” sorusu da sorulmalıdır.</p>
+</div>
+
+<!-- ======================= BÖLÜM 3 ======================= -->
+<h1 class="part" id="b3">Bölüm 3 · Sınav için ek</h1>
+<div class="partnote">Notlarda “açık uçlu sorular ve 2–3 yorum sorusu” yazıyor. Bu bölüm, konuları birbirine bağlayan tablolar ve yorum sorusu denemeleri içindir.</div>
+
+<h2 id="b3kuram" style="margin-top:0">Beş kuram tek tabloda</h2>
+<table>
+  <thead><tr><th style="width:21%">Kuram</th><th style="width:19%">Kim</th><th style="width:30%">Temel soru</th><th>Anahtar sözcükler</th></tr></thead>
+  <tbody>
+    <tr><td class="k">Evrimcilik</td><td>Tylor, Morgan, Spencer, Frazer</td><td>Toplumlar hangi aşamalardan geçer?</td><td>Tek çizgili evrim, aşamalar, kalıntı, masa başı, etnosantrizm.</td></tr>
+    <tr><td class="k">Tarihsel Tikelcilik</td><td>Boas</td><td>Bu kültür kendi tarihinde nasıl oluştu?</td><td>Kültürel görelilik, saha çalışması, yayılma.</td></tr>
+    <tr><td class="k">İşlevselcilik</td><td>Malinowski</td><td>Bu kurum bireyin hangi ihtiyacını karşılıyor?</td><td>İhtiyaçlar teorisi, katılımcı gözlem, Trobriand, Kula.</td></tr>
+    <tr><td class="k">Yapısal İşlevselcilik</td><td>Radcliffe-Brown</td><td>Bu kurum toplumsal yapının sürmesine nasıl katkı yapıyor?</td><td>Toplumsal yapı, dayanışma, organizma benzetmesi.</td></tr>
+    <tr><td class="k">Yorumsamacı Antropoloji</td><td>Geertz</td><td>Bu davranış o insanlar için ne anlama geliyor?</td><td>Yoğun betimleme, anlam ağları, sembol.</td></tr>
+  </tbody>
+</table>
+<p class="small">Sıra aynı zamanda tarih sırasıdır: her kuram bir öncekine itiraz ederek doğar. Evrimciliğe Boas, “nereden geldi?” sorusuna işlevselciler, “ne işe yarıyor?” sorusuna da Geertz itiraz eder.</p>
+
+<h2 id="b3isim">İsim, eser, kavram eşleştirmesi</h2>
+<table id="b3-isim-tablo">
+  <thead><tr><th style="width:26%">İsim</th><th style="width:37%">Eser</th><th>Akla gelecek kavram</th></tr></thead>
+  <tbody>
+    <tr><td class="k">E. B. Tylor</td><td><i>İlkel Kültür</i> (1871)</td><td>İlk kültür tanımı, animizm, kalıntı.</td></tr>
+    <tr><td class="k">L. H. Morgan</td><td><i>Eski Toplum</i> (1877)</td><td>Yabanıllık, barbarlık, uygarlık.</td></tr>
+    <tr><td class="k">J. G. Frazer</td><td><i>Altın Dal</i> (1890)</td><td>Büyü, din, bilim.</td></tr>
+    <tr><td class="k">H. Spencer</td><td>Toplumsal evrim yazıları</td><td>Basitten karmaşığa, organizma.</td></tr>
+    <tr><td class="k">F. Boas</td><td>Saha çalışmaları ve makaleler</td><td>Tarihsel tikelcilik, kültürel görelilik.</td></tr>
+    <tr><td class="k">B. Malinowski</td><td><i>Batı Pasifik'in Argonotları</i> (1922); <i>Bilimsel Bir Kültür Teorisi</i> (1944)</td><td>İşlevselcilik, ilk etnografya, ihtiyaçlar teorisi.</td></tr>
+    <tr><td class="k">A. R. Radcliffe-Brown</td><td><i>Andaman Adalıları</i> (1922)</td><td>Yapısal işlevselcilik, toplumsal yapı.</td></tr>
+    <tr><td class="k">E. E. Evans-Pritchard</td><td><i>Nuerler</i> (1940)</td><td>Sığır, düzenli anarşi, zaman.</td></tr>
+    <tr><td class="k">C. Geertz</td><td><i>Kültürlerin Yorumlanması</i> (1973)</td><td>Yoğun betimleme, anlam ağları, Bali horoz dövüşü.</td></tr>
+  </tbody>
+</table>
+
+<h2 id="b3yorum">Üç yorum sorusu denemesi</h2>
+<p class="small">Bu soruları ben hazırladım; hocanın soruları değildir. Amaç, kavramları yeni bir duruma uygulama alıştırması yapmaktır.</p>
+
+<h4>Deneme 1 · Göç ve kültür</h4>
+<p class="soru-metni">Elif Almanya'da doğup büyümüştür. Evde Türkçe, okulda Almanca konuşur. Yazları Türkiye'ye geldiğinde akrabaları ona “Almancı” der. Elif'in durumunu kültürleme, sosyalleşme, kültürleşme ve kültürel şok kavramlarıyla yorumlayınız.</p>
+<div class="model">
+  <p>Elif'in <u>kültürlemesi</u> evde gerçekleşmiştir: ana dilini, yemek alışkanlıklarını ve saygı kalıplarını ailesinden, yani Türk kültüründen almıştır. <u>Sosyalleşmesi</u> ise büyük ölçüde Alman okulunda ve akran çevresinde olmuş, dakiklik ve kurallara uyma gibi beklentileri orada öğrenmiştir. İki farklı kültürle sürekli temas hâlinde olduğu için <u>kültürleşme</u> yaşamaktadır; iki kültürden de öğeler taşır ve çevresi de ondan etkilenir. Türkiye'ye geldiğinde kendi kültürü saydığı yerde “yabancı” muamelesi görmesi bir tür <u>kültürel şok</u>tur: evde öğrendiği Türk kültürü ile Türkiye'de karşılaştığı kültür tam örtüşmez. Elif'in durumu bir eksiklik değil, iki kültürün bileşimidir; sorun, iki tarafın da onu “tam bizden” saymamasından doğar.</p>
+</div>
+
+<h4>Deneme 2 · Bir gelenek, beş kuram</h4>
+<p class="soru-metni">Bayramda büyüklerin elini öpme geleneğini evrimci bir düşünür, Boas, Malinowski, Radcliffe-Brown ve Geertz nasıl ele alırdı?</p>
+<div class="model">
+  <ul style="margin-bottom:0">
+    <li><b>Evrimci:</b> Bu geleneği toplumun eski bir aşamasından kalma bir uygulama sayar ve toplum “ilerledikçe” kaybolacağını öne sürer.</li>
+    <li><b>Boas:</b> İleri ya da geri diye yargılamaz. Geleneğin bu toplumun kendi tarihi içinde nasıl oluştuğunu araştırır.</li>
+    <li><b>Malinowski:</b> “Bireyin hangi ihtiyacını karşılıyor?” diye sorar. Yaşlı için değer görme, genç için ait olma ve güven duyma; çocuk için de harçlık.</li>
+    <li><b>Radcliffe-Brown:</b> “Toplumsal yapıya katkısı ne?” diye sorar. Gelenek, kuşaklar arasındaki saygı düzenini ve akrabalık bağlarını her bayram yeniden kurar.</li>
+    <li><b>Geertz:</b> “Bu hareket ne anlama geliyor?” diye sorar ve yoğun betimleme yapar: eli öpüp alna koymak, “seni başımın üstünde tutuyorum” demektir.</li>
+  </ul>
+</div>
+
+<h4>Deneme 3 · Dijital ortam ve aile</h4>
+<p class="soru-metni">Hocanız kültürlemenin aktörleri arasında dijital ortamı da saymış, ama en önemlisinin aile olduğunu söylemiştir. Sosyal medyanın yaygınlaşması ailenin bu konumunu sarsar mı? Tartışınız.</p>
+<div class="model">
+  <p>Dijital ortam bugün güçlü bir kültürleme aktörüdür: çocuk ve gençler dili, beğeniyi, tüketim alışkanlıklarını ve dünyaya bakışı ekrandan da öğrenir. Üstelik bu ortam ulusal sınır tanımadığı için, genç evinden çıkmadan başka kültürlerle temas eder; yani <u>kültürleşme</u> hızlanır. Bu, aile ile çocuk arasında değer farkı doğurabilir.</p>
+  <p>Yine de aile iki nedenle en önemli aktör olmayı sürdürür. Birincisi, aile <b>ilktir</b>: çocuk ekrana ulaşmadan önce dilini ve ilk değerlerini aileden alır, ekranda gördüğünü de bu ilk birikimle yorumlar. İkincisi, aile <b>duygusal bağla</b> öğretir; ekran bilgi ve model sunar, ama sevgi ve güven ilişkisini yerine koyamaz. Ayrıca çocuğun ekranla ne kadar ve nasıl ilişki kuracağına uzun süre aile karar verir.</p>
+  <p>Sonuç: dijital ortam ailenin tekelini kırmış, ama önceliğini ortadan kaldırmamıştır. Değişen şey, ailenin artık kültürlemeyi tek başına değil, güçlü bir rakiple birlikte yürütmesidir.</p>
+</div>
+
+<h2 id="b3formul">Açık uçlu cevap yazma formülü</h2>
+<table>
+  <thead><tr><th style="width:8%">#</th><th style="width:26%">Adım</th><th>Ne yazılır?</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td class="k">Tanım</td><td>Kavramı bir ya da iki cümleyle tanımla.</td></tr>
+    <tr><td>2</td><td class="k">İsim ve kuram</td><td>Kavramın kime ve hangi kurama ait olduğunu söyle.</td></tr>
+    <tr><td>3</td><td class="k">Örnek</td><td>Bir örnek derste verilen, bir örnek kendi bulduğun olsun.</td></tr>
+    <tr><td>4</td><td class="k">Karşılaştırma</td><td>Yakın bir kavramdan ya da karşıt kuramdan farkını belirt.</td></tr>
+    <tr><td>5</td><td class="k">Değerlendirme</td><td>Tek cümlelik bir sonuç ya da eleştiriyle bitir.</td></tr>
+  </tbody>
+</table>
+<p>Yorum sorusunda sıra biraz değişir: önce durumu bir cümleyle özetle, sonra her kavramı sırayla duruma uygula, en sonda kendi yargını söyle. Kavramların altını çizmek okuyanın işini kolaylaştırır.</p>
+
+<h2 id="b3sozluk">Anahtar kavramlar sözlüğü</h2>
+<p class="small">Bu liste, notlarda ve belgede geçen kavramlardan benim derlediğim bir sözlüktür. Hocanın “kültür dosyası”ndaki anahtar kavram listesi bende yok; o listede burada olmayan bir kavram varsa ayrıca çalışman gerekir.</p>
+<dl class="soz">
+  <dt>Kültür</dt><dd>Bir toplumun üyelerinin öğrenerek edindiği ve paylaştığı maddi ve manevi her şey.</dd>
+  <dt>Maddi kültür, manevi kültür</dt><dd>Maddi kültür elle tutulan ürünlerdir (araç, giysi, yapı). Manevi kültür değerler, inançlar, kurallar ve alışkanlıklardır.</dd>
+  <dt>Norm</dt><dd>Toplumun belirli bir durumda beklediği davranış kuralı.</dd>
+  <dt>Değer</dt><dd>Bir toplumun iyi, doğru ve istenir saydığı ölçüler.</dd>
+  <dt>Sembol (simge)</dt><dd>Kendisinden başka bir şeyi anlatan işaret, nesne ya da davranış. Bayrak, yüzük, el öpme gibi.</dd>
+  <dt>Kültürleme</dt><dd>Bireyin doğumdan başlayarak kendi toplumunun kültürünü öğrenip içselleştirmesi. İlk kültürel öğrenme süreci.</dd>
+  <dt>Sosyalleşme</dt><dd>Bireyin toplumun kurallarını ve rollerini öğrenip topluma uyum sağlaması.</dd>
+  <dt>Kültürlenme</dt><dd>Az çok benzer kültürel çevrelerden gelen kişi ve grupların karşılıklı etkileşimle yeni alışkanlıklar ve bileşimler edinmesi.</dd>
+  <dt>Kültürleşme</dt><dd>Farklı kültürlerin sürekli teması sonucunda iki tarafın da değişmesi.</dd>
+  <dt>Kültürel şok</dt><dd>Kişinin yabancısı olduğu bir kültürel ortamda yaşadığı bocalama, kaygı ve uyum güçlüğü.</dd>
+  <dt>Asimilasyon (özümseme)</dt><dd>Bir grubun kendi kültürünü bırakıp başka bir kültürün içinde erimesi. Kültürleşmeden farkı tek yönlü olmasıdır.</dd>
+  <dt>Kültürel yayılma (difüzyon)</dt><dd>Bir kültür öğesinin bir toplumdan ötekine geçmesi.</dd>
+  <dt>Etnosantrizm</dt><dd>Başka kültürleri kendi kültürünü ölçü alarak yargılama.</dd>
+  <dt>Kültürel görelilik</dt><dd>Her kültürün kendi ölçüleri içinde anlaşılması gerektiği görüşü.</dd>
+  <dt>Tek çizgili evrim</dt><dd>Bütün toplumların aynı aşamalardan aynı sırayla geçtiği iddiası.</dd>
+  <dt>Etnografya</dt><dd>Bir topluluğun yaşamını yerinde gözleyerek ayrıntılı biçimde yazma; bu yazının kendisi.</dd>
+  <dt>Katılımcı gözlem</dt><dd>Araştırmacının incelediği topluluğun içinde yaşayarak ve etkinliklerine katılarak gözlem yapması.</dd>
+  <dt>İşlev</dt><dd>Bir kültür öğesinin gördüğü iş. Malinowski'de bir ihtiyacın karşılanması, Radcliffe-Brown'da toplumsal yapının sürmesine katkı.</dd>
+  <dt>Toplumsal yapı</dt><dd>Bir toplumdaki kişi ve gruplar arasındaki düzenli ilişkiler ağı.</dd>
+  <dt>Temel, türemiş ve bütünleştirici ihtiyaçlar</dt><dd>Malinowski'nin üç katmanı: bedenden gelen ihtiyaçlar; örgütlenmenin doğurduğu ihtiyaçlar; ortak anlam ihtiyacı.</dd>
+  <dt>Kültürel artık (kalıntı)</dt><dd>İlk işlevini büyük ölçüde yitirdiği hâlde varlığını sürdüren kültür öğesi.</dd>
+  <dt>Kültürel gecikme</dt><dd>Maddi kültürün hızlı, manevi kültürün yavaş değişmesinden doğan uyumsuzluk.</dd>
+  <dt>Yoğun betimleme</dt><dd>Bir davranışı, o toplumdaki anlamı ve bağlamıyla birlikte anlatma. Karşıtı ince betimlemedir.</dd>
+</dl>
+
+<h2 id="b3eksik">Eksik kalanlar</h2>
+<ul>
+  <li><b>Kültür dosyası.</b> Hocanın dosyası bende olmadığı için oradaki anahtar kavram listesini ve “Kültürel Çalışmalar”a kadarki bölümleri bu kitapçığa birebir işleyemedim.</li>
+  <li><b>Ana ders kitabı 4. bölüm.</b> Bölüm sonu sorularını ve anahtar kavramlarını göremedim; kitabın adı da notlarda yazmıyor.</li>
+</ul>
+<p>Bu iki kaynağın fotoğrafını gönderirsen aynı düzende eklerim.</p>
+
+<h2 id="b3dogrulama">Doğrulama notu</h2>
+<div id="dogrulama-metin">
+<p>Cevapları ben yazdım. Ardından kitapçıkta geçen yıllar, eser adları ve kuramcılara bağlanan kavramlar ayrıca kaynaklardan kontrol edildi.</p>
+<ul>
+  <li><b>Kapsam:</b> 19 iddia satırı kontrol edildi. 13'ü kaynakla doğrulandı, 5'i kısmen doğrulandı, 1'i doğrulanamadı.</li>
+  <li><b>Doğrulananlar:</b> Tylor 1871 ve kalıntı kavramı; Morgan 1877 ve üç aşama; Frazer 1890 ve büyü, din, bilim dizisi; Spencer; Boas ve öğrencileri; Malinowski'nin 1922 ve 1944 kitapları, yedi temel ihtiyaç, dört türemiş ihtiyaç, bütünleştirici ihtiyaçlar, Kula ve kalıntı kavramına itirazı; Radcliffe-Brown 1922; Geertz 1973, Ryle, göz kırpma, anlam ağları, Bali horoz dövüşü; Evans-Pritchard 1940, düzenli anarşi, leopar derili şef, Nuerlerin yaşadığı yer, sığırla başlık, öküz adları; Alfred Weber 1935.</li>
+  <li><b>Metinde düzeltilen üç yer:</b> (1) Kültürlenme için kaynakların farklı tanım verdiği uyarısı eklendi. (2) “Kültürel artık” adının kaynaklarda “kalıntı” diye geçtiği notu eklendi. (3) Tylor'ın din aşamaları temkinli yazıldı; kaynakta yalnızca animizmin ilk aşama olduğu görüldü.</li>
+  <li><b>Kısmen doğrulananlar:</b> Malinowski'nin yedi ihtiyaç tablosu kitabın kendisinden değil, ikincil kaynaklardan görüldü. “İneği arayın” sözü ikincil bir kaynaktan doğrulandı. Nuerlerde zaman anlatımı için kitapta ilgili bölümün varlığı görüldü, ayrıntısı görülmedi. Kültürleme ile sosyalleşme farkı kaynaklarda çoğunlukla “aynı sürecin iki disiplindeki adı” olarak geçiyor; tablodaki ayrım hocanın tanımına dayanıyor.</li>
+  <li><b>Doğrulanamayan:</b> “Kültürel artık” adı taranan Türkçe kaynaklarda bulunamadı.</li>
+  <li><b>Alınmayan iki bilgi:</b> Kültür sosyolojisinin Amerika'da kurumsallaştığı yıl ve Malinowski'nin atlı araba örneği kaynakla görülemediği için kitapçığa yazılmadı.</li>
+  <li><b>Görülemeyen kaynak:</b> Bozkurt Güvenç'in <i>İnsan ve Kültür</i> kitabındaki tanımlara doğrudan ulaşılamadı.</li>
+</ul>
+</div>
+
+<h2 id="b3kaynak">Kaynaklar</h2>
+<div id="kaynak-liste" class="src">
+<p><b>Verdiğin malzeme:</b> dört sayfalık defter notu (fotoğraf) ve “vize_calisma_5” adlı Malinowski belgesi.</p>
+<p><b>Doğrulamada açılan sayfalar:</b></p>
+<ul>
+  <li>Britannica, “Survivals”: britannica.com/topic/survivals</li>
+  <li>Wikipedia (İngilizce) maddeleri: Edward Burnett Tylor; Ancient Society; The Golden Bough; Herbert Spencer; Franz Boas; Bronisław Malinowski; Kula ring; Alfred Radcliffe-Brown; The Nuer; Nuer people; Thick description; Deep Play: Notes on the Balinese Cockfight</li>
+  <li>Sociopedia, Malinowski sayfası: sociopedia.co/author/malinowski-bronislaw</li>
+  <li>Belleten, Güvenç'in kitabı üzerine tanıtım yazısı: belleten.gov.tr/tam-metin/1896/tur</li>
+  <li>Ankara Üniversitesi Açık Ders notu: acikders.ankara.edu.tr/mod/resource/view.php?id=117594</li>
+  <li>EconBiz, Alfred Weber 1935 kitap kaydı: econbiz.de</li>
+</ul>
+<p><b>Adı geçen temel eserler</b> (bu çalışmada tam metinleri açılmadı): Tylor, <i>Primitive Culture</i> (1871); Morgan, <i>Ancient Society</i> (1877); Frazer, <i>The Golden Bough</i> (1890); Malinowski, <i>Argonauts of the Western Pacific</i> (1922) ve <i>A Scientific Theory of Culture</i> (1944); Radcliffe-Brown, <i>The Andaman Islanders</i> (1922); Evans-Pritchard, <i>The Nuer</i> (1940); Geertz, <i>The Interpretation of Cultures</i> (1973).</p>
+</div>
+
+</body>
+</html>

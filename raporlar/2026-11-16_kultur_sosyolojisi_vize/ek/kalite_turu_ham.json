@@ -1,0 +1,1631 @@
+{
+ "zincirler": [
+  {
+   "key": "malinowski",
+   "uretici": {
+    "arac": "17/24",
+    "ozet": "Birincil metin bulundu: A Scientific Theory of Culture and Other Essays tam metni (archive.org in.ernet.dli.2015.5699; Copyright 1944, University of North Carolina Press; önsöz 15 Şubat 1944, Malinowski 1942'de öldü, yani kitap ölümünden sonra çıktı). Bölüm X \"Basic Needs and Cultural Responses\" (s. 91) tablosu birebir YEDİ çift: 1 Metabolism-Commissariat, 2 Reproduction-Kinship, 3 Bodily Comforts-Shelter, 4 Safety-Protection, 5 Movement-Activities, 6 Growth-Training, 7 Health-Hygiene. Sekizinci \"dinlenme -> oyun/eğlence\" satırı Malinowski'de YOK. \"Relaxation\" yalnızca VIII. bölümdeki dürtü-eylem-doyum (vital sequences) tablosunun \"satisfaction\" sütununda geçer; \"fatigue -> rest\" ve \"restlessness -> activity\" dürtülerdir. Oyun ve rekreasyon, \"5. Activities\" (hareket ihtiyacına yanıt) altında tartışılır. Ayrıca s. 38'de sanat ve rekreasyonun bütünleştirici listenin dışında, fizyolojiyle ilişkilendirileceğini söyler. Sekiz sayan güvenilir bir kaynak bulunmadı; bazı popüler özetler (örneğin easysociology) \"relaxation\" maddesini ekliyor ve hatalı.\nKatmanlar: basic needs (temel), derived needs / instrumental imperatives (türemiş, araçsal) ve integrative imperatives (bütünleştirici). Araçsal yanıtlar s. 125-126: Economics, Social control, Education, Political organization. Bütünleştirici: Malinowski kendisi \"knowledge, religion, and magic\" der (s. 38). Sanat bu listede değil, ayrı tutulur. Kitapçıktaki \"bilgi, büyü, din, sanat\" sıralaması bu yüzden kısmen yanlış.\nİşlev tanımı birebir doğru (s. 39). Kültür: \"Culture is essentially an instrumental apparatus...\" (\"The Functional Theory\" denemesi, General Axioms of Functionalism, s. 150).\nKalıntı (survival): s. 28-29 (Bölüm III). Malinowski Goldenweiser'in tanımını alıntılar ve ona katılmaz. Örneği hansom cab / horse cab: \"Is it a survival? Yes and no ... It obviously has changed its function.\" Araba \"retrospective sentiment\", \"ride into the past\" için kullanılır; yolcu \"slightly intoxicated or else romantically inclined\"dır. Eski model otomobil ve İngiliz açık şöminesi de örnek olarak geçer. Hedef Tylor'un adı değil, evrimci ve yayılmacı \"survival\" kavramıdır; alıntılanan tanım Goldenweiser'in.\nArgonauts (Gutenberg 55822): yazım \"realise\". Kitap üç sefer listeler (Ağustos 1914-Mart 1915 Mailu/Woodlark; Mayıs 1915-Mayıs 1916; Ekim 1917-Ekim 1918). Trobriand'a ait olanlar son ikisi. \"Participant observation\" terimi metinde geçmiyor; \"personal participation in native life\" ve \"imponderabilia of actual life\" geçiyor.\nBüyü: birebir cümle 1925 \"Magic, Science and Religion\" denemesinde bulundu (Needham ed., Science, Religion and Reality). Orada \"Lagoon\" büyük harfle yazılmış.\nAykırı kanıt: Wikipedia, Gluckman'a dayanarak yoğun saha çalışmasının Haddon ve Boas'tan geldiğini, Gosden'e dayanarak öncüllerle süreklilik olduğunu not eder. Bu yüzden \"ilk etnografya ona aittir\" savunulamaz. \"Katılımcı gözlemi geliştirdi/sistemleştirdi\" ve \"işlevselciliğin kurucularından\" ise güvenli ifadelerdir.",
+    "defter": [
+     {
+      "iddia": "Kitap 1944'te University of North Carolina Press'ten çıktı",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "Copyright 1944 by The University of North Carolina Press ... First published, 1944",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Malinowski 16 Mayıs 1942'de öldü; kitap ölümünden sonra çıktı",
+      "kaynak": "https://en.wikipedia.org/wiki/Bronis%C5%82aw_Malinowski",
+      "alinti": "Malinowski died in New Haven, Connecticut on 16 May 1942, aged 58",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Temel ihtiyaçlar tablosu (s. 91) yedi satırdır",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "1. Metabolism 2. Reproduction 3. Bodily Comforts 4. Safety 5. Movement 6. Growth 7. Health",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Kültürel yanıtlar sütunu yedi satırdır",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "1. Commissariat 2. Kinship 3. Shelter 4. Protection 5. Activities 6. Training 7. Hygiene",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Tablo başlıkları 'Basic Needs' ve 'Cultural Responses'tır; Malinowski tabloyu basit bir özet aracı sayar",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "The following table of basic needs and cultural responses has been drafted with a view to simplicity.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "'Relaxation' yalnız dürtü tablosunun doyum sütununda geçer; dinlenme-oyun diye bir temel ihtiyaç çifti yoktur",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "fatigue ... restlessness ... (B) Act ... rest ... activity ... (C) Satisfaction ... relaxation",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Oyun ve rekreasyon, hareket ihtiyacına yanıt olan 'Activities' altında tartışılır",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "5. Activities. The human organism, normal and rested, needs movement. ... the subject of play and recreation",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Bütünleştirici zorunluluklar Malinowski'de bilgi, din ve büyüdür; sanat ve rekreasyon ayrı tutulur",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "integrative imperatives. Here we shall list knowledge, religion, and magic. Artistic and recreational activities we shall be able to relate directly to certain physiological",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Araçsal zorunluluklar ekonomik, normatif, eğitsel ve siyasal etkinliklerden doğar",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "instrumental imperatives— arising out of such types of activity as economic, normative, educational and political",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Araçsal zorunluluklar tablosunun yanıtları dört tanedir (s. 125-126)",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "1. Economics ... 2. Social control ... 3. Education ... 4. Political organization",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Üç katmanın adları: basic needs, instrumental imperatives (derived needs) ve integrative imperatives",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "As a theory of basic needs, and a derivation of instrumental and integrative imperatives",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "İşlev tanımı birebir böyledir (s. 39, Bölüm IV)",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "function can not be defined in any other way than the satisfaction of a need by an activity in which human beings cooperate, use artifacts, and consume goods",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Kültür tanımı (s. 150, General Axioms of Functionalism, A aksiyomu)",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "Culture is essentially an instrumental apparatus by which man is put in a position the better to cope with the concrete specific problems",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Malinowski kalıntının Goldenweiser'e ait tanımını alıntılar",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "a cultural feature which does not fit in with its cultural medium. It persists rather than functions",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Goldenweiser'in 'kalıntılar her kültürde vardır' görüşüne katılmaz",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "\"We know, of course, that survivals exist. ...\" With this view I have to disagree.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Hansom cab örneği: işlevi değişmiştir",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "The horse cab appears at certain times of the day or night ... Is it a survival? Yes and no. ... It obviously has changed its function.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Yeni işlevi geçmişe duyulan özlemdir; yolcu çakırkeyif ya da romantik ruh hâlindedir",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "used for retrospective sentiment, as a \"ride into the past\"; very often ... the fare is slightly intoxicated or else romantically inclined",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Kalıntı yeni bir anlam ve işlev kazandığı için sürer",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "There is no doubt that the survival endures because it has acquired a new meaning, a new function",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Ek örnekler: eski model otomobilin işlevi ekonomiktir; İngiltere'de açık şömine de geçer",
+      "kaynak": "https://archive.org/stream/in.ernet.dli.2015.5699/in.ernet.dli.2015.5699_djvu.txt",
+      "alinti": "Antiquated types of automobile are never used simply because they have survived ... The function is economic.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Argonauts'taki ünlü cümlede yazım 'realise'dir",
+      "kaynak": "https://www.gutenberg.org/cache/epub/55822/pg55822.txt",
+      "alinti": "to grasp the native's point of view, his relation to life, to realise his vision of his world",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Argonauts üç sefer listeler; Trobriand'a ait olanlar 2. ve 3. seferlerdir",
+      "kaynak": "https://www.gutenberg.org/cache/epub/55822/pg55822.txt",
+      "alinti": "First Expedition, August, 1914-March, 1915. ... Second Expedition, May, 1915-May, 1916. ... Third Expedition, October, 1917-October, 1918.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "İlk saha gezisi Mailu ve Woodlark'aydı, Trobriand'a değil",
+      "kaynak": "https://en.wikipedia.org/wiki/Bronis%C5%82aw_Malinowski",
+      "alinti": "His first field trip, lasting from August 1914 to March 1915, took him to the Toulon Island (Mailu Island) and the Woodlark Island.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Argonauts 'participant observation' terimini kullanmaz; 'personal participation' der",
+      "kaynak": "https://www.gutenberg.org/cache/epub/55822/pg55822.txt",
+      "alinti": "Importance of personal participation in native life.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Lagün ve açık deniz balıkçılığı karşılaştırması (1925, Magic, Science and Religion)",
+      "kaynak": "https://archive.org/stream/sciencereligionr0000scie/sciencereligionr0000scie_djvu.txt",
+      "alinti": "in the Lagoon fishing, where man can rely completely upon his knowledge and skill, magic does not exist",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Açık deniz balıkçılığında büyü vardır",
+      "kaynak": "https://archive.org/stream/sciencereligionr0000scie/sciencereligionr0000scie_djvu.txt",
+      "alinti": "while in the open-sea fishing, full of danger and uncertainty, there is extensive magical ritual to secure safety and good results",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "İşlevselciliğin kurucusu ya da ana kurucularından biri sayılır",
+      "kaynak": "https://en.wikipedia.org/wiki/Bronis%C5%82aw_Malinowski",
+      "alinti": "credited with originating, or being one of the main originators of, the school of social anthropology known as functionalism",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Katılımcı gözlemi ilerletmiştir",
+      "kaynak": "https://en.wikipedia.org/wiki/Bronis%C5%82aw_Malinowski",
+      "alinti": "advanced the practice of participant observation, which remains the hallmark of ethnographic research today",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Aykırı kanıt: yoğun saha çalışmasının Haddon ve Boas'tan geldiği; öncüllerle süreklilik olduğu",
+      "kaynak": "https://en.wikipedia.org/wiki/Bronis%C5%82aw_Malinowski",
+      "alinti": "it originated with Alfred Cort Haddon in England and Franz Boas in the United States",
+      "guven": "orta",
+      "kritik": true
+     }
+    ],
+    "kitapcik_onerisi": "1. \"Dinlenme -> oyun, eğlence, boş zaman\" satırını silin. Yerine: \"Malinowski'nin tablosu yedi çifttir (A Scientific Theory of Culture, 1944, s. 91): metabolizma-iaşe (commissariat), üreme-akrabalık, bedensel rahatlık-barınak, güvenlik-korunma, hareket-etkinlikler, büyüme-eğitim (training), sağlık-hijyen. Oyun ve eğlence ayrı bir ihtiyaç değildir; 'hareket -> etkinlikler' başlığı altında ele alınır.\"\n2. Bütünleştirici ihtiyaçlar: \"Malinowski bütünleştirici zorunlulukları bilgi, din ve büyü olarak sayar. Sanatı ve rekreasyonu bu listeden ayrı tutar ve fizyolojik özelliklere bağlar.\" (Sanat dördüncü madde gibi yazılmamalı.)\n3. Üç katman: \"Temel ihtiyaçlar (basic needs), araçsal zorunluluklar (instrumental imperatives, türemiş ihtiyaçlar) ve bütünleştirici zorunluluklar (integrative imperatives). Araçsal olanların yanıtları: ekonomi, toplumsal denetim, eğitim, siyasal örgütlenme.\"\n4. Kalıntı: \"Malinowski, Goldenweiser'in 'kalıntı her kültürde vardır' görüşüne katılmaz. Örneği atlı faytondur (hansom cab): 'Is it a survival? Yes and no.' Otomobil çağında hâlâ kullanılıyorsa işlevi değişmiştir; artık geçmişe özlem için, 'geçmişe yolculuk' olarak kullanılır. Ona göre bir şey yeni bir işlev kazandığı için sürer.\" Kavram Tylor'dan gelir, ama Malinowski'nin alıntıladığı tanım Goldenweiser'indir.\n5. Argonauts: \"1914-15 gezisi Mailu'yadır; Trobriand saha çalışması 1915-16 ve 1917-18'deki iki seferdir.\" Alıntıda \"realise\" yazımı kullanılmalı.\n6. \"İlk etnografya ona aittir\" ifadesini silin. Yerine: \"Modern, uzun süreli saha çalışmasını ve katılımcı gözlemi sistemleştiren öncü; işlevselciliğin kurucularından.\" Haddon ve Boas daha önce saha çalışması yapmıştır.\n7. Büyü: \"Magic, Science and Religion (1925)\".",
+    "acik_kalanlar": "Britannica 403 verdi; yerine Wikipedia ve birincil metinler kullanıldı. Wikipedia'daki \"Father of social anthropology\" ünvanı yalnızca bilgi kutusunda görüldü. Popüler bir \"relaxation\" maddeli özet (easysociology.com) yalnızca arama özetinde görüldü, sayfası açılmadı. archive.org djvu metninde OCR kaynaklı küçük harf ve noktalama hataları olabilir; alıntılar okunan metinle örtüşüyor. Sayfa numaraları 1944 UNC Press baskısına göredir."
+   },
+   "dogrulama": {
+    "arac": "Bash+WebFetch+WebSearch/16",
+    "sonuc": [
+     {
+      "no": 1,
+      "durum": "doğru",
+      "duzeltme": "Not: görülen baskı 1960 Oxford Galaxy Book; 1944 UNC Press telif/ilk yayın satırı onun künyesinde yer alıyor.",
+      "kanit": "\"A GALAXY BOOK New York OXFORD UNIVERSITY PRESS 1960 Copyright 1944 by The University of North Carolina Press First published, 1944\" (archive.org djvu, in.ernet.dli.2015.5699)"
+     },
+     {
+      "no": 2,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Malinowski died in New Haven, Connecticut on 16 May 1942, aged 58, of a stroke\"; kitap 1944'te ölümünden sonra çıkmış (https://en.wikipedia.org/wiki/Bronis%C5%82aw_Malinowski)"
+     },
+     {
+      "no": 3,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"(A) BASIC NEEDS (B) CULTURAL RESPONSES 1. Metabolism 2. Reproduction 3. Bodily Comforts 4. Safety 5. Movement 6. Growth 7. Health\"; Bölüm X s. 91 (archive.org djvu, ana URL'nin gerçek dosyası 2015.5699.A-Scientific-Theory-Of-Culture-And-Other-Essays_djvu.txt)"
+     },
+     {
+      "no": 4,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"1. Commissariat 2. Kinship 3. Shelter 4. Protection 5. Activities 6. Training 7. Hygiene\" (aynı kaynak)"
+     },
+     {
+      "no": 5,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"The following table of basic needs and cultural responses has been drafted with a view to simplicity. Its wording verges on triteness. Since it is, however, only a synoptic device\" (aynı kaynak)"
+     },
+     {
+      "no": 6,
+      "durum": "doğru",
+      "duzeltme": "Küçük not: metinde 'occasional relaxation' ifadesi de geçiyor (temel ihtiyaçları sayan paragrafta) ama bu bir ihtiyaç çifti değil; defterdeki tablo alıntısı doğru.",
+      "kanit": "\"fatigue restlessness somnolence ... (B) Act rest activity sleep ... (C) Satisfaction ... awakening with restored energy removal of tension abdominal relaxation relaxation return to normal state\"; temel ihtiyaç tablosunda 'relaxation' yok (aynı kaynak)"
+     },
+     {
+      "no": 7,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"5. Activities. The human organism, normal and rested, needs movement.\" ... \"the subject of play and recreation\" (aynı kaynak, s. 107 civarı)"
+     },
+     {
+      "no": 8,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"integrative imperatives. Here we shall list knowledge, religion, and magic. Artistic and recreational activities we shall be able to relate directly to certain physiological characteristics\" (aynı kaynak)"
+     },
+     {
+      "no": 9,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"instrumental imperatives— arising out of such types of activity as economic, normative, educational and political\" (aynı kaynak)"
+     },
+     {
+      "no": 10,
+      "durum": "doğru",
+      "duzeltme": "Not: defterdeki alıntıdaki 'Social control' ve 'Political organization' etiketleri tabloda aynen var; sayfa 125-126 (126 sayfa başlığı tablonun hemen sonrasında).",
+      "kanit": "\"1. Economics ... 2. Social control ... 3. Education ... 4. Political organization\"; ardından \"126 A SCIENTIFIC THEORY OF CULTURE\" (aynı kaynak)"
+     },
+     {
+      "no": 11,
+      "durum": "doğru",
+      "duzeltme": "Alıntıda 'derived needs' geçmez; üç adın parantezle eşlenmesi (instrumental imperatives = derived needs) yorumdur, kitapta Bölüm XI 'The Nature of Derived Needs' diye geçer. Alıntı s. 41-42'de.",
+      "kanit": "\"As a theory of basic needs, and a derivation of instrumental and integrative imperatives, scientific anthropology gives ... us the functional analysis\" (aynı kaynak)"
+     },
+     {
+      "no": 12,
+      "durum": "doğru",
+      "duzeltme": "Birebir: parantez içinde ve 'can not' yazımıyla; s. 39 doğrulandı.",
+      "kanit": "\"WHAT IS CULTURE? 39 ... (For function can not be defined in any other way than the satisfaction of a need by an activity in which human beings cooperate, use artifacts, and consume goods)\" (aynı kaynak)"
+     },
+     {
+      "no": 13,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"GENERAL AXIOMS OF FUNCTIONALISM ... A. Culture is essentially an instrumental apparatus by which man is put in a position the better to cope with the concrete specific problems that face him\"; hemen ardından s. 151 başlığı, yani s. 150 (aynı kaynak)"
+     },
+     {
+      "no": 14,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"I quote the definition given by A. A. Goldenweiser ... A survival is 'a cultural feature which does not fit in with its cultural medium. It persists rather than functions, or its function somehow does not harmonize with the surrounding culture.'\" (aynı kaynak)"
+     },
+     {
+      "no": 15,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"We know, of course, that survivals exist. They do, in fact, represent a constant and omnipresent aspect of all cultures.\" With this view I have to disagree. (aynı kaynak)"
+     },
+     {
+      "no": 16,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"The horse cab appears at certain times of the day or night ... Is it a survival? Yes and no. ... It obviously has changed its function.\" (aynı kaynak)"
+     },
+     {
+      "no": 17,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"used for retrospective sentiment, as a 'ride into the past'; very often, I am afraid, it moves where the fare is slightly intoxicated or else romantically inclined\" (aynı kaynak)"
+     },
+     {
+      "no": 18,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"There is no doubt that the survival endures because it has acquired a new meaning, a new function\" (aynı kaynak)"
+     },
+     {
+      "no": 19,
+      "durum": "doğru",
+      "duzeltme": "'İngiltere'de açık şömine' parçasını ayrıca kontrol etmedim; otomobil alıntısı doğru.",
+      "kanit": "\"Antiquated types of automobile are never used simply because they have survived, but because people can not afford to buy a newer model. The function is economic.\" (aynı kaynak)"
+     },
+     {
+      "no": 20,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"This goal is, briefly, to grasp the native's point of view, his relation to life, to realise his vision of his world.\" (https://www.gutenberg.org/cache/epub/55822/pg55822.txt)"
+     }
+    ],
+    "not": "Hatalı satır oranı 0/20: sayfa numaraları dahil tüm iddialar kaynakta doğrulandı. Küçük kayıtlar var: satır 1'deki telif künyesi 1960 Oxford Galaxy baskısında görülüyor, satır 19'daki açık şömine kısmı bakılmadı ve satır 11'de 'derived needs' eşlemesi alıntıda yok. Defter güvenilir. Not: defterdeki archive.org URL'si (in.ernet.dli.2015.5699_djvu.txt) 404 veriyor; gerçek dosya 2015.5699.A-Scientific-Theory-Of-Culture-And-Other-Essays_djvu.txt, bağlantı düzeltilmeli."
+   }
+  },
+  {
+   "key": "geertz_nuer",
+   "uretici": {
+    "arac": "WebSearch+WebFetch+Bash(archive.org full text)/21",
+    "ozet": "I checked the claims against two primary sources: the full text of The Interpretation of Cultures (1973) and the full English text of The Nuer (1940, Oxford). Both are open on archive.org. Most of what you knew is correct. The corrections follow.\n\n(1) The wink example is Ryle's, not Geertz's. Geertz writes \"Consider, he says, two boys...\" and gives it as Ryle's example. Ryle's two essays are \"Thinking and Reflecting\" and \"The Thinking of Thoughts\". Geertz adds the parody and rehearsal layers by developing Ryle's example. Geertz uses the terms \"thin description\" and \"thick description\" and attributes the distinction to Ryle. He gives his own examples side by side: thin is \"rapidly contracting his right eyelids\"; thick is \"practicing a burlesque of a friend faking a wink...\".\n\n(2) The \"webs of significance\" sentence is word for word what you had. It continues \"...and the analysis of it to be therefore not an experimental science in search of law but an interpretive one in search of meaning.\"\n\n(3) Deep Play was first published in Daedalus 101 (1972). It is chapter 15 of the book. The phrase \"a story they tell themselves about themselves\" appears word for word. Geertz also says the cockfight is above all about \"status relationships\" and that it is a \"metasocial commentary\". The term \"deep play\" comes from Bentham.\n\n(4) The Nuer: the \"Cherchez la vache...\" sentence is word for word what you had. \"Ordered anarchy\" is word for word. \"Their social idiom is a bovine idiom\" is word for word, and it directly supports the model answer. Fieldwork: three short visits, 1930, 1931 and 1935 to 1936. Total time in the field was \"about a year\". It is wrong to say he lived there for years. The leopard-skin chief (kuaar muon) has a ritual role and \"no judicial or executive authority\". Bridewealth and blood-wealth were paid in cattle: \"forty, and sometimes fifty to sixty\" head in the previous generation, 20 to 30 at the time of writing. Ox-names: confirmed.\n\n(5) Time: \"oecological time\" is cyclical and \"structural time\" is a reflection of \"structural distance\". \"The daily timepiece is the cattle clock\". \"Nuer have no expression equivalent to 'time' in our language\". All of these are word for word.\n\n(6) In the preface Evans-Pritchard writes that Radcliffe-Brown's influence on the theoretical side \"will be obvious\". Today the Nuer live in Greater Upper Nile in South Sudan and in Ethiopia's Gambella region.\n\n(7) Works and Lives (1988), chapter 3, is titled \"Slide Show: Evans-Pritchard's African Transparencies\". I saw this only in search snippets and could not open the PDF. Geertz calls Evans-Pritchard's prose \"Akobo Realism\" and stresses that it is intensely visual. Contrary evidence: I found no Turkish source that pairs Nuer with thick description. The two are linked in teaching, not in Evans-Pritchard's own work. Evans-Pritchard is a structural functionalist. His later book Nuer Religion (1956) is seen as a forerunner of interpretive and symbolic anthropology.",
+    "defter": [
+     {
+      "iddia": "Geertz borrows the term thick description from Ryle and names Ryle's two essays",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "to borrow a notion from Gilbert Ryle, “thick description.” ... “Thinking and Reflecting” and ‘The Thinking of Thoughts.”",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "The wink/twitch example is Ryle's (Geertz cites it with 'he says')",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "Consider, he says, two boys rapidly contracting the eyelids of their right eyes. In one, this is an involuntary twitch",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Thin vs thick description with an example",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "“thin description” ... (‘rapidly contracting his right eyelids”) and the “thick description” ... (“practicing a burlesque of a friend faking a wink",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "The object of ethnography is a stratified hierarchy of meaningful structures",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "lies the object of ethnography: a stratified hierarchy of meaningful structures",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Exact wording of the webs-of-significance sentence",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "Believing, with Max Weber, that man is an animal suspended in webs of significance he himself has spun, I take culture to be those webs",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Analysis of culture is an interpretive science in search of meaning",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "not an experimental science in search of law but an interpretive one in search of meaning",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Chapter title and year of Thick Description",
+      "kaynak": "https://en.wikipedia.org/wiki/Thick_description",
+      "alinti": "\"Thick Description: Toward an Interpretive Theory of Culture\" ... (1973), pp. 3–30",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Deep Play first published in Daedalus 1972",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "“Deep Play: Notes on the Balinese Cockfight,” in Daedalus 101 (1972): 1-37.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "'a story they tell themselves about themselves' appears word for word",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "it is a Balinese reading of Balinese experience, a story they tell themselves about themselves.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "The cockfight is above all about status relationships",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "the cockfight talks most forcibly about is status relationships, and what it says about them is that they are matters of life and death",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "The concept of deep play comes from Bentham",
+      "kaynak": "https://archive.org/details/clifford-james-geertz-1973-the-interpretation-of-cultures-selected-essays",
+      "alinti": "Bentham’s concept of “deep play” is found in his The Theory of Legislation.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Cherchez la vache sentence word for word",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "cherchez la vache is the best advice that can be given to those who desire to understand Nuer behaviour",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Bovine idiom: the support for the model answer",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "Nuer tend to define all social processes and relationships in terms of cattle. Their social idiom is a bovine idiom.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Cattle are links in social relationships, not only of economic value",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "not only to the great economic value of cattle but also to the fact that they are links in numerous social relationships",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Ordered anarchy",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "state might be described as an ordered anarchy",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Fieldwork began in 1930; total time about one year (not years)",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "I arrived in Nuerland early in 1930 ... My total residence among the Nuer was thus about a year.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Visits in 1930, 1931, 1935 and 1936",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "the dry season of 1931 I returned ... In 1936 ... I spent a final seven weeks in Nuerland",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Leopard-skin chief: ritual status, no judicial or executive authority",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "We have stated that he has no judicial or executive authority.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Leopard-skin chief's Nuer name and his sacred tie to the earth",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "A leopard-skin chief, kuaar muon, has a sacred association with the earth (mun)",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Bridewealth and blood-wealth paid in cattle",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "payments of bride-wealth and blood-wealth were forty, and sometimes fifty to sixty, head of cattle",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Ox-name: a youth takes an ox-name",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "A youth generally takes his first ox-name from the",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Cattle clock",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "The daily timepiece is the cattle clock, the round of pastoral tasks",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Nuer have no word equivalent to 'time'",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "the Nuer have no expression equivalent to 'time' in our language",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Oecological time is cyclical; structural time only appears progressive",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "Oecological time appears to be, and is, cyclical.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Structural time is a reflection of structural distance",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "structural time is a reflection of structural distance",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Radcliffe-Brown's theoretical influence (acknowledged in the preface)",
+      "kaynak": "https://archive.org/details/the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people",
+      "alinti": "Professor A. R. Radcliffe-Brown, whose influence on the theoretical side of my work will be obvious",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Nuer today live in South Sudan and in Ethiopia's Gambella region",
+      "kaynak": "https://en.wikipedia.org/wiki/Nuer_people",
+      "alinti": "concentrated in the Greater Upper Nile region of South Sudan ... They also live in the Ethiopian region of Gambella.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Works and Lives (1988) chapter 3 is 'Slide Show: Evans-Pritchard's African Transparencies'",
+      "kaynak": "https://gpullman.com/8122/Geertz_Clifford_Works_and_Lives_The_Anthropologist_as_Author_1988.pdf",
+      "alinti": "görülmedi (yalnızca arama özetinde içindekiler: s. 49)",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "iddia": "Nuer Religion (1956) is seen as a forerunner of Geertz-style symbolic anthropology",
+      "kaynak": "https://hirr.hartfordinternational.edu/articles/4284/",
+      "alinti": "anticipated the development of symbolic anthropology, particularly as it came to be expressed in the works of Victor Turner, Mary Douglas, and Clifford Geertz",
+      "guven": "orta",
+      "kritik": false
+     }
+    ],
+    "kitapcik_onerisi": "1) Göz kırpma örneğini doğru yazın: \"Göz kırpma (twitch/wink) örneği Gilbert Ryle'a aittir. Geertz onu 'Thick Description' (1973) adlı bölümde aktarır, sonra taklit (parodi) ve prova katmanlarını ekler.\" Örneği Geertz'e mal etmeyin.\n2) İnce ve kalın betimlemeyi tanımlayın: \"İnce betimleme yalnızca davranışı verir: 'sağ göz kapağını hızla kırpıyor.' Kalın betimleme davranışı anlam katmanlarıyla birlikte verir: 'bir arkadaşının göz kırpmasını taklit ederek prova yapıyor.' Etnografinin konusu, anlamlı yapıların katmanlı hiyerarşisidir.\"\n3) Saha süresini düzeltin: \"Evans-Pritchard Nuerler arasında 1930-1936 yılları arasında üç kısa ziyarette toplam yaklaşık bir yıl kaldı.\" \"Yıllarca yaşadı\" demeyin.\n4) Model cevaba kaynak ekleyin: \"Evans-Pritchard'ın kendi sözüyle: 'Their social idiom is a bovine idiom.' Nuerler bütün toplumsal ilişkileri sığır üzerinden tanımlar. Başlık (bridewealth) ve kan bedeli sığırla ödenir: eskiden 40, hatta 50-60 baş.\"\n5) Leopar derili şef için şunu yazın: \"Ritüel arabulucudur; Evans-Pritchard'a göre 'yargı ya da yürütme yetkisi yoktur.' Düzen devletsiz bir 'ordered anarchy' (düzenli anarşi) içinde segmenter soy yapısıyla sağlanır.\"\n6) Zaman bölümüne şunu ekleyin: \"Ekolojik zaman döngüseldir. Yapısal zaman yapısal mesafenin yansımasıdır. Günü 'cattle clock' ölçer. Nuer dilinde 'zaman' karşılığı bir sözcük yoktur.\"\n7) Bağlantı cümlesi: \"Evans-Pritchard yapısal işlevselcidir; Radcliffe-Brown'un etkisini kendisi önsözde yazar. Geertz yorumsamacıdır. Geertz, Works and Lives (1988) kitabının 'Slide Show' bölümünde Evans-Pritchard'ın yazısını 'görsel' ve 'şeffaf' diye çözümler. Nuer kitabındaki 'bovine idiom' çözümlemesi, kalın betimlemeyi derste somutlaştırmak için uygun bir örnektir.\" Ancak bunun bir yorum olduğunu belirtin: Geertz, Nuer kitabını kalın betimleme örneği olarak kullanmaz.\n8) Deep Play'i doğru tarihleyin: \"Deep Play ilk kez 1972'de Daedalus dergisinde yayımlandı. Horoz dövüşü statü ilişkilerini sahneler; 'a story they tell themselves about themselves.' Deep play kavramı Bentham'dan alınmıştır.\"",
+    "acik_kalanlar": "- Works and Lives'taki bölüm başlığını yalnızca arama özetlerinden gördüm; PDF açılmadı (503). Başlık birden çok özette aynı biçimde geçiyor; güven orta.\n- Türkçe ders kaynaklarında Nuer ile yoğun ya da kalın betimlemeyi birlikte anlatan bir metin bulamadım. TÜBA açık ders notu \"13 SUDANLI NUERLER\" 404 verdi. Bu ikiliyi birleştiren hocanın kendi ders anlatımıdır; kaynaklarda ikisi doğrudan bağlanmıyor.\n- Ryle'ın denemelerinin yılı 1968 olarak verildi; bu yalnızca Wikipedia'ya dayanıyor.\n- Nuer metni, archive.org'daki açık kopya \"the-nuer-a-description-of-the-modes-of-livelihood-and-political-institutions-of-a-nilotic-people\". Diğer kopyalar ödünç verme kısıtlı."
+   },
+   "dogrulama": {
+    "arac": "araç: 12/40",
+    "sonuc": [
+     {
+      "no": 1,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "Geertz tam metin (archive.org djvu): \"to borrow a notion from Gilbert Ryle, 'thick description.'\" ... \"'Thinking and Reflecting' and 'The Thinking of Thoughts.'\""
+     },
+     {
+      "no": 2,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Consider, he says, two boys rapidly contracting the eyelids of their right eyes. In one, this is an involuntary twitch\" (archive.org djvu)"
+     },
+     {
+      "no": 3,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"thin description\" ... \"rapidly contracting his right eyelids\" ... \"thick description\" ... \"practicing a burlesque of a friend faking a wink to deceive an innocent into thinking a conspiracy is in motion\""
+     },
+     {
+      "no": 4,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"lies the object of ethnography: a stratified hierarchy of meaningful structures in terms of which twitches, winks, fake-winks...\""
+     },
+     {
+      "no": 5,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Believing, with Max Weber, that man is an animal suspended in webs of significance he himself has spun, I take culture to be those webs\""
+     },
+     {
+      "no": 6,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"not an experimental science in search of law but an interpretive one in search of meaning\" (satır sonu tireli, OCR)"
+     },
+     {
+      "no": 7,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "en.wikipedia.org/wiki/Thick_description: \"Thick Description: Toward an Interpretive Theory of Culture,\" Basic Books, 1973, pp. 3–30"
+     },
+     {
+      "no": 8,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Deep Play: Notes on the Balinese Cockfight,\" in Daedalus 101 (1972): 1-37. (telif sayfası, archive.org djvu)"
+     },
+     {
+      "no": 9,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"it is a Balinese reading of Balinese experience, a story they tell themselves about themselves.\""
+     },
+     {
+      "no": 10,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"What, as we have already seen, the cockfight talks most forcibly about is status relationships, and what it says about them is that they are matters of life and death.\" Defterdeki alıntı kısaltılmış, anlam aynı."
+     },
+     {
+      "no": 11,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Bentham's concept of 'deep play' is found in his The Theory of Legislation.\" (Geertz, Deep Play bölümü)"
+     },
+     {
+      "no": 12,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "Nuer tam metin: \"cherchez la vache [OCR: 15 = is] the best advice that can be given to those who desire to understand Nuer behaviour.\" Sayfada dipnot numarası araya girmiş, aksi halde birebir."
+     },
+     {
+      "no": 13,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Nuer tend to define all social processes and relationships in terms of cattle. Their social idiom is a bovine idiom.\""
+     },
+     {
+      "no": 14,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"due not only to the great economic value of cattle but also to the fact that they are links in numerous social relationships.\""
+     },
+     {
+      "no": 15,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"the Nuer have no government, and their state might be described as an ordered anarchy.\""
+     },
+     {
+      "no": 16,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"I arrived in Nuerland early in 1930.\" ... \"My total residence among the Nuer was thus about a year.\""
+     },
+     {
+      "no": 17,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"In the dry season of 1931 I returned\"; \"In 1936 ... I spent a final seven weeks in Nuerland\"; \"serious sickness on both the 1935 and 1936 expeditions\" (1935 de teyit edildi)"
+     },
+     {
+      "no": 18,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"We have stated that he has no judicial or executive authority. It is not his duty to decide on the merits of a case of homicide.\" (Nuer tam metin; sayfadaki OCR boşluklu)"
+     },
+     {
+      "no": 19,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"A leopard-skin chief, kuaar muon, has a sacred association with the earth (mun) which gives him certain ritual powers\""
+     },
+     {
+      "no": 20,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"payments of bride-wealth and blood-wealth were forty, and sometimes fifty to sixty, head of cattle, whereas to-day ... twenty to thirty.\""
+     }
+    ],
+    "not": "Hatalı satır oranı 0/20; kritik satırların hepsi ve örneklem satırlarının tamamı kontrol edildi. Alıntılar iki archive.org djvu tam metninden birebir doğrulandı, tek fark OCR kaynaklı (satır sonu tireleri, bir dipnot numarası); üreticinin defteri çok güvenilir. Not: sonuç tüm iddiaları kapsıyor ama yalnızca tek kaynak sürümüne (archive.org tarama metni) dayanıyor; ikinci bağımsız kaynak sadece satır 7 için (Wikipedia) arandı."
+   }
+  },
+  {
+   "key": "evrim_boas_rb",
+   "uretici": {
+    "arac": "WebSearch+WebFetch+Bash/19",
+    "ozet": "Maddelerin çoğu kaynakla doğrulandı. Tylor'un kültür tanımı ve \"survivals\" tanımı Primitive Culture (Gutenberg, 1. cilt) metninde birebir görüldü. Not: özgün metin \"processes, customs, opinions, and so forth\" diyor; Wikipedia'daki \"and opinions\" biçimi hatalı. Tylor dinin \"asgari tanımını\" (minimum definition) \"the belief in Spiritual Beings\" olarak verir. Animizm -> çoktanrıcılık -> Yüce Tanrı sırası Tylor'un kendi metninde var (2. cilt): Yüce Tanrı öğretisi animizmin \"outcome\"u, çoktanrıcılığın \"completion\"ı. Ama Tylor bu \"divine supremacy\" öğretisini tektanrıcılıkla bir tutmaz, onu tektanrıcılığa \"tending towards\" diye niteler. Bu yüzden ders kitabındaki \"animizm -> çoktanrıcılık -> tektanrıcılık\" özeti kabul edilebilir bir sadeleştirmedir.\n\nMorgan'ın aşamaları (vahşet, barbarlık, uygarlık; her biri alt/orta/üst) ve geçiş ölçütleri Wikipedia ile uyumlu. Ölçütlerin sıralaması ders kitabındaki gibi: ateş ve balık, ok-yay, çömlek, hayvan evcilleştirme, demir, yazı. Morgan masa başı kuramcısı sayılmaz: Senecalar (İrokualar) arasında çalıştı ve League of the Iroquois (1851) adlı etnografiyi yazdı, 1847'de Seneca Şahin klanına evlat edinildi.\n\nFrazer: Golden Bough 1890'da 2 cilt çıktı (3. baskı 12 cilt, 1906-15; kısaltılmış baskı 1922). Büyü -> din -> bilim sırası doğru. Sempatik büyünün iki yasası özgün metinde görüldü: benzerlik yasası (homeopatik ya da taklitçi büyü) ve temas/bulaşma yasası. Spencer \"survival of the fittest\" sözünü Principles of Biology'de (1864) Darwin'i okuduktan sonra kullandı; toplumu organizmaya benzetti, gelişmeyi homojenden heterojene diye gördü, toplumları \"militan\" ve \"endüstriyel\" diye ikiye ayırdı.\n\nBoas: 1896 makalesinin (Science) birebir cümleleri görüldü. Saldırdığı varsayım \"same ethnological phenomena are always due to the same causes\", kendi karşı tezi \"same phenomena may develop in a multitude of ways\". Baffin Adası 1883'te başlar (1883-84), sonra Kwakiutl. Boas \"kültürel görelilik\" terimini kendisi hiç kullanmadı; fikri 1887'de dile getirdi, terim ilk kez 1924'te Alain Locke'ta görülür. \"Historical particularism\" adını Marvin Harris verdi (1968, The Rise of Anthropological Theory).\n\nRadcliffe-Brown: 1935 tarihli işlev tanımı archive.org'daki tam metinde birebir görüldü. Andaman saha çalışması 1906-08'de yapıldı, kitap 1922'de çıktı. \"Functionalist\" etiketini reddettiğine ilişkin alıntı Wikipedia'da görüldü. Ritüel-kaygı tartışmasının Radcliffe-Brown'a düşen yarısı onun \"Taboo\" (1939) metninde birebir görüldü (\"if it were not for the existence of the rite ... the individual would feel no anxiety\"). Homans 1941 PDF'ine erişilemedi (404); Homans'ın birincil/ikincil kaygı sentezi kendi bilgimdir, doğrulanmadı. Malinowski'nin ihtiyaç, Radcliffe-Brown'un yapının sürekliliği ayrımı kaynaklarla uyumlu.",
+    "defter": [
+     {
+      "iddia": "Tylor kültür tanımı (1871) birebir",
+      "kaynak": "https://www.gutenberg.org/cache/epub/70458/pg70458.txt",
+      "alinti": "Culture or Civilization, taken in its wide ethnographic sense, is that complex whole which includes knowledge, belief, art, morals, law, custom,",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Survivals tanımı (özgün metin; 'opinions' önünde 'and' yok)",
+      "kaynak": "https://www.gutenberg.org/cache/epub/70458/pg70458.txt",
+      "alinti": "processes, customs, opinions, and so forth, which have been carried on by force of habit into a new state of society",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Survivals eski kültür durumunun kanıtıdır",
+      "kaynak": "https://www.gutenberg.org/cache/epub/70458/pg70458.txt",
+      "alinti": "proofs and examples of an older condition of culture out of which a newer has been evolved",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Tylor'un dinin asgari tanımı",
+      "kaynak": "https://www.gutenberg.org/cache/epub/70458/pg70458.txt",
+      "alinti": "a minimum definition of Religion, the belief in Spiritual Beings",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Yüce Tanrı öğretisi animizmin sonucu, çoktanrıcılığın tamamlanmasıdır",
+      "kaynak": "https://www.gutenberg.org/cache/epub/70484/pg70484.txt",
+      "alinti": "Animism has its distinct and consistent outcome, and Polytheism its distinct and consistent completion, in the doctrine of a Supreme Deity.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Tylor ilahi üstünlük öğretisini tektanrıcılıkla bir tutmaz, ona doğru bir eğilim olarak görür",
+      "kaynak": "https://www.gutenberg.org/cache/epub/70484/pg70484.txt",
+      "alinti": "Doctrine of Divine Supremacy, distinct from, while tending towards, the doctrine of Monotheism",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Tylor animizmi dinin ilk evresi sayar; insan zihni her yerde aynıdır",
+      "kaynak": "https://en.wikipedia.org/wiki/Edward_Burnett_Tylor",
+      "alinti": "regarded animism as the first phase in the development of religions",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Tylor 1856'da Meksika'ya gitti; ilk kitabı Anahuac (1861)",
+      "kaynak": "https://en.wikipedia.org/wiki/Edward_Burnett_Tylor",
+      "alinti": "first publication was a result of his 1856 trip to Mexico with Christy",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Morgan: vahşetin orta basamağı balık ve ateş, üst basamağı ok-yay",
+      "kaynak": "https://en.wikipedia.org/wiki/Ancient_Society",
+      "alinti": "\"Fish Subsistence\" and \"Use of Fire\" ... \"Weapons: bow and arrow, club, spear\"",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Morgan: barbarlık basamakları çömlek, hayvan evcilleştirme (Doğu yarımküre; Batı'da sulama), demir",
+      "kaynak": "https://en.wikipedia.org/wiki/Ancient_Society",
+      "alinti": "\"art of pottery\" ... \"Domestication of animals\" ... \"smelting iron ore\"",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Morgan: uygarlık fonetik alfabe ve yazıyla başlar",
+      "kaynak": "https://en.wikipedia.org/wiki/Ancient_Society",
+      "alinti": "\"phonetic alphabet, writing\"",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Morgan, League of the Iroquois (1851) adlı ilk tam etnografiyi Seneca Ely Parker ile yazdı; 1847'de Şahin klanına evlat edinildi",
+      "kaynak": "https://www.nasonline.org/wp-content/uploads/2024/06/morgan-lewis.pdf",
+      "alinti": "adopted into the Hawk clan of the Seneca nation ... 1847",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "iddia": "Golden Bough 1890'da 2 cilt; 3. baskı 12 cilt (1906-15); kısaltılmış baskı 1922",
+      "kaynak": "https://en.wikipedia.org/wiki/The_Golden_Bough",
+      "alinti": "first published in two volumes in 1890",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Frazer: büyü -> din -> bilim",
+      "kaynak": "https://en.wikipedia.org/wiki/The_Golden_Bough",
+      "alinti": "progresses from magic through religious belief to scientific thought",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Frazer: sempatik büyünün iki yasası, benzerlik ve temas/bulaşma",
+      "kaynak": "https://www.gutenberg.org/cache/epub/3623/pg3623.txt",
+      "alinti": "The former principle may be called the Law of Similarity, the latter the Law of Contact or Contagion.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Frazer: büyü çağı din çağından önce gelir",
+      "kaynak": "https://www.gutenberg.org/cache/epub/3623/pg3623.txt",
+      "alinti": "If an Age of Religion has thus everywhere ... been preceded by an Age of Magic",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Spencer 'survival of the fittest' sözünü Principles of Biology'de (1864) kullandı; toplumsal organizma; homojenden heterojene",
+      "kaynak": "https://en.wikipedia.org/wiki/Herbert_Spencer",
+      "alinti": "from a simple, undifferentiated, homogeneity to a complex, differentiated, heterogeneity",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Boas 1896: karşılaştırmalı yöntemin varsayımı",
+      "kaynak": "https://anthrobase.com/Browse/home/hst/cache/bocomp.html",
+      "alinti": "the same ethnological phenomena are always due to the same causes",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Boas 1896: karşı tez",
+      "kaynak": "https://anthrobase.com/Browse/home/hst/cache/bocomp.html",
+      "alinti": "Even the most cursory review shows that the same phenomena may develop in a multitude of ways.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Boas'ın tarihsel yöntemi: geleneği kabilenin bütün kültürü içinde ve komşu kabilelere yayılımıyla incelemek",
+      "kaynak": "https://anthrobase.com/Browse/home/hst/cache/bocomp.html",
+      "alinti": "a detailed study of customs in their relation to the total culture of the tribe practicing them",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Boas 1883'te Baffin Adası'na gitti; Kwakiutl üzerine çalıştı; öğrencileri arasında Kroeber, Benedict, Sapir, Mead, Hurston var",
+      "kaynak": "https://en.wikipedia.org/wiki/Franz_Boas",
+      "alinti": "In 1883, encouraged by Theobald Fischer, Boas went to Baffin Island",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "'Historical particularism' adını Marvin Harris verdi (1968)",
+      "kaynak": "https://en.wikipedia.org/wiki/Historical_particularism",
+      "alinti": "each society is a collective representation of its unique historical past",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Boas 'cultural relativism' terimini kullanmadı; terim ilk kez 1924'te Alain Locke'ta görülür; Boas fikri 1887'de dile getirdi",
+      "kaynak": "https://en.wikipedia.org/wiki/Cultural_relativism",
+      "alinti": "civilization is not something absolute",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Radcliffe-Brown 1935 işlev tanımı birebir",
+      "kaynak": "https://archive.org/download/1952-radcliffe-brown-1952-structure-and-function-in-primitive-society",
+      "alinti": "the part it plays in the social life as a whole and therefore the contribution it makes to the maintenance of the structural continuity",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Radcliffe-Brown: toplumsal yaşam toplumsal yapının işleyişidir",
+      "kaynak": "https://archive.org/download/1952-radcliffe-brown-1952-structure-and-function-in-primitive-society",
+      "alinti": "The social life of the community is here defined as the functioning of the social structure.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Andaman saha çalışması 1906-08; kitap 1922; Durkheim etkisi; Malinowski'nin biyolojik ihtiyaç açıklamasını reddetti",
+      "kaynak": "https://en.wikipedia.org/wiki/Alfred_Radcliffe-Brown",
+      "alinti": "social practices could be explained directly by their ability to satisfy basic biological needs",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Radcliffe-Brown 'functionalist' etiketini reddetti",
+      "kaynak": "https://en.wikipedia.org/wiki/Alfred_Radcliffe-Brown",
+      "alinti": "As for myself I reject it entirely, regarding it as useless and worse.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Radcliffe-Brown (Taboo, 1939): ritüel kaygıyı gidermez, onu yaratır; Malinowski'nin Trobriand açıklamasına karşı çıkar",
+      "kaynak": "https://archive.org/download/1952-radcliffe-brown-1952-structure-and-function-in-primitive-society",
+      "alinti": "if it were not for the existence of the rite and the beliefs associated with it the individual would feel no anxiety",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Malinowski: ritüel güven verir, kaygıyı azaltır (Radcliffe-Brown'un aktarımı)",
+      "kaynak": "https://archive.org/download/1952-radcliffe-brown-1952-structure-and-function-in-primitive-society",
+      "alinti": "some rite which, since he believes it will ensure good luck, serves to reassure him",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Homans 1941 iki görüşü birincil ve ikincil kaygı kavramlarıyla uzlaştırır (birincil kaygı ritüeli doğurur, ritüel yapılmazsa ikincil kaygı doğar)",
+      "kaynak": "https://anthro.du.ac.in/e-resources2020/rpm/Anxiety%20and%20Ritual_The%20theories%20of%20Malinowski%20and%20radcliffe-Brown.pdf",
+      "alinti": "görülmedi",
+      "guven": "orta",
+      "kritik": false
+     }
+    ],
+    "kitapcik_onerisi": "1) \"Survivals (kalıntılar): Tylor'a göre alışkanlıkla yeni bir toplum durumuna taşınmış süreçler, gelenekler ve görüşlerdir; eski bir kültür durumunun kanıtıdır.\" 2) \"Tylor dinin asgari tanımını 'ruhsal varlıklara inanç' olarak verir. Sıra animizm -> çoktanrıcılık -> Yüce Tanrı öğretisidir; Tylor bu son aşamayı tektanrıcılığa yönelen bir aşama olarak görür. Ders kitaplarında bu sıra 'animizm -> çoktanrıcılık -> tektanrıcılık' diye özetlenir.\" 3) Morgan için: \"Morgan tam bir masa başı kuramcısı değildir: Senecalar arasında saha çalışması yaptı ve League of the Iroquois'yi (1851) yazdı. Ama Ancient Society'deki (1877) evrim şeması tek çizgili ve etnosantriktir.\" 4) Morgan basamaklarını şu sırayla yaz: ateş ve balıkçılık, ok-yay, çömlekçilik, hayvan evcilleştirme (Batı yarımkürede sulamalı tarım), demir eritme, fonetik alfabe ve yazı. 5) \"Frazer'a göre sempatik büyü iki yasaya dayanır: benzerlik yasası (homeopatik ya da taklitçi büyü) ve temas ya da bulaşma yasası.\" 6) \"Boas 'kültürel görelilik' terimini kendisi kullanmadı; fikri 1887'de ortaya koydu, terim 1924'te Alain Locke ile görülür.\" 7) Boas 1896 için şu karşıtlığı yaz: evrimciler aynı olguların hep aynı nedenlerden doğduğunu varsayar, Boas'a göre aynı olgu çok farklı yollardan gelişebilir. 8) Radcliffe-Brown'un işlev tanımı: \"Yinelenen bir etkinliğin toplumsal yaşamın bütünü içinde oynadığı rol, dolayısıyla yapısal sürekliliğin korunmasına yaptığı katkı.\" 9) Ritüel-kaygı tartışmasını şöyle yaz: \"Malinowski'ye göre ritüel kaygıyı giderir ve güven verir. Radcliffe-Brown'a göre (Taboo, 1939) ritüel ve inanç olmasa kişi kaygı duymazdı; kaygıyı ritüel yaratır, ritüel toplumsal değerleri ifade eder. Homans (1941) iki görüşü uzlaştırır.\" Malinowski (ihtiyaç) ile Radcliffe-Brown (yapının sürekliliği) ayrımı doğrudur, kalabilir.",
+    "acik_kalanlar": "Homans 1941'in özgün metnine erişilemedi (du.ac.in PDF 404 veriyor). Birincil/ikincil kaygı sentezi kendi bilgime dayanıyor, doğrulanmadı. Morgan basamaklarının \"geçiş ölçütü\" ifadeleri Ancient Society özgün metninden birebir görülmedi; Wikipedia'daki basamak tablosundan teyit edildi. Morgan'ın evlat edinilme günü kaynaklarda farklı veriliyor (1 Ekim ya da 31 Ekim 1847). Boas'ın Baffin dönüşünün 1884 olduğu bu oturumda ayrıca görülmedi."
+   },
+   "dogrulama": {
+    "arac": "WebFetch/WebSearch/Bash: 14/40",
+    "sonuc": [
+     {
+      "no": 1,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Culture or Civilization, taken in its wide ethnographic sense, is that complex whole which includes knowledge, belief, art, morals, law, custom, and any other capabilities and habits acquired by man as a member of society.\" https://www.gutenberg.org/cache/epub/70458/pg70458.txt (tam metni indirip taradım)"
+     },
+     {
+      "no": 2,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"These are processes, customs, opinions, and so forth, which have been carried on by force of habit into a new state of society different from that in which they had their original home\" https://www.gutenberg.org/cache/epub/70458/pg70458.txt ('opinions' önünde 'and' yok)"
+     },
+     {
+      "no": 3,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"they thus remain as proofs and examples of an older condition of culture out of which a newer has been evolved.\" https://www.gutenberg.org/cache/epub/70458/pg70458.txt"
+     },
+     {
+      "no": 4,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"simply to claim, as a minimum definition of Religion, the belief in Spiritual Beings.\" https://www.gutenberg.org/cache/epub/70458/pg70458.txt (gövde metni; ilk WebFetch kısaltılmış metinde bulamamıştı, tam metinde var)"
+     },
+     {
+      "no": 5,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Among these races, Animism has its distinct and consistent outcome, and Polytheism its distinct and consistent completion, in the doctrine of a Supreme Deity.\" https://www.gutenberg.org/cache/epub/70484/pg70484.txt (cümle 'Among these races' ile başlıyor; 'bu ırklar' bağlamı, yani Tylor'un ele aldığı yüksek ırklar/ilkel olmayan dinler için geçerli, genel hüküm değil)"
+     },
+     {
+      "no": 6,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Doctrine of Divine Supremacy, distinct from, while tending towards, the doctrine of Monotheism\" https://www.gutenberg.org/cache/epub/70484/pg70484.txt (Bölüm XVII içindekiler özeti; gövdede ayrıca kontrol etmedim)"
+     },
+     {
+      "no": 7,
+      "durum": "doğru",
+      "duzeltme": "Alıntı animizmin ilk evre olduğunu doğruluyor; 'insan zihni her yerde aynıdır' kısmı Wikipedia'da 'psychic unity' terimiyle değil şu ifadeyle: 'the human mind and its capabilities are the same globally'. Terim kullanılacaksa 'zihinsel birlik' diye tırnaksız açıkla.",
+      "kanit": "\"regarded animism as the first phase in the development of religions\" https://en.wikipedia.org/wiki/Edward_Burnett_Tylor"
+     },
+     {
+      "no": 8,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Tylor's first publication was a result of his 1856 trip to Mexico with Christy.\" Anahuac 1861 https://en.wikipedia.org/wiki/Edward_Burnett_Tylor"
+     },
+     {
+      "no": 9,
+      "durum": "doğru",
+      "duzeltme": "Alıntı tırnaklı kısımlar Wikipedia'da ayrı ayrı geçiyor: orta vahşet 'Fish Subsistence, Use of Fire', üst vahşet 'Weapons: bow and arrow, club, spear'. Birleştirilmiş tek alıntı gibi sunma.",
+      "kanit": "\"Fish Subsistence, Use of Fire\" (Middle Savagery); \"Weapons: bow and arrow, club, spear\" (Upper Savagery) https://en.wikipedia.org/wiki/Ancient_Society"
+     },
+     {
+      "no": 10,
+      "durum": "doğru",
+      "duzeltme": "Wikipedia'da sulama ve evcilleştirme orta barbarlıkta anılır (evcilleştirme Doğu yarımkürede Sami ve Aryan ailelerle ilişkilendirilir); doğu/batı ayrımını ayrıca doğrulamadım. Çömlek alt barbarlık, demir eritme üst barbarlık.",
+      "kanit": "\"art of pottery\" (Lower Barbarism); \"Domestication of animals\" (Middle); \"smelting iron ore\" (Upper) https://en.wikipedia.org/wiki/Ancient_Society"
+     },
+     {
+      "no": 11,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"phonetic alphabet, writing\" (Civilization) https://en.wikipedia.org/wiki/Ancient_Society"
+     },
+     {
+      "no": 12,
+      "durum": "düzelt",
+      "duzeltme": "Kaynak PDF (nasonline) okunamadı (taranmış görüntü). Bağımsız arama: League 1851'de yayımlandı, Parker ile 'joint researches' ve kitap Parker'a ithaf; Şahin klanına evlat edinme 1847 ama gün kaynaklara göre değişiyor (1 Ekim vs 31 Ekim 1847) ve Parker 'ortak yazar' değil ortak araştırmacı/ithaf edilen kişi olarak anılıyor. 'İlk tam etnografi' modern kaynakların sonradan yaptığı nitelendirme ('first comprehensive ethnography of an American Indian group'); 'ilk' iddiasını 'Kızılderili bir halkın ilk kapsamlı etnografisi sayılır' diye yumuşat. Yalnızca yıl ver, gün verme. Üreticinin NAS alıntısını birebir doğrulayamadım.",
+      "kanit": "\"considered the first comprehensive ethnography of an American Indian group\"; \"fruit of our joint researches\"; adopted 1847 Hawk clan. Arama sonuçları: https://www.versobooks.com/pages/encyclopedia/morgan-lewis-henry , https://www.nasonline.org/wp-content/uploads/2024/06/morgan-lewis.pdf"
+     },
+     {
+      "no": 13,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"first published in two volumes in 1890\"; \"in twelve volumes in the third edition, published 1906–1915\"; \"Abridged edition, 1 vol., 1922\" https://en.wikipedia.org/wiki/The_Golden_Bough"
+     },
+     {
+      "no": 14,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"progresses from magic through religious belief to scientific thought\" https://en.wikipedia.org/wiki/The_Golden_Bough"
+     },
+     {
+      "no": 15,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"The former principle may be called the Law of Similarity, the latter the Law of Contact or Contagion.\" https://www.gutenberg.org/cache/epub/3623/pg3623.txt"
+     },
+     {
+      "no": 16,
+      "durum": "düzelt",
+      "duzeltme": "Üreticinin alıntısı birebir değil: gerçek metinde 'as I venture to surmise' (defterdeki 'believe' yanlış) ve sonrası 'it is natural that we should enquire what causes have led mankind ... to abandon magic ...'. Anlam doğru; alıntıda 'believe' yerine 'surmise' yaz.",
+      "kanit": "\"If an Age of Religion has thus everywhere, as I venture to surmise, been preceded by an Age of Magic\" https://www.gutenberg.org/cache/epub/3623/pg3623.txt"
+     },
+     {
+      "no": 17,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"survival of the fittest\" Principles of Biology (1864); \"social organism\"; \"from a simple, undifferentiated, homogeneity to a complex, differentiated, heterogeneity\" https://en.wikipedia.org/wiki/Herbert_Spencer"
+     },
+     {
+      "no": 18,
+      "durum": "doğru",
+      "duzeltme": "Boas'ın alıntısı, karşılaştırmalı yöntemin kabul ettiği varsayımı aktarıyor (Boas bunu eleştiriyor, savunmuyor); metin Science 1896, 'The Limitations of the Comparative Method of Anthropology', s. 274.",
+      "kanit": "\"the same ethnological phenomena are always due to the same causes\" https://anthrobase.com/Browse/home/hst/cache/bocomp.html"
+     },
+     {
+      "no": 19,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "\"Even the most cursory review shows that the same phenomena may develop in a multitude of ways.\" https://anthrobase.com/Browse/home/hst/cache/bocomp.html"
+     },
+     {
+      "no": 20,
+      "durum": "doğru",
+      "duzeltme": "Alıntı geçiyor (s. 276-277, cümle başı büyük harfli); 'komşu kabilelere yayılım' kısmını ayrıca doğrulamadım.",
+      "kanit": "\"A detailed study of customs in their relation to the total culture of the tribe practicing them\" https://anthrobase.com/Browse/home/hst/cache/bocomp.html"
+     }
+    ],
+    "not": "Hatalı oran: 20 satırın tamamı kontrol edildi; 2 düzeltme gerekti (satır 12: kaynak PDF okunamadı, 'ilk etnografi' ve gün bilgisi yumuşatılmalı; satır 16: alıntıda 'believe' yerine 'surmise'), yani %10; satır 4 ve 5 ilk okumada kısaltılmış metin yüzünden bulunamadı ama tam metinde birebir doğrulandı. Üreticinin defteri genel olarak güvenilir, alıntılar büyük çoğunlukla birebir. Satır 10 ve 20'deki Doğu/Batı ayrımı ve komşu kabilelere yayılım ayrıntıları doğrulanmadı."
+   }
+  },
+  {
+   "key": "turkce_terim",
+   "uretici": {
+    "arac": "WebSearch+WebFetch+Bash/25",
+    "ozet": "1) Güvenç'in kültürel süreçler listesinin okunabilir hali Ankara Üniversitesi açık ders sunumunda bulundu: Dr. B. Nilüfer Uluç, \"Kültürün Özellikleri, Kültürel Süreçler\". Sunum açılışta Güvenç'i alıntılıyor ve 8 süreci tanımlarıyla sıralıyor: kültürleme, kültürel yayılma, kültürleşme, kültürlenme, kültür şoku, zorla kültürleme, kültürel özümseme, kültürel değişme. Aynı sıra ve tanımlar Güvenç'e de açıkça atfediliyor: Anadolu Üniversitesi makalesi (DergiPark 1496879) dört süreci (kültürleme, kültürleşme, kültürlenme, kültür değişmesi) \"Güvenç, 1984, s. 328\" diye veriyor; Güvenç'in ilgili kitabı İnsan ve Kültür, Remzi Kitabevi, 1984. Bu kaynaklarda kültürlenme, önceki turdaki (b) tanımıdır: alt kültürlerden ya da farklı toplumlardan gelen birey ve grupların buluşup etkileşerek asıl kültürde bulunmayan YENİ BİR BİLEŞİME varması.\n\nÖnceki turdaki (c) \"yeni kültüre uyum güçlüğü\" tanımı bir okuma hatası. Aynı sunumda bu tanım KÜLTÜR ŞOKU maddesine ait; arama özeti kültürlenmeye yanlış bağlamıştı. (a) \"edilgen biçim\" tanımı İsmail Engin'e ait, Güvenç'e değil.\n\nGüvenç'in kültürlenme için verdiği İngilizce karşılık bulunamadı. \"culturation\" sözcüğünü Güvenç'le birlikte kullanan bir kaynak yok. Bir kaynak \"kültürlenme (acculturation)\" diye yazıyor; bu, terimlerin Türkçede tutarsız kullanıldığını gösteriyor.\n\n2) Hocanın \"az çok öz kültürüne benzeyenlerle kültürlenme\" ifadesi, Güvenç'in \"alt kültürlerden gelenlerin buluşması\" kısmıyla en yakın tanım. Aynı toplumun alt kültürleri öz kültüre benzer; \"farklı olanla kültürleşme\" de Güvenç'in kültürleşme tanımıyla örtüşüyor. Hoca büyük olasılıkla Güvenç çizgisini sadeleştiriyor. Sınav için en güvenli cevap, hocanın cümlesini yazıp yanına Güvenç'in \"yeni bileşim\" tanımını eklemek.\n\n3) \"Kültürel artık\" adı yine hiçbir Türkçe kaynakta bulunamadı. Denenen yazımlar: kültür artığı, kültürel artıklar, kültürel kalıntılar, \"kültürel artık\" + gaz lambası. Raymond Williams'ın üçlüsü (dominant/residual/emergent, 1977) Türkçede \"artık\" ya da \"kalıntı\" diye çevrilebiliyor. Ancak birebir Türkçe çeviri metni görülmedi; ayrıca Williams'ta \"residual\" hâlâ etkin olan geçmiş öğedir, \"işlevini yitirmiş\" değildir. Hocanın tanımı (işlevini yitirmiş, eskisi kadar yeri olmayan) Tylor'ın survivals kavramına daha uygun; Britannica bu kavramı işlevini yitirmiş ve kültüre zayıf bütünleşmiş öğeler olarak tanımlıyor.\n\n4) Malinowski'nin Türkçe çevirisi: Bilimsel Bir Kültür Teorisi (çev. D. Uludağ, Doğu Batı, 2016). Taşbaşı'nın 2023 makalesi şu terimleri kullanıyor: temel/organik/biyolojik ihtiyaçlar, kültürel tepki/cevaplar, türetilen yeni ihtiyaçlar, \"ikincil veya yapay bir çevre\", \"biyolojik ve aletsel/birleştirici fonksiyon\".\n\n5) Thick description'ın Türkçesi \"yoğun betimleme\" (Ankara açık ders: Ryle'dan etkilenerek). Kitabın Türkçe adı Kültürlerin Yorumlanması (Dost Yayınevi); çevirmen doğrulanamadı. Historical particularism'in Türkçe kaynaklardaki yerleşik karşılığı \"tarihsel tikelcilik\" (Özbudun ve arkadaşları). Evans-Pritchard'ın The Nuer kitabının Türkçe çevirisi (\"Nuerler\") bulunamadı.",
+    "defter": [
+     {
+      "iddia": "Güvenç alıntısı: kültür kalıtımsal değil, doğduktan sonra kazanılan alışkanlıklardır",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=117594",
+      "alinti": "kültür içgüdüsel ya da kalıtımsal değil, her bireyin doğduktan sonraki yaşantısı içinde kazandığı alışkanlıklardır",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Kültürleme tanımı (ders sunumu)",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=117594",
+      "alinti": "Doğumdan ölüme kadar bireyin toplumun istek ve beklentilerine uyacak şekilde etkilenmesi ve değiştirilmesi.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Kültürleşme tanımı (ders sunumu)",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=117594",
+      "alinti": "temas halindeki kültürlerin birbirlerinden fikir ve uygulamaları ödünç aldığı, böylece varolan fikir ve uygulamaların değiştiği ve yenilendiği bir süreçtir",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Kültürlenme tanımı: yeni birleşim (ders sunumu)",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=117594",
+      "alinti": "alt kültürlerinden ya da farklı toplumlardan kopup gelen birey ve grupların buluşması ve ... asıl kültür ve alt kültürlerde bulunmayan yeni bir birleşime varılması",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Uyum güçlüğü tanımı kültürlenmeye değil kültür şokuna ait",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=117594",
+      "alinti": "Kültür Şoku – Bir kültürden başka bir kültüre giden bireylerin yeni kültüre uyum yapmakta karşılaştıkları güçlükler, sıkıntı ve bunalımlar, gösterdikleri tepkiler.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Zorla kültürleme tanımı",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=117594",
+      "alinti": "Bir kültüre ait birey ve grupların başka bir kültür tarafından zorla değiştirilmesi",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Kültürel özümseme tanımı",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=117594",
+      "alinti": "Bir kültürel sistemin başka bir kültürel sistemi giderek kendine benzetmesi, kültürel egemenliği altına alması",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Kültürel yayılma tanımı",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=117594",
+      "alinti": "Belli bir toplumda maddi ve manevi kültürel öğelerin dıştan içe ya da içten dışa yayılması",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Kültürleme, kültürleşme, kültürlenme ve kültür değişmesi sıralaması Güvenç 1984, s. 328'e atfediliyor; kültürlenme 'yeni bileşim' olarak tanımlanıyor",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/1496879",
+      "alinti": "genel ya da alt kültürde bulunmayan yeni bir kültürel bileşimin ortaya çıkması olan \"Kültürlenme\" kavramı ... (Güvenç, 1984, s. 328)",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Güvenç'te kültürleşme: başka kültürlerle karşılıklı etkilenme",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/1496879",
+      "alinti": "Bireyin ya da toplumun başka kültürlerle karşılıklı olarak etkilenmesi olan \"Kültürleşme\" kavramı",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Güvenç: kültürleme = enculturation, süreçlerin en önemlisi ve evrenseli; geniş anlamda eğitim",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/1496879",
+      "alinti": "Kültürleme, en geniş anlamıyla, eğitim ve öğrenmedir (Güvenç, 1984, s. 132)",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "iddia": "Kaynak kitap künyesi: Güvenç, İnsan ve Kültür, Remzi Kitabevi 1984",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/1496879",
+      "alinti": "Bozkurt Güvenç, İnsan ve Kültür, (Ankara: Remzi Kitabevi, 1984)",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Güvenç'e göre kültürleşme yeni sentezler yaratır (Kültürün ABC'si üzerinden aktarılıyor)",
+      "kaynak": "https://dergipark.org.tr/en/download/article-file/274433",
+      "alinti": "kültürleşme sürecinde, iki ya da daha çok kültür karşılıklı etkileşim sonucunda değişime uğrar, yeni sentezler, dinamik bileşkeler yaratırlar",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "iddia": "Kültürlenmenin 'edilgen biçim' tanımı İsmail Engin'e ait, Güvenç'e değil",
+      "kaynak": "WebSearch özeti (İsmail Engin makalesi, URL görülmedi)",
+      "alinti": "Kültürlenme, kültürleme sürecinin edilgen biçimidir.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "iddia": "Survivals: işlevini yitirmiş, kültüre zayıf bütünleşmiş öğeler; Tylor, Primitive Culture (1871)",
+      "kaynak": "https://www.britannica.com/topic/survivals",
+      "alinti": "görülmedi (arama özeti)",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "iddia": "Williams üçlüsü: egemen, residual (artık/kalıntı), yükselen; Türkçe birebir çeviri bulunamadı",
+      "kaynak": "https://sociopedia.co/author/williams-raymond",
+      "alinti": "Williams ... introduces a distinction between three types of ideology: dominant, residual, and emerging.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "iddia": "Malinowski kitabının Türkçe adı ve çevirisi",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/3005529",
+      "alinti": "Malinowski, B. (2016). Bilimsel bir kültür teorisi (D. Uludağ, Çev.). Doğu-Batı Yayınları.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Malinowski: temel/organik ihtiyaçlar ve kültürel tepkiler",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/3005529",
+      "alinti": "bireyin ve toplumun organik ya da temel ihtiyaçlarının karşılanması asgari bir şarttır",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Malinowski: türetilen ihtiyaçlar ve ikincil/yapay çevre",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/3005529",
+      "alinti": "yeni, ikincil veya yapay bir çevrenin kurulmasıyla çözülür",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Malinowski'de iki fonksiyon: biyolojik ve aletsel/birleştirici",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/3005529",
+      "alinti": "bunları biyolojik ve aletsel/birleştirici fonksiyon olarak ayırmaktadır",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Geertz Türkçe: Kültürlerin Yorumlanması, Dost Yayınevi; yoğun betimleme",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=124479",
+      "alinti": "Kültürlerin Yorumlanması, Clifford Geertz, Dost Yayınevi.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "'Yoğun betimleme' terimi Türkçe ders kaynağında geçiyor",
+      "kaynak": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=124479",
+      "alinti": "Geertz'in 'yoğun betimleme' dediği de budur",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Boas: tarihsel tikelcilik (Özbudun ve arkadaşlarının ders kitabı)",
+      "kaynak": "https://dergipark.org.tr/en/download/article-file/3686960",
+      "alinti": "görülmedi (arama özeti: 'tarihsel tikelcilik' başlığı)",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "iddia": "Evans-Pritchard The Nuer için Türkçe çeviri ('Nuerler') bulunamadı",
+      "kaynak": "WebSearch (sonuç yok)",
+      "alinti": "görülmedi",
+      "guven": "düşük",
+      "kritik": false
+     }
+    ],
+    "kitapcik_onerisi": "1) Kültürlenme maddesi şöyle yazılsın: \"Kültürlenme (Güvenç): Bir toplumun alt kültürlerinden ya da farklı toplumlardan gelen birey ve grupların buluşup etkileşmesi sonucunda, asıl kültürde ve alt kültürlerde bulunmayan yeni bir kültürel bileşimin ortaya çıkmasıdır. Hocanın sade ifadesiyle: kişinin az çok kendi kültürüne benzeyenlerle (alt kültürlerle) etkileşimi.\"\n\n2) Uyarı eklensin: \"Yeni kültüre uyum güçlüğü kültürlenme DEĞİL, kültür şokudur.\"\n\n3) Süreçler listesi eklensin: kültürleme (doğumdan ölüme toplumun istek ve beklentilerine göre biçimlenme), kültürel yayılma, kültürleşme (temas hâlindeki kültürlerin karşılıklı ödünç alarak değişmesi), kültürlenme, kültür şoku, zorla kültürleme, kültürel özümseme (bir kültürün ötekini kendine benzetmesi), kültürel değişme.\n\n4) Kaynak satırı: \"Güvenç, İnsan ve Kültür, Remzi Kitabevi, 1984 (süreçler s. 328).\"\n\n5) Kültürel artık maddesi şöyle yazılsın: \"Kültürel artık (kalıntı): işlevini büyük ölçüde yitirmiş ama sürmekte olan öğe; örnek gaz lambası. Kavramın kökeni Tylor'ın 'survivals' (kalıntılar) kavramıdır (Primitive Culture, 1871). 'Kültürel artık' adı hocanın kendi terimi olabilir; Türkçe yazılı bir kaynakta bulunamadı.\" Williams'ın \"residual\" kavramı hâlâ etkin olan geçmiş öğeyi anlattığı için ayrı tutulmalı.\n\n6) Malinowski maddesi şöyle yazılsın: \"Bilimsel Bir Kültür Teorisi (1944; Türkçesi Doğu Batı, 2016). Temel (biyolojik) ihtiyaçlar kültürel tepkilerle karşılanır; bu tepkiler ikincil/yapay bir çevre ve türetilmiş ihtiyaçlar doğurur.\"\n\n7) Terim karşılıkları: thick description = yoğun betimleme; historical particularism = tarihsel tikelcilik; Geertz'in kitabı Kültürlerin Yorumlanması (The Interpretation of Cultures, 1973).",
+    "acik_kalanlar": "Güvenç'in kitabının kendisi görülmedi; tanımlar ikincil kaynaklardaki birebir aktarımlardan alındı. Güvenç'in kültürlenme için verdiği İngilizce karşılık (culturation olup olmadığı) bulunamadı. \"Kültürel artık\" adına ve gaz lambası örneğine hiçbir yazılı kaynakta rastlanmadı. Williams'ın Türkçe çevirisinde residual'ın nasıl çevrildiği görülmedi. Malinowski'nin \"bütünleştirici ihtiyaçlar\" terimi Türkçe kaynakta birebir görülmedi; Taşbaşı \"aletsel/birleştirici fonksiyon\" diyor. Geertz çevirisinin çevirmeni ve The Nuer'in Türkçe çevirisi doğrulanamadı."
+   },
+   "dogrulama": {
+    "arac": "araç: 12/40",
+    "sonuc": [
+     {
+      "no": 1,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "Slayt: 'Bozkurt Güvenç, \"kültür içgüdüsel ya da kalıtımsal değil, her bireyin doğduktan sonraki yaşantısı içinde kazandığı alışkanlıklardır\" der.' acikders.ankara.edu.tr/mod/resource/view.php?id=117594 (PDF, pdftotext)"
+     },
+     {
+      "no": 2,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'1. Kültürleme – Doğumdan ölüme kadar bireyin toplumun istek ve beklentilerine uyacak şekilde etkilenmesi ve değiştirilmesi.' (sonunda parantez içinde aitlik hissi notu var). Aynı URL."
+     },
+     {
+      "no": 3,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'3. Kültürleşme ... Yani temas halindeki kültürlerin birbirlerinden fikir ve uygulamaları ödünç aldığı, böylece varolan fikir ve uygulamaların değiştiği ve yenilendiği bir süreçtir.' Aynı URL."
+     },
+     {
+      "no": 4,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'4. Kültürlenme – ... buluşması ve bir etkileşim süresi sonunda asıl kültür ve alt kültürlerde bulunmayan yeni bir birleşime varılması.' Aynı URL."
+     },
+     {
+      "no": 5,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'5. Kültür Şoku – Bir kültürden başka bir kültüre giden bireylerin yeni kültüre uyum yapmakta karşılaştıkları güçlükler, sıkıntı ve bunalımlar, gösterdikleri tepkiler.' Aynı URL; başlık kültür şoku, kültürlenme değil."
+     },
+     {
+      "no": 6,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'6. Zorla-Kültürleme – Bir kültüre ait birey ve grupların başka bir kültür tarafından zorla değiştirilmesi' Aynı URL."
+     },
+     {
+      "no": 7,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'7. Kültürel Özümseme – Bir kültürel sistemin başka bir kültürel sistemi giderek kendine benzetmesi, kültürel egemenliği altına alması' Aynı URL."
+     },
+     {
+      "no": 8,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'2. Kültürel Yayılma – Belli bir toplumda maddi ve manevi kültürel öğelerin dıştan içe ya da içten dışa yayılması' Aynı URL."
+     },
+     {
+      "no": 9,
+      "durum": "doğru",
+      "duzeltme": "Dikkat: s. 328 atfı dört maddelik sıralamanın tamamına aittir; kültürlenme tanımı makalede 3. madde olarak geçer.",
+      "kanit": "'3. Bir toplumdaki alt kültürü ya da farklı toplumlardan gelen birey ya da grupların buluşması ve etkileşimi sonucunda genel ya da alt kültürde bulunmayan yeni bir kültürel bileşimin ortaya çıkması olan \"Kültürlenme\" kavramı ... (Güvenç, 1984, s. 328)' dergipark.org.tr/tr/download/article-file/1496879"
+     },
+     {
+      "no": 10,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'2. Bireyin ya da toplumun başka kültürlerle karşılıklı olarak etkilenmesi olan \"Kültürleşme\" kavramı' Aynı URL."
+     },
+     {
+      "no": 11,
+      "durum": "düzelt",
+      "duzeltme": "'Süreçlerin en önemlisi ve evrenseli' ifadesi Güvenç'in değil makale yazarının cümlesidir; Güvenç'ten doğrudan alıntı yalnızca 'toplumca istenen, beklenen insan olma süreci / toplumsallaştırma' kısmıdır (s. 328). 'Kültürleme, en geniş anlamıyla, eğitim ve öğrenmedir' s. 132 alıntısı doğrudur ama ikisini Güvenç'e atfetmeyin. Ayrıca 'geniş anlamda eğitim' ifadesi s. 328'de 'toplumsal boyutlu eğitim' olarak geçiyor.",
+      "kanit": "Makale: 'Batı dillerinde enculturation olarak adlandırılan, kültürleme, kültür süreçleri arasında en önemlisi ve evrenseli sayılır. En geniş anlamıyla, toplumsal boyutlu eğitimdir.' ardından Güvenç alıntısı (s. 328); 'Kültürleme, en geniş anlamıyla, eğitim ve öğrenmedir (Güvenç, 1984, s. 132)' (OCR bozuk, 'Kültürlerne'). Aynı URL."
+     },
+     {
+      "no": 12,
+      "durum": "düzelt",
+      "duzeltme": "Künye makalede tutarsız: dipnotta 'Ankara: Remzi Kitabevi, 1984', kaynakçada 'İstanbul Remzi Kitabevi'. Remzi İstanbul yayınevidir; yer için Ankara yazılmamalı, İstanbul tercih edilmeli (bağımsız teyit yapılmadı).",
+      "kanit": "'Bozkurt Güvenç, İnsan ve Kültür, (Ankara: Remzi Kitabevi, 1984), s. 335' ve kaynakçada 'Güvenç, Bozkurt (1984). İnsan ve Kültür. İstanbul Remzi Kitabevi.' dergipark 1496879"
+     },
+     {
+      "no": 13,
+      "durum": "doğru",
+      "duzeltme": "Güvenç atfı makalede 'Güvenç, Kültürün ABC'si, Yapı Kredi, 2002' dipnotuna dayanır (1984 değil); alıntı 'Bozkurt Güvenç'e göre ise' ile başlıyor.",
+      "kanit": "'Bozkurt Güvenç'e göre ise, kültürleşme sürecinde, iki ya da daha çok kültür karşılıklı etkileşim sonucunda değişime uğrar, yeni sentezler, dinamik bileşkeler yaratırlar.' dergipark.org.tr/en/download/article-file/274433"
+     },
+     {
+      "no": 14,
+      "durum": "doğrulanamadı",
+      "duzeltme": "",
+      "kanit": "Arama sonucu, İsmail Engin'in 'Süpürge Zanaatçısı Örneğinde İki Kültürel Süreç: Kültürleme ve Kültürlenme' makalesinin var olduğunu gösterdi; 'edilgen biçimidir' cümlesi metinde görülemedi, ikinci kaynak yok."
+     },
+     {
+      "no": 15,
+      "durum": "doğru",
+      "duzeltme": "Doğrudan sayfa açılamadı (403/sınırlı); yalnızca arama özetiyle teyit, alıntı satırı 'görülmedi' olarak kalmalı.",
+      "kanit": "Arama özeti (britannica.com/topic/survivals): Tylor 'Primitive Culture' (1871) ile terimi getirdi; işlevini yitirmiş, kültürün geri kalanıyla zayıf uyumlu gelenekler."
+     },
+     {
+      "no": 16,
+      "durum": "doğru",
+      "duzeltme": "Alıntıda 'in this period' atlanmış; ellipsis meşru.",
+      "kanit": "'Williams, in this period, introduces a distinction between three types of ideology: dominant, residual, and emerging.' sociopedia.co/author/williams-raymond"
+     },
+     {
+      "no": 17,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'Malinowski, B. (2016). Bilimsel bir kültür teorisi (D. Uludağ, Çev.). Doğu-Batı Yayınları.' dergipark.org.tr/tr/download/article-file/3005529"
+     },
+     {
+      "no": 18,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'Malinowski'ye göre bütün kültürlerde bireyin ve toplumun organik ya da temel ihtiyaçlarının karşılanması asgari bir şarttır.' Aynı URL."
+     },
+     {
+      "no": 19,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'Beslenme, çoğalma ve hijyen ihtiyaçlarının ortaya çıkardığı sorunlar yeni, ikincil veya yapay bir çevrenin kurulmasıyla çözülür.' Aynı URL."
+     },
+     {
+      "no": 20,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'iki temel fonksiyona sahip olması gerektiğini savunan Malinowski, bunları biyolojik ve aletsel/' (satır sonu) birleştirici fonksiyon... Aynı URL."
+     }
+    ],
+    "not": "Kontrol edilen 20 satırın 2'si düzeltme gerektirdi (%10; no 11 atıf hatası, no 12 künye yeri tutarsızlığı), 1'i doğrulanamadı (no 14), 17'si doğru; alıntılar neredeyse birebir tutuyor, defter genel olarak güvenilir, yalnızca atıf sınırlarına (makale yazarı mı Güvenç mi) dikkat edilmeli. Not: PDF'ler WebFetch ile okunamadı, indirilen dosyalar pdftotext ile okundu; no 15 yalnızca arama özetiyle teyit edildi."
+   }
+  },
+  {
+   "key": "ders_kaynagi",
+   "uretici": {
+    "arac": "18/18",
+    "ozet": "SOS 337 Kültür Sosyolojisi kodu ve adı birlikte hiçbir üniversitenin bilgi paketinde bulunamadı. Aramalarda yalnızca şunlar çıktı. Balıkesir Üniversitesi'nde \"Kültür Sosyolojisi\" seçmeli dersi var; formda kod yok (kredi 3, AKTS 5, öğretim üyesi Prof. Dr. Süheyla Saritaş) ve kaynak olarak Haviland, Kültürel Antropoloji ile Alver ve Doğan (Der.), Kültür Sosyolojisi (Hece, 2007) yazıyor. Uludağ'da \"Kültürel Sosyoloji\" SSY2081 koduyla geçiyor. Nevşehir'de SOS 427 Popüler Kültür Çalışmaları var. Bir arama özeti SOS337 kodunu bir başka programda \"İktisadi Doktrinler Tarihi\" olarak gösterdi, bu özet doğrulanmadı. Anadolu AÖF Kültür Sosyolojisi kitabının ya da Alver-Doğan kitabının 4. bölüm başlığı bulunamadı; aday belirsiz. Bir sonuçta Ümmet Erkan'ın ünite yapılı bir kültür kitabı görüldü, kimliği doğrulanmadı. Hocanın \"kültür sosyolojisi Amerika'da ortaya çıktı, topluluğu bütünsel ele alır\" ifadesini birlikte içeren Türkçe kaynak bulunamadı. Bir DergiPark makalesi (article-file/398736) kültür sosyolojisinin alt disiplin sayılmasını postmodernite dönemine bağlıyor, ama metin okunamadı, yani bu bilgi yalnızca arama özetinden. ASA Sociology of Culture bölümünün kuruluş yılı: ASA sayfası yıl vermiyor. Bölümün haber bülteni (2008 kış sayısı) \"Culture Section 20th Anniversary Symposium\" başlığını taşıyor ve 31 Temmuz 2008'de 20. yıl kutlamasının kapanacağını yazıyor; bu 1988 ile uyumlu, ama kuruluş yılı doğrudan yazılı değil. Bülten ayrıca \"Culture 2(4) Spring 1988\" atfı içeriyor (bülten cilt 2, 1988), yani bölüm 1987-88 civarında başlamış olabilir. 1978'i destekleyen hiçbir kanıt yok. Kurucu başkan Richard A. Peterson (Vanderbilt sayfası). Alexander \"strong program\" ve \"cultural turn\" için kanıt toplanmadı. Bir ESA \"Sociology of Culture\" ağı 2005'te kurulmuş; ASA ile karıştırılmamalı.",
+    "defter": [
+     {
+      "iddia": "SOS 337 + Kültür Sosyolojisi birlikte geçen üniversite bilgi paketi bulunamadı",
+      "kaynak": "WebSearch (3 farklı sorgu)",
+      "alinti": "görülmedi",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "iddia": "Balıkesir Üniversitesi Kültür Sosyolojisi seçmeli dersi: kredi 3, AKTS 5, kaynak Alver ve Doğan (Der.) 2007 Hece; Haviland Kültürel Antropoloji",
+      "kaynak": "https://baunwebapi.balikesir.edu.tr/uploads/1748596528413.pdf",
+      "alinti": "Alver, K. ve Doğan, N. (Der.) (2007). Kültür Sosyolojisi. Ankara: Hece Yayınları.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Balıkesir formunda ders kodu yok; haftalık konular: kültür nedir, temel kavramlar, antropolojik/sosyolojik yaklaşımlar, ideolojik kültür, küreselleşme, kültür endüstrisi",
+      "kaynak": "https://baunwebapi.balikesir.edu.tr/uploads/1748596528413.pdf",
+      "alinti": "Kültür nedir? Kültürün önemi ve sosyal bilimlerdeki yeri.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Uludağ Üniversitesi'nde Kültürel Sosyoloji dersi SSY2081 koduyla (SOS 337 değil)",
+      "kaynak": "https://bilgipaketi.uludag.edu.tr/DersProgramiRapor/DersIcerikRapor/932978?Dil=0",
+      "alinti": "görülmedi (arama özeti: Ders Kodu: SSY2081)",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "iddia": "Nevşehir Üniversitesi'nde SOS 427 Popüler Kültür Çalışmaları",
+      "kaynak": "https://sistem.nevsehir.edu.tr/bizdosyalar/96f3f8bca72e816124cbf2595bb714e5/popüler kültür.pdf",
+      "alinti": "SOS 427 - POPÜLER KÜLTÜR ÇALIŞMALARI",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "iddia": "Bir arama özeti SOS337'yi başka bir programda İktisadi Doktrinler Tarihi olarak gösterdi (SOS 337 kodu üniversiteye göre değişiyor)",
+      "kaynak": "WebSearch özeti (ebs.sakarya.edu.tr sonucu olabilir)",
+      "alinti": "SOS337 İktisadi Doktrinler Tarihi - 50 10 5",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "iddia": "ASA Sociology of Culture bölümü sayfası kuruluş yılı vermiyor",
+      "kaynak": "http://www.asanet.org/asa_sections/sociology-of-culture",
+      "alinti": "The purpose of the Section on Sociology of Culture is to encourage development of this perspective",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Bölüm 2008'de 20. yıl sempozyumu yaptı; bu 1988 kuruluş/başlangıcı ile uyumlu (dolaylı)",
+      "kaynak": "https://asaculturesection.org/wp-content/uploads/2018/03/2008a_winter.pdf",
+      "alinti": "Culture Section 20th Anniversary Symposium",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "iddia": "Bülten atfı 'Culture 2(4) Spring 1988' (bülten cilt 2, 1988); bölüm 1987-88 civarında örgütlenmiş olabilir",
+      "kaynak": "https://asaculturesection.org/wp-content/uploads/2018/03/2008a_winter.pdf",
+      "alinti": "ture 2(4) Spring 1988, 3",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "iddia": "Richard A. Peterson ASA kültür bölümünün kurucu başkanı",
+      "kaynak": "https://as.vanderbilt.edu/sociology/bio/richard-peterson/",
+      "alinti": "görülmedi (arama özeti: founding chairman of the American Sociological Association's culture section)",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "iddia": "ESA Sociology of Culture ağı 2005'te kuruldu (ASA ile karıştırma)",
+      "kaynak": "https://asaculturesection.org/wp-content/uploads/2018/03/2006a_winter.pdf",
+      "alinti": "The Sociology of Culture network was founded in 2005",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "iddia": "Türkçe kaynakta kültür sosyolojisinin alt disiplin sayılması postmodernite dönemine bağlanıyor",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/398736",
+      "alinti": "görülmedi (PDF okunamadı, arama özeti)",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "iddia": "'Kültür sosyolojisi + Amerika + bütünsel' ifadelerini birlikte içeren Türkçe kaynak bulunamadı",
+      "kaynak": "WebSearch",
+      "alinti": "görülmedi",
+      "guven": "orta",
+      "kritik": true
+     }
+    ],
+    "kitapcik_onerisi": "Ders kitabı için \"belirsiz\" yazın: SOS 337 koduyla Kültür Sosyolojisi dersinin kitabı hiçbir kaynakta doğrulanmadı, 4. bölüm başlığı da bulunamadı. Kitapçıkta \"ana ders kitabı şudur\" gibi kesin cümle kurmayın; yalnızca hocanın notunu aktarın: \"Ana ders kitabı bölüm 4: anahtar kavramları ve bölüm sorularını bilin.\" Bu iddia zayıf kanıta dayanıyor: ASA bölümünün kuruluşu için \"1988\" yazmayın, \"1980'lerin sonu (yaklaşık 1988)\" deyin, 1978 yanlış görünüyor. Sınavda zaten hocanın ifadesi esas alınmalı: \"kültür sosyolojisi sosyolojinin alt dalıdır, Amerika'da ortaya çıkmıştır\". Kurucu başkan olarak Richard Peterson eklenebilir ama düşük güvenle ve \"üretim perspektifi\" bağlamında.",
+    "acik_kalanlar": "1) SOS 337 kodunu Kültür Sosyolojisi adıyla taşıyan üniversite bulunamadı (hocanın üniversitesini öğrenci biliyor; o üniversitenin OBS/Bologna sayfasına doğrudan bakılmalı). 2) Anadolu AÖF Kültür Sosyolojisi ve Alver-Doğan kitaplarının 4. bölüm başlıkları bulunamadı; Kottak, Macionis, Giddens, Smith adayları taranmadı. 3) ASA Sociology of Culture bölümünün kuruluş yılı doğrudan yazılı görülmedi (1988 dolaylı); ASA bölüm listesi ya da bylaws bakılmalı. 4) Jeffrey Alexander strong program ve cultural turn kanıtı toplanmadı. 5) 'Bütünsel' ifadesinin Türkçe kaynağı bulunamadı. 6) Tarama sırasında Balıkesir PDF'i pdftotext ile okundu; DergiPark ve Ankara açık ders PDF'leri bu görevde yararlı metin vermedi."
+   },
+   "dogrulama": {
+    "arac": "WebFetch+pdftotext+WebSearch/17",
+    "sonuc": [
+     {
+      "no": 2,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "Balıkesir PDF (pdftotext): 'Dersin Adı Kültür Sosyolojisi'; 'Toplam Kredi 3'; 'Dersin AKTS 5'; 'Alver, K. ve Doğan, N. (Der.) (2007). Kültür Sosyolojisi. Ankara: Hece'; 'Haviland, W. A. vd. (2008). Kültürel Antropoloji'. https://baunwebapi.balikesir.edu.tr/uploads/1748596528413.pdf"
+     },
+     {
+      "no": 3,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "Aynı PDF: hafta 1 'Kültür nedir? Kültürün önemi ve sosyal...', hafta 8 'Küreselleşme ve kültürel boyutları', hafta 10 'Kültür endüstrisi nedir?', içerikte 'ideolojik olarak kültür'. Formda ders kodu alanı yok (Bölüm, Adı, Yarıyıl, Dil, Kredi, AKTS). Aynı URL."
+     },
+     {
+      "no": 4,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "Uludağ bilgi paketi PDF: 'Ders Kodu: SSY2081', 'Ders Türü: Seçmeli', 'Lisans'. Ders adı metinde bozuk kodlanmış (muhtemelen KÜLTÜREL SOSYOLOJİ); adın tam okunması doğrulanamadı. https://bilgipaketi.uludag.edu.tr/DersProgramiRapor/DersIcerikRapor/932978?Dil=0"
+     },
+     {
+      "no": 5,
+      "durum": "doğrulanamadı",
+      "duzeltme": "Ad büyük olasılıkla 'POPÜLER KÜLTÜR ARAŞTIRMALARI' (arama özeti); 'ÇALIŞMALARI' teyit edilemedi.",
+      "kanit": "PDF 503 verdi (iki kez). Arama özeti: 'SOS 427 - POPÜLER KÜLTÜR ARAŞTIRMALARI ... Sociology Department'. https://sistem.nevsehir.edu.tr/bizdosyalar/96f3f8bca72e816124cbf2595bb714e5/popüler kültür.pdf"
+     },
+     {
+      "no": 6,
+      "durum": "doğrulanamadı",
+      "duzeltme": "",
+      "kanit": "'SOS337 İktisadi Doktrinler Tarihi ebs.sakarya.edu.tr' araması: SOS337'ye ait sayfa bulunamadı, Sakarya ile ilgili sonuç yok. İddia desteksiz; rapora girmemeli."
+     },
+     {
+      "no": 7,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'The purpose of the Section on Sociology of Culture is to encourage development of this perspective'; sayfada kuruluş yılı yok. https://www.asanet.org/asa_sections/sociology-of-culture"
+     },
+     {
+      "no": 8,
+      "durum": "düzelt",
+      "duzeltme": "Kaynak 20. yıl kutlamasını doğruluyor, ancak 1988 kuruluşunu doğrudan vermiyor; 'dolaylı' etiketi korunmalı, kuruluş yılı olarak 1988 yazılmamalı (2008-20=1988 yalnızca çıkarım; 'Culture 2(4) Spring 1988' bülten atfıdır).",
+      "kanit": "2008a_winter.pdf: 'On July 31st, 2008, we will conclude our 20th anniversary celebration with a symposium'. https://asaculturesection.org/wp-content/uploads/2018/03/2008a_winter.pdf"
+     },
+     {
+      "no": 9,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "Aynı PDF: 'ture 2(4) Spring 1988, 3; Richard A. Peterson, ...' (bülten atfı, bölüm kuruluşu iddiası değil)."
+     },
+     {
+      "no": 10,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "'Peterson was the founding chairman of the American Sociological Association’s culture section.' https://as.vanderbilt.edu/sociology/bio/richard-peterson/"
+     },
+     {
+      "no": 11,
+      "durum": "doğru",
+      "duzeltme": "",
+      "kanit": "2006a_winter.pdf: 'The Sociology of Culture network was founded in 2005 under the auspices of the European Sociological Association'. https://asaculturesection.org/wp-content/uploads/2018/03/2006a_winter.pdf"
+     },
+     {
+      "no": 13,
+      "durum": "doğrulanamadı",
+      "duzeltme": "",
+      "kanit": "Bağımsız Türkçe arama ('kültür sosyolojisi Amerika bütünsel ... alt disiplin postmodernite') 'bütünsel kültür sosyolojisi' diyen kaynak bulmadı; yalnızca olumsuz sonuç, kapsamlı değil. Yakın ifade: 'bütüncül, Gramsci'nin ortaya koyduğu hegemonyal eleştiriler sonrasında ... alt kültür gruplarının incelenmesi ile başlamıştır' https://dergipark.org.tr/tr/download/article-file/398736"
+     },
+     {
+      "no": 1,
+      "durum": "doğrulanamadı",
+      "duzeltme": "",
+      "kanit": "Olumsuz bulgu (bulunamadı); tek bir bağımsız arama bile yapılmadı, tam kanıtlanamaz. Not: ders adı örnekleri (Balıkesir Kültür Sosyolojisi, Uludağ SSY2081) SOS 337 koduyla eşleşmiyor."
+     }
+    ],
+    "not": "Kontrol edilen 10 satırdan 1 düzeltme (satır 8, abartı riski), 4 doğrulanamadı (1, 5, 6, 13: ikisi olumsuz bulgu, biri 503, biri desteksiz); 5 satır doğru. Satır 12 kontrol edilmedi. Defter kaynak alıntıları açısından genel olarak güvenilir (2, 3, 4, 7, 9, 10, 11 birebir tuttu), zayıf yer düşük güvenli ve olumsuz bulgu satırlarıdır; satır 6 rapora girmemeli."
+   }
+  }
+ ],
+ "elestiri": {
+  "arac": "10/16",
+  "genel": "Kitapçık kapsamlı ve büyük ölçüde doğru. Defterdeki 18 sorunun hiçbiri atlanmamış, 10 testin anahtarı da (B, C, A, D, B, C, B, B, B, C) doğru. Ama puan kaybettirebilecek üç kritik sorun var. (1) Soru 16'da hocanın örneği yanlış okunmuş: fotoğrafta \"farenjit ilacı\" değil, \"fareyi tiksinç bulması\" yazıyor. (2) Soru 6 ve 7'de \"Ahmet iyi kültürlenmiş\" cümlesi var; hocanın üçlü ayrımında kültürlenme başka bir süreç olduğu için bu cümle terimi yanlış kullanıyor. (3) Soru 3'teki Dikkat kutusu, kültürleme ile kültürleşmenin eş anlamlı olduğu izlenimini veriyor. Ahmet model cevabı hocanın kurduğu neden-sonuç sırasından sapıyor. Kuram tablosundaki \"her kuram bir öncekine itiraz eder\" notu tarih olarak yanlış. Merton'un gizli işlev kavramı, Ogburn adı ve Nuer'deki yapısal zaman gibi puan getirecek noktalar eksik.",
+  "el_yazisi_kontrol": "Dört sayfadaki 18 soru kitapçıkta aynı sırayla var; atlanan soru yok. Soru 1–6, 8–14, 17 ve 18 ile kapsam notları (kültür dosyası \"Kültürel Çalışmalar\"a kadar; açık uçlu sorular ve 2–3 yorum sorusu; kültür dosyasının anahtar kavramları; ana ders kitabı 4. bölümün anahtar kavramları ve bölüm soruları) doğru aktarılmış.\n\nYanlış okunan tek yer Soru 16 (sayfa 4). Hocanın cevabı: \"ör: Sağlık bir temel ihtiyaçken, bir toplumun fareyi tiksinç bulması kültürün tepkisidir.\" Kitapçıkta bu, hem Kısa cevapta hem tablonun Sağlık satırında \"farenjit ilacı bulması\" diye geçiyor. Fotoğrafta \"ilacı\" sözcüğü yok; satır büyütülünce \"fareyi tiksinç\" açıkça okunuyor.\n\nHocanın cevabından sapan iki yer var:\n- Soru 15: hoca \"bizler için kutsal lidere karşılık gelir\" demiş; kitapçık bunu \"kurucu lidere, kutsal sayılan bir değere\" diye değiştirmiş.\n- Soru 7 (Ahmet): hocanın kurduğu zincir şu: çok farklı bir topluluğa giriş → kültürel şok → kültürleşmemek, yani öz kültürünü korumak için kültürlenmede temkinli olmak → sosyalleşmenin uyuma bağlı olmasına rağmen bunda başarısız olmak. Kitapçık bu sırayı değiştirmiş, farklı çevreyi \"farklıysa\" diye koşula bağlamış ve hocanın \"kültür insanın ürettiği bir süreçtir\" tanımındaki \"süreç\" sözcüğünü düşürmüş.",
+  "bulgular": [
+   {
+    "oncelik": "kritik",
+    "yer": "Soru 16, Kısa cevap ve İhtiyaçlar tablosunun Sağlık satırı",
+    "sorun": "Hocanın örneği yanlış okunmuş. Fotoğrafta \"bir toplumun fareyi tiksinç bulması kültürün tepkisidir\" yazıyor; kitapçıkta \"farenjit ilacı bulması\" var. Öğrenci hocanın kendi örneğini yanlış ezberleyecek.",
+    "oneri": "Kısa cevaptaki örnek şöyle olsun: \"Örnek: sağlık bir temel ihtiyaçtır; bir toplumun fareyi tiksinç (pis) bulması ise kültürün bu ihtiyaca verdiği tepkidir (hijyen).\" Tablodaki hücre de şöyle olsun: \"Temizlik, hekimlik, ilaç; hocanın örneği: fareyi tiksinç bulmak.\""
+   },
+   {
+    "oncelik": "kritik",
+    "yer": "Soru 6 son paragraf ve Soru 7 model cevap 3. paragraf",
+    "sorun": "\"Bir insan iyi kültürlenmiş ama yeterince sosyalleşememiş olabilir\" ve \"Ahmet iyi kültürlenmiş, ama yeterince sosyalleşememiştir\" cümleleri terimi yanlış kullanıyor. Hocanın üçlü ayrımında kültürlenme, kendine benzeyenlerle etkileşimdir ve aynı model cevap Ahmet'in bu süreçte temkinli kaldığını söylüyor. Kavramların tek tek puanlandığı bir soruda bu çelişki doğrudan puan kaybettirir.",
+    "oneri": "İki yerde de şöyle yaz: \"Ahmet'in kültürlemesi başarılı olmuş, ama yeterince sosyalleşememiştir.\" Soru 6'da da: \"Bu yüzden bir insanın kültürlemesi başarılı olup sosyalleşmesi aksayabilir.\""
+   },
+   {
+    "oncelik": "kritik",
+    "yer": "Soru 3, Dikkat kutusu",
+    "sorun": "\"Kültürleme ve kültürleşme kaynaklarda aynı anlamda geçer\" cümlesi, iki terimin eş anlamlı olduğu biçiminde okunuyor. Oysa kitapçığın kendi tablosuna göre ikisi farklı süreçtir. Öğrenciyi boşluk doldurma sorusunda yanıltabilir.",
+    "oneri": "Şöyle yaz: \"Kültürleme (bireyin kendi kültürünü öğrenmesi) ve kültürleşme (farklı kültürlerin temasıyla değişme) her kaynakta aynı, tutarlı anlamla kullanılır. Kültürlenme ise Türkçe kaynaklarda tek bir anlamda kullanılmaz...\""
+   },
+   {
+    "oncelik": "önemli",
+    "yer": "Soru 7, model cevap 4. ve 5. paragraflar",
+    "sorun": "Hocanın örnek cevabındaki neden-sonuç sırası değişmiş. Hocaya göre Ahmet çok farklı bir topluluğa girmiş, kültürel şok yaşamış ve kültürleşmemek, yani öz kültürünü korumak için kültürlenmede bile temkinli olmuştur. Kitapçık kültürlenmedeki çekingenliği şoktan önce ve \"bizim evde böyle yapılmaz\" gerekçesiyle anlatıyor. Farklı çevreyi de \"farklıysa\" diye koşula bağlıyor. Hocanın kurmadığı \"her isteğinin karşılanması\" gibi bir varsayım da eklenmiş.",
+    "oneri": "4. ve 5. paragrafların yerine şunu yaz: \"Ahmet evden çıkıp okul ve iş hayatına girdiğinde muhtemelen kendi kültüründen çok farklı bir toplulukla karşılaşmış ve <u>kültürel şok</u> yaşamıştır. Bu şokun ardından <u>kültürleşmemek</u>, yani öz kültürünü korumak için, kendisine az çok benzeyenlerle uyum sağlama süreci olan <u>kültürlenme</u>de bile temkinli davranmıştır. <u>Sosyalleşme</u> uyuma bağlı olduğu için Ahmet bunda başarısız olmuştur.\""
+   },
+   {
+    "oncelik": "önemli",
+    "yer": "Soru 7, model cevap 1. paragraf (kültür tanımı)",
+    "sorun": "Hoca kültürü \"insanın ürettiği bir süreç, ama bireysel değil toplumsal\" diye tanımlamış. Kitapçık \"süreç\" sözcüğünü düşürmüş. Ayrıca \"İnsan üretir, ama bireysel değil toplumsaldır\" cümlesinin öznesi belirsiz, cümle yarım kalıyor.",
+    "oneri": "Şöyle yaz: \"<u>Kültür</u>, insanın ürettiği bir süreçtir; ancak bireysel değil toplumsaldır. Bir toplumun üyelerinin öğrenerek edindiği ve paylaştığı dil, değer, kural ve alışkanlıkların bütünüdür.\""
+   },
+   {
+    "oncelik": "önemli",
+    "yer": "Soru 7, Sınav ipucu kutusu",
+    "sorun": "\"Sırayı bozma\" önerisi fazla katı. Hocanın kendi örnek cevabı kavramları sorudaki sırayla değil, neden-sonuç zinciriyle işliyor: kültür, kültürleme, kültürel şok, kültürleşme, kültürlenme, sosyalleşme. Öğrenciyi hocanın akışından uzaklaştırabilir.",
+    "oneri": "Şöyle yaz: \"Kavramların hepsini kullan ve altlarını çiz. Sıralamayı Ahmet'in hikâyesine göre kur: kültür, ardından kültürleme (ev), kültürel şok (farklı çevre), kültürleşmeden kaçınma, kültürlenmede temkin ve en sonda başarısız sosyalleşme.\""
+   },
+   {
+    "oncelik": "önemli",
+    "yer": "Soru 15, Kısa cevap",
+    "sorun": "Hocanın cevabı \"bizler için kutsal lidere karşılık gelir\". Kitapçık bunu \"kurucu lidere, kutsal sayılan bir değere\" diye değiştirmiş. Kısa cevap kutusu hocanın anahtarı olarak ezberlenecek kısım olduğu için sözcükler birebir korunmalı.",
+    "oneri": "Şöyle yaz: \"Yoğun betimleme, betimlemenin daha derin ve daha sembolik hâlidir. Örnek: sınıflardaki Atatürk fotoğrafı bir Amerikalı için bir adamın fotoğrafıyken, bizler için kutsal lidere karşılık gelir.\""
+   },
+   {
+    "oncelik": "önemli",
+    "yer": "Bölüm 3, Beş kuram tablosunun altındaki not",
+    "sorun": "\"Sıra aynı zamanda tarih sırasıdır: her kuram bir öncekine itiraz ederek doğar\" ifadesi yanlış. Malinowski ile Radcliffe-Brown çağdaştır; ikisinin ana eseri de 1922'de çıkmıştır. Radcliffe-Brown'ın yapısal işlevselciliği Malinowski'ye itiraz olarak değil, Durkheim'dan yola çıkarak doğmuştur. Yorum sorusunda bu cümle yazılırsa hata sayılır.",
+    "oneri": "Şöyle yaz: \"Evrimcilik en eskidir. Boas evrimciliğe itiraz eder. Malinowski ile Radcliffe-Brown aynı dönemde (1922) evrimciliğin ve yayılmacılığın 'nereden geldi?' sorusuna karşı 'ne işe yarıyor?' sorusunu getirir; Radcliffe-Brown bunu Durkheim'dan yola çıkarak yapar. Geertz ise 1970'lerde işlev yerine anlamı sorar.\""
+   },
+   {
+    "oncelik": "önemli",
+    "yer": "Soru 18, model cevap 3. paragraf",
+    "sorun": "\"Bu, Geertz'in yoğun betimleme dediği şeyin tam karşılığıdır\" ifadesi kronolojiyi göz ardı ediyor. Evans-Pritchard 1940'ta yapısal-işlevselci bir çerçevede yazdı; Geertz'in kavramı 1973 tarihli. Hoca bu farkı arayabilir.",
+    "oneri": "Şöyle yaz: \"Evans-Pritchard yapısal-işlevselci bir çerçevede yazmış olsa da sığırın Nuer için taşıdığı anlamı bağlamıyla anlatması, Geertz'in 1973'te 'yoğun betimleme' adını verdiği yaklaşımın güçlü bir örneğidir.\""
+   },
+   {
+    "oncelik": "önemli",
+    "yer": "Bölüm 2, Açık uçlu Soru 2, \"İkincisi\" paragrafı (yağmur duası)",
+    "sorun": "Görünmeyen işlev fikri doğru, ama kavramın adı ve sahibi yazılmamış. Bu, sosyoloji hocasının beklediği bir nokta: Merton'un açık ve gizli işlev ayrımı. Merton bu ayrımı tam da Hopi yağmur törenleri örneğiyle açıklar.",
+    "oneri": "Paragrafın sonuna şunu ekle: \"Sosyolog Robert K. Merton bunu açık (amaçlanan) ve gizli (fark edilmeyen) işlev ayrımıyla açıklar: yağmur duasının açık işlevi yağmur yağdırmak, gizli işlevi ise topluluğu bir araya getirip dayanışmayı güçlendirmektir.\""
+   },
+   {
+    "oncelik": "önemli",
+    "yer": "Soru 18, \"Nuerler kimdir?\" listesi",
+    "sorun": "Evans-Pritchard'ın iki temel kavramı eksik. Birincisi zamanla ilgili: ekolojik zaman ile yapısal zaman ayrımı. İkincisi siyasal düzenle ilgili: düzenin bölümlü (segmenter) soy sistemiyle sağlanması. Nuer sorusu gelirse bu adlar artı puan getirir.",
+    "oneri": "Zaman maddesine şunu ekle: \"Evans-Pritchard bunu ekolojik zaman (mevsim ve sürüye bağlı) ve yapısal zaman (soy ve yaş gruplarına bağlı) diye ikiye ayırır.\" Düzen maddesine şunu ekle: \"Bu düzene bölümlü (segmenter) soy sistemi denir: gruplar karşı tarafa göre birleşir ya da ayrışır.\""
+   },
+   {
+    "oncelik": "küçük",
+    "yer": "Soru 17, Sınav ipucu (kültürel gecikme)",
+    "sorun": "Kavramın sahibi yazılmamış. Sosyoloji sınavında genellikle adıyla birlikte beklenir.",
+    "oneri": "İpucunun başına şunu ekle: \"Kültürel gecikme kavramı William F. Ogburn'ündür (1922).\""
+   },
+   {
+    "oncelik": "küçük",
+    "yer": "Soru 8, ilk paragraf",
+    "sorun": "\"Biyolojideki evrim düşüncesini topluma uygular\" ifadesi fazla sade. Spencer'ın toplumsal evrim düşüncesi Darwin'in 1859 tarihli kitabından önce ortaya çıkmıştır.",
+    "oneri": "Şöyle yaz: \"Evrim düşüncesini toplum ve kültüre uygular; Spencer bu fikri Darwin'den bile önce toplum için kullanmıştır.\""
+   },
+   {
+    "oncelik": "küçük",
+    "yer": "Soru 11 ve Soru 13",
+    "sorun": "Radcliffe-Brown'ın Durkheim'dan beslendiği hiç yazılmamış. Sosyoloji dersinde \"yapısal işlevselcilik\" denince bu bağlantı beklenir.",
+    "oneri": "Soru 13'teki \"Toplumsal yapı\" paragrafının sonuna şunu ekle: \"Radcliffe-Brown bu bakışı Fransız sosyolog Émile Durkheim'dan alır.\""
+   },
+   {
+    "oncelik": "küçük",
+    "yer": "Bölüm 3, Deneme 1 (Elif)",
+    "sorun": "Kişinin kendi kültürüne döndüğünde yaşadığı şokun özel bir adı var: ters kültür şoku. Ayrıca Almanya'daki Türk çevresiyle yaşadığı kültürlenme hiç kullanılmamış.",
+    "oneri": "Şunu ekle: \"Türkiye'de yaşadığı bu duruma ters kültür şoku da denir. Almanya'daki Türk arkadaşlarıyla etkileşimi ise kendine benzeyenlerle yaşadığı <u>kültürlenme</u>dir.\""
+   },
+   {
+    "oncelik": "küçük",
+    "yer": "Bölüm 2, Dikkat kutusu, 1. madde",
+    "sorun": "\"Sınavda hocanın verdiği listeyi esas al\" cümlesinde hangi listenin kastedildiği belirsiz: belgedeki sekizli liste mi, yoksa Soru 16'daki yedili tablo mu? Belge hocanın kendisinden geliyorsa öğrenci kararsız kalabilir.",
+    "oneri": "Şöyle yaz: \"Belgedeki sekizli listeyi yazmak sınavda sorun olmaz; ama 'Malinowski'ye göre kaç temel ihtiyaç vardır?' diye sorulursa doğru cevap yedidir.\""
+   },
+   {
+    "oncelik": "küçük",
+    "yer": "Kapak, kutu açıklamaları",
+    "sorun": "Kapakta Dikkat kutusu \"notlarda ya da belgede düzeltilmesi gereken yer\" diye tanımlanıyor. Oysa Soru 3'teki Dikkat kutusu bir düzeltme değil, terim uyarısı.",
+    "oneri": "Şöyle yaz: \"Dikkat: notlarda ya da belgede düzeltilmesi gereken ya da karıştırılması kolay yer.\""
+   },
+   {
+    "oncelik": "küçük",
+    "yer": "Soru 2, Derin bilgi kutusu (dil)",
+    "sorun": "\"adında 'kültür sosyolojisi' geçen bir kitap\" ifadesi dolambaçlı. Ayrıca kutu, hocanın \"Amerika\" anahtarına karşı öğrencide tereddüt yaratabilir.",
+    "oneri": "Şöyle yaz: \"Almanya'da Alfred Weber 1935'te 'Kültür Sosyolojisi Olarak Kültür Tarihi' adlı kitabı yayımlamıştır. Yine de sınavda hocanın cevabını yaz: alan özellikle Amerika'da gelişmiştir.\""
+   },
+   {
+    "oncelik": "küçük",
+    "yer": "Genel biçim (Soru 3 ve Soru 15 tabloları)",
+    "sorun": "Sayfa A5 boyutunda ve dört sütunlu tablolar 8,7 punto. Telefonda yakınlaştırmadan okumak zor olabilir. Bu kanaat ekran görüntüsüne değil yalnızca CSS'e dayanıyor; emin değilim.",
+    "oneri": "Tablo yazı boyutunu en az 9,5 punto yap. Soru 3 tablosundaki \"Kiminle?\" sütununu \"Ne olur?\" sütunuyla birleştirip üç sütuna indir."
+   }
+  ]
+ },
+ "dusen": []
+}
