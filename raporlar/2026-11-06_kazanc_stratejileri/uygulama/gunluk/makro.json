@@ -1,7 +1,7 @@
 {
  "aciklama": "Elle girilen makro veriler (PLAN_BIST s2, s3 K6). Her Persembe 14:30 sonrasi TCMB rezervini ve ayin 3'unde TUFE'yi guncelleyin, 'guncellendi' tarihini degistirin. Listeler eski -> yeni sirali; her hafta net_rezerv_swap_haric listesine [etiket, mlr $] ekleyin. Ayrintilar: ../OTOMASYON.md",
- "guncellendi": "2026-11-05",
- "kaynak": "PLAN_BIST.md ve BIST_GUNLUK_RUTIN.md 05.11.2026 degerleri",
+ "guncellendi": "2026-11-16",
+ "kaynak": "16.11.2026 guncellemesi: rezervler 6 Kasim haftasi (TCMB, 12.11 yayini; haber kaynaklari cnbce, sanayigazetesi, gzt); yabanci DIBS 6 Kasim haftasi +36,9 mn $ (TCMB; foreks, ekoturk); kredili esneklik 31.12.2026'ya uzatildi (SPK bulteni 13.11.2026, 2026/80; istanbulticaretgazetesi, ekoturk); MSCI Kasim gozden gecirmesi (AA 12.11.2026). CDS teyitsiz, degistirilmedi. Onceki degerler: PLAN_BIST.md ve BIST_GUNLUK_RUTIN.md 05.11.2026.",
  "politika_faizi": 36.0,
  "mevduat_32g_brut": 39.52,
  "net_rezerv_swap_haric": [
@@ -12,10 +12,14 @@
   [
    "2026-11-05 yayini",
    24.3
+  ],
+  [
+   "2026-11-12 yayini",
+   27.44
   ]
  ],
- "brut_rezerv": 158.1,
- "yabanci_dibs_hafta_mn_usd": -750,
+ "brut_rezerv": 161.1,
+ "yabanci_dibs_hafta_mn_usd": 36.9,
  "tufe_aylik": [
   [
    "2026-10",
@@ -30,8 +34,30 @@
  "kural0_teyit": false,
  "komisyon_viop_bps": null,
  "usd_faiz": 0.039,
- "kredili_esneklik_uzatildi": null,
+ "kredili_esneklik_uzatildi": true,
  "ppk_10_12_surprizsiz_indirim": null,
- "msci_cikarilanlar": [],
- "bilanco_aciklayanlar_9_11": []
+ "msci_cikarilanlar": [
+  "SAHOL",
+  "ASTOR",
+  "AHGAZ",
+  "ALKLC",
+  "BTCIM",
+  "BSOKE",
+  "ECILC",
+  "GENIL",
+  "HEKTS",
+  "IEYHO",
+  "LIDER",
+  "LYDHO",
+  "MAGEN",
+  "ODINE",
+  "PASEU",
+  "PEKGY",
+  "RALYH",
+  "SELEC",
+  "TEHOL",
+  "TTRAK"
+ ],
+ "bilanco_aciklayanlar_9_11": [],
+ "msci_notu": "MSCI Kasim 2026 (yururluk 30.11.2026 kapanisi): SAHOL ve ASTOR standart endeksten cikarilip kucuk olcekli endekse alindi; kucuk olcekli endeksten 18 hisse cikarildi. BSOKE eslemesi ('Baticim Cimento Sanayi') haber metninden; teyit edin."
 }
