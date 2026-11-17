@@ -17,7 +17,7 @@ Düşük karbonhidrat: ARIC+meta-analizde U eğrisi (en düşük risk %50-55 kar
 | 6 | Akdeniz RCT PREDIMED yeniden analiz: majör KV olay HR 0,69 / 0,72 | https://pubmed.ncbi.nlm.nih.gov/29897866/ | HR 0.69 (0.53 to 0.91) zeytinyağı; 0.72 (0.54 to 0.95) kuruyemiş; 7447 kişi, 4,8 yıl | yüksek | RCT | E | ✓ |
 | 7 | PREDIMED 2013 makalesi rastgeleleme ihlali nedeniyle geri çekildi | https://pubmed.ncbi.nlm.nih.gov/29897866/ | "We have withdrawn our previously published report" | yüksek | RCT | E | ✓ |
 | 8 | PREDIMED mutlak fark: olay %4,4 kontrol vs %3,8 / %3,4 | https://pubmed.ncbi.nlm.nih.gov/29897866/ | 96 events (3.8%), 83 (3.4%), 109 (4.4%) control | yüksek | RCT | H | ✓ |
-| 9 | PREDIMED tüm nedenli ölüm sonucu | https://pubmed.ncbi.nlm.nih.gov/29897866/ | görülmedi (özette yok) | düşük | RCT | H | – |
+| 9 | PREDIMED tüm nedenli ölüm sonucu | https://pubmed.ncbi.nlm.nih.gov/29897866/ | görülmedi (özette yok) | düşük | RCT | H | ? |
 | 10 | CORDIOPREV: kalp hastalarında Akdeniz > düşük yağ, HR 0,72-0,75; kadınlarda fark yok | https://pubmed.ncbi.nlm.nih.gov/35525255/ | HRs 0.719 (0.541-0.957) to 0.753 (0.568-0.998); 1002 hasta, 7 yıl; "no difference" in women | yüksek | RCT | E | ✓ |
 | 11 | Lyon Diet Heart: ikincil korumada olay azalması (kardiyak ölüm+MI 14 vs 44) | https://pubmed.ncbi.nlm.nih.gov/9989963/ | "CO 1 was reduced (14 events versus 44 ...)" | orta | RCT | H | – |
 | 12 | RCT meta-analizi (4 RCT): MACE OR 0,52, I2 %87 | https://pubmed.ncbi.nlm.nih.gov/38431146/ | OR 0.52 (0.32 to 0.84; I2 = 87 %); 10 054 kişi | orta | meta | H | ✓ |
@@ -64,3 +64,4 @@ Düşük karbonhidrat: ARIC+meta-analizde U eğrisi (en düşük risk %50-55 kar
 ## Doğrulama notu
 Kontrol edilen: 21 satır (K=E olan 17 satırın tamamı + K=H örnekleminden 4 satır: 2, 8, 12, 20; ek olarak 27) = 22 satır. Sonuç: ✓ 21, ✎ 1, ✗ 0, ? 0. Kaynak olarak PubMed özetleri (efetch) kullanıldı; H örnekleminde hata oranı 5 satırda 1 (satır 27, eksik bağlam), bu nedenle diğer H satırları genişletilmedi (hata yalnızca iddianın eksik/abartılı çerçevesiydi, sayı yanlış değildi). Düzeltme: satır 27 yalnızca %23 azalmayı (HR 0,77, yaşam tarzı düzeltmesi öncesi) veriyordu; özet yaşam tarzı faktörleri eklenince HR 0,89 (0,82-0,98) olduğunu da bildiriyor. Küçük notlar: satır 1 makalesi için 2023 Haziran'da erratum var (özet değerleri değişmedi); satır 5'te JPHC grupları dörde bölünmüş (çeyreklik), özetteki "beşte birlik" ifadesi genel anlatımdır; satır 22 izlemi ortalama 5,79 yıl. Özet bölümünde yanlış sayıya dayanan cümle bulunmadı.
 
+Son tur: #9 ? (PubMed özetinde tüm nedenli ölüm yok; yalnızca birincil KVH sonlanımı)

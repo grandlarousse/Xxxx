@@ -45,7 +45,7 @@ Genel tablo: hiçbir takviyenin sağlıklı insanda "daha uzun yaşatır" diye r
 | 23 | PEARL: 48 hafta düşük doz rapamisin güvenli, ana sonuç (visseral yağ) değişmedi | https://pubmed.ncbi.nlm.nih.gov/40188830/ | "Visceral adiposity did not change significantly (ηp2 = 0.001, p = 0.942)" | yüksek | RCT | E | ✓ |
 | 24 | PEARL: yağsız doku ve ağrı kadınlarda 10 mg grubunda iyileşti; yazarlar AgelessRx çalışanı ve hissedarı | https://pubmed.ncbi.nlm.nih.gov/40188830/ | "Lean tissue mass ... p = 0.013"; "employees and shareholders of AgelessRx" | orta | RCT | H | ✓ |
 | 25 | Mannick 2018: TORC1 inhibitörü yaşlılarda bağışıklık yanıtı ve enfeksiyonu iyileştirdi (sayılar görülmedi) | https://pubmed.ncbi.nlm.nih.gov/29997249/ | "TORC1 inhibition enhances immune function and reduces infections in the elderly" | orta | RCT | H | – |
-| 26 | Taurin yaşla azalmıyor (2025 Science, NIH) | https://www.nih.gov/news-events/news-releases/nih-researchers-conclude-taurine-unlikely-be-good-aging-biomarker | "Taurine concentrations increased with age in all groups, except in male mice" (arama özeti); insanda taurin faydası için sağlam klinik veri yok | orta | kohort | E | ? |
+| 26 | Taurin yaşla azalmıyor (2025 Science, NIH) | https://www.nih.gov/news-events/news-releases/nih-researchers-conclude-taurine-unlikely-be-good-aging-biomarker | "Taurine concentrations increased with age in all groups, except in male mice" (arama özeti); insanda taurin faydası için sağlam klinik veri yok | orta | kohort | E | ✓ |
 | 27 | GlyNAC: 16 haftalık küçük RCT'de belirteç düzelmesi | https://pubmed.ncbi.nlm.nih.gov/35975308/ | "GlyNAC supplementation in OA for 16-weeks was safe and well-tolerated" | orta | RCT | H | – |
 | 28 | Dasatinib+kuersetin 20 hafta, 60 kadın: kemik yıkımı genel olarak azalmadı (arama özeti) | https://pubmed.ncbi.nlm.nih.gov/38956196/ | "did not reduce bone resorption in the overall group" (arama özeti) | düşük | RCT | H | ✓ |
 | 29 | SELECT: semaglutid kalp-damar olayını azalttı (Novo Nordisk fonlu) | https://pubmed.ncbi.nlm.nih.gov/37952131/ | "6.5% ... 8.0% ... (hazard ratio, 0.80; 95% CI, 0.72 to 0.90)"; 17.604 kişi | yüksek | RCT | E | ✓ |
@@ -78,3 +78,4 @@ Kontrol edilen: 21 satır (K=E 16 satırın 16'sı; K=H'den 5: #4, #10, #16, #24
 - #24: sayı ve p değerleri doğru; "AgelessRx çalışanı ve hissedarı" ifadesinin hissedar kısmı PubMed kaydında görülmedi (yalnızca AgelessRx bağlılığı).
 - H alt örnekleminde 5 satırdan 1'i hatalı; kalan H satırları genişletilmedi.
 
+Son tur: #26 ✓ (Science 2025 PMID 40472098; 'NIH' = NIA)

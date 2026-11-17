@@ -46,10 +46,10 @@ araç: 35/35
 | 24 | Health ABC (70-79): en yüksek protein beşte birlik grubu ~%40 daha az yağsız kütle kaybetti | https://pubmed.ncbi.nlm.nih.gov/18175749/ | n=2066, 3 yıl; "lost approximately 40% less LM and aLM" | yüksek | kohort | H | ✓ |
 | 25 | OPTIMen RCT: 1,3 g/kg, 0,8'e göre yağsız kütle ve işlevi artırmadı | https://pubmed.ncbi.nlm.nih.gov/29532075/ | 92 erkek, ort. 73 yaş, 6 ay; "Protein intake exceeding the RDA did not increase" LBM | yüksek | RCT | E | ✓ |
 | 26 | Yaşlılarda RDA üstü protein kesitsel olarak daha iyi işlevle ilişkili, ama boylamsal düşüşü önlemiyor | https://pubmed.ncbi.nlm.nih.gov/36087703/ | "a high consumption of proteins does not seem to prevent physical function decline over time" | yüksek | meta | E | ✓ |
-| 27 | Direnç antrenmanında ek protein küçük kazanç sağlar; ~1,62 g/kg üstünde ek yok; etki yaşla azalır | https://pubmed.ncbi.nlm.nih.gov/28698222/ | 49 RCT, 1863 kişi; FFM +0,30 kg; "beyond… 1.62 g/kg/day resulted in no further… gains" | yüksek | meta | H | – |
+| 27 | Direnç antrenmanında ek protein küçük kazanç sağlar; ~1,62 g/kg üstünde ek yok; etki yaşla azalır | https://pubmed.ncbi.nlm.nih.gov/28698222/ | 49 RCT, 1863 kişi; FFM +0,30 kg; "beyond… 1.62 g/kg/day resulted in no further… gains" | yüksek | meta | H | ✓ |
 | 28 | Daha fazla protein + direnç egzersizi: 65+ta 1,2-1,59 g/kg'da LBM etkisi anlamlı | https://pubmed.ncbi.nlm.nih.gov/35187864/ | SMD 0.22 (62 çalışma); "significant in subjects ≥65 years old ingesting 1.2-1.59 g" | yüksek | meta | H | ✓ |
 | 29 | PROT-AGE ve ESPEN: sağlıklı yaşlıya ≥1,0-1,2; hastaya 1,2-1,5 g/kg; eGFR<30 istisna | https://pubmed.ncbi.nlm.nih.gov/23867520/ ; https://pubmed.ncbi.nlm.nih.gov/24814383/ | "at least in the range of 1.0 to 1.2 g protein per kilogram"; "1.2-1.5 g/kg" | yüksek | derleme | E | ✓ |
-| 30 | Sağlıklı yetişkinde yüksek protein (≥1,5 g/kg) GFR değişimini farklılaştırmadı | https://pubmed.ncbi.nlm.nih.gov/30383278/ | 28 RCT, 1358 kişi; GFR değişimi SMD 0.11 (−0.05, 0.27) | yüksek | meta | H | – |
+| 30 | Sağlıklı yetişkinde yüksek protein (≥1,5 g/kg) GFR değişimini farklılaştırmadı | https://pubmed.ncbi.nlm.nih.gov/30383278/ | 28 RCT, 1358 kişi; GFR değişimi SMD 0.11 (−0.05, 0.27) | yüksek | meta | H | ✓ |
 
 ## Listede olmayan önemli bulgular
 - **2025 NHANES III yeniden analizi (Papanikolaou, Phillips, Fulgoni; Appl Physiol Nutr Metab, PMID 40418846):** Levine'in verisini olağan alım modeliyle yeniden çözümleyince protein (hayvansal/bitkisel) ve IGF-1 hiçbir yaş grubunda ölümle ilişkili çıkmadı; hayvansal protein kanser ölümüyle hafif ters ilişkili. Yazarların gıda/süt sektörü bağları var; Levine tarafında da Longo'nun L-Nutra bağı var. İki tarafın da çıkar çatışması olduğu rapora yazılmalı.
@@ -82,3 +82,5 @@ Kontrol edilen: 23 satır (K=E 17 satırın hepsi, 3 sayfa/PMID tekrarı dahil; 
 - Satır 4: 2025 analizinde hayvansal protein kanser ölümüyle hafif ters ilişkili (HR 0,95; P=0,04); "ilişkisiz" ifadesi düzeltildi. Özetteki cümle de buna göre düzeltildi.
 - Satır 22: ~%22 enerji aterosklerozu bulgusu erkek farelerde; "erkek" eklendi.
 - Not: Satır 25 (OPTIMen) fonksiyonel kısıtlı, olağan alımı ≤0,83 g/kg olan erkeklerde; özetteki "egzersizsiz ek protein kas kütlesini artırmıyor" genellemesi bu popülasyonla sınırlı okunmalı.
+
+Son tur: #27 ✓, #30 ✓
