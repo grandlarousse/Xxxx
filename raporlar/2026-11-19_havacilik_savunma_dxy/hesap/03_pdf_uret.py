@@ -20,7 +20,8 @@ PDF = KOK / "Havacilik_Savunma_DXY_Raporu.pdf"
 CSS = r"""
 @page { size: A4; margin: 17mm 15mm 18mm 15mm; }
 * { box-sizing: border-box; }
-html { font-family: 'Inter', 'DejaVu Sans', sans-serif; font-size: 10.4pt; line-height: 1.5; color: #1b2430; }
+html { font-family: 'Inter', 'DejaVu Sans', sans-serif; font-size: 10.4pt; line-height: 1.5; color: #1b2430;
+       font-feature-settings: 'calt' 0, 'case' 0, 'tnum' 0, 'ss01' 0; font-variant-ligatures: none; }
 body { margin: 0; }
 h1 { font-size: 21pt; line-height: 1.2; margin: 0 0 4pt; color: #0f2a47; letter-spacing: -0.2pt; }
 h2 { font-size: 14pt; margin: 20pt 0 6pt; padding-bottom: 3pt; border-bottom: 1.2pt solid #0f2a47; color: #0f2a47; break-after: avoid; }
@@ -34,9 +35,11 @@ a { color: #1a5a96; text-decoration: none; word-break: break-word; }
 blockquote { margin: 8pt 0; padding: 7pt 11pt; background: #eef3f8; border-left: 3pt solid #1a5a96; border-radius: 2pt; break-inside: avoid; }
 blockquote p:last-child { margin-bottom: 0; }
 code { font-family: 'JetBrains Mono', 'DejaVu Sans Mono', monospace; font-size: 8.8pt; background: #f1f3f5; padding: 0 2pt; border-radius: 2pt; }
-table { border-collapse: collapse; width: 100%; margin: 6pt 0 10pt; font-size: 8.6pt; line-height: 1.35; font-variant-numeric: tabular-nums; }
+table { border-collapse: collapse; width: 100%; margin: 6pt 0 10pt; font-size: 8.6pt; line-height: 1.35; }
 thead { display: table-header-group; }
+table { break-inside: avoid; }
 tr { break-inside: avoid; }
+li { break-inside: avoid; }
 th { background: #0f2a47; color: #fff; font-weight: 600; text-align: left; padding: 4pt 5pt; vertical-align: bottom; }
 td { padding: 3.5pt 5pt; border-bottom: 0.5pt solid #d5dbe2; vertical-align: top; }
 tbody tr:nth-child(even) td { background: #f6f8fa; }

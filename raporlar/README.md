@@ -57,3 +57,18 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# Havacılık-savunma endeksleri ve dolar: borsa görünümü ve teslimat gecikmeleri (19.11.2026)
+
+Klasör: `2026-11-19_havacilik_savunma_dxy/`
+
+- `Havacilik_Savunma_DXY_Raporu.pdf`: Teslim edilen rapor (11 sayfa).
+- `RAPOR.md`: Aynı raporun kaynak metni. Kısa yanıt, ne yapmalı, borsa analizi (MSCI World A&D, MSCI Europe A&D, Dow Jones US Select A&D), dolar ve teslimat gecikmeleri, doğrulama kapsamı, kaynaklar, devam notu.
+- `grafik/`: 10 grafik (G1-G10).
+- `hesap/`: `01_veri_indir.py`, `02_analiz.py` (ana hesap ve grafikler), `02b_ek_kontrol.py` (sonradan eklenen sağlamlık kontrolleri), `03_pdf_uret.py`; sonuçlar `sonuclar.md`, `sonuclar_ek.md`, `sonuclar.json`.
+- `veri/`: Yahoo Finance, MSCI, Fed G.17, Eurostat, BIS serileri ve Airbus-Boeing sipariş-teslimat tabloları; `README.md` kaynakları açıklar.
+- `ek/`: Ham ajan defterleri (A, B, D, E, F, G), doğrulamalar (V1-V4), eleştiri (K).
+
+Yatırım tavsiyesi değildir.
