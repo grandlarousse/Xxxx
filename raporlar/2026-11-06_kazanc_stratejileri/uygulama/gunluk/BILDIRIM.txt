@@ -1,1 +1,1 @@
-Per 19.11: İŞLEM YOK. İzle/kâğıt: ALTIN kâğıt: TRALT1! SAT (z −1,45). 18.11 kapanışı: BIST KAPALI. Yakın tetik: SAHOL ≤80,33 (K1, kâğıt), AKBNK ≥67,33 (K1, kâğıt), ENERY ≥14,86 (K4), S&P 500 ≥7.346,67 (ABD). ABD KIRMIZI (VIX/VIX3M 1,02); en erken pilot 24.11. Ayrıntı gunluk/SON.md
+Cum 20.11: İŞLEM YOK. 19.11 kapanışı: BIST KAPALI. Yakın tetik: ENERY ≥14,86 (K4), SAHOL ≤79,76 (K1, kâğıt), AKBNK ≥67,22 (K1, kâğıt), TRMET ≥113,57 (KOZA, kâğıt). ABD KIRMIZI (VIX/VIX3M 1,01); en erken pilot 25.11. Ayrıntı gunluk/SON.md
