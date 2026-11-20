@@ -106,26 +106,35 @@ for parts in (['IS', 'HAVUZ'],):
 beta = pd.DataFrame({c: Rt[c].rolling(250, min_periods=60).cov(r['XU030']) / r['XU030'].rolling(250, min_periods=60).var() for c in TRIO}).shift(1).fillna(1.0)
 hed = f - beta.mul(fX, axis=0)
 E_hed = demean(hed, fl, ['IS', 'HAVUZ'])
+E_hed_uc = demean(hed, fl, ['IS', 'OOS1', 'KASA'])
+
+
+def EP(per, hedged=False):
+    """Döneme uygun dönem-nötr kıyas: IS/OOS1/KASA kendi dönem ortalaması, HAVUZ 2023+ ortalaması."""
+    if hedged:
+        return E_hed if per == 'HAVUZ' else E_hed_uc
+    return E_hv if per == 'HAVUZ' else E_uc
+
 for per in ['IS', 'OOS1', 'KASA', 'HAVUZ']:
     m = pm(idx, per)
-    pa = Xdm.where(sigC)[m]
+    pa = (fX - fX[m].mean()).where(sigC)[m]
     mu, t, n = hac(pa, H)
     add('S3', 'ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)', per, n, mu, t, '')
-    mu, t, n = hac(ds(E_hed, sigC)[m], H)
+    mu, t, n = hac(ds(EP(per, True), sigC)[m], H)
     add('S3', 'XU030 beta korumali uclu (per)', per, n, mu, t, f'ort beta={beta[m].where(sigC[m]).mean().mean():.2f}')
-    mu, t, n = hac(ds(E_hv, sigU)[m], H)
+    mu, t, n = hac(ds(EP(per), sigU)[m], H)
     add('S3', '(a) kosulsuz XU030 z>=1 -> uclu (per)', per, n, mu, t, '')
-    pb = ds(E_hv, sigB)[m]
+    pb = ds(EP(per), sigB)[m]
     mub, tb, nb = hac(pb, H)
     add('S3', '(b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)', per, nb, mub, tb, '')
-    pc = ds(E_hv, sigC)[m]
+    pc = ds(EP(per), sigC)[m]
     a, b = pc.dropna(), pb.dropna()
     dif = a.mean() - b.mean()
     se = np.sqrt(a.var(ddof=1) / len(a) + b.var(ddof=1) / len(b))
     add('S3', '(c)-(b): gecikme kosulunun katkisi (Welch)', per, len(a), 1e4 * dif, dif / se, '')
-    mu, t, n = hac(ds(E_hed, sigB)[m], H)
+    mu, t, n = hac(ds(EP(per, True), sigB)[m], H)
     add('S3', '(b) beta korumali', per, n, mu, t, '')
-    mu, t, n = hac(ds(E_hed, sigU)[m], H)
+    mu, t, n = hac(ds(EP(per, True), sigU)[m], H)
     add('S3', '(a) beta korumali', per, n, mu, t, '')
 
 print('== 3. Kiyas duyarliligi')
@@ -164,7 +173,7 @@ for s in ['XU030', 'XELKT']:
     V[(s, '17:55')] = bar(m5, 1750)
 yh = rd('h1', 'XU030')
 y1730 = bar(yh, 1630)
-chk = pd.concat([V[('XU030', '17:30')], y1730], axis=1).dropna()
+chk = pd.concat([V[('XU030', '17:30')], y1730], axis=1, sort=True).dropna()
 print('XU030 17:30: isy_m5 ile yahoo_h1 ortak gun', len(chk), 'ort |fark| bps', 1e4 * (chk.iloc[:, 0] / chk.iloc[:, 1] - 1).abs().mean() if len(chk) else None)
 V[('XU030', '17:30')] = V[('XU030', '17:30')].combine_first(y1730)
 prev = P['idx'][['XELKT', 'XU030']].reindex(idx).shift(1)
@@ -229,7 +238,7 @@ for per in ['OOS1', 'KASA', 'HAVUZ']:
     mm = pm(idx, per)
     Sm = Sg.copy()
     Sm[~mm] = False
-    X = E_hv.where(Sm)
+    X = EP(per).where(Sm)
     vals = X.values[np.isfinite(X.values)]
     cs = {s: elib.cost_bps(P, Sm, s) for s in elib.COST}
     add('S3', 'spot maliyet sonrasi net (islem basina per)', per, len(vals), 1e4 * vals.mean(), None,
@@ -244,12 +253,12 @@ print('== 6. Tek hisse ve en kotu olaylar')
 for per in ['IS', 'OOS1', 'KASA', 'HAVUZ']:
     mm = pm(idx, per)
     for u in TRIO:
-        p = E_hv[u].where(sigC & fl[u])[mm]
+        p = EP(per)[u].where(sigC & fl[u])[mm]
         mu, t, n = hac(p, H)
         add('S3', f'tek hisse {u} (per)', per, n, mu, t, '')
     for drop in TRIO:
         keep = [c for c in TRIO if c != drop]
-        mu, t, n = hac(ds(E_hv[keep], sigC, fl[keep])[mm], H)
+        mu, t, n = hac(ds(EP(per)[keep], sigC, fl[keep])[mm], H)
         add('S3', f'{drop} haric ikili (per)', per, n, mu, t, '')
 w = ev.sort_values('ham').head(6)
 add('S3', 'en kotu 6 olay (uclu ham 3g)', 'HAVUZ', len(ev), 1e4 * w.ham.mean(), None, '; '.join(f'{d.strftime("%Y-%m-%d")}:{1e4 * v:+.0f}' for d, v in w.ham.items()))
@@ -259,6 +268,6 @@ add('S3', 'ham 3g dagilimi (islem)', 'HAVUZ', len(st_), 1e4 * st_.mean(), None, 
 # t+1 girişi
 s1 = sigC.shift(1, fill_value=False)
 for per in ['OOS1', 'KASA', 'HAVUZ']:
-    mu, t, n = hac(ds(E_hv, s1)[pm(idx, per)], H)
+    mu, t, n = hac(ds(EP(per), s1)[pm(idx, per)], H)
     add('S3', 't+1 kapanisindan giris (per)', per, n, mu, t, '')
 save('s3.csv')

@@ -99,7 +99,7 @@ for nm, S in [('T1', T1), ('T2', T2)]:
         m = pm(idx, per)
         mu, t, n = tt(dm[m])
         above = f_pl[m].gt(umed[m], axis=0).where(S[m] & f_pl[m].notna())
-        add(nm, 'secilenlerin MEDYANI − evren medyani, duz f1', per, n, mu, t,
+        add(nm, 'secilenlerin MEDYANI − evren medyani (kucuk orneklem medyani yukari yanli; asil olcu: gecme orani)', per, n, mu, t,
             f'gun isabeti={(dm[m].dropna() > 0).mean():.2f}; secilen islemlerin evren medyanini gecme orani={np.nanmean(above.values.astype(float)):.3f}')
     ev(nm, 'getiriler +-%5 kirpilmis (kuyruksuz), kiyas=diger dolabilirler', E_w, S)
     ev(nm, 'ertesi gun tavanda kapanan secilenler haric', E_pl, S & ~lu1)
@@ -186,7 +186,9 @@ PR = {'sektor EW ort.dan >=3 puan geride (taban dahil)': (rel1 <= -0.03) & U, 's
       'XELKT endeksinden >=3 puan geride, tabana degmemis': (relX <= -0.03) & U_cl, 'XELKT endeksinden >=5 puan geride, tabana degmemis': (relX <= -0.05) & U_cl,
       'gunluk getirisi <= -%5 (mutlak; taban dahil)': (R <= -0.05) & U, 'gunun en kotu 5 hissesi (taban dahil)': (rk.where(U).rank(axis=1, method='first') <= 5) & U & (nn.values[:, None] >= 15),
       'tabana degdi ya da tabanda kapandi': (td | ld) & U,
-      'BIRLESIK: XELKT endeksinden >=3 puan geride YA DA tabana degdi': (((relX <= -0.03) | td | ld) & U)}
+      'BIRLESIK: XELKT endeksinden >=3 puan geride YA DA tabana degdi': (((relX <= -0.03) | td | ld) & U),
+      'BIRLESIK5: XELKT endeksinden >=5 puan geride YA DA tabana degdi': (((relX <= -0.05) | td | ld) & U),
+      'tavana degdi, tavanda kapanmadi': (tu & ~lu) & U}
 for k, S in PR.items():
     for per in ['IS', 'OOS1', 'KASA', 'HAVUZ']:
         m = pm(idx, per)

@@ -105,6 +105,23 @@ def kisa_pencere(etiket, endeks, hisse, son, E, H, cikti, gun=450, m=150):
           + '; '.join(out))
 
 
+def saatlik_kontrol(P, panel, n, cikti):
+    """Saatlik İş Yatırım serisinde 18:00 damgalı değer = günlük kapanış mı? (sinyal.py'nin son gün düzeltmesinin dayanağı)"""
+    gunler = P['ret_cc'].index[-n:]
+    for k in ['XELKT', 'XU030', 'XU100']:
+        f = os.path.join(panel, 'h1_isy', k + '.parquet')
+        if not os.path.exists(f):
+            cikti(f'saatlik denetim {k}: dosya yok')
+            continue
+        d = pd.read_parquet(f)[['ts_tr', 'c']]
+        d['ts_tr'] = pd.to_datetime(d['ts_tr'])
+        d = d[d.ts_tr.dt.hour == 18]
+        h = d.groupby(d.ts_tr.dt.normalize()).c.last().reindex(gunler)
+        fark = (h / P['idx'][k].reindex(gunler) - 1).abs()
+        cikti(f'saatlik denetim {k}: son {n} günün {int(h.notna().sum())}\'inde 18:00 damgası var; günlük kapanıştan '
+              f'> 0,2 bps ayrışan gün {int((fark > 2e-5).sum())}; en büyük fark {fark.max():.1e}')
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--panel', required=True)
@@ -125,16 +142,19 @@ def main():
     son = P['ret_cc'].index[-1]
     cikti(f'DOĞRULAMA | panel son günü {son.date()} | kural kodları: a5_rotasyon, a2_endeks, a3_kesit, w3a_kacinma, w3b_damitma')
     sonuc = {}
+    saatlik_kontrol(P, a.panel, a.n, cikti)
     if a.ham:
-        endeks, hisse, _ = sinyal.veri_yukle(None, None, ham=a.ham, sessiz=True)
+        endeks, hisse, _, _ = sinyal.veri_yukle(None, None, ham=a.ham, sessiz=True)
         Pm, E, H = benim(endeks, hisse, son)
         sonuc['ham'] = karsilastir('HAM DOSYALAR (panelle aynı indirme)', P, gun, his, Pm, E, H, a.n, cikti)
         kisa_pencere('HAM DOSYALAR', endeks, hisse, son, E, H, cikti)
     if a.canli:
         bas = son - pd.Timedelta(days=int(a.n * 1.47) + 260)
-        endeks, hisse, eksik = sinyal.veri_yukle(bas, son, kaydet=a.kaydet, sessiz=True)
+        endeks, hisse, eksik, bilgi = sinyal.veri_yukle(bas, son, kaydet=a.kaydet, sessiz=True)
         if eksik:
             cikti('canlı indirmede eksik: ' + ', '.join(eksik))
+        for nt in bilgi['notlar']:
+            cikti('canlı indirme notu: ' + nt)
         Pm, E, H = benim(endeks, hisse, son)
         sonuc['canli'] = karsilastir(f'CANLI İNDİRME ({bas.date()} → {son.date()})', P, gun, his, Pm, E, H, a.n, cikti)
         kisa_pencere('CANLI İNDİRME', endeks, hisse, son, E, H, cikti)

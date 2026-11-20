@@ -119,20 +119,20 @@ S3    | (b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)               | IS         
 S3    | (c)-(b): gecikme kosulunun katkisi (Welch)                 | IS         | n=   145 |     60.7 | t=  1.83 | 
 S3    | (b) beta korumali                                          | IS         | n=   333 |     -6.5 | t= -0.36 | 
 S3    | (a) beta korumali                                          | IS         | n=   478 |      4.2 | t=  0.28 | 
-S3    | ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)       | OOS1       | n=    29 |    144.1 | t=  2.54 | 
-S3    | XU030 beta korumali uclu (per)                             | OOS1       | n=    29 |     79.3 | t=  1.62 | ort beta=0.89
-S3    | (a) kosulsuz XU030 z>=1 -> uclu (per)                      | OOS1       | n=   106 |    111.8 | t=  2.33 | 
-S3    | (b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)               | OOS1       | n=    77 |     75.9 | t=  1.33 | 
-S3    | (c)-(b): gecikme kosulunun katkisi (Welch)                 | OOS1       | n=    29 |    131.0 | t=  1.46 | 
-S3    | (b) beta korumali                                          | OOS1       | n=    77 |     73.0 | t=  1.82 | 
-S3    | (a) beta korumali                                          | OOS1       | n=   106 |     74.7 | t=  2.25 | 
-S3    | ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)       | KASA       | n=    16 |     25.1 | t=  0.62 | 
-S3    | XU030 beta korumali uclu (per)                             | KASA       | n=    16 |     43.4 | t=  0.91 | ort beta=0.86
-S3    | (a) kosulsuz XU030 z>=1 -> uclu (per)                      | KASA       | n=    52 |     69.5 | t=  1.46 | 
-S3    | (b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)               | KASA       | n=    36 |     71.2 | t=  1.17 | 
-S3    | (c)-(b): gecikme kosulunun katkisi (Welch)                 | KASA       | n=    16 |     -5.6 | t= -0.07 | 
-S3    | (b) beta korumali                                          | KASA       | n=    36 |     69.6 | t=  1.59 | 
-S3    | (a) beta korumali                                          | KASA       | n=    52 |     61.5 | t=  1.72 | 
+S3    | ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)       | OOS1       | n=    29 |    139.2 | t=  2.45 | 
+S3    | XU030 beta korumali uclu (per)                             | OOS1       | n=    29 |     97.3 | t=  1.98 | ort beta=0.89
+S3    | (a) kosulsuz XU030 z>=1 -> uclu (per)                      | OOS1       | n=   106 |    125.5 | t=  2.61 | 
+S3    | (b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)               | OOS1       | n=    77 |     89.7 | t=  1.57 | 
+S3    | (c)-(b): gecikme kosulunun katkisi (Welch)                 | OOS1       | n=    29 |    130.9 | t=  1.46 | 
+S3    | (b) beta korumali                                          | OOS1       | n=    77 |     91.1 | t=  2.27 | 
+S3    | (a) beta korumali                                          | OOS1       | n=   106 |     92.8 | t=  2.79 | 
+S3    | ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)       | KASA       | n=    16 |     33.7 | t=  0.83 | 
+S3    | XU030 beta korumali uclu (per)                             | KASA       | n=    16 |     11.4 | t=  0.24 | ort beta=0.86
+S3    | (a) kosulsuz XU030 z>=1 -> uclu (per)                      | KASA       | n=    52 |     45.1 | t=  0.95 | 
+S3    | (b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)               | KASA       | n=    36 |     46.8 | t=  0.77 | 
+S3    | (c)-(b): gecikme kosulunun katkisi (Welch)                 | KASA       | n=    16 |     -5.5 | t= -0.07 | 
+S3    | (b) beta korumali                                          | KASA       | n=    36 |     37.4 | t=  0.86 | 
+S3    | (a) beta korumali                                          | KASA       | n=    52 |     29.4 | t=  0.82 | 
 S3    | ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)       | HAVUZ      | n=    45 |    101.8 | t=  2.55 | 
 S3    | XU030 beta korumali uclu (per)                             | HAVUZ      | n=    45 |     66.5 | t=  1.85 | ort beta=0.88
 S3    | (a) kosulsuz XU030 z>=1 -> uclu (per)                      | HAVUZ      | n=   158 |     97.9 | t=  2.73 | 
@@ -177,8 +177,8 @@ S3    | vadeli AKSEN: uzlasma f3 - spot f3 (ayni olaylar)          | HAVUZ      
 S3    | vadeli ENJSA: uzlasma f3 - spot f3 (ayni olaylar)          | HAVUZ      | n=    37 |    -47.9 | t= -5.66 | spot ham=161; vadeli ham=113; gunluk tasima (vadeli-spot getirisi, tum gunler)=-13.7 bps/gun; son fiyat 111.60 TL; 1 adim spot=9 bps, vadeli=4 bps; olay gunlerinde ort. adim spot=7, vadeli=2 bps
 S3    | vadeli ODAS: uzlasma f3 - spot f3 (ayni olaylar)           | HAVUZ      | n=    37 |    -49.6 | t= -6.42 | spot ham=143; vadeli ham=93; gunluk tasima (vadeli-spot getirisi, tum gunler)=-14.9 bps/gun; son fiyat 4.35 TL; 1 adim spot=23 bps, vadeli=23 bps; olay gunlerinde ort. adim spot=15, vadeli=15 bps
 COST {'dusuk': {'spot': 10, 'AKSEN': 8, 'ENJSA': 10, 'ODAS': 25}, 'temel': {'spot': 25, 'AKSEN': 15, 'ENJSA': 18, 'ODAS': 35}, 'muhafazakar': {'spot': 50, 'AKSEN': 25, 'ENJSA': 25, 'ODAS': 45}}
-S3    | spot maliyet sonrasi net (islem basina per)                | OOS1       | n=    87 |    206.9 | t=  None | dusuk: maliyet 15 -> net 192; temel: maliyet 30 -> net 177; muhafazakar: maliyet 55 -> net 152
-S3    | spot maliyet sonrasi net (islem basina per)                | KASA       | n=    48 |     65.6 | t=  None | dusuk: maliyet 15 -> net 50; temel: maliyet 30 -> net 35; muhafazakar: maliyet 55 -> net 10
+S3    | spot maliyet sonrasi net (islem basina per)                | OOS1       | n=    87 |    220.6 | t=  None | dusuk: maliyet 15 -> net 206; temel: maliyet 30 -> net 191; muhafazakar: maliyet 55 -> net 166
+S3    | spot maliyet sonrasi net (islem basina per)                | KASA       | n=    48 |     41.3 | t=  None | dusuk: maliyet 15 -> net 26; temel: maliyet 30 -> net 11; muhafazakar: maliyet 55 -> net -14
 S3    | spot maliyet sonrasi net (islem basina per)                | HAVUZ      | n=   135 |    156.7 | t=  None | dusuk: maliyet 15 -> net 142; temel: maliyet 30 -> net 127; muhafazakar: maliyet 55 -> net 102
 S3    | yilda olay sayisi (sinyal gunu / bagimsiz)                 | 2010-2026  | n=   195 |     None | t=  None | 2017:13/12; 2018:9/9; 2019:5/4; 2020:9/7; 2021:16/13; 2022:12/10; 2023:7/7; 2024:14/10; 2025:13/13; 2026:11/9; 2023+ yillik ort. bagimsiz=10.1
 == 6. Tek hisse ve en kotu olaylar
@@ -188,18 +188,18 @@ S3    | tek hisse ODAS (per)                                       | IS         
 S3    | AKSEN haric ikili (per)                                    | IS         | n=    99 |    103.7 | t=  2.45 | 
 S3    | ENJSA haric ikili (per)                                    | IS         | n=   145 |     67.3 | t=  2.34 | 
 S3    | ODAS haric ikili (per)                                     | IS         | n=   145 |     58.1 | t=  2.21 | 
-S3    | tek hisse AKSEN (per)                                      | OOS1       | n=    29 |    206.9 | t=  2.29 | 
-S3    | tek hisse ENJSA (per)                                      | OOS1       | n=    29 |    163.1 | t=  1.98 | 
-S3    | tek hisse ODAS (per)                                       | OOS1       | n=    29 |    250.8 | t=  2.51 | 
-S3    | AKSEN haric ikili (per)                                    | OOS1       | n=    29 |    206.9 | t=  2.67 | 
-S3    | ENJSA haric ikili (per)                                    | OOS1       | n=    29 |    228.8 | t=  2.78 | 
-S3    | ODAS haric ikili (per)                                     | OOS1       | n=    29 |    185.0 | t=  2.45 | 
-S3    | tek hisse AKSEN (per)                                      | KASA       | n=    16 |     55.1 | t=  0.94 | 
-S3    | tek hisse ENJSA (per)                                      | KASA       | n=    16 |    111.5 | t=  2.18 | 
-S3    | tek hisse ODAS (per)                                       | KASA       | n=    16 |     30.3 | t=  0.29 | 
-S3    | AKSEN haric ikili (per)                                    | KASA       | n=    16 |     70.9 | t=  1.02 | 
-S3    | ENJSA haric ikili (per)                                    | KASA       | n=    16 |     42.7 | t=  0.67 | 
-S3    | ODAS haric ikili (per)                                     | KASA       | n=    16 |     83.3 | t=   2.1 | 
+S3    | tek hisse AKSEN (per)                                      | OOS1       | n=    29 |    233.9 | t=  2.59 | 
+S3    | tek hisse ENJSA (per)                                      | OOS1       | n=    29 |    168.7 | t=  2.04 | 
+S3    | tek hisse ODAS (per)                                       | OOS1       | n=    29 |    259.2 | t=  2.59 | 
+S3    | AKSEN haric ikili (per)                                    | OOS1       | n=    29 |    213.9 | t=  2.76 | 
+S3    | ENJSA haric ikili (per)                                    | OOS1       | n=    29 |    246.6 | t=   3.0 | 
+S3    | ODAS haric ikili (per)                                     | OOS1       | n=    29 |    201.3 | t=  2.67 | 
+S3    | tek hisse AKSEN (per)                                      | KASA       | n=    16 |      7.0 | t=  0.12 | 
+S3    | tek hisse ENJSA (per)                                      | KASA       | n=    16 |    101.7 | t=  1.99 | 
+S3    | tek hisse ODAS (per)                                       | KASA       | n=    16 |     15.3 | t=  0.14 | 
+S3    | AKSEN haric ikili (per)                                    | KASA       | n=    16 |     58.5 | t=  0.84 | 
+S3    | ENJSA haric ikili (per)                                    | KASA       | n=    16 |     11.1 | t=  0.17 | 
+S3    | ODAS haric ikili (per)                                     | KASA       | n=    16 |     54.3 | t=  1.37 | 
 S3    | tek hisse AKSEN (per)                                      | HAVUZ      | n=    45 |    152.9 | t=  2.44 | 
 S3    | tek hisse ENJSA (per)                                      | HAVUZ      | n=    45 |    144.7 | t=  2.58 | 
 S3    | tek hisse ODAS (per)                                       | HAVUZ      | n=    45 |    172.4 | t=  2.25 | 
@@ -209,6 +209,6 @@ S3    | ODAS haric ikili (per)                                     | HAVUZ      
 S3    | en kotu 6 olay (uclu ham 3g)                               | HAVUZ      | n=    45 |   -289.8 | t=  None | 2023-11-27:-508; 2023-03-29:-310; 2026-09-17:-260; 2024-03-21:-224; 2024-07-04:-222; 2025-01-03:-213
 S3    | en kotu 5 tek hisse islemi (ham 3g)                        | HAVUZ      | n=   135 |   -604.2 | t=  None | 2023-11-27 ODAS:-892; 2023-03-29 AKSEN:-658; 2026-09-17 ODAS:-581; 2024-03-19 ODAS:-452; 2023-03-29 ODAS:-439
 S3    | ham 3g dagilimi (islem)                                    | HAVUZ      | n=   135 |    176.9 | t=  None | %5=-409; %25=-158; medyan=146; %75=407; kazanan=0.64; sd=436
-S3    | t+1 kapanisindan giris (per)                               | OOS1       | n=    29 |     58.9 | t=  0.94 | 
-S3    | t+1 kapanisindan giris (per)                               | KASA       | n=    16 |     71.7 | t=  0.95 | 
+S3    | t+1 kapanisindan giris (per)                               | OOS1       | n=    29 |     72.7 | t=  1.17 | 
+S3    | t+1 kapanisindan giris (per)                               | KASA       | n=    16 |     47.4 | t=  0.63 | 
 S3    | t+1 kapanisindan giris (per)                               | HAVUZ      | n=    45 |     63.4 | t=  1.31 | 

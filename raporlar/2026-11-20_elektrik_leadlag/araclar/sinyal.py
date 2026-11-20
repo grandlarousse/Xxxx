@@ -12,6 +12,8 @@ Araştırmadaki dondurulmuş kuralların günlük uygulaması (raporlar/2026-11-
 Giriş sinyal günü kapanışında (kapanış seansı 18:01–18:10), çıkış h işlem günü sonra kapanışta.
 
 Veri: İş Yatırım'ın herkese açık uç noktaları (HisseTekil, IndexHistoricalAll). Takvim = XU100 günleri.
+Günlük endeks serisinin SON GÜNÜ güvenilmez (yinelenen isteklerde değişiyor); son günler saatlik serinin
+18:00 damgalı resmi kapanışıyla doğrulanır ve gerekirse düzeltilir (çıktıda NOT satırı).
 
 Kullanım:
   python3 sinyal.py                                   # son işlem günü
@@ -46,6 +48,7 @@ ADIM_TARIH = pd.Timestamp('2023-11-06')     # yeni fiyat adımı tablosu
 ZWIN, ZMIN, HIWIN = 60, 40, 20              # z: 60 günlük std (en az 40), 1 gün gecikmeli; zirve: 20 gün
 Z_ESIK, Z_GERI = 1.0, 0.5
 IPO_GUN, MIN_SEPET = 20, 5
+SAATLIK_GUN = 10                            # son günlerin kapanışı saatlik seriyle (18:00 damgası) doğrulanır
 GUNLER = ['Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi', 'Pazar']
 
 
@@ -66,10 +69,12 @@ def _getir(tur, kod, bas, son, ham=None, kaydet=None):
             return None
         with open(p, encoding='utf-8') as f:
             return f.read()
-    if tur == 'isy_endeks':
+    if tur in ('isy_endeks', 'isy_endeks_saatlik'):
         url = ISY + 'ChartData.aspx/IndexHistoricalAll'
-        par = {'period': 1440, 'from': bas.strftime('%Y%m%d') + '000000', 'to': son.strftime('%Y%m%d') + '235959',
-               'endeks': kod}
+        if tur == 'isy_endeks_saatlik':
+            bas = son - pd.Timedelta(days=SAATLIK_GUN)
+        par = {'period': 1440 if tur == 'isy_endeks' else 60, 'from': bas.strftime('%Y%m%d') + '000000',
+               'to': son.strftime('%Y%m%d') + '235959', 'endeks': kod}
     else:
         url = ISY + 'Data.aspx/HisseTekil'
         par = {'hisse': kod, 'startdate': bas.strftime('%d-%m-%Y'), 'enddate': son.strftime('%d-%m-%Y')}
@@ -97,6 +102,38 @@ def _endeks_seri(txt):
     return s[~s.index.duplicated(keep='last')].sort_index()
 
 
+def _son_gun_duzelt(kod, s, txt, son=None):
+    """İş Yatırım'ın GÜNLÜK endeks serisinde son gün güvenilmez: aynı istek art arda farklı (seans içinden kalma) değer
+    döndürebiliyor ya da günü hiç içermiyor (20.11.2026'da gözlendi). SAATLİK seride 18:00 damgalı değer resmi kapanıştır
+    ve yinelenen isteklerde değişmedi; son günler bu değerle doğrulanır ve gerekirse düzeltilir.
+    Dönen: (seri, notlar, kesin). kesin=False: son günün 18:00 damgası yok (seans sürüyor ya da yarım gün)."""
+    d = json.loads(txt)['data']
+    h = pd.Series([x[1] for x in d], index=pd.to_datetime([x[0] for x in d], unit='ms') + pd.Timedelta(hours=3),
+                  dtype=float).sort_index()
+    if son is not None:
+        h = h[h.index.normalize() <= pd.Timestamp(son)]
+    s, notlar, kesin = s.copy(), [], True
+    if len(h) == 0:
+        return s, notlar, kesin
+    son_gun = h.index[-1].normalize()
+    for g, x in h.groupby(h.index.normalize()):
+        k = x[x.index.hour == 18]
+        eski = s.get(g, np.nan)
+        if len(k):
+            yeni = float(k.iloc[-1])
+            if pd.isna(eski) or abs(eski / yeni - 1) > 2e-5:
+                notlar.append(f'{kod} {g.date()}: günlük seride {"yok" if pd.isna(eski) else tr_(eski)}, '
+                              f'saatlik 18:00 kapanışı {tr_(yeni)} kullanıldı')
+                s.loc[g] = yeni
+        elif g == son_gun and (len(s) == 0 or g >= s.index[-1]):
+            yeni = float(x.iloc[-1])
+            s.loc[g] = yeni
+            kesin = False
+            notlar.append(f'{kod} {g.date()}: 18:00 kapanış damgası yok (seans sürüyor ya da yarım gün); '
+                          f'{x.index[-1].strftime("%H:%M")} barının son değeri {tr_(yeni)} kullanıldı')
+    return s.sort_index(), notlar, kesin
+
+
 def _hisse_tablo(txt):
     d = pd.DataFrame(json.loads(txt)['value'])
     out = pd.DataFrame({'c_raw': d['HG_KAPANIS'], 'h_raw': d['HG_MAX'], 'l_raw': d['HG_MIN'],
@@ -106,13 +143,19 @@ def _hisse_tablo(txt):
 
 
 def veri_yukle(bas, son, ham=None, kaydet=None, hisseler=None, sessiz=False):
-    """Ham veriyi indirir (ya da ham klasöründen okur). Dönen: (endeks sözlüğü, hisse sözlüğü, eksik listesi)."""
+    """Ham veriyi indirir (ya da ham klasöründen okur).
+    Dönen: (endeks sözlüğü, hisse sözlüğü, eksik listesi, bilgi sözlüğü: notlar, kesin)."""
     hisseler = list(hisseler or XELKT)
-    isler = [('isy_endeks', k) for k in ENDEKSLER] + [('isy_hisse', k) for k in hisseler]
+    isler = ([('isy_endeks', k) for k in ENDEKSLER] + [('isy_endeks_saatlik', k) for k in ENDEKSLER]
+             + [('isy_hisse', k) for k in hisseler])
     with ThreadPoolExecutor(4) as ex:
         metin = list(ex.map(lambda t: _getir(t[0], t[1], bas, son, ham, kaydet), isler))
-    endeks, hisse, eksik = {}, {}, []
+    endeks, hisse, eksik, saatlik = {}, {}, [], {}
     for (tur, kod), txt in zip(isler, metin):
+        if tur == 'isy_endeks_saatlik':
+            if txt and _say(tur, txt) > 0:
+                saatlik[kod] = txt
+            continue
         if not txt or _say(tur, txt) == 0:
             eksik.append(kod)
             continue
@@ -120,12 +163,21 @@ def veri_yukle(bas, son, ham=None, kaydet=None, hisseler=None, sessiz=False):
             endeks[kod] = _endeks_seri(txt)
         else:
             hisse[kod] = _hisse_tablo(txt)
+    bilgi = {'notlar': [], 'kesin': True, 'saatlik_var': True}
     for k in ENDEKSLER:
         if k not in endeks:
             raise SystemExit(f'HATA: {k} endeks verisi alınamadı (İş Yatırım erişilemedi ya da ham dosya yok).')
+        if k in saatlik:
+            endeks[k], nt, ks = _son_gun_duzelt(k, endeks[k], saatlik[k], son)
+            bilgi['notlar'] += nt
+            bilgi['kesin'] &= ks
+        else:
+            bilgi['saatlik_var'] = False
+    if not bilgi['saatlik_var'] and not ham:
+        bilgi['notlar'].append('saatlik endeks serisi alınamadı: son günün endeks kapanışı DOĞRULANMADI')
     if eksik and not sessiz:
         print('UYARI: verisi alınamayan hisseler (sepet dışı sayıldı): ' + ', '.join(eksik), file=sys.stderr)
-    return endeks, hisse, eksik
+    return endeks, hisse, eksik, bilgi
 
 
 # ------------------------------------------------------------------------------------------------ panel
@@ -335,7 +387,7 @@ def hisse_tablosu(P, H, t):
     return T
 
 
-def yazdir(P, E, H, t, ts, gunici=None, eksik=(), gecmis=0):
+def yazdir(P, E, H, t, ts, gunici=None, eksik=(), gecmis=0, bilgi=None):
     """t: endeks sinyal günü; ts: hisse verisinin son günü (gün içi modunda t'den önce olabilir)."""
     e = E.loc[t]
     cz = '=' * 74
@@ -344,6 +396,10 @@ def yazdir(P, E, H, t, ts, gunici=None, eksik=(), gecmis=0):
     if gunici:
         print('GÜN İÇİ MODU: endeks değerleri elle girildi (' + ', '.join(f'{k}={tr_(v)}' for k, v in gunici.items())
               + '). Kesin karar kapanışta.')
+    for nt in (bilgi or {}).get('notlar', []):
+        print('NOT: ' + nt)
+    if bilgi is not None and not bilgi.get('kesin', True) and not gunici:
+        print('UYARI: son günün endeks kapanışı kesin değil; 18:10 sonrasında yeniden çalıştırın.')
     print(cz)
     print('ENDEKSLER')
     print(f'  XELKT {tr_(e.XELKT):>10}  günlük {yz(e.rE):>7}  z {tr_(e.zE, 2, True):>6}  (60 g. std {yz(e.sdE)[1:]})')
@@ -450,7 +506,7 @@ def main(argv=None):
     son = pd.Timestamp(a.tarih) if a.tarih else pd.Timestamp(bugun.date())
     bas = son - pd.Timedelta(days=max(a.gun, 150))
     gunici = _gunici_ayir(a.gunici)
-    endeks, hisse, eksik = veri_yukle(bas, son, a.ham, a.kaydet)
+    endeks, hisse, eksik, bilgi = veri_yukle(bas, son, a.ham, a.kaydet)
     P = panel_kur(endeks, hisse, son)
     H = hisse_sinyal(P)
     idx = P['idx'].copy()
@@ -471,7 +527,7 @@ def main(argv=None):
             print('UYARI: seans bitmeden alınan bugünkü veri kesin değildir; 18:10 sonrası yeniden çalıştırın.')
         if (pd.Timestamp(bugun.date()) - ts).days > 4:
             print('UYARI: veri 4 günden eski görünüyor.')
-    T = yazdir(P, E, H, t, ts, gunici, eksik, a.gecmis)
+    T = yazdir(P, E, H, t, ts, gunici, eksik, a.gecmis, bilgi)
     if a.csv:
         T.to_csv(a.csv, index=False)
         print('CSV yazıldı:', a.csv)
