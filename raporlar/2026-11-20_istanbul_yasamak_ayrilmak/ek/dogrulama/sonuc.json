@@ -1,0 +1,643 @@
+[
+ {
+  "id": "K31-01",
+  "sonuc": "kısmen",
+  "gordugum": "göremedim",
+  "kanit": "",
+  "duzeltme": "Orhan Veli'nin 'İstanbul'u Dinliyorum' şiiri 'İstanbul'u dinliyorum, gözlerim kapalı' diye başlar; rapor cümlesi (içeriden dinleyen bakış) ölçülü. İlk yayım yeri ve yılı (Varlık 1.6.1947, Karşı 1949) hiçbir kaynakta doğrulanamadı; PDF okunamadı, aramalar da şiiri bir yayına bağlamadı. Raporda yıl verilecekse 'doğrulanmadı' etiketi konmalı.",
+  "parti": 21
+ },
+ {
+  "id": "K31-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "İstanbul'da, Boğaziçi'nde, / Bir fakir Orhan Veli'yim / Veli'nin oğluyum / Tarifsiz kederler içinde.",
+  "duzeltme": "",
+  "parti": 22
+ },
+ {
+  "id": "K31-03",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Sana dün bir tepeden baktım aziz İstanbul! / Görmedim gezmediğim, sevmediğim, hiçbir yer.",
+  "duzeltme": "Dize Yahya Kemal'in 'Bir Tepeden' şiirindendir (Narlı, 8 mısralık). Ancak şair şehri yalnızca uzaktan değil, 'gezmediğim, sevmediğim hiçbir yer' diyerek semtlerini dolaşıp yazar; 'uzaktan bakanlar' genellemesi zorlamadır.",
+  "parti": 22
+ },
+ {
+  "id": "K31-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Hüznün, ferahlığın bizim olsun kışın yazın, / Hiçbir zaman kader bizi senden ayırmasın",
+  "duzeltme": "",
+  "parti": 22
+ },
+ {
+  "id": "K31-07",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Sarmış ufuklarını senin gene inatçı bir duman, beyaz bir karanlık ki, gittikçe artan",
+  "duzeltme": "Fikret'in 'Sis'i İstanbul'u inatçı bir dumana gömer; kaynaklara göre eleştirinin odağı yönetimdir. Ancak 'şehre küsmek çoğu zaman şehre değil iktidara yöneliktir' genellemesi Âlî için doğru (kişisel beklenti), Veysî için değil (halka yönelik); 'çoğu zaman' yerine 'bazen' denmeli. Şiirin yılı doğrulanmadı; makale (Uçan) görülmedi.",
+  "parti": 24
+ },
+ {
+  "id": "K31-09",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Bu şehr-i Sıtanbûl ki bî-misl ü behâdur / Bir sengine yek-pâre Acem mülki fedâdur",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K31-11",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "İstanbul’unsa ‘ahdi yalan bî-vefâsı bol (Aynur; 78 beyitlik manzum mektup, ~1596, Cigalzade Sinan Paşa'ya)",
+  "duzeltme": "Gelibolulu Âlî, deryâ redifli 18 beyitlik 'Kasîde Der-Vasf-ı İstanbul'da şehri över; yaklaşık 1596'da Cigalzade Sinan Paşa'ya yazdığı 78 beyitlik manzum mektupta ise (özellikle 14-65. beyitler, 'bol' redifi) işsiz ve karamsar olduğu için kıtlık, veba, ehil doktorsuzluk ve vefasızlıktan yakınır. Yergi bir kaside değil manzum mektuptur.",
+  "kanit_notu": "",
+  "parti": 24
+ },
+ {
+  "id": "K31-12",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Sitanbul kavminün zulm u fesâdı hadden aşmışdur / Budur korkum yakınlarda irişe bir belâ nâ-gâh",
+  "duzeltme": "Veysî'nin Günay Kut'un yayımladığı, Divan'ında bulunmayan 67 beyitlik 'Allah' redifli kasidesi İstanbul'un yöneticilerini ve halkını kıyasıya eleştirir, ilahi kahrı hatırlatır. 'Divan şiirinin en sert İstanbul yergisi' ifadesi kaynakta yok (Aynur yalnızca 'kıyasıya eleştirdiği' der); raporda kullanılmasın.",
+  "parti": 24
+ },
+ {
+  "id": "K31-13",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "The City ... written in August 1894 ... published in April 1910 (Wikipedia)",
+  "duzeltme": "Kavafis'in 'Şehir' şiiri 1894'te yazıldı, 1910'da yayımlandı. Çapan çevirisindeki 'Bu şehir arkandan gelecektir' dizesinin ve s. 32 künyesinin birebir sözcükleri doğrudan görülemedi; Kavafis'in İstanbul'daki 1882-85 yılları kaynakta bulunamadı.",
+  "parti": 22
+ },
+ {
+  "id": "K31-14",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "şiirdeki \"Sana taptık ulan / unuttun mu / sana taptık\" ifadeleri gizli bir İstanbul hayranlığının diyalektik ifadesidir",
+  "duzeltme": "",
+  "parti": 22
+ },
+ {
+  "id": "K31-15",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Uzanıp yıldızları tutsa elim / Bulur muyuz yeniden o cenneti?",
+  "duzeltme": "",
+  "parti": 22
+ },
+ {
+  "id": "K31-25",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "İlhan Berk'in İstanbul'u ise, çok kültürlü, çok inançlı tarihsel bir süreçten geçerek modernleşmeye uğrayan vazgeçilmez bir kaostur.",
+  "duzeltme": "\"Vazgeçilmez bir kaos\" İlhan Berk'in sözü değil, Narlı'nın Berk'in şiirleri için sonuç yargısıdır; cümle 'Narlı'ya göre İlhan Berk için şehir vazgeçilmez bir kaostur' biçiminde yazılmalı.",
+  "parti": 22
+ },
+ {
+  "id": "K31-26",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "olumsuzlukları ile dahi yaşanılmak ve görmek istenilen bir şehir olarak tasvir edilir",
+  "duzeltme": "",
+  "parti": 22
+ },
+ {
+  "id": "K32-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "mine, however, requires that I stay in the same city, on the same street, in the same house… Istanbul's fate is my fate: I am attached to this city because it has made me who I am. (Pamuk 2005: 6-7)",
+  "duzeltme": "Not: Pamuk 'ayrılmamayı seçer' yerine daha çok hayal gücünün bunu 'gerektirdiğini' söyler; tablodaki ifade ölçülü sayılabilir, 'gerektirir' demek daha sadıktır.",
+  "parti": 25
+ },
+ {
+  "id": "K32-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The hüzün of Istanbul […] is a way of looking at life that implicates us all, not only a spiritual state, but a state of mind that is ultimately as life affirming as it is negating. (Pamuk 113)",
+  "duzeltme": "Not: Bugeja metni Pamuk'u (s. 113, 233, 222) alıntılıyor; künye, dize ve Avrupalı kök iddiası uyumlu. Rapor cümlesindeki Yerasimos bağlantısı bu kaynakla doğrulanamaz (bu satırın kapsamı dışı).",
+  "parti": 25
+ },
+ {
+  "id": "K32-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "romandaki başrol İstanbul'da",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K32-06",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Aylak Adam 1959 (bibliyografya)",
+  "duzeltme": "Atılgan'ın Aylak Adam'ı (1959) yalnızlık ve yabancılaşma temalı bir romandır; romanın İstanbul'da geçtiği ve kahramanın 'C.' olduğu bu oturumda kaynakta teyit edilemedi, 'kalabalıkta yalnızlık' bir okuma olarak sunulmalıdır.",
+  "parti": 22
+ },
+ {
+  "id": "K32-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "1961 mektup: roman 'İstanbul'un Taşı Toprağı' adıyla Cumhuriyet'te tefrika edilir; Varlık Yayınları 1962; film 1964",
+  "duzeltme": "",
+  "parti": 22
+ },
+ {
+  "id": "K32-08",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "",
+  "duzeltme": "Latife Tekin'in Berci Kristin Çöp Masalları (1984), geniş çöp sahaları ile sanayi bölgesi arasında kurulan bir gecekondu mahallesini anlatır; kentin adı metinde geçmez, İstanbul olduğu yorumdur.",
+  "parti": 22
+ },
+ {
+  "id": "K32-09",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Pamuk's treatment of Istanbul's evolution into a noisy, corrupt, and modernized city",
+  "duzeltme": "",
+  "parti": 22
+ },
+ {
+  "id": "K32-11",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Wikipedia: first published 1980; arama özeti: 'about halfway through, the narrator is in Paris, enduring a persistent nostalgia for Istanbul'",
+  "duzeltme": "Tezer Özlü, 'Çocukluğun Soğuk Geceleri' (1980): anlatıcı romanın ortasında Paris'te İstanbul'a duyduğu süregelen özlemi yaşar; sahneler İstanbul, Paris, Berlin ve Ankara arasında gidip gelir. 'Dönünce bunalan' kısmı görülmedi; 'Paris'te İstanbul'u özleyen anlatıcı' demek yeter.",
+  "parti": 21
+ },
+ {
+  "id": "K32-12",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Published in 1999 ... won the Yunus Nadi Novel Award in 2000; Jewish family in Istanbul from the 1920s to the 1980s; died Jan. 31.",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K32-14",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "I always think about it through the small things, like the taste of street food and the smell of coffee.",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K32-15",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "Weil: Brodsky as a traveler 'resolutely does not perceive Istanbul' (arama özeti; 1985, Less Than One)",
+  "duzeltme": "Brodsky'nin 'Flight from Byzantium' (1985, Less Than One) denemesi İstanbul'u Konstantin ve 'İkinci Roma' üzerinden düşünür; bir eleştirmen (P. Weil) onun şehri 'kararlılıkla algılamadığını' söyler, yani tepki düşmanlıktan çok ilgisizliktir. 'Üç günlük ziyaret' ve 'baştan sona düşman' ifadeleri doğrulanamadı; 'taramada şehre düşman tek metin' genellemesi raporda yumuşatılmalı veya 'doğrulanmadı' denmeli.",
+  "parti": 24
+ },
+ {
+  "id": "K32-16",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "One sees one's country better from a distance… from another place, from another country. (Lit Hub sayfasında yok; arama sonuçlarında Pakay filmine atfedilmiş)",
+  "duzeltme": "Baldwin, Sedat Pakay'ın İstanbul'da çekilen kısa filminde (James Baldwin: From Another Place; çekim 1970, gösterim çoğu kaynakta 1973) ülkesini uzaktan daha iyi gördüğünü söyler. Lit Hub 'Türkiye hayatımı kurtardı' ve 'insan olmaya çalışmak'ı yalnızca dolaylı aktarır; dize birebir alıntı olarak değil aktarım olarak verilmeli.",
+  "parti": 24
+ },
+ {
+  "id": "K32-18",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The city is divided between Fatih, which represents conservative Eastern life, and Harbiye, which symbolizes Westernization.",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K33-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Reflective nostalgia, while grounded in longing, contemplating, and remembering, does not attempt to restore the past.",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K33-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Homesickness can also be 'sickness of home.'",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K33-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Exile is strangely compelling to think about but terrible to experience.",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K33-04",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "1925 story led to trial before the Ankara İstiklâl Mahkemesi; three years exile to Bodrum; returned in 1928 by own wish; lived until 1947.",
+  "duzeltme": "Halikarnas Balıkçısı 1925'te yazdığı bir öykü yüzünden Ankara İstiklal Mahkemesi'nde yargılandı (İstanbul değil), Bodrum'a sürüldü; 1928'de kendi isteğiyle Bodrum'a döndü ve 1947'ye kadar kaldı. Mavi Sürgün 1961 anı kitabı doğru. Rapor cümlesi ('Sürgün yeri bile yurt olabiliyor') ölçülü.",
+  "parti": 23
+ },
+ {
+  "id": "K33-05",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "He died of bone cancer on 13 October 1973 in İzmir ... buried in Bodrum",
+  "duzeltme": "Halikarnas Balıkçısı üç yıllık cezanın yarısını Bodrum'da geçirdi, kalan kısmını İstanbul'da; sonra Bodrum'a dönüp yaklaşık 25 yıl yaşadı, çocuklar ortaokul çağına gelince İzmir'e taşındı, 13 Ekim 1973'te İzmir'de öldü, Bodrum'a gömüldü. 'Zorla gönderildiği yere bağlanan ve ömrünün sonunu İzmir'de geçiren bir İstanbullu' demek yerine 'Bodrum'a sürgün edilip oraya bağlanan, sonra İzmir'e taşınan' denmeli; Mavi Sürgün 1961 tarihli kendi yaşam öyküsüdür.",
+  "parti": 22
+ },
+ {
+  "id": "K33-06",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "Gurbet Hikayeleri published in 1940, short story book; Sürgün novel 1941; Sinop exile 1913; returned after 1938 amnesty after roughly sixteen years.",
+  "duzeltme": "Yıl (1940), 1913 Sinop sürgünü ve 1938 affı doğrulandı. Kitabın 'vatan ve dil özlemi' içeriği ve 17 öykü sayısı kaynakta görülmedi; 1922'de 150'likler listesine girme tarihi de sayfada yok (yalnızca 1922'de ayrıldığı yazıyor). Rapor cümlesi 'Sürgün yıllarından doğan gurbet öyküleri' gibi daha genel tutulmalı.",
+  "parti": 23
+ },
+ {
+  "id": "K33-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Citizenship revoked 25 July 1951; died 3 June 1963 in Moscow; restored 10 January 2009 (Wikipedia en)",
+  "duzeltme": "",
+  "parti": 21
+ },
+ {
+  "id": "K33-09",
+  "sonuc": "erişilemedi",
+  "gordugum": "göremedim",
+  "kanit": "",
+  "duzeltme": "Bianet sayfası ve Akar-Demir künyesi bu turda açılmadı; 1964 sürgünü sayısı ve yayınevi doğrulanamadı.",
+  "parti": 21
+ },
+ {
+  "id": "K33-10",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Sürgün edilişinden 15 yıl sonra Atina'da ziyaret edebilmiş onu. Evinin tüm duvarları İstanbul resimleriyle kaplıymış.",
+  "duzeltme": "Tanıklık doğru (Nilay Vardar, bianet; anlatan yeğen, 20 kilo ve 20 dolar). Ancak 'Sürgün yeri bile yurt olabiliyor [K33-10]' cümlesini bu kaynak desteklemiyor; tersine adam sürgün yerinde de İstanbul'la yaşıyor. Şöyle yaz: 'Atina'ya sürülen bir ressam, evini İstanbul resimleriyle kapladı; yeni yer onun için yurt olmadı.'",
+  "parti": 21
+ },
+ {
+  "id": "K33-11",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "most of Fanis's family was deported in 1964 ... Fanis and his parents were deported to Athens",
+  "duzeltme": "Film 2003 yapımı; Boulmetis 1957 İstanbul doğumlu, ailesi 1964'te Yunanistan'a gönderildi. Fanis'in dönüşü Vikipedi'de 'üç on yıl sonra' geçer ('35 yıl' görülmedi). Film Yunanistan'ın Oscar adayı değil, Oscar'a gönderdiği film (başvurusu) olarak yazılmalı; adaylık görülmedi.",
+  "parti": 22
+ },
+ {
+  "id": "K33-15",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Aras Yayıncılık published a revised edition of the 1993 Tarih Vakfı Yurt Yayınları original (CNN Türk içeriği); Beşiktaş ve Hisar fırınları",
+  "duzeltme": "",
+  "parti": 21
+ },
+ {
+  "id": "K33-20",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "born 25 April 1929 ... died 8 October 2016; since he considered Levantine an environment issue, with the change of Beyoğlu that identity was over (Taoussi, Levantine Heritage)",
+  "duzeltme": "Scognamillo 1929-2016; kitabın ilk basımı 1991 (kaynaklar 1990, 2000 ve 2002 genişletilmiş baskı arasında çelişir). 'Levanten kimliğinin bittiği' yorumu Giorgia Taoussi'nin aktardığı bir değerlendirmedir, Scognamillo'nun doğrudan sözü olarak sunulmamalı.",
+  "parti": 22
+ },
+ {
+  "id": "K34-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "the roots of our hüzün are European (Pamuk 233); Gautier, Nerval, Flaubert and various others",
+  "duzeltme": "Not: Bugeja bu zinciri Tanpınar üzerinden Nerval ve Gautier'e bağlıyor; Flaubert ve Melling de aynı kuşakta anılıyor. Rapor cümlesinin Hisar, Koçu, Dıranas ve Erol kısımları bu kaynakla doğrulanmadı.",
+  "parti": 25
+ },
+ {
+  "id": "K34-04",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "I show how he constructs and naturalizes this association between Istanbul, melancholy, and loss of empire by creating a literary genealogy for his claim.",
+  "duzeltme": "Soy ağacını kuran Pamuk'tur, 'bu yazarlar' değil. Şöyle yaz: 'Sibel Erol'a göre Pamuk, hüzün ile İstanbul arasındaki bağı kendi seçtiği edebi soy ağacıyla doğal göstermiştir; bu bağ yazarak kurulmuştur.' Künye doğru: IJMES 43(4), Kasım 2011, s. 655-676.",
+  "parti": 21
+ },
+ {
+  "id": "K34-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "a collection of essays on the cities of Erzurum, Konya, Istanbul, Bursa and Ankara (1946)",
+  "duzeltme": "",
+  "parti": 22
+ },
+ {
+  "id": "K34-06",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Boğaziçi Mehtapları 1942, Boğaziçi Yalıları 1954, Geçmiş Zaman Köşkleri 1956; 'kaybolmuş çocukluk cennetinin'.",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K34-07",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "the first fascicle appeared in November 1944; reached letter G, ending with Gökçınar in fascicle 173 in late 1973.",
+  "duzeltme": "Koçu'nun İstanbul Ansiklopedisi Kasım 1944'te başladı, 1973'te G harfinde (Gökçınar maddesi) kaldı ve tamamlanamadı. '11 cilt' TDV sayfasında yok (173 fasikül yazıyor); sayı doğrulanmadı, raporda yer verilmemeli ya da 'yarım kaldı' denmeli.",
+  "parti": 23
+ },
+ {
+  "id": "K34-09",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Bu yazı ilk olarak İstanbul dergisinin Temmuz 1999'da çıkan otuzuncu sayısında yayımlanmıştır.",
+  "duzeltme": "Yerasimos'un deneme (1999), Pamuk'un çizdiği Beyoğlu haritasına bir nazire ve kendi çocukluk haritasıdır; Pamuk'un 2003 tarihli 'İstanbul: Hatıralar ve Şehir' kitabından önce yazıldığı için onun 'karşı metni' denemez. Cümle 'Yerasimos, Pamuk'un İstanbul haritasına bir Rum çocuğunun haritasıyla karşılık verir' biçiminde düzeltilmeli.",
+  "parti": 22
+ },
+ {
+  "id": "K34-11",
+  "sonuc": "kısmen",
+  "gordugum": "göremedim",
+  "kanit": "",
+  "duzeltme": "İçindekiler PDF'i taranmış görüntü olduğu için okunamadı; Öncü bölümünün künyesi doğrulanmadı. Rapor cümlesi 'Gerçek İstanbullu kim tartışması bu yüzden hiç bitmedi' kaynağın söylemediği nedensellik kuruyor; 'Ayşe Öncü, orta sınıf İstanbullular ile 'ötekiler' ayrımını inceler' diye daralt.",
+  "parti": 21
+ },
+ {
+  "id": "K34-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Open Library: İstanbul'a bir kent kondu Ümraniye, 1. baskı 1996, İletişim; Ümraniye squatter district field study.",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K34-14",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "İstanbul'un yüz ölçümünün yüzde 95'ini ve toplam nüfusun yüzde 90'ını içeren \"çeper\"lere odaklanıyor.",
+  "duzeltme": "",
+  "parti": 21
+ },
+ {
+  "id": "K34-15",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "2023 sonu itibarıyla İstanbul'da yaşayanların 2 milyon 152 bin 878'inin kütüğü de İstanbul.",
+  "duzeltme": "Sayılar (15.655.924 ve 2.152.878) CNN Türk'te doğru; TÜİK tablosu görülmedi. 'Yaklaşık yedide biri' (%13,8) uyumlu. Ancak başlık 'İstanbullu olunur, doğulmaz' kütüğü doğum yeriyle karıştırır; 'nüfus kütüğü' memleket kaydıdır, doğum yeri değil. Başlığı yumuşat.",
+  "parti": 21
+ },
+ {
+  "id": "K34-17",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Kolay değil ama köklü kararlar alarak yola düşmeyi de bilmeli insan.",
+  "duzeltme": "Yazı Hüseyin Şengül'ün, 6 Eylül 2025 (doğru). Yazar plansız, rant odaklı yapılaşmayı eleştirir, ayrılmanın düşünülebileceğini söyler ama bireylerin sorumluluğunu da vurgular. 'Gitmek imkân işi' ifadesi kaynakta görülmedi; çıkarılsın ya da 'doğrulanmadı' denilsin.",
+  "parti": 21
+ },
+ {
+  "id": "K34-18",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Ne olursa olsun bu kentten gitmeyi kafaya koydunuz.",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K34-20",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "İzmir ... ağırlıklı olarak \"alternatif yaşam tarzı\" ... ve \"yüksek yaşam kalitesi\" sunan bir kent olarak yer etmiştir",
+  "duzeltme": "",
+  "parti": 22
+ },
+ {
+  "id": "K35-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Uzak competed at Cannes in 2003; won the Grand Prix and a Best Actor award, shared (ex-aequo).",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K35-02",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Halit Refiğ, 12 April 1964; Golden Orange Best Film 1964",
+  "duzeltme": "Film Halit Refiğ'in (1964), Orhan Kemal romanından; Kahramanmaraş ayrıntısı Vikipedi'de yok. Rapordaki 'geliş ve tutunma' satırı makul, ancak 'kente göçü ele alan ilk örnek' sıfatı ve festival adı doğrulanmadı.",
+  "parti": 22
+ },
+ {
+  "id": "K35-03",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Gelin (1973), Düğün (1974), Diyet (1975) (bianet, Akad üçlemesi)",
+  "duzeltme": "Akad'ın Göç Üçlemesi Gelin (1973), Düğün (1974) ve Diyet (1975) filmlerinden oluşur; rapordaki '1973–74' yerine '1973–75' yazılmalı. Satırdaki '1973/1973/1974' künyesi hatalı.",
+  "parti": 21
+ },
+ {
+  "id": "K35-06",
+  "sonuc": "erişilemedi",
+  "gordugum": "göremedim",
+  "kanit": "",
+  "duzeltme": "Issız Adam (2008, Çağan Irmak) künyesini bu oturumda açıp doğrulamadım; 'kalabalıkta bağsızlık' yorumu da görülmedi.",
+  "parti": 23
+ },
+ {
+  "id": "K35-09",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Sibel promises to wait for Cahit, but she moves to Istanbul to stay with her cousin Selma. Her life there deteriorates.",
+  "duzeltme": "Duvara Karşı'da (2004, Fatih Akın, Altın Ayı) Sibel Cahit'i bekleyeceğini söyler ama İstanbul'a kuzenine gider; orada hayatı kötüleşir. Cahit çıkınca onu bulur, Sibel kızı ve kocasıyla yaşamaktadır; birlikte kaçmaya karar verirler ama Sibel gelmez, film Cahit'in Mersin'e giden otobüsüyle biter. İstanbul bu yüzden hem sığınak hem tehlikeli bir yerdir. Kopuş Sibel'in evde kalma kararıdır, bunu şehrin kararı gibi okumak yoruma dayanır.",
+  "parti": 23
+ },
+ {
+  "id": "K35-11",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Ekümenopolis ... director İmre Azem; screening cancelled at the last minute in Enez (Bianet)",
+  "duzeltme": "",
+  "parti": 21
+ },
+ {
+  "id": "K35-12",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "human Istanbulites reflect on their complex but loving relationships with the city's feline inhabitants",
+  "duzeltme": "Kedi (2016, Ceyda Torun) künyesi doğru. Hyperallergic yazısının gövdesi açılamadı (yalnızca başlık 'sevimli ama pençesiz'); 'şehir romantik dekor, siyaset arada girer' sözünü o yazıya atfetmek doğrulanmadı. Başka eleştirmenler filmin siyasi gerçeklikten uzak, idealize edici olduğunu yazıyor; rapor 'bazı eleştirmenlere göre fazla romantik' diye yazılmalı.",
+  "parti": 23
+ },
+ {
+  "id": "K35-13",
+  "sonuc": "kısmen",
+  "gordugum": "göremedim",
+  "kanit": "",
+  "duzeltme": "'Bir Başkadır' (2020, Netflix, yön. Berkun Oya) künyesi bilinen künyeyle uyumlu ama kaynak sayfa açılmadı. Rapor cümlesi 'aynı şehrin farklı sınıflara farklı yerler olduğunu gösterir' İstanbul'a özgü sınıf analizi iddiası taşıyor; satırın kendisi bunu doğrulanmadı diyor. Yumuşat: 'dizi farklı sınıflardan insanların karşılaşmasını anlatır'.",
+  "parti": 21
+ },
+ {
+  "id": "K35-14",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Matilda decides to accept a semi-indentured position in the laundry of the club “rather than a one-way ticket to Israel”",
+  "duzeltme": "Kulüp'te (Netflix, 2021 sonbaharı; yarı-köle benzeri çamaşırhane işi) Matilda kızıyla bağını korumak için İsrail'e gitmek yerine kalmayı seçer. Kalmak zorlanmış bir seçimdir; 'gitmek de zorlanmış' kısmı MERIP'te desteklenmiyor. Netflix tarihi MERIP'te yalnızca 'Fall 2021 and Winter 2022' (iki bölümde).",
+  "parti": 24
+ },
+ {
+  "id": "K35-19",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Ara Güler's Istanbul ... with a forword by Orhan Pamuk (Thames & Hudson arama sonucu; 2009-10-12; 1940'lar-1980'ler)",
+  "duzeltme": "Ara Güler'in İstanbul fotoğrafları (Ara Güler's Istanbul, Thames & Hudson, 2009; önsöz Orhan Pamuk) 1940'lardan 1980'lere uzanan siyah beyaz bir kayıttır; Pamuk 'hüzün'ü anlatırken bu fotoğraflara dayanır. Dönem '1950–60'lar' diye daraltılmasın; 'yaklaşık 200 fotoğraf' bilgisi görülemedi.",
+  "parti": 21
+ },
+ {
+  "id": "K36-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Instead, it came as a slow crushing beneath the scrambled economy, the comatose democracy, and the creeping urban decay.",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K36-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Kalabalığına, hoyratlığına, sıkıntılarına katlanma gücüm kalmamıştı.",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K36-06",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Benim için İstanbul, hayalleri gerçekleştirme sahnesiydi.",
+  "duzeltme": "",
+  "parti": 23
+ },
+ {
+  "id": "K36-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "tam 1 saat 15 dakika; Kuzey Ege'ye kaçmak için gün sayıyorum",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K36-09",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Bu hayat yaşamaya değer, köle olmaya değil.",
+  "duzeltme": "",
+  "parti": 21
+ },
+ {
+  "id": "K36-10",
+  "sonuc": "yanlış",
+  "gordugum": "tam metin",
+  "kanit": "İstanbul'da herkes çok sinirli. Gergin. (Ceyhun Yazıcı'ya ait; İzmir'den İş için İstanbul'a taşınan biri)",
+  "duzeltme": "Cumhuriyet'te Günel Cantak'ın 11 Mayıs 2015 tarihli haberinde bu söz, İstanbul'dan dönen biri değil, işi için İzmir'den İstanbul'a taşınan Ceyhun Yazıcı'ya aittir. İstanbul'dan İzmir'e göç 16.458 kişi (TÜİK 2014) olarak doğru; 5-10 yıl sonra dönme isteği ise İK danışmanı Ekin Yazıcı'dan gelir. Orkun Bayar'a atfedilen ayrıntılar haberde bu söze bağlı değildir.",
+  "parti": 22
+ },
+ {
+  "id": "K36-14",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "I don't live in Istanbul anymore. Istanbul is no longer my home.",
+  "duzeltme": "Wessels, 2016 darbe girişimi sonrası akademik baskı ve belirsizlik içinde eşiyle birlikte dönmeye 'karar verdiğini' yazar ve kararın doğruluğundan emin olmadığını söyler. Bu nedenle ayrılık 'seçilmemiş' değil, baskı altında alınmış ama kendi kararıdır; 'artık evim değil' sözü doğrudur.",
+  "parti": 24
+ },
+ {
+  "id": "K36-22",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "1967, in The Saturday Evening Post, original title 'Farewell to the Enchanted City'; book 1968.",
+  "duzeltme": "Künye: Didion'un 'Goodbye to All That' denemesi önce 1967'de Saturday Evening Post'ta 'Farewell to the Enchanted City' adıyla çıktı, 1968'de Slouching Towards Bethlehem'e girdi. '23 Eylül 1967' tarihi hiçbir kaynakta doğrulanmadı (bir blog 4 Ocak 1967 veriyor); gün verilmemeli. Rapor cümlesindeki 'çoğu zaman şehir değil, orada genç olan insandır' tek denemeden genelleme; 'Didion için New York'a veda, büyük ölçüde orada genç olan kendine vedaydı' denmeli. Metin görülmedi.",
+  "parti": 23
+ },
+ {
+  "id": "K36-24",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "a more accurate subtitle might have been “Writers on Loving New York and Wishing They Hadn’t Had to Leave.” (Mason Currey, LARB, 17 Kasım 2013; 28 essays)",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K37-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "no mere city. It was instead an infinitely romantic notion, the mysterious nexus of all love and money and power, the shining and perishable dream itself.",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K37-02",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "It is easy to see the beginnings of things, and harder to see the ends. (denemenin açılışı; arama sonucu)",
+  "duzeltme": "'I was in love with New York.' denemenin ilk cümlesi değil; Marginalian bunu tartışmasının açılışında anar. Denemenin ilk cümlesi 'It is easy to see the beginnings of things, and harder to see the ends.' Rapordaki 'deneme şu cümleyle anılır' ifadesi doğru kalır.",
+  "parti": 24
+ },
+ {
+  "id": "K37-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The psychological basis of the metropolitan type of individuality consists in the intensification of nervous stimulation",
+  "duzeltme": "",
+  "parti": 21
+ },
+ {
+  "id": "K37-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The essence of the blasé attitude consists in the blunting of discrimination",
+  "duzeltme": "",
+  "parti": 21
+ },
+ {
+  "id": "K37-05",
+  "sonuc": "erişilemedi",
+  "gordugum": "göremedim",
+  "kanit": "",
+  "duzeltme": "Fathom Away sayfasını açmadım; alıntı ve 1949 yılı bu oturumda görülmedi. Eser ve alıntı bilinen bir metin, ama 'doğrulanmadı' etiketi kalmalı.",
+  "parti": 23
+ },
+ {
+  "id": "K37-17",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Sevmek, bir insanı sevmekle başlar her şey. (tr.wikipedia Alemdağ'da Var Bir Yılan sayfası; kitap Mart 1954)",
+  "duzeltme": "'Yalnızlık dünyayı doldurmuş' dizgesi hiçbir kaynakta birebir doğrulanamadı (bir kaynakta 'doldurur'); Goodreads/1000kitap gibi derlemeler birbirinden kopya. Raporda doğrudan tırnak yerine şöyle yazılsın: Sait Faik'in yalnızlık temalı, 'Bir insanı sevmekle başlar her şey' cümlesiyle anılan öyküleri kalabalık şehrin ortasında yalnızlığı anlatır; alıntının metni doğrulanmadı.",
+  "parti": 21
+ },
+ {
+  "id": "K38-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Bu Sabah Yağmur Var İstanbul'da, MFÖ 1984, Ele Güne Karşı Yapayalnız albümünde (arama); Pera Palace: rainy Istanbul day, lover's sadness",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K38-06",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Kalamış is famous for its lyrics by Behçet Kemal Çağlar and the composition by Münir Nurettin Selçuk.",
+  "duzeltme": "Künye (söz Çağlar, beste Selçuk) ve MFÖ'nün 'Bu Sabah Yağmur Var İstanbul'da' şarkısının 1984 (Ele Güne Karşı Yapayalnız) tarihi doğrulandı. Kalamış'ın dizesi görülmedi; 'semt güzellemesi' ve 'tatlı huzur' nitelemesi doğrulanmadı (bir kayıtta şarkı 'Bir Özlemdir (Kalamış)' adıyla geçiyor, ton özlem olabilir). Selçuk'un Kalamış'ta yaşadığı ve sokak adı yalnızca Ekşi Sözlük'te var; ayrıca yıl bulunamadı. Rapor cümlesi 'Semt güzellemesi' yerine 'Kalamış'a duyulan sevgi ve özlem' gibi daha ölçülü yazılmalı.",
+  "parti": 23
+ },
+ {
+  "id": "K38-10",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Erol Sayan'ın rast makamındaki ünlü eseridir",
+  "duzeltme": "",
+  "parti": 24
+ },
+ {
+  "id": "K38-14",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "songs about separation caused by events in Anatolia ... 'an insurmountable obstacle that separates the lovers' (CEEOL özeti)",
+  "duzeltme": "Makale (F. Gülay Mirzaoğlu, Folklor/Edebiyat 100, 2019, s. 849-859, başlığı 'Yârim İstanbul'u Mesken mi Tuttun') İstanbul'u sevgi türkülerinde sevgiyle, Anadolu'daki olaylardan doğan ayrılık türkülerinde ise sevgilileri ayıran aşılmaz engel olarak anlatır. 'Bu türkülerde İstanbul engeldir' genellemesi bu ayrılık türküleriyle sınırlansın.",
+  "parti": 21
+ }
+]
