@@ -21,7 +21,7 @@
 
 1. **Özlemi ikiye ayır** (kuramsal). "İstanbul'u özlüyorum" ile "İzmir'de zorlanıyorum" ayrı yükler [K04-02]. Birincisi İstanbul'la bağı sürdürerek, ikincisi İzmir'de düzen kurarak hafifler. Hangisinin ağır bastığını birkaç gün not et.
 2. **Özlemle kavga etme** (kanıt güçlü, aktarım zayıf). Yurt dışından dönen 1.485 lise çağı öğrencide durumu kabullenenlerde stres daha düşük, kaçınanlarda daha yüksekti [K05-04]. Özlem bir arıza değil, değer verdiğin bir hayatın izi.
-3. **Uyarı işaretlerini bil.** İki haftadır çoğu gün çökkünsen, hiçbir şeyden keyif almıyorsan ya da işini yapamıyorsan değerlendirme iste; bu tek başına tanı değildir [K11-04]. Daha önce depresyon ya da kaygı bozukluğu geçirdiysen eşiği düşük tut: yoğun özlem bunları ağırlaştırabiliyor [K04-18]. Kendine zarar verme düşüncesi varsa süre bekleme, aynı gün başvur; bir planın varsa ya da güvende değilsen 112.
+3. **Uyarı işaretlerini bil.** İki haftadır çoğu gün çökkünsen, hiçbir şeyden keyif almıyorsan ya da işini yapamıyorsan değerlendirme iste; bu tek başına tanı değildir [K11-04]. Daha önce depresyon ya da kaygı bozukluğu geçirdiysen eşiği düşük tut: üniversite öğrencileri üzerine bir derlemeye göre yoğun özlem bunları ağırlaştırabiliyor [K04-18]. Kendine zarar verme düşüncesi varsa süre bekleme, aynı gün başvur; bir planın varsa ya da güvende değilsen 112.
 
 **İlk aylar**
 
@@ -143,7 +143,7 @@ Senin durumuna iki not. İş nedeniyle taşınanlarda kişi eski yerinde ne kada
 
 ### 6. Geri dönmek ve "kalsam mı dönsem mi"
 
-**İzmir senin için bir dönüşse.** Yurt dışından dönen 1.319 lise çağı değişim öğrencisi ortalamada beklediğinden iyi uyum bildirdi. Belirleyici olan, beklentiyle gerçek arasındaki farkın yönüydü: beklenenden kötü geçen dönüşte stres daha yüksek, yaşam memnuniyeti daha düşüktü [K05-01, K05-02]. Yazarlar bulgunun yetişkin göçmenlere genellenmesinin belirsiz olduğunu belirtiyor [K05-03]. Daha önce yaşadığı ülkeye giden yurt dışı görevlileri daha yüksek uyumla başladı, ama daha yavaş ilerledi [K06-12]; tanıdık bir yere dönmek ilk günleri kolaylaştırıp sonrası için bir şey vaat etmeyebilir.
+**İzmir senin için bir dönüşse.** Yurt dışından dönen 1.319 lise çağı değişim öğrencisi ortalamada beklediğinden iyi uyum bildirdi. Belirleyici olan, beklentiyle gerçek arasındaki farkın yönüydü: beklenenden kötü geçen dönüşte stres daha yüksek, yaşam memnuniyeti daha düşüktü [K05-01, K05-02]. Yazarlar bulgunun yetişkin göçmenlere genellenmesinin belirsiz olduğunu belirtiyor [K05-03]. Daha önce çalıştığı ülkeye giden yurt dışı görevlileri işe uyumda daha yüksek başladı, ama daha yavaş ilerledi [K06-12]; tanıdık bir yere dönmek ilk günleri kolaylaştırıp sonrası için bir şey vaat etmeyebilir.
 
 Ülke içi dönüşte psikolojik uyumu ölçen sayısal çalışma bulunamadı; eldeki çalışmalar neden dönüldüğünü soruyor ve yanıt çoğunlukla aile ile sosyal bağlar [K05-17]. Bazı dönenler bölgeden "zihnen hiç ayrılmamış" [K05-21]. Senin anlattığın bunun tersi: bağın çözülmüş olduğu bir dönüş. Bu grubu ayrıca inceleyen çalışma yok. Böyle bir durumda İzmir'i eski bir memleket gibi değil, yeni bir şehir gibi ele almak daha gerçekçi olabilir (çıkarım benim): beklenti düşer, hayal kırıklığı riski azalır.
 
@@ -159,7 +159,7 @@ Senin durumuna iki not. İş nedeniyle taşınanlarda kişi eski yerinde ne kada
 
 "Taşınma depresyonu" resmî bir tanı değil. En yakın tanı uyum bozukluğu: belirli bir stres kaynağına verilen, beklenenden ağır ve günlük işlevi bozan tepki. ABD'nin tanı kılavuzuna (DSM-5) göre belirtiler stres kaynağından sonraki üç ay içinde başlar ve kaynak ortadan kalktıktan sonra altı ayı aşmaz [K11-01]. Dünya Sağlık Örgütü'nün kılavuzuna (ICD-11) göre bir ay içinde başlar; çekirdek belirtiler olayla aşırı zihinsel meşguliyet ve uyum sağlayamamadır [K11-02]. Taşınmada stres kaynağı ortadan kalkmaz; kaynak sürdükçe belirtiler de altı ayı aşabilir. Belirtiler başka bir bozukluğun ölçütlerini karşılıyorsa tanı değişir [K11-03]. Depresyon tanısı için belirtilerin günün çoğunda, neredeyse her gün, en az iki hafta sürmesi gerekir [K11-04]. Tanıyı yalnızca hekim koyar.
 
-**Ne kadar sık?** Taşınanlar için doğrudan veri yok. Uyum bozukluğunun genel nüfustaki yaygınlığı yaklaşık yüzde 2 [K11-05]. İşini istemeden yitiren, seçilmiş 105 kişilik bir grupta oran ilk ölçümde yüzde 21,9, altı ay sonra yüzde 6,7, on iki ay sonra yüzde 2,9'du [K11-08]. Taşınmadan çok daha ağır olaylardan sonra bile en sık görülen seyir dirençlilik: ortalama yüzde 65,7 [K11-21]. Öte yandan uyum bozukluğu azımsanmayacak oranda daha ağır tablolara dönüşebiliyor [K11-07] ve intihar girişimi riski artmış [K11-06]; "hafif" diye geçiştirilmemeli.
+**Ne kadar sık?** Taşınanlar için doğrudan veri yok. Uyum bozukluğunun genel nüfustaki yaygınlığı yaklaşık yüzde 2 [K11-05]. İşini istemeden yitiren, seçilmiş 105 kişilik bir grupta oran ilk ölçümde yüzde 21,9, altı ay sonra yüzde 6,7, on iki ay sonra yüzde 2,9'du [K11-08]. Taşınmadan çok daha ağır olaylardan sonra bile en sık görülen seyir dirençlilik: ortalama yüzde 65,7 [K11-21]. Öte yandan uyum bozukluğu azımsanmayacak oranda daha ağır tablolara dönüşebiliyor [K11-07] ve bir klinik el kitabına göre intihar girişimi riski artmış [K11-06]; "hafif" diye geçiştirilmemeli.
 
 **İlişki iki yönlü.** Yeni Zelanda'da 44.051 yetişkinin sekiz yıllık izleminde taşınma olasılığı arttıkça depresyon ve kaygı daha yaygın; ama ruh sağlığı kötü olanlar da daha çok taşınıyor [K11-14]. İngiltere'de sonradan daha kötü ruh sağlığı iki grupta görüldü: istemeden taşınanlar ve taşınmak isteyip taşınamayanlar [K11-16]. Taşınma iyileştirebilir de: ABD'de çok yoksul mahallelerde yaşayan düşük gelirli ailelerle yapılan deneyde, daha az yoksul mahalleye taşınma teklifi yetişkinlerin iyilik hâlini küçük ölçüde artırdı [K11-19]. Bu, sıradan bir şehir değişikliğine doğrudan genellenemez.
 
@@ -278,7 +278,13 @@ Yön bulma öğreniliyor ve beyinde iz bırakıyor: Londra'da dört yıl izlenen
 
 **Doğrulama kapsamı**
 
-<!--DOGRULAMA-->
+- Raporda kullanılan 247 defter satırının tamamı, gösterdiği kaynağa bakılarak 14 doğrulayıcı tarafından denetlendi: 184'ü doğrulandı, 63'ünde ifade düzeltildi. Kaynağın tersini söyleyen satır çıkmadı. Satırların 107'si tam metinden, 105'i özetten, 34'ü aynı çalışmanın başka bir kopyasından ya da ikincil kaynaktan görüldü.
+- "İfade düzeltildi" şu demek: sayı ve alıntı kaynakta var, ama ilk taslaktaki cümlem kaynağın söylediğinden ileri gidiyordu (tek çalışmayı genellemek, ilişkiyi neden gibi yazmak, örneklemin kısıtını atlamak). Bu 63 cümlenin hepsi yeniden yazıldı.
+- En önemli beş düzeltme: (1) taşınan çiftler çalışmasında katılımcıların yaklaşık yüzde 30'u başka ülkeye taşınmış; "ülke içi veri" değil. (2) Almanya'daki artış "küçük" değil, belirgin ve kalıcı. (3) "Balayı evresi yok" yerine "tek tip eğri desteklenmiyor". (4) İstanbul–İzmir sayıları geri dönüş değil, iki yönlü göç. (5) İl düzeyindeki mutluluk oranlarının yılı belirsiz; tablodan çıkarıldı.
+- Kaynağına ulaşılamayan bir satır (göçmenlerde bağın işlevselden kimliğe ilerlemesi) rapordan çıkarıldı.
+- İki eleştirmen taslağı okudu: biri yöntem ve sağlık ifadeleri açısından, öteki okur gözüyle. 27 itirazın hepsi tümüyle ya da kısmen işlendi. Sağlıkla ilgili ifadeler (yardım eşiği, tanı süreleri, tedavi) ikinci kontrolden geçti ve yeniden yazıldı.
+- 203 kaynak bağlantısı betikle denetlendi: 142'si açılıyor, 61'i yayıncının otomatik isteği engellemesi (tarayıcıda açılır). Kırık çıkan tek bağlantı makalenin kalıcı adresiyle değiştirildi.
+- Açık kalan: 105 satır yalnızca özet düzeyinde görülebildi (yayıncı duvarları). Özetin vermediği ayrıntılar, örneğin etki büyüklükleri ve alt gruplar, doğrulanmış sayılmaz. Satır satır kararlar `ek/DOGRULAMA.md` dosyasında.
 
 ## Kaynaklar
 
@@ -286,4 +292,10 @@ Yön bulma öğreniliyor ve beyinde iz bırakıyor: Londra'da dört yıl izlenen
 
 ## Devam notu
 
-<!--DEVAM-->
+1. **Bulunan:** Şehir değiştirme ortalamada kalıcı mutsuzluk getirmiyor; asıl yük sosyal çevrenin yeniden kurulması; eski şehre bağlılığın yeni bağı engellediğine dair kanıt yok; gönüllü, ülke içi, şehirden şehre taşınan yetişkinleri izleyen çalışma neredeyse yok.
+2. **Dosyalar:** `RAPOR.md` (bu rapor) · `ek/KONU_OZETLERI.md` (23 konunun ham özetleri) · `ek/Kxx_*.md` (konu başına iddia defteri, çelişen kanıt, açık kalanlar) · `ek/defter.json` (662 satır) · `ek/DOGRULAMA.md` ve `ek/dogrulama/` · `ek/elestiri_yontem.md`, `ek/elestiri_okur.md` · `ek/link_kontrol.csv`.
+3. **Yeniden üretim:** `ek/RAPOR_taslak.md` raporun defter kimlikli kaynağıdır (atıflar köşeli parantez içinde K03-16 biçiminde durur); `python3 ek/rapor_derle.py derle ek/RAPOR_taslak.md ek/defter.json RAPOR.md` numaralı kaynaklara çevirir.
+4. **Açık işler:** tam metni açılamayan üç kaynak (Lewicka 2011 derlemesi, Hall 2018 arkadaşlık saatleri, Neyse 2026 İsveç geri dönüş oranı); TÜİK sayılarının bültenden teyidi; İstanbul'dan İzmir'e taşınıp geri dönenlere dair veri.
+5. **Kişiselleştirme için gereken bilgi:** neden ve kiminle taşındığın, işin (uzaktan mı), taşınalı kaç ay olduğu, İzmir'de tanıdığın olup olmadığı. Bunlarla "Ne yapmalıyım" bölümü daraltılabilir.
+
+*Maliyet özeti: Seviye L+ · 23 üretici (fable) + 14 doğrulayıcı (sonnet) + 2 eleştirmen (fable) + 1 araç testi (haiku) = 40 ajan (onaylanan tavan 42) · 2 üretim dalgası + 1 doğrulama ve eleştiri turu · kontrol noktasını geçen üreticiler: 23'ün 10'u (en çok 50/35; neden: yayıncı erişim duvarları ve son çağrıların yeni bilgi getirmesi; üst sınıra ulaşan yok) · aşılan sınırlar: gövde yaklaşık 5.500 kelime (L sınırı 5.000; L+ kapsamında bırakıldı); ilk dalgada bütün ajanların paylaştığı 200 aramalık sınır doldu, sonraki turlarda ajan başına arama bütçesi yazıldı; ortam iş akışı başına 2 eşzamanlı ajana izin verdiği için dalgalar paralel iş akışlarına bölündü ve ilk iş akışı dört konu bitince durduruldu (iki yinelenen ajan yaklaşık yarım dakika çalıştı).*

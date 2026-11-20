@@ -128,6 +128,14 @@
   "parti": 2
  },
  {
+  "id": "K02-11",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "only work migrants display an improvement in life satisfaction that remains significant 6 or more years following the move; 2820 interviewed in 1999, 1575 re-interviewed in 2009, attrition 44%",
+  "duzeltme": "",
+  "parti": 14
+ },
+ {
   "id": "K02-13",
   "sonuc": "doğrulandı",
   "gordugum": "tam metin",
@@ -337,6 +345,14 @@
   "parti": 5
  },
  {
+  "id": "K04-18",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "It can exacerbate preexisting mood and anxiety disorders, precipitate new mental and physical health problems, and sometimes lead to withdrawal from school.",
+  "duzeltme": "Üniversiteye geçen öğrenciler üzerine bir derlemeye göre yoğun ev özlemi önceden var olan duygudurum ve kaygı bozukluklarını ağırlaştırabiliyor; bu bulgu öğrenci örneğinden gelir, yetişkinlerin şehir değiştirmesine doğrudan aktarılamaz.",
+  "parti": 14
+ },
+ {
   "id": "K04-20",
   "sonuc": "doğrulandı",
   "gordugum": "tam metin",
@@ -490,12 +506,36 @@
   "parti": 3
  },
  {
+  "id": "K06-09",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Bhaskar-Shrinivas et al. (2005) plotted aggregate levels of cultural adjustment for expatriates in 20 studies ... it was flatter and more distended.",
+  "duzeltme": "Bhaskar-Shrinivas ve ark. (2005) 20 çalışmadaki toplu uyum düzeylerini görev süresine karşı çizdi; eğri U'nun bazı özelliklerine uyuyordu ama daha düz ve yayvandı. (66 çalışma / 8.474 görevli sayıları Zhu ve ark. metninde bu meta-analize bağlanmıyor; birincil kaynakta doğrulanmadıkça çıkarılmalı.)",
+  "parti": 14
+ },
+ {
   "id": "K06-11",
   "sonuc": "doğrulandı",
   "gordugum": "tam metin",
   "kanit": "gaining about 0.85 SD (pooled standard deviation) over the first 9 months overseas ... adjustment begins to level off on the average at approximately 6 months",
   "duzeltme": "",
   "parti": 1
+ },
+ {
+  "id": "K06-12",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "previous culture-specific work experience ... intercept (γ = 0.75, p < .05) ... slope (γ = −0.10, p < .05) ... started with a higher initial adjustment ... flatter growth trends",
+  "duzeltme": "Zhu ve ark. (2016): konuk ülkede daha önce çalışmış yurt dışı görevlileri iş uyumunda daha yüksek başladı (γ=0,75) ama iş uyumları daha yavaş arttı (γ=−0,10). Ölçülen şey genel uyum değil iş uyumudur.",
+  "parti": 14
+ },
+ {
+  "id": "K06-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "35% showed an upward linear trend of adjustment, 30% were continuously high, 25% were continuously low or moderate, and only 10% showed a U-curve pattern",
+  "duzeltme": "",
+  "parti": 14
  },
  {
   "id": "K06-15",
@@ -520,6 +560,14 @@
   "kanit": "some rewards declined over time—especially those associated with novelty such as starting a new job and adjusting to a new culture",
   "duzeltme": "Yeniliğe bağlı ödüller (yeni iş, yeni kültüre uyum) zamanla azaldı; yazarlara göre stres düzeyleri genelde orta düzeyde kaldı, ama tablodaki bazı başlangıç ortalamaları (ör. ev bulma 4,72; sosyal bağ kaybı 4,24; 1-7 ölçek) orta noktanın üstünde. Örneklem yalnızca ülke içi değil: taşınanların %29,8'i başka ülkeye, %46'sı başka eyalet/ile, %23,6'sı başka şehre gitti; bu yüzden 'ülke içi taşınmaya en yakın veri' ifadesi abartılı, 'çiftlerin kariyer kaynaklı taşınmasını izleyen veri' denmeli.",
   "parti": 5
+ },
+ {
+  "id": "K06-20",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "there is no positive linear or curvilinear relationship between migrants’ life satisfaction and length of stay; Fig. 1 Note: N = 7044; 17 developed European countries, ESS 2010–2016",
+  "duzeltme": "",
+  "parti": 14
  },
  {
   "id": "K06-21",
@@ -585,6 +633,14 @@
   "kanit": "a lack of meeting opportunities is an important reason why many personal relationships are discontinued ... new relationships more likely to emerge in a specific context if existing network members are already met in that context",
   "duzeltme": "Karşılaşma fırsatının kalkması ilişkilerin bitmesinin önemli nedenlerinden biri; yeni ilişkiler de daha çok, mevcut ağ üyeleriyle zaten tanışılan ortamlarda kuruluyor. ('Çoğunlukla' ve 'başlıca' ifadeleri kaynaktan ileri gidiyor.)",
   "parti": 12
+ },
+ {
+  "id": "K07-06",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "277 studies with 177,635 participants ... both the personal network and the friendship network decreased throughout adulthood, (c) the family network was stable in size",
+  "duzeltme": "",
+  "parti": 14
  },
  {
   "id": "K07-07",
@@ -820,6 +876,22 @@
   "parti": 12
  },
  {
+  "id": "K10-26",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "pace of life varies in a regular fashion with the size of the local population, regardless of the cultural setting (15 cities and towns in six countries)",
+  "duzeltme": "",
+  "parti": 14
+ },
+ {
+  "id": "K10-27",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Milgram adaptasyonları: \"Allocation of less time to each input.\" Eleştiri: \"These studies suggest that Milgram's hypothesis is too general and undifferentiated.\" (McCauley ve Taylor)",
+  "duzeltme": "Milgram'ın aşırı yük kuramına göre kentte insanlar her girdiye daha az zaman ayırarak uyum sağlar. Sonraki bir sınama (McCauley ve Taylor, büyük olasılıkla 1976, 1970 değil) hipotezi fazla genel ve ayrıştırılmamış bulmuş. Bu alıntı verilen URL'de geçmiyor; kaynak McCauley ve Taylor'ın özetidir.",
+  "parti": 14
+ },
+ {
   "id": "K10-29",
   "sonuc": "kısmen",
   "gordugum": "başka kaynak",
@@ -844,6 +916,14 @@
   "parti": 9
  },
  {
+  "id": "K11-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "The symptoms do not meet the criteria for another psychiatric disorder; onset within 3 months of exposure to a stressor; not beyond 6 months after the stressor ends (MSD, Nisan 2026)",
+  "duzeltme": "",
+  "parti": 14
+ },
+ {
   "id": "K11-04",
   "sonuc": "doğrulandı",
   "gordugum": "tam metin",
@@ -866,6 +946,14 @@
   "kanit": "Patients with adjustment disorder also have an increased risk of suicide attempts and completed suicide",
   "duzeltme": "",
   "parti": 9
+ },
+ {
+  "id": "K11-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "AD appears to progress as a milder disorder than do other disorders, but it not uncommonly transitions to more severe mental health states; 31 cohort or randomized controlled trials with a total of 1,385,358 participants; most studies moderate risk of bias",
+  "duzeltme": "",
+  "parti": 14
  },
  {
   "id": "K11-08",
@@ -1933,5 +2021,13 @@
   "kanit": "",
   "duzeltme": "",
   "parti": 12
+ },
+ {
+  "id": "K23-26",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Fully remote employees report significantly higher levels of loneliness (25%) than do those who work exclusively on-site (16%); hybrid workers fall in between at 21%. (19.846 ABD'li çalışan, Şubat 2024)",
+  "duzeltme": "",
+  "parti": 14
  }
 ]

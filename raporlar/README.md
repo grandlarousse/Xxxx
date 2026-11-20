@@ -57,3 +57,18 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# Şehir değiştirme psikolojisi (20.11.2026)
+
+Klasör: `2026-11-20_sehir_degistirme_psikolojisi/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, yeni taşınmış biri için adımlar (kanıt gücü etiketli), 14 bölümlük gerekçe ve kanıt (özlem, sosyal çevre, yer bağlılığı, kimlik, uyum seyri, geri dönüş, ruh sağlığı, büyük şehirden küçüğe, Türkiye ve İstanbul–İzmir, genel resim), emin olunmayanlar, doğrulama kapsamı, 203 kaynak.
+- `ek/KONU_OZETLERI.md`: 23 araştırma konusunun ham özetleri (doğrulama öncesi).
+- `ek/Kxx_*.md`, `ek/defter.json`: Konu başına iddia defteri (662 satır), çelişen kanıt ve açık kalanlar.
+- `ek/DOGRULAMA.md`, `ek/dogrulama/`: Raporda kullanılan 247 satırın doğrulama kararları ve partiler.
+- `ek/elestiri_yontem.md`, `ek/elestiri_okur.md`: İki eleştirmenin itirazları.
+- `ek/RAPOR_taslak.md`, `ek/rapor_derle.py`, `ek/defter_topla.py`, `ek/dogrulama_topla.py`, `ek/link_kontrol.py`, `ek/link_kontrol.csv`: Raporun defter kimlikli kaynağı ve üretim betikleri.
+
+Tıbbi tavsiye değildir.
