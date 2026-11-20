@@ -402,8 +402,8 @@ def yazdir(P, E, H, t, ts, gunici=None, eksik=(), gecmis=0, bilgi=None):
         print('UYARI: son günün endeks kapanışı kesin değil; 18:10 sonrasında yeniden çalıştırın.')
     print(cz)
     print('ENDEKSLER')
-    print(f'  XELKT {tr_(e.XELKT):>10}  günlük {yz(e.rE):>7}  z {tr_(e.zE, 2, True):>6}  (60 g. std {yz(e.sdE)[1:]})')
-    print(f'  XU030 {tr_(e.XU030):>10}  günlük {yz(e.rX):>7}  z {tr_(e.zX, 2, True):>6}  (60 g. std {yz(e.sdX)[1:]})')
+    print(f'  XELKT {tr_(e.XELKT):>10}  günlük {yz(e.rE):>7}  z {tr_(e.zE, 2, True):>6}  (60 g. std %{tr_(100 * e.sdE)})')
+    print(f'  XU030 {tr_(e.XU030):>10}  günlük {yz(e.rX):>7}  z {tr_(e.zX, 2, True):>6}  (60 g. std %{tr_(100 * e.sdX)})')
     print('-' * 74)
     ev = lambda b: 'EVET' if bool(b) else 'HAYIR'
     print(f'S1  XELKT 20 günlük en yüksek kapanış: {ev(e.S1)}')

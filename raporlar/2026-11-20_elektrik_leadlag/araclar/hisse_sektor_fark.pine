@@ -1,0 +1,37 @@
+//@version=5
+// =====================================================================================================
+// UYARI: TradingView'da derlenip test edilmedi; ilk kullanımda sinyal.py çıktısıyla karşılaştırın.
+// =====================================================================================================
+// Hisse − sektör günlük getiri farkı — bir XELKT hissesinin GÜNLÜK (1D) grafiğine eklenir.
+//   fark (puan) = hissenin günlük getirisi (%) − XELKT'nin günlük getirisi (%)
+//   fark <= −5 puan ise "ALMA": sektörden en az 5 puan geride kapanan hisse ertesi gün de sektörün altında kaldı.
+// NOT 1: Araştırmadaki kıyas XELKT endeksi DEĞİL, işlem görebilir XELKT hisselerinin EŞİT AĞIRLIKLI ortalamasıdır.
+//        XELKT piyasa değeri ağırlıklıdır; iki ölçü aynı gün yarım puan ve daha fazla ayrışabilir (20.11.2026:
+//        XELKT −%2,33, eşit ağırlıklı sepet −%1,87). Eşiğe yakın günlerde sinyal.py'nin kaçınma listesi esas alınır.
+// NOT 2: Temettü günlerinde grafik temettüye göre düzeltilmemişse (ADJ kapalı) fark yapay olarak eksi çıkar.
+// NOT 3: Karar kapanışta verilir; seans içinde son çubuk değişir.
+indicator("Hisse − XELKT günlük getiri farkı", shorttitle = "Sektör farkı", overlay = false, precision = 2)
+
+symE = input.symbol("BIST:XELKT", "Sektör endeksi")
+thr  = input.float(-5.0, "ALMA eşiği (puan)", maxval = 0.0, step = 0.5)
+
+if not (timeframe.isdaily and timeframe.multiplier == 1)
+    runtime.error("Bu gösterge GÜNLÜK (1D) grafikte çalışır.")
+
+// --- sektör endeksi kapanışı (aynı gün; geleceğe bakış kapalı)
+e = request.security(symE, "D", close, gaps = barmerge.gaps_off, lookahead = barmerge.lookahead_off)
+
+rH   = 100.0 * (close / close[1] - 1.0)
+rE   = 100.0 * (e / e[1] - 1.0)
+fark = rH - rE
+alma = not na(fark) and fark <= thr
+
+col = alma ? color.red : fark >= 0 ? color.new(color.teal, 30) : color.new(color.gray, 30)
+plot(fark, "Hisse − XELKT (puan)", color = col, style = plot.style_columns)
+plot(rH, "Hisse günlük %", display = display.data_window)
+plot(rE, "XELKT günlük %", display = display.data_window)
+hline(0, "Sıfır", color = color.new(color.gray, 60))
+hline(thr, "ALMA eşiği", color = color.new(color.red, 30), linestyle = hline.style_dashed)
+plotshape(alma, title = "ALMA: sektörden en az 5 puan geride", style = shape.xcross, location = location.top, color = color.red, size = size.small, text = "ALMA", textcolor = color.red)
+
+alertcondition(alma, title = "ALMA: sektörden 5 puan geride", message = "Hisse XELKT'den en az 5 puan geride kapanıyor: bugün kapanışta ALMA (kaçınma kuralı). sinyal.py ile doğrulayın.")

@@ -1,0 +1,113 @@
+//@version=5
+// =====================================================================================================
+// UYARI: TradingView'da derlenip test edilmedi; ilk kullanımda sinyal.py çıktısıyla karşılaştırın.
+// =====================================================================================================
+// Elektrik sinyali — BIST:XELKT GÜNLÜK (1D) grafiğine eklenir.
+//   S1: XELKT kapanışı son 20 günün (bugün dâhil) en yüksek kapanışı  -> dolabilir sektör sepeti AL, 3 gün
+//   S2: XELKT günlük getirisi / önceki 60 günün std'si >= 1            -> aynı sepet AL, 3 gün
+//   S3: XU030 z >= 1 ve XELKT z < 0,5 (sektör geride)                  -> AKSEN, ENJSA, ODAS spot AL, 3 gün
+//   z = günlük getiri / std(önceki 60 günün günlük getirisi); std örneklem std'sidir ve BİR GÜN GECİKMELİDİR.
+// Karar kapanışta verilir (kapanış seansı 18:01–18:10). Seans içinde son çubuk değişir; alarmı
+// "Çubuk kapanışında bir kez" seçeneğiyle kurun. 17:50 kararı için tablodaki anlık değerlere bakın.
+// sinyal.py'den farklar: (1) veri TradingView'dandır (İş Yatırım değil); (2) S2'nin "en az 5 dolabilir hisse"
+// koşulu burada yoktur; (3) sepet ve kaçınma listeleri yalnız sinyal.py'dedir.
+indicator("Elektrik sinyali XELKT (S1/S2/S3)", shorttitle = "XELKT S1-S2-S3", overlay = true, max_lines_count = 50, max_labels_count = 50)
+
+symX    = input.symbol("BIST:XU030", "Piyasa endeksi (S3)")
+hiLen   = input.int(20, "S1: en yüksek kapanış penceresi (gün)", minval = 2)
+zLen    = input.int(60, "z: std penceresi (gün)", minval = 20)
+zThr    = input.float(1.0, "S2 ve S3: z eşiği", minval = 0.1, step = 0.1)
+zLag    = input.float(0.5, "S3: XELKT z üst sınırı", step = 0.1)
+showLvl = input.bool(true, "Tetik düzeylerini çiz")
+showTbl = input.bool(true, "Bilgi tablosunu göster")
+
+if not (timeframe.isdaily and timeframe.multiplier == 1)
+    runtime.error("Bu gösterge GÜNLÜK (1D) grafikte çalışır.")
+
+// --- XU030 kapanışı (aynı gün; geleceğe bakış kapalı)
+xu = request.security(symX, "D", close, gaps = barmerge.gaps_off, lookahead = barmerge.lookahead_off)
+
+// --- günlük getiriler ve z-skorları (std bir gün gecikmeli: bugünün getirisi kendi std'sine girmez)
+rE  = close / close[1] - 1.0
+rX  = xu / xu[1] - 1.0
+sdE = ta.stdev(rE, zLen, false)
+sdX = ta.stdev(rX, zLen, false)
+zE  = rE / sdE[1]
+zX  = rX / sdX[1]
+
+// --- sinyaller
+hh    = ta.highest(close, hiLen)
+hPrev = ta.highest(close, hiLen - 1)
+s1    = not na(hh) and close >= hh
+s2    = not na(zE) and zE >= zThr
+s3    = not na(zE) and not na(zX) and zX >= zThr and zE < zLag
+
+// --- bugünün eşikleri (dünkü veriyle bilinir): bu çubuğun kapanışının aşması gereken düzeyler
+thrS1 = hPrev[1]
+thrS2 = close[1] * (1.0 + zThr * sdE[1])
+
+// --- yarının tetik düzeyleri (bugünün kapanışıyla hesaplanır)
+nxtS1  = hPrev
+nxtS2  = close * (1.0 + zThr * sdE)
+nxtS3E = close * (1.0 + zLag * sdE)
+nxtS3X = xu * (1.0 + zThr * sdX)
+
+// --- çizim
+plot(showLvl ? thrS1 : na, "S1 eşiği (bugün)", color = color.new(color.green, 40), linewidth = 1, style = plot.style_stepline)
+plot(showLvl ? thrS2 : na, "S2 eşiği (bugün)", color = color.new(color.blue, 40), linewidth = 1, style = plot.style_stepline)
+plotshape(s1, title = "S1: 20 günlük en yüksek kapanış", style = shape.triangleup, location = location.belowbar, color = color.green, size = size.small, text = "S1", textcolor = color.green)
+plotshape(s2, title = "S2: XELKT z eşiğin üstünde", style = shape.circle, location = location.abovebar, color = color.blue, size = size.tiny, text = "S2", textcolor = color.blue)
+plotshape(s3, title = "S3: XU030 önde, XELKT geride", style = shape.diamond, location = location.top, color = color.orange, size = size.tiny, text = "S3", textcolor = color.orange)
+plot(zE, "XELKT z", display = display.data_window)
+plot(zX, "XU030 z", display = display.data_window)
+
+// --- yarının tetik düzeyi çizgileri (son çubuktan sağa)
+var line  lnS1 = na
+var line  lnS2 = na
+var line  lnS3 = na
+var label lbS1 = na
+var label lbS2 = na
+var label lbS3 = na
+var label lbUy = na
+if barstate.islast and showLvl
+    line.delete(lnS1)
+    line.delete(lnS2)
+    line.delete(lnS3)
+    label.delete(lbS1)
+    label.delete(lbS2)
+    label.delete(lbS3)
+    lnS1 := line.new(bar_index, nxtS1, bar_index + 8, nxtS1, color = color.green, style = line.style_dashed, width = 2)
+    lnS2 := line.new(bar_index, nxtS2, bar_index + 8, nxtS2, color = color.blue, style = line.style_dashed, width = 2)
+    lnS3 := line.new(bar_index, nxtS3E, bar_index + 8, nxtS3E, color = color.orange, style = line.style_dotted, width = 1)
+    lbS1 := label.new(bar_index + 8, nxtS1, "S1 yarın >= " + str.tostring(nxtS1, "#.00"), style = label.style_label_left, color = color.new(color.green, 85), textcolor = color.green, size = size.small)
+    lbS2 := label.new(bar_index + 8, nxtS2, "S2 yarın >= " + str.tostring(nxtS2, "#.00"), style = label.style_label_left, color = color.new(color.blue, 85), textcolor = color.blue, size = size.small)
+    lbS3 := label.new(bar_index + 8, nxtS3E, "S3 için XELKT < " + str.tostring(nxtS3E, "#.00"), style = label.style_label_left, color = color.new(color.orange, 85), textcolor = color.orange, size = size.small)
+if barstate.islast and syminfo.ticker != "XELKT"
+    label.delete(lbUy)
+    lbUy := label.new(bar_index, high, "Bu gösterge BIST:XELKT grafiği içindir", style = label.style_label_down, color = color.red, textcolor = color.white)
+
+// --- bilgi tablosu
+var table tb = table.new(position.top_right, 2, 8, bgcolor = color.new(color.black, 80), border_width = 1)
+if barstate.islast and showTbl
+    table.cell(tb, 0, 0, "XELKT z", text_color = color.white, text_size = size.small)
+    table.cell(tb, 1, 0, str.tostring(zE, "#.00"), text_color = color.white, text_size = size.small)
+    table.cell(tb, 0, 1, "XU030 z", text_color = color.white, text_size = size.small)
+    table.cell(tb, 1, 1, str.tostring(zX, "#.00"), text_color = color.white, text_size = size.small)
+    table.cell(tb, 0, 2, "S1 zirve", text_color = color.white, text_size = size.small)
+    table.cell(tb, 1, 2, s1 ? "EVET" : "hayır", text_color = s1 ? color.lime : color.white, text_size = size.small)
+    table.cell(tb, 0, 3, "S2 z >= eşik", text_color = color.white, text_size = size.small)
+    table.cell(tb, 1, 3, s2 ? "EVET" : "hayır", text_color = s2 ? color.lime : color.white, text_size = size.small)
+    table.cell(tb, 0, 4, "S3 gecikme", text_color = color.white, text_size = size.small)
+    table.cell(tb, 1, 4, s3 ? "EVET" : "hayır", text_color = s3 ? color.lime : color.white, text_size = size.small)
+    table.cell(tb, 0, 5, "Yarın S1 >=", text_color = color.white, text_size = size.small)
+    table.cell(tb, 1, 5, str.tostring(nxtS1, "#.00"), text_color = color.white, text_size = size.small)
+    table.cell(tb, 0, 6, "Yarın S2 >=", text_color = color.white, text_size = size.small)
+    table.cell(tb, 1, 6, str.tostring(nxtS2, "#.00"), text_color = color.white, text_size = size.small)
+    table.cell(tb, 0, 7, "Yarın S3", text_color = color.white, text_size = size.small)
+    table.cell(tb, 1, 7, "XU030 >= " + str.tostring(nxtS3X, "#.00") + " ve XELKT < " + str.tostring(nxtS3E, "#.00"), text_color = color.white, text_size = size.small)
+
+// --- alarmlar
+alertcondition(s1, title = "S1: XELKT 20 günlük en yüksek kapanış", message = "XELKT 20 günlük en yüksek kapanışta (S1). Dolabilir sektör sepeti: kapanışta giriş, 3 gün. sinyal.py ile doğrulayın.")
+alertcondition(s2, title = "S2: XELKT z >= 1", message = "XELKT günlük getirisi 60 günlük std'nin en az 1 katı (S2). Dolabilir sektör sepeti: kapanışta giriş, 3 gün. sinyal.py ile doğrulayın.")
+alertcondition(s3, title = "S3: XU030 önde, XELKT geride", message = "XU030 z >= 1 ve XELKT z < 0,5 (S3). AKSEN, ENJSA, ODAS spot: kapanışta giriş, 3 gün. sinyal.py ile doğrulayın.")
+alertcondition(s1 or s2 or s3, title = "Elektrik: herhangi bir sinyal", message = "XELKT sinyali (S1, S2 ya da S3). sinyal.py çıktısına bakın.")

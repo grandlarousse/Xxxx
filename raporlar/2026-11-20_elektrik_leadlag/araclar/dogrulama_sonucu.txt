@@ -1,0 +1,33 @@
+DOĞRULAMA | panel son günü 2026-11-20 | kural kodları: a5_rotasyon, a2_endeks, a3_kesit, w3a_kacinma, w3b_damitma
+saatlik denetim XELKT: son 400 günün 395'inde 18:00 damgası var; günlük kapanıştan > 0,2 bps ayrışan gün 0; en büyük fark 0.0e+00
+saatlik denetim XU030: son 400 günün 395'inde 18:00 damgası var; günlük kapanıştan > 0,2 bps ayrışan gün 0; en büyük fark 0.0e+00
+saatlik denetim XU100: son 400 günün 395'inde 18:00 damgası var; günlük kapanıştan > 0,2 bps ayrışan gün 0; en büyük fark 0.0e+00
+--- HAM DOSYALAR (panelle aynı indirme): son 400 işlem günü (2025-04-17 → 2026-11-20)
+takvim: panel 400 gün, sinyal.py 400 gün, fark 0
+endeks XELKT: en büyük göreli fark 0.00e+00; farklı gün 0
+endeks XU030: en büyük göreli fark 0.00e+00; farklı gün 0
+S1: kural kodu 86 gün, sinyal.py 86 gün, FARK 0
+S2: kural kodu 58 gün, sinyal.py 58 gün, FARK 0
+S3: kural kodu 19 gün, sinyal.py 19 gün, FARK 0
+sepet: kural kodu 14880 hücre, sinyal.py 14880 hücre, FARK 0
+k5: kural kodu 518 hücre, sinyal.py 518 hücre, FARK 0
+kq: kural kodu 2863 hücre, sinyal.py 2863 hücre, FARK 0
+taban: kural kodu 390 hücre, sinyal.py 390 hücre, FARK 0
+t2: kural kodu 2268 hücre, sinyal.py 2268 hücre, FARK 0
+--- HAM DOSYALAR: kısa pencere (450 takvim günü) ile uzun pencere, son 150 gün; fark sayıları / en büyük fark: S1 0; S2 0; S3 0; sepet 0; k5 0; kq 0; taban 0; t2 0; yS1 0.0e+00; ysdE 2.9e-16; ysdX 1.2e-16; zE 1.1e-13; zX 4.3e-14
+canlı indirme notu: XU100 2026-11-20: günlük seride 11.166,39, saatlik 18:00 kapanışı 11.131,32 kullanıldı
+--- CANLI İNDİRME (2024-07-25 → 2026-11-20): son 400 işlem günü (2025-04-17 → 2026-11-20)
+takvim: panel 400 gün, sinyal.py 400 gün, fark 0
+endeks XELKT: en büyük göreli fark 0.00e+00; farklı gün 0
+endeks XU030: en büyük göreli fark 8.60e-09; farklı gün 1: 2026-11-20 (13957.13 / 13957.13)
+S1: kural kodu 86 gün, sinyal.py 86 gün, FARK 0
+S2: kural kodu 58 gün, sinyal.py 58 gün, FARK 0
+S3: kural kodu 19 gün, sinyal.py 19 gün, FARK 0
+sepet: kural kodu 14880 hücre, sinyal.py 14880 hücre, FARK 0
+k5: kural kodu 518 hücre, sinyal.py 518 hücre, FARK 0
+kq: kural kodu 2863 hücre, sinyal.py 2863 hücre, FARK 0
+taban: kural kodu 390 hücre, sinyal.py 390 hücre, FARK 0
+t2: kural kodu 2268 hücre, sinyal.py 2268 hücre, FARK 0
+--- CANLI İNDİRME: kısa pencere (450 takvim günü) ile uzun pencere, son 150 gün; fark sayıları / en büyük fark: S1 0; S2 0; S3 0; sepet 0; k5 0; kq 0; taban 0; t2 0; yS1 0.0e+00; ysdE 2.3e-17; ysdX 6.9e-18; zE 8.0e-15; zX 2.7e-15
+SONUÇ ham: S1/S2/S3 sinyal günleri BİREBİR AYNI
+SONUÇ canli: S1/S2/S3 sinyal günleri BİREBİR AYNI
