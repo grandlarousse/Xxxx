@@ -1,0 +1,66 @@
+işlem günü (panel_dev): 3886 ; OOS-1 günü: 619
+== 3×3: vol20 üçte birliği × rel1 üçte birliği (bayraksız evren)
+3x3_vol0_rel0_bayraksiz                      h1 sec | IS n 2205 x 1.5     1.1 t  0.27 isb0.468 net  -33.9 | OOS n 598 x 2.9     9.0 t  1.38 isb0.464 net  -28.9 | own    6.1/  -8.5 raw   10.6/   3.3
+3x3_vol0_rel1_bayraksiz                      h1 sec | IS n 2572 x 1.7     1.1 t  0.31 isb0.458 net  -36.1 | OOS n 616 x 4.3    12.1 t  2.65 isb0.449 net  -28.1 | own    3.3/  -1.1 raw   10.7/   9.1
+3x3_vol0_rel2_bayraksiz                      h1 sec | IS n 2073 x 1.4    10.8 t  2.38 isb0.479 net  -23.8 | OOS n 600 x 3.1    18.4 t  2.57 isb0.450 net  -23.9 | own    6.1/   3.5 raw   14.5/  18.2
+3x3_vol1_rel0_bayraksiz                      h1 sec | IS n 2254 x 1.5    10.0 t  2.26 isb0.481 net  -34.3 | OOS n 600 x 3.3    -8.4 t -1.41 isb0.433 net  -46.8 | own    9.4/ -27.3 raw   19.7/  -9.6
+3x3_vol1_rel1_bayraksiz                      h1 sec | IS n 2284 x 1.5     5.4 t  1.25 isb0.464 net  -36.2 | OOS n 611 x 3.3    14.7 t  2.54 isb0.473 net  -28.4 | own    4.6/  -8.7 raw   14.6/  11.9
+3x3_vol1_rel2_bayraksiz                      h1 sec | IS n 2152 x 1.4     8.3 t  1.58 isb0.467 net  -26.5 | OOS n 609 x 3.2     8.9 t  1.36 isb0.460 net  -21.2 | own    2.5/  -8.9 raw   16.6/  10.2
+3x3_vol2_rel0_bayraksiz                      h1 sec | IS n 2357 x 1.6    -5.2 t -0.88 isb0.445 net  -48.2 | OOS n 603 x 3.8   -16.2 t -2.19 isb0.419 net  -52.8 | own  -10.1/ -52.1 raw    2.4/ -17.0
+3x3_vol2_rel1_bayraksiz                      h1 sec | IS n 1722 x 1.3     0.1 t  0.01 isb0.434 net  -38.2 | OOS n 590 x 2.5     6.6 t  0.77 isb0.432 net  -32.3 | own   -9.7/ -20.8 raw   10.4/   3.8
+3x3_vol2_rel2_bayraksiz                      h1 sec | IS n 2105 x 1.4    -0.7 t -0.09 isb0.444 net  -37.0 | OOS n 592 x 3.1   -10.9 t -1.14 isb0.434 net  -45.7 | own  -11.3/ -53.6 raw   10.9/ -13.9
+
+== sade kural ızgarası: düşük oynaklık × bugünkü göreli güç (bayraksız)
+sade_V25_R33                                 h1 sec | IS n 1845 x 1.3    10.5 t  2.14 isb0.483 net  -22.6 | OOS n 570 x 2.5    15.7 t  1.99 isb0.447 net  -27.5 | own    6.8/   3.9 raw   12.7/  17.2
+sade_V25_R50                                 h1 sec | IS n 2507 x 1.7     6.0 t  1.60 isb0.469 net  -27.7 | OOS n 611 x 4.0    14.8 t  2.63 isb0.452 net  -26.3 | own    5.9/   3.2 raw   11.2/  15.7
+sade_V25_Rpoz                                h1 sec | IS n 2210 x 1.8     6.3 t  1.61 isb0.476 net  -27.0 | OOS n 582 x 3.5    12.9 t  1.87 isb0.452 net  -27.2 | own    4.8/   1.3 raw   10.3/  13.5
+sade_V25_Rpoz1                               h1 sec | IS n 1277 x 1.4    12.3 t  2.00 isb0.497 net  -20.8 | OOS n 472 x 2.1     3.5 t  0.35 isb0.442 net  -38.2 | own    7.1/  -3.9 raw   13.1/   8.7
+sade_V25_RXpoz                               h1 sec | IS n 2265 x 1.8     3.6 t  0.93 isb0.470 net  -28.5 | OOS n 583 x 3.6    16.4 t  2.38 isb0.454 net  -26.9 | own    1.0/   4.6 raw    6.9/  17.8
+sade_V25_RXpoz1                              h1 sec | IS n 1313 x 1.4    10.4 t  1.66 isb0.482 net  -24.8 | OOS n 469 x 2.1     3.7 t  0.41 isb0.440 net  -35.7 | own    3.4/  -2.9 raw   11.6/  11.1
+sade_V33_R33                                 h1 sec | IS n 2073 x 1.4    10.8 t  2.38 isb0.479 net  -23.8 | OOS n 600 x 3.1    18.4 t  2.57 isb0.450 net  -23.9 | own    6.1/   3.5 raw   14.5/  18.2
+sade_V33_R50                                 h1 sec | IS n 2655 x 2.0     4.0 t  1.14 isb0.466 net  -29.7 | OOS n 615 x 5.1    14.5 t  3.07 isb0.453 net  -25.2 | own    3.1/   1.2 raw   10.1/  14.5
+sade_V33_Rpoz                                h1 sec | IS n 2373 x 2.0     5.3 t  1.41 isb0.473 net  -28.9 | OOS n 602 x 4.3    11.3 t  1.86 isb0.450 net  -27.0 | own    1.6/  -1.6 raw    9.2/  11.9
+sade_V33_Rpoz1                               h1 sec | IS n 1459 x 1.5    10.9 t  1.87 isb0.486 net  -23.8 | OOS n 515 x 2.4     7.7 t  0.86 isb0.447 net  -32.9 | own    5.1/  -5.0 raw   14.5/   8.7
+sade_V33_RXpoz                               h1 sec | IS n 2416 x 2.0     4.4 t  1.18 isb0.468 net  -30.4 | OOS n 599 x 4.5    13.9 t  2.24 isb0.453 net  -27.4 | own    1.6/   0.1 raw    9.0/  14.5
+sade_V33_RXpoz1                              h1 sec | IS n 1491 x 1.5     8.3 t  1.43 isb0.473 net  -27.4 | OOS n 518 x 2.5     4.8 t  0.58 isb0.438 net  -33.1 | own    0.5/  -8.1 raw   11.6/   6.5
+sade_V50_R33                                 h1 sec | IS n 2548 x 1.7    10.5 t  2.71 isb0.473 net  -25.3 | OOS n 616 x 4.6    17.1 t  3.03 isb0.450 net  -23.5 | own    8.7/   1.0 raw   16.8/  16.8
+sade_V50_R50                                 h1 sec | IS n 2914 x 2.6     5.2 t  1.73 isb0.467 net  -29.6 | OOS n 617 x 7.5    14.0 t  3.65 isb0.452 net  -25.3 | own    4.9/  -0.4 raw   12.0/  13.7
+sade_V50_Rpoz                                h1 sec | IS n 2650 x 2.6     5.5 t  1.67 isb0.472 net  -28.9 | OOS n 614 x 6.3    11.7 t  2.49 isb0.452 net  -25.2 | own    3.0/  -3.0 raw   11.1/  11.6
+sade_V50_Rpoz1                               h1 sec | IS n 1880 x 1.8    10.7 t  2.11 isb0.480 net  -22.4 | OOS n 581 x 3.3    11.7 t  1.63 isb0.453 net  -26.4 | own    7.3/  -1.7 raw   16.8/  12.1
+sade_V50_RXpoz                               h1 sec | IS n 2687 x 2.6     4.4 t  1.40 isb0.467 net  -31.6 | OOS n 609 x 6.5    15.0 t  3.13 isb0.454 net  -25.4 | own    1.5/  -0.6 raw    9.8/  14.4
+sade_V50_RXpoz1                              h1 sec | IS n 1925 x 1.8     7.3 t  1.48 isb0.470 net  -27.4 | OOS n 573 x 3.5     8.6 t  1.26 isb0.442 net  -28.6 | own    2.3/  -6.5 raw   12.9/   8.8
+
+== ek koşullar / gevşetmeler
+sade_V33_Rpoz_bayrakDAHIL                    h1 sec | IS n 2382 x 2.0     4.6 t  1.22 isb0.473 net  -29.7 | OOS n 604 x 4.4    11.1 t  1.86 isb0.447 net  -28.6 | own    1.4/  -1.7 raw    9.1/  11.7
+sade_V33_Rpoz_hacim<2x                       h1 sec | IS n 2003 x 1.8     6.3 t  1.52 isb0.478 net  -30.0 | OOS n 584 x 3.9    12.9 t  1.98 isb0.449 net  -27.4 | own   -1.2/   0.7 raw    6.3/  14.4
+sade_V33_Rpoz_hacim<1x                       h1 sec | IS n 1403 x 1.5    -0.6 t -0.14 isb0.464 net  -35.9 | OOS n 453 x 2.8    17.1 t  2.15 isb0.475 net  -22.2 | own   -9.4/  10.9 raw   -2.9/  19.4
+sade_V33_Rpoz_hacim>=1x                      h1 sec | IS n 1718 x 1.5     8.9 t  1.73 isb0.480 net  -23.2 | OOS n 528 x 2.5     4.9 t  0.57 isb0.426 net  -31.7 | own   10.7/ -10.2 raw   19.7/   3.6
+sade_V33_Rpoz_rel<3%                         h1 sec | IS n 2303 x 1.9     6.7 t  1.74 isb0.474 net  -28.0 | OOS n 597 x 3.9    10.4 t  1.67 isb0.449 net  -29.1 | own    2.9/  -2.0 raw   10.4/  10.7
+sade_V33_Rpoz_ve_gun_arti                    h1 sec | IS n 1919 x 1.7     6.2 t  1.34 isb0.464 net  -26.7 | OOS n 552 x 3.4    14.5 t  1.91 isb0.446 net  -22.8 | own    6.2/   1.0 raw   15.9/  13.3
+sade_V33_Rneg (karşıt)                       h1 sec | IS n 2578 x 2.3     4.0 t  1.22 isb0.462 net  -34.4 | OOS n 614 x 5.9    12.6 t  2.82 isb0.456 net  -27.2 | own    6.4/  -2.3 raw   11.7/   9.2
+sade_Vust50_Rpoz (karşıt)                    h1 sec | IS n 2981 x 2.2     5.0 t  1.14 isb0.453 net  -33.4 | OOS n 616 x 5.6    -3.4 t -0.63 isb0.443 net  -36.2 | own   -5.2/ -29.6 raw   10.9/  -2.1
+sade_yalniz_Rpoz                             h1 sec | IS n 3126 x 4.3     3.0 t  1.13 isb0.463 net  -31.1 | OOS n 617 x11.9     6.0 t  1.85 isb0.447 net  -30.4 | own   -3.0/ -14.1 raw    9.0/   6.1
+sade_yalniz_V33                              h1 sec | IS n 2956 x 3.6     4.6 t  2.07 isb0.467 net  -32.0 | OOS n 617 x10.1    11.7 t  3.68 isb0.453 net  -27.1 | own    6.1/  -2.0 raw   11.7/  10.2
+sade_V33_Rpoz_tut2                           h2 sec | IS n 2373 x 2.0     4.1 t  0.63 isb0.467 net  -29.3 | OOS n 601 x 4.3     7.9 t  0.80 isb0.429 net  -36.1 | own    6.7/  -9.5 raw   21.6/  16.8
+sade_V33_Rpoz_tut3                           h3 sec | IS n 2373 x 2.0    -0.7 t -0.08 isb0.465 net  -32.9 | OOS n 600 x 4.3     9.1 t  0.74 isb0.444 net  -36.2 | own   11.9/ -16.7 raw   33.6/  24.2
+
+== model dilimleri
+IS tahmin yüzdelikleri: {0.5: 0.00013, 0.8: 0.00152, 0.9: 0.00229, 0.95: 0.003}
+lgbm_ust10                                   h1 sec | IS n 2764 x 1.3     7.1 t  1.34 isb0.483 net  -30.4 | OOS n 618 x 3.5    20.6 t  3.33 isb0.453 net  -18.8 | own    3.6/  -6.1 raw   16.4/  18.9
+lgbm_ust10_ve_TEMIZ4                         h1 sec | IS n 1745 x 1.2    22.8 t  4.06 isb0.495 net  -14.6 | OOS n 575 x 2.4    16.0 t  2.10 isb0.448 net  -21.5 | own   18.2/  -8.7 raw   33.5/  13.7
+lgbm_ust10_TEMIZ4_icinde_sirali              h1 sec | IS n 2160 x 1.1    16.0 t  3.17 isb0.483 net  -20.9 | OOS n 615 x 2.0    19.2 t  2.64 isb0.464 net  -18.5 | own   10.6/  -4.8 raw   26.1/  17.2
+lgbm_ust20_ve_bayraksiz                      h1 sec | IS n 2760 x 2.4     8.8 t  2.78 isb0.476 net  -27.9 | OOS n 618 x 6.2    24.5 t  5.56 isb0.465 net  -15.6 | own    5.1/   1.4 raw   18.0/  22.6
+lgbm_ust20_ve_TEMIZ2                         h1 sec | IS n 2687 x 1.9     9.5 t  2.53 isb0.476 net  -26.2 | OOS n 618 x 5.7    24.4 t  5.30 isb0.461 net  -16.0 | own    5.7/   1.3 raw   19.0/  22.5
+lgbm_ust20_ve_TEMIZ4                         h1 sec | IS n 2422 x 1.6    14.8 t  3.67 isb0.482 net  -22.6 | OOS n 611 x 4.3    19.0 t  3.36 isb0.461 net  -18.0 | own   11.0/  -1.4 raw   23.2/  17.5
+lgbm_tahmin>10bps                            h1 sec | IS n 2400 x 3.6     1.3 t  0.28 isb0.471 net  -27.5 | OOS n 617 x12.5    20.7 t  6.34 isb0.460 net  -17.4 | own   -0.9/   0.1 raw   13.3/  19.4
+lgbm_tahmin>10bps_ve_TEMIZ4                  h1 sec | IS n 2014 x 2.5    12.1 t  3.11 isb0.477 net  -20.4 | OOS n 614 x 8.6    19.3 t  4.52 isb0.463 net  -17.0 | own    9.7/   0.6 raw   23.5/  18.7
+lgbm_tahmin>20bps                            h1 sec | IS n 1532 x 2.5     5.1 t  0.62 isb0.476 net  -23.3 | OOS n 555 x 5.3    32.1 t  4.46 isb0.466 net   -8.2 | own    1.9/   4.1 raw   20.8/  30.2
+lgbm_tahmin>20bps_ve_TEMIZ4                  h1 sec | IS n 1118 x 2.0    23.0 t  3.79 isb0.483 net   -9.4 | OOS n 507 x 3.8    24.7 t  3.17 isb0.471 net   -8.0 | own   20.4/  -0.6 raw   41.4/  24.1
+lgbm_tahmin>30bps                            h1 sec | IS n  716 x 2.0    11.3 t  0.99 isb0.475 net  -19.3 | OOS n 308 x 2.8    25.7 t  1.80 isb0.465 net   -3.4 | own    5.5/   4.7 raw   31.9/  39.0
+lgbm_tahmin>30bps_ve_TEMIZ4                  h1 sec | IS n  491 x 1.7    28.2 t  2.73 isb0.490 net   -2.8 | OOS n 202 x 2.5    27.1 t  1.41 isb0.484 net   -0.1 | own   15.2/  16.1 raw   46.0/  45.7
+lgbm_en_ust_1_hisse                          h1 sec | IS n 2764 x 1.0    10.0 t  1.67 isb0.484 net  -31.5 | OOS n 618 x 1.0    29.5 t  2.41 isb0.468 net  -11.9 | own    5.7/   6.9 raw   19.1/  27.6
+lgbm_en_ust_3_hisse                          h1 sec | IS n 2764 x 3.0     3.7 t  1.28 isb0.476 net  -38.2 | OOS n 618 x 3.0    22.7 t  3.51 isb0.458 net  -19.2 | own    1.9/  -4.4 raw   13.4/  20.9
+lgbm_ust20_ve_sade_V33_Rpoz                  h1 sec | IS n 1018 x 1.2    19.1 t  2.75 isb0.496 net  -12.6 | OOS n 500 x 2.0    18.8 t  2.16 isb0.459 net  -16.8 | own   12.9/  10.6 raw   26.8/  23.5
+sade_V33_Rpoz_lgbm_ust20_DISI                h1 sec | IS n 2064 x 1.7     3.7 t  0.88 isb0.465 net  -35.0 | OOS n 551 x 2.9     5.1 t  0.63 isb0.445 net  -32.9 | own   -1.1/  -9.9 raw    4.7/   0.2
+lgbm_ust20_sade_DISI                         h1 sec | IS n 2714 x 2.0    -0.4 t -0.09 isb0.471 net  -37.5 | OOS n 618 x 4.7    22.9 t  4.34 isb0.464 net  -16.7 | own   -2.8/  -4.5 raw   10.1/  21.1
+süre 7.7

@@ -24,6 +24,8 @@ sys.path.insert(0, HERE)
 import elib  # noqa: E402
 
 KOD = os.path.dirname(HERE)
+# OLCU=per ortam değişkeni: zamanlama kurallarını ('own') dönem-nötr kıyasla ('per') değerlendir (YONTEM_EK E12)
+OLCU_MAP = {'own': 'per'} if os.environ.get('OLCU') == 'per' else None
 
 
 def load_rules(agent, P):
@@ -86,7 +88,7 @@ def main():
                     diff, tot, frac = -1, 0, 1.0
                 else:
                     diff, tot, frac = causality(r_is[ad]['sig'], r['sig'], P_ev['tradable'])
-                for row in elib.eval_rule(r, P_ev, family=ag):
+                for row in elib.eval_rule(r, P_ev, family=ag, olcu_map=OLCU_MAP):
                     row['ajan'] = ag
                     row['nedensellik_fark'] = diff; row['nedensellik_oran'] = frac
                     row['nedensellik_ok'] = bool(frac <= 0.005)

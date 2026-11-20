@@ -1,0 +1,79 @@
+== tahmin beşte birliklerinde özelliklerin gün içi yüzdelik sırası ortalaması (1 = en düşük dilim)
+           IS1   IS2   IS3   IS4   IS5  OOS1  OOS2  OOS3  OOS4  OOS5
+ozellik                                                             
+rel1      0.54  0.54  0.54  0.55  0.57  0.37  0.45  0.50  0.60  0.68
+r0        0.54  0.54  0.54  0.55  0.57  0.37  0.45  0.50  0.60  0.68
+r1        0.60  0.54  0.53  0.52  0.53  0.59  0.53  0.49  0.48  0.49
+rel3      0.60  0.54  0.52  0.53  0.54  0.50  0.47  0.49  0.54  0.60
+rel5      0.56  0.51  0.52  0.55  0.60  0.51  0.47  0.49  0.53  0.60
+r20       0.55  0.51  0.52  0.55  0.63  0.54  0.46  0.48  0.52  0.58
+volshock  0.63  0.53  0.51  0.51  0.55  0.66  0.50  0.46  0.48  0.48
+vol20     0.64  0.52  0.50  0.51  0.54  0.66  0.49  0.46  0.45  0.50
+liqrank   0.53  0.56  0.57  0.55  0.52  0.50  0.54  0.54  0.52  0.49
+mom250    0.56  0.53  0.53  0.56  0.59  0.58  0.50  0.48  0.49  0.54
+yas       0.54  0.54  0.55  0.55  0.57  0.51  0.50  0.51  0.52  0.54
+
+== tek özellik: en üst / en alt beşte birlik (sec, h1)
+tek_rel1_ust20                               h1 sec | IS n 3149 x 2.3     0.1 t  0.04 isb0.458 net  -35.3 | OOS n 618 x 6.3    -1.4 t -0.27 isb0.441 net  -38.6 | own   -6.9/ -27.6 raw    7.9/  -2.2
+tek_rel1_alt20                               h1 sec | IS n 3149 x 2.3    -8.0 t -2.18 isb0.465 net  -50.4 | OOS n 618 x 6.3   -25.7 t -4.97 isb0.418 net  -63.1 | own   -8.2/ -48.8 raw    0.3/ -25.8
+tek_r0_ust20                                 h1 sec | IS n 3149 x 2.3     0.1 t  0.04 isb0.458 net  -35.3 | OOS n 618 x 6.3    -1.4 t -0.27 isb0.441 net  -38.6 | own   -6.9/ -27.6 raw    7.9/  -2.2
+tek_r0_alt20                                 h1 sec | IS n 3149 x 2.3    -8.0 t -2.18 isb0.465 net  -50.4 | OOS n 618 x 6.3   -25.7 t -4.97 isb0.418 net  -63.1 | own   -8.2/ -48.8 raw    0.3/ -25.8
+tek_r1_ust20                                 h1 sec | IS n 3149 x 2.3    -6.5 t -1.85 isb0.457 net  -46.2 | OOS n 618 x 6.3   -15.1 t -2.94 isb0.426 net  -52.3 | own   -9.8/ -42.1 raw    1.7/ -15.5
+tek_r1_alt20                                 h1 sec | IS n 3149 x 2.3    -3.1 t -0.88 isb0.456 net  -40.4 | OOS n 618 x 6.3    -6.1 t -1.31 isb0.441 net  -42.7 | own   -4.8/ -29.1 raw    4.9/  -6.8
+tek_rel3_ust20                               h1 sec | IS n 3149 x 2.3    -7.1 t -1.96 isb0.452 net  -43.7 | OOS n 618 x 6.3    -6.8 t -1.26 isb0.437 net  -44.2 | own  -13.0/ -35.1 raw    1.3/  -7.6
+tek_rel3_alt20                               h1 sec | IS n 3149 x 2.3    -5.3 t -1.49 isb0.460 net  -46.1 | OOS n 618 x 6.3   -14.6 t -2.97 isb0.434 net  -51.7 | own   -6.2/ -36.8 raw    2.7/ -15.0
+tek_rel5_ust20                               h1 sec | IS n 3149 x 2.3     0.0 t  0.01 isb0.463 net  -36.4 | OOS n 618 x 6.3   -15.5 t -2.92 isb0.436 net  -51.7 | own   -6.4/ -44.7 raw    7.7/ -15.9
+tek_rel5_alt20                               h1 sec | IS n 3149 x 2.3    -7.9 t -2.30 isb0.457 net  -48.3 | OOS n 618 x 6.3   -10.2 t -2.13 isb0.435 net  -47.8 | own   -8.4/ -32.4 raw    0.5/ -10.8
+tek_r20_ust20                                h1 sec | IS n 3149 x 2.3    -2.2 t -0.56 isb0.465 net  -37.9 | OOS n 618 x 6.3    -5.8 t -1.06 isb0.456 net  -41.6 | own  -12.4/ -40.4 raw    5.6/  -6.6
+tek_r20_alt20                                h1 sec | IS n 3149 x 2.3    -3.1 t -1.00 isb0.454 net  -43.3 | OOS n 618 x 6.3    -2.9 t -0.64 isb0.439 net  -41.9 | own   -1.4/ -20.4 raw    4.9/  -3.7
+tek_volshock_ust20                           h1 sec | IS n 3149 x 2.3    -8.5 t -2.31 isb0.448 net  -46.5 | OOS n 618 x 6.3   -29.1 t -5.58 isb0.407 net  -66.4 | own  -11.8/ -52.4 raw    0.1/ -29.0
+tek_volshock_alt20                           h1 sec | IS n 3149 x 2.3    -2.9 t -0.95 isb0.461 net  -41.7 | OOS n 618 x 6.3    17.0 t  4.43 isb0.473 net  -21.0 | own   -5.5/  -7.3 raw    5.0/  15.5
+tek_vol20_ust20                              h1 sec | IS n 3149 x 2.3   -15.4 t -3.72 isb0.442 net  -55.7 | OOS n 618 x 6.3   -23.7 t -4.10 isb0.420 net  -59.4 | own  -21.6/ -61.4 raw   -6.2/ -23.7
+tek_vol20_alt20                              h1 sec | IS n 3149 x 2.3     4.2 t  1.61 isb0.468 net  -31.5 | OOS n 618 x 6.3    10.3 t  2.44 isb0.451 net  -28.4 | own    7.7/  -2.4 raw   11.5/   8.9
+tek_liqrank_ust20                            h1 sec | IS n 3149 x 2.3    -1.3 t -0.46 isb0.459 net  -40.9 | OOS n 618 x 6.3    -5.9 t -1.33 isb0.439 net  -47.8 | own   -2.8/ -31.2 raw    6.7/  -6.6
+tek_liqrank_alt20                            h1 sec | IS n 3149 x 2.3    -3.5 t -0.94 isb0.458 net  -43.0 | OOS n 618 x 6.3     5.7 t  1.24 isb0.446 net  -30.9 | own   -5.2/ -16.1 raw    4.3/   4.5
+tek_mom250_ust20                             h1 sec | IS n 3049 x 2.2   -11.5 t -2.76 isb0.470 net  -45.1 | OOS n 618 x 6.0    -3.5 t -0.63 isb0.444 net  -36.7 | own  -34.3/ -60.3 raw   -2.8/  -4.3
+tek_mom250_alt20                             h1 sec | IS n 3049 x 2.2     3.7 t  1.32 isb0.463 net  -38.3 | OOS n 618 x 6.0    -4.6 t -1.09 isb0.433 net  -47.4 | own   19.2/   3.3 raw   10.7/  -5.4
+tek_mom60_ust20                              h1 sec | IS n 3129 x 2.3    -3.6 t -0.88 isb0.472 net  -38.9 | OOS n 618 x 6.3   -12.4 t -2.30 isb0.455 net  -48.0 | own  -18.8/ -52.0 raw    4.7/ -13.0
+tek_mom60_alt20                              h1 sec | IS n 3129 x 2.3     3.1 t  1.03 isb0.457 net  -38.1 | OOS n 618 x 6.3     2.5 t  0.56 isb0.442 net  -36.0 | own    7.9/ -10.3 raw   10.4/   1.6
+tek_yas_ust20                                h1 sec | IS n 3149 x 2.3     3.4 t  1.23 isb0.461 net  -35.3 | OOS n 618 x 6.3    -5.4 t -1.21 isb0.433 net  -44.8 | own    0.2/ -29.7 raw   10.7/  -6.2
+tek_yas_alt20                                h1 sec | IS n 3149 x 2.3    -1.5 t -0.44 isb0.453 net  -38.7 | OOS n 618 x 6.3     4.5 t  0.89 isb0.436 net  -33.0 | own   -6.6/ -25.2 raw    6.4/   3.3
+
+== bayraklar
+bayrak_tavana_degdi_kapanmadi                h1 sec | IS n  230 x 1.2   -65.2 t -1.84 isb0.426 net  -89.2 | OOS n 260 x 1.4   -60.0 t -2.32 isb0.369 net  -84.6 | own -100.1/ -81.8 raw  -56.2/ -41.4
+bayrak_tabana_degdi_kapanmadi                h1 sec | IS n  126 x 1.6   -57.3 t -0.96 isb0.525 net  -52.5 | OOS n 101 x 1.7   -85.9 t -1.54 isb0.451 net  -71.3 | own  -89.7/-128.2 raw  -50.0/ -76.1
+bayrak_tabanda_kapandi                       h1 sec | IS n  155 x 1.4  -438.4 t -4.31 isb0.425 net -371.8 | OOS n  89 x 1.8  -322.9 t -4.33 isb0.352 net -275.5 | own -437.6/-319.8 raw -392.8/-315.4
+bayrak_dun_tavan_bugun_degil                 h1 sec | IS n  265 x 1.3  -107.7 t -2.78 isb0.408 net -119.8 | OOS n 247 x 1.6   -73.4 t -2.57 isb0.453 net  -68.5 | own -110.3/-113.0 raw  -71.1/ -55.8
+
+== iki özellik (bağımsız üçte birlikler; 0 = düşük, 2 = yüksek)
+iki_volshock0_vol200                         h1 sec | IS n 2445 x 1.6    -2.6 t -0.74 isb0.463 net  -36.5 | OOS n 603 x 3.3    17.1 t  3.21 isb0.462 net  -23.5 | own   -0.6/   7.5 raw    5.1/  17.9
+iki_volshock2_vol202                         h1 sec | IS n 2201 x 1.4   -32.9 t -4.11 isb0.427 net  -65.6 | OOS n 614 x 3.6   -47.4 t -4.93 isb0.395 net  -83.0 | own  -46.8/ -78.5 raw  -24.4/ -45.4
+iki_volshock0_vol202                         h1 sec | IS n 2263 x 1.5    -6.1 t -0.89 isb0.450 net  -45.3 | OOS n 614 x 3.7    12.1 t  1.82 isb0.449 net  -28.6 | own  -11.0/ -24.3 raw    5.9/  11.0
+iki_volshock2_vol200                         h1 sec | IS n 2197 x 1.4    10.0 t  2.12 isb0.471 net  -25.6 | OOS n 604 x 3.0     5.4 t  0.83 isb0.439 net  -32.7 | own   15.6/  -9.1 raw   21.8/   4.5
+iki_volshock0_rel12                          h1 sec | IS n 1689 x 1.2     7.1 t  1.13 isb0.465 net  -33.1 | OOS n 546 x 2.3    22.8 t  2.59 isb0.476 net  -13.0 | own   -3.0/   2.4 raw   10.6/  26.7
+iki_volshock0_rel10                          h1 sec | IS n 2473 x 1.8     2.1 t  0.41 isb0.479 net  -39.2 | OOS n 613 x 3.8     7.3 t  1.24 isb0.463 net  -30.9 | own    3.1/ -20.9 raw   13.0/   7.7
+iki_volshock2_rel12                          h1 sec | IS n 2550 x 1.7    -0.2 t -0.03 isb0.458 net  -31.5 | OOS n 614 x 4.7    -9.3 t -1.39 isb0.420 net  -46.8 | own   -3.5/ -26.3 raw   11.5/  -6.9
+iki_volshock2_rel10                          h1 sec | IS n 1998 x 1.4   -17.9 t -2.55 isb0.437 net  -61.7 | OOS n 597 x 3.2   -48.9 t -5.53 isb0.389 net  -81.5 | own  -21.3/ -71.7 raw  -11.4/ -47.5
+iki_vol200_rel12                             h1 sec | IS n 2084 x 1.4    10.0 t  2.22 isb0.478 net  -25.1 | OOS n 603 x 3.2    16.3 t  2.34 isb0.446 net  -25.9 | own    5.5/   2.0 raw   14.2/  16.7
+iki_vol200_rel10                             h1 sec | IS n 2210 x 1.5     0.8 t  0.19 isb0.468 net  -33.6 | OOS n 605 x 2.9     5.2 t  0.76 isb0.462 net  -31.0 | own    5.8/  -9.0 raw   10.4/   3.1
+iki_vol202_rel12                             h1 sec | IS n 2152 x 1.5    -4.6 t -0.57 isb0.443 net  -41.3 | OOS n 608 x 3.3   -13.2 t -1.41 isb0.434 net  -47.9 | own  -16.9/ -57.5 raw    6.6/ -14.2
+iki_vol202_rel10                             h1 sec | IS n 2409 x 1.6   -23.8 t -3.22 isb0.446 net  -64.9 | OOS n 611 x 4.1   -29.5 t -3.73 isb0.416 net  -65.1 | own  -27.1/ -62.5 raw  -14.7/ -27.5
+iki_vol200_r202                              h1 sec | IS n 1571 x 1.2     2.5 t  0.40 isb0.460 net  -31.9 | OOS n 534 x 2.0    14.4 t  1.60 isb0.490 net  -23.3 | own   -4.6/ -11.8 raw   10.4/  10.5
+iki_vol200_r200                              h1 sec | IS n 2509 x 1.9     3.6 t  1.05 isb0.465 net  -36.4 | OOS n 614 x 4.5    10.4 t  2.12 isb0.444 net  -30.0 | own   10.6/  -0.6 raw   12.3/   9.9
+iki_vol202_r202                              h1 sec | IS n 2547 x 1.8    -8.7 t -1.37 isb0.452 net  -46.3 | OOS n 617 x 5.0   -14.5 t -2.22 isb0.431 net  -47.0 | own  -18.6/ -50.4 raw    0.6/ -14.7
+iki_vol202_r200                              h1 sec | IS n 1984 x 1.4   -20.9 t -2.89 isb0.429 net  -60.2 | OOS n 581 x 2.5   -27.1 t -2.33 isb0.424 net  -63.5 | own  -23.0/ -64.4 raw   -9.8/ -31.7
+
+== kaçınma süzgeçleri (kalan "temiz" hisselerin hepsi AL)
+KACIN_bayrakli(tavan/taban temasi)           h1 sec | IS n  399 x 1.7  -179.9 t -4.56 isb0.455 net -165.4 | OOS n 353 x 2.0  -116.8 t -4.39 isb0.382 net -127.6 | own -200.4/-146.6 raw -156.8/-114.1
+KACIN_bayrak_veya_rel1alt20                  h1 sec | IS n 3149 x 2.5    -9.5 t -2.70 isb0.464 net  -51.6 | OOS n 618 x 7.1   -28.6 t -5.95 isb0.416 net  -64.2 | own  -10.1/ -52.9 raw   -1.1/ -28.5
+KACIN_bayrak|rel1alt20|hacimsokuust20        h1 sec | IS n 3149 x 3.6    -6.5 t -2.45 isb0.460 net  -46.4 | OOS n 618 x10.8   -21.9 t -6.69 isb0.422 net  -57.6 | own   -8.3/ -45.6 raw    1.7/ -22.0
+KACIN_bayrak|rel1alt20|hacim|oynaklikust20   h1 sec | IS n 3149 x 4.4    -5.6 t -2.38 isb0.458 net  -44.0 | OOS n 618 x13.4   -16.9 t -6.09 isb0.426 net  -52.7 | own   -8.8/ -43.8 raw    2.6/ -17.3
+TEMIZ1_bayraksiz                             h1 sec | IS n 3147 x 9.7     2.8 t  4.27 isb0.462 net  -35.3 | OOS n 618 x28.8     4.7 t  4.36 isb0.446 net  -34.5 | own    0.2/ -16.1 raw    9.6/   3.5
+TEMIZ2_bayraksiz_rel1alt20degil              h1 sec | IS n 3146 x 7.4     3.5 t  2.92 isb0.461 net  -33.6 | OOS n 618 x22.8     8.9 t  5.41 isb0.452 net  -30.0 | own    0.2/ -11.2 raw   10.0/   7.6
+TEMIZ3_+hacimsoku_ust20degil                 h1 sec | IS n 3146 x 6.3     4.1 t  2.77 isb0.462 net  -33.3 | OOS n 618 x19.2    11.8 t  6.09 isb0.456 net  -27.1 | own    1.6/  -7.9 raw   10.7/  10.4
+TEMIZ4_+oynaklik_ust20degil                  h1 sec | IS n 3146 x 5.5     3.8 t  2.26 isb0.464 net  -33.4 | OOS n 618 x16.5    13.0 t  5.73 isb0.457 net  -26.2 | own    2.6/  -4.2 raw   10.4/  11.6
+lgbm_ust20_TEMIZ4_icinde_sirali              h1 sec | IS n 2160 x 1.7    13.2 t  3.06 isb0.476 net  -23.6 | OOS n 615 x 3.7    20.9 t  4.00 isb0.461 net  -17.6 | own    9.5/  -0.9 raw   23.5/  18.9
+lgbm_alt20_TEMIZ4_icinde_sirali              h1 sec | IS n 2160 x 1.7    -0.8 t -0.18 isb0.447 net  -39.0 | OOS n 615 x 3.7     4.8 t  1.01 isb0.458 net  -32.8 | own    1.2/ -12.4 raw   10.9/   3.4
+lgbm_ust20_TEMIZ4_disi                       h1 sec | IS n 1966 x 1.4    -9.0 t -1.09 isb0.467 net  -47.2 | OOS n 551 x 2.4    12.1 t  1.36 isb0.464 net  -14.5 | own   -9.9/ -11.1 raw    2.2/  12.6
+lgbm_ust20_ve_TEMIZ4                         h1 sec | IS n 2422 x 1.6    14.8 t  3.67 isb0.482 net  -22.6 | OOS n 611 x 4.3    19.0 t  3.36 isb0.461 net  -18.0 | own   11.0/  -1.4 raw   23.2/  17.5
+süre 7.8

@@ -1,0 +1,7 @@
+build(): 0 dondurulmuş kural, 0.00 sn; deterministik: True
+self_check_causal(build, kesim 2021-06-30): {}
+self_check_causal(build_tarama, kesim 2021-06-30): {'T_a_kosulsuz_viop3_h3': 0.0, 'T_a_kosulsuz_likit10_h3': 0.0, 'T_a_kosulsuz_sepet_h3': 0.0, 'T_b_sektor_da_guclu_viop3_h3': 0.0, 'T_b_sektor_da_guclu_likit10_h3': 0.0, 'T_b_sektor_da_guclu_sepet_h3': 0.0, 'T_c_ozgun_gecikme_viop3_h3': 0.0, 'T_c_ozgun_gecikme_likit10_h3': 0.0, 'T_c_ozgun_gecikme_sepet_h3': 0.0}
+self_check_causal(build, kesim 2022-06-30): {}
+self_check_causal(build_tarama, kesim 2022-06-30): {'T_a_kosulsuz_viop3_h3': 0.0, 'T_a_kosulsuz_likit10_h3': 0.0, 'T_a_kosulsuz_sepet_h3': 0.0, 'T_b_sektor_da_guclu_viop3_h3': 0.0, 'T_b_sektor_da_guclu_likit10_h3': 0.0, 'T_b_sektor_da_guclu_sepet_h3': 0.0, 'T_c_ozgun_gecikme_viop3_h3': 0.0, 'T_c_ozgun_gecikme_likit10_h3': 0.0, 'T_c_ozgun_gecikme_sepet_h3': 0.0}
+self_check_causal(build, kesim 2024-06-28): {}
+self_check_causal(build_tarama, kesim 2024-06-28): {'T_a_kosulsuz_viop3_h3': 0.0, 'T_a_kosulsuz_likit10_h3': 0.0, 'T_a_kosulsuz_sepet_h3': 0.0, 'T_b_sektor_da_guclu_viop3_h3': 0.0, 'T_b_sektor_da_guclu_likit10_h3': 0.0, 'T_b_sektor_da_guclu_sepet_h3': 0.0, 'T_c_ozgun_gecikme_viop3_h3': 0.0, 'T_c_ozgun_gecikme_likit10_h3': 0.0, 'T_c_ozgun_gecikme_sepet_h3': 0.0}

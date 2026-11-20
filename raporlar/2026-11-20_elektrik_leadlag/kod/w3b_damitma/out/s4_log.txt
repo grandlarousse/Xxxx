@@ -1,0 +1,49 @@
+build süresi 9.3 s; deterministik: True
+self_check_causal kesim 2021-06-30 {'W3B_sade_sakin_guclu_h1': 0.0, 'W3B_lgbm_tahmin20_temiz_h1': 0.0}
+self_check_causal kesim 2018-09-14 {'W3B_sade_sakin_guclu_h1': 0.0, 'W3B_lgbm_tahmin20_temiz_h1': 0.0}
+self_check_causal kesim 2024-06-28 {'W3B_sade_sakin_guclu_h1': 0.0, 'W3B_lgbm_tahmin20_temiz_h1': 0.0}
+kasa işlem günü (VERI_NOTU_D1: 4.238 − panel_dev gün sayısı): 352
+
+===== W3B_sade_sakin_guclu_h1
+W3B_sade_sakin_guclu_h1                      h1 sec | IS n 2548 x 1.7    10.5 t  2.71 isb0.473 net  -25.3 | OOS n 616 x 4.6    17.1 t  3.03 isb0.450 net  -23.5 | own    8.7/   1.0 raw   16.8/  16.8
+yıllar: 2011:19;2012:-7;2013:17;2014:2;2015:-2;2016:-4;2017:3;2018:5;2019:17;2020:36;2021:-3;2022:44;2023:10;2024:31;2025:2 | yıl + oranı 0.73 | top10 gün hariç 8.3 | kırpılmış 5.9 | en yoğun AKSEN 0.109
+giriş (IS+OOS1 birlikte): t kapanış 11.8 t+1 açılış 9.7 t+1 kapanış 4.0 | net düşük/temel/muhafazakâr IS [np.float64(-10.3), np.float64(-25.3), np.float64(-50.3)] OOS1 [np.float64(-8.5), np.float64(-23.5), np.float64(-48.5)]
+  ek açılış(t+1) girişi: IS 9.2 (t 2.83); OOS1 11.8 (t 2.17)
+  ek medyana karşı isabet: IS 0.473; OOS1 0.497
+  IS: kaydırma sıfırı gerçek 10.5 bps, p = 0.020 (sıfır ort -0.2); sinyalli gün payı 0.78; günde ort hisse 1.7; dünden kalan pay 0.27; evren (dolabilir) 9.7
+  OOS1: kaydırma sıfırı gerçek 17.1 bps, p = 0.007 (sıfır ort 0.9); sinyalli gün payı 1.00; günde ort hisse 4.6; dünden kalan pay 0.27; evren (dolabilir) 29.9
+W3B_sade_sakin_guclu_h1|fiyat>=5             h1 sec | IS n 1484 x 1.5    17.4 t  3.07 isb0.494 net   -6.3 | OOS n 614 x 4.2    16.1 t  2.79 isb0.457 net  -15.2 | own    7.0/  -0.6 raw   22.6/  15.2
+W3B_sade_sakin_guclu_h1|eski_hisseler        h1 sec | IS n 2501 x 1.6    10.7 t  2.63 isb0.473 net  -30.9 | OOS n 558 x 2.2    16.7 t  1.84 isb0.464 net  -28.9 | own    8.0/  -1.4 raw   16.2/  14.0
+W3B_sade_sakin_guclu_h1|yeni_hisseler        h1 sec | IS n  287 x 1.6    29.3 t  1.99 isb0.475 net    5.4 | OOS n 584 x 2.8    15.3 t  2.06 isb0.440 net  -14.5 | own   43.6/  -3.7 raw   57.0/  12.6
+W3B_sade_sakin_guclu_h1|lik_dusuk            h1 sec | IS n 1293 x 1.2    14.4 t  2.20 isb0.481 net  -18.2 | OOS n 514 x 1.9    17.1 t  1.47 isb0.457 net  -17.6 | own   12.2/   6.5 raw   17.0/  15.5
+W3B_sade_sakin_guclu_h1|lik_orta             h1 sec | IS n 1319 x 1.2    15.5 t  2.50 isb0.494 net  -19.9 | OOS n 511 x 1.9    12.9 t  1.42 isb0.457 net  -19.0 | own   13.0/ -12.8 raw   25.6/   8.4
+W3B_sade_sakin_guclu_h1|lik_yuksek           h1 sec | IS n 1139 x 1.2    -3.0 t -0.44 isb0.441 net  -39.6 | OOS n 492 x 1.8     3.8 t  0.40 isb0.435 net  -34.6 | own   -9.7/ -13.9 raw    4.2/   1.2
+W3B_sade_sakin_guclu_h1|tut2                 h2 sec | IS n 2548 x 1.7    11.5 t  1.87 isb0.465 net  -26.9 | OOS n 615 x 4.6    11.2 t  1.29 isb0.431 net  -29.8 | own   17.7/ -13.2 raw   33.5/  17.4
+W3B_sade_sakin_guclu_h1|tut3                 h3 sec | IS n 2548 x 1.7     6.3 t  0.78 isb0.459 net  -33.1 | OOS n 614 x 4.6    15.3 t  1.40 isb0.440 net  -25.7 | own   20.2/ -19.0 raw   44.2/  27.8
+W3B_sade_sakin_guclu_h1|own                  h1 own | IS n 2517 x 1.7     8.7 t  1.98 isb0.482 net  -28.6 | OOS n 616 x 4.4     1.0 t  0.11 isb0.484 net  -37.4 | own    8.7/   1.0 raw   16.8/  16.8
+W3B_sade_sakin_guclu_h1|gunde>=2hisse        h1 sec | IS n 1350 x 2.4     9.2 t  2.06 isb0.470 net  -25.3 | OOS n 603 x 4.7    16.2 t  3.02 isb0.450 net  -23.7 | own    4.5/   0.3 raw   17.2/  16.2
+
+===== W3B_lgbm_tahmin20_temiz_h1
+W3B_lgbm_tahmin20_temiz_h1                   h1 sec | IS n 1118 x 2.0    23.0 t  3.79 isb0.483 net   -9.4 | OOS n 507 x 3.8    24.7 t  3.17 isb0.471 net   -8.0 | own   20.4/  -0.6 raw   41.4/  24.1
+yıllar: 2012:-3;2013:46;2014:3;2015:20;2016:23;2017:48;2018:37;2019:-29;2020:51;2021:21;2022:21;2023:41;2024:-4;2025:64 | yıl + oranı 0.79 | top10 gün hariç 16.8 | kırpılmış 16.2 | en yoğun AKSUE 0.09
+giriş (IS+OOS1 birlikte): t kapanış 23.5 t+1 açılış 17.3 t+1 kapanış 3.6 | net düşük/temel/muhafazakâr IS [np.float64(5.6), np.float64(-9.4), np.float64(-34.4)] OOS1 [np.float64(7.0), np.float64(-8.0), np.float64(-33.0)]
+  ek açılış(t+1) girişi: IS 18.0 (t 3.31); OOS1 15.9 (t 2.06)
+  ek medyana karşı isabet: IS 0.508; OOS1 0.520
+  IS: kaydırma sıfırı gerçek 23.0 bps, p = 0.007 (sıfır ort 3.0); sinyalli gün payı 0.34; günde ort hisse 2.0; dünden kalan pay 0.24; evren (dolabilir) 9.7
+  OOS1: kaydırma sıfırı gerçek 24.7 bps, p = 0.003 (sıfır ort 0.2); sinyalli gün payı 0.82; günde ort hisse 3.8; dünden kalan pay 0.23; evren (dolabilir) 29.9
+W3B_lgbm_tahmin20_temiz_h1|fiyat>=5          h1 sec | IS n  709 x 2.1    27.9 t  3.68 isb0.486 net   -1.4 | OOS n 502 x 3.6    23.9 t  2.97 isb0.468 net   -4.9 | own   15.3/  -2.6 raw   45.2/  23.2
+W3B_lgbm_tahmin20_temiz_h1|eski_hisseler     h1 sec | IS n 1076 x 1.6    22.3 t  3.36 isb0.486 net  -12.6 | OOS n 388 x 2.1    13.1 t  1.36 isb0.459 net  -22.8 | own   18.5/   2.0 raw   39.5/  21.5
+W3B_lgbm_tahmin20_temiz_h1|yeni_hisseler     h1 sec | IS n  252 x 1.9    24.6 t  1.78 isb0.474 net   -2.9 | OOS n 428 x 2.5    37.3 t  3.72 isb0.479 net    5.4 | own   28.8/  17.6 raw   66.6/  41.5
+W3B_lgbm_tahmin20_temiz_h1|lik_dusuk         h1 sec | IS n  571 x 1.3    25.0 t  2.23 isb0.489 net  -12.2 | OOS n 353 x 1.8    30.4 t  2.55 isb0.460 net  -10.2 | own   29.8/  28.3 raw   50.3/  43.4
+W3B_lgbm_tahmin20_temiz_h1|lik_orta          h1 sec | IS n  627 x 1.3    31.7 t  3.41 isb0.505 net   -2.8 | OOS n 346 x 1.9    28.1 t  2.45 isb0.486 net   -2.4 | own   30.6/   8.2 raw   52.4/  36.1
+W3B_lgbm_tahmin20_temiz_h1|lik_yuksek        h1 sec | IS n  459 x 1.4    13.1 t  1.27 isb0.450 net  -14.8 | OOS n 319 x 1.9    26.1 t  2.05 isb0.466 net  -11.7 | own    3.4/  -2.4 raw   31.0/  30.2
+W3B_lgbm_tahmin20_temiz_h1|tut2              h2 sec | IS n 1118 x 2.0    17.7 t  1.83 isb0.472 net  -11.1 | OOS n 506 x 3.8    31.4 t  2.73 isb0.460 net   -7.3 | own   23.8/  -5.3 raw   67.6/  45.7
+W3B_lgbm_tahmin20_temiz_h1|tut3              h3 sec | IS n 1118 x 2.0    20.4 t  1.62 isb0.462 net  -10.6 | OOS n 505 x 3.8    42.0 t  2.62 isb0.465 net    3.2 | own   35.3/  -1.8 raw   99.0/  69.7
+W3B_lgbm_tahmin20_temiz_h1|own               h1 own | IS n 1089 x 1.9    20.4 t  2.99 isb0.494 net  -13.5 | OOS n 498 x 3.6    -0.6 t -0.05 isb0.498 net  -12.0 | own   20.4/  -0.6 raw   41.4/  24.1
+W3B_lgbm_tahmin20_temiz_h1|gunde>=2hisse     h1 sec | IS n  472 x 3.3    27.9 t  3.97 isb0.473 net   -7.4 | OOS n 382 x 4.7    21.4 t  3.37 isb0.470 net   -8.6 | own   23.2/   4.9 raw   52.1/  24.8
+
+tarama sürümüyle fark (hücre): 0 0 ; sinyal sayısı 7287 4131
+iki_kural_birlikte                           h1 sec | IS n  458 x 1.3    34.0 t  3.19 isb0.484 net   -3.4 | OOS n 347 x 1.9    38.8 t  3.14 isb0.485 net    1.1 | own   28.7/  20.4 raw   54.5/  38.5
+sade_var_model_yok                           h1 sec | IS n 2414 x 1.6     8.3 t  1.97 isb0.472 net  -29.1 | OOS n 595 x 3.6     8.1 t  1.21 isb0.439 net  -30.6 | own    7.3/  -9.4 raw   14.3/   4.4
+model_var_sade_yok                           h1 sec | IS n  925 x 1.7    22.7 t  3.09 isb0.483 net  -11.8 | OOS n 446 x 2.8    17.5 t  1.95 isb0.463 net  -12.8 | own   19.3/ -11.7 raw   41.0/  20.4
+CSV satır 169 → /home/user/Xxxx/raporlar/2026-11-20_elektrik_leadlag/kod/w3b_damitma/../../ek/w3b_damitma_sonuc.csv

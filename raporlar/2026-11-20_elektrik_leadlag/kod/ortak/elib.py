@@ -183,6 +183,24 @@ def sec_bench(P, h, min_others=4):
     return P['_cache'][key]
 
 
+def period_demean(P, f, fillable, min_days=60):
+    """Dönem-nötr kıyas: her dönemde (IS / OOS1 / KASA) hedefin o dönemdeki dolabilir günlerinin ortalama f_h'i çıkarılır.
+    'own' (gecikmeli 250 günlük ortalama) rejim değişiminde yanlıdır: 2022 rallisinden sonra OOS-1'de "her gün AL"
+    satırı own ölçüsünde h=3 için yaklaşık −50 bps çıkar. 'per' ölçüsünde her dönemde "her gün AL" = 0'dır;
+    sinyal günleri ile dönemin bütün günleri arasındaki farkı ölçer (yalnız DEĞERLENDİRME içindir, kural kurmak için değil)."""
+    out = pd.DataFrame(np.nan, index=f.index, columns=f.columns)
+    for per, (a, b) in periods_of(P).items():
+        m = np.ones(len(f), dtype=bool)
+        if a is not None:
+            m &= (f.index >= a)
+        if b is not None:
+            m &= (f.index <= b)
+        sub = f[m].where(fillable[m])
+        mu = sub.mean().where(sub.notna().sum() >= min_days)
+        out.loc[m] = (f[m] - mu).values
+    return out
+
+
 def excess_measures(P, h, side='long', cols=None, entry='close'):
     """Ham ve üç fazla getiri ölçüsü (pozisyon yönünde): dict(raw, own, sec, mkt), fillable.
     entry: 'close' (t kapanışı) | 'open1' (t+1 açılışı; f = açılış(t+1) → kapanış(t+h))."""
@@ -214,7 +232,8 @@ def excess_measures(P, h, side='long', cols=None, entry='close'):
     beta = beta_lagged(P['ret_cc'][cols], mk)
     mkt = f - beta.mul(f_mkt, axis=0)
     sgn = 1.0 if side == 'long' else -1.0
-    out = ({'raw': f * sgn, 'own': own * sgn, 'sec': sec * sgn, 'mkt': mkt * sgn}, fillable)
+    per = period_demean(P, f, fillable.reindex_like(f).fillna(False))
+    out = ({'raw': f * sgn, 'own': own * sgn, 'sec': sec * sgn, 'mkt': mkt * sgn, 'per': per * sgn}, fillable)
     P['_cache'][key] = out
     return out
 
@@ -298,8 +317,16 @@ def _p_one_sided(t):
     return float(1 - 0.5 * (1 + erf(t / sqrt(2))))
 
 
+PERIOD_MODE = 'uc_parca'   # 'uc_parca': IS / OOS1 / KASA  |  'havuz': IS / OOS (2023-01-02 → veri sonu; OOS-1 + kasa birlikte)
+
+
 def periods_of(P):
     last = P['ret_cc'].index.max()
+    if PERIOD_MODE == 'havuz':
+        per = {'IS': (None, IS_END)}
+        if last >= OOS1_START:
+            per['OOS'] = (OOS1_START, None)
+        return per
     per = {'IS': (None, IS_END)}
     if last >= OOS1_START:
         per['OOS1'] = (OOS1_START, OOS1_END)
@@ -332,7 +359,7 @@ def evaluate(sig, P, h=1, side='long', name='', family='', measure='own', instru
         cs = {s: cost_bps(P, S_f, s) for s in COST}
     periods = periods_of(P)
     for fill_name, fl in [('dol', fillable), ('hepsi', None)]:
-        for mname in ['raw', 'own', 'sec', 'mkt']:
+        for mname in ['raw', 'own', 'sec', 'mkt', 'per']:
             p, ntr, X = day_series(sig, M[mname], fl, min_n)
             for per, (a, b) in periods.items():
                 st = stats_block(p, ntr, X, h, a, b)
@@ -429,14 +456,14 @@ def viop_volume(P):
     return W.reindex(P['ret_cc'].index)
 
 
-def evaluate_viop(sig, P, h=1, side='long', name='', family='', extra=None):
+def evaluate_viop(sig, P, h=1, side='long', name='', family='', extra=None, measure='own'):
     """Vadeli fiyatlarıyla değerlendirme (AKSEN/ENJSA/ODAS). Fazla getiri = pozisyon getirisi − vadelinin kendi geçmiş
     250 günlük ortalama h-günlük getirisi (taşıma dâhil kayma). Hem uzlaşma hem son fiyat tanımı; karar ikisinin kötüsü.
     Dolum: o gün vadelide hacim > 0 ve |getiri| < %9,5 (limit) ve spot dolabilir."""
     cols = [c for c in sig.columns if c in VIOP]
     sig = sig[cols].reindex(P['ret_cc'].index).fillna(False).astype(bool)
     row = {'aile': family, 'sinyal_tanimi': name, 'hedef': ','.join(cols), 'yon': side, 'h': h, 'arac': 'viop_vadeli',
-           'karar_olcusu': 'own_vadeli'}
+           'karar_olcusu': measure + '_vadeli'}
     vol = viop_volume(P)[cols]
     sgn = 1.0 if side == 'long' else -1.0
     res = {}
@@ -444,9 +471,12 @@ def evaluate_viop(sig, P, h=1, side='long', name='', family='', extra=None):
         r = viop_returns(P, kind)[cols]
         L = level(r)
         f = L.shift(-h) / L - 1
-        own = (f - bench_own(f, h)) * sgn
         lim = (r.abs() >= 0.095)
         fillable = (vol > 0) & r.notna() & ~lim & (P['fill_long'] if side == 'long' else P['fill_short'])[cols]
+        if measure == 'per':
+            own = period_demean(P, f, fillable.reindex_like(f).fillna(False)) * sgn
+        else:
+            own = (f - bench_own(f, h)) * sgn
         S_f = sig & fillable
         n_by = S_f.sum(); tot = max(n_by.sum(), 1)
         # vadeli maliyeti: senaryo komisyonu + yarım vadeli fiyat adımı (ODAS gibi düşük fiyatlı kontratlarda adım 10–45 bps)
@@ -626,15 +656,18 @@ def self_check_causal(build, P, cut='2021-06-30'):
     return out
 
 
-def eval_rule(rule, P, family=''):
-    """rules.py sözleşmesindeki bir kural sözlüğünü değerlendirir (spot; arac='viop' ise ayrıca vadeli fiyatlarıyla)."""
+def eval_rule(rule, P, family='', olcu_map=None):
+    """rules.py sözleşmesindeki bir kural sözlüğünü değerlendirir (spot; arac='viop' ise ayrıca vadeli fiyatlarıyla).
+    olcu_map: karar ölçüsü eşlemesi, ör. {'own': 'per'} (zamanlama kurallarını dönem-nötr kıyasla değerlendir)."""
     kw = dict(h=rule['h'], side=rule.get('yon', 'long'), name=rule['ad'], family=family)
     arac = rule.get('arac', 'spot')
-    row = evaluate(rule['sig'], P, measure=rule.get('olcu', 'own'), instrument=arac, min_n=rule.get('min_n', 1), **kw)
+    olcu = rule.get('olcu', 'own')
+    olcu = (olcu_map or {}).get(olcu, olcu)
+    row = evaluate(rule['sig'], P, measure=olcu, instrument=arac, min_n=rule.get('min_n', 1), **kw)
     row['birincil'] = bool(rule.get('birincil', False)); row['aciklama'] = rule.get('aciklama', '')
     rows = [row]
     if arac == 'viop' and 'viop_front' in P:
-        rv = evaluate_viop(rule['sig'], P, **kw)
+        rv = evaluate_viop(rule['sig'], P, measure=('per' if olcu == 'per' else 'own'), **kw)
         rv['birincil'] = row['birincil']; rv['aciklama'] = row['aciklama']
         rows.append(rv)
     return rows

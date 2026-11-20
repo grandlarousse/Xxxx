@@ -67,7 +67,7 @@ def main():
         if extra:
             d[extra] = d[extra] & P_full['tradable'].reindex(index=idx, columns=extra).fillna(False).astype(bool)
         ned = float(d.values.sum() / max(int(x.values.sum()), 1))
-        res = elib.eval_rule(rule, P_full, family=ag)
+        res = elib.eval_rule(rule, P_full, family=ag, olcu_map={'own': 'per'})   # YONTEM_EK E12: dönem-nötr kıyas
         row = res[-1] if rule.get('arac') == 'viop' and len(res) > 1 else res[0]   # viop: vadeli fiyatlı satır
         row['ajan'] = ag
         row['beklenen_isaret'] = int(rule.get('beklenen_isaret', 1))

@@ -1,0 +1,86 @@
+tahmin süresi 8.9 s; panel 2010-01-04 2025-06-30 hisse 36
+
+== S1: üst beşte birlik, kırılımlar
+lgbm_ust20                                   h1 sec | IS n 2764 x 2.5     3.8 t  1.09 isb0.476 net  -32.8 | OOS n 618 x 6.3    22.8 t  5.43 isb0.462 net  -16.9 | own    1.1/  -1.2 raw   13.5/  21.0
+yıllar(sec): 2012:11;2013:6;2014:-15;2015:2;2016:14;2017:2;2018:19;2019:-4;2020:-12;2021:4;2022:14;2023:38;2024:12;2025:14
+lgbm_ust20_own                               h1 own | IS n 2764 x 2.3     1.1 t  0.27 isb0.480 net  -35.5 | OOS n 618 x 6.0    -1.2 t -0.13 isb0.475 net  -38.7 | own    1.1/  -1.2 raw   13.5/  21.0
+yıllar(own): 2012:28;2013:-13;2014:2;2015:-2;2016:11;2017:-3;2018:2;2019:15;2020:-27;2021:-27;2022:26;2023:-9;2024:3;2025:7
+eski 12 yeni 24
+lgbm_ust20_eski_hisseler                     h1 sec | IS n 2762 x 2.2     4.7 t  1.29 isb0.479 net  -35.9 | OOS n 603 x 2.7    16.4 t  2.22 isb0.452 net  -24.3 | own    1.6/  -6.1 raw   14.6/  14.7
+lgbm_ust20_yeni_hisseler                     h1 sec | IS n  359 x 2.0     4.5 t  0.29 isb0.447 net  -25.3 | OOS n 616 x 3.8    24.7 t  3.81 isb0.470 net   -6.0 | own   27.4/  -0.4 raw   39.3/  22.5
+TABAN_tum_eski_hisseler                      h1 sec | IS n 3149 x 8.8     0.1 t  0.28 isb0.465 net  -41.1 | OOS n 618 x11.6     0.8 t  0.28 isb0.454 net  -41.0 | own   -2.2/ -22.4 raw    7.5/  -0.2
+TABAN_tum_yeni_hisseler                      h1 sec | IS n  416 x 8.0    -2.1 t -0.38 isb0.432 net  -31.7 | OOS n 618 x18.3    -0.3 t -0.17 isb0.437 net  -30.5 | own   14.7/ -21.3 raw   28.8/  -1.3
+lgbm_ust20_eski_icinde_sirali                h1 sec | IS n 2764 x 2.2     4.4 t  1.26 isb0.478 net  -35.6 | OOS n 617 x 2.9    21.2 t  3.26 isb0.462 net  -19.5 | own    1.2/  -0.1 raw   14.1/  20.7
+lgbm_ust20_yeni_icinde_sirali                h1 sec | IS n  390 x 2.1    18.5 t  1.56 isb0.462 net  -18.1 | OOS n 618 x 4.1    25.2 t  4.38 isb0.463 net   -8.5 | own   33.0/   2.7 raw   51.1/  23.2
+lgbm_ust20_lik_dusuk                         h1 sec | IS n 1987 x 1.3    -0.2 t -0.03 isb0.469 net  -38.5 | OOS n 570 x 2.5    25.1 t  3.02 isb0.450 net  -17.2 | own   -1.1/   6.5 raw   11.8/  23.8
+TABAN_lik_dusuk                              h1 sec | IS n 2958 x 3.7    -1.9 t -0.70 isb0.456 net  -40.3 | OOS n 618 x10.2     3.8 t  1.29 isb0.448 net  -33.2 | own   -4.0/ -15.0 raw    5.9/   2.7
+lgbm_ust20_lik_dusuk_icinde_sirali           h1 sec | IS n 2537 x 1.2     2.3 t  0.33 isb0.469 net  -33.8 | OOS n 618 x 2.5    27.4 t  3.81 isb0.464 net  -13.2 | own   -1.0/   8.5 raw   12.2/  25.4
+lgbm_ust20_lik_orta                          h1 sec | IS n 1840 x 1.3    11.3 t  2.05 isb0.493 net  -25.1 | OOS n 585 x 2.4    34.8 t  4.21 isb0.491 net   -7.2 | own   13.1/   7.9 raw   25.7/  31.6
+TABAN_lik_orta                               h1 sec | IS n 2958 x 3.4     3.7 t  1.53 isb0.470 net  -33.5 | OOS n 618 x10.0     2.2 t  0.72 isb0.446 net  -35.1 | own    1.1/ -18.8 raw   11.1/   1.2
+lgbm_ust20_lik_orta_icinde_sirali            h1 sec | IS n 2371 x 1.2     8.2 t  1.57 isb0.480 net  -31.0 | OOS n 618 x 2.4    34.3 t  4.75 isb0.488 net   -5.7 | own    6.5/  10.2 raw   17.7/  32.1
+lgbm_ust20_lik_yuksek                        h1 sec | IS n 1329 x 1.3     0.4 t  0.06 isb0.463 net  -34.9 | OOS n 542 x 2.0     9.0 t  1.03 isb0.441 net  -28.9 | own   -4.3/ -21.6 raw   13.6/   9.1
+TABAN_lik_yuksek                             h1 sec | IS n 2958 x 3.1    -2.6 t -0.98 isb0.456 net  -40.3 | OOS n 618 x 9.7    -6.1 t -1.88 isb0.436 net  -46.2 | own   -5.7/ -31.9 raw    5.6/  -6.9
+lgbm_ust20_lik_yuksek_icinde_sirali          h1 sec | IS n 1997 x 1.2    13.0 t  2.41 isb0.488 net  -23.4 | OOS n 618 x 2.4    10.9 t  1.56 isb0.454 net  -28.0 | own    8.5/ -19.1 raw   24.0/   9.5
+lgbm_ust20_fiyat5_icinde_sirali              h1 sec | IS n  732 x 2.8     7.3 t  0.73 isb0.483 net  -22.2 | OOS n 618 x 5.8    22.6 t  5.16 isb0.466 net   -7.6 | own  -14.1/  -2.3 raw   21.9/  20.8
+TABAN_fiyat5                                 h1 sec | IS n 2798 x 5.1    -3.1 t -1.23 isb0.456 net  -30.8 | OOS n 618 x27.5    -0.7 t -1.42 isb0.444 net  -30.2 | own  -12.0/ -22.8 raw    6.0/  -1.6
+TABAN_fiyat_alti5                            h1 sec | IS n 3111 x 5.4     0.6 t  0.34 isb0.466 net  -51.2 | OOS n 495 x 3.1    10.3 t  1.26 isb0.440 net  -45.2 | own    3.4/   8.1 raw    7.3/  18.6
+  kayma farkı ust20 IS: seçilen − evren =    1.9 bps/gün; own kıyası olan pay 0.95; yeni hisse payı seçilen 0.11 / evren 0.11
+  kayma farkı ust20 OOS1: seçilen − evren =    1.0 bps/gün; own kıyası olan pay 0.95; yeni hisse payı seçilen 0.59 / evren 0.61
+  kayma farkı alt20 IS: seçilen − evren =    0.9 bps/gün; own kıyası olan pay 0.94; yeni hisse payı seçilen 0.09 / evren 0.11
+  kayma farkı alt20 OOS1: seçilen − evren =    7.0 bps/gün; own kıyası olan pay 0.91; yeni hisse payı seçilen 0.60 / evren 0.61
+
+== S3: beşte birlikler (tahmine göre; 0 = en düşük)
+lgbm_dilim1/5                                h1 sec | IS n 2764 x 2.5   -10.8 t -2.66 isb0.439 net  -51.6 | OOS n 618 x 6.3   -42.2 t -7.83 isb0.406 net  -78.8 | own  -13.0/ -70.2 raw    0.3/ -41.7
+lgbm_dilim2/5                                h1 sec | IS n 2764 x 2.2    -1.2 t -0.36 isb0.456 net  -39.0 | OOS n 618 x 6.0    -1.6 t -0.44 isb0.436 net  -39.9 | own    1.5/ -19.9 raw    9.1/  -2.5
+lgbm_dilim3/5                                h1 sec | IS n 2764 x 2.1     5.7 t  1.65 isb0.470 net  -33.7 | OOS n 618 x 5.9    -1.4 t -0.37 isb0.439 net  -39.4 | own    6.2/ -18.4 raw   15.1/  -2.3
+lgbm_dilim4/5                                h1 sec | IS n 2764 x 2.2     5.6 t  1.66 isb0.467 net  -31.0 | OOS n 618 x 6.0    24.6 t  6.12 isb0.475 net  -14.2 | own    4.1/   6.4 raw   15.2/  22.8
+lgbm_dilim5/5                                h1 sec | IS n 2764 x 1.6     6.1 t  1.23 isb0.479 net  -30.6 | OOS n 618 x 5.6    24.9 t  5.55 isb0.465 net  -13.4 | own    2.4/   0.6 raw   15.5/  23.0
+lgbm_ondalik1/10                             h1 sec | IS n 1138 x 1.8   -31.7 t -2.85 isb0.410 net  -67.6 | OOS n 617 x 3.5   -59.9 t -6.75 isb0.393 net  -91.4 | own  -44.1/ -90.9 raw  -16.0/ -57.5
+lgbm_ondalik2/10                             h1 sec | IS n 1138 x 1.3     3.1 t  0.27 isb0.449 net  -32.8 | OOS n 617 x 2.9   -19.1 t -2.75 isb0.421 net  -53.6 | own   -7.0/ -41.1 raw   16.3/ -18.1
+lgbm_ondalik9/10                             h1 sec | IS n 1138 x 1.3    -2.8 t -0.29 isb0.472 net  -34.6 | OOS n 617 x 3.0    18.7 t  3.15 isb0.463 net  -15.5 | own   -9.6/  -3.1 raw   11.0/  18.3
+lgbm_ondalik10/10                            h1 sec | IS n 1138 x 1.2    10.5 t  1.05 isb0.487 net  -23.7 | OOS n 617 x 2.6    30.9 t  4.26 isb0.467 net   -5.7 | own    3.3/   5.4 raw   23.2/  30.0
+lgbm_alt20                                   h1 sec | IS n 2764 x 2.5   -10.8 t -2.66 isb0.439 net  -51.6 | OOS n 618 x 6.3   -42.2 t -7.83 isb0.406 net  -78.8 | own  -13.0/ -70.2 raw    0.3/ -41.7
+  ek: ust20 − evren medyan: IS 22.5 bps (t 6.71), isabet 0.484; OOS1 48.2 bps (t 11.25), isabet 0.510
+  ek: ust20 − evren ortalama: IS 3.4 bps (t 1.10), isabet 0.476; OOS1 21.9 bps (t 5.42), isabet 0.462
+  ek: alt20 − evren medyan: IS 9.3 bps (t 2.23), isabet 0.435; OOS1 -14.4 bps (t -2.41), isabet 0.441
+  ek: alt20 − evren ortalama: IS -9.8 bps (t -2.69), isabet 0.439; OOS1 -40.7 bps (t -7.83), isabet 0.406
+
+== S2: gece / gün içi, tutma süresi, devir
+  ek: ust20 kapanış→kapanış(sec): IS 3.8 bps (t 1.09); OOS1 22.8 bps (t 5.43)
+  ek: ust20 açılış(t+1)→kapanış(t+1)(sec): IS 3.1 bps (t 0.99); OOS1 15.2 bps (t 3.73)
+  ek: ust20 gece kapanış→açılış(sec): IS 0.7 bps (t 0.36); OOS1 7.3 bps (t 4.76)
+  ek: alt20 kapanış→kapanış(sec): IS -10.8 bps (t -2.66); OOS1 -42.2 bps (t -7.83)
+  ek: alt20 açılış(t+1)→kapanış(t+1)(sec): IS -8.4 bps (t -2.27); OOS1 -30.4 bps (t -5.71)
+  ek: alt20 gece kapanış→açılış(sec): IS -2.2 bps (t -0.92); OOS1 -11.5 bps (t -5.66)
+lgbm_ust20_tut2                              h2 sec | IS n 2764 x 2.5     8.4 t  1.60 isb0.471 net  -29.4 | OOS n 617 x 6.3    17.6 t  2.99 isb0.443 net  -21.8 | own    7.6/ -23.1 raw   33.7/  21.4
+lgbm_ust20_tut3                              h3 sec | IS n 2764 x 2.5     6.9 t  1.01 isb0.470 net  -31.0 | OOS n 616 x 6.3    20.2 t  2.56 isb0.447 net  -19.6 | own    8.2/ -37.4 raw   49.0/  31.0
+  devir IS: bugünkü üst dilimin dün de üst dilimde olan payı 0.411 → günlük yeni pozisyon payı 0.589
+  devir OOS1: bugünkü üst dilimin dün de üst dilimde olan payı 0.307 → günlük yeni pozisyon payı 0.693
+
+== S4: özellik önemi (LightGBM kazanç payı; son 30 aylık model = OOS-1)
+                IS   OOS1
+rel1         0.095  0.188
+volshock     0.126  0.131
+vol20        0.119  0.111
+r20          0.124  0.088
+r1           0.065  0.083
+sec1         0.012  0.049
+liqrank      0.077  0.043
+xu3          0.025  0.043
+r5           0.051  0.041
+rel5         0.051  0.039
+r3           0.043  0.033
+r0           0.054  0.032
+sec3         0.019  0.027
+dow_fri      0.016  0.023
+rel3         0.048  0.018
+nlimup       0.002  0.016
+big1         0.012  0.014
+xres         0.029  0.011
+xu1          0.028  0.011
+dow_mon      0.003  0.000
+limdn        0.000  0.000
+limup_prev   0.000  0.000
+limup_touch  0.000  0.000
+model sayısı 162
+süre 13.2
