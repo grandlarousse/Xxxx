@@ -40,7 +40,7 @@ Yorum: seninki bu geleneğin hüznü değil; yaşadığın bir yerin kaybı ve g
 **2. Aynı şehre iki bakış: tepeden ve içinden.**
 Yahya Kemal'in en bilinen İstanbul dizesi bir bakış yeri bildirir: "Sana dün bir tepeden baktım aziz İstanbul!" [K31-03]. Tepe şehrin içindedir; şair aynı şiirde şehrin gezmediği, sevmediği yeri kalmadığını da söyler. Yine de gördüğü, tek tek sokaklar değil, bütün bir şehirdir. Orhan Veli tersini yapar: gözlerini kapar ve dinler [K31-01]; kendine "bir fakir Orhan Veli" der [K31-02]. Bir incelemeye göre İlhan Berk'in şiirinde şehir "vazgeçilmez bir kaos"tur [K31-25]. "Uzak" filminde İstanbul, iki adamın birbirine değemediği bir zemindir [K35-01].
 
-Uzaklaşanların yazdığı İstanbul, tepeden görünene benzer. On üç yıl sonra ayrılan bir gazeteci en çok vapuru ve Boğaz'ı özlediğini yazar [K36-01]. Ayrılalı bir yıl olmuş biri şehri "hayalleri gerçekleştirme sahnesi" diye hatırlar [K36-06]. Pamuk'un balkonundan çektiği fotoğraflar için bir eleştirmen, insanı ölümsüz bir İstanbul'un hüküm sürdüğüne inandırabileceğini yazar [K35-20].
+Uzaklaşanların yazdığı İstanbul, tepeden görünene benzer. On üç yıl sonra ayrılan bir gazeteci en çok vapuru ve Boğaz'ı özlediğini yazar [K36-01]. Ayrılalı bir yıl olmuş biri şehri "hayalleri gerçekleştirme sahnesi" diye hatırlar [K36-06].
 
 Yorum: uzaklaşınca şehir bütünleşir ve manzaraya döner; içindeyken parçalıdır. İkisi de doğru. Kendine sorulacak soru: özlediğim manzara mı, gündelik hayat mı?
 
@@ -127,7 +127,12 @@ Tam liste `ek/KULLIYAT_HARITASI.md` dosyasında; burada her türden birkaç eser
 
 **Doğrulama kapsamı**
 
-<!--DOGRULAMA-->
+- Ana raporda ve ek dosyada kullanılan 87 defter satırının tamamı, altı doğrulayıcı tarafından kaynağına bakılarak denetlendi: 45'i doğrulandı, 39'unda künye ya da ifade düzeltildi, 1'i yanlış atıftı ve düzeltildi, 2'sinin kaynağı açılamadı (ek dosyada işaretli).
+- Yanlış atıf şuydu: "İstanbul'da herkes çok sinirli" sözünü İstanbul'dan dönen birine yazmıştım; söz, işi için İzmir'den İstanbul'a taşınan birine ait.
+- Başlıca düzeltmeler: Yerasimos'un denemesi Pamuk'un kitabından önce yazılmış; Halikarnas Balıkçısı Bodrum'a cezası bitince kendi isteğiyle dönmüş; "vazgeçilmez bir kaos" İlhan Berk'in değil, onu inceleyen yazarın sözü; nüfus kaydı doğum yeri demek değil; Koçu'nun ansiklopedisi G harfinde kalmış; Akad üçlemesi 1973–75 arası.
+- Bir eleştirmen taslağı okudu ve 13 itiraz yazdı; hepsi işlendi. En önemli dördü: "zorla ya da seçerek gitme" ayrımı kendi örnekleriyle çelişiyordu ve değiştirildi; Kavafis'in şiiri teselli gibi sunulmuştu, uyarı olarak düzeltildi; İzmir'le kopan bağın hiç işlenmemişti, 6. içgörü bunun için eklendi; özlemini edebî bir alışkanlığa indirgeyen yorumlar çıkarıldı.
+- 70 kaynak bağlantısı betikle denetlendi: 64'ü açılıyor, 4'ü yayıncı engeli (tarayıcıda açılır), 2'si bu çalışma ortamından açılamadı.
+- Açık kalan: eserlerin kendisi (şiir kitapları, romanlar, filmler) bu çalışmada okunmadı ya da izlenmedi; anlatılanlar onları inceleyen kaynaklara dayanıyor. Satırların 19'u aynı eserin başka bir kaynağından, 7'si özetten görüldü. Satır satır kararlar `ek/DOGRULAMA.md` dosyasında.
 
 ## Kaynaklar
 
@@ -135,4 +140,10 @@ Tam liste `ek/KULLIYAT_HARITASI.md` dosyasında; burada her türden birkaç eser
 
 ## Devam notu
 
-<!--DEVAM-->
+1. **Bulunan:** İstanbul yazını büyük ölçüde şehirde otururken yazılmış bir yitirme yazını; ayrılığı kayba ya da dönüşüme çeviren gidiş biçimi değil, varılan yerde ne kurulduğu; dönüşün (eski şehrini yabancı bulmanın) edebiyatı neredeyse hiç taranamadı.
+2. **Dosyalar:** `RAPOR.md` (bu rapor) · `ek/KULLIYAT_HARITASI.md` (altı başlıkta 73 eser) · `ek/K3x_*.md` (sekiz kolun ham çıktıları) · `ek/defter.json` (189 satır) · `ek/DOGRULAMA.md` · `ek/elestiri_istanbul.md` · `ek/link_kontrol.csv`.
+3. **Yeniden üretim:** `ek/RAPOR_taslak.md` ve `ek/KULLIYAT_taslak.md` defter kimlikli kaynaklardır (atıflar köşeli parantez içinde K31-03 biçiminde durur); `python3 ek/rapor_derle.py derle <taslak> ek/defter.json <çıktı>` numaralı kaynaklara çevirir.
+4. **Açık işler:** eserlerin tam metinlerinden alıntı (Tanpınar, Hisar, Nâzım Hikmet, Sait Faik, Pamuk'un Türkçe cümleleri); şarkı sözleri; kadın yazarlar ile Rum, Ermeni, Yahudi yazarlar; eleştirmenin önerdiği beş eser; dönüş edebiyatı için ayrı bir tarama.
+5. **İlgili rapor:** `raporlar/2026-11-20_sehir_degistirme_psikolojisi/RAPOR.md` (aynı günün araştırmaya dayalı raporu).
+
+*Maliyet özeti: Seviye M olarak başladı, ilk dalgadan sonra L'nin alt ucuna yükseltildi (alıntılar ve şarkı sözleri kaynakta görülemediği için iki dar takip görevi eklendi) · 8 üretici (sonnet) + 6 doğrulayıcı (sonnet) + 1 eleştirmen (opus) = 15 ajan · 2 üretim dalgası + 1 doğrulama ve eleştiri turu · kontrol noktasını geçen üretici: 1 (36/35) · aşılan sınır: M'nin 6 üreticilik sınırı (8 üretici) · gövde yaklaşık 1.900 kelime.*

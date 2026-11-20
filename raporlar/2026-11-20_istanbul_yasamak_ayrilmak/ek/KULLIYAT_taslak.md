@@ -13,7 +13,7 @@
 | Tevfik Fikret, "Sis" | Şehri dumana gömen lanet; hedefi yönetim | [K31-07] |
 | Yahya Kemal, "Siste Söyleniş" | "Sis"e sevgi dolu yanıt | [K31-04] |
 | Yahya Kemal, "Sana dün bir tepeden baktım aziz İstanbul" diye başlayan şiir | Bir tepeden bütününe bakılan aziz şehir | [K31-03] |
-| Yahya Kemal, "Eylül Sonu" | Bu kıyıdan ayrılmanın ıstırabı | [K31-05] |
+| Yahya Kemal, "Eylül Sonu" | Sevilen kıyıdan ölümle ayrılmanın ıstırabı | [K31-05] |
 | Orhan Veli, "İstanbul'u Dinliyorum" | Gözler kapalı, içinden dinlenen şehir | [K31-01] |
 | Orhan Veli, "İstanbul Türküsü" | "Bir fakir Orhan Veli"nin kederli, martılı şehri | [K31-02] |
 | Attilâ İlhan, "İstanbul Ağrısı" | İzmirli şairin sövgüyle karışık bağlılığı | [K31-14] |
@@ -76,7 +76,7 @@
 |---|---|---|
 | "Gurbet Kuşları" (film, 1964) | Geliş ve tutunma | [K35-02] |
 | Lütfi Akad'ın göç üçlemesi (1973–75) | Köyden gelen ailelerin şehirde geçim mücadelesi | [K35-03] |
-| "Masumiyet" (film, 1997) | İstanbul, yalnızlığın duraklarından yalnızca biri | [K35-05] |
+| "Masumiyet" (film, 1997) | Ağırlığı İzmir'de geçen bir yalnızlık hikâyesi; İstanbul son durak | [K35-05] |
 | "Uzak" (film, 2002) | Kalabalıkta bağsızlık | [K35-01] |
 | "Duvara Karşı" (film, 2004) | İstanbul hem sığınak hem tehlikeli bir yer | [K35-09] |
 | "Issız Adam" (film, 2008) | Büyük şehirde bağlanamayan insan | [K35-06] |

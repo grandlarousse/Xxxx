@@ -72,3 +72,17 @@ Klasör: `2026-11-20_sehir_degistirme_psikolojisi/`
 - `ek/RAPOR_taslak.md`, `ek/rapor_derle.py`, `ek/defter_topla.py`, `ek/dogrulama_topla.py`, `ek/link_kontrol.py`, `ek/link_kontrol.csv`: Raporun defter kimlikli kaynağı ve üretim betikleri.
 
 Tıbbi tavsiye değildir.
+
+---
+
+# İstanbul'da yaşamak ve İstanbul'dan ayrılmak: yazılanlar ve çizilenler (20.11.2026)
+
+Klasör: `2026-11-20_istanbul_yasamak_ayrilmak/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, sekiz duraklık okuma ve izleme yolu, sekiz içgörü (özlem, iki bakış, küskünlük, kayıp ve dönüşüm, Kavafis ve Didion, dönüş, kişisel harita, gelenlerin şehri), külliyatın omurgası, emin olunmayanlar, doğrulama kapsamı.
+- `ek/KULLIYAT_HARITASI.md`: Altı başlıkta eser listesi (şiir; roman, öykü, anı; ayrılanlar; deneme ve şehir düşüncesi; film, dizi, müzik, fotoğraf; son on beş yılın yazıları).
+- `ek/K3x_*.md`, `ek/defter.json`: Sekiz kolun ham çıktıları ve iddia defteri (189 satır).
+- `ek/DOGRULAMA.md`, `ek/dogrulama/`, `ek/elestiri_istanbul.md`: Doğrulama kararları ve eleştirmenin itirazları.
+- `ek/RAPOR_taslak.md`, `ek/KULLIYAT_taslak.md` ve betikler: Raporun defter kimlikli kaynağı ve üretim araçları.
+
+Şehir değiştirme psikolojisi raporunun (aynı gün) edebiyat ve kültür tarafıdır.

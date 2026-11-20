@@ -32,6 +32,14 @@
   "parti": 22
  },
  {
+  "id": "K31-05",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Lakin vatandan ayrılışın ıstırabı zor. / Hiç dönmemek ölüm gecesinden bu sahile, / Bitmez bir özleyiştir, ölümden biter bile.",
+  "duzeltme": "Yahya Kemal 'Eylül Sonu'nda bu sahilden (Boğaz semtinden) ölümle ayrılığı düşünür: 'Lâkin vatandan ayrılışın ıztırâbı zor. / Hiç dönmemek ölüm gecesinden bu sâhile, / Bitmez bir özleyiştir, ölümden biter bile.' Son dize 'ölümden beter bile' değil, 'ölümden biter bile'dir (Çakmakcı'nın metnindeki yazım bozuk). Şiir yurtdışı özlemini değil, sevilen kıyıdan ölümle ayrılmayı anlatır; rapordaki 'bu kıyıdan ayrılmanın ıstırabı' ifadesi buna göre ölçülü tutulmalı.",
+  "parti": 26
+ },
+ {
   "id": "K31-07",
   "sonuc": "kısmen",
   "gordugum": "tam metin",
@@ -46,6 +54,14 @@
   "kanit": "Bu şehr-i Sıtanbûl ki bî-misl ü behâdur / Bir sengine yek-pâre Acem mülki fedâdur",
   "duzeltme": "",
   "parti": 24
+ },
+ {
+  "id": "K31-10",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Latifî'nin (ö. 1582) ilk kez 1524'te kaleme aldığı, 1574'te yeni bir önsöz yazarak III. Murad'a sunduğu ... konusuyla ve tarzıyla ilk ve tektir.",
+  "duzeltme": "",
+  "parti": 26
  },
  {
   "id": "K31-11",
@@ -87,6 +103,38 @@
   "kanit": "Uzanıp yıldızları tutsa elim / Bulur muyuz yeniden o cenneti?",
   "duzeltme": "",
   "parti": 22
+ },
+ {
+  "id": "K31-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Gözlerinde görüyorum İstanbul'u / Yağmurun en güzeli İstanbul'dadır. / Ağ çektiği saatte balıkçıların",
+  "duzeltme": "",
+  "parti": 26
+ },
+ {
+  "id": "K31-18",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Necip Fazıl, Canım İstanbul'da 'yedi tepe' imgesi ile Eyüp, Adalar, Topkapı, Kadıköy, Boğaz, Çamlıca, Üsküdar ... gibi mekân ve varlıkları bir arada anarak",
+  "duzeltme": "",
+  "parti": 26
+ },
+ {
+  "id": "K31-20",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "onun şiirinde İstanbul, işçileriyle, yoksullarıyla, açlarıyla, hastalarıyla, balıkçılarıyla ve kadınlarıyla vardır. Bu yaklaşım onun toplumcu kişiliğin yansıması",
+  "duzeltme": "Rapordaki cümle (işçilerin, yoksulların, balıkçıların şehri) Ulutaş'la uyumlu ve kalabilir. Ancak 'vazgeçilmez bir kaos' diye Narlı'ya atfedilen ifade Ulutaş makalesinde geçmiyor; raporda kullanılacaksa 'doğrulanmadı' etiketi gerekir.",
+  "parti": 26
+ },
+ {
+  "id": "K31-23",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Ergülen, şehir hayatının karmaşası karşısında kendini güvende hissedebileceği ve sığınabileceği bir dünya arar.",
+  "duzeltme": "",
+  "parti": 26
  },
  {
   "id": "K31-25",
@@ -177,6 +225,14 @@
   "parti": 23
  },
  {
+  "id": "K32-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Four prisoners in underground cells tell each other stories about the city; narrative shifts from the cells to Istanbul above ground; 2015; EBRD Prize 2018.",
+  "duzeltme": "",
+  "parti": 26
+ },
+ {
   "id": "K32-14",
   "sonuc": "doğrulandı",
   "gordugum": "tam metin",
@@ -207,6 +263,14 @@
   "kanit": "The city is divided between Fatih, which represents conservative Eastern life, and Harbiye, which symbolizes Westernization.",
   "duzeltme": "",
   "parti": 23
+ },
+ {
+  "id": "K32-20",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Parasız Yatılı 1971 (Bilgi), 1972 Sait Faik Hikâye Armağanı; 47'liler 1974, 1975 TDK Roman Ödülü (tr.wikipedia Füruzan)",
+  "duzeltme": "",
+  "parti": 26
  },
  {
   "id": "K33-01",
@@ -287,6 +351,14 @@
   "kanit": "most of Fanis's family was deported in 1964 ... Fanis and his parents were deported to Athens",
   "duzeltme": "Film 2003 yapımı; Boulmetis 1957 İstanbul doğumlu, ailesi 1964'te Yunanistan'a gönderildi. Fanis'in dönüşü Vikipedi'de 'üç on yıl sonra' geçer ('35 yıl' görülmedi). Film Yunanistan'ın Oscar adayı değil, Oscar'a gönderdiği film (başvurusu) olarak yazılmalı; adaylık görülmedi.",
   "parti": 22
+ },
+ {
+  "id": "K33-12",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Maria Iordanidou, 1963 Greek edition; English 2017, Denise Harvey, translator Norma Aynsley Sourmeli; set in Constantinople's Greek community.",
+  "duzeltme": "",
+  "parti": 26
  },
  {
   "id": "K33-15",
@@ -433,6 +505,14 @@
   "parti": 21
  },
  {
+  "id": "K35-05",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Masumiyet 1997, Zeki Demirkubuz; Yusuf moves to İzmir, later takes Çilem to Istanbul; prequel Kader 2006.",
+  "duzeltme": "Masumiyet'te (1997, Zeki Demirkubuz) hikâyenin ağırlığı İzmir'dedir; İstanbul Yusuf'un son durağıdır ve olay örgüsünde Ankara geçmez (Ankara yalnızca çekim yeri olarak anılıyor). 'İstanbul yalnızlığın duraklarından yalnızca biri' yorumu bu yüzden zayıf bir yorumdur; 'filmin ağırlığı İzmir'dedir, İstanbul son duraktır' denmeli.",
+  "parti": 26
+ },
+ {
   "id": "K35-06",
   "sonuc": "erişilemedi",
   "gordugum": "göremedim",
@@ -489,6 +569,14 @@
   "parti": 21
  },
  {
+  "id": "K35-20",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Looking at Pamuk's pictures you might be persuaded that some eternal Istanbul reigns in a world of ideal forms. That's not quite the case.",
+  "duzeltme": "Bir eleştirmen, Pamuk'un fotoğraflarına bakınca insanın ölümsüz bir İstanbul'un hüküm sürdüğüne inanabileceğini söyler, ama hemen ardından durumun öyle olmadığını ekler: karışık ve değişen görüntüler Osmanlı geçmişini bugüne bağlar. Ayrıca Pamuk uzaklaşan biri değil, kendi balkonundan bakan biridir; cümle onu 'uzaklaşanlar' arasında saymamalı.",
+  "parti": 26
+ },
+ {
   "id": "K36-01",
   "sonuc": "doğrulandı",
   "gordugum": "tam metin",
@@ -535,6 +623,14 @@
   "kanit": "İstanbul'da herkes çok sinirli. Gergin. (Ceyhun Yazıcı'ya ait; İzmir'den İş için İstanbul'a taşınan biri)",
   "duzeltme": "Cumhuriyet'te Günel Cantak'ın 11 Mayıs 2015 tarihli haberinde bu söz, İstanbul'dan dönen biri değil, işi için İzmir'den İstanbul'a taşınan Ceyhun Yazıcı'ya aittir. İstanbul'dan İzmir'e göç 16.458 kişi (TÜİK 2014) olarak doğru; 5-10 yıl sonra dönme isteği ise İK danışmanı Ekin Yazıcı'dan gelir. Orkun Bayar'a atfedilen ayrıntılar haberde bu söze bağlı değildir.",
   "parti": 22
+ },
+ {
+  "id": "K36-13",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Endişe, hüzün, sevinç ve şaşkınlığım beni allak bullak ediyordu",
+  "duzeltme": "Heidi Korkmaz'ın 'İstanbul'dan çıkış' (Bianet, 25 Eylül 2021) öyküsü, serinin ilk bölümü değil; önceki bölüme bağlantı veriyor ve 'Devam edecek...' ile bitiyor. Yaklaşık yirmi saatlik İstanbul-Dersim otobüs yolculuğu doğru; yazarın Kürt/Alevi kimliği sayfada görülmedi (yazar İsveç'te öğretmen).",
+  "parti": 26
  },
  {
   "id": "K36-14",
