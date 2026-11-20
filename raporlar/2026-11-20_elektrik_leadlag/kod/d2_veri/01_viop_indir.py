@@ -1,7 +1,7 @@
 """VİOP günlük bülten indirici + süzgeç (D2). Ham dosya indirilir, yalnız ilgili satırlar saklanır, ham dosya silinir.
 Saklanan satırlar (F_ ile başlayan vadeliler):
   - pay vadelisi: dayanak AKSEN.E ENJSA.E ODAS.E ASTOR.E ALARK.E
-  - XU030 endeks vadelisi: SOZLESME SINIFI D_XU030D
+  - XU030 endeks vadelisi: DAYANAK VARLIK D_XU030D (sınıf DE_BIST30_FUT; görev metnindeki 'sınıf D_XU030D' bülten sütununda aslında dayanak)
   - baz yük elektrik vadelileri: segment ENF, kod F_ELCBAS*
 Çıktı: $DATA/viop_filt/viop_YYYYMMDD.txt (utf-8; 1. satır başlık, sonrası süzülmüş satırlar), _status.json
 Kullanım: python3 -I 01_viop_indir.py   (8 eşzamanlı curl)
@@ -23,9 +23,9 @@ def days(a, b):
         d += dt.timedelta(days=1)
 
 def keep(f):
-    code, seg, cls, und = f[1].strip(), f[4].strip(), f[6].strip(), f[7].strip()
+    code, seg, cls, und = f[1].strip(), f[4].strip(), f[6].strip(), f[7].strip()  # sütunlar: 2 kod, 5 segment, 7 sınıf, 8 dayanak
     if not code.startswith("F_"): return False
-    return (und in UND) or (cls == "D_XU030D") or (seg == "ENF" and code.startswith("F_ELCBAS"))
+    return (und in UND) or (und == "D_XU030D") or (cls == "DE_BIST30_FUT") or (seg == "ENF" and code.startswith("F_ELCBAS"))
 
 def work(d):
     k = d.strftime("%Y%m%d")
@@ -65,7 +65,7 @@ def main():
     todo = [d for d in days(a, b) if status.get(d.strftime("%Y%m%d")) != "404"]
     print("todo", len(todo), flush=True)
     n = 0
-    with ThreadPoolExecutor(8) as ex:
+    with ThreadPoolExecutor(10) as ex:
         for k, res in ex.map(work, todo):
             with lock:
                 if res != "have": status[k] = res if res == "404" or not res.startswith("200") else "200"
