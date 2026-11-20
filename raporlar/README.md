@@ -57,3 +57,15 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# İzmir'de yeni sosyal çevre: topluluklar, etkinlikler ve haftalık plan (20.11.2026)
+
+Klasör: `2026-11-20_izmir_sosyal_cevre/`
+
+- `RAPOR.md`: Kısa yanıt, bu hafta yapılacaklar, haftalık iskelet, maliyet senaryoları, takvim, alan alan tablolar (dil ve yabancılar, gönüllülük, dans, spor ve doğa, sanat, oyun ve kitap, iş ve çevre, dış halka, uygulamalar), doğrulama kapsamı ve kaynaklar.
+- `ek/TUM_LISTE.md`: 698 satırlık iddia defteri, temaya göre; her satırda kaynak, güven, doğrulayıcı hükmü ve bağlantı durumu.
+- `ek/defter.json`, `ek/d1_*`, `ek/d2_*`, `ek/d3_*`: 34 üretici ajanın özet ve defterleri.
+- `ek/dogrulama/`: doğrulama girdileri, `sonuc.json` ve `SONUC.md` (244 satırın hükmü ve düzeltmeleri).
+- `ek/*.py`: sayfa okuma, defter toplama, link kontrolü ve rapor tamamlama betikleri.

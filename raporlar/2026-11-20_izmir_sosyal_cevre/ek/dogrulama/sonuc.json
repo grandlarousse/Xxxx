@@ -124,5 +124,1343 @@
   "duzeltme": "",
   "not": "Başvurular 9 Ekim'de kapandı, program 12 Ekim haftasında başladı; seviye tespit sınavı SMS ile.",
   "dogrulayici": "v12"
+ },
+ "1.03.20": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: 80€ katılım ücreti ve Bornova/Ege Üniversitesi bilgisi. Kaynak yalnızca 5-10 Mayıs 2026 Spring Agora İzmir'i doğruluyor (konum: 'İzmir', son değişiklik 24 Mart 2026).",
+  "not": "Yerel şubenin faal olduğu dolaylı çıkarım; üyelik bilgisi yok.",
+  "dogrulayici": "v02"
+ },
+ "2.03.16": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "WebFetch ile: %16,9; kadın %23,3, erkek %10,3; Haziran 2024. %70 üreticinin kendi hesabı, kabaca tutarlı.",
+  "dogrulayici": "v02"
+ },
+ "3.05.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Her parkurda limit 1500; sitede 'Kayıtlarımız kapanmıştır', 2027 tarihi yok.",
+  "dogrulayici": "v02"
+ },
+ "2.01.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Ham veride hasCost:false, recurrenceId var, createdTs 2026-05-30; 3 going / 2 interested; konum hesapla açılıyor.",
+  "dogrulayici": "v02"
+ },
+ "1.02.08": {
+  "hukum": "kısmen",
+  "duzeltme": "Etkinlik tekrarlanan bir serinin parçası: etkinlik kaydında recurrenceId var (seri 30 Mayıs 2026'da oluşturulmuş). Saat, ücretsizlik (hasCost:false) ve alıntı şehir sayfasının ham verisinde geçiyor.",
+  "not": "",
+  "dogrulayici": "v02"
+ },
+ "1.16.19": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Etkinlik bugün (20 Kasım 09:30). Kaynak 'free monthly events' diyor; kayıt şekli sayfada ayrıca görülmedi.",
+  "dogrulayici": "v02"
+ },
+ "2.06.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Adres, telefon ve '2 Years Affiliated' kaynakta var; ücret yok.",
+  "dogrulayici": "v02"
+ },
+ "3.08.16": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: Bıçakçı Han / Kemeraltı adresi. Kasım 2025'te kuruluş, herkese açık, ücretsiz kurslar ve yaklaşık 500 kişi doğru (haber tarihi 5.08.2026).",
+  "not": "",
+  "dogrulayici": "v02"
+ },
+ "3.08.09": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: Myvia 414 ve salsavida bilgisi (Bornova, 20:45). Dancevents: Perşembe 26 Kasım, 21:00-23:59, 250 TL, Dance Garage, Bayraklı, tekrarlanan.",
+  "not": "Başlıkta 'Istanbul Bayraklı' yazıyor ama mekan İzmir; site hatası.",
+  "dogrulayici": "v02"
+ },
+ "3.08.08": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "400 TL, 21:00-00:30, Cliff Venue Büyükpark Karşısı Bornova; 300 TL bu kaynakta yok (salsavida'ya ait).",
+  "dogrulayici": "v02"
+ },
+ "3.08.07": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Cuma 21:00, 'Price not announced', 1373. Sokak Konak, tekrarlanan; 20 Kasım bu sayfada görülmedi; 'Alsancak' kelimesi kaynakta geçmiyor.",
+  "dogrulayici": "v02"
+ },
+ "3.08.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Pasta Emma, 8788. Sokak Çiğli, Cumartesi 21:00, 250 TL, tekrarlanan.",
+  "dogrulayici": "v02"
+ },
+ "3.08.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Bornova Sahne Performance Hall, Süvari Caddesi, Salı 21:00, 250 TL, tekrarlanan.",
+  "dogrulayici": "v02"
+ },
+ "3.08.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Açıklamada 20:45-01:00, kayıtta 21:00; adres 367. Sokak Bornova; 300 TL + içecek, nakit.",
+  "dogrulayici": "v02"
+ },
+ "3.02.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "DHA 27.10.2026; 33 alan, tarih/saat/konuma göre başvuru, çevrim içi eğitim kaynakta var.",
+  "dogrulayici": "v02"
+ },
+ "3.02.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "%63,5 kadın, %59,6 18-30 yaş; ülke geneli.",
+  "dogrulayici": "v02"
+ },
+ "2.03.13": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynak: ters U ilişkisi var, ama en çok hareketliliği ölçüye göre farklı bağlar yarattı: ortak bağlantıyla ölçülünce orta zayıf bağlar, etkileşim yoğunluğuyla ölçülünce en zayıf bağlar.",
+  "not": "",
+  "dogrulayici": "v02"
+ },
+ "2.03.14": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "'over 20 million people over a 5-year period... 2 billion new ties and 600,000 new jobs' birebir.",
+  "dogrulayici": "v02"
+ },
+ "3.04.21": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Balçova eğitim merkezi adresi ve üyelik formu sitede var; en yeni görünen duyuru '2025 Kış Trofesi', güncellik belirsiz.",
+  "dogrulayici": "v02"
+ },
+ "2.03.12": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: ABD/Kanada. Özet yalnızca 'university students and crowdsourced adults' (N=1.897, yedi örneklem) diyor; üçte iki oranı doğru.",
+  "not": "",
+  "dogrulayici": "v02"
+ },
+ "1.03.19": {
+  "hukum": "kısmen",
+  "duzeltme": "Alıntı ve açıklık iddiası doğru. Kaynakta yok: üyeliğin yerel şube üzerinden yapıldığı. Sayfada yalnızca 30 ülkede 100'den fazla şehirde ağ olduğu yazıyor.",
+  "not": "Sayfa Ağustos 2026'da güncellenmiş.",
+  "dogrulayici": "v01"
+ },
+ "2.03.08": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Tablo 30: aile 49,8; komşu 28,2; arkadaş 10,3; iş 7,3; okul 3,7; internet 0,4.",
+  "dogrulayici": "v01"
+ },
+ "2.03.09": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "İş, arkadaş ve internet oranları İstanbul (11,1/13,3/0,6) ve Ankara'dan (8,6/10,9/0,3) yüksek.",
+  "dogrulayici": "v01"
+ },
+ "2.03.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Satır birebir tutuyor. Komşu payı 18,4. İnternette en yüksek yaş grubu 15-24 (%3,0).",
+  "dogrulayici": "v01"
+ },
+ "2.03.11": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Tablo: okul 18,0; iş 17,8; aile 24,6. Arkadaş çevresi de 24,5, yani ana kanallardan biri.",
+  "dogrulayici": "v01"
+ },
+ "3.02.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Birebir alıntı yok; tabloda 'İzmir | 2006 (Kuruluş Yılı)' yazıyor. Tel 0532 397 78 05, facebook.com/AKUTizmir.",
+  "dogrulayici": "v01"
+ },
+ "3.02.06": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Sayfa: 'sadece ikamet ettiğiniz bölgedeki ekibe başvuru'; bazı ekipler kabul etmiyor. 'Portal' sözcüğünü görmedim.",
+  "dogrulayici": "v01"
+ },
+ "1.15.19": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "/izmir/singles sayfasında yalnızca Altin Gün konseri var (21 Kasım 2026, İzmir Arena). 20 Kasım 2026'da kontrol edildi.",
+  "dogrulayici": "v01"
+ },
+ "1.16.04": {
+  "hukum": "kısmen",
+  "duzeltme": "Misafir katılımı, İzQ Girişimcilik Merkezi ve 1. ile 3. Salı 19:30 doğru (site.js). Son tarih 2026-07 değil: son kayıt 26.08.2026, son toplantı 18.08.2026 (932.).",
+  "not": "Ağustos'tan beri güncelleme yok. Gitmeden önce Instagram'dan teyit edilmeli.",
+  "dogrulayici": "v01"
+ },
+ "3.06.11": {
+  "hukum": "kısmen",
+  "duzeltme": "İçerik doğru. Ek bilgi: 80 mentör ve 115 genç katılmış. Son tarih 'bilinmiyor' değil: haber 22.03.2026'da yayımlanmış, 03.06.2026'da güncellenmiş.",
+  "not": "Yeni başvuru çağrısı haberde yok.",
+  "dogrulayici": "v01"
+ },
+ "2.03.04": {
+  "hukum": "kısmen",
+  "duzeltme": "355 MTurk katılımcısı, 112 birinci sınıf öğrencisi, 9 hafta ve öz bildirim doğru. Kaynakta (özet) yok: ABD örneklemi ve 'korelasyonel' nitelemesi; bunlar üreticinin çıkarımı.",
+  "not": "Crossref kaydı 15.03.2018.",
+  "dogrulayici": "v01"
+ },
+ "2.05.18": {
+  "hukum": "kısmen",
+  "duzeltme": "Saatler: Pazartesi-Cumartesi 09:00-20:30 (yalnız Pzt-Perş değil). Değişiklik en az 12 saat önce bildirilmeli. Tesis MultiSport kartı ağında.",
+  "not": "Alıntı, 100 m², 24 saat rezervasyon ve adres doğru.",
+  "dogrulayici": "v01"
+ },
+ "2.06.13": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Cumartesi 08:00-09:00 açık. Grup derslerinde en az 4 (fonksiyonel) ya da 2 (reformer) MS kartlı gerekiyor; 24 saat önce rezervasyon.",
+  "dogrulayici": "v01"
+ },
+ "2.03.17": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Yayın 09.03.2016; 'through or for an organization' ifadesi geçiyor. Bash 403 verdi, WebFetch ile açıldı.",
+  "dogrulayici": "v01"
+ },
+ "2.03.18": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "15 yaş ve üstü için; yayın 24.04.2024. Bash 403 verdi, WebFetch ile açıldı.",
+  "dogrulayici": "v01"
+ },
+ "1.06.19": {
+  "hukum": "kısmen",
+  "duzeltme": "Açılış 28.02.2026 doğru. Adres kaynakta var (Ergene, Tarihi Bornova Çarşısı girişi). Bu haberde üyelik yok; 'free' yalnız çamaşırhane için. Kaynağın tarihi 2026-02, 2026-05 değil.",
+  "not": "Merkez esas olarak üniversite öğrencilerine yönelik.",
+  "dogrulayici": "v01"
+ },
+ "1.05.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "14.05.2026: 30 AHBAP gönüllüsü üye oldu. Merkez 3 katlı, 250 m², esas olarak üniversite öğrencilerine yönelik.",
+  "dogrulayici": "v01"
+ },
+ "1.13.06": {
+  "hukum": "kısmen",
+  "duzeltme": "12 merkez, 25 branş ve 15-22 Eylül 2026 online başvuru doğru (kurs.bornova.bel.tr). Kaynakta yok: kaydın dönemlik olduğu.",
+  "not": "Başvuru dönemi kapandı; sonraki tarih sayfada yok.",
+  "dogrulayici": "v01"
+ },
+ "1.13.07": {
+  "hukum": "kısmen",
+  "duzeltme": "Sayılar doğru (4.020 kursiyer, 424 sınıf). 'Kalabalık ortam' yorumu desteklenmiyor: sınıf başına yaklaşık 9-10 kursiyer düşüyor.",
+  "not": "",
+  "dogrulayici": "v01"
+ },
+ "1.04.22": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "10 Kasım ve 2026-2027 duyuruları var; dil kursu görünmüyor. 'Ücretsiz' bilgisi kaynakta yok (genel kural).",
+  "dogrulayici": "v01"
+ },
+ "3.02.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "oku.py yalnızca çerez bandını getirdi, sayfa WebFetch ile okundu. Altbilgideki vakıf adresi: İşçiler Cad. Ege Mah. No:105/31 Konak/İzmir.",
+  "dogrulayici": "v03"
+ },
+ "2.03.15": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "N=54; ara sıra %55,6 + nadiren %27,8 = %83,4.",
+  "dogrulayici": "v03"
+ },
+ "3.05.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Proje Koordinasyon Ofisi İzmir'de. Proje AB finansmanlı, UN Women uyguluyor.",
+  "dogrulayici": "v03"
+ },
+ "3.05.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Adresler ana sayfada değil, espedal.org/iletisim/ sayfasında: Koşukavak Mah. 4169/2 Sk. No:5 Bornova; faaliyet merkezi Balçova Kent Ormanı.",
+  "dogrulayici": "v03"
+ },
+ "2.02.01": {
+  "hukum": "kısmen",
+  "duzeltme": "Alıntı kaynakta yok, arama özeti. Kaynak yalnızca İstanbul etkinliklerini listeliyor, İzmir'in yokluğunu kanıtlamaz. Bağımsız aramada da İzmir'de 2026 için speed dating çıkmadı; yalnız StartupCentrum 'Find Your Co-Founder İzmir' (iş ortağı arama, speed networking; geçmiş etkinlik).",
+  "not": "Olumsuz bulgu kesin değil; arama motoru Türkçe etkinlik sitelerini zayıf tarıyor.",
+  "dogrulayici": "v03"
+ },
+ "1.04.25": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 28.05.2026. 'Diğer merkezlerde sürüyor' bilgisi dolaylı: 15 ilçedeki 29 merkezin koordinasyonu Cengizhan'a taşındı. Yeniden açılış haberi bulunamadı.",
+  "dogrulayici": "v03"
+ },
+ "1.05.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 16.08.2026. 4. dönem başvurusunun Kasım'da hâlâ açık olup olmadığı teyit edilmedi.",
+  "dogrulayici": "v03"
+ },
+ "2.06.17": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: Gaziemir (mekân haberde geçmiyor). Kaynak ayrıca Türkiye'de üçüncü HYROX olduğunu yazıyor. Haber 24.09.2026.",
+  "not": "",
+  "dogrulayici": "v03"
+ },
+ "2.10.04": {
+  "hukum": "kısmen",
+  "duzeltme": "Bilgiler kaynakla uyuşuyor, ancak sayfadaki üç grubun hepsi bitmiş (sonuncusu 24 Mayıs 2026). 2026-27 dönemi için tarih yok. Yer: Folkart Towers, Folkart Çarşı (Bayraklı). Katılım için kimlik ve devam zorunlu.",
+  "not": "Gidilecek tarih yok; yeni çağrı izlenmeli.",
+  "dogrulayici": "v03"
+ },
+ "2.05.07": {
+  "hukum": "kısmen",
+  "duzeltme": "Gün, saat ve parklar kaynakla uyuşuyor; haber 28 Kasım 2025 tarihli, 2026'da sürdüğü teyit edilmedi. Kaynakta ayrıca: Gültepe Semt Merkezi salı-perşembe, Hatay Pazaryeri çarşamba-cuma.",
+  "not": "Aramaya göre Kılıç Reis Parkı yenilenecek; gitmeden belediyeden teyit edilmeli.",
+  "dogrulayici": "v03"
+ },
+ "1.16.17": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Adres: No:2A 288/5. Sokak, Bayraklı. 'Free registration' etiketi topluluk sayfasında. Yaklaşan Coffee Talk yok.",
+  "dogrulayici": "v03"
+ },
+ "1.16.16": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Bilet dış kayıtla: kommunity.com/gdg-izmir. Fiyat sayfada yok.",
+  "dogrulayici": "v03"
+ },
+ "3.06.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Geçmiş ücretsiz etkinlikler arasında 9 Mayıs 2026 Build with AI İzmir de var.",
+  "dogrulayici": "v03"
+ },
+ "2.03.22": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "oku.py 403 verdi, sayfa WebFetch ile okundu. Açık hava için 'two-thirds being male'. Yayın 10 Temmuz 2019.",
+  "dogrulayici": "v03"
+ },
+ "2.02.14": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "7,4 milyon, %55,18 ve Tinder 3,9 milyon kaynakta birebir geçiyor (Ocak 2022).",
+  "dogrulayici": "v03"
+ },
+ "3.01.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Macerapark Gençlik Yerleşkesi (Bornova). Ücret sayfada yazmıyor, 'genel kural' varsayım.",
+  "dogrulayici": "v03"
+ },
+ "3.01.16": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v03"
+ },
+ "3.01.17": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Başvuru Bizİzmir hesabıyla, uygulamanın kampanya bölümünden. Uygulama 2022'de başladı. Kampanyanın şu an açık olduğu teyit edilmedi.",
+  "dogrulayici": "v03"
+ },
+ "3.01.10": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: 24 Ekim 2026 Azmak Koyu–Seferihisar yürüyüşü. Sayfadaki rotalar: Homeros Vadisi, Efes–Mimas (Menderes Gölova–Klaros, Selçuk Çamlık–Şirince), Buca Gürlek Şelalesi; Kasım 2025–Şubat 2026. 521 genç ve kulüp üyeleri doğru.",
+  "not": "",
+  "dogrulayici": "v03"
+ },
+ "1.06.13": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: 'her cumartesi'. Sayfadaki Haziran 2026 tarihleri (4, 12, 17, 25) farklı günlere düşüyor. Kaynak: başvuru Genç İzmir üzerinden, katılımcı kontenjana göre belirleniyor; 18-30 yaş ve ücretsiz bilgisi doğru.",
+  "not": "",
+  "dogrulayici": "v03"
+ },
+ "3.01.09": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Sayfada son somut tarihler Haziran 2026 Efes Gece Müzeciliği; 'Başvurular Genç İzmir üzerinden' yazıyor.",
+  "dogrulayici": "v04"
+ },
+ "3.01.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Duyuruda başka dönem tarihi yok; 'başvurular' sekmesi ayrıca açılmadı.",
+  "dogrulayici": "v04"
+ },
+ "3.01.04": {
+  "hukum": "kısmen",
+  "duzeltme": "Online başvuru, SMS ile gelen seviye sınavı ve her merkezde 4 grup doğru. 'Ücretsiz' bu kaynakta yok.",
+  "not": "",
+  "dogrulayici": "v04"
+ },
+ "3.01.08": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynak 'her Cumartesi' diyor ama 15 Ekim 2026 perşembeye denk geliyor (Şirince-Meryem Ana-Efes Gece Müzeciliği). 24 Ekim rotası Azmak Koyu-Seferihisar doğa yürüyüşü. 18–30 yaş ve ücretsiz bilgisi bu duyuruda yok, gezi sayfasında var.",
+  "not": "10 Ekim başvurusunun Aşık Veysel'den alındığı doğru.",
+  "dogrulayici": "v04"
+ },
+ "1.06.11": {
+  "hukum": "kısmen",
+  "duzeltme": "18-30 yaş, üniversite öğrencisi ya da mezunu şartı ve 7-14 yaş çocuklara destek doğru. 'Belge yükleme' bu sayfada yok, SSS sayfasında (Sss/99) geçiyor.",
+  "not": "",
+  "dogrulayici": "v04"
+ },
+ "1.06.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Cumartesi 09:00-13:00, iki dönem tarihleri ve Aşık Veysel'de buluşup belediye araçlarıyla gitme bilgisi birebir doğru.",
+  "dogrulayici": "v04"
+ },
+ "3.01.11": {
+  "hukum": "kısmen",
+  "duzeltme": "Başvuru için üye girişi, takvim, saat ve buluşma bilgisi doğru. Uygulama mahalleleri (Balatçık, Doğançay, Onur–Yamanlar) bu sayfada yok, Mart 2026 tarihli Gucleniyoruz/29/134 sayfasından geliyor; yeni dönemde değişmiş olabilir.",
+  "not": "",
+  "dogrulayici": "v04"
+ },
+ "3.01.13": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "56+65+38=159 gönüllü, 68 aile, 106 çocuk.",
+  "dogrulayici": "v04"
+ },
+ "3.01.19": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Aşık Veysel için kaynakta 'Rekreasyon Alanı Temas Noktası', 506. Sk. No:1 yazıyor. Çiğli adresi: Balatçık Mah. 8914/8.",
+  "dogrulayici": "v04"
+ },
+ "3.01.01": {
+  "hukum": "kısmen",
+  "duzeltme": "15-30 yaş doğru. Üye Ol bağlantısının uyelik.izmir.bel.tr'ye gittiği HTML'de doğrulandı. 'Ücretsiz' SSS sayfasında yok.",
+  "not": "",
+  "dogrulayici": "v04"
+ },
+ "3.01.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v04"
+ },
+ "3.01.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Pi Gençlik Derneği, yurt dışından gelen gönüllüler ve altı uygulama noktası birebir geçiyor.",
+  "dogrulayici": "v04"
+ },
+ "2.02.17": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 9 Kasım 2026 tarihli; kararı EngelliWeb 4 Kasım'da duyurdu.",
+  "dogrulayici": "v04"
+ },
+ "1.04.18": {
+  "hukum": "açılamadı",
+  "duzeltme": "",
+  "not": "goethe.de her denemede 403 verdi. Arama özeti saatleri ve adresi destekliyor (Pzt-Per 11-18); 'herkese açık' teyit edilemedi.",
+  "dogrulayici": "v04"
+ },
+ "1.04.20": {
+  "hukum": "açılamadı",
+  "duzeltme": "",
+  "not": "403. Arama özeti 15.11.2026 20:00 AASSM Aman Aman'ı destekliyor; Su Günleri ve 'konuşma kulübü yok' teyit edilemedi.",
+  "dogrulayici": "v04"
+ },
+ "3.04.06": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 24.02.2026 tarihli; grubun bugün de etkin olduğu teyit edilemedi. '7'den 70'e' etkinlik katılımcıları için söylenmiş.",
+  "dogrulayici": "v04"
+ },
+ "2.01.11": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "İlanların çoğu MSKÜ/Muğla kaynaklı, bazıları şehirsiz genel etkinlik; İzmir ilanı görülmedi.",
+  "dogrulayici": "v04"
+ },
+ "1.10.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Sitede 'İzmir'de TYF akreditasyonuna sahip tek' merkez olduğu yazıyor; ücret görülmedi.",
+  "dogrulayici": "v04"
+ },
+ "1.09.06": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Duyurunun adı 'Yaz Dönemi' ama görseli 20.11.2026 tarihli; son seminer 19 Kasım civarında yapılmış görünüyor.",
+  "dogrulayici": "v04"
+ },
+ "1.09.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Afiş görselinden okundu; 15 Kasım rotası 'Güzelbahçe-Çatalkaya-Altın Vadi-Narlıdere'. Üç tarih de pazara denk geliyor.",
+  "dogrulayici": "v04"
+ },
+ "1.09.01": {
+  "hukum": "kısmen",
+  "duzeltme": "Alıntı ve Alsancak adresi (1463 Sokak No:21/A) doğru. Sayfa tarihsiz ve metin eski ('26 yıllık tarihinde', 1986 kuruluş, yani yaklaşık 2012). '2026-11' tarihi kaynakta yok, bu sezon teyit edilmedi.",
+  "not": "Güncel pazar programı için kulübün etkinlik sayfası ya da telefonu (0232 421 30 10) önerilir.",
+  "dogrulayici": "v05"
+ },
+ "2.06.02": {
+  "hukum": "kısmen",
+  "duzeltme": "'500'e yakın üye' ve kasım-mayıs her pazar konuk katılımı kaynakta var. 'Tek başına gelene açık' kaynakta yok. Metin eski (yaklaşık 2012), güncelliği teyit edilmedi.",
+  "not": "Adres: 1463 Sokak No:21/A Alsancak.",
+  "dogrulayici": "v05"
+ },
+ "1.13.01": {
+  "hukum": "kısmen",
+  "duzeltme": "Alıntı, Alsancak'taki dernek merkezi ve Google formu doğru. 'Herkese açık' kaynakta yok. 10 Ekim'de başlayan 5 haftalık seminer Kasım ortasında bitti, şu an katılınamaz. Kaynakta 'hafta içi' ile 'Cumartesi' çelişiyor.",
+  "not": "Saat '…00–14.00' diye kesik görünüyor.",
+  "dogrulayici": "v05"
+ },
+ "1.13.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Adres: Talatpaşa Bulvarı No:75 Kat:3 D:9 Alsancak; telefon 0232 464 32 12.",
+  "dogrulayici": "v05"
+ },
+ "1.04.06": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Her salı 10:00-13:00, 06.10.2026-29.06.2027; kayıt: mediatheque.izmir@ifturquie.org; ücret yazmıyor.",
+  "dogrulayici": "v05"
+ },
+ "1.04.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "9 gösterim doğru. 07.12 gösterimi pazartesi 19:00. 14 ve 17 Kasım gösterimleri geçti. IF öğrencileri ve öğretmenleri ücretsiz.",
+  "dogrulayici": "v05"
+ },
+ "2.09.03": {
+  "hukum": "kısmen",
+  "duzeltme": "7 Aralık pazartesi 19:00 (ücretsiz, yönetmen söyleşili), salı ya da cumartesi değil. 15 Aralık filmi İngilizce altyazılı, 'hepsi Türkçe altyazılı' doğru değil.",
+  "not": "Fiyatlar ve 30 dakika önce kapıda satış doğru; ödeme yalnız kredi kartıyla.",
+  "dogrulayici": "v05"
+ },
+ "2.09.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Festival bugün sürüyor, 21 Kasım'da bitiyor; rapor okunduğunda geçmiş olabilir.",
+  "dogrulayici": "v05"
+ },
+ "1.04.12": {
+  "hukum": "kısmen",
+  "duzeltme": "Takvimdeki tarihler doğru. 'French Cancan' adı ana sayfada görünmüyor; 08.12 19:00 girişi 'GÖSTERİ | Çocuklara ve yetişkinlere yönelik: ...' diye kesik.",
+  "not": "Takvimde başka atölyeler de var (çeviri, çizgi roman, masal saati).",
+  "dogrulayici": "v05"
+ },
+ "1.04.07": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "23 Kasım Pzt-Çar kuru içindir; Salı-Per kuru 24 Kasım'da, hafta sonu kuru 28 Kasım'da başlıyor. Adres: Cumhuriyet Blv. 152.",
+  "dogrulayici": "v05"
+ },
+ "1.04.14": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Blog girişi '22 Eyl' (yılsız) ama 2026 sezonu bağlamında. Düzenleyen İtalyan Dostluk ve Kültür Derneği.",
+  "dogrulayici": "v05"
+ },
+ "1.02.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "İstisnalar var: yer sınırlı, kayıt süresi dolmuş ya da yalnız abonelere/yeni gelenlere özel etkinlikler.",
+  "dogrulayici": "v05"
+ },
+ "1.02.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "'Temel üye yalnız resmi etkinliklere' bir çıkarım; kaynak da istisnalar (kadınlara özel gruplar) ve ek masraflar olabileceğini söylüyor.",
+  "dogrulayici": "v05"
+ },
+ "1.02.01": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta şu an 15 katılımcı görünüyor, 13 değil. Tarih, saat ve Pub Locale (Çıkmaz Sokak) doğru.",
+  "not": "",
+  "dogrulayici": "v05"
+ },
+ "1.15.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "9.456 üye, 8 aylık etkinlik, 13 ilgi grubu, 14 ev sahibi.",
+  "dogrulayici": "v05"
+ },
+ "1.15.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v05"
+ },
+ "3.07.04": {
+  "hukum": "kısmen",
+  "duzeltme": "Gösterilen kaynak 16–18 Ocak 2026'yı ve '8. kez' bilgisini veriyor. 2025'teki 25–26 Ocak tarihi bu kaynakta yok (yalnız gazetebirlik.com arama sonucunda). Kaynak, düzenleyeni Karaburun Belediyesi olarak gösteren genel bir haber.",
+  "not": "2027 tarihi aramada da bulunamadı.",
+  "dogrulayici": "v05"
+ },
+ "3.03.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Bayraklı Üst Geçit 07.45, Ege Üni. Kampüs 08.15. Ücret tutarı yazmıyor; pazar sabahı iptalde ücret alınıyor. Kayıt: 0530 308 7541.",
+  "dogrulayici": "v05"
+ },
+ "3.03.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Telefonla kayıt bilgisi program sayfasında değil, etkinlik sayfasında var. Adres: Tuna Mah. 1717 Sk. 82/C Karşıyaka.",
+  "dogrulayici": "v05"
+ },
+ "3.03.07": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v05"
+ },
+ "3.03.08": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: Kozak Yaylası kampı (sayfada geçmiyor). Ücret 'yok' değil, kaynakta belirtilmemiş. Tarihler doğru: 21-22.11 Leleg Yolu (Bodrum), 28-29.11 Uludağ, 19-20.12 Sandras; Likya Yolu etapları 03-04.10 ve 07-08.11.",
+  "not": "Program 17.06.2026 tarihli; ana sayfada Kasım etkinlikleri güncel listeleniyor.",
+  "dogrulayici": "v06"
+ },
+ "3.03.04": {
+  "hukum": "kısmen",
+  "duzeltme": "Alıntı birebir doğru ('yıllık aidatı 240 TL dir') ama SSS sayfası tarihsiz; tutarın 2026 için geçerli olduğu kaynakta yok, kulüpten teyit edilmeli.",
+  "not": "https ile açılmadı, http ile açıldı.",
+  "dogrulayici": "v06"
+ },
+ "3.03.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Ek koşul: yabancı gerçek kişilerin Türkiye'de yerleşme hakkı olmalı. Sayfa tarihsiz.",
+  "dogrulayici": "v06"
+ },
+ "3.01.18": {
+  "hukum": "kısmen",
+  "duzeltme": "Kurallar sayfada birebir var, ancak sayfa başında 'Genç Bilet kampanyası sona ermiştir', yerini Genç Bilet '23 aldı yazıyor; haklar 31.12.2022'ye kadar geçerliydi. Güncel kampanya kuralı olarak sunulmamalı.",
+  "not": "Sayfa 18 Mayıs 2023 tarihli; kampanya 12-30 yaş için.",
+  "dogrulayici": "v06"
+ },
+ "1.13.13": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Duyuru 25.08.2025; başvuru son tarihi 22.09.2025 geçti. 2026-27 için yeni alım duyurusu kaynakta yok. Güzelyalı adresi sayfada yazmıyor.",
+  "dogrulayici": "v06"
+ },
+ "1.11.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Adres ve telefonlar birebir. Sayfa tarihsiz; salon sitesi 503 verdi. Buz pisti yaz aylarında sökülüyor, gitmeden telefonla teyit edilmeli.",
+  "dogrulayici": "v06"
+ },
+ "2.07.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Görsel başlığı 2026-2027 Kış Spor Okulları; gün, saat, 2009 ve üstü, 1.750,00 TL birebir.",
+  "dogrulayici": "v06"
+ },
+ "2.07.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Salı-Perşembe ya da Çarşamba-Cuma; 2008 ve üstü; 1.500,00 TL birebir. Ücretin aylık mı dönemlik mi olduğu yazmıyor.",
+  "dogrulayici": "v06"
+ },
+ "3.04.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Görsel başlığında dönem 2026-2027 Kış Spor Okulları olarak yazıyor; yalnız ödeme periyodu (aylık/dönemlik) belirtilmemiş.",
+  "dogrulayici": "v06"
+ },
+ "2.07.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Tenis (Grup) Salı-Perşembe 2010 ve üstü, 750,00 TL; 2026-2027 Kış. Saat hücresi boş/uygulamada yayımlanacak.",
+  "dogrulayici": "v06"
+ },
+ "3.04.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Uygulamanın aktif olduğu tesisler: Buca Sosyal Yaşam Kampüsü, Celal Atik, Bornova Havuz İzmir, Bostanlı Rekreasyon Alanı.",
+  "dogrulayici": "v06"
+ },
+ "1.07.22": {
+  "hukum": "kısmen",
+  "duzeltme": "Atölyeler 3-6 Aralık'ta (4 gün, 20 atölye); 2 Aralık yalnızca milonga (Caminito). Milongalar her gece 22:00'de başlıyor; All Levels atölyeler var; ücret sayfada görülmedi.",
+  "not": "Mekânlar doğru: Caminito Art Studio, Piex Coworking, Havagazı Fabrikası.",
+  "dogrulayici": "v06"
+ },
+ "1.16.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Alıntı birebir; Archstone Hotel Alsancak. Sayfada tarih yok, güncellik sosyal medyadan teyit edilmeli.",
+  "dogrulayici": "v06"
+ },
+ "3.06.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Atatürk Cd. No:126 sayfa altbilgisinde var. 20 Kasım Aegean Career Summit bugün; sonraki 26 Kasım Claude 101.",
+  "dogrulayici": "v06"
+ },
+ "1.16.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "4, 18, 20, 26 Kasım etkinlikleri ve iki adres (Cumhuriyet Blv. No:120, Atatürk Cd. No:126) sayfada var; İZTO bağlantısı bu sayfada görülmedi.",
+  "dogrulayici": "v06"
+ },
+ "1.16.14": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "13 Mayıs 18.30-21.30, kayıt luma.com; listede 18 Kasım 2026 18:00 ve AI Founders Meetup #2 19 Ağustos 2026.",
+  "dogrulayici": "v06"
+ },
+ "1.13.20": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "MATCH ziyareti 7-8 Mayıs 2026 ve açık çağrı sayfada var; haftalık buluşma görülmemesi ana sayfayla tutarlı (olumsuz iddia, kesin değil).",
+  "dogrulayici": "v06"
+ },
+ "2.02.18": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 06.11.2026; dokuz platform listesi (HeeSay, Taimi, SCRUFF, Jack'd, Surge, ROMEO, BEARWWW, Shuggr, Daddyhunt). Hornet ve Grindr önceden engellenmiş.",
+  "dogrulayici": "v06"
+ },
+ "1.05.20": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 02.03.2026; kaynakta Gökdere geçiyor, ilçe adı yok; başvuru usulü yok.",
+  "dogrulayici": "v06"
+ },
+ "3.02.03": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: 'Bornova' (haber yalnız Gökdere diyor). Gerisi doğru: Bakımevi Gönül İşi Projesi, gönüllü üniversite öğrencileri, başkanın çağrısı; başvuru usulü yok.",
+  "not": "Gökdere'nin Bornova'da olduğu genel bilgi, bu kaynakla teyit edilmedi.",
+  "dogrulayici": "v06"
+ },
+ "2.04.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 16/05/2025; 16-25 yaş (2000-2009 doğumlu), 3 etkinlik, 48 saat, mekânlar teyitli. 2026 dönemi bu kaynakta yok.",
+  "dogrulayici": "v07"
+ },
+ "2.04.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "2025 kuralı. İkinci etap duyurusu izmir.art üzerinden yapılacağı yazıyor, başvuru değil.",
+  "dogrulayici": "v07"
+ },
+ "1.06.16": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 18/05/2026; 22-28 yaş, 115 genç, 80 mentör. Başvuru yolu kaynakta yok.",
+  "dogrulayici": "v07"
+ },
+ "2.08.07": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 15/11/2025; Buca Işılay Saygın Meydanı, İzmirli Kahve. Etkinlik geçmişte kaldı.",
+  "dogrulayici": "v07"
+ },
+ "2.05.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 16/10/2026; üç salon, 09.00, ücretsiz, kış boyunca teyitli.",
+  "dogrulayici": "v07"
+ },
+ "2.06.05": {
+  "hukum": "kısmen",
+  "duzeltme": "Gün, saat, 20 kişi, 18-30 yaş, gencizmir.com teyitli; ancak kaynak 09/03/2025 tarihli; uygulamanın 2026'da sürdüğü kaynakta yok, şimdiki zamanla verilmemeli.",
+  "not": "",
+  "dogrulayici": "v07"
+ },
+ "3.07.16": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: 'Meslek Fabrikası kayıt sistemi'. Kaynağa göre kurs tarihleri ve kayıt bilgileri izbbmeslekfabrikasi Instagram hesabından duyuruluyor. Ücretsizlik bu kaynakta geçmiyor.",
+  "not": "Haber 27/08/2026; Temel Pastacılık gibi gastronomi kursları listeli.",
+  "dogrulayici": "v07"
+ },
+ "3.06.07": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "25 Temmuz 2026 16:30-18:00, Türkan Saylan KM 5. kat, 48 katıldı, kayıt kapandı, ücretsiz.",
+  "dogrulayici": "v07"
+ },
+ "3.06.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "13 Mayıs 2026, İzQ, 128 katıldı, akış birebir. Geçmiş etkinlik.",
+  "dogrulayici": "v07"
+ },
+ "1.08.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "maratonizmir.org 23 Aralık 2025 haberi; 2026 duyurusu sayfada yok.",
+  "dogrulayici": "v07"
+ },
+ "1.08.06": {
+  "hukum": "kısmen",
+  "duzeltme": "19. kez yapılan 10 km koşu teyitli (haber 23 Aralık 2025). Kaynakta yok: koşunun Menemen'de yapıldığı ve 'her aralık sonu' düzeni; kaynak yalnızca Menemen olayını anmak için düzenlendiğini söylüyor.",
+  "not": "",
+  "dogrulayici": "v07"
+ },
+ "3.05.09": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "13 Eylül 2026, 14. kez, yaklaşık 3 bin kayıt teyitli.",
+  "dogrulayici": "v07"
+ },
+ "3.05.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v07"
+ },
+ "1.16.02": {
+  "hukum": "kısmen",
+  "duzeltme": "18-30 yaş ve başvuru formu teyitli. Kaynakta yok: Bayraklı Coffeemania NEXT, ayın 2. ve 4. Perşembesi 19:30; bu sayfada ve ana sayfada toplantı yeri/saati görülmedi.",
+  "not": "Ana sayfa 2026-27 dönemi, güncel.",
+  "dogrulayici": "v07"
+ },
+ "2.01.07": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "6 Eylül Pazar (2026), Yakitap Güzelbahçe, 7 katılımcı, 557 üye; önceki Aralık 2016 Kadıköy.",
+  "dogrulayici": "v07"
+ },
+ "1.16.24": {
+  "hukum": "kısmen",
+  "duzeltme": "Coffee and Code: 'No upcoming events' teyitli, ama geçmiş etkinlik listesi boş görünüyor; 2022-08-21 tarihi görülemedi. .NET Sohbetleri ve JUG için bu kaynak bir şey söylemiyor.",
+  "not": "",
+  "dogrulayici": "v07"
+ },
+ "1.15.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "24 üye, yeni grup, 1 yaklaşan etkinlik, 1 katılımcı teyitli.",
+  "dogrulayici": "v07"
+ },
+ "2.01.01": {
+  "hukum": "kısmen",
+  "duzeltme": "Saat, mekân, ücretsiz, 18+, RSVP/WhatsApp teyitli. Ancak 'Reddit İzmir topluluğu' yalnızca 24 üyeli yeni grubun kendi ifadesi, 1 katılımcı; düzenleyen mekânlarla anlaşması olmadığını yazıyor. Bağımsız teyit bulunamadı.",
+  "not": "Albion adresi: Muzaffer İzgü Sk. no:22; Palavra Bar adresi verilmemiş.",
+  "dogrulayici": "v07"
+ },
+ "2.02.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Sayfa 'Grup bulunamadı' gösteriyor.",
+  "dogrulayici": "v07"
+ },
+ "3.07.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "İkincil rehber (Mes Prestiges), son inceleme Mayıs 2026; adres Kaleiçi Şadırvan Meydanı çevresi. Resmî teyit yok.",
+  "dogrulayici": "v07"
+ },
+ "2.03.27": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Alıntı birebir; sorumlular Alex Dehnert, Ginda Fisher, Macy Hogsett (safer-squares AT mit.edu).",
+  "dogrulayici": "v08"
+ },
+ "1.08.01": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yalnız salı 20:00 Bostanlı ve sokak lezzetleri adlı beş tempo grubu var. Perşembe, pazar patika, ücret, sosyal medyadan katılım ve yeni başlayana açıklık kaynakta yok; güncelleme tarihi yok.",
+  "not": "oku.py 403; WebFetch ile okundu.",
+  "dogrulayici": "v08"
+ },
+ "2.03.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber tarihi 28.03.2018; aralık olarak 40-60 ve 80-100 saat de veriliyor.",
+  "dogrulayici": "v08"
+ },
+ "2.03.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v08"
+ },
+ "2.03.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v08"
+ },
+ "3.05.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "27 Şubat 2027 ve Kaynaklar 6K, Gürlek 12K, Gökdere 20K, Karlık 40K sitede; geri sayım işliyor. Ücret ve ilçe görülmedi.",
+  "dogrulayici": "v08"
+ },
+ "2.03.20": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "'Only 7% of adults' ve 10% vs 5% (WebFetch ile). ABD verisi, Ekim 2025 anketi.",
+  "dogrulayici": "v08"
+ },
+ "1.03.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "15-30 alıntısı ana sayfada; adres ve 10.00-18.00 iletişim sayfasında.",
+  "dogrulayici": "v08"
+ },
+ "2.01.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "20/11/2026 tarihli duyurular görünüyor.",
+  "dogrulayici": "v08"
+ },
+ "3.01.22": {
+  "hukum": "kısmen",
+  "duzeltme": "10 belediye protokolü doğru. Kaynak, yerel faaliyetlerin yerel yönetimler, kamu kurumları ve STK'larla iş birliğiyle yürütüldüğünü söylüyor; konuşma kulüplerinin bu protokollerin ana kalemi olduğunu söylemiyor.",
+  "not": "",
+  "dogrulayici": "v08"
+ },
+ "3.01.26": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "20 Kasım'da 1 hikâye ve 4 pozisyon ilanı; 20.10.2026'da İzmir'e gelen ESC gönüllüsü Katy'nin yazısı var.",
+  "dogrulayici": "v08"
+ },
+ "3.01.21": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v08"
+ },
+ "3.01.23": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Ek şartlar: İzmir'de yaşamak, 15-30 yaş, haftada en az 2 gün.",
+  "dogrulayici": "v08"
+ },
+ "1.03.08": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: aynı şehirde olma şartı yok bilgisi bu sayfada geçmiyor. Bu bilgi ayrı bir SSS sayfasında: /tr/sss/gonderen-kurulusumla-ayni-sehirde-degilim-bu-sorun-yaratir-mi/ (açılmadı). Zorunluluk alıntısı doğru (18/12/2023).",
+  "not": "",
+  "dogrulayici": "v08"
+ },
+ "1.08.08": {
+  "hukum": "açılamadı",
+  "duzeltme": "",
+  "not": "redbull.com 5 denemede 403. 9 Mayıs 2027 tarihi arama özetleriyle teyit edildi (redbull.com/no-no ve ba-bs sayfaları). 2026 İnciraltı bilgisi doğrulanmadı.",
+  "dogrulayici": "v08"
+ },
+ "1.16.01": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynak: kuruluş 27.02.1987, charter 21.11.1996; yer Withco Bayraklı, 2. ve 4. hafta perşembe 19:30. 'Karma' ve sitesindeki üyelik çağrısı bu kaynakta yok; sayfada güncelleme tarihi yok.",
+  "not": "",
+  "dogrulayici": "v08"
+ },
+ "1.16.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Kuruluş 13.03.1992. Liste tarihsiz; kulübün kendi sitesi kontrol edilmedi.",
+  "dogrulayici": "v08"
+ },
+ "1.16.08": {
+  "hukum": "kısmen",
+  "duzeltme": "Sayfa gerçekten 18-30 ve Bölge 2440 için yaklaşık 700 üye diyor (8 il). Ancak Rotary International üst yaş sınırını 1 Temmuz 2020'de kaldırdı; kulüpler kendi sınırını koyabilir. Sayfa bu konuda eski.",
+  "not": "https://rotary.org/en/highlights-2019-rotary-council-legislation",
+  "dogrulayici": "v08"
+ },
+ "2.03.19": {
+  "hukum": "kısmen",
+  "duzeltme": "%50,24 kadın (2018) doğru. Ama kaynak 5K'larda katılımcıların yaklaşık %60'ının kadın olduğunu söylüyor; 'kadın ağırlıklı değil' yorumu kısa mesafeler için geçerli değil. Veri 2019 raporundan, küresel.",
+  "not": "",
+  "dogrulayici": "v08"
+ },
+ "1.13.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "SSS alıntısı birebir; ödeme kayıt kesinleşince ayrı bağlantıyla; Konak YKM ve Hilltown Karşıyaka adresleri sitede.",
+  "dogrulayici": "v08"
+ },
+ "2.10.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "18+ yetişkin, hafta içi+hafta sonu, bilgi formu, kayıt/ödeme ekiple, Konak YKM ve Hilltown sahneleri sayfada; ücret yok.",
+  "dogrulayici": "v09"
+ },
+ "1.07.01": {
+  "hukum": "kısmen",
+  "duzeltme": "Saat, adres ve her perşembe bilgisi doğru (sıradaki 26 Kasım 2026). Kaynakta yok: 'herkese açık, doğrudan gidilir' ve ücret; sayfa saatlerin değişebileceğini, organizatörle teyit edilmesini söylüyor.",
+  "not": "salsavida.com, organizatörün kendi sitesi değil.",
+  "dogrulayici": "v09"
+ },
+ "1.07.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Pazar 21:00-00:30, 300 TL (bir içecek dahil), Erzene Fevzi Çakmak Cad. No:25/C; sıradaki 22 Kasım 2026.",
+  "dogrulayici": "v09"
+ },
+ "2.02.11": {
+  "hukum": "kısmen",
+  "duzeltme": "~800K aktif kullanıcı doğru, ama kaynak bunun haftalık olduğunu söylemiyor. Liste gelire göre ilk 5; Azar ilk sırada. Tinder 'en büyük' yalnızca bu beşin aktif kullanıcısına göre.",
+  "not": "Yazı Sensor Tower'ın yapay zekâ ile yazdığı blog ('Timothy, Your Friendly Neighborhood AI').",
+  "dogrulayici": "v09"
+ },
+ "2.02.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Kaynak: çeyrek sonunda ~300K; Tinder ~800K, yani yarısından az.",
+  "dogrulayici": "v09"
+ },
+ "2.02.13": {
+  "hukum": "kısmen",
+  "duzeltme": "Rakamlar doğru (Tinder 312K'dan ~254K'ya, Bumble 151K). Kaynakta yok: Eylül 2025 engel haberi. 'Birinci' sıralaması gelire göre ilk 5 listesi; aktif kullanıcıda da Tinder en yüksek.",
+  "not": "",
+  "dogrulayici": "v09"
+ },
+ "2.04.26": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Songkick: 0 yaklaşan konser; son konserler 6 Kasım (Le Trio Joubran), 25 Ekim, 20 Ekim 2026. Resmî takvimle kontrol edilmedi.",
+  "dogrulayici": "v09"
+ },
+ "2.04.08": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Adres birebir; 5 Aralık Emre Aydın, 18 Aralık Murda; son geçmiş konser 13 Kasım 2026.",
+  "dogrulayici": "v09"
+ },
+ "2.04.11": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "18 Aralık 2026 Yayla Trio yaklaşan; Flashback 90'lar 15 Mayıs 2026 (geçmiş). Sayfada sokak adresi yok.",
+  "dogrulayici": "v09"
+ },
+ "3.01.25": {
+  "hukum": "açılamadı",
+  "duzeltme": "",
+  "not": "STGM 4 denemede 403 verdi. Arama özeti 8 Eylül 2024'ü ve 2024-25 dönemini teyit ediyor. pigenclikdernegi.org/en/pixel-team: çağrı her yıl eylülde açılıyor.",
+  "dogrulayici": "v09"
+ },
+ "1.08.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "'sosyalleşmeyi' hedefleyen spor topluluğu, 'Koşmak işin sadece ufak bi bahanesi', 3.004 üye; etkinlikler kayıtla görülüyor.",
+  "dogrulayici": "v09"
+ },
+ "2.03.25": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v09"
+ },
+ "2.03.26": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v09"
+ },
+ "1.07.13": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Pazar 16:00 Solo Jazz, 17:00 Lindy Hop, Mavi Garaj Stüdyo/Mavibahçe, ikisi de 3.000₺/ay; ücret ilk derste ödeniyor.",
+  "dogrulayici": "v09"
+ },
+ "1.07.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Çarşamba 20:00, 3.500₺, Mady Dans Umurbey 1501. Sk. No:2E; hiç dans etmemişlere açık; ücret ilk derste ödeniyor.",
+  "dogrulayici": "v09"
+ },
+ "1.07.14": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Alıntı birebir; formda rol tercihi soruluyor (leader, follower ya da bilmiyorum).",
+  "dogrulayici": "v09"
+ },
+ "1.07.19": {
+  "hukum": "kısmen",
+  "duzeltme": "Alsancak, butik gruplar, ön kayıt ve 'iki ayda' alıntısı doğru. Kaynakta yok: 1392. Sk. No:20 Kat 3 adresi. Site haftalık pratiği pazar antrenmanı diye anlatıyor; salı ve cuma saatleri TangoTR'de doğru.",
+  "not": "İletişim sayfası 401 veriyor; sitede tarih izi yok.",
+  "dogrulayici": "v09"
+ },
+ "3.08.13": {
+  "hukum": "kısmen",
+  "duzeltme": "Partnersiz katılım, 3 aylık temel müfredat, aylık ve sezonluk üyelik doğru. Kaynakta yok: Kültür Mah. 1392 Sok. No.20 adresi.",
+  "not": "En yeni yazı 29 Ağustos 2025; son tarih doğru, sayfa eski olabilir.",
+  "dogrulayici": "v09"
+ },
+ "1.07.16": {
+  "hukum": "kısmen",
+  "duzeltme": "20-26 Kasım takviminde 11 değil 10 etkinlik var (cuma 3, cumartesi 3, salı 2, çarşamba 1, perşembe 1). Hepsi KONAK olarak listelenmiş; Alsancak kaynakta yok.",
+  "not": "Ücret bilgisi yok, doğru.",
+  "dogrulayici": "v09"
+ },
+ "1.07.18": {
+  "hukum": "kısmen",
+  "duzeltme": "Cumartesi 16:00-20:00 ve 'Her Cumartesi buluşuyoruz' doğru. Takvimde ücret bilgisi yok; 'ücret yok' ücretsiz diye okunmasın, ücretsiz olduğu belirtilmiyor. Yeni başlayana uygunluk yorum.",
+  "not": "",
+  "dogrulayici": "v09"
+ },
+ "1.07.20": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynakta yok: ücret bilgisi ve 'iki ayrı takvim'. TangoTR'de yalnız tek tarihli kayıt var (20 Kasım 2026 21:30 – 21 Kasım 01:30, Konak, IDS İzmir Dance Studio). Haftalık tekrar edip etmediği gösterilmiyor.",
+  "not": "20 Kasım 2026 cuma; takvimde 'Bitti' etiketi bitişik kayıtta; ücretsiz denmemeli.",
+  "dogrulayici": "v10"
+ },
+ "3.06.15": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "ted.com: December 20, 2026, Izmir, 'open to the public'; etkinlik türü 'Countdown'; mekân/bilet bilgisi yok.",
+  "dogrulayici": "v10"
+ },
+ "1.05.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Sayfada 'Yeni dönem gönüllü başvurularımız sona erdi' yazıyor; 15-17 yaş istisnai, izin süreçli ve yüz yüze başvuru.",
+  "dogrulayici": "v10"
+ },
+ "1.05.06": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Listede İZMİR EŞREFPAŞA ÖĞRENİM BİRİMİ ve ÇİĞLİ EĞİTİM PARKI var; Bornova/Bayraklı/Karşıyaka noktası yok.",
+  "dogrulayici": "v10"
+ },
+ "2.08.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Son doğrulama: Nisan 2026; iletişim e-postası ve Instagram bağlantısı var.",
+  "dogrulayici": "v10"
+ },
+ "2.08.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Son doğrulama: Nisan 2026. 'En yakın nokta' yorumu üreticinin, kaynağın değil.",
+  "dogrulayici": "v10"
+ },
+ "2.08.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Son doğrulama: Nisan 2026.",
+  "dogrulayici": "v10"
+ },
+ "2.08.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Takvim: 21–22 Kasım, 19. İzmir Go Turnuvası, İzmir, 3. Sınıf; 'Tarihler değişebilir' uyarısı var, yer belirtilmemiş.",
+  "dogrulayici": "v10"
+ },
+ "1.15.08": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Türkiye altında yalnız Ankara, Istanbul.",
+  "dogrulayici": "v10"
+ },
+ "2.10.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Kayıt adımlarında 'görüşme veya kayıt adımları', WhatsApp'tan Sor, Bilgi Formu; gün/saat/ücret yok.",
+  "dogrulayici": "v10"
+ },
+ "1.01.08": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "1st & 3rd Thursday 8:00 PM, Archstone Hotel Alsancak, herkese açık, ücretsiz ziyaret; kuruluş 2019, güncellik tarihi sayfada yok.",
+  "dogrulayici": "v10"
+ },
+ "1.01.06": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Toplantı 2nd & 4th Thursday 19:30–21:30; konum notunda Tuesday çelişkisi gerçekten var, gitmeden teyit edilmeli. Kuruluş 30 Eylül 2026.",
+  "dogrulayici": "v10"
+ },
+ "1.16.11": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Kaynak: $72 USD semiannual dues + one-time $25 USD new member fee; ziyaret 'completely free'.",
+  "dogrulayici": "v10"
+ },
+ "2.03.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Tablo 1: Online 2%→39%, Friends 33%→20%, Family 15%→7%, coworkers 19%→11%.",
+  "dogrulayici": "v10"
+ },
+ "2.03.06": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Özetteki cümle birebir.",
+  "dogrulayici": "v10"
+ },
+ "2.03.07": {
+  "hukum": "kısmen",
+  "duzeltme": "Makale 'Figure 1'deki 2010 sonrası görünen artış'ın tümüyle çevrim içi tanışanlardan kaynaklandığını söylüyor; 1995–2017 %19→%27 farkının tamamına değil. Çevrim içi tanışanlar çıkarılınca bar/restoran 1995 sonrası anlamlı biçimde geriliyor.",
+  "not": "Tablo 1'de bar/restoran 19%→27% (z=2.38).",
+  "dogrulayici": "v10"
+ },
+ "2.02.15": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 13.12.2019; Gemius eylül raporu, 1 milyon 78 bin kullanıcı, yaklaşık %80 erkek.",
+  "dogrulayici": "v10"
+ },
+ "2.10.09": {
+  "hukum": "kısmen",
+  "duzeltme": "Kaynak 'yetişkinler' demiyor: eğitmen 'her yaştan kursiyerin yer aldığı' diyor. Grup 'müzik altyapısı veya enstrüman deneyimi olmayan, farklı mesleklerden kişiler'den oluşuyor. Konser Bornova Ayfer Feray Açıkhava Tiyatrosu'nda; 2023'te kuruldu.",
+  "not": "Çalışma yeri, gün ve ücret kaynakta yok.",
+  "dogrulayici": "v10"
+ },
+ "2.04.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 23.10.2026. Akustik Günler kalan tarihler: 23, 30 Kasım; 7, 14, 21, 28 Aralık; 10 Kasım geçti.",
+  "dogrulayici": "v10"
+ },
+ "1.03.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Saat kaynakta da var: her pazartesi 15.00-16.30; haber 26.10.2026; ücret yok.",
+  "dogrulayici": "v10"
+ },
+ "3.01.20": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 26.10.2026. Saat sayfada var: her pazartesi 15.00-16.30. Bilgi için 0232 439 10 10, dahili 3353/3354.",
+  "dogrulayici": "v11"
+ },
+ "2.05.09": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 18.10.2026, ilk duyurudan iki hafta sonra. Metinde 'Kadınların katılımına açık olan dersler' yazıyor, erkek katılımı belirsiz.",
+  "dogrulayici": "v11"
+ },
+ "2.05.08": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 04.10.2026. Duyuruda 'vatandaşlar' deniyor, cinsiyet kısıtı yok. Gün, saat ve mekânlar birebir tutuyor.",
+  "dogrulayici": "v11"
+ },
+ "3.08.19": {
+  "hukum": "kısmen",
+  "duzeltme": "Pazartesi ve çarşamba aynı grubun iki dersi değil, iki ayrı grup (19.00-20.00). Başvuru 12 Temmuz'a kadar Spor İzmir uygulamasından yapıldı. Haber 06.07.2026.",
+  "not": "Kış döneminde sürdüğüne dair bilgi kaynakta yok.",
+  "dogrulayici": "v11"
+ },
+ "2.09.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Alıntı birebir değil ama içerik doğru: tam 100 TL, indirimli 80 TL. Biletler gösterimden 30 dk önce girişte satılıyor; IF öğrencileri ücretsiz.",
+  "dogrulayici": "v11"
+ },
+ "2.05.04": {
+  "hukum": "kısmen",
+  "duzeltme": "İçerik doğru ama haber 23.08.2026 tarihli, yaz dönemine ait açık hava dersleri. Kasım ayında sürdüğü kaynakta yok; Spor İzmir uygulamasından teyit edilmeli.",
+  "not": "",
+  "dogrulayici": "v11"
+ },
+ "2.09.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 04.10.2026. Eğitmenler Emre Behiç Yavuz ve Tuğba Kılıçkaya; başvuru ve ücret bilgisi kaynakta yok.",
+  "dogrulayici": "v11"
+ },
+ "2.10.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Aynı kaynak (04.10.2026). Edebiyat, sinema ve tiyatro alanları doğru; yer, başvuru ve ücret bilgisi yok.",
+  "dogrulayici": "v11"
+ },
+ "2.10.05": {
+  "hukum": "kısmen",
+  "duzeltme": "Haber 01.10.2026. Koro henüz çalışmıyordu: yetenek sınavından sonra çalışmaya 'başlayacak'. Tolu 'kapasitemizin üzerinde başvuru aldık' diyor; başvuru kapanmış olabilir. Ücret kaynakta yok.",
+  "not": "",
+  "dogrulayici": "v11"
+ },
+ "1.05.01": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 10.10.2026. Başvuru bizvariz.izmir.bel.tr üzerinden, gençler ve mentör adayları için; mülakatlar sürüyor. Bugün de açık mı, teyit edilmeli.",
+  "dogrulayici": "v11"
+ },
+ "2.07.10": {
+  "hukum": "kısmen",
+  "duzeltme": "Haber 07.09.2026, yani eğitimler 19 Eylül 2026'da başladı. Son tarih 2026-09 olmalı. Ücret kaynakta hiç yok; 'ücretsiz' diye yazılmamalı.",
+  "not": "Yetişkin voleybol: MKA Spor Kompleksi (0232 324 73 63). Yüzme: Belediye Yüzme Havuzu.",
+  "dogrulayici": "v11"
+ },
+ "1.10.02": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 18.10.2026. Telefon: 0232 324 73 63. Gün, saat ve ücret kaynakta yok.",
+  "dogrulayici": "v11"
+ },
+ "1.06.22": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 27.08.2026. Kurslar eylülde başladı; şu an kayıt açık mı bilinmiyor. İngilizce A1 Çamdibi, EVKA-2 ve EVKA-4'te var.",
+  "dogrulayici": "v11"
+ },
+ "1.07.07": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 26.09.2026. Başvuru penceresi (29 Eylül-4 Ekim) kapandı; yeni katılım için sonraki dönem beklenmeli.",
+  "dogrulayici": "v11"
+ },
+ "3.08.17": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Kaynak 26.09.2026: iki grup, her biri 100 kişilik; farklı ülkelerin halk dansları da öğretiliyor.",
+  "dogrulayici": "v11"
+ },
+ "2.05.13": {
+  "hukum": "kısmen",
+  "duzeltme": "Tüm fiyatlar sayfada birebir var. Kaynakta yok: adres (1480 Sok. No:7). Sayfada tarih yok, ne kadar güncel olduğu doğrulanamadı.",
+  "not": "Deneme dersi yok; 'Ücretsiz Kayıt Ol' bir ders değil, hesap açma bağlantısı.",
+  "dogrulayici": "v11"
+ },
+ "2.05.14": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Paket '24 Yaş altı herkes için'. 24 yaşındaki kullanıcı bu ifadeye göre kapsam dışı; stüdyoya sorulmalı.",
+  "dogrulayici": "v11"
+ },
+ "1.03.05": {
+  "hukum": "kısmen",
+  "duzeltme": "Alıntı sayfada yok. İlan şimdi İtalya'dan 9 aylık gönüllü arıyor (01/09/2026-31/08/2027 döneminde toplam 40 hafta). Başvuru son tarihi 31/10/2026 geçti.",
+  "not": "Gönüllülerin atölyelere ve konuşma kulüplerine destek verdiği doğru (10 ilçe).",
+  "dogrulayici": "v11"
+ },
+ "1.05.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Alıntı ve adres youth.europa.eu'da var. 'Mezun Yetişkin' seçeneği orada değil, https://www.tog.org.tr/gonullu-ol/ sayfasında görüldü.",
+  "dogrulayici": "v11"
+ },
+ "3.06.21": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Sayfada 'Etkinlik Kapandı' yazıyor; 27 Nisan 2024, Sabancı Kültür Merkezi.",
+  "dogrulayici": "v11"
+ },
+ "1.01.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 16.11.2026: dört merkez, 15-30 yaş, ücretsiz kurs ve etkinlik.",
+  "dogrulayici": "ana ajan"
+ },
+ "3.08.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "eladans.com'da 'Yetişkin Ladies' sınıfı alıntıyla birebir.",
+  "dogrulayici": "ana ajan"
+ },
+ "2.01.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Bianet 13.07.2026 kuruluş haberi; İzmir bağlantısı ve kitap kulübü kaynakta yok (satır da böyle diyor).",
+  "dogrulayici": "ana ajan"
  }
 }

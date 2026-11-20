@@ -70,11 +70,15 @@ ids = []
 for m in re.finditer(r"`(\d\.\d\d\.\d\d)`", govde):
     if m.group(1) not in ids: ids.append(m.group(1))
 eksik = [i for i in ids if i not in by]
-K = ["Raporda kodu geçen defter satırları ve kaynakları. Bütün satırlar (698) ve kaynakları: `ek/TUM_LISTE.md`.", ""]
+K = ["Raporda kodu geçen defter satırları, kaynakları ve doğrulayıcının hükmü. Bütün satırlar (698) ve kaynakları: `ek/TUM_LISTE.md`.", ""]
 for i in sorted(ids):
     if i in by:
         u = by[i]["kaynak"].split()[0]
-        K.append(f"- `{i}` {g(by[i]['ad'])}: <{u}>")
+        vv = ver.get(i)
+        durum = "doğrulanmadı" if not vv else vv["hukum"]
+        if vv and vv["hukum"] != "doğru" and (vv.get("duzeltme") or vv.get("not")):
+            durum += " (" + g(vv.get("duzeltme") or vv.get("not"))[:160] + ")"
+        K.append(f"- `{i}` {g(by[i]['ad'])}: <{u}> · *{durum}*")
 blok = "\n".join(K)
 if "<!--KAYNAKLAR-->" in txt:
     txt = txt.replace("<!--KAYNAKLAR-->", "<!--KAYNAKLAR-BAS-->\n" + blok + "\n<!--KAYNAKLAR-SON-->")
