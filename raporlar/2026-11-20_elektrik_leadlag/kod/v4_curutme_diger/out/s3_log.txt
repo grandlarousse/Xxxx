@@ -1,0 +1,214 @@
+== 0. Yineleme (elib fwd_exec + per)
+S3    | yineleme: per, elib dolum                                  | IS         | n=   145 |     64.2 | t=  2.42 | bagimsiz=129
+S3    | yineleme: per, elib dolum                                  | OOS1       | n=    29 |    220.6 | t=  2.99 | bagimsiz=25
+S3    | yineleme: per, elib dolum                                  | KASA       | n=    16 |     41.3 | t=  0.79 | bagimsiz=14
+S3    | yineleme: per, elib dolum                                  | HAVUZ      | n=    45 |    156.7 | t=  3.01 | bagimsiz=39
+S3    | yineleme: kendi kisa kod (duz f3, per)                     | HAVUZ      | n=    45 |    157.3 | t=  3.02 | 
+== 1. Olaylar (2023+) ve en iyiler cikinca
+               per     ham  xu030  xelkt    zX    zE  xu030_f3   AKSEN   ENJSA    ODAS  bagimsiz
+date                                                                                            
+2023-02-27   211.0   231.0   3.18   0.06  1.04  0.02      85.0  -405.0  -167.0  1204.0      True
+2023-03-29  -331.0  -310.0   3.35  -2.67  1.10 -0.89    -209.0  -682.0   113.0  -423.0      True
+2023-05-26  1349.0  1369.0   3.71   1.10  1.63  0.50     630.0  1746.0  1027.0  1275.0      True
+2023-07-28   166.0   186.0   3.53   0.95  1.35  0.36     204.0   118.0   705.0  -326.0      True
+2023-08-04   106.0   126.0   2.74  -0.88  1.08 -0.35     295.0   122.0  -259.0   455.0      True
+2023-08-09   237.0   257.0   3.02   0.35  1.20  0.14     126.0   532.0    42.0   136.0      True
+2023-11-27  -528.0  -508.0   2.41   0.49  1.21  0.20    -163.0  -246.0  -464.0  -876.0      True
+2024-01-04   381.0   401.0   2.15   0.95  1.07  0.38     317.0   687.0   222.0   235.0      True
+2024-03-19  -190.0  -169.0   2.87   0.33  2.11  0.18     262.0  -231.0    98.0  -436.0      True
+2024-03-21  -245.0  -224.0   2.85  -1.64  2.16 -0.97    -340.0  -303.0  -226.0  -205.0     False
+2024-04-04  1139.0  1159.0   2.39  -0.60  1.81 -0.37     672.0  1119.0   916.0  1380.0      True
+2024-04-26   354.0   374.0   2.39   0.63  1.57  0.36     333.0   276.0   211.0   575.0      True
+2024-04-29   155.0   175.0   2.01  -0.72  1.31 -0.41     183.0   172.0  -130.0   422.0     False
+2024-05-17   107.0   128.0   3.54   0.76  2.29  0.43     324.0   277.0   228.0  -183.0      True
+2024-05-21    32.0    53.0   2.29  -1.40  1.43 -0.80    -240.0   385.0  -146.0  -142.0     False
+2024-07-03    87.0   107.0   2.96  -0.31  1.93 -0.19     162.0    65.0  -211.0   407.0      True
+2024-07-04  -242.0  -222.0   1.85   0.73  1.18  0.45    -119.0  -168.0  -434.0  -125.0     False
+2024-08-27   283.0   303.0   2.31   0.36  1.43  0.23     373.0   694.0   351.0  -196.0      True
+2024-09-24    70.0    90.0   1.93  -0.62  1.19 -0.38    -274.0   120.0   133.0   -42.0      True
+2024-12-03   266.0   286.0   1.89   0.71  1.13  0.47     225.0    36.0   188.0   573.0      True
+2024-12-25   445.0   465.0   3.15   0.63  1.95  0.45     -48.0   513.0   594.0   228.0      True
+2025-01-03  -234.0  -213.0   1.53   0.51  1.01  0.38    -180.0   -98.0  -460.0  -143.0      True
+2025-02-26   234.0   254.0   1.55   0.34  1.34  0.29     385.0   270.0   318.0   113.0      True
+2025-03-03   341.0   361.0   3.07  -0.19  2.61 -0.16     598.0  -409.0   804.0   628.0      True
+2025-03-12   323.0   343.0   1.63  -0.85  1.26 -0.72     182.0   318.0   123.0   527.0      True
+2025-03-24   402.0   422.0   3.14   0.82  1.56  0.45     295.0   529.0  -106.0   784.0      True
+2025-04-24   -63.0   -43.0   2.25   0.19  1.07  0.10    -290.0   -30.0  -297.0   138.0      True
+2025-06-03   531.0   551.0   3.30   0.98  1.54  0.49     420.0   354.0   460.0   779.0      True
+2025-06-27   616.0   637.0   1.48   0.58  1.05  0.42     884.0   240.0  1099.0   511.0      True
+2025-07-10   -29.0    -9.0   1.65   0.51  1.01  0.36    -238.0    97.0   124.0  -309.0      True
+2025-08-20   299.0   319.0   1.64  -0.28  1.10 -0.23     277.0  -240.0   483.0   653.0      True
+2025-09-19   212.0   232.0   2.85   0.44  1.70  0.32      61.0   274.0   533.0  -171.0      True
+2025-11-19    22.0    43.0   2.01  -0.06  1.19 -0.04     -43.0  -249.0   154.0   162.0      True
+2025-12-08     1.0    21.0   1.88   0.62  1.18  0.42      47.0    98.0  -112.0    16.0      True
+2026-01-05    23.0    43.0   1.80   0.44  1.48  0.37     300.0   176.0   -47.0   -60.0      True
+2026-01-06  -213.0  -192.0   2.94   0.36  2.37  0.31     103.0  -294.0    16.0  -361.0     False
+2026-01-16    27.0    47.0   1.89   0.30  1.68  0.29      -7.0   208.0   102.0  -230.0      True
+2026-01-23   614.0   635.0   1.19  -0.19  1.12 -0.18     317.0   558.0   261.0  1024.0      True
+2026-02-20   113.0   133.0   1.39   0.51  1.05  0.50     -33.0  -237.0   124.0   451.0      True
+2026-07-01   -10.0    10.0   1.97   0.41  1.05  0.22      62.0   411.0   -24.0  -418.0      True
+2026-08-12   258.0   279.0   3.30  -0.53  1.93 -0.29      59.0   231.0    22.0   522.0      True
+2026-09-07   178.0   198.0   1.73  -0.76  1.29 -0.60     217.0    39.0   301.0   193.0      True
+2026-09-08   -54.0   -34.0   2.23   0.29  1.65  0.23      84.0   -74.0   121.0  -208.0     False
+2026-09-17  -281.0  -260.0   4.16  -1.67  2.88 -1.20     -93.0   -10.0  -268.0  -565.0      True
+2026-10-05  -110.0   -90.0   1.66  -0.82  1.00 -0.47    -207.0  -107.0    -8.0  -215.0      True
+S3    | olay                                                       | 2023-02-27 | n=     1 |    210.6 | t=  None | XU030 +3.18%; XELKT +0.06%; zX 1.04; zE 0.02; uclu ham3g +231; XU030 3g +85
+S3    | olay                                                       | 2023-03-29 | n=     1 |   -330.7 | t=  None | XU030 +3.35%; XELKT -2.67%; zX 1.10; zE -0.89; uclu ham3g -310; XU030 3g -209
+S3    | olay                                                       | 2023-05-26 | n=     1 |   1349.2 | t=  None | XU030 +3.71%; XELKT +1.10%; zX 1.63; zE 0.50; uclu ham3g +1369; XU030 3g +630
+S3    | olay                                                       | 2023-07-28 | n=     1 |    165.7 | t=  None | XU030 +3.53%; XELKT +0.95%; zX 1.35; zE 0.36; uclu ham3g +186; XU030 3g +204
+S3    | olay                                                       | 2023-08-04 | n=     1 |    106.0 | t=  None | XU030 +2.74%; XELKT -0.88%; zX 1.08; zE -0.35; uclu ham3g +126; XU030 3g +295
+S3    | olay                                                       | 2023-08-09 | n=     1 |    236.9 | t=  None | XU030 +3.02%; XELKT +0.35%; zX 1.20; zE 0.14; uclu ham3g +257; XU030 3g +126
+S3    | olay                                                       | 2023-11-27 | n=     1 |   -528.4 | t=  None | XU030 +2.41%; XELKT +0.49%; zX 1.21; zE 0.20; uclu ham3g -508; XU030 3g -163
+S3    | olay                                                       | 2024-01-04 | n=     1 |    381.1 | t=  None | XU030 +2.15%; XELKT +0.95%; zX 1.07; zE 0.38; uclu ham3g +401; XU030 3g +317
+S3    | olay                                                       | 2024-03-19 | n=     1 |   -189.7 | t=  None | XU030 +2.87%; XELKT +0.33%; zX 2.11; zE 0.18; uclu ham3g -169; XU030 3g +262
+S3    | olay                                                       | 2024-03-21 | n=     0 |   -244.6 | t=  None | XU030 +2.85%; XELKT -1.64%; zX 2.16; zE -0.97; uclu ham3g -224; XU030 3g -340
+S3    | olay                                                       | 2024-04-04 | n=     1 |   1138.6 | t=  None | XU030 +2.39%; XELKT -0.60%; zX 1.81; zE -0.37; uclu ham3g +1159; XU030 3g +672
+S3    | olay                                                       | 2024-04-26 | n=     1 |    353.9 | t=  None | XU030 +2.39%; XELKT +0.63%; zX 1.57; zE 0.36; uclu ham3g +374; XU030 3g +333
+S3    | olay                                                       | 2024-04-29 | n=     0 |    154.7 | t=  None | XU030 +2.01%; XELKT -0.72%; zX 1.31; zE -0.41; uclu ham3g +175; XU030 3g +183
+S3    | olay                                                       | 2024-05-17 | n=     1 |    107.3 | t=  None | XU030 +3.54%; XELKT +0.76%; zX 2.29; zE 0.43; uclu ham3g +128; XU030 3g +324
+S3    | olay                                                       | 2024-05-21 | n=     0 |     32.3 | t=  None | XU030 +2.29%; XELKT -1.40%; zX 1.43; zE -0.80; uclu ham3g +53; XU030 3g -240
+S3    | olay                                                       | 2024-07-03 | n=     1 |     87.1 | t=  None | XU030 +2.96%; XELKT -0.31%; zX 1.93; zE -0.19; uclu ham3g +107; XU030 3g +162
+S3    | olay                                                       | 2024-07-04 | n=     0 |   -242.3 | t=  None | XU030 +1.85%; XELKT +0.73%; zX 1.18; zE 0.45; uclu ham3g -222; XU030 3g -119
+S3    | olay                                                       | 2024-08-27 | n=     1 |    282.6 | t=  None | XU030 +2.31%; XELKT +0.36%; zX 1.43; zE 0.23; uclu ham3g +303; XU030 3g +373
+S3    | olay                                                       | 2024-09-24 | n=     1 |     70.2 | t=  None | XU030 +1.93%; XELKT -0.62%; zX 1.19; zE -0.38; uclu ham3g +90; XU030 3g -274
+S3    | olay                                                       | 2024-12-03 | n=     1 |    265.8 | t=  None | XU030 +1.89%; XELKT +0.71%; zX 1.13; zE 0.47; uclu ham3g +286; XU030 3g +225
+S3    | olay                                                       | 2024-12-25 | n=     1 |    444.8 | t=  None | XU030 +3.15%; XELKT +0.63%; zX 1.95; zE 0.45; uclu ham3g +465; XU030 3g -48
+S3    | olay                                                       | 2025-01-03 | n=     1 |   -233.7 | t=  None | XU030 +1.53%; XELKT +0.51%; zX 1.01; zE 0.38; uclu ham3g -213; XU030 3g -180
+S3    | olay                                                       | 2025-02-26 | n=     1 |    233.7 | t=  None | XU030 +1.55%; XELKT +0.34%; zX 1.34; zE 0.29; uclu ham3g +254; XU030 3g +385
+S3    | olay                                                       | 2025-03-03 | n=     1 |    341.1 | t=  None | XU030 +3.07%; XELKT -0.19%; zX 2.61; zE -0.16; uclu ham3g +361; XU030 3g +598
+S3    | olay                                                       | 2025-03-12 | n=     1 |    322.5 | t=  None | XU030 +1.63%; XELKT -0.85%; zX 1.26; zE -0.72; uclu ham3g +343; XU030 3g +182
+S3    | olay                                                       | 2025-03-24 | n=     1 |    402.0 | t=  None | XU030 +3.14%; XELKT +0.82%; zX 1.56; zE 0.45; uclu ham3g +422; XU030 3g +295
+S3    | olay                                                       | 2025-04-24 | n=     1 |    -63.4 | t=  None | XU030 +2.25%; XELKT +0.19%; zX 1.07; zE 0.10; uclu ham3g -43; XU030 3g -290
+S3    | olay                                                       | 2025-06-03 | n=     1 |    530.9 | t=  None | XU030 +3.30%; XELKT +0.98%; zX 1.54; zE 0.49; uclu ham3g +551; XU030 3g +420
+S3    | olay                                                       | 2025-06-27 | n=     1 |    616.4 | t=  None | XU030 +1.48%; XELKT +0.58%; zX 1.05; zE 0.42; uclu ham3g +637; XU030 3g +884
+S3    | olay                                                       | 2025-07-10 | n=     1 |    -29.4 | t=  None | XU030 +1.65%; XELKT +0.51%; zX 1.01; zE 0.36; uclu ham3g -9; XU030 3g -238
+S3    | olay                                                       | 2025-08-20 | n=     1 |    298.7 | t=  None | XU030 +1.64%; XELKT -0.28%; zX 1.10; zE -0.23; uclu ham3g +319; XU030 3g +277
+S3    | olay                                                       | 2025-09-19 | n=     1 |    212.1 | t=  None | XU030 +2.85%; XELKT +0.44%; zX 1.70; zE 0.32; uclu ham3g +232; XU030 3g +61
+S3    | olay                                                       | 2025-11-19 | n=     1 |     22.4 | t=  None | XU030 +2.01%; XELKT -0.06%; zX 1.19; zE -0.04; uclu ham3g +43; XU030 3g -43
+S3    | olay                                                       | 2025-12-08 | n=     1 |      0.8 | t=  None | XU030 +1.88%; XELKT +0.62%; zX 1.18; zE 0.42; uclu ham3g +21; XU030 3g +47
+S3    | olay                                                       | 2026-01-05 | n=     1 |     22.8 | t=  None | XU030 +1.80%; XELKT +0.44%; zX 1.48; zE 0.37; uclu ham3g +43; XU030 3g +300
+S3    | olay                                                       | 2026-01-06 | n=     0 |   -212.7 | t=  None | XU030 +2.94%; XELKT +0.36%; zX 2.37; zE 0.31; uclu ham3g -192; XU030 3g +103
+S3    | olay                                                       | 2026-01-16 | n=     1 |     26.6 | t=  None | XU030 +1.89%; XELKT +0.30%; zX 1.68; zE 0.29; uclu ham3g +47; XU030 3g -7
+S3    | olay                                                       | 2026-01-23 | n=     1 |    614.3 | t=  None | XU030 +1.19%; XELKT -0.19%; zX 1.12; zE -0.18; uclu ham3g +635; XU030 3g +317
+S3    | olay                                                       | 2026-02-20 | n=     1 |    112.8 | t=  None | XU030 +1.39%; XELKT +0.51%; zX 1.05; zE 0.50; uclu ham3g +133; XU030 3g -33
+S3    | olay                                                       | 2026-07-01 | n=     1 |    -10.1 | t=  None | XU030 +1.97%; XELKT +0.41%; zX 1.05; zE 0.22; uclu ham3g +10; XU030 3g +62
+S3    | olay                                                       | 2026-08-12 | n=     1 |    258.4 | t=  None | XU030 +3.30%; XELKT -0.53%; zX 1.93; zE -0.29; uclu ham3g +279; XU030 3g +59
+S3    | olay                                                       | 2026-09-07 | n=     1 |    177.7 | t=  None | XU030 +1.73%; XELKT -0.76%; zX 1.29; zE -0.60; uclu ham3g +198; XU030 3g +217
+S3    | olay                                                       | 2026-09-08 | n=     0 |    -53.9 | t=  None | XU030 +2.23%; XELKT +0.29%; zX 1.65; zE 0.23; uclu ham3g -34; XU030 3g +84
+S3    | olay                                                       | 2026-09-17 | n=     1 |   -280.7 | t=  None | XU030 +4.16%; XELKT -1.67%; zX 2.88; zE -1.20; uclu ham3g -260; XU030 3g -93
+S3    | olay                                                       | 2026-10-05 | n=     1 |   -109.9 | t=  None | XU030 +1.66%; XELKT -0.82%; zX 1.00; zE -0.47; uclu ham3g -90; XU030 3g -207
+S3    | en iyi 0 gun haric (per)                                   | HAVUZ      | n=    45 |    156.7 | t=  3.01 | basit t=3.03; cikanlar: 
+S3    | en iyi 1 gun haric (per)                                   | HAVUZ      | n=    44 |    129.6 | t=  2.86 | basit t=2.88; cikanlar: 23-05-26
+S3    | en iyi 2 gun haric (per)                                   | HAVUZ      | n=    43 |    106.1 | t=  2.68 | basit t=2.70; cikanlar: 23-05-26,24-04-04
+S3    | en iyi 3 gun haric (per)                                   | HAVUZ      | n=    42 |     94.0 | t=  2.44 | basit t=2.46; cikanlar: 23-05-26,24-04-04,25-06-27
+S3    | en iyi 5 gun haric (per)                                   | HAVUZ      | n=    40 |     70.0 | t=  1.93 | basit t=1.94; cikanlar: 23-05-26,24-04-04,25-06-27,26-01-23,25-06-03
+S3    | en iyi 10 gun haric (per)                                  | HAVUZ      | n=    35 |     25.1 | t=  0.73 | basit t=0.72; cikanlar: 23-05-26,24-04-04,25-06-27,26-01-23,25-06-03,24-12-25,25-03-24,24-01-04,24-04-26,25-03-03
+S3    | yalniz bagimsiz olaylar (basit t)                          | HAVUZ      | n=    39 |    195.3 | t=  3.46 | medyan=178; isabet=0.77; sd=352
+S3    | bagimsiz olaylar, en iyi 3 haric (basit t)                 | HAVUZ      | n=    36 |    125.4 | t=  3.05 | 
+S3    | bagimsiz olaylar, en iyi 5 haric (basit t)                 | HAVUZ      | n=    34 |     99.0 | t=  2.54 | 
+S3    | gun duzeyi medyan / isabet (per)                           | HAVUZ      | n=    45 |    112.8 | t=  None | isabet per>0: 0.71; ham>0: 0.73
+S3    | yil (per, gun ort.)                                        | 2023       | n=     7 |    172.8 | t=  None | bagimsiz=7; ham=193
+S3    | yil (per, gun ort.)                                        | 2024       | n=    14 |    188.7 | t=  None | bagimsiz=10; ham=209
+S3    | yil (per, gun ort.)                                        | 2025       | n=    13 |    204.2 | t=  None | bagimsiz=13; ham=224
+S3    | yil (per, gun ort.)                                        | 2026       | n=    11 |     49.6 | t=  None | bagimsiz=9; ham=70
+== 2. Gecikme mi momentum mu
+S3    | ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)       | IS         | n=   150 |     54.3 | t=  2.62 | 
+S3    | XU030 beta korumali uclu (per)                             | IS         | n=   145 |     28.9 | t=  1.23 | ort beta=0.83
+S3    | (a) kosulsuz XU030 z>=1 -> uclu (per)                      | IS         | n=   478 |     21.9 | t=  1.24 | 
+S3    | (b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)               | IS         | n=   333 |      3.5 | t=  0.16 | 
+S3    | (c)-(b): gecikme kosulunun katkisi (Welch)                 | IS         | n=   145 |     60.7 | t=  1.83 | 
+S3    | (b) beta korumali                                          | IS         | n=   333 |     -6.5 | t= -0.36 | 
+S3    | (a) beta korumali                                          | IS         | n=   478 |      4.2 | t=  0.28 | 
+S3    | ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)       | OOS1       | n=    29 |    144.1 | t=  2.54 | 
+S3    | XU030 beta korumali uclu (per)                             | OOS1       | n=    29 |     79.3 | t=  1.62 | ort beta=0.89
+S3    | (a) kosulsuz XU030 z>=1 -> uclu (per)                      | OOS1       | n=   106 |    111.8 | t=  2.33 | 
+S3    | (b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)               | OOS1       | n=    77 |     75.9 | t=  1.33 | 
+S3    | (c)-(b): gecikme kosulunun katkisi (Welch)                 | OOS1       | n=    29 |    131.0 | t=  1.46 | 
+S3    | (b) beta korumali                                          | OOS1       | n=    77 |     73.0 | t=  1.82 | 
+S3    | (a) beta korumali                                          | OOS1       | n=   106 |     74.7 | t=  2.25 | 
+S3    | ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)       | KASA       | n=    16 |     25.1 | t=  0.62 | 
+S3    | XU030 beta korumali uclu (per)                             | KASA       | n=    16 |     43.4 | t=  0.91 | ort beta=0.86
+S3    | (a) kosulsuz XU030 z>=1 -> uclu (per)                      | KASA       | n=    52 |     69.5 | t=  1.46 | 
+S3    | (b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)               | KASA       | n=    36 |     71.2 | t=  1.17 | 
+S3    | (c)-(b): gecikme kosulunun katkisi (Welch)                 | KASA       | n=    16 |     -5.6 | t= -0.07 | 
+S3    | (b) beta korumali                                          | KASA       | n=    36 |     69.6 | t=  1.59 | 
+S3    | (a) beta korumali                                          | KASA       | n=    52 |     61.5 | t=  1.72 | 
+S3    | ayni gunlerde XU030 kendi 3g (donem ort. cikarilmis)       | HAVUZ      | n=    45 |    101.8 | t=  2.55 | 
+S3    | XU030 beta korumali uclu (per)                             | HAVUZ      | n=    45 |     66.5 | t=  1.85 | ort beta=0.88
+S3    | (a) kosulsuz XU030 z>=1 -> uclu (per)                      | HAVUZ      | n=   158 |     97.9 | t=  2.73 | 
+S3    | (b) XU030 z>=1 ve XELKT z>=0,5 -> uclu (per)               | HAVUZ      | n=   113 |     74.4 | t=  1.71 | 
+S3    | (c)-(b): gecikme kosulunun katkisi (Welch)                 | HAVUZ      | n=    45 |     82.2 | t=  1.26 | 
+S3    | (b) beta korumali                                          | HAVUZ      | n=   113 |     71.9 | t=  2.34 | 
+S3    | (a) beta korumali                                          | HAVUZ      | n=   158 |     70.4 | t=  2.78 | 
+== 3. Kiyas duyarliligi
+S3    | kiyas: ham                                                 | IS         | n=   145 |    107.0 | t=  4.01 | 
+S3    | kiyas: own (gecikmeli 250g)                                | IS         | n=   140 |     79.8 | t=   2.9 | 
+S3    | kiyas: merkezli +-60 gun ort.                              | IS         | n=   145 |     62.7 | t=  2.38 | 
+S3    | kiyas: ayni ayin diger gunleri                             | IS         | n=   145 |     50.4 | t=  1.97 | 
+S3    | kiyas: ham                                                 | OOS1       | n=    29 |    227.2 | t=  3.08 | 
+S3    | kiyas: own (gecikmeli 250g)                                | OOS1       | n=    29 |    182.1 | t=   2.4 | 
+S3    | kiyas: merkezli +-60 gun ort.                              | OOS1       | n=    29 |    205.2 | t=  2.82 | 
+S3    | kiyas: ayni ayin diger gunleri                             | OOS1       | n=    29 |    208.4 | t=  3.25 | 
+S3    | kiyas: ham                                                 | KASA       | n=    16 |     85.9 | t=  1.65 | 
+S3    | kiyas: own (gecikmeli 250g)                                | KASA       | n=    16 |     40.8 | t=  0.77 | 
+S3    | kiyas: merkezli +-60 gun ort.                              | KASA       | n=    16 |     45.5 | t=  0.88 | 
+S3    | kiyas: ayni ayin diger gunleri                             | KASA       | n=    16 |     62.8 | t=  1.03 | 
+S3    | kiyas: ham                                                 | HAVUZ      | n=    45 |    176.9 | t=   3.4 | 
+S3    | kiyas: own (gecikmeli 250g)                                | HAVUZ      | n=    45 |    131.9 | t=  2.47 | 
+S3    | kiyas: merkezli +-60 gun ort.                              | HAVUZ      | n=    45 |    148.4 | t=  2.87 | 
+S3    | kiyas: ayni ayin diger gunleri                             | HAVUZ      | n=    45 |    156.6 | t=  3.28 | 
+== 4. Karar ani
+XU030 17:30: isy_m5 ile yahoo_h1 ortak gun 137 ort |fark| bps 0.18910097982225865
+S3    | karar ani 17:00: sinyal 17:00 degeriyle, giris kapanis (per) | 2017-2022  | n=    54 |     86.6 | t=  1.81 | veri gunu=1494; kapanis sinyali=64; yakalanan=35 (55%); yanlis=19 (35%); kapanis sinyali ayni gunler per=95 (t 2.8); kacan per=74 (n 29); yanlis per=40 (n 19); XU030 kosulu hazir=64%; XELKT kosulu hazir=88%
+S3    | karar ani 17:00: sinyal 17:00 degeriyle, giris kapanis (per) | 2023+      | n=    38 |     92.7 | t=  1.45 | veri gunu=962; kapanis sinyali=45; yakalanan=26 (58%); yanlis=12 (32%); kapanis sinyali ayni gunler per=157 (t 3.0); kacan per=226 (n 19); yanlis per=63 (n 12); XU030 kosulu hazir=76%; XELKT kosulu hazir=82%
+S3    | karar ani 17:30: sinyal 17:30 degeriyle, giris kapanis (per) | 2017-2022  | n=    12 |    -97.0 | t= -1.39 | veri gunu=274; kapanis sinyali=12; yakalanan=9 (75%); yanlis=3 (25%); kapanis sinyali ayni gunler per=-69 (t -0.9); kacan per=73 (n 3); yanlis per=-40 (n 3); XU030 kosulu hazir=83%; XELKT kosulu hazir=92%
+S3    | karar ani 17:30: sinyal 17:30 degeriyle, giris kapanis (per) | 2023+      | n=    34 |     80.4 | t=  1.27 | veri gunu=722; kapanis sinyali=38; yakalanan=24 (63%); yanlis=10 (29%); kapanis sinyali ayni gunler per=154 (t 3.2); kacan per=193 (n 14); yanlis per=-40 (n 10); XU030 kosulu hazir=76%; XELKT kosulu hazir=87%
+S3    | karar ani 17:50: sinyal 17:50 degeriyle, giris kapanis (per) | 2017-2022  | n=    15 |     -7.0 | t= -0.09 | veri gunu=274; kapanis sinyali=12; yakalanan=11 (92%); yanlis=4 (27%); kapanis sinyali ayni gunler per=-69 (t -0.9); kacan per=-4 (n 1); yanlis per=179 (n 4); XU030 kosulu hazir=92%; XELKT kosulu hazir=100%
+S3    | karar ani 17:50: sinyal 17:50 degeriyle, giris kapanis (per) | 2023+      | n=     6 |      3.9 | t=  0.06 | veri gunu=136; kapanis sinyali=6; yakalanan=5 (83%); yanlis=1 (17%); kapanis sinyali ayni gunler per=-3 (t -0.0); kacan per=-110 (n 1); yanlis per=-68 (n 1); XU030 kosulu hazir=83%; XELKT kosulu hazir=100%
+S3    | karar ani 17:55: sinyal 17:55 degeriyle, giris kapanis (per) | 2017-2022  | n=    15 |    -21.7 | t= -0.31 | veri gunu=274; kapanis sinyali=12; yakalanan=11 (92%); yanlis=4 (27%); kapanis sinyali ayni gunler per=-69 (t -0.9); kacan per=-4 (n 1); yanlis per=123 (n 4); XU030 kosulu hazir=92%; XELKT kosulu hazir=100%
+S3    | karar ani 17:55: sinyal 17:55 degeriyle, giris kapanis (per) | 2023+      | n=     6 |      3.9 | t=  0.06 | veri gunu=136; kapanis sinyali=6; yakalanan=5 (83%); yanlis=1 (17%); kapanis sinyali ayni gunler per=-3 (t -0.0); kacan per=-110 (n 1); yanlis per=-68 (n 1); XU030 kosulu hazir=83%; XELKT kosulu hazir=100%
+S3    | karar ani 18:00: sinyal 18:00 degeriyle, giris kapanis (per) | 2017-2022  | n=    76 |     98.0 | t=  2.72 | veri gunu=1494; kapanis sinyali=64; yakalanan=59 (92%); yanlis=17 (22%); kapanis sinyali ayni gunler per=95 (t 2.8); kacan per=153 (n 5); yanlis per=126 (n 17); XU030 kosulu hazir=92%; XELKT kosulu hazir=100%
+S3    | karar ani 18:00: sinyal 18:00 degeriyle, giris kapanis (per) | 2023+      | n=    41 |    110.9 | t=  2.52 | veri gunu=962; kapanis sinyali=45; yakalanan=38 (84%); yanlis=3 (7%); kapanis sinyali ayni gunler per=157 (t 3.0); kacan per=387 (n 7); yanlis per=68 (n 3); XU030 kosulu hazir=91%; XELKT kosulu hazir=93%
+S3    | uclu: p_1700 -> resmi kapanis getirisi, sinyal gunleri     | HAVUZ      | n=    38 |     13.1 | t=  1.27 | diger gunler ort=-9.0 (n 691)
+S3    | uclu: p_1730 -> resmi kapanis getirisi, sinyal gunleri     | HAVUZ      | n=    38 |     -0.1 | t= -0.01 | diger gunler ort=-5.7 (n 691)
+S3    | uclu: p_son -> resmi kapanis getirisi, sinyal gunleri      | HAVUZ      | n=    21 |     -2.4 | t=  -0.7 | diger gunler ort=-2.7 (n 419)
+== 5. Vadeli ve maliyet
+S3    | vadeli AKSEN: uzlasma f3 - spot f3 (ayni olaylar)          | HAVUZ      | n=    37 |    -53.5 | t=  -5.9 | spot ham=192; vadeli ham=138; gunluk tasima (vadeli-spot getirisi, tum gunler)=-13.8 bps/gun; son fiyat 63.80 TL; 1 adim spot=8 bps, vadeli=2 bps; olay gunlerinde ort. adim spot=6, vadeli=2 bps
+S3    | vadeli ENJSA: uzlasma f3 - spot f3 (ayni olaylar)          | HAVUZ      | n=    37 |    -47.9 | t= -5.66 | spot ham=161; vadeli ham=113; gunluk tasima (vadeli-spot getirisi, tum gunler)=-13.7 bps/gun; son fiyat 111.60 TL; 1 adim spot=9 bps, vadeli=4 bps; olay gunlerinde ort. adim spot=7, vadeli=2 bps
+S3    | vadeli ODAS: uzlasma f3 - spot f3 (ayni olaylar)           | HAVUZ      | n=    37 |    -49.6 | t= -6.42 | spot ham=143; vadeli ham=93; gunluk tasima (vadeli-spot getirisi, tum gunler)=-14.9 bps/gun; son fiyat 4.35 TL; 1 adim spot=23 bps, vadeli=23 bps; olay gunlerinde ort. adim spot=15, vadeli=15 bps
+COST {'dusuk': {'spot': 10, 'AKSEN': 8, 'ENJSA': 10, 'ODAS': 25}, 'temel': {'spot': 25, 'AKSEN': 15, 'ENJSA': 18, 'ODAS': 35}, 'muhafazakar': {'spot': 50, 'AKSEN': 25, 'ENJSA': 25, 'ODAS': 45}}
+S3    | spot maliyet sonrasi net (islem basina per)                | OOS1       | n=    87 |    206.9 | t=  None | dusuk: maliyet 15 -> net 192; temel: maliyet 30 -> net 177; muhafazakar: maliyet 55 -> net 152
+S3    | spot maliyet sonrasi net (islem basina per)                | KASA       | n=    48 |     65.6 | t=  None | dusuk: maliyet 15 -> net 50; temel: maliyet 30 -> net 35; muhafazakar: maliyet 55 -> net 10
+S3    | spot maliyet sonrasi net (islem basina per)                | HAVUZ      | n=   135 |    156.7 | t=  None | dusuk: maliyet 15 -> net 142; temel: maliyet 30 -> net 127; muhafazakar: maliyet 55 -> net 102
+S3    | yilda olay sayisi (sinyal gunu / bagimsiz)                 | 2010-2026  | n=   195 |     None | t=  None | 2017:13/12; 2018:9/9; 2019:5/4; 2020:9/7; 2021:16/13; 2022:12/10; 2023:7/7; 2024:14/10; 2025:13/13; 2026:11/9; 2023+ yillik ort. bagimsiz=10.1
+== 6. Tek hisse ve en kotu olaylar
+S3    | tek hisse AKSEN (per)                                      | IS         | n=   145 |     59.6 | t=  1.86 | 
+S3    | tek hisse ENJSA (per)                                      | IS         | n=    51 |    111.8 | t=  2.44 | 
+S3    | tek hisse ODAS (per)                                       | IS         | n=    99 |    115.2 | t=  2.26 | 
+S3    | AKSEN haric ikili (per)                                    | IS         | n=    99 |    103.7 | t=  2.45 | 
+S3    | ENJSA haric ikili (per)                                    | IS         | n=   145 |     67.3 | t=  2.34 | 
+S3    | ODAS haric ikili (per)                                     | IS         | n=   145 |     58.1 | t=  2.21 | 
+S3    | tek hisse AKSEN (per)                                      | OOS1       | n=    29 |    206.9 | t=  2.29 | 
+S3    | tek hisse ENJSA (per)                                      | OOS1       | n=    29 |    163.1 | t=  1.98 | 
+S3    | tek hisse ODAS (per)                                       | OOS1       | n=    29 |    250.8 | t=  2.51 | 
+S3    | AKSEN haric ikili (per)                                    | OOS1       | n=    29 |    206.9 | t=  2.67 | 
+S3    | ENJSA haric ikili (per)                                    | OOS1       | n=    29 |    228.8 | t=  2.78 | 
+S3    | ODAS haric ikili (per)                                     | OOS1       | n=    29 |    185.0 | t=  2.45 | 
+S3    | tek hisse AKSEN (per)                                      | KASA       | n=    16 |     55.1 | t=  0.94 | 
+S3    | tek hisse ENJSA (per)                                      | KASA       | n=    16 |    111.5 | t=  2.18 | 
+S3    | tek hisse ODAS (per)                                       | KASA       | n=    16 |     30.3 | t=  0.29 | 
+S3    | AKSEN haric ikili (per)                                    | KASA       | n=    16 |     70.9 | t=  1.02 | 
+S3    | ENJSA haric ikili (per)                                    | KASA       | n=    16 |     42.7 | t=  0.67 | 
+S3    | ODAS haric ikili (per)                                     | KASA       | n=    16 |     83.3 | t=   2.1 | 
+S3    | tek hisse AKSEN (per)                                      | HAVUZ      | n=    45 |    152.9 | t=  2.44 | 
+S3    | tek hisse ENJSA (per)                                      | HAVUZ      | n=    45 |    144.7 | t=  2.58 | 
+S3    | tek hisse ODAS (per)                                       | HAVUZ      | n=    45 |    172.4 | t=  2.25 | 
+S3    | AKSEN haric ikili (per)                                    | HAVUZ      | n=    45 |    158.6 | t=  2.81 | 
+S3    | ENJSA haric ikili (per)                                    | HAVUZ      | n=    45 |    162.6 | t=  2.74 | 
+S3    | ODAS haric ikili (per)                                     | HAVUZ      | n=    45 |    148.8 | t=  2.91 | 
+S3    | en kotu 6 olay (uclu ham 3g)                               | HAVUZ      | n=    45 |   -289.8 | t=  None | 2023-11-27:-508; 2023-03-29:-310; 2026-09-17:-260; 2024-03-21:-224; 2024-07-04:-222; 2025-01-03:-213
+S3    | en kotu 5 tek hisse islemi (ham 3g)                        | HAVUZ      | n=   135 |   -604.2 | t=  None | 2023-11-27 ODAS:-892; 2023-03-29 AKSEN:-658; 2026-09-17 ODAS:-581; 2024-03-19 ODAS:-452; 2023-03-29 ODAS:-439
+S3    | ham 3g dagilimi (islem)                                    | HAVUZ      | n=   135 |    176.9 | t=  None | %5=-409; %25=-158; medyan=146; %75=407; kazanan=0.64; sd=436
+S3    | t+1 kapanisindan giris (per)                               | OOS1       | n=    29 |     58.9 | t=  0.94 | 
+S3    | t+1 kapanisindan giris (per)                               | KASA       | n=    16 |     71.7 | t=  0.95 | 
+S3    | t+1 kapanisindan giris (per)                               | HAVUZ      | n=    45 |     63.4 | t=  1.31 | 

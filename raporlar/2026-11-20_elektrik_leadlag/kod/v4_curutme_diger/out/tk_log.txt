@@ -1,0 +1,335 @@
+== 7. T1/T2: secim suzgeci olarak deger
+T1    | yineleme: sec, elib dolum (cikis ertelemeli)               | IS         | n=  2764 |      4.6 | t=  1.37 | islem=6788; islem ort=6.2; isabet=0.48; medyan=-10; gunde=2.5 
+T1    | yineleme: sec, elib dolum (cikis ertelemeli)               | OOS1       | n=   619 |     24.7 | t=  5.81 | islem=3929; islem ort=23.0; isabet=0.46; medyan=-15; gunde=6.3 
+T1    | yineleme: sec, elib dolum (cikis ertelemeli)               | KASA       | n=   351 |     40.6 | t=  7.35 | islem=2797; islem ort=42.8; isabet=0.52; medyan=9; gunde=8.0 
+T1    | yineleme: sec, elib dolum (cikis ertelemeli)               | HAVUZ      | n=   970 |     30.5 | t=  9.02 | islem=6726; islem ort=31.2; isabet=0.49; medyan=-5; gunde=6.9 
+T1    | duz f1, kiyas=diger dolabilirler                           | IS         | n=  2764 |      5.5 | t=  1.78 | islem=6788; islem ort=7.4; isabet=0.48; medyan=-11; gunde=2.5 
+T1    | duz f1, kiyas=diger dolabilirler                           | OOS1       | n=   619 |     22.9 | t=  5.46 | islem=3929; islem ort=21.3; isabet=0.46; medyan=-17; gunde=6.3 
+T1    | duz f1, kiyas=diger dolabilirler                           | KASA       | n=   351 |     19.4 | t=   4.5 | islem=2797; islem ort=19.8; isabet=0.48; medyan=-11; gunde=8.0 
+T1    | duz f1, kiyas=diger dolabilirler                           | HAVUZ      | n=   970 |     21.6 | t=  6.99 | islem=6726; islem ort=20.7; isabet=0.47; medyan=-14; gunde=6.9 
+T1    | duz f1, cokus hisseleri (BIGEN LYDYE MAGEN ESEN) kiyas ve secimden cikarildi | IS         | n=  2764 |      4.4 | t=  1.32 | islem=6240; islem ort=5.7; isabet=0.47; medyan=-13; gunde=2.3 
+T1    | duz f1, cokus hisseleri (BIGEN LYDYE MAGEN ESEN) kiyas ve secimden cikarildi | OOS1       | n=   619 |     22.4 | t=  5.21 | islem=3528; islem ort=20.4; isabet=0.46; medyan=-18; gunde=5.7 
+T1    | duz f1, cokus hisseleri (BIGEN LYDYE MAGEN ESEN) kiyas ve secimden cikarildi | KASA       | n=   351 |     13.3 | t=  3.12 | islem=2581; islem ort=13.7; isabet=0.47; medyan=-14; gunde=7.4 
+T1    | duz f1, cokus hisseleri (BIGEN LYDYE MAGEN ESEN) kiyas ve secimden cikarildi | HAVUZ      | n=   970 |     19.1 | t=  6.07 | islem=6109; islem ort=17.6; isabet=0.47; medyan=-16; gunde=6.3 
+T1    | duz f1, kiyas=bugun tabana degmemisler                     | IS         | n=  2754 |      5.8 | t=   1.9 | islem=6714; islem ort=7.4; isabet=0.47; medyan=-12; gunde=2.4 
+T1    | duz f1, kiyas=bugun tabana degmemisler                     | OOS1       | n=   619 |     19.4 | t=  4.58 | islem=3895; islem ort=18.5; isabet=0.45; medyan=-20; gunde=6.3 
+T1    | duz f1, kiyas=bugun tabana degmemisler                     | KASA       | n=   351 |      8.3 | t=  1.94 | islem=2780; islem ort=8.6; isabet=0.46; medyan=-19; gunde=7.9 
+T1    | duz f1, kiyas=bugun tabana degmemisler                     | HAVUZ      | n=   970 |     15.4 | t=  4.93 | islem=6675; islem ort=14.4; isabet=0.46; medyan=-20; gunde=6.9 
+T1    | duz f1, kiyas=son 5 gunde taban kapanisi olmayanlar        | IS         | n=  2751 |      5.1 | t=  1.66 | islem=6659; islem ort=6.5; isabet=0.47; medyan=-14; gunde=2.4 
+T1    | duz f1, kiyas=son 5 gunde taban kapanisi olmayanlar        | OOS1       | n=   618 |     17.2 | t=  3.88 | islem=3830; islem ort=17.2; isabet=0.45; medyan=-21; gunde=6.2 
+T1    | duz f1, kiyas=son 5 gunde taban kapanisi olmayanlar        | KASA       | n=   351 |      6.7 | t=  1.56 | islem=2723; islem ort=7.4; isabet=0.46; medyan=-18; gunde=7.8 
+T1    | duz f1, kiyas=son 5 gunde taban kapanisi olmayanlar        | HAVUZ      | n=   969 |     13.4 | t=  4.15 | islem=6553; islem ort=13.1; isabet=0.45; medyan=-20; gunde=6.8 
+T1    | rastgele dolabilir hisseye gore (secilen ort − evren ort), duz f1 | IS         | n=  2764 |      5.0 | t=  1.81 | gun isabeti=0.49
+T1    | rastgele dolabilir hisseye gore (secilen ort − evren ort), duz f1 | OOS1       | n=   619 |     22.0 | t=  5.46 | gun isabeti=0.57
+T1    | rastgele dolabilir hisseye gore (secilen ort − evren ort), duz f1 | KASA       | n=   351 |     18.9 | t=   4.5 | gun isabeti=0.58
+T1    | rastgele dolabilir hisseye gore (secilen ort − evren ort), duz f1 | HAVUZ      | n=   970 |     20.9 | t=  6.99 | gun isabeti=0.58
+T1    | rastgele hisseye gore, cokus hisseleri haric               | IS         | n=  2764 |      4.0 | t=  1.35 | gun isabeti=0.49
+T1    | rastgele hisseye gore, cokus hisseleri haric               | OOS1       | n=   619 |     21.4 | t=  5.21 | gun isabeti=0.57
+T1    | rastgele hisseye gore, cokus hisseleri haric               | KASA       | n=   351 |     12.9 | t=  3.12 | gun isabeti=0.55
+T1    | rastgele hisseye gore, cokus hisseleri haric               | HAVUZ      | n=   970 |     18.4 | t=  6.07 | gun isabeti=0.56
+T1    | rastgele hisseye gore, kiyas=son 5 gunde tabansiz          | IS         | n=  2756 |      4.5 | t=  1.66 | gun isabeti=0.49
+T1    | rastgele hisseye gore, kiyas=son 5 gunde tabansiz          | OOS1       | n=   618 |     16.7 | t=  3.95 | gun isabeti=0.55
+T1    | rastgele hisseye gore, kiyas=son 5 gunde tabansiz          | KASA       | n=   351 |      6.5 | t=  1.57 | gun isabeti=0.51
+T1    | rastgele hisseye gore, kiyas=son 5 gunde tabansiz          | HAVUZ      | n=   969 |     13.0 | t=  4.21 | gun isabeti=0.54
+T1    | MEDYAN hisseye gore (secilen ort − evren medyani), duz f1  | IS         | n=  2764 |     25.9 | t=  8.87 | gun isabeti=0.54
+T1    | MEDYAN hisseye gore (secilen ort − evren medyani), duz f1  | OOS1       | n=   619 |     50.9 | t= 11.59 | gun isabeti=0.68
+T1    | MEDYAN hisseye gore (secilen ort − evren medyani), duz f1  | KASA       | n=   351 |     37.3 | t=  8.33 | gun isabeti=0.64
+T1    | MEDYAN hisseye gore (secilen ort − evren medyani), duz f1  | HAVUZ      | n=   970 |     46.0 | t= 14.17 | gun isabeti=0.66
+T1    | secilenlerin MEDYANI − evren medyani, duz f1               | IS         | n=  2764 |     22.6 | t=  7.81 | gun isabeti=0.52; secilen islemlerin evren medyanini gecme orani=0.485
+T1    | secilenlerin MEDYANI − evren medyani, duz f1               | OOS1       | n=   619 |     21.5 | t=  5.22 | gun isabeti=0.53; secilen islemlerin evren medyanini gecme orani=0.512
+T1    | secilenlerin MEDYANI − evren medyani, duz f1               | KASA       | n=   351 |     15.5 | t=   3.8 | gun isabeti=0.54; secilen islemlerin evren medyanini gecme orani=0.510
+T1    | secilenlerin MEDYANI − evren medyani, duz f1               | HAVUZ      | n=   970 |     19.4 | t=  6.41 | gun isabeti=0.53; secilen islemlerin evren medyanini gecme orani=0.511
+T1    | getiriler +-%5 kirpilmis (kuyruksuz), kiyas=diger dolabilirler | IS         | n=  2764 |      6.1 | t=  2.55 | islem=6788; islem ort=8.2; isabet=0.48; medyan=-6; gunde=2.5 
+T1    | getiriler +-%5 kirpilmis (kuyruksuz), kiyas=diger dolabilirler | OOS1       | n=   619 |     16.7 | t=  5.01 | islem=3929; islem ort=15.9; isabet=0.47; medyan=-10; gunde=6.3 
+T1    | getiriler +-%5 kirpilmis (kuyruksuz), kiyas=diger dolabilirler | KASA       | n=   351 |     14.0 | t=  4.06 | islem=2797; islem ort=14.0; isabet=0.48; medyan=-7; gunde=8.0 
+T1    | getiriler +-%5 kirpilmis (kuyruksuz), kiyas=diger dolabilirler | HAVUZ      | n=   970 |     15.7 | t=  6.38 | islem=6726; islem ort=15.2; isabet=0.48; medyan=-9; gunde=6.9 
+T1    | ertesi gun tavanda kapanan secilenler haric                | IS         | n=  2764 |     -1.0 | t= -0.32 | islem=6730; islem ort=-0.6; isabet=0.47; medyan=-13; gunde=2.4 
+T1    | ertesi gun tavanda kapanan secilenler haric                | OOS1       | n=   618 |      1.6 | t=  0.41 | islem=3836; islem ort=2.2; isabet=0.45; medyan=-23; gunde=6.2 
+T1    | ertesi gun tavanda kapanan secilenler haric                | KASA       | n=   351 |      9.5 | t=  2.31 | islem=2767; islem ort=9.9; isabet=0.48; medyan=-13; gunde=7.9 
+T1    | ertesi gun tavanda kapanan secilenler haric                | HAVUZ      | n=   969 |      4.4 | t=  1.54 | islem=6603; islem ort=5.4; isabet=0.46; medyan=-18; gunde=6.8 
+T1    | ertesi gun tavan (secilen) ve taban (kiyas) kapananlar haric | IS         | n=  2763 |      8.0 | t=  2.81 | islem=6697; islem ort=9.7; isabet=0.48; medyan=-8; gunde=2.4 
+T1    | ertesi gun tavan (secilen) ve taban (kiyas) kapananlar haric | OOS1       | n=   618 |     18.6 | t=  5.13 | islem=3817; islem ort=17.4; isabet=0.48; medyan=-10; gunde=6.2 
+T1    | ertesi gun tavan (secilen) ve taban (kiyas) kapananlar haric | KASA       | n=   351 |     12.6 | t=  3.13 | islem=2753; islem ort=12.1; isabet=0.48; medyan=-8; gunde=7.8 
+T1    | ertesi gun tavan (secilen) ve taban (kiyas) kapananlar haric | HAVUZ      | n=   969 |     16.4 | t=  6.01 | islem=6570; islem ort=15.2; isabet=0.48; medyan=-9; gunde=6.8 
+T1    | kuyruk: en iyi %5 islem cikinca islem ort.                 | IS         | n=  6788 |    -29.2 | t=  None | tum islem ort=7.4; en kotu %5 de cikinca=-0.3; secilenlerde ertesi gun tavan orani=0.009, evrende=0.011; secilenlerde ertesi gun taban orani=0.005, evrende=0.006
+T1    | kuyruk: en iyi %5 islem cikinca islem ort.                 | OOS1       | n=  3929 |    -17.7 | t=  None | tum islem ort=21.3; en kotu %5 de cikinca=6.9; secilenlerde ertesi gun tavan orani=0.024, evrende=0.021; secilenlerde ertesi gun taban orani=0.005, evrende=0.008
+T1    | kuyruk: en iyi %5 islem cikinca islem ort.                 | KASA       | n=  2797 |    -15.1 | t=  None | tum islem ort=19.8; en kotu %5 de cikinca=8.1; secilenlerde ertesi gun tavan orani=0.011, evrende=0.015; secilenlerde ertesi gun taban orani=0.005, evrende=0.017
+T1    | kuyruk: en iyi %5 islem cikinca islem ort.                 | HAVUZ      | n=  6726 |    -16.8 | t=  None | tum islem ort=20.7; en kotu %5 de cikinca=7.2; secilenlerde ertesi gun tavan orani=0.018, evrende=0.019; secilenlerde ertesi gun taban orani=0.005, evrende=0.012
+T1    | gece (t kapanis -> t+1 acilis), kiyas=diger dolabilirler   | IS         | n=  2760 |      0.6 | t=  0.28 | islem=6746; islem ort=1.1; isabet=0.49; medyan=-2; gunde=2.4 
+T1    | gece (t kapanis -> t+1 acilis), kiyas=diger dolabilirler   | OOS1       | n=   618 |      7.5 | t=  4.87 | islem=3915; islem ort=7.0; isabet=0.45; medyan=-5; gunde=6.3 
+T1    | gece (t kapanis -> t+1 acilis), kiyas=diger dolabilirler   | KASA       | n=   351 |      8.0 | t=   3.8 | islem=2771; islem ort=9.2; isabet=0.48; medyan=-2; gunde=7.9 
+T1    | gece (t kapanis -> t+1 acilis), kiyas=diger dolabilirler   | HAVUZ      | n=   969 |      7.7 | t=  6.18 | islem=6686; islem ort=7.9; isabet=0.46; medyan=-4; gunde=6.9 
+T1    | gun ici (t+1 acilis -> kapanis)                            | IS         | n=  2760 |      5.0 | t=  1.83 | islem=6746; islem ort=6.6; isabet=0.47; medyan=-0; gunde=2.4 
+T1    | gun ici (t+1 acilis -> kapanis)                            | OOS1       | n=   618 |     15.2 | t=  3.74 | islem=3915; islem ort=14.2; isabet=0.46; medyan=-19; gunde=6.3 
+T1    | gun ici (t+1 acilis -> kapanis)                            | KASA       | n=   351 |     10.5 | t=   2.4 | islem=2771; islem ort=10.1; isabet=0.47; medyan=-12; gunde=7.9 
+T1    | gun ici (t+1 acilis -> kapanis)                            | HAVUZ      | n=   969 |     13.5 | t=  4.44 | islem=6686; islem ort=12.5; isabet=0.47; medyan=-15; gunde=6.9 
+T2    | yineleme: sec, elib dolum (cikis ertelemeli)               | IS         | n=  2548 |     10.5 | t=  2.71 | islem=4455; islem ort=12.1; isabet=0.47; medyan=-10; gunde=1.7 
+T2    | yineleme: sec, elib dolum (cikis ertelemeli)               | OOS1       | n=   617 |     17.2 | t=  3.04 | islem=2832; islem ort=14.0; isabet=0.45; medyan=-19; gunde=4.6 
+T2    | yineleme: sec, elib dolum (cikis ertelemeli)               | KASA       | n=   351 |     38.0 | t=  4.86 | islem=2024; islem ort=45.7; isabet=0.51; medyan=3; gunde=5.8 
+T2    | yineleme: sec, elib dolum (cikis ertelemeli)               | HAVUZ      | n=   968 |     24.7 | t=  5.38 | islem=4856; islem ort=27.2; isabet=0.48; medyan=-10; gunde=5.0 
+T2    | duz f1, kiyas=diger dolabilirler                           | IS         | n=  2548 |      9.2 | t=   2.4 | islem=4455; islem ort=10.5; isabet=0.47; medyan=-12; gunde=1.7 
+T2    | duz f1, kiyas=diger dolabilirler                           | OOS1       | n=   617 |     16.3 | t=  2.97 | islem=2832; islem ort=13.0; isabet=0.45; medyan=-21; gunde=4.6 
+T2    | duz f1, kiyas=diger dolabilirler                           | KASA       | n=   351 |     15.3 | t=  2.55 | islem=2024; islem ort=18.3; isabet=0.47; medyan=-13; gunde=5.8 
+T2    | duz f1, kiyas=diger dolabilirler                           | HAVUZ      | n=   968 |     16.0 | t=  3.88 | islem=4856; islem ort=15.2; isabet=0.46; medyan=-18; gunde=5.0 
+T2    | duz f1, cokus hisseleri (BIGEN LYDYE MAGEN ESEN) kiyas ve secimden cikarildi | IS         | n=  2415 |      7.9 | t=  1.95 | islem=3935; islem ort=8.1; isabet=0.47; medyan=-14; gunde=1.6 
+T2    | duz f1, cokus hisseleri (BIGEN LYDYE MAGEN ESEN) kiyas ve secimden cikarildi | OOS1       | n=   615 |     16.2 | t=  2.79 | islem=2650; islem ort=13.3; isabet=0.45; medyan=-21; gunde=4.3 
+T2    | duz f1, cokus hisseleri (BIGEN LYDYE MAGEN ESEN) kiyas ve secimden cikarildi | KASA       | n=   351 |      8.3 | t=  1.38 | islem=1870; islem ort=10.9; isabet=0.47; medyan=-20; gunde=5.3 
+T2    | duz f1, cokus hisseleri (BIGEN LYDYE MAGEN ESEN) kiyas ve secimden cikarildi | HAVUZ      | n=   966 |     13.3 | t=  3.11 | islem=4520; islem ort=12.3; isabet=0.46; medyan=-20; gunde=4.7 
+T2    | duz f1, kiyas=bugun tabana degmemisler                     | IS         | n=  2543 |      7.7 | t=  2.05 | islem=4446; islem ort=8.4; isabet=0.46; medyan=-14; gunde=1.7 
+T2    | duz f1, kiyas=bugun tabana degmemisler                     | OOS1       | n=   617 |     14.0 | t=  2.58 | islem=2832; islem ort=10.9; isabet=0.44; medyan=-24; gunde=4.6 
+T2    | duz f1, kiyas=bugun tabana degmemisler                     | KASA       | n=   351 |      4.8 | t=  0.83 | islem=2024; islem ort=5.8; isabet=0.45; medyan=-24; gunde=5.8 
+T2    | duz f1, kiyas=bugun tabana degmemisler                     | HAVUZ      | n=   968 |     10.7 | t=  2.64 | islem=4856; islem ort=8.8; isabet=0.44; medyan=-24; gunde=5.0 
+T2    | duz f1, kiyas=son 5 gunde taban kapanisi olmayanlar        | IS         | n=  2537 |      7.4 | t=  1.94 | islem=4432; islem ort=8.3; isabet=0.46; medyan=-15; gunde=1.7 
+T2    | duz f1, kiyas=son 5 gunde taban kapanisi olmayanlar        | OOS1       | n=   616 |     13.8 | t=  2.53 | islem=2807; islem ort=10.3; isabet=0.44; medyan=-25; gunde=4.6 
+T2    | duz f1, kiyas=son 5 gunde taban kapanisi olmayanlar        | KASA       | n=   351 |      5.2 | t=   0.9 | islem=2020; islem ort=6.0; isabet=0.45; medyan=-24; gunde=5.8 
+T2    | duz f1, kiyas=son 5 gunde taban kapanisi olmayanlar        | HAVUZ      | n=   967 |     10.7 | t=  2.63 | islem=4827; islem ort=8.5; isabet=0.44; medyan=-24; gunde=5.0 
+T2    | rastgele dolabilir hisseye gore (secilen ort − evren ort), duz f1 | IS         | n=  2548 |      8.4 | t=  2.47 | gun isabeti=0.49
+T2    | rastgele dolabilir hisseye gore (secilen ort − evren ort), duz f1 | OOS1       | n=   617 |     15.8 | t=  2.99 | gun isabeti=0.51
+T2    | rastgele dolabilir hisseye gore (secilen ort − evren ort), duz f1 | KASA       | n=   351 |     15.0 | t=  2.56 | gun isabeti=0.52
+T2    | rastgele dolabilir hisseye gore (secilen ort − evren ort), duz f1 | HAVUZ      | n=   968 |     15.5 | t=  3.89 | gun isabeti=0.51
+T2    | rastgele hisseye gore, cokus hisseleri haric               | IS         | n=  2415 |      7.2 | t=  2.01 | gun isabeti=0.48
+T2    | rastgele hisseye gore, cokus hisseleri haric               | OOS1       | n=   615 |     15.7 | t=  2.81 | gun isabeti=0.52
+T2    | rastgele hisseye gore, cokus hisseleri haric               | KASA       | n=   351 |      8.1 | t=  1.39 | gun isabeti=0.50
+T2    | rastgele hisseye gore, cokus hisseleri haric               | HAVUZ      | n=   966 |     12.9 | t=  3.12 | gun isabeti=0.51
+T2    | rastgele hisseye gore, kiyas=son 5 gunde tabansiz          | IS         | n=  2543 |      6.7 | t=   2.0 | gun isabeti=0.48
+T2    | rastgele hisseye gore, kiyas=son 5 gunde tabansiz          | OOS1       | n=   616 |     13.3 | t=  2.54 | gun isabeti=0.51
+T2    | rastgele hisseye gore, kiyas=son 5 gunde tabansiz          | KASA       | n=   351 |      5.1 | t=   0.9 | gun isabeti=0.47
+T2    | rastgele hisseye gore, kiyas=son 5 gunde tabansiz          | HAVUZ      | n=   967 |     10.3 | t=  2.64 | gun isabeti=0.49
+T2    | MEDYAN hisseye gore (secilen ort − evren medyani), duz f1  | IS         | n=  2548 |     28.3 | t=  8.22 | gun isabeti=0.51
+T2    | MEDYAN hisseye gore (secilen ort − evren medyani), duz f1  | OOS1       | n=   617 |     44.8 | t=  8.12 | gun isabeti=0.62
+T2    | MEDYAN hisseye gore (secilen ort − evren medyani), duz f1  | KASA       | n=   351 |     33.4 | t=  5.55 | gun isabeti=0.59
+T2    | MEDYAN hisseye gore (secilen ort − evren medyani), duz f1  | HAVUZ      | n=   968 |     40.7 | t=  9.82 | gun isabeti=0.61
+T2    | secilenlerin MEDYANI − evren medyani, duz f1               | IS         | n=  2548 |     25.2 | t=  7.36 | gun isabeti=0.50; secilen islemlerin evren medyanini gecme orani=0.473
+T2    | secilenlerin MEDYANI − evren medyani, duz f1               | OOS1       | n=   617 |     23.7 | t=  4.37 | gun isabeti=0.51; secilen islemlerin evren medyanini gecme orani=0.498
+T2    | secilenlerin MEDYANI − evren medyani, duz f1               | KASA       | n=   351 |     14.5 | t=  2.46 | gun isabeti=0.50; secilen islemlerin evren medyanini gecme orani=0.493
+T2    | secilenlerin MEDYANI − evren medyani, duz f1               | HAVUZ      | n=   968 |     20.4 | t=  5.01 | gun isabeti=0.50; secilen islemlerin evren medyanini gecme orani=0.496
+T2    | getiriler +-%5 kirpilmis (kuyruksuz), kiyas=diger dolabilirler | IS         | n=  2548 |      8.5 | t=  2.71 | islem=4455; islem ort=9.7; isabet=0.48; medyan=-9; gunde=1.7 
+T2    | getiriler +-%5 kirpilmis (kuyruksuz), kiyas=diger dolabilirler | OOS1       | n=   617 |     13.2 | t=  3.02 | islem=2832; islem ort=10.8; isabet=0.46; medyan=-17; gunde=4.6 
+T2    | getiriler +-%5 kirpilmis (kuyruksuz), kiyas=diger dolabilirler | KASA       | n=   351 |      9.9 | t=  2.04 | islem=2024; islem ort=11.6; isabet=0.47; medyan=-13; gunde=5.8 
+T2    | getiriler +-%5 kirpilmis (kuyruksuz), kiyas=diger dolabilirler | HAVUZ      | n=   968 |     12.0 | t=  3.65 | islem=4856; islem ort=11.1; isabet=0.47; medyan=-16; gunde=5.0 
+T2    | ertesi gun tavanda kapanan secilenler haric                | IS         | n=  2542 |      3.8 | t=  1.02 | islem=4419; islem ort=3.6; isabet=0.47; medyan=-14; gunde=1.7 
+T2    | ertesi gun tavanda kapanan secilenler haric                | OOS1       | n=   615 |      0.4 | t=  0.08 | islem=2788; islem ort=-0.5; isabet=0.44; medyan=-26; gunde=4.5 
+T2    | ertesi gun tavanda kapanan secilenler haric                | KASA       | n=   351 |      4.3 | t=  0.78 | islem=2001; islem ort=7.5; isabet=0.46; medyan=-15; gunde=5.7 
+T2    | ertesi gun tavanda kapanan secilenler haric                | HAVUZ      | n=   966 |      1.8 | t=  0.47 | islem=4789; islem ort=2.9; isabet=0.45; medyan=-21; gunde=5.0 
+T2    | ertesi gun tavan (secilen) ve taban (kiyas) kapananlar haric | IS         | n=  2541 |      9.3 | t=  2.54 | islem=4410; islem ort=10.5; isabet=0.47; medyan=-10; gunde=1.7 
+T2    | ertesi gun tavan (secilen) ve taban (kiyas) kapananlar haric | OOS1       | n=   615 |     15.5 | t=  3.16 | islem=2781; islem ort=13.8; isabet=0.46; medyan=-16; gunde=4.5 
+T2    | ertesi gun tavan (secilen) ve taban (kiyas) kapananlar haric | KASA       | n=   351 |      5.9 | t=  1.15 | islem=1997; islem ort=6.4; isabet=0.47; medyan=-17; gunde=5.7 
+T2    | ertesi gun tavan (secilen) ve taban (kiyas) kapananlar haric | HAVUZ      | n=   966 |     12.0 | t=   3.3 | islem=4778; islem ort=10.7; isabet=0.46; medyan=-16; gunde=4.9 
+T2    | kuyruk: en iyi %5 islem cikinca islem ort.                 | IS         | n=  4455 |    -23.5 | t=  None | tum islem ort=10.5; en kotu %5 de cikinca=0.5; secilenlerde ertesi gun tavan orani=0.008, evrende=0.011; secilenlerde ertesi gun taban orani=0.002, evrende=0.006
+T2    | kuyruk: en iyi %5 islem cikinca islem ort.                 | OOS1       | n=  2832 |    -24.0 | t=  None | tum islem ort=13.0; en kotu %5 de cikinca=-0.3; secilenlerde ertesi gun tavan orani=0.016, evrende=0.021; secilenlerde ertesi gun taban orani=0.002, evrende=0.008
+T2    | kuyruk: en iyi %5 islem cikinca islem ort.                 | KASA       | n=  2024 |    -16.8 | t=  None | tum islem ort=18.3; en kotu %5 de cikinca=8.1; secilenlerde ertesi gun tavan orani=0.011, evrende=0.015; secilenlerde ertesi gun taban orani=0.002, evrende=0.017
+T2    | kuyruk: en iyi %5 islem cikinca islem ort.                 | HAVUZ      | n=  4856 |    -21.0 | t=  None | tum islem ort=15.2; en kotu %5 de cikinca=3.1; secilenlerde ertesi gun tavan orani=0.014, evrende=0.019; secilenlerde ertesi gun taban orani=0.002, evrende=0.012
+T2    | gece (t kapanis -> t+1 acilis), kiyas=diger dolabilirler   | IS         | n=  2534 |      1.1 | t=  0.43 | islem=4418; islem ort=1.9; isabet=0.47; medyan=-5; gunde=1.7 
+T2    | gece (t kapanis -> t+1 acilis), kiyas=diger dolabilirler   | OOS1       | n=   616 |      5.3 | t=  2.64 | islem=2827; islem ort=6.0; isabet=0.46; medyan=-5; gunde=4.6 
+T2    | gece (t kapanis -> t+1 acilis), kiyas=diger dolabilirler   | KASA       | n=   351 |     15.5 | t=  5.96 | islem=2010; islem ort=18.4; isabet=0.52; medyan=4; gunde=5.7 
+T2    | gece (t kapanis -> t+1 acilis), kiyas=diger dolabilirler   | HAVUZ      | n=   967 |      9.0 | t=  5.65 | islem=4837; islem ort=11.1; isabet=0.49; medyan=-2; gunde=5.0 
+T2    | gun ici (t+1 acilis -> kapanis)                            | IS         | n=  2534 |      7.7 | t=  2.41 | islem=4418; islem ort=8.2; isabet=0.48; medyan=-0; gunde=1.7 
+T2    | gun ici (t+1 acilis -> kapanis)                            | OOS1       | n=   616 |     11.0 | t=  2.08 | islem=2827; islem ort=6.9; isabet=0.46; medyan=-22; gunde=4.6 
+T2    | gun ici (t+1 acilis -> kapanis)                            | KASA       | n=   351 |      0.8 | t=  0.15 | islem=2010; islem ort=0.3; isabet=0.45; medyan=-21; gunde=5.7 
+T2    | gun ici (t+1 acilis -> kapanis)                            | HAVUZ      | n=   967 |      7.3 | t=  1.85 | islem=4837; islem ort=4.1; isabet=0.46; medyan=-22; gunde=5.0 
+== 8. T2 sadelestirme
+T2 yeniden kurulum eslesmesi: 1.0
+T2    | sade: a&b&c (dondurulmus) | duz f1, kiyas=diger dolabilirler | IS         | n=  2548 |      9.2 | t=   2.4 | islem=4455; islem ort=10.5; isabet=0.47; medyan=-12; gunde=1.7 
+T2    | sade: a&b&c (dondurulmus) | duz f1, kiyas=diger dolabilirler | OOS1       | n=   617 |     16.3 | t=  2.97 | islem=2832; islem ort=13.0; isabet=0.45; medyan=-21; gunde=4.6 
+T2    | sade: a&b&c (dondurulmus) | duz f1, kiyas=diger dolabilirler | KASA       | n=   351 |     15.3 | t=  2.55 | islem=2024; islem ort=18.3; isabet=0.47; medyan=-13; gunde=5.8 
+T2    | sade: a&b&c (dondurulmus) | cokus hisseleri haric          | KASA       | n=   351 |      8.3 | t=  1.38 | islem=1870; islem ort=10.9; isabet=0.47; medyan=-20; gunde=5.3 
+T2    | sade: b&c (limit kosulu yok) | duz f1, kiyas=diger dolabilirler | IS         | n=  2555 |      8.8 | t=  2.29 | islem=4524; islem ort=9.9; isabet=0.47; medyan=-13; gunde=1.8 
+T2    | sade: b&c (limit kosulu yok) | duz f1, kiyas=diger dolabilirler | OOS1       | n=   618 |     12.3 | t=  2.34 | islem=2933; islem ort=9.9; isabet=0.44; medyan=-24; gunde=4.7 
+T2    | sade: b&c (limit kosulu yok) | duz f1, kiyas=diger dolabilirler | KASA       | n=   351 |     14.9 | t=  2.53 | islem=2075; islem ort=17.3; isabet=0.47; medyan=-14; gunde=5.9 
+T2    | sade: b&c (limit kosulu yok) | cokus hisseleri haric       | KASA       | n=   351 |      8.5 | t=  1.43 | islem=1918; islem ort=10.5; isabet=0.46; medyan=-22; gunde=5.5 
+T2    | sade: a&c (oynaklik yok) | duz f1, kiyas=diger dolabilirler | IS         | n=  2953 |      5.1 | t=  1.77 | islem=9019; islem ort=7.9; isabet=0.46; medyan=-20; gunde=3.1 
+T2    | sade: a&c (oynaklik yok) | duz f1, kiyas=diger dolabilirler | OOS1       | n=   618 |      7.2 | t=  1.93 | islem=5655; islem ort=7.5; isabet=0.44; medyan=-27; gunde=9.2 
+T2    | sade: a&c (oynaklik yok) | duz f1, kiyas=diger dolabilirler | KASA       | n=   351 |      6.9 | t=  1.68 | islem=4071; islem ort=7.9; isabet=0.46; medyan=-21; gunde=11.6 
+T2    | sade: a&c (oynaklik yok) | cokus hisseleri haric           | KASA       | n=   351 |     -4.8 | t= -1.14 | islem=3651; islem ort=-2.9; isabet=0.44; medyan=-30; gunde=10.4 
+T2    | sade: yalniz c (ust ucte bir) | duz f1, kiyas=diger dolabilirler | IS         | n=  2958 |      3.1 | t=   1.1 | islem=9299; islem ort=5.6; isabet=0.46; medyan=-21; gunde=3.1 
+T2    | sade: yalniz c (ust ucte bir) | duz f1, kiyas=diger dolabilirler | OOS1       | n=   619 |      4.0 | t=  1.12 | islem=6016; islem ort=4.4; isabet=0.44; medyan=-30; gunde=9.7 
+T2    | sade: yalniz c (ust ucte bir) | duz f1, kiyas=diger dolabilirler | KASA       | n=   351 |      4.0 | t=  0.99 | islem=4281; islem ort=5.2; isabet=0.45; medyan=-22; gunde=12.2 
+T2    | sade: yalniz c (ust ucte bir) | cokus hisseleri haric      | KASA       | n=   351 |     -6.6 | t= -1.65 | islem=3835; islem ort=-4.7; isabet=0.44; medyan=-33; gunde=10.9 
+T2    | sade: yalniz b (sakin yari) | duz f1, kiyas=diger dolabilirler | IS         | n=  2958 |      5.4 | t=  3.17 | islem=15808; islem ort=5.7; isabet=0.47; medyan=-14; gunde=5.3 
+T2    | sade: yalniz b (sakin yari) | duz f1, kiyas=diger dolabilirler | OOS1       | n=   619 |      8.0 | t=  3.35 | islem=9436; islem ort=7.3; isabet=0.45; medyan=-20; gunde=15.2 
+T2    | sade: yalniz b (sakin yari) | duz f1, kiyas=diger dolabilirler | KASA       | n=   351 |     12.2 | t=  4.64 | islem=6656; islem ort=12.8; isabet=0.47; medyan=-11; gunde=19.0 
+T2    | sade: yalniz b (sakin yari) | cokus hisseleri haric        | KASA       | n=   351 |      9.1 | t=  3.51 | islem=6119; islem ort=9.5; isabet=0.47; medyan=-13; gunde=17.4 
+T2    | sade: a&b (getiri kosulu yok) | duz f1, kiyas=diger dolabilirler | IS         | n=  2956 |      5.3 | t=  3.08 | islem=15678; islem ort=5.8; isabet=0.47; medyan=-14; gunde=5.3 
+T2    | sade: a&b (getiri kosulu yok) | duz f1, kiyas=diger dolabilirler | OOS1       | n=   619 |     10.3 | t=  4.07 | islem=9269; islem ort=9.0; isabet=0.45; medyan=-18; gunde=15.0 
+T2    | sade: a&b (getiri kosulu yok) | duz f1, kiyas=diger dolabilirler | KASA       | n=   351 |     13.9 | t=  5.07 | islem=6555; islem ort=14.4; isabet=0.47; medyan=-10; gunde=18.7 
+T2    | sade: a&b (getiri kosulu yok) | cokus hisseleri haric      | KASA       | n=   351 |      9.3 | t=  3.54 | islem=6039; islem ort=9.6; isabet=0.47; medyan=-13; gunde=17.2 
+T2    | sade: a&bTV&c (oynaklik=gun ici aralik vekili) | duz f1, kiyas=diger dolabilirler | IS         | n=  2590 |      7.7 | t=  1.91 | islem=4556; islem ort=9.7; isabet=0.47; medyan=-14; gunde=1.8 
+T2    | sade: a&bTV&c (oynaklik=gun ici aralik vekili) | duz f1, kiyas=diger dolabilirler | OOS1       | n=   617 |     10.5 | t=  1.95 | islem=2824; islem ort=8.7; isabet=0.44; medyan=-23; gunde=4.6 
+T2    | sade: a&bTV&c (oynaklik=gun ici aralik vekili) | duz f1, kiyas=diger dolabilirler | KASA       | n=   351 |     17.2 | t=  3.08 | islem=1991; islem ort=18.6; isabet=0.48; medyan=-8; gunde=5.7 
+T2    | sade: a&bTV&c (oynaklik=gun ici aralik vekili) | cokus hisseleri haric | KASA       | n=   351 |     11.2 | t=   1.9 | islem=1853; islem ort=12.3; isabet=0.47; medyan=-14; gunde=5.3 
+T2    | sade: bTV&c | duz f1, kiyas=diger dolabilirler             | IS         | n=  2604 |      7.3 | t=   1.8 | islem=4640; islem ort=8.6; isabet=0.47; medyan=-15; gunde=1.8 
+T2    | sade: bTV&c | duz f1, kiyas=diger dolabilirler             | OOS1       | n=   618 |      5.4 | t=  1.04 | islem=2928; islem ort=3.9; isabet=0.44; medyan=-26; gunde=4.7 
+T2    | sade: bTV&c | duz f1, kiyas=diger dolabilirler             | KASA       | n=   351 |     15.3 | t=  2.58 | islem=2049; islem ort=16.8; isabet=0.48; medyan=-9; gunde=5.8 
+T2    | sade: bTV&c | cokus hisseleri haric                        | KASA       | n=   351 |      9.5 | t=  1.56 | islem=1907; islem ort=10.6; isabet=0.47; medyan=-15; gunde=5.4 
+T2    | sade: a&b&ust yari | duz f1, kiyas=diger dolabilirler      | IS         | n=  2914 |      4.2 | t=  1.45 | islem=7558; islem ort=6.9; isabet=0.46; medyan=-15; gunde=2.6 
+T2    | sade: a&b&ust yari | duz f1, kiyas=diger dolabilirler      | OOS1       | n=   618 |     13.1 | t=  3.55 | islem=4667; islem ort=11.6; isabet=0.45; medyan=-20; gunde=7.6 
+T2    | sade: a&b&ust yari | duz f1, kiyas=diger dolabilirler      | KASA       | n=   351 |     13.5 | t=  3.19 | islem=3384; islem ort=16.3; isabet=0.47; medyan=-10; gunde=9.6 
+T2    | sade: a&b&ust yari | cokus hisseleri haric                 | KASA       | n=   351 |      7.5 | t=  1.75 | islem=3140; islem ort=9.6; isabet=0.47; medyan=-15; gunde=8.9 
+T2    | sade: c ama b DEGIL (oynak ve guclu) | duz f1, kiyas=diger dolabilirler | IS         | n=  2598 |      5.5 | t=   1.0 | islem=4564; islem ort=5.5; isabet=0.45; medyan=-30; gunde=1.8 
+T2    | sade: c ama b DEGIL (oynak ve guclu) | duz f1, kiyas=diger dolabilirler | OOS1       | n=   614 |     -0.7 | t= -0.11 | islem=2823; islem ort=2.0; isabet=0.44; medyan=-31; gunde=4.6 
+T2    | sade: c ama b DEGIL (oynak ve guclu) | duz f1, kiyas=diger dolabilirler | KASA       | n=   351 |     -0.6 | t= -0.08 | islem=2047; islem ort=-2.5; isabet=0.45; medyan=-31; gunde=5.8 
+T2    | sade: c ama b DEGIL (oynak ve guclu) | cokus hisseleri haric | KASA       | n=   351 |    -20.4 | t= -2.75 | islem=1781; islem ort=-17.5; isabet=0.42; medyan=-45; gunde=5.1 
+T2    | sade: a&b&c ve getiri>0 | duz f1, kiyas=diger dolabilirler | IS         | n=  2207 |     11.6 | t=  2.66 | islem=3623; islem ort=13.6; isabet=0.46; medyan=-15; gunde=1.6 
+T2    | sade: a&b&c ve getiri>0 | duz f1, kiyas=diger dolabilirler | OOS1       | n=   588 |     20.3 | t=  2.82 | islem=2255; islem ort=19.9; isabet=0.45; medyan=-18; gunde=3.8 
+T2    | sade: a&b&c ve getiri>0 | duz f1, kiyas=diger dolabilirler | KASA       | n=   346 |     14.8 | t=  2.03 | islem=1685; islem ort=14.8; isabet=0.46; medyan=-16; gunde=4.9 
+T2    | sade: a&b&c ve getiri>0 | cokus hisseleri haric            | KASA       | n=   341 |      5.8 | t=   0.8 | islem=1561; islem ort=9.0; isabet=0.46; medyan=-23; gunde=4.6 
+== 9. Birlesim (SONRADAN turetildi; dogrulanmadi)
+T+S   | DOGRULANMADI: S1 zirve20 gunu T2 secilenleri 3g − sepet 3g | IS         | n=   461 |    -41.3 | t= -2.52 | secilen ham=69; sepet ham=110; gun isabeti=0.44; secilen/gun=1.9
+T+S   | DOGRULANMADI: S1 zirve20 gunu T2 secilenleri 3g − sepet 3g | OOS1       | n=    93 |     29.7 | t=  1.02 | secilen ham=128; sepet ham=98; gun isabeti=0.55; secilen/gun=4.0
+T+S   | DOGRULANMADI: S1 zirve20 gunu T2 secilenleri 3g − sepet 3g | KASA       | n=    81 |     22.0 | t=   1.0 | secilen ham=70; sepet ham=48; gun isabeti=0.49; secilen/gun=5.5
+T+S   | DOGRULANMADI: S1 zirve20 gunu T1 secilenleri 3g − sepet 3g | IS         | n=   533 |     -0.6 | t= -0.04 | secilen ham=100; sepet ham=100; gun isabeti=0.48; secilen/gun=2.8
+T+S   | DOGRULANMADI: S1 zirve20 gunu T1 secilenleri 3g − sepet 3g | OOS1       | n=    93 |     16.4 | t=  0.85 | secilen ham=114; sepet ham=98; gun isabeti=0.53; secilen/gun=6.1
+T+S   | DOGRULANMADI: S1 zirve20 gunu T1 secilenleri 3g − sepet 3g | KASA       | n=    81 |     37.8 | t=   2.3 | secilen ham=86; sepet ham=48; gun isabeti=0.60; secilen/gun=7.8
+T+S   | DOGRULANMADI: S2 xelkt z>=1 gunu T2 secilenleri 3g − sepet 3g | IS         | n=   334 |    -28.9 | t= -1.58 | secilen ham=76; sepet ham=105; gun isabeti=0.44; secilen/gun=1.7
+T+S   | DOGRULANMADI: S2 xelkt z>=1 gunu T2 secilenleri 3g − sepet 3g | OOS1       | n=    95 |     31.6 | t=  1.61 | secilen ham=106; sepet ham=75; gun isabeti=0.56; secilen/gun=3.8
+T+S   | DOGRULANMADI: S2 xelkt z>=1 gunu T2 secilenleri 3g − sepet 3g | KASA       | n=    50 |     50.5 | t=   1.6 | secilen ham=109; sepet ham=59; gun isabeti=0.50; secilen/gun=5.4
+T+S   | DOGRULANMADI: S2 xelkt z>=1 gunu T1 secilenleri 3g − sepet 3g | IS         | n=   405 |      9.9 | t=   0.6 | secilen ham=119; sepet ham=109; gun isabeti=0.46; secilen/gun=2.6
+T+S   | DOGRULANMADI: S2 xelkt z>=1 gunu T1 secilenleri 3g − sepet 3g | OOS1       | n=    96 |     28.7 | t=  1.56 | secilen ham=95; sepet ham=66; gun isabeti=0.56; secilen/gun=6.1
+T+S   | DOGRULANMADI: S2 xelkt z>=1 gunu T1 secilenleri 3g − sepet 3g | KASA       | n=    50 |     18.8 | t=  0.76 | secilen ham=78; sepet ham=59; gun isabeti=0.58; secilen/gun=7.8
+T+S   | DOGRULANMADI: tum gunler gunu T2 secilenleri 3g − sepet 3g | IS         | n=  2548 |      5.4 | t=  0.74 | secilen ham=44; sepet ham=39; gun isabeti=0.48; secilen/gun=1.7
+T+S   | DOGRULANMADI: tum gunler gunu T2 secilenleri 3g − sepet 3g | OOS1       | n=   617 |     15.3 | t=  1.46 | secilen ham=30; sepet ham=15; gun isabeti=0.49; secilen/gun=4.6
+T+S   | DOGRULANMADI: tum gunler gunu T2 secilenleri 3g − sepet 3g | KASA       | n=   349 |     49.1 | t=  2.96 | secilen ham=17; sepet ham=-32; gun isabeti=0.52; secilen/gun=5.8
+T+S   | DOGRULANMADI: tum gunler gunu T1 secilenleri 3g − sepet 3g | IS         | n=  2764 |      6.3 | t=  1.08 | secilen ham=49; sepet ham=43; gun isabeti=0.50; secilen/gun=2.5
+T+S   | DOGRULANMADI: tum gunler gunu T1 secilenleri 3g − sepet 3g | OOS1       | n=   619 |     20.9 | t=  2.72 | secilen ham=34; sepet ham=13; gun isabeti=0.53; secilen/gun=6.3
+T+S   | DOGRULANMADI: tum gunler gunu T1 secilenleri 3g − sepet 3g | KASA       | n=   349 |     51.0 | t=  4.86 | secilen ham=19; sepet ham=-32; gun isabeti=0.60; secilen/gun=8.0
+== 10. K1/K2
+K1    | v0 yineleme: sec, elib dolum (cikis ertelemeli)            | IS         | n=  2377 |    -18.4 | t= -3.06 | islem=4252; islem ort=-23.9; isabet=0.45; medyan=-28; gunde=1.8 
+K1    | v0 yineleme: sec, elib dolum (cikis ertelemeli)            | OOS1       | n=   619 |    -28.8 | t= -5.33 | islem=3596; islem ort=-28.2; isabet=0.41; medyan=-49; gunde=5.8 
+K1    | v0 yineleme: sec, elib dolum (cikis ertelemeli)            | KASA       | n=   351 |   -125.6 | t= -7.34 | islem=2517; islem ort=-135.6; isabet=0.45; medyan=-27; gunde=7.2 
+K1    | v0 yineleme: sec, elib dolum (cikis ertelemeli)            | HAVUZ      | n=   970 |    -63.8 | t= -8.81 | islem=6113; islem ort=-72.4; isabet=0.43; medyan=-41; gunde=6.3 
+K1    | v1 duz f1, kiyas=diger dolabilirler                        | IS         | n=  2377 |    -12.5 | t= -2.32 | islem=4252; islem ort=-16.6; isabet=0.45; medyan=-28; gunde=1.8 
+K1    | v1 duz f1, kiyas=diger dolabilirler                        | OOS1       | n=   619 |    -25.7 | t=  -5.2 | islem=3596; islem ort=-25.4; isabet=0.41; medyan=-52; gunde=5.8 
+K1    | v1 duz f1, kiyas=diger dolabilirler                        | KASA       | n=   351 |    -49.1 | t= -6.99 | islem=2519; islem ort=-52.0; isabet=0.43; medyan=-41; gunde=7.2 
+K1    | v1 duz f1, kiyas=diger dolabilirler                        | HAVUZ      | n=   970 |    -34.2 | t=  -8.4 | islem=6115; islem ort=-36.3; isabet=0.41; medyan=-47; gunde=6.3 
+K1    | v2 tabanda kapananlar sinyalden cikarildi                  | IS         | n=  2358 |     -4.9 | t= -0.92 | islem=4066; islem ort=-7.2; isabet=0.45; medyan=-27; gunde=1.7 
+K1    | v2 tabanda kapananlar sinyalden cikarildi                  | OOS1       | n=   615 |    -16.7 | t= -3.36 | islem=3466; islem ort=-17.2; isabet=0.41; medyan=-48; gunde=5.6 
+K1    | v2 tabanda kapananlar sinyalden cikarildi                  | KASA       | n=   346 |     -3.2 | t= -0.54 | islem=2301; islem ort=-6.0; isabet=0.45; medyan=-26; gunde=6.7 
+K1    | v2 tabanda kapananlar sinyalden cikarildi                  | HAVUZ      | n=   961 |    -11.8 | t= -3.07 | islem=5767; islem ort=-12.7; isabet=0.43; medyan=-40; gunde=6.0 
+K1    | v3 tabana degenler de cikarildi                            | IS         | n=  2344 |     -4.7 | t= -0.89 | islem=3967; islem ort=-6.9; isabet=0.45; medyan=-28; gunde=1.7 
+K1    | v3 tabana degenler de cikarildi                            | OOS1       | n=   611 |    -15.4 | t=  -3.1 | islem=3362; islem ort=-15.3; isabet=0.41; medyan=-47; gunde=5.5 
+K1    | v3 tabana degenler de cikarildi                            | KASA       | n=   343 |     -0.3 | t= -0.05 | islem=2227; islem ort=-2.9; isabet=0.46; medyan=-24; gunde=6.5 
+K1    | v3 tabana degenler de cikarildi                            | HAVUZ      | n=   954 |     -9.9 | t= -2.62 | islem=5589; islem ort=-10.4; isabet=0.43; medyan=-39; gunde=5.9 
+K1    | v4 v3 + kiyas da temiz (tabana degmemis)                   | IS         | n=  2342 |     -6.2 | t= -1.18 | islem=3964; islem ort=-8.4; isabet=0.45; medyan=-29; gunde=1.7 
+K1    | v4 v3 + kiyas da temiz (tabana degmemis)                   | OOS1       | n=   611 |    -17.7 | t= -3.58 | islem=3362; islem ort=-17.0; isabet=0.40; medyan=-48; gunde=5.5 
+K1    | v4 v3 + kiyas da temiz (tabana degmemis)                   | KASA       | n=   343 |     -8.4 | t=  -1.5 | islem=2227; islem ort=-9.2; isabet=0.44; medyan=-30; gunde=6.5 
+K1    | v4 v3 + kiyas da temiz (tabana degmemis)                   | HAVUZ      | n=   954 |    -14.4 | t= -3.82 | islem=5589; islem ort=-13.9; isabet=0.42; medyan=-42; gunde=5.9 
+K1    | v5 son 5 gunde taban kapanisi olanlar da cikarildi (sinyal+kiyas) | IS         | n=  2324 |     -6.5 | t= -1.25 | islem=3847; islem ort=-8.7; isabet=0.45; medyan=-31; gunde=1.7 
+K1    | v5 son 5 gunde taban kapanisi olanlar da cikarildi (sinyal+kiyas) | OOS1       | n=   610 |    -17.5 | t= -3.49 | islem=3237; islem ort=-15.5; isabet=0.41; medyan=-48; gunde=5.3 
+K1    | v5 son 5 gunde taban kapanisi olanlar da cikarildi (sinyal+kiyas) | KASA       | n=   343 |    -10.4 | t= -1.73 | islem=2135; islem ort=-9.8; isabet=0.44; medyan=-30; gunde=6.2 
+K1    | v5 son 5 gunde taban kapanisi olanlar da cikarildi (sinyal+kiyas) | HAVUZ      | n=   953 |    -14.9 | t= -3.87 | islem=5372; islem ort=-13.2; isabet=0.42; medyan=-43; gunde=5.6 
+K1    | v6 v5 + cokus hisseleri haric                              | IS         | n=  2207 |    -10.9 | t=  -1.9 | islem=3383; islem ort=-11.9; isabet=0.44; medyan=-30; gunde=1.5 
+K1    | v6 v5 + cokus hisseleri haric                              | OOS1       | n=   610 |    -21.1 | t= -4.05 | islem=2841; islem ort=-19.0; isabet=0.40; medyan=-47; gunde=4.7 
+K1    | v6 v5 + cokus hisseleri haric                              | KASA       | n=   343 |    -11.9 | t= -1.89 | islem=1962; islem ort=-11.0; isabet=0.44; medyan=-30; gunde=5.7 
+K1    | v6 v5 + cokus hisseleri haric                              | HAVUZ      | n=   953 |    -17.8 | t= -4.41 | islem=4803; islem ort=-15.7; isabet=0.42; medyan=-42; gunde=5.0 
+K1    | v4 gece payi (t kapanis -> t+1 acilis)                     | IS         | n=  2332 |      1.8 | t=  0.53 | islem=3937; islem ort=0.1; isabet=0.48; medyan=-4; gunde=1.7 
+K1    | v4 gece payi (t kapanis -> t+1 acilis)                     | OOS1       | n=   610 |     -4.3 | t= -2.29 | islem=3342; islem ort=-4.3; isabet=0.41; medyan=-8; gunde=5.5 
+K1    | v4 gece payi (t kapanis -> t+1 acilis)                     | KASA       | n=   343 |      0.1 | t=  0.04 | islem=2207; islem ort=-0.7; isabet=0.43; medyan=-7; gunde=6.4 
+K1    | v4 gece payi (t kapanis -> t+1 acilis)                     | HAVUZ      | n=   953 |     -2.7 | t= -1.92 | islem=5549; islem ort=-2.8; isabet=0.42; medyan=-8; gunde=5.8 
+K1    | v4 gun ici payi (t+1 acilis -> kapanis)                    | IS         | n=  2332 |     -8.3 | t= -1.69 | islem=3937; islem ort=-8.9; isabet=0.44; medyan=-26; gunde=1.7 
+K1    | v4 gun ici payi (t+1 acilis -> kapanis)                    | OOS1       | n=   610 |    -12.9 | t= -2.61 | islem=3342; islem ort=-12.0; isabet=0.41; medyan=-44; gunde=5.5 
+K1    | v4 gun ici payi (t+1 acilis -> kapanis)                    | KASA       | n=   343 |     -8.3 | t= -1.44 | islem=2207; islem ort=-8.8; isabet=0.45; medyan=-28; gunde=6.4 
+K1    | v4 gun ici payi (t+1 acilis -> kapanis)                    | HAVUZ      | n=   953 |    -11.3 | t= -2.97 | islem=5549; islem ort=-10.7; isabet=0.43; medyan=-39; gunde=5.8 
+K1    | v4 getiriler +-%5 kirpilmis                                | IS         | n=  2342 |     -4.3 | t= -1.08 | islem=3964; islem ort=-6.0; isabet=0.46; medyan=-20; gunde=1.7 
+K1    | v4 getiriler +-%5 kirpilmis                                | OOS1       | n=   611 |    -16.9 | t=  -4.4 | islem=3362; islem ort=-16.2; isabet=0.42; medyan=-40; gunde=5.5 
+K1    | v4 getiriler +-%5 kirpilmis                                | KASA       | n=   343 |     -8.7 | t= -1.94 | islem=2227; islem ort=-9.2; isabet=0.46; medyan=-19; gunde=6.5 
+K1    | v4 getiriler +-%5 kirpilmis                                | HAVUZ      | n=   954 |    -14.0 | t= -4.74 | islem=5589; islem ort=-13.4; isabet=0.43; medyan=-33; gunde=5.9 
+K1    | v4 2. gun (t+1 kapanis -> t+2 kapanis)                     | IS         | n=  2342 |     -1.5 | t= -0.29 | islem=3964; islem ort=1.6; isabet=0.45; medyan=-30; gunde=1.7 
+K1    | v4 2. gun (t+1 kapanis -> t+2 kapanis)                     | OOS1       | n=   611 |      1.1 | t=  0.21 | islem=3362; islem ort=2.1; isabet=0.44; medyan=-31; gunde=5.5 
+K1    | v4 2. gun (t+1 kapanis -> t+2 kapanis)                     | KASA       | n=   342 |     13.9 | t=  2.36 | islem=2221; islem ort=14.6; isabet=0.47; medyan=-12; gunde=6.5 
+K1    | v4 2. gun (t+1 kapanis -> t+2 kapanis)                     | HAVUZ      | n=   953 |      5.7 | t=  1.49 | islem=5583; islem ort=7.1; isabet=0.45; medyan=-23; gunde=5.9 
+K2    | v0 yineleme: sec, elib dolum (cikis ertelemeli)            | IS         | n=   537 |   -119.8 | t= -3.77 | islem=675; islem ort=-115.3; isabet=0.46; medyan=-53; gunde=1.3 
+K2    | v0 yineleme: sec, elib dolum (cikis ertelemeli)            | OOS1       | n=   305 |   -148.3 | t= -4.77 | islem=439; islem ort=-164.6; isabet=0.34; medyan=-168; gunde=1.4 
+K2    | v0 yineleme: sec, elib dolum (cikis ertelemeli)            | KASA       | n=   229 |   -626.7 | t= -8.59 | islem=471; islem ort=-745.2; isabet=0.31; medyan=-226; gunde=2.1 
+K2    | v0 yineleme: sec, elib dolum (cikis ertelemeli)            | HAVUZ      | n=   534 |   -353.5 | t= -9.46 | islem=910; islem ort=-465.1; isabet=0.32; medyan=-189; gunde=1.7 
+K2    | v1 duz f1, kiyas=diger dolabilirler                        | IS         | n=   537 |    -78.0 | t= -3.17 | islem=675; islem ort=-68.2; isabet=0.46; medyan=-66; gunde=1.3 
+K2    | v1 duz f1, kiyas=diger dolabilirler                        | OOS1       | n=   305 |   -118.7 | t= -4.61 | islem=439; islem ort=-134.6; isabet=0.33; medyan=-176; gunde=1.4 
+K2    | v1 duz f1, kiyas=diger dolabilirler                        | KASA       | n=   230 |   -270.0 | t= -9.83 | islem=473; islem ort=-282.1; isabet=0.29; medyan=-258; gunde=2.1 
+K2    | v1 duz f1, kiyas=diger dolabilirler                        | HAVUZ      | n=   535 |   -183.7 | t= -9.62 | islem=912; islem ort=-211.1; isabet=0.31; medyan=-212; gunde=1.7 
+K2    | v2 tabanda kapananlar sinyalden cikarildi                  | IS         | n=   433 |    -12.1 | t=  -0.5 | islem=510; islem ort=-12.2; isabet=0.47; medyan=-34; gunde=1.2 
+K2    | v2 tabanda kapananlar sinyalden cikarildi                  | OOS1       | n=   255 |    -71.5 | t= -2.76 | islem=346; islem ort=-85.8; isabet=0.36; medyan=-133; gunde=1.4 
+K2    | v2 tabanda kapananlar sinyalden cikarildi                  | KASA       | n=   167 |    -91.8 | t= -3.45 | islem=260; islem ort=-79.0; isabet=0.38; medyan=-113; gunde=1.6 
+K2    | v2 tabanda kapananlar sinyalden cikarildi                  | HAVUZ      | n=   422 |    -79.5 | t= -4.22 | islem=606; islem ort=-82.8; isabet=0.37; medyan=-127; gunde=1.4 
+K2    | v3 tabana degenler de cikarildi                            | IS         | n=   385 |    -15.1 | t= -0.61 | islem=437; islem ort=-13.6; isabet=0.47; medyan=-35; gunde=1.1 
+K2    | v3 tabana degenler de cikarildi                            | OOS1       | n=   215 |    -68.2 | t= -2.63 | islem=281; islem ort=-73.9; isabet=0.35; medyan=-127; gunde=1.3 
+K2    | v3 tabana degenler de cikarildi                            | KASA       | n=   141 |    -58.8 | t= -2.16 | islem=205; islem ort=-52.8; isabet=0.40; medyan=-68; gunde=1.5 
+K2    | v3 tabana degenler de cikarildi                            | HAVUZ      | n=   356 |    -64.5 | t= -3.39 | islem=486; islem ort=-65.0; isabet=0.37; medyan=-112; gunde=1.4 
+K2    | v4 v3 + kiyas da temiz (tabana degmemis)                   | IS         | n=   383 |    -16.5 | t= -0.66 | islem=435; islem ort=-15.0; isabet=0.46; medyan=-35; gunde=1.1 
+K2    | v4 v3 + kiyas da temiz (tabana degmemis)                   | OOS1       | n=   215 |    -70.2 | t=  -2.7 | islem=281; islem ort=-75.5; isabet=0.35; medyan=-125; gunde=1.3 
+K2    | v4 v3 + kiyas da temiz (tabana degmemis)                   | KASA       | n=   141 |    -66.7 | t= -2.47 | islem=205; islem ort=-60.1; isabet=0.40; medyan=-93; gunde=1.5 
+K2    | v4 v3 + kiyas da temiz (tabana degmemis)                   | HAVUZ      | n=   356 |    -68.8 | t= -3.63 | islem=486; islem ort=-69.0; isabet=0.37; medyan=-110; gunde=1.4 
+K2    | v5 son 5 gunde taban kapanisi olanlar da cikarildi (sinyal+kiyas) | IS         | n=   355 |     -9.1 | t= -0.37 | islem=401; islem ort=-8.7; isabet=0.47; medyan=-35; gunde=1.1 
+K2    | v5 son 5 gunde taban kapanisi olanlar da cikarildi (sinyal+kiyas) | OOS1       | n=   196 |    -73.6 | t= -2.82 | islem=251; islem ort=-70.5; isabet=0.35; medyan=-117; gunde=1.3 
+K2    | v5 son 5 gunde taban kapanisi olanlar da cikarildi (sinyal+kiyas) | KASA       | n=   128 |    -74.5 | t= -2.65 | islem=180; islem ort=-58.7; isabet=0.37; medyan=-92; gunde=1.4 
+K2    | v5 son 5 gunde taban kapanisi olanlar da cikarildi (sinyal+kiyas) | HAVUZ      | n=   324 |    -74.0 | t= -3.84 | islem=431; islem ort=-65.6; isabet=0.36; medyan=-110; gunde=1.3 
+K2    | v6 v5 + cokus hisseleri haric                              | IS         | n=   298 |    -32.9 | t=  -1.2 | islem=331; islem ort=-32.9; isabet=0.45; medyan=-54; gunde=1.1 
+K2    | v6 v5 + cokus hisseleri haric                              | OOS1       | n=   176 |    -87.5 | t=  -3.2 | islem=214; islem ort=-92.5; isabet=0.33; medyan=-135; gunde=1.2 
+K2    | v6 v5 + cokus hisseleri haric                              | KASA       | n=   116 |    -69.3 | t= -2.37 | islem=162; islem ort=-58.1; isabet=0.36; medyan=-106; gunde=1.4 
+K2    | v6 v5 + cokus hisseleri haric                              | HAVUZ      | n=   292 |    -80.2 | t= -3.99 | islem=376; islem ort=-77.6; isabet=0.34; medyan=-127; gunde=1.3 
+K2    | v4 gece payi (t kapanis -> t+1 acilis)                     | IS         | n=   376 |    -22.4 | t= -1.53 | islem=427; islem ort=-26.0; isabet=0.44; medyan=-11; gunde=1.1 
+K2    | v4 gece payi (t kapanis -> t+1 acilis)                     | OOS1       | n=   213 |    -26.0 | t= -2.42 | islem=278; islem ort=-23.4; isabet=0.37; medyan=-18; gunde=1.3 
+K2    | v4 gece payi (t kapanis -> t+1 acilis)                     | KASA       | n=   140 |     -6.3 | t= -0.67 | islem=202; islem ort=-8.7; isabet=0.42; medyan=-9; gunde=1.4 
+K2    | v4 gece payi (t kapanis -> t+1 acilis)                     | HAVUZ      | n=   353 |    -18.2 | t= -2.43 | islem=480; islem ort=-17.2; isabet=0.39; medyan=-12; gunde=1.4 
+K2    | v4 gun ici payi (t+1 acilis -> kapanis)                    | IS         | n=   376 |      2.5 | t=  0.11 | islem=427; islem ort=7.8; isabet=0.47; medyan=-31; gunde=1.1 
+K2    | v4 gun ici payi (t+1 acilis -> kapanis)                    | OOS1       | n=   213 |    -39.3 | t= -1.46 | islem=278; islem ort=-50.6; isabet=0.35; medyan=-122; gunde=1.3 
+K2    | v4 gun ici payi (t+1 acilis -> kapanis)                    | KASA       | n=   140 |    -60.0 | t=  -2.1 | islem=202; islem ort=-51.7; isabet=0.40; medyan=-75; gunde=1.4 
+K2    | v4 gun ici payi (t+1 acilis -> kapanis)                    | HAVUZ      | n=   353 |    -47.5 | t=  -2.4 | islem=480; islem ort=-51.1; isabet=0.37; medyan=-103; gunde=1.4 
+K2    | v4 getiriler +-%5 kirpilmis                                | IS         | n=   383 |    -11.6 | t= -0.71 | islem=435; islem ort=-10.2; isabet=0.48; medyan=-25; gunde=1.1 
+K2    | v4 getiriler +-%5 kirpilmis                                | OOS1       | n=   215 |    -62.3 | t=  -3.2 | islem=281; islem ort=-68.7; isabet=0.37; medyan=-110; gunde=1.3 
+K2    | v4 getiriler +-%5 kirpilmis                                | KASA       | n=   141 |    -55.4 | t= -2.75 | islem=205; islem ort=-52.2; isabet=0.41; medyan=-80; gunde=1.5 
+K2    | v4 getiriler +-%5 kirpilmis                                | HAVUZ      | n=   356 |    -59.6 | t=  -4.2 | islem=486; islem ort=-61.7; isabet=0.38; medyan=-103; gunde=1.4 
+K2    | v4 2. gun (t+1 kapanis -> t+2 kapanis)                     | IS         | n=   383 |    -13.5 | t= -0.57 | islem=435; islem ort=-12.1; isabet=0.42; medyan=-68; gunde=1.1 
+K2    | v4 2. gun (t+1 kapanis -> t+2 kapanis)                     | OOS1       | n=   215 |    -28.0 | t= -1.15 | islem=281; islem ort=-21.0; isabet=0.42; medyan=-70; gunde=1.3 
+K2    | v4 2. gun (t+1 kapanis -> t+2 kapanis)                     | KASA       | n=   141 |      9.7 | t=  0.34 | islem=205; islem ort=17.5; isabet=0.49; medyan=-15; gunde=1.5 
+K2    | v4 2. gun (t+1 kapanis -> t+2 kapanis)                     | HAVUZ      | n=   356 |    -13.1 | t=  -0.7 | islem=486; islem ort=-4.8; isabet=0.45; medyan=-51; gunde=1.4 
+K1    | v4 hafif kaybedenler: en alt beste bir ama sektorden < 5 puan geride | IS         | n=  2212 |     -4.4 | t= -0.86 | islem=3540; islem ort=-7.9; isabet=0.45; medyan=-29; gunde=1.6 
+K1    | v4 hafif kaybedenler: en alt beste bir ama sektorden < 5 puan geride | OOS1       | n=   611 |    -11.2 | t= -2.16 | islem=3081; islem ort=-11.7; isabet=0.41; medyan=-44; gunde=5.0 
+K1    | v4 hafif kaybedenler: en alt beste bir ama sektorden < 5 puan geride | KASA       | n=   342 |     -3.5 | t= -0.59 | islem=2023; islem ort=-4.0; isabet=0.45; medyan=-27; gunde=5.9 
+K1    | v4 hafif kaybedenler: en alt beste bir ama sektorden < 5 puan geride | HAVUZ      | n=   953 |     -8.4 | t= -2.13 | islem=5104; islem ort=-8.6; isabet=0.43; medyan=-39; gunde=5.4 
+K1    | v4 en alt beste bir ama sektorden < 3 puan geride          | IS         | n=  1653 |     -7.2 | t= -1.28 | islem=2301; islem ort=-8.3; isabet=0.45; medyan=-27; gunde=1.4 
+K1    | v4 en alt beste bir ama sektorden < 3 puan geride          | OOS1       | n=   561 |     -5.6 | t= -0.93 | islem=2069; islem ort=-6.4; isabet=0.42; medyan=-36; gunde=3.7 
+K1    | v4 en alt beste bir ama sektorden < 3 puan geride          | KASA       | n=   322 |     -5.9 | t= -0.66 | islem=1303; islem ort=-6.3; isabet=0.44; medyan=-29; gunde=4.0 
+K1    | v4 en alt beste bir ama sektorden < 3 puan geride          | HAVUZ      | n=   883 |     -5.7 | t= -1.14 | islem=3372; islem ort=-6.4; isabet=0.43; medyan=-34; gunde=3.8 
+K1    | v4 en alt beste bir ve sektorden 3-5 puan geride           | IS         | n=   947 |     -1.5 | t= -0.15 | islem=1239; islem ort=-7.1; isabet=0.44; medyan=-33; gunde=1.3 
+K1    | v4 en alt beste bir ve sektorden 3-5 puan geride           | OOS1       | n=   475 |    -37.0 | t= -3.57 | islem=1012; islem ort=-22.4; isabet=0.39; medyan=-67; gunde=2.1 
+K1    | v4 en alt beste bir ve sektorden 3-5 puan geride           | KASA       | n=   303 |      3.2 | t=  0.24 | islem=720; islem ort=0.2; isabet=0.46; medyan=-24; gunde=2.4 
+K1    | v4 en alt beste bir ve sektorden 3-5 puan geride           | HAVUZ      | n=   778 |    -21.3 | t= -2.58 | islem=1732; islem ort=-13.0; isabet=0.42; medyan=-51; gunde=2.2 
+K-pratik | sektor EW ort.dan >=3 puan geride (taban dahil)            | IS         | n=  1291 |    -31.6 | t= -2.91 | kapsam=0.071 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=1.4 bps (t 2.3); taban-disi alt kume (temiz kiyas)=-6 (t -0.6, n 1189)
+K-pratik | sektor EW ort.dan >=3 puan geride (taban dahil)            | OOS1       | n=   547 |    -58.2 | t=  -5.1 | kapsam=0.082 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=4.8 bps (t 5.1); taban-disi alt kume (temiz kiyas)=-44 (t -4.2, n 517)
+K-pratik | sektor EW ort.dan >=3 puan geride (taban dahil)            | KASA       | n=   337 |    -89.4 | t= -6.09 | kapsam=0.094 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=10.8 bps (t 7.1); taban-disi alt kume (temiz kiyas)=-5 (t -0.4, n 323)
+K-pratik | sektor EW ort.dan >=3 puan geride (taban dahil)            | HAVUZ      | n=   884 |    -70.1 | t= -7.77 | kapsam=0.087 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=6.9 bps (t 8.5); taban-disi alt kume (temiz kiyas)=-29 (t -3.5, n 840)
+K-pratik | sektor EW ort.dan >=5 puan geride (taban dahil)            | IS         | n=   537 |    -78.0 | t= -3.17 | kapsam=0.021 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=1.1 bps (t 2.7); taban-disi alt kume (temiz kiyas)=-17 (t -0.7, n 383)
+K-pratik | sektor EW ort.dan >=5 puan geride (taban dahil)            | OOS1       | n=   305 |   -118.7 | t= -4.61 | kapsam=0.024 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=3.4 bps (t 5.3); taban-disi alt kume (temiz kiyas)=-70 (t -2.7, n 215)
+K-pratik | sektor EW ort.dan >=5 puan geride (taban dahil)            | KASA       | n=   230 |   -270.0 | t= -9.83 | kapsam=0.036 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=10.4 bps (t 8.4); taban-disi alt kume (temiz kiyas)=-67 (t -2.5, n 141)
+K-pratik | sektor EW ort.dan >=5 puan geride (taban dahil)            | HAVUZ      | n=   535 |   -183.7 | t= -9.62 | kapsam=0.029 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=6.0 bps (t 9.6); taban-disi alt kume (temiz kiyas)=-69 (t -3.6, n 356)
+K-pratik | XELKT endeksinden >=3 puan geride (taban dahil)            | IS         | n=  1337 |    -36.0 | t= -3.41 | kapsam=0.079 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=1.3 bps (t 2.0); taban-disi alt kume (temiz kiyas)=-9 (t -1.0, n 1248)
+K-pratik | XELKT endeksinden >=3 puan geride (taban dahil)            | OOS1       | n=   533 |    -60.5 | t= -5.18 | kapsam=0.085 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=5.1 bps (t 5.2); taban-disi alt kume (temiz kiyas)=-50 (t -4.8, n 499)
+K-pratik | XELKT endeksinden >=3 puan geride (taban dahil)            | KASA       | n=   335 |    -96.3 | t= -6.75 | kapsam=0.105 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=11.2 bps (t 7.2); taban-disi alt kume (temiz kiyas)=-17 (t -1.3, n 316)
+K-pratik | XELKT endeksinden >=3 puan geride (taban dahil)            | HAVUZ      | n=   868 |    -74.3 | t= -8.21 | kapsam=0.093 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=7.3 bps (t 8.6); taban-disi alt kume (temiz kiyas)=-37 (t -4.6, n 815)
+K-pratik | XELKT endeksinden >=5 puan geride (taban dahil)            | IS         | n=   607 |    -84.4 | t= -3.86 | kapsam=0.025 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=1.7 bps (t 3.7); taban-disi alt kume (temiz kiyas)=-29 (t -1.4, n 452)
+K-pratik | XELKT endeksinden >=5 puan geride (taban dahil)            | OOS1       | n=   305 |   -123.5 | t=  -5.0 | kapsam=0.025 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=3.2 bps (t 5.0); taban-disi alt kume (temiz kiyas)=-63 (t -2.5, n 218)
+K-pratik | XELKT endeksinden >=5 puan geride (taban dahil)            | KASA       | n=   235 |   -252.9 | t= -9.33 | kapsam=0.040 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=10.1 bps (t 7.8); taban-disi alt kume (temiz kiyas)=-47 (t -1.8, n 155)
+K-pratik | XELKT endeksinden >=5 puan geride (taban dahil)            | HAVUZ      | n=   540 |   -179.8 | t= -9.75 | kapsam=0.031 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=5.7 bps (t 9.0); taban-disi alt kume (temiz kiyas)=-56 (t -3.1, n 373)
+K-pratik | XELKT endeksinden >=3 puan geride, tabana degmemis         | IS         | n=  1250 |     -8.5 | t= -0.87 | kapsam=0.069 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=0.2 bps (t 0.4); taban-disi alt kume (temiz kiyas)=-9 (t -1.0, n 1248)
+K-pratik | XELKT endeksinden >=3 puan geride, tabana degmemis         | OOS1       | n=   499 |    -47.1 | t= -4.53 | kapsam=0.074 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=2.5 bps (t 3.0); taban-disi alt kume (temiz kiyas)=-50 (t -4.8, n 499)
+K-pratik | XELKT endeksinden >=3 puan geride, tabana degmemis         | KASA       | n=   316 |     -6.8 | t= -0.53 | kapsam=0.082 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=0.6 bps (t 0.6); taban-disi alt kume (temiz kiyas)=-17 (t -1.3, n 316)
+K-pratik | XELKT endeksinden >=3 puan geride, tabana degmemis         | HAVUZ      | n=   815 |    -31.5 | t= -3.88 | kapsam=0.077 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=1.8 bps (t 2.9); taban-disi alt kume (temiz kiyas)=-37 (t -4.6, n 815)
+K-pratik | XELKT endeksinden >=5 puan geride, tabana degmemis         | IS         | n=   452 |    -28.1 | t= -1.31 | kapsam=0.018 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=0.6 bps (t 1.9); taban-disi alt kume (temiz kiyas)=-29 (t -1.4, n 452)
+K-pratik | XELKT endeksinden >=5 puan geride, tabana degmemis         | OOS1       | n=   218 |    -61.3 | t= -2.44 | kapsam=0.016 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=0.9 bps (t 2.1); taban-disi alt kume (temiz kiyas)=-63 (t -2.5, n 218)
+K-pratik | XELKT endeksinden >=5 puan geride, tabana degmemis         | KASA       | n=   155 |    -37.8 | t= -1.46 | kapsam=0.019 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=0.5 bps (t 1.1); taban-disi alt kume (temiz kiyas)=-47 (t -1.8, n 155)
+K-pratik | XELKT endeksinden >=5 puan geride, tabana degmemis         | HAVUZ      | n=   373 |    -51.5 | t= -2.83 | kapsam=0.017 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=0.7 bps (t 2.4); taban-disi alt kume (temiz kiyas)=-56 (t -3.1, n 373)
+K-pratik | gunluk getirisi <= -%5 (mutlak; taban dahil)               | IS         | n=   619 |    -82.5 | t= -3.97 | kapsam=0.035 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=1.1 bps (t 1.9); taban-disi alt kume (temiz kiyas)=-24 (t -1.2, n 472)
+K-pratik | gunluk getirisi <= -%5 (mutlak; taban dahil)               | OOS1       | n=   299 |   -114.7 | t= -5.23 | kapsam=0.052 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=1.1 bps (t 1.0); taban-disi alt kume (temiz kiyas)=-82 (t -4.2, n 241)
+K-pratik | gunluk getirisi <= -%5 (mutlak; taban dahil)               | KASA       | n=   218 |   -241.4 | t= -8.69 | kapsam=0.054 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=10.7 bps (t 6.9); taban-disi alt kume (temiz kiyas)=-36 (t -1.5, n 151)
+K-pratik | gunluk getirisi <= -%5 (mutlak; taban dahil)               | HAVUZ      | n=   517 |   -168.1 | t= -9.63 | kapsam=0.053 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=4.6 bps (t 5.0); taban-disi alt kume (temiz kiyas)=-64 (t -4.2, n 392)
+K-pratik | gunun en kotu 5 hissesi (taban dahil)                      | IS         | n=   400 |    -23.1 | t= -3.52 | kapsam=0.063 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=0.9 bps (t 3.4); taban-disi alt kume (temiz kiyas)=-19 (t -2.8, n 398)
+K-pratik | gunun en kotu 5 hissesi (taban dahil)                      | OOS1       | n=   619 |    -30.8 | t= -5.66 | kapsam=0.167 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=5.8 bps (t 5.0); taban-disi alt kume (temiz kiyas)=-22 (t -4.0, n 611)
+K-pratik | gunun en kotu 5 hissesi (taban dahil)                      | KASA       | n=   351 |    -73.7 | t= -7.78 | kapsam=0.133 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=10.5 bps (t 7.7); taban-disi alt kume (temiz kiyas)=-12 (t -1.5, n 339)
+K-pratik | gunun en kotu 5 hissesi (taban dahil)                      | HAVUZ      | n=   970 |    -46.3 | t= -9.42 | kapsam=0.153 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=7.5 bps (t 8.4); taban-disi alt kume (temiz kiyas)=-18 (t -4.0, n 950)
+K-pratik | tabana degdi ya da tabanda kapandi                         | IS         | n=   248 |   -169.0 | t= -3.84 | kapsam=0.013 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=1.0 bps (t 2.7); taban-disi alt kume (temiz kiyas)=nan (t nan, n 0)
+K-pratik | tabana degdi ya da tabanda kapandi                         | OOS1       | n=   160 |   -155.2 | t= -3.66 | kapsam=0.018 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=2.4 bps (t 3.7); taban-disi alt kume (temiz kiyas)=nan (t nan, n 0)
+K-pratik | tabana degdi ya da tabanda kapandi                         | KASA       | n=   147 |   -400.4 | t=-10.37 | kapsam=0.028 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=10.3 bps (t 7.6); taban-disi alt kume (temiz kiyas)=nan (t nan, n 0)
+K-pratik | tabana degdi ya da tabanda kapandi                         | HAVUZ      | n=   307 |   -272.6 | t= -9.21 | kapsam=0.022 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=5.2 bps (t 8.0); taban-disi alt kume (temiz kiyas)=nan (t nan, n 0)
+K-pratik | BIRLESIK: XELKT endeksinden >=3 puan geride YA DA tabana degdi | IS         | n=  1345 |    -34.7 | t= -3.33 | kapsam=0.083 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=1.1 bps (t 1.6); taban-disi alt kume (temiz kiyas)=-9 (t -1.0, n 1248)
+K-pratik | BIRLESIK: XELKT endeksinden >=3 puan geride YA DA tabana degdi | OOS1       | n=   540 |    -57.7 | t= -4.91 | kapsam=0.092 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=5.1 bps (t 4.8); taban-disi alt kume (temiz kiyas)=-50 (t -4.8, n 499)
+K-pratik | BIRLESIK: XELKT endeksinden >=3 puan geride YA DA tabana degdi | KASA       | n=   337 |    -96.4 | t= -6.76 | kapsam=0.110 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=11.7 bps (t 7.1); taban-disi alt kume (temiz kiyas)=-17 (t -1.3, n 316)
+K-pratik | BIRLESIK: XELKT endeksinden >=3 puan geride YA DA tabana degdi | HAVUZ      | n=   877 |    -72.6 | t= -7.98 | kapsam=0.099 (hisse-gun payi); elenince rastgele alicinin ertesi gun ort. iyilesmesi=7.5 bps (t 8.2); taban-disi alt kume (temiz kiyas)=-37 (t -4.6, n 815)
