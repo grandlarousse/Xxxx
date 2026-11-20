@@ -1,0 +1,7 @@
+c13322b8b8e2e3e70332579408272680  kod/a1_ikili/rules.py
+6d68866b7f884051f5a70ccfb9a775b7  kod/a2_endeks/rules.py
+74e968196939c85b1d35a9f3001dd454  kod/a3_kesit/rules.py
+c3ada124e2e2f360b6ed206101a72428  kod/a4_olay/rules.py
+e85643868ac68c362f577befe60842b8  kod/a5_rotasyon/rules.py
+e4c5e6a93ac74661fe48a87aab1dd1f1  kod/a6_viop/rules.py
+7369786f1f48262c7ce3604b9c27b37f  kod/a8_model/rules.py

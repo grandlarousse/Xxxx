@@ -84,6 +84,13 @@ def reason(r):
     return '; '.join(out)
 
 
+NOTES = {
+    'A8_kesit_lgbm_d3_m500_h1_ust20': 'IC taşıyıcısı (0,043; t 6,2) ama en üst dilim maliyetin çok altında; yalnız sıralama gücünün 2023+ kalıcılığını izlemek için.',
+    'A8_zaman_ridge_l1_h2_e25': 'En yakın aday: net ≈ 0 (başabaş 43,05 − maliyet 43,04; 0,06 bps\'lik fiyat adımı düzeltmesi işareti değiştiriyor). '
+                                'Komşu parametreler brüt 10–32 bps, hepsi net negatif (ölçüt vi sağlanmıyor) → bilinçli olarak ikincil.',
+    'A8_zaman_ridge_l1_h3_e0': 'Aynı zamanlama modelinin geniş sürümü (eşik 0, 3 gün).',
+    'A8_kesif_3hisse_lgbm_d3_m500_h1_ust20_long_viop_own': 'Izgara dışı keşif; vadeli fiyatlarıyla net negatif; işlemlerin %69\'u ENJSA.',
+}
 df['secim'] = 'elendi'
 df['not'] = df.apply(reason, axis=1)
 extra_rows = []
@@ -94,7 +101,7 @@ for r in R1:
     i = df.index[m][0]
     assert abs(df.at[i, 'ort_fazla_IS_bps'] - ev[0]['ort_fazla_IS_bps']) < 1e-9, (r['ad'], df.at[i, 'ort_fazla_IS_bps'], ev[0]['ort_fazla_IS_bps'])
     df.at[i, 'secim'] = 'birincil' if r['birincil'] else 'ikincil'
-    df.at[i, 'not'] = 'DONDURULMUŞ (rules.py); ' + df.at[i, 'not']
+    df.at[i, 'not'] = 'DONDURULMUŞ (rules.py); ' + NOTES.get(r['ad'], '') + ' ' + df.at[i, 'not']
     e0 = ev[0]
     say(f"{r['ad']}: h={r['h']} olcu={r['olcu']} arac={r['arac']} n_gun={e0['n_gun_IS']} n_bagimsiz={e0['n_bagimsiz_IS']} fazla={e0['ort_fazla_IS_bps']:.1f} "
         f"t={e0['t_IS']:.2f} basabas={e0['basabas_IS_bps']:.1f} maliyet={e0['maliyet_temel_bps']:.1f} net={e0['net_temel_bps_IS']:.1f} "

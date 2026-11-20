@@ -4,7 +4,7 @@ A8_kesit_ridge_l0.01_h1_ust20                        n= 2763 fz=    5.7 t=  1.69
 A8_kesit_ridge_l0.01_h2_ust20                        n= 2762 fz=   -0.6 t= -0.11 net=  -39.1 y1=  -1.6 y2=   2.1 top10=  -4.6 kap1=  -4.5 own=   2.4 pay=0.16 ic=0.0331/4.21 [0.031,0.038] gece=nan
 A8_kesit_ridge_l0.01_h3_ust20                        n= 2761 fz=   -3.6 t= -0.47 net=  -41.7 y1=   1.7 y2= -17.5 top10=  -8.5 kap1=  -9.4 own=   3.3 pay=0.16 ic=0.0284/3.19 [0.029,0.028] gece=nan
 A8_kesit_ridge_l0.1_h1_ust20                         n= 2763 fz=    4.7 t=  1.34 net=  -34.1 y1=   5.1 y2=   3.6 top10=   1.8 kap1=  -2.3 own=   3.0 pay=0.15 ic=0.0301/4.23 [0.023,0.048] gece=-0.8
-A8_kesit_ridge_l0.1_h2_ust20                         n= 2762 fz=   -4.5 t= -0.85 net=  -43.3 y1=  -4.3 y2=  -5.0 top10=  -8.5 kap1=  -5.8 own=  -0.7 pay=0.16 ic=0.0322/4.11 [0.031,0.035] gece=nan
+A8_kesit_ridge_l0.1_h2_ust20                         n= 2762 fz=   -4.5 t= -0.85 net=  -43.2 y1=  -4.3 y2=  -5.0 top10=  -8.5 kap1=  -5.8 own=  -0.7 pay=0.16 ic=0.0322/4.11 [0.031,0.035] gece=nan
 A8_kesit_ridge_l0.1_h3_ust20                         n= 2761 fz=   -8.3 t= -1.12 net=  -47.0 y1=  -0.4 y2= -29.4 top10= -13.1 kap1= -11.8 own=  -0.5 pay=0.17 ic=0.0297/3.33 [0.031,0.026] gece=nan
 A8_kesit_ridge_l1_h1_ust20                           n= 2763 fz=   -1.2 t= -0.35 net=  -39.5 y1=   1.2 y2=  -7.6 top10=  -4.0 kap1=  -4.1 own=  -3.0 pay=0.14 ic=0.0305/4.29 [0.022,0.052] gece=-3.6
 A8_kesit_ridge_l1_h2_ust20                           n= 2762 fz=   -7.1 t= -1.31 net=  -46.3 y1=  -2.4 y2= -19.8 top10= -11.2 kap1=  -5.6 own=  -3.3 pay=0.15 ic=0.0315/3.99 [0.030,0.036] gece=nan
@@ -15,26 +15,26 @@ A8_kesit_ridge_l10_h3_ust20                          n= 2761 fz=  -14.4 t= -1.87
 --- lasso  (7 sn)
 A8_kesit_lasso_a0.005_h1_ust20                       n= 2763 fz=    0.7 t=  0.20 net=  -37.5 y1=   1.6 y2=  -1.8 top10=  -2.3 kap1=  -1.3 own=  -0.8 pay=0.14 ic=0.0281/3.94 [0.020,0.049] gece=-1.4
 A8_kesit_lasso_a0.005_h2_ust20                       n= 2762 fz=   -5.0 t= -0.93 net=  -43.3 y1=  -1.8 y2= -13.4 top10=  -8.4 kap1=  -4.3 own=  -1.5 pay=0.16 ic=0.0336/4.26 [0.033,0.034] gece=nan
-A8_kesit_lasso_a0.005_h3_ust20                       n= 2761 fz=   -7.0 t= -0.93 net=  -44.5 y1=   1.0 y2= -28.4 top10= -11.6 kap1=  -9.7 own=   1.2 pay=0.16 ic=0.0310/3.47 [0.033,0.025] gece=nan
+A8_kesit_lasso_a0.005_h3_ust20                       n= 2761 fz=   -7.0 t= -0.93 net=  -44.4 y1=   1.0 y2= -28.4 top10= -11.6 kap1=  -9.7 own=   1.2 pay=0.16 ic=0.0310/3.47 [0.033,0.025] gece=nan
 A8_kesit_lasso_a0.01_h1_ust20                        n= 2763 fz=   -4.9 t= -1.42 net=  -43.1 y1=  -3.2 y2=  -9.5 top10=  -7.6 kap1=  -3.4 own=  -4.5 pay=0.14 ic=0.0252/3.54 [0.015,0.052] gece=-3.5
 A8_kesit_lasso_a0.01_h2_ust20                        n= 2762 fz=  -10.8 t= -2.06 net=  -49.0 y1=  -6.5 y2= -22.4 top10= -14.4 kap1=  -3.7 own=  -5.5 pay=0.15 ic=0.0303/3.83 [0.030,0.030] gece=nan
 A8_kesit_lasso_a0.01_h3_ust20                        n= 2761 fz=  -11.9 t= -1.65 net=  -52.4 y1=  -2.3 y2= -37.6 top10= -16.7 kap1= -15.5 own=  -2.4 pay=0.15 ic=0.0297/3.32 [0.032,0.022] gece=nan
 A8_kesit_lasso_a0.02_h1_ust20                        n= 2763 fz=   -5.1 t= -1.48 net=  -44.6 y1=  -2.3 y2= -12.6 top10=  -8.0 kap1=  -7.1 own=  -2.7 pay=0.14 ic=0.0269/3.77 [0.018,0.050] gece=-3.4
 A8_kesit_lasso_a0.02_h2_ust20                        n= 2762 fz=   -9.6 t= -1.85 net=  -51.0 y1=  -2.4 y2= -28.8 top10= -13.6 kap1= -10.1 own=  -1.9 pay=0.14 ic=0.0226/2.82 [0.020,0.030] gece=nan
 A8_kesit_lasso_a0.02_h3_ust20                        n= 2761 fz=   -9.3 t= -1.33 net=  -50.2 y1=  -2.0 y2= -29.0 top10= -14.6 kap1= -14.4 own=   2.1 pay=0.14 ic=0.0257/2.84 [0.028,0.019] gece=nan
-A8_kesit_lasso_a0.04_h1_ust20                        n= 2763 fz=  -10.1 t= -3.09 net=  -57.7 y1=  -5.0 y2= -23.6 top10= -12.6 kap1= -10.1 own=  -5.3 pay=0.26 ic=0.0156/1.46 [0.010,0.023] gece=-0.6
+A8_kesit_lasso_a0.04_h1_ust20                        n= 2763 fz=  -10.1 t= -3.09 net=  -57.6 y1=  -5.0 y2= -23.6 top10= -12.6 kap1= -10.1 own=  -5.3 pay=0.26 ic=0.0156/1.46 [0.010,0.023] gece=-0.6
 A8_kesit_lasso_a0.04_h2_ust20                        n= 2762 fz=   -5.9 t= -1.23 net=  -53.3 y1=  -0.6 y2= -20.2 top10=  -9.4 kap1=  -5.9 own=   6.0 pay=0.21 ic=0.0210/1.96 [0.018,0.028] gece=nan
 A8_kesit_lasso_a0.04_h3_ust20                        n= 2761 fz=  -13.3 t= -1.82 net=  -60.3 y1=  -0.9 y2= -46.6 top10= -19.3 kap1= -14.3 own=   3.4 pay=0.17 ic=0.0151/1.31 [0.021,-0.000] gece=nan
---- lgbm  (145 sn)
+--- lgbm  (17 sn)
 A8_kesit_lgbm_d2_m200_h1_ust20                       n= 2763 fz=    9.0 t=  2.71 net=  -31.9 y1=   7.5 y2=  13.1 top10=   5.4 kap1=   2.8 own=   4.9 pay=0.16 ic=0.0330/4.61 [0.028,0.046] gece=2.4
 A8_kesit_lgbm_d2_m500_h1_ust20                       n= 2763 fz=    2.7 t=  0.82 net=  -38.7 y1=   1.7 y2=   5.4 top10=  -0.2 kap1=   3.3 own=   0.1 pay=0.14 ic=0.0365/5.18 [0.030,0.055] gece=0.1
 A8_kesit_lgbm_d3_m200_h1_ust20                       n= 2763 fz=    2.9 t=  0.80 net=  -38.7 y1=   6.6 y2=  -7.0 top10=  -1.0 kap1=   0.1 own=   0.7 pay=0.14 ic=0.0284/4.02 [0.024,0.041] gece=1.1
 A8_kesit_lgbm_d3_m500_h1_ust20                       n= 2763 fz=    3.8 t=  1.09 net=  -37.6 y1=   4.4 y2=   2.1 top10=   0.8 kap1=   5.0 own=   1.1 pay=0.14 ic=0.0433/6.15 [0.037,0.059] gece=0.7
 A8_kesit_lgbm_d3_m500_h2_ust20                       n= 2762 fz=    4.1 t=  0.79 net=  -36.7 y1=   3.1 y2=   6.8 top10=  -0.1 kap1=   0.4 own=   2.5 pay=0.15 ic=0.0276/3.58 [0.025,0.034] gece=nan
 A8_kesit_lgbm_d3_m500_h3_ust20                       n= 2761 fz=    6.8 t=  0.92 net=  -40.4 y1=  16.3 y2= -18.5 top10=   0.6 kap1=   2.1 own=   6.3 pay=0.16 ic=0.0334/3.86 [0.036,0.027] gece=nan
---- kıyas  (174 sn)
+--- kıyas  (47 sn)
 A8_kesit_ridge_l1_rel1_h1_ust20                      n= 2763 fz=   -7.6 t= -1.86 net=  -49.2 y1=  -4.8 y2= -14.9 top10= -11.1 kap1=  -9.1 own=  -9.1 pay=0.11 ic=-0.0041/-0.56 [-0.012,0.018] gece=-4.9
-A8_kesit_ridge_l1_rel1_h2_ust20                      n= 2762 fz=  -16.9 t= -2.96 net=  -58.5 y1= -15.1 y2= -21.8 top10= -21.7 kap1=  -8.7 own= -16.1 pay=0.11 ic=-0.0038/-0.53 [-0.009,0.011] gece=nan
+A8_kesit_ridge_l1_rel1_h2_ust20                      n= 2762 fz=  -16.9 t= -2.96 net=  -58.4 y1= -15.1 y2= -21.8 top10= -21.7 kap1=  -8.7 own= -16.1 pay=0.11 ic=-0.0038/-0.53 [-0.009,0.011] gece=nan
 A8_kesit_ridge_l1_rel1_h3_ust20                      n= 2761 fz=  -11.3 t= -1.60 net=  -54.8 y1= -12.6 y2=  -7.6 top10= -18.1 kap1=  -8.2 own=  -9.8 pay=0.11 ic=-0.0002/-0.02 [-0.010,0.025] gece=nan
 A8_kesit_ridge_l1_donus_h1_ust20                     n= 2763 fz=   -3.4 t= -0.86 net=  -44.8 y1=  -1.3 y2=  -9.0 top10=  -6.7 kap1=  -9.7 own=  -4.4 pay=0.12 ic=0.0027/0.37 [-0.006,0.026] gece=-3.8
 A8_kesit_ridge_l1_donus_h2_ust20                     n= 2762 fz=  -15.6 t= -2.63 net=  -56.0 y1= -16.5 y2= -13.1 top10= -20.1 kap1= -12.0 own= -16.5 pay=0.12 ic=0.0055/0.70 [-0.002,0.024] gece=nan
@@ -44,12 +44,12 @@ A8_kesit_ridge_l1_donusdisi_h2_ust20                 n= 2762 fz=   -0.1 t= -0.02
 A8_kesit_ridge_l1_donusdisi_h3_ust20                 n= 2761 fz=   -4.3 t= -0.61 net=  -44.7 y1=   3.4 y2= -25.0 top10= -10.1 kap1=  -5.1 own=  15.0 pay=0.19 ic=0.0308/3.37 [0.032,0.028] gece=nan
 A8_kesit_lgbm_d3_m500_donus_h1_ust20                 n= 2763 fz=    4.5 t=  1.35 net=  -36.8 y1=   2.7 y2=   9.3 top10=   1.7 kap1=   3.6 own=   3.0 pay=0.11 ic=0.0196/2.83 [0.011,0.042] gece=0.4
 A8_kesit_lgbm_d3_m500_donusdisi_h1_ust20             n= 2763 fz=    1.1 t=  0.34 net=  -41.5 y1=  -0.3 y2=   4.9 top10=  -1.8 kap1=   0.2 own=  -1.2 pay=0.14 ic=0.0324/4.66 [0.028,0.045] gece=1.0
-A8_kesit_naif_h1_ust20                               n= 2763 fz=   -7.7 t= -1.91 net=  -55.0 y1=   1.2 y2= -31.5 top10= -11.0 kap1=  -6.3 own=  -6.3 pay=0.11 ic=0.0238/3.27 [0.035,-0.005] gece=-5.0
+A8_kesit_naif_h1_ust20                               n= 2763 fz=   -7.7 t= -1.91 net=  -54.9 y1=   1.2 y2= -31.5 top10= -11.0 kap1=  -6.3 own=  -6.3 pay=0.11 ic=0.0238/3.27 [0.035,-0.005] gece=-5.0
 A8_kesit_naif_h2_ust20                               n= 2762 fz=   -6.1 t= -1.06 net=  -50.9 y1=  -1.3 y2= -19.1 top10= -11.4 kap1=  -4.3 own=  -4.9 pay=0.11 ic=0.0293/4.05 [0.034,0.017] gece=nan
-A8_kesit_naif_h3_ust20                               n= 2761 fz=   -2.7 t= -0.38 net=  -48.3 y1=   0.1 y2= -10.2 top10=  -9.8 kap1=  -5.0 own=  -3.3 pay=0.11 ic=0.0277/3.80 [0.029,0.024] gece=nan
---- sahte etki  (184 sn)
+A8_kesit_naif_h3_ust20                               n= 2761 fz=   -2.7 t= -0.38 net=  -48.2 y1=   0.1 y2= -10.2 top10=  -9.8 kap1=  -5.0 own=  -3.3 pay=0.11 ic=0.0277/3.80 [0.029,0.024] gece=nan
+--- sahte etki  (57 sn)
 A8_kesit_ridge_l1_h1_ust20_fiyat5                    n=  731 fz=  -14.4 t= -1.20 net=  -33.5 y1= -35.9 y2= -12.8 top10= -23.2 kap1=  -7.9 own= -32.2 pay=0.13 ic=0.0305/4.29 [0.022,0.052] gece=-4.9
-A8_kesit_ridge_l1_h1_ust20_lik15                     n= 2763 fz=   -1.3 t= -0.36 net=  -41.9 y1=   1.2 y2=  -7.8 top10=  -4.0 kap1=  -5.3 own=  -3.1 pay=0.14 ic=0.0305/4.29 [0.022,0.052] gece=-2.7
+A8_kesit_ridge_l1_h1_ust20_lik15                     n= 2763 fz=   -1.3 t= -0.36 net=  -41.8 y1=   1.2 y2=  -7.8 top10=  -4.0 kap1=  -5.3 own=  -3.1 pay=0.14 ic=0.0305/4.29 [0.022,0.052] gece=-2.7
 A8_kesit_ridge_l1_h1_ust33                           n= 2763 fz=    2.3 t=  0.93 net=  -38.3 y1=   2.4 y2=   2.2 top10=   0.4 kap1=  -0.4 own=   2.2 pay=0.13 ic=0.0305/4.29 [0.022,0.052] gece=-1.2
   kaydırma sıfırı A8_kesit_ridge_l1_h1_ust20 -1.2 bps p=0.512
 A8_kesit_lasso_a0.005_h1_ust20_fiyat5                n=  731 fz=   -1.2 t= -0.11 net=  -25.2 y1= -36.0 y2=   1.3 top10= -10.9 kap1=  -5.7 own= -20.3 pay=0.13 ic=0.0281/3.94 [0.020,0.049] gece=5.0
@@ -64,18 +64,18 @@ A8_kesit_lgbm_d3_m500_h3_ust20_fiyat5                n=  729 fz=   -9.3 t= -0.41
 A8_kesit_lgbm_d3_m500_h3_ust20_lik15                 n= 2761 fz=    7.5 t=  0.99 net=  -38.6 y1=  16.3 y2= -16.1 top10=   1.3 kap1=   2.4 own=   8.5 pay=0.16 ic=0.0334/3.86 [0.036,0.027] gece=nan
 A8_kesit_lgbm_d3_m500_h3_ust33                       n= 2761 fz=    8.0 t=  1.50 net=  -35.4 y1=  11.8 y2=  -2.3 top10=   4.2 kap1=   3.9 own=  11.5 pay=0.14 ic=0.0334/3.86 [0.036,0.027] gece=nan
   kaydırma sıfırı A8_kesit_lgbm_d3_m500_h3_ust20 6.8 bps p=0.249
---- zamanlama  (189 sn)
+--- zamanlama  (62 sn)
 A8_zaman_ridge_l1_h1_e0                              n= 1295 fz=   12.0 t=  2.90 net=  -30.2 y1=  13.4 y2=   6.3 top10=   8.3 kap1=   5.7 own=  12.0 pay=0.11 ic=0.0703/1.80 [nan,nan] gece=nan
 A8_zaman_ridge_l1_h1_e25                             n=  139 fz=   19.7 t=  1.14 net=  -19.2 y1=  39.1 y2=  -4.4 top10=  -8.6 kap1=   3.9 own=  19.7 pay=0.11 ic=0.0703/1.80 [nan,nan] gece=nan
 A8_zaman_ridge_l1_h2_e0                              n= 1411 fz=   15.9 t=  2.22 net=  -25.0 y1=  16.8 y2=  13.1 top10=  10.6 kap1=  11.5 own=  15.9 pay=0.11 ic=0.0702/1.69 [nan,nan] gece=nan
-A8_zaman_ridge_l1_h2_e25                             n=  402 fz=   40.3 t=  2.77 net=   -0.0 y1=  50.7 y2=  25.1 top10=  23.0 kap1=  24.9 own=  40.3 pay=0.10 ic=0.0702/1.69 [nan,nan] gece=nan
-A8_zaman_ridge_l1_h3_e0                              n= 1445 fz=   24.8 t=  2.34 net=  -14.3 y1=  26.9 y2=  18.9 top10=  17.5 kap1=  13.7 own=  24.8 pay=0.10 ic=0.0683/1.63 [nan,nan] gece=nan
+A8_zaman_ridge_l1_h2_e25                             n=  402 fz=   40.3 t=  2.77 net=    0.0 y1=  50.7 y2=  25.1 top10=  23.0 kap1=  24.9 own=  40.3 pay=0.10 ic=0.0702/1.69 [nan,nan] gece=nan
+A8_zaman_ridge_l1_h3_e0                              n= 1445 fz=   24.8 t=  2.34 net=  -14.2 y1=  26.9 y2=  18.9 top10=  17.5 kap1=  13.7 own=  24.8 pay=0.10 ic=0.0683/1.63 [nan,nan] gece=nan
 A8_zaman_ridge_l1_h3_e25                             n=  582 fz=   31.8 t=  1.84 net=   -9.7 y1=  49.0 y2=   4.4 top10=  16.0 kap1=  14.7 own=  31.8 pay=0.10 ic=0.0683/1.63 [nan,nan] gece=nan
 A8_zaman_ridge_l10_h1_e0                             n= 1238 fz=    3.6 t=  0.86 net=  -43.2 y1=   5.7 y2= -11.5 top10=  -0.3 kap1=   0.5 own=   3.6 pay=0.11 ic=0.0138/0.70 [nan,nan] gece=nan
 A8_zaman_ridge_l10_h1_e25                            n=    6 fz= -129.5 t= -0.89 net= -185.6 y1=   nan y2=-129.5 top10=   nan kap1=   5.7 own=-129.5 pay=0.12 ic=0.0138/0.70 [nan,nan] gece=nan
 A8_zaman_ridge_l10_h2_e0                             n= 1347 fz=    7.8 t=  1.06 net=  -36.6 y1=   7.4 y2=   9.6 top10=   2.2 kap1=   3.1 own=   7.8 pay=0.11 ic=-0.0003/0.30 [nan,nan] gece=nan
 A8_zaman_ridge_l10_h2_e25                            n=   56 fz=   25.0 t=  0.43 net=  -12.1 y1=  59.2 y2=  23.7 top10= -96.7 kap1=  15.3 own=  25.0 pay=0.11 ic=-0.0003/0.30 [nan,nan] gece=nan
-A8_zaman_ridge_l10_h3_e0                             n= 1397 fz=    7.9 t=  0.72 net=  -36.0 y1=  10.4 y2=  -1.8 top10=   0.1 kap1=   1.1 own=   7.9 pay=0.11 ic=-0.0178/-0.25 [nan,nan] gece=nan
+A8_zaman_ridge_l10_h3_e0                             n= 1397 fz=    7.9 t=  0.72 net=  -35.9 y1=  10.4 y2=  -1.8 top10=   0.1 kap1=   1.1 own=   7.9 pay=0.11 ic=-0.0178/-0.25 [nan,nan] gece=nan
 A8_zaman_ridge_l10_h3_e25                            n=  144 fz=   31.7 t=  0.79 net=  -15.4 y1=  70.3 y2=  20.2 top10= -24.9 kap1=  17.0 own=  31.7 pay=0.10 ic=-0.0178/-0.25 [nan,nan] gece=nan
 A8_zaman_lasso_a0.05_h1_e0                           n= 1220 fz=    8.5 t=  2.04 net=  -37.2 y1=  11.5 y2=  -6.8 top10=   4.5 kap1=   4.3 own=   8.5 pay=0.11 ic=0.0409/1.14 [nan,nan] gece=nan
 A8_zaman_lasso_a0.05_h1_e25                          n=   98 fz=   27.7 t=  1.19 net=  -14.2 y1=  33.8 y2=  24.4 top10= -13.5 kap1=  27.6 own=  27.7 pay=0.11 ic=0.0409/1.14 [nan,nan] gece=nan
@@ -87,12 +87,12 @@ A8_zaman_lgbm_d2_m60_h1_e0                           n= 1523 fz=    7.7 t=  2.03
 A8_zaman_lgbm_d2_m60_h1_e25                          n=  327 fz=   15.6 t=  1.63 net=  -21.3 y1=  25.9 y2=   0.6 top10=   3.1 kap1=  -0.5 own=  15.6 pay=0.10 ic=0.0588/2.76 [nan,nan] gece=nan
 A8_zaman_lgbm_d2_m60_h2_e0                           n= 1600 fz=    7.1 t=  1.03 net=  -33.7 y1=  10.2 y2=  -0.6 top10=   2.4 kap1=   5.6 own=   7.1 pay=0.10 ic=0.0315/1.32 [nan,nan] gece=nan
 A8_zaman_lgbm_d2_m60_h2_e25                          n=  728 fz=    9.9 t=  0.98 net=  -30.1 y1=  21.5 y2=  -9.3 top10=   0.5 kap1=   3.5 own=   9.9 pay=0.10 ic=0.0315/1.32 [nan,nan] gece=nan
-A8_zaman_lgbm_d2_m60_h3_e0                           n= 1567 fz=   14.0 t=  1.38 net=  -24.3 y1=  19.0 y2=   1.6 top10=   7.5 kap1=  11.1 own=  14.0 pay=0.10 ic=0.0291/1.19 [nan,nan] gece=nan
+A8_zaman_lgbm_d2_m60_h3_e0                           n= 1567 fz=   14.0 t=  1.38 net=  -24.2 y1=  19.0 y2=   1.6 top10=   7.5 kap1=  11.1 own=  14.0 pay=0.10 ic=0.0291/1.19 [nan,nan] gece=nan
 A8_zaman_lgbm_d2_m60_h3_e25                          n=  989 fz=   16.8 t=  1.31 net=  -20.2 y1=  30.3 y2=  -6.7 top10=   6.9 kap1=   9.3 own=  16.8 pay=0.10 ic=0.0291/1.19 [nan,nan] gece=nan
 A8_zaman_ridge_l1_sec1_h1_e0                         n= 1338 fz=    4.2 t=  1.05 net=  -41.6 y1=   4.3 y2=   3.5 top10=   0.5 kap1=   0.3 own=   4.2 pay=0.11 ic=0.0117/1.04 [nan,nan] gece=nan
 A8_zaman_ridge_l1_sec1_h2_e0                         n= 1350 fz=    6.3 t=  0.88 net=  -35.6 y1=   4.7 y2=  13.3 top10=   1.0 kap1=   1.3 own=   6.3 pay=0.11 ic=0.0102/0.94 [nan,nan] gece=nan
 A8_zaman_ridge_l1_sec1_h3_e0                         n= 1429 fz=    6.4 t=  0.62 net=  -35.8 y1=   8.3 y2=  -1.4 top10=  -0.4 kap1=   1.3 own=   6.4 pay=0.11 ic=-0.0115/0.29 [nan,nan] gece=nan
---- tek hisse  (194 sn)
+--- tek hisse  (67 sn)
 A8_tekhisse_ridge_l1+ridge_l1_h1_long_e25_viop       n=  121 fz=   33.9 t=  1.60 net=   28.8 y1=  11.2 y2=  17.7 top10=  -7.7 kap1=  10.7 own=  33.9 pay=0.85 ic=nan/nan [nan,nan] gece=nan
 A8_tekhisse_ridge_l1+ridge_l1_h1_short_e25_viop      n=   62 fz=   25.6 t=  0.71 net=  -10.4 y1= -11.4 y2=  45.8 top10= -56.3 kap1=   8.5 own=  25.6 pay=0.70 ic=nan/nan [nan,nan] gece=nan
 A8_tekhisse_ridge_l1+ridge_l1_h1_long_e25_spot       n=  185 fz=   15.0 t=  0.78 net=  -12.7 y1=  11.2 y2=  17.7 top10= -16.3 kap1=   4.3 own=  15.0 pay=0.38 ic=nan/nan [nan,nan] gece=nan
@@ -100,7 +100,7 @@ A8_tekhisse_ridge_l1+ridge_l1_h1_long_e50_viop       n=   24 fz=  -32.5 t= -0.66
 A8_tekhisse_ridge_l1+ridge_l1_h1_short_e50_viop      n=    7 fz=  -92.9 t= -0.96 net= -113.3 y1=-121.9 y2= -18.7 top10=   nan kap1= -92.5 own= -92.9 pay=0.86 ic=nan/nan [nan,nan] gece=nan
 A8_tekhisse_ridge_l1+ridge_l1_h1_long_e50_spot       n=   28 fz=  -35.9 t= -0.69 net= -135.3 y1=  47.9 y2= -54.1 top10=-162.5 kap1= -19.2 own= -35.9 pay=0.49 ic=nan/nan [nan,nan] gece=nan
 
-TOPLAM satır (test): 133  süre 194 sn
+TOPLAM satır (test): 133  süre 67 sn
 finalistler: [({'model': 'ridge', 'lam': 1}, 1), ({'model': 'lasso', 'alpha': 0.005}, 1), ({'model': 'lgbm', 'depth': 3, 'leaf': 500}, 1), ({'model': 'lgbm', 'depth': 3, 'leaf': 500}, 3)] | zamanlama en iyi: {'model': 'ridge', 'lam': 1}
 
 önem ridge_l1_h1

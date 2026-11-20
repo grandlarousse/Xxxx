@@ -39,13 +39,20 @@ def load_rules(agent, P):
     return rules
 
 
-def causality(sig_is, sig_ev):
-    """IS tarihlerinde iki sinyal matrisinin farkı / IS'teki True sayısı."""
+def causality(sig_is, sig_ev, trad_ev=None):
+    """IS tarihlerinde iki sinyal matrisinin farkı / IS'teki True sayısı.
+    Değerlendirme panelinde IS'te hiç bulunmayan (sonradan halka arz olan) sütunlar yalnız o tarihte işlem görebilir
+    oldukları hücrelerde sayılır: IS tarihlerinde işlem görmeyen bir hissede True olması sonucu etkilemez."""
     idx = sig_is.index[sig_is.index <= elib.IS_END]
     cols = sorted(set(sig_is.columns) | set(sig_ev.columns))
     a = sig_is.reindex(index=idx, columns=cols).fillna(False).astype(bool)
     b = sig_ev.reindex(index=idx, columns=cols).fillna(False).astype(bool)
-    diff = int((a != b).values.sum())
+    d = (a != b)
+    extra = [c for c in cols if c not in sig_is.columns]
+    if trad_ev is not None and extra:
+        tr = trad_ev.reindex(index=idx, columns=extra).fillna(False).astype(bool)
+        d[extra] = d[extra] & tr
+    diff = int(d.values.sum())
     tot = int(a.values.sum())
     return diff, tot, (diff / max(tot, 1))
 
@@ -78,7 +85,7 @@ def main():
                 if ad not in r_is:
                     diff, tot, frac = -1, 0, 1.0
                 else:
-                    diff, tot, frac = causality(r_is[ad]['sig'], r['sig'])
+                    diff, tot, frac = causality(r_is[ad]['sig'], r['sig'], P_ev['tradable'])
                 for row in elib.eval_rule(r, P_ev, family=ag):
                     row['ajan'] = ag
                     row['nedensellik_fark'] = diff; row['nedensellik_oran'] = frac

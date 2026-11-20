@@ -1,0 +1,7 @@
+a1_ikili: 4 kural (0 birincil)
+a2_endeks: 7 kural (1 birincil)
+a3_kesit: 5 kural (0 birincil)
+a4_olay: 5 kural (0 birincil)
+a5_rotasyon: 9 kural (3 birincil)
+a6_viop: 7 kural (1 birincil)
+a8_model: 4 kural (0 birincil)
