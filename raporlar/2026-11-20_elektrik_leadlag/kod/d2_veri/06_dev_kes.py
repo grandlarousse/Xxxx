@@ -20,11 +20,12 @@ for sub in ("h1", "h1_isy"):
         x = pd.read_parquet(f); x = x[x["ts_tr"] < cut_end]
         if len(x): x.reset_index(drop=True).to_parquet(f"{DEV}/{sub}/{os.path.basename(f)}", index=False)
 bad = 0; n = 0
-for f in sorted(glob.glob(f"{DEV}/**/*.parquet", recursive=True)):
+mine = [f"{DEV}/{n}.parquet" for n in ("viop_daily", "viop_front", "snap")] + sorted(glob.glob(f"{DEV}/h1/*.parquet")) + sorted(glob.glob(f"{DEV}/h1_isy/*.parquet"))
+for f in mine:   # yalnız D2'nin dosyaları denetlenir (D1'in dosyaları D1'in sorumluluğunda)
     x = pd.read_parquet(f); n += 1
     for c in x.columns:
         if str(x[c].dtype).startswith("datetime") and c != "vade":
             k = int((x[c] >= cut_end + (pd.Timedelta(hours=-3) if c == "ts_utc" else pd.Timedelta(0))).sum())
             if k: bad += k; print("KESIM IHLALI", f, c, k)
     if os.path.basename(f) in ("viop_daily.parquet", "viop_front.parquet", "snap.parquet"): print(os.path.basename(f), len(x), x["date"].max().date())
-print("panel_dev parquet", n, "kesim sonrasi satir", bad)
+print("panel_dev D2 parquet", n, "| kesim sonrasi satir", bad, "| m5 klasoru var mi:", os.path.exists(f"{DEV}/m5") or os.path.exists(f"{DEV}/m5_isy"))
