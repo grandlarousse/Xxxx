@@ -1,6 +1,6 @@
 # Batı klasikleri: Antik Çağ, Machiavelli ve devlet aklı
 
-Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
+Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
 
 ## Bu dosyadaki kitaplar
 
@@ -23,7 +23,7 @@ Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Ksenophon — Kyros'un Eğitimi (Kyrou paideia, yaklaşık MÖ 370)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): Kyros'un Eğitimi (Alfa, 2007). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** Ksenophon Atinalı bir asker ve yazardır; Sokrates'in öğrencisi olmuş, Pers topraklarında paralı asker komutanlığı yapmıştır. Yani hem felsefeyi hem orduyu içeriden bilen biri olarak yazar. Özgün ad: Κύρου παιδεία (Eski Yunanca). Yazılışı: yaklaşık MÖ 370. Türkçe baskı: *Kyros'un Eğitimi (Kyrou Paideia)*, Alfa Yayınları, İstanbul 2007, 299 sayfa; kütüphane kaydında Furkan Akderin ve Yiğit Değer adları geçiyor, çevirmen oldukları doğrulanmadı. Hacim: sekiz kitap.
 
@@ -289,7 +289,7 @@ Ayrışma köklüdür. Greene'in dünyası saraydır: tek bir efendi, onun göz�
 
 ## Francesco Guicciardini — Ricordi (Ricordi politici e civili, yazılış 1512–1530, ilk basım 1576)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Guicciardini (1483–1540), Floransa'nın köklü ve Medici yanlısı bir ailesinden gelen hukukçu, elçi, papalık valisi ve tarihçidir; Machiavelli'nin dostu ve eleştirmenidir. İktidarı dışarıdan değil içeriden, yirmi yıl yönetmiş biri olarak yazar. Özgün adı *Ricordi*; buradaki anlamı "anılar" değil, "uyarılar, öğütler"dir. Dili İtalyanca. 1512–1530 arasında birkaç kez yeniden yazıldı; ilk kez yazarın ölümünden sonra, 1576'da Paris'te eksik bir derleme olarak basıldı. Türkçe baskısı bulunamadı. İngilizcesi *Maxims and Reflections of a Renaissance Statesman* (çev. Mario Domandi) adını taşır. Hacmi küçüktür: son biçimi 221 kısa parça, yaklaşık 100 sayfa.
 
@@ -384,7 +384,7 @@ Ayrışma amaçtadır. Greene için hedef güçtür; Gracián için hedef "kişi
 
 ## Giovanni Botero — Della ragion di stato (Della ragion di stato, 1589)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Botero (yaklaşık 1544–1617) Piemonteli bir din adamıdır; 1580'de Cizvit tarikatından çıkarılmış, ardından Milano başpiskoposu Carlo Borromeo'nun, sonra yeğeni Federico Borromeo'nun yanında sekreter ve danışman olarak çalışmıştır. Kitap İtalyancadır; ilk kez 1589'da Venedik'te basıldı. Adı "Devlet Aklı Üzerine" diye çevrilebilir. Türkçe baskısı bulunamadı. Güncel İngilizce çevirisi (Robert Bireley, Cambridge, 2017) yaklaşık 230 sayfadır.
 
@@ -412,7 +412,7 @@ Ayrışma amaçtadır. Greene için hedef güçtür; Gracián için hedef "kişi
 
 ## Gabriel Naudé — Considérations politiques sur les coups d'État (Considérations politiques sur les coups d'État, 1639)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Naudé (1600–1653) Parisli hekim, bilgin ve kütüphanecidir; kitabı Roma'da Kardinal Guidi di Bagno'nun (Bagni) kütüphanecisiyken yazdı, sonradan Mazarin'in ünlü kütüphanesini kurdu. Kitap Fransızcadır; 1639'da Roma baskı yeri gösterilerek çıktı, ikinci baskısı 1667'dedir. Adı "Devlet Darbeleri Üzerine Siyasi Düşünceler" diye çevrilebilir. Türkçe baskısı bulunamadı. Küçük boy, birkaç yüz sayfalık bir risaledir (sayfa sayısı doğrulanmadı).
 
@@ -440,7 +440,7 @@ Ayrışma amaçtadır. Greene için hedef güçtür; Gracián için hedef "kişi
 
 ## Kardinal Richelieu — Testament politique (Testament politique, 1688)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Armand Jean du Plessis, Kardinal ve Dük de Richelieu (1585–1642), 1624'ten ölümüne dek Fransa kralı XIII. Louis'nin başbakanıydı. Metin Fransızcadır; ölümünden 46 yıl sonra, 1688'de Amsterdam'da Henry Desbordes tarafından basıldı. Adı "Siyasi Vasiyet" diye çevrilebilir. Türkçe baskısı bulunamadı. Eski baskılar iki kısım tek cilttir; eleştirel baskıyı Françoise Hildesheimer hazırladı (1995).
 
@@ -496,7 +496,7 @@ Ayrışma amaçtadır. Greene için hedef güçtür; Gracián için hedef "kişi
 
 ## Torquato Accetto — Della dissimulazione onesta (Della dissimulazione onesta, 1641)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Accetto (16. yüzyıl sonu–1640 dolayı; doğum ve ölüm yılları kaynaklarda değişir) Puglia'daki Trani'de doğdu, yaşamının çoğunu yakındaki Andria'da güçlü Carafa ailesinin sekreteri olarak geçirdi; şiirleri de yayımlandı. Kitap İtalyancadır ve 1641'de Napoli'de basıldı. Adı "Dürüst Gizlenme Üzerine" diye çevrilebilir. Türkçe baskısı bulunamadı. Çok kısadır: 1928 Laterza baskısı 72 sayfadır.
 

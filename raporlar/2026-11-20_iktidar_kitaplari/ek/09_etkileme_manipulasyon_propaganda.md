@@ -1,6 +1,6 @@
 # Etkileme, manipülasyon ve propaganda
 
-Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
+Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
 
 ## Bu dosyadaki kitaplar
 
@@ -23,7 +23,7 @@ Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Robert B. Cialdini — İknanın Psikolojisi (Influence: The Psychology of Persuasion, 1984)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): İknanın Psikolojisi (MediaCat Kitapları); İkna Açılan Kapı Mediacat Yayınları; İknanın Psikolojisi; İknaya Açılan Kapı.*
+*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): İknanın Psikolojisi (MediaCat Kitapları); İknanın Psikolojisi.*
 
 **Künye.** Robert B. Cialdini (d. 1945) Amerikalı sosyal psikologdur; Arizona Eyalet Üniversitesi'nde psikoloji ve pazarlama alanında emekli profesördür. Kitabı, deney yapan bir akademisyen ama aynı zamanda satış dünyasına gizlice girmiş bir gözlemci olarak yazar. Özgün adı *Influence: The Psychology of Persuasion*, dili İngilizcedir; ilk baskı 1984'tür. Ders kitabı sürümü *Influence: Science and Practice* adıyla 1985'te çıktı; genişletilmiş yeni baskı (*Influence, New and Expanded*) 2021'de yayımlandı. Türkçesi *İknanın Psikolojisi* adıyla MediaCat Yayıncılık'tan çıkmıştır; satıcı kayıtlarında eski baskılar için Yasemin Fletcher (ilk baskı 2003), yeni baskılar için Fevzi Yalım çevirmen olarak görünüyor. Hangi baskının hangi İngilizce sürüme dayandığı doğrulanmadı. Hacim: ilk baskı yaklaşık 300, 2021 baskısı yaklaşık 600 sayfa (sayfa sayıları doğrulanmadı).
 
@@ -79,7 +79,7 @@ Ayrışma yöntemde ve amaçtadır. Greene tarihsel öykülerden kural çıkarı
 
 ## Robert B. Cialdini — Pre-Suasion (Pre-Suasion: A Revolutionary Way to Influence and Persuade, 2016)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): İknaya Açılan Kapı (MediaCat).*
 
 **Künye.** Cialdini (d. 1945) Amerikalı sosyal psikolog; Arizona Eyalet Üniversitesi'nde psikoloji ve pazarlama alanında emekli profesör, "Influence" (1984) kitabının yazarı. Özgün dil İngilizce; ilk baskı Eylül 2016. Türkçesi: *İknaya Açılan Kapı*, MediaCat Yayıncılık, 2017, çeviren Taner Gezer (kitapçı kataloğu taraması). İngiliz ciltsiz baskısı 432 sayfa; bunun önemli bir kısmı not ve kaynakçadır.
 
@@ -309,7 +309,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 ## Robert-Vincent Joule ve Jean-Léon Beauvois — Petit traité de manipulation à l'usage des honnêtes gens (Petit traité de manipulation à l'usage des honnêtes gens, 1987)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** İki Fransız sosyal psikolog. Beauvois (1943–2020) üniversite profesörüydü; Joule da akademisyendir (Aix-Marseille'de görev yaptığı bilgisi bellekten, doğrulanmadı). Özgün dil Fransızca; adın anlamı "Dürüst İnsanlar İçin Küçük Manipülasyon Kitabı". İlk baskı 1987, Presses universitaires de Grenoble; 2002, 2014 ve 2024'te yenilendi. Türkçe baskısı bulunamadı. 1987 baskısı 229, 2002 baskısı 288, 2024 baskısı 368 sayfa.
 
@@ -341,7 +341,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 ## George K. Simon — In Sheep's Clothing (In Sheep's Clothing: Understanding and Dealing with Manipulative People, 1996)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Simon (d. 1948) Amerikalı klinik psikolog; doktorasını Texas Tech Üniversitesi'nde yaptı, uzun yıllar terapist olarak çalıştı, Arkansas Psikoloji Derneği'nin eski başkanı. Özgün dil İngilizce; ilk baskı 1996, gözden geçirilmiş baskı Parkhurst Brothers yayınevinden. Adın anlamı "Koyun Postunda". Türkçe baskısı bulunamadı; yayınevi kitabın yedi dile çevrildiğini söylüyor, ama dilleri saymıyor. Güncel baskı 176 sayfa.
 
@@ -373,7 +373,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 ## Christopher Hadnagy — Social Engineering: The Art of Human Hacking (Social Engineering: The Art of Human Hacking, 2010)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Hadnagy Amerikalı bilgi güvenliği danışmanı; Social-Engineer LLC şirketinin kurucusu, şirketlere "insan yoluyla sızma testi" yapar. Özgün dil İngilizce; ilk baskı Aralık 2010, Wiley. 2018'de ikinci baskı "The Science of Human Hacking" alt adıyla çıktı. Türkçe baskısı bulunamadı. Yaklaşık 400 sayfa (sayfa sayısı bellekten, doğrulanmadı).
 
@@ -407,7 +407,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 ## David W. Maurer — The Big Con (The Big Con: The Story of the Confidence Man, 1940)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Maurer (1906–1981) Amerikalı dilbilimci; 1937'den 1972'ye dek Louisville Üniversitesi'nde profesördü, suçluların ve yeraltı dünyasının argosu üzerine iki yüzden fazla yazı yayımladı. Özgün dil İngilizce; ilk baskı 1940, Bobbs-Merrill. 1999'da Luc Sante'nin önsözüyle yeniden basıldı. Türkçe baskısı bulunamadı (kitapçı kataloğu taramasında yazar adıyla çıkmadı). Yaklaşık 300 sayfa (bellekten, doğrulanmadı).
 
@@ -441,7 +441,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 ## Maria Konnikova — The Confidence Game (The Confidence Game: Why We Fall for It... Every Time, 2016)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Konnikova (d. 1984, Moskova) Amerikalı yazar; Harvard'da psikoloji okudu, 2013'te Columbia Üniversitesi'nde Walter Mischel'in danışmanlığında psikoloji doktorasını aldı. Özgün dil İngilizce; ilk baskı 12 Ocak 2016, Viking. Türkçe baskısı bulunamadı; yazarın Türkçeye çevrilen kitapları "Büyük Blöf" (The Biggest Bluff, çev. Sibel Eraltan, Nepal Kitap) ve "Mastermind: Sherlock Holmes Gibi Düşünmek"tir (Domingo Yayınevi). Yaklaşık 340 sayfa (bellekten, doğrulanmadı).
 
@@ -530,7 +530,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 ## Jacques Ellul — Propagandes (Propagandes, 1962)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Jacques Ellul (1912–1994) Bordeaux Üniversitesi'nde kurumlar tarihi ve sosyolojisi profesörü, Protestan bir meslekten olmayan ilahiyatçı ve Direniş üyesidir; "teknik toplum" eleştirisiyle tanınır. Özgün adı *Propagandes*, dili Fransızca, ilk yayın 1962. İngilizcesi *Propaganda: The Formation of Men's Attitudes*, çev. Konrad Kellen ve Jean Lerner, 1965 (Vintage baskısı 1973, yaklaşık 320 sayfa). Türkçe baskısı bulunamadı: kitapçı kataloğu taramasında Ellul'ün başka kitapları çıkıyor (Teknoloji Toplumu, Sözün Düşüşü; Paradigma Yayınları), bu kitap çıkmıyor.
 
@@ -586,7 +586,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 ## Robert Jay Lifton — Thought Reform and the Psychology of Totalism (Thought Reform and the Psychology of Totalism: A Study of "Brainwashing" in China, 1961)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Robert Jay Lifton (1926–2025) Amerikalı psikiyatrdır; 1951–1953 arasında Japonya ve Kore'de hava kuvvetleri psikiyatrı olarak görev yaptı, sonra savaşın ve siyasal şiddetin psikolojisini inceledi. Özgün dili İngilizce; ilk yayın 1961, W. W. Norton; 1989'da University of North Carolina Press yeni bir önsözle yeniden bastı (524 sayfa). Türkçe baskısı bulunamadı (kitapçı kataloğu taramasında yazar adıyla çıkmadı).
 **Bir cümleyle.** "Beyin yıkama" büyülü bir teknik değildir; kapalı bir ortamda suçluluk, itiraf ve yeniden eğitimle kimliği söküp yeniden kuran, sekiz özelliğiyle tanınabilen bir süreçtir.
@@ -613,7 +613,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 ## Stanley Milgram — Obedience to Authority (Obedience to Authority: An Experimental View, 1974)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Stanley Milgram (1933–1984) Amerikalı sosyal psikologdur; deneyleri Yale Üniversitesi'nde genç bir öğretim üyesiyken yaptı. Özgün dili İngilizce; ilk yayın 1974, Harper & Row (İngiltere'de Tavistock); 219 sayfa. "Otoriteye İtaat" adlı bir Türkçe baskı doğrulanamadı. Türkçede Milgram imzalı "Deney" adlı bir kitap var (Kafe Kültür Yayıncılık, 192 sayfa; bir akademik kaynakçaya göre çev. Melis Olçum ve K. Uğur Tüfekçi, 2015); tanıtım metni kitabı itaat deneylerini anlatan "ünlü yapıt" diye sunuyor, yani büyük olasılıkla bu kitabın çevirisidir; ama künyede özgün ad görülemedi (doğrulanmadı).
 

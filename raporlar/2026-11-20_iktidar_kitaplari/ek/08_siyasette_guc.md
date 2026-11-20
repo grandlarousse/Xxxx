@@ -1,6 +1,6 @@
 # Siyasette güç: taktik, darbe, direniş
 
-Bu dosyada 15 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
+Bu dosyada 15 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
 
 ## Bu dosyadaki kitaplar
 
@@ -22,7 +22,7 @@ Bu dosyada 15 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Saul D. Alinsky — Radikaller İçin Kurallar (Rules for Radicals: A Pragmatic Primer for Realistic Radicals, 1971)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): Radikaller İçin Kurallar (Geoturka, 2014). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** Saul Alinsky (1909–1972) Şikagolu bir toplum örgütleyicisidir; yoksul mahalleleri ev sahiplerine, belediyeye ve şirketlere karşı örgütleyen Industrial Areas Foundation'ın kurucusudur. Kitabı kürsüden değil, otuz yılı aşkın saha deneyiminden yazar. Özgün dili İngilizce; ilk baskı 1971, Random House. Türkçe baskı: *Radikaller İçin Kurallar: Gerçekçi Radikaller İçin Pragmatik İlkeler Kitabı*, Geoturka Yayımcılık, Nisan 2014, çeviren İnci Yılmazlı (Goodreads kaydına göre; 192 sayfa). Özgün baskı 196 sayfa.
 
@@ -72,7 +72,7 @@ Akademik eleştiri başka yerdedir. Pruger ve Specht, yöntemin esas olarak kent
 
 ## Bruce Bueno de Mesquita ve Alastair Smith — The Dictator's Handbook (The Dictator's Handbook: Why Bad Behavior Is Almost Always Good Politics, 2011)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** İki yazar da siyaset bilimcidir; Bueno de Mesquita aynı zamanda Hoover Enstitüsü üyesidir, Smith New York Üniversitesi'nde çalışır. Kitap, yıllarca matematiksel modellerle geliştirdikleri bir kuramın genel okura anlatımıdır. Özgün dili İngilizce; ilk baskı Eylül 2011, PublicAffairs; ikinci baskı 2022. Türkçe baskı: “Diktatörün El Kitabı” adıyla bir çeviri olduğu bilgisi doğrulanmadı; dört ayrı aramada yayınevi ve çevirmen kaydı bulunamadı. Hacim: 319 sayfa (ilk baskı).
 
@@ -121,7 +121,7 @@ Ayrışma yöntemdedir. Greene'de güç bir ustalık işidir: kişilik, zamanlam
 
 ## Chris Matthews — Hardball (Hardball: How Politics Is Played, Told by One Who Knows the Game, 1988)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Chris Matthews (d. 1945) Amerikalı siyaset yorumcusudur. Kitabı yazdığında arkasında on beş yıllık Washington kulisi vardı: senatör danışmanlığı, Başkan Carter'a konuşma yazarlığı ve altı yıl boyunca Temsilciler Meclisi Başkanı Tip O'Neill'ın en yakın yardımcılığı. Sonradan aynı adı taşıyan televizyon programıyla (1994–2020) tanındı. Özgün dili İngilizce; ilk baskı 1988, Summit Books; gözden geçirilmiş baskı 1999, Free Press. Türkçe baskısı bulunamadı. Hacim: 1999 baskısı için bir kayıtta 240 sayfa.
 
@@ -180,7 +180,7 @@ Ayrışmalar da açıktır. “Seni getirenle dans et” kuralı **Yasa 20 (Kims
 
 ## Edward N. Luttwak — Coup d'État: A Practical Handbook (Coup d'État: A Practical Handbook, 1968)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Edward Luttwak (d. 1942, Arad, Romanya) strateji ve askerî tarih yazarıdır. Kitabı 26 yaşında, Londra'da petrol sektörüne danışmanlık yaparken yazdı; London School of Economics'te iktisat okumuştu. Sonradan *Strategy: The Logic of War and Peace* ile tanınan bir stratejist ve hükümet danışmanı oldu. Özgün dili İngilizce; ilk baskı 1968; Harvard University Press baskısı 1979; gözden geçirilmiş baskı 2016. Türkçe baskısı bulunamadı (üç ayrı aramada kayıt çıkmadı; İngilizce Vikipedi yazarın kitaplarının İngilizce dışında 29 dilde yayımlandığını yazar ama dilleri tek tek saymaz). Hacim: 2016 baskısında beş bölüm ve üç ek, yaklaşık 250–300 sayfa (kesin sayı doğrulanmadı).
 
@@ -228,7 +228,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## Jonathan Powell — The New Machiavelli: How to Wield Power in the Modern World (The New Machiavelli, 2010)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Jonathan Powell (doğ. 1956) eski bir İngiliz diplomatıdır; 1995'ten itibaren Tony Blair'in ekip başkanı, 1997–2007 arasında Downing Street Chief of Staff (başbakanlık özel kalem müdürü) olarak çalıştı ve Kuzey İrlanda barış görüşmelerinin baş müzakerecisiydi. Özgün dil İngilizce; ilk yayın 2010 (ilk yayınevi The Bodley Head). Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). Ciltli baskı 352 sayfa.
 
@@ -256,7 +256,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## Dick Morris — The New Prince: Machiavelli Updated for the Twenty-First Century (The New Prince, 1999)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Dick Morris (doğ. 1948) Amerikalı siyaset danışmanıdır; Bill Clinton'a Arkansas valiliğinden beri danıştı, 1994'ten sonra Beyaz Saray'da gizlice çalıştı ve Ağustos 1996'da bir skandal yüzünden kampanyadan ayrıldı. Özgün dil İngilizce; ilk yayın 1999, Renaissance Books (Los Angeles). Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). Yaklaşık 250–265 sayfa.
 
@@ -284,7 +284,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## William L. Riordon — Plunkitt of Tammany Hall (Plunkitt of Tammany Hall, 1905)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** William L. Riordon New Yorklu bir gazeteciydi; kitap, onun kayda geçirdiği konuşmalardan oluşur. Konuşan kişi George Washington Plunkitt'tir (1842–1924): New York eyalet meclisinde ve senatosunda yıllarca görev yapmış, Demokrat Parti'nin kent örgütü Tammany Hall'un bölge önderi. Özgün dil İngilizce (Plunkitt'in sokak ağzıyla); ilk yayın 1905 (McClure, Phillips, New York). Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). Kısa bir kitaptır: yaklaşık 100 sayfa (bellekten, doğrulanmadı).
 
@@ -312,7 +312,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## Richard E. Neustadt — Presidential Power (Presidential Power: The Politics of Leadership, 1960)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Richard E. Neustadt (1919–2003) Amerikalı siyaset bilimcidir; 1950–1953 arasında Başkan Truman'ın Beyaz Saray'daki özel yardımcısıydı, kitabı Columbia Üniversitesi'nde öğretim üyesiyken yazdı, sonra Harvard'da ders verdi. Özgün dil İngilizce; ilk yayın 1960. Genişletilmiş son baskı 1990'da “Presidential Power and the Modern Presidents: The Politics of Leadership from Roosevelt to Reagan” adıyla çıktı. Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). İlk baskı yaklaşık 200, 1990 baskısı yaklaşık 370 sayfa (bellekten, doğrulanmadı).
 
@@ -339,7 +339,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## William H. Riker — The Art of Political Manipulation (The Art of Political Manipulation, 1986)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** William H. Riker (1920–1993) Amerikalı siyaset bilimcidir; oyun kuramını ve matematiksel yöntemi siyaset bilimine taşıyan “pozitif siyaset kuramı”nın kurucusu sayılır ve 1962'den itibaren Rochester Üniversitesi siyaset bilimi bölümünü yönetti. Özgün dil İngilizce; ilk yayın 1986, Yale University Press. Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). 152 sayfa.
 
@@ -367,7 +367,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## Robert A. Caro — The Power Broker: Robert Moses and the Fall of New York (The Power Broker, 1974)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Robert A. Caro Amerikalı gazeteci ve biyografi yazarıdır; 1960'ların başında Newsday muhabiriyken Robert Moses'ın bir köprü projesini araştırdı ve bu kitap oradan doğdu. Özgün dil İngilizce; ilk yayın 16 Eylül 1974, Knopf; 1975'te Pulitzer Ödülü aldı. Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). 1.336 sayfa.
 
@@ -395,7 +395,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## Curzio Malaparte — Hükümet Devirme Tekniği (Technique du coup d'État, 1931)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): Hükümet Devirme Tekniği (çev. Nihal Önol). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** Curzio Malaparte (asıl adı Kurt Erich Suckert, 1898–1957) İtalyan gazeteci, yazar ve diplomattır; 1920'lerde faşizmi desteklemiş, sonra partiyle arası açılmış biri olarak yazar. Kitap ilk kez 1931'de Paris'te, Grasset yayınevinde Fransızca çıktı (çeviren Juliette Bertrand); İtalyancası "Tecnica del colpo di Stato" ancak 1948'de yayımlandı. Türkçesi: "Hükümet Devirme Tekniği", çeviren Nihal Önol, 188 sayfa; yayınevi doğrulanmadı. "Darbe Tekniği" adlı bir baskı bulunamadı. Fransızca ilk baskı yaklaşık 290 sayfadır.
 
@@ -423,7 +423,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## Gene Sharp — From Dictatorship to Democracy (From Dictatorship to Democracy: A Conceptual Framework for Liberation, 1993)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Gene Sharp (1928–2018) Amerikalı siyaset bilimcidir; Massachusetts Dartmouth Üniversitesi'nde profesördü ve 1983'te şiddetsiz mücadeleyi inceleyen Albert Einstein Enstitüsü'nü kurdu. Metin İngilizce yazıldı; 1993'te Bangkok'ta tefrika edildi, 1994'te kitapçık olarak basıldı. Türkçe baskısı bulunamadı (aramada yalnızca Azerbaycan Türkçesi bir çeviri çıktı; Türkiye Türkçesi baskı doğrulanmadı). 2010 tarihli dördüncü ABD baskısı 93 sayfadır; otuzdan fazla dile çevrilmiştir.
 
@@ -507,7 +507,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## Sergei Guriev ve Daniel Treisman — Spin Dictators (Spin Dictators: The Changing Face of Tyranny in the 21st Century, 2022)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Sergei Guriev Rus iktisatçıdır; 2013'te baskı nedeniyle Rusya'dan ayrılmıştır. Daniel Treisman, Kaliforniya Üniversitesi'nde (UCLA) çalışan Amerikalı siyaset bilimcidir. Kitap İngilizce yazıldı ve 2022'de Princeton University Press'te çıktı. Türkçe baskısı bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te kayıt çıkmadı). Notlar ve kaynakça dahil 360 sayfa; ana metin yaklaşık 220 sayfadır.
 

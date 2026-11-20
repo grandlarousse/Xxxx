@@ -1,6 +1,6 @@
 # Greene'in diğer kitapları ve doğrudan kaynakları
 
-Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
+Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
 
 ## Bu dosyadaki kitaplar
 
@@ -137,7 +137,7 @@ Ayrıştığı yerler: İktidar tek kişinin saraydaki yükselişini anlatır; b
 
 ## Robert Greene ve 50 Cent — İktidarın 50. Yasası (The 50th Law, 2009)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): İktidarın 50. Yasası (çev. Füsun Doruker, 2011; kitapçı kaydı, yayınevi doğrulanmadı). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** Robert Greene İktidar'ın yazarıdır; 50 Cent (Curtis Jackson) New York'un Queens ilçesinde uyuşturucu satıcılığından rap yıldızlığına ve iş adamlığına geçmiş Amerikalı bir müzisyendir. Metni Greene yazar, malzemeyi 50 Cent'in hayatı verir. Özgün ad: The 50th Law; dili İngilizce; ilk yayın 8 Eylül 2009 (HarperStudio). Türkçe baskı: İktidarın 50. Yasası, çev. Füsun Doruker, 2011, 256 sayfa; yayınevi arama özetinde görülmedi (büyük olasılıkla Altın Kitaplar; doğrulanmadı). İngilizcesi yaklaşık 290 sayfa.
 
@@ -189,7 +189,7 @@ Ayrışma belirgindir. İktidar'ın çoğu yasası başkalarını yönetmeye dö
 
 ## Robert Greene — İnsan Doğasının Yasaları (The Laws of Human Nature, 2018)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): İnsan Doğasının Yasaları (Altın Kitaplar). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** Robert Greene (d. 1959) İktidar'ın yazarıdır; psikolog değildir, psikoloji ve tarih okumalarını kurallara döken bir derlemeci olarak yazar. Özgün ad: The Laws of Human Nature; dili İngilizce; ilk yayın 23 Ekim 2018 (Viking; İngiltere'de Profile Books). Türkçe baskı: İnsan Doğasının Yasaları, Altın Kitaplar, 696 sayfa; çevirmen bir sahaf kaydına göre Füsun Doruker (yayınevi sayfasında görülmedi; ilk baskı yılı doğrulanmadı). İngilizcesi kaynağa göre 580–624 sayfa.
 
@@ -280,7 +280,7 @@ Ayrışma önemlidir. İktidar'da “kurban” ve “enayi” hep başkasıdır;
 
 ## Ryan Holiday — Trust Me, I'm Lying (Trust Me, I'm Lying: Confessions of a Media Manipulator, 2012)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Holiday on dokuz yaşında üniversiteyi bırakıp Robert Greene'in yanında çıraklık etti; sonra American Apparel'ın pazarlama direktörü oldu ve yazar Tucker Max, Greene ve Dov Charney için tanıtım yürüttü. Özgün dili İngilizce; ilk baskı 19 Temmuz 2012, Portfolio (ABD) ve Profile Books (İngiltere). 2017'de güncellenmiş baskısı çıktı. Türkçe baskısı bulunamadı; “Güven Bana, Yalan Söylüyorum” yalnızca adın çevirisidir. Yaklaşık 288 sayfa.
 
@@ -308,7 +308,7 @@ Ayrışma önemlidir. İktidar'da “kurban” ve “enayi” hep başkasıdır;
 
 ## Jay Haley — The Power Tactics of Jesus Christ and Other Essays (The Power Tactics of Jesus Christ and Other Essays, 1969)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Jay Haley (1923–2007), aile terapisinin ve stratejik terapinin kurucu adlarından biridir; Gregory Bateson'ın iletişim araştırma projesinde çalıştı, hipnoz ustası Milton Erickson'ı yakından izledi. Kitap İngilizcedir; adı “İsa Mesih'in Güç Taktikleri ve Diğer Denemeler” diye çevrilebilir. İlk baskı 1969 (Kirkus'a göre Grossman, Wikipedia'ya göre Avon); ikinci baskı 1986, Triangle Press; yeniden basım Crown House. Türkçe baskısı bulunamadı. İnce bir deneme kitabıdır; sayfa sayısı doğrulanmadı.
 
@@ -336,7 +336,7 @@ Ayrışma önemlidir. İktidar'da “kurban” ve “enayi” hep başkasıdır;
 
 ## Grete de Francesco — The Power of the Charlatan (Die Macht des Charlatans, 1937)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Grete de Francesco (doğum adı Margarethe Weissenstein, Viyana 1893 – büyük olasılıkla Ravensbrück 1945), Almanca yazan Yahudi kökenli bir gazeteci ve kültür tarihçisiydi; Frankfurter Zeitung'a yazdı, Berlin'de İtalyan faşizmi üzerine tez verdi. Özgün adı *Die Macht des Charlatans*, dili Almanca; Schwabe, Basel, 1937 (258 sayfa, 69 resim). İngilizcesi: *The Power of the Charlatan*, çev. Miriam Beard, Yale University Press, 1939 (yaklaşık 288 sayfa). Adı “Şarlatanın Gücü” diye çevrilebilir; Türkçe baskısı bulunamadı.
 
@@ -364,7 +364,7 @@ Ayrışma önemlidir. İktidar'da “kurban” ve “enayi” hep başkasıdır;
 
 ## Ben-Ami Scharfstein — Amoral Politics (Amoral Politics: The Persistent Truth of Machiavellism, 1995)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Ben-Ami Scharfstein, Tel Aviv Üniversitesi'nde felsefe profesörüydü (emekli); karşılaştırmalı felsefe çalışmalarıyla tanınır. Kitap İngilizcedir; adı “Ahlak Dışı Siyaset: Makyavelizmin Kalıcı Gerçeği” diye çevrilebilir. İlk baskı Mart 1995, State University of New York (SUNY) Press. Türkçe baskısı bulunamadı. xii + 342 sayfa.
 
@@ -392,7 +392,7 @@ Ayrışma önemlidir. İktidar'da “kurban” ve “enayi” hep başkasıdır;
 
 ## Dennis Bloodworth ve Ching Ping Bloodworth — The Chinese Machiavelli (The Chinese Machiavelli: 3,000 Years of Chinese Statecraft, 1976)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Dennis Bloodworth, İngiliz *The Observer* gazetesinin uzun yıllar Uzak Doğu muhabiriydi ve Singapur'da yaşadı (ölümü 2005); kitabı Çinli eşi Ching Ping ile birlikte yazdı. Dili İngilizce; adı “Çinli Machiavelli: Çin Devlet Yönetiminin 3.000 Yılı” diye çevrilebilir. İlk baskı 1976: Farrar, Straus and Giroux (New York) ve Secker & Warburg (Londra). 2004'te Peter Li'nin önsözüyle yeniden basıldı. Türkçe baskısı bulunamadı. xvi + 346 sayfa; harita, kronoloji ve dizin içerir.
 

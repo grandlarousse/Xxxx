@@ -1,6 +1,6 @@
 # Hint, İslam ve Türk siyasetnameleri
 
-Bu dosyada 17 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
+Bu dosyada 17 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
 
 ## Bu dosyadaki kitaplar
 
@@ -123,7 +123,7 @@ Ayrışma büyüktür. Greene'in kitabında Dimne bir kahraman olurdu; burada ma
 
 ## Çanakya'ya atfedilir — Cāṇakya Nīti (Cāṇakya-nīti, derleme; tarihi belirsiz)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Gelenek metni, Maurya imparatoru Çandragupta'nın danışmanı sayılan Çanakya'ya (MÖ 4.–3. yüzyıl) bağlar; gerçekte farklı çağlarda toplanmış, yazarı belli olmayan Sanskritçe özdeyiş derlemeleridir. Tek bir yazılış yılı yoktur. Ludwik Sternbach 1960'larda altı ayrı sürümünü ayırıp yayımladı. En bilinen sürüm (Cāṇakya-nīti-darpaṇa ya da Vṛddha-Cāṇakya) 17 bölümdür; yaklaşık 340 beyit tuttuğu bilgisi bellekten, doğrulanmadı. Türkçe baskısı bulunamadı (bir e-kitap kaydı var, çevirmeni ve yayınevi doğrulanmadı). İngilizcede A. N. D. Haksar seçkisi (Penguin, 2020) yaklaşık 200 sayfadır.
 
@@ -352,7 +352,7 @@ Ayrışma: Greene'de güç kişinin amacıdır; Nizamülmülk'te hükümdarın g
 
 ## Anonim — Hileler Kitabı (Rekâiku'l-hulel fî dekâiki'l-hiyel, 13.–14. yüzyıl)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): Hileler Kitabı: Arap Kültüründe Siyasi Stratejiler (çev. Menekşe Tokyay). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** Yazarı bilinmiyor. Özgün dili Arapça; ad "İnce hilelere dair zarif kumaşlar" gibi çevrilebilir. Kataloglarda ikinci sözcük "hulel" (ḥulal, giysiler) diye geçer; "hilel" okunuşu yanlıştır. Derleme 13. yüzyıl sonu ya da 14. yüzyıl başına tarihlenir. Paris'teki yazmayı René R. Khawam buldu ve 1976'da *Le Livre des ruses: la stratégie politique des Arabes* adıyla Fransızcaya çevirdi (Phébus; 2002 cep baskısı 446 sayfa). İngilizcesi: *The Subtle Ruse: The Book of Arabic Wisdom and Guile* (East-West Publications, Londra 1980). Arapça basımı *es-Siyâse ve'l-hîle inde'l-Arab* adını taşır. Türkçede *Hileler Kitabı: Arap Kültüründe Siyasi Stratejiler* adlı bir baskı kaydı var: çeviren Menekşe Tokyay (Goodreads kaydı); yayınevi doğrulanmadı.
 
@@ -381,7 +381,7 @@ Ayrışma: Greene'de güç kişinin amacıdır; Nizamülmülk'te hükümdarın g
 
 ## Turtûşî — Sirâcü'l-Mülûk: Siyaset Ahlâkı ve İlkelerine Dair (Sirâcü'l-mülûk, 1122)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): Sirâcü'l-Mülûk (İnsan Yayınları, 1995; çev. Said Aykut). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** Ebû Bekir Muhammed et-Turtûşî (1059–1126), Endülüs'ün Tortosa şehrinde doğmuş, İskenderiye'ye yerleşmiş Mâlikî fakihidir (fakih: İslam hukuku bilgini). Saray görevlisi değil, yöneticilere dışarıdan öğüt veren bir âlim olarak yazar. Özgün dili Arapça; adı "Hükümdarların Kandili" demektir. TDV İslâm Ansiklopedisi'ne göre 8 Eylül 1122'de tamamlandı. Türkçesi: *Sirâcü'l-Mülûk: Siyaset Ahlâkı ve İlkelerine Dair*, çev. Said Aykut, İnsan Yayınları, İstanbul 1995, 540 sayfa.
 
@@ -509,7 +509,7 @@ Ayrıştığı yer daha önemlidir. Greene iktidarı bireyin ustalığıyla aç�
 
 ## Gelibolulu Mustafa Âlî — Nushatü's-selâtîn (Nushatü's-selâtîn, 1581)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Gelibolulu Mustafa Âlî (1541–1600), Osmanlı tarihçisi, şairi ve maliye bürokratıdır; en bilinen eseri dünya tarihi *Künhü'l-ahbâr*'dır. Bu kitabı, beklediği makamlara bir türlü ulaşamamış bir taşra görevlisi olarak yazar. Dili Osmanlı Türkçesi; adı "Sultanlara Öğüt" demektir, bazı kaynaklarda *Nasîhatü's-selâtîn* diye de geçer. TDV İslâm Ansiklopedisi'ne göre Aralık 1581'de (Zilkade 989) Halep'te yazıldı; bazı çalışmalar 1580 tarihini verir. Bilimsel neşri ve İngilizce çevirisi: Andreas Tietze, *Muṣṭafā ʿĀlī's Counsel for Sultans of 1581*, iki cilt, Viyana 1979 ve 1982. Günümüz Türkçesiyle baskısı: doğrulanmadı (Marmara Üniversitesi'nde tenkitli metin çalışması var; ticari bir baskının künyesi görülmedi).
 

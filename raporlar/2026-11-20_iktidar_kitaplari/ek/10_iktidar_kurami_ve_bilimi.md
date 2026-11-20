@@ -1,6 +1,6 @@
 # İktidar kuramı ve iktidarın bilimi
 
-Bu dosyada 21 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
+Bu dosyada 21 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
 
 ## Bu dosyadaki kitaplar
 
@@ -67,7 +67,7 @@ Ayrışma köklüdür. Greene iktidarı bir oyun, kazanmayı da amaç olarak sun
 
 ## Norbert Elias — Die höfische Gesellschaft (Die höfische Gesellschaft, 1969)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Norbert Elias (Breslau 1897 – Amsterdam 1990) Alman doğumlu, sonradan İngiliz vatandaşı olan sosyologdur; "Uygarlık Süreci" adlı eseriyle tanınır. Yahudi olduğu için 1933'te Almanya'dan kaçtı ve onlarca yıl akademinin kıyısında kaldı. Özgün dil Almanca. Kitap, 1933'te Frankfurt'ta sunduğu, Nazi iktidarı yüzünden hiç kabul edilemeyen "Der höfische Mensch" (Saray İnsanı) adlı doçentlik tezine dayanır; çok genişletilmiş hâliyle 1969'da yayımlandı. İngilizcesi "The Court Society" (çev. Edmund Jephcott, 1983). Türkçe baskısı bulunamadı: Türkçe akademik yazılarda "Saray Toplumu" adıyla anılır, ama bu adla yayımlanmış bir çeviri iki ayrı aramada ve iki katalogda (D&R, Open Library) görülmedi. Türkçede konuya en yakın metin, aynı yazarın "Uygarlık Süreci"dir (İletişim Yayınları, 2 cilt). Hacim: İngilizce baskı yaklaşık 300 sayfa (doğrulanmadı).
 
@@ -271,7 +271,7 @@ Ayrışma ise bu gruptaki en keskinidir. Greene okura iktidarı nasıl kazanaca�
 
 ## James Burnham — The Machiavellians: Defenders of Freedom (The Machiavellians: Defenders of Freedom, 1943)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** James Burnham (1905–1987) Amerikalı filozof ve siyaset kuramcısıdır; New York Üniversitesi'nde felsefe hocasıydı. 1930'larda önde gelen bir Troçkistti; Marksizmi bıraktıktan sonra *The Managerial Revolution* (1941) ile tanındı, ileride muhafazakâr *National Review* dergisinin yazarı oldu. Bu kitap o geçişin ortasında yazıldı. Özgün dil İngilizce; ilk yayın 1943, John Day Company, 270 sayfa. Türkçe baskısı bulunamadı. Türkçe akademik yazında "Makyavelciler" diye anılıyor.
 
@@ -343,7 +343,7 @@ Aynı okulun diğer iki adı Gaetano Mosca (yönetici sınıf kuramı, 1896) ve 
 
 ## C. Wright Mills — İktidar Seçkinleri (The Power Elite, 1956)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): İktidar Seçkinleri (İnkılâp; çev. Ünsal Oskay). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** C. Wright Mills (1916–1962) Amerikalı sosyologdur; Columbia Üniversitesi'nde ders verdi ve kendi toplumunu soldan, bağımsız bir eleştirmen olarak inceledi (kurum bellekten). Özgün dil İngilizce; ilk yayın 19 Nisan 1956, Oxford University Press. Türkçesi: *İktidar Seçkinleri*, çev. Ünsal Oskay; bu oturumda görülen baskı İnkılâp Kitabevi, 663 sayfa. Bilgi Yayınevi'nden daha eski bir baskı olduğu doğrulanmadı.
 
@@ -489,7 +489,7 @@ Aynı okulun diğer iki adı Gaetano Mosca (yönetici sınıf kuramı, 1896) ve 
 
 ## Heinrich Popitz — Phänomene der Macht (Phänomene der Macht, 1986)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Heinrich Popitz (1925–2002) Alman sosyologdur; uzun yıllar Freiburg Üniversitesi'nde ders verdi. Babası Johannes Popitz, Hitler'e karşı direnişe katıldığı için 1945 başında idam edildi. Özgün dil Almanca; ilk baskı 1986, genişletilmiş ikinci baskı 1992 (Mohr, Tübingen; alt başlık: Otorite, Egemenlik, Şiddet, Teknik). İngilizcesi 2017: *Phenomena of Power: Authority, Domination, and Violence* (Columbia University Press). Türkçe baskısı bulunamadı; adı "İktidar Fenomenleri" diye çevrilebilir. Yaklaşık 280 sayfa (doğrulanmadı).
 
@@ -517,7 +517,7 @@ Aynı okulun diğer iki adı Gaetano Mosca (yönetici sınıf kuramı, 1896) ve 
 
 ## John Kenneth Galbraith — İktidarın Anatomisi (The Anatomy of Power, 1983)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): İktidarın Anatomisi (Hece Yayınları, 2004). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** John Kenneth Galbraith (1908–2006) Kanada doğumlu Amerikalı iktisatçıdır; Harvard'da profesörlük yaptı, Demokrat başkanlara danışmanlık etti ve geniş okur kitlesine yazdı (*Bolluk Toplumu*, *Yeni Sanayi Devleti*). Özgün dil İngilizce; ilk yayın 1983, Houghton Mifflin. Türkçesi: *İktidarın Anatomisi*, Hece Yayınları, Ankara, 2004 (bir akademik kaynakçada görüldü; çevirmen doğrulanmadı). Yaklaşık 200 sayfa (doğrulanmadı).
 
@@ -546,7 +546,7 @@ Aynı okulun diğer iki adı Gaetano Mosca (yönetici sınıf kuramı, 1896) ve 
 
 ## Dacher Keltner — The Power Paradox: How We Gain and Lose Influence (The Power Paradox, 2016)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Dacher Keltner, Kaliforniya Üniversitesi Berkeley'de psikoloji profesörü ve Greater Good Science Center'ın kurucu yöneticisidir; duygular ve güç üzerine deneysel çalışmalarıyla tanınır. Özgün ad: *The Power Paradox: How We Gain and Lose Influence*; dili İngilizce; ilk yayın 2016 (Penguin Press, New York). Türkçe baskısı bulunamadı; bir web sayfasında kitap "Güç Paradoksu" diye anılıyor, ama yayınevi ve çevirmen kaydı görülmedi; D&R ve Kitapseç kataloglarında da kayıt çıkmadı. Yaklaşık 200 sayfa.
 
@@ -584,7 +584,7 @@ Ayrışma köktendir. Yasa 12 (Kurbanını seçici dürüstlük ve cömertlikle 
 
 ## Brian Klaas — Corruptible: Who Gets Power and How It Changes Us (Corruptible, 2021)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Brian Klaas, 1986 doğumlu Amerikalı siyaset bilimcidir; University College London'da küresel siyaset profesörü ve *The Atlantic* yazarıdır. Özgün ad: *Corruptible: Who Gets Power and How It Changes Us*; dili İngilizce; ilk yayın Kasım 2021 (Scribner; İngiltere'de John Murray). Türkçe baskısı bulunamadı: bakılan baskı listesinde Fince, Portekizce ve Japonca çeviriler görünüyor, Türkçe yok; D&R ve Kitapseç kataloglarında yazarın yalnızca Fluke adlı kitabının çevirisi görünüyor. Yaklaşık 320 sayfa.
 
@@ -622,7 +622,7 @@ Ayrışma bakış açısındadır. Greene oyuncuya nasıl kazanacağını öğre
 
 ## Julie Battilana ve Tiziana Casciaro — Power, for All: How It Really Works and Why It's Everyone's Business (Power, for All, 2021)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Julie Battilana, Harvard Business School ve Harvard Kennedy School'da profesördür; toplumsal değişim ve örgütler üzerine çalışır. Tiziana Casciaro, Toronto Üniversitesi Rotman İşletme Okulu'nda örgütsel davranış profesörüdür. Özgün ad: *Power, for All: How It Really Works and Why It's Everyone's Business*; dili İngilizce; ilk yayın 2021 (Simon & Schuster). Türkçe baskısı bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te kayıt çıkmadı). Yaklaşık 270 sayfa (doğrulanmadı).
 
@@ -660,7 +660,7 @@ Ayrışma amaçta ve yöntemdedir. Greene bağımlılığı gizleyerek ve tek ki
 
 ## Frans de Waal — Chimpanzee Politics: Power and Sex among Apes (Chimpanzee Politics, 1982)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Frans de Waal (1948–2024), Hollanda doğumlu primatolog, yani maymun ve insansı maymun davranışı uzmanıdır; meslek yaşamının büyük bölümünü ABD'de Emory Üniversitesi'nde geçirdi. Özgün ad: *Chimpanzee Politics: Power and Sex among Apes*; ilk baskı 1982'de Londra'da İngilizce çıktı, aynı yıl Hollandaca baskısı da yayımlandı. Sonraki baskılarda yeni giriş ve sonsöz eklendi. Türkçe baskısı bulunamadı ("Şempanze Politikası" adıyla yapılan aramada kayıt çıkmadı; D&R ve Kitapseç kataloglarında yazarın başka kitaplarının çevirileri var, bu kitap yok). Yaklaşık 220 sayfa.
 
@@ -698,7 +698,7 @@ Ayrışma da açıktır. Yasa 15 (Düşmanını tümüyle ez) şempanzelerde iş
 
 ## Richard Christie ve Florence L. Geis — Studies in Machiavellianism (Studies in Machiavellianism, 1970)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Richard Christie, Columbia Üniversitesi'nde sosyal psikologdu; Florence L. Geis onun araştırma ortağıydı (Geis'in kurumu bu çalışmada bir kaynaktan görülmedi; doğrulanmadı). Kitap başka araştırmacıların da katkısıyla hazırlanmış bir araştırma derlemesidir. Özgün ad: *Studies in Machiavellianism*; dili İngilizce; ilk yayın 1970 (Academic Press, New York; sosyal psikoloji dizisi). Türkçe baskısı bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te kayıt çıkmadı). Yaklaşık 415 sayfa.
 
@@ -736,7 +736,7 @@ Ayrışma: Greene yasalarını evrensel sunar. Deneyler ise üstünlüğün koş
 
 ## Paul Babiak ve Robert D. Hare — Snakes in Suits: When Psychopaths Go to Work (Snakes in Suits, 2006)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): Yerküre Yayınevi, 2015, çev. Özgür Öner (Türkçe adı doğrulanmadı). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** Paul Babiak, şirketlere danışmanlık yapan bir endüstri ve örgüt psikoloğudur. Robert D. Hare, psikopatiyi ölçmek için kullanılan Hare Psikopati Kontrol Listesi'ni (PCL-R) geliştiren Kanadalı adli psikologdur. Özgün ad: *Snakes in Suits: When Psychopaths Go to Work* ("Takım elbiseli yılanlar: psikopatlar işe gidince"); dili İngilizce; ilk yayın Mayıs 2006 (HarperBusiness). Türkçe baskı: bir baskı listesine göre 2015'te Yerküre Yayınevi'nden, Özgür Öner çevirisiyle, 330 sayfa olarak yayımlandı; Türkçe adı bu kayıtta görünmüyor; D&R ve Kitapseç kataloglarında da kitap çıkmadı (Türkçe ad doğrulanmadı). Özgün baskı 336 sayfa.
 

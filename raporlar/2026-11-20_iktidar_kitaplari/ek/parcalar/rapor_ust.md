@@ -1,12 +1,13 @@
 # Robert Greene'in İktidar'ı ve aynı konuyu işleyen kitaplar
 
-*20 Kasım 2026 · Seviye L+ · ana rapor. Ayrıntılar `ek/` klasöründeki 11 dosyada.*
+*20 Kasım 2026. Bu dosya özet ve yol haritasıdır; asıl anlatım `ek/` klasöründeki 11 dosyadadır.*
 
 ## Kısa yanıt
 
 - **İktidar** (The 48 Laws of Power, 1998) güç kazanma ve korumaya dair 48 kuralı, her biri tarihten örneklerle anlatan bir öğüt kitabıdır. 48 yasanın tamamı, kitabın çerçevesiyle birlikte `ek/01_iktidar_48_yasa.md` dosyasında tek tek anlatıldı (yaklaşık 21.000 kelime).
 - Aynı konuyu işleyen kitaplar için yedi ayrı yönden tarama yapıldı ve 300 dolayında aday bulundu. Bunların **125'i ayrı ayrı ayrıntılı anlatıldı** (dokuz dosya, yaklaşık 93.000 kelime); kalan **176'sı** tek satırla envantere yazıldı.
 - "Bütün kitaplar" iddiası tutulamaz: konu sınırsızdır. Buradaki liste, belirli bir ölçüte göre yapılmış geniş bir seçkidir; ölçüt ve dışarıda bırakılanlar aşağıda yazılı.
+- **Önemli sınır:** kitap anlatımları kitaplar okunarak değil, ansiklopedi maddeleri, tanıtımlar, özetler ve modelin kendi bilgisiyle yazıldı. Bir tanıtım olarak oku, kitabın yerine koyma.
 - Kitabın kendisi için iki uyarı: yasalar birbiriyle çelişir, ve Greene'in tarih anlatımı yer yer kaynaklarla uyuşmaz. İkisi de ilgili yasaların notlarına işlendi.
 
 ## Ne yapmalısın: nereden başlamalı
@@ -16,11 +17,11 @@ Hepsini baştan sona okumak gerekmez. Amacına göre bir yol seç:
 1. **İktidar'ı anlamak istiyorsan:** `ek/01` dosyasında önce "Birinci kısım"ı (çerçeve) oku, sonra 48 yasanın listesinden ilgini çekenlere git. Her yasa kendi başına okunur.
 2. **Greene'e en çok benzeyen kitapları arıyorsan** (hepsinin Türkçesi satışta): Gracián'ın *Dünyevi Bilgelik Sanatı* (`ek/03`), Machiavelli'nin *Hükümdar*'ı (`ek/03`), Sun Tzu'nun *Savaş Sanatı* (`ek/05`), Greene'in *33 Stratejide Savaş* ve *Baştan Çıkarma Sanatı* (`ek/02`).
 3. **Karşı görüşü görmek istiyorsan:** Carnegie'nin *Dost Kazanma ve İnsanları Etkileme Sanatı* (`ek/09`), La Boétie'nin *Gönüllü Kulluk Üzerine Söylev*'i ve Arendt'in *Şiddet Üzerine*'si (`ek/10`), Keltner'ın *The Power Paradox*'u (`ek/10`; Türkçesi kataloglarda görünmüyor).
-4. **Kendini korumak için okuyorsan:** Cialdini'nin *İknanın Psikolojisi*, Schopenhauer'ın *Eristik Diyalektik*'i, Le Bon'un *Kitleler Psikolojisi* ve Simon'ın *In Sheep's Clothing*'i (hepsi `ek/09`).
+4. **Kendini korumak için okuyorsan:** Cialdini'nin *İknanın Psikolojisi*, Schopenhauer'ın *Eristik Diyalektik*'i, Le Bon'un *Kitleler Psikolojisi* ve Simon'ın *In Sheep's Clothing*'i (hepsi `ek/09`; Simon'ın Türkçesi kataloglarda görünmüyor).
 5. **Kendi geleneğimizden okumak istiyorsan:** *Siyasetname*, *Kutadgu Bilig*, *Kabusname*, *Mukaddime* ve Osmanlı nasihatnameleri (`ek/06`). Bunlar Machiavelli'yle aynı türün Doğu'daki karşılıklarıdır.
 6. **"İktidar nedir" sorusunun peşindeysen:** Russell'ın *İktidar*'ı, Weber'in *Meslek Olarak Siyaset*'i, Lukes, Canetti ve Foucault (`ek/10`).
 
-Kitap satın almadan önce her kitabın başlığının altındaki italik katalog satırına bak: Türkçe baskının satışta olup olmadığını ve yayınevini o satır gösterir.
+Kitap satın almadan önce her kitabın başlığının altındaki italik satıra ve künye paragrafına birlikte bak. İtalik satır yalnızca iki kitapçının (D&R ve Kitapseç) bugünkü kataloğunu gösterir; orada görünmeyen bir kitabın Türkçesi başka yerde ya da sahafta bulunabilir.
 
 Bir uyarı: Türkçede *İktidar* adını taşıyan iki ayrı kitap var. Biri Greene'in kitabı (Altın Kitaplar), öteki Bertrand Russell'ın *Power: A New Social Analysis*'i (Cem Yayınevi). Kitapçıda karıştırma.
 
@@ -91,7 +92,7 @@ Yasa adlarını biz çevirdik; Altın Kitaplar baskısındaki resmî başlıklar
 
 - *Yasalar çelişir.* Kirkus'un örneği: 6. yasa ne pahasına olursa olsun dikkat çekmeyi, 38. yasa herkes gibi davranmayı öğütler. Benzer çiftler: 28 ile 35, 15 ile 47. Greene bunu her yasaya bir "tersi" bölümü ekleyerek karşılar; ama hangi durumda hangisinin geçerli olduğunu söylemez.
 - *Kanıt yok.* Stanford'dan Jeffrey Pfeffer, yasaların araştırmaya değil tek tek örneklere dayandığını söyler. Berkeley'den Dacher Keltner 2007'de daha ileri gider: gücün aldatma ve zorlamayla kazanıldığı fikri için "they are dead wrong" (kesinlikle yanlış) yazar.
-- *Tarih anlatımı güvenilmez.* Yazarlarımız ve doğrulayıcılarımız kitabın kaynaklarla çeliştiği yerleri saptadı. Örnekler: Pancho Villa'nın peşindeki sefer için kitap 123.000 asker der, Wikipedia seferin kendisi için yaklaşık 10.000 verir; Carmagnola'nın idamı kitapta 1442, tarihte 1432; Mesmer'in Paris'e gelişi kitapta 1788, kaynaklarda Şubat 1778; Bragadino'nun idamı kitapta 1592, Wikipedia'da 1591. Bunlar yasaların mantığını değiştirmez, ama kitabı tarih kaynağı olarak kullanmamak gerekir.
+- *Tarih anlatımı güvenilmez.* Yazarlarımız ve doğrulayıcılarımız kitabın kaynaklarla çeliştiği yerleri saptadı. Örnekler: kitap XIV. Louis'nin saltanatını 55 yıl diye verir, Louis 1643'ten 1715'e 72 yıl tahtta kaldı; Carmagnola'nın idamı kitapta 1442, tarihte 1432; Bragadino'nun idamı kitapta 1592, Wikipedia'da 1591; Song imparatorunun tahta çıkışı kitapta 959, tarih yazımında 960. Bunlar yasaların mantığını değiştirmez, ama kitabı tarih kaynağı olarak kullanmamak gerekir.
 - *Ahlak.* Publishers Weekly kitabı 1998'de "amoral or immoral" diye tanımladı. Kitabı bir saldırı kılavuzu olarak değil, başkalarının hamlelerini tanıma kılavuzu olarak okumak en yaygın savunmadır.
 
 ## Aynı konudaki kitaplar: nasıl seçildi
@@ -112,7 +113,7 @@ Yasa adlarını biz çevirdik; Altın Kitaplar baskısındaki resmî başlıklar
 
 ## Dokuz küme ve Greene'le ilişkileri
 
-**Greene'in diğer kitapları ve kaynakları (`ek/02`, 10 kitap).** *Baştan Çıkarma Sanatı* aynı kalıbı cazibeye, *33 Stratejide Savaş* çatışmaya, *İnsan Doğasının Yasaları* psikolojiye uygular. Greene'in şarlatan öyküleri büyük ölçüde Grete de Francesco'dan gelir: kitabın tam metninde 27. yasada ondan iki kenar notu ve bir otorite alıntısı görüldü.
+**Greene'in diğer kitapları ve kaynakları (`ek/02`, 10 kitap).** *Baştan Çıkarma Sanatı* aynı kalıbı cazibeye, *33 Stratejide Savaş* çatışmaya, *İnsan Doğasının Yasaları* psikolojiye uygular. 27. yasa (mürit kitlesi yarat) en çok Grete de Francesco'ya dayanır: kitabın metninde bu yasada ondan iki kenar notu ve bir otorite alıntısı görüldü.
 
 **Batı klasikleri (`ek/03`, 16 kitap).** Machiavelli Greene'in ana modelidir. Gracián ise en yakın akrabasıdır: *Oráculo manual*'in 7. aforizması (üstünü gölgede bırakma) Greene'in 1. yasasıyla aynı fikirdir. Gracián kitabın kaynakça kopyasında görünmüyor, ama izinler sayfasında L. B. Walton çevirisi (*The Oracle*) anılıyor. Guicciardini karşı sesi verir: genel kural çıkarılamaz, her durum ayrı tartılmalıdır.
 
@@ -122,7 +123,7 @@ Yasa adlarını biz çevirdik; Altın Kitaplar baskısındaki resmî başlıklar
 
 **Hint, İslam ve Türk siyasetnameleri (`ek/06`, 17 kitap).** Greene Kautilya'yı dört yerde (önsöz, 14., 15. ve 26. yasalar), Nizamülmülk'ü 40. yasada alıntılar. *Kutadgu Bilig* kitabında hiç geçmez. Bu gelenek Greene'den bir noktada ayrılır: hükümdarın gücünü adaletle sınırlar.
 
-**İş dünyasında güç (`ek/07`, 10 kitap).** Greene'in doğrudan öncülü R. G. H. Siu'nun *The Craft of Power*'ıdır (1979): Greene ondan 26., 30. ve 35. yasalarda alıntı yapar. Korda'nın *Power!* kitabı sık sık öncül sayılır, ama Greene'in metninde adı geçmez. Pfeffer aynı konuyu araştırmaya dayanarak yazar ve Greene'i yöntem açısından eleştirir.
+**İş dünyasında güç (`ek/07`, 10 kitap).** Ton ve biçim bakımından Greene'e en yakın modern öncül R. G. H. Siu'nun *The Craft of Power*'ıdır (1979); Greene ondan 26., 30. ve 35. yasalarda alıntı yapar. Korda'nın *Power!* kitabı sık sık öncül sayılır, ama Greene'in metninde adı geçmez. Pfeffer aynı konuyu araştırmaya dayanarak yazar ve Greene'i yöntem açısından eleştirir.
 
 **Siyasette güç (`ek/08`, 15 kitap).** *The Dictator's Handbook* Greene'in soğuk çıkar mantığını siyaset bilimiyle destekler. Alinsky, Sharp ve Scott aynı oyuna güçsüzlerin tarafından bakar.
 
@@ -132,4 +133,4 @@ Yasa adlarını biz çevirdik; Altın Kitaplar baskısındaki resmî başlıklar
 
 ## 125 kitabın listesi
 
-★ işareti çekirdek katmanı (yaklaşık 1.000 kelime), işaretsizler ikinci katmanı (yaklaşık 550 kelime) gösterir. *(TR)* işareti, Türkçe baskının 20 Kasım 2026'da D&R ya da Kitapseç kataloğunda satışta göründüğünü gösterir; işaretin yokluğu Türkçesinin olmadığı anlamına gelmez, yalnızca bu iki katalogda görünmediğini söyler.
+★ işareti çekirdek katmanı (yaklaşık 1.000 kelime), işaretsizler ikinci katmanı (yaklaşık 550 kelime) gösterir. *(TR)* işareti, Türkçe baskının 20 Kasım 2026'da D&R ya da Kitapseç kataloğunda satışta göründüğünü gösterir. *(TR°)* işareti, Türkçe baskısı olduğu notlardan bilinen ama bu iki katalogda satışta görünmeyen kitapları gösterir. İşaretsiz kitapların Türkçesi olmayabilir de, bu taramada bulunamamış da olabilir.

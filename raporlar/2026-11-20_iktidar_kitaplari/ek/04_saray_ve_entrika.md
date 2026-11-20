@@ -1,6 +1,6 @@
 # Saray, salon ve entrika kitapları
 
-Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
+Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
 
 ## Bu dosyadaki kitaplar
 
@@ -17,7 +17,7 @@ Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Baldassare Castiglione — Il libro del Cortegiano (Saraylının Kitabı; Il libro del Cortegiano, 1528)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Baldassare Castiglione (1478–1529) Mantovalı bir soylu, asker ve diplomattır; 1504'ten sonra Urbino sarayında yaşamış, ömrünün sonunda Papa'nın İspanya elçisi olmuştur. Kitap İtalyancadır; özgün adı *Il libro del Cortegiano*, yani "Saraylının Kitabı". Yaklaşık yirmi yılda yazıldı (1508'den başlayarak) ve 1528'de Venedik'te Aldus matbaasında basıldı. Türkçe baskısı bulunamadı ("Saraylı" adıyla bir çeviri aramalarda çıkmadı; doğrulanmadı). Greene'in kullandığı İngilizce çeviri George Bull'un Penguin baskısıdır. Hacim: dört kitap, yaklaşık 350 sayfa (sayfa sayısı bellekten, doğrulanmadı).
 
@@ -63,7 +63,7 @@ Ayrıştığı yer amaçtır. Greene'de zarafet, güç kazanmanın tekniğidir v
 
 ## Jules Mazarin'e atfedilir — Breviarium politicorum (Politikacının El Kitabı; Breviarium politicorum secundum rubricas Mazarinicas, 1684)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Kardinal Jules Mazarin (1602–1661) İtalyan asıllı bir diplomattı; Richelieu'nün ardından Fransa'nın başbakanı oldu ve XIV. Louis'nin çocukluğunda ülkeyi yönetti. Kitap onun adını taşır ama onun kaleminden çıktığı kanıtlanmış değildir. Dili Latincedir; özgün adı "Mazarin'in başlıklarına göre politikacıların dua kitabı" anlamına gelir. İlk baskı 1684'te Köln'de, Mazarin'in ölümünden 23 yıl sonra çıktı; kataloglarda basımcı "Ioannes Selliba" olarak geçer. Türkçe baskısı bulunamadı (çeşitli adlarla yapılan üç aramada çıkmadı; doğrulanmadı). Fransızca (Arléa, çev. François Rosso, Umberto Eco'nun önsözüyle), İtalyanca, İspanyolca ve Portekizce baskıları vardır. Hacim: kısa maddelerden oluşan ince bir kitap, yaklaşık 100–150 sayfa (bellekten, doğrulanmadı).
 
@@ -110,7 +110,7 @@ Ayrıştığı yerler de vardır. Mazarin metni temkinlidir: orta yolu, barış�
 
 ## Lord Chesterfield — Letters to His Son (Oğluna Mektuplar; Letters to His Son, 1774)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Philip Dormer Stanhope, 4. Chesterfield Kontu (1694–1773) İngiliz siyasetçi, diplomat ve yazardır; Lahey'de elçilik yapmış, Lordlar Kamarası'nın önde gelen hatiplerinden olmuştur. Mektuplar çoğunlukla İngilizcedir; oğlunun dil öğrenmesi için bir bölümü Fransızca ve Latince yazılmıştır. 1737'de başlar, oğlunun öldüğü 1768'e kadar sürer; kitap olarak 1774'te Londra'da, Dodsley tarafından yayımlandı. Tam adı: *Letters to His Son on the Art of Becoming a Man of the World and a Gentleman*. Türkçe baskısı bulunamadı (üç ayrı aramada çıkmadı; doğrulanmadı). Hacim: 400'den fazla mektup; ilk baskı iki cilt, bugünkü seçmeler 400 sayfa dolayındadır (seçme sayfa sayısı bellekten, doğrulanmadı).
 
@@ -205,7 +205,7 @@ Ayrıştığı yer temeldir. Greene bir kullanım kılavuzu yazar: insan doğas�
 
 ## Eustache de Refuge — Traicté de la cour, ou instruction des courtisans (Saray Üzerine Risale ya da Saraylılara Öğüt, 1616)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Eustache de Refuge (1564–1617; adı "du Refuge" diye de yazılır) Fransız hukukçu, yönetici ve diplomattır: Paris Parlamentosu üyeliği, Lyon'da intendantlık (kralın taşradaki denetçisi), İsviçre ve Hollanda'da elçilik yapmıştır. Kitap Fransızcadır; 1616'da Hollanda'da adsız yayımlandı (bir kaynak Paris 1617 der). Türkçe baskısı bulunamadı. Hacmi baskıya göre değişir; sayfa sayısı doğrulanmadı.
 
@@ -261,7 +261,7 @@ Ayrıştığı yer temeldir. Greene bir kullanım kılavuzu yazar: insan doğas�
 
 ## François de Callières — De la manière de négocier avec les souverains (Hükümdarlarla Müzakere Etmenin Yolu, 1716)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** François de Callières (1645–1717) XIV. Louis'nin özel elçisi, Fransız Akademisi üyesi ve kralın özel kâtiplerindendir; 1697 Ryswick Barışı'nı Fransa adına imzalayan üç tam yetkili temsilciden biridir. Kitap Fransızcadır ve 1716'da Paris'te yayımlandı. İngilizcede *The Practice of Diplomacy* (A. F. Whyte, 1919) ve *The Art of Diplomacy* adlarıyla bilinir. Türkçe baskısı bulunamadı. Kısa bir kitaptır; özgün metnin 24 bölüm olduğu bilgisi doğrulanmadı.
 
@@ -289,7 +289,7 @@ Ayrıştığı yer temeldir. Greene bir kullanım kılavuzu yazar: insan doğas�
 
 ## Adolph Freiherr Knigge — Über den Umgang mit Menschen (İnsanlarla İlişki Üzerine, 1788)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Adolph Freiherr Knigge (1752–1796) yoksullaşmış bir soylu ailenin oğlu, küçük Alman saraylarında görev yapmış Aydınlanmacı bir yazardır; mason ve bir süre İlluminati (Bavyera'da kurulmuş gizli Aydınlanmacı örgüt) üyesi olmuştur. Kitap Almancadır; ilk baskısı 1788'de Hannover'de iki kısım hâlinde çıktı, yazarın sağlığında beş baskı yaptı. Türkçe baskısı bulunamadı. Sonraki baskılarda üç kısım, 26 bölüm; birkaç yüz sayfa (sayfa sayısı doğrulanmadı).
 
@@ -317,7 +317,7 @@ Ayrıştığı yer temeldir. Greene bir kullanım kılavuzu yazar: insan doğas�
 
 ## Maurice Joly — Dialogue aux enfers entre Machiavel et Montesquieu (Machiavelli ile Montesquieu'nün Cehennemde Söyleşisi, 1864)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Maurice Joly (ö. 1878) Parisli avukat ve siyaset yazarıdır; III. Napoléon rejimine muhalif bir cumhuriyetçi olarak yazar. Kitap Fransızcadır; tam adı *Dialogue aux enfers entre Machiavel et Montesquieu ou la politique de Machiavel au XIXe siècle*. 1864'te Brüksel'de, yazar adı yerine "par un contemporain" (bir çağdaş tarafından) ibaresiyle yayımlandı. Türkçe baskısı bulunamadı. İngilizce tam çevirisi ancak 2002'de çıktı (John S. Waggoner, yorumuyla birlikte 392 sayfa).
 

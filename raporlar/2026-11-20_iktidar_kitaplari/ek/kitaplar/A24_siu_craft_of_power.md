@@ -43,4 +43,4 @@ Ayrışma: Greene ahlakı kitabın dışında bırakır; Siu son bölümü ahlak
 
 **Eleştiri ve sınırlar.** Kitap hakkında yazılmış ciddi bir eleştiri yazısı bulunamadı; bu başlı başına bir sınırdır. Okur yorumları ikiye ayrılır: kimi onu "başka bir kuşağın 48 Yasa'sı" diye özetler, kimi felsefi derinliğiyle sonraki güç kitaplarından üstün bulur. Örnekleri 1970'lerin Amerikan şirket ve siyaset olaylarıdır; çoğu bugünkü okura yabancıdır. Yazarın kendi uydurduğu terimler okumayı zorlaştırır. Öğütler araştırmaya değil yazarın deneyimine ve okumalarına dayanır. Sert açılış ile şefkatli kapanış arasındaki gerilim de çözülmeden kalır. Yazarlık tartışması yoktur.
 
-**Kimler okumalı.** İktidar'ın nereden geldiğini merak eden okur için en öğretici kaynak: Greene'in biçimini ve tonunu yirmi yıl önce, daha kuru ama daha düşünceli bir dille görürsünüz. Bulması zordur ve Türkçesi yoktur.
+**Kimler okumalı.** İktidar'ın nereden geldiğini merak eden okur için en öğretici kaynak: Greene'in biçimini ve tonunu yirmi yıl önce, daha kuru ama daha düşünceli bir dille görürsünüz. Bulması zordur; Türkçe baskısı bu oturumda bulunamadı.

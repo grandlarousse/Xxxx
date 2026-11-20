@@ -1,6 +1,6 @@
 # Çin klasikleri ve strateji
 
-Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
+Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
 
 ## Bu dosyadaki kitaplar
 
@@ -70,7 +70,7 @@ Ayrışma Yasa 15'te (Düşmanını tümüyle ez) belirgindir. Sunzi düşmanın
 
 ## Anonim — Otuz Altı Strateji (Sanshiliu ji, tarihsiz; bugünkü metin 1941 baskısına dayanır)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Yazarı ve tarihi bilinmiyor. Özgün adı *Sanshiliu ji* (三十六計), dili Klasik Çince. Elle kopyalanmış bir nüshanın Shaanxi eyaletinde bulunduğu ve 1941'de yerel bir yayıncı tarafından basıldığı kabul edilir. Metnin Çince aslından yapılmış, künyesi doğrulanabilen bir Türkçe çevirisi bulunamadı. İlgili tek kayıt, aynı deyişleri yorumlayan Japon yazar Hiroshi Moriya'nın kitabıdır: *Savaş Sanatlarında 36 Gizli Strateji*, Kırmızı Kedi Yayınevi, 2014 (çevirmen doğrulanmadı). Özgün metin birkaç sayfadır: bir önsöz, otuz altı deyiş ve her birine bir iki cümlelik açıklama.
 
@@ -202,7 +202,7 @@ Düşünce eleştirileri daha ağırdır. Sistem hükümdarı sınırlayan hiçb
 
 ## Li Zongwu — Hou hei xue (厚黑學, "Kalın ve Kara Öğretisi", 1912) ve Chin-Ning Chu — Thick Face, Black Heart (1992)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Li Zongwu (3 Şubat 1879 – 28 Eylül 1943), Sichuan'ın Fushun ilçesinden (bugünkü Zigong) bir eğitimcidir: devrimci Tongmenghui örgütüne üye olmuş, okul müdürlüğü, eyalet meclisi üyeliği ve eğitim müfettişliği yapmıştır. Memuriyetin içinden, hayal kırıklığına uğramış bir gözlemci olarak yazar. Özgün ad *Hou hei xue*, dil Çince. Tarih kaynaklarda değişir: Çince Wikipedia'daki yazar maddesi yazının 1912'de "Duzun" takma adıyla yayımlandığını, İngilizce Wikipedia 1911'i, Çince kitap maddesi 1917'yi verir. Türkçe baskısı bulunamadı. Çekirdek metin kısa bir denemedir; sonraki derlemeler birkaç yüz sayfaya çıkar.
 
@@ -250,7 +250,7 @@ Chu'nun kitabı için eleştiri farklıdır: Li'nin hicvini yumuşatıp olumlu d
 
 ## Shang Yang'a atfedilir — Lord Shang'ın Kitabı (Shang jun shu, MÖ 4.–3. yüzyıl)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Shang Yang (yaklaşık MÖ 390–338), Qin devletinde MÖ 359'dan ölümüne kadar başvezirlik yapmış reformcudur; kitap onun adını taşır ama büyük bölümünü izleyicileri yazmıştır. Özgün adı Shang jun shu (商君書), dili klasik Çince. Metin MÖ 3. yüzyılda son biçimini aldı. Türkçe baskısı bulunamadı. Bilimsel İngilizce çevirisi Yuri Pines'ındır (Columbia University Press, 2017; kısaltılmış baskı 2019). Bugünkü metin 26 bölüm olarak numaralanır; Han dönemi kataloğundaki 29 bölümden en az beşi aktarım sırasında kaybolmuştur (26 başlıktan ikisinin metninin kayıp olduğu bilgisi bu hesaba uyuyor, ama doğrudan görülmedi).
 
@@ -278,7 +278,7 @@ Chu'nun kitabı için eleştiri farklıdır: Li'nin hicvini yumuşatıp olumlu d
 
 ## Guiguzi'ye atfedilir — Guiguzi (Hayalet Vadisi Üstadı) (Guiguzi, MÖ 4.–3. yüzyıl; tarihi tartışmalı)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Guiguzi, "Hayalet Vadisi Üstadı" demektir; vadide inzivaya çekilmiş yarı efsanevi bir hocanın lakabıdır. Kişi olarak varlığı ve kitabı tek başına yazdığı kuşkuludur. Özgün ad 鬼谷子, dili klasik Çince; öteki adı Baihece ("Açma-Kapama Kitabı"). Türkçe baskısı doğrulanmadı: bir kitapçı sitesinde "Guiguzi" başlığı var ama künyesi görülemedi; 2023 tarihli bir Çin kaynağı tam Türkçe çevirinin henüz bulunmadığını söylüyor. Akademik İngilizce çevirisi: Hui Wu, Guiguzi: China's First Treatise on Rhetoric (Southern Illinois University Press, 2016). Kısa bir metindir.
 
@@ -306,7 +306,7 @@ Chu'nun kitabı için eleştiri farklıdır: Li'nin hicvini yumuşatıp olumlu d
 
 ## Liu Xiang (derleyen) — Savaşan Devletler Entrikaları (Zhanguo ce, MÖ 1. yüzyıl derlemesi)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Liu Xiang, Han hanedanının saray kütüphanesini düzenleyen bilgindir; kitabı yazmadı, kütüphanede bulduğu altı dağınık ve bozuk metni birleştirip adını koydu. Asıl yazarlar bilinmiyor. Özgün ad 戰國策, dili klasik Çince. Malzeme MÖ 5.–3. yüzyıla aittir. Türkçe baskısı bulunamadı; "Savaşan Devletler Entrikaları" burada kullanılan karşılıktır. Tam İngilizce çevirisi J. I. Crump'ındır (Chan-kuo Ts'e, Oxford, 1970; gözden geçirilmiş baskı 1996). Yaklaşık 120.000 karakter tutar.
 
@@ -390,7 +390,7 @@ Chu'nun kitabı için eleştiri farklıdır: Li'nin hicvini yumuşatıp olumlu d
 
 ## François Jullien — Traité de l'efficacité (Traité de l'efficacité, 1996)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** François Jullien (doğumu 1951), École Normale Supérieure mezunu Fransız felsefeci, Yunan uzmanı ve sinologdur (Çin bilimci); 1975–1977'de Pekin ve Şanghay'da okumuştur. Çin düşüncesini Avrupa felsefesine dışarıdan bakmanın aracı olarak kullanır. Özgün ad Traité de l'efficacité ("Etkililik Üzerine İnceleme"), dili Fransızca, 1996. Türkçe baskısı bulunamadı. İngilizcesi: A Treatise on Efficacy: Between Western and Chinese Thinking, çeviren Janet Lloyd, University of Hawai'i Press, 2004; yaklaşık 200 sayfa.
 

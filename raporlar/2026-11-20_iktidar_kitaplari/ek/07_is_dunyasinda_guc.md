@@ -1,6 +1,6 @@
 # İş dünyasında güç
 
-Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
+Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.
 
 ## Bu dosyadaki kitaplar
 
@@ -70,7 +70,7 @@ Ayrışma: Pfeffer hile, tuzak ve gizlenme öğretmez; açık, görünür ve ili
 
 ## Jeffrey Pfeffer — 7 Rules of Power (7 Rules of Power: Surprising—but True—Advice on How to Get Things Done and Advance Your Career, 2022)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Jeffrey Pfeffer (d. 1946), Stanford İşletme Fakültesi'nde örgütsel davranış profesörüdür; kitap, onlarca yıldır verdiği güç dersinin damıtılmış hâlidir. Özgün dil İngilizce; ilk baskı Haziran 2022, ABD'de Matt Holt Books (BenBella), İngiltere'de Swift Press; yaklaşık 240 sayfa. Türkçe baskı: doğrulanmadı. Bir telif ajansı kaydında Türkiye hakları için "Peta Kitap" adı geçiyor; ancak basılmış bir Türkçe kitabın adı, çevirmeni ve yılı görülemedi.
 
@@ -117,7 +117,7 @@ Ayrışma: Greene Yasa 47'de (Hedeflediğin noktayı aşma; zaferde durmayı bil
 
 ## Jeffrey Pfeffer — Güç Merkezli Yönetim (Managing with Power: Politics and Influence in Organizations, 1992)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): Güç Merkezli Yönetim (Boyner Yayınları). D&R ve Kitapseç kataloglarında (20.11.2026) satışta görünmüyor.*
 
 **Künye.** Jeffrey Pfeffer, Stanford İşletme Okulu'nda örgütsel davranış profesörüdür ve örgütlerde güç konusunun önde gelen akademik adıdır. Kitap İngilizcedir; Harvard Business School Press, 1992 (karton kapak 1994). Türkçesi "Güç Merkezli Yönetim" adıyla Boyner Yayınları'ndan çıktı; çevirmen ve baskı yılı doğrulanmadı (bir katalog 1999, Open Library 2016 diyor). Özgün baskı yaklaşık 390 sayfa.
 
@@ -145,7 +145,7 @@ Ayrışma: Greene Yasa 47'de (Hedeflediğin noktayı aşma; zaferde durmayı bil
 
 ## Michael Korda — Power! How to Get It, How to Use It (Power! How to Get It, How to Use It, 1975)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Michael Korda (d. 1933, Londra), İngiliz doğumlu yazar ve editördür; 1958'de girdiği New York'taki Simon & Schuster yayınevinde baş editörlüğe yükseldi ve kitabı bu büro deneyiminden yazdı. Özgün dil İngilizce; ilk baskı Random House, New York, 1975; xii + 268 sayfa, resimli. Türkçe baskısı bulunamadı.
 
@@ -183,7 +183,7 @@ Ayrışma: Greene üç bin yıllık tarihten örnek toplar ve evrensel yasa iddi
 
 ## R. G. H. Siu — The Craft of Power (The Craft of Power, 1979)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Ralph Gun Hoy Siu (1917–1998), Honolulu doğumlu, Çin kökenli Amerikalı kimyager ve kamu yöneticisidir; ABD ordusunun araştırma laboratuvarlarını yönetmiş, 1968–1969'da Ulusal Adalet Enstitüsü'nün ilk direktörlüğünü yapmıştır. Kitabı, büyük kurumlarda geçen bu yöneticilik hayatının ardından yazdı. Özgün dil İngilizce; ilk baskı John Wiley & Sons, New York, 1979; yaklaşık 255 sayfa. Sonraki baskılar "A Philosophical and Strategic Guide to the Uses of Power" alt başlığını taşır. Türkçe baskısı bulunamadı.
 
@@ -228,13 +228,13 @@ Ayrışma: Greene ahlakı kitabın dışında bırakır; Siu son bölümü ahlak
 
 **Eleştiri ve sınırlar.** Kitap hakkında yazılmış ciddi bir eleştiri yazısı bulunamadı; bu başlı başına bir sınırdır. Okur yorumları ikiye ayrılır: kimi onu "başka bir kuşağın 48 Yasa'sı" diye özetler, kimi felsefi derinliğiyle sonraki güç kitaplarından üstün bulur. Örnekleri 1970'lerin Amerikan şirket ve siyaset olaylarıdır; çoğu bugünkü okura yabancıdır. Yazarın kendi uydurduğu terimler okumayı zorlaştırır. Öğütler araştırmaya değil yazarın deneyimine ve okumalarına dayanır. Sert açılış ile şefkatli kapanış arasındaki gerilim de çözülmeden kalır. Yazarlık tartışması yoktur.
 
-**Kimler okumalı.** İktidar'ın nereden geldiğini merak eden okur için en öğretici kaynak: Greene'in biçimini ve tonunu yirmi yıl önce, daha kuru ama daha düşünceli bir dille görürsünüz. Bulması zordur ve Türkçesi yoktur.
+**Kimler okumalı.** İktidar'ın nereden geldiğini merak eden okur için en öğretici kaynak: Greene'in biçimini ve tonunu yirmi yıl önce, daha kuru ama daha düşünceli bir dille görürsünüz. Bulması zordur; Türkçe baskısı bu oturumda bulunamadı.
 
 ---
 
 ## Antony Jay — Management and Machiavelli (Management and Machiavelli, 1967)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Sir Antony Jay (1930–2016) İngiliz yazar ve yayıncıdır. 1955'te BBC Televizyonu'na girdi, 1964'te ayrılıp serbest yazar ve yapımcı oldu; sonradan Jonathan Lynn'le "Yes Minister" dizisini yazdı. Kitap İngilizcedir; ilk baskı 1967 (İngiltere'de Hodder & Stoughton, ABD'de Holt, Rinehart & Winston). Alt başlığı bazı baskılarda "An Inquiry into the Politics of Corporate Life"tır. Türkçe baskısı bulunamadı. Yaklaşık 240 sayfa.
 
@@ -262,7 +262,7 @@ Ayrışma: Greene ahlakı kitabın dışında bırakır; Siu son bölümü ahlak
 
 ## Stanley Bing — What Would Machiavelli Do? (What Would Machiavelli Do? The Ends Justify the Meanness, 2000)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Stanley Bing, Gil Schwartz'ın (1951–2020) takma adıdır. Schwartz on yıl Esquire'da, ardından yirmi yılı aşkın süre Fortune'da iş dünyası mizahı yazdı; aynı yıllarda CBS'in kurumsal iletişim üst yöneticisiydi. Kitap İngilizcedir; HarperCollins (HarperBusiness). Goodreads ilk yayın tarihini 8 Aralık 1999, Open Library 2000 verir. Türkçe baskısı bulunamadı (İspanyolca çevirisi var). Karton kapak baskı 176 sayfa.
 
@@ -289,7 +289,7 @@ Ayrışma: Greene ahlakı kitabın dışında bırakır; Siu son bölümü ahlak
 
 ## Harriet Rubin — The Princessa (The Princessa: Machiavelli for Women, 1997)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Harriet Rubin, Doubleday'in iş kitapları markası Currency'nin kurucusu ve yayıncısıdır; kitabı bir yayın yöneticisi olarak, şirket dünyasının içinden yazdı. Dil İngilizce; Doubleday, Nisan 1997; karton kapak 1998 (Dell). Yayınevine göre 23 dile çevrildi; Türkçe baskısı bulunamadı. Yaklaşık 190–210 sayfa.
 
@@ -317,7 +317,7 @@ Ayrışma: Greene ahlakı kitabın dışında bırakır; Siu son bölümü ahlak
 
 ## "V." — The Mafia Manager (The Mafia Manager: A Guide to the Corporate Machiavelli, 1996)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Yazar yalnızca "V." harfiyle anılır; kimliği açıklanmamıştır. Bazı kitapçı kayıtlarında görülen "Corleone" adı bir katalog hatası gibi görünüyor. Dil İngilizce. Görülebilen en eski kayıt St. Martin's Press'in 1996 baskısıdır ve "gözden geçirilmiş baskı" diye kayıtlıdır; yani daha eski bir baskı olmalı; Goodreads ilk yayın yılını 1991 verir (o baskının yayıncısı görülmedi). Karton kapak baskı Mayıs 1997 (St. Martin's Griffin). Türkçe baskısı bulunamadı. 106 sayfa.
 
@@ -345,7 +345,7 @@ Aşağıdaki maddeler kitabın genel öğretisinin kendi sözcüklerimle özetid
 
 ## Deborah Gruenfeld — Acting with Power (Acting with Power: Why We Are More Powerful Than We Believe, 2020)
 
-*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*
 
 **Künye.** Deborah H. Gruenfeld sosyal psikologdur; Stanford İşletme Okulu'nda örgütsel davranış profesörüdür ve güç psikolojisi araştırmalarıyla tanınır. Kitap İngilizcedir; Currency (Crown), 7 Nisan 2020; İngiltere'de Profile Books. Türkçe baskısı bulunamadı (bir Türk kitap sitesindeki kayıt İngilizce baskıya ait görünüyor). 272 sayfa.
 

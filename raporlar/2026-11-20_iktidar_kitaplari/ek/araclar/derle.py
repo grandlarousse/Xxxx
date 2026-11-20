@@ -72,6 +72,26 @@ kat = {}
 kp = K + "/dogrulama/turkce_baski_katalog.json"
 if os.path.exists(kp):
     kat = json.load(open(kp, encoding="utf-8"))
+# Katalogda yanlis kitaba dusen kayit: Iknaya Acilan Kapi, Pre-Suasion'in cevirisidir (D&R urun sayfasi, dogrulayici VB6)
+for _k in list(kat):
+    if _k.startswith("A29"):
+        kat[_k] = [x for x in (kat[_k] or []) if "Açılan Kapı" not in x["ad"]]
+    if _k.startswith("B72"):
+        kat[_k] = [{"ad": "İknaya Açılan Kapı", "yazar": "Robert B. Cialdini", "yayinevi": "MediaCat"}]
+# Iki katalogda satista gorunmeyen, ama yazar ya da dogrulayici notlarinda Turkce baskisi gorulen kitaplar
+ESKI_TR = {
+ "A03": "İktidarın 50. Yasası (çev. Füsun Doruker, 2011; kitapçı kaydı, yayınevi doğrulanmadı)",
+ "A04": "İnsan Doğasının Yasaları (Altın Kitaplar)",
+ "A25": "Radikaller İçin Kurallar (Geoturka, 2014)",
+ "B19": "Kyros'un Eğitimi (Alfa, 2007)",
+ "B30": "İktidar Seçkinleri (İnkılâp; çev. Ünsal Oskay)",
+ "B42": "Hileler Kitabı: Arap Kültüründe Siyasi Stratejiler (çev. Menekşe Tokyay)",
+ "B43": "Sirâcü'l-Mülûk (İnsan Yayınları, 1995; çev. Said Aykut)",
+ "B50": "Güç Merkezli Yönetim (Boyner Yayınları)",
+ "B61": "Hükümet Devirme Tekniği (çev. Nihal Önol)",
+ "B71": "Yerküre Yayınevi, 2015, çev. Özgür Öner (Türkçe adı doğrulanmadı)",
+ "B89": "İktidarın Anatomisi (Hece Yayınları, 2004)",
+}
 dosya = {os.path.basename(p)[:3]: p for p in glob.glob(K + "/kitaplar/*.md")}
 assert len(dosya) == 125, len(dosya)
 
@@ -79,7 +99,9 @@ def katalog_satiri(anahtar):
     v = [x for x in (kat.get(anahtar) or []) if x.get("yayinevi")]
     v2 = [x for x in (kat.get(anahtar) or []) if not x.get("yayinevi")]
     if not v and not v2:
-        return f"*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, {TARIH}): bu iki katalogda görünmüyor.*", False
+        if anahtar[:3] in ESKI_TR:
+            return f"*Türkçe baskı (yazar ve doğrulayıcı notlarına göre): {ESKI_TR[anahtar[:3]]}. D&R ve Kitapseç kataloglarında ({TARIH}) satışta görünmüyor.*", None
+        return f"*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, {TARIH}): bu iki katalogda görünmüyor. Bu, Türkçe baskı olmadığı anlamına gelmez; aşağıdaki künye paragrafına bak.*", False
     gor, parca = set(), []
     for x in v + v2:
         y = x.get("yayinevi") or ""
@@ -109,7 +131,7 @@ for ad, baslik, kodlar in BOLUMLER:
         icerik.append(kisa)
         parcalar.append(satirlar[0] + "\n\n" + ks + "\n" + "\n".join(satirlar[1:]))
     ic = "\n".join(f"{i+1}. {x}" for i, x in enumerate(icerik))
-    metin = f"# {baslik}\n\nBu dosyada {len(kodlar)} kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, kitapçı kataloglarının betikle taranmasından gelir; künye paragrafındaki bilgiyle çelişirse katalog satırı daha günceldir. \"(doğrulanmadı)\" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.\n\n## Bu dosyadaki kitaplar\n\n{ic}\n\n" + "\n\n---\n\n".join(parcalar) + "\n"
+    metin = f"# {baslik}\n\nBu dosyada {len(kodlar)} kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, İktidar'la ilişkisi, eleştiri, kimler okumalı. Başlığın hemen altındaki italik satır, iki kitapçı kataloğunun küçük bir programla taranmasından gelir. Yalnızca bu iki kitapçıda bugün satışta olanı gösterir: tükenmiş baskıları ve çevirmen adını göstermez. Satır boşsa Türkçe baskı yok demek değildir; künye paragrafına bak. \"(doğrulanmadı)\" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir.\n\n## Bu dosyadaki kitaplar\n\n{ic}\n\n" + "\n\n---\n\n".join(parcalar) + "\n"
     open(K + f"/{ad}.md", "w", encoding="utf-8").write(metin)
     toplam[ad] = (len(kodlar), kelime(metin))
 
@@ -121,7 +143,7 @@ for ad, baslik, k, kisa, bc, var in ozet:
         L.append(f"\n**{baslik}** (`ek/{ad}.md`)\n")
         son = ad
     isaret = ("★ " if k.startswith("A") else "") + ("" if var else "")
-    tr = " *(TR)*" if var else ""
+    tr = " *(TR)*" if var else (" *(TR°)*" if var is None else "")
     L.append(f"- {isaret}**{kisa}**{tr}: {bc}")
 open(K + "/parcalar/rapor_liste.md", "w", encoding="utf-8").write("\n".join(L).strip() + "\n")
 
@@ -168,7 +190,7 @@ if os.path.exists(ust_p) and os.path.exists(alt_p):
         for u in re.findall(r"https?://([^/ |)>]+)", open(p_, encoding="utf-8").read()):
             alan[u.lower().replace("www.", "")] += 1
     satir = [f"- `{a}`: {n} defter satırı" for a, n in alan.most_common(40) if a != "archive.org"][:16]
-    alt = oku(alt_p).replace("__KAYNAK_ALANLARI__", "\n".join(satir)).replace("__TR_SAYI__", str(sum(1 for x in ozet if x[5])))
+    alt = oku(alt_p).replace("__KAYNAK_ALANLARI__", "\n".join(satir)).replace("__TR_SAYI__", str(sum(1 for x in ozet if x[5]))).replace("__ESKI_SAYI__", str(sum(1 for x in ozet if x[5] is None)))
     rapor = oku(ust_p) + "\n\n" + oku(K + "/parcalar/rapor_liste.md") + "\n\n" + alt + "\n"
     open(os.path.dirname(K) + "/RAPOR.md", "w", encoding="utf-8").write(rapor)
     govde = kelime(oku(ust_p)) - 48 * 7 + kelime(alt)
