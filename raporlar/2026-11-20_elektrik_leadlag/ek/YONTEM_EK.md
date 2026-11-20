@@ -89,3 +89,15 @@ def build(P):
 - A7'ye (keşif): kapanış seansı göreli sapması, (kapanış / 17:50 fiyatı − 1) − sektör ortalaması → ertesi gün dönüş.
 - Düzeltme: XELKT'yi izleyen bir fon var (Garanti Portföy Enerji Şirketleri Hisse Senedi Fonu, TEFAS kodu GNS); borsa yatırım fonu ve vadelisi yok.
 - Bilinen sınır (Ö5): VBTS tedbirleri (brüt takas vb.) altındaki hisselerde h = 1 çıkışı yapılamayabilir. Tedbir tarihleri veri olarak yok; sınır olarak raporlanır.
+
+## E11. OOS-1 sonrası ve kasa sınıflaması (kasaya bakılmadan önce yazıldı, 20.11.2026)
+
+- OOS-1 sonucu (`ek/oos1_sonuc.csv`): 5 birincil kuralın hiçbiri geçmedi (en küçük tek yönlü p = 0,33). Aday şartlarını karşılayan kural yok.
+- Bu yüzden kasa, "aday doğrulama" yerine şu amaçla kullanılır: iki dönemde (IS ve OOS-1) aynı yönde çıkan bulguların üçüncü ve son kez sınanması. Kasaya girecek kurallar 3. dalganın ilk bölümünde geliştirme panelinde (IS + OOS-1) dondurulur; en çok 10 kural.
+- Kaçınma kuralları için beklenen işaret eksidir (AL pozisyonu kaybettirir); tek yönlü test beklenen yönde yapılır.
+- Sınıflama:
+  - **doğrulandı:** işaret beklenen yönde ve Holm düzeltmesinden (alfa 0,10) geçiyor.
+  - **çürütüldü:** işaret ters ve |t| ≥ 1; ya da işaret doğru ama kasa etkisi geliştirme etkisinin %25'inden küçük ve geliştirme etkisi kasanın %90 güven aralığının dışında.
+  - **güç yetersiz:** diğer bütün durumlar. Bu kurallar öneri değildir; kâğıt üstünde izlenir.
+- Kod: `kod/ortak/kasa_degerlendir.py` (sentetik veride sınandı).
+- Otomatik nedensellik denetiminde düzeltme: değerlendirme panelinde sonradan halka arz olan hisselerin sütunları, IS tarihlerinde işlem görmedikleri hücrelerde sayılmaz. İlk koşuda üç sepet kuralı bu yüzden yanlış işaretlenmişti; ortak sütunlarda fark sıfırdır. Kuralların t-istatistikleri iki koşuda aynıdır.
