@@ -1,0 +1,186 @@
+hisse sayısı 27 | sektör 25 | kaynak 27 | tarih 2010-01-04 2022-12-30
+ilk gün / tradable gün: {'A1YEN': ('2021-07-19', 347), 'AHGAZ': ('2022-12-23', 0), 'AKENR': ('2010-01-04', 3267), 'AKSEN': ('2010-05-24', 3150), 'AKSUE': ('2010-01-04', 3267), 'ALFAS': ('2022-11-17', 13), 'AYDEM': ('2021-04-30', 399), 'AYEN': ('2010-01-04', 3267), 'BIOEN': ('2021-04-29', 400), 'CONSE': ('2022-04-21', 155), 'CANTE': ('2021-05-03', 398), 'ARASE': ('2021-11-12', 269), 'ENJSA': ('2018-02-09', 1206), 'ESEN': ('2020-10-12', 540), 'GWIND': ('2021-04-26', 403), 'HUNER': ('2022-02-22', 197), 'LYDYE': ('2012-10-30', 2428), 'MAGEN': ('2021-10-01', 298), 'NTGAZ': ('2021-04-02', 418), 'NATEN': ('2019-08-09', 832), 'ODAS': ('2013-05-22', 2394), 'PAMEL': ('2014-07-04', 2113), 'SMRTG': ('2022-03-25', 174), 'ZEDUR': ('2011-02-25', 2957), 'ZOREN': ('2010-01-04', 3265), 'ALARK': ('2010-01-04', 3267), 'GESAN': ('2021-08-20', 327)}
+IS içinde olmayan önceden yazılı semboller: ['ENERY', 'EUPWR', 'ASTOR']
+
+== T1: 420 sıralı çift (>= 250 ortak gün); 1259 regresyon; süre 1s
+ h=1: n_çift=420 | BH geçen=0 | |t|>=2: 0.057 (sektörsüz 0.098) | |t|>=3: 3 | ort t=0.22 (sektörsüz 0.54) | max|t|=3.29 | t>0 oranı=0.60
+ h=2: n_çift=420 | BH geçen=1 | |t|>=2: 0.069 (sektörsüz 0.098) | |t|>=3: 2 | ort t=0.26 (sektörsüz 0.57) | max|t|=3.84 | t>0 oranı=0.61
+ h=3: n_çift=419 | BH geçen=1 | |t|>=2: 0.053 (sektörsüz 0.093) | |t|>=3: 3 | ort t=0.23 (sektörsüz 0.50) | max|t|=3.79 | t>0 oranı=0.59
+ en büyük |t| 15 bağ (h=1):
+kaynak hedef    n     b     t  t_sektorsuz  t_2019oncesi  t_2020sonrasi  t_yari1  t_yari2  t_gece  t_gunici    bh
+ ZOREN GWIND  400  0.21  3.29         3.73           NaN           3.29     0.95     2.90   -0.00      3.52 False
+  ODAS ZOREN 2372  0.07  3.19         3.39          2.80           1.25     2.75     1.71    0.87      2.93 False
+  ODAS AKSEN 2386  0.06  3.13         3.38          2.73           1.78     1.50     2.79    2.69      1.92 False
+  AYEN ZOREN 3127  0.06  2.91         3.30          2.34           1.47     1.01     2.82    1.98      2.09 False
+ CANTE AKENR  386  0.13  2.79         3.10           NaN           2.79    -0.21     3.73   -0.39      2.87 False
+ ALARK BIOEN  391  0.18  2.72         2.93           NaN           2.72     1.11     2.50    0.92      2.33 False
+ ZOREN AYDEM  391  0.16  2.57         3.08           NaN           2.57     0.75     1.93   -0.13      2.61 False
+ NATEN A1YEN  333 -0.24 -2.54        -1.78           NaN          -2.54    -2.59    -0.83    0.43     -2.92 False
+  ODAS BIOEN  391  0.12  2.48         2.60           NaN           2.48     1.53     1.62   -1.04      2.71 False
+ BIOEN  ESEN  390  0.14  2.45         2.53           NaN           2.45     2.49     1.24    0.46      2.54 False
+ A1YEN BIOEN  340 -0.15 -2.40        -1.86           NaN          -2.40    -1.74    -2.52    0.12     -2.66 False
+  ODAS AKENR 2370  0.05  2.37         2.94          1.78           1.39     2.78     1.28    0.55      2.34 False
+ GWIND CANTE  381 -0.18 -2.28        -2.26           NaN          -2.28    -1.47    -1.57    0.73     -2.61 False
+ ZEDUR ENJSA 1204  0.03  2.21         2.45          1.22           1.90     0.81     2.15    1.06      1.44 False
+ NATEN AKSEN  824  0.06  2.21         2.67           NaN           1.92     2.02     0.97    0.65      2.04 False
+ sıfır dağılımı (NREP=200, tüm 420 çift) max|t|: {"1": {"gercek_max_t": 3.294614498662779, "sifir_medyan": 3.21230979989555, "sifir_p95": 3.9641803623687015, "p": 0.39303482587064675}, "2": {"gercek_max_t": 3.838616905190395, "sifir_medyan": 3.2353746449028415, "sifir_p95": 3.9704964535267067, "p": 0.08955223880597014}, "3": {"gercek_max_t": 3.7868609565208193, "sifir_medyan": 3.2143335010088863, "sifir_p95": 3.9633531223081824, "p": 0.08955223880597014}} | süre 35s
+
+== Kalıcılık (T1, sektör kontrollü)
+          bolme  n_cift  ilk_yarida_anlamli  ayni_isaret_orani  ikinci_yarida_da_anlamli  cift_t_sira_kor  n_lider  lider_skoru_sira_kor  izleyici_skoru_sira_kor  h
+         takvim     100                   6              0.833                     0.000            0.106       11                 0.191                    0.636  1
+cift_kronolojik     420                  26              0.538                     0.000            0.006       22                -0.180                    0.215  1
+         takvim     100                   3              0.667                     0.333            0.075       11                 0.091                    0.576  2
+cift_kronolojik     420                  17              0.588                     0.000            0.039       22                 0.214                   -0.065  2
+         takvim     100                   5              0.600                     0.200            0.210       11                 0.455                    0.636  3
+cift_kronolojik     419                  17              0.588                     0.000           -0.012       22                 0.352                   -0.071  3
+ lider skoru (giden bağların ort. t, h=1): {'ZEDUR': 1.0, 'AYEN': 0.87, 'ODAS': 0.67, 'ESEN': 0.51, 'ZOREN': 0.39, 'NTGAZ': 0.33, 'AYDEM': 0.33, 'ALARK': 0.33, 'AKSEN': 0.32, 'BIOEN': 0.31, 'GESAN': 0.29, 'MAGEN': 0.17, 'CANTE': 0.1, 'LYDYE': 0.08, 'ENJSA': 0.08, 'ARASE': 0.05, 'NATEN': 0.03, 'GWIND': -0.01, 'AKENR': -0.02, 'AKSUE': -0.07, 'A1YEN': -0.24, 'PAMEL': -0.56}
+ izleyici skoru (gelen bağların ort. t, h=1): {'AKENR': 0.7, 'ZOREN': 0.64, 'AKSEN': 0.54, 'AYDEM': 0.42, 'ODAS': 0.41, 'AYEN': 0.4, 'BIOEN': 0.4, 'NTGAZ': 0.37, 'GWIND': 0.32, 'ENJSA': 0.3, 'NATEN': 0.13, 'ARASE': 0.1, 'PAMEL': 0.1, 'ESEN': 0.06, 'LYDYE': 0.05, 'ZEDUR': -0.0, 'AKSUE': -0.05, 'MAGEN': -0.05, 'A1YEN': -0.14, 'CANTE': -0.2}
+
+== T2: 3948 test (>=15 olay)
+ h=1: n=1316 | BH geçen=2 | |t|>=2: 0.076 | max|t|=3.84 | up5: ort=3bps, t>0=0.55 dn5: ort=1bps, t>0=0.57 zup2: ort=0bps, t>0=0.52 zdn2: ort=8bps, t>0=0.54
+ h=2: n=1316 | BH geçen=6 | |t|>=2: 0.076 | max|t|=6.09 | up5: ort=3bps, t>0=0.51 dn5: ort=-5bps, t>0=0.49 zup2: ort=-1bps, t>0=0.50 zdn2: ort=6bps, t>0=0.55
+ h=3: n=1316 | BH geçen=2 | |t|>=2: 0.079 | max|t|=6.21 | up5: ort=4bps, t>0=0.47 dn5: ort=-5bps, t>0=0.54 zup2: ort=-2bps, t>0=0.48 zdn2: ort=10bps, t>0=0.56
+kaynak hedef olay  h   n  ort_bps     t  t_2019oncesi  t_2020sonrasi   p    bh
+ CANTE LYDYE zup2  3  28  -322.97 -6.21           NaN          -6.21 0.0  True
+ CANTE LYDYE zup2  2  28  -225.65 -6.09           NaN          -6.09 0.0  True
+ CANTE LYDYE  up5  2  39  -332.20 -5.30           NaN          -5.30 0.0  True
+ CANTE LYDYE  up5  3  39  -414.70 -5.00           NaN          -5.00 0.0  True
+ GESAN CONSE  up5  1  32  -132.71 -3.84           NaN          -3.84 0.0  True
+  ESEN AKENR  dn5  1  17  -125.85 -3.80           NaN          -3.80 0.0  True
+ SMRTG AKENR  dn5  2  21  -234.61 -3.79           NaN          -3.79 0.0  True
+ CONSE CANTE  up5  2  18  -351.10 -3.77           NaN          -3.77 0.0  True
+  AYEN LYDYE zup2  2 108  -145.74 -3.67         -2.06          -3.21 0.0  True
+ CONSE CANTE zup2  2  16  -351.15 -3.64           NaN          -3.64 0.0  True
+ A1YEN CANTE zup2  1  16  -208.27 -3.56           NaN          -3.56 0.0 False
+ NTGAZ HUNER zup2  3  19   603.60  3.55           NaN           3.55 0.0 False
+ T2 sıfır dağılımı max|t|: {"1": {"gercek_max_t": 3.841973480434088, "sifir_medyan": 4.419122371807672, "sifir_p95": 6.7144557599096535, "p": 0.8606965174129353}, "2": {"gercek_max_t": 6.08900136274295, "sifir_medyan": 4.930788680747481, "sifir_p95": 7.929642108486054, "p": 0.12437810945273632}, "3": {"gercek_max_t": 6.210608457063696, "sifir_medyan": 5.0387625577185915, "sifir_p95": 6.499456005155022, "p": 0.11442786069651742}}
+ T2 kalıcılık: iki yarıda da ölçülen 1203; ilk yarıda |t|>=2 116; ikinci yarıda aynı işaret 0.41
+
+== Önceden yazılı çiftler (T1 t; eşik |t|>=2,5)
+kaynak hedef  h   n     b     t  t_sektorsuz  t_yari1  t_yari2  t_gece  t_gunici
+  ODAS CANTE  1 381 -0.02 -0.31        -0.34    -0.44    -0.12   -0.30     -0.29
+  ODAS CANTE  2 380 -0.09 -1.10        -1.07    -1.08    -0.82     NaN       NaN
+  ODAS CANTE  3 379 -0.08 -0.74        -0.69    -0.29    -1.01     NaN       NaN
+ MAGEN  ESEN  1 290  0.04  0.53         0.75    -1.70     1.14    0.27      0.44
+ MAGEN  ESEN  2 289  0.03  0.24         0.72    -1.74     0.98     NaN       NaN
+ MAGEN  ESEN  3 288  0.05  0.26         0.50    -1.13     0.70     NaN       NaN
+ NATEN  ESEN  1 520 -0.18 -2.06        -1.95    -0.65    -2.14    0.33     -2.49
+ NATEN  ESEN  2 519 -0.28 -2.01        -1.82    -1.39    -1.65     NaN       NaN
+ NATEN  ESEN  3 518 -0.20 -0.99        -0.86    -0.66    -1.00     NaN       NaN
+  ESEN MAGEN  1 291 -0.02 -0.27         0.11    -0.30     0.06    1.34     -0.53
+  ESEN MAGEN  2 290 -0.14 -1.16        -0.39     0.26    -1.09     NaN       NaN
+  ESEN MAGEN  3 289 -0.11 -0.80        -0.33     0.68    -1.00     NaN       NaN
+ NATEN MAGEN  1 291 -0.14 -1.46        -1.22    -0.79    -1.16    0.21     -1.47
+ NATEN MAGEN  2 290 -0.13 -1.00        -0.61    -0.22    -0.79     NaN       NaN
+ NATEN MAGEN  3 289 -0.15 -1.11        -0.78     0.07    -1.06     NaN       NaN
+  ESEN NATEN  1 526  0.07  0.78         0.94     0.06     1.14    1.66      0.36
+  ESEN NATEN  2 525  0.02  0.18         0.36     0.46     0.84     NaN       NaN
+  ESEN NATEN  3 524 -0.01 -0.10         0.09    -0.24     1.35     NaN       NaN
+ MAGEN NATEN  1 286  0.11  1.37         1.70    -1.24     1.90   -0.46      1.63
+ MAGEN NATEN  2 285  0.18  1.23         1.45    -0.83     1.44     NaN       NaN
+ MAGEN NATEN  3 284  0.10  0.53         0.65    -0.03     0.47     NaN       NaN
+ CANTE  ODAS  1 393  0.05  0.91         1.06     0.07     0.97   -0.41      1.06
+ CANTE  ODAS  2 392  0.05  0.54         0.61    -1.03     0.89     NaN       NaN
+ CANTE  ODAS  3 391  0.04  0.32         0.36    -0.46     0.41     NaN       NaN
+kaynak hedef olay  h  n  ort_bps     t  t_2019oncesi  t_2020sonrasi    p    bh
+ CANTE  ODAS  up5  1 42    41.52  0.83           NaN           0.83 0.41 False
+  ESEN MAGEN  up5  1 17    20.10  0.24           NaN           0.24 0.81 False
+  ESEN NATEN  up5  1 35   -19.04 -0.28           NaN          -0.28 0.78 False
+ MAGEN  ESEN  up5  1 21    93.94  1.12           NaN           1.12 0.26 False
+ MAGEN NATEN  up5  1 20    73.62  1.13           NaN           1.13 0.26 False
+ NATEN  ESEN  up5  1 28   -35.41 -0.51           NaN          -0.51 0.61 False
+ NATEN MAGEN  up5  1 23   -19.56 -0.30           NaN          -0.30 0.77 False
+  ODAS CANTE  up5  1 33  -114.05 -2.36           NaN          -2.36 0.02 False
+  ESEN NATEN  dn5  1 18    92.11  1.16           NaN           1.16 0.25 False
+ CANTE  ODAS zup2  1 30    37.39  0.58           NaN           0.58 0.56 False
+  ESEN NATEN zup2  1 21   -43.51 -0.49           NaN          -0.49 0.62 False
+ MAGEN  ESEN zup2  1 17   130.00  1.29           NaN           1.29 0.20 False
+ MAGEN NATEN zup2  1 15    88.22  1.22           NaN           1.22 0.22 False
+ NATEN  ESEN zup2  1 20   -32.65 -0.44           NaN          -0.44 0.66 False
+ NATEN MAGEN zup2  1 18   -27.36 -0.35           NaN          -0.35 0.73 False
+  ODAS CANTE zup2  1 20  -121.79 -1.91           NaN          -1.91 0.06 False
+ CANTE  ODAS  up5  2 41    77.69  0.84           NaN           0.84 0.40 False
+  ESEN MAGEN  up5  2 16   -41.53 -0.31           NaN          -0.31 0.75 False
+  ESEN NATEN  up5  2 34   -18.98 -0.18           NaN          -0.18 0.86 False
+ MAGEN  ESEN  up5  2 20   123.83  1.10           NaN           1.10 0.27 False
+ MAGEN NATEN  up5  2 19   107.63  0.90           NaN           0.90 0.37 False
+ NATEN  ESEN  up5  2 28   -99.97 -1.00           NaN          -1.00 0.32 False
+ NATEN MAGEN  up5  2 23    35.47  0.29           NaN           0.29 0.77 False
+  ODAS CANTE  up5  2 33  -166.77 -1.95           NaN          -1.95 0.05 False
+  ESEN NATEN  dn5  2 18   122.70  0.99           NaN           0.99 0.32 False
+ CANTE  ODAS zup2  2 29    85.51  0.71           NaN           0.71 0.48 False
+  ESEN NATEN zup2  2 21  -146.63 -1.27           NaN          -1.27 0.20 False
+ MAGEN  ESEN zup2  2 17    48.65  0.46           NaN           0.46 0.65 False
+ MAGEN NATEN zup2  2 15    48.63  0.44           NaN           0.44 0.66 False
+ NATEN  ESEN zup2  2 20   -49.96 -0.44           NaN          -0.44 0.66 False
+ NATEN MAGEN zup2  2 18   -14.84 -0.11           NaN          -0.11 0.92 False
+  ODAS CANTE zup2  2 20  -164.75 -1.70           NaN          -1.70 0.09 False
+ CANTE  ODAS  up5  3 41    88.71  0.69           NaN           0.69 0.49 False
+  ESEN MAGEN  up5  3 16   -80.07 -0.52           NaN          -0.52 0.60 False
+  ESEN NATEN  up5  3 34   -53.33 -0.49           NaN          -0.49 0.62 False
+ MAGEN  ESEN  up5  3 20   142.28  0.79           NaN           0.79 0.43 False
+ MAGEN NATEN  up5  3 19    81.45  0.54           NaN           0.54 0.59 False
+ NATEN  ESEN  up5  3 28  -109.68 -0.84           NaN          -0.84 0.40 False
+ NATEN MAGEN  up5  3 23    -9.06 -0.08           NaN          -0.08 0.94 False
+  ODAS CANTE  up5  3 33  -147.31 -1.08           NaN          -1.08 0.28 False
+  ESEN NATEN  dn5  3 18   160.95  1.16           NaN           1.16 0.24 False
+ CANTE  ODAS zup2  3 29   115.01  0.68           NaN           0.68 0.50 False
+  ESEN NATEN zup2  3 21  -182.47 -1.51           NaN          -1.51 0.13 False
+ MAGEN  ESEN zup2  3 17    29.50  0.19           NaN           0.19 0.85 False
+ MAGEN NATEN zup2  3 15     4.92  0.03           NaN           0.03 0.98 False
+ NATEN  ESEN zup2  3 20   -47.44 -0.29           NaN          -0.29 0.77 False
+ NATEN MAGEN zup2  3 18   -40.08 -0.35           NaN          -0.35 0.73 False
+  ODAS CANTE zup2  3 20  -137.39 -1.00           NaN          -1.00 0.32 False
+ IS'te sınanamayan önceden yazılı çiftler: [('AHGAZ', 'ENERY'), ('ENERY', 'AHGAZ'), ('SMRTG', 'ALFAS'), ('SMRTG', 'EUPWR'), ('ALFAS', 'SMRTG'), ('ALFAS', 'EUPWR'), ('EUPWR', 'SMRTG'), ('EUPWR', 'ALFAS')]
+ büyükler ['ENJSA', 'AKSEN', 'ZOREN', 'AYDEM', 'AHGAZ'] -> diğerleri: {"1": {"n": 64, "ort_t": 0.26, "abs_t_ge2": 0.016, "abs_t_ge2_5": 1, "diger_ort_t": 0.14, "diger_abs_t_ge2": 0.062}, "2": {"n": 64, "ort_t": 0.13, "abs_t_ge2": 0.031, "abs_t_ge2_5": 1, "diger_ort_t": 0.2, "diger_abs_t_ge2": 0.077}, "3": {"n": 64, "ort_t": 0.04, "abs_t_ge2": 0.031, "abs_t_ge2_5": 1, "diger_ort_t": 0.21, "diger_abs_t_ge2": 0.063}}
+  havuz h=1: büyük sepet katsayı=-0.007 t=-0.29 | küçük sepet (öz) t=3.88 | xu100 t=-1.75 | n=3147
+  havuz h=2: büyük sepet katsayı=-0.019 t=-0.54 | küçük sepet (öz) t=3.75 | xu100 t=-0.52 | n=3146
+  havuz h=3: büyük sepet katsayı=-0.024 t=-0.55 | küçük sepet (öz) t=3.46 | xu100 t=-0.19 | n=3145
+
+== Çift farkı dönüşü (grup çiftleri): f_h(i) sec-fazla ~ z20(kümülatif r_i − r_j) [+ r_i(t)]
+    i     j  h   n  b_z_bps   t_z  t_z_ozkontrollu
+ ESEN NATEN  1 506     7.57  0.73             0.72
+ ESEN NATEN  2 505    16.27  0.88             0.94
+ ESEN NATEN  3 504    30.87  1.12             1.17
+MAGEN NATEN  1 277    16.83  1.23             1.22
+MAGEN NATEN  2 276    27.73  1.16             1.14
+MAGEN NATEN  3 275    49.15  1.35             1.41
+NATEN  ESEN  1 512    -2.80 -0.29            -0.23
+NATEN  ESEN  2 511    -9.24 -0.58            -0.48
+NATEN  ESEN  3 510   -15.51 -0.74            -0.65
+MAGEN  ESEN  1 277     5.26  0.46             0.43
+MAGEN  ESEN  2 276     7.42  0.36             0.34
+MAGEN  ESEN  3 275    11.36  0.38             0.40
+NATEN MAGEN  1 272   -13.97 -0.97            -0.90
+NATEN MAGEN  2 271   -33.99 -1.38            -1.34
+NATEN MAGEN  3 270   -48.17 -1.40            -1.37
+ ESEN MAGEN  1 276    -8.48 -0.80            -0.79
+ ESEN MAGEN  2 275   -16.78 -0.94            -0.94
+ ESEN MAGEN  3 274   -24.37 -1.03            -1.14
+CANTE  ODAS  1 367    25.48  1.70             1.16
+CANTE  ODAS  2 366    40.83  1.47             1.15
+CANTE  ODAS  3 365    43.54  1.07             0.65
+ ODAS CANTE  1 379   -17.75 -1.24            -1.08
+ ODAS CANTE  2 378   -35.67 -1.46            -1.39
+ ODAS CANTE  3 377   -62.14 -1.80            -1.79
+
+== Küme içi / arası (T1, kaynak XELKT üyesi)
+ h        tur   n  abs_t_ge2  poz_t_ge2  ort_t  bh
+ 1   kume_ici 146      0.096      0.048  0.197   0
+ 1 kume_arasi 234      0.038      0.034  0.228   0
+ 2   kume_ici 146      0.103      0.055  0.174   0
+ 2 kume_arasi 234      0.056      0.056  0.287   1
+ 3   kume_ici 146      0.062      0.021  0.130   0
+ 3 kume_arasi 233      0.056      0.047  0.284   1
+ kümeler: {'dağıtım-perakende': ['ARASE', 'ENJSA'], 'diğer': ['ZOREN'], 'doğal gaz dağıtımı': ['AHGAZ', 'NTGAZ'], 'güneş paneli-ekipman': ['ALFAS', 'SMRTG'], 'üretim-termik': ['AKENR', 'AKSEN', 'CONSE', 'CANTE', 'ODAS'], 'üretim-yenilenebilir': ['A1YEN', 'AKSUE', 'AYDEM', 'AYEN', 'BIOEN', 'ESEN', 'GWIND', 'HUNER', 'LYDYE', 'MAGEN', 'NATEN', 'PAMEL', 'ZEDUR']}
+
+== Bayat fiyat kontrolü (T1 h=1)
+                   n  abs_t_ge2  poz_t_ge2  ort_t  ort_t_gece  ort_t_gunici
+hedef_likidite                                                             
+dusuk_likidite   168      0.030      0.006  0.027       0.070         0.054
+orta             147      0.082      0.054  0.295       0.029         0.283
+yuksek_likidite  105      0.067      0.067  0.443       0.258         0.365
+ |t|>=2 bağlar (n=24): katsayının gece payı medyan=0.10; gece t ile aynı işaret=0.62; gün içi t ile aynı işaret=1.00; |t_gece|>=2: 0.08; |t_gunici|>=2: 0.62
+ likidite grupları: {'dusuk_likidite': ['A1YEN', 'AKSUE', 'CANTE', 'ARASE', 'LYDYE', 'NTGAZ', 'PAMEL', 'ZEDUR'], 'orta': ['AKENR', 'AYDEM', 'AYEN', 'BIOEN', 'CONSE', 'ESEN', 'MAGEN', 'NATEN'], 'yuksek_likidite': ['AKSEN', 'ALFAS', 'ENJSA', 'GWIND', 'HUNER', 'ODAS', 'SMRTG', 'ZOREN']}
+
+test sayıları: {"T1_sektor_kontrollu": 1259, "T1_sektorsuz": 1259, "T1_yari_testleri": 4077, "T1_gece_gunici": 838, "T1_sifir_dagilimi_regresyon": 251800, "T2_olay": 3948, "T2_yari_testleri": 5151, "T2_sifir_dagilimi": 789600, "hipotez_cift_T1": 24, "buyuk_havuz": 3, "cift_farki_regresyon": 48} | toplam 1058007 | süre 101s

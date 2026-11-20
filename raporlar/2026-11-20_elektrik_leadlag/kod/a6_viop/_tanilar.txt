@@ -1,0 +1,38 @@
+== (a) kontrol regresyonları: fazla getiri (own, dolabilir) ~ sinyal + hedefin kendi r(t) + XU100 r(t) [+ ek]; t tarihe kümeli
+V4_getiri_z1.0_yuk_spotAL_h2: n=2889 sinyal: 67.01 (t=2.44) | kendi_r: -0.00 (t=-0.02) | xu100_r: 0.03 (t=0.32)
+V4_getiri_z1.0_yuk_spotAL_h3: n=2886 sinyal: 79.45 (t=2.36) | kendi_r: 0.00 (t=0.02) | xu100_r: -0.02 (t=-0.17)
+V1_settle_z1.0_yuk_spotAL_h3: n=2820 sinyal: 54.23 (t=1.32) | kendi_r: 0.01 (t=0.23) | xu100_r: 0.01 (t=0.08)
+V1_settle_z1.5_yuk_spotAL_h2: n=2706 sinyal: 137.17 (t=2.72) | kendi_r: 0.01 (t=0.14) | xu100_r: 0.04 (t=0.48)
+V2_hacim_yuk_spotAL_h3: n=2957 sinyal: 121.17 (t=1.93) | kendi_r: -0.01 (t=-0.14) | xu100_r: 0.03 (t=0.31) | spot_hacim_sicrama: -36.26 (t=-0.61)
+== (b) koşullu alt kümeler (KEŞİF; elib.evaluate, own, dolabilir): sinyal & hedefin kendi getirisi z<1 / z≥1
+V4_getiri_z1.0_yuk_spotAL_h2 & kendi z<1: n_bag=147 fazla=111 bps t=3.81 net=66 mkt=65
+V4_getiri_z1.0_yuk_spotAL_h2 & kendi z≥1: n_bag=66 fazla=63 bps t=1.25 net=-8 mkt=30
+V4_getiri_z1.0_yuk_spotAL_h2 & XU100 r(t)≤0: n_bag=43 fazla=103 bps t=1.99 net=83 mkt=46
+V4_getiri_z1.0_yuk_spotAL_h2 & XU100 r(t)>0: n_bag=129 fazla=80 bps t=2.57 net=37 mkt=51
+V1_settle_z1.0_yuk_spotAL_h3 & kendi z<1: n_bag=85 fazla=69 bps t=1.54 net=32 mkt=90
+V1_settle_z1.0_yuk_spotAL_h3 & kendi z≥1: n_bag=11 fazla=248 bps t=2.03 net=213 mkt=189
+V1_settle_z1.0_yuk_spotAL_h3 & XU100 r(t)≤0: n_bag=33 fazla=-12 bps t=-0.19 net=-44 mkt=99
+V1_settle_z1.0_yuk_spotAL_h3 & XU100 r(t)>0: n_bag=63 fazla=137 bps t=2.46 net=97 mkt=101
+V2_hacim_yuk_spotAL_h3 & kendi z<1: n_bag=24 fazla=112 bps t=1.03 net=74 mkt=123
+V2_hacim_yuk_spotAL_h3 & kendi z≥1: n_bag=34 fazla=161 bps t=2.09 net=124 mkt=49
+V2_hacim_yuk_spotAL_h3 & XU100 r(t)≤0: n_bag=15 fazla=28 bps t=0.31 net=-10 mkt=9
+V2_hacim_yuk_spotAL_h3 & XU100 r(t)>0: n_bag=40 fazla=182 bps t=2.31 net=145 mkt=99
+kaynak AKSEN vadelisi z≥1 → diğer ikisi spot AL h2: n_bag=0 fazla=nan t=nan net=nan yıllar 
+kaynak ENJSA vadelisi z≥1 → diğer ikisi spot AL h2: n_bag=124 fazla=80 t=2.37 net=41 yıllar 2019:181;2020:103;2021:86;2022:-17
+kaynak ODAS vadelisi z≥1 → diğer ikisi spot AL h2: n_bag=57 fazla=90 t=2.04 net=62 yıllar 2021:32;2022:113
+(spot getirisiyle) diğer ikisinden biri z≥1 → hedef spot AL h2, 2019-03+: n_bag=258 fazla=53 t=2.72 net=15 yıllar 2019:118;2020:40;2021:25;2022:45
+(spot getirisiyle) aynı kural, 2019-03 ÖNCESİ (vadeli yokken): n_bag=280 fazla=26 t=1.59 net=-8 yıllar 2013:-53;2014:45;2015:18;2016:17;2017:19;2018:10;2019:224
+keşif testi sayısı: 17
+== (c) aile içi en yüksek t: dairesel kaydırma (her kural kendi etkin penceresinde, ortak oran u; 300 tekrar; basit t, viop için iki fiyatın kötüsü)
+gerçek en yüksek basit t = 3.37 (V4_getiri_z1.0_yuk_spotAL_h2); sıfır dağılımında en yüksek t: medyan 2.99, %90 3.83, %95 4.06
+aile düzeyi p (en yüksek t ≥ gerçek) = 0.282; test sayısı 234; t>2 olan gerçek kural sayısı 12, sıfır dağılımında ortalama 0
+  V4_getiri_z1.0_yuk_spotAL_h2: basit t=3.37; aile-düzeyi düzeltilmiş p=0.282
+     elib.shift_null (tek kural, etkin pencere): ortalama 85 bps, p=0.010
+  V4_getiri_z1.0_yuk_spotAL_h3: basit t=3.25; aile-düzeyi düzeltilmiş p=0.332
+     elib.shift_null (tek kural, etkin pencere): ortalama 105 bps, p=0.020
+  V1_settle_z1.5_yuk_spotAL_h2: basit t=3.00; aile-düzeyi düzeltilmiş p=0.495
+     elib.shift_null (tek kural, etkin pencere): ortalama 160 bps, p=0.007
+  V1_settle_z1.0_yuk_spotAL_h3: basit t=2.10; aile-düzeyi düzeltilmiş p=0.993
+     elib.shift_null (tek kural, etkin pencere): ortalama 88 bps, p=0.086
+  V2_hacim_yuk_spotAL_h3: basit t=2.37; aile-düzeyi düzeltilmiş p=0.950
+     elib.shift_null (tek kural, etkin pencere): ortalama 143 bps, p=0.047

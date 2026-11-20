@@ -1,0 +1,12 @@
+build süresi: 0.1 sn; kural sayısı 7; birincil 1
+deterministik: True
+self_check_causal (kesim 2021-06-30): {'A6_V4_akran_vadeli_getiri_z1_spotAL_h2': 0.0, 'A6_V4_akran_vadeli_getiri_z1_spotAL_h3': 0.0, 'A6_V4_akran_vadeli_getiri_z1_viopAL_h2': 0.0, 'A6_V1_dbaz_uzl_z1.5_yuk_spotAL_h2': 0.0, 'A6_V1_dbaz_uzl_z1_yuk_spotAL_h3': 0.0, 'A6_V2_vadeli_hacim3x_yuk_spotAL_h3': 0.0, 'A6_V4K_kesif_akran_z1_kendi_lt1_spotAL_h2': 0.0}
+self_check_causal (kesim 2022-06-30): {'A6_V4_akran_vadeli_getiri_z1_spotAL_h2': 0.0, 'A6_V4_akran_vadeli_getiri_z1_spotAL_h3': 0.0, 'A6_V4_akran_vadeli_getiri_z1_viopAL_h2': 0.0, 'A6_V1_dbaz_uzl_z1.5_yuk_spotAL_h2': 0.0, 'A6_V1_dbaz_uzl_z1_yuk_spotAL_h3': 0.0, 'A6_V2_vadeli_hacim3x_yuk_spotAL_h3': 0.0, 'A6_V4K_kesif_akran_z1_kendi_lt1_spotAL_h2': 0.0}
+A6_V4_akran_vadeli_getiri_z1_spotAL_h2        spot        h2 n_bag= 159 fazla=   85.3 t= 3.09 net_temel=   46.6
+A6_V4_akran_vadeli_getiri_z1_spotAL_h3        spot        h3 n_bag= 136 fazla=  105.1 t= 2.83 net_temel=   65.0
+A6_V4_akran_vadeli_getiri_z1_viopAL_h2        viop        h2 n_bag=  90 fazla=   48.0 t= 1.22 net_temel=    3.0
+A6_V4_akran_vadeli_getiri_z1_viopAL_h2        viop_vadeli h2 n_bag=  82 fazla=   40.9 t= 0.85 net_temel=    4.5
+A6_V1_dbaz_uzl_z1.5_yuk_spotAL_h2             spot        h2 n_bag=  37 fazla=  160.0 t= 3.05 net_temel=  126.0
+A6_V1_dbaz_uzl_z1_yuk_spotAL_h3               spot        h3 n_bag=  91 fazla=   88.4 t= 1.98 net_temel=   50.6
+A6_V2_vadeli_hacim3x_yuk_spotAL_h3            spot        h3 n_bag=  53 fazla=  142.9 t= 2.12 net_temel=  105.5
+A6_V4K_kesif_akran_z1_kendi_lt1_spotAL_h2     spot        h2 n_bag= 147 fazla=  110.5 t= 3.81 net_temel=   66.4

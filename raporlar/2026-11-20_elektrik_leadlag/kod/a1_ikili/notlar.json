@@ -1,0 +1,11 @@
+{
+ "A1_LN_": "lider ağı: 36 satırın 36'sında brüt fazla getiri pozitif ama işlem başına 1-46 bps; temel maliyet ~42 bps; net yalnız 2 satırda > 0 ve komşularında negatif",
+ "A1_LN_W250_c2.0_th1.5_h1": "İKİNCİL (izleme): t=3,06, kaydırma p=0,002, 12 yılın 10'u pozitif; brüt 30 bps < maliyet 42 bps (net -12); en iyi 10 gün hariç +17 bps",
+ "A1_LN_W250_c2.0_th1.5_h2": "İKİNCİL (izleme): t=3,08, kaydırma p=0,002; brüt 43 bps, net +1 bps (≥ +15 bps şartının altında); komşu parametrelerde net negatif; en iyi 10 gün hariç +20 bps",
+ "A1_LN_W500_c1.5_th1.5_h2": "İKİNCİL (komşu parametre, izleme): t=2,45; brüt 30 bps, net -13; ikinci yarıda etki +2 bps'ye iniyor",
+ "A1_GP_": "önceden yazılı grup çifti olayı: hiçbir satır |t| >= 2,5 değil; yukarı olayda işaret negatif, aşağı olayda pozitif ama kaydırma p≈0,2 (abs0.03 aşağı h2/h3), en iyi 10 gün çıkınca ≈ 0; yalnız 2020-2022",
+ "A1_PS_": "grup çifti farkı: ortalamaya dönüş (geride) yönünde etki yok ya da ters; 'önde' yönü yalnız ilk yarıda pozitif",
+ "A1_PC_": "küme akranlarına göre geride kalma: bütün satırlar negatif (yetişme yok)",
+ "A1_FL_": "IS'te seçilmiş çiftler: IS rakamı seçim yanlı; ZOREN payı %57-60",
+ "A1_FL_th2.0_h1": "İKİNCİL (çifte özgü, IS seçimli; yeni hisselere genellenemez): t=2,31, kaydırma p=0,02; brüt 35 bps < maliyet 48 bps; ZOREN payı %57"
+}

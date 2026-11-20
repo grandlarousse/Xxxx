@@ -1,0 +1,15 @@
+ızgara kuralı (test) sayısı: 234; keşif kuralı: 1; satır: 355; BH (q=0,10) geçen: 0; süre 23 sn
+t_IS > 2: 11 | t_IS < -2: 5 | en küçük tek yönlü p: 0.0001
+                           dondurulmus_ad        arac    secim  n_bagimsiz_IS  ort_fazla_IS_bps  t_IS  net_temel_bps_IS  yari_krono1_bps  yari_krono2_bps  top10_haric_bps  giris_kapanis1_bps  en_yogun_pay
+          A6_V1_dbaz_uzl_z1_yuk_spotAL_h3        spot  ikincil             91              88.4   2.0              50.6             56.9            119.3              6.5                28.5           0.7
+        A6_V1_dbaz_uzl_z1.5_yuk_spotAL_h2        spot  ikincil             37             160.0   3.0             126.0            195.2            124.9              4.5                66.7           0.8
+       A6_V2_vadeli_hacim3x_yuk_spotAL_h3        spot  ikincil             53             142.9   2.1             105.5             78.8            205.1             11.1               216.1           0.7
+   A6_V4_akran_vadeli_getiri_z1_spotAL_h2        spot birincil            159              85.3   3.1              46.6            107.2             63.5             37.9                70.6           0.5
+   A6_V4_akran_vadeli_getiri_z1_viopAL_h2        viop  ikincil             90              48.0   1.2               3.0            107.2             63.5            -26.0                29.0           0.5
+   A6_V4_akran_vadeli_getiri_z1_viopAL_h2 viop_vadeli  ikincil             82              40.9   0.9               4.5             -7.0             88.3            -51.6                27.3           0.6
+   A6_V4_akran_vadeli_getiri_z1_spotAL_h3        spot  ikincil            136             105.1   2.8              65.0            138.4             71.7             43.4                65.9           0.5
+A6_V4K_kesif_akran_z1_kendi_lt1_spotAL_h2        spot  ikincil            147             110.5   3.8              66.4            124.6             96.4             57.8                82.3           0.5
+ölçütleri sayısal geçip dondurulmayan: 2
+               sinyal_tanimi  n_bagimsiz_IS  t_IS  net_temel_bps_IS  top10_haric_bps  giris_kapanis1_bps
+V4_getiri_z1.5_yuk_spotAL_h2             96   2.5              52.5             21.5                74.4
+V4_getiri_z1.5_yuk_spotAL_h3             85   2.2              76.3             20.2                68.5

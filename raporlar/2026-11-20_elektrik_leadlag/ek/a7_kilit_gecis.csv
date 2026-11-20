@@ -1,0 +1,13 @@
+yon,nokta,donem,hisse_gun,n_gun_ici_degen,n_noktada_kilit,n_kapanis_kilit,n_ikisi,n_sonradan_olusan,n_bozulan,P_kapanis_kilit_kosul_noktada_kilit,P_noktada_kilit_kosul_kapanis_kilit,degip_kapanista_kilitsiz_orani
+tavan,1730,tum,11724,384,148,209,145,64,3,0.98,0.694,0.456
+tavan,1730,yari1,5480,234,101,131,99,32,2,0.98,0.756,0.44
+tavan,1730,yari2,6244,150,47,78,46,32,1,0.979,0.59,0.48
+tavan,1800son,tum,6116,217,117,121,115,6,2,0.983,0.95,0.442
+tavan,1800son,yari1,3392,131,70,72,69,3,1,0.986,0.958,0.45
+tavan,1800son,yari2,2724,86,47,49,46,3,1,0.979,0.939,0.43
+taban,1730,tum,11724,149,61,71,52,19,9,0.852,0.732,0.523
+taban,1730,yari1,5480,50,12,23,11,12,1,0.917,0.478,0.54
+taban,1730,yari2,6244,99,49,48,41,7,8,0.837,0.854,0.515
+taban,1800son,tum,6116,59,22,21,19,2,3,0.864,0.905,0.644
+taban,1800son,yari1,3392,29,10,10,8,2,2,0.8,0.8,0.655
+taban,1800son,yari2,2724,30,12,11,11,0,1,0.917,1.0,0.633

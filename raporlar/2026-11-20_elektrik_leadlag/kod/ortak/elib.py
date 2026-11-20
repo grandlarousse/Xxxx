@@ -357,8 +357,12 @@ def evaluate(sig, P, h=1, side='long', name='', family='', measure='own', instru
     row['yil_sayisi'] = int(len(ym)); row['yil_pozitif_orani'] = float((ym > 0).mean()) if len(ym) else np.nan
     row['yillar_bps'] = ';'.join(f'{y}:{1e4 * v:.0f}' for y, v in ym.items())
     dv = dd.sort_values()
-    k = max(10, int(np.ceil(0.05 * len(dv))))
-    row['top10_haric_bps'] = 1e4 * dv.iloc[:-k].mean() if len(dv) > k + 5 else np.nan
+    # en iyi 10 GÜN hariç ortalama (YONTEM şart 5). Not: yoğun sinyallerde en iyi %5'i atmak ortalamayı mekanik olarak
+    # eksiye çevirir; o yüzden %5 kırpma yalnız simetrik (iki uçtan) verilir.
+    row['top10_haric_bps'] = 1e4 * dv.iloc[:-10].mean() if len(dv) > 15 else np.nan
+    k5 = int(np.floor(0.05 * len(dv)))
+    row['kirpilmis_ort_bps'] = 1e4 * (dv.iloc[k5:len(dv) - k5].mean() if len(dv) > 2 * k5 + 5 else np.nan)
+    row['medyan_gun_bps'] = 1e4 * dv.median() if len(dv) else np.nan
     row['maliyet_temel_bps'] = cs['temel']
     Xd = X[X.index <= dev_end]
     cnt = Xd.notna().sum()
