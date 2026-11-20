@@ -109,3 +109,23 @@ def build(P):
 - **Yeniden okuma:** aynı dondurulmuş kurallar, aynı veri, yalnız kıyas değişti: `ek/oos1_sonuc_donem_notr.csv`. Kurallar değiştirilmedi (md5 denetimi: `ek/rules_md5_oos1_oncesi.txt`). İki tablo da saklanır ve raporda ikisi de söylenir. Ölçü, OOS-1 sonuçları görüldükten sonra değiştirildiği için bu yeniden okuma tek başına kanıt sayılmaz; son söz kasadadır.
 - **Kasa kararı:** zamanlama kurallarında karar ölçüsü `per`, kesit kurallarında `sec` (bu satır kasa açılmadan önce yazıldı).
 - **Ek havuz sınaması (seçimsiz):** 2. dalgada yalnız IS verisiyle dondurulan kuralların TAMAMI (41 kural), IS sonrası dönemin tamamında (2023-01-02 → veri sonu) bir kez değerlendirilir: `kod/ortak/tum_oos_degerlendir.py`. Kurallar 2023 öncesi veriyle dondurulduğu ve aralarında seçim yapılmadığı için bu sınama seçim yanlılığı taşımaz. Çoklu test: birincillerde ve bütün kurallarda Benjamini–Hochberg (q = 0,10) ve Holm. Kasaya giren en çok 10 kurallık sınama (E7, E11) ayrıca raporlanır.
+
+## E13. Kasaya giren kurallar (kasa açılmadan önce yazıldı, 20.11.2026)
+
+Kasa: 2025-07-01 → 2026-11-20. Tek çalıştırma; tek yönlü test beklenen yönde; Holm (alfa 0,10); sınıflama E11; kıyas E12.
+
+| # | Kural (ajan:ad) | Tür | Beklenen yön | Neden kasada |
+|---|---|---|---|---|
+| 1 | a5_rotasyon:A5_zirve20_sepet_h3 | zamanlama (per) | + | birincil (IS'te donduruldu) |
+| 2 | a2_endeks:A2_xelkt_z1_tum_h3 | zamanlama (per) | + | birincil; A5_mom1_sepet_h3 ile aynı kural, biri alındı |
+| 3 | a5_rotasyon:A5_zirve20_viop3_h3 | zamanlama (per) | + | birincil |
+| 4 | a6_viop:A6_V4_akran_vadeli_getiri_z1_spotAL_h2 | zamanlama (per) | + | birincil |
+| 5 | a5_rotasyon:A5_gecikme1_viop3_h3 | zamanlama (per) | + | ikincil; iki dönemde de artı (XU030 → elektrik gecikmesi) |
+| 6 | a8_model:A8_kesit_lgbm_d3_m500_h1_ust20 | kesit (sec) | + | ikincil; OOS-1'de t 5,4 |
+| 7 | w3a_kacinma:W3A_tavana_degdi_kapanmadi_KACIN_h1 | kaçınma (per) | − | iki dönemde de eksi |
+| 8 | w3a_kacinma:W3A_sektorden_5puan_geride_KACIN_h1 | kaçınma (sec) | − | iki dönemde de eksi |
+| 9 | w3b_damitma:W3B_sade_sakin_guclu_h1 | kesit (sec) | + | modelin sade (elle uygulanabilir) karşılığı |
+| 10 | w3a_kacinma:W3A_sektor_dustu_direnen_VIOP_SAT_h1 | VİOP SAT (per, vadeli fiyatı) | + | tek VİOP SAT adayı; güç düşük (≈ 21 olay) |
+
+- Kasaya alınmayan: w3b_damitma:W3B_lgbm_tahmin20_temiz_h1 (model tabanlı, elle uygulanamaz; #6 ile aynı kaynağa dayanıyor). W3-C yeni kural dondurmadı.
+- Ek havuz sınaması (E12): 2. dalganın 41 kuralının tamamı, 2023-01-02 → 2026-11-20.
