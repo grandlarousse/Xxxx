@@ -53,3 +53,18 @@ with ThreadPoolExecutor(4) as ex, open(os.path.join(RAW, "fetch_log.txt"), "a") 
     for t, r in ex.map(job, jobs):
         line = f"{dt.datetime.now().isoformat(timespec='seconds')} {t[0]} {t[1]} {r}"
         print(line, flush=True); lg.write(line + "\n")
+# --- butunluk: Is Yatirim endeks ucu bazen eksik pencere donuyor; en uzun seriye gore %98'in altindakini silip bir kez daha dene ---
+def nrow(code):
+    p = os.path.join(RAW, "isy_endeks", code + ".json")
+    return valid("isy_endeks", open(p).read()) if os.path.exists(p) else 0
+for attempt in range(3):
+    n = {c: nrow(c) for c in IDX_ISY}; short = [c for c in IDX_ISY if n[c] < 0.98 * max(n.values())]
+    if not short: break
+    for c in short:
+        p = os.path.join(RAW, "isy_endeks", c + ".json")
+        if os.path.exists(p): os.remove(p)
+        print("yeniden:", c, job(("isy_endeks", c))[1], flush=True)
+else:
+    sys.exit("HATA: endeks serisi eksik: " + str(short))
+missing = [t for t in jobs if not os.path.exists(os.path.join(RAW, t[0], t[1] + ".json"))]
+if missing: sys.exit("HATA: indirilemeyen: " + str(missing))
