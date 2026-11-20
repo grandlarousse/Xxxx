@@ -40,6 +40,21 @@ Klasör: `2026-11-04_kapanis_1-3gun/`
 
 Yatırım tavsiyesi değildir.
 
+
+---
+
+# BIST elektrik hisselerinde 1–3 günlük öncülük sinyalleri (20.11.2026)
+
+Klasör: `2026-11-20_elektrik_leadlag/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, sinyal tablosu (TradingView kodlarıyla), günlük akış, sepet tarifi, kanıt tabloları, çalışmayanlar, doğrulama kapsamı.
+- `araclar/`: Günlük sinyal betiği (`sinyal.py`), TradingView göstergeleri (`.pine`; derlenmedi), izleme listesi, kullanım notu.
+- `YONTEM.md`, `ek/YONTEM_EK.md`: Hesaptan önce yazılan yöntem; üç dönemli sınama, kör protokol, kasa kuralları, ölçüm düzeltmesi.
+- `ek/`: Sonuç tabloları (`oos1_sonuc*.csv`, `kasa_sonuc.csv`, `tum_oos_sonuc.csv`), sinyal ailelerinin notları (`a1_…`–`a8_…`), kasa öncesi çalışmalar (`w3a_…`–`w3c_…`), yeniden üretim, çürütme, sepet, zamanlama ve araç notları (`v1_…`–`v7_…`), kaynak doğrulaması, eleştirmen notları, ham ajan dönüşleri.
+- `kod/`: Veri indirme (`d1_veri`, `d2_veri`), ortak değerlendirme kütüphanesi (`ortak/elib.py`), her ailenin dondurulmuş kuralları (`<aile>/rules.py`). Veri dosyaları depoda yok; İş Yatırım, Borsa İstanbul ve Yahoo'dan yeniden indirilebilir.
+
+Yatırım tavsiyesi değildir.
+
 ---
 
 # Carl Gustav Jung'un bütün kitapları (05.11.2026)

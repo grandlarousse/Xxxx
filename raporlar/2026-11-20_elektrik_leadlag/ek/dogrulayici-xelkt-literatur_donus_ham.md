@@ -1,0 +1,36 @@
+araç: 12/30
+
+**Özet.** 15 satırın 15'i DOĞRULANDI; düzeltilen ve doğrulanamayan satır yok. Her satırda defterde gösterilen kaynak açıldı; bağımsız arama gerekmedi. Rapor ifadesini etkileyen dört not var:
+- **5 (GNS):** %80'lik dilim yalnız XELKT payları değil; bu paylardan oluşan endeksleri izleyen BYF katılma payları da sayılıyor.
+- **7 (sıralama):** ENJSA, ENERY, AHGAZ, AKSEN sırası toplam piyasa değerine göre. Endeks ağırlığı sırasında AKSEN, AHGAZ'ın önüne geçer.
+- **9 (Lo-MacKinlay):** görülen metin 1989 NBER çalışma tebliği; 1990 dergi baskısı açılmadı.
+- **13 (Chen vd.):** +%2,44 ve −%0,30 anormal getiri (abnormal return), ham getiri değil.
+
+Sonuç dosyası: /home/user/Xxxx/raporlar/2026-11-20_elektrik_leadlag/ek/dogrulama_xelkt_literatur.md
+
+KS = https://www.borsaistanbul.com/files/bist-pd-agirlikli-pay-endeksleri-ks-tr-2026-ekim-temiz.pdf
+
+| no | iddia | hüküm | kaynak URL | birebir alıntı ya da sayı | not |
+|---|---|---|---|---|---|
+| 1 | XELKT piyasa değeri ağırlıklı, ağırlık sınırlaması olmayan fiyat endeksi | DOĞRULANDI | https://www.borsaistanbul.com/endeks/xelkt | "Endeks Tipi Piyasa Değeri Ağırlıklı, Ağırlık Sınırlamalı Olmayan, Fiyat" | Ağırlık sınırlaması ve ağırlık eşiği alanları "-". Bileşen sayısı alanı sayfada betikle doluyor, ham HTML'de boş. |
+| 2 | Sektör endeksleri Yıldız, Ana ve Alt Pazar paylarından oluşur | DOĞRULANDI | KS, md. 3.19 | "Yıldız Pazar, Ana Pazar ve Alt Pazar'da işlem gören şirketlerin paylarından oluşur." | Madde başlığı: "BIST Sektör ve BIST Alt Sektör Endeksleri". |
+| 3 | Yeni halka arz, kapsamına girdiği endekslere ilk işlem günü dâhil edilir | DOĞRULANDI | KS, md. 8.4 | "kapsamına girdiği diğer tüm endekslere işlem görmeye başladığı gün geçerli olacak şekilde dahil edilir." | Maddede sayılan istisnalar (BIST 30/50/100/500, Likit Banka, Katılım, Temettü, Sürdürülebilirlik, Geri Alım vb.) arasında sektör endeksi yok. |
+| 4 | XELKT'nin 20.11.2026'da 42 üyesi var; liste yerel JSON ile aynı | DOĞRULANDI | https://www.kap.org.tr/tr/Endeksler | 42 kod; JSON'daki 42 kodla küme farkı boş | Sayfa 20.11.2026'da çekildi; sayfada tarih etiketi görülmedi. Endeks adı "BIST ELEKTRİK", açıklama "27.12.1996 Başlangıç Değeri: 10,46". |
+| 5 | GNS fonu toplam değerinin en az %80'ini XELKT paylarına yatırır | DOĞRULANDI | https://kap.org.tr/tr/fon-bilgileri/genel/gns-garanti-portfoy-enerji-sirketleri-hisse-senedi-tl-fonu-hisse-senedi-yogun-fon | "fon toplam değerinin en az %80'i devamlı olarak BIST Elektrik Endeksi'nde (XELKT) yer alan yerli ortaklık paylarına" | %80'lik dilim yalnız paylar değil: cümle "ve bu paylardan oluşan endeksleri takip etmek üzere kurulan borsa yatırım fonları katılma paylarına" diye sürüyor. |
+| 6 | TradingView sayfaları var ve doğru kıymete ait | DOĞRULANDI | https://www.tradingview.com/symbols/BIST-XELKT/ (ve aynı kalıpta BIST-XU030/, BIST-AKSEN1!/, BIST-ENJSA1!/, BIST-ODAS1!/, BIST-XU030D1!/) | Başlıklar: "BIST ELEKTRIK Today — BIST:XELKT Index Chart — TradingView"; "BIST 30 Index Today — BIST:XU030 Index Chart — TradingView"; "AKSA ENERJI URETIM FUTURES Price Chart — BIST:AKSEN1! — TradingView"; "ENERJISA ENERGY INC FUTURES Price Chart — BIST:ENJSA1! — TradingView"; "ODAS ELEKTRIK URETIM SANAYI TICARET FUTURES Price Chart — BIST:ODAS1! — TradingView"; "BIST 30 FUTURES Price Chart — BIST:XU030D1! — TradingView" | Altısı da HTTP 200. |
+| 7 | Piyasa değerine göre ilk dört: ENJSA, ENERY, AHGAZ, AKSEN | DOĞRULANDI | https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx | Piyasa değeri (mn TL): ENJSA 131.807,3; ENERY 130.050,0; AHGAZ 113.880,0; AKSEN 78.240,4; beşinci VEYAS 41.663,8 | Sıra toplam piyasa değerine göredir. Endeks ağırlığı (halka açık kısım) sırasında AKSEN (%19,0 halka açıklık) AHGAZ'ın (%11,1) önüne geçer. 42 üyenin toplamı 803.376 mn TL. Sayfada veri tarihi etiketi yok. |
+| 8 | Hou (2007, RFS): büyük → küçük öncülük ağırlıklı olarak sektör içi | DOĞRULANDI | https://econpapers.repec.org/RePEc:oup:rfinst:v:20:y:2007:i:4:p:1113-1138 | "the lead-lag effect between big firms and small firms is predominantly an intra-industry phenomenon" | Özetten; Review of Financial Studies 20(4), 1113-1138. Katsayı görülmedi. |
+| 9 | Lo & MacKinlay: kontraryan kârın yarısından azı aşırı tepkiye atfedilebilir | DOĞRULANDI | https://www.nber.org/system/files/working_papers/w2977/w2977.pdf | "less than 50 percent of the expected profits from a contrarian investment rule may be attributed to overreaction" | Görülen metin NBER çalışma tebliği (No. 2977, Mayıs 1989); 1990 dergi baskısı açılmadı. Devamı: "the majority of such profits is due to the cross-effects among the securities". |
+| 10 | Chordia & Swaminathan (2000): yüksek hacimli portföyler düşük hacimlileri günlük ve haftalık öncüler | DOĞRULANDI | https://econpapers.repec.org/RePEc:bla:jfinan:v:55:y:2000:i:2:p:913-935 | "Daily and weekly returns on high volume portfolios lead returns on low volume portfolios, controlling for firm size." | Özetten; Journal of Finance 55(2), 913-935. |
+| 11 | DeMiguel, Nogales & Uppal (2014): VAR portföyleri yalnız 10 bps altı maliyette üstün | DOĞRULANDI | https://lbsresearch.london.edu/id/eprint/4 | "outperform the traditional unconditional portfolios only for transaction costs below ten basis points" | Özetten; yazarlar ve yıl sayfa üstverisinden (Review of Financial Studies, 2014-04-01). Cümle hem arbitraj hem ortalama-varyans portföylerini kapsıyor. |
+| 12 | Bennett, Cucuringu & Reinert (arXiv 2201.08283): 2,4 bps/gün; maliyet yok; 2012 sonrası zayıflama | DOĞRULANDI | https://arxiv.org/pdf/2201.08283 | "The mean daily return of the trading signal is 2.4 basis points"; "we do not take into account transaction costs"; "a decay in the performance of the signal after 2012" | Tam metinden; sürüm v1, 20 Ocak 2022. |
+| 13 | Chen vd. (NBER w24014, Çin): tavan sonrası gecelik +%2,44, gün içi −%0,30 | DOĞRULANDI | https://www.nber.org/papers/w24014.pdf | "the close-to-open return on average is 2.44% (t-statistic of 20.3) ... average return of -0.30%" | Tam metinden. Ölçü "abnormal return" (anormal getiri) ve olay "hitting the upper 10% price limit"; raporda ham getiri diye yazılmamalı. |
+| 14 | McLean & Pontiff (2016): yayın sonrası getiriler %58 daha düşük | DOĞRULANDI | https://www.gwern.net/doc/economics/2016-mclean.pdf | "Portfolio returns are 26% lower out-of-sample and 58% lower post-publication." | Journal of Finance 71(1), Şubat 2016; 97 değişken. |
+| 15 | Bildik & Gülay (2006, JFR): İMKB'de fiyat limitleri; oynaklık taşması, gecikmeli fiyat keşfi | DOĞRULANDI | https://econpapers.repec.org/RePEc:bla:jfnres:v:29:y:2006:i:3:p:383-403 | "Our results support the volatility spillover, delayed price discovery, and trading interference hypotheses." | Özetten; Journal of Financial Research 29(3), 383-403. Özette sayısal büyüklük yok. |
+
+## açık kalanlar
+
+- 4 ve 7. satırlarda kaynak sayfalar tarih etiketi taşımıyor; "20.11.2026 itibarıyla" ifadesi çekim tarihine dayanıyor.
+- 1. satır: Borsa İstanbul sayfasındaki bileşen sayısı ham HTML'de boş; 42 sayısı yalnız KAP'tan doğrulandı.
+- 8, 10, 11 ve 15. satırlar özetten doğrulandı; tam metin açılmadı, etki büyüklüğü görülmedi.
+- 9. satır: 1990 dergi baskısı yerine 1989 NBER sürümü görüldü.
