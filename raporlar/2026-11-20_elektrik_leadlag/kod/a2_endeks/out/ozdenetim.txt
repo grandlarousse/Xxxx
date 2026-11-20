@@ -1,4 +1,4 @@
-build süresi: 0.11 s; deterministik: True
+build süresi: 0.10 s; deterministik: True
 self_check_causal (kesim 2021-06-30): {'A2_xelkt_z1_tum_h3': 0.0, 'A2_xelkt_z1_geciken_h3': 0.0, 'A2_spec_z2_tum_h3': 0.0, 'A2_xelkt_z1_xu100alt_tum_h3': 0.0, 'A2_komsu_z15_tum_h2': 0.0, 'A2_komsu_z2_aksen_h1': 0.0, 'A2_ewx_zm15_geciken_viop_sat_h1': 0.0}
 self_check_causal (kesim 2016-12-30): {'A2_xelkt_z1_tum_h3': 0.0, 'A2_xelkt_z1_geciken_h3': 0.0, 'A2_spec_z2_tum_h3': 0.0, 'A2_xelkt_z1_xu100alt_tum_h3': 0.0, 'A2_komsu_z15_tum_h2': 0.0, 'A2_komsu_z2_aksen_h1': 0.0, 'A2_ewx_zm15_geciken_viop_sat_h1': 0.0}
 self_check_causal (kesim 2019-12-31): {'A2_xelkt_z1_tum_h3': 0.0, 'A2_xelkt_z1_geciken_h3': 0.0, 'A2_spec_z2_tum_h3': 0.0, 'A2_xelkt_z1_xu100alt_tum_h3': 0.0, 'A2_komsu_z15_tum_h2': 0.0, 'A2_komsu_z2_aksen_h1': 0.0, 'A2_ewx_zm15_geciken_viop_sat_h1': 0.0}

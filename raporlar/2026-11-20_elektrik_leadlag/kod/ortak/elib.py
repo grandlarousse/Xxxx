@@ -283,6 +283,9 @@ def cost_bps(P, sig, senaryo='temel'):
     c = COST[senaryo]
     cr = P['close_raw'].reindex_like(sig)
     tick = pd.DataFrame(tick_of(cr.values), index=cr.index, columns=cr.columns)
+    # 2023-11-06 öncesinde 100 TL ve üstü fiyatlarda adım 0,10 idi (veriden saptandı; VERI_NOTU_D1)
+    old_regime = (cr.index < pd.Timestamp('2023-11-06'))
+    tick.loc[old_regime] = tick.loc[old_regime].where(cr.loc[old_regime] < 100, 0.10)
     tb = (1e4 * tick / cr).where(sig.fillna(False).astype(bool))
     v = tb.values[np.isfinite(tb.values)]
     return float(c['spot'] + 0.5 * (v.mean() if len(v) else 0.0))

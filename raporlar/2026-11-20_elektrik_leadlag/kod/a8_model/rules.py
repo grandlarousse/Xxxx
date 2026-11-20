@@ -296,8 +296,6 @@ _RDG = {'model': 'ridge', 'lam': 1}                    # ceza = 1·n, standartla
 FROZEN = [
     {'spec': {'kind': 'sec', 'cfg': _LGB, 'h': 1, 'frac': 0.2}, 'olcu': 'sec', 'arac': 'spot', 'birincil': False,
      'aciklama': 'LightGBM(d3, yaprak≥500) aylık yürüyen pencere, 23 özellik → sec fazla f1 tahmini; dolabilir XELKT üyelerinde en üst beşte birlik AL, 1 gün'},
-    {'spec': {'kind': 'sec', 'cfg': _LGB, 'h': 3, 'frac': 0.2}, 'olcu': 'sec', 'arac': 'spot', 'birincil': False,
-     'aciklama': 'Aynı LightGBM, hedef sec fazla f3; en üst beşte birlik AL, 3 gün'},
     {'spec': {'kind': 'day', 'cfg': _RDG, 'h': 2, 'thr': 0.0025}, 'olcu': 'own', 'arac': 'spot', 'birincil': False,
      'aciklama': 'Ridge(lam=1) zamanlama modeli, 12 gün-düzeyi özellik → sektör sepeti own fazla f2 tahmini > +25 bps ise dolabilir bütün XELKT üyeleri AL, 2 gün'},
     {'spec': {'kind': 'day', 'cfg': _RDG, 'h': 3, 'thr': 0.0}, 'olcu': 'own', 'arac': 'spot', 'birincil': False,
