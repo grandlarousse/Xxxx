@@ -3,9 +3,14 @@
 // UYARI: TradingView'da derlenip test edilmedi; ilk kullanımda sinyal.py çıktısıyla karşılaştırın.
 // =====================================================================================================
 // Elektrik sinyali — BIST:XELKT GÜNLÜK (1D) grafiğine eklenir.
-//   S1: XELKT kapanışı son 20 günün (bugün dâhil) en yüksek kapanışı  -> dolabilir sektör sepeti AL, 3 gün
-//   S2: XELKT günlük getirisi / önceki 60 günün std'si >= 1            -> aynı sepet AL, 3 gün
-//   S3: XU030 z >= 1 ve XELKT z < 0,5 (sektör geride)                  -> AKSEN, ENJSA, ODAS spot AL, 3 gün
+//   S1: XELKT kapanışı son 20 günün (bugün dâhil) en yüksek kapanışı  -> hedef: dolabilir sektör sepeti, 3 gün
+//   S2: XELKT günlük getirisi / önceki 60 günün std'si >= 1            -> hedef: aynı sepet, 3 gün
+//   S3: XU030 z >= 1 ve XELKT z < 0,5 (piyasa güçlü günü)              -> YALNIZ İZLEME: AKSEN, ENJSA, ODAS spot, 3 gün
+// RAPORUN SONUCU: S1 ve S2 istatistiksel olarak var ama maliyet ve faiz sonrası ortalama kazanç sıfıra yakın.
+// İşaretler "al" demez; sinyalin oluştuğunu gösterir. Karar için RAPOR.md 2. bölüm (önce kâğıt üstünde izleme).
+// ALARM NOTU: "çubuk kapanışında" çalan alarm kapanış seansından SONRA gelir; işlem kararı için geç kalır,
+// yalnız kayıt tutmaya yarar. 17:50 kararı için bir gece önceki tetik düzeyine fiyat alarmı kurun.
+// VERİ NOTU: gerçek zamanlı BIST paketi yoksa TradingView'da BIST verisi 15 dakika gecikmelidir.
 //   z = günlük getiri / std(önceki 60 günün günlük getirisi); std örneklem std'sidir ve BİR GÜN GECİKMELİDİR.
 // Karar kapanışta verilir (kapanış seansı 18:01–18:10). Seans içinde son çubuk değişir; alarmı
 // "Çubuk kapanışında bir kez" seçeneğiyle kurun. 17:50 kararı için tablodaki anlık değerlere bakın.
@@ -57,7 +62,7 @@ plot(showLvl ? thrS1 : na, "S1 eşiği (bugün)", color = color.new(color.green,
 plot(showLvl ? thrS2 : na, "S2 eşiği (bugün)", color = color.new(color.blue, 40), linewidth = 1, style = plot.style_stepline)
 plotshape(s1, title = "S1: 20 günlük en yüksek kapanış", style = shape.triangleup, location = location.belowbar, color = color.green, size = size.small, text = "S1", textcolor = color.green)
 plotshape(s2, title = "S2: XELKT z eşiğin üstünde", style = shape.circle, location = location.abovebar, color = color.blue, size = size.tiny, text = "S2", textcolor = color.blue)
-plotshape(s3, title = "S3: XU030 önde, XELKT geride", style = shape.diamond, location = location.top, color = color.orange, size = size.tiny, text = "S3", textcolor = color.orange)
+plotshape(s3, title = "S3: piyasa güçlü günü (izleme)", style = shape.diamond, location = location.top, color = color.orange, size = size.tiny, text = "S3", textcolor = color.orange)
 plot(zE, "XELKT z", display = display.data_window)
 plot(zX, "XU030 z", display = display.data_window)
 
@@ -97,7 +102,7 @@ if barstate.islast and showTbl
     table.cell(tb, 1, 2, s1 ? "EVET" : "hayır", text_color = s1 ? color.lime : color.white, text_size = size.small)
     table.cell(tb, 0, 3, "S2 z >= eşik", text_color = color.white, text_size = size.small)
     table.cell(tb, 1, 3, s2 ? "EVET" : "hayır", text_color = s2 ? color.lime : color.white, text_size = size.small)
-    table.cell(tb, 0, 4, "S3 gecikme", text_color = color.white, text_size = size.small)
+    table.cell(tb, 0, 4, "S3 piyasa güçlü (izleme)", text_color = color.white, text_size = size.small)
     table.cell(tb, 1, 4, s3 ? "EVET" : "hayır", text_color = s3 ? color.lime : color.white, text_size = size.small)
     table.cell(tb, 0, 5, "Yarın S1 >=", text_color = color.white, text_size = size.small)
     table.cell(tb, 1, 5, str.tostring(nxtS1, "#.00"), text_color = color.white, text_size = size.small)
@@ -107,7 +112,7 @@ if barstate.islast and showTbl
     table.cell(tb, 1, 7, "XU030 >= " + str.tostring(nxtS3X, "#.00") + " ve XELKT < " + str.tostring(nxtS3E, "#.00"), text_color = color.white, text_size = size.small)
 
 // --- alarmlar
-alertcondition(s1, title = "S1: XELKT 20 günlük en yüksek kapanış", message = "XELKT 20 günlük en yüksek kapanışta (S1). Dolabilir sektör sepeti: kapanışta giriş, 3 gün. sinyal.py ile doğrulayın.")
-alertcondition(s2, title = "S2: XELKT z >= 1", message = "XELKT günlük getirisi 60 günlük std'nin en az 1 katı (S2). Dolabilir sektör sepeti: kapanışta giriş, 3 gün. sinyal.py ile doğrulayın.")
-alertcondition(s3, title = "S3: XU030 önde, XELKT geride", message = "XU030 z >= 1 ve XELKT z < 0,5 (S3). AKSEN, ENJSA, ODAS spot: kapanışta giriş, 3 gün. sinyal.py ile doğrulayın.")
+alertcondition(s1, title = "S1: XELKT 20 günlük en yüksek kapanış", message = "XELKT 20 günlük en yüksek kapanışta (S1). Sinyal oluştu; karar için rapor 2. bölüm. sinyal.py ile doğrulayın.")
+alertcondition(s2, title = "S2: XELKT z >= 1", message = "XELKT günlük getirisi 60 günlük std'nin en az 1 katı (S2). Sinyal oluştu; karar için rapor 2. bölüm. sinyal.py ile doğrulayın.")
+alertcondition(s3, title = "S3: piyasa güçlü günü (yalnız izleme)", message = "XU030 z >= 1 ve XELKT z < 0,5 (S3). Yalnız izleme: AKSEN, ENJSA, ODAS için kâğıt üstünde kaydedin.")
 alertcondition(s1 or s2 or s3, title = "Elektrik: herhangi bir sinyal", message = "XELKT sinyali (S1, S2 ya da S3). sinyal.py çıktısına bakın.")

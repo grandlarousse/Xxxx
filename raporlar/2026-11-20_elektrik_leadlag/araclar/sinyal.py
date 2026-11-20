@@ -2,13 +2,16 @@
 """sinyal.py — BIST elektrik (XELKT) günlük sinyal betiği. Bağımlılık: pandas, numpy, requests.
 
 Araştırmadaki dondurulmuş kuralların günlük uygulaması (raporlar/2026-11-20_elektrik_leadlag):
-  S1  XELKT kapanışı son 20 günün (bugün dâhil) en yüksek kapanışı       -> dolabilir sektör sepeti AL, 3 gün
-  S2  XELKT günlük getirisi / önceki 60 günün std'si (1 gün gecikmeli) >= 1 -> aynı sepet AL, 3 gün
-  S3  XU030 z >= 1 ve XELKT z < 0,5 (sektör geride)                      -> AKSEN, ENJSA, ODAS spot AL, 3 gün
-  T2  sakin ve güçlü: dolabilir, tavana/tabana değmemiş, 20 günlük oynaklığı sektörün alt yarısında,
-      günlük getirisi sektörün en üst üçte birliğinde                    -> 1 gün (sektöre göre; maliyetle ~0)
-  K1  günün sektöre göre en kötü beşte birliği                           -> ertesi gün sektörün altında (ALMA)
-  K2  sektörden >= 5 puan geride kapanan                                 -> ALMA
+  S1  XELKT kapanışı son 20 günün (bugün dâhil) en yüksek kapanışı       -> hedef: dolabilir sektör sepeti, 3 gün
+  S2  XELKT günlük getirisi / önceki 60 günün std'si (1 gün gecikmeli) >= 1 -> hedef: aynı sepet, 3 gün
+  S3  XU030 z >= 1 ve XELKT z < 0,5 (piyasa güçlü günü)                  -> hedef: AKSEN, ENJSA, ODAS spot, 3 gün
+      (S3 YALNIZ İZLEME: kazanç birkaç güne bağlı; son dönemde doğrulanmadı)
+  K2  sektörden >= 5 puan geride kapanan ya da tabana değen              -> KAÇINMA: o gün alınmaz
+  T2  sakin ve güçlü (BİLGİ; doğrulanmadı): dolabilir, tavana/tabana değmemiş, 20 günlük oynaklığı sektörün
+      alt yarısında, günlük getirisi en üst üçte birlikte. İşe yarayan parçası düşük oynaklık (günde 5–12 bps).
+  K1  günün sektöre göre en kötü beşte birliği (BİLGİ; kural değil: yeniden üretimde geri çekildi)
+RAPORUN SONUCU: S1 ve S2 istatistiksel olarak var ama maliyet ve faiz sonrası ortalama kazanç sıfıra yakın.
+Bu çıktı "al" demez; sinyalin oluştuğunu söyler. Karar için RAPOR.md 2. bölüm (önce kâğıt üstünde izleme).
 Giriş sinyal günü kapanışında (kapanış seansı 18:01–18:10), çıkış h işlem günü sonra kapanışta.
 
 Veri: İş Yatırım'ın herkese açık uç noktaları (HisseTekil, IndexHistoricalAll). Takvim = XU100 günleri.
@@ -409,15 +412,17 @@ def yazdir(P, E, H, t, ts, gunici=None, eksik=(), gecmis=0, bilgi=None):
     print(f'S1  XELKT 20 günlük en yüksek kapanış: {ev(e.S1)}')
     print(f'      kapanış {tr_(e.XELKT)}; eşik {tr_(e.esikS1)} (uzaklık {yz(e.XELKT / e.esikS1 - 1)})')
     if e.S1:
-        print('      -> dolabilir sepeti bugün kapanışta AL, 3 işlem günü sonra kapanışta SAT')
+        print('      -> SİNYAL VAR. Hedef: dolabilir sepet; giriş bugün kapanışta, çıkış 3 işlem günü sonra kapanışta.')
+        print('         Karar için RAPOR.md 2. bölüm (zamanlama süzgeci; önce kâğıt üstünde).')
     print(f'S2  XELKT z >= 1: {ev(e.S2)}')
     print(f'      z {tr_(e.zE, 2, True)}; eşik getiri {yz(Z_ESIK * e.sdE)} = XELKT {tr_(e.XELKT / (1 + e.rE) * (1 + Z_ESIK * e.sdE))}')
     if e.S2:
-        print('      -> dolabilir sepeti bugün kapanışta AL, 3 işlem günü sonra kapanışta SAT')
-    print(f'S3  XU030 z >= 1 ve XELKT z < 0,5: {ev(e.S3)}')
+        print('      -> SİNYAL VAR. Hedef: dolabilir sepet; giriş bugün kapanışta, çıkış 3 işlem günü sonra kapanışta.')
+        print('         Karar için RAPOR.md 2. bölüm (zamanlama süzgeci; önce kâğıt üstünde).')
+    print(f'S3  (yalnız izleme) XU030 z >= 1 ve XELKT z < 0,5: {ev(e.S3)}')
     print(f'      XU030 z {tr_(e.zX, 2, True)} (eşik getiri {yz(Z_ESIK * e.sdX)}); XELKT z {tr_(e.zE, 2, True)} (üst sınır {yz(Z_GERI * e.sdE)})')
     if e.S3:
-        print('      -> AKSEN, ENJSA, ODAS (spot) bugün kapanışta AL, 3 işlem günü sonra kapanışta SAT')
+        print('      -> SİNYAL VAR (yalnız izleme). İzlenecek: AKSEN, ENJSA, ODAS spot, 3 işlem günü. Kâğıt üstünde kaydedin.')
     if pd.isna(e.zX) or pd.isna(e.zE):
         print('      UYARI: z hesaplanamadı (endeks değeri eksik).')
     print('-' * 74)
@@ -437,7 +442,7 @@ def yazdir(P, E, H, t, ts, gunici=None, eksik=(), gecmis=0, bilgi=None):
     print('  #  TradingView    fiyat  adım  hacim   gün    fark  not')
     print('                      TL   bps  mn TL     %    puan')
     for i, r in S.iterrows():
-        nt = [n for n, f in (('KAÇIN-5', r.kacin_5puan), ('en kötü 1/5', r.kacin_en_kotu_beste_bir),
+        nt = [n for n, f in (('KAÇIN-5', r.kacin_5puan), ('alt 1/5 (bilgi)', r.kacin_en_kotu_beste_bir),
                              ('taban', r.tabana_degdi), ('T2', r.t2_sakin_guclu), ('VİOP', r.kod in VIOP3)) if f]
         print(f'  {list(S.index).index(i) + 1:>2} {r.tv_kodu:<11} {tr_(r.son_fiyat):>8} {tr_(r.adim_bps, 0):>5} '
               f'{tr_(r.medyan_hacim_60g_tl / 1e6, 0):>6} {tr_(100 * r.gunluk_getiri, 1, True):>6} '
@@ -449,17 +454,17 @@ def yazdir(P, E, H, t, ts, gunici=None, eksik=(), gecmis=0, bilgi=None):
         print('  Sepet dışı: ' + ', '.join([f'{r.kod} ({neden(r)})' for _, r in D.iterrows()]
                                           + [f'{k} (veri yok)' for k in eksik if k in XELKT]))
     print('-' * 74)
-    print('KAÇINMA (bu hisseleri bugün kapanışta ALMA; 1 günlük)')
+    print('KAÇINMA (ilk iki satırdaki hisseleri bugün kapanışta ALMA; 1 günlük)')
     K5, KQ, TB = T[T.kacin_5puan], T[T.kacin_en_kotu_beste_bir], T[T.tabana_degdi]
     f1 = lambda X: ', '.join(f'{r.kod} ({tr_(100 * r.sektore_gore_fark, 1, True)})' for _, r in
                              X.sort_values('sektore_gore_fark').iterrows()) or 'yok'
     print('  Sektörden >= 5 puan geride: ' + f1(K5))
-    print('  Günün en kötü beşte birliği: ' + f1(KQ))
     print('  Tabana değen: ' + (', '.join(f'{r.kod} ({"tabanda kapandı" if r.tabanda_kapandi else "değdi"})'
                                           for _, r in TB.iterrows()) or 'yok'))
+    print('  (bilgi; kural değil) Günün en kötü beşte birliği: ' + f1(KQ))
     print('-' * 74)
     T2 = T[T.t2_sakin_guclu]
-    print('T2 SAKİN VE GÜÇLÜ (1 gün, sektöre göre; maliyet sonrası ~0: yalnız seçim yardımcısı)')
+    print('T2 SAKİN VE GÜÇLÜ (bilgi; doğrulanmadı. İşe yarayan parçası düşük oynaklık; maliyet sonrası ~0)')
     print('  ' + (', '.join(f'{r.kod} (gün {tr_(100 * r.gunluk_getiri, 1, True)}, oynaklık {tr_(100 * r.oynaklik20, 1)})'
                             for _, r in T2.iterrows()) or 'yok'))
     if gecmis:

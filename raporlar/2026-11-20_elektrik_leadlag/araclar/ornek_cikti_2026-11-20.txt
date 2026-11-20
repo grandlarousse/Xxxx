@@ -9,7 +9,7 @@ S1  XELKT 20 günlük en yüksek kapanış: HAYIR
       kapanış 537,06; eşik 571,59 (uzaklık %-6,04)
 S2  XELKT z >= 1: HAYIR
       z -1,11; eşik getiri %+2,09 = XELKT 561,35
-S3  XU030 z >= 1 ve XELKT z < 0,5: HAYIR
+S3  (yalnız izleme) XU030 z >= 1 ve XELKT z < 0,5: HAYIR
       XU030 z -1,29 (eşik getiri %+1,86); XELKT z -1,11 (üst sınır %+1,05)
 --------------------------------------------------------------------------
 YARIN İÇİN TETİK DÜZEYLERİ (yarın kapanışta; bugünkü değerlere göre)
@@ -22,9 +22,9 @@ SEPET: dolabilir 40 hisse (likiditeye göre sıralı) | eşit ağırlıklı sekt
                       TL   bps  mn TL     %    puan
    1 BIST:ENERY     14,45     7    667   -2,5   -0,6  
    2 BIST:CWENE     16,71     6    567   -1,6   +0,3  
-   3 BIST:AKSEN     63,80     8    396   -4,6   -2,7  en kötü 1/5, VİOP
+   3 BIST:AKSEN     63,80     8    396   -4,6   -2,7  alt 1/5 (bilgi), VİOP
    4 BIST:ENJSA    111,60     9    378   -1,4   +0,5  T2, VİOP
-   5 BIST:MAGEN      4,62    22    257   -9,9   -8,1  KAÇIN-5, en kötü 1/5, taban
+   5 BIST:MAGEN      4,62    22    257   -9,9   -8,1  KAÇIN-5, alt 1/5 (bilgi), taban
    6 BIST:AHGAZ     43,80     5    219   -3,0   -1,1  
    7 BIST:ODAS       4,35    23    217   -3,3   -1,5  VİOP
    8 BIST:CANTE      0,93   108    208   -2,1   -0,2  
@@ -32,20 +32,20 @@ SEPET: dolabilir 40 hisse (likiditeye göre sıralı) | eşit ağırlıklı sekt
   10 BIST:HUNER      3,69    27    145   -1,9   +0,0  
   11 BIST:MASFN     31,04     6    129   -3,4   -1,6  
   12 BIST:AKFYE      2,77    36    128   -3,5   -1,6  
-  13 BIST:BESTE     15,35     6    105   -5,9   -4,1  en kötü 1/5
-  14 BIST:IZENR      3,84    26    102   -4,5   -2,6  en kötü 1/5
+  13 BIST:BESTE     15,35     6    105   -5,9   -4,1  alt 1/5 (bilgi)
+  14 BIST:IZENR      3,84    26    102   -4,5   -2,6  alt 1/5 (bilgi)
   15 BIST:SMRTG      4,06    25    100   -3,8   -1,9  
   16 BIST:VEYAS     73,50     7     97   -3,5   -1,6  
   17 BIST:ZOREN      1,38    72     92   -2,8   -1,0  
   18 BIST:BIOEN     14,24     7     90   -1,3   +0,5  
-  19 BIST:MOGAN      8,31    12     87   -4,6   -2,7  en kötü 1/5
+  19 BIST:MOGAN      8,31    12     87   -4,6   -2,7  alt 1/5 (bilgi)
   20 BIST:TATEN      3,75    27     79   -2,8   -1,0  
   21 BIST:KLYPV     48,80     4     79   -2,9   -1,0  
   22 BIST:ECOGR     18,60     5     71   -2,1   -0,2  
   23 BIST:AYDEM     19,44     5     53   +1,8   +3,6  
   24 BIST:GWIND     18,46     5     51   -1,8   +0,1  T2
   25 BIST:ENTRA      4,49    22     47   +0,2   +2,1  T2
-  26 BIST:ALFAS     21,52     9     41   -4,2   -2,3  en kötü 1/5
+  26 BIST:ALFAS     21,52     9     41   -4,2   -2,3  alt 1/5 (bilgi)
   27 BIST:ESEN       1,98    50     40   -1,5   +0,4  T2
   28 BIST:AKSUE     12,67     8     39   -2,5   -0,7  
   29 BIST:ARFYE     11,51     9     35   +2,8   +4,6  
@@ -54,35 +54,21 @@ SEPET: dolabilir 40 hisse (likiditeye göre sıralı) | eşit ağırlıklı sekt
   32 BIST:ARASE     54,10     9     29   -2,3   -0,5  
   33 BIST:AKENR      6,14    16     28   -1,6   +0,3  T2
   34 BIST:A1YEN      1,41    71     25   -1,4   +0,5  T2
-  35 BIST:NATEN      2,90    34     22   -4,3   -2,4  en kötü 1/5
+  35 BIST:NATEN      2,90    34     22   -4,3   -2,4  alt 1/5 (bilgi)
   36 BIST:LYDYE  2.902,50     9     16   +7,5   +9,4  
   37 BIST:AYEN      22,70     9     10   -1,0   +0,8  T2
   38 BIST:PAMEL     38,52     5      9   -3,8   -1,9  
-  39 BIST:CONSE      1,33    75      8   -4,3   -2,4  en kötü 1/5
+  39 BIST:CONSE      1,33    75      8   -4,3   -2,4  alt 1/5 (bilgi)
   40 BIST:ZEDUR      4,09    24      6   -3,1   -1,2  
   Sepet dışı: CATES (tavanda kapandı), BIGEN (tavanda kapandı)
 --------------------------------------------------------------------------
-KAÇINMA (bu hisseleri bugün kapanışta ALMA; 1 günlük)
+KAÇINMA (ilk iki satırdaki hisseleri bugün kapanışta ALMA; 1 günlük)
   Sektörden >= 5 puan geride: MAGEN (-8,1)
-  Günün en kötü beşte birliği: MAGEN (-8,1), BESTE (-4,1), MOGAN (-2,7), AKSEN (-2,7), IZENR (-2,6), CONSE (-2,4), NATEN (-2,4), ALFAS (-2,3)
   Tabana değen: MAGEN (tabanda kapandı)
+  (bilgi; kural değil) Günün en kötü beşte birliği: MAGEN (-8,1), BESTE (-4,1), MOGAN (-2,7), AKSEN (-2,7), IZENR (-2,6), CONSE (-2,4), NATEN (-2,4), ALFAS (-2,3)
 --------------------------------------------------------------------------
-T2 SAKİN VE GÜÇLÜ (1 gün, sektöre göre; maliyet sonrası ~0: yalnız seçim yardımcısı)
+T2 SAKİN VE GÜÇLÜ (bilgi; doğrulanmadı. İşe yarayan parçası düşük oynaklık; maliyet sonrası ~0)
   ENJSA (gün -1,4, oynaklık 2,7), GWIND (gün -1,8, oynaklık 2,4), ENTRA (gün +0,2, oynaklık 2,8), ESEN (gün -1,5, oynaklık 3,4), NTGAZ (gün -1,7, oynaklık 2,4), AKENR (gün -1,6, oynaklık 3,1), A1YEN (gün -1,4, oynaklık 3,7), AYEN (gün -1,0, oynaklık 2,2)
---------------------------------------------------------------------------
-SON 10 GÜN
-  tarih          XELKT   gün %    zE     zX   S1 S2 S3
-  2026-11-09     566,32   +1,34  +0,66  +1,19   .  .  .
-  2026-11-10     552,06   -2,52  -1,23  -0,01   .  .  .
-  2026-11-11     552,05   -0,00  -0,00  +0,13   .  .  .
-  2026-11-12     563,74   +2,12  +1,03  +0,61   .  X  .
-  2026-11-13     571,32   +1,34  +0,65  +0,11   X  .  .
-  2026-11-16     571,59   +0,05  +0,02  -0,01   X  .  .
-  2026-11-17     567,27   -0,76  -0,36  -0,82   .  .  .
-  2026-11-18     550,77   -2,91  -1,40  -0,74   .  .  .
-  2026-11-19     549,86   -0,17  -0,08  -0,42   .  .  .
-  2026-11-20     537,06   -2,33  -1,11  -1,29   .  .  .
 ==========================================================================
 Not: fark = hisse − eşit ağırlıklı sektör (puan). Dolabilir = işlem görüyor, halka arzdan beri
 > 20 gün, tavanda kapanmamış. Yatırım tavsiyesi değildir; sonuçlar maliyet öncesi ölçülmüştür.
-CSV yazıldı: /home/user/Xxxx/raporlar/2026-11-20_elektrik_leadlag/araclar/ornek_hisse_2026-11-20.csv
