@@ -17,7 +17,7 @@
 1. Meetup, Luma ve İstanbul Senin uygulamalarını kur. Meetup'ta şu grupları takip et: Kadikoy Weekly, Earthlings from Istanbul, Speak Easy, Istanbul Community for Foreigners and English Speakers, Sayfa Arası Kitap Kulübü.
 2. **Müzekart+** al (300 TL, her müzeye yılda 2 giriş; Topkapı ve Dolmabahçe dahil, Harem ve Selamlık hariç).
 3. Şehir Tiyatroları uygulamasını kur; biletler ayda bir, bir sonraki ayın programı için açılıyor (Ekim programı 22 Eylül 11.00'de açıldı) ve çabuk bitiyor.
-4. İBB'nin 18-29 yaşa ücretsiz rehberli gezilerinin kış programına bak (kayıt: genclikspor.ibb.istanbul). Hafta içi gündüz, tam gün, yaşıtlarınla: hem şehir hem çevre.
+4. İBB'nin 18-29 yaşa ücretsiz rehberli gezilerinin kış programına bak (kayıt İBB'nin resmî formuyla; geçerli Müzekart isteniyor). Hafta içi gündüz, çoğu 10.00-17.00, yaşıtlarınla: hem şehir hem çevre. Son görülen program Mayıs 2026; kış programı doğrulanmadı.
 5. Aşağıdaki listeden **bir beden işi** (koşu, dans, tırmanış) ve **bir söz işi** (dil masası, kitap kulübü, atölye) seç. Bunlar senin iki sabitin.
 
 ### "İki sabit, bir keşif" kuralı
@@ -53,7 +53,7 @@ Gitmeden önce bağlantıdan günü ve ücreti teyit et. Satranç turnuvaları, 
 | istanbulTANGO başlangıç | Taksim, Kızıltoprak, Mecidiyeköy | 10 hafta, haftada 2 saat; partneri okul eşleştiriyor | sayfada yok |
 | Instituto Cervantes İspanyolca | Taksim (Kadıköy'de tek sınıf) | 60 saat, yaklaşık 12 hafta; kış dönemi tarihi açıklanmadı | 14.200-18.760 TL (Eylül 2026) |
 | Institut français Fransızca | Taksim (hafta sonu Kadıköy) | 30 saat; her ay yeni dönem (30 Kasım, 22 Aralık) | 10.700 TL |
-| Enstitü İstanbul İSMEK | 153 nokta | 2. dönem şubat (tarih doğrulanmadı) | ücretsiz |
+| Enstitü İstanbul İSMEK | İstanbul geneli, 150'den fazla nokta | 2. dönem şubat (tarih ve 2026-27 ayrıntısı doğrulanamadı, site açılmadı) | ücretsiz |
 | İBB Gençlik Ofisleri (15-29 yaş) | 8 merkez | 3 aylık kurslar, İngilizce Konuşma Kulübü dahil; son çağrı Nisan 2026 | ücretsiz |
 | TEGV gönüllü eğitmenliği | şubeler | başvuru 2 Ocak 2027'de açılıyor | ücretsiz |
 | Çorbada Tuzun Olsun | Cihangir | her akşam 18.30; aynı akşamı sabitle | ücretsiz |
@@ -79,10 +79,10 @@ Gitmeden önce bağlantıdan günü ve ücreti teyit et. Satranç turnuvaları, 
 |---|---|---|
 | Her hafta | Bir ücretsiz müze saati | Salı: İstanbul Modern "Genç Salı" 10.00-14.00 (18-25 yaş) ve Sakıp Sabancı Müzesi tüm gün. Perşembe: Arter 11.00-20.00, İstanbul Modern 10.00-14.00. Cuma: Pera 18.00-22.00. Her gün ücretsiz: Salt Beyoğlu, Salt Galata, Meşher |
 | İki haftada bir | Bir semt rotası ya da vapur | Kışın Uzun Boğaz Turu: Eminönü 10.35, Anadolu Kavağı molası, 320 TL gidiş-dönüş |
-| Ayda bir | Sahne | Şehir Tiyatroları 160-192 TL; opera ve bale Kadıköy Süreyya'da 205 TL'den, AKM'de 290 TL'den; Zorlu PSM'de 18-25 yaşa %25 Genç Bilet |
+| Ayda bir | Sahne | Şehir Tiyatroları 160-192 TL (ikincil kaynak); opera ve bale Kadıköy Süreyya'da 205 TL'den, AKM'de 235-290 TL'den; Zorlu PSM kendi yapımlarında 18-25 yaşa %25 Genç Bilet |
 | Ayda bir | Doğa | Belgrad Ormanı Neşetsuyu parkuru (6,2-6,5 km, kolay; 1 Kasım-31 Mayıs arası 08.30'dan önce spor amaçlı giriş ücretsiz), kışın Adalar, Garipçe-Rumeli Feneri |
-| Ayda bir | İBB gençlik rehberli gezisi | 18-29 yaş, ücretsiz, hafta içi gündüz |
-| Sürekli | Çalışma üssü | Rami Kütüphanesi (24 saat açık salon, ücretsiz), Salt Galata, AKM Kütüphane |
+| Ayda bir | İBB gençlik rehberli gezisi | 18-29 yaş, ücretsiz, hafta içi gündüz, Müzekart şartı |
+| Sürekli | Çalışma üssü | Rami Kütüphanesi (çalışma salonu 24 saat açık, son giriş 00.00, ücretsiz), Salt Galata, AKM Kütüphane |
 
 ### Takvim: Aralık 2026 - Haziran 2027
 
@@ -94,7 +94,7 @@ Gitmeden önce bağlantıdan günü ve ücreti teyit et. Satranç turnuvaları, 
 | 14-17 Ocak 2027 | Jumpin' at Istanbul (swing festivali) |
 | 31 Ocak'a kadar | Frank Bowling sergisi, Pera Müzesi |
 | 7 Şubat 2027 | Winter Run Istanbul, Caddebostan |
-| Şubat 2027 | İSMEK 2. dönem; 2 Ocak'ta TEGV başvurusu |
+| Ocak-Şubat 2027 | 2 Ocak'ta TEGV başvurusu açılıyor; şubatta İSMEK 2. dönem (tarih doğrulanmadı) |
 | 9-16 Mart 2027 | Tango to Istanbul festivali |
 | 25-28 Mart 2027 | Bosphorus Swing Festival |
 | 28 Mart'a kadar | Arter, "Sonra yok. Sonrası şimdi." |
@@ -116,7 +116,7 @@ Gitmeden önce bağlantıdan günü ve ücreti teyit et. Satranç turnuvaları, 
 
 ### Kadınlarla tanışma: kanıt ne diyor
 
-- **Arkadaşlıktan ilişkiye.** Stinson ve arkadaşlarının 2021 çalışmasında romantik ilişkilerin yaklaşık üçte ikisi arkadaşlıktan başlıyor. Uzun tanışıklık, ilk bakıştaki eşleşme baskısını da azaltıyor.
+- **Arkadaşlıktan ilişkiye.** Stinson ve arkadaşlarının 2021 çalışmasında romantik ilişkilerin yaklaşık üçte ikisi (%68) arkadaşlıktan başlıyor (1.897 katılımcı, çoğu üniversite öğrencisi). Uzun tanışıklık, ilk bakıştaki eşleşme baskısını da azaltıyor.
 - **Uygulamalar yan kanal.** ABD'de 2017'de yeni çiftlerin %39'u çevrimiçi tanıştı; ama 30 yaş altında partnerini uygulamada bulanların payı beşte bir düzeyinde. Türkiye'de Tinder haftalık yaklaşık 800 bin, Bumble yaklaşık 300 bin etkin kullanıcıya sahip (Sensor Tower, 2025 üçüncü çeyrek). Cinsiyet oranı için tek Türkiye verisi eski: 2019'da yaklaşık %80 erkek. Güncel oran doğrulanmadı.
 - **Kadın katılımı yüksek alanlar.** Sayı bulunan yerler: örgütlü gönüllülük (Türkiye'de iki ayrı kaynakta gönüllülerin %62-69'u kadın) ve yoga (ABD, %72 kadın). Dans, kitap kulübü, dil kursu ve seramik için "kadın ağırlıklı" yaygın kanısını doğrulayan ya da çürüten veri bulunamadı.
 - **Ortam seçimi.** Yapılandırılmış formatlar (dil masası, takım halinde quiz, Speed Friending, partner değiştirilen dans dersi) konuşmayı etkinliğin kendisi başlattığı için en kolay olanlar.
@@ -188,13 +188,13 @@ Doğrulanan haftalık etkinliklerin en yoğun kümesi Kadıköy-Moda'da, ikincis
 | Moda, Cihangir | yaklaşık 40-43 bin TL | etkinliklerin ortası | pahalı |
 | Ev arkadaşlığı (oda) | 17-30 bin TL | hazır çevre, düşük kira | |
 
-Kiralar ilan fiyatıdır ve tek kaynağa (Emlakjet mahalle m² fiyatı × 55 m², 20 Kasım 2026) dayanan tahmindir; üst sınır gibi oku. İstanbul geneli ortalama ilan kirası 460 TL/m², yıllık artış %38 (BETAM, Kasım 2026). Gece metrosu yalnızca cumartesi ve pazar geceleri çalışıyor. **Deprem riski bu araştırmada doğrulanamadı**; ev seçerken bina yaşını ve zemin durumunu ayrıca sor.
+Kiralar ilan fiyatıdır ve tek kaynağa (Emlakjet mahalle m² fiyatı × 55 m², 20 Kasım 2026) dayanan tahmindir; üst sınır gibi oku. İstanbul geneli ortalama ilan kirası 460 TL/m², yıllık artış %38 (BETAM Kasım 2026 raporu, Ekim verisi). Gece metrosu yalnızca cumayı cumartesiye ve cumartesiyi pazara bağlayan geceler çalışıyor (M2 ve M4 dahil, 30 dakikada bir, çift ücret). **Deprem riski bu araştırmada doğrulanamadı**; ev seçerken bina yaşını ve zemin durumunu ayrıca sor.
 
 ### İstanbul'u değerlendirmek: ek notlar
 
 - **Yaş indirimleri sınırda.** Arter'de ücretsizlik "24 yaş altı" için; 24'ünü doldurduysan kapsam dışı olabilirsin, gişede sor. İBB'nin ücretsiz boş koltuk uygulaması "Koltuk Senin" 24 yaş ve altı için duyurulmuştu; 2026'da sürdüğü doğrulanmadı.
 - **Sosyalleşme değeri en yüksek kültür etkinlikleri:** Arter'in salı akşamı 6 haftalık seminerleri, Pera'nın yetişkin programları, Meşher'in ücretsiz rehberli turları, İBB gençlik gezileri, Open House İstanbul.
-- **Kamu kursları:** İSMEK yıl boyu başvuru alıyor; doluysa yedek listeye yazıl. GSB Gençlik Merkezleri (12-29 yaş) ve Halk Eğitim Merkezleri de ücretsiz.
+- **Kamu kursları:** İSMEK ücretsiz ve başvuruları yıl boyu açık (2026-27 ayrıntısı doğrulanamadı); doluysa yedek listeye yazıl. GSB Gençlik Merkezleri (12-29 yaş) ve Halk Eğitim Merkezleri de ücretsiz.
 - **Spor İstanbul:** fitness 12 kullanım 750 TL, yüzme 8 kullanım 1.200 TL (2026). Seansların dolu olduğu şikâyeti var.
 - **Ulaşım:** İstanbulkart tam biniş 46,20 TL (Temmuz 2026); Adalar vapuru tek yön 151,23 TL.
 - **Şehri okumak:** İstanbul Ansiklopedisi dijital arşivi (ücretsiz), Freely'nin "Strolling Through Istanbul" kitabı, Time Out İstanbul.
@@ -202,7 +202,7 @@ Kiralar ilan fiyatıdır ve tek kaynağa (Emlakjet mahalle m² fiyatı × 55 m²
 
 ### Tuzaklar
 
-- **Bar tuzağı belgeli.** Aralık 2023'te Beyoğlu'nda 5 mekâna operasyon yapıldı: 68 gözaltı, 133 mağdur. Yöntem: sokakta sohbet açan, yabancı dil bilen aracı.
+- **Bar tuzağı belgeli.** Aralık 2023'te Beyoğlu'nda 5 eğlence mekânına "hanutçuluk" operasyonu yapıldı: 68 gözaltı, 133 mağdur (93'ü yabancı). Yöntem: sokakta sohbet açıp mekâna götüren, yabancı dil bilen aracı.
 - **"İş fırsatı" kahvesi.** Arkadaşlık ya da iş görüşmesi kılığında ağ pazarlama sunumu; bir şikâyette yaklaşık 45 bin TL (tarihi doğrulanmadı).
 - **Kadıköy'de Mayıs 2026'da** yaklaşık 12 mekân 30 gün mühürlendi; hangilerinin yeniden açıldığı doğrulanmadı.
 - **İadesiz biletler.** Bazı uluslararası partilerde kapıdan çevrilen kişiye iade yapılmıyor.
@@ -223,7 +223,8 @@ Kiralar ilan fiyatıdır ve tek kaynağa (Emlakjet mahalle m² fiyatı × 55 m²
 - **Araştırılmayanlar (3. dalga senin isteğinle iptal edildi):** ortak çalışma alanları ve serbest çalışan toplulukları, yoga-fitness-dövüş sporu toplulukları, doğa yürüyüşü kulüpleri, Erasmus+ gençlik projeleri, ilçe bazlı deprem riski.
 - **Eleştirmen turu yapılmadı** (kotayı korumak için); raporu kendim gözden geçirdim.
 - **Fiyatlar** Kasım 2026'da görülen değerlerdir; ocak zamlarıyla değişebilir. "Sayfada yok" yazan ücretleri telefonla sor.
-- **Doğrulama:** DOGRULAMA_OZETI
+- **Doğrulama:** Eylem planının dayandığı 60 iddia, 3 doğrulayıcı tarafından kaynağı yeniden açılarak kontrol edildi. 45'i doğrulandı (3'ü yalnızca ikincil kaynakla), 14'ü düzeltildi ve düzeltmeler bu rapora işlendi, 1'i doğrulanamadı (İSMEK'in 2026-27 ayrıntısı), yanlış çıkan olmadı. Düzeltmelerin çoğu ücret, tekrar sıklığı ve yer ayrıntısıydı. Envanterdeki öteki yaklaşık 650 satır yalnızca araştırmacının tek geçişine dayanıyor; onları ipucu olarak kullan.
+- **Bağlantılar:** 711 bağlantı betikle toplu kontrol edildi: 572'si açıldı, 89'u otomatik erişimi engelliyor (403), 12'si kırık (404 ya da 410), 38'i zaman aşımı ya da geçici hata verdi. Rapordaki 40 bağlantıda kırık yok.
 
 ## Kaynaklar
 
@@ -246,4 +247,4 @@ Bütün öğelerin bağlantıları `ENVANTER.md` dosyasında, iddia defterleri `
 4. Kısıt: web araması tur başına 200 çağrı; Reddit, Ekşi, Instagram doğrudan açılmıyor. Yeni dalgada ajan başına arama payı ver.
 5. Sıradaki adım: semt belli olunca o yakaya göre kişisel haftalık plan; istenirse açık kalan beş konu için dar bir takip dalgası.
 
-MALIYET_SATIRI
+**Maliyet özeti:** Seviye L+ (onaylı); senin "bitir" demenle erken kapatıldı · 29 alt ajan: 26 araştırmacı (fable) + 3 doğrulayıcı (opus), eleştirmen yok · 2 üretim dalgası + 1 doğrulama · alt ajanlar toplam yaklaşık 3,9 milyon token, 1.437 araç çağrısı · kontrol noktasını (35) geçen: 26 araştırmacının 24'ü (38-62 çağrı; 1. dalgada ortak arama kotası dolduğu ve birçok site erişimi engellediği için, 2. dalgada açık kalan alanları kapatmak için) ve 1 doğrulayıcı (44/40); üst sınırı (70) aşan yok · aşılan sınır yok; planlanan 3. dalga (10 ajan) ve eleştirmen turu açılmadı.

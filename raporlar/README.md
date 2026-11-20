@@ -57,3 +57,15 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# İstanbul'a dönüş: şehri değerlendirmek ve yeni sosyal çevre kurmak (20.11.2026)
+
+Klasör: `2026-11-20_istanbul/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, haftalık takvim (iki yaka), haftalarca süren kurslar, ilk 90 gün, tanışma kuralları, İstanbul'u değerlendirme düzeni, Aralık 2026 - Haziran 2027 takvimi, semt karşılaştırması, kanıt, doğrulama kapsamı.
+- `ENVANTER.md`: Araştırmacıların envanter tablolarının birleşimi (716 satır: topluluk, mekân, etkinlik, bağlantılarıyla).
+- `ek/W1-*.md`, `ek/W2-*.md`: 26 araştırmacının ham çıktıları (özet, envanter, iddia defteri).
+- `ek/D*.md`: 60 iddianın doğrulama tabloları. `ek/link_kontrol.csv`: toplu bağlantı kontrolü.
+- `ek/envanter_birlestir.py`, `ek/link_kontrol.py`: birleştirme ve bağlantı kontrol betikleri.
