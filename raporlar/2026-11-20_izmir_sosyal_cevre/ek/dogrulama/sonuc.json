@@ -1,0 +1,128 @@
+{
+ "2.01.08": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Sayfa 'Event Ended', 13 Ağu 2026 20:30-22:00, yalnızca 'Izmir, Turkey'; ücret ve sonraki oturum yok.",
+  "dogrulayici": "v12"
+ },
+ "2.02.16": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Bianet 2 Eylül 2025; girişte Tinder geçiyor, 'affected applications' listesinde Tinder yok.",
+  "dogrulayici": "v12"
+ },
+ "3.06.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "İzQ sayfasında 13 Mayıs 2026 18:30 ve 18 Kasım 2026 18:00 iki tur var; 18 Kasım geçmiş tarih.",
+  "dogrulayici": "v12"
+ },
+ "1.01.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "20 Kasım 2026 tarihli profiller ve 'Add your free profile!' görüldü.",
+  "dogrulayici": "v12"
+ },
+ "1.01.13": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "",
+  "dogrulayici": "v12"
+ },
+ "2.04.12": {
+  "hukum": "kısmen",
+  "duzeltme": "Mekân tanımı, Kazımdirik/Bornova adresi, Park 414 ve Yaşar Üniversitesi yanı doğru. 'Şu an yaklaşan etkinlik yok' teyit edilemedi: takvim sayfada dinamik yükleniyor, statik metinde etkinlik listesi yok.",
+  "not": "Gitmeden önce Biletix takvimine tarayıcıdan bakılmalı.",
+  "dogrulayici": "v12"
+ },
+ "3.08.04": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "'Recurring', 25 Kas 2026 Çarşamba 21:00-23:59, 159/2. Sokak Buca İzmir; sayfa başlığında yanlışlıkla 'Istanbul Buca' yazıyor.",
+  "dogrulayici": "v12"
+ },
+ "1.02.05": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Sayfa 9.456 üye ve 30 Kasım 2026 etkinliği gösteriyor.",
+  "dogrulayici": "v12"
+ },
+ "3.04.03": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Görsel 2026-2027 Kış Spor Okulları; '2008 ve üzeri' doğumlular yani yaklaşık 18 yaş ve altı, yetişkine açık değil.",
+  "dogrulayici": "v12"
+ },
+ "2.05.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 13/04/2026; dönemin kasımda sürdüğü ayrıca teyit edilmedi.",
+  "dogrulayici": "v12"
+ },
+ "3.08.18": {
+  "hukum": "yanlış",
+  "duzeltme": "Haberde '200 kişilik kontenjan' yok. Eğitmen: 'Yaklaşık 800 kişinin talebiyle karşılaştık. Hiçbir yurttaşımıza olumsuz yanıt vermedik; herkes şu an burada.' Haftada bir gün 2 saat, ücretsiz, Tarihi Bıçakçı Han.",
+  "not": "Haber 10/10/2026; 'ilk gün başvur' çıkarımı kaynakla çelişiyor.",
+  "dogrulayici": "v12"
+ },
+ "2.07.11": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 02/09/2025 tarihli, 13 Eylül'de 'başlayacak' diyor; başladığı haberde yok, plan olarak doğru.",
+  "dogrulayici": "v12"
+ },
+ "2.07.18": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "İzmir tablosu: kort 1.800-3.000, grup 800-1.800, özel 1.200-3.000 TL; Türkiye geneli kişi başı kort payı 500-1.250 TL.",
+  "dogrulayici": "v12"
+ },
+ "1.15.11": {
+  "hukum": "kısmen",
+  "duzeltme": "2.134 üye ve son etkinliğin 2 Mart 2017 olması doğru. 'İzmir'in en büyük sosyal Meetup gruplarından biri' sıralaması kaynakta yok.",
+  "not": "",
+  "dogrulayici": "v12"
+ },
+ "1.15.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "873 üye, son etkinlik 11 Eki 2023, rePUBlic Alsancak; yaklaşan etkinlik görünmüyor.",
+  "dogrulayici": "v12"
+ },
+ "1.03.10": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Masraflar 'maddi destek' olarak karşılanıyor; seyahat ücreti sonradan, bazen 3-4 ay sonra geri ödeniyor.",
+  "dogrulayici": "v12"
+ },
+ "1.07.05": {
+  "hukum": "kısmen",
+  "duzeltme": "Her cuma 21:00-02:00, ön parti 19:30, ₺300 nakit, Salhane İZBAN My Plaza bilgileri doğru. Ancak aynı sayfa 'Bu etkinliğe Nisan ayına kadar ara verilmiştir' diyor; şu an faal sunulmamalı.",
+  "not": "",
+  "dogrulayici": "v12"
+ },
+ "1.07.06": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Sayfa 20 Kas 2026 Cuma'yı 'Sonraki Etkinlik' olarak listeliyor ve aynı anda ara verildiğini yazıyor.",
+  "dogrulayici": "v12"
+ },
+ "2.05.11": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 07.07.2026; sabah saatleri, ücretsiz.",
+  "dogrulayici": "v12"
+ },
+ "2.05.12": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Haber 30.09.2026; sabah, sınırlı kontenjan. 'Dizi sürüyor' çıkarımı iki etkinliğe dayanıyor.",
+  "dogrulayici": "v12"
+ },
+ "3.01.06": {
+  "hukum": "doğru",
+  "duzeltme": "",
+  "not": "Başvurular 9 Ekim'de kapandı, program 12 Ekim haftasında başladı; seviye tespit sınavı SMS ile.",
+  "dogrulayici": "v12"
+ }
+}
