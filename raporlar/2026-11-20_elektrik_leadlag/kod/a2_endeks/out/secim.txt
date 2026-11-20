@@ -1,0 +1,36 @@
+build süresi: 0.10 s; deterministik: True
+self_check_causal (kesim 2021-06-30): {'A2_xelkt_z1_tum_h3': 0.0, 'A2_xelkt_z1_geciken_h3': 0.0, 'A2_spec_z2_tum_h3': 0.0, 'A2_xelkt_z1_xu100alt_tum_h3': 0.0, 'A2_komsu_z15_tum_h2': 0.0, 'A2_komsu_z2_aksen_h1': 0.0, 'A2_ewx_zm15_geciken_viop_sat_h1': 0.0}
+self_check_causal (kesim 2016-12-30): {'A2_xelkt_z1_tum_h3': 0.0, 'A2_xelkt_z1_geciken_h3': 0.0, 'A2_spec_z2_tum_h3': 0.0, 'A2_xelkt_z1_xu100alt_tum_h3': 0.0, 'A2_komsu_z15_tum_h2': 0.0, 'A2_komsu_z2_aksen_h1': 0.0, 'A2_ewx_zm15_geciken_viop_sat_h1': 0.0}
+self_check_causal (kesim 2019-12-31): {'A2_xelkt_z1_tum_h3': 0.0, 'A2_xelkt_z1_geciken_h3': 0.0, 'A2_spec_z2_tum_h3': 0.0, 'A2_xelkt_z1_xu100alt_tum_h3': 0.0, 'A2_komsu_z15_tum_h2': 0.0, 'A2_komsu_z2_aksen_h1': 0.0, 'A2_ewx_zm15_geciken_viop_sat_h1': 0.0}
+self_check_causal (kesim 2022-06-30): {'A2_xelkt_z1_tum_h3': 0.0, 'A2_xelkt_z1_geciken_h3': 0.0, 'A2_spec_z2_tum_h3': 0.0, 'A2_xelkt_z1_xu100alt_tum_h3': 0.0, 'A2_komsu_z15_tum_h2': 0.0, 'A2_komsu_z2_aksen_h1': 0.0, 'A2_ewx_zm15_geciken_viop_sat_h1': 0.0}
+
+                  sinyal_tanimi        arac  n_gun_IS  n_bagimsiz_IS  n_islem_IS  ort_fazla_IS_bps  t_IS  basabas_IS_bps  net_temel_bps_IS  net_muhafazakar_bps_IS  top10_haric_bps  giris_kapanis1_bps  gece_payi  en_yogun_pay  yil_pozitif_orani  dolabilir_oran  maliyet_temel_bps                                                                                                     yillar_bps
+             A2_xelkt_z1_tum_h3        spot       443            330      4389.0             56.98  3.44           66.16             25.17                    0.17            38.41               23.03       0.49          0.10               0.69            0.96              41.00   2010:-25;2011:-4;2012:62;2013:18;2014:97;2015:96;2016:65;2017:60;2018:56;2019:225;2020:-16;2021:-73;2022:105
+         A2_xelkt_z1_geciken_h3        spot       432            322      2090.0             64.02  3.27           74.79             34.93                    9.93            35.00               23.79       0.21          0.13               0.85            1.00              39.86 2010:54;2011:-43;2012:66;2013:42;2014:106;2015:124;2016:24;2017:64;2018:64;2019:245;2020:29;2021:-116;2022:103
+              A2_spec_z2_tum_h3        spot       114             96      1104.0             61.10  2.10          103.02             61.52                   36.52             4.91               30.97       0.46          0.10               0.67            0.95              41.50       2011:-147;2012:-20;2013:-22;2014:95;2015:168;2016:29;2017:115;2018:-70;2019:163;2020:105;2021:2;2022:208
+    A2_xelkt_z1_xu100alt_tum_h3        spot       247            199      2477.0             62.78  2.95           82.42             41.79                   16.79            31.58               35.01       0.45          0.10               0.69            0.96              40.63   2010:-46;2011:-131;2012:73;2013:-74;2014:88;2015:85;2016:28;2017:59;2018:97;2019:256;2020:4;2021:-5;2022:138
+            A2_komsu_z15_tum_h2        spot       248            222      2474.0             37.02  2.50           49.91              8.45                  -16.55            17.83               11.76       0.19          0.10               0.69            0.97              41.46      2010:0;2011:-4;2012:138;2013:-73;2014:91;2015:12;2016:18;2017:6;2018:-51;2019:68;2020:-3;2021:60;2022:104
+           A2_komsu_z2_aksen_h1        spot       102            102       102.0             69.01  2.77           69.01             31.49                    6.49            16.74               21.85       0.34          1.00               0.91            0.99              37.52                    2011:21;2012:98;2014:47;2015:154;2016:168;2017:39;2018:20;2019:17;2020:-22;2021:55;2022:230
+A2_ewx_zm15_geciken_viop_sat_h1        viop        37             37        41.0             96.31  2.56          103.82             83.41                   75.90           -10.56               33.03       0.43          0.83               1.00            1.00              20.41                                                                              2019:43;2020:59;2021:165;2022:201
+A2_ewx_zm15_geciken_viop_sat_h1 viop_vadeli        28             28         NaN             91.74  1.84           92.56             62.94                   55.42              NaN                 NaN        NaN           NaN                NaN             NaN                NaN                                                                                                            NaN
+                                   7
+settle_n_gun_IS                 28.0
+settle_n_bagimsiz_IS            28.0
+settle_fazla_IS_bps             93.2
+settle_t_IS                      1.9
+settle_ham_IS_bps              100.5
+settle_basabas_IS_bps           95.3
+settle_net_temel_IS_bps         65.7
+settle_net_muhafazakar_IS_bps   58.2
+last_n_gun_IS                   28.0
+last_n_bagimsiz_IS              28.0
+last_fazla_IS_bps               91.7
+last_t_IS                        1.8
+last_ham_IS_bps                 93.8
+last_basabas_IS_bps             92.6
+last_net_temel_IS_bps           62.9
+last_net_muhafazakar_IS_bps     55.4
+ızgara satırı: 1812 | olay günü>=30: 1560 | keşif satırı: 29 | BH geçen: 10 (AL yönünde pozitif: 1 )
+secim: {'elendi': 1834, 'ikincil': 13, 'birincil': 2} | regresyon satırı: 302
+(i)-(v) ve n>=100 geçen AL satırı: 57 | bunlardan t>=2: 43
+IS ham kapanış >= 250 TL olan hisse-gün: 296

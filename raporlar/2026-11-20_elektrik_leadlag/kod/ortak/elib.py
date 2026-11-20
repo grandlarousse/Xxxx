@@ -446,7 +446,12 @@ def evaluate_viop(sig, P, h=1, side='long', name='', family='', extra=None):
         fillable = (vol > 0) & r.notna() & ~lim & (P['fill_long'] if side == 'long' else P['fill_short'])[cols]
         S_f = sig & fillable
         n_by = S_f.sum(); tot = max(n_by.sum(), 1)
-        cs = {s: float(sum(COST[s][c] * n_by[c] for c in cols) / tot) for s in COST}
+        # vadeli maliyeti: senaryo komisyonu + yarım vadeli fiyat adımı (ODAS gibi düşük fiyatlı kontratlarda adım 10–45 bps)
+        cr = P['close_raw'][cols].reindex(sig.index)
+        tb = (1e4 * pd.DataFrame(tick_of(cr.values, TICK_TABLE_FUT), index=cr.index, columns=cols) / cr).where(S_f)
+        tv = tb.values[np.isfinite(tb.values)]
+        half_tick = 0.5 * (tv.mean() if len(tv) else 0.0)
+        cs = {s: float(sum(COST[s][c] * n_by[c] for c in cols) / tot) + half_tick for s in COST}
         p, ntr, X = day_series(sig, own, fillable)
         pr, _, _ = day_series(sig, f * sgn, fillable)
         res[kind] = {}
@@ -459,6 +464,7 @@ def evaluate_viop(sig, P, h=1, side='long', name='', family='', extra=None):
             row[f'{kind}_ham_{per}_bps'] = str_['ort_gun_bps']
             row[f'{kind}_basabas_{per}_bps'] = st['ort_islem_bps']
             row[f'{kind}_net_temel_{per}_bps'] = st['ort_islem_bps'] - cs['temel'] if st['ort_islem_bps'] == st['ort_islem_bps'] else np.nan
+            row[f'{kind}_net_muhafazakar_{per}_bps'] = st['ort_islem_bps'] - cs['muhafazakar'] if st['ort_islem_bps'] == st['ort_islem_bps'] else np.nan
         dd = p[p.index <= OOS1_END].dropna()
         yr = dd.groupby(dd.index.year); ym = yr.mean()[yr.count() >= 5]
         row[f'{kind}_yillar_bps'] = ';'.join(f'{y}:{1e4 * v:.0f}' for y, v in ym.items())
@@ -469,6 +475,9 @@ def evaluate_viop(sig, P, h=1, side='long', name='', family='', extra=None):
         row[f'n_gun_{per}'] = worse['n_gun']; row[f'n_bagimsiz_{per}'] = worse['n_bagimsiz']
         row[f'ort_fazla_{per}_bps'] = worse['ort_gun_bps']; row[f't_{per}'] = worse['t']
         row[f'p_tek_{per}'] = _p_one_sided(worse['t']); row[f'basabas_{per}_bps'] = worse['ort_islem_bps']
+        wk = 'settle' if worse is a else 'last'
+        row[f'net_temel_bps_{per}'] = row.get(f'{wk}_net_temel_{per}_bps', np.nan)
+        row[f'net_muhafazakar_bps_{per}'] = row.get(f'{wk}_net_muhafazakar_{per}_bps', np.nan)
     if extra:
         row.update(extra)
     return row
