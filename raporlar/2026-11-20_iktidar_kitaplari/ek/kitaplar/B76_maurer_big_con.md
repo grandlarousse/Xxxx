@@ -1,6 +1,6 @@
 ## David W. Maurer — The Big Con (The Big Con: The Story of the Confidence Man, 1940)
 
-**Künye.** Maurer (1906–1981) Amerikalı dilbilimci; 1937'den 1972'ye dek Louisville Üniversitesi'nde profesördü, suçluların ve yeraltı dünyasının argosu üzerine iki yüzden fazla yazı yayımladı. Özgün dil İngilizce; ilk baskı 1940, Bobbs-Merrill. 1999'da Luc Sante'nin önsözüyle yeniden basıldı. Türkçe baskısı bulunamadı (ayrı bir arama yapılamadı; doğrulanmadı). Yaklaşık 300 sayfa (bellekten, doğrulanmadı).
+**Künye.** Maurer (1906–1981) Amerikalı dilbilimci; 1937'den 1972'ye dek Louisville Üniversitesi'nde profesördü, suçluların ve yeraltı dünyasının argosu üzerine iki yüzden fazla yazı yayımladı. Özgün dil İngilizce; ilk baskı 1940, Bobbs-Merrill. 1999'da Luc Sante'nin önsözüyle yeniden basıldı. Türkçe baskısı bulunamadı (kitapçı kataloğu taramasında yazar adıyla çıkmadı). Yaklaşık 300 sayfa (bellekten, doğrulanmadı).
 
 **Bir cümleyle.** Büyük dolandırıcılık bir hırsızlık değil, kurbanın kendi açgözlülüğü üzerine kurulmuş, rolleri ve aşamaları belli bir tiyatrodur.
 

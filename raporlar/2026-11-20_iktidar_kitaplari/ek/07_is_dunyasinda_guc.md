@@ -262,7 +262,7 @@ Ayrışma: Greene ahlakı kitabın dışında bırakır; Siu son bölümü ahlak
 
 ## Stanley Bing — What Would Machiavelli Do? (What Would Machiavelli Do? The Ends Justify the Meanness, 2000)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Roma AŞ (Koç Üniversitesi Yayınları).*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
 **Künye.** Stanley Bing, Gil Schwartz'ın (1951–2020) takma adıdır. Schwartz on yıl Esquire'da, ardından yirmi yılı aşkın süre Fortune'da iş dünyası mizahı yazdı; aynı yıllarda CBS'in kurumsal iletişim üst yöneticisiydi. Kitap İngilizcedir; HarperCollins (HarperBusiness). Goodreads ilk yayın tarihini 8 Aralık 1999, Open Library 2000 verir. Türkçe baskısı bulunamadı (İspanyolca çevirisi var). Karton kapak baskı 176 sayfa.
 
@@ -319,11 +319,11 @@ Ayrışma: Greene ahlakı kitabın dışında bırakır; Siu son bölümü ahlak
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Yazar yalnızca "V." harfiyle anılır; kimliği açıklanmamıştır. Bazı kitapçı kayıtlarında görülen "Corleone" adı bir katalog hatası gibi görünüyor. Dil İngilizce. Görülebilen en eski kayıt St. Martin's Press'in 1996 baskısıdır ve "gözden geçirilmiş baskı" diye kayıtlıdır; yani daha eski bir baskı olmalı, ama yılı doğrulanmadı (1991 iddiası kaynakta görülmedi). Karton kapak baskı Mayıs 1997 (St. Martin's Griffin). Türkçe baskısı bulunamadı. 106 sayfa.
+**Künye.** Yazar yalnızca "V." harfiyle anılır; kimliği açıklanmamıştır. Bazı kitapçı kayıtlarında görülen "Corleone" adı bir katalog hatası gibi görünüyor. Dil İngilizce. Görülebilen en eski kayıt St. Martin's Press'in 1996 baskısıdır ve "gözden geçirilmiş baskı" diye kayıtlıdır; yani daha eski bir baskı olmalı; Goodreads ilk yayın yılını 1991 verir (o baskının yayıncısı görülmedi). Karton kapak baskı Mayıs 1997 (St. Martin's Griffin). Türkçe baskısı bulunamadı. 106 sayfa.
 
 **Bir cümleyle.** Mafya, dünyanın en eski ve en dayanıklı "şirketlerinden" biridir; bir yönetici onun kurallarından sadakat, disiplin ve ihtiyat öğrenebilir.
 
-**Bağlam.** Yayınevine göre kitap, Playboy dergisinde çıkan "Axioms of the Mafia Manager" (Mafya Yöneticisinin Aksiyomları) başlıklı yazının genişletilmiş hâlidir. 1990'ların "yöneticiler için Sun Tzu, Attila, Machiavelli" modasının bir ürünüdür. Yeni yöneticiye, ofis siyasetinde yolunu arayan çalışana seslenir.
+**Bağlam.** Yayınevine göre kitap, Playboy dergisinde çıkan "Axioms of the Mafia Manager" (Mafya Yöneticisinin Aksiyomları) başlıklı yazının genişletilmiş hâlidir (arama özetine dayanır; yayınevi sayfası doğrulama sırasında açılamadı, doğrulanmadı). 1990'ların "yöneticiler için Sun Tzu, Attila, Machiavelli" modasının bir ürünüdür. Yeni yöneticiye, ofis siyasetinde yolunu arayan çalışana seslenir.
 
 **Yapısı.** Kısa bölümler ve tek cümlelik özdeyişlerden oluşan ince bir el kitabıdır. Kısım ve bölüm sayıları bu oturumda görülemedi (doğrulanmadı); kaynak azdır, bu yüzden bu dosya kısa tutulmuştur. Bellekteki düzen şöyledir: önce kendini yönetmek, sonra başkalarını (astlar, üstler, rakipler) yönetmek, en sonda bir aksiyomlar derlemesi (doğrulanmadı).
 

@@ -159,6 +159,20 @@ for e, ad in ETIKET:
     m.append("")
 open(K + "/11_envanter.md", "w", encoding="utf-8").write("\n".join(m))
 
+# ---------- RAPOR.md ----------
+ust_p, alt_p = K + "/parcalar/rapor_ust.md", K + "/parcalar/rapor_alt.md"
+if os.path.exists(ust_p) and os.path.exists(alt_p):
+    from collections import Counter
+    alan = Counter()
+    for p_ in glob.glob(K + "/defter/*.md"):
+        for u in re.findall(r"https?://([^/ |)>]+)", open(p_, encoding="utf-8").read()):
+            alan[u.lower().replace("www.", "")] += 1
+    satir = [f"- `{a}`: {n} defter satırı" for a, n in alan.most_common(40) if a != "archive.org"][:16]
+    alt = oku(alt_p).replace("__KAYNAK_ALANLARI__", "\n".join(satir)).replace("__TR_SAYI__", str(sum(1 for x in ozet if x[5])))
+    rapor = oku(ust_p) + "\n\n" + oku(K + "/parcalar/rapor_liste.md") + "\n\n" + alt + "\n"
+    open(os.path.dirname(K) + "/RAPOR.md", "w", encoding="utf-8").write(rapor)
+    govde = kelime(oku(ust_p)) - 48 * 7 + kelime(alt)
+    print("RAPOR.md:", kelime(rapor), "kelime; govde (liste ve 48 yasa listesi haric) yaklasik", govde)
 print("01:", kelime(y01), "kelime")
 for ad, (n, w) in toplam.items(): print(ad, n, "kitap", w, "kelime")
 print("envanter:", say, "kayit;", sum(1 for v in ol.values() if v.get("durum") == "uyuyor"), "yil OL ile uyusuyor")

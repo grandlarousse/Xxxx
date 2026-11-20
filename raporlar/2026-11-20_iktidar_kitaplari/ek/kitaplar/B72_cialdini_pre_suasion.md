@@ -1,6 +1,6 @@
 ## Robert B. Cialdini — Pre-Suasion (Pre-Suasion: A Revolutionary Way to Influence and Persuade, 2016)
 
-**Künye.** Cialdini (d. 1945) Amerikalı sosyal psikolog; Arizona Eyalet Üniversitesi'nde psikoloji ve pazarlama alanında emekli profesör, "Influence" (1984) kitabının yazarı. Özgün dil İngilizce; ilk baskı Eylül 2016. Türkçe baskısı bu oturumda bulunamadı (doğrulanmadı; arama özetlerinde Türkçe künye çıkmadı). İngiliz ciltsiz baskısı 432 sayfa; bunun önemli bir kısmı not ve kaynakçadır.
+**Künye.** Cialdini (d. 1945) Amerikalı sosyal psikolog; Arizona Eyalet Üniversitesi'nde psikoloji ve pazarlama alanında emekli profesör, "Influence" (1984) kitabının yazarı. Özgün dil İngilizce; ilk baskı Eylül 2016. Türkçesi: *İknaya Açılan Kapı*, MediaCat Yayıncılık, 2017, çeviren Taner Gezer (kitapçı kataloğu taraması). İngiliz ciltsiz baskısı 432 sayfa; bunun önemli bir kısmı not ve kaynakçadır.
 
 **Bir cümleyle.** İkna, mesajın kendisinden önce, dinleyenin dikkatinin nereye çevrildiği anda kazanılır ya da kaybedilir.
 

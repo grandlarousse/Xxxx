@@ -22,7 +22,7 @@ Bu dosyada 15 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Saul D. Alinsky — Radikaller İçin Kurallar (Rules for Radicals: A Pragmatic Primer for Realistic Radicals, 1971)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Düşünce Düşleri '21.Yüzyıl İçin Radikal Teori'; Kadınlarda DEHB İçin Radikal Bir Rehber; Yeni Radikal Aydınlanma - Ortak Bir Dünya İçin ....*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
 **Künye.** Saul Alinsky (1909–1972) Şikagolu bir toplum örgütleyicisidir; yoksul mahalleleri ev sahiplerine, belediyeye ve şirketlere karşı örgütleyen Industrial Areas Foundation'ın kurucusudur. Kitabı kürsüden değil, otuz yılı aşkın saha deneyiminden yazar. Özgün dili İngilizce; ilk baskı 1971, Random House. Türkçe baskı: *Radikaller İçin Kurallar: Gerçekçi Radikaller İçin Pragmatik İlkeler Kitabı*, Geoturka Yayımcılık, Nisan 2014, çeviren İnci Yılmazlı (Goodreads kaydına göre; 192 sayfa). Özgün baskı 196 sayfa.
 
@@ -180,7 +180,7 @@ Ayrışmalar da açıktır. “Seni getirenle dans et” kuralı **Yasa 20 (Kims
 
 ## Edward N. Luttwak — Coup d'État: A Practical Handbook (Coup d'État: A Practical Handbook, 1968)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Çin`in Yükselişi (Doruk Yayınları).*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
 **Künye.** Edward Luttwak (d. 1942, Arad, Romanya) strateji ve askerî tarih yazarıdır. Kitabı 26 yaşında, Londra'da petrol sektörüne danışmanlık yaparken yazdı; London School of Economics'te iktisat okumuştu. Sonradan *Strategy: The Logic of War and Peace* ile tanınan bir stratejist ve hükümet danışmanı oldu. Özgün dili İngilizce; ilk baskı 1968; Harvard University Press baskısı 1979; gözden geçirilmiş baskı 2016. Türkçe baskısı bulunamadı (üç ayrı aramada kayıt çıkmadı; İngilizce Vikipedi yazarın kitaplarının İngilizce dışında 29 dilde yayımlandığını yazar ama dilleri tek tek saymaz). Hacim: 2016 baskısında beş bölüm ve üç ek, yaklaşık 250–300 sayfa (kesin sayı doğrulanmadı).
 
@@ -230,7 +230,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Jonathan Powell (doğ. 1956) eski bir İngiliz diplomatıdır; 1995'ten itibaren Tony Blair'in ekip başkanı, 1997–2007 arasında Downing Street Chief of Staff (başbakanlık özel kalem müdürü) olarak çalıştı ve Kuzey İrlanda barış görüşmelerinin baş müzakerecisiydi. Özgün dil İngilizce; ilk yayın 2010 (ilk yayınevi Bodley Head: bellekten, doğrulanmadı). Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). Ciltli baskı 352 sayfa.
+**Künye.** Jonathan Powell (doğ. 1956) eski bir İngiliz diplomatıdır; 1995'ten itibaren Tony Blair'in ekip başkanı, 1997–2007 arasında Downing Street Chief of Staff (başbakanlık özel kalem müdürü) olarak çalıştı ve Kuzey İrlanda barış görüşmelerinin baş müzakerecisiydi. Özgün dil İngilizce; ilk yayın 2010 (ilk yayınevi The Bodley Head). Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). Ciltli baskı 352 sayfa.
 
 **Bir cümleyle.** Machiavelli yanlış anlaşılmıştır; onun öğütleri ikiyüzlülük dersi değil, yönetme zanaatının gerçekçi tarifidir ve bugünün başbakanlık ofisinde de büyük ölçüde işler.
 
@@ -256,9 +256,9 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 ## Dick Morris — The New Prince: Machiavelli Updated for the Twenty-First Century (The New Prince, 1999)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Klasiklerle Tanışıyorum-Moby Dick.*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Dick Morris (doğ. 1948) Amerikalı siyaset danışmanıdır; Bill Clinton'a Arkansas valiliğinden beri danıştı, 1994'ten sonra Beyaz Saray'da gizlice çalıştı ve Ağustos 1996'da bir skandal yüzünden kampanyadan ayrıldı. Özgün dil İngilizce; ilk yayın 1999, Renaissance Books (Los Angeles). Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). Yaklaşık 250–265 sayfa.
+**Künye.** Dick Morris (doğ. 1948) Amerikalı siyaset danışmanıdır; Bill Clinton'a Arkansas valiliğinden beri danıştı, 1994'ten sonra Beyaz Saray'da gizlice çalıştı ve Ağustos 1996'da bir skandal yüzünden kampanyadan ayrıldı. Özgün dil İngilizce; ilk yayın 1999, Renaissance Books (Los Angeles). Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). Yaklaşık 250–265 sayfa.
 
 **Bir cümleyle.** Bilgili seçmen çağında en pragmatik strateji idealizmdir: imaj değil konu, saldırı değil olumlu mesaj, parti disiplini değil çoğunluğun ortak görüşü kazandırır.
 
@@ -276,7 +276,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 **İktidar'la ilişkisi.** Kitap 1999 tarihlidir; Greene'in kaynağı olamaz, kaynakçasında görünmüyor. Ortak nokta yalnızca Machiavelli'dir. Örtüşen yasalar: 43. yasa (Başkalarının kalbine ve aklına hitap et), 13. yasa (Yardım isterken insanların çıkarına seslen), 38. yasa (İstediğin gibi düşün, herkes gibi davran; yoklamaya göre konum alma) ve 20. yasa (Kimseye bağlanma; üçgenlemenin özü iki kampa da teslim olmamaktır). Ayrışma köklüdür: Greene gizleme ve aldatmayı araç sayar, Morris ise şeffaf ve bilgili bir seyirci karşısında bunların pahalıya patladığını savunur. Bir bakıma Greene'e itirazdır: herkesin izlediği bir sahnede 3. yasa (Niyetlerini gizle) uzun süre uygulanamaz.
 
-**Eleştiri ve sınırlar.** New Left Review'daki eleştiri kitabı sofu sözlerin sıralandığı bir metin, Machiavelli'nin gerçekçiliğinin tersi olarak niteler. The American Prospect'teki yazı, Morris'in kendini Beyaz Saray'ın parlak mucidi gibi gösterdiğini söyler. Publishers Weekly ise kitabı modern siyasetin işleyişine dair öğretici bulur. “Olumsuz kampanya işlemez” ve “seçmen giderek bilgileniyor” öngörüleri sonraki yirmi yılda kutuplaşma ve sosyal medya ile sarsıldı (benim değerlendirmem). Yazarın itibarı da zedelendi: sonradan Clinton'ların sert eleştirmeni oldu; 2012 seçiminden sonra Fox News sözleşmesini yenilemedi (2012'de Romney'nin ezici zaferini öngördüğü bilgisi: bellekten, doğrulanmadı).
+**Eleştiri ve sınırlar.** New Left Review'daki eleştiri kitabı sofu sözlerin sıralandığı bir metin, Machiavelli'nin gerçekçiliğinin tersi olarak niteler. The American Prospect'teki yazı, Morris'in kendini Beyaz Saray'ın parlak mucidi gibi gösterdiğini söyler. Publishers Weekly ise kitabı modern siyasetin işleyişine dair öğretici bulur. “Olumsuz kampanya işlemez” ve “seçmen giderek bilgileniyor” öngörüleri sonraki yirmi yılda kutuplaşma ve sosyal medya ile sarsıldı (benim değerlendirmem). Yazarın itibarı da zedelendi: sonradan Clinton'ların sert eleştirmeni oldu; 2012 seçiminden sonra Fox News sözleşmesini yenilemedi (seçimden bir gün önce Romney'nin ezici bir zafer kazanacağını öngörmüştü).
 
 **Kimler okumalı.** Greene'in yasalarının seçimle gelen, sürekli izlenen bir liderde neden farklı çalıştığını görmek isteyen okur. Karşı görüş olarak değerlidir; tek başına güvenilir bir rehber değildir.
 
@@ -286,13 +286,13 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** William L. Riordon New Yorklu bir gazeteciydi; kitap, onun kayda geçirdiği konuşmalardan oluşur. Konuşan kişi George Washington Plunkitt'tir (1842–1924): New York eyalet meclisinde ve senatosunda yıllarca görev yapmış, Demokrat Parti'nin kent örgütü Tammany Hall'un bölge önderi. Özgün dil İngilizce (Plunkitt'in sokak ağzıyla); ilk yayın 1905. Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). Kısa bir kitaptır: yaklaşık 100 sayfa (bellekten, doğrulanmadı).
+**Künye.** William L. Riordon New Yorklu bir gazeteciydi; kitap, onun kayda geçirdiği konuşmalardan oluşur. Konuşan kişi George Washington Plunkitt'tir (1842–1924): New York eyalet meclisinde ve senatosunda yıllarca görev yapmış, Demokrat Parti'nin kent örgütü Tammany Hall'un bölge önderi. Özgün dil İngilizce (Plunkitt'in sokak ağzıyla); ilk yayın 1905 (McClure, Phillips, New York). Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). Kısa bir kitaptır: yaklaşık 100 sayfa (bellekten, doğrulanmadı).
 
 **Bir cümleyle.** Siyaset bir meslektir; oy, kitap okuyarak ya da nutuk atarak değil, insanlara tek tek iş, yardım ve ilgi götürerek kazanılır ve bu emeğin karşılığını almak ayıp değildir.
 
-**Bağlam.** Yirminci yüzyıl başında Amerikan kentlerini “parti makineleri” yönetiyordu: göçmen mahallelerine iş ve yardım dağıtan, karşılığında oy toplayan örgütler. Reformcular bu düzeni yolsuzluk diye suçluyor, memurluğa sınavla girişi savunuyordu. Plunkitt, kitabın alt başlığına göre bir ayakkabı boyacısı tezgâhını kürsü yaparak (bellekten, doğrulanmadı) makineyi savunur; Riordon bu konuşmaları gazetede, sonra kitap olarak yayımladı.
+**Bağlam.** Yirminci yüzyıl başında Amerikan kentlerini “parti makineleri” yönetiyordu: göçmen mahallelerine iş ve yardım dağıtan, karşılığında oy toplayan örgütler. Reformcular bu düzeni yolsuzluk diye suçluyor, memurluğa sınavla girişi savunuyordu. Plunkitt, kitabın alt başlığına göre bir ayakkabı boyacısı tezgâhını kürsü yaparak makineyi savunur; Riordon bu konuşmaları gazetede, sonra kitap olarak yayımladı.
 
-**Yapısı.** Kısa konuşmalardan oluşur; her biri tek bir konuyu ele alır: dürüst rüşvet, memurluk reformu, reformcular, bölge önderinin işi, hitabetin zararı gibi. Son bölüm, bölge önderinin yoğun bir gününü anlatan Riordon'ın kendi yazısıdır. Bölüm sayısı yaklaşık 23'tür (bellekten, doğrulanmadı; bu oturumda içindekiler sayfası açılamadı).
+**Yapısı.** Kısa konuşmalardan oluşur; her biri tek bir konuyu ele alır: dürüst rüşvet, memurluk reformu, reformcular, bölge önderinin işi, hitabetin zararı gibi. Son bölüm, bölge önderinin yoğun bir gününü anlatan Riordon'ın kendi yazısıdır. Bölüm sayısı 23'tür.
 
 **Ana fikirler.**
 - **Dürüst rüşvet, dürüst olmayan rüşvet.** Plunkitt'in ünlü ayrımı. Dürüst olmayanı kumarhaneden, meyhaneden haraç almak ya da hazineyi soymaktır. “Dürüst rüşvet” (honest graft) ise içeriden öğrenilen bilgiyle kazanmaktır: kentin park ya da yol yapacağı araziyi önceden satın alıp pahalıya satmak gibi. Özeti kendi cümlesidir: “I seen my opportunities and I took 'em.”
@@ -314,7 +314,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Richard E. Neustadt (1919–2003) Amerikalı siyaset bilimcidir; 1950–1953 arasında Başkan Truman'ın Beyaz Saray'daki özel yardımcısıydı, kitabı Columbia Üniversitesi'nde öğretim üyesiyken yazdı, sonra Harvard'da ders verdi. Özgün dil İngilizce; ilk yayın 1960. Genişletilmiş son baskı 1990'da “Presidential Power and the Modern Presidents: The Politics of Leadership from Roosevelt to Reagan” adıyla çıktı. Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). İlk baskı yaklaşık 200, 1990 baskısı yaklaşık 370 sayfa (bellekten, doğrulanmadı).
+**Künye.** Richard E. Neustadt (1919–2003) Amerikalı siyaset bilimcidir; 1950–1953 arasında Başkan Truman'ın Beyaz Saray'daki özel yardımcısıydı, kitabı Columbia Üniversitesi'nde öğretim üyesiyken yazdı, sonra Harvard'da ders verdi. Özgün dil İngilizce; ilk yayın 1960. Genişletilmiş son baskı 1990'da “Presidential Power and the Modern Presidents: The Politics of Leadership from Roosevelt to Reagan” adıyla çıktı. Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). İlk baskı yaklaşık 200, 1990 baskısı yaklaşık 370 sayfa (bellekten, doğrulanmadı).
 
 **Bir cümleyle.** Başkan kâğıt üzerinde güçlü, uygulamada zayıftır: emir vererek değil ikna ederek yönetir ve ikna, karşısındakinin çıkarına dayanan bir pazarlıktır.
 
@@ -341,7 +341,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** William H. Riker (1920–1993) Amerikalı siyaset bilimcidir; oyun kuramını ve matematiksel yöntemi siyaset bilimine taşıyan “pozitif siyaset kuramı”nın kurucusu sayılır ve 1962'den itibaren Rochester Üniversitesi siyaset bilimi bölümünü yönetti. Özgün dil İngilizce; ilk yayın 1986, Yale University Press. Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). 152 sayfa.
+**Künye.** William H. Riker (1920–1993) Amerikalı siyaset bilimcidir; oyun kuramını ve matematiksel yöntemi siyaset bilimine taşıyan “pozitif siyaset kuramı”nın kurucusu sayılır ve 1962'den itibaren Rochester Üniversitesi siyaset bilimi bölümünü yönetti. Özgün dil İngilizce; ilk yayın 1986, Yale University Press. Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). 152 sayfa.
 
 **Bir cümleyle.** Siyasette kazananlar çoğu zaman insanları ikna edenler değil, seçimin yapısını (gündemi, oylama sırasını, tartışmanın boyutlarını) öyle kuranlardır ki herkes kendi tercihini değiştirmeden onların istediği sonucu üretir.
 
@@ -352,14 +352,14 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 **Ana fikirler.**
 - **Heresthetic, retorik değildir.** Retorik insanların tercihini değiştirmeye çalışır. Heresthetic tercihlere dokunmaz; onların hangi sonuca dönüşeceğini belirleyen düzeni değiştirir. Riker'a göre bu, öğrenilebilen bir zanaattır.
 - **Gündem denetimi.** Seçeneklerin hangi sırayla oylanacağını belirleyen, çoğu zaman sonucu da belirler. Reed örneğinde tek bir usul kararı, azınlığın oylamaya katılmayarak meclisi kilitleme silahını elinden alır.
-- **Stratejik oylama.** Oyuncu, daha iyi bir nihai sonuç için kısa vadede kendi tercihine aykırı oy verebilir ya da hiç oy vermeyebilir. Virginia örneğinde sonucu belirleyen, bir üyenin oylamaya katılmamasıdır (ayrıntı: bellekten, doğrulanmadı).
+- **Stratejik oylama.** Oyuncu, daha iyi bir nihai sonuç için kısa vadede kendi tercihine aykırı oy verebilir ya da hiç oy vermeyebilir. Virginia örneğinde sonucu belirleyen, bir üyenin oylamaya katılmamasıdır.
 - **Boyut ekleme.** Kaybeden taraf, tartışmaya kazanan koalisyonu bölecek yeni bir konu sokar. Riker'ın en ünlü örneği Lincoln'ün 1858 tartışmalarında Douglas'a sorduğu sorudur: Douglas hangi yanıtı verse seçmeninin bir kanadını kaybedecektir. Riker bu yolu en güçlü ve en sık kullanılan yöntem sayar.
 - **Plinius'un derdi.** Genç Plinius, Roma senatosunda üç seçenekli bir ceza oylamasında (beraat, sürgün, idam) oylama usulünü kendi tercihine yarayacak biçimde kurmaya çalışır; karşı taraf stratejik davranarak onu boşa çıkarır (ayrıntı: bellekten, doğrulanmadı). Ders: her manevranın bir karşı manevrası vardır.
 - **Kazanan seçenek yoktur, kazanan kurgu vardır.** Üç ve daha çok seçenek olduğunda “halkın iradesi” tek değildir. Bu yüzden usul kuralları tarafsız ayrıntılar değil, iktidarın kendisidir.
 
 **İktidar'la ilişkisi.** Greene'in kaynakçasında görünmüyor; alıntıladığını da görmedim (doğrulanmadı). Kitap, 31. yasanın (Seçenekleri sen belirle: başkalarını senin dağıttığın kartlarla oynat) siyaset bilimindeki en sistemli karşılığıdır. Boyut ekleme 39. yasayla (Balık tutmak için suyu bulandır) ve 42. yasayla (Çobanı vur, sürü dağılsın; koalisyonu bölme) örtüşür. 9. yasa (Tartışarak değil, eylemlerinle kazan) ve 29. yasa (Sonuna kadar planla) da aynı yöndedir: ikna yerine yapıyı kur ve birkaç hamle ilerisini hesapla. Ayrışma: Riker psikolojiyle, zaaflarla, baştan çıkarmayla ilgilenmez; oyuncuların akılcı ve tercihlerinin sabit olduğunu varsayar. Greene kişiyi işler, Riker kuralı. Riker ayrıca manipülasyonu ahlak dışı saymaz, demokratik siyasetin olağan parçası olarak görür.
 
-**Eleştiri ve sınırlar.** Vakalar seçilmiş başarı öyküleridir; manevranın tutmadığı durumlar anlatılmaz ve sonucun gerçekten o hamleden mi doğduğu çoğu kez kanıtlanamaz. Tarihçiler bazı yorumlara, özellikle Lincoln'ün sorusunun önemine itiraz etmiştir (bellekten, doğrulanmadı). Sabit tercih varsayımı, ikna ve duygunun payını küçültür. Heresthetic terimi yaygınlaşmadı; ama gündem belirleme ve çerçeveleme araştırmaları aynı fikri sürdürür. Bu oturumda bölüm listesinin tamamı ve Gouverneur Morris bölümü kaynaktan görülemedi (doğrulanmadı).
+**Eleştiri ve sınırlar.** Vakalar seçilmiş başarı öyküleridir; manevranın tutmadığı durumlar anlatılmaz ve sonucun gerçekten o hamleden mi doğduğu çoğu kez kanıtlanamaz. Tarihçiler bazı yorumlara, özellikle Lincoln'ün sorusunun önemine itiraz etmiştir (bellekten, doğrulanmadı). Sabit tercih varsayımı, ikna ve duygunun payını küçültür. Heresthetic terimi yaygınlaşmadı; ama gündem belirleme ve çerçeveleme araştırmaları aynı fikri sürdürür.
 
 **Kimler okumalı.** Kurullarda, yönetim kurullarında, meclislerde karar alan ya da karar aldırmak isteyen herkes. 31. yasayı bir sezgiden çalışılabilir bir yönteme çevirir; kısa ve öykülerle ilerlediği için kolay okunur.
 
@@ -369,7 +369,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Robert A. Caro Amerikalı gazeteci ve biyografi yazarıdır; 1960'ların başında Newsday muhabiriyken Robert Moses'ın bir köprü projesini araştırdı ve bu kitap oradan doğdu. Özgün dil İngilizce; ilk yayın 16 Eylül 1974, Knopf; 1975'te Pulitzer Ödülü aldı. Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). 1.336 sayfa.
+**Künye.** Robert A. Caro Amerikalı gazeteci ve biyografi yazarıdır; 1960'ların başında Newsday muhabiriyken Robert Moses'ın bir köprü projesini araştırdı ve bu kitap oradan doğdu. Özgün dil İngilizce; ilk yayın 16 Eylül 1974, Knopf; 1975'te Pulitzer Ödülü aldı. Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). 1.336 sayfa.
 
 **Bir cümleyle.** Robert Moses hiçbir seçimi kazanmadan New York'un parklarını, yollarını ve köprülerini kırk yılı aşkın süre yönetti; kitap bu gücün nasıl kurulduğunu, kullanıldığını ve kente neye mal olduğunu anlatır.
 
@@ -453,7 +453,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 *Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Devrim Planı.*
 
-**Künye.** Srdja (Srđa) Popović (d. 1973, Belgrad) Sırp aktivisttir; Slobodan Miloşeviç'in düşmesinde payı olan öğrenci hareketi Otpor'un liderlerindendi ve 2003'te kurduğu CANVAS (Uygulamalı Şiddetsiz Eylem ve Stratejiler Merkezi) adlı eğitim kuruluşunu yönetiyor. Kitabı Matthew Miller ile birlikte İngilizce yazdı; 2015'te ABD'de Spiegel & Grau yayımladı. Tam alt başlığı sütlaçtan ve Lego adamlardan söz eder. Kitabın Türkiye'de de yayımlandığı belirtiliyor, ancak Türkçe adı, yayınevi ve çevirmeni doğrulanmadı. Yaklaşık 280 sayfa (doğrulanmadı).
+**Künye.** Srdja (Srđa) Popović (d. 1973, Belgrad) Sırp aktivisttir; Slobodan Miloşeviç'in düşmesinde payı olan öğrenci hareketi Otpor'un liderlerindendi ve 2003'te kurduğu CANVAS (Uygulamalı Şiddetsiz Eylem ve Stratejiler Merkezi) adlı eğitim kuruluşunu yönetiyor. Kitabı Matthew Miller ile birlikte İngilizce yazdı; 2015'te ABD'de Spiegel & Grau yayımladı. Tam alt başlığı sütlaçtan ve Lego adamlardan söz eder. Türkçesi: "Devrim Planı", Paloma Yayınevi (kitapçı kataloğu taraması); çevirmeni doğrulanmadı. Yaklaşık 280 sayfa (doğrulanmadı).
 
 **Bir cümleyle.** Diktatörleri deviren şey kahramanlık ya da öfke değil; küçük kazanımlar, mizah, birlik ve iyi bir plandır ve bunlar öğrenilebilir.
 
@@ -509,7 +509,7 @@ Ayrışma: Greene'in kahramanı karizmatik bireydir; Luttwak'ta kişilik yoktur,
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Sergei Guriev Rus iktisatçıdır; 2013'te baskı nedeniyle Rusya'dan ayrılmıştır (doğrulanmadı). Daniel Treisman, Kaliforniya Üniversitesi'nde (UCLA) çalışan Amerikalı siyaset bilimcidir (kurum doğrulanmadı). Kitap İngilizce yazıldı ve 2022'de Princeton University Press'te çıktı. Türkçe baskısı bulunamadı; var olup olmadığı doğrulanmadı. Notlar ve kaynakça dahil 360 sayfa; ana metin yaklaşık 220 sayfadır.
+**Künye.** Sergei Guriev Rus iktisatçıdır; 2013'te baskı nedeniyle Rusya'dan ayrılmıştır. Daniel Treisman, Kaliforniya Üniversitesi'nde (UCLA) çalışan Amerikalı siyaset bilimcidir. Kitap İngilizce yazıldı ve 2022'de Princeton University Press'te çıktı. Türkçe baskısı bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te kayıt çıkmadı). Notlar ve kaynakça dahil 360 sayfa; ana metin yaklaşık 220 sayfadır.
 
 **Bir cümleyle.** Günümüz otokratlarının çoğu halkı korkutarak değil, bilgiyi eğip bükerek ve demokrasi kılığına girerek yönetir; yazarlar bunlara "spin diktatörü" der.
 

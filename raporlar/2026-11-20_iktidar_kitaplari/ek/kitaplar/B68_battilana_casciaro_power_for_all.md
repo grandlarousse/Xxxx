@@ -1,6 +1,6 @@
 ## Julie Battilana ve Tiziana Casciaro — Power, for All: How It Really Works and Why It's Everyone's Business (Power, for All, 2021)
 
-**Künye.** Julie Battilana, Harvard Business School ve Harvard Kennedy School'da profesördür; toplumsal değişim ve örgütler üzerine çalışır. Tiziana Casciaro, Toronto Üniversitesi Rotman İşletme Okulu'nda örgütsel davranış profesörüdür (Casciaro'nun kurumu bellekten, doğrulanmadı). Özgün ad: *Power, for All: How It Really Works and Why It's Everyone's Business*; dili İngilizce; ilk yayın 2021 (Simon & Schuster). Türkçe baskısı bulunamadı (arama yapılamadı, doğrulanmadı). Yaklaşık 270 sayfa (doğrulanmadı).
+**Künye.** Julie Battilana, Harvard Business School ve Harvard Kennedy School'da profesördür; toplumsal değişim ve örgütler üzerine çalışır. Tiziana Casciaro, Toronto Üniversitesi Rotman İşletme Okulu'nda örgütsel davranış profesörüdür. Özgün ad: *Power, for All: How It Really Works and Why It's Everyone's Business*; dili İngilizce; ilk yayın 2021 (Simon & Schuster). Türkçe baskısı bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te kayıt çıkmadı). Yaklaşık 270 sayfa (doğrulanmadı).
 
 **Bir cümleyle.** Güç bir kişilik özelliği ya da makam değildir; karşıdakinin değer verdiği kaynaklara erişimi denetlemekten doğar ve bu yüzden herkes tarafından kurulabilir, dengelenebilir.
 
@@ -14,7 +14,7 @@
 
 - **Üç yanılgı.** Güç bir mülk değildir; ilişkiye göre değişir, bir yerde güçlü olan başka yerde güçsüzdür. Güç makamdan gelmez; unvanı olmayan ama herkesin danıştığı kişi daha etkili olabilir. Güç kendiliğinden kirli de değildir; nasıl kazanıldığına ve ne için kullanıldığına bakılır.
 
-- **Dengeyi değiştirmenin dört yolu.** Çekicilik: karşı tarafın senin sunduğuna daha çok değer vermesini sağlamak. Geri çekilme: onun sunduğuna daha az ihtiyaç duymak. Genişleme: kendine başka seçenekler bulmak. Birleşme: karşı tarafın seçeneklerini azaltmak, örneğin sendika kurarak. (Dört adın özgün karşılıkları: attraction, withdrawal, expansion, consolidation; bellekten.)
+- **Dengeyi değiştirmenin dört yolu.** Çekicilik: karşı tarafın senin sunduğuna daha çok değer vermesini sağlamak. Geri çekilme: onun sunduğuna daha az ihtiyaç duymak. Genişleme: kendine başka seçenekler bulmak. Birleşme: karşı tarafın seçeneklerini azaltmak, örneğin sendika kurarak. (Dört adın özgün karşılıkları: attraction, withdrawal, expansion, consolidation; bellekten, doğrulanmadı.)
 
 - **Güç haritası.** Bir kurumda değişim isteyen kişi önce resmî şemaya değil, gayriresmî ağa bakmalıdır: kim kime danışıyor, kim kime güveniyor. Yazarlar buna güç haritası çıkarmak der. İnsanların neye değer verdiğini anlamak için de para ve statünün yanında özerklik, başarı, aidiyet ve ahlaki tutarlılık gibi güdüleri sayarlar.
 

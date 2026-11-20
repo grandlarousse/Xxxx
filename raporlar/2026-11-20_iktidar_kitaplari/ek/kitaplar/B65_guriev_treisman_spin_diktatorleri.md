@@ -1,6 +1,6 @@
 ## Sergei Guriev ve Daniel Treisman — Spin Dictators (Spin Dictators: The Changing Face of Tyranny in the 21st Century, 2022)
 
-**Künye.** Sergei Guriev Rus iktisatçıdır; 2013'te baskı nedeniyle Rusya'dan ayrılmıştır (doğrulanmadı). Daniel Treisman, Kaliforniya Üniversitesi'nde (UCLA) çalışan Amerikalı siyaset bilimcidir (kurum doğrulanmadı). Kitap İngilizce yazıldı ve 2022'de Princeton University Press'te çıktı. Türkçe baskısı bulunamadı; var olup olmadığı doğrulanmadı. Notlar ve kaynakça dahil 360 sayfa; ana metin yaklaşık 220 sayfadır.
+**Künye.** Sergei Guriev Rus iktisatçıdır; 2013'te baskı nedeniyle Rusya'dan ayrılmıştır. Daniel Treisman, Kaliforniya Üniversitesi'nde (UCLA) çalışan Amerikalı siyaset bilimcidir. Kitap İngilizce yazıldı ve 2022'de Princeton University Press'te çıktı. Türkçe baskısı bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te kayıt çıkmadı). Notlar ve kaynakça dahil 360 sayfa; ana metin yaklaşık 220 sayfadır.
 
 **Bir cümleyle.** Günümüz otokratlarının çoğu halkı korkutarak değil, bilgiyi eğip bükerek ve demokrasi kılığına girerek yönetir; yazarlar bunlara "spin diktatörü" der.
 

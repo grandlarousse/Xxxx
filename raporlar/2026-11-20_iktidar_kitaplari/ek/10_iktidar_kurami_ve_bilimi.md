@@ -201,7 +201,7 @@ Ayrışma ise bu gruptaki en keskinidir. Greene okura iktidarı nasıl kazanaca�
 
 ## Étienne de La Boétie — Gönüllü Kulluk Üzerine Söylev (Discours de la servitude volontaire, yazılışı 1540'ların sonu–1550'lerin başı; tam basım 1570'lerin ikinci yarısı)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Gönüllü Kölelik Üzerine Söylev (Dorlion Yayınevi); Siyasi İtaat İçin Ebedi Yöntembilim (Gece Kitaplığı); Diktatöre Karşı - Gönüllü Kölelik Üzerine Söylev; Gönüllü Kulluk Üzerine Söylev; Gönüllü Kulluk Üzerine Söylev İmge Kitabevi.*
+*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Gönüllü Kölelik Üzerine Söylev (Dorlion Yayınevi); Diktatöre Karşı - Gönüllü Kölelik Üzerine Söylev; Gönüllü Kulluk Üzerine Söylev; Gönüllü Kulluk Üzerine Söylev İmge Kitabevi.*
 
 **Künye.** Étienne de La Boétie (1530–1563) Fransız yargıç, şair ve hümanisttir; Bordeaux Parlamentosu'nda (yüksek mahkeme) görev yapmış, Montaigne'in en yakın dostu olmuştur. Özgün dil Orta Fransızca. Yazılış tarihi tartışmalı: Montaigne'e göre yazar 16–18 yaşındayken; yeni araştırmalara göre 1552–1553'te, üniversite yıllarında. Metin 1574'te kırpılmış ve imzasız çıktı; tam metnin basımı için kaynaklar 1576, 1577 ve 1578 tarihlerini veriyor. Türkçesi: *Gönüllü Kulluk Üzerine Söylev*, çev. Mehmet Ali Ağaoğulları, İmge Kitabevi, yaklaşık 127 sayfa (söylevin kendisi çok daha kısadır). Başka yayınevlerinde başka çevirileri de var.
 
@@ -407,7 +407,7 @@ Aynı okulun diğer iki adı Gaetano Mosca (yönetici sınıf kuramı, 1896) ve 
 
 *Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Hapishanenin Doğuşu (Ayrıntı Yayınları); Hapishanenin Doğuşu - Gözetleme ve Cezalandırma.*
 
-**Künye.** Michel Foucault (1926–1984) Fransız filozof ve düşünce tarihçisidir; kitabı Collège de France'ta profesörken ve hapishane koşullarına karşı yürütülen kampanyalara katıldığı yıllarda yazdı (yaşam tarihleri ve bu ayrıntı bellekten). Özgün dil Fransızca; ilk yayın 1975, Gallimard. İngilizcesi 1977 (çev. Alan Sheridan). Türkçesi: *Hapishanenin Doğuşu: Gözetim Altında Tutmak ve Cezalandırmak*, İmge Kitabevi, çeviren Mehmet Ali Kılıçbay, 445 sayfa.
+**Künye.** Michel Foucault (1926–1984) Fransız filozof ve düşünce tarihçisidir; kitabı Collège de France'ta profesörken ve hapishane koşullarına karşı yürütülen kampanyalara katıldığı yıllarda yazdı (yaşam tarihleri ve bu ayrıntı bellekten). Özgün dil Fransızca; ilk yayın 1975, Gallimard. İngilizcesi 1977 (çev. Alan Sheridan). Türkçesi: *Hapishanenin Doğuşu: Gözetim Altında Tutmak ve Cezalandırmak*, İmge Kitabevi, çeviren Mehmet Ali Kılıçbay, 445 sayfa. Güncel kitapçı kataloğunda Ayrıntı Yayınları baskısı görünüyor (*Hapishanenin Doğuşu: Gözetleme ve Cezalandırma*).
 
 **Bir cümleyle.** Modern iktidar bedeni parçalayarak değil, gözetleyip ölçerek ve alıştırarak yönetir; hapishane bu yöntemin yalnızca en görünür örneğidir.
 
@@ -433,7 +433,7 @@ Aynı okulun diğer iki adı Gaetano Mosca (yönetici sınıf kuramı, 1896) ve 
 
 ## Hannah Arendt — Şiddet Üzerine (On Violence, 1970)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Şiddet Üzerine Düşünceler; Şiddet Üzerine Seçme Eserler 6; Şiddet Üzerine Seçme Eserler 6 İletişim Yayınevi.*
+*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Şiddet Üzerine Seçme Eserler 6; Şiddet Üzerine Seçme Eserler 6 İletişim Yayınevi.*
 
 **Künye.** Hannah Arendt (1906–1975) Almanya doğumlu, Nazilerden kaçıp ABD'ye yerleşen Yahudi siyaset düşünürüdür; totalitarizm ve devrim üzerine kitaplarıyla tanınır (yaşam tarihleri bellekten). Özgün dil İngilizce. Metin önce 1969'da *New York Review of Books*'ta "Reflections on Violence" adıyla çıktı; kitap olarak 1970'te yayımlandı (kitap yılı bellekten) ve 1972'de *Crises of the Republic* derlemesine alındı. Türkçesi: *Şiddet Üzerine*, İletişim Yayınları, çeviren Bülent Peker, 107 sayfa (2003 baskısı görüldü; ilk baskı yılı doğrulanmadı).
 
@@ -548,7 +548,7 @@ Aynı okulun diğer iki adı Gaetano Mosca (yönetici sınıf kuramı, 1896) ve 
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Dacher Keltner, Kaliforniya Üniversitesi Berkeley'de psikoloji profesörü ve Greater Good Science Center'ın kurucu yöneticisidir; duygular ve güç üzerine deneysel çalışmalarıyla tanınır. Özgün ad: *The Power Paradox: How We Gain and Lose Influence*; dili İngilizce; ilk yayın 2016 (Penguin Press, New York). Türkçe baskısı bulunamadı; bir web sayfasında kitap "Güç Paradoksu" diye anılıyor, ama yayınevi ve çevirmen kaydı görülmedi (doğrulanmadı). Yaklaşık 200 sayfa.
+**Künye.** Dacher Keltner, Kaliforniya Üniversitesi Berkeley'de psikoloji profesörü ve Greater Good Science Center'ın kurucu yöneticisidir; duygular ve güç üzerine deneysel çalışmalarıyla tanınır. Özgün ad: *The Power Paradox: How We Gain and Lose Influence*; dili İngilizce; ilk yayın 2016 (Penguin Press, New York). Türkçe baskısı bulunamadı; bir web sayfasında kitap "Güç Paradoksu" diye anılıyor, ama yayınevi ve çevirmen kaydı görülmedi; D&R ve Kitapseç kataloglarında da kayıt çıkmadı. Yaklaşık 200 sayfa.
 
 **Bir cümleyle.** Gücü, başkalarının yararına davranarak kazanırız; ama güç elimize geçince tam da bizi yükselten bu nitelikleri aşındırır.
 
@@ -586,7 +586,7 @@ Ayrışma köktendir. Yasa 12 (Kurbanını seçici dürüstlük ve cömertlikle 
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Brian Klaas, 1986 doğumlu Amerikalı siyaset bilimcidir; University College London'da küresel siyaset profesörü ve *The Atlantic* yazarıdır. Özgün ad: *Corruptible: Who Gets Power and How It Changes Us*; dili İngilizce; ilk yayın Kasım 2021 (Scribner; İngiltere'de John Murray). Türkçe baskısı bulunamadı: bakılan baskı listesinde Fince, Portekizce ve Japonca çeviriler görünüyor, Türkçe yok. Yaklaşık 320 sayfa.
+**Künye.** Brian Klaas, 1986 doğumlu Amerikalı siyaset bilimcidir; University College London'da küresel siyaset profesörü ve *The Atlantic* yazarıdır. Özgün ad: *Corruptible: Who Gets Power and How It Changes Us*; dili İngilizce; ilk yayın Kasım 2021 (Scribner; İngiltere'de John Murray). Türkçe baskısı bulunamadı: bakılan baskı listesinde Fince, Portekizce ve Japonca çeviriler görünüyor, Türkçe yok; D&R ve Kitapseç kataloglarında yazarın yalnızca Fluke adlı kitabının çevirisi görünüyor. Yaklaşık 320 sayfa.
 
 **Bir cümleyle.** Kötü yöneticilerin nedeni tek değildir: güç bozar, bozuk kişiler güce koşar ve kötü kurulmuş sistemler ikisini de besler; öyleyse çare kişilerde değil, sistemin tasarımındadır.
 
@@ -624,7 +624,7 @@ Ayrışma bakış açısındadır. Greene oyuncuya nasıl kazanacağını öğre
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Julie Battilana, Harvard Business School ve Harvard Kennedy School'da profesördür; toplumsal değişim ve örgütler üzerine çalışır. Tiziana Casciaro, Toronto Üniversitesi Rotman İşletme Okulu'nda örgütsel davranış profesörüdür (Casciaro'nun kurumu bellekten, doğrulanmadı). Özgün ad: *Power, for All: How It Really Works and Why It's Everyone's Business*; dili İngilizce; ilk yayın 2021 (Simon & Schuster). Türkçe baskısı bulunamadı (arama yapılamadı, doğrulanmadı). Yaklaşık 270 sayfa (doğrulanmadı).
+**Künye.** Julie Battilana, Harvard Business School ve Harvard Kennedy School'da profesördür; toplumsal değişim ve örgütler üzerine çalışır. Tiziana Casciaro, Toronto Üniversitesi Rotman İşletme Okulu'nda örgütsel davranış profesörüdür. Özgün ad: *Power, for All: How It Really Works and Why It's Everyone's Business*; dili İngilizce; ilk yayın 2021 (Simon & Schuster). Türkçe baskısı bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te kayıt çıkmadı). Yaklaşık 270 sayfa (doğrulanmadı).
 
 **Bir cümleyle.** Güç bir kişilik özelliği ya da makam değildir; karşıdakinin değer verdiği kaynaklara erişimi denetlemekten doğar ve bu yüzden herkes tarafından kurulabilir, dengelenebilir.
 
@@ -638,7 +638,7 @@ Ayrışma bakış açısındadır. Greene oyuncuya nasıl kazanacağını öğre
 
 - **Üç yanılgı.** Güç bir mülk değildir; ilişkiye göre değişir, bir yerde güçlü olan başka yerde güçsüzdür. Güç makamdan gelmez; unvanı olmayan ama herkesin danıştığı kişi daha etkili olabilir. Güç kendiliğinden kirli de değildir; nasıl kazanıldığına ve ne için kullanıldığına bakılır.
 
-- **Dengeyi değiştirmenin dört yolu.** Çekicilik: karşı tarafın senin sunduğuna daha çok değer vermesini sağlamak. Geri çekilme: onun sunduğuna daha az ihtiyaç duymak. Genişleme: kendine başka seçenekler bulmak. Birleşme: karşı tarafın seçeneklerini azaltmak, örneğin sendika kurarak. (Dört adın özgün karşılıkları: attraction, withdrawal, expansion, consolidation; bellekten.)
+- **Dengeyi değiştirmenin dört yolu.** Çekicilik: karşı tarafın senin sunduğuna daha çok değer vermesini sağlamak. Geri çekilme: onun sunduğuna daha az ihtiyaç duymak. Genişleme: kendine başka seçenekler bulmak. Birleşme: karşı tarafın seçeneklerini azaltmak, örneğin sendika kurarak. (Dört adın özgün karşılıkları: attraction, withdrawal, expansion, consolidation; bellekten, doğrulanmadı.)
 
 - **Güç haritası.** Bir kurumda değişim isteyen kişi önce resmî şemaya değil, gayriresmî ağa bakmalıdır: kim kime danışıyor, kim kime güveniyor. Yazarlar buna güç haritası çıkarmak der. İnsanların neye değer verdiğini anlamak için de para ve statünün yanında özerklik, başarı, aidiyet ve ahlaki tutarlılık gibi güdüleri sayarlar.
 
@@ -662,7 +662,7 @@ Ayrışma amaçta ve yöntemdedir. Greene bağımlılığı gizleyerek ve tek ki
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Frans de Waal (1948–2024), Hollanda doğumlu primatolog, yani maymun ve insansı maymun davranışı uzmanıdır; meslek yaşamının büyük bölümünü ABD'de Emory Üniversitesi'nde geçirdi. Özgün ad: *Chimpanzee Politics: Power and Sex among Apes*; ilk baskı 1982'de Londra'da İngilizce çıktı, aynı yıl Hollandaca baskısı da yayımlandı. Sonraki baskılarda yeni giriş ve sonsöz eklendi. Türkçe baskısı bulunamadı ("Şempanze Politikası" adıyla yapılan aramada kayıt çıkmadı). Yaklaşık 220 sayfa.
+**Künye.** Frans de Waal (1948–2024), Hollanda doğumlu primatolog, yani maymun ve insansı maymun davranışı uzmanıdır; meslek yaşamının büyük bölümünü ABD'de Emory Üniversitesi'nde geçirdi. Özgün ad: *Chimpanzee Politics: Power and Sex among Apes*; ilk baskı 1982'de Londra'da İngilizce çıktı, aynı yıl Hollandaca baskısı da yayımlandı. Sonraki baskılarda yeni giriş ve sonsöz eklendi. Türkçe baskısı bulunamadı ("Şempanze Politikası" adıyla yapılan aramada kayıt çıkmadı; D&R ve Kitapseç kataloglarında yazarın başka kitaplarının çevirileri var, bu kitap yok). Yaklaşık 220 sayfa.
 
 **Bir cümleyle.** Şempanzeler arasında iktidar kaba kuvvetle değil ittifakla kazanılır ve korunur; insan siyasetinin kökleri insanlıktan eskidir.
 
@@ -700,7 +700,7 @@ Ayrışma da açıktır. Yasa 15 (Düşmanını tümüyle ez) şempanzelerde iş
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Richard Christie, Columbia Üniversitesi'nde sosyal psikologdu; Florence L. Geis onun araştırma ortağıydı (Geis'in kurumu bu çalışmada bir kaynaktan görülmedi; doğrulanmadı). Kitap başka araştırmacıların da katkısıyla hazırlanmış bir araştırma derlemesidir. Özgün ad: *Studies in Machiavellianism*; dili İngilizce; ilk yayın 1970 (Academic Press, New York; sosyal psikoloji dizisi). Türkçe baskısı bulunamadı (ayrı arama yapılamadı, doğrulanmadı). Yaklaşık 415 sayfa.
+**Künye.** Richard Christie, Columbia Üniversitesi'nde sosyal psikologdu; Florence L. Geis onun araştırma ortağıydı (Geis'in kurumu bu çalışmada bir kaynaktan görülmedi; doğrulanmadı). Kitap başka araştırmacıların da katkısıyla hazırlanmış bir araştırma derlemesidir. Özgün ad: *Studies in Machiavellianism*; dili İngilizce; ilk yayın 1970 (Academic Press, New York; sosyal psikoloji dizisi). Türkçe baskısı bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te kayıt çıkmadı). Yaklaşık 415 sayfa.
 
 **Bir cümleyle.** Başkalarını araç olarak görme eğilimi ölçülebilir bir kişilik özelliğidir ve bu eğilimi yüksek olanlar, belirli koşullarda, gerçekten daha çok kazanır.
 
@@ -738,7 +738,7 @@ Ayrışma: Greene yasalarını evrensel sunar. Deneyler ise üstünlüğün koş
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Paul Babiak, şirketlere danışmanlık yapan bir endüstri ve örgüt psikoloğudur. Robert D. Hare, psikopatiyi ölçmek için kullanılan Hare Psikopati Kontrol Listesi'ni (PCL-R) geliştiren Kanadalı adli psikologdur. Özgün ad: *Snakes in Suits: When Psychopaths Go to Work* ("Takım elbiseli yılanlar: psikopatlar işe gidince"); dili İngilizce; ilk yayın Mayıs 2006 (HarperBusiness). Türkçe baskı: bir baskı listesine göre 2015'te Yerküre Yayınevi'nden, Özgür Öner çevirisiyle, 330 sayfa olarak yayımlandı; Türkçe adı bu kayıtta görünmüyor (doğrulanmadı). Özgün baskı 336 sayfa.
+**Künye.** Paul Babiak, şirketlere danışmanlık yapan bir endüstri ve örgüt psikoloğudur. Robert D. Hare, psikopatiyi ölçmek için kullanılan Hare Psikopati Kontrol Listesi'ni (PCL-R) geliştiren Kanadalı adli psikologdur. Özgün ad: *Snakes in Suits: When Psychopaths Go to Work* ("Takım elbiseli yılanlar: psikopatlar işe gidince"); dili İngilizce; ilk yayın Mayıs 2006 (HarperBusiness). Türkçe baskı: bir baskı listesine göre 2015'te Yerküre Yayınevi'nden, Özgür Öner çevirisiyle, 330 sayfa olarak yayımlandı; Türkçe adı bu kayıtta görünmüyor; D&R ve Kitapseç kataloglarında da kitap çıkmadı (Türkçe ad doğrulanmadı). Özgün baskı 336 sayfa.
 
 **Bir cümleyle.** Psikopatların bir bölümü hapishanede değil şirketlerdedir; çekicilikleri ve soğukkanlılıkları liderlik sanılır ve bu yanılgı onları yukarı taşır.
 

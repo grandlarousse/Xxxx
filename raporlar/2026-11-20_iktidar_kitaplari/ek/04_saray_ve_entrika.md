@@ -63,7 +63,7 @@ Ayrıştığı yer amaçtır. Greene'de zarafet, güç kazanmanın tekniğidir v
 
 ## Jules Mazarin'e atfedilir — Breviarium politicorum (Politikacının El Kitabı; Breviarium politicorum secundum rubricas Mazarinicas, 1684)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Mazarin Elması - Sherlock Holmes (Parıltı Yayınları); Mazarin Elması - Sherlock Holmes (Halk Kitabevi).*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
 **Künye.** Kardinal Jules Mazarin (1602–1661) İtalyan asıllı bir diplomattı; Richelieu'nün ardından Fransa'nın başbakanı oldu ve XIV. Louis'nin çocukluğunda ülkeyi yönetti. Kitap onun adını taşır ama onun kaleminden çıktığı kanıtlanmış değildir. Dili Latincedir; özgün adı "Mazarin'in başlıklarına göre politikacıların dua kitabı" anlamına gelir. İlk baskı 1684'te Köln'de, Mazarin'in ölümünden 23 yıl sonra çıktı; kataloglarda basımcı "Ioannes Selliba" olarak geçer. Türkçe baskısı bulunamadı (çeşitli adlarla yapılan üç aramada çıkmadı; doğrulanmadı). Fransızca (Arléa, çev. François Rosso, Umberto Eco'nun önsözüyle), İtalyanca, İspanyolca ve Portekizce baskıları vardır. Hacim: kısa maddelerden oluşan ince bir kitap, yaklaşık 100–150 sayfa (bellekten, doğrulanmadı).
 

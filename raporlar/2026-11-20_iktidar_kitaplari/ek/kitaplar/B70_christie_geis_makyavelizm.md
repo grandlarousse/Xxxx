@@ -1,6 +1,6 @@
 ## Richard Christie ve Florence L. Geis — Studies in Machiavellianism (Studies in Machiavellianism, 1970)
 
-**Künye.** Richard Christie, Columbia Üniversitesi'nde sosyal psikologdu; Florence L. Geis onun araştırma ortağıydı (Geis'in kurumu bu çalışmada bir kaynaktan görülmedi; doğrulanmadı). Kitap başka araştırmacıların da katkısıyla hazırlanmış bir araştırma derlemesidir. Özgün ad: *Studies in Machiavellianism*; dili İngilizce; ilk yayın 1970 (Academic Press, New York; sosyal psikoloji dizisi). Türkçe baskısı bulunamadı (ayrı arama yapılamadı, doğrulanmadı). Yaklaşık 415 sayfa.
+**Künye.** Richard Christie, Columbia Üniversitesi'nde sosyal psikologdu; Florence L. Geis onun araştırma ortağıydı (Geis'in kurumu bu çalışmada bir kaynaktan görülmedi; doğrulanmadı). Kitap başka araştırmacıların da katkısıyla hazırlanmış bir araştırma derlemesidir. Özgün ad: *Studies in Machiavellianism*; dili İngilizce; ilk yayın 1970 (Academic Press, New York; sosyal psikoloji dizisi). Türkçe baskısı bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te kayıt çıkmadı). Yaklaşık 415 sayfa.
 
 **Bir cümleyle.** Başkalarını araç olarak görme eğilimi ölçülebilir bir kişilik özelliğidir ve bu eğilimi yüksek olanlar, belirli koşullarda, gerçekten daha çok kazanır.
 

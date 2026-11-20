@@ -1,6 +1,6 @@
 ## Maria Konnikova — The Confidence Game (The Confidence Game: Why We Fall for It... Every Time, 2016)
 
-**Künye.** Konnikova (d. 1984, Moskova) Amerikalı yazar; Harvard'da psikoloji okudu, 2013'te Columbia Üniversitesi'nde Walter Mischel'in danışmanlığında psikoloji doktorasını aldı. Özgün dil İngilizce; ilk baskı 12 Ocak 2016, Viking. Türkçe baskısı bulunamadı; yazarın Türkçeye çevrilen kitabı "Büyük Blöf"tür (The Biggest Bluff, çev. Sibel Eraltan). Yaklaşık 340 sayfa (bellekten, doğrulanmadı).
+**Künye.** Konnikova (d. 1984, Moskova) Amerikalı yazar; Harvard'da psikoloji okudu, 2013'te Columbia Üniversitesi'nde Walter Mischel'in danışmanlığında psikoloji doktorasını aldı. Özgün dil İngilizce; ilk baskı 12 Ocak 2016, Viking. Türkçe baskısı bulunamadı; yazarın Türkçeye çevrilen kitapları "Büyük Blöf" (The Biggest Bluff, çev. Sibel Eraltan, Nepal Kitap) ve "Mastermind: Sherlock Holmes Gibi Düşünmek"tir (Domingo Yayınevi). Yaklaşık 340 sayfa (bellekten, doğrulanmadı).
 
 **Bir cümleyle.** Dolandırıcı aptalları değil, herkesi kandırır; çünkü kullandığı şey zekâ eksikliği değil, insanın güvenme, umut etme ve bir öyküye inanma ihtiyacıdır.
 

@@ -1,6 +1,6 @@
 ## Frans de Waal — Chimpanzee Politics: Power and Sex among Apes (Chimpanzee Politics, 1982)
 
-**Künye.** Frans de Waal (1948–2024), Hollanda doğumlu primatolog, yani maymun ve insansı maymun davranışı uzmanıdır; meslek yaşamının büyük bölümünü ABD'de Emory Üniversitesi'nde geçirdi. Özgün ad: *Chimpanzee Politics: Power and Sex among Apes*; ilk baskı 1982'de Londra'da İngilizce çıktı, aynı yıl Hollandaca baskısı da yayımlandı. Sonraki baskılarda yeni giriş ve sonsöz eklendi. Türkçe baskısı bulunamadı ("Şempanze Politikası" adıyla yapılan aramada kayıt çıkmadı). Yaklaşık 220 sayfa.
+**Künye.** Frans de Waal (1948–2024), Hollanda doğumlu primatolog, yani maymun ve insansı maymun davranışı uzmanıdır; meslek yaşamının büyük bölümünü ABD'de Emory Üniversitesi'nde geçirdi. Özgün ad: *Chimpanzee Politics: Power and Sex among Apes*; ilk baskı 1982'de Londra'da İngilizce çıktı, aynı yıl Hollandaca baskısı da yayımlandı. Sonraki baskılarda yeni giriş ve sonsöz eklendi. Türkçe baskısı bulunamadı ("Şempanze Politikası" adıyla yapılan aramada kayıt çıkmadı; D&R ve Kitapseç kataloglarında yazarın başka kitaplarının çevirileri var, bu kitap yok). Yaklaşık 220 sayfa.
 
 **Bir cümleyle.** Şempanzeler arasında iktidar kaba kuvvetle değil ittifakla kazanılır ve korunur; insan siyasetinin kökleri insanlıktan eskidir.
 

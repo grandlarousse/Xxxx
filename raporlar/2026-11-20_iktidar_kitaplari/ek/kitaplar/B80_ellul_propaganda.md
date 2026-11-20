@@ -1,6 +1,6 @@
 ## Jacques Ellul — Propagandes (Propagandes, 1962)
 
-**Künye.** Jacques Ellul (1912–1994) Bordeaux Üniversitesi'nde kurumlar tarihi ve sosyolojisi profesörü, Protestan bir meslekten olmayan ilahiyatçı ve Direniş üyesidir; "teknik toplum" eleştirisiyle tanınır. Özgün adı *Propagandes*, dili Fransızca, ilk yayın 1962. İngilizcesi *Propaganda: The Formation of Men's Attitudes*, çev. Konrad Kellen ve Jean Lerner, 1965 (Vintage baskısı 1973, yaklaşık 320 sayfa). Türkçe baskısı bulunamadı; tek aramaya dayanıyor, kesin değil (doğrulanmadı).
+**Künye.** Jacques Ellul (1912–1994) Bordeaux Üniversitesi'nde kurumlar tarihi ve sosyolojisi profesörü, Protestan bir meslekten olmayan ilahiyatçı ve Direniş üyesidir; "teknik toplum" eleştirisiyle tanınır. Özgün adı *Propagandes*, dili Fransızca, ilk yayın 1962. İngilizcesi *Propaganda: The Formation of Men's Attitudes*, çev. Konrad Kellen ve Jean Lerner, 1965 (Vintage baskısı 1973, yaklaşık 320 sayfa). Türkçe baskısı bulunamadı: kitapçı kataloğu taramasında Ellul'ün başka kitapları çıkıyor (Teknoloji Toplumu, Sözün Düşüşü; Paradigma Yayınları), bu kitap çıkmıyor.
 
 **Bir cümleyle.** Propaganda bir rejimin yalan makinesi değil, teknik toplumun zorunlu ürünüdür: amacı fikir değiştirmek değil insanı eyleme ve uyuma sokmaktır ve birey ona ihtiyaç duyar.
 

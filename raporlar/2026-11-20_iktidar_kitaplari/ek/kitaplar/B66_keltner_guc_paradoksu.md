@@ -1,6 +1,6 @@
 ## Dacher Keltner — The Power Paradox: How We Gain and Lose Influence (The Power Paradox, 2016)
 
-**Künye.** Dacher Keltner, Kaliforniya Üniversitesi Berkeley'de psikoloji profesörü ve Greater Good Science Center'ın kurucu yöneticisidir; duygular ve güç üzerine deneysel çalışmalarıyla tanınır. Özgün ad: *The Power Paradox: How We Gain and Lose Influence*; dili İngilizce; ilk yayın 2016 (Penguin Press, New York). Türkçe baskısı bulunamadı; bir web sayfasında kitap "Güç Paradoksu" diye anılıyor, ama yayınevi ve çevirmen kaydı görülmedi (doğrulanmadı). Yaklaşık 200 sayfa.
+**Künye.** Dacher Keltner, Kaliforniya Üniversitesi Berkeley'de psikoloji profesörü ve Greater Good Science Center'ın kurucu yöneticisidir; duygular ve güç üzerine deneysel çalışmalarıyla tanınır. Özgün ad: *The Power Paradox: How We Gain and Lose Influence*; dili İngilizce; ilk yayın 2016 (Penguin Press, New York). Türkçe baskısı bulunamadı; bir web sayfasında kitap "Güç Paradoksu" diye anılıyor, ama yayınevi ve çevirmen kaydı görülmedi; D&R ve Kitapseç kataloglarında da kayıt çıkmadı. Yaklaşık 200 sayfa.
 
 **Bir cümleyle.** Gücü, başkalarının yararına davranarak kazanırız; ama güç elimize geçince tam da bizi yükselten bu nitelikleri aşındırır.
 

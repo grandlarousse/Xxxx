@@ -1,6 +1,6 @@
 ## Robert A. Caro — The Power Broker: Robert Moses and the Fall of New York (The Power Broker, 1974)
 
-**Künye.** Robert A. Caro Amerikalı gazeteci ve biyografi yazarıdır; 1960'ların başında Newsday muhabiriyken Robert Moses'ın bir köprü projesini araştırdı ve bu kitap oradan doğdu. Özgün dil İngilizce; ilk yayın 16 Eylül 1974, Knopf; 1975'te Pulitzer Ödülü aldı. Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). 1.336 sayfa.
+**Künye.** Robert A. Caro Amerikalı gazeteci ve biyografi yazarıdır; 1960'ların başında Newsday muhabiriyken Robert Moses'ın bir köprü projesini araştırdı ve bu kitap oradan doğdu. Özgün dil İngilizce; ilk yayın 16 Eylül 1974, Knopf; 1975'te Pulitzer Ödülü aldı. Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). 1.336 sayfa.
 
 **Bir cümleyle.** Robert Moses hiçbir seçimi kazanmadan New York'un parklarını, yollarını ve köprülerini kırk yılı aşkın süre yönetti; kitap bu gücün nasıl kurulduğunu, kullanıldığını ve kente neye mal olduğunu anlatır.
 

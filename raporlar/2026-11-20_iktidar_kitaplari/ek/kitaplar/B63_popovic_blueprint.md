@@ -1,6 +1,6 @@
 ## Srdja Popovic — Blueprint for Revolution (Blueprint for Revolution, 2015)
 
-**Künye.** Srdja (Srđa) Popović (d. 1973, Belgrad) Sırp aktivisttir; Slobodan Miloşeviç'in düşmesinde payı olan öğrenci hareketi Otpor'un liderlerindendi ve 2003'te kurduğu CANVAS (Uygulamalı Şiddetsiz Eylem ve Stratejiler Merkezi) adlı eğitim kuruluşunu yönetiyor. Kitabı Matthew Miller ile birlikte İngilizce yazdı; 2015'te ABD'de Spiegel & Grau yayımladı. Tam alt başlığı sütlaçtan ve Lego adamlardan söz eder. Kitabın Türkiye'de de yayımlandığı belirtiliyor, ancak Türkçe adı, yayınevi ve çevirmeni doğrulanmadı. Yaklaşık 280 sayfa (doğrulanmadı).
+**Künye.** Srdja (Srđa) Popović (d. 1973, Belgrad) Sırp aktivisttir; Slobodan Miloşeviç'in düşmesinde payı olan öğrenci hareketi Otpor'un liderlerindendi ve 2003'te kurduğu CANVAS (Uygulamalı Şiddetsiz Eylem ve Stratejiler Merkezi) adlı eğitim kuruluşunu yönetiyor. Kitabı Matthew Miller ile birlikte İngilizce yazdı; 2015'te ABD'de Spiegel & Grau yayımladı. Tam alt başlığı sütlaçtan ve Lego adamlardan söz eder. Türkçesi: "Devrim Planı", Paloma Yayınevi (kitapçı kataloğu taraması); çevirmeni doğrulanmadı. Yaklaşık 280 sayfa (doğrulanmadı).
 
 **Bir cümleyle.** Diktatörleri deviren şey kahramanlık ya da öfke değil; küçük kazanımlar, mizah, birlik ve iyi bir plandır ve bunlar öğrenilebilir.
 

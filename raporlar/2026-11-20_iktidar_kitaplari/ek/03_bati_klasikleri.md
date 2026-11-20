@@ -79,7 +79,7 @@ Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Thukydides — Peloponnessos Savaşları (Historiai / History of the Peloponnesian War, MÖ 5. yüzyıl sonu)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Thukydides Tuzağı Amerika ile Çin Savaşa Mahkûm mu? (İş Bankası Kültür Yayınları); Peloponnessos Savaşları; Savaşı Nasıl Düşünmeli? Dış Politikaya Dair Kad...; Thukydides Ali Hanoğlu Bilgeoğuz Yayınları.*
+*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Peloponnessos Savaşları.*
 
 **Künye.** Thukydides Atinalı bir generaldir; anlattığı savaşta bizzat komutanlık yapmış, sonra sürgüne gitmiştir. Yani olayları içeriden ve iki tarafı da görerek yazar. Dil: Eski Yunanca. Yazılış: savaş yıllarında başlar, MÖ 411 olaylarında yarım kalır. Türkçe baskı: *Peloponnessos Savaşları*, Belge Yayınları, çev. Furkan Akderin, İstanbul 2010 (2. baskı 2017). Başka çevirilerin künyesi doğrulanmadı. Hacim: sekiz kitap; kalın bir cilt.
 
@@ -107,7 +107,7 @@ Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Aristoteles — Politika (Politika, MÖ 4. yüzyıl)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Aristoteles Yazıları Etik ve Politika Üzerine (Sentez Yayınları); Politika (Remzi Kitabevi); Politika (Say Yayınları); Politika (Dergah Yayınları); Politika (Ark Kitapları).*
+*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Politika (Remzi Kitabevi); Politika (Say Yayınları); Politika (Dergah Yayınları); Politika (Ark Kitapları); Politika.*
 
 **Künye.** Aristoteles Platon'un öğrencisi, Büyük İskender'in hocası ve Atina'daki Lykeion okulunun kurucusudur; iktidar peşindeki biri olarak değil, rejimleri inceleyen bir araştırmacı olarak yazar. Özgün ad: Πολιτικά (Eski Yunanca). Yazılış: MÖ 4. yüzyılın ikinci yarısı; ders notlarından derlendiği düşünülür. Türkçe baskı: *Politika*, Remzi Kitabevi, çev. Mete Tunçay (ilk baskı 1975; İngilizceden çevrilmiştir), yaklaşık 250 sayfa. Hacim: sekiz kitap.
 
@@ -135,7 +135,7 @@ Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Aristoteles — Retorik (Tekhne rhetorike, MÖ 4. yüzyıl)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Retorik (İş Bankası Kültür Yayınları); Retorik (Say Yayınları); Retorik (Rusça) Aristoteles (Aristo) (Gece Kitaplığı); Retorik; Retorik-Hasan Ali Yücel Klasikler.*
+*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Retorik (İş Bankası Kültür Yayınları); Retorik (Say Yayınları); Retorik; Retorik-Hasan Ali Yücel Klasikler.*
 
 **Künye.** Aristoteles Platon'un öğrencisi ve Lykeion okulunun kurucusudur; hatip olarak değil, iknanın nasıl işlediğini inceleyen bir filozof olarak yazar. Özgün ad: Τέχνη ῥητορική (Eski Yunanca). Yazılış: MÖ 4. yüzyıl; Atina'daki iki ayrı döneminde verdiği derslerin notları olduğu düşünülür. Türkçe baskı: *Retorik*, Yapı Kredi Yayınları, çev. Mehmet H. Doğan (2018'de 16. baskı). Hacim: üç kitap; orta boy bir cilt (sayfa sayısı doğrulanmadı).
 

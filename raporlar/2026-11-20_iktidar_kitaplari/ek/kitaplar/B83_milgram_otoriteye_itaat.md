@@ -1,6 +1,6 @@
 ## Stanley Milgram — Obedience to Authority (Obedience to Authority: An Experimental View, 1974)
 
-**Künye.** Stanley Milgram (1933–1984; yıllar bellekten) Amerikalı sosyal psikologdur; deneyleri Yale Üniversitesi'nde genç bir öğretim üyesiyken yaptı. Özgün dili İngilizce; ilk yayın 1974, Harper & Row (İngiltere'de Tavistock); 219 sayfa. "Otoriteye İtaat" adlı bir Türkçe baskı doğrulanamadı. Türkçede Milgram imzalı "Deney" adlı bir kitap var (Kafe Kültür Yayıncılık, 192 sayfa; bir akademik kaynakçaya göre çev. Melis Olçum ve K. Uğur Tüfekçi, 2015); bunun bu kitabın çevirisi olduğu doğrulanmadı.
+**Künye.** Stanley Milgram (1933–1984) Amerikalı sosyal psikologdur; deneyleri Yale Üniversitesi'nde genç bir öğretim üyesiyken yaptı. Özgün dili İngilizce; ilk yayın 1974, Harper & Row (İngiltere'de Tavistock); 219 sayfa. "Otoriteye İtaat" adlı bir Türkçe baskı doğrulanamadı. Türkçede Milgram imzalı "Deney" adlı bir kitap var (Kafe Kültür Yayıncılık, 192 sayfa; bir akademik kaynakçaya göre çev. Melis Olçum ve K. Uğur Tüfekçi, 2015); tanıtım metni kitabı itaat deneylerini anlatan "ünlü yapıt" diye sunuyor, yani büyük olasılıkla bu kitabın çevirisidir; ama künyede özgün ad görülemedi (doğrulanmadı).
 
 **Bir cümleyle.** Sıradan insanlar, meşru gördükleri bir otorite istediğinde, vicdanlarına aykırı olsa da bir yabancıya acı vermeyi sürdürür; belirleyici olan kişilik değil durumdur.
 

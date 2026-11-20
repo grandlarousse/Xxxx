@@ -1,6 +1,6 @@
 ## Paul Babiak ve Robert D. Hare — Snakes in Suits: When Psychopaths Go to Work (Snakes in Suits, 2006)
 
-**Künye.** Paul Babiak, şirketlere danışmanlık yapan bir endüstri ve örgüt psikoloğudur. Robert D. Hare, psikopatiyi ölçmek için kullanılan Hare Psikopati Kontrol Listesi'ni (PCL-R) geliştiren Kanadalı adli psikologdur. Özgün ad: *Snakes in Suits: When Psychopaths Go to Work* ("Takım elbiseli yılanlar: psikopatlar işe gidince"); dili İngilizce; ilk yayın Mayıs 2006 (HarperBusiness). Türkçe baskı: bir baskı listesine göre 2015'te Yerküre Yayınevi'nden, Özgür Öner çevirisiyle, 330 sayfa olarak yayımlandı; Türkçe adı bu kayıtta görünmüyor (doğrulanmadı). Özgün baskı 336 sayfa.
+**Künye.** Paul Babiak, şirketlere danışmanlık yapan bir endüstri ve örgüt psikoloğudur. Robert D. Hare, psikopatiyi ölçmek için kullanılan Hare Psikopati Kontrol Listesi'ni (PCL-R) geliştiren Kanadalı adli psikologdur. Özgün ad: *Snakes in Suits: When Psychopaths Go to Work* ("Takım elbiseli yılanlar: psikopatlar işe gidince"); dili İngilizce; ilk yayın Mayıs 2006 (HarperBusiness). Türkçe baskı: bir baskı listesine göre 2015'te Yerküre Yayınevi'nden, Özgür Öner çevirisiyle, 330 sayfa olarak yayımlandı; Türkçe adı bu kayıtta görünmüyor; D&R ve Kitapseç kataloglarında da kitap çıkmadı (Türkçe ad doğrulanmadı). Özgün baskı 336 sayfa.
 
 **Bir cümleyle.** Psikopatların bir bölümü hapishanede değil şirketlerdedir; çekicilikleri ve soğukkanlılıkları liderlik sanılır ve bu yanılgı onları yukarı taşır.
 

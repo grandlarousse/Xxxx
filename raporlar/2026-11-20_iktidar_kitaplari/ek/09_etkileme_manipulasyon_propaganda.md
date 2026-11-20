@@ -81,7 +81,7 @@ Ayrışma yöntemde ve amaçtadır. Greene tarihsel öykülerden kural çıkarı
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Cialdini (d. 1945) Amerikalı sosyal psikolog; Arizona Eyalet Üniversitesi'nde psikoloji ve pazarlama alanında emekli profesör, "Influence" (1984) kitabının yazarı. Özgün dil İngilizce; ilk baskı Eylül 2016. Türkçe baskısı bu oturumda bulunamadı (doğrulanmadı; arama özetlerinde Türkçe künye çıkmadı). İngiliz ciltsiz baskısı 432 sayfa; bunun önemli bir kısmı not ve kaynakçadır.
+**Künye.** Cialdini (d. 1945) Amerikalı sosyal psikolog; Arizona Eyalet Üniversitesi'nde psikoloji ve pazarlama alanında emekli profesör, "Influence" (1984) kitabının yazarı. Özgün dil İngilizce; ilk baskı Eylül 2016. Türkçesi: *İknaya Açılan Kapı*, MediaCat Yayıncılık, 2017, çeviren Taner Gezer (kitapçı kataloğu taraması). İngiliz ciltsiz baskısı 432 sayfa; bunun önemli bir kısmı not ve kaynakçadır.
 
 **Bir cümleyle.** İkna, mesajın kendisinden önce, dinleyenin dikkatinin nereye çevrildiği anda kazanılır ya da kaybedilir.
 
@@ -409,7 +409,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Maurer (1906–1981) Amerikalı dilbilimci; 1937'den 1972'ye dek Louisville Üniversitesi'nde profesördü, suçluların ve yeraltı dünyasının argosu üzerine iki yüzden fazla yazı yayımladı. Özgün dil İngilizce; ilk baskı 1940, Bobbs-Merrill. 1999'da Luc Sante'nin önsözüyle yeniden basıldı. Türkçe baskısı bulunamadı (ayrı bir arama yapılamadı; doğrulanmadı). Yaklaşık 300 sayfa (bellekten, doğrulanmadı).
+**Künye.** Maurer (1906–1981) Amerikalı dilbilimci; 1937'den 1972'ye dek Louisville Üniversitesi'nde profesördü, suçluların ve yeraltı dünyasının argosu üzerine iki yüzden fazla yazı yayımladı. Özgün dil İngilizce; ilk baskı 1940, Bobbs-Merrill. 1999'da Luc Sante'nin önsözüyle yeniden basıldı. Türkçe baskısı bulunamadı (kitapçı kataloğu taramasında yazar adıyla çıkmadı). Yaklaşık 300 sayfa (bellekten, doğrulanmadı).
 
 **Bir cümleyle.** Büyük dolandırıcılık bir hırsızlık değil, kurbanın kendi açgözlülüğü üzerine kurulmuş, rolleri ve aşamaları belli bir tiyatrodur.
 
@@ -443,7 +443,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Konnikova (d. 1984, Moskova) Amerikalı yazar; Harvard'da psikoloji okudu, 2013'te Columbia Üniversitesi'nde Walter Mischel'in danışmanlığında psikoloji doktorasını aldı. Özgün dil İngilizce; ilk baskı 12 Ocak 2016, Viking. Türkçe baskısı bulunamadı; yazarın Türkçeye çevrilen kitabı "Büyük Blöf"tür (The Biggest Bluff, çev. Sibel Eraltan). Yaklaşık 340 sayfa (bellekten, doğrulanmadı).
+**Künye.** Konnikova (d. 1984, Moskova) Amerikalı yazar; Harvard'da psikoloji okudu, 2013'te Columbia Üniversitesi'nde Walter Mischel'in danışmanlığında psikoloji doktorasını aldı. Özgün dil İngilizce; ilk baskı 12 Ocak 2016, Viking. Türkçe baskısı bulunamadı; yazarın Türkçeye çevrilen kitapları "Büyük Blöf" (The Biggest Bluff, çev. Sibel Eraltan, Nepal Kitap) ve "Mastermind: Sherlock Holmes Gibi Düşünmek"tir (Domingo Yayınevi). Yaklaşık 340 sayfa (bellekten, doğrulanmadı).
 
 **Bir cümleyle.** Dolandırıcı aptalları değil, herkesi kandırır; çünkü kullandığı şey zekâ eksikliği değil, insanın güvenme, umut etme ve bir öyküye inanma ihtiyacıdır.
 
@@ -532,7 +532,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Jacques Ellul (1912–1994) Bordeaux Üniversitesi'nde kurumlar tarihi ve sosyolojisi profesörü, Protestan bir meslekten olmayan ilahiyatçı ve Direniş üyesidir; "teknik toplum" eleştirisiyle tanınır. Özgün adı *Propagandes*, dili Fransızca, ilk yayın 1962. İngilizcesi *Propaganda: The Formation of Men's Attitudes*, çev. Konrad Kellen ve Jean Lerner, 1965 (Vintage baskısı 1973, yaklaşık 320 sayfa). Türkçe baskısı bulunamadı; tek aramaya dayanıyor, kesin değil (doğrulanmadı).
+**Künye.** Jacques Ellul (1912–1994) Bordeaux Üniversitesi'nde kurumlar tarihi ve sosyolojisi profesörü, Protestan bir meslekten olmayan ilahiyatçı ve Direniş üyesidir; "teknik toplum" eleştirisiyle tanınır. Özgün adı *Propagandes*, dili Fransızca, ilk yayın 1962. İngilizcesi *Propaganda: The Formation of Men's Attitudes*, çev. Konrad Kellen ve Jean Lerner, 1965 (Vintage baskısı 1973, yaklaşık 320 sayfa). Türkçe baskısı bulunamadı: kitapçı kataloğu taramasında Ellul'ün başka kitapları çıkıyor (Teknoloji Toplumu, Sözün Düşüşü; Paradigma Yayınları), bu kitap çıkmıyor.
 
 **Bir cümleyle.** Propaganda bir rejimin yalan makinesi değil, teknik toplumun zorunlu ürünüdür: amacı fikir değiştirmek değil insanı eyleme ve uyuma sokmaktır ve birey ona ihtiyaç duyar.
 
@@ -588,7 +588,7 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Robert Jay Lifton (1926–2025) Amerikalı psikiyatrdır; 1951–1953 arasında Japonya ve Kore'de hava kuvvetleri psikiyatrı olarak görev yaptı, sonra savaşın ve siyasal şiddetin psikolojisini inceledi. Özgün dili İngilizce; ilk yayın 1961, W. W. Norton; 1989'da University of North Carolina Press yeni bir önsözle yeniden bastı (524 sayfa). Türkçe baskısı bulunamadı; tek aramaya dayanıyor, kesin değil (doğrulanmadı).
+**Künye.** Robert Jay Lifton (1926–2025) Amerikalı psikiyatrdır; 1951–1953 arasında Japonya ve Kore'de hava kuvvetleri psikiyatrı olarak görev yaptı, sonra savaşın ve siyasal şiddetin psikolojisini inceledi. Özgün dili İngilizce; ilk yayın 1961, W. W. Norton; 1989'da University of North Carolina Press yeni bir önsözle yeniden bastı (524 sayfa). Türkçe baskısı bulunamadı (kitapçı kataloğu taramasında yazar adıyla çıkmadı).
 **Bir cümleyle.** "Beyin yıkama" büyülü bir teknik değildir; kapalı bir ortamda suçluluk, itiraf ve yeniden eğitimle kimliği söküp yeniden kuran, sekiz özelliğiyle tanınabilen bir süreçtir.
 
 **Bağlam.** Kore Savaşı'nda esir Amerikan askerlerinin yaptığı itiraflar ABD'de "beyin yıkama" paniği yaratmıştı. Lifton'ın araştırması 1953'te dönen esirlerle görüşmelerle başladı; ardından Hong Kong'da Çin'den çıkanlarla aylarca süren görüşmeler yaptı. Amacı korku söylemini bırakıp süreci klinik gözlemle anlatmaktı. 1989 önsözünde modelin Amerikan dinî kültlerine uygulanmasını tartışır.
@@ -613,9 +613,9 @@ Ayrışma ölçekte ve gerekçededir. Greene sarayı, yani yüz yüze ilişkiyi 
 
 ## Stanley Milgram — Obedience to Authority (Obedience to Authority: An Experimental View, 1974)
 
-*Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Düşünme Labirentleri (Gece Kitaplığı).*
+*Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Stanley Milgram (1933–1984; yıllar bellekten) Amerikalı sosyal psikologdur; deneyleri Yale Üniversitesi'nde genç bir öğretim üyesiyken yaptı. Özgün dili İngilizce; ilk yayın 1974, Harper & Row (İngiltere'de Tavistock); 219 sayfa. "Otoriteye İtaat" adlı bir Türkçe baskı doğrulanamadı. Türkçede Milgram imzalı "Deney" adlı bir kitap var (Kafe Kültür Yayıncılık, 192 sayfa; bir akademik kaynakçaya göre çev. Melis Olçum ve K. Uğur Tüfekçi, 2015); bunun bu kitabın çevirisi olduğu doğrulanmadı.
+**Künye.** Stanley Milgram (1933–1984) Amerikalı sosyal psikologdur; deneyleri Yale Üniversitesi'nde genç bir öğretim üyesiyken yaptı. Özgün dili İngilizce; ilk yayın 1974, Harper & Row (İngiltere'de Tavistock); 219 sayfa. "Otoriteye İtaat" adlı bir Türkçe baskı doğrulanamadı. Türkçede Milgram imzalı "Deney" adlı bir kitap var (Kafe Kültür Yayıncılık, 192 sayfa; bir akademik kaynakçaya göre çev. Melis Olçum ve K. Uğur Tüfekçi, 2015); tanıtım metni kitabı itaat deneylerini anlatan "ünlü yapıt" diye sunuyor, yani büyük olasılıkla bu kitabın çevirisidir; ama künyede özgün ad görülemedi (doğrulanmadı).
 
 **Bir cümleyle.** Sıradan insanlar, meşru gördükleri bir otorite istediğinde, vicdanlarına aykırı olsa da bir yabancıya acı vermeyi sürdürür; belirleyici olan kişilik değil durumdur.
 

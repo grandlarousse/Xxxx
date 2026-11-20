@@ -118,18 +118,7 @@
   }
  ],
  "A09_castiglione_sarayli": [],
- "A10_mazarin_breviarium": [
-  {
-   "ad": "Mazarin Elması - Sherlock Holmes",
-   "yazar": "",
-   "yayinevi": "Parıltı Yayınları"
-  },
-  {
-   "ad": "Mazarin Elması - Sherlock Holmes",
-   "yazar": "",
-   "yayinevi": "Halk Kitabevi"
-  }
- ],
+ "A10_mazarin_breviarium": [],
  "A11_chesterfield_mektuplar": [],
  "A12_la_rochefoucauld_ozdeyisler": [
   {
@@ -292,21 +281,6 @@
  ],
  "A20_kutadgu_bilig": [
   {
-   "ad": "Ausgewaehtle Abschnitte Aus Kutadgu Bilig (Almanca)",
-   "yazar": "",
-   "yayinevi": "Profil Kitap"
-  },
-  {
-   "ad": "Dini ve Eğitsel Açıdan Kutadgu Bilig",
-   "yazar": "",
-   "yayinevi": "Nobel Akademik Yayıncılık"
-  },
-  {
-   "ad": "Kayıp İnci Kozalak Kutadgu Bilig",
-   "yazar": "Osman Azman",
-   "yayinevi": "Çınaraltı Yayınları"
-  },
-  {
    "ad": "Kutadgu Bilig",
    "yazar": "",
    "yayinevi": "İskele Yayıncılık"
@@ -330,6 +304,21 @@
    "ad": "Kutadgu Bilig",
    "yazar": "",
    "yayinevi": "Türkiye Diyanet Vakfı Yayınları"
+  },
+  {
+   "ad": "Kutadgu Bilig - Mutluluk Veren Bilgi",
+   "yazar": "",
+   "yayinevi": "Akademik Kitaplar"
+  },
+  {
+   "ad": "Kutadgu Bilig - Seçmeler Öykü",
+   "yazar": "",
+   "yayinevi": "Kapı Yayınları"
+  },
+  {
+   "ad": "Kutadgu Bilig Boşnakça Seçme Hikayeler",
+   "yazar": "",
+   "yayinevi": "Profil Kitap"
   }
  ],
  "A21_pfeffer_power": [
@@ -342,32 +331,10 @@
  "A22_pfeffer_7_kural": [],
  "A23_korda_power": [],
  "A24_siu_craft_of_power": [],
- "A25_alinsky_rules": [
-  {
-   "ad": "Düşünce Düşleri '21.Yüzyıl İçin Radikal Teori'",
-   "yazar": "Michael Albert",
-   "yayinevi": ""
-  },
-  {
-   "ad": "Kadınlarda DEHB İçin Radikal Bir Rehber",
-   "yazar": "Michelle Frank",
-   "yayinevi": ""
-  },
-  {
-   "ad": "Yeni Radikal Aydınlanma - Ortak Bir Dünya İçin ...",
-   "yazar": "Marina Garces",
-   "yayinevi": ""
-  }
- ],
+ "A25_alinsky_rules": [],
  "A26_dictators_handbook": [],
  "A27_matthews_hardball": [],
- "A28_luttwak_coup": [
-  {
-   "ad": "Çin`in Yükselişi",
-   "yazar": "",
-   "yayinevi": "Doruk Yayınları"
-  }
- ],
+ "A28_luttwak_coup": [],
  "A29_cialdini_influence": [
   {
    "ad": "İknanın Psikolojisi",
@@ -666,32 +633,12 @@
  ],
  "B21_thukydides_peloponnesos": [
   {
-   "ad": "Thukydides Tuzağı Amerika ile Çin Savaşa Mahkûm mu?",
-   "yazar": "",
-   "yayinevi": "İş Bankası Kültür Yayınları"
-  },
-  {
    "ad": "Peloponnessos Savaşları",
    "yazar": "Thukydides",
-   "yayinevi": ""
-  },
-  {
-   "ad": "Savaşı Nasıl Düşünmeli? Dış Politikaya Dair Kad...",
-   "yazar": "Thukydides",
-   "yayinevi": ""
-  },
-  {
-   "ad": "Thukydides Ali Hanoğlu Bilgeoğuz Yayınları",
-   "yazar": "",
    "yayinevi": ""
   }
  ],
  "B22_aristoteles_politika": [
-  {
-   "ad": "Aristoteles Yazıları Etik ve Politika Üzerine",
-   "yazar": "",
-   "yayinevi": "Sentez Yayınları"
-  },
   {
    "ad": "Politika",
    "yazar": "",
@@ -738,11 +685,6 @@
    "ad": "Retorik",
    "yazar": "Aristoteles",
    "yayinevi": "Say Yayınları"
-  },
-  {
-   "ad": "Retorik (Rusça) Aristoteles (Aristo)",
-   "yazar": "",
-   "yayinevi": "Gece Kitaplığı"
   },
   {
    "ad": "Retorik",
@@ -814,16 +756,6 @@
    "ad": "Gönüllü Kölelik Üzerine Söylev",
    "yazar": "",
    "yayinevi": "Dorlion Yayınevi"
-  },
-  {
-   "ad": "Siyasi İtaat İçin Ebedi Yöntembilim",
-   "yazar": "",
-   "yayinevi": "Gece Kitaplığı"
-  },
-  {
-   "ad": "Timeless Methodology for the Political Obedience",
-   "yazar": "",
-   "yayinevi": "Gece Kitaplığı"
   },
   {
    "ad": "Diktatöre Karşı - Gönüllü Kölelik Üzerine Söylev",
@@ -1092,24 +1024,12 @@
  ],
  "B49_jay_management_machiavelli": [],
  "B50_pfeffer_managing_with_power": [],
- "B51_bing_machiavelli_ne_yapardi": [
-  {
-   "ad": "Roma AŞ",
-   "yazar": "",
-   "yayinevi": "Koç Üniversitesi Yayınları"
-  }
- ],
+ "B51_bing_machiavelli_ne_yapardi": [],
  "B52_rubin_princessa": [],
  "B53_v_mafia_manager": [],
  "B54_gruenfeld_acting_with_power": [],
  "B55_powell_new_machiavelli": [],
- "B56_morris_new_prince": [
-  {
-   "ad": "Klasiklerle Tanışıyorum-Moby Dick",
-   "yazar": "",
-   "yayinevi": ""
-  }
- ],
+ "B56_morris_new_prince": [],
  "B57_riordon_plunkitt": [],
  "B58_neustadt_presidential_power": [],
  "B59_riker_political_manipulation": [],
@@ -1201,13 +1121,7 @@
   }
  ],
  "B82_lifton_dusunce_reformu": [],
- "B83_milgram_otoriteye_itaat": [
-  {
-   "ad": "Düşünme Labirentleri",
-   "yazar": "",
-   "yayinevi": "Gece Kitaplığı"
-  }
- ],
+ "B83_milgram_otoriteye_itaat": [],
  "B84_lukes_radikal_gorus": [
   {
    "ad": "İktidar Radikal Bir Görüş",
@@ -1228,11 +1142,6 @@
   }
  ],
  "B86_arendt_siddet_uzerine": [
-  {
-   "ad": "Şiddet Üzerine Düşünceler",
-   "yazar": "Georges Sorel",
-   "yayinevi": ""
-  },
   {
    "ad": "Şiddet Üzerine Seçme Eserler 6",
    "yazar": "Hannah Arendt",

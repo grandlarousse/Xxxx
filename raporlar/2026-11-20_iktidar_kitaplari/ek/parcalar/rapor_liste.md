@@ -33,7 +33,7 @@
 **Saray, salon ve entrika kitapları** (`ek/04_saray_ve_entrika.md`)
 
 - ★ **Baldassare Castiglione — Il libro del Cortegiano**: Kusursuz saraylı; silahta, sözde ve sanatta usta olup bütün bunları hiç çaba harcamıyormuş gibi yapan ve kazandığı gözdeliği hükümdarını iyiye yöneltmek için kullanan kişidir.
-- ★ **Jules Mazarin'e atfedilir — Breviarium politicorum** *(TR)*: İktidar, başkalarına gösterdiğin yüzü baştan sona kurmakla kazanılır ve korunur: kendini ve başkalarını gözle, rol yap, gizle, kimseye güvenme, herkesi öv.
+- ★ **Jules Mazarin'e atfedilir — Breviarium politicorum**: İktidar, başkalarına gösterdiğin yüzü baştan sona kurmakla kazanılır ve korunur: kendini ve başkalarını gözle, rol yap, gizle, kimseye güvenme, herkesi öv.
 - ★ **Lord Chesterfield — Letters to His Son**: Dünyada yükselmek için bilgi yetmez; insanın hoşa gitmeyi, kendini tutmayı ve karşısındakini okumayı da bir zanaat gibi öğrenmesi gerekir.
 - ★ **François de La Rochefoucauld — Özdeyişler** *(TR)*: Erdem dediğimiz şeylerin çoğu, özsevginin kılık değiştirmiş hâlidir; insan en çok da kendini kandırır.
 - **Eustache de Refuge — Traicté de la cour, ou instruction des courtisans**: Sarayda yükselmek yetenek kadar insanları, özellikle hükümdarı ve çevresindekileri doğru okumaya ve her duruma uygun davranmaya bağlıdır; bu da öğrenilebilir bir beceridir.
@@ -84,19 +84,19 @@
 - ★ **Michael Korda — Power! How to Get It, How to Use It**: Büro hayatı bir güç oyunudur ve bu oyun büyük kararlarla değil masanın yeri, telefonun sayısı, toplantıya geliş saati gibi küçük işaretlerle oynanır.
 - ★ **R. G. H. Siu — The Craft of Power**: Güç bir zanaattır: duruşu, kuralları ve el becerisi vardır; onu öğrenen kişi sonunda gücün ötesindeki soruyla, acıyı azaltma sorumluluğuyla yüzleşmelidir.
 - **Antony Jay — Management and Machiavelli**: Yönetim yeni bir bilim değil, eski yönetme sanatının devamıdır; büyük şirket bir devlet gibi okunursa anlaşılır.
-- **Stanley Bing — What Would Machiavelli Do?** *(TR)*: Tepeye çıkanlar iyi oldukları için değil, acımasız oldukları için çıkar; kitap bunu bir "nasıl yapılır" kılavuzu kılığında, alay ederek söyler.
+- **Stanley Bing — What Would Machiavelli Do?**: Tepeye çıkanlar iyi oldukları için değil, acımasız oldukları için çıkar; kitap bunu bir "nasıl yapılır" kılavuzu kılığında, alay ederek söyler.
 - **Harriet Rubin — The Princessa**: Kadın, erkeklerin savaş kurallarıyla dövüşürse kaybeder; kendi güçlerine dayanan ayrı bir strateji kurarsa üstün gelir.
 - **"V." — The Mafia Manager**: Mafya, dünyanın en eski ve en dayanıklı "şirketlerinden" biridir; bir yönetici onun kurallarından sadakat, disiplin ve ihtiyat öğrenebilir.
 - **Deborah Gruenfeld — Acting with Power**: Güç bir kişilik özelliği değil, başkasının hikâyesinde oynadığımız bir roldür; iyi oynamak da öğrenilir.
 
 **Siyasette güç: taktik, darbe, direniş** (`ek/08_siyasette_guc.md`)
 
-- ★ **Saul D. Alinsky — Radikaller İçin Kurallar** *(TR)*: Parası ve makamı olmayanların tek gücü örgütlü sayılarıdır; bu güç ahlak vaazıyla değil, karşı tarafı kendi kurallarıyla sıkıştıran, eğlenceli ve yaratıcı taktiklerle kullanılır.
+- ★ **Saul D. Alinsky — Radikaller İçin Kurallar**: Parası ve makamı olmayanların tek gücü örgütlü sayılarıdır; bu güç ahlak vaazıyla değil, karşı tarafı kendi kurallarıyla sıkıştıran, eğlenceli ve yaratıcı taktiklerle kullanılır.
 - ★ **Bruce Bueno de Mesquita ve Alastair Smith — The Dictator's Handbook**: Liderler iyi ya da kötü oldukları için değil, iktidarda kalmak için kaç kişiyi memnun etmek zorunda olduklarına göre davranır; kötü yönetim çoğu zaman lider için iyi siyasettir.
 - ★ **Chris Matthews — Hardball**: Siyaset bir fikir yarışı değil, ilişki kurma, iyilik alıp verme ve itibar yönetme oyunudur; kurallarını bilen kazanır.
-- ★ **Edward N. Luttwak — Coup d'État: A Practical Handbook** *(TR)*: Darbe bir kitle hareketi ya da savaş değil, devlet aygıtının küçük ama kritik bir parçasına sızıp bu parçayı hükümeti geri kalanından koparmak için kullanma tekniğidir; koşulları ve adımları soğukkanlılıkla tarif edilebilir.
+- ★ **Edward N. Luttwak — Coup d'État: A Practical Handbook**: Darbe bir kitle hareketi ya da savaş değil, devlet aygıtının küçük ama kritik bir parçasına sızıp bu parçayı hükümeti geri kalanından koparmak için kullanma tekniğidir; koşulları ve adımları soğukkanlılıkla tarif edilebilir.
 - **Jonathan Powell — The New Machiavelli: How to Wield Power in the Modern World**: Machiavelli yanlış anlaşılmıştır; onun öğütleri ikiyüzlülük dersi değil, yönetme zanaatının gerçekçi tarifidir ve bugünün başbakanlık ofisinde de büyük ölçüde işler.
-- **Dick Morris — The New Prince: Machiavelli Updated for the Twenty-First Century** *(TR)*: Bilgili seçmen çağında en pragmatik strateji idealizmdir: imaj değil konu, saldırı değil olumlu mesaj, parti disiplini değil çoğunluğun ortak görüşü kazandırır.
+- **Dick Morris — The New Prince: Machiavelli Updated for the Twenty-First Century**: Bilgili seçmen çağında en pragmatik strateji idealizmdir: imaj değil konu, saldırı değil olumlu mesaj, parti disiplini değil çoğunluğun ortak görüşü kazandırır.
 - **William L. Riordon — Plunkitt of Tammany Hall**: Siyaset bir meslektir; oy, kitap okuyarak ya da nutuk atarak değil, insanlara tek tek iş, yardım ve ilgi götürerek kazanılır ve bu emeğin karşılığını almak ayıp değildir.
 - **Richard E. Neustadt — Presidential Power**: Başkan kâğıt üzerinde güçlü, uygulamada zayıftır: emir vererek değil ikna ederek yönetir ve ikna, karşısındakinin çıkarına dayanan bir pazarlıktır.
 - **William H. Riker — The Art of Political Manipulation**: Siyasette kazananlar çoğu zaman insanları ikna edenler değil, seçimin yapısını (gündemi, oylama sırasını, tartışmanın boyutlarını) öyle kuranlardır ki herkes kendi tercihini değiştirmeden onların istediği sonucu üretir.
@@ -124,7 +124,7 @@
 - **Jacques Ellul — Propagandes**: Propaganda bir rejimin yalan makinesi değil, teknik toplumun zorunlu ürünüdür: amacı fikir değiştirmek değil insanı eyleme ve uyuma sokmaktır ve birey ona ihtiyaç duyar.
 - **Edward S. Herman ve Noam Chomsky — Rızanın İmalatı** *(TR)*: Özgür basın, sansür ve emir olmadan da, piyasanın ve kurumsal bağımlılıkların oluşturduğu süzgeçler yüzünden güç sahiplerinin dünya görüşünü yeniden üretir.
 - **Robert Jay Lifton — Thought Reform and the Psychology of Totalism**: "Beyin yıkama" büyülü bir teknik değildir; kapalı bir ortamda suçluluk, itiraf ve yeniden eğitimle kimliği söküp yeniden kuran, sekiz özelliğiyle tanınabilen bir süreçtir.
-- **Stanley Milgram — Obedience to Authority** *(TR)*: Sıradan insanlar, meşru gördükleri bir otorite istediğinde, vicdanlarına aykırı olsa da bir yabancıya acı vermeyi sürdürür; belirleyici olan kişilik değil durumdur.
+- **Stanley Milgram — Obedience to Authority**: Sıradan insanlar, meşru gördükleri bir otorite istediğinde, vicdanlarına aykırı olsa da bir yabancıya acı vermeyi sürdürür; belirleyici olan kişilik değil durumdur.
 
 **İktidar kuramı ve iktidarın bilimi** (`ek/10_iktidar_kurami_ve_bilimi.md`)
 

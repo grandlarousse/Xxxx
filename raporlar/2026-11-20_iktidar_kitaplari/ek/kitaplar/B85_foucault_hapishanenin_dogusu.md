@@ -1,6 +1,6 @@
 ## Michel Foucault — Hapishanenin Doğuşu (Surveiller et punir: Naissance de la prison, 1975)
 
-**Künye.** Michel Foucault (1926–1984) Fransız filozof ve düşünce tarihçisidir; kitabı Collège de France'ta profesörken ve hapishane koşullarına karşı yürütülen kampanyalara katıldığı yıllarda yazdı (yaşam tarihleri ve bu ayrıntı bellekten). Özgün dil Fransızca; ilk yayın 1975, Gallimard. İngilizcesi 1977 (çev. Alan Sheridan). Türkçesi: *Hapishanenin Doğuşu: Gözetim Altında Tutmak ve Cezalandırmak*, İmge Kitabevi, çeviren Mehmet Ali Kılıçbay, 445 sayfa.
+**Künye.** Michel Foucault (1926–1984) Fransız filozof ve düşünce tarihçisidir; kitabı Collège de France'ta profesörken ve hapishane koşullarına karşı yürütülen kampanyalara katıldığı yıllarda yazdı (yaşam tarihleri ve bu ayrıntı bellekten). Özgün dil Fransızca; ilk yayın 1975, Gallimard. İngilizcesi 1977 (çev. Alan Sheridan). Türkçesi: *Hapishanenin Doğuşu: Gözetim Altında Tutmak ve Cezalandırmak*, İmge Kitabevi, çeviren Mehmet Ali Kılıçbay, 445 sayfa. Güncel kitapçı kataloğunda Ayrıntı Yayınları baskısı görünüyor (*Hapishanenin Doğuşu: Gözetleme ve Cezalandırma*).
 
 **Bir cümleyle.** Modern iktidar bedeni parçalayarak değil, gözetleyip ölçerek ve alıştırarak yönetir; hapishane bu yöntemin yalnızca en görünür örneğidir.
 

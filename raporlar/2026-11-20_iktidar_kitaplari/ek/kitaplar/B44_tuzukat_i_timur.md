@@ -9,6 +9,7 @@
 **Yapısı.** İki ana kısım hâlinde okunur: Timur'un iktidara yükselişini ve seferlerini kendi ağzından anlattığı, alınan kararları ("kengeş", yani danışma ve tedbir) sıralayan anlatı kısmı; ve ordu, yönetim, vergi ve fethedilen ülkeler için kuralları veren "tüzükler" kısmı. İki kısımlı düzen Özbekçe Vikipedi maddesinde de böyle verilir; bölüm sayısı doğrulanmadı.
 
 **Ana fikirler.**
+*Uyarı: Bu bölümdeki maddeler ikincil özetlere ve belleğe dayanır; metnin kendisinden ya da bir ansiklopedi maddesinden doğrulanamadı. Ana hatları güvenilir, ayrıntıları (sınıf sayısı, ordu kademeleri, haber ağı) doğrulanmadı.*
 - **Tedbir kılıçtan önce gelir.** Metnin en çok anılan düşüncesi, işlerin büyük bölümünün danışma ve planla, küçük bölümünün silahla çözüldüğüdür. Timur her seferden önce beyleriyle kengeş yapar; kararı ise kendisi verir.
 - **Devleti taşıyan sınıflar.** Metin, hükümdarın dayanması gereken toplum kesimlerini sayar: seyyidler ve âlimler, tecrübeli danışmanlar, komutanlar, askerler, kâtipler, tüccarlar ve diğerleri. Her kesime ayrı muamele önerilir. On iki sınıf sayıldığı bellekten yazılmıştır, doğrulanmadı.
 - **Ordu düzeni.** Onluk, yüzlük, binlik birlikler; her kademede sorumlu bir komutan; ganimet, maaş ve terfi kuralları. Yararlık gösteren ödüllendirilir, kaçan cezalandırılır; ödül de ceza da geciktirilmez.

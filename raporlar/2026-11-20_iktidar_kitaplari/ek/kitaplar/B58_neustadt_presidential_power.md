@@ -1,6 +1,6 @@
 ## Richard E. Neustadt — Presidential Power (Presidential Power: The Politics of Leadership, 1960)
 
-**Künye.** Richard E. Neustadt (1919–2003) Amerikalı siyaset bilimcidir; 1950–1953 arasında Başkan Truman'ın Beyaz Saray'daki özel yardımcısıydı, kitabı Columbia Üniversitesi'nde öğretim üyesiyken yazdı, sonra Harvard'da ders verdi. Özgün dil İngilizce; ilk yayın 1960. Genişletilmiş son baskı 1990'da “Presidential Power and the Modern Presidents: The Politics of Leadership from Roosevelt to Reagan” adıyla çıktı. Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). İlk baskı yaklaşık 200, 1990 baskısı yaklaşık 370 sayfa (bellekten, doğrulanmadı).
+**Künye.** Richard E. Neustadt (1919–2003) Amerikalı siyaset bilimcidir; 1950–1953 arasında Başkan Truman'ın Beyaz Saray'daki özel yardımcısıydı, kitabı Columbia Üniversitesi'nde öğretim üyesiyken yazdı, sonra Harvard'da ders verdi. Özgün dil İngilizce; ilk yayın 1960. Genişletilmiş son baskı 1990'da “Presidential Power and the Modern Presidents: The Politics of Leadership from Roosevelt to Reagan” adıyla çıktı. Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). İlk baskı yaklaşık 200, 1990 baskısı yaklaşık 370 sayfa (bellekten, doğrulanmadı).
 
 **Bir cümleyle.** Başkan kâğıt üzerinde güçlü, uygulamada zayıftır: emir vererek değil ikna ederek yönetir ve ikna, karşısındakinin çıkarına dayanan bir pazarlıktır.
 

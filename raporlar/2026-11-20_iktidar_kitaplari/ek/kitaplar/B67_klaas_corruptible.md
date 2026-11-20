@@ -1,6 +1,6 @@
 ## Brian Klaas — Corruptible: Who Gets Power and How It Changes Us (Corruptible, 2021)
 
-**Künye.** Brian Klaas, 1986 doğumlu Amerikalı siyaset bilimcidir; University College London'da küresel siyaset profesörü ve *The Atlantic* yazarıdır. Özgün ad: *Corruptible: Who Gets Power and How It Changes Us*; dili İngilizce; ilk yayın Kasım 2021 (Scribner; İngiltere'de John Murray). Türkçe baskısı bulunamadı: bakılan baskı listesinde Fince, Portekizce ve Japonca çeviriler görünüyor, Türkçe yok. Yaklaşık 320 sayfa.
+**Künye.** Brian Klaas, 1986 doğumlu Amerikalı siyaset bilimcidir; University College London'da küresel siyaset profesörü ve *The Atlantic* yazarıdır. Özgün ad: *Corruptible: Who Gets Power and How It Changes Us*; dili İngilizce; ilk yayın Kasım 2021 (Scribner; İngiltere'de John Murray). Türkçe baskısı bulunamadı: bakılan baskı listesinde Fince, Portekizce ve Japonca çeviriler görünüyor, Türkçe yok; D&R ve Kitapseç kataloglarında yazarın yalnızca Fluke adlı kitabının çevirisi görünüyor. Yaklaşık 320 sayfa.
 
 **Bir cümleyle.** Kötü yöneticilerin nedeni tek değildir: güç bozar, bozuk kişiler güce koşar ve kötü kurulmuş sistemler ikisini de besler; öyleyse çare kişilerde değil, sistemin tasarımındadır.
 

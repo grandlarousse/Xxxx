@@ -1,6 +1,6 @@
 ## Jonathan Powell — The New Machiavelli: How to Wield Power in the Modern World (The New Machiavelli, 2010)
 
-**Künye.** Jonathan Powell (doğ. 1956) eski bir İngiliz diplomatıdır; 1995'ten itibaren Tony Blair'in ekip başkanı, 1997–2007 arasında Downing Street Chief of Staff (başbakanlık özel kalem müdürü) olarak çalıştı ve Kuzey İrlanda barış görüşmelerinin baş müzakerecisiydi. Özgün dil İngilizce; ilk yayın 2010 (ilk yayınevi Bodley Head: bellekten, doğrulanmadı). Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). Ciltli baskı 352 sayfa.
+**Künye.** Jonathan Powell (doğ. 1956) eski bir İngiliz diplomatıdır; 1995'ten itibaren Tony Blair'in ekip başkanı, 1997–2007 arasında Downing Street Chief of Staff (başbakanlık özel kalem müdürü) olarak çalıştı ve Kuzey İrlanda barış görüşmelerinin baş müzakerecisiydi. Özgün dil İngilizce; ilk yayın 2010 (ilk yayınevi The Bodley Head). Türkçe baskı: bulunamadı (kitapçı kataloğu taraması: D&R ve Kitapseç'te yazar adıyla aramada bu kitap çıkmadı). Ciltli baskı 352 sayfa.
 
 **Bir cümleyle.** Machiavelli yanlış anlaşılmıştır; onun öğütleri ikiyüzlülük dersi değil, yönetme zanaatının gerçekçi tarifidir ve bugünün başbakanlık ofisinde de büyük ölçüde işler.
 

@@ -252,7 +252,7 @@ Chu'nun kitabı için eleştiri farklıdır: Li'nin hicvini yumuşatıp olumlu d
 
 *Satıştaki Türkçe baskı (D&R ve Kitapseç katalogları, 20.11.2026): bu iki katalogda görünmüyor.*
 
-**Künye.** Shang Yang (yaklaşık MÖ 390–338), Qin devletinde MÖ 359'dan ölümüne kadar başvezirlik yapmış reformcudur; kitap onun adını taşır ama büyük bölümünü izleyicileri yazmıştır. Özgün adı Shang jun shu (商君書), dili klasik Çince. Metin MÖ 3. yüzyılda son biçimini aldı. Türkçe baskısı bulunamadı. Bilimsel İngilizce çevirisi Yuri Pines'ındır (Columbia University Press, 2017; kısaltılmış baskı 2019). Bugünkü metin 26 bölüm olarak numaralanır; ikisinin kayıp olduğu bilgisi bu oturumda doğrulanmadı.
+**Künye.** Shang Yang (yaklaşık MÖ 390–338), Qin devletinde MÖ 359'dan ölümüne kadar başvezirlik yapmış reformcudur; kitap onun adını taşır ama büyük bölümünü izleyicileri yazmıştır. Özgün adı Shang jun shu (商君書), dili klasik Çince. Metin MÖ 3. yüzyılda son biçimini aldı. Türkçe baskısı bulunamadı. Bilimsel İngilizce çevirisi Yuri Pines'ındır (Columbia University Press, 2017; kısaltılmış baskı 2019). Bugünkü metin 26 bölüm olarak numaralanır; Han dönemi kataloğundaki 29 bölümden en az beşi aktarım sırasında kaybolmuştur (26 başlıktan ikisinin metninin kayıp olduğu bilgisi bu hesaba uyuyor, ama doğrudan görülmedi).
 
 **Bir cümleyle.** Devlet, halkını yalnızca tarıma ve savaşa yönelttiği, bunu da şaşmaz ödül ve ağır cezayla sağladığı ölçüde güçlenir.
 
@@ -336,11 +336,11 @@ Chu'nun kitabı için eleştiri farklıdır: Li'nin hicvini yumuşatıp olumlu d
 
 *Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Beş Etki Kitabı (Gece Kitaplığı); Beş Çember Kitabı (Anahtar Kitaplar); Beş Çember Kitabı (Urzeni Yayıncılık); Beş Çember Kitabı (Dorlion Yayınevi); Otaku`nun Manga Defteri (Altıkırkbeş Yayınları).*
 
-**Künye.** Miyamoto Musashi (yaklaşık 1583–1645), efendisiz bir samuray, kılıç ustası, ressam ve Niten Ichi-ryū (iki kılıç okulu) adlı okulun kurucusudur; ömrünün sonunda, öğrencilerine bırakmak üzere yazar. Özgün ad 五輪書, dili Japonca. 1643–1645 arasında yazıldı. Türkçesi: Beş Çember Kitabı, Anahtar Kitaplar, çeviren Sibel Özbudun, 1998, 112 sayfa. Başka Türkçe baskılar da var (çevirmen olarak Elvan Aytekin, Fatih Uzun, Ezgi Uğur adları geçiyor); yayınevleri doğrulanmadı.
+**Künye.** Miyamoto Musashi (yaklaşık 1583–1645), efendisiz bir samuray, kılıç ustası, ressam ve Niten Ichi-ryū (iki kılıç okulu) adlı okulun kurucusudur; ömrünün sonunda, öğrencilerine bırakmak üzere yazar. Özgün ad 五輪書, dili Japonca. 1643–1645 arasında yazıldı. Türkçesi: Beş Çember Kitabı, Anahtar Kitaplar, çeviren Sibel Özbudun, 1998, 112 sayfa. Başka Türkçe baskılar da var: kitapçı kataloğu taramasında Gece Kitaplığı, Urzeni Yayıncılık ve Dorlion Yayınevi baskıları görünüyor (çevirmen olarak Elvan Aytekin, Fatih Uzun, Ezgi Uğur adları geçiyor; hangi çevirmenin hangi yayınevinde olduğu doğrulanmadı).
 
 **Bir cümleyle.** Kazanmanın yolu süs ve gösteriş değil, gündelik çalışmayla edinilen ve bire bir dövüşte de büyük savaşta da aynı kalan sade ilkelerdir.
 
-**Bağlam.** Musashi gençliğinden beri düello yapmış, hiç yenilmediği söylenir; İngilizce Wikipedia 62 düello sayısını verir. En ünlü dövüşü Ganryū adasında Sasaki Kojirō'yladır. 1643'te Kumamoto yakınındaki Reigandō mağarasına çekildi, kitabı 1645'in ikinci ayında bitirdi ve ölümünden az önce öğrencisi Terao Magonojō'nun çevresine emanet etti. Japonya artık barıştaydı; kılıç okulları ticarileşiyordu.
+**Bağlam.** Musashi gençliğinden beri düello yapmış, hiç yenilmediği söylenir; İngilizce Wikipedia 62 düello sayısını verir. En ünlü dövüşü Ganryū adasında Sasaki Kojirō'yladır. 1643'te Kumamoto yakınındaki Reigandō mağarasına çekildi, kitabı 1645'in ikinci ayında bitirdi ve ölümünden az önce öğrencisi Terao Magonojō'ya emanet etti. Japonya artık barıştaydı; kılıç okulları ticarileşiyordu.
 
 **Yapısı.** Beş kısa kitap; adlar Budist beş öğeden gelir. Toprak: yolun genel çerçevesi; strateji ustalığı ev yapan marangozun işine benzetilir. Su: Musashi'nin kendi okulu, duruş, bakış ve temel teknikler. Ateş: çarpışmanın kendisi ve zamanlama. Rüzgâr: öteki okulların kusurları ("rüzgâr" Japoncada "üslup" anlamına da gelir). Boşluk: zihnin durumuna dair kısa bir son söz.
 
@@ -364,13 +364,13 @@ Chu'nun kitabı için eleştiri farklıdır: Li'nin hicvini yumuşatıp olumlu d
 
 *Satıştaki Türkçe baskılar (D&R ve Kitapseç katalogları, 20.11.2026): Savaş Üzerine (Gece Kitaplığı); Savaş Üzerine (Alfa Yayınları); Savaşın Esasları (Doruk Yayınları); Savaş Üzerine; Savaş Üzerine Savaşın Esasları Carl Von Clausewitz Dorlion Yayınları.*
 
-**Künye.** Carl von Clausewitz (1780–1831), on iki yaşında orduya girmiş, Napolyon'a karşı savaşmış, sonra Berlin'deki Harp Akademisi'ni yönetmiş Prusyalı generaldir; yenilgiyi ve zaferi içeriden görmüş bir subay olarak yazar. Özgün ad Vom Kriege, dili Almanca. 1816–1830 arasında yazıldı, 1832'de yayımlandı. Türkçesi: Savaş Üzerine; çeviren Şiar Yalçın (May Yayınları, 1975) ve çeviren Selma Koçak (Doruk Yayımcılık, 776 sayfa). Saltık Ulubay çevirisi de var (2022; yayınevi doğrulanmadı).
+**Künye.** Carl von Clausewitz (1780–1831), on iki yaşında orduya girmiş, Napolyon'a karşı savaşmış, sonra Berlin'deki Harp Akademisi'ni yönetmiş Prusyalı generaldir; yenilgiyi ve zaferi içeriden görmüş bir subay olarak yazar. Özgün ad Vom Kriege, dili Almanca. 1816–1830 arasında yazıldı, 1832'de yayımlandı. Türkçesi: Savaş Üzerine; çeviren Şiar Yalçın (May Yayınları, 1975) ve çeviren Selma Koçak (Doruk Yayımcılık, 776 sayfa). Saltık Ulubay çevirisi de var (2022; yayınevi doğrulanmadı). Kitapçı kataloğu taramasında Alfa Yayınları ve Gece Kitaplığı baskıları da görünüyor.
 
 **Bir cümleyle.** Savaş kendi başına bir amaç değil, siyasetin bir aracıdır; ama tutku, rastlantı ve sürtünme yüzünden hiçbir plan kâğıttaki gibi işlemez.
 
 **Bağlam.** Fransız Devrimi ve Napolyon, halkı ve devletin bütün kaynaklarını seferber ederek savaşı o güne dek görülmemiş bir ölçeğe taşıdı. Clausewitz 1806'da Jena'da esir düştü, Prusya ordusunun yeniden kuruluşunda çalıştı. Kitabı, bu deneyimi kurallar listesine değil, komutanın yargısını eğitecek bir kurama dönüştürmek için yazdı. 1827'de baştan gözden geçirmeye başladı; bitiremeden öldü. Eşi Marie yayımladı.
 
-**Yapısı.** Sekiz kitap. Sırasıyla: savaşın doğası, savaş kuramı, genel olarak strateji, muharebe, askerî güçler, savunma, saldırı, savaş planı (kitap adları bellekten). Türkçe Vikipedi'ye göre ilk altı kitap yazılmış, yedinci ve sekizinci taslak düzeyinde kalmıştır. En uzun bölüm savunmadır; en çok okunan, birinci kitaptır.
+**Yapısı.** Sekiz kitap. Sırasıyla: savaşın doğası, savaş kuramı, genel olarak strateji, muharebe, askerî güçler, savunma, saldırı, savaş planı. Türkçe Vikipedi'ye göre ilk altı kitap yazılmış, yedinci ve sekizinci taslak düzeyinde kalmıştır. En uzun bölüm savunmadır; en çok okunan, birinci kitaptır.
 
 **Ana fikirler.**
 - **Savaş siyasetin devamıdır.** Savaş, siyasal ilişkinin başka araçlarla sürdürülmesidir; siyaset savaş başlayınca susmaz. Bu yüzden askerî hedef siyasal amaca göre seçilir ve harcanacak çaba amacın değeriyle ölçülür.
