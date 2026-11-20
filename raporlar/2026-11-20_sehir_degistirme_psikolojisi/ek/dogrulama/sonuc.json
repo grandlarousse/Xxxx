@@ -1,0 +1,1937 @@
+[
+ {
+  "id": "K01-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "A total of 1,993 undergraduate students at the University of Michigan (n = 492), Ohio State... raw means for Caucasians were virtually identical in the Midwest (2.95) and in California (2.98).",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K01-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Easily observed and distinctive differences between locations are given more weight in such judgments than they will have in reality. (...) respondents in both regions predicted higher [satisfaction for Californians]",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K01-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "They often display an impact bias, overestimating the intensity and duration of their emotional reactions to such events.",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K01-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "participants accurately predicted the intensity of their feelings about events. They overestimated only when asked to predict how they would feel in general",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K01-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Başlık Crossref/PubMed'de doğrulandı (Psychol Sci 2012;23(2):161-2); özgün özet yok. İkincil kaynaklar: 11 makaleden 16 çalışma, 1.074 katılımcı; mutlak ölçütte hatalı, göreli ölçütte daha isabetli.",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K01-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "They placed far greater weight on highly variable physical features than on less variable social features in predicting their future happiness",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K01-08",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "overpredict the difference that different values of an attribute (e.g., different salaries) will make to their happiness in SE",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K01-16",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "N = 3,658 participants from 2,162 households ... (a) a strong and persistent increase in average levels of housing satisfaction, (b) no increase in average life-satisfaction",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K01-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "systematically overestimate the long-term satisfaction gain of living in their dwelling",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K01-25",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "weather does not reliably affect judgments of life satisfaction (over 1 million Americans, all 50 states, 5 years)",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K02-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The boost that is received through migration appears to bring people back to their initial level of happiness.",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K02-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "the respondents' average SWB is 5.15, which is higher by 0.05 than that at the interview preceding the move",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K02-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The sample size for longer distance migrants is small, however, and so some caution is required",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K02-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "On average an individual moves a distance of 32 km. Nonetheless, half of moves are of distance shorter than 3.2 km. About 9% of all moves are motivated by reasons related to respondent's job.",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K02-06",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "no evidence of any anticipation of SWB before the event of migration, but a highly significant and sustained positive adaptation effect",
+  "duzeltme": "Rapor cümlesi bu satırı 'etki küçük' diye özetlemesi yanlış: Alman SOEP verisinde yazarlar taşınma yılında belirgin ve 5-10 yıl sürdüğü görülen anlamlı bir artış buluyor (kendi ifadeleriyle 'büyük ve kalıcı'). 'Ne mutlu ne mutsuz ediyor' yalnızca İngiltere (Nowok) bulgusuna uyuyor; cümle ülkeler arası fark vurgusuyla yeniden kurulmalı.",
+  "parti": 2
+ },
+ {
+  "id": "K02-08",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Distance: >=50km 9.74 423 4341",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K02-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "12,508 observations covering 2,054 individuals ... around one fifth of a point on the SWB scale ... SD of the SWB measure of 1.52",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K02-15",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "This group arguably represents tied movers. In this case, the effects are small or negative, and not significant.",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K02-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The number of studies was too low to draw any final conclusions",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K02-18",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "residential relocation increases housing satisfaction considerably... five years after moving ... still significantly higher housing satisfaction; no lasting improvements in satisfaction are observed for them",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K02-22",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "involuntary movers have lower levels of wellbeing than stayers or voluntary movers",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K03-02",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "The amount of time a person has lived in a place and the strength of local community ties are the strongest predictors of attachment to that place",
+  "duzeltme": "Lewicka (2011) derlemesinin eePRO özetine göre, bir yerde yaşanan süre ve yerel topluluk bağlarının gücü, yaş, eğitim, hareketlilik gibi demografik değişkenlere kıyasla yere bağlılığın en güçlü yordayıcılarıdır. Bu ilişkisel bir bulgudur ve yeni gelenlerin yeni yere bağlanması için ayrıca sınanmış değildir; 'belirliyor' yerine 'en güçlü yordayıcılar arasında' denmeli.",
+  "id_not": "",
+  "parti": 7
+ },
+ {
+  "id": "K03-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "two types of place attachment (traditional and active attachment) and three types of nonattachment (alienation, place relativity, and placelessness)",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K03-06",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "active attachment was related positively to education and curvilinearly to age, with middle-aged participants the most frequently represented",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K03-11",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "attachment develops before identity, at least in the case of the non-natives",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K03-12",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The increase in place attachment to the neighbourhood over time is the strongest in the first four years of residence (Lalli, 1992; Hernandez ... 2007).",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K03-15",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "mobilities, rather than negating the importance of place, shift our understanding of place; developing attachments to multiple places is a common way... (13 yazar, JEP 61:125-133)",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K03-16",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Adapters N=137 60.1%; Nostalgics 41, 18.0%; Embracers 50, 21.9%; 274 rural migrants and returnees; snowball sampling",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K03-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The longer they have been away from their hometown, the lower the proportion of Nostalgics; Household in NP 61.0 vs DP 41.5",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K03-23",
+  "sonuc": "erişilemedi",
+  "gordugum": "göremedim",
+  "kanit": "",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K03-24",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "continuation of settlement type can foster attachment to a new residence place, discontinuity can lead to alienation",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K03-25",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Two intervention studies (N1 = 486; N2 = 1098) confirmed that young people who learned about local history displayed ... greater place attachment",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K04-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "known to be related to certain adjustment difficulties and health problems, as well as clinical disorders... Fifty-five articles",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K04-02",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "HS is fundamentally a separation phenomenon, a \"mini-grief,\" involving different (though possibly mutually exacerbating) stressors from new place ones.",
+  "duzeltme": "Bir kuramsal model (Stroebe ve ark.) ev özlemini \"mini yas\" olarak tanımlıyor; model doğrudan sınanmış bir bulgu değil. Özlemin ortalamada zamanla hafiflediği ayrı bir bulguya (K04-07) dayanmalı; \"araştırmalar gösteriyor\" ifadesi K04-02 için fazla güçlü.",
+  "parti": 6
+ },
+ {
+  "id": "K04-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Data on the incidence in different populations vary from 20 to 90 %, which is mainly due to inconsistent definitions of homesickness and the different measuring instruments",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K04-06",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "During the first 10 weeks of college, 94% of students reported experiencing homesickness at some point.",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K04-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "γ = −0.023 per week (p = .041) ... a quarter-point decrease",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K04-09",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "Model 2 coefficient −.12 (SE .04, p<.01): prior-week adjustment predicting contact with home (Table 1, not Table 2)",
+  "duzeltme": "Önceki haftaki kötü uyum ertesi haftaki ev teması sıklığını öngördü (katsayı −0,12); kaynak tablosu T2 değil Tablo 1'dir. Temas ölçeğinin güvenirliği düşük (α=0,53); yön nedensellik göstermez.",
+  "parti": 10
+ },
+ {
+  "id": "K04-10",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Feeling homesick was highest at participants' current residency, when interacting with parents, or when using video‐chat. Table 1: Dutch 34, international 48",
+  "duzeltme": "82 birinci sınıf öğrencisinde (34 Hollandalı, 48 uluslararası), anlık ölçümde ev özlemi en çok kişinin şu anki evinde, ebeveynle etkileşirken ya da görüntülü konuşurken yüksekti; yazarlar nedensellik çıkarılamayacağını belirtiyor. (Hafif ayrıntı: makale giriş kısmında n=92 diyor, analiz 82 kişiyle.)",
+  "parti": 10
+ },
+ {
+  "id": "K04-11",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Facebook interaction with the host-country network lowered homesickness, in the long-term and the short-term.",
+  "duzeltme": "Uluslararası öğrencilerde yeni ülkedeki ağla Facebook üzerinden etkileşim, kısa ve uzun vadede daha az ev özlemiyle ilişkiliydi (üç dalgalı panel). Çalışma genel yüz yüze temasa değil Facebook etkileşimine bakıyor; ev özlemi de kısa vadede bu etkileşimi artırdı.",
+  "parti": 3
+ },
+ {
+  "id": "K04-13",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Homesickness correlated negatively with age (r = -0.107) and length of stay (r = -0.11); distress r = 0.08; mean stay 13.64 years; cross-sectional",
+  "duzeltme": "Kalış süresi r=−0,11, yaş r=−0,107 (iddiadaki eşleşme ters yazılmış). Çalışma kesitsel; özlemin kalıcılığını doğrudan test etmedi, rapordaki 'özlem sürüyordu' ifadesi bu ilişkilerin zayıflığından çıkarım, 'ruhsal sıkıntıyla neredeyse ilişkisiz' ise r=0,08 ile uyumlu.",
+  "parti": 10
+ },
+ {
+  "id": "K04-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "individuals who felt accepted in the community were less homesick. This was independent of number of friends",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K04-20",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "tragic loss, in many ways quite comparable to the grief reaction upon losing a loved person",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K04-21",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "attachment, familiarity, and identity... the problems of nostalgia, disorientation, and alienation may ensue",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K04-24",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "41 experiments... (N = 4,659). Overall, nostalgia inductions increased positive and ambivalent affect, but did not significantly alter negative affect. The magnitude... varied markedly across different experimental inductions",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K04-25",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "it seems predominantly negative when nostalgia is experienced in the course of everyday life",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K04-27",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "feeling nostalgic about the past in the context of lower identity continuity had negative consequences for well-being ... coping ... interest in new opportunities",
+  "duzeltme": "Üniversiteye yeni başlayanlarda (boylamsal anket ve iki deney) geçmişle bağ sürüyorsa nostalji iyi geldi; bağ zayıfken iyilik hâlini, baş etme inancını ve yeni fırsatlara ilgiyi azalttı. (Özette 'uyum' ölçülmedi; 'Avustralya' özette geçmiyor, doğrulanmadı.)",
+  "parti": 4
+ },
+ {
+  "id": "K04-29",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "their subsequent recollection of that event is more positive than the actual experience",
+  "duzeltme": "Üç küçük çalışmada (Avrupa gezisi, Şükran Günü tatili, bisiklet turu) insanlar kısa bir olayı sonradan, yaşarkenkinden daha olumlu hatırladı. Bulgu kısa olaylara ait; bir şehirde geçen yıllara genellemek çıkarımdır. Rapordaki 'geçmiş de yaşandığından güzel hatırlanır' cümlesi bu kapsamla sınırlanmalı.",
+  "parti": 3
+ },
+ {
+  "id": "K05-01",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "On average, returnees reported higher levels of re-entry adaptation than anticipated; stress higher and life satisfaction lower when experiences fell short of expectations.",
+  "duzeltme": "Lise çağı (ort. 17 yaş) değişim öğrencilerinde dönüş deneyimi beklentinin altında kaldığında stres daha yüksek, yaşam doyumu daha düşüktü; beklentinin üstünde kaldığında tersi görüldü. Bu, yetişkinlere genellenmiş bir bulgu değildir.",
+  "kaynak_not": "",
+  "parti": 11
+ },
+ {
+  "id": "K05-02",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Overall, returnees reported higher levels of re-entry adaptation than anticipated.",
+  "duzeltme": "Tek bir çalışmada (AFS değişim programı, 1.319 lise çağı öğrenci) dönenler ortalamada beklediklerinden daha iyi uyum bildirdi; fark 6. ayda daha büyüktü. Bu tek çalışma, dönüşün herkeste sarsıntı yarattığı görüşüne karşı kanıt sayılamaz. 'Çoğu' yerine 'ortalamada' denmeli; 'araştırmalar' yerine 'bir araştırma' denmeli.",
+  "parti": 11
+ },
+ {
+  "id": "K05-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "it is less clear to what extent the current findings would generalize to other samples such as returning migrants or expatriates",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K05-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "acceptance coping predicted lower re-entry stress while avoidance coping predicted greater re-entry stress",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K05-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "return migrants are much more likely to move for social reasons and much less likely to move for educational reasons",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K05-18",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "returnees to metropolitan regions are more likely to stay permanently than are migrants returning elsewhere ... higher incomes and levels of education ... do not have as many children",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K05-21",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "four orientations: social, family, functional and partner; some returnees had not mentally left the region",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K05-23",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "returnees’ SWB decreases slightly abroad, while remaining stable upon return ... those unhappy about life abroad experience a SWB gain upon return",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K06-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "revealed 5 distinct patterns of change in stress experienced by sojourners ... approximately 2,500 intercultural exchange students ... 50 countries",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K06-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "A “mild stress” class included 819 individuals (40.6%) ... a “minor relief” class represents 951 individuals (47.2%)",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K06-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "reverse J-curve pattern of change in stress for 64 individuals (3.2%) ... inverse U ... 98 individuals (4.9%) ... resilience ... 83 individuals (4.1%)",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K06-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "The hypothesized “enchantment” group, that is, a group of participants’ who first dropped in stress and then returned to baseline, was not observed in the data.",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K06-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "adjustment problems were greatest at entry point and decreased over time",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K06-11",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "gaining about 0.85 SD (pooled standard deviation) over the first 9 months overseas ... adjustment begins to level off on the average at approximately 6 months",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K06-15",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "declined from baseline ( M = 4.72) to 3-months ( M = 4.28), and from 3-months to 6-months ( M = 3.98), but remained relatively stable from 6-months to 9-months ( M = 3.95) and 12-months ( M = 3.95)",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K06-16",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Stress related to a partner's career, social network disruptions, and navigating a new culture or language remained stable over time.",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K06-17",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "some rewards declined over time—especially those associated with novelty such as starting a new job and adjusting to a new culture",
+  "duzeltme": "Yeniliğe bağlı ödüller (yeni iş, yeni kültüre uyum) zamanla azaldı; yazarlara göre stres düzeyleri genelde orta düzeyde kaldı, ama tablodaki bazı başlangıç ortalamaları (ör. ev bulma 4,72; sosyal bağ kaybı 4,24; 1-7 ölçek) orta noktanın üstünde. Örneklem yalnızca ülke içi değil: taşınanların %29,8'i başka ülkeye, %46'sı başka eyalet/ile, %23,6'sı başka şehre gitti; bu yüzden 'ülke içi taşınmaya en yakın veri' ifadesi abartılı, 'çiftlerin kariyer kaynaklı taşınmasını izleyen veri' denmeli.",
+  "parti": 5
+ },
+ {
+  "id": "K06-21",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "length of residence ( r = .16), cultural knowledge ( r = .34), language proficiency ( r = .35), and contact with host nationals ( r = .29)",
+  "duzeltme": "Kaynak sayfası (wgtn.ac.nz) Cloudflare duvarı verdi; Crossref'teki makale özeti (DOI 10.1177/0022022113492889; 66 çalışma, N=10.672) tüm sayıları doğruluyor. Rapor cümlesi ölçülü; yalnızca 'sosyokültürel uyum' ölçeğine dair olduğu ve korelasyonel olduğu korunmalı.",
+  "kanit_not": "",
+  "parti": 13
+ },
+ {
+  "id": "K06-23",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "the longer the relocator had lived in the area prior to moving, the greater was the general stress and the job-related anxiety and depression following the move",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K06-29",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "UK poll of 2,000 adults, five months (Barefoot Wine kampanyası, OnePoll); 8 ay/%23 bir yıldan uzun/7.000+ kişi: Psychology Today, Ipsos UK anketi",
+  "duzeltme": "Dolaşan rakamlar marka anketlerinden: Birleşik Krallık'ta 2.000 kişilik, bir şarap markasının yaptırdığı ankette ortalama yaklaşık 5 ay; gurbetçilere yönelik 7.000'den fazla kişilik ankette (Psychology Today, Ipsos UK anketi diye aktarıyor; HSBC bağlantısı doğrulanamadı) ortalama yaklaşık 8 ay, %23'ü için bir yıldan uzun. Verilen inkl URL'si 403 verdi; %23 alıntısı doğrudan görülemedi.",
+  "parti": 8
+ },
+ {
+  "id": "K07-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "MTurk participants (N = 355) who had recently relocated... Study 2, first-year students (N = 112)... three times over 9 weeks. Hours together was associated with closer friendships.",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K07-02",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "it takes roughly 50 hours of time together to move from mere acquaintance to casual friend, 90 hours ... more than 200 hours",
+  "duzeltme": "Sayılar bültende var. Ancak çalışma tek değil, iki çalışmadan oluşuyor: 355 yakın zamanda taşınmış yetişkin (MTurk) ve 112 birinci sınıf öğrencisi; eşikler ikisi birleştirilerek tahmin edilmiş (40–60, 80–100, 200+ saat), öz bildirime dayalı. Rapor: 'Yakın zamanda taşınmış yetişkinler ve üniversite birinci sınıf öğrencileriyle yapılan iki çalışmaya göre…'. 'Tekrarlanmadı' bültende doğrulanmadı.",
+  "parti": 9
+ },
+ {
+  "id": "K07-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Hours spent working together just don’t count as much, Hall’s study found.",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K07-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "survey under 1007 people aged between 18 and 65 ... 604 people were reinterviewed ... Only 48 percent were still part of the network.",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K07-05",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "a lack of meeting opportunities is an important reason why many personal relationships are discontinued ... new relationships more likely to emerge in a specific context if existing network members are already met in that context",
+  "duzeltme": "Karşılaşma fırsatının kalkması ilişkilerin bitmesinin önemli nedenlerinden biri; yeni ilişkiler de daha çok, mevcut ağ üyeleriyle zaten tanışılan ortamlarda kuruluyor. ('Çoğunlukla' ve 'başlıca' ifadeleri kaynaktan ileri gidiyor.)",
+  "parti": 12
+ },
+ {
+  "id": "K07-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "emotional and financial support are not affected by mobility distance but that tangible favors and companionship are affected negatively",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K07-08",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "nonkin exchanges are more extensive for respondents whose kin ties are more distant, suggesting a process of substitutability",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K07-09",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "significant increase in emotional closeness for family (b = 0.27) and a significant decrease in emotional closeness for friends (b = −0.62)",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K07-11",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "relationship decline was prevented most by increased contact frequency (talking together) for females but by doing more activities together in the case of males",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K07-12",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "In contrast, phone calls help movers grow relationships and exchange social support. / relationships decline when email drops after the move",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K07-14",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "in-person contact frequency was most sensitive to distance. Telephone contact frequency was only impacted by long-distance moves; however, email contact frequency was not influenced by distance.",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K07-18",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "people systematically underestimated how much their conversation partners liked them and enjoyed their company... even lasted for several months",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K07-20",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "meta-analyzing pre-conversation predictions and post-conversation experiences across seven studies (N = 2304)",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K07-22",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "fewer than one third of participants sent a message to an old friend ... Study 7 (N = 194) ... increased the number of people who reached out ... by two-thirds",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K07-25",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "social isolation odds ratio (OR) = 1.29, loneliness OR = 1.26, and living alone OR = 1.32, corresponding to an average of 29%, 26%, and 32% increased likelihood of mortality",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K08-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "observed among introverts but not among extraverts ... explained by the relative lack of close social relationships (N = 7,108, 10-year follow-up)",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K08-21",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "siblings (HR 1.00, 95% CI 0.97-1.04), the risk for suicide attempt attenuated",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K08-26",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Turkey 334+137=471 ... −0.060, 4.122; Relational mobility was highest in Mexico and Puerto Rico and lowest in Japan and Malaysia",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K09-02",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "between-states migration was predicted by openness (OR = 1.19, SE = 0.08, p = 0.007), but not by extraversion",
+  "duzeltme": "Jokela (2009, MIDUS, n=3760) bulgusu: standartlaştırılmış açıklık, eyaletler arası göçü tek başına modelde OR=1,19 (p=0,007), düşük uyumlulukla birlikte modelde OR=1,32 ile yordadı; uyumluluk OR=0,86. Etki orta-küçük, açıklık tek yordayıcı değil (düşük uyumluluk da yordadı); 'en tutarlı' ve 'belirgin biçimde' ifadeleri yerine 'biraz daha olası' denmeli. Sayılar (359 kişi, %9,2; %32,7) kaynakla uyumlu.",
+  "parti": 9
+ },
+ {
+  "id": "K09-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Lower emotional stability predicted higher probability of moving due to neighborhood, housing, and family",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K09-05",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "Migration direction accounted for up to 1.29% of the variance in personality traits (η²), less than demographic factors such as gender and education. N = 58,678, Estonian Biobank",
+  "duzeltme": "Estonya Biyobankası'nda (ön baskı, hakem denetiminden geçmemiş) göç yönü kişilik özelliklerindeki varyansın en çok yüzde 1,29'unu açıklıyor; yani göçmenlerle kalanlar kişilik bakımından büyük ölçüde benzer.",
+  "parti": 6
+ },
+ {
+  "id": "K09-15",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "sojourners (N = 527) along with control students (N = 607)... increases in Openness and Agreeableness and a decrease in Neuroticism above and beyond the observed self-selection",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K09-16",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "initial levels of Extraversion and Conscientiousness predicted short-term sojourning, and Extraversion and Openness predicted long-term sojourning",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K09-18",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "543,934 residents of 860 U.S. cities ... significant but small effects of fit on self-esteem only for openness, agreeableness, and conscientiousness",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K09-19",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "R2 gain of less than 0.11% in each case ... individual-level personality traits (for which R2 ranged from 5% to 27%); cross-sectional data ... cannot rule out",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K09-20",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "Higher openness to experience was more positively associated with life satisfaction in postal districts characterized by higher average openness to experience, population density, and ethnic diversity.",
+  "duzeltme": "Londra'da (kesitsel veri) deneyime açıklığın yaşam doyumuyla ilişkisi, yoğun ve çeşitli semtlerde daha güçlü çıktı; yani çalışma açık kişilerin bu semtlerde 'daha doyumlu' olduğunu değil, ilişkinin orada daha güçlü olduğunu gösteriyor.",
+  "parti": 4
+ },
+ {
+  "id": "K09-22",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "self-reports from 2,672,820 people across 102 countries ... agreeableness, and neuroticism exacerbated the person-culture match effect, whereas agency, openness, extraversion, and conscientiousness diminished it",
+  "duzeltme": "Kişi-kültür uyumunun iyi oluşa yararı uyumluluk ve nevrotiklikle (ve ortaklıkla) güçleniyor; girişimcilik/özerklik, açıklık, dışadönüklük ve sorumlulukla zayıflıyor; bu özelliklerin uç bileşiminde bedel bile görülebiliyor. 'Çevreye benzemek herkese aynı yaramıyor' ifadesi doğru.",
+  "parti": 10
+ },
+ {
+  "id": "K09-27",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Preoccupied attachment style has the highest contribution for explaining the variance (β = .26, t = 3.62, p < .05) in homesickness",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K10-01",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "a difference of 0.41 points on the 11-point Cantril ladder; urban 5.48, rural 5.07; 150 countries, 2014-2018",
+  "duzeltme": "Dünya genelinde kentliler yaşamını kırdakilerden ortalama 0,41 puan daha yüksek değerlendiriyor (Gallup, 150 ülke, 2014-2018). Birçok Batı ülkesinde ise fark kapanmakla kalmıyor, kırsal kesim kentlilerden daha yüksek puan veriyor (ör. Hollanda, Birleşik Krallık).",
+  "kanit_not": "",
+  "parti": 13
+ },
+ {
+  "id": "K10-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Turkey 5.52 5.30 5.33 0.20 0.23 -0.03 4752 1021 227",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K10-07",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "The answer is somewhere between 200 and 700 thousand of people. This study concerns only the US, and results should not be generalized to other countries.",
+  "duzeltme": "ABD verisinde (GSS, kesitsel konferans bildirisi) mutluluk yerleşim nüfusu yaklaşık 200–700 bini aşınca düşüyor; yazar bulgunun yalnızca ABD için geçerli olduğunu, diğer ülkelere genellenmemesi gerektiğini belirtiyor. Rapordaki \"İstanbul da İzmir de bu eşiğin üstünde\" yorumu bu bulguyu Türkiye'ye uygulamaktır; belirsiz diye etiketlenmeli.",
+  "parti": 6
+ },
+ {
+  "id": "K10-14",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Only in the year of the move, urban-rural migrants reported a significantly higher satisfaction ... after two and three years they adapted to their initial life satisfaction level",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K10-19",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "The pooled unadjusted OR for mood disorders was 1.39 (1.23–1.58)... The pooled adjusted OR was somewhat lower: 1.28 (1.13–1.44); 67% of the studies presented no significant unadjusted OR",
+  "duzeltme": "Gelişmiş ülkelerde kentte duygudurum bozukluğu görülme olasılık oranı (OR), diğer etkenler hesaba katıldıktan sonra yaklaşık 1,28; yani odds yüzde 28 daha yüksek (olasılık değil, odds oranı). Bu bir kesitsel ilişkidir, nedensellik göstermez; tek tek çalışmaların çoğu anlamlı fark bulmamıştır.",
+  "parti": 8
+ },
+ {
+  "id": "K10-21",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Urban residence was significantly associated with a higher prevalence of depression in developed countries (OR = 1.30, 95 % CI [1.17, 1.46]",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K10-29",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "İstanbul'daki vatandaşların mutluluk seviyesi yüzde 58.40 ... 51. sırada olan İzmir'in mutluluk oranı yüzde 58.24",
+  "duzeltme": "Webtekno'nun (Haziran 2020) aktardığı TÜİK il düzeyi verisine göre mutlu olduğunu söyleyenlerin oranı İstanbul'da %58,40, İzmir'de %58,24; veri yılı sayfada belirtilmiyor (il düzeyi sıralama büyük olasılıkla 2013 araştırmasına ait), güncel değil.",
+  "parti": 12
+ },
+ {
+  "id": "K11-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "within 3 months of the stressor ... Symptoms do not last for more than six additional months after the stressor or its consequences have been resolved",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K11-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Symptoms emerge within 1 month of the stressor ... Symptoms typically resolve within 6 months, unless the stressor persists",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K11-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "To be diagnosed with depression, a person must have symptoms most of the day, nearly every day, for at least 2 weeks",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K11-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "prevalence rates of 2% in general population research ... recently unemployed (27%",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K11-06",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Patients with adjustment disorder also have an increased risk of suicide attempts and completed suicide",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K11-08",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "A selective sample ... N = 105 ... prevalence of AjD was 21.9% at t1, 6.7% at t2, and dropped to 2.9% at t3",
+  "duzeltme": "İstemeden işini kaybeden, ilk ölçümde belirtisi yüksek ya da düşük olanlardan seçilmiş 105 kişide uyum bozukluğu oranı ilk ölçümde %21,9, sonraki ölçümlerde %6,7 ve %2,9 idi; bunlar genel yaygınlık değil, seçilmiş örneklemin oranlarıdır.",
+  "parti": 12
+ },
+ {
+  "id": "K11-09",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "the quality of the evidence for positive effects of all psychological and pharmacological treatments on symptoms of adjustment disorder was ranked as low to very low",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K11-10",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "16 RCTs with a total of 3027 participants ... both internet-based and in-person methods of cognitive behavioral therapy may be effective",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K11-13",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "behavioural activation to be superior to controls (SMD -0.74 CI -0.91 to -0.56, k = 25, N = 1088)... Study quality was low in the majority of studies and follow-up time periods short.",
+  "duzeltme": "Depresyonda davranışsal aktivasyon kontrol koşullarına göre etkili bulunmuş (SMD -0,74); ancak çalışmaların çoğunda kalite düşük, izlem süresi kısa. Kanıt depresyon içindir, uyum bozukluğu için doğrudan test edilmemiştir.",
+  "parti": 6
+ },
+ {
+  "id": "K11-14",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Among 44,051 adults ... Increased probability of moving correlates with higher prevalence of depression and anxiety",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K11-16",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "subsequent poorer mental health was found among both groups that failed to meet their mobility preferences ('entrapped' and 'displaced')",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K11-19",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Effects on mental health are marginally significant ( P =.084) ... ITT effect of +.070 standard deviations, standard error ±.041",
+  "duzeltme": "Sayılar doğru (SWB +0,098 SS, p=0,013; ruh sağlığı +0,070, p=0,084; N=3.273). Rapor cümlesine kısıt eklenmeli: 'Çok yoksul mahallelerde yaşayan düşük gelirli ailelerle yapılan ABD deneyinde daha az yoksul mahalleye taşınma teklifi, yetişkinlerin öznel iyi oluşunu küçük ölçüde artırdı; bu bulgu sıradan şehir değişikliğine doğrudan genellenemez.'",
+  "parti": 9
+ },
+ {
+  "id": "K11-21",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "resilience trajectory was the modal response across studies (average of 65.7% across populations, 95% CI [0.616, 0.698])",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K11-25",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Change in residence 20; Death of a spouse 100; Divorce 73; Change to different line of work 36; Change in living conditions 25; Change in working hours 20; social activities 18; +0.118 correlation",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K11-26",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Conducted by OnePoll on behalf of North American Van Lines ... Moving - 45%; Going through a breakup/divorce - 44%; 1,000 Americans who have moved within the last three years",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K11-30",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Antidepressants take time—usually 4−8 weeks—to work",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K12-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "identification with a new group can help buffer individuals from the negative well-being consequences of change",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K12-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Study 1 (N=165) was an experiment in which participants considered the impact of moving cities versus receiving a serious health diagnosis",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K12-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "importance of multiple, maintained, new, and compatible group memberships as determinants of people's responses and adjustment to life change",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K12-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "across 2 years, N = 5055 ... across 4 years, N = 4087 ... joined one group reduced their risk of depression relapse by 24%; ... three groups ... 63%",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K12-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "27 intervention studies (N = 2,230) ... Hedges g = 0.66; 95%CIs[0.34, 0.97] ... therapy programmes (g = 1.02), shared activities (g = 0.40), and reminiscence (g = -0.05)",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K12-14",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "identification with interactive groups (rz = −.28) had larger effect sizes than studies that focused on social categories (rz = −.11)",
+  "duzeltme": "Sosyal özdeşleşme ile depresyon arasındaki ilişki ortalamada küçük (rz=-0,15) ve çalışmalar arasında çok değişken; etkileşimli gruplarla özdeşleşmede ilişki daha güçlü (-0,28), soyut kategorilerde daha zayıf (-0,11). Bunlar ilişki bulgusudur; 'her hafta gördüğün somut bir grup işe yarıyor' nedensel çıkarımı ve 'yüz yüze' ayrıntısı kaynakta yok, yalnızca yorum olarak etiketlenmeli.",
+  "parti": 2
+ },
+ {
+  "id": "K12-16",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "Identity-promoting resources (i.e., multiple group memberships, perceived self-continuity) are beneficial only later in the adaptation process",
+  "duzeltme": "Boşanmış kişilerde (İsviçre, 40-79 yaş) çoklu grup üyeliği ve benlik sürekliliği, boşanmadan 2-5 yıl sonra daha düşük sosyal yalnızlıkla ilişkiliydi; ilk 2 yılda böyle bir ilişki yoktu (kesitsel, boşanma örneği). 'Korumaya başlıyor' nedensel dili yerine 'ilişkili' denmeli.",
+  "parti": 11
+ },
+ {
+  "id": "K12-23",
+  "sonuc": "erişilemedi",
+  "gordugum": "göremedim",
+  "kanit": "",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K13-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "2 milyon 475 bin 19 kişi ... 2008'de yüzde 3,18 ... 2025'te yüzde 2,87; 564 bin 114 hanedeki bir ferde bağlı, 510 bin 226 konut/yaşam koşulları, 406 bin 144 eğitim",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K13-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "2025 329.912 aldığı, 371.258 verdiği, -41.346; net göç hızı binde eksi 2,62; İstanbul en fazla göç alan il",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K13-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "106 bin 83 kişiyle Türkiye'nin en fazla göç alan üçüncü ili; 98 bin 728 kişi; net göç hızının binde 1,63; 81 il arasında 25'inci sırada",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K13-08",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Bir önceki yıl 117 bin 889 kişi göç alan ve 102 bin 40 kişi göç veren İzmir... net göç kazancı 2024'te 15 bin 849 kişi; 2025'te yalnızca 7 bin 355",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K13-09",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Kocaeli’ne 284.458, Tekirdağ’a 244.122, Ankara’ya 211.526, İzmir’e 190.602 ve Tokat’a 183.064 göç verdi",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K13-10",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Ankara’dan 207.287, Tokat’tan 191.010, Kocaeli’nden 177.581, İzmir’den 160.661 ve Ordu’dan 142.890 göç aldı",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K13-12",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "2 milyon 475 bin 19 kişiden, 564 bin 114'ü hanedeki fertlerden birine bağımlı göç etti; 510 bin 226 ... daha iyi konut ve yaşam koşulları, 406 bin 144 ... eğitim",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K13-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "erkeklerde 253 bin 93 kişiyle daha iyi konut ve yaşam koşulları ... kadınlarda 334 bin 900 kişi ile hanedeki fertlerden birine bağımlı göç; yüzde 52,5'ini kadınlar",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K13-18",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "İstanbul'un nüfusu ... 52 bin 451 kişi artarak 15 milyon 754 bin 53; yüzde 18,3; İzmir 4 milyon 504 bin 185; Türkiye 86 milyon 92 bin 168",
+  "duzeltme": "Sayfa İstanbul 15.754.053, İzmir 4.504.185 ve Türkiye 86.092.168 değerlerini doğruluyor; İzmir'in 2024 değeri (4.493.242) sayfada görülmedi, deftere doğrulanmadı diye işlenmeli. Rapordaki 15,7 milyon ve 4,5 milyon ifadeleri doğru.",
+  "parti": 7
+ },
+ {
+  "id": "K13-22",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Aralık’18’de imkanı olsa İstanbul dışında yerleşmek isteyenlerin oranı yüzde 53 iken Mart’24’te bu oran da yüzde 61’lere çıkıyor. (Marketing Türkiye); KONDA kaydı: 2-3 Mart 2024, 2489 kişi, yüz yüze",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K13-24",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "İstanbul 475,20 TL, İzmir 296,46 TL, Türkiye 275,37 TL (WebSearch özeti; oksijen sayfası 403 verdi)",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K13-26",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "İstanbul'da yaşayanların trafikte yitirdiği süre 118 saat; İzmir ... ortalama zaman 72 saat; Bursa 64 saat",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K14-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "193'tür, bunlardan yalnızca 13'ünün (%6,7) İzmir'e ilişkin ağırlıklı olarak olumsuz bir yaklaşıma sahip olduğu bulgulanmıştır.",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K14-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "%70'e yakını beş yıl ve daha az süredir İzmir'de yaşamaktadır.",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K14-03",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "daha uzun süredir İzmir'de yaşayanların (6 yıl ve daha fazla), \"olumsuz çağrışımlar\"a ve \"sembolik yerler\" kategorisine daha fazla öncelik verdikleri görülmektedir.",
+  "duzeltme": "İzmir'de 6 yıl ve daha uzun yaşayanlar ilk çağrışımlarında olumsuz yanlara ve simgesel yerlere daha çok yer veriyor; yazarlar bunu, kalıcı ve uzun deneyimde kentin 'tatilden ibaret' olmayan sorunlarıyla algılanması olarak yorumluyor (varsayım, zaman içinde izleme yok; gruplar karşılaştırıldı).",
+  "parti": 2
+ },
+ {
+  "id": "K14-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "OLUMSUZ ÇAĞRIŞIMLAR (67 kez): Küçük (10); Bencil / Tutucu / Tembel İnsanlar (11); Trafik (7); Kalabalık (6)",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K14-05",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "göstergeler ağırlıklı olarak İzmir'in İstanbul'a göre yaratıcı sınıf için yaşam kalitesi açısından daha yaşanabilir bir kent olduğu yönündedir.",
+  "duzeltme": "İstanbul'dan İzmir'e taşınan 35 yaratıcı sektör çalışanıyla yapılan görüşmelerde katılımcılar İzmir'i yaşam kalitesi bakımından daha yaşanabilir buldu; İstanbul'un öne geçtiği alanlar teknolojiye erişim ve sosyal olanaklar oldu. İstanbul'un yaratıcı sektörde daha büyük paya sahip olması yazarların ikincil veriye dayanan tespitidir, görüşmelerin bulgusu değildir.",
+  "kanit_not": "",
+  "parti": 2
+ },
+ {
+  "id": "K14-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "%81,2 kendini “İzmirli” olarak tanımlıyor; %75,6 İzmir’de yaşama deneyimlerine, %21,9 doğum yerine; 30 ilçe, 26.819 kişi, olasılıklı örneklem (telefon görüşmesi)",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K14-08",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "görüşülen kişilerin %92,3’ü kendilerinin İzmir’de tamamen ya da kısmen mutlu olduğunu belirtmektedir; %91,5’i ... tamamen ya da kısmen güvende hissetmektedir",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K14-09",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Arama özeti: 161 katılımcı (88 erkek, 73 kadın); basamaklı regresyonda en güçlü yordayıcılar mahalleden memnuniyet, oturma süresi, komşu ilişkilerinden memnuniyet; kent kimliği en son",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K14-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "Bianet: 'Büyük korkulardan biri İstanbullaşan İzmir'; 'En çok sorun yaratan göçmenler: İstanbullular!' Katılımcı sayısı yok; video mülakatlar.",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K14-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "bir kısım göçmenin şehrin konforunu, sosyokültürel imkanlarını, sosyal çevresini ve altyapı olanaklarını özlediği tespit edilmiştir.",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K14-24",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "sılaya bir yandan özlem duyarlarken, öte yandan da gurbet olarak gördükleri bulundukları yerlere uyum sağlamaya çalıştıkları görülmüştür.",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K14-26",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "tampon mekanizma nedeniyle kısmi de olsa kentlileşmeyi engellemektedir",
+  "duzeltme": "Tokat'ta hemşehri derneği üyesi ve yöneticisi 208 kişiyle yapılan bir çalışmaya göre dernekler yeni gelenlere yerleşme ve sosyal ilişki desteği veriyor; aynı destek kentle kaynaşmayı kısmen engelleyebiliyor (Altıparmak 2015'in aktardığı Özkiraz ve Acungil 2012 bulgusu). Kaynak 'ilk dönem' ile 'uzun vade' ayrımı yapmıyor ve 'geciktirme' demiyor, 'kısmen engelleme' diyor.",
+  "parti": 2
+ },
+ {
+  "id": "K15-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "122 randomized controlled trials: standardized mean difference = -0.50, 95% confidence interval [-0.60, -0.39] ... graded as low or very low",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K15-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Psychological interventions appeared to be the most effective intervention strategy for reducing loneliness, demonstrating a moderate effect",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K15-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "social cognitive training −0.598 (p=0.001, 4 interventions); social support −0.162 (12); social skills 0.017 (2); social interaction opportunities −0.062, p=0.67 (2)",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K15-13",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "people who had a social interaction with a barista (i.e., smiled, made eye contact, and had a brief conversation) experienced more positive affect than people who were as efficient as possible",
+  "duzeltme": "Bir saha deneyinde baristayla gülümseyip kısa sohbet edenler, işlemi olabildiğince hızlı bitirenlere göre daha fazla olumlu duygu bildirdi (aidiyet duygusu aracı olabilir, ön kanıt). Rapordaki \"deneylerde\" çoğul ifadesi bu kaynak için geçerli değil; tek çalışma.",
+  "parti": 6
+ },
+ {
+  "id": "K15-19",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "more introverted participants had weaker PA increases, experienced increased NA and tiredness, and decreased feelings of authenticity",
+  "duzeltme": "Bir haftalık 'dışadönük davran' denemesinde (n=147) genel olarak olumlu duygu ve özgünlük arttı; içe dönükler daha zayıf olumlu duygu artışı, daha çok olumsuz duygu ve yorgunluk, daha az özgünlük bildirdi. 'Tek grup, düzenli katılım yeter' bu çalışmadan çıkmaz; kaynaksız yorum olarak ayrılmalı. Makaleye Temmuz 2026'da bir düzeltme (erratum) yayımlandı; içeriği görülemedi, sayılar bu nedenle yeniden kontrol edilmeli.",
+  "parti": 11
+ },
+ {
+  "id": "K15-20",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "standardised mean difference 0.18 (95% CI, -0.002 to 0.36) ... no significant benefit on single outcomes, including depression, quality of life, loneliness ratings",
+  "duzeltme": "Fiziksel ya da ruhsal sağlık sorunu olan gruplarda yapılan 14 denemenin meta-analizinde gönüllüyle bire bir eşleştirmenin genel etkisi küçüktü (SMD 0,18; GA -0,002 ile 0,36) ve yalnızlık dahil tek tek sonuçlarda anlamlı yarar bulunmadı. Bu bulgu genel nüfustaki yalnızlığa değil hasta gruplarına dayanır; yazarlar 'orta kalitede kanıt' diyerek genel olumlu bir yarar da bildiriyor.",
+  "parti": 11
+ },
+ {
+  "id": "K16-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Home Bay surveyed 1,000 Americans...; Roughly 36% of people who moved in 2022 say they have regrets; one-fifth (20%) ... missed their original home; başlık '75% ... Regret'",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K16-03",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "“moving away from their friends” (49%) and “leaving the area they used to live in” (40%) are the top regrets; survey of 1,253 who booked a move using HireAHelper.com",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K16-04",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "PA Realtors (All Star Home, 1.000 kişi): 'In the last three years, 36% of Americans have moved' ... 'one in five regret moving'. Fortune: 'Home Bay' anketi, '75% ... have regrets'.",
+  "duzeltme": "Aralık doğru (All Star Home yaklaşık beşte bir; Home Bay yüzde 75), ama yüzde 36 pişmanlık oranı değil; son üç yılda taşınanların payı (All Star Home anketi). Yüzde 75 başlığı ise başka bir anketten (Home Bay, son bir yılda taşınan 1.000 kişi). Rapordaki 'aynı anketin başlığı yüzde 75, metni yüzde 36 diyor' cümlesi yanlış; iki farklı anket. Alıntı Axios'tan değil PA Realtors'tan. Axios sayfasına erişemedim (403).",
+  "parti": 1
+ },
+ {
+  "id": "K16-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Movers who return home (%) 61.3% 56.5% 51.3% 42.8% 50.2%",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K16-08",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "the propensity to return to an area varies directly with the amount of location-specific capital that is left behind and inversely with the ex-resident's length of absence",
+  "duzeltme": "Dönme eğilimi, geride bırakılan yere özgü sermaye (kaynakta tanım özette yok; çevre, dostluk ve iş bağlantılarını kapsadığı yorumdur) arttıkça yükseliyor, uzakta geçen süre uzadıkça düşüyor. Veri PSID 1968-75, 5.000'den fazla aile (IIASA ön çalışması).",
+  "parti": 8
+ },
+ {
+  "id": "K16-10",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "one quarter to one third of return moves were to the original (1986) dwelling, indicating a planned return rather than the failed migration",
+  "duzeltme": "Kanada ve Avustralya'da 1986-1991 sayım verisinde dönüş taşınmalarının dörtte biri ile üçte biri 1986'daki eski konuta oldu; yazarlar bunu başarısız göç değil planlı dönüş işareti olarak yorumluyor (yorum yazarların, doğrudan ölçülmüş plan değil).",
+  "parti": 5
+ },
+ {
+  "id": "K16-15",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "49% (n = 641) indicated that they were more troubled by their most regrettable inaction.",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K16-16",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "implies a causal impact of increased happiness of .476 on a 1-10 scale",
+  "duzeltme": "0,476 'önemli kararlar' için değil, tüm sorular birlikte (altı ay, 2SLS, SE 0,214) içindir; yalnızca önemli kararlarda tahmin 2,153 (SE 0,652). Düzeltilmiş ifade: 'Tüm kararlar birlikte alındığında değişiklik yapanlar altı ay sonra 1–10 ölçeğinde yaklaşık 0,48 puan daha mutluydu; önemli kararlarda tahmin çok daha büyük ama belirsiz.'",
+  "parti": 9
+ },
+ {
+  "id": "K16-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "With the exception of “Should I move?” which shows no impact of the coin toss",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K16-19",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Time X Condition interaction, F(1, 22) = 5.68, p = .03, r = .45. Unchangeable experiencers showed a greater increase in their relative liking for the retained print.",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K16-21",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "homesick students rated pre-move events as less unpleasant than controls; after moving they rated events as more unpleasant (three studies)",
+  "duzeltme": "Üniversiteye taşınan öğrencilerde ev özlemi çekenler, taşınma öncesi olayları kontrol grubundan daha az nahoş, sonrasını daha nahoş değerlendirdi (üç çalışma, ikincisi birincisini kısmen tekrarladı).",
+  "parti": 4
+ },
+ {
+  "id": "K16-22",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "homesickness normally peaks immediately after relocation and fades away afterward ... low overall intensities of homesickness",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K16-26",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "Across Studies 2 and 3, instructing individuals to self-distance (rather than self-immerse) eliminated this asymmetry.",
+  "duzeltme": "Üç deneyde (N=693) kişiler başkasının sorununda kendi sorunlarına göre daha bilgece akıl yürüttü; kendine mesafe koyma yönergesi (olaya dışarıdan bakma) bu farkı deneysel ortamda ortadan kaldırdı. 'Bir arkadaşım olsa ne derdim' sorusu bu çalışmada sınanan yönerge değildir; raporda buna göre ifade edilmeli. 'Etki büyüklüğü sonraki çalışmalarda değişken' notu özette yok, doğrulanamadı.",
+  "parti": 11
+ },
+ {
+  "id": "K17-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "one hour rather than 0 minutes commuting (one way)... –0.20 points (t=-3.99)... one standard deviation (i.e. 18 minutes), the effect is -0.086",
+  "duzeltme": "",
+  "kanit_not": "",
+  "parti": 13
+ },
+ {
+  "id": "K17-05",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "longer commute times were not associated with lower overall life satisfaction (except where individuals persisted with them over all six waves)",
+  "duzeltme": "İngiltere'de uzun işe gidiş genel yaşam doyumunu düşürmüyor; ancak altı dalga boyunca uzun yolu sürdürenler bunun dışında. Boş zaman ve iş doyumu düşüyor, gerginlik artıyor, ruh sağlığı kötüleşiyor.",
+  "parti": 3
+ },
+ {
+  "id": "K17-08",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "mood is lower during the commute than other daily activities; walk or cycle... more satisfied with their commute than those who travel by car; a consistent link between commuting and life satisfaction overall has not been established",
+  "duzeltme": "Derlemeye göre yolculuk sırasında ruh hâli diğer günlük etkinliklerden düşük; yürüyenler ve bisiklet kullananlar işe gidişinden arabayla gidenlerden daha memnun; ancak işe gidişle genel yaşam doyumu arasında tutarlı bir bağ kurulamamış. \"Toplu taşıma en az memnun\" ayrıntısı özetle birebir doğrulanamadı. Rapor cümlesi (tutarlı bağ yok) doğru.",
+  "parti": 6
+ },
+ {
+  "id": "K17-10",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "No coastal effect on life satisfaction was found.",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K17-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "individuals who moved to greener areas (n = 594) had significantly better mental health in all three postmove years",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K17-16",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "no evidence was found for an association between changes in green spaces and changes in mental health",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K17-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "We observed null associations between changes in mental health due to changes in green and blue space.",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K17-25",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "there is no consistent evidence that heat effects on well-being differ across areas with mild and hot summers, suggesting limited variation in heat adaptation",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K17-26",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Our estimates reveal no evidence of adaptation, instead the temperature relationship is stable across time, baseline climate, air conditioning penetration rates",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K18-01",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "followed from their 15th birthdays until their early forties (N=1,475,030); Risks grew incrementally with increasing age of exposure",
+  "duzeltme": "Danimarka çalışması (Webb ve ark. 2016) çocuklukta taşınmayla sonraki olumsuz sonuçlar arasında gözlemsel bir ilişki gösteriyor. 'İlişkinin önemli bir kısmı eşlik eden koşullardan geliyor' cümlesi bu çalışmadan değil, ABD'deki Dong 2005 çalışmasından gelir; cümle ayrı atıfla verilmeli.",
+  "parti": 7
+ },
+ {
+  "id": "K18-02",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Risk increased steadily with rising age at exposure, and was markedly raised if multiple annual relocations occurred at ages 12–14 years",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K18-08",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "8116 adults; high mobility (>= 8 moves); odds ranged from 1.3 (smoking) to 2.5 (suicide); relationship ... greatly reduced",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K18-10",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "the outcomes are similar for children who move or remain in place prior to elementary school, whereas those who move in adolescence are worse off than those who do not",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K18-12",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "have an annual income that is $3,477 (31%) higher on average relative to a mean of $11,270 in the control group in their mid-twenties",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K18-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Moving as an adolescent has slightly negative impacts, perhaps because of disruption effects.",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K18-14",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "composite effect size -0.25 for reading and -0.22 for math ... 3-4 month performance disadvantage; 26 studies; frequency of mobility, socioeconomic status, and grade",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K18-16",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Özet (arama): LSY79 verisiyle ebeveyn yakınlığının taşınmanın etkisini düzenlediği, akademik etkinin cinsiyete göre farklı olduğu bildirilmiş; N=3.168 ve alıntı görülemedi (kaynak Anubis ile engelli)",
+  "duzeltme": "ABD'de NLSY79 verisiyle yapılan tek bir çalışmada ebeveynle duygusal yakınlığın taşınmanın olumsuz etkilerini hafiflettiği, akademik etkide ise bunun cinsiyete göre değiştiği bildirilmiş. N ve yayın yılı (2013/2014) doğrulanamadı.",
+  "parti": 8
+ },
+ {
+  "id": "K18-20",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "The first short-distance residential move decreased the risk of union dissolution by 25%. ... migrating twice or more increased the hazard of union dissolution 2.5 times",
+  "duzeltme": "Avusturya'da 3.118 kadınlık veride ilk uzun mesafe göç ayrılık riskini değiştirmedi (göreli risk 1,03); ilk kısa mesafe taşınma riski yüzde 25 azalttı; iki ya da daha fazla uzun mesafe göç, bir kez taşınanlara göre riski yaklaşık 2,3–2,5 kat artırdı. Veri yalnızca Avusturyalı kadınların bildirdiği ilişkilerden (1995–96) geliyor.",
+  "Not": "",
+  "parti": 10
+ },
+ {
+  "id": "K18-22",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "two independent samples ... lower income neighborhoods ... total N = 662 couples. Preregistered analyses found no evidence that moving was negatively associated with couples' satisfaction",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K18-24",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "women with egalitarian partners are less likely to leave employment after family migration than those with traditional partners. No significant effects for men were found.",
+  "duzeltme": "",
+  "parti": 5
+ },
+ {
+  "id": "K19-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "found to survive the transfer only when aspects of the performance context did not change",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K19-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "statistically significant effect ... within the previous three months, F(1,142) = 8.19, p < .01, and non-significant effects in the three remaining groups",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K19-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "extent to which relocation boosted intervention effects was small ... results should be considered as 'proof of concept'; cut-off period of six months was arguably arbitrary",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K19-10",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "the evidence for the effects of environmental change/relocation on physical activity or walking was weak to moderate",
+  "duzeltme": "Konut değişikliğinin yürüme ve fiziksel etkinlik üzerindeki etkisine dair kanıt, geriye dönük çalışmalarda iyi, ileriye dönük 15 çalışmada zayıf-orta düzeydeydi. Bu, taşınmanın genel olarak iyi alışkanlık üretmediğini değil, yalnızca mahalle çevresi değişince yürüme ve fiziksel etkinlik etkisinin kanıtının zayıf olduğunu gösterir.",
+  "parti": 11
+ },
+ {
+  "id": "K19-12",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "additional personal landmarks (e.g., religious conversions, relocations, job changes, etc.) would be valuable",
+  "duzeltme": "",
+  "parti": 7
+ },
+ {
+  "id": "K19-18",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "Four studies reported the median or mean times to reach habit formation, ranging from 59-66 days (median) and 106-154 days (means), with substantial individual variability (4-335 days).",
+  "duzeltme": "Meta-analizdeki 20 çalışmadan yalnızca dördü alışkanlık oluşum süresini bildirmiş (ortanca 59–66 gün, kişiden kişiye 4–335 gün); çalışmaların çoğu yüksek yanlılık riskli. \"Ortanca iki ay\" bu dört çalışmaya dayanan kaba bir tahmindir.",
+  "parti": 6
+ },
+ {
+  "id": "K19-20",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "26 per cent, twice what chance would predict ... putting these aside, 24 per cent of participants' recollections still occurred around moving house",
+  "duzeltme": "Yüzde 24, taşınmayla ilgili anılar çıkarılınca değil; katılımcıların yüzde 65'inin bildirdiği başka bir yaşam olayı (emeklilik, iş değişikliği) etkisi ayrıldıktan sonraki oran. Taşınmayla doğrudan ilgili anılar çıkarılınca BPS özeti sayı vermeden 'bump sürdü' diyor. 65 yaş üstü 149 kişi, 40–60 yaş arası anılar; yüzde 26 ve beklenen yüzde 13 doğru.",
+  "parti": 1
+ },
+ {
+  "id": "K19-23",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "the duration of the task was remembered as being shorter in routine conditions than in nonroutine ones",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K19-25",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "daily variability in physical location was associated with increased positive affect in humans",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K19-26",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "selective increase in gray matter (GM) volume in their posterior hippocampi ... No structural brain changes were observed in trainees who failed to qualify or control participants.",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K19-27",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Twenty-four college students ... most participants either manifested accurate metric knowledge from the first session or never manifested accurate metric knowledge",
+  "duzeltme": "",
+  "parti": 11
+ },
+ {
+  "id": "K19-28",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "50 regular drivers ... 13 participants were retested three years after ... Although the longitudinal sample was small",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K19-30",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "the self-regulatory benefits of habits were apparent in the lesser feelings of stress associated with habitual than nonhabitual behavior",
+  "duzeltme": "Saatlik günlük çalışmalarında alışkanlık dışı davranış, alışkanlık davranışına göre daha çok düşünce ve daha çok stresle birlikte bildirildi (ilişkisel bulgu). İlk aylardaki yorgunluğun bir kısmının bundan kaynaklanması makul bir çıkarımdır ama kaynakta sınanmadı; 'çıkarım benim' diye işaretlenmeli.",
+  "parti": 11
+ },
+ {
+  "id": "K20-03",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "once other factors are controlled for, the three groups show similar levels of attachment to the local places (arama özetinde)",
+  "duzeltme": "Norveç'teki üç kırsal belediyede yapılan ankette, başka etkenler denetlenince uluslararası göçmenler, iç göçmenler ve yerliler yerel ölçeklere benzer düzeyde bağlıydı. Bu yalnızca üç kırsal belediyeyi kapsıyor; 'Norveç'te' diye genellenmemeli.",
+  "parti": 3
+ },
+ {
+  "id": "K20-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "we found that socio-demographic factors are not relevant, it is social contacts that are important in explaining local attachment",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K20-06",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "For natives and migrants alike, close ties in the neighbourhood raise local attachment. Small talks are relevant for migrants but not for natives.",
+  "duzeltme": "Viyana'da yakın bağlar hem yerlilerde hem göçmenlerde yerel bağlılığı artırıyor; ayaküstü sohbetler yalnızca göçmenlerde ilişkili (burada 'göçmen' uluslararası göçmenlerdir, kente sonradan taşınanların genel karşılığı değildir).",
+  "parti": 2
+ },
+ {
+  "id": "K20-08",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "the length of residence strongly predicts migrants' attachment to the city, which is consistent with existing studies",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K20-09",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Du and Li (2010) found that longer stay in the urban village is associated with weaker community attachment.",
+  "duzeltme": "",
+  "parti": 2
+ },
+ {
+  "id": "K20-10",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "visualization... enhanced participants' sense of belongingness, self-esteem, and meaningfulness, but it did not alter control or mood (tez tartışma bölümü); 133 undergraduate students",
+  "duzeltme": "Bir deneyde (tez, Çalışma 3; dışlanma paradigması içinde) bağlı olunan yeri canlandırmak nötr yere göre aidiyet, öz saygı ve anlam duygusunu artırdı; kontrol ve ruh hâli ana analizde değişmedi. Tezin özeti ise etkilerin yalnızca kaçıngan yer bağlanma stili olmayanlarda görüldüğünü, kontrol ve olumsuz duygunun da arttığını söylüyor; tez içinde tutarsızlık var, tek çalışma, ihtiyatla aktar.",
+  "parti": 6
+ },
+ {
+  "id": "K21-06",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "out‐migration from cities seem to have been temporary, though evidence from Spain and Britain points to scarring effects with persistent losses in highly dense areas",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K21-10",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "About a quarter of Americans who said they had moved due to the pandemic since early 2020 (23%) now say they live in the same home they had occupied before",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K21-14",
+  "sonuc": "kısmen",
+  "gordugum": "başka kaynak",
+  "kanit": "Most movers were content with their decision ... Many respondents reported better outcomes in both areas",
+  "duzeltme": "Metropolden ayrılan çocuklu İsveçli ailelerin çoğu kararından memnun; birçoğu hem iş hem yaşam tarzı alanında daha iyi sonuç bildirdi ('çoğu' değil 'birçoğu'; öz bildirim, kesitsel anket).",
+  "parti": 4
+ },
+ {
+  "id": "K21-15",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "more remote and structurally weaker regions exhibit higher exit risks",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K21-16",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "about two-thirds of those who moved to regional Australia felt their life had improved, 15 per cent said their life had \"changed for the worse\" ... More than 7000 people ... took part",
+  "duzeltme": "Üçte iki ve yüzde 15 doğru (haberde 'yedi binden fazla kişi'; 7.358 görmedim). Metropolden gidenlerin en çok zorlandığı alan alışveriş, toplu taşıma ve sağlık hizmetine erişimin azalması; iş, ücret, yalnızlaşma, kültür çeşitliliği bunların yanında sayılıyor. Anket ACM'nin kendi araştırma koluyla yapılmış, haber üzerinden aktarılıyor. Rapora hizmetlere erişimi ekleyin.",
+  "parti": 1
+ },
+ {
+  "id": "K21-17",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Workers in cities earn 33% more than their nonurban counterparts... a significant fraction of the urban wage premium accrues to workers over time and stays with them when they leave cities",
+  "duzeltme": "",
+  "parti": 8
+ },
+ {
+  "id": "K21-18",
+  "sonuc": "doğrulandı",
+  "gordugum": "başka kaynak",
+  "kanit": "The additional value of experience in bigger cities persists after leaving and is stronger for those with higher initial ability.",
+  "duzeltme": "",
+  "parti": 4
+ },
+ {
+  "id": "K21-20",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "a 48% lower risk for people who attended once a month or more (OR = 0.52, 95% CI 0.34-0.80, P = 0.003)... 2148 adults in the English Longitudinal Study of Ageing who were free from depression at baseline",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K21-23",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "did not seem to have any causative influence on health and well-being",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K21-27",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "there was no significant relationship between geographical area and leisure boredom ... young female students in rural areas being more bored; sample 271 university students, Queensland, 2000",
+  "duzeltme": "Raporda şöyle yazılabilir: \"Küçük yerde sıkılırım kaygısı için veri sınırlı: Avustralya'da (Queensland) 271 üniversite öğrencisiyle yapılan 2000 tarihli tek bir çalışmada yaşanan yer ile boş zaman sıkıntısı arasında genel bir ilişki bulunmadı, yalnızca kırsaldaki genç kadınlar daha sıkılmış görünüyordu.\" \"Tutarlı veri yok\" yerine \"sınırlı ve eski veri\" daha ölçülü.",
+  "parti": 8
+ },
+ {
+  "id": "K22-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "13 societies (N = 5,366) ... national youth (N = 2,631) ... integration profile had the best psychological and sociocultural adaptation outcomes",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K22-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "a reanalysis of a previous meta-analysis (k = 83, N = 23,197) and a new meta-analysis of exclusively longitudinal studies (k = 19, N = 6,791)... longitudinal evidence is minuscule at best",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K22-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "integration and adaptation (r = .09), mainstream culture orientation and adaptation (r = .12), and heritage culture orientation and adaptation (r = .11)",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K22-07",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "the variation mainstream culture orientation explained in adaptation is only about 1%",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K22-08",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "r = .11 for Nguyen and Benet-Martinez’s (2013) dataset and r = .17 for the ICSEY dataset",
+  "duzeltme": "",
+  "parti": 9
+ },
+ {
+  "id": "K22-10",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "transnational involvement in general does not impede 'immigrant integration'",
+  "duzeltme": "Hollanda'daki 300 uluslararası göçmenle yapılan bir çalışmada köken ülkeyle bağlar uyumu genel olarak engellemiyordu; bu bulgu şehirler arası taşınmaya doğrudan aktarılamaz ve 'iki yere bağlı olmak en yaygın durum' bu kaynaktan çıkmaz.",
+  "parti": 12
+ },
+ {
+  "id": "K22-11",
+  "sonuc": "kısmen",
+  "gordugum": "özet",
+  "kanit": "Longitudinal analyses indicate that integration and transnational involvement do not necessarily oppose each other (kitap özeti; Springer/Crossref abstract yok)",
+  "duzeltme": "Almanya'da göçmenlerle yapılan boylamsal bir çalışma, uyum ile köken ülkeyle bağın zorunlu olarak birbirine karşıt olmadığını gösteriyor; ilişki nedensel değil. \"Engellemiyor\" yerine \"zorunlu olarak engellemez\" denmeli.",
+  "parti": 8
+ },
+ {
+  "id": "K22-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "as new network members are added, some old network members either are replaced or receive fewer calls",
+  "duzeltme": "",
+  "parti": 10
+ },
+ {
+  "id": "K22-15",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "short-term longitudinal study of college students (N = 70) ... 10 weeks ... loneliness and poor self-esteem in college",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K22-18",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "In Deutschland konnten 1663 Probanden befragt werden (Responserate 18 Prozent), darunter 415 mobile Personen ... Fern- oder Wochenendpendeln sind dagegen oft dauerhaft Stress induzierend.",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K22-19",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Umzug scheint mit einer hohen, aber kurzzeitigen Belastungsspitze einherzugehen ... Hinweise auf die Bedeutung eines „healthy mobile“ Selektionseffekts",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K22-22",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Counter to popular assumptions, seasonal residents exhibit higher levels of attachment, but its creation and meaning base varies",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K23-01",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "30 were eligible for the meta-analysis, comprising 258,387 participants (18.6% migrants)... g = 0.21; 95% CI [0.13, 0.30]",
+  "duzeltme": "",
+  "parti": 3
+ },
+ {
+  "id": "K23-04",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Long-distance moves ... show some positive changes in job satisfaction after relocation, but there are no significant fluctuations in satisfaction with other life domains either around the time of the move or at a later date",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K23-05",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "In particular women who move for her partner's job prospects suffer losses in perceived quality of social life. BHPS waves 1997–2008, panel fixed-effects",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K23-06",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "natives (10.3) and migrants (10.4) are only minimal ... 3,471 persons (59 percent response rate) ... Halle Citizen Survey",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K23-07",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "Length of residence 0-4 years 0.289* (0.130); 5-10 years -0.088 (0.072); 11-40 years 0.031* (0.015)",
+  "duzeltme": "Katsayılar doğru, ama ölçü 17 yardım kaynağından erişilen toplam sayıdır; yalnızca arkadaş ve tanıdık kaynakları değil. Veri kesitsel: farklı oturma sürelerindeki insanlar karşılaştırılıyor, aynı kişiler izlenmiyor. Tablo hücresi şöyle olmalı: 'İlk 4 yıl: erişilebilen toplam yardım kaynağı en hızlı artıyor (Halle, kesitsel); 5–10 yılda durgunluk, 11. yıldan sonra çok yavaş artış.'",
+  "parti": 1
+ },
+ {
+  "id": "K23-08",
+  "sonuc": "kısmen",
+  "gordugum": "tam metin",
+  "kanit": "4.5 percent less social capital from kin relations, 5.2 percent more ... friendships and 6.0 percent more ... acquaintances ... these differences are not significant when controlling for confounding variables",
+  "duzeltme": "Kontrollü modelde taşınanlarla yerliler arasında anlamlı fark yok; arkadaş (+%5,2) ve tanıdık (+%6,0) farkı anlamsız, akraba farkı için metin tutarsız (önce anlamlı, sonra kontrollerle anlamsız deniyor). 'Arkadaş ve tanıdıktan gelen artıyordu' yerine: 'taşınanlarda akrabadan gelen kaynak biraz az, arkadaş ve tanıdıktan gelen biraz fazla görünüyor, ama kontrol değişkenleriyle bu farklar anlamlı değil.' Ayrıca '4 yıldan sonra duruyordu' yerine: '5–10 yılda durgunluk, 11. yıldan sonra çok yavaş artış.'",
+  "parti": 1
+ },
+ {
+  "id": "K23-09",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "persons who are older and those who were older at the time of relocation have less social capital ... Age -0.206*** (Model 2)",
+  "duzeltme": "",
+  "parti": 1
+ },
+ {
+  "id": "K23-12",
+  "sonuc": "doğrulandı",
+  "gordugum": "özet",
+  "kanit": "Newcomers received minimal social support even after several months and were increasingly dissatisfied with friendships. Two structured interviews were completed three months apart.",
+  "duzeltme": "",
+  "parti": 6
+ },
+ {
+  "id": "K23-13",
+  "sonuc": "doğrulandı",
+  "gordugum": "tam metin",
+  "kanit": "Internal migrants feel less happy than locals when spending time with friends and while eating. (109 locals and 41 migrants; locals do not spend more time ... with friends)",
+  "duzeltme": "",
+  "parti": 12
+ },
+ {
+  "id": "K23-23",
+  "sonuc": "erişilemedi",
+  "gordugum": "göremedim",
+  "kanit": "",
+  "duzeltme": "",
+  "parti": 12
+ }
+]
