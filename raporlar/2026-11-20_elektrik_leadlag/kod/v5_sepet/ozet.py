@@ -29,6 +29,6 @@ for soru, q in df.groupby('soru', sort=False):
         f = q[q.donem == 'IS'][['sinyal', 'varyant', 'uc_donemde_kotu_degil_per', 'uc_donemde_kotu_degil_per_net', 'uc_donemde_kotu_degil_ham']]
         print(f[f.varyant != 'tam_sepet'].to_string(index=False))
     elif soru in ('4_hisse',):
-        print(q.drop(columns=['soru', 'sinyal', 'donem']).round(3).to_string(index=False))
+        print(q.drop(columns=['soru', 'sinyal', 'donem'], errors='ignore').round(3).to_string(index=False))
     else:
-        print(q.drop(columns=['soru']).round(2).to_string(index=False))
+        print(q.drop(columns=['soru'], errors='ignore').round(2).to_string(index=False))
