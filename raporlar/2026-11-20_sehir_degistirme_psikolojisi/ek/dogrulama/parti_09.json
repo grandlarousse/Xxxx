@@ -1,0 +1,182 @@
+[
+ {
+  "id": "K09-02",
+  "iddia": "Jokela 2009 etki büyüklüğü: eyaletler arası göçte açıklık için 1 SS başına OR=1,19 (tek değişkenli) ve 1,32 (uyumlulukla birlikte), uyumluluk OR=0,86; katılımcıların %9,2'si (359 kişi) eyalet değiştirdi, %32,7'si eyalet içinde taşındı.",
+  "kaynak_adi": "Jokela 2009, Journal of Research in Personality",
+  "url": "https://midus.wisc.edu/wp-content/uploads/2024/04/724.pdf",
+  "alinti": "between-states migration was predicted by openness (OR = 1.19, SE = 0.08, p = 0.007), but not by extraversion",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Kim taşınır?** En tutarlı yordayıcı deneyime açıklık: ABD'de açıklığı yüksek olanların eyalet değiştirme olasılığı belirgin biçimde daha fazla [K09-02]. Açıklık iş ve eğitim için taşınmayla, duygusal dalgalanma eğilimi konut, mahalle ve aile nedenli taşınmayla ilişkili (dört panel, 86.073 kişi) [K09-04]. Ama farklar küçük: Estonya'da göç yönü kişilik farklarının en çok yüzde 1,29'unu açıklıyor [K09-05]."
+ },
+ {
+  "id": "K11-06",
+  "iddia": "Uyum bozukluğunda intihar girişimi ve intihar riski artmıştır; 'hafif' sayılsa da ciddiye alınmalıdır.",
+  "kaynak_adi": "MSD Manual Professional, Adjustment Disorders (Nisan 2026)",
+  "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/anxiety-and-stressor-related-disorders/adjustment-disorders",
+  "alinti": "Patients with adjustment disorder also have an increased risk of suicide attempts and completed suicide",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Tedavi.** Uyum bozukluğunda tedavi kanıtının kalitesi düşük [K11-09]; daha yeni bir meta-analiz bilişsel davranışçı terapinin yüz yüze ve internet üzerinden etkili olabileceğini söylüyor [K11-10]. Depresyonda davranışsal aktivasyon, yani planlı ve anlamlı etkinlikleri artırmak etkili [K11-13]. Uyum bozukluğu \"hafif\" diye geçiştirilmemeli; intihar girişimi riski artmıştır [K11-06]."
+ },
+ {
+  "id": "K18-12",
+  "iddia": "ABD, Moving to Opportunity deneyi (rastgele atanan konut kuponu): 13 yaşından önce düşük yoksulluklu mahalleye taşınan çocukların 20'li yaşların ortasındaki yıllık geliri 3.477 dolar (yüzde 31) daha yüksek (kontrol ortalaması 11.270 dolar).",
+  "kaynak_adi": "Chetty, Hendren, Katz 2016, The Effects of Exposure to Better Neighborhoods on Children, American Economic Review (NBER w21156 özeti)",
+  "url": "https://www.nber.org/papers/w21156",
+  "alinti": "have an annual income that is $3,477 (31%) higher on average relative to a mean of $11,270",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Çocuklar.** Danimarka'da 1.475.030 kişilik izlemde çocuklukta taşınma ileride intihar girişimi, şiddet suçu ve psikiyatrik hastalık riskiyle ilişkili; en keskin artış, bir yılda birden çok taşınmanın 12–14 yaşa denk geldiği durumda [K18-01, K18-02]. Ama bu ilişkinin önemli bir kısmı taşınmanın kendisinden değil, eşlik eden koşullardan geliyor. ABD'de olumsuz çocukluk yaşantıları hesaba katılınca ilişki büyük ölçüde azalıyor [K18-08]. İsveç'te intihar girişimi riski kardeşler karşılaştırıldığında kayboluyor [K08-21]. Norveç'te okul öncesi taşınanlar taşınmayanlarla benzer, ergenlikte taşınanl"
+ },
+ {
+  "id": "K16-05",
+  "iddia": "ABD NLSY79 verisinde (N=2.684; 18–27 yaşta eyalet değiştiren 868 kişi; 1979–94) taşınanların yüzde 50,2'si 'ev' eyaletine (14 yaşındaki eyalet) geri dönmüş; üniversite mezunlarında yüzde 42,8, lise altında yüzde 61,3.",
+  "kaynak_adi": "Kennan ve Walker, NBER Working Paper 9585 (Econometrica 2011 makalesinin çalışma metni), Tablo 1",
+  "url": "https://www.nber.org/papers/w9585.pdf",
+  "alinti": "Movers who return home (%) 61.3% 56.5% 51.3% 42.8% 50.2%",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "17. **Dönmeyi yenilgi sayma** (orta). ABD'de genç yaşta eyalet değiştirenlerin yarısı yaklaşık on yıl içinde çıktığı eyalete döndü [K16-05]. Kanada ve Avustralya'da dönüşlerin dörtte biri ile üçte biri baştan planlıydı [K16-10]. Son on yılda İstanbul'dan İzmir'e 190.602 kişi giderken İzmir'den İstanbul'a 160.661 kişi gitti [K13-09, K13-10]."
+ },
+ {
+  "id": "K16-16",
+  "iddia": "Levitt'in yazı-tura saha deneyi (22.511 kullanılabilir atış): önemli kararlarda değişiklik yapanlar altı ay sonra daha mutlu; araç değişkenli tahmin 1–10 ölçeğinde 0,476 puan. Örneklem temsili değil, öz bildirim.",
+  "kaynak_adi": "Levitt, 2021, 'Heads or Tails', Review of Economic Studies (NBER WP 22487 metni)",
+  "url": "https://www.nber.org/system/files/working_papers/w22487/w22487.pdf",
+  "alinti": "implies a causal impact of increased happiness of .476 on a 1-10 scale",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "İki uyarı. Bu çalışmalarda \"taşınma\" çoğu zaman aynı şehirde ev değiştirmek demek: İngiltere verisinde taşınmaların yarısı 3,2 km'den kısa, Almanya'da mesafesi bilinenlerin yalnızca yaklaşık yüzde 10'u 50 km'den uzun [K02-04, K02-08]. Şehirler arası taşınma için kanıt ince; eldeki veride uzun mesafe taşınanlar daha kötü durumda değil [K02-03]. Ayrıca taşınanlar rastgele seçilmiyor. Nedenselliğe en yakın çalışma, kararsız insanlara yazı tura attıran deney: değişiklik yapanlar altı ay sonra daha mutluydu, ama \"taşınayım mı\" sorusu para atışının davranışı etkilemediği tek soruydu; yani taşınma iç"
+ },
+ {
+  "id": "K16-17",
+  "iddia": "Aynı deneyde 'Taşınayım mı?' sorusu istisna: para atışı taşınma davranışını etkilemedi (ilk aşama katsayısı 0,004; iki ay anketi N=479). Taşınanların daha mutlu olması (yaklaşık 0,8 puan) yalnızca korelasyon; nedensel kanıt yok.",
+  "kaynak_adi": "Levitt, 2021, 'Heads or Tails' (NBER WP 22487 metni, Şekil 7 ve Tablo 3)",
+  "url": "https://www.nber.org/system/files/working_papers/w22487/w22487.pdf",
+  "alinti": "With the exception of “Should I move?” which shows no impact of the coin toss",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "İki uyarı. Bu çalışmalarda \"taşınma\" çoğu zaman aynı şehirde ev değiştirmek demek: İngiltere verisinde taşınmaların yarısı 3,2 km'den kısa, Almanya'da mesafesi bilinenlerin yalnızca yaklaşık yüzde 10'u 50 km'den uzun [K02-04, K02-08]. Şehirler arası taşınma için kanıt ince; eldeki veride uzun mesafe taşınanlar daha kötü durumda değil [K02-03]. Ayrıca taşınanlar rastgele seçilmiyor. Nedenselliğe en yakın çalışma, kararsız insanlara yazı tura attıran deney: değişiklik yapanlar altı ay sonra daha mutluydu, ama \"taşınayım mı\" sorusu para atışının davranışı etkilemediği tek soruydu; yani taşınma iç"
+ },
+ {
+  "id": "K11-19",
+  "iddia": "Rastgele deney (Moving to Opportunity, ABD, yetişkin N=3.273, 10-15 yıl izlem): düşük yoksulluklu mahalleye taşınma teklifi öznel iyi oluşu +0,098 SS artırdı (p=0,013); ruh sağlığı endeksindeki iyileşme +0,070 SS ve yalnızca sınırda anlamlı (p=0,084). Çok yoksul mahalleden çıkan düşük gelirli ailelere özgü; orta sınıf şehir değişimine doğrudan genellenemez.",
+  "kaynak_adi": "Ludwig ve ark. 2012, Neighborhood effects on the long-term well-being of low-income adults, Science",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3491569/",
+  "alinti": "Effects on mental health are marginally significant ( P =.084) in the direction of better health (ITT effect of +.070 standard deviations",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**İlişki iki yönlü.** Yeni Zelanda'da 44.051 yetişkinin sekiz yıllık izleminde taşınma olasılığı arttıkça depresyon ve kaygı daha yaygın; ama ruh sağlığı kötü olanlar da daha çok taşınıyor [K11-14]. İngiltere'de sonradan daha kötü ruh sağlığı iki grupta görüldü: istemeden taşınanlar ve taşınmak isteyip taşınamayanlar [K11-16]. Taşınma iyileştirebilir de: ABD'deki rastgele deneyde daha az yoksul mahalleye taşınma teklifi yetişkinlerin öznel iyi oluşunu artırdı [K11-19]."
+ },
+ {
+  "id": "K02-22",
+  "iddia": "İngiltere ELSA 2002-2012, ileri yaş: gönülsüz taşınanların iyi oluşu (CASP-19 ölçeği) kalanlardan ve gönüllü taşınanlardan düşük; ancak taşınmadan sonra düşüş duruyor. Tek çalışma, yalnızca yaşlılar.",
+  "kaynak_adi": "Finney, Marshall 2018, Is migration in later life good for wellbeing?, Area",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6282955/",
+  "alinti": "involuntary movers have lower levels of wellbeing than stayers or voluntary movers",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "Bulgular üç noktada birleşiyor. Artan şey çoğunlukla konut memnuniyeti; sosyal yaşam, iş ve gelir doyumunda kalıcı iyileşme görülmüyor [K02-18]. Kararın kimin olduğu önemli: eşinin işi için taşınan kadınlarda kazanç yok [K02-15], ileri yaşta istemeden taşınanların iyi oluşu daha düşük [K02-22]. Ve etkiler her yerde küçük."
+ },
+ {
+  "id": "K11-01",
+  "iddia": "DSM-5'e göre uyum bozukluğunda belirtiler stres kaynağından sonraki 3 ay içinde başlar ve kaynak ya da sonuçları bittikten sonra 6 aydan uzun sürmez (tablo, derleme makalesinden; APA özgün metni görülmedi).",
+  "kaynak_adi": "O'Donnell ve ark. 2019, Adjustment Disorder: Current Developments and Future Directions, Int J Environ Res Public Health (Tablo 1)",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6678970/",
+  "alinti": "within 3 months of the stressor ... Symptoms do not last for more than six additional months after the stressor or its consequences have been resolved",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "\"Taşınma depresyonu\" resmî bir tanı değil. En yakın tanı uyum bozukluğu: belirli bir stres kaynağına verilen, beklenenden ağır ve günlük işlevi bozan tepki. DSM-5'e göre belirtiler stres kaynağından sonraki üç ay içinde başlar ve kaynak ortadan kalktıktan sonra altı ayı aşmaz [K11-01]. ICD-11'e göre bir ay içinde başlar; çekirdek belirtiler olayla aşırı zihinsel meşguliyet ve uyum sağlayamamadır [K11-02]. Depresyon tanısı için belirtilerin günün çoğunda, neredeyse her gün, en az iki hafta sürmesi gerekir [K11-04]. Tanıyı yalnızca hekim koyar."
+ },
+ {
+  "id": "K11-02",
+  "iddia": "ICD-11'e göre uyum bozukluğunda belirtiler stres kaynağından sonraki 1 ay içinde ortaya çıkar ve stres sürmüyorsa genellikle 6 ay içinde geçer; çekirdek belirtiler olayla aşırı zihinsel meşguliyet (kaygı, tekrarlayan düşünce, geviş getirme) ve uyum sağlayamamadır (WHO özgün metni açılamadı).",
+  "kaynak_adi": "O'Donnell ve ark. 2019, Int J Environ Res Public Health (Tablo 1, ICD-11 sütunu)",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6678970/",
+  "alinti": "Symptoms emerge within 1 month of the stressor ... Symptoms typically resolve within 6 months, unless the stressor persists for a longer duration",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "\"Taşınma depresyonu\" resmî bir tanı değil. En yakın tanı uyum bozukluğu: belirli bir stres kaynağına verilen, beklenenden ağır ve günlük işlevi bozan tepki. DSM-5'e göre belirtiler stres kaynağından sonraki üç ay içinde başlar ve kaynak ortadan kalktıktan sonra altı ayı aşmaz [K11-01]. ICD-11'e göre bir ay içinde başlar; çekirdek belirtiler olayla aşırı zihinsel meşguliyet ve uyum sağlayamamadır [K11-02]. Depresyon tanısı için belirtilerin günün çoğunda, neredeyse her gün, en az iki hafta sürmesi gerekir [K11-04]. Tanıyı yalnızca hekim koyar."
+ },
+ {
+  "id": "K11-05",
+  "iddia": "Uyum bozukluğunun genel nüfustaki yaygınlığı yeni ölçme araçlarıyla yaklaşık %2; yakın zamanda işsiz kalanlar gibi yüksek riskli gruplarda %27'ye kadar çıkıyor (tahminler yönteme göre çok değişiyor).",
+  "kaynak_adi": "O'Donnell ve ark. 2019, Int J Environ Res Public Health",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6678970/",
+  "alinti": "prevalence rates of 2% in general population research ... recently unemployed (27%",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Ne kadar sık?** Taşınanlar için doğrudan veri yok. Uyum bozukluğunun genel nüfustaki yaygınlığı yaklaşık yüzde 2 [K11-05]. İşini istemeden yitiren 105 kişide oran ilk ölçümde yüzde 21,9 iken 12 ay sonra yüzde 2,9'a indi [K11-08]. Taşınmadan çok daha ağır olaylardan sonra bile en sık görülen seyir dirençlilik: ortalama yüzde 65,7 [K11-21]."
+ },
+ {
+  "id": "K07-02",
+  "iddia": "Hall'un eşikleri: tanıdıktan gündelik arkadaşa yaklaşık 50 saat, arkadaşa 90 saat, yakın arkadaşa 200 saatten fazla. Tek çalışma, tekrarlanmadı; eşik sayıları makalenin kendisinden değil üniversite basın bülteninden görüldü.",
+  "kaynak_adi": "University of Kansas News 2018, Study reveals number of hours it takes to make a friend",
+  "url": "https://news.ku.edu/news/article/2018/03/06/study-reveals-number-hours-it-takes-make-friend",
+  "alinti": "it takes roughly 50 hours of time together to move from mere acquaintance to casual friend",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "5. **Saat biriktir** (zayıf-orta). Yeni taşınmış yetişkinlerle yapılan çalışmaya göre tanıdıktan gündelik arkadaşa yaklaşık 50, yakın arkadaşa 200 saatten fazla birlikte geçirilen zaman gerekiyor; boş zamanda geçen saatler işte geçenlerden çok sayılıyor [K07-02, K07-03]. Haftada üç saatle bu, gündelik arkadaşlık için yaklaşık dört ay, yakın arkadaşlık için bir yıldan fazla eder (hesap benim). İlk aylardaki \"kimsem yok\" duygusu başarısızlık değil, aritmetik."
+ },
+ {
+  "id": "K07-03",
+  "iddia": "Hall: her saat aynı sayılmıyor; boş zaman etkinliği yakınlığı öngörüyor, birlikte çalışılan saatler daha az sayılıyor.",
+  "kaynak_adi": "University of Kansas News 2018 (Hall çalışması)",
+  "url": "https://news.ku.edu/news/article/2018/03/06/study-reveals-number-hours-it-takes-make-friend",
+  "alinti": "Hours spent working together just don't count as much, Hall's study found.",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "5. **Saat biriktir** (zayıf-orta). Yeni taşınmış yetişkinlerle yapılan çalışmaya göre tanıdıktan gündelik arkadaşa yaklaşık 50, yakın arkadaşa 200 saatten fazla birlikte geçirilen zaman gerekiyor; boş zamanda geçen saatler işte geçenlerden çok sayılıyor [K07-02, K07-03]. Haftada üç saatle bu, gündelik arkadaşlık için yaklaşık dört ay, yakın arkadaşlık için bir yıldan fazla eder (hesap benim). İlk aylardaki \"kimsem yok\" duygusu başarısızlık değil, aritmetik."
+ },
+ {
+  "id": "K11-04",
+  "iddia": "Depresyon tanısı için belirtilerin günün çoğunda, neredeyse her gün, en az 2 hafta sürmesi gerekir.",
+  "kaynak_adi": "NIMH (ABD Ulusal Ruh Sağlığı Enstitüsü), Depression yayını",
+  "url": "https://www.nimh.nih.gov/health/publications/depression",
+  "alinti": "a person must have symptoms most of the day, nearly every day, for at least 2 weeks",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "6. İki haftayı aşan, günün çoğuna yayılan çökkünlük ya da işini gücünü yapamama hâli varsa bu artık alışma süreci sayılmaz; bir hekime ya da psikoloğa başvur [K11-04]."
+ },
+ {
+  "id": "K11-30",
+  "iddia": "Depresyon için kanıta dayalı psikoterapiler arasında bilişsel davranışçı terapi ve kişilerarası terapi sayılır; belirtiler sürüyor ya da geçmiyorsa sağlık çalışanına başvurulması önerilir; antidepresanların etkisi genellikle 4-8 haftada ortaya çıkar.",
+  "kaynak_adi": "NIMH, Depression yayını",
+  "url": "https://www.nimh.nih.gov/health/publications/depression",
+  "alinti": "If you show signs or symptoms of depression and they persist or do not go away, talk to a health care provider",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Ne zaman başvurmalı?** İki haftayı aşan sürekli çökkünlük ya da ilgi kaybı; uyku, iştah ya da iş düzeninde belirgin bozulma; kendine zarar verme düşüncesi. Belirtiler sürüyorsa bir sağlık çalışanına başvurulması öneriliyor [K11-30]. Türkiye'de yol aile hekimi ya da MHRS üzerinden psikiyatri randevusu; acil durumda 112."
+ },
+ {
+  "id": "K22-05",
+  "iddia": "Yeniden çözümlemede kesitsel korelasyonlar: bütünleşme-uyum r=.09, yeni (ana akım) kültüre yönelim r=.12, köken kültüre yönelim r=.11 (sayılar yazarların 2022 ön baskısında aktarıldığı biçimiyle).",
+  "kaynak_adi": "Bierwiaczonek, Cheung, Kunst 2022, Revisiting the integration hypothesis again (PsyArXiv ön baskı)",
+  "url": "https://osf.io/32npb/download",
+  "alinti": "integration and adaptation (r = .09), mainstream culture orientation and adaptation (r = .12), and heritage culture orientation and adaptation (r = .11)",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**İki yere birden ait olunur mu?** Göç araştırmalarında uzun süre \"bütünleşme\" (hem köken hem yeni kültürle bağ) en iyi yol sayıldı; 13 ülkede 5.366 göçmen gençte bu profil en iyi uyumla ilişkiliydi [K22-01]. Sonraki yeniden çözümlemeler etkinin küçük olduğunu gösterdi: korelasyon 0,09 ile 0,17 arasında, zaman içindeki etki sıfıra yakın [K22-05, K22-04, K22-08]. Görece en tutarlı bulgu yeni yere yönelmenin uyumla ilişkisi; o da küçük [K22-07]. Öte yandan köken yerle bağı sürdürmek uyumu engellemiyor [K22-10, K22-11]."
+ },
+ {
+  "id": "K22-07",
+  "iddia": "Boylamsal meta-analizde bütünleşmenin ve köken yöneliminin uyum üzerindeki çapraz gecikmeli etkileri çok küçük ve sık sık yön değiştiriyor; görece tutarlı tek etki yeni kültüre yönelim, o da uyumdaki değişkenliğin yaklaşık %1'ini açıklıyor.",
+  "kaynak_adi": "Bierwiaczonek, Cheung, Kunst 2022 (ön baskı; 2021 makalesinin Çalışma 2'sini aktarıyor)",
+  "url": "https://osf.io/32npb/download",
+  "alinti": "the variation mainstream culture orientation explained in adaptation is only about 1%",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**İki yere birden ait olunur mu?** Göç araştırmalarında uzun süre \"bütünleşme\" (hem köken hem yeni kültürle bağ) en iyi yol sayıldı; 13 ülkede 5.366 göçmen gençte bu profil en iyi uyumla ilişkiliydi [K22-01]. Sonraki yeniden çözümlemeler etkinin küçük olduğunu gösterdi: korelasyon 0,09 ile 0,17 arasında, zaman içindeki etki sıfıra yakın [K22-05, K22-04, K22-08]. Görece en tutarlı bulgu yeni yere yönelmenin uyumla ilişkisi; o da küçük [K22-07]. Öte yandan köken yerle bağı sürdürmek uyumu engellemiyor [K22-10, K22-11]."
+ },
+ {
+  "id": "K22-08",
+  "iddia": "Karşı yanıt (Grigoryev, Stogianni, Berry, Nguyen, Bender, Benet-Martínez): çok düzeyli yeniden çözümlemede bütünleşme-uyum ilişkisi Nguyen veri setinde r=.11, ICSEY veri setinde r=.17; yazarlar etkiyi 'küçük ama sıfır değil' diye savunuyor.",
+  "kaynak_adi": "Grigoryev ve ark. 2022 ön baskı (PsyArXiv gf56y); yayımlanan sürüm: 2023, International Journal of Intercultural Relations 97, 101897",
+  "url": "https://osf.io/gf56y/download",
+  "alinti": "r = .11 for Nguyen and Benet-Martinez’s (2013) dataset and r = .17 for the ICSEY dataset",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**İki yere birden ait olunur mu?** Göç araştırmalarında uzun süre \"bütünleşme\" (hem köken hem yeni kültürle bağ) en iyi yol sayıldı; 13 ülkede 5.366 göçmen gençte bu profil en iyi uyumla ilişkiliydi [K22-01]. Sonraki yeniden çözümlemeler etkinin küçük olduğunu gösterdi: korelasyon 0,09 ile 0,17 arasında, zaman içindeki etki sıfıra yakın [K22-05, K22-04, K22-08]. Görece en tutarlı bulgu yeni yere yönelmenin uyumla ilişkisi; o da küçük [K22-07]. Öte yandan köken yerle bağı sürdürmek uyumu engellemiyor [K22-10, K22-11]."
+ },
+ {
+  "id": "K21-10",
+  "iddia": "ABD, Pew anketi Ekim 2021: pandemi nedeniyle taşındığını söyleyenlerin %23'ü eski evine dönmüştü (geçici taşınmalar dahil). Nüfus sayımı verisine göre 2020'de kentlerden ayrılan 4,9 milyon kişi, pandemi öncesi yıllık ortalama 5,4 milyonun altında.",
+  "kaynak_adi": "Pew Research Center 2021, In 2020, fewer Americans moved, exodus from cities slowed",
+  "url": "https://www.pewresearch.org/short-reads/2021/12/16/in-2020-fewer-americans-moved-exodus-from-cities-slowed/",
+  "alinti": "About a quarter of Americans who said they had moved due to the pandemic since early 2020 (23%)",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Büyük kentten ayrılanlar ne yaşıyor?** Pandemideki \"kentten kaçış\" çoğu ülkede küçük ve geçici çıktı [K21-06]. ABD'de pandemi nedeniyle taşındığını söyleyenlerin yüzde 23'ü Ekim 2021'de eski evindeydi [K21-10]. Kalıcı ayrılanların çoğu memnun: İsveç'te metropolden ayrılan çocuklu aileler genelde kararından hoşnut [K21-14]. Avustralya'da bir ankette bölgeye taşınanların yaklaşık üçte ikisi hayatının iyileştiğini, yüzde 15'i kötüleştiğini söylüyor; sayılan kayıplar iş olanağı, ücret, yalnızlaşma, kültür ve eğlence çeşitliliği [K21-16]. İsveç'te on yıllık izlemde, önceden bağı olan yere ve metr"
+ },
+ {
+  "id": "K16-15",
+  "iddia": "Saha tekrarı (ABD, N=2.600; özgün çalışma N=32): son günlerde yüzde 58 yapılandan daha çok rahatsız; ömür boyu bakışta yapılmayanı seçenler yüzde 49, şanstan farksız. Yazarlar 'kısmi tekrar' diyor.",
+  "kaynak_adi": "Richardson ve Gilovich, 2023, 'A very public replication of the temporal pattern to people's regrets', Royal Society Open Science",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10282588/",
+  "alinti": "49% (n = 641) indicated that they were more troubled by their most regrettable inaction.",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Karar araştırmasından.** \"Kısa vadede yaptıklarımızdan, uzun vadede yapmadıklarımızdan pişman oluruz\" kuralı büyük örneklemde yalnızca kısmen tekrarlandı: uzun vadede yapılmayanı seçenler yüzde 49, yani yarı yarıya [K16-15]. Bu kural \"ya gitmeseydim\" ya da \"ya dönmeseydim\" tartışmasını çözmez. İşe yarar görünen araç, karara dışarıdan bakmak [K16-26]."
+ }
+]

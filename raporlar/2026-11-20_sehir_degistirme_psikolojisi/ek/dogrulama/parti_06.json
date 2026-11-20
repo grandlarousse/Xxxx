@@ -1,0 +1,182 @@
+[
+ {
+  "id": "K07-14",
+  "iddia": "ABD (HRS), 50 yaş üstü N=3.820 taşınan kişi: arkadaşlarla yüz yüze temas mesafeye en duyarlı; telefon yalnızca uzun mesafede azalıyor; e-posta sıklığı mesafeden etkilenmiyor.",
+  "kaynak_adi": "Cho ve Smith 2023, Relocation Later in Life and Contact Frequency With Friends, Research on Aging",
+  "url": "https://doi.org/10.1177/01640275221126103",
+  "alinti": "in-person contact frequency was most sensitive to distance. Telephone contact frequency was only impacted by long-distance moves",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Mesafe neyi götürür?** ABD'de taşınma mesafesi duygusal ve mali desteği etkilemedi; elle tutulur yardım ve birlikte vakit geçirme azaldı. Yeni yerde geçen süre uzadıkça destek alışverişi arttı [K07-07, K07-08]. Arkadaşlık akrabalıktan kırılgan: 18 ayda arkadaşlara duygusal yakınlık düştü, akrabaya arttı (30 genç) [K07-09]. Yüz yüze görüşme mesafeye en duyarlı kanal [K07-14]."
+ },
+ {
+  "id": "K07-01",
+  "iddia": "Hall (çevrimiçi 2018, basılı 2019; ABD): Çalışma 1 son 6 ayda taşınmış N=355 yetişkin (MTurk), Çalışma 2 N=112 birinci sınıf öğrencisi, 9 haftada 3 ölçüm. Birlikte geçen saat daha yakın arkadaşlıkla ilişkili; saatler katılımcı tahmini, ilişki korelasyonel.",
+  "kaynak_adi": "Hall 2019, How many hours does it take to make a friend?, Journal of Social and Personal Relationships",
+  "url": "https://doi.org/10.1177/0265407518761225",
+  "alinti": "MTurk participants ( N = 355) who had recently relocated estimated time spent with a new acquaintance. Hours together was associated with closer friendships.",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "5. Yeni yere bağlanmayı en çok orada geçen süre ve kurulan ilişkiler belirliyor; ilişki de saat istiyor [K03-02, K07-01]."
+ },
+ {
+  "id": "K01-05",
+  "iddia": "Mathieu ve Gosling 2012 meta-analizi (16 çalışma, 1.074 katılımcı; sayılar arama özetinden): duygu tahminleri mutlak düzeyde hatalı, ama göreli sıralamada (kim daha çok etkilenecek) isabetli. Özgün özet yok; sayılar özgün metinden doğrulanmadı.",
+  "kaynak_adi": "Mathieu ve Gosling 2012, The accuracy or inaccuracy of affective forecasts depends on how accuracy is indexed, Psychological Science 23(2)",
+  "url": "https://doi.org/10.1177/0956797611427044",
+  "alinti": "The accuracy or inaccuracy of affective forecasts depends on how accuracy is indexed: a meta-analysis of past studies.",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "Duygu tahminlerinin yönü çoğunlukla doğru, şiddeti abartılı [K01-03, K01-05]. Abartının bir kısmının soru biçiminden kaynaklandığını savunanlar da var [K01-04]."
+ },
+ {
+  "id": "K07-18",
+  "iddia": "Beğenilme açığı: laboratuvar, yurt ve atölye örneklemlerinde insanlar sohbetten sonra karşı tarafın kendilerini ne kadar sevdiğini sistematik olarak az tahmin etti; etki aylarca sürdü.",
+  "kaynak_adi": "Boothby, Cooney, Sandstrom, Clark 2018, The Liking Gap in Conversations, Psychological Science",
+  "url": "https://doi.org/10.1177/0956797618783714",
+  "alinti": "people systematically underestimated how much their conversation partners liked them and enjoyed their company",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "6. **Küçük temasları küçümseme** (orta). Esnafla, komşuyla iki cümle. Deneylerde kısa sohbet olumlu duyguyu artırıyor [K15-13]; insanlar karşı tarafın kendilerinden ne kadar hoşlandığını sistematik olarak az tahmin ediyor [K07-18] ve sohbetler beklenenden iyi geçiyor [K07-20]."
+ },
+ {
+  "id": "K07-25",
+  "iddia": "Meta-analiz (1980–2014 çalışmaları): sosyal izolasyon OR=1,29, yalnızlık OR=1,26, yalnız yaşama OR=1,32; yani ölüm olasılığında ortalama %29, %26, %32 artış. Gözlemsel veriler.",
+  "kaynak_adi": "Holt-Lunstad, Smith, Baker, Harris, Stephenson 2015, Perspectives on Psychological Science",
+  "url": "https://doi.org/10.1177/1745691614568352",
+  "alinti": "social isolation odds ratio (OR) = 1.29, loneliness OR = 1.26, and living alone OR = 1.32",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Yalnızlık ciddiye alınmalı.** Gözlemsel çalışmaların meta-analizinde yalnızlık ölüm olasılığında ortalama yüzde 26 artışla ilişkili [K07-25]. Yalnızlığa karşı müdahalelerin etkisi küçük-orta, kanıt güveni düşük [K15-01]. En etkili tür psikolojik müdahaleler [K15-02]; özellikle \"insanlar beni istemiyor\" gibi çarpık beklentileri hedefleyenler [K15-04]. Bir gönüllüyle bire bir eşleştirme yalnızlıkta anlamlı yarar sağlamıyor [K15-20]."
+ },
+ {
+  "id": "K04-24",
+  "iddia": "41 deneyin birleştirilmiş verisinde (N = 4.659) nostalji uyandırmak olumlu ve karışık duyguyu artırdı, olumsuz duyguyu anlamlı biçimde değiştirmedi; etkinin büyüklüğü uyandırma yöntemine göre belirgin biçimde değişti.",
+  "kaynak_adi": "Leunissen, Wildschut, Sedikides, Routledge 2020, The hedonic character of nostalgia: an integrative data analysis, Emotion Review",
+  "url": "https://doi.org/10.1177/1754073920950455",
+  "alinti": "nostalgia inductions increased positive and ambivalent affect, but did not significantly alter negative affect",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "12. **Nostaljiyi sen yönet** (orta). Bilerek çağrılan nostalji (fotoğraflara bakmak, anı anlatmak) deneylerde olumlu duyguyu artırıyor [K04-24]. Gün içinde kendiliğinden bastıran nostalji ise ertesi gün aynı düşünceyi evirip çevirmeyle birlikte görülüyor [K04-25]. Geçmişle bugün arasında bağ sürüyorsa nostalji iyi geliyor, kopukluk hissi varsa uyumu zorlaştırıyor [K04-27]. İstanbul'da seni sen yapan iki üç şeyi (bir spor, bir uğraş, bir tür mekân) İzmir'de sürdür."
+ },
+ {
+  "id": "K15-13",
+  "iddia": "Baristayla gülümseyip kısa sohbet edenler, işlemi olabildiğince hızlı bitirenlere göre daha fazla olumlu duygu bildirdi; aidiyet duygusu aracı (tek saha deneyi, ön kanıt)",
+  "kaynak_adi": "Sandstrom ve Dunn 2014 (çevrimiçi 2013), Is Efficiency Overrated? Social Psychological and Personality Science",
+  "url": "https://doi.org/10.1177/1948550613502990",
+  "alinti": "people who had a social interaction with a barista ... experienced more positive affect than people who were as efficient as possible",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "6. **Küçük temasları küçümseme** (orta). Esnafla, komşuyla iki cümle. Deneylerde kısa sohbet olumlu duyguyu artırıyor [K15-13]; insanlar karşı tarafın kendilerinden ne kadar hoşlandığını sistematik olarak az tahmin ediyor [K07-18] ve sohbetler beklenenden iyi geçiyor [K07-20]."
+ },
+ {
+  "id": "K04-02",
+  "iddia": "İkili süreç modeli (DPM-HS) ev özlemini temelde bir ayrılık olgusu, 'mini yas' olarak tanımlar; evle ilgili kayıplar ile yeni yere uyum stresörleri ayrı ama birbirini ağırlaştırabilen yüklerdir. Model kuramsaldır, doğrudan sınanmamıştır.",
+  "kaynak_adi": "Stroebe, Schut, Nauta 2016 (çevrimiçi 2015), Is homesickness a mini-grief? Development of a dual process model, Clinical Psychological Science",
+  "url": "https://doi.org/10.1177/2167702615585302",
+  "alinti": "HS is fundamentally a separation phenomenon, a “mini-grief,” involving different (though possibly mutually exacerbating) stressors from new place ones.",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "1. İstanbul'u özlemen olağan bir tepki. Araştırmalar bunu küçük bir yas gibi ele alıyor ve ortalamada yavaş yavaş hafiflediğini gösteriyor [K04-02, K04-07]."
+ },
+ {
+  "id": "K21-20",
+  "iddia": "İngiltere ELSA, başlangıçta depresyonu olmayan N=2.148 yaşlı yetişkin, 10 yıl izlem: ayda bir ya da daha sık kültürel etkinliğe (müze, tiyatro, sinema) gidenlerde depresyon gelişme olasılığı %48 daha düşük (OR 0,52; %95 GA 0,34–0,80). Gözlemsel; yalnızca 50 yaş üstü.",
+  "kaynak_adi": "Fancourt ve Tymoszuk 2019, Cultural engagement and incident depression in older adults, British Journal of Psychiatry",
+  "url": "https://doi.org/10.1192/bjp.2018.267",
+  "alinti": "OR = 0.52, 95% CI 0.34-0.80, P = 0.003",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Neyi yitirirsin?** Kariyerde sanıldığından azını: büyük kentte edinilen deneyimin ücrete katkısı ayrıldıktan sonra da sürüyor; kaybedilen anlık ücret primi ve hızlı öğrenme ortamı [K21-17, K21-18]. Kültürde tablo belirsiz: İngiltere'de 50 yaş üstünde ayda en az bir kez kültürel etkinliğe gidenlerde depresyon gelişme olasılığı yaklaşık yarı yarıya düşük [K21-20]; ama İsviçre'de daha sıkı yöntemle nedensel etki bulunmadı [K21-23]. \"Küçük yerde sıkılırım\" kaygısını destekleyen tutarlı veri yok [K21-27]. Türkiye'de büyükşehirden kıyıya taşınanlarla yapılan görüşmelerde bir kısım kişi kentin kült"
+ },
+ {
+  "id": "K11-13",
+  "iddia": "Depresyonda davranışsal aktivasyon (planlı, anlamlı etkinlikleri artırma) kontrol koşullarına göre etkili: SMD -0,74 (%95 GA -0,91; -0,56; 25 karşılaştırma, N=1.088); ilaca karşı SMD -0,42 (4 çalışma). Çalışmaların çoğunda kalite düşük, izlem kısa.",
+  "kaynak_adi": "Ekers ve ark. 2014, Behavioural activation for depression; an update of meta-analysis, PLoS One",
+  "url": "https://doi.org/10.1371/journal.pone.0100100",
+  "alinti": "superior to controls (SMD -0.74 CI -0.91 to -0.56, k = 25, N = 1088)",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Tedavi.** Uyum bozukluğunda tedavi kanıtının kalitesi düşük [K11-09]; daha yeni bir meta-analiz bilişsel davranışçı terapinin yüz yüze ve internet üzerinden etkili olabileceğini söylüyor [K11-10]. Depresyonda davranışsal aktivasyon, yani planlı ve anlamlı etkinlikleri artırmak etkili [K11-13]. Uyum bozukluğu \"hafif\" diye geçiştirilmemeli; intihar girişimi riski artmıştır [K11-06]."
+ },
+ {
+  "id": "K09-05",
+  "iddia": "Estonya Biyobankası, N=58.678, 18 göçmen/kalan grubu (ön baskı, hakem denetiminden geçmemiş): farklar anlamlı ama küçük; göç yönü kişilik varyansının en çok %1,29'unu açıkladı; en büyük fark açıklıkta, en küçük dışadönüklükte.",
+  "kaynak_adi": "Xu, Jokela, Vainik, Johnson, Mõttus 2025, Personality Differences among Life-Course Migrants and Stayers, PsyArXiv ön baskı (v3)",
+  "url": "https://doi.org/10.31234/osf.io/m7rc5_v3",
+  "alinti": "Migration direction accounted for up to 1.29% of the variance in personality traits (η²), less than demographic factors such as gender and education.",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Kim taşınır?** En tutarlı yordayıcı deneyime açıklık: ABD'de açıklığı yüksek olanların eyalet değiştirme olasılığı belirgin biçimde daha fazla [K09-02]. Açıklık iş ve eğitim için taşınmayla, duygusal dalgalanma eğilimi konut, mahalle ve aile nedenli taşınmayla ilişkili (dört panel, 86.073 kişi) [K09-04]. Ama farklar küçük: Estonya'da göç yönü kişilik farklarının en çok yüzde 1,29'unu açıklıyor [K09-05]."
+ },
+ {
+  "id": "K19-18",
+  "iddia": "Meta-analiz (20 çalışma, 2.601 kişi; 11'i yüksek yanlılık riski): sağlık alışkanlığı oluşum süresi ortanca 59–66 gün, ortalama 106–154 gün, kişisel aralık 4–335 gün.",
+  "kaynak_adi": "Singh, Murphy, Maher, Smith 2024, Time to form a habit, Healthcare",
+  "url": "https://doi.org/10.3390/healthcare12232488",
+  "alinti": "ranging from 59-66 days (median) and 106-154 days (means), with substantial individual variability (4-335 days)",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "10. **Tek bir yeni alışkanlık seç** (orta). Eski alışkanlıklar ortam değişince çözülüyor [K19-01]; bu fırsat penceresi küçük ve yaklaşık ilk üç ayla sınırlı [K19-04]. Yeni alışkanlığın oturması ortanca iki ay, kişiden kişiye 4 ile 335 gün arası [K19-18]."
+ },
+ {
+  "id": "K23-12",
+  "iddia": "ABD, yeni taşınmış yetişkinler, üç ay arayla iki görüşme: yakınlık artsa da yeni ağ kararsız; aylar sonra bile destek çok az ve arkadaşlık memnuniyeti giderek düşüyor (örneklem sayısı özette yok; eski, küçük, tekrarlanmamış)",
+  "kaynak_adi": "Starker 1990, Psychosocial aspects of geographic relocation: the development of a new social network, American Journal of Health Promotion 5(1):52–57",
+  "url": "https://doi.org/10.4278/0890-1171-5.1.52",
+  "alinti": "Newcomers received minimal social support even after several months and were increasingly dissatisfied with friendships.",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Ağ ne kadar sürede toparlanır?** Yetişkinlerde taşınmadan önce ve sonra yalnızlığı yıl yıl izleyen bir çalışma bulunamadı; bu gerçek bir kanıt boşluğu. Eldeki en yakın veriler şöyle. Almanya'nın Halle kentinde 3.471 kişilik ankette, sonradan gelenlerin başvurabileceği yardım kaynaklarının sayısı yerlilerle neredeyse aynıydı; birikim ilk dört yılda en hızlıydı, sonra duruyordu; akrabadan gelen kaynak azalıyor, arkadaş ve tanıdıktan gelen artıyordu [K23-06, K23-07, K23-08]. Taşındığında yaşı daha büyük olanlarda birikim daha düşüktü [K23-09]. İngiltere'de 25 km'den uzağa taşınanların sosyal ya"
+ },
+ {
+  "id": "K13-07",
+  "iddia": "İzmir 2025'te 106.083 kişi göç aldı, 98.728 kişi göç verdi; net +7.355, net göç hızı binde 1,63 (81 il içinde 25. sıra). Net göç hızı ve sıra tek yerel habere dayanıyor.",
+  "kaynak_adi": "TÜİK İç Göç İstatistikleri 2025; aktaran Dokuz Eylül (17.11.2026)",
+  "url": "https://dokuzeylul.com/deprem-korkusuyla-turkiyenin-goc-haritasi-degisti-izmirde-dikkat-ceken-tablo",
+  "alinti": "İzmir, 2025 yılında 106 bin 83 kişiyle Türkiye'nin en fazla göç alan üçüncü ili oldu.",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "\"Herkes İstanbul'dan kaçıyor\" anlatısı abartılı. İstanbul 2025'te de en çok göç alan il; net kaybı nüfusunun binde 2,62'si [K13-04]. İmkânı olsa İstanbul dışında yaşamak isteyenlerin oranı ise yüzde 61 [K13-22]. Niyet ile davranış arasındaki fark çok büyük. İzmir net göç alıyor, ama kazancı küçülüyor [K13-07, K13-08]."
+ },
+ {
+  "id": "K13-08",
+  "iddia": "İzmir'in net göç kazancı 2024'te +15.849 (aldığı 117.889, verdiği 102.040) iken 2025'te +7.355'e indi; haber bunu 2008-2025 döneminin en düşük düzeyi olarak sunuyor.",
+  "kaynak_adi": "TÜİK verileri; aktaran Dokuz Eylül (17.11.2026)",
+  "url": "https://dokuzeylul.com/deprem-korkusuyla-turkiyenin-goc-haritasi-degisti-izmirde-dikkat-ceken-tablo",
+  "alinti": "yalnızca 7 bin 355 kişide kaldı",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "\"Herkes İstanbul'dan kaçıyor\" anlatısı abartılı. İstanbul 2025'te de en çok göç alan il; net kaybı nüfusunun binde 2,62'si [K13-04]. İmkânı olsa İstanbul dışında yaşamak isteyenlerin oranı ise yüzde 61 [K13-22]. Niyet ile davranış arasındaki fark çok büyük. İzmir net göç alıyor, ama kazancı küçülüyor [K13-07, K13-08]."
+ },
+ {
+  "id": "K20-10",
+  "iddia": "Deney (Kanada, 133 lisans öğrencisi; analiz N=119): bağlı olunan yeri canlandırmak, nötr tanıdık yere göre aidiyet, öz saygı ve anlamı artırdı; kontrol duygusu ve ruh hâli değişmedi. Tek çalışma.",
+  "kaynak_adi": "Scannell 2013, The Bases of Bonding, doktora tezi, University of Victoria (Çalışma 3; Scannell ve Gifford 2017 Environment and Behavior 49:359-389'un temeli)",
+  "url": "https://dspace.library.uvic.ca/items/44cfd21e-60da-47ff-87a2-0bd4ecf6149b",
+  "alinti": "enhanced participants’ sense of belongingness, self-esteem, and meaningfulness, but it did not alter control or mood",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Eski yere bağlılık bir kaynak da olabilir.** Bir deneyde bağlı olunan yeri zihinde canlandırmak aidiyet, öz saygı ve anlam duygusunu artırdı; ruh hâlini değiştirmedi (119 öğrenci, tek çalışma) [K20-10]."
+ },
+ {
+  "id": "K16-19",
+  "iddia": "Geri alınabilir karar doyumu düşürebilir: fotoğraf dersi deneyinde (Harvard, 64 öğrenci; deneyimleyen koşul başına 12–13 kişi) değiştirme hakkı olanlar seçtikleri baskıyı daha az beğendi (r=0,45). Çok küçük örneklem; bağımsız tekrar bulunamadı.",
+  "kaynak_adi": "Gilbert ve Ebert, 2002, 'Decisions and revisions', JPSP 82(4)",
+  "url": "https://dtg.sites.fas.harvard.edu/Gilber%20t&%20Ebert%20(DECISIONS%20&%20REVISIONS).pdf",
+  "alinti": "F(1, 22) = 5.68, p = .03, r = .45",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "15. **Karar tarihini şimdiden koy ve o güne kadar her gün yeniden karar verme** (zayıf). Özlem taşınmanın hemen ardından en yüksek düzeyde [K16-22], sosyal kayıp ilk yıl düzelmiyor [K06-16]; yani ilk ayların duygusu kalıcı olanın iyi bir göstergesi değil. Değiştirilebilir sanılan kararların doyumu düşürdüğüne dair küçük bir deney de var [K16-19]. \"En az bir yıl bekle\" kuralını sınayan çalışma yok; bu bir akıl yürütme."
+ },
+ {
+  "id": "K22-04",
+  "iddia": "Bierwiaczonek ve Kunst 2021: aynı 83 çalışmanın yeniden çözümlemesi ve 19 boylamsal çalışmanın (N=6.791) yeni meta-analizi; korelasyonel ilişki sanılandan çok zayıf, boylamsal kanıt en iyi ihtimalle çok küçük.",
+  "kaynak_adi": "Bierwiaczonek ve Kunst 2021, Revisiting the Integration Hypothesis, Psychological Science",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34415205&resultType=core&format=json",
+  "alinti": "the correlational link between acculturation and adaptation is much weaker than previously assumed and that longitudinal evidence is minuscule at best",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**İki yere birden ait olunur mu?** Göç araştırmalarında uzun süre \"bütünleşme\" (hem köken hem yeni kültürle bağ) en iyi yol sayıldı; 13 ülkede 5.366 göçmen gençte bu profil en iyi uyumla ilişkiliydi [K22-01]. Sonraki yeniden çözümlemeler etkinin küçük olduğunu gösterdi: korelasyon 0,09 ile 0,17 arasında, zaman içindeki etki sıfıra yakın [K22-05, K22-04, K22-08]. Görece en tutarlı bulgu yeni yere yönelmenin uyumla ilişkisi; o da küçük [K22-07]. Öte yandan köken yerle bağı sürdürmek uyumu engellemiyor [K22-10, K22-11]."
+ },
+ {
+  "id": "K17-08",
+  "iddia": "İşe gidiş-iyi oluş derlemesi: yolculuk sırasında ruh hali diğer etkinliklerden düşük, yürüyen ve bisiklet kullananlar daha memnun, toplu taşıma kullananlar en az; ancak genel yaşam doyumuyla tutarlı bir bağ kurulamamış.",
+  "kaynak_adi": "Chatterjee ve ark. 2020, Commuting and wellbeing: a critical overview, Transport Reviews",
+  "url": "https://econpapers.repec.org/RePEc:taf:transr:v:40:y:2020:i:1:p:5-34",
+  "alinti": "a consistent link between commuting and life satisfaction overall has not been established",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "- **Yol:** Almanya'da tek yön bir saatlik işe gidiş yaşam doyumunu 0–10 ölçeğinde 0,20 puan düşürüyor [K17-01]. İngiltere'de genel doyumda etki yok; boş zaman doyumu, gerginlik ve ruh sağlığında var [K17-05]. Derlemeye göre tutarlı bir bağ kurulamadı [K17-08]."
+ },
+ {
+  "id": "K10-07",
+  "iddia": "ABD'de (General Social Survey) mutluluk, yerleşim nüfusu 200-700 bini aşınca düşüyor; yazar bulgunun yalnızca ABD için geçerli olduğunu belirtiyor. Konferans bildirisi, kesitsel.",
+  "kaynak_adi": "Okulicz-Kozaryn 2015, When Place is Too Big: Happy Town and Unhappy Metropolis, ERSA bildirisi",
+  "url": "https://econpapers.repec.org/RePEc:wiw:wiwrsa:ersa15p148",
+  "alinti": "The answer is somewhere between 200 and 700 thousand of people.",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "- ABD'de mutluluk, yerleşim nüfusu 200–700 bini aşınca düşüyor [K10-07]. İstanbul da İzmir de bu eşiğin çok üstünde; ikisi de \"büyük\" sınıfında."
+ }
+]

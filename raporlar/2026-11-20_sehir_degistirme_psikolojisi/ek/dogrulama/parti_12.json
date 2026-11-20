@@ -1,0 +1,182 @@
+[
+ {
+  "id": "K12-03",
+  "iddia": "SIMIC derlemesi: yaşam değişimine uyumu çoklu, sürdürülen, yeni ve uyumlu grup üyelikleri belirler; model yükseköğrenim, göç, travma ve hastalıktan iyileşme alanlarında uygulanmış. Derleme modelin kurucuları tarafından yazılmış.",
+  "kaynak_adi": "Haslam C, Haslam SA, Jetten, Cruwys, Steffens 2021, Life Change, Social Identity, and Health, Annual Review of Psychology",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32886584/",
+  "alinti": "importance of multiple, maintained, new, and compatible group memberships as determinants of people's responses and adjustment to life change",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "Taşınınca yalnızca insanlar değil, \"ben kimim\" sorusunun yanıtları da geride kalıyor: işyeri, mahalle, kulüp, İstanbullu olmak. Sosyal Kimlik Değişim Modeli'ne göre bir yaşam değişimine uyumu üç şey belirliyor: eski grup üyeliklerinden bir kısmını sürdürmek, yenilerini edinmek ve eskiyle yeninin birbiriyle uyumlu olması [K12-03]. Üniversiteye geçişte iyi oluş düştü; yeni grupla özdeşleşenlerde toparlandı; önceden çok gruba üye olmak ve eski ile yeni kimliği uyumlu görmek bunu kolaylaştırdı [K12-01]. \"Başka şehre taşındığını hayal et\" deneyinde (165 kişi) iyi oluş düşüşünü destek kaybı değil, k"
+ },
+ {
+  "id": "K12-23",
+  "iddia": "5 çalışma (N=1074): nostalji genel benlik sürekliliğini yordadı ve artırdı; ilişkiyi tutarlı biçimde 'yaşam geçişlerine anlam veren anlatı kurma' aracıladı, 'değişmeyen benlik' inancı aracılamadı.",
+  "kaynak_adi": "Hong, Sedikides, Wildschut 2022, How Does Nostalgia Conduce to Global Self-Continuity?, Personality and Social Psychology Bulletin",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34151655/",
+  "alinti": "consistently mediated by narrative, sporadically mediated by associative links, and unmediated by stability",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Nostalji iki yüzlü.** İstek üzerine uyandırılan nostalji deneylerde olumlu duyguyu artırıyor, olumsuz duyguyu değiştirmiyor (41 deney, 4.659 kişi) [K04-24]. Gün içinde kendiliğinden gelen nostalji ise olumsuz duyguyla ve ertesi gün aynı düşünceyi evirip çevirmeyle birlikte görülüyor [K04-25]. Farkı belirleyenlerden biri süreklilik duygusu [K04-27]. Nostalji bu duyguyu \"ben hiç değişmedim\" inancıyla değil, geçişe anlam veren bir öykü kurarak besliyor [K12-23]."
+ },
+ {
+  "id": "K11-08",
+  "iddia": "İstemeden işini kaybeden 105 kişide (İsviçre, tek çalışma, seçilmiş örneklem) ICD-11 uyum bozukluğu yaygınlığı ilk ölçümde %21,9, 6 ay sonra %6,7, 12 ay sonra %2,9; yani çoğunda kendiliğinden geriliyor ama bir bölümünde 6 ayı aşıyor. Taşınma değil iş kaybı örneklemi; benzetme olarak kullanılmalı.",
+  "kaynak_adi": "Lorenz, Maercker, Bachem 2020, The 12-Month Course of ICD-11 Adjustment Disorder in the Context of Involuntary Job Loss, Clin Psychol Eur",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36398147/",
+  "alinti": "The prevalence of AjD was 21.9% at t1, 6.7% at t2, and dropped to 2.9% at t3",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Ne kadar sık?** Taşınanlar için doğrudan veri yok. Uyum bozukluğunun genel nüfustaki yaygınlığı yaklaşık yüzde 2 [K11-05]. İşini istemeden yitiren 105 kişide oran ilk ölçümde yüzde 21,9 iken 12 ay sonra yüzde 2,9'a indi [K11-08]. Taşınmadan çok daha ağır olaylardan sonra bile en sık görülen seyir dirençlilik: ortalama yüzde 65,7 [K11-21]."
+ },
+ {
+  "id": "K10-21",
+  "iddia": "80 çalışma, N=539.557: kentte yaşamak gelişmiş ülkelerde daha yüksek depresyon yaygınlığıyla ilişkili (OR 1,30; 1,17-1,46); gelişmekte olan ülkelerde bu ilişki bulunmuyor.",
+  "kaynak_adi": "Xu, Miao, Turner, DeRubeis 2023, Urbanicity and depression: A global meta-analysis, Journal of Affective Disorders 340",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37557989/",
+  "alinti": "higher prevalence of depression in developed countries (OR = 1.30, 95 % CI [1.17, 1.46]",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "- Gelişmiş ülkelerde kentte duygudurum bozukluğu olasılığı, başka etkenler hesaba katıldıktan sonra yüzde 28 daha yüksek [K10-19]. Depresyon için bu ilişki gelişmekte olan ülkelerde görülmüyor [K10-21]. Bunlar kent ile kır karşılaştırması; iki büyük kent arasında değil."
+ },
+ {
+  "id": "K11-14",
+  "iddia": "Yeni Zelanda'da 44.051 yetişkinin 8 yıllık, ön kayıtlı izleminde taşınma olasılığı arttıkça depresyon ve kaygı daha yaygın; ilişki iki yönlü: süregelen ruh sağlığı sorunu olanlar sonraki taşınmalarda daha yoksun bölgelere gidiyor. Gözlemsel; nedensellik kanıtı değil.",
+  "kaynak_adi": "Hobbs ve ark. 2025, Environmental influences on mental health: eight-year longitudinal data, Health & Place",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40440745/",
+  "alinti": "Increased probability of moving correlates with higher prevalence of depression and anxiety",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**İlişki iki yönlü.** Yeni Zelanda'da 44.051 yetişkinin sekiz yıllık izleminde taşınma olasılığı arttıkça depresyon ve kaygı daha yaygın; ama ruh sağlığı kötü olanlar da daha çok taşınıyor [K11-14]. İngiltere'de sonradan daha kötü ruh sağlığı iki grupta görüldü: istemeden taşınanlar ve taşınmak isteyip taşınamayanlar [K11-16]. Taşınma iyileştirebilir de: ABD'deki rastgele deneyde daha az yoksul mahalleye taşınma teklifi yetişkinlerin öznel iyi oluşunu artırdı [K11-19]."
+ },
+ {
+  "id": "K11-10",
+  "iddia": "Daha yeni meta-analiz (16 rastgele kontrollü çalışma, N=3.027): internet tabanlı ve yüz yüze bilişsel davranışçı terapi uyum bozukluğu belirtilerinde etkili olabilir; diğer yöntemler için veri yetersiz (etki büyüklüğü özetten görülemedi).",
+  "kaynak_adi": "Cowansage ve ark. 2025, Treatments for adjustment disorder: systematic review and meta-analysis of RCTs, Psychiatry Research",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41005147/",
+  "alinti": "both internet-based and in-person methods of cognitive behavioral therapy may be effective for treating symptoms of this disorder",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Tedavi.** Uyum bozukluğunda tedavi kanıtının kalitesi düşük [K11-09]; daha yeni bir meta-analiz bilişsel davranışçı terapinin yüz yüze ve internet üzerinden etkili olabileceğini söylüyor [K11-10]. Depresyonda davranışsal aktivasyon, yani planlı ve anlamlı etkinlikleri artırmak etkili [K11-13]. Uyum bozukluğu \"hafif\" diye geçiştirilmemeli; intihar girişimi riski artmıştır [K11-06]."
+ },
+ {
+  "id": "K15-01",
+  "iddia": "Yalnızlık müdahaleleri meta-analizi (280 çalışma; 122 RKÇ): kısa vadede küçük-orta etki, SMD=-0,50 (GA -0,60/-0,39); 1-6 ay sonra benzer; kanıt güveni GRADE ile düşük/çok düşük",
+  "kaynak_adi": "Lasgaard ve ark. 2026 (çevrimiçi 2025), Are loneliness interventions effective? American Psychologist",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41129341/",
+  "alinti": "122 randomized controlled trials: standardized mean difference = -0.50, 95% confidence interval [-0.60, -0.39]",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Yalnızlık ciddiye alınmalı.** Gözlemsel çalışmaların meta-analizinde yalnızlık ölüm olasılığında ortalama yüzde 26 artışla ilişkili [K07-25]. Yalnızlığa karşı müdahalelerin etkisi küçük-orta, kanıt güveni düşük [K15-01]. En etkili tür psikolojik müdahaleler [K15-02]; özellikle \"insanlar beni istemiyor\" gibi çarpık beklentileri hedefleyenler [K15-04]. Bir gönüllüyle bire bir eşleştirme yalnızlıkta anlamlı yarar sağlamıyor [K15-20]."
+ },
+ {
+  "id": "K15-02",
+  "iddia": "Aynı meta-analizde en etkili strateji psikolojik müdahaleler (orta etki); sosyal beceri, sosyal ağ ve sosyal destek müdahaleleri küçük-orta",
+  "kaynak_adi": "Lasgaard ve ark. 2026, American Psychologist",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41129341/",
+  "alinti": "Psychological interventions appeared to be the most effective intervention strategy for reducing loneliness, demonstrating a moderate effect",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Yalnızlık ciddiye alınmalı.** Gözlemsel çalışmaların meta-analizinde yalnızlık ölüm olasılığında ortalama yüzde 26 artışla ilişkili [K07-25]. Yalnızlığa karşı müdahalelerin etkisi küçük-orta, kanıt güveni düşük [K15-01]. En etkili tür psikolojik müdahaleler [K15-02]; özellikle \"insanlar beni istemiyor\" gibi çarpık beklentileri hedefleyenler [K15-04]. Bir gönüllüyle bire bir eşleştirme yalnızlıkta anlamlı yarar sağlamıyor [K15-20]."
+ },
+ {
+  "id": "K19-04",
+  "iddia": "Aynı çalışmada etki yalnızca son 3 ayda taşınanlarda anlamlı: F(1,142)=8,19, p<.01; diğer üç grupta anlamsız. Alt grup analizi, tek çalışma.",
+  "kaynak_adi": "Verplanken ve Roy 2016, J Environ Psychol",
+  "url": "https://pure.ulster.ac.uk/ws/files/112035328/1_s2.0_S0272494415300487_main.pdf",
+  "alinti": "the intervention was effective during the first three months after relocation, after which no effects could be detected",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "10. **Tek bir yeni alışkanlık seç** (orta). Eski alışkanlıklar ortam değişince çözülüyor [K19-01]; bu fırsat penceresi küçük ve yaklaşık ilk üç ayla sınırlı [K19-04]. Yeni alışkanlığın oturması ortanca iki ay, kişiden kişiye 4 ile 335 gün arası [K19-18]."
+ },
+ {
+  "id": "K19-05",
+  "iddia": "Verplanken ve Roy etkinin küçük olduğunu ve sonucun 'kavram kanıtı' sayılması gerektiğini kendileri belirtiyor; 'yeni taşınmış' tanımının (6 ay) önsel dayanağı yok; ölçüm öz bildirim.",
+  "kaynak_adi": "Verplanken ve Roy 2016, J Environ Psychol",
+  "url": "https://pure.ulster.ac.uk/ws/files/112035328/1_s2.0_S0272494415300487_main.pdf",
+  "alinti": "extent to which relocation boosted intervention effects was small",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "Alışkanlıklar ortama bağlı. Üniversite değiştiren öğrencilerde alışkanlıklar yalnızca yapıldıkları ortam değişmediyse sürdü [K19-01]. Bu iki yönlü çalışır: kötü alışkanlık da iyi alışkanlık da çözülür. İngiltere'deki saha deneyinde müdahale yalnızca son üç ayda taşınanlarda işe yaradı; yazarlar etkinin küçük olduğunu kendileri belirtiyor [K19-04, K19-05]. Taşınma kendiliğinden iyi alışkanlık üretmiyor [K19-10]. \"Taze başlangıç\" etkisi takvim dönüm noktalarında gösterildi; taşınma için sınanmadı [K19-12]."
+ },
+ {
+  "id": "K03-24",
+  "iddia": "Bailey, Devine-Wright, Batel 2016 (İngiltere, Nailsea, anlatı görüşmeleri): güçlü bağlılık yalnız ikamet süresine değil, çocukluk yeriyle sürekliliğe ve sosyal ağlara dayanır; benzer yerleşim türüne taşınmak yeni yere bağlanmayı kolaylaştırabilir, süreksizlik yabancılaşmaya götürebilir.",
+  "kaynak_adi": "Bailey, Devine-Wright, Batel 2016, life-place trajectories, J Environ Psychol (ISCTE açık kopya)",
+  "url": "https://repositorio.iscte-iul.pt/bitstream/10071/12815/5/Bailey_Devine_Wright_Batel__2016__JEP.pdf",
+  "alinti": "continuity of valued settlement type can foster attachment to a new residence place, discontinuity can lead to alienation",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Neler kolaylaştırıyor?** Benzer türde bir yerleşime taşınmak [K03-24]; İstanbul'dan sonra İzmir'in merkezî, hareketli bir semti sakin bir sahil ilçesinden daha tanıdık gelebilir (çıkarım benim). Bir de yerin geçmişini öğrenmek [K03-25]."
+ },
+ {
+  "id": "K22-10",
+  "iddia": "Snel, Engbersen, Leerkes 2006 (Hollanda, 300 göçmen; ABD, Japonya, Irak, eski Yugoslavya, Fas, Antiller kökenli): köken ülkeyle sınır ötesi bağlar genel olarak uyumu engellemiyor. İstisna: iş piyasasında en zayıf konumdaki Faslı ve Antillililerde köken ülkeyle özdeşleşme daha güçlü.",
+  "kaynak_adi": "Snel, Engbersen, Leerkes 2006, Transnational involvement and social integration, Global Networks 6(3)",
+  "url": "https://repub.eur.nl/pub/23016",
+  "alinti": "transnational involvement in general does not impede 'immigrant integration'",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "4. Eski şehre bağlı kalmak yeni şehre bağlanmayı çoğu kişide engellemiyor; iki yere birden bağlı olmak en yaygın durum [K03-16, K22-10]."
+ },
+ {
+  "id": "K23-13",
+  "iddia": "Almanya, Düsseldorf çevresi, genç yetişkinler (109 yerli, 41 ülke içi göçmen), anlık duygu ölçümü: taşınanlar arkadaşlarıyla vakit geçirirken yerlilerden daha az mutlu; arkadaşla geçen süre daha az değil. Küçük örneklem, tekrarlanmamış",
+  "kaynak_adi": "Hendriks, Ludwigs, Veenhoven 2016, Why are locals happier than internal migrants? The role of daily life, Social Indicators Research 125(2):481–508",
+  "url": "https://repub.eur.nl/pub/82217/2016a-full.pdf",
+  "alinti": "Internal migrants feel less happy than locals when spending time with friends and while eating.",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Ağ ne kadar sürede toparlanır?** Yetişkinlerde taşınmadan önce ve sonra yalnızlığı yıl yıl izleyen bir çalışma bulunamadı; bu gerçek bir kanıt boşluğu. Eldeki en yakın veriler şöyle. Almanya'nın Halle kentinde 3.471 kişilik ankette, sonradan gelenlerin başvurabileceği yardım kaynaklarının sayısı yerlilerle neredeyse aynıydı; birikim ilk dört yılda en hızlıydı, sonra duruyordu; akrabadan gelen kaynak azalıyor, arkadaş ve tanıdıktan gelen artıyordu [K23-06, K23-07, K23-08]. Taşındığında yaşı daha büyük olanlarda birikim daha düşüktü [K23-09]. İngiltere'de 25 km'den uzağa taşınanların sosyal ya"
+ },
+ {
+  "id": "K03-25",
+  "iddia": "Stefaniak, Bilewicz, Lewicka 2017 (Polonya, gençler, iki müdahale çalışması, N1=486 ve N2=1.098): yerel tarih öğrenenlerde yer bağlılığı, sivil katılım niyeti ve genel güven arttı. Yetişkin yeni taşınanlarda sınanmadı.",
+  "kaynak_adi": "Stefaniak, Bilewicz, Lewicka 2017, The merits of teaching local history, J Environ Psychol 51:217-225",
+  "url": "https://research-portal.st-andrews.ac.uk/en/publications/the-merits-of-teaching-local-history-increased-place-attachment-e/",
+  "alinti": "Two intervention studies (N1 = 486; N2 = 1098)",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "9. **Şehri yürüyerek ve geçmişini öğrenerek tanı** (orta-zayıf). Yerel tarih öğrenen gençlerde yere bağlılık arttı [K03-25]. Gün içinde farklı yerlere gitmek olumlu duyguyla birlikte görülüyor; hangisinin neden olduğu belli değil [K19-25]."
+ },
+ {
+  "id": "K07-05",
+  "iddia": "Aynı çalışma: ilişkilerin bitmesinde önemli neden karşılaşma fırsatının (iş, kulüp, mahalle) ortadan kalkması; yeni bağlar çoğunlukla zaten tanıdık olunan ortamlarda kuruluyor.",
+  "kaynak_adi": "Mollenhorst, Völker, Flap 2014, Changes in personal relationships, Social Networks",
+  "url": "https://research-portal.uu.nl/en/publications/changes-in-personal-relationships-how-social-contexts-affect-the-/",
+  "alinti": "a lack of meeting opportunities is an important reason why many personal relationships are discontinued",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "4. **Her hafta aynı insanları gördüğün tek bir gruba gir** (orta). Kurs, spor takımı, koro, gönüllü ekip. İlişkiler çoğunlukla karşılaşma fırsatı ortadan kalkınca bitiyor, yenileri de tekrar eden ortamlarda kuruluyor [K07-05]. Üye olunan grup sayısı sonraki depresyon riskinin daha düşük olmasıyla ilişkili [K12-04]. Yalnızca \"tanışma fırsatı\" sunan girişimler ise zayıf kalıyor [K15-04]; süreklilik şart."
+ },
+ {
+  "id": "K23-04",
+  "iddia": "BHPS'te 25 km ve üstü taşınmalarda (yaklaşık 11.500 gözlem) iş doyumu biraz artıyor; sosyal yaşam dahil diğer alanlarda taşınma sırasında da sonrasında da anlamlı dalgalanma yok (düşüş de yok)",
+  "kaynak_adi": "Nowok, Findlay, McCollum 2018, Urban Studies 55(4)",
+  "url": "https://research-repository.st-andrews.ac.uk/handle/10023/9638",
+  "alinti": "there are no significant fluctuations in satisfaction with other life domains either around the time of the move or at a later date",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Ağ ne kadar sürede toparlanır?** Yetişkinlerde taşınmadan önce ve sonra yalnızlığı yıl yıl izleyen bir çalışma bulunamadı; bu gerçek bir kanıt boşluğu. Eldeki en yakın veriler şöyle. Almanya'nın Halle kentinde 3.471 kişilik ankette, sonradan gelenlerin başvurabileceği yardım kaynaklarının sayısı yerlilerle neredeyse aynıydı; birikim ilk dört yılda en hızlıydı, sonra duruyordu; akrabadan gelen kaynak azalıyor, arkadaş ve tanıdıktan gelen artıyordu [K23-06, K23-07, K23-08]. Taşındığında yaşı daha büyük olanlarda birikim daha düşüktü [K23-09]. İngiltere'de 25 km'den uzağa taşınanların sosyal ya"
+ },
+ {
+  "id": "K06-23",
+  "iddia": "Martin 1995 (iş nedeniyle taşınma, İngiltere): kişi eski yerinde ne kadar uzun yaşadıysa taşınma sonrası genel stres ve işle ilgili kaygı ve depresyon o kadar yüksek. Korelasyonel, tek çalışma.",
+  "kaynak_adi": "Martin 1995, The effects of prior moves on job relocation stress (Aston Üniversitesi kaydı)",
+  "url": "https://research.aston.ac.uk/en/publications/the-effects-of-prior-moves-on-job-relocation-stress/",
+  "alinti": "the longer the relocator had lived in the area prior to moving, the greater was the general stress",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "Senin durumuna iki not. İş nedeniyle taşınanlarda kişi eski yerinde ne kadar uzun yaşadıysa taşınma sonrası stres o kadar yüksekti (tek ve eski çalışma) [K06-23]. Almanya'da taşınma \"yüksek ama kısa süreli yük\", hafta sonları iki şehir arasında gidip gelmek ise \"çoğu kez kalıcı stres\" olarak görünüyor [K22-18, K22-19]."
+ },
+ {
+  "id": "K07-04",
+  "iddia": "Hollanda (SSND), 18–65 yaş, N=1.007, 7 yıl sonra 604 kişi yeniden görüşüldü: ağ büyüklüğü sabit, ama ilk ağ üyelerinin yalnızca %48'i hâlâ ağda.",
+  "kaynak_adi": "Mollenhorst, Völker, Flap 2014, Social Networks 37 (NWO basın özeti, ScienceDaily 2009)",
+  "url": "https://www.sciencedaily.com/releases/2009/05/090527111907.htm",
+  "alinti": "Only 48 percent were still part of the network.",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "Taşınınca sosyal ağın büyüklüğü değil, içindeki kişiler değişiyor. Aslında ağ zaten sürekli yenileniyor: Hollanda'da yedi yıl sonra yeniden görüşülen kişilerde ağın büyüklüğü aynıydı, ama ilk üyelerin yalnızca yüzde 48'i hâlâ ağdaydı. İlişkilerin bitmesinin başlıca nedeni karşılaşma fırsatının kalkmasıydı [K07-04, K07-05]."
+ },
+ {
+  "id": "K04-20",
+  "iddia": "Boston West End'de kentsel dönüşümle zorla yerinden edilenlerde taşınma, sevilen birini yitirmedeki yas tepkisine benzer bir kayıp olarak tanımlandı (1958 sonrası; nitel ve anket). Bu ifade Fried'in ekibinin ilgili raporundan, tarih makalesi aracılığıyla alındı; bulgu zorunlu yerinden edilmeye aittir.",
+  "kaynak_adi": "Smith ve Ramsden 2017, Remembering the West End, Urban History (Lindemann, Fried ve ark. aktarımı)",
+  "url": "https://strathprints.strath.ac.uk/59377/14/Smith_Ramsden_UH_2017_Remembering_the_west_end_social_science_mental_health.pdf",
+  "alinti": "tragic loss, in many ways quite comparable to the grief reaction upon losing a loved person",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "**Kanıtın sınırı.** Bu bulguların neredeyse tamamı öğrencilerden ve uluslararası göçmenlerden. Kendi isteğiyle ülke içinde şehir değiştiren yetişkinleri izleyen çalışma bulunamadı. \"Yas\" benzetmesinin kaynağı olan klasik çalışmalar da zorla yerinden edilenlerle yapıldı [K04-20, K04-21]; gönüllü taşınmaya doğrudan aktarılamaz."
+ },
+ {
+  "id": "K10-29",
+  "iddia": "Türkiye'de TÜİK il düzeyi verisinde mutlu olduğunu söyleyenlerin oranı İstanbul'da yüzde 58,40 (50. sıra), İzmir'de yüzde 58,24 (51. sıra); fark 0,16 puan. Haber 2020 tarihli; il düzeyi verinin 2013 araştırmasına ait olduğu sayfada doğrulanamadı.",
+  "kaynak_adi": "Webtekno haberi (TÜİK il düzeyi mutluluk verisine dayanarak)",
+  "url": "https://www.webtekno.com/tuik-turkiye-en-mutlu-sehirler-2020-h95410.html",
+  "alinti": "İstanbul'daki vatandaşların mutluluk seviyesi yüzde 58.40 ... 51. sırada olan İzmir'in mutluluk oranı yüzde 58.24",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "- TÜİK'in il düzeyindeki ölçümünde mutlu olduğunu söyleyenlerin oranı İstanbul'da yüzde 58,40, İzmir'de yüzde 58,24 [K10-29]."
+ }
+]

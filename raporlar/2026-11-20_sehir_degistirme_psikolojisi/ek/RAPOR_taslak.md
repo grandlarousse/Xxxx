@@ -122,6 +122,7 @@ Senin durumuna iki not. İş nedeniyle taşınanlarda kişi eski yerinde ne kada
 | İlk 3 ay | Alışkanlık değiştirme penceresi açık | [K19-04] |
 | 3–6 ay | Ev ve düzen stresi düşüyor | [K06-15] |
 | İlk 12 ay | Sosyal çevre kaybının stresi azalmıyor | [K06-16] |
+| İlk 4 yıl | Yeni arkadaş ve tanıdık kaynakları en hızlı birikiyor (Almanya, tek kent) | [K23-07] |
 | 2–3 yıl | Kentten kıra taşınanlarda doyum artışı sönüyor | [K10-14] |
 | 2–5 yıl | Grup üyelikleri ve süreklilik duygusu yalnızlığa karşı korumaya başlıyor (boşanma örneklemi) | [K12-16] |
 
@@ -132,6 +133,8 @@ Taşınınca sosyal ağın büyüklüğü değil, içindeki kişiler değişiyor
 **Mesafe neyi götürür?** ABD'de taşınma mesafesi duygusal ve mali desteği etkilemedi; elle tutulur yardım ve birlikte vakit geçirme azaldı. Yeni yerde geçen süre uzadıkça destek alışverişi arttı [K07-07, K07-08]. Arkadaşlık akrabalıktan kırılgan: 18 ayda arkadaşlara duygusal yakınlık düştü, akrabaya arttı (30 genç) [K07-09]. Yüz yüze görüşme mesafeye en duyarlı kanal [K07-14].
 
 **Yeni arkadaşlık ne ister?** Son altı ayda taşınmış 355 yetişkinle yapılan çalışmada birlikte geçen saat yakınlıkla ilişkiliydi [K07-01]. Yaklaşık eşikler 50, 90 ve 200 saat [K07-02]. Sayılar geriye dönük tahmine dayanıyor ve başka çalışmada tekrarlanmadı; kesin eşik değil, büyüklük sırası olarak oku.
+
+**Ağ ne kadar sürede toparlanır?** Yetişkinlerde taşınmadan önce ve sonra yalnızlığı yıl yıl izleyen bir çalışma bulunamadı; bu gerçek bir kanıt boşluğu. Eldeki en yakın veriler şöyle. Almanya'nın Halle kentinde 3.471 kişilik ankette, sonradan gelenlerin başvurabileceği yardım kaynaklarının sayısı yerlilerle neredeyse aynıydı; birikim ilk dört yılda en hızlıydı, sonra duruyordu; akrabadan gelen kaynak azalıyor, arkadaş ve tanıdıktan gelen artıyordu [K23-06, K23-07, K23-08]. Taşındığında yaşı daha büyük olanlarda birikim daha düşüktü [K23-09]. İngiltere'de 25 km'den uzağa taşınanların sosyal yaşam doyumunda anlamlı bir düşüş ya da artış görülmedi [K23-04]; kayıp belirli bir grupta toplanıyordu: eşinin işi için taşınan kadınlar [K23-05]. İlk aylar ise zayıf: yeni taşınanlarla üç ay arayla yapılan görüşmelerde destek çok azdı ve arkadaşlıklardan memnuniyet düşüyordu (küçük ve eski bir çalışma) [K23-12]. Almanya'da taşınmış genç yetişkinler arkadaşlarıyla daha az vakit geçirmiyor, ama o zamandan daha az keyif alıyordu [K23-13]. Göç edenlerle etmeyenleri karşılaştıran 30 çalışmalık meta-analizde göç edenler biraz daha yalnız; etki küçük [K23-01].
 
 **Takas.** Zaman sınırlı. Okuldan üniversiteye ya da işe geçen 24 kişinin telefon kayıtlarında yeni kişiler eklendikçe eskilerin bir kısmı ağdan düştü ya da daha az arandı [K22-13]. Eski arkadaşlara zihnen takılı kalmak yeni yerde yalnızlıkla birlikte görüldü (70 öğrenci) [K22-15]. Küçük çalışmalar; ama bütün boş vakti eski şehirle telefonda geçirmenin bir bedeli olabileceğini düşündürüyor.
 
@@ -258,6 +261,18 @@ Gurbet ve sıla üzerine çalışmalar bu raporun ana bulgusunu kendi diliyle s�
 | Kişiliğime uygun şehri bulmalıyım | Uyum etkisi var ama çok küçük | [K09-19] |
 
 ## Emin olunmayanlar ve doğrulama kapsamı
+
+**Emin olunmayanlar**
+
+- En büyük boşluk: kendi isteğiyle, ülke içinde, bir büyük şehirden ötekine taşınan yetişkinleri zaman içinde izleyen çalışma yok denecek kadar az. Kanıtın çoğu üniversite öğrencilerinden, uluslararası göçmenlerden ve aynı şehir içinde ev değiştirenlerden geliyor. Bu rapordaki aktarımların çoğu benzetmeye dayanıyor.
+- Şu sorulara veri bulunamadı: eski şehri ne sıklıkla ziyaret etmek iyi; karar için ne kadar beklemek gerek; taşınanların kaçı pişman; Türkiye'de taşınanların kaçı geri dönüyor; yalnızlık kaç ayda eski düzeyine iniyor.
+- İstanbul'dan İzmir'e taşınanlar için tek nicel çalışma, tanıdık aracılığıyla ulaşılmış 196 kişiye dayanıyor ve yalnızca kalanları kapsıyor.
+- TÜİK sayıları kurumun veri portalından değil, bülteni aktaran haberlerden alındı. İl düzeyindeki mutluluk oranları (58,40 ve 58,24) tek bir haber sitesine dayanıyor.
+- Arkadaşlık için 50, 90 ve 200 saat eşikleri makalenin kendisinden değil, üniversitenin basın bülteninden görüldü.
+- Tanı ölçütleri DSM ve ICD'nin özgün metninden değil, bir derleme makalesinin tablosundan alındı. Türkiye'deki başvuru yolları (aile hekimi, MHRS, 112) bu çalışmada resmî kaynaktan doğrulanamadı.
+- Yer bağlılığı derlemesinin (Lewicka 2011) tam metni açılamadı; süre ve ilişkilerin en güçlü yordayıcılar olduğu bilgisi bir özet sayfasından.
+
+**Doğrulama kapsamı**
 
 <!--DOGRULAMA-->
 

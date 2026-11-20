@@ -1,0 +1,29 @@
+[
+ {
+  "id": "K06-21",
+  "iddia": "Wilson, Ward, Fischer 2013 meta-analizi: sosyokültürel uyum (günlük hayatı yürütebilme becerisi) ile ilişkiler: dil yeterliği r=.35, kültür bilgisi r=.34, ev sahibi toplumla temas r=.29, kalış süresi yalnızca r=.16. Süre tek başına zayıf yordayıcı; korelasyonel.",
+  "kaynak_adi": "Wilson, Ward & Fischer 2013, Beyond culture learning theory, Journal of Cross-Cultural Psychology 44, 900-927",
+  "url": "https://wgtn.ac.nz/cacr/research/migration/beyond-culture-learning-theory",
+  "alinti": "length of residence (r = .16), language proficiency (r = .35), contact with host nationals (r = .29)",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "\"Bir iki yılda alışılır\" kuralının bilimsel kaynağı bulunamadı; dolaşan rakamlar banka ve marka anketlerinden [K06-29]. Akademik veride geçen süre tek başına zayıf bir yordayıcı: uyumla ilişkisi r = 0,16, yerel insanlarla temasın ilişkisi r = 0,29 [K06-21]. Belirleyici olan kaç ay geçtiği değil, o aylarda ne yapıldığı."
+ },
+ {
+  "id": "K10-01",
+  "iddia": "Dünya genelinde kentlilerin yaşam değerlendirmesi kırdakilerden 0,41 puan yüksek (Gallup World Poll, 150 ülke, 0-10 Cantril merdiveni): kent 5,48, kır 5,07.",
+  "kaynak_adi": "Burger, Morrison, Hendriks, Hoogerbrugge 2020, World Happiness Report 2020 Bölüm 4",
+  "url": "https://worldhappiness.report/ed/2020/urban-rural-happiness-differentials-across-the-world/",
+  "alinti": "a difference of 0.41 points on the 11-point Cantril ladder",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "- Dünya genelinde kentliler yaşamını kırdakilerden daha iyi değerlendiriyor; fark yalnızca zengin Batı ülkelerinde kapanıyor. Türkiye \"kentli biraz daha memnun\" tarafında [K10-01, K10-04]."
+ },
+ {
+  "id": "K17-01",
+  "iddia": "Almanya SOEP panelinde (1985-2003, sabit etkiler) tek yön 1 saat işe gidiş, 0 dakikaya göre yaşam doyumunda 0,20 puan (0-10 ölçeği) düşüşle ilişkili; bir standart sapma (18 dk) için -0,086.",
+  "kaynak_adi": "Stutzer ve Frey 2008, Stress that doesn't pay: the commuting paradox, Scandinavian Journal of Economics (yazar kopyası)",
+  "url": "https://wwz.unibas.ch/fileadmin/user_upload/wwz/00_Professuren/Stutzer_Politische_Oekonomie/Publications/Stutzer_Frey_CommutingStress_SJEa.pdf",
+  "alinti": "People who spend one hour rather than 0 minutes commuting (one way) report, on average, a –0.20 points (t=-3.99) lower level of subjective well-being.",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "- **Yol:** Almanya'da tek yön bir saatlik işe gidiş yaşam doyumunu 0–10 ölçeğinde 0,20 puan düşürüyor [K17-01]. İngiltere'de genel doyumda etki yok; boş zaman doyumu, gerginlik ve ruh sağlığında var [K17-05]. Derlemeye göre tutarlı bir bağ kurulamadı [K17-08]."
+ }
+]

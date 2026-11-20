@@ -1,0 +1,182 @@
+[
+ {
+  "id": "K13-24",
+  "iddia": "TCMB 2026 3. çeyrek ortanca kira: İstanbul 475,20 TL/m², İzmir 296,46 TL/m², Türkiye 275,37 TL/m²; İstanbul İzmir'in yaklaşık 1,6 katı (oran kendi hesabım).",
+  "kaynak_adi": "TCMB konut kira verisi; aktaran Gazete Oksijen (Kasım 2026)",
+  "url": "https://gazeteoksijen.com/turkiye/istanbulda-100-metrekarelik-evin-kirasi-47-bin-520-oldu-kiralarin-en-yuksek-oldugu-10-il-296041",
+  "alinti": "İstanbul 475,20 TL, İzmir 296,46 TL",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "| Ortanca kira, TL/m² (2026, 3. çeyrek) | 475 | 296 | [K13-24] |"
+ },
+ {
+  "id": "K13-22",
+  "iddia": "KONDA 'İstanbul'u Anlamak'24': imkânı olsa İstanbul dışında yerleşmek isteyenler Aralık 2018'de %53, Mart 2024'te %61. Örneklem (2.489 kişi, yüz yüze) yalnızca arama özetinde görüldü. Niyet ölçer, fiilî taşınmayı değil.",
+  "kaynak_adi": "KONDA, İstanbul'u Anlamak'24 (Mart 2024); aktaran Gazete Oksijen, Marketing Türkiye",
+  "url": "https://gazeteoksijen.com/turkiye/istanbulun-yarisi-ilcesinden-disari-cikmiyor-210604",
+  "alinti": "Aralık'18'de imkanı olsa İstanbul dışında yerleşmek isteyenlerin oranı yüzde 53 iken Mart'24'te bu oran da yüzde 61'lere çıkıyor.",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "\"Herkes İstanbul'dan kaçıyor\" anlatısı abartılı. İstanbul 2025'te de en çok göç alan il; net kaybı nüfusunun binde 2,62'si [K13-04]. İmkânı olsa İstanbul dışında yaşamak isteyenlerin oranı ise yüzde 61 [K13-22]. Niyet ile davranış arasındaki fark çok büyük. İzmir net göç alıyor, ama kazancı küçülüyor [K13-07, K13-08]."
+ },
+ {
+  "id": "K13-26",
+  "iddia": "INRIX 2025 Küresel Trafik Raporu: İstanbul'da sürücülerin trafikte kaybettiği süre yılda 118 saat (dünyada 1.), İzmir'de 72 saat (Türkiye'de 3.), Bursa'da 64 saat. Sürücü verisidir, toplu taşıma kullananları kapsamaz.",
+  "kaynak_adi": "INRIX 2025 Global Traffic Scorecard; aktaran Gazete Vatan (13.12.2025)",
+  "url": "https://www.gazetevatan.com/gundem/dunya-birincisi-turkiyeden-trafik-raporunda-zirve-sasirtmadi-ama-sureler-korkuttu-iste-o-4-il-2333507",
+  "alinti": "yaşayanların trafikte yitirdiği süre 118 saat",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "| Trafikte yıllık kayıp, saat (2025) | 118 | 72 | [K13-26] |"
+ },
+ {
+  "id": "K10-19",
+  "iddia": "Duygudurum bozuklukları için kent-kır ham OR 1,39 (1,23-1,58), düzeltilmiş OR 1,28 (1,13-1,44). Tek tek çalışmaların yüzde 67'si anlamlı fark bulmamış.",
+  "kaynak_adi": "Peen ve ark. 2010",
+  "url": "https://gwern.net/doc/psychology/nature/2010-peen.pdf",
+  "alinti": "pooled unadjusted OR for mood disorders was 1.39 (1.23–1.58), P < 0.0001. The pooled adjusted OR was somewhat lower: 1.28",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "- Gelişmiş ülkelerde kentte duygudurum bozukluğu olasılığı, başka etkenler hesaba katıldıktan sonra yüzde 28 daha yüksek [K10-19]. Depresyon için bu ilişki gelişmekte olan ülkelerde görülmüyor [K10-21]. Bunlar kent ile kır karşılaştırması; iki büyük kent arasında değil."
+ },
+ {
+  "id": "K13-12",
+  "iddia": "2025'te iller arası göçün ilk üç nedeni: hanedeki bir ferde bağımlı göç 564.114 kişi (yaklaşık %22,8), daha iyi konut ve yaşam koşulları 510.226 (%20,6), eğitim 406.144 (%16,4). Yüzdeler toplam 2.475.019 üzerinden hesaplandı, TÜİK'in yayımladığı yüzde değil.",
+  "kaynak_adi": "TÜİK İç Göç İstatistikleri 2025; aktaran Habertürk, Ekonomi Gazetesi",
+  "url": "https://www.haberturk.com/ekonomi/istanbul-dan-kacis-5-yilin-4-unde-net-goc-kaybi-yasadi-3898368",
+  "alinti": "564.114; 510.226; 406.144",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "Türkiye'de şehir değiştirmek azalan bir davranış: 2025'te 2.475.019 kişi il değiştirdi, nüfusun yüzde 2,87'si [K13-01]. En sık üç neden hanedeki bir ferde bağlı göç, daha iyi konut ve yaşam koşulları, eğitim [K13-12]."
+ },
+ {
+  "id": "K13-04",
+  "iddia": "İstanbul 2025'te 329.912 kişi göç aldı, 371.258 kişi göç verdi; net göç -41.346, net göç hızı binde -2,62.",
+  "kaynak_adi": "TÜİK İç Göç İstatistikleri 2025; aktaran Habertürk (2026)",
+  "url": "https://www.haberturk.com/ekonomi/istanbul-dan-kacis-5-yilin-4-unde-net-goc-kaybi-yasadi-3898368",
+  "alinti": "binde eksi 2,62",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "\"Herkes İstanbul'dan kaçıyor\" anlatısı abartılı. İstanbul 2025'te de en çok göç alan il; net kaybı nüfusunun binde 2,62'si [K13-04]. İmkânı olsa İstanbul dışında yaşamak isteyenlerin oranı ise yüzde 61 [K13-22]. Niyet ile davranış arasındaki fark çok büyük. İzmir net göç alıyor, ama kazancı küçülüyor [K13-07, K13-08]."
+ },
+ {
+  "id": "K16-03",
+  "iddia": "Aynı ankette pişman olanların en sık nedeni arkadaşlardan uzaklaşmak (yüzde 49) ve eski bölgeden ayrılmak (yüzde 40); pişmanların yüzde 15'i geri dönmeyi düşünüyor. Şirket anketi.",
+  "kaynak_adi": "HireAHelper, 2021, 'Do People Actually Regret Moving?'",
+  "url": "https://www.hireahelper.com/moving-statistics/2021-study-do-people-actually-regret-moving/",
+  "alinti": "moving away from their friends: 49%; leaving the area they used to live in: 40%",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Pişmanlık ne kadar yaygın?** Güvenilir bir sayı yok. Dolaşan oranlar emlak ve taşımacılık şirketlerinin anketlerinden geliyor ve yüzde 20 ile 75 arasında değişiyor; aynı anketin başlığı \"yüzde 75\", metni \"yaklaşık yüzde 36\" diyor [K16-01, K16-04]. Bir şirketin kendi müşterileriyle yaptığı ankette pişman olanların en sık nedeni arkadaşlardan uzaklaşmaktı [K16-03]."
+ },
+ {
+  "id": "K02-18",
+  "iddia": "İngiltere BHPS: taşınma konut doyumunu belirgin artırıyor ve 5 yıl sonra hâlâ yüksek; sosyal yaşam, iş, gelir, eş ve sağlık doyumunda kalıcı iyileşme yok. Önceden süregelen taşınma isteği olanlarda konut etkisi daha güçlü ve uzun.",
+  "kaynak_adi": "Nowok, Findlay, McCollum 2018, Linking residential relocation desires and behaviour with life domain satisfaction, Urban Studies 55(4):870-890",
+  "url": "https://ideas.repec.org/a/sae/urbstu/v55y2018i4p870-890.html",
+  "alinti": "Changes in satisfaction with other life domains are much less pronounced and no lasting improvements in satisfaction are observed for them.",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "Bulgular üç noktada birleşiyor. Artan şey çoğunlukla konut memnuniyeti; sosyal yaşam, iş ve gelir doyumunda kalıcı iyileşme görülmüyor [K02-18]. Kararın kimin olduğu önemli: eşinin işi için taşınan kadınlarda kazanç yok [K02-15], ileri yaşta istemeden taşınanların iyi oluşu daha düşük [K02-22]. Ve etkiler her yerde küçük."
+ },
+ {
+  "id": "K16-08",
+  "iddia": "Dönme eğilimi geride bırakılan yere özgü sermayeyle artıyor, uzakta geçen süre uzadıkça azalıyor (ABD, PSID paneli, yaklaşık 5.000 aile). Dönüş mü yoksa başka yere mi gidileceği eğitim ve işsizlik deneyimine bağlı.",
+  "kaynak_adi": "DaVanzo ve Morrison, 1981, 'Return and Other Sequences of Migration in the United States', Demography 18(1)",
+  "url": "https://ideas.repec.org/a/spr/demogr/v18y1981i1p85-101.html",
+  "alinti": "the propensity to return to an area varies directly with the amount of location-specific capital that is left behind and inversely with the ex-resident's length of absence",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Geri dönüş sık ve olağan.** ABD'de 18–27 yaşında eyalet değiştiren 868 kişinin yüzde 50,2'si sonradan büyüdüğü eyalete döndü [K16-05]. Dönme eğilimi geride bırakılan çevre, dostluk ve iş bağlantıları arttıkça yükseliyor, uzakta geçen süre uzadıkça düşüyor [K16-08]. İsveç'te büyük kentlere dönenler, başka yerlere dönenlere göre daha kalıcı [K05-18]. Almanya'ya dönen vatandaşlarda iyi oluş dönüşte sabit kalıyor; gittiği yerde mutsuz olanlarda artıyor [K05-23]."
+ },
+ {
+  "id": "K21-17",
+  "iddia": "ABD: kentte çalışanlar kent dışındakilerden %33 fazla kazanıyor; primin önemli bölümü zamanla birikiyor ve kişi kentten ayrıldığında da onunla kalıyor (ücret düzeyi değil ücret artışı etkisi).",
+  "kaynak_adi": "Glaeser ve Maré 2001, Cities and Skills, Journal of Labor Economics",
+  "url": "https://ideas.repec.org/a/ucp/jlabec/v19y2001i2p316-42.html",
+  "alinti": "accrues to workers over time and stays with them when they leave cities",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Neyi yitirirsin?** Kariyerde sanıldığından azını: büyük kentte edinilen deneyimin ücrete katkısı ayrıldıktan sonra da sürüyor; kaybedilen anlık ücret primi ve hızlı öğrenme ortamı [K21-17, K21-18]. Kültürde tablo belirsiz: İngiltere'de 50 yaş üstünde ayda en az bir kez kültürel etkinliğe gidenlerde depresyon gelişme olasılığı yaklaşık yarı yarıya düşük [K21-20]; ama İsviçre'de daha sıkı yöntemle nedensel etki bulunmadı [K21-23]. \"Küçük yerde sıkılırım\" kaygısını destekleyen tutarlı veri yok [K21-27]. Türkiye'de büyükşehirden kıyıya taşınanlarla yapılan görüşmelerde bir kısım kişi kentin kült"
+ },
+ {
+  "id": "K06-29",
+  "iddia": "Popüler 'alışma süresi' rakamları marka anketlerinden geliyor: HSBC gurbetçi anketi (7.000'den fazla kişi) ortalama yaklaşık 8 ay, %23'ü için bir yıldan uzun; Birleşik Krallık'ta 2.000 kişilik anket ortalama yaklaşık 5 ay. Hakemli kaynak değil.",
+  "kaynak_adi": "HSBC gurbetçi anketi ve Birleşik Krallık kamuoyu anketi (basın haberleri)",
+  "url": "https://www.inkl.com/news/adults-say-it-takes-an-average-of-five-months-to-feel-part-of-a-community-after-moving",
+  "alinti": "for almost a quarter (23 per cent) of those surveyed, it takes more than a year to feel settled",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "\"Bir iki yılda alışılır\" kuralının bilimsel kaynağı bulunamadı; dolaşan rakamlar banka ve marka anketlerinden [K06-29]. Akademik veride geçen süre tek başına zayıf bir yordayıcı: uyumla ilişkisi r = 0,16, yerel insanlarla temasın ilişkisi r = 0,29 [K06-21]. Belirleyici olan kaç ay geçtiği değil, o aylarda ne yapıldığı."
+ },
+ {
+  "id": "K13-09",
+  "iddia": "On yıllık toplamda (TÜİK 2023 verisine kadar, yaklaşık 2014-2023) İstanbul'dan İzmir'e 190.602 kişi göç etti; İzmir, İstanbul'dan gidenlerin 4. büyük adresi (Kocaeli 284.458, Tekirdağ 244.122, Ankara 211.526).",
+  "kaynak_adi": "İstanbul Planlama Ajansı, İç Göç İstatistikleri 2024 yayını (TÜİK 2023 verisi)",
+  "url": "https://ipa.istanbul/yayinlarimiz/54/ic-goc-istatistikleri-2024",
+  "alinti": "İzmir: 190.602",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "17. **Dönmeyi yenilgi sayma** (orta). ABD'de genç yaşta eyalet değiştirenlerin yarısı yaklaşık on yıl içinde çıktığı eyalete döndü [K16-05]. Kanada ve Avustralya'da dönüşlerin dörtte biri ile üçte biri baştan planlıydı [K16-10]. Son on yılda İstanbul'dan İzmir'e 190.602 kişi giderken İzmir'den İstanbul'a 160.661 kişi gitti [K13-09, K13-10]."
+ },
+ {
+  "id": "K13-10",
+  "iddia": "Aynı on yılda İzmir'den İstanbul'a 160.661 kişi göç etti; İzmir, İstanbul'a göç verenlerde de 4. sırada (Ankara 207.287, Tokat 191.010, Kocaeli 177.581). Hat iki yönlü; net fark İzmir lehine yaklaşık 30 bin (kendi hesabım).",
+  "kaynak_adi": "İstanbul Planlama Ajansı, İç Göç İstatistikleri 2024 yayını (TÜİK 2023 verisi)",
+  "url": "https://ipa.istanbul/yayinlarimiz/54/ic-goc-istatistikleri-2024",
+  "alinti": "İzmir: 160.661",
+  "uretici_gordu": "ikincil kaynak",
+  "raporda_gectigi_yer": "17. **Dönmeyi yenilgi sayma** (orta). ABD'de genç yaşta eyalet değiştirenlerin yarısı yaklaşık on yıl içinde çıktığı eyalete döndü [K16-05]. Kanada ve Avustralya'da dönüşlerin dörtte biri ile üçte biri baştan planlıydı [K16-10]. Son on yılda İstanbul'dan İzmir'e 190.602 kişi giderken İzmir'den İstanbul'a 160.661 kişi gitti [K13-09, K13-10]."
+ },
+ {
+  "id": "K18-16",
+  "iddia": "ABD, NLSY79 Çocuk dosyaları, N=3.168 ergen: taşınmanın olumsuz davranışsal etkileri ebeveyne duygusal yakınlıkla tamponlanıyor; akademik etkide tamponlama cinsiyete göre değişiyor. Tek çalışma, hakemli ama küçük dergi.",
+  "kaynak_adi": "Gillespie 2014, Does Intergenerational Solidarity Buffer the Negative Effects of Residential Mobility?, Field Actions Science Reports",
+  "url": "https://journals.openedition.org/factsreports/3266",
+  "alinti": "the negative behavioral effects of moving are buffered by the reported level of emotional closeness to one's parent",
+  "uretici_gordu": "özet",
+  "raporda_gectigi_yer": "**Çocuklar.** Danimarka'da 1.475.030 kişilik izlemde çocuklukta taşınma ileride intihar girişimi, şiddet suçu ve psikiyatrik hastalık riskiyle ilişkili; en keskin artış, bir yılda birden çok taşınmanın 12–14 yaşa denk geldiği durumda [K18-01, K18-02]. Ama bu ilişkinin önemli bir kısmı taşınmanın kendisinden değil, eşlik eden koşullardan geliyor. ABD'de olumsuz çocukluk yaşantıları hesaba katılınca ilişki büyük ölçüde azalıyor [K18-08]. İsveç'te intihar girişimi riski kardeşler karşılaştırıldığında kayboluyor [K08-21]. Norveç'te okul öncesi taşınanlar taşınmayanlarla benzer, ergenlikte taşınanl"
+ },
+ {
+  "id": "K21-27",
+  "iddia": "Avustralya, N=271 üniversite öğrencisi (küçük, tek çalışma): yaşanan yer (kır ya da kent) ile boş zaman can sıkıntısı arasında anlamlı ilişki yok; yalnızca kırsaldaki genç kadınlar daha fazla can sıkıntısı bildiriyor.",
+  "kaynak_adi": "Exploring the Links between Leisure Boredom and Alcohol Use among Youth in Rural and Urban Areas of Australia, Journal of Park and Recreation Administration",
+  "url": "https://js.sagamorepub.com/jpra/article/view/1598",
+  "alinti": "there was no significant relationship between geographical area and leisure boredom",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "**Neyi yitirirsin?** Kariyerde sanıldığından azını: büyük kentte edinilen deneyimin ücrete katkısı ayrıldıktan sonra da sürüyor; kaybedilen anlık ücret primi ve hızlı öğrenme ortamı [K21-17, K21-18]. Kültürde tablo belirsiz: İngiltere'de 50 yaş üstünde ayda en az bir kez kültürel etkinliğe gidenlerde depresyon gelişme olasılığı yaklaşık yarı yarıya düşük [K21-20]; ama İsviçre'de daha sıkı yöntemle nedensel etki bulunmadı [K21-23]. \"Küçük yerde sıkılırım\" kaygısını destekleyen tutarlı veri yok [K21-27]. Türkiye'de büyükşehirden kıyıya taşınanlarla yapılan görüşmelerde bir kısım kişi kentin kült"
+ },
+ {
+  "id": "K14-07",
+  "iddia": "İzmir'de 30 ilçede olasılıklı örneklemle 26.819 yetişkinle yapılan ankette (Aralık 2022-Mart 2023) %81,2 kendini İzmirli olarak tanımlıyor; bunların %75,6'sı gerekçe olarak İzmir'de yaşama deneyimini, %21,9'u doğum yerini gösteriyor.",
+  "kaynak_adi": "İzmir Kalkınma Ajansı (İZKA) 2025, İzmirlilik ve İzmir'de Yaşam Araştırması (tasarım: A. Sinan Türkyılmaz)",
+  "url": "https://www.kalkinmakutuphanesi.gov.tr/assets/upload/dosyalar/izmirlilik-ve-izmirde-yasam-arastirmasi.pdf",
+  "alinti": "%75,6 gibi çok yüksek bir oran İzmirlilik tanımını İzmir'de yaşama deneyimlerine dayandırmış, doğum yerinin (%21,9)",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**İzmir'e özgü iyi haber.** 26.819 kişilik olasılıklı örneklemli ankette yüzde 81,2 kendini İzmirli sayıyor; bunların yüzde 75,6'sı gerekçe olarak doğumu değil, İzmir'de yaşama deneyimini gösteriyor [K14-07]."
+ },
+ {
+  "id": "K14-08",
+  "iddia": "Aynı İZKA anketinde katılımcıların %92,3'ü İzmir'de tamamen ya da kısmen mutlu, %91,5'i güvende olduğunu söylüyor (kesitsel; göçle gelenler ayrı raporlanmamış).",
+  "kaynak_adi": "İZKA 2025, İzmirlilik ve İzmir'de Yaşam Araştırması",
+  "url": "https://www.kalkinmakutuphanesi.gov.tr/assets/upload/dosyalar/izmirlilik-ve-izmirde-yasam-arastirmasi.pdf",
+  "alinti": "görüşülen kişilerin %92,3'ü kendilerinin İzmir'de tamamen ya da kısmen mutlu olduğunu belirtmektedir",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "Türkçe araştırmalar ne ekliyor? İstanbul'dan İzmir'e taşınan 35 kişiyle yapılan görüşmelerde katılımcılar İzmir'i yaşam kalitesi açısından daha yaşanabilir, iş olanakları açısından İstanbul'u önde buluyor [K14-05]. İzmir'de yapılan büyük ankette katılımcıların yüzde 92,3'ü kentte tamamen ya da kısmen mutlu olduğunu söylüyor [K14-08]. Bir nitel araştırmaya göre İzmirliler \"İstanbullaşma\"dan çekiniyor ve İstanbul'dan gelenler sürtünme yaşanan gruplar arasında anılıyor [K14-13]; bunu bilmek, karşılaşacağın mesafeyi kişisel almamana yardım edebilir."
+ },
+ {
+  "id": "K03-15",
+  "iddia": "Di Masso ve 12 yazar 2019 (kuramsal derleme): hareketlilik yerin önemini ortadan kaldırmaz, yerle kurulan bağın biçimini değiştirir; birden çok yere bağlılık yaygındır.",
+  "kaynak_adi": "Di Masso ve ark. 2019, Between fixities and flows, J Environ Psychol 61:125-133",
+  "url": "https://larch.be.uw.edu/wp-content/uploads/sites/7/2020/09/Di-Masso-et-al-Between-Fixities-Flows.pdf",
+  "alinti": "mobilities, rather than negating the importance of place, shift our understanding of place",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Eski yer engel mi?** Bunu doğrudan sınayan çalışma bulunamadı; iddia ne doğrulandı ne çürütüldü. Eldeki tek seferlik veriler engel olmadığı yönünde. Çin'de 228 iç göçmenin yüzde 60'ı iki yere de bağlıydı, yüzde 18'i yalnız memlekete, yüzde 22'si yalnız yeni kente; uzakta geçen süre arttıkça yalnız memlekete bağlı olanların payı düşüyordu [K03-16, K03-17]. Kuramsal derlemeye göre hareketlilik yerin önemini silmiyor, bağın biçimini değiştiriyor [K03-15]. İkinci konut sahipleriyle yapılan çalışma, bir yere bağlanmak için orada tam zamanlı yaşamanın şart olmadığını gösteriyor [K22-22]."
+ },
+ {
+  "id": "K22-11",
+  "iddia": "Schunck 2014 (Almanya, büyük temsili veri, birinci ve ikinci kuşak, boylamsal çözümleme): uyum ile köken ülkeyle bağ zorunlu olarak karşıt değil; düşük uyum ile güçlü bağ birlikte görülebiliyor ama ilişki nedensel değil.",
+  "kaynak_adi": "Schunck 2014, Transnational Activities and Immigrant Integration in Germany: Concurrent or Competitive Processes?, Springer",
+  "url": "https://link.springer.com/doi/10.1007/978-3-319-03928-2_6",
+  "alinti": "immigrant integration and transnational involvement do not necessarily oppose each other",
+  "uretici_gordu": "arama özeti",
+  "raporda_gectigi_yer": "**İki yere birden ait olunur mu?** Göç araştırmalarında uzun süre \"bütünleşme\" (hem köken hem yeni kültürle bağ) en iyi yol sayıldı; 13 ülkede 5.366 göçmen gençte bu profil en iyi uyumla ilişkiliydi [K22-01]. Sonraki yeniden çözümlemeler etkinin küçük olduğunu gösterdi: korelasyon 0,09 ile 0,17 arasında, zaman içindeki etki sıfıra yakın [K22-05, K22-04, K22-08]. Görece en tutarlı bulgu yeni yere yönelmenin uyumla ilişkisi; o da küçük [K22-07]. Öte yandan köken yerle bağı sürdürmek uyumu engellemiyor [K22-10, K22-11]."
+ },
+ {
+  "id": "K16-01",
+  "iddia": "ABD'de 1.000 kişilik Home Bay anketinde (2022'de taşınanlar) başlık 'yüzde 75 pişman' diyor, metin 'yaklaşık yüzde 36'; yüzde 20'si eski evini özlediğini söylüyor. Örnekleme yöntemi belirtilmemiş; şirket anketi, yöntem kalitesi düşük.",
+  "kaynak_adi": "Clever Real Estate / Home Bay, 2023, '75% of Americans Regret Moving Last Year'",
+  "url": "https://listwithclever.com/news/moving-regrets-trends-2023/",
+  "alinti": "Roughly 36% of people who moved in 2022 say they have regrets.",
+  "uretici_gordu": "tam metin",
+  "raporda_gectigi_yer": "**Pişmanlık ne kadar yaygın?** Güvenilir bir sayı yok. Dolaşan oranlar emlak ve taşımacılık şirketlerinin anketlerinden geliyor ve yüzde 20 ile 75 arasında değişiyor; aynı anketin başlığı \"yüzde 75\", metni \"yaklaşık yüzde 36\" diyor [K16-01, K16-04]. Bir şirketin kendi müşterileriyle yaptığı ankette pişman olanların en sık nedeni arkadaşlardan uzaklaşmaktı [K16-03]."
+ }
+]
