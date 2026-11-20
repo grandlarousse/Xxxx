@@ -1,0 +1,23 @@
+## Baltasar Gracián — El héroe, El político, El discreto (Kahraman, 1637; Siyasetçi Katolik Fernando, 1640; Sağgörülü İnsan, 1646)
+
+**Künye.** Baltasar Gracián (1601–1658) Aragonlu Cizvit rahip, vaiz ve ahlak yazarıdır; tarikatından izin almadan, çoğunlukla kardeşi Lorenzo'nun adıyla yayımlamıştır. Üç kitap da İspanyolcadır: *El héroe* (Huesca, 1637), *El político don Fernando el Católico* (Zaragoza, 1640), *El discreto* (Huesca, 1646). Üçünün tam Türkçe baskısı bulunamadı. *Kahramanların Cep Aynası* adlı 160 sayfalık bir Türkçe Gracián kitabı (2020) satış sitelerinde görünüyor; yayınevi, çevirmeni ve hangi metinleri içerdiği doğrulanmadı. Üçü de cebe sığan küçük kitaplardır; *El político*'nun ilk baskısı küçük boy 222 sayfadır.
+
+**Bir cümleyle.** Büyüklük doğuştan gelmez; yetenek, zevk, zamanlama ve kendini sunma biçimi tek tek işlenerek kurulur.
+
+**Bağlam.** Gracián bu kitapları, Huesca'da bilgin ve koleksiyoncu Lastanosa'nın çevresindeyken İspanya'nın gerilemeye başladığı yıllarda yazdı. Machiavelli'nin hükümdarına karşı "Hristiyan hükümdar" arayan bir yazının içindedir, ama öğütleri dinden çok dünyevi beceriye dayanır. Hedef okur soylu ve hırslı gençtir. Üç kitap, 1647 tarihli *Oráculo manual*'in ham maddesidir.
+
+**Yapısı.** *El héroe* yirmi "primor"dan (incelik, üstün nitelik) oluşur; her biri kısa bir bölümdür. *El político* bölümlere ayrılmamış tek bir övgü söylevidir: önce bir hükümdarlık niteliği söylenir, ardından tarihten örnekler Fernando'yla karşılaştırılır. *El discreto* yirmi beş "realce"den (parlatan, öne çıkaran nitelik) oluşur ve her realce başka bir türde yazılmıştır: söylev, mektup, diyalog, fabl, hiciv.
+
+**Ana fikirler.**
+- **Derinliğini ölçtürme (El héroe).** İlk primorlar kapasiteyi ve isteği gizlemeyi öğretir: insanlar sınırını gördükleri kişiye hayranlık duymayı bırakır. İkinci primorun adı "Cifrar la voluntad"dır, yani isteğini şifrelemek (primor adları bellekten, doğrulanmadı).
+- **Zevk ve seçim de bir güçtür.** Beşinci primor "Gusto relevante" (seçkin beğeni) adını taşır. Gracián'a göre iyi beğeni iyi çevreyle bulaşır; neyi seçtiğin, ne yaptığın kadar seni tanımlar.
+- **İlk ol, talihini tanı, kazanırken çekil.** Kahraman, başkasının gölgesinde ikinci olacağı alana girmez; kendi alanında birinci olur. Talihinin gücünü işe girişmeden yoklar ve şansı dönmeden masadan kalkmayı bilir (bellekten, doğrulanmadı).
+- **Despejo: zahmetsiz zarafet.** Gracián'ın anahtar kavramlarından biridir: her niteliğe can veren, yapmacıksız rahatlık. Yapmacıklık en iyi niteliği bile bozar.
+- **Fernando modeli (El político).** Gracián, Katolik Fernando'yu "aquel gran maestro del arte de reinar" diye sunar. Fernando'nun üstünlüğü tek bir erdem değil, sağduyu, zamanlama ve devlet aklının (hükümdarın devlet çıkarını her şeyin üstünde tutması) birleşimidir. Machiavelli de *Prens*'te aynı kralı örnek vermiş, ama dindarlığını bir perde saymıştı.
+- **Her saatin insanı (El discreto).** Sağgörülü kişi kahraman değil, her ortama uyabilen olgun insandır: beklemeyi bilen ("hombre de espera"), iyi seçen, tutarlı davranan. Son realce hayatı üç döneme böler: ölülerle (kitaplar), yaşayanlarla (yolculuk, sohbet) ve kendinle konuşma (bellekten, doğrulanmadı).
+
+**İktidar'la ilişkisi.** Greene, Gracián'ı kenar notlarında ve "Authority" bölümlerinde sık alıntılar; ancak kaynakçada bu üç kitabın bulunduğu görülmedi (bir arama özeti yalnızca *The Oracle*, çev. L. B. Walton der). Alıntıların bu kitaplardan gelip gelmediği doğrulanmadı. Örtüşen yasalar: 3. yasa (Niyetlerini gizle), 30. yasa (Başarılarını zahmetsizmiş gibi göster), 35. yasa (Zamanlama sanatında ustalaş), 41. yasa (Büyük bir adamın yerine geçmekten kaçın) ve 47. yasa (Hedeflediğin noktayı aşma; zaferde durmayı bil). Ayrışma: Gracián'ın yirminci primoru erdemi bütün niteliklerin tacı sayar (bellekten, doğrulanmadı); Greene'de böyle bir tavan yoktur. Gracián ayrıca kurban ve av dilini kullanmaz; konusu kendini yetiştirmektir.
+
+**Eleştiri ve sınırlar.** Üslup bilerek sıkıştırılmış ve kapalıdır; çeviride çok şey kaybolur. *El político* tarih değil övgüdür: Fernando her karşılaştırmadan galip çıkar. Erdem vurgusunun içten mi yoksa sansüre karşı kalkan mı olduğu tartışılır. *El héroe*'nin ilk baskısı uzun süre kayıp sanıldığı için baskılar 1639 tarihli ikinci baskıya dayanmıştır. Kadınlara ve halka yer yoktur; okur soylu erkektir.
+
+**Kimler okumalı.** *Oráculo manual*'i sevip özdeyişlerin nereden çıktığını merak edenler. Bu üç kitap aynı fikirleri daha uzun, örnekli ve gerekçeli hâliyle verir. Sıra da öğreticidir: önce olağanüstü insan (*El héroe*), sonra tarihten somut bir model (*El político*), en sonda herkesin ulaşabileceği olgun insan (*El discreto*). İspanyol Wikipedia'sı *El discreto*'yu önceki iki kitabın doruğu sayar.

@@ -1,0 +1,33 @@
+## Michael Korda — Power! How to Get It, How to Use It (Power! How to Get It, How to Use It, 1975)
+
+**Künye.** Michael Korda (d. 1933, Londra), İngiliz doğumlu yazar ve editördür; 1958'de girdiği New York'taki Simon & Schuster yayınevinde baş editörlüğe yükseldi ve kitabı bu büro deneyiminden yazdı. Özgün dil İngilizce; ilk baskı Random House, New York, 1975; xii + 268 sayfa, resimli. Türkçe baskısı bulunamadı.
+
+**Bir cümleyle.** Büro hayatı bir güç oyunudur ve bu oyun büyük kararlarla değil masanın yeri, telefonun sayısı, toplantıya geliş saati gibi küçük işaretlerle oynanır.
+
+**Bağlam.** Kitap 1970'lerin ortasında, Amerikan şirket hayatının büyük ve kalabalık merkez bürolarda geçtiği bir dönemde çıktı. Aynı yıllarda "kazanmak", "gözdağı vermek" ve "başarmak" üzerine bir dizi el kitabı yayımlanıyordu; Time dergisi 1975'te bu dalgayı Korda'nın kitabını da anarak haber yaptı. Korda yayıncılık dünyasının içindendi: yazarları, ajanları ve yöneticileri yakından izlemişti. Kitabı bir kuram olarak değil, alaycı bir gözlem defteri olarak yazdı. Hedef okur, terfi bekleyen orta kademe büro çalışanıdır. Kitap 1975'te New York Times çok satanlar listesinde birinciliğe çıktı. Korda'nın bir önceki kitabı iş yerindeki erkek üstünlüğü üzerineydi; bu kitabın ardından da "Success!" geldi (bu iki ad bellekten, doğrulanmadı).
+
+**Yapısı.** Kitabın tam içindekiler listesi görülemedi; bu yüzden bölüm sayısı doğrulanmadı. Görülebilenler şunlar: kitap kısımlara ayrılır; ikinci kısmın adı "Güç Dünyası"dır (The World of Power). Bu kısımdaki dördüncü bölüm "Güç Noktası" (The Power Spot) adını taşır ve şu alt başlıkları içerir: güç hatları, güç alanları, güç grupları, büro partilerinin güç dinamikleri. Tanıtım yazılarına ve okur notlarına göre kitabın geri kalanı şu konuları işler (sıra kesin değildir): güç duygusu ve güç insanları; oyunlar (toplantı, telefon, zaman, zayıflık oyunları); güç simgeleri; para ve zam pazarlığı; kadınlar ve güç.
+
+**Ana fikirler.**
+
+- **Güç bir oyundur.** Korda gücü ahlaki bir sorun olarak değil, kuralları olan bir oyun olarak ele alır. Oynamayı reddeden de oyunun içindedir, yalnızca kaybeden taraftadır. İşi iyi yapmak yetmez; oyunu oynamak da iş kadar önemlidir.
+- **Güç noktası ve güç hatları.** Bir büroda güç, pencereli odada değil karar yollarının geçtiği yerde durur. Köşe odalar, üst yöneticiye yakın koridorlar ve bilgi akışının kesiştiği noktalar güç noktalarıdır. Korda okura kendi bürosunun haritasını çıkarmayı önerir.
+- **Oda ve masa düzeni.** Masa bir siperdir: ziyaretçiyi alçak bir koltuğa, ışığa karşı ya da masadan uzağa oturtmak üstünlük kurar. Odayı baskı alanı (masa) ve yarı sosyal alan (koltuk takımı) diye ikiye ayırıp görüşmeyi amaca göre birinde yapmak gerekir (terimler bellekten, doğrulanmadı).
+- **Telefon oyunları.** Kimin kimi aradığı, hatta kimin önce beklediği bir üstünlük göstergesidir. Sekreterine aratan ve karşı tarafı hatta bekleten kişi kazanır. Masadaki telefon sayısı da bir işarettir.
+- **Zaman oyunları.** Güçlü kişi zamanını denetler: iş yemeğine biraz geç gelmek karşıdakini tedirgin eder. Dolu bir takvim de boş bir masa da güç gösterebilir; önemli olan, zamanın başkası tarafından yönetilmediğini belli etmektir.
+- **Güç simgeleri.** Ayakkabı, saat, çanta, makam arabası birer mesajdır. Korda'ya göre çanta inceldikçe güç artar; en güçlüler hiçbir şey taşımaz (bu örnek bellekten, doğrulanmadı). Simge işin yerini tutmaz, ama simgesi olmayan güç fark edilmez.
+- **Beden ve bakış.** Ayakların duruşu, oturuş, göz teması ve gülümseme güç ilişkisini ele verir. Kitap mobilyanın yerinden ayağın yerine kadar her ayrıntıyı okumayı öğretir.
+- **Zayıflık oyunları.** Güçsüz görünmek de bir taktiktir: yardım istemek, bilmezden gelmek ya da mağdur rolü, karşı tarafı sorumluluk almaya iter. Korda bunu güçlülerin de güçsüzlerin de kullandığını söyler.
+- **Vazgeçilmez görünme tuzağı.** Ne kadar gerekli olduğunuzu kanıtlamaya çalıştıkça, işinizin gerekli olup olmadığını soranların dikkatini çekersiniz. Zam için en iyi konum da zaten çok kazanıyor olmaktır.
+- **Kadınlar ve güç.** Korda'ya göre erkekler oyunu takım sporlarında, askerde ve okulda öğrenir; kadınlar ise işi iyi yapmanın yeteceğine inandırılır. Bu yüzden en sert oyunların kadınlara karşı oynandığını söyler. Gözlem dönemin bürosunu yansıtır, bugün aynen geçerli sayılamaz.
+- **Sakin güç.** Gerçek güç, her şeyi denetlemeye çalışmak değildir. Korda, dünyanın düzensiz ve tehlikeli olduğunu, güçlü kişinin bununla rahat yaşamayı öğrendiğini yazar.
+
+**İktidar'la ilişkisi.** Korda'nın kitabı, bu çalışmada görülen İktidar kaynakçası listesinde görünmüyor; kitabın çevrimiçi metninde Korda adı da geçmiyor. İlişki dolaylıdır: Korda, Greene'den yirmi üç yıl önce "ahlak dersi vermeyen, çok satan güç el kitabı" türünün Amerikan pazarında tutulduğunu göstermiştir.
+
+Örtüşen yasalar: Yasa 8 (Başkalarını ayağına getir; gerekirse yem kullan) ile "kim kimi arar, kim kimin odasına gider" oyunları; Yasa 34 (Kendi tarzında soylu ol: kral gibi davran ki kral gibi davranılsın) ve Yasa 37 (Etkileyici gösteriler yarat) ile güç simgeleri; Yasa 35 (Zamanlama sanatında ustalaş) ile zaman oyunları; Yasa 21 (Enayiyi avlamak için enayi rolü yap) ve Yasa 22 (Teslimiyet taktiğini kullan: zayıflığı güce çevir) ile zayıflık oyunları; Yasa 16 (Saygınlığını artırmak için yokluğunu kullan) ile ulaşılmaz görünme.
+
+Ayrışma: Greene üç bin yıllık tarihten örnek toplar ve evrensel yasa iddiasında bulunur. Korda tek bir yeri, 1970'lerin Manhattan bürosunu anlatır ve mizah kullanır. Greene strateji öğretir; Korda daha çok işaret okumayı. Korda'da düşmanı ezmek ya da tuzak kurmak gibi sert öğütler yoktur; kazanç bir köşe oda ya da bir zamdır.
+
+**Eleştiri ve sınırlar.** Kitap en çok eskidiği için eleştirilir: sekreterler, sabit telefonlar, kapalı odalar ve makam arabaları üzerine kurulu öğütlerin çoğu açık ofis ve uzaktan çalışma düzeninde karşılıksız kalır. Bugünkü okurlar onu öğüt kitabından çok bir dönem belgesi olarak değerli bulur. İkinci eleştiri kanıtla ilgilidir: gözlemler kişisel ve anekdota dayalıdır, hiçbir araştırmaya yaslanmaz. Üçüncüsü tonla ilgilidir: bazı okurlar insanları denetlemekten zevk alan anlatımı itici bulur. Kadınlara ayrılan bölüm, gücü erkeklere özgü bir alışkanlık gibi anlatır ve dönemin önyargılarını taşır. Kimi okurlar ise kitabı taktikleri uygulamak için değil, kendisine uygulandığında tanımak için yararlı bulur.
+
+**Kimler okumalı.** İktidar'ın saray sahnelerinin büro katındaki karşılığını merak eden okur için eğlenceli bir ek. Greene'in "türün ilk örneği" olmadığını ve aynı fikirlerin 1975'te mobilya ve telefon üzerinden nasıl anlatıldığını gösterir.

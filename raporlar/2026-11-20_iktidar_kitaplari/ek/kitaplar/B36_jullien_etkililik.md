@@ -1,0 +1,23 @@
+## François Jullien — Traité de l'efficacité (Traité de l'efficacité, 1996)
+
+**Künye.** François Jullien (doğumu 1951), École Normale Supérieure mezunu Fransız felsefeci, Yunan uzmanı ve sinologdur (Çin bilimci); 1975–1977'de Pekin ve Şanghay'da okumuştur. Çin düşüncesini Avrupa felsefesine dışarıdan bakmanın aracı olarak kullanır. Özgün ad Traité de l'efficacité ("Etkililik Üzerine İnceleme"), dili Fransızca, 1996. Türkçe baskısı bulunamadı. İngilizcesi: A Treatise on Efficacy: Between Western and Chinese Thinking, çeviren Janet Lloyd, University of Hawai'i Press, 2004; yaklaşık 200 sayfa.
+
+**Bir cümleyle.** Batı, sonucu bir plan kurup iradeyle uygulayarak arar; eski Çin, durumun kendi eğilimine yaslanıp sonucun kendiliğinden gelmesini sağlar.
+
+**Bağlam.** Jullien'in daha önceki kitabı "Şeylerin Eğilimi" Çin'deki shi kavramını incelemişti. Bu kitap aynı fikri strateji, siyaset ve diplomasiye uygular. Okuru Avrupalıdır: amaç Çin'i anlatmak değil, Batı'nın "etkili eylem" derken sorgulamadan kabul ettiği şeyleri görünür kılmaktır. Bugün yönetim dünyasında da okunuyor.
+
+**Yapısı.** On iki bölüm; bir tanıtım yazısına göre kabaca iki öbek oluşturur. İlk bölümler iki mantığı karşı karşıya koyar: modele bakmak ya da eğilime yaslanmak, amaç ya da sonuç, eylem ya da dönüşüm, fırsatın yapısı. Sonrakiler Çin tarafını açar: eylemsizlik, etkinin kendiliğinden gelmesi, yönlendirmenin mantığı, ikna ile yönlendirme farkı, su imgeleri, kolaylığa övgü. (Bölüm adları bellekten; yalnızca "eğilime yaslanmak" başlığı kaynakta görüldü.)
+
+**Ana fikirler.**
+- **Model ve uygulama.** Yunanlardan beri Batı önce ideal bir biçim tasarlar, sonra onu gerçekliğe dayatır. Kuram ile uygulama arasındaki boşluk hep kalır; Clausewitz'in "sürtünme"si bu boşluğun itirafıdır. Kahramanlık ve irade bu yüzden övülür.
+- **Durumun gücü (shi).** Çin stratejisi plan yapmaz, durumu değerlendirir. Yokuştan yuvarlanan taşın gücü taşta değil yokuştadır. Usta general, askerlerinden cesaret beklemez; onları cesur olmak zorunda kalacakları konuma yerleştirir. Jullien buna "durum potansiyeli" der.
+- **Eylem değil dönüşüm.** Eylem anlıktır, göze çarpar ve direnç doğurur. Dönüşüm yavaştır, yaygındır ve fark edilmez. Mengzi'nin öyküsünde filizlerini büyüsün diye çekiştiren çiftçi onları kurutur; doğrusu toprağı çapalayıp beklemektir. Jullien sonraki kitaplarında buna "sessiz dönüşümler" adını verir.
+- **Fırsat başta yakalanır.** Batı'da fırsat, kaçmadan tutulacak şanslı andır. Çin'de fırsat bir sürecin sonudur; asıl an, eğilimin henüz belli belirsiz olduğu başlangıçtır. Orada küçük bir dokunuş yeter.
+- **Eylemsizlik (wuwei).** Laozi'nin "hiçbir şey yapma, yapılmamış bir şey kalmasın" sözü tembellik değildir: sürece karışma, akışa eşlik et. En büyük zafer kolay görünür ve kimse övmez; iyi generalin ünü olmaz.
+- **İkna yerine yönlendirme.** Yunan geleneği karşıdakini sözle, açıkça ikna eder. Guiguzi ve Han Feizi'de hedef, karşıdakini önceden öyle koşullamaktır ki başka türlü davranamasın. Jullien bu mantığın özgürlük ve açık tartışma açısından bedelini de söyler.
+
+**İktidar'la ilişkisi.** Kitap, İktidar'ın kaynakçasında görünmüyor; İngilizcesi İktidar'dan (1998) altı yıl sonra çıktı. Değeri, Greene'in sezgiyle topladığı Çin kaynaklı öğütlerin arkasındaki mantığı açıklamasıdır. 48. yasa (Biçimsiz ol) burada su imgesiyle kuramsal temele oturur. 35. yasa (Zamanlama sanatında ustalaş) fırsat çözümlemesinde derinleşir. 8. yasa (Başkalarını ayağına getir; gerekirse yem kullan) ile 31. yasa (Seçenekleri sen belirle) yönlendirme mantığının uygulamalarıdır. 30. yasa (Başarılarını zahmetsizmiş gibi göster) burada görüntü değil gerçektir: iyi strateji gerçekten zahmetsizdir. Ayrışma: Jullien'in Çin'i, Greene'in sevdiği birçok şeyi reddeder. 28. yasa (İşe cesaretle gir), 6. yasa (Ne pahasına olursa olsun dikkat çek) ve 37. yasa (Etkileyici gösteriler yarat) "Batılı" kahramanlık anlayışına aittir. 29. yasa (Sonuna kadar planla) da tam olarak eleştirilen model mantığıdır. Greene iki geleneği ayırt etmeden yan yana koyar; Jullien bunların birbirine indirgenemeyeceğini gösterir.
+
+**Eleştiri ve sınırlar.** En sert eleştiri İsviçreli sinolog Jean François Billeter'den geldi: "Contre François Jullien" (2006) adlı kitapçığında onu Çin'i egzotik bir "öteki" olarak kurmakla suçladı. Akademik tanıtımlar da "Batı" ve "Çin" gibi toptan terimlerin sorunlu olduğunu belirtir: iki yanda da karşı örnekler çoktur. Jullien birkaç eski metne dayanır, tarihsel uygulamaya pek bakmaz. Üslubu soyuttur; somut vaka yoktur.
+
+**Kimler okumalı.** İktidar'daki dolaylılık, zamanlama ve biçimsizlik yasalarının neden işe yaradığını kavramsal olarak anlamak isteyenler. Öykü değil düşünce arayan, felsefe okumaya alışkın okur içindir.

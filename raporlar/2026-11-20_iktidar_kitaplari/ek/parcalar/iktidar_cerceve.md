@@ -18,7 +18,7 @@ Mezun olduktan sonra uzun süre yolunu bulamadı. Kendi tahminine göre yazar ol
 - *Mastery* (2012): bir alanda ustalaşmanın yolu.
 - *The Laws of Human Nature* (2018): insan doğasının yasaları; Greene'in “en eksiksiz” saydığı kitabı.
 - *The Daily Laws* (2021): yılın her gününe bir kısa metin.
-- *The Law of the Sublime* (Kasım 2026, Viking): hayranlık ve aşkınlık deneyimi üzerine. Bu bilgi Wikipedia'dan; kitabı görmedik.
+- *The Law of the Sublime* (10 Kasım 2026, Viking): hayranlık ve aşkınlık deneyimi üzerine. Yayın tarihi yayınevinin sayfasından; kitabı görmedik.
 
 Greene ayrıca giyim şirketi American Apparel'ın kurucusu Dov Charney'ye danışmanlık yaptı ve 2007'den sonra şirketin yönetim kurulunda yer aldı. Yazar Ryan Holiday onun yanında yetişti.
 

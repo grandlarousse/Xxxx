@@ -1,0 +1,1261 @@
+{
+ "A01_greene_bastan_cikarma": [
+  {
+   "ad": "Baştan Çıkarma Sanatı",
+   "yazar": "",
+   "yayinevi": "Altın Kitaplar"
+  },
+  {
+   "ad": "Baştan Çıkarma Sanatı",
+   "yazar": "Robert Greene",
+   "yayinevi": ""
+  }
+ ],
+ "A02_greene_33_strateji": [
+  {
+   "ad": "33 Stratejide Savaş",
+   "yazar": "",
+   "yayinevi": "Altın Kitaplar"
+  }
+ ],
+ "A03_greene_50_yasa": [],
+ "A04_greene_insan_dogasi": [],
+ "A05_machiavelli_prens": [
+  {
+   "ad": "De Principatibus Prens",
+   "yazar": "",
+   "yayinevi": "Kabalcı Yayınevi"
+  },
+  {
+   "ad": "Hükümdar",
+   "yazar": "",
+   "yayinevi": "Oda Yayınları"
+  },
+  {
+   "ad": "Hükümdar",
+   "yazar": "Niccolo Machiavelli",
+   "yayinevi": "Şule Yayınları"
+  },
+  {
+   "ad": "Hükümdar",
+   "yazar": "",
+   "yayinevi": "Dergah Yayınları"
+  },
+  {
+   "ad": "Hükümdar",
+   "yazar": "",
+   "yayinevi": "Dorlion Yayınevi"
+  },
+  {
+   "ad": "Prens",
+   "yazar": "Niccolo Machiavelli",
+   "yayinevi": "Can Yayınları"
+  },
+  {
+   "ad": "Prens",
+   "yazar": "Niccolo Machiavelli",
+   "yayinevi": "İlgi Kültür Sanat Yayınları"
+  },
+  {
+   "ad": "Prens",
+   "yazar": "Niccolo Machiavelli",
+   "yayinevi": "Dorlion Yayınevi"
+  }
+ ],
+ "A06_machiavelli_soylevler": [
+  {
+   "ad": "Söylevler",
+   "yazar": "",
+   "yayinevi": "Say Yayınları"
+  },
+  {
+   "ad": "Söylevler",
+   "yazar": "Machiavelli",
+   "yayinevi": ""
+  }
+ ],
+ "A07_guicciardini_ricordi": [],
+ "A08_gracian_oraculo": [
+  {
+   "ad": "Akıllı Davranma Sanatı",
+   "yazar": "",
+   "yayinevi": "Remzi Kitabevi"
+  },
+  {
+   "ad": "Akıllı Yaşama Sanatı",
+   "yazar": "",
+   "yayinevi": "Dorlion Yayınevi"
+  },
+  {
+   "ad": "Bilgelik Kılavuzu ve Kurnazlık Sanatı",
+   "yazar": "Baltasar Gracian",
+   "yayinevi": "Say Yayınları"
+  },
+  {
+   "ad": "Bilgelik Sanatı",
+   "yazar": "",
+   "yayinevi": "İlgi Kültür Sanat Yayınları"
+  },
+  {
+   "ad": "Dostu Düşmanı Kullanma Sanatı",
+   "yazar": "",
+   "yayinevi": "Sel Yayıncılık"
+  },
+  {
+   "ad": "Dünyevi Bilgelik Sanatı",
+   "yazar": "Baltasar Gracian",
+   "yayinevi": "Flamingo Yayınları"
+  },
+  {
+   "ad": "Zor Zamanlar İçin İnsan Kalma Rehberi",
+   "yazar": "Baltasar Gracian",
+   "yayinevi": "Destek Yayınları"
+  },
+  {
+   "ad": "Akıllı Davranma Sanatı - Sağduyulu Davranış ve ...",
+   "yazar": "Baltasar Gracian",
+   "yayinevi": ""
+  }
+ ],
+ "A09_castiglione_sarayli": [],
+ "A10_mazarin_breviarium": [
+  {
+   "ad": "Mazarin Elması - Sherlock Holmes",
+   "yazar": "",
+   "yayinevi": "Parıltı Yayınları"
+  },
+  {
+   "ad": "Mazarin Elması - Sherlock Holmes",
+   "yazar": "",
+   "yayinevi": "Halk Kitabevi"
+  }
+ ],
+ "A11_chesterfield_mektuplar": [],
+ "A12_la_rochefoucauld_ozdeyisler": [
+  {
+   "ad": "Özdeyişler",
+   "yazar": "",
+   "yayinevi": "Doğu Batı Yayınları"
+  },
+  {
+   "ad": "Özdeyişler",
+   "yazar": "François de La Rochefoucauld",
+   "yayinevi": ""
+  }
+ ],
+ "A13_sunzi_savas_sanati": [
+  {
+   "ad": "Savaş Sanatı",
+   "yazar": "",
+   "yayinevi": "İndigo Kitap"
+  },
+  {
+   "ad": "Savaş Sanatı",
+   "yazar": "",
+   "yayinevi": "İlgi Kültür Sanat Yayınları"
+  },
+  {
+   "ad": "Savaş Sanatı",
+   "yazar": "",
+   "yayinevi": "Can Yayınları"
+  },
+  {
+   "ad": "Savaş Sanatı",
+   "yazar": "",
+   "yayinevi": "Dorlion Yayınevi"
+  },
+  {
+   "ad": "Savaş Sanatı",
+   "yazar": "",
+   "yayinevi": "Oda Yayınları"
+  },
+  {
+   "ad": "Savaş Sanatı",
+   "yazar": "",
+   "yayinevi": "Ren Kitap"
+  },
+  {
+   "ad": "Savaş Sanatı",
+   "yazar": "Sun Tzu",
+   "yayinevi": "Kopernik Kitap"
+  },
+  {
+   "ad": "Savaş Sanatı",
+   "yazar": "",
+   "yayinevi": "Akıl Çelen Kitaplar"
+  }
+ ],
+ "A14_otuz_alti_strateji": [],
+ "A15_han_feizi": [
+  {
+   "ad": "Hükmetme Sanatı İletişim Yayınevi",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "A16_li_zongwu_kalin_yuz": [],
+ "A17_kautilya_arthasastra": [
+  {
+   "ad": "Arthaşastra",
+   "yazar": "",
+   "yayinevi": "Kırmızı Kedi Yayınları"
+  },
+  {
+   "ad": "Arthaşastra",
+   "yazar": "L. N. Rangarajan",
+   "yayinevi": ""
+  }
+ ],
+ "A18_kelile_ve_dimne": [
+  {
+   "ad": "Kelile ve Dimne",
+   "yazar": "",
+   "yayinevi": "Arkadaş Yayınları"
+  },
+  {
+   "ad": "Kelile ve Dimne",
+   "yazar": "Beydeba",
+   "yayinevi": "İlgi Kültür Sanat Yayınları"
+  },
+  {
+   "ad": "Kelile ve Dimne",
+   "yazar": "",
+   "yayinevi": "Kapı Yayınları"
+  },
+  {
+   "ad": "Kelile ve Dimne",
+   "yazar": "Beydeba",
+   "yayinevi": "Şule Yayınları"
+  },
+  {
+   "ad": "Kelile ve Dimne",
+   "yazar": "",
+   "yayinevi": "Anonim Yayıncılık"
+  },
+  {
+   "ad": "Kelile ve Dimne",
+   "yazar": "",
+   "yayinevi": "Akçağ Kitabevi"
+  },
+  {
+   "ad": "Kelile ve Dimne",
+   "yazar": "",
+   "yayinevi": "Ensar Neşriyat"
+  },
+  {
+   "ad": "Kelile ve Dimne",
+   "yazar": "",
+   "yayinevi": "Bilge Kültür Sanat"
+  }
+ ],
+ "A19_nizamulmulk_siyasetname": [
+  {
+   "ad": "Siyasetname",
+   "yazar": "",
+   "yayinevi": "İş Bankası Kültür Yayınları"
+  },
+  {
+   "ad": "Siyasetname",
+   "yazar": "",
+   "yayinevi": "Say Yayınları"
+  },
+  {
+   "ad": "Siyasetname",
+   "yazar": "",
+   "yayinevi": "Kapı Yayınları"
+  },
+  {
+   "ad": "Siyasetname",
+   "yazar": "",
+   "yayinevi": "Panama Yayıncılık"
+  },
+  {
+   "ad": "Siyasetname (Siyerul mülük)",
+   "yazar": "Nizamülmülk",
+   "yayinevi": "Dergah Yayınları"
+  },
+  {
+   "ad": "Aslan ve Çakal - Müellifi Meçhul Bir Siyasetname",
+   "yazar": "Merve Karakaya",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Nizamülmülk'ün Siyaset Felsefesi",
+   "yazar": "Şenol Korkut",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Siyasetname",
+   "yazar": "Nizamülmülk",
+   "yayinevi": ""
+  }
+ ],
+ "A20_kutadgu_bilig": [
+  {
+   "ad": "Ausgewaehtle Abschnitte Aus Kutadgu Bilig (Almanca)",
+   "yazar": "",
+   "yayinevi": "Profil Kitap"
+  },
+  {
+   "ad": "Dini ve Eğitsel Açıdan Kutadgu Bilig",
+   "yazar": "",
+   "yayinevi": "Nobel Akademik Yayıncılık"
+  },
+  {
+   "ad": "Kayıp İnci Kozalak Kutadgu Bilig",
+   "yazar": "Osman Azman",
+   "yayinevi": "Çınaraltı Yayınları"
+  },
+  {
+   "ad": "Kutadgu Bilig",
+   "yazar": "",
+   "yayinevi": "İskele Yayıncılık"
+  },
+  {
+   "ad": "Kutadgu Bilig",
+   "yazar": "Hayati Develi",
+   "yayinevi": "Kesit Yayınları"
+  },
+  {
+   "ad": "Kutadgu Bilig",
+   "yazar": "",
+   "yayinevi": "Parana Yayınları"
+  },
+  {
+   "ad": "Kutadgu Bilig",
+   "yazar": "",
+   "yayinevi": "Alfa Yayınları"
+  },
+  {
+   "ad": "Kutadgu Bilig",
+   "yazar": "",
+   "yayinevi": "Türkiye Diyanet Vakfı Yayınları"
+  }
+ ],
+ "A21_pfeffer_power": [
+  {
+   "ad": "Güç",
+   "yazar": "Jeffrey Pfeffer",
+   "yayinevi": "Sola Unitas"
+  }
+ ],
+ "A22_pfeffer_7_kural": [],
+ "A23_korda_power": [],
+ "A24_siu_craft_of_power": [],
+ "A25_alinsky_rules": [
+  {
+   "ad": "Düşünce Düşleri '21.Yüzyıl İçin Radikal Teori'",
+   "yazar": "Michael Albert",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Kadınlarda DEHB İçin Radikal Bir Rehber",
+   "yazar": "Michelle Frank",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Yeni Radikal Aydınlanma - Ortak Bir Dünya İçin ...",
+   "yazar": "Marina Garces",
+   "yayinevi": ""
+  }
+ ],
+ "A26_dictators_handbook": [],
+ "A27_matthews_hardball": [],
+ "A28_luttwak_coup": [
+  {
+   "ad": "Çin`in Yükselişi",
+   "yazar": "",
+   "yayinevi": "Doruk Yayınları"
+  }
+ ],
+ "A29_cialdini_influence": [
+  {
+   "ad": "İknanın Psikolojisi",
+   "yazar": "",
+   "yayinevi": "MediaCat Kitapları"
+  },
+  {
+   "ad": "İkna Açılan Kapı Mediacat Yayınları",
+   "yazar": "",
+   "yayinevi": ""
+  },
+  {
+   "ad": "İknanın Psikolojisi",
+   "yazar": "Robert Cialdini",
+   "yayinevi": ""
+  },
+  {
+   "ad": "İknaya Açılan Kapı",
+   "yazar": "Robert B. Cialdini",
+   "yayinevi": ""
+  }
+ ],
+ "A30_carnegie_dost_kazanma": [
+  {
+   "ad": "Dost Kazanma ve İnsanları Etkileme Sanatı",
+   "yazar": "",
+   "yayinevi": "Epsilon Yayınevi"
+  },
+  {
+   "ad": "Dost Kazanma ve İnsanları Etkileme Sanatı",
+   "yazar": "",
+   "yayinevi": "Mona Kitap"
+  },
+  {
+   "ad": "Dost Kazanma ve İnsanları Etkileme Sanatı",
+   "yazar": "",
+   "yayinevi": "Yediveren Yayınları"
+  },
+  {
+   "ad": "Dost Kazanma ve İnsanları Etkileme Sanatı",
+   "yazar": "",
+   "yayinevi": "Ren Kitap"
+  },
+  {
+   "ad": "Dost Kazanma ve İnsanları Etkileme Sanatı",
+   "yazar": "Dale Carnegie",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Dost Kazanmak Sanatı",
+   "yazar": "Dale Carnegie",
+   "yayinevi": ""
+  }
+ ],
+ "A31_schopenhauer_eristik": [
+  {
+   "ad": "Eristik Diyalektik Haklı Çıkma Sanatı",
+   "yazar": "",
+   "yayinevi": "Sel Yayıncılık"
+  },
+  {
+   "ad": "Haklı Çıkma Sanatı",
+   "yazar": "",
+   "yayinevi": "Can Yayınları"
+  },
+  {
+   "ad": "Haklı Çıkma Sanatı",
+   "yazar": "",
+   "yayinevi": "Mirhan Kitap"
+  },
+  {
+   "ad": "Eristik Diyalektik - Haklı Çıkma Sanatı",
+   "yazar": "Arthur Schopenhauer",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Haklı Çıkma Sanatı",
+   "yazar": "Arthur Schopenhauer",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Haklı Çıkma Sanatı - Kısa Klasikler 83",
+   "yazar": "Arthur Schopenhauer",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Haklı Çıkma Sanatı İmge Kitabevi Yayınları",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "A32_bernays_propaganda": [
+  {
+   "ad": "Propaganda",
+   "yazar": "",
+   "yayinevi": "Pegasus Yayınları"
+  },
+  {
+   "ad": "Belirginleşen Kamuoyu",
+   "yazar": "Edward L. Bernays",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Propaganda",
+   "yazar": "Edward Bernays",
+   "yayinevi": ""
+  }
+ ],
+ "A33_ibn_haldun_mukaddime": [
+  {
+   "ad": "Mukaddime",
+   "yazar": "",
+   "yayinevi": "Dergah Yayınları"
+  },
+  {
+   "ad": "Mukaddime",
+   "yazar": "",
+   "yayinevi": "Gece Kitaplığı"
+  },
+  {
+   "ad": "Mukaddime",
+   "yazar": "",
+   "yayinevi": "Etkileşim Yayınları"
+  },
+  {
+   "ad": "Mukaddime (2 Cilt)",
+   "yazar": "",
+   "yayinevi": "Yüksel Yayıncılık"
+  },
+  {
+   "ad": "Mukaddime (Ciltli)",
+   "yazar": "",
+   "yayinevi": "Dergah Yayınları"
+  },
+  {
+   "ad": "Mukaddime 1. Cilt",
+   "yazar": "",
+   "yayinevi": "Panama Yayıncılık"
+  },
+  {
+   "ad": "Mukaddime 2 Cilt Takım (Karton Kapak)",
+   "yazar": "",
+   "yayinevi": "İlgi Kültür Sanat Yayınları"
+  },
+  {
+   "ad": "Mukaddime 2. Cilt",
+   "yazar": "",
+   "yayinevi": "Panama Yayıncılık"
+  }
+ ],
+ "A34_weber_meslek_olarak_siyaset": [
+  {
+   "ad": "Meslek Olarak Siyaset",
+   "yazar": "Max Weber",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Siyaset Mesleği - Anarşizm Serisi",
+   "yazar": "Max Weber",
+   "yayinevi": ""
+  }
+ ],
+ "A35_elias_saray_toplumu": [],
+ "A36_russell_iktidar": [
+  {
+   "ad": "İktidar",
+   "yazar": "",
+   "yayinevi": "Cem Yayınevi"
+  }
+ ],
+ "B01_greene_ustalik": [
+  {
+   "ad": "Her Güne Bir Yasa",
+   "yazar": "Robert Greene",
+   "yayinevi": "Altın Kitaplar"
+  },
+  {
+   "ad": "Ustalık",
+   "yazar": "Robert Greene",
+   "yayinevi": ""
+  }
+ ],
+ "B02_holiday_guven_bana": [],
+ "B03_haley_isanin_guc_taktikleri": [],
+ "B04_de_francesco_sarlatanin_gucu": [],
+ "B05_scharfstein_amoral_politics": [],
+ "B06_bloodworth_cinli_machiavelli": [],
+ "B07_botero_devlet_akli": [],
+ "B08_naude_hukumet_darbeleri": [],
+ "B09_richelieu_siyasi_vasiyet": [],
+ "B10_friedrich_anti_machiavel": [
+  {
+   "ad": "Büyük Frederik Anti-Makyavel",
+   "yazar": "",
+   "yayinevi": "Yeditepe Yayınevi"
+  },
+  {
+   "ad": "Büyük Frederik-Anti Makyavel",
+   "yazar": "François Marie Arouet Volt...",
+   "yayinevi": ""
+  }
+ ],
+ "B11_accetto_durust_gizlenme": [],
+ "B12_bacon_denemeler": [
+  {
+   "ad": "Denemeler",
+   "yazar": "Francis Bacon",
+   "yayinevi": "Yapı Kredi Yayınları"
+  },
+  {
+   "ad": "Denemeler",
+   "yazar": "",
+   "yayinevi": "İlgi Kültür Sanat Yayınları"
+  },
+  {
+   "ad": "Denemeler ve Kadimlerin Bilgeliği",
+   "yazar": "",
+   "yayinevi": "Dorlion Yayınevi"
+  },
+  {
+   "ad": "Denemeler",
+   "yazar": "Francis Bacon",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Denemeler Hasan Ali Yücel Klasikleri",
+   "yazar": "",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Denemeler-Francis Bacon",
+   "yazar": "Francis Bacon",
+   "yayinevi": ""
+  }
+ ],
+ "B13_refuge_saray_risalesi": [],
+ "B14_gracian_diger_kitaplar": [
+  {
+   "ad": "Akıllı Davranma Sanatı - Sağduyulu Davranış ve ...",
+   "yazar": "Baltasar Gracian",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Kahramanların Cep Aynası",
+   "yazar": "Baltasar Gracian",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Kahramanların Cep Aynası Maya Kitap",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "B15_callieres_hukumdarlarla_muzakere": [],
+ "B16_knigge_insanlarla_iliski": [],
+ "B17_joly_cehennemde_diyalog": [],
+ "B18_zweig_fouche": [
+  {
+   "ad": "Joseph Fouche - Bir Politikacının Portesi",
+   "yazar": "",
+   "yayinevi": "Can Yayınları"
+  },
+  {
+   "ad": "Joseph Fouche - Bir Politikacının Portresi",
+   "yazar": "",
+   "yayinevi": "Doğu Batı Yayınları"
+  },
+  {
+   "ad": "Joseph Fouche",
+   "yazar": "Stefan Zweig",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Joseph Fouche - Bir Politikacının Portresi",
+   "yazar": "Stefan Zweig",
+   "yayinevi": ""
+  }
+ ],
+ "B19_ksenophon_kyrosun_egitimi": [],
+ "B20_quintus_cicero_secim": [
+  {
+   "ad": "Siyaset Sanatı",
+   "yazar": "Quintus Tullius Cicero",
+   "yayinevi": "Kronik Kitap"
+  },
+  {
+   "ad": "Seçim Nasıl Kazanılır? Bugünün Siyasetçileri İç...",
+   "yazar": "Quintus Tullius Cicero",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Siyaset Sanatı",
+   "yazar": "Quintus Tullius Cicero",
+   "yayinevi": ""
+  }
+ ],
+ "B21_thukydides_peloponnesos": [
+  {
+   "ad": "Thukydides Tuzağı Amerika ile Çin Savaşa Mahkûm mu?",
+   "yazar": "",
+   "yayinevi": "İş Bankası Kültür Yayınları"
+  },
+  {
+   "ad": "Peloponnessos Savaşları",
+   "yazar": "Thukydides",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Savaşı Nasıl Düşünmeli? Dış Politikaya Dair Kad...",
+   "yazar": "Thukydides",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Thukydides Ali Hanoğlu Bilgeoğuz Yayınları",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "B22_aristoteles_politika": [
+  {
+   "ad": "Aristoteles Yazıları Etik ve Politika Üzerine",
+   "yazar": "",
+   "yayinevi": "Sentez Yayınları"
+  },
+  {
+   "ad": "Politika",
+   "yazar": "",
+   "yayinevi": "Remzi Kitabevi"
+  },
+  {
+   "ad": "Politika",
+   "yazar": "",
+   "yayinevi": "Say Yayınları"
+  },
+  {
+   "ad": "Politika",
+   "yazar": "",
+   "yayinevi": "Dergah Yayınları"
+  },
+  {
+   "ad": "Politika",
+   "yazar": "",
+   "yayinevi": "Ark Kitapları"
+  },
+  {
+   "ad": "Politika",
+   "yazar": "Aristoteles",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Politika - Bibliotheka",
+   "yazar": "Aristoteles",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Politika Ketebe Yayınları",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "B23_aristoteles_retorik": [
+  {
+   "ad": "Retorik",
+   "yazar": "Aristoteles",
+   "yayinevi": "İş Bankası Kültür Yayınları"
+  },
+  {
+   "ad": "Retorik",
+   "yazar": "Aristoteles",
+   "yayinevi": "Say Yayınları"
+  },
+  {
+   "ad": "Retorik (Rusça) Aristoteles (Aristo)",
+   "yazar": "",
+   "yayinevi": "Gece Kitaplığı"
+  },
+  {
+   "ad": "Retorik",
+   "yazar": "Aristoteles",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Retorik-Hasan Ali Yücel Klasikler",
+   "yazar": "Aristoteles",
+   "yayinevi": ""
+  }
+ ],
+ "B24_frontinus_strategemata": [
+  {
+   "ad": "Roma Strateji Sanatı",
+   "yazar": "",
+   "yayinevi": "Kronik Kitap"
+  },
+  {
+   "ad": "Roma Strateji Sanatı",
+   "yazar": "Sextus Iulıus Frontinus",
+   "yayinevi": ""
+  }
+ ],
+ "B25_hobbes_leviathan": [
+  {
+   "ad": "Leviathan",
+   "yazar": "Thomas Hobbes",
+   "yayinevi": "Yapı Kredi Yayınları"
+  },
+  {
+   "ad": "Leviathan",
+   "yazar": "Thomas Hobbes",
+   "yayinevi": "Gece Kitaplığı"
+  },
+  {
+   "ad": "Leviathan",
+   "yazar": "Thomas Hobbes",
+   "yayinevi": "Litera Yayınları"
+  },
+  {
+   "ad": "Leviathan",
+   "yazar": "",
+   "yayinevi": "İş Bankası Kültür Yayınları"
+  },
+  {
+   "ad": "Leviathan",
+   "yazar": "",
+   "yayinevi": "Paper Books"
+  },
+  {
+   "ad": "Leviathan Ciltli",
+   "yazar": "",
+   "yayinevi": "İş Bankası Kültür Yayınları"
+  },
+  {
+   "ad": "Leviathan: Veya Dini ve Sivil Bir Devletin Maddesi, Biçimi ve Gücü",
+   "yazar": "",
+   "yayinevi": "Can Yayınları"
+  },
+  {
+   "ad": "Leviathan",
+   "yazar": "Thomas Hobbes",
+   "yayinevi": ""
+  }
+ ],
+ "B26_la_boetie_gonullu_kulluk": [
+  {
+   "ad": "Gönüllü Kölelik Üzerine Söylev",
+   "yazar": "",
+   "yayinevi": "Dorlion Yayınevi"
+  },
+  {
+   "ad": "Siyasi İtaat İçin Ebedi Yöntembilim",
+   "yazar": "",
+   "yayinevi": "Gece Kitaplığı"
+  },
+  {
+   "ad": "Timeless Methodology for the Political Obedience",
+   "yazar": "",
+   "yayinevi": "Gece Kitaplığı"
+  },
+  {
+   "ad": "Diktatöre Karşı - Gönüllü Kölelik Üzerine Söylev",
+   "yazar": "Etienne de La Boetie",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Gönüllü Kulluk Üzerine Söylev",
+   "yazar": "Etienne de La Boetie",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Gönüllü Kulluk Üzerine Söylev İmge Kitabevi",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "B27_nietzsche_ahlakin_soykutugu": [
+  {
+   "ad": "Ahlakın Soykütüğü Üstüne",
+   "yazar": "",
+   "yayinevi": "Say Yayınları"
+  },
+  {
+   "ad": "Ahlakın Soykütüğü Üzerine - Bir Kavga Yazısı",
+   "yazar": "",
+   "yayinevi": "Gufo Yayınları"
+  },
+  {
+   "ad": "Ahlakın Soykütüğü Üstüne",
+   "yazar": "Friedrich Nietzsche",
+   "yayinevi": ""
+  }
+ ],
+ "B28_burnham_machiavellians": [],
+ "B29_michels_siyasi_partiler": [
+  {
+   "ad": "Siyasi Partiler Modern Demokrasideki Oligarşik Eğilimlerin Sosyolojik İncelemesi",
+   "yazar": "Robert Michels",
+   "yayinevi": "İstanbul Bilgi Üniversitesi Yayınları"
+  },
+  {
+   "ad": "Siyasi Partiler: Modern Demokrasideki Oligarşik...",
+   "yazar": "Robert Michels",
+   "yayinevi": ""
+  }
+ ],
+ "B30_mills_iktidar_seckinleri": [],
+ "B31_shang_yang_lord_shang": [],
+ "B32_guiguzi": [],
+ "B33_zhanguo_ce": [],
+ "B34_musashi_bes_cember": [
+  {
+   "ad": "Beş Etki Kitabı",
+   "yazar": "",
+   "yayinevi": "Gece Kitaplığı"
+  },
+  {
+   "ad": "Beş Yüzüğün Kitabı",
+   "yazar": "",
+   "yayinevi": "Gece Kitaplığı"
+  },
+  {
+   "ad": "Beş Çember Kitabı",
+   "yazar": "",
+   "yayinevi": "Anahtar Kitaplar"
+  },
+  {
+   "ad": "Beş Çember Kitabı",
+   "yazar": "Miyamoto Musashi",
+   "yayinevi": "Urzeni Yayıncılık"
+  },
+  {
+   "ad": "Beş Çember Kitabı",
+   "yazar": "",
+   "yayinevi": "Dorlion Yayınevi"
+  },
+  {
+   "ad": "Otaku`nun Manga Defteri",
+   "yazar": "",
+   "yayinevi": "Altıkırkbeş Yayınları"
+  },
+  {
+   "ad": "Samuray Yolunda Aforizmalar",
+   "yazar": "",
+   "yayinevi": "Altıkırkbeş Yayınları"
+  },
+  {
+   "ad": "The Book of Five Rings",
+   "yazar": "",
+   "yayinevi": "Gece Kitaplığı"
+  }
+ ],
+ "B35_clausewitz_savas_uzerine": [
+  {
+   "ad": "Savaş Üzerine",
+   "yazar": "General Carl Von Clausewitz",
+   "yayinevi": "Gece Kitaplığı"
+  },
+  {
+   "ad": "Savaş Üzerine",
+   "yazar": "",
+   "yayinevi": "Alfa Yayınları"
+  },
+  {
+   "ad": "Savaşın Esasları",
+   "yazar": "",
+   "yayinevi": "Doruk Yayınları"
+  },
+  {
+   "ad": "Savaş Üzerine",
+   "yazar": "Carl Von Clausewitz",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Savaş Üzerine Savaşın Esasları Carl Von Clausewitz Dorlion Yayınları",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "B36_jullien_etkililik": [],
+ "B37_canakya_niti": [],
+ "B38_sirrul_esrar": [
+  {
+   "ad": "Sırların Sırrı",
+   "yazar": "Sırrul Esrar",
+   "yayinevi": "Büyüyen Ay Yayınları"
+  },
+  {
+   "ad": "Sırru'l-Esrar",
+   "yazar": "Abdülkadir Geylani",
+   "yayinevi": ""
+  }
+ ],
+ "B39_ibn_zafer_sulvan": [
+  {
+   "ad": "Devletin Ölümsüzlük İksiri",
+   "yazar": "",
+   "yayinevi": "Büyüyen Ay Yayınları"
+  }
+ ],
+ "B40_keykavus_kabusname": [
+  {
+   "ad": "Kabusname",
+   "yazar": "",
+   "yayinevi": "Kapı Yayınları"
+  },
+  {
+   "ad": "Kabusname",
+   "yazar": "",
+   "yayinevi": "Önsöz Yayıncılık"
+  },
+  {
+   "ad": "Kabusname-Ölümsüz Klasikler",
+   "yazar": "Keykavus",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Kâbusnâme (Seçme Metin) Katip Yayınevi",
+   "yazar": "",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Nazmizade Murtaza'nın Kabusname Tercümesi",
+   "yazar": "Perihan Ölker",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Sultanın Öğütleri - Kabusname'den Seçmeler",
+   "yazar": "Keykavus",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Çağatayca Kabusname Tercümesi",
+   "yazar": "Muhsin Uygun",
+   "yayinevi": ""
+  }
+ ],
+ "B41_gazali_nasihatul_muluk": [
+  {
+   "ad": "Yöneticilere Altın Öğütler",
+   "yazar": "",
+   "yayinevi": "Gelenek Yayıncılık"
+  },
+  {
+   "ad": "Yöneticilere Tavsiyeler",
+   "yazar": "",
+   "yayinevi": "İlke Yayıncılık"
+  },
+  {
+   "ad": "Nasihatü'l Müluk - Liderlere Öğütler",
+   "yazar": "İmam Gazali",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Nasihatül Müluk Sultana Öğütler Timaş Akademi",
+   "yazar": "",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Sultana Öğütler & Nasihatü'l - Mülük",
+   "yazar": "İmam Gazali",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Yöneticilere Altın Öğütler",
+   "yazar": "İmam Gazali",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Yöneticilere Tavsiyeler",
+   "yazar": "İmam Gazali",
+   "yayinevi": ""
+  }
+ ],
+ "B42_rekaik_hile_kitabi": [],
+ "B43_turtusi_siracul_muluk": [],
+ "B44_tuzukat_i_timur": [
+  {
+   "ad": "Timurun Günlüğü",
+   "yazar": "Sahibkıran Emir Timur Muhammed",
+   "yayinevi": "İnsan Yayınları"
+  },
+  {
+   "ad": "Bozkırın Töresi - Timur Tüzükatı",
+   "yazar": "Ali Rıza Yağlı",
+   "yayinevi": ""
+  }
+ ],
+ "B45_lutfi_pasa_asafname": [
+  {
+   "ad": "Kanunlar Işığında Yönetim Yönetim İlkeleri Asafname",
+   "yazar": "Lütfi Paşa",
+   "yayinevi": "İlke Yayıncılık"
+  },
+  {
+   "ad": "Kanunlar Işığında Yönetim İlkeleri-Asafname",
+   "yazar": "Lütfi Paşa",
+   "yayinevi": ""
+  }
+ ],
+ "B46_gelibolulu_ali_nushatus_selatin": [],
+ "B47_koci_bey_risalesi": [
+  {
+   "ad": "Koçi Bey Risalesi",
+   "yazar": "",
+   "yayinevi": "Akçağ Kitabevi"
+  },
+  {
+   "ad": "Koçi Bey Risalesi - Ölümsüz Klasikler Serisi",
+   "yazar": "Kolektif",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Koçi Bey Risalesi / Eski ve Yeni Harflerle",
+   "yazar": "Yılmaz Kurt",
+   "yayinevi": ""
+  }
+ ],
+ "B48_defterdar_nesayih": [
+  {
+   "ad": "Devlet Adamlarına Öğütler Dorlion Yayınları",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "B49_jay_management_machiavelli": [],
+ "B50_pfeffer_managing_with_power": [],
+ "B51_bing_machiavelli_ne_yapardi": [
+  {
+   "ad": "Roma AŞ",
+   "yazar": "",
+   "yayinevi": "Koç Üniversitesi Yayınları"
+  }
+ ],
+ "B52_rubin_princessa": [],
+ "B53_v_mafia_manager": [],
+ "B54_gruenfeld_acting_with_power": [],
+ "B55_powell_new_machiavelli": [],
+ "B56_morris_new_prince": [
+  {
+   "ad": "Klasiklerle Tanışıyorum-Moby Dick",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "B57_riordon_plunkitt": [],
+ "B58_neustadt_presidential_power": [],
+ "B59_riker_political_manipulation": [],
+ "B60_caro_power_broker": [],
+ "B61_malaparte_darbe_teknigi": [],
+ "B62_sharp_diktatorlukten_demokrasiye": [],
+ "B63_popovic_blueprint": [
+  {
+   "ad": "Devrim Planı",
+   "yazar": "Srdja Popovic",
+   "yayinevi": ""
+  }
+ ],
+ "B64_scott_tahakkum_ve_direnis": [
+  {
+   "ad": "Tahakküm ve Direniş Sanatları",
+   "yazar": "",
+   "yayinevi": "Ayrıntı Yayınları"
+  }
+ ],
+ "B65_guriev_treisman_spin_diktatorleri": [],
+ "B66_keltner_guc_paradoksu": [],
+ "B67_klaas_corruptible": [],
+ "B68_battilana_casciaro_power_for_all": [],
+ "B69_de_waal_sempanze_politikasi": [],
+ "B70_christie_geis_makyavelizm": [],
+ "B71_babiak_hare_takim_elbiseli_yilanlar": [],
+ "B72_cialdini_pre_suasion": [],
+ "B73_joule_beauvois_manipulasyon": [],
+ "B74_simon_koyun_postunda": [],
+ "B75_hadnagy_sosyal_muhendislik": [],
+ "B76_maurer_big_con": [],
+ "B77_konnikova_confidence_game": [],
+ "B78_le_bon_kitleler_psikolojisi": [
+  {
+   "ad": "Kitleler Psikolojisi",
+   "yazar": "Gustave le Bon",
+   "yayinevi": "Say Yayınları"
+  },
+  {
+   "ad": "Kitleler Psikolojisi",
+   "yazar": "",
+   "yayinevi": "Dorlion Yayınevi"
+  },
+  {
+   "ad": "Kitleler Psikolojisi",
+   "yazar": "Gustave Le Bon",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Kitleler Psikolojisi Hayat Yayınları",
+   "yazar": "",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Kitleler Psikolojisi-Ölümsüz Eserler",
+   "yazar": "Gustave Le Bon",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Kitlelerin Psikolojisi",
+   "yazar": "Gustave Le Bon",
+   "yayinevi": ""
+  }
+ ],
+ "B79_hoffer_kesin_inanclilar": [
+  {
+   "ad": "Kesin İnançlılar",
+   "yazar": "",
+   "yayinevi": "Olvido Kitap"
+  },
+  {
+   "ad": "Kesin İnançlılar",
+   "yazar": "Eric Hoffer",
+   "yayinevi": ""
+  }
+ ],
+ "B80_ellul_propaganda": [],
+ "B81_herman_chomsky_rizanin_imalati": [
+  {
+   "ad": "Rızanın İmalatı",
+   "yazar": "Noam Chomsky",
+   "yayinevi": "Bgst Yayınları"
+  },
+  {
+   "ad": "Rızanın İmalatı",
+   "yazar": "Noam Chomsky",
+   "yayinevi": ""
+  }
+ ],
+ "B82_lifton_dusunce_reformu": [],
+ "B83_milgram_otoriteye_itaat": [
+  {
+   "ad": "Düşünme Labirentleri",
+   "yazar": "",
+   "yayinevi": "Gece Kitaplığı"
+  }
+ ],
+ "B84_lukes_radikal_gorus": [
+  {
+   "ad": "İktidar Radikal Bir Görüş",
+   "yazar": "",
+   "yayinevi": "İletişim Yayınları"
+  }
+ ],
+ "B85_foucault_hapishanenin_dogusu": [
+  {
+   "ad": "Hapishanenin Doğuşu",
+   "yazar": "",
+   "yayinevi": "Ayrıntı Yayınları"
+  },
+  {
+   "ad": "Hapishanenin Doğuşu - Gözetleme ve Cezalandırma",
+   "yazar": "Michel Foucault",
+   "yayinevi": ""
+  }
+ ],
+ "B86_arendt_siddet_uzerine": [
+  {
+   "ad": "Şiddet Üzerine Düşünceler",
+   "yazar": "Georges Sorel",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Şiddet Üzerine Seçme Eserler 6",
+   "yazar": "Hannah Arendt",
+   "yayinevi": ""
+  },
+  {
+   "ad": "Şiddet Üzerine Seçme Eserler 6 İletişim Yayınevi",
+   "yazar": "",
+   "yayinevi": ""
+  }
+ ],
+ "B87_canetti_kitle_ve_iktidar": [
+  {
+   "ad": "Kitle ve İktidar",
+   "yazar": "Elias Canetti",
+   "yayinevi": "Ayrıntı Yayınları"
+  },
+  {
+   "ad": "Kitle ve İktidar",
+   "yazar": "Elias Canetti",
+   "yayinevi": ""
+  }
+ ],
+ "B88_popitz_iktidar_fenomenleri": [],
+ "B89_galbraith_iktidarin_anatomisi": []
+}

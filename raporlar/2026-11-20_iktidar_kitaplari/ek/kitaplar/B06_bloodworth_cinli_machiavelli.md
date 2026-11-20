@@ -1,0 +1,23 @@
+## Dennis Bloodworth ve Ching Ping Bloodworth — The Chinese Machiavelli (The Chinese Machiavelli: 3,000 Years of Chinese Statecraft, 1976)
+
+**Künye.** Dennis Bloodworth, İngiliz *The Observer* gazetesinin uzun yıllar Uzak Doğu muhabiriydi ve Singapur'da yaşadı (ölümü 2005); kitabı Çinli eşi Ching Ping ile birlikte yazdı. Dili İngilizce; adı “Çinli Machiavelli: Çin Devlet Yönetiminin 3.000 Yılı” diye çevrilebilir. İlk baskı 1976: Farrar, Straus and Giroux (New York) ve Secker & Warburg (Londra). 2004'te Peter Li'nin önsözüyle yeniden basıldı. Türkçe baskısı bulunamadı. xvi + 346 sayfa; harita, kronoloji ve dizin içerir.
+
+**Bir cümleyle.** Çin'in üç bin yıllık siyaset ve savaş düşüncesi, Machiavelli'nin Avrupa'da yaptığına benzer bir “güç nasıl kazanılır ve korunur” dersidir ve bugünkü Çin yöneticilerinin davranışını anlamanın anahtarıdır.
+
+**Bağlam.** Kitap Mao'nun öldüğü yıl çıktı. Batı, Çin'i yeniden tanımaya çalışıyordu; Bloodworth daha önce *The Chinese Looking Glass* (1967) ile Çin'i genel okura anlatmıştı. Bu kitap uzmana değil meraklı Batılı okura yazıldı: amaç, Pekin'in hamlelerini Çin'in kendi tarihinden ve klasiklerinden okumayı öğretmektir.
+
+**Yapısı.** Dört kısım, 32 bölüm. “Thinking” (8 bölüm) düşünürleri, “Fighting” (11 bölüm) savaş sanatını ve hanedan kavgalarını, “Ruling” (10 bölüm) yönetme tekniklerini, “Analyzing” (3 bölüm) bütün bunların bugüne ne söylediğini anlatır. Bölüm adları gazeteci esprisi taşır: “Tall Man from Lu”, “Machiavellissimo”, “The Gentle Art of War”, “Talk of Ts'ao Ts'ao”.
+
+**Ana fikirler.**
+- **Okullar bir yelpazedir.** İlk kısım Konfüçyüs'ü (Lu'lu uzun adam), Mozi'yi, Taoculuğu ve Mencius'un “iyilikle yönetme” fikrini sırayla tanıtır; sonra Savaşan Devletler çağının gezgin danışmanlarına gelir. Yazarlar onlara “Kissinger'lar” der. (Bölüm–düşünür eşleştirmesi başlıklardan çıkarıldı; doğrulanmadı.)
+- **Yasacılar: “Machiavellissimo”.** Kısım, Machiavelli'den daha Makyavelci bulunan yasacılarla biter. Han Feizi gibi düşünürler erdemi değil yasayı, ödülü ve cezayı esas alır; Çin'i ilk kez birleştiren Qin devleti bu okula dayanır (bellekten).
+- **Savaş: dövüşmeden kazanmak.** İkinci kısım Sunzi'nin (Sun Tzu) savaş sanatıyla açılır: aldatma, düşmanın planını bozma, en az güçle sonuç alma. Ardından Han hanedanının kuruluş kavgası ve Üç Krallık dönemi gelir; kurnaz komutan Cao Cao bu kısmın yıldızıdır.
+- **Tarih bugünün sahnesidir.** “The Drama in Modern Dress” bölümü, eski stratejilerin 20. yüzyıl iç savaşında ve Mao'da yeniden oynandığını savunur. Yayıncı tanıtımına göre kitap “from Confucius to Mao Zedong” uzanır.
+- **Yönetme: suikasttan sınava.** Üçüncü kısım sarayın araçlarını gezer: siyasal cinayet, yumuşak güç, memurluk sınavları ve bilgin bürokrasi, kahramanlara tapınma, “barbarlar”la ilişkiler. “Absolute Scholarship Corrupts Absolutely” başlığı tezi özetler: bilginlerin tekeli de yozlaşır.
+- **Süreklilik tezi.** Son kısım Çin tarihinin kesintisizliğini vurgular: yöneticiler değişir, oyun kitabı kalır. Batı'nın Çin'i kendi kavramlarıyla okuması yanıltıcıdır.
+
+**İktidar'la ilişkisi.** Kitap İktidar'ın kaynakçasında yer alır. Ancak Greene'in metninde açıkça alıntıladığı Bloodworth kitabı bu değil, *The Chinese Looking Glass*'tır (izin sayfasında ve dizinde geçer). *The Chinese Machiavelli*'nin İktidar'daki Çin öykülerinin başlıca kaynağı olduğu bu yüzden doğrulanmadı; öykülerin bir kısmı Sun Tzu çevirisinden, Han Feizi'den ve von Senger'in strateji kitabından da gelebilir. Örtüşen yasalar: 15. yasa (Düşmanını tümüyle ez) Han hanedanının kuruluş kavgasıyla, 3. yasa (Niyetlerini gizle) ve 14. yasa (Dost gibi görün, casus gibi çalış) Sunzi'nin aldatma öğretisiyle, 24. yasa (Kusursuz saray adamını oyna) imparatorluk sarayı bölümleriyle, 48. yasa (Biçimsiz ol) Mao'nun hareketli savaşıyla aynı malzemeyi işler. Ayrışma: Bloodworth'lar öğüt vermez, bir uygarlığın siyasal alışkanlıklarını anlatır; yasacıların sertliğinin bedelini de gösterir. Greene aynı öyküleri bağlamından koparıp evrensel kurala çevirir.
+
+**Eleştiri ve sınırlar.** Kitap bir akademik tarih değil, gazeteci anlatısıdır; 2004 baskısının tanıtımı da “genel okur için” yazıldığını söyler. Kaynakçası kısadır (dört sayfa). Üç bin yılı tek bir “Çin karakteri”yle açıklamak, bugün özcülük (bir halka değişmez nitelik yükleme) diye eleştirilen bir yaklaşımdır. Machiavelli benzetmesi Batılı okura kolaylık sağlar ama Çin düşüncesini yabancı bir kalıba sokar. Adlar eski Wade-Giles yazımıyladır (Ts'ao Ts'ao gibi); Mao sonrası Çin'i kapsamaz. Dönemin eleştiri yazıları bu çalışmada bulunamadı.
+
+**Kimler okumalı.** İktidar'daki Çin öykülerini sevip onları sıralı ve bağlamıyla okumak isteyenler. Sun Tzu ve Han Feizi'ye geçmeden önce akıcı bir giriş sunar.

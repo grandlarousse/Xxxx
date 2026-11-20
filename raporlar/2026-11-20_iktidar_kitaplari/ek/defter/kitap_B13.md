@@ -1,0 +1,31 @@
+iddia | kaynak URL | birebir kısa alıntı ya da sayı | güven
+B72 Cialdini: ASU emekli profesörü; 2016'da yedinci ilke olarak birliği önerdi | https://en.wikipedia.org/wiki/Robert_Cialdini | "In 2016 he proposed a seventh principle. He called it the unity principle." | yüksek
+B72 Pre-Suasion yayın tarihi Eylül 2016; İngiliz ciltsiz baskı 432 sayfa (penguin.co.uk: "Length: 432 pages") | https://www.kirkusreviews.com/book-reviews/robert-cialdini/pre-suasion/ | "RELEASE DATE: Sept. 6, 2016" | yüksek
+B72 Ana sav: karar anında dikkati çekilen etken seçimi belirler; Fransız müziği/şarap örneği | https://www.kirkusreviews.com/book-reviews/robert-cialdini/pre-suasion/ | "one that has been elevated in attention…at the time of the decision" | yüksek
+B72 Türkçe baskı: arama özetinde Türkçe künye çıkmadı | (WebSearch özeti, 1 sorgu) | "Türkçe baskıya dair bir kayıt yok" | düşük (yokluk kanıtı zayıf)
+B72 Yapı: 3 kısım, 14 bölüm; "maceracı mısınız" sorusu örneği; priming yinelenememe eleştirisi | kaynak: bellekten, doğrulanmadı | — | orta
+B73 İlk baskı 1987, PUG; 2002, 2014, 2024 yeni baskılar | https://fr.wikipedia.org/wiki/Petit_trait%C3%A9_de_manipulation_%C3%A0_l%27usage_des_honn%C3%AAtes_gens | "paru en 1987, et réédité en 2002, 2014 et en 2024 aux Presses universitaires de Grenoble" | yüksek
+B73 Fransa'da 500 bin satış (2022), 10 dile çeviri | aynı fr.wikipedia sayfası | "à cinq cent mille en 2022, il a aussi été traduit en dix langues" | orta (yayınevi 15 dil diyor)
+B73 Madame O., kurmaca ülke Dolmatie; yaklaşık 30 teknik | aynı fr.wikipedia sayfası | "une certaine Madame O., personnage fictif qui réside en Dolmatie" | yüksek
+B73 Yapı: 10 bölüm (Les pièges de la décision ... le cas du marketing) | aynı fr.wikipedia sayfası | "Chapitre 10 : De la manipulation individuelle à la manipulation de masse : le cas du marketing" | yüksek
+B73 2024 baskısını Joule tek başına yeniden yazdı, 16 teknik ekledi | aynı fr.wikipedia sayfası | "réécrite par Robert-Vincent Joule ... (ajouts de 16 techniques d'influence)" | yüksek
+B73 Sayfa sayıları 229 (1987), 320 (2014) | https://www.goodreads.com/work/editions/809800-petit-trait-de-manipulation-l-usage-des-honn-tes-gens | "Published 1987 ... Paperback, 229 pages" | yüksek
+B73 Türkçe baskı: arama özetinde yok; Goodreads baskı listesinin ilk sayfasında Türkçe yok | (WebSearch özeti) + Goodreads editions | "found no Turkish edition" | düşük (yokluk kanıtı)
+B73 Joule'ün Aix-Marseille'de görevi; "özgürsünüz" tekniğinin sonraki baskılarda yer alması | kaynak: bellekten, doğrulanmadı | — | orta
+B74 Simon d. 1948; kitap 1996; Texas Tech doktorası; Arkansas Psikoloji Derneği eski başkanı | https://en.wikipedia.org/wiki/George_K._Simon | "a 1996 book about psychological manipulation" | yüksek
+B74 Güncel baskı 176 sayfa; yedi dile çevrildi (diller sayılmıyor) | https://parkhurstbrothers.com/in-sheeps-clothing.html | "176 Pages ... translated into seven languages" | yüksek
+B74 Taktikler: yalan, inkâr, bahane, seçici dikkatsizlik, saptırma | https://en.wikipedia.org/wiki/Psychological_manipulation | "lying by omission, pretending to be in denial, rationalization, selective inattention/selective attention, and diversion" | yüksek
+B74 Türkçe baskı: arama özetinde bulunamadı | (WebSearch özeti) | "Türkçe baskıyı bulamadım" | düşük (yokluk kanıtı)
+B74 Yapı: 2 kısım, 10 bölüm ve bölüm konuları; nevroz/karakter ayrımı; savunma kuralları listesi; tanı kılavuzlarında yer almama eleştirisi | kaynak: bellekten, doğrulanmadı | — | orta
+B75 Hadnagy: Wiley, Aralık 2010; 2018 ikinci baskı "The Science of Human Hacking"; Türkçe baskı bulunamadı | (WebSearch özeti; oreilly.com kaydı) | "release date of December 2010 (ISBN 9780470639535)" | orta
+B75 Hadnagy Social-Engineer LLC kurucusu; 2009'da DEF CON SE yarışması; 2022 men; dava 2025'te reddedildi | https://en.wikipedia.org/wiki/Christopher_Hadnagy | "the suit was dismissed with prejudice in 2025" | yüksek
+B75 Mitnick, The Art of Deception 2002; Türkçesi Aldatma Sanatı, ODTÜ Yayıncılık | https://en.wikipedia.org/wiki/The_Art_of_Deception ; https://1000kitap.com/kitap/aldatma-sanati--37690 (arama özeti) | "Publication date October 4, 2002" | orta (Türkçe künye yalnız arama özetinden; çevirmen görülmedi)
+B75 Yapı: 9 bölüm ve sırası; ~400 sayfa; NLP eleştirisi ve ikinci baskıda azaltılması | kaynak: bellekten, doğrulanmadı | — | orta
+B76 Maurer 1906–1981, Louisville 1937–1972; The Big Con 1940; yüzlerce dolandırıcıyla görüşme | https://en.wikipedia.org/wiki/David_W._Maurer | "based on knowledge Maurer obtained from interviewing hundreds of grifters and con artists" | yüksek
+B76 Büyük oyunun on aşaması (putting the mark up ... putting in the fix) | https://en.wikipedia.org/wiki/Confidence_trick | "there are ten stages for a 'big con.'" | yüksek
+B76 The Sting davası: 1974, 10 milyon dolar; 1976'da tahminen 600 bin dolara uzlaşma; Gondorff kardeşler | https://en.wikipedia.org/wiki/David_W._Maurer ; https://en.wikipedia.org/wiki/The_Sting | "settled out of court in 1976 for an estimated $600,000" | yüksek
+B76 Weil sözü; kurbanın önkoşulları (para, daha fazlasını isteme, hileye razı olma); 1999 yeni baskı, Luc Sante önsözü | https://en.wikipedia.org/wiki/Joseph_Weil ; https://www.salon.com/1999/08/03/maurer/ | "Each of my victims had larceny in his heart" | yüksek
+B76 Bölüm sayısı ve adları; ~300 sayfa; wire/rag/pay-off içerik tanımları; roper/insideman; Weil'in Greene'de 3. yasada geçmesi; Türkçe baskı (ayrı arama yapılamadı) | kaynak: bellekten, doğrulanmadı | — | orta
+B77 Konnikova d. 1984 Moskova; Columbia doktorası 2013 (Mischel); kitap Viking, 12 Ocak 2016; Kirkus ve PW yıldızlı | https://en.wikipedia.org/wiki/The_Confidence_Game ; https://en.wikipedia.org/wiki/Maria_Konnikova | "Publication date January 12, 2016" | yüksek
+B77 Demara'nın kimlikleri ve HMCS Cayuga; Türkçe baskı yok, "Büyük Blöf" (çev. Sibel Eraltan) başka kitap | https://en.wikipedia.org/wiki/Ferdinand_Waldo_Demara ; kitapyurdu arama özeti | "masqueraded as Cyr, working as a ship's doctor aboard HMCS Cayuga" | yüksek (Demara) / orta (Türkçe)
+B77 Yapı: 10 bölüm, Maurer aşamalarını başlık alması; Demara'nın kitabın ana kişisi olması; Madoff ve diğer örnekler; ~340 sayfa; eleştiriler | kaynak: bellekten, doğrulanmadı | — | orta

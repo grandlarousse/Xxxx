@@ -1,0 +1,23 @@
+## Kardinal Richelieu — Testament politique (Testament politique, 1688)
+
+**Künye.** Armand Jean du Plessis, Kardinal ve Dük de Richelieu (1585–1642), 1624'ten ölümüne dek Fransa kralı XIII. Louis'nin başbakanıydı. Metin Fransızcadır; ölümünden 46 yıl sonra, 1688'de Amsterdam'da Henry Desbordes tarafından basıldı. Adı "Siyasi Vasiyet" diye çevrilebilir. Türkçe baskısı bulunamadı. Eski baskılar iki kısım tek cilttir; eleştirel baskıyı Françoise Hildesheimer hazırladı (1995).
+
+**Bir cümleyle.** Devlet tutkuyla değil akılla yönetilir; kralın işi, kamu çıkarını her özel çıkarın üstünde tutmak ve bunu öngörüyle, kararlılıkla, gerektiğinde sertlikle sürdürmektir.
+
+**Bağlam.** Metin doğrudan krala seslenir: bakan, kendisi öldükten sonra kralın ülkeyi nasıl yöneteceğine dair öğütlerini bırakır. Girişte ilk günlerdeki sözünü hatırlatır: bütün gücünü Huguenot (Fransız Protestan) partisini yıkmaya, büyük soyluların gururunu kırmaya, uyrukları görevlerine döndürmeye ve kralın adını yabancı uluslar arasında yükseltmeye harcayacaktır.
+
+**Yapısı.** İki kısımdır. Birinci kısım saltanatın o güne kadarki özetini verir ve devletin kesimlerini (Kilise, soylular, halk) ve kralın kendi sarayını ele alır; sekiz bölüm olduğu bellekten yazılmıştır, doğrulanmadı. İkinci kısım on bölümdür: ilk dokuzu devletin iyi yönetilmesi için gereken genel ilkeleri, onuncusu bütün eserin özetini verir.
+
+**Ana fikirler.**
+- **Akıl devletin kuralıdır.** Hükümdar öfkeyle, sevgiyle ya da kaprisle değil, akılla karar vermelidir. Richelieu kralın kişisel zaaflarını da açıkça sayar; bir bakanın efendisine yazdığı metin için bu şaşırtıcı bir cesarettir (bellekten, doğrulanmadı).
+- **Kamu çıkarı her şeyin üstündedir.** Devletin yararı kişisel bağlılıkların, aile çıkarlarının, hatta merhametin önüne geçer. Bugün "devlet aklı" (raison d'État) denen düşüncenin en yetkili ağızdan anlatımıdır.
+- **Ceza ödülden önemlidir.** İkisi de gereklidir, ama birinden vazgeçmek gerekse ödülden vazgeçilir: iyilik unutulur, ceza korkusu kalır. Devlete karşı suçlarda merhamet tehlikelidir; bakanı krala şikâyet eden kişi de kanıtı zayıfsa cezalandırılmalıdır.
+- **Öngörü ve sürekli pazarlık.** İyi yönetim uzağı görmektir; kötülüğü çıkmadan önlemek, çıktıktan sonra bastırmaktan kolaydır. Richelieu her yerde, açıkça ya da gizlice, hemen sonuç vermese bile sürekli müzakere etmeyi öğütler (bellekten, doğrulanmadı).
+- **Danışmanın nitelikleri.** Kral birkaç iyi danışman seçmeli ve onlara güvenmelidir. Aranan özellikler yetenek, sadakat, cesaret ve çalışkanlıktır; dalkavuklar ve dedikoducular saraydan uzak tutulmalıdır (bellekten, doğrulanmadı).
+- **Halk ve katır benzetmesi.** Halk fazla rahat ederse görev sınırında tutulamaz; yüke alışmış katır gibi uzun dinlenme onu çalışmaktan çok bozar. Yine de yük gücüne göre olmalıdır. Soylular için de benzer bir imge kullanır: devlete hizmet etmeyen soylu, gövdeye yük olan felçli bir kol gibidir. Katır benzetmesi bellekten yazılmıştır; kaynakta görülmedi.
+
+**İktidar'la ilişkisi.** *Testament politique* Greene'in kaynakçasında görünmüyor. Greene Richelieu'yü tarihsel örnek olarak anar, ama bu oturumda yerini doğrulamadım. Örtüşen yasalar: 29. yasa (Sonuna kadar planla) öngörü öğretisiyle; 15. yasa (Düşmanını tümüyle ez) devlet düşmanına merhamet etmeme ilkesiyle; 23. yasa (Güçlerini yoğunlaştır) Huguenot ve soylu gücünü kırıp otoriteyi tek merkezde toplama programıyla; 5. yasa (Çok şey itibara bağlıdır) kralın yabancılar nezdindeki adıyla. Ayrışma şuradadır: Greene'in oyuncusu kendi çıkarını kollar; Richelieu ise gücü kişiden alıp devlete vermek ister ve kişisel çıkarı kamu çıkarına kurban etmeyi şart koşar. Greene'in 1. yasası (Ustanı asla gölgede bırakma) açısından da ilginçtir: kitap, efendisini eleştirirken bile onu yücelten bir bakanın üslup dersidir.
+
+**Eleştiri ve sınırlar.** Yazarlık baştan beri tartışmalıdır. Voltaire metnin Richelieu'ye "yanlış olarak" atfedildiğini savundu; Montesquieu ise metinde Kardinal'in karakterini ve dehasını gördüğünü söyleyerek sahihliğini savundu. Bugünkü yaygın görüş ikisinin arasındadır: tarihçi Roland Mousnier'ye göre metni büyük olasılıkla Richelieu kendi eliyle yazmadı, ama istedi, ana fikirleri ve belgeleri sağladı, belki bölümlerini dikte etti; yani onun ya da çevresinin düşüncesini yansıtır. 1689'da çıkan "üçüncü kısım" ise ilk iki kısımdan bağımsızdır ve Paul Hay du Châtelet ile ilişkilendirilir. İçerik olarak halka bakışı serttir, mutlak monarşiyi sorgulamaz.
+
+**Kimler okumalı.** Güç taktiklerini bir kariyerin değil bir devletin ölçeğinde görmek isteyen okur. Greene'in anlattığı saray entrikalarını bastırıp merkezî devleti kuran adamın kendi mantığını merak edenler için.

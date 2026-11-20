@@ -1,0 +1,23 @@
+## Hannah Arendt — Şiddet Üzerine (On Violence, 1970)
+
+**Künye.** Hannah Arendt (1906–1975) Almanya doğumlu, Nazilerden kaçıp ABD'ye yerleşen Yahudi siyaset düşünürüdür; totalitarizm ve devrim üzerine kitaplarıyla tanınır (yaşam tarihleri bellekten). Özgün dil İngilizce. Metin önce 1969'da *New York Review of Books*'ta "Reflections on Violence" adıyla çıktı; kitap olarak 1970'te yayımlandı (kitap yılı bellekten) ve 1972'de *Crises of the Republic* derlemesine alındı. Türkçesi: *Şiddet Üzerine*, İletişim Yayınları, çeviren Bülent Peker, 107 sayfa (2003 baskısı görüldü; ilk baskı yılı doğrulanmadı).
+
+**Bir cümleyle.** Şiddet iktidarın en yoğun hâli değil, karşıtıdır: iktidarın bittiği yerde başlar ve iktidarı yok edebilir ama asla yaratamaz.
+
+**Bağlam.** 1968 öğrenci ayaklanmaları, Vietnam Savaşı, nükleer silahlar ve ABD'deki siyah hareketin bir kanadının şiddeti savunmaya başlaması. Yeni Sol içinde Fanon, Sartre ve Mao üzerinden şiddet yüceltiliyordu. Arendt hem bu yüceltmeye hem de devletlerin "güç = silah" varsayımına karşı kavramları ayıklamak için yazdı.
+
+**Yapısı.** Üç numaralı kısımdan ve uzun ek notlardan oluşan tek bir denemedir (kısım sayısı bellekten, doğrulanmadı). İlk kısım yüzyılın şiddet deneyimini ve öğrenci hareketini, ikincisi kavram ayrımlarını ve ana tezi, üçüncüsü şiddetin doğası ve nedenleri üzerine görüşleri (biyolojik açıklamalar, bürokrasi, öfke) tartışır.
+
+**Ana fikirler.**
+- **Beş kavram.** Arendt'e göre siyaset dili beş ayrı şeyi karıştırır. İktidar (power) insanların birlikte, uyum içinde eylemesinden doğar ve hiçbir zaman tek kişinin malı değildir. Güç (strength) tek bir kişinin özelliğidir. Kuvvet (force) doğanın ya da koşulların saldığı enerjidir. Otorite sorgusuz tanınmadır; zorlama da ikna da gerektirmez. Şiddet ise araçsaldır: aletlere dayanır.
+- **Sayı ve alet.** İktidar sayıya dayanır, şiddet alete. İktidarın uç biçimi "herkes bire karşı", şiddetin uç biçimi "bir kişi herkese karşı"dır; ikincisi ancak silahla mümkündür.
+- **Karşıtlık tezi.** Kitabın en çok alıntılanan cümlesi: "Power and violence are opposites; where the one rules absolutely, the other is absent." Şiddet, iktidar tehlikeye girdiğinde sahneye çıkar. Tanka başvuran hükümet güçlü olduğunu değil, itaatin çözüldüğünü gösterir.
+- **Namlunun ucu.** Arendt Mao'nun "iktidar namlunun ucundan çıkar" sözüne itiraz eder: namludan çıkan en etkili emirdir, anında itaat getirir; ama iktidar çıkmaz. Hükümetin şiddetteki üstünlüğü de ancak emirlere uyulduğu, ordu ve polis silahını kullanmaya hazır olduğu sürece geçerlidir; devrimler silah üstünlüğüyle değil, bu itaat çözüldüğünde kazanılır.
+- **Araç ve amaç.** Şiddet her zaman bir amaçla gerekçelendirilmek zorundadır; başka bir şeyle gerekçelendirilmesi gereken şey ise hiçbir şeyin özü olamaz. Şiddet kısa vadeli hedeflerde akılcı olabilir (bir haksızlığa dikkat çekmek gibi), ama araç kolayca amacı yutar; en olası sonucu daha şiddetli bir dünyadır.
+- **Kimsenin yönetimi.** Bürokrasi, hesap sorulacak kimsenin kalmadığı yönetimdir ("rule by Nobody"). İnsanların şikâyet edecek muhatap bulamaması öfkeyi ve şiddeti besler.
+
+**İktidar'la ilişkisi.** Arendt, Greene'in kaynakçasında görünmüyor; buna karşılık Arendt'in tartıştığı Mao (*Selected Military Writings*) oradadır. Örtüşen noktalar var: Yasa 18 (Kendini korumak için kale kurma: yalnızlık tehlikelidir) ve Yasa 27 (İnsanların inanma ihtiyacını kullan, tarikat benzeri bir mürit kitlesi yarat) iktidarın başkalarının desteğine dayandığını kabul eder. Yasa 15 (Düşmanını tümüyle ez) ise Arendt'in itiraz ettiği anlayışın özüdür. Temel ayrışma tanımdadır. Greene için iktidar bir kişinin başkaları üzerindeki üstünlüğüdür ve kurnazlıkla biriktirilir. Arendt'e göre bu, iktidar değil olsa olsa "güç" ya da manipülasyondur; iktidar bir grubun ortak eyleminden doğar ve grup dağıldığında biter. Bu kitap, 48 Yasa'nın temel varsayımına yöneltilmiş en derli toplu kuramsal itirazdır.
+
+**Eleştiri ve sınırlar.** Kavram ayrımları fazla temiz bulunur: gerçek hayatta iktidar ve şiddet neredeyse hep iç içedir; Arendt de bunu kabul eder ama tezini yumuşatmaz. Habermas, onun iktidarı yalnızca uzlaşmaya dayandırıp çıkar çatışmasını ve stratejik mücadeleyi dışarıda bıraktığını söyler (bellekten). Fanon'u dar okuduğu ve sömürge karşıtı şiddeti anlamadığı ileri sürülür. Siyah öğrenci hareketi hakkındaki küçümseyici sözleri bugün ciddi biçimde eleştirilir. Metin 1968'in güncel tartışmalarına sıkıca bağlıdır.
+
+**Kimler okumalı.** Greene'in iktidar tanımını sorgulamak isteyenler. Kısa bir metin; "korkutarak yönetmek" ile "arkasında insan olmak" arasındaki farkı kalıcı biçimde öğretir.

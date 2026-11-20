@@ -1,0 +1,34 @@
+# İddia defteri — B12 (Gücün bilimi ve karanlık kişilik: B66–B71)
+
+iddia | kaynak URL | birebir kısa alıntı ya da sayı | güven
+
+B66 Keltner, The Power Paradox, Penguin Press 2016, 196 s.; kısımlar: 5 bölüm + "fivefold path" | https://search.worldcat.org/oclc/929055993 | "power is given, not grabbed; enduring power comes from a focus on others; the abuses of power; the price of powerlessness" | yüksek
+B66 Yirmi "Power Principles" | https://www.penguinrandomhouse.com/books/312367/the-power-paradox-by-dacher-keltner/ | "twenty original 'Power Principles'" | yüksek
+B66 Keltner Berkeley'de profesör, Greater Good Science Center kurucu yöneticisi | https://en.wikipedia.org/wiki/Dacher_Keltner | "founding faculty director of the Greater Good Science Center at University of California, Berkeley" | yüksek
+B66 Keltner 2007 makalesinde 48 Yasa'yı adıyla eleştirir; 3, 6, 12, 15 ve (yanlış numarayla) "18" sayılır | https://greatergood.berkeley.edu/article/item/power_paradox | "Greene's book ... is pure Machiavelli"; "they are dead wrong"; "Law 18, Keep Others in Suspended Terror" | yüksek
+B66 Türkçe baskı: yalnız başlık çevirisi görüldü, yayınevi/çevirmen yok | https://www.dailygood.org/story/1468/greater-good-s-top-books-of-2016-jill-suttie-kira-m-newman-diana-divecha-laura-saponara/?lang=tr | "Güç Paradoksu: Etkimizi Nasıl Kazanır ve Kaybederiz" (arama özeti) | düşük
+B66 Yineleme eleştirisi: kurabiye deneyi çeşitlemesi; Avrupa'da araba gözleminde ilişki yok | https://bigthink.com/the-learning-curve/gaining-power/ | arama özeti: "found no connection between car make and driving behavior" | orta
+B66 Güçsüzlük stres tepkisi, çocuk gelişimi, yetişkin sağlığı | https://www.publishersweekly.com/978-1-59420-524-8 | arama özeti (birebir alıntı görülmedi) | orta
+B66 Kurabiye deneyinin ayrıntıları; ilkelerin bölüm başına dağılımı; beş adımın tam adları | kaynak: bellekten, doğrulanmadı | — | düşük
+B67 Klaas, Corruptible, Scribner, 9 Kasım 2021, 320 s. | https://www.goodreads.com/work/editions/88976029-corruptible-who-gets-power-and-how-it-changes-us?page=2 | "First published November 9th 2021" (320 s. arama özetinden) | yüksek
+B67 Klaas UCL'de küresel siyaset profesörü, d. 1986 | https://en.wikipedia.org/wiki/Brian_Klaas | "a professor in global politics at University College London" | yüksek
+B67 500'den fazla görüşme | https://www.hachette.co.uk/titles/brian-klaas/corruptible/9781529338119 | arama özeti: "over 500 interviews" | orta
+B67 Türkçe baskı yok: baskı listesinde Fince (Atena 2022), Portekizce (Cultrix 2022) var; Japonca arama özetinde | https://www.goodreads.com/work/editions/88976029-corruptible-who-gets-power-and-how-it-changes-us?page=1 | "Paha valta ... Atena ... Edition language: Finnish" (3. sayfada eşleşme yok) | orta
+B67 Bölüm sayısı/adları, "on ders" listesi, polis ilanı örneği, gücü kötü gösteren dört etken | kaynak: bellekten, doğrulanmadı | — | düşük
+B68 Battilana: Harvard Business School ve Kennedy School profesörü | https://en.wikipedia.org/wiki/Julie_Battilana | "Joseph C. Wilson Professor of Business Administration at Harvard Business School" | yüksek
+B68 Güç = değer verilen kaynaklara erişimin denetimi; seçenekler belirleyici; yanılgılar; güç haritası; beş güdü | https://getabstract.com/en/summary/power-for-all/43701 ; https://www.hachette.co.uk/titles/julie-battilana/power-for-all/9780349425498/ | arama özeti: "money and status, but also autonomy, achievement, affiliation and morality" | orta
+B68 Yıl 2021, Simon & Schuster | https://www.simonandschuster.ca/books/Power-for-All/Julie-Battilana/A-Leadership-Playbook/9781982141653 | arama sonucu başlığı (sayfa açılamadı) | orta
+B68 Casciaro'nun kurumu (Rotman/Toronto); dört yolun adları; üç rol (agitate, innovate, orchestrate); Emerson 1962; sayfa sayısı; bölüm yapısı; Türkçe baskı | kaynak: bellekten, doğrulanmadı (arama kotası bitti) | — | düşük
+B69 De Waal 1975'te Arnhem'de altı yıllık proje; ilk kitap Chimpanzee Politics 1982 | https://en.wikipedia.org/wiki/Frans_de_Waal | "In 1975, De Waal began a six-year project on the world's largest captive colony of chimpanzees at the Arnhem Zoo" | yüksek
+B69 Machiavelli'yi primatolojiye ilk taşıyan; "Machiavellian intelligence" | https://en.wikipedia.org/wiki/Frans_de_Waal | "De Waal was the first to introduce the thinking of Machiavelli to primatology" | yüksek
+B69 1990'ların ortasında Cumhuriyetçi yeni üyelerin okuma listesi (Gingrich adı yalnız ikincil blogda) | https://en.wikipedia.org/wiki/Frans_de_Waal | "included on a reading list for US Republican House freshmen" | orta
+B69 İlk baskı Londra 1982 (Cape), aynı yıl Hollandaca; ~223 s. | https://openlibrary.org/search.json?q=de+waal+chimpanzee+politics | "first_publish_year":1982, "number_of_pages_median":223 | orta
+B69 Türkçe baskı bulunamadı | https://press.jhu.edu/books/title/9383/chimpanzee-politics (arama: "Şempanze Politikası") | arama sonucunda Türkçe kayıt yok | orta
+B69 Bölüm adları; devrilme yılları; Mama'nın rolü; denetim rolü; De Waal'ın "yanlış okundu" görüşü | kaynak: bellekten, doğrulanmadı | — | düşük
+B70 Christie & Geis, 1970, Academic Press, 17 bölüm, 415 s.; bölüm adları | https://shop.elsevier.com/books/studies-in-machiavellianism/christie/978-0-12-174450-2 | "This 17-chapter text"; "VII. The Con Game ... IX. The Ten Dollar Game" | yüksek
+B70 Mach IV 20 madde; maddeler doğrudan Machiavelli alıntısı değil | https://en.wikipedia.org/wiki/Machiavellianism_(psychology) | "their own statements which they viewed Machiavelli could say, and were not direct statements from his works" | orta
+B70 Dört özellik; "cool syndrome"; puan zekâ ve siyasi görüşle ilişkisiz; yüksek Mach daha başarılı manipüle eder | https://en.wikipedia.org/wiki/Studies_in_Machiavellianism | "A relative lack of affect in interpersonal relationships"; "the cool syndrome" | yüksek
+B70 Karanlık üçlü: Paulhus ve Williams 2002 | https://en.wikipedia.org/wiki/Dark_triad | "first introduced by Delroy L. Paulhus and Kevin M. Williams in 2002" | yüksek
+B70 Üç koşul (yüz yüze, doğaçlama payı, ilgisiz duygu); On Dolar Oyunu kuralı; Christie'nin Columbia'da, Geis'in başka kurumda olması; iş performansı bulgusu; Türkçe baskı | kaynak: bellekten, doğrulanmadı | — | düşük
+B71 Babiak & Hare, HarperBusiness, 9 Mayıs 2006, 336 s.; beş aşama; piyon/hami; %1; The Corporation notu | https://en.wikipedia.org/wiki/Snakes_in_Suits | "entry, assessment, manipulation, confrontation, and ascension"; "around 1% of senior positions" | yüksek
+B71 Türkçe baskı: Yerküre Yayınevi 2015, çev. Özgür Öner, 330 s., ISBN 9789756125946 (Türkçe ad kayıtta yok); bölüm yapısı, "Dave" vakası, değerlendirme-manipülasyon-terk üçlüsü bellekten, doğrulanmadı | https://www.goodreads.com/work/editions/127744-snakes-in-suits-when-psychopaths-go-to-work?page=4 | "Published 2015 by Yerküre Yayınevi ... Özgür Öner (Translator) ... Edition language: Turkish" | orta

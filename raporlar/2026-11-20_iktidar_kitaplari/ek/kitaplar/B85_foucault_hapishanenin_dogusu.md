@@ -1,0 +1,23 @@
+## Michel Foucault — Hapishanenin Doğuşu (Surveiller et punir: Naissance de la prison, 1975)
+
+**Künye.** Michel Foucault (1926–1984) Fransız filozof ve düşünce tarihçisidir; kitabı Collège de France'ta profesörken ve hapishane koşullarına karşı yürütülen kampanyalara katıldığı yıllarda yazdı (yaşam tarihleri ve bu ayrıntı bellekten). Özgün dil Fransızca; ilk yayın 1975, Gallimard. İngilizcesi 1977 (çev. Alan Sheridan). Türkçesi: *Hapishanenin Doğuşu: Gözetim Altında Tutmak ve Cezalandırmak*, İmge Kitabevi, çeviren Mehmet Ali Kılıçbay, 445 sayfa.
+
+**Bir cümleyle.** Modern iktidar bedeni parçalayarak değil, gözetleyip ölçerek ve alıştırarak yönetir; hapishane bu yöntemin yalnızca en görünür örneğidir.
+
+**Bağlam.** Yaygın anlatıya göre işkenceli idamlardan hapis cezasına geçiş, insanlığın yumuşamasıdır. Foucault Fransız arşiv belgelerinden yola çıkarak buna itiraz eder: amaç daha az cezalandırmak değil, daha iyi cezalandırmaktı. Kitap, 1970'lerin başındaki hapishane isyanlarının ardından, okul, kışla, fabrika ve hastanenin de aynı mantıkla çalıştığını göstermek için yazıldı.
+
+**Yapısı.** Dört kısımdır: İşkence (Supplice), Ceza, Disiplin, Hapishane. İlki kralın gösterişli cezasını, ikincisi 18. yüzyıl reformcularının "yumuşak" ceza tasarılarını, üçüncüsü disiplin tekniklerini, dördüncüsü hapishanenin neden başarısız olduğu hâlde ayakta kaldığını anlatır. Toplam on bölüm (sayı bellekten, doğrulanmadı).
+
+**Ana fikirler.**
+- **İki sahne.** Kitap, krala suikast girişiminden hüküm giyen Damiens'in meydanda parçalanarak idamıyla (1757; yıl bellekten) açılır. Hemen ardından bir ıslahevinin dakika dakika düzenlenmiş günlük programı gelir. Aradan bir yüzyıl bile geçmemiştir; Foucault bu değişimi açıklamak ister.
+- **Egemen iktidardan disipline.** Eski ceza bir törendi: kral, bedeni üzerinde gücünü herkese gösterirdi. Ama kalabalık bazen mahkûmun yanında yer alıyordu; gösteri riskliydi. Yeni iktidar görünmez olur, görünür olan artık yönetilendir.
+- **Uysal bedenler.** Disiplin, bedeni hem daha yararlı hem daha itaatkâr kılar. Araçları mekânı bölmek (sıralar, koğuşlar), zamanı bölmek (çizelge), hareketi parçalara ayırıp tekrar ettirmektir. Fabrika, kışla ve sınıf bu yüzden birbirine benzer.
+- **Üç basit araç.** Hiyerarşik gözetim (herkes birinin gözü önündedir), normalleştirici yaptırım (suç değil, ortalamadan sapma cezalandırılır) ve sınav (kişi ölçülür, kaydedilir, bir "vaka"ya dönüşür). Sınav, iktidarla bilginin birleştiği yerdir.
+- **Panoptikon.** Bentham'ın tasarladığı halka biçimli hapishanede ortadaki kuleden bütün hücreler görülür; mahkûm izlenip izlenmediğini bilemez. Sonuç: kişi kendi gardiyanı olur. Foucault bunu bir bina planı değil, modern toplumun işleyiş şeması sayar.
+- **Hapishane neden sürüyor?** Hapishane suçu azaltmaz; Foucault'ya göre hapishane kaçınılmaz olarak suçlu üretir ("cannot fail to produce delinquents", İngilizce çeviriden). Ama bu başarısızlık işe yarar: yasadışılığı tanınabilir, izlenebilir ve kullanılabilir bir "suçlular" kesimine dönüştürür.
+
+**İktidar'la ilişkisi.** Foucault, Greene'in kaynakçasında görünmüyor; Greene'in saray toplumu için dayandığı kuramcı Norbert Elias'tır. Yine de örtüşmeler var. Yasa 37 (Etkileyici gösteriler yarat), Foucault'nun anlattığı kral iktidarının mantığıdır: iktidar görünerek etkiler. Yasa 14 (Dost gibi görün, casus gibi çalış) ve Yasa 33 (Herkesin zayıf noktasını bul) ise bilgi toplamanın iktidar olduğu düşüncesini paylaşır. Asıl fark büyüktür. Greene'in dünyası saraydır: iktidar bir kişinin elindedir, kazanılır ve kaybedilir. Foucault'ya göre modern iktidar kimsenin malı değildir; binaların planına, çizelgelere, formlara ve notlara gömülüdür. Ayrıca iktidar yalnızca bastırmaz, üretir: bilgi, alışkanlık ve "birey"in kendisi onun ürünüdür. Bu açıdan Greene, Foucault'nun "geride kaldı" dediği iktidar türünün el kitabını yazmıştır.
+
+**Eleştiri ve sınırlar.** Tarihçiler Foucault'nun kanıtı seçerek kullandığını söyler. David Garland'a göre kitap her şeyi iktidarla açıklar ve bunu bazen kanıtsız yapar. Peter Gay, iktidar sahiplerinin kaygısını, beceriksizliğini ve içten idealizmini hafife aldığını yazar. Bir başka itiraz: Foucault reformcuların kâğıt üzerindeki tasarılarını gerçek uygulama sanmıştır; panoptikon hiçbir zaman tam hâliyle kurulmadı. Direnişe az yer vermesi ve yalnızca Fransa'ya bakması da eleştirilir. Bir not: sık anılan *Power/Knowledge* (1980) Foucault'nun yazdığı bir kitap değil, Colin Gordon'ın derlediği İngilizce söyleşi ve yazılar toplamıdır (bellekten).
+
+**Kimler okumalı.** İktidarı kişiler arası bir satranç gibi düşünmeye alışmış Greene okuru. Bu kitap, oyuncuların üzerinde oynadığı tahtanın kendisinin de bir iktidar aracı olduğunu gösterir.

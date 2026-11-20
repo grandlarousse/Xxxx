@@ -57,3 +57,15 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# Robert Greene'in İktidar'ı ve aynı konuyu işleyen kitaplar (20.11.2026)
+
+Klasör: `2026-11-20_iktidar_kitaplari/`
+
+- `RAPOR.md`: ana rapor (okuma yolları, İktidar'ın özeti, 125 kitabın listesi, doğrulama kapsamı).
+- `ek/01_iktidar_48_yasa.md`: 48 yasanın tek tek ayrıntılı anlatımı.
+- `ek/02` – `ek/10`: 125 kitabın ayrıntılı anlatımı, dokuz dosyada.
+- `ek/11_envanter.md`: ayrıntılı anlatılmayan kitapların tek satırlık envanteri.
+- `ek/defter/`, `ek/dogrulama/`, `ek/araclar/`: iddia defterleri, doğrulama notları ve betikler.

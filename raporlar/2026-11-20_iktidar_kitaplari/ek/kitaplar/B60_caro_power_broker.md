@@ -1,0 +1,23 @@
+## Robert A. Caro — The Power Broker: Robert Moses and the Fall of New York (The Power Broker, 1974)
+
+**Künye.** Robert A. Caro Amerikalı gazeteci ve biyografi yazarıdır; 1960'ların başında Newsday muhabiriyken Robert Moses'ın bir köprü projesini araştırdı ve bu kitap oradan doğdu. Özgün dil İngilizce; ilk yayın 16 Eylül 1974, Knopf; 1975'te Pulitzer Ödülü aldı. Türkçe baskı: doğrulanmadı (arama kotası dolduğu için aranamadı; bildiğim bir çeviri yok). 1.336 sayfa.
+
+**Bir cümleyle.** Robert Moses hiçbir seçimi kazanmadan New York'un parklarını, yollarını ve köprülerini kırk yılı aşkın süre yönetti; kitap bu gücün nasıl kurulduğunu, kullanıldığını ve kente neye mal olduğunu anlatır.
+
+**Bağlam.** Caro, Moses'ın savunduğu bir köprüye karşı uzun bir yazı dizisi hazırlamış, yine de eyalet meclisinin projeyi ezici çoğunlukla onayladığını görmüştü. O an, demokraside gücün sandıktan geldiği inancının bu adamı açıklamadığını fark etti. Dokuz ay süreceğini sandığı araştırma yedi yıl sürdü. Bu bir biyografidir, öğüt kitabı değil; bu derlemenin ölçütünün sınırındadır. İktidar okuruna en çok önerilen kitaplardan olduğu için alındı.
+
+**Yapısı.** Kitap yedi kısma ayrılır ve kısım adları bir yükseliş ve düşüş eğrisi çizer: idealist, reformcu, güce yükseliş, gücün kullanımı, güç sevgisi, güç hırsı, gücün yitirilmesi (kısım sayısı ve adları, yaklaşık 50 bölüm: bellekten, doğrulanmadı). En ünlü bölüm, Cross-Bronx otoyolunun East Tremont mahallesini nasıl yok ettiğini anlatan “One Mile”dır.
+
+**Ana fikirler.**
+- **İdealistten güç ustasına.** Genç Moses, memurluk sistemini düzeltmek isteyen bir reformcuydu ve başarısız oldu. Vali Al Smith'in yanında, iyi fikrin güç olmadan hiçbir şey olmadığını öğrendi. Caro'ya göre dönüm noktası budur: amaç için istenen güç, zamanla amacın kendisi olur.
+- **Yasayı yazan kazanır.** Moses yasa taslağı yazmakta ustaydı; kendi kurumlarını kuran metinlere kimsenin fark etmediği yetkiler yerleştirirdi. 1924'te eyalet parklar kurulunun başına geçti ve onlarca yıl kaldı; aynı anda on iki kadar unvan taşıdığı oldu.
+- **Kamu otoritesi: seçimsiz hazine.** Triborough Köprü Otoritesi geçiş ücretlerini topluyor, bu gelire dayanarak tahvil çıkarıyordu. Tahvil sözleşmeleri, yasama organının sonradan kolayca bozamayacağı bağlar kuruyordu (ayrıntı: bellekten, doğrulanmadı). Böylece Moses'ın bütçesi seçilmişlerin denetimi dışında kaldı.
+- **İş bitirmek en güçlü kozdur.** Seçilmiş yöneticilerin açılış törenine yetişecek projelere ihtiyacı vardı; hazır plan, para ve ekip yalnızca Moses'taydı. Valiler ve belediye başkanları ona bağımlı kaldı; istifa tehdidi yıllarca en etkili silahı oldu.
+- **İtibar zırhı.** Parkları halka açan, siyasetin üstünde, çıkar gözetmeyen kamu görevlisi imajı onu onlarca yıl eleştiriden korudu. Basın bu imajı besledi.
+- **Bedel.** Otoyollar mahalleleri böldü, binlerce kişi yerinden edildi, toplu taşıma ihmal edildi. Caro, otomobile dayalı bu tercihlerin yükünü en çok yoksulların ve azınlıkların taşıdığını savunur.
+
+**İktidar'la ilişkisi.** Greene'in kaynakçasında görünmüyor; alıntıladığı doğrulanmadı. Yine de kitap, yasaların tek bir yaşamda izlendiği en ayrıntılı vakadır. 11. yasa (İnsanları kendine bağımlı kılmayı öğren) Moses'ın bütün yönteminin özetidir. 5. yasa (Çok şey itibara bağlıdır: onu canın gibi koru), 7. yasa (İşi başkalarına yaptır, ama övgüyü hep sen al), 28. yasa (İşe cesaretle gir) ve 23. yasa (Güçlerini yoğunlaştır) açıkça görülür. Sonu ise 47. yasanın (Hedeflediğin noktayı aşma; zaferde durmayı bil) ihlalidir: fazla uzanan Moses 1960'larda gücünü yitirir. Ayrışma: Greene gücü kazanana bakar, Caro gücün uygulandığı insanlara da bakar. Caro'nun sonradan sık yinelediği söz, gücün her zaman yozlaştırmadığı ama her zaman insanı açığa çıkardığıdır (bu söz kitabın kendisinden değil, yazarın sonraki konuşma ve yazılarındandır: bellekten, doğrulanmadı).
+
+**Eleştiri ve sınırlar.** Moses ve çevresi kitaptaki iddiaları çürütmeye çalıştı. Tarihçi Kenneth Jackson kitabı büyük bir başarı sayar, ama büyük anlatının altında “a thousand errors” bulunduğunu söyler. En tartışmalı iddia, Long Island yollarındaki üst geçitlerin otobüsler geçemesin diye alçak yapıldığıdır: bir sosyolog bunun dönemin olağan uygulaması olduğunu savunmuş, bir başka araştırmacı ise ölçüp Moses'ın üst geçitlerinin gerçekten daha alçak olduğunu bulmuştur. Kitap çok uzundur; yine de özgün taslağın ancak üçte ikisidir. Dersleri Amerikan yerel yönetimine özgüdür ve okurun kendi çıkarması gerekir.
+
+**Kimler okumalı.** Yasaları tek tek ezberlemek yerine, hepsinin tek bir kariyerde nasıl birleştiğini ve sonunda neye mal olduğunu görmek isteyen sabırlı okur. Gücün kurumsal yüzünü (yasa, bütçe, kurul) Greene'den çok daha iyi öğretir.

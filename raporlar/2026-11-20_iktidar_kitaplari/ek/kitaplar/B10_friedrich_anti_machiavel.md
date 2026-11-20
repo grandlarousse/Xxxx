@@ -1,0 +1,23 @@
+## Prusya Kralı II. Friedrich — Anti Makyavel (Anti-Machiavel, 1740)
+
+**Künye.** II. Friedrich (Büyük Friedrich, 1712–1786) kitabı Prusya veliaht prensiyken, Fransızca yazdı. Taslağı 1739 sonunda bitti; metni Voltaire elden geçirdi ve kitap Eylül 1740'ta, Friedrich tahta çıktıktan birkaç ay sonra Lahey'de adsız olarak basıldı. Türkçesi: *Anti Makyavel*, Yeditepe Yayınevi, 2016, çeviren Nilüfer Epçeli, 160 sayfa. Daha eski bir çeviri de anılır: *Makyavel'i Çürütme Denemesi*, çeviren Vahdi Hatay, Remzi Kitabevi (tarihsiz).
+
+**Bir cümleyle.** Machiavelli'nin öğütleri hem ahlaksız hem de yanlış hesaptır: hükümdar halkının efendisi değil ilk hizmetkârıdır ve uzun vadede en akıllıca siyaset adalet ve dürüstlüktür.
+
+**Bağlam.** Friedrich sert bir babanın gölgesinde geçen gençliğinden sonra felsefeye ve Voltaire'le yazışmaya sığınmıştı. Oxford'daki Friedrich sergisinin notuna göre kitabı tetikleyen, Voltaire'in 1738'de gönderdiği bir taslakta Machiavelli'yi çağının büyük adamı diye sunmasıdır. Friedrich yayın sürerken kral olunca metindeki güncel siyasi yorumlar diplomatik sakınca doğurdu; Voltaire metni buna göre değiştirdi.
+
+**Yapısı.** *Prens*'i bölüm bölüm izleyen bir çürütmedir: her bölüm Machiavelli'nin ilgili bölümünü özetler ve yanıtlar. *Prens* 26 bölüm olduğundan çürütme de 26 bölümdür (sayı bellekten; doğrulanmadı). Başında bir önsöz vardır. Yetkisiz ilk baskı *Examen du Prince de Machiavel* adıyla Lahey'de Van Duren'den çıktı; Voltaire'in onayladığı düzeltilmiş baskı onu izledi.
+
+**Ana fikirler.**
+- **Hükümdar ilk hizmetkârdır.** Halk hükümdarı kendi güvenliği ve refahı için başa getirmiştir; öyleyse egemen, yönettiği halkların mutlak efendisi değil, onların birinci hizmetkârıdır. Friedrich'in elyazmasındaki sözcük "premier domestique"tir; Voltaire'in bunu yumuşattığı aktarılır (bellekten, doğrulanmadı).
+- **Machiavelli kötü örnekleri seçmiştir.** Friedrich'e göre *Prens*, Cesare Borgia gibi kötü sonla biten zorbaları model diye sunar ve onların akıbetini görmezden gelir. Küçük İtalyan beylerinin dünyasından çıkarılan dersler büyük ve düzenli krallıklara uymaz.
+- **Kralın kötülüğü bulaşır.** Sıradan bir insanın suçu birkaç kişiye zarar verir; hükümdarın kötü eylemi ise uyruklarınca örnek alınır ve bütün ülkeye yayılır. Bu yüzden hükümdarın ahlakı özel bir mesele değildir.
+- **Sözünde durmak çıkardır.** *Prens*'in 18. bölümündeki "gerektiğinde sözünü tutma" öğüdüne karşı Friedrich güvenin siyasi sermaye olduğunu savunur: bir kez aldatan bir daha inandıramaz. Yine de istisna tanır: halkın selameti gerektirirse antlaşma bozulabilir (istisna bellekten, doğrulanmadı).
+- **Haklı savaşlar vardır.** Savunma savaşı, hakkını arama savaşı ve yaklaşan tehlikeyi önlemek için açılan savaş meşru sayılır (bellekten, doğrulanmadı). Bu kapı, sonraki eleştirilerin hedefi olacaktır.
+- **Akla dayalı yönetim.** Hükümdar ordusunu kendisi yönetmeli, adaleti gözetmeli, dalkavukları uzak tutmalı, sanatı ve bilimi korumalıdır. Kitap, "aydınlanmış mutlakiyet" denen yönetim anlayışının erken bir bildirisidir.
+
+**İktidar'la ilişkisi.** *Anti-Machiavel* Greene'in kaynakçasında görünmüyor; kaynakçada bunun tersine Machiavelli'nin iki kitabı yer alır. Bu kitap Greene'in bütün yaklaşımına yazılmış en eski itirazlardan biri sayılabilir. Doğrudan karşı çıktığı yasalar: 3. yasa (Niyetlerini gizle) ve 12. yasa (Kurbanını seçici dürüstlük ve cömertlikle silahsızlandır); Friedrich hesaplı dürüstlüğü değil, tutarlı dürüstlüğü savunur. 15. yasaya (Düşmanını tümüyle ez) karşı ölçülülüğü öğütler. Örtüştüğü yasalar da vardır: 5. yasa (Çok şey itibara bağlıdır: onu canın gibi koru) Friedrich'in ana gerekçesidir; 18. yasa (Kendini korumak için kale kurma: yalnızlık tehlikelidir) hükümdarın halkın sevgisine dayanması fikriyle uyuşur. Yani Friedrich Greene'e "itibar yasası ötekilerin çoğunu geçersiz kılar" demektedir.
+
+**Eleştiri ve sınırlar.** En büyük eleştiri yazarın kendi hayatından gelir: kitabın çıktığı yılın sonunda, Aralık 1740'ta Friedrich Silezya'yı işgal ederek Avusturya Veraset Savaşı'nı başlattı (tarih bellekten). Bu yüzden kitap çoğu kez ikiyüzlülük örneği ya da ustaca bir itibar hamlesi diye okunur; Friedrich de sonradan metne dönmedi. Ayrıca Machiavelli'yi yalnızca *Prens* üzerinden, tarihsel bağlamından kopararak okur. Metnin ne kadarının Voltaire'e ait olduğu da tartışılır; yazarlık ise açık bir sırdı ve kitabın çok satmasını sağladı. Türkçe Vikipedi'deki "Voltaire'e yazdırıldı" ifadesi yanlıştır.
+
+**Kimler okumalı.** Greene'i okuduktan sonra "bunların tersi savunulabilir mi" diye soran okur. Güç sahibinin ağzından yazılmış bir ahlak savunusunu ve o savunu ile eylem arasındaki mesafeyi birlikte görmek isteyenler için.

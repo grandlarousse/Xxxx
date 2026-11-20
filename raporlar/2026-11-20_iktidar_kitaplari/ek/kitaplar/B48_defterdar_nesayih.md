@@ -1,0 +1,23 @@
+## Defterdar Sarı Mehmed Paşa — Devlet Adamlarına Öğütler (Nesâyihü'l-vüzerâ ve'l-ümerâ, 18. yüzyıl başı)
+
+**Künye.** Defterdar Sarı Mehmed Paşa (ö. 1717), İstanbul doğumlu Osmanlı maliyecisi ve tarihçisidir. TDV İslâm Ansiklopedisi'ne göre 1703'ten başlayarak yedi kez başdefterdarlık (maliyenin başı) yaptı. Kitabı devletin kasasını yönetmiş biri olarak yazar. Dili Osmanlı Türkçesi; adı "Vezirlere ve Beylere Öğütler" demektir. Kesin yazılış yılı bu çalışmada görülmedi; 18. yüzyılın ilk yirmi yılına aittir. Türkçesi: *Devlet Adamlarına Öğütler*, haz. Hüseyin Ragıp Uğural, Ankara 1969 ve İstanbul 1987; sadeleştirilmiş metinle birlikte özgün metni de verir (bu iki baskının yayınevi adı doğrulanmadı; kitapçı kataloğu taramasında aynı adla bir Dorlion Yayınları baskısı görünüyor). İngilizcesi: W. L. Wright, *Ottoman Statecraft*, Princeton 1935. Orta boy bir kitaptır; sayfa sayısı doğrulanmadı.
+
+**Bir cümleyle.** Devleti bozan şey düzenin kendisi değil, düzeni işletenlerin ahlakıdır; makam ehline verilir, rüşvet kesilir ve hazine dürüstçe yönetilirse devlet toparlanır.
+
+**Bağlam.** Kitap, 1683 Viyana bozgunu ve 1699 Karlofça Antlaşması'ndan sonraki sarsıntı yıllarının ürünüdür. Yazar 1703 Edirne Vakası'nda bir padişahın tahttan indirilişini yakından gördü; isyancılar asker bahşişi için para bulamayınca onu yeniden defterdarlığa getirdi. Kitabı, yüksek makamdakilere rehber olsun diye yazdı.
+
+**Yapısı.** Dokuz bölüm ve iki zeyilden (ek) oluşur. Bölümlerin konuları TDV'ye göre şunlardır: sadrazamın ahlakı ve davranışı; makam sahiplerinin hâlleri ve rüşvetin zararı; hazine defterdarının nitelikleri; Yeniçeri Ocağı'nın durumu; reayanın (vergi veren halkın) hâli ve halka eziyetin sonuçları; düşmanın ve sınır boylarının durumu; cimrilik, cömertlik, hırs, haset, alçakgönüllülük, gurur ve ikiyüzlülük gibi huylar. Son bölümler TDV'ye göre sadık dostlar, gıybetin kötülükleri ve tımar ile zeamet meseleleriyle ilgilidir.
+
+**Ana fikirler.**
+- **Sistem değil işleyiş.** Yazar düzeni değiştirmeyi önermez; onu Kanuni dönemiyle karşılaştırır ve işletenleri eleştirir. Yöneticide aranacak dört şey sayar: zekâ, bilgi, dürüstlük, tecrübe.
+- **Rüşvet bütün kötülüklerin başıdır.** Makam parayla alınınca, alan kişi parasını halktan çıkarır; zulüm buradan doğar. Bu fikir Lütfi Paşa'nın Âsafnâme'sinden alınmıştır; yazar ondan açıkça nakiller yapar.
+- **Defterdarın işi.** Hazine başındaki kişi geliri giderin üstünde tutmalı, kayıtları düzenli tutmalı, görev ve maaş listelerini şişirmemelidir. Bu bölüm, işi yapmış birinin el kitabıdır ve kitabın en özgün yeridir.
+- **Yeniçeri Ocağı.** Ocağa asker olmayanların yazılması, maaş defterlerinin (esame) alınıp satılması hem hazineyi hem savaş gücünü tüketmektedir.
+- **Reaya ezilirse hazine kurur.** Halka aşırı vergi yüklenmesi köyleri boşaltır; köy boşalınca gelir de asker de biter. Adalet burada bir ahlak öğüdü kadar bir maliye kuralıdır.
+- **Huylar.** Cimrilik ve hırs yöneticiyi rüşvete, gurur yanlış karara, ikiyüzlülük yanlış dosta götürür. Yazar yönetim sorununu sonunda karakter sorununa bağlar.
+
+**İktidar'la ilişkisi.** Kitap, bu oturumda görülen Greene kaynakçasında görünmüyor. Örtüşen yerler: Yasa 5 (Çok şey itibara bağlıdır: onu canın gibi koru), Yasa 40 (Bedava yemeği küçümse; hediyenin bedeli vardır) ve Yasa 2 (Dostlarına fazla güvenme, düşmanlarını kullanmayı öğren; dostluk ve düşmanlık üzerine öğütler). Ayrışma derindir: Greene'in Yasa 12 (Kurbanını seçici dürüstlük ve cömertlikle silahsızlandır) ve Yasa 33 (Herkesin zayıf noktasını bul) gibi öğütleri, Mehmed Paşa'nın "ikiyüzlülük" ve "tamah" diye mahkûm ettiği şeylerdir. Yazarın kendi sonu ise Greene'in haklı çıktığı bir örnektir. TDV'ye göre sadrazamlık mührünü açıktan isteyecek kadar hırslandı ve padişah hakkında ileri geri konuştu; rakibi Nevşehirli İbrahim Paşa bunu kullandı. 1717'de Selanik muhafızlığına gönderildi; ardından Kavala Kalesi'ne hapsedildi, mallarına el konuldu ve TDV'ye göre 1717 Mart'ı başlarında idam edildi. Yasa 1 (Ustanı asla gölgede bırakma) ve Yasa 4 (Her zaman gerekenden az konuş) tam da bunu anlatır.
+
+**Eleştiri ve sınırlar.** Özgünlüğü sınırlıdır: Âsafnâme'den nakiller ve geleneksel ahlak kitaplarından alınmış bölümler vardır. Çözümü yine "Kanuni dönemine dönüş"tür; Avrupa'daki askerî ve malî değişimi görmez. Wright çevirisi bir İngiliz dergisinde "Türkiye'nin ölü geçmişi" başlığıyla tanıtılmıştı; metin bugün reform programı olarak değil, dönemin tanıklığı olarak okunur. Ahlak öğütleriyle yazarın kendi hırslı sonu arasındaki çelişki de dikkat çekicidir.
+
+**Kimler okumalı.** Gücün para ve kayıt tutma yanını merak edenler; Greene'de pek bulunmayan "hazineyi yöneten devleti yönetir" bakışını burada bulurlar. Âsafnâme ile art arda okunursa iki yüzyıllık süreklilik görülür.

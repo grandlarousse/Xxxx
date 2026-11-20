@@ -1,0 +1,23 @@
+## Curzio Malaparte — Hükümet Devirme Tekniği (Technique du coup d'État, 1931)
+
+**Künye.** Curzio Malaparte (asıl adı Kurt Erich Suckert, 1898–1957) İtalyan gazeteci, yazar ve diplomattır; 1920'lerde faşizmi desteklemiş, sonra partiyle arası açılmış biri olarak yazar. Kitap ilk kez 1931'de Paris'te, Grasset yayınevinde Fransızca çıktı (çeviren Juliette Bertrand); İtalyancası "Tecnica del colpo di Stato" ancak 1948'de yayımlandı. Türkçesi: "Hükümet Devirme Tekniği", çeviren Nihal Önol, 188 sayfa; yayınevi doğrulanmadı. "Darbe Tekniği" adlı bir baskı bulunamadı. Fransızca ilk baskı yaklaşık 290 sayfadır.
+
+**Bir cümleyle.** Devleti ele geçirmek de savunmak da siyasal değil teknik bir sorundur: sonucu kitlelerin desteği değil, devletin sinir merkezlerini kimin tuttuğu belirler.
+
+**Bağlam.** Malaparte kitabı, Faşist Parti ile arası bozulduktan sonra Paris'te yazdı. Avrupa, 1917 Ekim Devrimi'nden beri art arda darbeler görmüştü; Almanya'da Hitler yükseliyordu. Kitap görünüşte liberal hükümetlere bir uyarıdır: devleti polis önlemleriyle koruyamazsınız. Ama aynı sayfalar darbecinin el kitabı gibi de okunabildi; tartışma buradan çıktı.
+
+**Yapısı.** Kitap, her biri bir olayı inceleyen sekiz bölümden oluşur (Hitler bölümü sekizinci bölümdür; öbür bölümlerin sırası doğrulanmadı). Konular: Troçki ve Lenin'le 1917 Ekim Devrimi, Stalin'in Troçki'ye karşı devleti savunması, 1920'de Varşova, Almanya'da Kapp darbesi, modern darbenin mucidi olarak Bonaparte, İspanya'da Primo de Rivera ile Polonya'da Piłsudski, Mussolini'nin Roma Yürüyüşü ve Hitler.
+
+**Ana fikirler.**
+- **Strateji Lenin'in, taktik Troçki'nin.** Malaparte'ye göre Lenin devrimin genel planını düşündü, ama iktidarı alan Troçki'nin tekniğiydi. Küçük, eğitimli bir ekip kitle ayaklanmasını beklemeden telefon santralini, elektrik santralini, garları ve su depolarını ele geçirir. Hükümet binaları en sona kalır; çünkü devletin gücü orada değil, işleyen teknik ağdadır.
+- **Kerenski'nin hatası.** Devleti savunanlar genellikle sarayları ve bakanlıkları korur, yani polis mantığıyla düşünür. Malaparte buna karşı çıkar: tekniğe karşı ancak teknikle savunma yapılır. Stalin bunu kavradığı için Troçki'nin 1927'deki girişimini boşa çıkarmıştır.
+- **Genel grev bir savunma silahıdır.** 1920'deki Kapp darbesinde askerler Berlin'i aldı, ama işçilerin genel grevi ülkeyi durdurunca darbe birkaç günde çöktü. Malaparte bundan şu dersi çıkarır: darbeci önce örgütlü işçiyi etkisiz kılmak zorundadır. Mussolini'nin Roma Yürüyüşü'nden önce sendikaları ezmesini bu gözle okur.
+- **Bonaparte'ın mirası.** 18 Brumaire (1799) modern darbenin ilk örneğidir: darbeyi yasal bir kılıfa, meclis kararına sığdırma çabası. Malaparte'ye göre Primo de Rivera ve Piłsudski gibi generaller bu modeli taklit etti; yasallık kaygısı darbeciyi hem korur hem yavaşlatır.
+- **Hitler: taklitçi.** Son bölümün adı "Bir Kadın: Hitler"dir. Malaparte onu Mussolini'nin soluk bir kopyası, gerici ve kararsız biri olarak çizer; iktidarı darbeyle değil seçim ve pazarlıkla arayacağını söyler.
+- **Özgürlüğü savunmanın araçları.** Türkçe baskının tanıtımındaki cümle kitabın savunma yüzünü özetler: "Hürriyeti yoketmek için her çareye başvurmak nasıl mubahsa, onu savunmak için de her çareye başvurmak mubahtır."
+
+**İktidar'la ilişkisi.** Malaparte, Greene'in kaynakçasında görünmüyor; alıntılayıp alıntılamadığı doğrulanmadı. Yine de örtüşme açıktır. 23. yasa (Güçlerini yoğunlaştır): bütün güç birkaç düğüm noktasına yığılır. 29. yasa (Sonuna kadar planla) ve 28. yasa (İşe cesaretle gir): Troçki'nin provaları ve kararlılığı. 35. yasa (Zamanlama sanatında ustalaş) da buraya girer. Ayrışma şurada: Greene gücü kişiler arası bir oyun, karakter ve ikna işi olarak anlatır. Malaparte'de karizma ve söz ikinci plandadır; belirleyici olan altyapıdır. Ayrıca kitabın yarısı gücü alana değil, savunana seslenir.
+
+**Eleştiri ve sınırlar.** Troçki kitabı okudu ve kendisine atfedilen kuramı saçma buldu; tarihçilere göre Ekim Devrimi'ni salt teknik bir operasyona indirgemek siyasal zemini görmezden gelir. Malaparte anlatıyı süsleyen, kendini olayların tanığı gibi gösteren bir yazardır; ayrıntılarına güven sınırlıdır. Hitler'i hafife alması tarihin yalanladığı bir öngörüdür (iktidara yasal yoldan geleceği kısmı ise tuttu). Kitap İtalya'da yasaklandı, Almanya'da Nazi döneminde yakıldı; yazar 1933'te partiden atılıp Lipari adasına sürüldü. Sürgünün asıl nedeninin bu kitap olup olmadığı tartışmalıdır (doğrulanmadı). Santral ve telgraf çağının tekniği bugün aynen geçerli değildir.
+
+**Kimler okumalı.** İktidar'ın saray entrikalarından sonra gücün "donanım" yüzünü görmek isteyenler. Greene'in az değindiği soruyu sorar: devlet denen makine tam olarak nereden tutulur?

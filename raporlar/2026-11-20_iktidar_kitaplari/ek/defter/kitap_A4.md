@@ -1,0 +1,34 @@
+# İddia defteri — kitap_A4 (Çin strateji ve yönetim klasikleri)
+
+iddia | kaynak URL | birebir kısa alıntı ya da sayı | güven
+
+1. Sunzi: 13 bölüm; geleneksel yazar Sun Tzu, MÖ 5. yy | https://en.wikipedia.org/wiki/The_Art_of_War | "The Art of War is divided into thirteen chapters (or piān)" | yüksek
+2. Sunzi: metnin MÖ 500–430 arasında tamamlandığı yaygın kabul | https://en.wikipedia.org/wiki/The_Art_of_War | "generally accepted that the earlier The Art of War was completed sometime between 500 and 430 BC" | orta
+3. Sunzi: 1972 Yinqueshan bambu şeritleri; mezarlar MÖ 134–118 arası kapatılmış; Sunzi ve Sun Bin ayrı metinler | https://en.wikipedia.org/wiki/The_Art_of_War | "In 1972, the Yinqueshan Han slips were discovered in two Han dynasty ... tombs near the city of Linyi" | yüksek
+4. Sunzi: 12. yy'dan beri yazarın tarihselliği sorgulanır (Zuo zhuan'da adı yok); Liang Qichao Sun Bin'e bağladı | https://en.wikipedia.org/wiki/The_Art_of_War | "Beginning around the 12th century, Chinese scholars began to question Sun Tzu's historical existence" | yüksek
+5. Sunzi Türkçe: İş Bankası Kültür Yayınları, çev. Pulat Otkan ve Giray Fidan, Çince aslından | https://www.idefix.com/savas-sanati-p-213161 (arama özeti) | "Pulat Otkan ve Giray Fidan ... Çince aslından" (özet); 15. basım 2018 (dergipark tanıtımı) | yüksek
+6. Sunzi Türkçe: Remzi Kitabevi, çev. Pınar Erturan, 2016 | https://www.remzi.com.tr/files/books/3073/dosya/savas-sanati-on-izleme.pdf (arama özeti) | "Türkçesi Pınar Erturan" | orta
+7. Sunzi: bölüm adları (Laying Plans, Waging War, Attack by Stratagem ... Attack by Fire, Use of Spies) | https://en.wikipedia.org/wiki/The_Art_of_War | "Waging War ( 作戰 ; zuòzhàn )" | yüksek
+8. Sunzi: özgün alıntılar (兵者詭道也; 知彼知己百戰不殆; 不戰而屈人之兵善之善者也), ilk şerh Cao Cao, İş Bankası ilk baskı 2014, 18. yy Cizvit çevirisi | kaynak: bellekten, doğrulanmadı | — | orta
+9. 36 Strateji: ad Güney Qi tarihinde Wang Jingze biyografisinden gelir | https://en.wikipedia.org/wiki/Thirty-Six_Stratagems | "The name of the collection comes from the Book of Qi's seventh biographical volume, Biography of Wang Jingze" | yüksek
+10. 36 Strateji: el yazması Shaanxi'de bulundu, 1941'de basıldı; yazar ve tarih bilinmiyor | https://en.wikipedia.org/wiki/Thirty-Six_Stratagems | "discovered in China's Shaanxi province, of an unknown date and author, and put into print by a local publisher in 1941" | orta
+11. 36 Strateji: 16 Eylül 1961 Guangming Daily tanıtımıyla yaygınlaştı | https://en.wikipedia.org/wiki/Thirty-Six_Stratagems | "Guangming Daily newspaper on September 16, 1961" | yüksek
+12. 36 Strateji: önsöz + 6 bölüm × 6 hile + eksik sonsöz; ilk üç bölüm üstün, son üç zor durum için | https://en.wikipedia.org/wiki/Thirty-Six_Stratagems | "a preface, six chapters containing six stratagems each, and an incomplete afterword" | yüksek
+13. 36 Strateji: 36 hilenin adları ve sırası (1, 2, 15, 16 sayfada görüldü; kalanı bellekten) | https://en.wikipedia.org/wiki/Thirty-Six_Stratagems | "Deceive the heavens to cross the sea ( 瞞天過海 )" | orta
+14. 36 Strateji Türkçe: doğrudan çeviri bulunamadı; Hiroshi Moriya, Savaş Sanatlarında 36 Gizli Strateji, Kırmızı Kedi, 2014 (çevirmen yok) | https://www.nadirkitap.com/savas-sanatlarinda-36-gizli-strateji-savasta-is-dunyasinda-ve-yasamda-basari-icin-hiroshi-moriya-kitap48391324.html (arama özeti) | "Kırmızı Kedi Yayınevi, 2014" | orta
+15. von Senger, The Book of Stratagems: Viking, Aralık 1991; 18 hileyi işler; Almanca Strategeme'nin çevirisi | https://www.kirkusreviews.com/book-reviews/harro-von-senger-2/the-book-of-stratagems-tactics-for-triumph-and-/ | "RELEASE DATE: Dec. 1, 1991" | yüksek
+16. von Senger Strategeme'nin Almanca ilk yılı 1988; hilelerin Yijing'e bağlanması; boş şehir–Zhuge Liang | kaynak: bellekten, doğrulanmadı | — | orta
+17. Han Feizi: 55 bölüm; çoğu MÖ 3. yy ortası; Dao De Jing'in ilk şerhlerini içerir | https://en.wikipedia.org/wiki/Han_Feizi | "Its 55 chapters, most of which date to the Warring States period mid-3rd century BCE" | yüksek
+18. Han Fei: y. MÖ 280–233; Qin'de zehir içerek öldü; Li Si'nin rolü | https://en.wikipedia.org/wiki/Han_Fei | "Died 233 BC ... Suicide by drinking poison"; arama özeti: "convinced by Li Si to commit suicide by taking poison" | yüksek
+19. Han Feizi: "iki sap" = ödül ve ceza; hükümdar kendi katkısını en aza indirir | https://en.wikipedia.org/wiki/Han_Feizi | "systematic reward and penalty (the 'two handles')" | yüksek
+20. Han Feizi: 5. bölüm "Hükümdarın Yolu" (Zhudao), Laozi ve Shen Buhai etkisi | https://en.wikipedia.org/wiki/Han_Feizi | "chapter 5 Zhudao ... or \"Way of the Ruler\" recalls Laozi" | yüksek
+21. Han Feizi Türkçe: Hükmetme Sanatı — Seçilmiş Yazılar, İletişim, çev. Mehmet Ali Ağaoğulları, Mayıs 2024, 224 s., ISBN 9789750536564 | https://iletisim.com.tr/kitap/hukmetme-sanati/10597 (arama özeti) | "224 sayfa"; "Çeviri Mehmet Ali Ağaoğulları" | yüksek
+22. Han Feizi: diğer bölüm adları ve numaraları, Beş Haşere'nin beş zümresi, kütük-tavşan, şapka görevlisi, ters pullar, Sima Qian'daki Qin kralı anlatısı, Xunzi öğrenciliği, 1. bölümün yazarlık tartışması | kaynak: bellekten, doğrulanmadı | — | orta
+23. Li Zongwu: 3 Şubat 1879 – 28 Eylül 1943; Fushun Ziliujing (Zigong); Tongmenghui; okul müdürü, müfettiş | https://zh.wikipedia.org/wiki/李宗吾 | "1879年2月3日—1943年9月28日" | yüksek
+24. Li Zongwu: yazı 1912'de "Duzun" takma adıyla | https://zh.wikipedia.org/wiki/李宗吾 | "於1912年憤世寫出〈厚黑學〉一文，並冠以「獨尊」之筆名" | yüksek
+25. Tarih çelişkisi: İng. Wikipedia 1911, Çince kitap maddesi 1917 | https://en.wikipedia.org/wiki/Thick_Black_Theory ; https://zh.wikipedia.org/wiki/厚黑學 | "published in China in 1911"; "李宗吾于1917年所著书籍" | yüksek
+26. Hou hei xue: ilk sürüm üç bölüm (厚黑學, 厚黑經, 厚黑傳習錄); sonradan ekler; üçüncü aşama formülü; geç dönem kamu yararı ölçütü | https://zh.wikipedia.org/wiki/厚黑學 | "臉皮要厚而无形，心要黑而无色"; "上卷《厚黑學》、中卷《厚黑經》、下卷《厚黑傳習錄》" | yüksek
+27. Li: Cao Cao kara yürek, Liu Bei kalın yüz; "gizlemek kalın, dayatmak kara" formülü | https://en.wikipedia.org/wiki/Thick_Black_Theory | "When you conceal your will from others, that is Thick. When you impose your will on others, that is Black" | yüksek
+28. Chu: Thick Face, Black Heart, AMC Publishing, Temmuz 1992; Nicholas Brealey 1995, 380 s.; Türkçe baskı bulunamadı | https://en.wikipedia.org/wiki/Thick_Black_Theory (arama özeti dahil) | "Nicholas Brealey Publishing (April 30, 1995) ... 380 pages" | orta
+29. Li: ilk iki aşamanın ifadesi, altı sözcük listeleri, oku kesme/tencere yamama, Xiang Yu–Liu Bang–Han Xin ayrıntıları; Chu'nun yaşamı ve kitabının bölümleri | kaynak: bellekten, doğrulanmadı (gazete adı "Public Opinion Daily" yalnızca bir arama özetinde) | — | orta
+30. Greene bağlantısı: Sun Tzu (Cleary), Han Feizi, von Senger kaynakçada (görev tanımındaki liste); Li Zongwu ve Chu listede yok; kenar notu alıntıları görülmedi | kaynak: görev tanımı; alıntılar doğrulanmadı | — | orta
