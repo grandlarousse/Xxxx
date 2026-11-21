@@ -20,13 +20,18 @@ rows = []
 for y in range(2005, 2021):
     s = B(open(os.path.join(D, f"h{y}.htm")).read(), "lxml")
     for h in s.find_all("h5"):
-        bas = h.get_text(" ", strip=True)
-        m = re.match(r"([A-Z][a-z]+) (\d+)(?:-([A-Z][a-z]+)? ?(\d+))?", bas)
-        if not m: continue
+        bas = re.sub(r"\s+", " ", h.get_text(" ", strip=True))
         par = h.find_parent("div", class_="panel"); t = par.get_text(" ", strip=True) if par else ""
-        ay2 = AY[m.group(3)] if m.group(3) else AY[m.group(1)]
-        gun2 = int(m.group(4) or m.group(2))
-        rows.append(dict(baslik=bas, karar_gunu=pd.Timestamp(y, ay2, gun2), ilk_gun=pd.Timestamp(y, AY[m.group(1)], int(m.group(2))),
+        ms = re.match(r"([A-Z][a-z]+)/([A-Z][a-z]+) (\d+)-(\d+)", bas)      # "Jan/Feb 31-1", "April/May 30-1"
+        if ms:
+            a1, g1, a2, gun2 = KISA[ms.group(1)[:3]], int(ms.group(3)), KISA[ms.group(2)[:3]], int(ms.group(4))
+        else:
+            m = re.match(r"([A-Z][a-z]+) (\d+)(?:-([A-Z][a-z]+)? ?(\d+))?", bas)
+            if not m: print("ESLESMEDI", bas); continue
+            a1, g1 = AY[m.group(1)], int(m.group(2))
+            a2 = AY[m.group(3)] if m.group(3) else a1
+            gun2 = int(m.group(4) or m.group(2))
+        rows.append(dict(baslik=bas, karar_gunu=pd.Timestamp(y, a2, gun2), ilk_gun=pd.Timestamp(y, a1, g1),
                          tur=tur_bul(bas), basin_toplantisi="Press Conference" in t, aciklama_var="Statement" in t,
                          kaynak=f"https://www.federalreserve.gov/monetarypolicy/fomchistorical{y}.htm"))
 # 2021-2027 guncel takvim
