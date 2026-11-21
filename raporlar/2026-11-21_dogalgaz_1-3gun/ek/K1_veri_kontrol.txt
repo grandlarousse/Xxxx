@@ -1,0 +1,12 @@
+NG=F-UNG |fark|>%6 gun: 60 ; ayin 27-30u: 49 -> NG=F sinyal olarak kullanilmadi
+BOIL |r|>%60: 0 KOLD |r|>%60: 0 -> atilan gun 0
+BOIL-2xUNG basit |sapma|>%5 gun: 35 KOLD+2xUNG: 36 (atilmadi; denetim m.6)
+BOIL hacim 0 gun: 83 KOLD: 4 (fiyat korundu)
+UNG acilis=kapanis & H=L (acilis gecersiz) gun: 0
+TTF hacim 0 gun: 469 ; X1 baslangic: 2019-01-25
+UNL gecersiz gun (kapanis degismedi ya da hacim 0): 142
+NEXT hacim 0 gun: 335 ; CRK |r|>%25: 19
+G4 saatlik gun (14:30 ve 15:30 bari var): 723 ilk 2023-12-26
+EIA gunu: Persembe varsayimi (Persembe tatilse ayni haftanin Carsambasi); gercek EIA takvimi kullanilmadi. EIA gun sayisi: 1023
+Sepet uye-gun sayisi ort.: 4.86 ; gaz sepeti ilk gun: 2007-06-14
+Toplam sinyal hucresi: 416 ; BH sayimina giren IS testi: 398 ; kesif (G4): 18

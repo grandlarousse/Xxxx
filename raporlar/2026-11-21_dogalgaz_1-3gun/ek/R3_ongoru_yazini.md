@@ -1,55 +1,60 @@
-araç: 19/35
+araç: 26/35
 
-ÖZET (R3, doğalgaz kısa vade öngörülebilirliği)
-- Ana bulgu: EIA depolama duyurusu günleri anormal getiri taşıyor. Prokopczuk, Simen, Wichmann (Energy Journal 2021): yıllık getirinin yarıdan fazlası haftalık duyuru günlerinde kazanılıyor; fark sürprizle açıklanmıyor; gün içi getirinin yarısı duyuru öncesi, yarısı sonrası; maliyet ve fonlama sonrası basit strateji "önemli getiri" veriyor (özetten; bps, t ve örneklem dönemi görülmedi).
-- Sürpriz tepkisi yön olarak net: gerçekleşen eksi beklenen depolama değişimi ile vadeli getiri ters ilişkili (Chiou-Wei, Linn, Zhu 2014). Çalışma-kâğıdı sürümüne göre 2005 sonrası (ABD üretim artışı) tepki güçlenmiş (kesim noktası kaynakta kesik, kesin değil). Tepki dakikalar-saatler içinde gerçekleşiyor; 1-3 gün taşıyan biri için rapor günü hareketi çoğunlukla gün içi, kapanışta alan kişi için kalan kısım belirsiz.
-- Duyuru öncesi kayma: Gu ve Kurov 2018 (JFM): doğalgaz vadelisi duyurudan yaklaşık 90 dk önce ayarlanmaya başlıyor; yüksek doğruluklu analist medyanı ile konsensüs farkı sürprizi öngörüyor, bu sinyalle strateji Sharpe 1.26 (örneklem ve maliyet görülmedi). Bu gün içi bir etki, kapanış-sonrası girişe uymaz.
-- Cuma etkisi: Gu, Kurov, Stan (JFM, 2025 taslak/yayın): Cuma yayımlanan depolama raporlarına tepki Perşembeye göre %74 daha zayıf; dikkat dağınıklığı fiyat ayarlamasını geciktiriyor. Gecikmiş ayarlama teorik olarak sürüklenme (drift) fırsatı ima eder ama ben bunun işlenebilirliğine dair test görmedim. Not: Cuma raporları yalnızca tatil haftalarında olur, nadirdir.
-- Pasif/kaldıraçlı fonlar: Todorov (BIS WP 952, Review of Finance 2024): VIX ve emtia ETF'lerinde kaldıraç yeniden dengelemesi fiyat çarpıtması yaratıyor; karşı taraf olmak riskli. Doğalgaza özel sayı ve işlenebilir yön özetlerde görülmedi. USO vade geçişi (Bessembinder ve diğerleri, JFE 2016): sistematik yırtıcı işlem kanıtı yok, geçiş günlerinde likidite artıyor (ham petrol, 2008-09). Mou: Goldman roll front-running kârı (endeks yatırımcısı yıllık %3.6 kaybetmiş), yani vade geçişi etkisi vardı ama arbitraj kapasitesiyle azalıyor; doğalgaz ve güncel dönem için doğrulanmadı. BOIL/KOLD günlük sıfırlama ve roll bozunumu yüksek; vade geçişi 6. iş gününden itibaren 5 günde.
-- Taşıma/stok: Gorton, Hayashi, Rouwenhorst (RoF 2013): düşük stoklu emtialar daha yüksek getiri; yön-ufku aylık, 1-3 gün için doğrudan kanıt yok. Aynı çalışma: vadeli piyasa pozisyonları risk primini öngörmüyor (COT zayıf bir sinyal adayı).
-- Momentum/gün içi: Gao ve diğerleri (JFE 2018) S&P 500 ETF'de ilk yarım saat-son yarım saat öngörüsü; doğalgaz için doğrudan test bulamadım. Aykırı kanıt: teknik kurallar ABD vadelilerinde veri avcılığı düzeltmesi sonrası çoğunlukla kârsız; doğalgaza özel sonuçlar karışık.
-- Uygulanabilirlik (kapanışta gir, 1-3 gün taşı): rapor günü sürpriz tepkisi ve duyuru öncesi kayma gün içi; ancak "Perşembe duyuru günü yıllık getirinin >%50'si" gerçeği, Çarşamba kapanışında uzun durum taşımanın (ve sürprizin yönüne dair analist farkı sinyalinin) test edilebilir adayı olduğunu gösteriyor. Hava revizyonu süreklilği, haftanın günü, COT, implied vol/VRP için 1-3 gün ufkunda hakemli kanıt bulamadım; kendi backtest'i gerekir.
+ÖZET (R3 — doğalgaz vadelisinin kısa vadeli öngörülebilirliği)
+
+Sınırlama: ssrn, sciencedirect, Reading PDF engelliydi. Bulguların çoğu özet sayfası ve arama özetinden; tam metin okunmadı. bps/t değerleri bu yüzden çoğunlukla eksik, uydurulmadı.
+
+1) EIA depolama raporu en sağlam kanıt. Prokopczuk, Wese Simen, Wichmann (Energy Journal 42(2), 2021): yıllık getirinin %50'sinden fazlası rapor günlerinde oluşuyor; fark sürpriz ve kontrol değişkenleriyle açıklanmıyor. Gün içi getiri rapor öncesi ve sonrası yarı yarıya bölünüyor. Maliyet sonrası basit bir gün içi strateji "önemli getiri" veriyor (arama özeti: rapordan 90 dk önce short, 30 dk sonra kapat, yıllık ~%12; bu rakam ikincil özetten, doğrulanmadı). Aynı kaynak anomalinin zamanla zayıfladığını söylüyor. Bu strateji gün içi; kapanışta girip 1-3 gün taşıyan için doğrudan uygulanamaz.
+2) Sürpriz tepkisi: fiyat, depolama sürprizine ters yönde tepki veriyor (Chiou-Wei, Linn, Zhu 2014); 2005 sonrası tepki büyümüş. Linn-Zhu 2004: rapor anında aşırı oynaklık (1999-2002). Halova-Kurov-Kucher 2014: ölçüm hatası düzeltilince tepki OLS'ten çok daha büyük. Bunlar rapor anı tepkisi; sonraki günlere sürüklenme kanıtı bulunmadı. Ederington ve ark. (2019) özet: sürprizin bir kısmı ertesi hafta geri dönüyor olabilir (doğrulanmadı).
+3) Gu-Kurov-Stan: Cuma açıklanan raporlara tepki Perşembeye göre %74 zayıf (dikkat azlığı); Cuma öncesi sürüklenme güçlü değil. Bayram haftalarında rapor günü kayıyor, takvimi kontrol et.
+4) Todorov (Review of Finance 2024): kaldıraç yeniden dengelemesi en büyük ETF fiyat etkisi; ana sonuç VIX için (EFG işaretiyle Sharpe 1.78). Doğalgaz sonucu tam metinde görülmedi. UNG/BOIL/KOLD için akademik gün sonu dönüş çalışması bulunamadı.
+5) Hava revizyonu, COT, taşıma/eğri, kısa momentum, takvim: doğalgaz-spesifik, maliyet sonrası, örneklem dışı güvenilir bir kanıt bulunamadı. Hava şoku ortalamayı ve oynaklığı etkiliyor ama bu aynı günün tepkisi; revizyon sürekliliği testi yok. Gün-haftası: Cogent 2023 (zayıf yayın) Pazartesi/Salı pozitif, Perşembe negatif diyor.
+6) Oynaklık risk primi: Trolle-Schwartz doğalgaz varyans short Sharpe 0.35 (zayıf); işaret literatürde çelişkili.
+7) Aykırı kanıt: Park-Irwin veri-kazıma düzeltmeli testte 17 vadelinin yalnız 2'sinde teknik kural anlamlı; doğalgaz için doğrudan test bulunamadı.
+
+Uygulanabilirlik (kapanışta gir, 1-3 gün taşı): kanıtlanmış etkilerin hemen hepsi gün içi veya rapor anı; ertesi güne taşınan, maliyet sonrası kanıtlı bir etki bulunamadı. Rapor günü getiri yoğunlaşması (1) "rapor gününü taşıma" fikrini destekleyebilir ama çıkış tarafı ve zayıflama belirsiz; kendi verinle sınanmalı.
 
 İDDİA DEFTERİ
-iddia | kaynak URL | birebir kısa alıntı ya da sayı | güven
-1. Yıllık getirinin >%50'si EIA duyuru günlerinde | https://ideas.repec.org/a/sae/enejou/v42y2021i2p91-112.html | "More than 50% of the annual return is earned on these days." | orta (arama/özet aracı aktarımı)
-2. Duyuru-gün/diğer gün farkı anlamlı, sürprizle açıklanmıyor | https://papers.ssrn.com/author=3575861 (arama özeti) ve ideas.repec yukarıdaki | "We find a significant difference between announcement and non-announcement day returns" | orta
-3. Gün içi getirinin yarısı duyuru öncesi, yarısı sonrası | https://ideas.repec.org/a/sae/enejou/v42y2021i2p91-112.html | "the return splits half into a pre- and post-announcement part" | orta
-4. Öncesi getiri yalnız stok beklentiyi aştığında; bilgili işlem açıklaması şüpheli | aynı | pre-announcement return only when storage exceeds analyst expectations (özet aktarımı) | orta
-5. Maliyet ve fonlama sonrası basit strateji getiri veriyor | aynı | "substantial returns" (özet aktarımı; büyüklük görülmedi) | düşük-orta
-6. Künye: Energy Journal 42(2), 91-112, 2021 | aynı | DOI 10.5547/01956574.42.2.mpro | yüksek
-7. Sürpriz ile vadeli getiri ters ilişkili; vadeli önce tepki verir, spot sonra | https://econpapers.repec.org/RePEc:eee:jimfin:v:42:y:2014:i:c:p:156-173 | inverse relation between futures price changes and storage-change surprises (arama özeti) | orta
-8. 2005 sonrası tepki güçlenmiş (taslak sürümü; kesim kesik) | https://www.econbiz.de/Record/the-response-natural-gas-futures-and-spot-prices-storage-change-surprises-fundamental-information-and-the-effect-escalating-physical-gas-production/10011048440 | "post 2005 ... response of prices to storage surprises became more pronounced" (arama özeti, kesik) | düşük
-9. Künye: Chiou-Wei, Linn, Zhu, J. Int. Money Finance 42, 156-173, 2014 | econpapers yukarıdaki | cilt 42, s.156-173 | yüksek
-10. Halova, Kurov, Kucher: "Noisy Inventory Announcements and Energy Prices" JFM 34(10) 911-933, 2014; ölçüm hatası önyargı yaratıyor | https://ideas.repec.org/a/wly/jfutmk/v34y2014i10p911-933.html | "measurement error in inventory data" (arama özeti); görevdeki başlık düzeltildi | orta
-11. Gay, Simkins, Turac JFM 29(5) 451-477, 2009: piyasa konsensüsün ötesine bakıp analistleri geçmiş doğruluğa göre ağırlıklıyor | https://ideas.repec.org/a/wly/jfutmk/v29y2009i5p451-477.html | "differential emphasis on the individual forecasts of analysts" (arama özeti) | orta
-12. Duyuru öncesi sürüklenme ~90 dk; analist medyan-konsensüs farkı sürprizi öngörüyor; Sharpe 1.26 | https://ideas.repec.org:443/a/wly/jfutmk/v38y2018i9p1079-1096.html | "annualized Sharpe ratio of 1.26" (özet aktarımı); 90 dk: arama özeti | orta
-13. Cuma duyurularına tepki %74 daha zayıf | https://business.ucdenver.edu/jpmorgancenter/content/trader-attention-and-market-reaction-fundamental-news-evidence-natural-gas-futures | "74% weaker" (arama özeti); durum: JFM yayını (Minnesota/MetaTOC listesi) | orta
-14. Todorov: ETF'ler VIX/emtia fiyatlarında baskı; kaldıraç yeniden dengelemesi en büyük etki | https://ideas.repec.org/a/oup/revfin/v28y2024i3p831-863..html | leverage rebalancing largest effect (özet aktarımı) | orta
-15. Todorov künye: BIS WP 952 (2021), Review of Finance 28(3) 831-863 (2024); başlık "When passive funds affect prices" | aynı | revfin v28 i3 p831-863 | yüksek
-16. USO roll: yırtıcı işlem kanıtı yok, roll günlerinde likidite fazla (Mar 2008-Şub 2009, 12 roll) | https://econpapers.repec.org/RePEc:eee:jfinec:v:121:y:2016:i:1:p:142-166 | "do not find evidence of the systematic use of predatory strategies" (arama özeti) | orta
-17. Mou: Goldman roll front-running; yatırımcı yıllık %3.6 kaybetti | https://papers.ssrn.com/abstract=1716841 | "3.6% annual return" (arama özeti) | orta
-18. BOIL/KOLD: günlük 2x, roll 6. iş gününden itibaren 5 gün, %20/gün | https://www.proshares.com/our-etfs/leveraged-and-inverse/boil | "rolls ... over the course of 5 consecutive business days" (arama özeti) | orta
-19. Düşük stoklu portföyler daha yüksek getiri; pozisyonlar risk primini öngörmüyor | https://nber.org/papers/w13249 | "positions of participants in futures markets do not predict risk premiums" (arama özeti) | orta
-20. Künye: Gorton-Hayashi-Rouwenhorst RoF 17(1) 35-105, 2013, 31 emtia, 1971-2010 | https://econpapers.repec.org/RePEc:oup:revfin:v:17:y:2013:i:1:p:35-105 | 31 commodity futures, 1971-2010 | yüksek
-21. Gao ve diğerleri JFE 129(2) 394-414, 2018: S&P 500 ETF'de ilk yarım saat son yarım saati öngörüyor | https://econpapers.repec.org/RePEc:eee:jfinec:v:129:y:2018:i:2:p:394-414 | "first half-hour return ... predicts the last half-hour return" (arama özeti) | orta
-22. Lubnau-Todorova, Energy Economics 51 (2015): önde ve ikinci vade takvim spread'leri, Bollinger, maliyet dahil, Sharpe >2, 1992-2013 | https://ideas.repec.org/a/eee/eneeco/v51y2015icp312-319.html | "serious doubt whether energy futures markets can be considered weakly efficient in the short-term" | orta-yüksek
-23. AYKIRI: teknik kurallar ABD vadelilerinde veri avcılığı düzeltmesi sonrası 17 sözleşmenin yalnız 2'sinde anlamlı (1985-2004) | https://ageconsearch.umn.edu/record/19039/files/cp05pa01.pdf (arama özetinden; kaynak/yazar doğrulanmadı) | "two of 17 futures contracts" (arama özeti) | düşük
-24. Doğalgaz VRP: Trolle-Schwartz ortalama VRP anlamlı negatif; doğalgaz varyansı kışın zirve | https://infoscience.epfl.ch/record/148475?ln=en | "significantly negative for both energy commodities" (arama özeti) | orta
-25. Ruan-Zhang Energy Econ 81 (2019): VRP günlük ve haftalık enerji getirilerini öngörebilir; doğalgazda basıklık farkı | https://econpapers.repec.org/RePEc:eee:eneeco:v:81:y:2019:i:c:p:598-609 | kurtosis spread predictor (arama özeti) | düşük-orta
-26. Hava tahmini riski primi: Caselli, Gandolfi ve diğerleri, 1. ve 2. vadede uzun/kısa işlem, olay tarihleri çevresinde | https://iris.unibocconi.it/retrieve/80f68941-b412-43f3-992a-2a2a701b0398/Caselli%20Gandolfi%20et%20al.pdf | forecast error rises with horizon (arama özeti; net sonuç görülmedi) | düşük
-27. COT: doğalgaz için hakemli öngörü testi bulunamadı; yalnız broker/ticaret yorumu | https://www.home.saxo/en-gb/content/articles/commodities/natural-gas-the-exception-as-commodities-retreat-19112018 | pozisyon fiyatla eşzamanlı hareket (arama özeti) | düşük
-28. Linn ve Zhu 2004 (JFM 24(3) 283-313): depolama duyurusu önemli volatilite yaratıyor | https://ideas.repec.org/a/wly/jfutmk/v24y2004i3p283-313.html | considerable volatility at release (arama özeti) | orta
+iddia | kaynak URL | alıntı/sayı | güven
+Prokopczuk-Wese Simen-Wichmann, Energy Journal 42(2) 91-112, 2021 | https://ideas.repec.org/a/sae/enejou/v42y2021i2p91-112.html | "More than 50% of the annual return is earned on these days." | yüksek
+Fark sürpriz ve kontrollerle açıklanmıyor | https://ideas.repec.org/a/sae/enejou/v42y2021i2p91-112.html | arama özeti: gap unexplained by surprise and controls | orta
+Gün içi getiri öncesi/sonrası yarı yarıya | https://ideas.repec.org/a/sae/enejou/v42y2021i2p91-112.html | "the return splits half into a pre- and post-announcement part." | yüksek
+Maliyet sonrası strateji getirisi | https://ideas.repec.org/a/sae/enejou/v42y2021i2p91-112.html | "After transaction and funding cost, a simple trading strategy yields substantial returns." | yüksek
+~%12 yıllık, 90 dk önce short/30 dk sonra kapat | https://centaur.reading.ac.uk/90003 (arama özeti; PDF engelli) | arama özeti: "roughly 12% annual" | düşük
+Anomali zamanla zayıflamış | https://centaur.reading.ac.uk/90003 (arama özeti) | arama özeti: anomaly "has decreased in magnitude" | düşük
+Ters yönlü tepki; 2005 sonrası büyük | https://econpapers.repec.org/RePEc:eee:jimfin:v:42:y:2014:i:c:p:156-173 | arama özeti: post 2005 response larger in absolute value | orta
+Linn-Zhu 2004, JFM 24(3) 283-313 | https://econpapers.repec.org/RePEc:wly:jfutmk:v:24:y:2004:i:3:p:283-313 | arama özeti: volatility considerable at release, 1999-2002 sample | orta
+Halova-Kurov-Kucher JFM 34(10) 911-933, 2014 | https://econpapers.repec.org/RePEc:wly:jfutmk:v:34:y:2014:i:10:p:911-933 | arama özeti: OLS bias "quite large" (Rigobon-Sack) | orta
+HKK çalışma kâğıdı: ~%10 düşüş, %1 stok şokunda | https://www.skidmore.edu/economics/documents/NoisyInventoryAnnouncementsAndEnergyPrices.pdf | arama özeti: "almost 10%" (Haz 2013 taslağı) | düşük
+Simkins-Turac, JFM 29(5) 451-477, 2009: Analist tahminleri fiyat keşfine katkı | https://ideas.repec.org/a/wly/jfutmk/v29y2009i5p451-477.html | "significantly in the price discovery" (1997-2004) | orta
+Künye düzeltme: "Gay, Simkins, Turac 2009" JFM'de, başlık "Analyst forecasts and price discovery in futures markets: The case of natural gas storage" | aynı URL | JFM 29(5); yazar listesi görülmedi | orta
+Ederington-Lin-Linn-Yang, Energy Journal 40(5) 2019: tahmin sürprizine rapor öncesi tepki | https://ideas.repec.org/a/sae/enejou/v40y2019i5p121-142.html | arama özeti: prices react to analyst-forecast surprise before EIA | orta
+Ederington: ertesi hafta kısmi geri dönüş | https://www.montana.edu/regecon/publications/energyinformationannouncement/index.html | arama özeti (doğrudan görülmedi) | düşük
+Gu-Kurov-Stan: Cuma tepkisi %74 zayıf | https://experts.umn.edu/en/publications/trader-attention-and-market-reaction-to-fundamental-news-evidence/ | "74% weaker" (arama özeti; Ağu 2025 taslağı) | orta
+Todorov RoF 28(3) 831-863, 2024 (BIS WP 952) | https://www.bis.org/publ/work952.pdf | "Leverage rebalancing has the largest effects." | yüksek
+Todorov: VIX EFG işareti Sharpe 1.78 | https://www.bis.org/publ/work952.pdf | "delivers a Sharpe ratio of 1.78" | yüksek
+Todorov doğalgaz sonucu bu oturumda doğrulanmadı (SUERF slaytında %42.3, Sharpe 2.59 anlamı belirsiz) | https://www.suerf.org/policynotes/11687/passive-funds-actively-affect-prices-evidence-from-the-largest-etf-markets | arama özeti | düşük
+Bessembinder ve ark.: USO vade geçişinde yırtıcı işlem kanıtı yok (ham petrol, 2008-09) | https://econpapers.repec.org/RePEc:eee:jfinec:v:121:y:2016:i:1:p:142-166 | "does not find evidence of the systematic use of predatory strategies" | orta
+Gao-Han-Li-Zhou JFE 2018: ilk yarım saat son yarım saati öngörüyor (S&P ETF, 1993-2013), R² ~%1.6 | https://econpapers.repec.org/RePEc:eee:jfinec:v:129:y:2018:i:2:p:394-414 | arama özeti: R² "about 1.6%" | orta
+Doğalgazda gün içi momentum çalışması bulunamadı | arama sonucu (URL yok) | Gao uzantıları Çin metal/tarım ve ham petrolde | orta
+Gün-haftası: Pzt/Salı pozitif, Perşembe negatif (doğalgaz) | https://doaj.org/article/0eb0c617d4dd420da38b95aadafe74ed | arama özeti, Cogent Econ & Fin 2023 | düşük
+Gorton-Hayashi-Rouwenhorst, RoF 17(1) 35-105, 2013 | https://nber.org/papers/w13249 | "convenience yield falls non-linearly as inventories rise" (31 emtia, 1969-2006) | yüksek
+Trolle-Schwartz: doğalgaz varyans short Sharpe 0.35 | https://infosciences.epfl.ch/record/148475/files/TrolleSchwartz_Energy_Variance_Risk_Premia.pdf | arama özeti: Sharpe 0.35 | orta
+VRP işareti çelişkili (Xu-Roh pozitif; Dossani-Kang-Pan negatif) | https://caia.org/node/5531 | arama özeti, orijinaller görülmedi | düşük
+Aykırı: veri-kazıma düzeltmeli testte 17 vadelinin 2'sinde kural anlamlı (doğalgaz özel değil) | https://ageconsearch.umn.edu/record/19039/files/cp05pa01.pdf | arama özeti (Park-Irwin atfı) | düşük
+Boos-Grob JFM 2023: doğalgazda COT-getiri ilişkisi kararsız tek emtia | https://digitalcollection.zhaw.ch/bitstream/11475/26934/3/2022_Boos-Grob_Tracking-speculative-trading.pdf | arama özeti: natural gas "only commodity with an unstable pattern" | orta
+Hava tahmini revizyonu getiriyi öngörüyor mu: akademik test yok; "extreme weather forecasts risk premium" makalesi var (doğrusal olmayan tepki) | https://www.sciencedirect.com/science/article/pii/S1062940825001342 | arama özeti, sayfa 403 | düşük
 
 LİSTEDE OLMAYAN / ÇELİŞEN
-- Görevdeki "Halova, Kurov, Kucher: The effect of news on commodity prices and volatility" başlığı bulunamadı; doğru künye "Noisy Inventory Announcements and Energy Prices" (JFM 2014).
-- Todorov makalesinin yayın başlığı "When passive funds affect prices: evidence from volatility and commodity ETFs" (RoF 2024); doğalgaza özel sonuç özetlerde görülmedi.
-- Gu-Kurov-Stan (Cuma etkisi) ve Gu-Kurov 2018 (duyuru öncesi sürüklenme) listede yoktu; ikisi de kapanışta girip taşıyan için doğrudan işlenebilirlik göstermiyor.
-- Lubnau-Todorova 2015: doğalgaz takvim spread'inde maliyet sonrası Sharpe >2 (kısa vade verimsizlik, "öngörülemez" tezine aykırı); veri avcılığı düzeltmesi sonrası genel teknik kural kârsızlığı bulgusu ile çelişiyor.
-- Tüm sayılar tam metin yerine arama/özet aktarımına dayanıyor; tam metinler (SSRN, Reading, ScienceDirect) engelli/404 idi.
+- "Gay, Simkins, Turac 2009" künyesi: kaynak Simkins-Turac, JFM 29(5); Energy Economics değil.
+- Ederington ve ark. 2019 (Energy Journal 40(5)) ve Gu-Kurov-Stan (Cuma etkisi) listede yoktu, doğrudan konuya ait.
+- "Chiou-Wei, Linn, Zhu 2014" Journal of International Money and Finance 42, Energy Economics değil.
+- Gao-Han-Li-Zhou doğalgaz uzantısı yok; Todorov'un doğalgaz bulgusu doğrulanamadı.
+- Mishra-Smyth 2016: iki yapısal kırılmalı testte doğalgaz fiyatları öngörülebilir (arama özeti); vadeli fiyat random walk'tan iyi öngörmüyor.
 
 AÇIK KALANLAR
-- Prokopczuk ve diğerleri: bps/t değerleri, örneklem dönemi, yayın sonrası zayıflama; Reading PDF'si Anubis engeli nedeniyle okunamadı.
-- Hava tahmini revizyonu (GFS/ECMWF/HDD) süreklilik ve getiri kanıtı bulunamadı.
-- Haftanın günü, Mart-Nisan, vade bitimi, gece/gün içi ayrımı için doğalgaz vadelisine özel hakemli kanıt aranmadı/bulunamadı; Koijen ve diğerleri "Carry" doğalgaz kesiti doğrulanmadı.
-- Todorov'un doğalgaz-spesifik büyüklükleri ve uzlaşma öncesi momentum/sonrası dönüş örüntüsü doğrulanmadı.
+- Wichmann ve ark. tam metin: bps/t, örneklem sonu, zayıflama tablosu (Reading PDF Anubis engeli).
+- Rapor sonrası 1-3 günlük sürüklenme veya geri dönüş (Ederington dahil) doğrudan görülmedi.
+- Todorov doğalgaz bölümü; UNG/BOIL/KOLD gün sonu akışı için ölçülmüş etki yok.
+- COT, hava revizyonu, eğri/taşıma için doğalgaza özgü maliyet sonrası test bulunamadı.
+- Gün-haftası/mevsimsellik için güvenilir dergi kanıtı yok (yalnız Cogent özeti).

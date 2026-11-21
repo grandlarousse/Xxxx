@@ -1,57 +1,61 @@
 araç: 21/35
 
-ÖZET (21 Kasım 2026)
-- Depolama: EIA 19 Kasım raporu (hafta 13 Kasım): 3.882 Bcf, haftalık +20 Bcf (5 yıllık ort. +15, analist beklentisi ~+27). 5 yıllık ortalamanın +80 Bcf (+%2,1) üstünde, geçen yılın -66 Bcf (-%1,7) altında. Sonraki rapor (hafta 20 Kasım) benim bulabildiğim kaynaklarda yok.
-- Enjeksiyon sezonu 3.810 Bcf ile bitti (%2 üstü). Kasım STEO: kış çekilişi 1.900 Bcf, Mart 2027 sonu stok 5 yıllık ortalamanın %4 üstünde ( ılık kış + yüksek üretim).
-- STEO Kasım (10 Kasım): Henry Hub kış (Kas-Mar) 2,87 $, 2026 ort. 3,37 $, 2027 ort. 2,88 $ (önceki 3,16). Yani EIA düşüş görüşünde. LNG ihracatı 2026: 17,6, 2027: 19,0 Bcf/g.
-- Fiyat: Trading Economics 20 Kasım'da ~3,41 $ (+%4,4 gün). 30 Ekim'de Aralık vadesi 2,858 $ idi: yaklaşık 3 haftada ~%19 yükseliş. Neden: soğuyan geç Kasım tahminleri (LSEG 2 haftalık HDD 302), rekor LNG besleme gazı (~20,5 Bcf/g, RBN, hafta 15 Kasım).
-- Üretim (Lower 48, Ekim): ~112-113,5 Bcf/g, rekor 113,3 (Ağu-Eyl). LNG besleme: Ekim ort. 18,4, son 2 hafta ~19,2; 15 Kasım haftası ~20,5.
-- Hava: CPC 19 Kasım kış (DJF) görünümü kuzeyin 2/3'ünde normalden ılık; güney belirsiz. ENSO: El Niño Advisory, "tarihi güçlü" El Niño (Oca-Mar 2027'de güçlü olasılığı >%79). Bu, doğalgaz için yapısal olarak ılık/düşüş yönlü; risk: negatif NAO ile soğuk patlaması. 6-10 / 8-14 gün haritalarını doğrulayamadım.
-- Avrupa: TTF 86-92 EUR/MWh civarı (12 Kasım zirve 92,26); AB depoları ~%70 dolu (geçen yıl ~%82-89). Sebep: Hürmüz geçişlerinin engellenmesi, Katar LNG force majeure'ün Kasım'a uzaması, ince depo tamponu (IEA: 2027'ye sarkabilir). JKM net rakam bulunamadı. ABD-Avrupa farkı çok büyük (TTF ~88 EUR ≈ 25-30 $/MMBtu civarı, bu dönüşüm benim yaklaşık hesabım), ABD LNG ihracatı tam kapasitede çalışıyor; Henry Hub'a yansıması tavanlı çünkü ihracat kapasitesi dolu.
-- VIX: doğrulayabildiğim en yüksek Kasım değeri 28,18 (5 Kasım), 9 Kasım'da 19,9; tetikleyici seçim sonrası AI/çip satışı. Senin 35,89 değerin kaynaklarımla doğrulanmadı.
-- 2026 olayları: Ocak sonu Winter Storm Fern, Henry Hub haftalık rekor sıçrama (~%70), Ocak ort. spot 7,72 $, depolama 30 Ocak haftasında -360 Bcf (rekor çekiliş). Sonra düşüş: Ekim sonu Aralık vadesi 2,86 $, Cal-2027 şeridi 3,02 $ (58 ayın dibi).
-- Takvim (benim hesabım, doğrulanmadı): Aralık vadesi son işlem günü ~25 Kasım (Şükran Günü 26 Kasım tatil), Ocak vadesi ~29 Aralık. Depolama raporu Şükran haftasında genelde Çarşamba kayar; EIA tatil takvimini sayfadan alamadım.
-- Aykırı kanıt: Morgan Stanley (Haz) ve Enverus (Eyl: 2027 için 3,25 $; arz talebi 1,3 Bcf/g aşar) 2027 arz fazlası diyor; yükseliş tarafı: LNG genişlemesi, Avrupa depo açığı, soğuk patlaması riski, Sabine Pass +20 Mtpa onayı.
+ÖZET (sade Türkçe)
+- Fiyat: Aralık vadesi (NGZ26) 20.11'de %4,4 artıp 3,411 $/MMBtu kapandı (haftalık ~%5 artış). 3,748 büyük olasılıkla Ocak 2027 vadesi (Aralık-Ocak yaklaşık 0,3-0,35 $ fark); Ocak için kesin 20.11 kapanışı doğrulanamadı. Aralık vadesi 25.11'de, Ocak vadesi 29.12'de sona eriyor (tek kaynak, TradingView listesi; CME teyidi yok).
+- Depolama (EIA, 19.11 yayını, hafta 13.11): 3.882 Bcf, +20 Bcf (beklenti +25: boğa yönlü sürpriz). 5 yıl ortalamasının 80 Bcf üstünde (+%2,1), geçen yılın 66 Bcf altında (-%1,7). Önceki hafta +61.
+- Sonraki rapor: Çarşamba 25.11 (Şükran Günü nedeniyle bir gün erken, 20.11 haftasını kapsar). Noel (Cuma 25.12): rapor muhtemelen Perşembe 24.12 (EIA kuralından çıkarım, resmi duyuru görülmedi).
+- Üretim: LSEG'ye göre Kasım başı ~110 Bcf/g (Ekim 113,4; rekor Ağustos 115). LNG besleme gazı rekor: 9-15 Kasım arası ~20-20,5 Bcf/g (Ekim ortalaması 18,4).
+- STEO (10.11): Kasım-Mart Henry Hub ortalaması 2,87 $ (Ekim tahmininden %16 düşük); 2026 ortalaması 3,37; 2027 ortalaması 2,88 (önceki 3,16). Mart 2027 stok tahmini 49 Bcf yukarı. Üretim büyümesi talebi geçecek diyor: ayı yönlü.
+- Vadeli eğri: Piyasa fiyatı STEO'nun üstünde. Mevsimsel kış primi var (Ocak > Aralık, Mart/Nisan çok düşük): klasik "contango" değil, mevsimsel şekil. Cal-2027 şeridi yaklaşık 3,0-3,5 bandında (kaynaklar tutarsız).
+- Hava: ENSO = El Niño, çok güçlü olma ihtimali >%90 (CPC, 12.11). NOAA kış görünümü (15.10): Kuzey ve Doğu'da ortalamanın üstü sıcak. Bu ayı yönlüdür; 6-10/8-14 gün görünümü bulunamadı. Aralık başı soğuk tahminleri son haftanın yükselişini sürükledi.
+- TTF/JKM: TTF ~85-92 EUR/MWh (Ekim sonunda 100 üstü); neden: Hürmüz krizi (28.02.2026'da ABD/İsrail-İran operasyonu), Katar LNG'sinin 2/3'ünden fazlası kısıtlı, Avrupa depoları %70,15 (geçen yıl %81,89), 2013'ten beri en düşük. JKM 30 $ üstü (düşük-yüksek 30'lar). ABD-Avrupa farkı çok büyük (TTF 88,45 EUR/MWh ≈ 30 $/MMBtu civarı; kendi hesabım, kur varsayımıyla), ama ABD LNG tesisleri zaten tam dolu: fark Henry Hub'a geçmiyor.
+- VIX 35,89 (20.11, gün içi 40,03): doğrulandı; haftanın en kötü hissesi, S&P ~%-3,6 (tek kaynak). Teknoloji/AI satışı; 3 Kasım seçimlerinin ardından AI yatırım endişesi (5.11'de VIX 28,18). Japonya 10 yıllık tahvil faizi %1,8 (20.11, 2008'den beri en yüksek).
+- CFTC (17.11, NYMEX NG, yönetilen para): uzun 180.973, kısa 392.518, net -211.545 (net kısa; kısa -19.946, uzun -7.028 değişti). Büyük net kısa pozisyon: sıkışma (short squeeze) riski.
+- 2026 olayları: Ocak ortası kutup girdabı, ay sonu Henry Hub rekor/çok yıllık zirve (kesin rakam doğrulanamadı); 28.02 İran operasyonu, Hürmüz kapanması (Şubat-Mayıs'ta Avrupa +%44, Asya +%66, ABD -%6); ~5.03 sonrası Nisan vadesi ilk gün 2,83 (kışın en düşüğü); Ağustos üretim rekoru 115; Ekim sonu TTF 100+; Kasım 12 NG 9 ayın zirvesi 3,30; 16.11 3,12'ye düşüş; 20.11 3,411.
 
 İDDİA DEFTERİ
-iddia | kaynak URL | alıntı/sayı | güven
-EIA depolama 13 Kas: 3.882 Bcf, +20 | https://ir.eia.gov/ngs/ngs.html | "3,882 ... +20" (WebFetch özeti) | yüksek
-5 yıllık +80 (+%2,1), geçen yıl -66 (-%1,7) | https://ir.eia.gov/ngs/ngs.html | "+80 (+2.1%)", "-66 (-1.7%)" | yüksek
-Beklenti ~27, 5y ort. 15, %2,1 üstü | https://tradingeconomics.com/commodity/natural-gas | "20 bcf injection... five-year average of 15 bcf... 27 bcf" | orta
-Henry Hub ~3,41 $ 20 Kas, +%4,38 | https://tradingeconomics.com/commodity/natural-gas | "$3.41/MMBtu ... up 4.38%" (OTC/CFD, resmi değil) | orta
-STEO Kasım: kış 2,87, 2027 2,88, 2026 3,37 | https://www.eia.gov/outlooks/steo/ | "$2.87 ... $2.88 ... $3.37" | yüksek
-STEO LNG 17,6 (2026), 19,0 (2027) Bcf/g | https://www.eia.gov/outlooks/steo/ | "17.6 ... 19.0 billion cubic feet per day" | yüksek
-Sezon sonu stok 3.810 Bcf; Mart 2027 %4 üstü; çekiliş 1.900 | https://www.eia.gov/todayinenergy/detail.php?id=68484 | "3,810 Bcf ... 4% above" | yüksek
-ENSO: güçlü El Niño, 12 Kas | https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml | "El Niño Advisory... still strengthening" | yüksek
-CPC DJF 19 Kas: kuzey 2/3 ılık | https://www.cpc.ncep.noaa.gov/products/predictions/90day/fxus05.html | "above-normal temperatures for the northern two-thirds" | yüksek
-30 Eki Aralık vadesi 2,858; Cal27 3,02; Mar-Nis 5 sent | https://www.pgjonline.com/news/2026/october/us-natural-gas-falls-3-on-rising-output-milder-forecasts-as-winter-spread-hits-record-low | "$2.858 ... 58-month low of $3.02" | yüksek
-Üretim 112,1 (Ekim), rekor 113,3; LNG feed 18,4/19,2 | aynı P&GJ | "112.1 Bcf/d ... 19.2 Bcf/d" | yüksek
-LNG besleme ~20,5 Bcf/g hafta 15 Kas; Golden Pass T1 tam | https://rbnenergy.com/daily-posts/analyst-insight/us-lng-feedgas-production-record-levels | "nearly 20.5 Bcf/d" (yıl açık değil) | orta
-Golden Pass ilk kargo 22 Nis 2026; T2 2027 H1 (çelişkili) | https://www.gasprocessingnews.com/news/2026/04/the-10th-us-lng-export-terminal-golden-pass-ships-first-cargo/ | "10th U.S. LNG export terminal ... first cargo" | orta
-AB depo ~%70 (16-17 Kas) vs %82-89 geçen yıl | arama özeti (GIE, gmk.center) https://gmk.center/en/news/european-gas-prices-remain-volatile-in-the-first-half-of-november/ | "70.15% full" | orta
-TTF 12 Kas zirve 92,26 EUR/MWh | https://gmk.center/en/news/european-gas-prices-remain-volatile-in-the-first-half-of-november/ | "€92.26/MWh" | orta
-Katar force majeure Kasım'a uzadı, Hürmüz | https://oilprice.com/Latest-Energy-News/World-News/Gas-Prices-in-Asia-and-Europe-Jump-as-Qatar-Extends-LNG-Force-Majeure.html | "extended the force majeure" (arama özeti) | orta
-IEA: düşük AB depoları 2027'ye sarkar | https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027 | başlık | orta
-Fern: Ocak ort. 7,72; -360 Bcf | https://www.eia.gov/todayinEnergy/detail.php?id=67124 | "largest weekly net withdrawal" | yüksek
-Ocak spot rekor 30,72 (aykırı değer) | https://www.petroleumnews.com/pnads/192182459.shtml | "$30.72" | düşük
-Spekülatör net kısa -258.863 (3 Kas) | https://www.fxstreet.com/analysis/cot-report-november-6-2026-202611082146 | "-258,863" (tüm doğalgaz, ikincil) | orta
-VIX 28,18 (5 Kas), 19,92 (9 Kas) | https://www.marketindex.com.au/news/wall-street-panic-sell-off-sends-vix-up-almost-70-heres-what-usually-happens-next | "28.18 ... 19.92" (arama özeti) | orta
-VIX 25 hafta 9 Kas; AI yatırım korkusu, seçim sonrası | https://www.cboe.com/insights/posts/week-of-11-9-2026-no-contagion-yet-equity-vol-spikes-macro-vol-fades | "tech stocks sold off after the election" | yüksek
-Enverus 2027: 3,25 $; arz fazlası 1,3 Bcf/g | https://energynow.com/2026/09/u-s-gas-supply-growth-could-outpace-lng-demand-through-2027/ | arama özeti | orta
-Morgan Stanley: 2027 arz fazlası riski | https://www.oilandgas360.com/natural-gas-prices-supported-into-q3-but-2027-outlook-softens-morgan-stanley/ | "oversupply risks into 2027" | orta
-Sabine Pass +20 Mtpa onayı | https://tradingeconomics.com/commodity/natural-gas | "approved Cheniere ... Sabine Pass ... 20 million tonnes" | orta
-Eski curve noktası: Ocak27 ~4,73, Şub ~4,23, Mar ~3,31, Cal27 ~3,60 (tarihsiz, güncel DEĞİL) | https://www.constellation.com/solutions/for-your-commercial-business/energy-tools-and-resources/tools-for-your-natural-gas-plan-nymex-pricing/TableData.html | arama özeti | düşük
+iddia | kaynak | alıntı/sayı | güven
+Depolama 13.11: 3.882 Bcf, +20, 5y +80, yıl önce -66 | https://ir.eia.gov/ngs/ngs.html | "3,882 Bcf ... 80 Bcf above the 5-year average ... 66 Bcf below" (küçük model özeti) | yüksek
+Beklenti 25, gerçek 20, önceki 61 | https://www.investing.com/economic-calendar/natural-gas-storage-386 | "Actual 20.00B, Forecast 25.00B, Previous 61.00B" | orta
+NG Aralık 20.11 kapanış 3,411 (+14,3 sent, %4,4) | https://rallies.ai/news/us-natgas-rises-and-heads-for-weekly-gain-on-winter-demand-expectations-82e7e0f5e92c3cc6 | "settled 4.4% higher at $3.411" | yüksek
+Sonraki depolama raporu Çarşamba 25.11 | https://www.fxempire.com/forecasts/article/natural-gas-outlook-20-bcf-storage-build-falls-short-of-forecast-1646032 | "due Wednesday, November 25, ... a day early" (arama özeti) | orta
+EIA tatil kuralları (Perşembe tatil = Çarşamba) | https://boereport.com/2026/10/09/schedule-for-us-energy-data-in-holiday-week-2/ | arama özeti: "Thursday holiday: released Wednesday at 12:00 ET" | orta
+Aralık son işlem 25.11.2026, Ocak 29.12.2026 | https://in.tradingview.com/symbols/NYMEX-NG1%21/contracts | "expiring on 2026-11-25 ... 2027-12-29" (özet) | orta
+STEO Kasım-Mart 2,87; 2026 3,37; 2027 2,88 | https://www.eia.gov/outlooks/steo/archives/nov26.pdf | "$2.87/MMBtu from November through March, 16% below" (arama özeti) | orta
+STEO Mart sonu stok +49 Bcf | https://www.hydrocarbonengineering.com/gas-processing/13112026/eia-raises-november-natural-gas-storage-forecast-after-warm-start-to-month/ | "49 Bcf higher than the October forecast" | orta
+Aralık vadesi 11.11'de 3,22 | https://www.eia.gov/outlooks/steo/archives/nov26.pdf | "December Henry Hub futures contract settled at $3.22 ... November 11" | orta
+Aralık 16.11'de 3,12 | https://www.nrg.com/content/dam/nrg/web/en/multimedia/documents/pdfs/daily-market-update/10-26-26/update.pdf | "settled at $3.12/MMbtu, down $.11, on Monday, November 16" (arama özeti) | orta
+Cal 2027 şeridi 2,94 (ve 27-31: 3,53; 3,62...) | aynı arama özeti (NRG/Constellation) | "2027-31 ... $2.94, $3.53, $3.62, $3.64 and $3.62" | düşük
+Yahoo eğri: Ara 3,39, Oca 3,76, Şub 3,39, Mar 2,65 (tarihsiz) | https://finance.yahoo.com/quote/NG=F/futures/ | "Jan 27 at $3.76 ... Mar 27 at $2.65" (arama özeti) | düşük
+LNG besleme rekoru 20,4 Bcf/g (9.11) | https://boereport.com/2026/11/09/us-lng-feedgas-demand-hits-record-20-4-bcfd-as-export-plants-near-full-capacity/ | "record 20.4 bcfd" | orta
+Besleme ~20,17 (hafta sonu), Plaquemines katkısı | https://www.industrialinfo.com/iirenergy/industry-news/article/us-feed-gas-for-lng-hits-record-iir-data-show--364723 | "about 20.17 Bcf/d" (özet) | orta
+Üretim 110 Bcf/g Kasım başı, Ekim 113,4, rekor 115 (Ağustos); besleme 17,7 | https://pgjonline.com/news/2026/november/us-natural-gas-climbs-2-as-output-slides-toward-five-month-low | "110 Bcf/d so far in November, down from 113.4 ... record 115" (3.11 tarihli) | orta
+El Niño çok güçlü >%90; Kasım 12 güncelleme | https://watchers.news/2026/10/16/very-strong-el-nino-favors-wetter-south-and-warmer-north-in-noaas-2026-27-winter-outlook-u-s/ | "greater than 90% chance of very strong" (özet) | orta
+NOAA kış: Kuzey/Orta/Doğu sıcak eğilimi | https://www.usharbors.com/2026/10/el-nino-looms-large-over-u-s-winter-outlook/ | özet: "warmer ... Midwest, Mississippi Valley, much of the East" | orta
+TTF 100+ Ekim sonu; 12.11'de 92,26; ~85 Kasım ortası | https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/102826-european-gas-price-tops-100mwh-intraday-ice | "tops 100/MWh intraday" ; özet: "€92.26/MWh" | orta
+AB depoları 17.11: %70,15 vs %81,89 | https://gmk.center/en/news/european-gas-prices-remain-volatile-in-the-first-half-of-november/ | "70.15% full (compared to 81.89%)" (özet) | orta
+Hürmüz: Katar LNG'nin 2/3+'ı kısıtlı; JKM düşük-yüksek 30'lar | https://oilprice.com/Energy/Energy-General/Europes-LNG-Scramble-Sends-Shockwaves-Through-Asian-Gas-Markets.html | "Strait of Hormuz crisis still stifling more than two-thirds of Qatari LNG" (özet) | orta
+JKM/TTF haftalık | https://globallnghub.com/?p=20986 | "JKM ... low-USD 30s/MBtu on 13 November" (özet) | orta
+İran operasyonu 28.02.2026; ~%20 küresel LNG | https://www.everycrsreport.com/reports/IN12696.html | "began February 28, 2026 ... over 10 Bcf/d" (özet) | orta
+Şubat-Mayıs: Avrupa +%44, Asya +%66, ABD -%6 | https://www.eia.gov/todayinenergy/detail.php?id=67604 | özet: "increased 44% and 66% ... U.S. prices declined by 6%" | orta
+Ocak 2026 kutup girdabı, strip 3,90 (21.01) | https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/012226-us-winter-storm-derails-henry-hubs-recent-bearish-turn | "strip rising to $3.90/MMBtu as of Jan. 21" (özet) | orta
+Nisan vadesi ilk gün 2,83 | https://www.aga.org/research-policy/resource-library/natural-gas-market-indicators-march-5-2026 | "settled at $2.83 ... first day of the April" (özet) | orta
+CFTC 17.11 yönetilen para: L 180.973, K 392.518, spread 528.813 | http://www.cftc.gov/sites/default/files/files/dea/cotarchives/2026/futures/nat_gas_sf111726.htm | "Long 180,973; Short 392,518" (özet, kod 023651) | orta
+VIX 35,89 (20.11), gün içi 40,03, +%26,2 | https://ceoeconomy.com/article/vix-closes-at-2026-high-35-89-wall-street-fear-gauge-nov-2026 | "closes at 2026 high 35.89" | yüksek
+VIX 5.11'de 28,18; seçim sonrası AI endişesi | https://www.cboe.com/insights/posts/week-of-11-9-2026-no-contagion-yet-equity-vol-spikes-macro-vol-fades | özet: "bull market ... AI ... could be over" | orta
+EIA 2027 üretim 116,1 vs 2026 112,2 Bcf/g; LNG +1,5 Bcf/g 2027 | https://www.eia.gov/todayinenergy/detail.php?id=67484 | özet: "112.2 Bcf/d in 2026 and 116.1 Bcf/d in 2027" (eski STEO) | düşük
+2027 LNG arz fazlası (BNEF) | https://www.rigzone.com/news/wire/lng_market_faces_looming_supply_glut-09-sep-2025-181739-article/ | "supply to consistently exceed demand between 2027 and 2030" (özet, 2025) | düşük
 
 LİSTEDE OLMAYAN / ÇELİŞEN
-1. VIX 35,89: bulduğum kaynaklar Kasım'da en çok 28,2 gösteriyor; senin değerin son hafta (9-20 Kas) yeni sıçrama olabilir ya da hata; doğrulanmadı.
-2. Aralık vadesi ~3,41; saatlik 3,748 serisi büyük olasılıkla Ocak 2027 vadesi (kış primi); doğrulanmadı. Eski bir tarihsiz tabloda Ocak 4,73 görünüyor, güncel değil.
-3. Güçlü/tarihi El Niño: ılık kış beklentisi ve EIA'nın 2,87 $ kış tahmini, mevcut ~3,4 $ fiyatın EIA'nın üstünde olduğunu gösteriyor (vadeli fiyat tahminden yüksek).
-4. Spekülatörler rekora yakın net kısa (COT endeksi %100): kısa kapama (short squeeze) riski, soğuk hava sürprizinde keskin sıçrama.
-5. Sabine Pass +20 Mtpa onayı yeni ihracat kapasitesi haberi (uzun vadeli, 1-3 gün için önemsiz).
+1. Fiyatlar: Ocak vadesi için 3,748'i doğrulayan kaynak yok; bir arama TradingView'dan 4,9-5,0 (Ocak 2027) gösterdi, büyük olasılıkla bayat/hatalı. Bu çelişkiyi çözmeden Ocak seviyesine güvenme.
+2. ENSO: sende "La Niña" varsayımı yoksa da dikkat: kış El Niño (çok güçlü), La Niña değil; bu ılık Kuzey/Doğu demek, gaz için ayı yönlü.
+3. Fiyatlar: 20.11 kapanışında gün içi 3,325 görülmüş; kapanış 3,411 (tek kaynak ağırlıklı).
+4. Seçimler (3 Kasım) ve AI satışı VIX nedeni; gazla doğrudan bağlantı kaynaklarda yok.
+5. TTF 88,45 senin verin; kaynaklarda ~85-92 aralığı (kayıt ile uyumlu).
 
 AÇIK KALANLAR
-1. Vadeli eğri (Ara, Oca, Şub, Mar 2027, 2027 ort.) güncel değerleri bulunamadı (CME 403).
-2. NYMEX yönetilen para net pozisyonu (CFTC ham sayfa çok büyük, Henry Hub bloğu okunamadı); 17 Kas verisi yok.
-3. 6-10 ve 8-14 gün CPC görünümü, JKM düzeyi, TTF 20 Kas kapanışı, UNG/BOIL/KOLD fiyat doğrulaması yapılmadı.
-4. Takvim: EIA Şükran/Noel rapor kayması ve vade son işlem günleri resmi kaynaktan doğrulanmadı (yalnız kendi hesabım).
-5. 2026 tepe/dip tarihleri tam liste (Şubat-Eylül dipleri) çıkarılmadı; yalnız Ocak sıçraması ve Ekim sonu dip.
+1. Ocak, Şubat, Mart 2027 ve Cal-2027 için 20.11 resmi CME kapanışları (CME 403; barchart bakıldı, tarihsiz).
+2. NOAA 6-10 ve 8-14 gün haritaları ile 19.11 güncellemesi içeriği.
+3. 2026 tepe/dip: Ocak sonu zirve rakamı, Yıllık dip ve Kasım depo "ayrıntı"; ayrıca JKM tam sayı.
+4. Resmi EIA tatil takvimi (Şükran/Noel), yeni LNG trenleri (Golden Pass, Corpus Christi Stage 3) ve düzenleyici kararlar takvimi, aranmadı.
+5. Haftalık depolama beklentisi 25.11 raporu için (tahmin), yönetilen para 24.11 CFTC verisi.
