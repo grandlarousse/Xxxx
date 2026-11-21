@@ -1,0 +1,310 @@
+{
+ "hipotezler": [
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "IBS=(K-D)/(Y-D) < 0,2 ise t kapanışında al; t+1 kapanışında ya da IBS>0,8 olunca sat",
+   "hedef": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "DIA",
+    "RSP"
+   ],
+   "yon": "+",
+   "mekanizma": "Günün dibine yakın kapanış, likidite sağlayıcıya ödenen geçici fiyat baskısıdır ve ertesi gün kısmen geri döner.",
+   "zamanlama": "Y/D/K 16:00 ET'de kesin; sinyal kapanış fiyatıyla hesaplanır (MOC emri için 15:50 tahmini kullanılır)",
+   "kanit": "https://jonathankinlay.com/?p=2199",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "KENDI",
+    "^VIX"
+   ],
+   "oncu_tanim": "IBS<0,2 VE VIX kapanışı >25 (ayrıca >20)",
+   "hedef": [
+    "SPY",
+    "QQQ",
+    "IWM"
+   ],
+   "yon": "+",
+   "mekanizma": "Yüksek oynaklıkta aracıların risk kapasitesi daralır, likidite sağlamanın beklenen getirisi artar (Nagel 2012).",
+   "zamanlama": "VIX 16:15 ET'de kapanır; 16:00 değeri ya da 15:59 değeri kullanılmalı",
+   "kanit": "https://www.nber.org/papers/w17653.pdf",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "MAC(5) endeks dönüşü: s=-(4r_t+3r_{t-1}+2r_{t-2}+r_{t-3}); s>0 ise uzun, 1 gün tut",
+   "hedef": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "DIA"
+   ],
+   "yon": "+",
+   "mekanizma": "Endeks ürünlerinin (ETF, vadeli) yaygınlaşmasıyla endeks getirilerinin seri bağımlılığı negatife döndü.",
+   "zamanlama": "Kapanış getirileri 16:00 ET'de biliniyor",
+   "kanit": "https://personal.eur.nl/vanbekkum/2018%20JFE%20BaltussenVanBekkumDa.pdf",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "RSI(2) (Wilder) < 10, ayrıca <5; K>SMA200 filtresi ayrı test edilir; çıkış RSI2>70 ya da 3 gün",
+   "hedef": [
+    "SPY",
+    "QQQ",
+    "IWM"
+   ],
+   "yon": "+",
+   "mekanizma": "Kısa vadeli aşırı satış, endeks düzeyindeki negatif otokorelasyonun uygulayıcı biçimi.",
+   "zamanlama": "16:00 ET kapanışında hesaplanır",
+   "kanit": "https://cxoadvisory.com/technical-trading/a-few-notes-on-short-term-trading-strategies-that-work",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "Art arda 3 (ve 4) düşük kapanış",
+   "hedef": [
+    "SPY",
+    "QQQ",
+    "IWM"
+   ],
+   "yon": "+",
+   "mekanizma": "RSI(2)/IBS ile örtüşen aşırı satış sinyali; ayrı bir etki olup olmadığı test edilir.",
+   "zamanlama": "16:00 ET",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "IBS<0,2 VE hacim > 20 günlük ortalama hacim",
+   "hedef": [
+    "SPY",
+    "QQQ",
+    "IWM"
+   ],
+   "yon": "+",
+   "mekanizma": "Pagonidis'e göre ABD endeks ETF'lerinde IBS etkisi yalnız yüksek hacimli günlerde görülüyor.",
+   "zamanlama": "Kesin hacim 16:00'dan sonra kesinleşir; 15:50 hacmi ya da tam gün hacmi ile test edilip fark not edilmeli",
+   "kanit": "https://jonathankinlay.com/?p=2199",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "IBS>0,8 iken uzun pozisyon alma ya da açık pozisyonu kapat (filtre / kısa)",
+   "hedef": [
+    "SPY",
+    "QQQ",
+    "IWM"
+   ],
+   "yon": "-",
+   "mekanizma": "Günün tepesine yakın kapanış ertesi gün zayıf getiriyle izleniyor (Pagonidis: -0,13%).",
+   "zamanlama": "16:00 ET",
+   "kanit": "https://jonathankinlay.com/?p=2199",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "IBS<0,2 sektör ETF'lerinde; 1-3 gün",
+   "hedef": [
+    "XLK",
+    "XLF",
+    "XLI",
+    "XLY",
+    "XLV",
+    "XLP",
+    "XLU",
+    "XLB",
+    "XLC",
+    "XLRE",
+    "SMH"
+   ],
+   "yon": "+",
+   "mekanizma": "Endeks benzeri sepetlerde aynı likidite sağlama primi; bizim hızlı testimizde XLK güçlü, XLE zayıf.",
+   "zamanlama": "16:00 ET",
+   "kanit": "önsel (kendi hızlı testimiz: kod/l3_hizli_test.py)",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "IBS<0,2 ve RSI2<10 enerji, emtia ve tahvil ETF'lerinde (kontrol grubu)",
+   "hedef": [
+    "XLE",
+    "GLD",
+    "SLV",
+    "USO",
+    "TLT",
+    "UNG"
+   ],
+   "yon": "+",
+   "mekanizma": "Beklenti: etki zayıf ya da yok. Etkinin hisse endekslerine özgü olup olmadığını sınar.",
+   "zamanlama": "16:00 ET; emtia ETF'lerinin dayanak vadelileri 14:30 ET civarında uzlaşır, ETF ise 16:00'da kapanır",
+   "kanit": "önsel (kendi hızlı testimiz: XLE/GLD/TLT negatif)",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "IBS<0,2 büyük hisselerde, 1-3 gün",
+   "hedef": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "JPM"
+   ],
+   "yon": "+",
+   "mekanizma": "Likit büyük hisselerde günlük dönüş; 2015-23'te güçlü, 2024-26'da zayıf. Maliyet sonrası test edilir.",
+   "zamanlama": "16:00 ET; kazanç açıklaması günleri hariç tutulmalı",
+   "kanit": "önsel (kendi hızlı testimiz)",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KENDI",
+    "^VIX"
+   ],
+   "oncu_tanim": "Sektörler arası dönüş: 11 sektör SPDR'ını 5 günlük getiriye göre sırala, en kötü 2'yi al; VIX>25 koşullu ve koşulsuz",
+   "hedef": [
+    "XLK",
+    "XLF",
+    "XLI",
+    "XLY",
+    "XLV",
+    "XLP",
+    "XLU",
+    "XLB",
+    "XLE",
+    "XLC",
+    "XLRE"
+   ],
+   "yon": "+",
+   "mekanizma": "Nagel: endüstri portföy dönüşü koşulsuz zayıf, VIX yüksekken güçlü.",
+   "zamanlama": "16:00 ET",
+   "kanit": "https://www.nber.org/papers/w17653.pdf",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "Sektör ETF'ine göre kalıntı dönüş: hissenin 5 günlük getirisi eksi kendi sektör ETF'inin getirisi < -1 std ise al",
+   "hedef": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "JPM",
+    "XOM",
+    "UNH",
+    "HD",
+    "CAT"
+   ],
+   "yon": "+",
+   "mekanizma": "Temel haberle açıklanmayan getiri daha çok geri döner (Da, Liu, Schaumburg 2014).",
+   "zamanlama": "16:00 ET",
+   "kanit": "https://ideas.repec.org/a/inm/ormnsc/v60y2014i3p658-674.html",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "QQQ"
+   ],
+   "oncu_tanim": "QQQ t günü getirisi |r|>1,5% (kaldıraçlı ETF dengelemesinin büyük olduğu gün)",
+   "hedef": [
+    "QQQ",
+    "SMH",
+    "SPY"
+   ],
+   "yon": "-",
+   "mekanizma": "Kaldıraçlı ETF ve gamma dengelemesi kapanışa doğru aynı yönde baskı yaratır, ertesi gün kısmen geri döner.",
+   "zamanlama": "16:00 ET'de biliniyor; dengeleme 15:30-16:00 arasında",
+   "kanit": "https://ideas.repec.org/p/chf/rpseri/rp2240.html",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "Gece/gün içi çekişmesi: son 20 günün kümülatif gün içi getirisi yüksek olan hissenin ertesi gece getirisi düşük mü? (K_t/A_t çarpımı)",
+   "hedef": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "TSLA",
+    "AMD",
+    "META"
+   ],
+   "yon": "-",
+   "mekanizma": "Lou-Polk-Skouras: gün içi ve gece getirileri arasında çapraz dönüş (aylık); günlük ufukta spekülatif.",
+   "zamanlama": "A_t ve K_t 16:00 ET'de biliniyor",
+   "kanit": "https://personal.lse.ac.uk/polk/research/TugOfWar.pdf",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "IBS<0,2 ülke ETF'lerinde (dayanak piyasa ABD kapanışından önce kapanmış)",
+   "hedef": [
+    "EWJ",
+    "EWG",
+    "EWZ",
+    "EWY",
+    "EWT",
+    "EWA",
+    "FXI",
+    "EEM"
+   ],
+   "yon": "+",
+   "mekanizma": "Bayat dayanak fiyatı ve ETF'te likidite baskısı nedeniyle daha güçlü dönüş beklenir (Kinlay: EWS'de yıllık bileşik ~%40, maliyet hariç).",
+   "zamanlama": "16:00 ET; Asya ve Avrupa dayanakları önceden kapanmış",
+   "kanit": "https://jonathankinlay.com/?p=2199",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KENDI"
+   ],
+   "oncu_tanim": "IBS<0,2 + K>SMA200 (boğa) ile K<SMA200 (ayı) ayrımı",
+   "hedef": [
+    "SPY",
+    "QQQ"
+   ],
+   "yon": "+",
+   "mekanizma": "Pagonidis rejim ayrımı yapıyor; ayı rejiminde oynaklık ve dönüş büyük, ama trend riski de büyük.",
+   "zamanlama": "16:00 ET",
+   "kanit": "https://jonathankinlay.com/?p=2199",
+   "oncelik": 2
+  }
+ ],
+ "ek_semboller": [
+  {
+   "sembol": "EWS",
+   "neden": "Kinlay/Pagonidis IBS sonucunun en güçlü olduğu ülke ETF'i (Singapur); karşılaştırma için."
+  },
+  {
+   "sembol": "EWH",
+   "neden": "Bayat dayanaklı bir başka Asya ülke ETF'i (Hong Kong); ülke ETF'i IBS hipotezi için."
+  }
+ ]
+}

@@ -1,0 +1,363 @@
+{
+ "hipotezler": [
+  {
+   "oncu": [
+    "TIP"
+   ],
+   "oncu_tanim": "TIP günlük getirisi (reel faiz düşüşü = TIP yükselişi)",
+   "hedef": [
+    "GLD",
+    "SLV",
+    "GDX",
+    "GDXJ",
+    "PPLT"
+   ],
+   "yon": "+",
+   "mekanizma": "Reel faizdeki değişim metallere ve madencilere gecikmeli yansıyor olabilir; yerel ön hesapta t+1 korelasyonu +0,05 ile +0,08.",
+   "zamanlama": "TIP 16:00 ET'de kapanır, aynı gün kullanılabilir",
+   "kanit": "önsel + yerel ön hesap (2012+, maliyetsiz, doğrulanmadı)",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "^TNX"
+   ],
+   "oncu_tanim": "10 yıllık getirinin günlük değişimi (bps)",
+   "hedef": [
+    "GLD",
+    "SLV",
+    "GDX"
+   ],
+   "yon": "-",
+   "mekanizma": "Nominal faiz yükselişi metal fiyatlamasına ertesi gün de yansır (2026 Fed artırım anlatısı).",
+   "zamanlama": "^TNX 15:00 ET civarında kesinleşir; 16:00'da bilinir",
+   "kanit": "https://www.usagold.com/daily-precious-metals-market-report-november-16-2026/",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "GLD"
+   ],
+   "oncu_tanim": "GLD gün içi getirisi (açılıştan kapanışa, ABD seansı)",
+   "hedef": [
+    "GLD",
+    "IAU"
+   ],
+   "yon": "-",
+   "mekanizma": "ABD seansı satışını Asya seansındaki fiziki alım geri alıyor; ABD seansındaki düşüş ertesi gün (gece) toparlanmayla telafi ediliyor.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "https://www.stonex.com/en-gb/news-and-analysis/gold-outlook-asia-buys-the-dip-us-hammers-the-rip-2026-11-16/",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "GLD"
+   ],
+   "oncu_tanim": "GLD günlük getirisi",
+   "hedef": [
+    "GDX",
+    "GDXJ",
+    "NEM",
+    "AEM"
+   ],
+   "yon": "-",
+   "mekanizma": "Madenciler altın hareketine aynı gün aşırı tepki verip ertesi gün kısmen geri dönüyor; ön hesapta korelasyon -0,035 ile -0,05.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "yerel ön hesap; https://informahealthcare.com/doi/abs/10.1080/13504851.2016.1164813 (kısa vadede ilişki zayıf)",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "GLD",
+    "GDX"
+   ],
+   "oncu_tanim": "GDX getirisi eksi 2×GLD getirisi (madenci kalıntısı)",
+   "hedef": [
+    "GDX",
+    "GDXJ"
+   ],
+   "yon": "-",
+   "mekanizma": "Altının açıklamadığı madenci hareketi geçici; 1-3 günde tersine döner.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "GDX"
+   ],
+   "oncu_tanim": "GDX günlük getirisi (büyük madenciler)",
+   "hedef": [
+    "GDXJ",
+    "SILJ",
+    "IAG",
+    "BTG",
+    "EXK",
+    "CDE",
+    "EGO"
+   ],
+   "yon": "+",
+   "mekanizma": "Küçük ve daha az likit madenciler büyüklere gecikmeyle uyar (Lo-MacKinlay tipi boyut öncülüğü).",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "GLD",
+    "SLV"
+   ],
+   "oncu_tanim": "log(GLD/SLV) oranının 20 günlük z-skoru",
+   "hedef": [
+    "SLV",
+    "SIL"
+   ],
+   "yon": "+",
+   "mekanizma": "Oran uç seviyedeyken gümüş altına göre 1-3 günde toparlanır (ortalamaya dönüş).",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "https://silverinstitute.org/wp-content/uploads/2026/07/Is-the-Gold-Silver-Ratio-Relevant-Today.pdf (uzun vadede eşbütünleşme)",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "GLD"
+   ],
+   "oncu_tanim": "GLD günlük getirisi",
+   "hedef": [
+    "SLV",
+    "SIL",
+    "PAAS",
+    "HL",
+    "AG"
+   ],
+   "yon": "+",
+   "mekanizma": "Gümüş altını gecikmeyle izliyor mu? Kanıt karışık; ön hesapta t+1 korelasyonu ~0.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "https://www.doi.org/10.1016/j.resourpol.2017.12.008 (çift yönlü ya da eşzamanlı)",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "SLV"
+   ],
+   "oncu_tanim": "SLV günlük getirisi",
+   "hedef": [
+    "SIL",
+    "SILJ",
+    "PAAS",
+    "HL",
+    "CDE",
+    "AG",
+    "EXK"
+   ],
+   "yon": "-",
+   "mekanizma": "Gümüş madencileri de aynı gün aşırı tepki verip ertesi gün geri dönebilir; ön hesapta SLV ile ertesi gün GDX/GDXJ arasında korelasyon -0,05.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "yerel ön hesap",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "GC=F"
+   ],
+   "oncu_tanim": "GC=F getirisi (17:00 ET çubuğu, 1 gün gecikmeli) eksi aynı günün GLD getirisi = 16:00–17:00 arasındaki vadeli hareketi",
+   "hedef": [
+    "GLD",
+    "GDX"
+   ],
+   "yon": "+",
+   "mekanizma": "ABD hisse kapanışından sonraki vadeli hareketinin ertesi günün kapanışına kadar devam edip etmediğini sınar.",
+   "zamanlama": "t-1 günün 17:00 bilgisi t günü 16:00'da biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "UUP"
+   ],
+   "oncu_tanim": "UUP günlük getirisi",
+   "hedef": [
+    "GLD",
+    "SLV",
+    "PPLT"
+   ],
+   "yon": "-",
+   "mekanizma": "Dolar güçlenince metaller düşer; ön hesapta t+1 korelasyonu +0,03 (beklenenin tersi), yani bu bir aykırı test.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel; yerel ön hesap çelişiyor",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "^GVZ"
+   ],
+   "oncu_tanim": "^GVZ günlük yüzde değişimi ya da 60 günlük z-skoru",
+   "hedef": [
+    "GLD",
+    "GDX",
+    "SLV"
+   ],
+   "yon": "+",
+   "mekanizma": "Altın oynaklığındaki sıçrama zorunlu satış ve tasfiye zirvesini işaret eder; ertesi günlerde toparlanma.",
+   "zamanlama": "16:15 ET'de kapanır; 1 gün gecikmeli de sınanmalı",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "SPY"
+   ],
+   "oncu_tanim": "SPY günlük getirisi -%2'den kötü (likidasyon günü)",
+   "hedef": [
+    "GLD",
+    "GDX",
+    "SLV"
+   ],
+   "yon": "+",
+   "mekanizma": "Hisse satışında teminat çağrısı için satılan metaller sonraki 1-3 günde toparlanır (Kasım 2026).",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-tech-selloff-dollar-pressure-metals-kitco-pm",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "HG=F"
+   ],
+   "oncu_tanim": "Bakır vadeli getirisi (1 gün gecikmeli)",
+   "hedef": [
+    "SLV",
+    "PPLT",
+    "SIL"
+   ],
+   "yon": "+",
+   "mekanizma": "Gümüş ve platinin sanayi talebi bakır gibi döngüsel sinyallere bağlı.",
+   "zamanlama": "Globex 17:00 ET; 1 gün gecikme gerekiyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "PPLT",
+    "PALL"
+   ],
+   "oncu_tanim": "PPLT ve PALL ortalama günlük getirisi",
+   "hedef": [
+    "SBSW"
+   ],
+   "yon": "+",
+   "mekanizma": "PGM fiyatı SBSW gelirini sürer; ADR olarak gecikmeli tepki verebilir. Ön hesapta PPLT ile SBSW arasında korelasyon -0,016.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "PPLT"
+   ],
+   "oncu_tanim": "PPLT günlük getirisi",
+   "hedef": [
+    "PALL"
+   ],
+   "yon": "+",
+   "mekanizma": "İkame metaller (katalizörde platin ile paladyum yer değiştirir); daha az likit paladyum gecikmeli izler.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "GLD"
+   ],
+   "oncu_tanim": "FOMC karar günü göstergesi (14:00 ET; t = karar günü)",
+   "hedef": [
+    "GLD",
+    "GDX"
+   ],
+   "yon": "-",
+   "mekanizma": "FOMC sonrası 3 günde altın ETF'lerinde ortalama düşüş (2014+); 9 Aralık 2026'da artırım bekleniyor.",
+   "zamanlama": "Karar 14:00 ET, kapanıştan önce",
+   "kanit": "https://ca.finance.yahoo.com/news/why-gold-yanked-around-fed-175313734.html",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "GLD"
+   ],
+   "oncu_tanim": "TÜFE ya da istihdam günü (08:30 ET) |GLD getirisi| > 2σ",
+   "hedef": [
+    "GLD",
+    "SLV",
+    "GDX"
+   ],
+   "yon": "+",
+   "mekanizma": "Makro veri şokuna verilen tepki 1-3 gün devam eder (yön, o günün işaretiyle aynı).",
+   "zamanlama": "Veri 08:30 ET'de çıkar; kapanışta biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "GLD"
+   ],
+   "oncu_tanim": "Takvim: Ocak ve Kasım–Şubat göstergesi",
+   "hedef": [
+    "GLD",
+    "GDX"
+   ],
+   "yon": "+",
+   "mekanizma": "Altında Ocak ve kış mevsimselliği (yıl başı portföy dengelemesi).",
+   "zamanlama": "Takvim, önceden biliniyor",
+   "kanit": "https://gold.org/goldhub/gold-focus/2023/12/you-asked-we-answered-is-there-a-january-effect-for-gold",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "GLD"
+   ],
+   "oncu_tanim": "GLD 5 günlük getirisi (momentum ya da ters dönüş)",
+   "hedef": [
+    "GLD",
+    "SLV"
+   ],
+   "yon": "+",
+   "mekanizma": "Kısa vadeli trend 1-3 gün sürer mi, yoksa tersine mi döner (işaret test edilecek).",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  }
+ ],
+ "ek_semboller": [
+  {
+   "sembol": "UPLT",
+   "neden": "2x platin (K-1'siz), Nisan 2026'da açıldı; platin için kaldıraçlı hedef."
+  },
+  {
+   "sembol": "UPAL",
+   "neden": "2x paladyum (K-1'siz), Nisan 2026'da açıldı."
+  },
+  {
+   "sembol": "AAAU",
+   "neden": "Düşük maliyetli fiziki altın alternatifi."
+  },
+  {
+   "sembol": "PSLV",
+   "neden": "Sprott fiziki gümüş; NAV primi ya da iskontosu perakende talebin göstergesi."
+  },
+  {
+   "sembol": "CEF",
+   "neden": "Sprott altın ve gümüş; NAV primi bir duygu göstergesi."
+  },
+  {
+   "sembol": "SPPP",
+   "neden": "Sprott fiziki platin ve paladyum."
+  },
+  {
+   "sembol": "IMPUY",
+   "neden": "Impala Platinum ADR (OTC); SBSW dışındaki PGM hissesi."
+  },
+  {
+   "sembol": "2899.HK",
+   "neden": "Zijin Mining; Asya seansındaki madenci tepkisi ABD açılışından önce biliniyor."
+  }
+ ]
+}

@@ -1,0 +1,450 @@
+{
+ "hipotezler": [
+  {
+   "oncu": [
+    "^TNX"
+   ],
+   "oncu_tanim": "10 yillik getiri gunluk degisimi (bp)",
+   "hedef": [
+    "ITB",
+    "XHB",
+    "DHI",
+    "LEN",
+    "PHM",
+    "TOL"
+   ],
+   "yon": "-",
+   "mekanizma": "Faiz artisi mortgage maliyetini ve alici talebini bozar; buyuk faiz gunlerinde konut hisselerinin tepkisi ertesi 1-3 gune yayilabilir (eszamanli etki guclu, gecikmeli etki test edilecek).",
+   "zamanlama": "16:00 ET'de biliniyor; Yahoo ^TNX kapanisi Cboe hesaplamasi, 15:00-16:00 ET arasi saat damgasi kontrol edilmeli",
+   "kanit": "https://www.nahb.org/news-and-economics/press-releases/2026/11/builder-sentiment-continues-to-fall-on-affordability-concerns",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "^TNX"
+   ],
+   "oncu_tanim": "10 yillik getirinin 5 gunluk degisimi (bp)",
+   "hedef": [
+    "ITB",
+    "NAIL",
+    "LEN",
+    "KBH"
+   ],
+   "yon": "-",
+   "mekanizma": "Faiz trendi mortgage oranina birkac gun gecikmeyle (MND gunluk, Freddie Mac persembe) yansir; konut hisseleri trende gecikmeli uyum saglayabilir.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "^TNX"
+   ],
+   "oncu_tanim": "10 yillik getiri gunluk degisimi (bp)",
+   "hedef": [
+    "RKT",
+    "UWMC",
+    "Z",
+    "OPEN"
+   ],
+   "yon": "-",
+   "mekanizma": "Mortgage kredi verenleri ve emlak platformlari refinansman hacmine asiri duyarli, yuksek betali; faiz soku ertesi gunlere tasinabilir.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "HO=F"
+   ],
+   "oncu_tanim": "ULSD/heating oil vadeli gunluk getirisi (jet yakiti vekili)",
+   "hedef": [
+    "JETS",
+    "UAL",
+    "AAL",
+    "DAL",
+    "ALK",
+    "JBLU"
+   ],
+   "yon": "-",
+   "mekanizma": "Yakit ABD havayollarinin en buyuk ikinci gideri ve cogu hedge yapmiyor; gunluk iliski negatif, haftalik pozitif (atalet) bulgusu var.",
+   "zamanlama": "NYMEX uzlasi 14:30 ET; Yahoo kapanisi 17:00 ET son fiyat olabilir -> ileriye bakma riski, 14:30 uzlasi ya da 1 gun gecikme kullan",
+   "kanit": "https://abdn.elsevierpure.com/en/publications/the-nexus-between-oil-and-airline-stock-returns-does-time-frequen",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "CL=F"
+   ],
+   "oncu_tanim": "WTI gunluk getirisi",
+   "hedef": [
+    "CCL",
+    "RCL",
+    "NCLH",
+    "JETS"
+   ],
+   "yon": "-",
+   "mekanizma": "Kruvaziyer ve havayolu yakit maliyeti; 2026 Iran savasi kaynakli petrol sokunda JETS bir ayda %18 dustu.",
+   "zamanlama": "Uzlasi 14:30 ET; ayni ileriye bakma uyarisi",
+   "kanit": "https://finance.yahoo.com/news/airfares-are-likely-to-rise-rising-jet-fuel-costs-send-airline-stocks-reeling-161938704.html",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "CL=F"
+   ],
+   "oncu_tanim": "WTI 5 gunluk getirisi",
+   "hedef": [
+    "JETS",
+    "UAL",
+    "DAL"
+   ],
+   "yon": "+",
+   "mekanizma": "Frekans calismasina gore haftalik ufukta iliski pozitife donuyor (piyasa ataleti / asiri tepki geri donusu): buyuk petrol rallisinden sonra havayollari 1-3 gunde toparlanabilir.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "https://abdn.elsevierpure.com/en/publications/the-nexus-between-oil-and-airline-stock-returns-does-time-frequen",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "RB=F"
+   ],
+   "oncu_tanim": "RBOB benzin gunluk getirisi",
+   "hedef": [
+    "DG",
+    "DLTR",
+    "WMT",
+    "XRT"
+   ],
+   "yon": "-",
+   "mekanizma": "Benzin dusuk gelirli tuketicinin harcanabilir gelirini sikar; gunluk frekansta zayif olmasi beklenir.",
+   "zamanlama": "Uzlasi 14:30 ET",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "TSLA"
+   ],
+   "oncu_tanim": "TSLA gunluk getirisi",
+   "hedef": [
+    "RIVN",
+    "LCID",
+    "NIO",
+    "XPEV",
+    "LI"
+   ],
+   "yon": "+",
+   "mekanizma": "EV temasinin lideri; kucuk ve dusuk takipli EV hisseleri lider bilgiyi gecikmeli fiyatlayabilir (buyuk-kucuk gecikme etkisi).",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "https://escholarship.org/content/qt6x49x543/qt6x49x543.pdf?t=krnr78",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "1211.HK"
+   ],
+   "oncu_tanim": "BYD Hong Kong gunluk getirisi (US gunu t icinde biliniyor) eksi NIO/XPEV/LI ABD gunluk getirisi (fark)",
+   "hedef": [
+    "NIO",
+    "XPEV",
+    "LI"
+   ],
+   "yon": "+",
+   "mekanizma": "HK seansi ABD acilisindan once biter; ABD hissesi HK'dan ayrisirsa fark ertesi gun kapanabilir (HK fiyat kesfinde baskin).",
+   "zamanlama": "HK kapanisi 03:00-04:00 ET, ABD kapanisinda biliniyor",
+   "kanit": "https://ideas.repec.org/a/eee/jbfina/v36y2012i10p2795-2803.html",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "9988.HK",
+    "CNH=X"
+   ],
+   "oncu_tanim": "BABA ABD gunluk getirisi eksi 9988.HK gunluk getirisi (USD bazli) farki",
+   "hedef": [
+    "BABA"
+   ],
+   "yon": "-",
+   "mekanizma": "Cift listeli hissede ABD fiyati HK'dan ayrisirsa ertesi HK seansi farki kapatir; ABD tarafinda kismi geri donus beklenir.",
+   "zamanlama": "9988.HK kapanisi ABD acilisindan once; fark 16:00 ET'de hesaplanabilir",
+   "kanit": "https://ideas.repec.org/a/eee/jbfina/v36y2012i10p2795-2803.html",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "^HSI"
+   ],
+   "oncu_tanim": "FXI gunluk getirisi eksi ^HSI gunluk getirisi",
+   "hedef": [
+    "FXI",
+    "KWEB",
+    "YINN"
+   ],
+   "yon": "-",
+   "mekanizma": "Cin ETF'leri ABD seansinda ABD risk istahiyla hareket eder; ana piyasa ile ayrisma ertesi gun HK seansiyla kapanir.",
+   "zamanlama": "^HSI kapanisi 04:00 ET civari, biliniyor",
+   "kanit": "https://arxiv.org/pdf/1611.03110.pdf",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "CNH=X"
+   ],
+   "oncu_tanim": "USD/CNH gunluk degisimi (yukselis = yuan zayif)",
+   "hedef": [
+    "KWEB",
+    "FXI",
+    "BABA",
+    "PDD",
+    "JD"
+   ],
+   "yon": "-",
+   "mekanizma": "Yuan zayifligi sermaye cikisi ve Cin varlik riskini isaret eder; 24 saat islem gordugu icin ABD kapanisinda guncel.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KWEB"
+   ],
+   "oncu_tanim": "KWEB ABD gunluk getirisi",
+   "hedef": [
+    "0700.HK",
+    "9988.HK"
+   ],
+   "yon": "+",
+   "mekanizma": "ABD seansi HK seansindan sonra biter; HK hisseleri ertesi sabah ABD hareketini fiyatlar (kullanici islemi icin degil, bilgi akisinin yonunu dogrulamak icin kontrol testi).",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "https://ideas.repec.org/a/eee/jbfina/v36y2012i10p2795-2803.html",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "META",
+    "GOOGL"
+   ],
+   "oncu_tanim": "META+GOOGL esit agirlikli gunluk getiri",
+   "hedef": [
+    "PINS",
+    "SNAP",
+    "RDDT",
+    "TTD"
+   ],
+   "yon": "+",
+   "mekanizma": "Dijital reklam liderlerinin haberi (reklam talebi, AI capex) kucuk reklam hisselerine gecikmeli yayilir.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "https://escholarship.org/content/qt6x49x543/qt6x49x543.pdf?t=krnr78",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "AMZN"
+   ],
+   "oncu_tanim": "AMZN gunluk getirisi",
+   "hedef": [
+    "SHOP",
+    "ETSY",
+    "W",
+    "CHWY",
+    "EBAY"
+   ],
+   "yon": "+",
+   "mekanizma": "E-ticaret liderinden kucuk e-ticaret hisselerine gecikmeli bilgi yayilimi.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "WMT",
+    "TGT"
+   ],
+   "oncu_tanim": "Bilanco gunu getirisi (bilanco tarihi gerekli; acilis oncesi aciklama, kapanista biliniyor)",
+   "hedef": [
+    "DG",
+    "DLTR",
+    "COST",
+    "XRT",
+    "BJ"
+   ],
+   "yon": "+",
+   "mekanizma": "Sektor ici bilgi aktarimi; Thomas-Zhang'a gore gec aciklayanlarin tepkisi asiri ve kendi bilancosunda geri donuyor, bu yuzden 1-3 gun sonrasi ve bilanco gunu ayri test edilmeli.",
+   "zamanlama": "Bilancolar 07:00 ET civari; kapanista biliniyor",
+   "kanit": "https://ideas.repec.org/a/bla/joares/v46y2008i4p909-940.html",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "HD"
+   ],
+   "oncu_tanim": "HD bilanco gunu getirisi",
+   "hedef": [
+    "LOW",
+    "XHB",
+    "BLDR"
+   ],
+   "yon": "+",
+   "mekanizma": "HD genelde LOW'dan bir gun once aciklar; ev gelistirme talebi bilgisi emsale aktarilir.",
+   "zamanlama": "Acilis oncesi; kapanista biliniyor",
+   "kanit": "https://ideas.repec.org/a/bla/joares/v46y2008i4p909-940.html",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "TJX"
+   ],
+   "oncu_tanim": "TJX bilanco gunu getirisi",
+   "hedef": [
+    "ROST",
+    "BURL"
+   ],
+   "yon": "+",
+   "mekanizma": "Indirimli giyim perakendesinde ayni ceyrek bilgisi emsallere aktarilir (18 Kasim 2026: TJX +%8).",
+   "zamanlama": "Acilis oncesi",
+   "kanit": "https://ideas.repec.org/a/bla/joares/v46y2008i4p909-940.html",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "^VIX"
+   ],
+   "oncu_tanim": "VIX seviyesi >30 ve gunluk degisim >+15%",
+   "hedef": [
+    "XLY",
+    "ITB",
+    "JETS",
+    "CVNA",
+    "TSLA"
+   ],
+   "yon": "+",
+   "mekanizma": "Panik gunlerinden sonra yuksek betali tuketim hisselerinde 1-3 gunluk kisa vadeli geri donus (likidite saglama primi).",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "HYG"
+   ],
+   "oncu_tanim": "HYG gunluk getirisi",
+   "hedef": [
+    "CCL",
+    "NCLH",
+    "RCL",
+    "CVNA"
+   ],
+   "yon": "+",
+   "mekanizma": "Yuksek borclu tuketim sirketleri kredi piyasasindaki bozulmaya gecikmeli tepki verebilir.",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "LBR=F"
+   ],
+   "oncu_tanim": "Kereste vadeli gunluk getirisi",
+   "hedef": [
+    "BLDR",
+    "ITB"
+   ],
+   "yon": "+",
+   "mekanizma": "BLDR geliri kereste fiyatina bagli; konut insaatcisi icin maliyet etkisi ters isaretli, net etki belirsiz.",
+   "zamanlama": "CME kereste vadelisi likiditesi dusuk; uzlasi saati kontrol edilmeli",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "1928.HK"
+   ],
+   "oncu_tanim": "Sands China HK getirisi eksi LVS ABD getirisi farki",
+   "hedef": [
+    "LVS",
+    "WYNN",
+    "MGM"
+   ],
+   "yon": "+",
+   "mekanizma": "Makao gelirinin fiyat kesfi HK'da; ABD kumarhane hisseleri HK ile ayrisinca ertesi gun yakinsar.",
+   "zamanlama": "HK kapanisi ABD acilisindan once",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "XLY"
+   ],
+   "oncu_tanim": "XLY gunluk getirisi eksi XLP gunluk getirisi (risk istahi farki)",
+   "hedef": [
+    "XRT",
+    "ITB",
+    "JETS"
+   ],
+   "yon": "+",
+   "mekanizma": "Buyuk sermayeli takdire bagli tuketim, esit agirlikli ve kucuk tuketim fonlarina gecikmeli liderlik eder (buyuk-kucuk gecikme).",
+   "zamanlama": "16:00 ET'de biliniyor",
+   "kanit": "https://escholarship.org/content/qt6x49x543/qt6x49x543.pdf?t=krnr78",
+   "oncelik": 3
+  }
+ ],
+ "ek_semboller": [
+  {
+   "sembol": "BURL",
+   "neden": "TJX/ROST indirim perakendesi emsali"
+  },
+  {
+   "sembol": "BJ",
+   "neden": "WMT/COST emsali"
+  },
+  {
+   "sembol": "1928.HK",
+   "neden": "Sands China, LVS icin Makao oncusu"
+  },
+  {
+   "sembol": "0027.HK",
+   "neden": "Galaxy Entertainment, Makao oncusu"
+  },
+  {
+   "sembol": "9618.HK",
+   "neden": "JD Hong Kong hattı"
+  },
+  {
+   "sembol": "9866.HK",
+   "neden": "NIO Hong Kong hattı"
+  },
+  {
+   "sembol": "9868.HK",
+   "neden": "XPEV Hong Kong hattı"
+  },
+  {
+   "sembol": "2015.HK",
+   "neden": "LI Hong Kong hattı"
+  },
+  {
+   "sembol": "3033.HK",
+   "neden": "Hang Seng TECH ETF, KWEB oncusu"
+  },
+  {
+   "sembol": "CWEB",
+   "neden": "2x Cin internet, kaldiracli alternatif"
+  },
+  {
+   "sembol": "TSLQ",
+   "neden": "ters TSLA ETF"
+  },
+  {
+   "sembol": "RETL",
+   "neden": "3x perakende (XRT bazli)"
+  },
+  {
+   "sembol": "WANT",
+   "neden": "3x takdire bagli tuketim"
+  },
+  {
+   "sembol": "MORTGAGE30US",
+   "neden": "FRED haftalik Freddie Mac orani (Yahoo kodu yok)"
+  }
+ ]
+}

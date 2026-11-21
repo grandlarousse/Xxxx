@@ -1,0 +1,386 @@
+{
+ "hipotezler": [
+  {
+   "oncu": [
+    "CPER"
+   ],
+   "oncu_tanim": "CPER günlük getirisi (16:00 kapanış)",
+   "hedef": [
+    "COPX",
+    "FCX",
+    "SCCO",
+    "TECK"
+   ],
+   "yon": "+",
+   "mekanizma": "Bakır bilgisinin madenci fiyatına kademeli yayılması; madenci-bakır ilişkisi esnek değil, gecikmeli yetişme olabilir.",
+   "zamanlama": "CPER 16:00 ET kapanışı biliniyor; HG=F Yahoo kapanışı 13:00 ET uzlaşması olduğundan CPER tercih edilmeli.",
+   "kanit": "https://cladea.org/wp-content/uploads/2022/01/316Thilo-Wallenstein-Alfredo-Mendiola-and-Luis-Chavez-Bedoya-Analysis-of-the-Reaction-of-Mining-Stocks-to-the-Development-of-Copper-Prices.pdf",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "FCX",
+    "CPER"
+   ],
+   "oncu_tanim": "FCX getirisi eksi beta*CPER getirisi (günlük kalıntı)",
+   "hedef": [
+    "FCX"
+   ],
+   "yon": "-",
+   "mekanizma": "Metalden kopan madenci hareketi (akış/sentiment kaynaklı) 1-3 günde metal ile hizaya döner.",
+   "zamanlama": "İkisi de 16:00 ET'de kesin.",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "COPX",
+    "CPER"
+   ],
+   "oncu_tanim": "COPX ile CPER 5 günlük getiri farkı (z-skoru)",
+   "hedef": [
+    "COPX"
+   ],
+   "yon": "-",
+   "mekanizma": "Madenci sepeti ile bakır arasındaki aşırı ayrışmanın ortalamaya dönüşü.",
+   "zamanlama": "16:00 ET'de kesin.",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "FCX"
+   ],
+   "oncu_tanim": "FCX günlük getirisi (büyük ve likit madenci)",
+   "hedef": [
+    "HBM",
+    "ERO",
+    "COPJ",
+    "TECK"
+   ],
+   "yon": "+",
+   "mekanizma": "Büyük/likit hisseden küçük/ince hisseye bilgi yayılma gecikmesi (boyut öncülüğü).",
+   "zamanlama": "16:00 ET'de kesin.",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "SMH"
+   ],
+   "oncu_tanim": "Yarı iletken ETF günlük getirisi (yapay zekâ talep anlatısı)",
+   "hedef": [
+    "FCX",
+    "COPX",
+    "SCCO"
+   ],
+   "yon": "+",
+   "mekanizma": "2026'da bakır talep anlatısı veri merkezlerine bağlandı; yapay zekâ satışları bakıra ve madencilere ertesi gün de yayılabilir.",
+   "zamanlama": "16:00 ET'de kesin.",
+   "kanit": "https://news.metal.com/newscontent/HPSJFB5W7OIYMM4YPU4ZEOJU7MTVWGRUBNTCQ2A-lme-copper-hits-four-month-low-as-ai-selloff-and-china-weakness-weigh",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "HG=F",
+    "GC=F"
+   ],
+   "oncu_tanim": "Bakır/altın oranının günlük ya da 5 günlük değişimi",
+   "hedef": [
+    "^TNX"
+   ],
+   "yon": "+",
+   "mekanizma": "Büyüme beklentisi göstergesi olarak oran faizlere 1-5 gün önden gidebilir (Parnes iddiası); 2024-26'da ilişki zayıfladı.",
+   "zamanlama": "İkisi de 13:00-13:30 ET uzlaşması; 16:00'da biliniyor.",
+   "kanit": "https://www.benzinga.com/markets/bonds/26/08/61351001/dr-copper-prescribes-lower-bond-yields",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "HG=F",
+    "GC=F"
+   ],
+   "oncu_tanim": "Bakır/altın oranının 5 günlük değişimi",
+   "hedef": [
+    "XLI",
+    "IWM"
+   ],
+   "yon": "+",
+   "mekanizma": "Döngüsel risk iştahı göstergesi olarak döngüsel hisselere öncülük.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "CPER"
+   ],
+   "oncu_tanim": "CPER 21 günlük getirisi (aylık metal getirisi)",
+   "hedef": [
+    "SPY"
+   ],
+   "yon": "-",
+   "mekanizma": "Genişleme döneminde metal artışı aşırı ısınma/faiz baskısı sinyali; ileri getiriyi düşürür (aylık kanıt, 1-3 güne uyarlanmalı).",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "https://pubsonline.informs.org/doi/pdf/10.1287/mnsc.2017.2933",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "CNH=X"
+   ],
+   "oncu_tanim": "Offshore yuanın günlük değişimi (CNH güçlenmesi = USD/CNH düşüşü)",
+   "hedef": [
+    "CPER",
+    "COPX",
+    "FCX"
+   ],
+   "yon": "-",
+   "mekanizma": "USD/CNH düşüşü Çin talep/teşvik beklentisini ve dolar zayıflığını yansıtır; metal ve madencileri destekler.",
+   "zamanlama": "7/24 işlem; 16:00 ET değeri Yahoo günlük kapanışından farklı olabilir.",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "DX-Y.NYB"
+   ],
+   "oncu_tanim": "Dolar endeksi günlük getirisi",
+   "hedef": [
+    "CPER",
+    "DBB",
+    "COPX"
+   ],
+   "yon": "-",
+   "mekanizma": "Dolar cinsi metal fiyatının kur etkisi; etki çoğunlukla eş zamanlı, ertesi gün kalıntı test edilir.",
+   "zamanlama": "16:00 ET civarı biliniyor.",
+   "kanit": "https://www.thestar.com.my/business/business-news/2026/11/02/copper-falls-as-technology-rout-and-oil-surge-fuel-growth-fears",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "000001.SS"
+   ],
+   "oncu_tanim": "Şanghay bileşik endeksi günlük getirisi (t günü, 02:00 ET kapanır)",
+   "hedef": [
+    "COPX",
+    "FCX",
+    "VALE",
+    "BHP"
+   ],
+   "yon": "+",
+   "mekanizma": "Çin risk iştahı ABD madencilerine yansır; t günü bilgisinin ABD t kapanışından sonra da sürmesi test edilir.",
+   "zamanlama": "ABD açılışından önce biliniyor; büyük ölçüde t kapanışında fiyatlanmış olmalı.",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "HRC=F"
+   ],
+   "oncu_tanim": "HRC vadelisinin 5 günlük getirisi",
+   "hedef": [
+    "NUE",
+    "STLD",
+    "CMC"
+   ],
+   "yon": "+",
+   "mekanizma": "ABD çelik fiyatı marjı belirler; ince vadeli ile hisseler arasında gecikmeli uyum olabilir.",
+   "zamanlama": "CME uzlaşması gün içinde; 16:00 ET'de biliniyor ama vadeli çok ince.",
+   "kanit": "https://news.metal.com/newscontent/VGWV5ESGOUN75OUSFY24ERSLFBYENATE3XUJK3Q-nucor-raises-weekly-hrc-spot-offer-to-1295short-ton",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "NUE"
+   ],
+   "oncu_tanim": "NUE günlük getirisi",
+   "hedef": [
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "yon": "+",
+   "mekanizma": "Sektör lideri hisseden daha az takip edilen/daha oynak çelik hisselerine yayılma.",
+   "zamanlama": "16:00 ET'de kesin.",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "TIO=F"
+   ],
+   "oncu_tanim": "SGX demir cevheri vadelisinin günlük getirisi",
+   "hedef": [
+    "VALE",
+    "RIO",
+    "BHP",
+    "CLF"
+   ],
+   "yon": "+",
+   "mekanizma": "Cevher fiyatı üretici gelirini doğrudan belirler; Asya'da oluşan fiyatın ADR'lere yansıması test edilir.",
+   "zamanlama": "Yahoo kapanış saati belirsiz (Asya seansı); hizalama kontrol edilmeli.",
+   "kanit": "https://tradingeconomics.com/commodity/iron-ore-cny/news/601447",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "VALE",
+    "RIO"
+   ],
+   "oncu_tanim": "VALE ile RIO günlük getiri farkı",
+   "hedef": [
+    "VALE"
+   ],
+   "yon": "-",
+   "mekanizma": "Aynı emtiaya bağlı iki üretici arasındaki geçici ayrışmanın kapanması.",
+   "zamanlama": "16:00 ET'de kesin.",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "ALI=F"
+   ],
+   "oncu_tanim": "COMEX alüminyum vadelisi günlük getirisi",
+   "hedef": [
+    "AA",
+    "CENX",
+    "KALU"
+   ],
+   "yon": "+",
+   "mekanizma": "ABD alüminyum fiyatı (LME + Midwest primi) üretici marjını belirler.",
+   "zamanlama": "Uzlaşma gün içinde; vadeli çok ince, veri kalitesi düşük olabilir.",
+   "kanit": "https://www.engineeringnews.co.za/article/cutting-canada-tariffs-alone-wont-flatten-us-aluminum-premium-alcoa-says-2026-09-11",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "DBB"
+   ],
+   "oncu_tanim": "DBB (Cu/Al/Zn sepeti) günlük getirisi",
+   "hedef": [
+    "AA",
+    "CENX",
+    "TECK"
+   ],
+   "yon": "+",
+   "mekanizma": "Sepet fiyatından alüminyum ve çinko hisselerine gecikmeli yansıma.",
+   "zamanlama": "16:00 ET'de kesin (LME 12:50 ET'de kapanmış olur).",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "300750.SZ"
+   ],
+   "oncu_tanim": "CATL günlük getirisi (Çin pil zinciri; t günü 03:00 ET kapanır)",
+   "hedef": [
+    "ALB",
+    "SQM",
+    "LIT"
+   ],
+   "yon": "+",
+   "mekanizma": "Çin pil talebi ve lityum fiyat beklentisi Batı lityum üreticilerine yansır.",
+   "zamanlama": "ABD açılışından önce biliniyor; t kapanışında büyük ölçüde fiyatlanmış olmalı.",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "ALB"
+   ],
+   "oncu_tanim": "ALB günlük getirisi",
+   "hedef": [
+    "SQM",
+    "SGML",
+    "LAC",
+    "LIT"
+   ],
+   "yon": "+",
+   "mekanizma": "Lider lityum hissesinden küçük/ince lityum hisselerine yayılma.",
+   "zamanlama": "16:00 ET'de kesin.",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "MP"
+   ],
+   "oncu_tanim": "MP günlük getirisi; |r|>2 sigma olay günleri",
+   "hedef": [
+    "MP",
+    "REMX"
+   ],
+   "yon": "+",
+   "mekanizma": "Çin ihracat kısıtı/ABD politika haberlerinde bilgi momentumu (haber sonrası sürüklenme).",
+   "zamanlama": "Haber çoğunlukla Asya saatinde; olay günü kapanışı 16:00 ET'de kesin.",
+   "kanit": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "GLD"
+   ],
+   "oncu_tanim": "GLD günlük getirisi",
+   "hedef": [
+    "CPER",
+    "COPX"
+   ],
+   "yon": "+",
+   "mekanizma": "Metal kompleksinde ortak fon akışı/dolar şoku; altın hareketinin bakıra ertesi gün yayılması.",
+   "zamanlama": "16:00 ET'de kesin.",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "CPER"
+   ],
+   "oncu_tanim": "Takvim olayı: Çin NBS PMI öncesi cuma kapanışı (ay sonu hafta sonu)",
+   "hedef": [
+    "COPX",
+    "FCX"
+   ],
+   "yon": "+",
+   "mekanizma": "Veri öncesi belirsizlik primi; PMI açıklaması (20:30 ET) sonrası pazartesi boşluğunun ortalama işareti test edilir.",
+   "zamanlama": "PMI ABD kapanışından sonra (önceki gün 20:30 ET) gelir.",
+   "kanit": "https://www.financecalendar.com/?p=2449",
+   "oncelik": 3
+  }
+ ],
+ "ek_semboller": [
+  {
+   "sembol": "COPZ",
+   "neden": "2x COPX kaldıraçlı ürün; likidite ve izleme farkı kontrolü"
+  },
+  {
+   "sembol": "CPXR",
+   "neden": "2x bakır vadeli ETF (K-1)"
+  },
+  {
+   "sembol": "UCOP",
+   "neden": "2x bakır, K-1'siz alternatif"
+  },
+  {
+   "sembol": "USAR",
+   "neden": "Nadir toprak, MP ile birlikte Çin kontrol listesinde"
+  },
+  {
+   "sembol": "ANTO.L",
+   "neden": "Saf bakır üreticisi; Londra kapanışı (11:30 ET) ABD kapanışından önce biliniyor, öncü aday"
+  },
+  {
+   "sembol": "FM.TO",
+   "neden": "First Quantum, bakır; Toronto eş zamanlı kontrol"
+  },
+  {
+   "sembol": "PLS.AX",
+   "neden": "Pilbara lityum; ASX seansı ABD'den önce, lityum öncüsü aday"
+  },
+  {
+   "sembol": "LYC.AX",
+   "neden": "Lynas nadir toprak; ASX'te ABD'den önce işlem görür"
+  }
+ ]
+}

@@ -1,0 +1,395 @@
+{
+ "hipotezler": [
+  {
+   "oncu": [
+    "RB=F",
+    "HO=F",
+    "CL=F"
+   ],
+   "oncu_tanim": "3-2-1 crack ($/varil: (2*RB*42+HO*42-3*CL)/3) günlük değişimi; % yerine $ farkı ya da z-skoru kullan (crack sıfıra yakınken % patlar)",
+   "hedef": [
+    "PBF",
+    "VLO",
+    "DK",
+    "CVI",
+    "PARR",
+    "CRAK"
+   ],
+   "yon": "+",
+   "mekanizma": "Rafineri marjındaki değişim hisse fiyatına gecikmeli yansıyor; küçük ve kaldıraçlı rafineriler daha yavaş ve daha duyarlı.",
+   "zamanlama": "NYMEX uzlaşması 14:30 ET, 16:00'da biliniyor; hızlı tarama 2016+ PBF t+1 t≈3,3, VLO t≈3,1",
+   "kanit": "önsel + kendi hızlı taramamız (ek/sektor/s6_enerji.md)",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "RB=F",
+    "HO=F",
+    "CL=F"
+   ],
+   "oncu_tanim": "3-2-1 crack 3 günlük değişimi",
+   "hedef": [
+    "PBF",
+    "DK",
+    "CRAK"
+   ],
+   "yon": "+",
+   "mekanizma": "Marj eğilimi birkaç günde fiyatlanıyor; 3 günlük hedef getiriyle test.",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "kendi taramamız: crack->PBF 3 gün c=0,109 (2023+)",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "USO"
+   ],
+   "oncu_tanim": "WTI ETF günlük getirisi (16:00 kapanışı)",
+   "hedef": [
+    "OIH",
+    "XLE",
+    "XOP",
+    "SLB",
+    "HAL",
+    "RIG"
+   ],
+   "yon": "+",
+   "mekanizma": "Hizmet ve E&P hisseleri petrol şokunu kısmen ertesi gün fiyatlıyor; yalnız 2023+ (savaş) rejiminde görülüyor.",
+   "zamanlama": "USO 16:00'da kapanır, eşzamanlı; rejim ayrımıyla test (2016-2022 vs 2023+)",
+   "kanit": "https://mpra.ub.uni-muenchen.de/15670/1/MPRA_paper_15670.pdf (aylık, sektör); kendi taramamız 2023+ USO->OIH t≈2,3, 2016+ sıfır",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "USO",
+    "CL=F"
+   ],
+   "oncu_tanim": "USO günlük getirisi eksi CL=F uzlaşma getirisi (14:30-16:00 arası petrol hareketi)",
+   "hedef": [
+    "CL=F"
+   ],
+   "yon": "+",
+   "mekanizma": "Saat farkı artefaktı: CL=F ertesi gün uzlaşmada 16:00'a kadar olan hareketi yakalar; hisse hedefli testlerde CL=F öncü kullanılırsa sahte öncülük üretir.",
+   "zamanlama": "kontrol/temizlik testi; işlem sinyali değil",
+   "kanit": "kendi taramamız 2023+ c=0,118 t≈3,2",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "VLO",
+    "MPC"
+   ],
+   "oncu_tanim": "Büyük rafineri günlük getirisi",
+   "hedef": [
+    "PBF",
+    "DK",
+    "PARR",
+    "CVI"
+   ],
+   "yon": "-",
+   "mekanizma": "ABD içinde aynı seansta işlem görüldüğü için öncülük yok; küçük rafinerilerde ertesi gün kısmi geri dönüş var.",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "kendi taramamız 2016+ MPC->PBF t≈-3,9, VLO->PARR t≈-3,1; 2023+ sıfır",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "PBF",
+    "DK",
+    "PARR",
+    "CVI"
+   ],
+   "oncu_tanim": "Küçük rafineri ile VLO arasındaki günlük getiri farkı (göreli aşırı tepki)",
+   "hedef": [
+    "PBF",
+    "DK",
+    "PARR",
+    "CVI"
+   ],
+   "yon": "-",
+   "mekanizma": "Sepet içi aşırı tepkinin ertesi gün düzelmesi (çift işlem / dönüş).",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "önsel + yukarıdaki negatif gecikme",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "XOP"
+   ],
+   "oncu_tanim": "XOP kendi günlük getirisi (büyük hareket, |z|>2)",
+   "hedef": [
+    "XOP",
+    "GUSH"
+   ],
+   "yon": "-",
+   "mekanizma": "Günlük kısa vadeli dönüş; 2016+ negatif otokorelasyon, 2023+ hafif pozitif: rejime bağlı.",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "kendi taramamız 2016+ t≈-2,5",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "^OVX"
+   ],
+   "oncu_tanim": "Petrol oynaklık endeksi günlük değişimi",
+   "hedef": [
+    "XOP",
+    "OIH"
+   ],
+   "yon": "+",
+   "mekanizma": "Korku sıçraması sonrası enerji hisselerinde kısmi toparlanma.",
+   "zamanlama": "CBOE endeksi 16:15'e kadar hesaplanır; 16:00 değeri kullanılmalı",
+   "kanit": "kendi taramamız 2016+ c=0,043 t≈2,2",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "oncu_tanim": "Brent-WTI farkı günlük değişimi",
+   "hedef": [
+    "PBF",
+    "VLO",
+    "MPC",
+    "DINO"
+   ],
+   "yon": "+",
+   "mekanizma": "Brent primi arttıkça WTI ile çalışan ABD iç bölge rafinerilerinin hammadde avantajı artar.",
+   "zamanlama": "Brent ICE 19:30 Londra'ya kadar, Yahoo kapanış saati farklı; 16:00 hizalamasını kontrol et",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "UNG"
+   ],
+   "oncu_tanim": "Doğal gaz ETF günlük getirisi",
+   "hedef": [
+    "EQT",
+    "AR",
+    "EXE",
+    "CNX",
+    "FCG"
+   ],
+   "yon": "+",
+   "mekanizma": "Gaz üreticileri gazı gecikmeli fiyatlar; hızlı taramada bulunamadı (sıfır ya da negatif), olumsuz sonucu teyit için.",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "kendi taramamız 2023+ NG=F->AR t≈-2,1 (ters işaret)",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "UNG"
+   ],
+   "oncu_tanim": "Perşembe (depolama raporu günü) UNG getirisi",
+   "hedef": [
+    "EQT",
+    "AR",
+    "EXE"
+   ],
+   "yon": "+",
+   "mekanizma": "Depolama sürprizi gaz fiyatına anında, hisselere kısmen gecikmeli yansıyabilir; yalnız rapor günleriyle koşullu test.",
+   "zamanlama": "EIA depolama Perşembe 10:30 ET (tatil haftası Çarşamba 12:00), 16:00'da biliniyor",
+   "kanit": "https://ir.eia.gov/ngs/schedule.html",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "USO"
+   ],
+   "oncu_tanim": "Çarşamba (EIA petrol raporu günü) USO getirisi",
+   "hedef": [
+    "XOP",
+    "OIH"
+   ],
+   "yon": "+",
+   "mekanizma": "Stok sürprizi günlerinde petrol hareketi bilgi içerir; hisselerin ertesi gün devamı test edilir.",
+   "zamanlama": "EIA WPSR Çarşamba 10:30 ET (tatil haftası Perşembe 12:00)",
+   "kanit": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "SRUUF"
+   ],
+   "oncu_tanim": "Sprott Fiziksel Uranyum Tröstü günlük getirisi (spot vekili)",
+   "hedef": [
+    "CCJ",
+    "UEC",
+    "NXE",
+    "URA",
+    "URNM"
+   ],
+   "yon": "+",
+   "mekanizma": "Spot uranyum fiyatı madencilere gecikmeli yansır; hızlı taramada sıfır, düşük likidite (SRUUF hacmi ~10 mn $).",
+   "zamanlama": "SRUUF ABD OTC 16:00; ana işlem TSX'te (U-UN.TO) aynı saat",
+   "kanit": "kendi taramamız sıfır; önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "CCJ"
+   ],
+   "oncu_tanim": "Cameco günlük getirisi",
+   "hedef": [
+    "UEC",
+    "NXE",
+    "DNN",
+    "UUUU"
+   ],
+   "yon": "+",
+   "mekanizma": "Sektör liderinden küçüklere bilgi yayılımı; hızlı taramada sıfır.",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "kendi taramamız sıfır",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "CEG"
+   ],
+   "oncu_tanim": "Constellation günlük getirisi",
+   "hedef": [
+    "VST",
+    "TLN",
+    "NRG",
+    "OKLO",
+    "SMR"
+   ],
+   "yon": "+",
+   "mekanizma": "Nükleer/güç liderinden yüksek betalı takipçilere yayılım; hızlı taramada CEG->VST hafif negatif.",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "kendi taramamız 2023+ c=-0,041",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "XLU",
+    "^TNX"
+   ],
+   "oncu_tanim": "10 yıllık getiri günlük değişimi (baz puan) ve kamu hizmeti ETF getirisi",
+   "hedef": [
+    "TAN",
+    "ENPH",
+    "RUN",
+    "SEDG",
+    "ICLN"
+   ],
+   "yon": "-",
+   "mekanizma": "Faiz artışı uzun vadeli finansmana bağlı güneş şirketlerini ertesi gün de baskılar; hızlı taramada 2016+ TAN t≈-1,9.",
+   "zamanlama": "^TNX 15:00 civarı nakit piyasa kapanışı; 16:00'da biliniyor",
+   "kanit": "kendi taramamız zayıf",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "FSLR"
+   ],
+   "oncu_tanim": "First Solar günlük getirisi",
+   "hedef": [
+    "ENPH",
+    "SEDG",
+    "RUN",
+    "ARRY",
+    "NXT",
+    "TAN"
+   ],
+   "yon": "+",
+   "mekanizma": "Sektör liderinden küçüklere yayılım; hızlı taramada FSLR->TAN sıfır.",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "SLX",
+    "HG=F"
+   ],
+   "oncu_tanim": "Çelik ETF ve bakır günlük getirisi",
+   "hedef": [
+    "HCC",
+    "AMR",
+    "BTU"
+   ],
+   "yon": "+",
+   "mekanizma": "Metalurjik kömür talebi çelik çevrimine bağlı; hızlı taramada sıfır.",
+   "zamanlama": "16:00'da biliniyor (HG=F COMEX 13:00 ET uzlaşma)",
+   "kanit": "kendi taramamız sıfır",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "LNG"
+   ],
+   "oncu_tanim": "Cheniere günlük getirisi",
+   "hedef": [
+    "CQP"
+   ],
+   "yon": "+",
+   "mekanizma": "Ana şirketten bağlı ortaklığa (düşük likit CQP) gecikmeli yansıma; hızlı taramada sıfır.",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "kendi taramamız sıfır",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "TTF=F"
+   ],
+   "oncu_tanim": "Hollanda TTF gaz vadeli günlük getirisi",
+   "hedef": [
+    "LNG",
+    "EQT",
+    "EXE"
+   ],
+   "yon": "+",
+   "mekanizma": "Avrupa gaz fiyatı ABD LNG ihracat marjını sürer; Avrupa seansı ABD kapanışından önce biter.",
+   "zamanlama": "ICE Endex Londra 17:30 civarı = 12:30 ET, 16:00'da biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "USO"
+   ],
+   "oncu_tanim": "Cuma USO getirisi ve OPEC+ toplantı haftası göstergesi (Pazar toplantısı)",
+   "hedef": [
+    "XOP",
+    "ERX",
+    "DRIP"
+   ],
+   "yon": "+",
+   "mekanizma": "Hafta sonu OPEC+ kararından önce fiyatlanma; Pazartesi açılış boşluğu riski ölçülür (olay çalışması).",
+   "zamanlama": "OPEC+ toplantıları çoğunlukla Pazar; sonraki 29 Kasım 2026",
+   "kanit": "https://www.opec.org/pr-detail/2033620-1-november-2026.html",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "XLE"
+   ],
+   "oncu_tanim": "XLE eksi SPY günlük getiri farkı",
+   "hedef": [
+    "XLE",
+    "ERX"
+   ],
+   "yon": "-",
+   "mekanizma": "Enerji ile piyasa arasındaki günlük ayrışmanın kısmi dönüşü; 2026'da negatif beta nedeniyle rejime bağlı.",
+   "zamanlama": "16:00'da biliniyor",
+   "kanit": "önsel + XLE kendi gecikmesi 2016+ t≈-2,0",
+   "oncelik": 3
+  }
+ ],
+ "ek_semboller": [
+  {
+   "sembol": "TTF=F",
+   "neden": "Avrupa gaz fiyatı, LNG ve gaz üreticileri için öncü aday."
+  },
+  {
+   "sembol": "U-UN.TO",
+   "neden": "Sprott Fiziksel Uranyum Tröstü'nün ana (TSX) kotasyonu; SRUUF düşük likit."
+  },
+  {
+   "sembol": "CCO.TO",
+   "neden": "Cameco'nun TSX kotasyonu, CCJ ile kur farkı kontrolü."
+  }
+ ]
+}
