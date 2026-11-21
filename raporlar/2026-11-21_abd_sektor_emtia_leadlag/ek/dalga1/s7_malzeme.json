@@ -1,0 +1,85 @@
+{
+ "arac": "18/35 (web arama kotası tükendi: oturum genelinde 200 arama sınırına dayanıldı; ilk WebSearch reddedildi; doğrudan URL ile yalnız 2 kaynak açılabildi: Direxion ve SSGA. VanEck ve Global X 5 denemeden önce 302/429 hatası verdi)",
+ "ozet": "Araç seçimi (likidite ve oynaklık ozet_istatistik.csv'den):\n- Altın madencileri: GDX (2.197 mn $, σ %3,27) ve GDXJ (560). Kaldıraçlı: NUGT/DUST 2x/−2x (gider %1,13/0,99) ve JNUG/JDST 2x/−2x (%1,03/0,92). Öncü hisseler: NEM, AEM, B, WPM, AU, KGC. Yüksek betalı: CDE, BTG, GFI, EGO, IAG.\n- Gümüş madencileri: SILJ ve SIL. Öncü hisseler: HL, CDE, PAAS, AG. Yüksek betalı: EXK.\n- Bakır ve çeşitlendirilmiş: COPX, XME, PICK. Hisseler: FCX, VALE, BHP, RIO, SCCO, TECK. Yüksek betalı: HBM, ERO.\n- Çelik ve alüminyum: likit ETF yok (SLX 1,6 mn $), hisse kullanılmalı: NUE, STLD, CLF, AA, RS, CMC, CENX.\n- Lityum ve nadir toprak: REMX ile MP, ALB, SQM. LIT eşiğin altında.\n- Kimya ve gübre: XLB (gider %0,08) ile LIN, SHW, ECL, APD, DOW, LYB, CF, MOS, NTR.\n- İnşaat malzemesi ve orman: saf ETF yok (WOOD 1,1 mn $), hisse kullanılmalı: CRH, MLM, VMC, IP, WY, LPX.\n\nKritik bulgu: NUGT ve JNUG'un 1 Nisan 2020'den önceki verisi 3x hedefe ait. Backtest'te bu dönem doğrudan kullanılmamalı.\n\nYerel ön hesap (ortak.py ile 2012–19 ve 2020–26 dönemleri, 5 bps maliyet) ana hipotezi çürüttü. Emtiadan hisseye ertesi gün öncülüğü yok: GLD→GDX, CPER→FCX, SLV→SIL, HRC→NUE ve LBR→WY sıfıra yakın ya da negatif. Vadeli çubuklarında ileri bakış sızıntısı görülmedi.\n\nDaha tutarlı adaylar:\n1. GDX z>1 → ertesi gün COPX, PICK, REMX: iki dönemde de t > 2; işlem testinde net +14,5 bps, ancak son dönemde negatif.\n2. UUP → REMX ters yönde (t −2,7 / −2,2).\n3. SPY ve ^AXJO → XME ters yönde (2020+ t −4,2 / −3,2).\n4. Göreli düşüşten sonra toparlanma: LIN z<−1,5 (3 günde +44 bps, t 2,0), GDXJ'nin GDX'e göre artığı (1 günde +47 bps, t 2,2), CF'nin XLB'ye göre artığı (3 günde +56 bps, t 1,9).\n\nTIP→GDX korelasyonu yüksek (2020+ t 4,0), ama işlem testinde kullanılamaz (net −4,6 bps). FCX ve COPX'in bakıra göre düşüşü toparlanmıyor, sürüyor. Çoklu test düzeltmesi yapılmadı.\n\n2026 durumu: madenciler sert düzeltmede (1 ayda GDX −%16, FCX −%29, yıl başından beri HL −%45). Yıl başından beri kimya, gübre ve çelik pozitif (CF +%52, LYB +%33, NUE +%48), inşaat malzemesi negatif (CRH −%28). Metal anlatısı e2 ve e3 kartlarından alındı. Kimya, gübre ve inşaat anlatısı ile takvimin bir kısmı doğrulanmadı.\n\nDosyalar: sektör kartında 6 bölüm ve 26 satırlık iddia defteri var. Hipotez dosyasında 20 hipotez ve 12 ek sembol var; tüm semboller evrende doğrulandı.",
+ "kilit_defter": [
+  {
+   "iddia": "NUGT/DUST 2x/−2x, MarketVector Global Gold Miners Index'i izliyor",
+   "kaynak": "https://www.direxion.com/product/daily-gold-miners-index-bull-bear-2x-etfs",
+   "alinti": "200%, or 200% of the inverse ... MarketVector Global Gold Miners Index",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "NUGT/DUST'ın 1 Nisan 2020 öncesi performansı 3x hedefe ait",
+   "kaynak": "https://www.direxion.com/product/daily-gold-miners-index-bull-bear-2x-etfs",
+   "alinti": "performance shown prior to April 1, 2020, reflects the Funds' previous daily leveraged investment objectives",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "NUGT gideri %1,13, DUST %0,99 (net); 2025'te yeni endeks",
+   "kaynak": "https://www.direxion.com/product/daily-gold-miners-index-bull-bear-2x-etfs",
+   "alinti": "1.13 / 1.13*; 1.04 / 0.99*; 07/24/2025 New Index for NUGT & DUST",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "JNUG/JDST 2x/−2x MVIS Global Junior Gold Miners; gider %1,03/0,92; JDST açılıştan beri −%100",
+   "kaynak": "https://www.direxion.com/product/daily-junior-gold-miners-index-bull-bear-2x-etfs",
+   "alinti": "1.03 / 1.03*; 0.92 / 0.92*; Since Inception ( 10/03/2013 ) -100.00",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "XLB gideri %0,08",
+   "kaynak": "https://www.ssga.com/us/en/intermediary/etfs/the-materials-select-sector-spdr-fund-xlb",
+   "alinti": "Gross Expense Ratio 0.08",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Ön hesap: GDX→COPX ertesi gün iki dönemde de pozitif",
+   "kaynak": "yerel: kod/ortak.py tarama + donemli_test",
+   "alinti": "t 3.73 (2012-19), 2.86 (2020-26); net +14.5 bps t 2.17; son dönem -7.5 bps",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Ön hesap: UUP→REMX ters yönde",
+   "kaynak": "yerel: kod/ortak.py tarama",
+   "alinti": "t -2.72 / -2.22",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Ön hesap: emtiadan madenciye ertesi gün öncülüğü yok",
+   "kaynak": "yerel: kod/ortak.py tarama",
+   "alinti": "GLD->GDX t -2.59/-0.73; CPER->FCX -1.21/-2.12; HRC->NUE 0.47/0.62",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Ön hesap: TIP→GDX korelasyonu işlemde kâra dönmüyor",
+   "kaynak": "yerel: kod/ortak.py donemli_test",
+   "alinti": "corr t 4.03 (2020+), ±1σ işlemi net -4.6 bps (h1)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Ön hesap: LIN, GDXJ ve CF'de göreli düşüşten sonra toparlanma",
+   "kaynak": "yerel: kod/ortak.py donemli_test",
+   "alinti": "LIN h3 +44.5 bps t 2.02; GDXJ~GDX h1 +46.7 t 2.23; CF~XLB h3 +56.5 t 1.88",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Vadeli çubuklarında ertesi geceye sızma yok (ileri bakış hatası yok)",
+   "kaynak": "yerel: korelasyon testi",
+   "alinti": "TIO=F->VALE gece 0.01; ALI=F->AA -0.02; NG=F->CF 0.03",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Altından madencilere öncülük kısa vadede zayıf (aykırı kanıt)",
+   "kaynak": "https://www.cxoadvisory.com/gold/gold-futures-vs-gold-miner-stocks/",
+   "alinti": "gold futures lead miner returns by at least a week",
+   "guven": "düşük (l2 kartından)"
+  }
+ ],
+ "acik_kalanlar": "1) Web arama kotası tükendi (oturum genelinde 200 arama sınırı). Yanıtlanamayanlar: kimya, gübre ve inşaat malzemesinin 2026 anlatısı (CF +%52 ve DOW/LYB +%28–33'ün nedeni, CRH ve MLM düşüşü); GDX, GDXJ, SIL, SILJ, SLX, WOOD ve MOO gider oranları; WASDE, konut başlangıçları ve ISM tarihleri; Şükran Günü tatili. Bunlar kartta \"doğrulanmadı (bellek)\" etiketli. Kullanıcı kotayı artırırsa ya da yeni mesajla devam ederse dar bir takip görevi açılabilir. 2) CTVA (7,89 $, 1 ayda −%38,6) ve FMC (3,89 $) fiyatları spin-off ya da bölünme ayarı hatası olabilir; veri kontrolü gerekli. 3) NUGT/DUST'ın izlediği endeksin GDX'in endeksiyle aynı olup olmadığı doğrulanmadı. 4) Ön hesap tarama düzeyinde: çoklu test (FDR) düzeltmesi yok, aday sinyallerin çoğu son dönemde zayıflıyor. Hipotezlerin backtest ajanında tam test edilmesi gerekiyor. NUGT ve JNUG için 2020 öncesi 3x veri sentetik 2x seriyle değiştirilmeli. 5) TIO=F'nin Yahoo kapanış saati belirsiz. 6) Hipotezlerin bir kısmı e2/e3 kartlarıyla örtüşüyor (TIP→GDX, HRC→NUE, CPER→FCX); birleştirirken tekilleştirilmeli.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/sektor/s7_malzeme.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s7_malzeme.json",
+  "/tmp/claude-0/-home-user-Xxxx/51eabf1c-1e0f-5490-9433-deeff329e14d/scratchpad/s7_tarama.py",
+  "/tmp/claude-0/-home-user-Xxxx/51eabf1c-1e0f-5490-9433-deeff329e14d/scratchpad/s7_test2.py"
+ ]
+}

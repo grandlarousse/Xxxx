@@ -1,0 +1,85 @@
+{
+ "arac": "24/35. Web arama kotası (oturum geneli 200) daha ilk aramada dolmuştu. Bu yüzden web kanıtı yalnız doğrudan açılan sayfalardan geldi: Direxion, Fed, investingLive, NBER, NY Fed. Eksik kalan yer kendi veri taramamızla dolduruldu.",
+ "ozet": "Grup son haftada sert satıldı. 5 günde XLF -%7, KRE -%6, GS -%14, MS -%13; VIX 35,9.\n\n2026'nın kazananları:\n- sigorta: TRV +%37, ALL +%30\n- CBOE: +%44\n- sağlık ve veri merkezi GYO'ları: WELL +%31, EQIX +%29\n\nKaybedenleri:\n- kripto zinciri: BTC -%33, COIN -%55, IREN -%69\n- alternatif yöneticiler: KKR -%30, CG -%37\n- mortgage GYO'ları: AGNC -%19\n\nFed'in 8-9 Aralık'ta 25 bp artırması bekleniyor. Eylül TÜFE %3,7, ^TNX 4,91.\n\nAraç tablosu hazır. Likit kaldıraçlı ürünler: FAS/FAZ (3x, gider %0,88/%1,03), sınırda hacimli DPST (3x, 25 milyon $), BITX ve CONL. Likit olmayanlar: IAI, BLOK, BITQ, REM. XLF saf banka teması değil, endeksin %26'sı BRK-B, V ve MA.\n\nTaramada (2010-26, ayrıca 2016-22 ve 2023-26) en sağlam aday bir öncü değil, koşullu dönüş. Kural: IBS < 0,2 ve VIX > 25 iken kapanışta al, 3 gün tut. 3 günlük ortalama getiri iki ayrı dönemde (2005-14 ve 2015-23) pozitif:\n- XLF: 139 / 94 bp\n- KRE: 187 / 99 bp\n- KIE: 78 / 79 bp\n\nBu t değerleri örtüşme düzeltmesiz. Koşul şu an açık. Sigortada sade dönüş de var: KIE 5 günde -%3 sonrası üç dönemde 52-79 bp.\n\nListedeki hipotezlerin çoğu çalışmadı:\n- JPM/XLF -> KRE ertesi gün dönüşü 2023 sonrası zayıfladı.\n- IBIT -> MSTR ve madenciler: öncülük yok, hatta ters işaret.\n- Kredi spreadi -> alternatif yöneticiler ve eğim -> bölgesel bankalar: sonuç yok ya da işaret ters.\n- dVIX -> CBOE/CME: 2023 sonrası işaret döndü.\n- TLT -> GYO ertesi gün ilişkisi 2010-22'de güçlü (t ≈ 4), 2023 sonrasında zayıf. Eşikli işlem olarak maliyet sonrası anlamsız.\n\nYeni bulgu: madenciler artık BTC'den çok yapay zekâ bulut hisseleriyle birlikte hareket ediyor. Son 6 ayda CORZ-CRWV korelasyonu 0,78, CORZ-IBIT 0,31. BTC teması için COIN ve MSTR kullanılmalı.\n\nZamanlama tuzağı: BTC-USD çubuğu 16:00 ET'den sonra kapanıyor. 16:00 bilgisi için IBIT kullanılmalı. H.8 cuma 16:15'te, yani kapanıştan sonra yayımlanıyor. Hipotez dosyasında 19 test edilebilir satır var.",
+ "kilit_defter": [
+  {
+   "iddia": "XLF/KRE/KIE IBS<0,2 & VIX>25 sonrası 3 günlük getiri iki dönemde pozitif",
+   "kaynak": "kendi taraması (kod/l3_hizli_test.py)",
+   "alinti": "XLF 139/94 bp, KRE 187/99 bp, KIE 78/79 bp (2005-14/2015-23); 2024-26 n=11-18",
+   "guven": "orta (t örtüşme düzeltmesiz)"
+  },
+  {
+   "iddia": "Dönüş getirisi VIX ile öngörülebilir",
+   "kaynak": "https://www.nber.org/papers/w17653.pdf",
+   "alinti": "highly predictable with the VIX index",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "JPM->KRE ertesi gün dönüşü 2023 sonrası zayıfladı",
+   "kaynak": "kendi taraması (ortak.tarama)",
+   "alinti": "t -6,2 (2010-26), -1,7 (2023-26)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "IBIT madencileri ve MSTR'yi öncülemiyor; madenciler CRWV ile hareket ediyor",
+   "kaynak": "kendi hesabı",
+   "alinti": "IBIT->MSTR t -2,3; CORZ-CRWV 0,78, CORZ-IBIT 0,31 (2026-05-20 sonrası)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "BTC-USD çubuğu 16:00 ET'den sonra kapanıyor, öncü olarak sızıntı üretir",
+   "kaynak": "ek/hizalama_testi.csv",
+   "alinti": "BTC-USD -> IBIT ertesi gece farkı 0,315",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "TLT -> GYO ertesi gün ilişkisi 2023 sonrası zayıfladı",
+   "kaynak": "kendi taraması",
+   "alinti": "XLRE t 4,1 (2010-22), 1,1 (2023+); TLT z>1 işlem VNQ net 10 bp t 1,7",
+   "guven": "orta"
+  },
+  {
+   "iddia": "FAS 3x / FAZ -3x, net gider %0,88 / %1,03",
+   "kaynak": "https://www.direxion.com/uploads/FAS-FAZ-Fact-Sheet.pdf",
+   "alinti": "Daily Target 300% -300% ... Net Expense Ratio* 0.88% 1.03%",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "XLF endeksinde en büyük ağırlıklar banka dışı",
+   "kaynak": "https://www.direxion.com/uploads/FAS-FAZ-Fact-Sheet.pdf",
+   "alinti": "Berkshire Hathaway Class B 12.34 JP Morgan Chase 11.70 Visa Incorporation 8.15 Mastercard 5.93",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "DPST 3x bölgesel banka, gider %0,92",
+   "kaynak": "https://www.direxion.com/uploads/DPST-Fact-Sheet.pdf",
+   "alinti": "Daily Target 300% Gross Expense Ratio 0.92% Net Expense Ratio* 0.92%",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Fed H.8 kapanıştan sonra, cuma 16:15'te yayımlanır",
+   "kaynak": "https://www.federalreserve.gov/releases/h8/",
+   "alinti": "These data are released each Friday, generally at 4:15 p.m.",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Son 2026 FOMC toplantısı 8-9 Aralık, piyasa artış fiyatlıyor",
+   "kaynak": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm ; https://investinglive.com/central-banks/icymi-citi-now-expects-a-december-fed-rate-hike-after-hotter-september-us-inflation/",
+   "alinti": "December 8-9* ; Markets price roughly a 94% chance of a December hike",
+   "guven": "yüksek / orta (14.10.2026 tarihli)"
+  },
+  {
+   "iddia": "Aykırı kanıt: eski bir zamanlama anomalisi 2021 sonrası kayboldu",
+   "kaynak": "https://libertystreeteconomics.newyorkfed.org/2026/07/the-disappearing-overnight-drift/",
+   "alinti": "has averaged close to zero since 2021",
+   "guven": "yüksek"
+  }
+ ],
+ "acik_kalanlar": "- Web arama kotası doluydu. Bu yüzden 2026 haber anlatısı (özel kredi stresi, banka satışının nedeni, kripto çöküşünün nedeni) kaynakla doğrulanamadı. Elimde yalnız bir investingLive başlığı ve ozet_istatistik sayıları var.\n- Takvimdeki şu tarihler bellekten, doğrulanmadı: Kasım TÜFE tarihi, Şükran Günü kapanışı, Ocak bilanço tarihleri.\n- CONL ve BITX gider oranları doğrulanamadı: GraniteShares sayfası işe yarar metin vermedi, Volatility Shares sayfası boş döndü.\n- Ana koşullu dönüş sinyali (IBS ve VIX) için yapılacaklar:\n  - 3 günlük t değerlerini HAC düzeltmesiyle yeniden hesaplamak\n  - maliyetle islem_testi'nden geçirmek\n  - 2024-26 alt dönemini sınamak (örnek yalnız 11-18 işlem)\n  - FAS ve DPST'deki uygulama kaymasını ölçmek\n- Çoklu test düzeltmesi yapılmadı.\n- Özel kredi ve BDC öncüleri (BIZD, ARCC, OBDC), KBWB, DRN/DRV ve SKF evrende yok, test edilemedi. Bunlar ek_semboller'de.\n- H.8 mevduat verisinin pazartesi etkisi Yahoo dışı veri gerektirdiği için hipotez dosyasına girmedi.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/sektor/s3_finans_gayrimenkul.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s3_finans_gayrimenkul.json",
+  "/tmp/claude-0/-home-user-Xxxx/51eabf1c-1e0f-5490-9433-deeff329e14d/scratchpad/s3scan.py",
+  "/tmp/claude-0/-home-user-Xxxx/51eabf1c-1e0f-5490-9433-deeff329e14d/scratchpad/s3t.py"
+ ]
+}

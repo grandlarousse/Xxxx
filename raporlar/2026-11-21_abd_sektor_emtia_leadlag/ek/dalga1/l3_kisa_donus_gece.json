@@ -1,0 +1,84 @@
+{
+ "arac": "33/35 (kontrol noktasını aşmadım)",
+ "ozet": "Senin beklentin kısmen doğru çıktı. Endeks ETF'lerinde kapanışta hesaplanan dönüş sinyalleri hâlâ çalışıyor ama zayıflıyor. \"Kazancın çoğu gecede\" kısmı ise yalnızca 2024-26 için geçerli.\n\n1) Akademik dayanak güçlü. Endeks getirilerinin günlük otokorelasyonu 2000'lerden beri 20 endeksin çoğunda negatif. Bunu kullanan karşıt strateji (MAC(5)) 1999 sonrasında S&P 500 için yıllık Sharpe 0,67 veriyor. Yazarlar maliyet sonrası uygulanabilirlikten emin değil (Baltussen, van Bekkum, Da, JFE 2018). Nagel (RFS 2012): dönüş getirisini VIX öngörüyor. Sektörler arası dönüş yalnızca VIX yüksekken para kazandırıyor.\n\n2) Kendi Yahoo verimizle hızlı kontrol (brüt, maliyet ve sürüklenme düzeltmesi yok):\n- QQQ IBS<0,2, ertesi gün: 2015-23 +26 bp (t 3,1), 2024-26 +23 bp (t 1,4). Koşulsuz günlük ortalama yaklaşık 7 bp.\n- SPY aynı sinyal: +12 bp (t 1,7) ve +13 bp (t 1,3).\n- IBS<0,2 ile VIX>25 birlikte: QQQ 2015-23'te +67 bp (t 2,6), ama 2024-26'da yalnızca 15 sinyal günü var.\n- AAPL, MSFT ve XLK'da etki 2015-23'te güçlü (t 3,5-5), 2024-26'da anlamsız (t<1).\n- XLE, GLD ve TLT'de RSI(2) ve IBS çalışmıyor.\n\n3) Gece ve gün içi ayrımı. Aylık dönüş ve momentum kârının \"essentially all\" kısmı gecede oluşuyor (Lou-Polk-Skouras 2019). Günlük IBS sinyalinde ise 2005-23'te kazanç gece ile gün içi arasında bölünüyor; VIX yüksekken çoğunlukla ertesi gün içinde oluşuyor. Yalnızca 2024-26'da ağırlık gecede.\n\n4) Kaybolan ya da bu profile uymayanlar:\n- Avrupa açılışındaki gece sürüklenmesi 2021-25'te sıfıra indi (yazarların Temmuz 2026 tarihli notu).\n- Saf gece stratejisi (kapanışta al, açılışta sat) maliyet sonrası sağlam değil ve profile uymuyor.\n- Gün içi momentum ve gün sonu dönüşü son 30 dakikada oluşuyor, kapanışta girişle yakalanamaz.\n- Tek hisse dönüş kârı maliyetin altında kalıyor (Avramov, Chordia, Goyal 2006).\n- Kaldıraçlı ETF kapanış akışı etkisi zamanla azalıyor.\n- RSI(2) ve \"3 gün düşüş\" için akademik kanıt zayıf; ikisi IBS ile büyük ölçüde örtüşüyor.\n\n5) Hipotez dosyasında 16 hipotez var; hepsi evrende bulunan sembollerle. Öncelik 1 olanlar: endeks ETF'lerinde IBS, IBS+VIX ve MAC(5). Ek sembol olarak EWS ve EWH istendi. Hızlı test betiği kod/l3_hizli_test.py dosyasında; ana backtest ortak.py yöntemiyle (sürüklenme düzeltmesi, IS/OOS/SON dönemleri, maliyet, çoklu test düzeltmesi) yeniden yapılmalı.",
+ "kilit_defter": [
+  {
+   "iddia": "Endeks seri bağımlılığı 2000'lerden beri negatif",
+   "kaynak": "https://personal.eur.nl/vanbekkum/2018%20JFE%20BaltussenVanBekkumDa.pdf",
+   "alinti": "While many studies find serial dependence to be positive until the 1990s, it switches to negative since the 2000s.",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "MAC(5) karşıt strateji Sharpe değeri; maliyet şüphesi",
+   "kaynak": "https://personal.eur.nl/vanbekkum/2018%20JFE%20BaltussenVanBekkumDa.pdf",
+   "alinti": "annualized Sharpe ratio of 0.63 (0.67) after March 2, 1999 ... perhaps is not exploitable to many investors after accounting for transaction costs",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "VIX dönüş getirisini öngörüyor; sektör dönüşü yalnız VIX yüksekken çalışıyor",
+   "kaynak": "https://www.nber.org/papers/w17653.pdf",
+   "alinti": "industry portfolios (which do not yield high returns unconditionally) produce high rates of return ... during times of high VIX",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "IBS<0,2 sonrası ertesi gün +0,35%, IBS>0,8 sonrası -0,13% (Pagonidis, ikincil aktarım)",
+   "kaynak": "https://jonathankinlay.com/?p=2199",
+   "alinti": "Average returns when IBS is below 0.20 are .35% ,while average returns when IBS is above 0.80 are -0.13%",
+   "guven": "orta"
+  },
+  {
+   "iddia": "IBS 2015-16'da negatife döndü",
+   "kaynak": "https://jonathankinlay.com/?p=2199",
+   "alinti": "strategy returns for SPY and EWS have diminished in recent years, turning negative in 2015 and 2016 YTD",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Dönüş ve momentum kârı gecede oluşuyor (aylık ufuk)",
+   "kaynak": "https://personal.lse.ac.uk/polk/research/TugOfWar.pdf",
+   "alinti": "essentially all of the abnormal returns on momentum and short-term reversal strategies occur overnight",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Avrupa açılışındaki gece sürüklenmesi 2021 sonrası kayboldu",
+   "kaynak": "https://libertystreeteconomics.newyorkfed.org/2026/07/the-disappearing-overnight-drift/",
+   "alinti": "roughly 3.7 percent per annum has averaged close to zero since 2021",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Tek hisse dönüş kârı maliyetin altında",
+   "kaynak": "https://econpapers.repec.org/RePEc:bla:jfinan:v:61:y:2006:i:5:p:2365-2394",
+   "alinti": "the contrarian trading strategy profits are smaller than the likely transactions costs",
+   "guven": "orta (arama özeti)"
+  },
+  {
+   "iddia": "SPY gece stratejisi maliyet sonrası sağlam değil",
+   "kaynak": "https://alphaarchitect.com/trading-costs-wipe-out-the-overnight-return-anomaly/",
+   "alinti": "the statistical robustness of any outperformance is low",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Kendi verimiz: QQQ ve SPY'da IBS<0,2, ertesi gün (brüt)",
+   "kaynak": "yerel: veri/ham/QQQ.csv, SPY.csv (kod/l3_hizli_test.py)",
+   "alinti": "QQQ 2015-23 +26,1 bp t 3,1; 2024-26 +22,9 bp t 1,4. SPY +11,9 (t 1,7) / +13,4 (t 1,3). Koşulsuz ort. 5-7 bp",
+   "guven": "yüksek (hesap)"
+  },
+  {
+   "iddia": "Kendi verimiz: VIX>25 iken kazanç ağırlıkla ertesi gün içinde",
+   "kaynak": "yerel (kod/l3_hizli_test.py)",
+   "alinti": "QQQ IBS<0,2 & VIX>25, 2015-23: toplam 67,1 bp; gece 17,6; gün içi 49,2 (n=100)",
+   "guven": "yüksek (hesap)"
+  },
+  {
+   "iddia": "Kendi verimiz: enerji, altın ve tahvil ETF'lerinde sinyal yok",
+   "kaynak": "yerel (kod/l3_hizli_test.py)",
+   "alinti": "XLE RSI2<10 2015-23 +0,3 bp; GLD RSI2 -2,8 bp; TLT IBS 2024-26 -0,9 bp",
+   "guven": "yüksek (hesap)"
+  }
+ ],
+ "acik_kalanlar": "Sonuca etki eden açık noktalar:\n\n1. Pagonidis'in özgün NAAIM PDF'ini açmadım. IBS sayıları Kinlay'in ikincil aktarımından geliyor.\n2. Jegadeesh 1990, Lehmann 1990 ve Cooper-Cliff-Gulen 2008'in sayıları doğrulanmadı (bellek ya da ikincil kaynak).\n3. ACG 2006, Da-Liu-Schaumburg 2014, Medhat-Schmeling 2022 ve CXO RSI(2) sayıları yalnızca arama özetinden alındı.\n4. Görevdeki \"+18 bps (t 3,4)\" rakamıyla bizim hızlı testimiz birebir karşılaştırılamaz. Bizim test brüt, düzeltilmemiş ve 2005-14 / 2015-23 / 2024-26 alt dönemlerine bölünmüş.\n5. Hızlı testte eksik olanlar: işlem maliyeti, sürüklenme düzeltmesi, çoklu test düzeltmesi ve çıkışın IBS>0,8 olduğu sürüm. 3 günlük örtüşen tutuşların t değerleri şişik olduğu için kullanılmamalı. Ana backtest bunları ortak.py yöntemiyle yapmalı.\n6. Yahoo'nun açılış fiyatı resmî açılış müzayedesi (opening auction) fiyatından sapabilir. Gece/gün içi ayrımı bu yüzden yaklaşık.\n7. VIX ve hacim filtrelerinde 16:00 ET kapanış anında veri gerçekten biliniyor mu sorunu var: VIX 16:15'te kapanıyor, tam gün hacmi kapanış müzayedesinden sonra kesinleşiyor. Canlı uygulamada 15:50 değerleriyle yeniden test gerekir.\n8. Ülke ETF'lerinde IBS hipotezi için EWS ve EWH evrende yok.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l3_kisa_donus_gece.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/l3_kisa_donus_gece.json",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/l3_hizli_test.py"
+ ]
+}

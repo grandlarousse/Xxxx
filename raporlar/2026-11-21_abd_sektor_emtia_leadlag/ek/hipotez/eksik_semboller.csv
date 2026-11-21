@@ -1,0 +1,118 @@
+ajan,sembol,neden
+e1_enerji,TTF=F,Avrupa gaz fiyatı; LNG ihracat marjı ve 2026-27 kışında AB depolarının düşük olması nedeniyle gerekli
+e1_enerji,U-UN.TO,SPUT'un asıl kotasyonu (TSX); SRUUF OTC kotasyonu ince
+e1_enerji,KEUA,Saf EUA karbon ETF'i; KRBN'in Kaliforniya karışımı olmadan test için
+e1_enerji,KCCA,Kaliforniya karbon izni ETF'i; ABD karbon piyasası
+e1_enerji,CLF27.NYM,Sabit vadeli WTI kontratı; sürekli CL=F serisindeki vade geçişi sıçramalarından kaçınmak için
+e1_enerji,NGF27.NYM,Sabit vadeli Henry Hub kontratı; aynı neden
+e2_degerli_metal,UPLT,"2x platin (K-1'siz), Nisan 2026'da açıldı; platin için kaldıraçlı hedef."
+e2_degerli_metal,UPAL,"2x paladyum (K-1'siz), Nisan 2026'da açıldı."
+e2_degerli_metal,AAAU,Düşük maliyetli fiziki altın alternatifi.
+e2_degerli_metal,PSLV,Sprott fiziki gümüş; NAV primi ya da iskontosu perakende talebin göstergesi.
+e2_degerli_metal,CEF,Sprott altın ve gümüş; NAV primi bir duygu göstergesi.
+e2_degerli_metal,SPPP,Sprott fiziki platin ve paladyum.
+e2_degerli_metal,IMPUY,Impala Platinum ADR (OTC); SBSW dışındaki PGM hissesi.
+e2_degerli_metal,2899.HK,Zijin Mining; Asya seansındaki madenci tepkisi ABD açılışından önce biliniyor.
+e3_sanayi_metal,COPZ,2x COPX kaldıraçlı ürün; likidite ve izleme farkı kontrolü
+e3_sanayi_metal,CPXR,2x bakır vadeli ETF (K-1)
+e3_sanayi_metal,UCOP,"2x bakır, K-1'siz alternatif"
+e3_sanayi_metal,USAR,"Nadir toprak, MP ile birlikte Çin kontrol listesinde"
+e3_sanayi_metal,ANTO.L,"Saf bakır üreticisi; Londra kapanışı (11:30 ET) ABD kapanışından önce biliniyor, öncü aday"
+e3_sanayi_metal,FM.TO,"First Quantum, bakır; Toronto eş zamanlı kontrol"
+e3_sanayi_metal,PLS.AX,"Pilbara lityum; ASX seansı ABD'den önce, lityum öncüsü aday"
+e3_sanayi_metal,LYC.AX,Lynas nadir toprak; ASX'te ABD'den önce işlem görür
+e4_tarim,CXRN,"Teucrium 2x günlük mısır ETF'i (1099, K-1 yok); kaldıraçlı mısır aracı"
+e4_tarim,WXET,Teucrium 2x günlük buğday ETF'i (1099)
+e4_tarim,TILL,Teucrium K-1'siz tarım sepeti
+e4_tarim,DAR,"Darling Ingredients: yenilenebilir dizel, soya yağı/hayvansal yağ fiyatına duyarlı"
+e4_tarim,GPRE,"Green Plains: etanol, mısır ezme marjı"
+e4_tarim,ANDE,Andersons: tahıl ticareti ve etanol
+e4_tarim,PPC,"Pilgrim's Pride: kanatlı, yem maliyeti (mısır/küspe)"
+e4_tarim,CALM,"Cal-Maine: yumurta, yem maliyeti"
+e4_tarim,HRL,Hormel: domuz ve hindi işleme
+e4_tarim,SFD,"Smithfield: domuz üreticisi, domuz fiyatına doğrudan duyarlı"
+e4_tarim,UFPI,UFP Industries: kereste işleme
+e4_tarim,BCC,Boise Cascade: kereste ve kontrplak
+e4_tarim,AGCO,"Tarım makinesi, tahıl fiyatı ve çiftçi geliri"
+e4_tarim,CNH,Tarım makinesi
+e4_tarim,INGR,"Ingredion: mısır işleme, mısır maliyeti"
+e4_tarim,KDP,Keurig Dr Pepper: kahve maliyeti
+l1_hisse_leadlag,IWC,Mikro hisse ETF'i; büyük→küçük öncülüğün en güçlü kalabileceği dilim.
+l1_hisse_leadlag,XSW,Eşit ağırlıklı yazılım ETF'i; IGV ile büyük→küçük çifti kurmak için.
+l1_hisse_leadlag,AXT,Küçük yarı iletken malzeme hissesi; SMH→küçük bileşen testi için (evrende değilse).
+l2_emtia_capraz_varlik,^VXGDX,Altın madencileri oynaklık endeksi; GDX karşıt sinyali için. Yahoo'da varlığı doğrulanmadı
+l2_emtia_capraz_varlik,^VXEEM,Gelişen piyasa oynaklığı; EEM ters yapı testi için. Yahoo'da varlığı doğrulanmadı
+l3_kisa_donus_gece,EWS,Kinlay/Pagonidis IBS sonucunun en güçlü olduğu ülke ETF'i (Singapur); karşılaştırma için.
+l3_kisa_donus_gece,EWH,Bayat dayanaklı bir başka Asya ülke ETF'i (Hong Kong); ülke ETF'i IBS hipotezi için.
+l5_trend_momentum_tasima,DBMF,"Yönetilen vadeli (trend takip) ETF; trend stratejisinin 2019 sonrası gerçek, masraf sonrası performansını ölçmek için."
+l5_trend_momentum_tasima,KMLM,KFA Mount Lucas trend endeksi ETF'i; emtia-ağırlıklı trend takibinin gerçek zamanlı kaydı.
+l5_trend_momentum_tasima,CTA,Simplify Managed Futures ETF; trend ve carry karışımının gerçek zamanlı kaydı.
+l5_trend_momentum_tasima,COM,"Direxion Auto-Hedged Commodity ETF; emtia trend kuralını uygulayan hazır ürün, kural testine karşılaştırma."
+l5_trend_momentum_tasima,CLZ26.NYM,"WTI belirli vade sözleşmesi; vade eğrisi (carry) için ön ay ile karşılaştırma, Yahoo'da mevcut olup olmadığı doğrulanmadı."
+s1_teknoloji,TWD=X,TSM ADR primi hipotezi için USD/TWD kuru.
+s1_teknoloji,KRW=X,Kore bellek hisselerini dolara çevirmek için.
+s1_teknoloji,ANT,Anthropic 19 Kasım 2026'da Nasdaq'ta işlem görmeye başladı; yazılım/yapay zekâ duyarlılığı için (geçmiş çok kısa).
+s1_teknoloji,USD,ProShares Ultra Semiconductors (2x) - SOXL'e daha düşük kaldıraçlı alternatif.
+s1_teknoloji,SOXQ,SOXX ile aynı endeksi daha düşük giderle izleyen ETF.
+s1_teknoloji,PSI,"Eşit ağırlığa yakın yarıiletken ETF, NVDA tek hisse riskinden arınmış karşılaştırma."
+s1_teknoloji,WCLD,"Bulut yazılımı ETF, SKYY'e alternatif."
+s1_teknoloji,BUG,"Siber güvenlik ETF, CIBR/HACK'e alternatif."
+s2_iletisim_tuketim,BURL,TJX/ROST indirim perakendesi emsali
+s2_iletisim_tuketim,BJ,WMT/COST emsali
+s2_iletisim_tuketim,1928.HK,"Sands China, LVS icin Makao oncusu"
+s2_iletisim_tuketim,0027.HK,"Galaxy Entertainment, Makao oncusu"
+s2_iletisim_tuketim,9618.HK,JD Hong Kong hattı
+s2_iletisim_tuketim,9866.HK,NIO Hong Kong hattı
+s2_iletisim_tuketim,9868.HK,XPEV Hong Kong hattı
+s2_iletisim_tuketim,2015.HK,LI Hong Kong hattı
+s2_iletisim_tuketim,3033.HK,"Hang Seng TECH ETF, KWEB oncusu"
+s2_iletisim_tuketim,CWEB,"2x Cin internet, kaldiracli alternatif"
+s2_iletisim_tuketim,TSLQ,ters TSLA ETF
+s2_iletisim_tuketim,RETL,3x perakende (XRT bazli)
+s2_iletisim_tuketim,WANT,3x takdire bagli tuketim
+s2_iletisim_tuketim,MORTGAGE30US,FRED haftalik Freddie Mac orani (Yahoo kodu yok)
+s3_finans_gayrimenkul,KBWB,Saf büyük banka ETF'i (XLF'deki BRK-B/V/MA gürültüsü olmadan).
+s3_finans_gayrimenkul,BIZD,BDC/özel kredi stresi göstergesi; alternatif yöneticiler için öncü adayı.
+s3_finans_gayrimenkul,ARCC,En büyük BDC; özel kredi fiyatlaması.
+s3_finans_gayrimenkul,OBDC,Blue Owl BDC; 2025-26 özel kredi haberlerinin odağı.
+s3_finans_gayrimenkul,OWL,"Alternatif yönetici, özel kredi ağırlıklı; evrende yok."
+s3_finans_gayrimenkul,SKF,-2x finans ters ETF; FAZ alternatifi.
+s3_finans_gayrimenkul,DRN,3x GYO boğa ETF'i.
+s3_finans_gayrimenkul,DRV,-3x GYO ayı ETF'i.
+s3_finans_gayrimenkul,MSTU,2x MSTR kaldıraçlı ETF.
+s3_finans_gayrimenkul,BITI,-1x bitcoin ters ETF.
+s3_finans_gayrimenkul,CRCL,"Circle: stablecoin/fintech, 2025 halka arzı."
+s3_finans_gayrimenkul,GLXY,Galaxy Digital: kripto aracı ve veri merkezi.
+s3_finans_gayrimenkul,MBB,"Ajans MBS ETF'i; mREIT (AGNC, NLY) öncü adayı."
+s4_saglik_temel_tuketim,CURE,"Direxion 3x sağlık (XLV endeksi) kaldıraçlı ETF; büyük ilaç ve geniş sağlık için tek kaldıraçlı araç adayı, likiditesi kontrol edilmeli."
+s4_saglik_temel_tuketim,RXL,"ProShares 2x sağlık; CURE'a alternatif, ters çifti RXD."
+s4_saglik_temel_tuketim,IHE,iShares ABD ilaç ETF'i; XPH ve PJP günlük 5-15 milyon $ ile ince kaldığı için ilaç sepeti alternatifi.
+s4_saglik_temel_tuketim,VHT,Vanguard sağlık ETF'i; XLV'ye göre daha geniş (küçük şirketler dahil) karşılaştırma.
+s4_saglik_temel_tuketim,ZBH,Medikal cihaz takipçisi; ortopedi teması için IHI içi kontrol.
+s5_sanayi_kamu,DUSL,XLI'nin 3x kaldıraçlı ETF'i; sanayi kaldıraç seçeneği.
+s5_sanayi_kamu,UTSL,XLU'nun 3x kaldıraçlı ETF'i; kamu hizmetleri kaldıraç seçeneği.
+s5_sanayi_kamu,UXI,ProShares 2x sanayi; likidite karşılaştırması için.
+s5_sanayi_kamu,SIJ,ProShares -2x sanayi; ters ETF.
+s5_sanayi_kamu,SDP,ProShares -2x kamu hizmetleri; ters ETF.
+s5_sanayi_kamu,BA.L,BAE Systems; Avrupa savunma öncüsü (Londra 11:30 ET kapanış).
+s5_sanayi_kamu,LDO.MI,Leonardo; Avrupa savunma öncüsü.
+s5_sanayi_kamu,SAAB-B.ST,Saab; Avrupa savunma öncüsü.
+s5_sanayi_kamu,HAG.DE,Hensoldt; Avrupa savunma elektroniği öncüsü.
+s5_sanayi_kamu,EUAD,Avrupa savunma ETF'i; tek hisse yerine sepet öncü.
+s5_sanayi_kamu,SHLD,Küresel savunma teknolojisi ETF'i; savunma teması alternatif aracı.
+s5_sanayi_kamu,BWET,Tanker navlun vadelisi ETF'i; tanker hisseleri için doğrudan navlun öncüsü.
+s6_enerji,TTF=F,"Avrupa gaz fiyatı, LNG ve gaz üreticileri için öncü aday."
+s6_enerji,U-UN.TO,Sprott Fiziksel Uranyum Tröstü'nün ana (TSX) kotasyonu; SRUUF düşük likit.
+s6_enerji,CCO.TO,"Cameco'nun TSX kotasyonu, CCJ ile kur farkı kontrolü."
+s7_malzeme,USAR,"USA Rare Earth: MP'ye alternatif, yüksek betalı nadir toprak hissesi."
+s7_malzeme,MT,ArcelorMittal ADR: küresel çelik öncüsü; Avrupa seansında bilgiyi önceden fiyatlar.
+s7_malzeme,WLK,Westlake: etan bazlı PVC ve olefin; DOW/LYB hipotezi için ek hedef.
+s7_malzeme,OLN,Olin: klor-alkali ve epoksi; döngüsel kimya için yüksek betalı hedef.
+s7_malzeme,UAN,CVR Partners: saf azot gübresi; NG ve CF hipotezleri için.
+s7_malzeme,ICL,ICL Group: potas ve brom; MOS/NTR ile karşılaştırma.
+s7_malzeme,PPG,"Boya ve kaplama: SHW'nin eşi, kaliteli kimya dönüş hipotezi için."
+s7_malzeme,CX,Cemex ADR: çimento; MLM/VMC/CRH ile birlikte inşaat malzemesi.
+s7_malzeme,PLS.AX,Pilbara Minerals: spodümen fiyatının ASX'teki vekili (ALB/SQM için Asya öncüsü).
+s7_malzeme,LYC.AX,Lynas: Çin dışı nadir toprak öncüsü (MP/REMX için Asya öncüsü).
+s7_malzeme,002460.SZ,Ganfeng Lithium: Çin lityum fiyatının hisse vekili; GFEX'e erişim yokken kullanılabilir.
+s7_malzeme,2899.HK,Zijin Mining: Hong Kong'da altın ve bakır öncüsü (GDX/COPX için Asya sinyali).

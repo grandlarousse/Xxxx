@@ -1,0 +1,83 @@
+{
+ "arac": "33/35",
+ "ozet": "Grup Kasım 2026'da iki ayrı rejimde.\n\n1. **Yapay zekâ gücü ve altyapısı (GEV, VRT, ETN, PWR, CAT, VST, CEG, STRL):** 5 Kasım'dan beri çip satışı sanayiye yayıldı ve sepet sert düştü. CAT 3 ayda -36,9%, STRL -50%. Oysa GEV'in Ç3 siparişleri +96% artmıştı.\n2. **Düzenlenmiş kamu hizmetleri (XLU, DUK, SO, ED, AWK):** 1 yıllık zirvelerine yakınlar, SPY betası yaklaşık 0. Faiz (^TNX %4,91) ters yönde etkiliyor; bu etki çoğunlukla aynı gün fiyatlanıyor.\n\n**Diğer alt sektörler:**\n- **Tankerler:** İran/Hürmüz şokuyla yılbaşından beri +60–140% (VLCC navlunu günlük 470–600 bin $).\n- **Savunma:** 1,5 trilyon $ bütçe çağrısına rağmen 3 ayda geriledi (ITA -14,8%, DFEN -42%). Avrupa savunması (RHM.DE yılbaşından beri -55%) ateşkes haberlerine ilk ve en sert tepkiyi veriyor.\n- **Uzay ve kuantum:** Zirvelerinin -65% ile -85% altında. Günlük oynaklıkları 6–7%.\n\n**Araçlar:** Likit ana ETF'ler XLI, XLU, ITA, IYT, PAVE ve GRID. XAR ve PPA eşiğe yakın. SEA, BOAT, BDRY, XTN, UFO ve DFEN (14,5 milyon $) 20 milyon $ eşiğinin altında. Kaldıraçlı seçenekler: DUSL 3x, UTSL 3x, DFEN 3x; ters seçenekler SIJ ve SDP -2x. DUSL, UTSL, SIJ ve SDP evrende yok, ek_semboller'e yazıldı. Denizcilikte uygun ETF yok, yalnız tanker hisseleri (FRO, DHT, STNG, INSW) yeterince likit. Kuru yük hisseleri (SBLK, GNK) eşiğin altında.\n\n**Hipotezler:** 22 hipotez yazdım; hepsi evrendeki sembollerle test edilebilir. Öncelikliler:\n- NVDA/SMH -> yapay zekâ güç sepeti\n- Büyük -> küçük yüklenici (GEV, ETN, PWR -> STRL, PRIM, MTZ, DY)\n- Petrol -> tanker\n- NG=F -> bağımsız elektrik üreticileri (IPP: VST, NRG, TLN, CEG)\n- ^TNX -> XLU\n- BDRY, demir cevheri ve Şanghay endeksi -> kuru yük\n- RHM.DE -> ABD savunması\n- FDX/UPS bilanço günü -> taşımacılık emsalleri\n- CEG/VST haber günü -> güç sepeti\n- Yüksek betalı tematik hisselerde -2σ sonrası dönüş\n\nÖncülerin tamamı 16:00 ET'de biliniyor. Avrupa 11:30 ET'de, petrol 14:30 ET'de kapanıyor; FFA değerlemesi 12:30 ET'de.\n\n**Aykırı kanıt:**\n- Gruener-Finke: gecikme etkileri tek yön 40 baz puanı aşan işlem maliyetinde anlamsızlaşıyor.\n- Müşteri momentumu 2004 sonrasında 2–4 kat zayıfladı.\n- Kuru yük hisselerine Baltık endeksi değil emtia fiyatları öncülük ediyor (aylık veri).\n\nBu yüzden her sinyal işlem maliyeti dahil ve rejime göre bölünerek test edilmeli. 2023 öncesi veride NVDA ile güç sepeti arasındaki bağ yoktu.\n\n**Takvim:** 26 Kasım Şükran Günü, 1 Aralık ISM, 9 Aralık PJM 2029/30 ihalesinin açılışı, Aralık FOMC, 16 Aralık FDX bilançosu (doğrulanmadı), Ocak sonu CAT ve GEV bilançoları.",
+ "kilit_defter": [
+  {
+   "iddia": "Yapay zekâ satışı 5 Kasım 2026'da çip ve depolamadan sanayiye yayıldı",
+   "kaynak": "https://www.tikr.com/blog/caterpillar-sinks-another-6-vertiv-down-14-quanta-down-12-as-ai-selloff-spreads-to-industrials",
+   "alinti": "Caterpillar 6%, Vertiv 14%, Quanta 12%; WDC down 17%",
+   "guven": "orta"
+  },
+  {
+   "iddia": "CEG Ç3 bilançosu 9 Kasım'da tüm güç sepetini birlikte yükseltti",
+   "kaynak": "https://www.trefis.com/articles/623883/vertiv-stock-at-200-is-the-power-trade-back/2026-11-10",
+   "alinti": "Constellation 10.5%, Vertiv 9.6%, Quanta 9.4%, Vistra 7.3%",
+   "guven": "orta"
+  },
+  {
+   "iddia": "GEV Ç3 2026: siparişler ve birikmiş sipariş güçlü",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
+   "alinti": "orders of $29.3 billion, up 96% organically; backlog $197 billion",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Gecikme etkileri sürüyor ama işlem maliyetiyle kayboluyor (aykırı kanıt)",
+   "kaynak": "https://www.alexandria.unisg.ch/254105/",
+   "alinti": "insignificant for one-way transaction costs of more than 40 basis points",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Kuru yük hisselerine emtia fiyatları öncülük ediyor",
+   "kaynak": "https://jshippingandtrade.springeropen.com/articles/10.1186/s41072-024-00178-9",
+   "alinti": "commodity prices, with the latter having a leading impact on the former",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Müşteri momentumu 2004 sonrası zayıfladı",
+   "kaynak": "https://arxiv.org/pdf/2301.11394",
+   "alinti": "magnitude of customer momentum decreases by a factor of 2-4",
+   "guven": "orta"
+  },
+  {
+   "iddia": "PJM 2028/29 kapasite ihalesi fiyat tavanında kapandı, arz açığı var",
+   "kaynak": "https://insidelines.pjm.com/pjm-capacity-auction-procures-138318-mw-of-generation-resources-as-work-continues-to-address-growing-electricity-demand/",
+   "alinti": "138,318 MW; 6,831 MW short of the reliability requirement",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "PJM 2029/30 ihalesi 9 Aralık 2026'da açılıyor",
+   "kaynak": "https://www.pjm.com/-/media/DotCom/markets-ops/large-load/large-load-registry-and-byonc-schedule.pdf",
+   "alinti": "2029/30 BRA opening Dec. 9, 2026",
+   "guven": "orta"
+  },
+  {
+   "iddia": "VLCC navlunu 2026'da Hürmüz riskiyle rekor seviyede",
+   "kaynak": "https://www.seatrade-maritime.com/tankers/vlcc-rates-near-470-000-a-day-for-fixtures-through-hormuz",
+   "alinti": "$469,000 per day loading in the Arabian Gulf",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Avrupa savunması ateşkes haberlerine sert tepki veriyor",
+   "kaynak": "https://finance.yahoo.com/markets/stocks/articles/europe-defense-stocks-slide-russia-182944735.html",
+   "alinti": "Rheinmetall fell around 5% to 6%, Leonardo declined roughly 5%",
+   "guven": "orta"
+  },
+  {
+   "iddia": "UTSL 3x XLU; net gider oranı %0,97",
+   "kaynak": "https://www.direxion.com/product/daily-utilities-bull-3x-etf",
+   "alinti": "0.98 / 0.97* gross/net",
+   "guven": "orta"
+  },
+  {
+   "iddia": "BDRY gider oranı %3,50; yakın vade navlun vadelisi tutuyor",
+   "kaynak": "https://amplifyetfs.com/bdry/",
+   "alinti": "3.50%; expense limitation may be terminated after December 31, 2026",
+   "guven": "orta"
+  }
+ ],
+ "acik_kalanlar": "- **Öncü göstergelerin gücü:** Hiçbir öncü için 1-3 günlük vadede günlük veriyle yapılmış bir çalışma bulamadım. NVDA -> güç sepeti, NG=F -> IPP, ^TNX -> XLU ve RHM.DE -> ITA ilişkilerinin aynı gün mü yoksa t+1'de mi fiyatlandığı ancak backtest ile anlaşılır.\n- **Bilinen gecikme etkisi:** Tedarik zinciri gecikmesi aylık veriyle kanıtlı ve 2004'ten sonra zayıfladı.\n- **Doğrulanmayan tarihler:** FOMC'nin Aralık 2026 toplantısı, FDX'in 16 Aralık bilanço tarihi, PJM ihale sonucunun açıklanma günü, Şükran Günü kısa seansı ve EIA gaz depolama saati. Son ikisi bellekten.\n- **Kaldıraçlı ve ters ETF'ler:** DUSL, UTSL, UXI, SIJ ve SDP'nin güncel likiditesi bilinmiyor; evrende değiller.\n- **Gider oranı:** DFEN'in güncel gider oranını bulamadım. Bildiğim tek oran 2017'den, %0,95.\n- **Eksik semboller:** Tanker navlunu için BWET ve Avrupa savunma öncüleri (BA.L, LDO.MI, SAAB-B.ST, HAG.DE, EUAD) indirilmeli.\n- **Erişilemeyen kaynak:** S&P Global'in Ekim 2026 tarihli IPP makalesi 403 verdi. Oradaki sayılar arama özetinden alındı.\n- **Bulamadığım haber:** Ekim-Kasım 2026'ya ait özgül savunma ve Rheinmetall haberi bulamadım. RHM.DE'nin yılbaşından beri -55% düşüşünün nedeni açıklanamadı.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/sektor/s5_sanayi_kamu.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s5_sanayi_kamu.json"
+ ]
+}

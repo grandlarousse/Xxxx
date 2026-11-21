@@ -1,0 +1,85 @@
+{
+ "arac": "araç: 35/35. Durma nedeni: WebSearch kotası (oturum genelinde 200 arama) 20. çağrıda doldu. Kalan çağrılar bildiğim URL'leri açmak ve yerel veriyle hızlı test yapmak için kullanıldı.",
+ "ozet": "Beklentinin bir kısmı doğru çıktı, bir kısmı yanlış. Bilanço çevresindeki etkiler ABD'de artık sağlam değil. Büyük hisselerde bilanço sonrası sürüklenme (PEAD) 2006'dan beri yok (Martineau 2022, CFR). Bilanço duyuru primi 2004'ten sonra büyük ölçüde kayboldu: haftalık 32,6 bps'lik primin 23,9 bps'i gitti (Heitz vd. 2020). S&P 500'e ekleme etkisi 1990'larda %7,6 iken son on yılda %0,8 (Greenwood ve Sammon 2022).\n\nAy dönümü: Etula vd. 2020'nin (RFS) bulgularına göre 1995-2013'te S&P 500 T-3..T-1 günlerinde günde +0,11%, T+1..T+3 günlerinde günde +0,13% getirdi; T-8..T-4 günlerinde günde −0,04% satış baskısı vardı. Ayın son işlem günü cumaya denk geldiğinde etki 2-3 kat büyük. Ancak klasik pencere ([0:+3]) 2015'ten sonra ABD ETF'lerinde anlamsız. Geniş pencerede ([-3:+3]) etki zayıflayarak sürüyor; bizim testte SPY 2015-26'da +3,5 bps (t 0,83), 2024-26'da ise −5,9 bps. Mayıs 2024'te takas T+1'e geçti; bu, pencereyi bir gün kaydırmış olabilir (Nathan, Suominen, Tasa 2026).\n\nFOMC öncesi: Lucca ve Moench 2015'te etki 49 bps (t>4,5, Sharpe 1,14). Kapanıştan kapanışa ölçüldüğünde 33 bps (Sharpe 0,84). Kurov vd. 2021'e göre etki 2015'ten sonra kayboldu. Quantseeker blogunun 1993-2024 testinde ise 2016-19 düz geçiyor, sonra etki yeniden canlanıyor. VIX yüksekken güçlü, düşükken sıfıra yakın. Yani etki tartışmalı, rejime bağlı.\n\nMakro duyuru günlerinin primi (Savor ve Wilson 2013) 11,4 bps'e karşı 1,1 bps. Ernst vd. 2021 bu primin ayın günü etkisiyle açıklandığını söylüyor (bu çürütmeyi yalnız arama özetinden gördüm).\n\nBu oturumda yerel veriyle yaptığım test (2000-2026) yeni iki bulgu verdi:\n- **Tatil öncesi gün** hâlâ pozitif: 2015 sonrasında SPY +7,5 bps, IWM +18,2 bps, XLF +15,2 bps. t değerleri 1-1,8 arası, gözlem yılda yaklaşık 9.\n- **Opsiyon vadesi haftası** endeks ETF'lerinde literatürün tersine negatif: SPY 2020-26'da −16,1 bps (t −2,30), XLE 2015-26'da −19,7 bps (t −2,58). Vadeden sonraki hafta pozitif. Stivers-Sun'ın bulgusu yalnızca opsiyon işlemi yoğun büyük hisseler ve 2008'e kadarki dönem için geçerli.\n\nHiçbir takvim etkisi çoklu test düzeltmesini rahatça geçmiyor. En iyi kullanımları filtre ve pozisyon büyüklüğü ayarı.\n\nBugünkü durum: 23-30 Kasım 2026 ay dönümü penceresi. T (ayın son işlem günü) 30 Kasım pazartesi, T-4 23 Kasım. Pencere Şükran Günü öncesiyle çakışıyor: tatil öncesi gün 25 Kasım çarşamba, 27 Kasım yarım gün. 18 Aralık cuma üç aylık vade günü (triple witching), 24 ve 31 Aralık tatil öncesi günler. Hipotez dosyasında 21 hipotez var; hepsinin sembolleri evrende.",
+ "kilit_defter": [
+  {
+   "iddia": "FOMC öncesi 24 saatte S&P 500 +49 bps, t>4,5 (1994-2011, 131 toplantı)",
+   "kaynak": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr512.pdf",
+   "alinti": "49 basis points, with a t-statistic of more than 4.5",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Kapanıştan kapanışa FOMC günü 33 bps, Sharpe 0,84",
+   "kaynak": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr512.pdf",
+   "alinti": "somewhat lower at about 33 basis points ... annualized Sharpe Ratio of 0.84",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "FOMC sürüklenmesi 2015 sonrası kayboldu (2019'a kadar)",
+   "kaynak": "https://ideas.repec.org/a/eee/finlet/v40y2021ics1544612320315956.html",
+   "alinti": "essentially disappeared after 2015 (arama özeti; PDF 404)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "FOMC stratejisi 2016-19 düz, sonra canlandı; düşük VIX'te sıfıra yakın",
+   "kaynak": "https://www.quantseeker.com/p/trading-the-fed-the-pre-fomc-drift",
+   "alinti": "flat period between 2016 and 2019 before gaining momentum again in recent years",
+   "guven": "orta (blog)"
+  },
+  {
+   "iddia": "Ay dönümü S&P 500 günlük ortalamalar 1995-2013",
+   "kaynak": "https://acris.aalto.fi/ws/portalfiles/portal/40965155/hhz054.pdf",
+   "alinti": "T-8..T-4 −0.04%; T-3..T-1 0.11%; T+1..T+3 0.13%; average 0.04%",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Ay sonu cumaya denk gelirse dönüş 2-3 kat",
+   "kaynak": "https://acris.aalto.fi/ws/portalfiles/portal/40965155/hhz054.pdf",
+   "alinti": "two to three times larger whenever the last trading day of the month is a Friday",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Klasik ay dönümü son 10 yılda kayboldu",
+   "kaynak": "https://www.quantseeker.com/p/turn-of-the-month-strategies-do-they",
+   "alinti": "largely disappeared over the past decade, with TOM returns now indistinguishable from returns on other days",
+   "guven": "orta (blog)"
+  },
+  {
+   "iddia": "T+1 takas ay sonu satışını bir gün kaydırdı",
+   "kaynak": "https://alphaarchitect.com/momentum-cycle/",
+   "alinti": "shifted exactly one trading day closer to month-end",
+   "guven": "orta"
+  },
+  {
+   "iddia": "PEAD büyük hisselerde 2006'dan beri yok",
+   "kaynak": "https://cfr.ivo-welch.info/published/papers/martineau2021rest.pdf",
+   "alinti": "For large stocks, PEAD have been non-existent since 2006",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Bilanço duyuru primi ABD'de 2004 sonrası kayboldu",
+   "kaynak": "https://www.iimb.ac.in/ARC2020/Papers/The_Disappearing_Earnings_Announcement_Premium.pdf",
+   "alinti": "weekly 32.6 bps prior to 2004; 23.9 bps lower in the period after 2004",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "S&P 500 ekleme etkisi %0,8'e indi",
+   "kaynak": "https://www.nber.org/system/files/working_papers/w30748/w30748.pdf",
+   "alinti": "fallen from an average of 3.4% in the 1980s and 7.6% in the 1990s to 0.8% over the past decade",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Vade haftası SPY 2020-26 negatif; tatil öncesi pozitif (bu oturumdaki test)",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/l4_takvim_test.py",
+   "alinti": "opex fark −16,1 bps t −2,30 (n 403); pretatil +15,7 bps t 1,84 (n 65)",
+   "guven": "orta (çoklu test düzeltmesiz)"
+  }
+ ],
+ "acik_kalanlar": "1) Arama kotası dolduğu için şu kaynaklar açılamadı: Ariel 1990 (tatil öncesi), Thomas ve Zhang 2008 ile Ramnath 2002 (emsallere bilgi aktarımı), Russell yeniden yapılandırması, çeyrek sonu dengeleme, Ernst-Gilbert-Hrdlicka 2021 (yalnız arama özeti görüldü). Bunlar defterde \"doğrulanmadı (bellek)\" ya da düşük güvenle duruyor.\n2) Kurov vd. 2021 PDF'i 404 verdi; sayıları alınamadı.\n3) FOMC ve CPI/NFP tarihleri veride yok. Test için federalreserve.gov ve bls.gov takvimleri eklenmeli; Aralık 2026 FOMC tarihi doğrulanmadı.\n4) veri/bilanco_takvimi.csv yalnız 2008-01-03..2011-08-16 arasını kapsıyor ve saat bilgisi yok (\"time-not-supplied\"). Bilanço ve bellwether hipotezleri bugünkü veriyle test edilemez; güncel bilanço tarihleri ve açılış öncesi/kapanış sonrası saati gerekiyor.\n5) Hızlı test (kod/l4_takvim_test.py) yalnız ortalama farkı ve Welch t veriyor. İşlem maliyeti, çoklu test düzeltmesi ve ortak.py IS/OOS yöntemi uygulanmadı; ana backtest bu kuralları resmi çerçevede yeniden çalıştırmalı.\n6) Vade haftasındaki negatif etkinin nedeni ve T+1 geçişinin ay dönümü penceresine etkisi bağımsız olarak doğrulanmadı.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l4_takvim_olay.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/l4_takvim_olay.json",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/l4_takvim_test.py",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l4_takvim_hizli_test.csv"
+ ]
+}

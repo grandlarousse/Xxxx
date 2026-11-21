@@ -1,0 +1,85 @@
+{
+ "arac": "22/35",
+ "ozet": "Enerji kartı ve hipotez dosyası yazıldı. Web araması bu turda ortak kota dolduğu için kesildi. Kalan bilgiler doğrudan kaynak sayfalarından (CME, ICE, EIA, Sprott, ProShares, USCF, NYSE) ve yerel veri taramasından geldi.\n\nBulgular:\n1) **Yapı, 1-3 günlük sinyalden büyük.** USO 3 yılda +%95,7 kazandı, CL=F sürekli serisi +%9,5. Fark 2026'daki backwardation roll kazancından geliyor. UNG 3 yılda -59,8, NG=F +6,9. BOIL 1 yılda -71,9, UNG -28,2.\n2) **SPUT/SRUUF spot uranyumu izlemiyor.** NAV'a %20,3 iskontolu. NAV yılbaşından beri +%9,1, SRUUF -%11,6. Fon PFIC sayılıyor.\n3) **Saatler.** CL uzlaşması 14:28–14:30 ET (CME). ICE Brent uzlaşması 19:28 Londra, yılın çoğunda 14:28 ET. Gaz depolama raporu bu hafta 25 Kasım Çarşamba 12:00'ye kayıyor. NYSE 26 Kasım'da kapalı, 27 Kasım'da 13:00'te kapanıyor. OPEC+ 29 Kasım'da toplanıyor. API (Salı 16:30) kapanıştan sonra geliyor.\n4) **2026 durumu.** ABD-İran savaşı oldu. Brent Ekim'de ortalama 124 $'dı (EIA spot), 20 Kasım'da vadelide 92,57 $ kapattı. EIA 4Ç27 için 77 $ bekliyor. EIA kış Henry Hub tahmini 2,87 $. AB depoları %70,5 dolu, 5 yıllık ortalama %89.\n5) **Yerel tarama.** En tutarlı bulgu: UNG Perşembe günleri dört alt dönemin hepsinde negatif (-18 ile -40 bps). USO-USL eğim vekili ertesi gün USO'yu öngörüyor (2019+ t=3,5), ama 2024 sonrasında etki yok. Petrol→tanker negatif ilişkisi rejime bağlı. Petrol→havayolu öncülüğü yok.\n6) **Kullanıcı varsayımıyla çelişen kanıt.** UNG'de \"kış öncesi yükseliş\" yok: Ekim -4,7, Aralık -8,5 (% aylık ortalama, 2008–26). 2024 sonrasında NG=F→AR/EQT ertesi gün ilişkisi negatif. Bu, s6'daki pozitif hipotezle çelişiyor. Literatürde de vadeli petrolle öngörü zayıf, gecikme 7–8 gün (Fan ve Jahan-Parvar).\n\nHipotez dosyasında 18 hipotez var; bunların 7'si öncelik 2, 11'i öncelik 3. s6 ile çakışmamak için emtiaya ve yapıya odaklı. Bütün semboller evrende var. Evrende olmayan 6 sembol ek_semboller'de.\n\nYerel taramadaki t değerleri çoklu test düzeltmesi yapılmamış ön sonuçlardır. Proje kodundaki IS/OOS testine girmeleri gerekiyor.",
+ "kilit_defter": [
+  {
+   "iddia": "CL günlük uzlaşma 14:28-14:30 ET",
+   "kaynak": "https://www.cmegroup.com/confluence/display/EPICSANDBOX/NYMEX+Crude+Oil",
+   "alinti": "14:28:00 to 14:30:00 ET for the Active Month",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "ICE Brent uzlaşma saati",
+   "kaynak": "https://www.ice.com/products/219/Brent-Crude-Futures",
+   "alinti": "two minute settlement period from 19:28:00, London time",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Gaz depolama raporu Şükran Günü'nde kayıyor",
+   "kaynak": "https://ir.eia.gov/ngs/schedule.html",
+   "alinti": "November 25, 2026 Wednesday 12:00 p.m. Thanksgiving Day",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "EIA WPSR Çarşamba 10:30",
+   "kaynak": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+   "alinti": "10:30 a.m. eastern time on Wednesday",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "SPUT %20 iskontoda, NAV YTD +9,1",
+   "kaynak": "https://sprott.com/investment-strategies/physical-commodity-funds/uranium/",
+   "alinti": "NAV YTD Change 9.11% ... Premium / Discount -20.27%",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "UCO gider oranı ve NAV saati",
+   "kaynak": "https://www.proshares.com/our-etfs/leveraged-and-inverse/uco",
+   "alinti": "Expense Ratio 0.95% NAV Calculation Time 2:30 p.m. ET",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Brent Ekim ortalaması 124 $",
+   "kaynak": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+   "alinti": "increased to an average of $124 per barrel (b) in October",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Brent 4Ç27 tahmini 77 $",
+   "kaynak": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+   "alinti": "gradually fall to an average of $77/b in the fourth quarter of 2027",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Kış Henry Hub tahmini 2,87 $",
+   "kaynak": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+   "alinti": "average $2.87 per million British thermal units from November through March, 16% lower",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Brent 20.11 uzlaşması; OPEC+ 29.11'de toplanıyor",
+   "kaynak": "https://financefeeds.com/brent-crude-oil-price-92-57-saturday-week-ahead-opec-plus-29-november-bull-96-bear-89/",
+   "alinti": "Brent settle: $92.57 on Friday 20 November; all members meet on 29 November",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Aykırı kanıt: vadeli petrolle öngörü zayıf",
+   "kaynak": "https://economics.ecu.edu/wp-content/pv-uploads/sites/165/2019/07/ECU0912.pdf",
+   "alinti": "statistical support for predictability based on changes in oil future prices is weak",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "UNG Perşembe etkisi (yerel)",
+   "kaynak": "veri/panel_adjclose.parquet (yerel tarama)",
+   "alinti": "Perşembe ort. bps: 2008-13 -40 (t-2,1), 2014-18 -18, 2019-23 -33, 2024+ -36",
+   "guven": "orta (yerel, çoklu test düzeltmesiz)"
+  }
+ ],
+ "acik_kalanlar": "Web araması ortak kotanın dolması yüzünden kesildi. Bu yüzden aşağıdakiler bellekten yazıldı ve doğrulanmadı:\n\n- **Gider oranları:** UNG, BNO, DBO, DBE, UGA, USL, UNL. URA, URNM ve KRBN oranları da yalnız arama özetinden alındı.\n- **Saatler:** API yayın saati (Salı 16:30). RB, HO ve NG uzlaşma pencereleri. Globex 17:00 ET bitişi. EUA ve INE kapanışları.\n- **Kapanmış ürünler:** iPath OIL/GAZ, KOL, UWT/DWT, UGAZ/DGAZ ve UHN'nin kapanış tarihleri.\n- **Takvim:** WTI Ocak kontratının vade tarihi ve bir sonraki STEO tarihi.\n\nUranyumun güncel spot fiyatı ($/lb) alınamadı. Yalnız Sprott'un Ekim sonu itibarıyla verdiği yılbaşından beri +%13,7 kıyas getirisi var.\n\nKRBN'deki gece/gün içi ayrışması (gece -22,9, gün içi +24,0 bps/gün) olası bir veri hatası. Kontrol edilmeli.\n\nYerel taramadaki t değerleri ön sonuçtur. Çoklu test düzeltmesi, işlem maliyeti ve proje kodundaki IS/OOS ayrımıyla (ortak.py) yeniden test edilmeleri gerekiyor. NG=F→UNG ters dönüşü büyük olasılıkla hizalama etkisi.\n\nTTF, JKM, SPUT TSX kotasyonu ve sabit vadeli kontratlar evrende yok. Bunlar ek_semboller'e yazıldı.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/emtia/e1_enerji.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/e1_enerji.json",
+  "/tmp/claude-0/-home-user-Xxxx/51eabf1c-1e0f-5490-9433-deeff329e14d/scratchpad/tara.py",
+  "/tmp/claude-0/-home-user-Xxxx/51eabf1c-1e0f-5490-9433-deeff329e14d/scratchpad/tara2.py"
+ ]
+}

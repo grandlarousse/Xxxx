@@ -1,0 +1,83 @@
+{
+ "arac": "araç: 32/35",
+ "ozet": "Değerli metallerde 2026, tek bir döngüden ibaret: Ocak sonunda rekor geldi (altın ~5.590 $, gümüş 121,65 $). 30 Ocak'taki çöküşü CME'nin teminat artışı ve Warsh'ın Fed başkanlığına aday gösterilmesi tetikledi; ardından yıl boyu düşüş sürdü. Kasım'daki baskıyı Aralık'taki Fed toplantısında faiz artırımı beklentisi (olasılık %90'ın üstünde), güçlü dolar ve yüksek reel faiz yaratıyor. 20 Kasım'da altın 3.558 $'a indi ve Mart'tan beri en kötü haftasını yaşadı. Yılbaşından beri getiriler (csv): GLD -18,5, SLV -42,6, PPLT -37,0, PALL -44,3. Talep tarafı ise güçlü: 3. çeyrekte merkez bankaları 321 t aldı, ETF'lere 211 t giriş oldu.\n\nAraçlar: Fiziki altın ETF'lerinin gider oranları GLD %0,40, IAU %0,25, SGOL %0,17, GLDM %0,10. Gümüşte SLV %0,50, SIVR %0,30; platin ve paladyumda PPLT ve PALL %0,60. UGL/GLL ve AGQ/ZSL vadeli ve swap tabanlı, K-1 çıkarıyor. Görevdeki listeye yeni ürün eklendi: ProShares UPLT ve UPAL (2x platin ve paladyum, 21 Nisan 2026'da açıldı, K-1'siz). İkisi de evrende yok. Platin ve paladyumda ters ürün yok.\n\nSaatler: COMEX altın uzlaşması 13:29–13:30 ET (Ocak 2026'dan beri Ekim de aktif ay), gümüş 13:25 ET; platin ve paladyum yaklaşık 13:05 ve 13:00 ET (tatil takviminden çıkarım). Globex 17:00 ET'ye kadar açık, bu yüzden vadeli çubukları 1 gün gecikmeli kullanılmalı. Londra ve Şanghay fiyatları 16:00 ET'de kesinleşmiş olur.\n\nÖncülük: Görevdeki \"altın→gümüş\" ve \"altın→madenci\" hipotezleri günlük frekansta zayıf. Literatürde kısa vadede ilişki zayıf ya da çift yönlü. Yerel ön hesapta (2012 sonrası, maliyetsiz) GLD ile ertesi günkü GDX/GDXJ arasındaki korelasyon -0,03 ile -0,06: ilişki devam değil, tersine dönme. En umut verici adaylar üç tane. Birincisi TIP'in t günü getirisi ile metallerin ve madencilerin t+1 getirisi (+0,05 ile +0,08). İkincisi ABD seansında satış, Asya seansında alım ayrışması (StoneX: Eylül'den bu yana Asya +%2,7, ABD seansı -%12,2; csv'de GLD gece getirisi günde +9,7 bps, gün içi -1,4 bps). Üçüncüsü altın/gümüş oranının uç seviyelerden dönüşü. Hipotez dosyasında 20 hipotez var; hepsinin sembolleri evrende.\n\nTakvim: 4 Aralık istihdam (08:30), 9 Aralık FOMC (14:00), 10 Aralık TÜFE (08:30), 15 Aralık ÜFE. Hepsi kapanıştan önce açıklanıyor.",
+ "kilit_defter": [
+  {
+   "iddia": "Aralık'ta Fed faiz artırımı olasılığı %90'ın üstünde; Fed başkanı Warsh",
+   "kaynak": "https://www.usagold.com/daily-precious-metals-market-report-november-16-2026/",
+   "alinti": "CME FedWatch pricing puts the odds of a December hike above 90%",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "20 Kasım'da altın 3.558 $, Mart'tan beri en kötü hafta",
+   "kaynak": "https://www.usagold.com/daily-precious-metals-market-report-november-16-2026/",
+   "alinti": "Gold Slides to $3,558 as Fed Hike Bets Drive Worst Week Since March",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "COMEX altın uzlaşma penceresi",
+   "kaynak": "https://www.cmegroup.com/content/dam/cmegroup/notices/ser/2026/06/ser-9637r.pdf",
+   "alinti": "13:29:00 to 13:30:00 Eastern Time/ET for the active month",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "AGQ (ve UGL) vadeli ile swap kullanıyor, fiziki metal tutmuyor",
+   "kaynak": "https://www.proshares.com/our-etfs/leveraged-and-inverse/agq",
+   "alinti": "AGQ invests in futures and swap and does not directly invest in silver.",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "UPLT/UPAL 2x platin ve paladyum, K-1'siz, 21 Nisan 2026'da açıldı",
+   "kaynak": "https://www.proshares.com/press-releases/proshares-launches-first-etfs-targeting-2x-daily-returns-of-platinum-and-palladium",
+   "alinti": "Ultra Platinum K-1 Free ETF (UPLT) ... Ultra Palladium K-1 Free ETF (UPAL)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Fiziki altın ETF'lerinin gider oranları",
+   "kaynak": "https://247wallst.com/investing/2026/07/05/gold-is-up-again-in-2026-and-after-reviewing-every-way-to-own-bullion-these-3-etfs-cover-the-trade-at-three-cost-levels/",
+   "alinti": "GLDM 0.10%, SGOL 0.17%, IAU 0.25%, GLD 0.40%",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Altın Asya saatlerinde yükseliyor, ABD seansında düşüyor (Eyl–Kas 2026)",
+   "kaynak": "https://www.stonex.com/en-gb/news-and-analysis/gold-outlook-asia-buys-the-dip-us-hammers-the-rip-2026-11-16/",
+   "alinti": "cumulative gains of 2.7% during Asian trading hours ... 12.2% during the US session",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Aralık 2026 veri takvimi",
+   "kaynak": "https://www.bls.gov/schedule/2026/12_sched.htm",
+   "alinti": "Employment Situation November 2026 08:30 AM (Dec 4); Consumer Price Index November 2026 08:30 AM (Dec 10)",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "FOMC 8-9 Aralık 2026",
+   "kaynak": "https://www.federalreserve.gov/newsevents/2026-december.htm",
+   "alinti": "December 8 - 9",
+   "guven": "orta"
+  },
+  {
+   "iddia": "3. çeyrekte merkez bankaları 321 t aldı, ETF'lere 211 t giriş oldu",
+   "kaynak": "https://www.gold.org/sites/default/files/downloads/2026-11/Gold-Demand-Trends-Q3-2026.pdf",
+   "alinti": "321t, up 42% y/y; ETF inflows 211t",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Aykırı kanıt: altın ile madenciler arasında kısa vadede ilişki zayıf",
+   "kaynak": "https://informahealthcare.com/doi/abs/10.1080/13504851.2016.1164813",
+   "alinti": "little relationship in the short run",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Aykırı kanıt: altın ile gümüş arasında nedensellik çift yönlü",
+   "kaynak": "https://www.doi.org/10.1016/j.resourpol.2017.12.008",
+   "alinti": "bi-directional causality in mean and variance among the prices of precious metals",
+   "guven": "orta"
+  }
+ ],
+ "acik_kalanlar": "1) Platin ve paladyumun normal gün uzlaşma saatleri doğrudan görülmedi; tatil takviminden çıkarım yapıldı (~13:05 ve ~13:00 ET). Gümüşün 13:25 ET saati eski bir CFTC belgesine dayanıyor. 2) Yahoo GC=F/SI=F günlük kapanışının uzlaşma fiyatı mı yoksa 17:00 son işlem fiyatı mı olduğu teyit edilmedi; ortak.py vadelileri 1 gün geciktiriyor. 3) UGL, GLL, AGQ ve ZSL'nin gider oranları ile UPAL'ın gideri açılıp okunmadı. PALL'ın %0,60'ı tek kaynağa dayanıyor. 4) Kapanmış ETN'ler (iPath platin ve paladyum ETN'leri, DGP/DZZ) ile collectible vergisi bellekten yazıldı, doğrulanmadı. 5) Rus paladyumuna uygulanan kesin damping oranı ve Section 232 müzakerelerinin Temmuz 2026 sonrası durumu bulunamadı. 6) StoneX sayfası 403 verdi; sayılar arama özetinden alındı. 7) Lead-lag korelasyonları yalnızca yerel ön hesap (2012 sonrası, maliyetsiz, IS/OOS ayrımı yok); backtest ajanınca sınanmalı. TIP→metaller (+) ve GLD→madenciler (-, tersine dönme) öncelikli test edilmeli. 8) UPLT, UPAL, PSLV, CEF ve AAAU evrende yok.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/emtia/e2_degerli_metal.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/e2_degerli_metal.json"
+ ]
+}

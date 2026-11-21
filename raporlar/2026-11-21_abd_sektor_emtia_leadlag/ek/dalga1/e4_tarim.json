@@ -1,0 +1,83 @@
+{
+ "arac": "27/35",
+ "ozet": "Tek emtiaya bağlı likit ABD aracı az. CORN, WEAT, SOYB ve CANE (Teucrium) vadeli işlemle çalışır ve K-1 verir. Günlük hacimleri yaklaşık 1-10 mn $. En likit seçenek DBA (27 mn $/gün). Kaldıraçlı araç olarak yalnızca Teucrium'un CXRN (2x mısır) ve WXET (2x buğday) fonları var, ikisi de 1099 verir. Ters ürün bulamadım. Kakao, kahve, pamuk ve hayvancılıkta iPath ETN'leri kapandı, ABD'de yerine geçen bir ürün bulunamadı. Bu emtialara vadeli işlemle ya da HSY, MDLZ, SBUX, TSN gibi vekil hisselerle erişilir.\n\nSaatler: CBOT tahılın uzlaşma fiyatı 13:14-13:15 CT'de (14:15 ET) belirlenir, seans 14:20 ET'de biter. ICE yumuşak emtialar 13:00-14:20 ET arasında kapanır. Canlı hayvan yaklaşık 14:05 ET'de kapanıyor, bu saati 2026 için doğrulayamadım. Yani 16:00 ET'de bu fiyatların hepsi kesinleşmiş olur. Varsayımı düzelten istisna kereste: 16:05 ET'de kapanıyor. Crop Progress raporu Pazartesi 16:00 ET'de, yani hisse kapanışından sonra gelir. Cattle on Feed ve Hogs and Pigs yaklaşık 15:00 ET'de gelir: vadeliler kapanmış, hisseler hâlâ açık. WASDE 12:00 ET'de çıkıyor, 2026'nın son tarihi 10 Aralık. Export Sales Perşembe 08:30 ET.\n\nTest edilebilir en güçlü öncülük kaynağı asenkron kapanış: tahıl 14:20 ET'de kapandıktan sonra DXY, WTI ve SPY'da olan hareketler tahıla ertesi gün yansır. Hipotez dosyasında 20 hipotez var. En öncelikli olanlar: soya ezme marjından ADM ve BG'ye, WASDE günü sonrası tarım hisselerinde sürüklenme, dolar ve BRL'den tahıl ve yumuşak emtialara, CL'den ZL, SB ve ZC'ye, kakaodan HSY ve MDLZ'ye (negatif yön) ve sığırdan TSN'e (negatif yön, sezgiye ters).\n\n2026 durumu:\n- Dolar Fed'in faiz artırımı beklentisiyle 19 ayın zirvesinde, tahılı baskılıyor.\n- ABD buğday üretimi 1.534 mn bu'a çöktü (geçen yıl 1.989), ama dünya arzı bol.\n- Pirinç YTD +%93: ABD ekim alanı -%25, Asya'da El Niño.\n- Kakao El Niño ile Fildişi Sahili arz korkusu ve yüksek sertifikalı stoklar arasında sert iki yönlü hareket ediyor.\n- Kahve Brezilya'nın rekor hasadıyla (72,5 mn çuval) zayıf.\n- Domuz YTD -%38.\n- Kereste Ekim konut başlangıçlarıyla 1 ayın zirvesinde.\n\nNot: Görevin ortasında oturumun web arama kotası doldu (200 arama sınırı). Bu yüzden kalan bilgileri bilinen kaynak sayfalarını doğrudan açarak topladım. Aykırı kanıt araması (etkinin kaybolduğunu söyleyen akademik kaynak) yapılamadı.",
+ "kilit_defter": [
+  {
+   "iddia": "CBOT tahıl uzlaşma fiyatı 13:14-13:15 CT VWAP (14:15 ET), yani 16:00 ET'de kesinleşmiş",
+   "kaynak": "https://www.cftc.gov/filings/orgrules/rule060815cbotdcm001.pdf",
+   "alinti": "VWAP of the outright between 13:14:00 and 13:15:00 Central Time",
+   "guven": "orta (2015 dosyası)"
+  },
+  {
+   "iddia": "WASDE 12:00 ET; 2026'nın son tarihi 10 Aralık",
+   "kaynak": "https://www.cmegroup.com/articles/2026/understanding-major-usda-reports-in-2026.html",
+   "alinti": "November 10, and December 10, 2026, at 12:00 p.m. ET",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Crop Progress Pazartesi 16:00 ET'de, hisse kapanışından sonra; sezonun sonu 30 Kasım",
+   "kaynak": "https://www.cmegroup.com/articles/2026/understanding-major-usda-reports-in-2026.html",
+   "alinti": "Weekly April 6 2026, through November 30 2026, 4:00 p.m. ET",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Export Sales Perşembe 08:30 ET",
+   "kaynak": "https://www.cmegroup.com/articles/2026/understanding-major-usda-reports-in-2026.html",
+   "alinti": "each Thursday at 8:30 a.m ET",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Kereste 15:05 CT'de (16:05 ET) kapanır, 16:00 ET'de kesinleşmemiş",
+   "kaynak": "https://cmegroup.com/markets/agriculture/lumber-and-softs/lumber_contract_specifications.html",
+   "alinti": "Monday - Friday: 9:00 a.m. - 3:05 p.m. CT",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "CXRN 2x günlük mısır ETF'i, 1099 verir (K-1 yok); WXET aynısı buğday için",
+   "kaynak": "https://teucrium.com/cxrn",
+   "alinti": "1940 Act ETF that seeks 2x the daily return of corn futures",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "CORN, SOYB ve CANE K-1 verir, Section 1256 vergi kuralı",
+   "kaynak": "https://teucrium.com/corn",
+   "alinti": "CORN issues a K-1 and typically qualifies for Section 1256 tax treatment",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "iPath kakao, pamuk, hayvancılık ve kahve ETN'leri kapandı, yeniden açılmayacak",
+   "kaynak": "https://www.etf.com/sections/daily-etf-watch/ipath-etn-redemptions-death-knell-wrapper",
+   "alinti": "no plans to relaunch the products",
+   "guven": "orta"
+  },
+  {
+   "iddia": "ABD 2026/27 buğday üretimi 1.534 mn bu (2025/26'da 1.989)",
+   "kaynak": "https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.txt",
+   "alinti": "Production 1979 1989 1534 1534",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Dolar 19 ayın zirvesinde, faiz artırımı beklentisi tahılı baskılıyor",
+   "kaynak": "https://tradingeconomics.com/commodity/corn",
+   "alinti": "The greenback climbed to a 19-month high on growing expectations of an interest-rate hike next month",
+   "guven": "orta"
+  },
+  {
+   "iddia": "El Niño ile Fildişi Sahili 2026/27 kakao üretiminde %21-25 düşüş uyarısı",
+   "kaynak": "https://tradingeconomics.com/commodity/cocoa/news/600828",
+   "alinti": "cocoa production could fall between 21% and 25% in the 2026/27 season due to an exceptionally strong El Niño",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Brezilya 2026/27 kahve hasadı rekor 72,5 mn çuval",
+   "kaynak": "https://tradingeconomics.com/commodity/coffee",
+   "alinti": "record 72.5 million bags, 15% above the estimated 63 million bags in 2025/26",
+   "guven": "orta"
+  }
+ ],
+ "acik_kalanlar": "1) Web arama kotası görev ortasında doldu (oturum başına 200 arama). Bu yüzden şunlar yapılamadı:\n- Aykırı kanıt araması, yani emtia-hisse öncülüğünün zayıfladığını gösteren akademik kaynak. Hipotezlerin kanıt alanı çoğunlukla \"önsel\".\n- Domuz fiyatındaki -%38 düşüşün nedeni.\n- Screwworm ve Meksika sınırının Kasım 2026 durumu.\n\n2) Teucrium tek emtia fonlarının (~%2) ve DBA'nın (~%0,85) gider oranları sayfadan okunamadı, bellekten yazıldı. TAGS için kaynaklar çelişkili.\n\n3) Canlı hayvan seans kapanışı (~14:05 ET) ve Cattle on Feed saati (~15:00 ET) için 2026 kaynağı bulunamadı.\n\n4) ICE saat çizelgesi PDF'i bozuk çıktı. Ürün-saat eşleştirmesi kısmen bellekle yapıldı.\n\n5) Ters tarım ETF'i olmadığı ve kakao, kahve, hayvancılıkta ABD ETF'i olmadığı bellekten yazıldı.\n\n6) Veri kalitesi:\n- Tablodaki CT=F (75,5) ile Trading Economics'in pamuk fiyatı (~82 sent) farklı. Muhtemelen farklı vade.\n- OJ=F, ZO=F, ZR=F ve LBR=F'de gece ve gün içi ortalama getiriler aşırı ve zıt işaretli. Yahoo sürekli kontrat verisi backtest için şüpheli.\n\n7) Kerestenin 16:05 ET kapanışı nedeniyle LBR=F hipotezlerinde zaman hizalaması ayrıca kontrol edilmeli.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/emtia/e4_tarim.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/e4_tarim.json"
+ ]
+}

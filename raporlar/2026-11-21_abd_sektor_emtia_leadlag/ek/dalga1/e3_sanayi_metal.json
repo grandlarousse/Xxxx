@@ -1,0 +1,83 @@
+{
+ "arac": "33/35",
+ "ozet": "Saf, likit, tek metale dayalı ABD ürünü yalnız bakırda var. CPER COMEX vadelisi tutuyor. Gider oranı kaynaklara göre %0,88 ile %0,97 arasında ve fon K-1 veriyor. Alüminyum ve çinko yalnız DBB içinde işlenebiliyor. DBB'de bakır, alüminyum ve çinko yaklaşık eşit ağırlıkta; gider %0,75, fon K-1 veriyor ve her Kasım yeniden dengeleniyor.\n\nNikel, kalay, kurşun ve kobalt için saf ABD ürünü yok. Barclays 2023'te JJN, JJU ve JJT'yi itfa etti, yerine ürün çıkmadı. Bu metallere ancak hisseler ya da PICK, XME, SETM, BATT sepetleriyle ulaşılabiliyor.\n\nKaldıraçlı ürün yalnız bakırda var: CPXR (2x vadeli, gider %1,20), UCOP (2x, K-1'siz, Nisan 2026) ve COPZ (2x COPX, Şubat 2026, varlığı ~6,5 mn $). Üçü de ince. Ters ürün bulunamadı.\n\nSaatler:\n- COMEX bakır 12:59–13:00 ET'de uzlaşıyor. Yahoo'daki HG=F kapanışı bu nedenle hisse kapanışıyla eş zamanlı değil; öncü olarak CPER'in 16:00 kapanışı daha temiz.\n- LME kapanış fiyatları yaklaşık 12:50 ET'de yayımlanıyor.\n- SHFE'nin iki seansı da ABD kapanışından önce bitiyor.\n- Çin PMI önceki gün 20:30 ET'de açıklanıyor; Kasım verisi 29 Kasım Pazar akşamı geliyor.\n\n2026 durumu:\n- Bakır Eylül'de 6,85 $/lb ile zirve yaptı. Kasım ortasında yapay zekâ satışı, zayıf Çin verisi ve güçlü dolar yüzünden düştü; LME 13.210 $'dan 12.700 $'a indi. Yangshan primi ise rekorda, yani Çin'in fiziki talebi güçlü.\n- COMEX–LME farkı çöktü. Rafine bakıra önerilen %15 vergi (2027) hakkında karar açıklanmadı; bu iki yönlü bir olay riski.\n- HRC yılbaşından bu yana %44,6 yukarıda; Nucor'un spot fiyatı 1.295–1.310 $ ile 17–18 haftadır yükseliyor.\n- Demir cevheri dört yılın dibine yakın. Lityum zayıf.\n- 26 Kasım'da GFEX'te lityum hidroksit vadelisi açılıyor.\n- Çin'in nadir toprak ihracat kısıtlarını askıya alması 10 Ocak 2027'ye uzatıldı.\n\nÖncülük kanıtı zayıf. Akademik kanıt aylık ölçekte. Jacobsen ve arkadaşlarına (2019) göre metal getirisi borsayı rejime bağlı yönde öngörüyor. Mendiola ve arkadaşları bakır–madenci ilişkisini \"pozitif ama esnek değil\" buldu. 1-3 günlük vadede bakırın madencilere öncülük ettiğini gösteren bir çalışma bulamadım. Madencilerin bakıra öncülük ettiğini gösteren de yok. Bakır/altın oranının 10 yıllık getiriyle korelasyonu 2026 başında ~0,08'e indi; uzun dönem ortalaması ~0,85.\n\nHipotez dosyasında 22 hipotez var, tüm semboller evrende. Öncelik 2 olanlar:\n- CPER → madenciler (+)\n- FCX kalıntısının ve COPX–CPER farkının geri dönüşü\n- FCX → küçük madenciler\n- SMH → bakır madencileri\n- HRC=F → NUE/STLD\n\nKalanların önceliği 3. Kartta tablo dışı metin 785 kelime.",
+ "kilit_defter": [
+  {
+   "iddia": "HG günlük uzlaşma penceresi 12:59–13:00 ET (VWAP)",
+   "kaynak": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/457085528/Daily+Settlement+Time+Details",
+   "alinti": "12:59:00 to 13:00:00 ET",
+   "guven": "orta"
+  },
+  {
+   "iddia": "LME Closing Prices ~17:50 Londra (12:50 ET) yayımlanır",
+   "kaynak": "https://www.lme.com/-/media/files/about/regulation/benchmark-regulation/lme--benchmark-methodology-closing--prices.pdf",
+   "alinti": "as close to 17:50 London time as practicable",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "iPath JJN/JJU/JJT 2023'te itfa edildi",
+   "kaynak": "https://etfdb.com/news/2023/06/09/barclays-redeems-21-ipath-etns-this-week-etfs/",
+   "alinti": "Barclays delisted 21 of its iPath ETNs on June 7",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "DBB K-1 verir; Cu/Al/Zn ≈ 35/34/32",
+   "kaynak": "https://www.invesco.com/us/financial-products/etfs/product-detail?ticker=DBB",
+   "alinti": "This Fund issues a Schedule K-1",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "COPZ 2x COPX, 18 Şub 2026",
+   "kaynak": "https://www.globenewswire.com/news-release/2026/02/18/3240207/0/en/Defiance-Launches-COPZ-The-First-Daily-2X-Long-ETF-For-Copper-Miners.html",
+   "alinti": "twice (200%) the daily percentage change ... COPX",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Rafine bakır vergisi önerisi: %15 (1 Oca 2027), %30 (2028)",
+   "kaynak": "https://www.govinfo.gov/content/pkg/FR-2025-08-05/pdf/2025-14893.pdf",
+   "alinti": "15 percent on January 1, 2027 ... 30 percent on January 1, 2028",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Ekim 2026 itibarıyla vergi kararı açıklanmadı",
+   "kaynak": "https://www.kitco.com/news/off-the-wire/2026-10-14/trump-tariff-threat-built-us-copper-mountain-effects-are-fading",
+   "alinti": "no decision has been announced",
+   "guven": "orta"
+  },
+  {
+   "iddia": "LME bakır 16 Kas 2026'da 4 ayın dibi; yapay zekâ satışı ve Çin zayıflığı",
+   "kaynak": "https://news.metal.com/newscontent/HPSJFB5W7OIYMM4YPU4ZEOJU7MTVWGRUBNTCQ2A-lme-copper-hits-four-month-low-as-ai-selloff-and-china-weakness-weigh",
+   "alinti": "fell as much as 1.4% to 13,210 USD/tonne ... lowest since 8 July",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Nucor HRC CSP 1.295 $/kısa ton (9 Kas haftası)",
+   "kaynak": "https://news.metal.com/newscontent/VGWV5ESGOUN75OUSFY24ERSLFBYENATE3XUJK3Q-nucor-raises-weekly-hrc-spot-offer-to-1295short-ton",
+   "alinti": "$1,295 per short ton",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Çin nadir toprak askısı 10 Oca 2027'ye uzatıldı",
+   "kaynak": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027",
+   "alinti": "China extends rare earth export suspension to January 2027",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Metal getirisi borsayı rejime bağlı yönde öngörür (aylık)",
+   "kaynak": "https://pubsonline.informs.org/doi/pdf/10.1287/mnsc.2017.2933",
+   "alinti": "predicts a price drop of one and a half percent in monthly stock market returns in expansions",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Bakır–madenci ilişkisi pozitif ama esnek değil",
+   "kaynak": "https://cladea.org/wp-content/uploads/2022/01/316Thilo-Wallenstein-Alfredo-Mendiola-and-Luis-Chavez-Bedoya-Analysis-of-the-Reaction-of-Mining-Stocks-to-the-Development-of-Copper-Prices.pdf",
+   "alinti": "positive but inelastic relationship",
+   "guven": "orta"
+  }
+ ],
+ "acik_kalanlar": "1) Bakırdan madencilere 1-3 günlük öncülüğü doğrudan test eden çalışma bulunamadı. Tüm günlük hipotezler önsel ya da yalnız aylık kanıta dayanıyor, backtest şart.\n2) Yahoo'da HG=F, TIO=F ve ALI=F'nin günlük kapanışının hangi saate denk geldiği doğrulanmadı. Kapanış 13:00 ET uzlaşmasıysa hisselerle eş zamanlı değildir ve sahte öncülük üretebilir. CPER ile hizalama kontrolü gerekli.\n3) Rafine bakır vergisi kararının Kasım itibarıyla durumu belirsiz. En son kaynak 14 Ekim'de \"karar yok\" diyordu.\n4) SLX'in gider oranı ve COMEX Globex'in kapanış saati (17:00 ET) bellekten yazıldı, doğrulanmadı. LME pricing window saatleri tam alınamadı.\n5) GFEX lityum ve LME stoklarının Yahoo'da sembolü yok, alternatif veri kaynağı gerekli.\n6) Yahoo'daki HG=F fiyatı (5,48) web'deki Kasım başı seviyesinden (~6,2 $/lb) düşük. Kasım ortasındaki düşüşle tutarlı olabilir ama kontrol edilmeli.\n7) Mevsimsellik için kanıtlı bir bulgu çıkmadı.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/emtia/e3_sanayi_metal.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/e3_sanayi_metal.json"
+ ]
+}

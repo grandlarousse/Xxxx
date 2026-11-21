@@ -111,7 +111,20 @@ EVREN = {
     "h_kamu_hizmet": "NEE DUK SO D AEP EXC SRE XEL PCG EIX ED PEG AWK AES",
     "h_cin_adr": "BABA PDD JD BIDU NTES TCOM BILI FUTU TME",
     "h_diger_adr": "SAP SONY SE MELI NU GRAB INFY HDB ITUB",
+    # ---------- 1. dalga ajanlarının istediği ek semboller (kaldıraçlı/ters sektör ETF'leri, yabancı öncüler, emsaller) ----------
+    "ek_kaldiracli": "DUSL UTSL UXI SIJ SDP CURE RXL DRN DRV RETL WANT SKF TSLQ MSTU BITI CWEB USD UPLT UPAL CPXR UCOP COPZ",
+    "ek_etf": "SOXQ PSI BIZD KBWB MBB EWH EWS BWET EUAD SHLD AAAU PSLV CEF SPPP IHE VHT WCLD BUG KCCA KEUA WXET CXRN",
+    "ek_hisse": (
+        "ARCC OBDC OWL GLXY CRCL ANT AGCO ANDE CALM DAR GPRE HRL INGR KDP PPC SFD TILL UAN ICL BCC UFPI CX MT OLN PPG "
+        "WLK USAR BJ BURL ZBH IMPUY CNH AXT"
+    ),
+    "ek_dis": (
+        "BA.L LDO.MI SAAB-B.ST HAG.DE U-UN.TO CCO.TO FM.TO ANTO.L LYC.AX PLS.AX 002460.SZ 0027.HK 1928.HK 2015.HK "
+        "2899.HK 3033.HK 9618.HK 9866.HK 9868.HK"
+    ),
+    "ek_diger": "KRW=X TWD=X TTF=F ^VXEEM ^VXGDX",
 }
+
 
 
 def tum_semboller():

@@ -1,0 +1,87 @@
+{
+ "arac": "22/35 (I stopped early. The web search quota for this turn was used up across the shared 200-search limit, so no search could be run. ETF facts came from opening issuer pages directly; lead-lag evidence came from tests I ran on local data.)",
+ "ozet": "In 2026 XLV is up 15.9% and XLP up 18.7% while SPY is up 1.9%. The XLV gain comes from big pharma (LLY, JNJ, ABBV, MRK, AMGN, GILD) and a single MRNA event (+177% on 19 Aug, cause not verified). Med devices (BSX -56%, ISRG -30%) and insurers are weak. UNH fell 16.6% and HUM 13.3% in the last 5 days, including 18 Nov (UNH -10.2%, HUM -13.0%). Most of XLP's gain came in two defensive waves (Jan-Feb, Oct-Nov). In the last month XLK fell 18% while XLP was flat to slightly up. So whether the strength lasts depends on the tech selloff continuing. XLV is 16.8% LLY.\n\nInstruments: XLV (0.08%), XBI (0.35%, modified equal weight), IBB (0.44%), IHI (0.37%), IHF, XLP (0.08%). LABU/LABD are 3x and -3x (net expense 0.96 / 1.07). XPH, PJP and XHE trade 2-15 million $ a day, too thin to buy at the close.\n\nOwn quick test (about 40 pairs, 3 periods, 5 bp cost):\n- The only solid candidate is soybean oil (ZL=F) z-score -> BG and ADM next day. Out of sample (2019+) t 2.26 / 2.12, 2024+ t about 2.05, placebos clean. Positive every year since 2021, but absent before 2018 (regime-dependent).\n- ZS=F -> BG also works (OOS t 2.37).\n- Cocoa -> HSY, coffee -> SBUX, wheat -> GIS, LLY -> NVO/VKTX and UNH -> other insurers do not work (evidence against the given hypotheses).\n- IWM -> XBI runs the opposite way to the hypothesis: after a sharp IWM drop, XBI rebounds the next day (OOS +46 bp, t 1.7).\n- Dollar (UUP) -> staples and 10-year yield -> XLP/XLV were strong in 2019-26 but have faded since 2024.\n- XLV, XLP, PG and XBI show next-day reversal on their own moves (correlation t -3.5 to -6), but a threshold buy signal earns nothing after costs and the effect weakened after 2024.\n- WMT/COST up -> DLTR down the next day (t -3.2; 2024+ -2.1).\n\nMultiple-testing correction was not applied, so results near t 2 are candidates only. The hypothesis file has 21 hypotheses; every oncu/hedef symbol is in the universe. The 5 extra symbols (CURE, RXL, IHE, VHT, ZBH) are not in the universe and were not verified.",
+ "kilit_defter": [
+  {
+   "iddia": "Soybean oil z-score -> BG next day, trade in its direction",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s4_islem_testi.csv",
+   "alinti": "OOS n 608, net +18.3 bp, t_anormal 2.26; 2024+ t 2.05; IS t -0.08",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Soybean oil -> ADM next day",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s4_islem_testi.csv",
+   "alinti": "OOS net +16.6 bp, t 2.12; 2024+ t 2.06",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Cocoa -> HSY does not work at 1-3 days",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s4_islem_testi.csv",
+   "alinti": "CC z>1.5 sell HSY h=1: IS t -0.09, OOS 0.29, 2024+ 0.25",
+   "guven": "orta"
+  },
+  {
+   "iddia": "XBI rebounds after a sharp IWM drop (not lead-lag)",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s4_islem_testi.csv",
+   "alinti": "IWM z<-1.5 buy XBI h=1 OOS +45.6 bp, t 1.70",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Defensive-sector daily reversal has weakened",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s4_hizli_tarama.csv",
+   "alinti": "XLP_oto t: 2019-26 -6.0; 2024-26 -1.8",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Dollar -> staples signal has faded",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s4_hizli_tarama.csv",
+   "alinti": "UUP->PM 2019-26 t -4.0; 2024-26 +0.9",
+   "guven": "orta"
+  },
+  {
+   "iddia": "LLY weight in XLV is 16.8%",
+   "kaynak": "https://www.ssga.com/us/en/intermediary/etfs/the-health-care-select-sector-spdr-fund-xlv",
+   "alinti": "ELI LILLY + CO 5,801,972 16.81% JOHNSON + JOHNSON 17,474,334 10.01%",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "LABU/LABD are 3x, expense ratios",
+   "kaynak": "https://www.direxion.com/product/daily-sp-biotech-bull-bear-3x-etfs",
+   "alinti": "of 300%, or 300% of the inverse ... Expense Ratio (gross/net %) 0.96 / 0.96",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "XBI is modified equal weight, expense 0.35%",
+   "kaynak": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-biotech-etf-xbi",
+   "alinti": "The Index is modified equal weighted. ... Gross Expense Ratio: 0.35%",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "WMT and COST weights in XLP",
+   "kaynak": "https://www.ssga.com/us/en/intermediary/etfs/the-consumer-staples-select-sector-spdr-fund-xlp",
+   "alinti": "WALMART INC 13,442,987 11.37% COSTCO WHOLESALE CORP 1,337,731 9.82%",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Insurer crash on 27 Jan 2026 (cause: CMS 2027 advance rate notice?)",
+   "kaynak": "ortak veri adjclose",
+   "alinti": "UNH -19.6%, HUM -21.1%, CVS -14.2%",
+   "guven": "yüksek (sayı); neden doğrulanmadı (bellek)"
+  },
+  {
+   "iddia": "MRNA spike on 19 Aug 2026",
+   "kaynak": "ortak veri adjclose",
+   "alinti": "+177.0%, next day -23.5%",
+   "guven": "yüksek (sayı); neden doğrulanmadı"
+  }
+ ],
+ "acik_kalanlar": "1) No web search was possible because the shared search quota for this turn ran out. Unknown for now: the 2026 news drivers (MRNA +177% on 19 Aug; insurer drops on 27 Jan and 18 Nov; BSX -56% and ISRG -30%), the CMS Medicare Advantage 2027-28 rate decisions, and the GLP-1 and drug pricing (MFN) policy story. The coming-weeks calendar is also unchecked: ASH, J.P. Morgan healthcare conference, WASDE, the CMS 2028 advance notice, earnings dates. All are marked \"doğrulanmadı (bellek)\". 2) The test pulling for the claim that the ZL -> BG/ADM effect came with biofuel policy (RVO / 45Z) was not run. The structural break before 2018 needs explaining. 3) The ZL/ZS signals were not given multiple-testing (FDR) correction, a 0.5-1x volatility cost scenario or a check on whether settlement matches Yahoo's close; the main agent's full test should do this. 4) Leveraged health and staples ETFs (CURE, RXL, UGE) are not in the universe and their multiplier and liquidity were not verified. 5) No literature source on PDUFA / FDA event effects or seasonal patterns (e.g. biotech in January) was opened.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/sektor/s4_saglik_temel_tuketim.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s4_saglik_temel_tuketim.json",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s4_hizli_tarama.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s4_islem_testi.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/s4_hizli_tarama.py",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/s4_islem_testi.py"
+ ]
+}

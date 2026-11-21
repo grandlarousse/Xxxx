@@ -1,0 +1,83 @@
+{
+ "arac": "36/35. Bir çağrı aştım; son çağrılar dosya yazımı ve kontroldü, yeni arama yapmadım.",
+ "ozet": "Teknoloji 6 Ekim'den beri çöküşte. SOX zirveden -%42.5, XLK 1 ayda -%18.3, NVDA -%40.8, VXN 45. Olaylar sırayla şöyle. 30 Ekim'de QCOM ve SOX düştü. 5 Kasım'da ara seçim ve QCOM rehberi sonrası SOX -%12.2 kapattı. 12 Kasım'da Huang istifa etti, Kress geçici CEO oldu. 17 Kasım'daki güçlü NVDA bilançosu (115.8 milyar $ gelir, 4Ç rehberi 130 milyar $) fiyatı bir gün bile tutamadı. 19 Kasım'da Kaliforniya Başsavcılığı celp gönderdi. 20 Kasım'da Reuters'ın SEC muhasebe incelemesi haberiyle NVDA -%14, SOX -%10.7 ve Nasdaq -%5.3 kapattı. Aynı gün Anthropic ikinci işlem gününde -%9 düştü. Temel veriler hâlâ güçlü: TSMC Ekim satışı rekor (yıllık +%59.7), DRAM sözleşme fiyatı 4Ç26'da +%10-15. Fiyattaki düşüşü yönetişim, hukuk, yapay zekâ borcu ve Aralık'ta beklenen Fed artırımı sürüyor.\n\nAraçlar şöyle. Yarıiletkende SMH, SOXX ve SOXL/SOXS (3x). Geniş teknolojide XLK, TECL/TECS ve TQQQ/SQQQ (TECS ince: 43 milyon $). Yazılımda IGV; likit kaldıraçlı yazılım ETF'i yok. Siber güvenlikte CIBR; grubun en dirençli kolu bu (CRWD ve PANW 1 ayda düz). Alt sektörlerin öncü ve takipçi hisseleri, hacim ve oynaklıklarıyla kartta tablo hâlinde.\n\nEn önemli bulgu kendi 3 yıllık ön testimden çıktı (752 gün, kapanıştan kapanışa). Lider hisseden takipçiye günlük lead-lag ilişkilerinin hiçbiri anlamlı değil (|t|<2). Asya, NVDA→yapay zekâ zinciri, ASML→ekipman, faiz→yazılım ve SOX→NDX hipotezleri ya sıfır çıktı ya ters işaretli. Bu, akademik kanıtla uyumlu: tedarik zinciri etkisi aylık frekansta görülüyor, günlük frekansta kayboluyor. Asya seansları ABD açılışından önce kapanıyor, yani bilgileri kapanış alımında zaten fiyatta.\n\nDaha umut verici olanlar şunlar. Aşırı düşüş sonrası kısa vadeli geri dönüş: SOXX'in -%5'ten kötü günlerinden sonra 3 günlük getiri ortalaması +%1.02 (n=28, isabet %50). NVDA'ya özgü şoktan sonra sektörün ters yönde düzelmesi (t -1.9). MU'dan depolama hisselerine yayılma (zayıf pozitif). Yapısal gece getirisi: SMH gecede +19 bps/gün, gün içinde -4. Olay tabanlı hipotezler de var: NVDA, MU, hiper ölçekleyici ve CRWD bilançoları. 24 hipotez JSON dosyasında; tüm semboller evrende. Takvim (çoğu teyitsiz): 1 Aralık CRWD, 8-9 Aralık FOMC, 9-10 Aralık AVGO, ~10 Aralık ORCL ve TSMC Kasım satışı, 15 Aralık MU.",
+ "kilit_defter": [
+  {
+   "iddia": "20 Kasım NVDA -%14, tetikleyici SEC muhasebe incelemesi haberi",
+   "kaynak": "https://www.fool.com/investing/2026/11/20/here-is-why-nvidia-stock-crashed-on-friday/",
+   "alinti": "plunged 14% on Friday following reports that the U.S. Securities and Exchange Commission (SEC) is investigating the tech titan's accounting practices",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Kaliforniya Başsavcısı NVDA'ya celp gönderdi",
+   "kaynak": "https://www.fool.com/investing/2026/11/20/here-is-why-nvidia-stock-crashed-on-friday/",
+   "alinti": "served an investigative subpoena on Nvidia",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "20 Kasım Nasdaq -%5.28, S&P 500 -%3.7; Dow ve S&P düzeltme bölgesinde",
+   "kaynak": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+   "alinti": "the S&P 500 dropped 3.7% and the tech-heavy Nasdaq Composite plunged 5.28%",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Huang istifa etti (12 Kasım), Kress geçici CEO",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+   "alinti": "resignation of Jen-Hsun Huang, as NVIDIA's President, Chief Executive Officer and member of the Board, effective immediately (arama özeti)",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "5 Kasım SOX -%12.25, Mart 2020'den beri en kötü gün",
+   "kaynak": "https://247wallst.com/investing/2026/11/06/chip-stocks-just-had-their-second-worst-day-on-record/",
+   "alinti": "a loss of 1,257.52 points, or 12.25% (arama özeti)",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "NVDA 3Ç FY27 gelir 115.8 milyar $, 4Ç rehberi 130 milyar $; ertesi gün fiyat -%2.9 (panel)",
+   "kaynak": "https://www.guru3d.com/story/nvidia-q3-fy2027-usd-1158-billion-revenue-data-center-usd-1076-billion-usd-130-billion-q4/",
+   "alinti": "115.8 milyar $ gelir; 4Ç 130.0 milyar $ (arama özeti)",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "TSMC Ekim 2026 satışı rekor, yıllık +%59.7",
+   "kaynak": "https://pr.tsmc.com/english/news/3349",
+   "alinti": "NT$586.89 milyar, yıllık +%59.7 (arama özeti)",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "4Ç26 konvansiyonel DRAM sözleşme fiyatı +%10-15, NAND +%15-20",
+   "kaynak": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+   "alinti": "DRAM +%10-15 QoQ; NAND +%15-20 (arama özeti)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Aykırı kanıt: lead-lag ilişkileri günlük ölçekte kaybolur",
+   "kaynak": "https://www.arxiv.org/pdf/1111.7103",
+   "alinti": "on a daily time scale, the absence of lead/lag relationships thus seems to be quite reasonable (arama özeti)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Customer momentum'un bir kısmı basit lead-lag; kısıt etkiyi 2-4 kat düşürür",
+   "kaynak": "https://arxiv.org/pdf/2301.11394",
+   "alinti": "cuts the magnitude of customer momentum by a factor of 2-4 (arama özeti)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Kendi ön testi: günlük lider→takipçi katsayılarının hiçbiri |t|>2 değil (NVDA→SOXX t -1.88, MU→STX 1.14, SOX→QQQ 1.24)",
+   "kaynak": "veri/panel_adjclose.parquet (2023-11..2026-11)",
+   "alinti": "752 gün; hedefin kendi getirisi kontrol edildi",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Citi Aralık'ta 25 bp Fed artırımı bekliyor",
+   "kaynak": "https://investinglive.com/central-banks/icymi-citi-now-expects-a-december-fed-rate-hike-after-hotter-september-us-inflation/",
+   "alinti": "expects the Fed to hike rates by 25bp in December (arama özeti)",
+   "guven": "orta"
+  }
+ ],
+ "acik_kalanlar": "1) Defterdeki çoğu alıntı arama özetinden geliyor. Doğrudan açtığım sayfalar yalnızca Fool (20 Kasım) ve Fox Business. SEC 8-K, TSMC ve TrendForce satırları birincil sayfa açılarak doğrulanmalı.\n2) ETF gider oranları kaynaklar arasında çelişkili: SOXL %0.75-0.99, TECL %0.87-1.08, IGV %0.38-0.46. SOXX/SOXL'in izlediği endeksin tam adı (ICE/NYSE Semiconductor) da ihraççı sayfasından teyit edilmeli.\n3) Aralık takvimi kısmen teyitsiz: AVGO 9 mu 10 mu belli değil. ORCL ve MU tarihleri \"to be confirmed\". Kasım TÜFE'si tek kaynakta 10 Aralık. MRVL tarihi bulunamadı. Şükran Günü kapanışı bellekten.\n4) Kore 1-20 Kasım 2026 ihracat verisi ve Kasım DRAM spot fiyatı bulunamadı.\n5) Ön test tek dönemli ve çoklu test düzeltmesi yapılmadı. Örneklem dışı dönem, işlem maliyeti, açılış fiyatıyla gece etkisi ve VXN/VIX vade yapısı koşulları backtest ajanına kaldı.\n6) TSM ADR primi hipotezi TWD=X gerektiriyor; bu sembol evrende yok, ek_semboller'e yazıldı.\n7) XLK ve SMH bileşen ağırlıkları doğrulanmadı (bellek).",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/sektor/s1_teknoloji.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s1_teknoloji.json"
+ ]
+}

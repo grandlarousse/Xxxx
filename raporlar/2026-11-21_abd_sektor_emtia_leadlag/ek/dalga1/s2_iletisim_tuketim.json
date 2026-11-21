@@ -1,0 +1,83 @@
+{
+ "arac": "36/35 (kontrol noktasını 1 çağrı aştım; nedeni kart yazıldıktan sonra JSON'da küçük bir düzeltme: evrende zaten bulunan XLP ek_semboller listesinden çıkarıldı)",
+ "ozet": "2026'da grup ikiye ayrıldı. Savunmacı perakende güçlü: WMT +%15,6, COST +%28,6, TGT +%75,5. Reklam ve internet, EV ve Çin tarafı ise zayıf: XLC −%14,3, META −%14,8, GOOGL −%15,1, NFLX −%39,5, TSLA −%23,1, BABA −%44,2, KWEB −%39,1.\n\nXLC'nin düşüşü büyük ölçüde iki hisseden geliyor. META ve GOOGL, Ekim sonundaki Q3 bilançolarında capex (yapay zeka yatırım harcaması) endişesi ve tek seferlik giderlerle düştü; GOOGL 29 Ekim'de tek günde −%12,6 kaybetti. Buna NFLX'in Warner anlaşmasının maliyeti eklendi.\n\nŞu anki rejim panik: VIX 35,9, SPY 5 günde −%8,6. Satışın arkasında yapay zeka balonu korkusu, NVDA, yeni çip kısıtları ve Anthropic halka arzına yer açma satışları var. NAHB endeksi 25'e indi (2012'den beri en düşük), 30 yıllık mortgage %7,34.\n\nAraçlar likiditeye göre seçildi: XLC, XLY, XRT, ITB, XHB, JETS, KWEB, FXI. Kaldıraçlı olanlar: NAIL 3x, TSLL 2x, YINN/YANG ±3x, FNGU 3x. PEJ, BETZ, IBUY, DRIV ve IDRV likit değil, kullanılmamalı.\n\n1-3 günlük öncü göstergeler için 23 test edilebilir hipotez yazdım. En güçlüleri:\n- ^TNX → konut ve mortgage hisseleri, ters yönde.\n- HO=F ve CL=F → havayolu ve kruvaziyer, ters yönde. Günlük ilişki negatif, haftalık ilişki pozitif (geri dönüş).\n- Lider hisseden küçük emsale yayılım: TSLA → küçük EV'ler, META+GOOGL → PINS, SNAP, RDDT, TTD.\n- Bilanço günü emsal aktarımı: WMT/TGT, HD, TJX.\n- VIX>30 panik günleri sonrası geri dönüş.\n\nKritik düzeltme: HK seansı ABD kapanışından önce biter ve aynı günün ADR getirisine zaten girmiştir. ADR'nin t→t+1 getirisini ertesi HK seansı belirler. Bu yüzden \"HK bugün yükseldi → ADR yarın yükselir\" doğrudan işe yaramaz. Test edilebilir biçim ABD-HK getiri farkının ertesi gün kapanmasıdır (BABA−9988.HK, FXI−^HSI).\n\nAykırı kanıt:\n- Emsal bilanço tepkisi aşırı oluyor ve emsalin kendi bilançosunda geri dönüyor (Thomas-Zhang). Bu verimsizlik yeni dönemde azaldı (Chung vd. 2015).\n- Endüstri liderliği aylar ufkunda çalışıyor.\n- Günlük frekansta gecikme ilişkilerinin çoğu kayboluyor.\nBu yüzden avantajı mega-cap'lerde değil küçük takipçilerde aramak gerek.\n\nTuzaklar tablodan net: NAIL −%39 iken ITB −%4,2; TSLL −%56,8 iken TSLA −%23,1. Çin ADR'lerinde gece primi yok. Vadeli emtia için Yahoo kapanışında ileriye bakma riski var. 27 Kasım yarım gün.",
+ "kilit_defter": [
+  {
+   "iddia": "16 Kasım 2026'da İletişim −%2,8 ve Takdire bağlı −%2,1; satışın nedeni NVDA, çip ihracat kısıtı ve Anthropic halka arzı",
+   "kaynak": "https://pro.thestreet.com/market-commentary/ai-stocks-drag-the-sp-500-back-toward-the-november-5th-lows",
+   "alinti": "led by Tech (-3.0%) and Communication Services (-2.8%), followed by Consumer Discretionary and Energy (both -2.1%)",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "XLC 2026'da iki yılın en zayıf sektör sıralamasında, META teknik olarak zayıf",
+   "kaynak": "https://dorseywright.nasdaq.com/research/bigwire/2026/09/02/09-02-2026/communication-services-communicating-weakness",
+   "alinti": "Communication services is at its lowest position within the NDW DALI Sector rankings in nearly two years",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "GOOGL 29 Ekim 2026'da %12,64 düştü; META ve GOOGL tek seferlik giderlerle EPS beklentisini kaçırdı",
+   "kaynak": "https://247wallst.com/investing/2026/10/30/why-meta-and-alphabet-dont-care-that-q3-earnings-paints-them-as-laggards/",
+   "alinti": "Alphabet dropped 12.64% on October 29 (arama özeti)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "META'nın Q3 capex'i 34,9 milyar $, 2026 capex aralığı 135-145 milyar $; hisse ~%7 düştü",
+   "kaynak": "https://investinglive.com/stocks/meta-shares-fall-7-on-huge-spending-plans/",
+   "alinti": "Q3 capex $34.9B; 2026 capex $135–145B (arama özeti)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Kasım 2026 NAHB endeksi 25, Nisan 2012'den beri en düşük",
+   "kaynak": "https://www.nahb.org/news-and-economics/press-releases/2026/11/builder-sentiment-continues-to-fall-on-affordability-concerns",
+   "alinti": "index 25, lowest since April 2012 (arama özeti)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "30 yıllık mortgage 17 Kasım'da %7,339",
+   "kaynak": "https://themortgagereports.com/137431/builders-cutting-prices-november-2026",
+   "alinti": "7.339% on Nov. 17, up from 7.021% (arama özeti)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Petrol ile havayolu hisseleri arasındaki ilişki günlük frekansta negatif, haftalık frekansta pozitif",
+   "kaynak": "https://abdn.elsevierpure.com/en/publications/the-nexus-between-oil-and-airline-stock-returns-does-time-frequen",
+   "alinti": "negative oil-airline stock return nexus on a daily basis, but a positive relationship on a weekly basis",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Mart 2026 İran petrol şokunda jet yakıtı %72 arttı, JETS %18'den fazla düştü",
+   "kaynak": "https://finance.yahoo.com/news/airfares-are-likely-to-rise-rising-jet-fuel-costs-send-airline-stocks-reeling-161938704.html",
+   "alinti": "Argus US Jet Fuel Index rose 72%; JETS down more than 18% (arama özeti)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Çin ADR'lerinin gece getirisini ana piyasanın (HK) günlük getirisi belirler; bu yüzden HK→ADR için kapanıştan kapanışa zamanlama uygun değil",
+   "kaynak": "https://ideas.repec.org/a/eee/jbfina/v36y2012i10p2795-2803.html",
+   "alinti": "night returns: significant effects from their home market daily returns (He & Yang 2012, özet)",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Emsal bilanço tepkisi aşırı oluyor ve emsalin kendi bilançosunda geri dönüyor",
+   "kaynak": "https://ideas.repec.org/a/bla/joares/v46y2008i4p909-940.html",
+   "alinti": "late announcers' price reactions to early announcers' earnings are negatively related to their subsequent price responses (özet)",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Aykırı kanıt: sektör içi bilgi aktarımındaki verimsizlik yeni dönemde azaldı",
+   "kaynak": "https://econpapers.repec.org/RePEc:eee:jbfina:v:60:y:2015:i:c:p:153-167",
+   "alinti": "pricing efficiency of intra-industry information transfers has increased in recent years (özet)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "Endüstri liderliği aylar ufkunda; büyük hisseden küçüğe gecikme ise birkaç günde oynanıyor",
+   "kaynak": "https://escholarship.org/content/qt6x49x543/qt6x49x543.pdf?t=krnr78",
+   "alinti": "occur at a much longer horizon of a couple of months as opposed to the one between large and small stocks which plays out over a couple of days",
+   "guven": "yüksek"
+  }
+ ],
+ "acik_kalanlar": "- Bilanço tarihi verisi evrende yok. WMT/TGT, HD ve TJX emsal hipotezlerini test etmek için tarihler ayrıca indirilmeli; ek_semboller'e BURL ve BJ eklendi.\n- Yahoo'nun CL=F, HO=F, RB=F ve ^TNX kapanış saat damgası doğrulanmadı. Değer 16:00 ET sonrasını içeriyorsa backtest ileriye bakar; 1 gün gecikme ya da uzlaşı fiyatı kullanılmalı.\n- 20 Kasım 2026 seansını (SPY −%3,6, VIX +%26, ^TNX −14 bp) açıklayan bir kaynak bulamadım. Anthropic halka arzının fiyatlanması da doğrulanmadı.\n- Çin Merkezi Ekonomik Çalışma Konferansı, FOMC ve Aralık TÜFE tarihleri doğrulanmadı.\n- BBY bilanço tarihi kaynaklar arasında 23 ve 24 Kasım diye çelişiyor.\n- FNGU gider oranı kaynaklar arasında çelişiyor (%0,95 / %2,60). ETF'e dönüşümü de bellekten, doğrulanmadı.\n- RETL, WANT, CWEB ve TSLQ evrende yok; likiditeleri ve gider oranları kontrol edilmedi.\n- Mortgage oranının günlük serisi (MND) evrende yok; ^TNX vekil olarak kullanılıyor.\n- Hipotezler için hiçbir günlük test yapılmadı; hepsi backtest ekibine bırakıldı.\n- Yeni panel parquet dosyaları veri/ klasöründe yoktu; son günlerin getirilerini veri/ham'dan hesapladım.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/sektor/s2_iletisim_tuketim.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/s2_iletisim_tuketim.json"
+ ]
+}

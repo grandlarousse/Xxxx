@@ -1,0 +1,86 @@
+{
+ "arac": "31/35. Web arama kotası 16. çağrıda doldu (oturum sınırı, 200 arama). Sonraki bulgular, adresi bilinen PDF'lerin doğrudan açılmasından ve evrendeki Yahoo verisiyle yapılan bir ön testten geliyor.",
+ "ozet": "Klasik \"büyük hisse küçüğe öncülük eder\" etkisi (Lo-MacKinlay 1990, Chordia-Swaminathan 2000) günlük ölçekte 2000 civarında kayboldu. Tóth-Kertész'e göre NYSE'de büyükten küçüğe gecikmeli korelasyon 0,15-0,2'den 1990'ların sonunda hata düzeyine indi. ETF düzeyinde yaptığım ön testte işaret tersine dönmüş: SPY'ın t günü getirisi IWM'in t+1 getirisini negatif öngörüyor (2020-26: b=-0,29, t=-4,7). SPY→IJR, QQQ→IWM, XLF→KRE ve SPY→XBI çiftleri de negatif ve anlamlı. 14 ETF çiftinin hiçbirinde 2020-26'da anlamlı pozitif öncülük yok. Bu tablo Baltussen-van Bekkum-Da'nın (JFE) bulgusuyla uyumlu: endeks ürünleri yaygınlaştıkça endekslerin günlük seri bağımlılığı 2000'lerde negatife döndü. \"SPY yükseldi, yarın IWM yetişir\" kuralının kanıtı zayıf, hatta ters.\n\nİz bırakan tek aile grup içi yayılım (Hou 2007 mekanizması): hisse, kendi grubunun (kendisi hariç) dünkü hareketine kısmen yetişiyor. Ön testte (594 ABD hissesi, 49 grup) \"geride kalan\" sinyalinin uzun-kısa kantil farkı t+1 için günde 13,0 / 9,9 / 7,2 / 2,6 baz puan (bp). Dönemler sırasıyla 2005-09, 2010-14, 2015-19 ve 2020-26; son dönemde t=1,2. Fama-MacBeth katsayısının t değerleri 3,7 / 5,6 / 2,0 / 1,8; 2024-26'da 0,05. Kazancın çoğu ertesi gecede (kapanıştan açılışa) oluşuyor, gün içi payı sıfır ya da negatif. Bu, kapanışta alıp taşıyan profile uygun. Ancak devir günde %100'e yakın ve maliyet işlem başına 2×(3-5) bp olunca 2020 sonrası net kazanç sıfıra yakın. Az likit yarıda etki daha güçlü (2020-26: 4,2 bp), büyük yarıda yok (0,3 bp).\n\nAğ ve makine öğrenmesi yöntemleri:\n- Bennett-Cucuringu-Reinert: 2000-2019, Sharpe 0,62, günde 2,4 bp, maliyet hariç. Yazarlar 2012 sonrası bozulma bildiriyor.\n- Cartea-Cucuringu-Jin: Sharpe 2'nin üstü, maliyet sonrası anlamlı olduğu söyleniyor, ama ilişkiler 6 ayda değişiyor ve bağımsız tekrar yok.\n\nAylık frekanstaki kanıtın günlük (1-3 gün) sinyale taşınacağına dair kanıt yok: Hong-Torous-Valkanov, ekonomik bağlar, Scherbina-Schlusche (aylık %0,61, t 6,2).\n\nBeklentin doğrulandı (etki küçük, küçük ve az likit hisselerde, zayıflamış) ve bir noktada aşıldı: ETF düzeyinde işaret ters dönmüş.\n\nTest için öne çıkanlar:\n- Grup içi geride kalan sinyali, bilanço günü ve büyük lider hareketiyle koşullandırılmış hâliyle.\n- Lider bilançosundan rakiplere yayılım (bilanço takvimi dosyası mevcut).\n- GLD-GDXJ göreli yakınsaması: ön testte göreli 9-14 bp/gün. Bu lead-lag değil, çift yakınsaması; e2 notuyla çakışabilir.",
+ "kilit_defter": [
+  {
+   "iddia": "Günlük lead-lag NYSE'de kayboldu",
+   "kaynak": "https://arxiv.org/pdf/physics/0506071",
+   "alinti": "lead-lag relationships between daily returns of stocks vanished in less than twenty years",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Büyükten küçüğe günlük gecikmeli korelasyon hata düzeyine indi",
+   "kaynak": "https://arxiv.org/pdf/physics/0506071",
+   "alinti": "From about 0.15–0.2 it decreased under the error-level by the end of the nineties",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Endeks seri bağımlılığı 2000'lerde negatife döndü",
+   "kaynak": "https://personal.eur.nl/vanbekkum/2018%20JFE%20BaltussenVanBekkumDa.pdf",
+   "alinti": "While many studies find serial dependence to be positive until the 1990s, it switches to negative since the 2000s.",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Ters MAC(5) stratejisinin Sharpe oranı",
+   "kaynak": "https://personal.eur.nl/vanbekkum/2018%20JFE%20BaltussenVanBekkumDa.pdf",
+   "alinti": "annual Sharpe ratio of 0.63 (0.67) after March 2, 1999",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Bennett vd.: Sharpe ve günlük getiri, maliyet hariç",
+   "kaynak": "https://arxiv.org/pdf/2201.08283",
+   "alinti": "annualised Sharpe Ratio of 0.62; mean daily return of the trading signal is 2.4 basis points",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Bennett vd.: 2012 sonrası bozulma",
+   "kaynak": "https://arxiv.org/pdf/2201.08283",
+   "alinti": "there is a decay in the performance of the signal after 2012",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Cartea-Cucuringu-Jin: ilişkiler kısa ömürlü",
+   "kaynak": "https://ora.ox.ac.uk/objects/uuid:173a88b2-f00c-4346-8868-aabbd97ec8d7/files/dt722h970m",
+   "alinti": "rarely remains profitable after 6 months because the lead-lag relationship changes",
+   "guven": "orta (tez özeti)"
+  },
+  {
+   "iddia": "Hou 2007: lead-lag esas olarak sektör içi, kötü haberde daha yavaş",
+   "kaynak": "https://ideas.repec.org/a/oup/rfinst/v20y2007i4p1113-1138.html",
+   "alinti": "predominantly intra-industry; sluggish adjustment to negative information",
+   "guven": "orta (arama özeti, makale açılmadı)"
+  },
+  {
+   "iddia": "Scherbina-Schlusche: Granger liderleri, aylık uzun-kısa",
+   "kaynak": "https://escholarship.org/content/qt9pc1b5j5/qt9pc1b5j5.pdf?t=old1k2",
+   "alinti": "0.61% with a t-statistic of 6.20, and 0.45% with a t-statistic of 3.39",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Ön test: SPY→IWM 2020-26 ters işaret",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/l1_hizli_etf_cift.csv",
+   "alinti": "b=-0.285, t=-4.67, n=1731",
+   "guven": "orta (yerel ön test)"
+  },
+  {
+   "iddia": "Ön test: grup içi geride kalan uzun-kısa t+1 sinyali azaldı",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/l1_hizli_grup_ici.csv",
+   "alinti": "12.99 / 9.92 / 7.21 / 2.62 bp/gün (2005-09…2020-26; son t=1.21)",
+   "guven": "orta (hayatta kalma yanlılığı)"
+  },
+  {
+   "iddia": "Ön test: grup yayılımı ertesi gecede oluşuyor",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/l1_hizli_grup_ici.csv",
+   "alinti": "grup katsayısı gece t=4.90, gün içi t=-1.43 (2020-26)",
+   "guven": "orta"
+  }
+ ],
+ "acik_kalanlar": "1. Web arama kotası doldu. Hou 2007 (örneklem, haftalık büyüklük), Cohen-Frazzini 2008, Menzly-Ozbas, Ali-Hirshleifer, Lee vd. ve Parsons vd. için sayılar açılamadı. Defterde \"doğrulanmadı (bellek)\" ya da arama özeti olarak işaretli. Aykırı kanıt olarak hedeflediğim \"economically linked firms predictability come from\" (JFQA) makalesi aranamadı. Kullanıcı arama kotasını artırırsa ya da sonraki oturumda bunlar tamamlanabilir.\n2. Cartea-Cucuringu-Jin'in dönemini ve maliyet varsayımını görmedim; yalnızca tez özeti açıldı, SSRN erişilemiyor.\n3. Ön test resmi değil:\n   - Hayatta kalma yanlılığı var: hisse evreni bugünkü hisseler.\n   - h2/h3 t değerleri örtüşen getirilerle şişkin, HAC (otokorelasyona dayanıklı) düzeltme yok.\n   - Maliyet çıkarılmadı.\n   - 14 çift × 5 dönem için çoklu test düzeltmesi yapılmadı.\n   - ETF çiftlerindeki \"kural_bps_gun\" göreli getiridir, mutlak değil.\n4. Ana backtest'te test edilmesi gerekenler: lider bilançosundan rakiplere yayılım (G2) ve büyük-hareket koşullu sinyal (G3). Bunlar ön testte yoktu; literatüre göre en umutlu kalanlar bunlar.\n5. Sinyalin gerçekte kapanıştan yaklaşık 10 dakika önce hesaplanmasının (15:50 dolayı) etkisi ölçülmedi. Kazanç gecede oluştuğu için kritik olabilir.\n6. IWC, XSW ve AXT evrende yok; bunlar ek_semboller'e yazıldı.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l1_hisse_leadlag.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/l1_hisse_leadlag.json",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/l1_leadlag_hizli.py",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/l1_hizli_etf_cift.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/l1_hizli_grup_ici.csv"
+ ]
+}

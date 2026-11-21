@@ -1,0 +1,85 @@
+{
+ "arac": "30/35. Web arama kotası 4. aramada doldu (oturum geneli 200 sınırı). Sonrasında bilinen yazar ve NBER PDF'lerini sayfa.py ile doğrudan açtım; AQR verisi ve Yahoo paneliyle bir ön hesap yaptım.",
+ "ozet": "Akademik trend ve momentum etkileri aylık ufukta bulunmuş. Büyüklükleri 2010'dan sonra belirgin küçülüyor. AQR'nin güncel TSMOM faktöründe (12 aylık işaret, 1 ay tutma) Sharpe 1985-2009'da 1,41 (t 7,06), 2010-14'te 0,83, 2015-05/2026'da 0,24 (t 0,80). Hisse endeksi bileşeni bu son dönemde negatif. Huang vd. 2020 etkinin varlık bazında zaten zayıf olduğunu gösteriyor: 55 varlığın 47'sinde t < 1,65.\n\nYahoo ön hesabı (2005-2026, maliyetsiz) şunları gösterdi:\n- 9 SPDR'de kesitsel rotasyon (1-252 gün sıralama, en iyi 3, 1 gün tutma) 2015 sonrasında hiçbir pencerede anlamlı değil.\n- SMA200 filtresi sektörlerde getiriyi artırmıyor. 2015 sonrasında ortalamanın altındaki ertesi gün ortalaması daha yüksek (9,5 bp'ye karşı 3,3 bp), ama oynaklık iki katı. Aynı gün korelasyonunu hesaba katan t değerleri 1,8 ve 2,3; ham havuz t'si 4'ün üstünde çıkıyor ama yanıltıcı.\n- SPY'de filtre oynaklığı yarıya indiriyor, ortalamayı değil.\n- Emtia ETF'lerinde trend en iyi yön filtresi. 52 hafta zirvesine %2 yakınken 3 günlük ortalama +20,5 bp (kümelenmeli t 2,15). Yine de t > 3 eşiğinin altında. SMA50/200 uzun-kısa Sharpe 0,36'dan 0,19'a düştü.\n- SMA200 üstündeki sektör getirisinin tamamı gece oluşuyor (gün içi −0,3 bp). Lou-Polk-Skouras'ın momentum kârının gecede oluştuğu bulgusuyla tutarlı; kapanış alımı bu profile uygun.\n\nTaşıma (carry) güçlü bir faktör (KMPV: sınıf içi Sharpe 0,7, çeşitlendirilmiş 1,1; Szymanowska: spot primi yılda %5-14). Ama aylık ve vade eğrisi gerektiriyor. Yahoo'da vekili USO−USL, UNG−UNL ve BNO−USO farkları; hipotez dosyasına yazdım.\n\nKaldıraçlı ETF erimesini ölçtüm (2011-2025, L × taban yıllık getirisine göre): NUGT −15,4 puan/yıl, ERX −8,1, SOXL −8,5. UPRO, ERX, NUGT ve UCO 15 yılın 11-12'sinde bu ölçünün gerisinde kaldı.\n\nBireysel işlemci kanıtı:\n- Barber-Odean 2000: en çok işlem yapan hane yılda %11,4, piyasa %17,9.\n- Tayvan: gün içi işlemcilerin 10'da 8'inden fazlası tipik 6 ayda kaybediyor; küçük bir grup kalıcı olarak kazanıyor.\n\nBeklentin büyük ölçüde doğrulandı: trend filtreleri riski iyileştiriyor, getiriyi değil. Sektörlerde 2015 sonrası yön filtresi olarak işe yaramıyor, hatta ters çalışıyor. Emtiada zayıf bir yön filtresi olabilir. \"Ciddi kazanç\" beklentisi için kanıt yok.",
+ "kilit_defter": [
+  {
+   "iddia": "AQR TSMOM faktörü 2015 sonrası çöktü",
+   "kaynak": "https://www.aqr.com/-/media/AQR/Documents/Insights/Data-Sets/Time-Series-Momentum-Factors-Monthly.xlsx",
+   "alinti": "Kendi hesap: SR 1985-2009 1,41 (t 7,06); 2010-14 0,83; 2015-05/2026 0,24 (t 0,80); emtia 2015-26 0,15",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "TSMOM portföyü orijinal örneklemde Sharpe > 1",
+   "kaynak": "https://pages.stern.nyu.edu/~lpederse/papers/TimeSeriesMomentum.pdf",
+   "alinti": "yielding a Sharpe ratio greater than one on an annual basis",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "TSMOM varlık bazında zayıf",
+   "kaynak": "https://alphaarchitect.com/2020/03/an-empirical-challenge-for-trend-following/",
+   "alinti": "47 of the 55 assets have a t -statistic of less than 1.65",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Momentum kârı gecede oluşuyor",
+   "kaynak": "https://personal.lse.ac.uk/polk/research/TugOfWar.pdf",
+   "alinti": "profits are either earned entirely overnight (for reversal and a variety of momentum strategies) or entirely intraday",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Endüstri ve faktör momentumu 1 ayda en güçlü; faktör rotasyonu yıllık %10,5",
+   "kaynak": "https://rodneywhitecenter.wharton.upenn.edu/wp-content/uploads/2018/03/Juhani.pdf",
+   "alinti": "annualized average return of 10.5% with a t-value of 5.01",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Carry Sharpe: sınıf içi 0,7, çeşitlendirilmiş 1,1",
+   "kaynak": "https://www.nber.org/system/files/working_papers/w19325/w19325.pdf",
+   "alinti": "annualized Sharpe ratio of 0.7 on average ... diversified across all asset classes earns a Sharpe ratio of 1.1",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Emtia baz ve momentum sıralı spot primi",
+   "kaynak": "https://econpapers.repec.org/RePEc:bla:jfinan:v:69:y:2014:i:1:p:453-482",
+   "alinti": "spot premia between 5% and 14% per annum and term premia between 1% and 3% per annum",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "9 SPDR rotasyonu 1 gün tutmada sonuçsuz",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l5_on_hesap_sonuc.txt",
+   "alinti": "2015-26 L=20 en iyi3−EW 0,53 bp/gün t 0,58; tüm L için |t| < 1",
+   "guven": "orta (ön hesap)"
+  },
+  {
+   "iddia": "Sektör SMA200 filtresi getiriyi artırmıyor (2015-26)",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l5_on_hesap_sonuc.txt",
+   "alinti": "üstü 3,3 bp/gün sd 107; altı 9,5 bp sd 191; kümelenmeli t 2,32 / 1,80",
+   "guven": "orta (ön hesap)"
+  },
+  {
+   "iddia": "Emtia ETF 52 hafta zirvesi yakınında 3 günlük getiri",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l5_on_hesap_sonuc.txt",
+   "alinti": "2015-26 +20,5 bp, kümelenmeli t 2,15; SMA50>200 uzun-kısa SR 0,19",
+   "guven": "orta (ön hesap)"
+  },
+  {
+   "iddia": "Yeni sinyal için t > 3 eşiği",
+   "kaynak": "https://www.nber.org/system/files/working_papers/w20592/w20592.pdf",
+   "alinti": "needs to clear a much higher hurdle, with a t-ratio greater than 3.0",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Gün içi işlemcilerin çoğu kaybeder",
+   "kaynak": "https://faculty.haas.berkeley.edu/odean/papers/Day%20Traders/Day%20Trade%20040330.pdf",
+   "alinti": "in the typical six month period, more than eight out of ten day traders lose money",
+   "guven": "yüksek"
+  }
+ ],
+ "acik_kalanlar": "1. Web arama kotası 4. aramada doldu; sonrasında yalnız bilinen URL'leri açabildim. Şu kaynaklar açılamadı ve defterde \"doğrulanmadı (bellek)\" diye işaretli: McLean-Pontiff 2016 (%26 / %58 düşüş), Chague vd. 2020 (%97), Gayed \"Leverage for the Long Run\", Cheng-Madhavan ve Avellaneda-Zhang (kaldıraçlı ETF matematiği). Moskowitz-Grinblatt'ın 1 aylık sayısal büyüklüğü de açılmadı.\n2. Faber'in sayısal sonuçları (getiri, düşüş) çıkarılmadı; yalnız nitel alıntı var.\n3. Taşıma (carry) 2015 sonrasında ve 1-3 günlük ufukta test edilmedi; vade eğrisi verisi Yahoo'da yok. USO−USL vekili hipotez olarak kaldı (H3-H5). CLZ26.NYM gibi tekil sözleşmelerin Yahoo'da bulunup bulunmadığı doğrulanmadı.\n4. Ön hesapta işlem maliyeti, çoklu test düzeltmesi ve hayatta kalma kontrolü yok. Havuz t'leri şişik; kümelenmeli t'ler esas alınmalı. Kesin sonuç backtest ajanında.\n5. Trend takibinin masraf sonrası gerçek kaydı (DBMF, KMLM, CTA) evrende yok; ek_semboller'e yazdım.\n6. Gece getirisi bileşeninin 2015 sonrası zayıflayıp zayıflamadığı L3 notuyla birlikte değerlendirilmeli; SMA200 üstü sektör getirisinin tamamı gece.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l5_trend_momentum_tasima.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/l5_trend_momentum_tasima.json",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l5_on_hesap.py",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l5_on_hesap_sonuc.txt"
+ ]
+}

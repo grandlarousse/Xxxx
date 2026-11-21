@@ -1,0 +1,84 @@
+{
+ "arac": "40/35. Kontrol noktasından sonra 5 çağrı daha yapıldı: 2 dosya yazımı, sembol ve kelime denetimi ve önceden planlanan 2 kısa ön hesap (yerel veriyle korelasyon ve kısmi regresyon). Ön hesaplar, \"bugünkü durum\" sorusunu literatürün tek başına yanıtlayamadığı noktaları kapattı.",
+ "ozet": "Beklenti doğrulandı. Emtia ve çapraz varlık öncülüğünün akademik kanıtı neredeyse tamamen aylık. Petrol için Driesprong ve ark. 2008, metaller için Jacobsen ve ark. 2019, ABD'den diğer ülkelere Rapach ve ark. 2013, endüstriler için Hong ve ark. 2007 bu gruptadır. Ölçülen günlük gecikme petrolde 7-8 işlem günü (Fan ve Jahan-Parvar). Yani etki tek günlük bir sinyal değil, birkaç haftaya yayılan küçük bir kayma.\n\nBugünkü durum:\n- Petrol öngörüsünün işareti 2008 ortasında döndü (Brigida 2018).\n- Endüstri öncülüğü yeniden incelemede çoğunlukla kayboldu (Tse 2015: 48 endüstrinin 1-7'si).\n- Sektör ETF'leri SPY'a öncülük etmiyor.\n- Bono ETF'leri ile SPY günlükte eşzamanlı hareket ediyor (CXO). LQD aylık filtresinde kullanılabilir bir sol kuyruk etkisi var.\n- Kredi tarafında günlük öncülük yönü hisseden CDS'e (Hilscher ve ark. 2015).\n- Günlükte en güçlü kanıt opsiyon akışında: Pan ve Poteshman 2006'da ertesi gün 40 bps'nin üstü. Ancak veri kamuya kapalı. Kamuya açık sürüm yalnız 1-2 gün öngörüyor, sonra tersine dönüyor. Yahoo'yla test edilemez.\n\nÖn hesap (yerel veri, ortak.py, lag-1): 2019 sonrasında USO→XLE, GLD→GDX, CPER→COPX ve BTC→COIN/MSTR/MARA için ertesi gün etkisi sıfır ya da hafif negatif. HYG→SPY (ham OOS t≈-4.3) ve ΔVIX→SPY'daki görünür etki, SPY'ın kendi geri dönüşü kontrol edilince kayboluyor (HYG kısmi t=+0.69). Yani bunlar sahte öncülük. Ana ajanın bütün çapraz varlık testlerine \"hedefin kendi gecikmesi\" kontrolünü zorunlu eklemesi gerekir.\n\nProfile uyan ve test edilmeye değer adaylar:\n1. VIX ters vadeli yapısı karşıt al sinyali. Fassas ve Hourvouliades 2019: backwardation'da sonraki S&P getirisi pozitif, contango sinyalsiz. Ön hesap: VIX/VIX3M→SPY, 2024 sonrası t≈+2.3.\n2. TLT→XLU: kısmi IS t=2.2, OOS t=1.5.\n3. Petrolün 5-10 günlük birikimli şoku.\n4. HYG kuyruk filtresi.\n\nKripto hafta sonu düşüşünün Pazartesi hisse düşüşünü öngörmesi yayımlanmış bir bulgu (Mourey ve ark. 2025). Bilgi Pazartesi açılışında fiyatlandığı için profile uymuyor. Lead-lag ağ sinyalinde Sharpe 0.62 ve 2.4 bps/gün (maliyetsiz), ama 2012'den sonra bozulmuş. Popüler ama kanıtı zayıf olanlar: altın→madenciler, bakır→madenciler, BTC→kripto hisseleri (ertesi gün), CBOE put/call ile zamanlama.",
+ "kilit_defter": [
+  {
+   "iddia": "Petrol öngörüsünün işareti 2008 ortasında değişti ve risk primiyle tutarlı",
+   "kaynak": "https://ideas.repec.org/a/eme/sefpps/sef-01-2017-0020.html",
+   "alinti": "After mid-2008, the predictive relationship switched signs",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Petrol bilgisine tepki 7-8 işlem günü gecikiyor; vadeli fiyatla öngörü zayıf",
+   "kaynak": "https://economics.ecu.edu/wp-content/pv-uploads/sites/165/2019/07/ECU0912.pdf",
+   "alinti": "between seven and eight trading days; predictability based on changes in oil future prices is weak",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Sanayi metali 1 sd artışı genişlemede aylık -%1.5, resesyonda +%0.5",
+   "kaynak": "https://pubsonline.informs.org/doi/pdf/10.1287/mnsc.2017.2933",
+   "alinti": "price drop of one and a half percent in monthly stock market returns in expansions",
+   "guven": "orta (arama özeti)"
+  },
+  {
+   "iddia": "Endüstri öncülüğü yeniden incelemede zayıf",
+   "kaynak": "https://ideas.repec.org/a/eee/empfin/v34y2015icp195-203.html",
+   "alinti": "only one to seven industries have significant predictive ability",
+   "guven": "orta (arama özeti)"
+  },
+  {
+   "iddia": "Bono ve hisse ETF'leri günlükte eşzamanlı; aylık LQD filtresi CAGR %11.1, SPY %7.3 (IS)",
+   "kaynak": "https://www.cxoadvisory.com/equity-premium/bond-and-stock-etfs-lead-lag/",
+   "alinti": "relationships appear unexploitably coincident; 7.3%, 8.6% and 11.1%, respectively",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Sektör ETF'leri piyasaya öncülük etmiyor",
+   "kaynak": "https://www.cxoadvisory.com/economic-indicators/do-any-sector-etfs-reliably-lead-or-lag-the-market/",
+   "alinti": "little evidence that any equity sector ETFs reliably lead or lag",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Put/call (özel veri) ertesi gün 40 bps'nin üstünde; kamuya açık sürüm 1-2 gün öngörüyor, sonra geri dönüyor",
+   "kaynak": "https://nber.org/system/files/working_papers/w10925/w10925.pdf",
+   "alinti": "able to predict stock returns for only the next 1 or 2 trade days. Moreover, the stock prices subsequently reverse",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "VIX vadeli ters yapısında sonraki S&P getirisi pozitif; contango sinyalsiz",
+   "kaynak": "https://mdpi-res.com/d_attachment/jrfm/jrfm-12-00113/article_deploy/jrfm-12-00113-v2.pdf",
+   "alinti": "−0.1687 for daily returns vs. −1.1809 for quarterly returns; Slope+t was not statistically significant in any instance",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Kripto hafta sonu düşüşü Pazartesi hisse düşüşünü öngörür (profile uymuyor)",
+   "kaynak": "https://ideas.repec.org/p/hal/journl/hal-05415054.html",
+   "alinti": "negative weekend returns significantly predict Monday equity declines, while positive returns have no effect",
+   "guven": "yüksek (özet)"
+  },
+  {
+   "iddia": "Lead-lag küme sinyali: Sharpe 0.62, 2.4 bps/gün, maliyetsiz, 2012 sonrası bozulma",
+   "kaynak": "https://arxiv.org/pdf/2201.08283",
+   "alinti": "annualised Sharpe Ratio of 0.62; decay in the performance of the signal after 2012",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Ön hesap: HYG→SPY ve ΔVIX→SPY etkisi SPY'ın kendi geri dönüşünden geliyor",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l2_on_hesap.py",
+   "alinti": "HYG→SPY OOS ham corr -0.097; kısmi b_HYG t=+0.69, b_SPY t=-2.13",
+   "guven": "orta (tek seferlik)"
+  },
+  {
+   "iddia": "Ön hesap: emtia ve BTC → sektör hisseleri ertesi gün etkisi yok; VIX/VIX3M→SPY 2024 sonrası pozitif",
+   "kaynak": "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l2_on_hesap.py",
+   "alinti": "kısmi OOS t: GLD→GDX +0.08, USO→XLE +0.54; VIXR→SPY SON corr +0.087 t≈+2.3",
+   "guven": "orta (tek seferlik)"
+  }
+ ],
+ "acik_kalanlar": "1. Driesprong 2008 ve Jacobsen 2019'un işlem başına getiri, Sharpe ve maliyet sonrası sayıları tam metinden görülmedi. core.ac.uk 403 verdi; ikisinde de yalnız özet ve ikincil aktarım var.\n2. Narayan ve Sharma 2011'in veri sıklığı (günlük mü) doğrulanmadı.\n3. Yahoo'da vadeli işlemlerin (CL=F, GC=F, HG=F, NG=F) \"close\" zaman damgası belli değil: settlement fiyatı mı, 16:00 ET'den sonraki son işlem mi? Belli olmadan bu seriler öncü olarak kullanılırsa ileriye bakma riski var. ETF (USO, GLD, CPER) ya da 1 gün gecikmeli varyant kullanılmalı.\n4. Ön hesaptaki t değerleri basit corr×√n ya da HAC(5) yaklaşımıdır. Maliyet, çoklu test düzeltmesi ve h=2-3 testi yapılmadı; backtest ajanı bunları yapmalı.\n5. Opsiyon akışı (Pan-Poteshman, Cremers-Weinbaum, An ve ark.) ile CDS sinyalleri Yahoo verisiyle test edilemez. Kanıtı güçlü olan bu sinyaller kullanıcının erişebileceği kapsamın dışında.\n6. VIX ters yapısı olayları kümelenir ve az sayıdadır (2012-2017'de neredeyse hiç yok). Olay bazında bağımsız örneklem sayısı küçük kalacak.\n7. Asya ve Avrupa kapanışından ABD'nin kapanıştan kapanışa getirisine temiz bir test bulunamadı. Mevcut kanıt, yabancı piyasalardan ABD'ye öncülüğün sınırlı olduğunu söylüyor.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l2_emtia_capraz_varlik.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/hipotez/l2_emtia_capraz_varlik.json",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/literatur/l2_on_hesap.py"
+ ]
+}
