@@ -6,7 +6,7 @@ Kullanim: python3 -I bilanco.py <ham_dizin> <cikti_csv>
 import sys, os, json, time, datetime as dt, requests
 from zoneinfo import ZoneInfo
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from evren_tanim import KODLAR
+from evren_tanim import KODLAR, YENI_KOD
 
 ham, cikti = sys.argv[1], sys.argv[2]
 sec = os.path.join(ham, "sec"); os.makedirs(sec, exist_ok=True)
@@ -61,7 +61,7 @@ def efts_cik(k):
     return None
 
 satirlar, notlar = [], {}
-hisseler = [k for k, g in KODLAR if g.startswith("h_")]
+hisseler = [YENI_KOD.get(k, k) for k, g in KODLAR if g.startswith("h_")]
 for k in hisseler:
     cik = cikmap.get(k) or cikmap.get(k.replace("-", ".")) or efts_cik(k)
     if cik is None:

@@ -52,7 +52,7 @@ sat = []
 for k, g, eski in kodlar:
     d = seri[k]; c = P["close"][k]; v = P["volume"][k]
     t = tur(k, g)
-    son60 = (c * v).dropna().iloc[-60:]
+    son60 = (v if t == "kripto" else c * v).dropna().iloc[-60:]   # Yahoo kripto hacmi zaten USD
     adv = float(son60.mean()) if len(son60) else np.nan
     lev, day = KALDIRAC.get(k, (1, ""))
     notlar = []

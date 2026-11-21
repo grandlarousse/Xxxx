@@ -1,470 +1,471 @@
-kod,grup,tur,kapanis_sinifi,ilk_tarih,son_tarih,gun_sayisi,adv60_usd,maliyet_bps,kaldirac,dayanak,borsa_tz,not
-SPY,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,35925336408.0,1.5,1.0,,America/New_York,
-QQQ,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,29662931666.0,1.5,1.0,,America/New_York,
-IWM,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,6961734882.0,1.5,1.0,,America/New_York,
-DIA,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,1862120127.0,1.5,1.0,,America/New_York,
-MDY,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,472042550.0,3.0,1.0,,America/New_York,
-RSP,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,1902895074.0,1.5,1.0,,America/New_York,
-VTI,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,1287134879.0,1.5,1.0,,America/New_York,
-XLK,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1844222608.0,1.5,1.0,,America/New_York,
-XLF,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,2059284056.0,1.5,1.0,,America/New_York,
-XLE,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,2198694748.0,1.5,1.0,,America/New_York,
-XLV,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1719252778.0,1.5,1.0,,America/New_York,
-XLY,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,881319382.0,3.0,1.0,,America/New_York,
-XLP,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1308705334.0,1.5,1.0,,America/New_York,
-XLI,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1377082199.0,1.5,1.0,,America/New_York,
-XLB,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,607413930.0,3.0,1.0,,America/New_York,
-XLU,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1171588262.0,1.5,1.0,,America/New_York,
-XLRE,sektor,ETF,ABD16,2015-10-08,2026-11-20,2797,303610838.0,3.0,1.0,,America/New_York,
-XLC,sektor,ETF,ABD16,2018-06-19,2026-11-20,2119,719201204.0,3.0,1.0,,America/New_York,
-SMH,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,4850634517.0,1.5,1.0,,America/New_York,
-SOXX,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,4886604729.0,1.5,1.0,,America/New_York,
-XSD,tema_etf,ETF,ABD16,2006-02-06,2026-11-20,5232,64580121.0,7.0,1.0,,America/New_York,
-IGV,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,925838685.0,3.0,1.0,,America/New_York,
-SKYY,tema_etf,ETF,ABD16,2011-07-06,2026-11-20,3869,42501149.0,15.0,1.0,,America/New_York,
-CIBR,tema_etf,ETF,ABD16,2015-07-07,2026-11-20,2863,216440973.0,3.0,1.0,,America/New_York,
-HACK,tema_etf,ETF,ABD16,2014-11-12,2026-11-20,3024,50854025.0,7.0,1.0,,America/New_York,
-FDN,tema_etf,ETF,ABD16,2006-06-23,2026-11-20,5136,45560608.0,15.0,1.0,,America/New_York,
-XBI,tema_etf,ETF,ABD16,2006-02-06,2026-11-20,5232,1404570184.0,1.5,1.0,,America/New_York,
-IBB,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,371467361.0,3.0,1.0,,America/New_York,
-IHI,tema_etf,ETF,ABD16,2006-05-05,2026-11-20,5170,156909041.0,7.0,1.0,,America/New_York,
-XPH,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,13893825.0,15.0,1.0,,America/New_York,
-KRE,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,1076280090.0,1.5,1.0,,America/New_York,
-KBE,tema_etf,ETF,ABD16,2005-11-15,2026-11-20,5287,116264671.0,7.0,1.0,,America/New_York,
-KIE,tema_etf,ETF,ABD16,2005-11-15,2026-11-20,5287,74744391.0,7.0,1.0,,America/New_York,
-IAI,tema_etf,ETF,ABD16,2006-05-05,2026-11-20,5170,15165359.0,15.0,1.0,,America/New_York,
-XHB,tema_etf,ETF,ABD16,2006-02-06,2026-11-20,5232,210687499.0,3.0,1.0,,America/New_York,
-ITB,tema_etf,ETF,ABD16,2006-05-05,2026-11-20,5170,229343289.0,3.0,1.0,,America/New_York,
-XRT,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,349612352.0,3.0,1.0,,America/New_York,
-XOP,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,564007460.0,3.0,1.0,,America/New_York,
-OIH,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,110134025.0,7.0,1.0,,America/New_York,
-XME,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,163280681.0,7.0,1.0,,America/New_York,
-GDX,tema_etf,ETF,ABD16,2006-05-22,2026-11-20,5159,1989075337.0,1.5,1.0,,America/New_York,
-GDXJ,tema_etf,ETF,ABD16,2009-11-11,2026-11-20,4283,489177665.0,3.0,1.0,,America/New_York,
-SIL,tema_etf,ETF,ABD16,2010-04-20,2026-11-20,4175,83632862.0,7.0,1.0,,America/New_York,
-COPX,tema_etf,ETF,ABD16,2010-04-20,2026-11-20,4175,242315918.0,3.0,1.0,,America/New_York,
-URA,tema_etf,ETF,ABD16,2010-11-05,2026-11-20,4035,151379992.0,7.0,1.0,,America/New_York,
-URNM,tema_etf,ETF,ABD16,2019-12-04,2026-11-20,1751,35470016.0,15.0,1.0,,America/New_York,
-NLR,tema_etf,ETF,ABD16,2007-08-15,2026-11-20,4849,45588359.0,15.0,1.0,,America/New_York,
-IYT,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,73412202.0,7.0,1.0,,America/New_York,
-JETS,tema_etf,ETF,ABD16,2015-04-30,2026-11-20,2909,112541394.0,7.0,1.0,,America/New_York,
-ITA,tema_etf,ETF,ABD16,2006-05-05,2026-11-20,5170,182139315.0,7.0,1.0,,America/New_York,
-XAR,tema_etf,ETF,ABD16,2011-09-29,2026-11-20,3809,83505285.0,7.0,1.0,,America/New_York,
-PPA,tema_etf,ETF,ABD16,2005-10-26,2026-11-20,5301,43261669.0,15.0,1.0,,America/New_York,
-ARKK,tema_etf,ETF,ABD16,2014-10-31,2026-11-20,3032,439406256.0,3.0,1.0,,America/New_York,
-ARKW,tema_etf,ETF,ABD16,2014-09-30,2026-11-20,3055,13848956.0,15.0,1.0,,America/New_York,
-ARKG,tema_etf,ETF,ABD16,2014-10-31,2026-11-20,3032,239798680.0,3.0,1.0,,America/New_York,
-TAN,tema_etf,ETF,ABD16,2008-04-15,2026-11-20,4682,58545965.0,7.0,1.0,,America/New_York,
-ICLN,tema_etf,ETF,ABD16,2008-06-25,2026-11-20,4632,108002809.0,7.0,1.0,,America/New_York,
-LIT,tema_etf,ETF,ABD16,2010-07-23,2026-11-20,4109,13582981.0,15.0,1.0,,America/New_York,
-IPO,tema_etf,ETF,ABD16,2013-10-16,2026-11-20,3295,1179888.0,15.0,1.0,,America/New_York,
-MAGS,tema_etf,ETF,ABD16,2023-04-11,2026-11-20,909,317738978.0,3.0,1.0,,America/New_York,
-QTUM,tema_etf,ETF,ABD16,2018-09-05,2026-11-20,2065,46531872.0,15.0,1.0,,America/New_York,
-BOTZ,tema_etf,ETF,ABD16,2016-09-13,2026-11-20,2563,24935228.0,15.0,1.0,,America/New_York,
-ROBO,tema_etf,ETF,ABD16,2013-10-22,2026-11-20,3291,10098994.0,15.0,1.0,,America/New_York,
-UFO,tema_etf,ETF,ABD16,2019-04-11,2026-11-20,1915,10321434.0,15.0,1.0,,America/New_York,
-BLOK,tema_etf,ETF,ABD16,2018-01-25,2026-11-20,2219,13373567.0,15.0,1.0,,America/New_York,
-BITQ,tema_etf,ETF,ABD16,2021-05-12,2026-11-20,1390,3234755.0,15.0,1.0,,America/New_York,
-WGMI,tema_etf,ETF,ABD16,2022-02-08,2026-11-20,1202,27005668.0,15.0,1.0,,America/New_York,
-PAVE,tema_etf,ETF,ABD16,2017-03-08,2026-11-20,2442,93671267.0,7.0,1.0,,America/New_York,
-VNQ,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,387645336.0,3.0,1.0,,America/New_York,
-IYR,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,578614568.0,3.0,1.0,,America/New_York,
-MTUM,faktor,ETF,ABD16,2013-04-18,2026-11-20,3421,366167964.0,3.0,1.0,,America/New_York,
-SPMO,faktor,ETF,ABD16,2015-10-12,2026-11-20,2795,301444592.0,3.0,1.0,,America/New_York,
-QUAL,faktor,ETF,ABD16,2013-07-18,2026-11-20,3358,253735829.0,3.0,1.0,,America/New_York,
-USMV,faktor,ETF,ABD16,2011-10-20,2026-11-20,3794,204042654.0,3.0,1.0,,America/New_York,
-SPLV,faktor,ETF,ABD16,2011-05-05,2026-11-20,3911,168498437.0,7.0,1.0,,America/New_York,
-SPHB,faktor,ETF,ABD16,2011-05-05,2026-11-20,3911,52761274.0,7.0,1.0,,America/New_York,
-IWF,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,641025236.0,3.0,1.0,,America/New_York,
-IWD,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,513436352.0,3.0,1.0,,America/New_York,
-VUG,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,579765859.0,3.0,1.0,,America/New_York,
-VTV,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,641035551.0,3.0,1.0,,America/New_York,
-IWO,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,168976178.0,7.0,1.0,,America/New_York,
-IWN,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,156302664.0,7.0,1.0,,America/New_York,
-AVUV,faktor,ETF,ABD16,2019-09-26,2026-11-20,1799,168430767.0,7.0,1.0,,America/New_York,
-SCHD,faktor,ETF,ABD16,2011-10-20,2026-11-20,3794,829212277.0,3.0,1.0,,America/New_York,
-VYM,faktor,ETF,ABD16,2006-11-16,2026-11-20,5034,188268702.0,7.0,1.0,,America/New_York,
-TQQQ,kaldirac_ters,ETF,ABD16,2010-02-11,2026-11-20,4221,4479396539.0,2.5,3.0,QQQ,America/New_York,
-SQQQ,kaldirac_ters,ETF,ABD16,2010-02-11,2026-11-20,4221,2080490139.0,2.5,-3.0,QQQ,America/New_York,
-UPRO,kaldirac_ters,ETF,ABD16,2009-06-25,2026-11-20,4380,340195101.0,4.0,3.0,SPY,America/New_York,
-SPXU,kaldirac_ters,ETF,ABD16,2009-06-25,2026-11-20,4380,349571124.0,4.0,-3.0,SPY,America/New_York,
-SPXL,kaldirac_ters,ETF,ABD16,2008-11-05,2026-11-20,4539,530753734.0,4.0,3.0,SPY,America/New_York,
-SPXS,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,360529950.0,4.0,-3.0,SPY,America/New_York,
-SSO,kaldirac_ters,ETF,ABD16,2006-06-21,2026-11-20,5138,290469788.0,4.0,2.0,SPY,America/New_York,
-SDS,kaldirac_ters,ETF,ABD16,2006-07-13,2026-11-20,5123,236317703.0,4.0,-2.0,SPY,America/New_York,
-QLD,kaldirac_ters,ETF,ABD16,2006-06-21,2026-11-20,5138,463683219.0,4.0,2.0,QQQ,America/New_York,
-QID,kaldirac_ters,ETF,ABD16,2006-07-13,2026-11-20,5123,513724198.0,4.0,-2.0,QQQ,America/New_York,
-SOXL,kaldirac_ters,ETF,ABD16,2010-03-11,2026-11-20,4202,9954476689.0,2.5,3.0,SOXX,America/New_York,
-SOXS,kaldirac_ters,ETF,ABD16,2010-03-11,2026-11-20,4202,3744602034.0,2.5,-3.0,SOXX,America/New_York,
-TECL,kaldirac_ters,ETF,ABD16,2008-12-30,2026-11-20,4502,135149821.0,8.0,3.0,XLK,America/New_York,
-TECS,kaldirac_ters,ETF,ABD16,2008-12-30,2026-11-20,4502,30023656.0,16.0,-3.0,XLK,America/New_York,
-TNA,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,288028510.0,4.0,3.0,IWM,America/New_York,
-TZA,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,217642064.0,4.0,-3.0,IWM,America/New_York,
-FAS,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,67269092.0,8.0,3.0,XLF,America/New_York,
-FAZ,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,49398777.0,16.0,-3.0,XLF,America/New_York,
-LABU,kaldirac_ters,ETF,ABD16,2015-05-28,2026-11-20,2890,92327696.0,8.0,3.0,XBI,America/New_York,
-LABD,kaldirac_ters,ETF,ABD16,2015-05-28,2026-11-20,2890,178438041.0,8.0,-3.0,XBI,America/New_York,
-NUGT,kaldirac_ters,ETF,ABD16,2010-12-08,2026-11-20,4013,106965766.0,8.0,2.0,GDX,America/New_York,
-DUST,kaldirac_ters,ETF,ABD16,2010-12-08,2026-11-20,4013,43034111.0,16.0,-2.0,GDX,America/New_York,
-JNUG,kaldirac_ters,ETF,ABD16,2013-10-03,2026-11-20,3304,41382933.0,16.0,2.0,GDXJ,America/New_York,
-GUSH,kaldirac_ters,ETF,ABD16,2015-05-29,2026-11-20,2889,24656577.0,16.0,2.0,XOP,America/New_York,
-DRIP,kaldirac_ters,ETF,ABD16,2015-05-29,2026-11-20,2889,34953040.0,16.0,-2.0,XOP,America/New_York,
-ERX,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,40740546.0,16.0,2.0,XLE,America/New_York,
-ERY,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,170019187.0,8.0,-2.0,XLE,America/New_York,
-YINN,kaldirac_ters,ETF,ABD16,2009-12-03,2026-11-20,4268,39116595.0,16.0,3.0,FXI,America/New_York,
-YANG,kaldirac_ters,ETF,ABD16,2009-12-03,2026-11-20,4268,23448692.0,16.0,-3.0,FXI,America/New_York,
-TMF,kaldirac_ters,ETF,ABD16,2009-04-16,2026-11-20,4429,188839827.0,8.0,3.0,TLT,America/New_York,
-TMV,kaldirac_ters,ETF,ABD16,2009-04-16,2026-11-20,4429,65557098.0,8.0,-3.0,TLT,America/New_York,
-UDOW,kaldirac_ters,ETF,ABD16,2010-02-11,2026-11-20,4221,137854949.0,8.0,3.0,DIA,America/New_York,
-SDOW,kaldirac_ters,ETF,ABD16,2010-02-11,2026-11-20,4221,110365488.0,8.0,-3.0,DIA,America/New_York,
-NVDL,kaldirac_ters,ETF,ABD16,2022-12-13,2026-11-20,989,486956538.0,4.0,2.0,NVDA,America/New_York,
-TSLL,kaldirac_ters,ETF,ABD16,2022-08-09,2026-11-20,1077,590165920.0,4.0,2.0,TSLA,America/New_York,
-TSLQ,kaldirac_ters,ETF,ABD16,2022-07-14,2026-11-20,1095,109921317.0,8.0,-1.0,TSLA,America/New_York,
-CONL,kaldirac_ters,ETF,ABD16,2022-08-10,2026-11-20,1076,96134381.0,8.0,2.0,COIN,America/New_York,
-MSTU,kaldirac_ters,ETF,ABD16,2024-09-18,2026-11-20,547,160360504.0,8.0,2.0,MSTR,America/New_York,
-MSTX,kaldirac_ters,ETF,ABD16,2024-08-15,2026-11-20,570,112699058.0,8.0,2.0,MSTR,America/New_York,
-BITX,kaldirac_ters,ETF,ABD16,2023-06-27,2026-11-20,856,158480944.0,8.0,2.0,BTC-USD,America/New_York,
-UVXY,kaldirac_ters,ETF,ABD16,2011-10-04,2026-11-20,3806,234397078.0,4.0,1.5,VXX,America/New_York,
-SVXY,kaldirac_ters,ETF,ABD16,2011-10-04,2026-11-20,3806,104368825.0,8.0,-0.5,VXX,America/New_York,
-VXX,kaldirac_ters,ETF,ABD16,2018-01-25,2026-11-20,2219,272149705.0,3.0,1.0,^VIX,America/New_York,
-VIXY,kaldirac_ters,ETF,ABD16,2011-01-04,2026-11-20,3995,75995587.0,7.0,1.0,^VIX,America/New_York,
-UCO,kaldirac_ters,ETF,ABD16,2008-11-25,2026-11-20,4525,121465148.0,8.0,2.0,USO,America/New_York,
-SCO,kaldirac_ters,ETF,ABD16,2008-11-25,2026-11-20,4525,123079964.0,8.0,-2.0,USO,America/New_York,
-BOIL,kaldirac_ters,ETF,ABD16,2011-10-06,2026-11-20,3804,128464201.0,8.0,2.0,UNG,America/New_York,
-KOLD,kaldirac_ters,ETF,ABD16,2011-10-06,2026-11-20,3804,84088011.0,8.0,-2.0,UNG,America/New_York,
-AGQ,kaldirac_ters,ETF,ABD16,2008-12-04,2026-11-20,4519,196272340.0,8.0,2.0,SLV,America/New_York,
-ZSL,kaldirac_ters,ETF,ABD16,2008-12-03,2026-11-20,4520,102195704.0,8.0,-2.0,SLV,America/New_York,
-UGL,kaldirac_ters,ETF,ABD16,2008-12-03,2026-11-20,4520,132243603.0,8.0,2.0,GLD,America/New_York,
-GLL,kaldirac_ters,ETF,ABD16,2008-12-03,2026-11-20,4520,74151529.0,8.0,-2.0,GLD,America/New_York,
-TLT,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,3265622420.0,1.5,1.0,,America/New_York,
-IEF,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,983637800.0,3.0,1.0,,America/New_York,
-SHY,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,401215736.0,3.0,1.0,,America/New_York,
-TIP,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,225536876.0,3.0,1.0,,America/New_York,
-HYG,capraz_varlik,ETF,ABD16,2007-04-11,2026-11-20,4937,3927700640.0,1.5,1.0,,America/New_York,
-JNK,capraz_varlik,ETF,ABD16,2007-12-04,2026-11-20,4772,364211533.0,3.0,1.0,,America/New_York,
-LQD,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,3329648210.0,1.5,1.0,,America/New_York,
-EMB,capraz_varlik,ETF,ABD16,2007-12-19,2026-11-20,4761,749550060.0,3.0,1.0,,America/New_York,
-BKLN,capraz_varlik,ETF,ABD16,2011-03-03,2026-11-20,3955,249533484.0,3.0,1.0,,America/New_York,
-UUP,capraz_varlik,ETF,ABD16,2007-03-01,2026-11-20,4965,48749283.0,15.0,1.0,,America/New_York,
-FXE,capraz_varlik,ETF,ABD16,2005-12-12,2026-11-20,5269,8557889.0,15.0,1.0,,America/New_York,
-FXY,capraz_varlik,ETF,ABD16,2007-02-13,2026-11-20,4976,11334531.0,15.0,1.0,,America/New_York,
-FXB,capraz_varlik,ETF,ABD16,2006-06-26,2026-11-20,5135,2954959.0,15.0,1.0,,America/New_York,
-FXA,capraz_varlik,ETF,ABD16,2006-06-26,2026-11-20,5135,539391.0,15.0,1.0,,America/New_York,
-GLD,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,3631462610.0,1.5,1.0,,America/New_York,
-SLV,capraz_varlik,ETF,ABD16,2006-04-28,2026-11-20,5175,930740035.0,3.0,1.0,,America/New_York,
-PPLT,capraz_varlik,ETF,ABD16,2010-01-08,2026-11-20,4244,33301576.0,15.0,1.0,,America/New_York,
-PALL,capraz_varlik,ETF,ABD16,2010-01-08,2026-11-20,4244,21194625.0,15.0,1.0,,America/New_York,
-USO,capraz_varlik,ETF,ABD16,2006-04-10,2026-11-20,5188,805364095.0,3.0,1.0,,America/New_York,
-BNO,capraz_varlik,ETF,ABD16,2010-06-02,2026-11-20,4145,116581586.0,7.0,1.0,,America/New_York,
-UNG,capraz_varlik,ETF,ABD16,2007-04-18,2026-11-20,4932,253734046.0,3.0,1.0,,America/New_York,
-DBC,capraz_varlik,ETF,ABD16,2006-02-06,2026-11-20,5232,26823454.0,15.0,1.0,,America/New_York,
-DBA,capraz_varlik,ETF,ABD16,2007-01-05,2026-11-20,5002,33749913.0,15.0,1.0,,America/New_York,
-CPER,capraz_varlik,ETF,ABD16,2011-11-15,2026-11-20,3776,19883737.0,15.0,1.0,,America/New_York,
-IBIT,capraz_varlik,ETF,ABD16,2024-01-11,2026-11-20,719,2047923010.0,1.5,1.0,,America/New_York,
-ETHA,capraz_varlik,ETF,ABD16,2024-07-23,2026-11-20,587,622392778.0,3.0,1.0,,America/New_York,
-GBTC,capraz_varlik,ETF,ABD16,2015-05-11,2026-11-20,2902,105641088.0,7.0,1.0,,America/New_York,
-BITO,capraz_varlik,ETF,ABD16,2021-10-20,2026-11-20,1278,735580200.0,3.0,1.0,,America/New_York,
-EFA,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,1486515420.0,1.5,1.0,,America/New_York,
-EEM,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,1484922450.0,1.5,1.0,,America/New_York,
-VGK,ulke_etf,ETF,ABD16,2005-03-10,2026-11-20,5461,216736523.0,3.0,1.0,,America/New_York,
-EZU,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,76028100.0,7.0,1.0,,America/New_York,
-EWJ,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,418967229.0,3.0,1.0,,America/New_York,
-EWG,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,49076326.0,15.0,1.0,,America/New_York,
-EWU,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,54736424.0,7.0,1.0,,America/New_York,
-EWQ,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,17056949.0,15.0,1.0,,America/New_York,
-EWI,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,29630628.0,15.0,1.0,,America/New_York,
-EWP,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,34349579.0,15.0,1.0,,America/New_York,
-EWL,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,38731636.0,15.0,1.0,,America/New_York,
-FXI,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,664070066.0,3.0,1.0,,America/New_York,
-MCHI,ulke_etf,ETF,ABD16,2011-03-31,2026-11-20,3935,110155210.0,7.0,1.0,,America/New_York,
-KWEB,ulke_etf,ETF,ABD16,2013-08-01,2026-11-20,3348,453898278.0,3.0,1.0,,America/New_York,
-ASHR,ulke_etf,ETF,ABD16,2013-11-06,2026-11-20,3280,119123111.0,7.0,1.0,,America/New_York,
-EWT,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,633845362.0,3.0,1.0,,America/New_York,
-EWY,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,2486589766.0,1.5,1.0,,America/New_York,
-INDA,ulke_etf,ETF,ABD16,2012-02-03,2026-11-20,3722,300677002.0,3.0,1.0,,America/New_York,
-EWZ,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,1703430366.0,1.5,1.0,,America/New_York,
-EWW,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,86105977.0,7.0,1.0,,America/New_York,
-TUR,ulke_etf,ETF,ABD16,2008-03-28,2026-11-20,4694,6790468.0,15.0,1.0,,America/New_York,
-EZA,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,12232035.0,15.0,1.0,,America/New_York,
-EWA,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,85041348.0,7.0,1.0,,America/New_York,
-EWC,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,120758774.0,7.0,1.0,,America/New_York,
-EWH,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,71537292.0,7.0,1.0,,America/New_York,
-EWS,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,50591564.0,7.0,1.0,,America/New_York,
-ARGT,ulke_etf,ETF,ABD16,2011-03-03,2026-11-20,3955,14189420.0,15.0,1.0,,America/New_York,
-ILF,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,94498838.0,7.0,1.0,,America/New_York,
-^GSPC,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,40576719802308.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^IXIC,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,221336142055570.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^NDX,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,247395176794678.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^RUT,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,15003032934390.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^DJI,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,26205425211027.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^SOX,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,0.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^VIX,gosterge,endeks,VIX1615,2005-01-03,2026-11-20,5507,,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^VIX3M,gosterge,endeks,VIX1615,2006-07-17,2026-11-20,5121,0.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^VIX9D,gosterge,endeks,VIX1615,2011-01-04,2026-11-20,3995,,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^VVIX,gosterge,endeks,VIX1615,2007-01-03,2026-11-20,4995,,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^SKEW,gosterge,endeks,VIX1615,2005-01-03,2026-11-20,5444,,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^TNX,gosterge,endeks,ONCE,2005-01-03,2026-11-20,5502,0.0,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^FVX,gosterge,endeks,ONCE,2005-01-03,2026-11-20,5502,0.0,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^TYX,gosterge,endeks,ONCE,2005-01-03,2026-11-20,5502,0.0,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^IRX,gosterge,endeks,ONCE,2005-01-03,2026-11-20,5502,0.0,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^MOVE,gosterge,endeks,SONRA,2005-01-03,2026-11-20,5414,,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-ES=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5505,13175447938.0,1.5,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-NQ=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5505,19001075866.0,1.5,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-RTY=F,vadeli_doviz_kripto,vadeli,SONRA,2017-07-10,2026-11-20,2357,553485255.0,3.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-CL=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5502,26983666.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-BZ=F,vadeli_doviz_kripto,vadeli,SONRA,2007-07-30,2026-11-20,4806,4105461.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-NG=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5502,551016.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-GC=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5498,716526669.0,3.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-SI=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5499,14161.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-HG=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5499,9373.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-ZN=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5492,215638516.0,3.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-ZB=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5498,49199723.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik"
-DX-Y.NYB,vadeli_doviz_kripto,doviz,SONRA,2005-01-03,2026-11-20,5505,,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-EURUSD=X,vadeli_doviz_kripto,doviz,SONRA,2005-01-03,2026-11-20,5478,,,1.0,,Europe/London,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-JPY=X,vadeli_doviz_kripto,doviz,SONRA,2005-01-03,2026-11-20,5478,,,1.0,,Europe/London,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-TRY=X,vadeli_doviz_kripto,doviz,SONRA,2005-01-03,2026-11-20,5493,,,1.0,,Europe/London,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-BTC-USD,vadeli_doviz_kripto,kripto,SONRA,2014-09-17,2026-11-21,3064,2655766947911766.0,1.5,1.0,,UTC,"Yahoo kripto hacmi USD, 7/24 piyasa; panelde yalniz NYSE gunleri"
-ETH-USD,vadeli_doviz_kripto,kripto,SONRA,2017-11-09,2026-11-21,2270,35401449819514.0,1.5,1.0,,UTC,"Yahoo kripto hacmi USD, 7/24 piyasa; panelde yalniz NYSE gunleri"
-SOL-USD,vadeli_doviz_kripto,kripto,SONRA,2020-04-10,2026-11-21,1663,353199290170.0,1.5,1.0,,UTC,"Yahoo kripto hacmi USD, 7/24 piyasa; panelde yalniz NYSE gunleri"
-^N225,dis_endeks,endeks,ONCE,2005-01-04,2026-11-20,5173,10823550243613.0,,1.0,,Asia/Tokyo,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^HSI,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5255,68320203334951.0,,1.0,,Asia/Hong_Kong,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-000001.SS,dis_endeks,endeks,ONCE,2005-01-04,2026-11-20,5135,1816523288.0,,1.0,,Asia/Shanghai,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^KS11,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5227,1706850814.0,,1.0,,Asia/Seoul,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^TWII,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5182,205355174839.0,,1.0,,Asia/Taipei,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^GDAXI,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5416,1463964672136.0,,1.0,,Europe/Berlin,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^FTSE,dis_endeks,endeks,ONCE,2005-01-04,2026-11-20,5407,8326633116504.0,,1.0,,Europe/London,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^FCHI,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5453,509194291288.0,,1.0,,Europe/Paris,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^STOXX50E,dis_endeks,endeks,ONCE,2007-03-30,2026-11-20,4813,129212456390.0,,1.0,,Europe/Zurich,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^BVSP,dis_endeks,endeks,SONRA,2005-01-03,2026-11-19,5285,2254069463953.0,,1.0,,America/Sao_Paulo,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-^NSEI,dis_endeks,endeks,ONCE,2007-09-17,2026-11-20,4576,8012476695.0,,1.0,,Asia/Kolkata,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-XU100.IS,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5310,88695866217922.0,,1.0,,Europe/Istanbul,dogrudan islem gormez/hacim anlamsiz; maliyet yok
-NVDA,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,32555451198.0,1.5,1.0,,America/New_York,
-AMD,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,14721736944.0,1.5,1.0,,America/New_York,
-AVGO,h_yari_iletken,hisse,ABD16,2009-08-06,2026-11-20,4351,9124149872.0,1.5,1.0,,America/New_York,
-TSM,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,5226030154.0,1.5,1.0,,America/New_York,
-MU,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,25736527844.0,1.5,1.0,,America/New_York,
-INTC,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,10374755825.0,1.5,1.0,,America/New_York,
-QCOM,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,2308368644.0,1.5,1.0,,America/New_York,
-TXN,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,1999951485.0,1.5,1.0,,America/New_York,
-AMAT,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,3050917914.0,1.5,1.0,,America/New_York,
-LRCX,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,2838893575.0,1.5,1.0,,America/New_York,
-KLAC,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,1918324752.0,1.5,1.0,,America/New_York,
-ASML,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,2518425333.0,1.5,1.0,,America/New_York,
-MRVL,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,5124293505.0,1.5,1.0,,America/New_York,
-ARM,h_yari_iletken,hisse,ABD16,2023-09-14,2026-11-20,801,1318108857.0,1.5,1.0,,America/New_York,
-ON,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,797801434.0,3.0,1.0,,America/New_York,
-MCHP,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,830664184.0,3.0,1.0,,America/New_York,
-ADI,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,1528576588.0,1.5,1.0,,America/New_York,
-NXPI,h_yari_iletken,hisse,ABD16,2010-08-06,2026-11-20,4099,1029346286.0,1.5,1.0,,America/New_York,
-MPWR,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,1112332385.0,1.5,1.0,,America/New_York,
-ALAB,h_yari_iletken,hisse,ABD16,2024-03-20,2026-11-20,672,1253069098.0,1.5,1.0,,America/New_York,
-CRDO,h_yari_iletken,hisse,ABD16,2022-01-27,2026-11-20,1210,1493291393.0,1.5,1.0,,America/New_York,
-COHR,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,2019141929.0,1.5,1.0,,America/New_York,
-LITE,h_yari_iletken,hisse,ABD16,2015-07-23,2026-11-20,2851,4319329916.0,1.5,1.0,,America/New_York,
-WDC,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,3097234798.0,1.5,1.0,,America/New_York,
-STX,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,3502409860.0,1.5,1.0,,America/New_York,
-SMCI,h_ai_altyapi,hisse,ABD16,2007-03-29,2026-11-20,4945,1390763961.0,1.5,1.0,,America/New_York,
-DELL,h_ai_altyapi,hisse,ABD16,2016-08-17,2026-11-20,2581,4051921369.0,1.5,1.0,,America/New_York,
-HPE,h_ai_altyapi,hisse,ABD16,2015-10-19,2026-11-20,2790,1205619547.0,1.5,1.0,,America/New_York,
-ANET,h_ai_altyapi,hisse,ABD16,2014-06-06,2026-11-20,3135,1227916033.0,1.5,1.0,,America/New_York,
-VRT,h_ai_altyapi,hisse,ABD16,2018-08-02,2026-11-20,2088,1458543383.0,1.5,1.0,,America/New_York,
-CLS,h_ai_altyapi,hisse,ABD16,2005-01-03,2026-11-20,5507,826855720.0,3.0,1.0,,America/New_York,
-ETN,h_ai_altyapi,hisse,ABD16,2005-01-03,2026-11-20,5507,1000506508.0,1.5,1.0,,America/New_York,
-PWR,h_ai_altyapi,hisse,ABD16,2005-01-03,2026-11-20,5507,741165097.0,3.0,1.0,,America/New_York,
-CRWV,h_ai_altyapi,hisse,ABD16,2025-03-28,2026-11-20,416,3244142303.0,1.5,1.0,,America/New_York,
-NBIS,h_ai_altyapi,hisse,ABD16,2024-10-21,2026-11-20,524,3828409284.0,1.5,1.0,,America/New_York,
-APLD,h_ai_altyapi,hisse,ABD16,2022-04-13,2026-11-20,1157,485059097.0,3.0,1.0,,America/New_York,
-ORCL,h_ai_altyapi,hisse,ABD16,2005-01-03,2026-11-20,5507,4711679937.0,1.5,1.0,,America/New_York,
-AAPL,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,14802814762.0,1.5,1.0,,America/New_York,
-MSFT,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,12420599134.0,1.5,1.0,,America/New_York,
-GOOGL,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,10119115413.0,1.5,1.0,,America/New_York,
-AMZN,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,10555014904.0,1.5,1.0,,America/New_York,
-META,h_mega,hisse,ABD16,2012-05-18,2026-11-20,3649,14220767195.0,1.5,1.0,,America/New_York,
-TSLA,h_mega,hisse,ABD16,2010-06-29,2026-11-20,4126,13977262324.0,1.5,1.0,,America/New_York,
-NFLX,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,2643248509.0,1.5,1.0,,America/New_York,
-CRM,h_yazilim,hisse,ABD16,2005-01-03,2026-11-20,5507,2362437579.0,1.5,1.0,,America/New_York,
-ADBE,h_yazilim,hisse,ABD16,2005-01-03,2026-11-20,5507,1152529209.0,1.5,1.0,,America/New_York,
-NOW,h_yazilim,hisse,ABD16,2012-06-29,2026-11-20,3620,1994330872.0,1.5,1.0,,America/New_York,
-PLTR,h_yazilim,hisse,ABD16,2020-09-30,2026-11-20,1544,4440716137.0,1.5,1.0,,America/New_York,
-APP,h_yazilim,hisse,ABD16,2021-04-15,2026-11-20,1409,1617727343.0,1.5,1.0,,America/New_York,
-CRWD,h_yazilim,hisse,ABD16,2019-06-12,2026-11-20,1873,2403574556.0,1.5,1.0,,America/New_York,
-PANW,h_yazilim,hisse,ABD16,2012-07-20,2026-11-20,3606,2427894386.0,1.5,1.0,,America/New_York,
-ZS,h_yazilim,hisse,ABD16,2018-03-16,2026-11-20,2184,610456080.0,3.0,1.0,,America/New_York,
-NET,h_yazilim,hisse,ABD16,2019-09-13,2026-11-20,1808,1095730227.0,1.5,1.0,,America/New_York,
-SNOW,h_yazilim,hisse,ABD16,2020-09-16,2026-11-20,1554,1544355002.0,1.5,1.0,,America/New_York,
-DDOG,h_yazilim,hisse,ABD16,2019-09-19,2026-11-20,1804,858909481.0,3.0,1.0,,America/New_York,
-MDB,h_yazilim,hisse,ABD16,2017-10-19,2026-11-20,2285,795233739.0,3.0,1.0,,America/New_York,
-SHOP,h_yazilim,hisse,ABD16,2015-05-20,2026-11-20,2895,1342385155.0,1.5,1.0,,America/New_York,
-RDDT,h_yazilim,hisse,ABD16,2024-03-21,2026-11-20,671,726925613.0,3.0,1.0,,America/New_York,
-DUOL,h_yazilim,hisse,ABD16,2021-07-28,2026-11-20,1337,188471014.0,7.0,1.0,,America/New_York,
-TTD,h_yazilim,hisse,ABD16,2016-09-21,2026-11-20,2557,301316083.0,3.0,1.0,,America/New_York,
-U,h_yazilim,hisse,ABD16,2020-09-18,2026-11-20,1552,489278331.0,3.0,1.0,,America/New_York,
-RBLX,h_yazilim,hisse,ABD16,2021-03-10,2026-11-20,1434,512267884.0,3.0,1.0,,America/New_York,
-SNAP,h_yazilim,hisse,ABD16,2017-03-02,2026-11-20,2446,224150753.0,3.0,1.0,,America/New_York,
-PINS,h_yazilim,hisse,ABD16,2019-04-18,2026-11-20,1910,272914176.0,3.0,1.0,,America/New_York,
-UBER,h_yazilim,hisse,ABD16,2019-05-10,2026-11-20,1895,1254505714.0,1.5,1.0,,America/New_York,
-DASH,h_yazilim,hisse,ABD16,2020-12-09,2026-11-20,1495,867685058.0,3.0,1.0,,America/New_York,
-ABNB,h_yazilim,hisse,ABD16,2020-12-10,2026-11-20,1494,796582419.0,3.0,1.0,,America/New_York,
-SPOT,h_yazilim,hisse,ABD16,2018-04-03,2026-11-20,2173,873050986.0,3.0,1.0,,America/New_York,
-FIG,h_yazilim,hisse,ABD16,2025-07-31,2026-11-20,331,269565644.0,3.0,1.0,,America/New_York,
-INTU,h_yazilim,hisse,ABD16,2005-01-03,2026-11-20,5507,1082563503.0,1.5,1.0,,America/New_York,
-WDAY,h_yazilim,hisse,ABD16,2012-10-12,2026-11-20,3547,479738713.0,3.0,1.0,,America/New_York,
-TEAM,h_yazilim,hisse,ABD16,2015-12-09,2026-11-20,2754,594579044.0,3.0,1.0,,America/New_York,
-HUBS,h_yazilim,hisse,ABD16,2014-10-09,2026-11-20,3048,339030332.0,3.0,1.0,,America/New_York,
-AI,h_yazilim,hisse,ABD16,2020-12-09,2026-11-20,1495,55178014.0,7.0,1.0,,America/New_York,
-SOUN,h_yazilim,hisse,ABD16,2022-04-28,2026-11-20,1147,97334071.0,7.0,1.0,,America/New_York,
-BBAI,h_yazilim,hisse,ABD16,2021-04-05,2026-11-20,1417,44941218.0,15.0,1.0,,America/New_York,
-MSTR,h_kripto,hisse,ABD16,2005-01-03,2026-11-20,5507,2903092009.0,1.5,1.0,,America/New_York,
-COIN,h_kripto,hisse,ABD16,2021-04-14,2026-11-20,1410,1499355526.0,1.5,1.0,,America/New_York,
-HOOD,h_kripto,hisse,ABD16,2021-07-29,2026-11-20,1336,2125736134.0,1.5,1.0,,America/New_York,
-MARA,h_kripto,hisse,ABD16,2012-05-04,2026-11-20,3659,383789656.0,3.0,1.0,,America/New_York,
-RIOT,h_kripto,hisse,ABD16,2016-03-31,2026-11-20,2678,369773840.0,3.0,1.0,,America/New_York,
-CLSK,h_kripto,hisse,ABD16,2016-11-16,2026-11-20,2517,180608777.0,7.0,1.0,,America/New_York,
-IREN,h_kripto,hisse,ABD16,2021-11-17,2026-11-20,1258,1646334865.0,1.5,1.0,,America/New_York,
-CIFR,h_kripto,hisse,ABD16,2020-10-20,2026-11-20,1530,497255443.0,3.0,1.0,,America/New_York,
-HUT,h_kripto,hisse,ABD16,2018-03-08,2026-11-20,2190,431566246.0,3.0,1.0,,America/New_York,
-WULF,h_kripto,hisse,ABD16,2005-01-03,2026-11-20,5507,526813017.0,3.0,1.0,,America/New_York,
-CORZ,h_kripto,hisse,ABD16,2024-01-24,2026-11-20,711,218775635.0,3.0,1.0,,America/New_York,
-GLXY,h_kripto,hisse,ABD16,2025-05-16,2026-11-20,382,130422104.0,7.0,1.0,,America/New_York,
-CRCL,h_kripto,hisse,ABD16,2025-06-05,2026-11-20,369,978681410.0,3.0,1.0,,America/New_York,
-V,h_fintech,hisse,ABD16,2008-03-19,2026-11-20,4700,2530944619.0,1.5,1.0,,America/New_York,
-MA,h_fintech,hisse,ABD16,2006-05-25,2026-11-20,5156,1801158460.0,1.5,1.0,,America/New_York,
-PYPL,h_fintech,hisse,ABD16,2015-07-06,2026-11-20,2864,659559197.0,3.0,1.0,,America/New_York,
-XYZ,h_fintech,hisse,ABD16,2015-11-19,2026-11-20,2767,404848983.0,3.0,1.0,,America/New_York,
-AFRM,h_fintech,hisse,ABD16,2021-01-13,2026-11-20,1472,343957753.0,3.0,1.0,,America/New_York,
-SOFI,h_fintech,hisse,ABD16,2021-01-04,2026-11-20,1479,799137430.0,3.0,1.0,,America/New_York,
-UPST,h_fintech,hisse,ABD16,2020-12-16,2026-11-20,1490,108013722.0,7.0,1.0,,America/New_York,
-NU,h_fintech,hisse,ABD16,2021-12-09,2026-11-20,1243,1110507126.0,1.5,1.0,,America/New_York,
-KLAR,h_fintech,hisse,ABD16,2025-09-11,2026-11-20,302,88025233.0,7.0,1.0,,America/New_York,
-TOST,h_fintech,hisse,ABD16,2021-09-22,2026-11-20,1298,280451569.0,3.0,1.0,,America/New_York,
-JPM,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,2518336496.0,1.5,1.0,,America/New_York,
-BAC,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,2081664904.0,1.5,1.0,,America/New_York,
-C,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,1236478760.0,1.5,1.0,,America/New_York,
-WFC,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,1207878123.0,1.5,1.0,,America/New_York,
-GS,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,2028460277.0,1.5,1.0,,America/New_York,
-MS,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,1124666060.0,1.5,1.0,,America/New_York,
-SCHW,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,859764540.0,3.0,1.0,,America/New_York,
-BX,h_banka,hisse,ABD16,2007-06-22,2026-11-20,4886,585179812.0,3.0,1.0,,America/New_York,
-KKR,h_banka,hisse,ABD16,2010-07-15,2026-11-20,4115,458591270.0,3.0,1.0,,America/New_York,
-APO,h_banka,hisse,ABD16,2011-03-30,2026-11-20,3936,400465204.0,3.0,1.0,,America/New_York,
-AXP,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,962636063.0,3.0,1.0,,America/New_York,
-COF,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,822112812.0,3.0,1.0,,America/New_York,
-XOM,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,2291055849.0,1.5,1.0,,America/New_York,
-CVX,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,1857468104.0,1.5,1.0,,America/New_York,
-COP,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,924718596.0,3.0,1.0,,America/New_York,
-OXY,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,561943369.0,3.0,1.0,,America/New_York,
-EOG,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,478145293.0,3.0,1.0,,America/New_York,
-DVN,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,544215781.0,3.0,1.0,,America/New_York,
-SLB,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,674675231.0,3.0,1.0,,America/New_York,
-HAL,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,343426951.0,3.0,1.0,,America/New_York,
-VLO,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,1256084336.0,1.5,1.0,,America/New_York,
-MPC,h_enerji,hisse,ABD16,2011-06-24,2026-11-20,3876,1052833987.0,1.5,1.0,,America/New_York,
-PSX,h_enerji,hisse,ABD16,2012-04-12,2026-11-20,3675,824824911.0,3.0,1.0,,America/New_York,
-PBF,h_enerji,hisse,ABD16,2012-12-13,2026-11-20,3506,237953025.0,3.0,1.0,,America/New_York,
-FANG,h_enerji,hisse,ABD16,2012-10-12,2026-11-20,3547,497619769.0,3.0,1.0,,America/New_York,
-VST,h_elektrik_nukleer,hisse,ABD16,2016-10-05,2026-11-20,2547,892476624.0,3.0,1.0,,America/New_York,
-CEG,h_elektrik_nukleer,hisse,ABD16,2022-01-19,2026-11-20,1216,993785368.0,3.0,1.0,,America/New_York,
-GEV,h_elektrik_nukleer,hisse,ABD16,2024-03-27,2026-11-20,667,2682843075.0,1.5,1.0,,America/New_York,
-TLN,h_elektrik_nukleer,hisse,ABD16,2023-06-02,2026-11-20,872,352190158.0,3.0,1.0,,America/New_York,
-NRG,h_elektrik_nukleer,hisse,ABD16,2005-01-03,2026-11-20,5507,331131897.0,3.0,1.0,,America/New_York,
-BE,h_elektrik_nukleer,hisse,ABD16,2018-07-25,2026-11-20,2094,3840231836.0,1.5,1.0,,America/New_York,
-CCJ,h_elektrik_nukleer,hisse,ABD16,2005-01-03,2026-11-20,5507,289685601.0,3.0,1.0,,America/New_York,
-UEC,h_elektrik_nukleer,hisse,ABD16,2007-04-05,2026-11-20,4940,86438026.0,7.0,1.0,,America/New_York,
-LEU,h_elektrik_nukleer,hisse,ABD16,2005-01-03,2026-11-20,5507,104513052.0,7.0,1.0,,America/New_York,
-OKLO,h_elektrik_nukleer,hisse,ABD16,2021-07-08,2026-11-20,1351,319198788.0,3.0,1.0,,America/New_York,
-SMR,h_elektrik_nukleer,hisse,ABD16,2022-03-01,2026-11-20,1188,235782857.0,3.0,1.0,,America/New_York,
-NNE,h_elektrik_nukleer,hisse,ABD16,2024-05-08,2026-11-20,638,27813272.0,15.0,1.0,,America/New_York,
-BWXT,h_elektrik_nukleer,hisse,ABD16,2010-08-02,2026-11-20,4103,170735645.0,7.0,1.0,,America/New_York,
-NEE,h_elektrik_nukleer,hisse,ABD16,2005-01-03,2026-11-20,5507,1017245347.0,1.5,1.0,,America/New_York,
-IONQ,h_kuantum,hisse,ABD16,2021-01-04,2026-11-20,1479,842548308.0,3.0,1.0,,America/New_York,
-RGTI,h_kuantum,hisse,ABD16,2021-04-22,2026-11-20,1404,214805225.0,3.0,1.0,,America/New_York,
-QBTS,h_kuantum,hisse,ABD16,2020-12-11,2026-11-20,1493,213705094.0,3.0,1.0,,America/New_York,
-QUBT,h_kuantum,hisse,ABD16,2007-02-01,2026-11-20,4984,51951716.0,7.0,1.0,,America/New_York,
-RKLB,h_uzay_savunma,hisse,ABD16,2020-11-24,2026-11-20,1505,1242458028.0,1.5,1.0,,America/New_York,
-ASTS,h_uzay_savunma,hisse,ABD16,2019-11-01,2026-11-20,1773,702004651.0,3.0,1.0,,America/New_York,
-LUNR,h_uzay_savunma,hisse,ABD16,2021-11-17,2026-11-20,1258,105584706.0,7.0,1.0,,America/New_York,
-PL,h_uzay_savunma,hisse,ABD16,2021-04-26,2026-11-20,1402,162547734.0,7.0,1.0,,America/New_York,
-KTOS,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,185316781.0,7.0,1.0,,America/New_York,
-AVAV,h_uzay_savunma,hisse,ABD16,2007-01-23,2026-11-20,4991,231537291.0,3.0,1.0,,America/New_York,
-LMT,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,741701222.0,3.0,1.0,,America/New_York,
-RTX,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,910213336.0,3.0,1.0,,America/New_York,
-NOC,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,492770344.0,3.0,1.0,,America/New_York,
-GD,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,446893819.0,3.0,1.0,,America/New_York,
-BA,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,1565765330.0,1.5,1.0,,America/New_York,
-AXON,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,505590583.0,3.0,1.0,,America/New_York,
-RIVN,h_ev_cin,hisse,ABD16,2021-11-10,2026-11-20,1263,367523670.0,3.0,1.0,,America/New_York,
-LCID,h_ev_cin,hisse,ABD16,2020-09-18,2026-11-20,1552,43924069.0,15.0,1.0,,America/New_York,
-NIO,h_ev_cin,hisse,ABD16,2018-09-12,2026-11-20,2060,129269181.0,7.0,1.0,,America/New_York,
-XPEV,h_ev_cin,hisse,ABD16,2020-08-27,2026-11-20,1567,71936220.0,7.0,1.0,,America/New_York,
-LI,h_ev_cin,hisse,ABD16,2020-07-30,2026-11-20,1587,33819970.0,15.0,1.0,,America/New_York,
-BABA,h_ev_cin,hisse,ABD16,2014-09-19,2026-11-20,3062,1025683831.0,1.5,1.0,,America/New_York,
-PDD,h_ev_cin,hisse,ABD16,2018-07-26,2026-11-20,2093,521548575.0,3.0,1.0,,America/New_York,
-JD,h_ev_cin,hisse,ABD16,2014-05-22,2026-11-20,3145,215166035.0,3.0,1.0,,America/New_York,
-BIDU,h_ev_cin,hisse,ABD16,2005-08-05,2026-11-20,5358,211038277.0,3.0,1.0,,America/New_York,
-DAL,h_seyahat,hisse,ABD16,2007-05-03,2026-11-20,4921,557192278.0,3.0,1.0,,America/New_York,
-UAL,h_seyahat,hisse,ABD16,2006-02-06,2026-11-20,5232,514139607.0,3.0,1.0,,America/New_York,
-AAL,h_seyahat,hisse,ABD16,2005-09-27,2026-11-20,5322,833087016.0,3.0,1.0,,America/New_York,
-LUV,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,253556741.0,3.0,1.0,,America/New_York,
-CCL,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,555852750.0,3.0,1.0,,America/New_York,
-RCL,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,683576851.0,3.0,1.0,,America/New_York,
-NCLH,h_seyahat,hisse,ABD16,2013-01-18,2026-11-20,3482,319674589.0,3.0,1.0,,America/New_York,
-BKNG,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,1256233999.0,1.5,1.0,,America/New_York,
-MAR,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,585576107.0,3.0,1.0,,America/New_York,
-DHI,h_konut,hisse,ABD16,2005-01-03,2026-11-20,5507,433328380.0,3.0,1.0,,America/New_York,
-LEN,h_konut,hisse,ABD16,2005-01-03,2026-11-20,5507,370902220.0,3.0,1.0,,America/New_York,
-PHM,h_konut,hisse,ABD16,2005-01-03,2026-11-20,5507,231007738.0,3.0,1.0,,America/New_York,
-TOL,h_konut,hisse,ABD16,2005-01-03,2026-11-20,5507,147756895.0,7.0,1.0,,America/New_York,
-WMT,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,2599307970.0,1.5,1.0,,America/New_York,
-TGT,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,626037137.0,3.0,1.0,,America/New_York,
-COST,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,2292808615.0,1.5,1.0,,America/New_York,
-HD,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,1549770280.0,1.5,1.0,,America/New_York,
-LOW,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,691110130.0,3.0,1.0,,America/New_York,
-NKE,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,1205525415.0,1.5,1.0,,America/New_York,
-LULU,h_tuketici,hisse,ABD16,2007-07-27,2026-11-20,4862,534834238.0,3.0,1.0,,America/New_York,
-SBUX,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,816631152.0,3.0,1.0,,America/New_York,
-MCD,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,1444252777.0,1.5,1.0,,America/New_York,
-CMG,h_tuketici,hisse,ABD16,2006-01-26,2026-11-20,5239,588938751.0,3.0,1.0,,America/New_York,
-CVNA,h_tuketici,hisse,ABD16,2017-04-28,2026-11-20,2406,588120229.0,3.0,1.0,,America/New_York,
-DIS,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,972876380.0,3.0,1.0,,America/New_York,
-LLY,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,3298613278.0,1.5,1.0,,America/New_York,
-NVO,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,509623497.0,3.0,1.0,,America/New_York,
-UNH,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,2302722735.0,1.5,1.0,,America/New_York,
-JNJ,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,1970361134.0,1.5,1.0,,America/New_York,
-PFE,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,969888962.0,3.0,1.0,,America/New_York,
-MRK,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,1411808261.0,1.5,1.0,,America/New_York,
-ABBV,h_saglik,hisse,ABD16,2013-01-02,2026-11-20,3494,1355436957.0,1.5,1.0,,America/New_York,
-AMGN,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,1218088342.0,1.5,1.0,,America/New_York,
-VRTX,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,674647364.0,3.0,1.0,,America/New_York,
-REGN,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,689018369.0,3.0,1.0,,America/New_York,
-ISRG,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,992093509.0,3.0,1.0,,America/New_York,
-MRNA,h_saglik,hisse,ABD16,2018-12-07,2026-11-20,2000,3034070585.0,1.5,1.0,,America/New_York,
-HIMS,h_saglik,hisse,ABD16,2019-09-13,2026-11-20,1808,308312829.0,3.0,1.0,,America/New_York,
-TEM,h_saglik,hisse,ABD16,2024-06-14,2026-11-20,612,482952546.0,3.0,1.0,,America/New_York,
-CRSP,h_saglik,hisse,ABD16,2016-10-19,2026-11-20,2537,88616617.0,7.0,1.0,,America/New_York,
-VKTX,h_saglik,hisse,ABD16,2015-04-28,2026-11-20,2911,174975964.0,7.0,1.0,,America/New_York,
-NEM,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,816495345.0,3.0,1.0,,America/New_York,
-AEM,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,385942803.0,3.0,1.0,,America/New_York,
-B,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,344672328.0,3.0,1.0,,America/New_York,
-FCX,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,844517332.0,3.0,1.0,,America/New_York,
-SCCO,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,219817475.0,3.0,1.0,,America/New_York,
-NUE,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,347083397.0,3.0,1.0,,America/New_York,
-CLF,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,233455461.0,3.0,1.0,,America/New_York,
-AA,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,190202700.0,7.0,1.0,,America/New_York,
-MP,h_maden_metal,hisse,ABD16,2020-06-22,2026-11-20,1614,245836799.0,3.0,1.0,,America/New_York,
-ALB,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,260627272.0,3.0,1.0,,America/New_York,
-FSLR,h_gunes,hisse,ABD16,2006-11-17,2026-11-20,5033,488589493.0,3.0,1.0,,America/New_York,
-ENPH,h_gunes,hisse,ABD16,2012-03-30,2026-11-20,3683,183660567.0,7.0,1.0,,America/New_York,
-RUN,h_gunes,hisse,ABD16,2015-08-05,2026-11-20,2842,78546472.0,7.0,1.0,,America/New_York,
-GME,h_meme,hisse,ABD16,2005-01-03,2026-11-20,5507,221069874.0,3.0,1.0,,America/New_York,
-AMC,h_meme,hisse,ABD16,2013-12-18,2026-11-20,3251,74462215.0,7.0,1.0,,America/New_York,
-CAT,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,2145999102.0,1.5,1.0,,America/New_York,
-DE,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,827636464.0,3.0,1.0,,America/New_York,
-GE,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,1457221180.0,1.5,1.0,,America/New_York,
-HON,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,600320905.0,3.0,1.0,,America/New_York,
-UNP,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,758127282.0,3.0,1.0,,America/New_York,
-FDX,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,451582731.0,3.0,1.0,,America/New_York,
-UPS,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,515409411.0,3.0,1.0,,America/New_York,
-BRK-B,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,2564603134.0,1.5,1.0,,America/New_York,
-KO,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,1572897648.0,1.5,1.0,,America/New_York,
-PEP,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,1301843160.0,1.5,1.0,,America/New_York,
-PG,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,1444876013.0,1.5,1.0,,America/New_York,
+kod,grup,tur,kapanis_sinifi,ilk_tarih,son_tarih,gun_sayisi,adv60_usd,maliyet_bps,kaldirac,dayanak,borsa_tz,not,kapanis_et
+SPY,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,35925336408.0,1.5,1.0,,America/New_York,,16:00
+QQQ,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,29662931666.0,1.5,1.0,,America/New_York,,16:00
+IWM,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,6961734882.0,1.5,1.0,,America/New_York,,16:00
+DIA,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,1862120127.0,1.5,1.0,,America/New_York,,16:00
+MDY,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,472042550.0,3.0,1.0,,America/New_York,,16:00
+RSP,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,1902895074.0,1.5,1.0,,America/New_York,,16:00
+VTI,genis_endeks,ETF,ABD16,2005-01-03,2026-11-20,5507,1287134879.0,1.5,1.0,,America/New_York,,16:00
+XLK,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1844222608.0,1.5,1.0,,America/New_York,,16:00
+XLF,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,2059284056.0,1.5,1.0,,America/New_York,,16:00
+XLE,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,2198694748.0,1.5,1.0,,America/New_York,,16:00
+XLV,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1719252778.0,1.5,1.0,,America/New_York,,16:00
+XLY,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,881319382.0,3.0,1.0,,America/New_York,,16:00
+XLP,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1308705334.0,1.5,1.0,,America/New_York,,16:00
+XLI,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1377082199.0,1.5,1.0,,America/New_York,,16:00
+XLB,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,607413930.0,3.0,1.0,,America/New_York,,16:00
+XLU,sektor,ETF,ABD16,2005-01-03,2026-11-20,5507,1171588262.0,1.5,1.0,,America/New_York,,16:00
+XLRE,sektor,ETF,ABD16,2015-10-08,2026-11-20,2797,303610838.0,3.0,1.0,,America/New_York,,16:00
+XLC,sektor,ETF,ABD16,2018-06-19,2026-11-20,2119,719201204.0,3.0,1.0,,America/New_York,,16:00
+SMH,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,4850634517.0,1.5,1.0,,America/New_York,,16:00
+SOXX,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,4886604729.0,1.5,1.0,,America/New_York,,16:00
+XSD,tema_etf,ETF,ABD16,2006-02-06,2026-11-20,5232,64580121.0,7.0,1.0,,America/New_York,,16:00
+IGV,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,925838685.0,3.0,1.0,,America/New_York,,16:00
+SKYY,tema_etf,ETF,ABD16,2011-07-06,2026-11-20,3869,42501149.0,15.0,1.0,,America/New_York,,16:00
+CIBR,tema_etf,ETF,ABD16,2015-07-07,2026-11-20,2863,216440973.0,3.0,1.0,,America/New_York,,16:00
+HACK,tema_etf,ETF,ABD16,2014-11-12,2026-11-20,3024,50854025.0,7.0,1.0,,America/New_York,,16:00
+FDN,tema_etf,ETF,ABD16,2006-06-23,2026-11-20,5136,45560608.0,15.0,1.0,,America/New_York,,16:00
+XBI,tema_etf,ETF,ABD16,2006-02-06,2026-11-20,5232,1404570184.0,1.5,1.0,,America/New_York,,16:00
+IBB,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,371467361.0,3.0,1.0,,America/New_York,,16:00
+IHI,tema_etf,ETF,ABD16,2006-05-05,2026-11-20,5170,156909041.0,7.0,1.0,,America/New_York,,16:00
+XPH,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,13893825.0,15.0,1.0,,America/New_York,,16:00
+KRE,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,1076280090.0,1.5,1.0,,America/New_York,,16:00
+KBE,tema_etf,ETF,ABD16,2005-11-15,2026-11-20,5287,116264671.0,7.0,1.0,,America/New_York,,16:00
+KIE,tema_etf,ETF,ABD16,2005-11-15,2026-11-20,5287,74744391.0,7.0,1.0,,America/New_York,,16:00
+IAI,tema_etf,ETF,ABD16,2006-05-05,2026-11-20,5170,15165359.0,15.0,1.0,,America/New_York,,16:00
+XHB,tema_etf,ETF,ABD16,2006-02-06,2026-11-20,5232,210687499.0,3.0,1.0,,America/New_York,,16:00
+ITB,tema_etf,ETF,ABD16,2006-05-05,2026-11-20,5170,229343289.0,3.0,1.0,,America/New_York,,16:00
+XRT,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,349612352.0,3.0,1.0,,America/New_York,,16:00
+XOP,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,564007460.0,3.0,1.0,,America/New_York,,16:00
+OIH,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,110134025.0,7.0,1.0,,America/New_York,,16:00
+XME,tema_etf,ETF,ABD16,2006-06-22,2026-11-20,5137,163280681.0,7.0,1.0,,America/New_York,,16:00
+GDX,tema_etf,ETF,ABD16,2006-05-22,2026-11-20,5159,1989075337.0,1.5,1.0,,America/New_York,,16:00
+GDXJ,tema_etf,ETF,ABD16,2009-11-11,2026-11-20,4283,489177665.0,3.0,1.0,,America/New_York,,16:00
+SIL,tema_etf,ETF,ABD16,2010-04-20,2026-11-20,4175,83632862.0,7.0,1.0,,America/New_York,,16:00
+COPX,tema_etf,ETF,ABD16,2010-04-20,2026-11-20,4175,242315918.0,3.0,1.0,,America/New_York,,16:00
+URA,tema_etf,ETF,ABD16,2010-11-05,2026-11-20,4035,151379992.0,7.0,1.0,,America/New_York,,16:00
+URNM,tema_etf,ETF,ABD16,2019-12-04,2026-11-20,1751,35470016.0,15.0,1.0,,America/New_York,,16:00
+NLR,tema_etf,ETF,ABD16,2007-08-15,2026-11-20,4849,45588359.0,15.0,1.0,,America/New_York,,16:00
+IYT,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,73412202.0,7.0,1.0,,America/New_York,,16:00
+JETS,tema_etf,ETF,ABD16,2015-04-30,2026-11-20,2909,112541394.0,7.0,1.0,,America/New_York,,16:00
+ITA,tema_etf,ETF,ABD16,2006-05-05,2026-11-20,5170,182139315.0,7.0,1.0,,America/New_York,,16:00
+XAR,tema_etf,ETF,ABD16,2011-09-29,2026-11-20,3809,83505285.0,7.0,1.0,,America/New_York,,16:00
+PPA,tema_etf,ETF,ABD16,2005-10-26,2026-11-20,5301,43261669.0,15.0,1.0,,America/New_York,,16:00
+ARKK,tema_etf,ETF,ABD16,2014-10-31,2026-11-20,3032,439406256.0,3.0,1.0,,America/New_York,,16:00
+ARKW,tema_etf,ETF,ABD16,2014-09-30,2026-11-20,3055,13848956.0,15.0,1.0,,America/New_York,,16:00
+ARKG,tema_etf,ETF,ABD16,2014-10-31,2026-11-20,3032,239798680.0,3.0,1.0,,America/New_York,,16:00
+TAN,tema_etf,ETF,ABD16,2008-04-15,2026-11-20,4682,58545965.0,7.0,1.0,,America/New_York,,16:00
+ICLN,tema_etf,ETF,ABD16,2008-06-25,2026-11-20,4632,108002809.0,7.0,1.0,,America/New_York,,16:00
+LIT,tema_etf,ETF,ABD16,2010-07-23,2026-11-20,4109,13582981.0,15.0,1.0,,America/New_York,,16:00
+IPO,tema_etf,ETF,ABD16,2013-10-16,2026-11-20,3295,1179888.0,15.0,1.0,,America/New_York,,16:00
+MAGS,tema_etf,ETF,ABD16,2023-04-11,2026-11-20,909,317738978.0,3.0,1.0,,America/New_York,,16:00
+QTUM,tema_etf,ETF,ABD16,2018-09-05,2026-11-20,2065,46531872.0,15.0,1.0,,America/New_York,,16:00
+BOTZ,tema_etf,ETF,ABD16,2016-09-13,2026-11-20,2563,24935228.0,15.0,1.0,,America/New_York,,16:00
+ROBO,tema_etf,ETF,ABD16,2013-10-22,2026-11-20,3291,10098994.0,15.0,1.0,,America/New_York,,16:00
+UFO,tema_etf,ETF,ABD16,2019-04-11,2026-11-20,1915,10321434.0,15.0,1.0,,America/New_York,,16:00
+BLOK,tema_etf,ETF,ABD16,2018-01-25,2026-11-20,2219,13373567.0,15.0,1.0,,America/New_York,,16:00
+BITQ,tema_etf,ETF,ABD16,2021-05-12,2026-11-20,1390,3234755.0,15.0,1.0,,America/New_York,,16:00
+WGMI,tema_etf,ETF,ABD16,2022-02-08,2026-11-20,1202,27005668.0,15.0,1.0,,America/New_York,,16:00
+PAVE,tema_etf,ETF,ABD16,2017-03-08,2026-11-20,2442,93671267.0,7.0,1.0,,America/New_York,,16:00
+VNQ,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,387645336.0,3.0,1.0,,America/New_York,,16:00
+IYR,tema_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,578614568.0,3.0,1.0,,America/New_York,,16:00
+MTUM,faktor,ETF,ABD16,2013-04-18,2026-11-20,3421,366167964.0,3.0,1.0,,America/New_York,,16:00
+SPMO,faktor,ETF,ABD16,2015-10-12,2026-11-20,2795,301444592.0,3.0,1.0,,America/New_York,,16:00
+QUAL,faktor,ETF,ABD16,2013-07-18,2026-11-20,3358,253735829.0,3.0,1.0,,America/New_York,,16:00
+USMV,faktor,ETF,ABD16,2011-10-20,2026-11-20,3794,204042654.0,3.0,1.0,,America/New_York,,16:00
+SPLV,faktor,ETF,ABD16,2011-05-05,2026-11-20,3911,168498437.0,7.0,1.0,,America/New_York,,16:00
+SPHB,faktor,ETF,ABD16,2011-05-05,2026-11-20,3911,52761274.0,7.0,1.0,,America/New_York,,16:00
+IWF,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,641025236.0,3.0,1.0,,America/New_York,,16:00
+IWD,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,513436352.0,3.0,1.0,,America/New_York,,16:00
+VUG,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,579765859.0,3.0,1.0,,America/New_York,,16:00
+VTV,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,641035551.0,3.0,1.0,,America/New_York,,16:00
+IWO,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,168976178.0,7.0,1.0,,America/New_York,,16:00
+IWN,faktor,ETF,ABD16,2005-01-03,2026-11-20,5507,156302664.0,7.0,1.0,,America/New_York,,16:00
+AVUV,faktor,ETF,ABD16,2019-09-26,2026-11-20,1799,168430767.0,7.0,1.0,,America/New_York,,16:00
+SCHD,faktor,ETF,ABD16,2011-10-20,2026-11-20,3794,829212277.0,3.0,1.0,,America/New_York,,16:00
+VYM,faktor,ETF,ABD16,2006-11-16,2026-11-20,5034,188268702.0,7.0,1.0,,America/New_York,,16:00
+TQQQ,kaldirac_ters,ETF,ABD16,2010-02-11,2026-11-20,4221,4479396539.0,2.5,3.0,QQQ,America/New_York,,16:00
+SQQQ,kaldirac_ters,ETF,ABD16,2010-02-11,2026-11-20,4221,2080490139.0,2.5,-3.0,QQQ,America/New_York,,16:00
+UPRO,kaldirac_ters,ETF,ABD16,2009-06-25,2026-11-20,4380,340195101.0,4.0,3.0,SPY,America/New_York,,16:00
+SPXU,kaldirac_ters,ETF,ABD16,2009-06-25,2026-11-20,4380,349571124.0,4.0,-3.0,SPY,America/New_York,,16:00
+SPXL,kaldirac_ters,ETF,ABD16,2008-11-05,2026-11-20,4539,530753734.0,4.0,3.0,SPY,America/New_York,,16:00
+SPXS,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,360529950.0,4.0,-3.0,SPY,America/New_York,,16:00
+SSO,kaldirac_ters,ETF,ABD16,2006-06-21,2026-11-20,5138,290469788.0,4.0,2.0,SPY,America/New_York,,16:00
+SDS,kaldirac_ters,ETF,ABD16,2006-07-13,2026-11-20,5123,236317703.0,4.0,-2.0,SPY,America/New_York,,16:00
+QLD,kaldirac_ters,ETF,ABD16,2006-06-21,2026-11-20,5138,463683219.0,4.0,2.0,QQQ,America/New_York,,16:00
+QID,kaldirac_ters,ETF,ABD16,2006-07-13,2026-11-20,5123,513724198.0,4.0,-2.0,QQQ,America/New_York,,16:00
+SOXL,kaldirac_ters,ETF,ABD16,2010-03-11,2026-11-20,4202,9954476689.0,2.5,3.0,SOXX,America/New_York,,16:00
+SOXS,kaldirac_ters,ETF,ABD16,2010-03-11,2026-11-20,4202,3744602034.0,2.5,-3.0,SOXX,America/New_York,,16:00
+TECL,kaldirac_ters,ETF,ABD16,2008-12-30,2026-11-20,4502,135149821.0,8.0,3.0,XLK,America/New_York,,16:00
+TECS,kaldirac_ters,ETF,ABD16,2008-12-30,2026-11-20,4502,30023656.0,16.0,-3.0,XLK,America/New_York,,16:00
+TNA,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,288028510.0,4.0,3.0,IWM,America/New_York,,16:00
+TZA,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,217642064.0,4.0,-3.0,IWM,America/New_York,,16:00
+FAS,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,67269092.0,8.0,3.0,XLF,America/New_York,,16:00
+FAZ,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,49398777.0,16.0,-3.0,XLF,America/New_York,,16:00
+LABU,kaldirac_ters,ETF,ABD16,2015-05-28,2026-11-20,2890,92327696.0,8.0,3.0,XBI,America/New_York,,16:00
+LABD,kaldirac_ters,ETF,ABD16,2015-05-28,2026-11-20,2890,178438041.0,8.0,-3.0,XBI,America/New_York,,16:00
+NUGT,kaldirac_ters,ETF,ABD16,2010-12-08,2026-11-20,4013,106965766.0,8.0,2.0,GDX,America/New_York,,16:00
+DUST,kaldirac_ters,ETF,ABD16,2010-12-08,2026-11-20,4013,43034111.0,16.0,-2.0,GDX,America/New_York,,16:00
+JNUG,kaldirac_ters,ETF,ABD16,2013-10-03,2026-11-20,3304,41382933.0,16.0,2.0,GDXJ,America/New_York,,16:00
+GUSH,kaldirac_ters,ETF,ABD16,2015-05-29,2026-11-20,2889,24656577.0,16.0,2.0,XOP,America/New_York,,16:00
+DRIP,kaldirac_ters,ETF,ABD16,2015-05-29,2026-11-20,2889,34953040.0,16.0,-2.0,XOP,America/New_York,,16:00
+ERX,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,40740546.0,16.0,2.0,XLE,America/New_York,,16:00
+ERY,kaldirac_ters,ETF,ABD16,2008-11-19,2026-11-20,4529,170019187.0,8.0,-2.0,XLE,America/New_York,,16:00
+YINN,kaldirac_ters,ETF,ABD16,2009-12-03,2026-11-20,4268,39116595.0,16.0,3.0,FXI,America/New_York,,16:00
+YANG,kaldirac_ters,ETF,ABD16,2009-12-03,2026-11-20,4268,23448692.0,16.0,-3.0,FXI,America/New_York,,16:00
+TMF,kaldirac_ters,ETF,ABD16,2009-04-16,2026-11-20,4429,188839827.0,8.0,3.0,TLT,America/New_York,,16:00
+TMV,kaldirac_ters,ETF,ABD16,2009-04-16,2026-11-20,4429,65557098.0,8.0,-3.0,TLT,America/New_York,,16:00
+UDOW,kaldirac_ters,ETF,ABD16,2010-02-11,2026-11-20,4221,137854949.0,8.0,3.0,DIA,America/New_York,,16:00
+SDOW,kaldirac_ters,ETF,ABD16,2010-02-11,2026-11-20,4221,110365488.0,8.0,-3.0,DIA,America/New_York,,16:00
+NVDL,kaldirac_ters,ETF,ABD16,2022-12-13,2026-11-20,989,486956538.0,4.0,2.0,NVDA,America/New_York,,16:00
+TSLL,kaldirac_ters,ETF,ABD16,2022-08-09,2026-11-20,1077,590165920.0,4.0,2.0,TSLA,America/New_York,,16:00
+TSLQ,kaldirac_ters,ETF,ABD16,2022-07-14,2026-11-20,1095,109921317.0,8.0,-2.0,TSLA,America/New_York,,16:00
+CONL,kaldirac_ters,ETF,ABD16,2022-08-10,2026-11-20,1076,96134381.0,8.0,2.0,COIN,America/New_York,,16:00
+MSTU,kaldirac_ters,ETF,ABD16,2024-09-18,2026-11-20,547,160360504.0,8.0,2.0,MSTR,America/New_York,,16:00
+MSTX,kaldirac_ters,ETF,ABD16,2024-08-15,2026-11-20,570,112699058.0,8.0,2.0,MSTR,America/New_York,,16:00
+BITX,kaldirac_ters,ETF,ABD16,2023-06-27,2026-11-20,856,158480944.0,8.0,2.0,IBIT,America/New_York,,16:00
+UVXY,kaldirac_ters,ETF,ABD16,2011-10-04,2026-11-20,3806,234397078.0,4.0,1.5,VXX,America/New_York,,16:00
+SVXY,kaldirac_ters,ETF,ABD16,2011-10-04,2026-11-20,3806,104368825.0,8.0,-0.5,VXX,America/New_York,,16:00
+VXX,kaldirac_ters,ETF,ABD16,2018-01-25,2026-11-20,2219,272149705.0,3.0,1.0,^VIX,America/New_York,,16:00
+VIXY,kaldirac_ters,ETF,ABD16,2011-01-04,2026-11-20,3995,75995587.0,7.0,1.0,^VIX,America/New_York,,16:00
+UCO,kaldirac_ters,ETF,ABD16,2008-11-25,2026-11-20,4525,121465148.0,8.0,2.0,USO,America/New_York,,16:00
+SCO,kaldirac_ters,ETF,ABD16,2008-11-25,2026-11-20,4525,123079964.0,8.0,-2.0,USO,America/New_York,,16:00
+BOIL,kaldirac_ters,ETF,ABD16,2011-10-06,2026-11-20,3804,128464201.0,8.0,2.0,UNG,America/New_York,,16:00
+KOLD,kaldirac_ters,ETF,ABD16,2011-10-06,2026-11-20,3804,84088011.0,8.0,-2.0,UNG,America/New_York,,16:00
+AGQ,kaldirac_ters,ETF,ABD16,2008-12-04,2026-11-20,4519,196272340.0,8.0,2.0,SLV,America/New_York,,16:00
+ZSL,kaldirac_ters,ETF,ABD16,2008-12-03,2026-11-20,4520,102195704.0,8.0,-2.0,SLV,America/New_York,,16:00
+UGL,kaldirac_ters,ETF,ABD16,2008-12-03,2026-11-20,4520,132243603.0,8.0,2.0,GLD,America/New_York,,16:00
+GLL,kaldirac_ters,ETF,ABD16,2008-12-03,2026-11-20,4520,74151529.0,8.0,-2.0,GLD,America/New_York,,16:00
+TLT,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,3265622420.0,1.5,1.0,,America/New_York,,16:00
+IEF,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,983637800.0,3.0,1.0,,America/New_York,,16:00
+SHY,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,401215736.0,3.0,1.0,,America/New_York,,16:00
+TIP,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,225536876.0,3.0,1.0,,America/New_York,,16:00
+HYG,capraz_varlik,ETF,ABD16,2007-04-11,2026-11-20,4937,3927700640.0,1.5,1.0,,America/New_York,,16:00
+JNK,capraz_varlik,ETF,ABD16,2007-12-04,2026-11-20,4772,364211533.0,3.0,1.0,,America/New_York,,16:00
+LQD,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,3329648210.0,1.5,1.0,,America/New_York,,16:00
+EMB,capraz_varlik,ETF,ABD16,2007-12-19,2026-11-20,4761,749550060.0,3.0,1.0,,America/New_York,,16:00
+BKLN,capraz_varlik,ETF,ABD16,2011-03-03,2026-11-20,3955,249533484.0,3.0,1.0,,America/New_York,,16:00
+UUP,capraz_varlik,ETF,ABD16,2007-03-01,2026-11-20,4965,48749283.0,15.0,1.0,,America/New_York,,16:00
+FXE,capraz_varlik,ETF,ABD16,2005-12-12,2026-11-20,5269,8557889.0,15.0,1.0,,America/New_York,,16:00
+FXY,capraz_varlik,ETF,ABD16,2007-02-13,2026-11-20,4976,11334531.0,15.0,1.0,,America/New_York,,16:00
+FXB,capraz_varlik,ETF,ABD16,2006-06-26,2026-11-20,5135,2954959.0,15.0,1.0,,America/New_York,,16:00
+FXA,capraz_varlik,ETF,ABD16,2006-06-26,2026-11-20,5135,539391.0,15.0,1.0,,America/New_York,,16:00
+GLD,capraz_varlik,ETF,ABD16,2005-01-03,2026-11-20,5507,3631462610.0,1.5,1.0,,America/New_York,,16:00
+SLV,capraz_varlik,ETF,ABD16,2006-04-28,2026-11-20,5175,930740035.0,3.0,1.0,,America/New_York,,16:00
+PPLT,capraz_varlik,ETF,ABD16,2010-01-08,2026-11-20,4244,33301576.0,15.0,1.0,,America/New_York,,16:00
+PALL,capraz_varlik,ETF,ABD16,2010-01-08,2026-11-20,4244,21194625.0,15.0,1.0,,America/New_York,,16:00
+USO,capraz_varlik,ETF,ABD16,2006-04-10,2026-11-20,5188,805364095.0,3.0,1.0,,America/New_York,,16:00
+BNO,capraz_varlik,ETF,ABD16,2010-06-02,2026-11-20,4145,116581586.0,7.0,1.0,,America/New_York,,16:00
+UNG,capraz_varlik,ETF,ABD16,2007-04-18,2026-11-20,4932,253734046.0,3.0,1.0,,America/New_York,,16:00
+DBC,capraz_varlik,ETF,ABD16,2006-02-06,2026-11-20,5232,26823454.0,15.0,1.0,,America/New_York,,16:00
+DBA,capraz_varlik,ETF,ABD16,2007-01-05,2026-11-20,5002,33749913.0,15.0,1.0,,America/New_York,,16:00
+CPER,capraz_varlik,ETF,ABD16,2011-11-15,2026-11-20,3776,19883737.0,15.0,1.0,,America/New_York,,16:00
+IBIT,capraz_varlik,ETF,ABD16,2024-01-11,2026-11-20,719,2047923010.0,1.5,1.0,,America/New_York,,16:00
+ETHA,capraz_varlik,ETF,ABD16,2024-07-23,2026-11-20,587,622392778.0,3.0,1.0,,America/New_York,,16:00
+GBTC,capraz_varlik,ETF,ABD16,2015-05-11,2026-11-20,2902,105641088.0,7.0,1.0,,America/New_York,,16:00
+BITO,capraz_varlik,ETF,ABD16,2021-10-20,2026-11-20,1278,735580200.0,3.0,1.0,,America/New_York,,16:00
+EFA,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,1486515420.0,1.5,1.0,,America/New_York,,16:00
+EEM,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,1484922450.0,1.5,1.0,,America/New_York,,16:00
+VGK,ulke_etf,ETF,ABD16,2005-03-10,2026-11-20,5461,216736523.0,3.0,1.0,,America/New_York,,16:00
+EZU,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,76028100.0,7.0,1.0,,America/New_York,,16:00
+EWJ,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,418967229.0,3.0,1.0,,America/New_York,,16:00
+EWG,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,49076326.0,15.0,1.0,,America/New_York,,16:00
+EWU,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,54736424.0,7.0,1.0,,America/New_York,,16:00
+EWQ,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,17056949.0,15.0,1.0,,America/New_York,,16:00
+EWI,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,29630628.0,15.0,1.0,,America/New_York,,16:00
+EWP,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,34349579.0,15.0,1.0,,America/New_York,,16:00
+EWL,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,38731636.0,15.0,1.0,,America/New_York,,16:00
+FXI,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,664070066.0,3.0,1.0,,America/New_York,,16:00
+MCHI,ulke_etf,ETF,ABD16,2011-03-31,2026-11-20,3935,110155210.0,7.0,1.0,,America/New_York,,16:00
+KWEB,ulke_etf,ETF,ABD16,2013-08-01,2026-11-20,3348,453898278.0,3.0,1.0,,America/New_York,,16:00
+ASHR,ulke_etf,ETF,ABD16,2013-11-06,2026-11-20,3280,119123111.0,7.0,1.0,,America/New_York,,16:00
+EWT,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,633845362.0,3.0,1.0,,America/New_York,,16:00
+EWY,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,2486589766.0,1.5,1.0,,America/New_York,,16:00
+INDA,ulke_etf,ETF,ABD16,2012-02-03,2026-11-20,3722,300677002.0,3.0,1.0,,America/New_York,,16:00
+EWZ,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,1703430366.0,1.5,1.0,,America/New_York,,16:00
+EWW,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,86105977.0,7.0,1.0,,America/New_York,,16:00
+TUR,ulke_etf,ETF,ABD16,2008-03-28,2026-11-20,4694,6790468.0,15.0,1.0,,America/New_York,,16:00
+EZA,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,12232035.0,15.0,1.0,,America/New_York,,16:00
+EWA,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,85041348.0,7.0,1.0,,America/New_York,,16:00
+EWC,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,120758774.0,7.0,1.0,,America/New_York,,16:00
+EWH,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,71537292.0,7.0,1.0,,America/New_York,,16:00
+EWS,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,50591564.0,7.0,1.0,,America/New_York,,16:00
+ARGT,ulke_etf,ETF,ABD16,2011-03-03,2026-11-20,3955,14189420.0,15.0,1.0,,America/New_York,,16:00
+ILF,ulke_etf,ETF,ABD16,2005-01-03,2026-11-20,5507,94498838.0,7.0,1.0,,America/New_York,,16:00
+^GSPC,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,40576719802308.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok,16:00
+^IXIC,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,221336142055570.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok,16:00
+^NDX,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,247395176794678.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok,16:00
+^RUT,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,15003032934390.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok,16:00
+^DJI,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,26205425211027.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok,16:00
+^SOX,gosterge,endeks,ABD16,2005-01-03,2026-11-20,5507,0.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok,16:00
+^VIX,gosterge,endeks,SONRA,2005-01-03,2026-11-20,5507,,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok;eski_sinif=VIX1615,16:15
+^VIX3M,gosterge,endeks,SONRA,2006-07-17,2026-11-20,5121,0.0,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok;eski_sinif=VIX1615,16:15
+^VIX9D,gosterge,endeks,SONRA,2011-01-04,2026-11-20,3995,,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok;eski_sinif=VIX1615,16:15
+^VVIX,gosterge,endeks,SONRA,2007-01-03,2026-11-20,4995,,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok;eski_sinif=VIX1615,16:15
+^SKEW,gosterge,endeks,SONRA,2005-01-03,2026-11-20,5444,,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok;eski_sinif=VIX1615,16:15
+^TNX,gosterge,endeks,ONCE,2005-01-03,2026-11-20,5502,0.0,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok,15:00
+^FVX,gosterge,endeks,ONCE,2005-01-03,2026-11-20,5502,0.0,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok,15:00
+^TYX,gosterge,endeks,ONCE,2005-01-03,2026-11-20,5502,0.0,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok,15:00
+^IRX,gosterge,endeks,ONCE,2005-01-03,2026-11-20,5502,0.0,,1.0,,America/Chicago,dogrudan islem gormez/hacim anlamsiz; maliyet yok,15:00
+^MOVE,gosterge,endeks,SONRA,2005-01-03,2026-11-20,5414,,,1.0,,America/New_York,ICE gun sonu degeri; temkinli SONRA,16:00
+ES=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5505,13175447938.0,1.5,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+NQ=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5505,19001075866.0,1.5,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+RTY=F,vadeli_doviz_kripto,vadeli,SONRA,2017-07-10,2026-11-20,2357,553485255.0,3.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+CL=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5502,26983666.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+BZ=F,vadeli_doviz_kripto,vadeli,SONRA,2007-07-30,2026-11-20,4806,4105461.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+NG=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5502,551016.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+GC=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5498,716526669.0,3.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+SI=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5499,14161.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+HG=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5499,9373.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+ZN=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5492,215638516.0,3.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+ZB=F,vadeli_doviz_kripto,vadeli,SONRA,2005-01-03,2026-11-20,5498,49199723.0,15.0,1.0,,America/New_York,"adv = fiyat x kontrat (carpan yok), yaklasik",23:59
+DX-Y.NYB,vadeli_doviz_kripto,doviz,SONRA,2005-01-03,2026-11-20,5505,,,1.0,,America/New_York,dogrudan islem gormez/hacim anlamsiz; maliyet yok,23:59
+EURUSD=X,vadeli_doviz_kripto,doviz,SONRA,2005-01-03,2026-11-20,5478,,,1.0,,Europe/London,dogrudan islem gormez/hacim anlamsiz; maliyet yok,18:59
+JPY=X,vadeli_doviz_kripto,doviz,SONRA,2005-01-03,2026-11-20,5478,,,1.0,,Europe/London,dogrudan islem gormez/hacim anlamsiz; maliyet yok,18:59
+TRY=X,vadeli_doviz_kripto,doviz,SONRA,2005-01-03,2026-11-20,5493,,,1.0,,Europe/London,dogrudan islem gormez/hacim anlamsiz; maliyet yok,18:59
+BTC-USD,vadeli_doviz_kripto,kripto,SONRA,2014-09-17,2026-11-21,3064,33833034364.0,1.5,1.0,,UTC,"Yahoo kripto hacmi USD, 7/24 piyasa; panelde yalniz NYSE gunleri",18:59
+ETH-USD,vadeli_doviz_kripto,kripto,SONRA,2017-11-09,2026-11-21,2270,14728169609.0,1.5,1.0,,UTC,"Yahoo kripto hacmi USD, 7/24 piyasa; panelde yalniz NYSE gunleri",18:59
+SOL-USD,vadeli_doviz_kripto,kripto,SONRA,2020-04-10,2026-11-21,1663,3434789820.0,1.5,1.0,,UTC,"Yahoo kripto hacmi USD, 7/24 piyasa; panelde yalniz NYSE gunleri",18:59
+^N225,dis_endeks,endeks,ONCE,2005-01-04,2026-11-20,5173,10823550243613.0,,1.0,,Asia/Tokyo,dogrudan islem gormez/hacim anlamsiz; maliyet yok,01:30
+^HSI,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5255,68320203334951.0,,1.0,,Asia/Hong_Kong,dogrudan islem gormez/hacim anlamsiz; maliyet yok,03:10
+000001.SS,dis_endeks,endeks,ONCE,2005-01-04,2026-11-20,5135,1816523288.0,,1.0,,Asia/Shanghai,dogrudan islem gormez/hacim anlamsiz; maliyet yok,02:00
+^KS11,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5227,1706850814.0,,1.0,,Asia/Seoul,dogrudan islem gormez/hacim anlamsiz; maliyet yok,01:00
+^TWII,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5182,205355174839.0,,1.0,,Asia/Taipei,dogrudan islem gormez/hacim anlamsiz; maliyet yok,00:30
+^GDAXI,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5416,1463964672136.0,,1.0,,Europe/Berlin,dogrudan islem gormez/hacim anlamsiz; maliyet yok,11:30
+^FTSE,dis_endeks,endeks,ONCE,2005-01-04,2026-11-20,5407,8326633116504.0,,1.0,,Europe/London,dogrudan islem gormez/hacim anlamsiz; maliyet yok,11:30
+^FCHI,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5453,509194291288.0,,1.0,,Europe/Paris,dogrudan islem gormez/hacim anlamsiz; maliyet yok,11:30
+^STOXX50E,dis_endeks,endeks,ONCE,2007-03-30,2026-11-20,4813,129212456390.0,,1.0,,Europe/Zurich,dogrudan islem gormez/hacim anlamsiz; maliyet yok,11:30
+^BVSP,dis_endeks,endeks,SONRA,2005-01-03,2026-11-19,5285,2254069463953.0,,1.0,,America/Sao_Paulo,B3 kapanisi 15:00 ET (kis) - 16:00+ ET (ABD yaz saati); temkinli SONRA,15:00
+^NSEI,dis_endeks,endeks,ONCE,2007-09-17,2026-11-20,4576,8012476695.0,,1.0,,Asia/Kolkata,dogrudan islem gormez/hacim anlamsiz; maliyet yok,05:00
+XU100.IS,dis_endeks,endeks,ONCE,2005-01-03,2026-11-20,5310,88695866217922.0,,1.0,,Europe/Istanbul,dogrudan islem gormez/hacim anlamsiz; maliyet yok,10:00
+NVDA,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,32555451198.0,1.5,1.0,,America/New_York,,16:00
+AMD,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,14721736944.0,1.5,1.0,,America/New_York,,16:00
+AVGO,h_yari_iletken,hisse,ABD16,2009-08-06,2026-11-20,4351,9124149872.0,1.5,1.0,,America/New_York,,16:00
+TSM,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,5226030154.0,1.5,1.0,,America/New_York,,16:00
+MU,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,25736527844.0,1.5,1.0,,America/New_York,,16:00
+INTC,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,10374755825.0,1.5,1.0,,America/New_York,,16:00
+QCOM,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,2308368644.0,1.5,1.0,,America/New_York,,16:00
+TXN,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,1999951485.0,1.5,1.0,,America/New_York,,16:00
+AMAT,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,3050917914.0,1.5,1.0,,America/New_York,,16:00
+LRCX,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,2838893575.0,1.5,1.0,,America/New_York,,16:00
+KLAC,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,1918324752.0,1.5,1.0,,America/New_York,,16:00
+ASML,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,2518425333.0,1.5,1.0,,America/New_York,,16:00
+MRVL,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,5124293505.0,1.5,1.0,,America/New_York,,16:00
+ARM,h_yari_iletken,hisse,ABD16,2023-09-14,2026-11-20,801,1318108857.0,1.5,1.0,,America/New_York,,16:00
+ON,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,797801434.0,3.0,1.0,,America/New_York,,16:00
+MCHP,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,830664184.0,3.0,1.0,,America/New_York,,16:00
+ADI,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,1528576588.0,1.5,1.0,,America/New_York,,16:00
+NXPI,h_yari_iletken,hisse,ABD16,2010-08-06,2026-11-20,4099,1029346286.0,1.5,1.0,,America/New_York,,16:00
+MPWR,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,1112332385.0,1.5,1.0,,America/New_York,,16:00
+ALAB,h_yari_iletken,hisse,ABD16,2024-03-20,2026-11-20,672,1253069098.0,1.5,1.0,,America/New_York,,16:00
+CRDO,h_yari_iletken,hisse,ABD16,2022-01-27,2026-11-20,1210,1493291393.0,1.5,1.0,,America/New_York,,16:00
+COHR,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,2019141929.0,1.5,1.0,,America/New_York,,16:00
+LITE,h_yari_iletken,hisse,ABD16,2015-07-23,2026-11-20,2851,4319329916.0,1.5,1.0,,America/New_York,,16:00
+WDC,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,3097234798.0,1.5,1.0,,America/New_York,,16:00
+STX,h_yari_iletken,hisse,ABD16,2005-01-03,2026-11-20,5507,3502409860.0,1.5,1.0,,America/New_York,,16:00
+SMCI,h_ai_altyapi,hisse,ABD16,2007-03-29,2026-11-20,4945,1390763961.0,1.5,1.0,,America/New_York,,16:00
+DELL,h_ai_altyapi,hisse,ABD16,2016-08-17,2026-11-20,2581,4051921369.0,1.5,1.0,,America/New_York,,16:00
+HPE,h_ai_altyapi,hisse,ABD16,2015-10-19,2026-11-20,2790,1205619547.0,1.5,1.0,,America/New_York,,16:00
+ANET,h_ai_altyapi,hisse,ABD16,2014-06-06,2026-11-20,3135,1227916033.0,1.5,1.0,,America/New_York,,16:00
+VRT,h_ai_altyapi,hisse,ABD16,2018-08-02,2026-11-20,2088,1458543383.0,1.5,1.0,,America/New_York,,16:00
+CLS,h_ai_altyapi,hisse,ABD16,2005-01-03,2026-11-20,5507,826855720.0,3.0,1.0,,America/New_York,,16:00
+ETN,h_ai_altyapi,hisse,ABD16,2005-01-03,2026-11-20,5507,1000506508.0,1.5,1.0,,America/New_York,,16:00
+PWR,h_ai_altyapi,hisse,ABD16,2005-01-03,2026-11-20,5507,741165097.0,3.0,1.0,,America/New_York,,16:00
+CRWV,h_ai_altyapi,hisse,ABD16,2025-03-28,2026-11-20,416,3244142303.0,1.5,1.0,,America/New_York,,16:00
+NBIS,h_ai_altyapi,hisse,ABD16,2024-10-21,2026-11-20,524,3828409284.0,1.5,1.0,,America/New_York,,16:00
+APLD,h_ai_altyapi,hisse,ABD16,2022-04-13,2026-11-20,1157,485059097.0,3.0,1.0,,America/New_York,,16:00
+ORCL,h_ai_altyapi,hisse,ABD16,2005-01-03,2026-11-20,5507,4711679937.0,1.5,1.0,,America/New_York,,16:00
+AAPL,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,14802814762.0,1.5,1.0,,America/New_York,,16:00
+MSFT,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,12420599134.0,1.5,1.0,,America/New_York,,16:00
+GOOGL,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,10119115413.0,1.5,1.0,,America/New_York,,16:00
+AMZN,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,10555014904.0,1.5,1.0,,America/New_York,,16:00
+META,h_mega,hisse,ABD16,2012-05-18,2026-11-20,3649,14220767195.0,1.5,1.0,,America/New_York,,16:00
+TSLA,h_mega,hisse,ABD16,2010-06-29,2026-11-20,4126,13977262324.0,1.5,1.0,,America/New_York,,16:00
+NFLX,h_mega,hisse,ABD16,2005-01-03,2026-11-20,5507,2643248509.0,1.5,1.0,,America/New_York,,16:00
+CRM,h_yazilim,hisse,ABD16,2005-01-03,2026-11-20,5507,2362437579.0,1.5,1.0,,America/New_York,,16:00
+ADBE,h_yazilim,hisse,ABD16,2005-01-03,2026-11-20,5507,1152529209.0,1.5,1.0,,America/New_York,,16:00
+NOW,h_yazilim,hisse,ABD16,2012-06-29,2026-11-20,3620,1994330872.0,1.5,1.0,,America/New_York,,16:00
+PLTR,h_yazilim,hisse,ABD16,2020-09-30,2026-11-20,1544,4440716137.0,1.5,1.0,,America/New_York,,16:00
+APP,h_yazilim,hisse,ABD16,2021-04-15,2026-11-20,1409,1617727343.0,1.5,1.0,,America/New_York,,16:00
+CRWD,h_yazilim,hisse,ABD16,2019-06-12,2026-11-20,1873,2403574556.0,1.5,1.0,,America/New_York,,16:00
+PANW,h_yazilim,hisse,ABD16,2012-07-20,2026-11-20,3606,2427894386.0,1.5,1.0,,America/New_York,,16:00
+ZS,h_yazilim,hisse,ABD16,2018-03-16,2026-11-20,2184,610456080.0,3.0,1.0,,America/New_York,,16:00
+NET,h_yazilim,hisse,ABD16,2019-09-13,2026-11-20,1808,1095730227.0,1.5,1.0,,America/New_York,,16:00
+SNOW,h_yazilim,hisse,ABD16,2020-09-16,2026-11-20,1554,1544355002.0,1.5,1.0,,America/New_York,,16:00
+DDOG,h_yazilim,hisse,ABD16,2019-09-19,2026-11-20,1804,858909481.0,3.0,1.0,,America/New_York,,16:00
+MDB,h_yazilim,hisse,ABD16,2017-10-19,2026-11-20,2285,795233739.0,3.0,1.0,,America/New_York,,16:00
+SHOP,h_yazilim,hisse,ABD16,2015-05-20,2026-11-20,2895,1342385155.0,1.5,1.0,,America/New_York,,16:00
+RDDT,h_yazilim,hisse,ABD16,2024-03-21,2026-11-20,671,726925613.0,3.0,1.0,,America/New_York,,16:00
+DUOL,h_yazilim,hisse,ABD16,2021-07-28,2026-11-20,1337,188471014.0,7.0,1.0,,America/New_York,,16:00
+TTD,h_yazilim,hisse,ABD16,2016-09-21,2026-11-20,2557,301316083.0,3.0,1.0,,America/New_York,,16:00
+U,h_yazilim,hisse,ABD16,2020-09-18,2026-11-20,1552,489278331.0,3.0,1.0,,America/New_York,,16:00
+RBLX,h_yazilim,hisse,ABD16,2021-03-10,2026-11-20,1434,512267884.0,3.0,1.0,,America/New_York,,16:00
+SNAP,h_yazilim,hisse,ABD16,2017-03-02,2026-11-20,2446,224150753.0,3.0,1.0,,America/New_York,,16:00
+PINS,h_yazilim,hisse,ABD16,2019-04-18,2026-11-20,1910,272914176.0,3.0,1.0,,America/New_York,,16:00
+UBER,h_yazilim,hisse,ABD16,2019-05-10,2026-11-20,1895,1254505714.0,1.5,1.0,,America/New_York,,16:00
+DASH,h_yazilim,hisse,ABD16,2020-12-09,2026-11-20,1495,867685058.0,3.0,1.0,,America/New_York,,16:00
+ABNB,h_yazilim,hisse,ABD16,2020-12-10,2026-11-20,1494,796582419.0,3.0,1.0,,America/New_York,,16:00
+SPOT,h_yazilim,hisse,ABD16,2018-04-03,2026-11-20,2173,873050986.0,3.0,1.0,,America/New_York,,16:00
+FIG,h_yazilim,hisse,ABD16,2025-07-31,2026-11-20,331,269565644.0,3.0,1.0,,America/New_York,,16:00
+INTU,h_yazilim,hisse,ABD16,2005-01-03,2026-11-20,5507,1082563503.0,1.5,1.0,,America/New_York,,16:00
+WDAY,h_yazilim,hisse,ABD16,2012-10-12,2026-11-20,3547,479738713.0,3.0,1.0,,America/New_York,,16:00
+TEAM,h_yazilim,hisse,ABD16,2015-12-09,2026-11-20,2754,594579044.0,3.0,1.0,,America/New_York,,16:00
+HUBS,h_yazilim,hisse,ABD16,2014-10-09,2026-11-20,3048,339030332.0,3.0,1.0,,America/New_York,,16:00
+AI,h_yazilim,hisse,ABD16,2020-12-09,2026-11-20,1495,55178014.0,7.0,1.0,,America/New_York,,16:00
+SOUN,h_yazilim,hisse,ABD16,2022-04-28,2026-11-20,1147,97334071.0,7.0,1.0,,America/New_York,,16:00
+BBAI,h_yazilim,hisse,ABD16,2021-04-05,2026-11-20,1417,44941218.0,15.0,1.0,,America/New_York,,16:00
+MSTR,h_kripto,hisse,ABD16,2005-01-03,2026-11-20,5507,2903092009.0,1.5,1.0,,America/New_York,,16:00
+COIN,h_kripto,hisse,ABD16,2021-04-14,2026-11-20,1410,1499355526.0,1.5,1.0,,America/New_York,,16:00
+HOOD,h_kripto,hisse,ABD16,2021-07-29,2026-11-20,1336,2125736134.0,1.5,1.0,,America/New_York,,16:00
+MARA,h_kripto,hisse,ABD16,2012-05-04,2026-11-20,3659,383789656.0,3.0,1.0,,America/New_York,,16:00
+RIOT,h_kripto,hisse,ABD16,2016-03-31,2026-11-20,2678,369773840.0,3.0,1.0,,America/New_York,,16:00
+CLSK,h_kripto,hisse,ABD16,2016-11-16,2026-11-20,2517,180608777.0,7.0,1.0,,America/New_York,,16:00
+IREN,h_kripto,hisse,ABD16,2021-11-17,2026-11-20,1258,1646334865.0,1.5,1.0,,America/New_York,,16:00
+CIFR,h_kripto,hisse,ABD16,2020-10-20,2026-11-20,1530,497255443.0,3.0,1.0,,America/New_York,,16:00
+HUT,h_kripto,hisse,ABD16,2018-03-08,2026-11-20,2190,431566246.0,3.0,1.0,,America/New_York,,16:00
+WULF,h_kripto,hisse,ABD16,2005-01-03,2026-11-20,5507,526813017.0,3.0,1.0,,America/New_York,,16:00
+KEEL,h_kripto,hisse,ABD16,2019-08-16,2026-11-20,1827,84684012.0,7.0,1.0,,America/New_York,eski kod BITF,16:00
+CORZ,h_kripto,hisse,ABD16,2024-01-24,2026-11-20,711,218775635.0,3.0,1.0,,America/New_York,,16:00
+GLXY,h_kripto,hisse,ABD16,2025-05-16,2026-11-20,382,130422104.0,7.0,1.0,,America/New_York,,16:00
+CRCL,h_kripto,hisse,ABD16,2025-06-05,2026-11-20,369,978681410.0,3.0,1.0,,America/New_York,,16:00
+V,h_fintech,hisse,ABD16,2008-03-19,2026-11-20,4700,2530944619.0,1.5,1.0,,America/New_York,,16:00
+MA,h_fintech,hisse,ABD16,2006-05-25,2026-11-20,5156,1801158460.0,1.5,1.0,,America/New_York,,16:00
+PYPL,h_fintech,hisse,ABD16,2015-07-06,2026-11-20,2864,659559197.0,3.0,1.0,,America/New_York,,16:00
+XYZ,h_fintech,hisse,ABD16,2015-11-19,2026-11-20,2767,404848983.0,3.0,1.0,,America/New_York,,16:00
+AFRM,h_fintech,hisse,ABD16,2021-01-13,2026-11-20,1472,343957753.0,3.0,1.0,,America/New_York,,16:00
+SOFI,h_fintech,hisse,ABD16,2021-01-04,2026-11-20,1479,799137430.0,3.0,1.0,,America/New_York,,16:00
+UPST,h_fintech,hisse,ABD16,2020-12-16,2026-11-20,1490,108013722.0,7.0,1.0,,America/New_York,,16:00
+NU,h_fintech,hisse,ABD16,2021-12-09,2026-11-20,1243,1110507126.0,1.5,1.0,,America/New_York,,16:00
+KLAR,h_fintech,hisse,ABD16,2025-09-11,2026-11-20,302,88025233.0,7.0,1.0,,America/New_York,,16:00
+TOST,h_fintech,hisse,ABD16,2021-09-22,2026-11-20,1298,280451569.0,3.0,1.0,,America/New_York,,16:00
+JPM,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,2518336496.0,1.5,1.0,,America/New_York,,16:00
+BAC,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,2081664904.0,1.5,1.0,,America/New_York,,16:00
+C,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,1236478760.0,1.5,1.0,,America/New_York,,16:00
+WFC,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,1207878123.0,1.5,1.0,,America/New_York,,16:00
+GS,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,2028460277.0,1.5,1.0,,America/New_York,,16:00
+MS,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,1124666060.0,1.5,1.0,,America/New_York,,16:00
+SCHW,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,859764540.0,3.0,1.0,,America/New_York,,16:00
+BX,h_banka,hisse,ABD16,2007-06-22,2026-11-20,4886,585179812.0,3.0,1.0,,America/New_York,,16:00
+KKR,h_banka,hisse,ABD16,2010-07-15,2026-11-20,4115,458591270.0,3.0,1.0,,America/New_York,,16:00
+APO,h_banka,hisse,ABD16,2011-03-30,2026-11-20,3936,400465204.0,3.0,1.0,,America/New_York,,16:00
+AXP,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,962636063.0,3.0,1.0,,America/New_York,,16:00
+COF,h_banka,hisse,ABD16,2005-01-03,2026-11-20,5507,822112812.0,3.0,1.0,,America/New_York,,16:00
+XOM,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,2291055849.0,1.5,1.0,,America/New_York,,16:00
+CVX,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,1857468104.0,1.5,1.0,,America/New_York,,16:00
+COP,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,924718596.0,3.0,1.0,,America/New_York,,16:00
+OXY,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,561943369.0,3.0,1.0,,America/New_York,,16:00
+EOG,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,478145293.0,3.0,1.0,,America/New_York,,16:00
+DVN,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,544215781.0,3.0,1.0,,America/New_York,,16:00
+SLB,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,674675231.0,3.0,1.0,,America/New_York,,16:00
+HAL,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,343426951.0,3.0,1.0,,America/New_York,,16:00
+VLO,h_enerji,hisse,ABD16,2005-01-03,2026-11-20,5507,1256084336.0,1.5,1.0,,America/New_York,,16:00
+MPC,h_enerji,hisse,ABD16,2011-06-24,2026-11-20,3876,1052833987.0,1.5,1.0,,America/New_York,,16:00
+PSX,h_enerji,hisse,ABD16,2012-04-12,2026-11-20,3675,824824911.0,3.0,1.0,,America/New_York,,16:00
+PBF,h_enerji,hisse,ABD16,2012-12-13,2026-11-20,3506,237953025.0,3.0,1.0,,America/New_York,,16:00
+FANG,h_enerji,hisse,ABD16,2012-10-12,2026-11-20,3547,497619769.0,3.0,1.0,,America/New_York,,16:00
+VST,h_elektrik_nukleer,hisse,ABD16,2016-10-05,2026-11-20,2547,892476624.0,3.0,1.0,,America/New_York,,16:00
+CEG,h_elektrik_nukleer,hisse,ABD16,2022-01-19,2026-11-20,1216,993785368.0,3.0,1.0,,America/New_York,,16:00
+GEV,h_elektrik_nukleer,hisse,ABD16,2024-03-27,2026-11-20,667,2682843075.0,1.5,1.0,,America/New_York,,16:00
+TLN,h_elektrik_nukleer,hisse,ABD16,2023-06-02,2026-11-20,872,352190158.0,3.0,1.0,,America/New_York,,16:00
+NRG,h_elektrik_nukleer,hisse,ABD16,2005-01-03,2026-11-20,5507,331131897.0,3.0,1.0,,America/New_York,,16:00
+BE,h_elektrik_nukleer,hisse,ABD16,2018-07-25,2026-11-20,2094,3840231836.0,1.5,1.0,,America/New_York,,16:00
+CCJ,h_elektrik_nukleer,hisse,ABD16,2005-01-03,2026-11-20,5507,289685601.0,3.0,1.0,,America/New_York,,16:00
+UEC,h_elektrik_nukleer,hisse,ABD16,2007-04-05,2026-11-20,4940,86438026.0,7.0,1.0,,America/New_York,,16:00
+LEU,h_elektrik_nukleer,hisse,ABD16,2005-01-03,2026-11-20,5507,104513052.0,7.0,1.0,,America/New_York,,16:00
+OKLO,h_elektrik_nukleer,hisse,ABD16,2021-07-08,2026-11-20,1351,319198788.0,3.0,1.0,,America/New_York,,16:00
+SMR,h_elektrik_nukleer,hisse,ABD16,2022-03-01,2026-11-20,1188,235782857.0,3.0,1.0,,America/New_York,,16:00
+NNE,h_elektrik_nukleer,hisse,ABD16,2024-05-08,2026-11-20,638,27813272.0,15.0,1.0,,America/New_York,,16:00
+BWXT,h_elektrik_nukleer,hisse,ABD16,2010-08-02,2026-11-20,4103,170735645.0,7.0,1.0,,America/New_York,,16:00
+NEE,h_elektrik_nukleer,hisse,ABD16,2005-01-03,2026-11-20,5507,1017245347.0,1.5,1.0,,America/New_York,,16:00
+IONQ,h_kuantum,hisse,ABD16,2021-01-04,2026-11-20,1479,842548308.0,3.0,1.0,,America/New_York,,16:00
+RGTI,h_kuantum,hisse,ABD16,2021-04-22,2026-11-20,1404,214805225.0,3.0,1.0,,America/New_York,,16:00
+QBTS,h_kuantum,hisse,ABD16,2020-12-11,2026-11-20,1493,213705094.0,3.0,1.0,,America/New_York,,16:00
+QUBT,h_kuantum,hisse,ABD16,2007-02-01,2026-11-20,4984,51951716.0,7.0,1.0,,America/New_York,,16:00
+RKLB,h_uzay_savunma,hisse,ABD16,2020-11-24,2026-11-20,1505,1242458028.0,1.5,1.0,,America/New_York,,16:00
+ASTS,h_uzay_savunma,hisse,ABD16,2019-11-01,2026-11-20,1773,702004651.0,3.0,1.0,,America/New_York,,16:00
+LUNR,h_uzay_savunma,hisse,ABD16,2021-11-17,2026-11-20,1258,105584706.0,7.0,1.0,,America/New_York,,16:00
+PL,h_uzay_savunma,hisse,ABD16,2021-04-26,2026-11-20,1402,162547734.0,7.0,1.0,,America/New_York,,16:00
+KTOS,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,185316781.0,7.0,1.0,,America/New_York,,16:00
+AVAV,h_uzay_savunma,hisse,ABD16,2007-01-23,2026-11-20,4991,231537291.0,3.0,1.0,,America/New_York,,16:00
+LMT,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,741701222.0,3.0,1.0,,America/New_York,,16:00
+RTX,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,910213336.0,3.0,1.0,,America/New_York,,16:00
+NOC,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,492770344.0,3.0,1.0,,America/New_York,,16:00
+GD,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,446893819.0,3.0,1.0,,America/New_York,,16:00
+BA,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,1565765330.0,1.5,1.0,,America/New_York,,16:00
+AXON,h_uzay_savunma,hisse,ABD16,2005-01-03,2026-11-20,5507,505590583.0,3.0,1.0,,America/New_York,,16:00
+RIVN,h_ev_cin,hisse,ABD16,2021-11-10,2026-11-20,1263,367523670.0,3.0,1.0,,America/New_York,,16:00
+LCID,h_ev_cin,hisse,ABD16,2020-09-18,2026-11-20,1552,43924069.0,15.0,1.0,,America/New_York,,16:00
+NIO,h_ev_cin,hisse,ABD16,2018-09-12,2026-11-20,2060,129269181.0,7.0,1.0,,America/New_York,,16:00
+XPEV,h_ev_cin,hisse,ABD16,2020-08-27,2026-11-20,1567,71936220.0,7.0,1.0,,America/New_York,,16:00
+LI,h_ev_cin,hisse,ABD16,2020-07-30,2026-11-20,1587,33819970.0,15.0,1.0,,America/New_York,,16:00
+BABA,h_ev_cin,hisse,ABD16,2014-09-19,2026-11-20,3062,1025683831.0,1.5,1.0,,America/New_York,,16:00
+PDD,h_ev_cin,hisse,ABD16,2018-07-26,2026-11-20,2093,521548575.0,3.0,1.0,,America/New_York,,16:00
+JD,h_ev_cin,hisse,ABD16,2014-05-22,2026-11-20,3145,215166035.0,3.0,1.0,,America/New_York,,16:00
+BIDU,h_ev_cin,hisse,ABD16,2005-08-05,2026-11-20,5358,211038277.0,3.0,1.0,,America/New_York,,16:00
+DAL,h_seyahat,hisse,ABD16,2007-05-03,2026-11-20,4921,557192278.0,3.0,1.0,,America/New_York,,16:00
+UAL,h_seyahat,hisse,ABD16,2006-02-06,2026-11-20,5232,514139607.0,3.0,1.0,,America/New_York,,16:00
+AAL,h_seyahat,hisse,ABD16,2005-09-27,2026-11-20,5322,833087016.0,3.0,1.0,,America/New_York,,16:00
+LUV,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,253556741.0,3.0,1.0,,America/New_York,,16:00
+CCL,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,555852750.0,3.0,1.0,,America/New_York,,16:00
+RCL,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,683576851.0,3.0,1.0,,America/New_York,,16:00
+NCLH,h_seyahat,hisse,ABD16,2013-01-18,2026-11-20,3482,319674589.0,3.0,1.0,,America/New_York,,16:00
+BKNG,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,1256233999.0,1.5,1.0,,America/New_York,,16:00
+MAR,h_seyahat,hisse,ABD16,2005-01-03,2026-11-20,5507,585576107.0,3.0,1.0,,America/New_York,,16:00
+DHI,h_konut,hisse,ABD16,2005-01-03,2026-11-20,5507,433328380.0,3.0,1.0,,America/New_York,,16:00
+LEN,h_konut,hisse,ABD16,2005-01-03,2026-11-20,5507,370902220.0,3.0,1.0,,America/New_York,,16:00
+PHM,h_konut,hisse,ABD16,2005-01-03,2026-11-20,5507,231007738.0,3.0,1.0,,America/New_York,,16:00
+TOL,h_konut,hisse,ABD16,2005-01-03,2026-11-20,5507,147756895.0,7.0,1.0,,America/New_York,,16:00
+WMT,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,2599307970.0,1.5,1.0,,America/New_York,,16:00
+TGT,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,626037137.0,3.0,1.0,,America/New_York,,16:00
+COST,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,2292808615.0,1.5,1.0,,America/New_York,,16:00
+HD,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,1549770280.0,1.5,1.0,,America/New_York,,16:00
+LOW,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,691110130.0,3.0,1.0,,America/New_York,,16:00
+NKE,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,1205525415.0,1.5,1.0,,America/New_York,,16:00
+LULU,h_tuketici,hisse,ABD16,2007-07-27,2026-11-20,4862,534834238.0,3.0,1.0,,America/New_York,,16:00
+SBUX,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,816631152.0,3.0,1.0,,America/New_York,,16:00
+MCD,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,1444252777.0,1.5,1.0,,America/New_York,,16:00
+CMG,h_tuketici,hisse,ABD16,2006-01-26,2026-11-20,5239,588938751.0,3.0,1.0,,America/New_York,,16:00
+CVNA,h_tuketici,hisse,ABD16,2017-04-28,2026-11-20,2406,588120229.0,3.0,1.0,,America/New_York,,16:00
+DIS,h_tuketici,hisse,ABD16,2005-01-03,2026-11-20,5507,972876380.0,3.0,1.0,,America/New_York,,16:00
+LLY,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,3298613278.0,1.5,1.0,,America/New_York,,16:00
+NVO,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,509623497.0,3.0,1.0,,America/New_York,,16:00
+UNH,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,2302722735.0,1.5,1.0,,America/New_York,,16:00
+JNJ,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,1970361134.0,1.5,1.0,,America/New_York,,16:00
+PFE,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,969888962.0,3.0,1.0,,America/New_York,,16:00
+MRK,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,1411808261.0,1.5,1.0,,America/New_York,,16:00
+ABBV,h_saglik,hisse,ABD16,2013-01-02,2026-11-20,3494,1355436957.0,1.5,1.0,,America/New_York,,16:00
+AMGN,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,1218088342.0,1.5,1.0,,America/New_York,,16:00
+VRTX,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,674647364.0,3.0,1.0,,America/New_York,,16:00
+REGN,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,689018369.0,3.0,1.0,,America/New_York,,16:00
+ISRG,h_saglik,hisse,ABD16,2005-01-03,2026-11-20,5507,992093509.0,3.0,1.0,,America/New_York,,16:00
+MRNA,h_saglik,hisse,ABD16,2018-12-07,2026-11-20,2000,3034070585.0,1.5,1.0,,America/New_York,,16:00
+HIMS,h_saglik,hisse,ABD16,2019-09-13,2026-11-20,1808,308312829.0,3.0,1.0,,America/New_York,,16:00
+TEM,h_saglik,hisse,ABD16,2024-06-14,2026-11-20,612,482952546.0,3.0,1.0,,America/New_York,,16:00
+CRSP,h_saglik,hisse,ABD16,2016-10-19,2026-11-20,2537,88616617.0,7.0,1.0,,America/New_York,,16:00
+VKTX,h_saglik,hisse,ABD16,2015-04-28,2026-11-20,2911,174975964.0,7.0,1.0,,America/New_York,,16:00
+NEM,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,816495345.0,3.0,1.0,,America/New_York,,16:00
+AEM,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,385942803.0,3.0,1.0,,America/New_York,,16:00
+B,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,344672328.0,3.0,1.0,,America/New_York,,16:00
+FCX,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,844517332.0,3.0,1.0,,America/New_York,,16:00
+SCCO,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,219817475.0,3.0,1.0,,America/New_York,,16:00
+NUE,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,347083397.0,3.0,1.0,,America/New_York,,16:00
+CLF,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,233455461.0,3.0,1.0,,America/New_York,,16:00
+AA,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,190202700.0,7.0,1.0,,America/New_York,,16:00
+MP,h_maden_metal,hisse,ABD16,2020-06-22,2026-11-20,1614,245836799.0,3.0,1.0,,America/New_York,,16:00
+ALB,h_maden_metal,hisse,ABD16,2005-01-03,2026-11-20,5507,260627272.0,3.0,1.0,,America/New_York,,16:00
+FSLR,h_gunes,hisse,ABD16,2006-11-17,2026-11-20,5033,488589493.0,3.0,1.0,,America/New_York,,16:00
+ENPH,h_gunes,hisse,ABD16,2012-03-30,2026-11-20,3683,183660567.0,7.0,1.0,,America/New_York,,16:00
+RUN,h_gunes,hisse,ABD16,2015-08-05,2026-11-20,2842,78546472.0,7.0,1.0,,America/New_York,,16:00
+GME,h_meme,hisse,ABD16,2005-01-03,2026-11-20,5507,221069874.0,3.0,1.0,,America/New_York,,16:00
+AMC,h_meme,hisse,ABD16,2013-12-18,2026-11-20,3251,74462215.0,7.0,1.0,,America/New_York,,16:00
+CAT,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,2145999102.0,1.5,1.0,,America/New_York,,16:00
+DE,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,827636464.0,3.0,1.0,,America/New_York,,16:00
+GE,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,1457221180.0,1.5,1.0,,America/New_York,,16:00
+HON,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,600320905.0,3.0,1.0,,America/New_York,,16:00
+UNP,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,758127282.0,3.0,1.0,,America/New_York,,16:00
+FDX,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,451582731.0,3.0,1.0,,America/New_York,,16:00
+UPS,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,515409411.0,3.0,1.0,,America/New_York,,16:00
+BRK-B,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,2564603134.0,1.5,1.0,,America/New_York,,16:00
+KO,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,1572897648.0,1.5,1.0,,America/New_York,,16:00
+PEP,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,1301843160.0,1.5,1.0,,America/New_York,,16:00
+PG,h_sanayi_diger,hisse,ABD16,2005-01-03,2026-11-20,5507,1444876013.0,1.5,1.0,,America/New_York,,16:00

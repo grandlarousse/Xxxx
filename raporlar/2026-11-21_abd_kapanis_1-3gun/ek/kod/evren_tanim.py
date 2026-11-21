@@ -36,8 +36,8 @@ KALDIRAC = {"TQQQ":(3,"QQQ"),"SQQQ":(-3,"QQQ"),"UPRO":(3,"SPY"),"SPXU":(-3,"SPY"
 "TECL":(3,"XLK"),"TECS":(-3,"XLK"),"TNA":(3,"IWM"),"TZA":(-3,"IWM"),"FAS":(3,"XLF"),"FAZ":(-3,"XLF"),
 "LABU":(3,"XBI"),"LABD":(-3,"XBI"),"NUGT":(2,"GDX"),"DUST":(-2,"GDX"),"JNUG":(2,"GDXJ"),"GUSH":(2,"XOP"),"DRIP":(-2,"XOP"),
 "ERX":(2,"XLE"),"ERY":(-2,"XLE"),"YINN":(3,"FXI"),"YANG":(-3,"FXI"),"TMF":(3,"TLT"),"TMV":(-3,"TLT"),
-"UDOW":(3,"DIA"),"SDOW":(-3,"DIA"),"NVDL":(2,"NVDA"),"TSLL":(2,"TSLA"),"TSLQ":(-1,"TSLA"),"CONL":(2,"COIN"),
-"MSTU":(2,"MSTR"),"MSTX":(2,"MSTR"),"BITX":(2,"BTC-USD"),"UVXY":(1.5,"VXX"),"SVXY":(-0.5,"VXX"),"VXX":(1,"^VIX"),"VIXY":(1,"^VIX"),
+"UDOW":(3,"DIA"),"SDOW":(-3,"DIA"),"NVDL":(2,"NVDA"),"TSLL":(2,"TSLA"),"TSLQ":(-2,"TSLA"),"CONL":(2,"COIN"),
+"MSTU":(2,"MSTR"),"MSTX":(2,"MSTR"),"BITX":(2,"IBIT"),"UVXY":(1.5,"VXX"),"SVXY":(-0.5,"VXX"),"VXX":(1,"^VIX"),"VIXY":(1,"^VIX"),
 "UCO":(2,"USO"),"SCO":(-2,"USO"),"BOIL":(2,"UNG"),"KOLD":(-2,"UNG"),"AGQ":(2,"SLV"),"ZSL":(-2,"SLV"),"UGL":(2,"GLD"),"GLL":(-2,"GLD")}
 # VXX/VIXY: kaldiracsiz VIX vadeli (S&P 500 VIX Short-Term Futures) ETN/ETF; dayanak ^VIX yalnizca yaklasik.
 # Emtia urunleri Bloomberg vadeli alt endekslerini izler; dayanak olarak evrendeki ETF (USO/UNG/SLV/GLD) verildi.
@@ -57,4 +57,4 @@ def tur(k, g):
     return "ETF"
 
 # Gelmeyen kod -> yeni kod (veri_indir sonrasi doldurulur)
-YENI_KOD = {}
+YENI_KOD = {"BITF": "KEEL"}   # Bitfarms -> Keel Infrastructure Corp. (Yahoo BITF bos donuyor)
