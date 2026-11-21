@@ -57,3 +57,15 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# ABD doğalgaz araçları: kapanışta al, 1–3 gün taşı (21.11.2026)
+
+Klasör: `2026-11-21_dogalgaz_1-3gun/`
+
+- `RAPOR.md`: Sentez. Hangi araç gazı ne kadar taşıyor, kaldıraçlı ürünlerin maliyeti, 398 ön kayıtlı testin sonucu, iki zayıf aday, lead-lag neden çıkmadı, güncel piyasa ve takvim, stopaj.
+- `ek/`: Backtest şartnamesi ve yöntem denetimi, bütün test satırları (`K1_*`), bağımsız yeniden hesap ve çürütme (`K2_sonuc.md`), araştırma defterleri (`R1`–`R5`, `F1`, `F2a`, `F2b`), doğrulama (`V1`–`V3`).
+- `kod/`: Veri indirme, backtest, bağımsız kontrol ve ek kontrol betikleri. Fiyat verisi repoya eklenmedi.
+
+Yatırım tavsiyesi değildir.
