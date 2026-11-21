@@ -1,0 +1,390 @@
+{
+ "hipotezler": [
+  {
+   "oncu": [
+    "ZS=F",
+    "ZM=F",
+    "ZL=F"
+   ],
+   "oncu_tanim": "Soya ezme marjı: 0.022*ZM + 0.11*ZL - ZS/100 ($/bu) günlük değişimi",
+   "hedef": [
+    "ADM",
+    "BG"
+   ],
+   "yon": "+",
+   "mekanizma": "Ezme marjı ADM ve Bunge'nin ana kâr kalemi; hisse marj değişimine t+1..t+3'te gecikmeli tepki verebilir.",
+   "zamanlama": "CBOT tahıl/yağlı tohum uzlaşması 13:14-13:15 CT = 14:14-14:15 ET, gündüz seansı 14:20 ET'de biter; 16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "ZL=F"
+   ],
+   "oncu_tanim": "Soya yağı günlük getirisi",
+   "hedef": [
+    "ADM",
+    "BG"
+   ],
+   "yon": "+",
+   "mekanizma": "Biyoyakıt talebi (WASDE Kas-26: biyoyakıt 17,8 mlr lb) soya yağını ezicinin ana kâr kaynağı yapıyor.",
+   "zamanlama": "CBOT tahıl/yağlı tohum uzlaşması 13:14-13:15 CT = 14:14-14:15 ET, gündüz seansı 14:20 ET'de biter; 16:00 ET'de biliniyor",
+   "kanit": "https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.txt",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "ZC=F"
+   ],
+   "oncu_tanim": "Mısır günlük getirisi",
+   "hedef": [
+    "CF",
+    "NTR",
+    "MOS"
+   ],
+   "yon": "+",
+   "mekanizma": "Yüksek mısır fiyatı ekim alanı ve azotlu gübre talebini artırır; gübre hisseleri gecikmeli fiyatlayabilir.",
+   "zamanlama": "CBOT tahıl/yağlı tohum uzlaşması 13:14-13:15 CT = 14:14-14:15 ET, gündüz seansı 14:20 ET'de biter; 16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "ZC=F",
+    "ZS=F"
+   ],
+   "oncu_tanim": "Mısır+soya eşit ağırlıklı günlük getiri",
+   "hedef": [
+    "DE",
+    "CTVA"
+   ],
+   "yon": "+",
+   "mekanizma": "Ürün fiyatı çiftçi gelirini ve makine/tohum alımını belirler; günlük etki zayıf, 3 günlük toplamda test edilmeli.",
+   "zamanlama": "CBOT tahıl/yağlı tohum uzlaşması 13:14-13:15 CT = 14:14-14:15 ET, gündüz seansı 14:20 ET'de biter; 16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "CC=F"
+   ],
+   "oncu_tanim": "NY kakao günlük getirisi",
+   "hedef": [
+    "HSY",
+    "MDLZ"
+   ],
+   "yon": "-",
+   "mekanizma": "Kakao ana girdi maliyeti; ICE kapanışı (13:30 ET) ile hisse kapanışı arasında kısmi tepki, kalan t+1'de.",
+   "zamanlama": "ICE uzlaşma penceresi 13:30 ET civarı (kakao/kahve), şeker 13:00 ET, pamuk 14:20 ET, FCOJ 14:00 ET; 16:00 ET'de biliniyor",
+   "kanit": "https://tradingeconomics.com/commodity/cocoa/news/600828",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KC=F"
+   ],
+   "oncu_tanim": "Arabica kahve günlük getirisi",
+   "hedef": [
+    "SBUX"
+   ],
+   "yon": "-",
+   "mekanizma": "Kahve maliyeti SBUX için küçük pay, bu yüzden etki zayıf beklenir; kontrol hipotezi.",
+   "zamanlama": "ICE uzlaşma penceresi 13:30 ET civarı (kakao/kahve), şeker 13:00 ET, pamuk 14:20 ET, FCOJ 14:00 ET; 16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "BRL=X"
+   ],
+   "oncu_tanim": "USD/BRL günlük getirisi (artış = real zayıf)",
+   "hedef": [
+    "SB=F",
+    "KC=F",
+    "ZS=F"
+   ],
+   "yon": "-",
+   "mekanizma": "Real zayıfladıkça Brezilyalı üretici dolar bazında daha ucuza satar; ICE ve CBOT fiyatı t+1'de baskılanır.",
+   "zamanlama": "BRL=X Yahoo kapanışı ~16:00-17:00 ET; B3 15:00 ET'de kapanır (Kasım, BRT=UTC-3); vadeliler 20:00 ET'de yeniden açılır",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "DX-Y.NYB"
+   ],
+   "oncu_tanim": "Dolar endeksi günlük getirisi",
+   "hedef": [
+    "ZC=F",
+    "ZS=F",
+    "ZW=F",
+    "CT=F",
+    "DBA"
+   ],
+   "yon": "-",
+   "mekanizma": "Güçlü dolar ABD ihracat rekabetini bozar (Kasım-26 anlatısı: dolar 19 ayın zirvesi, tahıl düşüyor).",
+   "zamanlama": "DXY 14:20 ET sonrası hareketi tahıla ancak 20:00 ET'de yansır; t günü DXY (14:20-17:00 dilimi) -> t+1 tahıl",
+   "kanit": "https://tradingeconomics.com/commodity/corn",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "CL=F"
+   ],
+   "oncu_tanim": "WTI günlük getirisi",
+   "hedef": [
+    "ZL=F",
+    "SB=F",
+    "ZC=F"
+   ],
+   "yon": "+",
+   "mekanizma": "Biyodizel/etanol paritesi: petrol yağlı tohum, şeker (Brezilya etanolü) ve mısırı (etanol) taşır.",
+   "zamanlama": "WTI 14:30 ET uzlaşır, 17:00 ET'ye kadar işlem görür; 14:20 sonrası petrol hareketi t+1 tahıla yansır",
+   "kanit": "https://tradingeconomics.com/commodity/soybeans",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "LE=F",
+    "GF=F"
+   ],
+   "oncu_tanim": "Canlı/besi sığırı günlük getirisi",
+   "hedef": [
+    "TSN"
+   ],
+   "yon": "-",
+   "mekanizma": "Sığır TSN'in sığır eti bölümünün girdi maliyeti; yüksek sığır = dar paketleyici marjı (yön sezgiye ters, test edilmeli).",
+   "zamanlama": "CME canlı hayvan gündüz seansı 13:05 CT = 14:05 ET civarı biter (doğrulanmadı, bellek); 16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "HE=F"
+   ],
+   "oncu_tanim": "Yağsız domuz günlük getirisi",
+   "hedef": [
+    "TSN"
+   ],
+   "yon": "-",
+   "mekanizma": "Domuz TSN için alım maliyeti; düşüş paketleyici marjını açar (domuz yıl başından beri -%38).",
+   "zamanlama": "CME canlı hayvan gündüz seansı 13:05 CT = 14:05 ET civarı biter (doğrulanmadı, bellek); 16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "ZC=F",
+    "ZM=F"
+   ],
+   "oncu_tanim": "Yem maliyeti (mısır+küspe) günlük getiri",
+   "hedef": [
+    "TSN"
+   ],
+   "yon": "-",
+   "mekanizma": "Yem, kanatlı ve domuz için en büyük maliyet; TSN tavuk segmenti etkilenir.",
+   "zamanlama": "CBOT tahıl/yağlı tohum uzlaşması 13:14-13:15 CT = 14:14-14:15 ET, gündüz seansı 14:20 ET'de biter; 16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "LBR=F"
+   ],
+   "oncu_tanim": "Kereste vadelisi günlük getirisi",
+   "hedef": [
+    "WY",
+    "PCH",
+    "RYN",
+    "LPX",
+    "WOOD"
+   ],
+   "yon": "+",
+   "mekanizma": "Kereste fiyatı kereste fabrikası marjını ve orman arazisi değerini belirler; ince likiditeli vadeli, hisseler t+1'de yetişebilir.",
+   "zamanlama": "CME kereste 9:00-15:05 CT = 10:00-16:05 ET: 16:00 ET'de neredeyse eşzamanlı; Yahoo kapanışı 16:05 sonrası olabilir, hizalamaya dikkat",
+   "kanit": "https://tradingeconomics.com/commodity/lumber",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "ITB",
+    "XHB"
+   ],
+   "oncu_tanim": "Konut inşaatçıları ETF günlük getirisi",
+   "hedef": [
+    "LBR=F",
+    "WY"
+   ],
+   "yon": "+",
+   "mekanizma": "Konut talebi beklentisi önce derin likiditeli hisselerde fiyatlanır, ince kereste vadelisi t+1'de izler (ters yön testi).",
+   "zamanlama": "ITB/XHB 16:00 ET'de kapanır; kereste 16:05 ET'de kapanır, ertesi gün 10:00 ET açılır",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "ZW=F",
+    "KE=F"
+   ],
+   "oncu_tanim": "Buğday (SRW+HRW) günlük getirisi",
+   "hedef": [
+    "GIS",
+    "KHC"
+   ],
+   "yon": "-",
+   "mekanizma": "Un girdi maliyeti; payı küçük, etki zayıf beklenir.",
+   "zamanlama": "CBOT tahıl/yağlı tohum uzlaşması 13:14-13:15 CT = 14:14-14:15 ET, gündüz seansı 14:20 ET'de biter; 16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "CORN",
+    "WEAT",
+    "SOYB",
+    "CANE"
+   ],
+   "oncu_tanim": "Tek emtia ETF'inin kendi 1 günlük getirisi",
+   "hedef": [
+    "CORN",
+    "WEAT",
+    "SOYB",
+    "CANE"
+   ],
+   "yon": "-",
+   "mekanizma": "Haber günlerindeki aşırı tepki sonrası 1-3 günlük kısa vadeli geri dönüş (kendi gecikmesi).",
+   "zamanlama": "ETF 16:00 ET kapanışı, vadeli 14:20 ET'de kesinleşmiş",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "ZC=F",
+    "ZS=F",
+    "ZW=F"
+   ],
+   "oncu_tanim": "WASDE günü (aylık, 12:00 ET) tahıl getirisi; olay günü kuklası ile",
+   "hedef": [
+    "ADM",
+    "BG",
+    "DE",
+    "CF"
+   ],
+   "yon": "+",
+   "mekanizma": "WASDE şoku öğlen gelir; hisselerin tepkisi 16:00'ya kadar eksik kalabilir, t+1..t+2 sürüklenme testi.",
+   "zamanlama": "WASDE 12:00 ET; 2026'da son tarih 10 Aralık",
+   "kanit": "https://www.cmegroup.com/articles/2026/understanding-major-usda-reports-in-2026.html",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "SPY"
+   ],
+   "oncu_tanim": "S&P 500 ETF'nin 14:20-16:00 ET arası hareketini yakalamak için SPY günlük getirisi eksi tahıl getirisi",
+   "hedef": [
+    "ZC=F",
+    "ZS=F",
+    "ZL=F"
+   ],
+   "yon": "+",
+   "mekanizma": "Tahıl 14:20 ET'de kapanınca gelen risk iştahı haberi ertesi gün tahıl/yağ fiyatına yansır (asenkron kapanış etkisi).",
+   "zamanlama": "SPY 16:00 ET, tahıl 14:20 ET: 100 dakikalık bilgi farkı",
+   "kanit": "önsel",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "CT=F"
+   ],
+   "oncu_tanim": "Pamuk günlük getirisi",
+   "hedef": [
+    "DBA"
+   ],
+   "yon": "+",
+   "mekanizma": "Kontrol amaçlı: sepet içi emtia sonrası sepet; aynı gün tam yansıma beklenir, gecikme olmamalı.",
+   "zamanlama": "ICE uzlaşma penceresi 13:30 ET civarı (kakao/kahve), şeker 13:00 ET, pamuk 14:20 ET, FCOJ 14:00 ET; 16:00 ET'de biliniyor",
+   "kanit": "önsel",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "OJ=F"
+   ],
+   "oncu_tanim": "Portakal suyu günlük getirisi",
+   "hedef": [
+    "OJ=F"
+   ],
+   "yon": "-",
+   "mekanizma": "Çok ince likidite (20g hacim ~0,1 mn $) ve büyük gün içi geri dönüşler; kendi 1 günlük geri dönüşü.",
+   "zamanlama": "ICE FCOJ 8:00-14:00 ET",
+   "kanit": "önsel",
+   "oncelik": 3
+  }
+ ],
+ "ek_semboller": [
+  {
+   "sembol": "CXRN",
+   "neden": "Teucrium 2x günlük mısır ETF'i (1099, K-1 yok); kaldıraçlı mısır aracı"
+  },
+  {
+   "sembol": "WXET",
+   "neden": "Teucrium 2x günlük buğday ETF'i (1099)"
+  },
+  {
+   "sembol": "TILL",
+   "neden": "Teucrium K-1'siz tarım sepeti"
+  },
+  {
+   "sembol": "DAR",
+   "neden": "Darling Ingredients: yenilenebilir dizel, soya yağı/hayvansal yağ fiyatına duyarlı"
+  },
+  {
+   "sembol": "GPRE",
+   "neden": "Green Plains: etanol, mısır ezme marjı"
+  },
+  {
+   "sembol": "ANDE",
+   "neden": "Andersons: tahıl ticareti ve etanol"
+  },
+  {
+   "sembol": "PPC",
+   "neden": "Pilgrim's Pride: kanatlı, yem maliyeti (mısır/küspe)"
+  },
+  {
+   "sembol": "CALM",
+   "neden": "Cal-Maine: yumurta, yem maliyeti"
+  },
+  {
+   "sembol": "HRL",
+   "neden": "Hormel: domuz ve hindi işleme"
+  },
+  {
+   "sembol": "SFD",
+   "neden": "Smithfield: domuz üreticisi, domuz fiyatına doğrudan duyarlı"
+  },
+  {
+   "sembol": "UFPI",
+   "neden": "UFP Industries: kereste işleme"
+  },
+  {
+   "sembol": "BCC",
+   "neden": "Boise Cascade: kereste ve kontrplak"
+  },
+  {
+   "sembol": "AGCO",
+   "neden": "Tarım makinesi, tahıl fiyatı ve çiftçi geliri"
+  },
+  {
+   "sembol": "CNH",
+   "neden": "Tarım makinesi"
+  },
+  {
+   "sembol": "INGR",
+   "neden": "Ingredion: mısır işleme, mısır maliyeti"
+  },
+  {
+   "sembol": "KDP",
+   "neden": "Keurig Dr Pepper: kahve maliyeti"
+  }
+ ]
+}

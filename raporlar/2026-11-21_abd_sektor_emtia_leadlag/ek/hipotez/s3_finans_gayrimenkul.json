@@ -1,0 +1,378 @@
+{
+ "hipotezler": [
+  {
+   "oncu": [
+    "XLF",
+    "^VIX"
+   ],
+   "oncu_tanim": "XLF IBS=(kapanış-dip)/(tepe-dip) < 0.2 VE ^VIX kapanışı > 25",
+   "hedef": [
+    "XLF",
+    "FAS",
+    "KBE"
+   ],
+   "yon": "+",
+   "mekanizma": "Panik günlerinde zayıf kapanışa likidite sağlamanın getirisi VIX ile artar.",
+   "zamanlama": "Hepsi 16:00 ET'de biliniyor (VIX 16:15'te kesinleşir; 16:00 değeri yeterli).",
+   "kanit": "https://www.nber.org/papers/w17653.pdf ; kendi taraması: XLF h3 139/94 bp (2005-14/2015-23)",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "KRE",
+    "^VIX"
+   ],
+   "oncu_tanim": "KRE IBS < 0.2 VE ^VIX > 25",
+   "hedef": [
+    "KRE",
+    "DPST"
+   ],
+   "yon": "+",
+   "mekanizma": "Bölgesel bankalarda stresli zayıf kapanış 1-3 günde geri alınır.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: KRE h3 187/99 bp, t 3,3/2,1",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "KIE",
+    "^VIX"
+   ],
+   "oncu_tanim": "KIE IBS < 0.2 VE ^VIX > 25",
+   "hedef": [
+    "KIE",
+    "TRV",
+    "CB",
+    "PGR",
+    "ALL"
+   ],
+   "yon": "+",
+   "mekanizma": "Düşük betalı sigortada panik satışı hızlı geri döner.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: KIE h3 78/79 bp",
+   "oncelik": 1
+  },
+  {
+   "oncu": [
+    "KIE"
+   ],
+   "oncu_tanim": "KIE 5 günlük getiri < -3%",
+   "hedef": [
+    "KIE",
+    "TRV",
+    "CB",
+    "ALL"
+   ],
+   "yon": "+",
+   "mekanizma": "Sigortada kısa vadeli aşırı satış dönüşü; üç dönemde istikrarlı.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: h3 52/66/79 bp, t 1,5/2,0/2,5",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "XLF"
+   ],
+   "oncu_tanim": "XLF IBS < 0.2 (koşulsuz)",
+   "hedef": [
+    "XLF",
+    "KIE"
+   ],
+   "yon": "+",
+   "mekanizma": "Gün içi dipte kapanışın 3 günlük dönüşü.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: XLF h3 42/34/42 bp, koşulsuz 6/14/20 bp",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "TLT"
+   ],
+   "oncu_tanim": "TLT günlük getirisi (60 gün z-skoru)",
+   "hedef": [
+    "XLRE",
+    "VNQ",
+    "IYR",
+    "O",
+    "PLD"
+   ],
+   "yon": "+",
+   "mekanizma": "Uzun faiz düşüşü GYO fiyatına bir gün gecikmeyle geçer.",
+   "zamanlama": "TLT 16:00 ET kapanışı biliniyor.",
+   "kanit": "kendi taraması: corr t ≈ 4 (2010-22), ≈ 1 (2023+); eşikli işlem anlamsız",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "^TNX"
+   ],
+   "oncu_tanim": "^TNX günlük seviye değişimi (bp)",
+   "hedef": [
+    "AGNC",
+    "NLY",
+    "XLRE",
+    "VNQ"
+   ],
+   "yon": "-",
+   "mekanizma": "Faiz şoku mREIT defter değerine ve GYO iskonto oranına gecikmeli yansır.",
+   "zamanlama": "^TNX 15:00 CT (16:00 ET) kapanışı biliniyor.",
+   "kanit": "kendi taraması: AGNC t -4,5 (2010-26), -2,0 (2023+)",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "JPM",
+    "XLF",
+    "SPY"
+   ],
+   "oncu_tanim": "Günlük getiri",
+   "hedef": [
+    "KRE",
+    "KBE",
+    "PNC",
+    "USB"
+   ],
+   "yon": "-",
+   "mekanizma": "Büyük banka ve piyasa hareketine bölgesel bankaların aşırı tepkisi ertesi gün düzelir (dönüş).",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: JPM->KRE t -6,2 (2010-26), -1,7 (2023+): zayıflıyor",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "KRE"
+   ],
+   "oncu_tanim": "KRE günlük getirisi",
+   "hedef": [
+    "BAC",
+    "XLF"
+   ],
+   "yon": "+",
+   "mekanizma": "2023 sonrası bölgesel banka hareketi büyük bankalara gecikmeyle geçiyor (rejime bağlı).",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: KRE->BAC t +3,5 (2023+), -2,7 (2016-22)",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "^VIX"
+   ],
+   "oncu_tanim": "^VIX günlük değişimi z-skoru > 1.5",
+   "hedef": [
+    "CME",
+    "CBOE",
+    "ICE"
+   ],
+   "yon": "+",
+   "mekanizma": "Oynaklık sıçraması işlem hacmini ve borsa gelirini artırır.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: CME h3 49 bp t 1,9 (2010-22), 24 bp t 0,8 (2023+); korelasyon 2023+ ters",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "^VIX"
+   ],
+   "oncu_tanim": "^VIX günlük değişimi",
+   "hedef": [
+    "XLF",
+    "KRE",
+    "GS",
+    "SCHW"
+   ],
+   "yon": "+",
+   "mekanizma": "Korku sıçraması günü finansallar aşırı satılır, ertesi gün toparlar.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: dVIX->XLF t +6,2 (2010-26), +0,3 (2023+)",
+   "oncelik": 2
+  },
+  {
+   "oncu": [
+    "COIN"
+   ],
+   "oncu_tanim": "COIN günlük getirisi z-skoru > 1.5",
+   "hedef": [
+    "MARA",
+    "RIOT"
+   ],
+   "yon": "-",
+   "mekanizma": "Kripto rallisinde madencilerin aşırı tepkisi ertesi gün geri verilir.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: MARA açığı 2023+ 133 bp t 1,8 n 75; corr COIN->MARA t -3,6",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "IBIT"
+   ],
+   "oncu_tanim": "IBIT günlük getirisi (16:00 kapanışı)",
+   "hedef": [
+    "MSTR",
+    "COIN",
+    "MARA"
+   ],
+   "yon": "-",
+   "mekanizma": "Kontrol: BTC'den kripto hisselerine öncülük yok; varsa dönüş.",
+   "zamanlama": "IBIT 16:00 ET'de kapanır; BTC-USD kullanma (UTC kapanış).",
+   "kanit": "kendi taraması: IBIT->MSTR t -2,3, ->MARA -1,8 (2024+)",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "CRWV",
+    "NBIS"
+   ],
+   "oncu_tanim": "Yapay zekâ bulut hisseleri günlük getirisi",
+   "hedef": [
+    "IREN",
+    "CORZ",
+    "CIFR",
+    "WULF",
+    "APLD",
+    "HUT"
+   ],
+   "yon": "+",
+   "mekanizma": "Madenciler artık yapay zekâ barındırma işiyle fiyatlanıyor; tema liderinden gecikmeli yayılım olabilir.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "önsel; eşzamanlı korelasyon CORZ-CRWV 0,78 (son 6 ay)",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "HYG",
+    "IEF"
+   ],
+   "oncu_tanim": "HYG getirisi eksi IEF getirisi (kredi spreadi vekili)",
+   "hedef": [
+    "BX",
+    "KKR",
+    "APO",
+    "ARES"
+   ],
+   "yon": "+",
+   "mekanizma": "Kredi spreadi daralması alternatif yöneticilere gecikmeli yansır.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: işaret dönemler arasında değişiyor (APO +2,8, KKR -2,1): büyük olasılıkla yok",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "^TNX",
+    "^IRX"
+   ],
+   "oncu_tanim": "10y - 3a eğim değişimi",
+   "hedef": [
+    "KRE",
+    "KBE",
+    "ZION",
+    "WAL"
+   ],
+   "yon": "+",
+   "mekanizma": "Dikleşen eğri net faiz marjı beklentisini artırır.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: KRE t -1,5 (beklenenin tersi), 2023+ 0",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "XLRE"
+   ],
+   "oncu_tanim": "XLRE 5 günlük getiri < -3%",
+   "hedef": [
+    "XLRE",
+    "VNQ"
+   ],
+   "yon": "+",
+   "mekanizma": "GYO aşırı satışı faiz oynaklığı dinince geri alınır.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: h3 80 bp t 3,2 yalnız 2024-26; 2015-23 -5 bp",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "GS"
+   ],
+   "oncu_tanim": "GS günlük getirisi",
+   "hedef": [
+    "MS",
+    "SCHW",
+    "IBKR"
+   ],
+   "yon": "-",
+   "mekanizma": "Yatırım bankası emsallerinde ertesi gün dönüş (2010-22); 2023+ işaret +.",
+   "zamanlama": "16:00 ET'de biliniyor.",
+   "kanit": "kendi taraması: GS->MS t -3,7 (2016-22), +2,2 (2023+)",
+   "oncelik": 3
+  },
+  {
+   "oncu": [
+    "^MOVE"
+   ],
+   "oncu_tanim": "^MOVE günlük değişimi z-skoru > 1.5",
+   "hedef": [
+    "AGNC",
+    "NLY",
+    "KRE"
+   ],
+   "yon": "+",
+   "mekanizma": "Tahvil oynaklığı sıçraması günü mREIT ve bölgesel banka aşırı satılır, 1-3 günde toparlar (VIX dönüşünün faiz karşılığı).",
+   "zamanlama": "^MOVE kapanışı 16:00 civarı; Yahoo değerinin saatini kontrol et.",
+   "kanit": "önsel",
+   "oncelik": 3
+  }
+ ],
+ "ek_semboller": [
+  {
+   "sembol": "KBWB",
+   "neden": "Saf büyük banka ETF'i (XLF'deki BRK-B/V/MA gürültüsü olmadan)."
+  },
+  {
+   "sembol": "BIZD",
+   "neden": "BDC/özel kredi stresi göstergesi; alternatif yöneticiler için öncü adayı."
+  },
+  {
+   "sembol": "ARCC",
+   "neden": "En büyük BDC; özel kredi fiyatlaması."
+  },
+  {
+   "sembol": "OBDC",
+   "neden": "Blue Owl BDC; 2025-26 özel kredi haberlerinin odağı."
+  },
+  {
+   "sembol": "OWL",
+   "neden": "Alternatif yönetici, özel kredi ağırlıklı; evrende yok."
+  },
+  {
+   "sembol": "SKF",
+   "neden": "-2x finans ters ETF; FAZ alternatifi."
+  },
+  {
+   "sembol": "DRN",
+   "neden": "3x GYO boğa ETF'i."
+  },
+  {
+   "sembol": "DRV",
+   "neden": "-3x GYO ayı ETF'i."
+  },
+  {
+   "sembol": "MSTU",
+   "neden": "2x MSTR kaldıraçlı ETF."
+  },
+  {
+   "sembol": "BITI",
+   "neden": "-1x bitcoin ters ETF."
+  },
+  {
+   "sembol": "CRCL",
+   "neden": "Circle: stablecoin/fintech, 2025 halka arzı."
+  },
+  {
+   "sembol": "GLXY",
+   "neden": "Galaxy Digital: kripto aracı ve veri merkezi."
+  },
+  {
+   "sembol": "MBB",
+   "neden": "Ajans MBS ETF'i; mREIT (AGNC, NLY) öncü adayı."
+  }
+ ]
+}

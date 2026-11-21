@@ -23,8 +23,8 @@ d["pretatil"] = (nxt > idx + pd.offsets.BDay(1)).values
 def ucuncu_cuma(ts):
     f = ts.replace(day=1); f = f + pd.Timedelta(days=(4 - f.weekday()) % 7); return f + pd.Timedelta(days=14)
 tf = pd.DatetimeIndex([ucuncu_cuma(t) for t in idx])
-d["opex"] = ((idx <= tf) & (idx > tf - pd.Timedelta(days=7))).values
-d["opex_sonrasi"] = ((idx > tf) & (idx <= tf + pd.Timedelta(days=7))).values
+d["opex"] = np.asarray((idx <= tf) & (idx > tf - pd.Timedelta(days=7)))
+d["opex_sonrasi"] = np.asarray((idx > tf) & (idx <= tf + pd.Timedelta(days=7)))
 DON = [("2000-2014", "2000", "2014"), ("2015-2026", "2015", "2026"), ("2020-2026", "2020", "2026"), ("2024-2026", "2024", "2026")]
 satir = []
 for s in SEM:
