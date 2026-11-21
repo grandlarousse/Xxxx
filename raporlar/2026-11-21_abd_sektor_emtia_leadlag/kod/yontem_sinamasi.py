@@ -70,8 +70,8 @@ def gercek():
     en = max(abs(v) for _, v in kotu)
     kayit("G1", "hizali_getiri ilk takvim günü (2005-01-03) değeri", kotu, "|deger| < 0,1", "GECTI" if en < 0.1 else "KALDI")
     z = o.zskor(o.hizali_getiri("^N225"))
-    oran = float((z.iloc[1:61].abs() >= 1).mean())
-    kayit("G1b", "^N225 |z|>=1 sıklığı, 2005'in ilk 60 günü", round(oran, 3), "~0,3 (0 ise ilk gün aykırı değeri std'yi şişiriyor)", "GECTI" if oran > 0.15 else "KALDI")
+    oran = float((z.iloc[41:101].abs() >= 1).mean())  # ilk 40 gün z tanımsız (min_n)
+    kayit("G1b", "^N225 |z|>=1 sıklığı, takvimin 41.-100. günleri", round(oran, 3), "~0,3 (0 ise ilk gün aykırı değeri std'yi şişiriyor)", "GECTI" if oran > 0.15 else "KALDI")
 
     # G2: geç başlayan araçlarda IS dönemi (YONTEM 5: %55/%45 bölünme) kütüphanede var mı?
     sat = []
@@ -133,7 +133,7 @@ def gercek():
         d = d[d.index >= "2012-01-01"]
         beta = d.r.cov(d.f) / d.f.var()
         return round(float((beta * d.f - d.r).corr(d.g)), 3)
-    cift = [(a, c) for a, c in [("HG=F", "CPER"), ("HG=F", "FCX"), ("HG=F", "COPX"), ("CL=F", "XLE"), ("GC=F", "GDX"), ("^VIX", "SPY"), ("ES=F", "SPY")]
+    cift = [(a, c) for a, c in [("HG=F", "CPER"), ("HG=F", "FCX"), ("HG=F", "COPX"), ("CL=F", "XLE"), ("GC=F", "GDX"), ("^VIX", "SPY"), ("^VIX3M", "SPY"), ("^VVIX", "SPY"), ("VIXY", "SPY"), ("ES=F", "SPY"), ("^TNX", "TLT"), ("DX-Y.NYB", "UUP")]
             if a in m.index and c in m.index]
     kayit("G5", "corr(beta*öncü - hedef, hedefin ertesi gecesi)", [(a, c, bayat(a, c)) for a, c in cift], "likit hedefte ~0 ise vadelide ileri bakış yok")
 
@@ -161,6 +161,74 @@ def gercek():
         ok = bugun.notna() & eski.notna()
         daha_pahali = (sinif(eski[ok]) > sinif(bugun[ok])).mean()
         kayit("G8", f"{tarih} tarihinde bugünkünden pahalı maliyet sınıfında olan sembol payı (n={int(ok.sum())})", f"{daha_pahali * 100:.0f}%", "0% (aksi halde geçmiş maliyet düşük sayılır)")
+    # G5b: VIX ailesi: 16:15 kapanışı ileri bakış mı? SPY'ın ertesi gecesi ~ SPY_t + VIXY_t (16:00) + ^VIX_t (16:15)
+    import statsmodels.api as sm
+    C_, O_ = o.panel("adjclose"), o.panel("ao")
+    r_all = np.log(C_).diff()
+    gece_s = np.log(O_ / C_.shift(1)).shift(-1)
+    if "^VIX" in m.index and "VIXY" in m.index:
+        d = pd.DataFrame({"y": gece_s["SPY"], "spy": r_all["SPY"], "vixy": r_all["VIXY"], "vix": o.hizali_getiri("^VIX", bilinen=False)}).dropna()
+        d = d[d.index >= "2012-01-01"]
+        f1 = sm.OLS(d.y, sm.add_constant(d[["spy", "vixy", "vix"]])).fit(cov_type="HC0")
+        f0 = sm.OLS(d.y, sm.add_constant(d[["spy"]])).fit(cov_type="HC0")
+        kayit("G5b", "SPY ertesi gece ~ SPY_t [+ VIXY_t + ^VIX_t]: White t (yalnız SPY | SPY, VIXY, ^VIX)", f"{f0.tvalues['spy']:.1f} | {f1.tvalues['spy']:.1f}, {f1.tvalues['vixy']:.1f}, {f1.tvalues['vix']:.1f}",
+              "^VIX, VIXY'ye ek olarak anlamlıysa 16:15 ileri bakışı var")
+    # G10: bayat kapanış taraması: hedef ETF'in ertesi gecesi ~ kendi getirisi_t + en yakın likit karşılığın getirisi_t
+    etf = [s for s in o.abd_semboller("ETF") if s in C_.columns]
+    likit = [s for s in ["SPY", "QQQ", "IWM", "DIA", "XLE", "XLF", "XLK", "XLV", "XLI", "XLY", "XLP", "XLU", "XLB", "GLD", "SLV", "USO", "TLT", "IEF", "HYG",
+                         "LQD", "EEM", "EFA", "FXI", "EWJ", "EWZ", "SMH", "XBI", "GDX", "KRE", "XOP", "UNG"] if s in C_.columns]
+    vadeli = [s for s in m.index if m.loc[s, "tur"] == "FUTURE"]
+    REF = pd.concat([r_all[likit], pd.DataFrame({s: o.hizali_getiri(s, bilinen=False) for s in vadeli})], axis=1)
+    REF = REF[REF.index >= "2015-01-01"]
+    sat = []
+    for s in etf:
+        r = r_all[s].reindex(REF.index)
+        if r.notna().sum() < 500:
+            continue
+        cc = REF.drop(columns=[s], errors="ignore").corrwith(r)
+        ref = cc.idxmax()
+        if cc[ref] < 0.4:
+            continue
+        d = pd.DataFrame({"y": gece_s[s], "r": r, "x": REF[ref]}).dropna()
+        if len(d) < 500:
+            continue
+        f = sm.OLS(d.y, sm.add_constant(d[["r", "x"]])).fit(cov_type="HC0")
+        sat.append((s, ref, round(float(cc[ref]), 2), round(float(f.tvalues["x"]), 1), round(float(f.params["x"] * d.x.std() / d.y.std()), 2), round(float(dv[s].iloc[-1]), 1) if s in dv.columns else np.nan))
+    bt = pd.DataFrame(sat, columns=["etf", "karsilik", "corr", "t_x", "etki", "hacim_mn"]).sort_values("t_x", ascending=False)
+    supheli = bt[(bt.t_x >= 4) & (bt.etki >= 0.1)]
+    bt.to_csv(os.path.join(o.KOK, "ek", "dogrulama", "bayat_kapanis_taramasi.csv"), index=False)
+    kayit("G10", f"bayat kapanış şüphesi (t>=4 ve standart etki>=0,1) olan ETF sayısı / taranan; ilk 15 (etf, karşılık, t, etki, hacim mn$)",
+          f"{len(supheli)}/{len(bt)}; {[tuple(x) for x in supheli[['etf', 'karsilik', 't_x', 'etki', 'hacim_mn']].head(15).values.tolist()]}", "YONTEM yalnız CPER, CANE, WEAT diyor")
+    kayit("G10b", "karşılaştırma: en likit 8 ETF'te aynı ölçü (t_x)", bt[bt.etf.isin(["SPY", "QQQ", "IWM", "XLE", "XLF", "GLD", "TLT", "SMH"])][["etf", "karsilik", "t_x", "etki"]].values.tolist(), "|t| < 3")
+    # G12: gecikme() tablosunun ampirik denetimi: ETF/hisse olmayan öncülerin t çubuğu, likit karşılığının ERTESİ GECESİNİ öngörüyor mu?
+    aday = likit + [s for s in ["UUP", "FXE", "FXY", "VIXY", "IBIT", "BITO", "EWC", "EWW"] if s in C_.columns and s not in likit]
+    RA = r_all[aday][r_all.index >= "2012-01-01"]
+    onculer = [s for s in m.index if m.loc[s, "tur"] in ("FUTURE", "INDEX", "ALTSYMBOL", "CRYPTOCURRENCY", "CURRENCY")
+               and str(m.loc[s, "saat_dilimi"]).startswith(("America", "UTC", "Europe/London"))]
+    sat = []
+    for s in onculer:
+        x = o.hizali_getiri(s, bilinen=False).reindex(RA.index)
+        cc = RA.corrwith(x)
+        ref = cc.abs().idxmax()
+        if abs(cc[ref]) < 0.3:
+            continue
+        d = pd.DataFrame({"y": gece_s[ref], "r": r_all[ref], "x": x}).dropna()
+        if len(d) < 300:
+            continue
+        f = sm.OLS(d.y, sm.add_constant(d[["r", "x"]])).fit(cov_type="HC0")
+        sat.append((s, ref, round(float(cc[ref]), 2), round(float(f.tvalues["x"] * np.sign(cc[ref])), 1), o.gecikme(s)))
+    lt = pd.DataFrame(sat, columns=["oncu", "karsilik", "corr", "t_ileri", "gecikme"]).sort_values("t_ileri", ascending=False)
+    lt.to_csv(os.path.join(o.KOK, "ek", "dogrulama", "ileri_bakis_taramasi.csv"), index=False)
+    acik = lt[(lt.t_ileri >= 4) & (lt.gecikme == 0)]
+    kayit("G12", f"ileri bakış izi (t>=4) olup gecikme()=0 olan öncü sayısı / taranan {len(lt)}; liste (öncü, karşılık, t)", f"{len(acik)}; {acik[['oncu', 'karsilik', 't_ileri']].values.tolist()}",
+          "0", "KALDI" if len(acik) else "GECTI")
+    kayit("G12b", "gecikme()=1 olan öncülerde aynı ölçü (gecikmesiz kullanılsaydı)", lt[lt.gecikme == 1][["oncu", "karsilik", "t_ileri"]].values.tolist(), "t >> 4 (gecikme gerekli)")
+    # G11: aşırı günlük getiriler (YONTEM 2: ETF > %40, hisse > %80)
+    Rb = o.basit_getiri(us)
+    e_ = [s for s in us if m.loc[s, "tur"] == "ETF"]
+    h_ = [s for s in us if m.loc[s, "tur"] == "EQUITY"]
+    ae, ah = (Rb[e_].abs() > 0.4).sum(), (Rb[h_].abs() > 0.8).sum()
+    kayit("G11", "aşırı getiri günleri: ETF |r|>%40 (gün; sembol) | hisse |r|>%80 (gün; sembol)", f"{int(ae.sum())}; {ae[ae > 0].sort_values(ascending=False).head(8).to_dict()} | {int(ah.sum())}; {ah[ah > 0].sort_values(ascending=False).head(8).to_dict()}", "bilgi")
     # G9: çoklu test: sıfır hipotezinde A ve B koşullarını birlikte geçme olasılığı
     w = 14.0 / (14.0 + 7.9)
     g = np.random.default_rng(1)
@@ -278,8 +346,9 @@ def _sentetik(nyse, ek):
     for s in ("ASYA", "KRP", "LEAD"):
         a, b = o.hizali_getiri(s, bilinen=False), beklenen(s)
         ilk_fark = abs(float(a.iloc[0]) - float(b.iloc[0])) if not np.isnan(b.iloc[0]) else 0.0
-        fark = float((a - b).iloc[1:].abs().max())
-        nan_ayni = bool((a.isna() == b.isna()).iloc[1:].all())
+        fark = float((a - b).iloc[1:][a.index[1:] >= b.first_valid_index() + pd.Timedelta(days=7)].abs().max())
+        bas_ = b.first_valid_index() + pd.Timedelta(days=7)  # serinin ilk haftası: tanım farkı (ilk gözlem tatile denk gelirse)
+        nan_ayni = bool((a.isna() == b.isna())[a.index >= bas_].all())
         kayit("S1", f"hizali_getiri({s}) beklenenle en büyük fark: ilk gün / diğer günler / NaN deseni aynı", f"{ilk_fark:.4f} / {fark:.1e} / {nan_ayni}",
               "0 / 0 / True", "GECTI" if ilk_fark < 1e-9 and fark < 1e-9 and nan_ayni else "KALDI")
     # ---- S1b: kripto: ileri bakış ve bayatlık
@@ -427,6 +496,36 @@ def _sentetik(nyse, ek):
     kayit("S7", "öncüde HİÇ bilgi yokken (hedef artığı kendi kendine dönüyor) RSD: B2(LDA) | kıyas: kendi getirisi | B2 ∧ kıyas yok | B2(SPY artığı) | B2(ilgisiz öncü) | B1(LDA)",
           f"{kisa(sB2)} | {kisa(kiyas)} | {kisa(saf)} | {kisa(sSPY)} | {kisa(sRast)} | {b1['anormal_net_bps']};t={b1['t_anormal']}",
           "B2(LDA), kıyası geçer ve 'artı katkı' gösterir; oysa SPY artığı aynı ya da daha iyi, B1 sıfır -> öncüye özgü bilgi yok", "KALDI")
+
+    # ---- S8: gunluk_pnl zamanlaması ve toplamı islem_testi ile tutarlı mı?
+    r1 = o.islem_testi(sin, "TGT", 1, 5)
+    p1 = o.gunluk_pnl(sin, "TGT", 1, 5)
+    p3 = o.gunluk_pnl(sin, "TGT", 3, 5)
+    r3 = o.islem_testi(sin, "TGT", 3, 5)
+    kayit("S8", "gunluk_pnl toplamı / islem_testi (n x net ort.): h=1 | h=3 (1/3 ağırlık)", f"{p1.sum() / (r1['n'] * r1['net_bps'] / 1e4):.3f} | {p3.sum() / (r3['n'] * r3['net_bps'] / 1e4 / 3):.3f}",
+          "1,00 | ~1,00", "GECTI" if abs(p1.sum() / (r1["n"] * r1["net_bps"] / 1e4) - 1) < 0.01 and abs(p3.sum() / (r3["n"] * r3["net_bps"] / 1e4 / 3) - 1) < 0.05 else "KALDI")
+    # ---- S9: bh_fdr ve nw_t bağımsız uygulamalarla aynı mı?
+    from statsmodels.stats.multitest import multipletests
+    import statsmodels.api as sm
+    pp = np.concatenate([RNG.random(900), RNG.random(100) * 0.002])
+    ayni = bool((o.bh_fdr(pp, 0.10) == multipletests(pp, alpha=0.10, method="fdr_bh")[0]).all())
+    zz = np.convolve(RNG.standard_normal(3000), np.ones(3) / 3, mode="valid") + 0.02
+    t_sm = float(sm.OLS(zz, np.ones(len(zz))).fit(cov_type="HAC", cov_kwds={"maxlags": 2, "use_correction": False}).tvalues[0])
+    kayit("S9", "bh_fdr == statsmodels fdr_bh | nw_t(lag=2) - statsmodels HAC t", f"{ayni} | {o.nw_t(zz, 2) - t_sm:.1e}", "True | 0", "GECTI" if ayni and abs(o.nw_t(zz, 2) - t_sm) < 1e-6 else "KALDI")
+    # ---- S10: havuzlanmış (çok hedefli) testte gün kümelenmesi: aynı günlerde 50 bağlantılı hedef
+    Nh, Tg = 50, len(tk)
+    carp = []
+    for _ in range(300):
+        ortak_f = RNG.standard_normal(Tg)
+        Rh = 0.01 * (np.sqrt(0.5) * ortak_f[:, None] + np.sqrt(0.5) * RNG.standard_normal((Tg, Nh)))  # ikili korelasyon 0,5
+        gun = RNG.random(Tg) < 0.15
+        islemler = Rh[gun].ravel()
+        saf_t = islemler.mean() / islemler.std() * np.sqrt(len(islemler))
+        gunluk = np.where(gun, Rh.mean(1), 0.0)
+        carp.append((saf_t, o.nw_t(gunluk, 0)))
+    carp = np.array(carp)
+    kayit("S10", "50 hedef, korelasyon 0,5, aynı sinyal günleri: işlemleri havuzlayıp düz t | gün bazında portföy serisi + nw_t (sıfırda std)",
+          f"{carp[:, 0].std():.2f} | {carp[:, 1].std():.2f}", "1,00 | 1,00 (havuzlanmış düz t ~ sqrt(1+49*0,5) = 5 kat şişer)", "KALDI")
 
 
 if __name__ == "__main__":

@@ -1,17 +1,18 @@
-"""Öncü -> hedef çift testi motoru (F1, F2, F3 için ortak; YONTEM.md bölüm 4-7).
+"""Öncü -> hedef çift testi motoru, sürüm 2 (F1, F2a, F3 için ortak; YONTEM.md bölüm 4-7 ve 10).
 
-Girdi : ek/hipotez/birlesik.csv (önceden yazılı hipotez çiftleri) ya da programdan verilen çift listesi.
-Çıktı : ek/backtest/cift/sonuclar.csv (test başına satır) ve ek/backtest/cift/ayakta_kalanlar.csv
+Girdi : ek/hipotez/birlesik.csv (önceden yazılı hipotez çiftleri) ya da programdan verilen çift / özel öncü serisi.
+Çıktı : ek/backtest/cift/sonuclar.csv, ayakta_kalanlar.csv, kiyas_artik_donusu.csv, OZET.txt
 
-Biçimler:
-  B1  ham öncü          : z(x_t) >= +1 -> hipotez yönünde AL; <= -1 -> SAT
-  B2  yetişme artığı    : e = r - beta*x ; z(e) <= -1 -> AL ; >= +1 -> SAT
-  B2x B2, ama hedefin kendi getirisi sakin günlerde (|z(r)| < 1): kendi dönüşünden arındırılmış yetişme
-  B3  3 günlük öncü     : z(x_t + x_{t-1} + x_{t-2}) >= +1 -> hipotez yönünde AL; <= -1 -> SAT
-  KD  kıyas: hedefin kendi dönüşü (z(r) <= -1 -> AL; >= +1 -> SAT). Hedef başına bir kez; hipotez sayılmaz.
+Biçimler (x = öncünün t günü kapanışta bilinen log getirisi, r = hedefin t günü getirisi):
+  B1   ham öncü        : z(x) >= +1 -> hipotez yönünde AL; <= -1 -> SAT. Hedef: ham ileri getiri.
+  B1r  arındırılmış    : z(x - beta*SPY) aynı kural; hedef: ileri getiri - beta*SPY. "Öncüye özgü" etiketi buna bağlı.
+  B2   yetişme artığı  : e = r - beta*x ; z(e) <= -1 -> AL ; >= +1 -> SAT. Öncüye özgülük: kısmi regresyon (b2_kismi_t).
+  B3   3 günlük öncü   : z(x_t + x_{t-1} + x_{t-2}) >= +1 -> hipotez yönünde AL; <= -1 -> SAT.
+Kıyas (hedef başına bir kez, hipotez sayılmaz):
+  KDr  hedefin SPY artığının dönüşü: z(r - beta*SPY) <= -1 -> AL ; >= +1 -> SAT.
 
-Kullanım: python3 kod/cift_motoru.py            (birlesik.csv'deki bütün F1/F2/F3 çiftleri)
-          from cift_motoru import cift_testi     (başka betiklerden tek çift)
+Kullanım: python3 kod/cift_motoru.py
+          from cift_motoru import cift_testi, sinyaller   (özel öncü serisi: cift_testi(..., x=seri, etiket="crack"))
 """
 import os
 import sys
@@ -23,130 +24,89 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ortak as o  # noqa: E402
 
 CIKTI = os.path.join(o.KOK, "ek", "backtest", "cift")
-_ist = None
+OZET_SUTUN = ["aile", "oncu", "hedef", "bicim", "yon", "h", "tum_n", "tum_anormal_net_bps", "is_t_anormal", "oos_t_anormal",
+              "son_net_bps", "tum_net_bps_al", "tum_anormal_bps_al", "ozgu", "sinif", "son_sinyal"]
 
 
-def maliyet(hedef):
-    """Likidite sınıfına göre gidiş-dönüş maliyet (bps). YONTEM.md bölüm 5."""
-    global _ist
-    if _ist is None:
-        _ist = pd.read_csv(os.path.join(o.KOK, "ek", "ozet_istatistik.csv")).set_index("sembol")
-    try:
-        h = float(_ist.loc[hedef, "hacim20_mn_usd"])
-    except Exception:  # noqa: BLE001
-        return 20
-    return 5 if h >= 100 else (10 if h >= 20 else 20)
-
-
-def donem_sinirlari(seri):
-    """IS/OOS sınırı: araç 2015'ten sonra başladıysa örneklemin ilk %55'i IS."""
-    ilk = seri.first_valid_index()
-    if ilk is None:
-        return o.IS_BITIS, o.OOS_BAS
-    if ilk > pd.Timestamp("2015-01-01"):
-        idx = seri.dropna().index
-        kes = idx[int(len(idx) * 0.55)]
-        return str(kes.date()), str((kes + pd.Timedelta(days=1)).date())
-    return o.IS_BITIS, o.OOS_BAS
-
-
-def donemli(sinyal, hedef, h, mal, giris="kapanis"):
-    c = o.panel("adjclose", [hedef])[hedef]
-    is_bit, oos_bas = donem_sinirlari(c)
-    out = {}
-    for ad, b, e in (("tum", None, None), ("is", None, is_bit), ("oos", oos_bas, None), ("son", o.SON_BAS, None)):
-        r = o.islem_testi(sinyal, hedef, h, mal, giris, b, e)
-        for k, v in r.items():
-            out[f"{ad}_{k}"] = v
-    return out
-
-
-def sinyaller(x, r, yon):
-    """x: öncünün kapanışta bilinen log getirisi; r: hedefin günlük getirisi. Dönen: {biçim: sinyal serisi}."""
+def sinyaller(x, r, yon, spy=None):
+    """Dönen: {biçim: (sinyal serisi, hedge)}. spy: SPY günlük getirisi (B1r için)."""
     s = {}
     yz = 1.0 if yon != "-" else -1.0
     z = o.zskor(x, 60)
-    s["B1"] = yz * np.sign(z).where(z.abs() >= 1, 0.0)
-    beta = o.kayan_beta(r, x)
-    e = r - beta * x
+    s["B1"] = (yz * np.sign(z).where(z.abs() >= 1, 0.0), None)
+    if spy is not None:
+        xr = x - o.kayan_beta(x, spy) * spy
+        zr = o.zskor(xr, 60)
+        s["B1r"] = (yz * np.sign(zr).where(zr.abs() >= 1, 0.0), "SPY")
+    e = r - o.kayan_beta(r, x) * x
     ze = o.zskor(e, 60)
-    b2 = -np.sign(ze).where(ze.abs() >= 1, 0.0)
-    s["B2"] = b2
-    zr = o.zskor(r, 60)
-    s["B2x"] = b2.where(zr.abs() < 1, 0.0)
+    s["B2"] = (-np.sign(ze).where(ze.abs() >= 1, 0.0), None)
     sd = x.rolling(60, min_periods=40).std().shift(1)
     z3 = x.rolling(3).sum() / (sd * np.sqrt(3))
-    s["B3"] = yz * np.sign(z3).where(z3.abs() >= 1, 0.0)
-    return {k: v.fillna(0.0) for k, v in s.items()}
+    s["B3"] = (yz * np.sign(z3).where(z3.abs() >= 1, 0.0), None)
+    return {k: (v.fillna(0.0), hd) for k, (v, hd) in s.items()}
 
 
-def kendi_donusu(r):
+def kismi_t(x, r, hedef, h, spy):
+    """B2'nin öncüye özgülüğü: hedge'li ileri getiri ~ z(e_oncu) + z(e_spy) + z(r). Dönen: -t(z(e_oncu)) (pozitif = yetişme)."""
+    import statsmodels.api as sm
+
+    f = o._ileri(hedef, h, "kapanis", "SPY")
+    ze = o.zskor(r - o.kayan_beta(r, x) * x, 60)
+    zs = o.zskor(r - o.kayan_beta(r, spy) * spy, 60)
     zr = o.zskor(r, 60)
-    return (-np.sign(zr).where(zr.abs() >= 1, 0.0)).fillna(0.0)
+    d = pd.DataFrame({"f": f, "ze": ze, "zs": zs, "zr": zr}).dropna()
+    if len(d) < 500:
+        return np.nan
+    X = sm.add_constant(d[["ze", "zs", "zr"]].clip(-5, 5))
+    m = sm.OLS(d["f"], X).fit(cov_type="HAC", cov_kwds={"maxlags": max(h - 1, 0), "kernel": "uniform" if h > 1 else "bartlett"})
+    return round(float(-m.tvalues["ze"]), 2)
 
 
-def ek_olcutler(sinyal, hedef, h, mal):
-    """Pahalı sağlamlık ölçütleri (yalnız ön elemeyi geçenler için)."""
-    yt = o.yillik_tablo(sinyal, hedef, h, mal)
-    yt = yt[yt["n"] >= 3]
-    pl = o.plasebo(sinyal, hedef, h)
-    ac = o.islem_testi(sinyal, hedef, h, mal, "acilis")
-    er = o.islem_testi(sinyal, hedef, h, mal, "ertesi")
-    return {
-        "yil_pozitif_oran": round(float((yt["net_bps"] > 0).mean()), 2) if len(yt) else np.nan,
-        "yil_sayisi": int(len(yt)),
-        "plasebo_max_abs_t": round(float(np.nanmax(np.abs([v for v in pl.values() if v is not None and v == v] or [np.nan]))), 2),
-        "acilis_anormal_bps": ac.get("anormal_net_bps"),
-        "acilis_t_anormal": ac.get("t_anormal"),
-        "ertesi_anormal_bps": er.get("anormal_net_bps"),
-        "ertesi_t_anormal": er.get("t_anormal"),
-    }
+def _on_eleme(d):
+    return (d.get("is_t_anormal") or 0) >= 2.0 and (d.get("oos_t_anormal") or 0) >= 1.5 and (d.get("is_anormal_net_bps") or 0) > 0
 
 
-def cift_testi(oncu, hedef, yon="+", x=None, etiket=None, ufuklar=(1, 2, 3), bicimler=("B1", "B2", "B2x", "B3")):
-    """Tek çift için bütün biçim ve ufuklar. x verilirse (özel öncü serisi) o kullanılır."""
+def cift_testi(oncu, hedef, yon="+", x=None, etiket=None, ufuklar=(1, 2, 3), bicimler=("B1", "B1r", "B2", "B3")):
+    """Tek çift için bütün biçim ve ufuklar. x verilirse (özel öncü serisi, kapanışta bilinen) o kullanılır."""
     if x is None:
         x = o.hizali_getiri(oncu)
-    r = o.basit_getiri([hedef])[hedef]
+    rr = o.basit_getiri([hedef, "SPY"])
+    r, spy = rr[hedef], rr["SPY"]
     x = x.reindex(r.index)
-    mal = maliyet(hedef)
+    ikiz = abs(x.corr(r)) > 0.95
     sat = []
-    for b, sig in sinyaller(x, r, yon).items():
-        if b not in bicimler:
+    for b, (sig, hd) in sinyaller(x, r, yon, spy if (oncu != "SPY" and hedef != "SPY") else None).items():
+        if b not in bicimler or (b == "B2" and ikiz):
             continue
         for h in ufuklar:
-            d = donemli(sig, hedef, h, mal)
+            d = o.donemli_test(sig, hedef, h, hedge=hd)
             if d.get("tum_n", 0) < 30:
                 continue
-            row = {"oncu": etiket or oncu, "hedef": hedef, "bicim": b, "yon": yon, "h": h, "maliyet_bps": mal}
+            row = {"oncu": etiket or oncu, "hedef": hedef, "bicim": b, "yon": yon, "h": h, "havuz": "tek hedef",
+                   "bayat_isaret": hedef in o.bayat_hedefler()}
             row.update(d)
-            if abs(d.get("tum_t_anormal") or 0) >= 2.5 and (d.get("tum_anormal_net_bps") or 0) > 0:
-                row.update(ek_olcutler(sig, hedef, h, mal))
+            if _on_eleme(d):
+                row.update(o.ek_olcutler(sig, hedef, h, hedge=hd))
+                row.update(o.son_sinyal(sig))
+                if b == "B2":
+                    row["b2_kismi_t"] = kismi_t(x, r, hedef, h, spy)
             sat.append(row)
     return sat
 
 
-def siniflandir(df):
-    """YONTEM.md bölüm 6 koşulları. Sütunlar eklenir: k_A..k_I, sinif."""
-    g = lambda c: pd.to_numeric(df.get(c), errors="coerce")  # noqa: E731
-    df["k_A"] = g("tum_t_anormal") >= 3.0
-    df["k_A_zayif"] = g("tum_t_anormal") >= 2.5
-    ayni = (np.sign(g("is_anormal_net_bps")) == np.sign(g("oos_anormal_net_bps"))) & (g("oos_anormal_net_bps") > 0)
-    df["k_B"] = ayni & (g("oos_t_anormal") >= 2.0)
-    df["k_B_zayif"] = ayni & (g("oos_t_anormal") >= 1.5)
-    df["k_C"] = g("son_net_bps") > 0
-    df["k_D"] = g("tum_anormal_net_bps") >= 10
-    df["k_E"] = (g("tum_net_bps_ust10_haric") > 0) & (g("tum_t_ust10_haric") >= 1.5)
-    df["k_F"] = g("yil_pozitif_oran") >= 0.6
-    df["k_G"] = (g("tum_n") >= 100) & (g("oos_n") >= 40)
-    df["k_H"] = g("plasebo_max_abs_t") < 2
-    df["k_I"] = g("acilis_anormal_bps") > 0
-    tam = df[["k_A", "k_B", "k_C", "k_D", "k_E", "k_F", "k_G", "k_H", "k_I"]].all(axis=1)
-    digerleri = df[["k_C", "k_D", "k_E", "k_F", "k_G", "k_H", "k_I"]].sum(axis=1)
-    kosullu = df["k_A_zayif"] & df["k_B_zayif"] & (digerleri >= 6) & ~tam
-    izle = df["k_A_zayif"] & (g("oos_anormal_net_bps") > 0) & ~tam & ~kosullu
-    df["sinif"] = np.where(tam, "SAGLAM", np.where(kosullu, "KOSULLU", np.where(izle, "IZLE", "ELENDI")))
-    return df
+def etiketle(df):
+    """Öncüye özgülük etiketi ve sınıf. B1/B3: aynı çift ve ufukta B1r IS ve OOS t >= 2,0. B2: kısmi t >= 2,5."""
+    anahtar = ["oncu", "hedef", "yon", "h"]
+    b1r = df[df.bicim == "B1r"].set_index(anahtar)
+    ok = ((pd.to_numeric(b1r["is_t_anormal"], errors="coerce") >= 2.0) & (pd.to_numeric(b1r["oos_t_anormal"], errors="coerce") >= 2.0))
+    ozgu_b1 = set(ok[ok].index)
+    df["ozgu"] = [((tuple(v) in ozgu_b1) if b in ("B1", "B3", "B1r") else (float(k) >= 2.5 if k == k else False))
+                  for b, k, v in zip(df.bicim, df.get("b2_kismi_t", pd.Series(np.nan, index=df.index)), df[anahtar].values)]
+    m = o.meta()
+    hisse = df.hedef.map(lambda s: m.loc[s, "tur"] == "EQUITY" if s in m.index else False)
+    tavan = (df.bicim == "B2") & hisse  # hisse düzeyi AL-dönüş: en çok KOŞULLU
+    return o.siniflandir(df, tavan_kosullu=tavan)
 
 
 def main():
@@ -156,7 +116,8 @@ def main():
     abd = set(m[(m["saat_dilimi"] == "America/New_York") & (m["tur"].isin(["EQUITY", "ETF"]))].index)
     hip = hip[(hip.oncu_evrende == 1) & (hip.hedef_evrende == 1) & hip.aile.isin(["F1", "F2", "F3"])]
     hip = hip[hip.hedef.isin(abd) & (hip.oncu != hip.hedef) & hip.oncu.isin(m.index)]
-    hip = hip[~hip.oncu.str.endswith("=X")]  # kur çubukları bayat (YONTEM.md bölüm 3)
+    hip = hip[~hip.oncu.str.endswith("=X")]                      # kur çubukları bayat (YONTEM.md bölüm 3)
+    hip = hip[~hip.hedef.map(o.kaldiracli)]                      # kaldıraçlı ETF keşif hedefi değil
     hip["yon"] = hip.yon.where(hip.yon.isin(["+", "-"]), "+")
     cift = hip.sort_values("oncelik").drop_duplicates(["oncu", "hedef", "yon"])
     print(len(cift), "tekil çift (yön dahil);", cift.aile.value_counts().to_dict(), flush=True)
@@ -167,36 +128,51 @@ def main():
                 row.update({"aile": c.aile, "ajan": c.ajan, "oncelik": c.oncelik})
                 sat.append(row)
         except Exception as e:  # noqa: BLE001
-            print("HATA", c.oncu, c.hedef, str(e)[:100], flush=True)
+            print("HATA", c.oncu, c.hedef, type(e).__name__, str(e)[:100], flush=True)
         if k % 100 == 0:
             print(f"{k}/{len(cift)} çift, {len(sat)} test", flush=True)
-    # kıyas: hedefin kendi dönüşü
+    df = etiketle(pd.DataFrame(sat))
+    # kıyas: hedefin SPY artığının dönüşü
     kd = []
-    for hedef in sorted(set(cift.hedef)):
+    spy = o.basit_getiri(["SPY"])["SPY"]
+    for hedef in sorted(set(cift.hedef) - {"SPY"}):
         r = o.basit_getiri([hedef])[hedef]
-        sig = kendi_donusu(r)
-        mal = maliyet(hedef)
+        ze = o.zskor(r - o.kayan_beta(r, spy) * spy, 60)
+        sig = (-np.sign(ze).where(ze.abs() >= 1, 0.0)).fillna(0.0)
         for h in (1, 2, 3):
-            d = donemli(sig, hedef, h, mal)
-            if d.get("tum_n", 0) >= 30:
-                kd.append({"oncu": "KENDI", "hedef": hedef, "bicim": "KD", "yon": "-", "h": h, "maliyet_bps": mal, "aile": "KIYAS", **d})
-    df = pd.DataFrame(sat)
-    df["p_tum"] = o.t_to_p(pd.to_numeric(df["tum_t_anormal"], errors="coerce")) / 2  # tek yönlü
-    df.loc[pd.to_numeric(df["tum_t_anormal"], errors="coerce") < 0, "p_tum"] = 1.0
-    df["bh_q10"] = o.bh_fdr(df["p_tum"].values, 0.10)
-    df = siniflandir(df)
+            d = o.donemli_test(sig, hedef, h)
+            if d.get("tum_n", 0) < 30:
+                continue
+            row = {"aile": "KIYAS", "oncu": "SPY-artik", "hedef": hedef, "bicim": "KDr", "yon": "-", "h": h, **d}
+            if _on_eleme(d):
+                row.update(o.ek_olcutler(sig, hedef, h))
+                row.update(o.son_sinyal(sig))
+            kd.append(row)
     kdf = pd.DataFrame(kd)
-    # B2'nin kıyasa göre artı katkısı
+    tur = kdf.hedef.map(lambda s: m.loc[s, "tur"] == "EQUITY")
+    kdf = o.siniflandir(kdf, tavan_kosullu=tur)
     kk = kdf.set_index(["hedef", "h"])["tum_anormal_net_bps"]
-    df["kiyas_kd_bps"] = [kk.get((a, b), np.nan) for a, b in zip(df.hedef, df.h)]
+    df["kiyas_kdr_bps"] = [kk.get((a, b), np.nan) for a, b in zip(df.hedef, df.h)]
     df.to_csv(os.path.join(CIKTI, "sonuclar.csv"), index=False)
-    kdf.to_csv(os.path.join(CIKTI, "kiyas_kendi_donusu.csv"), index=False)
-    ak = df[df.sinif.isin(["SAGLAM", "KOSULLU", "IZLE"])].sort_values(["sinif", "tum_t_anormal"], ascending=[True, False])
+    kdf.to_csv(os.path.join(CIKTI, "kiyas_artik_donusu.csv"), index=False)
+    ak = df[df.sinif != "ELENDI"].sort_values(["sinif", "oos_t_anormal"], ascending=[True, False])
     ak.to_csv(os.path.join(CIKTI, "ayakta_kalanlar.csv"), index=False)
-    print("TOPLAM TEST:", len(df), "| sınıflar:", df.sinif.value_counts().to_dict(), "| BH q10 geçen:", int(df.bh_q10.sum()))
-    print("biçime göre:", df.groupby("bicim").sinif.value_counts().unstack(fill_value=0).to_string())
-    print("t dağılımı (tüm, anormal): ortalama %.2f, >=2: %d, >=3: %d, <=-3: %d" % (
-        df.tum_t_anormal.mean(), (df.tum_t_anormal >= 2).sum(), (df.tum_t_anormal >= 3).sum(), (df.tum_t_anormal <= -3).sum()))
+    satirlar = []
+    hip_test = df[df.bicim != "B1r"]
+    satirlar.append(f"TOPLAM TEST: {len(df)} (hipotez testi: {len(hip_test)}; B1r arındırma testi: {(df.bicim == 'B1r').sum()})")
+    satirlar.append(f"Beklenen yanlış pozitif (sıfır hipotezi): SAĞLAM {len(hip_test) * o.P_SIFIR_SAGLAM:.2f}, KOŞULLU {len(hip_test) * o.P_SIFIR_KOSULLU:.2f}")
+    satirlar.append("Sınıflar (aile x biçim):\n" + df.groupby(["aile", "bicim"]).sinif.value_counts().unstack(fill_value=0).to_string())
+    satirlar.append("IS t >= 2,5 olan: %d; bunlardan OOS t >= 2,0: %d; OOS t >= 2,5: %d; BH geçen: %d" % (
+        df.k_A.sum(), (df.k_A & df.k_B_zayif).sum(), (df.k_A & df.k_B).sum(), (df.k_A & df.bh_oos).sum()))
+    for b in ("B1", "B1r", "B2", "B3"):
+        x = df[df.bicim == b]
+        satirlar.append(f"{b}: n={len(x)} | tüm-örneklem t ort {x.tum_t_anormal.mean():+.2f}, >=2: {(x.tum_t_anormal >= 2).mean():.1%}, <=-2: {(x.tum_t_anormal <= -2).mean():.1%} | OOS t ort {x.oos_t_anormal.mean():+.2f}")
+    satirlar.append("Kıyas KDr (hedefin SPY artığı dönüşü) sınıflar: " + str(kdf.sinif.value_counts().to_dict()))
+    satirlar.append("\nAYAKTA KALANLAR (ELENDİ dışı):\n" + ak[[c for c in OZET_SUTUN if c in ak.columns]].to_string(index=False))
+    kak = kdf[kdf.sinif != "ELENDI"].sort_values("oos_t_anormal", ascending=False)
+    satirlar.append("\nKIYAS AYAKTA KALANLAR:\n" + kak[[c for c in OZET_SUTUN if c in kak.columns]].head(60).to_string(index=False))
+    open(os.path.join(CIKTI, "OZET.txt"), "w").write("\n".join(satirlar))
+    print("\n".join(satirlar[:8]))
 
 
 if __name__ == "__main__":

@@ -1,37 +1,43 @@
 kod,aciklama,deger,beklenen,durum
-G1,hizali_getiri ilk takvim günü (2005-01-03) değeri,"[('^N225', -0.503), ('CL=F', 0.273), ('XLE', 0.363), ('^GDAXI', -0.453), ('EWZ', 0.262)]","|deger| < 0,1",KALDI
-G1b,"^N225 |z|>=1 sıklığı, 2005'in ilk 60 günü",0.0,"~0,3 (0 ise ilk gün aykırı değeri std'yi şişiriyor)",KALDI
+G1,hizali_getiri ilk takvim günü (2005-01-03) değeri,"[('^N225', 0.0), ('CL=F', -0.031), ('XLE', -0.038), ('^GDAXI', 0.008), ('EWZ', -0.026)]","|deger| < 0,1",GECTI
+G1b,"^N225 |z|>=1 sıklığı, takvimin 41.-100. günleri",0.367,"~0,3 (0 ise ilk gün aykırı değeri std'yi şişiriyor)",GECTI
 G2,geç başlayan araçta donemli_test is_n / oos_n,"[('IBIT', 0, 718), ('BITO', 0, 1277), ('XLC', 135, 1983)]",is_n > 0 (YONTEM %55/%45 diyor),KALDI
-G3,"tarama() t şişmesi = sqrt(kappa), 20 ETF çifti, ham getiri (medyan; %10-%90)",1.82 (1.44-2.18),"1,0 olmalı",KALDI
+G3,"tarama() t şişmesi = sqrt(kappa), 20 ETF çifti, ham getiri (medyan; %10-%90)",1.87 (1.47-2.22),"1,0 olmalı",KALDI
 G3b,"aynı ölçü, z-skorlu öncü ve oynaklığa bölünmüş ileri getiri",1.23,"~1,0",BILGI
-G4,"20 ETF x 19 çift, IS, ham tarama: t<=-2 oranı / t>=+2 oranı / medyan t",49% / 7% / -1.89,"bağımsız sıfırda %2,3 / %2,3 / 0",BILGI
-G4b,SPY'ın kendi 1 gün gecikmeli korelasyonu IS / OOS (tarama t'si),-0.075 (t=-4.5) / -0.142 (t=-6.4),bilgi,BILGI
-G4c,"aynı tarama, SPY'dan arındırılmış + oynaklığa ölçekli + White t: t<=-2 / t>=+2 / medyan",7% / 4% / -0.23,bilgi,BILGI
-G5,"corr(beta*öncü - hedef, hedefin ertesi gecesi)","[('HG=F', 'CPER', 0.311), ('HG=F', 'FCX', -0.041), ('HG=F', 'COPX', -0.002), ('CL=F', 'XLE', 0.008), ('GC=F', 'GDX', -0.019), ('^VIX', 'SPY', 0.142), ('ES=F', 'SPY', -0.002)]",likit hedefte ~0 ise vadelide ileri bakış yok,BILGI
+G4,"20 ETF x 19 çift, IS, ham tarama: t<=-2 oranı / t>=+2 oranı / medyan t",52% / 8% / -2.07,"bağımsız sıfırda %2,3 / %2,3 / 0",BILGI
+G4b,SPY'ın kendi 1 gün gecikmeli korelasyonu IS / OOS (tarama t'si),-0.079 (t=-4.7) / -0.142 (t=-6.4),bilgi,BILGI
+G4c,"aynı tarama, SPY'dan arındırılmış + oynaklığa ölçekli + White t: t<=-2 / t>=+2 / medyan",7% / 4% / -0.27,bilgi,BILGI
+G5,"corr(beta*öncü - hedef, hedefin ertesi gecesi)","[('HG=F', 'CPER', 0.311), ('HG=F', 'FCX', -0.041), ('HG=F', 'COPX', -0.002), ('CL=F', 'XLE', 0.008), ('GC=F', 'GDX', -0.019), ('^VIX', 'SPY', 0.142), ('^VIX3M', 'SPY', 0.158), ('^VVIX', 'SPY', 0.163), ('VIXY', 'SPY', 0.15), ('ES=F', 'SPY', -0.002), ('^TNX', 'TLT', 0.039), ('DX-Y.NYB', 'UUP', 0.107)]",likit hedefte ~0 ise vadelide ileri bakış yok,BILGI
 G6,plasebo kaydırması sonrası aynı takvim gününe düşme oranı (5/10/20/40): pazartesi | ayın ilk 3 günü,"[0.81, 0.64, 0.36, 0.08] | [0.0, 0.0, 0.6, 0.35]","~0,2 ve ~0,14 olmalı (bağımsız plasebo)",KALDI
 G7,açılış == önceki kapanış günlerinin payı > %5 olan ABD sembolü sayısı / toplam (2015+); en kötü 5,"132/917; {'QUBT': 0.4, 'DNN': 0.31, 'SGML': 0.26, 'PLG': 0.24, 'TAGS': 0.24}",0,BILGI
 G8,2012-06-29 tarihinde bugünkünden pahalı maliyet sınıfında olan sembol payı (n=655),44%,0% (aksi halde geçmiş maliyet düşük sayılır),BILGI
 G8,2019-06-28 tarihinde bugünkünden pahalı maliyet sınıfında olan sembol payı (n=795),34%,0% (aksi halde geçmiş maliyet düşük sayılır),BILGI
+G5b,"SPY ertesi gece ~ SPY_t [+ VIXY_t + ^VIX_t]: White t (yalnız SPY | SPY, VIXY, ^VIX)","-2.0 | -2.6, -1.4, -0.8","^VIX, VIXY'ye ek olarak anlamlıysa 16:15 ileri bakışı var",BILGI
+G10,"bayat kapanış şüphesi (t>=4 ve standart etki>=0,1) olan ETF sayısı / taranan; ilk 15 (etf, karşılık, t, etki, hacim mn$)","4/246; [('CANE', 'SB=F', 7.8, 0.32, 4.2), ('SGOL', 'GLD', 4.5, 0.68, 112.8), ('CRAK', 'XLE', 4.1, 0.21, 40.6), ('WEAT', 'ZW=F', 4.0, 0.32, 9.5)]","YONTEM yalnız CPER, CANE, WEAT diyor",BILGI
+G10b,karşılaştırma: en likit 8 ETF'te aynı ölçü (t_x),"[['TLT', 'IEF', 0.5, 0.04], ['XLE', 'XOP', 0.3, 0.04], ['QQQ', 'NQ=F', -0.1, -0.02], ['SPY', 'ES=F', -0.8, -0.19], ['GLD', 'GC=F', -0.9, -0.06], ['IWM', 'RTY=F', -1.1, -0.29], ['XLF', 'DIA', -1.2, -0.09], ['SMH', 'XLK', -2.3, -0.17]]",|t| < 3,BILGI
+G12,"ileri bakış izi (t>=4) olup gecikme()=0 olan öncü sayısı / taranan 52; liste (öncü, karşılık, t)",0; [],0,GECTI
+G12b,gecikme()=1 olan öncülerde aynı ölçü (gecikmesiz kullanılsaydı),"[['BTC-USD', 'IBIT', 5.1], ['ETH-USD', 'BITO', 4.7], ['SOL-USD', 'IBIT', 3.2], ['DX-Y.NYB', 'UUP', 2.8]]",t >> 4 (gecikme gerekli),BILGI
+G11,aşırı getiri günleri: ETF |r|>%40 (gün; sembol) | hisse |r|>%80 (gün; sembol),"98; {'UVXY': 7, 'JNUG': 6, 'FAZ': 6, 'UVIX': 6, 'DUST': 4, 'ETHE': 4, 'FAS': 4, 'JDST': 4} | 83; {'QUBT': 47, 'MARA': 7, 'VKTX': 4, 'PARR': 3, 'LEU': 3, 'CLSK': 2, 'PPC': 2, 'INSM': 2}",bilgi,BILGI
 G9,sıfırda A∧B geçme olasılığı (düzgün t): SAĞLAM / KOŞULLU -> 100 bin testte beklenen yanlış pozitif,6.57e-04 / 3.71e-03 -> 66 / 371,aile test sayısına göre << 1 olmalı,BILGI
 G9,"sıfırda A∧B geçme olasılığı (t %17 şişik (h=3, kalıcı sinyal)): SAĞLAM / KOŞULLU -> 100 bin testte beklenen yanlış pozitif",2.64e-03 / 9.84e-03 -> 264 / 984,aile test sayısına göre << 1 olmalı,BILGI
 G9b,"öneri: IS t>=2,5 ile seç, OOS t>=2,5 ile doğrula -> 100 bin testte beklenen yanlış pozitif",3.9,bilgi,BILGI
-S1,hizali_getiri(ASYA) beklenenle en büyük fark: ilk gün / diğer günler / NaN deseni aynı,0.1409 / 0.0e+00 / True,0 / 0 / True,KALDI
-S1,hizali_getiri(KRP) beklenenle en büyük fark: ilk gün / diğer günler / NaN deseni aynı,0.0000 / 1.4e-17 / False,0 / 0 / True,KALDI
-S1,hizali_getiri(LEAD) beklenenle en büyük fark: ilk gün / diğer günler / NaN deseni aynı,0.2151 / 0.0e+00 / True,0 / 0 / True,KALDI
+S1,hizali_getiri(ASYA) beklenenle en büyük fark: ilk gün / diğer günler / NaN deseni aynı,0.0000 / 0.0e+00 / True,0 / 0 / True,GECTI
+S1,hizali_getiri(KRP) beklenenle en büyük fark: ilk gün / diğer günler / NaN deseni aynı,0.0000 / 1.4e-17 / True,0 / 0 / True,GECTI
+S1,hizali_getiri(LEAD) beklenenle en büyük fark: ilk gün / diğer günler / NaN deseni aynı,0.0000 / 0.0e+00 / True,0 / 0 / True,GECTI
 S1b,kripto sinyali ile kapanış sonrası 3 saatin korelasyonu: gecikmesiz / kütüphane (gecikme=1) / öneri (sağdan eşleme),0.284 / -0.013 / -0.009,">0,2 (ileri bakış) / ~0 / ~0",GECTI
 S1c,hafta sonu kripto hareketi hangi günün sinyalinde? corr: kütüphane pazartesi / kütüphane salı / öneri pazartesi,0.02 / 0.82 / 0.81,pazartesi yüksek olmalı (bilgi pazartesi 16:00'da biliniyor),KALDI
 S1d,kripto sinyalinin son 24 saatle korelasyonu: kütüphane / öneri,0.06 / 0.10,bilgi (ikisi de bayat; birincil öncü IBIT/BITO),BILGI
 S2,gelecek bozulunca zskor(<=T) / kayan_beta(<=T) değişimi,0.0e+00 / 0.0e+00,0 / 0,GECTI
 S3,"ileri_getiri dört giriş türü x h=1,2,3: elle hesapla en büyük fark",4.4e-16,0,GECTI
-S4,LEAD->TGT B1 (bps; t): doğru gecikme | ters yön | 1 gün geç | ertesi kapanış girişi | ertesi açılış girişi | KASITLI sızıntı (sinyal 1 gün erken),23.7;8.43 | -2.6;-0.9 | -1.4;-0.52 | -1.4;-0.52 | 14.2;8.43 | 90.6;29.84,~27 bps; t>>3 | ~0 | ~0 | ~0 | ~%60'ı | çok büyük,GECTI
-S4b,tarama: LEAD->TGT t / TGT->LEAD t,9.8 / -1.2,>>3 / ~0,GECTI
-S4c,plasebo (5/10/20/40) LEAD->TGT,"{5: 1.09, 10: 0.19, 20: 0.8, 40: -0.78}",|t| < 2,BILGI
+S4,LEAD->TGT B1 (bps; t): doğru gecikme | ters yön | 1 gün geç | ertesi kapanış girişi | ertesi açılış girişi | KASITLI sızıntı (sinyal 1 gün erken),23.9;8.53 | -2.7;-0.94 | -1.4;-0.52 | -1.4;-0.52 | 14.4;8.52 | 90.9;29.94,~27 bps; t>>3 | ~0 | ~0 | ~0 | ~%60'ı | çok büyük,GECTI
+S4b,tarama: LEAD->TGT t / TGT->LEAD t,10.3 / -1.4,>>3 / ~0,GECTI
+S4c,plasebo (5/10/20/40) LEAD->TGT,"{5: 1.2, 10: 0.2, 20: 0.8, 40: -0.76}",|t| < 2,BILGI
 S5,"sıfırda t dağılımı, h=1, dip z<=-1",kütüphane NW(h-1): std=0.90 |t|>=2:2.5% t>=3:0.17%,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",GECTI
 S5,"sıfırda t dağılımı, h=1, ay dönümü bloğu",kütüphane NW(h-1): std=0.92 |t|>=2:2.7% t>=3:0.00%,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",GECTI
-S5,"sıfırda t dağılımı, h=1, B3 3 günlük",kütüphane NW(h-1): std=1.01 |t|>=2:5.0% t>=3:0.33%,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",GECTI
+S5,"sıfırda t dağılımı, h=1, B3 3 günlük",kütüphane NW(h-1): std=1.01 |t|>=2:5.3% t>=3:0.17%,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",GECTI
 S5,"sıfırda t dağılımı, h=2, dip z<=-1",kütüphane NW(h-1): std=0.88 |t|>=2:2.2% t>=3:0.00% || Bartlett 2(h-1): std=0.87 || düz ağırlık (Hansen-Hodrick): std=0.85 || günlük PnL t: std=0.85,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",GECTI
 S5,"sıfırda t dağılımı, h=2, ay dönümü bloğu",kütüphane NW(h-1): std=1.03 |t|>=2:4.7% t>=3:0.00% || Bartlett 2(h-1): std=0.99 || düz ağırlık (Hansen-Hodrick): std=0.91 || günlük PnL t: std=0.92,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",GECTI
-S5,"sıfırda t dağılımı, h=2, B3 3 günlük",kütüphane NW(h-1): std=1.13 |t|>=2:8.2% t>=3:0.50% || Bartlett 2(h-1): std=1.10 || düz ağırlık (Hansen-Hodrick): std=1.03 || günlük PnL t: std=1.03,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",KALDI
+S5,"sıfırda t dağılımı, h=2, B3 3 günlük",kütüphane NW(h-1): std=1.13 |t|>=2:8.3% t>=3:0.50% || Bartlett 2(h-1): std=1.09 || düz ağırlık (Hansen-Hodrick): std=1.03 || günlük PnL t: std=1.03,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",KALDI
 S5a,vektörel HAC ile islem_testi t_anormal farkı (40 hedef),0.005,"<0,01 (yuvarlama)",GECTI
 S5,"sıfırda t dağılımı, h=3, dip z<=-1",kütüphane NW(h-1): std=0.86 |t|>=2:2.3% t>=3:0.00% || Bartlett 2(h-1): std=0.84 || düz ağırlık (Hansen-Hodrick): std=0.81 || günlük PnL t: std=0.80,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",GECTI
 S5,"sıfırda t dağılımı, h=3, ay dönümü bloğu",kütüphane NW(h-1): std=1.00 |t|>=2:3.8% t>=3:0.00% || Bartlett 2(h-1): std=0.95 || düz ağırlık (Hansen-Hodrick): std=0.88 || günlük PnL t: std=0.88,"std=1,00; |t|>=2: %4,6; t>=3: %0,13",GECTI
@@ -43,4 +49,7 @@ S6,"tarama t, ortak oynaklık rejimi, bağımsız seriler, h=3",std=0.79 |t|>=2:
 S6b,"tarama t, iid öncü x GARCH hedef (oynaklık ortak değil), h=1",std=1.01 |t|>=2:4.6% t>=3:0.06%,"std=1,00 (h>1'de n/h düzeltmesi fazla tutucu: ~1/sqrt(h))",GECTI
 S6b,"tarama t, iid öncü x GARCH hedef (oynaklık ortak değil), h=3",std=0.57 |t|>=2:0.1% t>=3:0.00%,"std=1,00 (h>1'de n/h düzeltmesi fazla tutucu: ~1/sqrt(h))",KALDI
 S6c,"öneri: z-skorlu öncü, oynaklığa bölünmüş ileri getiri, White t (h=1)",std=1.03 |t|>=2:5.5% t>=3:0.17%,"std=1,00",GECTI
-S7,öncüde HİÇ bilgi yokken (hedef artığı kendi kendine dönüyor) RSD: B2(LDA) | kıyas: kendi getirisi | B2 ∧ kıyas yok | B2(SPY artığı) | B2(ilgisiz öncü) | B1(LDA),33.3;t=8.77 | 29.9;t=7.82 | 26.2;t=4.19 | 37.4;t=9.82 | 28.7;t=7.5 | -2.3;t=-0.61,"B2(LDA), kıyası geçer ve 'artı katkı' gösterir; oysa SPY artığı aynı ya da daha iyi, B1 sıfır -> öncüye özgü bilgi yok",KALDI
+S7,öncüde HİÇ bilgi yokken (hedef artığı kendi kendine dönüyor) RSD: B2(LDA) | kıyas: kendi getirisi | B2 ∧ kıyas yok | B2(SPY artığı) | B2(ilgisiz öncü) | B1(LDA),33.1;t=8.72 | 30.0;t=7.87 | 25.9;t=4.17 | 37.1;t=9.76 | 29.5;t=7.7 | -2.8;t=-0.75,"B2(LDA), kıyası geçer ve 'artı katkı' gösterir; oysa SPY artığı aynı ya da daha iyi, B1 sıfır -> öncüye özgü bilgi yok",KALDI
+S8,gunluk_pnl toplamı / islem_testi (n x net ort.): h=1 | h=3 (1/3 ağırlık),0.998 | 0.996,"1,00 | ~1,00",GECTI
+S9,bh_fdr == statsmodels fdr_bh | nw_t(lag=2) - statsmodels HAC t,True | -4.4e-15,True | 0,GECTI
+S10,"50 hedef, korelasyon 0,5, aynı sinyal günleri: işlemleri havuzlayıp düz t | gün bazında portföy serisi + nw_t (sıfırda std)",4.97 | 0.98,"1,00 | 1,00 (havuzlanmış düz t ~ sqrt(1+49*0,5) = 5 kat şişer)",KALDI
