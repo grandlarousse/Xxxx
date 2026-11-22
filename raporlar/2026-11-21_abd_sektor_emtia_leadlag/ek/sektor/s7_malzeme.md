@@ -33,18 +33,18 @@ Hacim (20 günlük ortalama, mn $), σ (günlük oynaklık, %) ve beta değerler
 ## 2026 durumu ve takvim
 - **Madenciler:** Altın Ocak sonunda ~5.590 $ ile zirve yaptı, 20 Kasım'da 3.558 $'a indi. Fed'in Aralık'ta faiz artıracağı beklentisi var (e2). GDX'in getirileri: 5 gün −%16, 3 ay −%34, yıl başından beri −%20. GDXJ −%29, SILJ −%33, CDE −%40, HL −%45. 3 yıllık getiriler hâlâ +%150 ile +%375. Bu, uzun bir yükselişin düzeltmesi. NUGT ve JNUG'un NAV'ı 19 Kasım'da tek günde %7,6 ve %9,4 düştü.
 - **Bakır:** COMEX'te Eylül'de rekor kırıldı. Kasım'da yapay zekâ satışı ve zayıf Çin verisi etkili oldu. FCX 1 ayda −%29, COPX −%23. Rafine bakır tarifesi kararı belirsiz (e3).
-- **Çelik ve alüminyum:** HRC yıl başından beri +%45, NUE +%48, STLD +%23. AA −%37, CENX −%28. Yüksek Midwest primine rağmen LME zayıf (e3).
+- **Çelik ve alüminyum:** HRC yıl başından beri +%45, NUE +%48, STLD +%23. NUE'nin sürücüsü %50'lik Section 232 çelik tarifesi: ithalat payı 1Ç26'da ~%15'e indi, sevkiyat rekor (7 mn ton). Ana risk tarife gevşemesi (Ağustos'ta ABD-Kanada anlaşması haberiyle sert düşüş). AA −%37, CENX −%28. Yüksek Midwest primine rağmen LME zayıf (e3).
 - **Lityum ve nadir toprak:** ALB −%43, MP −%33, REMX −%43 (yıl başından beri). 26 Kasım'da GFEX'te lityum hidroksit vadelisi açılıyor. Çin'in nadir toprak askısı 10 Ocak 2027'de bitiyor (e3).
-- **Kimya ve gübre:** CF +%52, LYB +%33, DOW +%28, APD +%24, LIN +%19 (yıl başından beri). Ham petrol de +%46 (CL 84 $). ABD'li etan bazlı üreticilerin maliyet avantajı ve azot fiyatlarının güçlü olması olası açıklamalar. **Doğrulanmadı:** web arama kotası dolduğu için haber kaynağı açılamadı.
-- **İnşaat malzemesi:** CRH −%28, MLM −%19, VMC −%4, BLDR −%47. Faiz ve konut zayıflığı olası neden (doğrulanmadı).
-- **Takvim:** 26 Kasım ABD piyasaları Şükran Günü nedeniyle kapalı, 27 Kasım yarım gün (bellek). 29 Kasım 20:30 ET Çin resmî PMI. 1 Aralık 10:00 ET ISM imalat endeksi (bellek). 4 Aralık istihdam raporu. 9 Aralık FOMC (14:00 ET). 10 Aralık TÜFE. Aralık ortasında WASDE ve konut başlangıçları (bellek). 4. çeyrek bilançoları Ocak sonunda başlar.
+- **Kimya ve gübre:** CF +%52, LYB +%33, DOW +%28, APD +%24, LIN +%19 (yıl başından beri). Ham petrol de +%46 (CL 84 $). Ana neden İran savaşı ve Hürmüz tıkanması: Orta Doğu dünya üre ihracatının yaklaşık %35–40'ı; CF Mart'ta +%20,7 ile S&P 500'ün en çok yükselen hissesi oldu, 1Ç'de CF ve Nutrien satışları ~%20 arttı. İran boğazın yeniden açılacağını duyurduğunda DOW −%10,7, CF −%9,6, LYB −%8,9 düştü: kimya ve gübre aynı arz şokuna bağlı, boğaz haberine duyarlı. Etan maliyet avantajı açıklaması doğrulanmadı (bellek).
+- **İnşaat malzemesi:** CRH −%28, MLM −%19, VMC −%4, BLDR −%47. CRH 31 Mayıs–24 Eylül arasında −%22,5; bunun ana kaynağı F/K daralması (−%26), kâr çöküşü değil. MLM Şubat'ta 4Ç kaçırma ve zayıf 2026 gelir rehberiyle düştü; CEO'ya göre tek aileli konut ve konut dışı başlangıçlar önceki düzeyin ~%20 altında. Faiz etkisi doğrulanmadı.
+- **Takvim:** 26 Kasım ABD piyasaları Şükran Günü nedeniyle kapalı, 27 Kasım 13:00'te kapanış (NYSE; e1 kartı). 29 Kasım 20:30 ET Çin resmî PMI. 1 Aralık 10:00 ET ISM imalat endeksi (bellek). 4 Aralık istihdam raporu. 9 Aralık FOMC (14:00 ET). 10 Aralık TÜFE. Aralık ortasında WASDE ve konut başlangıçları (bellek). 4. çeyrek bilançoları Ocak sonunda başlar.
 
 ## Tuzaklar
 1. **Kaldıraçlı ETF erimesi:** NUGT ve JNUG'un σ değeri %6,5–7,2, yani 1-3 günde küçük ama oynak haftalarda büyük sapma yapar. JDST açılıştan beri −%100'e yakın (NAV), DUST ve JDST'de 2026'da ters bölünme (reverse split) yapıldı. 1 Nisan 2020 öncesi veri 3x hedefe ait: backtest'te birleştirilmemeli, 2x sentetik seri kullanılmalı.
-2. **Endeks değişikliği:** NUGT/DUST 24 Temmuz 2025'ten beri MarketVector Global Gold Miners Index'i izliyor. Bunun GDX'in endeksiyle aynı olduğu doğrulanmadı.
+2. **Endeks değişikliği:** NUGT/DUST 24 Temmuz 2025'ten beri MarketVector Global Gold Miners Index'i izliyor. GDX de 19 Eylül 2025 kapanışından beri aynı endeksi (MVGDXTR) izliyor; yani 2025 sonrası NUGT ≈ 2 × GDX günlük getirisi. Öncesinde iki fon farklı endeks izliyordu (NUGT için 24.07.2025, GDX için 19.09.2025 öncesi karşılaştırmada dikkat).
 3. **İnce araçlar:** LIT, SLX, WOOD, CUT, MOO, VEGI, SLVP, GOAU ve BATT'ın hacmi 15 mn $'ın altında. SGML, LAC ve TMC kuruşluk hisse sınırında, gün içi getirileri −40 bps/gün civarında.
 4. **Tek hisse olayları:** bilanço (madenciler şubatta), maden kazası, KDC/Endonezya kotası, MOFCOM listesi (MP), tarife kararları. Bu olaylar çoğunlukla gece gelir ve fiyat boşluğu yaratır.
-5. **Veri uyarısı:** CTVA'nın fiyatı 7,89 $ ve 1 aylık getirisi −%38,6. Bölünme ya da spin-off etkisi olabilir, kontrol edilmeli. FMC'de fiyat 3,89 $ ve yıl başından beri −%71.
+5. **Veri uyarısı (kontrol edildi):** CTVA 1 Ekim 2026'da tohum işini Vylor (VYLR) olarak 1'e 1 ayırdı (spin-off); hisse 77,65 $'dan 12,56 $'a indi. Yahoo bunu `split` sütununda "6665.0:1000.0" olarak kaydetmiş ve eski fiyatları 6,665'e bölmüş. Gerçek oran ~6,18 olduğundan serinin 30.09→01.10 getirisi (+%7,9; 11,65→12,57) yapay: backtest'te 1 Ekim 2026 çıkarılmalı. 1 aylık −%38,6 ise gerçek: 12 Kasım'da 3Ç bilanço kaçırma ve yıl rehberi düşürme (Brezilya) ile −%24,3 (CSV 12,14→9,19). FMC 3,89 $ gerçek, bölünme kaydı yok: 15 Ekim'de 3Ç rehberini düşürdü (bayi stoku fiyatlaması, borç sözleşmesi görüşmesi), gün içi −%36 (CSV 8,09→5,62). Ekim 2025'te de tek günde −%46 (CSV 29,04→15,53).
 6. **Madenci ≠ metal:** Madenciler piyasa betası taşır (GDX β 1,81, FCX 2,16). Kasım'daki satışta metal ve hisse birlikte düştü.
 7. **Ön hesap sınırı:** Sonuçlar tarama düzeyinde. Çoklu test düzeltmesi yapılmadı; t ≈ 2 çıkan sinyaller FDR (yanlış keşif oranı) testinden geçmeyebilir.
 
@@ -61,7 +61,7 @@ Hacim (20 günlük ortalama, mn $), σ (günlük oynaklık, %) ve beta değerler
 | JNUG gideri %1,03, JDST %0,92 | aynı | "1.03 / 1.03*"; "0.92 / 0.92*" | yüksek |
 | JDST açılıştan beri −%100 (NAV) | aynı | "Since Inception ( 10/03/2013 ) -100.00" | yüksek |
 | XLB gideri %0,08 | https://www.ssga.com/us/en/intermediary/etfs/the-materials-select-sector-spdr-fund-xlb | Gross Expense Ratio "0.08" | yüksek |
-| COPX gideri %0,65; XME %0,35, PICK %0,39, REMX %0,53–0,57 | e3 kartı: https://www.globalxetfs.com/funds/copx?id=1 | "Total Expense Ratio 0.65%" | orta (başka ajan açtı) |
+| COPX gideri %0,65; XME %0,35, PICK %0,39, REMX %0,53 (tavan %0,57; ihraççı belgesi aşağıda) | e3 kartı: https://www.globalxetfs.com/funds/copx?id=1 | "Total Expense Ratio 0.65%" | orta (başka ajan açtı) |
 | Altın 20 Kasım'da 3.558 $; Aralık'ta artırım olasılığı %90'ın üstünde | https://www.usagold.com/daily-precious-metals-market-report-november-16-2026/ | "odds of a December hike above 90%" | orta (e2 kartından) |
 | LME bakır 4 ayın dibinde; yapay zekâ satışı ve Çin | https://news.metal.com/newscontent/HPSJFB5W7OIYMM4YPU4ZEOJU7MTVWGRUBNTCQ2A-lme-copper-hits-four-month-low-as-ai-selloff-and-china-weakness-weigh | "13,210 USD/tonne ... lowest since 8 July" | orta (e3 kartından) |
 | Nucor CSP 1.295 $/kısa ton | https://news.metal.com/newscontent/VGWV5ESGOUN75OUSFY24ERSLFBYENATE3XUJK3Q-nucor-raises-weekly-hrc-spot-offer-to-1295short-ton | "$1,295 per short ton" | orta (e3 kartından) |
@@ -76,5 +76,29 @@ Hacim (20 günlük ortalama, mn $), σ (günlük oynaklık, %) ve beta değerler
 | Ön hesap: LIN kendi z<−1.5 → 3 gün | yerel | net +44,5 bps, t 2,02; OOS +65,7 | orta |
 | Ön hesap: emtia vadelileri ertesi geceye sızmıyor | yerel | TIO=F→VALE gece 0,01; ALI=F→AA −0,02; NG=F→CF 0,03 | yüksek |
 | Etan bazlı ABD kimyasının petrol yükselişinden yararlanması | — | doğrulanmadı (bellek) | düşük |
-| Şükran Günü 26 Kasım, 27 Kasım yarım gün | — | doğrulanmadı (bellek) | orta |
-| B = Barrick'in yeni kodu (eski GOLD) | — | doğrulanmadı (bellek); GOLD evrende yok, B var | orta |
+| Şükran Günü 26 Kasım kapalı, 27 Kasım erken kapanış | https://www.nyse.com/markets/hours-calendars (e1 kartı) | "close early at 1:00 p.m. ... on Friday, November 27, 2026" | yüksek |
+| B = Barrick'in yeni kodu (eski GOLD), 9 Mayıs 2025 | https://www.barrick.com/English/news/news-details/2025/barrick-Is-now-B-on-the-NYSE/default.aspx | "changing from 'GOLD' to 'B', effective at the start of trading on May 9, 2025" (arama özeti) | yüksek |
+| GDX 19.09.2025'ten beri MVGDXTR izliyor | https://www.vaneck.com/us/en/blogs/gold-investing/updated-analysis-ahead-of-gdx-index-change/ | "tracking the MarketVector Global Gold Miners Index (MVGDXTR) after the close of markets on September 19, 2025" (arama özeti) | yüksek |
+| GDX gideri %0,51 (tavan %0,53, 1.5.2027'ye kadar) | https://www.vaneck.com/us/en/investments/gold-miners-etf-gdx-fact-sheet.pdf | 0,50 yönetim + 0,01 diğer = 0,51 (31.10.2026; arama özeti) | yüksek |
+| GDXJ net gider %0,52 | https://www.vaneck.com/us/en/investments/junior-gold-miners-etf-gdxj/portfolio/ | net expense ratio 0.52% (29.10.2026; arama özeti) | orta |
+| REMX gideri %0,53 (tavan %0,57) | https://www.vaneck.com/us/en/investments/rare-earth-strategic-metals-etf-remx-fact-sheet.pdf | "Gross Expense Ratio 0.53%" (arama özeti) | yüksek |
+| SLX brüt %0,64, net %0,55; MOO %0,56 | https://www.vaneck.com/us/en/investments/steel-etf-slx-fact-sheet.pdf ; https://www.vaneck.com/us/en/investments/agribusiness-etf-moo-fact-sheet.pdf | "Gross Expense Ratio 0.64% ... Net Expense Ratio 0.55%"; MOO 0.56% (arama özeti) | yüksek |
+| XME gideri %0,35 | https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-metals-mining-etf-xme | gross expense ratio 0.35% (arama özeti) | yüksek |
+| WOOD gideri %0,39 | https://www.ishares.com/us/products/239752/ishares-global-timber-forestry-etf | "Expense Ratio ... 0.39%" (sayfa ~1 yıllık; arama özeti) | orta |
+| SIL %0,65, SILJ %0,69 | https://www.etfcentral.com/compare-etfs/SIL-vs-SILJ | SIL 0.65%, SILJ 0.69% (aracı site; 24/7 Wall St SILJ için 0.76%) | orta |
+| CTVA tohum ayrılması (Vylor), 1'e 1, 1.10.2026 | https://247wallst.com/investing/2026/10/02/corteva-just-split-in-two-heres-what-shareholders-own-now/ | "one Vylor common share for each Corteva common share"; 77.65 → 12.56 (arama özeti) | yüksek |
+| CTVA 12.11.2026 −%24,3, bilanço kaçırma | https://www.fool.com/investing/2026/11/12/why-corteva-stock-dropped-on-thursday/ | EPS $0.06 vs $0.10 beklenti; "particularly in Brazil" (arama özeti) | yüksek |
+| Yahoo CTVA serisinde ayrılma 6,665:1 bölünme olarak | yerel: veri/ham/CTVA.csv | 2026-10-01 split "6665.0:1000.0"; 11,65 → 12,57 | yüksek |
+| FMC 15.10.2026 rehber düşürme, −%36 | https://www.rttnews.com/3699489/fmc-stock-plunges-36-after-slashing-q3-expectations.aspx | "plunges 36% after slashing Q3 expectations" (başlık) | yüksek |
+| CF rallisi: Orta Doğu üre ihracatının %35–40'ı | https://www.morningstar.com/news/marketwatch/20260311360/the-sp-500s-biggest-gainer-since-the-iran-conflict-started-is-not-an-oil-stock | "about 35% to 40% of all urea fertilizer exports" (arama özeti) | orta |
+| Boğaz açılış haberinde DOW −%10,7, CF −%9,6, LYB −%8,9 | https://www.tikr.com/blog/cf-nyse-stock-falls-10-as-reopening-of-trade-routes-disrupts-chemical-prices | Dow 10.7%, CF 9.6%, LyondellBasell 8.9% (arama özeti) | orta |
+| CRH düşüşü F/K daralması | https://www.trefis.com/data/companies/CRH | −22,5% (31.05–24.09.2026), "-26.0% change in the company's P/E Multiple" (arama özeti) | orta |
+| MLM: zayıf 2026 rehberi; başlangıçlar ~%20 aşağıda | https://www.chartmill.com/news/MLM/Chartmill-41716-Martin-Marietta-Materials-NYSEMLM-Stock-Falls-on-Q4-Earnings-Miss-and-Weak-2026-Guidance | "Q4 Earnings Miss and Weak 2026 Guidance" (başlık) | orta |
+| NUE: %50 Section 232, ithalat payı ~%15 | https://www.steelmarketupdate.com/2026/04/28/nucor-sees-strong-demand-record-shipments-and-higher-prices-as-2026-builds-momentum/ | import share ~15% in Q1 2026; record 7 mn ton (arama özeti) | orta |
+
+## Boşluk kapatma (22.11.2026)
+- Gider oranları ihraççı belgelerinden (arama özeti): GDX %0,51, GDXJ %0,52, REMX %0,53 (eski "0,53–0,57" → 0,53, 0,57 tavan), SLX %0,55 net, MOO %0,56, XME %0,35, WOOD %0,39; SIL %0,65 ve SILJ %0,69 aracı siteden. COPX %0,65 değişmedi.
+- NUGT/DUST ile GDX aynı endeksi (MVGDXTR) izliyor: "doğrulanmadı" → doğrulandı.
+- CTVA: veri hatası değil, 1.10.2026 Vylor ayrılması; Yahoo'nun 6,665 düzeltmesi 1 Ekim'e yapay +%7,9 koyuyor. Kasım düşüşü bilanço kaynaklı. FMC fiyatı gerçek.
+- Kimya/gübre: Hürmüz kaynaklı üre arz şoku. İnşaat malzemesi: F/K daralması ve zayıf rehber. NUE: %50 tarife.
+- Barrick kodu ve Şükran Günü saatleri kaynaklandı. Etan açıklaması ve faiz etkisi bulunamadı.

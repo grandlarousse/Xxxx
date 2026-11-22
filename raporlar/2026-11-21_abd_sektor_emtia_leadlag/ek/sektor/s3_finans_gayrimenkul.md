@@ -37,14 +37,14 @@ Kendi hızlı taramamız (kod: ortak.tarama ve islem_testi, kapanıştan kapanı
 - **Getiri eğrisi -> bölgesel banka.** 10y-3a eğim değişimi -> KRE t -1,5 (beklenenin tersi işaret), 2023+ sıfır.
 - **VIX -> borsalar.** dVIX -> CBOE/CME 2010-22 t +3,4 / +5,9; 2023+ t -3,3 / -1,9. İşaret döndü.
 
-**Veri ve açıklama saatleri**: Fed H.8 (banka mevduat ve kredileri) her cuma 16:15 ET: kapanıştan sonra, etkisi pazartesi. FOMC kararları 14:00 ET: kapanıştan önce biliniyor. Bilanço: büyük bankalar açılış öncesi açıklar (doğrulanmadı, bellek); alternatif yöneticiler ve sigortacıların bir kısmı kapanış sonrası.
+**Veri ve açıklama saatleri**: Fed H.8 (banka mevduat ve kredileri) her cuma 16:15 ET: kapanıştan sonra, etkisi pazartesi. FOMC kararları 14:00 ET: kapanıştan önce biliniyor. Bilanço: büyük bankalar açılış öncesi açıklar (JPM Q4 2026 sonuçları 14 Ocak 2027, yaklaşık 06:45 ET); alternatif yöneticiler ve sigortacıların bir kısmı kapanış sonrası.
 
 ## 2026 durumu ve takvim
 
 - **Faiz.** Enflasyon enerjiyle hızlandı (Eylül TÜFE %3,7). Piyasa Aralık'ta 25 bp artış fiyatlıyor; Citi indirimin Haziran 2027'den önce gelmeyeceğini düşünüyor. ^TNX 4,91. Yükselen faiz mREIT'leri (AGNC 3 ayda -%27, NLY -%25) ve büyük GYO'lardan PLD'yi (-%14) vurdu. Sağlık ve depolama GYO'ları dirençli.
-- **Kasım satışı.** SPY 5 günde -%8,6, VIX 35,9. Yatırım bankaları (GS, MS) ve alternatif yöneticiler en sert düşenler; sigorta ve CME/CBOE hafif. Alternatif yöneticilerdeki yıllık düşüşün özel kredi kaygısından geldiği hipotezi bu oturumda kaynakla doğrulanamadı.
-- **Kripto.** BTC 58.799 $ (1 ayda -%28). Haberlere göre Temmuz'dan beri en düşük seviye; Fed artış beklentisi ve hisse satışıyla aynı anda. CONL ve BITX gibi kaldıraçlı ürünler yılda -%67 ile -%89 kaybetti.
-- **Takvim.** 26 Kasım Şükran Günü borsa kapalı, 27 Kasım yarım gün (doğrulanmadı, bellek). Her cuma 16:15 H.8. **8-9 Aralık FOMC** (projeksiyonlu): artış olasılığı yüksek. Kasım TÜFE Aralık ortasında (tarih doğrulanmadı). Büyük banka Q4 bilançoları Ocak 2027 ortası (doğrulanmadı). Fed stres testi sonuçları yaz aylarında.
+- **Kasım satışı.** SPY 5 günde -%8,6, VIX 35,9. Yatırım bankaları (GS, MS) ve alternatif yöneticiler en sert düşenler; sigorta ve CME/CBOE hafif. Alternatif yöneticilerdeki yıllık düşüş 2026 boyunca süren özel kredi kaygısıyla açıklanıyor: yazılım şirketlerine verilen kredilerde yapay zekâ riski, temerrüt artışı (Fitch: Ocak 2026'ya kadar %5,8) ve fonlarda rekor geri çekme talepleri. Kasım'daki son ayağın (GS, MS dahil) özel bir finans haberi bulunamadı; kaynaklar Kasım satışını yapay zekâ hisselerindeki çöküş ve Fed artış beklentisine bağlıyor.
+- **Kripto.** BTC 58.799 $ (1 ayda -%28). Haberlere göre Temmuz'dan beri en düşük seviye; Fed artış beklentisi ve hisse satışıyla aynı anda. Kasım düşüşünde öne çıkan nedenler: spot BTC ETF'lerinden 5-13 Kasım arası yaklaşık 1,91 milyar $ çıkış, kaldıraçlı uzun pozisyon tasfiyeleri, faiz artışı beklentisi ve Strategy (MSTR) talebinin zayıflaması. Gider oranları: CONL %1,04-1,15 (kaynaklar farklı, ihraççıdan doğrulanmadı); BITX için kaynaklar %1,85 ile %2,75 arasında çelişiyor (ihraççıdan doğrulanmadı). DRN/DRV hâlâ işlemde (Direxion sayfası, gider %0,98 / %1,06 net) ama evrenimizde yok; DPST için 2026'da ters bölünme ya da kapanış haberi bulunamadı (son ters bölünme Haziran 2023, 1'e 10). CONL ve BITX gibi kaldıraçlı ürünler yılda -%67 ile -%89 kaybetti.
+- **Takvim.** 26 Kasım Şükran Günü borsa kapalı, 27 Kasım 13:00 ET erken kapanış (NYSE takvimi); 24 Aralık da 13:00 erken kapanış. Her cuma 16:15 H.8. **8-9 Aralık FOMC** (projeksiyonlu): artış olasılığı yüksek. Kasım TÜFE **10 Aralık 08:30 ET** (FOMC'den sonra), Kasım ÜFE 15 Aralık, Aralık TÜFE 13 Ocak 2027 (BLS). Büyük banka Q4 bilançoları Ocak 2027 ortası: JPM 14 Ocak 2027 (diğer bankaların tarihi bulunamadı). Fed stres testi sonuçları yaz aylarında.
 
 ## Tuzaklar
 
@@ -73,5 +73,17 @@ Kendi hızlı taramamız (kod: ortak.tarama ve islem_testi, kapanıştan kapanı
 | JPM/XLF -> KRE ertesi gün dönüşü 2023+ kayboldu | kendi taraması (ortak.tarama) | JPM->KRE t -6,2 (2010-26), -1,7 (2023-26) | orta |
 | IBIT -> madenci öncülüğü yok; madenciler CRWV ile hareket ediyor | kendi hesabı (2026-05-20 sonrası korelasyon) | IBIT->MSTR t -2,3; CORZ-CRWV 0,78, CORZ-IBIT 0,31 | orta |
 | BTC-USD çubuğu 16:00'dan sonra kapanıyor | ek/hizalama_testi.csv | BTC-USD -> IBIT ertesi gece farkı 0,315 | yüksek |
-| Alternatif yönetici düşüşü özel kredi stresinden | — | — | doğrulanmadı (bellek/hipotez) |
-| Şükran Günü 26 Kasım kapalı, 27 Kasım yarım gün | — | — | doğrulanmadı (bellek) |
+| Alternatif yönetici düşüşü özel kredi kaygısından (2026 geneli) | https://www.morningstar.com/stocks/why-alts-manager-stocks-are-getting-hit-hard | "Jitters about private credit markets" ; Fitch temerrüt %5,8 (Ocak 2026) | orta (Kasım'a özgü haber yok) |
+| Özel kredi fonlarında rekor geri çekme talepleri | https://finance.yahoo.com/news/week-slump-asset-manager-stocks-133000629.html | "redemption requests in private credit funds hit record levels" | orta |
+| BTC Kasım düşüşü: ETF çıkışı ve tasfiye | https://cointelegraph.com/news/bitcoin-four-month-low-62k-crypto-market-selloff | "Net outflows totaled approximately $1.91 billion between November 5 and November 13" | orta |
+| CONL gider oranı | https://etfdb.com/etf/CONL/ | 1.04% (başka kaynaklar 1.10-1.15%) | düşük-orta |
+| BITX gider oranı | https://www.theblock.co/etfs/bitcoin/bitx | "1.85% management fee ... total expense ratio of 2.75%" (SoFi 2.38%) | düşük (çelişkili) |
+| DRN/DRV net gider %0,98 / %1,06 | https://www.direxion.com/product/daily-real-estate-bull-bear-3x-etfs | "0.98 / 0.98" ; "1.07 / 1.06" (gross/net) | yüksek |
+| DPST'nin son ters bölünmesi 2023 | https://finance.yahoo.com/news/direxion-announces-reverse-split-dpst-203004684.html | 1-for-10, "after the close of the markets on June 2, 2023" | orta |
+| Şükran Günü 26 Kasım kapalı, 27 Kasım 13:00 erken kapanış | https://www.nyse.com/trade/hours-calendars | "close early at 1:00 p.m. ... on Friday, November 27, 2026" | yüksek |
+| Kasım 2026 TÜFE 10 Aralık | https://www.bls.gov/schedule/news_release/cpi.htm | "November 2026 Dec. 10, 2026 08:30 AM" | yüksek |
+| JPM Q4 2026 sonuçları 14 Ocak 2027 | https://www.financialcontent.com/article/bizwire-2025-5-21-jpmorganchase-announces-conference-calls-to-review-first-quarter-second-quarter-third-quarter-and-fourth-quarter-2026-earnings | "Thursday, January 14, 2027 ... approximately 6:45 a.m. (Eastern)" | orta (Mayıs 2025 duyurusu) |
+
+## Boşluk kapatma (22.11.2026)
+
+Web aramasıyla kapatılanlar: Şükran Günü (26 Kasım kapalı, 27 Kasım 13:00 erken kapanış; NYSE). Kasım TÜFE tarihi 10 Aralık 08:30 (BLS), yani 8-9 Aralık FOMC'den sonra. JPM Q4 bilançosu 14 Ocak 2027, açılış öncesi. Alternatif yönetici düşüşü: 2026 boyunca özel kredi kaygısı (yazılım kredileri, temerrüt, geri çekme talepleri) kaynaklı; Kasım'a özgü finans haberi bulunamadı. BTC Kasım düşüşü: ETF çıkışı, kaldıraç tasfiyesi, faiz beklentisi. DRN/DRV gider oranları Direxion'dan eklendi; DPST için 2026'da bölünme/kapanış haberi yok. Açık kalanlar: CONL ve BITX gider oranları kaynaklar arasında çelişkili (ihraççı sayfası açılmadı); JPM dışındaki büyük bankaların bilanço tarihleri.
