@@ -375,6 +375,8 @@ for ad, v in KURAL.items():
         deg = "tek başına sinyal"
     elif np.sign(i0) == np.sign(o0) and min(abs(i0), abs(o0)) >= 1.5:
         deg = "filtre adayı: " + ("ekle" if i0 > 0 else "kaçın") + " (kural yönüne göre)"
+    elif np.sign(i0) == np.sign(o0) and min(abs(i0), abs(o0)) >= 1.0:
+        deg = "zayıf filtre (|t| 1-1,5): " + ("ekle" if i0 > 0 else "kaçın")
     else:
         deg = "işe yaramıyor"
     oz.append({"kural": ad, "grup": v["grup"], "tanim": v["tanim"], "yon": v["yon"], "h": v["h"],

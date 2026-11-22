@@ -1,0 +1,36 @@
+{
+ "isabet": {
+  "n_etiketli": 104,
+  "n_acilis_oncesi": 57,
+  "n_kapanis_sonrasi": 47,
+  "isabet_z_x_hacim": 0.798,
+  "isabet_yalniz_z": 0.798,
+  "isabet_yalniz_hacim": 0.885,
+  "isabet_acilis_oncesi": 0.789,
+  "isabet_kapanis_sonrasi": 0.809,
+  "n_buyuk_tepki": 60,
+  "isabet_buyuk_tepki": 0.933,
+  "tarih_disi_pay": 0.184,
+  "etiket_d1_pay": 0.479,
+  "edgar_n": 135,
+  "edgar_isabet": 0.83,
+  "edgar_tarih_ayni": 1.0,
+  "edgar_isabet_buyuk": 0.944,
+  "edgar_saat_ozet": {
+   "AAPL": 16.5,
+   "JNJ": 7.9,
+   "KO": 7.0,
+   "NVDA": 16.4
+  }
+ },
+ "olay": {
+  "takvim_kaydi": 36638,
+  "tepki_gunu_etiketli": 35222,
+  "cift_kayit_atilan": 168,
+  "z2_ustu_olay": 19056,
+  "z2_al": 10165,
+  "z2_sat": 8891,
+  "surpriz_ayni_yon": 11251,
+  "surpriz_kirpilan": 1134
+ }
+}

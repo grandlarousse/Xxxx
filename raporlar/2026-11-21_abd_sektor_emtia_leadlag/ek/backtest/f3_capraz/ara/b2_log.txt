@@ -1,5 +1,0 @@
-b2_ozel: 1110 satır, 37 sn
-
-real	0m37.344s
-user	0m35.276s
-sys	0m0.273s
