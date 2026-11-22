@@ -145,6 +145,15 @@ def main():
         res, bt, sd, z = artik(x)
         print(f"   2. kural  MU -> WDC (3 gün tut)")
         print(f"             MU {x.iloc[-1] * 100:+.2f}%  -  {bt:.1f} x SPY  =  {res * 100:+.2f}   (eşik +{sd * 100:.2f})   ->  {etiket(z)}")
+        if z >= 0.9:
+            # Kontrol göstergeleri (kod/mu_wdc_suzgec.py): MU gerçekten yükselmiş olmalı; SPY'ın düştüğü gün en güçlü hâl
+            if x.iloc[-1] <= 0:
+                print("             KONTROL: MU bugün düştü (yalnız piyasadan az düştü). Bu tür sinyal geçmişte çalışmadı -> ALMA")
+            elif spy_y < 0:
+                print("             KONTROL: SPY düştü, MU yükseldi -> GÜÇLÜ hâl (geçmişte ~+%1,2 / 3 gün, isabet %66)")
+            else:
+                print("             KONTROL: SPY de yükseldi -> ZAYIF hâl (geçmişte ~+%0,2 / 3 gün; tutarsız). Boyu yarıya indir ya da geç")
+            print("             KONTROL: MU bugün ya da dün bilanço açıkladıysa ALMA (geçmişte bu günler zarar ettirdi)")
     except Exception as e:  # noqa: BLE001
         print("   MU hesaplanamadı:", str(e)[:80])
     try:

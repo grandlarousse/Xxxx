@@ -49,6 +49,12 @@ Terimler. **VIX**: S&P 500 opsiyonlarından hesaplanan beklenen oynaklık endeks
 - **Güçlü kanıt:** iki yönlü ve SPY ile korunmuş hâli: 1.444 işlem, +51 bps, t 3,7 / 2,4. MU, 158 aday öncü arasında 1. sırada; ters yönde etki yok. Ertesi açılış girişi +41 bps.
 - **Zayıf kanıt:** korumasız alım +52 bps ama t 1,0 / 1,7; en iyi 10 işlem çıkınca +21 bps. Seçim dönemindeki güç satış bacağından geliyor.
 - **Güven:** korumalı hâli KOŞULLU; korumasız alım İZLE düzeyi. Küçük boy.
+- **Kontrol göstergeleri (22 Kasım ek testi; 14 süzgeç denendi, `kod/mu_wdc_suzgec.py`):**
+  - MU o gün gerçekten yükselmiş olmalı. "MU düştü ama piyasadan az düştü" türü 33 sinyal çalışmadı (+9 bps, isabet %48).
+  - MU'nun bilanço günü ve ertesi günü alma (39 sinyal, −72 bps).
+  - En güçlü hâl: **SPY'ın düştüğü gün MU'nun yükselmesi.** 266 sinyal (yılda ~12), +125 bps, isabet %66, t 3,1 / 2,0; iki dönemde de aynı büyüklük (+123 / +126 bps). SPY'ın da yükseldiği günlerde +18 bps ve seçim döneminde eksi.
+  - İşe yaramayanlar: yarıiletken endeksinin (SMH) ve QQQ'nun 50/200 günlük ortalaması, VIX düzeyi, STX ve SK Hynix teyidi, WDC'nin kendi trendi.
+  - Uyarı: en güçlü hâl 14 süzgeç arasından sonradan seçildi; ileriye dönük doğrulanmadı.
 - **20 Kasım:** kapalı (z −0,8).
 
 ### Kural 3: Rafineri marjı → VLO
