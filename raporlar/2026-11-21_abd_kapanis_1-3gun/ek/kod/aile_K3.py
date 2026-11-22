@@ -310,7 +310,7 @@ def main(yalniz_is=False):
     O = pd.DataFrame(oos_ozet)
     # BH yalniz bilgi (aileler arasi duzeltmeyi ana ajan yapar)
     if len(O):
-        O["bh10_aile_ici"] = M.bh(O["oos_p"].to_numpy(), 0.10)
+        O["bh10_aile_ici"], O["bh_q_aile_ici"] = M.bh(O["oos_p"].to_numpy(), 0.10)
     ek["oos_ozet"] = O.to_dict(orient="records")
     # sonuc dosyasi: aday olmayanlarin IS tarama satirlari + adaylarin tam satirlari
     IS = pd.concat(is_satir, ignore_index=True)

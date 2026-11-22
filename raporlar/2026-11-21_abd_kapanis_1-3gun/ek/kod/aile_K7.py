@@ -159,8 +159,7 @@ def varyantlar(v):
     out = []
 
     def ekle(kural, ek, ad, girdi, S, G, h, gece, kor, yon, uni, rejim_test=False):
-        S = yon_varyant(S, yon) * v.U[uni]
-        G = G * (S != 0)
+        S = (yon_varyant(S, yon) * v.U[uni]).astype(np.int8)
         out.append(dict(kid=f"{kural}/{ek}/{uni}/{yon}", kural=kural, ad=ad, girdi=girdi, h=h, gece=gece,
                         kor=kor, yon=yon, uni=uni, S=S, G=G, rejim_test=rejim_test))
 
@@ -426,6 +425,14 @@ def main(asama="hepsi"):
     VERI_V = v
     vs = varyantlar(v)
     print(f"hazirlik {time.time() - t0:.0f} sn; {len(vs)} varyant cagrisi; {len(v.B)} olay, {len(v.kodlar)} hisse")
+    if asama in ("hepsi", "bakis"):
+        def imza(mm):
+            vv = Veri(mm)
+            w = np.arange(1, len(vv.kodlar) + 1, dtype=float)
+            return pd.DataFrame({x["kid"]: (x["S"] * w).sum(axis=1) for x in varyantlar(vv)}, index=mm.idx)
+        tamam, rap = m.bakis_testi(imza)
+        print("bakis_testi:", tamam, rap)
+        assert tamam, rap
     if asama in ("hepsi", "denetim", "is"):
         print(tepki_denetim(v).to_string(index=False))
     if asama in ("hepsi", "is"):

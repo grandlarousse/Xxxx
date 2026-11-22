@@ -14,6 +14,7 @@ Tarama tanimi (hepsi IS verisiyle ya da veriden bagimsiz, OOS'a bakmadan sabitle
   * Sepetler: kapanis sinifina gore ayri kumelenir (ABD16 <= 46, ONCE <= 4, SONRA <= 10; toplam <= 60).
     SONRA sepetleri 1 gun gecikmeli, ONCE ve ABD16 ayni gun (motor.artik_getiri guvenli=True).
   * X = sepet uyelerinin artik getirilerinin (X - b*SPY - b*sektor, kayan 250 gun) esit agirlikli ortalamasi.
+    Uye artigi +-5 sigmada (t-1'e kadar 250 gun) kirpilir; islem goren uyede 60 gunluk hacim >= 20 mln $ sarti.
   * Y = hedefin SPY ile korunmali ileri getirisi (giris K, h = 1,2,3). Hedef: ABD16, islem goren,
     60 gunluk dolar hacmi >= 200 mln $, o gune kadar sifir hacimli gunu yok (motor.tarama_hedef_maskesi).
     Duzey 'uye': tek kod. Duzey 'sepet': sepetin o gun uygun uyelerinin ortalamasi (>= 2 hedef uyeli sepetler).
@@ -67,7 +68,9 @@ def hazirla(m):
     sinif = ev["kapanis_sinifi"].astype(str)
     sno = sinif.map({"ABD16": 0, "ONCE": 1}).fillna(2).astype(int)
     kald = (ev["kaldirac"].astype(float) != 1.0).astype(int)
-    sira = pd.DataFrame({"k": kald, "s": sno, "v": -isdv}).sort_values(["k", "s", "v"], kind="mergesort").index.tolist()
+    islem = (~np.isfinite(ev["maliyet_bps"].astype(float))).astype(int)      # 0: islem goren, 1: endeks vb.
+    sira = pd.DataFrame({"k": kald, "s": sno, "i": islem, "v": -isdv}).sort_values(
+        ["k", "s", "i", "v"], kind="mergesort").index.tolist()
     sira = ["SPY"] + [c for c in sira if c != "SPY"]           # likit ve kaldiracsiz olan basta
     tut, harita = m.tekillestir(sira, 0.98, "IS")
     C = R.loc[IS, tut].corr(min_periods=250).to_numpy()        # ters urunler: korelasyon < -0,98
@@ -94,6 +97,16 @@ def hazirla(m):
     uye = kume[kume >= 0]
     K = int(uye.max()) + 1
     A = m.artik_getiri(list(uye.index), "SPY", "oto", 250, True)
+    # IS'te gorulen veri kusuru (QUBT 2018-19 kabuk sonrasi, SVXY 02.2018, CPER, TRY=X: basiklik > 100, tek gunluk
+    # ucdegerler |t| > 10 uretiyordu) uzerine, OOS'a bakilmadan eklenen iki koruma:
+    #  (1) islem goren ABD16 uyenin artigi yalniz 60 gunluk dolar hacmi >= 20 mln $ gunlerinde kullanilir (bayat fiyat);
+    #  (2) her uyenin artigi t-1'de biten 250 gunluk sigmasinin +-5 katinda kirpilir (ileriye bakmaz).
+    uyg = m.hedef_uygun()
+    for c in A.columns:
+        if sinif[c] == "ABD16" and np.isfinite(ev.at[c, "maliyet_bps"]):
+            A[c] = A[c].where(uyg[:, m.kpos[c]])
+    sg = A.rolling(250, min_periods=60).std().shift(1)
+    A = A.clip(lower=-5.0 * sg, upper=5.0 * sg).where(sg > 0)
     An = A.to_numpy(float)
     kno = uye.to_numpy()
     X = np.column_stack([nanort(An[:, kno == k]) for k in range(K)])

@@ -1,0 +1,11 @@
+olcu,deger
+olay_sayisi_ham,13459.0
+ayni_ceyrek_tekrar_atilan,199.0
+olay_sayisi,13260.0
+uyusmazlik_tam_yontem_tum,0.204
+uyusmazlik_tam_yontem_50orneklem,0.12
+uyusmazlik_gercek_zaman_tum(hacimR<hacimR-1),0.1291
+uyusmazlik_yalniz_R+1_kaynakli,0.0749
+uyusmazlik_tam_KAPANIS_SONRASI,0.192
+uyusmazlik_tam_ACILIS_ONCESI,0.1901
+uyusmazlik_tam_SEANS_ICI,0.3434
