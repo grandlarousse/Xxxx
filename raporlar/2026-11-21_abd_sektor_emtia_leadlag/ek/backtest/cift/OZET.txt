@@ -1,0 +1,42 @@
+TOPLAM TEST: 10824 (hipotez testi: 8163; B1r arındırma testi: 2661)
+Beklenen yanlış pozitif (sıfır hipotezi): SAĞLAM 0.32, KOŞULLU 1.14
+Sınıflar (aile x biçim):
+sinif       ELENDI  IZLE  KOSULLU
+aile bicim                       
+F1   B1        809     1        0
+     B1r       807     3        0
+     B2        807     0        0
+     B3        809     1        0
+F2   B1       1281     0        0
+     B1r      1278     2        1
+     B2       1256     1        0
+     B3       1281     0        0
+F3   B1        638     1        0
+     B1r       570     0        0
+     B2        638     1        0
+     B3        639     0        0
+IS t >= 2,5 olan: 84; bunlardan OOS t >= 2,0: 1; OOS t >= 2,5: 0; BH geçen: 0
+B1: n=2730 | tüm-örneklem t ort -0.63, >=2: 2.2%, <=-2: 17.8% | OOS t ort -0.38
+B1r: n=2661 | tüm-örneklem t ort -0.82, >=2: 2.2%, <=-2: 18.9% | OOS t ort -0.40
+B2: n=2703 | tüm-örneklem t ort -0.45, >=2: 2.8%, <=-2: 12.7% | OOS t ort -0.24
+B3: n=2730 | tüm-örneklem t ort -0.63, >=2: 1.3%, <=-2: 14.2% | OOS t ort -0.40
+Kıyas KDr (hedefin SPY artığı dönüşü) sınıflar: {'ELENDI': 1095}
+
+AYAKTA KALANLAR (ELENDİ dışı):
+aile  oncu hedef bicim yon  h  tum_n  tum_anormal_net_bps  is_t_anormal  oos_t_anormal  son_net_bps  tum_net_bps_al  tum_anormal_bps_al  ozgu   sinif  son_sinyal
+  F2  META  RDDT   B1r   +  3    121                232.6          2.26           2.51        231.9           270.3               241.6  True    IZLE         0.0
+  F3   UUP  PCAR    B2   -  3   1267                 25.7          2.10           2.21          0.8            48.6                31.0 False    IZLE         1.0
+  F1  ZS=F  CTVA   B1r   +  1    510                 22.9          2.18           2.12         21.5            12.8                11.0  True    IZLE         0.0
+  F2    MU   WDC   B1r   +  2   1444                 30.7          2.33           2.01         21.3            42.0                33.8  True    IZLE         0.0
+  F1 TIO=F   CLF   B1r   +  3    533                 88.0          2.30           1.87         35.2           108.5               107.6 False    IZLE         0.0
+  F3  ^TNX   NLY    B1   -  1   1604                 15.5          2.12           1.86         -5.1            15.6                11.9 False    IZLE         1.0
+  F1   UNG   NRG    B3   +  3   1553                 38.7          2.04           1.68         46.2            55.8                35.9 False    IZLE         1.0
+  F2   TGT    DG    B2   +  2    969                 18.7          2.11           1.64          9.7            26.9                14.5 False    IZLE        -0.0
+  F1  ZS=F    BG    B1   +  3   1521                 23.7          2.12           1.53         17.6            32.3                20.4 False    IZLE         1.0
+  F1 TIO=F   CLF   B1r   +  2    533                 78.2          2.90           1.50         35.5            82.8                82.4 False    IZLE         0.0
+  F2    MU   WDC   B1r   +  3   1444                 50.9          3.74           2.43         61.8            63.8                51.6  True KOSULLU         0.0
+
+KIYAS AYAKTA KALANLAR:
+Empty DataFrame
+Columns: [aile, oncu, hedef, bicim, yon, h, tum_n, tum_anormal_net_bps, is_t_anormal, oos_t_anormal, son_net_bps, tum_net_bps_al, tum_anormal_bps_al, sinif]
+Index: []

@@ -71,8 +71,8 @@ def cift_testi(oncu, hedef, yon="+", x=None, etiket=None, ufuklar=(1, 2, 3), bic
     """Tek çift için bütün biçim ve ufuklar. x verilirse (özel öncü serisi, kapanışta bilinen) o kullanılır."""
     if x is None:
         x = o.hizali_getiri(oncu)
-    rr = o.basit_getiri([hedef, "SPY"])
-    r, spy = rr[hedef], rr["SPY"]
+    spy = o.basit_getiri(["SPY"])["SPY"]
+    r = spy if hedef == "SPY" else o.basit_getiri([hedef])[hedef]
     x = x.reindex(r.index)
     ikiz = abs(x.corr(r)) > 0.95
     sat = []
