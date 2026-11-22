@@ -1,12 +1,13 @@
 """Günlük sinyal tablosu: rapordaki kuralların BUGÜNKÜ durumu.
 
-Kullanım (ABD kapanışından ~15 dakika önce, 15:40-15:45 ET; Türkiye saatiyle kışın 23:40, yazın 22:40):
+Kullanım (ABD kapanışından 20 dakika önce, 15:40 ET; Türkiye saatiyle kışın 23:40, yazın 22:40):
     python3 kod/gunluk_sinyal.py            # veriyi Yahoo'dan taze çeker (yaklaşık 40 sembol), tabloyu basar
     python3 kod/gunluk_sinyal.py --tarih 2026-11-20   # geçmiş bir günün kapanış sinyalleri (indirilmiş veriden)
 
 Seans açıkken çalıştırılırsa Yahoo'nun günlük çubuğu o ana kadarki en yüksek/en düşük/son fiyatı taşır; tablo
-"geçici" sinyali gösterir. Kapanışa 10 dakika kala hesaplanan sinyal kapanışta değişebilir: IBS 0,15-0,25 arasındaysa
-ya da VIX eşiğe 1 puandan yakınsa "SINIRDA" diye işaretlenir; bu durumda işlem açılmaz.
+"geçici" sinyali gösterir. Kapanışa 20 dakika kala hesaplanan sinyal kapanışta değişebilir: IBS 0,15-0,25 arasındaysa
+ya da VIX eşiğe 1 puandan yakınsa "SINIRDA" diye işaretlenir (temkin tercihi; geçmişte sınır bandı da çalıştı).
+İşlem araçları QQQ, IWM, SMH'dir; diğer ETF'ler yalnız bilgi içindir (aynı bahsin başka görünümleri).
 
 Kurallar ve sınıfları RAPOR.md bölüm 3'te. Bu betik yatırım tavsiyesi vermez; yalnız kuralın o günkü durumunu hesaplar.
 """
@@ -25,10 +26,10 @@ import pandas as pd
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "Mozilla/5.0 (X11; Linux x86_64) research-client"
 
-PANIK_SEPETI = ["QQQ", "XLK", "SMH", "SOXX", "IWM", "IJR", "XBI", "IBB", "KRE", "XRT", "EEM", "SPY"]
-KALDIRACLI = {"QQQ": "TQQQ (3x)", "XLK": "TECL (3x)", "SMH": "SOXL (3x)", "SOXX": "SOXL (3x)", "IWM": "TNA (3x)", "XBI": "LABU (3x)",
-              "KRE": "DPST (3x)", "SPY": "UPRO (3x)", "IBB": "LABU (3x, XBI endeksi)"}
-DIGER = ["^VIX", "^VIX3M", "VLO", "PBF", "MU", "WDC", "BG", "ADM", "RB=F", "HO=F", "CL=F", "ZL=F"]
+ISLEM = ["QQQ", "IWM", "SMH"]          # 1. kuralın uygulanacağı araçlar (RAPOR.md bölüm 3)
+BILGI = ["SPY", "XLK", "SOXX", "IJR", "XBI", "IBB", "KRE", "XRT", "EEM"]   # yalnız bilgi: aynı bahsin başka görünümleri
+PANIK_SEPETI = ISLEM + BILGI
+DIGER = ["^VIX", "VLO", "MU", "WDC", "BG", "ADM", "RB=F", "HO=F", "CL=F", "ZL=F"]
 
 
 def cek(sembol, gun=900):
@@ -85,53 +86,75 @@ def main():
     print(f"\nVeri günü: {gun.date()}   (şu an New York saati {simdi:%Y-%m-%d %H:%M}; seans açıksa değerler GEÇİCİDİR)\n")
 
     vix = float(v["^VIX"]["close"].iloc[-1])
-    vix3m = float(v["^VIX3M"]["close"].iloc[-1]) if "^VIX3M" in v else np.nan
-    print(f"VIX {vix:.1f}   VIX/VIX3M {vix / vix3m:.2f}   |  rejim: {'PANİK (VIX > 25): 1. kural devrede' if vix > 25 else ('GERGİN (20-25): yalnız izleme' if vix > 20 else 'SAKİN (VIX <= 20): 1. kural kapalı')}")
-    if abs(vix - 25) < 1:
-        print("  UYARI: VIX eşiğe 1 puandan yakın: SINIRDA")
+    vix_dun = float(v["^VIX"]["close"].iloc[-2])
+    rejim = "PANİK (VIX > 25): 1. kural devrede" if vix > 25 else ("GERGİN (20-25): 1. ve 3. kural kapalı" if vix > 20 else "SAKİN (VIX <= 20): 1. kural kapalı, 3. kural devrede")
+    print(f"VIX {vix:.1f} (dünkü kapanış {vix_dun:.1f})   |  rejim: {rejim}")
+    vix_sinir = abs(vix - 25) < 1
+    if vix_sinir:
+        print("  UYARI: VIX eşiğe 1 puandan yakın (SINIRDA). Dünkü kapanış > 25 ise kural yine geçerli sayılabilir.")
 
-    # 1) Panik dönüşü: VIX > 25 ve IBS < 0,2 -> kapanışta AL, 1-2 gün tut
+    # 1) Panik günü dönüşü: VIX > 25 ve IBS < 0,2 -> kapanışta AL, ertesi kapanışta sat (1 gün)
     sat = []
     for s in PANIK_SEPETI:
         d = v[s].iloc[-1]
         rng = d["high"] - d["low"]
         ibs = (d["close"] - d["low"]) / rng if rng > 0 else np.nan
         gunluk = v[s]["adjclose"].pct_change().iloc[-1] * 100
-        durum = "—"
-        if vix > 25 and ibs < 0.2:
-            durum = "AL" if ibs < 0.15 else "AL (SINIRDA: IBS 0,15-0,20)"
-        elif vix > 25 and ibs < 0.25:
-            durum = "yok (SINIRDA: IBS 0,20-0,25)"
-        sat.append((s, round(float(d["close"]), 2), round(float(gunluk), 2), round(float(ibs), 2), durum, KALDIRACLI.get(s, "")))
-    t1 = pd.DataFrame(sat, columns=["ETF", "son", "gün %", "IBS", "1. kural (panik dönüşü)", "kaldıraçlı eşi"])
-    print("\n1) PANİK DÖNÜŞÜ  [VIX > 25 ve IBS < 0,2 -> kapanışta AL, 1-2 gün]")
+        kural = vix > 25 and ibs < 0.2
+        sinirda = vix_sinir or (0.15 <= ibs < 0.25)
+        if kural and not sinirda:
+            durum = "AL" if s in ISLEM else "sinyal var (bilgi)"
+        elif kural:
+            durum = "SINIRDA: kural tutuyor (temkinliysen açma)"
+        elif vix > 24 and ibs < 0.25:
+            durum = "yok (eşiğe yakın)"
+        else:
+            durum = "—"
+        sat.append((s, "işlem" if s in ISLEM else "bilgi", round(float(d["close"]), 2), round(float(gunluk), 2), round(float(ibs), 2), durum))
+    t1 = pd.DataFrame(sat, columns=["ETF", "tür", "son", "gün %", "IBS", "1. kural"])
+    print("\n1) PANİK GÜNÜ DÖNÜŞÜ  [VIX > 25 ve IBS < 0,2 -> kapanışta AL, ERTESİ KAPANIŞTA SAT (1 gün)]")
     print(t1.to_string(index=False))
-    n_al = int(t1["1. kural (panik dönüşü)"].str.startswith("AL").sum())
-    print(f"   Açık sinyal sayısı: {n_al}. Hepsi aynı bahistir (piyasa dönüşü); toplam riski tek pozisyon gibi boyutla.")
+    n_al = int((t1["1. kural"] == "AL").sum())
+    print(f"   İşlem araçlarında açık sinyal: {n_al}. Birden çok ETF sinyal verse de TEK bahistir: toplam pozisyon sermayenin %15-20'sini geçmesin.")
+    print("   Dün de pozisyon açtıysan bugün satma ve ekleme yapma; sinyal bittiği günün kapanışında sat. Kaldıraçlı ETF kullanma.")
 
-    # 2) Öncülük adayları (KOŞULLU / yeni rejim adayı; küçük boyut ya da yalnız izleme)
+    # 2) Öncülük kuralları (küçük boy)
     spy = np.log(v["SPY"]["adjclose"]).diff()
-    print("\n2) ÖNCÜLÜK ADAYLARI  [z >= +1 -> AL]")
+
+    def etiket(z, kosul=True):
+        if not kosul:
+            return "— (kural kapalı)"
+        if z >= 1.1:
+            return "AL"
+        if z >= 0.9:
+            return "SINIRDA"
+        return "—"
+
+    print("\n2) ÖNCÜLÜK KURALLARI  [piyasadan arındırılmış z >= +1 -> AL; küçük boy]")
+    try:
+        x = np.log(v["MU"]["adjclose"]).diff().reindex(spy.index).fillna(0.0)
+        z = float(z_gecmis(x - kayan_beta(x, spy) * spy).iloc[-1])
+        print(f"   2. kural  MU -> WDC (3 gün):  z {z:+.2f}  ->  {etiket(z)}")
+    except Exception as e:  # noqa: BLE001
+        print("   MU hesaplanamadı:", str(e)[:80])
     try:
         lv = pd.concat({k: v[k]["close"] for k in ("RB=F", "HO=F", "CL=F")}, axis=1, sort=True).dropna()
         crack = (2 * lv["RB=F"] * 42 + lv["HO=F"] * 42 - 3 * lv["CL=F"]) / 3
         dcr = crack.diff().reindex(spy.index).fillna(0.0)
-        z_ham = z_gecmis(dcr).iloc[-1]
-        z_art = z_gecmis(dcr - kayan_beta(dcr, spy) * spy).iloc[-1]
-        print(f"   Rafineri marjı (3-2-1 crack) {crack.iloc[-1]:.1f} $/varil, günlük değişim {crack.diff().iloc[-1]:+.2f} $;"
-              f" z ham {z_ham:+.2f}, z arındırılmış {z_art:+.2f}  ->  VLO (2 gün): {'AL' if z_art >= 1 else '—'};  PBF (3 gün): {'AL' if z_ham >= 1 else '—'}"
-              f"{'   [VIX > 20: geçmişte bu rejimde çalışmadı]' if vix > 20 else ''}")
+        z = float(z_gecmis(dcr - kayan_beta(dcr, spy) * spy).iloc[-1])
+        print(f"   3. kural  rafineri marjı -> VLO (2 gün):  marj {crack.iloc[-1]:.1f} $/varil ({crack.diff().iloc[-1]:+.2f} $), z {z:+.2f}  ->  {etiket(z, vix <= 20)}"
+              f"{'   [VIX > 20: bu kural yalnız sakin piyasada geçerli]' if vix > 20 else ''}")
     except Exception as e:  # noqa: BLE001
-        print("   crack hesaplanamadı:", str(e)[:80])
-    for oncu, hedefler, h in (("MU", ["WDC"], 3), ("ZL=F", ["BG", "ADM"], 1)):
-        try:
-            x = np.log(v[oncu]["adjclose"]).diff().reindex(spy.index).fillna(0.0)
-            z = z_gecmis(x - kayan_beta(x, spy) * spy).iloc[-1]
-            print(f"   {oncu} piyasadan arındırılmış z {z:+.2f}  ->  {', '.join(hedefler)} ({h} gün): {'AL' if z >= 1 else '—'}")
-        except Exception as e:  # noqa: BLE001
-            print(f"   {oncu} hesaplanamadı:", str(e)[:80])
+        print("   rafineri marjı hesaplanamadı:", str(e)[:80])
+    try:
+        x = np.log(v["ZL=F"]["adjclose"]).diff().reindex(spy.index).fillna(0.0)
+        z = float(z_gecmis(x - kayan_beta(x, spy) * spy).iloc[-1])
+        print(f"   izleme    soya yağı -> BG, ADM (1 gün):  z {z:+.2f}  ->  {'İZLE: kâğıt üstünde kaydet (para koyma)' if z >= 1 else '—'}")
+    except Exception as e:  # noqa: BLE001
+        print("   soya yağı hesaplanamadı:", str(e)[:80])
 
-    print("\nHatırlatma: emir kapanış müzayedesine (MOC/LOC) girer; NYSE kesimi 15:50 ET, Nasdaq 15:55 ET, NYSE Arca 15:59 ET.")
+    print("\nHatırlatma: emir kapanış müzayedesine (MOC/LOC) girer. Betiği 15:40 ET'de çalıştır, emri en geç 15:45 ET'de gir")
+    print("(Türkiye saatiyle kışın 23:40 / 23:45, yazın 22:40 / 22:45). Kapanışı kaçırdıysan ertesi AÇILIŞTA girilebilir; ertesi kapanışa kaldıysan girme.")
     print("Kurallar geçmiş veriye dayanır, küçük ve belirsiz bir üstünlük verir; yatırım tavsiyesi değildir.\n")
 
 

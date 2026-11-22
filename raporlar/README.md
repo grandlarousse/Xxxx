@@ -57,3 +57,18 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# ABD piyasası: sektör ve emtia araçları, yöntemler ve 1–3 günlük kapanış sinyalleri (22.11.2026)
+
+Klasör: `2026-11-21_abd_sektor_emtia_leadlag/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, yapılacaklar, üç denenebilir kural ve elenenler, 11 sektör ve bütün emtia grupları için araç haritası, kanıt, uygulama (emir türleri, saatler, maliyet), doğrulama kapsamı.
+- `YONTEM.md`: Hesaplardan önce yazılan ön kayıt; eleştirmen denetimiyle yapılan 12 değişiklik.
+- `kod/gunluk_sinyal.py`: Kapanıştan 20 dakika önce çalıştırılan günlük sinyal tablosu. `kod/ortak.py`: ortak test kütüphanesi. `kod/indir.py`, `kod/indir_bilanco.py`: veri indiriciler (veri depoda değil).
+- `ek/sektor/`, `ek/emtia/`, `ek/literatur/`, `ek/uygulama/`: sektör ve emtia kartları, literatür notları, uygulama notu (iddia defterleriyle).
+- `ek/backtest/<aile>/`: altı test ailesinin sonuçları ve notları. `ek/dogrulama/`: yöntem sınaması, bağımsız yeniden üretim, çürütme A ve B, iddia doğrulaması, bağlantı denetimi.
+- `ek/dalga1/`, `ek/dalga2/`, `ek/dalga3/`: ajan dönüşlerinin ham kayıtları.
+
+Yatırım tavsiyesi değildir.
