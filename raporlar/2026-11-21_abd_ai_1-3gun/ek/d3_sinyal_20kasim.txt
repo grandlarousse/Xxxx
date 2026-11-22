@@ -1,0 +1,41 @@
+SINYAL RAPORU - 2026-11-20 kapanis
+==================================
+
+REJIM
+  VIX 35.89 | VIX/VIX3M 1.160 (ters egri: VIX > VIX3M)
+  ^SOX gunluk -10.73% | SMH 250 gunluk zirveden -40.2%
+  STRES (VIX >= 30): EVET | BUGUN (STRES ve SMH zirveden >= %25 asagi): EVET
+
+ARAC TABLOSU (r/sigma = gunluk getiri / onceki 60 gunun sigmasi)
+  Arac   Grup           Fiyat   Gunluk  r/sigma   IBS Dusuk Uygun  Sinyal
+  SMH    T             400.06  -10.60%    -3.61  0.08     7  evet  F1a AL, F3 AL
+  SOXX   T             123.40  -10.55%    -3.11  0.09     2  evet  F1a AL
+  QQQ    T             608.45   -5.67%    -3.63  0.06     2  evet  F1a AL
+  XLK    T             149.01   -7.27%    -3.65  0.08     2  evet  F1a AL
+  SPY    T             689.81   -3.64%    -3.64  0.10     7  evet  F1a AL, F3 AL
+  IWM    T             256.61   -2.88%    -2.44  0.03     2  evet  F1a AL
+  SOXL   kaldiracli     30.88  -31.83%    -3.09  0.08     2  evet  F1a AL
+  TQQQ   kaldiracli     41.20  -15.94%    -3.45  0.13     2  evet  F1a AL
+  USD    kaldiracli     35.01  -24.73%    -4.33  0.07     3  evet  F1a AL, F3 AL
+  TECL   kaldiracli     92.99  -21.49%    -3.60  0.10     2  evet  F1a AL
+  NVDL   kaldiracli     10.33  -27.51%    -5.01  0.08     7  evet  F1a AL, F3 AL
+  AMDL   kaldiracli     31.19  -26.90%    -2.57  0.09     2  evet  F1a AL
+  MUU    kaldiracli      9.64  -27.90%    -3.15  0.11     7  evet  F1a AL, F3 AL
+  DRAM   kaldiracli     33.36  -13.19%    -2.88  0.01     2 HAYIR  sinyal sayilmaz: gecmis 162 gun < 250
+  NVDA   hisse         125.53  -14.01%    -5.05  0.05     7  evet  F1a AL, F3 AL
+  AMD    hisse         424.39  -13.25%    -2.53  0.10     2  evet  F1a AL
+  AVGO   hisse         304.41  -12.19%    -3.84  0.08     2  evet  F1a AL
+  TSM    hisse         318.71   -9.48%    -3.36  0.01     2  evet  F1a AL
+  MU     hisse         594.51  -13.89%    -3.11  0.11     7  evet  F1a AL, F3 AL
+
+ACIK KURALLAR
+  F1a (IBS < 0,2) AL          : SMH, SOXX, QQQ, XLK, SPY, IWM, SOXL, TQQQ, USD, TECL, NVDL, AMDL, MUU, NVDA, AMD, AVGO, TSM, MU   [T havuzu: alfa +17 bps/islem, net +7 (t 3,08). Kaldiracli/hisse: yalniz betimsel tasima.]
+  F3  (>= 3 dusuk kapanis) AL : SMH, SPY, USD, NVDL, MUU, NVDA, MU   [T havuzu: alfa +19 bps (t 2,61), ADAY.]
+  F11a (^SOX <= -%3) SMH AL   : EVET   [SMH: alfa +43 bps (t 2,13, n 226), ADAY.]
+  KACINMA F4b (> +2 sigma)    : yok   [T havuzu: alfa -41 bps (t -2,28) -> o gun ALMA.]
+  KACINMA F11b (^SOX >= +%3)  : hayir   [SMH: alfa -42 bps (t -2,44) -> o gun SMH ALMA.]
+
+NOTLAR
+  - Giris: sinyal gunu kapanisi (15:55-15:59 emri), cikis: ertesi islem gunu kapanisi. Maliyet T: 10 bps gidis-donus.
+  - Testler yalniz T ETF havuzunda (ve F11 icin SMH) yapildi; kaldiracli ETF ve tek hisse satirlari betimseldir.
+  - 'Uygun = HAYIR': fiyat < 3 $, medyan ciro < 20 milyon $, < 250 gun gecmis ya da bozuk bar -> sinyal yok sayilir.
