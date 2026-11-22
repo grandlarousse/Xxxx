@@ -51,14 +51,14 @@ def _v(kid, ad, hedef, sig, girdi, kor, guc=None, giris="K", hat="ana", rej=Fals
 
 # ----------------------------------------------------------------------------- ortak baglam
 class Baglam:
-    def __init__(self, mm):
+    def __init__(self, mm, HIS=None):
         self.mm = mm
         self.idx = mm.idx
         self.T = len(mm.idx)
         self.R = mm.getiri("kk").copy()
         self.evr = mm.donem_basi_evreni()
         self.EM = mm.evren_maskesi(self.evr)
-        self.HIS = sorted(set(self.evr.kod) & set(mm.kodlar))
+        self.HIS = list(HIS) if HIS is not None else sorted(set(self.evr.kod) & set(mm.kodlar))
         self.grup = {k: str(mm.evren.at[k, "grup"]) for k in self.HIS}
         self.sek = {k: M.GRUP_SEKTOR.get(self.grup[k]) for k in self.HIS}
         self.i0 = int(self.idx.searchsorted(pd.Timestamp(T0_ILK)))
@@ -600,9 +600,10 @@ def asama_ek(m):
 def asama_bakis(m):
     """Her kural islevi icin ileriye bakma denetimi (T0 sonrasi bozulan veri T0 oncesi sinyali degistirmemeli)."""
     sonuc = []
+    HIS0 = Baglam(m).HIS        # sutun kumesi sabit: bozuk kopyada OOS/SON evreni degisse de karsilastirma ayni sutunlarda
     for fn in KURALLAR:
         def birlesik(mm, fn=fn):
-            out = fn(Baglam(mm))
+            out = fn(Baglam(mm, HIS=HIS0))
             parca = []
             for v in out:
                 s = v["sig"]
