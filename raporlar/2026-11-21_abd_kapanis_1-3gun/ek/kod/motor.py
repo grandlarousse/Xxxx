@@ -48,6 +48,10 @@ REJIMLER = (["hepsi"] + VIX_KOVA_AD + ["UST", "ALT"]
             + [f"{v}|{u}" for v in VIX_KOVA_AD for u in ("UST", "ALT")])
 
 KOMISYONLAR = ("hisse", "sabit", "oransal")
+# Ana ajan eki (maliyet duyarliligi): kapanis/acilis muzayedesi emri (MOC/MOO). Emir muzayedenin tek
+# fiyatindan dolar; alis-satis farki odenmez. Bacak maliyeti yalniz komisyondur (1,5 $ / 10.000 $ = 1,5 bps),
+# hacim kademesi ve VIX carpani uygulanmaz. Varsayilan senaryolara dahil DEGILDIR; yalniz acikca istenirse.
+KOMISYON_EK = ("muzayede",)
 EMIR_USD = 10_000.0          # YONTEM 8: 10.000 $'lik emir
 HISSE_BASI = 0.005           # $ / hisse, en az 1 $
 SABIT_EMIR = 1.5             # $ / emir
@@ -821,8 +825,10 @@ class Motor:
                 kom = np.full(np.shape(ham), SABIT_EMIR / EMIR_USD * 1e4)
             elif komisyon == "oransal":
                 kom = np.full(np.shape(ham), ORANSAL_BPS)
+            elif komisyon == "muzayede":
+                return np.full(np.shape(ham), SABIT_EMIR / EMIR_USD * 1e4)   # yalniz komisyon; kademe yok
             else:
-                raise ValueError(f"komisyon: {KOMISYONLAR}")
+                raise ValueError(f"komisyon: {KOMISYONLAR + KOMISYON_EK}")
         return taban + kom
 
     def _poz_maliyet(self, t, gi, ci, kp, gf, cf, isaret, agirlik, ngun, komisyon, zor):
@@ -832,6 +838,9 @@ class Motor:
         vt = v1[t] > 30
         cg = np.where(vt | (v1[gi] > 30), 2.0, 1.0)
         cc = np.where(vt | (v1[ci] > 30), 2.0, 1.0)
+        if komisyon == "muzayede":                    # muzayede emrinde VIX carpani yok
+            cg = np.ones_like(cg)
+            cc = np.ones_like(cc)
         mg = self.bacak_bps(gi, kp, gf, komisyon) * cg / 1e4 * agirlik
         mc = self.bacak_bps(ci, kp, cf, komisyon) * cc / 1e4 * agirlik
         self.temettu_orani()
@@ -931,7 +940,7 @@ class Motor:
         d = {"hedef": np.array(ks, dtype=object)[c], "t": self.idx[t], "giris_tarihi": self.idx[gi],
              "cikis_tarihi": self.idx[ci], "yon": yon.astype(int),
              "beta": Bm[t, c] if kor else np.zeros(n), "brut": brut}
-        for kom in KOMISYONLAR:
+        for kom in KOMISYONLAR + KOMISYON_EK:
             mg, mc, fin = self._poz_maliyet(t, gi, ci, kp, gf, cf, yon, np.ones(n), ngun, kom, zor)
             if kor:
                 b = Bm[t, c]

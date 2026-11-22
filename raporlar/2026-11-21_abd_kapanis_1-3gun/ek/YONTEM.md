@@ -132,3 +132,17 @@ Yazıldığı an: 22.11.2026, "kendi serisinde uç hareket" ailesinin (K4a) sonu
 **İkincil (karara girmez, raporlanır).** h = 2 ve 3; ertesi açılışta giriş; QQQ (1999'dan), DIA (1998'den), MDY (1995'ten); rejim dışındaki günlerde aynı kurallar; 2000–2002 Nasdaq çöküşünde QQQ için bölüm bölüm sonuç; en kötü ardışık kayıplar; 2010 sonrasında aynı sinyalin kaldıraçlı ETF'lerle (UPRO, TQQQ) getirisi.
 
 **Kod.** Motor kullanılmaz (2005 öncesi veri panelde yok); ayrı, bağımsız betik. Aynı betik 2005–2026'yı da yeniden üretir ve K4a'nın sayılarıyla karşılaştırılır.
+
+## Ek 2 — Maliyet duyarlılığı: kapanış müzayedesi emri senaryosu
+
+Yazıldığı an: 22.11.2026, on backtest ailesinin birincil sonuçları görüldükten sonra, bu senaryoyla hiçbir sonuç hesaplanmadan önce.
+
+**Gerekçe.** Birincil analizde (3.420 ön kayıtlı kural × varyant ve 27.351 tarama regresyonu) 46 aday çıktı, örneklem dışı dönemden 1'i geçti, aileler arası çoklu test düzeltmesinden geçen olmadı. Birincil maliyet modeli piyasa emrine göre kuruludur (bacak başına hacim kademesi 1,5–15 bps + komisyon; VIX > 30'da ×2). Doğrulanan bulguya göre kapanış emri (MOC) ve açılış emri (MOO) müzayedenin tek fiyatından dolar; alış-satış farkı ödenmez ve bu fiyat backtestteki kapanış/açılış fiyatının kendisidir. Lider → takipçi, artık dönüşü ve bilanço ailelerinde brüt etki var (işlem başına 5–30 bps) ama modellenen maliyetin altında kalıyor. Bu yüzden "hiçbiri geçmedi" sonucu maliyet varsayımına bağlı olabilir; bu ek, o sonucu çürütmeye çalışır.
+
+**Senaryo ("muzayede").** Bacak maliyeti yalnız komisyon: 1,5 bps (10.000 $'lık emirde 1,5 $). Hacim kademesi ve VIX çarpanı yok. Nakit faizi, açığa satış ödünç ücreti ve temettü kesintisi birincil modeldeki gibi.
+
+**Kapsam.** Tarama dışındaki dokuz aile (lider → takipçi, çiftler ve artık dönüşü, çapraz varlık, uç hareket, akış vekilleri, takvim, volatilite ürünleri, bilanço, gece–gündüz). Aynı kurallar, aynı varyantlar; yeni kural ya da parametre eklenmez.
+
+**Sıra ve karar.** Birincil analizle aynı: önce yalnız IS (aday: net > 0 ve ilgili t ≥ 2; tek yönlü kuralda ayrıca anormal getirinin t'si ≥ 2), aday listesi dosyaya yazılır, sonra OOS. Bu senaryoda OOS'tan geçen bir kural ancak şunların hepsini sağlarsa ayakta kalır: (a) bu senaryonun bütün adayları üzerinde Benjamini–Hochberg %10; (b) OOS t ≥ 2,5 (2,0–2,5 arası en çok DÜŞÜK); (c) son dönemde (2024–2026) net > 0; (d) kapanış gerçekçiliği: ertesi açılış girişinde net > 0 ve t ≥ 1,5, ya da son 730 günde 15:30 fiyatıyla hesaplanan sinyal kazancın ≥ %70'ini koruyor; (e) en iyi %5 işlem çıkarılınca net > 0; (f) ekonomik taban (net ≥ 10 bps/işlem, net/σ ≥ 0,10).
+- Ayakta kalan en çok **KOŞULLU ("uygulama: yalnız müzayede emriyle")** olur; UYGUN olamaz, çünkü ikinci bir eleme turunun ürünüdür ve yatırımcının aracı kurumunun müzayede emri sunup sunmadığı bilinmiyor.
+- Ayakta kalan yoksa birincil sonuç maliyet varsayımından bağımsız sayılır.

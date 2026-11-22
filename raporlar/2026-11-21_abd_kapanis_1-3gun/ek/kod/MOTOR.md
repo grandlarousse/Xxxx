@@ -75,3 +75,4 @@ M.yaz_sonuc(sonuc, ".../veri/sonuc_D.csv", ekle=True)   # standart şema (M.SEMA
 - Karar ölçüsü: tek hedefli kuralda `t_olcekli`; çok hedefli kuralda `t_kume` ve `p_bootstrap`. Adaylarda `bootstrap=True` kullanın.
 - Önbellekten dönen nesneleri (`getiri()`, `beta()`, `rejim()` vb.) yerinde değiştirmeyin; kopya alın.
 - Testler: `python3 -I test_motor.py` (18/18) ve `python3 -I test_denetim.py` (54/54) düzeltmelerden sonra geçiyor.
+- Maliyet duyarlılığı için ek komisyon senaryosu `"muzayede"`: kapanış/açılış müzayedesi emri (MOC/MOO). Bacak maliyeti yalnız komisyon (1,5 bps); hacim kademesi ve VIX çarpanı yok. Varsayılan senaryolara dahil değildir; `degerlendir(..., komisyon=("hisse","muzayede"))` gibi açıkça istenir. İşlem listesinde `net_muzayede` sütunu her zaman bulunur.

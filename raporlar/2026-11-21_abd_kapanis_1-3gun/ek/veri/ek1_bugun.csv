@@ -1,0 +1,22 @@
+alan,deger
+tarih,2026-11-20
+spy_kapanis,689.8099975585938
+spy_yuksek,718.2899780273438
+spy_dusuk,686.75
+ma200_t,732.7552993774414
+ma200_fark_pct,-5.8607971658935165
+vix_t,35.88999938964844
+vix_t_1,28.440000534057617
+rsi2_t,0.3255112129329068
+ibs_t,0.09701964776072035
+rejim_t(20 Kasim),False
+E1-a_sinyal_t,False
+E1-b_sinyal_t,False
+dusus_serisi_gun,7
+sigma20_bps(21 Kasim itibariyla),165.4461268767983
+rejim_23Kasim_VIX(t-1)>30,True
+rejim_23Kasim_SPY(t-1)<ma200,True
+E1-a_tetik_23Kasim: SPY kapanis <,691.7394047204277
+E1-a_tetik_getiri_pct,0.27970124652623163
+E1-b_tetik_23Kasim,"kapanis < dusuk + 0,2*(yuksek - dusuk) (gunun araliginin alt beste biri)"
+E1-b_ornek_esik(20 Kasim araligi ile),693.0579956054687
