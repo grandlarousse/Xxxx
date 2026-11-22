@@ -1,0 +1,13 @@
+olcu,deger
+vix30_bolum_yok,"{'bolum_sayisi': 15, 'n_islem': 225, 'net_bps': np.float64(247.94), 'ayni_isaret_orani': 0.73, 'en_buyuk_bolum': 5, 'en_buyuk_haric_net_bps': np.float64(302.63), 'maliyet2x_net_bps': np.float64(218.09), 'destekli': True}"
+vix30_bolum_SPY:250,"{'bolum_sayisi': 15, 'n_islem': 225, 'net_bps': np.float64(206.03), 'ayni_isaret_orani': 0.67, 'en_buyuk_bolum': 5, 'en_buyuk_haric_net_bps': np.float64(192.53), 'maliyet2x_net_bps': np.float64(164.18), 'destekli': False}"
+1530_pencere_olay,1316
+1530_kapanis_tetik,331
+1530_tetik,319
+1530_ortusme_orani(kapanis tetiklerinin),0.918
+1530_net_bps_kapanis_sinyal,-59.4
+1530_net_bps_1530_sinyal,-77.3
+1530_korunan_oran,1.302
+1530_n_islem_1530,318
+"guncel_q20_q80_(t-4->t-2, SPY'ye gore)",-0.0152 / 0.0168
+yil_net_bps,2005:40/237; 2006:68/-22; 2007:82/-83; 2008:135/341; 2009:99/116; 2010:56/172; 2011:59/28; 2012:40/126; 2013:59/162; 2014:46/-49; 2015:69/117; 2016:74/149; 2017:59/115; 2018:95/-45; 2019:77/110; 2020:126/172; 2021:121/7; 2022:115/117; 2023:98/215; 2024:100/53; 2025:97/-112; 2026:132/-104

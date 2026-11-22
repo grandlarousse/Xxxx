@@ -569,7 +569,24 @@ if __name__ == "__main__":
         log(f"ozet -> {OZET}")
         go = gece_ozeti()
         pd.set_option("display.width", 250)
-        print(go[go.kod.isin(["SPY", "QQQ", "IWM", "TQQQ", "SQQQ"])].round(2).to_string(index=False))
+        print(go[go.kod.isin(["SPY", "QQQ", "IWM", "TQQQ", "SQQQ"]) & go.vix.isin(["hepsi", "V>30"])]
+              .round(2).to_string(index=False))
+        # R7-10 hipotezinin istedigi alt donem dokumu (betimleyici; aday secimine girmez)
+        bt = []
+        for kr in KURALLAR:
+            if kr["grup"] != "r710" or kr["hedef"] not in ("SPY", "TQQQ"):
+                continue
+            s, _ = sinyal_al(kr)
+            for ck, hh in (("acilis", 1), ("kapanis", 1)):
+                i = m.islemler(s, kr["hedef"], giris="K", h=hh, cikis=ck)
+                for ad, a, b in (("2005-2009", "2005", "2009-12-31"), ("2010-2020", "2010", "2020-12-31"),
+                                 ("2021-2026", "2021", "2026-11-20")):
+                    x = i[(i.t >= a) & (i.t <= b)]
+                    nn = len(x)
+                    bt.append(dict(kural=kr["id"], hedef=kr["hedef"], cikis=ck, alt=ad, n=nn,
+                                   brut=x.brut.mean() * 1e4, net=x.net_hisse.mean() * 1e4,
+                                   t=(x.net_hisse.mean() / (x.net_hisse.std() / np.sqrt(nn))) if nn > 2 else np.nan))
+        print(pd.DataFrame(bt).round(2).to_string(index=False))
         print("\n".join(bugun(O)))
         print(f"bakis_testi islev sayisi={nb}")
     if asama in ("hepsi", "risk"):

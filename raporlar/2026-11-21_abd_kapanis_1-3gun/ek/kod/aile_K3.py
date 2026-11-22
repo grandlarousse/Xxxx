@@ -223,6 +223,41 @@ def karar_t(row, cok, tek_yon):
     return bool(ok), t
 
 
+def ek_bilgi(m):
+    """Test sayisina katilmayan betimleyici bilgiler: (1) ayni gun vs ertesi gun korelasyon,
+    (2) R8-09 sizintili ust sinir satiri (ayni gun ^VIX), (3) 20.11.2026 sinyal durumu."""
+    out = {}
+    ciftler = [("USO", "XLE"), ("USO", "XOP"), ("CPER", "FCX"), ("TLT", "XLU"), ("TLT", "ITB"), ("TLT", "KRE"),
+               ("UUP", "EEM"), ("GLD", "XLB"), ("HYG", "SPY"), ("SPHB", "SPY")]
+    rr = m.getiri("kk")
+    msk = M.donem_maskesi(m.idx, "IS+OOS")
+    tab = []
+    for x, y in ciftler:
+        a, b = rr[x][msk], rr[y]
+        b0, b1 = b[msk], b.shift(-1)[msk]
+        b13 = (rr[y].shift(-1) + rr[y].shift(-2) + rr[y].shift(-3))[msk]
+        tab.append(dict(girdi=x, hedef=y, ayni_gun_kor=round(float(a.corr(b0)), 3),
+                        ertesi_gun_kor=round(float(a.corr(b1)), 3), sonraki3_kor=round(float(a.corr(b13)), 3)))
+    out["ayni_vs_ertesi"] = tab
+    S, G = r809(m, "U", sizintili=True)
+    r = m.degerlendir(S, None, kural_id="R8-09", aile=AILE, ad="Panik kaybedenler uzun [U|SIZINTILI_UST_SINIR ayni gun VIX]",
+                      girdi="ayni gun ^VIX (sizintili)", h=(3,), giris=("K",), gece=False, korunma=("yok",),
+                      komisyon=("hisse",), donemler=["IS", "OOS", "SON"], rejimler=False, guc=G,
+                      notlar="sizintili ust sinir; test sayisina katilmaz")
+    out["r809_sizintili"] = r[["donem", "n_islem", "net_bps", "t_kume", "t_anormal"]].to_dict(orient="records")
+    spy = m.girdi("SPY", "close")
+    spya = m.girdi("SPY", "adjclose")
+    son = m.idx[-1]
+    vix_t = m.girdi("^VIX", "close", sizintili=True)
+    out["bugun"] = dict(tarih=str(son.date()), spy_kapanis=float(spy.iloc[-1]),
+                        spy_zirveden=float(spya.iloc[-1] / spya.cummax().iloc[-1] - 1),
+                        spy_zirve_kapanis=float(spy[spya.idxmax()]),
+                        spy_15pct_esik=float(spy.iloc[-1] * 0.85 / (spya.iloc[-1] / spya.cummax().iloc[-1])),
+                        spy_1g=float(m.girdi_getiri("SPY").iloc[-1]), vix_t=float(vix_t.iloc[-1]),
+                        vix_t_1=float(m.girdi("^VIX", "close").iloc[-1]), r809_U_sinyal=int((S.iloc[-1] != 0).sum()))
+    return out
+
+
 # ----------------------------------------------------------------------------- calistirma
 def main(yalniz_is=False):
     t0 = time.time()
@@ -312,6 +347,8 @@ def main(yalniz_is=False):
     if len(O):
         O["bh10_aile_ici"], O["bh_q_aile_ici"] = M.bh(O["oos_p"].to_numpy(), 0.10)
     ek["oos_ozet"] = O.to_dict(orient="records")
+    ek.update(ek_bilgi(m))
+    print(json.dumps({k: ek[k] for k in ("ayni_vs_ertesi", "r809_sizintili", "bugun")}, default=float, indent=0)[:3000])
     # sonuc dosyasi: aday olmayanlarin IS tarama satirlari + adaylarin tam satirlari
     IS = pd.concat(is_satir, ignore_index=True)
     aday_ad = set(aday_v["ad"])

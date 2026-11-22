@@ -1,0 +1,104 @@
+kural_id,varyant,hedef,sinyal_20kas,sinyal_23kas_vix_bilinen
+R1-01,"VIXY iki yonlu (roll>+0,10 VIXY kisa; roll<-0,10 VIXY uzun) [vekil]",VIXY,0,1
+R1-01,"VIXY uzun bacak (roll<-0,10) [vekil]",VIXY,0,1
+R1-01,"SVXY_E uzun (roll>+0,10) [vekil]",SVXY_E,0,0
+R1-01,"SVXY_Y uzun (roll>+0,10) [vekil]",SVXY_Y,0,0
+R1-02,"SVXY_E uzun (roll>+0,10 ve VIX>21) [vekil]",SVXY_E,0,0
+R1-02,"SVXY_E uzun (roll>+0,10 ve VIX<21; karsilastirma) [vekil]",SVXY_E,0,0
+R1-02,"SVXY_Y uzun (roll>+0,10 ve VIX>21) [vekil]",SVXY_Y,0,0
+R1-02,"SVXY_Y uzun (roll>+0,10 ve VIX<21; karsilastirma) [vekil]",SVXY_Y,0,0
+R1-05,VIXY iki yonlu (VRP5>0 kisa; VRP5<=0 uzun),VIXY,1,1
+R1-05,VIXY uzun bacak (VRP5<=0),VIXY,1,1
+R1-05,SVXY_E uzun (VRP5>0; nakit varyanti),SVXY_E,0,0
+R1-05,SVXY_Y uzun (VRP5>0; nakit varyanti),SVXY_Y,0,0
+R1-06,VIXY uzun bacak (VIX3M/VIX<1),VIXY,1,1
+R1-06,VIXY iki yonlu (VIX3M/VIX>1.00 kisa; <1 uzun),VIXY,1,1
+R1-06,SVXY_E uzun (VIX3M/VIX>1.00),SVXY_E,0,0
+R1-06,SVXY_Y uzun (VIX3M/VIX>1.00),SVXY_Y,0,0
+R1-06,VIXY iki yonlu (VIX3M/VIX>1.05 kisa; <1 uzun),VIXY,1,1
+R1-06,SVXY_E uzun (VIX3M/VIX>1.05),SVXY_E,0,0
+R1-06,SVXY_Y uzun (VIX3M/VIX>1.05),SVXY_Y,0,0
+R1-06,VIXY iki yonlu (VIX3M/VIX>1.10 kisa; <1 uzun),VIXY,1,1
+R1-06,SVXY_E uzun (VIX3M/VIX>1.10),SVXY_E,0,0
+R1-06,SVXY_Y uzun (VIX3M/VIX>1.10),SVXY_Y,0,0
+R1-07,VIXY iki yonlu (egim>0 kisa; eVRP<0 ve egim<0 uzun),VIXY,0,0
+R1-07,VIXY uzun bacak (eVRP<0 ve egim<0),VIXY,0,0
+R1-07,SVXY_E uzun (egim>0),SVXY_E,0,0
+R1-07,SVXY_Y uzun (egim>0),SVXY_Y,0,0
+R1-08,VIXY kisa (buyu bitisi (VIX/VIX3M>=1 ve VIX>=30 sonrasi <1)),VIXY,0,0
+R1-08,SVXY_E uzun (buyu bitisi (VIX/VIX3M>=1 ve VIX>=30 sonrasi <1)),SVXY_E,0,0
+R1-08,SVXY_Y uzun (buyu bitisi (VIX/VIX3M>=1 ve VIX>=30 sonrasi <1)),SVXY_Y,0,0
+R1-08,VIXY kisa (VIX>=35 ilk kapanis),VIXY,0,-1
+R1-08,SVXY_E uzun (VIX>=35 ilk kapanis),SVXY_E,0,1
+R1-08,SVXY_Y uzun (VIX>=35 ilk kapanis),SVXY_Y,0,1
+R1-09,VIXY uzun (VIX %deg ust %20 (252g)),VIXY,1,1
+R1-09,UVXY_E uzun (VIX %deg ust %20 (252g)),UVXY_E,1,1
+R1-09,UVXY_Y uzun (VIX %deg ust %20 (252g)),UVXY_Y,1,1
+R1-09,"TERS: VIXY kisa, sicramadan 2 gun sonra, 8 gun (VIX %deg ust %20 (252g))",VIXY,-1,0
+R1-09,VIXY uzun (VIX %deg>=+%20),VIXY,0,1
+R1-09,UVXY_E uzun (VIX %deg>=+%20),UVXY_E,0,1
+R1-09,UVXY_Y uzun (VIX %deg>=+%20),UVXY_Y,0,1
+R1-09,"TERS: VIXY kisa, sicramadan 2 gun sonra, 8 gun (VIX %deg>=+%20)",VIXY,0,0
+R1-09,VIXY uzun (VIXY getirisi ust %20 (252g; ayni gun vekil)),VIXY,1,1
+R1-09,UVXY_E uzun (VIXY getirisi ust %20 (252g; ayni gun vekil)),UVXY_E,1,1
+R1-09,UVXY_Y uzun (VIXY getirisi ust %20 (252g; ayni gun vekil)),UVXY_Y,1,1
+R1-09,"TERS: VIXY kisa, sicramadan 2 gun sonra, 8 gun (VIXY getirisi ust %20 (252g; ayni gun vekil))",VIXY,0,0
+R1-10,"SVXY_E uzun (VIX>=35, hepsi)",SVXY_E,0,1
+R1-10,"SVXY_Y uzun (VIX>=35, hepsi)",SVXY_Y,0,1
+R1-10,"VIXY uzun (VIX>=35, hepsi)",VIXY,0,1
+R1-10,"SVXY_E uzun (VIX>=35, VIX/VIX3M>1)",SVXY_E,0,1
+R1-10,"SVXY_Y uzun (VIX>=35, VIX/VIX3M>1)",SVXY_Y,0,1
+R1-10,"VIXY uzun (VIX>=35, VIX/VIX3M>1)",VIXY,0,1
+R1-10,"SPY uzun (VIX>=35, VIX/VIX3M>1)",SPY,0,1
+R1-10,"QQQ uzun (VIX>=35, VIX/VIX3M>1)",QQQ,0,1
+R1-10,"SVXY_E uzun (VIX>=35, VIX/VIX3M<1)",SVXY_E,0,0
+R1-10,"SVXY_Y uzun (VIX>=35, VIX/VIX3M<1)",SVXY_Y,0,0
+R1-10,"VIXY uzun (VIX>=35, VIX/VIX3M<1)",VIXY,0,0
+R1-10,"SPY uzun (VIX>=35, VIX/VIX3M<1)",SPY,0,0
+R1-10,"QQQ uzun (VIX>=35, VIX/VIX3M<1)",QQQ,0,0
+R1-13,VIXY kisa (VVIX ust %10 (252g) ve VIX/VIX3M<1),VIXY,0,0
+R1-13,SVXY_E uzun (VVIX ust %10 (252g) ve VIX/VIX3M<1),SVXY_E,0,0
+R1-13,SVXY_Y uzun (VVIX ust %10 (252g) ve VIX/VIX3M<1),SVXY_Y,0,0
+R1-13,VIXY kisa (VVIX/VIX ust %10 (252g) ve VIX/VIX3M<1),VIXY,0,0
+R1-13,SVXY_E uzun (VVIX/VIX ust %10 (252g) ve VIX/VIX3M<1),SVXY_E,0,0
+R1-13,SVXY_Y uzun (VVIX/VIX ust %10 (252g) ve VIX/VIX3M<1),SVXY_Y,0,0
+R4-09,"IWM devam (SPY>+%1 al, <-%1 sat), VIX>25",IWM,-1,-1
+R4-09,"IWM geri donus (ters isaret), VIX>25",IWM,1,1
+R4-09,"IWM devam (SPY>+%1 al, <-%1 sat), VIX>30",IWM,0,-1
+R4-09,"IWM geri donus (ters isaret), VIX>30",IWM,0,1
+R4-09,"IWM devam (SPY>+%1 al, <-%1 sat), VIX<20",IWM,0,0
+R4-09,"IWM geri donus (ters isaret), VIX<20",IWM,0,0
+R5-12,TQQQ+SQQQ birlikte aciga satis (her gun),,"{'TQQQ': -1, 'SQQQ': -1}","{'TQQQ': -1, 'SQQQ': -1}"
+R5-12,TQQQ+SQQQ aciga satis (VIX>=30 ve |QQQ 20g|<%5),,"{'TQQQ': 0, 'SQQQ': 0}","{'TQQQ': 0, 'SQQQ': 0}"
+R8-03,SPY uzun (VIX>=35),SPY,0,1
+R8-03,QQQ uzun (VIX>=35),QQQ,0,1
+R8-03,UPRO uzun (VIX>=35),UPRO,0,1
+R8-03,SPY uzun (VIX>=40),SPY,0,0
+R8-03,QQQ uzun (VIX>=40),QQQ,0,0
+R8-03,UPRO uzun (VIX>=40),UPRO,0,0
+R8-03,SPY uzun (VIX>=50),SPY,0,0
+R8-03,QQQ uzun (VIX>=50),QQQ,0,0
+R8-03,UPRO uzun (VIX>=50),UPRO,0,0
+R8-03,SPY uzun (VIX 252g yuzdelik>=%97),SPY,1,1
+R8-03,QQQ uzun (VIX 252g yuzdelik>=%97),QQQ,1,1
+R8-03,UPRO uzun (VIX 252g yuzdelik>=%97),UPRO,1,1
+R8-03,SPY uzun (VIX 25-35 kovasi (karsilastirma)),SPY,1,0
+R8-03,QQQ uzun (VIX 25-35 kovasi (karsilastirma)),QQQ,1,0
+R8-03,UPRO uzun (VIX 25-35 kovasi (karsilastirma)),UPRO,1,0
+R8-03,"SPY uzun (VIX>=35, ilk tetik + 5 gun bekleme)",SPY,0,1
+R8-03,"QQQ uzun (VIX>=35, ilk tetik + 5 gun bekleme)",QQQ,0,1
+R8-03,"UPRO uzun (VIX>=35, ilk tetik + 5 gun bekleme)",UPRO,0,1
+R3-07,"SPY uzun (DIX>=0,45)",SPY,0,0
+R3-07,"QQQ uzun (DIX>=0,45)",QQQ,0,0
+R3-07,"SPXL uzun (DIX>=0,45)",SPXL,0,0
+R3-07,SPY uzun (DIX 252g ust %10),SPY,0,0
+R3-07,QQQ uzun (DIX 252g ust %10),QQQ,0,0
+R3-07,SPXL uzun (DIX 252g ust %10),SPXL,0,0
+R3-06,"SPY iki yonlu (dGEX ust %20 uzun, alt %20 kisa)",SPY,0,0
+R3-06,SPY iki yonlu TERS isaret,SPY,0,0
+R3-06,SPY uzun bacak (dGEX ust %20),SPY,0,0
+R3-06,SPY kisa bacak (dGEX alt %20),SPY,0,0
+R3-06,"QQQ iki yonlu (dGEX ust %20 uzun, alt %20 kisa)",QQQ,0,0
+R3-06,QQQ iki yonlu TERS isaret,QQQ,0,0
+R3-06,QQQ uzun bacak (dGEX ust %20),QQQ,0,0
+R3-06,QQQ kisa bacak (dGEX alt %20),QQQ,0,0

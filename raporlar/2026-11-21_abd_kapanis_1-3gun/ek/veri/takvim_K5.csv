@@ -1,0 +1,153 @@
+kural_id,ad,yon,h,giris_kapanis,cikis_kapanis,yarim_gun_giris,hedefler,oos_gecti
+EK-T1,Sukran Gunu haftasi: onceki cuma -> Kara Cuma (4 gun),1,1,2026-11-20,2026-11-23,False,SPY/IWM/QQQ,False
+EK-T1,Sukran Gunu haftasi: onceki cuma -> Kara Cuma (4 gun),1,2,2026-11-20,2026-11-24,False,SPY/IWM/QQQ,False
+EK-T1,Sukran Gunu haftasi: onceki cuma -> Kara Cuma (4 gun),1,3,2026-11-20,2026-11-25,False,SPY/IWM/QQQ,False
+EK-T1,Sukran Gunu haftasi: onceki cuma -> Kara Cuma (4 gun),1,4,2026-11-20,2026-11-27,False,SPY/IWM/QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,1,2026-11-20,2026-11-23,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,1,2026-11-20,2026-11-23,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,1,2026-11-20,2026-11-23,False,SEPET,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,2,2026-11-20,2026-11-24,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,2,2026-11-20,2026-11-24,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,2,2026-11-20,2026-11-24,False,SEPET,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,3,2026-11-20,2026-11-25,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,3,2026-11-20,2026-11-25,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,3,2026-11-20,2026-11-25,False,SEPET,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,5,2026-11-20,2026-11-30,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,5,2026-11-20,2026-11-30,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,5,2026-11-20,2026-11-30,False,SEPET,False
+R7-02A,E2-A Dash for Cash uzun T-4 -> T+3,1,1,2026-11-23,2026-11-24,False,SPY/IWM/QQQ,False
+R7-02A,E2-A Dash for Cash uzun T-4 -> T+3,1,2,2026-11-23,2026-11-25,False,SPY/IWM/QQQ,False
+R7-02A,E2-A Dash for Cash uzun T-4 -> T+3,1,3,2026-11-23,2026-11-27,False,SPY/IWM/QQQ,False
+R7-02A,E2-A Dash for Cash uzun T-4 -> T+3,1,7,2026-11-23,2026-12-03,False,SPY/IWM/QQQ,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,1,2026-11-23,2026-11-24,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,2,2026-11-23,2026-11-25,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,3,2026-11-23,2026-11-27,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,5,2026-11-23,2026-12-01,False,SPY/QQQ/SPXL,False
+EK-B1h3,TLT ay sonu uzun T-3 -> T,1,3,2026-11-24,2026-11-30,False,TLT,False
+EK-T2,Sukran Gunu: sali kapanisi -> Kara Cuma (2 gun),1,2,2026-11-24,2026-11-27,False,SPY/IWM/QQQ,False
+R7-07,E6 tatil oncesi gun (1 gun),1,1,2026-11-24,2026-11-25,False,IWM/SPY/TNA,False
+EK-B1h2,TLT ay sonu uzun T-2 -> T,1,2,2026-11-25,2026-11-30,False,TLT,False
+R7-02A1,E2-A1 (T+1 kaymasi) uzun T-2 -> T,1,2,2026-11-25,2026-11-30,False,SPY/IWM/QQQ,False
+EK-B1h1,TLT ay sonu uzun T-1 -> T,1,1,2026-11-27,2026-11-30,True,TLT,False
+R7-01,E1 Ay donumu T-1 -> yeni ay 3. gun,1,1,2026-11-27,2026-11-30,True,SPY/QQQ/IWM/SPXL/TQQQ,False
+R7-01,E1 Ay donumu T-1 -> yeni ay 3. gun,1,2,2026-11-27,2026-12-01,True,SPY/QQQ/IWM/SPXL/TQQQ,False
+R7-01,E1 Ay donumu T-1 -> yeni ay 3. gun,1,3,2026-11-27,2026-12-02,True,SPY/QQQ/IWM/SPXL/TQQQ,False
+R7-01,E1 Ay donumu T-1 -> yeni ay 3. gun,1,4,2026-11-27,2026-12-03,True,SPY/QQQ/IWM/SPXL/TQQQ,False
+EK-B2,TLT ay basi kisa T -> T+h,-1,1,2026-11-30,2026-12-01,False,TLT,False
+EK-B2,TLT ay basi kisa T -> T+h,-1,2,2026-11-30,2026-12-02,False,TLT,False
+EK-B2,TLT ay basi kisa T -> T+h,-1,3,2026-11-30,2026-12-03,False,TLT,False
+R7-09S,E8 ayni sepet Aralik basi kisa: T-19 -> T-4 (15 gun),-1,15,2026-12-03,2026-12-24,False,COK,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,1,2026-12-07,2026-12-08,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,2,2026-12-07,2026-12-09,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,3,2026-12-07,2026-12-10,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,5,2026-12-07,2026-12-14,False,SPY/QQQ/SPXL,False
+R7-04,E3 FOMC oncesi: onceki kapanis -> karar gunu,1,1,2026-12-08,2026-12-09,False,SPY/QQQ/IWM/TLT,False
+EK-M2,FOMC sonrasi: karar gunu kapanisi -> +h,1,1,2026-12-09,2026-12-10,False,SPY/QQQ/IWM/TLT,False
+EK-M2,FOMC sonrasi: karar gunu kapanisi -> +h,1,2,2026-12-09,2026-12-11,False,SPY/QQQ/IWM/TLT,False
+EK-M2,FOMC sonrasi: karar gunu kapanisi -> +h,1,3,2026-12-09,2026-12-14,False,SPY/QQQ/IWM/TLT,False
+R7-06A,E5 vade haftasi uzun,1,1,2026-12-11,2026-12-14,False,SPY,False
+R7-06A,E5 vade haftasi uzun,1,1,2026-12-11,2026-12-14,False,QQQ,False
+R7-06A,E5 vade haftasi uzun (5 buyuk hisse sepeti),1,1,2026-12-11,2026-12-14,False,SEPET,False
+R7-06A,E5 vade haftasi uzun,1,2,2026-12-11,2026-12-15,False,SPY,False
+R7-06A,E5 vade haftasi uzun,1,2,2026-12-11,2026-12-15,False,QQQ,False
+R7-06A,E5 vade haftasi uzun (5 buyuk hisse sepeti),1,2,2026-12-11,2026-12-15,False,SEPET,False
+R7-06A,E5 vade haftasi uzun,1,3,2026-12-11,2026-12-16,False,SPY,False
+R7-06A,E5 vade haftasi uzun,1,3,2026-12-11,2026-12-16,False,QQQ,False
+R7-06A,E5 vade haftasi uzun (5 buyuk hisse sepeti),1,3,2026-12-11,2026-12-16,False,SEPET,False
+R7-06A,E5 vade haftasi uzun,1,5,2026-12-11,2026-12-18,False,SPY,False
+R7-06A,E5 vade haftasi uzun,1,5,2026-12-11,2026-12-18,False,QQQ,False
+R7-06A,E5 vade haftasi uzun (5 buyuk hisse sepeti),1,5,2026-12-11,2026-12-18,False,SEPET,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,1,2026-12-14,2026-12-15,False,SPY/QQQ/SPXL,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,2,2026-12-14,2026-12-16,False,SPY/QQQ/SPXL,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,3,2026-12-14,2026-12-17,False,SPY/QQQ/SPXL,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,5,2026-12-14,2026-12-21,False,SPY/QQQ/SPXL,False
+R7-02B,E2-B satis baskisi kisa T-9 -> T-4,-1,1,2026-12-17,2026-12-18,False,SPY/IWM/QQQ,False
+R7-02B,E2-B satis baskisi kisa T-9 -> T-4,-1,2,2026-12-17,2026-12-21,False,SPY/IWM/QQQ,False
+R7-02B,E2-B satis baskisi kisa T-9 -> T-4,-1,3,2026-12-17,2026-12-22,False,SPY/IWM/QQQ,False
+R7-02B,E2-B satis baskisi kisa T-9 -> T-4,-1,5,2026-12-17,2026-12-24,False,SPY/IWM/QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,1,2026-12-18,2026-12-21,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,1,2026-12-18,2026-12-21,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,1,2026-12-18,2026-12-21,False,SEPET,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,2,2026-12-18,2026-12-22,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,2,2026-12-18,2026-12-22,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,2,2026-12-18,2026-12-22,False,SEPET,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,3,2026-12-18,2026-12-23,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,3,2026-12-18,2026-12-23,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,3,2026-12-18,2026-12-23,False,SEPET,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,5,2026-12-18,2026-12-28,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,5,2026-12-18,2026-12-28,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,5,2026-12-18,2026-12-28,False,SEPET,False
+R7-02B1,E2-B1 (T+1 kaymasi) kisa T-7 -> T-2,-1,1,2026-12-21,2026-12-22,False,SPY/IWM/QQQ,False
+R7-02B1,E2-B1 (T+1 kaymasi) kisa T-7 -> T-2,-1,2,2026-12-21,2026-12-23,False,SPY/IWM/QQQ,False
+R7-02B1,E2-B1 (T+1 kaymasi) kisa T-7 -> T-2,-1,3,2026-12-21,2026-12-24,False,SPY/IWM/QQQ,False
+R7-02B1,E2-B1 (T+1 kaymasi) kisa T-7 -> T-2,-1,5,2026-12-21,2026-12-29,False,SPY/IWM/QQQ,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,1,2026-12-21,2026-12-22,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,2,2026-12-21,2026-12-23,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,3,2026-12-21,2026-12-24,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,5,2026-12-21,2026-12-29,False,SPY/QQQ/SPXL,False
+R7-07,E6 tatil oncesi gun (1 gun),1,1,2026-12-23,2026-12-24,False,IWM/SPY/TNA,False
+R7-08,E7 Noel rallisi T-5 -> Ocak 2. gun (7 gun),1,1,2026-12-23,2026-12-24,False,SPY/IWM/QQQ,False
+R7-08,E7 Noel rallisi T-5 -> Ocak 2. gun (7 gun),1,2,2026-12-23,2026-12-28,False,SPY/IWM/QQQ,False
+R7-08,E7 Noel rallisi T-5 -> Ocak 2. gun (7 gun),1,3,2026-12-23,2026-12-29,False,SPY/IWM/QQQ,False
+R7-08,E7 Noel rallisi T-5 -> Ocak 2. gun (7 gun),1,7,2026-12-23,2027-01-05,False,SPY/IWM/QQQ,False
+R7-02A,E2-A Dash for Cash uzun T-4 -> T+3,1,1,2026-12-24,2026-12-28,True,SPY/IWM/QQQ,False
+R7-02A,E2-A Dash for Cash uzun T-4 -> T+3,1,2,2026-12-24,2026-12-29,True,SPY/IWM/QQQ,False
+R7-02A,E2-A Dash for Cash uzun T-4 -> T+3,1,3,2026-12-24,2026-12-30,True,SPY/IWM/QQQ,False
+R7-02A,E2-A Dash for Cash uzun T-4 -> T+3,1,7,2026-12-24,2027-01-06,True,SPY/IWM/QQQ,False
+R7-09I,E8 IWM uzun Aralik T-4 -> Ocak 3. gun,1,1,2026-12-24,2026-12-28,True,IWM,False
+R7-09I,E8 IWM uzun Aralik T-4 -> Ocak 3. gun,1,2,2026-12-24,2026-12-29,True,IWM,False
+R7-09I,E8 IWM uzun Aralik T-4 -> Ocak 3. gun,1,3,2026-12-24,2026-12-30,True,IWM,False
+R7-09I,E8 IWM uzun Aralik T-4 -> Ocak 3. gun,1,7,2026-12-24,2027-01-06,True,IWM,False
+R7-09L,"E8 vergi zarari: YTD en kotu %10 uzun, Aralik T-4 -> Ocak 3. gun",1,1,2026-12-24,2026-12-28,True,COK,False
+R7-09L,"E8 vergi zarari: YTD en kotu %10 uzun, Aralik T-4 -> Ocak 3. gun",1,2,2026-12-24,2026-12-29,True,COK,False
+R7-09L,"E8 vergi zarari: YTD en kotu %10 uzun, Aralik T-4 -> Ocak 3. gun",1,3,2026-12-24,2026-12-30,True,COK,False
+R7-09L,"E8 vergi zarari: YTD en kotu %10 uzun, Aralik T-4 -> Ocak 3. gun",1,7,2026-12-24,2027-01-06,True,COK,False
+EK-B1h3,TLT ay sonu uzun T-3 -> T,1,3,2026-12-28,2026-12-31,False,TLT,False
+EK-B1h2,TLT ay sonu uzun T-2 -> T,1,2,2026-12-29,2026-12-31,False,TLT,False
+R7-02A1,E2-A1 (T+1 kaymasi) uzun T-2 -> T,1,2,2026-12-29,2026-12-31,False,SPY/IWM/QQQ,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,1,2026-12-29,2026-12-30,False,SPY/QQQ/SPXL,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,2,2026-12-29,2026-12-31,False,SPY/QQQ/SPXL,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,3,2026-12-29,2027-01-04,False,SPY/QQQ/SPXL,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,5,2026-12-29,2027-01-06,False,SPY/QQQ/SPXL,False
+EK-B1h1,TLT ay sonu uzun T-1 -> T,1,1,2026-12-30,2026-12-31,False,TLT,False
+R7-01,E1 Ay donumu T-1 -> yeni ay 3. gun,1,1,2026-12-30,2026-12-31,False,SPY/QQQ/IWM/SPXL/TQQQ,False
+R7-01,E1 Ay donumu T-1 -> yeni ay 3. gun,1,2,2026-12-30,2027-01-04,False,SPY/QQQ/IWM/SPXL/TQQQ,False
+R7-01,E1 Ay donumu T-1 -> yeni ay 3. gun,1,3,2026-12-30,2027-01-05,False,SPY/QQQ/IWM/SPXL/TQQQ,False
+R7-01,E1 Ay donumu T-1 -> yeni ay 3. gun,1,4,2026-12-30,2027-01-06,False,SPY/QQQ/IWM/SPXL/TQQQ,False
+R7-07,E6 tatil oncesi gun (1 gun),1,1,2026-12-30,2026-12-31,False,IWM/SPY/TNA,False
+EK-B2,TLT ay basi kisa T -> T+h,-1,1,2026-12-31,2027-01-04,False,TLT,False
+EK-B2,TLT ay basi kisa T -> T+h,-1,2,2026-12-31,2027-01-05,False,TLT,False
+EK-B2,TLT ay basi kisa T -> T+h,-1,3,2026-12-31,2027-01-06,False,TLT,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,1,2027-01-06,2027-01-07,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,2,2027-01-06,2027-01-08,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,3,2027-01-06,2027-01-11,False,SPY/QQQ/SPXL,False
+R7-05E,E4 FOMC dongusu cift hafta uzun (5 gun),1,5,2027-01-06,2027-01-13,False,SPY/QQQ/SPXL,False
+R7-06A,E5 vade haftasi uzun,1,1,2027-01-08,2027-01-11,False,SPY,False
+R7-06A,E5 vade haftasi uzun,1,1,2027-01-08,2027-01-11,False,QQQ,False
+R7-06A,E5 vade haftasi uzun (5 buyuk hisse sepeti),1,1,2027-01-08,2027-01-11,False,SEPET,False
+R7-06A,E5 vade haftasi uzun,1,2,2027-01-08,2027-01-12,False,SPY,False
+R7-06A,E5 vade haftasi uzun,1,2,2027-01-08,2027-01-12,False,QQQ,False
+R7-06A,E5 vade haftasi uzun (5 buyuk hisse sepeti),1,2,2027-01-08,2027-01-12,False,SEPET,False
+R7-06A,E5 vade haftasi uzun,1,3,2027-01-08,2027-01-13,False,SPY,False
+R7-06A,E5 vade haftasi uzun,1,3,2027-01-08,2027-01-13,False,QQQ,False
+R7-06A,E5 vade haftasi uzun (5 buyuk hisse sepeti),1,3,2027-01-08,2027-01-13,False,SEPET,False
+R7-06A,E5 vade haftasi uzun,1,5,2027-01-08,2027-01-15,False,SPY,False
+R7-06A,E5 vade haftasi uzun,1,5,2027-01-08,2027-01-15,False,QQQ,False
+R7-06A,E5 vade haftasi uzun (5 buyuk hisse sepeti),1,5,2027-01-08,2027-01-15,False,SEPET,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,1,2027-01-13,2027-01-14,False,SPY/QQQ/SPXL,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,2,2027-01-13,2027-01-15,False,SPY/QQQ/SPXL,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,3,2027-01-13,2027-01-19,False,SPY/QQQ/SPXL,False
+R7-05O,E4 FOMC dongusu tek hafta kisa (5 gun),-1,5,2027-01-13,2027-01-21,False,SPY/QQQ/SPXL,False
+R7-07,E6 tatil oncesi gun (1 gun),1,1,2027-01-14,2027-01-15,False,IWM/SPY/TNA,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,1,2027-01-15,2027-01-19,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,1,2027-01-15,2027-01-19,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,1,2027-01-15,2027-01-19,False,SEPET,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,2,2027-01-15,2027-01-20,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,2,2027-01-15,2027-01-20,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,2,2027-01-15,2027-01-20,False,SEPET,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,3,2027-01-15,2027-01-21,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,3,2027-01-15,2027-01-21,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,3,2027-01-15,2027-01-21,False,SEPET,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,5,2027-01-15,2027-01-25,False,SPY,False
+R7-06B,E5 vade sonrasi hafta kisa,-1,5,2027-01-15,2027-01-25,False,QQQ,False
+R7-06B,E5 vade sonrasi hafta kisa (5 buyuk hisse sepeti),-1,5,2027-01-15,2027-01-25,False,SEPET,False

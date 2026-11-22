@@ -376,7 +376,8 @@ for kid in aday_kural:
 
 KARAR = pd.DataFrame(KARAR)
 if len(KARAR):
-    KARAR["bh_yerel_10"] = M.bh(KARAR["oos_p"].to_numpy(float), 0.10)
+    _red, _q = M.bh(KARAR["oos_p"].to_numpy(float), 0.10)
+    KARAR["bh_yerel_10"], KARAR["bh_yerel_q"] = _red, _q   # yalniz bu ailenin adaylari; birlesik BH ana ajanda
     ky2 = pd.concat(TAM)
     ky2 = ky2[(ky2.korunma == "yok") & (ky2.rejim == "hepsi") & (ky2.komisyon == "hisse") & (ky2.cikis == "kapanis")]
     ky2 = ky2.pivot_table(index=["kural_id", "donem", "h"], columns="giris", values=["net_bps", "brut_bps", "n_islem"])
@@ -510,8 +511,9 @@ for etf, u in (("UPRO", "SPY"), ("TQQQ", "QQQ"), ("SOXL", "SOXX")):
     dur.append({"etf": etf, "dayanak": u, "kaldirac": 3, "h": 3, "olay": "K1 + %3 stop", "vix_kova": "hepsi",
                 "n": int(okm.sum()), "ort_sapma_bps": (stop[okm] - duz[okm]).mean() * 1e4,
                 "medyan_sapma_bps": np.median(stop[okm] - duz[okm]) * 1e4,
-                "p05_bps": duz[okm].mean() * 1e4, "p95_bps": stop[okm].mean() * 1e4,
-                "ort_abs_bps": np.nan, "dayanak_abs_ort_bps": np.nan})
+                "p05_bps": np.nan, "p95_bps": np.nan, "ort_abs_bps": np.nan, "dayanak_abs_ort_bps": np.nan,
+                "brut_durmasiz_bps": duz[okm].mean() * 1e4, "brut_stoplu_bps": stop[okm].mean() * 1e4,
+                "stop_tetik_orani": float(np.mean([1.0 if a != b else 0.0 for a, b in zip(duz[okm], stop[okm])]))})
 YOL = pd.concat([YOL, pd.DataFrame(dur)], ignore_index=True)
 YOL.to_csv(Y["yol"], index=False)
 
@@ -536,7 +538,9 @@ for k_, v_ in dur_bilgi.items():
 BUGUN.to_csv(Y["bugun"], index=False)
 
 # ============================================================================ yaz
-out = [TARAMA[~TARAMA.kural_id.isin(aday_kural)]] + TAM + EK
+_akey = set(zip(ADAY["kural_id"], ADAY["h"].astype(int)))
+_tk = [(a, int(b)) in _akey for a, b in zip(TARAMA["kural_id"], TARAMA["h"])]
+out = [TARAMA[~np.array(_tk, bool)]] + TAM + EK          # aday (kural, h) satirlari tam degerlendirmeden gelir
 SON = pd.concat(out, ignore_index=True)
 M.yaz_sonuc(SON, Y["sonuc"])
 if len(KARAR):
@@ -557,4 +561,14 @@ print("\n== KOMSU ==")
 print(KOMSU.round(1).to_string(index=False) if len(KOMSU) else "yok")
 print("\n== BUGUN ==")
 print(BUGUN.to_string(index=False))
+print("\n== R3-11 kayma (K - A, net bps; korunmasiz, hisse) ==")
+_k = ky[ky.donem.isin(["IS", "IS2"])]
+print(_k.groupby(_k.kural_id.str.split(".").str[0])["kayma_net_bps"].describe().round(1).to_string())
+print("butun IS kural x h: ortalama", round(_k.kayma_net_bps.mean(), 1), "medyan", round(_k.kayma_net_bps.median(), 1),
+      "pozitif oran", round((_k.kayma_net_bps > 0).mean(), 2))
+print("\n== R8-10 yol sapmasi (olay=hepsi) ==")
+_y = YOL[(YOL.olay == "hepsi")].pivot_table(index=["etf", "h"], columns="vix_kova", values="ort_sapma_bps")
+print(_y.round(1).to_string())
+_y2 = YOL[(YOL.olay != "hepsi") & (YOL.vix_kova == "hepsi")].drop(columns=["dayanak", "vix_kova"])
+print(_y2.round(1).to_string(index=False))
 log("bitti")

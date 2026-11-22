@@ -59,6 +59,24 @@ def nanort(a):
 
 
 # ----------------------------------------------------------------------------- hazirlik
+def uye_artik(m, kodlar):
+    """Uye artik getirileri (tarih x kod), t gunu 16:00 ET'de bilinen: SONRA sinifi 1 gun gecikmeli."""
+    ev = m.evren
+    sinif = ev["kapanis_sinifi"].astype(str)
+    A = m.artik_getiri(list(kodlar), "SPY", "oto", 250, True)
+    # IS'te gorulen veri kusuru (QUBT 2018-19 kabuk sonrasi, SVXY 02.2018, CPER, TRY=X: basiklik > 100, tek gunluk
+    # ucdegerler |t| > 10 uretiyordu) uzerine, OOS'a bakilmadan eklenen iki koruma:
+    #  (1) islem goren ABD16 uyenin artigi yalniz 60 gunluk dolar hacmi >= 20 mln $ gunlerinde kullanilir (bayat fiyat);
+    #  (2) her uyenin artigi t-1'de biten 250 gunluk sigmasinin +-5 katinda kirpilir (ileriye bakmaz).
+    uyg = m.hedef_uygun()
+    for c in A.columns:
+        if sinif[c] == "ABD16" and np.isfinite(ev.at[c, "maliyet_bps"]):
+            A[c] = A[c].where(uyg[:, m.kpos[c]])
+    sg = A.rolling(250, min_periods=60).std().shift(1)
+    A = A.clip(lower=-5.0 * sg, upper=5.0 * sg).where(sg > 0)
+    return A
+
+
 def hazirla(m):
     ev = m.evren
     IS = M.donem_maskesi(m.idx, "IS")
@@ -96,17 +114,7 @@ def hazirla(m):
         ofs += int(iyi.max()) + 1 if len(iyi) else 0
     uye = kume[kume >= 0]
     K = int(uye.max()) + 1
-    A = m.artik_getiri(list(uye.index), "SPY", "oto", 250, True)
-    # IS'te gorulen veri kusuru (QUBT 2018-19 kabuk sonrasi, SVXY 02.2018, CPER, TRY=X: basiklik > 100, tek gunluk
-    # ucdegerler |t| > 10 uretiyordu) uzerine, OOS'a bakilmadan eklenen iki koruma:
-    #  (1) islem goren ABD16 uyenin artigi yalniz 60 gunluk dolar hacmi >= 20 mln $ gunlerinde kullanilir (bayat fiyat);
-    #  (2) her uyenin artigi t-1'de biten 250 gunluk sigmasinin +-5 katinda kirpilir (ileriye bakmaz).
-    uyg = m.hedef_uygun()
-    for c in A.columns:
-        if sinif[c] == "ABD16" and np.isfinite(ev.at[c, "maliyet_bps"]):
-            A[c] = A[c].where(uyg[:, m.kpos[c]])
-    sg = A.rolling(250, min_periods=60).std().shift(1)
-    A = A.clip(lower=-5.0 * sg, upper=5.0 * sg).where(sg > 0)
+    A = uye_artik(m, list(uye.index))
     An = A.to_numpy(float)
     kno = uye.to_numpy()
     X = np.column_stack([nanort(An[:, kno == k]) for k in range(K)])
@@ -386,8 +394,8 @@ def asama_degerlendir(tam_liste=None):
     D = yukle_D(m)
     E = m.tarama_hedef_maskesi(ADV_ALT)
     ad = pd.read_csv(os.path.join(ARA, "oos_onay.csv"))
-    if tam_liste is None:
-        tam_liste = ad.aday_id[ad.bh_gecti].tolist()
+    if tam_liste is None:        # BH'den gecenler; ayrica bilgi icin OOS'ta ayni yonde regresyon t >= 2 olanlar
+        tam_liste = ad.aday_id[ad.bh_gecti | (ad.z_oos >= 2.0)].tolist()
     parca = []
     for a in ad.itertuples():
         S, hed, G, _ = sinyal_kur(m, D, E, a)
@@ -415,11 +423,52 @@ def asama_degerlendir(tam_liste=None):
     son = pd.concat(parca, ignore_index=True)
     M.yaz_sonuc(son, SONUC)
     print(f"{len(son)} satir -> {SONUC}  [{time.time() - t0:.0f} sn]")
+    # tarama duzeyi sonuclar (regresyon + plasebo) ve bugunku durum
+    bug = []
+    for a in ad.itertuples():
+        _, _, _, z = sinyal_kur(m, D, E, a)
+        xs = D["LOO"][:, int(a.y_no)] if bool(a.ayni_sepet) else D["X"][:, int(a.x_sepet)]
+        x = pd.Series(np.array(xs, float), index=m.idx)
+        o, sd = x.rolling(250, min_periods=125).mean(), x.rolling(250, min_periods=125).std()
+        bug.append({"aday_id": a.aday_id, "son_gun": str(z.dropna().index[-1].date()), "z_son": float(z.dropna().iloc[-1]),
+                    "x_son_pct": float(x.dropna().iloc[-1]) * 100, "sinyal_son": int(np.sign(z.iloc[-1]) * np.sign(a.t_is)) if abs(z.iloc[-1]) > 1 else 0,
+                    "esik_ust_pct": float(o.iloc[-1] + sd.iloc[-1]) * 100, "esik_alt_pct": float(o.iloc[-1] - sd.iloc[-1]) * 100})
+    ad2 = ad.merge(pd.DataFrame(bug), on="aday_id")
+    ad2.drop(columns=["y_no"]).to_csv(os.path.join(VERI, "tarama_K8.csv"), index=False)
+    pl = plasebo_oku()
+    if len(pl):
+        pl[pl.tip != "gercek"].to_csv(os.path.join(VERI, "plasebo_K8.csv"), index=False)
     return son
+
+
+def asama_bakis():
+    """Ileriye bakma denetimi (motor.bakis_testi): sepet uyeligi sabit (IS'te kuruldu), sinyal bozuk panelden
+    yeniden hesaplanir. T0 = 2015 de gecmeli (uyelik disinda sinyal yalniz gecmis veriyi kullanir)."""
+    m = M.Motor()
+    D = yukle_D(m)
+    ad = pd.read_csv(ADAY)
+    kume = D["kume"]
+    for aid in ad.aday_id[:3].tolist() + ["S-008", "S-026"]:
+        a = ad[ad.aday_id == aid].iloc[0]
+        uy = [c for c in kume.index[kume == int(a.x_sepet)] if not (bool(a.ayni_sepet) and c == a.y)]
+
+        def kural(mm, uy=uy, a=a):
+            x = pd.Series(nanort(uye_artik(mm, uy).to_numpy(float)), index=mm.idx)
+            z = M.z_skor(x, 250)
+            return (np.sign(z) * np.sign(a.t_is)).where(z.abs() > 1.0).fillna(0.0).astype(int)
+        tamam, rapor = m.bakis_testi(kural)
+        s0 = kural(m)
+        xs = D["LOO"][:, int(a.y_no)] if bool(a.ayni_sepet) else D["X"][:, int(a.x_sepet)]
+        z0 = M.z_skor(pd.Series(np.array(xs, float), index=m.idx), 250)
+        s1 = (np.sign(z0) * np.sign(a.t_is)).where(z0.abs() > 1.0).fillna(0.0).astype(int)
+        print(aid, "bakis_testi:", "TEMIZ" if tamam else f"HATA {rapor}", "| onbellekle ayni:", bool((s0 == s1).all()))
 
 
 if __name__ == "__main__":
     arg = sys.argv[1:] or ["hepsi"]
+    if arg[0] == "bakis":
+        asama_bakis()
+        raise SystemExit(0)
     if arg[0] == "is":
         asama_is()
     elif arg[0] == "oos":

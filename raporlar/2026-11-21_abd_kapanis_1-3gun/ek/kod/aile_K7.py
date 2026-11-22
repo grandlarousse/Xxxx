@@ -417,6 +417,114 @@ def asama_bugun(m, v):
     return d
 
 
+# ----------------------------------------------------------------------------- R6-03 tanilari (OOS'tan gecen tek kural)
+TANI = os.path.join(VERI, "K7_tani_R6-03.csv")
+
+
+def so_wang(v, tcol="iR", uni="B", q=(0.2, 0.8), win=2, fiyat_s=None):
+    """R6-03 olay tablosu: s = t0-2 sinyal gunu, pre = P[s]/P[s-win] - SPY ayni; genisleyen q yuzdelikleri.
+    fiyat_s: (hisse_fiyat_dizisi, spy_fiyat_dizisi) verilirse s gunu fiyati bundan alinir (15:30 testi;
+    oran ham kapanis olcegiyle kurulur)."""
+    m, B, T = v.m, v.B, v.m.T
+    ci = B["ci"].to_numpy()
+    t0 = B[tcol].to_numpy()
+    s = t0 - 2
+    okk = s - win >= 0
+    ss, kk = np.clip(s, win, T - 1), v.kp[ci]
+    ac = m.A["adjclose"]
+    spy = ac[:, m.kpos["SPY"]]
+    pre = np.where(okk, ac[ss, kk] / ac[ss - win, kk] - spy[ss] / spy[ss - win], np.nan)
+    ins = v.U[uni][np.clip(s, 0, T - 1), ci] & okk
+    qq = np.full((len(B), 2), np.nan)
+    qq[ins] = genisleyen_q(s[ins], pre[ins], qs=q)
+    if fiyat_s is not None:
+        ph, ps = fiyat_s
+        cl = m.A["close"]
+        pre = ph / cl[ss - win, kk] - ps / cl[ss - win, m.kpos["SPY"]]
+    val = np.where(pre < qq[:, 0], 1, np.where(pre > qq[:, 1], -1, 0))
+    val = np.where(ins & np.isfinite(qq[:, 0]), val, 0)
+    return s, ci, val, pre, qq, ins
+
+
+def asama_tani(m, v):
+    sat, ozet = [], []
+
+    def kaydet(kid, ad, S, G, h=(3,), kor=("yok", "SPY:250"), donem=None):
+        var = dict(kid=kid, kural="R6-03", uni="B", ad=ad, girdi="t-4->t-2 getiri - SPY", G=G, kor="yok")
+        r = deg(m, var, S=S, h=h, giris=("K",), gece=False, korunma=kor, komisyon=("hisse",),
+                donemler=donem or ["IS", "OOS", "SON", "TUM"], rejimler=False, bootstrap=True,
+                notlar_ek="asama=tani; ")
+        sat.append(r)
+        return r
+
+    # 1) taban: buyuk evrende butun olaylar, R-2 kapanisinda al, R+1 kapanisinda cik
+    B = v.B
+    s, ci, val, pre, qq, ins = so_wang(v)
+    S0, G0 = olay_matris(v, s, ci, np.where(ins & np.isfinite(qq[:, 0]), 1, 0), np.abs(np.nan_to_num(pre)) + 1e-9)
+    kaydet("R6-03/tR/B/tum_olaylar(tani)", "Taban: butun bilanco olaylari R-2 al, R+1 cik", (S0 * v.U["B"]).astype(np.int8), G0)
+    # 2) komsu parametreler
+    for q, win, ek in (((0.15, 0.85), 2, "q15"), ((0.25, 0.75), 2, "q25"), ((0.2, 0.8), 1, "w1"), ((0.2, 0.8), 3, "w3")):
+        s, ci, val, pre, qq, ins = so_wang(v, q=q, win=win)
+        S1, G1 = olay_matris(v, s, ci, np.where(val > 0, 1, 0), np.abs(pre))
+        kaydet(f"R6-03/tR/B/uzun/{ek}(komsu)", f"G3 So-Wang uzun bacak, komsu parametre {ek}", (S1 * v.U["B"]).astype(np.int8), G1)
+    # 3) VIX>30 bolumleri (TUM), K, h=3, yok ve SPY:250
+    s, ci, val, pre, qq, ins = so_wang(v)
+    SL, GL = olay_matris(v, s, ci, np.where(val > 0, 1, 0), np.abs(pre))
+    SL = (SL * v.U["B"]).astype(np.int8)
+    sdf = pd.DataFrame(SL, index=m.idx, columns=v.kodlar)
+    gdf = pd.DataFrame(GL, index=m.idx, columns=v.kodlar)
+    for kor in ("yok", "SPY:250"):
+        isl = m.islemler(sdf, giris="K", h=3, korunma=kor, guc=gdf)
+        tab, oz = m.bolum_ozeti(isl, "hisse")
+        tab.to_csv(TANI.replace(".csv", f"_bolum_{kor.replace(':', '')}.csv"), index=False)
+        ozet.append({"olcu": f"vix30_bolum_{kor}", "deger": str({k: (round(x, 2) if isinstance(x, float) else x) for k, x in oz.items()})})
+        if kor == "yok":
+            isl_k = isl
+    # 4) 15:30 gercekcilik testi (son ~730 gun)
+    from yukle import saatlik
+    H = saatlik()
+    p15 = H["acilis_1530"]
+    T = m.T
+    hp = np.full(len(B), np.nan)
+    sp = np.full(len(B), np.nan)
+    tar = m.idx[np.clip(s, 0, T - 1)]
+    for j, (k, d) in enumerate(zip(np.array(v.kodlar)[ci], tar)):
+        if d in p15.index and k in p15.columns:
+            hp[j] = p15.at[d, k]
+            sp[j] = p15.at[d, "SPY"] if "SPY" in p15.columns else np.nan
+    s2, ci2, val2, pre2, qq2, ins2 = so_wang(v, fiyat_s=(hp, sp))
+    pencere = np.isfinite(hp) & np.isfinite(sp) & ins
+    kapanis_tet = pencere & (val > 0)
+    s1530_tet = pencere & (val2 > 0)
+    ort = (kapanis_tet & s1530_tet).sum()
+    S15, G15 = olay_matris(v, s, ci, np.where(s1530_tet, 1, 0), np.abs(np.nan_to_num(pre2)) + 1e-9)
+    S15 = (S15 * v.U["B"]).astype(np.int8)
+    SK, GK = olay_matris(v, s, ci, np.where(kapanis_tet, 1, 0), np.abs(np.nan_to_num(pre)) + 1e-9)
+    SK = (SK * v.U["B"]).astype(np.int8)
+    i15 = m.islemler(pd.DataFrame(S15, index=m.idx, columns=v.kodlar), giris="K", h=3, korunma="yok",
+                     guc=pd.DataFrame(G15, index=m.idx, columns=v.kodlar))
+    iK = m.islemler(pd.DataFrame(SK, index=m.idx, columns=v.kodlar), giris="K", h=3, korunma="yok",
+                    guc=pd.DataFrame(GK, index=m.idx, columns=v.kodlar))
+    ozet += [{"olcu": "1530_pencere_olay", "deger": int(pencere.sum())},
+             {"olcu": "1530_kapanis_tetik", "deger": int(kapanis_tet.sum())},
+             {"olcu": "1530_tetik", "deger": int(s1530_tet.sum())},
+             {"olcu": "1530_ortusme_orani(kapanis tetiklerinin)", "deger": round(ort / max(kapanis_tet.sum(), 1), 3)},
+             {"olcu": "1530_net_bps_kapanis_sinyal", "deger": round(iK["net_hisse"].mean() * 1e4, 1)},
+             {"olcu": "1530_net_bps_1530_sinyal", "deger": round(i15["net_hisse"].mean() * 1e4, 1)},
+             {"olcu": "1530_korunan_oran", "deger": round(i15["net_hisse"].mean() / iK["net_hisse"].mean(), 3)},
+             {"olcu": "1530_n_islem_1530", "deger": len(i15)}]
+    # 5) bugun: guncel esik (20.11.2026'ya kadarki butun olaylar)
+    son = ins & np.isfinite(pre) & (s <= T - 1)
+    gq = np.quantile(pre[son & (s < T)], [0.2, 0.8])
+    ozet.append({"olcu": "guncel_q20_q80_(t-4->t-2, SPY'ye gore)", "deger": f"{gq[0]:.4f} / {gq[1]:.4f}"})
+    # yil bazinda
+    isl_k["yil"] = pd.DatetimeIndex(isl_k["t"]).year
+    yb = isl_k.groupby("yil")["net_hisse"].agg(["count", "mean"])
+    ozet.append({"olcu": "yil_net_bps", "deger": "; ".join(f"{y}:{int(r['count'])}/{r['mean'] * 1e4:.0f}" for y, r in yb.iterrows())})
+    pd.DataFrame(ozet).to_csv(TANI, index=False)
+    return pd.concat(sat, ignore_index=True), pd.DataFrame(ozet), gq
+
+
 def main(asama="hepsi"):
     global VERI_V
     t0 = time.time()
@@ -451,6 +559,10 @@ def main(asama="hepsi"):
         if R is not None:
             M.yaz_sonuc(R, SONUC, ekle=True)
         print(f"tam: {0 if R is None else len(R)} satir ({time.time() - t0:.0f} sn)")
+    if asama in ("hepsi", "tani"):
+        R, oz, gq = asama_tani(m, v)
+        M.yaz_sonuc(R, SONUC, ekle=True)
+        print(oz.to_string(index=False))
     if asama in ("hepsi", "bugun"):
         print(asama_bugun(m, v).to_string(index=False))
     return m, v, vs

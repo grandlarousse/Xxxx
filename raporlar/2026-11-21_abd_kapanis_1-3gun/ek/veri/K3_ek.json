@@ -31,5 +31,111 @@
    "bh10_aile_ici": false,
    "bh_q_aile_ici": 0.4981003799240152
   }
- ]
+ ],
+ "ayni_vs_ertesi": [
+  {
+   "girdi": "USO",
+   "hedef": "XLE",
+   "ayni_gun_kor": 0.638,
+   "ertesi_gun_kor": -0.021,
+   "sonraki3_kor": 0.003
+  },
+  {
+   "girdi": "USO",
+   "hedef": "XOP",
+   "ayni_gun_kor": 0.655,
+   "ertesi_gun_kor": -0.049,
+   "sonraki3_kor": -0.027
+  },
+  {
+   "girdi": "CPER",
+   "hedef": "FCX",
+   "ayni_gun_kor": 0.377,
+   "ertesi_gun_kor": -0.03,
+   "sonraki3_kor": -0.009
+  },
+  {
+   "girdi": "TLT",
+   "hedef": "XLU",
+   "ayni_gun_kor": -0.082,
+   "ertesi_gun_kor": 0.085,
+   "sonraki3_kor": 0.082
+  },
+  {
+   "girdi": "TLT",
+   "hedef": "ITB",
+   "ayni_gun_kor": -0.151,
+   "ertesi_gun_kor": 0.014,
+   "sonraki3_kor": 0.044
+  },
+  {
+   "girdi": "TLT",
+   "hedef": "KRE",
+   "ayni_gun_kor": -0.405,
+   "ertesi_gun_kor": 0.026,
+   "sonraki3_kor": 0.033
+  },
+  {
+   "girdi": "UUP",
+   "hedef": "EEM",
+   "ayni_gun_kor": -0.327,
+   "ertesi_gun_kor": -0.031,
+   "sonraki3_kor": -0.013
+  },
+  {
+   "girdi": "GLD",
+   "hedef": "XLB",
+   "ayni_gun_kor": 0.139,
+   "ertesi_gun_kor": 0.026,
+   "sonraki3_kor": 0.038
+  },
+  {
+   "girdi": "HYG",
+   "hedef": "SPY",
+   "ayni_gun_kor": 0.771,
+   "ertesi_gun_kor": -0.062,
+   "sonraki3_kor": -0.007
+  },
+  {
+   "girdi": "SPHB",
+   "hedef": "SPY",
+   "ayni_gun_kor": 0.89,
+   "ertesi_gun_kor": -0.068,
+   "sonraki3_kor": -0.005
+  }
+ ],
+ "r809_sizintili": [
+  {
+   "donem": "IS",
+   "n_islem": 206,
+   "net_bps": 295.4981479894637,
+   "t_kume": 2.07941777781748,
+   "t_anormal": 2.0001083207972914
+  },
+  {
+   "donem": "OOS",
+   "n_islem": 319,
+   "net_bps": 116.84259236822267,
+   "t_kume": 0.42219271323795343,
+   "t_anormal": 0.3648513230139161
+  },
+  {
+   "donem": "SON",
+   "n_islem": 35,
+   "net_bps": 883.8501048679113,
+   "t_kume": NaN,
+   "t_anormal": NaN
+  }
+ ],
+ "bugun": {
+  "tarih": "2026-11-20",
+  "spy_kapanis": 689.8099975585938,
+  "spy_zirveden": -0.11459526655375551,
+  "spy_zirve_kapanis": 779.0900268554688,
+  "spy_15pct_esik": 662.2265228271484,
+  "spy_1g": -0.03640325441259451,
+  "vix_t": 35.88999938964844,
+  "vix_t_1": 28.440000534057617,
+  "r809_U_sinyal": 0
+ }
 }
