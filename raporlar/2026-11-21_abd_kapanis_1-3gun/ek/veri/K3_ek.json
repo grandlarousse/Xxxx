@@ -1,0 +1,35 @@
+{
+ "oos_ozet": [
+  {
+   "kural_id": "R8-09",
+   "varyant": "U",
+   "h": 3,
+   "cikis": "kapanis",
+   "hedef": "COK(171)",
+   "yon": "uzun",
+   "is_net_bps": 418.28561234355203,
+   "is_t": 2.5238453959649063,
+   "oos_n": 238,
+   "oos_net_bps": 25.430156959902163,
+   "oos_anormal_bps": 17.2287715082025,
+   "oos_t": 0.07154947652758908,
+   "oos_t_anormal": 0.047763179090911996,
+   "oos_p": 0.4981003799240152,
+   "oos_gecti": false,
+   "son_n": 35,
+   "son_net_bps": 883.8501048679113,
+   "son_t": NaN,
+   "girisA_oos_net_bps": -274.47663222186986,
+   "girisA_oos_t": -0.7929395439270935,
+   "basabas_bps": 49.09091338875445,
+   "vix30_bolum": 8,
+   "vix30_ayni_isaret": 0.75,
+   "vix30_net": 140.3256085617073,
+   "vix30_destekli": true,
+   "yayin": 2014,
+   "son_sinyal": 0,
+   "bh10_aile_ici": false,
+   "bh_q_aile_ici": 0.4981003799240152
+  }
+ ]
+}
