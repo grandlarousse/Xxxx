@@ -10,7 +10,7 @@ tarih,gun,olay,giris_acik
 2026-12-03,per,,"al_per(AL,h1,çıkış 2026-12-04) | nfp_once(AL,h1,çıkış 2026-12-04)"
 2026-12-04,cum,istihdam raporu 08:30,"al_cum(AL,h1,çıkış 2026-12-07)"
 2026-12-07,pzt,,"al_pzt(AL,h1,çıkış 2026-12-08)"
-2026-12-08,sal,,"fomc_once(AL,h1,çıkış 2026-12-09) | al_sal(AL,h1,çıkış 2026-12-09)"
+2026-12-08,sal,,"fomc_once(AL,h1,çıkış 2026-12-09)* | al_sal(AL,h1,çıkış 2026-12-09)"
 2026-12-09,car,FOMC karar,"fomc_sonra_h1(AL,h1,çıkış 2026-12-10) | fomc_sonra_h2(AL,h2,çıkış 2026-12-11) | fomc_sonra_h3(AL,h3,çıkış 2026-12-14) | al_car(AL,h1,çıkış 2026-12-10) | cpi_once(AL,h1,çıkış 2026-12-10)"
 2026-12-10,per,TÜFE 08:30,"al_per(AL,h1,çıkış 2026-12-11)"
 2026-12-11,cum,,"opex_hafta(SAT,h5,çıkış 2026-12-18) | opex_hafta_ceyrek(SAT,h5,çıkış 2026-12-18) | al_cum(AL,h1,çıkış 2026-12-14)"

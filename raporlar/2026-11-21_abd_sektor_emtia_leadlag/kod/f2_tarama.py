@@ -10,6 +10,7 @@ Aşamalar (her biri tek başına < 5 dk; ara sonuçlar ek/backtest/f2_tarama/ara
   3b  G1/G1e: maliyet duyarlılığı, alt dönemler, SPY hedge'li sürüm
   4   ETF düzeyinde negatif öncülük: kısmi regresyon + hedge'li test
   5   yabancı seans farkı (ABD kâğıdı - yerel kâğıt)
+  6   çürütme testleri (tek hedefli SAĞLAM/KOŞULLU satırlar)
   ozet  sonuclar.csv, ayakta_kalanlar.csv, ozet.json
 
 Kullanım: python3 kod/f2_tarama.py <aşama>     (hepsi: sırayla bütün aşamalar)
@@ -178,12 +179,12 @@ def bacaklar(S):
     return (("AL", S.clip(lower=0)), ("SAT", S.clip(upper=0)))
 
 
-def donem_tablosu(S, h, ids, donemler, maliyet=None):
+def donem_tablosu(S, h, ids, donemler, maliyet=None, hedge=None):
     sat = []
     for ad, b, e in donemler:
-        r = o.havuz_testi(S, h, maliyet, "kapanis", b, e)
+        r = o.havuz_testi(S, h, maliyet, "kapanis", b, e, hedge)
         row = dict(ids)
-        row.update(h=h, donem=ad, maliyet=("likidite" if maliyet is None else maliyet))
+        row.update(h=h, donem=ad, maliyet=("likidite" if maliyet is None else maliyet), hedge=hedge or "")
         row.update(r)
         sat.append(row)
     return sat
@@ -266,18 +267,22 @@ def asama1():
     oz["bh_secilen"] = int(T.sec.sum())
     oz["bh_secilen_oos_var"] = int(len(S))
     oz["bh_esik_|t|"] = float(T.loc[T.sec, "t_is"].abs().min()) if T.sec.any() else None
-    # ikiz ve aynı grup bayrakları (yalnız seçilenlerde)
+    # ikiz, aynı grup ve tezgah üstü (OTC; kapanışı bayat olabilir) bayrakları
     H = ham_oncu_matrisi()
     rh = o.basit_getiri(hedef)
-    cc, ayni = [], []
-    for a, b in zip(S.oncu, S.hedef):
-        cc.append(H[a].corr(rh[b]))
-        ga = set(str(m.loc[a, "gruplar"]).split(";"))
-        gb = set(str(m.loc[b, "gruplar"]).split(";"))
-        ayni.append(len(ga & gb) > 0)
-    S["corr"] = cc
-    S["ayni_grup"] = ayni
-    S["ikiz"] = S["corr"].abs() > 0.95
+    ana_borsa = {"NYQ", "NMS", "NGM", "NCM", "PCX", "ASE", "BTS", "NAS", "NYS", "TEX"}
+    otc_h = sorted(s for s in hedef if str(m.loc[s, "borsa"]) not in ana_borsa)
+    oz["otc_hedefler"] = otc_h
+
+    def bayrakla(D):
+        D = D.copy()
+        D["corr"] = [H[a].corr(rh[b]) for a, b in zip(D.oncu, D.hedef)]
+        D["ayni_grup"] = [len(set(str(m.loc[a, "gruplar"]).split(";")) & set(str(m.loc[b, "gruplar"]).split(";"))) > 0 for a, b in zip(D.oncu, D.hedef)]
+        D["ikiz"] = D["corr"].abs() > 0.95
+        D["otc"] = D["hedef"].isin(otc_h)
+        return D
+
+    S = bayrakla(S)
     S["tutan"] = S["t_oos_h"] >= 2.5
     S["p_oos"] = o.t_to_p(S["t_oos_h"].values, tek_yon=True)
     S["bh_oos"] = o.bh_fdr(S["p_oos"].values, 0.10)
@@ -295,8 +300,13 @@ def asama1():
         "negatif_bayat_ikiz_haric": oran(S[(S.isaret < 0) & ~S.bayat & ~S.ikiz]),
         "hedef_etf": oran(S[~S.hedef_hisse]), "hedef_hisse": oran(S[S.hedef_hisse]),
         "oncu_yabanci": oran(S[S.oncu_dis]), "ayni_grup": oran(S[S.ayni_grup]), "farkli_grup": oran(S[~S.ayni_grup]),
-        "ikiz": oran(S[S.ikiz]), "bayat_hedef": oran(S[S.bayat]),
+        "ikiz": oran(S[S.ikiz]), "bayat_hedef": oran(S[S.bayat]), "otc_hedef": oran(S[S.otc]),
+        "otc_bayat_ikiz_haric": oran(S[~S.otc & ~S.bayat & ~S.ikiz]),
+        "pozitif_otc_bayat_ikiz_haric": oran(S[(S.isaret > 0) & ~S.otc & ~S.bayat & ~S.ikiz]),
     }
+    oz["secilen_en_sik_hedef"] = S.hedef.value_counts().head(8).to_dict()
+    oz["secilen_en_sik_oncu"] = S.oncu.value_counts().head(8).to_dict()
+    oz["t_ortalama"] = {"is": round(float(T.t_is.mean()), 3), "oos": round(float(T.t_oos.mean()), 3), "is_std": round(float(T.t_is.std()), 3), "oos_std": round(float(T.t_oos.std()), 3)}
     # şansla beklenen: teorik %0,62; ampirik taban = seçilmeyen çiftlerde IS işaretine hizalı OOS t >= 2,5 oranı
     U = T[~T.sec & T.t_oos.notna()]
     oz["taban_oran"] = {"teorik": float(o.t_to_p(2.5, tek_yon=True)),
@@ -309,21 +319,36 @@ def asama1():
     dil = pd.cut(T2.t_is.abs(), [0, 1, 2, 2.5, 3, 3.5, 4, 5, 99])
     oz["dilim"] = {str(k): {"n": int(len(v)), "oos_hizali_t>=2.5": round(float((v.t_oos_h >= 2.5).mean()), 4),
                             "ort_t_oos_hizali": round(float(v.t_oos_h.mean()), 3)} for k, v in T2.groupby(dil, observed=True)}
-    oz["yanlis_pozitif_beklenen_A_ve_B"] = round(N * 2 * float(o.t_to_p(2.5, tek_yon=True)) ** 2, 1)
-    oz["gozlenen_A_ve_B"] = int(((T.t_is.abs() >= 2.5) & (T.t_oos_h >= 2.5)).sum())
-    oz["gozlenen_A_ve_B_poz"] = int(((T.t_is >= 2.5) & (T.t_oos >= 2.5)).sum())
-    oz["gozlenen_A_ve_B_neg"] = int(((T.t_is <= -2.5) & (T.t_oos <= -2.5)).sum())
+    # YONTEM bölüm 6 yolu: A (IS |t| >= 2,5) ile seçim, OOS'ta B (hizalı t >= 2,5) ve OOS p değerlerine BH q=%10
+    A = T[(T.t_is.abs() >= 2.5) & T.t_oos.notna()].copy()
+    A["p_oos"] = o.t_to_p(A["t_oos_h"].values, tek_yon=True)
+    A["bh_oos"] = o.bh_fdr(A["p_oos"].values, 0.10)
+    A["tutan"] = A["t_oos_h"] >= 2.5
+    AB = bayrakla(A[A.tutan])
+    pp, pn = float((T.t_is >= 2.5).mean()) * float((T.t_oos >= 2.5).mean()), float((T.t_is <= -2.5).mean()) * float((T.t_oos <= -2.5).mean())
+    oz["A_ve_B"] = {"k_A": int(len(A)), "gozlenen": int(len(AB)), "gozlenen_poz": int((AB.isaret > 0).sum()), "gozlenen_neg": int((AB.isaret < 0).sum()),
+                    "beklenen_teorik": round(N * 2 * float(o.t_to_p(2.5, tek_yon=True)) ** 2, 1),
+                    "beklenen_ampirik_marjinal": round(N * (pp + pn), 1), "beklenen_ampirik_poz": round(N * pp, 1), "beklenen_ampirik_neg": round(N * pn, 1),
+                    "bh_oos_gecen": int(A.bh_oos.sum()), "bh_gecenler": [f"{a}->{b}" for a, b in zip(A[A.bh_oos].oncu, A[A.bh_oos].hedef)],
+                    "otc_bayat_ikiz_haric": int((~AB.otc & ~AB.bayat & ~AB.ikiz).sum()),
+                    "en_sik_hedef": AB.hedef.value_counts().head(10).to_dict(), "en_sik_oncu": AB.oncu.value_counts().head(10).to_dict(),
+                    "ayni_grup": int(AB.ayni_grup.sum()), "hedef_hisse": int(AB.hedef_hisse.sum()), "oncu_yabanci": int(AB.oncu_dis.sum())}
+    oz["yanlis_pozitif_beklenen_A_ve_B"] = oz["A_ve_B"]["beklenen_teorik"]
     S.sort_values("t_oos_h", ascending=False).to_csv(os.path.join(ARA, "tarama_secilen.csv"), index=False)
+    AB.sort_values("t_oos_h", ascending=False).to_csv(os.path.join(CIKTI, "tarama_A_ve_B.csv"), index=False)
     jyaz("ozet1.json", oz)
-    log(json.dumps({k: v for k, v in oz.items() if k not in ("dilim",)}, ensure_ascii=False, default=float)[:3000])
+    log(json.dumps({k: v for k, v in oz.items() if k not in ("dilim",)}, ensure_ascii=False, default=float)[:6000])
 
-    # En güçlü 30 (+) ve 30 (-): ikiz hariç, aynı hedefte ikiz öncü ve aynı öncüde ikiz hedef tekrarı hariç
+    # İşlem testi: (i) ön kayıtlı yol = IS'te BH q=%10 ile seçilip OOS'ta tutanlar (en çok 30 + 30);
+    # (ii) keşif = A ve B'yi geçen diğer çiftlerin en güçlü 30 (+) ve 30 (-)'u. İkizler ve ikiz tekrarları hariç.
     C = H.corr(min_periods=250)
-    sat = []
-    for isr, aile in ((1, "F2b+"), (-1, "F2b-")):
-        c = S[S.tutan & (S.isaret == isr) & ~S.ikiz].sort_values("t_oos_h", ascending=False)
+    sat, test_edilen = [], set()
+    for isr, aile, kaynak in ((1, "F2b+", S[S.tutan]), (-1, "F2b-", S[S.tutan]), (1, "F2b+AB(keşif)", AB), (-1, "F2b-AB(keşif)", AB)):
+        c = kaynak[(kaynak.isaret == isr) & ~kaynak.ikiz].sort_values("t_oos_h", ascending=False)
         sec = []
         for r in c.itertuples():
+            if (r.oncu, r.hedef) in test_edilen:
+                continue
             tekrar = False
             for q in sec:
                 if q.hedef == r.hedef and abs(C.loc[q.oncu, r.oncu]) > 0.95:
@@ -336,9 +361,14 @@ def asama1():
                 break
         log(aile, "aday", len(c), "seçilen", len(sec))
         for r in sec:
+            test_edilen.add((r.oncu, r.hedef))
             yon = "+" if isr > 0 else "-"
             try:
                 rows = cm.cift_testi(r.oncu, r.hedef, yon, bicimler=("B1", "B1r"))
+                if r.oncu == "SPY":  # cift_motoru SPY öncüde B1r üretmez: aynı sinyal, SPY ile hedge'li ileri getiri
+                    z = o.zskor(o.hizali_getiri("SPY"), 60)
+                    sg = (isr * np.sign(z).where(z.abs() >= 1, 0.0)).fillna(0.0)
+                    rows += [tek_satir(sg, r.hedef, h, {"oncu": "SPY", "bicim": "B1r", "yon": yon}, hedge="SPY") for h in (1, 2, 3)]
             except Exception as e:  # noqa: BLE001
                 log("HATA", r.oncu, r.hedef, type(e).__name__, str(e)[:80])
                 continue
@@ -353,13 +383,22 @@ def asama1():
             ko = kismi_reg(f, Xd, bas=o.OOS_BAS).get("zx", (np.nan, np.nan))[1]
             for row in rows:
                 row.update(aile=aile, tarama_t_is=round(r.t_is, 2), tarama_t_oos=round(r.t_oos, 2), tarama_bh_oos=bool(r.bh_oos),
-                           corr=round(r.corr, 3), ayni_grup=bool(r.ayni_grup), kismi_t_is=ki, kismi_t_oos=ko)
+                           corr=round(r.corr, 3), ayni_grup=bool(r.ayni_grup), otc=bool(r.otc), kismi_t_is=ki, kismi_t_oos=ko)
                 sat.append(row)
     df = pd.DataFrame(sat)
-    df = sinifla(df, tavan=lambda d: (d.aile == "F2b-") & d.hedef.map(hisse_mi))
+    df = sinifla(df, tavan=lambda d: d.aile.str.startswith("F2b-") & d.hedef.map(hisse_mi))
     # B koşulunun BH kısmı: taramada IS'ten seçilen BÜTÜN çiftlerin OOS p değerleri üzerinden (30'luk liste OOS'a bakılarak seçildi)
     df.loc[(df.sinif == "SAGLAM") & ~df.tarama_bh_oos, "sinif"] = "KOSULLU"
+    # Tezgah üstü (OTC) hedefin kapanışı bayattır: esas alınan giriş ertesi açılıştır (YONTEM bölüm 3). Açılış girişinde
+    # sürüklenme düzeltilmiş net <= 0 ise sinyal işlenemez -> ELENDİ.
+    df["bayat_isaret"] = df["bayat_isaret"] | df["otc"]
+    bayat_duser = df["otc"] & ~(pd.to_numeric(df.get("acilis_anormal_bps"), errors="coerce") > 0) & (df["sinif"] != "ELENDI")
+    df["not"] = np.where(bayat_duser, "bayat OTC kapanışı: ertesi açılış girişinde etki yok (kural sınıfı: " + df["sinif"] + ")", "")
+    df.loc[bayat_duser, "sinif"] = "ELENDI"
     df = kaydet(df, "satir_1.csv")
+    g = ["aile", "oncu", "hedef", "bicim", "h", "tum_n", "tum_anormal_net_bps", "tum_net_bps", "is_t_anormal", "oos_t_anormal", "son_net_bps",
+         "tum_net_bps_al", "acilis_anormal_bps", "tarama_t_is", "tarama_t_oos", "kismi_t_oos", "otc", "ozgu", "sinif", "son_sinyal"]
+    log(df[df.sinif != "ELENDI"][g].to_string())
     log("aşama 1 sınıflar:", df.groupby(["aile", "bicim"]).sinif.value_counts().unstack(fill_value=0).to_string())
 
 
@@ -425,6 +464,10 @@ def asama2b():
         for yon, Sb in bacaklar(S["tum"]):
             sat.append(havuz_satir(Sb, h, {"aile": "F2b-yuruyen", "oncu": "yürüyen seçim (5 yıl, en iyi 5, |t|>=3)", "hedef": f"{S['tum'].shape[1]} hedef", "bicim": "YS-tum-SPYhedge", "yon": yon}, hedge="SPY"))
     log("hedge bitti")
+    tumu = [("2012-26", "2012-01-01", None), ("IS 2012-18", "2012-01-01", o.IS_BITIS), ("OOS 2019-26", o.OOS_BAS, None)]
+    for ad in ("tum", "poz", "neg"):  # maliyetsiz (brüt) tablo: sinyalin maliyet öncesi içeriği var mı?
+        dt += donem_tablosu(S[ad], 1, {"bicim": f"YS-{ad}"}, tumu + don, maliyet=0)
+        dt += donem_tablosu(S[ad], 1, {"bicim": f"YS-{ad}"}, tumu, maliyet=0, hedge="SPY")
     df = pd.DataFrame(sat)
     hisse_iceren = ~df.bicim.str.contains("ETF")
     df = o.siniflandir(df, tavan_kosullu=(df.yon == "AL") & hisse_iceren)
@@ -517,6 +560,7 @@ def asama3b():
                 d = o.havuz_donemli(sv[ad], h, c)
                 md.append({"bicim": ad, "h": h, "maliyet_bps": c, **{k: v for k, v in d.items() if k.split("_", 1)[0] in ("tum", "is", "oos", "son")}})
             dt += donem_tablosu(sv[ad], h, {"bicim": ad}, DONEM)
+            dt += donem_tablosu(sv[ad], h, {"bicim": ad}, DONEM, maliyet=0)
         log(ad, "maliyet ve dönem bitti")
     pd.DataFrame(md).to_csv(os.path.join(CIKTI, "geride_kalan_maliyet.csv"), index=False)
     pd.DataFrame(dt).to_csv(os.path.join(CIKTI, "geride_kalan_donem.csv"), index=False)
@@ -630,6 +674,57 @@ def asama5():
 
 
 # ----------------------------------------------------------------------------------------------------------------
+# 6) Çürütme testleri (YONTEM bölüm 7): tek hedefli SAĞLAM/KOŞULLU satırlar için sağlamlık varyantları (yeni hipotez değil)
+# ----------------------------------------------------------------------------------------------------------------
+
+
+def asama6():
+    d = pd.read_csv(os.path.join(ARA, "satir_1.csv"))
+    k = d[d.sinif.isin(["SAGLAM", "KOSULLU"])]
+    vix = o.panel("adjclose", ["^VIX"])["^VIX"].shift(1)  # bir önceki günün VIX kapanışı (16:15 ileri bakışı olmasın)
+    tk = o.takvim()
+    kriz = pd.Series(((tk >= "2008-09-01") & (tk <= "2009-06-30")) | ((tk >= "2020-02-01") & (tk <= "2020-04-30")), index=tk)
+    al = ["tum_n", "tum_net_bps", "tum_anormal_net_bps", "tum_t_anormal", "is_t_anormal", "oos_t_anormal", "oos_anormal_net_bps", "son_n", "son_net_bps",
+          "tum_net_bps_al", "tum_anormal_bps_al", "tum_net_bps_sat"]
+    sat = []
+    for (oncu, hedef, yon, bicim), g in k.groupby(["oncu", "hedef", "yon", "bicim"]):
+        rr = o.basit_getiri([hedef, "SPY"])
+        r, spy = rr[hedef], rr["SPY"]
+        x = o.hizali_getiri(oncu).reindex(r.index)
+        sig, hd = cm.sinyaller(x, r, yon, spy if oncu != "SPY" else None)[bicim]
+        yz = 1.0 if yon == "+" else -1.0
+        z = o.zskor(x, 60) if bicim == "B1" else o.zskor(x - o.kayan_beta(x, spy) * spy, 60)
+        zs, zt = o.zskor(o.hizali_getiri("SPY"), 60), o.zskor(r, 60)
+        s_spy = (yz * np.sign(zs).where(zs.abs() >= 1, 0.0)).fillna(0.0)
+        var = {"ana": sig,
+               "esik |z|>=1,5": (yz * np.sign(z).where(z.abs() >= 1.5, 0.0)).fillna(0.0),
+               "sinir haric |z|>=1,2": (yz * np.sign(z).where(z.abs() >= 1.2, 0.0)).fillna(0.0),
+               "oncu 1 gun gecikmeli": sig.shift(1).fillna(0.0),
+               "kriz haric": sig.where(~kriz.reindex(sig.index).fillna(False), 0.0),
+               "VIX>20": sig.where(vix.reindex(sig.index) > 20, 0.0), "VIX<=20": sig.where(vix.reindex(sig.index) <= 20, 0.0),
+               "oncu yerine SPY": s_spy,
+               "oncu sinyali var, SPY sinyali yok": sig.where(s_spy.reindex(sig.index) == 0, 0.0),
+               "hedefin kendi donusu": (-np.sign(zt).where(zt.abs() >= 1, 0.0)).fillna(0.0)}
+        for h in sorted(g.h.unique()):
+            ids = {"oncu": oncu, "hedef": hedef, "bicim": bicim, "yon": yon, "h": int(h), "hedge": hd or ""}
+            for ad, sg in var.items():
+                dt = o.donemli_test(sg, hedef, int(h), hedge=hd)
+                sat.append({**ids, "varyant": ad, **{c: dt.get(c) for c in al}})
+            dt = o.donemli_test(sig, hedef, int(h), maliyet_bps=o.maliyet_serisi(hedef) * 2, hedge=hd)
+            sat.append({**ids, "varyant": "maliyet 2 kat", **{c: dt.get(c) for c in al}})
+            for gr in ("acilis", "ertesi"):
+                dt = o.donemli_test(sig, hedef, int(h), giris=gr, hedge=hd)
+                sat.append({**ids, "varyant": f"giris={gr}", **{c: dt.get(c) for c in al}})
+            yt = o.yillik_tablo(sig, hedef, int(h))
+            sat.append({**ids, "varyant": "en iyi yil haric (toplam %)", "tum_n": int(yt["n"].sum()),
+                        "tum_net_bps": round(float((yt["toplam_yuzde"].sum() - yt["toplam_yuzde"].max()) * 100 / max(yt["n"].sum() - yt.loc[yt["toplam_yuzde"].idxmax(), "n"], 1)), 1),
+                        "not": f"en iyi yil {int(yt['toplam_yuzde'].idxmax())}: {yt['toplam_yuzde'].max()}%; pozitif yil {int((yt.net_bps > 0).sum())}/{len(yt)}"})
+    C = pd.DataFrame(sat)
+    C.to_csv(os.path.join(CIKTI, "curutme.csv"), index=False)
+    log(C.to_string())
+
+
+# ----------------------------------------------------------------------------------------------------------------
 # Özet
 # ----------------------------------------------------------------------------------------------------------------
 
@@ -637,6 +732,18 @@ def asama5():
 def ozet():
     par = [pd.read_csv(os.path.join(ARA, f)) for f in ("satir_1.csv", "satir_2.csv", "satir_3a.csv", "satir_3b.csv", "satir_4.csv", "satir_5.csv") if os.path.exists(os.path.join(ARA, f))]
     df = pd.concat(par, ignore_index=True)
+    if "not" not in df.columns:
+        df["not"] = ""
+    df["not"] = df["not"].fillna("")
+    # YONTEM bölüm 6: piyasadan arındırılmış testte tutmayan öncü-hedef sinyali "piyasa dönüşü"dür, lead-lag sayılmaz
+    ay = df.aile.astype(str).str.startswith("F2b") & (df.sinif != "ELENDI") & ~(df.ozgu.astype(str) == "True")
+    m1, m2 = ay & (df.bicim == "B1"), ay & (df.bicim == "B1r")
+    df.loc[m1, "not"] = (df.loc[m1, "not"] + " öncüye özgü değil (arındırılmış B1r testinde IS ve OOS t >= 2 yok): piyasa dönüşü sayılır, lead-lag değil.").str.strip()
+    df.loc[m2, "not"] = (df.loc[m2, "not"] + " arındırılmış testte IS ve OOS t >= 2 birlikte sağlanmıyor: öncüye özgü etiketi yok.").str.strip()
+    tv = df.aile.astype(str).str.startswith("F2b-AB") & (df.sinif == "KOSULLU") & (df.get("k_B", False).astype(str) == "True")
+    df.loc[tv, "not"] = (df.loc[tv, "not"] + " Tavan: taramadaki OOS BH'yi geçmiyor ve hisse düzeyi ters (dönüş türü) sinyal; en çok KOŞULLU.").str.strip()
+    kesif = df.aile.astype(str).str.contains("keşif") | df.bicim.astype(str).str.contains("keşif")
+    df.loc[kesif & (df.sinif != "ELENDI"), "not"] = (df.loc[kesif & (df.sinif != "ELENDI"), "not"] + " Keşif: çift hem IS hem OOS'a bakılarak seçildi (kazananın laneti); kullanılamaz.").str.strip()
     kol = ON + [c for c in df.columns if c not in ON]
     df[kol].to_csv(os.path.join(CIKTI, "sonuclar.csv"), index=False)
     hip = df[(df.aile != "KIYAS")]
@@ -644,7 +751,7 @@ def ozet():
     ak["sira"] = ak.sinif.map({"SAGLAM": 0, "KOSULLU": 1, "IZLE": 2})
     ak = ak.sort_values(["sira", "oos_t_anormal"], ascending=[True, False]).drop(columns="sira")
     ilk = ON + ["sinif", "k_A", "k_B", "k_B_zayif", "bh_oos", "k_C", "k_D", "k_E", "k_F", "k_G", "k_H", "k_I", "son_gun", "son_sinyal",
-                "tum_n", "tum_anormal_net_bps", "tum_net_bps", "is_t_anormal", "oos_t_anormal", "oos_anormal_net_bps", "son_net_bps", "ozgu"]
+                "tum_n", "tum_anormal_net_bps", "tum_net_bps", "is_t_anormal", "oos_t_anormal", "oos_anormal_net_bps", "son_net_bps", "ozgu", "not"]
     ilk = [c for c in ilk if c in ak.columns]
     ak[ilk + [c for c in ak.columns if c not in ilk]].to_csv(os.path.join(CIKTI, "ayakta_kalanlar.csv"), index=False)
     o1 = json.load(open(os.path.join(ARA, "ozet1.json"))) if os.path.exists(os.path.join(ARA, "ozet1.json")) else {}
@@ -662,7 +769,7 @@ def ozet():
     print(ak[[c for c in g if c in ak.columns]].to_string(index=False))
 
 
-ASAMA = {"1": asama1, "2a": asama2a, "2b": asama2b, "3a": asama3a, "3b": asama3b, "4": asama4, "5": asama5, "ozet": ozet}
+ASAMA = {"1": asama1, "2a": asama2a, "2b": asama2b, "3a": asama3a, "3b": asama3b, "4": asama4, "5": asama5, "6": asama6, "ozet": ozet}
 
 if __name__ == "__main__":
     pd.set_option("display.width", 250)

@@ -35,6 +35,8 @@ SON_VERI = pd.Timestamp("2026-11-20")
 T1_GECIS = "2024-05-28"  # T+1 takas
 AYLAR = "January|February|March|April|May|June|July|August|September|October|November|December"
 AY_NO = {a: i + 1 for i, a in enumerate(AYLAR.split("|"))}
+AY_NO.update({a[:3]: i + 1 for i, a in enumerate(AYLAR.split("|"))})  # "Jan/Feb 31-1" biçimi
+AYLAR_K = AYLAR + "|" + "|".join(a[:3] for a in AYLAR.split("|"))
 T0 = time.time()
 
 
@@ -103,7 +105,7 @@ def fomc_tarihleri():
         y = int(bloklar[i])
         if y > 2026:
             continue
-        for m in re.finditer(rf"({AYLAR})(?:/({AYLAR}))? (\d{{1,2}})(?:-(\d{{1,2}}))?(\*)?\s+(?:Statement|\* Meeting|$)",
+        for m in re.finditer(rf"\b({AYLAR_K})(?:/({AYLAR_K}))? (\d{{1,2}})(?:-(\d{{1,2}}))?(\*)?\s+(?:Statement|\* Meeting|$)",
                              bloklar[i + 1]):
             satir.append((_karar(m.group(1), m.group(2), m.group(3), m.group(4), y), y, "fomccalendars.htm",
                           int(bool(m.group(5)))))

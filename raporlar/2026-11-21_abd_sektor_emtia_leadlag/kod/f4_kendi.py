@@ -97,6 +97,12 @@ def kosul_maskeleri(sem, vix_gecikme=0):
             "ust200": (c > ma).fillna(False), "alt200": (c < ma).fillna(False)}
 
 
+def kes_uyeler(ad):
+    if ad.startswith("KES_SEK"):
+        return o.grup("sektor_etf")
+    return alt_etfler() if ad.startswith("KES_ALT") else EMTIA8
+
+
 def kesitsel_sinyaller(vix_gecikme=0):
     """Önceden sabit kesitsel kurallar: dict ad -> (DataFrame sinyal, aciklama)."""
     vix = o.panel("close", ["^VIX"])["^VIX"].shift(vix_gecikme)
@@ -312,6 +318,33 @@ def sagamlik(ak):
             kr = o.havuz_testi(sk, h)
             vg = (o.havuz_donemli(sinyal_getir(r, mask=mask_g, kes=kes_g), h)
                   if (r.kosul.startswith("vix") or "VIX" in r.bicim) else {})
+        # koşulun kendisi: koşul geçerli olan her gün aynı yönde işlem (kural bir şey katıyor mu?)
+        yon = -1.0 if r.yon == "SAT" else 1.0
+        if r.tur == "kesitsel":
+            uy = kes_uyeler(r.bicim)
+            kb = o.panel("adjclose", uy).notna().astype(float)
+            if "VIX" in r.bicim:
+                kb = kb.mul((o.panel("close", ["^VIX"])["^VIX"].reindex(kb.index) > 25).astype(float).values, axis=0)
+        else:
+            cols = r.hedef if tek else GRUP[r.hedef]
+            kb = MASK[r.kosul][cols].astype(float).where(o.panel("adjclose", [cols] if tek else cols).notna().values if not tek
+                                                         else o.panel("adjclose", [cols])[cols].notna(), 0.0)
+        kb = kb * yon
+        kd = (o.donemli_test(kb, r.hedef, h, giris=giris) if tek else o.havuz_donemli(kb, h)) if r.kosul != "yok" or r.tur == "kesitsel" else {}
+        e["kosul_kiyas_tum_bps"], e["kosul_kiyas_is_t"], e["kosul_kiyas_oos_t"] = (kd.get("tum_anormal_net_bps"), kd.get("is_t_anormal"),
+                                                                                   kd.get("oos_t_anormal"))
+        e["kural_fazlasi_bps"] = (round(r.tum_anormal_net_bps - kd["tum_anormal_net_bps"], 1)
+                                  if kd.get("tum_anormal_net_bps") is not None else r.tum_anormal_net_bps)
+        # sınır sinyalleri hariç (IBS 0,15-0,25 / 0,75-0,85)
+        if r.bicim.startswith("IBS"):
+            uy = [r.hedef] if tek else GRUP[r.hedef]
+            c, hi, lo = o.panel("adjclose", uy), o.panel("ah", uy), o.panel("al", uy)
+            ibs = ((c - lo) / (hi - lo)).where(hi > lo)
+            sert = (ibs < 0.15) if r.yon == "AL" else (ibs > 0.85)
+            s2 = (s if not tek else s.to_frame(r.hedef)).where(sert.values, 0.0)
+            sd = o.donemli_test(s2[r.hedef], r.hedef, h, giris=giris) if tek else o.havuz_donemli(s2, h)
+            e["ibs_sert_tum_bps"], e["ibs_sert_is_t"], e["ibs_sert_oos_t"] = (sd.get("tum_anormal_net_bps"), sd.get("is_t_anormal"),
+                                                                              sd.get("oos_t_anormal"))
         e["spy_is_t"], e["spy_oos_t"] = d.get("is_t_anormal"), d.get("oos_t_anormal")
         e["spy_tum_bps"], e["spy_son_bps"] = d.get("tum_anormal_net_bps"), d.get("son_net_bps")
         e["sektore_ozgu"] = bool((d.get("is_t_anormal") or 0) >= 2 and (d.get("oos_t_anormal") or 0) >= 2)

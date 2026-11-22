@@ -1,0 +1,63 @@
+{
+ "arac": "32/40",
+ "ozet": "Takvim etkileri 1-3 günlük kapanış alımında bugün tek başına işe yaramıyor. Testler: 53 kural x 33 hedef = 1.749. Haftanın günü iki yönde ayrı sayıldı, BH F5 ailesi içinde uygulandı. Beklenen yanlış pozitif 0,07 SAĞLAM ve 0,24 KOŞULLU. Sonuç 0 SAĞLAM, 0 KOŞULLU, 3 İZLE.\n\nEleme:\n- IS t ≥ 2,5 veren 6 test var; hiçbiri OOS t ≥ 2,0 vermedi.\n- Ön elemeden 8 test geçti; hepsi B koşulunda kaldı.\n\nİZLE olan üç test:\n- TLT ay dönümü T-3 → T: IS t 2,83, OOS t 1,53; 2024 sonrası -14 bps.\n- HYG FOMC öncesi gün.\n- OIH aylık vadeden sonraki hafta: h = 5, profil dışı, gürültülü.\n\n25 hisse ETF'i havuzu (IS t / OOS t), bilinen etkilerin hepsi OOS'ta öldü:\n- Ay dönümü T-4 → T-1: 2,02 / -0,14.\n- FOMC öncesi gün: 2,05 / -0,26. VIX > 20 iken: 52 bps, 2,01 / 0,55.\n- Haftanın günü: maliyetten sonra hepsi negatif.\n- TÜFE ve istihdam günleri: sıfıra yakın.\n- Tatil öncesi gün: 0,39 / 2,00. Yalnız son dönemde var.\n- Vade haftası SAT: -0,26 / 1,55. 1. dalgadaki -16 bps bulgusu IS'te yok.\n\nFiltre değerlendirmesi (maliyetsiz havuz): IS ve OOS'ta aynı işaretle |t| ≥ 1,5 veren kural yok. 1 ile 1,5 arasında kalan zayıf adaylar:\n- AL'dan kaçın: çeyrek dışı ay sonu son gün (-19 bps; OOS t -2,2), FOMC karar günü alıp 2 gün tutma (-30 bps).\n- Hafif ekle: tatil öncesi gün (+15 bps).\n\nHipotezle çelişenler:\n- T+1 takas hipotezi: 28.05.2024 sonrası T-4 → T-1 ve T-3 → T pencerelerinde hedef medyanı -16 / -24 bps. Etki bir gün kaymadı, kayboldu.\n- Ay sonu son gün \"+\" diye yazılmıştı; çeyrek dışında negatif çıktı (14 hedefte OOS t ≤ -2). Ters yön sınıflanmadı; ileride keşif olarak sınanmalı.\n- UNG perşembe SAT ve USO perşembe AL tutmadı.\n\nPanik rejimi (dünkü VIX > 20; bilgi amaçlı, sınıflanmadı):\n- Ay dönümü T-4 → T-1 havuzu: 96 bps, IS t 2,00 / OOS t 1,23.\n- FOMC sonrası 1-2 gün: -65 / -69 bps.\n\n20.11.2026 kapanışında (vade günü) opex_sonra_h1..h3 ve al_cum açık ama ayakta değil. İZLE girişleri: TLT 24.11 ve 28.12, HYG 8.12.\n\nVeri:\n- FOMC: 175 karar günü. 2021-2026 ve 7 yıl Fed sayfasından (8 sayfa), 9 yıl bellekten. Sayfası çekilen yıllarda bellek listesi birebir tuttu.\n- TÜFE ve istihdam tarihleri bls.gov'dan, ilk denemede çekildi.",
+ "test_sayisi": 1749,
+ "beklenen_yanlis_pozitif": "SAĞLAM: 1.749 x 3,9e-5 = 0,07; KOŞULLU: 1.749 x 1,4e-4 = 0,24 (testler hedefler arasında güçlü korelasyonlu, gerçek etkin test sayısı daha düşük)",
+ "ayakta_kalanlar": [
+  {
+   "sinyal": "tom_b|TLT|h3",
+   "kural": "Ay dönümü T-3 kapanışı -> T (ayın son işlem günü) kapanışı, AL",
+   "hedef": "TLT",
+   "h": "3",
+   "n": "262 (OOS 94)",
+   "anormal_net_bps": "26.7",
+   "t_is": "2.83",
+   "t_oos": "1.53",
+   "son_net_bps": "6.6",
+   "sinif": "IZLE",
+   "son_sinyal": "0 (sonraki giriş 24.11.2026 ve 28.12.2026)",
+   "not": "SPY'dan arındırınca IS 3,09 / OOS 1,19; yılların %91'i pozitif; T+1 takas sonrası (n=30) -14 bps; en büyük işlemler 2007-2012. Tahvil endeksi ay sonu vade uzatma alımıyla tutarlı ama son dönemde zayıf"
+  },
+  {
+   "sinyal": "fomc_once|HYG|h1",
+   "kural": "FOMC karar gününden önceki kapanışta al, karar günü kapanışında sat",
+   "hedef": "HYG",
+   "h": "1",
+   "n": "156 (OOS 62)",
+   "anormal_net_bps": "16.6",
+   "t_is": "2.10",
+   "t_oos": "1.54",
+   "son_net_bps": "-5.8",
+   "sinif": "IZLE",
+   "son_sinyal": "0 (sonraki giriş 8.12.2026)",
+   "not": "C koşulu kaldı (2024+ net negatif); en büyük işlemler 2008-2011 krizinden (+455, +355, +305 bps); dünkü VIX>20 iken 38 bps t 2,45; SPY arındırılmış OOS t 2,27"
+  },
+  {
+   "sinyal": "opex_sonra_hafta_aylik|OIH|h5",
+   "kural": "Aylık (üç aylık olmayan) vade günü (3. cuma) kapanışında al, sonraki cuma kapanışında sat; yalnız 5 günlük tam haftalar",
+   "hedef": "OIH",
+   "h": "5",
+   "n": "131 (OOS 49)",
+   "anormal_net_bps": "120.9",
+   "t_is": "2.11",
+   "t_oos": "1.89",
+   "son_net_bps": "235.2",
+   "sinif": "IZLE",
+   "son_sinyal": "0 (20.11 vade günü ama sonraki hafta Şükran tatilli, kural açılmaz)",
+   "not": "h=5 profil (1-3 gün) dışında; 50 bps üstü büyüklük: tek işlemler +%10-13 (2021-08, 2022-05, 2011-10), OIH 5 günlük oynaklığı ~%6 olduğundan gürültü olası; sınıflandırılmaya değmez, yalnız izleme"
+  }
+ ],
+ "kutuphane_sorunlari": "Hata değil ama kütüphanede eksik ya da tutarsız olanlar:\n1. siniflandir, YONTEM 6-D'deki SAT bacağı ek şartını (\"ham net ≥ 0\") uygulamıyor. f5_takvim.py bunu geçici kopyada anormali 0'a kırparak kütüphane dışında uyguladı.\n2. plasebo_dairesel her zaman giris='kapanis' kullanıyor. Bayat hedeflerde (CPER) ana test ertesi açılışla yapıldığı için plasebo farklı bir giriş varsayımıyla hesaplanıyor.\n3. islem_testi sabit h istiyor. Vade haftası gibi değişken uzunluklu pencereler (tatilli haftalar) test edilemiyor; yalnız 5 günlük tam haftalar kullanıldı.\n4. siniflandir'ın H koşulu yalnız plasebo_p'ye bakıyor. Takvim sinyalleri için 1-4 gün kaydırma kontrolü yok; betikte plasebo_p'ye dahil edildi (kaydirma_ok yanlışsa plasebo_p = 1).\n5. havuz_donemli sabit IS/OOS sınırı kullanıyor (docstring'de yazılı); XLC ve XLRE'nin geç başlaması havuzda %55/%45 bölünmeye çevrilmiyor.\n6. yillik_tablo hedge parametresi almıyor.",
+ "acik_kalanlar": "- Yarım günler takvim kuralıyla belirlendi (Şükran sonrası cuma, işlem günü olan 24 Aralık ve 3 Temmuz); hacim ya da NYSE listesiyle doğrulanmadı.\n- FOMC 2006-2007, 2009-2011, 2013-2014 ve 2016-2017 tarihleri bellekten (sayfa sınırı 8). Sayfası çekilen 7 yılda bellek listesi birebir tuttuğu için risk düşük.\n- 'Ay sonu son gün negatif' bulgusu hipotezin ters yönü olduğu için sınıflandırılmadı. Ancak yeni bir örneklem dışı dönemde keşif olarak sınanabilir.\n- Panik rejimindeki büyük ay dönümü getirileri (96 bps) yüksek oynaklığın ölçeğinden geliyor olabilir; oynaklığa ölçekli test yapılmadı.\n- Komisyon duyarlılığı yapılmadı.\n- 15:50 sinyal örtüşmesi takvim sinyallerinde gereksiz.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/f5_takvim.py",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f5_takvim/sonuclar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f5_takvim/ayakta_kalanlar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f5_takvim/NOT.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f5_takvim/kural_ozet.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f5_takvim/takvim_6hafta.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f5_takvim/fomc_tarihleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f5_takvim/makro_tarihleri.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f5_takvim/ham/"
+ ]
+}

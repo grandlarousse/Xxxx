@@ -1,0 +1,21 @@
+TOPLAM TEST: 51086 (tek hedef 42413, portföy 8673)
+Beklenen yanlış pozitif (bağımsızlık varsayımıyla): SAGLAM 1.99, KOSULLU 7.15
+Sınıflar: {'ELENDI': 50956, 'IZLE': 116, 'KOSULLU': 14}
+Eleme basamakları: k_A 404; k_A&OOS t>=2: 15; k_A&OOS t>=2,5: 4; k_A&BH: 0
+Aynı gün açık tek hedefli ayakta kalan sinyal sayısı (en az 1 olan günler): {'count': 4169.0, 'mean': 4.7, 'std': 6.9, 'min': 1.0, '50%': 2.0, '90%': 14.0, '99%': 33.0, 'max': 39.0}
+Çiftler arası korelasyon (gösterge): ortalama 0.20, medyan 0.10, >0,5 oranı 0.19 (58 sinyal)
+Çiftler arası korelasyon (günlük pnl): ortalama 0.22, medyan 0.16, >0,5 oranı 0.19 (58 sinyal)
+Sınıf x kural:
+sinif            IZLE  KOSULLU
+bicim                         
+IBS_AL             50        9
+IBS_SAT             3        1
+MAC5_AL             2        0
+RSI2_AL             9        0
+RSI2_SAT           12        0
+UC_DUSUS_AL        12        0
+UC_YUKSELIS_SAT     2        0
+Z1_AL               4        1
+Z1_SAT              1        0
+Z5_AL               5        0
+Z5_SAT             16        3

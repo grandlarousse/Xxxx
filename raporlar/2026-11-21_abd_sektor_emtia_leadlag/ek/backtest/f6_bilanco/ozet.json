@@ -32,5 +32,153 @@
   "z2_sat": 8891,
   "surpriz_ayni_yon": 11251,
   "surpriz_kirpilan": 1134
+ },
+ "thomas_zhang": {
+  "n": 80588,
+  "egim": -0.0296,
+  "t_kume": -1.75,
+  "lider_yonu_bps": 4.6,
+  "lider_yonu_t": 1.63
+ },
+ "emsal": {
+  "lider_olay": 19056,
+  "lider3_olay": 4040,
+  "emsal_islem": 215471,
+  "emsal_ayni_pay": 0.167,
+  "emsal_ters_pay": 0.066
+ },
+ "on_prim_dagilim": {
+  "c_onceki_kapanis_tum": {
+   "n": 21604,
+   "net_ort_bps": 24.7,
+   "std_bps": 694.0,
+   "medyan_bps": 22.8,
+   "yuzde5_bps": -999.0,
+   "en_kotu_%5_ort_bps": -1553.0,
+   "en_kotu_bps": -5647.0,
+   "isabet": 0.512,
+   "surukl_duz_ort_bps": 17.2,
+   "spy_ayni_gun_ort_bps": 6.7
+  },
+  "c_onceki_kapanis_is": {
+   "n": 9180,
+   "net_ort_bps": 22.7,
+   "std_bps": 549.0,
+   "medyan_bps": 24.5,
+   "yuzde5_bps": -820.0,
+   "en_kotu_%5_ort_bps": -1217.0,
+   "en_kotu_bps": -4132.0,
+   "isabet": 0.518,
+   "surukl_duz_ort_bps": 16.1,
+   "spy_ayni_gun_ort_bps": 8.1
+  },
+  "c_onceki_kapanis_oos": {
+   "n": 12424,
+   "net_ort_bps": 26.2,
+   "std_bps": 784.0,
+   "medyan_bps": 20.7,
+   "yuzde5_bps": -1155.0,
+   "en_kotu_%5_ort_bps": -1749.0,
+   "en_kotu_bps": -5647.0,
+   "isabet": 0.508,
+   "surukl_duz_ort_bps": 18.0,
+   "spy_ayni_gun_ort_bps": 5.6
+  },
+  "c_onceki_kapanis_son": {
+   "n": 5476,
+   "net_ort_bps": 17.4,
+   "std_bps": 871.0,
+   "medyan_bps": -16.9,
+   "yuzde5_bps": -1344.0,
+   "en_kotu_%5_ort_bps": -1891.0,
+   "en_kotu_bps": -5016.0,
+   "isabet": 0.494,
+   "surukl_duz_ort_bps": 8.3,
+   "spy_ayni_gun_ort_bps": 3.7
+  },
+  "c_etiketsiz_2g_tum": {
+   "n": 21711,
+   "net_ort_bps": 33.0,
+   "std_bps": 743.0,
+   "medyan_bps": 19.0,
+   "yuzde5_bps": -1077.0,
+   "en_kotu_%5_ort_bps": -1659.0,
+   "en_kotu_bps": -5999.0,
+   "isabet": 0.515,
+   "surukl_duz_ort_bps": 17.9,
+   "spy_ayni_gun_ort_bps": 10.8
+  },
+  "c_etiketsiz_2g_is": {
+   "n": 9214,
+   "net_ort_bps": 31.8,
+   "std_bps": 596.0,
+   "medyan_bps": 20.8,
+   "yuzde5_bps": -874.0,
+   "en_kotu_%5_ort_bps": -1317.0,
+   "en_kotu_bps": -4176.0,
+   "isabet": 0.52,
+   "surukl_duz_ort_bps": 18.7,
+   "spy_ayni_gun_ort_bps": 11.9
+  },
+  "c_etiketsiz_2g_oos": {
+   "n": 12497,
+   "net_ort_bps": 33.9,
+   "std_bps": 834.0,
+   "medyan_bps": 17.2,
+   "yuzde5_bps": -1236.0,
+   "en_kotu_%5_ort_bps": -1859.0,
+   "en_kotu_bps": -5999.0,
+   "isabet": 0.512,
+   "surukl_duz_ort_bps": 17.3,
+   "spy_ayni_gun_ort_bps": 9.9
+  },
+  "c_etiketsiz_2g_son": {
+   "n": 5491,
+   "net_ort_bps": 29.8,
+   "std_bps": 924.0,
+   "medyan_bps": 2.2,
+   "yuzde5_bps": -1414.0,
+   "en_kotu_%5_ort_bps": -2008.0,
+   "en_kotu_bps": -4549.0,
+   "isabet": 0.502,
+   "surukl_duz_ort_bps": 11.6,
+   "spy_ayni_gun_ort_bps": 9.5
+  }
+ },
+ "gelecek": {
+  "n": 61,
+  "ilk": "2026-11-20",
+  "son": "2026-12-18",
+  "zaman": {
+   "time-after-hours": 27,
+   "time-not-supplied": 18,
+   "time-pre-market": 16
+  },
+  "hafta": {
+   "2026-H47": "FRO",
+   "2026-H48": "HPE ZM TCOM FLNC DAC DELL ADI MDT ADSK WDAY HPQ DKS BBY DLTR CLSK DY BILI DE LI PLG",
+   "2026-H49": "NNE MRVL CRWD CRDO OKTA MDB NTAP NIO CRM SNOW ZS AI PATH KR DG ULTA S DOCU",
+   "2026-H50": "TOL SNPS AVAV AVGO ADBE CHWY UEC COST CIEN LULU RH",
+   "2026-H51": "ORCL LEN MU JBL ACN NKE GIS FCEL KBH CCL CAG"
+  }
+ },
+ "sonuc": {
+  "test_ana": 74,
+  "test_kesif": 6,
+  "test_saglamlik_kiyas": 30,
+  "beklenen_yanlis_pozitif_saglam": 0.0029,
+  "beklenen_yanlis_pozitif_kosullu": 0.0104,
+  "sinif": {
+   "ELENDI": 74
+  },
+  "eleme": {
+   "IS t>=2.5 (A)": 0,
+   "A ve OOS t>=2.0": 0,
+   "A ve OOS t>=2.5 (B)": 0,
+   "A ve BH": 0,
+   "IS t<=-2.0 (ters yön)": 5,
+   "OOS t<=-2.0 (ters yön)": 1,
+   "on eleme (IS t>=2, OOS t>=1.5)": 0
+  }
  }
 }

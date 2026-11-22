@@ -204,7 +204,7 @@ def hazirla():
         e["ig"] = tk.searchsorted(e.gun.values, "left") + (e.saat >= 16).astype(int).values   # gerçek tepki günü indeksi
         e["i_gun"] = tk.searchsorted(e.gun.values, "left")
         m = e.merge(ol[["sembol", "i0", "ir", "cikarim", "gercek", "z"]], on="sembol")
-        m = m[(m.i0 - m.i_gun).abs() <= 2 & m.gercek.isna()] if False else m[((m.i0 - m.i_gun).abs() <= 2) & m.gercek.isna()]
+        m = m[((m.i0 - m.i_gun).abs() <= 2) & m.gercek.isna()]
         m = m.sort_values("kabul").drop_duplicates(["sembol", "i0"])
         c.isabet.update({"edgar_n": int(len(m)), "edgar_isabet": round(float((m.ir == m.ig).mean()), 3),
                          "edgar_tarih_ayni": round(float((m.i0 == m.i_gun).mean()), 3),
@@ -346,7 +346,7 @@ def kos(c, M, sinyal_id, tanim, tur="ana", ufuklar=UFUK, bacaklar=("AL", "SAT"),
             row["son_adet"] = int((sonr != 0).sum())
             row["son_semboller"] = " ".join(sonr[sonr != 0].index[:60])
             row["acik_3g"] = " ".join(acik[:80])
-            if tur == "ana" or zorla_ek:
+            if tur in ("ana", "kesif") or zorla_ek:
                 u, yt = ucuz_ek(c, S, h)
                 row.update(u)
                 if on_eleme(d) or zorla_ek:
@@ -464,6 +464,9 @@ def asama_b(c):
     sat += kos(c, np.where(zp >= 1, sig, 0.0), "b_emsal_ayni", "emsal t günü lider yönünde hareket etmiş (z>=1)")
     sat += kos(c, np.where(np.abs(zp) < 1, sig, 0.0), "b_emsal_notr", "emsal t günü hareketsiz (|z|<1)")
     sat += kos(c, np.where(zp <= -1, sig, 0.0), "b_emsal_ters", "emsal t günü lidere ters hareket etmiş (z<=-1)")
+    # KEŞİF (önceden yazılı değil, test sayısına dahil): emsal lider yönünde zaten hareket ettiyse TERSİNE gir
+    # (AL = liderin kötü tepkisiyle birlikte düşen emsali al). Hisse düzeyi AL-dönüş: en çok KOŞULLU.
+    sat += kos(c, np.where(zp >= 1, -sig, 0.0), "k_emsal_donus", "KEŞİF: emsal lider yönünde z>=1 hareket etmiş; ters yönde gir", tur="kesif")
     kaydet(c, sat, "b")
     # Thomas-Zhang (2008) betimsel sınama: emsalin lidere erken tepkisi ile kendi bilanço tepkisi ters mi?
     r, k = np.nonzero((sig != 0) & yak)
@@ -558,16 +561,16 @@ def asama_d(c):
 def bitir():
     par = [pd.read_csv(os.path.join(CIKTI, f"ara_{a}.csv")) for a in "abc" if os.path.exists(os.path.join(CIKTI, f"ara_{a}.csv"))]
     d = pd.concat(par, ignore_index=True)
-    ana = d[d.tur == "ana"].copy()
+    ana = d[d.tur.isin(["ana", "kesif"])].copy()
     tmp = ana.copy()
     sat_kotu = (tmp.yon == "SAT") & ~(pd.to_numeric(tmp.tum_net_bps, errors="coerce") >= 0)
     tmp.loc[sat_kotu, "tum_anormal_net_bps"] = -1.0          # D koşulu: SAT bacağında ham net >= 0 (siniflandir bunu uygulamıyor)
-    tavan = tmp.sinyal_id.str.startswith("c_")               # bilanço öncesi prim: hayatta kalma yanlılığı -> en çok KOŞULLU
+    tavan = tmp.sinyal_id.str.startswith(("c_", "k_"))               # bilanço öncesi prim: hayatta kalma yanlılığı -> en çok KOŞULLU
     tmp = o.siniflandir(tmp, tavan_kosullu=tavan)
     for k in [x for x in tmp.columns if x.startswith("k_")] + ["p_oos", "bh_oos", "sinif"]:
         ana[k] = tmp[k]
     ana["k_D_sat_ham_net"] = ~sat_kotu
-    d = pd.concat([ana, d[d.tur != "ana"]], ignore_index=True)
+    d = pd.concat([ana, d[~d.tur.isin(["ana", "kesif"])]], ignore_index=True)
     d["sinif"] = d.sinif.fillna("SINIFSIZ")
     d.to_csv(os.path.join(CIKTI, "sonuclar.csv"), index=False)
     sira = {"SAGLAM": 0, "KOSULLU": 1, "IZLE": 2}
@@ -582,7 +585,7 @@ def bitir():
     n = len(ana)
     ist = pd.to_numeric(ana.is_t_anormal, errors="coerce")
     oost = pd.to_numeric(ana.oos_t_anormal, errors="coerce")
-    oz = {"test_ana": int(n), "test_saglamlik_kiyas": int((d.tur != "ana").sum()),
+    oz = {"test_ana": int(n), "test_kesif": int((ana.tur == "kesif").sum()), "test_saglamlik_kiyas": int((~d.tur.isin(["ana", "kesif"])).sum()),
           "beklenen_yanlis_pozitif_saglam": round(n * o.P_SIFIR_SAGLAM, 4), "beklenen_yanlis_pozitif_kosullu": round(n * o.P_SIFIR_KOSULLU, 4),
           "sinif": ana.sinif.value_counts().to_dict(),
           "eleme": {"IS t>=2.5 (A)": int(ana.k_A.sum()), "A ve OOS t>=2.0": int((ana.k_A & ana.k_B_zayif).sum()),
@@ -594,8 +597,7 @@ def bitir():
            "oos_anormal_net_bps", "oos_t_anormal", "son_net_bps", "son_anormal_net_bps", "sinif"]
     pd.set_option("display.width", 250)
     print(json.dumps(oz, ensure_ascii=False))
-    print(d[d.tur == "ana"][kol].to_string(index=False))
-    print(d[d.tur != "ana"][[k for k in kol if k != "sinif"] + ["tur"]].to_string(index=False))
+    print(d[d.sinif != "ELENDI"][kol + ["tur"]].to_string(index=False))
 
 
 if __name__ == "__main__":

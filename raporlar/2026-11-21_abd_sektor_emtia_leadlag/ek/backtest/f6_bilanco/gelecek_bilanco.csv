@@ -1,0 +1,62 @@
+tarih,sembol,zaman,ad,eps_beklenti,tahmin_sayisi,ceyrek,grup,tepki_gunu,on_prim_alim_gunu,dolar_hacim_mn
+2026-11-20,FRO,time-not-supplied,Frontline Plc,,,Sep/2026,h_denizcilik,2026-11-20,2026-11-19,191.0
+2026-11-23,HPE,time-after-hours,Hewlett Packard Enterprise Company,$1.18,7.0,Oct/2026,h_donanim_ag,2026-11-24,2026-11-23,1009.0
+2026-11-23,ZM,time-after-hours,"Zoom Communications, Inc.",$1,8.0,Oct/2026,h_yazilim,2026-11-24,2026-11-23,246.0
+2026-11-23,TCOM,time-not-supplied,Trip.com Group Limited,$1.07,2.0,Sep/2026,h_cin_adr,2026-11-23,2026-11-20,126.0
+2026-11-23,FLNC,time-after-hours,"Fluence Energy, Inc.",($0.54),4.0,Sep/2026,h_nukleer_guc,2026-11-24,2026-11-23,43.0
+2026-11-23,DAC,time-after-hours,Danaos Corporation,,,Sep/2026,h_denizcilik,2026-11-24,2026-11-23,23.0
+2026-11-24,DELL,time-after-hours,Dell Technologies Inc.,$6.55,8.0,Oct/2026,h_donanim_ag,2026-11-25,2026-11-24,3257.0
+2026-11-24,ADI,time-pre-market,"Analog Devices, Inc.",$3.89,10.0,Oct/2026,h_yariiletken,2026-11-24,2026-11-23,1253.0
+2026-11-24,MDT,time-pre-market,Medtronic plc,$1.34,8.0,Oct/2026,h_medikal_hizmet,2026-11-24,2026-11-23,909.0
+2026-11-24,ADSK,time-after-hours,"Autodesk, Inc.",$2.27,10.0,Oct/2026,h_yazilim,2026-11-25,2026-11-24,444.0
+2026-11-24,WDAY,time-after-hours,"Workday, Inc.",$1.28,10.0,Oct/2026,h_yazilim,2026-11-25,2026-11-24,416.0
+2026-11-24,HPQ,time-after-hours,HP Inc.,$0.74,5.0,Oct/2026,h_donanim_ag,2026-11-25,2026-11-24,412.0
+2026-11-24,DKS,time-pre-market,Dick's Sporting Goods Inc,$1.38,8.0,Oct/2026,h_perakende_tuketim,2026-11-24,2026-11-23,316.0
+2026-11-24,BBY,time-pre-market,"Best Buy Co., Inc.",$1.48,10.0,Oct/2026,h_perakende_tuketim,2026-11-24,2026-11-23,276.0
+2026-11-24,DLTR,time-pre-market,"Dollar Tree, Inc.",$0.89,10.0,Oct/2026,h_perakende_tuketim,2026-11-24,2026-11-23,265.0
+2026-11-24,CLSK,time-not-supplied,"CleanSpark, Inc.",($0.36),3.0,Sep/2026,h_fintech_kripto,2026-11-24,2026-11-23,173.0
+2026-11-24,DY,time-pre-market,"Dycom Industries, Inc.",$4.33,5.0,Oct/2026,h_makine_sanayi,2026-11-24,2026-11-23,154.0
+2026-11-24,BILI,time-pre-market,Bilibili Inc.,$0.17,2.0,Sep/2026,h_cin_adr,2026-11-24,2026-11-23,42.0
+2026-11-25,DE,time-pre-market,Deere & Company,$4.07,1.0,Oct/2026,h_makine_sanayi,2026-11-25,2026-11-24,780.0
+2026-11-25,LI,time-pre-market,Li Auto Inc.,($0.08),1.0,Sep/2026,h_oto_ev,2026-11-25,2026-11-24,29.0
+2026-11-25,PLG,time-not-supplied,Platinum Group Metals Ltd.,,,Aug/2026,h_altin_gumus,2026-11-25,2026-11-24,1.0
+2026-11-30,NNE,time-after-hours,Nano Nuclear Energy Inc.,($0.31),3.0,Sep/2026,h_tematik_yuksek_beta,2026-12-01,2026-11-30,26.0
+2026-12-01,MRVL,time-after-hours,"Marvell Technology, Inc.",$0.79,12.0,Oct/2026,h_yariiletken,2026-12-02,2026-12-01,4668.0
+2026-12-01,CRWD,time-after-hours,"CrowdStrike Holdings, Inc.",$0,13.0,Oct/2026,h_yazilim,2026-12-02,2026-12-01,2237.0
+2026-12-01,CRDO,time-after-hours,Credo Technology Group Holding Ltd,$1.03,6.0,Oct/2026,h_yariiletken,2026-12-02,2026-12-01,1349.0
+2026-12-01,OKTA,time-after-hours,"Okta, Inc.",$0.43,10.0,Oct/2026,h_yazilim,2026-12-02,2026-12-01,686.0
+2026-12-01,MDB,time-after-hours,"MongoDB, Inc.",$0.08,9.0,Oct/2026,h_yazilim,2026-12-02,2026-12-01,550.0
+2026-12-01,NTAP,time-after-hours,"NetApp, Inc.",$2.14,8.0,Oct/2026,h_donanim_ag,2026-12-02,2026-12-01,416.0
+2026-12-01,NIO,time-pre-market,NIO Inc.,($0.03),1.0,Sep/2026,h_oto_ev,2026-12-01,2026-11-30,111.0
+2026-12-02,CRM,time-after-hours,"Salesforce, Inc.",$2.41,13.0,Oct/2026,h_yazilim,2026-12-03,2026-12-02,2026.0
+2026-12-02,SNOW,time-after-hours,Snowflake Inc.,($0.32),11.0,Oct/2026,h_yazilim,2026-12-03,2026-12-02,1349.0
+2026-12-02,ZS,time-after-hours,"Zscaler, Inc.",$0.12,12.0,Oct/2026,h_yazilim,2026-12-03,2026-12-02,546.0
+2026-12-02,AI,time-not-supplied,"C3.ai, Inc.",($0.58),6.0,Oct/2026,h_yazilim,2026-12-02,2026-12-01,50.0
+2026-12-03,PATH,time-after-hours,"UiPath, Inc.",$0.10,4.0,Oct/2026,h_yazilim,2026-12-04,2026-12-03,429.0
+2026-12-03,KR,time-pre-market,Kroger Company (The),$1.17,9.0,Oct/2026,h_temel_tuketim,2026-12-03,2026-12-02,419.0
+2026-12-03,DG,time-pre-market,Dollar General Corporation,$1.40,13.0,Oct/2026,h_perakende_tuketim,2026-12-03,2026-12-02,282.0
+2026-12-03,ULTA,time-after-hours,"Ulta Beauty, Inc.",$5.61,12.0,Oct/2026,h_perakende_tuketim,2026-12-04,2026-12-03,270.0
+2026-12-03,S,time-after-hours,"SentinelOne, Inc.",($0.11),10.0,Oct/2026,h_yazilim,2026-12-04,2026-12-03,219.0
+2026-12-03,DOCU,time-not-supplied,"DocuSign, Inc.",$0.53,7.0,Oct/2026,h_yazilim,2026-12-03,2026-12-02,186.0
+2026-12-07,TOL,time-after-hours,"Toll Brothers, Inc.",$4.89,7.0,Oct/2026,h_konut,2026-12-08,2026-12-07,138.0
+2026-12-08,SNPS,time-after-hours,"Synopsys, Inc.",$3.09,6.0,Oct/2026,h_yazilim,2026-12-09,2026-12-08,842.0
+2026-12-08,AVAV,time-not-supplied,"AeroVironment, Inc.",$0.46,7.0,Oct/2026,h_savunma_havacilik,2026-12-08,2026-12-07,180.0
+2026-12-09,AVGO,time-after-hours,Broadcom Inc.,$3.45,10.0,Oct/2026,h_yariiletken,2026-12-10,2026-12-09,8427.0
+2026-12-09,ADBE,time-after-hours,Adobe Inc.,$5.11,12.0,Nov/2026,h_yazilim,2026-12-10,2026-12-09,1063.0
+2026-12-09,CHWY,time-pre-market,"Chewy, Inc.",$0.20,8.0,Oct/2026,h_internet_medya,2026-12-09,2026-12-08,160.0
+2026-12-09,UEC,time-not-supplied,Uranium Energy Corp.,($0.09),2.0,Oct/2026,h_nukleer_guc,2026-12-09,2026-12-08,80.0
+2026-12-10,COST,time-after-hours,Costco Wholesale Corporation,$4.89,11.0,Nov/2026,h_perakende_tuketim,2026-12-11,2026-12-10,2068.0
+2026-12-10,CIEN,time-pre-market,Ciena Corporation,$1.77,8.0,Oct/2026,h_donanim_ag,2026-12-10,2026-12-09,968.0
+2026-12-10,LULU,time-not-supplied,lululemon athletica inc.,$0.98,10.0,Oct/2026,h_perakende_tuketim,2026-12-10,2026-12-09,411.0
+2026-12-10,RH,time-not-supplied,RH,$0.67,8.0,Oct/2026,h_perakende_tuketim,2026-12-10,2026-12-09,97.0
+2026-12-14,ORCL,time-after-hours,Oracle Corporation,$1.56,10.0,Nov/2026,h_yazilim,2026-12-15,2026-12-14,4022.0
+2026-12-15,LEN,time-not-supplied,Lennar Corporation,$1.44,7.0,Nov/2026,h_konut,2026-12-15,2026-12-14,323.0
+2026-12-16,MU,time-not-supplied,"Micron Technology, Inc.",$37.95,8.0,Nov/2026,h_yariiletken,2026-12-16,2026-12-15,23784.0
+2026-12-16,JBL,time-not-supplied,Jabil Inc.,$3.64,4.0,Nov/2026,h_donanim_ag,2026-12-16,2026-12-15,315.0
+2026-12-17,ACN,time-pre-market,Accenture plc,$3.91,7.0,Nov/2026,h_yazilim,2026-12-17,2026-12-16,1118.0
+2026-12-17,NKE,time-not-supplied,"Nike, Inc.",$0.34,12.0,Nov/2026,h_perakende_tuketim,2026-12-17,2026-12-16,1071.0
+2026-12-17,GIS,time-pre-market,"General Mills, Inc.",$0.96,7.0,Nov/2026,h_temel_tuketim,2026-12-17,2026-12-16,307.0
+2026-12-17,FCEL,time-not-supplied,"FuelCell Energy, Inc.",($0.31),1.0,Oct/2026,h_temiz_enerji,2026-12-17,2026-12-16,83.0
+2026-12-17,KBH,time-not-supplied,KB Home,$1.21,7.0,Nov/2026,h_konut,2026-12-17,2026-12-16,59.0
+2026-12-18,CCL,time-not-supplied,Carnival Corporation Ltd.,$0.22,7.0,Nov/2026,h_seyahat,2026-12-18,2026-12-17,492.0
+2026-12-18,CAG,time-not-supplied,"ConAgra Brands, Inc.",$0.34,6.0,Nov/2026,h_temel_tuketim,2026-12-18,2026-12-17,156.0

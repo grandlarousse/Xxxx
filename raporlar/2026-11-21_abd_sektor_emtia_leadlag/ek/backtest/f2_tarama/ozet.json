@@ -1,0 +1,61 @@
+{
+ "tarama_cift": 403876,
+ "islem_testi": 601,
+ "kiyas_satiri": 45,
+ "toplam_test": 404477,
+ "beklenen_yp_tarama_A_ve_B": 31.1,
+ "beklenen_yp_islem_saglam": 0.023,
+ "beklenen_yp_islem_kosullu": 0.084,
+ "sinif_aile": {
+  "F2-geride": {
+   "ELENDI": 34,
+   "IZLE": 0,
+   "KOSULLU": 0
+  },
+  "F2b+": {
+   "ELENDI": 33,
+   "IZLE": 3,
+   "KOSULLU": 0
+  },
+  "F2b+AB(keşif)": {
+   "ELENDI": 180,
+   "IZLE": 0,
+   "KOSULLU": 0
+  },
+  "F2b-AB(keşif)": {
+   "ELENDI": 168,
+   "IZLE": 9,
+   "KOSULLU": 3
+  },
+  "F2b-yuruyen": {
+   "ELENDI": 36,
+   "IZLE": 0,
+   "KOSULLU": 0
+  },
+  "F2e-neg": {
+   "ELENDI": 36,
+   "IZLE": 0,
+   "KOSULLU": 0
+  },
+  "F2y-B2": {
+   "ELENDI": 33,
+   "IZLE": 0,
+   "KOSULLU": 0
+  },
+  "F2y-fark": {
+   "ELENDI": 33,
+   "IZLE": 0,
+   "KOSULLU": 0
+  },
+  "F2y-prim(keşif)": {
+   "ELENDI": 33,
+   "IZLE": 0,
+   "KOSULLU": 0
+  }
+ },
+ "sinif_toplam": {
+  "ELENDI": 586,
+  "IZLE": 12,
+  "KOSULLU": 3
+ }
+}
