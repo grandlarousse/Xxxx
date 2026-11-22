@@ -1,0 +1,7 @@
+kaynak,oncu,hedef,bicim,yon,h,oos_n,oos_anormal_net_bps,is_t_anormal,oos_t_anormal,son_net_bps
+f1_emtia,CRACK321,PBF,B1,+,3,502,108.7,1.12,2.82,114.7
+cift_motoru,HO=F,CVI,B3,+,3,592,100.8,0.11,2.81,98.6
+cift_motoru,HG=F,ETN,B2,+,3,545,38.7,0.55,2.53,60.8
+cift_motoru,UNL,AR,B1,+,3,611,102.5,-0.85,2.51,-22.6
+cift_motoru,UNG,AR,B3,+,1,630,44.6,-1.77,2.51,-21.4
+cift_motoru,MTF=F,ARLP,B3,+,3,401,95.6,-0.43,2.51,8.4

@@ -1,0 +1,27 @@
+/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/f1_emtia.py:55: Pandas4Warning: Sorting by default when concatenating all DatetimeIndex is deprecated.  In the future, pandas will respect the default of `sort=False`. Specify `sort=True` or `sort=False` to silence this message. If you see this warnings when not directly calling concat, report a bug to pandas.
+  d = pd.concat({s: o.oku(s)["close"] for s in semboller}, axis=1).dropna()
+[     7s] crack tek hedefler 192
+[    11s] crack sepet 219
+/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/f1_emtia.py:55: Pandas4Warning: Sorting by default when concatenating all DatetimeIndex is deprecated.  In the future, pandas will respect the default of `sort=False`. Specify `sort=True` or `sort=False` to silence this message. If you see this warnings when not directly calling concat, report a bug to pandas.
+  d = pd.concat({s: o.oku(s)["close"] for s in semboller}, axis=1).dropna()
+[    15s] soya 387
+[    17s] egri 459
+[    21s] oran/tip/uup/gdx 588
+[    28s] birikim 696
+[    30s] takvim/zirve 738
+[    30s] özel testler 738
+[    32s] çürütme hazir_cift:ZS=F>BG:B1:+:h3:kapanis
+[    32s] çürütme hazir_cift:TIO=F>CLF:B1r:+:h2:kapanis
+[    32s] çürütme hazir_cift:TIO=F>CLF:B1r:+:h3:kapanis
+[    32s] çürütme hazir_cift:ZS=F>CTVA:B1r:+:h1:kapanis
+[    33s] çürütme hazir_cift:UNG>NRG:B3:+:h3:kapanis
+[    33s] çürütme a_crack:CRACK321>VLO:B1:+:h2:kapanis
+[    33s] çürütme a_crack:CRACK321>VLO:B1r:+:h2:kapanis
+[    33s] çürütme a_crack:CRACK321>VLO:B1r:+:h3:kapanis
+[    34s] çürütme a_crack:CRACK321>SEPET_RAFINERI:B1r:+:h3:kapanis
+[    34s] çürütme b_soya:ZS=F>BG:B1:+:h3:kapanis
+HAZIR F1 test: 3237 hipotez: 2427 sınıf: {'ELENDI': 3232, 'IZLE': 5}
+ÖZEL test: 738 hipotez (B1r hariç): 403 B1r: 87 kontrol: 248
+özel sınıflar: {'ELENDI': 485, 'IZLE': 4, 'KOSULLU': 1} | grup: {'ELENDI': {'a_crack': 101, 'b_soya': 71, 'c_egri': 36, 'd_oran': 9, 'e_tip_uup': 84, 'f_gdx': 36, 'g_birikim': 108, 'h_rapor': 4, 'i_zirve': 36}, 'IZLE': {'a_crack': 3, 'b_soya': 1, 'c_egri': 0, 'd_oran': 0, 'e_tip_uup': 0, 'f_gdx': 0, 'g_birikim': 0, 'h_rapor': 0, 'i_zirve': 0}, 'KOSULLU': {'a_crack': 1, 'b_soya': 0, 'c_egri': 0, 'd_oran': 0, 'e_tip_uup': 0, 'f_gdx': 0, 'g_birikim': 0, 'h_rapor': 0, 'i_zirve': 0}}
+k_A: 4 k_A&k_B_zayif: 1 IS>=2&OOS>=1.5: 5
+[    34s] bitti

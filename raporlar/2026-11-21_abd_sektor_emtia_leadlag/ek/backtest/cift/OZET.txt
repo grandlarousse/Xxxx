@@ -1,25 +1,25 @@
-TOPLAM TEST: 10824 (hipotez testi: 8163; B1r arındırma testi: 2661)
-Beklenen yanlış pozitif (sıfır hipotezi): SAĞLAM 0.32, KOŞULLU 1.14
+TOPLAM TEST: 10959 (hipotez testi: 8298; B1r arındırma testi: 2661)
+Beklenen yanlış pozitif (sıfır hipotezi): SAĞLAM 0.32, KOŞULLU 1.16
 Sınıflar (aile x biçim):
 sinif       ELENDI  IZLE  KOSULLU
 aile bicim                       
-F1   B1        809     1        0
+F1   B1        818     1        0
      B1r       807     3        0
-     B2        807     0        0
-     B3        809     1        0
-F2   B1       1281     0        0
+     B2        816     0        0
+     B3        818     1        0
+F2   B1       1293     0        0
      B1r      1278     2        1
-     B2       1256     1        0
-     B3       1281     0        0
-F3   B1        638     1        0
+     B2       1268     1        0
+     B3       1293     0        0
+F3   B1        662     1        0
      B1r       570     0        0
-     B2        638     1        0
-     B3        639     0        0
-IS t >= 2,5 olan: 84; bunlardan OOS t >= 2,0: 1; OOS t >= 2,5: 0; BH geçen: 0
-B1: n=2730 | tüm-örneklem t ort -0.63, >=2: 2.2%, <=-2: 17.8% | OOS t ort -0.38
+     B2        662     1        0
+     B3        663     0        0
+IS t >= 2,5 olan: 87; bunlardan OOS t >= 2,0: 1; OOS t >= 2,5: 0; BH geçen: 0
+B1: n=2775 | tüm-örneklem t ort -0.64, >=2: 2.1%, <=-2: 17.9% | OOS t ort -0.39
 B1r: n=2661 | tüm-örneklem t ort -0.82, >=2: 2.2%, <=-2: 18.9% | OOS t ort -0.40
-B2: n=2703 | tüm-örneklem t ort -0.45, >=2: 2.8%, <=-2: 12.7% | OOS t ort -0.24
-B3: n=2730 | tüm-örneklem t ort -0.63, >=2: 1.3%, <=-2: 14.2% | OOS t ort -0.40
+B2: n=2748 | tüm-örneklem t ort -0.43, >=2: 2.8%, <=-2: 12.4% | OOS t ort -0.23
+B3: n=2775 | tüm-örneklem t ort -0.63, >=2: 1.3%, <=-2: 14.1% | OOS t ort -0.41
 Kıyas KDr (hedefin SPY artığı dönüşü) sınıflar: {'ELENDI': 1095}
 
 AYAKTA KALANLAR (ELENDİ dışı):
