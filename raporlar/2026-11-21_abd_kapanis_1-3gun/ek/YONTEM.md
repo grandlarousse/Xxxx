@@ -101,4 +101,11 @@ Kaynağı olan her kural için yayın yılı yazılır; yalnız yayın sonrası 
 
 ## Sapmalar
 
-(boş)
+Hepsi sinyal hesapları başlamadan önce, motorun bağımsız kod denetimi (`ajanlar/d4_KD.md`) üzerine yazıldı.
+
+1. **Giriş G'nin çıkışı t+1+h** (plan "t+h" diyordu; h = 1'de tutma süresi sıfır olurdu).
+2. **Anormal getiri tabanı:** dönem × VIX kovası hücresinde 20'den az gözlem varsa taban, aynı VIX kovasının 2005–2026 havuzlanmış ortalamasıdır. (Son dönemde VIX > 30 hücresinde yalnız 15 gün var; aksi hâlde bu işlemler anormal getiriden düşüyordu.)
+3. **Karar ölçüsü, kuralın türüne göre:** tek hedefli kuralda oynaklığa ölçeklenmiş t; çok hedefli (havuzlanmış) kuralda tarihe göre kümelenmiş t ve bootstrap p. (Denetim: çok hedefli saf gürültüde ölçeklenmiş t'nin yanlış pozitif oranı %55.)
+4. **Tek yönlü kurallarda ek şart:** anormal getiri > 0 ve anormal getirinin kümelenmiş t'si ≥ 2 (sonuç şemasına `t_anormal` sütunu eklendi). (Denetim: yükselen bir varlıkta rastgele girişli yalnız-uzun kuralların %6'sı net getiriyle "anlamlı" çıkıyor, anormal getiriyle %0.)
+5. **Portföy tavanında eşitlik:** sinyal gücü verilmezse 5 pozisyon tavanındaki seçim sütun sırasına göre değil, veriden bağımsız sabit tohumlu rastgele sırayla yapılır.
+6. Çoklu test düzeltmesinde p-değeri hesaplanamayan aday 1,0 sayılır.

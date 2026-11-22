@@ -1,0 +1,76 @@
+test,olcu,deger,gecti
+a,kural 1 NVDA seri3 K/3/kapanis/SPY:60/oransal n=747,maks fark: brut 5.7e-15 net 5.4e-15 beta 2.4e-13 anormal 5.7e-15,True
+a,kural 2 MSFT gurultu A/2/kapanis/yok/hisse n=409,maks fark: brut 0.0e+00 net 1.4e-17 beta 0.0e+00 anormal 0.0e+00,True
+a,kural 3 TLT seri3 G/1/kapanis/SPY:60/hisse n=1180,maks fark: brut 6.7e-16 net 6.5e-16 beta 7.8e-14 anormal 6.7e-16,True
+a,kural 4 TLT dusus K/3/acilis/yok/sabit n=94,maks fark: brut 0.0e+00 net 6.9e-18 beta 0.0e+00 anormal 0.0e+00,True
+a,kural 5 NVDA seri3 K/3/acilis/SPY:250/hisse n=1296,maks fark: brut 4.0e-16 net 4.0e-16 beta 2.5e-14 anormal 4.0e-16,True
+a,kural 6 KO yukselis_kisa K/3/kapanis/SPY:60/oransal n=54,maks fark: brut 3.2e-16 net 4.3e-16 beta 2.6e-14 anormal 3.3e-16,True
+a,kural 7 GLD dusus G/3/kapanis/yok/hisse n=544,maks fark: brut 0.0e+00 net 6.9e-18 beta 0.0e+00 anormal 0.0e+00,True
+a,kural 8 XLF ibs G/2/kapanis/yok/oransal n=1745,maks fark: brut 0.0e+00 net 2.8e-17 beta 0.0e+00 anormal 0.0e+00,True
+a,kural 9 TSLA gurultu G/3/kapanis/SPY:250/hisse n=263,maks fark: brut 9.4e-16 net 9.5e-16 beta 1.6e-14 anormal 9.5e-16,True
+a,kural 10 EEM seri3 K/3/kapanis/yok/hisse n=748,maks fark: brut 0.0e+00 net 2.8e-17 beta 0.0e+00 anormal 0.0e+00,True
+a,kural 11 JPM seri3 A/1/kapanis/SPY:250/oransal n=1234,maks fark: brut 1.7e-16 net 1.9e-16 beta 1.6e-14 anormal 1.7e-16,True
+a,kural 12 XLE gurultu G/2/kapanis/SPY:250/sabit n=371,maks fark: brut 1.5e-16 net 1.4e-16 beta 9.0e-15 anormal 1.5e-16,True
+a,kural 13 SOXL yukselis_kisa K/2/kapanis/SPY:250/hisse n=626,maks fark: brut 2.0e-15 net 2.1e-15 beta 8.1e-14 anormal 2.0e-15,True
+a,kural 14 TQQQ dusus A/1/kapanis/yok/sabit n=630,maks fark: brut 0.0e+00 net 5.6e-17 beta 0.0e+00 anormal 0.0e+00,True
+a,toplam karsilastirilan islem,9941,
+a,en kotu farklar (14 kural),"{'giris_gunu': 0, 'cikis_gunu': 0, 'yon': 0, 'kova': 0, 'ust200': 0, 'donem': 0, 'brut': 5.75e-15, 'beta': 2.41e-13, 'net': 5.44e-15, 'sigma20': 0, 'anormal': 5.73e-15}",True
+b,hileli K h=1: brut bps / t / isabet / n,122.5 / 49.4 / 1.000 / 1542,True
+b,durust K h=1: brut bps / t / isabet / n,0.04 / 0.01 / 0.540 / 1542,True
+b,hileli A h=1 (gun ici kisim) bps / t,75.6 / 35.6,True
+b,hileli K->acilis (gece kisim) bps / t,46.7 / 25.6,True
+b,hileli G h=1 (t+1 -> t+2; sizinti bitmeli) bps / t,0.04 / 0.01,True
+b,bakis_testi hileli sinyali yakaliyor / durustu geciriyor,True / True,True
+b,tek gun sinyal (QQQ 2018-02-05): 4 giris turunde getiri elle hesapla ayni,True,True
+b,SONRA (25 kod) girdi/getiri 1 gun gecikmeli; VIX t-1; sizintili yalniz VIX,True True True True True,True
+b,ONCE (15 kod) ve ABD16 ayni gun,True,True
+b,SONRA kod hedef olamaz,True,True
+c1,"simetrik +-1 gurultu, brut, IS: bootstrap n=298","p<0,05: 0.047  p<0,10: 0.097  ort p: 0.515  KS: 0.045 (kritik 0.094)",True
+c1,"simetrik +-1 gurultu, brut, IS: t_olcekli (normal p) n=298","p<0,05: 0.054  p<0,10: 0.097  ort p: 0.515  KS: 0.053 (kritik 0.094)",True
+c1,"simetrik +-1 gurultu, brut, IS: wilcoxon n=298","p<0,05: 0.054  p<0,10: 0.094  ort p: 0.525  KS: 0.072 (kritik 0.094)",True
+c1,"az islemli kurallar (n<40; 52 kural): p<0,05 bootstrap / t / wilcoxon",0.038 / 0.038 / 0.058,
+c1,"uc olcunun en az ikisi p<0,05 (UYGUN kosulu) / ucu birden",0.050 / 0.027,
+c2,"yalniz-uzun gurultu, IS, h=1, 200 kural, NET (sabit komisyon): t>=2 / t<=-2 / ort t",0.005 / 0.100 / -0.58,
+c2,"yalniz-uzun gurultu, IS, h=1, 200 kural, BRUT: t>=2 / t<=-2 / ort t",0.135 / 0.000 / 0.85,
+c2,"yalniz-uzun gurultu, IS, h=1, 200 kural, ANORMAL: t>=2 / t<=-2 / ort t",0.030 / 0.020 / -0.04,
+c2,"h=1: hedefe gore ort. net t (en dusuk 2, en yuksek 3)","{'GLD': -1.92, 'TLT': -1.88} ... {'AAPL': 0.09, 'JPM': 0.29, 'QQQ': 0.33}",
+c2,"yalniz-uzun gurultu, IS, h=3, 200 kural, NET (sabit komisyon): t>=2 / t<=-2 / ort t",0.060 / 0.005 / 0.43,
+c2,"yalniz-uzun gurultu, IS, h=3, 200 kural, BRUT: t>=2 / t<=-2 / ort t",0.235 / 0.000 / 1.18,
+c2,"yalniz-uzun gurultu, IS, h=3, 200 kural, ANORMAL: t>=2 / t<=-2 / ort t",0.000 / 0.000 / -0.10,
+c2,"h=3: hedefe gore ort. net t (en dusuk 2, en yuksek 3)","{'XOM': -0.84, 'GLD': -0.59} ... {'NVDA': 1.21, 'TQQQ': 1.43, 'AAPL': 2.06}",
+c3,"40 hedef ayni gun ayni yon, h=1, 100 kural: |t_olcekli|>=1,96 / |t_kume|>=1,96 / p_boot<0,05",0.55 / 0.04 / 0.03,
+c3,"40 hedef ayni gun ayni yon, h=3, 100 kural: |t_olcekli|>=1,96 / |t_kume|>=1,96 / p_boot<0,05",0.57 / 0.06 / 0.03,
+d,"dogrudan panel, 2005-01-04 -> 2026-11-20, 5506 gun: gece toplam (basit) / bilesik",188.1% / 469.7%,
+d,dogrudan panel: gun ici toplam (basit) / bilesik,63.7% / 49.5%,
+d,dogrudan panel: kapanis-kapanis toplam (basit) / bilesik; (1+gece)(1+gunici)=(1+kk) hatasi,253.3% / 751.9%; 2.2e-16,
+d,"motor (her gun al; 5446 islem, ilk sinyal 2005-03-31): gece / gun ici / kk toplam",183.9% / 69.4% / 254.8%,
+d,ayni gunlerde dogrudan hesap: gece / gun ici / kk toplam,183.9% / 69.4% / 254.8%,
+d,islem islem en buyuk fark: gece / gun ici / kk,0.0e+00 / 0.0e+00 / 0.0e+00,True
+d,motorun kapsamadigi gun sayisi (ilk 60 gun hacim penceresi + son gun),60,True
+d,"gunluk seri toplami - islem net toplami (K h=1, sabit)",4.9e-15,True
+e1,"blok_permutasyon: gecerli permutasyon, hucre (yil x VIX kovasi) ici, maske disi sabit",True,True
+e1,IS'te yerinde kalan gun orani (200 cekilis ort. / en cok); <=20 gunluk hucrelerdeki gun orani,0.016 / 0.016; 0.016,True
+e1,ekili bag (korelasyon) gercek / plasebo ort. / plasebo |maks|,0.445 / 0.0075 / 0.055,True
+e2,BH: 300 rastgele p kumesinde tanimdan hesapla ayni,True,True
+e3,Wilcoxon: bagimsiz normal-yaklasim uygulamasiyla en buyuk p farki,0.0e+00,True
+e3,Wilcoxon n=12 ornek: tam p / motor p (normal yaklasim),0.0342 / 0.0376,True
+e4,"bootstrap_p, iid, n=1000, 300 seri: p<0,05 / p<0,10 / KS",0.047 / 0.077 / 0.053,True
+e4,"bootstrap_p, AR(1) phi=0,3, n=1000, 300 seri: p<0,05 / p<0,10 / KS",0.043 / 0.103 / 0.032,True
+e4,"bootstrap_p guc: ortalama 0,15 sigma, n=1000 (t~4,7)",0.0002,True
+e5,"genisleyen_esik / z_skor / genisleyen_sira: t-1'de biter, deger elle ayni",True,True
+e6,"donem siniri: IS'te sinyal, OOS'ta cikis (her gun al, SPY, K h=3)",1 islem; sinyal ['2019-12-31'],
+e6,OOS etiketli ama sinyali IS'te olan islem,0,True
+e7,cok hedefli islem listesi = hedef hedef tek listeler (4 hedef),True,True
+e7,"guc verilmeyince portfoye giren hedefler (12 aday, tavan 5)","['AAPL', 'GLD', 'IWM', 'JPM', 'KO', 'NVDA', 'QQQ', 'SPY', 'TLT', 'XLE', 'XLF', 'XOM']",
+e7,portfoy tavani K h=2: en cok eszamanli pozisyon; portfoyde/toplam,5; 13615/32676,True
+e7,portfoy tavani A h=3: en cok eszamanli pozisyon; portfoyde/toplam,5; 9075/21780,True
+e7,portfoy tavani G h=1: en cok eszamanli pozisyon; portfoyde/toplam,5; 27225/65340,True
+e8,"degerlendir satirlari (XLE iki yonlu, A h=2, SPY:60; 3 donem x 3 rejim x 15 sutun) referansla ayni","True; OOS n/brut/net/t = [218, 15.89, 0.58, -0.614]",True
+e8,anormal getirisi NaN olan islemler (hucrede < 20 gun; ortalamadan sessizce dusuyor),yok,
+e8,"p_bootstrap (OOS) = bootstrap_p(gunluk seri, OOS gunleri); yillik_net_pct ayni",0.9778 / 0.9778; 0.3143 / 0.3143,True
+e13,gunluk seri gun gun: korunmali A h=2 brut fark / net toplam farki / 12 hedef esit agirlik fark,0.0e+00 / 8.9e-16 / 2.8e-17,True
+e12,"VIX(t-1)>30 bolumleri bagimsiz hesapla ayni; bolum sayisi 22, VIX>30 gun 449; son 5 bolum baslangici","True; ['2022-04-27', '2022-09-27', '2024-08-06', '2025-04-04', '2026-03-30']",True
+e9,"beta/sigma/adv/kademe/uygun/rejim: T0 gunu dahil oncesi, T0 sonrasi veriden bagimsiz",True,True
+e9,artik_getiri: gelecege bagimsiz; NVDA~SPY+SMH 3 gunde elle EKK ile fark,True; 8.3e-17,True
+e10,"tarama_regresyon (5x4 cift, eksik verili, HC0 ve NW-2): elle EKK ile en buyuk fark b / t",6.7e-16 / 7.3e-15,True
+e11,"kumele / tekillestir (IS) ve donem basi evreni (IS, OOS): 2020 sonrasi veriden bagimsiz",True True True,True

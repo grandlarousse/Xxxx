@@ -1,5 +1,5 @@
 """Kripto 16:00 ET fiyati (15:00-16:00 ET saatlik mumunun kapanisi), her NYSE islem gunu.
-Kaynak: Coinbase Exchange saatlik mum; Coinbase oncesi BTC gunleri (2015-01-02..) Bitstamp.
+Kaynak: Coinbase Exchange saatlik mum; Coinbase saatlik BTC 2015-07-20 basladigi icin oncesi (2015-01-02..2015-07-22) Bitstamp.
 Kullanim: python3 -I kripto_1600.py <ham_dizin> <panel_dizin>"""
 import sys, os, time, json, requests
 import pandas as pd, numpy as np
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     son = (pd.Timestamp(gun[-1]) + pd.Timedelta(days=1)).strftime("%Y-%m-%d")
     cb = {"BTC-USD": coinbase("BTC-USD", "2015-01-20", son), "ETH-USD": coinbase("ETH-USD", "2016-05-15", son),
           "SOL-USD": coinbase("SOL-USD", "2021-05-20", son)}
-    bs = bitstamp("btcusd", "2014-12-31", "2015-02-15")
+    bs = bitstamp("btcusd", "2014-12-31", "2015-08-01")   # Coinbase saatlik BTC 2015-07-20 basliyor
     fiy, kay, yd = {}, {}, {}
     for k, m in cb.items():
         ilk = m.index[0]

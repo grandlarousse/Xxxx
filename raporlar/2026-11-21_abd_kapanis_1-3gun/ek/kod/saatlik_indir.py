@@ -15,7 +15,8 @@ def cek(k):
     for i in range(4):
         host = "query1" if i % 2 == 0 else "query2"
         try:
-            r = requests.get(f"https://{host}.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(k, safe='')}?interval=60m&range=730d", headers=H, timeout=30)
+            ek = "range=730d" if i < 2 else f"period1={int(time.time()) - 729 * 86400}&period2={int(time.time())}"   # genc kodlarda range=730d -> HTTP 422
+            r = requests.get(f"https://{host}.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(k, safe='')}?interval=60m&{ek}", headers=H, timeout=30)
             if r.status_code == 200 and r.json()["chart"]["result"] and r.json()["chart"]["result"][0].get("timestamp"):
                 tmp = yol(k) + ".tmp"; open(tmp, "w").write(r.text); os.replace(tmp, yol(k)); return k, "ok"
             last = f"HTTP {r.status_code}"

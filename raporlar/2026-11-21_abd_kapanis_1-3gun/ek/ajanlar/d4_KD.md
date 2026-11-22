@@ -1,0 +1,53 @@
+# KD · motor kod denetimi
+
+araç: 15/30
+
+## Karar
+
+düzeltmelerle kullanılabilir. Motorun çekirdeği (hizalama, ileriye bakmama, giriş/çıkış günleri, korunma, maliyet, bootstrap, BH, Wilcoxon, tarama regresyonu) YONTEM sürüm 2'yi doğru uyguluyor: 14 kuralda 9.941 işlemi motorsuz düz pandas ile yeniden hesapladım, en büyük fark 6e-15. İleriye bakma ya da hizalama hatası bulamadım. Tek kod hatası plasebodaydı (blok_permutasyon günlerin yaklaşık %10'unu yerinde bırakıyordu); düzelttim. Kalan sorunlar tasarım düzeyinde ve sonuçların nasıl okunacağını etkiliyor: çok hedefli kurallarda t_olcekli kullanılamaz, anlamlılık ölçüleri anormal getiriden değil net getiriden hesaplanıyor, son dönemde VIX>30 işlemlerinin anormal getirisi hesaplanamıyor. Bunlar ana ajanın karar kurallarıyla kapatılırsa motor güvenle kullanılır. Motorun kendi 18 testi düzeltmelerden sonra da geçiyor.
+
+## Bulgular
+
+| # | önem | yer | sorun | durum | etkisi |
+|---|---|---|---|---|---|
+| 1 | önemli | Motor.blok_permutasyon | Parçalar düz rastgele sıralanıyordu; hücre başına ortalama bir parça yerinde kalıyordu. IS günlerinin ortalama %10,4'ü (en çok %18,6) yer değiştirmiyordu; ekili bir sinyal-getiri bağının yaklaşık %9'u plaseboya taşınıyordu (korelasyon gerçek 0,445, plasebo ortalaması 0,041). | düzeltildi: hiçbir gün yerinde kalmayana kadar yeniden çekiliyor. Şimdi yerinde kalan %1,6, plasebo korelasyonu 0,0075. | Plasebo %95'liği gerçek etkiyle şişiyordu; tarama gereğinden zor geçerdi (muhafazakâr yönde hata). Düzeltmeden önce üretilmiş plasebo sonucu varsa yeniden çalıştırılmalı. |
+| 2 | önemli | Motor._ozet, t_olcekli (çok hedefli kurallar) | Aynı gün tetiklenen işlemler bağımsız sayılıyor. 40 hedefli saf gürültü kurallarında /t_olcekli/ >= 1,96 oranı h=1'de %55, h=3'te %57. Aynı kurallarda t_kume %4 ve %6, p_bootstrap < 0,05 oranı %3 ve %4. | açık (tasarım). MOTOR.md'ye uyarı eklendi. | Havuzlanmış kuralda t_olcekli ile karar verilirse yanlış pozitif oranı %5 yerine %55 olur. Karar t_kume ve p_bootstrap ile verilmeli. |
+| 3 | önemli | Motor.degerlendir: t_olcekli, p_wilcoxon, p_bootstrap | Üç anlamlılık ölçüsü net getiriden hesaplanıyor; YONTEM'in birincil ölçüsü olan anormal getirinin t'si şemada yok. Yalnız uzun, rastgele girişli 200 kuralda (IS, h=3) brüt t >= 2 oranı %23,5, net t >= 2 oranı %6 (beklenen %2,5); AAPL'de ortalama net t 2,06. Aynı kurallarda anormal getiriyle t >= 2 oranı %0. | açık (tasarım; SEMA ortak şema olduğu için dokunmadım). | Yükselen bir hissede yalnız uzun yönlü kural, sinyal hiçbir şey bilmese de 'anlamlı' görünebilir. h=1'de maliyet eğilimi bastırıyor (net t >= 2 oranı %0,5), h=3'te bastırmıyor. |
+| 4 | önemli | Motor._taban_np, anormal getiri | Dönem x VIX kovası hücresinde 20'den az gün varsa taban NaN oluyor ve işlem anormal_bps ortalamasından sessizce düşüyor. SON x V>30 hücresinde yalnız 15 gün var; son dönemdeki bütün VIX>30 işlemleri anormal getirinin dışında kalıyor (SPY <= -%2 örneğinde 15 işlemin 3'ü). | kısmen düzeltildi: düşen işlem sayısı artık notlar sütununda 'anormal_eksik=k' olarak yazılıyor. Taban kuralının kendisi açık. | Düşeni al türü kurallarda son dönem anormal_bps en önemli işlemleri içermiyor; son dönem satırı yanıltabilir. |
+| 5 | önemli | Motor.islemler, portföy seçimi | guc verilmezse 5 pozisyon tavanında eşitlik sütun sırasına göre bozuluyor: 12 adaylı her gün sinyalli testte portföye hep aynı ilk 5 sütun girdi (IWM, QQQ, SPY, XLE, XLF). | açık (tasarım). MOTOR.md'ye uyarı eklendi. | Çok hedefli kuralda günlük seri, p_bootstrap, mdd ve yıllık net yalnız ilk sütunları yansıtır. İşlem düzeyi ölçüler (net_bps, t_kume) bütün işlemleri kapsar; iki grup farklı işlem kümesine dayanır. |
+| 6 | küçük | _gun_ofset, Giriş G | Çıkış t+1+h günü; YONTEM metni 'çıkış t+h' diyor. Yazarın gerekçesi doğru (h=1'de süre sıfır olurdu) ve MOTOR.md'de belgeli, ama YONTEM'in 'Sapmalar' bölümü boş. | açık | Sonuçları değiştirmez; kilitli yöntemden sapma olarak kayda geçmeli. |
+| 7 | küçük | Motor.degerlendir, bootstrap parametresi | Varsayılan bootstrap=False; p_bootstrap sütunu boş kalıyor. UYGUN kararı üç ölçüyü de istiyor. | açık | Sinyal ajanları bootstrap=True vermezse karar ölçütlerinden biri eksik kalır. |
+| 8 | küçük | bh() | NaN p-değerleri test sayısından düşülüyor. Hesap tanımla birebir aynı (300 rastgele kümede doğrulandı), ama OOS'ta işlemi yetmeyen adaylar sayıyı küçültüyor. | açık | BH hafif gevşer. Çağıran, p'si hesaplanamayan adayı 1,0 ile vermeli. |
+| 9 | küçük | Motor.degerlendir, dönem sınırı | İşlem sinyal gününün dönemine yazılıyor. IS'in son günü verilen sinyal OOS'ta kapanıyor (her gün al, h=3 testinde sınırda 1 işlem). Bu işlemin sınırı aşan günlerdeki kâr/zararı hiçbir dönemin günlük serisine girmiyor. | açık | İhmal edilebilir: sınır başına en çok 1 işlem, en çok 3 gün. Ters yönde sızıntı yok (OOS etiketli, sinyali IS'te olan işlem 0). |
+| 10 | küçük | Motor._poz_maliyet | VIX > 30 çarpanı komisyonu da ikiye katlıyor. Nakit faizi yalnız gün içi tutulan Giriş A, h=1 işleminde de 1 gün düşülüyor. Çarpan sinyal günü ya da bacak günü VIX(önceki gün) > 30 ise uygulanıyor. | açık (belgeli, muhafazakâr yorum) | Maliyeti hafif yüksek gösterir; kenarı şişirmez. |
+| 11 | küçük | Motor.blok_permutasyon, küçük hücreler | 20 gün ve altındaki (yıl x VIX kovası) hücreler tek blok olduğu için yerinde kalıyor: IS günlerinin %1,6'sı, OOS %0,6, SON %2,1. | açık (YONTEM'in hücre tanımının sonucu) | Plaseboda çok küçük bir gerçek bağ kalır; muhafazakâr yönde. |
+| 12 | küçük | Motor._ozet: pozitif_yil_orani, en_iyi_aysiz_bps | Pozitif yıl oranı yalnız işlem olan yılları sayıyor (yıl sayısı notlarda). 'En iyi takvim ayı' belirli bir yıl-ay olarak alınıyor (örneğin Mart 2020), bütün yılların aynı ayı olarak değil. | açık (ilki belgeli) | Seyrek sinyalde %65 ölçütü az sayıda yıla dayanabilir; yil_n ile birlikte okunmalı. |
+| 13 | küçük | Motor önbelleği: getiri(), beta(), rejim(), sigma20(), hedef_uygun(), adv60() | Önbellekteki nesnenin kendisi dönüyor. Çağıran bunu yerinde değiştirirse (örneğin u &= ..., r.iloc[...] = ...) aynı süreçteki sonraki bütün hesaplar sessizce bozulur. Motorun kendi içinde böyle bir kullanım yok. | açık | Yalnız sinyal ajanı döneni yerinde değiştirirse; kopya alarak çalışmaları yeter. |
+
+## Testler
+
+Karşı testler /home/user/Xxxx/raporlar/2026-11-21_abd_kapanis_1-3gun/ek/kod/test_denetim.py içinde (python3 -I, 29 sn): 54 kontrol geçti, 0 kaldı, 21 bilgi satırı. Sonuç tablosu /home/user/Xxxx/raporlar/2026-11-21_abd_kapanis_1-3gun/ek/veri/denetim_sonuc.csv. Motorun kendi test_motor.py'si düzeltmelerden sonra 18/18.
+
+(a) İşlem işlem yeniden hesap: 12 rastgele + 2 sabit kural (4 giriş türü, h 1-3, korunmasız / SPY:250 / SPY:60, üç komisyon, uzun ve kısa, bölünmeli NVDA, kaldıraçlı SOXL ve TQQQ, temettülü KO ve TLT). 9.941 işlem. Giriş günü, çıkış günü, yön, VIX kovası, 200 gün durumu, dönem: 0 fark. En büyük sayısal fark: brüt 5,7e-15, net (maliyet + finansman dahil) 5,4e-15, beta 2,4e-13, anormal 5,7e-15, sigma 0.
+
+(b) Sızıntı: 1 gün ileri kaydırılmış hileli sinyal (SPY) Giriş K, h=1'de 122,5 bps, t 49,4, isabet %100 (1.542 işlem). Aynı sinyal Giriş A'da 75,6 bps, gece tutmada 46,7 bps, Giriş G'de 0,04 bps (t 0,01). Dürüst sinyal 0,04 bps, t 0,01. bakis_testi hileliyi yakalıyor, dürüstü geçiriyor. 25 SONRA kodu (^VIX ailesi dahil) 1 gün gecikmeli, 15 ONCE kodu aynı gün; SONRA kodu hedef olamıyor; sizintili=True yalnız VIX ailesinde çalışıyor.
+
+(c) Gürültü: 298 simetrik ±1 kural (IS, brüt). p < 0,05 oranı bootstrap %4,7, ölçekli t %5,4, Wilcoxon %5,4; KS 0,045 / 0,053 / 0,072 (kritik 0,094): dağılım tekdüze. 40'tan az işlemli 52 kuralda %3,8 / %3,8 / %5,8. Üç ölçüden en az ikisi p < 0,05: %5,0. Yalnız uzun gürültü ve çok hedefli gürültü sonuçları bulgular 2 ve 3'te.
+
+(d) SPY 2005-01-04 → 2026-11-20 (5.506 gün), panelden doğrudan: gece toplamı %188,1 (bileşik %469,7), gün içi %63,7 (bileşik %49,5), kapanıştan kapanışa %253,3. Motor (her gün al, 5.446 işlem; ilk 60 gün hacim penceresi dışında): gece %183,9, gün içi %69,4, kapanış-kapanış %254,8; aynı günlerde doğrudan hesapla işlem işlem fark 0.
+
+(e) Yardımcılar: BH tanımla aynı (300 küme). Wilcoxon bağımsız uygulamayla fark 0; n=12 örnekte tam p 0,034, motor 0,038. bootstrap_p iid seride %4,7, AR(1) 0,3 seride %4,3. tarama_regresyon eksik verili 20 çiftte elle EKK ile fark: katsayı 7e-16, t 7e-15 (HC0 ve Newey-West). degerlendir satırları 3 dönem x 3 rejim x 15 sütunda referansla aynı. Günlük seri gün gün bağımsız kurulumla aynı (korunmalı A h=2; 12 hedef eşit ağırlık). Portföy tavanı en çok 5. Beta, sigma, hacim, kademe, rejim, artık getiri, kümeleme, dönem başı evreni gelecekteki veriden bağımsız. VIX>30 bölümleri bağımsız hesapla aynı: 22 bölüm, 449 gün.
+
+## Açık kalanlar
+
+motor.py'de iki değişiklik yaptım: (1) blok_permutasyon artık hiçbir günü yerinde bırakmıyor; (2) degerlendir, tabanı olmayan işlem sayısını notlar sütununa 'anormal_eksik=k' diye yazıyor. MOTOR.md'ye 'Denetim notları' bölümü ekledim. SEMA'ya ve tasarıma dokunmadım. Commit yapılmadı.
+
+Ana ajanın karar vermesi gerekenler:
+1. Çok hedefli (havuzlanmış) kurallarda karar ölçüsü t_kume ve p_bootstrap olsun; t_olcekli yalnız tek hedefli kurallarda kullanılsın. Sinyal ajanlarının görev tanımına yazılmalı.
+2. Yalnız uzun yönlü kurallarda net t'nin yanında anormal getiri şartı: ya anormal_bps > 0 ve anormal / sigma20 t'si (islem_dondur=True ile işlem listesinden) aransın, ya da SEMA'ya t_anormal sütunu eklensin. SEMA değişirse daha önce yazılmış sonuç dosyalarıyla sütun uyumu bozulur.
+3. SON x V>30 hücresinde yalnız 15 gün var; bu işlemlerin anormal getirisi hesaplanamıyor. Seçenekler: VIX>30 tabanını dönemler arası havuzlamak, dönem ortalamasına düşmek ya da 'son dönemde VIX>30 için anormal getiri yok' diye raporlamak.
+4. Giriş G'nin çıkışı t+1+h; YONTEM'in 'Sapmalar' bölümüne yazılmalı.
+5. Düzeltmeden önce (denetim_sonuc.csv'nin yazıldığı 22.11 00:10'dan birkaç dakika öncesine kadar) blok_permutasyon ile üretilmiş plasebo sonucu varsa yeniden çalıştırılmalı. Eski hata muhafazakâr yöndeydi: 'başarısız' çıkan bir tarama yeniden bakılmaya değer, 'başarılı' çıkan geçerli kalır.
+6. Çok hedefli kurallarda guc zorunlu tutulsun mu? Verilmezse günlük seri ve p_bootstrap sütun sırasındaki ilk 5 hedefi yansıtıyor.
+7. Sinyal ajanları bootstrap=True ile çalıştırmalı; BH'ye p'si hesaplanamayan aday 1,0 olarak verilmeli.
+8. Doğrulamadığım: bolum_ozeti'nin 'destekli' etiketi (yalnız okudum), kumele'nin küme kalitesi, yukle.temettu() tablosunun doğruluğu (motor onu olduğu gibi kullanıyor) ve evren.csv'deki kapanış sınıflarının kendisi (motorun sınıfa göre doğru geciktirdiğini doğruladım, sınıfların doğru atandığını değil).

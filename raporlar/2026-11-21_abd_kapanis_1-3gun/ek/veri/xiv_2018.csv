@@ -1,0 +1,6 @@
+tarih,kapanis,tur,yuzde_degisim,kaynak,not
+2018-02-02,115.55,kapanis_gosterge_degeri,,https://www.streetinsider.com/ETFs/XIV+NAV+Reported+at+%245.32/13774801.html,Credit Suisse gosterge degeri (IV) Cuma; islem kapanisi degil
+2018-02-05,99.00,borsa_kapanisi,-14.3,https://www.benzinga.com/amp/content/11138352,Pazartesi 16:00 kapanisi; Benzinga: gun ici -14.3%; ayni gun kapanis gosterge degeri 4.22 (16:15 sonrasi cokus)
+2018-02-05,4.22,kapanis_gosterge_degeri,,https://www.benzinga.com/amp/content/11138352,closing indicative value; hizlandirma olayi (IV <= onceki IV'nin %20'si)
+2018-02-06,7.35,borsa_kapanisi,-92.6,https://www.nasdaq.com/articles/volatility-spike-triggers-inverse-etf-xiv-closure-2018-02-07,Nasdaq: Sali tek gunde -92.6% (99 -> 7.35); Bloomberg Levine de 16:00 Sali degerini 7.35 veriyor
+2018-02-15,5.99,odeme_gosterge_degeri,,https://www.slcg.com/resources/blog/686,Itfa odemesi 15 Subat kapanis gosterge degeri; son islem gunu 20 Subat 2018

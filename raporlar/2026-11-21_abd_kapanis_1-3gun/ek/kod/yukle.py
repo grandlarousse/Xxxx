@@ -40,3 +40,47 @@ def dix_gex():
 
 def kalite():
     return pd.read_csv(os.path.join(VERI, "veri_kalite.csv"))
+
+
+# ---- D2 ek veri (saatlik, kripto 16:00, temettu, olay takvimleri) ----
+def saatlik(dizin=None):
+    """Yahoo 60m'den (son 730 gun, 376 likit ABD16 ETF/hisse). Doner: dict
+    'acilis_1530': son tam saatlik cubugun acilisi (normal gun 15:30 ET, yarim gun 12:30 ET), tarih x kod
+    'kapanis'    : ayni gunun son cubugunun kapanisi (son islem; resmi kapanis acik artirmasindan birkac bps farkli olabilir)
+    'yarim_gun'  : tarih -> bool (13:00 kapanisli gunler).
+    Fiyatlar bolunmeye gore duzeltilmis, temettuye gore duzeltilmemis (gunluk 'close' ile ayni olcek)."""
+    dizin = dizin or PANEL
+    return {"acilis_1530": pd.read_pickle(os.path.join(dizin, "saatlik_1530.pkl")),
+            "kapanis": pd.read_pickle(os.path.join(dizin, "saatlik_kapanis.pkl")),
+            "yarim_gun": pd.read_pickle(os.path.join(dizin, "saatlik_yarim_gun.pkl"))}
+
+
+def kripto_1600(dizin=None, ayrinti=False):
+    """BTC-USD (2015-01-02~), ETH-USD (2016-05-19~), SOL-USD (2021-06-18~): her NYSE gununde 16:00 ET fiyati
+    (15:00-16:00 ET saatlik mumunun kapanisi; Coinbase, BTC 2015-07-22 oncesi Bitstamp). Index = panel gunleri.
+    ayrinti=True: (fiyat, kaynak, yedek_mum) -> yedek_mum True ise tam mum yoktu, 3 saat icindeki son mum kullanildi."""
+    dizin = dizin or PANEL
+    F = pd.read_pickle(os.path.join(dizin, "kripto_1600.pkl"))
+    if not ayrinti:
+        return F
+    return F, pd.read_pickle(os.path.join(dizin, "kripto_1600_kaynak.pkl")), pd.read_pickle(os.path.join(dizin, "kripto_1600_yedek.pkl"))
+
+
+def temettu(dizin=None):
+    """tarih (ex-date, borsa yerel gunu) x kod: hisse basina nakit temettu (Yahoo events.dividends; bolunmeye gore duzeltilmis). Index = panel gunleri."""
+    return pd.read_pickle(os.path.join(dizin or PANEL, "temettu.pkl"))
+
+
+def kapanis_saatleri():
+    """Kod basina borsa saat dilimi, yerel ve ET kapanis saati (Yahoo meta; ornek gun 2026-11-20, ABD kis saati)."""
+    return pd.read_csv(os.path.join(VERI, "kapanis_saatleri.csv"), dtype={"kod": str})
+
+
+def fomc():
+    """2005-2026 FOMC: karar_gunu, tur (planli/olaganustu_toplanti/konferans_gorusmesi/notation_vote/iptal), basin_toplantisi, aciklama_var."""
+    return pd.read_csv(os.path.join(VERI, "fomc_tarihleri.csv"), parse_dates=["karar_gunu", "ilk_gun"])
+
+
+def makro():
+    """CPI ve Istihdam Raporu yayin gunleri 2005-2026 (ALFRED). ayda_birden_fazla=True satirlarda ana yayin belirsiz."""
+    return pd.read_csv(os.path.join(VERI, "makro_tarihleri.csv"), parse_dates=["tarih"])
