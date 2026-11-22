@@ -57,3 +57,17 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# ABD piyasasında kapanış sinyali ve 1–3 gün taşıma (22.11.2026)
+
+Klasör: `2026-11-21_abd_kapanis_1-3gun/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, ne yapmalı, aile aile backtest sonuçları, "düşeni al" kurallarının karnesi ve 1993–2004 sınavı, maliyet duyarlılığı, kaldıraçlı ETF yükü, risk ve boyut tablosu, emir/komisyon, Türkiye erişim ve vergi, takvim, elenmiş iki hipotez, sınırlar ve doğrulama kapsamı.
+- `ek/YONTEM.md`: Hesaptan önce yazılan yöntem planı; sapmalar; Ek 1 (1993–2004 rejim sınavı) ve Ek 2 (kapanış müzayedesi emri maliyet senaryosu) ön kayıtları.
+- `ek/veri/`: Sonuç tabloları (`sonuc_K*.csv`, `ek1_*.csv`, `sonuc_ek2_*.csv`), ön kayıtlı kurallar (`hipotezler.csv`), `risk_ve_boyut_tablosu.csv`, evren, kalite, bilanço, FOMC ve makro tarihleri.
+- `ek/kod/`: Ortak backtest motoru (`motor.py`) ve testleri, aile betikleri (`aile_K*.py`), veri betikleri; `akis/` altında iş akışı betikleri. Fiyat paneli depoda değil; `BENIOKU.md` içindeki komutlarla yeniden kurulur.
+- `ek/ajanlar/`: Ajan özetleri ve iddia defterleri (araştırma, backtest aileleri, denetimler, eleştiriler). `ek/dogrulama/`: 157 olgu satırının doğrulama sonuçları.
+
+Yatırım tavsiyesi değildir.

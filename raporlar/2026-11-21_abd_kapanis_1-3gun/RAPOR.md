@@ -1,38 +1,41 @@
-# ABD piyasasında kapanış sinyali ve 1–3 gün taşıma: ne çalışıyor, ne çalışmıyor
+# ABD piyasasında kapanış sinyali ve 1–3 gün taşıma: sınandı, kullanılabilir kural çıkmadı
 
 22 Kasım 2026 · Yatırım tavsiyesi değildir.
 
-**Profil:** Gün içi işlem yok. Karar ABD kapanışında (16:00 New York saati; kışın 00:00 TSİ) veriliyor, pozisyon 1–3 işlem günü taşınıyor. Bakılan şey lead-lag: bir varlığın bugünkü hareketi başka bir varlığın sonraki günlerini öngörüyor mu?
-
-Raporda geçen terimler: **bps** (baz puan) = %0,01. **VIX** = S&P 500 opsiyonlarından hesaplanan beklenen oynaklık endeksi. **Örneklem dışı** = kuralın seçilmesinde kullanılmayan, yalnız sınamaya ayrılan dönem. **Korunma** = pozisyonun piyasa riskini ters yönlü bir endeks pozisyonuyla azaltma. Köşeli parantezdeki kodlar (ör. [R9-01]) kaynak listesindeki satırları gösterir.
+**Profil:** gün içi işlem yok; karar ABD kapanışında (kışın 00:00 TSİ), pozisyon 1–3 gün taşınıyor; aranan şey lead-lag.
 
 ## 1. Kısa yanıt
 
-- **ABD'de bu yöntemle kullanılabilir bir kural bulamadım.** 3.420 önceden yazılı kural varyantı ve 27.351 tarama regresyonu sınandı; maliyet sonrası, örneklem dışı dönemde ayakta kalan ve bugün kullanılabilecek kural yok.
-- **Lead-lag bilgisi var ama aynı gün fiyatlanıyor.** Ertesi günlere kalan kısım işlem başına brüt 5–30 bps; bireysel yatırımcının maliyetini karşılamıyor.
-- **Bugün "düşeni al" sinyallerinin neredeyse hepsi yanıyor** (S&P 500 yedi gün üst üste düştü, VIX 35,9). Bu kurallar ne 2010–2019 eleğinden ne de 1993–2004 sınavından geçti. Pazartesi tetiklenirlerse bu doğrulanmış bir kenar değil, çıplak risktir.
-- **Kaldıraç kenar üretmiyor, yalnız riski büyütüyor.** 3x ETF'ler bu oynaklıkta üç günde 27–88 bps'i yalnız yapıları gereği kaybettiriyor.
-- **Senin varsayımın için düzeltme:** riski kabul etmek tek başına "ciddi kazanç" getirmiyor; kazanç için sınanmış bir kenar gerekiyor ve ABD içinde bu yöntemle çıkmadı. VİOP'taki kenarının kaynağı (ABD kapandıktan sonra BIST'in açılması) ABD'nin kendi içinde yok.
+- **"Şunu al" diyebileceğim bir ETF ya da hisse yok:** ABD'nin likit ETF ve büyük hisselerinde bu yöntemle kullanılabilir kural çıkmadı (yaklaşık 31 bin sınama).
+- **Lider–takipçi bilgisi aynı gün fiyata giriyor;** ertesi güne kalan kısım maliyeti karşılamıyor ve sonraki yıllarda tutmuyor.
+- **"Düşeni al" kuralları 2020'den beri kazandırdı ama daha uzun geçmişte kazandırmadı;** pazartesi tetiklenirlerse bu sınanmış bir kural değil, bahistir.
+- **3x ETF'ler kazancı değil riski büyütüyor;** bu oynaklıkta üç günde ortalama %0,27–0,88'i yalnız yapıları gereği kaybettiriyor.
+- **Elinde kalan:** boyut tablosu (3.8), emir ve vergi notları (3.9, 3.10), kâğıt üstünde izlenecek iki hipotez (3.12).
 
 ## 2. Ne yapmalıyım
 
-1. **Bu yöntemle ABD'de gerçek parayla işleme başlama.** Aşağıdaki hiçbir kural "uygun" ya da "koşullu" sınıfına giremedi.
-2. **Pazartesi (23 Kasım) için:** S&P 500 düşüşle kapanırsa RSI(2), "kapanış günün dibinde" ve "üst üste düşüş" sinyalleri tetiklenecek. Bunlara dayanarak alım yapacaksan bunu sinyal değil, kendi takdirin olan bir bahis say. Boyutu 3.8'deki tablonun "VIX 30 üstü kuyruk" sütununa göre seç ve kaldıraçlı ETF'yi üç gün taşıma.
-3. **İki hipotezi 2–3 ay kâğıt üstünde izle** (3.12). Gerçek paraya ancak izleme döneminde de tutarlarsa ve küçük boyutla geç.
-4. **Aracı kurumuna şu beş soruyu sor** (yanıtlar hangi kuralın uygulanabileceğini belirler): ABD'de kapanış emri (MOC/LOC) verebiliyor muyum; açığa satış var mı; TQQQ, SQQQ, SOXL gibi kaldıraçlı/ters ETF'ler alınabiliyor mu; seans öncesi/sonrası emirde ek ücret ne; işlem başına toplam komisyon ne.
-5. **Vergi için bir danışmana tek soru sor:** yurt dışı hisse/ETF alım satımında alış ve satış hangi günün kuruyla TL'ye çevrilir? Resmî metinde bunu göremedik (3.10).
-6. **Aynı yöntemi kenarın yapısal olduğu yerde kullan.** ABD kapanışındaki bilgi BIST'e ertesi gün yansıyor; ABD'nin kendi içinde aynı gün yansıyor. Emeğin karşılığı büyük olasılıkla birinci tarafta (önceki VİOP çalışman), ikincisinde değil. Bu bir çıkarımdır; bu raporda ayrıca sınanmadı.
+1. **Bu yöntemle ABD'de gerçek parayla işleme başlama.** Sınanan hiçbir kural "uygun" ya da "koşullu" sınıfına giremedi. Riski kabul etmek yetmiyor; sınanmış bir kenar gerekiyor ve çıkmadı.
+2. **Pazartesi (23 Kasım) için:** S&P 500 ETF'i (SPY) 691,74 $'ın altında kapanırsa "çok sert düştü" sinyali açık kalır; cuma kapanışı 689,81 $ idi. Düşüşle kapanırsa "üst üste düşüş" ve "kapanış günün dibinde" sinyalleri de tetiklenir. Buna dayanarak alım yaparsan bunu kendi takdirin olan bir bahis say. Boyut: 10.000 $ sermayede 100 $ riske atmak için SPY'de en çok 1.280 $, Nasdaq ETF'inde (QQQ) 1.380 $; üç gün taşıyacaksan 860 $ ve 1.030 $. Kaldıraçlı ETF'yi birden fazla gün taşıma.
+3. **İki hipotezi kâğıt üstünde izle (3.12), ama bunu kanıt sayma.** Birkaç aylık izleme kanıt üretmez: 30 işlem birikmesi 1,5–2,5 yıl sürer. İzlemenin yararı emir, kayma ve aracı kurum pratiğini görmektir.
+4. **Aracı kurumuna beş soru sor:** ABD'de kapanış emri verebiliyor muyum; açığa satış var mı; TQQQ, SQQQ, SOXL gibi kaldıraçlı ve ters ETF'ler alınabiliyor mu; seans dışı emirde ek ücret ne; işlem başına toplam komisyon ne. Komisyon belirleyici: Türkiye'deki bir banka tarifesinde bacak başına %0,25 görülüyor; bu tarifeyle aşağıdaki hiçbir sayı maliyeti karşılamaz (3.9).
+5. **Vergi için bir danışmana tek soru sor:** yurt dışı hisse/ETF alım satımında alış ve satış hangi günün kuruyla TL'ye çevrilir? Resmî metinde bunu göremedim (3.10).
+6. **Emeğini kenarın çıktığı yerde kullan.** Önceki VİOP listende dört kural ayakta kalmıştı, burada sıfır. O dört kuralın üçü yurt içi kaynaklıydı (endeks vadelisinin kapanış bazı, SAHOL/AKBNK oranı, Koza grubu); ABD kaynaklı tek kural rafineriler → TUPRS idi ve koşulluydu. ABD verisinden VİOP'a yeni kural aramak ayrı bir iş; bu raporda sınanmadı.
 
 ## 3. Gerekçe ve kanıt
 
+**Terimler.** **bps** (baz puan) = %0,01. **Kenar** = maliyetler düştükten sonra kalan ve şansla açıklanamayan ortalama kazanç. **Brüt / net** = maliyet öncesi / sonrası. **VIX** = S&P 500 opsiyonlarından hesaplanan beklenen oynaklık endeksi. **RSI(2)** = iki günlük göreli güç endeksi; 10'un altı çok sert kısa vadeli düşüş demek. **Örneklem dışı** = kuralın seçiminde kullanılmayan, yalnız sınamaya ayrılan dönem. **Korunma** = pozisyonun piyasa riskini ters yönlü bir endeks pozisyonuyla azaltma. **Kapanış emri** = kapanış müzayedesine verilen emir. **Kuyruk** = en kötü %1'lik günler. **Kriz dönemi** = VIX'in 30'un üstünde kaldığı kesintisiz süre. Köşeli parantezdeki kodlar (ör. [R9-01]) kaynak listesindeki satırlardır.
+
 ### 3.1 Ne sınandı, nasıl
 
-- **Veri:** 470 kod (ETF, hisse, endeks), 2005–2026 günlük açılış/kapanış; bilanço tarihleri (SEC kayıtları), opsiyon konumlanma verisi, son iki yılın saatlik verisi.
-- **Kurallar hesaptan önce yazıldı:** 12 araştırma ajanının literatürden çıkardığı 94 kural ve yöntem denetçisinin ekledikleri; toplam 3.420 varyant (tutma süresi 1, 2, 3 gün ve "ertesi açılışta çık").
-- **Üç dönem:** 2010–2019 keşif, 2020–2023 örneklem dışı doğrulama, 2024–2026 kilitli son dönem. Bir kural önce keşif döneminde aday olmalı, sonra doğrulamadan geçmeli.
+- **Veri:** ABD'nin en likit 470 kodu (231 hisse, 193 ETF, endeksler), 2005–2026 günlük açılış/kapanış; bilanço tarihleri, opsiyon konumlanma verisi, son iki yılın saatlik verisi.
+- **Kurallar hesaptan önce yazıldı:** yayımlanmış çalışmalardan çıkarılan 94 kural ve yöntem denetiminde eklenenler; toplam 3.420 varyant (1, 2, 3 gün tutma ve "ertesi açılışta çık").
+- **Üç dönem:** 2010–2019 keşif, 2020–2023 örneklem dışı doğrulama, 2024–2026 en sona saklanan dönem. Bir kural önce keşifte aday olmalı, sonra doğrulamadan geçmeli.
 - **Maliyet:** bacak başına alış-satış farkı ve komisyon; uzun pozisyonda nakit faizi, açığa satışta ödünç ücreti. Ayrıca yalnız komisyonlu ikinci bir senaryo (3.5).
-- **Yanlış pozitife karşı önlemler:** VIX gibi kapanıştan sonra kesinleşen seriler bir gün gecikmeli kullanıldı; tek yönlü (yalnız alım) kurallarda kazancın varlığın kendi yükselişinden ayrışması arandı; sistematik taramada bütün zincir 400 kez plaseboyla (sinyal ile getiri bağı koparılarak) yeniden çalıştırıldı.
-- **Motorun denetimi:** hesap motorunu ayrı bir ajan denetledi; 9.941 işlem motoru kullanmadan yeniden hesaplandı, fark çıkmadı. Kasıtlı olarak bir gün ileri kaydırılmış hileli bir sinyali motor yakalıyor.
+- **Yanlış pozitife karşı önlemler:**
+  - VIX gibi kapanıştan sonra kesinleşen seriler bir gün gecikmeli kullanıldı.
+  - Yalnız alım yapan kurallarda şuna bakıldı: kazanç kuraldan mı geliyor, yoksa o ETF zaten yükseldiği için mi? Kural, aynı dönemde rastgele bir gün almaktan daha iyi olmalı.
+  - Çok kural denenince bazıları şansla iyi görünür; eşik buna göre yükseltildi (çoklu test düzeltmesi).
+- **Hesabın denetimi:** hesap kodu bağımsız olarak denetlendi; 9.941 işlem ayrı kodla yeniden hesaplandı, fark çıkmadı. Kasıtlı olarak bir gün ileri kaydırılmış hileli bir sinyali kod yakalıyor.
 
 ### 3.2 Aile aile sonuç
 
@@ -40,101 +43,130 @@ Raporda geçen terimler: **bps** (baz puan) = %0,01. **VIX** = S&P 500 opsiyonla
 |---|---|---|---|
 | Lider → takipçi (13 tema kümesi) | 1.048 | 1 | 0 |
 | Çiftler, sektöre göre sapmanın dönüşü | 216 | 0 | 0 |
-| Çapraz varlık → sektör (kredi, faiz, dolar, emtia) | 164 | 1 | 0 |
+| Çapraz varlık → sektör | 164 | 1 | 0 |
 | Endekste uç hareket, "düşeni al" | 674 | 10 | 0 |
-| Akış vekilleri, kapitülasyon, genişlik | 124 | 1 | 0 |
-| Takvim ve olay (ay dönümü, FOMC, vade haftası) | 191 | 4 | 0 |
-| Volatilite ürünleri ve konumlanma verisi | 449 | 5 | 0 |
+| Panik satışı göstergeleri | 124 | 1 | 0 |
+| Takvim (ay dönümü, Fed toplantısı, vade haftası) | 191 | 4 | 0 |
+| Volatilite ürünleri, opsiyon konumlanması | 449 | 5 | 0 |
 | Bilanço etrafı | 376 | 23 | 1 |
 | Gece–gündüz | 178 | 1 | 0 |
 | **Toplam (önceden yazılı)** | **3.420** | **46** | **1** |
-| Sistematik tarama (60 sepet × 173 hedef × 3 vade) | 27.351 | 26 | 0 |
+| Sistematik tarama | 27.351 | 26 | 0 |
 
-Doğrulamadan geçen tek kural (bilanço öncesi dönüş) 2024–2026'da zarara döndü ve çoklu test düzeltmesinden geçemiyor (3.3). Tarama plasebodan ayırt edilemedi: gerçek zincirde geçen 0, plasebo koşularının %95'inde en çok 1.
+- Doğrulamadan geçen tek kural (bilanço öncesi dönüş) 2024–2026'da zarara döndü (−59 bps); 46 aday üzerinde çoklu test düzeltmesinden de geçemiyor.
+- Sistematik tarama (60 sepet × 173 hedef × 3 vade; geçerli 27.351 regresyon) hiçbir ilişki bulmadı. Karşılaştırma için sinyal ile getiri arasındaki bağı bilerek kopardığım 400 sahte denemede de çoğunlukla 0 ya da 1 ilişki "geçti".
 
 Aile başına öne çıkanlar:
 
-- **Lider → takipçi:** Nvidia/TSMC/Broadcom → yarı iletkenler, Bitcoin → kripto hisseleri, Tesla → elektrikli araçlar, JPMorgan → bankalar ve diğer kümeler. Yarı iletkende "takipçi lidere göre geride kaldıysa ertesi gün yakalar" kuralı 6.755 işlemde brüt +4,9 bps verdi; korunmalı bir işlemin modellenen gidiş-dönüş maliyeti ortalama 27 bps.
-- **Çapraz varlık:** bilgi aynı gün bitiyor. 2010–2023'te petrol ETF'i ile enerji ETF'inin aynı gün korelasyonu 0,64, ertesi gün −0,02. Yüksek getirili tahvil ile S&P için 0,77'ye karşı −0,06; dolar ile gelişen piyasalar için −0,33'e karşı −0,03.
+- **Lider → takipçi:** Nvidia/TSMC/Broadcom → yarı iletkenler, Bitcoin → kripto hisseleri, Tesla → elektrikli araçlar, JPMorgan → bankalar ve diğer kümeler. Yarı iletkende "takipçi lidere göre geride kaldıysa ertesi gün yakalar" kuralı 6.755 işlemde brüt +4,9 bps verdi; korunmalı işlemin gidiş-dönüş maliyeti ortalama 27 bps.
+- **Çapraz varlık:** 2010–2023'te petrol ETF'i ile enerji ETF'inin aynı gün korelasyonu 0,64, ertesi gün −0,02. Yüksek getirili tahvil ile S&P için 0,77'ye karşı −0,06; dolar ile gelişen piyasalar için −0,33'e karşı −0,03.
 - **Sapmanın dönüşü:** büyük hisselerde istatistiksel olarak var (bacak başına brüt 1–5 bps), ekonomik olarak yok. Bilanço içeren sapmalar dönmüyor, sürüklenmeye devam ediyor.
-- **Takvim:** yalnız alım yönlü takvim kurallarının çoğu endeksin genel yükselişini taşıyor. Tahvilde ay sonu etkisi 2010–2019'da güçlüydü, 2020'den sonra eridi.
-- **Volatilite ürünleri:** vade yapısına dayalı kısa volatilite kuralları günlük ETF maliyetiyle zarar ediyor; temsilci stratejilerde en büyük düşüş %86–99,9.
-- **Gece–gündüz:** S&P ETF'inde kapanıştan açılışa brüt getiri sürüyor (2021–2026'da günde +3,4 bps) ama gidiş-dönüş maliyeti (yaklaşık 5,7 bps) bunu aşıyor.
+- **Takvim:** yalnız alım yapan takvim kurallarının çoğu endeksin genel yükselişini taşıyor. Tahvilde ay sonu etkisi 2010–2019'da güçlüydü, 2020'den sonra eridi.
+- **Volatilite ürünleri:** VIX'in yakın ve uzak vadeleri arasındaki farka dayalı kısa volatilite kuralları günlük ETF maliyetiyle zarar ediyor; temsilci stratejilerde en büyük düşüş %86–99,9.
+- **Gece–gündüz:** S&P ETF'inde kapanıştan açılışa brüt getiri sürüyor (2005–2026'da günde +3,4 bps) ama gidiş-dönüş maliyeti (yaklaşık 5,7 bps) bunu aşıyor.
 
 ### 3.3 En yakın adaylar ve neden elendiler
 
-| Kural | 2010–19 | 2020–23 | 2024–26 | Karar |
-|---|---|---|---|---|
-| Bilanço öncesi dönüş: bilançodan 2 gün önce, son 2 günde endekse göre en kötü beşte birlikteki büyük hisseyi al; bilanço tepki gününün ertesi günü sat | +85 bps | +124 bps | −59 bps | Düşük: son dönem negatif |
-| Bilanço günü sektörüne göre %10'dan fazla düşen büyük hissede 3 gün açığa satış (endeks korunmalı; yalnız komisyonlu senaryo) | +123 bps | +135 bps (48 işlem) | +53 bps | Düşük: az olay, eşik altı |
-| Bilanço öncesi prim: bilançodan 3–10 gün önce al, ertesi gün sat (yalnız komisyonlu senaryo) | +30 bps | +40–61 bps | −40 ile −43 bps | Elendi: son dönem negatif, profil dışı vade |
-| Dow ETF'i 5 gün üst üste düşünce al, 1 gün tut | +33 bps | +42 bps (20 işlem) | −3 bps | Düşük: az olay |
-| Tahvil ETF'i ay sonu alımı (son 3 gün) | +41 bps | +16 bps | +1 bps | Düşük: 2020 sonrası eridi |
-| S&P → küçük hisseler, ters yön (S&P ±%1'den sonra) | +3 bps | +4 bps | +14 bps | Düşük: anlamsız, çok küçük |
+Sayılar işlem başına net ortalamadır; sıra 2010–19 · 2020–23 · 2024–26.
 
-Sayılar işlem başına net ortalamadır. İlk kuralda kazancın yaklaşık yarısı, verinin bugünün hisselerinden kurulmasının yarattığı yanlılıktan geliyor (iflas eden ve borsadan çıkan şirketler veride yok); en iyi %5 işlem çıkarılınca 2010–2019 ortalaması negatife dönüyor.
+1. **Bilanço öncesi dönüş.** Bilançodan 2 gün önce, son 2 günde endekse göre en çok düşen büyük hisseyi al; bilanço tepki gününün ertesi günü sat.
+   +85 · +124 · −59 bps. Düşük güven: son dönemde zarar ediyor.
+2. **Bilanço şokunun devamı.** Büyük hisse bilanço gününde sektörüne göre %10'dan fazla düşerse 3 gün açığa sat (endeks korunmalı; yalnız komisyonlu senaryo).
+   +123 · +135 (48 işlem) · +53 bps. Düşük güven: az olay, eşiğin altında (3.12).
+3. **Bilanço öncesi prim.** Bilançodan 3, 5 ya da 10 gün önce al, tepki gününün ertesi günü sat (4–11 gün tutma; yalnız komisyonlu senaryo).
+   +30 · +40 ile +61 · −40 ile −43 bps. Elendi: son dönemde zarar; tutma süresi profilin dışında.
+4. **Dow ETF'i 5 gün üst üste düşünce al, 1 gün tut.**
+   +33 · +42 (20 işlem) · −3 bps. Düşük güven: az olay.
+5. **Tahvil ETF'ini ay sonundan 3 gün önce al, ay sonunda sat.**
+   +41 · +16 · +1 bps. Düşük güven: 2020'den sonra eridi.
+6. **S&P ±%1'den sonra küçük hisse ETF'inde ters yön, 1 gün.**
+   +3 · +4 · +14 bps. Düşük güven: çok küçük ve anlamsız.
+
+Düşük güven = iki dönemde yönü aynı ama kanıt zayıf. Elendi = bir dönemde yönü döndü ya da önceden yazılı ölçütü sağlamadı.
+
+- 1. kuralda kazancın yaklaşık yarısı, verinin bugünün hisselerinden kurulmasından geliyor (iflas eden ve borsadan çıkan şirketler veride yok); en iyi %5 işlem çıkarılınca 2010–2019 ortalaması eksiye dönüyor.
+- Buradaki çıta önceki VİOP listesinden yüksek, çünkü çok daha fazla kural denendi. O listenin ölçeğiyle bakılsa 2. kural "koşullu" sayılırdı (rafineriler → TUPRS ile benzer düzey).
 
 ### 3.4 Bugünkü rejim ve "düşeni al"
 
 **Piyasanın durumu (20 Kasım 2026 kapanışı):**
 - S&P 500 %3,7 düşüşle 6.910; hafta −%8,6; 6 Ekim rekorundan %10'dan fazla aşağıda [R11-12]. Yedi gün üst üste düşüş. VIX 35,9.
-- Nvidia 6 Ekim zirvesinden −%47,5. 12 Kasım'da CEO Jensen Huang istifa etti [R11-17]; 17 Kasım'da sonuçlar açıklandı (gelir 115,8 milyar $) [R11-20]; aynı gün ve 20 Kasım'da SEC incelemesi haberleri çıktı [R11-15, R11-16]. 20 Kasım'da hisse yaklaşık %14, yarı iletken endeksi %10,7 düştü [R11-14].
+- Nvidia 6 Ekim zirvesinden −%47,5 (fiyat verisinden kendi hesabım). 12 Kasım'da CEO Jensen Huang istifa etti [R11-17]; 17 Kasım'da sonuçlar açıklandı (gelir 115,8 milyar $) [R11-20]; 17 ve 20 Kasım'da SEC incelemesi haberleri çıktı [R11-15, R11-16]. 20 Kasım'da hisse yaklaşık %14, yarı iletken endeksi %10,7 düştü [R11-14].
 - Fed faiz artırıyor: 16 Eylül'de %3,75–4,00 [R11-01]; sonraki toplantı 8–9 Aralık [R11-04]. Vadeli piyasanın Aralık'ta artırıma yaklaşık %95 olasılık verdiği bilgisi tek bir ikincil kaynağa dayanıyor [R11-06].
-- 10 yıllık Hazine faizi 5 Ekim'de %5,31 ile zirve yaptı, 20 Kasım'da %4,92 [R11-10].
+- 10 yıllık Hazine faizi 5 Ekim'de %5,31 ile zirve yaptı; 20 Kasım'da %4,92 [R11-10].
 
-**"Düşeni al" kurallarının sınavı:**
-- 2010–2019'da tutmadılar: S&P ETF'inde RSI(2) < 10 (iki günlük göreli güç endeksi; çok sert kısa vadeli düşüşü gösterir) ve "kapanış günün dibinde" kuralları işlem başına net 1–18 bps verdi, anlamsız.
-- VIX 30'un üstünde ve endeks 200 günlük ortalamasının altındayken 2005–2026 toplamında güçlü görünüyorlar: RSI(2) < 10 kuralı 61 işlemde +141 bps. Ama bu, sonuçlara bakıldıktan sonra seçilmiş bir alt küme.
-- Bu yüzden hipotezi, projede hiç kullanılmamış 1993–2004 verisinde, ölçütleri önceden yazarak sınadım. **İkisi de elendi:** RSI(2) < 10 kuralı 35 işlemde net −9 bps, "kapanış günün dibinde" kuralı 41 işlemde +1 bps. İkisi de aynı rejimdeki sıradan bir günün ortalamasının (+15 bps) altında kaldı; beş bölümün yalnız ikisi artıda.
-- Çekince: 1993–2004 örneklemi küçük. Test 2005–2026 büyüklüğünde bir etkiyi reddediyor, orta büyüklükte bir etkiyi dışlayamıyor. 2005–2026'daki kazancın %68'i iki bölümden (2008–09 ve 2020) geliyor.
+**"Düşeni al" kurallarının karnesi (işlem başına net):**
 
-**Bugüne benzeyen günler (betimsel; sinyal değil).** S&P ETF'inin 7 ve daha fazla gün üst üste düştüğü 2005'ten beri 7 seri:
-
-| Sonraki | Ortalama | Medyan | Yükselen | En kötü |
+| Kural (1 gün tutma) | 2005–09 | 2010–19 | 2020–23 | 2024–26 |
 |---|---|---|---|---|
-| 1 gün | +%2,7 | +%0,8 | %71 | −%2,6 |
-| 3 gün | +%2,3 | +%2,2 | %86 | −%4,3 |
-| 5 gün | +%1,8 | +%1,7 | %86 | −%6,4 |
+| S&P ETF'i, RSI(2) < 10 | +36 | +1 | +40 | +33 |
+| Nasdaq ETF'i, 3+ gün üst üste düşüş | +28 | +15 | +43 | +35 |
 
-Ortalamayı 10 Ekim 2008'in tek günlük +%14,5'i taşıyor. Yedi gözlem bir kural kurmaya yetmez.
+- **2010–2019'da tutmadılar.** On yıl ve 200'den fazla işlemde S&P kuralı sıfıra yakın; bu yüzden keşifte elendiler.
+- **2020'den sonra kazandırdılar.** Nasdaq kuralı dört dönemin dördünde de artıda (2005–2026 toplamı 449 işlem, +26 bps).
+- **Neden kural saymıyorum:**
+  - Sonuca bakıp seçmek yanıltır. Keşifte elenen 250 yalnız-alım kuralının %67'si 2020–23 ve 2024–26'nın ikisinde de artıda; yani ortak etken kural değil, 2020–2026 piyasasının kendisi.
+  - Kazanç birkaç sert tepki gününden geliyor: en iyi %5 işlem çıkarılınca 2005–2026 ortalaması S&P kuralında −5, Nasdaq kuralında +1 bps.
+  - Şu an kaybediyorlar: Ekim–Kasım 2026'da S&P kuralı 7 işlemde −728 bps.
+- **Olasılık olarak duruyor:** piyasa 2020'den sonra değişmiş olabilir; eldeki veri bunu şanstan ve kriz riski taşımanın karşılığından ayıramıyor.
 
-**Bu kuralların felaket dönemleri:** "VIX 35 üstünde al" kuralı Eylül–Kasım 2008'de 46 işlemde toplam −2.809 bps kaybetti (9 ardışık kayıp), Şubat–Mart 2020'de −1.927 bps. Ekim–Kasım 2026'da RSI(2) < 10 kuralı 7 işlemde −728 bps kaybetti.
+**Rejime bağlı sürüm ve 1993–2004 sınavı:**
+- VIX önceki gün 30'un üstünde ve S&P ETF'i 200 günlük ortalamasının altındayken, 2005–2026'da RSI(2) < 10 kuralı 61 işlemde +141 bps verdi. Bu, sonuçlara bakıldıktan sonra seçilmiş bir alt küme.
+- Hipotezi, projede hiç kullanılmamış 1993–2004 verisinde, ölçütleri önceden yazarak sınadım. **Elendi:** RSI(2) < 10 kuralı 35 işlemde net −9 bps, "kapanış günün dibinde" kuralı 41 işlemde +1 bps. İkisi de aynı rejimdeki sıradan bir günün ortalamasının (+15 bps) altında kaldı; beş kriz döneminin yalnız ikisi artıda.
+- 1993–2004'te yalnız 35 ve 41 işlem var. Bu, 2005–2026'daki kadar büyük bir kazancın orada olmadığını gösteriyor (RSI kuralında); daha küçük bir kazancın olup olmadığını gösteremiyor. Ayrıca 2003 öncesi VIX sonradan geriye hesaplanmış bir seridir.
+- 1993–2026 toplam kazancının %68'i iki kriz döneminden (2008–09 ve 2020) geliyor.
+- Bu sürüm Ekim–Kasım 2026'da hiç tetiklenmedi; VIX ilk kez 20 Kasım'da 30'u aştı. İlk olası gün 23 Kasım.
+
+**Bugüne benzeyen günler (betimsel; bu tabloya bakarak pozisyon açma).** S&P ETF'inin 7 gün üst üste düştüğü, 2005'ten beri 7 seri:
+
+| Sonraki | Medyan | Ortalama | Yükselen | En kötü |
+|---|---|---|---|---|
+| 1 gün | +%0,8 | +%2,7 | 7'de 5 | −%2,6 |
+| 3 gün | +%2,2 | +%2,3 | 7'de 6 | −%4,3 |
+| 5 gün | +%1,7 | +%1,8 | 7'de 6 | −%6,4 |
+
+- 10 Ekim 2008 çıkarılınca bir günlük ortalama +%0,7'ye iniyor.
+- Koşul gevşetilince (5 ve daha fazla gün düşüş, VIX 30 üstü: 23 gün, 12 kriz dönemi) ertesi gün yükselme oranı %57, en kötü gün −%7,0, iki günde en kötü −%9,2.
+
+**Felaket dönemleri:** "VIX 35 üstünde al" kuralı Eylül–Kasım 2008'de 46 işlemde toplam −2.809 bps kaybetti (9 ardışık kayıp), Şubat–Mart 2020'de −1.927 bps.
 
 ### 3.5 Sonuç maliyet varsayımına bağlı mı?
 
-Birincil maliyet modeli piyasa emrine göre kurulu. Oysa kapanış emri (MOC) kapanış müzayedesinin tek fiyatından dolar; alış-satış farkı ödenmez [R9-01, R9-12]. Bu yüzden bütün kuralları bacak başına yalnız 1,5 bps komisyonla yeniden elettim; ölçütleri yine önceden yazdım.
+Birincil maliyet modeli piyasa emrine göre kurulu. Oysa kapanış emri müzayedenin tek fiyatından dolar; alış-satış farkı ödenmez [R9-01, R9-12]. Bu yüzden bütün kuralları bacak başına yalnız 1,5 bps komisyonla yeniden elettim; ölçütleri yine önceden yazdım.
 
-- Keşif dönemi adayı 46'dan 69'a çıktı.
+- Keşif adayı 46'dan 69'a çıktı.
 - Doğrulama döneminde 5 kural anlamlı göründü; hepsi bilanço ailesinden.
-- Hiçbiri ölçütlerin hepsini sağlamadı: dördü 2024–2026'da zarar ediyor, beşincisi (3.3'teki açığa satış kuralı) eşiğin altında ve 48 işleme dayanıyor.
+- Hiçbiri ölçütlerin hepsini sağlamadı: dördü 2024–2026'da zarar ediyor (biri çoklu test düzeltmesinden geçse de); beşincisi (3.3'teki 2. kural) eşiğin altında ve 48 işleme dayanıyor.
 
-Sonuç: "kullanılabilir kural yok" bulgusu maliyet varsayımından bağımsız.
+Sonuç: "kullanılabilir kural yok" bulgusu maliyet varsayımından bağımsız. Asıl neden maliyet değil, etkilerin sonraki yıllarda tutmaması.
 
-### 3.6 Lead-lag neden burada çalışmıyor?
+### 3.6 Lead-lag burada neden çalışmıyor?
 
-- **Eşzamanlılık.** ABD'de lider de takipçi de aynı saatlerde işlem görüyor; bilgi aynı gün fiyata giriyor (3.2'deki korelasyonlar). VİOP'ta bulduğun öncülükler, ABD seansı sırasında BIST'in kapalı olmasından doğuyordu.
-- **Yayımlanmış kanıt da aynı yönde.** Günlük lider → takipçi stratejileri akademik çalışmalarda yalnız tek yön maliyet 10 bps'in altındayken kazandırıyor [R4-01]; lider/takipçi ilişkileri nadiren 6 aydan uzun yaşıyor [R4-11]. Büyük hisselerde bilanço sonrası sürüklenme 2006'dan beri yok [R6-01]. FOMC öncesi yükseliş 2015'ten sonra kayboldu [R7-13].
-- **Kalan tek sistematik etki oynaklık satışına benziyor.** Kısa vadeli dönüşün getirisi VIX yükseldikçe artıyor [R5-14, R5-17], ama aynı strateji VIX sıçramaya devam ettiğinde kaybediyor [R5-18]. Yani "kazanç" büyük ölçüde taşınan kuyruk riskinin karşılığı.
+- **En olası açıklama eşzamanlılık ve kalabalık.** ABD'de lider de takipçi de aynı saatlerde, çok sayıda profesyonelin önünde işlem görüyor; bilgi aynı gün fiyata giriyor (3.2'deki korelasyonlar). Bu bir açıklamadır, ayrıca sınanmış bir mekanizma değil.
+- **Yayımlanmış kanıt aynı yönde.** Günlük lider → takipçi stratejileri yalnız tek yön maliyet 10 bps'in altındayken kazandırıyor [R4-01]; lider/takipçi ilişkileri nadiren 6 aydan uzun yaşıyor [R4-11]. Büyük hisselerde bilanço sonrası sürüklenme 2006'dan beri yok [R6-01]; kendi verimizde 2010–2019'da vardı, 2020'den sonra kayboldu. Fed toplantısı öncesi yükseliş 2015'ten sonra kayboldu [R7-13].
+- **Literatürde kalan en belirgin örüntü sigorta satmaya benziyor:** panik günlerinde alan çoğu zaman küçük kazanır, panik sürdüğünde büyük kaybeder [R5-14, R5-17, R5-18]. Bizim 1993–2004 sınavımız bu örüntüyü doğrulamadı (3.4).
 
 ### 3.7 Kaldıraçlı ETF'yi 1–3 gün taşımak
 
-Kaldıraçlı ETF her gün yeniden dengelenir; birkaç gün tutulduğunda getirisi "kaldıraç × endeks getirisi"nden sapar. Bu sapma (maliyet ve oynaklık aşınması) 2010–2026 verisinde şöyle:
+Kaldıraçlı ETF her gün yeniden dengelenir; birkaç gün tutulduğunda getirisi "kaldıraç × endeks getirisi"nden sapar. Ortalama sapma (2010–2026):
 
-| Durum | TQQQ (3x Nasdaq) | SOXL (3x yarı iletken) | SQQQ (−3x) | SOXS (−3x) |
+| Durum (3 gün) | TQQQ | SOXL | SQQQ | SOXS |
 |---|---|---|---|---|
-| VIX 30 üstü, 3 gün | −27 bps | −33 bps | −41 bps | −88 bps |
-| S&P %3'ten fazla düştükten sonra, 3 gün | −90 bps | −97 bps | – | −189 bps |
+| VIX 30 üstü | −27 | −33 | −41 | −88 |
+| S&P %3'ten fazla düştükten sonra | −90 | −97 | −97 | −189 |
 
-- Tek günde sapma 2–5 bps; sorun birden fazla gün taşımakta ve yüksek oynaklıkta.
-- Bugün ikisi de geçerli: VIX 35,9 ve S&P bir günde %3,7 düştü.
-- En kötü tek gün: TQQQ −%34,5 (16 Mart 2020), SOXL −%38,7 (5 Kasım 2026).
-- Tek hisse kaldıraçlı ürünlerde gider oranı kaynağa göre değişiyor (NVDL için %1,05 ya da %1,64) [R12-22]; prospektüse bakılmalı.
+(TQQQ ve SOXL 3x uzun, SQQQ ve SOXS 3x ters; birim bps.)
+
+- Sayılar ortalamadır; medyan kayıp 10–56 bps. Kaybın büyüğü az sayıdaki uç günde oluşuyor.
+- 3x uzun ürünlerde tek günlük sapma 2–5 bps; sorun birden fazla gün taşımakta ve yüksek oynaklıkta. Bugün ikisi de geçerli.
+- En kötü tek gün: TQQQ −%34,5 (16 Mart 2020); SOXL −%38,7 (5 Kasım 2026; tek veri kaynağı, doğrulanmadı); SOXS −%56,0 ve SQQQ −%35,3 (9 Nisan 2025).
+- Tek hisse kaldıraçlı ürünlerde gider oranı kaynağa göre değişiyor (Nvidia'nın 2x ürünü için %1,05 ya da %1,64) [R12-22]; prospektüse bakılmalı.
 
 ### 3.8 Risk ve boyut
 
-10.000 $ sermayenin %1'ini (100 $) riske atan pozisyon büyüklüğü. "Olağan" sütun son 60 günün bir günlük standart sapmasına, "VIX 30 üstü kuyruk" sütunu VIX 30'un üstündeyken görülen en kötü %1'lik güne göre hesaplandı. Bugün ikinci sütun geçerli.
+Tablo şunu söyler: 10.000 $ sermayen varsa ve tek işlemde en çok 100 $ (%1) kaybetmeyi göze alıyorsan, o varlıktan en çok kaç dolarlık alabilirsin. "Sıradan gün" son 60 günün tipik günlük hareketine (standart sapma, σ) göre; "Kriz günü" VIX 30'un üstündeyken görülen en kötü %1'lik güne göre hesaplandı. Bugün "Kriz günü" sütunu geçerli; üç gün taşıyacaksan son sütun.
 
-| Kod | Bir günlük σ | Olağan | VIX 30 üstü kuyruk | 3 gün, kuyruk |
+| Kod | Günlük σ | Sıradan gün | Kriz günü | Kriz, 3 gün |
 |---|---|---|---|---|
 | SPY | %1,1 | 9.100 $ | 1.280 $ | 860 $ |
 | QQQ | %1,7 | 5.900 $ | 1.380 $ | 1.030 $ |
@@ -146,24 +178,27 @@ Kaldıraçlı ETF her gün yeniden dengelenir; birkaç gün tutulduğunda getiri
 | SOXL | %11,0 | 910 $ | 390 $ | 290 $ |
 | SOXS | %11,1 | 900 $ | 320 $ | 240 $ |
 
+- Boyutlar uzun pozisyon içindir. "Kriz günü" sütunu 2010 sonrası ürünlerde yaklaşık 250 güne dayanır; gerçek en kötü gün bunun iki katı olabilir (3.7).
 - 343 kodun tamamı: `ek/veri/risk_ve_boyut_tablosu.csv`.
-- Endeks korunması endeks, sektör ve kaldıraçlı endeks ETF'lerinde varyansı %55–90 azaltıyor; tek hisselerin çoğunda (Apple, Microsoft, Palantir, Eli Lilly ve benzerleri) %20'den az.
-- Opsiyon gama pozisyonu (GEX) negatifken ertesi günün oynaklığı 2–3 katına çıkıyor. Bu bir kazanç kuralı değil, boyutu küçültme işareti.
+- Endeks korunması endeks, sektör ve kaldıraçlı endeks ETF'lerinde oynaklığı belirgin azaltıyor (varyansta %55–90); tek hisselerin çoğunda (Apple, Microsoft, Palantir ve benzerleri) %20'den az.
+- Opsiyon piyasa yapıcılarının toplam pozisyonu (GEX) negatifken ertesi günün oynaklığı 2–3 katına çıkıyor. Bu bir kazanç kuralı değil, boyutu küçültme işareti.
 
 ### 3.9 Uygulama: emir, saat, maliyet
 
 - **Kapanış emri kesimi:** New York borsasında 15:50'den sonra kapanış emri girilemez ve iptal edilemez [R9-01]. Interactive Brokers bütün borsalar için 15:50'yi esas alıyor [R9-03, R9-04]. Kışın 23:50 TSİ.
-- **Sinyal 15:50'de hesaplanır, kapanışta değil.** Bu rapordaki kurallar kapanış fiyatıyla sınandı; gerçek uygulamada son 10 dakikanın hareketi sinyali değiştirebilir.
-- **Kapanış fiyatının kendisi gürültülü:** müzayede öncesi fiyattan ortalama 8,1 bps sapıyor ve büyük hisselerde bu sapma gece geri dönüyor [R9-14].
-- **Komisyon:** Interactive Brokers'ta hisse başına 0,005 $, en az 1 $ [R9-15]; 10.000 $'lık emirde gidiş-dönüş yaklaşık 2 bps. Komisyonsuz hesap türü yalnız ABD yerleşiklerine açık.
-- **Gece seansı:** alış-satış farkı belirgin geniş (sık işlem gören hisselerde 28 bps'e karşı gündüz 20 bps) [R9-11]. Borsalarda neredeyse 24 saat işlemin 6 Aralık 2026'da başlaması planlanıyor [R9-07].
+- **Sinyal 15:50'de hesaplanır, kapanışta değil.** Bu rapordaki kurallar kapanış fiyatıyla sınandı; son 10 dakikanın hareketi sinyali değiştirebilir.
+- **Kapanış fiyatı gürültülü:** müzayede öncesi fiyattan ortalama 8,1 bps sapıyor; büyük hisselerde bu sapma gece geri dönüyor [R9-14].
+- **Komisyon belirleyici:**
+  - Interactive Brokers: hisse başına 0,005 $, en az 1 $ [R9-15]; 10.000 $'lık emirde gidiş-dönüş yaklaşık 2 bps. Bu bir alt sınır.
+  - Türkiye'deki bir banka tarifesi (2024): %0,25, en az 1 $; seans dışı emirde pay başına ek 0,5 sent [R10-23]. Bacak başına 25 bps, gidiş-dönüş 50 bps. Bu tarifeyle 3.3 ve 3.12'deki hiçbir sayı maliyeti karşılamaz.
+- **Gece seansı:** alış-satış farkı geniş (sık işlem gören hisselerde 28 bps'e karşı gündüz 20 bps) [R9-11]. Borsalarda neredeyse 24 saat işlemin 6 Aralık 2026'da başlaması planlanıyor [R9-07].
 - **Açığa satış:** bir günde %10 düşen hissede o gün ve ertesi gün açığa satış kısıtlanır [R9-29]. Kaldıraçlı ETF'de teminat kaldıraçla çarpılır: 3x üründe uzun pozisyon için %75 [R9-24].
-- **Mikro vadeli sözleşmeler:** S&P mikro sözleşmesinde sürdürme teminatı 2.919 $, Nasdaq'ta 4.574 $ (bir aracı kurumun sayfasından; borsanın tablosu görülemedi) [R9-28].
+- **Mikro vadeli sözleşmeler:** sürdürme teminatı S&P mikro sözleşmesinde 2.919 $, Nasdaq'ta 4.574 $ (bir aracı kurumun sayfasından; borsanın tablosu görülemedi) [R9-28].
 
 ### 3.10 Türkiye: erişim ve vergi
 
 - **Erişim:** yurt dışı hisse/ETF işlemi SPK yetkili banka ya da aracı kurum üzerinden yapılmak zorunda (Mart 2025 değişikliği) [R10-12]. Kendi başına yurt dışı kuruma gitme istisnası yalnız türev işlemler için [R10-13]. Kaldıraçlı işlem ve fark sözleşmeleri (CFD) yalnız SPK yetkili kurumlardan yapılabilir [R10-14].
-- **Vergi:** yurt dışı borsadaki alım satım kazancı değer artışı kazancıdır ve yıllık beyannameyle beyan edilir [R10-01]. 2026'nın 150.000 TL'lik istisnası menkul kıymet kazancına uygulanmaz [R10-03]; elde tutma süresi istisnası da yok [R10-02]. Yani vergi ilk liradan başlar.
+- **Vergi:** yurt dışı borsadaki alım satım kazancı değer artışı kazancıdır ve yıllık beyannameyle beyan edilir [R10-01]. 2026'nın 150.000 TL'lik istisnası menkul kıymet kazancına uygulanmaz [R10-03]; elde tutma süresi istisnası da yok [R10-02]. Vergi ilk liradan başlar.
 - **Zarar:** aynı yıl içindeki yurt dışı menkul zararları kazançtan düşülür; başka gelirlerden düşülemez [R10-07].
 - **Oranlar (2026):** 190 bin TL'ye kadar %15, 400 bine kadar %20, 1 milyona kadar %27, 5,3 milyona kadar %35, üstü %40 [R10-09].
 - **Beyan:** kanunda 1–25 Mart; idare 2025 kazancı için 31 Mart'a kadar kabul etti. Ödeme Mart ve Temmuz'da iki taksit [R10-11].
@@ -174,7 +209,7 @@ Kaldıraçlı ETF her gün yeniden dengelenir; birkaç gün tutulduğunda getiri
 
 | Tarih | Olay |
 |---|---|
-| 25 Kasım | 3. çeyrek büyüme 2. tahmin, Ekim kişisel harcama fiyatları (PCE) [R12-04] |
+| 25 Kasım | 3. çeyrek büyüme 2. tahmin, Ekim kişisel harcama fiyatları [R12-04] |
 | 26 Kasım | Borsa kapalı (Şükran Günü) |
 | 27 Kasım | Yarım gün, kapanış 13:00 [R12-08] |
 | 4 Aralık | Kasım istihdam raporu [R12-02] |
@@ -187,31 +222,48 @@ Kaldıraçlı ETF her gün yeniden dengelenir; birkaç gün tutulduğunda getiri
 
 Diğer bilanço tarihleri (Salesforce, Oracle, Micron ve benzerleri) tahmini; şirket duyurusundan teyit edilmeli [R12-15].
 
-### 3.12 İzleme listesi (kâğıt üstünde; gerçek para değil)
+### 3.12 Elenmiş iki hipotez (yalnız kâğıt üstünde)
 
-| # | Hipotez | Kural | Durumu |
-|---|---|---|---|
-| 1 | Bilanço şokunun devamı | Büyük bir hisse bilanço tepki gününde sektör ETF'ine göre %10'dan fazla düşerse, kapanışta açığa sat (endeks korunmalı), 3 gün sonra kapat | Düşük güven. Üç dönemde de işareti aynı (+123, +135, +53 bps) ama doğrulamada yalnız 48 işlem var; açığa satış gerektirir |
-| 2 | Kriz rejiminde tepki alımı | VIX önceki gün 30'un üstünde ve S&P ETF'i 200 günlük ortalamasının altındayken RSI(2) < 10 kapanışında al, ertesi kapanışta sat | 1993–2004'te elendi; 2005–2026'da güçlü. Yalnız izlemek için |
+Bu bir sinyal listesi değildir. İkisi de önceden yazılı ölçütleri sağlamadı; "en yakın kalanlar" oldukları için buradalar.
 
-İzleme için önceden ölçüt: en az 30 işlem; net ortalama pozitif; en iyi iki işlem çıkarılınca hâlâ pozitif. Ölçüt sağlanmadan boyut büyütülmez.
+**1. Bilanço şokunun devamı.**
+- Kural: büyük bir hisse bilanço tepki gününde sektör ETF'ine göre %10'dan fazla düşerse kapanışta açığa sat (endeksle korun), 3 gün sonra kapat.
+- Kanıt: üç dönemde de artıda (+123, +135, +53 bps; bacak başına 1,5 bps komisyonla).
+- Zayıf yanları: doğrulamada yalnız 48 işlem; 2024–26'da anlamsız ve en iyi %5 işlem çıkınca eksi; 1 ve 2 günlük tutmada tutmuyor; VIX 30 üstündeki 7 kriz döneminin yalnız 3'ü artıda; en kötü tek işlem −%31,6.
+- Uygulama sorunu: o gün %10 düşen hissede açığa satış kısıtlıdır (3.9); emrin kapanışta dolacağı varsayıldı, sınanmadı.
+
+**2. Sığ düşüşü al.**
+- Kural: Nasdaq ETF'i (QQQ) 3 ve daha fazla gün üst üste düşünce kapanışta al, ertesi kapanışta sat.
+- Kanıt: dört dönemde de artıda (+28, +15, +43, +35 bps); 449 işlem.
+- Zayıf yanları: keşifte elendi ve sonuçlar görüldükten sonra seçildi; en iyi %5 işlem çıkınca ortalama +1 bps; en kötü tek işlem −%6,5; aynı türden kurallar Ekim–Kasım 2026'da kaybediyor.
+- VIX 30 koşullu sürümü (3.4) 1993–2004 sınavında elendiği için listeye almadım.
+
+**Gerçek çıksalar ne kazandırırlar?**
+- 1. hipotez: yılda yaklaşık 12 işlem × 53–135 bps = pozisyona ayrılan tutar üzerinden yılda kabaca %6–16; açığa satış ve teminat ister.
+- 2. hipotez: yılda yaklaşık 20 işlem × 26 bps = yılda kabaca %5.
+- İkisi de "ciddi kazanç" değil. Kaldıraçla büyütmek kazancı değil, tek seferde büyük kayıp riskini büyütür; %0,25'lik bir komisyon tarifesiyle ikisi de eksiye döner.
+
+**İzleme ölçütü:** en az 30 işlem; net ortalama pozitif; en iyi iki işlem çıkarılınca hâlâ pozitif. 30 işlem birinci hipotezde 1,5–2,5 yıl, ikincisinde yaklaşık 1,5 yıl sürer. Ölçüt dolmadan gerçek para yok.
 
 ## 4. Emin olunmayanlar ve doğrulama kapsamı
 
 **Sonucun sınırları:**
-- **Hayatta kalma yanlılığı:** veri bugünün hisselerinden kuruldu; iflas eden ve borsadan çıkan şirketler yok. Bu, yalnız alım yönlü kuralları olduğundan iyi gösterir. Sonuç zaten olumsuz olduğu için yön değişmez, ama 3.3'teki bilanço kurallarının geçmiş kazancı şişkindir.
-- **Kapsam:** sistematik tarama sepet düzeyinde ve doğrusal ilişki arar; hisse → hisse düzeyi ve 2018 sonrası listelenen 89 kod dışarıda kaldı. Kuantum kümesi hacim süzgecinden geçemediği için sınanamadı; uzay ve yapay zekâ yazılımı kümelerinde örneklem çok küçük.
-- **Çıkış kuralları:** yalnız sabit süreli tutma sınandı (1, 2, 3 gün ve ertesi açılış). Eşiğe bağlı çıkışlar sınanmadı.
-- **Keşif dönemi sakin bir dönem:** 2010–2019'da VIX'in 30'u aştığı gün az. Rejime bağlı bir etki bu elekten geçemeyebilir; bunu 1993–2004 testiyle ayrıca sınadım (3.4), o da olumsuz çıktı.
-- **Bilanço ailesi:** bilanço tepki gününü belirleyen iki yöntem olayların %12–20'sinde uyuşmuyor; bu aile en iyi durumda "koşullu" olabilirdi.
-- **Kapanış gerçekçiliği:** sinyalin 15:50'de hesaplanması yalnız birkaç kuralda, son iki yılın saatlik verisiyle yoklandı.
-- **Aracı kurum:** kullandığın kurumun kapanış emri, açığa satış ve kaldıraçlı ETF sunup sunmadığını bilmiyorum.
+- **Kapsam:** sonuç ABD'nin en likit 470 kodu ve fiyat, hacim, takvim, bilanço tarihi, VIX ve opsiyon konumlanma verisi için geçerli. Küçük hisseler, opsiyon fiyatlarından türeyen sinyaller, bilanço dışı haberler ve ADR–yerel piyasa farkı sınanmadı. Bu, oralarda kenar olduğu anlamına gelmiyor: küçük hisselerde maliyet daha yüksek ve eldeki veri güvenilir bir sınamaya yetmiyor.
+- **Keşif penceresi:** eleme, keşif döneminin 2010–2019 seçilmesine bağlı. "Düşeni al" kuralları bu yüzden elendi; 2020 sonrası sonuçları 3.4'te açıkça yazılı.
+- **Elenen kuralların sonrası:** beş ailede (lider → takipçi, çiftler, çapraz varlık, volatilite, bilanço) keşifte elenen kuralların 2020 sonrası sonuçları hesaplanmadı; bu ailelerde sonradan güçlenen bir kural olup olmadığını bilmiyorum.
+- **Hayatta kalma yanlılığı:** veri bugünün hisselerinden kuruldu; iflas eden ve borsadan çıkan şirketler yok. Bu, yalnız alım yapan kuralları olduğundan iyi gösterir.
+- **Tutma ve çıkış:** yalnız 1, 2, 3 gün ve "ertesi açılış" sınandı. Kaynaklardaki 5 gün ve daha uzun tutmalar ile eşiğe bağlı çıkışlar sınanmadı.
+- **Tarama:** sepet düzeyinde ve doğrusal ilişki arar; hisse → hisse düzeyi ve 2018 sonrası listelenen 89 kod dışarıda kaldı. Kuantum kümesi hacim süzgecinden geçemediği için sınanamadı.
+- **Bilanço ailesi:** tepki gününü belirleyen iki yöntem olayların %12–20'sinde uyuşmuyor.
+- **Tek veri kaynağı:** fiyatlar Yahoo'dan; ikinci kaynakla karşılaştırma yalnız iki kodun son 20 gününde yapıldı (fark yok).
+- **Aracı kurum:** kullandığın kurumun kapanış emri, açığa satış ve kaldıraçlı ETF sunup sunmadığını ve tarifesini bilmiyorum.
 
 **Doğrulama kapsamı:**
 - **Olgu satırları:** 157 satır kaynağından kontrol edildi. 130'u doğrulandı, 22'si düzeltildi (düzeltilmiş hâlleri kullanıldı), 4'ü doğrulanamadı, 1'i yanlış çıktı ve rapora alınmadı. Türkiye erişim/vergi satırları resmî metinle ikinci kez kontrol edildi.
-- **Hesap:** motor bağımsız kodla denetlendi (9.941 işlem). "Düşeni al" sonuçları motoru kullanmayan ayrı bir kodla birebir yeniden üretildi (61 ve 102 işlem, brüt ortalamalar aynı).
-- **Yöntem:** plan hesaptan önce ayrı bir denetçiye eleştirtildi; 15 itirazın hepsi plana işlendi. Sonradan eklenen iki test (1993–2004 sınavı ve maliyet senaryosu) veriye bakılmadan önce yazılıp kaydedildi.
-- **Açık kalanlar:** kur çevirme kuralı [R10-05]; komisyon ve faizin vergi matrahından indirimi [R10-06]; ISM veri tarihleri [R12-07]; Aralık artırım olasılığı ve 20 Kasım SEC haberi tek ikincil kaynağa dayanıyor; Şubat 2018'de kapanan ters volatilite ürününün fiyatları arama özetlerinden alındı.
+- **Hesap:** hesap kodu bağımsız olarak denetlendi (9.941 işlem). "Düşeni al" sonuçları ayrı bir kodla birebir yeniden üretildi.
+- **Yöntem:** plan hesaptan önce bağımsız olarak eleştirildi; 15 itirazın hepsi plana işlendi. Sonradan eklenen iki test (1993–2004 sınavı ve maliyet senaryosu) veriye bakılmadan önce yazılıp kaydedildi.
+- **Rapor:** taslak iki bağımsız eleştiriden geçti. Biri rapordaki sayıları sonuç dosyalarından yeniden hesapladı: 22 sayı tuttu, 6'sı düzeltildi. İkisinin itirazıyla VİOP karşılaştırması, "düşeni al" anlatımı ve izleme listesi yeniden yazıldı.
+- **Açık kalanlar:** kur çevirme kuralı [R10-05]; komisyon ve faizin vergi matrahından indirimi; ISM veri tarihleri; Aralık artırım olasılığı ve 20 Kasım SEC haberi tek ikincil kaynağa dayanıyor.
 
 ## 5. Kaynaklar
 
@@ -234,26 +286,26 @@ Köşeli parantezli kodlar bu listedeki satırlardır. Her satır bu oturumda ka
 - **[R9-14]** (doğrulandı) Kapanış fiyatı müzayede öncesi fiyattan ortalama 8,1 bps (mutlak) sapar; sapma küçük hisselerde gece içinde büyük ölçüde, büyük hisselerde tamamen geri döner (Bogousslavsky–Muravyev; arama özeti). — https://aeaweb.org/conference/2021/preliminary/paper/H9T4hef7 ; https://thepluto.substack.com/api/v1/file/06bdf231-3aea-4e3a-8ca1-d5ef6ead54f9.pdf
 - **[R9-15]** (doğrulandı) IBKR Pro sabit tarife 0,005 $/hisse, en az 1 $; kademeli tarife 0,0035 $/hisse, en az 0,35 $; işlem başına en çok işlem değerinin %1'i (ön tarama, IBKR sayfası). — https://www.interactivebrokers.com/en/pricing/commissions-stocks.php
 - **[R9-24]** (doğrulandı) Kaldıraçlı ETF'de sürdürme teminatı kaldıraçla çarpılır: uzun pozisyonda 3×%25 = %75, açığa satışta 3×%30 = %90 (arama özeti). — https://www.interactivebrokers.com/support/faq/content/margin-requirement-leveraged-etf-products-1163247655
-- **[R9-28]** (düzeltildi) AMP'nin güncel teminat sayfasında MES sürdürme teminatı 2.919 $, MNQ ise 4.574 $. İddiadaki 2.863 $ / 4.646 $ eski. CME'nin resmî tablosu 403 verdiği için görülemedi; teminatlar sık değişir, emir öncesinde aracı kurumdan… — https://www.ampfutures.com/trading-info/margins?hsLang=es
+- **[R9-28]** (düzeltildi) AMP'nin güncel teminat sayfasında MES sürdürme teminatı 2.919 $, MNQ ise 4.574 $. İddiadaki 2.863 $ / 4.646 $ eski. CME'nin resmî tablosu 403 verdiği için görülemedi; teminatlar sık değişir, emir öncesinde aracı kurumdan kontrol edilmeli. — https://www.ampfutures.com/trading-info/margins?hsLang=es
 - **[R9-29]** (doğrulandı) Rule 201: hisse önceki kapanışa göre %10 düşünce o günün kalanında ve ertesi gün açığa satış yalnız en iyi alış fiyatının üstünden yapılabilir (ön tarama). — https://www.sec.gov/divisions/marketreg/rule201faq.htm
 - **[R10-01]** (doğrulandı) Yurt dışı borsalarda yapılan menkul kıymet alım satım kazancı değer artışı kazancıdır ve yıllık gelir vergisi beyannamesiyle beyan edilir. — https://intvrg.gib.gov.tr/hazirbeyan/assets/pdf/DUYURU_UNIVERSAL_2026_Diger_Kazanc_ve_Iratlar_2026.pdf
 - **[R10-02]** (doğrulandı) Mükerrer 80'deki 2 yıl istisnası yalnızca tam mükellef kurumların hisselerine uygulanır; ABD hissesi ve ETF'si elde tutma süresinden bağımsız vergilenir. — https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf
 - **[R10-03]** (doğrulandı) Değer artışı istisnası (2026'da 150.000 TL) menkul kıymet ve sermaye piyasası aracı satışından doğan kazanca uygulanmaz. — https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf
 - **[R10-05]** (doğrulanamadı) Alış ve satış bedeli alım ve satım tarihlerindeki kurla TL'ye çevrilir; dolarda zarar olsa bile TL'de kâr çıkarsa vergi doğar. — https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf
-- **[R10-06]** (doğrulanamadı) Aracı kurum komisyonu matrahtan düşülür. Kredili alımda kredi faizi düşülemez. — https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf
 - **[R10-07]** (doğrulandı) Aynı yıl içindeki yurt dışı menkul zararları kazançla netleşir; diğer kazanç ve irat zararları başka gelir unsurlarından düşülemez. — https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf
 - **[R10-09]** (doğrulandı) 2026 tarifesi (ücret dışı): %15 190 bin TL'ye kadar, %20 400 bin'e kadar, %27 1 milyon'a kadar, %35 5,3 milyon'a kadar, %40 üstü (332 No'lu Tebliğ, RG 31/12/2025 sayı 33124 5. mükerrer). — https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf
-- **[R10-11]** (düzeltildi) GVK 92'ye göre beyanname izleyen yılın Mart ayının 1'inden 25'ine kadar verilir. GİB 2025 kazancı için süreyi 1-31 Mart 2026 olarak uyguladı. GVK 117'ye göre vergi Mart ve Temmuz aylarında iki eşit taksitle ödenir. 2026… — https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf
+- **[R10-11]** (düzeltildi) GVK 92'ye göre beyanname izleyen yılın Mart ayının 1'inden 25'ine kadar verilir. GİB 2025 kazancı için süreyi 1-31 Mart 2026 olarak uyguladı. GVK 117'ye göre vergi Mart ve Temmuz aylarında iki eşit taksitle ödenir. 2026 kazancı için bu Mart ve Temmuz 2027'dir; kesin son günler 2027 rehberinde ilan edilecektir. — https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf
 - **[R10-12]** (doğrulandı) RG 28/3/2025 değişikliğinden sonra yurt dışı menkul kıymet ve türev alım satımı SPK yetkili banka ve aracı kurum üzerinden yapılır. — https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/9.5.11990.pdf
 - **[R10-13]** (doğrulandı) Kendi inisiyatifinle yurt dışı kuruma gitme istisnası yalnızca türev işlemler içindir; bedel transferi bankadan yapılmak zorundadır. — https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/9.5.11990.pdf
 - **[R10-14]** (doğrulandı) Kaldıraçlı işlemler ve CFD yalnızca SPK yetkili kurumlardan yapılabilir; bunlar için yurt dışına transfer yasaktır. — https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/9.5.11990.pdf
+- **[R10-23]** (düzeltildi) İşbank'ın 2024 tarihli İşCep Yurt Dışı Piyasalar komisyon tablosuna göre: pay işlemlerinde komisyon %0,25, NYSE, NASDAQ ve AMEX için minimum 1 USD (25 USD değil). Vadeli işlem sözleşmelerinde kontrat başına 7 USD + borsa payı. Piyasa öncesi ve sonrası saatlerde ya da ALGO emirlerde pay başına ek 0,5 cent alınır. — https://www.isbank.com.tr/contentmanagement/Documents/mevduat-yatirim/2024/iscep-yurt-disi-piyasalar-komisyon-tablosu-24.pdf
 - **[R10-24]** (doğrulandı) TR-ABD anlaşmasıyla bireyin ABD temettü stopajı en çok %20; %10 ve üzeri oy hakkı olan şirket için %15. — https://www.irs.gov/pub/irs-trty/turkey.pdf
 - **[R11-01]** (doğrulandı) Fed 16 Eylül 2026'da faizi 25 bp artırıp %3,75–4,00 aralığına getirdi; oy 12–0. — https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm
 - **[R11-04]** (doğrulandı) Sonraki FOMC 8–9 Aralık 2026 ve SEP'li; Ekim tutanakları 18 Kasım'da yayımlandı. — https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 - **[R11-06]** (doğrulandı) 21 Kasım'da vadeliler Aralık artırım ihtimalini ~%95 fiyatlıyor; Goldman Aralık ve Mart artırımlarıyla %4,25–4,5 tepe bekliyor. — https://fortune.com/2026/11/21/goldman-sachs-sp-500-correction-ai-unwind-bottom-three-conditions-hedge-funds-positioning/
 - **[R11-10]** (doğrulandı) 10 yıllık Hazine faizinin 2026 zirvesi 5 Ekim'de %5,31; 20 Kasım'da %4,92 (19 Kasım'da %5,04); 2 yıllık %4,63. — https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv
 - **[R11-12]** (doğrulandı) 20 Kasım: S&P 500 −%3,7 ile 6.910,39, Nasdaq −%5,3 ile 22.617,73, Russell 2000 −%2,8; haftalık S&P −%8,6; S&P 6 Ekim rekorundan %10'dan fazla aşağıda. — https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11202026-nid20112026/
-- **[R11-14]** (düzeltildi) 20 Kasım'da Philadelphia yarı iletken endeksi %10,73 düştü; 30 hissenin hepsi ekside kapandı. MU %13,9, AMD %13,3 düştü. NVDA günü yaklaşık %14,0 kayıpla kapattı (145,98'den 125,53 dolara; gün içi dip yaklaşık %−14,7). Kayıp,… — https://www.tradingkey.com/analysis/stocks/us-stocks/262316111-nasdaq-falls-ai-stock-selloff-nvidia-sec-probe-tradingkey
+- **[R11-14]** (düzeltildi) 20 Kasım'da Philadelphia yarı iletken endeksi %10,73 düştü; 30 hissenin hepsi ekside kapandı. MU %13,9, AMD %13,3 düştü. NVDA günü yaklaşık %14,0 kayıpla kapattı (145,98'den 125,53 dolara; gün içi dip yaklaşık %−14,7). Kayıp, Reuters'ın SEC muhasebe incelemesi haberiyle büyüdü. — https://www.tradingkey.com/analysis/stocks/us-stocks/262316111-nasdaq-falls-ai-stock-selloff-nvidia-sec-probe-tradingkey
 - **[R11-15]** (doğrulandı) 20 Kasım'da Reuters, SEC icra biriminin Nvidia'da olası muhasebe sorunlarını incelediğini yazdı; WSJ soruşturmayı ilk kez 17 Kasım'da duyurmuştu; bu suçlama anlamına gelmiyor. — https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054
 - **[R11-16]** (doğrulandı) 17 Kasım'da WSJ, SEC'in Nvidia açıklamalarının yatırımcıyı yanıltıp yanıltmadığına dair hukuk soruşturması başlattığını yazdı; Kaliforniya başsavcısı da çip saptırma iddiasını inceliyor. — https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054
 - **[R11-17]** (doğrulandı) Nvidia 12 Kasım'da Huang'ın CEO, başkan ve yönetim kurulu üyeliğinden hemen istifa ettiğini açıkladı; Kress geçici CEO, Harvey Jones yönetim kurulu başkanı. — https://www.credenceresearch.com/news/nvidia-q3-fiscal-2027-revenue-115-8-billion-vera-rubin-interim-ceo-kress
@@ -261,21 +313,20 @@ Köşeli parantezli kodlar bu listedeki satırlardır. Her satır bu oturumda ka
 - **[R12-01]** (doğrulandı) FOMC'nin son 2026 toplantısı 8–9 Aralık'ta ve SEP'li (projeksiyonlu); Ekim tutanakları 18 Kasım 2026'da yayımlandı. — https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 - **[R12-02]** (doğrulandı) Kasım 2026 istihdam raporu 4 Aralık 08:30'da, Kasım TÜFE 10 Aralık'ta, Kasım ÜFE 15 Aralık'ta, ithalat fiyatları 17 Aralık'ta; 8 Aralık'taki yayın Verimlilik (R). — https://blsmon1.bls.gov/schedule/2026/12_sched_list.htm
 - **[R12-04]** (doğrulandı) BEA, Ekim PCE'yi ve 3. çeyrek GSYH ikinci tahminini 25 Kasım'da, Kasım PCE'yi ve GSYH üçüncü tahminini 23 Aralık 2026'da 08:30'da yayımlıyor. — https://www.bea.gov/news/schedule
-- **[R12-07]** (doğrulanamadı) ISM imalat 1 Aralık 2026'da (ilk iş günü kuralı), hizmet 3 Aralık'ta; Ocak'ta imalat büyük olasılıkla 4 Ocak'ta, hizmet 5 ya da 6 Ocak'ta (çelişkili, teyitsiz). — https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/
 - **[R12-08]** (doğrulandı) NYSE 27 Kasım ve 24 Aralık 2026'da 13:00'te erken kapanıyor, 1 Ocak 2027'de kapalı. — https://www.nyse.com/markets/hours-calendars
-- **[R12-10]** (doğrulandı) Nasdaq-100 yıllık yeniden yapılandırması üçüncü Cuma'dan sonraki ilk işlem günü açılışta yürürlüğe giriyor; duyuru yürürlükten 6 işlem günü önce kapanış sonrasında. Buna göre referans 30 Kasım, duyuru 11 Aralık, yürürlük 21… — https://indexes.nasdaqomx.com/docs/Methodology_NDX_Effective_May_1_2026.pdf
+- **[R12-10]** (doğrulandı) Nasdaq-100 yıllık yeniden yapılandırması üçüncü Cuma'dan sonraki ilk işlem günü açılışta yürürlüğe giriyor; duyuru yürürlükten 6 işlem günü önce kapanış sonrasında. Buna göre referans 30 Kasım, duyuru 11 Aralık, yürürlük 21 Aralık 2026 (hesap). — https://indexes.nasdaqomx.com/docs/Methodology_NDX_Effective_May_1_2026.pdf
 - **[R12-14]** (doğrulandı) Broadcom 4. çeyrek ve FY2026 sonuçlarını 9 Aralık 2026 Çarşamba kapanış sonrasında açıklayacak (17:00 ET konferans). — https://finviz.com/news/418980/broadcom-inc-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results-on-wednesday-december-9-2026
 - **[R12-15]** (doğrulandı) Nasdaq bilanço takvimi (çoğu tahmini): CRWD ve MRVL 1 Ara, CRM ve SNOW 2 Ara, ADBE 9 Ara, COST ve LULU 10 Ara, ORCL 14 Ara, MU 16 Ara, NKE ve ACN 17 Ara, CCL ve PAYX 18 Ara, DELL 24 Kas, JPM 12 Oca, BAC/WFC/C 13 Oca. — https://api.nasdaq.com/api/calendar/earnings?date=2026-12-10
-- **[R12-22]** (düzeltildi) Hacimler ve fiyatlar doğru (NVDL 90,9 mn; NVD 63,5 mn; TSLL 46,2 mn; MSTZ 37,3 mn; CONL 28,8 mn ve 1,79 $; PLTD 59,5 mn; AMDL 7,1 mn). Schwab'a göre gider oranları: NVDL %1,05, NVD %1,35, CONL %1,04, AMDL %1,07; TSLL %0,83,… — https://www.schwab.wallst.com/Prospect/Research/etfs/summary.asp?symbol=nvdl
+- **[R12-22]** (düzeltildi) Hacimler ve fiyatlar doğru (NVDL 90,9 mn; NVD 63,5 mn; TSLL 46,2 mn; MSTZ 37,3 mn; CONL 28,8 mn ve 1,79 $; PLTD 59,5 mn; AMDL 7,1 mn). Schwab'a göre gider oranları: NVDL %1,05, NVD %1,35, CONL %1,04, AMDL %1,07; TSLL %0,83, MSTZ %1,05 ve PLTD %0,98 doğru. — https://www.schwab.wallst.com/Prospect/Research/etfs/summary.asp?symbol=nvdl
 
-Bu rapordaki backtest sayılarının kaynağı kendi hesaplarımızdır: `ek/veri/` altındaki sonuç tabloları ve `ek/ajanlar/` altındaki ajan özetleri (d4 ve d5 ile başlayan dosyalar).
+Backtest sayıları kendi hesabımızdır; tablolar `ek/veri/` klasöründe, özetleri `ek/ajanlar/` klasöründe.
 
 ## 6. Devam notu
 
-- **Bulunan:** ABD'de kapanış sinyali ve 1–3 gün taşımayla, 3.420 önceden yazılı varyant ve 27.351 tarama regresyonu içinde kullanılabilir kural çıkmadı; sonuç 1993–2004 sınavı ve yalnız komisyonlu maliyet senaryosuyla da değişmedi.
-- **Ana dosya:** `raporlar/2026-11-21_abd_kapanis_1-3gun/RAPOR.md`. Yöntem ve ön kayıtlar: `ek/YONTEM.md` (Ek 1 ve Ek 2 dahil).
-- **Sonuç tabloları:** `ek/veri/sonuc_K*.csv` (aile başına), `ek/veri/ek1_*.csv`, `ek/veri/sonuc_ek2_*.csv`, `ek/veri/risk_ve_boyut_tablosu.csv`, `ek/veri/hipotezler.csv`.
-- **Kod:** `ek/kod/motor.py` (testler: `test_motor.py`, `test_denetim.py`), aile betikleri `aile_K*.py`. Veri paneli depoda değil; `ek/kod/BENIOKU.md` içindeki komutlarla yeniden kurulur.
-- **Sırada ne olabilir:** 3.12'deki iki hipotezin ileriye dönük izlenmesi; aracı kurum yanıtlarına göre maliyetin netleştirilmesi; aynı motorun "ABD kapanışı → VİOP" yönünde kullanılması.
+- **Bulunan:** ABD'nin likit ETF ve büyük hisselerinde kapanış sinyali ve 1–3 gün taşımayla kullanılabilir kural çıkmadı (3.420 önceden yazılı varyant, 27.351 tarama regresyonu); sonuç 1993–2004 sınavı ve yalnız komisyonlu maliyet senaryosuyla değişmedi.
+- **Ana dosya:** `raporlar/2026-11-21_abd_kapanis_1-3gun/RAPOR.md`. Yöntem ve ön kayıtlar: `ek/YONTEM.md` (Sapmalar, Ek 1, Ek 2).
+- **Sonuç tabloları:** `ek/veri/sonuc_K*.csv` (aile başına), `ek1_*.csv`, `sonuc_ek2_*.csv`, `risk_ve_boyut_tablosu.csv`, `hipotezler.csv`. Özetler ve eleştiriler: `ek/ajanlar/`, doğrulama: `ek/dogrulama/`.
+- **Kod:** `ek/kod/motor.py` (testler `test_motor.py`, `test_denetim.py`), aile betikleri `aile_K*.py`. Veri paneli depoda değil; `ek/kod/BENIOKU.md` içindeki komutlarla yeniden kurulur.
+- **Sırada ne olabilir:** 3.12'deki iki hipotezin ileriye dönük izlenmesi; aracı kurum yanıtlarına göre maliyetin netleştirilmesi; ABD verisinden VİOP'a yeni kural aranması (önceki çalışmada yalnız rafineriler → TUPRS kalmıştı).
 
-<!--MALIYET-->
+**Maliyet özeti:** Seviye L+ (onaylı) · 51 alt ajan başlatıldı: 7 fable (yöntem denetimi, hesap motoru, kod denetimi, sistematik tarama, 1993–2004 sınavı, 2 eleştirmen), 34 opus (veri 2, araştırma 12, backtest 9, doğrulama 9, maliyet duyarlılığı 2), 10 sonnet (ilk iki dalga; "opusun altına düşme" talimatından önce başlatıldı, 3'ü yarıda durduruldu) · 5 üretim dalgası (ilki yanlış hedefliydi ve durduruldu), ayrıca doğrulama ve eleştiri · üretici sayısı L+ tavanında (36) · kontrol noktasını geçenler: 12 opus araştırma ajanının 11'i (36–49 çağrı; karara etki eden boşluklar kapanana kadar), ek veri ajanı (42/40), bir vergi doğrulayıcısı (51/40) · aşılan sınır yok.
