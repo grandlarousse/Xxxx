@@ -4,59 +4,77 @@
 
 Yatırım tavsiyesi değildir. Buradaki sayılar geçmiş veriye dayanır; gelecekte aynı sonucu vermeyebilir. Kaldıraçlı ürünlerde tek günde paranın üçte biri kaybedilebilir.
 
-Sık geçen terimler: **bps** (baz puan) yüzde birin yüzde biridir, 100 bps = %1. **ETF** borsada hisse gibi alınıp satılan fondur. **VIX** S&P 500 opsiyonlarından hesaplanan korku endeksidir. **Alfa** burada "sinyal günlerinde alınca, aynı aracı rastgele bir günde almaya göre fazladan kazanılan" demektir.
+Sık geçen terimler:
+- **bps** (baz puan): yüzde birin yüzde biri. 100 bps = %1.
+- **ETF:** borsada hisse gibi alınıp satılan fon.
+- **VIX:** S&P 500 opsiyonlarından hesaplanan korku endeksi. 20'nin altı sakin, 30'un üstü stres sayılır.
+- **Alfa:** sinyal günlerinde alınca, aynı aracı rastgele bir günde almaya göre fazladan kazanılan getiri.
+- **IBS:** kapanışın gün aralığındaki yeri. (kapanış − en düşük) / (en yüksek − en düşük). 0'a yakınsa gün dibinde, 1'e yakınsa zirvesinde kapanmış demektir.
 
 ## 1. Kısa yanıt
 
-1. **Araç:** Bu iş için doğru araçlar tek hisseler değil, likit yarı iletken ve teknoloji ETF'leri: SMH, SOXX, QQQ. Gaz pedalı olarak bunların 3 katlı kaldıraçlıları: SOXL ve TQQQ. Tek hisselerde (NVDA, AMD, MU ve diğerleri) test ettiğimiz hiçbir kural maliyetten sonra para bırakmadı.
-2. **Yöntem:** Önceden tanımlanmış 61 testten, çürütme turundan sonra tek bir kural ayakta kaldı: **VIX 30'un üstündeyken, günün dibine yakın kapanan endeks ETF'ini kapanışta al, 1–2 gün tut.** Tarihsel sonuç işlem başına yaklaşık +%1 (SOXL'da yaklaşık +%3); 18 stres döneminin 17'sinde artı.
-3. **Sakin piyasada bu kural da çalışmıyor:** VIX 20'nin altındayken kazanç sıfır. Yılda ortalama birkaç işlem çıkar ve hepsi kriz dönemlerine yığılır.
-4. **Lead-lag (öncül–takipçi):** 27 test ve 84 kombinasyonluk taramadan hiçbiri geçmedi. Liderin bilgisi aynı gün ya da ertesi açılışta fiyatlanıyor; kapanışta alan birine bir şey kalmıyor.
-5. **"Ciddi kazanç" sinyal bolluğundan değil, kaldıraç ve rejimden geliyor;** bedeli de büyük: aynı kural 19 Kasım'da SOXL'da sinyal verdi ve ertesi gün −%32 yazdı.
-6. **Şu an:** VIX 35,9 ve cuma kapanışında kural altı ETF'in hepsinde açıktı. Bu, kuralın tarihsel olarak en çok kazandırdığı ama en sert kayıpların da görüldüğü bölge.
+1. **Araç:** Bu iş için doğru araçlar likit ETF'ler: SMH, SOXX, QQQ; kaldıraç istenirse SOXL ve TQQQ. Tek hisselerde (NVDA, AMD, MU ve diğerleri) sınadığımız hiçbir kural maliyetten sonra para bırakmadı.
+2. **Yöntem:** Önceden kayıtlı 61 testten yalnız biri bütün ölçütlerden geçti: endeks ETF'i günün dibine yakın kapanınca kapanışta al, ertesi kapanışta sat. Çürütme turu, bu kazancın sakin günlerde olmadığını ve asıl olarak VIX'in 35'i aştığı aşırı stres günlerinden geldiğini gösterdi.
+3. **Beklenti:** VIX 30'un üstündeki günlerde tarihsel ortalama işlem başına yaklaşık +%1; temkinli beklenti +%0,55–0,6. Üç işlemden biri zararla kapandı. 17 yılın 9'unda hiç sinyal çıkmadı.
+4. **Lead-lag (öncül–takipçi):** 27 test ve 84 kombinasyonluk taramadan hiçbiri geçmedi. Liderin bilgisi aynı gün ya da ertesi açılışta fiyatlanıyor.
+5. **"Ciddi kazanç":** Güvenli boyutla bu kural yılda yaklaşık 1 puan ekler. Daha fazlası ancak tek günde sermayenin %10'unu ve üstünü kaybetmeyi göze alan kaldıraçlı boyutla gelir; o noktada kazancın kaynağı sinyal değil, alınan piyasa riskidir.
+6. **Şu an:** VIX 35,9. Cuma kapanışında kuralın koşulları sağlanıyordu; o giriş geçti. Pazartesi açılışta almak sınanmış bir kural değil.
 
 ## 2. Ne yapmalıyım
 
-**Adım 1 — Tek kuralı öğren ("stres günü dip kapanışı").**
+**Adım 1: Tek kural: aşırı stres günü dip kapanışı.**
 
-- Koşul 1: VIX 30 ya da üstü (kapanışa 10 dakika kala bak).
-- Koşul 2: Aracın o günkü kapanışı, günün en düşüğü ile en yükseği arasındaki aralığın alt beşte birinde. Ölçüsü IBS: (kapanış − en düşük) / (en yüksek − en düşük). IBS 0,2'nin altındaysa koşul sağlanır.
-- Araç: SMH ya da QQQ. Daha saldırgan istersen SOXL ya da TQQQ (aşağıdaki boyut sınırıyla).
-- Giriş: kapanıştan önceki son dakikalar (Türkiye saatiyle kışın 23:55–23:59), limit emirle.
-- Çıkış: ertesi günün kapanışı ya da ikinci günün kapanışı. **Ertesi sabah açılışta satma:** kazancın büyük kısmı açılıştan sonra geliyor. Üçüncü gün ortalamada bir şey eklemiyor.
+- Koşul 1: VIX 30 ya da üstü. Asıl etki 35 ve üstünde (Adım 2).
+- Koşul 2: IBS 0,2'nin altında, yani araç gün aralığının alt beşte birinde kapanıyor.
+- Araç: SMH ya da QQQ. Kaldıraçlı istersen SOXL ya da TQQQ, Adım 3'teki sınırla. Aynı anda yalnız bir araç.
+- Giriş: kapanıştan önceki son dakikalar, limit emirle. Emir dolmazsa işlem yok; fiyatı kovalama.
+- Çıkış: ertesi işlem gününün kapanışı. Ertesi sabah açılışta satma: stres günlerinde ortalama kazancın dörtte üçü açılıştan sonra geldi. İkinci gün tutmak isteğe bağlı; kanıtı zayıf (4.3).
 
-**Adım 2 — VIX'e göre davran.**
+**Adım 2: VIX'e göre davran.** Altı ETF'te, dipte kapanıştan sonraki bir günlük alfa:
 
-| VIX | Ne yap | Geçmişte işlem başına alfa (6 ETF havuzu) |
-|---|---|---|
-| 30 ve üstü | Kural geçerli | +98 bps (445 işlem, 18 dönem) |
-| 20–30 | İsteğe bağlı, küçük boyutla; kanıt zayıf | +23 bps (1.383 işlem) |
-| 20'nin altı | Bu kuralla işlem yapma | ≈ 0 (2.522 işlem) |
+| VIX | Ne yap | Geçmiş alfa | Gün sayısı |
+|---|---|---|---|
+| 20'nin altı | İşlem yok | ≈ 0 | 888 |
+| 20–30 | Kural sayma | +8 ile +29 bps, tutarsız | 348 |
+| 30–35 | Küçük boyut ya da pas | +23 bps, şanstan ayırt edilemiyor | 60 |
+| 35 ve üstü | Kuralın asıl alanı | +210 bps | 41 |
 
-**Adım 3 — Boyutu en kötü güne göre seç.** Tek işlemde sermayenin %3'ünden fazlasını kaybetmemek için, 2023'ten beri görülen en kötü tek güne göre üst sınırlar:
+**Adım 3: Boyutu en kötü iki güne göre seç.** Tek işlemde sermayenin %3'ünden fazlasını kaybetmemek için, 2010'dan beri görülen en kötü iki günlük harekete göre üst sınırlar:
 
-| Araç | En kötü tek gün | Pozisyon üst sınırı (sermayenin yüzdesi) |
-|---|---|---|
-| QQQ | −%6,5 | %45 |
-| SMH | −%11,2 | %27 |
-| TQQQ | −%18,9 | %16 |
-| SOXL | −%38,7 | %8 |
+| Araç | En kötü 1 gün | En kötü 2 gün | Pozisyon üst sınırı |
+|---|---|---|---|
+| QQQ | −%12,0 | −%13,1 | sermayenin %23'ü |
+| SMH | −%14,4 | −%15,5 | %19 |
+| TQQQ | −%34,5 | −%36,7 | %8 |
+| SOXL | −%38,7 | −%46,3 | %6 |
 
-SOXL için backtest %33 pozisyonla da koşuldu: yıllık bileşik %12,8, en büyük düşüş −%18. Ama 20 Kasım gibi bir günde %33 pozisyon tek seferde sermayenin yaklaşık %10,5'ini götürür.
+Bu sınırlar toplam içindir: dört araç aynı bahistir, aynı anda yalnız birini kullan. Bu boyutlarla kuralın geçmişteki katkısı yılda yaklaşık 1 puan (SMH %19 ile +1,1; SOXL %6 ile +1,0). SOXL'u %33'e çıkarırsan katkı yılda yaklaşık 5 puana çıkar, ama 20 Kasım gibi bir gün tek seferde sermayenin %10,5'ini götürür.
 
-**Adım 4 — Bunları yapma (hepsi test edildi, sonuç olumsuz ya da anlamsız):**
+**Adım 4: Risk kuralları** (test sonucu değil, disiplin):
 
-- Bilanço öncesi alıp tepki günü satma. Eskiden çalışıyordu, 2023'ten beri etkisi yok; 2026'da işlem başına −88 bps.
-- Bilanço sonrası %5'ten fazla düşeni alma: net −45 bps.
-- Lider hisse yükseldi diye takipçisini alma, Asya kapanışına bakarak ABD'de alma, Bitcoin yükseldi diye madenci alma.
-- Sert yükseliş gününün kapanışında alma. Alım için hiçbir kanıt yok; geçmişte ertesi gün ortalama −40 bps.
-- "Üç gün üst üste düştü, alayım", RSI(2), 20 günlük zirve kırılımı, ay sonu ve FOMC öncesi alımları: hiçbiri testten geçmedi.
+- Önceden bir toplam kayıp sınırı belirle (örneğin sermayenin %10'u); aşılınca dur.
+- Cuma girişi pazartesi kapanışına kadar taşınır; hafta sonu haberi açılışta fiyatlanır.
+- Piyasa −%7, −%13 ve −%20'de durdurulur; o günlerde istediğin an çıkamayabilirsin.
+- Stres günlerinde SOXL işlemlerinin onda biri tek günde %10'dan fazla kaybetti; en kötüsü −%23,5.
 
-**Adım 5 — Aracı kurumu maliyete göre seç.** Kural yalnız işlem başı sabit ücretli kurumda (ör. işlem başı 1,5 $) çalışır. Oransal komisyonlu kurumlarda (gidiş-dönüş 50–60 bps) SOXL'un stres günleri dışındaki her şey zarara döner. İşlem yapmadan önce kurumuna iki şeyi sor: SOXL ve TQQQ alınabiliyor mu, kapanış müzayedesi emri (MOC) verilebiliyor mu. İkisini de doğrulayamadık.
+**Adım 5: Bunları yapma** (hepsi sınandı):
 
-**Adım 6 — Günlük kontrol.** `kod/sinyal.py` kapanıştan sonra, `--saat 1530` seçeneğiyle kapanıştan yarım saat önce çalışır; VIX'i, IBS'leri ve açık kuralları yazar. 15:30 fiyatıyla verilen sinyal, kapanışla verilenin kazancının yaklaşık dörtte üçünü yakaladı.
+- Bilanço öncesi alıp tepki günü satma. 2023'ten beri etkisi yok; 2026'da işlem başına −88 bps.
+- Bilanço sonrası %5'ten fazla düşeni alma: maliyet sonrası −45 bps.
+- Lider yükseldi diye takipçisini alma; Asya kapanışına bakarak ABD'de alma; Bitcoin yükseldi diye madenci alma.
+- Sert yükseliş gününün kapanışında alma: alım için kanıt yok.
+- "Üç gün üst üste düştü", RSI(2), 20 günlük zirve kırılımı, ay sonu ve Fed toplantısı öncesi alımları: hiçbiri geçmedi.
 
-**Adım 7 — Önce kâğıt üstünde izle.** Kural yılda birkaç kez ve hep en gergin günlerde çalışır. İlk birkaç sinyali gerçek para koymadan ya da çok küçük boyutla izlemek, hem emir verebildiğini hem de o günlerdeki fiyat makasını görmeni sağlar.
+**Adım 6: Aracı kurum.** Kural yalnız işlem başı sabit ücretli kurumda çalışır (ör. işlem başı 1,5 $). Oransal komisyonlu kurumlarda gidiş-dönüş 50–60 bps tutar; beklenen kazancın yarısından fazlası gider. İşlemden önce kurumuna sor: SOXL ve TQQQ alınabiliyor mu, kapanış müzayedesi emri (MOC) var mı. İkisini de doğrulayamadık.
+
+**Adım 7: Uygulama, telefonla.**
+
+- Saat: kışın Türkiye saatiyle 23:50'de bak, 23:55–23:59 arasında emir ver. Erken kapanış günlerinde (27 Kasım, 24 Aralık) 20:50 ve 20:55–20:59.
+- VIX: Yahoo Finance ya da Cboe sayfasında ^VIX. Resmî kapanışı 16:15 ET'de (00:15) belli olur ve ücretsiz kaynaklar gecikmeli olabilir. Bu yüzden iki yoldan birini kullan: 23:50'deki değer, ya da dünkü kapanış. "Dünkü VIX 30'un üstünde" koşulu da sınandı ve sonuç benzer çıktı (+144 bps, 315 işlem).
+- IBS: aracın o günkü en yüksek, en düşük ve son fiyatını al; (son − en düşük) / (en yüksek − en düşük). 0,15–0,25 arasındaysa kapanışta değişebilir. Yarım saat önce verilen sinyallerin üçte ikisi kapanışta da geçerliydi (bütün günler; stres günleri ayrıca sınanamadı).
+- Bilgisayarda: `kod/sinyal.py` aynı hesabı yapar ve kuralın açık olup olmadığını yazar.
+
+**Adım 8: Önce kâğıt üstünde izle.** Kural yılda birkaç kez ve hep en gergin günlerde çalışır. İlk sinyallerde gerçek para koymadan emir verebildiğini ve o günkü fiyat makasını gör.
 
 ## 3. Araçlar: hangi ETF ve hisseler
 
@@ -67,161 +85,178 @@ Hacim ve oynaklık kendi hesabımızdır (Yahoo verisi, son 60 işlem günü). "
 | Kod | Ne | Günlük hacim | Günlük oynaklık | En kötü gün | Not |
 |---|---|---|---|---|---|
 | SMH | Yarı iletken ETF'i | 4,4 mr $ | %3,2 | −%11,2 | Gider %0,35; ~61 mr $. Ana araç |
-| SOXX | Yarı iletken ETF'i | 4,4 mr $ | %3,6 | −%12,2 | Gider %0,33–0,34; 31 mr $ |
+| SOXX | Yarı iletken ETF'i | 4,4 mr $ | %3,6 | −%12,1 | Gider %0,33–0,34; 31 mr $ |
 | QQQ | Nasdaq-100 | 25,4 mr $ | %1,7 | −%6,5 | En likit, en sakin |
-| DRAM | Bellek ETF'i (aktif) | 1,7 mr $ | %4,9 | −%18,0 | Nisan 2026'da açıldı; gider %0,65; 12,6 mr $. Geçmişi kısa, test edilemedi |
+| DRAM | Bellek ETF'i (aktif) | 1,7 mr $ | %4,9 | −%18,0 | Nisan 2026'da açıldı; gider %0,65; 12,6 mr $. Geçmişi kısa, sınanamadı |
 | SOXL | 3× yarı iletken | 9,6 mr $ | %11,0 | −%38,7 | Gider %0,75; zirveden −%90 |
 | TQQQ | 3× Nasdaq-100 | 4,1 mr $ | %5,0 | −%18,9 | Zirveden −%53 |
-| USD | 2× yarı iletken | 0,05 mr $ | %6,4 | −%27,5 | Hacmi düşük, makası geniş olabilir |
+| USD | 2× yarı iletken | 0,05 mr $ | %6,3 | −%27,5 | Hacmi düşük |
 | TECL | 3× teknoloji | 0,11 mr $ | %6,4 | −%23,9 | Hacmi düşük |
 | NVDL | 2× Nvidia | 0,35 mr $ | %6,0 | −%33,8 | Gider %1,05 |
-| AMDL | 2× AMD | 0,14 mr $ | %11,1 | −%34,9 | Geçmişi kısa |
+| AMDL | 2× AMD | 0,14 mr $ | %11,0 | −%34,9 | Geçmişi kısa |
 | MUU | 2× Micron | 0,66 mr $ | %9,5 | −%34,4 | Gider %1,01 |
-| SOXS / SQQQ | −3× ters ürünler | 3,0 / 1,9 mr $ | %11,1 / %5,1 | −%56 / −%35 | Düşüş beklentisi için; kural olarak test edilmedi |
+| SOXS, SQQQ | −3× ters ürünler | 3,0 ve 1,9 mr $ | %11,1 ve %5,1 | −%56 ve −%35 | Düşüş beklentisi için; sınanmadı |
 
-Tek hisse 2× ürünler başka hisselerde de var: Broadcom (AVGX), TSMC (TSMX, TSMG), Marvell (MVLL), SK hynix (SKHX, SKHU, SKHL ve diğerleri). Gider oranları %0,75–1,5 arasında. 2026'da en az 20 kaldıraçlı ürün kapatıldı; küçük fonlarda bu risk gerçek.
+Tek hisse 2× ürünler başka hisselerde de var: Broadcom (AVGX), TSMC (TSMX, TSMG), Marvell (MVLL), SK hynix (SKHX, SKHU, SKHL ve diğerleri). Gider oranları %0,75–1,5. 2026'da en az 20 kaldıraçlı ürün kapatıldı; küçük fonlarda bu risk gerçek.
 
 ### 3.2 Hisseler
 
-| Kod | İş | Günlük hacim | Günlük oynaklık | En kötü gün | Sıradaki takvimli olay |
-|---|---|---|---|---|---|
-| NVDA | GPU lideri | 26,1 mr $ | %3,0 | −%17,0 | Bilanço geçti (17 Kas); CEO ve SEC haberleri |
-| AMD | GPU ve işlemci | 12,1 mr $ | %5,5 | −%17,3 | — |
-| AVGO | Özel yapay zekâ çipi | 8,5 mr $ | %3,5 | −%17,4 | Bilanço 9 Ara, kapanış sonrası |
-| TSM | Dökümhane | 4,6 mr $ | %3,0 | −%13,3 | Kasım geliri 10 Ara |
-| MRVL | Özel çip, optik | 4,7 mr $ | %5,6 | −%19,8 | Bilanço 1 Ara, kapanış sonrası |
-| LRCX | Çip ekipmanı | 2,6 mr $ | %4,7 | −%16,4 | — |
-| AMAT | Çip ekipmanı | 2,8 mr $ | %4,3 | −%14,1 | — |
-| INTC | İşlemci, dökümhane | 9,4 mr $ | %5,8 | −%28,6 | — |
-| MU | Bellek (DRAM, HBM) | 23,8 mr $ | %4,8 | −%17,5 | Bilanço 17 Ara, 16:30 ET |
-| SNDK | Flaş bellek (NAND) | 12,5 mr $ | %6,1 | −%22,3 | 19 Kas'ta 8'e 1 bölündü |
-| WDC | Sabit disk | 2,9 mr $ | %5,0 | −%18,3 | — |
-| STX | Sabit disk | 3,1 mr $ | %5,1 | −%16,4 | — |
-| SKHY | SK hynix ADR'si | 3,0 mr $ | %5,1 | −%13,7 | Temmuz 2026'dan beri işlemde |
-| ANET | Veri merkezi ağı | 1,0 mr $ | %4,1 | −%22,4 | — |
-| CRDO | Bağlantı çipleri | 1,3 mr $ | %6,8 | −%46,8 | Bilanço 1 Ara, kapanış sonrası |
-| CIEN | Optik ağ | 1,0 mr $ | %6,0 | −%21,0 | Bilanço 10 Ara, açılış öncesi |
-| VRT | Güç ve soğutma | 1,3 mr $ | %5,1 | −%29,9 | — |
-| DELL | Yapay zekâ sunucusu | 3,3 mr $ | %5,7 | −%19,0 | Bilanço 24 Kas |
-| ORCL | Bulut altyapısı | 4,0 mr $ | %4,1 | −%13,8 | Bilanço 10–14 Ara (resmî değil) |
-| CRWV | GPU bulutu | 2,8 mr $ | %6,6 | −%20,8 | — |
-| NBIS | GPU bulutu | 3,3 mr $ | %6,7 | −%37,4 | — |
-| IREN | Madencilikten yapay zekâya | 1,5 mr $ | %6,8 | −%24,3 | — |
-| PLTR | Yapay zekâ yazılımı | 4,1 mr $ | %3,2 | −%15,1 | — |
-| ANT | Anthropic | — | — | — | 19 Kas'ta halka arz oldu; 2 günlük veri var, ölçülemez |
+Hepsinin günlük hacmi yaklaşık 1 milyar $ ve üstü. En likitler: NVDA 26, MU 24, SNDK 12,5, AMD 12 milyar $.
 
-Bu hisseler aynı anda düşer. Son bir yılın verisiyle çekirdek çip hisseleri, SMH ve SOXL tek bir küme oluşturuyor; bellek ve disk (MU, SNDK, WDC, STX) kendi içinde 0,79 korelasyonla ikinci küme. Beş ayrı çip hissesi almak beş ayrı bahis değil, tek bahistir.
+| Kod | İş | Günlük oynaklık | En kötü gün | Sıradaki takvimli olay |
+|---|---|---|---|---|
+| NVDA | GPU lideri | %3,0 | −%17,0 | Bilanço geçti; CEO ve SEC haberleri |
+| AMD | GPU ve işlemci | %5,5 | −%17,3 | — |
+| AVGO | Özel yapay zekâ çipi | %3,5 | −%17,4 | Bilanço 9 Ara, kapanış sonrası |
+| TSM | Dökümhane | %3,0 | −%13,3 | Kasım geliri 10 Ara |
+| MRVL | Özel çip, optik | %5,6 | −%19,8 | Bilanço 1 Ara, kapanış sonrası |
+| LRCX | Çip ekipmanı | %4,7 | −%16,4 | — |
+| AMAT | Çip ekipmanı | %4,3 | −%14,1 | — |
+| INTC | İşlemci, dökümhane | %5,8 | −%28,6 | — |
+| MU | Bellek (DRAM, HBM) | %4,8 | −%17,5 | Bilanço 17 Ara, 16:30 ET |
+| SNDK | Flaş bellek (NAND) | %6,1 | −%22,3 | 19 Kas'ta 8'e 1 bölündü |
+| WDC | Sabit disk | %5,0 | −%18,3 | — |
+| STX | Sabit disk | %5,1 | −%16,4 | — |
+| SKHY | SK hynix ADR'si | %5,1 | −%13,7 | Temmuz 2026'dan beri işlemde |
+| ANET | Veri merkezi ağı | %4,1 | −%22,4 | — |
+| CRDO | Bağlantı çipleri | %6,7 | −%46,8 | Bilanço 1 Ara, kapanış sonrası |
+| CIEN | Optik ağ | %6,0 | −%21,0 | Bilanço 10 Ara, açılış öncesi |
+| VRT | Güç ve soğutma | %5,1 | −%29,9 | — |
+| DELL | Yapay zekâ sunucusu | %5,7 | −%19,0 | Bilanço 24 Kas |
+| ORCL | Bulut altyapısı | %4,1 | −%13,8 | Bilanço 10–14 Ara (resmî değil) |
+| CRWV | GPU bulutu | %6,6 | −%20,8 | — |
+| NBIS | GPU bulutu | %6,7 | −%37,4 | — |
+| IREN | Madencilikten yapay zekâya | %6,8 | −%24,3 | — |
+| PLTR | Yapay zekâ yazılımı | %3,2 | −%15,1 | — |
+| ANT | Anthropic | — | — | 19 Kas'ta halka arz oldu; 2 günlük veri, ölçülemez |
 
-Tek hisselerde neden kural çıkmadı: günlük oynaklığı %3,6 olan bir hissede 100 işlemle ancak 100 bps'lik bir kenar ayırt edilebiliyor. Daha küçük kenarlar gürültüden ayrılamıyor, ayrılabilenleri de 20–40 bps'lik maliyet yiyor.
+Bu hisseler aynı anda düşer. Çekirdek çip hisseleri, SMH ve SOXL tek bir küme; bellek ve disk (MU, SNDK, WDC, STX) kendi içinde 0,79 korelasyonla ikinci küme. Beş ayrı çip hissesi almak beş ayrı bahis değil, tek bahistir.
+
+Tek hisselerde neden kural çıkmadı: günlük oynaklığı %3,6 olan bir hissede 100 işlemle ancak 100 bps'lik bir kenar ayırt edilebiliyor. Daha küçük kenarlar gürültüden ayrılamıyor; ayrılabilenleri de 20–40 bps'lik maliyet yiyor.
 
 ### 3.3 Kaldıraçlı ETF'i 1–3 gün taşımak
 
-- Fon kaldıracını her gün kapanışta sıfırlar. **Bir günlük taşımada** endeksin günlük getirisinin tam 3 katını alırsın; sapma yok.
-- **İki ve üç günde** sapma başlar: piyasa yön değiştirirse eksi, aynı yönde giderse artı. Endeks +%5 sonra −%5 yaparsa endeks −%0,25'te, 3× fon −%2,25'tedir.
-- Endeks tek günde %33'ten fazla düşerse 3× fonun değeri sıfıra iner; SOXL izahnamesi bunu açıkça yazıyor. 5 Kasım'da SOX −%12,25 düştü; bu, kayıtlardaki en kötü ikinci gündü.
-- Kaldıraçlı fonlar düşüş gününde kapanışa doğru satmak zorundadır. 20 Kasım için SOXL'un tek başına yaklaşık 10–15 milyar $ sattığını hesapladık (kendi hesabımız). Bunun ertesi gün geri döndüğüne dair akademik kanıt bölünmüş durumda.
+- Fon kaldıracını her gün kapanışta sıfırlar. Bir günlük taşımada endeksin günlük getirisinin tam 3 katını alırsın; sapma yok.
+- İki ve üç günde sapma başlar: piyasa yön değiştirirse eksi, aynı yönde giderse artı. Endeks +%5 sonra −%5 yaparsa endeks −%0,25'te, 3× fon −%2,25'tedir.
+- Endeks tek günde %33'ten fazla düşerse 3× fonun değeri sıfıra iner; SOXL izahnamesi bunu açıkça yazıyor. 5 Kasım'da SOX −%12,25 düştü: kayıtlardaki en kötü ikinci gün.
+- Kaldıraçlı fonlar düşüş gününde kapanışa doğru satmak zorundadır. Bunun ertesi gün geri döndüğüne dair akademik kanıt bölünmüş durumda.
 
-## 4. Yöntemler: ne test edildi, ne kaldı
+## 4. Yöntemler: ne sınandı, ne kaldı
 
-### 4.1 Nasıl test ettik
+### 4.1 Nasıl sınadık
 
-- **Veri:** 140 kodun 2010'dan 20 Kasım 2026'ya günlük fiyatları, 95 kodun son iki yıllık saatlik fiyatları.
+- **Veri:** 140 kodun 2010'dan 20 Kasım 2026'ya günlük fiyatları; 95 kodun son iki yıllık saatlik fiyatları.
 - **Kural:** Sinyal kapanışta bilinir, alım kapanışta yapılır, satış 1–3 gün sonraki kapanışta.
-- **Önceden kayıt:** Hesaplardan önce 61 test, parametreleriyle birlikte yazıldı; sonradan eşik oynatmak yasaktı. Çoklu test düzeltmesi (61 testi birlikte değerlendiren Benjamini-Hochberg yöntemi) uygulandı.
-- **Seçim yanlılığı:** Hisse listesi bugünün kazananlarından oluşuyor. Bu yüzden her sinyal, aynı aracın kendi ortalamasına göre ölçüldü ve ana sınama alanı olarak altı geniş ETF kullanıldı (SMH, SOXX, QQQ, XLK, SPY, IWM).
-- **Maliyet:** Gidiş-dönüş 10 bps (dev hisseler ve büyük ETF'ler), 20 bps (orta), 40 bps (küçük).
-- **Doğrulama:** Ayakta kalanları ikinci bir kodlayıcı yalnız protokol metninden sıfırdan yazdı; üçüncü bir kodlayıcı çürütmeye çalıştı.
+- **Önceden kayıt:** Hesaplardan önce 61 test parametreleriyle yazıldı; sonradan eşik oynatmak yasaktı. 61 test birlikte değerlendirildi (çoklu test düzeltmesi).
+- **Seçim yanlılığı:** Hisse listesi bugünün kazananlarından oluşuyor. Bu yüzden her sinyal aracın kendi ortalamasına göre ölçüldü ve ana sınama alanı altı geniş ETF oldu: SMH, SOXX, QQQ, XLK, SPY, IWM.
+- **Maliyet:** Gidiş-dönüş 10 bps (dev hisseler, büyük ETF'ler), 20 bps (orta), 40 bps (küçük).
+- **Doğrulama:** İkinci bir kodlayıcı ayakta kalanları yalnız protokol metninden sıfırdan yazdı. Üçüncüsü çürütmeye çalıştı. Bir eleştirmen taslağa itiraz etti.
 
 ### 4.2 Karar tablosu
 
-| Kural | İlk sonuç (alfa, t) | Çürütmeden sonra | Karar |
-|---|---|---|---|
-| Dipte kapanış (IBS < 0,2), VIX ≥ 30, ETF | +98 bps, t 3,1 | Ayakta: 17/18 dönem artı; 2020 hariç +72 | **Kullanılabilir (koşullu)** |
-| Dipte kapanış, bütün günler, ETF | +17 bps, t 3,1 | Zayıfladı: stres dışında +8 bps, maliyetin altında | Sakin piyasada kullanılamaz |
-| Dipte kapanış, tek hisseler | +14 bps, t 2,5 | Maliyet sonrası −3 bps | Kullanılamaz |
-| Üç gün üst üste düşük kapanış, ETF | +19 bps, t 2,6 | Çürüdü: başka ETF'lerde +5; en iyi 20 gün çıkınca 0 | Kullanılamaz |
-| SOX −%3 ve altı gününde SMH al | +43 bps, t 2,1 | Çürüdü: 2020 dışında ayırt edilemiyor | Ayrı kural değil |
-| Bilanço öncesi al, tepki günü sat | +58 bps, t 3,0 | Çürüdü: 2023'ten beri +14 (t 0,3); 2026 −88 | Kullanılamaz |
-| Lead-lag, 27 test | En iyisi bile alımda ≈ 0 | — | Kullanılamaz |
-| RSI(2), kırılım, göreli değer, VIX sıçraması, ay sonu, FOMC öncesi | Hepsinde t < 2 | — | Kullanılamaz |
-
-### 4.3 Ayakta kalan kural: stres günü dip kapanışı
-
-**Kazanç nereden geliyor.** Altı ETF'te IBS < 0,2 sonrası ertesi gün alfası, VIX düzeyine göre:
-
-| VIX | İşlem sayısı | Alfa (bps) |
+| Kural | Sonuç | Karar |
 |---|---|---|
-| 15'in altı | 1.023 | +2 |
-| 15–20 | 1.499 | −2 |
-| 20–30 | 1.383 | +23 |
-| 30 ve üstü | 445 | +98 |
+| ETF dipte kapanınca al (IBS < 0,2), bütün günler | +17 bps, t 3,1; bütün ölçütlerden geçti. Çürütme: kazanç yüksek VIX günlerinden | Yalnız VIX 30 üstünde kullan |
+| Aynı kural, tek hisseler | Brüt +14 bps; maliyet sonrası −3 | Kullanılamaz |
+| Üç gün üst üste düşük kapanış | +19 bps; başka ETF'lerde +5; en iyi 20 gün çıkınca 0 | Çürüdü |
+| SOX −%3 ve altı gününde SMH al | +43 bps; 2020 dışında ayırt edilemiyor | Ayrı kural değil |
+| Bilanço öncesi al, tepki günü sat | +58 bps; 2023'ten beri +14; 2026'da −88 | Çürüdü |
+| Lead-lag, 27 test | En iyisi bile alımda ≈ 0 | Kullanılamaz |
+| RSI(2), kırılım, göreli değer, VIX sıçraması, ay sonu, Fed öncesi | Hepsinde t < 2 | Kullanılamaz |
 
-**IBS gerçekten bir şey katıyor mu.** Evet. Aynı stres günlerinde dibe yakın kapanmayan ETF'i almak ortalama −9 bps verdi; streste koşulsuz almak +27 bps (t 1,3). Yani kazanç "stres günü al"dan değil, "stres günü dibe yakın kapananı al"dan geliyor.
+### 4.3 Ayakta kalan kural, ayrıntı
 
-**Kaç gün tutmalı.** Stres günlerinde aynı girişin farklı çıkışları:
+**Kazanç nereden geliyor.** Altı ETF'te dipte kapanıştan sonraki bir günlük alfa:
 
-| Çıkış | Alfa (bps) |
+| VIX | İşlem | Gün | Alfa (bps) |
+|---|---|---|---|
+| 15'in altı | 1.023 | 407 | +2 |
+| 15–20 | 1.499 | 481 | −2 |
+| 20–25 | 956 | 249 | +29 |
+| 25–30 | 427 | 99 | +8 |
+| 30–35 | 266 | 60 | +23 |
+| 35 ve üstü | 179 | 41 | +210 |
+
+Desen düzgün değil: 20–25 arasında küçük ama düzenli bir artı var, 25–35 arasında sıfırdan ayırt edilemiyor, 35 üstünde sıçrıyor. Sınama evreninin dışındaki 9 ABD ETF'inde de aynı: 30'un altında sıfır, 30–35 arasında −5, 35 üstünde +152 bps.
+
+**VIX 30 üstü, toplu bakış:**
+
+| Ölçü | Değer |
 |---|---|
-| Ertesi açılış | +24 |
-| 1. gün kapanışı | +98 |
-| 2. gün kapanışı | +139 |
-| 3. gün kapanışı | +143 |
+| İşlem ve gün sayısı | 445 işlem, 101 gün |
+| Ortalama alfa | +98 bps |
+| Temkinli tahmin (genel ortalamaya büzülmüş) | +56 bps |
+| Belirsizlik aralığı (%90) | +56 ile +147 bps |
+| Kârlı işlem oranı | %65 |
+| En kötü işlem | −%10,6 |
+| Sinyal çıkan dönem | 18 (VIX'in 30'u aştığı 21 dönemden) |
+| Ortalaması artı olan dönem | 17 |
+| 2020 yılı hariç | +72 bps |
+| 2023'ten beri | 2 dönem, 23 işlem, +15 bps, kârlı oran %39 |
+| Evren dışı 9 ABD ETF'inde | +59 bps |
 
-İkinci gün ortalamada ekliyor (medyan +92 bps), üçüncü gün eklemiyor. Açılışta satmak kazancın dörtte üçünü bırakmak demek.
+İşlemlerin yarısı iki dönemden geliyor (2011'in ikinci yarısı ve 2020 ilkbaharı). Tek eksi dönem Nisan 2025: işlem başına −26 bps.
 
-**Dönem dönem.** 2011'den beri VIX'in 30'u aştığı 18 dönemin 17'sinde kural artıdaydı. Tek eksi dönem Nisan 2025 (gümrük vergisi çöküşü): işlem başına −26 bps, iki günde −180. 2020 yılı tümüyle çıkarılınca ortalama +72 bps. En kötü tek işlem −%10,6.
+**IBS bir şey katıyor mu.** Evet. Aynı stres günlerinde dibe yakın kapanmayan ETF'i almak ortalama −9 bps verdi; streste koşulsuz almak +27 bps. Kazanç "stres günü al"dan değil, "stres günü dibe yakın kapananı al"dan geliyor.
 
-**Maliyet ve yürütme.** Stres günlerinde makas açılır. 30 bps maliyet varsayımıyla bile işlem başına +68 bps kalıyor. Kapanışta değil ertesi açılışta alırsan (bütün günler ortalaması) açılıştan kapanışa +11 bps, ikinci kapanışa +20 bps kalıyor.
+**Kaç gün tutmalı.** Aynı girişin farklı çıkışları, stres günlerinde:
 
-**Yıllık getiriye çevirirsek.** Kural bütün günlerde ve altı ETF'te uygulandığında yıllık bileşik net %8 verdi; aynı ETF'leri alıp tutmak %18. Yani bu kural "al-tut'u yener" değil; "zamanın küçük bir kısmında piyasada kalarak, o kısımda ortalamanın üstünde kazanır". Yalnız stres günlerine indirildiğinde işlem sayısı ETF başına yılda ortalama 4–5'e düşer ve hepsi 2011, 2020, 2022 gibi yıllara yığılır.
+| Çıkış | Alfa (bps) | Ortalaması artı olan dönem |
+|---|---|---|
+| Ertesi açılış | +24 | — |
+| 1. gün kapanışı | +98 | 17 / 18 |
+| 2. gün kapanışı | +139 | 14 / 18 |
 
-**Dürüst uyarı.** "VIX ≥ 30" koşulu, önceden tanımlı rejim hücrelerinden biriydi ama 61 birincil testten biri değildi. Önceden kayıtlı olan, kuralın VIX 25 üstü ile altı arasındaki farkıydı; o test eşiğin hemen altında kaldı (t 2,44) ve çürütmede zayıfladı. Dolayısıyla stres kuralı güçlü bir bulgu ama 18 döneme dayanıyor; kesin bir yasa değil.
+İkinci gün ortalamayı yükseltiyor ama katkısı istatistik olarak belirsiz ve eksi dönem sayısını 1'den 4'e çıkarıyor. Varsayılan çıkış bu yüzden ertesi kapanış. Üçüncü gün bir şey eklemiyor.
+
+**Maliyet ve yürütme.** Stres günlerinde makas açılır; 30 bps maliyet varsayımıyla bile işlem başına +68 bps kalıyor. Ölçemediğimiz şey o günlerdeki gerçek makas.
+
+**Bu kuralın sınırı.** "VIX 30 üstü" önceden tanımlı bir rejim hücresiydi ama 61 birincil testten biri değildi; 35 eşiği ise veriye bakıldıktan sonra görüldü. Önceden kayıtlı olan, kuralın VIX 25 üstü ile altı arasındaki farkıydı; o test eşiğin hemen altında kaldı. Yani bu güçlü bir gözlem, kanıtlanmış bir yasa değil; +210 gibi rakamların gelecekte daha düşük çıkmasını bekle.
 
 ### 4.4 Aynı kural kaldıraçla
 
-| | SOXL | TQQQ |
-|---|---|---|
-| Kendi IBS'i < 0,2, bütün günler: alfa | +100 bps (t 3,2; 524 işlem) | +38 bps (t 2,1; 700 işlem) |
-| Stres günlerinde, 1 gün | +309 bps (65 işlem) | — |
-| Stres günlerinde, 2 gün | +438 bps | — |
-| En kötü tek işlem | −%31,9 (19→20 Kas 2026) | −%18,4 (3→4 Nis 2025) |
-| En uzun kayıp serisi | 6 işlem, toplam −%42 | 11 işlem, toplam −%40 |
-| %33 pozisyonla yıllık bileşik | %12,8 | %6,7 |
-| %33 pozisyonla en büyük düşüş | −%18 | −%18 |
+Stres günlerinde (VIX 30 üstü), aracın kendi IBS'iyle, bir gün tutma:
 
-Üç not:
+| | SMH | QQQ | SOXL | TQQQ |
+|---|---|---|---|---|
+| İşlem sayısı (yılda) | 79 (5,0) | 73 (4,6) | 79 (5,0) | 71 (4,5) |
+| Ortalama getiri | +%1,1 | +%1,1 | +%3,2 | +%3,0 |
+| Kârlı işlem oranı | %67 | %63 | %68 | %61 |
+| En kötü onda birlik dilim | −%3,2 | −%2,3 | −%10,0 | −%7,0 |
+| En kötü işlem | −%10,6 | −%6,2 | −%23,5 | −%18,3 |
+
+Dört not:
 
 - SOXL sinyalleri SMH sinyalleriyle aynı günlere düşüyor. Bu bağımsız bir kanıt değil, aynı bahsin 3 katı.
-- Son üç yılda SOXL'un kendisi çok yükseldiği için, aynı sıklıkta rastgele günlerde alan birinin en iyi %5'lik sonucu (%60) bu kuralın sonucunu (%46) geçiyor. Yani 2023 sonrasında kuralın katkısı şanstan ayırt edilemiyor; tam dönemde ediliyor.
-- 2026 bu kuralın SOXL'da iki yüzünü de gösterdi: 5 Kasım kapanışında alan ertesi gün +%12,5 kazandı; 19 Kasım kapanışında alan ertesi gün −%31,8 kaybetti. 13–20 Kasım haftasında SOXL ve TQQQ'daki dört işlemin (ikişer tane) toplamı −%49.
+- Kuralın VIX koşulsuz hâli (bütün günler) SOXL'da işlem başına +100 bps alfa verdi (%90 aralık +49 ile +153; 524 işlem). Ama en kötü işlemi de orada: 19 Kasım kapanışında sinyal vardı, VIX 28,4'tü, ertesi gün SOXL −%31,8. Eşiğin hemen altındaki günlerde bu büyüklükte kayıp mümkün.
+- Bütün günler sürümünde SOXL'un en uzun kayıp serisi 6 işlem ve toplam −%42; TQQQ'da 11 işlem ve −%40.
+- Son üç yılda SOXL'un kendisi çok yükseldiği için, aynı sıklıkta rastgele günlerde alan birinin en iyi %5'lik sonucu bu kuralın sonucunu geçiyor. 2023 sonrasında kuralın katkısı şanstan ayırt edilemiyor; tam dönemde ediliyor.
 
 ### 4.5 Lead-lag: neden bir şey çıkmadı
 
-Test edilenler: Asya ve Avrupa liderlerinden ABD'ye (TSMC → TSM ve Nvidia; SK Hynix ve Samsung → Micron ve disk hisseleri; Tokyo Electron ve ASML → ekipman hisseleri), ABD devlerinden takipçilere (Nvidia, TSMC, Broadcom, Micron, Microsoft, Google, Meta, Amazon → diğer 39 hisse), emsal sepetinden geride kalana, makro göstergelerden (faiz, dolar, yen, bakır, kredi) Nasdaq ve SMH'ye, Bitcoin'den madencilere, lider bilançosundan emsallere. Ayrıca 43 öncülün iki hedef havuzuna karşı veriden taraması (84 geçerli kombinasyon).
-
-Sonuç:
+Sınananlar: Asya ve Avrupa liderlerinden ABD'ye (TSMC → TSM ve Nvidia; SK Hynix ve Samsung → Micron ve disk hisseleri; Tokyo Electron ve ASML → ekipman hisseleri), ABD devlerinden takipçilere (Nvidia, TSMC, Broadcom, Micron, Microsoft, Google, Meta, Amazon → diğer 39 hisse), emsal sepetinden geride kalana, makro göstergelerden (faiz, dolar, yen, bakır, kredi) Nasdaq ve SMH'ye, Bitcoin'den madencilere, lider bilançosundan emsallere. Ayrıca 43 öncülün iki hedef havuzuna karşı veriden taraması.
 
 - **27 testin hiçbiri geçmedi.** Taramada da keşif aşamasını geçen kombinasyon çıkmadı.
-- **Neden:** Liderin getirisini bir gün ileri kaydırınca (yani aynı günü kullanınca) ilişki çok güçlü çıkıyor; ertesi güne ise bir şey kalmıyor. Bilgi aynı gün fiyatlanıyor. Bu, VİOP çalışmandaki "açılış boşluğunda fiyatlanıyor" bulgusuyla aynı.
-- **Tek istisna alım sinyali değil:** Tokyo Electron ve ASML'nin zayıf günü, ABD ekipman hisselerinde (AMAT, LRCX, KLAC) ertesi gün yaklaşık −20 bps ile ilişkili. Bu bir "o gün ekipman alma" bilgisi; alım yönünde karşılığı yok.
-- **Bitcoin:** Bitcoin'in güçlü yükseldiği günün ertesinde madenci ve yapay zekâ veri merkezi hisseleri ortalama −100 bps (3 günde −263). Kovalamak zararlı.
-- **Güç hesabı:** Havuzlanmış testler 11 bps'lik bir kenarı ayırt edebilecek güçteydi; bulunan eğimler ±4 bps düzeyinde. Bu hisselerde maliyet 20 bps. Yani bulamadığımız bir lead-lag varsa bile maliyeti karşılamaz.
+- **Neden:** Liderin getirisini aynı günle eşleştirince ilişki çok güçlü; ertesi güne bir şey kalmıyor. Bilgi aynı gün fiyatlanıyor. Bu, VİOP çalışmandaki "açılış boşluğunda fiyatlanıyor" bulgusuyla aynı.
+- **Tek iz, alım yönünde değil:** Tokyo Electron ve ASML'nin zayıf günü, ABD ekipman hisselerinde (AMAT, LRCX, KLAC) ertesi gün yaklaşık −20 bps ile ilişkili. "O gün ekipman alma" bilgisi; alım tarafında karşılığı yok.
+- **Bitcoin:** Güçlü Bitcoin gününün ertesinde madenci hisselerinde ortalama −100 bps görüldü ama bu sonuç sağlamlık sınamasını geçmedi. Çıkarım yalnızca şu: alım için gerekçe yok.
+- **Güç:** Havuzlanmış testler 11 bps'lik bir kenarı ayırt edebilecek güçteydi; bulunan eğimler ±4 bps. Bu hisselerde maliyet 20 bps. Bulamadığımız bir lead-lag varsa bile maliyeti karşılamaz.
 
 Literatür de aynı yönde: güçlü lead-lag bulguları (müşteri–tedarikçi, ortak analist) aylık ufukta; büyük hisseler arasındaki günlük lead-lag 2000'e kadar kaybolmuş.
 
 ### 4.6 Elenenler hakkında kısa notlar
 
-- **Bilanço öncesi alım.** 2010–2019'da işlem başına +90 bps'ti; 2020–2022'de +39; 2023'ten beri +14 (anlamsız); 2025'te −33, 2026'da −88. Bu sezon beklentiyi aşan teknoloji şirketleri bilanço günü ortalama −%1,5 tepki gördü.
-- **Sert yükselişten sonra alım.** SOX +%3 ve üstü gününden sonra SMH ertesi gün ortalama −42 bps; +2 standart sapma gününden sonra −41 bps. Etki 2020–2022'den geliyor, son üç yılda sıfıra yakın. Sonuç: alım için gerekçe yok.
-- **SMH'nin −%8 ve altı günleri.** 2010'dan beri 9 gün (20 Kasım dahil). Ertesi gün ortalama +%3,6 ve 8'in 7'si artı; ama dördü Mart 2020'de ve 3 Nisan 2025'in ertesi günü −%7,6 idi. Üç gün sonra ortalama sıfır.
-- **Son 30 dakika.** "Düşüş gününde son yarım saat de aşağıysa ertesi gün döner" fikri ilk ölçümde iyi göründü (+85'e karşı −3 bps) ama ölçüm biçimine dayanıksız çıktı: gerçek kapanış fiyatıyla fark 27 bps'e indi ve örneklem 65 gün. Kural olarak kullanma.
-- **Gece ve gün içi.** 2023'ten beri SMH'nin getirisi neredeyse tamamen gecede oluştu (günde +16 bps'e karşı gün içi +1). Ama bu genel bir betimleme; sinyal günlerinde açılışta satmak en kötü seçenek çıktı.
+- **Bilanço öncesi alım.** 2010–2019'da işlem başına +90 bps; 2020–2022'de +39; 2023'ten beri +14 (anlamsız); 2025'te −33, 2026'da −88. Bu sezon beklentiyi aşan teknoloji şirketleri bilanço günü ortalama −%1,5 tepki gördü.
+- **Sert yükselişten sonra alım.** SOX +%3 ve üstü gününden sonra SMH ertesi gün ortalama −42 bps; +2 standart sapma gününden sonra −41 bps. Etki 2020–2022'den geliyor, son üç yılda sıfıra yakın.
+- **SMH'nin −%8 ve altı günleri.** 2010'dan beri 9 gün (20 Kasım dahil). Önceki 8'in 7'sinde ertesi gün artı, ortalama +%3,6; ama dördü Mart 2020'de ve 3 Nisan 2025'in ertesi günü −%7,6. Üç gün sonra ortalama sıfır.
+- **Son 30 dakika.** "Düşüş gününde son yarım saat de aşağıysa ertesi gün döner" fikri ilk ölçümde iyi göründü ama ölçüm biçimine dayanıksız çıktı; örneklem 65 gün. Kural olarak kullanma.
+- **Gece ve gün içi.** 2023'ten beri SMH'nin getirisi neredeyse tamamen gecede oluştu (günde +16 bps'e karşı gün içi +1). Bu genel bir betimleme; sinyal günlerinde açılışta satmak en kötü seçenek çıktı.
 
 ## 5. Piyasa şu an nerede, önümüzde ne var
 
-**2026'nın özeti.** Yarı iletken endeksi SOX 22 Haziran'da 14.634,72 ile rekor kapanış yaptı. 5 Haziran'da −%10,3, 5 Kasım'da −%12,25 (kayıtlardaki en kötü ikinci gün), 20 Kasım'da −%10,7 düştü. SMH zirvesinin %40 altında.
+**2026'nın özeti.** Yarı iletken endeksi SOX 22 Haziran'da 14.634,72 ile rekor kapanış yaptı. 5 Haziran'da −%10,3, 5 Kasım'da −%12,25, 20 Kasım'da −%10,7 düştü. SMH zirvesinin %40 altında.
 
-**Kasım'da üst üste binenler** (hepsi en az bir kaynaktan doğrulandı):
+**Kasım'da üst üste binenler** (hepsi kaynaktan doğrulandı):
 
 - Fed faiz artırıyor: Eylül'de 25 baz puan artırdı, 28 Ekim'de 10'a 2 oyla bekledi (iki üye artış istedi). Aralık artışı %90'ın üstünde olasılıkla fiyatlanıyor.
 - Ara seçimlerde Demokratlar Kongre'yi kazandı; veri merkezi kısıtlaması korkusu 5 Kasım düşüşünde anıldı.
@@ -248,12 +283,12 @@ Literatür de aynı yönde: güçlü lead-lag bulguları (müşteri–tedarikçi
 | 18 Ara | Üçlü opsiyon vadesi |
 | 24 Ara | Erken kapanış; 25 Ara ve 1 Oca kapalı |
 | 6–9 Oca | CES 2027 |
-| 8 Oca / 13 Oca | İstihdam / TÜFE |
+| 8 Oca, 13 Oca | İstihdam, TÜFE |
 | 26–27 Oca | Fed toplantısı |
 
 Resmî olmayanlar: Oracle bilançosu (10–14 Aralık), TSMC 4. çeyrek bilançosu (yaklaşık 14 Ocak), Samsung ön bilançosu (yaklaşık 7–8 Ocak), Nasdaq-100 yeniden yapılandırması (kurala göre duyuru 11 Aralık, yürürlük 21 Aralık).
 
-**20 Kasım kapanışında sinyal durumu.** VIX 35,9; altı ETF'in hepsinde IBS 0,2'nin altında (SMH 0,08). Kural açıktı. Piyasa pazartesi açılıyor; kapanış girişi artık mümkün değil. Stres günlerinde kazancın yaklaşık dörtte biri gecede, dörtte üçü ertesi açılıştan sonra oluştu (98'e karşı 24 bps; ikisinin farkından çıkarım).
+**20 Kasım kapanışındaki durum.** VIX 35,9; altı ETF'in hepsi günün dibine yakın kapandı (SMH'de IBS 0,08). Kuralın koşulları sağlanıyordu, ama giriş anı cuma kapanışıydı ve geçti. Pazartesi açılışta almak bu çalışmada sınanmış bir kural değildir; önermiyoruz. Pazartesi yapılacak şey, kapanışa 10 dakika kala koşullara yeniden bakmaktır.
 
 ## 6. Erişim, maliyet, vergi
 
@@ -267,16 +302,16 @@ Resmî olmayanlar: Oracle bilançosu (10–14 Aralık), TSMC 4. çeyrek bilanço
 
 **Emin olunmayanlar:**
 
-- Stres kuralı 18 döneme dayanıyor ve son iki dönemden biri (Nisan 2025) eksiydi. Bu dönemin, yani Kasım 2026'nın nasıl biteceği bilinmiyor.
-- "VIX ≥ 30" eşiği önceden tanımlı bir hücreydi ama birincil test değildi.
+- Ana kural 18 döneme dayanıyor; 2023'ten beri yalnız 2 dönem var ve biri eksi. Kasım 2026 döneminin nasıl biteceği bilinmiyor.
+- 35 eşiği sonradan görüldü; gelecekteki etki geçmiş ortalamadan düşük çıkabilir.
 - Kaldıraçlı ETF'lerin Türkiye'deki aracı kurumlarda alınıp alınamadığı ve kapanış emri doğrulanamadı.
-- Stres günlerinde gerçek alım-satım makası ölçülemedi; 30 bps varsayımıyla sonuç hâlâ artı.
-- 15:30 testi yalnız son iki yılın saatlik verisine dayanıyor.
+- Stres günlerindeki gerçek alım-satım makası ve kapanıştan 10 dakika önceki fiyatla sinyal ölçülemedi; elimizdeki en yakın veri 15:30 fiyatı ve son iki yıl.
 - Hafta sonu (21–22 Kasım) haber akışı bulunamadı.
 
 **Doğrulama kapsamı:**
 
-- **Sayısal:** 61 birincil test ve 84 kombinasyonluk tarama. Ayakta kalan ve kaçınma bulgusu olan 7 test bağımsız olarak yeniden kodlandı; yedisi de işlem sayısı ve alfa bakımından birebir tuttu. Çürütme turunda 8 saldırı denendi: iki aday kural ve bilanço kuralı çürüdü, ana kural stres günlerine daraldı, "en çok 1 gün tut" çıkarımımız çürüdü ve düzeltildi.
+- **Sayısal:** 61 birincil test ve 84 kombinasyonluk tarama. Öne çıkan 7 test bağımsız olarak yeniden kodlandı; yedisi de işlem sayısı ve alfa bakımından birebir tuttu. Çürütme turunda 8 saldırı denendi: iki aday kural ve bilanço kuralı çürüdü, ana kural yüksek VIX günlerine daraldı.
+- **Eleştirmen turu:** 10 itiraz geldi, hepsi kabul edildi. Başlıcaları: pozisyon sınırları Mart 2020'yi dışarıda bırakıyordu (düzeltildi); kazancın VIX 35 üstünden geldiği yazılmamıştı (eklendi); "+%1, 17/18" tek başına fazla iyimserdi (temkinli tahmin ve kârlı işlem oranı eklendi); ikinci gün tutma önerisi fazla kesindi (geri çekildi); 19 Kasım SOXL kaybı yanlışlıkla stres kuralına bağlanmıştı (düzeltildi). İtirazlardaki sayılar ayrı bir betikle yeniden hesaplandı ve tuttu (`kod/ek_kontrol.py`).
 - **Kaynak iddiaları:** 130 iddia kontrol edildi: 98 doğru, 20 düzeltildi, 11 doğrulanamadı, 1 yanlış. Yanlış olan HPE bilanço tarihiydi (3 Aralık değil 23 Kasım). Düzeltilenlerin çoğu fon büyüklükleriydi (ör. SOXX 44 değil 31 milyar $). Raporda yalnız düzeltilmiş değerler var.
 - **Kontrol edilmeyenler:** Hisse evreni defterlerindeki şirket bazlı ayrıntılar (gelir, borç rakamları) tek kaynaklıdır ve bu rapora alınmadı; ek dosyalarda duruyor.
 - **Bulunan ve düzeltilen hatalar:** Etiketleme kodunda bir aile adı hatası (sonucu değiştirmedi); Yahoo'da SanDisk'in bölünme günü boş kapanışı (saatlik veriden yamandı); Bitcoin ve kur verilerinde zaman damgası kayması (hesaplardan önce yakalandı).
@@ -324,8 +359,10 @@ Akademik:
 
 ## 9. Devam notu
 
-- **Bulgu:** 61 testten tek kural kaldı: VIX ≥ 30 iken IBS < 0,2 kapanan endeks ETF'ini (SMH, QQQ; kaldıraçlı SOXL, TQQQ) kapanışta al, 1–2 gün tut. Lead-lag yok; bilanço öncesi alım bitti.
+- **Bulgu:** 61 testten tek kural kaldı: VIX 30 üstündeyken (asıl etki 35 üstü) IBS < 0,2 kapanan endeks ETF'ini kapanışta al, ertesi kapanışta sat. Lead-lag yok; bilanço öncesi alım bitti. Güvenli boyutla katkı yılda yaklaşık 1 puan.
 - **Ana dosyalar:** `RAPOR.md` (bu dosya), `kod/PROTOKOL.md` (test tanımları), `kod/sinyal.py` (günlük sinyal), `ek/risk_tablosu.csv` (98 araç).
-- **Sonuç tabloları:** `ek/d2_b1.md`, `ek/d2_b2.md`, `ek/d2_b3.md` (backtest), `ek/d3_curutme.md` (çürütme), `ek/d3_yeniden_kodlama.md`.
-- **Yeniden üretim:** `python3 kod/indir.py` (veri), sonra `kod/b1_fiyat.py`, `b2_leadlag.py`, `b3_takvim.py`, `curutme.py`. `veri/` klasörü depoda yok; indir.py yeniden üretir.
+- **Sonuç tabloları:** `ek/d2_b1.md`, `ek/d2_b2.md`, `ek/d2_b3.md` (backtest); `ek/d3_curutme.md`, `ek/d3_yeniden_kodlama.md` (doğrulama); `ek/d4_elestiri.md` (eleştiri); `kod/ek_kontrol.py` (VIX bantları, boyut sınırları).
+- **Yeniden üretim:** `python3 kod/indir.py`, sonra `kod/b1_fiyat.py`, `b2_leadlag.py`, `b3_takvim.py`, `curutme.py`, `ek_kontrol.py`. `veri/` klasörü depoda yok; indir.py yeniden üretir.
 - **Açık kalanlar:** aracı kurumda SOXL ve kapanış emri teyidi; Kasım 2026 stres döneminin sonucu; stres günlerinde gerçek makas.
+
+Maliyet özeti: Seviye L · 22 alt ajan: 20 opus (14 üretici, 6 doğrulayıcı) ve 2 fable (yöntem denetçisi, eleştirmen); kullanıcı talimatıyla opus'un altına inilmedi · 2 üretim dalgası, ayrıca doğrulama ve eleştiri · kontrol noktasını geçen 10 ajan (hiçbiri iki katına varmadı; nedenleri eksik sayıların tamamlanması, PDF kaynakların metne çevrilmesi ve ikinci kaynak aramaları) · aşılan sınır yok.

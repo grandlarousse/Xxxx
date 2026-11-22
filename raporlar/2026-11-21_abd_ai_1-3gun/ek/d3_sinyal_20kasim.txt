@@ -28,14 +28,23 @@ ARAC TABLOSU (r/sigma = gunluk getiri / onceki 60 gunun sigmasi)
   TSM    hisse         318.71   -9.48%    -3.36  0.01     2  evet  F1a AL
   MU     hisse         594.51  -13.89%    -3.11  0.11     7  evet  F1a AL, F3 AL
 
-ACIK KURALLAR
-  F1a (IBS < 0,2) AL          : SMH, SOXX, QQQ, XLK, SPY, IWM, SOXL, TQQQ, USD, TECL, NVDL, AMDL, MUU, NVDA, AMD, AVGO, TSM, MU   [T havuzu: alfa +17 bps/islem, net +7 (t 3,08). Kaldiracli/hisse: yalniz betimsel tasima.]
-  F3  (>= 3 dusuk kapanis) AL : SMH, SPY, USD, NVDL, MUU, NVDA, MU   [T havuzu: alfa +19 bps (t 2,61), ADAY.]
-  F11a (^SOX <= -%3) SMH AL   : EVET   [SMH: alfa +43 bps (t 2,13, n 226), ADAY.]
-  KACINMA F4b (> +2 sigma)    : yok   [T havuzu: alfa -41 bps (t -2,28) -> o gun ALMA.]
-  KACINMA F11b (^SOX >= +%3)  : hayir   [SMH: alfa -42 bps (t -2,44) -> o gun SMH ALMA.]
+ANA KURAL: asiri stres gunu dip kapanisi (VIX >= 30 ve IBS < 0,2; yalniz 6 ETF havuzunda sinandi)
+  VIX 35.89 -> bu bantta gecmis: +210 bps (179 islem, 41 gun, 12 donemin 11'i arti): asil etki burada
+  Dunku VIX kapanisi 28.44 (< 30)
+  KURAL ACIK: SMH, SOXX, QQQ, XLK, SPY, IWM | kaldiracli (betimsel): SOXL, TQQQ, USD, TECL, NVDL, AMDL, MUU
+  Cikis: ertesi islem gunu kapanisi (ertesi acilista satma; 2. gun istege bagli, kaniti zayif).
+  Gecmis (VIX >= 30): ort. alfa +98 bps, temkinli beklenti +55-60 bps, uc islemden biri zarar, en kotu islem -%10,6.
+
+DIGER SATIRLAR (bilgi; kural degil)
+  F1a (IBS < 0,2) AL          : SMH, SOXX, QQQ, XLK, SPY, IWM, SOXL, TQQQ, USD, TECL, NVDL, AMDL, MUU, NVDA, AMD, AVGO, TSM, MU   [6 ETF havuzu, butun gunler: alfa +17 bps (t 3,08). Kazanc yuksek VIX gunlerinden; VIX < 20 iken sifir. Kaldiracli/hisse satirlari yalniz betimsel.]
+  F3  (>= 3 dusuk kapanis) AL : SMH, SPY, USD, NVDL, MUU, NVDA, MU   [Curutmede elendi (baska ETF'lerde +5 bps, t 1,0). Kural olarak KULLANMA; yalniz bilgi.]
+  F11a (^SOX <= -%3) SMH AL   : EVET   [Curutmede elendi (2020 disinda ayirt edilemiyor). Ayri kural degil; yalniz bilgi.]
+  KACINMA F4b (> +2 sigma)    : yok   [Gecmiste ertesi gun ort. -41 bps (2020-22 kaynakli, son 3 yil ~0). Alim icin gerekce yok.]
+  KACINMA F11b (^SOX >= +%3)  : hayir   [Gecmiste ertesi gun ort. -42 bps (2020-22 kaynakli, son 3 yil ~0). Alim icin gerekce yok.]
 
 NOTLAR
-  - Giris: sinyal gunu kapanisi (15:55-15:59 emri), cikis: ertesi islem gunu kapanisi. Maliyet T: 10 bps gidis-donus.
-  - Testler yalniz T ETF havuzunda (ve F11 icin SMH) yapildi; kaldiracli ETF ve tek hisse satirlari betimseldir.
+  - Giris: sinyal gunu kapanisindan onceki son dakikalar (limit emir; dolmazsa islem yok). Cikis: ertesi kapanis.
+  - Pozisyon ust siniri (toplam, tek arac): QQQ %23, SMH %19, TQQQ %8, SOXL %6 (2010'dan beri en kotu 2 gune gore, %3 kayip).
+  - Testler yalniz 6 ETF havuzunda yapildi; kaldiracli ETF ve tek hisse satirlari betimseldir.
+  - Yatirim tavsiyesi degildir. Ayrinti: RAPOR.md
   - 'Uygun = HAYIR': fiyat < 3 $, medyan ciro < 20 milyon $, < 250 gun gecmis ya da bozuk bar -> sinyal yok sayilir.

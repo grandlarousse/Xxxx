@@ -28,14 +28,21 @@ HEPSI = T_EVREN + KALDIRACLI + HISSE + REJIM
 BURADA = os.path.dirname(os.path.abspath(__file__))
 BILANCO_DIZIN = os.path.join(os.path.dirname(BURADA), "veri", "bilanco")
 
-# Gecmis test ozeti (yeniden_kodlama.py ile bagimsiz olarak dogrulandi; 2010-2026, h=1)
+# Gecmis test ozeti (bagimsiz yeniden kodlama ve curutme turundan SONRAKI hukumler; 2010-2026, 1 gun tutma)
 TEST_NOTU = {
-    "F1a": "T havuzu: alfa +17 bps/islem, net +7 (t 3,08). Kaldiracli/hisse: yalniz betimsel tasima.",
-    "F3": "T havuzu: alfa +19 bps (t 2,61), ADAY.",
-    "F11a": "SMH: alfa +43 bps (t 2,13, n 226), ADAY.",
-    "F4b": "T havuzu: alfa -41 bps (t -2,28) -> o gun ALMA.",
-    "F11b": "SMH: alfa -42 bps (t -2,44) -> o gun SMH ALMA.",
+    "F1a": "6 ETF havuzu, butun gunler: alfa +17 bps (t 3,08). Kazanc yuksek VIX gunlerinden; VIX < 20 iken sifir. "
+           "Kaldiracli/hisse satirlari yalniz betimsel.",
+    "F3": "Curutmede elendi (baska ETF'lerde +5 bps, t 1,0). Kural olarak KULLANMA; yalniz bilgi.",
+    "F11a": "Curutmede elendi (2020 disinda ayirt edilemiyor). Ayri kural degil; yalniz bilgi.",
+    "F4b": "Gecmiste ertesi gun ort. -41 bps (2020-22 kaynakli, son 3 yil ~0). Alim icin gerekce yok.",
+    "F11b": "Gecmiste ertesi gun ort. -42 bps (2020-22 kaynakli, son 3 yil ~0). Alim icin gerekce yok.",
 }
+
+# VIX bantlarinda ana kuralin (6 ETF, IBS < 0,2, 1 gun) gecmis alfasi: kod/ek_kontrol.py
+VIX_BANT = [(0, 20, "~0 bps (2.522 islem): ISLEM YOK"),
+            (20, 30, "+8 ile +29 bps arasi, tutarsiz: kural sayma"),
+            (30, 35, "+23 bps (266 islem, 60 gun): sanstan ayirt edilemiyor; kucuk boyut ya da pas"),
+            (35, 1e9, "+210 bps (179 islem, 41 gun, 12 donemin 11'i arti): asil etki burada")]
 
 
 # ---------------- veri ----------------
@@ -208,6 +215,10 @@ def ana():
     vix, vix3m = deger("^VIX", "kapanis"), deger("^VIX3M", "kapanis")
     sox = deger("^SOX", "r")
     smh_z = deger("SMH", "zirveden")
+    gv = G.get("^VIX")
+    vix_dun = np.nan
+    if gv is not None and t in gv.index and gv.index.get_loc(t) > 0:
+        vix_dun = gv["kapanis"].iloc[gv.index.get_loc(t) - 1]
     stres = bool(vix >= 30) if pd.notna(vix) else None
     bugun = bool(stres and smh_z <= -0.25) if stres is not None else None
     evet = lambda b: "BILINMIYOR (VIX yok)" if b is None else ("EVET" if b else "hayir")
@@ -263,7 +274,27 @@ def ana():
         sat.append(f"  {k:<6} {grup:<10} {x.kapanis:>9.2f} {x.r * 100:>+7.2f}% {x.z:>+8.2f} {x.ibs:>5.2f} "
                    f"{int(x.seri):>5d} {'evet' if uyg else 'HAYIR':>5}  {', '.join(sin) if sin else '-'}")
     sat.append("")
-    sat.append("ACIK KURALLAR")
+    sat.append("ANA KURAL: asiri stres gunu dip kapanisi (VIX >= 30 ve IBS < 0,2; yalniz 6 ETF havuzunda sinandi)")
+    if stres is None:
+        sat.append("  VIX verisi yok: karar verilemez.")
+    else:
+        bant = next((m for a_, b_, m in VIX_BANT if a_ <= vix < b_), "")
+        sat.append(f"  VIX {vix:.2f} -> bu bantta gecmis: {bant}")
+        if pd.notna(vix_dun):
+            sat.append(f"  Dunku VIX kapanisi {vix_dun:.2f} "
+                       f"({'>= 30: dunku VIX kosulu da saglaniyor (gecmis +144 bps, 315 islem)' if vix_dun >= 30 else '< 30'})")
+        t_acik = [k for k in acik["F1a"] if k in T_EVREN]
+        k_acik = [k for k in acik["F1a"] if k in KALDIRACLI]
+        if stres and t_acik:
+            sat.append(f"  KURAL ACIK: {', '.join(t_acik)}" + (f" | kaldiracli (betimsel): {', '.join(k_acik)}" if k_acik else ""))
+            sat.append("  Cikis: ertesi islem gunu kapanisi (ertesi acilista satma; 2. gun istege bagli, kaniti zayif).")
+        elif stres:
+            sat.append("  VIX >= 30 ama dipte kapanan ETF yok: KURAL KAPALI.")
+        else:
+            sat.append("  VIX < 30: KURAL KAPALI. Asagidaki F1a satiri yalniz bilgi icindir.")
+    sat.append("  Gecmis (VIX >= 30): ort. alfa +98 bps, temkinli beklenti +55-60 bps, uc islemden biri zarar, en kotu islem -%10,6.")
+    sat.append("")
+    sat.append("DIGER SATIRLAR (bilgi; kural degil)")
     sat.append(f"  F1a (IBS < 0,2) AL          : {', '.join(acik['F1a']) or 'yok'}   [{TEST_NOTU['F1a']}]")
     sat.append(f"  F3  (>= 3 dusuk kapanis) AL : {', '.join(acik['F3']) or 'yok'}   [{TEST_NOTU['F3']}]")
     smh_uyg = bool(deger("SMH", "uygun")) if "SMH" in G else False
@@ -274,8 +305,10 @@ def ana():
     sat.append(f"  KACINMA F11b (^SOX >= +%3)  : {'EVET - SMH alma' if f11b else 'hayir'}   [{TEST_NOTU['F11b']}]")
     sat.append("")
     sat.append("NOTLAR")
-    sat.append("  - Giris: sinyal gunu kapanisi (15:55-15:59 emri), cikis: ertesi islem gunu kapanisi. Maliyet T: 10 bps gidis-donus.")
-    sat.append("  - Testler yalniz T ETF havuzunda (ve F11 icin SMH) yapildi; kaldiracli ETF ve tek hisse satirlari betimseldir.")
+    sat.append("  - Giris: sinyal gunu kapanisindan onceki son dakikalar (limit emir; dolmazsa islem yok). Cikis: ertesi kapanis.")
+    sat.append("  - Pozisyon ust siniri (toplam, tek arac): QQQ %23, SMH %19, TQQQ %8, SOXL %6 (2010'dan beri en kotu 2 gune gore, %3 kayip).")
+    sat.append("  - Testler yalniz 6 ETF havuzunda yapildi; kaldiracli ETF ve tek hisse satirlari betimseldir.")
+    sat.append("  - Yatirim tavsiyesi degildir. Ayrinti: RAPOR.md")
     sat.append("  - 'Uygun = HAYIR': fiyat < 3 $, medyan ciro < 20 milyon $, < 250 gun gecmis ya da bozuk bar -> sinyal yok sayilir.")
     for n in notlar:
         sat.append("  - " + n)

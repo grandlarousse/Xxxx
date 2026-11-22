@@ -57,3 +57,17 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# ABD'de yapay zekâ, çip ve bellek hisseleri: 1–3 günlük işlem için araçlar ve yöntemler (22.11.2026)
+
+Klasör: `2026-11-21_abd_ai_1-3gun/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, yapılacaklar, araç tabloları (ETF, kaldıraçlı ürünler, hisseler), sınanan 61 kuralın karar tablosu, ayakta kalan tek kural (yüksek VIX'te dipte kapanan endeks ETF'i), lead-lag sonucu, takvim, erişim ve vergi, doğrulama kapsamı.
+- `kod/PROTOKOL.md`: Hesaplardan önce yazılan test protokolü. `kod/sinyal.py`: günlük sinyal aracı (yalnız pandas, numpy, yfinance).
+- `kod/`: veri indirme (`indir.py`), ortak kütüphane, üç backtest betiği, bağımsız yeniden kodlama, çürütme ve ek kontrol betikleri.
+- `ek/`: ajan defterleri (`d1_*` evren, literatür, bağlam; `d2_*` backtest, ETF, erişim; `d3_*` doğrulama; `d4_*` eleştiri), `risk_tablosu.csv` (98 araç), `sonuc/` (birleşik sonuç tabloları).
+- Fiyat verisi (`veri/`) depoya eklenmedi; `kod/indir.py` yeniden üretir.
+
+Yatırım tavsiyesi değildir.

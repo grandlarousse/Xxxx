@@ -1,0 +1,45 @@
+sinyal,olay,giris,cikis,not
+F9a,HPE (Ç) bilanço 2026-11-23 16:00 sonra,2026-11-18,2026-11-23,"A-3 al, A sat"
+F9a,DELL (YENİ) bilanço 2026-11-24 16:00 sonra,2026-11-19,2026-11-24,"A-3 al, A sat"
+F8a,2026-11 ay sonu,2026-11-23,2026-11-27,"S-4 al, S-1 sat"
+F9b,HPE (Ç) bilanço 2026-11-23,2026-11-23,2026-11-24,"A al, tepki kapanışı sat"
+F9c/d,HPE (Ç) tepki günü 2026-11-24,2026-11-24,2026-11-30 (c) / 2026-11-25 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9b,DELL (YENİ) bilanço 2026-11-24,2026-11-24,2026-11-25,"A al, tepki kapanışı sat"
+F9a,NTAP (Ç) bilanço 2026-12-01 16:00 sonra,2026-11-25,2026-12-01,"A-3 al, A sat"
+F9a,CRDO (YENİ) bilanço 2026-12-01 16:00 sonra,2026-11-25,2026-12-01,"A-3 al, A sat"
+F9c/d,DELL (YENİ) tepki günü 2026-11-25,2026-11-25,2026-12-01 (c) / 2026-11-27 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9a,MRVL (Ç) bilanço 2026-12-01 16:00 sonra,2026-11-25,2026-12-01,"A-3 al, A sat; veri/bilanco ile uyumlu"
+F9a,CRM (Ç) bilanço 2026-12-02 16:00 sonra,2026-11-27,2026-12-02,"A-3 al, A sat"
+F9a,SNOW (YENİ) bilanço 2026-12-02 16:00 sonra,2026-11-27,2026-12-02,"A-3 al, A sat"
+F8b,2026-11 ay sonu,2026-11-30,2026-12-03,"S al, S+3 sat"
+F9b,MRVL (Ç) bilanço 2026-12-01,2026-12-01,2026-12-02,"A al, tepki kapanışı sat"
+F9b,NTAP (Ç) bilanço 2026-12-01,2026-12-01,2026-12-02,"A al, tepki kapanışı sat"
+F9b,CRDO (YENİ) bilanço 2026-12-01,2026-12-01,2026-12-02,"A al, tepki kapanışı sat"
+F9c/d,CRDO (YENİ) tepki günü 2026-12-02,2026-12-02,2026-12-07 (c) / 2026-12-03 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9b,CRM (Ç) bilanço 2026-12-02,2026-12-02,2026-12-03,"A al, tepki kapanışı sat"
+F9c/d,NTAP (Ç) tepki günü 2026-12-02,2026-12-02,2026-12-07 (c) / 2026-12-03 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9b,SNOW (YENİ) bilanço 2026-12-02,2026-12-02,2026-12-03,"A al, tepki kapanışı sat"
+F9c/d,MRVL (Ç) tepki günü 2026-12-02,2026-12-02,2026-12-07 (c) / 2026-12-03 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9c/d,CRM (Ç) tepki günü 2026-12-03,2026-12-03,2026-12-08 (c) / 2026-12-04 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9c/d,SNOW (YENİ) tepki günü 2026-12-03,2026-12-03,2026-12-08 (c) / 2026-12-04 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9a,CIEN (Ç) bilanço 2026-12-10 08:00 once,2026-12-04,2026-12-09,"A-3 al, A sat"
+F9a,ADBE (Ç) bilanço 2026-12-09 16:00 sonra,2026-12-04,2026-12-09,"A-3 al, A sat"
+F9a,AVGO (Ç) bilanço 2026-12-09 16:00 sonra,2026-12-04,2026-12-09,"A-3 al, A sat; veri/bilanco ile uyumlu"
+F8c,FOMC 2026-12-09,2026-12-08,2026-12-09,"t-1 kapanış al, karar günü sat"
+F9a,ORCL (Ç) bilanço 2026-12-14 16:00 sonra,2026-12-09,2026-12-14,"A-3 al, A sat"
+F9b,AVGO (Ç) bilanço 2026-12-09,2026-12-09,2026-12-10,"A al, tepki kapanışı sat"
+F9b,ADBE (Ç) bilanço 2026-12-09,2026-12-09,2026-12-10,"A al, tepki kapanışı sat"
+F9b,CIEN (Ç) bilanço 2026-12-10,2026-12-09,2026-12-10,"A al, tepki kapanışı sat"
+F9c/d,AVGO (Ç) tepki günü 2026-12-10,2026-12-10,2026-12-15 (c) / 2026-12-11 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9c/d,ADBE (Ç) tepki günü 2026-12-10,2026-12-10,2026-12-15 (c) / 2026-12-11 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9c/d,CIEN (Ç) tepki günü 2026-12-10,2026-12-10,2026-12-15 (c) / 2026-12-11 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9a,MU (Ç) bilanço 2026-12-17 16:00 sonra,2026-12-14,2026-12-17,"A-3 al, A sat; veri/bilanco ile uyumlu"
+F9b,ORCL (Ç) bilanço 2026-12-14,2026-12-14,2026-12-15,"A al, tepki kapanışı sat"
+F9c/d,ORCL (Ç) tepki günü 2026-12-15,2026-12-15,2026-12-18 (c) / 2026-12-16 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F9b,MU (Ç) bilanço 2026-12-17,2026-12-17,2026-12-18,"A al, tepki kapanışı sat"
+F9c/d,MU (Ç) tepki günü 2026-12-18,2026-12-18,2026-12-23 (c) / 2026-12-21 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
+F8a,2026-12 ay sonu,2026-12-24,2026-12-30,"S-4 al, S-1 sat"
+F9a,APLD (YENİ) bilanço 2027-01-06 16:00 sonra,2026-12-31,2027-01-06,"A-3 al, A sat"
+F8b,2026-12 ay sonu,2026-12-31,2027-01-06,"S al, S+3 sat"
+F9b,APLD (YENİ) bilanço 2027-01-06,2027-01-06,2027-01-07,"A al, tepki kapanışı sat"
+F9c/d,APLD (YENİ) tepki günü 2027-01-07,2027-01-07,2027-01-12 (c) / 2027-01-08 (d),tepki getirisi >= +%5 -> h=3; <= -%5 -> h=1
