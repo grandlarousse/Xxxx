@@ -1,54 +1,54 @@
-kural,grup,tanim,yon,h,havuz_tum_n_gun,havuz_tum_anormal_bps,havuz_tum_net_bps,havuz_is_t,havuz_oos_t,havuz_son_t,havuz_son_anormal_bps,hedef_is_t_med,hedef_oos_t_med,n_is2_oos15,n_oos_neg2,n_ayakta,son_sinyal_20kas
-tom_a,ay_donumu,T-4 -> T-1,+,3,262,23.2,37.1,2.02,-0.14,-0.9,-19.2,1.63,-0.09,0,2,0,0.0
-tom_b,ay_donumu,T-3 -> T,+,3,262,-3.0,10.9,0.61,-1.37,-1.52,-30.2,0.32,-1.07,1,1,1,0.0
-tom_c,ay_donumu,T -> T+3,+,3,262,10.5,24.4,0.1,1.2,-0.12,-4.0,-0.01,0.68,0,1,0,0.0
-tom_d,ay_donumu,T-1 -> T+3 (4 gün),+,4,262,-0.1,18.4,-0.16,0.26,-0.33,-10.0,-0.17,0.07,0,1,0,0.0
-gun_T-3,ay_donumu,tek gün: T-3 günü getirisi,+,1,262,9.0,13.7,1.44,-0.34,0.13,1.3,1.09,-0.39,0,3,0,0.0
-gun_T-2,ay_donumu,tek gün: T-2 günü getirisi,+,1,262,-1.0,3.7,1.17,-1.76,-1.98,-22.2,0.86,-1.3,0,7,0,0.0
-gun_T-1,ay_donumu,tek gün: T-1 günü getirisi,+,1,262,2.0,6.7,-0.36,1.07,-0.65,-7.3,-0.36,0.79,0,2,0,0.0
-gun_T+0,ay_donumu,tek gün: T+0 günü getirisi,+,1,262,-16.8,-12.1,-1.44,-2.32,-0.57,-9.3,-1.23,-1.72,0,14,0,0.0
-gun_T+1,ay_donumu,tek gün: T+1 günü getirisi,+,1,262,2.5,7.2,0.13,0.35,-1.56,-22.9,0.08,-0.07,0,2,0,0.0
-gun_T+2,ay_donumu,tek gün: T+2 günü getirisi,+,1,263,1.0,5.6,-0.69,1.25,0.14,2.3,-0.41,0.61,0,1,0,0.0
-gun_T+3,ay_donumu,tek gün: T+3 günü getirisi,+,1,263,-6.8,-2.1,-1.06,-0.14,0.06,1.3,-0.76,-0.09,0,0,0,0.0
-tom_a_cuma,ay_donumu,"T-4 -> T-1, T cuma",+,3,110,38.1,52.0,1.87,-0.32,0.46,15.0,1.36,-0.16,0,1,0,0.0
-tom_a_cumadegil,ay_donumu,"T-4 -> T-1, T cuma değil",+,3,152,12.4,26.3,0.9,0.1,-1.65,-46.1,0.66,0.29,0,3,0,0.0
-tom_c_cuma,ay_donumu,"T -> T+3, T cuma",+,3,110,20.7,34.6,-0.37,1.96,-0.3,-11.4,-0.36,1.48,0,0,0,0.0
-tom_c_cumadegil,ay_donumu,"T -> T+3, T cuma değil",+,3,152,3.2,17.1,0.35,-0.19,0.04,1.9,0.09,-0.3,0,0,0,0.0
-ceyrek_son_gun,ceyrek,"çeyrek sonu son gün (T, Mar/Haz/Eyl/Ara)",+,1,87,0.4,5.1,0.15,-0.14,0.67,17.2,-0.07,-0.33,0,0,0,0.0
-ay_son_gun_ceyrekdisi,ceyrek,çeyrek dışı ay sonu son gün,+,1,175,-25.3,-20.6,-1.79,-2.55,-1.07,-22.0,-1.3,-1.86,0,14,0,0.0
-ceyrek_ilk_gun,ceyrek,çeyreğin ilk işlem günü (T+1),+,1,87,16.6,21.3,1.29,0.31,0.42,6.4,1.01,-0.08,0,2,0,0.0
-ay_ilk_gun_ceyrekdisi,ceyrek,çeyrek dışı ayın ilk işlem günü,+,1,175,-4.5,0.1,-0.56,0.2,-1.81,-36.9,-0.56,0.0,0,2,0,0.0
-pretatil,tatil,tatil öncesi son işlem günü,+,1,200,8.0,12.7,0.39,2.0,1.68,14.9,0.37,0.85,0,0,0,0.0
-pretatil_tam,tatil,"tatil öncesi gün, tam gün",+,1,176,6.9,11.6,0.3,1.56,1.12,10.8,0.3,0.67,0,0,0,0.0
-pretatil_yarim,tatil,"tatil öncesi gün, yarım gün (24 Ara, 3 Tem)",+,1,24,16.1,20.8,0.41,2.42,1.81,39.0,0.1,1.61,0,0,0,0.0
-yarim_gun,tatil,bütün yarım günler (Şükran sonrası cuma dahil),+,1,45,-5.3,-0.7,-0.48,0.01,2.25,41.2,-0.21,0.17,0,0,0,0.0
-sukran_hafta,tatil,Şükran salı kapanışı -> cuma (yarım gün) kapanışı,+,2,21,-0.4,8.9,0.16,-0.31,1.1,91.6,0.37,-0.17,0,0,0,0.0
-fomc_once,fomc,karar gününden önceki kapanış -> karar günü kapanışı,+,1,172,15.7,20.4,2.05,-0.43,-1.67,-39.8,1.53,-0.44,0,2,0,0.0
-fomc_sonra_h1,fomc,karar günü kapanışı -> 1 gün,+,1,172,-31.4,-26.7,-2.41,-1.46,1.37,24.6,-1.87,-1.18,0,2,0,0.0
-fomc_sonra_h2,fomc,karar günü kapanışı -> 2 gün,+,2,172,-38.5,-29.2,-1.81,-2.15,-0.65,-18.4,-1.37,-1.49,0,7,0,0.0
-fomc_sonra_h3,fomc,karar günü kapanışı -> 3 gün,+,3,172,-26.8,-12.9,-0.87,-1.39,0.0,0.1,-0.81,-1.01,0,2,0,0.0
-fomc_once_vix20,fomc,"fomc_once, giriş günü VIX > 20",+,1,59,52.2,56.9,2.01,0.55,-0.42,-20.6,1.48,0.36,0,0,0,0.0
-fomc_sonra_vix20_h1,fomc,"fomc_sonra_h1, giriş günü VIX > 20",+,1,56,-64.3,-59.6,-1.38,-1.88,0.35,10.4,-1.2,-1.53,0,2,0,0.0
-fomc_sonra_vix20_h2,fomc,"fomc_sonra_h2, giriş günü VIX > 20",+,2,56,-67.0,-57.8,-1.29,-1.57,0.13,6.3,-0.98,-1.25,0,2,0,0.0
-fomc_sonra_vix20_h3,fomc,"fomc_sonra_h3, giriş günü VIX > 20",+,3,56,-11.1,2.8,0.33,-0.76,1.54,131.1,0.11,-0.51,0,2,0,0.0
-opex_hafta,opsiyon,vade haftası: önceki cuma -> 3. cuma (SAT; hipotez 12),-,5,236,14.7,-8.4,-0.26,1.55,0.59,27.6,-0.23,0.85,0,0,0,0.0
-opex_hafta_ceyrek,opsiyon,üç aylık vade haftası (SAT; hipotez 13),-,5,83,7.9,-15.2,-1.47,1.39,1.32,88.3,-0.85,1.01,0,0,0,0.0
-opex_hafta_aylik,opsiyon,üç aylık olmayan vade haftası (SAT),-,5,153,18.3,-4.8,0.58,0.76,0.06,3.3,0.32,0.24,0,0,0,0.0
-opex_sonra_hafta,opsiyon,vadeden sonraki hafta: 3. cuma -> sonraki cuma (AL; hipotez 11),+,5,200,-3.1,20.0,-0.41,0.21,1.07,27.5,-0.24,0.06,0,0,0,0.0
-opex_sonra_hafta_ceyrek,opsiyon,üç aylık vadeden sonraki hafta (SAT; hipotez 13),-,5,69,42.2,19.1,1.79,-0.1,-1.29,-39.0,1.23,-0.11,0,0,0,0.0
-opex_sonra_hafta_aylik,opsiyon,aylık vadeden sonraki hafta (AL),+,5,131,24.3,47.4,1.27,0.32,0.76,27.0,0.9,0.13,1,0,1,0.0
-opex_sonra_h1,opsiyon,vade günü kapanışı -> 1 gün (AL; hipotez 11),+,1,262,-5.8,-1.2,-0.66,-0.17,1.14,15.1,-0.51,-0.37,0,1,0,1.0
-opex_sonra_h2,opsiyon,vade günü kapanışı -> 2 gün (AL; hipotez 11),+,2,262,4.8,14.1,-0.15,0.99,2.46,36.1,-0.11,0.6,0,0,0,1.0
-opex_sonra_h3,opsiyon,vade günü kapanışı -> 3 gün (AL; hipotez 11),+,3,262,3.5,17.4,-0.27,0.87,1.64,33.8,-0.22,0.55,0,0,0,1.0
-al_pzt,hafta_gunu,"pzt kapanışında al, ertesi işlem günü kapanışında sat",+,1,1031,-0.3,4.4,-0.28,0.31,-1.19,-7.7,-0.24,-0.15,0,2,0,0.0
-sat_pzt,hafta_gunu,"pzt kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1031,-12.7,-17.4,-2.52,-2.0,-0.43,-2.8,-2.02,-1.42,0,6,0,0.0
-al_sal,hafta_gunu,"sal kapanışında al, ertesi işlem günü kapanışında sat",+,1,1131,-5.5,-0.8,-0.91,-1.12,-0.01,-0.1,-0.86,-0.92,0,3,0,0.0
-sat_sal,hafta_gunu,"sal kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1131,-7.5,-12.2,-2.07,-0.53,-1.14,-10.4,-1.55,-0.54,0,4,0,0.0
-al_car,hafta_gunu,"car kapanışında al, ertesi işlem günü kapanışında sat",+,1,1131,-8.9,-4.2,-1.27,-2.06,-1.26,-10.9,-1.08,-1.62,0,8,0,0.0
-sat_car,hafta_gunu,"car kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1131,-4.1,-8.7,-1.68,0.45,0.04,0.4,-1.2,0.27,0,2,0,0.0
-al_per,hafta_gunu,"per kapanışında al, ertesi işlem günü kapanışında sat",+,1,1110,-7.0,-2.3,-2.26,-0.46,-1.29,-11.4,-1.92,-0.59,0,3,0,0.0
-sat_per,hafta_gunu,"per kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1110,-6.0,-10.7,-1.28,-1.24,0.1,0.8,-1.18,-1.32,0,4,0,0.0
-al_cum,hafta_gunu,"cum kapanışında al, ertesi işlem günü kapanışında sat",+,1,1103,-10.6,-6.0,-2.61,-0.59,0.53,3.6,-1.98,-0.62,0,4,0,1.0
-sat_cum,hafta_gunu,"cum kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1103,-2.4,-7.0,-0.02,-0.93,-2.04,-14.2,-0.29,-0.81,0,3,0,-1.0
-nfp_once,makro,NFP günü: önceki kapanış -> rapor günü kapanışı (hipotez 10),+,1,255,-1.7,2.9,-0.45,0.21,-1.53,-39.6,-0.64,-0.21,0,2,0,0.0
-cpi_once,makro,CPI günü: önceki kapanış -> rapor günü kapanışı (hipotez 10),+,1,260,-4.3,0.4,0.09,-0.88,-0.9,-16.5,-0.08,-0.6,0,1,0,0.0
+kural,grup,tanim,yon,h,havuz_tum_n_gun,havuz_tum_anormal_bps,havuz_tum_net_bps,havuz_is_t,havuz_oos_t,havuz_son_t,havuz_son_anormal_bps,hedef_is_t_med,hedef_oos_t_med,n_is2_oos15,n_oos_neg2,n_ayakta,son_sinyal_20kas,brut_havuz_tum_bps,brut_havuz_is_t,brut_havuz_oos_t,brut_havuz_son_t,vix20_havuz_n_gun,vix20_havuz_anormal_bps,vix20_havuz_is_t,vix20_havuz_oos_t,degerlendirme
+tom_a,ay_donumu,T-4 -> T-1,+,3,262,23.2,37.1,2.02,-0.14,-0.9,-19.2,1.63,-0.09,0,2,0,0.0,29.7,2.39,0.13,-0.65,78,95.6,2.0,1.23,işe yaramıyor
+tom_b,ay_donumu,T-3 -> T,+,3,262,-3.0,10.9,0.61,-1.37,-1.52,-30.2,0.32,-1.07,1,1,1,0.0,3.5,1.06,-1.08,-1.27,85,23.0,1.07,-0.39,işe yaramıyor
+tom_c,ay_donumu,T -> T+3,+,3,262,10.5,24.4,0.1,1.2,-0.12,-4.0,-0.01,0.68,0,1,0,0.0,17.0,0.54,1.43,0.04,82,44.6,0.72,1.42,işe yaramıyor
+tom_d,ay_donumu,T-1 -> T+3 (4 gün),+,4,262,-0.1,18.4,-0.16,0.26,-0.33,-10.0,-0.17,0.07,0,1,0,0.0,6.3,0.23,0.5,-0.15,82,44.0,0.48,1.62,işe yaramıyor
+gun_T-3,ay_donumu,tek gün: T-3 günü getirisi,+,1,262,9.0,13.7,1.44,-0.34,0.13,1.3,1.09,-0.39,0,3,0,0.0,15.5,2.06,0.14,0.63,78,61.7,2.65,0.48,işe yaramıyor
+gun_T-2,ay_donumu,tek gün: T-2 günü getirisi,+,1,262,-1.0,3.7,1.17,-1.76,-1.98,-22.2,0.86,-1.3,0,7,0,0.0,5.5,1.94,-1.34,-1.54,85,8.7,1.0,-0.57,işe yaramıyor
+gun_T-1,ay_donumu,tek gün: T-1 günü getirisi,+,1,262,2.0,6.7,-0.36,1.07,-0.65,-7.3,-0.36,0.79,0,2,0,0.0,8.5,0.34,1.52,-0.18,80,20.8,0.36,1.2,işe yaramıyor
+gun_T+0,ay_donumu,tek gün: T+0 günü getirisi,+,1,262,-16.8,-12.1,-1.44,-2.32,-0.57,-9.3,-1.23,-1.72,0,14,0,0.0,-10.3,-0.57,-1.85,-0.25,82,-23.8,-0.62,-1.62,işe yaramıyor
+gun_T+1,ay_donumu,tek gün: T+1 günü getirisi,+,1,262,2.5,7.2,0.13,0.35,-1.56,-22.9,0.08,-0.07,0,2,0,0.0,9.0,0.74,0.78,-1.22,82,-7.1,-0.53,0.35,işe yaramıyor
+gun_T+2,ay_donumu,tek gün: T+2 günü getirisi,+,1,263,1.0,5.6,-0.69,1.25,0.14,2.3,-0.41,0.61,0,1,0,0.0,7.5,0.03,1.69,0.46,82,26.7,0.46,1.91,işe yaramıyor
+gun_T+3,ay_donumu,tek gün: T+3 günü getirisi,+,1,263,-6.8,-2.1,-1.06,-0.14,0.06,1.3,-0.76,-0.09,0,0,0,0.0,-0.3,-0.26,0.26,0.31,86,10.5,0.18,0.66,işe yaramıyor
+tom_a_cuma,ay_donumu,"T-4 -> T-1, T cuma",+,3,110,38.1,52.0,1.87,-0.32,0.46,15.0,1.36,-0.16,0,1,0,0.0,44.5,2.06,-0.14,0.62,31,142.6,1.67,0.8,işe yaramıyor
+tom_a_cumadegil,ay_donumu,"T-4 -> T-1, T cuma değil",+,3,152,12.4,26.3,0.9,0.1,-1.65,-46.1,0.66,0.29,0,3,0,0.0,19.0,1.25,0.31,-1.48,47,64.6,1.1,0.96,işe yaramıyor
+tom_c_cuma,ay_donumu,"T -> T+3, T cuma",+,3,110,20.7,34.6,-0.37,1.96,-0.3,-11.4,-0.36,1.48,0,0,0,0.0,27.1,-0.04,2.09,-0.16,30,106.7,0.63,2.3,işe yaramıyor
+tom_c_cumadegil,ay_donumu,"T -> T+3, T cuma değil",+,3,152,3.2,17.1,0.35,-0.19,0.04,1.9,0.09,-0.3,0,0,0,0.0,9.7,0.66,-0.01,0.14,52,8.8,0.5,-0.51,işe yaramıyor
+ceyrek_son_gun,ceyrek,"çeyrek sonu son gün (T, Mar/Haz/Eyl/Ara)",+,1,87,0.4,5.1,0.15,-0.14,0.67,17.2,-0.07,-0.33,0,0,0,0.0,6.8,0.68,0.21,0.87,26,4.1,0.29,-0.14,işe yaramıyor
+ay_son_gun_ceyrekdisi,ceyrek,çeyrek dışı ay sonu son gün,+,1,175,-25.3,-20.6,-1.79,-2.55,-1.07,-22.0,-1.3,-1.86,0,14,0,0.0,-18.8,-1.11,-2.21,-0.82,56,-36.8,-0.88,-1.79,işe yaramıyor
+ceyrek_ilk_gun,ceyrek,çeyreğin ilk işlem günü (T+1),+,1,87,16.6,21.3,1.29,0.31,0.42,6.4,1.01,-0.08,0,2,0,0.0,23.0,1.69,0.55,0.75,26,5.4,0.28,-0.14,işe yaramıyor
+ay_ilk_gun_ceyrekdisi,ceyrek,çeyrek dışı ayın ilk işlem günü,+,1,175,-4.5,0.1,-0.56,0.2,-1.81,-36.9,-0.56,0.0,0,2,0,0.0,2.0,-0.1,0.57,-1.58,56,-12.9,-0.74,0.58,işe yaramıyor
+pretatil,tatil,tatil öncesi son işlem günü,+,1,200,8.0,12.7,0.39,2.0,1.68,14.9,0.37,0.85,0,0,0,0.0,14.5,1.11,2.64,2.19,63,11.2,0.15,1.21,işe yaramıyor
+pretatil_tam,tatil,"tatil öncesi gün, tam gün",+,1,176,6.9,11.6,0.3,1.56,1.12,10.8,0.3,0.67,0,0,0,0.0,13.4,0.95,2.16,1.62,58,15.8,0.36,1.21,işe yaramıyor
+pretatil_yarim,tatil,"tatil öncesi gün, yarım gün (24 Ara, 3 Tem)",+,1,24,16.1,20.8,0.41,2.42,1.81,39.0,0.1,1.61,0,0,0,0.0,22.6,0.76,2.51,1.85,5,-41.9,-0.81,1.0,işe yaramıyor
+yarim_gun,tatil,bütün yarım günler (Şükran sonrası cuma dahil),+,1,45,-5.3,-0.7,-0.48,0.01,2.25,41.2,-0.21,0.17,0,0,0,0.0,1.1,-0.06,0.26,2.29,13,-39.6,-1.22,-0.84,işe yaramıyor
+sukran_hafta,tatil,Şükran salı kapanışı -> cuma (yarım gün) kapanışı,+,2,21,-0.4,8.9,0.16,-0.31,1.1,91.6,0.37,-0.17,0,0,0,0.0,6.0,0.31,-0.2,1.13,8,18.7,0.02,0.82,işe yaramıyor
+fomc_once,fomc,karar gününden önceki kapanış -> karar günü kapanışı,+,1,172,15.7,20.4,2.05,-0.43,-1.67,-39.8,1.53,-0.44,0,2,0,0.0,22.2,2.54,-0.12,-1.47,57,54.1,1.95,0.66,işe yaramıyor
+fomc_sonra_h1,fomc,karar günü kapanışı -> 1 gün,+,1,172,-31.4,-26.7,-2.41,-1.46,1.37,24.6,-1.87,-1.18,0,2,0,0.0,-24.9,-1.9,-1.19,1.63,59,-65.1,-1.39,-2.0,işe yaramıyor
+fomc_sonra_h2,fomc,karar günü kapanışı -> 2 gün,+,2,172,-38.5,-29.2,-1.81,-2.15,-0.65,-18.4,-1.37,-1.49,0,7,0,0.0,-32.0,-1.38,-1.96,-0.47,59,-69.3,-1.2,-1.82,işe yaramıyor
+fomc_sonra_h3,fomc,karar günü kapanışı -> 3 gün,+,3,172,-26.8,-12.9,-0.87,-1.39,0.0,0.1,-0.81,-1.01,0,2,0,0.0,-20.3,-0.51,-1.23,0.13,59,-20.3,0.22,-1.02,işe yaramıyor
+fomc_once_vix20,fomc,"fomc_once, giriş günü VIX > 20",+,1,59,52.2,56.9,2.01,0.55,-0.42,-20.6,1.48,0.36,0,0,0,0.0,58.6,2.18,0.69,-0.31,55,54.5,1.95,0.56,işe yaramıyor
+fomc_sonra_vix20_h1,fomc,"fomc_sonra_h1, giriş günü VIX > 20",+,1,56,-64.3,-59.6,-1.38,-1.88,0.35,10.4,-1.2,-1.53,0,2,0,0.0,-58.0,-1.2,-1.78,0.52,53,-69.7,-1.45,-1.91,işe yaramıyor
+fomc_sonra_vix20_h2,fomc,"fomc_sonra_h2, giriş günü VIX > 20",+,2,56,-67.0,-57.8,-1.29,-1.57,0.13,6.3,-0.98,-1.25,0,2,0,0.0,-60.7,-1.12,-1.48,0.25,53,-72.5,-1.28,-1.65,işe yaramıyor
+fomc_sonra_vix20_h3,fomc,"fomc_sonra_h3, giriş günü VIX > 20",+,3,56,-11.1,2.8,0.33,-0.76,1.54,131.1,0.11,-0.51,0,2,0,0.0,-4.7,0.47,-0.69,1.57,53,-18.5,0.26,-0.92,işe yaramıyor
+opex_hafta,opsiyon,vade haftası: önceki cuma -> 3. cuma (SAT; hipotez 12),-,5,236,14.7,-8.4,-0.26,1.55,0.59,27.6,-0.23,0.85,0,0,0,0.0,21.2,0.12,1.72,0.7,75,56.0,0.5,1.47,işe yaramıyor
+opex_hafta_ceyrek,opsiyon,üç aylık vade haftası (SAT; hipotez 13),-,5,83,7.9,-15.2,-1.47,1.39,1.32,88.3,-0.85,1.01,0,0,0,0.0,14.4,-1.22,1.45,1.38,31,64.1,-0.72,1.59,işe yaramıyor
+opex_hafta_aylik,opsiyon,üç aylık olmayan vade haftası (SAT),-,5,153,18.3,-4.8,0.58,0.76,0.06,3.3,0.32,0.24,0,0,0,0.0,24.8,0.86,0.93,0.14,44,50.2,1.05,0.1,işe yaramıyor
+opex_sonra_hafta,opsiyon,vadeden sonraki hafta: 3. cuma -> sonraki cuma (AL; hipotez 11),+,5,200,-3.1,20.0,-0.41,0.21,1.07,27.5,-0.24,0.06,0,0,0,0.0,3.4,-0.06,0.36,1.26,67,34.1,0.06,1.15,işe yaramıyor
+opex_sonra_hafta_ceyrek,opsiyon,üç aylık vadeden sonraki hafta (SAT; hipotez 13),-,5,69,42.2,19.1,1.79,-0.1,-1.29,-39.0,1.23,-0.11,0,0,0,0.0,48.7,1.97,-0.01,-1.14,26,23.6,0.59,-0.16,işe yaramıyor
+opex_sonra_hafta_aylik,opsiyon,aylık vadeden sonraki hafta (AL),+,5,131,24.3,47.4,1.27,0.32,0.76,27.0,0.9,0.13,1,0,1,0.0,30.8,1.55,0.45,0.9,41,78.7,0.74,1.65,işe yaramıyor
+opex_sonra_h1,opsiyon,vade günü kapanışı -> 1 gün (AL; hipotez 11),+,1,262,-5.8,-1.2,-0.66,-0.17,1.14,15.1,-0.51,-0.37,0,1,0,1.0,0.7,-0.06,0.26,1.51,90,3.9,-0.11,0.58,işe yaramıyor
+opex_sonra_h2,opsiyon,vade günü kapanışı -> 2 gün (AL; hipotez 11),+,2,262,4.8,14.1,-0.15,0.99,2.46,36.1,-0.11,0.6,0,0,0,1.0,11.3,0.4,1.29,2.76,90,45.6,0.81,2.01,işe yaramıyor
+opex_sonra_h3,opsiyon,vade günü kapanışı -> 3 gün (AL; hipotez 11),+,3,262,3.5,17.4,-0.27,0.87,1.64,33.8,-0.22,0.55,0,0,0,1.0,10.0,0.16,1.12,1.87,90,36.9,0.13,1.83,işe yaramıyor
+al_pzt,hafta_gunu,"pzt kapanışında al, ertesi işlem günü kapanışında sat",+,1,1031,-0.3,4.4,-0.28,0.31,-1.19,-7.7,-0.24,-0.15,0,2,0,0.0,6.2,1.12,1.16,-0.38,333,23.8,1.58,1.76,işe yaramıyor
+sat_pzt,hafta_gunu,"pzt kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1031,-12.7,-17.4,-2.52,-2.0,-0.43,-2.8,-2.02,-1.42,0,6,0,0.0,-6.2,-1.12,-1.16,0.38,333,-36.4,-2.52,-2.5,işe yaramıyor
+al_sal,hafta_gunu,"sal kapanışında al, ertesi işlem günü kapanışında sat",+,1,1131,-5.5,-0.8,-0.91,-1.12,-0.01,-0.1,-0.86,-0.92,0,3,0,0.0,1.0,0.58,-0.3,0.56,361,0.6,-0.24,0.38,işe yaramıyor
+sat_sal,hafta_gunu,"sal kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1131,-7.5,-12.2,-2.07,-0.53,-1.14,-10.4,-1.55,-0.54,0,4,0,0.0,-1.0,-0.58,0.3,-0.56,361,-13.2,-0.79,-1.06,işe yaramıyor
+al_car,hafta_gunu,"car kapanışında al, ertesi işlem günü kapanışında sat",+,1,1131,-8.9,-4.2,-1.27,-2.06,-1.26,-10.9,-1.08,-1.62,0,8,0,0.0,-2.4,0.21,-1.26,-0.65,377,-10.7,0.04,-1.77,işe yaramıyor
+sat_car,hafta_gunu,"car kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1131,-4.1,-8.7,-1.68,0.45,0.04,0.4,-1.2,0.27,0,2,0,0.0,2.4,-0.21,1.26,0.65,377,-2.0,-1.07,1.08,işe yaramıyor
+al_per,hafta_gunu,"per kapanışında al, ertesi işlem günü kapanışında sat",+,1,1110,-7.0,-2.3,-2.26,-0.46,-1.29,-11.4,-1.92,-0.59,0,3,0,0.0,-0.5,-0.49,0.39,-0.69,356,-8.6,-1.38,0.05,işe yaramıyor
+sat_per,hafta_gunu,"per kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1110,-6.0,-10.7,-1.28,-1.24,0.1,0.8,-1.18,-1.32,0,4,0,0.0,0.5,0.49,-0.39,0.69,356,-4.0,0.1,-0.79,işe yaramıyor
+al_cum,hafta_gunu,"cum kapanışında al, ertesi işlem günü kapanışında sat",+,1,1103,-10.6,-6.0,-2.61,-0.59,0.53,3.6,-1.98,-0.62,0,4,0,1.0,-4.1,-1.3,0.17,1.29,350,-9.3,-1.27,0.42,işe yaramıyor
+sat_cum,hafta_gunu,"cum kapanışında sat, ertesi işlem günü kapanışında kapat",-,1,1103,-2.4,-7.0,-0.02,-0.93,-2.04,-14.2,-0.29,-0.81,0,3,0,-1.0,4.1,1.3,-0.17,-1.29,350,-3.4,0.43,-1.04,işe yaramıyor
+nfp_once,makro,NFP günü: önceki kapanış -> rapor günü kapanışı (hipotez 10),+,1,255,-1.7,2.9,-0.45,0.21,-1.53,-39.6,-0.64,-0.21,0,2,0,0.0,4.8,0.31,0.57,-1.34,85,-31.3,-2.08,-0.04,işe yaramıyor
+cpi_once,makro,CPI günü: önceki kapanış -> rapor günü kapanışı (hipotez 10),+,1,260,-4.3,0.4,0.09,-0.88,-0.9,-16.5,-0.08,-0.6,0,1,0,0.0,2.2,0.8,-0.53,-0.62,93,-3.2,0.56,-0.92,işe yaramıyor
