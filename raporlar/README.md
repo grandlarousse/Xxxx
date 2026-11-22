@@ -65,6 +65,7 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 Klasör: `2026-11-20_izmir_sosyal_cevre/`
 
 - `RAPOR.md`: Kısa yanıt, bu hafta yapılacaklar, haftalık iskelet, maliyet senaryoları, takvim, alan alan tablolar (dil ve yabancılar, gönüllülük, dans, spor ve doğa, sanat, oyun ve kitap, iş ve çevre, dış halka, uygulamalar), doğrulama kapsamı ve kaynaklar.
+- `TAKVIM.md`: 23 Kasım–22 Aralık 2026 için gün gün takvim; yıldızlı satırlar önerilen plan, STK ve kulüpler için ilk adım tablosu.
 - `ek/TUM_LISTE.md`: 698 satırlık iddia defteri, temaya göre; her satırda kaynak, güven, doğrulayıcı hükmü ve bağlantı durumu.
 - `ek/defter.json`, `ek/d1_*`, `ek/d2_*`, `ek/d3_*`: 34 üretici ajanın özet ve defterleri.
 - `ek/dogrulama/`: doğrulama girdileri, `sonuc.json` ve `SONUC.md` (244 satırın hükmü ve düzeltmeleri).
