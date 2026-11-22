@@ -150,7 +150,7 @@ FOMC_GUN = pd.DatetimeIndex(FOMC.loc[FOMC.islem_gunu & (FOMC.tarih >= "2005-01-0
 # ---------------------------------------------------------------------------------------------------------------
 def bls(ad):
     h = open(os.path.join(HAM, f"bls_{ad}.html")).read()
-    g = sorted(set(pd.Timestamp(f"{x[4:]}-{x[:2]}-{x[2:4]}") for x in re.findall(rf"archives/{ad}_(\d{{8}})\.htm", h)))
+    g = sorted(set(pd.Timestamp(f"{x[4:]}-{x[:2]}-{x[2:4]}") for x in re.findall(rf"archives/{ad}_(\d{{8}})\.(?:htm|pdf)", h)))
     return pd.DatetimeIndex(g)
 
 
@@ -262,6 +262,8 @@ OZEL = {("sat_car", "UNG"): "hipotez e1#0: UNG perşembe (depolama raporu günü
         ("sat_sal", "USO"): "USO rapor günü (çarşamba) getirisi"}
 
 TOM_KURAL = [k for k, v in KURAL.items() if v["grup"] in ("ay_donumu", "ceyrek")]
+log("tatil öncesi gün/yıl:", pd.Series(pretatil_gun.year).value_counts().sort_index().to_dict())
+log("yarım gün/yıl:", pd.Series(YARIM.year).value_counts().sort_index().to_dict())
 log("kural sayısı:", len(KURAL), "hedef:", len(HEDEFLER))
 
 
@@ -346,6 +348,14 @@ kol = ["sinyal_id", "bicim", "tanim", "hedef", "yon", "h", "tum_n", "oos_n", "tu
        "t1sonra_n", "t1sonra_anormal_bps", "t1sonra_t", "spyar_is_t", "spyar_oos_t", "plasebo_p_dairesel", "kaydirma_ok",
        "yil_pozitif_oran", "acilis_anormal_bps", "acilis_net_bps", "k_A", "k_B", "k_C", "k_D", "k_E", "k_F", "k_G",
        "k_H", "k_I", "bh_oos", "sinif", "son_gun", "son_sinyal", "not"]
+def buyuk5(r):
+    f = o.ileri_getiri([r.hedef], int(r.h), "acilis" if r.hedef in BAYAT else "kapanis")[r.hedef]
+    x = (SIN[r.bicim] * f)[SIN[r.bicim] != 0].dropna().sort_values(ascending=False)
+    return "; ".join(f"{d.date()} {v * 1e4:+.0f}" for d, v in x.head(5).items())
+
+
+ayk["en_buyuk_5_islem_bps"] = [buyuk5(r) for r in ayk.itertuples()] if len(ayk) else []
+kol.append("en_buyuk_5_islem_bps")
 ayk[[c for c in kol if c in ayk.columns]].to_csv(os.path.join(CIK, "ayakta_kalanlar.csv"), index=False)
 log("sınıflar:", df["sinif"].value_counts().to_dict())
 
@@ -356,7 +366,17 @@ oz = []
 for ad, v in KURAL.items():
     S = pd.DataFrame({hd: SIN[ad] for hd in HEDEF_HISSE})
     hv = o.havuz_donemli(S, v["h"])
+    h0 = o.havuz_donemli(S, v["h"], maliyet_bps=0)  # filtre değerlendirmesi: maliyetsiz (başka sinyalin üstüne biner)
+    hz = o.havuz_donemli(S.where(vixg_tk.reindex(S.index) > 20, 0.0), v["h"])  # bugünkü rejim: dünkü VIX > 20
     g = df[df.bicim == ad]
+    nsg = int(g.sinif.isin(["SAGLAM", "KOSULLU"]).sum())
+    i0, o0 = h0.get("is_t_anormal", np.nan), h0.get("oos_t_anormal", np.nan)
+    if nsg:
+        deg = "tek başına sinyal"
+    elif np.sign(i0) == np.sign(o0) and min(abs(i0), abs(o0)) >= 1.5:
+        deg = "filtre adayı: " + ("ekle" if i0 > 0 else "kaçın") + " (kural yönüne göre)"
+    else:
+        deg = "işe yaramıyor"
     oz.append({"kural": ad, "grup": v["grup"], "tanim": v["tanim"], "yon": v["yon"], "h": v["h"],
                "havuz_tum_n_gun": hv.get("tum_n_gun"), "havuz_tum_anormal_bps": hv.get("tum_anormal_net_bps"),
                "havuz_tum_net_bps": hv.get("tum_net_bps"),
@@ -366,7 +386,12 @@ for ad, v in KURAL.items():
                "hedef_oos_t_med": round(float(num("oos_t_anormal")[g.index].median()), 2),
                "n_is2_oos15": int(((num("is_t_anormal") >= 2) & (num("oos_t_anormal") >= 1.5))[g.index].sum()),
                "n_oos_neg2": int((num("oos_t_anormal") <= -2)[g.index].sum()),
-               "n_ayakta": int((g.sinif != "ELENDI").sum()), "son_sinyal_20kas": float(SIN[ad].iloc[-1])})
+               "n_ayakta": int((g.sinif != "ELENDI").sum()), "son_sinyal_20kas": float(SIN[ad].iloc[-1]),
+               "brut_havuz_tum_bps": h0.get("tum_anormal_net_bps"), "brut_havuz_is_t": i0, "brut_havuz_oos_t": o0,
+               "brut_havuz_son_t": h0.get("son_t_anormal"),
+               "vix20_havuz_n_gun": hz.get("tum_n_gun"), "vix20_havuz_anormal_bps": hz.get("tum_anormal_net_bps"),
+               "vix20_havuz_is_t": hz.get("is_t_anormal"), "vix20_havuz_oos_t": hz.get("oos_t_anormal"),
+               "degerlendirme": deg})
 OZ = pd.DataFrame(oz)
 OZ.to_csv(os.path.join(CIK, "kural_ozet.csv"), index=False)
 log("kural özeti yazıldı")

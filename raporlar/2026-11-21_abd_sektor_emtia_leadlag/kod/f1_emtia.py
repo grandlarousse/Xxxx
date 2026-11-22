@@ -52,7 +52,7 @@ def hizala(r):
 
 
 def seviye(semboller):
-    d = pd.concat({s: o.oku(s)["close"] for s in semboller}, axis=1).dropna()
+    d = pd.concat({s: o.oku(s)["close"] for s in semboller}, axis=1, sort=True).dropna()
     return d
 
 
@@ -401,7 +401,7 @@ def main():
     cs = pd.read_csv(os.path.join(o.KOK, "ek", "backtest", "cift", "sonuclar.csv"), low_memory=False)
     f1 = cs[cs.aile == "F1"].copy()
     f1_hip = f1[f1.bicim != "B1r"]
-    yeni = f1_hip[(f1_hip.is_t_anormal < 2) & (f1_hip.oos_t_anormal >= 2.5)].copy()
+    yeni = f1[(f1.is_t_anormal < 2) & (f1.oos_t_anormal >= 2.5)].copy()  # B1r dahil (arındırılmış hâli de bilgi verir)
     yeni["kaynak"] = "cift_motoru"
     # ---- 2) özel öncüler
     ara = os.path.join(ARA, "ozel.pkl")
@@ -424,19 +424,25 @@ def main():
     ozg = (pd.to_numeric(ana.spyden_ar_is_t, errors="coerce") >= 2) & (pd.to_numeric(ana.spyden_ar_oos_t, errors="coerce") >= 2)
     ana.loc[ozel & ana.spyden_ar_is_t.notna(), "ozgu"] = ozg[ozel & ana.spyden_ar_is_t.notna()]
     tum = pd.concat([ana, kon], ignore_index=True)
-    yeni2 = ana[(ana.bicim != "B1r") & (ana.is_t_anormal < 2) & (ana.oos_t_anormal >= 2.5)].copy()
+    yeni2 = ana[(ana.is_t_anormal < 2) & (ana.oos_t_anormal >= 2.5)].copy()
     yeni2["kaynak"] = "f1_emtia"
     ys = ["kaynak", "oncu", "hedef", "bicim", "yon", "h", "oos_n", "oos_anormal_net_bps", "is_t_anormal", "oos_t_anormal", "son_net_bps"]
-    pd.concat([yeni[ys], yeni2[ys]]).sort_values("oos_t_anormal", ascending=False).to_csv(os.path.join(CIKTI, "yeni_rejim.csv"), index=False)
+    yr = pd.concat([yeni.assign(grup="hazir_cift"), yeni2]).sort_values("oos_t_anormal", ascending=False)
+    yr = yr.drop_duplicates(["oncu", "hedef", "bicim", "yon", "h"], keep="last")
+    yr["sinyal_id"] = [sid(r) for r in yr.to_dict("records")]
+    yr[["sinyal_id"] + ys].to_csv(os.path.join(CIKTI, "yeni_rejim.csv"), index=False)
     # ---- çürütme: ELENDİ dışı (hazır F1 + özel hipotez satırları)
     hazir = f1[f1.sinif != "ELENDI"].copy()
     hazir["grup"] = "hazir_cift"
     hazir["sinyal_id"] = [sid(r) for r in hazir.to_dict("records")]
-    for on in hazir.oncu.unique():
-        XREG.setdefault(on, (o.hizali_getiri(on), on.endswith("=F")))
+    for on in set(hazir.oncu) | set(yr.oncu):
+        if on not in XREG:
+            XREG[on] = (o.hizali_getiri(on), on.endswith("=F"))
     ak = pd.concat([hazir.assign(kaynak="cift_motoru"), ana[ana.sinif != "ELENDI"].assign(kaynak="f1_emtia")], ignore_index=True)
+    yr_c = yr[~yr.sinyal_id.isin(ak.sinyal_id)].assign(kaynak=lambda q: q.kaynak + "/yeni_rejim")
+    ak_c = pd.concat([ak, yr_c], ignore_index=True)
     cur = []
-    for r in ak.to_dict("records"):
+    for r in ak_c.to_dict("records"):
         sig, z, hd, lag, giris = sinyal_bul(r)
         etf = None
         if str(r["oncu"]).endswith("=F") and VADELI_ETF.get(r["oncu"]):

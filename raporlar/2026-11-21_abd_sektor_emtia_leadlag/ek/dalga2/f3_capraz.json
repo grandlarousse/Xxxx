@@ -1,0 +1,49 @@
+{
+ "arac": "31/40",
+ "ozet": "F3 kapsamında 2.784 hipotez testi yapıldı: cift_motoru'nun F3 satırlarından 1.917, bu betikteki özel öncülerden 867. Bunlara ek olarak 243 B1r (piyasadan arındırma) testi var. 9 test keşif sayılıyor (yeni dip oranı eşiğini ben seçtim). Beklenen yanlış pozitif sayısı SAĞLAM için 0,11, KOŞULLU için 0,39 (yalnız özel öncülerde 0,034 ve 0,12).\n\nSonuç: 0 SAĞLAM, 0 KOŞULLU, 2 İZLE. İki İZLE de cift_motoru'ndan geliyor.\n- ^TNX -> NLY (B1, h=1): öncüye özgü değil. 1 gün geç girişte -12 bps (t -2,1). Etki yalnız VIX > 20 günlerinde ve 2008 krizinde. SON dönem neti -5 bps.\n- UUP -> PCAR (B2, h=3): kontrol regresyonunda OOS t 0,53. Hedefin kendi geri dönüşü, öncü bilgisi değil.\n\nÖzel öncülerde 867 testin hiçbiri A koşulunu (IS t >= 2,5) geçmedi; İZLE eşiğine de ulaşan yok.\n\nEşiğe en yakın sinyal: VIX'in 5 günlük sıçraması (z >= 2) sonrası SPY, QQQ, XLK AL, h=1-2. Ortalama 40-60 bps, IS t 1,6-1,9, OOS t 1,1-1,6, 74 bağımsız dönem. Ama:\n- VIX 1 gün gecikmeli kullanılınca t 0-0,5'e düşüyor. VIX 16:15 ET'de kapandığı için bu önemli.\n- Ertesi açılıştan girişte kazancın yarısı gidiyor.\n- SPY'ın kendi günlük ve 5 günlük getirisi kontrol edilince t: IS 1,4, OOS 0,9.\n- Kısacası bu, 1. dalgadaki uyarıyla aynı: piyasanın kendi aşırı satışının dönüşü, öncü bilgisi değil.\n\nHipotezle çelişenler:\n- VIX/VIX3M > 1 (ters yapı) AL: 84 bağımsız dönemde (IS 57, OOS 28) hiçbir hedefte t > 1 yok (SPY h=1 IS -0,16, OOS 0,05).\n- VIX9D/VIX > 1,1: OOS'ta işaret negatife dönüyor.\n- HYG kuyruğu sonrası AL: OOS'ta negatif (IWM -17 bps, t -1,0). Zayıf da olsa \"kredi stresi sürer\" yönünde.\n- Faiz (TLT, ^TNX), dolar (UUP), HYG-IEF artığı, risk iştahı farkları ve kripto ETF -> madenci çiftleri: pozitif yönde tutarlı sonuç yok. Kriptoda ön testteki \"öncülük yok\" doğrulandı.\n\nRejim tablosu (brüt, maliyetsiz): VIX > 25/30/35, genişlik < %20/%10 ve VIX sıçraması koşullarında 1-3 günlük ortalama getiri yükseliyor. Örneğin VIX > 35'te SPY h=1 IS'te +16, OOS'ta +49 bps. Ancak oynaklık 1,5-3,5 kat artıyor, isabet yalnız 2-10 puan yükseliyor ve hiçbir koşulda t 1,3'ü geçmiyor. VIX > 35 yalnız 19 bağımsız dönemden oluşuyor.\n\nTers yönde tutarlı 14 B1r satırı var (sınıf almıyor). Risk iştahı farkının artığı yükselince ertesi gün QQQ ve XLY, SPY'ın gerisinde kalıyor (7-13 bps). ^TNX -> IGV satırındaki IS t -7,9 büyük olasılıkla IGV'nin 2015 öncesi düşük hacminden gelen bayat kapanış yanılgısı.\n\n20.11.2026 kapanışında açık olan koşullar:\n- VIX 35,89 (> 20, > 25, > 30, > 35 eşiklerinin hepsi)\n- VIX/VIX3M 1,16 (4 gündür)\n- VIX9D/VIX 1,13\n- VIX z5 2,57\n- Genişlik %9,9 (< %10)\n- Yeni dip oranı %61 (eşik %28,5)\n\nHYG kuyruğu kıl payı kapalı: 5 günlük getiri -%0,80, eşik -%0,82. İki İZLE sinyali de açık (NLY AL, PCAR AL), ama ikisi de çürütme testlerinde zayıf.",
+ "test_sayisi": 2784,
+ "beklenen_yanlis_pozitif": "F3 toplamı (2.784 hipotez testi): SAĞLAM 0,11, KOŞULLU 0,39. Yalnız özel öncüler (867): SAĞLAM 0,034, KOŞULLU 0,12. cift F3 (1.917): SAĞLAM 0,075, KOŞULLU 0,27.",
+ "ayakta_kalanlar": [
+  {
+   "sinyal": "UUP -> PCAR",
+   "kural": "B2 yetişme artığı, yön -, z(e)<=-1 AL",
+   "hedef": "PCAR",
+   "h": "3",
+   "n": "1267",
+   "anormal_net_bps": "25.7",
+   "t_is": "2.10",
+   "t_oos": "2.21",
+   "son_net_bps": "0.8",
+   "sinif": "IZLE",
+   "son_sinyal": "1.0 (AL açık, 2026-11-20)",
+   "not": "Öncüye özgü değil: kontrol regresyonu t IS 1,82, OOS 0,53, yani artık dönüşü. Etki VIX > 20 (t 3,5) ve SMA200 altında (t 3,8); VIX <= 20'de 0. En iyi yıl 2008; çıkarılınca t 2,3. Ertesi açılış girişinde 12,6 bps (t 1,45). Hisse düzeyi B2 olduğu için en çok KOŞULLU olabilir."
+  },
+  {
+   "sinyal": "^TNX -> NLY",
+   "kural": "B1, yön -: 10 yıllık faiz değişimi z<=-1 iken NLY AL, z>=+1 iken SAT",
+   "hedef": "NLY",
+   "h": "1",
+   "n": "1604",
+   "anormal_net_bps": "15.5",
+   "t_is": "2.12",
+   "t_oos": "1.86",
+   "son_net_bps": "-5.1",
+   "sinif": "IZLE",
+   "son_sinyal": "1.0 (AL açık; ^TNX -14 bp, z -2,6)",
+   "not": "Öncüye özgü değil (B1r ölçütü); SPY'dan arındırılınca t 1,98. 1 gün geç giriş -12 bps (t -2,1), ertesi açılış 6,8 bps (t 1,35). Yalnız VIX > 20'de (t 3,1); VIX <= 20'de 0. 2008 çıkarılınca t 1,74. SON dönem neti negatif."
+  }
+ ],
+ "kutuphane_sorunlari": "1) cift_motoru.cift_testi hedef='SPY' olduğunda o.basit_getiri(['SPY','SPY']) çağrılıyor ve rr['SPY'] iki sütunlu DataFrame dönüyor. Bu yüzden SPY hedefli satırlarda B2 sinyali, ikiz denetimi (x.corr(r)) ve kismi_t yanlış nesne üzerinde hesaplanıyor; hata vermiyor ama sonuçları güvenilmez. cift/sonuclar.csv'deki 45 SPY hedefli B2 satırı şüpheli (hepsi ELENDİ). B1 ve B3 etkilenmiyor, çünkü sinyal yalnız x'ten üretiliyor. Kendi betiğimde aynı kalıbı dict.fromkeys ile düzelttim.\n2) ortak.ek_olcutler hedge parametresini yalnız plaseboya geçiriyor. islem_testi 'acilis'/'ertesi' çağrıları ve yillik_tablo hedge'siz çalışıyor. Bu yüzden B1r satırlarında k_F ve k_I ham getiriyle ölçülüyor. Ayrıca yillik_tablo'nun hedge parametresi hiç yok.\n3) ortak.siniflandir'daki k_D, YONTEM.md bölüm 6'nın SAT bacağı için istediği \"ham net >= 0\" ek koşulunu uygulamıyor.\n4) cift_testi son_sinyal'i yalnız ön elemeyi geçen satırlara ekliyor; bölüm 8 ise her satırda son_gun ve son_sinyal istiyor.\n5) Tasarım notu: bölüm 7.7'deki \"öncü 1 gün gecikmeli, kapanış girişi\" testi, maliyet zamanlaması dışında \"ertesi kapanış\" girişiyle sayısal olarak aynı (sig(t-1)·f(t) = sig(t)·f(t+1)). Bu iki test ayrı kanıt sayılmamalı.\n6) havuz_donemli donem_sinirlari yerine sabit IS_BITIS kullanıyor: 2015 sonrası araçlarda %55/%45 kuralı uygulanmıyor (bu görevde kullanılmadı).",
+ "acik_kalanlar": "- Bölüm 7.10 (son 60 günün 5 dakikalık verisiyle 15:50 ve 16:00 sinyallerinin örtüşmesi) yapılmadı; veri yok.\n- Bölüm 7.12 (B2 için ilgisiz öncü plasebosu) uygulanmadı: özel öncülerde B2 kullanılmadı, cift'teki UUP->PCAR B2 için de bu plasebo koşulmadı (kontrol regresyonu yapıldı).\n- Hipotez dosyasındaki bileşik kurallar test edilmedi: IBS < 0,2 ve VIX > 25; VIX > 30 ve günlük artış > %15; ^MOVE ve ^GVZ sıçramaları; LQD 21 günlük filtre. Bunlar F4 koşul kuralı niteliğinde; cift_motoru yalnız düz getiri biçimleriyle (B1/B2/B3) sınadı.\n- Görev 2(i) ülke ETF'leri ve yabancı endeksler: ayrıca koşulmadı; cift_motoru F3 sonuçlarına dayanıyor (000001.SS, ^AXJO, EWY, FXI, ^HSI çiftleri; hepsi ELENDİ).\n- Genişlik ölçüsü bugünkü 628 hisseden kuruldu; hayatta kalma yanlılığı düzeltilmedi.\n- ^TNX -> IGV ters yön bulgusunun bayat kapanıştan geldiği açılış girişiyle ayrıca sınanmadı; yalnız hacimden çıkarıldı.\n- cift_motoru başka bir ajanca yeniden çalıştırılıyordu (calisma_gunlugu 00:01). Kullanılan F3 sonuçları 21.11 23:59 tarihli dosyadan; dosya değişirse b1 bölümü --yeniden ile koşulmalı.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/kod/f3_capraz.py",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f3_capraz/sonuclar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f3_capraz/ayakta_kalanlar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f3_capraz/NOT.md",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f3_capraz/rejim_tablosu.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f3_capraz/son_degerler.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f3_capraz/yakin_adaylar.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f3_capraz/ters_yon.csv",
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/backtest/f3_capraz/ara/"
+ ]
+}

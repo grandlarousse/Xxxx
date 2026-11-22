@@ -244,7 +244,7 @@ def sinyal_kur(row, X=None):
     x = X.get(on)
     if x is None:
         x = o.hizali_getiri(on)
-    rr = o.basit_getiri([hd, "SPY"])
+    rr = o.basit_getiri(list(dict.fromkeys([hd, "SPY"])))  # SPY hedefinde çift sütun olmasın
     r, spy = rr[hd], rr["SPY"]
     x = x.reindex(r.index)
     gercek = on.split("-")[0].replace("_fark", "").replace("_artik", "")
@@ -268,7 +268,7 @@ def kontrol_t(sig, hedef, h):
     import statsmodels.api as sm
 
     f = o._ileri(hedef, h, "kapanis")
-    rr = o.basit_getiri([hedef, "SPY"])
+    rr = o.basit_getiri(list(dict.fromkeys([hedef, "SPY"])))
     r = rr[hedef]
     sd = r.rolling(60, min_periods=40).std().shift(1)
     d = pd.DataFrame({"f": f, "s": sig.reindex(f.index).fillna(0.0), "zr": o.zskor(r, 60),
