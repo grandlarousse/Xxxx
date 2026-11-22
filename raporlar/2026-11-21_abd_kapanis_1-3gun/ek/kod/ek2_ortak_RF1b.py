@@ -61,7 +61,7 @@ def ayrinti(m, isl, kom, donem, cok):
         if mm_.sum():
             o = alt_ozet(m, isl, kom, mm_)
             out[f"{ad}_n"], out[f"{ad}_net_bps"] = o["n_islem"], o["net_bps"]
-            out[f"{ad}_t"] = t_karar(o, cok)
+            out[f"{ad}_t"] = o.get("t_kume" if cok else "t_olcekli", np.nan)
     v30 = dm & (isl["kova_no"].to_numpy() == 2)
     out["v30_n"] = int(v30.sum())
     out["v30_net_bps"] = float(net[v30].mean() * 1e4) if v30.sum() else np.nan
@@ -86,3 +86,23 @@ def bolum30(m, isl, kom, donem):
 
 def yaz_is(df, aile, parca=""):
     df.to_pickle(os.path.join(SCR, f"is_{aile}{parca}.pkl"))
+
+
+def ozetle(m, a, res, isl, gecer_fn, donemler, aile):
+    """Bir aday icin OOS/SON satirlarini duz sozluge cevirir. res: ilgili h/cikis/rejim=hepsi satirlari;
+    isl: Giris K islem listesi (ayni h/cikis, korunma). gecer_fn(row) -> bool."""
+    sat = dict(aile_g=aile, anahtar=a["anahtar"], ki=a["ki"], h=int(a["h"]), cikis=a["cikis"])
+    for _, x in res.iterrows():
+        tag = f"{x.giris}_{x.donem}_{x.komisyon}"
+        sat[f"{tag}_n"], sat[f"{tag}_net"] = x.n_islem, x.net_bps
+        sat[f"{tag}_t"] = x.t_kume if a["cok"] else x.t_olcekli
+        sat[f"{tag}_tan"], sat[f"{tag}_an"] = x.t_anormal, x.anormal_bps
+        sat[f"{tag}_p"], sat[f"{tag}_ns"] = x.p_bootstrap, x.net_sigma
+        sat[f"{tag}_gecer"] = bool(gecer_fn(x)) if x.n_islem > 0 else False
+    if isl is not None:
+        for dn in donemler:
+            for kk, v in ayrinti(m, isl, "muzayede", dn, a["cok"]).items():
+                sat[f"{dn}_{kk}"] = v
+            for kk, v in bolum30(m, isl, "muzayede", dn).items():
+                sat[f"{dn}_{kk}"] = v
+    return sat
