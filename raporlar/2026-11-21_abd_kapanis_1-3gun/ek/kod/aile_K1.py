@@ -2,7 +2,8 @@
 """aile_K1.py - Aile A (lider -> takipci) backtest'i, YONTEM surum 2.
 
 Tek komut:   python3 -I aile_K1.py            (asamalar sirayla: is -> oos -> detay -> bugun)
-Asama asama: python3 -I aile_K1.py is | oos | detay | bugun
+Asama asama: python3 -I aile_K1.py is | oos | is_sabit | oos_sabit | detay | bugun
+(is_sabit/oos_sabit: duyarlilik - aday elemesi emir basi sabit 1,5 $ komisyonla; aday_K1_sabit.csv)
 Ciktilar: ../veri/aday_K1.csv (OOS'a bakmadan once), ../veri/sonuc_K1.csv (motor SEMA'si).
 Ara dosyalar (ham veri degil, yeniden uretilebilir): scratchpad/k1/.
 Getiri, maliyet, istatistik ve siniflama motor.py ile; burada yalniz sinyal serileri uretilir."""
@@ -628,30 +629,34 @@ def motor():
 
 
 # ----------------------------------------------------------------------------- asama 1: IS
-def asama_is():
+def asama_is(kom="hisse"):
+    ek_ = "" if kom == "hisse" else "_" + kom
+    aday_yol = ADAY_YOL.replace(".csv", ek_ + ".csv")
     m, kay = motor()
     V = varyantlar()
     satir = []
     t0 = time.time()
     for v in V:
         dn = ["IS2"] if v["hat"] == "yeni" else ["IS"]
-        r = degerlendir_varyant(m, kay, v, dn, giris=("K",), komisyon=("hisse",), rejimler=False)
+        r = degerlendir_varyant(m, kay, v, dn, giris=("K",), komisyon=(kom,), rejimler=False)
         r["_vid"] = v["vid"]
         satir.append(r)
     for yon, yad in R6_05:
         r = r6_05_degerlendir(m, kay, yon, yad, ["IS"], [(1, "kapanis"), (2, "kapanis"), (3, "kapanis"), (1, "acilis")],
-                              giris=("K",), komisyon=("hisse",), rejimler=False)
+                              giris=("K",), komisyon=(kom,), rejimler=False)
         r["_vid"] = f"R6-05-{yad}"
         satir.append(r)
     IS = pd.concat(satir, ignore_index=True)
     print(f"IS: {len(IS)} satir, {time.time() - t0:.0f} sn", flush=True)
-    IS.to_pickle(os.path.join(ARA, "is.pkl"))
+    IS.to_pickle(os.path.join(ARA, f"is{ek_}.pkl"))
     IS["aday"] = [gecti(r) for r in IS.itertuples()]
     ad = IS[IS["aday"]].copy()
     ad["dogrulama_donemi"] = np.where(ad["donem"] == "IS2", "OOS2", "OOS")
     ad["oos_esik_t"] = np.where(ad["donem"] == "IS2", 3.0, 2.0)
     ad["olcu"] = np.where(ad["hedef"].astype(str).str.startswith("COK("), "t_kume", "t_olcekli")
-    ad.drop(columns=["aday"]).to_csv(ADAY_YOL, index=False)
+    ad.drop(columns=["aday"]).to_csv(aday_yol, index=False)
+    if kom != "hisse":
+        return
     E, oz = bilanco_olaylari(m)
     json.dump({"test_sayisi": int(len(IS)), "aday": int(len(ad)), "bilanco": oz, "bilanco_olay_kalan": int(len(E))},
               open(os.path.join(ARA, "is_ozet.json"), "w"))
@@ -668,10 +673,11 @@ def _vbul(V, vid):
     return None
 
 
-def asama_oos():
+def asama_oos(kom="hisse"):
+    ek_ = "" if kom == "hisse" else "_" + kom
     m, kay = motor()
     V = varyantlar()
-    ad = pd.read_csv(ADAY_YOL)
+    ad = pd.read_csv(ADAY_YOL.replace(".csv", ek_ + ".csv"))
     sat = []
     for r in ad.itertuples():
         dn = [r.dogrulama_donemi]
@@ -679,18 +685,20 @@ def asama_oos():
         if r.kural_id.startswith("R6-05"):
             yon = 1 if r.kural_id.endswith("kural") else -1
             o = r6_05_degerlendir(m, kay, yon, r.kural_id.split("-")[-1], dn, combo, giris=("K",),
-                                  komisyon=("hisse",), rejimler=False, bootstrap=True)
+                                  komisyon=(kom,), rejimler=False, bootstrap=True)
         else:
             v = _vbul(V, r.kural_id)
             o = degerlendir_varyant(m, kay, v, dn, h=() if r.cikis == "acilis" else (int(r.h),), gece=(r.cikis == "acilis"),
-                                    korunma=(r.korunma,), giris=("K",), komisyon=("hisse",), rejimler=False, bootstrap=True)
+                                    korunma=(r.korunma,), giris=("K",), komisyon=(kom,), rejimler=False, bootstrap=True)
         o = o[(o.korunma == r.korunma) & (o.cikis == r.cikis) & (o.h == r.h)].copy()
         o["is_net_bps"] = r.net_bps
         o["oos_esik_t"] = r.oos_esik_t
         sat.append(o)
     O = pd.concat(sat, ignore_index=True) if sat else pd.DataFrame(columns=M.SEMA)
     O["oos_gecti"] = [gecti(x, esik=e) for x, e in zip(O.itertuples(), O["oos_esik_t"])] if len(O) else []
-    O.to_pickle(os.path.join(ARA, "oos.pkl"))
+    O.to_pickle(os.path.join(ARA, f"oos{ek_}.pkl"))
+    if kom != "hisse":
+        O["oos_gecti"] = False if not len(O) else O["oos_gecti"]
     print(O[["kural_id", "hedef", "h", "cikis", "korunma", "donem", "n_islem", "is_net_bps", "net_bps", "t_olcekli",
              "t_kume", "t_anormal", "p_bootstrap", "oos_gecti"]].round(3).to_string(index=False), flush=True)
 
@@ -785,6 +793,13 @@ def asama_bugun():
     IS = pd.read_pickle(os.path.join(ARA, "is.pkl"))
     O = pd.read_pickle(os.path.join(ARA, "oos.pkl"))
     D = pd.read_pickle(os.path.join(ARA, "detay.pkl")) if os.path.exists(os.path.join(ARA, "detay.pkl")) else pd.DataFrame()
+    for ek_ in ("_sabit",):
+        for ad_ in ("is", "oos"):
+            y = os.path.join(ARA, f"{ad_}{ek_}.pkl")
+            if os.path.exists(y):
+                X = pd.read_pickle(y)
+                X = X.drop(columns=[c for c in X.columns if c not in M.SEMA])
+                IS = pd.concat([IS, X], ignore_index=True)
     gec = O[O["oos_gecti"]] if len(O) else O
     bugun = {}
     for r in gec.itertuples():
@@ -823,7 +838,8 @@ if __name__ == "__main__":
             ok, rap = m.bakis_testi(fn)
             print(vid, ok, rap if not ok else "", flush=True)
         sys.exit(0)
-    for asama, f in (("is", asama_is), ("oos", asama_oos), ("detay", asama_detay), ("bugun", asama_bugun)):
+    for asama, f in (("is", asama_is), ("oos", asama_oos), ("is_sabit", lambda: asama_is("sabit")),
+                     ("oos_sabit", lambda: asama_oos("sabit")), ("detay", asama_detay), ("bugun", asama_bugun)):
         if a in (asama, "hepsi"):
             t0 = time.time()
             f()
