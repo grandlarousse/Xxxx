@@ -1,0 +1,77 @@
+{
+ "oz_gelecege_bakis": {
+  "mesru_t": 2.7395837839150894,
+  "mesru_alfa": 15.47922387051645,
+  "mesru_supheli": false,
+  "sizinti_t": -46.86392819444405,
+  "sizinti_alfa": -222.87578435367007,
+  "sizinti_supheli": true,
+  "elle_fark_bps": 0.0,
+  "cikis_ertesi_gun": true
+ },
+ "oz_ekilmis_kenar": {
+  "tekrar": 50,
+  "kenar": 20.0,
+  "beklenen": 17.985792477862454,
+  "ort_tahmin": 17.960380699157326,
+  "ort_fark": 17.972324888487847,
+  "tespit_t2": 0.72,
+  "medyan_t": 2.567443945756012
+ },
+ "oz_uctan_uca": {
+  "n_birincil": 61,
+  "q_dolu": true,
+  "etiket_dolu": true,
+  "k8_bekliyor": true,
+  "sonra_bekliyor_yok": true,
+  "etiketler": {
+   "KULLANILAMAZ": 59,
+   "ADAY": 2
+  },
+  "ll6": {
+   "ll6_kesif": 4,
+   "ll6_kesif_gecen": 0,
+   "ll6_sansla_beklenen": 0.0,
+   "ll6_dogrulanan": 0
+  },
+  "dosyalar": [
+   "B1_1530.csv",
+   "B1_ekonomi.csv",
+   "B1_islemler.csv",
+   "B1_rejim.csv",
+   "B1_sonuc.csv",
+   "B2_sonuc.csv",
+   "B3_sonuc.csv",
+   "BIRLESIK_LL6.csv",
+   "BIRLESIK_sonuc.csv",
+   "yeniden_kodlama.csv"
+  ]
+ },
+ "oz_hiz": {
+  "test_h1_sn": 0.4,
+  "test_h3_degisken_sn": 7.9,
+  "egim_500_sn": 13.5,
+  "tahmini_61_test_dk": 3.1
+ },
+ "oz_yanlis_alarm": {
+  "iid_h1": {
+   "tekrar": 200,
+   "yanlis_alarm": 0.01,
+   "t_takvim_abs2": 0.02
+  },
+  "kumeli_h1": {
+   "tekrar": 200,
+   "yanlis_alarm": 0.025,
+   "t_takvim_abs2": 0.02
+  },
+  "kumeli_h3": {
+   "tekrar": 200,
+   "yanlis_alarm": 0.035,
+   "t_takvim_abs2": 0.025
+  },
+  "p_perm_kumeli_h1": {
+   "tekrar": 100,
+   "yanlis_alarm": 0.07
+  }
+ }
+}
