@@ -89,3 +89,78 @@ def calis(aile, saatlik_fn=None):
         print(b, json.dumps(bilgi, default=str)[:1500], flush=True)
     pd.concat(sat, ignore_index=True).to_pickle(os.path.join(E.ARA, f"detay_{aile}.pkl"))
     json.dump(out_j, open(os.path.join(E.ARA, f"detay_{aile}.json"), "w"), indent=1, default=str)
+
+
+# ----------------------------------------------------------------------------- K7: 15:30 kapanis gercekciligi testi
+def k7_1530(a, x, ik):
+    """Son ~730 gunde sinyali kapanis yerine 15:30 ET fiyatiyla kurar; ayni pencerede kapanis sinyaliyle karsilastirir.
+    Islemler her iki durumda da kapanista (muzayede) girilir; olcu net_muzayede ortalamasi."""
+    import yukle
+    A, m, v = a.A, a.m, a.v
+    b = x["birim"]
+    var = a.V[b]
+    H = yukle.saatlik()
+    p15 = H["acilis_1530"]
+    T = m.T
+    B = v.B
+    iR, ci = B["iR"].to_numpy(), B["ci"].to_numpy()
+    kod = np.array(v.kodlar)[ci]
+    if var["kural"] == "R6-04":
+        return {"not": "sinyal fiyattan bagimsiz (R-k takvim gunu; tarih onceden ilan varsayimi): 15:30'da da ayni",
+                "ortusme_orani": 1.0, "korunan_oran": 1.0}
+
+    def p15_al(gun, kodlar):
+        out = np.full(len(gun), np.nan)
+        tar = m.idx[np.clip(gun, 0, T - 1)]
+        for j, (k, d) in enumerate(zip(kodlar, tar)):
+            if d in p15.index and k in p15.columns:
+                out[j] = p15.at[d, k]
+        return out
+    cl = m.A["close"]
+    if var["kural"] == "R6-03":
+        s, ci_, val, pre, qq, ins = A.so_wang(v)
+        hp = p15_al(s, kod)
+        sp = p15_al(s, np.array(["SPY"] * len(s)))
+        s2, _, val2, pre2, _, _ = A.so_wang(v, fiyat_s=(hp, sp))
+        pencere = np.isfinite(hp) & np.isfinite(sp) & ins
+        kt, t15 = pencere & (val > 0), pencere & (val2 > 0)
+        g_k, g_15 = np.abs(np.nan_to_num(pre)) + 1e-9, np.abs(np.nan_to_num(pre2)) + 1e-9
+        isaret = 1
+    elif var["kural"] == "R5-08":
+        esik = int(b.split("/")[1][1:]) / 100.0
+        s = iR
+        uy = B["uyum_rt"].to_numpy()
+        sek = np.array([v.sektor[k] for k in kod])
+        rel_k = v.rel[iR, ci]
+        hp = p15_al(s, kod)
+        sp = p15_al(s, sek)
+        c0 = cl[np.maximum(s - 1, 0), v.kp[ci]]
+        cs0 = cl[np.maximum(s - 1, 0), [m.kpos[q] for q in sek]]
+        rel15 = (hp / c0 - 1) - (sp / cs0 - 1)
+        ins = v.U[var["uni"]][s, ci] & uy
+        pencere = np.isfinite(hp) & np.isfinite(sp) & ins
+        isaret = -1 if var["yon"] == "kisa" else 1
+        kosul = (lambda r: r <= -esik) if isaret < 0 else (lambda r: r >= esik)
+        kt, t15 = pencere & kosul(rel_k), pencere & kosul(rel15)
+        g_k, g_15 = np.abs(np.nan_to_num(rel_k)) + 1e-9, np.abs(np.nan_to_num(rel15)) + 1e-9
+    else:
+        return {"not": "15:30 testi bu kural icin yazilmadi"}
+    ort = int((kt & t15).sum())
+    h = int(x["h"])
+
+    def isl(tet, g):
+        S, G = A.olay_matris(v, s, ci, np.where(tet, isaret, 0), g)
+        S = S * v.U[var["uni"]]
+        return m.islemler(pd.DataFrame(S, index=m.idx, columns=v.kodlar), giris="K", h=h, korunma=x["korunma"],
+                          guc=pd.DataFrame(G, index=m.idx, columns=v.kodlar))
+    iK, i15 = isl(kt, g_k), isl(t15, g_15)
+    nk = iK["net_" + E.KOM].mean() * 1e4 if len(iK) else np.nan
+    n15 = i15["net_" + E.KOM].mean() * 1e4 if len(i15) else np.nan
+    return {"pencere_olay": int(pencere.sum()), "kapanis_tetik": int(kt.sum()), "s1530_tetik": int(t15.sum()),
+            "ortusme_orani": round(ort / max(int(kt.sum()), 1), 3), "kapanis_n": int(len(iK)),
+            "kapanis_net_bps": _f(round(nk, 1)), "s1530_n": int(len(i15)), "s1530_net_bps": _f(round(n15, 1)),
+            "korunan_oran": _f(round(n15 / nk, 3)) if np.isfinite(nk) and nk != 0 else None,
+            "not": "R5-08 hacim kosulu (hacim R >= hacim R-1) gun sonu hacmiyle" if var["kural"] == "R5-08" else ""}
+
+
+SAATLIK = {"K7": k7_1530}

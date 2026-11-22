@@ -355,6 +355,6 @@ if __name__ == "__main__":
         asama_oos(sys.argv[2])
     elif asama == "detay":
         import ek2_RF1a_detay as D
-        D.calis(sys.argv[2])
+        D.calis(sys.argv[2], D.SAATLIK.get(sys.argv[2]))
     elif asama == "sonuc":
         asama_sonuc()
