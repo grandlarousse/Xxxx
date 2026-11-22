@@ -272,7 +272,7 @@ for h in (1, 2):
     yaz(f"Sepet-gün dağılımı % : ort {sn.mean() * 100:.2f}, medyan {sn.median() * 100:.2f}, std {sn.std() * 100:.2f}, çarpıklık {sn.skew():.2f}, "
         f"isabet {(sn > 0).mean():.3f}, en kötü %5 eşiği {q[0.05]:.2f}, en kötü %5 ort {sn[sn <= sn.quantile(0.05)].mean() * 100:.2f}, min {sn.min() * 100:.2f}, "
         f"maks {sn.max() * 100:.2f}, < -%2 gün payı {(sn < -0.02).mean():.3f}, < -%5 gün payı {(sn < -0.05).mean():.3f}")
-    ti = p["net_islem"].stack()
+    ti = p["net_islem"].stack().dropna()
     yaz(f"Tek ETF-işlem dağılımı %: n {len(ti)}, ort {ti.mean() * 100:.2f}, std {ti.std() * 100:.2f}, %5 {ti.quantile(0.05) * 100:.2f}, "
         f"en kötü %5 ort {ti[ti <= ti.quantile(0.05)].mean() * 100:.2f}, min {ti.min() * 100:.2f}, isabet {(ti > 0).mean():.3f}")
     pnl = gunluk_pnl(S25, V, h)
@@ -555,6 +555,137 @@ yaz(f"{son.date()} kapanışı: VIX {VIX[son]:.1f}; IBS:", V.ibs.loc[son].round(
 yaz("Açık (VIX>25 & IBS<0,2):", [e_ for e_ in SEPET if S25.at[son, e_]])
 yaz("2026 yılı sepet serisi (h=1):")
 yaz((P[1]["p_net"].dropna().loc["2026"] * 100).round(2).to_string())
+
+# ---------------------------------------------------------------------------------------------------------------
+yaz("=" * 30, "8) Ek çürütme testleri")
+# 8a) Hiç bakılmamış dönem: 2000-2004 (backtest aileleri 2005'ten başlıyor)
+TAM = oku("SPY").index
+VT = oku("^VIX")["close"].reindex(TAM)
+ERK = TAM < "2005-01-01"
+
+
+def erken(sembs, esik, h, kural=True, maske=None):
+    M = ERK if maske is None else maske
+    N, A = {}, {}
+    for s in sembs:
+        d = oku(s).reindex(TAM)
+        rng_ = d["high"] - d["low"]
+        ibs = ((d["close"] - d["low"]) / rng_).where(rng_ > 0)
+        f = d["adjclose"].shift(-h) / d["adjclose"] - 1
+        dv = (d["close"] * d["volume"]).rolling(60, min_periods=20).median().shift(1) / 1e6
+        c = pd.Series(20.0, index=TAM)
+        c[dv >= 20] = 10.0
+        c[dv >= 100] = 5.0
+        sig = ((ibs < 0.2) if kural else d["adjclose"].notna()) & (VT > esik) & f.notna()
+        N[s] = (f - c / 1e4).where(sig)[M]
+        A[s] = (f - f[M].mean() - c / 1e4).where(sig)[M]
+    N, A = pd.DataFrame(N), pd.DataFrame(A)
+    pn, pa = N.mean(axis=1), A.mean(axis=1)
+    return pn, pa, hac_t(pa.fillna(0.0).values, h - 1)
+
+
+ESKI = ["SPY", "QQQ", "XLK", "SMH", "IWM", "IJR", "SOXX", "IBB", "EEM"]
+yaz("8a) 2000-2004 (sepetin o dönemde var olan üyeleri:", ESKI, "); VIX>25 gün sayısı:", int((VT[ERK] > 25).sum()), "VIX>20:", int((VT[ERK] > 20).sum()))
+rows = []
+for esik in (25, 20):
+    for h in (1, 2):
+        pn, pa, t = erken(ESKI, esik, h)
+        qn, qa, tq = erken(ESKI, esik, h, kural=False)
+        sn = pn.dropna()
+        rows.append({"esik": esik, "h": h, "gun": len(sn), "net_bps": sn.mean() * 1e4, "abn_bps": pa.mean() * 1e4, "t_abn": t, "isabet": (sn > 0).mean(),
+                     "std_yuzde": sn.std() * 100, "min_yuzde": sn.min() * 100, "kosul_her_gun_abn_bps": qa.mean() * 1e4, "kosul_t": tq,
+                     **{f"net_{y}": sn[sn.index.year == y].mean() * 1e4 for y in range(2000, 2005)}})
+        pn2, pa2, t2 = erken(["SPY", "QQQ"], esik, h)
+        rows.append({"esik": esik, "h": h, "gun": int(pn2.notna().sum()), "net_bps": pn2.mean() * 1e4, "abn_bps": pa2.mean() * 1e4, "t_abn": t2, "isabet": (pn2.dropna() > 0).mean(),
+                     "std_yuzde": pn2.std() * 100, "min_yuzde": pn2.min() * 100, "kosul_her_gun_abn_bps": np.nan, "kosul_t": np.nan, "net_2000": -999})
+tablo(pd.DataFrame(rows), "erken_donem_2000_2004.csv")
+yaz("(net_2000 = -999 olan satırlar yalnız SPY+QQQ)")
+# 8b) Sonuca göre seçilmemiş sepet: 9 SPDR sektörü + DIA, MDY, EFA, VTI
+SEC = [s for s in "XLB XLE XLF XLI XLP XLU XLV XLY DIA MDY EFA VTI".split() if os.path.exists(os.path.join(HAM, s + ".csv"))]
+U = Veri(SEC)
+rows = []
+for esik, vm in ((25, V25), (20, V20)):
+    for h in (1, 2):
+        for ad, S in (("kural", U.ibs.lt(0.2) & genis(vm, SEC)), ("koşul: her gün hepsi", U.a.notna() & genis(vm, SEC)), ("tümleyen IBS>=0,2", U.ibs.ge(0.2) & genis(vm, SEC))):
+            o = ozet(S, U, h)
+            rows.append({"esik": esik, "h": h, "test": ad, **{k: o.get(k) for k in ("n_gun", "net_bps", "abn_bps", "isabet", "t_abn", "is_t", "oos_t", "son_abn")}})
+        o = ozet(U.ibs.lt(0.2) & genis(vm, SEC), U, h, hedge="SPY")
+        rows.append({"esik": esik, "h": h, "test": "kural, SPY hedge", **{k: o.get(k) for k in ("n_gun", "net_bps", "abn_bps", "isabet", "t_abn", "is_t", "oos_t", "son_abn")}})
+yaz("8b) Seçilmemiş sepet:", SEC)
+tablo(pd.DataFrame(rows), "secilmemis_sepet.csv")
+# 8c) Dönem (birleşik) bazında yeniden örnekleme
+rng = np.random.default_rng(11)
+for h in (1, 2):
+    for ad, ser in (("abn", P[h]["p_abn"].dropna()), ("net", P[h]["p_net"].dropna())):
+        gr = [g.values for _, g in ser.groupby(EP.reindex(ser.index))]
+        bs = np.array([np.concatenate([gr[i] for i in rng.integers(0, len(gr), len(gr))]).mean() for _ in range(3000)]) * 1e4
+        yaz(f"8c) Dönem bootstrap h={h} {ad}: ort {ser.mean() * 1e4:.1f} bps, %95 aralık [{np.quantile(bs, 0.025):.1f}, {np.quantile(bs, 0.975):.1f}], P(ort<=0) = {(bs <= 0).mean():.4f}")
+    oos = P[h]["p_abn"].dropna().loc["2019":]
+    gr = [g.values for _, g in oos.groupby(EP.reindex(oos.index))]
+    bs = np.array([np.concatenate([gr[i] for i in rng.integers(0, len(gr), len(gr))]).mean() for _ in range(3000)]) * 1e4
+    yaz(f"    yalnız OOS (2019+), {len(gr)} dönem: ort {oos.mean() * 1e4:.1f}, %95 [{np.quantile(bs, 0.025):.1f}, {np.quantile(bs, 0.975):.1f}], P(ort<=0) = {(bs <= 0).mean():.4f}")
+# 8d) 15:45 gürültüsünün etkisi: yanlış alınacak bant ve maliyet duyarlılığı
+rows = []
+for ad, S in (("VIX>25 & IBS 0,20-0,35 (15:45'te yanlışlıkla alınabilecek)", V.ibs.ge(0.2) & V.ibs.lt(0.35) & genis(V25, SEPET)),
+              ("VIX>25 & IBS<0,10", V.ibs.lt(0.10) & genis(V25, SEPET)), ("VIX>25 & IBS<0,30", V.ibs.lt(0.30) & genis(V25, SEPET)),
+              ("VIX>22 & IBS<0,2", DUSUK & genis((VIX > 22).fillna(False), SEPET)), ("VIX>28 & IBS<0,2", DUSUK & genis((VIX > 28).fillna(False), SEPET))):
+    for h in (1, 2):
+        o = ozet(S, V, h)
+        rows.append({"test": ad, "h": h, **{k: o.get(k) for k in ("n_gun", "net_bps", "abn_bps", "isabet", "t_abn", "is_t", "oos_t", "son_abn")}})
+tablo(pd.DataFrame(rows), "bant_duyarlilik.csv")
+for h in (1, 2):
+    for kat, ad in ((2, "maliyet 2 katı"), (4, "maliyet 4 katı (20 bps)")):
+        p_ = {a: port(S25, V.fwd(h)[SEPET], V.cost[SEPET] * kat, h, b, e) for a, b, e in DONEM}
+        yaz(f"8d) {ad} h={h}: abn {p_['tum']['abn_bps']:.1f} bps, t {p_['tum']['t_abn']:.2f}, t IS {p_['is']['t_abn']:.2f}, t OOS {p_['oos']['t_abn']:.2f}")
+# 8e) Bugüne benzeyen koşullar
+herhangi = S25.any(axis=1)
+rows = []
+for ad, mk in (("dün de sinyal vardı (ardışık gün)", herhangi.shift(1, fill_value=False)), ("dün sinyal yoktu", ~herhangi.shift(1, fill_value=False)),
+               ("dünkü sepet işlemi bugün itibarıyla < -%3 zararda", (P[1]["p_net"].shift(1) < -0.03).fillna(False)),
+               ("SPY günlük getiri < -%3", V.r["SPY"] < -0.03), ("VIX günlük artışı > 5 puan", (VIX - VIX.shift(1)) > 5),
+               ("VIX>30 & SPY<-%2 & >=8 ETF", (VIX > 30) & (V.r["SPY"] < -0.02) & (S25.sum(axis=1) >= 8)),
+               ("2019+ : blokun ilk 3 günü", GNO.le(2) & (CAL >= "2019-01-01")), ("2019+ : blokun 4.+ günü", GNO.ge(3) & (CAL >= "2019-01-01"))):
+    for h in (1, 2):
+        p = port(S25 & genis(mk.fillna(False), SEPET), V.fwd(h)[SEPET], V.cost[SEPET], h)
+        if p is None:
+            continue
+        sn = p["p_net"].dropna()
+        rows.append({"kosul": ad, "h": h, "gun": p["n_gun"], "net_bps": p["net_bps"], "abn_bps": p["abn_bps"], "t_abn": p["t_abn"], "isabet": p["isabet"],
+                     "std_yuzde": sn.std() * 100, "yuzde5": sn.quantile(0.05) * 100, "min_yuzde": sn.min() * 100})
+tablo(pd.DataFrame(rows), "bugune_benzer.csv")
+yaz(f"Son gün sınıfları: blok gün no {GNO[son]:.0f}, birleşik dönem gün no {EPNO[son]:.0f}, SPY>200g {bool(UST200[son])}, SPY günlük {V.r['SPY'][son] * 100:.2f}%, "
+    f"VIX değişimi {VIX[son] - VIX.shift(1)[son]:.1f}, tetikli ETF {int(S25.loc[son].sum())}; dün sinyal {bool(herhangi.shift(1)[son])}")
+yaz("Sepet günlük getirileri son gün (%):", (V.r.loc[son] * 100).round(2).to_dict())
+# 8f) En iyi günler ve yıllık sıklık
+yaz("En iyi 5 sinyal günü (h=1, sepet net %):", (P[1]["p_net"].dropna().nlargest(5) * 100).round(2).to_dict())
+yg = P[1]["p_net"].dropna().groupby(lambda d: d.year).size().reindex(range(2005, 2027), fill_value=0)
+yaz(f"Yıllık sinyal günü: ort {yg.mean():.1f}, medyan {yg.median():.0f}, sıfır olan yıl {(yg == 0).sum()}, maks {yg.max()}; VIX>20 kuralında ort {S20.any(axis=1).sum() / 21.9:.1f}")
+p10 = port(S25, V.fwd(1)[SEPET], V.cost[SEPET], 1)
+kal = p10["p_net"].dropna().sort_values(ascending=False).iloc[10:]
+z = pd.Series(0.0, index=CAL)
+z[kal.index] = kal
+yaz(f"En iyi 10 gün hariç (h=1): net {kal.mean() * 1e4:.1f} bps, t {hac_t(z.values):.2f}")
+
+# ---------------------------------------------------------------------------------------------------------------
+yaz("=" * 30, "9) Birleşik en az yanlı tahmin: 2000-2026, seçilmiş ve seçilmemiş sepet")
+HEPSI = np.ones(len(TAM), bool)
+SEC0 = ["XLB", "XLE", "XLF", "XLI", "XLP", "XLU", "XLV", "XLY", "DIA", "MDY", "EFA", "VTI"]
+rows = []
+for sad, liste in (("seçilmiş sepet (12 ETF)", SEPET), ("seçilmemiş sepet (9 sektör + DIA MDY EFA VTI)", SEC0), ("yalnız SPY", ["SPY"]), ("yalnız QQQ", ["QQQ"])):
+    for esik in (25, 20):
+        for h in (1, 2):
+            r_ = {"sepet": sad, "esik": esik, "h": h}
+            for dad, mk in (("2000-04", ERK), ("2005-18", (TAM >= "2005-01-01") & (TAM <= "2018-12-31")), ("2019-26", TAM >= "2019-01-01"), ("2000-26", HEPSI)):
+                pn, pa, t = erken(liste, esik, h, maske=mk)
+                r_[f"{dad}_gun"], r_[f"{dad}_net"], r_[f"{dad}_abn"], r_[f"{dad}_t"] = int(pn.notna().sum()), pn.mean() * 1e4, pa.mean() * 1e4, t
+            sn = pn.dropna()
+            r_["isabet_tum"], r_["std_yuzde_tum"] = (sn > 0).mean(), sn.std() * 100
+            rows.append(r_)
+tablo(pd.DataFrame(rows), "birlesik_2000_2026.csv")
+# gece payı: yarıiletken ETF'leri ile hisse grubu kıyas (VIX>25)
+for ad, S, VV in (("SMH+SOXX", E2.ibs.lt(0.2) & genis(V25, ["SMH", "SOXX"]), E2), ("yarıiletken hisse grubu", G.ibs.lt(0.2) & genis(V25, GRP), G), ("sepet", S25, V)):
+    a, b, c_ = ozet(S, VV, 1), ozet(S, VV, 1, "gece"), ozet(S, VV, 1, "gunici")
+    yaz(f"Gece/gün içi ayrımı {ad}: kapanış->kapanış abn {a['abn_bps']:.1f} | gece {b['abn_bps']:.1f} (t IS {b['is_t']:.2f}, OOS {b['oos_t']:.2f}) | ertesi gün içi {c_['abn_bps']:.1f} (t IS {c_['is_t']:.2f}, OOS {c_['oos_t']:.2f})")
 
 yaz(f"\nSüre: {time.time() - T0:.1f} sn")
 with open(os.path.join(CIK, "ozet.txt"), "w") as f:

@@ -291,6 +291,7 @@ def ll_testler(ad, x, hedef, h, arindir, plasebo_oncu, roll=None, diger_hedge=()
     ekle(ad, "6 bacak", "AL hedge'siz, VIX > 20", deg(al, fham, c, h, mask=VIX > 20))
     ekle(ad, "6 bacak", "AL hedge'siz, en iyi 10 hariç", deg(al, fham, c, h, haric_ust=10))
     ekle(ad, "6 bacak", "AL hedge'siz, kriz hariç", deg(al, fham, c, h, mask=~KRIZ))
+    ekle(ad, "6 bacak", "AL hedge'siz, yalnız 2022 ve sonrası (tum = 2022+)", deg(al, fham, c, h, mask=pd.Series(TK >= "2022-01-01", index=TK)))
     ekle(ad, "6 bacak", "AL hedge'siz, öncü 1 gün gecikmeli", deg(ll_sig(x, arindir, lag=1)[0].clip(lower=0), fham, c, h))
     ekle(ad, "6 bacak", "SAT bacağı HEDGE'SİZ (açığa, ham)", deg(sat, fham, c, h))
     ekle(ad, "6 giriş", "ertesi açılış girişi", deg(sig, ileri(hedef, h, "acilis", hd), c, h))
@@ -601,7 +602,7 @@ def main():
     ekle("S6 MU->WDC", "8 S2 çakışma", "AL bacağı, S2 sinyali olmayan günler", deg(sig6.clip(lower=0), f6, c6, 3, mask=~s2gun))
     okk = f6.notna() & (sig6 != 0)
     s6abn = (sig6 * (f6 - f6[f6.notna()].mean()))[okk]
-    ort = pd.concat([s6abn, s2pnl], axis=1, keys=["s6", "s2"]).dropna()
+    ort = pd.concat([s6abn, s2pnl], axis=1, keys=["s6", "s2"], sort=True).dropna()
     NOTLAR.append(f"S6-S2 çakışma: S6 işlem günlerinin %{s2gun.reindex(s6abn.index).mean() * 100:.0f}'inde S2 de açık (S6 AL günlerinde %"
                   f"{s2gun.reindex(sig6[sig6 > 0].index).mean() * 100:.0f}, SAT günlerinde %{s2gun.reindex(sig6[sig6 < 0].index).mean() * 100:.0f}); "
                   f"ortak günlerde işlem getirisi korelasyonu {ort.s6.corr(ort.s2):.2f} (n {len(ort)}); S6 işlemlerinin %{(VIX.reindex(s6abn.index) > 20).mean() * 100:.0f}'i VIX>20'de")
@@ -625,6 +626,29 @@ def main():
         ekle("S3 sigorta-borsa SAT", "2 alt grup", adg, gdeg(S3[ll], gpanel(ll, 2), pd.DataFrame({s: o.maliyet_serisi(s) for s in ll}).fillna(20.0) / 1e4, 2))
     log("S4")
     g4, S4 = grup_testler("S4 temel tüketim AL", "h_temel_tuketim", "Z1_AL_ALT200", 1.5, 1, "XLP")
+    sem4 = list(S4.columns)
+    C4 = pd.DataFrame({x: o.maliyet_serisi(x) for x in sem4}).fillna(20.0) / 1e4
+    F4 = gpanel(sem4, 1)
+    for etk, at in (("CELH hariç", ["CELH"]), ("CELH ve MNST hariç", ["CELH", "MNST"])):
+        kk = [x for x in sem4 if x not in at]
+        ekle("S4 temel tüketim AL", "7 hayatta kalma", etk, gdeg(S4[kk], F4[kk], C4[kk], 1))
+        ekle("S4 temel tüketim AL", "7 hayatta kalma", etk + ", SPY hedge'li", gdeg(S4[kk], gpanel(kk, 1, hedge="SPY"), C4[kk], 1))
+        ekle("S4 temel tüketim AL", "7 hayatta kalma", etk + ", en iyi 10 gün hariç", gdeg(S4[kk], F4[kk], C4[kk], 1, haric_ust=10))
+    ekle("S4 temel tüketim AL", "7 hayatta kalma", "yalnız likit işlemler (maliyet sınıfı 5 bps: >= 100 mn $)", gdeg(S4, F4, C4, 1, mask=(C4 <= 5.01 / 1e4)))
+    ekle("S4 temel tüketim AL", "7 hayatta kalma", "yalnız CELH", deg(S4["CELH"], F4["CELH"], C4["CELH"], 1))
+    cc = o.oku("CELH")
+    NOTLAR.append("veri CELH: ilk gün %s; 2018 sonuna kadar medyan kapanış %.2f $, medyan günlük dolar hacmi %.2f mn $; S4 CELH işlemleri IS %d, OOS %d" % (
+        cc.index[0].date(), cc.close[:"2018-12-31"].median(), (cc.close * cc.volume)[:"2018-12-31"].median() / 1e6,
+        int((S4["CELH"][:"2018-12-31"] != 0).sum()), int((S4["CELH"]["2019-01-01":] != 0).sum())))
+    # hizalama: soya vadelileri SOYB'un ERTESİ gün / gece getirisini öngörüyor mu (çubuk 16:00 ET sonrasını içeriyor mu)?
+    if "SOYB" in VAR:
+        sb = o.basit_getiri(["SOYB"])["SOYB"]
+        gece = o.ileri_getiri(["SOYB"], 1, "gece")["SOYB"]
+        for fs in ("ZS=F", "ZL=F"):
+            xx = hg(fs)
+            for pad, b_, e_ in PER[1:3]:
+                NOTLAR.append(f"hizalama {fs} vs SOYB ({pad}): aynı gün corr {_dl(xx, b_, e_).corr(_dl(sb, b_, e_)):.2f}; ertesi gün SOYB {_dl(xx, b_, e_).corr(_dl(sb.shift(-1), b_, e_)):.3f}; "
+                              f"ertesi gece SOYB {_dl(xx, b_, e_).corr(_dl(gece, b_, e_)):.3f}; (vadeli - SOYB farkı) -> ertesi gece {_dl(xx - sb, b_, e_).corr(_dl(gece, b_, e_)):.3f}")
     # ---- ek adaylar
     log("ek adaylar")
     tek_testler("EK IYR z5 SAT alt200", "IYR", "Z5_SAT_ALT200", 1.5, 2)
@@ -655,7 +679,7 @@ def main():
     pd.concat([g3, g4]).to_csv(os.path.join(CIKTI, "ayni_kural_baska_grup.csv"), index=False)
 
     pd.set_option("display.width", 260, "display.max_columns", 30, "display.max_rows", 2000, "display.max_colwidth", 200)
-    kol = ["test", "varyant", "tum_n", "tum_abn", "tum_net", "is_t", "oos_t", "oos_abn", "son_net"]
+    kol = ["test", "varyant", "tum_n", "tum_abn", "tum_net", "tum_t", "is_t", "oos_t", "oos_abn", "son_net"]
     cikti = []
     for s in T.sinyal.unique():
         cikti.append(f"\n===== {s} =====")

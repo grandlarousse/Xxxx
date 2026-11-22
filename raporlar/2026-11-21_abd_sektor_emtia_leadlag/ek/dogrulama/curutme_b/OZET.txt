@@ -1,584 +1,597 @@
 
 ===== S5 crack->VLO =====
-          test                                        varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-       0 taban                                          tanım 1365.0     28.4     28.6  2.51   2.11     35.3     23.4
-1 öncü gecikme                                          1 gün 1363.0      9.9     10.0  1.00   0.63     10.9     13.1
-1 öncü gecikme                                          2 gün 1381.0     -4.0     -3.8  0.23  -0.82    -14.6    -18.7
-    3 aynı gün hedef aynı gün aynı yönde tepki verdi (z>=0,5)  577.0     18.1     18.3  0.57   1.28     32.8     -9.1
-    3 aynı gün                    hedef tepki vermedi (z<0,5)  788.0     36.0     36.1  3.07   1.76     37.1     48.7
- 4 kırılganlık                                 z penceresi 40 1436.0     28.5     28.6  2.84   2.15     33.6     24.2
- 4 kırılganlık                                z penceresi 120 1224.0     25.3     25.4  1.80   2.05     37.4     16.2
- 4 kırılganlık                                      eşik 0.75 2002.0     23.1     23.2  2.87   1.93     24.9     29.1
- 4 kırılganlık                                       eşik 1.5  624.0     39.4     39.6  1.68   2.21     62.9     37.8
- 4 kırılganlık                                       eşik 2.0  321.0     32.9     32.5  1.62   0.62     28.3     20.3
- 4 kırılganlık                             beta penceresi 120 1382.0     28.0     28.2  2.63   1.98     32.9     21.7
- 4 kırılganlık                             beta penceresi 500 1325.0     26.1     26.2  1.77   2.36     41.2     31.6
- 4 kırılganlık                                            h=1 1365.0     15.0     15.1  1.66   1.94     21.0      3.1
- 4 kırılganlık                                            h=3 1365.0     30.0     30.2  2.21   1.73     36.4     23.8
- 4 kırılganlık            arındırma yok (ham öncü, ham hedef) 1390.0     30.7     31.3  2.38   1.83     33.3     20.0
- 4 kırılganlık             öncü ve hedef XLE'den arındırılmış 1364.0     18.8     19.0  2.17   1.57     17.8      3.9
- 4 kırılganlık           sınır sinyalleri hariç (|z| 1,0-1,2)  992.0     40.7     40.8  2.98   2.52     52.4     45.1
- 4 kırılganlık                                  maliyet 2 kat 1365.0     23.4     23.6  1.99   1.81     30.3     18.4
-       5 rejim                                       VIX > 20  468.0     15.1     15.2  0.03   0.94     33.7     13.7
-       5 rejim                                      VIX <= 20  897.0     35.3     35.5  3.15   2.43     36.3     26.2
-       5 rejim                                       VIX > 30  118.0     37.7     37.7  0.11   0.69     85.7      NaN
-       5 rejim                                     kriz hariç 1300.0     26.4     26.5  2.70   1.81     26.9     23.4
-       5 rejim                          en iyi 10 işlem hariç 1355.0     18.9     19.0  2.18   1.17     17.4     17.9
-       5 rejim                               en iyi yıl hariç 1297.0     25.3     25.5  2.51   1.76     27.3     23.4
-       5 rejim                      vade geçişi günleri hariç  898.0     32.6     33.0  1.54   2.62     56.3     34.7
-       5 rejim                     yalnız vade geçişi günleri  467.0     20.4     20.0  2.23  -0.11     -2.8      4.3
-       6 bacak                AL bacağı (tanımdaki hedge ile)  701.0     40.7     45.8  2.93   1.31     34.5     70.0
-       6 bacak               SAT bacağı (tanımdaki hedge ile)  664.0     15.4     10.3  0.23   1.48     36.1    -32.7
-       6 bacak       AL bacağı HEDGE'SİZ (ham hedef getirisi)  701.0     38.4     57.8  2.31   1.35     33.3     77.4
-       6 bacak                        AL hedge'siz, VIX <= 20  462.0     48.1     67.4  3.09   0.88     21.6    103.2
-       6 bacak                         AL hedge'siz, VIX > 20  239.0     19.8     39.2 -0.20   1.03     49.3     -4.2
-       6 bacak                  AL hedge'siz, en iyi 10 hariç  691.0     21.7     41.0  1.62   0.61     13.8     77.4
-       6 bacak                       AL hedge'siz, kriz hariç  664.0     41.8     61.1  2.86   1.19     28.4     77.4
-       6 bacak             AL hedge'siz, öncü 1 gün gecikmeli  697.0      0.0     19.4  0.18  -0.23     -5.4     74.0
-       6 bacak              SAT bacağı HEDGE'SİZ (açığa, ham)  664.0     22.7      3.3  0.45   1.46     47.4    -43.4
-       6 giriş                           ertesi açılış girişi 1365.0     26.4     26.3  2.86   1.72     27.5     19.5
-       6 giriş              ertesi kapanış girişi (1 gün geç) 1365.0     10.5     10.7  1.09   0.66     11.3     16.0
-       6 parça     gece (kapanış t -> açılış t+1), maliyetsiz 1365.0      2.2      2.3 -0.50   1.68      8.1      4.0
-       6 parça    gün içi t+1 (açılış -> kapanış), maliyetsiz 1365.0     17.9     17.8  2.93   1.81     18.1      4.3
-       6 parça         t+1 kapanış -> t+2 kapanış, maliyetsiz 1365.0     13.6     13.7  2.01   1.23     14.6     20.4
+          test                                            varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+       0 taban                                              tanım 1365.0     28.4     28.6   3.26  2.51   2.11     35.3     23.4
+1 öncü gecikme                                              1 gün 1363.0      9.9     10.0   1.14  1.00   0.63     10.9     13.1
+1 öncü gecikme                                              2 gün 1381.0     -4.0     -3.8  -0.44  0.23  -0.82    -14.6    -18.7
+    3 aynı gün     hedef aynı gün aynı yönde tepki verdi (z>=0,5)  577.0     18.1     18.3   1.29  0.57   1.28     32.8     -9.1
+    3 aynı gün                        hedef tepki vermedi (z<0,5)  788.0     36.0     36.1   3.37  3.07   1.76     37.1     48.7
+ 4 kırılganlık                                     z penceresi 40 1436.0     28.5     28.6   3.52  2.84   2.15     33.6     24.2
+ 4 kırılganlık                                    z penceresi 120 1224.0     25.3     25.4   2.73  1.80   2.05     37.4     16.2
+ 4 kırılganlık                                          eşik 0.75 2002.0     23.1     23.2   3.38  2.87   1.93     24.9     29.1
+ 4 kırılganlık                                           eşik 1.5  624.0     39.4     39.6   2.78  1.68   2.21     62.9     37.8
+ 4 kırılganlık                                           eşik 2.0  321.0     32.9     32.5   1.49  1.62   0.62     28.3     20.3
+ 4 kırılganlık                                 beta penceresi 120 1382.0     28.0     28.2   3.27  2.63   1.98     32.9     21.7
+ 4 kırılganlık                                 beta penceresi 500 1325.0     26.1     26.2   2.94  1.77   2.36     41.2     31.6
+ 4 kırılganlık                                                h=1 1365.0     15.0     15.1   2.54  1.66   1.94     21.0      3.1
+ 4 kırılganlık                                                h=3 1365.0     30.0     30.2   2.77  2.21   1.73     36.4     23.8
+ 4 kırılganlık                arındırma yok (ham öncü, ham hedef) 1390.0     30.7     31.3   3.01  2.38   1.83     33.3     20.0
+ 4 kırılganlık                 öncü ve hedef XLE'den arındırılmış 1364.0     18.8     19.0   2.68  2.17   1.57     17.8      3.9
+ 4 kırılganlık               sınır sinyalleri hariç (|z| 1,0-1,2)  992.0     40.7     40.8   3.87  2.98   2.52     52.4     45.1
+ 4 kırılganlık                                      maliyet 2 kat 1365.0     23.4     23.6   2.69  1.99   1.81     30.3     18.4
+       5 rejim                                           VIX > 20  468.0     15.1     15.2   0.80  0.03   0.94     33.7     13.7
+       5 rejim                                          VIX <= 20  897.0     35.3     35.5   3.96  3.15   2.43     36.3     26.2
+       5 rejim                                           VIX > 30  118.0     37.7     37.7   0.67  0.11   0.69     85.7      NaN
+       5 rejim                                         kriz hariç 1300.0     26.4     26.5   3.21  2.70   1.81     26.9     23.4
+       5 rejim                              en iyi 10 işlem hariç 1355.0     18.9     19.0   2.38  2.18   1.17     17.4     17.9
+       5 rejim                                   en iyi yıl hariç 1297.0     25.3     25.5   3.05  2.51   1.76     27.3     23.4
+       5 rejim                          vade geçişi günleri hariç  898.0     32.6     33.0   2.96  1.54   2.62     56.3     34.7
+       5 rejim                         yalnız vade geçişi günleri  467.0     20.4     20.0   1.49  2.23  -0.11     -2.8      4.3
+       6 bacak                    AL bacağı (tanımdaki hedge ile)  701.0     40.7     45.8   2.98  2.93   1.31     34.5     70.0
+       6 bacak                   SAT bacağı (tanımdaki hedge ile)  664.0     15.4     10.3   1.24  0.23   1.48     36.1    -32.7
+       6 bacak           AL bacağı HEDGE'SİZ (ham hedef getirisi)  701.0     38.4     57.8   2.65  2.31   1.35     33.3     77.4
+       6 bacak                            AL hedge'siz, VIX <= 20  462.0     48.1     67.4   3.08  3.09   0.88     21.6    103.2
+       6 bacak                             AL hedge'siz, VIX > 20  239.0     19.8     39.2   0.66 -0.20   1.03     49.3     -4.2
+       6 bacak                      AL hedge'siz, en iyi 10 hariç  691.0     21.7     41.0   1.64  1.62   0.61     13.8     77.4
+       6 bacak                           AL hedge'siz, kriz hariç  664.0     41.8     61.1   2.97  2.86   1.19     28.4     77.4
+       6 bacak AL hedge'siz, yalnız 2022 ve sonrası (tum = 2022+)  159.0     60.2     79.6   1.95   NaN   1.76     53.8     77.4
+       6 bacak                 AL hedge'siz, öncü 1 gün gecikmeli  697.0      0.0     19.4   0.00  0.18  -0.23     -5.4     74.0
+       6 bacak                  SAT bacağı HEDGE'SİZ (açığa, ham)  664.0     22.7      3.3   1.37  0.45   1.46     47.4    -43.4
+       6 giriş                               ertesi açılış girişi 1365.0     26.4     26.3   3.21  2.86   1.72     27.5     19.5
+       6 giriş                  ertesi kapanış girişi (1 gün geç) 1365.0     10.5     10.7   1.22  1.09   0.66     11.3     16.0
+       6 parça         gece (kapanış t -> açılış t+1), maliyetsiz 1365.0      2.2      2.3   0.88 -0.50   1.68      8.1      4.0
+       6 parça        gün içi t+1 (açılış -> kapanış), maliyetsiz 1365.0     17.9     17.8   3.35  2.93   1.81     18.1      4.3
+       6 parça             t+1 kapanış -> t+2 kapanış, maliyetsiz 1365.0     13.6     13.7   2.26  2.01   1.23     14.6     20.4
    REG tum: sig tek başına b=33.4bps t=3.85 | kontrollü b=37.3 t=4.28 (zres t=-3.60, zret t=3.40) | sürekli z kontrollü t=4.41
    REG is: sig tek başına b=29.3bps t=3.03 | kontrollü b=33.2 t=3.49 (zres t=-3.76, zret t=3.32) | sürekli z kontrollü t=3.98
    REG oos: sig tek başına b=40.3bps t=2.42 | kontrollü b=44.1 t=2.60 (zres t=-1.50, zret t=1.42) | sürekli z kontrollü t=2.34
 -- plasebo / kıyas --
-          test                                varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-2 plasebo öncü crack 1 gün ileri (ileri bakış kıyası)   1373     84.7     84.8  7.49   6.08    102.1    101.0
-2 plasebo öncü                 benzin marjı (RB-CL) $   1319     35.9     35.9  3.45   2.37     39.6     48.0
-2 plasebo öncü                  dizel marjı (HO-CL) $   1523     13.4     13.9  1.21   1.13     16.9     16.9
-2 plasebo öncü                           CL=F $ farkı   1562     -1.5     -1.8 -0.81   0.54      8.6     19.9
-2 plasebo öncü                                   CL=F   1539     -8.2     -8.6 -1.72   0.21      3.9     15.4
-2 plasebo öncü                                   BZ=F   1293    -12.4    -12.7 -0.78  -1.08    -20.1     -6.7
-2 plasebo öncü                                   RB=F   1430     15.6     15.4  0.96   1.66     27.5     24.4
-2 plasebo öncü                                   HO=F   1540     -9.8     -9.8 -1.20  -0.52     -7.9      1.3
-2 plasebo öncü                                   NG=F   1588     -7.0     -7.1 -1.45   0.34      4.9     10.0
-2 plasebo öncü                                   GC=F   1446    -12.2    -11.9 -2.45   0.36      6.0    -14.6
-2 plasebo öncü                                   HG=F   1538      5.6      5.6 -0.28   1.36     20.2     -5.2
-2 plasebo öncü                                   ZC=F   1485      2.5      2.7  1.30  -0.91    -15.0      4.7
-2 plasebo öncü                                   ZW=F   1590      6.3      6.4 -0.14   1.38     19.3      7.5
-2 plasebo öncü                                   ZS=F   1493     -6.1     -5.9 -1.78   0.60      8.5     33.0
-2 plasebo öncü                                   ZM=F   1417     -7.3     -7.1 -0.84  -0.52     -7.6     32.0
-2 plasebo öncü                                   ZL=F   1638      8.3      8.5 -0.74   2.17     31.9     18.5
-2 plasebo öncü                                   SB=F   1546     -1.6     -1.4 -0.43   0.12      1.8     18.9
-2 plasebo öncü                                   KC=F   1540    -13.5    -13.4  0.07  -2.40    -37.0    -11.4
-2 plasebo öncü                                    XLE   1598     -7.6     -7.9 -1.98   0.40      7.0     24.4
-2 plasebo öncü                                    XOM   1556    -12.4    -12.5 -2.59   0.26      3.9      3.1
-2 plasebo öncü                                    USO   1489     -8.8     -9.2 -0.90  -0.56    -10.3      0.9
-2 plasebo öncü                                    UGA   1349     15.2     15.0  0.38   2.12     31.2     18.5
-2 plasebo öncü                                    TLT   1644    -20.4    -20.2 -1.68  -2.00    -30.0    -22.0
-2 plasebo öncü                                    GLD   1487    -18.0    -17.6 -2.85  -0.36     -6.0    -40.4
-2 plasebo öncü                                    XLU   1611    -21.7    -21.7 -3.62  -0.73    -10.4    -35.8
-2 plasebo öncü          VLO kendi getirisi (momentum)   1540    -11.2    -11.2 -2.12   0.14      2.3      7.5
+          test                                varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+2 plasebo öncü crack 1 gün ileri (ileri bakış kıyası)   1373     84.7     84.8   9.60  7.49   6.08    102.1    101.0
+2 plasebo öncü                 benzin marjı (RB-CL) $   1319     35.9     35.9   4.10  3.45   2.37     39.6     48.0
+2 plasebo öncü                  dizel marjı (HO-CL) $   1523     13.4     13.9   1.67  1.21   1.13     16.9     16.9
+2 plasebo öncü                           CL=F $ farkı   1562     -1.5     -1.8  -0.19 -0.81   0.54      8.6     19.9
+2 plasebo öncü                                   CL=F   1539     -8.2     -8.6  -0.95 -1.72   0.21      3.9     15.4
+2 plasebo öncü                                   BZ=F   1293    -12.4    -12.7  -1.32 -0.78  -1.08    -20.1     -6.7
+2 plasebo öncü                                   RB=F   1430     15.6     15.4   1.85  0.96   1.66     27.5     24.4
+2 plasebo öncü                                   HO=F   1540     -9.8     -9.8  -1.21 -1.20  -0.52     -7.9      1.3
+2 plasebo öncü                                   NG=F   1588     -7.0     -7.1  -0.88 -1.45   0.34      4.9     10.0
+2 plasebo öncü                                   GC=F   1446    -12.2    -11.9  -1.43 -2.45   0.36      6.0    -14.6
+2 plasebo öncü                                   HG=F   1538      5.6      5.6   0.71 -0.28   1.36     20.2     -5.2
+2 plasebo öncü                                   ZC=F   1485      2.5      2.7   0.30  1.30  -0.91    -15.0      4.7
+2 plasebo öncü                                   ZW=F   1590      6.3      6.4   0.84 -0.14   1.38     19.3      7.5
+2 plasebo öncü                                   ZS=F   1493     -6.1     -5.9  -0.80 -1.78   0.60      8.5     33.0
+2 plasebo öncü                                   ZM=F   1417     -7.3     -7.1  -0.96 -0.84  -0.52     -7.6     32.0
+2 plasebo öncü                                   ZL=F   1638      8.3      8.5   1.08 -0.74   2.17     31.9     18.5
+2 plasebo öncü                                   SB=F   1546     -1.6     -1.4  -0.20 -0.43   0.12      1.8     18.9
+2 plasebo öncü                                   KC=F   1540    -13.5    -13.4  -1.68  0.07  -2.40    -37.0    -11.4
+2 plasebo öncü                                    XLE   1598     -7.6     -7.9  -0.92 -1.98   0.40      7.0     24.4
+2 plasebo öncü                                    XOM   1556    -12.4    -12.5  -1.60 -2.59   0.26      3.9      3.1
+2 plasebo öncü                                    USO   1489     -8.8     -9.2  -0.99 -0.90  -0.56    -10.3      0.9
+2 plasebo öncü                                    UGA   1349     15.2     15.0   1.91  0.38   2.12     31.2     18.5
+2 plasebo öncü                                    TLT   1644    -20.4    -20.2  -2.61 -1.68  -2.00    -30.0    -22.0
+2 plasebo öncü                                    GLD   1487    -18.0    -17.6  -2.15 -2.85  -0.36     -6.0    -40.4
+2 plasebo öncü                                    XLU   1611    -21.7    -21.7  -3.03 -3.62  -0.73    -10.4    -35.8
+2 plasebo öncü          VLO kendi getirisi (momentum)   1540    -11.2    -11.2  -1.34 -2.12   0.14      2.3      7.5
 
 ===== S8 crack->PBF ham =====
-          test                                        varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-       0 taban                                          tanım  890.0     73.9     74.7  1.12   2.82    108.7    114.7
-1 öncü gecikme                                          1 gün  890.0     26.9     27.8  0.63   0.89     35.8     34.6
-1 öncü gecikme                                          2 gün  890.0      2.3      3.1 -0.56   0.30     12.3     -7.7
-    3 aynı gün hedef aynı gün aynı yönde tepki verdi (z>=0,5)  364.0     69.8     70.7 -0.79   2.21    132.8     87.8
-    3 aynı gün                    hedef tepki vermedi (z<0,5)  526.0     76.7     77.5  1.78   1.79     90.0    142.7
- 4 kırılganlık                                 z penceresi 40  929.0     75.3     75.9  1.20   2.90    110.1    119.2
- 4 kırılganlık                                z penceresi 120  786.0     75.7     77.5  1.46   2.57     99.1     88.7
- 4 kırılganlık                                      eşik 0.75 1323.0     66.2     67.1  1.58   3.25     91.8     95.1
- 4 kırılganlık                                       eşik 1.5  408.0    117.0    118.1  0.36   2.90    192.3    179.9
- 4 kırılganlık                                       eşik 2.0  207.0    135.5    133.2  1.20   1.75    187.8    130.6
- 4 kırılganlık                                            h=1  890.0     23.5     23.8  0.19   1.68     39.4     39.5
- 4 kırılganlık                                            h=2  890.0     50.1     50.7  1.58   2.20     64.7     61.9
- 4 kırılganlık                            arındırma var (SPY)  863.0     82.1     82.2  1.23   2.65    119.3     98.6
- 4 kırılganlık             öncü ve hedef XLE'den arındırılmış  873.0     55.5     55.7  0.86   2.53     79.5     57.3
- 4 kırılganlık           sınır sinyalleri hariç (|z| 1,0-1,2)  644.0     97.1     98.2  0.87   3.27    153.2    139.1
- 4 kırılganlık                                  maliyet 2 kat  890.0     64.0     64.8  0.68   2.59     99.5    106.1
-       5 rejim                                       VIX > 20  235.0     94.8     96.8 -1.64   1.75    140.9     64.0
-       5 rejim                                      VIX <= 20  655.0     66.3     66.8  1.71   2.48     89.0    129.2
-       5 rejim                                       VIX > 30   49.0    172.9    177.4   NaN   0.80    198.3      NaN
-       5 rejim                                     kriz hariç  864.0     77.7     78.3  1.12   3.07    117.6    114.7
-       5 rejim                          en iyi 10 işlem hariç  880.0     44.9     45.8  0.98   1.77     61.4    104.9
-       5 rejim                               en iyi yıl hariç  820.0     54.2     54.8  1.12   2.10     77.2    114.7
-       5 rejim                      vade geçişi günleri hariç  578.0     73.9     76.7 -0.24   2.77    136.5     98.7
-       5 rejim                     yalnız vade geçişi günleri  312.0     73.8     71.0  2.13   0.96     58.9    139.6
-       6 bacak                AL bacağı (tanımdaki hedge ile)  457.0     74.8    106.4  0.50   1.79    114.7    207.2
-       6 bacak               SAT bacağı (tanımdaki hedge ile)  433.0     72.9     41.3  0.95   1.68    101.9      6.9
-       6 bacak       AL bacağı HEDGE'SİZ (ham hedef getirisi)  457.0     74.8    106.4  0.50   1.79    114.7    207.2
-       6 bacak                        AL hedge'siz, VIX <= 20  332.0     43.9     75.5  0.76   1.13     64.3    232.7
-       6 bacak                         AL hedge'siz, VIX > 20  125.0    157.0    188.6 -0.74   1.40    186.9    123.1
-       6 bacak                  AL hedge'siz, en iyi 10 hariç  447.0     25.3     56.9  0.50   0.57     29.9    175.6
-       6 bacak                       AL hedge'siz, kriz hariç  441.0     86.9    118.5  0.50   2.26    139.3    207.2
-       6 bacak             AL hedge'siz, öncü 1 gün gecikmeli  457.0     15.0     46.6  0.31   0.28     17.5    123.8
-       6 bacak              SAT bacağı HEDGE'SİZ (açığa, ham)  433.0     72.9     41.3  0.95   1.68    101.9      6.9
-       6 giriş                           ertesi açılış girişi  890.0     73.9     74.5  1.53   2.73    102.2    103.7
-       6 giriş              ertesi kapanış girişi (1 gün geç)  890.0     26.9     27.7  0.63   0.89     35.8     34.5
-       6 parça     gece (kapanış t -> açılış t+1), maliyetsiz  890.0     -0.1      0.2 -1.50   0.63      6.3     11.4
-       6 parça    gün içi t+1 (açılış -> kapanış), maliyetsiz  890.0     33.7     33.7  1.74   2.08     42.7     36.4
-       6 parça         t+1 kapanış -> t+3 kapanış, maliyetsiz  890.0     48.5     49.1  1.26   1.98     65.6     74.5
+          test                                            varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+       0 taban                                              tanım  890.0     73.9     74.7   3.03  1.12   2.82    108.7    114.7
+1 öncü gecikme                                              1 gün  890.0     26.9     27.8   1.08  0.63   0.89     35.8     34.6
+1 öncü gecikme                                              2 gün  890.0      2.3      3.1   0.09 -0.56   0.30     12.3     -7.7
+    3 aynı gün     hedef aynı gün aynı yönde tepki verdi (z>=0,5)  364.0     69.8     70.7   1.81 -0.79   2.21    132.8     87.8
+    3 aynı gün                        hedef tepki vermedi (z<0,5)  526.0     76.7     77.5   2.46  1.78   1.79     90.0    142.7
+ 4 kırılganlık                                     z penceresi 40  929.0     75.3     75.9   3.13  1.20   2.90    110.1    119.2
+ 4 kırılganlık                                    z penceresi 120  786.0     75.7     77.5   2.95  1.46   2.57     99.1     88.7
+ 4 kırılganlık                                          eşik 0.75 1323.0     66.2     67.1   3.64  1.58   3.25     91.8     95.1
+ 4 kırılganlık                                           eşik 1.5  408.0    117.0    118.1   2.84  0.36   2.90    192.3    179.9
+ 4 kırılganlık                                           eşik 2.0  207.0    135.5    133.2   2.04  1.20   1.75    187.8    130.6
+ 4 kırılganlık                                                h=1  890.0     23.5     23.8   1.63  0.19   1.68     39.4     39.5
+ 4 kırılganlık                                                h=2  890.0     50.1     50.7   2.69  1.58   2.20     64.7     61.9
+ 4 kırılganlık                                arındırma var (SPY)  863.0     82.1     82.2   2.91  1.23   2.65    119.3     98.6
+ 4 kırılganlık                 öncü ve hedef XLE'den arındırılmış  873.0     55.5     55.7   2.63  0.86   2.53     79.5     57.3
+ 4 kırılganlık               sınır sinyalleri hariç (|z| 1,0-1,2)  644.0     97.1     98.2   3.35  0.87   3.27    153.2    139.1
+ 4 kırılganlık                                      maliyet 2 kat  890.0     64.0     64.8   2.63  0.68   2.59     99.5    106.1
+       5 rejim                                           VIX > 20  235.0     94.8     96.8   1.42 -1.64   1.75    140.9     64.0
+       5 rejim                                          VIX <= 20  655.0     66.3     66.8   2.99  1.71   2.48     89.0    129.2
+       5 rejim                                           VIX > 30   49.0    172.9    177.4   0.74   NaN   0.80    198.3      NaN
+       5 rejim                                         kriz hariç  864.0     77.7     78.3   3.24  1.12   3.07    117.6    114.7
+       5 rejim                              en iyi 10 işlem hariç  880.0     44.9     45.8   2.04  0.98   1.77     61.4    104.9
+       5 rejim                                   en iyi yıl hariç  820.0     54.2     54.8   2.39  1.12   2.10     77.2    114.7
+       5 rejim                          vade geçişi günleri hariç  578.0     73.9     76.7   2.43 -0.24   2.77    136.5     98.7
+       5 rejim                         yalnız vade geçişi günleri  312.0     73.8     71.0   1.84  2.13   0.96     58.9    139.6
+       6 bacak                    AL bacağı (tanımdaki hedge ile)  457.0     74.8    106.4   1.84  0.50   1.79    114.7    207.2
+       6 bacak                   SAT bacağı (tanımdaki hedge ile)  433.0     72.9     41.3   1.94  0.95   1.68    101.9      6.9
+       6 bacak           AL bacağı HEDGE'SİZ (ham hedef getirisi)  457.0     74.8    106.4   1.84  0.50   1.79    114.7    207.2
+       6 bacak                            AL hedge'siz, VIX <= 20  332.0     43.9     75.5   1.29  0.76   1.13     64.3    232.7
+       6 bacak                             AL hedge'siz, VIX > 20  125.0    157.0    188.6   1.33 -0.74   1.40    186.9    123.1
+       6 bacak                      AL hedge'siz, en iyi 10 hariç  447.0     25.3     56.9   0.74  0.50   0.57     29.9    175.6
+       6 bacak                           AL hedge'siz, kriz hariç  441.0     86.9    118.5   2.25  0.50   2.26    139.3    207.2
+       6 bacak AL hedge'siz, yalnız 2022 ve sonrası (tum = 2022+)  160.0    235.7    267.3   2.83   NaN   2.73    225.9    207.2
+       6 bacak                 AL hedge'siz, öncü 1 gün gecikmeli  457.0     15.0     46.6   0.38  0.31   0.28     17.5    123.8
+       6 bacak                  SAT bacağı HEDGE'SİZ (açığa, ham)  433.0     72.9     41.3   1.94  0.95   1.68    101.9      6.9
+       6 giriş                               ertesi açılış girişi  890.0     73.9     74.5   3.13  1.53   2.73    102.2    103.7
+       6 giriş                  ertesi kapanış girişi (1 gün geç)  890.0     26.9     27.7   1.08  0.63   0.89     35.8     34.5
+       6 parça         gece (kapanış t -> açılış t+1), maliyetsiz  890.0     -0.1      0.2  -0.01 -1.50   0.63      6.3     11.4
+       6 parça        gün içi t+1 (açılış -> kapanış), maliyetsiz  890.0     33.7     33.7   2.63  1.74   2.08     42.7     36.4
+       6 parça             t+1 kapanış -> t+3 kapanış, maliyetsiz  890.0     48.5     49.1   2.34  1.26   1.98     65.6     74.5
    REG tum: sig tek başına b=86.3bps t=3.45 | kontrollü b=86.8 t=3.41 (zres t=-0.85, zret t=0.83) | sürekli z kontrollü t=3.82
    REG is: sig tek başına b=39.2bps t=1.50 | kontrollü b=38.6 t=1.48 (zres t=0.22, zret t=-0.17) | sürekli z kontrollü t=2.63
    REG oos: sig tek başına b=117.9bps t=3.12 | kontrollü b=116.1 t=3.00 (zres t=-0.91, zret t=0.90) | sürekli z kontrollü t=3.12
 -- plasebo / kıyas --
-          test                                varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-2 plasebo öncü crack 1 gün ileri (ileri bakış kıyası)    890    169.4    170.2  4.92   5.19    210.6    232.6
-2 plasebo öncü                 benzin marjı (RB-CL) $    848     86.7     86.4  0.93   3.67    135.1    169.1
-2 plasebo öncü                  dizel marjı (HO-CL) $   1033     60.0     62.6  1.76   2.08     72.3     42.8
-2 plasebo öncü                           CL=F $ farkı   1003     -1.4     -2.5 -1.22   0.55     19.5     10.3
-2 plasebo öncü                                   CL=F    988     14.9     13.2 -0.67   1.07     39.7     -4.0
-2 plasebo öncü                                   BZ=F    966     10.1      8.5 -0.06   0.47     18.6    -24.4
-2 plasebo öncü                                   RB=F    906     43.0     42.3 -0.04   1.89     76.5     61.5
-2 plasebo öncü                                   HO=F    985      6.1      5.6 -0.57   0.48     18.7    -18.0
-2 plasebo öncü                                   NG=F   1027     22.9     23.1  0.29   1.30     37.1     66.3
-2 plasebo öncü                                   GC=F    915    -14.8    -12.9 -1.16  -0.12     -4.7    -80.3
-2 plasebo öncü                                   HG=F    989    -15.4    -15.0 -0.76  -0.46    -15.1    -56.3
-2 plasebo öncü                                   ZC=F    947    -18.6    -18.3 -0.65  -0.68    -23.5     14.3
-2 plasebo öncü                                   ZW=F   1042      2.1      2.4 -0.40   0.27      9.4     32.9
-2 plasebo öncü                                   ZS=F    969     16.9     18.0 -0.23   0.88     31.5     84.0
-2 plasebo öncü                                   ZM=F    915    -20.6    -18.9 -0.03  -1.02    -34.9     54.3
-2 plasebo öncü                                   ZL=F   1073     16.5     17.9 -0.57   1.12     36.9      4.2
-2 plasebo öncü                                   SB=F   1021     21.6     22.4 -0.09   1.02     37.3     36.6
-2 plasebo öncü                                   KC=F   1007    -22.4    -21.7 -0.99  -0.66    -21.0     33.4
-2 plasebo öncü                                    XLE   1047    -28.6    -27.9 -0.80  -1.22    -39.0     29.7
-2 plasebo öncü                                    XOM   1006    -22.9    -21.6 -0.03  -1.20    -40.3    -35.2
-2 plasebo öncü                                    USO   1031     -8.5    -10.2 -1.18   0.06      2.2    -52.9
-2 plasebo öncü                                    UGA   1044     13.9     13.3 -0.77   1.03     36.9    -13.8
-2 plasebo öncü                                    TLT   1079    -13.4    -13.1 -0.79  -0.37    -11.4    -10.5
-2 plasebo öncü                                    GLD    975    -32.6    -30.6 -1.59  -0.86    -29.3    -93.2
-2 plasebo öncü                                    XLU   1030    -32.4    -30.7 -1.47  -1.04    -34.5    -87.4
-2 plasebo öncü          PBF kendi getirisi (momentum)    985     -4.0     -4.1 -0.01  -0.24     -7.4    -28.2
-2 plasebo öncü                           SPY getirisi    993      2.6      6.7 -0.28   0.28      9.3    -10.5
+          test                                varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+2 plasebo öncü crack 1 gün ileri (ileri bakış kıyası)    890    169.4    170.2   6.75  4.92   5.19    210.6    232.6
+2 plasebo öncü                 benzin marjı (RB-CL) $    848     86.7     86.4   3.72  0.93   3.67    135.1    169.1
+2 plasebo öncü                  dizel marjı (HO-CL) $   1033     60.0     62.6   2.67  1.76   2.08     72.3     42.8
+2 plasebo öncü                           CL=F $ farkı   1003     -1.4     -2.5  -0.06 -1.22   0.55     19.5     10.3
+2 plasebo öncü                                   CL=F    988     14.9     13.2   0.67 -0.67   1.07     39.7     -4.0
+2 plasebo öncü                                   BZ=F    966     10.1      8.5   0.42 -0.06   0.47     18.6    -24.4
+2 plasebo öncü                                   RB=F    906     43.0     42.3   1.73 -0.04   1.89     76.5     61.5
+2 plasebo öncü                                   HO=F    985      6.1      5.6   0.25 -0.57   0.48     18.7    -18.0
+2 plasebo öncü                                   NG=F   1027     22.9     23.1   1.26  0.29   1.30     37.1     66.3
+2 plasebo öncü                                   GC=F    915    -14.8    -12.9  -0.58 -1.16  -0.12     -4.7    -80.3
+2 plasebo öncü                                   HG=F    989    -15.4    -15.0  -0.73 -0.76  -0.46    -15.1    -56.3
+2 plasebo öncü                                   ZC=F    947    -18.6    -18.3  -0.86 -0.65  -0.68    -23.5     14.3
+2 plasebo öncü                                   ZW=F   1042      2.1      2.4   0.10 -0.40   0.27      9.4     32.9
+2 plasebo öncü                                   ZS=F    969     16.9     18.0   0.73 -0.23   0.88     31.5     84.0
+2 plasebo öncü                                   ZM=F    915    -20.6    -18.9  -0.93 -0.03  -1.02    -34.9     54.3
+2 plasebo öncü                                   ZL=F   1073     16.5     17.9   0.80 -0.57   1.12     36.9      4.2
+2 plasebo öncü                                   SB=F   1021     21.6     22.4   0.94 -0.09   1.02     37.3     36.6
+2 plasebo öncü                                   KC=F   1007    -22.4    -21.7  -1.05 -0.99  -0.66    -21.0     33.4
+2 plasebo öncü                                    XLE   1047    -28.6    -27.9  -1.45 -0.80  -1.22    -39.0     29.7
+2 plasebo öncü                                    XOM   1006    -22.9    -21.6  -1.07 -0.03  -1.20    -40.3    -35.2
+2 plasebo öncü                                    USO   1031     -8.5    -10.2  -0.38 -1.18   0.06      2.2    -52.9
+2 plasebo öncü                                    UGA   1044     13.9     13.3   0.63 -0.77   1.03     36.9    -13.8
+2 plasebo öncü                                    TLT   1079    -13.4    -13.1  -0.69 -0.79  -0.37    -11.4    -10.5
+2 plasebo öncü                                    GLD    975    -32.6    -30.6  -1.46 -1.59  -0.86    -29.3    -93.2
+2 plasebo öncü                                    XLU   1030    -32.4    -30.7  -1.58 -1.47  -1.04    -34.5    -87.4
+2 plasebo öncü          PBF kendi getirisi (momentum)    985     -4.0     -4.1  -0.21 -0.01  -0.24     -7.4    -28.2
+2 plasebo öncü                           SPY getirisi    993      2.6      6.7   0.12 -0.28   0.28      9.3    -10.5
 
 ===== S6 MU->WDC =====
-          test                                        varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-       0 taban                                          tanım 1444.0     50.9     51.1  3.74   2.43     53.7     61.8
-1 öncü gecikme                                          1 gün 1555.0     17.7     17.9  1.19   1.06     21.4     22.2
-1 öncü gecikme                                          2 gün 1555.0     14.6     15.0  1.79   0.03      0.6      4.6
-    3 aynı gün hedef aynı gün aynı yönde tepki verdi (z>=0,5)  763.0     34.4     34.5  1.52   1.36     36.4     42.8
-    3 aynı gün                    hedef tepki vermedi (z<0,5)  681.0     69.3     69.6  3.43   2.52     93.0    106.3
- 4 kırılganlık                                 z penceresi 40 1501.0     53.3     53.5  3.67   3.16     64.7     75.0
- 4 kırılganlık                                z penceresi 120 1389.0     49.8     50.2  3.81   2.04     42.2     36.5
- 4 kırılganlık                                      eşik 0.75 2095.0     51.9     52.0  4.86   2.67     46.7     51.8
- 4 kırılganlık                                       eşik 1.5  642.0     58.2     58.2  3.11   1.54     52.0     33.0
- 4 kırılganlık                                       eşik 2.0  292.0     59.3     59.6  1.36   2.06     91.1     22.9
- 4 kırılganlık                             beta penceresi 120 1444.0     42.0     42.2  3.10   2.02     44.2     44.9
- 4 kırılganlık                             beta penceresi 500 1409.0     52.7     52.9  3.59   2.63     59.0     68.5
- 4 kırılganlık                                            h=1 1445.0     15.5     15.6  2.21   0.95     12.1      6.8
- 4 kırılganlık                                            h=2 1444.0     30.7     30.8  2.33   2.01     38.9     21.3
- 4 kırılganlık            arındırma yok (ham öncü, ham hedef) 1585.0     37.9     39.1  1.37   2.64     65.1     74.0
- 4 kırılganlık             öncü ve hedef SMH'den arındırılmış 1415.0     32.1     31.9  2.58   1.59     28.5      4.1
- 4 kırılganlık             öncü ve hedef QQQ'den arındırılmış 1443.0     45.2     45.2  3.56   2.07     42.4     49.7
- 4 kırılganlık           sınır sinyalleri hariç (|z| 1,0-1,2) 1037.0     54.0     54.3  3.00   2.76     67.4     86.2
- 4 kırılganlık                                  maliyet 2 kat 1444.0     45.2     45.3  3.27   2.21     48.7     56.8
-       5 rejim                                       VIX > 20  529.0     65.2     64.9  2.68   1.44     58.2     73.5
-       5 rejim                                      VIX <= 20  915.0     42.6     43.0  2.64   2.00     51.0     59.7
-       5 rejim                                       VIX > 30  152.0     59.9     59.3  0.44   1.15    130.4      NaN
-       5 rejim                                     kriz hariç 1352.0     49.7     49.8  3.90   2.22     46.4     61.8
-       5 rejim                          en iyi 10 işlem hariç 1434.0     37.6     37.7  3.07   1.98     37.8     43.8
-       5 rejim                               en iyi yıl hariç 1344.0     48.1     48.3  3.31   2.43     53.7     61.8
-       6 bacak                AL bacağı (tanımdaki hedge ile)  733.0     51.6     63.8  1.86   1.87     72.0    123.2
-       6 bacak               SAT bacağı (tanımdaki hedge ile)  711.0     50.2     37.9  2.97   1.04     32.9    -14.5
-       6 bacak       AL bacağı HEDGE'SİZ (ham hedef getirisi)  733.0     51.9     86.1  0.98   1.71     92.0    173.6
-       6 bacak                        AL hedge'siz, VIX <= 20  474.0     39.7     73.9  0.83   1.25     65.7    108.1
-       6 bacak                         AL hedge'siz, VIX > 20  259.0     74.2    108.4  0.58   1.19    139.0    679.3
-       6 bacak                  AL hedge'siz, en iyi 10 hariç  723.0     20.7     54.9  0.46   0.84     33.9    125.4
-       6 bacak                       AL hedge'siz, kriz hariç  683.0     64.3     98.5  1.76   2.18     93.1    173.6
-       6 bacak             AL hedge'siz, öncü 1 gün gecikmeli  792.0     12.9     47.1 -0.17   0.92     36.1    138.8
-       6 bacak              SAT bacağı HEDGE'SİZ (açığa, ham)  711.0     52.5     18.3  2.17   1.24     50.7     26.5
-       6 giriş                           ertesi açılış girişi 1444.0     40.6     40.7  3.24   1.90     40.4     53.5
-       6 giriş              ertesi kapanış girişi (1 gün geç) 1444.0     26.6     26.8  1.77   1.58     31.7     52.8
-       6 parça     gece (kapanış t -> açılış t+1), maliyetsiz 1445.0     10.3     10.3  2.22   1.65     13.1      7.4
-       6 parça    gün içi t+1 (açılış -> kapanış), maliyetsiz 1445.0     11.0     11.0  2.13   0.41      4.3      4.8
-       6 parça         t+1 kapanış -> t+3 kapanış, maliyetsiz 1444.0     35.3     35.5  3.04   2.43     41.4     55.0
-    2 ters yön                  WDC -> MU (h=3, arındırılmış) 1300.0     -0.6     -0.5  0.08  -0.14     -3.1     45.5
-  8 S2 çakışma                         S2 sinyali olan günler  455.0     70.8     69.8  2.67   1.39     65.4     70.4
-  8 S2 çakışma                      S2 sinyali OLMAYAN günler  989.0     41.7     42.5  2.68   2.00     48.5     60.4
-  8 S2 çakışma           AL bacağı, S2 sinyali olmayan günler  524.0     34.0     46.3  0.73   1.48     59.5     96.1
+          test                                            varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+       0 taban                                              tanım 1444.0     50.9     51.1   4.38  3.74   2.43     53.7     61.8
+1 öncü gecikme                                              1 gün 1555.0     17.7     17.9   1.61  1.19   1.06     21.4     22.2
+1 öncü gecikme                                              2 gün 1555.0     14.6     15.0   1.32  1.79   0.03      0.6      4.6
+    3 aynı gün     hedef aynı gün aynı yönde tepki verdi (z>=0,5)  763.0     34.4     34.5   2.05  1.52   1.36     36.4     42.8
+    3 aynı gün                        hedef tepki vermedi (z<0,5)  681.0     69.3     69.6   4.26  3.43   2.52     93.0    106.3
+ 4 kırılganlık                                     z penceresi 40 1501.0     53.3     53.5   4.84  3.67   3.16     64.7     75.0
+ 4 kırılganlık                                    z penceresi 120 1389.0     49.8     50.2   4.20  3.81   2.04     42.2     36.5
+ 4 kırılganlık                                          eşik 0.75 2095.0     51.9     52.0   5.36  4.86   2.67     46.7     51.8
+ 4 kırılganlık                                           eşik 1.5  642.0     58.2     58.2   3.31  3.11   1.54     52.0     33.0
+ 4 kırılganlık                                           eşik 2.0  292.0     59.3     59.6   2.41  1.36   2.06     91.1     22.9
+ 4 kırılganlık                                 beta penceresi 120 1444.0     42.0     42.2   3.64  3.10   2.02     44.2     44.9
+ 4 kırılganlık                                 beta penceresi 500 1409.0     52.7     52.9   4.40  3.59   2.63     59.0     68.5
+ 4 kırılganlık                                                h=1 1445.0     15.5     15.6   2.26  2.21   0.95     12.1      6.8
+ 4 kırılganlık                                                h=2 1444.0     30.7     30.8   3.09  2.33   2.01     38.9     21.3
+ 4 kırılganlık                arındırma yok (ham öncü, ham hedef) 1585.0     37.9     39.1   2.82  1.37   2.64     65.1     74.0
+ 4 kırılganlık                 öncü ve hedef SMH'den arındırılmış 1415.0     32.1     31.9   3.00  2.58   1.59     28.5      4.1
+ 4 kırılganlık                 öncü ve hedef QQQ'den arındırılmış 1443.0     45.2     45.2   4.02  3.56   2.07     42.4     49.7
+ 4 kırılganlık               sınır sinyalleri hariç (|z| 1,0-1,2) 1037.0     54.0     54.3   4.07  3.00   2.76     67.4     86.2
+ 4 kırılganlık                                      maliyet 2 kat 1444.0     45.2     45.3   3.89  3.27   2.21     48.7     56.8
+       5 rejim                                           VIX > 20  529.0     65.2     64.9   2.92  2.68   1.44     58.2     73.5
+       5 rejim                                          VIX <= 20  915.0     42.6     43.0   3.29  2.64   2.00     51.0     59.7
+       5 rejim                                           VIX > 30  152.0     59.9     59.3   1.18  0.44   1.15    130.4      NaN
+       5 rejim                                         kriz hariç 1352.0     49.7     49.8   4.36  3.90   2.22     46.4     61.8
+       5 rejim                              en iyi 10 işlem hariç 1434.0     37.6     37.7   3.62  3.07   1.98     37.8     43.8
+       5 rejim                                   en iyi yıl hariç 1344.0     48.1     48.3   4.04  3.31   2.43     53.7     61.8
+       6 bacak                    AL bacağı (tanımdaki hedge ile)  733.0     51.6     63.8   2.64  1.86   1.87     72.0    123.2
+       6 bacak                   SAT bacağı (tanımdaki hedge ile)  711.0     50.2     37.9   2.93  2.97   1.04     32.9    -14.5
+       6 bacak           AL bacağı HEDGE'SİZ (ham hedef getirisi)  733.0     51.9     86.1   1.99  0.98   1.71     92.0    173.6
+       6 bacak                            AL hedge'siz, VIX <= 20  474.0     39.7     73.9   1.53  0.83   1.25     65.7    108.1
+       6 bacak                             AL hedge'siz, VIX > 20  259.0     74.2    108.4   1.33  0.58   1.19    139.0    679.3
+       6 bacak                      AL hedge'siz, en iyi 10 hariç  723.0     20.7     54.9   0.97  0.46   0.84     33.9    125.4
+       6 bacak                           AL hedge'siz, kriz hariç  683.0     64.3     98.5   2.84  1.76   2.18     93.1    173.6
+       6 bacak AL hedge'siz, yalnız 2022 ve sonrası (tum = 2022+)  181.0    116.0    150.2   2.00   NaN   1.67     95.8    173.6
+       6 bacak                 AL hedge'siz, öncü 1 gün gecikmeli  792.0     12.9     47.1   0.63 -0.17   0.92     36.1    138.8
+       6 bacak                  SAT bacağı HEDGE'SİZ (açığa, ham)  711.0     52.5     18.3   2.44  2.17   1.24     50.7     26.5
+       6 giriş                               ertesi açılış girişi 1444.0     40.6     40.7   3.65  3.24   1.90     40.4     53.5
+       6 giriş                  ertesi kapanış girişi (1 gün geç) 1444.0     26.6     26.8   2.40  1.77   1.58     31.7     52.8
+       6 parça         gece (kapanış t -> açılış t+1), maliyetsiz 1445.0     10.3     10.3   2.70  2.22   1.65     13.1      7.4
+       6 parça        gün içi t+1 (açılış -> kapanış), maliyetsiz 1445.0     11.0     11.0   1.88  2.13   0.41      4.3      4.8
+       6 parça             t+1 kapanış -> t+3 kapanış, maliyetsiz 1444.0     35.3     35.5   3.89  3.04   2.43     41.4     55.0
+    2 ters yön                      WDC -> MU (h=3, arındırılmış) 1300.0     -0.6     -0.5  -0.04  0.08  -0.14     -3.1     45.5
+  8 S2 çakışma                             S2 sinyali olan günler  455.0     70.8     69.8   2.88  2.67   1.39     65.4     70.4
+  8 S2 çakışma                          S2 sinyali OLMAYAN günler  989.0     41.7     42.5   3.33  2.68   2.00     48.5     60.4
+  8 S2 çakışma               AL bacağı, S2 sinyali olmayan günler  524.0     34.0     46.3   1.64  0.73   1.48     59.5     96.1
    REG tum: sig tek başına b=56.6bps t=4.89 | kontrollü b=60.3 t=5.23 (zres t=-0.81, zret t=0.33) | sürekli z kontrollü t=5.97
    REG is: sig tek başına b=54.7bps t=4.22 | kontrollü b=57.6 t=4.50 (zres t=-1.52, zret t=1.13) | sürekli z kontrollü t=4.84
    REG oos: sig tek başına b=58.8bps t=2.69 | kontrollü b=63.4 t=2.61 (zres t=0.23, zret t=-0.57) | sürekli z kontrollü t=3.14
 -- plasebo / kıyas --
-          test                       varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-2 plasebo öncü                          NVDA   1289     19.9     20.4  1.15   1.03     23.1     13.2
-2 plasebo öncü                           AMD   1296     20.4     20.8  1.83   0.36      7.9     21.2
-2 plasebo öncü                          INTC   1240      7.4      7.3  0.19   0.63     17.8     12.9
-2 plasebo öncü                           TXN   1297     10.6     10.6  2.01  -0.70    -16.5    -38.0
-2 plasebo öncü                          AVGO   1012    -10.1     -9.7 -1.43   0.18      3.9     17.2
-2 plasebo öncü                          AMAT   1407     -1.1     -1.1  0.45  -0.66    -14.2     -2.6
-2 plasebo öncü                          LRCX   1358     22.2     22.3  1.83   0.78     17.7     22.6
-2 plasebo öncü                          KLAC   1297      4.3      4.6  1.75  -1.05    -29.0    -12.5
-2 plasebo öncü                          QCOM   1187    -14.3    -14.6 -0.51  -1.04    -24.5    -12.2
-2 plasebo öncü                           STX   1264     12.0     11.8  0.94   0.41      9.1     50.8
-2 plasebo öncü                           SMH   1530     18.8     19.0  1.06   1.31     26.3     31.7
-2 plasebo öncü                          SOXX   1537     15.9     15.8  1.26   0.74     14.7     42.7
-2 plasebo öncü                           QQQ   1583     -0.1      0.2 -1.20   1.02     24.2     36.3
-2 plasebo öncü                           XOM   1555     -9.3     -9.5 -0.39  -0.77    -17.2    -26.7
-2 plasebo öncü                           JPM   1384    -28.0    -27.8 -1.56  -2.03    -39.4    -57.4
-2 plasebo öncü                            PG   1361     -5.7     -5.4 -0.25  -0.51     -9.6     -1.8
-2 plasebo öncü                           WMT   1310     16.7     17.1  0.26   1.90     39.9     41.8
-2 plasebo öncü                            KO   1418    -16.6    -16.5 -1.25  -0.54    -13.9      5.5
-2 plasebo öncü                           UNH   1297    -25.1    -24.7 -1.07  -1.76    -39.3    -25.4
-2 plasebo öncü                           CAT   1342    -11.3    -11.0 -0.72  -0.62    -14.0    -49.2
-2 plasebo öncü                            BA   1378     -7.8     -7.6 -1.21   0.35      9.0     16.1
-2 plasebo öncü                           GLD   1486     -9.8     -9.0 -0.96  -0.29     -6.3      3.3
-2 plasebo öncü                           TLT   1643      0.6      1.1 -0.94   1.09     20.7     47.5
-2 plasebo öncü                           XLU   1611     -2.2     -2.3  0.32  -0.56    -12.0      2.6
-2 plasebo öncü                           VLO   1539      4.5      4.5 -0.23   0.67     16.1    -63.4
-2 plasebo öncü                            HD   1445    -11.8    -12.0 -1.64   0.32      6.5     -0.3
-2 plasebo öncü                           DIS   1276    -17.9    -18.0 -1.22  -0.81    -20.3    -12.2
-2 plasebo öncü WDC kendi getirisi (momentum)   1300     10.9     11.0  0.23   1.04     24.0     49.6
+          test                       varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+2 plasebo öncü                          NVDA   1289     19.9     20.4   1.57  1.15   1.03     23.1     13.2
+2 plasebo öncü                           AMD   1296     20.4     20.8   1.63  1.83   0.36      7.9     21.2
+2 plasebo öncü                          INTC   1240      7.4      7.3   0.56  0.19   0.63     17.8     12.9
+2 plasebo öncü                           TXN   1297     10.6     10.6   0.90  2.01  -0.70    -16.5    -38.0
+2 plasebo öncü                          AVGO   1012    -10.1     -9.7  -0.77 -1.43   0.18      3.9     17.2
+2 plasebo öncü                          AMAT   1407     -1.1     -1.1  -0.10  0.45  -0.66    -14.2     -2.6
+2 plasebo öncü                          LRCX   1358     22.2     22.3   1.83  1.83   0.78     17.7     22.6
+2 plasebo öncü                          KLAC   1297      4.3      4.6   0.31  1.75  -1.05    -29.0    -12.5
+2 plasebo öncü                          QCOM   1187    -14.3    -14.6  -1.06 -0.51  -1.04    -24.5    -12.2
+2 plasebo öncü                           STX   1264     12.0     11.8   0.97  0.94   0.41      9.1     50.8
+2 plasebo öncü                           SMH   1530     18.8     19.0   1.71  1.06   1.31     26.3     31.7
+2 plasebo öncü                          SOXX   1537     15.9     15.8   1.46  1.26   0.74     14.7     42.7
+2 plasebo öncü                           QQQ   1583     -0.1      0.2  -0.01 -1.20   1.02     24.2     36.3
+2 plasebo öncü                           XOM   1555     -9.3     -9.5  -0.81 -0.39  -0.77    -17.2    -26.7
+2 plasebo öncü                           JPM   1384    -28.0    -27.8  -2.46 -1.56  -2.03    -39.4    -57.4
+2 plasebo öncü                            PG   1361     -5.7     -5.4  -0.50 -0.25  -0.51     -9.6     -1.8
+2 plasebo öncü                           WMT   1310     16.7     17.1   1.51  0.26   1.90     39.9     41.8
+2 plasebo öncü                            KO   1418    -16.6    -16.5  -1.26 -1.25  -0.54    -13.9      5.5
+2 plasebo öncü                           UNH   1297    -25.1    -24.7  -1.98 -1.07  -1.76    -39.3    -25.4
+2 plasebo öncü                           CAT   1342    -11.3    -11.0  -0.93 -0.72  -0.62    -14.0    -49.2
+2 plasebo öncü                            BA   1378     -7.8     -7.6  -0.60 -1.21   0.35      9.0     16.1
+2 plasebo öncü                           GLD   1486     -9.8     -9.0  -0.86 -0.96  -0.29     -6.3      3.3
+2 plasebo öncü                           TLT   1643      0.6      1.1   0.06 -0.94   1.09     20.7     47.5
+2 plasebo öncü                           XLU   1611     -2.2     -2.3  -0.21  0.32  -0.56    -12.0      2.6
+2 plasebo öncü                           VLO   1539      4.5      4.5   0.37 -0.23   0.67     16.1    -63.4
+2 plasebo öncü                            HD   1445    -11.8    -12.0  -1.05 -1.64   0.32      6.5     -0.3
+2 plasebo öncü                           DIS   1276    -17.9    -18.0  -1.50 -1.22  -0.81    -20.3    -12.2
+2 plasebo öncü WDC kendi getirisi (momentum)   1300     10.9     11.0   0.87  0.23   1.04     24.0     49.6
 
 ===== S7 ZL->BG =====
-          test                                        varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-       0 taban                                          tanım 1638.0      8.2      8.2 -0.47   3.63     26.0     33.8
-1 öncü gecikme                                          1 gün 1616.0      1.8      1.8  0.20   0.37      2.7      7.8
-1 öncü gecikme                                          2 gün 1618.0     -4.2     -4.2 -0.48  -0.73     -5.9    -12.3
-    3 aynı gün hedef aynı gün aynı yönde tepki verdi (z>=0,5)  573.0     10.6     10.6 -0.58   2.67     31.8     37.9
-    3 aynı gün                    hedef tepki vermedi (z<0,5) 1065.0      6.9      6.9 -0.12   2.45     21.9     29.5
- 4 kırılganlık                                 z penceresi 40 1654.0      7.6      7.6 -0.57   3.67     26.1     28.6
- 4 kırılganlık                                z penceresi 120 1580.0      8.7      8.7 -0.05   3.11     22.8     28.7
- 4 kırılganlık                                      eşik 0.75 2363.0      3.4      3.4 -1.17   2.97     18.2     23.8
- 4 kırılganlık                                       eşik 1.5  711.0     16.0     16.0  0.46   3.33     35.5     31.8
- 4 kırılganlık                                       eşik 2.0  284.0     31.7     31.8  1.17   3.51     62.5     71.1
- 4 kırılganlık                             beta penceresi 120 1656.0      6.3      6.4 -0.68   3.23     23.3     32.4
- 4 kırılganlık                             beta penceresi 500 1617.0      9.0      9.0 -0.13   3.39     24.1     26.9
- 4 kırılganlık                                            h=2 1638.0     14.1     14.1  0.09   3.32     35.9     43.7
- 4 kırılganlık                                            h=3 1637.0     22.2     22.3  1.22   2.89     38.5     43.1
- 4 kırılganlık            arındırma yok (ham öncü, ham hedef) 1638.0      2.9      3.1 -0.71   1.98     15.5     25.3
- 4 kırılganlık             öncü ve hedef XLP'den arındırılmış 1623.0      6.5      6.6 -0.81   3.36     25.1     25.5
- 4 kırılganlık           sınır sinyalleri hariç (|z| 1,0-1,2) 1188.0     11.8     11.8  0.17   3.56     29.4     33.7
- 4 kırılganlık                                  maliyet 2 kat 1638.0     -0.2     -0.2 -2.02   2.63     18.8     28.8
-       5 rejim                                       VIX > 20  592.0     23.1     23.1  1.15   2.58     34.4     86.1
-       5 rejim                                      VIX <= 20 1046.0     -0.2     -0.2 -2.10   2.54     20.6     18.5
-       5 rejim                                       VIX > 30  154.0     27.2     27.2  0.41   1.72     58.2      NaN
-       5 rejim                                     kriz hariç 1553.0      5.5      5.5 -1.09   3.31     23.7     33.8
-       5 rejim                          en iyi 10 işlem hariç 1628.0      3.4      3.4 -1.85   3.52     25.0     33.8
-       5 rejim                               en iyi yıl hariç 1565.0      5.9      5.9 -0.47   2.98     21.9     33.8
-       6 bacak                AL bacağı (tanımdaki hedge ile)  846.0      4.2      4.3 -0.70   1.98     19.6     22.5
-       6 bacak               SAT bacağı (tanımdaki hedge ile)  792.0     12.4     12.4  0.05   3.19     33.4     47.7
-       6 bacak       AL bacağı HEDGE'SİZ (ham hedef getirisi)  846.0     -0.1      3.8 -1.19   1.55     17.0     22.1
-       6 bacak                        AL hedge'siz, VIX <= 20  533.0    -10.8     -6.9 -2.30   0.55      6.6     11.7
-       6 bacak                         AL hedge'siz, VIX > 20  313.0     18.0     22.0  0.31   1.56     31.7     55.1
-       6 bacak                  AL hedge'siz, en iyi 10 hariç  836.0     -9.8     -5.8 -2.87   1.17     12.3     22.1
-       6 bacak                       AL hedge'siz, kriz hariç  807.0     -4.7     -0.7 -1.87   1.24     12.9     22.1
-       6 bacak             AL hedge'siz, öncü 1 gün gecikmeli  857.0     -2.5      1.5  0.07  -0.76     -7.7      7.9
-       6 bacak              SAT bacağı HEDGE'SİZ (açığa, ham)  792.0     11.0      7.0 -0.16   2.68     32.9     47.0
-       6 giriş                           ertesi açılış girişi 1638.0      6.2      6.1  0.02   2.55     16.3     27.2
-       6 giriş              ertesi kapanış girişi (1 gün geç) 1638.0     -2.5     -2.5 -0.95   0.38      2.8      5.0
-       6 parça     gece (kapanış t -> açılış t+1), maliyetsiz 1638.0      2.0      2.1 -0.96   3.68      9.9      6.7
-       6 parça    gün içi t+1 (açılış -> kapanış), maliyetsiz 1638.0     14.6     14.5  1.74   3.66     23.5     32.2
+          test                                            varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+       0 taban                                              tanım 1638.0      8.2      8.2   1.80 -0.47   3.63     26.0     33.8
+1 öncü gecikme                                              1 gün 1616.0      1.8      1.8   0.38  0.20   0.37      2.7      7.8
+1 öncü gecikme                                              2 gün 1618.0     -4.2     -4.2  -0.82 -0.48  -0.73     -5.9    -12.3
+    3 aynı gün     hedef aynı gün aynı yönde tepki verdi (z>=0,5)  573.0     10.6     10.6   1.25 -0.58   2.67     31.8     37.9
+    3 aynı gün                        hedef tepki vermedi (z<0,5) 1065.0      6.9      6.9   1.31 -0.12   2.45     21.9     29.5
+ 4 kırılganlık                                     z penceresi 40 1654.0      7.6      7.6   1.65 -0.57   3.67     26.1     28.6
+ 4 kırılganlık                                    z penceresi 120 1580.0      8.7      8.7   1.91 -0.05   3.11     22.8     28.7
+ 4 kırılganlık                                          eşik 0.75 2363.0      3.4      3.4   0.88 -1.17   2.97     18.2     23.8
+ 4 kırılganlık                                           eşik 1.5  711.0     16.0     16.0   2.50  0.46   3.33     35.5     31.8
+ 4 kırılganlık                                           eşik 2.0  284.0     31.7     31.8   3.04  1.17   3.51     62.5     71.1
+ 4 kırılganlık                                 beta penceresi 120 1656.0      6.3      6.4   1.44 -0.68   3.23     23.3     32.4
+ 4 kırılganlık                                 beta penceresi 500 1617.0      9.0      9.0   1.99 -0.13   3.39     24.1     26.9
+ 4 kırılganlık                                                h=2 1638.0     14.1     14.1   2.17  0.09   3.32     35.9     43.7
+ 4 kırılganlık                                                h=3 1637.0     22.2     22.3   2.77  1.22   2.89     38.5     43.1
+ 4 kırılganlık                arındırma yok (ham öncü, ham hedef) 1638.0      2.9      3.1   0.57 -0.71   1.98     15.5     25.3
+ 4 kırılganlık                 öncü ve hedef XLP'den arındırılmış 1623.0      6.5      6.6   1.38 -0.81   3.36     25.1     25.5
+ 4 kırılganlık               sınır sinyalleri hariç (|z| 1,0-1,2) 1188.0     11.8     11.8   2.40  0.17   3.56     29.4     33.7
+ 4 kırılganlık                                      maliyet 2 kat 1638.0     -0.2     -0.2  -0.05 -2.02   2.63     18.8     28.8
+       5 rejim                                           VIX > 20  592.0     23.1     23.1   2.44  1.15   2.58     34.4     86.1
+       5 rejim                                          VIX <= 20 1046.0     -0.2     -0.2  -0.05 -2.10   2.54     20.6     18.5
+       5 rejim                                           VIX > 30  154.0     27.2     27.2   1.22  0.41   1.72     58.2      NaN
+       5 rejim                                         kriz hariç 1553.0      5.5      5.5   1.26 -1.09   3.31     23.7     33.8
+       5 rejim                              en iyi 10 işlem hariç 1628.0      3.4      3.4   0.79 -1.85   3.52     25.0     33.8
+       5 rejim                                   en iyi yıl hariç 1565.0      5.9      5.9   1.29 -0.47   2.98     21.9     33.8
+       6 bacak                    AL bacağı (tanımdaki hedge ile)  846.0      4.2      4.3   0.66 -0.70   1.98     19.6     22.5
+       6 bacak                   SAT bacağı (tanımdaki hedge ile)  792.0     12.4     12.4   1.91  0.05   3.19     33.4     47.7
+       6 bacak           AL bacağı HEDGE'SİZ (ham hedef getirisi)  846.0     -0.1      3.8  -0.02 -1.19   1.55     17.0     22.1
+       6 bacak                            AL hedge'siz, VIX <= 20  533.0    -10.8     -6.9  -1.49 -2.30   0.55      6.6     11.7
+       6 bacak                             AL hedge'siz, VIX > 20  313.0     18.0     22.0   1.19  0.31   1.56     31.7     55.1
+       6 bacak                      AL hedge'siz, en iyi 10 hariç  836.0     -9.8     -5.8  -1.49 -2.87   1.17     12.3     22.1
+       6 bacak                           AL hedge'siz, kriz hariç  807.0     -4.7     -0.7  -0.69 -1.87   1.24     12.9     22.1
+       6 bacak AL hedge'siz, yalnız 2022 ve sonrası (tum = 2022+)  190.0     19.9     23.9   1.45   NaN   1.31     17.9     22.1
+       6 bacak                 AL hedge'siz, öncü 1 gün gecikmeli  857.0     -2.5      1.5  -0.35  0.07  -0.76     -7.7      7.9
+       6 bacak                  SAT bacağı HEDGE'SİZ (açığa, ham)  792.0     11.0      7.0   1.39 -0.16   2.68     32.9     47.0
+       6 giriş                               ertesi açılış girişi 1638.0      6.2      6.1   1.52  0.02   2.55     16.3     27.2
+       6 giriş                  ertesi kapanış girişi (1 gün geç) 1638.0     -2.5     -2.5  -0.53 -0.95   0.38      2.8      5.0
+       6 parça         gece (kapanış t -> açılış t+1), maliyetsiz 1638.0      2.0      2.1   0.96 -0.96   3.68      9.9      6.7
+       6 parça        gün içi t+1 (açılış -> kapanış), maliyetsiz 1638.0     14.6     14.5   3.57  1.74   3.66     23.5     32.2
    REG tum: sig tek başına b=16.6bps t=3.66 | kontrollü b=17.5 t=3.84 (zres t=-1.77, zret t=1.47) | sürekli z kontrollü t=3.88
    REG is: sig tek başına b=6.4bps t=1.09 | kontrollü b=7.5 t=1.29 (zres t=-3.03, zret t=2.60) | sürekli z kontrollü t=1.35
    REG oos: sig tek başına b=33.3bps t=4.68 | kontrollü b=32.2 t=4.51 (zres t=1.42, zret t=-1.39) | sürekli z kontrollü t=4.46
 -- plasebo / kıyas --
-          test                      varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-2 plasebo öncü                         ZC=F   1485      6.5      6.5  0.49   1.73     12.9     12.3
-2 plasebo öncü                         ZW=F   1590     -6.0     -6.0 -0.54  -1.60    -11.3    -12.0
-2 plasebo öncü                         ZS=F   1493      9.7      9.7  0.12   3.35     24.1     25.8
-2 plasebo öncü                         ZM=F   1417      0.6      0.6 -0.40   0.80      6.2      9.3
-2 plasebo öncü                         CL=F   1540     -1.1     -1.1 -0.35   0.07      0.7      5.1
-2 plasebo öncü                         HO=F   1541     -2.4     -2.4 -0.62  -0.05     -0.4     -7.9
-2 plasebo öncü                         GC=F   1446     -4.3     -4.2 -1.34   0.41      3.2     10.9
-2 plasebo öncü                         HG=F   1538     -7.3     -7.3 -2.17   0.61      4.6      2.0
-2 plasebo öncü                         SB=F   1547     -2.1     -2.1 -0.23  -0.45     -3.3     13.7
-2 plasebo öncü                         KC=F   1540     -9.4     -9.4 -1.58  -1.16     -9.1     -9.2
-2 plasebo öncü                         NG=F   1589     -7.0     -7.0 -1.34  -0.72     -5.9     -7.4
-2 plasebo öncü                          DBA   1452      6.6      6.6  0.06   2.09     15.5     15.5
-2 plasebo öncü                         SOYB   1042      3.9      3.9 -2.61   2.69     20.9     17.3
-2 plasebo öncü                         CORN   1110      2.6      2.6 -0.32   0.96      6.7     -9.3
-2 plasebo öncü                          XLE   1598     -5.3     -5.3 -1.14  -0.33     -2.7      3.3
-2 plasebo öncü                          XLP   1604     -7.2     -7.2 -1.21  -0.81     -6.4     -4.6
-2 plasebo öncü                          TLT   1644    -10.8    -10.8 -2.99   0.14      1.1     -7.5
-2 plasebo öncü BG kendi getirisi (momentum)   1293    -10.7    -10.7 -2.39   0.41      3.2     26.6
-2 plasebo öncü                 ADM getirisi   1337    -10.3    -10.3 -1.47  -1.09     -9.5     11.4
+          test                      varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+2 plasebo öncü                         ZC=F   1485      6.5      6.5   1.41  0.49   1.73     12.9     12.3
+2 plasebo öncü                         ZW=F   1590     -6.0     -6.0  -1.39 -0.54  -1.60    -11.3    -12.0
+2 plasebo öncü                         ZS=F   1493      9.7      9.7   2.22  0.12   3.35     24.1     25.8
+2 plasebo öncü                         ZM=F   1417      0.6      0.6   0.13 -0.40   0.80      6.2      9.3
+2 plasebo öncü                         CL=F   1540     -1.1     -1.1  -0.22 -0.35   0.07      0.7      5.1
+2 plasebo öncü                         HO=F   1541     -2.4     -2.4  -0.50 -0.62  -0.05     -0.4     -7.9
+2 plasebo öncü                         GC=F   1446     -4.3     -4.2  -0.86 -1.34   0.41      3.2     10.9
+2 plasebo öncü                         HG=F   1538     -7.3     -7.3  -1.49 -2.17   0.61      4.6      2.0
+2 plasebo öncü                         SB=F   1547     -2.1     -2.1  -0.45 -0.23  -0.45     -3.3     13.7
+2 plasebo öncü                         KC=F   1540     -9.4     -9.4  -1.95 -1.58  -1.16     -9.1     -9.2
+2 plasebo öncü                         NG=F   1589     -7.0     -7.0  -1.49 -1.34  -0.72     -5.9     -7.4
+2 plasebo öncü                          DBA   1452      6.6      6.6   1.47  0.06   2.09     15.5     15.5
+2 plasebo öncü                         SOYB   1042      3.9      3.9   0.75 -2.61   2.69     20.9     17.3
+2 plasebo öncü                         CORN   1110      2.6      2.6   0.60 -0.32   0.96      6.7     -9.3
+2 plasebo öncü                          XLE   1598     -5.3     -5.3  -1.09 -1.14  -0.33     -2.7      3.3
+2 plasebo öncü                          XLP   1604     -7.2     -7.2  -1.46 -1.21  -0.81     -6.4     -4.6
+2 plasebo öncü                          TLT   1644    -10.8    -10.8  -2.29 -2.99   0.14      1.1     -7.5
+2 plasebo öncü BG kendi getirisi (momentum)   1293    -10.7    -10.7  -1.79 -2.39   0.41      3.2     26.6
+2 plasebo öncü                 ADM getirisi   1337    -10.3    -10.3  -1.83 -1.47  -1.09     -9.5     11.4
 
 ===== S7 ZL->ADM =====
-          test                                        varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-       0 taban                                          tanım 1638.0      8.8      8.9 -0.18   3.44     24.8     35.4
-1 öncü gecikme                                          1 gün 1616.0     -0.6     -0.6  0.27  -0.64     -4.0    -12.5
-1 öncü gecikme                                          2 gün 1618.0     -4.2     -4.2 -0.74  -0.81     -5.0     -3.8
-    3 aynı gün hedef aynı gün aynı yönde tepki verdi (z>=0,5)  563.0     13.8     13.8 -0.42   2.53     34.3     41.4
-    3 aynı gün                    hedef tepki vermedi (z<0,5) 1075.0      6.3      6.3  0.06   2.35     17.9     29.6
- 4 kırılganlık                                 z penceresi 40 1654.0      8.5      8.5 -0.60   3.75     27.4     35.4
- 4 kırılganlık                                z penceresi 120 1580.0     10.8     10.8  0.33   3.41     25.3     34.4
- 4 kırılganlık                                      eşik 0.75 2363.0      6.8      6.8 -0.32   3.45     20.1     32.9
- 4 kırılganlık                                       eşik 1.5  711.0      7.2      7.3 -0.24   2.28     21.3      2.1
- 4 kırılganlık                                       eşik 2.0  284.0     20.0     20.1  0.71   2.68     40.7     29.3
- 4 kırılganlık                             beta penceresi 120 1656.0      5.8      5.8 -0.88   3.56     22.4     23.9
- 4 kırılganlık                             beta penceresi 500 1617.0      8.5      8.6 -0.31   3.37     24.1     31.6
- 4 kırılganlık                                            h=2 1638.0     11.1     11.2  0.58   2.48     22.5     26.5
- 4 kırılganlık                                            h=3 1637.0     12.4     12.5  0.61   2.25     24.0     27.4
- 4 kırılganlık            arındırma yok (ham öncü, ham hedef) 1638.0      0.3      0.6 -1.45   2.11     16.0     24.0
- 4 kırılganlık             öncü ve hedef XLP'den arındırılmış 1623.0      6.9      6.9 -0.78   4.04     24.6     25.8
- 4 kırılganlık           sınır sinyalleri hariç (|z| 1,0-1,2) 1188.0      9.1      9.1  0.13   3.16     22.9     15.6
- 4 kırılganlık                                  maliyet 2 kat 1638.0      3.7      3.7 -1.22   2.74     19.7     30.4
-       5 rejim                                       VIX > 20  592.0     15.4     15.5  1.09   1.84     20.6     45.5
-       5 rejim                                      VIX <= 20 1046.0      5.1      5.1 -1.50   2.92     27.4     32.4
-       5 rejim                                       VIX > 30  154.0     27.2     27.2  1.21   0.75     22.7      NaN
-       5 rejim                                     kriz hariç 1553.0      7.6      7.7 -1.03   3.76     27.3     35.4
-       5 rejim                          en iyi 10 işlem hariç 1628.0      3.2      3.2 -1.32   3.17     18.3     20.2
-       5 rejim                               en iyi yıl hariç 1545.0      5.9      6.0 -1.53   3.44     24.8     35.4
-       6 bacak                AL bacağı (tanımdaki hedge ile)  846.0      5.5      6.3 -0.43   2.29     18.7     24.1
-       6 bacak               SAT bacağı (tanımdaki hedge ile)  792.0     12.5     11.6  0.21   2.58     31.7     49.3
-       6 bacak       AL bacağı HEDGE'SİZ (ham hedef getirisi)  846.0      0.9      5.7 -1.19   1.71     17.4     23.6
-       6 bacak                        AL hedge'siz, VIX <= 20  533.0     -3.7      1.1 -2.02   1.64     17.6     26.1
-       6 bacak                         AL hedge'siz, VIX > 20  313.0      8.7     13.6  0.10   0.89     17.3     15.6
-       6 bacak                  AL hedge'siz, en iyi 10 hariç  836.0     -7.3     -2.4 -2.28   0.86      8.0     23.6
-       6 bacak                       AL hedge'siz, kriz hariç  807.0     -2.6      2.3 -2.09   1.97     17.9     23.6
-       6 bacak             AL hedge'siz, öncü 1 gün gecikmeli  857.0      2.3      7.2  1.16  -1.12    -10.2    -15.7
-       6 bacak              SAT bacağı HEDGE'SİZ (açığa, ham)  792.0     10.8      5.9 -0.21   2.46     33.2     50.0
-       6 giriş                           ertesi açılış girişi 1638.0      4.9      4.8 -0.23   2.51     14.5     26.9
-       6 giriş              ertesi kapanış girişi (1 gün geç) 1638.0     -2.9     -2.9 -0.05  -1.20     -7.3    -13.8
-       6 parça     gece (kapanış t -> açılış t+1), maliyetsiz 1638.0      4.1      4.1  0.06   2.88     10.5      9.5
-       6 parça    gün içi t+1 (açılış -> kapanış), maliyetsiz 1638.0     10.0     10.0  0.96   3.39     19.6     31.9
+          test                                            varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+       0 taban                                              tanım 1638.0      8.8      8.9   2.15 -0.18   3.44     24.8     35.4
+1 öncü gecikme                                              1 gün 1616.0     -0.6     -0.6  -0.16  0.27  -0.64     -4.0    -12.5
+1 öncü gecikme                                              2 gün 1618.0     -4.2     -4.2  -1.08 -0.74  -0.81     -5.0     -3.8
+    3 aynı gün     hedef aynı gün aynı yönde tepki verdi (z>=0,5)  563.0     13.8     13.8   1.75 -0.42   2.53     34.3     41.4
+    3 aynı gün                        hedef tepki vermedi (z<0,5) 1075.0      6.3      6.3   1.32  0.06   2.35     17.9     29.6
+ 4 kırılganlık                                     z penceresi 40 1654.0      8.5      8.5   2.09 -0.60   3.75     27.4     35.4
+ 4 kırılganlık                                    z penceresi 120 1580.0     10.8     10.8   2.55  0.33   3.41     25.3     34.4
+ 4 kırılganlık                                          eşik 0.75 2363.0      6.8      6.8   2.04 -0.32   3.45     20.1     32.9
+ 4 kırılganlık                                           eşik 1.5  711.0      7.2      7.3   1.29 -0.24   2.28     21.3      2.1
+ 4 kırılganlık                                           eşik 2.0  284.0     20.0     20.1   2.07  0.71   2.68     40.7     29.3
+ 4 kırılganlık                                 beta penceresi 120 1656.0      5.8      5.8   1.53 -0.88   3.56     22.4     23.9
+ 4 kırılganlık                                 beta penceresi 500 1617.0      8.5      8.6   2.05 -0.31   3.37     24.1     31.6
+ 4 kırılganlık                                                h=2 1638.0     11.1     11.2   1.96  0.58   2.48     22.5     26.5
+ 4 kırılganlık                                                h=3 1637.0     12.4     12.5   1.81  0.61   2.25     24.0     27.4
+ 4 kırılganlık                arındırma yok (ham öncü, ham hedef) 1638.0      0.3      0.6   0.06 -1.45   2.11     16.0     24.0
+ 4 kırılganlık                 öncü ve hedef XLP'den arındırılmış 1623.0      6.9      6.9   1.74 -0.78   4.04     24.6     25.8
+ 4 kırılganlık               sınır sinyalleri hariç (|z| 1,0-1,2) 1188.0      9.1      9.1   2.06  0.13   3.16     22.9     15.6
+ 4 kırılganlık                                      maliyet 2 kat 1638.0      3.7      3.7   0.90 -1.22   2.74     19.7     30.4
+       5 rejim                                           VIX > 20  592.0     15.4     15.5   1.96  1.09   1.84     20.6     45.5
+       5 rejim                                          VIX <= 20 1046.0      5.1      5.1   1.10 -1.50   2.92     27.4     32.4
+       5 rejim                                           VIX > 30  154.0     27.2     27.2   1.42  1.21   0.75     22.7      NaN
+       5 rejim                                         kriz hariç 1553.0      7.6      7.7   1.92 -1.03   3.76     27.3     35.4
+       5 rejim                              en iyi 10 işlem hariç 1628.0      3.2      3.2   0.90 -1.32   3.17     18.3     20.2
+       5 rejim                                   en iyi yıl hariç 1545.0      5.9      6.0   1.52 -1.53   3.44     24.8     35.4
+       6 bacak                    AL bacağı (tanımdaki hedge ile)  846.0      5.5      6.3   1.01 -0.43   2.29     18.7     24.1
+       6 bacak                   SAT bacağı (tanımdaki hedge ile)  792.0     12.5     11.6   2.00  0.21   2.58     31.7     49.3
+       6 bacak           AL bacağı HEDGE'SİZ (ham hedef getirisi)  846.0      0.9      5.7   0.13 -1.19   1.71     17.4     23.6
+       6 bacak                            AL hedge'siz, VIX <= 20  533.0     -3.7      1.1  -0.59 -2.02   1.64     17.6     26.1
+       6 bacak                             AL hedge'siz, VIX > 20  313.0      8.7     13.6   0.64  0.10   0.89     17.3     15.6
+       6 bacak                      AL hedge'siz, en iyi 10 hariç  836.0     -7.3     -2.4  -1.25 -2.28   0.86      8.0     23.6
+       6 bacak                           AL hedge'siz, kriz hariç  807.0     -2.6      2.3  -0.44 -2.09   1.97     17.9     23.6
+       6 bacak AL hedge'siz, yalnız 2022 ve sonrası (tum = 2022+)  190.0     18.3     23.2   1.53   NaN   1.49     17.8     23.6
+       6 bacak                 AL hedge'siz, öncü 1 gün gecikmeli  857.0      2.3      7.2   0.36  1.16  -1.12    -10.2    -15.7
+       6 bacak                  SAT bacağı HEDGE'SİZ (açığa, ham)  792.0     10.8      5.9   1.39 -0.21   2.46     33.2     50.0
+       6 giriş                               ertesi açılış girişi 1638.0      4.9      4.8   1.40 -0.23   2.51     14.5     26.9
+       6 giriş                  ertesi kapanış girişi (1 gün geç) 1638.0     -2.9     -2.9  -0.73 -0.05  -1.20     -7.3    -13.8
+       6 parça         gece (kapanış t -> açılış t+1), maliyetsiz 1638.0      4.1      4.1   1.99  0.06   2.88     10.5      9.5
+       6 parça        gün içi t+1 (açılış -> kapanış), maliyetsiz 1638.0     10.0     10.0   2.88  0.96   3.39     19.6     31.9
    REG tum: sig tek başına b=14.0bps t=3.41 | kontrollü b=14.2 t=3.45 (zres t=-0.55, zret t=0.32) | sürekli z kontrollü t=3.42
    REG is: sig tek başına b=4.3bps t=0.87 | kontrollü b=4.4 t=0.89 (zres t=-1.17, zret t=0.88) | sürekli z kontrollü t=0.88
    REG oos: sig tek başına b=29.9bps t=4.16 | kontrollü b=30.1 t=4.22 (zres t=0.62, zret t=-0.82) | sürekli z kontrollü t=4.40
 -- plasebo / kıyas --
-          test                       varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-2 plasebo öncü                          ZC=F   1485      0.8      0.8 -0.12   0.53      3.3      4.5
-2 plasebo öncü                          ZW=F   1590     -2.7     -2.7 -0.10  -1.06     -6.6    -10.1
-2 plasebo öncü                          ZS=F   1493      7.0      7.0 -0.20   3.02     19.8     25.9
-2 plasebo öncü                          ZM=F   1417      2.2      2.2  0.36   0.41      2.7      6.8
-2 plasebo öncü                          CL=F   1540      1.0      1.0  0.24   0.10      0.7      2.1
-2 plasebo öncü                          HO=F   1541      0.5      0.4  0.71  -0.72     -4.8     -8.9
-2 plasebo öncü                          GC=F   1446      1.5      1.6  0.57  -0.11     -0.7      8.6
-2 plasebo öncü                          HG=F   1538      2.6      2.6  0.31   0.63      4.3      0.8
-2 plasebo öncü                          SB=F   1547      2.8      2.8  0.80   0.05      0.3     18.4
-2 plasebo öncü                          KC=F   1540     -3.7     -3.7 -0.51  -0.85     -5.4     -7.7
-2 plasebo öncü                          NG=F   1589     -1.1     -1.2 -0.56   0.27      2.0      1.3
-2 plasebo öncü                           DBA   1452      2.5      2.5  0.13   0.83      5.0      8.5
-2 plasebo öncü                          SOYB   1042      2.1      2.1 -3.05   2.69     17.4     16.2
-2 plasebo öncü                          CORN   1110     -2.9     -2.9 -1.53   0.45      2.6    -13.2
-2 plasebo öncü                           XLE   1598      4.0      4.0  1.46  -0.34     -2.4     -1.9
-2 plasebo öncü                           XLP   1604     -8.6     -8.5 -3.51   1.17      8.7      4.4
-2 plasebo öncü                           TLT   1644     -5.3     -5.2 -1.11  -0.74     -4.5    -22.4
-2 plasebo öncü ADM kendi getirisi (momentum)   1337     -6.1     -6.1 -1.77   0.08      0.7      1.9
-2 plasebo öncü                   BG getirisi   1293     -1.3     -1.3 -1.80   1.48     12.4     22.6
+          test                       varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+2 plasebo öncü                          ZC=F   1485      0.8      0.8   0.18 -0.12   0.53      3.3      4.5
+2 plasebo öncü                          ZW=F   1590     -2.7     -2.7  -0.69 -0.10  -1.06     -6.6    -10.1
+2 plasebo öncü                          ZS=F   1493      7.0      7.0   1.74 -0.20   3.02     19.8     25.9
+2 plasebo öncü                          ZM=F   1417      2.2      2.2   0.53  0.36   0.41      2.7      6.8
+2 plasebo öncü                          CL=F   1540      1.0      1.0   0.25  0.24   0.10      0.7      2.1
+2 plasebo öncü                          HO=F   1541      0.5      0.4   0.11  0.71  -0.72     -4.8     -8.9
+2 plasebo öncü                          GC=F   1446      1.5      1.6   0.39  0.57  -0.11     -0.7      8.6
+2 plasebo öncü                          HG=F   1538      2.6      2.6   0.62  0.31   0.63      4.3      0.8
+2 plasebo öncü                          SB=F   1547      2.8      2.8   0.68  0.80   0.05      0.3     18.4
+2 plasebo öncü                          KC=F   1540     -3.7     -3.7  -0.92 -0.51  -0.85     -5.4     -7.7
+2 plasebo öncü                          NG=F   1589     -1.1     -1.2  -0.26 -0.56   0.27      2.0      1.3
+2 plasebo öncü                           DBA   1452      2.5      2.5   0.62  0.13   0.83      5.0      8.5
+2 plasebo öncü                          SOYB   1042      2.1      2.1   0.49 -3.05   2.69     17.4     16.2
+2 plasebo öncü                          CORN   1110     -2.9     -2.9  -0.73 -1.53   0.45      2.6    -13.2
+2 plasebo öncü                           XLE   1598      4.0      4.0   0.95  1.46  -0.34     -2.4     -1.9
+2 plasebo öncü                           XLP   1604     -8.6     -8.5  -1.95 -3.51   1.17      8.7      4.4
+2 plasebo öncü                           TLT   1644     -5.3     -5.2  -1.34 -1.11  -0.74     -4.5    -22.4
+2 plasebo öncü ADM kendi getirisi (momentum)   1337     -6.1     -6.1  -1.23 -1.77   0.08      0.7      1.9
+2 plasebo öncü                   BG getirisi   1293     -1.3     -1.3  -0.27 -1.80   1.48     12.4     22.6
 
 ===== S3 sigorta-borsa SAT =====
-         test                                      varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-      0 taban                                        tanım  485.0     80.3     66.5  2.58   2.52     51.3     22.6
-    1 gecikme     sinyal 1 gün geç (ertesi kapanış girişi)  485.0     49.1     35.4  1.81   1.40     30.1     -7.0
-    1 gecikme                         ertesi açılış girişi  485.0     74.4     64.2  2.80   1.94     35.0      6.8
-    1 gecikme                             sinyal 2 gün geç  485.0     27.7     14.0  1.54  -0.22     -4.9      2.7
-     3 piyasa                                 SPY hedge'li  485.0     58.4     54.0  2.09   2.51     41.8     26.3
-     3 piyasa                                 KIE hedge'li  485.0     50.7     45.2  2.19   2.13     33.7     -5.6
-     3 piyasa                 aynı kural SPY'in kendisinde   76.0     11.0      1.8 -0.11   0.80     30.3      NaN
-     3 piyasa                 aynı kural KIE'in kendisinde   72.0     32.3     23.5  0.57   0.28     11.4      NaN
-     3 piyasa                    SPY'da aynı sinyal YOKKEN  417.0     89.8     76.0  3.55   1.84     40.5     18.5
-     3 piyasa                    SPY'da aynı sinyal VARKEN   68.0     22.0      8.4 -0.32   2.43    111.7      NaN
-4 kırılganlık                                     eşik 1.0  888.0     48.8     35.0  3.17   1.20     19.6     11.0
-4 kırılganlık                                    eşik 1.25  657.0     58.1     44.3  2.97   1.25     22.8     28.1
-4 kırılganlık                                    eşik 1.75  342.0     71.6     57.8  1.29   3.04     71.2     29.7
-4 kırılganlık                                     eşik 2.0  216.0     56.0     42.3  0.41   2.65     76.9     22.0
-4 kırılganlık                               z penceresi 40  485.0     52.3     38.5  1.63   1.93     40.2     -5.0
-4 kırılganlık                              z penceresi 120  484.0     74.1     60.5  2.07   2.20     49.9      5.1
-4 kırılganlık                                 VIX eşiği 15 1212.0     34.4     20.6  2.39   2.16     22.4      1.2
-4 kırılganlık                                 VIX eşiği 18  690.0     56.0     42.2  2.52   2.18     31.9      2.8
-4 kırılganlık                                 VIX eşiği 22  350.0     89.4     75.7  2.00   2.43     65.0      9.3
-4 kırılganlık                                 VIX eşiği 25  198.0    131.5    118.0  1.79   2.31    100.2     55.5
-4 kırılganlık                                 VIX eşiği 30   93.0    173.1    159.4  1.21   1.79    171.5      NaN
-4 kırılganlık                               VIX koşulu yok 2210.0     18.9      5.1  1.92   2.42     19.9     -2.6
-4 kırılganlık                               VIX <= 20 iken 1725.0      1.7    -12.2 -0.23   1.01      8.4     -6.7
-4 kırılganlık                                          h=1  485.0     45.7     38.7  2.38   2.00     25.1     23.0
-4 kırılganlık                                          h=3  485.0    101.2     80.6  2.35   2.14     60.6     21.8
-4 kırılganlık                                maliyet 2 kat  485.0     73.7     59.9  2.39   2.27     46.0     17.6
-      5 rejim                                   kriz hariç  422.0     53.7     39.9  2.85   1.83     32.7     22.6
-      5 rejim                          en iyi 10 gün hariç  475.0     49.4     35.6  1.73   2.15     41.2     -0.8
-      5 rejim                             en iyi yıl hariç  429.0     48.1     34.4  1.15   2.52     51.3     22.6
-   2 alt grup         sigorta (PGR ALL AIG MET PRU CB TRV)  283.0    110.4     98.9  2.13   2.19     61.7    123.1
-   2 alt grup borsa/veri (ICE CME NDAQ CBOE SPGI MCO MSCI)  323.0     72.9     57.3  3.18   1.24     32.0    -52.3
+         test                                      varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+      0 taban                                        tanım  485.0     80.3     66.5   3.32  2.58   2.52     51.3     22.6
+    1 gecikme     sinyal 1 gün geç (ertesi kapanış girişi)  485.0     49.1     35.4   2.23  1.81   1.40     30.1     -7.0
+    1 gecikme                         ertesi açılış girişi  485.0     74.4     64.2   3.31  2.80   1.94     35.0      6.8
+    1 gecikme                             sinyal 2 gün geç  485.0     27.7     14.0   1.27  1.54  -0.22     -4.9      2.7
+     3 piyasa                                 SPY hedge'li  485.0     58.4     54.0   2.83  2.09   2.51     41.8     26.3
+     3 piyasa                                 KIE hedge'li  485.0     50.7     45.2   2.84  2.19   2.13     33.7     -5.6
+     3 piyasa                 aynı kural SPY'in kendisinde   76.0     11.0      1.8   0.43 -0.11   0.80     30.3      NaN
+     3 piyasa                 aynı kural KIE'in kendisinde   72.0     32.3     23.5   0.62  0.57   0.28     11.4      NaN
+     3 piyasa                    SPY'da aynı sinyal YOKKEN  417.0     89.8     76.0   3.98  3.55   1.84     40.5     18.5
+     3 piyasa                    SPY'da aynı sinyal VARKEN   68.0     22.0      8.4   0.22 -0.32   2.43    111.7      NaN
+4 kırılganlık                                     eşik 1.0  888.0     48.8     35.0   3.34  3.17   1.20     19.6     11.0
+4 kırılganlık                                    eşik 1.25  657.0     58.1     44.3   3.21  2.97   1.25     22.8     28.1
+4 kırılganlık                                    eşik 1.75  342.0     71.6     57.8   2.15  1.29   3.04     71.2     29.7
+4 kırılganlık                                     eşik 2.0  216.0     56.0     42.3   1.09  0.41   2.65     76.9     22.0
+4 kırılganlık                               z penceresi 40  485.0     52.3     38.5   2.24  1.63   1.93     40.2     -5.0
+4 kırılganlık                              z penceresi 120  484.0     74.1     60.5   2.73  2.07   2.20     49.9      5.1
+4 kırılganlık                                 VIX eşiği 15 1212.0     34.4     20.6   3.07  2.39   2.16     22.4      1.2
+4 kırılganlık                                 VIX eşiği 18  690.0     56.0     42.2   3.15  2.52   2.18     31.9      2.8
+4 kırılganlık                                 VIX eşiği 22  350.0     89.4     75.7   2.72  2.00   2.43     65.0      9.3
+4 kırılganlık                                 VIX eşiği 25  198.0    131.5    118.0   2.48  1.79   2.31    100.2     55.5
+4 kırılganlık                                 VIX eşiği 30   93.0    173.1    159.4   1.66  1.21   1.79    171.5      NaN
+4 kırılganlık                               VIX koşulu yok 2210.0     18.9      5.1   2.76  1.92   2.42     19.9     -2.6
+4 kırılganlık                               VIX <= 20 iken 1725.0      1.7    -12.2   0.31 -0.23   1.01      8.4     -6.7
+4 kırılganlık                                          h=1  485.0     45.7     38.7   2.93  2.38   2.00     25.1     23.0
+4 kırılganlık                                          h=3  485.0    101.2     80.6   2.96  2.35   2.14     60.6     21.8
+4 kırılganlık                                maliyet 2 kat  485.0     73.7     59.9   3.05  2.39   2.27     46.0     17.6
+      5 rejim                                   kriz hariç  422.0     53.7     39.9   3.38  2.85   1.83     32.7     22.6
+      5 rejim                          en iyi 10 gün hariç  475.0     49.4     35.6   2.47  1.73   2.15     41.2     -0.8
+      5 rejim                             en iyi yıl hariç  429.0     48.1     34.4   2.16  1.15   2.52     51.3     22.6
+   2 alt grup         sigorta (PGR ALL AIG MET PRU CB TRV)  283.0    110.4     98.9   2.69  2.13   2.19     61.7    123.1
+   2 alt grup borsa/veri (ICE CME NDAQ CBOE SPGI MCO MSCI)  323.0     72.9     57.3   3.38  3.18   1.24     32.0    -52.3
 -- plasebo / kıyas --
-                     test                 varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-            2 hisse hisse                     AIG     76    -43.5    -49.9 -0.42   1.88    194.7      NaN
-            2 hisse hisse                     ALL     74     60.6     49.5  1.47   0.79     41.4    185.5
-            2 hisse hisse                      CB     95     73.2     61.2  1.22   1.90     68.2     74.4
-            2 hisse hisse                    CBOE     57     23.4      8.2  0.82   0.53     21.8    -67.2
-            2 hisse hisse                     CME    105     91.1     77.4  2.67   0.42     14.2    -57.9
-            2 hisse hisse                     ICE     83    132.2    114.5  2.71   0.88     45.3    -38.1
-            2 hisse hisse                     MCO     81    146.3    132.4  2.06   1.97    135.4      NaN
-            2 hisse hisse                     MET     70     31.8     20.2  0.37  -0.09     -8.8      NaN
-            2 hisse hisse                    MSCI     76     61.0     42.5  0.07   1.70    112.4      NaN
-            2 hisse hisse                    NDAQ     79    122.5    104.3  2.04   0.91     44.6      NaN
-            2 hisse hisse                     PGR     87    129.4    116.0  2.17   1.99    101.1      NaN
-            2 hisse hisse                     PRU     68    123.7    111.1  1.10   0.65     38.5      NaN
-            2 hisse hisse                    SPGI     86     66.4     53.1  0.74   1.66     89.7      NaN
-            2 hisse hisse                     TRV     71    103.3     90.5  1.78   2.03     79.5      NaN
-2 aynı kural başka grupta           h_altin_gumus    650    -17.4    -33.1 -0.17  -0.62    -32.9    -82.7
-2 aynı kural başka grupta h_bakir_celik_aluminyum    501    -13.4    -31.0  0.47  -1.32    -46.6   -153.4
-2 aynı kural başka grupta        h_banka_bolgesel    322    106.2     96.4  2.10   1.69     76.1   -101.4
-2 aynı kural başka grupta           h_banka_buyuk    533     30.1     15.7  1.43   0.71     17.5    -32.5
-2 aynı kural başka grupta              h_boru_lng    466    -75.8    -91.1 -1.85  -1.63    -39.6    -62.0
-2 aynı kural başka grupta               h_cin_adr    375    -23.6    -43.6  0.83  -1.44    -71.2    249.0
-2 aynı kural başka grupta            h_denizcilik    495     25.0     10.3  0.71   0.45     18.9     -4.8
-2 aynı kural başka grupta             h_diger_adr    434     40.9     25.1  2.21  -0.05     -1.4   -115.5
-2 aynı kural başka grupta              h_dogalgaz    261     -9.6    -23.3  0.81  -0.69    -55.5    -81.6
-2 aynı kural başka grupta            h_donanim_ag    687     33.7     13.4  0.94   1.79     47.4    -24.4
-2 aynı kural başka grupta        h_fintech_kripto    413     14.1    -22.2  2.95  -0.60    -48.2    -43.3
-2 aynı kural başka grupta                   h_gyo    520     41.9     28.8  2.00   0.83     21.8    -56.8
-2 aynı kural başka grupta          h_ilac_biyotek    868     -7.7    -26.3  0.07  -0.59    -17.4    -84.4
-2 aynı kural başka grupta        h_internet_medya    804     -0.8    -17.9  1.08  -0.96    -26.2    -56.4
-2 aynı kural başka grupta           h_kamu_hizmet    473      5.6     -3.3  0.31   0.39      7.5      7.7
-2 aynı kural başka grupta           h_kimya_gubre    543     -8.6    -19.9  0.78  -1.15    -37.3    -51.0
-2 aynı kural başka grupta                 h_komur    223     59.9     38.4  0.41   0.90     79.7    -62.7
-2 aynı kural başka grupta                 h_konut    377     42.1     30.0  0.79   0.67     39.6     84.7
-2 aynı kural başka grupta          h_lityum_nadir    312    -27.4    -48.0  0.41  -0.80    -56.1    115.3
-2 aynı kural başka grupta         h_makine_sanayi    717     11.0     -5.4  0.96  -0.05     -1.0    -39.1
-2 aynı kural başka grupta        h_medikal_hizmet    694     16.1      0.3  0.37   1.38     28.6    -10.9
-2 aynı kural başka grupta           h_nukleer_guc    571     19.8      0.0 -0.02   0.94     45.4     59.5
-2 aynı kural başka grupta                h_oto_ev    456    -33.7    -44.7 -1.10  -0.52    -31.7     58.1
-2 aynı kural başka grupta     h_perakende_tuketim    781     16.0      0.2  0.98   0.09      2.3     60.7
-2 aynı kural başka grupta     h_petrol_entegre_ep    477    -19.3    -31.7 -0.70  -0.49    -21.4    -97.6
-2 aynı kural başka grupta         h_petrol_hizmet    367     44.1     32.0  1.19   0.85     51.1   -129.1
-2 aynı kural başka grupta              h_rafineri    274     -5.8    -29.8  1.10  -1.13    -82.3   -175.4
-2 aynı kural başka grupta     h_savunma_havacilik    597     -4.4    -17.9  0.43  -0.69    -21.0    -80.6
-2 aynı kural başka grupta               h_seyahat    479     -6.5    -20.7 -1.00   0.97     51.4    -48.2
-2 aynı kural başka grupta         h_sigorta_borsa    485     80.3     66.5  2.58   2.52     51.3     22.6
-2 aynı kural başka grupta           h_tasimacilik    487     10.2     -5.0  0.37   0.37     10.0   -105.1
-2 aynı kural başka grupta   h_tematik_yuksek_beta    265    159.3    -15.9  2.77  -0.54    -76.8    136.4
-2 aynı kural başka grupta         h_temel_tuketim    825     20.7      7.2  0.79   1.05     19.1     25.3
-2 aynı kural başka grupta          h_temiz_enerji    321      0.8    -15.9  1.46  -0.92    -90.8     89.0
-2 aynı kural başka grupta            h_yapi_orman    397     24.9     13.8  0.49   1.30     39.0    -44.2
-2 aynı kural başka grupta           h_yariiletken    933     52.3     29.5  3.09   0.19      5.8    -44.9
-2 aynı kural başka grupta               h_yazilim    660     39.8     19.5  2.64   0.78     21.5    -11.3
+                     test                 varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+            2 hisse hisse                     AIG     76    -43.5    -49.9  -0.15 -0.42   1.88    194.7      NaN
+            2 hisse hisse                     ALL     74     60.6     49.5   1.49  1.47   0.79     41.4    185.5
+            2 hisse hisse                      CB     95     73.2     61.2   1.97  1.22   1.90     68.2     74.4
+            2 hisse hisse                    CBOE     57     23.4      8.2   0.78  0.82   0.53     21.8    -67.2
+            2 hisse hisse                     CME    105     91.1     77.4   2.55  2.67   0.42     14.2    -57.9
+            2 hisse hisse                     ICE     83    132.2    114.5   2.77  2.71   0.88     45.3    -38.1
+            2 hisse hisse                     MCO     81    146.3    132.4   2.81  2.06   1.97    135.4      NaN
+            2 hisse hisse                     MET     70     31.8     20.2   0.29  0.37  -0.09     -8.8      NaN
+            2 hisse hisse                    MSCI     76     61.0     42.5   1.32  0.07   1.70    112.4      NaN
+            2 hisse hisse                    NDAQ     79    122.5    104.3   2.24  2.04   0.91     44.6      NaN
+            2 hisse hisse                     PGR     87    129.4    116.0   2.90  2.17   1.99    101.1      NaN
+            2 hisse hisse                     PRU     68    123.7    111.1   1.25  1.10   0.65     38.5      NaN
+            2 hisse hisse                    SPGI     86     66.4     53.1   1.32  0.74   1.66     89.7      NaN
+            2 hisse hisse                     TRV     71    103.3     90.5   2.50  1.78   2.03     79.5      NaN
+2 aynı kural başka grupta           h_altin_gumus    650    -17.4    -33.1  -0.56 -0.17  -0.62    -32.9    -82.7
+2 aynı kural başka grupta h_bakir_celik_aluminyum    501    -13.4    -31.0  -0.49  0.47  -1.32    -46.6   -153.4
+2 aynı kural başka grupta        h_banka_bolgesel    322    106.2     96.4   2.62  2.10   1.69     76.1   -101.4
+2 aynı kural başka grupta           h_banka_buyuk    533     30.1     15.7   1.58  1.43   0.71     17.5    -32.5
+2 aynı kural başka grupta              h_boru_lng    466    -75.8    -91.1  -2.25 -1.85  -1.63    -39.6    -62.0
+2 aynı kural başka grupta               h_cin_adr    375    -23.6    -43.6  -0.71  0.83  -1.44    -71.2    249.0
+2 aynı kural başka grupta            h_denizcilik    495     25.0     10.3   0.72  0.71   0.45     18.9     -4.8
+2 aynı kural başka grupta             h_diger_adr    434     40.9     25.1   1.71  2.21  -0.05     -1.4   -115.5
+2 aynı kural başka grupta              h_dogalgaz    261     -9.6    -23.3  -0.20  0.81  -0.69    -55.5    -81.6
+2 aynı kural başka grupta            h_donanim_ag    687     33.7     13.4   1.88  0.94   1.79     47.4    -24.4
+2 aynı kural başka grupta        h_fintech_kripto    413     14.1    -22.2   0.23  2.95  -0.60    -48.2    -43.3
+2 aynı kural başka grupta                   h_gyo    520     41.9     28.8   2.12  2.00   0.83     21.8    -56.8
+2 aynı kural başka grupta          h_ilac_biyotek    868     -7.7    -26.3  -0.44  0.07  -0.59    -17.4    -84.4
+2 aynı kural başka grupta        h_internet_medya    804     -0.8    -17.9  -0.05  1.08  -0.96    -26.2    -56.4
+2 aynı kural başka grupta           h_kamu_hizmet    473      5.6     -3.3   0.47  0.31   0.39      7.5      7.7
+2 aynı kural başka grupta           h_kimya_gubre    543     -8.6    -19.9  -0.40  0.78  -1.15    -37.3    -51.0
+2 aynı kural başka grupta                 h_komur    223     59.9     38.4   0.97  0.41   0.90     79.7    -62.7
+2 aynı kural başka grupta                 h_konut    377     42.1     30.0   1.03  0.79   0.67     39.6     84.7
+2 aynı kural başka grupta          h_lityum_nadir    312    -27.4    -48.0  -0.59  0.41  -0.80    -56.1    115.3
+2 aynı kural başka grupta         h_makine_sanayi    717     11.0     -5.4   0.70  0.96  -0.05     -1.0    -39.1
+2 aynı kural başka grupta        h_medikal_hizmet    694     16.1      0.3   1.08  0.37   1.38     28.6    -10.9
+2 aynı kural başka grupta           h_nukleer_guc    571     19.8      0.0   0.50 -0.02   0.94     45.4     59.5
+2 aynı kural başka grupta                h_oto_ev    456    -33.7    -44.7  -0.93 -1.10  -0.52    -31.7     58.1
+2 aynı kural başka grupta     h_perakende_tuketim    781     16.0      0.2   0.84  0.98   0.09      2.3     60.7
+2 aynı kural başka grupta     h_petrol_entegre_ep    477    -19.3    -31.7  -0.82 -0.70  -0.49    -21.4    -97.6
+2 aynı kural başka grupta         h_petrol_hizmet    367     44.1     32.0   1.25  1.19   0.85     51.1   -129.1
+2 aynı kural başka grupta              h_rafineri    274     -5.8    -29.8  -0.13  1.10  -1.13    -82.3   -175.4
+2 aynı kural başka grupta     h_savunma_havacilik    597     -4.4    -17.9  -0.23  0.43  -0.69    -21.0    -80.6
+2 aynı kural başka grupta               h_seyahat    479     -6.5    -20.7  -0.19 -1.00   0.97     51.4    -48.2
+2 aynı kural başka grupta         h_sigorta_borsa    485     80.3     66.5   3.32  2.58   2.52     51.3     22.6
+2 aynı kural başka grupta           h_tasimacilik    487     10.2     -5.0   0.51  0.37   0.37     10.0   -105.1
+2 aynı kural başka grupta   h_tematik_yuksek_beta    265    159.3    -15.9   1.17  2.77  -0.54    -76.8    136.4
+2 aynı kural başka grupta         h_temel_tuketim    825     20.7      7.2   1.14  0.79   1.05     19.1     25.3
+2 aynı kural başka grupta          h_temiz_enerji    321      0.8    -15.9   0.01  1.46  -0.92    -90.8     89.0
+2 aynı kural başka grupta            h_yapi_orman    397     24.9     13.8   1.06  0.49   1.30     39.0    -44.2
+2 aynı kural başka grupta           h_yariiletken    933     52.3     29.5   2.66  3.09   0.19      5.8    -44.9
+2 aynı kural başka grupta               h_yazilim    660     39.8     19.5   2.20  2.64   0.78     21.5    -11.3
 
 ===== S4 temel tüketim AL =====
-         test                                  varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-      0 taban                                    tanım 1354.0     41.6     48.5  3.00   2.06     21.1     23.0
-    1 gecikme sinyal 1 gün geç (ertesi kapanış girişi) 1353.0      6.8     13.7  1.23  -0.99     -9.3      0.5
-    1 gecikme                     ertesi açılış girişi 1354.0     14.8     22.9  0.54   2.34     19.6     20.3
-    1 gecikme                         sinyal 2 gün geç 1353.0    -20.2    -13.3 -2.61  -0.40     -3.5     -1.3
-     3 piyasa                             SPY hedge'li 1354.0     37.4     41.1  2.77   2.17     18.9     24.5
-     3 piyasa                             XLP hedge'li 1354.0     35.4     38.3  2.70   1.88     16.1     14.4
-     3 piyasa             aynı kural SPY'in kendisinde  122.0      6.0     10.6  0.79  -0.40    -17.9      NaN
-     3 piyasa             aynı kural XLP'in kendisinde   97.0     12.5     16.4  0.27   0.48     22.9      0.7
-     3 piyasa                SPY'da aynı sinyal YOKKEN 1251.0     43.7     50.7  2.83   2.42     24.5     31.1
-     3 piyasa                SPY'da aynı sinyal VARKEN  103.0     16.2     22.4  1.51  -0.55    -38.9      NaN
-4 kırılganlık                                 eşik 1.0 2248.0     31.1     38.2  3.91   0.27      1.9     -0.4
-4 kırılganlık                                eşik 1.25 1737.0     40.8     47.9  3.67   1.81     15.0     15.9
-4 kırılganlık                                eşik 1.75 1048.0     31.5     38.1  2.24   1.28     15.3     15.1
-4 kırılganlık                                 eşik 2.0  826.0     22.8     29.0  1.34   1.29     18.3     10.5
-4 kırılganlık                           z penceresi 40 1380.0     40.6     47.4  3.16   1.50     15.0     11.2
-4 kırılganlık                          z penceresi 120 1330.0     42.5     49.4  3.19   1.78     19.0     15.0
-4 kırılganlık                         ortalama 100 gün 1594.0     39.0     45.9  3.32   1.92     17.5     22.7
-4 kırılganlık                         ortalama 150 gün 1443.0     44.5     51.4  3.29   2.43     24.3     29.1
-4 kırılganlık                         ortalama 250 gün 1272.0     45.3     52.0  3.06   2.23     23.2     24.8
-      5 rejim                                 VIX > 20  546.0     23.8     30.8  1.01   1.16     21.5    -47.6
-      5 rejim                                VIX <= 20  808.0     53.7     60.5  2.95   1.72     20.9     43.2
-      5 rejim                                 VIX > 30  172.0     -9.2     -3.0 -0.75   0.73     33.9      NaN
-4 kırılganlık                                      h=2 1353.0     54.4     67.1  3.54   1.29     18.0     31.3
-4 kırılganlık                                      h=3 1353.0     38.8     57.1  2.19   1.09     20.9     35.3
-4 kırılganlık                            maliyet 2 kat 1354.0     34.6     41.5  2.58   1.53     15.7     18.0
-      5 rejim                               kriz hariç 1256.0     47.9     54.9  3.45   2.15     21.0     23.0
-      5 rejim                      en iyi 10 gün hariç 1344.0     17.3     24.0  1.13   2.06     21.1     23.0
-      5 rejim                         en iyi yıl hariç 1305.0     29.6     36.4  2.13   2.06     21.1     23.0
+           test                                                   varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+        0 taban                                                     tanım 1354.0     41.6     48.5   3.55  3.00   2.06     21.1     23.0
+      1 gecikme                  sinyal 1 gün geç (ertesi kapanış girişi) 1353.0      6.8     13.7   0.72  1.23  -0.99     -9.3      0.5
+      1 gecikme                                      ertesi açılış girişi 1354.0     14.8     22.9   1.34  0.54   2.34     19.6     20.3
+      1 gecikme                                          sinyal 2 gün geç 1353.0    -20.2    -13.3  -2.51 -2.61  -0.40     -3.5     -1.3
+       3 piyasa                                              SPY hedge'li 1354.0     37.4     41.1   3.33  2.77   2.17     18.9     24.5
+       3 piyasa                                              XLP hedge'li 1354.0     35.4     38.3   3.16  2.70   1.88     16.1     14.4
+       3 piyasa                              aynı kural SPY'in kendisinde  122.0      6.0     10.6   0.28  0.79  -0.40    -17.9      NaN
+       3 piyasa                              aynı kural XLP'in kendisinde   97.0     12.5     16.4   0.54  0.27   0.48     22.9      0.7
+       3 piyasa                                 SPY'da aynı sinyal YOKKEN 1251.0     43.7     50.7   3.50  2.83   2.42     24.5     31.1
+       3 piyasa                                 SPY'da aynı sinyal VARKEN  103.0     16.2     22.4   0.59  1.51  -0.55    -38.9      NaN
+  4 kırılganlık                                                  eşik 1.0 2248.0     31.1     38.2   3.75  3.91   0.27      1.9     -0.4
+  4 kırılganlık                                                 eşik 1.25 1737.0     40.8     47.9   4.06  3.67   1.81     15.0     15.9
+  4 kırılganlık                                                 eşik 1.75 1048.0     31.5     38.1   2.57  2.24   1.28     15.3     15.1
+  4 kırılganlık                                                  eşik 2.0  826.0     22.8     29.0   1.78  1.34   1.29     18.3     10.5
+  4 kırılganlık                                            z penceresi 40 1380.0     40.6     47.4   3.49  3.16   1.50     15.0     11.2
+  4 kırılganlık                                           z penceresi 120 1330.0     42.5     49.4   3.62  3.19   1.78     19.0     15.0
+  4 kırılganlık                                          ortalama 100 gün 1594.0     39.0     45.9   3.78  3.32   1.92     17.5     22.7
+  4 kırılganlık                                          ortalama 150 gün 1443.0     44.5     51.4   3.93  3.29   2.43     24.3     29.1
+  4 kırılganlık                                          ortalama 250 gün 1272.0     45.3     52.0   3.66  3.06   2.23     23.2     24.8
+        5 rejim                                                  VIX > 20  546.0     23.8     30.8   1.41  1.01   1.16     21.5    -47.6
+        5 rejim                                                 VIX <= 20  808.0     53.7     60.5   3.35  2.95   1.72     20.9     43.2
+        5 rejim                                                  VIX > 30  172.0     -9.2     -3.0  -0.28 -0.75   0.73     33.9      NaN
+  4 kırılganlık                                                       h=2 1353.0     54.4     67.1   3.75  3.54   1.29     18.0     31.3
+  4 kırılganlık                                                       h=3 1353.0     38.8     57.1   2.42  2.19   1.09     20.9     35.3
+  4 kırılganlık                                             maliyet 2 kat 1354.0     34.6     41.5   2.96  2.58   1.53     15.7     18.0
+        5 rejim                                                kriz hariç 1256.0     47.9     54.9   3.99  3.45   2.15     21.0     23.0
+        5 rejim                                       en iyi 10 gün hariç 1344.0     17.3     24.0   2.01  1.13   2.06     21.1     23.0
+        5 rejim                                          en iyi yıl hariç 1305.0     29.6     36.4   2.80  2.13   2.06     21.1     23.0
+7 hayatta kalma                                                CELH hariç 1253.0      9.4     14.0   1.52  0.25   2.12     19.3     17.1
+7 hayatta kalma                                  CELH hariç, SPY hedge'li 1253.0      4.0      5.4   0.76 -0.48   1.92     14.2     16.8
+7 hayatta kalma                           CELH hariç, en iyi 10 gün hariç 1243.0      2.8      7.3   0.47 -0.39   1.28     10.9     11.0
+7 hayatta kalma                                        CELH ve MNST hariç 1209.0      6.5     10.6   1.06 -0.28   1.95     18.1     14.6
+7 hayatta kalma                          CELH ve MNST hariç, SPY hedge'li 1209.0      0.8      1.9   0.16 -1.22   1.72     13.0     14.7
+7 hayatta kalma                   CELH ve MNST hariç, en iyi 10 gün hariç 1199.0      0.1      4.2   0.02 -0.75   0.95      8.2      8.2
+7 hayatta kalma yalnız likit işlemler (maliyet sınıfı 5 bps: >= 100 mn $) 1073.0     13.0     17.9   2.00  0.66   2.12     20.8     23.0
+7 hayatta kalma                                               yalnız CELH  154.0    325.3    356.3   3.34  3.17   1.02     99.2     84.1
 -- plasebo / kıyas --
-                     test                 varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-            2 hisse hisse                     ADM    163     50.8     55.7  2.60   0.64     22.4    -27.8
-            2 hisse hisse                      BG    160     15.1     19.1  0.93  -0.37    -15.0    -26.0
-            2 hisse hisse                     CAG    173     -8.1     -6.3 -1.62   1.05     25.7     35.5
-            2 hisse hisse                    CELH    154    325.3    356.3  3.17   1.02     99.2     84.1
-            2 hisse hisse                      CL    142     20.9     25.0  0.01   1.39     44.0      5.2
-            2 hisse hisse                      EL    134     19.8     25.2  0.31   0.74     35.4    -58.4
-            2 hisse hisse                     GIS    154     32.5     35.3  1.49   1.57     34.0     22.3
-            2 hisse hisse                     HSY    139     28.1     32.2  0.79   1.47     46.7      2.3
-            2 hisse hisse                     KHC    129     19.0     18.5 -0.72   0.97     32.3     21.6
-            2 hisse hisse                     KMB    159     23.1     26.2  1.55   0.58     17.1     46.0
-            2 hisse hisse                      KO    107    -13.6     -8.9 -0.13  -0.71    -35.6      NaN
-            2 hisse hisse                      KR    118     41.5     47.4  1.41   1.05     37.0     23.0
-            2 hisse hisse                    MDLZ    141     -2.0      1.8  0.31  -0.38    -11.0    -10.4
-            2 hisse hisse                    MNST    103     64.1     77.0  1.17   1.74     65.1     32.8
-            2 hisse hisse                      MO    104     20.2     26.5  0.67   0.48     17.6      NaN
-            2 hisse hisse                     PEP    123     28.2     31.8  0.89   0.85     35.6     13.5
-            2 hisse hisse                      PG    130     15.4     19.2  1.64  -0.19     -8.0      1.7
-            2 hisse hisse                      PM    113     -3.9      1.8 -1.23   0.54     23.0     92.7
-            2 hisse hisse                     STZ    143     14.7     20.1  0.10   0.72     29.5      7.3
-            2 hisse hisse                     TSN    155     14.8     19.9  0.20   0.48     24.5     23.2
-2 aynı kural başka grupta           h_altin_gumus   1254     14.7     22.4  0.82   1.20     24.2     92.1
-2 aynı kural başka grupta h_bakir_celik_aluminyum    968    -10.5     -2.1 -0.94  -0.09     -1.8     18.2
-2 aynı kural başka grupta        h_banka_bolgesel    622    -10.3     -5.2 -0.81   0.19      6.5    -32.9
-2 aynı kural başka grupta           h_banka_buyuk    899     -9.0     -2.0 -0.23  -0.99    -15.1      5.7
-2 aynı kural başka grupta              h_boru_lng    630    -42.8    -35.4 -2.45  -1.46    -38.2     -2.3
-2 aynı kural başka grupta               h_cin_adr    520    -22.1    -13.2 -1.20  -0.72    -15.6    -12.5
-2 aynı kural başka grupta            h_denizcilik    868    -20.2    -13.5 -0.77  -0.77    -18.4     24.6
-2 aynı kural başka grupta             h_diger_adr    694     15.1     21.9  1.09   0.61     11.7    -21.7
-2 aynı kural başka grupta              h_dogalgaz    457    -17.7    -11.0 -1.18  -0.11     -3.6     35.7
-2 aynı kural başka grupta            h_donanim_ag   1068    -22.8    -13.3 -1.61  -1.64    -26.2    -29.7
-2 aynı kural başka grupta        h_fintech_kripto    675    129.9    148.2  2.29  -0.53    -16.6     26.1
-2 aynı kural başka grupta                   h_gyo    936     -5.5      1.1  0.27  -1.29    -17.2      5.7
-2 aynı kural başka grupta          h_ilac_biyotek   1449    -11.2     -2.4 -2.02  -0.10     -1.5      7.1
-2 aynı kural başka grupta        h_internet_medya   1159     -3.4      4.6 -0.56   0.01      0.2     14.5
-2 aynı kural başka grupta           h_kamu_hizmet    789     -6.7     -2.3 -0.63  -0.18     -3.8     -3.7
-2 aynı kural başka grupta           h_kimya_gubre    817      0.5      5.9  0.03   0.08      1.3      9.5
-2 aynı kural başka grupta                 h_komur    295     -3.3      7.4 -0.44   0.12      4.1     41.4
-2 aynı kural başka grupta                 h_konut    674    -17.8    -11.3 -0.54  -0.83    -24.0     -4.9
-2 aynı kural başka grupta          h_lityum_nadir    393    -17.5     -8.8 -0.02  -0.99    -30.6    -24.6
-2 aynı kural başka grupta         h_makine_sanayi   1144     -7.1      1.1 -0.41  -0.75    -10.2     -7.1
-2 aynı kural başka grupta        h_medikal_hizmet   1053     -0.8      6.4 -0.14   0.10      1.5    -11.9
-2 aynı kural başka grupta           h_nukleer_guc    974     13.5     23.3  2.11  -1.49    -32.9    -24.3
-2 aynı kural başka grupta                h_oto_ev    860      6.7     11.8  1.28  -0.16     -2.9     10.4
-2 aynı kural başka grupta     h_perakende_tuketim   1260     -1.4      6.2 -0.75   0.71      8.8      8.3
-2 aynı kural başka grupta     h_petrol_entegre_ep    893     -9.2     -3.2 -0.96  -0.12     -2.9      2.3
-2 aynı kural başka grupta         h_petrol_hizmet    697    -30.1    -24.6 -1.62  -1.35    -38.1    -38.6
-2 aynı kural başka grupta              h_rafineri    538    -12.7     -1.1 -1.12   0.01      0.2      4.4
-2 aynı kural başka grupta     h_savunma_havacilik    936    -17.0    -10.7 -2.20  -0.22     -3.9      6.2
-2 aynı kural başka grupta               h_seyahat    937    -30.6    -24.2 -1.41  -1.45    -30.9     23.4
-2 aynı kural başka grupta         h_sigorta_borsa    788     -4.9      1.7 -0.44   0.15      2.1     -0.0
-2 aynı kural başka grupta           h_tasimacilik    744     -3.2      3.6  0.30  -0.97    -13.8     -7.6
-2 aynı kural başka grupta   h_tematik_yuksek_beta    401    398.0    480.4  3.57   0.57     25.0     24.8
-2 aynı kural başka grupta         h_temel_tuketim   1354     41.6     48.5  3.00   2.06     21.1     23.0
-2 aynı kural başka grupta          h_temiz_enerji    649    -12.3     -4.0 -0.24  -0.51    -17.5      6.8
-2 aynı kural başka grupta            h_yapi_orman    806     -4.6      0.8 -0.40  -0.14     -2.1     -1.4
-2 aynı kural başka grupta           h_yariiletken   1717     15.5     26.2  2.14  -0.21     -3.4     23.2
-2 aynı kural başka grupta               h_yazilim    915     -7.6      1.3 -0.29  -0.65     -9.9      8.4
+                     test                 varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+            2 hisse hisse                     ADM    163     50.8     55.7   2.36  2.60   0.64     22.4    -27.8
+            2 hisse hisse                      BG    160     15.1     19.1   0.55  0.93  -0.37    -15.0    -26.0
+            2 hisse hisse                     CAG    173     -8.1     -6.3  -0.49 -1.62   1.05     25.7     35.5
+            2 hisse hisse                    CELH    154    325.3    356.3   3.34  3.17   1.02     99.2     84.1
+            2 hisse hisse                      CL    142     20.9     25.0   1.00  0.01   1.39     44.0      5.2
+            2 hisse hisse                      EL    134     19.8     25.2   0.78  0.31   0.74     35.4    -58.4
+            2 hisse hisse                     GIS    154     32.5     35.3   2.16  1.49   1.57     34.0     22.3
+            2 hisse hisse                     HSY    139     28.1     32.2   1.64  0.79   1.47     46.7      2.3
+            2 hisse hisse                     KHC    129     19.0     18.5   0.75 -0.72   0.97     32.3     21.6
+            2 hisse hisse                     KMB    159     23.1     26.2   1.36  1.55   0.58     17.1     46.0
+            2 hisse hisse                      KO    107    -13.6     -8.9  -0.54 -0.13  -0.71    -35.6      NaN
+            2 hisse hisse                      KR    118     41.5     47.4   1.76  1.41   1.05     37.0     23.0
+            2 hisse hisse                    MDLZ    141     -2.0      1.8  -0.12  0.31  -0.38    -11.0    -10.4
+            2 hisse hisse                    MNST    103     64.1     77.0   1.83  1.17   1.74     65.1     32.8
+            2 hisse hisse                      MO    104     20.2     26.5   0.78  0.67   0.48     17.6      NaN
+            2 hisse hisse                     PEP    123     28.2     31.8   1.22  0.89   0.85     35.6     13.5
+            2 hisse hisse                      PG    130     15.4     19.2   0.78  1.64  -0.19     -8.0      1.7
+            2 hisse hisse                      PM    113     -3.9      1.8  -0.17 -1.23   0.54     23.0     92.7
+            2 hisse hisse                     STZ    143     14.7     20.1   0.58  0.10   0.72     29.5      7.3
+            2 hisse hisse                     TSN    155     14.8     19.9   0.44  0.20   0.48     24.5     23.2
+2 aynı kural başka grupta           h_altin_gumus   1254     14.7     22.4   1.28  0.82   1.20     24.2     92.1
+2 aynı kural başka grupta h_bakir_celik_aluminyum    968    -10.5     -2.1  -0.84 -0.94  -0.09     -1.8     18.2
+2 aynı kural başka grupta        h_banka_bolgesel    622    -10.3     -5.2  -0.54 -0.81   0.19      6.5    -32.9
+2 aynı kural başka grupta           h_banka_buyuk    899     -9.0     -2.0  -0.64 -0.23  -0.99    -15.1      5.7
+2 aynı kural başka grupta              h_boru_lng    630    -42.8    -35.4  -2.85 -2.45  -1.46    -38.2     -2.3
+2 aynı kural başka grupta               h_cin_adr    520    -22.1    -13.2  -1.34 -1.20  -0.72    -15.6    -12.5
+2 aynı kural başka grupta            h_denizcilik    868    -20.2    -13.5  -1.22 -0.77  -0.77    -18.4     24.6
+2 aynı kural başka grupta             h_diger_adr    694     15.1     21.9   1.18  1.09   0.61     11.7    -21.7
+2 aynı kural başka grupta              h_dogalgaz    457    -17.7    -11.0  -1.01 -1.18  -0.11     -3.6     35.7
+2 aynı kural başka grupta            h_donanim_ag   1068    -22.8    -13.3  -2.32 -1.61  -1.64    -26.2    -29.7
+2 aynı kural başka grupta        h_fintech_kripto    675    129.9    148.2   2.02  2.29  -0.53    -16.6     26.1
+2 aynı kural başka grupta                   h_gyo    936     -5.5      1.1  -0.57  0.27  -1.29    -17.2      5.7
+2 aynı kural başka grupta          h_ilac_biyotek   1449    -11.2     -2.4  -1.29 -2.02  -0.10     -1.5      7.1
+2 aynı kural başka grupta        h_internet_medya   1159     -3.4      4.6  -0.36 -0.56   0.01      0.2     14.5
+2 aynı kural başka grupta           h_kamu_hizmet    789     -6.7     -2.3  -0.55 -0.63  -0.18     -3.8     -3.7
+2 aynı kural başka grupta           h_kimya_gubre    817      0.5      5.9   0.04  0.03   0.08      1.3      9.5
+2 aynı kural başka grupta                 h_komur    295     -3.3      7.4  -0.13 -0.44   0.12      4.1     41.4
+2 aynı kural başka grupta                 h_konut    674    -17.8    -11.3  -0.97 -0.54  -0.83    -24.0     -4.9
+2 aynı kural başka grupta          h_lityum_nadir    393    -17.5     -8.8  -0.85 -0.02  -0.99    -30.6    -24.6
+2 aynı kural başka grupta         h_makine_sanayi   1144     -7.1      1.1  -0.82 -0.41  -0.75    -10.2     -7.1
+2 aynı kural başka grupta        h_medikal_hizmet   1053     -0.8      6.4  -0.08 -0.14   0.10      1.5    -11.9
+2 aynı kural başka grupta           h_nukleer_guc    974     13.5     23.3   0.90  2.11  -1.49    -32.9    -24.3
+2 aynı kural başka grupta                h_oto_ev    860      6.7     11.8   0.57  1.28  -0.16     -2.9     10.4
+2 aynı kural başka grupta     h_perakende_tuketim   1260     -1.4      6.2  -0.18 -0.75   0.71      8.8      8.3
+2 aynı kural başka grupta     h_petrol_entegre_ep    893     -9.2     -3.2  -0.80 -0.96  -0.12     -2.9      2.3
+2 aynı kural başka grupta         h_petrol_hizmet    697    -30.1    -24.6  -2.10 -1.62  -1.35    -38.1    -38.6
+2 aynı kural başka grupta              h_rafineri    538    -12.7     -1.1  -0.77 -1.12   0.01      0.2      4.4
+2 aynı kural başka grupta     h_savunma_havacilik    936    -17.0    -10.7  -1.72 -2.20  -0.22     -3.9      6.2
+2 aynı kural başka grupta               h_seyahat    937    -30.6    -24.2  -2.00 -1.41  -1.45    -30.9     23.4
+2 aynı kural başka grupta         h_sigorta_borsa    788     -4.9      1.7  -0.35 -0.44   0.15      2.1     -0.0
+2 aynı kural başka grupta           h_tasimacilik    744     -3.2      3.6  -0.32  0.30  -0.97    -13.8     -7.6
+2 aynı kural başka grupta   h_tematik_yuksek_beta    401    398.0    480.4   3.58  3.57   0.57     25.0     24.8
+2 aynı kural başka grupta         h_temel_tuketim   1354     41.6     48.5   3.55  3.00   2.06     21.1     23.0
+2 aynı kural başka grupta          h_temiz_enerji    649    -12.3     -4.0  -0.52 -0.24  -0.51    -17.5      6.8
+2 aynı kural başka grupta            h_yapi_orman    806     -4.6      0.8  -0.44 -0.40  -0.14     -2.1     -1.4
+2 aynı kural başka grupta           h_yariiletken   1717     15.5     26.2   1.62  2.14  -0.21     -3.4     23.2
+2 aynı kural başka grupta               h_yazilim    915     -7.6      1.3  -0.73 -0.29  -0.65     -9.9      8.4
 
 ===== EK IYR z5 SAT alt200 =====
-         test                 varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-      0 taban                   tanım   64.0    129.0    121.8  2.74   2.43    113.5      NaN
-    1 gecikme    ertesi açılış girişi   64.0    112.9    107.4  2.28   2.53    121.2      NaN
-    1 gecikme   ertesi kapanış girişi   64.0     96.0     88.7  0.70   1.99    129.1      NaN
-     3 piyasa            SPY hedge'li   64.0     88.7     90.4  2.08   2.06     69.8      NaN
-     3 piyasa       aynı kural SPY'da   41.0     55.1     46.0  0.51   1.34    117.6      NaN
-4 kırılganlık                eşik 1.0  185.0     82.3     75.1  2.60   1.55     51.6      NaN
-4 kırılganlık               eşik 1.25  112.0    113.5    106.3  2.58   1.34     54.2      NaN
-4 kırılganlık               eşik 1.75   33.0    159.7    152.5  2.22   1.95    157.6      NaN
-4 kırılganlık                eşik 2.0   15.0    257.8    250.6   NaN    NaN      NaN      NaN
-4 kırılganlık        ortalama 100 gün   69.0    123.1    115.9  2.91   2.44    101.2      NaN
-4 kırılganlık        ortalama 150 gün   68.0    130.2    123.0  2.86   2.59    117.7      NaN
-4 kırılganlık        ortalama 250 gün   55.0    124.0    116.8  2.38   2.17     98.5      NaN
-4 kırılganlık                     h=1   64.0     79.0     75.2  1.69   0.72     26.2      NaN
-4 kırılganlık                     h=3   64.0    188.0    177.2  2.52   2.31    161.1      NaN
-4 kırılganlık           maliyet 2 kat   64.0    124.0    116.8  2.67   2.36    108.5      NaN
-      5 rejim                VIX > 20   35.0    196.8    189.6  2.42   2.11    185.0      NaN
-      5 rejim               VIX <= 20   29.0     47.1     39.9  1.32   1.64     36.8      NaN
-      5 rejim              kriz hariç   53.0     89.2     82.0  2.29   2.45     88.2      NaN
-      5 rejim   en iyi 10 işlem hariç   54.0     44.8     37.6  0.62   2.48     69.1      NaN
-      5 rejim        en iyi yıl hariç   54.0    108.8    101.6  1.92   2.43    113.5      NaN
-      6 parça        gece, maliyetsiz   64.0     16.1     14.5  1.96  -0.46     -8.0      NaN
-      6 parça gün içi t+1, maliyetsiz   64.0     69.4     67.3  1.51   1.53     39.6      NaN
+         test                 varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+      0 taban                   tanım   64.0    129.0    121.8   3.65  2.74   2.43    113.5      NaN
+    1 gecikme    ertesi açılış girişi   64.0    112.9    107.4   3.38  2.28   2.53    121.2      NaN
+    1 gecikme   ertesi kapanış girişi   64.0     96.0     88.7   1.57  0.70   1.99    129.1      NaN
+     3 piyasa            SPY hedge'li   64.0     88.7     90.4   2.84  2.08   2.06     69.8      NaN
+     3 piyasa       aynı kural SPY'da   41.0     55.1     46.0   1.25  0.51   1.34    117.6      NaN
+4 kırılganlık                eşik 1.0  185.0     82.3     75.1   3.02  2.60   1.55     51.6      NaN
+4 kırılganlık               eşik 1.25  112.0    113.5    106.3   2.91  2.58   1.34     54.2      NaN
+4 kırılganlık               eşik 1.75   33.0    159.7    152.5   2.96  2.22   1.95    157.6      NaN
+4 kırılganlık                eşik 2.0   15.0    257.8    250.6   2.50   NaN    NaN      NaN      NaN
+4 kırılganlık        ortalama 100 gün   69.0    123.1    115.9   3.80  2.91   2.44    101.2      NaN
+4 kırılganlık        ortalama 150 gün   68.0    130.2    123.0   3.85  2.86   2.59    117.7      NaN
+4 kırılganlık        ortalama 250 gün   55.0    124.0    116.8   3.22  2.38   2.17     98.5      NaN
+4 kırılganlık                     h=1   64.0     79.0     75.2   1.84  1.69   0.72     26.2      NaN
+4 kırılganlık                     h=3   64.0    188.0    177.2   3.39  2.52   2.31    161.1      NaN
+4 kırılganlık           maliyet 2 kat   64.0    124.0    116.8   3.55  2.67   2.36    108.5      NaN
+      5 rejim                VIX > 20   35.0    196.8    189.6   3.20  2.42   2.11    185.0      NaN
+      5 rejim               VIX <= 20   29.0     47.1     39.9   1.91  1.32   1.64     36.8      NaN
+      5 rejim              kriz hariç   53.0     89.2     82.0   3.30  2.29   2.45     88.2      NaN
+      5 rejim   en iyi 10 işlem hariç   54.0     44.8     37.6   2.09  0.62   2.48     69.1      NaN
+      5 rejim        en iyi yıl hariç   54.0    108.8    101.6   3.08  1.92   2.43    113.5      NaN
+      6 parça        gece, maliyetsiz   64.0     16.1     14.5   1.23  1.96  -0.46     -8.0      NaN
+      6 parça gün içi t+1, maliyetsiz   64.0     69.4     67.3   1.95  1.51   1.53     39.6      NaN
 
 ===== EK EWJ IBS AL üst200 =====
-         test                 varyant  tum_n  tum_abn  tum_net  is_t  oos_t  oos_abn  son_net
-      0 taban                   tanım  522.0     17.4     20.1  2.53   2.40     16.4     29.3
-    1 gecikme    ertesi açılış girişi  522.0     -1.4      2.1 -1.10   0.50      1.9      6.8
-    1 gecikme   ertesi kapanış girişi  522.0     -4.6     -1.9 -0.35  -0.99     -7.1     -2.3
-     3 piyasa            SPY hedge'li  522.0      5.6      4.6  2.22  -0.29     -1.4      6.3
-     3 piyasa       aynı kural SPY'da  672.0      0.6      5.2  0.59  -0.44     -2.6     17.7
-4 kırılganlık                eşik 0.1  270.0     11.3     14.0  0.71   1.74     13.9     26.3
-4 kırılganlık               eşik 0.15  385.0     18.1     20.8  1.68   2.58     20.7     38.2
-4 kırılganlık               eşik 0.25  654.0     16.5     19.1  3.06   2.28     14.3     28.6
-4 kırılganlık                eşik 0.3  788.0     13.0     15.6  3.15   1.45      8.5     17.9
-4 kırılganlık        ortalama 100 gün  495.0     16.6     19.3  3.30   1.25      8.1     13.2
-4 kırılganlık        ortalama 150 gün  519.0     17.7     20.4  3.15   1.82     12.0     22.6
-4 kırılganlık        ortalama 250 gün  528.0     14.2     16.9  1.81   2.26     15.6     27.1
-4 kırılganlık                     h=2  522.0     17.9     23.1  1.92   1.39     14.2     31.8
-4 kırılganlık                     h=3  522.0      8.6     16.5  1.00   0.06      0.9     22.4
-4 kırılganlık           maliyet 2 kat  522.0     12.4     15.1  1.83   1.68     11.4     24.3
-      5 rejim                VIX > 20  141.0     37.4     40.1  1.76   2.95     39.9     97.5
-      5 rejim               VIX <= 20  381.0     10.0     12.7  1.90   0.53      4.0      8.1
-      5 rejim              kriz hariç  509.0     16.7     19.4  2.18   2.54     17.8     29.3
-      5 rejim   en iyi 10 işlem hariç  512.0     11.1     13.8  1.81   1.56      9.7     14.9
-      5 rejim        en iyi yıl hariç  481.0     14.2     16.9  2.53   1.37      9.1     13.9
-      6 parça        gece, maliyetsiz  522.0     18.9     18.0  3.77   2.51     14.5     22.5
-      6 parça gün içi t+1, maliyetsiz  522.0      3.6      7.1  0.11   1.82      6.9     11.8
+         test                 varyant  tum_n  tum_abn  tum_net  tum_t  is_t  oos_t  oos_abn  son_net
+      0 taban                   tanım  522.0     17.4     20.1   3.54  2.53   2.40     16.4     29.3
+    1 gecikme    ertesi açılış girişi  522.0     -1.4      2.1  -0.51 -1.10   0.50      1.9      6.8
+    1 gecikme   ertesi kapanış girişi  522.0     -4.6     -1.9  -0.86 -0.35  -0.99     -7.1     -2.3
+     3 piyasa            SPY hedge'li  522.0      5.6      4.6   1.55  2.22  -0.29     -1.4      6.3
+     3 piyasa       aynı kural SPY'da  672.0      0.6      5.2   0.17  0.59  -0.44     -2.6     17.7
+4 kırılganlık                eşik 0.1  270.0     11.3     14.0   1.62  0.71   1.74     13.9     26.3
+4 kırılganlık               eşik 0.15  385.0     18.1     20.8   3.01  1.68   2.58     20.7     38.2
+4 kırılganlık               eşik 0.25  654.0     16.5     19.1   3.84  3.06   2.28     14.3     28.6
+4 kırılganlık                eşik 0.3  788.0     13.0     15.6   3.33  3.15   1.45      8.5     17.9
+4 kırılganlık        ortalama 100 gün  495.0     16.6     19.3   3.39  3.30   1.25      8.1     13.2
+4 kırılganlık        ortalama 150 gün  519.0     17.7     20.4   3.63  3.15   1.82     12.0     22.6
+4 kırılganlık        ortalama 250 gün  528.0     14.2     16.9   2.91  1.81   2.26     15.6     27.1
+4 kırılganlık                     h=2  522.0     17.9     23.1   2.43  1.92   1.39     14.2     31.8
+4 kırılganlık                     h=3  522.0      8.6     16.5   0.86  1.00   0.06      0.9     22.4
+4 kırılganlık           maliyet 2 kat  522.0     12.4     15.1   2.54  1.83   1.68     11.4     24.3
+      5 rejim                VIX > 20  141.0     37.4     40.1   3.43  1.76   2.95     39.9     97.5
+      5 rejim               VIX <= 20  381.0     10.0     12.7   1.85  1.90   0.53      4.0      8.1
+      5 rejim              kriz hariç  509.0     16.7     19.4   3.38  2.18   2.54     17.8     29.3
+      5 rejim   en iyi 10 işlem hariç  512.0     11.1     13.8   2.44  1.81   1.56      9.7     14.9
+      5 rejim        en iyi yıl hariç  481.0     14.2     16.9   2.88  2.53   1.37      9.1     13.9
+      6 parça        gece, maliyetsiz  522.0     18.9     18.0   4.54  3.77   2.51     14.5     22.5
+      6 parça gün içi t+1, maliyetsiz  522.0      3.6      7.1   1.27  0.11   1.82      6.9     11.8
 
 ===== DÖNEM BLOKLARI =====
            sinyal    blok   n  abn_bps     t  es_zamanli_corr
@@ -671,6 +684,11 @@ S4 temel tüketim AL yıl+ (abn) IS 9/14, OOS 7/8; ham net yıl+ 20/22 | 05:+14(
 S4 temel tüketim AL sinyal günlerinin dağılımı: VIX>30 %13, kriz dönemleri %7; en yoğun 3 yıl günlerin %22'i (2023, 2018, 2008)
 S4 temel tüketim AL hisse hisse: abn > 0 olan 16/20; OOS abn > 0 16/20; biri hariç en düşük tIS 0.25 (CELH), en düşük tOOS 1.78 (CAG)
 S4 temel tüketim AL aynı kural 37 hisse grubunda: abn medyan -7.1 bps, abn > 0 olan 9; IS t>=2,5&OOS t>=2,0: h_temel_tuketim; IS t>=2&OOS t>=1,5: 1; h_temel_tuketim sırası (abn) 3/37; IS t ort -0.18, OOS t ort -0.32; SPY hedge'li h_temel_tuketim: abn 37.4 t 2.77/2.17
+veri CELH: ilk gün 2007-01-22; 2018 sonuna kadar medyan kapanış 0.67 $, medyan günlük dolar hacmi 0.02 mn $; S4 CELH işlemleri IS 108, OOS 47
+hizalama ZS=F vs SOYB (is): aynı gün corr 0.74; ertesi gün SOYB -0.019; ertesi gece SOYB 0.054; (vadeli - SOYB farkı) -> ertesi gece 0.103
+hizalama ZS=F vs SOYB (oos): aynı gün corr 0.88; ertesi gün SOYB 0.013; ertesi gece SOYB 0.056; (vadeli - SOYB farkı) -> ertesi gece 0.052
+hizalama ZL=F vs SOYB (is): aynı gün corr 0.54; ertesi gün SOYB 0.008; ertesi gece SOYB 0.079; (vadeli - SOYB farkı) -> ertesi gece 0.103
+hizalama ZL=F vs SOYB (oos): aynı gün corr 0.56; ertesi gün SOYB 0.061; ertesi gece SOYB 0.080; (vadeli - SOYB farkı) -> ertesi gece 0.070
 EK IYR z5 SAT alt200 taban: n 64 abn 129.0 ham net 121.8 tIS 2.74 tOOS 2.43 | ortak: n 64 abn 129.0 tIS 2.74 tOOS 2.43
 EK IYR z5 SAT alt200 yıl+ IS 4/5, OOS 3/3 | 07:+119 08:+238 13:+62 15:-16 16:+2 20:+235 22:+216 23:+24
 EK EWJ IBS AL üst200 taban: n 522 abn 17.4 ham net 20.1 tIS 2.53 tOOS 2.4 | ortak: n 522 abn 17.4 tIS 2.53 tOOS 2.4
