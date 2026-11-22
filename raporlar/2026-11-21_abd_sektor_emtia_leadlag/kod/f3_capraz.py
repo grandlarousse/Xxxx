@@ -474,6 +474,19 @@ def son_adim():
     ana = [c for c in dict.fromkeys(ana) if c in ak.columns]
     ak = ak[ana + [c for c in ak.columns if c.startswith(("c1_", "c2_", "c3_", "c4_", "c6_", "c7_", "c8_", "c9_", "c11_", "kontrol_"))]]
     ak.to_csv(os.path.join(CIKTI, "ayakta_kalanlar.csv"), index=False)
+    # Bilgi amaçlı (sınıf almaz): eşiğe yakın adaylar (IS t >= 1,5 ve OOS t >= 1,0) çürütme testleriyle;
+    # ters yönde tutarlı olanlar (IS t <= -2,5 ve OOS t <= -2,0; YONTEM.md bölüm 6: raporlanır, sınıflandırılmaz)
+    yak = b2[(b2.is_t_anormal >= 1.5) & (b2.oos_t_anormal >= 1.0) & (b2.bicim != "B1r")].copy()
+    cur = []
+    for _, row in yak.iterrows():
+        sig, hedge, z = sinyal_kur(row, X)
+        cur.append(curut(sig, row.hedef, int(row.h), hedge, z))
+    yak = pd.concat([yak.reset_index(drop=True), pd.DataFrame(cur)], axis=1)
+    yak[[c for c in ana if c in yak.columns] + [c for c in pd.DataFrame(cur).columns]].to_csv(
+        os.path.join(CIKTI, "yakin_adaylar.csv"), index=False)
+    ters = b2[(b2.is_t_anormal <= -2.5) & (b2.oos_t_anormal <= -2.0)]
+    ters[[c for c in ana if c in ters.columns]].to_csv(os.path.join(CIKTI, "ters_yon.csv"), index=False)
+    print("yakın aday:", len(yak), "ters yönde tutarlı:", len(ters))
     hip = b2[b2.bicim != "B1r"]
     print("TEST:", len(b2), "hipotez testi:", len(hip), "B1r:", (b2.bicim == "B1r").sum(), "keşif:", (hip.kaynak == "kesif").sum())
     print("Beklenen yanlış pozitif: SAĞLAM %.3f KOŞULLU %.3f" % (len(hip) * o.P_SIFIR_SAGLAM, len(hip) * o.P_SIFIR_KOSULLU))
