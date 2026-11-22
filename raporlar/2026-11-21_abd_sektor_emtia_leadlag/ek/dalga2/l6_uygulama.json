@@ -1,0 +1,82 @@
+{
+ "arac": "19/35",
+ "ozet": "Uygulama bölümü yazıldı. Bu oturumda 15 web aramasının hepsi kullanıldı ve kaynak sayfalar sayfa.py ile açıldı.\n\nAna bulgular:\n(1) Kapanış fiyatından işlem için MOC (kapanışta piyasa) ya da LOC (kapanışta limit) emri gerekiyor. Emir kapanış müzayedesinde, backtest'in kullandığı resmi kapanış fiyatından gerçekleştiği için alış-satış farkı fiilen sıfır. Kesim saatleri (ET): NYSE 15:50; Nasdaq MOC 15:55, LOC 15:58 (Nasdaq SSS, yüksek güven); NYSE Arca 15:59 (2019 tarihli bir aracı kurum rehberi, orta güven). IBKR kendi kuralı olarak emrin kapanıştan en az 15 dakika önce girilmesini istiyor. Kış saatinde bu Türkiye saatiyle 23:45 eder.\n(2) Kritik tuzak: sinyal liderin aynı günkü kapanışıyla hesaplanıp takipçi aynı kapanışta alınıyorsa, bu canlıda yapılamaz. Ya 15:40 ET anlık fiyatıyla yeniden backtest yapılmalı ya da işlem bir gün gecikmeli kurulmalı.\n(3) Kurumlar: IBKR Fixed hisse başına 0,005 $ (emir başına en az 1 $), Tiered 0,0035 $. Midas emir başına 1,5 $ alıyor. İş Yatırım, İşCep ve Yapı Kredi %0,25, Garanti binde 3 alıyor. Türk kurumlarının hiçbirinde MOC/LOC, kaldıraçlı ETF izni ya da ABD açığa satışı belgelenmiş olarak bulunamadı.\n(4) Maliyet: gidiş-dönüş IBKR+MOC ile 2–5 bps, Midas ile 5–25 bps, banka kökenli kurumlarla 52–70 bps. 10–50 bps brüt beklentide yüzdesel komisyon stratejiyi bitirir.\n(5) Kullanıcının varsayımında düzeltme: FINRA 25 bin dolarlık pattern day trader kuralını tümüyle kaldırdı. Yürürlük 4 Haziran 2026, kurumlar için geçiş süresi 20 Ekim 2027'ye kadar. 1–3 gün taşıma zaten bu kurala girmiyordu.\n(6) Aykırı kanıt: IBKR, AEA ve İngiltere'deki bireysel müşterilere KID'i olmayan ABD ETF'lerini kapatmak zorunda. Türkiye bu bölgede değil, ama Türkiye yerleşiklerinin hesabının hangi IBKR kuruluşunda açıldığı doğrulanamadı.\n(7) Kaldıraçlı ve ters ETF'in günlük sıfırlanması SEC kaynağıyla belgelendi. Ters ETF ile açığa satış arasındaki fark yazıldı. Vergi için yalnız mali müşavir notu var.\n\nNYSE sayfaları 403 verdi; NYSE ile ilgili satırlar arama özetine ve aracı kurum rehberine dayanıyor.",
+ "kilit_defter": [
+  {
+   "iddia": "Nasdaq MOC kesimi 15:55 ET",
+   "kaynak": "https://www.nasdaqtrader.com/content/productsservices/Trading/ClosingCrossfaq.pdf",
+   "alinti": "3:55 p.m. ET ... Nasdaq stops accepting MOC orders.",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Nasdaq LOC kesimi 15:58 ET",
+   "kaynak": "https://www.nasdaqtrader.com/content/productsservices/Trading/ClosingCrossfaq.pdf",
+   "alinti": "LOC orders may be entered until 3:58 p.m. ET",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "NYSE MOC/LOC kesimi 15:50 ET",
+   "kaynak": "https://download.lightspeed.com/On%20Close%20and%20On%20Open%20Guide.pdf",
+   "alinti": "Market and Limit On Close Orders and Cancels in NYSE and AMEX symbols may be entered any time up until 3:50 pm ET.",
+   "guven": "orta (2019)"
+  },
+  {
+   "iddia": "NYSE Arca MOC/LOC kesimi 15:59 ET",
+   "kaynak": "https://download.lightspeed.com/On%20Close%20and%20On%20Open%20Guide.pdf",
+   "alinti": "Market and Limit On Close Orders may be entered any time up until 3:59pm ET.",
+   "guven": "orta (2019)"
+  },
+  {
+   "iddia": "IBKR: MOC kapanıştan en az 15 dk önce",
+   "kaynak": "https://www1.interactivebrokers.com/en/trading/orders/moc.php",
+   "alinti": "You must submit the MOC order at least 15 minutes prior to the close. (arama özeti)",
+   "guven": "orta"
+  },
+  {
+   "iddia": "IBKR Fixed 0,005 $/hisse, en az 1 $",
+   "kaynak": "https://www.interactivebrokers.com/en/pricing/commissions-stocks.php",
+   "alinti": "USD 0.005 ... Minimum per order ... USD 1.00",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Midas ABD işlem ücreti emir başına 1,5 $",
+   "kaynak": "https://www.getmidas.com/ucretler/",
+   "alinti": "Amerikan Borsası ... İşlem Ücreti 1,5 USD*",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "İş Yatırım yurt dışı pay komisyonu %0,25",
+   "kaynak": "https://www.isyatirim.com.tr/tr-tr/destek/Documents/pdf/komisyon-ve-masraf-tarifesi.pdf",
+   "alinti": "Uluslararası Pay alım-satım işlemlerinde %0,25 (onbinde yirmi beş) oranında komisyon tahsil edilir.",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "Yapı Kredi ABD %0,25, en az 0,5 $",
+   "kaynak": "https://www.yapikredi.com.tr/bireysel-bankacilik/yatirim-urunleri/hisse-senetleri/yurt-disi-hisse-senetleri",
+   "alinti": "NYSE_ARCA 1.00 $ 16:30 - 23:00 %0,25 (Binde 2,5) 0,5 $",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "FINRA PDT kuralı ve 25 bin $ alt sınırı kaldırıldı; yürürlük 4.6.2026",
+   "kaynak": "https://www.finra.org/rules-guidance/notices/26-10",
+   "alinti": "Effective Date: June 4, 2026; Phase-in Period: Ends October 20, 2027",
+   "guven": "yüksek"
+  },
+  {
+   "iddia": "IBKR, KID'i olmayan ETF'leri AEA/İngiltere bireysel müşterilerine kapatıyor",
+   "kaynak": "https://www.interactivebrokers.com/support/faq/content/1136192471",
+   "alinti": "As a broker, we are required to block trading in a PRIIP if a KID is not available.",
+   "guven": "yüksek (Türkiye'ye uygulanırlığı belirsiz)"
+  },
+  {
+   "iddia": "Kaldıraçlı ETF günlük sıfırlanır; 2 günlük örnekte endeks -%1, 2x ETF -%4",
+   "kaynak": "https://www.investor.gov/publications-research-studies/info-sheets/Leveraged-Inverse-ETFs",
+   "alinti": "the index lost 1 percent ... while the 2x leveraged ETF lost 4 percent",
+   "guven": "yüksek"
+  }
+ ],
+ "acik_kalanlar": "1) NYSE ve NYSE Arca kesimleri resmi borsa sayfasından teyit edilemedi (403 hatası); kaynak 2019 tarihli Lightspeed rehberi ve arama özetleri. 2) Türkiye yerleşiklerinin hesabının hangi IBKR kuruluşunda açıldığı ve buna bağlı olarak ABD ETF'leri ile kaldıraçlı ETF'lere erişim olup olmadığı bulunamadı. 3) Türk kurumlarında (Midas, İş, Garanti, Yapı Kredi, Ak, Gedik) MOC/LOC desteği, kaldıraçlı ETF izni ve ABD açığa satışı bulunamadı; Ak Yatırım ve Gedik'in komisyonu da bulunamadı. 4) Garanti'nin binde 3 oranı 8 Haziran 2024 tarihli ve arama özetinden geliyor; üçüncü taraf bir blog 15 $ asgari tutar veriyor, çelişki var. 5) Yarım günlerdeki kesim saatleri, ABD kış saati tarihleri, T+1 takası ve ETF spread düzeyleri bellekten yazıldı (doğrulanmadı). 6) LULD (işlem durdurma) sırasında MOC'nin nasıl davrandığı aranmadı. 7) TL/USD banka kur makası doğrulanmadı.",
+ "dosyalar": [
+  "/home/user/Xxxx/raporlar/2026-11-21_abd_sektor_emtia_leadlag/ek/uygulama/l6_uygulama.md"
+ ]
+}

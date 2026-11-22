@@ -1,2 +1,11 @@
 925 tekil çift (yön dahil); {'F2': 431, 'F1': 273, 'F3': 221}
 100/925 çift, 1161 test
+200/925 çift, 2358 test
+300/925 çift, 3534 test
+400/925 çift, 4710 test
+500/925 çift, 5895 test
+/usr/local/lib/python3.13/site-packages/pandas/core/arraylike.py:402: RuntimeWarning: invalid value encountered in log
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+/usr/local/lib/python3.13/site-packages/pandas/core/arraylike.py:402: RuntimeWarning: invalid value encountered in log
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+600/925 çift, 7095 test
