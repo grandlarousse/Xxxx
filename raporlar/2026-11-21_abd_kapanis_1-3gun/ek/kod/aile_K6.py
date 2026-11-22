@@ -539,6 +539,31 @@ def main():
                 y = x[(x["t"] >= a) & (x["t"] <= z)]
                 if len(y):
                     kuyruk.append(y.assign(vno=r.vno, tur=ad_))
+    # temsilci kisa vol stratejileri (aday olmasalar da sol kuyruk raporu; h=1, 2010-2023, SON kilitli)
+    TEMSIL = [("R1-06", "SVXY_E uzun (VIX3M/VIX>1.00)"), ("R1-06", "SVXY_Y uzun (VIX3M/VIX>1.00)"),
+              ("R1-06", "VIXY iki yonlu (VIX3M/VIX>1.00 kisa; <1 uzun)"), ("R1-05", "SVXY_E uzun (VRP5>0; nakit varyanti)"),
+              ("R1-05", "SVXY_Y uzun (VRP5>0; nakit varyanti)"), ("R1-07", "SVXY_Y uzun (egim>0)"),
+              ("R1-13", "SVXY_E uzun (VVIX ust %10 (252g) ve VIX/VIX3M<1)")]
+    mdd_s = []
+    for kid, vv in TEMSIL:
+        v = next(x for x in varyantlar if x["kid"] == kid and x["v"] == vv)
+        x = m.islemler(v["s"], v["hedef"], giris="K", h=1)
+        x = x[(x["t"] >= pd.Timestamp("2010-01-01")) & (x["t"] <= pd.Timestamp("2023-12-31"))]
+        gs = m.gunluk(x, "hisse")
+        gs = pd.Series(np.asarray(gs, float).ravel()[:len(m.idx)], index=m.idx) if not isinstance(gs, pd.Series) else gs
+        gs = gs[(gs.index >= "2010-01-01") & (gs.index <= "2023-12-31")]
+        sub = {ad_: x[(x["t"] >= a) & (x["t"] <= z)]["net_hisse"] for a, z, ad_ in
+               (("2018-01-25", "2018-02-28", "Subat2018"), ("2020-02-15", "2020-04-15", "Mart2020"))}
+        mdd_s.append(dict(vno=v["vno"], kural=kid, varyant=vv, hedef=v["hedef"], n=len(x),
+                          net_bps=x["net_hisse"].mean() * 1e4, mdd_pct=M.mdd(gs.fillna(0).to_numpy()) * 100,
+                          en_kotu5_bps=list((x["net_hisse"].nsmallest(5) * 1e4).round(0)),
+                          en_kotu5_tarih=[str(d.date()) for d in x.nsmallest(5, "net_hisse")["t"]],
+                          subat2018_toplam_pct=(np.prod(1 + sub["Subat2018"]) - 1) * 100 if len(sub["Subat2018"]) else np.nan,
+                          mart2020_toplam_pct=(np.prod(1 + sub["Mart2020"]) - 1) * 100 if len(sub["Mart2020"]) else np.nan))
+        kuyruk.append(x.nsmallest(5, "net_hisse").assign(vno=v["vno"], tur="temsil_en_kotu5_2010-2023"))
+    MDD = pd.DataFrame(mdd_s)
+    MDD.to_csv(KUYRUK_YOL.replace(".csv", "_ozet.csv"), index=False)
+    print(MDD.round(1).to_string(index=False), flush=True)
     if kuyruk:
         K = pd.concat(kuyruk, ignore_index=True)
         K[["vno", "tur", "hedef", "t", "giris_tarihi", "cikis_tarihi", "yon", "brut", "net_hisse"]].to_csv(KUYRUK_YOL, index=False)

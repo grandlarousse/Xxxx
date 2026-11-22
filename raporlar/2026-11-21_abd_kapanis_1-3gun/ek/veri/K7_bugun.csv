@@ -1,0 +1,28 @@
+kod,tahmini_tepki_gunu,yontem,ikinci_tahmin,son_tepki_gunu,gecen_yil_tepki,seans_son,evren,grup,etiket,R6-03_sinyal_gunu(R-2),R6-03_on_getiri,R6-03_durum,R6-03_q20
+ADI,2026-11-24,yil_once+364,2026-11-18,2026-08-19,2025-11-25,ACILIS_ONCESI,buyuk,h_yari_iletken,tahmini,2026-11-20,-0.0391,ACIK (uzun),-0.0152
+ZS,2026-11-25,yil_once+364,2026-12-06,2026-09-04,2025-11-26,KAPANIS_SONRASI,kucuk/tema,h_yazilim,tahmini,2026-11-23,,2026-11-23 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+WDAY,2026-11-25,yil_once+364,2026-12-25,2026-09-30,2025-11-26,KAPANIS_SONRASI,buyuk,h_yazilim,tahmini,2026-11-23,,2026-11-23 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+DELL,2026-11-25,yil_once+364,2026-12-04,2026-09-02,2025-11-26,KAPANIS_SONRASI,kucuk/tema,h_ai_altyapi,tahmini,2026-11-23,,2026-11-23 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+DE,2026-11-25,yil_once+364,2026-11-19,2026-08-20,2025-11-26,ACILIS_ONCESI,buyuk,h_sanayi_diger,tahmini,2026-11-23,,2026-11-23 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+CLSK,2026-11-25,yil_once+364,2026-11-02,2026-08-07,2025-11-26,KAPANIS_SONRASI,kucuk/tema,h_kripto,tahmini,2026-11-23,,2026-11-23 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+MDB,2026-12-01,yil_once+364,2026-12-02,2026-09-02,2025-12-02,KAPANIS_SONRASI,kucuk/tema,h_yazilim,tahmini,2026-11-27,,2026-11-27 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+CRWD,2026-12-02,yil_once+364,2026-11-26,2026-08-27,2025-12-03,KAPANIS_SONRASI,kucuk/tema,h_yazilim,tahmini,2026-11-30,,2026-11-30 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+CRDO,2026-12-02,son4_aralik,2026-12-02,2026-09-02,,KAPANIS_SONRASI,kucuk/tema,h_yari_iletken,tahmini,2026-11-30,,2026-11-30 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+CRM,2026-12-03,yil_once+364,2026-11-26,2026-08-27,2025-12-04,KAPANIS_SONRASI,buyuk,h_yazilim,tahmini,2026-12-01,,2026-12-01 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+AI,2026-12-03,yil_once+364,2026-11-17,2026-09-03,2025-12-04,KAPANIS_SONRASI,kucuk/tema,h_yazilim,tahmini,2026-12-01,,2026-12-01 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+SNOW,2026-12-03,yil_once+364,2026-12-03,2026-09-03,2025-12-04,KAPANIS_SONRASI,kucuk/tema,h_yazilim,tahmini,2026-12-01,,2026-12-01 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+HPE,2026-12-04,yil_once+364,2026-12-05,2026-09-03,2025-12-05,KAPANIS_SONRASI,kucuk/tema,h_ai_altyapi,tahmini,2026-12-02,,2026-12-02 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+TOL,2026-12-08,yil_once+364,2026-11-18,2026-08-19,2025-12-09,KAPANIS_SONRASI,kucuk/tema,h_konut,tahmini,2026-12-04,,2026-12-04 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+AVAV,2026-12-09,yil_once+364,2026-12-10,2026-09-10,2025-12-10,KAPANIS_SONRASI,kucuk/tema,h_uzay_savunma,tahmini,2026-12-07,,2026-12-07 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+GME,2026-12-09,yil_once+364,2026-11-17,2026-09-08,2025-12-10,ACILIS_ONCESI,kucuk/tema,h_meme,tahmini,2026-12-07,,2026-12-07 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+PL,2026-12-10,yil_once+364,2026-12-04,2026-09-04,2025-12-11,KAPANIS_SONRASI,kucuk/tema,h_uzay_savunma,tahmini,2026-12-08,,2026-12-08 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+ORCL,2026-12-10,yil_once+364,2026-12-12,2026-09-11,2025-12-11,KAPANIS_SONRASI,kucuk/tema,h_ai_altyapi,tahmini,2026-12-08,,2026-12-08 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+ADBE,2026-12-10,yil_once+364,2026-12-11,2026-09-11,2025-12-11,KAPANIS_SONRASI,buyuk,h_yazilim,tahmini,2026-12-08,,2026-12-08 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+COST,2026-12-11,yil_once+364,2026-12-18,2026-09-25,2025-12-12,KAPANIS_SONRASI,buyuk,h_tuketici,tahmini,2026-12-09,,2026-12-09 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+AVGO,2026-12-11,yil_once+364,2026-12-03,2026-09-03,2025-12-12,KAPANIS_SONRASI,buyuk,h_yari_iletken,tahmini,2026-12-09,,2026-12-09 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+LULU,2026-12-11,yil_once+364,2026-12-04,2026-09-04,2025-12-12,KAPANIS_SONRASI,buyuk,h_tuketici,tahmini,2026-12-09,,2026-12-09 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+LEN,2026-12-16,yil_once+364,2026-12-17,2026-09-17,2025-12-17,KAPANIS_SONRASI,buyuk,h_konut,tahmini,2026-12-14,,2026-12-14 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+MU,2026-12-17,yil_once+364,2027-01-07,2026-10-01,2025-12-18,KAPANIS_SONRASI,buyuk,h_yari_iletken,tahmini,2026-12-15,,2026-12-15 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+NKE,2026-12-18,yil_once+364,2026-12-25,2026-10-02,2025-12-19,KAPANIS_SONRASI,buyuk,h_tuketici,tahmini,2026-12-16,,2026-12-16 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+CCL,2026-12-18,yil_once+364,2027-01-05,2026-09-29,2025-12-19,ACILIS_ONCESI,buyuk,h_seyahat,tahmini,2026-12-16,,2026-12-16 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152
+FDX,2026-12-18,yil_once+364,2027-02-02,2026-10-29,2025-12-19,KAPANIS_SONRASI,buyuk,h_sanayi_diger,tahmini,2026-12-16,,2026-12-16 kapanisinda (P/P[-2] - SPY ayni) < -0.0152 ise uzun,-0.0152

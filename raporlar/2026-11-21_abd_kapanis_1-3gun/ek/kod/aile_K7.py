@@ -413,6 +413,35 @@ def asama_bugun(m, v):
                     "evren": "buyuk" if v.U["B"][-1, v.c[k]] else "kucuk/tema", "grup": m.evren.at[k, "grup"],
                     "etiket": "tahmini"})
     d = pd.DataFrame(sat).sort_values("tahmini_tepki_gunu")
+    # R6-03 uzun bacak (OOS'tan gecen tek varyant; sinif DUSUK) icin sinyal gunu R-2 ve tetik
+    gun = pd.bdate_range("2026-11-16", "2026-12-31")
+    gun = gun[~gun.isin(pd.to_datetime(["2026-11-26", "2026-12-25"]))]
+    gun = pd.DatetimeIndex(sorted(set(m.idx[m.idx >= "2026-11-01"]) | set(gun[gun > m.idx[-1]])))
+    s_, ci_, val_, pre_, qq_, ins_ = so_wang(v)
+    ok = ins_ & np.isfinite(pre_)
+    q20, q80 = np.quantile(pre_[ok], [0.2, 0.8])
+    ac, spy = m.A["adjclose"], m.A["adjclose"][:, m.kpos["SPY"]]
+    sg, dr, tet = [], [], []
+    for _, r in d.iterrows():
+        R = pd.Timestamp(r["tahmini_tepki_gunu"])
+        if R not in gun:
+            R = gun[gun.searchsorted(R)]
+        j = gun.get_loc(R)
+        sgun = gun[j - 2]
+        sg.append(sgun.date())
+        if sgun <= m.idx[-1]:
+            i = m.idx.get_loc(sgun)
+            c = m.kpos[r["kod"]]
+            x = ac[i, c] / ac[i - 2, c] - spy[i] / spy[i - 2]
+            dr.append(round(x, 4))
+            tet.append("ACIK (uzun)" if x < q20 else "kapali")
+        else:
+            dr.append(np.nan)
+            tet.append(f"{sgun.date()} kapanisinda (P/P[-2] - SPY ayni) < {q20:.4f} ise uzun")
+    d["R6-03_sinyal_gunu(R-2)"] = sg
+    d["R6-03_on_getiri"] = dr
+    d["R6-03_durum"] = tet
+    d["R6-03_q20"] = round(q20, 4)
     d.to_csv(BUGUN, index=False)
     return d
 
