@@ -109,3 +109,26 @@ Hepsi sinyal hesapları başlamadan önce, motorun bağımsız kod denetimi (`aj
 4. **Tek yönlü kurallarda ek şart:** anormal getiri > 0 ve anormal getirinin kümelenmiş t'si ≥ 2 (sonuç şemasına `t_anormal` sütunu eklendi). (Denetim: yükselen bir varlıkta rastgele girişli yalnız-uzun kuralların %6'sı net getiriyle "anlamlı" çıkıyor, anormal getiriyle %0.)
 5. **Portföy tavanında eşitlik:** sinyal gücü verilmezse 5 pozisyon tavanındaki seçim sütun sırasına göre değil, veriden bağımsız sabit tohumlu rastgele sırayla yapılır.
 6. Çoklu test düzeltmesinde p-değeri hesaplanamayan aday 1,0 sayılır.
+
+## Ek 1 — Rejime koşullu dönüş hipotezinin dokunulmamış örneklemde sınanması
+
+Yazıldığı an: 22.11.2026, "kendi serisinde uç hareket" ailesinin (K4a) sonuçları görüldükten sonra, 2005 öncesi veriye bakılmadan önce.
+
+**Gerekçe.** "Düşeni al" kuralları (RSI(2) < 10, kapanışın gün içi aralıktaki yeri IBS < 0,2) 2010–2019 eleğinden geçemedi ve elendi. Ancak VIX(t−1) > 30 ve SPY 200 günlük ortalamasının altındayken 2005–2026 toplamında güçlü göründüler (SPY RSI(2) < 10, h = 1: 61 işlem, +141 bps, t 2,8). Bu, 13 rejim × 674 varyant içinden sonradan seçilmiş bir alt kümedir; doğrulama sayılmaz. Literatür (Nagel 2012; Sentana ve Wadhwani 1992) bu rejim bağımlılığını öngörüyor ve keşif dönemi (2010–2019) VIX > 30 günleri açısından fakir. Bugünkü rejim tam olarak bu olduğu için hipotez, bu projede hiç yüklenmemiş bir örneklemde sınanır.
+
+**Hipotezler (yalnız bu ikisi; başka varyant karara girmez).**
+- E1-a: VIX(t−1) > 30 ve SPY(t−1) kapanışı 200 günlük ortalamasının altındayken, SPY'nin RSI(2) değeri 10'un altında kapandığı gün kapanışta SPY al, ertesi kapanışta sat.
+- E1-b: aynı rejimde IBS < 0,2 olan gün kapanışta SPY al, ertesi kapanışta sat.
+
+**Örneklem.** 1993-02-01 → 2004-12-31 (SPY; ^VIX 1 gün gecikmeli). Isınma süresi nedeniyle fiilen 1993 sonundan.
+
+**Maliyet.** Gidiş-dönüş 12 bps (Nisan 2001 öncesi, kesirli fiyat adımı dönemi), 6 bps (sonrası). Duyarlılık: ×2.
+
+**Karar (önceden).** Bu örneklemde: (i) net ortalama > 0; (ii) oynaklığa ölçeklenmiş t ≥ 2; (iii) aynı rejimdeki koşulsuz 1 günlük ortalamaya göre anormal getiri > 0 ve tarihe göre kümelenmiş t ≥ 2; (iv) en az 4 bölüm ve bölümlerin ≥ %70'inde net pozitif; (v) en büyük bölüm çıkarılınca net > 0; (vi) maliyet ×2 ile net > 0.
+- Altısı da sağlanırsa: **KOŞULLU (rejim), "bugünkü rejimde destekli"**.
+- (i)–(iii) sağlanıp (iv)–(vi)'dan biri eksikse: **DÜŞÜK**.
+- Aksi hâlde: **ELENDİ**; 2005–2026'daki örüntü sonradan seçilmiş sayılır.
+
+**İkincil (karara girmez, raporlanır).** h = 2 ve 3; ertesi açılışta giriş; QQQ (1999'dan), DIA (1998'den), MDY (1995'ten); rejim dışındaki günlerde aynı kurallar; 2000–2002 Nasdaq çöküşünde QQQ için bölüm bölüm sonuç; en kötü ardışık kayıplar; 2010 sonrasında aynı sinyalin kaldıraçlı ETF'lerle (UPRO, TQQQ) getirisi.
+
+**Kod.** Motor kullanılmaz (2005 öncesi veri panelde yok); ayrı, bağımsız betik. Aynı betik 2005–2026'yı da yeniden üretir ve K4a'nın sayılarıyla karşılaştırılır.

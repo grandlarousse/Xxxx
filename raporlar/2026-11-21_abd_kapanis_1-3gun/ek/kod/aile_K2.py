@@ -11,6 +11,8 @@ Getiri, maliyet, istatistik ve siniflama hesaplari motor.py ile yapilir; burada 
 Ara sinyaller scratchpad'de onbelleklenir (ham veri depoya yazilmaz)."""
 import argparse
 import os
+for _k in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS"):
+    os.environ.setdefault(_k, "1")      # paylasilan makine: BLAS tek iplik (PCA dongusu icin cok daha hizli)
 import pickle
 import sys
 import time
@@ -254,7 +256,8 @@ def k_R5_03(bg, Wc=252, W=60):
         for ad, k in (("k15", 15), ("v55", k55)):
             Fw = y @ (V[:, :k] / sd[:, None])
             Xd = np.column_stack([np.ones(W + 1), Fw])
-            coef = np.linalg.lstsq(Xd[:-1], y[:-1], rcond=None)[0]
+            Xe = Xd[:-1]
+            coef = np.linalg.solve(Xe.T @ Xe, Xe.T @ y[:-1])
             eps = y - Xd @ coef
             S[ad][t, u] = _ou(eps, W, 8.4, np.ones(u.sum(), bool))
     out = []
@@ -276,7 +279,7 @@ def k_R5_04(bg):
            "c_vix30_tepealti": (v1 >= 30) & (v1 < v1.rolling(5, min_periods=5).max())}
     out = []
     for ad, c in kos.items():
-        sig = base.where(c.to_numpy()[:, None], 0).astype(int)
+        sig = base.where(np.broadcast_to(c.to_numpy()[:, None], base.shape), 0).astype(int)
         v = _v(f"R5-04:{ad}", f"Buyuk hisse (ilk 30) z=r/sigma60 en dusuk %10 al, en yuksek %10 sat; kosul {ad} (VIX t-1)",
                None, sig, "hisse kk, sigma60 t-1, ^VIX(t-1)", "SPY:60", guc=z.abs().fillna(0.0))
         out += [v] + bilanco_bol(v, bg, 1)
@@ -475,19 +478,24 @@ KURALLAR = [k_R2_03, k_R2_06, k_R4_10, k_R4_11, k_R5_01_02, k_R5_03, k_R5_04, k_
 
 
 def butun_varyantlar(mm, onbellek=True):
-    if onbellek and os.path.exists(ONB):
-        with open(ONB, "rb") as f:
-            return pickle.load(f)
-    bg = Baglam(mm)
+    """Butun kural x varyant sinyalleri; kural islevi basina scratchpad onbellegi."""
+    bg = None
     V = []
     for fn in KURALLAR:
+        yol = ONB.replace(".pkl", f"_{fn.__name__}.pkl")
+        if onbellek and os.path.exists(yol):
+            with open(yol, "rb") as f:
+                V += pickle.load(f)
+            continue
+        bg = bg or Baglam(mm)
         t0 = time.time()
-        V += fn(bg)
+        out = fn(bg)
         print(f"  {fn.__name__}: {time.time() - t0:.1f} sn", flush=True)
-    if onbellek:
-        os.makedirs(os.path.dirname(ONB), exist_ok=True)
-        with open(ONB, "wb") as f:
-            pickle.dump(V, f)
+        if onbellek:
+            os.makedirs(os.path.dirname(ONB), exist_ok=True)
+            with open(yol, "wb") as f:
+                pickle.dump(out, f)
+        V += out
     return V
 
 
@@ -569,11 +577,24 @@ def asama_oos(m):
     S_is = S_is[~S_is.apply(lambda r: (r.kural_id, int(r.h)) in aday_anahtar, axis=1)]
     S = pd.concat([S_is] + sat, ignore_index=True)
     M.yaz_sonuc(S, SONUC)
-    O = pd.DataFrame(ozet)
+    O = pd.DataFrame(ozet, columns=["kural_id", "h", "hat", "oos_net_bps", "oos_n", "oos_t", "oos_t_anormal",
+                                    "oos_p", "oos_gecti"])
     O.to_csv(ONB.replace(".pkl", "_oos_ozet.csv"), index=False)
     print(O.to_string(index=False))
     print(f"sonuc: {len(S)} satir -> {SONUC}")
     return S, O
+
+
+def asama_ek(m):
+    """OOS'tan gecenler icin ek testler (kapanis gercekciligi 15:30, kaldiracli satir, komsu parametreler).
+    Bu calismada OOS'tan gecen kural yok; gecen olursa ek testler burada eklenmeli (bilerek bos)."""
+    yol = ONB.replace(".pkl", "_oos_ozet.csv")
+    O = pd.read_csv(yol) if os.path.exists(yol) and os.path.getsize(yol) > 1 else pd.DataFrame()
+    gecen = O[O.oos_gecti.astype(bool)] if len(O) else O
+    if len(gecen) == 0:
+        print("ek: OOS'tan gecen kural yok; kapanis gercekciligi / kaldiracli / komsu parametre testleri uygulanmadi.")
+        return None
+    raise NotImplementedError("OOS'tan gecen kural var: ek testleri yazin (YONTEM 4, 7).")
 
 
 def asama_bakis(m):
@@ -600,8 +621,10 @@ if __name__ == "__main__":
     ap.add_argument("--asama", default="hepsi", choices=["hepsi", "bakis", "is", "oos", "ek"])
     ap.add_argument("--yeniden", action="store_true", help="sinyal onbellegini sil")
     a = ap.parse_args()
-    if a.yeniden and os.path.exists(ONB):
-        os.remove(ONB)
+    if a.yeniden:
+        import glob
+        for f in glob.glob(ONB.replace(".pkl", "_k_*.pkl")):
+            os.remove(f)
     t0 = time.time()
     m = M.Motor()
     if a.asama in ("hepsi", "bakis"):
@@ -611,6 +634,5 @@ if __name__ == "__main__":
     if a.asama in ("hepsi", "oos"):
         asama_oos(m)
     if a.asama in ("hepsi", "ek"):
-        import aile_K2_ek
-        aile_K2_ek.calistir(m)
+        asama_ek(m)
     print(f"toplam {time.time() - t0:.0f} sn")
