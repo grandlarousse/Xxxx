@@ -130,26 +130,37 @@ def main():
             return "SINIRDA"
         return "—"
 
-    print("\n2) ÖNCÜLÜK KURALLARI  [piyasadan arındırılmış z >= +1 -> AL; küçük boy]")
+    def artik(x):
+        """(bugünkü artık, beta, z=1 eşiği, z). Artık = öncünün hareketi - beta x SPY'ın hareketi."""
+        bt = kayan_beta(x, spy)
+        res = x - bt * spy
+        sd = res.rolling(60, min_periods=40).std().shift(1)
+        return float(res.iloc[-1]), float(bt.iloc[-1]), float(sd.iloc[-1]), float(res.iloc[-1] / sd.iloc[-1])
+
+    spy_y = float(spy.iloc[-1]) * 100
+    print("\n2) ÖNCÜLÜK KURALLARI  [öncünün SPY'dan arındırılmış hareketi eşiği geçerse hedefi AL; küçük boy]")
+    print(f"   Bugün SPY {spy_y:+.2f}%")
     try:
         x = np.log(v["MU"]["adjclose"]).diff().reindex(spy.index).fillna(0.0)
-        z = float(z_gecmis(x - kayan_beta(x, spy) * spy).iloc[-1])
-        print(f"   2. kural  MU -> WDC (3 gün):  z {z:+.2f}  ->  {etiket(z)}")
+        res, bt, sd, z = artik(x)
+        print(f"   2. kural  MU -> WDC (3 gün tut)")
+        print(f"             MU {x.iloc[-1] * 100:+.2f}%  -  {bt:.1f} x SPY  =  {res * 100:+.2f}   (eşik +{sd * 100:.2f})   ->  {etiket(z)}")
     except Exception as e:  # noqa: BLE001
         print("   MU hesaplanamadı:", str(e)[:80])
     try:
         lv = pd.concat({k: v[k]["close"] for k in ("RB=F", "HO=F", "CL=F")}, axis=1, sort=True).dropna()
         crack = (2 * lv["RB=F"] * 42 + lv["HO=F"] * 42 - 3 * lv["CL=F"]) / 3
         dcr = crack.diff().reindex(spy.index).fillna(0.0)
-        z = float(z_gecmis(dcr - kayan_beta(dcr, spy) * spy).iloc[-1])
-        print(f"   3. kural  rafineri marjı -> VLO (2 gün):  marj {crack.iloc[-1]:.1f} $/varil ({crack.diff().iloc[-1]:+.2f} $), z {z:+.2f}  ->  {etiket(z, vix <= 20)}"
-              f"{'   [VIX > 20: bu kural yalnız sakin piyasada geçerli]' if vix > 20 else ''}")
+        res, bt, sd, z = artik(dcr)
+        print(f"   3. kural  rafineri marjı -> VLO (2 gün tut; yalnız VIX <= 20 iken)")
+        print(f"             marj {crack.iloc[-1]:.1f} $/varil, bugünkü değişim {dcr.iloc[-1]:+.2f} $, SPY düzeltmesiyle {res:+.2f} $   (eşik +{sd:.2f} $)   ->  {etiket(z, vix <= 20)}")
     except Exception as e:  # noqa: BLE001
         print("   rafineri marjı hesaplanamadı:", str(e)[:80])
     try:
         x = np.log(v["ZL=F"]["adjclose"]).diff().reindex(spy.index).fillna(0.0)
-        z = float(z_gecmis(x - kayan_beta(x, spy) * spy).iloc[-1])
-        print(f"   izleme    soya yağı -> BG, ADM (1 gün):  z {z:+.2f}  ->  {'İZLE: kâğıt üstünde kaydet (para koyma)' if z >= 1 else '—'}")
+        res, bt, sd, z = artik(x)
+        print(f"   izleme    soya yağı (ZL=F) -> BG, ADM (1 gün)")
+        print(f"             ZL=F {x.iloc[-1] * 100:+.2f}%, SPY düzeltmesiyle {res * 100:+.2f}   (eşik +{sd * 100:.2f})   ->  {'İZLE: kâğıt üstünde kaydet (para koyma)' if z >= 1 else '—'}")
     except Exception as e:  # noqa: BLE001
         print("   soya yağı hesaplanamadı:", str(e)[:80])
 
