@@ -57,3 +57,14 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# 850 bin TL'yi büyütmek: gerçekçi yol haritası (22.11.2026)
+
+Klasör: `2026-11-22_sermaye-buyutme/`
+
+- `RAPOR.md`: Ana rapor. Kısa yanıt, somut adımlar, pasif getiri kıyas çizgisi, Kanada denklik bütçesi ve açık hesabı, üç senaryo, bütün seçeneklerin tablosu, doğrulama kapsamı, kaynaklar, devam notu.
+- `ek/`: Sekiz ajan defteri (pasif-kiyas, ticaret, ihale, kanada-meslek, dis-nis, aktif-bahis-risk, ndeb-butce, tr-hekim-gelir), dört doğrulama notu (`dogrulama_*.md`) ve eleştiri (`elestiri.md`).
+
+Yatırım tavsiyesi değildir.
