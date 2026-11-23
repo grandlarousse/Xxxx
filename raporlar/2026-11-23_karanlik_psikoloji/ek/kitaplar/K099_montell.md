@@ -17,7 +17,7 @@
 
 **Bilimsel dayanağı.** Kitap eski üyelerle görüşmelere, ikincil kaynaklara ve dilbilim ile sosyal psikolojiden seçilmiş kavramlara dayanır; kendi sistemli araştırması yoktur. Kavramların bir kısmı sağlam kökenlidir (Lifton, 1961; Cialdini'nin etki araştırmaları), ama kitap bunları anlatı içinde kullanır, sınamaz. Genel kanıt düzeyi: [popüler].
 
-**Karanlık psikoloji haritasındaki yeri.** Sevgi bombardımanı, yalıtma (dil yoluyla dış dünyadan kopma), sahte kıtlık ve geleceği sahteleme (MLM'lerin zenginlik vaatleri) taktiklerinin dildeki karşılıklarını gösterir. Lifton'un Thought Reform'undaki "yüklü dil" ölçütünü (önceki raporda) güncel örneklere taşır; Cialdini (önceki raporda) ve Hoffer'in Gerçek İnanan'ıyla da konuşur. Bu listede Stein'ın "sırlar ve dil" bölümünün popüler karşılığıdır.
+**Karanlık psikoloji haritasındaki yeri.** Sevgi bombardımanı, yalıtma (dil yoluyla dış dünyadan kopma), sahte kıtlık ve geleceği sahteleme (MLM'lerin zenginlik vaatleri) taktiklerinin dildeki karşılıklarını gösterir. Lifton'un Thought Reform'undaki "yüklü dil" ölçütünü (önceki raporda) güncel örneklere taşır; Cialdini (önceki raporda) ve Hoffer'in The True Believer'ıyla (önceki raporda) da konuşur. Bu listede Stein'ın "sırlar ve dil" bölümünün popüler karşılığıdır.
 
 **Eleştiri ve sınırlar.** Kirkus kitabı "büyüleyici" bulsa da okur ve kütüphaneci incelemelerinde sık rastlanan bir eleştiri, kitabın dilbilim ve araştırma bakımından çok hafif kaldığı, adının vaat ettiğinden çok tarikat hikâyeleri anlattığıdır. "Tarikatsı" kavramının bu kadar geniş kullanılması, gerçekten tehlikeli gruplarla zararsız toplulukları aynı düzleme koyma riski taşır. Örnekler ağırlıkla ABD'dendir.
 
