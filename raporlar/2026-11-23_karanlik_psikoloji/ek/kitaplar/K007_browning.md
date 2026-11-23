@@ -15,9 +15,9 @@
 - **8. Bir katliam üzerine düşünceler:** Adamların ilk katliama nasıl tepki verdiği.
 - **9. Łomazy: İkinci Bölük'ün çöküşü.**
 - **10. Treblinka'ya Ağustos sürgünleri.**
-- **11. Eylül 1942 sonu** (bölüm adının tam biçimi doğrulanmadı): yeni katliamlar.
+- **11. Eylül sonu kurşunlamaları** (Late September Shootings): yeni katliamlar.
 - **12. Sürgünler yeniden başlıyor.**
-- **13.** Taburdaki bir subayın ayrıksı tutumu üzerine (bölüm adı doğrulanmadı).
+- **13. Yüzbaşı Hoffmann'ın tuhaf sağlığı** (The Strange Health of Captain Hoffmann): taburdaki bir subayın ayrıksı tutumu üzerine.
 - **14. "Yahudi avı" (Judenjagd):** Saklanan Yahudilerin ormanlarda ve ahırlarda aranıp öldürülmesi.
 - **15. Son katliamlar: "Hasat Bayramı" (Erntefest):** Kasım 1943.
 - **16. Sonrası:** Savaş sonrası soruşturmalar ve yargılamalar.
@@ -33,7 +33,7 @@
 - **Alışma ve tırmanma.** İlk katliamdan sonra pek çok adam sarsıldı, kustu, ağladı. Ama sonraki operasyonlarda öldürme rutinleşti. Görev bölüşümü (bazıları toplar, bazıları çeker, başkaları ateş eder) ve yardımcı birliklerin kullanılması, psikolojik yükü azalttı.
 - **Farklı fail tipleri.** Browning taburda üç kabaca grup ayırt eder: öldürmeye istekli ve zamanla gönüllü olan bir çekirdek; emir geldiğinde katılan ama kendiliğinden girişimde bulunmayan çoğunluk; ve çeşitli yollarla öldürmekten kaçınan küçük bir azınlık (bu azınlığın oranı için verilen yüzde doğrulanmadı).
 - **Yahudi avı ve Hasat Bayramı.** 1942 sonbaharından 1943 baharına kadar tabur, saklanan Yahudileri bulup öldürdü. Kasım 1943'teki Erntefest operasyonu, savaşın en büyük tek Alman katliamıydı; Lublin bölgesindeki kamplarda on binlerce Yahudi öldürüldü.
-- **Sonuç bölümünün mesajı.** Son bölümde Browning, Milgram ve Zimbardo'nun deneyleri ile Adorno'nun otoriter kişilik kuramı gibi açıklamaları tartar (kapsamı doğrulanmadı). Vardığı yer şudur: bu adamlar sıradan insanlarsa, benzer koşullarda başka sıradan insanlar da aynısını yapabilir.
+- **Sonuç bölümünün mesajı.** Son bölümde Browning, Milgram ve Zimbardo'nun deneyleri ile Adorno'nun otoriter kişilik kuramı gibi açıklamaları tartar. Vardığı yer şudur: bu adamlar sıradan insanlarsa, benzer koşullarda başka sıradan insanlar da aynısını yapabilir.
 
 **Bilimsel dayanağı.** Kitap deneysel bir psikoloji çalışması değil, arşiv belgelerine dayanan bir tarih araştırmasıdır. Ana kaynağı, 1960'larda Hamburg savcılığının yürüttüğü soruşturmada tabur üyelerinden alınan ifadelerdir. Bu ifadeler değerli ama sorunludur: sanıklar kendilerini korumak için yalan söylemiş, küçültmüş ya da başkalarını suçlamış olabilir. Browning bu sınırı açıkça tartışır ve ifadeleri birbiriyle karşılaştırır. Psikolojik yorumu, Milgram'ın itaat deneylerine (1960'lar) ve Asch'ın uyma çalışmalarına dayanır. 2017 sonsözünde Browning, sonradan bulunan fotoğrafları ve başka polis taburları üzerine yapılan araştırmaları değerlendirerek temel yorumunu korur.
 Genel kanıt düzeyi: **[araştırma]** (birincil belgelere dayanan tarih araştırması; psikolojik yorum ise sonradan eklenen bir açıklama katmanıdır).

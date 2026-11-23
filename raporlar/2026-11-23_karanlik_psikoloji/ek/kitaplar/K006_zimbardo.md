@@ -1,23 +1,23 @@
 ## Philip Zimbardo — Şeytan Etkisi (The Lucifer Effect: Understanding How Good People Turn Evil, 2007)
 
-**Künye.** Philip G. Zimbardo (1933–2024), uzun yıllar Stanford Üniversitesi'nde ders vermiş Amerikalı bir sosyal psikologdur; 1971'deki Stanford Hapishane Deneyi'ni (Stanford Prison Experiment) yöneten kişi olarak tanınır. Kitabı deneyin hem yürütücüsü hem de savunucusu konumundan yazar. Özgün dili İngilizce; ilk yayın 27 Mart 2007, Random House (İngiltere'de Rider). Türkçe baskı: Şeytan Etkisi, yayınevi katalogda belirtilmemiş (kitapçı kataloğu). Not: Türkçe adı "Lucifer Etkisi" değil, katalogda "Şeytan Etkisi" olarak geçiyor. Hacim: yaklaşık 550 sayfa. Kitap 2008'de Amerikan Psikoloji Derneği'nin William James Kitap Ödülü'nü aldı.
+**Künye.** Philip G. Zimbardo (1933–2024), uzun yıllar Stanford Üniversitesi'nde ders vermiş Amerikalı bir sosyal psikologdur; 1971'deki Stanford Hapishane Deneyi'ni (Stanford Prison Experiment) yöneten kişi olarak tanınır. Kitabı deneyin hem yürütücüsü hem de savunucusu konumundan yazar. Özgün dili İngilizce; ilk yayın 27 Mart 2007, Random House (İngiltere'de Rider). Türkçe baskı: Şeytan Etkisi, Say Yayınları, 2015, çeviren Canan Coşkan, 816 sayfa (D&R kaydı). Not: Türkçe adı "Lucifer Etkisi" değil, katalogda "Şeytan Etkisi" olarak geçiyor. Hacim: yaklaşık 550 sayfa. Kitap 2008'de Amerikan Psikoloji Derneği'nin William James Kitap Ödülü'nü aldı.
 
 **Bir cümleyle.** İyi insanlar, kötü durumların ve o durumları yaratan sistemlerin içinde kötülük yapabilir; bu yüzden kötülüğü yalnızca "çürük elmalarda" değil, sepette ve sepeti yapanlarda aramak gerekir.
 
 **Bağlam.** Zimbardo, 1971 deneyini yıllarca makale ve belgesellerle anlatmıştı, ama ayrıntılı yazılı hikâyesini ilk kez bu kitapta verdi. Kitabı yazmaya iten olay, 2004'te ortaya çıkan Ebu Gureyb (Abu Ghraib) cezaevi işkence fotoğraflarıdır. Irak'taki bu Amerikan askeri cezaevinde 2003'te mahkûmlara yapılan aşağılamalar, Zimbardo'ya göre Stanford deneyinin gerçek hayatta tekrarıydı. Zimbardo, fotoğraflarda yer alan çavuşlardan Ivan "Chip" Frederick'in askeri mahkemesinde savunma tarafının uzman tanığı oldu. Kitap hem bir itiraf ve kendini açıklama metni, hem Amerikan ordusunun ve siyasi yönetimin sorumluluğuna dair bir iddianame, hem de geniş okura yazılmış bir sosyal psikoloji özetidir.
 
-**Yapısı.** Kitap 16 bölümden oluşur (Vikipedi'deki genel bakışa göre):
+**Yapısı.** Kitap 16 bölümden oluşur (Internet Archive kütüphane kaydındaki içindekiler; bölüm 1–11 ve 12'nin adı Vikipedi'deki genel bakışla da uyumlu):
 - **1. bölüm:** Kitabın adına konu olan Lucifer hikâyesi; kişilik eğilimleri (disposition), durum (situation) ve güç sistemlerinin (system) etkileşimiyle ahlaki dönüşüm.
 - **2.–9. bölümler:** Kitabın en büyük kısmı. Stanford deneyinin gün gün anlatımı; şimdiki zaman kipinde, deney kayıtlarından alınmış diyaloglar ve fotoğraflarla.
 - **10. bölüm:** Deneyde toplanan veriler ve Zimbardo'nun bunlardan çıkardığı anlam.
 - **11. bölüm:** Deneyin doğurduğu etik sorular.
 - **12.–13. bölümler:** Sosyal psikolojinin ilgili bulguları: Asch'ın uyma deneyleri, Milgram'ın itaat deneyleri, Bandura'nın ahlaki bağlantısızlık çalışmaları, Darley ve Latané'nin seyirci etkisi araştırmaları ve Zimbardo'nun kimliksizleşme (deindividuation) çalışmaları. 12. bölümün adı "Investigating Social Dynamics" ile başlar.
-- **14.–15. bölümler:** Ebu Gureyb; Frederick davası; Zimbardo'nun gözünden askeri ve siyasi komuta zincirinin sorumluluğu. (Bölüm adları doğrulanmadı.)
+- **14.–15. bölümler:** Ebu Gureyb; Frederick davası; Zimbardo'nun gözünden askeri ve siyasi komuta zincirinin sorumluluğu. Bölüm adları "Abu Ghraib's Abuses and Tortures" ve "Putting the System on Trial: Command Complicity".
 - **16. bölüm:** Kahramanlık. Ebu Gureyb'i ihbar eden asker Joe Darby ve deneyi durdurmasını sağlayan yüksek lisans öğrencisi Christina Maslach örnekleri; olumsuz durumsal etkilere direnmek için öneriler.
 
 **Ana fikirler.**
 - **Kişi, durum, sistem.** Zimbardo kötülüğü üç düzeyde açıklar. Kişi düzeyi bireyin özellikleridir; durum düzeyi o anki ortamdır (rol, üniforma, grup); sistem düzeyi ise durumu yaratan ve sürdüren kurumlar, yasalar ve liderlerdir. Ona göre psikoloji ve hukuk genellikle yalnızca ilk düzeye bakar.
-- **Çürük elma değil, çürük sepet.** Ebu Gureyb'den sonra Amerikan yönetimi olayı birkaç "çürük elma"ya bağladı. Zimbardo buna karşı çıkar: sorun sepetin kendisi, hatta sepeti yapanlardır. Bu imge kitabın merkezindedir (ifadenin birebir biçimi doğrulanmadı).
+- **Çürük elma değil, çürük sepet.** Ebu Gureyb'den sonra Amerikan yönetimi olayı birkaç "çürük elma"ya bağladı. Zimbardo buna karşı çıkar: sorun sepetin kendisi, hatta sepeti yapanlardır. Bu imge ("bad barrel") kitabın merkezindedir.
 - **Stanford Hapishane Deneyi.** Gönüllü üniversite öğrencileri rastgele gardiyan ve mahkûm olarak ayrıldı; Stanford'un bodrum katında sahte bir hapishane kuruldu. Zimbardo'nun anlatımına göre gardiyanların bir kısmı kısa sürede aşağılayıcı ve zalim davranmaya başladı, mahkûmların bir kısmı çöktü. Deney altı gün sonra durduruldu.
 - **Rollerin gücü.** Üniforma, güneş gözlüğü, numara ve unvan, kişinin kendi kimliğini geri plana iter. Zimbardo'ya göre insanlar kendilerine verilen role şaşırtıcı hızla uyum sağlar; bu da sıradan birinin zalimleşmesini kolaylaştırır.
 - **Kimliksizleşme ve insandışılaştırma.** Kalabalık, maske ya da üniforma içinde kaybolan kişi kişisel sorumluluk hissini yitirir. Kurban numarayla, lakapla, hayvan benzetmesiyle anıldıkça ona zarar vermek kolaylaşır.

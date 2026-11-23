@@ -1,6 +1,6 @@
 ## Simon Baron-Cohen — Kötülüğün Anatomisi (Zero Degrees of Empathy: A New Theory of Human Cruelty, 2011)
 
-**Künye.** Simon Baron-Cohen, Cambridge Üniversitesi'nde gelişimsel psikopatoloji profesörü ve üniversitenin Otizm Araştırma Merkezi'nin (Autism Research Centre) müdürüdür; klinik psikolog olarak yetişmiştir ve 40 yılı aşkın süredir otizm üzerine çalışır. Özgün dil İngilizce; ilk yayın 2011, Birleşik Krallık'ta Allen Lane (Penguin). ABD'de aynı yıl The Science of Evil adıyla çıktı (ABD alt başlığı ve yayınevi Basic Books bellekten, doğrulanmadı). Türkçe baskı: Kötülüğün Anatomisi (kitapçı kataloğu; yayınevi katalogda görünmüyor). Yaklaşık 208 sayfa (ilk İngiliz baskısı), 6 bölüm ve 2 ek.
+**Künye.** Simon Baron-Cohen, Cambridge Üniversitesi'nde gelişimsel psikopatoloji profesörü ve üniversitenin Otizm Araştırma Merkezi'nin (Autism Research Centre) müdürüdür; klinik psikolog olarak yetişmiştir ve 40 yılı aşkın süredir otizm üzerine çalışır. Özgün dil İngilizce; ilk yayın 2011, Birleşik Krallık'ta Allen Lane (Penguin). ABD'de aynı yıl Basic Books'tan The Science of Evil: On Empathy and the Origins of Cruelty adıyla çıktı. Türkçe baskı: Kötülüğün Anatomisi, Say Yayınları, 2016, çeviren Tuna Tezgel, 248 sayfa (D&R kaydı). Yaklaşık 208 sayfa (ilk İngiliz baskısı), 6 bölüm ve 2 ek.
 
 **Bir cümleyle.** "Kötülük" kavramını bırakıp yerine ölçülebilir bir şey koymalıyız: insan zulmünün büyük kısmı, kalıcı ya da geçici olarak aşınmış empatiyle açıklanabilir.
 
@@ -9,7 +9,7 @@
 **Yapısı.** Altı bölüm ve iki ek:
 
 1. *"Kötülüğü" ve insan zulmünü açıklamak.* "Kötülük" yerine "empati erozyonu" kavramının önerilmesi.
-2. *Empati mekanizması: çan eğrisi.* Empatinin nüfusta normal dağıldığı ve 0'dan 6'ya kadar derecelendirilebileceği fikri (derece sayısı bellekten, doğrulanmadı); empatiyle ilişkili beyin bölgeleri, yani "empati devresi".
+2. *Empati mekanizması: çan eğrisi.* Empatinin nüfusta normal dağıldığı ve 0'dan 6'ya kadar derecelendirilebileceği fikri (altıdan sıfıra derece); empatiyle ilişkili beyin bölgeleri, yani "empati devresi".
 3. *Sıfır derece empati olumsuz olduğunda.* Sıfır-olumsuz grubun üç türü: P (psikopati), B (sınırda kişilik), N (narsisizm).
 4. *Sıfır derece empati olumlu olduğunda.* Otizm spektrumu: düşük empati ama güçlü sistemleştirme ve yüksek ahlaki dürüstlük.
 5. *Empati geni.* Genler, doğum öncesi hormonlar ve erken bakımın empatiye etkisi.
