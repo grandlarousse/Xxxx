@@ -1,0 +1,24 @@
+## Sam Vaknin — Malignant Self-Love: Narcissism Revisited (Malignant Self-Love: Narcissism Revisited, 1999)
+
+**Künye.** Sam (Shmuel) Vaknin 1961 doğumlu İsrailli bir yazardır; psikoloji ya da psikiyatri alanında klinik eğitimi ve lisansı yoktur. 1980'lerde uzaktan eğitim veren Pacific Western University'de fizik konulu ("zamanın asimetrisi") bir doktora tezi yazmıştır. Kendisi narsisistik kişilik bozukluğu tanısı aldığını söyler ve kitabı "içeriden" bir tanık olarak yazar. Özgün dil İngilizce. Kitap önce internette ve elektronik sürümlerde dolaştı; basılı ilk baskı 1999'da, yazarın eşi Lidija Rangelovska ile kurduğu Narcissus Publications'tan çıktı (künyede "3. baskı, 1. basılı baskı" diye geçer). Sonraki yıllarda genişletilmiş baskıları yayımlandı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim baskıya göre değişir: 1999 baskısı 438, Goodreads'teki genişletilmiş baskı 680 sayfa.
+
+**Bir cümleyle.** Narsisist içi boş bir "sahte benlik" taşır ve bu boşluğu başkalarından gelen ilgi ile hayranlıkla, yani "narsisistik arz" ile doldurmak zorundadır; çevresindekiler bu ihtiyacın bedelini öder.
+
+**Bağlam.** Vaknin 1995'te İsrail'de menkul kıymet dolandırıcılığından mahkûm oldu ve kitabı cezaevinde yazmaya başladı. Tahliye olduktan sonra Makedonya'ya yerleşti, internet forumlarında binlerce narsisist ve "kurban" ile yazıştı. Kitap bu forumların sorularından doğdu; hedef okur, narsisistik bir yakınla yaşayan ve yaşadığına ad koymak isteyen sıradan insandır.
+
+**Yapısı.** Yayıncı tanıtımına göre kitabın ilk kısmı, istismarcı narsisistlerle ilişkiler ve narsisistik kişilik bozukluğu üzerine 100'ü aşkın "Sıkça Sorulan Soru"dan (SSS) oluşur. Kalan kısım, yazarın deneme ve yazışmalarından oluşan uzun bir derlemedir (bölüm sayısı ve adları doğrulanmadı). Tek bir anlatı çizgisi yoktur; okur sorudan soruya atlayabilir.
+
+**Ana fikirler.**
+- **Sahte benlik.** Vaknin'e göre narsisistin gerçek benliği çocuklukta körelmiştir; yerine sevemeyen ve empati kuramayan bir "sahte benlik" geçer. Dışarıdaki görkemli imaj bu boşluğun vitrinidir.
+- **Narsisistik arz.** Kitabın en yayılan kavramıdır. Vaknin "birincil arz" (yabancılardan, iş arkadaşlarından gelen ilgi) ile "ikincil arz" (eş, ebeveyn, çocuk gibi kişisel imajı besleyen yakınlar) arasında ayrım yapar. Kavramı Vaknin icat etmedi: psikanalist Otto Fenichel 1938'de ortaya atmıştı. Vaknin onu gündelik dile taşıdı.
+- **Çocuk bir arz kaynağıdır.** Vaknin çocukları "narsisistik arzın nihai kaynağı" olarak görür. Narsisistik ebeveyn çocuğu kendi düşlerini gerçekleştirecek bir araca dönüştürür (bkz. Golomb).
+- **İdealize et, değersizleştir, at.** Arz kaynağı yeni ve parlakken yüceltilir, ilgisi azalınca küçümsenir ve bir yenisi bulununca bırakılır. Bugün internetteki "narsisistik istismar" anlatısının çekirdeğini oluşturan bu döngü, kitapta erken ve ayrıntılı biçimde betimlenir (terim adının kitaptaki birebir biçimi doğrulanmadı).
+- **Bulaşıcılık iddiası.** Yazar narsisizmin, onunla her gün temas eden insanları da değiştirdiğini ve "yirminci yüzyılın zihinsel salgını" olduğunu öne sürer.
+
+**Bilimsel dayanağı.** Kitap esas olarak yazarın kendi deneyimine, internet yazışmalarına ve klinik literatürün kişisel okumasına dayanır; sistemli bir araştırma ya da klinik örneklem yoktur. "Salgın" iddiası da tartışmalıdır: Twenge ve Campbell (2009) narsisizmin arttığını savunsa da Wetzel ve arkadaşlarının (2017) geniş örneklemli çalışması üniversite öğrencilerinde artış değil hafif düşüş buldu (bellekten, doğrulanmadı). [popüler]
+
+**Karanlık psikoloji haritasındaki yeri.** Rehberdeki **idealize et–değersizleştir–terk et döngüsü**, **vakumlama** (bırakılan kaynağı geri çekme), **sessiz muamele** ve **travma bağı** gibi taktik adlarının yaygınlaşmasında öncü bir metindir; **büyüklenmeci narsisizm**i içeriden anlatır. Ronningstam'ın klinik ve değişime açık tablosuyla çelişir; Dombek'in eleştirdiği "boş narsisist" imgesinin kaynaklarından biridir. Greene'in *48 Laws of Power* kitabındaki (önceki raporda) kendini vazgeçilmez kılma ve ilgi çekme yasaları, Vaknin'in arz arayan narsisistinde karanlık bir yansıma bulur.
+
+**Eleştiri ve sınırlar.** En büyük sorun yazarın konumudur: klinik eğitimi yoktur, dolandırıcılıktan mahkûm olmuştur ve "kendini teşhis etmiş narsisist" kimliği hem çekiciliği hem pazarlama aracıdır. Vikipedi onu NPD konusunda kamuoyu farkındalığını artıran kişi olarak anar, ama akademik literatürde başvuru kaynağı sayılmaz. Dombek (2016) kitabında Vaknin'in yarattığı söylemi eleştirel biçimde inceler. Metin tekrarlı, dağınık ve ağır bir dille yazılmıştır.
+
+**Kimler okumalı.** Narsisistik istismar söyleminin nereden geldiğini anlamak isteyen okur; bilimsel kaynak olarak değil, bir tanıklık ve tarih belgesi olarak. Uyarı: İstismar yaşamış okur için sarsıcı olabilir; "her narsist böyledir" genellemesine ve yakınına tanı koymaya karşı dikkatli olun.

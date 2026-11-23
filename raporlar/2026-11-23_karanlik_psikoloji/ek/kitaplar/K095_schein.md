@@ -1,0 +1,24 @@
+## Edgar H. Schein, Inge Schneier ve Curtis H. Barker — Coercive Persuasion (Coercive Persuasion: A Socio-Psychological Analysis of the "Brainwashing" of American Civilian Prisoners by the Chinese Communists, 1961)
+
+**Künye.** Edgar H. Schein (1928–2023), İsviçre doğumlu Amerikalı sosyal psikolog; Harvard'da sosyal psikoloji doktorası yaptı, uzun yıllar MIT Sloan İşletme Okulu'nda profesördü ve sonradan örgüt kültürü kuramıyla tanındı. Özgün dil İngilizce; ilk yayın 1961, W. W. Norton (New York). Türkçe baskısı kitapçı kataloglarında görünmüyor (katalogdaki Schein kitapları örgüt kültürü ve yönetim üzerinedir). Hacim: yaklaşık 320 sayfa.
+
+**Bir cümleyle.** Çin'deki "beyin yıkama" gizemli bir zihin tekniği değil, kişinin eski kimliğini dayanaksız bırakan, yerine grubun onayladığı inançları koyan ve bunu sosyal destekle sabitleyen, adım adım çözümlenebilen bir zorlayıcı ikna sürecidir.
+
+**Bağlam.** 1950'lerde Kore Savaşı esirlerinin "beyin yıkandığı" haberleri Batı'da büyük korku yarattı. Schein, Çin hapishanelerinde "düşünce reformuna" (thought reform) tabi tutulup serbest bırakılan Batılı sivillerle görüşmeler yaptı. Amaç, sansasyonel "beyin yıkama" imgesinin yerine sosyal psikolojinin kavramlarıyla açıklanabilir bir model koymaktı. Kitap akademik okura yazıldı.
+
+**Yapısı.** Kitap 11 bölümden oluşur. İlk üç bölüm tarihsel çerçeveyi kurar: Çin Komünist Partisi'nde ikna geleneği, iktidara geldikten sonraki düşünce reformu ve "oybirliği tutkusu". Ortadaki bölümler kitabın çekirdeğidir: zorlayıcı iknanın sosyo-psikolojik modeli, suçluluğun özel rolü ve tutsaklar üzerindeki etkiler. Son bölümler bu etkileri stres, öğrenme, psikanaliz ve sosyal psikoloji kuramlarıyla tartışır, inancın ritüelleşmesini ele alır ve komünist olmayan ortamlarla (örneğin kurumlar) benzerlikleri gösterir.
+
+**Ana fikirler.**
+- **Çözme, değiştirme, yeniden dondurma.** Schein, Kurt Lewin'in değişim modelini zorla ikna sürecine uyguladı. Önce kişinin eski benlik algısı sarsılır ve dayanaksız kalır (çözme, unfreezing); sonra yeni inançlar benimsetilir (değiştirme); en sonunda bu inançlar yeni bir sosyal çevreyle desteklenip kalıcılaştırılır (yeniden dondurma, refreezing).
+- **Suçluluk motorun yakıtıdır.** Tutsaklardan sürekli itiraf ve öz-eleştiri istenir. Kişi gerçek ya da hayalî "suçlarını" yazdıkça kendi geçmişine güvenini yitirir; suçluluk duygusu yeniden yapılanmanın kaldıracı olur.
+- **Grup baskısı tekil işkenceden daha etkilidir.** Hücre arkadaşları da reform sürecindedir; onların eleştirisi, onayı ve dışlaması kişinin davranışını biçimlendirir. Kişiyi eski destek ağından koparmak (yalıtma) sürecin ön koşuludur.
+- **Etkiler sınırlıdır ve çoğu zaman geçicidir.** Kitaptaki temel bulgulardan biri, köklü ve kalıcı inanç değişiminin az sayıda kişide görülmesidir. Görünen uyumun önemli bölümü hayatta kalma davranışıdır; kişi özgür ortama döndüğünde değişim genellikle geriler.
+- **Süreç komünizme özgü değildir.** Son bölüm, benzer mekanizmaların manastırlarda, askerî eğitimde, ıslahevlerinde ve şirketlerin kurumsal sosyalleşmesinde de işlediğini öne sürer.
+
+**Bilimsel dayanağı.** Kitap, serbest bırakılmış tutsaklarla yapılmış nitel görüşmelere ve dönemin sosyal psikoloji kuramlarına dayanır (görüşülen kişi sayısı: doğrulanmadı). Deneysel değildir ama sistemli bir saha çalışmasıdır. Aynı dönemde Robert J. Lifton da benzer sonuca ulaştı (Thought Reform, 1961); Vikipedi'deki özetlere göre iki çalışma da beyin yıkamanın etkisini geçici buldu. Vikipedi, kitabın araştırmasının CIA'nın MK-Ultra programı kapsamında finanse edildiğini ve Schein'ın bunu bilmediğini sonradan söylediğini yazar (birincil kaynakta görülmedi). Genel kanıt düzeyi: [araştırma].
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap, zorlayıcı denetim, yalıtma ve suçluluk yükleme taktiklerinin klasik akademik çözümlemesidir; itirafın kademeli büyütülmesi kapıya ayak sokma tekniğiyle de örtüşür. Lifton'un Thought Reform'u (önceki raporda) ile ikiz kitaptır. Bu listede Sargant'ın fizyolojik açıklamasına sosyal psikolojik bir alternatif sunar; Lalich'in "sınırlı seçim" ve Stein'ın bağlanma modeli doğrudan bu çizgiden gelir.
+
+**Eleştiri ve sınırlar.** Örneklem küçük ve seçilmiştir: yalnızca serbest bırakılan, Batı'ya dönen ve konuşmayı kabul eden kişiler. Kuram, hapishane gibi fiziksel olarak kapalı ortamlar için kurulmuştu; onu gönüllü katılımın olduğu dinî gruplara aktarmak, sonraki "beyin yıkama tartışmasının" ana sorunu oldu (bkz. Barker). Araştırmanın CIA ile ilişkilendirilen finansmanı da etik tartışma konusudur. Modelin bugünkü ünü daha çok yönetim ve değişim yönetimi literatüründedir.
+
+**Kimler okumalı.** Beyin yıkama kavramının akademik kökenini görmek isteyen ve sansasyonel anlatılarla bilimsel çözümlemeyi ayırmak isteyen okur. Dil ağırdır ve dönemin kuramlarına dayanır; giriş için önce Lifton ya da Lalich okunabilir.

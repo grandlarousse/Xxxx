@@ -1,0 +1,24 @@
+## Shahida Arabi — Power: Surviving and Thriving After Narcissistic Abuse (Power: Surviving and Thriving After Narcissistic Abuse, 2017)
+
+**Künye.** Shahida Arabi, narsisistik istismar (narcissistic abuse) üzerine yazdığı çevrimiçi yazılarla tanınan Amerikalı bir yazardır. Klinisyen değildir; kendi yaşadıklarından ve okuduğu araştırmalardan yola çıkarak yazar (eğitim geçmişi: doğrulanmadı). Özgün dili İngilizce. İlk yayın 11 Ocak 2017, Thought Catalog Books. Yaklaşık 350 sayfa (e-kitap). Türkçe baskısı kitapçı kataloglarında görünmüyor. Katalogdaki "Narsist ve Psikopatlarla Travma Bağlarını Koparmak" bu kitabın değil, yazarın 2023 tarihli *Breaking Trauma Bonds with Narcissists and Psychopaths* adlı kitabının çevirisi olmalı. "Narsistle Mücadele Rehberi"nin hangi kitabın çevirisi olduğu belirlenemedi (doğrulanmadı).
+
+**Bir cümleyle.** Narsisistik özellikler gösteren biriyle yaşanan ilişkinin bıraktığı yara gerçek bir travmadır; kurtulan kişi bu travmayı anlayıp adlandırarak gücünü geri alabilir.
+
+**Bağlam.** Arabi, ilk kitabı *Becoming the Narcissist's Nightmare* (2016; künyesi bellekten) ile kurtulanlar arasında tanınmıştı. *Power*, çok okunan blog yazılarını yeni denemelerle bir araya getirir. Hedef kitle akademisyenler değil, istismar sonrası kafası karışmış, ne yaşadığını adlandırmaya çalışan okurdur. Kitap, sosyal medyada büyüyen "narsisistik istismar" topluluğunun temel metinlerinden biri olmuştur.
+
+**Yapısı.** Kitap bir deneme derlemesidir: yazarın en popüler makaleleri ve yeni yazılar art arda gelir. Tanıtım metnine göre başlıca konular şunlardır: istismarcıya duyulan "bağımlılığı" iyileştirmek, örtük (covert) narsisizmi tanımak, terapistlerin bu konuda söyledikleri ve narsisistik ebeveynlerin çocuklarının travma tekrarı döngüsüne nasıl sıkıştığı. Bölüm sayısı ve adları doğrulanamadı.
+
+**Ana fikirler.**
+- **İstismar döngüsü.** Arabi ilişkiyi sevgi bombardımanı (love-bombing, başta aşırı ilgi ve övgü) ile değersizleştirme arasında gidip gelen bir döngü olarak anlatır. Tanıtım metni bunu "psychological violence on steroids" diye tanımlar. Bu, idealize et–değersizleştir–terk et döngüsünün popüler anlatımıdır.
+- **Taktiklerin adlandırılması.** Kitap üçgenleme (triangulation, üçüncü bir kişiyi kıskançlık ya da kıyas aracı yapmak), gaslighting (kişiyi kendi algısından şüphe ettirmek), yansıtma (projection) ve örtük aşağılamaları tek tek anlatır. Amaç, okurun yaşadığını adlandırabilmesidir.
+- **Bağımlılık benzetmesi.** Arabi, kurbanın istismarcıya bağlanmasını bir bağımlılığa benzetir. Aralıklı pekiştirme (intermittent reinforcement, ödülün öngörülemez gelmesi) ve travma bağı bu bağın kaynağı olarak gösterilir. İyileşme bir "yoksunluk" sürecidir.
+- **Çocukluk ve tekrar.** Narsisistik özellikler gösteren ebeveynlerle büyüyenlerin yetişkinlikte benzer ilişkilere girebildiğini savunur. Bu, kitabın en kişisel ve en tartışmaya açık kısmıdır.
+- **Kurtulandan "gelişene".** Kitabın adı buradan gelir: amaç yalnızca ayakta kalmak değil, sınır koymak, temas kesmek (no contact) ve hayatı yeniden kurmaktır.
+
+**Bilimsel dayanağı.** Kitap kişisel deneyime, okur mektuplarına ve araştırmalara yapılan seçici göndermelere dayanır. Travma bağı kavramı psikologlar Donald Dutton ve Susan Painter'ın 1980'lerdeki çalışmalarına dayanır; ancak onların konusu genel olarak istismarcı ilişkilerdir, "narsist" etiketi değil. "Narsisistik istismar" terimi DSM'de bir tanı ya da üzerinde uzlaşılmış bir araştırma kavramı değildir. Partner istismarı araştırmaları (örneğin Stark 2007, zorlayıcı denetim; bellekten) kişilik etiketinden çok davranış örüntüsüne bakar. Kanıt düzeyi: [popüler]
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap rehberdeki sevgi bombardımanı, idealize et–değersizleştir–terk et döngüsü, aralıklı pekiştirme, travma bağı, üçgenleme, gaslighting ve temas kesme başlıklarının doğrudan popüler kaynağıdır. Büyüklenmeci ve kırılgan narsisizm ayrımını "açık" ve "örtük" narsist diliyle karşılar. Bu listede Sarkis ve Bouchoux ile, önceki raporda George K. Simon'ın *In Sheep's Clothing* kitabıyla (önceki raporda) konuşur. Greene'in *The Art of Seduction* kitabındaki (önceki raporda) baştan çıkarma ve geri çekilme ritmine kurbanın tarafından verilmiş bir yanıt gibi okunabilir.
+
+**Eleştiri ve sınırlar.** Okurlar kitabı çok sever (Goodreads'te 4,41 ortalama, 1.106 oy). Ama kitap bir deneme derlemesi olduğu için tekrar içerir ve sistematik değildir. Asıl sorun, eşi ya da ebeveyni uzaktan "narsist" diye tanımlamayı kolaylaştırmasıdır. Kanıt sunuluşu seçicidir ve kitap hakemli ya da bağımsız eleştiri almamıştır (bulunabilen büyük bir eleştiri yok).
+
+**Kimler okumalı.** İstismarcı bir ilişkiden çıkmış ve yaşadığını adlandırmakta zorlanan okur için teselli edici ve yönlendirici bir başlangıçtır. Uyarı: kitap kişiye tanı koyma aracı değildir; ağır belirtilerde bir ruh sağlığı uzmanına başvurulmalıdır.

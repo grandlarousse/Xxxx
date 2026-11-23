@@ -1,0 +1,24 @@
+## Abigail Marsh — The Fear Factor (The Fear Factor: How One Emotion Connects Altruists, Psychopaths, and Everyone In-Between, 2017)
+
+**Künye.** Abigail Marsh, Georgetown Üniversitesi'nde psikoloji ve sinirbilim profesörü. Aynı yerde Sosyal ve Duygusal Sinirbilim Laboratuvarı'nı yönetiyor. Kitabı kendi laboratuvarının araştırmacısı olarak yazıyor. Özgün dili İngilizce. İlk kez Ekim 2017'de Basic Books yayımladı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Yaklaşık 300 sayfa.
+
+**Bir cümleyle.** Başkasının korkusunu fark edip ona duyarlı olma yeteneği bir yelpaze oluşturur. Bu yelpazenin bir ucunda psikopatik özellikli insanlar, öbür ucunda tanımadığı birine böbreğini veren aşırı özgeciler (fedakâr insanlar) durur.
+
+**Bağlam.** Marsh gençken otoyolda arabası kontrolden çıkmış, tanımadığı bir adam trafiğin ortasına koşup onu kurtarmıştı. Kitap bu anıyla açılır ve "Bir yabancı neden kendini tehlikeye atar?" sorusunu sorar. Yazar, NIMH'deki doktora sonrası yıllarından başlayarak yaptığı çalışmaları genel okura aktarır. Kitap, insan doğasının özünde bencil olduğu görüşüne karşı yazılmıştır.
+
+**Yapısı.** Kitap kişisel bir kurtarılma öyküsüyle başlar. Ardından psikopatik özellikli çocuklar ve gençlerle yapılan çalışmalara geçer. Sonra "The Other Side of the Curve" (Eğrinin Öbür Ucu) başlıklı bölümde aşırı özgeciler ele alınır. Kitap "Can We Be Better?" (Daha İyi Olabilir miyiz?) bölümüyle kapanır. Bölüm sayısı ve öteki bölüm adları doğrulanmadı.
+
+**Ana fikirler.**
+- *Korkuyu tanıma bir ahlak anahtarıdır.* Marsh'ın çalışmalarına göre psikopatik özellikli kişiler başkalarının korkmuş yüzlerini tanımakta zorlanıyor. Korkuyu fark edemeyen kişi, karşısındakinin acısından caydırıcı bir sinyal almaz. Bu yüzden ona zarar vermek kolaylaşır.
+- *Amigdala ortak düğümdür.* Amigdala, beyinde duyguları ve özellikle korkuyu işleyen bölgedir. Duygusuz-soğuk özellikleri (callous-unemotional traits) olan gençlerde amigdala korkmuş yüzlere daha zayıf tepki veriyor. Böbrek bağışçılarında ise tersi görülüyor.
+- *Aşırı özgeciler korkusuz değildir.* Marsh'ın ekibi, tanımadığı birine böbrek veren kişileri inceledi. Bu kişilerin amigdalası korkmuş yüzlere daha güçlü tepki veriyordu. Sağ amigdalaları da ortalamadan yaklaşık %8 büyüktü (ikincil kaynaktan). Yani kahramanlık korkuya kayıtsızlıktan değil, başkasının korkusuna aşırı duyarlılıktan doğuyor.
+- *Psikopati gelişimsel bir bozukluktur.* Marsh, psikopatik özelliklerin çocuklukta görülebildiğini vurgular. Erken tanı ve ailelerle çalışmanın önemine dikkat çeker. Psikopatik çocukları "kötü tohum" diye damgalamaya karşı çıkar.
+- *Yelpaze herkesi kapsar.* Çoğu insan iki ucun arasındadır. Kitabın son bölümü, özgeciliği artırmanın yollarını tartışır. Bunlar arasında başkasının durumunu görünür kılmak ve "insanlar bencildir" varsayımını sorgulamak var.
+
+**Bilimsel dayanağı.** Kitap büyük ölçüde yazarın hakemli dergilerde yayımlanmış deneylerine dayanır. Aşırı özgecilerle ilgili ana çalışma Marsh ve arkadaşlarının 2014'te PNAS'ta yayımladığı makaledir. Psikopatide korku tanıma eksikliği için Marsh ve Blair'in 2008 tarihli meta-analizi temel kaynaktır (bellekten). Ancak aykırı bulgular da var. Dawel ve arkadaşlarının 2012 meta-analizine göre psikopatideki eksiklik yalnızca korkuya özgü değil, başka duygulara da yayılıyor olabilir (bellekten, doğrulanmadı). Böbrek bağışçısı örneklemleri küçüktür. Beyin görüntüleme bulgularının tekrar edilebilirliği de genel olarak tartışmalıdır. Kanıt düzeyi: [araştırma].
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap doğrudan psikopati ve duygusuz-soğuk özellikler kavramlarıyla ilgilidir. Ayrıca Üçlü Model'in (gözü peklik, acımasızlık, ketlenmezlik) "acımasızlık" boyutunun nörolojik tarafını anlatır. Babiak ve Hare'in *Snakes in Suits* kitabındaki (önceki raporda) iş yerindeki yüzeysel çekiciliği açıklamaz, ama o çekiciliğin altındaki empati eksikliğinin biyolojik bir açıklamasını önerir. Bu listedeki Fallon'un kitabıyla doğrudan konuşur. İkisi de beyne bakar, ama Marsh grup verisine dayanır, Fallon ise tek bir kişisel taramaya. Kitap Greene'in "kalbin yerine aklı koy" tarzı soğukkanlılık öğütlerine dolaylı bir karşılık sayılabilir: İnsanın varsayılan hali bencillik değildir.
+
+**Eleştiri ve sınırlar.** PopMatters incelemesine göre kitabın büyük kısmı vaka anlatıları ve bulgu analizlerinden oluşuyor ve yer yer kuru kalabiliyor. Kitap yazarın kendi laboratuvarını ön plana çıkarıyor. Rakip açıklamalara ise daha az yer veriyor. Amigdalanın boyutu ya da tepkisi tek başına davranışı açıklamaz. Bu bulgular grup ortalamalarıdır, tek tek insanlar için tanı aracı olamaz.
+
+**Kimler okumalı.** Psikopatiyi magazin dilinden kurtulup laboratuvar bulgularıyla anlamak isteyen okur için iyi bir başlangıç. Uyarı: "Korkumu anlamıyor, demek ki psikopat" gibi bir çıkarımla yakınlarınıza tanı koymayın. Kitaptaki ölçümler bireysel tanı için tasarlanmamıştır.

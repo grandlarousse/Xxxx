@@ -1,0 +1,24 @@
+## Ramani Durvasula — "Don't You Know Who I Am?" ("Don't You Know Who I Am?": How to Stay Sane in an Era of Narcissism, Entitlement, and Incivility, 2019)
+
+**Künye.** Ramani Durvasula (d. 1965) Amerikalı bir klinik psikologdur; doktorasını UCLA'da klinik psikoloji alanında yaptı, California State University, Los Angeles'ta psikoloji profesörü oldu (bugün emekli) ve Santa Monica'da muayenehanesi vardır. "DoctorRamani" adlı YouTube kanalıyla narsisistik istismar konusunda en tanınan medya seslerinden biridir. Özgün dil İngilizce; ilk yayın 1 Ekim 2019, Post Hill Press (ciltli). Türkçe baskısı kitapçı kataloglarında görünmüyor (katalogdaki *Bozuk Ayna – Narsist Bireyleri Tanımak ve Kendi...* adlı kitap, alt başlığına bakılırsa yazarın 2024 tarihli *It's Not You* kitabının çevirisidir). Hacim: yaklaşık 400 sayfa (Goodreads, ciltli baskı).
+
+**Bir cümleyle.** Narsisizm, hak görme (entitlement) ve kabalık (incivility) kişisel ve toplumsal düzeyde patolojik bir güvensizliğin belirtileridir; toplum bunları ödüllendirdiği için okur, zararlı insanlara karşı zihninin ve bedeninin "kapı bekçisi" olmayı öğrenmelidir.
+
+**Bağlam.** Kitap, ABD'de siyasette, ünlüler dünyasında ve sosyal medyada büyüklenmeci ve kaba davranışın görünür biçimde arttığı düşünülen 2010'ların sonunda yazıldı. Başlıktaki "Beni tanımıyor musun?" cümlesi, ayrıcalık bekleyen ünlünün ve modern narsisistin sloganı olarak seçildi. Durvasula, 2015'teki *Should I Stay or Should I Go?* kitabının ilişki odağını toplum ölçeğine genişletti.
+
+**Yapısı.** Kitabın bölüm yapısı bu oturumda doğrulanamadı. Yayıncı tanıtımı ve okur yorumları, önce narsisizm, hak görme ve kabalığın tanımlandığı, ardından aile, iş, romantik ilişki ve toplum gibi alanlarda bu davranışların ele alındığı ve son olarak başa çıkma yollarının sunulduğu bir düzene işaret eder (doğrulanmadı). Bir Goodreads okuru bölümlerin baştan sona okunduğunda tekrarlı geldiğini, ilgili bölüme atlamanın daha yararlı olduğunu yazar.
+
+**Ana fikirler.**
+- **Üç belirti, bir kök.** Narsisizm, hak görme ve kabalık ayrı sorunlar değil, aynı güvensizliğin farklı yüzleridir. Hak görme "kurallar benim için değil" duygusu, kabalık ise bunun gündelik ilişkilerdeki yansımasıdır.
+- **Toksik insanlar bir sağlık riskidir.** Sağlık kampanyaları sigaradan ve hareketsizlikten kaçınmayı öğütler ama zararlı insanlardan uzak durmayı nadiren söyler. Durvasula, bu insanları hayattan çıkarmanın sağlığa yararının büyük olabileceğini savunur.
+- **Değer verdiğimiz şey bizi hasta ediyor.** Medya, sosyal medya ve tüketim kültürü bu davranışları ödüllendirir; bu yüzden karşısındaki kişi kendinden şüphe eder, kaygı ve "yeterli olmama" duygusu yaşar.
+- **Umut yanılsaması.** Kişinin değişeceği beklentisi ve "kurtuluş fantezisi" yıllarca ikinci şans verilmesine yol açar. Durvasula'nın genel çizgisi, narsisistik örüntülerin kalıcı olduğu ve beklentinin buna göre ayarlanması gerektiğidir.
+- **Kapı bekçiliği.** Sınır koymak, mesafe almak ve gerekirse ilişkiyi bitirmek önerilir; bu, rehberdeki gri kaya ve temas kesme tekniklerine yakındır.
+
+**Bilimsel dayanağı.** Durvasula lisanslı bir klinisyen ve akademisyendir; kitap klinik deneyimine ve psikoloji literatürüne dayanır, ama popüler bir öz yardım kitabıdır ve sistemli veri sunmaz. Toplumda narsisizmin arttığı iddiası tartışmalıdır: Twenge ve Campbell (2009) artış savunurken Wetzel ve arkadaşları (2017) gençlerde artış bulmadı (bellekten, doğrulanmadı). "Narsisistler değişmez" görüşü ise Ronningstam'ın (2005) değişim bulgularıyla gerilim içindedir. [klinik]
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap rehberdeki **büyüklenmeci narsisizm**, **ahlaki bağlantısızlık** (kuralları kendine uygulamama) ve **kırıntı verme** ile **aralıklı pekiştirme** üzerinden süren "umut" bağıyla ilgilidir; korunmada **gri kaya** ve **temas kesme** önerilerine yaklaşır. Burgo'nun tip temelli yaklaşımıyla konuşur; Dombek'in "narsisizm korkusu" eleştirisinin hedef aldığı söylemin önde gelen örneklerindendir. Keltner'in güç ve ayrıcalığın davranışı nasıl bozduğuna dair çalışmasıyla (önceki raporda) hak görme konusunda kesişir.
+
+**Eleştiri ve sınırlar.** Kirkus ya da Publishers Weekly incelemesi bulunamadı; değerlendirmeler çoğunlukla okur yorumlarıdır. Kitap "narsisizm" terimini kabalık ve toplumsal davranış gibi geniş bir alana yayar; bu, Dombek'in uyardığı kavram enflasyonu riskini taşır. Durvasula'nın medya ve YouTube'daki yüksek görünürlüğü, uzaktan genelleme yapma eleştirisini de beraberinde getirir. Tekrarlı yapısı okur yorumlarında öne çıkar.
+
+**Kimler okumalı.** Hak görme ve kabalıkla dolu bir ortamda (iş, aile, ilişki) yıpranan ve sınır koymak için cesaret arayan okur. Uyarı: İstismar yaşamış okur için tetikleyici olabilir; kitap toplumsal bir eleştiridir, yakınınıza tanı koymanın aracı değildir.

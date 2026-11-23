@@ -1,0 +1,24 @@
+## Gisli H. Gudjonsson — The Psychology of Interrogations and Confessions (The Psychology of Interrogations and Confessions: A Handbook, 2003)
+
+**Künye.** Gísli H. Guðjónsson (d. 1947, Reykjavík) İzlanda kökenli İngiliz adli psikologdur; gençliğinde İzlanda'da polis dedektifliği yapmış, sonra King's College London Psikiyatri Enstitüsü'nde profesör olmuştur (bugün emekli). Kitabın dili İngilizce; Wiley (Chichester) 2003'te yayımladı. 1992 tarihli *The Psychology of Interrogations, Confessions and Testimony* kitabının genişletilmiş yeni sürümüdür. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 700 sayfa (xviii + 684).
+
+**Bir cümleyle.** Sahte itiraflar sanıldığı kadar ender değildir; sorgu tekniklerinin baskısı ile kişinin psikolojik kırılganlığı birleştiğinde masum insanlar suç üstlenebilir ve bu süreç ölçülebilir.
+
+**Bağlam.** Gudjonsson, İngiltere'de 1970'lerin büyük adli hatalarında bilirkişi olarak çalıştı; Guildford Dörtlüsü ve Birmingham Altılısı mahkûmiyetlerinin bozulmasında onun raporları rol oynadı. 1984'te sorgu kurallarını değiştiren PACE yasasından sonra alan hızla büyüdü. Kitap psikologlara, avukatlara, hâkimlere ve polise; on yılın araştırma ve dava birikimini tek bir el kitabında toplamak için yazıldı.
+
+**Yapısı.** Giriş, 22 bölüm, sonuç ve ekler (Wiley'nin bölüm kayıtlarına göre). İlk bölümler sorgu taktiklerini ve İngiltere'de baskıcı sorgunun ölçülmesini anlatır; ardından "şüpheliler neden itiraf eder" kuramları ve sahte itiraf araştırması gelir. Orta kısım İngiliz ve Amerikan itiraf hukukunu, psikolojik değerlendirmeyi, telkine yatkınlığı, alkol ve ilacın etkisini işler. Son bölümler Temyiz Mahkemesi kararlarını, Guildford ve Birmingham davalarını, dört ünlü Amerikan davasını, Kanada ve İsrail davalarını inceler. Kısımların adlarını görmedim (doğrulanmadı).
+
+**Ana fikirler.**
+- **Sorgu bir etki ortamıdır.** Polisin amacı çoğu zaman bilgi toplamak değil, itiraf almaktır. Yalıtılmış oda, uzun süre, sanığı suçlu varsayan sorular ve "itiraf edersen eve gidersin" türü vaatler, kişinin kısa vadeli rahatlamayı uzun vadeli bedele tercih etmesine yol açar.
+- **Sorgu telkine yatkınlığı (interrogative suggestibility).** Bazı insanlar yönlendirici sorulara ve olumsuz geri bildirime ("yanlış hatırlıyorsun") daha kolay boyun eğer. Gudjonsson bunu Gudjonsson Telkin Edilebilirlik Ölçeği (GSS) ile ölçer: kişiye kısa bir öykü okunur, sonra yönlendirici sorular sorulur ve baskı altında yanıtını ne kadar değiştirdiği puanlanır.
+- **Sahte itiraf türleri.** Kitap, kendiliğinden (gönüllü), baskıyla boyun eğen ve baskıyla içselleştirilen sahte itirafları ayırır. Sonuncusunda kişi, suçu işlediğine gerçekten inanmaya başlar.
+- **Bellek güvensizliği sendromu (memory distrust syndrome).** Gudjonsson ve MacKeith'in 1982'de adlandırdığı bu durumda kişi kendi belleğine güvenmez ve dış kaynaklara, yani sorgulayıcıya yaslanır. Bu, gaslighting'in (kişiyi kendi algısından şüphe ettirme) kurumsal bir biçimine benzer.
+- **Kırılganlık değerlendirmesi.** Düşük zekâ, kaygı, ruhsal hastalık, yoksunluk belirtileri ve yaşlılık ya da çocukluk riski artırır. Kitap, bilirkişinin bunları nasıl değerlendireceğini ve ekteki Gudjonsson İtiraf Anketi (GCQ-R) gibi araçları anlatır.
+
+**Bilimsel dayanağı.** Kitap hem deneysel çalışmalara (telkine yatkınlık ölçümleri, mahkûmlarla anketler) hem de yazarın bilirkişi olarak incelediği yüzlerce gerçek davaya dayanır. Akademik dergilerde (Applied Cognitive Psychology, Personality and Individual Differences, 2004) incelenmiş bir el kitabıdır. Aynı alanın Amerikan kanadı Kassin ve Wrightsman (1985) sınıflamasını geliştirmiştir; Gudjonsson, Kassin ve arkadaşlarının 2010 tarihli Amerikan Psikoloji-Hukuk Derneği "beyaz kitabı"nın (Police-induced confessions) ortak yazarlarındandır. Genel kanıt düzeyi: [araştırma].
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap gündelik manipülasyonun kurumsal hâlini gösterir: yalıtma, suçluluk yükleme, gaslighting'e benzer bellek aşındırma ve "tek çıkış yolu itiraf" diye seçenekleri daraltma. Sorgu odası, Milgram'ın otoriteye itaat deneyleri ve Lifton'un düşünce reformu çalışmasıyla (önceki raporda) konuşur. Bu listeden Kassin'in *Duped* kitabıyla birlikte okunmalıdır. Greene'in "seçenekleri kontrol et" yasasının (Yasa 31) gerçek dünyadaki yıkıcı sonucunu gösterir.
+
+**Eleştiri ve sınırlar.** 2003'ten sonra alan çok gelişti: İngiltere'nin daha az suçlayıcı PEACE görüşme modeli yaygınlaştı ve yazar 2018'de konuyu güncelleyen yeni bir kitap yazdı (bellekten, doğrulanmadı). GSS puanının tek başına bir itirafın sahte olduğunu kanıtlayamayacağı, ölçeğin laboratuvar koşullarına dayandığı tartışılır (doğrulanmadı). Kitap ağırlıkla İngiliz hukukuna odaklanır ve yer yer yoğun teknik dil kullanır.
+
+**Kimler okumalı.** Hukukçular, adli psikoloji öğrencileri ve gazeteciler için temel başvuru eseridir. Genel okur için ağırdır; önce Kassin'in kitabıyla başlamak daha kolaydır.

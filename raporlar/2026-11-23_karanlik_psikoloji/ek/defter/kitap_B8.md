@@ -1,0 +1,30 @@
+Hill: 2019, Black Inc, Avustralyalı araştırmacı gazeteci | https://en.wikipedia.org/wiki/See_What_You_Made_Me_Do | "a 2019 non-fiction book by Australian investigative journalist Jess Hill" ; 416 pages | yüksek
+Hill: Stella Ödülü 2020; UTS Industry Professor 2025 | https://en.wikipedia.org/wiki/Jess_Hill_(writer) | "In 2020, she won the Stella Prize" ; "In 2025, she joined UTS as an Industry Professor" | yüksek
+Hill: yapı (konular; bölüm sayısı doğrulanmadı) | https://www.kirkusreviews.com/book-reviews/jess-hill/see-what-you-made-me-do/ | "why women stay ... how the police and courts fail ... the unique vulnerabilities of Aboriginal people" ; "a chapter on women who abuse men" | orta
+Hill: Türkçe baskı eşleşmesi | ek/dogrulama/turkce_katalog.json (K083_hill) | "Kadının Hiç Suçu Yok" — yazar Jess Hill, yayınevi boş | orta
+Hill: Stockholm sendromu eleştirisi (çarpıcı iddia) | https://en.wikipedia.org/wiki/Stockholm_syndrome | "dubious pathology with no diagnostic criteria" | yüksek
+Hill: Kirkus eleştirisi (ABD bölümleri zayıf) | https://www.kirkusreviews.com/book-reviews/jess-hill/see-what-you-made-me-do/ | "portrays other countries more convincingly than it does the U.S." | yüksek
+Hill: Avustralya'da kadınların altıda biri | https://www.goodreads.com/book/show/43804093 | "almost 17 per cent of women over the age of fifteen – one in six" | yüksek
+Snyder: 2019, Bloomsbury; American University edebiyat profesörü, Marketplace muhabiri | https://en.wikipedia.org/wiki/Rachel_Louise_Snyder | "She is a professor in the Department of Literature at American University." | yüksek
+Snyder: yapı üç kısım | https://againstthecurrent.org/atc210/the-trauma-of-domestic-violence/ | "The book is divided into three main parts. “The End” ... “The Beginning,” ... “The Middle,”" | yüksek
+Snyder: 320 sayfa; NYT en iyi 10 | https://againstthecurrent.org/atc210/the-trauma-of-domestic-violence/ | "Bloomsbury Publishing, 2019, 320 pages" | yüksek
+Snyder: Türkçe baskı yok | ek/dogrulama/turkce_katalog.json (K084_snyder) | yalnızca Scott/Blake Snyder kitapları | yüksek
+Snyder: Mosure vakası 2001 Billings (çarpıcı iddia) | https://againstthecurrent.org/atc210/the-trauma-of-domestic-violence/ | "In 2001, on the Monday before Thanksgiving, in Billings, Montana, Rocky Mosure shot and killed his wife Michelle" | yüksek
+Snyder: Danger Assessment, RSVP, San Bruno | https://againstthecurrent.org/atc210/the-trauma-of-domestic-violence/ | "a program called RSVP (Resolve to Stop the Violence) at the San Bruno prison" | yüksek
+Snyder: Kirkus/NBCC finalisti | https://www.kirkusreviews.com/book-reviews/rachel-louise-snyder/no-visible-bruises/ | "Kirkus Prize finalist ... National Book Critics Circle Finalist" | yüksek
+Monckton Smith: 2021, 256 s., adli kriminolog ve eski polis | https://www.goodreads.com/book/show/55659844-in-control | "forensic criminologist and former police officer" ; "First published March 4, 2021" | orta
+Monckton Smith: 372 vaka, sekiz aşama adları (çarpıcı iddia) | https://powertopersuade.org.au/blog/tracking-intimate-partner-homicide-risk-escalation-the-homicide-timeline/28/11/2019 | "looked at 372 cases of IPH"; "Stage Two: Commitment whirlwind" | yüksek
+Monckton Smith: yapı (bölüm sayısı doğrulanmadı) | https://www.goodreads.com/book/show/55659844-in-control | "Part case study, part social commentary and part memoir" | orta
+Monckton Smith: Türkçe baskı yok | ek/dogrulama/turkce_katalog.json (K085) | boş liste | yüksek
+Fontes: 2015 Guilford, 220 s., 4 kısım 12 bölüm | https://guilford.com/books/Invisible-Chains/Lisa-Aronson-Fontes/9781462520244/contents | "I. What Is Coercive Control? ... IV. Ending Coercive Control ... 12. Conclusion" | yüksek
+Fontes: danışmanlık psikolojisi doktorası; UMass Amherst | https://www.publishersweekly.com/978-1-4625-2024-4 | "has a doctorate in counseling psychology and is an expert in family and domestic violence" | yüksek
+Fontes: kişisel deneyim; Türkçe baskı yok (katalog K086 boş) | https://www.goodreads.com/book/show/23398067-invisible-chains | "draws on both professional expertise and personal experience" | yüksek
+Walker: 1942 doğumlu psikolog, Rutgers Ed.D., 1979 kitap | https://en.wikipedia.org/wiki/Lenore_E._Walker | "Ed.D. in school psychology from Rutgers University in 1972" | yüksek
+Walker: 120+ kadın görüşmesi, üç evreli döngü (yapı; bölüm sayısı doğrulanmadı) | https://www.goodreads.com/book/show/677119.The_Battered_Woman | "Drawing on interviews with over 120 women" | orta
+Walker: Simpson davası tartışması (çarpıcı iddia); Türkçe baskı yok (katalog K087 yalnız başka Walker'lar) | https://en.wikipedia.org/wiki/Lenore_E._Walker | "Walker offered to testify for O. J. Simpson during his trial" | yüksek
+Walker: döngü eleştirisi; BWS DSM-5'te yok | https://en.wikipedia.org/wiki/Cycle_of_abuse | "Critics suggest the theory was based on inadequate research criteria" | yüksek
+Dutton: 1943, UBC emekli profesör; travma bağı (Painter); Assaultive Husbands Project 1979 | https://en.wikipedia.org/wiki/Donald_Dutton | "Along with his co-author Susan Painter, Dutton coined the term traumatic bonding" | yüksek
+Dutton: 1998, 214 s., 400+ fail; çocukluk kökenleri | https://www.goodreads.com/book/show/689665.The_Abusive_Personality | "Presenting results of controlled research with over 400 batterers" | yüksek
+Dutton: yapı (bölüm konuları, Choice incelemesi; sayı doğrulanmadı); Türkçe baskı yok (katalog K088 yalnız Kevin/Edward Dutton) | https://drdondutton.com/portfolio/the-abusive-personality-review-by-c-s-widem/ (arama özeti) | "16-week group treatment program" | orta
+Dutton: 1999 taciz kararı | https://en.wikipedia.org/wiki/Donald_Dutton | "found Dutton responsible for sexual harassment towards a student" | yüksek
+Bellekten, doğrulanmadı: Walker yayınevi Harper & Row; Monckton Smith yayınevi Bloomsbury ve makale Violence Against Women 2020; Glass vd. 2008, Campbell vd. 2003, Babcock vd. 2004, Faigman 1986, Gondolf & Fisher 1988, Holtzworth-Munroe & Stuart 1994, Johnson 2008, Stark 2007; Dutton & Painter yılı 1981 | kaynak: bellekten, doğrulanmadı | — | düşük
