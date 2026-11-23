@@ -1,0 +1,756 @@
+             Kulak Burun Bogaz Ihtis Derg 2012;22(2):65-76                              doi: 10.5606/kbbihtisas.2012.013                       65
+             Invited Review / Davetli Derleme
+
+
+
+
+    The history of sign language and deaf education in Turkey
+                                 Türkiye’de işaret dili ve sağırların eğitimi tarihi
+
+
+                              Yusuf Kemal Kemaloğlu, M.D.,1 Pınar Yaprak Kemaloğlu, M.S.c.2
+
+                          1
+                           Department of Otolaryngology, Medical Faculty of Gazi University, Ankara, Turkey;
+                                       2
+                                           Marmara University Health Science Institute, İstanbul, Turkey
+
+
+
+
+Sign language is the natural language of the prelingually                     İşaret dili, özellikle dil edinimi öncesi işitme kaybı gelişip
+deaf people particularly without hearing-speech                               işitsel-sözel rehabilitasyon sağlanamayanların doğal
+rehabilitation. Otorhinolaryngologists, regarding health                      dilidir. Sağlığı fiziksel, zihinsel ve sosyal bağlamda
+as complete physical, mental and psychosocial well-                           tam iyilik olarak algılayan kulak burun boğaz hekimleri,
+being, aim hearing by diagnosing deafness as deviance                         sağırlığı normalden farklılık olarak tanımlayarak, işitmeyi
+from normality. However, it’s obvious that the perception                     hedefler. Ancak, bireyin zihinsel ve sosyal olarak iyiliğini
+conflicted with the behavior which does not meet the                          sağlayamayan anlayışın da, yukarıda belirtilen tanım-
+mental and social well-being of the individual also                           lamayla çelişeceği açıktır. Bu makalede, işaret dilini
+contradicts with the definition mentioned above. This                         yadsıyarak yalnızca işitme-konuşmayı hedeflemenin,
+article aims to investigate the effects of hearing-speech                     Türk toplumu üzerindeki etkilerinin ve tarihsel yönden
+target ignoring the sign language in Turkish population                       tutarlılığının istatistiksel veriler, bilimsel yayınlar ve tarihi
+and its consistency with the history through statistical                      belgeler üzerinden incelenmesi ve konuyla ilgili eleştirel
+data, scientific publications and historical documents and                    bakış açısının desteklenmesi amaçlanmıştır. Sonuçlar,
+to support critical perspective on this issue. The study                      tarama programları öncesindeki son 60 yılda olguların
+results showed that maximum 50% of the deaf benefited                         azami %50’sinin yalnızca işitme-konuşma hedefli prog-
+from hearing-speech program for last 60 years before                          ramlardan faydalandığını, ancak eğitimde işaret dilini
+hearing screening programs; however, systems including                        içeren sistemlerin oluşturulmadığını göstermiştir. Bu
+sign language in education were not generated. In the light                   veriler çerçevesinde, işaret dilini yadsıyan yaklaşımın,
+of these data, it is clear that the approach ignoring sign                    özellikle tarama programlarının geliştirilmesinden önce,
+language particularly before the development of screening                     uygun olmadığı açıktır. Ayrıca işaret dilinin Hititler’den
+programs is not reasonable. In addition, considering sign                     Osmanlılar’a Anadolu tarihinin bir parçası olduğu göz
+language being part of the Anatolian history from Hittites                    önüne alındığında, Türkiye’de işaret dilini içermeyen
+to Ottomans, it is a question to be answered that why                         değerlendirme, habilitasyon ve eğitim sistemlerinin
+evaluation, habilitation and education systems excluding                      neden hala tek alternatif olarak sağır bireylere sunul-
+sign language are still the only choice for deaf individuals                  duğu yanıtlanması gereken bir sorudur. Son 6-7 yıldaki
+in Turkey. Despite legislative amendments in the last                         mevzuat düzenlemelerine rağmen, bu düzenlemelerin
+6-7 years, the primary cause of failure to come into force                    hala uygulamaya girmemesinin en önemli nedeni, muh-
+is probably because of inadequate conception of the issue                     temelen sorunun içeriğinin, öneminin ve çözüm yolları-
+content and importance, as well as limited effort to offer                    nın, akademisyenler ve ilgili bürokratlar tarafından yete-
+solutions by academicians and authorized politicians.                         rince kavranamamış olmasıdır. Bu bağlamda, bu makale
+Within this context, this paper aims to make a positive                       kulak burun boğaz hekimleri ve odyologlar başta olmak
+effect on this issue offering a review for the medical staff,                 üzere, tıp camiasının konuya bakışını olumlu etkilemek
+particularly otorhinolaryngologists and audiologists.                         amacıyla kaleme alınmıştır.
+Key Words: Deaf; education; habilitation; hearing loss; history;              Anahtar Sözcükler: Sağır; eğitim; habilitasyon; işitme kaybı; tarih;
+rehabilitation; sign language.                                                rehabilitasyon; işaret dili.
+
+
+
+Received / Geliş tarihi: March 22, 2012 Accepted / Kabul tarihi: March 25, 2012
+Correspondence / İletişim adresi: Yusuf Kemal Kemaloğlu, M.D. Gazi Üniversitesi Tıp Fakültesi Kulak Burun Boğaz Hastalıkları Anabilim Dalı, 06500
+  Beşevler, Ankara, Turkey. Tel: +90 312 - 202 64 06 Fax (Faks): +90 312 - 202 43 57 e-mail (e-posta): yusufk@gazi.edu.tr
+66                                                                                 Kulak Burun Bogaz Ihtis Derg
+
+
+Sign language (SL) is a main language of the              Republic are documented as ‘unable to hear and to
+deaf with prelingual hearing loss -who have not           speak’.
+satisfactorily experienced hearing via hearing aids
+                                                             It should be emphasized that this survey
+or cochlear implants, and speech habilitation.[1-3]
+                                                          includes all people with either unilateral or
+Although the deaf culture concentrated with/at/
+                                                          bilateral hearing loss with congenital or acquired
+around SL is an integral part of disability rights[1,4]
+                                                          origin including otitis media, presbyacusis, etc.
+as clearly stated in United Nations Convention on
+                                                          Therefore besides any cultural data, these 84.000
+the Rights of Persons with Disabilities,[5] it is not a
+                                                          deaf citizens’ exact ratio in sub-populations as
+familiar concept among Turkish medical staff.
+                                                          people with prelingual or early-onset and severe
+   It is clear that medicine aims to complete             bilateral hearing loss (SBHL) is not extracted from
+physical, mental and social well-being as stated          this survey. It is important to know the exact
+by World Health Organization (WHO) in 1946.[6]            number of people with prelingual or early-onset
+Hence, it is understandable that medical staff and        SBHL, to estimate the ‘success’ rate of hearing and
+particularly otolaryngologists accept hearing as          speech (re)habilitation.
+being a part of completeness. However critical
+                                                              According to newborn hearing screening
+thinking on WHO’s statement above aiming to
+                                                          (NHS) data, the rate of SBHL was found to
+point out the importance of providing social well-
+being for a human together with good mental and           be about 0.2% in both 2005 and 2008.[10,11] The
+physical health, needs investigation.                     approximate number of live-births between the
+                                                          years of 2005 and 2008 are estimated as 1.350.000
+   Under Turkish laws, it is not clear that being         yearly (the mean annual growth rate of the general
+culturally deaf has been accepted as a right for          population is about 0.14%), and it is estimated that
+the parents to choose for their child born with           about 2.700 babies with SBHL were born yearly
+deafness. In some western countries,[1,4,7] the parents   in this period. Between 1940 and 2000, the mean
+have right of choice of belonging either or both to       annual growth rate of the general population was
+hearing or/and deaf culture for their deaf babies.        about 0.22% -with an increment of population from
+    Even if we set the legislation issue aside,           approximately 18 million in 1940 to 68 million in
+attitudes of Turkish otolaryngologists as much            2000.[12,13] By using these data, we may estimate
+as the majority of Turkish hearing society appear         that less than 130.000 children with prelingual
+to be in accordance with the conception that              SBHL were born between 1940 and 2002. Hence,
+deafness is a simply an ‘incompleteness’, and             it could be estimated that 84.000 people with both
+hence all children with deafness in any age are           hearing loss and SLD in 2002-survey[10,11] comprise
+solely directed to hearing aids, cochlear implants        approximately 65% of all subjects with prelingual
+and hearing-speech (re)habilitation programs by           SBHL living (or lived) in Turkey between 1940-
+the system where SL use is forbidden (this is             2002. That means, (if we take account only the
+oralism).                                                 rate of the children with prelingual and early
+                                                          postnatal SBHL according to the contemporary
+‘Success’ rate of hearing and speech                      NHS data) the ‘success’ rate of the current (‘only
+ (re)habilitation programs for deaf                       way is oralism’) approach for deaf people appears
+           people in Turkey                               to be less than 35% till 2002.
+Oralism remains on the agenda as the only medical,           However, the numbers of the children with
+educational and cultural option (through the legal        SBHL in early childhood after the newborn period
+system in practice) for the deaf in the Turkish           might be assumed as significant because of the
+Republic for more than 50 years; where rules              severe acquired infectious diseases in the pre-
+and practices carried out without the meanings            antibiotic era or late-onset genetic disorders due to
+inherent to Deaf culture. Most of the historical          more frequent consanguinous marriages in those
+data about the deaf in Turkey available thus far, are
+                                                          years; thus even if an additional 0.05% must to
+informative as hearing perspectives.
+                                                          be added to the population above, altogether, we
+    According to the Turkish Disability Survey            may estimate that in 2002, there must have been
+(TDS, 2002), 1/3 of all people with hearing loss had      not more than 170.000 people with SLD in relation
+speech and language disorders (SLDs).[8,9] That is,       to SBHL. Hence 50% as the best ratio could be
+in this survey, about 84.000 deaf citizens of Turkish     assumed as the ‘success’ rate of hearing aids and
+The history of sign language and deaf education in Turkey                                                            67
+
+
+speech (re)habilitation programs for SBHL during                In brief, clearly for more than 50 years, regardless
+childhood before 2002!                                      of the fact that the early diagnosis and use of
+                                                            hearing aids were not accommodating and most
+   In accordance with our first assumptions above
+                                                            of the children with prelingual SBHL were not for
+(as 35% ‘success’ rate), Gürboğa and Kargın[14]
+                                                            communicating through speech, formal special
+documented that about 70-75% of the deaf adults
+                                                            education system (deaf schools) have never used
+in Turkey prefer SL in daily life communication;
+                                                            SL in Turkey.
+only less than 10% of them are used to speak for
+communication in any occasion.                                Challenges of hearing and speech
+                                                                 (re)habilitation approach
+    Schooling system and specIAL
+   education for the deaf in Turkey                         It is a real challenge and long-lasting issue to
+                                                            (re)habilitate speech in any case with prelingual
+As a very distributive conclusion emerging from             deafness particularly in late ages.[19-21,23,27-29] The
+the discussion above, we could state that the               importance of brain plasticity and many other
+hearing (re)habilitation system in Turkey before            factors in this challenge have been reported.[27]
+the NHS program appears to be very far from                 Therefore, it could be concluded that complete
+providing wellness by hearing and speaking tools            physical, mental, and social well-being by hearing
+to those with bilateral severe deafness with early          and speech is mostly age-dependent: Early onset,
+childhood-onset. Now, in this section, we want              late diagnosis and delayed (re)habilitation lessen
+to extend our content to the education side and             human well-being by depriving hearing and
+pronounce that ‘only choice’ (oralist) attitude in          speech. At that point, the otolaryngologist and
+Turkey has also been a mask to hide the reality in          other related staff should debate over both critical
+the school system.                                          descriptions of human and further well being.
+   The current system had a majority of the                     Bingöl[30] points out ‘mind’ and ‘transferring the
+children with SBHL directed to the special deaf             thoughts and ideas’ as main descriptive features
+schools -as ‘hearing disabled’ ones- if SLD was             for being a human and we know that SL is capable
+evident. In the 2001-2 period, 84% of all elementary        enough for perfect communication and education
+school children with deafness were enrolled in              for these deaf boys and girls.[1,4,7,19] If so, for instance
+special deaf schools.[15] However by this time in           in a case with SBHL who could not progress to
+these schools, SL had not been used by teachers.            speech till the elementary school-age, could we
+                                                            insist on having him/her to speak a few additional
+   In the 1950s, special education had been
+                                                            words in a daily life as an only challenge for
+started as a part of the formal education system in
+                                                            all? Could an education system based on only
+Turkey,[16-18] and since that time there was no further
+                                                            hearing and speech provide this deaf person with
+hesitation on oralist implementation, although
+                                                            opportunities as an equal citizen of society in
+some Turkish papers also indicated alternative              today’s world? How about considering -and having
+education systems.[19-21]                                   ready- all systems in the first day after diagnosis?
+    Further, there were many hints to show that                It is clear that the United Nations (UN’s) first
+(re)habilitation based only on hearing and speech           declaration in the 21st Century[5] says ‘no’ to the first
+methods could not have been working well: First,            and second questions above and ‘yes’ to ‘having all
+the mean diagnostic age for deafness was 4.7 years          systems available’ as a part of human rights. This
+in the 1970s in Ankara,[22] and it raised only to 2.4-      point of view is still, unfortunately, not internalized
+3.5 years in the early 1990s.[23,24] The rate of hearing    by today’s medical staff in Turkey, although being
+aids users was very low -about 21% of all with              against ‘SL’ or against ‘the deaf using SL’ have
+hearing loss.[8,9] The school screening studies have        never been an inherent characteristic of our history
+also shown that although most of the students in            and culture as shown in the following section.
+the deaf elementary schools have SBHL, about
+half of them were not using the hearing aids.[25]               Historical Highlights on SL and
+The E-isit project in 2009 clearly demonstrated                      Education of the Deaf
+that the majority of students in the deaf high              The history of SL and deaf education in Turkey
+schools in Ankara were using SL in daily life but           are reviewed here, to provide a better view on the
+not hearing aids.[26]                                       assumption above. Examples from other countries
+68                                                                                  Kulak Burun Bogaz Ihtis Derg
+
+
+are also contextually mentioned when a direct              Herodth from Caria (5th Century BC) (The History
+relation to the history of Turkey is evident.              of Herodotus).[38] The great but last king Krezues
+                                                           (called “Karun” in Turkish) of Lydia had a deaf son.
+Sign Language and the Deaf People in                       According to the sayings of Herodotus, although
+             Anatolia                                      he played an important role to save Krezus’ life
+The oldest available story related to SL and the deaf      in the last war with Persians, his name was never
+in the world starts in Anatolia. The Hittites (2000 to     mentioned in the history; he was only ‘deaf son of
+1.200 BC) were one of the ancient civilizations and        Krezus’, who was ‘handicapped eventually’. Hence,
+states in Anatolia. Soysal[31] clearly presented that      this boy could also be considered as the first deaf
+deaf men and women were working in Hittites’               person found in the history who was neglected by
+religious ceremonies by using SL. Further, Murat[32]       both the parents and historians.
+reports a Hittite city as ‘the city where deaf people
+                                                               The History of Herodotus provides us another
+talk’ (‘sağır insanların konuştuğu şehir’ in Turkish)
+                                                           early source for SL in antiquity:[38] Krezus
+near ‘Hakmis’ (today called ‘Amasya’ -city- in
+                                                           was worried about his state’s future because of
+Turkey). Although there is no more data found
+                                                           increasing Persian threat. He had to decide either to
+yet on what ‘deaf people talk’ mean in the ancient
+                                                           war or to keep peace with them, and he consulted
+sources, we shouldn’t overlook the fact that this
+                                                           the oracles as a usual way of that period. But, since
+city might have been the oldest signing community
+                                                           it was a critical decision he wanted to be sure that
+-as (i.e.) in some particular ways similar to the
+                                                           the oracles he was consulted were perfectly eligible.
+Martha’s Vineyard Island in the United States
+                                                           Therefore, he organized a kind of examination for
+(U.S.),[33] Yucatec Maya village in Mexico,[34] Desa
+                                                           many popular oracles throughout Anatolia and
+Kolok in Indenosia,[35] etc.
+                                                           the neighboring regions. One of them, the Delphic
+    Overall, we may say that SL has been welcomed          oracle (from Delphi which is an ancient city next to
+in Anatolia for at least 3.500 years of history.           Mount Parnosus in Greece) answered his questions
+However, we should underscore that there is no             true by sending him a long poetry including the
+data on both the rights of deaf people and their           following lines:
+inclusion to the society in daily life of Hittites.
+                                                              “…I can count the sands, and I can measure the
+Although the Hittite Empire was one of the first
+                                                           ocean;
+multilingual states in history since they used at least
+four different languages in their schools and daily          I have ears for the silent, and know what the dumb
+life,[36] there is no evidence of the Deaf education       man meaneth…”
+with SL in schools. We should also underscore
+                                                              As it is understood from this poetry,[38] the
+the fact that there were evidences of SL use in
+                                                           Delphic oracle was very proud of him/herself since
+ancient Egypt within the same time period with
+                                                           he/she knew the language of the speechless people.
+the Hittites.[37] In an Egyptian papyrus (Papyrus
+                                                           Although the Delphic oracle’s prediction caused a
+Koller) from the 19th ancestry (around 1.200 BC),
+                                                           terrible end for Krezus and Lydia at the end of the
+the following advice was written probably for a
+                                                           war with Persians, this poetry was clearly another
+student of the temple:[37]
+                                                           direct evidence of SL in antiquity as linked to the
+    “Thou art not a hunter of the desert, nor a Mazoi of   Anatolia.
+the West! Thou art one who is deaf and does not hear, to
+                                                               Another evidence of SL around Anatolia
+whom men make (signs) with the hand.”
+                                                           comes from Persian history: A royal person,
+   In this period of time when Kadesh Peace                Mordechai, who lived in the period of Persian
+Treaty was signed between Antic Egypt and the              King Xerxes I (519-465 BC) has been known as a
+Hittites, it appears to be that both parties also may      person who knew deaf people’s language and were
+have shared a SL-reality of the deaf people in their       eligible to translate it.[39]
+homelands. Hence, we can conclude that SL was
+                                                               More recently, the great philosopher Plato
+evident in both sides of the Mediterranean Sea
+                                                           (427-347 BC) from Athens’ State emerged in history
+between or around 2.000-1.200 BC.
+                                                           as the first person who described signing as an
+   After the Hittites, in Lydia’s time (from the           eligible language for communication. In well-
+Bronze Age to the 6th Century BC), the first               known Cratylus’ dialog, his Socrates refers to SL
+deaf person in the history has been reported by            as follows:[3]
+The history of sign language and deaf education in Turkey                                                         69
+
+
+    Socrates: And here I will ask you a question:            in which SL was preferred as a communication
+Suppose that we had no voice or tongue, and wanted to        skill on purpose. Miles reported that SL was a
+communicate with one another, should we not, like the        preferable communication skill in the Ottomans’
+deaf and dumb, make signs with the hands and head and        court. Being speechless with or without being
+the rest of the body?                                        deaf was a major advantage for employment as a
+                                                             royal servant from the end of 15th to 18th Century
+   Hermogenes: There would be no choice, Socrates.
+                                                             in the Ottoman Empire. It was reported that some
+   However, Plato has not been noted as a                    privileged royal Vezirs and regional governors,
+cherished character in the Western disability                but not all, were also permitted to use ‘Dilsiz’ at
+history because of his following declarations                their courts. Miles[44,45] state that the Sultans, their
+about disability and chronic illness:[33,40,41]              children and royal staff learned SL, and there
+   ‘…it will leave the unhealthy to die, and those whose     was a school within the palace’s garden in which
+psychological constitution is incurably corrupt it will      elder speechless people who live in İstanbul were
+put to death.’                                               coming to teach details of signing to the young
+                                                             generation. In that period, SL was also named as
+    In the Western Deaf culture, Aristotle                   language of silence, and learning SL was called as
+(384-322 BC) who was the most prominent follower             ‘learning beauty of silence or soundless’.
+of Plato also emerged as a person who was not a
+friend of SL or deaf persons since the following                 In the Ottoman palace, those people were
+conclusions pronounced his philosophy concerning             named as ‘Dilsiz’ (‘dil’ as a word in Turkish means
+deafness:[42]                                                that both ‘language’ and ‘tongue’; hence ‘dilsiz’
+                                                             can refer to ‘without tongue’, ‘without language’
+    "Deaf people could not be educated, without hearing,     or ‘speechless’). Indeed, it is known that not all of
+people could not learn. Greek was the perfect language;      the ‘dilsiz’ staff were deaf; some of them had the
+all people who did not speak Greek were considered           tongue amputated on purpose for being liegeman
+Barbarians. Deaf equals barbarian”.                          in the court and other royal or governmental
+   Further, like Plato, Aristotle -Macedonian in             places. Although the western sources mentioned
+origin- also suggested not rearing the disabled              these people (either deaf or amputated ‘dilsiz’)
+child:[40,43]                                                as diverting staff such as dwarfs and buffoons,
+                                                             they in fact had important duties in the palace
+    “As to the exposure and rearing of children, let there   as convenient and secretive servants, guards,
+be a law that no deformed child shall live…”                 executioners and couriers.[44,45] It is also reported
+    Briefly, Anatolia and neighboring areas (Greece,         that ‘dilsiz’ staff in the palace were mentioned
+Iran and Egypt) appears to be connected with SL              by Evliya Çelebi as very watchful and observant;
+of the deaf people from 3.500 years ago. Further,            since they were capable of lip-reading, they inform
+while deaf people with their SL in Hittites reported         the Sultan and/or other royal staff about what the
+to be seen as performers of religious ceremonies             visitors or even other staff in/around the palace
+and security guards; antique Greek civilization              talk about.[42,45]
+-its philosophers- appears to be the source of
+                                                                 It has been written that after retirement, ‘Dilsiz’
+unfriendly approach to SL or speechless people.
+                                                             staff mostly lived in İstanbul as arts-and crafts-
+Also antique Egyptians showed their respect to the
+                                                             man. Miles reports them as capable people who
+deaf society by pointing out the importance of use
+                                                             could manage trade very well and were very aware
+of SL in communication with the deaf.
+                                                             of the daily life, politics and religious concepts.
+     Sign language and Speechless                            Miles[44,45] says that ‘dilsiz’ bathhouse (bathhouse is
+       (‘Dİlsİz’) Royal People in thE                        called “hamam” in Turkish) was one of the places
+              Ottoman Empire                                 of business in which the deaf people worked or
+                                                             owned. It was reported that this bathhouse was
+   There are well-described duties and positions of
+                                                             particularly for the officers or upper class people
+the deaf performers within the religious ceremonies
+                                                             of the Sultan.
+of Hittites,[31] but there is no information about the
+royal people and other staff whether they learned               Even if it is known that SL in the Ottoman
+and used SL. Miles[44,45] clearly states that the            court was capable for discussing many topics
+Ottomans’ court was the first place in the world             and transmitted to the next generations by either
+70                                                                                 Kulak Burun Bogaz Ihtis Derg
+
+
+teaching or natural ways, there was no evidence              In spite of the implications in the Ottoman
+that today’s Turkish SL (TSL) originated from            palace and court, it is also reported that the first
+the Ottoman court. In that, there is a big gap to        deaf school in the Ottoman state was founded in
+consider between the Ottoman court’ SL during            İstanbul as a part of the İstanbul Commerce School
+15th, 16th and 17th centuries and SL used in the         by the Austrian merchant Grati Efendi (Monsieur
+Ottoman deaf schools in 19th Century.                    Grati, who was also Director of a Commerce School
+                                                         in İstanbul) around 1889 and 1891. The first deaf
+    In the meantime, from the 15th to 18th Century,
+                                                         teacher of this school was Pekmezyan who was
+SL was not popular in the Western countries,
+                                                         graduate of a deaf school in Paris.[17,44,48,49] Sultan
+and the deaf people (if they were not able to
+                                                         Abdulhamid-II was the crown of the Ottomans
+speak) faced many social, economic and even
+                                                         in those years, and the Minister of Education was
+religious limitations.[32,39,41] Although Cardano[46]
+                                                         Münif Paşa.[17,48,49] While the financial source of this
+(1501-1576 AC), an Italian doctor and mathematician,
+                                                         school was partially provided by the state, there
+said that deaf people were capable of using their
+                                                         were also some special cuts from the salary of all
+minds, and stated that deaf people could learn to
+                                                         governmental officers throughout the Ottoman
+read and write without learning how to speak first,
+                                                         state. In the historical state archives, there are
+oralist methods were the only way to rehabilitate
+                                                         more than many documents showing how the
+a deaf child to provide his inclusion in the society
+                                                         education ministry and the treasury of the Ottoman
+and even the religion till the French Revolution
+                                                         government strictly followed these cuts.[50]
+in 1789.[33,40,42,46,47] The French Revolution as a
+complementary to L’Eppee’s prominent works in                The crown-years of Abdulhamit-II were a
+Paris (1760-1789) clearly stated that education and      major schooling period of the Ottomans although
+public service in SL were the rights of the deaf         they were very tough years politically and
+people as a part of the citizenship concept.[33]         economically.[51] Before the First World War, it is
+Although education in SL started spreading into          known that four more deaf schools (Merzifon,
+many countries after the French Revolution, it           Corfu, Selanik-Thessalonica and İzmir) were also
+does not mean that SL has been accepted as the           founded in the Ottoman state.[49] Building the deaf
+‘only choice’ for all related staff, families, and       school in Selanik-Thessalonica was completed
+even politicians in the Western countries. Oralist       in 1909 by contribution of Edgart Farragi,[45] but
+perspectives were also increased and schools             presumably education meant to be started by Fuat
+using only hearing and speech methods with               Bey between 1911 and 1913 -who graduated from
+contribution of contemporary schooling systems           the İstanbul Deaf School in 1911 and was noted as a
+and even hearing aids were improved.                     founder of the Selanik deaf school and left Selanik
+                                                         in 1912.[48,49] In this period of time the İzmir deaf
+   Particularly the clerics supported oralism
+                                                         school was also founded as a private school in 1910
+since speech was divine in their thoughts/beliefs.
+                                                         by Karmona, who was a deaf tailor trained in the
+Further, in 1880, results from the international
+                                                         Paris deaf school[45,49] as Edgart Farraci. Fuat Bey,
+‘Milan conference’ of deaf educators lead to
+                                                         previously founder of the Selanik deaf school was
+prohibition of SL and declared that (re)habilitation
+                                                         also seen as the founder of this institute.[48] Probably
+for speaking should be the only -or superior-
+                                                         after the First World War, he left Selanik as many
+way of deaf children’s education; it was assumed
+                                                         other Turks did and later settled down in İzmir. The
+that religious pressure was the main source of
+                                                         İzmir school thrived rapidly with growing numbers
+this declaration.[33,42,46] Results of this conference
+                                                         of students, which they as noted also stood out with
+affected many countries. The schools teaching
+                                                         their uniforms and brought attention.[48]
+the deaf children by the deaf teachers or with
+the staff using SL were either closed or methods            We know that SL was used in the Deaf schools
+were changed and many deaf teachers went into            in both İstanbul and İzmir back then[17,48,49] but no
+retirement; somehow a journey to speaking for all        publication is present about the teaching system
+started. The USA was the least affected country          in Corfu and Selanik-Thessalonica deaf schools,
+in this period and education and public service          which are both in Greece today. That means, in the
+in SL also continued to develop in the US during         light of evidences today, the Ottoman rulers did
+the subsequent years by Gallaudet’s and Clerck’s         not force the founders of these schools to follow the
+leadership.[33,42,46]                                    Milan conference declarations.
+The history of sign language and deaf education in Turkey                                                      71
+
+
+   The SL alphabet used in the İstanbul and İzmir           French Revolution. There were however a wave in
+Deaf schools was most probably originated from              the West which gave a tremendous boost to oralism
+French SL (FSL), and used by adding some extra              in the late 19th Century[54] which in turn influenced
+finger positions to demonstrate Arabic letters and          schools in Republic of Turkey and might have some
+Turkish vowels of the Ottoman Turkish. It was               influences also at the end of Ottoman State.
+a one-hand alphabet as in FSL and American
+                                                                First of all -contrary to popular belief among the
+SL (ASL). Turgut and Taşçı[49] reported that this
+                                                            public as 1950s-; 1925 was the earlier turning point
+alphabet was used in the deaf schools in İstanbul
+                                                            in the history of Turkish deaf schools regarding not
+and İzmir till the Alphabet revolution in 1928 after
+                                                            only the beginning of the restrictions to use SL but
+foundation of Republic of Turkey. In 1928, founders
+                                                            also the exclusion of the older deaf children from
+of the republic changed the Turkish alphabet to
+                                                            these schools in parallel with the decisions made
+Latin letters from the Arabic ones.[52] Then, a two-
+                                                            to restrict and prohibit SL and to embrace oralist
+hand alphabet, which is almost similar to today’s
+                                                            methods of Western modernity. The İzmir school
+Turkish SL (TSL) alphabet, became popular in the
+                                                            was ‘taken from’ Fuat Bey and transferred to the
+Deaf community. However, according to studies of
+Turgut and Taşçı, İzmir Deaf School used the old            Ministry of Health and Welfare in 1925. Appointee
+one-hand alphabet for a longer period.[49]                  chemist Aziz Bey also resigned as soon as he
+                                                            understood the task needed expertise; then Dr.
+    Unfortunately the historical description                Necati Kemal Kip, who was a neurologist, became
+regarding deaf and SL in depth remained dark                a minister to the İzmir school in 1925.[48]
+and in decline due to various reasons as a poor
+accessibility of the historical data regarding lack             When Kip was assigned in 1925, he started to use
+of publication as well as having very limited               the German method of ‘learning phonetic language
+literature to be transfered into new Turkish after          with gestures’ and ‘completely removed the sign
+the alphabet revolution, etc.                               method’. Kip’s experience came from his previous
+                                                            investigations in the ‘German School for Deaf and
+ Sign language and Deaf Education                           Mute’. Gök[48] states that the ongoing education
+through the Modernization Project                           mode with SL was told as the main reason of
+   of Turkey (Republic Period, 1923-)                       ‘İstanbul deaf and mute school’s abolishment and
+Westernization and Europeanization terms                    annexation to the İzmir deaf school, in parallel to
+were commonly used among 19th-20th reformers                Kip’s application to the ministry with reference to
+in Turkey as constructional and universal form              unification of education.
+of modernization; which states the commitment                   In this new era, any deaf person over 12-years-old
+to borrowing ideas, attitudes, institutions from            lost their right to be a student and was constrained
+Western countries. Although the history of Turkish          to find their way through private institutions. By
+modernization should be considered attentively,             the time the Ankara deaf school was founded in
+it was a more radical cultural change than a short          the early 1920s and the new İstanbul deaf school as
+description of a transformation as from Ottoman             a private enterprise opened its doors in 1944 which
+Empire -endowed with ethnic diversity- to a                 later transferred to the board of education in 1953.
+secular, nation-state Republic of Turkey.[53] There         While Kamona and Fuat Bey were founders of the
+were for instance series of reorganization of the           İzmir school and were already used to sign;[48,49]
+institutions that also occurred in certain periods          Süleyman Gök, who was a partially speaking deaf,
+of Ottoman Empire; there may be significant civil           founded this deaf school in Aksaray (İstanbul)
+organizational and schooling movements for/of               in 1944, by using his own sources and partially
+deaf people during these periods. Paris deaf school’        supported by non-governmental organizations
+graduates for example -as mentioned above- stand            (NGOs) and families of the deaf students,[48,49] after
+out as a founders of some of the first deaf schools         the oralist movement started. Although Gök’s[48]
+at the end of Ottoman State.                                book reflects forbiddance of SL, Turgut and Taşçı[49]
+   Foundations of the politics to implement SL              noted that SL, literacy and dactylology were main
+use in education of the deaf in Ottomans remain             topics in this school; Interestingly, Gök’s school
+unknown for now whether -for example- it was                started using two-hand alphabet while the İzmir
+solely related to the Ottoman traditions of law and         deaf school was still used to finger-spell by one-
+diversity or was there any contribution from the            hand alphabet. Further, in 1950s, another deaf
+72                                                                                Kulak Burun Bogaz Ihtis Derg
+
+
+school was founded in Diyarbakır and in early           it has been noted that studies on SL in the
+1950s, special education was integrated to the          Ministry of Education started in 1983, and a
+formal education system and all deaf schools            special commission was founded in 1987, and
+in Turkey were transferred to the Ministry of           ultimately they published this guidebook in 1995.
+Education.[16-18,48,49] Overall there were four deaf    In the presentation section of this guidebook,
+schools in the 1950s; in İstanbul, İzmir, Ankara        the Minister of Education in 1995 particularly
+and Diyarbakır cities serving as primary schools        underlines that ‘this book has been prepared for
+only.[48]                                               the deaf adults’ (not for the deaf students!) ‘who were
+                                                        unable to continue (or succeed) the formal special
+   Girgin[17] reported that in 1952, foreign experts
+                                                        education system in Turkey’. He also pointed out
+who specialized in the field of special education
+                                                        that the main purpose of the guidebook was to
+were recruited and a program to train Turkish
+                                                        provide a source for these deaf adults to use a
+teachers was started. Mclaughlin, from New York,
+                                                        unified SL throughout the country. There was
+and Fronthaller from Austria were invited to give
+                                                        -not obvious but- delicate remark about this book;
+lectures. After Kip, this should be considered as a
+                                                        saying that they were absolutely sure that SL was
+plus to spread attitude and beliefs for ignorance       not necessary for the deaf school children and
+of SL in Turkish schools for the deaf. Although         their teachers, and although they published this
+there is no evidence of bylaws issued to prohibit       guidebook, it could not be considered as a sign
+SL in any code, these implementations approved          of any change in the conventional oralist system.
+as a sharp turn starting in 1925-6 and reapproved       In preface, the chief of the special education
+in 1952-3 by the teacher training program and so        department in the Ministry also clearly noted
+on; 45 to 72 years later then the Milan Conference,     that all deaf schools of the Ministry of Education
+teachers and academicians who came from or              were used to following speech methods. She,
+trained in particularly Germany and the U.S.A.,         however, explained the purpose of this book by
+prohibited SL as a principal item for educating         pointing out two realities in those days (as we
+deaf and it was injected by the officers to Turkey      mentioned in the previous sections): (i) Because
+through the modernization project.                      of late diagnosis and fitting, there was a tendency
+    There is no exact data on how the transition        to use mixed methods including signs, and (ii) the
+occurred. But it probably originated from the           deaf people were used to use SL with each other.[55]
+Milan conference declaration in 1880s[33] and earlier   In this guidebook, although there was no definite
+movements of German educated Kip in Turkey. It          grammar information, most of the sentence
+is clearly evident that after founding the formal       examples were as in the structure of Turkish, but
+special education system in Turkey, negative            not in TSL.[55]
+attitudes to SL has been progressively imposed by           Although SL was ignored in the deaf schools
+the related teachers and academicians upon society      from 1925s, these schools still provided the
+and particularly upon the parents. Today, an elder      first real opportunity to the deaf children and
+deaf informant says that particularly in the period     youngsters to be together and recognize their SL
+earlier than 1980s, teachers and special teachers       as in the examples of some western countries.[1,4,7,56]
+were like the ‘enemy’ to SL because it was thought      Most of the students were boarders, and hence
+that SL was preventing speaking (unpublished data       they had much time to be together and learn TSL.
+provided by Doğan Özdemir, who is a promoting           Deaf NGOs and their umbrella organization,
+leader of deaf nongovernmental organizations in         the Turkish National Deaf Federation (TNDF) as
+Turkey). Then, starting from the mid of 1980s, it was   well as sports clubs and federations have been
+said that teachers and staff started understanding      very active especially in particular big cities and
+the necessity of SL for first keeping them under        covered the pupils very efficiently to help them
+‘control’.                                              learn SL and let them join into the deaf society.
+   In 1995, the Ministry of National Education              Many associations founded as being influenced
+published a guidebook including a list of 2.000         by first Aksaray association and TNDF was
+signs (‘Yetişkinler İçin Türk İşaret Dili Klavuzu’,     founded mainly by students of Süleyman Gök’s
+Guidebook of Turkish Sign Language for The              school in 1960, and this generation played a very
+Adults).[55] In this guidebook, both two- and one-      initiative role in keeping TSL and further signing
+hand alphabets were introduced. In this book            society together during the ignorance years. After
+The history of sign language and deaf education in Turkey                                                      73
+
+
+the 1980s, in parallel to social and economical              and international academic meetings regarding
+improvements and particularly after the mid                  deaf studies and sign language concepts. TNDF
+of 1990s in parallel to increasing relationships             carried out more and more SL courses for both the
+with European Union, deaf NGOs increased their               deaf and hearing people by using Dikyuva and
+activities.                                                  Zeshan’s book.[57]
+    However, in the Western world, negative effects             In 2005, the new disability Code indicated SL
+of the oralist approach and very positive results of         as a necessity for education and public service in
+SL have come in view of the scientific world since           Turkey.[60] Although this Code directly nominated
+the 1970s[1,4,7,33] In those years also, disability rights   some governmental institutions to prepare the
+movements starting from the World War II had also            TSL facilities in cooperation with TNDF, there has
+a reasonable power in politics and it was increasing         been almost no change until 2007, and the only
+in parallel to improvements of democratic levels of          attempt was the workshop with a concrete result
+industrialized Western countries. And SL strikingly          of voting to recognize two-handed TSL alphabet
+returned to the Western education system for                 formally in 2007.[61] Later, the finger-spelling
+the deaf since the 1970s. In addition to tension             system for Turkish words was also included in
+between learning either manual or only through               the electronic dictionaries of Turkish Language
+speech methods; now there are several ways of                Institution (‘Türk Dil Kurumu’, TDK) in 2008.[62] The
+total communication that comprise speech therapy,            workshop date (June 7) was named as Turkish Sign
+SL or signs, lip reading and literacy altogether;            Language Day (‘Türk İşaret Dili Bayramı’). In 2010,
+and later also bi-lingual education considerably             TDK held another meeting (Çalıştay), but couldn’t
+new approach established -in reaction to oralist             implement the plans derived in this and succeeding
+perspectives including total communication- in               meetings by the volunteers and contributors yet. In
+which education is supported with both SL and                2011, Gazi University urged to organize SIGN5
+speech language learning but (shortly saying)                International Conference of Sign Language Users
+instead of altogether as in total communication,             to boost academic, bureaucratic and communities’
+acquisition of further information is achieved               interest more, and the conference was a milestone
+through SL.[1,4,7,20,21,33]                                  for Turkey in many ways as to change prejudiced
+   Presumably as a part of these improvements,               disabling, stereotyped attitudes towards deaf
+since the 1990s, some of the volunteers,                     individuals.
+academicians and researchers from abroad started                 Ultimately today, SL has not yet been used in
+come to Turkey and supported the works in                    the deaf schools nor included in the program of
+Deaf NGOs and managed some research. All                     special education departments.[63,64] The only gain
+achieved many positive outputs locally, some                 is that remarkable numbers of teachers in the deaf
+of them worked in cooperation with prominent                 schools are now willing to learn SL. Unfortunately,
+Turkish deaf people and academicians, and were               most of them still learn it from the deaf students
+able to produced permanent products for deaf                 when they start working in these schools, and
+education in Turkey.[56,57] In the 2000s, Zeshan[56]         further, a trend to signed Turkish instead of TSL
+organized the first TSL training program by using            has been developing among the teachers.
+a special methodology and material. This program
+was continuously run under the name of the                                    Conclusions
+TNDF and mainly supported by the İstanbul                    The history of the Turkish people and Anatolia
+City Municipality. Ozyurek[58] in Koç University             from antiquity reflects the familiarity of SL and the
+founded the first website about TSL including                deaf people using SL in a positive way in contrast to
+750 signs. Then, in late 2000s, Boğaziçi and Gazi            the Western countries before the 19th Century. For
+Universities also started SL studies in İstanbul             600 years (1299 to 1923 AC) the Ottomans did not
+and Ankara.[59] Gazi University started to pursue            share the same doctrines as the Greek philosophers
+SL works with the need emerged by founding                   (5-6th Century BC) who dramatically exaggerated
+the Audiology Department but furthered the                   the importance of speech to being human and
+aims and activities in accordance with the needs             suggested elimination of disabled people from
+of Turkey; gathering different institutions’ and             society, or the declaration of Milan Conference
+specialists’ interest to SL and Deaf Studies in              (1880) in which education in SL was prohibited.
+several ways, including organizing countrywide               As earlier Anatolians (Hittites), Ottomans also
+74                                                                                  Kulak Burun Bogaz Ihtis Derg
+
+
+used SL and had certain roles for deaf individuals,     -like 'having no language' and culture at all- unless
+and the rest of the deaf people lived in society        their speech is heard by patronizing, prejudiced,
+as free citizens. Even if no education and public       eugenic, discriminative minds. That is, the policy
+service in SL was reported until the 19th Century,      implications and regulations to implement civil
+evidences show that there was no religious or           rights of the deaf people in Turkey should be
+public restriction for the deaf to live as an equal     revised in all levels and political actions should be
+Ottoman citizen. And in the 19th Century, parallel      taken in accordance with the human rights of all.
+to schooling process in European countries, the
+                                                           Bi-lingual education setting -including SL-
+Ottomans also opened deaf schools but kept SL
+                                                        should be added to formal special education
+alive.
+                                                        programs from early childhood in Turkey. By
+   Schools during the Ottoman period were not           giving major priority to early acquisition of
+influenced by related results of the Milan conference   language development, the system should include
+and continued to use SL in the institutions. It took    both options, and decidedly aim to better literacy
+gradually 55 to 80 years for oralist approaches to      levels of the spoken language for higher education
+dominate over school systems in Turkey after the        and needs for mainstream social life.
+Milan conference. Since the 1925s, SL was ignored          And besides, it should be recognized that SL
+on purpose in Turkish deaf schools. Since those         is not only necessity for educational settings, as
+years having lost of all information on previous        well as other institutions, health service in SL is
+possible practices, no educational setting with         also a legal obligation in today’s Turkey. Therefore,
+SL has been available in Turkey; even though            as one of the main social institution in relation to
+disability laws (in 2005) and the UN declaration        deaf citizens;[64] we have to organize our system of
+on rights of people with disabilities (in 2009)         hospitals and clinics to serve the deaf in SL.
+was signed by Turkish Parliament. This is a real
+ambivalent situation regarding both history and                              REFERENCES
+current reality of Turkey.                              1. Paul PV. Language and deafness. 4th ed. Boston: Jones
+                                                            & Bartlett Publ; 2009.
+    Apart from the discussion whether choosing
+                                                        2. İzbul Y. Dilin evrenceleri ve konuşmaya dayalı
+to be culturally deaf (that can also mean, not to be        bildirişimin evrimi: Hockett’in görüşleri üzerine bir
+(re)habilitated via hearing and speaking) is a right        değerlendirme. Hacettepe Üniv Sosyal Bilimler Derg
+for the parents to decide for their own child with          1981;4:76-100.
+hearing loss, there is a reality that only hearing      3. Plato. Cratylus. (translated by Jowett B). In: Hamilton
+                                                            E, Cairns H, editors. The collected dialogues of Plato.
+aids and hearing and speech methods did not                 Princeton: University Press.; 1961. p. 421-74. Available
+support all children with SBHL to provide them              from http://www.ancienttexts.org/library/greek/
+complete physical, mental, and social well-being            plato/cratylus.html [December 15, 2010]
+in Turkey. We estimate that the best success rate       4. Gleason JB. The Sociolinguistics of the Deaf
+of education via hearing and speech approach                Community. Science 1990;247:1127-8.
+                                                        5. United Nations Convention on the right of persons
+was 50% before NHS program started in 2003.                 with disabilities. Available from: http://www.
+Accordingly, the authors suggest drawing limits             un.org/disabilities/convention/conventionfull.shtml.
+of normality of human beings not through an axis            [January 7, 2012]
+lining on hearing and speech, but doing it through      6. World Health Organization. 1946. Available from:
+the landmarks of diversity. By this approach, we            http://www.who.int/bulletin/archives/80(12)981.pdf
+                                                            WHO definition of Health. [January 7, 2012]
+will certainly recognize that SL will provide more      7. Corker M. Disability politics, language planning
+information and cultural elements to share for all          and inclusive social policy. Disability & Society;
+and having SL in education to foster self-fulfillment       2000;15:445-62.
+through this enhanced sharing opportunity for the       8. Türkiye Özürlüler Araştırması-Turkey Disability
+deaf instead of the education by the oralist solo           Survey. 2002. Ankara: Başbakanlık DİE Publications
+                                                            (Publication No: 2913), DİE Press; 2004.
+hegemony which -for many citizens- deteriorating        9. Türkiye Özürlüler Araştırması-2002 İleri analiz
+‘hearing disability’ and result in person without           raporu. Available from: http://www.ozida.gov.tr/ [15
+having any language -and participating- efficiently.        Aralık 2011]
+It is clear that the deaf citizens using SL will        10. Genç A, Başar F, Kayıkçı ME, Türkyılmaz D, Fırat
+(economically and socio-culturally) contribute to           Z, Duran Ö, et al. Hacettepe Üniversitesi yenidoğan
+                                                            işitme taraması bulguları. Çocuk Sağ Hast Derg
+the society much more with self-fulfillment if they         2005;48:119-24.
+are not to be stereotyped, diagnosed and left out       11. Durgun Y, Fırat Y, Kalcıoğlu T, Selimoğlu E. İnönü
+The history of sign language and deaf education in Turkey                                                                  75
+
+
+    Üniversitesi yenidoğan işitme taramasında saptanan               UNUSU´ . HU´ B ‘‘sağır’’ Akten des IV. Internationalen
+    işitme kayıpları nedenleri. Turkish Otolarengol Arch             Kongress für Hethitologie. Würzburg, 4-8 October
+    2008;46:230-5.                                                   1999. In Studien zu den Boğazköy (Wiesbaden:
+12. Bolat H, Bebitoglu FG, Ozbas S, Altunsu AT, Kose                 Harrassowitz Verlag), 1999. p. 652-669.
+    MR. National newborn hearing screening program in            32. Murat L. Hitit Tarihi-Cografyasında Hakmiš ve
+    Turkey: struggles and implementations between 2004               İštahara Ülkelerinin Konumu. Ankara Üniversitesi
+    and 2008. Int J Pediatr Otorhinolaryngol 2009;73:1621-3.         Dil ve Tarih-Coğrafya Fakültesi Tarih Bölümü Tarih
+13. İstatistiklerle Türkiye. TÜİK Publ, Ankara; Publ. No:            Araştırmaları Dergisi 2008;27:182-203.
+    3592, 2011.                                                  33. Ladd P. Deafness and deafhood in western civilization-
+14. Gürboğa Ç, Kargın T. İşitme engelli yetişkinlerin farklı         towards the development of a new conceptual
+    ortamlarda kullandıkları iletişim yöntemlerinin/                 framework. In: Understanding Deaf Culture In Search
+    becerilerinin incelenmesi. JFES 2003;36:51-64.                   of Deafhood. Clevendon: Multilingual Matters Ltd;
+15. Milli Eğitim Bakanlığı Resmi İstatistikleri. Available           2003. p. 75-134.
+    from       http://sgb.meb.gov.tr/istatistik/arsiv.html       34. Johnson RE. Sign language, culture & community in
+    [December 15, 2011]                                              a traditional Yucatec Maya Village. Sign Language
+16. Ozsoy Y, Ozyurek M, Eripek S. Özel eğitime muhtaç                Studies, 1991. p. 73.
+    çocuklar. Özel eğitime giriş. Ankara: Karatape Publ.         35. Marsaja IG.Desa Kolok-A Deaf Village and Its Sign
+    1998.                                                            Laguage in Bali, Indenosia. Netherlands: Ishara Press;
+17. Girgin C. History of higher education provision for              2008.
+    the deaf in Turkey and current applications at the           36. Beckman G. Hittite literature-Chapter 5. In From
+    Anadolu University. TOJET 2006; 5(3)- Article 2 ISSN:            an Antique Land An Introduction To Ancient Near
+    1303-6521.                                                       Eastern Literature In: Ehrlich CS, editor. New York:
+18. Melekoglu MA, Cakiroglu O, Kimber MW. Special                    Rowman & Littlefield Pub; 2099. p. 215-54.
+    education in Turkey. Int J Inclusive Education               37. Papyrus Koller. Available from: http://www.reshafim.
+    2009;13:287-98.                                                  org.il/ad/egypt/texts/warnings_to_the_idle_scribe.
+19. Ozyurek M. İşitme engellilerde normalleştirme                    htm [December 15, 2011] (Original source: Gardiner
+    Anadolu Ün Eg Fak Derg 1989;2:107-11.                            AH. (1911, reprint 1964) Egyptian Hieratic Texts,
+20. Akcamete G. İşitme engellilerde dil ve konuşma. Özel             transcribed, translated and annotated. Series I: Literary
+    Eğitim Derg 1993;1:2-9.                                          Texts of the New Kingdom. Hildesheim: Georg Olms.
+21. Polat F. İşitme engellilerin eğitiminde kullanılan               p. 35-39, 84-86).
+    yöntemler Özel Eğ Derg 1995;2:24-32.                         38. Herodot Tarihi. Turkish translation: Perihan
+22. Belgin E, Aktaş F, Böke B, Çağlar A. The children                Kuturman. Hürriyet Yayınları-42 (Tarih Dizisi-5).
+    population with sensory-neural hearing loss in                   İstanbul: Yelken Matbaası; 1973.
+    Turkiye. Proceedings of the 2nd International Meeting        39. Mordecai. The book of esther. Available from: http://
+    in Audiology for the Mediterranean Countries; 1991.              www.globusz.com/ebooks/LegJew4/ 00000129.htm
+23. Belgin E. Ülkemizde işitme kayıplarının nedenleri-               [January 21, 2012]
+    özel eğitim yaklaşımları. Özel Eğ Derg 1992;1:6-7.           40. Gracer BL. What the Rabbis Heard: Deafness in the
+24. Ozcebe E, Sevinc S, Belgin E. The ages of suspicion,             Mishnah. Disability studies Quarterly 2003;23:192-205.
+    identification, amplification and intervention               41. Platon. Devlet. Ankara: Alter Yayıncılık; 2010.
+    in children with hearing loss. Int J Pediatr                 42. Information and resources related to American Sign
+    Otorhinolaryngol 2005;69:1081-7.                                 Language (ASL), Interpreting and Deaf. Info.com.
+25. Ozturk O, Silan F, Oghan F, Egeli E, Belli S, Tokmak             Available from: http://www.aslinfo.com/trivia.html
+    A, et al. Evaluation of deaf children in a large series in       [January 21, 2012]
+    Turkey. Int J Pediatr Otorhinolaryngol 2005;69:367-73.       43. Aristotle. Translated by Jowett B. Politics-Book 7.
+26. İşitme Engellilerin yükseköğrenim olanaklarının                  Available from: http://classics.mit.edu/Aristotle/
+    geliştirilmesi ve desteklenmesi için elektronik materyal         politics.7.seven.html [January 21, 2012]
+    hazırlanması (E-İşit) projesi (proje no: WBDM112614),        44. Miles M. Signing in the Seraglio: mutes, dwarfs and
+    Gazi University and IEGM Association; Dünya                      jestures at the Ottoman Court 1500- 1700. Disability &
+    Bankası Yaratıcı Kalkınma Fikirleri Yarışması-2009.              Society 2000;15:115-34.
+    Available at http://www.e-isit.com [15 Aralık 2011]          45. Miles, M. Deaf People, Sign Language and
+27. Yoshinaga-Itano C. Benefits of early intervention for            Communication, in Ottoman and Modern Turkey:
+    children with hearing loss. Otolaryngol Clin North               Observations and Excerpts from 1300 to 2009.
+    Am 1999;32:1089-102.                                             From sources in English, French, German, Greek,
+28. Şahlı AS, Belgin E. Ülkemizde işitme kayıplı çocuklarn           Italian, Latin and Turkish, with introduction and
+    profili ve tedavi yaklaşımları. Hacettepe Tıp Derg               some annotation. 2009. Internet publication Available
+    2011;42:82-7.                                                    from: www.independentliving.org/miles200907.html
+29. Turan FF, Akoğlu GG. İletişim, dil ve konuşma                    [December 15, 2010]
+    bozuklukları olan çocuklar. In: Baykoç N, editor. Özel       46. Education of the Deaf and Dumb. In The Catholic
+    gereksinimli çocuklar ve özel eğitim. Ankara: Eğiten             Encyclopedia. Avaialble from: http://www.newadvent.
+    Kitap; 2011. p. 335-58.                                          org/cathen/05315a.htm [January 22, 2012]
+30. Bingöl A. İletişim bağlamında mantık ve dil Ankara           47. Brelje HW Education of the Deaf in France. In: Global
+    Üniversitesi İlahiyat Fakültesi Dergisi 1999;40:195-15.          percpectives on the education of the deaf in selected
+31. Soysal, Y. 2001. Hitit din ve sosyal hayatında LU´/              countries. Oregon, Buttle Publ; 1999. p. 87-111.
+76                                                                                            Kulak Burun Bogaz Ihtis Derg
+
+
+48. Gök S. Dünyada ve Türkiye’de sağır dilsiz okulları              Basın-Yayın Mat., Niğde, Turkiye), 2008.
+    tarihçesi ve eğitim sistemleri. İstanbul: Hüsnü Tabiat      58. Özyürek A, İlkbaşaran D, Arık E. Türk İşaret Dili
+    Press; 1958.                                                    İnternet Sitesi (Turkish Sign Language Website). Koç
+49. Turgut K, Taşçı S. A historical perspective on first deaf       University, İstanbul; 2003. Available from http://
+    schools, Education Methods and Deafness in Turkey.              turkisaretdili.ku.edu.tr/ [December 15, 2010]
+    Conference of International Sign Language Users.            59. Kemaloglu YK. Milli bir kültür birikimi ve işitme
+    Gazi University, Ankara: October 21-23, 2011.                   engelliler toplumu için bir eğitim ve hizmet aracı
+50. Available from: http://www.devletarsivleri.gov.tr               olarak Türk işaret dili In: Dikyuva H, Zeshan U,
+51. Deringil S. İktidarın sembolleri ve ideoloji. II.               editörler. Türk İşaret Dili. Birinci Seviye. 1. Baskı.
+    Abdulhamit dönemi (1876-1909). translated by Güven              Niğde: Hamle Basın-Yayın Press; 2008.
+    GÇ from The well Protected domains: Ideology and            60. Özürlüler ve bazı kanun ve kanun hükmünde
+    Legitimation of Power in the Ottoman Empire (1876-              kararnamelerde değişiklik yapılması hakkında kanun.
+    1909). 3rd ed. İstanbul: YKY Yayınları; 2007.                   No: 5378, Date: 1.7.2005, Resmi Gazete: 7.7.2005, No: 25868.
+52. Arıkan Z. Latin harfleri. Ankara Üniversitesi Türk          61. Birinci Türk İşaret Dili Çalıştayı. Türk Dil Kurumu
+    İnkılâp Tarihi Enstitüsü. Atatürk Yolu Dergisi 1990;            Konferans Salonu. Ankara: 7-8 Haziran 2007.
+    II:1-19.                                                    62. Güncel Türkçe Sözlük. Türk Dil Kurumu. Available
+53. Göle N. Modern Mahrem. 10. Baskı. İstanbul: Metis               from: http://www.tdk.gov.tr/index.php?option=com_
+    Yayınları; 2010.                                                gts&view=gts [January 22, 2012]
+54. Baynton DC. Forbidden signs. American culture and           63. Kemaloğlu YK, Yaprak Kemaloğlu P, Bilgin C,
+    the campaign agaist sign language. Chicago: The                 Türkuğur Şahin B, Korkmaz HH, Ilhan M. Improving
+    University of Chicago Press; 1996.                              higher education settings for the deaf: E-Isit Project.
+55. Yetişkinler için işaret dili kılavuzu Ankara: MEB               Conference of International Sign Language Users,
+    Özel eğitim Rehberlik ve Danışma Hizmetleri Genel               Gazi Universitesi. Ankara: 21-23 Ekim, 2011.
+    Müdürlüğü Yayınları; 1995.                                  64. Yaprak Kemaloğlu P, Kemaloğlu YK, Barışık E. An
+56. Zeshan, U. Sign language in Turkey: The story of a              evolution of social institutions serving deaf people
+    hidden language. Turkic Languages 2002;6:229-74.                in Turkiye. SIGN5 International Conference of the
+57. Dikyuva H, Zeshan U. Türk işaret dili. Birinci seviye.          Sign Language Users, Gazi University, Ankara: 21-23
+    1st ed. Ishara Press, Nijmegen, (printed inHamle                October, 2011.
+

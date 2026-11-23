@@ -1,0 +1,916 @@
+                                                                                                                 ISSN 1304-7639
+                 ANKARA ÜNİVERSİTESİ EĞİTİM BİLİMLERİ FAKÜLTESİ
+                             ÖZEL EĞİTİM DERGİSİ
+
+                             Ankara University Faculty of Educational Sciences Journal of Special Education
+
+                     2008                                        Cilt: 9                                      Sayı: 1
+
+                                                        Yılda iki defa yayınlanır
+
+                                                            Yayın Türü
+                                             Akademik-Bilimsel Dergi, Yaygın Süreli Yayın
+
+                                                             Yayın Sahibi
+                                  Ankara Üniversitesi Eğitim Bilimleri Fakültesi Adına Fakülte Dekanı
+                                                       Prof. Dr. Gönül Akçamete
+
+                                                     Sorumlu Yazı İşleri Müdürü
+                                                         Doç. Dr. Pınar EGE
+
+                                                                 Editör
+                                                           Doç. Dr. Pınar EGE
+
+                                                         Editör Yardımcıları
+                                                    Yard. Doç. Dr. Berrin BAYDIK
+                                                   Öğr. Gör. Bahar KEÇELİ KAYSILI
+
+                                 Akademik Danışmanlar Kurulu (Soyadına Göre Alfabetik Sırada )
+
+                Doç. Dr. Funda ACARLAR                             Doç. Dr. Emine Gül KAPÇI
+                Prof. Dr. Gönül AKÇAMETE                           Doç. Dr. Tevhide KARGIN
+                Prof. Dr. Füsun AKKÖK                              Prof. Dr. Gönül KIRCAALİ-İFTAR
+                Prof. Dr. Ayşegül ATAMAN                           Prof. Dr. Elif TEKİN-İFTAR
+                Yard. Doç. Dr. Berrin BAYDIK                       Prof. Dr. Ahmet KONROD
+                Prof. Dr. Latife BIYIKLI                           Prof. Dr. Bekir ONUR
+                Prof. Dr. Figen ÇOK                                Prof. Dr. Mehmet ÖZYÜREK
+                Doç. Dr. Pınar EGE                                 Prof. Dr. Ayla AYSEV SOYKAN
+                Doç. Dr. Dilek ERBAŞ                               Assoc. Prof. Dr. Jane SQUIRES
+                Prof. Dr. Süleyman ERİPEK                          Prof. Dr. Bülbin SUCUOĞLU
+                Prof. Dr. Selim HOVARDAOĞLU                        Prof. Dr. Seyhun TOPBAŞ
+                Prof. Dr. Sema KANER                               Prof. Dr. Yıldız UZUNER
+
+
+                                                         Yayın İdare Merkezi
+   Ankara Üniversitesi Eğitim Bilimleri Fakültesi Özel Eğitim Bölümü, Ziya Gökalp Bulvarı, Cebeci Yerleşkesi 06590 Cebeci, Ankara,
+                                                               TÜRKİYE
+
+                                                          Sürdürüm ve İletişim
+                                Tel: 0 (312) 363 33 50 / Dahili: 3001-3008-3010 Fax: 0 (312) 363 61 45
+                                 E-posta: ege@education.ankara.edu.tr ozelegitimdergisi@gmail.com
+
+                                                   Teknik Koordinasyon Sorumlusu
+                                                     Öğr. Gör. Bahar Keçeli Kaysılı
+                                                        Arş. Gör. Zeynep Bahap
+
+                                                            Basımcının Adı
+                                                      Ankara Üniversitesi Basımevi
+                                           İncitaşı Sokak No: 10, 06510 Beşevler \ ANKARA
+
+                                                         Basımcının Telefonu
+                                                         Tel : 0 (312) 213 66 55
+
+                                                         Basım Tarihi ve Yeri
+                                                 Basım tarihi :......\......\.2009 ANKARA
+
+
+                                   Bu dergi 1995 yılından beri hakemli dergi olarak yayınlanmaktadır.
+Tüm hakkı saklıdır. Bu derginin tamamı ya da dergide yer alan bilimsel çalışmaların bir kısmı ya da tamamı 5846 yasanın hükümlerine göre
+ Ankara Üniversitesi Eğitim Bilimleri Fakültesi Dekanlığının yazılı izni olmaksızın elektronik, mekanik, fotokopi ya da herhangi bir kayıt
+                                                 sistemiyle çoğaltılamaz, yayımlanamaz.
+                                                     Duyuru
+
+
+     Sayın Okuyucu,
+
+
+    Ankara Üniversitesi Eğitim Bilimleri Fakültesi Özel Eğitim Dergisi ile ilgili bazı değişiklikleri önceden
+duyurmuştuk. Kısa bir hatırlatma yapalım.
+      Bunlardan ilki, 2006 yılının, 7. cildinin. 2. sayısından itibaren yazarların, çalışmalarını genişletilmiş
+İngilizce özeti içerecek şekilde dergimize yollamaları ile ilgiliydi.
+     İkinci duyurumuzda, Ankara Üniversitesi Yönetim Kurulunun, Üniversitemiz bünyesinde yayınlanan
+dergiler ile ilgili aldığı karara göre, Ankara Üniversitesi öğretim elemanlarının Üniversitemiz Bilimsel
+Dergilerinde yayınlanan makalelerinin aynı zamanda Üniversitemiz Açık Arşivinde de yer alacağını ve
+Dergimize çalışmalarını yollayan Üniversitemiz öğretim üyesi olan yazarların, yayınlanmak üzere kabul gördüğü
+zaman çalışmalarının Açık Arşivde de yayınlanacağını kabul etmiş olacaklarını iletmiştik.
+      Son duyurumuz ise Ankara Üniversitesi Eğitim Bilimleri Fakültesi Özel Eğitim Dergisi’nin bundan böyle
+internet ortamında da ücretsiz olarak izlenebileceği ile ilgiliydi. Adresimizi yineliyoruz:
+     http://ankara.edu.tr/kutuphane/Yayinlar/dergiler/ozel_egitim.html
+     Dergiyle ilgili görüşlerinizi ve beklentilerinizi iletmenizi bekliyoruz. Tabii ki makalelerinizi de.
+     Saygılarımızla.
+
+
+                                                                                                      Editör
+                                                                                                 Doç. Dr. Pınar Ege
+                                                                       İÇİNDEKİLER
+
+
+Editörden                                  Duyuru............................................................................................................................ iii
+
+
+Ayşegül ATAMAN                             Gazi Eğitim Enstitüsü Özel Eğitim Şubesi ................................................................ … 1
+
+
+Latife ÖZAYDIN
+Elif TEKİN-İFTAR                           Arkadaşlık Becerilerini Geliştirme Programının Özel Gereksinimi Olan Okul Öncesi
+Sema KANER                                 Çocuklarının Sosyal Etkileşimlerine Etkisi .................................................................. 15
+
+
+Dilek ERBAŞ                                Özel Gereksinimli Öğrencilere Genel Para Kullanımını Öğretme................................ 35
+
+
+Sezgin VURAN                               Sosyal Geçerlik Kavramı ve Türkiye’de Özel Eğitim Alanında Yürütülen Lisansüstü
+Mine SÖNMEZ                                Tezlerde Sosyal Geçerliğin Değerlendirilmesi ............................................................. 55
+
+
+Bahar KEÇELİ-KAYSILI                       Akademik Başarının Arttırılmasında Aile Katılımı ...................................................... 69
+
+
+Bülbin SUCUOĞLU                            Kitap Tanıtımı: Zihin Engelliler ve Eğitimleri ............................................................. 87
+
+
+
+
+Kongre ve Sempozyum Duyuruları ................................................................................................................................. 89
+
+
+Özel Eğitim Dergisi Yazım Kuralları.............................................................................................................................. 93
+
+
+Hakemler Kuruluna Teşekkür .................................................................................................................................... 101
+
+
+
+
+                     İsteme Adresi: Ankara Üniversitesi, Eğitim Bilimleri Fakültesi Özel Eğitim Bölümü
+                                                 06590 Cebeci - ANKARA
+                               Tel: 0 (312) 363 33 50/3001/3008 Faks: 0 (312) 363 61 45
+
+
+
+
+                                                                                       i
+                      GAZİ
+    Ankara Üniversitesi      EĞİTİM
+                        Eğitim BilimleriENSTİTÜSÜ
+                                         Fakültesi ÖZEL EĞİTİM ŞUBESİ İLK MEZUNLARI                                         1
+    Özel Eğitim Dergisi
+    2008, 9 (1) 1-13
+
+
+
+
+          Gazi Eğitim Enstitüsü Özel Eğitim Şubesi İlk Mezunları
+
+
+
+
+                                                  Ayşegül Ataman*
+
+                                                      Gazi Üniversitesi
+
+
+
+
+                                                               Özet
+      Özel eğitim alanında Türk Eğitim sisteminde yer alan en önemli deneyim şüphesiz Gazi Eğitim Enstitüsünde açılmış
+olan şubedir. 1952-1955 yılları arasında daha sonra hem özel eğitim hem de psikoloji alanında duayen olan öğretim
+üyelerinin yetişmesine neden olan bir program yapısına sahipti. Bu yapının bilinmesi yeni yetişen kuşaklara bu alanda kat
+edilen yolu göstermesi bakımından ve üniversitelerde mevcut olan programların nitelikleri hakkında bir bilgi vereceği
+düşünülerek belgelere dayalı bir paylaşımın kaleme alınmasının gerekli olduğu sonucuna varılmıştır.
+
+
+                                                             Abstract
+                       First Graduates of the Special Education Branch of Gazi Institute of Education
+       This article presents information on the founding of the first insitution in Turkey about special education, The Gazi
+Institute of Education, special education branch. It traces the legislative groundwork developed by the ministery of education
+since the early 1950’s and the evolution of the concepts and definitions included in the laws and bylaws. The coarsework
+offered in earlier programs and the earlier graduates, many of whom made significant contributions to the field of special
+education in Turkey, have also been listed.
+
+
+       GEE Özel Eğitim Şubesinin Kuruluşu                                 Şubenin Kuruluş Gerekçesi:
+     1949- 1950 yıllarında zamanın enstitü müdürü                       MEB'in, GEE Müdürlüğüne yazdığı 16 Mayıs
+olan Reşat Tardu’nun, Mitat Enç’e verdiği destekle                 1952 tarih ve 41003/4720 sayılı yazıda Özel Eğitim
+ve kendisi Milli Eğitim Bakanlığı Müsteşarı                        Bölümü'nün açılış gerekçesi; "Kör, sağır-dilsiz, geri
+olduktan sonra GEE içinde bir Özel Eğitim                          zekalı ve eğitimi güç çocuklarla üstün zekalı
+Bölümünün açılması gerçekleşmiştir.                                çocukların okutulacakları okul ve sınıflara uzman
+*
+   Prof. Dr. Ayşegül Ataman, Gazi Üniversitesi, Gazi Eğitim Fakültesi, Özel Eğitim Bölümü, Ankara. E-posta:
+ataman@gazi.edu.tr
+
+
+
+
+                                                                                                   ÖZEL EĞİTİM DERGİSİ
+2                                             AYŞEGÜL ATAMAN
+
+
+
+
+öğretmen, baş öğretmen ve müfettiş yetiştirmek                2. 60 Objektif sorudan oluşan öğretmenlik
+üzere açılması uygun görülmüştür." şeklinde             bilgi testi,
+belirtilmiştir.
+                                                            3. 4 sorudan oluşan ESSE Tipi, yarı objektif,
+     "Özel Eğitim Alanı"nın kapsamına giren engel       yazma alanı sınırlı olan meslek bilgisini ölçmeyi
+grupları da aşağıdaki gibi belirlenmiştir.              amaçlayan bir sınav, yapılmıştır.
+     (i) Beden özürlüler: Görme özürlüler, işitme             4. Bu üç testten en üst puan alan 80 aday
+özürlüler, beyin özürlüler ortopedik özürlüler,         [GEE'de] üç kişiden oluşan uzman bir grup
+konuşma özürlüler, sürekli bakım isteyenler (kalp,      tarafından mülakata alınmıştır.
+şeker, verem gibi hastalıkları olanlar).
+                                                              Her adayın zeka testi, bilgi testleri ve mülakat
+      (ii) Zihinsel farklılıkları olanlar: Üstün        testi sonuçları toplanarak öğrenci olmak üzere 30
+zekalılar, üstün özel yeteneği olanlar (müzik, resim    asil, 10 yedek aday belirlenmiştir. Bunlardan, tam
+vb.), geri zekalılar.                                   teşekküllü bir devlet hastanesinde heyet
+                                                        muayenesinden sonra sağlam olduğu belirlenenler
+      (iii) Toplumsal açıdan farklılık gösterenler:
+                                                        öğrenci olarak alınmıştır.
+Korunmaya muhtaç (kimsesiz, terk edilmiş ya da
+ailesinde kötü muamele gören) çocuklar, suça                  Bölümün eğitim ve öğretim programları,
+yönelmiş çocuklar, heyecansal ya da davranışsal         öğretim üyeleri tarafından saptanmış ve 1952
+bozuklukları olanlar.                                   yılının Ekim ayında öğretime başlanmıştır. Öğretim
+                                                        üyeleri, alanında ün yapmış ABD'li, Alman, ve
+     (iv) Öğrenme güçlüğü olanlar: "Muhtemel
+                                                        Avusturyalılardan sağlanmıştır (Bu öğretim
+bir beyin özrü ya da psikolojik bir özür sonrası
+                                                        üyelerinden bazıları; Dr. C. P. Ingram, Prof.
+konuşma, dil, okuma, yazma, aritmetik ya da diğer
+                                                        Freundhaller, Dr. C. Prescott, Miss Harriet F.
+konulardaki gerilik, düzensizlik, bozukluk ya da
+                                                        McLaughlin, Dr. Robert Barisak’dır). Batıda eğitim
+gecikmiş gelişme" gösterenler.
+                                                        ve öğretim kurumlarında çağdaş gelişmeler dikkate
+     (v) Bu özürlerden birden fazlasına maruz           alınarak en yeni derslerin programda yer alması
+kalanlar. [Enç ve diğerleri 1981' s. 5-7]               sağlanmış ve dersler, uygulamaya özel önem
+                                                        verilerek işlenmiştir.
+     İlk Öğrencilerin Kabulü:
+                                                              Özel Eğitim Şubesi’ne, 1953 -1954 öğretim
+      Prof. Dr. Doğan Çağlar’ın Dr. Niyazi              yılında aynı yöntemlerle 20 öğrenci daha alınmıştır.
+Altunya’ya yollamış olduğu mektuptan elde               Bölüm, 1954 yılı Haziran ayında 40, 1955 yılı
+ettiğimiz bilgilere göre (Altunya, 2006), Milli
+                                                        Haziran ayında 20 olmak üzere 60 mezun vermiştir.
+Eğitim Bakanlığı Talim ve Terbiye Kurulunun 14
+Mayıs 1952 tarih ve 52 sayılı kararı ve 14 Mayıs              1954 yılında da Özel Eğitim Şubesine 20
+1952 tarihli Milli Eğitim Bakanı Tevfik İleri’nin       öğrenci daha alınmıştır. Ancak bu öğrenciler, ikinci
+onayı ile GEE'de bir Özel Eğitim Şubesi açılmıştır.     sınıfa geçtikleri halde, 20 Temmuz 1955 tarih ve
+Bu şubede, özel eğitime muhtaç çocukların eğitim        325.21/2243 sayılı Maarif Vekaleti Talim ve
+ve öğretimleri için uzman öğretmen yetiştirilmesi       Terbiye Dairesi Başkanı tarafından sunulan iki
+amaçlanmıştır. Özel Eğitim Şubesi’ne 1952-1953          sayfalık bir mütalaa raporuna göre, 26 Temmuz
+öğretim yılında öğretmenlik deneyimi olan 40            1955 tarihinde Maarif Vekili Celal Yardımcı'nın
+öğrenci alınarak öğretime başlanmıştır.                 onayı ile kapatılmış ve bu 20 kişilik grup Pedagoji
+                                                        Bölümü'ne aktarılmıştır.
+     Açılan bu şubeye öğrenci olmak üzere
+mesleğinde başarılı olduğunu kanıtlamış 421
+ilkokul öğretmeni başvurmuştur. Türkiye' de ilk
+defa açılan Özel Eğitim Şubesi’ne öğrenci olarak
+başvuran adayların seçiminde ilk olarak:
+     198 sorudan oluşan bir Zeka Testi (Thurstone
+Sürat Kavrayış Testi),
+
+
+
+
+2008, 9 (1)
+                   GAZİ EĞİTİM ENSTİTÜSÜ ÖZEL EĞİTİM ŞUBESİ İLK MEZUNLARI                                  3
+
+
+
+
+   ÖZEL EĞİTİM ŞUBESİ'NE ÖĞRENCİ                             Müdür Fuat Baymur (Kaynak: GEE Müdürlük
+ALIMI İLE İLGİLİ GEE MÜDÜRLÜĞÜ'NÜN                      Arşivi, Akt; Altunya, 2006).
+DUYURUSU (17.5.1952)
+     1. Enstitümüzde kör, sağır-dilsiz, geri zekalı,
+                                                            MEB'İN ÖZEL EĞİTİM BÖLÜMÜ'NÜN
+eğitimi güç çocuklarla üstün zekalı çocukların
+                                                        İŞLEYİŞİYLE İLGİLİ YAZISI
+okuyacağı okul ve sınıflara öğretmen, başöğretmen
+ve müfettiş yetiştirmek maksadıyla özel bir şube             Milli Eğitim Bakanı imzasıyla 1952 de GEE
+açılmıştır.                                             yollanan yazıda aşağıda belirtilen hususlar üzerinde
+                                                        durulmuştur (Altunya, 2006).
+     2. Bu şubenin öğrenim süresi iki yıldır.
+                                                            Enstitünüzde açılmış olan Özel Eğitim
+      3. Bu şubeye alınacaklar esas itibarıyla 688
+                                                        Bölümü'nün çalışmaları aşağıdaki esaslara göre
+sayılı Tebliğler Dergisinde 3323 sıra numarasıyla
+                                                        düzenlenecektir:
+yayınlanan genelge ve eki olan geçici yönetmelik
+hükümlerine tabi tutulacaklardır. Ancak, bu yıla             1. Amerika'dan getirtilen uzmanlarla Enstitü
+mahsus olmak üzere:                                     Müdürü, öğretmenlerden Mithat Enç ve Bakanlık
+                                                        Talim ve Terbiye Kurulu üyesi Remzi Öncül'den
+    a) Bu şube için müracaat süresi Temmuz 1952
+                                                        teşekkül edecek bir komisyon tarafından Özel
+sonuna kadar uzatılmıştır.
+                                                        Eğitim Bölümünün programı ve ders dağıtma
+    b) Bunların fiş dilekçeleri Ağustos 1952            cetveli, mümkün olduğu kadar kısa bir zamanda
+sonuna kadar Enstitümüze gönderilecektir.               hazırlanacak ve tasdik olunmak üzere Bakanlığa
+                                                        gönderilecektir.
+      c) Adaylar, illerde ayrıca bir eleme imtihanına
+tabi tutulmayarak diğer şubelere gireceklerle                Bu komisyonca aynı zamanda:
+birlikte, ekim ayının ilk haftasında Enstitüde
+                                                             a) Özel Eğitim Bölümüne alınacak
+Türkçe Kompozisyon, Ruhbilim, Pedagoji, Genel
+                                                        öğrencilerin seçme imtihanı şekli tesbit edilip
+ve Özel Öğretim Metodundan giriş imtihanı
+                                                        uygulanacak;
+geçireceklerdir.
+                                                              b) İzmir Sağırlar Okulu Müdürü ile İstanbul,
+     4. Bu şubeye alınacak adaylarda yukarıda
+                                                        Ankara ve İzmir ilköğretim müfettişlerinden
+bahsi geçen yönetmeliğin 8. maddesinde gösterilen
+                                                        yetiştirme yurtları işleriyle ilgili birer tanesinin
+genel şartlardan başka şu şartlar da aranacaktır:
+                                                        Özel Eğitim Bölümünde kısa bir müddet için staj
+    a) Öğretmen Okulu veya Köy Enstitüsü                yapmaları; şimdiki halde yetiştirme yurtlarında
+mezunu olmak,                                           çalışmakta olan öğretmen ve idarecilerin,
+                                                        bölgesinde yetiştirme yurdu bulunan milli eğitim
+     b) En az iki ders yılı başarı ile ilkokul
+                                                        müdür ve muavinleri ile ilköğretim müfettişlerinin
+öğretmenliği yapmış olmak,
+                                                        kısım kısım kurstan geçirilmeleri için bir plan
+      c) Bu şubeye alınacak vasıfta olduğu              hazırlanıp Bakanlığa gönderilecektir.
+(kendisinde mesleki alaka, çocuklara karşı şefkat,
+                                                              2. Enstitü kadrosundan ücret verilerek bir yıl
+şahsi azim ve sabır bulunduğu) müfettiş,
+                                                        süre ile çalıştırılacak Amerikalı uzmanlar;
+başöğretmen veya milli eğitim memurunun
+mütalaası alınmak suretiyle milli eğitim                     a) Özel Eğitim Bölümü'nde ders okutacaklar;
+müdürlüğünce tespit edilmiş bulunmak (Bu hususu
+                                                            b) Enstitü içinde veya dışında Özel Eğitim
+tespit eden belge fiş dilekçe ile beraber Enstitüye
+                                                        konusunda açılacak kurslarda görevlendirilecekler;
+gönderilecektir.).
+                                                               c)Türkiye'de test usulünün uygulanmasıyla
+     5. Keyfiyetin ilgililere duyurulmasına ve
+                                                        ilgili çalışmaları geliştirmeye yardım edeceklerdir.
+gereğinin yapılmasını rica eder, saygılarımı
+sunarım.                                                     3. Birleşik Amerika Hükümetince, dört ay
+                                                        Türkiye' de kalmak üzere, Ekim ayı içinde
+
+
+
+
+                                                                                   ÖZEL EĞİTİM DERGİSİ
+4                                              AYŞEGÜL ATAMAN
+
+
+
+
+memleketimize gönderilecek olan New York 47.                Eğitim Bölümü için hazırlanacak program, ilk ve
+Sağırlar ve Zor İşitenler Lisesi Müdürü Miss                ortaokul programlarının çocuk eğitimi ile ilgili
+Harriet F. McLaughlin, Enstitünüzde ihtisasiyle             kısımlarından çıkarılacak özetler, İngilizceye
+ilgili konularda dersler ve serbest konferanslar            tercüme ettirilerek bu uzmanlara verilecektir.
+verecektir.
+                                                                  7. Özel Eğitim Bölümünün yerli ve yabancı
+     4. İkinci ve üçüncü maddelerde sözü geçen üç           meslek dersleri öğretmenlerinden müteşekkil
+yabancı uzmanın, yetiştirme yurtlarından bir kaçını,        komisyon sık sık toplanacaktır. Bu komisyon özel
+bu meyanda İstanbul ve İzmir'i ziyaret etmeleri,            eğitime muhtaç çocuklar mevzuu üzerinde personel
+oralarda konferanslar vermeleri, ayrıca Bakanlık            yetiştirme işini planlayarak bu planı Bakanlığa
+merkezinde konferanslar vermeleri hususu da                 gönderecektir. Bakanlığımıza, özel eğitime muhtaç
+bunların çalışma programlarına alınacaktır.                 çocuklar bahsinde, ilmi danışma kurulu vazifesini
+                                                            de görecek olan bu komisyonun ilk meşgul olacağı
+      5. Öğretmen Mithat Enç ile Ertuğrul
+                                                            mevzulardan birisi de yetiştirme yurtlarının türlü
+Günışık, Özel Eğitim Bölümünde ders okutmakla
+                                                            tipten öğrencilere göre nasıl organize edileceğidir.
+beraber, bu bölümde çalışacak yabancı uzmanların
+                                                            Komisyon bu hususta gerekli incelemeleri yaparak
+tercümanlığını da yapacaklardır. Miss Mc Laughlin
+                                                            Bakanlığımıza bir rapor verecektir.
+için ayrı bir tercüman verilecektir.
+                                                                 8. Özel Eğitim Bölümü derslerinin uygulamalı
+     6.    Yabancı     uzmanların   çalışmalarını
+                                                            olarak okutulmasına son derece dikkat edilecek;
+kolaylaştırmak üzere, Korunmaya Muhtaç Çocuklar
+                                                            müesseseniz yanındaki binaya yerleşen Körler
+Hakkındaki 5387 sayılı kanun ile diğer
+                                                            Okulu ile Etimesgut'ta kurulacak Sağırlar
+kanunlardaki bu konuyu ilgilendiren hükümler,
+                                                            Okulundan uygulama hususunda faydalanılacaktır.
+Yetiştirme Yurtları Yönetmeliği, Enstitünüz Özel
+Tablo 1
+Özel Şubede Okutulacak Ders Cetveli
+                                     A. GENEL MESLEK DERSLERİ
+DERSİN ADI                                        HAFTADAKİ DERS SAYISI (SAAT)
+Genel Psikoloji                                   2    Bu dersler şubenin bütün öğrencileri tarafından takip
+Eğitim Ruhbilimi                                  2    edilecektir
+Metot                                             3
+Rehberlik                                         3
+                                         B. ÖZEL MESLEK DERSLERİ
+Üstün ve Geri Zekalı Çocuklar                     2    Bu dersler şubenin bütün öğrencileri tarafından takip
+Ölçme Tekniği ve Test                             2    edilecektir
+Özel Eğitime Muhtaç Çocukların Eğitimi            2
+I.Az Görenler ve Körler için                           II. Az İşitenler, Sağırlar ve Konuşma Bozuklukları
+                                                       Olanlar
+Körlerin Genel Psikolojisi ve Eğitim Metodu       2    Sağırlık Psikolojisi                                    2
+Meseleleri
+Özel Öğretim Metodu                               2    Sağırlar İçin Özel Öğ. Metodu                           2
+III. Terbiyesi Zor Çocuklar                            IV.Beden Sakatlıkları Olanlar
+Sosyal Bozukluk                                   2
+Vak'a İncelemeleri                                2
+V. Üstün ve Geri Zekalı Çocuklar
+                                   C. SEÇİMİ SERBEST OLAN DERSLER
+
+
+
+
+2008, 9 (1)
+                     GAZİ EĞİTİM ENSTİTÜSÜ ÖZEL EĞİTİM ŞUBESİ İLK MEZUNLARI                                            5
+
+
+
+
+Terbiye Tarihi                                          2
+Sosyoloji veya Eğitim Sosyolojisi                       2
+Yabancı Dil                                             4
+Maarif Teşkilatı, Teftiş ve İdare                       2
+Resim-İş                                                4
+Beden Eğitimi                                           2
+Müzik                                                   4
+Not: Diğer şubelerdeki ders imkanlarına göre seçmeli dersler arasına genel kültür derslerinden
+Bazıları da katılabilir.
+
+
+   ÖZEL  EĞİTİM                  BÖLÜMÜ           DERS             •     Maksada uygun bir özel eğitim programının
+PROGRAMLARI                                                              esasları.
+     1953 yılında uygulanmış olan                    ders          •     Özel eğitim programına sarf olunacak para.
+programlarından iki örnek vermek gerekirse;
+                                                                         III. Amerika' da özel eğitim:
+     ÖZEL EĞİTİM ALANI [I. Sınıf, I. Sömestr,
+haftada 2 saat]                                                    •     Kanun yoluyla sağlanan imkanlar.
+
+     Dersin Anahatları:                                            •     Bu hususla ilgili kanun muhteviyatı.
+
+     I. Başlangıç:                                                 •     Bu maksat için yetiştirilmiş öğretmenler.
+
+•    Özel Eğitim nedir? Bu özel eğitim alanının                    •     Eğitimin ailede, hastanede, okullarda, resmi ve
+     hedef tuttuğu gaye ve amaçların açıklanması.                        özel müesseselerde güttüğü maksat.
+
+•    Eğitimde demokrasi fikri.                                     •     Özel eğitim alanı ile ilgili olan sağlık, sosyal
+                                                                         yardım ve tedavi ile normal duruma sokma
+•    Bütün çocuklarda mevcut ferdi farklar.                              servis ve merkezleri.
+•    Özel eğitime ihtiyaç gösteren çocuklar.                       •     Okul ve aile işbirliği.
+•    Özel eğitim alanında Amerika’da İngiltere ve                        IV. Görüş arızaları mevcut çocuklar:
+     Türkiye'de alınan tedbirler.
+                                                                   •     Tarif- sebepleri -adedi.
+•    Özel eğitimin dayandığı esaslar.
+                                                                   •     Çocukluktan        itibaren   yaşlarına     göre
+•    Özel Eğitime Muhtaç Çocukların, Türkiye'de,                         sınıflandırma.
+     bu ihtiyaçlarının tanınması.
+                                                                   •     Görme arızası mevcut çocukların teşhis ve
+      II. Özel eğitime ihtiyaç gösteren muhtelif                         incelenmesi.
+tip çocuklar ve bunların ihtiyaçları:
+                                                                   •     Sınıf, malzeme ve araçlar.
+•    Özel eğitime ihtiyaç gösteren çocuklar da
+     dahil olmak üzere bütün çocukların                            •     Öğretim programı.
+     bebeklikten      yetişkinlik    anına kadar                   •     Okulların nevileri.
+     geçirdikleri inkişaf safhaları.
+                                                                         V. İşitme arızaları olan çocuklar:
+•    Özel eğitime ihtiyaç gösteren çocuğun eğitim
+     ve gelişimini tehdit eden arızalar.                           •     Tarif - sebepleri - adedi.
+•    Ferde göre özel eğitimin maksadı.                             •     Bu gibi çocukların meydana çıkarılması ve
+                                                                         durumlarının teşhisi.
+
+
+
+
+                                                                                                   ÖZEL EĞİTİM DERGİSİ
+6                                               AYŞEGÜL ATAMAN
+
+
+
+
+•    Özel malzeme ve metodları.                           •   Eğitime tedavi programlarının sokulması.
+•    Öğretim programı.                                        X. Özet:
+•    Programın ve öğretim malzeme ve araçlarının          •   Özel eğitime duyulan ihtiyaç.
+     geliştirilmesi.
+                                                          •   Devlete ve onun eğitim sistemine düşen
+     VI. Sakat durumda olan çocuklar:                         mecburiyet ve sorumluluklar.
+•    Tarifi - sebepleri - sayısı.                         •   Özel eğitimle ilgili kanun.
+•    Bu gibi çocukları meydana çıkarma ve                 •   Bir özel eğitim plan ve programının dayandığı
+     durumlarının teşhisi.                                    esaslar
+•    Muhtelif cins sakatlıklar ve ihtiyaç duyulan             [Öğretmen: Dr. Christina P. Ingram]
+     özel servis merkezleri.
+                                                              VAK' A İNCELEMELERİ
+•    Bu gibi çocukların tedavi ve eğitiminde elzem            [II. Sınıf, 3. Sömestr, Haftada 2 saat]
+     olan bina ve araçlar.
+                                                              Dersin Ana hatları
+•    Okulda, hastanede ve evde eğitim.
+    VII. Özel        sağlık    problemleri    mevcut          I. Başlangıç:
+çocuklar:                                                 •   Vak'a incelemesi nedir?
+•    Kalp, ciğer, verem vs. durumları.
+                                                          •   İdareci,   öğretmen    ve     velinin    vak'a
+•    Tababet ve sağlık ihtiyaçları.                           incelemesinden beklediği esaslar nelerdir?
+•    Evde, hastanede ve bir müessesede eğitimleri.        •   İncelemeye ihtiyaç gösteren problem çocuklar.
+     VIII. Fikri kabiliyetleri birbirinden farklı            II. Üstün zekalı çocukların incelenmesinde
+olan çocuklar (Üstün zekalılar ve öğrenimi yavaş          umumi esaslar:
+olanlar):
+                                                          •   Bu çocukların ilk olarak birçok bakımlardan
+•    Zeka bakımından ferdi farklar.
+                                                              diğer çocukların aynı olduğu dikkate alınarak,
+•    Geri zekalıların sayısı ve geriliğin dayandığı           arıza veya normalden inhirafları ikinci
+     sebepler.                                                derecede düşünülmelidir.
+•    Öğrenimi yavaşlar için eğitim programı.              •   Eğitim ruhbilimi ve çocuk gelişimi hakkındaki
+•    Üstün zekalı çocukların sayısı.                          esaslan kısaca gözden geçirme.
+•    Üstün zekalılar alanında kaydolunan son              •   Çocukları anlamada öğretmene              ve   okul
+     gelişmeler.                                              müdürüne düşen sorumluluk.
+•    Üstün zekalılar için hazırlanacak eğitim                 III. Çocuğun incelenmesi:
+     programı.
+                                                          •   Açıklayıcı vak' a incelemeleri.
+     IX.     Eğitimi    zor   çocuklar        [Sosyal
+intibaksızlığı görülen çocuklar]:                         •   Bu gibi vak'alarda meşgul olacak müessese ve
+                                                              merkezler.
+•    Tavrı hareket       problemleri     ve   bunların
+     sebepleri.                                           •   Kültürel ve sosyal çevre (muhit)
+
+•    Ferdin incelenmesi.                                  •   Aile
+                                                          •   Fiziksel şartlar ve tarihçe.
+•    Amerika'daki araştırmaların ortaya koyduğu
+     neticeler.                                           •   Gelişim tarihçesi.
+
+
+
+
+2008, 9 (1)
+                   GAZİ EĞİTİM ENSTİTÜSÜ ÖZEL EĞİTİM ŞUBESİ İLK MEZUNLARI                                       7
+
+
+
+
+•   Eğitim.                                                •      Bilgiyi müşahede ve konuşmalarla toplama.
+•   Halihazır durum, kabiliyetler, engeller,               •      Anket, test ve değerlendirme ölçülerinin
+    alakadar sosyal münasebetler, davranışlar ve                  kullanılışı.
+    kıymetler.                                             •      Dosya tutma.
+    IV. İnceleme metotları:                                       VI. Özet:
+•   Bilgi ve malumat kaynakları.                           •      Çocuk gelişiminde rehber olacak prensipler.
+•   Öğretmen ve sosyal rehberlik işine düşen               •      İncelemeye ihtiyaç gösteren problem çocuklar.
+    ödevler.
+                                                           •      Maksada vefa edecek olan bir vak' a
+•   Tıp doktoru, psikiyatrist, hemşire ve sosyal                  incelemesinin karakteristik özellikleri.
+    işçi.
+                                                           •      Vak' a incelemesinde öğretmenin yapacağı
+•   Vak'a konferansları.                                          yardım.
+•   Tasvir edici vak'a etütleri.                                  [Öğretmen: Dr. Christina P. Ingram]
+    V. Öğretmenin çocukları incelemesi:                         Prof. Dr. Doğan Çağların özel dosyası (2007)
+•   Öğretmenin      davranışı      ve   değerlendirme      arasında yer alan bilgilere göre ilk öğrencilerin
+    ölçüleri.                                              dökümü, esas ve yan branşlara dağılımları,
+                                                           mezuniyetleri     sonrası    atandıkları   görevler,
+•   Ev, topluluk ve aile hakkında bilgi toplama.           danışman listesini şöylece belirtebiliriz.
+•   Etüt etmede kullanılan metotlar.
+          Tablo 2.1
+          İlk Öğrencilerin Listesi
+                                              1952-1953   Ders yılı
+                   1. Sırrı Karaüç                             19. İsmail Yalçınkaya
+                   2. Doğan Çağlar                             20. Mehmet Kasım Coşan
+                   3. Yakup Ertosun                            21. Hasan Kaya
+                   4. Sabiha Ay                                22. Hüsamettin Daldal
+                   5. Hasan Karatepe                           23. Hüseyin Uysaloğlu
+                   6. Ali Abbas Demirhan                       24. Ahmet Özsevim
+                   7. İbrahim Yurt                             25. Mehmet Kaya
+                   8. Salih Zeki Tütüncü                       26. Hüseyin Pekmezcioğlu
+                   9. Hüseyin Remzi Güner                      27. Besim Alpaslan
+                   10. Yahya Özsoy                             28. Müfit Seylam
+                   11. Hıdır Özdağ                             29. Rifat Çetiner
+                   12. Hasan Akdemir                           30. Selahattin Güvenç
+                   13. Veli Küpeli                             31. Tayyip Kabak
+                   14. Refik Çetintepe                         32. Nail Uslu
+                   15. Faruk Oğuz                              33. Hacer Çakır
+                   16. Hüseyin Kılıç                           34. Kamil Varlık
+                   17. Süleyman Başkaya                        35. Edip Aydın
+                   18. Cevat Yücel
+       Tablo 2.2
+       Derecelerine göre yedek adayları
+
+
+
+
+                                                                                        ÖZEL EĞİTİM DERGİSİ
+8                                             AYŞEGÜL ATAMAN
+
+
+
+
+              411       Mustafa Akün
+              433       Sami Can
+              76        Şaban Dede
+              200       Abdullah Baltacı
+              246       Ali Koçak
+
+
+
+Tablo 3
+Özel Eğitim Bölümü Öğrencilerinin Esas ve Ek Branşlara Ayrılışını Gösterir Çizelge
+                                    ESAS BRANŞA AYRILANLAR
+ Körler                    Sağırlar                    Üstün ve geri zekalı             Eğitimi güç
+ Sırrı Karaüç              H. Remzi Güner              Doğan Çağlar                     Yakup Ertesur
+ Veli Küpeli               Yahya Özsoy                 Sabiha Ay                        Hasan Karatop
+ Hüseyin Uysaloğlu         Mehmet Kayahan              A.Abbas Demirhan                 S.Zeki Tütünel
+ Besim Alpaslan                                        İbrahim Yurd                     Hıdır Özdağ
+ Müfit Seylan                                          Hasan Akdemir                    Faruk Oğuz
+                                                       Refik Çetintepe                  Hüseyin P. Oğlu
+                                                       Süleyman Başkaya                 Rifat Çetiner
+                                                       Hüseyin Kılıç                    Nail Uslu
+                                                       Cevad Yücel                      Ali Koçak
+                                                       Hüsamettin Daldal                Abdullah Baltacı
+                                                       Ahmet Özsevim                    Sami Can
+                                                       Selahattin Güvenç                Hacer Çakır
+                                                       Kamil Varlık
+                                                       Edip Aydın
+                                                       İsmail Yalçınkaya
+                                                       Şaban Dede
+                                               EK BRANŞ
+ Körler                                                Sağırlar
+ Sabiha Ay                                             Doğan Çağlar
+ A.Abbas Demirhan                                      Yakup Ertezun
+ S.Zeki Tütüncü                                        Hasan Karatepe
+ Refik Çetintepe                                       İbrahim Yurd
+ Süleyman Başkaya                                      Hıdır Özdağ
+ Hüseyin Kılıç                                         Hasan Akdemir
+ Cevad Yücel                                           Faruk Oğuz
+ Hüsamettin Daldal                                     İsmail Yalçınkaya
+ Ahmet Özsevim                                         Mehmet Kayahan
+ Selahattin Güvenç                                     Hüseyin Pekmezcioğlu
+ Nail Uslu                                             Rifat Çetiner
+ Edip Aydın                                            Kamil Varlık
+ Şaban Dede                                            Ali Koçak
+ Sami Can                                              Abdullah Baltacı
+ Hacer Çakır
+        Tablo 4
+          Gazi Eğitim Enstitüsü Özel Eğitim Bölümü II. Sınıf Müşavir Öğretmen ve Öğrenci Listesi
+
+
+
+
+2008, 9 (1)
+                   GAZİ EĞİTİM ENSTİTÜSÜ ÖZEL EĞİTİM ŞUBESİ İLK MEZUNLARI                                 9
+
+
+
+
+                    Müşavir Öğr. Adı               Numara       Öğrencinin Adı ve Soyadı
+            Mitat Enç                        28                 Nezahat Yalçın
+                                             37                 İsmet Dedeköy
+                                             40                 Mevlüt Kaplan
+            Muaffak Uyanık                   31                 Şefik Uysal
+                                             33                 Nurettin Yüksel
+                                             39                 Mehmet Okuturlar
+            Şükrü Selçukoğlu                 24                 A.Rıza Çetiner
+                                             44                 Hasan Çelikel
+                                             38                 Ali Kara
+            Feriha Baymur                    25                 Nihat Çetin
+                                             27                 Süleyman Çetinkörüm
+                                             29                 Sabri Gürsoy
+            Prof. F. Haller                  34                 Mehmet Çelebi
+                                             32                 Hüseyin Öztürk
+                                             42                 Osman Kadem
+            Dr. Beier                        36                 Cahit Alican
+                                             38                 Hüsnü Arıcı
+                                             41                 Necati Çakır
+            Dr. Bridges                      26                 İbrahim Taşkıran
+                                             30                 Yusuf Gündüz
+                                             43                 Mahmut Makal
+            Toplam 7 Öğretmen, 21 Öğrenci
+
+
+Tablo 5
+İlk Mezunların İlk Atamalarının Yapıldığı Yerler
+
+No        Adı ve Soyadı                      Tayin Edildiği Görev                  Atandığı Görev
+
+420       Sırrı Karaüç                      Dicle Öğ. M. Ders Stajyer              Körler Okulu Öğr.
+421       Doğan Çağlar                      İzmir Buca Y.Y. Mü. Mu.                Mevlana Kayzı Müd.
+422       Yakup Ertosun                     Zonguldak İlk. Okulu                   Diyarbakır İlk. Oku.
+423       Sabiha Ay                         Ankara Körler Okulu                    Körler Okulu Öğr.
+424       Hasan Karatepe                    İzmir Sağırlar Okulu Öğr.              Sağırlar Okulu
+425       A. Abbas Demirhan                 Aktaş Y.Y. Öğ.                         Aktaş Y.Y. Öğ.
+426       İbrahim Yurt                      Test Bürosu                            Test Bürosu
+427       Zeki Tütüncü                      Konya İlk. Öğr. Müd.                   Merkez Teşkilatı
+428       Remzi Güner                       İzmir Sağırlar Ok. Öğ.                 Sağ. Okulu
+429       Yahya Özsoy                       İst. Sağ. Ok. Öğr.                     Sağ. Okulu
+430       Hıdır Özdağ                       Mah. Y.Y. Müd.Yar.                     Ağaçlı Y.Y.
+
+
+
+
+                                                                                       ÖZEL EĞİTİM DERGİSİ
+10                                          AYŞEGÜL ATAMAN
+
+
+
+
+431         Hasan Akdemir                   Aksu İlköğretim Ok.          Öğretmen okulu
+432         Veli Küpeli                     Mevlana Kap.Y.Y. Öğ.         Mevlana Kapı
+433         Refik Çetintepe                 İzmir İlk. Ok. Müd.          Konya İlk. Müd.
+434         Faruk Oğuz                      Gülköy Öğr. Okulu            Öğretmen Okulu
+435         Süleyman Başkaya                Balıkesir İlk. Ok. M.        Ankara İlk. Müd.
+436         Hüseyin Kılıç                   Gümüşhane İlk. Müd.          Yetiştirme Yurdu
+437         Cevat Yücel                     Ağaçlı Y. Y. Öğ.             Mahmudiye Y.Y.
+438         İsmail Yalçınkaya               Mevlana K. Y. Y. Öğ.         Mevlana Ayırma
+441         Hüsamettin Daldal               Zirkayı Y. Y. M. Mü.         Mevlana Ayırma
+442         Hüseyin Uysaloğlu               Aktaş Y. Y. Mü. Mu.          Yetiştirme Yurdu
+443         Ahmet Özsevim                   Mevlana K. Y. Y. Öğ          Ağaçlı Y.Y. Öğ.
+444         Mehmet Kayhan                   K. Zincirdere Y. Y. Mü.      Ağaçlı Y.Y. Öğ.
+445         Hüseyin Pekmezcioğlu            İzmir Sağ. Ok. Öğ.           Sağırlar Okulu
+446         Besim Alpaslan                  Körler Ok. Öğ.               Gazi An. Körler ok.
+447         Müfit Seylam                    Körler Ok. Öğ.               Körler Ok. Müd. Y.
+448         Rıfat Çetiner                   Ağaçlı Y.Y. Öğ.              Kayseri Zin. Da Y.Y
+449         Selahattin Güvenç               Seyhan İlk. Müd.             İzmir İlk. Müd
+451         Nail Uslu                       Mevlana K.Y.Y. Öğ.           Yetiştirme Yurdu
+452         Hacer Çakır                     Yeni T. İlk. Ö Öğ.           Yeni T. İlkokulu
+453         Kamil Varlık                    Ağaçlı Y.Y. Öğ.              Yetiştirme Yurdu
+454         Edip Aydın                      Diyarbakır İlköğretim Müd.
+455         Ali Koçak                       Sivas İlköğretim Müd.
+456         Abdullah Baltacı                Eskişehir İlköğretim Müd.
+457         Şaban Dede                      Samsun İlköğretim Müd.
+458         Sami Can                        Kayseri İlköğretim Müd.
+482         Hüseyin Dündar                  Ağaçlı Y.Y. Öğ.
+483         İsa Yavuz                       İstanbul Sağırlar Ok.
+484         İbrahim Yaprak                  Hatay İlköğretim Müd.
+400         Muazzez Özeren                  Sağırlar Okulu
+
+
+
+
+Tablo 6.1
+Özel Eğitim Bölümü İlk İki Yıl Mezunlarının Durumlarını Gösterir Liste
+
+
+
+
+2008, 9 (1)
+                   GAZİ EĞİTİM ENSTİTÜSÜ ÖZEL EĞİTİM ŞUBESİ İLK MEZUNLARI                              11
+
+
+
+
+ SIRA             ADI VE SOYADI                 GÖREVİ VEYA ADRESİ
+ 1          Prof. Dr. Şefik Uysal               Emekli öğretim üyesi
+ 2          Prof. Dr. Süleyman Çetinözoğlu      Emekli öğretim üyesi
+ 3          Prof. Dr. Doğan Çağlar              Emekli öğretim üyesi
+ 4          Prof. Dr. Yahya Özsoy               Emekli öğretim üyesi
+ 5          Prof. Dr. Hüsnü Arıcı               Emekli öğretim üyesi
+ 6          Salih Zeki Tütüncü                  Kültür Bakanlığı Savunma Uzmanı
+ 7          H.Rahmi Kılıç                       Milli Eğitim Bakanlığı Müşavirlerinden
+ 8          H. Karatepe (Yüksek Lisans)         M.E.B. Talim Terbiye Dairesinde
+ 9          Osman Kadem                         MEB İlköğretim Gen. Müd.Şb. Müd.Yrd.
+ 10         Rıza Çetiner (Millet Vekili)        Milli Eğitim Müdür Yardımcısı -Ankara
+ 11         Remzi Güner                         İlköğretim Müfettişi Ankara
+ 12         Hacer Çakır                         İlköğretim Müfettişi Ankara
+ 13         İbrahim Yurt (Yüksek Lisans)        Devlet Planlama Teşkilatında uzman
+ 14         Hüseyin Öztürk (Yüksek Lisans)      Gazi Eğitim Enstitüsü öğretmeni
+ 15         Cahit Alican (Yüksek Lisans)        Basın Yayın Yüksekokulu Öğr. Gör.
+ 16         Mahmut Makal                        Yazar
+ 17         Yusuf Gündüz                        Rehberlik ve Araştırma Merkezi- Ankara
+ 18         Mehmet Okuturlar (Yüksek Lisans)    Atatürk Eğitim Ens. Öğr.-İstanbul
+ 19         Müfit Seylam                        Göztepe Sağırlar Okulu Müdürü-İstanbul
+ 20         Nezahat Yalçın                      Yıldız Sağırlar Okulu Müdür Yardımcısı
+ 21         Hüseyin Pekmezcioğlu                İstanbul İlköğretim Müfettişi
+ 22         Ahmet Özsevim                       İstanbul İlköğretim Müfettişi
+ 23         Cevat Yücel                         İstanbul İlköğretim Müfettişi
+ 24         Hıdır Özdağ                         İstanbul İlköğretim Müfettişi
+ 25         Hüsamettin Daldal                   İstanbul İlköğretim Müfettişi
+ 26         Selahattin Güvenç                   İstanbul İlköğretim Müfettişi
+ 27         Besim Alpaslan                      Milli Eğitim Bakanlığı Müfettişi-İstanbul
+ 28         İbrahim Taşkıran                    İlköğretim Müf. Rehberlik Merk. Müd.
+ 29         Nihat Çetin                         İlköğretim Müf. - Eskişehir
+ 30         İsmail Yalçın kaya                  İlköğretim Müf. - Bursa
+ 31         Rıfat Çetiner                       İlköğretim Müf. - Gaziantep
+ 32         İbrahim Yaprak                      İlköğretim Müf. - Zonguldak
+ 33         Mevlüt Kaplan                       İlköğretim Müf. - İzmir
+ 34         İsmet Dedeköy                       İlköğretim Müf. - İzmir
+ 35         Hüseyin Uysaloğlu (Yüksek Lisans)   İlköğretim Müf. - İzmir
+ 36         Sabri Gürsoy                        Rehberlik ve Araştırma Merkezi-İzmir
+ 37         Ali Koçak                           İlköğretim Müfettişi - Konya
+ 38         Refik Çetintepe                     İzmir Körler Okulu Müdürü
+ 39         Veli Küpeli                         İlköğretim Müfettişi - Aydın
+ 40         İsa Yavuz                           İlköğretim Müfettişi - İzmir
+ 41         Sami Can                            Halk Eğitim Başkanı - Kırşehir
+ 42         Mehmet Kayhan                       Lise öğretmeni-Kayseri
+ 43         Edip Çakalağaoğlu                   Milli Eğitim Müdürü - Burdur
+ 44         Kamil Varlık                        Lise Öğretmeni - Kırklareli
+ 45         Sabiha Ay                           Çocuk Yuvası Öğr. Antakya-Hatay
+ 46         Ali Avşaroğlu                       Bakanlık Eğitim Müşaviri
+ 47         Yakup Ertosun                       Avukat - Ankara
+ 48         Ali Abbas Demirhan                  Serbest - İstanbul
+ 49         Nurettin Yüksel                     Serbest
+ 50         Hasan Çelikel                       İlköğretim Müfettişi - Tekirdağ
+ 51         Hüseyin Dündar                      Emekli – Serbest - İstanbul
+ 52         Mehmet Çelebi (Yüksek Lisans)       A.B.D. Çalışıyor
+ 53         Prof. Dr. Hasan Akdemir             A.B.D. Çalışıyor
+ 54         Muazzez Özeren                      A.B.D. Çalışıyor
+ 55         Şaban Dede (Yüksek Lisans)
+
+
+Tablo 6.2
+
+
+
+
+                                                                                      ÖZEL EĞİTİM DERGİSİ
+12                                             AYŞEGÜL ATAMAN
+
+
+
+
+Ölenler
+
+     1.   Abdullah Baltacı                               10    Hüseyin Dündar       (1986)
+     2.   Süleyman Başkaya                               11    Yahya Özsoy           (1996)
+     3.   Faruk Oğuz                                     12    İsa Yavuz             (1997)
+     4.   Nail Uslu                                      13    Ahmet Özsevim         (2000)
+     5.   Zeki Tütüncü                                   14    İsmail Yalçınkaya
+     6.   Cahit Alican                                   15    Veli Küpeli
+     7.   Kamil Varlık                                   16    Refik Çetintepe
+     8.   İbrahim Yaprak                                 17    Hasan Karatepe       (2006)
+     9.   Edip Çakalağaoğlu (1985)
+
+
+                                                              düzenlenmiştir. İkinci sınıfta ise haftalık toplam 26
+     SONUÇ
+                                                              saatlik dersten l2 saati genel meslek dersleri, 6 saati
+      1952 yılında alanımızın kurucusu olan                   özel alan dersleri, 8 saati de seçmeli dersler olarak
+hocamız Mitat Enç’in önderliğinde gerçekleştirilen            programda yer almıştır. Söz konusu öneriye göre,
+özel eğitim bölümünün hazırlık çalışmaları,                   sınıf içi çalışmalar [dersler] öğleden önce
+programları incelendiğinde çok titiz çalışıldığı ve           yapılması, öğleden sonraları özel eğitim okulları ve
+tüm      boyutlarıyla    programın      ele   alındığı        başka ilgili alanlarda gözlem, inceleme ve
+görülmektedir. Yurt dışından getirtilen yabancı               uygulamayla geçirilmesi önerilmektedir.
+öğretim elemanlarının çevirmenliği rolünü de Mitat
+                                                                   Mitat Enç anılarında, kesin tarih vermeksizin;
+Enç hocanın üstlendiğini görmekteyiz. Özellikle
+                                                              "0 sırada [ABD'li] Prof Kvaraceus ve Miss Mc
+öğrenci seçiminde gösterilen titizliğin bu gün o
+                                                              Laughlin de Ankara'ya geldiler. Hemen toplantıya
+düzeyde olmadığı söylenebilir. Öğretmenlik
+                                                              koyularak bölümün programı, öğrenci seçiminin
+deneyimi olmadığı için ilk mezunlardan Muazzez
+                                                              ayrıntıları üzerinde çalışmaya koyulduk. Bu
+Özeren’in       öğretmen      olarak      atanmaması,
+                                                              bölümün kuruluş çalışmalarının, Milli Eğitimde
+öğretmenlere rehberlik görevi ile görevlendirilmesi
+                                                              birçok yeniliklerin başlangıcı olduğu kanısındayım.
+ve GEE asistan olarak istihdamını öneren
+                                                              Bunlardan birisi, programlarda esas branş-ek
+öğretmenler kurulu kararının dikkate alındığını
+                                                              branş kavramı ile sınırlı da olsa seçmeli derslere
+görmekteyiz. Aynı Kurul kararı öngörüleri içinde
+                                                              yer verilişiydi. Bu bir yandan öğrencilere iki
+olan Muazzez Özeren’in yurt dışı çalışmalar yapma
+                                                              alandan birisinde çalışabilme olanağı veriyor,
+olasılığı yüksek kanaatinin de gerçekleştiği
+                                                              [diğer yandan]. Çift özürlüler konusunda anlayış
+söylenebilir. Programlara bakıldığında kuruluş
+                                                              sahibi kılıyordu." demektedir (Enç, 1983).
+çalışmalarıyla birlikte yoğun taslak çalışmalarının
+olduğu, Amerika Birleşik Devletlerinden gelen                      Bütün bu olumlu gelişmelere karşın daha
+uzmanlarla programların hazırlandığı, Talim ve                öncede belirtildiği gibi özel şube 60 mezun vererek
+Terbiye Kurulu’na program teklifleri yapıldığı                20 Temmuz 1955 de zamanın Milli Eğitim Bakanı
+görülmektedir (Bkz, Altunya,2006). Uygulamaya                 Celal Yardımcı imzalı onay ile kapatılmıştır. İkinci
+bakıldığında bu uzman grubunun hazırlamış olduğu              Özel Eğitim Girişimi 1965 yılında Ankara
+programların uygulandığı ve onların geliştirdiği              Üniversitesi Eğitim Fakültesinde kurulan Özel
+ders içerik ve kur tanımlarının dikkate alındığı              Eğitim Bölümü ile yine Sayın Enç tarafından
+gözlemlenmektedir. Üzülerek belirtmek isterim ki,             gerçekleştirilmiştir.
+bugün tüm Özel eğitim bölümlerinde görev alan
+                                                                   GEE Özel Eğitim Bölümü ilk mezunlarının
+öğretim elemanlarının bu kadar ayrıntılı program
+                                                              tüm Türkiye sathına yayılmış özel eğitim
+içerikleri    hazırladıkları     konusunda      şüphe
+                                                              kurumlarında, bakanlık merkez teşkilatında, daha
+taşımaktayım. Üç uzmanın hazırlamış olduğu
+                                                              sonra üniversitelerde görev aldığını, Türk Milli
+öneriye göre, birinci sınıfta haftalık toplam 24 saat
+                                                              Eğitimine ve özel eğitim alanına sonsuz katkılar
+olan derslerden10 saati genel meslek dersleri, 8
+                                                              yaptıklarını söyleyebiliriz. İlk mezunlardan
+saati özel alan dersi, 6 saati de seçmeli ders olarak
+                                                              %60’ının (24 kişi) öğretmenler Kurulunun önerdiği
+
+
+
+
+2008, 9 (1)
+                  GAZİ EĞİTİM ENSTİTÜSÜ ÖZEL EĞİTİM ŞUBESİ İLK MEZUNLARI                              13
+
+
+
+
+göreve, %22.5 (9 kişi) öğretmenler Kurulunun          gözlemlenirken, 8’inin yüksek lisansla yetindiği
+önerdiği göreve ve yere, % 12.5 (5 kişi)              görülmektedir.
+öğretmenler Kurulunun önermediği görev ve yere
+                                                           Üzülerek ilk iki yıl mezunların % 31’ni (17
+atandığını söyleyebiliriz. İki kişi sonradan özel
+                                                      kişi) kaybetmiş durumdayız. Alana kendilerini
+eğitim     alanından     ayrılmıştır.  Atamalarda
+                                                      vakfeden özel eğitim bölümü mezunlarından
+öğretmenler kurulunun etkin görev aldığı
+                                                      ölenlere rahmet, yaşayanlara alana yapmış oldukları
+söylenebilir.
+                                                      tüm katkılar için teşekkürü bir borç biliriz.
+      Mevcut sistemde bu tür öğretim elemanlarının
+kanaatlerini dikkate alan bir yapı bulunmamaktadır.
+Atananların      görev      yaptıkları   kurumlara         Kaynaklar:
+bakıldığında; 5 kişinin (%12.5) öğretmen okullarına
+meslek bilgisi öğretmeni olarak atandığını, 12            1. Altunya, N. (2006). Gazi Eğitim Enstitüsü.
+kişinin (%30) ilköğretim müfettişi olduğu, 21         G.Ü yayınları, no. 3.
+kişinin (%52.5) ise özel eğitim kurumlarına               2. Enç, M. (1983). Bitmeyen Gece, Tekışık
+atandığı görülmektedir. Ayrıca 2 kişi de GEE          matbaası.
+öğretmen olarak atanmıştır. Daha sonraki yıllarda
+özel eğitim bölümü mezunlarının çalışma                    3. Çağlar, D. (2007). Özel Dosyası.
+hayatlarında           değişiklikler        olduğu         4. Enç ve diğerleri (1981). Özel Eğitime
+gözlemlenmektedir.       Buna     ilişik  sonuçlara   Giriş.
+bakıldığında grubun %25’inin akademik hayata
+atıldığını, bunlardan altısının Profesör olduğu
+
+
+
+
+                                                                                 ÖZEL EĞİTİM DERGİSİ
+

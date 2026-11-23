@@ -1,0 +1,1213 @@
+                       Kafkas Üniversitesi Sosyal Bilimler Enstitüsü Dergisi
+                    Kafkas University Journal of the Institute of Social Sciences
+                          Bahar Spring 2025, Sayı Number 35, 181-209
+                                DOI: 10.56597/kausbed.1617416
+
+Gönderim Tarihi: 10.01.2025                                              Kabul Tarihi: 19.03.2025
+
+        KAMU YARARINA ÇALIŞAN DERNEKLERDE VERGİ
+                       MUAFİYETİ
+          Tax Exemption in Associations Working for the Public Benefit
+                                      Safa KOÇOĞLU
+                          Doç. Dr.; T.C. Gençlik ve Spor Bakanlığı
+                                 safa.kocoglu@gsb.gov.tr
+                            ORCID ID: 0000-0003-2203-8424
+                               Çalışmanın Türü: Araştırma
+ Öz
+ Derneklerin sürdürülebilirliğinde zaman zaman bazı problemler yaşanabilmektedir.
+ Kanun koyucu, kamunun sorumluluğunu azaltan derneklere, kamu yararına çalışan dernek
+ statüsü vererek, bu statü kapsamında vergisel avantajlar sağlayarak söz konusu
+ problemlere çözüm getirmeye çalışmaktadır. Fakat yapılan literatür taramasında ulusal
+ alanda kamu yararına çalışan derneklerde vergi muafiyeti konusuna ilişkin pek fazla
+ yayına rastlanmamıştır. Bu çalışmanın motivasyonu olup aynı zamanda özgünlüğüdür.
+ Çalışmada kamu yararına çalışan dernek statüsüne sahip olmak isteyen dernek
+ yöneticilerinin izlemesi gereken yolların açıklanması hedeflenmiştir. Ayrıca kamu yararına
+ çalışan derneklerin sahip olduğu vergisel avantajlar farklı yasalarda düzenlendiğinden bu
+ çalışma ile konunun bir metinde ilgilisine ulaştırılması amaçlanmıştır. Bunların yanı sıra,
+ çalışmanın bütününde kamu yararına çalışan dernekler statüsünün elde edilmesinde
+ uygulamadaki yaşanan sorunlara öneriler de sunulmuştur.
+ Anahtar Kelimeler: Dernek, Kamu Yararına Çalışan Dernek, Kamu Yararı, Vergi
+ Muafiyeti.
+ Abstract
+ Time to time, some problems may occur in sustainability of associations. The legislator
+ tries to solve them by providing tax advantages to associations that reduce public liability
+ by granting them the status public benefit association. The uniqueness of this study is that
+ there have not been many publications on the subject nationally in the literature review.
+ Therefore, explanation of methods required to be followed by association managers who
+ wish to get the status of public benefit association is aimed in the study. Additionally, since
+ the tax advantages of these associations are regulated by different laws, it was deemed
+ beneficial to discuss the subject in a single text to whom it may concern. Throughout the
+ study, suggestions are also provided for the problems encountered in practice acquisition
+ of the status of public benefit association.
+ Keywords: Association, Public Benefit Association, Public Benefit, Tax Exemption
+
+         1. GİRİŞ
+       Toplumların ihtiyaçlarını karşılamak için kurulan dernekler ülke
+ekonomisine önemli katkıda bulunmaktadırlar. Çünkü kamunun yapmakla
+yükümlü olduğu hizmet ve faaliyetleri dernekler kâr amacı gütmeden hayata
+geçirmektedirler. Bu bağlamda, dernekler devletin yapması gereken hizmet
+ve faaliyetleri gerçekleştirerek kamu harcamalarının azalmasına destek
+olmaktadırlar. Diğer bir anlatımla, kamunun yapması gereken harcamaları
+182                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+dernekler yapmış olduğundan kamu harcamalarına katkıda bulunmaktadırlar.
+Dernekler bu katkıyı sağlayabilmek bir başka deyişle, amaçladıkları hizmet
+ve faaliyetlerini gerçekleştirebilmek için üyelerinden almış olduğu aidat ve
+bağışlardan sağlamış oldukları gelirleri kullanırlar. Bu durum derneklerin
+finansal açıdan sürdürülebilirliğini etkilemektedir. Finansal sürdürülebilirlik
+ise derneklerin varlığı için oldukça önemlidir. Derneklerin toplum
+düzenindeki varlıklarına, insan hayatını etkileyen faaliyetlerine katkı
+sağlamak için kanun koyucu, kamunun sorumluluğunu azaltan derneklere
+vergisel avantajlar getirerek bir denge oluşturmaya çalışmaktadır. Bu
+nedenle derneklerin bazı avantajlardan istifade etmelerini sağlayan yasal
+düzenlemeler yapılmaktadır.
+        Kamu yararına çalışan derneklere ilişkin yasal düzenlemeler
+incelendiğinde, bunların tek bir yasa metninde yer almadığı görülmektedir.
+Bu bağlamda, 4721 sayılı 22.11.2001 tarihli Türk Medeni Kanunu ile 5253
+sayılı 04.11.2004 tarihli Dernekler Kanunu derneklere uygulanan yasal
+mevzuatın başında yer alan kanunlardır. Bu kanunların yanı sıra, 193 sayılı
+Gelir Vergisi Kanunu, 488 sayılı Damga Vergisi Kanunu, 492 sayılı Harçlar
+Kanunu, 2464 sayılı Belediye Gelirleri Kanunu, 3065 sayılı Katma Değer
+Vergisi Kanunu, 4458 sayılı Gümrük Kanunu, 5422 sayılı Kurumlar Vergisi
+Kanunu, 7338 sayılı Veraset ve İntikal Vergisi Kanunu ve 25772 sayılı
+Dernekler Yönetmeliği diğer yasal düzenlemelerdir.
+        Kamu yarına çalışan dernekler kavramı kronolojik olarak
+değerlendirildiğinde yasal düzenlemelerde farklı şekillerde ifade edilmiştir.
+Kamu yararına çalışan dernek kavramı ilk kez 1908 tarihli Cemiyetler
+Yasası’nda “Menafii Umumiyeye Hadim Cemiyetler” şeklinde
+kullanılmıştır. 3512 sayılı Cemiyetler Yasası’nda ifade “Umumi Menfaatlere
+Hadim Cemiyetler” olarak değiştirilmiştir. 1630 sayılı Dernekler
+Yasası’ndaysa      “Kamu      Yararına    Çalışan     Dernekler”      kavramı
+kullanılmaktadır (Akünal, 1988, s. 71; Karınca, 1996, s. 112; Ballar, 2006, s.
+592). Türk Medeni Kanunu’nda ise kamuya yararlı dernek şeklinde ifade
+kullanılmakta iken Dernekler Kanunu’nda kamu yararına çalışan dernekler
+ifadesine yer verilmiştir.
+        Yapılan literatür taramasında ulusal alanda kamu yararına çalışan
+derneklerde vergi muafiyeti konusuna ilişkin pek fazla yayına
+rastlanmamıştır. Dolayısıyla, bu çalışmada, kamu yararına çalışan
+derneklerin sahip olduğu vergisel avantajlar farklı yasalarda
+düzenlendiğinden söz konusu verinin tek bir metinde ilgilisine ulaştırılması
+hedeflenmiştir. Ayrıca çalışmada kamu yararına çalışan dernek statüsüne
+sahip olmak isteyen dernek yöneticilerinin izlemesi gereken yol sade bir
+                       Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209           183
+
+
+dille ve sırasıyla açıklanarak kolaylaştırmak amaçlanmıştır. Bunun yanı sıra,
+çalışmanın bütününde kamu yararına çalışan dernek statüsünün elde
+edilmesindeki uygulamada yaşanan sorunlara çözümler sunulmuştur. Aynı
+zamanda, çalışmada kamu yararına çalışan dernek statüsünün elde edilme
+şartları, statüyü kaybetmedeki usul ve derneklere sağlanan vergisel
+avantajlar ve istisnalar yer almaktadır.
+        2. KAMU YARARINA ÇALIŞAN DERNEKLER
+        Kamunun toplumun tüm ihtiyaçlarını karşılayabilecek bir yapı
+olarak kabul edilmesi doğru değildir. Buna karşın kişilerin tek başına da
+ihtiyaçlarını gidermeleri her zaman mümkün değildir. Bu nedenle tarih
+boyunca kişiler kimi zaman insani kimi zaman dini kimi zaman sosyal
+sebeplerle ortak amaçlarını gerçekleştirmek adına bir araya gelmişlerdir.
+Dernekler dayanışma ihtiyacının giderilerek bir araya gelişin diğer bir
+anlatımla örgütlenmenin örneklerinden yalnızca biridir.
+         Türk Dil Kurumu’nda dernek kavramı “toplantı, düğün, belirli ve
+ortak bir amacı gerçekleştirmek için kurulan yasal topluluk, cemiyet, pazar
+veya panayır kurulan gün” şeklinde açıklanmaktadır (TDK, 1932).
+Mevzuatta derneğin tanımına bakıldığında Türk Medeni Kanunu’nun 56’ncı
+maddesinde dernekler; gerçek veya tüzel en az yedi kişinin kazanç paylaşma
+dışında belirli ve ortak bir amacı gerçekleştirmek üzere, bilgi ve
+çalışmalarını sürekli olarak birleştirmek suretiyle oluşturdukları, tüzel
+kişiliğe sahip kişi topluluklarıdır.
+         Dernekler Kanunu’nun 2’nci maddesinde dernek; kazanç paylaşma
+dışında, kanunlarla yasaklanmamış belirli ve ortak bir amacı gerçekleştirmek
+üzere, en az yedi gerçek veya tüzel kişinin, bilgi ve çalışmalarını sürekli
+olarak birleştirmek suretiyle oluşturdukları tüzel kişiliğe sahip kişi
+toplulukları şeklinde tanımlanmaktadır. Tanımlardan hareketle dernekler
+tüzel kişiliğe sahip kazanç paylaşma amacı dışında bir araya gelen kişilerden
+oluşan kişi topluluklarıdır (Köprülü, 1984, s. 430; Ansay, 1967, s. 78;
+Özsunay, 1982, s. 101; Akünal, 1988, s. 67; Ballar, 2006, s. 90; Saka, 2010,
+s. 3; Serozan, 2017, s. 507; Oğuzman, Seliçi ve Oktay-Özdemir, 2020, s.
+330; Helvacı ve Erlüle, 2020, s. 119).
+         Dernekler genellikle toplumsal ihtiyaçlara ve sorunlara çözüm
+üretmek adına ideal bir amaç için kurulmaktadır. Ancak kimi zaman yalnızca
+bir ailenin veya bir ilin maddi manevi gereksinimlerini gidermek adına
+faaliyet gösterecek şekilde örgütlenmeler de olabilir. Sivil Toplumla İlişkiler
+Genel Müdürlüğü’nün paylaşmış olduğu 2024 yılına ait verilere göre
+mesleki dayanışma dernekleri, dini hizmetlerin gerçekleştirilmesine yönelik
+184                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+faaliyet gösteren dernekler, spor ve spor ile ilgili dernekler, eğitim araştırma
+dernekleri, kültür, sanat ve turizm dernekleri, insani yardım dernekleri,
+toplumsal değerleri yaşatma dernekleri, çevre doğal hayat hayvanları koruma
+dernekleri, sağlık alanında faaliyet gösteren dernekler, bireysel öğreti ve
+toplumsal gelişim dernekleri, imar, şehircilik ve kalkındırma dernekleri, hak
+ve savunuculuk dernekleri, engelli dernekleri, düşünce temelli dernekler,
+kamu kurumlarını ve personelini destekleyen dernekler, gıda, tarım ve
+hayvancılık alanında faaliyet gösteren dernekler, dış Türkler ile dayanışma
+dernekleri, uluslararası teşekküller ve iş birliği dernekleri, şehit yakını ve
+gazi dernekleri, yaşlı ve çocuklara yönelik dernekler, çocuk dernekleri
+alanlarında faaliyet gösteren toplamda 309.070 dernek bulunmaktadır. 2023
+Ocak ayı itibariyle Türkiye’de 101.759 aktif dernek olup 207.311 dernek
+feshedilmiştir (Sivil Toplumla İlişkiler Genel Müdürlüğü, Derneğin Faaliyet
+Alanlarına Göre Dağılımı).
+        Dernekler gruplandırılırken ayrıcalıklarına göre “olağan dernekler”
+ve “kamu yararına çalışan dernekler” olmak üzere ikiye ayrılmaktadır
+(Öztan, 2001, s. 47). 2023 Eylül ayı verileri incelendiğinde, aktif
+derneklerden yalnızca üç yüz altmış üçüne kamu yararına çalışan dernek
+statüsü verildiği görülmektedir (İçişleri Bakanlığı, Sivil Toplumla İlişkiler
+Genel Müdürlüğü, “Kamu Yararına Çalışan Dernekler (siviltoplum.gov.tr)
+(Erişim: 23.09.2024)).
+        Yasal düzenlemelerde kamu yararına çalışan dernek kavramı yer
+almasına rağmen tanımlama yapılmamıştır. Esasen kamu yararı kavramı
+soyut olup net bir tanımlama yapılması güçtür. Fakat derneklerin yaptıkları
+hizmetler bakımından kavramın içeriği doldurulabilir (Kaya, 2011, s. 3;
+Özden, 2015, s. 112).
+        Devlet Denetleme Kurulu’nun kamu yararına çalışan dernek
+statüsüne ilişkin hazırlamış olduğu rapora göre kamu yararı; “sivil toplum
+kapsamında kamu yararı, sivil toplum kuruluşlarının hizmet alanlarını ve
+şeklini belirlemek ve bu kuruluşların kurumsallaşmasını sağlamak için
+devletin belirli koşulları yerine getirenlere tanıdığı saygınlık ve imtiyaz
+sağlayan uygulamalar ile mali destekler” olarak tanımlanmıştır (TÜSEV,
+2018, s. 24). Türk Anayasa Mahkemesi ise kamu yararını; “kişinin ve
+toplumun huzur ve refahını sağlamak” şeklinde tanımlamıştır (Akıllıoğlu,
+1988, s. 11).
+        Her ne kadar kamu yararı soyut bir kavram olsa da Dernekler
+Kanunu ve Dernekler Yönetmeliği’nde kamu yararı kavramına ilişkin bir
+çerçeve tanıma yer verilmesi belirsizliği giderecek olup aynı zamanda farklı
+                       Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209          185
+
+
+uygulamaları önlemeye hizmet edebilir. Dolayısıyla kamu yararına hizmet
+edecek her türlü faaliyet alanı geniş bir şemsiye altına girecek şekilde günün
+ve geleceğin ihtiyaçları gözetilerek mevzuatta tanıma yer verilmesi
+belirsizliğin giderilmesine katkı sağlayacaktır.
+        Mevzuatta tanım yapılmamasına rağmen kamu yararına çalışan
+dernek statüsüne başvurulması için aranacak şartlar belirlenmiştir.
+Çalışmada söz konusu şartlara ayrı başlıklar altında değinilmesi tercih
+edilmiştir.
+     3. DERNEKLERİN    KAMU    YARARI                              STATÜSÜNE
+BAŞVURABiLMESi İÇİN ARANAN ŞARTLAR
+          Dernekler Kanunu’nun 27’nci maddesinin 1’inci fıkrasında kamu
+yararına çalışan derneklerin Cumhurbaşkanı kararı ile tespit edileceği, bir
+derneğin kamu yararına çalışan dernek statüsü elde edebilmesi için de iki
+şartı bir arada bulundurması gerektiği düzenlenmiştir.
+         Bunlardan ilki derneğin en az bir yıldan beri faaliyette bulunması,
+ikincisi ise derneğin amacı ve bu amacı gerçekleştirmek üzere giriştiği
+faaliyetlerin topluma yararlı sonuçlar verecek nitelikte ve ölçüde olmasıdır.
+        Konuya ilişkin Dernekler Kanunu’nda başka bir ayrıntıya yer
+verilmemiş olup Kanun’un 27’nci maddesinin 2’nci fıkrasında kamu
+yararına çalışan dernek statüsünün kazanılması, kaybedilmesi ve gerekli
+belgeler ile diğer esas ve usullerin yönetmelikte düzenlendiği açıklanmıştır.
+       Dernekler Yönetmeliği’nin sekizinci bölümünde 48 ila 52’nci
+maddeleri arasında aranılacak şartlar, başvuru ve istenen belgeler,
+başvurunun değerlendirilmesi, statünün kaybedilmesine ilişkin hususlar yer
+almaktadır.
+        Dernekler Yönetmeliği’nin 49’uncu maddesinin 1’inci fıkrasında
+başvuru şartları beş bent şeklinde sıralanmıştır. Sıralanan şartların var olup
+olmadığını İçişleri Bakanlığı dernekler denetçileri tarafından düzenlenen
+rapor ile tespit edilmektedir. Bakanlık 14.11.2003 tarihinde Kurumlar
+Vergisi Sirküleri/2 görüşünün oluşmasında esas aldığı kriterleri açıklamıştır.
+         Dernekler Yönetmeliği’nin 49’uncu maddesi incelendiğinde kamu
+yararına çalışan dernek statüsünün kazanılabilmesi için derneğin faaliyet
+süresi, dernek faaliyetinin konusu, dernek gelirlerinin harcanma şekli, dernek
+mal varlıkları ve yıllık geliri bakımından bazı ölçütler belirlenmiştir. Söz
+konusu ölçütlerin daha anlaşılır olması bakımından çalışmada alt başlıklarda
+açıklanmıştır.
+186                       Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+        3.1. Dernek Faaliyetinin Süresi
+        Kamu yararına çalışan dernek statüsünü kazanmak isteyen dernek en
+az bir yıldan beri faaliyette bulunmalıdır (Dernekler Yönetmeliği m.49/1-a).
+Dolayısıyla derneğin kuruluş aşamasında bu statüye başvurması mümkün
+değildir. Çünkü dernek faaliyetlerinin kamu yükünü hafifletir nitelikte olup
+olmadığına kurulduktan sonra bir yıl içerisindeki süreci incelenerek karar
+verilmektedir.
+         Dernekler yapmış oldukları faaliyetlerle kamu yükünü azalttıkları
+takdirde statünün verilmesi söz konusudur. Faaliyetlerin toplumsal çıktıları
+belirli sürelerde gerçekleşmektedir. Bu nedenle yönetmelikte belirlenen en
+az bir yıllık süre yerinde bir düzenlemedir. Başvuruda bulunan derneklerin
+faaliyet süreleri incelendiğinde beş ila yirmi yıl arasında değişmekte olduğu
+tespit edilmiştir (Sivil Toplumla İlişkiler Genel Müdürlüğü, Kamu Yararına
+Çalışan Dernekler). Bu süre zarfında dernekler gerçekleştirdikleri
+faaliyetleriyle yeterliliklerini ilgili mercilere kanıtlayabileceklerdir.
+        3.2. Dernek Faaliyetinin Konusu
+        Dernek faaliyetinin süresi kadar faaliyetin konusu da oldukça
+önemlidir. Derneklerin, amacı ve gerçekleştirdiği faaliyetleri, üyelerinin
+dışında yerel, ulusal veya uluslararası düzeyde toplumun ihtiyaç ve
+sorunlarına yönelik çözümler üretecek ve toplumsal gelişmeye katkı
+sağlayacak nitelikte olmalıdır (Dernekler Yönetmeliği m.49/1-c). Bu niteliği
+tanımlamak oldukça zor olduğundan yönetmelikte derneklerin faaliyetlerini
+sayma yoluyla belirlenmemesi yerinde bir düzenlemedir.
+         Dernekler kendileri yahut üyeleri için iktisadi yarar sağlamak
+dışındaki her türlü amaçla, hukukun emredici hükümlerine ve ahlak
+kurallarına aykırı olmamak üzere kurulabilirler (Akipek ve Akıntürk, 1998,
+s. 572). Günün koşulları çağın getirileri dikkate alındığında konu sınırlaması
+yapılmaması takdir yetkisi alanının geniş tutulmasına hizmet etmektedir.
+Ancak faaliyet alanındaki soyutluğun karar verici makamın keyfi ve
+birbiriyle tutarsız sonuçlar vermesine neden olabileceği de göz ardı
+edilmemelidir.
+        Ulusal ve uluslararası alanda kamu yararına hizmet eden faaliyetlere
+örnek olarak “amatör atletizm, güzel sanatlar, bedensel veya zihinsel
+özürlülerin korunması ve bunlara sağlanan yardımlar, mültecilere yardım,
+hayır faaliyetleri, medeni haklar veya insan hakları, tüketicinin korunması,
+kültür, demokrasi, ekoloji veya çevrenin korunması, eğitim, öğretim ve
+bilgilendirme, ırk, etnik, din veya yasa ile belirlenen diğer ayırımcı
+                       Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209           187
+
+
+faaliyetlerine engellenmesi, yoksulluğun önlenmesi, ruhi veya fiziksel
+sağlık, tarihi eserlerin korunması, insani veya afet yardımı, tıbbi bakım,
+çocukların, gençlerin ve çaresizlerin korunması, yaralı ve savunmasız
+hayvanların korunması, hükümet yükünün hafifletilmesi, dini faaliyetler,
+bilimsel faaliyetler, sosyal dayanıma, sosyal ve ekonomik kalkınma, sosyal
+refah, kamu yararını destekleyen veya teşvik eden diğer her türlü faaliyet”
+sayılabilir (TÜSEV, 2004, s. 5).
+         Günün koşulları dikkate alınarak kamu yararı kavramı geniş bir
+perspektifle değerlendirilmelidir. Burada dikkat edilmesi gereken husus
+faaliyetlerin imtiyazlı bir kitleye ya da gruba yönelik olarak icra edilmemesi
+gerekliliğidir. Aynı zamanda faaliyetlerin fiilen gerçekleştirilmesi, topluma
+açık olması ve dernek tüzüğünde belirtilen faaliyet alanlarıyla uyumlu
+olmasına da dikkat edilmelidir. Başvuruda bulunan derneklerin faaliyet
+konuları incelendiğinde genellikle eğitim, sağlık, spor alanları ağırlıktadır
+(Sivil Toplumla İlişkiler Genel Müdürlüğü, Kamu Yararına Çalışan
+Dernekler). Aynı konuda faaliyet gösteren birden fazla dernek, kamu
+yararına çalışan dernek statüsü başvurusunda bulunabilir. Hâlihazırda aynı
+faaliyet alanından hizmet eden bir derneğin bulunması bir başka derneğin
+başvurusuna hukuki bir engel oluşturmamaktadır.
+        3.3. Derneklerin Mal Varlıkları ve Yıllık Gelirleri
+        Dernekler kamu hizmeti yükünü hafifleten faaliyetlerini
+gerçekleştirebilmeleri için yeterli mal varlığına ve gelire ihtiyaçları vardır.
+Yeterli mal varlığı bulunmayan bir derneğin kamu hizmeti yükünü
+hafifletmesi iddiası pek de mümkün değildir. Dinlenebilir nitelikte
+olmayacaktır. Dolayısıyla yönetmelikte derneklerin sahip olduğu mal
+varlıklarının ve yıllık gelirlerin derneğin tüzüğünde belirtilen amacı
+gerçekleştirecek düzeyde olması gerektiğine ilişkin getirilen şart yerinde bir
+düzenlemedir (Dernekler Yönetmeliği m.49/1-e).
+         Kamu yararına çalışan dernek statüsü kazanmak isteyen kuruluşlar
+elde ettikleri gelirlerinin harcanma şekline de dikkat etmekle yükümlüdürler.
+Dernekler yıl içinde elde ettiği gelirin en az yarısını kamu yararına hizmet
+edecek faaliyetlere harcamalıdır (Dernekler Yönetmeliği m.49/1-d).
+Yönetmelikte yıl içerisinde elde edilen gelir denildiğinden bu şartın her yıl
+yerine getirilmesi gerekmektedir. Diğer bir anlatımla, kamu yararına çalışan
+dernek statüsü elde ettikten sonra dernek yıl içerisinde elde ettiği gelirin en
+az yarısını kamu yararına hizmet edecek faaliyetlere harcamak zorundadır.
+        Dernekler Yönetmeliği’nde yıl içinde elde edilen gelirlerin en az
+yarısının kamu yararına hizmet edilecek faaliyetlere harcanması gerektiği
+188                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+belirtilirken Hazine ve Maliye Bakanlığı’nın yayınladığı Derneklerin
+Vergilendirilmesi Rehberinde yıl içinde elde edilen gelirlerin en az üçte
+ikisinin dernek amaçlarına harcanacağı hususuna yer verilmesi yönetmelikle
+çelişkili uygulamalara sebep olmaktadır (Derneklerin Vergilendirilmesi
+Rehberi, 2012). Nitekim uygulamada üçte ikiden daha düşük harcamalara
+onay verilmemektedir (Aykul, 2023, s. 168). Uygulamadaki bu farklılığın
+yönetmelikteki sınırlar dikkate alınarak giderilmesinde fayda bulunmaktadır.
+        Dernek gelirinin harcanma payının yanı sıra derneğin gelir ve gider
+kalemleri de incelenmektedir. Örneğin; derneğin yöneticilerine, organlarında
+görev alanlara, bağlı çalışanlarına yapılan ödemeler de göz önünde
+bulundurulmaktadır. Bu kişilere yapılan ödemeler yüksek olmamalı ve
+benzer kurumların ödemelerini aşar niteliği taşımamasına da dikkat
+edilmelidir.
+         Yönetmelikte derneklere mali açıdan dikkat etmeleri gereken diğer
+bir şart olarak son bir yıl içindeki, 200.000 Türk Lirasını geçen alım ve satım
+işlemlerinin rekabet koşullarına uygun yapmaları gerekliliği getirilmiştir
+(Dernekler Yönetmeliği m.49/1-b). Yönetmelikte sabit bir tutarın belirtilmesi
+yerine ekonomik koşullara daha uyumlu olması bakımından alım ve satım
+işlemi sınırlarını her yıl güncel olarak tespit edebilmeye imkân tanıyan yasal
+düzenleme yoluna gidilmesi daha uygun olacaktır.
+     4. KAMU YARARINA ÇALIŞAN DERNEK STATÜSÜNE
+BAŞVURMADA USUL
+         Kamu yararına çalışan dernek statüsünü elde etmek isteyen
+kuruluşlar Dernekler Yönetmeliği’nin 50’nci maddesinde yer verilen
+belgeleri hazırlayarak mülki idari amirliğine başvuruda bulunmalıdır.
+Başvuru için hazırlamaları gereken belgeler incelendiğinde ilk olarak dernek
+yaptığı ve gelecekte yapmayı planladığı faaliyetlerin kamu yararı yönünden
+ihtiyacı giderdiğine ilişkin bir rapor hazırlamalıdır. İkincisi, derneğe ait
+taşınır ve taşınmaz mallarının listesi eksiksiz sunulmalıdır. Üçüncü ve son
+olarak dernek tüzel kişiliğe sahip olduğundan iradesini yansıtan organ olan
+yönetim kurulunun bu statüye başvurma konusundaki almış olduğu karar
+örneğini içeren dilekçe yazılmalıdır. Hazırlanan dilekçe ve ekleri ile birlikte
+başvuru dernek merkezinin bağlı olduğu valiliğe yapılır.
+        Valilik teslim edilen evrakları inceler. Görüşünü yazılı rapora
+dökerek bir ay içinde İçişleri Bakanlığı’na gönderir. İçişleri Bakanlığı ilgili
+bakanlıkların ve Hazine ve Maliye Bakanlığı’nın da görüşünü almak için
+hazırlanan raporu ve başvuru dilekçesini bakanlıklarla paylaşır. Hazine ve
+Maliye Bakanlığı yetkililerince de incelemeler yürütülür. Mevzuatta bir
+                        Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209              189
+
+
+sınırlama getirilmediğinden derneğin kurulduğu günden başvuruda
+bulunduğu güne kadar gerçekleştirdiği tüm faaliyetler incelenebilir sonucuna
+varılabilir. İncelemeye ve araştırmaya dayanmayan raporlar değerlendirmede
+dikkate alınmamaktadır.
+         Burada ilgili bakanlıkların görüşünün alınıp alınmaması konusunda
+İçişleri Bakanlığı’na geniş bir takdir yetkisi tanınmıştır. Aynı zamanda
+yalnızca ilgili bakanlıklardan görüş alınması kısıtlı bir düzenlemedir.
+Bakanlıklar dışında kamu kurum ve kuruluşlarının veya aynı alanda çalışma
+yürüten özel sektör temsilcilerinin de görüşünü alabilecek şekilde uzman
+kişilere başvurulmasının önü açılmalıdır. Hatta bu kişilerden bir komisyon
+oluşturularak bir rapor hazırlanması yolu izletilebilir.
+         Nihayetinde derneğin yapmış olduğu başvuruda izlenen silsile şu
+şekildedir. Öncelikle valilik yetkilileri, sonrasında İçişleri Bakanlığı, takiben
+gönderildiyse ilgili bakanlıkların görüşü ile Hazine ve Maliye Bakanlığı’nın
+görüşü birleştirilerek İçişleri Bakanlığı’nın teklifi ve Cumhurbaşkanı kararı
+ile süreç sonlanmaktadır. Her ne kadar nihai kararı Cumhurbaşkanlığı
+makamı verse de siyasi mercilerin incelemeleri neticesinde hazırlanan rapor,
+kararın verilmesinde etki ettiği için söz konusu silsile eleştirilmektedir.
+Ayrıca verilen kararın neticesinde dernekler bazı avantajlardan
+yararlanmaktadırlar. Bu avantajların başında vergisel muafiyetler
+gelmektedir. Oysa ki Anayasa’nın 73’üncü maddesinin 3’üncü fıkrası gereği
+vergi, resim, harç ve benzeri mali yükümlülükler kanunla konulur,
+değiştirilir veya kaldırılır. Bu bakımdan işletilen sürecin Anayasa hükmüne
+de aykırı bir usul olduğu ileri sürülmektedir (Özden, 2015, s. 223).
+         Yukarıda da ifade edildiği gibi Türk Hukuk Sisteminde kamu
+yararına çalışan dernek statüsü kararının nihai mercii Cumhurbaşkanlığı
+makamıdır. Cumhurbaşkanının kararı olumlu ise karar İçişleri Bakanlığı
+yetkililerince ilgili valiliğe bildirilir. Valilik ise olumlu kararı başvuru sahibi
+derneğe tebliğ eder (Dernekler Yönetmeliği m.51/3). Buna karşın nihai karar
+olumsuz ise olumsuz kararın kendilerine tebliğinden itibaren derneğin itiraz
+edebileceği süreç hakkında mevzuatta düzenleme yer almamaktadır.
+Dernekler Yönetmeliği’nin 49’uncu maddesinin 2’nci fıkrasında sadece
+başvuru yapıp nitelikleri taşımadığı tespit edilen derneklerin, kamu yararı
+kararı için bu tespitin yapıldığı tarihten itibaren üç yıl geçmeden önce
+yeniden başvuramayacağı düzenlenmiştir.
+         Ayrıca mevzuatta kararın ne kadar sürede verileceği, karara karşı
+itiraz yollarına da yer verilmemesi giderilmesi gereken bir eksikliktir. Söz
+konusu başvuruya ne kadar süre içerisinde olumlu olumsuz dönüş yapılacağı
+190                       Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+ve itiraz usulü mevzuatta açıkça düzenlenip belirli sürelere bağlanmalıdır.
+Genel anlamda başvuru sürecinin idari bir işlem olduğu düşünüldüğünde
+idari işleme karşı itiraz sürecinin burada da işletilebileceği sonucuna
+varılabilir (Özsunay, 1982, s. 112). Ancak bu konu Dernekler Kanunu’nda
+açıkça düzenlenmesi, tamamlanması gereken önemli bir eksikliktir.
+    5. KAMU YARARINA ÇALIŞAN DERNEK STATÜSÜNÜN
+KAYBEDİLMESİ
+        Kamu yararına çalışan dernek statüsünün kazanılması için aranan
+şartlar ile bu şartların oluşup oluşmadığının belirlenme süreçleri
+açıklamalardan da anlaşıldığı üzere çok kolay olmadığı ortadadır. Esasen
+kolay nitelikte kazanılmadığını hâlihazırda bu statüye sahip dernek sayısının
+az olması da bu durumu kanıtlar niteliktedir. Söz konusu statünün
+kazanılması ne çok zorlaştırılmalı ne de çok kolaylaştırılmalıdır. Neticede
+kamu yararına çalışan dernek statüsü verildiği takdirde devletin vazgeçeceği
+gelir kaleminin rakamsal boyutu iyi bir şekilde hesaplanmalıdır (Özden,
+2015, s. 216). Devletin maddi kaybı olduğu gibi bu statüyü verdiği
+derneklere manevi yönden de kamuoyu güveni sağladığı göz ardı
+edilmemelidir.
+        Konunun hassasiyetini dikkate alan kanun koyucu bu statüye sahip
+derneklerin iki yılda bir denetleneceğini düzenleme altına almıştır (Dernekler
+Kanunu m.27/3). Diğer derneklerden farklı olarak kamu yararına çalışan
+dernekler Hazine ve Maliye Bakanlığınca da denetlenmektedir (Özkan,
+2000, s. 550). Anayasa'nın 108’inci maddesi, Devlet Denetleme Kurulu'nun
+kamuya yararlı derneklere yönelik her türlü idari soruşturma, inceleme,
+araştırma ve denetlemeleri yapacağını düzenler.15/7/2018 tarihli ve 5 sayılı
+Devlet Denetleme Kurulu Hakkında Cumhurbaşkanlığı Kararnamesi’nin
+1’inci maddesinin 2’nci fıkrasının (ç) bendinde yer alan “kamuya yararlı
+dernekler” ibaresiyle söz konusu derneklerin Devlet Denetleme Kurulu’nun
+denetim alanı kapsamında olduğu görülmektedir.
+         Denetimlerde derneklerin yapmış oldukları çalışmaların kamu
+yararına ne ölçüde etki ettiği ve yapmış oldukları hizmetlerin kamuya yarar
+sağlamasının süreklilik arz edip etmediği dikkatle incelenmektedir.
+Gerçekleştirilen denetimler neticesinde derneklerin sahip olmaları gereken
+niteliklerde eksiklik veya yokluk söz konusu olduğu takdirde ilgili dernekten
+öncelikle açıklama istenmektedir. İstenen açıklama yapılmaz veya yapılan
+açıklama yetersiz görüldüğü takdirde kamu yararına çalışan dernek
+statüsünün verilmesine karar veren mercilerin sırasıyla görüşü alınarak
+verilen karar iptal edilmektedir. Süreçte Hazine ve Maliye Bakanlığı’nın ve
+                        Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209            191
+
+
+varsa derneğin faaliyet alanıyla ilintili bakanlığın görüşü alınarak yazılı
+rapor hazırlanır. Yazılı rapor ile birlikte İçişleri Bakanlığı teklifi
+Cumhurbaşkanlığı makamına iletilir. Cumhurbaşkanı kararı, statünün iptali
+yönündeyse söz konusu karar İçişleri Bakanlığı’nca derneğin yerleşim yeri
+valiliğine bildirilir. Valilik de kararı derneğe tebliğ eder (Dernekler
+Yönetmeliği m.52).
+         Statünün kaybedilmesinden itibaren tekrar başvuru yapılması
+konusunda mevzuatta herhangi bir süre belirlenmemiştir. Bu durumda
+mevzuatta öngörülen şartları sağladığına inanan dernek yeniden başvuruda
+bulunabilmelidir. Ayrıca statünün kaybedilmesi derneğin kişiliğinin sona
+ermesi anlamına gelmemektedir. Dernek statüsünü kaybetmesine rağmen
+faaliyetlerine devam edebilmektedir. Kamu yararına çalışan dernek,
+dernekler bakımından bir niteleme olup bir dernek türü değildir (Saban,
+2021, s. 4; Kavak, 2018, s. 42). Bu nedenle dernek kamu yararına çalışan
+dernek statüsünü kaybetse de halen varlığını sürdürmeye devam etmektedir.
+     6. KAMU   YARARINA                          ÇALIŞAN            DERNEKLERİN
+VERGİSEL AVANTAJLARI
+        Vergi devletin tek taraflı üstün gücüne dayanarak kamu
+harcamalarında kullanılmak kaydıyla belirli kurallar çerçevesinde halktan
+aldığı paradır (Kalenderoğlu, 2017, s. 23; Şenyüz, Yüce ve Gerçek, 2022, s.
+4). Temel dayanağı Anayasa’nın 73’üncü maddesidir. Maddeye göre
+“Herkes, kamu giderlerini karşılamak üzere, mali gücüne göre, vergi
+ödemekle yükümlüdür”.
+         Dernekler de tıpkı gerçek ve diğer tüzel kişiler gibi banka ve sigorta
+muameleleri vergisi, belediye gelirleri vergisi, damga vergisi, değerli
+kâğıtlar vergisi, emlak vergisi, gelir vergisi, veraset ve intikal vergisi, katma
+değer vergisi, kurumlar vergisi, motorlu taşıtlar vergisi, özel tüketim vergisi,
+harçlar ve benzeri yükümlülükleri faaliyetleri sırasında ödemekle karşı
+karşıya kalabilir. Ancak kanun koyucu bazı gerçek kişi ya da tüzel kişilere
+vergi muafiyeti sağlamaktadır. Kamu yararına çalışan dernekler vergi
+muafiyetinden faydalananlar arasındadır.
+        Aşağıda söz konusu vergilere ve kamu yararına çalışan derneklerin
+bu vergilerden hangileri bakımından ayrıcalıklara sahip olduğu bilgisi
+paylaşılacaktır.
+        6.1. Gelir Vergisi
+       Gelir Vergisi Kanunu’nun 1’inci maddesinde gelir, gerçek kişinin bir
+takvim yılı içinde elde ettiği kazanç ve iratların safi tutarı şeklinde
+192                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+tanımlanmıştır. Dolayısıyla gerçek kişilerin gelirleri gelir vergisine tâbidir.
+Dernekler tüzel kişiliğe sahip olduklarından elde ettikleri gelirler gelir
+vergisinin konusu dışındadır. Burada sağlanan muafiyet derneğe değil
+yardımda veya bağışta bulunan gerçek kişiye ilişkindir. Gelir
+beyannamesinde bulunan gerçek kişiler, kamu yararına çalışan derneklere
+yardım ve bağışta bulundukları takdirde yardım ve bağışları gider gösterip
+belirli oranlarda vergi indirimlerinden yararlanabilmektedir.
+        Gelir Vergisi Kanunu’nun 89’uncu maddesinin 4’üncü fıkrasında
+indirim oranı yardım veya bağış yapılan derneğe göre yıl içindeki gelirin %5
+şayet kalkınmada öncelikli bölgelerde faaliyet gösteren bir dernek ise %10
+oranında olabileceği gibi tamamı da gider olarak gösterilebilir. Yapılan bağış
+veya yardım nakdi ise bu oranları belirlemek kolay olacaktır. Şayet ayni
+yardım veya bağış söz konusuysa malın maliyet bedeli ya da kayıtlı değeri,
+bu değerlerde bilinmiyorsa Vergi Usul Kanunu gereği takdir
+komisyonlarının belirlediği değer esas alınır (TÜSEV, 2018, s. 14-15).
+        Her ne kadar dernekler gerçek kişi olmamaları nedeniyle doğrudan
+gelir vergisi mükellefi olmasalar da dernek, Gelir Vergisi Kanunu’nun
+89’uncu maddesinin 7’nci bendinde sayılı faaliyetleri gerçekleştirdiyse ya da
+Kültür ve Turizm Bakanlığı’nca desteklenen veya desteklenmesi uygun
+görülen projelerine ilişkin harcamalar ile bu amaçla yapılan her türlü bağış
+ve yardımlarda da muafiyetten yararlanmaktadır. Kanunda sayılı faaliyetleri
+gerçekleştiren kurum ve kuruluşlara özel bir hükümle muafiyet istisnası
+tanımıştır. Burada dikkat edilmesi gereken husus gelir beyannamesi
+vermeyen kişiler söz konusu bu muafiyetten yararlanamamaktadır (Özden,
+2015, s. 226).
+         Ayrıca Gelir Vergisi Kanunu’nun 94’üncü maddesinin birinci
+fıkrasının 7, 8, 9 ve 14 numaralı bentleri uyarınca derneklerin iktisadi
+işletmelerinden elde ettikleri kazançlar, iktisadi işletmelerinden elde edilen
+ve derneğe aktarılan kazançlar, hisse senedi kar payları, iştirak hisselerinden
+doğan kar payları, A tipi yatırım fonu kazancı, B tipi yatırım fonu kazancı,
+devlet tahvili faizi, hazine bonosu faizi, risk sermayesi yatırım fonları,
+gayrimenkul yatırım fonları, gayrimenkul yatırım ortaklıkları kazançları,
+toplu konut kamu ortaklığı ve özelleştirme idarelerince çıkarılan menkul
+kıymet gelirleri, özel sektör tahvili faizleri, mevduat faizleri, döviz tevdiat
+hesapları, özel finans kurumlarının ödedikleri kar payları, repo gelirleri,
+kiracı şirket olduğu takdirde gayri menkul sermaye iradı, iktisadi işletmeye
+ilişkin gayri menkul alım satım kazancı, devlet tahvili, hazine bonosu alım
+satım kazancı, istisnaları olmakla birlikte hisse senedi, iştirak hissesi, tahvil
+alım satım kazançlarından gelir vergisi kesintisi yapılmaz (TÜSEV, 2018, s.
+                        Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209            193
+
+
+12). Derneklerin gerek bankada gerek özel finans kurumlarında açtırdıkları
+hesaplardan elde edilen faiz gibi gelirlerde de kesinti yapılmamaktadır.
+        6.2. Kurumlar Vergisi
+         Kurumlar vergisi, kurumların kazançları üzerinden alınan vergidir.
+Gelir vergisi mükellefi gerçek kişiler iken kurumlar vergisi mükellefi tüzel
+kişilerdir. Bu sayede gerçek ve tüzel kişiler arasında vergi adaleti ve eşitliği
+sağlanmaktadır (Erkilet, 1991, s. 75). Kurumlar Vergisi Kanunu’nun 2’nci
+maddesinde kurumlar vergisi mükellefleri sayılmıştır. Maddeye göre
+dernekler kurumlar vergisi mükellefi değilken derneklere ait varsa iktisadi
+işletmeleri kurumlar vergisi mükellefidir. Diğer bir anlatımla, derneğe ait
+iktisadi işletmelerin kazançları vergiye tabidir. Örneğin; derneğe ait iktisadi
+işletmelerin nakit yatırımlarından, tahvil, hisse senetleri ve kira gelirlerinden
+stopaj yoluyla kesintiler yapılmaktadır.
+         Kurumlar Vergisi Kanunu mükellefi olan tüzel kişiler Kanun’un
+10’uncu maddesindeki düzenleme uyarınca gerçek kişilerde olduğu gibi
+yapmış oldukları yardım ve bağışları gider göstererek vergi indiriminden
+yararlanabilmektedir. Kanun’daki düzenleme gereği kamu yararına çalışan
+derneklere bağışta ve yardımda bulunan tüzel kişiler yapmış oldukları
+bağışlar nedeniyle vergi matrahlarından belirli oranlarda indirimlerden
+yararlanmaktadır. Kurumlar Vergisi Kanunu’nun 10’uncu maddesinin 1-c
+bendi uyarınca kamu yararına çalışan derneklere makbuz karşılığında
+yapılan bağış ve yardımların toplamının o yıla ait kurum kazancının %5’ine
+kadar olan kısmı kurumlar vergisi beyannamesi üzerinde ayrıca gösterilmek
+şartıyla kurum kazancından indirilir.
+        Derneğe yapılan yardım ve bağışlar dolayısıyla kurumlar belirli
+oranlarda indirimden istifade edilebileceği gibi dernekte Kurumlar Vergisi
+Kanunu’nun 10’uncu maddesinin 1-d bendi uyarınca kamu yararına çalışan
+dernekler tarafından yapılan veya Kültür ve Turizm Bakanlığınca
+desteklenen ya da desteklenmesi uygun görülen faaliyetleri gerçekleştirdiği
+takdirde vergi indiriminden yararlanır.
+        Söz konusu faaliyetler; kültür ve sanat faaliyetlerine ilişkin ticarî
+olmayan ulusal veya uluslararası organizasyonların gerçekleştirilmesine,
+ülkemizin uygarlık birikiminin kültürü, sanatı, tarihi, edebiyatı, mimarîsi ve
+somut olmayan kültürel mirası ile ilgili veya ülke tanıtımına yönelik kitap,
+katalog, broşür, film, kaset, CD ve DVD gibi manyetik, elektronik ve bilişim
+teknolojisi yoluyla üretilenler de dahil olmak üzere görsel, işitsel veya basılı
+materyallerin hazırlanması, bunlarla ilgili derleme ve araştırmaların
+yayınlanması, yurt içinde ve yurt dışında dağıtımı ve tanıtımının
+194                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+sağlanmasına, yazma ve nadir eserlerin korunması ve elektronik ortama
+aktarılması ile bu eserlerin Kültür ve Turizm Bakanlığı koleksiyonuna
+kazandırılmasına, 21/7/1983 tarihli ve 2863 sayılı Kültür ve Tabiat
+Varlıklarını Koruma Kanunu kapsamındaki taşınmaz kültür varlıklarının
+bakımı, onarımı, yaşatılması, rölöve, restorasyon, restitüsyon projeleri
+yapılması ve nakil işlerine, kurtarma kazıları, bilimsel kazı çalışmaları ve
+yüzey araştırmalarına, yurt dışındaki taşınmaz Türk kültür varlıklarının
+yerinde korunması veya ülkemize ait kültür varlıklarının Türkiye’ye
+getirilmesi çalışmalarına, kültür envanterinin oluşturulması çalışmalarına,
+Kültür ve Tabiat Varlıklarını Koruma Kanunu kapsamındaki taşınır kültür
+varlıkları ile güzel sanatlar, çağdaş ve geleneksel el sanatları alanlarındaki
+ürün ve eserlerin Kültür ve Turizm Bakanlığı koleksiyonuna kazandırılması
+ve güvenliklerinin sağlanmasına, somut olmayan kültürel miras, güzel
+sanatlar, sinema, çağdaş ve geleneksel el sanatları alanlarındaki üretim ve
+faaliyetler ile bu alanlarda araştırma, eğitim veya uygulama merkezleri,
+atölye, stüdyo ve film platosu kurulması, bakım ve onarımı, her türlü araç ve
+teçhizatının tedariki ile film yapımına, kütüphane, müze, sanat galerisi ve
+kültür merkezi ile sinema, tiyatro, opera, bale ve konser gibi kültür ve sanat
+faaliyetlerinin sergilendiği tesislerin yapımı, onarımı veya modernizasyon
+çalışmalarına ilişkin harcamalar ile makbuz karşılığı yapılan bağış ve
+yardımların % 100’ü oranında indirimler uygulanır.
+        Söz konusu oranlar günümüz ekonomik şartları göz önünde
+bulundurulduğunda yetersiz olduğu sonucuna rahatlıkla varılabilir. Bu
+oranların yıllık enflasyona göre belirlenecek şekilde belirlenmesi yerinde bir
+çözüm olabilir.
+        6.3. Emlak Vergisi
+         Emlak vergisi kişilerin sahip oldukları bina, arsa gibi taşınmazlar
+nedeniyle devlete ödedikleri vergidir. Emlak Vergisi Kanunu gereği Türkiye
+sınırları içindeki binalar bina vergisine, arsalar ise arazi vergisine tabi
+kılınmıştır. Bina veya arsa maliki, varsa intifa hakkı sahibi her ikisi de yoksa
+binayı veya arsayı malik gibi tasarruf edenler bu vergiyi ödemekle
+mükelleftir. Kanun’un ikinci bölümünde yer alan 4’üncü maddesinde bina
+vergisinden daimî olarak muaf tutulan binalara, 14’üncü maddesinde ise arsa
+vergisinden daimî olarak muaf tutulan arazilere yer verilmiştir (Emlak
+Vergisi Kanunu m. 4/e, m. 14/c). Bu kapsamda derneklerin amaçlarını
+gerçekleştirmek için kullandıkları binalar ve araziler emlak vergisinden muaf
+kılınmıştır.
+                       Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209            195
+
+
+         Ancak derneğe ait bina ve araziler kiraya verilip gelir elde ediliyorsa
+emlak vergisine tabidir. Ayrıca derneğe bağlı kurumlar vergisi mükellefi
+işletmelere ait veya tahsis edilmiş binalar ve arsalar için de emlak vergisi
+ödenmek zorundadır. Örneğin; kamu yararına çalışan derneğe ait, kurumlar
+vergisine tabi bir kolonya üretim işletmesinin bulunduğu bina emlak
+vergisine tabidir. Yine kamu yararına çalışan derneğe ait arazi otopark olarak
+kullanılıyorsa emlak vergisine tabidir. Çoğu derneğin gelir kalemleri
+arasında taşınmazlarından elde ettikleri kiralar yer almaktadır. Bu nedenle
+söz konusu düzenleme kısır bir döngüye sebep olmaktadır. Bunun kanunda
+makul bir açıklaması da yer almamaktadır.
+        6.4. Veraset ve İntikal Vergisi
+         Veraset ve intikal vergisi, kişinin taşınır veya taşınmaz malları
+karşılıksız bir şekilde edindiğinde ya da mirasçıların miras bırakanın terekesi
+üzerindeki haklarını elde edebilmesi için devlete ödediği vergidir. Vergi
+mükellefi taşınır veya taşınmazı elde eden kişidir. Veraset ve İntikal Vergisi
+Kanunu’nun 1’inci maddesinde verginin konusu açıklanmıştır. Maddeye
+göre Türkiye Cumhuriyeti tabiiyetinde bulunan şahıslara ait mallar ile
+Türkiye'de bulunan malların veraset tarikiyle veya herhangi bir suretle olursa
+olsun ivazsız bir tarzda bir şahıstan diğer şahsa intikali veraset ve intikal
+vergisine tabidir.
+         Normal şartlarda yapılan intikal, yardım ve bağışlarda vergi
+kesintileri uygulanırken kamu yararına çalışan derneklere yapılan intikal,
+yardım ve bağışlarda Veraset ve İntikal Vergisi Kanunu’nun 3’üncü
+maddesinin (b) bendi uyarınca veraset ve intikal vergi kesintisi
+yapılmamaktadır. Örneğin; kız çocuklarının okuması için faaliyet gösteren
+kamu yararına çalışan dernek statüsüne sahip bir derneğe yalı bağışlanması
+halinde dernek, veraset ve intikal vergisi ödemekle mükellef olmayacaktır.
+         Ayrıca Veraset ve İntikal Vergisi Kanunu’nun 4’üncü maddesinin
+(g) bendi gereği kamu yararına çalışan dernekler dul ve yetimlere bağlanan
+aylıklarla bu aylıklar dışında verilen emekli ikramiyeleri ile dul ve yetim
+evlenme ikramiyeleri ve hizmet müddetlerini doldurmamış bulunanların dul
+ve yetimlerine aylık yerine toptan yapılan ödemeler de veraset ve intikal
+vergisinden muaf tutulmuştur.
+        Son olarak Veraset ve İntikal Vergisi Kanunu’nda vakıflar ve
+dernekler bakımından farklı bir düzenleme yer aldığına değinmekte fayda
+vardır. Kanun’un 4’üncü maddesinin (k) bendinde Cumhurbaşkanınca vergi
+muafiyeti tanınan vakıflara kuruluşu için veya kurulduktan sonra tahsis
+olunan mallar veraset ve intikal vergisinden istisna tutulmakla birlikte kamu
+196                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+yararına çalışan derneklerin bu kapsama dahil edilmemesi eksik belki de
+unutulmuş bir düzenlemedir.
+        6.5. Gümrük Vergisi
+        Gümrük Vergisi Kanunu, Türkiye Cumhuriyeti Gümrük Bölgesine
+giren ve çıkan eşyaya ve taşıt araçlarına uygulanacak gümrük kurallarını
+belirlemektedir (Gümrük Vergisi Kanunu m.1). Gümrük Vergisi
+Kanunu’nun 167’nci maddesinin 7’nci bendindeki düzenleme uyarınca
+Cumhurbaşkanınca belirlenen kuruluşlar tarafından ticari gaye güdülmemek
+ve amacı doğrultusunda kullanılmak üzere ithal edilen eşyalar vergiden
+muaftır. Bu eşyalar; eğitim, bilim ve kültürel amaçlı eşya ile bilimsel alet ve
+cihazlar, tıbbi teşhis, tedavi ve araştırma yapılmasına mahsus alet ve
+cihazlar, bilimsel araştırma amacına yönelik hayvanlar ile biyolojik veya
+kimyasal maddeler, insan kaynaklı tedavi edici maddeler ile kan gruplama ve
+doku tipi ayırma belirteçleri, ilaç özelliği olan ürünlerin kalite kontrolü
+amacına yönelik maddeler, ulusal araştırma geliştirme kurumları tarafından
+yürütülen veya desteklenen araştırma ve geliştirme faaliyetlerinde
+kullanılmak üzere ithal edilen eşyalardır. Bu kapsamda kamu yararına
+çalışan dernekler sayılı eşyalar ithal ettiği takdirde gümrük vergisi ödemek
+zorunda değildir.
+        6.6. Belediye Gelirleri
+         Belediye Gelirleri Kanunu uyarınca belediyeler; ilan ve reklam
+vergisi, eğlence vergisi, haberleşme vergisi gibi Kanun’da sayılı harçlardan
+gelir elde ederler. Kanun gereği belediye sınırları ile mücavir alanlar içinde
+yer alan eğlence işletmelerinin faaliyetleri eğlence vergisine tabidir.
+Verginin mükellefi, eğlence yerlerini işleten gerçek veya tüzel kişilerdir.
+Ancak Kanun’da düzenlenen muafiyet gereği kamu yararına çalışan
+derneklerin düzenlemiş olduğu eğlence faaliyetlerinden dolayı belediyelere
+vergi ödemekle mükellef değildir (Belediye Gelirleri Kanunu m.19/3). Buna
+karşın kamu yararına çalışan dernekler bakımından herhangi bir istisna
+tanınmayan çevre ve temizlik vergisi, ilan ve reklam vergisi, haberleşme
+vergisi gibi diğer vergileri dernekler gibi kamu yararına çalışan dernekler de
+ödemekle mükelleftirler.
+        6.7. Harç İstisnaları
+         Harçlar Kanunu kapsamında yer alan harçlar; yargı harçları, noter
+harçları, vergi yargısı harçları, tapu ve kadastro harçları, konsolosluk
+harçları, pasaport, ikamet tezkeresi, çalışma izni, çalışma izni muafiyeti, vize
+ve Dışişleri Bakanlığı tasdik harçları, gemi ve liman harçları, imtiyazname,
+                       Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209           197
+
+
+ruhsatname ve diploma harçları, trafik harçları şeklinde sınıflandırılmıştır
+(Harçlar Kanunu m.1).
+         Kamu     yararına     çalışan     derneklerin   iktisap    edecekleri
+gayrimenkullerin ve sair ayni hakların tescilleri ve şerhi gerektiren
+işlemleriyle bu derneklere ait tesislerin ve bu tesislerin sonradan iktisap
+edecekleri gayrimenkullerin ve sair ayni hakların tescilleri ve şerhi
+gerektiren işlemleri ve bunların terkinleri harç ödemekten muaftırlar (Harçlar
+Kanunu m.59). Fakat kamu yararına çalışan bir dernek gayrimenkul satın
+aldığı takdirde Tapu ve Kadastro harçlarından muaf olmakla birlikte satış
+yapar ya da devir işlemlerinde bulunursa harç muafiyeti söz konusu değildir.
+Kamu yararına çalışan dernekler tapu ve kadastro harçlarından muaf
+olmasına rağmen yargı, noter ve vergi harçları mükellefidirler. Yine
+dernekler ve vakıflar arasında farklı bir düzenleme Harçlar Kanunu’nda da
+yer almaktadır. Kanun’un 38’inci maddesinin 3’üncü fıkrası uyarınca
+Cumhurbaşkanınca vergi muafiyeti tanınan vakıfların kuruluş
+muameleleriyle bu vakıflara yapılacak bağışlamalar harca tabi tutulmazken
+kamu yararına çalışan derneklere yönelik böylesi bir istisnai hükmün mevcut
+olmaması, kamu yararına çalışan dernekler için vakıflara kıyasla vergisel
+anlamda bazı güçlükler oluşturmaktadır.
+        6.8. Damga Vergisi
+         Damga vergisi, kişilerin karşılıklı gerçekleştirdiği resmi sözleşmeler
+sonucu sözleşmelerin geçerliliğini belgelemek adına tarafların devlete
+ödemekle yükümlü oldukları vergidir. Damga Vergisi Kanunu’nun 1’inci
+maddesinde kanunun ekli (1) sayılı tabloda yazılı kâğıtlar damga vergisine
+tabi kılınmıştır. Kâğıt teriminden, yazılıp imzalamak veya imza yerine geçen
+bir işaret konmak suretiyle düzenlenen ve herhangi bir hususu ispat veya
+belli etmek için ibraz edilebilecek olan belgeler ile elektronik imza
+kullanılmak suretiyle manyetik ortamda ve elektronik veri şeklinde
+oluşturulan belgeler anlaşılmalıdır (Damga Vergisi Kanunu m.1/2). Örneğin;
+kira, ihale, ücret sözleşmeleri damga vergisine tabidir.
+        Damga Vergisi Kanuna ekli (2) sayılı tabloda yazılı kâğıtların damga
+vergisinden istisna edilenler sayılmıştır. Muaf olanlar arasında kamu
+yararına çalışan dernekler de bulunmaktadır (Damga Vergisi Kanunu m. 9).
+Kamu yararına çalışan dernekler, her türlü işlemlerinde düzenlenen ve
+damga vergisi kendileri tarafından ödenmesi gereken kâğıtlar bakımından
+damga vergisinden muaf kılınmıştır. Örneğin; derneklerin yerleşim yeri
+olarak kullanılmak üzere yaptıkları kira sözleşmeleri damga vergisinden
+muaf tutulmuştur ((2) Sayılı Tablo m.11,17,31). Yine kamu yararına çalışan
+198                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+dernekler fatura, sözleşme ve sigorta pirim bildirgeleri için damga vergisi
+ödememektedirler. Damga Vergisi Kanun’unda sağlanan muafiyet yalnızca
+kamu yararına çalışan derneklere ilişkindir. Diğer bir anlatımla, kamu
+yararına çalışan dernek ile kişi arasında düzenlenen kâğıtlar damga vergisine
+tabidir.
+         Damga Vergisi Kanunu’nun 24’üncü maddesinin 2’nci fıkrası gereği
+birden fazla kişi tarafından imza edilen kâğıtlara ait vergi ve cezanın
+tamamından imza edenler müteselsilen sorumludurlar. Bunlar arasında
+vergiden müstesna olanların bulunması damga vergisinin noksan ödenmesini
+gerektirmez. Damga vergisinden muaf kuruluşlarca kişilerin (1) sayılı
+tabloda yer alan işlemleriyle ilgili olarak düzenlenen ve sadece bu
+kurumların imzasını taşıyan kâğıtlara ait verginin tamamı kişiler tarafından
+ödenecektir. Örneğin; kamu yararına çalışan dernek ile mobilya satan bir
+mağazanın yapmış olduğu taksitle satış sözleşmesinde damga vergisi
+mükellefi mobilya satıcısıdır (Erkilet, 1991, s. 439). O halde derneğin tek
+taraflı yaptığı veya resmi dairelerle birlikte kâğıtları imza veya ibra etmesi
+haricinde dernek ile kişiler arasında düzenlenen kâğıtlar vergiden muaf
+değildir.
+        6.9. Katma Değer Vergisi
+         Katma değer vergisi, bir mal ve hizmeti teslim eden kişinin teslim
+alan kişiye yükleyerek devlete ödediği vergi türüdür. Katma Değer Vergisi
+Kanunu’nun 1’inci maddesinde verginin konusunu teşkil eden işlemler
+sayılmıştır. Maddeye göre Türkiye'de yapılan ticari, sınai, zirai faaliyet ve
+serbest meslek faaliyeti çerçevesinde yapılan teslim ve hizmetler, her türlü
+mal ve hizmet ithalatı ve diğer faaliyetlerden doğan teslim ve hizmetler
+şeklinde üç bent halinde sıralanmıştır. Kanun’un ikinci bölümünde ise
+mükellef ve vergi sorumlularına yer verilmiştir. Kamu yararına çalışan
+dernek statüsüne sahip olmayan dernekler gibi bu statüye sahip dernekler de
+kural olarak mal ve hizmet satın almaları halinde katma değer vergisi
+ödemekle sorumludur. Diğer bir anlatımla, kamu yararına çalışan dernekler
+katma değer vergisi mükellefi olup herhangi bir ayrıcalıkları söz konusu
+değildir. Örneğin; dernek gelir elde etmek adına sanat gösterisi düzenleyip
+bilet satışı gerçekleştirse bilet ücretleri katma değer vergisine tabi olacaktır.
+        Fakat Katma Değer Vergisi Kanunu’nun 17’nci maddesi uyarınca
+ilim, fen ve güzel sanatları, tarımı yaymak, ıslah ve teşvik etmek amacıyla
+yaptıkları teslim ve hizmetleri; tiyatro, konser salonu, kütüphane, sergi,
+okuma ve konferans salonları ile spor tesisleri işletmek veya yönetmek
+suretiyle ifa ettikleri kültür ve eğitim faaliyetlerine ilişkin teslim ve
+                       Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209           199
+
+
+hizmetleri; derneklere bağlı hastane, nekahethane, klinik, dispanser,
+prevantoryum, sanatoryum, kan bankası ve organ nakline mahsus bankalar,
+anıtlar, botanik ve zooloji bahçeleri, parklar ile veteriner, bakteriyoloji,
+seroloji ve distofajin laboratuvarları gibi kuruluşlar, öğrenci veya yetiştirme
+yurtları, yaşlı ve engelli bakım ve huzurevleri, parasız fukara aşevleri,
+düşkünevleri ve yetimhaneleri işletmek veya yönetmek suretiyle ifa ettikleri
+kuruluş amaçlarına uygun teslim ve hizmetleri ile bunlardan sağlık hizmeti
+sunanların teşhis ve tedaviye yönelik olarak birbirlerine yapacakları teslim
+ve hizmetler katma değer vergisinden muaf kılınmıştır.
+        Yine kamu yararına çalışan derneklerce bila bedel yapılan her türlü
+mal teslimi ve hizmet ifaları Hazine ve Maliye Bakanlığı’nca belirlenen usul
+ve esaslar çerçevesinde bağışlanan gıda, temizlik, giyecek ve yakacak
+maddelerinin teslimi katma değer vergisinden muaftır. Örneğin; kaybolmaya
+yüz tutmuş bitki türlerini inceleyen ve bu konuda arşiv çalışmaları yapan
+kamu yararına çalışan bir derneğe ait botanik bir bahçe varsa ve bu bahçede
+üretilen bitkiler aynı zamanda derneğe gelir sağlaması adına satışı da
+yapılıyorsa söz konusu satışlarda ürünlere katma değer vergisi
+uygulanmayacaktır. Oysa ki ayrım gözetmeksizin bu derneklerin her türlü
+mal ve hizmet satın alımları katma değer vergisine tabi tutulmaması daha
+yerinde bir yaklaşım olacaktır.
+        6.10. Diğer Kanunlarda Düzenlenen İstisnalar
+         Vergisel avantajların yanı sıra kamu yararına çalışan derneklere bazı
+ayrıcalıklar tanınmış ve yükümlülükler de getirilmiştir. Örneğin; söz konusu
+dernekler ücretsiz hazine arazisi tahsisi yapmada önceliklidirler. Kamu
+yararına çalışan derneklere, kuruluş gayelerine uygun olarak kullanılmak
+üzere, Hazinenin özel mülkiyetinde kayıtlı bulunan ve kamu hizmetlerine
+tahsisli olmayan taşınmaz malları, satış tarihindeki alım satım rayici nazara
+alınarak kıymet takdiri suretiyle satılabilir. Ancak bu yolla edinilen taşınmaz
+mallar veriliş maksadı dışında kullanılamaz ve satılamaz. Bu yasak ila nihai
+değildir. Satış tarihinden itibaren en az yirmi yıl geçen ve veriliş maksadına
+uygun olarak kullanılan taşınmazların, mevcut faaliyet aksatılmaksızın
+kısmen veya tamamen ticari amaçlarla değerlendirilmesinin kuruluş
+gayelerine daha fazla hizmet edeceği hallerde, elde edilecek gelirin yüzde
+otuzunun Hazineye verilmesi koşuluyla taşınmazların satış dahil
+değerlendirilmesine Hazine ve Maliye Bakanlığı’nca belirlenecek usul ve
+esaslara göre izin verilebilir. Fakat derneğe verilen taşınmaz beş yıl içinde
+kuruluş gayesine uygun olarak kullanılmadığı takdirde, taşınmaz mal, satış
+bedeli üzerinden Hazinece geri alınır (2886 sayılı Devlet İhale Kanunu
+m.72). Yine kamu ile yapılan bazı sözleşmeler de kamu yararına çalışan
+200                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+derneklerin üstünlüğü bulunmaktadır. Örneğin; hayrat taşınmazlar
+vakfiyeleri doğrultusundaki işlevlerde kullanılmak üzere kamu yararına
+çalışan derneklere tahsis edilebilmektedir (Vakıflar Yönetmeliği m.59/3).
+         Kamu yararına çalışan derneklerin diğer önemli bir ayrıcalığı Kültür
+ve Turizm Bakanlığı’nın izniyle korunması gerekli taşınmaz kültür ve tabiat
+varlıklarının intifa haklarının, belirli sürelerle kamu hizmetlerinde
+kullanılmak üzere, kamu yararına çalışan derneklere bırakılabilir veya kiraya
+verilebilir olmasıdır. Korunması gerekli taşınmaz kültür ve tabiat varlıklarını
+kullanan dernekler, bu imkândan yararlanırken bunların bakım, onarım ve
+restorasyon işlerini kanunda belirlenen esaslara göre yapmak ve bunun için
+gerekli masrafları karşılamakla yükümlüdürler (Kültür ve Tabiat Varlıklarını
+Koruma Kanunu m.14).
+         Kamu yararına çalışan derneklere tanınan diğer bir ayrıcalık izin
+almadan yardım toplayabilmeleridir. Yardım Toplama Kanunu gereği kişiler
+ve kuruluşlar, yetkili makamdan izin almadan yardım toplayamazken
+Yardım Toplama Kanunu’nun 6’ncı maddesi gereği kamu yararına çalışan
+dernekler izin almadan yardım toplayabileceği düzenlenmiştir. Hangi
+derneklerin izin almadan yardım toplayabilecekleri, Cumhurbaşkanı’nca
+belirlenip ilan edilmektedir. Burada dikkat edilmesi gereken konu her kamu
+yararına çalışan dernek statüsüne sahip derneğin izin almadan yardım
+toplama hakkı bulunmamaktadır. Kamu yararına çalışan dernek statüsüne
+sahip olan dernek, ilindeki Sivil Toplumla İlişkiler İl Müdürlüğüne
+başvuruda bulunduktan sonra gerekli evraklar Cumhurbaşkanlığı makamına
+iletilmekte makamın kararı olumlu ise çıkarılan kararname ile derneğe izin
+almadan yardım toplama hakkı verilmektedir. Her ne kadar dernek izin
+almadan yardım toplama hakkına sahip olsa da yardım toplama faaliyetine
+başlamadan evvel bulunduğu ilin Sivil Toplumla İlişkiler İl Müdürlüğüne
+bildirimde bulunmakla yükümlüdür. Hâlihazırda kamu yararına çalışan üç
+yüz altmış üç derneğin yirmisi bu haktan yararlanmaktadır (Sivil Toplumla
+İlişkiler Genel Müdürlüğü, İzin Almadan Yardım Toplama Hakkına Sahip
+Kuruluşlar).
+        Ayrıca karşılığı nakit olmayan piyango düzenlemek için izin
+alınması amacıyla müracaatta bulunan gerçek ve tüzel kişilerden; İdarece
+2.000 Türk Lirası başvuru bedeli alınır. Yapılan inceleme sonucunda izin
+verilmesi kararlaştırılan piyangolarda taahhüt edilen ikramiye, ödül veya
+benzeri menfaatlerin toplam rayiç bedelinin %15’i oranında ayrıca izin
+bedeli alınırken kamu yararına çalışan dernekler tarafından düzenlenecek
+piyangolardan ise başvuru veya izin bedeli alınmamaktadır (Milli Piyango
+Hakkında Kanun Hükmünde Kararname m.41).
+                      Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209          201
+
+
+        Yine Hukuk Muhakemeleri Kanunu’ndaki düzenleme uyarınca
+kamu yararına çalışan dernekler, iddia ve savunmalarında haklı göründükleri
+ve mali açıdan zor duruma düşmeden gerekli giderleri kısmen veya tamamen
+ödeyemeyecek durumda oldukları takdirde adli yardımdan yararlanabilirler
+(Hukuk Muhakemeleri Kanunu m. 334).
+        7. DEĞERLENDİRME VE SONUÇ
+         Kamu yararına çalışan dernek statüsünün kazanılması derneklere
+maddi anlamda avantaj sağlamasının yanı sıra toplum nezninde derneklere
+olan güveni de artırmaktadır. Fakat ülkemizde hâlihazırda kamu yararına
+çalışan dernek statüsüne sahip olan dernek sayısı yeterli değildir. Gelişmiş
+ülke olmanın en önemli göstergelerinden biri örgütlenmelerdeki dernekleşme
+sayılarının çokluğudur. Bu nedenle daha fazla sayıda derneğin bu statüye
+sahip olmasının önü açılması gereklidir. Fakat buradan her derneğin kamu
+yararına çalışan dernek statüsü kazanması anlamı çıkarılmamalıdır. Çünkü
+kamu yararına çalışan derneklerin maddi avantaja sahip olması çeşitli
+suiistimallere sebebiyet verebilir. Bu olumsuz durumları önlemek adına etkin
+denetimler yapılması gerekliliği de göz ardı edilmemelidir. Şeffaflık ve
+hesap verilebilirlik ilkeleri gözetilerek gerekli önlemler alınmalıdır.
+        Nitekim devlet derneğe kamu yararına çalışan dernek statüsü
+verdiğinde en önemli gelir kaynaklarından biri olan vergiden
+vazgeçmektedir. Bu vazgeçişin karşılığı mesnetsiz olmamalıdır. Dernek
+çalışmalarının kamuoyuyla paylaşılmasının yolları açık bir şekilde kanun
+koyucu tarafından belirlenmelidir.
+         Günümüz koşullarında derneklerin yürüttükleri çalışmalara herkesin
+erişebileceği şekilde paylaşılmasına imkân sağlayan birçok vasıta
+bulunmaktadır. Örneğin; Dernekler Kanunu’nda kamu yararına çalışan
+derneklerin mali tablolarının herkesin erişebileceği şekilde paylaşılmasını
+gerektiren yasal yükümlülükler düzenlenebilir. Ayrıca kamu yararına çalışan
+dernek statüsü kazanan derneklerin bilgileri düzenli olarak Resmî Gazete’de
+yayınlanmamaktadır. Bu konuda Dernekler Kanunu’nda açık bir düzenleme
+yapılarak kararların Resmî Gazete’de ilan edilmesi gerekliliği getirilebilir.
+Bu sayede şeffaflık ve eşitlik ilkeleri gözetilmiş olacaktır.
+        Eşitlik ilkesi gereği aynı hukuki durumda bulunanların aynı kurallara
+tabi olması gerekmektedir. Dernekler kişi toplulukları iken vakıflar mal
+toplulukları olsalar da her iki tüzel kişiliğin nihai hedefi insanlığa hizmet
+etmektir. Literatürde ve uygulamada kamu yararına çalışan dernek
+statüsünün kazanımına ilişkin şartlar ile vakıfların vergi muafiyeti
+kazanımına ilişkin şartlar arasında farklılıklar olmasının altında yatan
+202                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+mantıklı açıklanabilir bir sebebe rastlanmamıştır. Vergi kanunlarındaki kimi
+düzenlemelerde vakıflar derneklere oranla bazı ayrıcalıklardan
+yararlanmaktadır. Örneğin; Veraset ve İntikal Vergisi Kanunu’nun 4’üncü
+maddesinin (k) bendinde Cumhurbaşkanı’nca vergi muafiyeti tanınan
+vakıflara kuruluşu için veya kurulduktan sonra tahsis olunan mallar veraset
+ve intikal vergisinden istisna tutulmakla birlikte kamu yararına çalışan
+derneklerin bu kapsama dahil edilmemesi eksik belki de unutulmuş bir
+düzenlemedir. Yine Harçlar Kanunu’nun 38’inci maddesinin 3’üncü fıkrası
+uyarınca Cumhurbaşkanı’nca vergi muafiyeti tanınan vakıfların kuruluş
+muameleleriyle bu vakıflara yapılacak bağışlamalar harca tabi tutulmazken
+kamu yararına çalışan derneklere söz konusu istisnanın tanınmaması yerinde
+bir düzenleme değildir. Oysa ki dernek ve vakıflar iki ayrı tüzel kişilik
+olsalar da kamu yararı statüsü elde edilmesinde farklı avantajlara tabi
+kılınmaları eşitlik ilkesi bağlamında adil bir yaklaşım değildir. Örneğin;
+vergi muafiyetine sahip vakıflardan yıl içerisin de vergi tasdik formu alındığı
+gibi aynı uygulamanın kamu yararına çalışan dernekler bakımından da
+getirilmesi sivil toplum kuruluşları arasındaki eşitsiz işlemi gidereceği gibi
+derneklerin denetim sayesinde kendilerini gözden geçirmelerine de yardımcı
+olacaktır.
+        Kamu yararına çalışan dernek terimi yerine vakıflarda olduğu gibi
+vergi muafiyeti tanınmış dernek teriminin kullanılması ve mevzuatta bu
+hususun yeknesaklaştırılması oldukça önemlidir. Nitekim dernekler gönüllü
+kuruluşlar olup esasen her biri kamunun yararı için belirli ölçülerde kamuya
+hizmet ettikleri sonucuna rahatlıkla varılabilir. Ayrıca kamu yararı soyut bir
+kavram olsa da Dernekler Kanunu ve Dernekler Yönetmeliği’nde kamu
+yararı kavramına ilişkin bir çerçeve tanıma yer verilmesi belirsizliği
+giderecek olup aynı zamanda farklı uygulamaları önlemeye hizmet edebilir.
+       Ek olarak Dernekler Yönetmeliği’nde aşağıdaki değişikliklerin ve
+eklemelerin yapılması uygulayıcılara da kolaylık sağlayacaktır.
+         Dernekler Yönetmeliği’nin 49’uncu maddesinin 1-c bendindeki
+derneğin son bir yıl içindeki, 200.000 Türk Lirasını geçen alım ve satım
+işlemlerinin rekabet koşullarına uygun yapılmasına ilişkin maddedeki tutarın
+güncellenebilmesine imkân tanıyan yasal düzenleme daha yerinde olacaktır.
+Yönetmelikte sabit bir tutarın belirtilmesi yerine ekonomik koşullara daha
+uyumlu olması bakımından alım ve satım işlemi sınırlarını her yıl güncel
+olarak tespit edebilmeye imkân tanıyan yasal düzenleme yoluna gidilmesi
+gerekmektedir. Söz konusu oranlar günümüz ekonomik şartları göz önünde
+bulundurulduğunda yetersiz olduğu sonucuna rahatlıkla varılabilir. Bu
+oranların yıllık enflasyona göre belirlenmesi yerinde bir çözüm olabilir.
+                       Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209            203
+
+
+         Dernekler Yönetmeliği’nin 48’inci maddesinde “kamu yararına
+çalışan dernekler, Hazine ve Maliye Bakanlığının ve varsa ilgili
+bakanlıkların görüşü üzerine, Bakanlığın teklifi ve Cumhurbaşkanı kararıyla
+tespit edilir.” hükmündeki ilgili bakanlıkların görüşünün alınıp alınmaması
+konusunda İçişleri Bakanlığı’na geniş bir takdir yetkisi tanınmıştır. Aynı
+zamanda yalnızca ilgili bakanlıklardan görüş alınması kısıtlı bir
+düzenlemedir. Bakanlıklar dışında kamu kurum ve kuruluşlarının veya aynı
+alanda çalışma yürüten özel sektör temsilcilerinin de görüşünü alabilecek
+şekilde uzman kişilere başvurulmasının önü açılmalıdır. Hatta bu kişilerden
+bir komisyon oluşturularak bir rapor hazırlanması yolu izletilebilir.
+          Dernekler Yönetmeliği’nin 51’inci maddisinde statü için yapılan
+başvurunun değerlendirilme süreci düzenlenmiştir. Türk Hukuk Sisteminde
+kamu yararına çalışan dernek statüsü kararının nihai mercii
+Cumhurbaşkanlığı makamıdır. Cumhurbaşkanı’nın kararı olumlu ise karar
+İçişleri Bakanlığı yetkililerince ilgili valiliğe bildirilir. Valilik ise olumlu
+kararı başvuru sahibi derneğe tebliğ eder (Dernekler Yönetmeliği m.51/3).
+Buna karşın, nihai karar olumsuz ise derneğin itiraz edebileceği süreç
+hakkında mevzuatta düzenleme yer almamaktadır. Ayrıca mevzuatta kararın
+ne kadar sürede verileceği, karara karşı itiraz yollarına da yer verilmemesi
+giderilmesi gereken bir diğer eksikliktir.
+         Son olarak kamu hizmet yükünü azaltmaları hasebiyle birtakım
+vergisel avantajların sağlanması derneklerin kamu hizmetlerini
+geliştirmelerine yardımcı olurken özgün hareket etmelerine engel
+olmamalıdır. Hem devletin hem sivil örgütlenen derneklerin nihai amacı
+insanlar hatta tüm canlılara yarar sağlamaktır. Söz konusu yararın
+sağlanabilmesi de farklı bakış açılarının bütünde birleşmesiyle mümkün
+olabilecektir. Dolayısıyla hiçbir koşulda kamunun ve derneklerin üstlenmiş
+oldukları roller karıştırılmamalıdır.
+        8. SUMMARY
+        Associations which are established to meet the needs of societies
+make significant contributions to a country's economy. Because associations
+carry out the services and activities that the public is obliged to do without
+making any profit. In this context, associations support the reduction of
+public expenditures by carrying out the services and activities that the state
+should do. While performing the services and activities, associations spend
+the income they receive from the membership fees and donations they
+receive from their members. This situation affects the financial sustainability
+of associations. Financial sustainability is very important for the existence of
+204                         Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+associations. In order to contribute to this situation, the legislator is trying to
+create a balance by bringing tax advantages to associations that reduce the
+public's responsibility. For this reason, legal regulations are being made that
+allow associations to benefit from certain advantages.
+        In our country, regulations regarding associations working for the
+public benefit are not included in a single text of law. In this context, the
+Turkish Civil Code No. 4721 dated 22.11.2001 and the Associations Law
+No. 5253 dated 04.11.2004 are the primary laws applicable to associations.
+Income Tax Law No. 193, Stamp Duty Law No. 488, Fees Law No. 492,
+Municipality Revenues Law No. 2464, Value Added Tax Law No. 3065,
+Customs Law No. 4458, Corporate Tax Law No. 5422, Inheritance and
+Transfer Tax Law No. 7338 and the Associations Directive No. 25772 are
+other legal regulations that should be consulted.
+        Gaining the status of public benefit association not only provides
+financial advantages to associations, but also increases the reliability of
+associations from a social perspective. The number of associations currently
+holding this status is not sufficient. One of the most important indicators of
+being a developed country is the high number of associations in
+organizations. Therefore, it is necessary to pave the way for more
+associations to hold this status. However, this should not mean that every
+association should gain the status of public benefit association. Because the
+financial advantages of public benefit associations can lead to various
+abuses. The need for effective audits to prevent these negative situations
+should not be ignored. Necessary measures should be taken by observing the
+principles of transparency and accountability.
+        In fact, when the state grants an association the status of public
+benefit association, it waives one of its most important sources of income,
+namely tax. The response to this waiver should not be unsupported. The
+ways in which the associations work is shared with the public should be
+clearly determined by the legislator. In today’s conditions, there are many
+means that allow associations to share their work in a way that everyone can
+access. For example, the Associations Law may regulate legal obligations
+that require the financial statements of associations working for the public
+benefit to be shared in a way that everyone can access. In addition, the
+information of associations that have gained the status of a public benefit
+association is not regularly published in the Official Gazette. A clear
+regulation can be made in the Associations Law on this issue, requiring that
+decisions be announced in the Official Gazette. In this way, the principles of
+transparency and equality will be taken into consideration.
+                       Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209            205
+
+
+         According to the principle of equality, those in the same legal
+situation should be subject to the same rules. While associations are groups
+of people, foundations are groups of property, the ultimate purpose of both
+legal entities is to serve humanity. In literature and practice, no logically
+explainable reason has been found for the differences between the conditions
+for acquiring the status of an association working for the public benefit and
+the conditions for foundations to gain tax exemption. In some regulations in
+tax laws, foundations benefit from certain privileges compared to
+associations. For example, in Article 4, paragraph (k) of the Inheritance and
+Transfer Tax Law, the fact that properties allocated to foundations granted
+tax exemption by the President for their establishment or after their
+establishment are exempted from inheritance and transfer tax, while
+associations working for the public benefit are not included in this scope, is a
+deficient or perhaps forgotten regulation. However, although associations
+and foundations are two separate legal entities, subjecting them to different
+advantages in obtaining public benefit status is not a fair approach in the
+context of the principle of equality. For example, just as tax certification
+forms are obtained from foundations with tax exemption during the year,
+introducing the same practice for associations working for the public benefit
+will eliminate the unequal treatment among civil society organizations and
+will also help associations to review themselves through audits.
+        It is crucial to use the term tax-exempt association, as in foundations,
+instead of the term public benefit association, and to standardize this issue in
+the legislation. Indeed, associations are voluntary organizations, and it can
+be easily concluded that each of them serves the public to a certain extent for
+the public benefit. In addition, although public benefit is an abstract concept,
+including a framework definition of the concept of public benefit in the
+Associations Law and the Associations Regulation will eliminate ambiguity
+and may also serve to prevent different practices.
+       In addition, making the following changes and additions to the
+Associations Direcrtive will also facilitate implementers.
+         A legal regulation that allows the amount in the article 1-c of
+Article 49 of the Associations Regulation Directive on Associations to be
+updated regarding the association's purchase and sale transactions exceeding
+200,000 Turkish Liras in the last year in accordance with the conditions of
+competition would be more appropriate. Instead of specifying a fixed
+amount in the regulation, a legal regulation that allows the limits of purchase
+and sale transactions to be determined up to date every year should be
+adopted in order to be more compatible with the economic conditions. It can
+206                        Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+easily be concluded that the rates in question are insufficient when today's
+economic conditions are taken into consideration. Determining these rates
+according to annual inflation would be an appropriate solution.
+         Article 48 of the Regulation (Directive) on Associations states
+that “associations working for the public benefit are determined upon the
+opinion of the Ministry of Treasury and Finance and relevant ministries, if
+any, upon the proposal of the Ministry and the decision of the President.”
+The Ministry of Interior is granted a wide discretionary power regarding
+whether to seek the opinion of relevant ministries. At the same time, seeking
+the opinion of only relevant ministries is a limited regulation. In addition to
+ministries, the way should be opened (paved for) to consulting experts who
+can also seek the opinion of public institutions and organizations or private
+sector representatives working in the same field. A committee can even be
+formed from these people and a report can be prepared.
+          Article 51 of the Associations Regulation (Directive) regulates
+the evaluation process of the application for status. In the Turkish Legal
+System, the final authority for the decision on the status of an association
+working for the public benefit is the Presidency. If the President's decision is
+positive, the decision is notified to the relevant governorship by the Ministry
+of Internal Affairs authorities. The governorship then notifies the applicant
+association of the positive decision (Article 51/3 of the Associations
+Regulation (Directive)). On the other hand, if the final decision is negative,
+there is no regulation in the legislation regarding the process through which
+the association can appeal. In addition, the fact that the legislation does not
+include the time within which the decision will be made and the means of
+appeal against the decision is another deficiency that needs to be remedied.
+         The provision of certain tax advantages due to the fact that they
+reduce the burden of public services should not prevent associations from
+developing public services, raising different voices, and criticizing the
+public. The aim of both state and civil associations is to benefit people and
+even all living things. The provision of such benefit will be possible by the
+merging of different perspectives. Therefore, the roles undertaken by the
+public and associations should not be confused under any circumstances.
+        As a result, the originality of this study is that there have not been
+many academic publications on the national level regarding the regulations
+for associations working for the public benefit in the literature review. In this
+study, it is aimed to facilitate the path that the managers of associations
+wishing to have the status of an association working for the public benefit
+                          Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209                  207
+
+
+should follow by explaining it in a simple language and in order. At the same
+time, since the tax advantages of associations working for the public benefit
+are regulated in different laws, it was deemed beneficial to convey the data
+in question in a single text to the relevant person. In the whole study,
+solutions are presented to the problems in practice in obtaining the status of
+an association working for the public benefit. In summary, the study includes
+the conditions for obtaining the status of an association working for the
+public benefit, the procedure for losing the status, and the tax advantages and
+exceptions provided to associations.
+         9. KAYNAKLAR
+Akipek, J.G. ve Akıntürk, T. (1998). Türk medeni hukuku, birinci cilt başlangıç
+          hükümleri, şahsın hukuku, Beta Basım Yayım Dağıtım A.Ş.
+Akıllıoğlu, T. (1988). Kamu yararı kavramı üzerine düşünceler. Amme İdaresi
+          Dergisi,      9(1-3),     11-22.   https://dergipark.org.tr/tr/download/article-
+          file/13697
+Akünal, T. (1988). Tüzel kişiler, Filiz Kitabevi.
+Ansay, T. (1967). Adi şirket, dernek ve ticaret şirketleri, Türkiye iş bankası tesisi,
+          Başnur Matbaası.
+Aykul, Ö. (2023). Dernekler hukuku, Seçkin Yayıncılık.
+Ballar, S. (2006). Dernekler hukuku, Seçkin Yayıncılık.
+Erkilet, Ş. (1991). Vakıflar ve derneklerin vergilendirilmesi, Mars Ticaret ve Sanayi
+          A.Ş. Matbaası.
+Gelir idaresi başkanlığı, derneklerin vergilendirilmesi rehberi, 27 Ağustos 2024
+          tarihinde         https://www.siviltoplum.gov.tr/kurumlar/         siviltoplum.
+          gov.tr/Mevzuat/Rehberler/DERN_VER_REHBER_2012.pdf.                  adresinden
+          erişildi.
+Gelir İdaresi Başkanlığı, Kurumlar Vergisi Sirküleri/2, Tarih: 14.11.2003 Sayı:
+          KVK-2/2003-2/Dernek ve Vakıflar-1, 25 Ağustos 2024 tarihinde
+          https://www.gib.gov.tr/node/86886. adresinden erişildi.
+Helvacı, S. ve Erlüle, F. (2020). Medeni hukuk, (6. Bası). Legal Yayınevi.
+HukukTurk           İçtihat     Programı,       25      Ağustos        2024     tarihinde
+          https://www.hukukturk.com/ adresinden erişildi.
+Kalenderoğlu, M. (2017). Vergi hukuku, Türk vergi sistemi, Seçkin Yayıncılık.
+Karınca, E. (1996). Dernek hak ve özgürlüğü, yargıtay kararları meclis tutanakları
+          ve emniyet genel müdürlüğü verileri ışığında karşılaştırmalı dernekler
+          yasası, Adil Yayınevi.
+Kavak, Y. (2018). Türk medenî kanunu ve dernekler kanunu çerçevesinde kurulmuş
+          dernekler.        Terazi       Hukuk        Dergisi,      13(144),       38-69.
+          https://www.jurix.com.tr/article/14636?u=0&c=0
+Kaya, C. (2011). Kamu yararı kavramına danıştay’ın bakışı, On İki Levha
+          Yayıncılık.
+Kazancı hukuk otomasyonu, https://www.kazanci.com.tr/
+208                          Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+
+
+
+
+Köprülü, B. (1984). Medeni hukuk, genel prensipler kişinin hukuku, Acar
+         Matbaacılık.
+LegalBank elektronik hukuk bankası, https://legalbank.net/arama
+Lexpera yeni nesil hukuk bilgi sistemi, https://www.lexpera.com.tr/kullanici-profili
+Oğuzman, K., Selı̇ çı̇ , Ö. ve Oktay-Özdemı̇ r, S. (2020). Kişiler hukuku, Filiz
+         Kitabevi.
+Özden, E. (2015). Vergı̇ yükümlüklerı̇ ve avantajları boyutuyla dernekler, vakıflar
+         ve bağışçıları, Hacettepe üniversitesi sosyal bilimler enstitüsü maliye
+         anabilim dalı, doktora tezi.
+Özkan, C. (2000). Tüm yönleriyle dernekler ve vakıflar, vergilendirmesi,
+         muhasebesi, hukuku ve mevzuatı, Yaklaşım Yayınları.
+Özsunay, E. (1982). Medenî hukukumuzda tüzel kişiler, Sulhi Garan Matbaası.
+Öztan, B. (2001). Tüzel kişiler (4. Bası). Turhan Kitabevi Yayınları.
+Saban, N. (2021). Vergi hukuku (11. Bası). Beta Yayıncılık.
+Saka, Z. (2010). Dernekler hukuku, Vedat Kitapçılık.
+Serozan, R. (2017). Medeni hukuk, kişiler hukuku, Vedat Kitapçılık.
+Sivil toplumla ilişkiler genel müdürlüğü, derneğin faaliyet alanlarına göre dağılımı,
+         18 Temmuz 2024 tarihinde https://www.siviltoplum.gov.tr/ derneklerin-
+         faaliyet-alanlarina-gore-dagilimi adresinden erişildi.
+Sivil toplumla ilişkiler genel müdürlüğü, dernek sayıları 17 Temmuz 2024 tarihinde
+         https://www.siviltoplum.gov.tr/dernek-sayilari adresinden erişildi.
+Sivil toplumla ilişkiler genel müdürlüğü, izin almadan yardım toplama hakkına sahip
+         kuruluşlar, 10 Temmuz 2024 tarihinde https://www.siviltoplum.gov.tr/izin-
+         almadan-yardim-toplama-hakkina-sahip-kuruluslar adresinden erişildi.
+Sivil toplumla ilişkiler genel müdürlüğü, kamu yararına çalışan dernekler, 23 Eylül
+         2024      tarihinde    https://www.siviltoplum.gov.tr/kamu-yararina-calisan-
+         dernekler adresinden erişildi.
+Şenyüz, D., Yüce, M. ve Gerçek, A. (2022). Vergi hukuku, Ekin Basım Yayım
+         Dağıtım.
+Türk dil kurumu sözlüğü (TDK), 10 Temmuz 2024 tarihinde https://sozluk.gov.tr/
+         adresinden erişildi.
+Türkiye üçüncü sektör vakfı, TÜSEV. (2004). Dernek ve vakıflara ilişkin
+         karşılaştırmalı kamu yararı raporu.
+Türkiye üçüncü sektör vakfı, TÜSEV. (2018). Vakıf ve dernekleri ilgilendiren vergi
+         uygulamaları ve kamu yararı statüsü, mevcut durum ve öneriler.
+Resmi Gazete Kaynakları
+7338 sayılı veraset ve intikal vergisi kanunu, resmî gazete. Tarih: 15.06.1959 Sayı:
+         10231
+193 sayılı gelir vergisi kanunu, resmî gazete. Tarih: 06.01.1961 Sayı: 10700
+488 sayılı Damga Vergisi Kanunu, Resmî Gazete. Tarih: 11.07.1964 Sayı: 11751
+492 sayılı Harçlar Kanunu, Resmî Gazete. Tarih: 17.07.1964 Sayı: 11756
+4458 sayılı Gümrük Kanunu, Resmî Gazete. Tarih: 04.11.1999 Sayı: 23866
+4721 sayılı Türk Medeni Kanunu, Resmî Gazete. Tarih: 08.12.2001 Sayı: 24607
+5422 sayılı Kurumlar Vergisi Kanunu, Resmî Gazete. Tarih: 21.06.2006 Sayı: 26205
+                       Sefa KOCOGLU / KAUJISS, 2025; 35; 181-209           209
+
+
+5253 sayılı Dernekler Kanunu, Resmî Gazete. Tarih: 23.11.2004 Sayı: 25649
+25772 sayılı Dernekler Yönetmeliği, Resmî Gazete. Tarih: 31.03.2005 Sayı: 25772
+3065 sayılı Katma Değer Vergisi Kanunu, Resmî Gazete. Tarih: 02.11.1984 Sayı:
+        18563
+2464 sayılı Belediye Gelirleri Kanunu, Resmî Gazete. Tarih: 29.05.1981 Sayı:
+        17354
+
+Çatışma Beyanı: Bu çalışma ile ilgili taraf olabilecek herhangi bir kişi ya da
+kurum ile finansal ilişkilerimin bulunmadığını dolayısıyla herhangi bir çıkar
+çatışmasının olmadığını beyan ederim.
+Destek ve teşekkür: Çalışmada herhangi bir kurum ya da kuruluştan destek
+alınmamıştır.
+210   Sefa KOÇOĞLU / KAÜSBED, 2025; 35; 181-209
+

@@ -1,0 +1,1481 @@
+                                   Osmanlı Bilimi Araştırmaları
+                                   Studies in Ottoman Science
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022): 35-67
+DOI: 10.26650/oba.923514                                                                               Araştırma Makalesi / Research Article
+
+
+
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez
+İmalatı Girişimleri*
+Modern Prosthetic Manufacturing in Istanbul: Initiatives Taken
+Under the Reign of Abdülhamid II
+
+Esat Aktaş1
+
+                                                     ÖZ
+                                                     Zihinsel ve bedensel engellilik durumu, doğuştan olabileceği gibi hayatın
+                                                     akışı içerisinde de meydana gelebilir. Her toplumda olabilecek engellilik
+                                                     hâli, Osmanlı toplumundaki insanlarda da görülmüştür. Bu doğrultuda,
+                                                     hastalık ya da kaza sonucunda kaybedilen uzvun yerine “suni uzuv” olarak
+                                                     isimlendirilen protezler yapılmıştır. Kullanılan protezler içinde kol, bacak
+                                                     ve göz protezleri yer almaktadır. On dokuzuncu yüzyılda Avrupa’da yaygın
+                                                     imâl edilen protezler, Osmanlı Devleti’nde on dokuzuncu yüzyılın sonunda,
+                                                     II. Abdülhamid Dönemi’nde (1876-1909) yapılmaya başlanmıştır. Döneme
+                                                     ait arşiv belgelerinde ise ağırlıklı olarak protez bacak yapımına dair talepler
+                                                     dikkati çekmektedir. Devlet, Paris’teki bir atölyeye bu işe yatkın kişileri protez
+                                                     yapımını öğrenmeleri için göndermiştir. Bununla birlikte ihtiyaç duyulan
+1
+ Dr. Öğr. Üyesi, Bayburt Üniversitesi, İnsan ve
+Toplum Bilimleri Fakültesi, Tarih Bölümü, Bayburt,
+                                                     imalathaneler, Tersane-i Amire ve Tophane-i Amire başta olmak üzere
+Türkiye                                              devletin çeşitli birimlerinde kurulmuştur. Özel imalathanelerin de bulunduğu
+                                                     İstanbul’da, protez masraflarının devlet tarafından karşılanması için birçok
+ORCID: E.A. 0000-0003-4197-8470
+                                                     engelli tarafından başvuru yapılmıştır. Protez için yapılan talepler, ilgili
+Sorumlu yazar/Corresponding author:                  kurumlarca değerlendirilmiş ve sosyal devlet olmanın gereği olarak bunların
+Esat Aktaş,                                          büyük bir kısmının masrafı da devlet tarafından karşılanmıştır.
+Bayburt Üniversitesi
+                                                     Anahtar sözcükler: Osmanlı toplumu, Sosyal devlet, Engellilik, Protezler,
+İnsan ve Toplum Bilimleri Fakültesi Tarih Bölümü
+Bayburt, Türkiye                                     Yapay uzuv, Yapay organ
+E-posta/E-mail: esataktas@bayburt.edu.tr
+                                                     ABSTRACT
+Başvuru/Submitted: 20.04.2021
+Revizyon Talebi/Revision Requested:                  Mental and physical disabilities can be congenital or acquired at any
+25.04.2021                                           stage in life. As in any other society, these disabilities were also prevalent
+Son Revizyon/Last Revision Received:                 among the Ottomans. Accordingly, prostheses, also called “artificial limbs,”
+18.10.2021
+Kabul/Accepted: 20.10.2021                           were manufactured to replace limbs lost as a result of illness or accident.
+                                                     Commonly used prostheses include those for legs, arms, and eyes. Although
+Atıf/Citation: Aktas, Esat.“ II. Abdülhamid          prostheses were already manufactured in Europe in the 19th century,
+Dönemi’nde İstanbul’da Modern Protez İmalatı
+Girişimleri.” Osmanlı Bilimi Araştırmaları 23, 1
+                                                     initiatives to introduce them in Istanbul began in the reign of Abdülhamid II in
+(2022): 35-67.                                       the late 19th century. The archival documents from this period typically relate
+https://doi.org/10.26650/oba.923514
+
+
+
+
+                                 This work is licensed under Creative Commons Attribution-NonCommercial 4.0 International License
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+instances of demands made for the manufacture of prosthetic legs. Skilled individuals were sent to Paris to attend a
+workshop for and undergo training in manufacturing prostheses. In addition, factories were established at various units
+of the Imperial Dockyards (Tersane-i Amire) and in the State Gun Factory (Tophane-i Amire). Private workshops producing
+prosthetic devices were also prevalent. The demands for prostheses were evaluated by the relevant institutions and the
+expenditures incurred for most of them were covered by the state in the capacity of its identification as a social state.
+Keywords: Ottoman society, Social state, Disability, Prosthesis, Artificial limbs
+
+*Bu makale, 22-24 Ekim 2018 tarihleri arasında İstanbul’da düzenlenen Vefatının 100. Yılında Sultan II. Abdülhamid ve
+Dönemi Uluslararası Kongresi’nde sunulan ve özeti yayınlanan “II. Abdülhamid Dönemi’nde Protez İmalatı ve Protez
+Bacak Kullanımı” isimli bildirinin gözden geçirilmiş ve genişletilmiş tam metin hâlidir.
+
+
+
+
+ 36                                                                            Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                                     Esat Aktaş
+
+
+
+    Giriş
+    Protez, genel olarak bir uç organın görevini kısmen yerine getirecek yapay organa denir.1
+Bu genel tanımlamadan ve uç organ ifadesinden hareketle protezin kol, bacak, göz, burun,
+yüz ve benzeri organ ve dokuları kapsadığı anlaşılmaktadır. Çalışma konusu itibariyle ve
+daha özelinde de protez, doğuştan eksik ya da kaza ve hastalık sebebiyle ampüte edilen kol
+veya bacağın yerine o organın görevlerini ve estetiğini kazandırabilecek yapay kol veya
+bacak olarak tanımlanır.2 MÖ. 484 yılına ait Heredot’un kayıtlarında ilk ampütasyonun
+yapıldığı ifade edilmektedir. Bu ampütasyonun, Hegesistratos isimli bir Pers askerinin travma
+neticesinde kendi ayağını kesmesiyle meydana geldiği ve yerine de tahtadan yapma bir
+protez takıldığı bildirilmektedir.3 Bu eyleme, kurtuluş için başvuran Hegesistratos’un asker
+değil kâhin olduğu anlaşılmaktadır.4 Ancak hangi sebeple olursa olsun yaptığı işin sonucunda
+ayağını kaybettiği ve onun yerini protez olarak zikredilen dış destek malzemesinin aldığı
+görülmektedir. Bunun dışında proteze dair izlere, Hint edebiyatında da rastlanmaktadır.5
+
+    Protez olarak, Orta Çağ’a kadar temel malzemesi ağaç olan tahta bacaklar ve kancalı
+kollar kullanıldı. Bunlar kaba ve ağır malzemeler olmasına rağmen dönemin protezleri
+olarak kabul görmektedir.6 En eski protez, 1858 yılında İtalya’nın Capua şehrinde bir
+mezarda bulunan ve Londra’daki Royal College Müzesinde sergilenen ahşap bacaktır.7 Bu
+protez, Samnite [Samnit] savaşlarından (MÖ. 344-290) kalma; bronz takozlu ve deri kayışlı
+bir Roma protezidir.8 Bununla birlikte Finch, ilk protez örneklerinin eski Mısır’a kadar
+götürülebileceğini iddia etmektedir. Thebes kentinde biri on dokuzuncu yüzyılın sonlarında
+diğeri de 2000’li yıllarda keşfedilen iki Mısırlıya ait yapay ayak parmakları bulunmuştu.
+Finch, ekibiyle birlikte yürüttüğü çalışmaların neticesinden hareketle bunların Capua’daki
+protezden daha eskiye dayandığını öne sürmektedir.9
+
+   Rönesans Dönemi’nde savaşta rakibe sert eylemler gerçekleştirmek ve üstünlük
+sağlamak amacıyla yetenekli metal ustaları tarafından savaşçılar için daha fonksiyonel
+
+1   Serap Alsancak, “Ortez ve Protez Tarihçesi,” Ankara Sağlık Hizmetleri Dergisi 1, 1 (2000): 27.
+2   Serap Alsancak, “Protez tanımı, tarihçesi, alt ekstremite amputasyonları, nedenleri, seviyeleri,”
+    erişim:        06.05.2021,        https://acikders.ankara.edu.tr/pluginfile.php/36411/mod_resource/content/1/
+    Protez%20tan%C4%B1m%C4%B1%2C%20tarih%C3%A7esi%2C%20alt%20ekstremite%20
+    amputasyonlar%C4%B1%20nedenleri%2C%20seviyeleri.pdf
+3   Alsancak, “Ortez ve Protez Tarihçesi,” 27-28.
+4   Herodotos, Tarih-Dokuzuncu Kitap, çev. Müntekim Ökten (İstanbul: Türkiye İş Bankası, 2006), 705-706.
+5   O. Fliegel ve S. G. Feuer, “Historical Development of Lower-Extremity Prostheses,” Orthopedic & Prosthetic
+    Appliance Journal December (1966): 313-314.
+6   Leman Birdane vd., “The Development of Artificial Organs and Prostheses Worldwide and in the Ottoman
+    Empire,” Journal of Medical Biography 21, 3 (2016): 323.
+7   Fliegel ve Feuer, “Extremity Prostheses,” 313, 315.
+8   İlhan Ovalıoğlu, “Protezin Tarihçesi,” Yedikıta Dergisi 35 (2011): 49.
+9   Daha geniş bilgi için bkz. Jacqueline Finch, “The Ancient Origins of Prosthetic Medicine,” The Lancet 377,
+    9765 (2011): 548-549.
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                                   37
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+protezler üretildi. Diğer taraftan bu protezler, onların engellilik hâlini saklamalarına da
+yaramaktaydı.10 Bu sürecin devamında bir veya birden fazla uzvu kesilmiş kimselerin
+tedavisinde ve protezlerin üretiminde dikkate değer bir ilerleme kaydedildi. Modern dönem
+protezlerinin öncüsü olan Fransız Cerrah Ambroise Paré (1510-1590), ampütasyon ve protez
+fikrini hayata geçirerek11 ampüte edilmiş uzuvların yerine bir kol ve bir bacak protezi üretti.12
+Paré, üretim sürecine çilingir olan Küçük Lorrain’i de dahil ederek esnafla iş birliği yapan
+ilk cerrah oldu. Üretilen bu protezin kaba ve ağır olmasına rağmen günümüz protezlerinin
+temel prensiplerini bünyesinde barındırdığı ifade edilmektedir.13 Bu bilgiden hareketle de
+söz konusu protezin eklemli olduğu tahmin edilmektedir. Zira Paré, bu uygulamalarıyla daha
+sonraki gelişmelere de öncülük etti. Nitekim 1696 yılında Hollandalı Cerrah Verduin’in
+bacak kısmı ahşaptan olan bakır soketli diz altı bir protez üretmesi, 1775’te Ravaton’un,
+1776’da Charles White’nin, 1796’da Bruenninghausen ve Ruehl’in yine diz altı protezler
+üretmeleri bunu göstermektedir.14
+
+    On dokuzuncu yüzyılda protez üretimi yeni bir boyut kazandı. Edinburglu tamirci Gavin
+Wilson15 ve İngiliz James Potts, bir diz üstü protez yaptılar. Potts’un yapmış olduğu protez,16
+savaşta bacağını kaybeden Anglesey tarafından kullanıldığından Anglesey bacağı olarak
+isimlendirildi.17 Bu protez şekli, İngiltere’de Birinci Dünya Savaşı’na kadar kullanıldı. Aynı
+dönemde ünlenen diğer bir protez ise Philadelphialı Doktor Palmer tarafından tasarlanan
+ve kendi adıyla anılan Palmer bacağı idi.18 1846’da Amerika’da imâl edilen Palmer bacağı,
+Londra’da düzenlenen dünya sergisinde birinci oldu.19 Ahşaptan yapılan ve hareketli diz
+ve bilek bağlantıları olan bu protez, ilerleyen yıllarda geliştirilerek Amerika, İngiltere
+ve Fransa’da Birinci Dünya Savaşı’na kadar Amerikan bacak adıyla yaygın bir şekilde
+kullanıldı.20
+
+   Protezleri kullanışlı hâle getiren, tasarımları ve malzemeleridir. Bu bakımdan tarihi
+süreç içerisinde malzemelerde yıllara ve ülkelere göre farklılıklar görülebilmektedir. On
+dokuzuncu yüzyıldan öncesine ait protez örnekleri içerisinde metalden yapılanların kalıcı
+olduğu anlaşılmaktadır. Zira diğer malzemelerin yok olduğu ve bu durumun da dönemindeki
+protezlerin yorumlanmasını etkilediği ifade edilmektedir.21 Bununla birlikte protezleri
+
+10   John Kirkup, A History of Limb Amputation (London: Springer, 2007), 158.
+11   Fliegel ve Feuer, “Extremity Prostheses,” 317; Alsancak, “Ortez ve Protez Tarihçesi,” 28.
+12   Birdane vd., “The Development of Artificial Organs and Prostheses,” 324.
+13   Fliegel ve Feuer, “Extremity Prostheses,” 317.
+14   Fliegel ve Feuer, “Extremity Prostheses,” 317-318.
+15   Aynı yer.
+16   Alsancak, “Ortez ve Protez Tarihçesi,” 29.
+17   Birdane vd., “The Development of Artificial Organs and Prostheses…,” 324.
+18   Fliegel ve Feuer, “Extremity Prostheses,” 319.
+19   Cevat Alpsoy, Suni Uzuv ve Ortopedik Cihazlar (İstanbul: İstanbul Üniversitesi, 1951), 5.
+20   Fliegel ve Feuer, “Extremity Prostheses,” 319.
+21   Kirkup, A History of Limb Amputation, 159.
+
+
+38                                                                        Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                                        Esat Aktaş
+
+
+
+kullanacak olanların rahatlığının dikkate alınmış olabileceği ve bu durumun da malzeme
+değişimini etkilediği tahmin edilmektedir. Bu açıdan Almanya’da ilk başlarda protez imâlinde
+deri ve çelik kullanılırken sonraki dönemlerde ağaç kullanıldı.22 1860 yılında Marks, ahşap
+yerine sert lastik kullanırken Hanger, bunu geliştirerek protez ayakların içine lastik yastıklar
+yerleştirdi. Hanger, diz üstü protezlerinde yeni bir modelleme olan “suction” (vakum
+süspansiyon) tekniğini kullanarak bir protez üretti. Aynı dönemde Amerikalı Parmelee de
+bu tekniği kullandı ve geliştirdi.23 Amerika’da sert plastikten daha kullanışlı olan kauçuk
+malzemenin tercih edilmesi, protez imalatında yeni bir dönemi başlattı.24 1912’de İngiliz
+Marcel Desoutter, protezlerin daha hafif olmasını sağlayan alüminyum malzemeden yapılmış
+bir protezi tanıttı.25 Bu gelişmeden sonra hafif madenler, daha çok tercih edilir oldu.26 Birinci
+Dünya Savaşı ise protez üretimi ve bu alandaki kurumsallaşmayı yakından etkiledi. Bu
+dönemde Amerika’daki gelişmeler dikkat çekmekle birlikte protez üretimindeki çalışmalarda
+ülkeler arasında iş birliği de geliştirildi.27
+
+    Osmanlı Devleti’nde bu gelişmeler ışığında modern protez imâline dair çalışmalar, on
+dokuzuncu yüzyılın sonunda başladı. Dönemin padişahı II. Abdülhamid, devletin modern
+ilerlemelere ayak uydurması için çeşitli alanlardaki yeniliklere ivme kazandırdığı gibi sosyal
+devletin gereklerini yerine getirmeye de çalışmaktaydı. Döneminde birçok hayır kurumunun
+açılması, fakir-fukara ahaliye yardımlar vasıtasıyla el uzatılması, öksüz ve yetimlere sahip
+çıkılması, tesis edilen hastane ve okullar, bu gerekliliğin mahsulü olarak değerlendirilmektedir.
+Bunların içinde engelli eğitiminin devletin eğitim politikasına dâhil edilmesi, görme, işitme
+ve konuşma engelli çocuklar için okul açılması önemlidir.28 II. Abdülhamid Dönemi’nde
+engelliler için diğer bir gelişme, belgelerde “sûni aza” veya “sûni uzuv” olarak ifade edilen
+protez konusunda oldu.
+
+     Amaç, Yöntem ve Kaynaklar
+    Bu çalışmada, II. Abdülhamid Dönemi’nde protezlerin ne zamandan itibaren imâl
+edilmeye başlandığı, devletin hangi birimlerinde protez yapıldığı, bu gelişmenin bedensel
+
+22   Alpsoy, Suni Uzuv ve Ortopedik Cihazlar, 5-6.
+23   Alsancak, “Ortez ve Protez Tarihçesi,” 28-29.
+24   Alpsoy, Suni Uzuv ve Ortopedik Cihazlar, 5.
+25   Fliegel ve Feuer, “Extremity Prostheses,” 321.
+26   Alpsoy, Suni Uzuv ve Ortopedik Cihazlar, 5.
+27   Birinci Dünya Savaşı ve sonrasındaki gelişmeler için ayrıca bkz. Kirkup, A History of Limb Amputation, 163-
+     164.
+28   Bu konuda daha geniş bilgi için bkz. Nadir Özbek, Osmanlı İmparatorluğu’nda Sosyal Devlet-Siyaset,
+     İktidar ve Meşruiyet 1876-1914 (İstanbul: İletişim, 2008); İzi Karakaş Özbayrak, II. Abdülhamid Döneminde
+     Uygulanan Sosyal Yardım Politikaları (1876-1909) (İstanbul: Libra, 2011); Sezai Balcı, Osmanlı Devleti’nde
+     Engelliler ve Engelli Eğitimi Sağır Dilsiz ve Körler Mektebi (İstanbul: Libra, 2013); Fatih Demirel, Osmanlı’da
+     Sağır-Dilsiz ve Âmâların Eğitimi Dilsiz ve Âmâ Mektebi (İstanbul: İdeal Kültür, 2013); Kamuran Şimşek,
+     “II. Abdülhamit Dönemi Osmanlı Devleti’nde Engelliler ve Engelli Politikaları (1876-1909)” (Doktora Tezi,
+     Pamukkale Üniversitesi, 2017).
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                                      39
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+engellilere etkisi ve devletin engellilere bakış açısının ne yönde olduğu tespit edilmeye
+çalışıldı. Çalışmanın temel malzemesini Osmanlı Arşivindeki belgeler oluşturmaktadır.
+Konuyla ilgili söz konusu arşivde 2017-2018 yıllarında araştırma yapılmış, ardından arşiv
+tekrar incelenerek yeni belgelere ulaşılmıştır. Belgelerin bir kısmının bu alanda atölye ve
+imalathanelerin açılmasına yönelik olduğu, ancak önemli sayıda belgenin proteze ihtiyaç
+duyan insanların taleplerine dair yazışmaları kapsadığı anlaşılmıştır. Bu belgeler analize
+tabi tutulmuş ve hem proteze ihtiyaç duyan hastaların durumu, hem de kurumsal gelişmeler
+tespit edilmeye çalışılmıştır. 2017-2018 yıllarında yapılan araştırmaya göre altmışa yakın
+protez başvurusunun olduğu görülmüştü. Bu başvuruların 54’ünün ayak ve bacak, birkaçının
+da el ve kol için olduğu tespit edilmişti. Güncel arşiv verilerine göre -Osmanlı Arşivinde
+yeni açılan fonlar ve belgeler ışığında- bu sayının arttığı görülmektedir. Bazı belgelerde kaç
+hastadan bahsedildiği tam olarak açık değildir. Bundan hareketle en az 90 kişinin bacak ve
+ayak protezi, 8 kişinin de kol ve el protezi için talepte bulunduğu tespit edilmiştir. 98 protez
+talebinin içerisinde %90’ının bacak ve ayak üzerine olması, çalışmamızın şekillenmesinde
+belirleyici olmuştur.
+
+    Konuya dair başka çalışmalar da bulunmaktadır. Birdane, Cingi, Elçioğlu ve Muluk
+tarafından hazırlanan makale29 genel mahiyette olup bu çalışmada devlete ait protez üretim
+birimleri ve yılları tam olarak tespit edilmemiştir. Aynı eksiklik Heybet tarafından yayınlanan
+makalede30 de görülmektedir. Bu çalışma, protez imalatı için önemli isimlerden olan Hüseyin
+Efendi’yle ilgili bilgilerin bir kısmını içerse de daha ziyade Hamidiye Etfal Hastanesindeki
+pediatrik fizyoterapi çalışmaları üzerine yoğunlaşmaktadır. Yine diğer bir makale, Gültekin
+tarafından kaleme alınmıştır.31 Bu çalışmada, eski bilinenlerden Sadeddin Paşa’ya protez
+getirtilmesi bilgisinin yanlışlığı ortaya konulmaktadır. Paris’te fabrikası bulunan Mösyö
+Mathieu’ya yaptırılan protezin Sadeddin Paşa’ya değil Rauf Paşa’ya ait olduğu tespit
+edilmiştir. Bu makalede, daha ziyade Osmanlı Devleti’nin protez atölyesi için girişimleri,
+Mösyö Mathieu ile bağlantıya geçilmesi ve bu kişinin İstanbul’a gelme süreci işlenmektedir.
+Kurumlardaki protez çalışmalarına dair bazı bilgiler verilmişse de kurumsal gelişmenin tam
+anlamıyla ortaya konulmadığı düşünülmektedir. Yine harp malûlleri ile ilgili Kurnaz Şahin
+tarafından kaleme alınan doktora tezi de protezle ilgili II. Abdülhamid sonrasındaki bilgileri
+içermektedir.32 Bu konuda bilgi veren diğer bir çalışma, Şimşek tarafından engelliler üzerine
+hazırlanan doktora tezidir.33 Protez taleplerinin bir kısmına değinilen çalışmada, Osmanlı’daki
+
+
+29   Birdane vd., “The Development of Artificial Organs and Prostheses…”.
+30   Safa Heybet, “Bahriye Sağ Kolağası Hüseyin Efendi; Hamidiye Etfal Hastanesi’nde İlk Pediatrik Fizyoterapi
+     ve Ortez-Protez Uygulamaları”, Lokman Hekim Dergisi 10, 1 (2020).
+31   Elif Gültekin, “The First Production of Artificial Limbs in The Ottoman State,” Lokman Hekim Dergisi 11, 1
+     (2021).
+32   Feyza Kurnaz Şahin, “Osmanlı’dan Cumhuriyet’e Harp Malûllerinin Sosyo-Ekonomik ve Sağlık Durumları
+     (1877-1939)” (Doktora Tezi, Afyon Kocatepe Üniversitesi, 2012).
+33   Şimşek, “II. Abdülhamit Dönemi Osmanlı Devleti’nde Engelliler...”.
+
+
+40                                                                      Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                                  Esat Aktaş
+
+
+
+kurumsal gelişim kısmının eksik kaldığı görülmektedir. Bu çalışmalarda İstanbul’da protez
+imâlinin gelişimi, bir paşanın protez ihtiyacı üzerinden şekillendirilmektedir. Bundan
+hareketle İstanbul’da protez yapımının Mathieu ile iletişime geçilmesiyle başlatıldığı kabul
+edilmektedir. Bu değerlendirmeler, devlet birimlerinde protez imâl edilmesi açısından
+doğrudur. Ancak yapılan çalışmalarda dikkatten kaçan önemli bir hususun İstanbul’da özel
+çalışan birinin olmasıdır. Bu kişi, cerrahî malzeme ve protez konusunda da Saray’la bağlantısı
+olan Hugo Avellis’tir. 1890’lı yıllara ait birkaç protez örneğinde ismi farklı şekillerle Gültekin
+ve Şimşek’in çalışmalarında zikredilse de bu kişinin kim olduğunun üzerinde durulmamıştır.
+Ancak yapılan inceleme neticesinde kendi atölyesinde protez üreten Avellis’in Saray’ın
+tedarikçisi olarak 1880’li yıllardan itibaren bu işle ilgilendiği görülmektedir.
+
+   Bu çalışmayla Osmanlı’da protez yapımının başlangıcı, kurumsal gelişmenin ne yönde
+seyrettiği, hangi birimlerde protez imâl edildiği ve devlet birimlerinde protez imâlinin
+engellilere nasıl yansıdığı konuları üzerinde durularak Osmanlı’da modern protez imalatının
+seyri ve etkisi açıklanmaya çalışılmaktadır.
+
+     İstanbul’da İlk Protezlerin İmâl Edilmesi ve Hugo Avellis
+    Osmanlı Arşivi’nden ulaşılabilen belgelere göre proteze dair yazışmaların 1890 yılından
+itibaren başladığı görülmektedir. Bunların ilki Mamuretülaziz (Elaziz) vilayetinden
+gönderilen bir arzuhaldir. Söz konusu arzuhalde Malatya’nın Sefer köyünden Ömer oğlu
+Mahmud, Kırım Savaşı’nda ayaklarında oluşan sızının daha sonradan iltihap hâline geldiğini
+ve bu sebeple de ayağının kesildiğini bildirmektedir. Belgeden anlaşıldığına göre ayağını
+kaybeden bu şahsa daha önceki yıllarda protez yapılarak hareket imkânı sağlanmıştı.
+Mahmud, yaptırdığı protezin parasını talep etmemekle birlikte geçimini temin etmek için
+uygun bir iş verilmesini istemekteydi.34 Mahmud’un kullandığı protezin ne zaman ve kim
+tarafından yapıldığı bilgisine ulaşılamamaktadır. Fakat bu arzuhal, on dokuzuncu yüzyılın
+ikinci yarısında Osmanlı Devleti’nde protez kullanımını göstermesi açısından önemli bir
+bilgi sunmaktadır.
+
+    Hastalık dolayısıyla bacağı dizinden kesilmiş olan Kudüslü Merzuk ile bir bacağını
+tümörden kaybetmiş Hacı Abdülaziz, 1891 yılında protez yapılması talebinde bulunmuşlardı.
+Bu şahısların yapılmasını istedikleri protezlerin 400-500 kuruşa imâl ettirilebileceği tespit
+edildi. Ayrıca protez masraflarının atiyye-i seniyye35 ödeneğinden verilmesi uygun görüldü
+ve yapılacak protezlerin de Mekteb-i Tıbbiye tarafından satın alınması için emir verildi.36
+
+34   T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA), Dahiliye Nezareti Mektubî Kalemi
+     (DH.MKT.) 1737/12, 14 Haziran 1306 (26 Haziran 1890).
+35   Atiyye, Arapça bir kelime olup hediye anlamına gelmektedir. Atiyye-i seniyye ise padişahların verdikleri
+     hediyeler için kullanılan bir tabirdir. Mehmet Zeki Pakalın, Osmanlı Tarih Deyimleri ve Terimleri Sözlüğü
+     (İstanbul: Milli Eğitim Bakanlığı, 2004), 1: 110.
+36   BOA, DH.MKT. 1867/12, 31 Ağustos 1307 (12 Eylül 1891).
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                                 41
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+Bahsedilen örnekler birkaç kişiyle sınırlı olsa da başka hastaların olduğunu tahmin etmek
+güç değildir. Zira Kırım Savaşı ve 1877-1878 Osmanlı Rus Savaşı’nda binlerce askerin harp
+malûlü olduğu bilinmektedir.37 Osmanlı Devleti’nin az da olsa Avrupa’daki atölyelerde protez
+yaptırdığı anlaşılmaktadır. Bununla birlikte II. Abdülhamid’in saltanatının ilk yılları olarak
+kabul edilebilecek bir zamanda yani 93 Harbi sonrasında İstanbul’da protez imâl edilmeye
+başlandığı tespit edilebilmektedir. İstanbul’da protez yapan bu usta, tıp doktoru Hugo Avellis
+idi. Alman asıllı olan Avellis, 93 Harbi’nde bulunmuştu. Cerrahî malzeme üreticisi olarak iş
+yapabileceğini düşünerek savaştan sonra İstanbul’a gelmiş ve Sultan da dâhil olmak üzere
+toplumun her kesimiyle temasa geçmişti. Akıcı bir Türkçe konuşan Avellis, ayrıca Fransızca,
+Rusça, İngilizce, Romence ve Macarca da bilmekteydi. Entelektüel bir kişiliğe sahip olan
+Avellis, yaptığı işlerle kısa süre içinde İstanbul’da önemli bir isim oldu.38
+
+    1886 yılına ait bir gazete ilanında Hugo Avellis’in isminin Beyoğlu’ndaki Passage
+Oriental’da (Şark Pasajı) Saray-ı Hümayun Aza-yı Sun’iye Alat-ı Cerrahiye Amili Mösyö
+Hugo Avellis şeklinde geçtiği aktarılmaktadır.39 Avellis’in Beyoğlu’nda bulunan Aynalı
+Çarşı’daki dükkânının tabelasında da Sultan’ın özel cerrahî malzeme tedarikçisi olduğu
+yazılıydı. Muayenehanesinde, kadın ve erkek, birçok milletten ve dinden hastası vardı.
+Muayenehanenin duvarında iki fotoğraf bulunmaktaydı. Bir Arnavut’a ait olan bu
+fotoğrafların ilkinde hastanın burnu, üst damağı ve dudağının olmadığı görünmekteydi.
+İkincisinde de yapay burun ve bıyık gösterilmekteydi. Avellis’in bu fotoğraflarla hastanın
+eski ve işlem sonrasındaki görüntüsünü ortaya koymak istediği anlaşılmaktadır. Söz konusu
+yapay uzvu da II. Abdülhamid’in emriyle kendisi yapmıştı.40 Bu iş için 25 lira fiyat belirleyen
+Avellis’in 3 Haziran 1890 tarihinde verdiği fiyat pusulasında da klişe baskılı evrak kullandığı
+görülmektedir. Söz konusu klişe yazıda Sultan’ın bu alandaki tedarikçisi olduğu bilgisiyle
+birlikte “Cerrahî Alet Üreticisi ve Ortopedi Uzmanı” olduğu yazmaktadır.41 II. Abdülhamid
+Dönemi’nde Saray’la bağlantısı ve bu konudaki sorumluluğu aynı şekilde devam etmiştir.42
+
+
+
+
+37   Şimşek, “II. Abdülhamit Dönemi Osmanlı Devleti’nde Engelliler...”.
+38   Sidney Whitman, Turkish Memories (London: William Heinemann, 1914), 205-206. 1855’te Almanya’nın
+     kuzeybatısındaki Wesel’de doğan Hugo Avellis, 1908’de İstanbul’da hayatını kaybetti ve Feriköy Protestan
+     mezarlığına defnedildi. Avellis konusunda daha geniş bilgi için bkz. Sébastian Ducongé, “Hugo Avellis: “C’est
+     un Brave Homme”,” The Ledger, Bulletin of The Feriköy Protestant Cemetery Initiative 1, 1 (2021), 2-4.
+39   Hayri Tanaçan, “Türk Ortopedisinin Tarihçesi,” Acta Orthop Traumatol Turc 27, 3, (1993), 158.
+40   Whitman, Turkish Memories, 206-207.
+41   Belgede Fransızca olarak “Un nez artificiel avec la lèvre supérieure et moustache artificiel, le palais supérieure
+     artificiel, septs dents artificielles placées dans la mâchoire supérieure, les deux empreints de la figure, la
+     peinture à l’huile du nez tous complet. Ltq 25” (Yapay burun, yapay üst dudak bıyık ile birlikte. Üst damak
+     yapay, 7 yapay diş üst çeneye yerleştirilmiş, yüzdeki iki iz, burnun yağlıboyası, hepsi tam. 25 Türk Lirası.)
+     yazmaktadır. BOA, Yıldız Perakende Arzuhâl ve Jurnaller (Y.PRK.AZJ.) 16/92, 14 Şevval 1307 (3 Haziran
+     1890).
+42   BOA, Zabtiye Nezareti Evrakı (ZB.) 51/63, 13 Ağustos 1323 (26 Ağustos 1907).
+
+
+42                                                                            Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                                      Esat Aktaş
+
+
+
+
+                Cerrahî aletleri üreticisi ve ortopedist Hugo Avellis’in klişe baskılı yazısı
+                                          BOA, Y.PRK.AZJ. 16/92.
+
+     Hugo Avellis, bizzat devlet kurumlarında çalışmasa da Saray’ın emri ve siparişiyle
+ihtiyacı olan engellilere protez yapmaktaydı. Daha önceden bahsi geçen Mahmud’un
+protezinin Avellis tarafından 1880’li yıllarda yaptırıldığına dair bir bilgi olmasa da onun
+tarafından imâl edilmiş olabileceği, aynı şekilde Abdülaziz ve Merzuk’un protezlerinin de
+ona sipariş edilmiş olabileceği akla gelmektedir.
+
+    1893 yılında Zağra muhacirlerinden Ahmed’in proteziyle ilgili görüşmeler üzerinden de
+Avellis’in devletle nasıl çalıştığı anlaşılmaktadır. Zira Ahmed’e yaptırılacak protez ücretinin,
+protezin tesliminden sonra verilmesi teklif edilmiş, ancak Avellis, daha önceki yıllarda
+yaptığı protezlerin ücretinin yarısını sipariş sırasında yarısını da işin tesliminde aldığını
+bildirmiştir.43 İleride görüleceği üzere devlet birimlerinde protez imalatına başlansa da bu
+kişiyle bağlantı devam edecek, zaman zaman parası devlet birimlerinden ödenmek üzere
+protez siparişi verilecektir. 1896 yılında üç asker için protez göz, iki zabit ve beş asker için
+de kol ve bacak protezlerinin yapımı Avellis’e havale edilecektir.44
+
+43   BOA, DH.MKT. 166/25, 28 Teşrinievvel 1309 (9 Kasım 1893); BOA, Bab-ı Âlî Evrak Odası Evrakı (BEO.)
+     312/23395, 28 Teşrinievvel 1309 (9 Kasım 1893); BOA, BEO. 312/23395, 3 Teşrinisani 1309 (15 Kasım
+     1893); BOA, DH.MKT. 166/25, 16 Teşrinisani 1309 (28 Kasım 1893).
+44   Bu işler için 21.200 kuruş (212 lira) para ödenecekti. BOA, Yıldız Perakende Hazîne-i Hassa Nezareti
+     Maruzat Evrakı (Y.PRK.HH.) 29/46, 13 Teşrinievvel 1312 (25 Ekim 1896). Bu paranın 57 lirası protez gözün
+     takılması sırasında ameliyatı yapan doktora aitti. BOA, Yıldız Mütenevvî Maruzat Evrakı (Y.MTV.) 147/66,
+     13 Teşrinievvel 1312 (25 Ekim 1896). Ayrıca yedi askerin üçüne bacak ve ayak, dördüne de kol protezi yapıldı.
+     BOA, Maliye Nezareti Emlak-i Emiriyye Müdüriyeti (ML.EEM.) 238/52.
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                                    43
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+  Devlet Birimlerinde Protez Atölyesinin Kurulması İçin Yapılan
+Çalışmalar
+    Protez yapımında on dokuzuncu yüzyılda önemli gelişmelerin yaşandığı daha önce
+zikredilmişti. Yüzyılın sonunda İngilizlerin Anglesey bacağı ve Amerikalıların Palmer
+bacağı, dönemin ünlü protezlerindendi. Bunlardan Palmer bacağı, Amerikan bacak adıyla
+geliştirilerek Amerika, İngiltere ve Fransa’da yaygın bir şekilde kullanılmaktaydı.45 II.
+Abdülhamid, bilimsel gelişmeleri yakından takip ediyor, protezle ilgili yeniliklerle de
+ilgileniyordu.46 1890’lı yıllara gelindiğinde protez ihtiyacına yönelik taleplerin görülmesi
+üzerine Sultan, bu ihtiyacın devlet birimlerinde yapılacak çalışmalarla karşılanmasını istedi.
+Bu konuda yardımcı olması için de Paris’te fabrikası olan Raoul Mathieu ile bağlantıya
+geçildi. 1892’de eğitim almaları amacıyla da Mathieu’nun yanına personel gönderildi.47 Bu
+kişi, İsviçre kökenli bir aileye mensup olup 1817 yılında Belçika’da doğan, Almanya’dan
+sonra Fransa’ya geçen Louis Mathieu’nun oğluydu. Cerrahî malzeme üreten L. Mathieu,
+bu alanda ünlü bir isimdi. III. Napolyon tarafından nişanla ödüllendirilen L. Mathieu,
+1860’lardan itibaren protez kol imalatıyla bu alanda da çalışmalara başlamıştı. 1879’da
+L. Mathieu’nun ölümünden sonra işlerini oğlu Raoul Mathieu devralmıştı.48 1894 yılında
+R. Mathieu’nun yardımıyla İstanbul’da atölye kurulması konusundaki girişimler sırasında
+göndermiş olduğu kataloğun kapak sayfasından da hareketle fabrikanın babasının adıyla
+bilindiği anlaşılmaktadır. Ayrıca malzeme tedarik ettiği yerler hakkında verilen bilgilerde
+Osmanlı hastaneleri de zikredilmektedir.49
+
+    Raoul Mathieu ile protez imâli konusunda iletişime geçilmesine vesile olan konu, bir
+paşanın ona protez yaptırmış olması ve daha kullanışlı yeni bir proteze ihtiyaç duymasıydı.
+Bu konuda Çocuk Cerrahî ve Ortopedi Uzmanı Dr. Cevat Alpsoy, 1951 yılında yayınladığı
+Suni Uzuv ve Ortopedik Cihazlar adlı kitabında Masraf Nazırı Sadeddin Paşa’ya Paris’ten
+iki defa protez getirtildiğini ve Paşa’nın her yıl yeni bir proteze ihtiyaç duyduğunu ifade
+etmektedir. Sadeddin Paşa’nın üçüncü protezi için 300 altın istenmesi sebebiyle Sultan’ın
+İstanbul’da protez imâl edilmesini emrettiğini ve bu sebeple protez yapımını öğrenmeleri
+için Bahriyeden ve Tophaneden ikişer kişinin Paris’e gönderildiğini yazmaktadır.50 Ancak
+bu protezin Sadeddin Paşa’ya değil de Rauf Paşa’ya ait olduğu Gültekin tarafından ortaya
+konulmuştur. Zira Rauf Paşa’nın kullanışlı bir proteze ihtiyaç duyması üzerine 8 Haziran
+1892’de yeniden sipariş verildi. II. Abdülhamid, siparişin teslimi konusunda farklı bir istekte
+
+
+45   Fliegel ve Feuer, “Extremity Prostheses,” 319.
+46   Birdane vd., “The Development of Artificial Organs and Prostheses…,” 325.
+47   BOA, BEO. 381/28548, 29 Mart 1310 (10 Nisan 1894).
+48   Gérard Braye, “Louis Mathieu, Coutelier chirurgical parisien d’Origine belge,” Actes. Société française
+     d’Histoire de l’Art dentaire 19 (2004): 51-52.
+49   BOA, BEO. 381/28548.
+50   Alpsoy, Suni Uzuv ve Ortopedik Cihazlar, 7-8.
+
+
+44                                                                     Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                                     Esat Aktaş
+
+
+
+bulundu. Rauf Paşa’nın protezini, bizzat Mathieu’nun takmasını ve kullanımını tarif etmesini
+istedi. Bu davet üzerine de Mathieu İstanbul’a geldi. Bu kişinin İstanbul’a gelmesi protezin
+çok üstünde bir maliyet oluşturdu. Ancak İstanbul ziyareti, II. Abdülhamid ile arasındaki
+iş birliğini geliştirdi. Bu şekildeki gelişmelerin ardından protez yapımını öğrenmeleri için
+Mathieu’nun yanına öğrenci gönderilmesine karar verildi.51
+
+    Rauf Paşa için Sultan’ın bizzat olaya müdahil olması, ilk bakışta bu konunun tek bir
+kişinin ihtiyacından kaynaklı olduğunu düşündürmekteyse de II. Abdülhamid’in bunu fırsata
+çevirmek istediği anlaşılmaktadır. Zira bu protezden önce hem İstanbul’da protez imâl
+edildiği hem de yeni taleplerin olması, Sultan’a işin daha geniş bir perspektifte ele alınmasını
+düşündürmüş olmalıdır. İleride teferruatıyla bahsedileceği üzere 1894 yılında Mathieu’nun
+fabrikası gibi bir tesisin İstanbul’da kurulmasını talep etmesi buna işaret etmektedir.52 Bunun
+için de Hugo Avellis’in yetersiz kaldığı ve bağlantıda olunan Mathieu’dan yararlanılmak
+istendiği ortaya çıkmaktadır. Ayrıca bu yıllarda II. Abdülhamid’in hayır ve refah yoluyla
+Saray merkezli siyasi yapıyı topluma yaymaya çalıştığı öne sürülmektedir.53 Bu bilgilerin
+ışığında Sultan’ın, hem toplumun talebinin olumlu ve bizzat Saray tarafından karşılanmasını
+hem de engellilere destek olduğunu göstermek istediği anlaşılmaktadır.
+
+    Raoul Mathieu’ye 3 Ağustos 1892’de dördüncü rütbeden Mecidi Nişanı ile Sanayi
+Madalyası verilmesi konusunda irade buyruldu.54 Bunun hemen akabinde de daha önce
+bahsi geçen öğrenciler Paris’e gönderildi. Bunlar, Tophane-i Amire ve Tersane-i Amire’den
+(Bahriye) ikişer kişi olmak üzere toplam dört kişidir.55 Ocak 1893 tarihli bir yazıya göre eğitim
+için giden bu dört kişinin ürettiği malzeme, İstanbul’a gönderilmiş ve bunlar beğenilmiştir.
+Bu yazıda ayrıca R. Mathieu’nun yetkili kişilere mektup gönderdiği ifade edilmektedir.
+Mathieu’nun bu mektubundan da kendisinin daha önceden İstanbul’a geldiği ve Paris’e
+döndüğünde atölyesini genişlettiği anlaşılmaktadır. Mektupta R. Mathieu’nun İstanbul’daki
+hastanelerle birlikte bütün ordu hastaneleri için gerekli olan malzemeleri tedarik ettiği ve
+satın alınacak malzemelerin uygun fiyatla verileceğini taahhüt ettiği de zikredilmektedir.56
+Bu belgenin kaleme alınmasının hemen ardından The Oriental Adviser isimli gazetede iki
+ayrı haber yayınlanmıştır. 18 Ocak tarihli sayısında Mathieu’nun firmasının bütün ortopedik
+ürünleri ve cerrahî malzemeleri tedarik edeceğinden bahsedilirken57 20 Ocak tarihli sayısında
+da eğitim için gönderilen dört kişiyle ilgili bilgi verilmektedir. Haberde bu dört kişinin hangi
+kurumlar adına gönderildiğine dair teferruatlı bir bilgi sunulmamakta, bunlardan İstanbul’dan
+
+51   Gültekin, “The First Production of Artificial Limbs in the Ottoman State”, 126; BOA, Hariciye Nezareti-Sofya
+     Sefareti (HR.SFR.04.) 460/13; BOA, HR.SFR.04. 460/15.
+52   BOA, İrâde Hususî (İ.HUS.) 22/41, 19 Mart 1310 (31 Mart 1894).
+53   Özbek, Osmanlı İmparatorluğu’nda Sosyal Devlet, 31.
+54   BOA, İrâde Taltifât (İ.TAL.) 1/70, 22 Temmuz 1308 (3 Ağustos 1892).
+55   BOA, Y.MTV. 65/109, 4 Ağustos 1308 (16 Ağustos 1892).
+56   BOA, Y.MTV. 73/113, 22 Kanunievvel 1308 (3 Ocak 1893).
+57   “Military Medical Service”, The Oriental Adviser, 18 January 1893, 2.
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                                    45
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+gönderilen dört genç olarak bahsedilmektedir. Söz konusu dört genç tarafından imâl edilen
+bazı ürünlerin İstanbul’a gönderildiği de zikredilmektedir. Mathieu’nun cerrahî aletlerle
+ilgili zanaatın tüm sırlarını öğretmeye çalıştığı bu çırakların yakın zamanda İstanbul’da
+örnek atölyeler kurabileceği ifade edilmektedir. Ayrıca Mathieu’nun bu gençlerin eğitimiyle
+yakından ilgilendiği ve daha o zamanda oldukça tatmin edici sonuçların elde edildiği de
+vurgulanmaktadır.58
+
+    İstanbul’da protez atölyesinin kurulmasına yönelik çalışmalar sürerken Avellis’e de iş
+yaptırılmaya devam ediliyordu.59 Aynı dönemde Mösyö Touche isimli bir kişi de uygun bir
+yerde istihdamını talep etti. Paris’te Mathieu’nun yanında eğitim alarak protez yapımını
+öğrendiğini ve daha önce devlet hizmetinde çalıştığını bildirmekteydi.60 Ancak bu kişinin
+devlet hizmetinde protez imâl ettiğine dair herhangi bir kayda ulaşılamamıştır. Bu da
+devlet kurumlarında çalışmışsa da başka alanlarda istihdam edildiğini düşündürmektedir.
+Bu başvurunun değerlendirilmesi sırasında Mösyö Touche’nin Mekteb-i Tıbbiyede
+çalıştırılmasının faydalı olacağı ve gelecekte Avrupa’ya bu iş için personel gönderilmesine
+de gerek kalmayacağı düşünüldü.61 Ancak bu konunun neticesine dair bir bilgiye ulaşılamadı.
+İlerleyen yıllardaki belgelerde de bu isimle karşılaşılmaması, kendisine olumlu cevap
+verilmediğini akla getirmektedir. Bununla birlikte yetkililerin Touche konusundaki
+değerlendirmesinden hareketle Paris’e gönderilenlerin o anda geri dönmedikleri
+anlaşılmaktadır.
+
+    Bu alanda R. Mathieu ile bağlantı devam ettirildi ve 1894 yılında Mathieu’nun
+imalathanesi gibi bir tesisin İstanbul’da kurulmasına yönelik girişimde bulunuldu.62 Ancak
+bu fabrika sadece protez işiyle ilgilenmiyor, cerrahî malzeme üzerine geniş çaplı üretim
+yapıyordu.63 Bunun için de kurulması istenen tesisin cerrahî malzeme alanında geniş bir
+alt yapıya sahip olacak bir imalathane olmasının tasarlandığı tahmin edilmektedir. Ancak
+konuyla ilgili yapılan çalışmalarda protez üzerinde durulması, imalathanedeki çalışmaların
+protez üretimiyle başlatılmasının düşünüldüğünü göstermektedir.
+
+    İmalathanenin kurulması için II. Abdülhamid tarafından 1894’te verilen emir üzerine
+çalışmalar başlatıldı. Gerekli olan malzemelerin uygun fiyatla verileceği R. Mathieu
+tarafından bildirildiğinden bu konuda Hassa Müşiri Rauf Paşa ile görüşülmesi için irade
+buyruldu. Zira Paşa’nın bu alanda bilgisi vardı ve R. Mathieu’yu tanıyordu. R. Mathieu’nun
+yanına gönderilen personel tarafından örnek manken ve protez kol imâl edilmişti. Bu
+
+
+58   “Surgical Instruments”, The Oriental Adviser, 20 January 1893, 2.
+59   BOA, DH.MKT. 166/25; BOA, BEO. 312/23395.
+60   BOA, BEO. 266/19908, 15 Ağustos 1309 (27 Ağustos 1893).
+61   BOA, BEO. 266/19908, 15 Ağustos 1309 (27 Ağustos 1893).
+62   BOA, İ.HUS. 22/41, 19 Mart 1310 (31 Mart 1894).
+63   BOA, BEO. 381/28548, 29 Mart 1310 (10 Nisan 1894).
+
+
+46                                                                       Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                             Esat Aktaş
+
+
+
+örneklerin de Rauf Paşa tarafından görülmesi istendi.64 Bu emir üzerine R. Mathieu ile
+görüşülerek malzemelere ilişkin bir defterin acele düzenlenmesi talep edildi. Söz konusu
+defter gelene kadar, daha önce R. Mathieu tarafından gönderilen kataloglardan bir takım
+da Sadarete sunuldu.65 Çok geçmeden R. Mathieu, istenen fiyat pusulasını içeren bir defter
+gönderdi. İstanbul’da kurulması düşünülen imalathaneye dair çeşitli bilgileri istedi, atölye
+mevcut binalardan birine kurulacak ise bu binanın resimlerinin gönderilmesini de talep etti.
+Bu iş için yeni bir bina yapılması düşünülüyorsa işin başında bulunmak amacıyla İstanbul’a
+gelebileceğini de bildirdi. Ayrıca fabrikasında eğitim alan personelin bütün modelleri yapmayı
+öğrendiklerini fakat bu kişilerin eleman yetiştirebilmeleri için bir yıl daha eğitimlerine devam
+etmeleri gerektiğini de ifade etti.66 Padişah tarafından bu tesisin Tophane’de kurulması uygun
+görüldü. Zira bu malzemelerin çoğu Tophane’de mevcuttu. Mevcut olan malzemeler göz
+önünde tutularak kurulacak imalathanenin masrafının yeniden hesap edilmesi konusunda
+emir verildi.67
+
+    İstanbul’da kurulması tasarlanan imalathanenin 1894 yılında tamamlandığına dair bir
+bilgiye ulaşılamamıştır. Ancak 1893 yılında Tersane-i Amirede protez yapımına başlanmış ve
+1894 yılında kesin netice alınmıştır. Bu gelişmenin de imalathane kurulmasını hızlandırdığı
+ve padişahın bu yönde emir vermesine vesile olduğu anlaşılmaktadır. 25 Ocak 1894 tarihinde
+Dahiliye Nezaretinden Bahriye Nezaretine Avellis’in daha önce yapımı için 2.500 kuruş
+istediği Zağra muhacirlerinden Ahmed’in proteziyle ilgili bir yazı gönderildi. Yazıda bu
+kişinin protezinin yapılması için Mösyö Avellis ile görüşülmesine rağmen böyle protezlerin
+Bahriye tarafından imâl edildiğine dair bir haber alındığı ifade edilmekte ve bu kişi için de
+protez yapılması istenmekteydi.68 Ahmed’in protezinin yapım işinin uzamasıyla ilgili olan bir
+evrakta da 1893 yılının sonunda bu işin Hüseyin Efendi’ye verildiği zikredilmekteydi.69 Bunu
+teyit eden diğer bir kayıt, İstanbul’da görev yapan Polis memuru İstepan (Stefan) Efendi’nin
+protez talebini içeren 1 Ocak 1894 tarihli belgedir. Zamanı bilinmemekle birlikte gece
+nöbette olduğu sırada Kumkapı’da demiryolu hattı çevresinde dolaşırken trenin altında kalan
+İstepan Efendi’nin yaşanan kazada sağ kolu kopmuştu. Zaptiye Nezareti tarafından Bahriye
+yüzbaşılarından birinin Avrupa’da protez kol imâlini öğrenerek İstanbul’a döndüğünün ve
+Avrupa’dakilerden daha kaliteli olmak üzere bir protez kolu 2.000 kuruşa yaptığının haber
+alındığı ifade edildi. Görevdeyken kaza geçiren İstepan Efendi için de protez yaptırılması ve
+ücretinin de Zaptiye Nezareti bütçesinden karşılanması konusunda izin istendi.70
+
+64   BOA, İ.HUS. 22/41, 19 Mart 1310 (31 Mart 1894).
+65   BOA, BEO. 381/28548, 29 Mart 1310 (10 Nisan 1894).
+66   BOA, İ.HUS. 28/93, 2 Ağustos 1310 (14 Ağustos 1894).
+67   BOA, Yıldız Sadaret Hususî Maruzât Evrakı (Y.A.HUS.) 306/81, 7 Ağustos 1310 (19 Ağustos 1894); BOA,
+     BEO. 461/34528, 11 Ağustos 1310 (23 Ağustos 1894); BOA, BEO. 462/34646, 13 Ağustos 1310 (25 Ağustos
+     1894).
+68   BOA, DH.MKT. 166/25, 13 Kanunisani 1309 (25 Ocak 1894).
+69   BOA, DH.MKT. 166/25, 15 Nisan 1310 (27 Nisan 1894).
+70   BOA, BEO. 339/25400, 20 Kanunievvel 1309 (1 Ocak 1894).
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                           47
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+
+                       On dokuzuncu yüzyılın sonuna ait kol ve el protezi örnekleri
+                            Maison L. Mathieu Kataloğu (Paris: 1889), 334.
+
+
+
+    Protez imâl ettiğine dair bilgi verilen usta, daha önce Paris’e Mösyö Mathieu’nun yanına
+eğitim alması için gönderilenlerden biri olan Kolağası (Yüzbaşı) Hüseyin Efendi’ydi.
+Hüseyin Efendi’nin dışında Bahriye’den İlhami Efendi ile Tophane-i Amireden de iki kişi
+gönderilmişti. Ancak Hüseyin Efendi, hakkında yapılan şikâyet neticesinde geri dönmüş
+ve orada bulunduğu sürede protez yapımını öğrendiğinden Tersane-i Amirede protez kol ve
+bacak imâl etmeye başlamıştı.71 Alpsoy, Hüseyin Efendi haricindeki diğer kişilerin Paris’te
+
+
+
+71   BOA, BEO. 476/35667, 29 Ağustos 1310 (10 Eylül 1894). Hüseyin Efendi’nin geri dönüşüne dair birkaç
+     ayrı görüş ileri sürülmektedir: Alpsoy, beş yılda öğreneceği işi 11 ay gibi kısa bir sürede öğrendiğini ve kendi
+     isteğiyle geri döndüğünü (Alpsoy, Suni Uzuv ve Ortopedik Cihazlar, 8), Tanaçan ise 14 Haziran 1893 tarihli
+     bir belgede Hüseyin Efendi’nin eğitiminin yeterli görülmesi hâlinde İngiltere veya Almanya’daki fabrikalardan
+     birine gönderilmek üzere şimdilik İstanbul’a dönmesine dair irade buyrulduğunu ifade etmektedir (Tanaçan,
+     “Türk Ortopedisinin Tarihçesi”, 157). Muhtemelen Tanaçan tarafından bahsedilen bu yazı, Hüseyin Efendi’nin
+     hakkında yapılan şikâyetin İstanbul’a bildirilmesi üzerine kaleme alınmış olmalıdır.
+
+
+48                                                                          Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                                  Esat Aktaş
+
+
+
+mızıka ve tıbbî alet yapımıyla ilgilendiğini bildirmektedir.72 Hüseyin Efendi ile birlikte
+Paris’e gönderilmiş olan arkadaşının vefat ettiği de daha sonraki yıllara ait bir belgede
+zikredilmektedir.73 Bu bilgilerden hareketle gönderilen ilk dört kişiden protez imâlinde
+ustalaşan tek kişinin Hüseyin Efendi olduğu anlaşılmaktadır. Bununla birlikte R. Mathieu’nun
+gönderilenlerin ustalaşması için biraz daha zamana ihtiyaç olduğunu bildirmesine rağmen
+kastettiklerinin de Hüseyin Efendi’nin haricindekiler olduğu ortaya çıkmaktadır.
+
+    Diğer protez talepleriyle birlikte başta Avellis’e havale edilen Zağra muhacirlerinden
+Ahmed’in protezinin yapımı da Hüseyin Efendi’ye verilmişti. Ancak 1894 yılının Nisan
+ayına gelinmesine rağmen protezin teslim edilmediğine dair Ahmed tarafından başvuru
+yapıldı.74 Fakat birkaç ay sonra protezin 2.000 kuruşa mâl edildiği ve Dahiliye Nezaretine
+gönderildiği bildirildi.75 Yine bu dönemde Denizlili Mehmed oğlu Hasan, sol bacağı için
+protez yapılmasını istedi. Bu istek üzerine protezin nerede yaptırılacağı ve masrafının ne
+kadar olacağı soruldu.76 Konunun Mekatib-i Askeriye-i Şahane Nezareti’ne havale edilmesi
+üzerine kalitesiz bir protezin 40-50 kuruşa imâl edilebileceği ifade edilirken kaliteli bir
+protezin maliyetinin ise 3.000-4.000 kuruşa kadar çıkabileceği bildirildi.77 Bahriye Nezareti
+tarafından protez bacakların çeşitleri ve fiyatlarına dair bir de liste hazırlandı. Bu listeye göre
+kalçadan ampüte edilen bacağa yapılacak protezin fiyatı 3.000-3.500; diz kapağından ampüte
+edilen bacak için yapılacak protezin fiyatı 2.000-2.500 ve on beş santimetre diz kapağının
+altından ampüte edilen bacak için gerekli olan protezin fiyatının da 1.500-2.000 kuruş arasında
+olacağı bildirilmekteydi.78 Denizlili Hasan’a yapılacak protezin parasının devlet tarafından
+karşılanmasına karar verilmişse de79 Hüseyin Efendi, rahatsızlığı sebebiyle hava değişimi
+için İstanbul dışındaydı ve Tersane-i Amirede bu işle ilgilenen başka biri daha yoktu.80 Biraz
+önce bahsi geçen Ahmed’in proteziyle ilgili olan belgelerden birinin arkasında “Bahriye
+Yüzbaşılarından Kazım Bey tarafından imâl olunacaktır”81 şeklinde tarihsiz bir bilgi yer
+almaktaysa da resmi yazışmaların herhangi bir yerinde böyle bir isim zikredilmemekte ve
+protezin ustasının Hüseyin Efendi olduğu bildirilmektedir. Bu ismin belgenin başka bir
+yerinde geçmemesi ve Bahriye nazırının Kasım 1894’te Tersane-i Amirede bu işle ilgilenen
+başka birinin olmadığını beyan etmesi,82 evrak arkasındaki bu bilginin farklı bir iş için
+yazıldığını düşündürmektedir.
+72   Alpsoy, Suni Uzuv ve Ortopedik Cihazlar, 8.
+73   BOA, Y.MTV. 161/44, 23 Muharrem 1315 (24 Haziran 1897). Bu kişinin İlhami Efendi olduğu anlaşılmaktadır.
+74   BOA, DH.MKT. 166/25, 15 Nisan 1310 (27 Nisan 1894).
+75   BOA, DH.MKT. 166/25, 7 Teşrinisani 1310 (19 Kasım 1894).
+76   BOA, BEO. 437/32767, 6 Temmuz 1310 (18 Temmuz 1894); BOA, BEO. 476/35667, 29 Ağustos 1310 (10
+     Eylül 1894).
+77   BOA, BEO. 460/34494, 10 Eylül 1310 (22 Eylül 1894).
+78   BOA, BEO. 476/35667, Tarihsiz.
+79   BOA, DH.MKT. 287/13, 12 Eylül 1310 (24 Eylül 1894).
+80   BOA, BEO. 515/38559, 27 Teşrinievvel 1310 (8 Kasım 1894).
+81   BOA, DH.MKT. 166/25. Tarihsiz.
+82   BOA, BEO. 515/38559, 27 Teşrinievvel 1310 (8 Kasım 1894).
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                                49
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+
+                        Ondokuzuncu yüzyılın sonuna ait bacak protezi örnekleri
+                         Maison L. Mathieu Kataloğu (Paris: 1889), 329, 331.
+
+
+
+  Protez İmalatının Kurumsallaşmasına Yönelik                                         Girişimler ve
+Engellilere Umut Olması
+    Tersane-i Amirede ilk protezlerin yapımının ardından bu alanda önemli gelişmeler
+görüldü. Devletin verdiği destekle imalat kurumsal bir hâle getirilmeye çalışıldı ve bu
+gelişmeler, ihtiyacı olan hastalara umut oldu. Böylece taleplerde de dönemin şartlarına
+göre artış görüldü. Alpsoy, Hüseyin Efendi’nin memlekete döndükten sonra padişahın
+emriyle ilk olarak Yıldız’da, daha sonra da Tersane-i Amirede Âlât-ı Nazike ismiyle protez
+imalathanesini kurduğunu ve yanına birçok çırak verilse de Bahriye’de öğrenci olan Rifat
+Bey’in işe devam ettiğini zikretmektedir. Tarih olarak da tahminen 50 yıl önce ifadesini
+kullanmaktadır. Alpsoy’a göre bu şekilde memlekette ilk defa protez atölyesini Hüseyin ve
+Rifat Beyler kurmuştur.83 Alpsoy’un kitabının 1951 baskılı olması, atölyenin 1900 yılında ya
+da bu yıla yakın bir zamanda kurulduğunu göstermekteyse de tam bir tarih verilmemektedir.
+Ancak belgelerde bu isimde bir imalathaneye ulaşılamamasıyla birlikte Hüseyin Efendi de
+ilk olarak Yıldız Sarayı’nda değil 1893’te Tersane-i Amirede bu işe başlamıştı. Âlât-ı Nazike
+isimli imalathane, Yıldız Sarayı’nda ve Hüseyin Efendi tarafından kurulmuşsa belgeler bu
+tarih konusunda 1897 yılını işaret etmektedir. Zira 1897’de Hüseyin Efendi, Yıldız Sarayı
+Tamirhanesinde görevlendirildi. Bunun üzerine Tersane-i Amirede de ihtiyaç olmasından
+
+83   Alpsoy, Suni Uzuv ve Ortopedik Cihazlar, 8.
+
+
+50                                                                    Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                                   Esat Aktaş
+
+
+
+dolayı Bahriye Nazırı, Hüseyin Efendi’nin haftanın üç günü Tersane-i Amiredeki işine devam
+etmesini, diğer günlerde Yıldız Sarayı Tamirhanesinde çalışmasını talep etti.84
+
+    Tersane-i Amirenin dışında protez imâline başlayan diğer bir kurum da Tophane-i Amire
+idi. Sanayi Alaylarından Avrupa’ya gönderilenlerden bir netice alınamamışsa da yine aynı
+alayın mensubu Yüzbaşı Kerim [Abdülkerim] Efendi’nin numune olarak bir protez bacak
+yaptığı Tophane-i Amire Müşiri tarafından bildirilmekteydi. Abdülkerim Efendi, VII.
+Orduda görevliyken kurşun isabet etmesi neticesinde ayağı kesilen Halepli Mehmed için de
+protez yapmıştı.85 Buradan anlaşılıyor ki Abdülkerim Efendi, profesyonel şekilde olmasa da
+kendi imkanlarıyla protez yapmayı öğrenmişti. Ancak Mehmed için yaptığı protezin modern
+protezlerin dışında ahşaptan bir malzeme olduğu da akla gelmektedir. Ayrıca Tophane’de
+protez imâliyle uğraşan tek ismin Abdülkerim Efendi olduğu sonucuna varılmaktadır.
+Bu sebeple kurumda eğitimli kişilere duyulan ihtiyaç, yeniden Avrupa’ya personel
+gönderilmesini gündeme getirdi. Bu amaçla da 1895 yılında Kolağası Şevki, Mülazım Nuri
+ve Refet Efendiler Paris’e gönderildi.86 Bir yıl sonra da Mösyö Mathieu’nun fabrikasında
+çalışan görevlilerden Mösyö Lages’e orada eğitim alanların işlerinin kolaylaştırılmasında
+yardımcı olması sebebiyle beşinci rütbeden bir nişan verildi.87
+
+    Personel yetiştirilmesindeki çabaya rağmen yeni taleplerin karşılanmasında yetersiz
+kalınıyordu. Taleplerin artışıyla birlikte ihtiyacı karşılayamayan devlet, bir taraftan da kendi
+imalathanesinde üretim yapan Hugo Avellis’e iş havale etmekteydi.88 Aynı yıl İstanbul
+dışında Tekfurdağı’nda da protez imâl edildiği, protezi imâl eden Gemlikli Haralambo isimli
+ustaya verilen madalyadan tespit edilmektedir. Yapılan protezin de Mekatib-i Askeriye-i
+Şahane Nezareti tarafından görülerek kullanıma uygun olduğu anlaşılmaktadır.89 Ancak
+yapılan bu protezin modern gelişmeler ışığında imâl edilmediği ve eski tarzda ahşaptan bir
+bacak olabileceği akla gelmektedir. Zira o dönemde hâlâ aynı yöntem de kullanılmaktaydı.
+1897 yılında Edirnekapı’da Ali isimli bir kişinin, kömür yüklü bir arabayı boşaltırken kaza
+sonucu sağ ayağı kırıldı. Yenibahçe Gureba-yı Müslimîn Hastanesi’nde (İstanbul) yapılan
+tedavisinden bir sonuç alınamayınca Ali’nin ayağı ampüte edildi ve kendisine ahşaptan bir
+protez verildi. Ancak bu protezi kullanmakta çok zahmet çeken Ali, bir yıl sonra durumunu
+
+84   BOA, Y.MTV. 161/44, 23 Muharrem 1315 (24 Haziran 1897).
+85   BOA, BEO. 476/35667, 29 Ağustos 1310 (10 Eylül 1894). Abdülkerim Efendi, sadece protez bacak yapmıyor,
+     bununla birlikte protez diş de imâl ediyordu. 1894 yılının sonunda bu protezler için kendisine 1.000 kuruş
+     verilmesi uygun görüldü (BOA, BEO. 535/40125, 6 Kanunievvel 1310 (18 Aralık 1894); BOA, DH.MKT.
+     327/28, 1 Kanunievvel 1310 (2 Ocak 1895). Bu çalışmasından dolayı da terfi ettirildi (BOA, BEO. 560/41966,
+     15 Kanunisani 1310 (27 Ocak 1895).
+86   Ersoy Zengin, Tophane-i Amire’den İmalat-ı Harbiye’ye Osmanlı Devleti’nde Harp Sanayii (1861-1923)
+     (İstanbul: Kitabevi, 2020), 94.
+87   BOA, İ.TAL. 104/9, 11 Eylül 1312 (23 Eylül 1896); BOA, Hariciye Nezareti Tahrirat (HR.TH.) 182/76, 19
+     Eylül 1312 (1 Ekim 1896).
+88   BOA, Y.PRK.HH. 29/46, 13 Teşrinievvel 1312 (25 Ekim 1896).
+89   BOA, BEO. 752/56379, 3 Mart 1312 (15 Mart 1896).
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                                  51
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+bildirerek Avrupa’dan bir protez getirtilmesini talep etti.90 Tophaneden verilen bilgiye göre
+önceki protezlerin Avrupa’dan getirtilmesine rağmen bu uygulamanın devam etmediği
+ve Tophane-i Amirede modern protezlerin yapıldığı beyan edildi. Bu sebeple Sadaretin
+izni olursa Ali’ye protez yapılacağı bildirildi.91 Bu da uygun bulunarak 893 buçuk kuruşa
+imâl edilecek protezin92 parasının Dahiliye Nezareti tarafından ödenmesine karar verildi.93
+Bahsedilen ahşap protezin hangi birimde yapıldığının tam olarak tespit edilememesine rağmen
+konuyla ilgili olarak Tophane ile görüşülmesi, Abdülkerim Efendi tarafından imâl edildiğini
+düşündürmektedir. Ayrıca verilen cevap, 1895 yılında Paris’e gönderilen personelin de geri
+dönerek Tophanede modern protez üretimine başladığına işaret etmektedir.
+
+    Yaşanan bu gelişmelerin engellilere umut olduğuna dair diğer bir örnek, Krikor veled-i
+Onnik’in protez talebinde görülmektedir. 1899’da 26 yaşında olan Krikor isimli genç, 1893
+yılında kaza sebebiyle ameliyat edilmiş ve sol ayağını kaybetmişti. Bu kişi kazadan 6 yıl
+sonra protez yapılmasını talep etti.94 1.800 kuruşa mâl edileceği anlaşılan protezin parasının
+atiyye-i seniyye ödeneğinden karşılanması uygun bulunarak Bahriye Nezaretine bilgi
+verildi.95
+
+  Hastanelerin Engellilere Yönelik Hizmetleri ve Protez İmalatı
+Konusundaki Girişimler
+    On dokuzuncu yüzyılın sonunda Osmanlı’da tıp alanında önemli adımlar atıldı ve modern
+hastaneler kuruldu. 1898 yılında tıp ve cerrahî alanında önemli bir gelişme olarak Gülhane
+Seririyat Hastanesi açıldı ve Almanların desteğiyle modern yöntemlerden faydalanılmaya
+çalışıldı.96 Kuruluşuyla birlikte Almanya’dan Prof. Dr. Robert Rieder (1861-1913) getirildi.
+Eski Gülhane Askeri Lisesi’nin binası, hastane için restore edilmeye başlandı. Dört aylık
+çalışmanın sonunda hasta odaları, ameliyathaneler ve cihazlarıyla birlikte modern bir hastane
+kurulmuş oldu. İstanbul’daki sağlık kurumlarının inşaat sürecini takip eden Rieder, inşaattan
+düştü ve bel omurları ile bacakları kırıldı. Bu kazanın ardından Alman hekimin proteze olan
+ihtiyacı üzerine atölye kurulmasına yönelik çalışmaların başlatıldığı zikredilmektedir.97
+Ancak önemli ameliyatların yapıldığı bu hastanede hastaların ihtiyaç duyduğu protezlerin
+
+
+
+90   BOA, BEO. 1194/89510, 25 Ağustos 1314 (6 Eylül 1898).
+91   BOA, BEO. 1194/89510, 23 Rebiülahir 1316 (10 Eylül 1898).
+92   BOA, BEO. 1212/90852, 29 Eylül 1314 (11 Ekim 1898).
+93   BOA, DH.MKT. 2138/99, 12 Teşrinisani 1314 (24 Kasım 1898).
+94   BOA, İrâde Dahiliye (İ.DH.) 1366/11, 16 Mayıs 1315 (28 Mayıs 1899); BOA, BEO. 1317/98754, 19 Mayıs
+     1315 (31 Mayıs 1899).
+95   BOA, İ.DH. 1366/11, 13 Temmuz 1315 (25 Temmuz 1899); BOA, BEO. 1348/101038, 13 Temmuz 1315 (25
+     Temmuz 1899); BOA, DH.MKT. 2305/26, 31 Kanunisani 1315 (12 Şubat 1900).
+96   Cem Hakan Başaran, “Prof. Tbp. Mirliva Julius Wieting Tarafından Yazılan “Gülhane Hakkında Üçüncü
+     Layiha” Adlı Eserin Çeviri Yazısı”, Yeni Tıp Tarihi Araştırmaları 24 (2018), 54.
+97   Birdane vd., “The Development of Artificial Organs and Prostheses…”, 325.
+
+
+52                                                                    Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                                 Esat Aktaş
+
+
+
+yapımı diğer kurumlara havale edilmekteydi.98 Bunun kurumsal olarak belirli bir birimin
+geliştirilmesi hedefinden kaynaklı olabileceği düşünülebilir. Ancak döneminde Gülhane
+Seririyat Hastanesi gibi modern bir sağlık kuruluşunun hizmete açılmasına rağmen istenen
+seviyeye getirilemediğini de göstermektedir. Bu da protez imalatının altyapısının malî
+gerekçelerle böyle modern bir hastanede kurulamadığı ve yeniliklerin her sağlık kuruluşuna
+yansıtılamadığı yönünde fikir vermektedir. Zira bu hastanede protez imâli için girişimler,
+Alman firmalarının desteğiyle ancak Balkan Savaşlarından sonraya kalmıştır.99
+
+    II. Abdülhamid Dönemi’nde Gülhane Seririyat Hastanesinde protez üretimine denk
+gelinmezken aynı dönemde hizmete açılan Hamidiye Etfal Hastanesi (Şişli Etfal Hastanesi)
+protez yapımı konusunda önemli bir birim oldu. 5 Haziran 1899 tarihinde açılan hastaneye100
+Tersane-i Amirede görevli olan ve devlet birimlerinde protez için ilk çalışmaları başlatan
+Kolağası Hüseyin Efendi’nin Alet-i Cerrahiye ve Suni Ayak İmali için görevlendirildiği
+bildirilmektedir.101 Ancak bu atamayla ilgili olan belgede Bahriye Kolağası olduğu ifade edilen
+isim, Hüseyin Rıza Efendi olarak geçmektedir. Bundan dolayı da aynı kişi olup olmadığı
+konusunda bir tereddüt ortaya çıkmaktadır. Zira Hüseyin Efendi’nin ismi, daha önceki yıllara
+ait olan belgelerde bu şekilde zikredilmemektedir. 1903’te Hafız Kadri Efendi’ye yaptığı
+protezle ilgili yazışmalarda da Hamidiye Etfal Hastane-i Âlisi Suni Aza İmâline Memur
+Kolağası Hüseyin Rıza ismi geçmektedir.102 Söz konusu belirsizliğe rağmen bu hastanede
+protez yapım çalışmalarının başlatıldığı ve Hüseyin Rıza Efendi’nin 1901 yılından itibaren
+burada hizmet verdiği anlaşılmaktadır.103 Ayrıca yaptığı başarılı çalışmalardan dolayı da
+1904’te II. Abdülhamid tarafından 1.000 kuruş atiyye-i seniyye ile ödüllendirilmiştir.104
+
+    Hüseyin Rıza Efendi, 1905 yılında hastanede bir imalathanenin kurulması için talepte
+bulundu. Bu şekilde hastanede tedavi edilen muhtaçlar için gerekli olan kol ve bacak
+protezleri, Avrupa ürünlerine göre daha kaliteli bir şekilde imâl edilecekti. Bununla birlikte
+kurulacak imalathanede, hastane laboratuvarlarında mevcut olan cerrahî malzemenin
+ihtiyaç duyulduğunda tamiri de yapılabilecekti. Bu imalathanenin kurulması için 28 kalem
+malzeme gerekliydi. Adet ve birim fiyatıyla beraber hazırlanan listedeki malzemelerin
+toplam maliyeti de 20.500 kuruş olarak hesap edilmişti.105 Bu listede yer alan ürünler, protez
+imâlinde kullanılan malzemeleri göstermesi açısından da önem arz etmektedir. Zira listede
+torna tezgâhından zımpara tezgâhına, vantilatörden tesviyeci, demirci, saatçi, sarraç, lehim
+
+98 BOA, BEO. 2636/197630, 17 Temmuz 1321 (30 Temmuz 1905).
+99 Kurnaz Şahin, “Osmanlı’dan Cumhuriyet’e Harp Malûlleri…”, 99.
+100 Betül Altıntaş Selçuk ve Cihan Çolak, “Türkiye’nin İlk Çocuk Hastanesi; Hamidiye Etfal Hastane-i Âlisi,”
+    Lokman Hekim Journal 2, 1 (2012), 12.
+101 Tanaçan, “Türk Ortopedisinin Tarihçesi”, 157; Heybet, “Bahriye Sağ Kolağası Hüseyin Efendi…”, 80.
+102 BOA, ML.EEM. 458/63, 12 Teşrinisani 1319 (25 Kasım 1903).
+103 BOA, ML.EEM. 385/36, 15 Ağustos 1317 (28 Ağustos 1901).
+104 BOA, ML.EEM. 480/28, 14 Ağustos 1320 (27 Ağustos 1904).
+105 BOA, Y.MTV. 272/104, 12 Mart 1321 (25 Mart 1905).
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                               53
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+takımlarına, dikiş makinesi ile iğneden tele kadar birçok üretim malzemesine ve bu tezgâh
+ve makinelerde işlenecek ağaç, kumaş ve meşin gibi tüketim malzemelerine yer verilmişti.
+Hatta listenin sonuna ölçü alınması için kullanılacağı tahmin edilen “Paris alçısı” [Plâtre de
+Paris] adını taşıyan alçı türü de yazılmıştı.106
+
+    Malzeme açısından 1906 yılında yapılan iki protez üzerinden de bilgi edinilebilmektedir.
+Bunlardan biri, Kolağası Ali Efendi’nin amcası Molla Mustafa Ağa’ya düz üstünden bel
+korseli olarak yapılan bir protezdi. Ustalığını Hüseyin Rıza Efendi’nin yaptığı protezin ana
+malzemesi içinde İngiliz çeliği ve aynı çelikten bağlantı kısımları, Fransız güderi meşini,
+ıhlamur ağacı, nikel toka, nikel tel, pirinç vida, yay, ipek kumaş ve lastikli şeritler yer alıyordu.
+Mükemmel şekilde olduğu ifade edilen protezin maliyeti ise 1.262 buçuk kuruştu.107 Diğeri de
+Manastırlı İsmail Hakkı Bey’in oğlu Cevdet için yapılan protezdi. Aynı malzemeleri içerdiği
+anlaşılmakla birlikte ıhlamur ağacının, protezin Fransız alçısından yapılan kalıbında ve ayak
+kısmında kullanıldığı anlaşılmaktadır.108 Bu bilgi, ahşabın protezin ana malzemesi olmaktan
+çıktığını ve protezin belirli kısımlarında destek ürünü olarak kullanıldığını da göstermektedir.
+
+
+
+
+                       Yirminci yüzyılın ilk yıllarına ait bacak protezi örnekleri
+                          Maison L. Mathieu Kataloğu (Paris: 1907), 444.
+
+106 BOA, Y.MTV. 272/104, Tarihsiz.
+107 BOA, ML.EEM. 561/34, 18 Şubat 1321 (3 Mart 1906).
+108 BOA, ML.EEM. 672/36, 10 Nisan 1324 (23 Nisan 1908).
+
+
+54                                                                    Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                    Esat Aktaş
+
+
+
+    1908 yılına gelindiğinde rütbesi binbaşılığa terfi ettirilmiş olan Hüseyin Rıza Efendi’nin
+hastanedeki görevi konusunda yeni bir karar alındı. 5 Ağustos 1908 tarihinde hastane
+yönetimince imâl ettiği protezler için ücret ödenen Hüseyin Rıza Efendi’ye ayrıca maaş
+verilmesine gerek olmadığı düşünüldü. Hüseyin Rıza Efendi’nin şahsıyla ilgili olmayan
+ve bütçe yetersizliğinin etkisiyle alınan bu karardan diş tabibi ile mütercim de etkilendi.
+Bu şekilde Hüseyin Rıza Efendi’nin buradaki resmi görevine son verilmiş oldu.109 Ancak
+döneminde proteze duyulan ihtiyaç göz önüne alındığında bu alanda ustalaşan isimlerin
+kurumlarda ya da özel olarak çalışmalarına devam ettiği tahmin edilmektedir.
+
+    II. Abdülhamid Dönemi’nde engelliler, fizyoterapi açısından da desteklenmekte, bu
+şekilde protez kullanımı için altyapı oluşturulmaktaydı. Bunun için Gülhane Seririyat ve
+Hamidiye Etfal hastanelerinde Avrupa’dan getirtilen modern cihazlarla felçli hastaların
+tedavileri sürdürülmekteydi.110 Alman doktorların yönetimine bırakılan Gülhane Seririyat
+Hastanesine daha açılışının ilk yılında Almanya’dan Doktor Prof. Hoffmann getirtilerek
+masaj tedavisine başlanmıştı.111 Bu dönemde sağlık alanındaki gelişmelerde, Almanların
+etkisi hissedilmekteydi. Hamidiye Etfal Hastanesi için de cerrahî malzeme tedarikinde yine
+Almanlardan yardım alındı ve bu iş için bir Alman görevlendirildi.112
+
+    Aynı dönemde bu iki hastanede yaşanan gelişmelerden Darülacezenin de faydalandırılması
+düşünüldü. 1903 yılında söz konusu cihazlardan getirtildi ve böylece fizyoterapi çalışmaları
+burada da başlatıldı. 1906 yılında da protez yapımı için önemli bir tesis kurulması talep
+edildi. Bu konudaki girişimci, Tersane-i Amirede Protez Kol ve Bacak Fabrikası Memuru
+olarak görev yapan Yüzbaşı Osman Efendi’ydi. Osman Efendi’nin tasarısına göre bu fabrika,
+hem Darülacezedeki kimsesizlere iş istihdamı sağlayacak hem de protez kol ve bacak
+üretiminin yanında cerrahî malzeme imâl edilecek geniş bir tesis olacaktı. Bu fabrikada
+bütün hastane ve askerî daireler için gerekli olan malzemeler yapılacak ve tamirine ihtiyaç
+duyulanlar da yenilenmiş olacaktı. Fabrikanın kurulması hâlinde Avrupa’dan birçok masraf
+yapılarak getirtilen ürünler, Darülacezede üretilmiş olacak ve daha başlangıçta tahmini
+olarak yıllık 150.000 kuruş gibi bir gelir de elde edilecekti. Fabrikanın kurulması için daha
+önce de girişimde bulunulduğu ve gereken malzemelerin arz edildiği ifade edilmekteydi.
+Bu önerinin kabul edilmesi durumunda çalışacak görevliler de düşünülmüştü. Bu alanda
+tecrübesi olan Bahriyeden İstanbullu Yüzbaşı Hüseyin İsmet, Beşiktaşlı Mülazım Rifat
+Emin ve Edremitli Mülazım Ahmet Ali Efendiler burada çalışacakları gibi protez yapımını
+da bu alanda yetişmek isteyenlere öğreteceklerdi.113 Fakat bunun gerçekleşmediği tahmin
+edilmektedir. Zira bu talepte bulunan kişinin birkaç yıl sonrasında yine Tersane-i Amirede
+
+109 BOA, ML.EEM. 696/29, 30 Temmuz 1324 (12 Ağustos 1908).
+110 BOA, DH.MKT. 753/12, 2 Ağustos 1319 (15 Ağustos 1903).
+111 BOA, İ.HUS. 78/42, 7 Teşrinisani 1315 (19 Kasım 1899).
+112 BOA, İ.HUS. 147/12, 8 Teşrinievvel 1322 (21 Ekim 1906).
+113 BOA, DH.MKT. 1084/9, 11 Mayıs 1322 (24 Mayıs 1906).
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                  55
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+çalışmaya devam eden Osman İsmail Efendi olduğu düşünülmektedir. Bununla birlikte söz
+konusu girişim, protezlerin diğer birimlerde de yapılması gerektiği fikrinin oluştuğunu açık
+bir şekilde göstermektedir.114
+
+      Protez Ustalarının Artışı ve Engellilere Yansıması
+    Protez imalat merkezlerinin artışı konusundaki girişimlerle yeni bir iş kolu oluşturulmaya
+çalışıldığı ortaya çıkmaktadır. Zira kısa süre içinde protez imâlinde yaşanan bu gelişme
+ve alandaki ustaların artışı, rekabeti de beraberinde getirmiştir. Buna dair Kadri Ağa’nın
+protezi örnek gösterilebilir. Sadaret Müsteşarlığında odacılık yapan bu kişinin 1907’de sol
+bacağı dizinden kesilmişti. Kadri Ağa, ameliyat sonrasında atiyye-i seniyye ödeneğinden
+karşılanmak üzere bir protez yapılmasını talep etti.115 Yapılan muayene neticesinde Kadri
+Ağa’nın protezinin 2.470 kuruşa imâl edilebileceği ve yapımı için ölçüsünün de alındığı
+Tophane-i Amiredeki ilgili memur tarafından bildirildi.116 Ancak Sadaret tarafından bu
+miktar yüksek bulundu. Zira aynı şekilde bacağı dizinden ampüte edilen Giresunlu Talib
+için gereken protezin Avrupa’dan 1.500 kuruşa getirtilme imkânı olduğu, dahası Tersane-i
+Amire ve Tophane-i Amirede protez yapabilen zabitlerin bulunduğu ve bunlar tarafından
+uygun fiyatla protez yapılabileceği düşünüldü. Bu sebeple verilen fiyatın acilen incelenmesi
+istendi.117 Tophanedeki ustanın, masrafın düşürülemeyeceğini bildirmesi118 üzerine Tersane-i
+Amire ile görüşüldü. Bu kurumda çalışan protez imalatçısı Osman İsmail Efendi119 tarafından
+düzenlenen raporda hastanın muayene edildiği ve söz konusu protezin 1.500 kuruşa
+yapılabileceği beyan edildi.120 Bunun üzerine de Kadri Ağa’nın protezi için söz konusu
+miktarın Osman İsmail Efendi’ye ödenmesi uygun bulundu.121 Bu bilgiler iki önemli sonucu
+ortaya koymaktadır. Biri protez ücretlerinin hâlâ istenen miktarlara düşürülemediği, diğeri de
+fiyatların düşürülmesi için girişimlerin olduğu ve rekabetin yaşanmaya başladığıdır. Bunun
+dışında rekabet fikrini, Osman İsmail Efendi’nin protez ustası olduğuna dair bir kartvizit
+yaptırmış olması ve protez ücretinin imalatçı ustaya verildiği bilgisi de desteklemektedir.
+
+114 Aynı dönemde başka girişimde bulunanlar da vardı. Zira Gümüşsuyu Marangozhanesinde Bursalı Mustafa
+    Çavuş da bir protez imâl etmişti. BOA, DH.MKT. 517/50, 25 Nisan 1318 (8 Mayıs 1902); BOA, BEO.
+    1862/139644, 25 Mayıs 1318 (7 Haziran 1902). Fakat Mustafa Çavuş’un daha önce eğitim için Avrupa’ya
+    gönderildiğine, ya da eğitimli kişilerin yanında bu işi öğrendiğine dair bir bilgiye ulaşılamadı. Bundan hareketle
+    de yaptığı protezin eski usuldeki ahşap bacak mı yoksa modern usullerle üretilen bir protez mi olduğu kesin
+    olarak tespit edilemedi.
+115 BOA, BEO. 3102/232606, 4 Temmuz 1323 (17 Temmuz 1907).
+116 BOA, BEO. 3127/234521, 4 Ağustos 1323 (17 Ağustos 1907).
+117 BOA, BEO. 3127/234521, 6 Ağustos 1323 (19 Ağustos 1907).
+118 BOA, BEO. 3158/236783, 16 Eylül 1323 (29 Eylül 1907).
+119 Bu kişinin Darülacezede fabrika kurulmasını isteyen isim olduğu tahmin edilmektedir. Zira Bahriye
+    Nezaretinde görevli olan Osman İsmail Efendi’nin 1902 yılında Tersane-i Amirede çalıştığı anlaşılmaktadır.
+    BOA, ML.EEM. 418/5, 28 Ağustos 1318 (10 Eylül 1902).
+120 BOA, BEO. 3158/236783, 17 Eylül 1323 (30 Eylül 1907).
+121 BOA, BEO. 3158/236783, 18 Eylül 1323 (1 Ekim 1907); BOA, DH.MKT. 1206/65. 6 Teşrinievvel 1323 (19
+    Ekim 1907).
+
+
+ 56                                                                          Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                             Esat Aktaş
+
+
+
+Kartvizitinden de anlaşıldığı üzere kurum dışında özel olarak iş yapmaktadır. Kartvizitte
+“Tersâne-i Âmire Yüzbaşılarından Sun‘i El ve Ayak ve Korse ve Kasık [Fıtık] Bağı ve Âlât-ı
+Cerrahiye ‘Âmili Capitaine de Marine Osman İsmail-Ortopédiste” ifadesi yazmakta ve adres
+olarak da Babıali Caddesi’nde İbrahim Nazif Eczahanesi gösterilmektedir.122 Ortopedi uzmanı
+bir doktor olmamasına rağmen kendisini ortopedist olarak tanıtan Osman İsmail’in verdiği
+bu bilgi, söz konusu alanda uzmanlaşanların da aynı unvanı kullandığına, protez ve cerrahî
+malzeme üretiminin uzmanlaşmaya doğru giderek ayrı bir alan olmaya başladığına işaret
+etmektedir. Adres olarak gösterdiği eczanenin de protez üretim merkezi değil, kendilerine
+ulaşılabilecek bir ofis olarak işlev gördüğü anlaşılmaktadır.
+
+
+
+
+             Tersane-i Amire yüzbaşılarından ortopedist Osman İsmail Efendi’nin kartviziti
+                                      BOA, BEO. 3158/236783.
+
+
+
+   II. Abdülhamid Dönemi’nde, şimdiye kadar örnek olarak gösterilenlerle birlikte en
+az 98 kişinin protez yapımına dair resmi başvurusuna ulaşılmıştır.123 Ekonomik olarak
+
+122 BOA, BEO. 3158/236783, Tarihsiz.
+123 BOA, BEO. 669/50107; BOA, BEO. 585/43819; BOA, BEO. 388/29072; BOA, BEO. 452/3397; BOA, BEO.
+    473/35406; BOA, BEO. 587/43973; BOA, BEO. 605/45308; BOA, BEO. 678/50795; BOA, BEO. 770/57719;
+    BOA, BEO. 1141/85510; BOA, BEO. 1021/76568; BOA, BEO. 1043/78156; BOA, BEO. 1048/78555;
+    BOA, BEO. 1132/84874; BOA, BEO. 1142/85597; BOA, BEO. 1150/86233; BOA, BEO. 1245/93310;
+    BOA, BEO. 1397/104729; BOA, BEO. 1404/105266; BOA, BEO. 1441/108056; BOA, BEO. 1467/109996;
+    BOA, BEO. 1725/129342; BOA, BEO. 1979/148391; BOA, BEO. 2436/182642; BOA, BEO. 2505/187846;
+    BOA, BEO. 2605/195353; BOA, BEO. 2636/197630; BOA, BEO. 2729/204629; BOA, BEO. 2920/218966;
+    BOA, BEO. 2977/223206; BOA, BEO. 3085/231358; BOA, BEO. 3171/237758; BOA, BEO. 3061/229542;
+    BOA, BEO. 3102/232606; BOA, BEO. 3127/234521; BOA, BEO. 3158/236783; BOA, BEO. 3152/236339;
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                           57
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+gücü yetmeyenlerin devlete başvuruda bulunduğu düşünülse dahi bu sayı ilk bakışta çok
+az görünmektedir. Fakat yeni gelişme gösteren bir alan için önemsenmeyecek bir rakam
+olarak değerlendirilmemelidir. Sayının az olması, engellilerin büyük bir çoğunluğunun
+bu gelişmeden haberdar olmamasıyla ilişkilendirilebilir. Rumeli ve Anadolu’nun çeşitli
+şehirlerinden protez için talepte bulunulması, dönemin haberleşme ve ulaşım şartlarının
+da göz ardı edilmesi için yeterli değildir. Bununla birlikte bazı ustaların da eğitim almadan
+protez yaptığına dair örnekler vardır. Bu da memleketin çeşitli yerlerinde eski usulde tahta/
+ahşap bacak yapıldığını düşündürmektedir. Bundan hareketle de asıl etkinin, modern
+protezlerin hastaya uyumlu yapılması gerektiği, proteze ihtiyaç duyan engellilerin bunun
+için İstanbul’a gelmeleri zorunluluğu ve dönemin şartlarından dolayı da bu seyahatin onlar
+için zorluğu olsa gerektir. Bu şartlar dikkate alındığında modern protezlerin yerine ahşap bir
+destek malzemesiyle idare ettikleri tahmin edilmektedir.
+
+    II. Abdülhamid Dönemi’nde Avrupa’ya personel gönderildiği ve bu kişilerin modern
+protez yapımını öğrenerek başkalarını da yetiştirdikleri anlaşılmaktadır. Zira başlangıçta
+Tersane-i Amirede başlayan protez imâlatı, kısa süre içinde Tophane-i Amirede de yapıldı.
+Yirminci yüzyılın ilk yıllarında daha fazla yaygınlık göstererek Hamidiye Etfal Hastanesi ve
+Darülaceze gibi kurumlarda da yeni atölyelerin açılmasına yönelik girişimlerde bulunuldu.
+Bu alanda geniş çaplı atölyelerin kurulmasına yönelik girişimler de taleplerin artışından
+kaynaklanmış olmalıydı. Bu gelişmeler sayesinde istenen seviyelere indirilemese de ilk yıllara
+nispeten uygun fiyatla daha fazla protez yapma imkânı ortaya çıkmış oldu. İlk başta özel
+imalatçılara yönlendirilen hastalar birkaç örnekle sınırlıydı. Ancak ilk devlet destekli yerli
+modern protez örnekleri, kısa süre içinde protez talep eden engellilerin artış göstermesinde
+
+     BOA, BEO. 3329/249611; BOA, BEO. 3195/239616; BOA, BEO. 3249/243608; BOA, BEO. 3254/243988;
+     BOA, BEO. 3300/247440; BOA, BEO. 3407/255493; BOA, BEO. 3433/257452; BOA, BEO. 3484/261260;
+     BOA, BEO. 1063/79651; BOA, BEO. 827/61998; BOA, DH.MKT. 21/49; BOA, DH.MKT. 247/60; BOA,
+     DH.MKT. 280/3; BOA, DH.MKT. 350/46; BOA, DH.MKT. 166/25; BOA, DH.MKT. 351/8; BOA, DH.MKT.
+     373/35; BOA, DH.MKT. 363/24; BOA, DH.MKT. 354/10; BOA, DH.MKT. 436/76; BOA, DH.MKT. 421/19;
+     BOA, DH.MKT. 596/24; BOA, DH.MKT. 1189/63; BOA, DH.MKT. 2162/105; BOA, DH.MKT. 2132/69;
+     BOA, DH.MKT. 2149/57; BOA, DH.MKT. 2156/105; BOA, DH.MKT. 2196/51; BOA, DH.MKT. 2342/83;
+     BOA, DH.MKT. 2409/47; BOA, DH.MKT. 2167/2; BOA, DH.MKT. 2485/19; BOA, DH.MKT. 480/23; BOA,
+     DH.MKT. 901/7; BOA, DH.MKT. 928/11; BOA, DH.MKT. 917/51; BOA, DH.MKT. 943/65; BOA, DH.MKT.
+     997/28; BOA, DH.MKT. 1016/55; BOA, DH.MKT. 1061/8; BOA, DH.MKT. 1136/43; BOA, DH.MKT.
+     1206/65; BOA, DH.MKT. 1230/2; BOA, DH.MKT. 2688/64; BOA, DH.MKT. 1188/85; BOA, DH.MKT.
+     1209/47; BOA, DH.MKT. 1219/7; BOA, DH.MKT. 2671/52; BOA, DH.MKT. 2691/54; BOA, DH.MKT.
+     2725/90; BOA, DH.MKT. 2739/97; BOA, DH.MKT. 2753/82; BOA, DH.MKT. 2772/49; BOA, DH.MKT.
+     2774/48; BOA, DH.MKT. 2747/7; BOA, DH.MKT. 2755/62; BOA, ML.EEM. 470/12; BOA, ML.EEM.
+     485/88; BOA, ML.EEM. 507/65; BOA, ML.EEM. 509/72; BOA, ML.EEM. 571/21; BOA, ML.EEM. 574/69;
+     BOA, ML.EEM. 584/98; BOA, ML.EEM. 597/23; BOA, ML.EEM. 615/58; BOA, ML.EEM. 624/20; BOA,
+     ML.EEM. 638/49; BOA, ML.EEM. 648/26; BOA, ML.EEM. 644/26; BOA, ML.EEM. 645/8; BOA, ML.EEM.
+     645/44; BOA, ML.EEM. 673/34; BOA, ML.EEM. 696/24; BOA, ML.EEM. 712/36; BOA, ML.EEM. 696/64;
+     BOA, Şura-yı Devlet (ŞD.) 638/31; BOA, Rumeli Müfettişliği-Selanik (TFR.I.SL.) 40/3950; BOA, Rumeli
+     Müfettişliği-Makamat (TFR.I.MKM.) 35/3496; BOA, HR.SFR.04. 796/87; BOA, Yıldız Perakende Askeri
+     Maruzatı (Y.PRK.ASK.) 253/5; BOA, Y.PRK.AZJ. 28/12; BOA, Y.MTV. 296/117; BOA, Y.MTV. 291/83.
+
+
+58                                                                    Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                               Esat Aktaş
+
+
+
+etkili oldu. Bu gelişmenin de daha rahat hareket imkânına kavuşmak isteyen engellilere umut
+olduğunu göstermektedir.
+
+    II. Abdülhamid Dönemi sonrasında Balkan Savaşlarının ve Birinci Dünya Savaşı’nın
+etkisiyle hasta sayısı arttı. Hasta sayısı, protez ihtiyacını ve dolayısıyla bu alanda çalışanları
+da artırdı. İhtiyaçtan kaynaklı olarak da Avrupa’ya ihtisas için yeni personel gönderildi.
+Böylece bu alandaki gelişmeler, hız kesmeden devam etmiş oldu.124
+
+    Sosyal Devlet Düşüncesinin Protez İmalatına Etkisi
+    Osmanlı Devleti, on dokuzuncu yüzyılda toplumsal gelişmeleri destekleme konusunda
+önemli atılımlar yaptı. Protez imalatının devlet kurumlarında yapılmaya başlanması da
+bu atılımların önemli aşamalarından biridir. 1880’li yıllarda İstanbul’da özel imalatçılarla
+başlayan protez çalışmaları, 1893’ten itibaren devlet birimlerinde yapılmaya başlandı.
+Kurumlarda açılan atölyeler ve buralardaki protez üretimi üzerine kısa süre içinde bir
+hayli başvuru yapıldı. Başvuru yapan 98 kişiden bir kısmının uzvunu kaybetme nedenine
+ulaşılamamaktadır. Ulaşılabilenlerden birinin bacağı yanmış ve 30’a yakını da hastalık
+sebebiyle bacağının belirli kısımlarını kaybetmişti. Bunların dışında önemli bir kısmı da
+sakatlanma sebebiyle engelli kalmıştı. Kol protezine ihtiyaç duyan engellilerin çoğu ise kaza
+geçirmişti. Protez için başvuru yapanlardan birkaç kişi hariç neredeyse tamamına olumlu
+cevap verilmiş ve birçoğunun protezi için de devlet birimleriyle görüşülmüştü. İçlerinde
+çocuk hastaların da olduğu görülen engellilerden ayrıca 11’inin de kadın olduğu tespit
+edilebilmektedir.
+
+    Protezler, 3.000-4.000 kuruş gibi yüksek meblağlara yapılmaktayken devlet birimlerindeki
+yerli imalatın belirli bir düzene girmesiyle ücretler de protezin yapısına göre 500-2.000
+kuruş seviyesine kadar düştü. Bu meblağların ödenmesi konusunda sıkıntı yaşayan hastalar
+ya da hasta yakınlarının büyük çoğunluğu, muhtaç olduğunu bildirmekte ve devletin
+yardımını talep etmekteydi. Sultan II. Abdülhamid’in Osmanlı Devleti’nin sosyal devlet
+olma yolundaki adımlarından biri olarak protez yapımını gündemine aldığı görülmektedir.
+Bunda yüksek maliyetlerin etkisinin olduğu açıktır. Bununla birlikte dönemin tıbbî
+gelişmeleri ışığında engelli vatandaşlarına el uzattığı, yapılan taleplere verilen cevaplardan
+anlaşılmaktadır. Zira Sultan, talep edilen protezlerin büyük bir çoğunluğunun masrafının
+atiyye-i seniyye ödeneğinden verilmesi konusunda irade buyurmuştur. Birkaçı hariç olmak
+üzere diğer talepler de geri çevrilmemiş, bunların imâl masraflarının askeriye ve diğer devlet
+kurumları tarafından ödenmesi uygun bulunmuştur. Ödenemeyeceği bildirilenlerin içinde
+
+124 Daha geniş bilgi için bkz. BOA, Hariciye Nezareti İdare Evrakı (HR.İD.) 1391/34, 19 Şubat 1330 (4 Mart
+    1915); BOA, HR.İD. 1391/36, 26 Şubat 1330 (11 Mart 1915); BOA, HR.İD. 1391/37, 9 Mart 1331 (22 Mart
+    1915); BOA, HR.İD. 1391/38, 12 Haziran 1331 (25 Haziran 1915); BOA, HR.İD. 1391/39, 16 Haziran 1331
+    (29 Haziran 1915), BOA, HR.İD. 1391/40, Tarihsiz; BOA, HR.İD. 1391/41, 12 Temmuz 1331 (25 Temmuz
+    1915); Kurnaz Şahin, “Osmanlı’dan Cumhuriyet’e Harp Malûlleri…”.
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                             59
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+askeri personel olan Kolağası Mehmed Efendi’nin oğlu için yapımını talep ettiği protez
+yer almaktaydı. Bunun sebebinin ise ekonomik olarak protezin masrafını karşılayabilecek
+güce sahip olduğu düşüncesinden ileri geldiği tahmin edilmektedir. Zira olumsuz cevap alan
+Mehmed Efendi’nin maaşından kesilmek üzere çocuğuna protez yapımına karar verilmiştir.125
+Yine protez talep eden başka bir hastanın muayenesi sonucunda proteze ihtiyacı olmadığı
+anlaşıldı. Bu kişinin topuğunun bir kısmının ameliyatta kesilmesinden dolayı protez
+başvurusunda bulunduğu ancak bundan kaynaklı oluşan kısalığın özel tabanlı ayakkabı ile
+giderilebileceği görüldü. Masrafının ise devlet tarafından karşılanmasıyla ihtiyaç duyduğu
+ayakkabı yapıldı.126
+
+    Protez masraflarının bizzat Sultan tarafından karşılanması konusuna çalışmasında
+yer veren Özbek, Yıldız Sarayı’nda konumlanan iktidarın pekiştirilmesi için hükümet
+bürokrasisinin etkisizleştirilmesinin yeterli olmadığını, Sultan Abdülhamid’in hayır ve refah
+yoluyla saray merkezli siyasi yapıyı topluma yaymaya çalıştığını aktarmaktadır. Bu siyasi
+yönelime özellikle Meşrutiyet taraftarı muhalif grubun örgütsel bir yapı kazandığı 1890’lı
+yıllarda ağırlık verdiğini ifade etmektedir. Bu şekilde “monarşik refah sistemi aracılığıyla
+padişah, popüler ve paternalist bir figür olarak sunulmuş ve bu yolla yoksul halk ile padişah
+arasında bir “yakınlık hissi” oluşturulmaya çalışılmıştır” demektedir.127 Özbek’e göre II.
+Abdülhamid Dönemi’nde yapılan hayırlar, geleneksel uygulamaları akla getirmekteyse de
+geleneksel motiflerden farklı olarak hayır işleri, hükümdarın şahsi hayırları olarak “modern
+sosyal yardım ve sağlık kurumları” yoluyla yeni ve başarılı bir şekilde sunulmaktaydı. Padişah
+hediyesi olan atiyye-i seniyye, II. Abdülhamid iktidarının güçlendirilmesinde bir araç olarak
+zikredilmekte, yani meşruiyetin kazanılmasındaki önemli yollardan biri olarak görülmektedir.
+Bu vasıtayla yardım yapılması, padişahın fakir ahalinin sorunlarıyla yakından ilgilenmesini
+sağlarken ahalinin de padişaha karşı bağlılığının beklendiği şeklinde yorumlanmaktadır.128
+Protezin aynı dönemde devlet birimlerinde yapılması ve bunların büyük çoğunluğunun
+atiyye-i seniyye ödeneğinden karşılanması da bu fikri desteklemektedir. Ayrıca padişahın
+engellilere destek olduğuna ve protez imâl ettirdiğine dair haber de yapılmış olmalıdır. Zira
+İstanbul dışındaki örnekler, bu fikri destekler niteliktedir. Bununla birlikte, engellilerin
+sesinin duyulduğuna ve yapılan protezlerin onların hayata tutunabilmesi için umut ışığı
+olduğuna da şüphe yoktur.
+
+    Engellilerin protez taleplerinin diğer bir boyutu da bu insanların, geçimlerini sağlama
+kaygısıdır. Bir uzvu ampüte edilen insanların proteze sahip olmaları hayati önem taşımaktadır.
+Zira bir organın eksikliği, beraberinde işsizliği getirebilmektedir. Bu da insanların düşkün
+bir hâle gelmesi demek olup ihtiyacı olan insanları başkalarından yardım isteme yoluna
+
+125 BOA, BEO. 2729/204629, 14 Kanunievvel 1321 (27 Aralık 1905).
+126 BOA, BEO. 1150/86233, 1 Temmuz 1314 (13 Temmuz 1898).
+127 Özbek, Osmanlı İmparatorluğu’nda Sosyal Devlet, 31.
+128 Özbek, Osmanlı İmparatorluğu’nda Sosyal Devlet, 34-35, 123.
+
+
+60                                                                    Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                         Esat Aktaş
+
+
+
+sevk edebilir. Orta Çağ’da fakirler, toplum tarafından yardım göremediklerinden kayıp
+uzuvları için geçici çarelere başvurmakta; dilenci veya satıcı olarak yaşamlarını sürdürmeye
+çalışmaktaydılar.129 Osmanlı Devleti’nin klasik döneminde durum bundan çok da farklı
+değildi. Bu dönemde meşru olarak görülebilen dilenciliğe bakış açısı, on dokuzuncu yüzyılın
+sonunda değişti. Dilencilerin halkı rahatsız ettiği ve devletin imajını zedelediği düşünülmeye
+başlandı. Dahası toplumun elit grubu, dilenciliği çalışmadan başıboş gezmek şeklinde
+değerlendirerek daha büyük sosyal ve ahlâki bir sorun olarak görmeye başlamıştı.130 II.
+Abdülhamid Dönemi’nde bu insanlara verilecek imkânla topluma kazandırılmalarının bizzat
+devlet tarafından önemli bir vazife olarak görüldüğü anlaşılmaktadır. Bu ortamda proteze
+ihtiyaç duyan engellilerin çalışmaktan başka çarelerinin olmadığı örnekler de vardır. 1908
+yılındaki bir başvuru, hastaların bu konudaki durumunu açık bir şekilde ortaya koymaktadır:
+Çorum’un Sungurlu kasabasında ikamet eden muhacirlerden Mehmed, tespit edilemeyen
+sebeplerle iki ayağını da kaybetmişti. Mehmed, Sungurlu’dan İstanbul’a gelerek Sadarete
+bir arzuhal sundu. Arzuhalinde ayakları olmadığını, ailesinin geçimini sağlayamadığını
+vurguladı ve “her iki cihetle sürünmekteyim” diyerek durumunu anlatmaya çalıştı.131
+Hakkında yaptırılan araştırma neticesinde fakir olup protez yaptırmak üzere memleketinden
+İstanbul’a geldiği ve Sultan Ahmet Camii çevresinde gecelediği anlaşıldı.132 Mehmed’in
+ihtiyaç duyduğu protezlerin 1.650 kuruş karşılığında ve bir ay içinde Tersane-i Amirede
+yapılabileceği Bahriye Nezaretinden bildirildi.133 Bunun üzerine protezlerin parasının
+da atiyye-i seniyye ödeneğinden karşılanması uygun bulundu.134 Bu örnek, yapılacak
+protezler sayesinde Mehmed’in zor durumdan kurtarılmasının ve ayağa kaldırılarak topluma
+kazandırılmasının amaçlandığına işaret etmektedir.
+
+    SONUÇ
+    Osmanlı Devleti, birçok alanda Avrupa’ya ayak uyduramadığını fark etmiş, kendini
+modernize etmenin çarelerini aramaya başlamıştı. Bu anlayışla on dokuzuncu yüzyılda önemli
+gelişmeler yaşandı. Bu kapsamda sağlık alanında protez ihtiyacı da göz önünde bulunduruldu.
+Avrupa’da Orta Çağ Dönemi’nde kullanılan tahta bacaklar ve kancalı kollar, on altıncı
+yüzyıldan itibaren daha kullanışlı ve fonksiyonel bir hâle getirilmişti. Bu gelişmeye Amerika
+da ayak uydurmuştu. Ancak Osmanlı Devleti çağdaşlarına göre bu alandaki çalışmalarında
+çok geç kalmıştı. Bundan dolayı da Osmanlı toplumunda modern proteze muhtaç olan
+insanların bu ihtiyacının, alanında gelişme gösteren diğer devletlerdeki firmalardan
+
+129 Fliegel ve Feuer, “Extremity Prostheses”, 316.
+130 Özbek, Osmanlı İmparatorluğu’nda Sosyal Devlet, 81.
+131 BOA, DH.MKT. 2691/54, 28 Teşrinisani 1324 (11 Aralık 1908).
+132 BOA, DH.MKT. 2691/54, 5 Kanunievvel 1324 (18 Aralık 1908).
+133 BOA, DH.MKT. 2725/90, 19 Kanunisani 1324 (1 Şubat 1909); BOA, DH.MKT. 2739/97, 3 Şubat 1324 (16
+    Şubat 1909).
+134 BOA, BEO. 3484/261260, 21 Kanunisani 1324 (3 Şubat 1909); BOA, DH.MKT. 2753/82, 16 Şubat 1324 (1
+    Mart 1909).
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                       61
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+temin edildiği görülmektedir. Ancak bunun da kişilerin mevkileriyle sınırlı tutulduğu ve
+herkese yansımadığı aşikardır. Bundan hareketle modern yerli proteze dair çalışmaların
+İstanbul’da 1877-1878 Osmanlı Rus Savaşı sonrasında başladığı tespit edilebilmektedir.
+Savaş sonrasında İstanbul’a gelerek protez işiyle de ilgilenmeye başlayan Hugo Avellis’in
+1880’li yıllarda protez ürettiği bilgisine ulaşılmaktadır. Fakat arşiv belgelerine yansıyan
+bilgilerden hareketle devlet birimlerinde protez imâl edilmesinden önce, bunların çok az
+olduğu görülmektedir. Bu şekilde hem Avrupa’dan getirtilenlerin hem de özel imalatçıya
+yaptırılan protezlerin maliyetinin yüksek olması ve ihtiyacı karşılamakta yetersiz kalınması,
+devlet destekli yerli protez imalatı konusunda Sultan II. Abdülhamid’i harekete geçirmiştir.
+Böylece modern protez ustalarının yetiştirilmesi ve bunlar vasıtasıyla da ihtiyacın devlete
+ait atölyelerde yapılacak protezlerle karşılanması amaçlanmıştır. Bu girişim sonuç vererek
+devlet birimlerinde 1893 yılından itibaren modern protezler yapılmaya başlanmıştır.
+
+    II. Abdülhamid Dönemi’nde elde edilen bilgilere göre modern protez imâli için Avrupa’ya
+eğitime gitmeden protez üreten ustaların olduğu ve ahşap bacakların hâlâ yapıldığı tespit
+edilebilmektedir. Bununla birlikte devletin imâl ettirmek istediği protezlerin modern üretim
+teknikleriyle yapılanlar olduğu görülmektedir. Modern protezler; ahşap, metal ve deri gibi
+malzemeleri içeren ve fonksiyonel özelliğe sahip olan ürünlerdir. Bundan dolayı da eski ahşap
+bacaklardan farklı malzemeler içeren, eklemli protezlerdir. Mathieu’nun kataloglarındaki
+örnekler de bunu desteklemektedir. Ayrıca âlât-ı nazike teriminin kullanılması da bunların
+eklemli ve hareketli özelliğiyle birlikte nazik ve fonksiyonel olduğuna işaret etmektedir.
+Mekanik aksama sahip olan ateşli silahların yapıldığı kurumların üretim merkezi olarak
+seçilmesi de bunu destekler niteliktedir. Zira bu kurumlar, sanayi ve teknoloji konusunda
+devletin elindeki en gelişmiş fabrikalardı. Buralar, sahip olduğu imkanlar doğrultusunda bu
+teknolojiyi transfer edebilecek yerlerdi. Bu da iki alan arasındaki bağlantıyı göstermektedir.
+Bununla birlikte silah üretiminde Avrupa’yı örnek alan135 devletin protez imalatında da aynı
+şekilde hareket ettiği görülmektedir.
+
+   Osmanlı Devleti, kısa süre içinde bu alanda ilerleme sağlayabilmişse de on dokuzuncu
+yüzyılın sonunda çağdaşlarına nispeten yetersiz kalmıştı. Protez taleplerinin arşive
+yansımasına rağmen yapılan ürünlerin çizimlerinin olmaması dikkat çekmektedir. Bu
+da kurumsallaşma yolunda daha başlangıç aşamasında olunduğuna işaret etmektedir. II.
+Meşrutiyet Devri’nde bu alandaki dış desteğin devam etmesi, bir taraftan bu düşünceyi
+desteklerken diğer taraftan da alandaki yeniliklerin takip edildiğini göstermektedir.
+
+   Devlet, bedensel engelli olan bu insanlara kendi ihtiyacını karşılayabilmesi için destek
+olmaya çalışırken onları topluma kazandırmayı da hedeflemiş olmalıdır. Özellikle yapılan
+başvuruların çok büyük bir kısmının bacak ve ayak protezleri olmasından hareketle engelli
+
+135 Silah sanayii konusunda daha geniş bilgi için bkz. Zengin, … Osmanlı Devleti’nde Harp Sanayii (1861-1923).
+
+
+ 62                                                                     Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                           Esat Aktaş
+
+
+
+insanları ayağa kaldırmayı amaçladığını göstermektedir. Engelliler açısından bakıldığında
+bu ayağa kalkış -suni bir uzuvla da olsa- hayata tutunmanın bir gerekliliğiydi. Hastalar eksik
+uzuvla çalışamayacaklardı. Devletin protez ihtiyacını karşılamaması hâlinde ise bu insanlar
+farklı çareler aramaya itilmiş olacaktı. Arşiv belgelerinden hareketle incelenen dönemde
+ilk bakışta modern protez kullanımının çok az olduğu anlaşılmaktadır. Başvuru yapan
+engellilerin, yalnızca İstanbul’da değil Rumeli ve Anadolu’nun çeşitli yerlerinde yaşadıkları
+görülmektedir. Buna rağmen dönemin iletişim ve ulaşım şartlarının gelişmişlik durumu ve bir
+de engelli vatandaşların seyahat imkânları dikkate alınırsa bu şartların yapılan başvuruların
+az olmasındaki önemli sebeplerden birini oluşturduğunu görmek mümkündür. Sayının az
+olmasındaki diğer bir sebebi toplumsal olarak engellilere bakış açısında aramak da gerekir.
+Fakat az da olsa bu örnekler, artık engellilerin de sosyal ve ekonomik olarak hayata tutunmak
+için mücadele ettiklerini, modern protez yapımının ve kullanımının bu açıdan onlara umut
+olduğunu göstermektedir.
+
+
+
+
+           On dokuzuncu yüzyılın sonuna ait doğuştan engelliler için bacak protezi örnekleri
+                         Maison L. Mathieu Kataloğu (Paris: 1889), 325.
+
+    Protez imalatında dikkat çeken diğer bir husus, başvuruda bulananların tamamının
+sağlıklıyken çeşitli sebeplerle kol ve bacaklarının belirli bir kısmını ya da tamamını kaybeden
+insanlar olmasıdır. Her dönemde ve her toplumda doğuştan bedensel engellilerin var olduğu
+
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                         63
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+tahmin edilmektedir. Hele de tıbbın ve tıbbî aletlerin günümüze oranla daha az gelişmiş bir
+durumda olması, geçmişte doğuştan engelliliğin daha fazla olabileceğini akla getirmektedir.
+Ancak yapılan başvurularda gösterilen sebepler arasında doğuştan engellilik yoktur ve başvuru
+sahiplerinin tamamı sonradan engelli olan insanlardır. Bu durumun sebebi olarak sağlıklı
+iken uzuvlarını kaybeden insanların buna alışkın olmamasıyla -toplum içinde sosyal olarak
+kendi ihtiyaçlarını karşılarken ya da ailesinin geçimini sağlarken- bir anda yaşanan kaza ve
+hastalıklar nedeniyle meydana gelen engelliliği, protez vasıtasıyla aşmaya çalışmasında ve
+bunun için çözüm aramasında görmek mümkündür. Elde edilen belgeler ışığında doğuştan
+engellilerin başvurularına ulaşılamamasının sebebinin ise toplumun engellilik durumuna
+bakış açısıyla birlikte dönemin şartlarından, engellilik hâlinin içselleştirilmesinden ve bunun
+kader olarak görülmesinden ileri geldiği tahmin edilmektedir.
+
+    Netice itibariyle Osmanlı Devleti, çağdaşlarına göre protez imalatında biraz geç kalmışsa
+da bu alanda girişimini yapmıştır. Bu girişim, kısa süre içinde meyvelerini vermişse de hâlâ
+istenen seviyeye ulaşılamadığı görülmektedir. Bununla birlikte protez imâlindeki maharetli
+ellerin az olmasına ve atölyelerin kuruluşundaki ekonomik zorluklara rağmen devlet, protez
+yapımı için başvuruda bulunan engellilerin ihtiyacını karşılamaya, bu insanlara yardım elini
+uzatmaya çalışmış ve bunu devlet politikası olarak kabul ettiğini göstermiştir. İmâl edilen
+protezlerin hastaya uygunluğunun tam olarak sağlanması ve belirli bir rehabilitasyon sürecinin
+olduğu da aşikardır. Üretime başlayan devlet, kısa süre içinde rehabilitasyon çalışmaları için
+de adım atmıştır. Ancak çalışmanın dışında bir konu olması hasebiyle rehabilitasyon, başlı
+başına araştırmaya muhtaç bir alan olarak kendini göstermektedir.
+
+
+Hakem Değerlendirmesi: Dış bağımsız.
+Çıkar Çatışması: Yazar çıkar çatışması bildirmemiştir.
+Finansal Destek: Yazar bu çalışma için finansal destek almadığını beyan etmiştir.
+
+Peer-review: Externally peer-reviewed.
+Conflict of Interest: The author has no conflict of interest to declare.
+Grant Support: The author declared that this study has received no financial support.
+
+
+      KAYNAKÇA / BIBLIOGRAPHY
+      Arşiv Kaynakları / Archival Sources
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Bab-ı Âlî Evrak Odası Evrakı
+    (BEO) 1021/76568, 1043/78156, 1048/78555, 1063/79651, 1132/84874, 1141/85510, 1142/85597,
+    1150/86233, 1194/89510, 1212/90852, 1245/93310, 1317/98754, 1348/101038, 1397/104729,
+    1404/105266, 1441/108056, 1467/109996, 1725/129342, 1862/139644, 1979/148391, 2436/182642,
+    2505/187846, 2605/195353, 2636/197630, 266/19908, 2729/204629, 2920/218966, 2977/223206,
+    3061/229542, 3085/231358, 3102/232606, 312/23395, 3127/234521, 3152/236339, 3158/236783,
+    3171/237758, 3195/239616, 3249/243608, 3254/243988, 3300/247440, 3329/249611, 3407/255493,
+
+
+
+ 64                                                                                     Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                               Esat Aktaş
+
+
+
+    3433/257452, 3484/261260, 381/28548, 388/29072, 437/32767, 452/33897, 460/34494, 461/34528,
+    462/34646, 473/35406, 476/35667, 515/38559, 535/40125, 560/41966, 585/43819, 587/43973,
+    605/45308, 669/50107, 678/50795, 752/56379, 770/57719, 827/61998.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Dahiliye Nezareti Mektubî
+    Kalemi (DH.MKT) 1016/55, 1061/8, 1084/9, 1136/43, 1188/85, 1189/63, 1206/65, 1209/47, 1219/7,
+    1230/2, 166/25, 1737/12, 1867/12, 21/49, 2132/69, 2138/99, 2149/57, 2156/105, 2162/105, 2167/2,
+    2196/51, 2305/26, 2342/83, 2409/47, 247/60, 2485/19, 2671/52, 2688/64, 2691/54, 2725/90, 2739/97,
+    2747/7, 2753/82, 2755/62, 2772/49, 2774/48, 280/3, 287/13, 327/28, 350/46, 351/8, 354/10, 363/24,
+    373/35, 421/19, 436/76, 480/23, 517/50, 596/24, 753/12, 901/7, 917/51, 928/11, 943/65, 997/28.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Hariciye Nezareti İdare Evrakı
+    (HR.İD) 1391/34, 1391/36, 1391/37, 1391/38, 1391/39, 1391/40, 1391/41.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Hariciye Nezareti Tahrirat (HR.
+    TH) 182/76.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). İrâde Dahiliye (İ.DH) 1366/11.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). İrâde Hususî (İ.HUS) 147/12,
+    22/41, 28/93, 48/72.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). İrâde Taltifât (İ.TAL) 1/70,
+    104/9.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Hariciye Nezareti-Sofya Sefareti
+    (HR.SFR.04) 460/13, 460/15, 796/87.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Maliye Nezareti Emlak-i
+    Emiriyye Müdüriyeti (ML.EEM) 238/52, 385/36, 418/5, 458/63, 470/12, 480/28, 485/88, 507/65, 509/72,
+    561/34, 571/21, 574/69, 584/98, 597/23, 615/58, 624/20, 638/49, 644/26, 645/8, 645/44, 648/26, 672/36,
+    673/34, 696/24, 696/29, 696/64, 712/36.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Şura-yı Devlet (ŞD) 638/31.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Rumeli Müfettişliği-Makamat
+    (TFR.I.MKM) 35/3496.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Rumeli Müfettişliği-Selanik
+    (TFR.I.SL) 40/3950.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Yıldız Sadaret Hususî Maruzât
+    Evrakı (Y.A.HUS) 306/81.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Yıldız Mütenevvî Maruzât
+    Evrakı (Y.MTV) 147/66, 161/44, 272/104, 291/83, 296/117, 65/109, 73/113.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Yıldız Perakende Askeri
+    Maruzâtı (Y.PRK.ASK) 253/5.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Yıldız Perakende Arzuhâl ve
+    Jurnaller (Y.PRK.AZJ) 16/92, 28/12.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Yıldız Perakende Hazîne-i Hassa
+    Nezareti Maruzât Evrakı (Y.PRK.HH) 29/46.
+T. C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Osmanlı Arşivi (BOA). Zabtiye Nezareti Evrakı (ZB)
+    51/63.
+
+
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                             65
+II. Abdülhamid Dönemi’nde İstanbul’da Modern Protez İmalatı Girişimleri
+
+
+
+     Gazeteler / Newspapers
+The Oriental Adviser, 18 ve 20 January 1893.
+
+
+
+     Basılı Kaynaklar / Printed Sources
+Alpsoy, Cevat. Suni Uzuv ve Ortopedik Cihazlar. İstanbul: İstanbul Üniversitesi, 1951.
+Alsancak, Serap. “Ortez ve Protez Tarihçesi.” Ankara Sağlık Hizmetleri Dergisi 1, 1 (2000): 27-33.
+Altıntaş Selçuk, Betül ve Cihan Çolak. “Türkiye’nin İlk Çocuk Hastanesi; Hamidiye Etfal Hastane-i Âlisi.”
+    Lokman Hekim Journal 2, 1 (2012): 11-14.
+Balcı, Sezai. Osmanlı Devleti’nde Engelliler ve Engelli Eğitimi Sağır Dilsiz ve Körler Mektebi. İstanbul:
+    Libra, 2013.
+Başaran, Cem Hakan. “Prof. Tbp. Mirliva Julius Wieting Tarafından Yazılan “Gülhane Hakkında Üçüncü
+   Layiha” Adlı Eserin Çeviri Yazısı.” Yeni Tıp Tarihi Araştırmaları 24 (2018): 53-81.
+Birdane, Leman, Cemal Cingi, Ömür Elçioğlu ve Nuray Bayar Muluk. “The Development of Artificial
+    Organs and Prostheses Worldwide and in the Ottoman Empire.” Journal of Medical Biography 24, 3
+    (2016): 323-327.
+Braye, Gérard. “Louis Mathieu, Coutelier Chirurgical Parisien d’origine Belge.” Actes. Société Française
+   d’Histoire de l’Art dentaire 19 (2004): 50-54.
+Demirel, Fatih. Osmanlı’da Sağır-Dilsiz ve Âmâların Eğitimi Dilsiz ve Âmâ Mektebi. İstanbul: İdeal Kültür,
+   2013.
+Ducongé, Sébastian. “Hugo Avellis: “C’est un Brave Homme”.” The Ledger, Bulletin of The Feriköy
+   Protestant Cemetery Initiative 1, 1 (2021): 2-4.
+Finch, Jacqueline. “The Ancient Origins of Prosthetic Medicine.” The Lancet 377, 9765 (2011): 548-549.
+Fliegel, O ve S. G. Feuer. “Historical Development of Lower-Extremity Prostheses.” Orthopedic & Prosthetic
+    Appliance Journal December (1966): 313-324.
+Gültekin, Elif. “The First Production of Artificial Limbs in the Ottoman State.” Lokman Hekim Dergisi 11,
+    1 (2021): 124-130.
+Herodotos, Tarih-Dokuzuncu Kitap. Çeviren Müntekim Ökten. İstanbul: Türkiye İş Bankası, 2006.
+Heybet, Safa. “Bahriye Sağ Kolağası Hüseyin Efendi; Hamidiye Etfal Hastanesi’nde İlk Pediatrik Fizyoterapi
+   ve Ortez-Protez Uygulamaları.” Lokman Hekim Dergisi 10/1 (2020): 77-83.
+Karakaş Özbayrak, İzi. II. Abdülhamid Döneminde Uygulanan Sosyal Yardım Politikaları (1876-1909).
+   İstanbul: Libra, 2011.
+Kirkup, John. A History of Limb Amputation. London: Springer, 2007.
+Kurnaz Şahin, Feyza. “Osmanlı’dan Cumhuriyet’e Harp Malûllerinin Sosyo-Ekonomik ve Sağlık Durumları
+   (1877-1939).” Doktora Tezi, Afyon Kocatepe Üniversitesi, 2012.
+Maison L. Mathieu Kataloğu. Paris: 1889.
+Maison L. Mathieu Kataloğu. Paris: 1907.
+Pakalın, Mehmet Zeki. Osmanlı Tarih Deyimleri ve Terimleri Sözlüğü. 1. Cilt. İstanbul: Milli Eğitim
+   Bakanlığı, 2004.
+
+
+
+66                                                                    Osmanlı Bilimi Araştırmaları 23, 1 (2022)
+                                                                                             Esat Aktaş
+
+
+
+Ovalıoğlu, İlhan. “Protezin Tarihçesi.” Yedikıta Dergisi 35 (2011): 47-51.
+Özbek, Nadir. Osmanlı İmparatorluğu’nda Sosyal Devlet-Siyaset, İktidar ve Meşruiyet 1876-1914. İstanbul:
+   İletişim, 2008.
+Tanaçan, Hayri. “Türk Ortopedisinin Tarihçesi.” Acta Orthop Traumatol Turc 27/3 (1993): 151-159.
+Zengin, Ersoy. Tophane-i Amire’den İmalat-ı Harbiye’ye Osmanlı Devleti’nde Harp Sanayii (1861-1923).
+   İstanbul: Kitabevi, 2020.
+Whitman, Sidney. Turkish Memories. London: William Heinemann, 1914.
+
+
+
+    Elektronik Kaynaklar /Electronic Sources
+Alsancak, Serap. “Protez tanımı, tarihçesi, alt ekstremite amputasyonları, nedenleri, seviyeleri.”
+    Erişim   06.05.2021.    https://acikders.ankara.edu.tr/pluginfile.php/36411/mod_resource/content/1/
+    Protez%20tan%C4%B1m%C4%B1%2C%20tarih%C3%A7esi%2C%20alt%20ekstremite%20
+    amputasyonlar%C4%B1%20nedenleri%2C%20seviyeleri.pdf
+
+
+
+
+Osmanlı Bilimi Araştırmaları 23, 1 (2022)                                                           67
+
