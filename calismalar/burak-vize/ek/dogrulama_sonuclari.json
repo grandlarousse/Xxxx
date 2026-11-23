@@ -1,0 +1,697 @@
+{
+ "dogrulayici-V1": {
+  "arac": "araç: 24/36",
+  "satirlar": [
+   {
+    "no": 5,
+    "karar": "doğru",
+    "sorun": "Yok. 1868 adı, 1876 ad değişikliği, 1863 Cenevre ve Kızılhaç'tan esinlenme Karal Akgün 111-12'de, 14 Nisan 1877 Macar 951'de geçiyor. Küçük bir nüans var: Macar 1868 için 'kuruluş çalışmalarına başlanmış' diyor, 'kurulmuş' ifadesi ise Karal Akgün'e dayanıyor. Sorun değil.",
+    "kanit": "Karal Akgün 111: \"1868 yılında İstanbul'da Mecruhin ve Marda-i Askeriyeye İmdad ve Muavenet Cemiyet-i Osmaniyesi adıyla kurulan, 1876 yılında Osmanlı Hilal-i Ahmer Cemiyeti adını alan\"; 112: \"Salib-i Ahmer'den (Kızılhaç) esinlenerek\"; Macar 951: \"resmi anlamda ancak 14 Nisan 1877'de Osmanlı Hilal-i Ahmer Cemiyeti adıyla hizmete geçebilmişti\""
+   },
+   {
+    "no": 6,
+    "karar": "düzelt",
+    "sorun": "Olgular doğru ama bir kısmı s. 113'te değil. Kuruluş amacı (savaş alanında sağlık hizmeti) s. 111'de. Savaşlarda cephede ve cephe gerisinde askere ve halka yardım cümlesi s. 113'ün sonundan s. 114'e taşıyor. 93 Harbi, Abdülhamid dönemindeki suskunluk, II. Meşrutiyet'te canlanma ve Trablusgarp, Balkan ve I. Dünya Savaşı ise s. 113'te.",
+    "kanit": "Karal Akgün 113: \"İlk kez 93 Harbi olarak anılan 1877-78 Osmanlı Rus savaşında cephede ve cephe gerisinde yardımlarıyla öne çıktıktan sonra II. Abdülhamit'in baskı döneminde ... sesi kesilen\"; 113-14: \"kurduğu kalıcı ve gezici (seyyar) hastaneler ... cephede hasta ve yaralı askerlere, cephe gerisinde göçmen kafilelerine\"",
+    "onerilen_dipnot": "Karal Akgün 111, 113-14."
+   },
+   {
+    "no": 7,
+    "karar": "doğru",
+    "sorun": "Yok. Kadınlar Merkezi'nin kadınları toplum hayatına çıkarması ss. 114-17'de anlatılıyor. En açık ifade s. 117'de.",
+    "kanit": "Karal Akgün 117: \"ülkede ilk kez toplum içinde kadın erkek birlikteliğinin yaşanmasına önayak oldu\"; 114: \"Türk kadınının evinin dört duvarı arasındaki yaşamından toplum içine taşınmasında\""
+   },
+   {
+    "no": 8,
+    "karar": "doğru",
+    "sorun": "Yok. Sanat Evi'nin Balkan Savaşları sırasında kurulması ve göçmen kadınlara iş verilmesi s. 118'de, 300 kadının örgücülük öğrenmesi s. 119'da, 1924'te Kadınlar Merkezi ile birlikte sona ermesi s. 120'de geçiyor. Kaynakta ad 'Daru'ssına' diye yazılıyor.",
+    "kanit": "Karal Akgün 119: \"çok kısa zamanda 300 kadın örgücülük öğrenerek dokuma alanında\"; 120: \"Sanat Evi de Kadınlar Merkezi'ne kaynayarak otomatikman onunla birlikte son buldu\" (1924)"
+   },
+   {
+    "no": 9,
+    "karar": "doğru",
+    "sorun": "Yok. İmdat heyetleri, menzil istasyonları, aşevleri, gezici ve sabit sağlık merkezleri, hastaneler ve İstanbul ile Anadolu arasında köprü olma s. 120'de, işgal gecesi Genel Merkez'in basılması s. 121'de geçiyor. Kaynak baskını '30 kişilik bir grup' diye anlatıyor.",
+    "kanit": "Karal Akgün 120: \"imdat heyetleri, menzil istasyonları, aşevleriyle, gezici-sabit sağlık merkezleri ve hastanelerle\"; 121: \"işgal gecesi İtilaf birliklerinden 30 kişilik bir grup Merkez'i bastı, telefon hatlarını kesti, pek çok evrakı da yok etti\""
+   },
+   {
+    "no": 10,
+    "karar": "doğru",
+    "sorun": "Yok. Bağışların Meclis'ten yönlendirilmesi s. 122'de, Uluslararası Kızılhaç Komitesi'nin barış çağrısı s. 121'de, 3.000 altın ruble ss. 122-23'te geçiyor. Kaynakta toplam yardım 30.000 altın ruble; yazar 3.000'in ayrıldığını 14 Nisan 1921 tarihli mektuba dayandırıyor ve not 22'de bu yorumu 'düşündürmektedir' diye temkinli veriyor. İstenirse '30.000 altın rublelik yardımın' diye açıklanabilir.",
+    "kanit": "Karal Akgün 123: \"Mustafa Kemal Paşa'nın bu tutarın 3000 altın rublesini savaş yoksullarına kullanmak üzere aşağıdaki 14 Nisan 1921 tarihli mektupla Hilal-i Ahmer Cemiyeti'ne vermesi\"; 122: \"30,000 altın rubleyi ... Meclis Başkanı'na göndermişti\""
+   },
+   {
+    "no": 11,
+    "karar": "doğru",
+    "sorun": "Olgular doğru. 2 Kasım 1922 kararı Karal Akgün s. 125'te ('2 Teşrinisani 338'), 1935 adı Çapa'nın basılı s. 545'inde geçiyor. Dikkat edilecek nokta: Çapa aynı sayfada ilk ad değişikliğini 1923 diye veriyor, ödev ise 1922 diyor. Ödevin tarihi Karal Akgün'ün aktardığı belgeye dayandığı için doğru. Okuyucu Çapa'da 1923'ü görürse kafası karışabilir; isteğe bağlı olarak dipnota kısa bir açıklama eklenebilir.",
+    "kanit": "Karal Akgün 125: \"2 Kasım günü Genel Merkez'in aldığı kararla adı Türkiye Hilal-i Ahmer Cemiyeti'ne değiştirilen kurum\"; Çapa 545: \"1923'te Türkiye Hilâliahmer Cemiyeti, 1935'te Türkiye Kızılay Cemiyeti ve nihayet 1947'de Türkiye Kızılay Derneği olarak değiştirildi\"",
+    "onerilen_dipnot": "Karal Akgün 125; Çapa 545 (Çapa ilk ad değişikliğini 1923 olarak verir)."
+   },
+   {
+    "no": 12,
+    "karar": "düzelt",
+    "sorun": "Alaşehir Kongresi kararı (s. 286, 20. madde) ve Nisan 1921 kanun teklifi (s. 289) doğru aktarılmış. Tek küçük hata şu: 100 lira yalnızca erlerin değil, astsubayların (küçük zabitan) ve erlerin ailelerine öngörülmüş. 'Çok önemli bir politika' ifadesi kaynaktaki 'yardım edilmesi gereği' ifadesinden biraz güçlü ama kabul edilebilir.",
+    "kanit": "Hayta ve Belenli 289: \"şehit erkan, ümera, zabıtan ve zabit sırasındaki asker ailelerine 1.000'er, şehit küçük zabıtan ve efrat ve silahatan sırasındaki asker ailelerine 100 lira\"; 286: \"hediye miktarının tayini kumandanlarla Milli Heyetlerinin âray-ı müşterekesine bırakılmıştır\"",
+    "onerilen_metin": "şehit subay ailelerine 1.000'er, şehit astsubay ve er ailelerine 100'er lira, malullere de bu miktarların yarısının"
+   },
+   {
+    "no": 13,
+    "karar": "doğru",
+    "sorun": "Yok. Teklif (Abdullah Azmi ve Şeyh Servet, 2/265) 2 Nisan 1337 [1921] tarihli 15. İçtima'da basılı s. 328'in sonunda başlıyor, s. 329'da okunuyor ve 'müstaceliyetle' Lâyiha Encümeni'ne gönderiliyor. Encümenin adı istenirse yazılabilir. 'Kanunlaştığına dair bilgiye ulaşılamamıştır' cümlesi yazarın kendi tespiti; kaynakla çelişmiyor. Not: OCR metninde 2. maddenin 100 lira kısmı eksik okunmuş; bu satırı etkilemiyor.",
+    "kanit": "TBMM Zabıt Ceridesi D.1 c.9, s. 329: \"REİS — Müstaceliyetle Lâyiha Encümenine gönderiyoruz efendim.\"; s. 328: \"3. — Eskişehir Mebusu Abdullah Azmi Efendi ile refikinin, şehit zâbitan ve efrat aileleriyle\""
+   },
+   {
+    "no": 14,
+    "karar": "doğru",
+    "sorun": "Olgular doğru. 2 Mayıs 1920, 3 sayılı Kanun ve Dr. Adnan ss. 54-55'te; yaralı subaylar için 100 yataklı hastane ile Nazilli'den Dinar ve Burdur'a taşınan iki hastane s. 57'de; malzemenin Kızılay aracılığıyla sağlanması ss. 57 ve 71'de geçiyor. Kaynakta '50 yataklı iki hastane' yazıyor; '50'şer' okuması Hayta ve Belenli 287 ile uyumlu. Sayfa aralığı doğru ama geniş: s. 53'te yalnızca bölüm başlığı var. Daha dar atıf önerildi.",
+    "kanit": "Karavar 54: \"İlk sıhhat idaresi 2 Mayıs 1920'de 3 sayılı Büyük Millet Meclisi İcra Vekillerinin Sureti İntihabına Dair Kanunun\"; 57: \"yaralı subayların yatırılacağı 100 yataklı hastane ... Nazilli hastaneleri Dinar'a ve Burdur'a taşınarak 50 yataklı iki hastane\"; 71: \"malzemeler Kızılay vasıtasıyla sağlanmıştır\"",
+    "onerilen_dipnot": "Karavar 54-55, 57, 71."
+   },
+   {
+    "no": 15,
+    "karar": "doğru",
+    "sorun": "Yok. Şehit ailelerine kararnamelerle maaş bağlanması ss. 293-94'te, 3 Temmuz 1921 kararnamesi s. 294'te, 29 Aralık 1922 kararnamesi s. 295'te geçiyor. 1922 kararnamesinde 'düşmanla işbirliği yapmamaları kaydıyla' şartı var; ödev bunu atlamış ama bu bir çarpıtma değil.",
+    "kanit": "Hayta ve Belenli 294: \"Kuvay-ı Milliye efradından malul olanların kendilerine ve şehit olanların ailelerine nizamiyedeki askerler gibi maaş tahsisi sağlanacaktır\"; 295: \"29 Aralık 1922 tarihli bir kararnamede ... kurtuluş tarihinden itibaren maaşlarının ... ödenmesine karar verilmiştir\""
+   },
+   {
+    "no": 16,
+    "karar": "doğru",
+    "sorun": "Yok. Bilgi s. 289'daki 43 numaralı dipnotta (Hâkimiyyet-i Milliyye, 15 Eylül 1921). MLA'da dipnot atfı istenirse '289n43' yazılabilir.",
+    "kanit": "Hayta ve Belenli 289 (dn. 43): \"Ankara Merkez Kumandanlığı mecruh zabitana bir muavenet olmak üzere bir terzi dükkanı küşad etmiştir. Burada yalnız iplik parası alınacak\"",
+    "onerilen_dipnot": "Hayta ve Belenli 289n43."
+   }
+  ],
+  "kunyeler": [
+   {
+    "kaynak": "Karal Akgün 2012",
+    "karar": "doğru",
+    "not": "Basılı künye: 'ODTÜ Gelişme Dergisi, 39 (Nisan), 2012, 111-136'. Yazar 'Seçil Karal Akgün', başlık birebir uyuşuyor. DOI yok."
+   },
+   {
+    "kaynak": "Macar 2017",
+    "karar": "doğru",
+    "not": "Basılı yazım 'OYA DAĞLAR MACAR', makale ss. 947-986. DOI 10.37879/belleten.2017.947 çözülüyor; belleten.gov.tr sayfası 'Cilt 81 - Sayı 292'. Başlık birebir uyuşuyor."
+   },
+   {
+    "kaynak": "Çapa, TDV İA 'Kızılay'",
+    "karar": "düzelt",
+    "duzeltilmis_girdi": "Çapa, Mesut. \"Kızılay.\" *TDV İslâm Ansiklopedisi*, c. 25, TDV İslâm Araştırmaları Merkezi, 2022, ss. 544-46, https://islamansiklopedisi.org.tr/kizilay.",
+    "not": "Madde PDF'inde (C25008359.pdf) basılı sayfalar 544-546; yazar imzası 'Mesut Çapa' s. 546'da. 1935 ad değişikliği basılı s. 545'te geçiyor, yani dipnottaki 'Çapa 545' doğru. Sitedeki künye satırı: 'Bu madde TDV İslâm Ansiklopedisi'nin 2022 yılında Ankara'da basılan 25. cildinde, 544-546 numaralı sayfalarda yer almıştır', baskı tarihi 2022. Taslaktaki 2002 büyük olasılıkla ilk baskı yılı, ama bu oturumda doğrulanmadı. Erişilen sürüm site ve PDF olduğu için 2022 önerildi; ilk baskı da gösterilmek istenirse '2022 [1. bs. 2002]' yazılabilir."
+   },
+   {
+    "kaynak": "Hayta ve Belenli 2016",
+    "karar": "doğru",
+    "not": "Kapakta 'Cilt: LXXX, Sa. 287, Nisan 2016'; makale ss. 279-305; yazarlar 'NECDET HAYTA - TUĞBA BELENLİ'. Başlık birebir uyuşuyor. DOI 10.37879/belleten.2016.279 çözülüyor ('Cilt 80 - Sayı 287')."
+   },
+   {
+    "kaynak": "TBMM Zabıt Ceridesi Devre 1 c. 9 (2 Nisan 1337, ss. 328-29)",
+    "karar": "düzelt",
+    "duzeltilmis_girdi": "Türkiye Büyük Millet Meclisi. *TBMM Zabıt Ceridesi*. Devre 1, c. 9, İçtima Senesi 2, 15. İçtima, 2 Nisan 1337 [1921], ss. 328-29.",
+    "not": "Künye bilgileri doğru: başlıkta 'DEVRE: I, CİLT: 9, İÇTİMA: 2', 'On beşinci içtima', '2.IV.1337 Cumartesi'. Teklif basılı ss. 328-329'da. Taslaktaki öteki TBMM girdisi '73. İnikat' biçimini kullandığı için tutarlılık açısından içtima bilgisi eklendi; girdinin kendisi yanlış değil."
+   },
+   {
+    "kaynak": "Karavar 2022",
+    "karar": "doğru",
+    "not": "Derginin kendi atıf satırı: 'Yakın Dönem Türkiye Araştırmaları-Recent Period Turkish Studies 42 (2022): 47-75'. Yani sayı 42 ve cilt yok, 'sy. 42' doğru. Yazar 'Hilâl Karavar', başlık birebir uyuşuyor, DOI 10.26650/YTA2022-1106785 makalede basılı. Son basılı sayfa 75."
+   }
+  ],
+  "ozet": "V1 grubundaki 12 satır yerel metinlerden ve Çapa maddesinin PDF'inden kontrol edildi. Sonuç: 10 satır doğru, 2 satır düzelt, yanlış satır yok.\n\n- Satır 6: Dipnot 'Karal Akgün 113' dar kalıyor. Kuruluş amacı s. 111'de, savaşlarda halka ve askere hizmet ss. 113-14'te. Öneri: 'Karal Akgün 111, 113-14.'\n- Satır 12: 100 lira yalnızca er ailelerine değil, astsubay ve er ailelerine öngörülmüş (Hayta ve Belenli 289). En kısa düzeltme önerildi.\n\nDoğru bulunan satırlar için isteğe bağlı iyileştirmeler:\n- Satır 14: Atıf daraltılabilir ('Karavar 54-55, 57, 71').\n- Satır 16: Dipnot atfı '289n43' yazılabilir.\n- Satır 11: Çapa ilk ad değişikliğini 1923 veriyor, ödev Karal Akgün'e dayanarak 2 Kasım 1922 diyor. Ödevin tarihi kaynakla uyumlu; dipnota açıklama eklenebilir.\n- Satır 10: 3.000 ruble 30.000'lik yardımın parçası; yazar bu yorumu temkinli veriyor.\n\nBasılı sayfa eşlemeleri:\n- Karal Akgün: PDF+110\n- Hayta ve Belenli: PDF+277\n- Karavar: PDF+46\n- Macar: PDF+946\n- TBMM tutanağı: PDF+298 (PDF 30 = s. 328)\n- Çapa: PDF 1-3 = ss. 544-546\n\nKünyeler:\n- Karal Akgün, Macar, Hayta ve Belenli ve Karavar doğru. İki Belleten DOI'si çözülüyor ve cilt/sayı bilgileri uyuşuyor. Karavar'da cilt yok, sy. 42 doğru.\n- Çapa: Site cildin 2022'de Ankara'da basıldığını söylüyor, taslak 2002 diyor. 2022 ile birlikte yayıncı olarak 'TDV İslâm Araştırmaları Merkezi' önerildi.\n- TBMM girdisi: Taslaktaki öteki TBMM girdisiyle tutarlılık için 'İçtima Senesi 2, 15. İçtima' eklenmesi önerildi.\n\nAçık kalanlar:\n- TBMM metnindeki OCR hatası yüzünden teklifin 2. maddesindeki 100 lira tutarı tutanaktan doğrulanamadı. Bu tutar Hayta ve Belenli'ye dayanıyor.\n- Çapa için 2002 ilk baskı yılı bu oturumda doğrulanmadı."
+ },
+ "dogrulayici-V2": {
+  "arac": "29/36",
+  "satirlar": [
+   {
+    "no": 1,
+    "karar": "düzelt",
+    "sorun": "Dipnota ait asıl olgular (30 Eylül 1889, Avusturyalı Ferdinand Grati, bir yıl sonra a'mâlar için izin) kaynakta var. Ancak bir önceki cümledeki 'savaşta yaralanan ve uzvunu kaybeden askerlerle ... pek çok vakıf ve kurum kurulmuştur' ifadesi Günay ve Görür'de yok. Kaynak (s. 57) yalnızca 'çeşitli eğitim kurumları açılmış' diyor ve askerlerden söz etmiyor. Grati'nin önerisi/raporu s. 57-58'de geçiyor; s. 55 yalnızca öz (abstract) sayfası.",
+    "kanit": "s. 58: \"Sağır ve Dilsiz Mektebi h. 4 Safer 1307/m. 30 Eylül 1889 senesi Pazartesi günü açılmıştır.\" s. 60: \"te'sis edilmesinden bir yıl sonra A'mâ Mektebi'nin açılması için izin almış\" s. 57: \"daha önce Hamidiye Ticâret Mektebi'ni te'sis eden Ferdi/Ferdinand Grati\"",
+    "onerilen_metin": "Ancak bu reform hareketleri içerisinde, özellikle II. Abdülhamid döneminde, engelli insanların eğitimini sağlamak amacıyla yeni eğitim kurumları açılmıştır. Örneğin ... (askerlerle ilgili kısım ya başka bir kaynağa dayandırılmalı ya da çıkarılmalı)",
+    "onerilen_dipnot": "Günay ve Görür 57-58, 60."
+   },
+   {
+    "no": 2,
+    "karar": "doğru",
+    "sorun": "Kuruluş amacı ve 1896'da hizmete girişi kaynakta geçiyor. Açılış: 2 Şubat 1896 (s. 513). İrade ve amaç: s. 512.",
+    "kanit": "s. 512: \"sokaklarda dilenmekte olan kimsesiz çocukları, sakat erkek ve kadınları hem dilenme zilletinden kurtarmak\"; s. 513: \"20 Kanunusani 1311 (2 Şubat 1896) günü Sadrazam Halil Rifat Paşa tarafından hizmete açıldı\""
+   },
+   {
+    "no": 3,
+    "karar": "düzelt",
+    "sorun": "Günay ve Görür s. 69 (Sonuç) okulun 'kurumsal bir mahiyet kazanamadığını' ve 'fasılalı olarak Osmanlı Devleti'nin sonuna kadar' sürdüğünü söylüyor. Bu, 'daha az faal' ifadesini destekliyor. Ancak 'bazıları günümüze kadar gelmeyi başarmıştır' bu sayfada yok. Kaynak s. 68'de yalnızca İstanbul okulunun 1926'da İzmir'deki okula ilhak edildiğini söylüyor. Cümle genel ve kaynağın kapsamını aşıyor.",
+    "kanit": "s. 69: \"Sağır, Dilsiz ve A'mâ Mektebi kurumsal bir mahiyet kazanamamıştır ... fasılalı olarak Osmanlı Devleti'nin sonuna kadar varlığını sürdürmüştür.\" s. 68: \"1926 senesinde ... kapatılmış ve İzmir'deki okula ilhak edilmiştir\"",
+    "onerilen_metin": "Bu kurumların bazıları istenen başarıyı sağlayamamış; örneğin Sağır, Dilsiz ve A'mâ Mektebi fasılalı olarak Osmanlı Devleti'nin sonuna kadar varlığını sürdürmüş, 1926'da İzmir'deki okula ilhak edilmiştir.",
+    "onerilen_dipnot": "Günay ve Görür 68-69."
+   },
+   {
+    "no": 4,
+    "karar": "düzelt",
+    "sorun": "Buğra s. 135, Darülaceze'nin tek parti döneminde gelirlerini tahsil etmekte zorlandığını söylüyor; bu doğru. Kızılay/Hilal-i Ahmer ad değişikliği ise s. 136'da. 'Osmanlı Devleti'nde başarılı işlere imza atmıştır' değerlendirmesi Buğra'da yok. Ayrıca kaynak Darülaceze'ye Cumhuriyet döneminin 'tek kuruluşu' diyor; 'faal bir şekilde çalışmaya devam' ifadesi bu anlamda uygun. Sayfa dar: 135-36 olmalı.",
+    "kanit": "s. 135: \"tek parti döneminde kurumun bu gelirleri tahsilde zorlandığına dair haberler gazetelere yansıyor\"; s. 136: \"1877'de Osmanlı Hilal-i Ahmer Cemiyeti'ne ... 1935'te Türkiye Kızılay Cemiyeti'ne\"",
+    "onerilen_metin": "'Osmanlı Devleti'nde başarılı işlere imza atmıştır' ifadesi ya kaynaklandırılmalı ya da 'Osmanlı döneminde kurulmuştur' şeklinde yumuşatılmalı.",
+    "onerilen_dipnot": "Buğra 135-36."
+   },
+   {
+    "no": 17,
+    "karar": "düzelt",
+    "sorun": "Tüm olgular Tekir'de geçiyor: 11 Mayıs 1921 kararnamesi, Muhacirin Müdüriyeti, 1.000 kadrolu Darülaceze (s. 1305) ve 1924 Tevhid-i Tedrisat ile Maarif'e devir (s. 1307). Ancak Tekir'deki 'Ekim 1922' tarihi hatalı. Mübadele, İmar ve İskân Vekâleti 13 Ekim 1923 tarihli kanunla kuruldu; mübadele de Lozan sözleşmesiyle 1923'tedir. Ödev, kaynağın hatasını aktarıyor. Küçük not: Tekir kurumun adını 'Sıhhiye ve Muavenet-i İçtimaiye Vekâleti' olarak yazıyor.",
+    "kanit": "s. 1305: \"Ekim 1922'de Mübadele İmar ve İskân Vekâleti kurulunca muhacir, mülteci ve aşiretlere ait bütün hizmetler bu Vekâlet'e devredildi.\"; \"8 darüleytam, 250 yataklı İstanbul Çocuk Hastanesi ve 1.000 kadrolu Darülaceze\"; s. 1307: \"1924'te Tevhidi Tedrisat Kanunu gereğince darüleytamlar ... Maarif Vekâleti'ne devredildi\"",
+    "onerilen_metin": "... ancak muhacir işleri Ekim 1923'te kurulan Mübadele, İmar ve İskân Vekâletine devredilmiştir.",
+    "onerilen_dipnot": "Tekir 1305, 1307."
+   },
+   {
+    "no": 18,
+    "karar": "doğru",
+    "sorun": "Doktor ve dispanser eksikliği s. 1306'da (1924 bütçe görüşmeleri), zorunlu hizmet, kaza dispanserleri ve numune hastaneleri s. 1307'de, numune hastanelerinin donatımı s. 1308'de. Bir nüans var: Tekir eksikliği 'Birinci Dünya Savaşı'ndan itibaren' diye anlatıyor. '1923'te savaş bittikten sonra' ifadesi kabul edilebilir bir yorum. İsteğe bağlı olarak dipnot 1306-07'ye daraltılabilir.",
+    "kanit": "s. 1307: \"Kazalara, zorunlu hizmet kanunu çerçevesinde doktor gönderilirken, kaza dispanserleri ihdas edilerek ... numune hastaneleri ile\"; s. 1306: \"hastane ve dispanser yok, salgın hastalıklar ise kol geziyordu\""
+   },
+   {
+    "no": 19,
+    "karar": "doğru",
+    "sorun": "13 Mayıs 1926 Sıtma Mücadelesi Kanunu hem Tekir s. 1308'de hem Akagündüz s. 5'te birebir geçiyor.",
+    "kanit": "Tekir s. 1308: \"13 Mayıs 1926'da Sıtma Mücadelesi Kanunu çıkartıldı.\" Akagündüz s. 5: \"13 Mayıs 1926'da ise 'Sıtma Mücadelesi Kanunu' yürürlüğe konularak\""
+   },
+   {
+    "no": 20,
+    "karar": "doğru",
+    "sorun": "Eser, 64 sayfa, İzmir (Marifet Matbaası) ve 1926 bilgileri Akagündüz s. 8'de, vekâlet yayınları listesi içinde geçiyor. Necati Kemal (Kip) Bey'in İzmir müessesesinin müdürü olduğu Atayurt Fenge ve Subaşıoğlu s. 1203'te.",
+    "kanit": "Akagündüz s. 8: \"Necati Kemal Kip'in İzmir Marifet Matbaasında basılan 64 sayfalık 'Sağır, Dilsiz ve Körler Müessesesi' adlı eseri de 1926'da basılmıştır.\" Atayurt Fenge ve Subaşıoğlu s. 1203: \"Okulun müdürlüğüne ... Dr. Necati Kemal Bey (Kip) getirilmiştir.\""
+   },
+   {
+    "no": 26,
+    "karar": "doğru",
+    "sorun": "Amaç ve irade s. 512'de, 1896 açılışı s. 512 (tanım) ve s. 513'te (2 Şubat 1896).",
+    "kanit": "s. 512: \"Abdülhamid, 8 Şaban 1307 (30 Mart 1890) tarihli bir irade ile sokaklarda dilenmekte olan kimsesiz çocukları, sakat erkek ve kadınları\"; s. 513: \"(2 Şubat 1896) günü ... hizmete açıldı\""
+   },
+   {
+    "no": 27,
+    "karar": "doğru",
+    "sorun": "Bağlılık sırası, 15 Ekim 1924 tarihli 970 sayılı karar Çelik s. 429'da; 1925'te belediyeye devir Tekir s. 1315 ve Nuhoğlu s. 514'te. Hepsi doğrulandı.",
+    "kanit": "Çelik s. 429: \"15 Ekim 1924 tarihli ve 970 sayılı İcra Vekilleri Heyeti kararıyla Darülaceze Müessesesi'nin İstanbul Belediyesi'ne devredilmesine karar verilmiştir\"; Tekir s. 1315: \"1925 yılında Darülaceze, İstanbul Belediyesi'ne devredildi.\"; Nuhoğlu s. 514: \"192[5]'te tekrar belediyeye verildi\""
+   },
+   {
+    "no": 28,
+    "karar": "doğru",
+    "sorun": "Dilenci toplama ve 'aciz ve malul İstanbulluların' Darülaceze'ye alınması s. 134'te (Tan, 1936), 1932'de 150 dilencinin götürülmesi ve 'kreş müstesna 1.000 kişi' s. 135'te, cümlenin sonu ('gazetelere haber oluyor') s. 136'da. Küçük nüans: kaynak 1.000 rakamını 'yaklaşık' demeden ve gazete haberlerine dayanarak veriyor. Sayfa-baskı eşleşmesi için künye notuna bakınız.",
+    "kanit": "s. 134: \"Aciz ve malul İstanbullular Darülaceze'ye alınacaklar.\" s. 135: \"1930'larda ve 1940'larda ... kurumun kreş müstesna 1.000 kişiyi bünyesinde barındırdığı\""
+   }
+  ],
+  "kunyeler": [
+   {
+    "kaynak": "Günay ve Görür 2013",
+    "karar": "doğru",
+    "not": "Crossref kaydı doğruluyor: Tarih Araştırmaları Dergisi c. 32, sy. 53, 2013, ss. 55-76. Yazar adları PDF'te 'Ramazan GÜNAY', 'Halil İbrahim GÖRÜR'. Başlığın PDF'teki yazımı 'A'mâ'. İsteğe bağlı olarak DOI eklenebilir: 10.1501/Tarar_0000000534 (Crossref'te çözülüyor).",
+    "duzeltilmis_girdi": "Günay, Ramazan, ve Halil İbrahim Görür. \"Osmanlı Devleti'nde Sağır, Dilsiz ve A'mâ Mektebi.\" *Tarih Araştırmaları Dergisi*, c. 32, sy. 53, 2013, ss. 55-76, https://doi.org/10.1501/Tarar_0000000534."
+   },
+   {
+    "kaynak": "Nuhoğlu, TDV İA c. 8 (1993)",
+    "karar": "düzelt",
+    "not": "Sayfa aralığı 512-14 doğru: madde 512'nin 3. sütununda başlıyor, 514'te bitiyor. Yıl 1993 doğru; metinde 'günümüzde (1993)' geçiyor. İmza basılı olarak 'HİDAYET Y. NUHOĞLU'; tam adı Hidayet Yavuz Nuhoğlu. Madde başlığı basılı metinde 'DARÜLACEZE'; inceltme işareti yok, 'Dârülaceze' değil.",
+    "duzeltilmis_girdi": "Nuhoğlu, Hidayet Yavuz. \"Darülaceze.\" *TDV İslâm Ansiklopedisi*, c. 8, Türkiye Diyanet Vakfı, 1993, ss. 512-14."
+   },
+   {
+    "kaynak": "Buğra 2008",
+    "karar": "doğru",
+    "not": "Künye öğeleri doğru: Open Library/LoC MARC kaydı 'İletişim, Cağaloğlu, İstanbul, 1. baskı 2008, 275 s.' (Araştırma-İnceleme 223). Bölüm 'İkinci Bölüm: Devletçi dönemde yoksulluk: \"Zenginlerimiz nerede?\"' s. 97'de başlıyor (PDF+96). Atıf yapılan 134-36 sayfaları bu taramanın basılı sayfalarıyla tutuyor. DOĞRULANAMAYAN: taramada künye (kolofon) sayfası yok, bu yüzden hangi baskı ya da tıpkıbasımdan geldiği belirlenemedi. 2021 baskısı da 275 sayfa olarak listeleniyor, bu da sayfalamanın değişmediğini düşündürüyor ama kanıt değil. Internet Archive'daki 2008 nüshası erişime kapalı olduğundan sayfa kontrol edilemedi. Bazı yayınlar kitabı 2009 diye anıyor; LoC kaydı 2008. Öğrenci elindeki nüshanın künye sayfasından baskı yılını teyit etmeli.",
+    "duzeltilmis_girdi": "Buğra, Ayşe. *Kapitalizm, Yoksulluk ve Türkiye'de Sosyal Politika*. İletişim Yayınları, 2008."
+   },
+   {
+    "kaynak": "Tekir 2019",
+    "karar": "düzelt",
+    "not": "Makalenin künye satırı ve Crossref 'C.2, S.18, Yaz 2019/II, ss. 1301-1326' veriyor. Taslakta cilt (c. 2) eksik. Dergi adı Crossref'te 'Belgi Dergisi'. Başlık ve DOI birebir doğru.",
+    "duzeltilmis_girdi": "Tekir, Süleyman. \"Sıhhiye ve Muavenet-i İçtimaiye Vekâleti'nin Kuruluşu ve Erken Cumhuriyet Dönemindeki Faaliyetleri (1920-1930).\" *Belgi Dergisi*, c. 2, sy. 18, 2019, ss. 1301-26, https://doi.org/10.33431/belgi.547721."
+   },
+   {
+    "kaynak": "Akagündüz 2023",
+    "karar": "doğru",
+    "not": "PDF ile tutuyor: Atatürk Yolu Dergisi, 73 (2023), s. 1-24, DOI 10.46955/ankuayd.1353054. Yazar 'ÜMÜT AKAGÜNDÜZ'. Başlık birebir aynı. Not: yerel dosya adı 'akangunduz' ama doğru soyadı Akagündüz."
+   },
+   {
+    "kaynak": "Atayurt Fenge ve Subaşıoğlu 2019",
+    "karar": "doğru",
+    "not": "PDF ile tutuyor: 'DTCF Dergisi 59.2 (2019): 1188-1207', DOI 10.33171/dtcfjournal.2019.59.2.21. Yazarlar 'Zeynep Zeren ATAYURT FENGE', 'Fatoş SUBAŞIOĞLU'. Başlık 'Dünyada ve Türkiye'de İşitme Engellilik: Zaman Çizelgesi'. Sayfa eşlemesi PDF+1187."
+   },
+   {
+    "kaynak": "Çelik 2025",
+    "karar": "doğru",
+    "not": "PDF ile tutuyor: Dumlupınar Üniversitesi Sosyal Bilimler Dergisi, 85, 426-436; 2025, DOI 10.51290/dpusbe.1695028. Yazar 'Recep ÇELİK'. Basılı başlıkta iki nokta yok ('Beceri Eğitimine Bir Model Darülaceze Mektepleri ve İmalathaneler'); MLA alt başlık için iki nokta koyduğundan taslaktaki yazım kabul edilebilir. Sayfa eşlemesi PDF+425."
+   }
+  ],
+  "ozet": "araç: 29/36. V2 grubunda 11 satır var. Doğru: 7 (2, 18, 19, 20, 26, 27, 28). Düzelt: 4 (1, 3, 4, 17). Yanlış: 0. Bulunanlar: (1) Satır 17'de Tekir'in kendi hatası aktarılmış. Mübadele, İmar ve İskân Vekâleti Ekim 1922'de değil, 13 Ekim 1923'te kuruldu; bu bir web aramasıyla teyit edildi. (2) Satır 1 ve 3'te kaynağın söylemediği genellemeler var: savaşta uzvunu kaybeden askerler için vakıflar ve kurumların 'günümüze kadar gelmesi'. Satır 1'in sayfası 57-58, 60; satır 3'ünki 68-69 olmalı. (3) Satır 4'te Kızılay bilgisi Buğra s. 136'da, dolayısıyla dipnot 135-36 olmalı. 'Başarılı işlere imza atmıştır' değerlendirmesi kaynakta yok. Künyeler: Tekir'e c. 2 eklenmeli (Crossref ve makale künyesi). Nuhoğlu maddesinin başlığı 'Darülaceze' olmalı; basılı imza Hidayet Y. Nuhoğlu, sayfalar 512-14, yıl 1993 doğru. Günay ve Görür künyesi Crossref ile doğrulandı; DOI eklenebilir. Akagündüz, Atayurt Fenge ve Subaşıoğlu ile Çelik künyeleri doğru. Buğra: kitap İletişim'in 1. baskısı, 2008, 275 sayfa (LoC/Open Library); 134-36 sayfaları eldeki taramanın basılı numaralarıyla tutuyor. Ancak taramada künye sayfası olmadığından hangi baskıya ait olduğu doğrulanamadı; IA'daki 2008 nüshası erişime kapalı. Kullanılan sayfa eşlemeleri: Günay ve Görür PDF+54, Nuhoğlu PDF+511, Buğra PDF+96, Atayurt PDF+1187, Çelik PDF+425. Açık kalanlar: Buğra sayfalarının 2008 baskısıyla birebir eşleştiği basılı nüshadan teyit edilmeli."
+ },
+ "dogrulayici-V3": {
+  "arac": "araç: 22/40",
+  "satirlar": [
+   {
+    "no": 21,
+    "karar": "doğru",
+    "sorun": "Yok. Görsel RG 8 Haziran 1929, Sayı 1210, Kanun No 1485'tir. İlk sayfada numara basılı değil ama ikinci sayfa 'Sayfa: 7476' olduğu için ilki 7475'tir.",
+    "kanit": "RG-1929-sayi1210-s1.png: '8 HAZİRAN 1929 CUMARTESİ ... SAYI: 1210 ... Kanun No: 1485 Kabul tarihi 30/5/1929' (s. 7475)"
+   },
+   {
+    "no": 22,
+    "karar": "doğru",
+    "sorun": "Yok. Bayilik sırası (md. 1), aylık üçte bir kesintisi ve Ziraat Bankası hesabı (md. 2) ile yarı yarıya dağıtım (md. 4) kanunla örtüşüyor. Üçüncü sırada malul mütekaitler var; metin bunu atlıyor ama bu bir hata değil.",
+    "kanit": "RG 1210, s. 7475-76: 'beyiyenin üçte biri ... her ay sonunda muntazaman Ziraat Bankalarına yatırılır'; md. 4: 'yarısı ... harp malûllerine, yarısı da şehit yetimlerine müsavat üzere dağıtılır'"
+   },
+   {
+    "no": 23,
+    "karar": "doğru",
+    "sorun": "Yok. Md. 6 şu tarihleri veriyor: 19 Teşrinisani 1337 (1921) tarihli 166 sayılı kanun, 21 Şubat 1340 (1924) tarihli 419 sayılı kanun ve 6 Eylül 1336 tarihli nizamname. Kurnaz Şahin de s. 593'te md. 5-6'yı aktarıyor.",
+    "kanit": "RG 1210, s. 7476, md. 6: '19 teşrinisani 1337 tarih ve 166 numaralı kanunla buna müzeyyel 21 şubat 1340 tarih ve 419 numaralı kanun ve 6 eylül 1336 tarihli malûlini askeriyeye muavenet heyeti nizamnamesi mülgadır'; Kurnaz Şahin 2020, s. 593 aynı maddeyi aktarıyor"
+   },
+   {
+    "no": 24,
+    "karar": "doğru",
+    "sorun": "Yok. Bu bilgi Maliye Vekili Mustafa Abdülhalik Bey'in 16.02.1340 (1924) tarihli TBMM yanıtında geçiyor. Metne 'Maliye Vekiline göre' eklenmesi isteğe bağlı.",
+    "kanit": "Kurnaz Şahin 2012 (tez), s. 480: 'Abdulhalik Bey doğrudan doğruya gazilerden sadece 128'inin bayilik yaptığını, 71 bayiliğin şehit çocuklarına ... verildiğini bildirmiştir.'"
+   },
+   {
+    "no": 25,
+    "karar": "düzelt",
+    "sorun": "Sayılar ve sayfalar doğru: kanunun görüşülmesi ve kabulü ZC s. 194-95'te ('Heyeti umumiyesi hakkında söz isteyen varmı? (Hayır sesleri)'). 125.207 lira S. Sayısı 213 s. 2'de, 70.000/50.000/1.047/12.934/507.000 s. 3'te. Ancak bu rakamlar hükümetin gerekçesinde (esbabı mucibe, s. 1-2) değil, Millî Müdafaa Encümeni mazbatasında (16 Nisan 1929) geçiyor. 'Geçen seneye kadar' ifadesi 1928'i gösteriyor; bu kısım kabul edilebilir.",
+    "kanit": "S. Sayısı 213, s. 3 (M. M. Encümeni mazbatası): 'Şehit yetimleri geçen seneye kadar 70 000 çocuk ve 50 000 kadın olduğu halde harp malûlleri ancak 1047 zabit ve 12 934 efrat idi'",
+    "onerilen_metin": "TBMM'de 30 Mayıs 1929'da tartışmasız kabul edilen kanunla ilgili Millî Müdafaa Encümeni mazbatası, yardımın kaç kişiyi ilgilendirdiğini de göstermektedir:",
+    "onerilen_dipnot": "TBMM Zabıt Ceridesi, D. 3, c. 12, 194-95 ve S. Sayısı 213, 2-3."
+   },
+   {
+    "no": 29,
+    "karar": "doğru",
+    "sorun": "Yok. Kuruluş tarihi, yeri, üyeler, amaç ve sinema faaliyetine başlama aynı sayfada.",
+    "kanit": "Kurnaz Şahin 2014, s. 6: 'Müdâfaa-i Milliye Cemiyeti 1 Şubat 1913 günü İstanbul Darülfünun'da ... partiler üstü bir cemiyet olarak resmen kurulmuştur'"
+   },
+   {
+    "no": 30,
+    "karar": "doğru",
+    "sorun": "Yok. Hilal-i Ahmer gösterimleri ve konulu film bilgisi s. 5'te, film ücretinin tahsil edilememesi s. 17'de (Emniyet-i Umum Müdüriyeti örneği).",
+    "kanit": "s. 5: 'Hilâl-i Ahmer Cemiyeti (Kızılay) adına sinema oynatılması sıklıkla karşılaşılan bir durum olmuştur'; s. 17: 'bazı kurumlara yaptığı filmlerden gelir temin edememiştir'"
+   },
+   {
+    "no": 31,
+    "karar": "doğru",
+    "sorun": "Yok. İki olgu da s. 9'da geçiyor ('ilhâk' / 'hibe'); s. 10 devri yineliyor. İstenirse dipnot '9' diye daraltılabilir.",
+    "kanit": "Kurnaz Şahin 2014, s. 9: '10 Mart 1919 tarihinde Müdâfaa-i Milliye Cemiyeti Harbiye Nezareti'ne ilhâk edilmiştir ... sinema ile ilgili bütün alet ve edevat ise Malûlîn-i Guzât Muâvenet Heyeti'ne hibe edilmiştir'"
+   },
+   {
+    "no": 32,
+    "karar": "doğru",
+    "sorun": "Yok. Gelir kaynağı bilgisi s. 20'de; Avrupa filmleri, halk ve aydınların farkındalığı ve sinema bilinci s. 29'da.",
+    "kanit": "s. 20: 'sinema kısa sürede popüler hale gelmiş, hayır cemiyetlerinin önemli gelir kaynağı olmuştur'; s. 29: 'yardım cemiyetlerinin sinema faaliyetleri, kamuoyunda bir sinema bilinci yaratılması açısından önemli olmuş'"
+   },
+   {
+    "no": 33,
+    "karar": "doğru",
+    "sorun": "Yok. 20 Mayıs 1917, yaklaşık yüz yirmi bin lira ve Müdafaa-i Milliye ile Donanma desteği s. 578'de; Eylül 1919 ve 6 Eylül 1920 nizamnamesi s. 579'da.",
+    "kanit": "Kurnaz Şahin 2020, s. 578: 'hükümet tarafından yaklaşık yüz yirmi bin liralık para yardımı yapılmıştır'; s. 579: 'ilk nizamnamesi ... 6 Eylül 1920 tarihinde onaylanarak yürürlüğe girmiştir'"
+   },
+   {
+    "no": 34,
+    "karar": "doğru",
+    "sorun": "Yok. İstihdam ve geri ödemeli sermaye s. 580'de, az miktarda maaş s. 591'de.",
+    "kanit": "s. 591: 'çalışamayacak durumda olan mallullere ise miktarı az olmakla birlikte maaş tahsis etmiştir'; s. 580: 'resmi dairelerde ve belediyelerde ... istihdam edilmişlerdir'"
+   },
+   {
+    "no": 35,
+    "karar": "düzelt",
+    "sorun": "Olgular s. 580-84'te geçiyor: reklam ve karikatür s. 581, iflas s. 582-83, 23 Kasım 1924 tescili s. 583, Ticaret Vekâleti denetimi s. 584. İki sorun var. (1) Sıralama: kaynakta iflas, şirkete dönüşümden önceki döneme ait. Kâzım Paşa 29 Aralık 1923'te söylemiş; metin ise iflası 1924 sonrasıymış gibi gösteriyor. (2) Kaynak yalnızca sebebin değil, iflasın doğru olup olmadığının da kanıtlanamadığını söylüyor.",
+    "kanit": "s. 583: 'mağazanın iflas ettiğini fakat bunun sebebinin ya da doğru olup olmadığının kanıtlanamadığını belirtmiştir' (Kâzım Paşa, TBMM 29.12.1923)",
+    "onerilen_metin": "Arşiv belgelerine göre mağaza zamanla iflas etmiş, ancak Müdafaa-i Milliye Vekili Kâzım Paşa 1923'te bunun sebebinin, hatta doğru olup olmadığının kanıtlanamadığını söylemiştir. Mağaza 23 Kasım 1924'te Malûl Gaziler Pazarı Türk Anonim Şirketi'ne dönüştürülmüş ve Ticaret Vekâletince tescil edilerek onun denetimine girmiştir.",
+    "onerilen_dipnot": "Kurnaz Şahin, “Malûl Gaziler” 580-84."
+   },
+   {
+    "no": 36,
+    "karar": "düzelt",
+    "sorun": "Usulsüzlük iddiaları s. 591-92'de, fabrika/imalathane ile hayır kurumu/kâr, alım gücü ve yerli malı s. 596'da; s. 593-94 bu iddialara katkı yapmıyor. Kaynak 'suiistimal iddiaları kanıtlanamamıştır' diyor; 'tespit edilmemiştir' biraz güçlü bir ifade. İddialar şirkete değil heyete yönelik.",
+    "kanit": "s. 592: 'Üçüncü Kolordunun incelemeleri uzun bir zaman almış, ancak suiistimal iddiaları kanıtlanamamıştır'; s. 596: 'Şirket fabrika açmayı amaçlamış ise de ... imalathane çizgisinde faaliyet gösterebilmiştir'",
+    "onerilen_metin": "Heyete yönelik usulsüzlük iddiaları 1920'den itibaren basında dile getirilmiş, ancak suiistimal iddiaları kanıtlanamamıştır.",
+    "onerilen_dipnot": "Kurnaz Şahin, “Malûl Gaziler” 591-92, 596."
+   },
+   {
+    "no": 37,
+    "karar": "doğru",
+    "sorun": "Yok. Millî Müdafaa Encümeni mazbatası 16 Nisan 1929 tarihli ve ilgili ifade S. Sayısı 213'ün 2. sayfasında.",
+    "kanit": "S. Sayısı 213, s. 2: 'elde edilen semereler hiç bir zaman ne malûllere ve ne de şehit yetimlerine bir faide temin etmemiştir'"
+   },
+   {
+    "no": 38,
+    "karar": "doğru",
+    "sorun": "Yok. 18 Haziran 1929 kararı s. 593'te başlayıp s. 594'te sürüyor; Sanayi ve Maadin Bankası ile 14 Ocak 1930 s. 594'te. Not: Kurnaz Şahin s. 593'te kanunun kabulü için yanlışlıkla '4 Haziran 1929' diyor. Ödevdeki 30 Mayıs tarihi doğru; RG ve ZC bunu teyit ediyor.",
+    "kanit": "s. 593-94: 'Muavenet Heyeti 18 Haziran 1929'da toplanarak heyetin her türlü yardım ve faaliyetlerine son verilmesi kararını almıştır'; s. 594: 'Yerli Mallar Pazarı 14 Ocak 1930'da görkemli bir törenle açılmıştır'"
+   }
+  ],
+  "kunyeler": [
+   {
+    "kaynak": "İnhisar Beyiyeleri Üçte Birlerinin Harp Malûllerine ve Şehit Yetimlerine Tahsis ve Tevziine Dair Kanun. Kanun no. 1485, kabul 30 Mayıs 1929. Resmî Gazete, sy. 1210, 8 Haziran 1929, ss. 7475-76.",
+    "karar": "doğru",
+    "not": "RG ilk sayfasında 'Kabul tarihi 30/5/1929' yazıyor. Kanun s. 7475-76'da; s. 7476 başlıkta numaralı, s. 7477 sonraki kanuna ait. Kabul tarihini ZC 73. İnikat (30-V-1929) de teyit ediyor."
+   },
+   {
+    "kaynak": "---. TBMM Zabıt Ceridesi. Devre 3, c. 12, 73. İnikat, 30 Mayıs 1929, ss. 194-95; ekli S. Sayısı 213, ss. 1-5.",
+    "karar": "düzelt",
+    "duzeltilmis_girdi": "---. *TBMM Zabıt Ceridesi*. Devre 3, c. 12, İçtima 2, 73. İnikat, 30 Mayıs 1929, ss. 194-95; ekli S. Sayısı 213, ss. 1-9.",
+    "not": "Müzakere s. 194-95 doğru. S. Sayısı 213 dokuz sayfa: s. 1-5 tezkere ve encümen mazbataları, s. 6-9 metinlerin karşılaştırma cetveli. Başlıkta 'DEVRE: 3 CİLT: 12 İÇTİMA: 2' yazıyor; İçtima eklemek isteğe bağlı."
+   },
+   {
+    "kaynak": "Kurnaz Şahin, Feyza. \"Cumhuriyetin Kuruluşuna Kadar Türkiye'de Yardım Cemiyetlerinin Sinema Faaliyetleri ve Kamuoyunda Sinema Algısı (1910-1923).\" Atatürk Araştırma Merkezi Dergisi, c. 30, sy. 88, 2014, ss. 1-36.",
+    "karar": "doğru",
+    "not": "Başlık, yazar ve 'Sayı: 88 / Mart - 2014' basılı sayfalarla örtüşüyor. Dergi sitesi (atamdergi.gov.tr/ozet/56/eng) Cilt XXX, Sayı 88, Mart 2014, ss. 1-36 veriyor. Basılı metin s. 35'te bitiyor, s. 36 boş; 1-36 dergi künyesine uygun."
+   },
+   {
+    "kaynak": "---. \"Erken Cumhuriyet Döneminde İz Bırakan Bir Yardım Şirketi: Malûl Gaziler Pazarı Türk Anonim Şirketi.\" Tarih İncelemeleri Dergisi, c. 35, sy. 2, 2020, ss. 577-602, https://doi.org/10.18513/egetid.849756.",
+    "karar": "doğru",
+    "not": "İlk sayfada şu bilgiler var: 'Tarih İncelemeleri Dergisi XXXV / 2, 2020, 577-602 DOI: 10.18513/egetid.849756'. Başlık birebir aynı."
+   },
+   {
+    "kaynak": "---. Osmanlı'dan Cumhuriyet'e Harp Malûllerinin Sosyo-Ekonomik ve Sağlık Durumları (1877-1939). 2012. Afyon Kocatepe Üniversitesi, doktora tezi.",
+    "karar": "doğru",
+    "not": "Kapak sayfası: 'Osmanlı'dan Cumhuriyet'e Harp Malûllerinin Sosyo-Ekonomik ve Sağlık Durumları (1877-1939)', Doktora Tezi, Afyon Kocatepe Üniversitesi Sosyal Bilimler Enstitüsü, Haziran 2012, danışman Prof. Dr. Sadık Sarısaman."
+   }
+  ],
+  "ozet": "V3 grubundaki 15 satırın tamamı yerel kaynaklarda kontrol edildi: RG 1210 ve görsel, ZC D.3 c.12 73. İnikat ve S. Sayısı 213, Kurnaz Şahin'in 2014 ve 2020 makaleleri ve 2012 tezi. Sonuç: 12 satır doğru, 3 satır düzeltilmeli, yanlış ya da doğrulanamayan satır yok.\n\nDüzeltilecek satırlar:\n- Satır 25: Rakamlar hükümetin gerekçesinde değil, Millî Müdafaa Encümeni mazbatasında geçiyor.\n- Satır 35: İflas şirkete dönüşümden (1924) önceki döneme ait. Kâzım Paşa iflasın sebebinin, hatta doğru olup olmadığının kanıtlanamadığını söylemiş; metin bunu yalnızca sebebe indirgiyor.\n- Satır 36: Dipnot sayfası 591-92, 596 olmalı. 'Suiistimal tespit edilmemiştir' yerine 'suiistimal iddiaları kanıtlanamamıştır' yazılmalı.\n\nKünyeler: Beş girdiden dördü doğru. TBMM girdisinde S. Sayısı 213'ün sayfa aralığı ss. 1-9 olmalı (1-5 değil); İçtima 2 eklenebilir. Kanun 1485'in kabul tarihi 30 Mayıs 1929 ve RG sayfaları 7475-76 doğru. Kurnaz Şahin 2020 s. 593 kabul tarihini yanlışlıkla 4 Haziran 1929 diye veriyor; 4 Haziran onay tarihidir. Ödevdeki 30 Mayıs doğru.\n\nWeb kontrolü tek bir noktayla sınırlı kaldı: 2014 makalesinin cilt, sayı ve sayfa bilgisi atamdergi.gov.tr/ozet/56/eng sayfasından doğrulandı (Cilt XXX, Sayı 88, Mart 2014, ss. 1-36)."
+ },
+ "dogrulayici-V4": {
+  "arac": "27/36",
+  "satirlar": [
+   {
+    "no": 39,
+    "karar": "doğru",
+    "sorun": "Hata yok. Okulun 1923'te açıldığını Dincel 1069, 1924'te kurulduğunu Atayurt Fenge 1203 söylüyor; ödevin \"1923 ya da 1924\" ifadesi bu ikisine uyuyor. Dincel 1069'daki \"yirmi üç yatak kapasiteli\" ifadesi okulun yatılı olduğunu gösteriyor. Vekâlete bağlanma şu sayfalarda geçiyor: Dincel 1069 n. 23 (1923, Sıhhiye Vekâleti), Dincel 1070 (1925, Muavenet-i İçtimaiye Vekâleti), Atayurt 1203 (1923, Sağlık Bakanlığı), Tekir 1308 (vekâletçe kurulan 100 kişilik müessese).",
+    "kanit": "\"Cumhuriyet Devri'nin ilk sağır ve dilsizler okulu 1923 yılında İzmir'de açılmıştır. Buca'da açılan okul, yirmi üç yatak kapasiteli bir binada\" (Dincel 1069); \"1924: İzmir Karşıyaka'da İzmir Sağır-Dilsiz ve Körler Müessesesi kurulmuştur.\" (Atayurt Fenge 1203); \"100 kişilik İzmir Sağır Dilsiz ve Körler Müesseseleri kuruldu\" (Tekir 1308)"
+   },
+   {
+    "no": 40,
+    "karar": "doğru",
+    "sorun": "Hata yok. 1926'da kapatılıp İzmir'deki okula bağlanma Günay ve Görür 68'de geçiyor (Dincel 1070 da aynı bilgiyi veriyor). Binanın 1928'de vekâletçe satın alınması Tekir 1318'de geçiyor. 1929'da 65 öğrenci bilgisi Dincel 1070'te var; Dincel bu bilgiyi Akşam gazetesinden aktarıyor.",
+    "kanit": "\"1926 senesinde İstanbul'da bulunan Sağır ve Dilsizler Mektebi, Maarif Vekâlet'inin emriyle kapatılmış ve İzmir'deki okula ilhak edilmiştir.\" (Günay ve Görür 68); \"İzmir'de bulunan Sağır Dilsiz ve Körler Müessesesi binası Vekâlet tarafından satın alındı.\" (Tekir 1318); \"1929 yılında Akşam gazetesindeki bir haberde; İzmir'deki okulda 65 öğrenci olduğu\" (Dincel 1070)"
+   },
+   {
+    "no": 41,
+    "karar": "doğru",
+    "sorun": "Hata yok. Metin, Belge B'nin HAFIZA.md'deki transkripsiyonuna uyuyor: tarih, 22.000 kilo, 1940 malî yılı ve gerekçe aynı. Karar sayısı ile yer numarası da doğru.",
+    "kanit": "\"1940 malî yılı ihtiyacı olan ve yapılan eksiltmesine isteklisi çıkmadığı gibi bir ay içinde pazarlıkla da ihale edilemediği anlaşılan 22,000 kilo ekmeğin\" (BCA 30.18.1.2/93.124.5, 13 II. Kânun 1941)"
+   },
+   {
+    "no": 42,
+    "karar": "doğru",
+    "sorun": "Hata yok. Miktarlar belgeyle aynı: 2000 ekmek, 1500 Urfa sadeyağı, 1200 Tosya pirinci, 1500 toz şeker. Mali yıl (1941) ve tarih (19 Şubat 1942) de doğru. Dipnottaki Maliye mütalaası tarihi notu (\"7/2/1941\") belgeye uyuyor.",
+    "kanit": "\"1941 malî yılına ait 2000 kilo ekmek, 1500 kilo Urfa sadeyağı, 1200 kilo Tosya pirinci ve 1500 kilo toz şeker ihtiyacının ... Maliye Vekilliğinin 7/2/1941 tarih\" (BCA 30.18.1.2/97.119.13)"
+   },
+   {
+    "no": 43,
+    "karar": "doğru",
+    "sorun": "Hata yok. 46. maddenin (R) fıkrası talip çıkmayan işlerde pazarlığa izin veriyor. Aynı madde, R hâlinde İcra Vekilleri Heyeti kararını \"behemehal\" şart koşuyor. İsteğe bağlı küçük bir öneri var: dipnotta \"md. 46/R\" yazılabilir. Fıkra, Kanunlar Dergisi c. 13, s. 717'de.",
+    "kanit": "\"R) Artırma ve eksiltmelere talip çıkmaması veya talipler tarafından kabul edilemeyecek tekliflerin ileri sürülmesi halinde yapılacak işler. E, J, K, N, O, R fıkralarında yazılı hallerde behemehal ... İcra Vekilleri Heyetinden karar alınması şarttır.\" (2490 s.K. md. 46, s. 717)"
+   },
+   {
+    "no": 44,
+    "karar": "doğru",
+    "sorun": "Hata yok. Metin Belge A'ya uyuyor: Ödemiş'te serbest çalışan akıl ve sinir hastalıkları uzmanı, Berlin, aylık 200 lira, dönüşte bu alanda görev. Tırnak içindeki ifade belgeyle birebir aynı.",
+    "kanit": "\"terbiye ve tedrisleri hakkında tetkikat ve tetebbuatta bulunmak ve avdetinde kendisine bu sahada bir iş verilmek üzere Ödemiş'te serbest tabib emrazı akliye ve asabiye mütehassısı Dr. Abdülkadir Cahit Tümer'in\" (BCA 30.18.1.2/85.98.16)"
+   },
+   {
+    "no": 45,
+    "karar": "doğru",
+    "sorun": "Hata yok. Atatürk 10 Kasım 1938'de öldü; 28 Kasım bundan 18 gün sonra. İmzanın İnönü'ye ait olduğu HAFIZA'daki Belge A notuna dayanıyor. Biyografi müdürlüğü, Ödemiş görevinden sonra sayıyor, yani metindeki \"daha sonra\" ifadesi kaynağa uyuyor. Sayfa da doğru: basılı s. 66 (PDF s. 55; PDF 53 basılı 64, PDF 56 basılı 67). Bir ayrıntı var: biyografinin başlığında ve resim altlarında soyadı \"Tuner\", metninde \"Tüner\" yazıyor. Dipnot \"Tüner (başlıkta Tuner)\" diye netleştirilebilir. Ayrıca biyografi Ödemiş'teki görevi \"Hükümet Tabipliği\" olarak veriyor, belge ise \"serbest tabib\" diyor. Bu fark bu satırın iddiasını etkilemiyor.",
+    "kanit": "\"sırasıyla Ödemiş Hükümet Tabipliği, İzmir Sağır-Dilsiz ve Körler Müessesesi Müdürlüğü, İzmir Çocuk Hastanesi Asabiye Mütehassıslığı yapmıştır.\" (Tunçbay, Kırbaş içinde s. 66)"
+   },
+   {
+    "no": 46,
+    "karar": "doğru",
+    "sorun": "Hata yok. Yedek bunu iki sayfada söylüyor: s. 1892 ve s. 1903 (sayfa eşlemesi: PDF 1 = basılı 1891). \"Örgün eğitimin parçası hâline gelmiştir\" ifadesi kaynaktaki \"başlangıcını oluşturmuştur\" ifadesinin makul bir özeti.",
+    "kanit": "\"5822 sayılı Sağır, Dilsiz ve Körler Müessesesinin Milli Eğitim Bakanlığına Devrine dair kanun ile Milli Eğitim Bakanlığı'na devredilmiştir. Bu Kanun, özel eğitimin ... örgün eğitim çalışmaları arasında yürütülmesinin başlangıcını\" (Yedek 1903)"
+   },
+   {
+    "no": 47,
+    "karar": "doğru",
+    "sorun": "Hata yok. 1930'da Süleyman Sırrı (Gök) tarafından kuruluş Dincel 1071'de geçiyor; İstanbul bağlamı da aynı sayfada. Atayurt 1204 de 1930 diyor. Himaye Cemiyeti'nin 1933'te İstanbul'da kuruluşu Atayurt 1204'te geçiyor. Kamuya yararlı sayılmaması Dincel 1079'da geçiyor; Dincel burada yıl vermiyor, yalnızca \"bugünlerde\" diyor.",
+    "kanit": "\"Süleyman Sırrı Bey (Gök) olmuş ve bu kişi 1930 yılında Sağır, Dilsiz ve Körler Tesanüt Cemiyeti'ni kurmuştur.\" (Dincel 1071); \"Hükûmet, kurulan bu derneğin kamuya yararlı cemiyetlerden sayılamayacağını saptamıştı.\" (Dincel 1079); \"1933: İstanbul'da Sağır, Dilsiz ve Körleri Himaye Cemiyeti kurulmuştur\" (Atayurt Fenge 1204)"
+   },
+   {
+    "no": 48,
+    "karar": "doğru",
+    "sorun": "Hata yok. Metin Belge D'ye uyuyor: İçişleri yazısı, Danıştay Genel Kurulu kararı ve 2/8/1947 tarihi.",
+    "kanit": "\"Türkiye Sağır, Dilsiz ve Körler Tesanüt Derneği'nin Genel Menfaatlere yarar derneklerden sayılması, İçişleri Bakanlığının 25/6/1947 ... Danıştay Genel Kurulunun 16/7/1947\" (BCA 30.18.1.2/114.56.2)"
+   },
+   {
+    "no": 49,
+    "karar": "doğru",
+    "sorun": "Hata yok. Metin Belge E'ye uyuyor: 6/3/1951 tarihi ve \"Türkiye Sağır, Dilsiz ve Körler Derneği\" adı.",
+    "kanit": "\"\\\"Türkiye Sağır, Dilsiz ve Körler Derneği\\\"nin genel menfaatlere yarar derneklerden sayılması ... Bakanlar Kurulunca 6/3/1951 tarihinde kararlaştırılmıştır.\" (BCA 30.18.1.2/125.18.5)"
+   },
+   {
+    "no": 50,
+    "karar": "doğru",
+    "sorun": "Hata yok. 37. madde, umumî menfaatlere hadim sayılmayı Devlet Şûrası (Danıştay) kararına ve İcra Vekilleri Heyeti tasdikine bağlıyor. Madde Kanunlar Dergisi c. 18, s. 1096'da. Belge D ve E de bu maddeye dayanıyor.",
+    "kanit": "\"Bir cemiyetin umumî menfaatlere hadim cemiyetlerden sayılması, Devlet şûrası kararile icra Vekilleri Heyetince tasdik olunmasına bağlıdır.\" (3512 s.K. md. 37, s. 1096)"
+   },
+   {
+    "no": 51,
+    "karar": "doğru",
+    "sorun": "Hata yok. Metin Belge F'ye uyuyor: \"kurulacak olan\", \"Millî\" unvanı, Roma'daki Dünya Sağırlar Federasyonu. Dipnottaki ikincil kaynak bilgisi de doğru: Atayurt 1204 kuruluşu 1960'a tarihlendiriyor, ancak federasyonun adını \"Türkiye Sağırlar Milli Federasyonu\" olarak veriyor.",
+    "kanit": "\"Merkezi İstanbul'da olmak üzere kurulacak olan \\\"Türkiye Sağır Dilsiz Dernekleri Millî Federasyonu\\\"nun\" (BCA 30.18.1.2/168.19.3); \"1960: Türkiye Sağırlar Milli Federasyonu kurulmuştur (Gül).\" (Atayurt Fenge 1204)"
+   },
+   {
+    "no": 52,
+    "karar": "doğru",
+    "sorun": "Hata yok. 16. madde \"Millî\" unvanını İcra Vekilleri Heyeti kararına bağlıyor (s. 1093). 10. madde, milletler arası beraberlik amaçlı cemiyetlere izin verilmesini düzenliyor (ss. 1092-93). Dünya Sağırlar Federasyonu'nun 23 Eylül 1951'de Roma'da kurulduğu Atayurt 1198'de geçiyor.",
+    "kanit": "\"Bir cemiyet (Cumhuriyet) ve (Millî) unvanlarını İcra Vekilleri Heyeti kararile kullanılabilir.\" (md. 16, s. 1093); \"Dünya Sağırlar Federasyonu, 23 Eylül 1951'de Roma'da kurulmuştur\" (Atayurt Fenge 1198)"
+   }
+  ],
+  "kunyeler": [
+   {
+    "kaynak": "Dincel 2022",
+    "karar": "doğru",
+    "not": "Künye PDF'in s. 1063'üyle uyumlu: Anıl DİNCEL, başlık birebir aynı, CTAD Yıl 18, Sayı 36 (Güz 2022), s. 1063-1100. DOI basılı değil. İstenirse \"Güz\" eklenebilir."
+   },
+   {
+    "kaynak": "2490 sayılı Artırma ve Eksiltme ve İhale Kanunu",
+    "karar": "doğru",
+    "not": "Metinle uyumlu: kabul 2-VI-1934, RG 10/VI/1934 sayı 2723, sayfa üst bilgileri 706-722. Cilt 13, TBMM kaynak yolundaki \"kanuntbmmc013/...01302490.pdf\" ifadesinden geliyor (önceki dalga defteri, ek/dalga1_L_opus.json); taranmış metnin kendisinde cilt numarası yazmıyor."
+   },
+   {
+    "kaynak": "3512 sayılı Cemiyetler Kanunu",
+    "karar": "doğru",
+    "not": "Metinle uyumlu: kabul 28-VI-1938, RG 14/VII/1938 sayı 3959 (OCR çıktısında \"39J59\" görünüyor), sayfalar 1091-1096. Cilt 18, kaynak yolundaki \"kanuntbmmc018/...01803512.pdf\" ifadesinden geliyor."
+   },
+   {
+    "kaynak": "Tunçbay (Ege Nörolojik Bilimler Dergisi 1984; Kırbaş içinde s. 66)",
+    "karar": "düzelt",
+    "duzeltilmis_girdi": "Tunçbay, Erdem. \"Merhum Dr. Abdülkadir Cahit Tuner'in Biyografisi.\" *Ege Nörolojik Bilimler Dergisi*, c. 1, sy. 1, Ocak 1984. Dursun Kırbaş, *Türkiye Nöroloji Tarihçesi*, Bölüm 1: \"Türkiye'de Nörolojinin Gelişmesi,\" s. 66 içinde yeniden basım, drkirbas.com/wp-content/uploads/2015/02/1_Turkiyede_norolojinin_gelismesi.pdf.",
+    "not": "Başlık birebir doğru: \"Merhum Dr.Abdülkadir Cahit Tuner'in Biyografisi\", yazar Dr. Erdem Tunçbay. Kaynak satırında \"Ege Nörolojik Bilimler Dergisi Cilt 1 Sayı 1 Ocak 1984\" yazıyor; bu yüzden \"Ocak\" eklenmeli. Dergideki özgün sayfa yok. Kitabın yayınevi ve yılı DOĞRULANAMADI: elimizdeki PDF yalnızca bir bölüm ve künye sayfası içermiyor. Hacettepe kataloğunda \"Türkiye nöroloji tarihçesi\" adlı kitap 2003 tarihli görünüyor ama yayınevi yok. İstanbul Üniversitesi kaydında ise başka adla bir kitap var: \"Türkiye'de Eğitim Hastanelerinde Nöroloji Tarihçesi\", Nobiva Yayınları, 2000; aynı eser olup olmadığı belli değil. Bölümde geçen en geç yıl 2003, bu da 2003 baskısıyla tutarlı. Öneri: yazarın sitesindeki PDF URL ile ve erişim tarihiyle verilsin, yayınevi uydurulmasın."
+   },
+   {
+    "kaynak": "Yedek 2021",
+    "karar": "doğru",
+    "not": "Şahin Yedek, başlık birebir aynı, Anemon 2021 9(6) 1891-1909. DOI 10.18506/anemon.897536, txt dosyasının 61. satırında."
+   }
+  ],
+  "ozet": "araç: 27/36. V4'teki 14 satırın 14'ü de \\\"doğru\\\". Bu satırlarda sayfa, tarih ya da olgu hatası bulunmadı. Satır 39-40 ve 46-47'deki her olgu belirtilen basılı sayfada geçiyor: Dincel 1069-71 ve 1079, Atayurt Fenge 1198/1203/1204, Tekir 1308 ve 1318, Günay-Görür 68, Yedek 1892 ve 1903. Kanun satırları (43, 50, 52) madde metinleriyle birebir uyuyor: 2490 md. 46/R \\\"behemehal\\\" İcra Vekilleri Heyeti kararı istiyor; 3512 md. 37, md. 16 (\\\"Millî\\\" unvanı) ve md. 10 (milletler arası). Arşiv satırları (41, 42, 44, 45, 48, 49, 51) HAFIZA.md'deki transkripsiyonlarla tutarlı. Satır 45 için Tunçbay biyografisinin basılı sayfası 66 olarak doğrulandı.\\n\\nİsteğe bağlı küçük iyileştirmeler:\\n- Satır 43: dipnot \\\"md. 46/R\\\" yazılabilir.\\n- Satır 45: biyografinin başlığı \\\"Tuner\\\", metni \\\"Tüner\\\" yazıyor; dipnot bunu belirtebilir. Ayrıca biyografi Ödemiş görevini \\\"Hükümet Tabipliği\\\" diye veriyor, 1938 kararı ise \\\"serbest tabib\\\" diyor; satırın iddiasını etkilemiyor.\\n\\nKünyeler:\\n- Dincel, 2490, 3512 ve Yedek doğru. Kanunlar Dergisi ciltleri (13 ve 18) TBMM dosya yollarından geliyor, metnin içinde basılı değil.\\n- Tunçbay girdisine \\\"Ocak 1984\\\" eklenmeli.\\n- Kırbaş kitabının yayınevi ve yılı doğrulanamadı. Hacettepe kataloğu 2003 diyor ama yayınevi vermiyor. Nobiva 2000 kaydı başka adlı bir eser için. Girdi yazarın sitesindeki PDF URL'siyle verilmeli.\\n\\nKaynaklar: [Hacettepe katalog](https://katalog.hacettepe.edu.tr/client/rss/hitlist/default/qu=K%C4%B1rba%C5%9F%2C+Dursun.&te=ILS), [İÜ açık erişim](https://acikerisim.istanbul.edu.tr/handle/20.500.12627/91290?show=full), [Kırbaş PDF](https://drkirbas.com/wp-content/uploads/2015/02/1_Turkiyede_norolojinin_gelismesi.pdf).\""
+ },
+ "elestirmen-tarih": {
+  "arac": "araç: Read+Bash / 5 (kontrol noktası 20; 3 dosya ve bölüm kelime sayımı yetti)",
+  "itirazlar": [
+   {
+    "oncelik": "yüksek",
+    "yer": "GİRİŞ, 2. paragraf ve tüm metnin kuruluşu (başlık: 'Gazilerle Engelliler İçin Yapılanlar')",
+    "sorun": "Metin iki ayrı ödev gibi okunuyor. 1919-1930 arası savaş malulleri ve gazilerle ilgili; 1938-1963 kısmı ise savaşla ilgisi olmayan sağır, dilsiz ve körleri anlatıyor. İkisini bağlayan kavramsal bir köprü yok. 'Malul' (savaş sakatı) ile doğuştan ya da sonradan engelli olan arasındaki ayrım da hiç yapılmıyor. Gaziler 1929'dan sonra metinden çıkıyor, engelliler ise 1963'e kadar izleniyor. Bu asimetri açıklanmamış. Hocanın ilk sorusu 'tezin ne?' olur.",
+    "duzeltme": "Giriş'in 2. paragrafının sonuna şu eklensin: 'Çalışmada iki grup birlikte ele alınmaktadır: savaşta sakat kalan harp malulleri ile doğuştan ya da sonradan sakat olan siviller. Dönemin kaynakları ilki için \"malûl\", ikincisi için \"sakat, âmâ, sağır-dilsiz\" terimlerini kullanır; \"engelli\" bugünün terimidir ve metinde üst kavram olarak kullanılmıştır. Gazilere yönelik yardım 1929'da devletin düzenli mekanizmasına bağlandığı için bu kısım 1929-1930'da kapanmaktadır. Sivil engellilere yönelik izlek ise eldeki arşiv belgeleri nedeniyle 1963'e kadar sürdürülmüştür.' Karşılığında Giriş'in ilk üç cümlesi tek cümleye indirilsin. Çıkacak kısım 'yükseliş döneminde... yıkımını geciktirecekti' bölümü, yaklaşık 120 kelime (bk. madde 9)."
+   },
+   {
+    "oncelik": "yüksek",
+    "yer": "HÜKÜMETİN YAPMIŞ OLDUĞU FAALİYETLER, son paragraf ('Bu da bize... Hükûmet, ekonomik sıkıntılar içerisindeki...'); GİRİŞ ('Türkiye Cumhuriyeti... daha istikrarlı ve kurallara bağlı dinamik bir yapıya kavuşturmuştur', 'Bu yapılanların hem sosyal hem de psikolojik olarak etkileri günümüze olumlu...'); SONUÇ 1. paragraf ('vatana hizmet etmeyi hiç bırakmamış', 'hak sahiplerinin mağduriyeti giderilmeye çalışılmıştır')",
+    "sorun": "Öğrencinin dipnotsuz övgü cümleleri korunmuş. Bunlar kanıta dayanmıyor, üstelik taslağın kendi verileriyle çelişiyor. Hemen önceki paragrafta 1928'e kadar malullere yalnızca 125.207 lira dağıtıldığı, 507.000 lirayı aşan payın birikip beklediği yazılı. Encümen de heyetin hiçbir fayda sağlamadığını söylüyor. Arkasından 'halkını unutmamış ve hizmet etmeyi eksik etmemiştir' demek çelişki. Tarih hocası bunu ilk okumada işaretler.",
+    "duzeltme": "Hükümet bölümünün son paragrafı şöyle değişsin: 'Bu rakamlar, şehit yetimleri ve harp malulleri için yasal bir yardım düzeni kurulduğunu, ancak toplanan paranın hak sahiplerine yavaş ve eksik ulaştığını göstermektedir. 1485 sayılı Kanun bu aksaklığa verilmiş bir cevap olarak okunabilir.' Giriş'teki 'daha istikrarlı...' ve 'hem sosyal hem de psikolojik...' cümleleri silinsin. Sonuç'un 1. paragrafı şöyle olsun: 'Osmanlı'dan devralınan Hilal-i Ahmer ve Darülaceze gibi kurumlar Cumhuriyet'te adları, bağlı oldukları makam ve gelir kaynakları değişerek varlığını sürdürmüş; Malûl Gaziler Pazarı gibi bazı girişimler ise tasfiye edilmiştir.' Bu değişiklikler metni kısaltır, ayrıca bir şey çıkarmaya gerek kalmaz."
+   },
+   {
+    "oncelik": "yüksek",
+    "yer": "İzmir Sağır, Dilsiz ve Körler Müessesesi, son cümle ('Bir okulun ekmek ve erzak alımının Bakanlar Kurulu gündemine gelmesi... devletçe güvence altına alındığını göstermesi bakımından önemlidir')",
+    "sorun": "Taslak bir cümle önce, kararın Kabine'ye gelmesinin nedenini zaten söylüyor: 2490/46-R, pazarlık usulünü İcra Vekilleri Heyeti kararına bağlıyor. Yani karar özel bir ilginin değil, usulün sonucu. Belgenin asıl söylediği, ihaleye kimsenin girmediği. Bu, savaş yıllarındaki iaşe darlığının ve piyasanın çekilmesinin işareti. 1941 kararındaki ekmek miktarının 22.000 kilodan 2.000 kiloya düşmesi de hiç yorumlanmamış. Ayrıca 1941'de kurumun adı 'Bakanlar Kurulu' değil, 'İcra Vekilleri Heyeti'.",
+    "duzeltme": "Şöyle değiştirilsin: 'Kararların Kabine'den geçmesi bir ayrıcalık değil, 2490 sayılı Kanun'un pazarlıkla alımı İcra Vekilleri Heyeti kararına bağlamasının sonucudur. Belgelerin asıl tanıklığı, İkinci Dünya Savaşı yıllarında bir devlet okulunun temel gıdası için bile ihaleye istekli bulunamamasıdır. 1941 malî yılında ekmek miktarının 2.000 kiloya inmesinin, ihtiyacın bir kısmının başka yoldan karşılanmasından mı kaynaklandığı belgeden anlaşılamamaktadır.' Uzunluk aynı kalır."
+   },
+   {
+    "oncelik": "yüksek",
+    "yer": "SONUÇ 2. paragraf son cümlesi ('...bakım ve yardım anlayışından eğitim ve örgütlenmeye doğru bir dönüşüm yaşandığını göstermektedir'); ÖZET ('devlet kurumundan sivil derneklere ve uluslararası işbirliğine doğru genişlediği görülmektedir')",
+    "sorun": "Altı belge anahtar kelimeyle bulunmuş, tesadüfi bir örneklem. Bunlardan 25 yıla yayılan bir 'dönüşüm' çıkarmak yorum sıçraması. Eğitim 1889'dan beri var (Grati mektebi, 1923/24 İzmir okulu). 1941-42 belgeleri ise hâlâ 'bakım', yani yiyecek alımıyla ilgili. Yani kanıt, 'bakımdan eğitime geçiş' tezine ters düşüyor.",
+    "duzeltme": "Sonuç'ta şöyle değiştirilsin: 'İncelenen altı karar sınırlı bir örneklem olmakla birlikte, devletin 1938-1942'de kurum, iaşe ve uzman yetiştirme yoluyla doğrudan sorumluluk aldığına; 1947-1963'te ise sağırların kurduğu derneklerin kamu yararı statüsü ve uluslararası bağlantı kazandığına işaret etmektedir. Bu eğilimin genel olup olmadığı daha geniş bir arşiv taramasıyla sınanmalıdır.' Özet'teki cümle de aynı ölçüde yumuşatılsın: '...genişlediğine işaret etmektedir'."
+   },
+   {
+    "oncelik": "yüksek",
+    "yer": "HÜKÜMETİN YAPMIŞ OLDUĞU FAALİYETLER, 3. paragraf ('...muhacir işleri Ekim 1922'de kurulan Mübadele, İmar ve İskân Vekâletine devredilmiştir')",
+    "sorun": "Bu bir anakronizm. Nüfus mübadelesi sözleşmesi 30 Ocak 1923'te imzalandı. Mübadele, İmar ve İskân Vekâleti ise 1923 sonbaharında (352 sayılı Kanun, Ekim 1923) kuruldu. Ekim 1922'de 'Mübadele' adlı bir vekâlet olamaz. Muhtemelen 1338/1339 Rumî yıl dönüşümünde hata yapılmış.",
+    "duzeltme": "'Ekim 1923'te kurulan Mübadele, İmar ve İskân Vekâletine' biçiminde düzeltilsin. Tekir 1305'te tarihin nasıl verildiği kontrol edilsin; kaynak 1338 diyorsa dipnota '[1923 olmalı]' notu düşülsün."
+   },
+   {
+    "oncelik": "yüksek",
+    "yer": "HÜKÜMETİN YAPMIŞ OLDUĞU FAALİYETLER, 1. ve 3. paragrafların ilk cümleleri ('Kurtuluş Savaşı'ndan sonraki dönemde devlet kendisini toparlama yoluna girmişti... Mustafa Kemal Atatürk inkılaplarla...'; 'Kurtuluş Savaşı'ndan sonra TBMM aynı titizlikle...')",
+    "sorun": "Kronoloji bozuk. Bölüm 'savaştan sonra' diye açılıyor, ardından 1919 Alaşehir'e ve 1921'e geri dönüyor. 3. paragraf yine 'savaştan sonra' diye açılıyor ama 11 Mayıs 1921 kararnamesiyle devam ediyor; 1921 savaşın içi. 'Atatürk' soyadı 1934'te alındığı için 1920'ler için anakronizm. 'Pek çok yardım kuruluşunun açılmasının önünü açmıştır' cümlesinin de kaynağı yok.",
+    "duzeltme": "1. paragraf şöyle açılsın: 'Millî Mücadele sürerken TBMM Hükûmeti, şehit aileleri ile yaralı ve malul askerlere yardımı öncelikli bir politika olarak görmüştür.' 'Ekonomik zorluklar... uygulamaktaydı' cümlesi silinsin (yaklaşık 25 kelime). 3. paragraf şöyle açılsın: 'Sıhhat ve Muavenet-i İçtimaiye Vekâleti'nin görev alanı savaş sırasında ve sonrasında genişletilmiştir.' 'Pek çok yardım kuruluşunun açılmasının önünü açmıştır' ibaresi silinsin. Metinde 1934 öncesi için 'Mustafa Kemal Paşa' kullanılsın."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "Bölüm sırası: Görsel 1 ve 1485 sayılı Kanun paragrafı (Hükümet bölümü) – DARÜLACEZE – MALÜL GAZİLER PAZARI",
+    "sorun": "1485 sayılı Kanun heyetin nizamnamesini kaldırıyor, hesaplarını tasfiye ediyor ve Encümen heyeti eleştiriyor. Ama bunlar okur heyetle henüz tanışmadan anlatılıyor. Heyetin tasfiyesi ise iki ayrı bölümde (Hükümet ve Malul Gaziler) ikiye bölünmüş. Darülaceze, Hükümet ile Cemiyetler arasında kopuk duruyor. 'Kurulan Cemiyetler' başlığı altında bir anonim şirket var.",
+    "duzeltme": "Şu sıra önerilir: Giriş → I. Osmanlı'dan Devralınan Kurumlar (Hilal-i Ahmer; Darülaceze) → II. Millî Mücadele'de TBMM Hükûmetinin Uygulamaları → III. Gazilere Yardım Cemiyetleri (Müdafaa-i Milliye; Malûlîn-i Guzât Muâvenet Heyeti ve Malûl Gaziler Pazarı; alt başlık '1929: 1485 Sayılı Kanun ve Tasfiye', Görsel 1 ile birlikte) → IV. Cumhuriyet Arşivi Belgelerinde Sağır, Dilsiz ve Körler → Sonuç. Sıra değişikliği sayfa eklemez. Taşınırken iki bölümde tekrar eden heyet tasfiyesi cümlesi (Kanun md. 5-6) tek yerde bırakılsın; böylece yaklaşık 40 kelime kazanılır."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "MALÜL GAZİLER PAZARI, 'Arşiv belgelerine göre mağaza iflas etmiş, ancak bunun sebebi kanıtlanamamıştır' ile 'Hem bir hayır kurumu hem de kâr getiren bir şirket olarak çalışmış' cümleleri",
+    "sorun": "Öğrenci 'iflas ettiği iddia edilmişti' demişti; taslak bunu kesin olguya çevirmiş. Hemen ardından şirketin kâr getirdiği söylenince çelişki doğuyor. İflasın tarihi verilmemiş, 1924'teki şirketleşmeden önce mi sonra mı olduğu belli değil. Cümleler 1924 → iflas → 1920 iddiaları → fabrika sırasıyla ilerliyor, kronoloji karışık. Heyetin adı da üç farklı biçimde yazılmış (Malûlîn-i Guzâta / Guzât / Askeriyeye).",
+    "duzeltme": "Kronolojik sıra izlensin: 1917 kuruluş → 1919-1920 yeniden teşkilat → pazarın açılışı → 1920'den itibaren basındaki usulsüzlük iddiaları → 23 Kasım 1924 şirketleşme → 1929 Encümen eleştirisi ve tasfiye → 1930 Yerli Mallar Pazarı. İflas cümlesi şöyle olsun: 'Kurnaz Şahin'in aktardığı arşiv belgelerinde mağazanın iflasından söz edilmekte, ancak nedeni belgelenmemektedir.' Encümen cümlesinden sonra şu eklensin: 'Heyetin kendi faaliyet raporları ile Meclis'in değerlendirmesi arasındaki bu karşıtlık, yardımın gönüllü kuruluşlardan devlete geçişini meşrulaştıran bir söylem olarak da okunabilir.' Heyetin adı ilk geçtiği yerde tam yazılsın, sonra 'Heyet' denilsin."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "GİRİŞ 1. paragraf, ilk üç cümle ('Osmanlı İmparatorluğu yükseliş döneminde... ulemanın yeniliklere karşı uzak durması... sadece Osmanlı Devleti'nin yıkımını geciktirecekti') ve '19 Mayıs 1919'da... Bandırma Vapuru ile...' cümlesi",
+    "sorun": "Bu kısım güncel tarih yazımında terk edilmiş 'yükseliş-gerileme' şemasını ve ereksel bir anlatımı dipnotsuz tekrarlıyor. Konuyla bağı da yok. Bandırma cümlesi ders kitabı anlatımı. 'II. Meşrutiyet... I. Dünya Savaşı'na katılımıyla devlet işgal altına girmiş' cümlesi Mondros'u atlıyor. Bir yüksek lisans hocası bunu doğrudan işaretler.",
+    "duzeltme": "Şöyle değiştirilsin: 'XIX. yüzyılın ikinci yarısında Osmanlı Devleti, sürekli savaşların ürettiği yaralı ve sakatlar ile kentlerdeki kimsesiz ve muhtaçlar için yeni kurumlar oluşturmaya başlamıştır.' Arkasından Grati ve Darülaceze cümleleri gelsin. Bandırma cümlesi şöyle olsun: 'Mondros Mütarekesi'nin (30 Ekim 1918) ardından başlayan işgallere karşı Anadolu'da örgütlenen Millî Mücadele, 1923'te Türkiye Cumhuriyeti'nin kuruluşuyla sonuçlanmıştır.' Yaklaşık 130 kelime kazanılır; bu, 1. maddedeki ekleme için kullanılsın."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "Uzman Yetiştirme: Dr. Abdülkadir Cahit Tümer bölümü ('Kararname, Atatürk'ün ölümünden on sekiz gün sonra Reisicumhur İsmet İnönü'nün imzasını taşımaktadır.')",
+    "sorun": "İmza bilgisi bir olgu olarak veriliyor ama ne anlama geldiği söylenmiyor. Kişi adları imzadan ve kabine bilgisinden çıkarıldı, katalogla karşılaştırılmadı (HAFIZA §4); bu belirtilmeli. Daha anlamlı olan bilgi atlanmış: teklif 8 Ekim 1938'de, Atatürk hayattayken yapılmış. Kasım 1938 Berlin'ine 'ruhen ve bedenen geri kalmış çocuklar' konusunda inceleme için uzman göndermenin Nasyonal Sosyalist öjeni politikası bağlamı (1933 kısırlaştırma yasası) hiç anılmıyor; tarih hocası bunu sorar. 'Kliring yolu ile' ödeme ayrıntısı da Türk-Alman kliring anlaşmalarını gösteren bir bilgi ama kullanılmamış.",
+    "duzeltme": "Şöyle değiştirilsin: 'Teklif Sıhhat ve İçtimaî Muavenet Vekâletince 8 Ekim 1938'de, Atatürk hayattayken yapılmış, karar ise onun ölümünden sonra 28 Kasım 1938'de onanmıştır. Bu, uygulamanın kişiye değil bürokratik sürekliliğe dayandığını gösterir. Aylığın kliring yoluyla ödenmesi Türk-Alman ticaret anlaşmalarının bir yansımasıdır. Tümer'in, engelli bireylere öjenik bir bakışın hâkim olduğu Nasyonal Sosyalist Almanya'da neyi incelediği ve döndükten sonra hangi yöntemleri uyguladığı ayrıca araştırılmalıdır.' Karşılığında Hükümet bölümündeki sıtma cümlesi ('Tüm bunları halka ulaştırmak ve bilgilendirmek önemliydi... hatırlatmaktaydı', yaklaşık 40 kelime) çıkarılsın."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "ÖZET ve ABSTRACT (anahtar kelimeler dahil)",
+    "sorun": "Özet güncellenmiş ama Abstract güncellenmemiş. Abstract hâlâ 'early years of the Republic' diyor, oysa kapsam 1963'e uzanıyor. 'Assess the extent to which these services reached their intended beneficiaries' ve 'rehabilitation' diye vaat edilen değerlendirmeler gövdede yok. 1929 rakamları ve sağırlarla ilgili izlek Abstract'ta görünmüyor. Anahtar kelimeler eşleşmiyor (Türkçede Darülaceze var, İngilizcede Deaf Education var). Özet 'Savaş sonrasında dernekler kuruldu' diyor, oysa Müdafaa-i Milliye 1913'te, heyet 1917'de kuruldu. Özet 1938-1942 kararlarını da 'Bakanlar Kurulu kararı' diye anıyor; o dönemde ad İcra Vekilleri Heyeti idi.",
+    "duzeltme": "Abstract Özet'in birebir çevirisi olsun ve 200-230 kelimeye indirilsin; yaklaşık 100 kelime kazanılır. Özet'te 'Savaş sonrasında' ifadesi 'Savaş yıllarında ve sonrasında' olsun; 'altı Bakanlar Kurulu kararı' ifadesi 'İcra Vekilleri Heyeti ve Bakanlar Kurulunun altı kararı' olsun. Anahtar kelimeler eşitlensin: Gazi, Harp Malulü, Engelli, Yardım Cemiyetleri, Sağır-Dilsiz Eğitimi, Darülaceze / Veteran, Disabled Veteran, Disability, Charitable Associations, Deaf Education, Darülaceze."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "DARÜLACEZE bölümü ('TBMM döneminde doğrudan hükûmete bağlı olarak çalışan kurum...') ve GİRİŞ'teki Darülaceze cümlesi",
+    "sorun": "Darülaceze İstanbul'da; İstanbul Ekim 1923'e kadar işgal altındaydı ve İstanbul Hükûmetine bağlıydı. 'TBMM döneminde doğrudan hükûmete bağlı' ifadesi okuru Ankara hükûmeti sanmaya yönlendiriyor. Giriş'teki cümle ile bölümün ilk cümlesi aynı bilgiyi aynı dipnotla tekrarlıyor (dipnot 2 ve 26).",
+    "duzeltme": "Şöyle değiştirilsin: 'Mütareke ve işgal yıllarında İstanbul Hükûmetine bağlı olarak çalışan kurum, İstanbul'un kurtuluşundan sonra Sıhhat ve Muavenet-i İçtimaiye Vekâletine bağlanmış...' Giriş'teki Darülaceze cümlesi kısaltılsın ('...Darülaceze 1896'da hizmete girmiştir.' yeter); bölümdeki tekrar eden ilk cümle ve dipnot 26 silinsin."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "Sivil Örgütlenme bölümü ('Sağır, dilsiz ve körlerin kendi örgütlenmeleri de bu dönemde başlamıştır'... 'Aynı statü 6 Mart 1951'de benzer adlı...') ve Uzman Yetiştirme bölümünün son cümlesi ('...engelli eğitimi örgün eğitimin parçası hâline gelmiştir')",
+    "sorun": "'Himaye' cemiyeti adı gereği duyanların sağırlar için kurduğu bir hayır kuruluşu; 'kendi örgütlenmeleri' sayılamaz. 1947'deki Tesanüt Derneği ile Gök'ün 1930'daki Tesanüt Cemiyeti'nin aynı kuruluş olup olmadığı, 1951 derneğinin bunlarla ilişkisi de açıklanmamış. 'Benzer adlı' demek okuru boşlukta bırakıyor. Tek okulun Millî Eğitim'e devredilmesinden 'engelli eğitimi örgün eğitimin parçası oldu' sonucu çıkarmak genelleme.",
+    "duzeltme": "Şöyle değiştirilsin: 'Sağırların kendi kurdukları derneklerin yanında (Süleyman Sırrı Gök, 1930), onları himaye amacıyla kurulan cemiyetler de vardı (1933).' 1951 cümlesine şu eklensin: '1947 kararındaki Tesanüt Derneği'nin 1930'da kurulan cemiyetin devamı, 1951'dekinin ise ayrı bir dernek olup olmadığı belgelerden anlaşılamamaktadır.' 5822 cümlesi şöyle olsun: '...devredilmiş ve sağır eğitimi Millî Eğitim Bakanlığının sorumluluğuna girmiştir.' Karşılığında Müdafaa-i Milliye'deki 'Sinema, ahlaka aykırı bulunan bazı Avrupa filmleri yüzünden zararlı görülse de...' cümlesi kısaltılsın (yaklaşık 30 kelime)."
+   },
+   {
+    "oncelik": "düşük",
+    "yer": "MÜDAFAA-İ MİLLİYE CEMİYETİ, 1. ve 3. cümleler ('partiler üstü bir cemiyet olarak kurulmuştur'; 'Cemiyet particilikten uzak kalarak millî bir ruhla...')",
+    "sorun": "Cemiyet, Bâb-ı Âli Baskını'ndan (23 Ocak 1913) bir hafta sonra kuruldu. Talat Paşa ile Cavit Bey İttihat ve Terakki'nin önde gelenleriydi. Cemiyetin kendi 'partiler üstü' tanımını eleştirisiz aktarmak, aynı cümlede İttihatçı isimleri sayarken çelişki yaratıyor. Bölümün gaziler konusuyla bağı ise yalnızca sinema makinelerinin heyete devredilmesi.",
+    "duzeltme": "Şöyle değiştirilsin: 'Bâb-ı Âli Baskını'nın hemen ardından kurulan cemiyet kendini partiler üstü olarak tanıtsa da yönetiminde İttihat ve Terakki'nin önde gelen isimleri yer almaktaydı.' Bölümün sonuna bağlantı cümlesi eklensin: 'Cemiyetin sinema donanımının 1919'da Malûlîn-i Guzât Muâvenet Heyeti'ne geçmesi, iki kuruluş arasındaki sürekliliği göstermektedir.' Uzunluk değişmez."
+   },
+   {
+    "oncelik": "düşük",
+    "yer": "Genel dil ve terim birliği: GİRİŞ son cümlesi ('...ortaya koymaya çalıştım'); HİLAL-İ AHMER 2. paragraf ('...en önemli işlerinden birisi de o dönem kadınlar ev işleriyle sınırlandırılmıştı ve...') ve madde işaretli liste; başlık 'HÜKÜMETİN' / metin 'Hükûmet'; 'Malûl/Malül'; 'git gide', 'bir takım', 'arttırmak'",
+    "sorun": "Metin bir yerde edilgen ('yararlanılmıştır'), bir yerde birinci tekil ('çalıştım') konuşuyor. Kadınlar Merkezi cümlesi yarıda kalmış, sonu bağlanmamış. Merkezin kuruluş tarihi verilmemiş. Beş maddelik liste bir sayfanın yaklaşık dörtte birini kaplıyor ve konuyla (gazi ve engelli) bağı zayıf. Yazımda da tutarsızlıklar var.",
+    "duzeltme": "Giriş sonu şöyle olsun: 'Bu çalışmada söz konusu kurumların yapısı ve faaliyetleri kaynaklara dayanarak ortaya konmaktadır.' Liste tek cümleye indirilsin: '[tarih]'te kurulan Kadınlar Merkezi; hastabakıcılık kursları, sağlık hizmetlerinde istihdam, sergi ve satışlar yoluyla kadınların toplumsal ve ekonomik hayata katılımına katkı sağlamıştır.' Yaklaşık 50 kelime ve birkaç satır boşluk kazanılır. Başlıkta 'Hükûmetin' yazılsın, 'Malûl' her yerde aynı yazılsın; 'gitgide', 'birtakım', 'artırmak' kullanılsın."
+   }
+  ],
+  "tavsiyeler": [
+   "Kendi arşiv dipnotlarını belgenin ilk geçtiği yere koy ve tam künye ver: tarih, karar sayısı, BCA yer numarası (örneğin 30.18.1.2/93.124.5). Doğrudan alıntı yaptığın yerde de tırnak içinde belgenin kendi Osmanlıca-Türkçesini kullan. Böylece 'hangi belge nerede kullanıldı' sorusu kendiliğinden cevaplanır.",
+   "Kendi transkripsiyonunu ve belge görüntülerini ek olarak koy (Ek 1-6, yarım sayfa). Belge F'deki yer numarasının son hanesini ('3' mü '13' mü) ve 1947 ile 1963 kopyalarındaki boş fon kutusunu BCA kataloğunda kontrol et. İmza sahiplerini de katalog kaydıyla doğrula.",
+   "Hocaya üç şey sor: 10-12 sayfaya kapak, özet ve kaynakça dahil mi? MLA için dipnot mu, metin içi atıf mı isteniyor? 'Engelli' yerine dönemin terimlerini (malûl, sakat, âmâ, sağır-dilsiz) kullanman uygun mu?",
+   "BCA'da 'malûl gazi', 'harp malûlü', 'şehit yetimi' anahtar kelimeleriyle 1930-1960 arasını tara. Gaziler kısmı 1929'da kesiliyor; birkaç kararla bu boşluğu kapatabilirsin.",
+   "Malûl Gaziler Pazarı için 1485 sayılı Kanun'un TBMM zabıtlarındaki S. Sayısı 213 gerekçesini kendin oku. Kurnaz Şahin'in doktora tezini de (AKÜ, 2012) kontrol et. 'İflas' iddiasının dayandığı belgeyi bulursan bu bölüm ikincil kaynaktan bağımsız hâle gelir.",
+   "Tümer'in Berlin dönüşü için Sıhhat ve İçtimaî Muavenet Vekâleti yayınlarına ve 1939-1945 arası BCA kayıtlarına bak. Dönünce görevlendirildiğine dair bir karar bulursan, 1938 belgesi tek başına kalmaz ve bir sonuca bağlanır.",
+   "Dernekler ve federasyon için İstanbul Valiliği dernekler kayıtlarına ve Türkiye İşitme Engelliler Millî Federasyonu'nun kendi tarihçesine bak. Dincel'in kullandığı Cumhuriyet ve Akşam gazetelerinden 1947, 1951 ve 1963 haberlerine de bakabilirsin. Böylece D ve E belgelerindeki iki derneğin hangi kuruluşlar olduğu netleşir.",
+   "Sonuç'a 'çalışmanın sınırları' diye tek bir cümle ekle: altı belge anahtar kelimeyle seçildi ve dönemi temsil etmeyebilir. Bu dürüstlük, hocanın gözünde metni zayıflatmaz, tersine güçlendirir."
+  ],
+  "genel": "Taslak, öğrencinin metnini dipnotlu ve birincil kaynaklara (1485 sayılı Kanun, zabıtlar, altı BCA kararı) dayanan bir çalışmaya taşımış. Asıl katkısı, bu belgelerin metne gerçekten işlenmiş olması. En zayıf yanları üç tane. Birincisi, savaş malulleri ile sivil engelliler arasında kavramsal bir köprü kurulmamış; iki konu yan yana duruyor. İkincisi, öğrencinin korunan övgü cümleleri taslağın kendi rakamlarıyla çelişiyor. Üçüncüsü, İzmir ekmek kararlarından ve altı belgeden çıkarılan 'dönüşüm' sonucu kanıtın taşıyabileceğinden büyük. Ek olarak, Mübadele Vekâleti tarihi (1922 yazılmış, 1923 olmalı) ile 1920'ler için 'Atatürk' soyadı birer anakronizm, Hükümet bölümünün kronolojisi ve bölüm sırası da düzeltilmeli. Önerilen kısaltmalar (Giriş'teki gerileme paragrafı, Kadınlar Merkezi listesi, Abstract, sıtma cümlesi) önerilen eklemelerden daha çok yer açıyor, yani metin sayfa sınırı içinde kalabilir. Gövde şu an yaklaşık 2.600 kelime; kaynakçanın sayfa hesabına girip girmediği hocaya sorulmalı."
+ },
+ "elestirmen-mla": {
+  "arac": "6/15",
+  "itirazlar": [
+   {
+    "oncelik": "yüksek",
+    "yer": "Dipnot 13, 25, 37; Kaynakça > Resmî Yayınlar, iki TBMM girdisi",
+    "sorun": "Kaynakça girdisi kurumsal yazar 'Türkiye Büyük Millet Meclisi.' ile başlıyor, dipnotlar ise eserin adıyla ('TBMM Zabıt Ceridesi'). MLA'da kısa atıf, girdinin ilk öğesiyle başlamalı. Okur bu dipnotu 'T' harfinde değil, ancak 'Türkiye Büyük...' girdisinde bulabilir. Ayrıca dipnotlarda eser adı italik değil (Kaynakça'da italik). Dipnotta 'D.', Kaynakça'da 'Devre' yazıyor. 'S. Sayısı' kısaltması da hiçbir yerde açılmamış.",
+    "duzeltme": "Yazar ile yayıncı aynı kurum olduğu için MLA kuralı gereği yazarı düşür. Kaynakça: *TBMM Zabıt Ceridesi*. Devre 1, c. 9, 2 Nisan 1337 [1921], ss. 328-29. / *TBMM Zabıt Ceridesi*. Devre 3, c. 12, 73. İnikat, 30 Mayıs 1929, ss. 194-95; ekli Sıra Sayısı 213, ss. 1-5. (İkinci girdide '---.' kullanma, başlığı yinele; sıralama İnhisar'dan sonra kalır.) Dipnotlar: 13 → *TBMM Zabıt Ceridesi*, D. 1, c. 9, 328-29. 25 → *TBMM Zabıt Ceridesi*, D. 3, c. 12, 194-95; S. Sayısı 213, 2-3. 37 → *TBMM Zabıt Ceridesi*, D. 3, c. 12, S. Sayısı 213, 2. 'D.' ve 'S. Sayısı' kısaltmalarını ilk geçtikleri yerde ya da hocaya notta açıkla."
+   },
+   {
+    "oncelik": "yüksek",
+    "yer": "Metin satır 104 (Tümer), dipnot 45, Kaynakça > Tunçbay",
+    "sorun": "Soyadı üç biçimde yazılmış: metinde 'Tümer', Kaynakça başlığında 'Tuner', dipnot 45'te ise 'Biyografide Tüner geçer'. Kaynağın kendisinde (Kırbaş, s. 66) başlık 'Tuner'in Biyografisi', gövde metni 'Tüner'. Dipnot bu yüzden Kaynakça ile çelişiyor gibi duruyor. Girdi de MLA'ya uymuyor: yeniden basımın künyesi (yayınevi, yıl) eksik, 'içinde yeniden basım' kalıbı MLA dışı, kaynakta yazan 'Ocak 1984' tarihi atlanmış.",
+    "duzeltme": "Dipnot 45: Tunçbay 66. Kararnamede 'Tümer', biyografinin başlığında 'Tuner', metninde 'Tüner' olarak geçmektedir. Kaynakça: Tunçbay, Erdem. \"Merhum Dr. Abdülkadir Cahit Tuner'in Biyografisi.\" *Ege Nörolojik Bilimler Dergisi*, c. 1, sy. 1, Ocak 1984. *Türkiye Nöroloji Tarihçesi*, yazan Dursun Kırbaş, [Yayınevi], [Yıl], s. 66. (Yayınevi ve yılı kitabın künye sayfasından doldur.)"
+   },
+   {
+    "oncelik": "orta",
+    "yer": "Kaynakça > Arşiv Belgeleri (sıralama)",
+    "sorun": "Girdiler kronolojik dizilmiş, alfabetik değil. MLA'ya ve Türk alfabesine göre 'Bakanlar Kurulu' (B), 'İcra Vekilleri Heyeti'nden (İ) önce gelir. Bakanlar Kurulu girdileri de başlığa göre sırasız: 'Türkiye Sağır Dilsiz Dernekleri...' < 'Türkiye Sağır, Dilsiz ve Körler Derneğinin...' < '...Tesanüt Derneğinin...'.",
+    "duzeltme": "Seçenek A (MLA): Bakanlar Kurulu. Türkiye Sağır Dilsiz Dernekleri Millî Federasyonuna... (1963) / ---. Türkiye Sağır, Dilsiz ve Körler Derneğinin... (1951) / ---. Türkiye Sağır, Dilsiz ve Körler Tesanüt Derneğinin... (1947) / İcra Vekilleri Heyeti. Dr. Abdülkadir... (1938) / ---. İzmir... 1940... / ---. İzmir... 1941.... Seçenek B: kronolojik sırayı koru ve bunu hocaya not olarak bildir (bk. tavsiyeler)."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "Kaynakça > Arşiv Belgeleri (altı girdi); dipnot 41, 42, 44, 48, 49, 51",
+    "sorun": "Kararname numarası Kaynakça'da 'sy.' ile verilmiş. 'sy.' metnin başka yerlerinde dergi ve Resmî Gazete sayısı anlamında kullanılıyor, burada yanıltıcı. Dipnotlarda ise 'Kararname 2/9925' ve 'Karar 3/6283' yazıyor, yani iki yer birbirini tutmuyor.",
+    "duzeltme": "İcra Vekilleri Heyeti. Dr. Abdülkadir Cahit Tümer'in Berlin'e Gönderilmesine Dair Kararname, no. 2/9925, 28 Kasım 1938. BCA, 30.18.1.2/85.98.16. (Kalan beş girdide de 'sy.' → 'no.'.) Dipnotlar değişmeden kalabilir: (Kararname 2/9925, 28 Kasım 1938)."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "Dipnot 23-24, 29-36, 38 (Kurnaz Şahin'in kısa başlıkları)",
+    "sorun": "MLA'da kısa başlık, girdinin alfabeye girdiği sözcükle başlar. Böylece okur kısaltmayı '---.' girdileri arasında hemen eşler. Taslakta 'Sinema Faaliyetleri', 'Malûl Gaziler' ve *Harp Malûllerinin* başlıkların ortasından ya da alt başlıktan alınmış (başlıklar 'Cumhuriyetin...', 'Erken...', 'Osmanlı'dan...' ile başlıyor). Önceki kural özeti 'Malûl Gaziler' biçimini önermişti; bu, MLA'nın kısaltma kuralından sapıyor.",
+    "duzeltme": "Kurnaz Şahin, \"Cumhuriyetin Kuruluşuna\" 6. / Kurnaz Şahin, \"Erken Cumhuriyet\" 578-79. / Kurnaz Şahin, *Osmanlı'dan Cumhuriyet'e* 480. Mevcut biçimi korumak istersen bunu hocaya not olarak bildir; tüm dipnotlarda tutarlı olduğu için okur yine de eşleyebiliyor."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "Görsel 1 alt yazısı (satır 76) ve dipnot 21",
+    "sorun": "Alt yazı tamamen büyük harf, kalın ve iki nokta üst üsteyle yazılmış. MLA'da biçim 'Görsel 1.' ve düz yazıdır. *Resmî Gazete* italik değil, sayfa numaraları yok. Kaynak bilgisi alt yazının içinde değil, ayrı bir dipnotta duruyor. Dipnot 21 yasayı gösteriyor ama sayfa vermiyor, görüntünün nereden alındığını da söylemiyor.",
+    "duzeltme": "Görsel 1. 1485 sayılı Kanun'un yayımlandığı *Resmî Gazete* sayfaları (sy. 1210, 8 Haziran 1929, ss. 7475-76). Kaynak: İnhisar Beyiyeleri Kanunu; görüntü: [alındığı yer, ör. Resmî Gazete arşivi]. (Bu durumda dipnot 21 kaldırılır ve sonraki dipnotlar yeniden numaralanır. Dipnotu korumak istersen 'İnhisar Beyiyeleri Kanunu, *Resmî Gazete*, sy. 1210, 7475-76.' yaz.)"
+   },
+   {
+    "oncelik": "orta",
+    "yer": "Metin satır 100 (2490 sayılı Kanun'un adı)",
+    "sorun": "Metinde 'Artırma, Eksiltme ve İhale Kanunu' yazıyor. Kaynakça ve dipnot 43 ise 'Artırma ve Eksiltme ve İhale Kanunu' diyor. Kanunlar Dergisi'ndeki (c. 13, s. 706) özgün başlık 'Artırma ve eksiltme ve ihale kanunu'.",
+    "duzeltme": "Her iki karar da 2490 sayılı Artırma ve Eksiltme ve İhale Kanunu'nun 46. maddesinin (R) fıkrasına dayanmaktadır."
+   },
+   {
+    "oncelik": "orta",
+    "yer": "Abstract, son iki cümleden önceki 'Drawing on...' cümlesi",
+    "sorun": "Sıralama bozuk: 'decrees held in the Republic Archives, the Official Gazette, the minutes...' biçiminde okununca Resmî Gazete ve zabıtlar da arşivde tutuluyormuş gibi anlaşılıyor. 'alongside' sıralamayı yarıda kesiyor. Özet'teki somut bulgular (1929'da yaklaşık 120.000 yetim ve dul ile 14.000 malul; 1938-1963 arasında devletten derneklere ve uluslararası iş birliğine geçiş) Abstract'ta yok. Buna karşılık Abstract'ta Özet'te olmayan iddialar var ('rehabilitation', 'assess the extent...').",
+    "duzeltme": "Drawing on six Council of Ministers decrees (1938-1963) held in the Republic Archives, the Official Gazette, and the minutes of the Grand National Assembly of Türkiye, as well as the relevant scholarly literature, this study ... Ayrıca şu cümleyi ekle: According to the 1929 law's preamble, aid concerned some 120,000 orphans and widows of fallen soldiers and about 14,000 disabled veterans; services for deaf, mute and blind people expanded between 1938 and 1963 from a state institution toward civil associations and international cooperation."
+   },
+   {
+    "oncelik": "düşük",
+    "yer": "Özet (satır 27) ve Anahtar Kelimeler / Keywords (satır 29, 38)",
+    "sorun": "Yazım: 'bir takım girişimlerle' (TDK: birtakım), 'uluslararası işbirliğine' (TDK: iş birliği). 'bu konuyla alakalı kapsamlı çalışmalar yapılmış makaleler' anlatımı bozuk. Anahtar kelimeler 6, keywords 5 tane ve birbirini tutmuyor: Darülaceze karşılığı yok, 'Sağır-Dilsiz' ise 'Deaf Education' olmuş.",
+    "duzeltme": "...birtakım girişimlerle gelir elde etmeye çalışmıştır. / ...uluslararası iş birliğine doğru... / ...Resmî Gazete ve TBMM zabıtları ile konuyla ilgili akademik çalışmalar kullanılmıştır. / Keywords: Veteran, Disabled Veteran, Disability, Associations, Deaf and Mute, Darülaceze. (Metin içinde de 'işbirliği' → 'iş birliği' yap: satır 108'de iki, 114'te bir yer.)"
+   },
+   {
+    "oncelik": "düşük",
+    "yer": "Kapak, satır 23 ve satır 31-32",
+    "sorun": "'Kasım, 2026' yazımında ay ile yıl arasına virgül konmaz. Satır 31-32'deki boş kalın paragraf ('**\\ **'), sayfa sonunun Word'de kalın biçimli boş bir satır olarak kaldığını gösteriyor.",
+    "duzeltme": "Kasım 2026 (Boş kalın paragrafı sil; Abstract'ı yeni sayfaya almak için 'Sayfa sonu' kullan.)"
+   },
+   {
+    "oncelik": "düşük",
+    "yer": "Metin satır 27, 44, 76: 'Resmî Gazete'",
+    "sorun": "Kaynakça'da *Resmî Gazete* ve *T.B.M.M. Kanunlar Dergisi* italik. Metin ve alt yazıda ise süreli yayın adı düz yazılmış. MLA'da süreli yayın adı metinde de italiktir.",
+    "duzeltme": "...1485 sayılı Kanun'un yayımlandığı 8 Haziran 1929 tarihli *Resmî Gazete*, kanunun görüşüldüğü TBMM zabıtları... (Özet satır 27 ve Görsel 1 alt yazısında da aynı düzeltme.)"
+   },
+   {
+    "oncelik": "düşük",
+    "yer": "Kaynakça > Resmî Yayınlar (üç kanun girdisi)",
+    "sorun": "Girdilerin öğeleri birbirini tutmuyor. 1485'te Resmî Gazete sayfaları var ama Kanunlar Dergisi yok. 2490 ve 3512'de ise Kanunlar Dergisi var ama RG sayfaları yok. Kısaltma bir yerde 'T.B.M.M.', zabıt girdilerinde 'TBMM' olarak yazılmış.",
+    "duzeltme": "Ya üç girdiye de iki kapsayıcıyı yaz ya da yalnız kullandığın baskıyı ver. Örnek: Cemiyetler Kanunu. Kanun no. 3512, kabul 28 Haziran 1938. *Resmî Gazete*, sy. 3959, 14 Temmuz 1938. *TBMM Kanunlar Dergisi*, c. 18, ss. 1091-96. Kısaltmayı her yerde 'TBMM' olarak birleştir; dergi kapağındaki biçimi korumak istiyorsan da her yerde aynısını kullan."
+   },
+   {
+    "oncelik": "düşük",
+    "yer": "Metin satır 78, 90, 94 (alıntı ve kurum adları)",
+    "sorun": "Satır 78'de alıntı 'Harp malülleri' yazıyor; Kanun ve RG metninde 'Harp malûlleri' geçiyor. Heyetin adı satır 90'da 'Malûlîn-i Guzât Muâvenet Heyeti', satır 94'te 'Malûlîn-i Guzâta Muâvenet Heyeti'; Kurnaz Şahin 'Guzâta' biçimini kullanıyor.",
+    "duzeltme": "...\"Harp malûlleri ve şehit yetimleri hesabı\"na yatırılacak... / Satır 90'daki üç yerde: Malûlîn-i Guzâta Muâvenet Heyeti."
+   },
+   {
+    "oncelik": "düşük",
+    "yer": "Metin geneli: kurum adlarından sonra gelen ekler",
+    "sorun": "Kesme işareti tutarsız. 'Hilal-i Ahmer Cemiyetinin', 'Vekâletine', 'İstanbul Belediyesine' kesmesiz yazılmış. 'Müdafaa-i Milliye Cemiyeti'nin', 'Müessesesi'nin', 'Şirketi'ne', 'Heyeti'ne' ise kesmeli. TDK kurala göre kurum adlarına gelen ekler kesmeyle ayrılmaz. Giriş'te 'git gide' (iki kez) ve 'arttırmayı' de TDK'ye aykırı.",
+    "duzeltme": "Müdafaa-i Milliye Cemiyetinin, İzmir Sağır, Dilsiz ve Körler Müessesesinin / Müessesesidir, Malûl Gaziler Pazarı Türk Anonim Şirketine, Malûlîn-i Guzâta Muâvenet Heyetine; 'gitgide', 'artırmayı'. (Tersini tercih edersen tüm kurum adlarında kesme kullan; önemli olan tutarlılık.)"
+   },
+   {
+    "oncelik": "düşük",
+    "yer": "Dipnot 42",
+    "sorun": "Metin ve Kaynakça'da tarih biçimi 'GG Ay YYYY'; burada sayısal biçim (7/2/1941) kullanılmış.",
+    "duzeltme": "BCA, 30.18.1.2/97.119.13 (Kararname 2/17366, 19 Şubat 1942). Belgede Maliye mütalaasının tarihi 7 Şubat 1941 (7/2/1941) olarak geçer."
+   }
+  ],
+  "tavsiyeler": [
+   "Dipnot kullanımı: MLA 9'un temel sistemi metin içi parantezli atıftır (Yazar sayfa). Bu ödevde her atıf, MLA'nın izin verdiği 'bibliyografik not' türünde kısa dipnotla veriliyor; dipnot numarası noktalamadan sonra geliyor. Tam künye yalnızca Kaynakça'da. ibid. ya da a.g.e. kullanılmıyor, ardışık atıflarda yazar ve sayfa yineleniyor.",
+   "Türkçeleştirilmiş MLA öğeleri: vol. → c., no. → sy., pp. → ss., p. → s., and → ve, see → bk. Kaynakça'da 's./ss.' kullanılıyor, dipnotlarda MLA usulü yalın sayfa numarası. Sayfa aralıkları MLA'daki gibi kısaltılıyor (1301-26). Rumi tarihlerin miladi karşılığı köşeli parantezde veriliyor: 1337 [1921].",
+   "Kaynakça üç alt başlığa ayrıldı (Arşiv Belgeleri, Resmî Yayınlar, Araştırmalar). MLA öğrenci ödevinde tek liste öngörür, ama arşiv malzemesi için ayrımı kabul eder. 'BCA:' satırı bir kısaltma açıklamasıdır, girdi sayılmaz. Arşiv belgelerine dipnotlarda yazar adıyla değil, BCA fon ve yer numarasıyla atıf yapılıyor: (Kararname no., tarih). Arşiv bölümü kronolojik bırakılırsa bu da ayrıca belirtilmeli.",
+   "Biçim uyarlamaları: Kaynakça tek satır aralıklı ve asılı girintili (MLA çift satır aralığı ister). MLA başlık sayfası öngörmez; üniversitenin kapak şablonu kullanıldı. Bölüm başlıkları büyük harfle yazıldı.",
+   "Kanun adları MLA'ya uygun biçimde düz yazılıyor, italik ya da tırnak yok; dipnotta kısa başlık ve madde numarası veriliyor (ör. Cemiyetler Kanunu md. 37). Yazar ile yayıncı aynı kurum olduğundan (TBMM) kanun ve zabıt girdileri doğrudan başlıkla başlıyor."
+  ],
+  "genel": "Atıf ile künye eşleşmesi büyük ölçüde sağlam: Kaynakça'daki 31 girdinin her birine en az bir dipnotta atıf var. Altı arşiv belgesinin fon ve yer numaraları, kararname numaraları ve tarihleri dipnotlarla birebir tutuyor. Sayfa aralıkları, DOI biçimi, '---.' kullanımı ve Araştırmalar bölümünün alfabetik sırası doğru. Asıl düzeltilmesi gerekenler şunlar: TBMM Zabıt Ceridesi atıfının Kaynakça'daki kurumsal yazarla eşleşmemesi, Tümer/Tuner/Tüner tutarsızlığı ile Tunçbay girdisinin eksik yeniden basım künyesi, arşiv bölümünün alfabetik olmaması ve 'sy.' kısaltmasının iki farklı anlamda kullanılması. Bunlardan sonra Görsel 1 alt yazısı, Abstract ile Özet arasındaki uyumsuzluk ve küçük TDK yazım tutarlılıkları ele alınmalı."
+ }
+}
