@@ -1,8 +1,8 @@
 # Ek: Ayrıntılı bölümler
 
-*Ana rapor: [RAPOR.md](RAPOR.md). Ana raporu kısa tutmak için şu bölümlerin ayrıntılı hâlleri buraya taşındı. Numaralar ana rapordaki bölümlerle aynıdır. Tüm sayılar `ek/` klasöründeki iddia defterlerine dayanır; doğrulama sonuçları `ek/dogrulama/` içindedir.*
+*Ana rapor: [RAPOR.md](RAPOR.md). Ana raporu kısa tutmak için şu bölümlerin ayrıntılı hâlleri buraya taşındı. Başlıklardaki EK numaraları ana rapordan yapılan bağlantılarla eşleşir. Kaynakların tam künyeleri ana raporun §11 bölümündedir. Tüm sayılar `ek/` klasöründeki iddia defterlerine dayanır; doğrulama sonuçları `ek/dogrulama/` içindedir.*
 
-### 4.2 Biyoloji: zemini hazırlar, kaderi yazmaz
+## EK §4.2 · Biyoloji: zemini hazırlar, kaderi yazmaz
 
 Doğal deneyler ve ikiz çalışmaları iki uç görüşü de çürüttü: "her şey yetiştirmeyle belirlenir" ve "her şey hormonla belirlenir".
 
@@ -12,11 +12,11 @@ Doğal deneyler ve ikiz çalışmaları iki uç görüşü de çürüttü: "her 
 - **Genetik.** İsveç'teki 3.826 ikiz çiftinde, aynı cinsten cinsel davranıştaki farkların erkeklerde %34–39'unu, kadınlarda %18–19'unu genler açıkladı. En büyük pay kişiye özgü, paylaşılmayan etkenlerdeydi (%61–66); bu pay ölçüm hatasını ve doğum öncesi gibi sosyal olmayan etkenleri de içerir. Kadınlarda aile ortamının da küçük bir payı vardı (%16–17) (Långström ve ark. 2010). 477.522 kişilik genom çalışması 5 gen bölgesi buldu. Tüm ortak varyantlar birlikte farkların %8–25'ini açıklıyor ama bireyin yönelimini öngöremiyor. Tek bir "eşcinsellik geni" yok (Ganna ve ark. 2019).
 - **Ağabey etkisi.** Ağabeyi olan erkeklerin eşcinsel olma olasılığı biraz daha yüksektir (birleşik olasılık oranı 1,47; Blanchard 2018). Etkiyi yalnızca biyolojik ağabeyler gösterir (Bogaert 2006). Ancak 2023'te yapılan bir yeniden analiz etkinin küçük ve yayın yanlılığıyla şişirilmiş olabileceğini savundu (Vilsmeier ve ark. 2023). Destek karışık.
 - **Beyin.** Eşcinsel ve heteroseksüel erkekler arasında bulunan hipotalamus farkı (LeVay 1991) yalnızca kısmen tekrarlandı (Byne ve ark. 2001). 803 kişilik bir çalışmada hormon almamış 386 trans birey, cisgender (doğumda atanan cinsiyetiyle uyumlu kimlikteki) kadın ve erkeklerle karşılaştırıldı. Trans bireyler erkek-kadın ekseninde bir uca kaymış değildi; kendilerine özgü bir beyin örüntüsü gösterdiler (Mueller ve ark. 2021).
-- **Çocukluk ve yönelim.** Çocuklukta cinsiyete uymayan davranış, sonraki eşcinsel yönelimle güçlü biçimde ilişkilidir: d erkekte 1,31, kadında 0,96 (Bailey & Zucker 1995). Yönelimin "öğretilebildiği" ya da sosyal yolla kazanıldığı fikri bilimsel bulgularla desteklenmiyor. Biyolojik ve sosyal olmayan çevresel etkenler birlikte rol oynuyor (Bailey ve ark. 2016).
+- **Çocukluk ve yönelim.** Çocuklukta cinsiyete uymayan davranış, sonraki eşcinsel yönelimle güçlü biçimde ilişkilidir: d erkekte 1,31, kadında 0,96 (Bailey & Zucker 1995). Bu meta-analiz tamamen geriye dönük hatırlamaya dayanır; ileriye dönük çalışmalar ilişkiyi yalnızca erkeklerde sınadı ve destekledi. Yönelimin "öğretilebildiği" ya da sosyal yolla kazanıldığı fikri bilimsel bulgularla desteklenmiyor. Biyolojik ve sosyal olmayan çevresel etkenler birlikte rol oynuyor (Bailey ve ark. 2016).
 
 **Sonuç.** Biyoloji bir yatkınlık sağlar. Kimliğin anlamını, adını ve nasıl yaşanacağını psikolojik ve toplumsal süreçler biçimlendirir. Cinsiyetle ilgili özelliklerin çoğunu doğum sonrası yaşantı da etkiler (Hines 2011).
 
-### 4.5 Psikanalitik bakış ve Erikson
+## EK §4.4 · Psikanalitik bakış ve Erikson
 
 - **Freud** (1905, *Cinsellik Kuramı Üzerine Üç Deneme*): Çocukluk cinselliği evrelerden geçer: oral (0–1 yaş), anal (1–3), fallik (3–6), gizil dönem (6'dan ergenliğe) ve genital. Oğlan çocuk Ödipus çatışmasını babasıyla özdeşim kurarak çözer. Freud'a göre cinsiyet kimliği ve vicdan böyle kazanılır.
 - **Karen Horney** (1926): Penis kıskançlığının kaynağı anatomi değil, kız çocuklarına nasıl davranıldığıdır. Horney erkeklerde "rahim kıskançlığı" fikrini önerdi.
@@ -28,7 +28,7 @@ Doğal deneyler ve ikiz çalışmaları iki uç görüşü de çürüttü: "her 
 
 **Bilimsel statü.** Psikoseksüel evrelerin ve Ödipal özdeşimin özgül iddiaları modern araştırmayla güçlü biçimde desteklenmez. İki gözlem bu kuramla çelişir. Birincisi, çocuklar cinsiyet etiketlerini 18–24 ayda, yani fallik evreden önce kullanır (Martin & Ruble 2010). İkincisi, lezbiyen annelerin yanında, yani babasız büyüyen çocukların psikoseksüel gelişimi, heteroseksüel tek annelerin çocuklarından farklı çıkmadı (Golombok ve ark. 1983). Stoller'in erken oluşum zamanlaması ise gelişim verisiyle uyumludur. Marcia'nın statüleri geniş bir araştırma tabanına sahiptir.
 
-### 4.6 Cinsel yönelim kimliği: fark etmek, adlandırmak, benimsemek
+## EK §4.5 · Cinsel yönelim kimliği: fark etmek, adlandırmak, benimsemek
 
 **Çekim, davranış ve kimlik aynı şey değildir.** Her zaman birlikte de ilerlemez.
 
@@ -54,7 +54,7 @@ Doğal deneyler ve ikiz çalışmaları iki uç görüşü de çürüttü: "her 
 
 **Eleştiri.** Aşama modelleri süreci doğrusal ve tek yönlü varsayar, toplumsal ve tarihsel bağlamı ihmal eder. Meta-analizin sonucu da kimlik gelişiminin bu modellerin öngördüğünden "daha çeşitli, dinamik ve karmaşık" olduğudur (Hall ve ark. 2021). Modeller betimleyici değerini korur, ama evrensel bir sıra olarak kanıtlanmamıştır.
 
-### 5.3 Psikoloji bunu nasıl ölçtü
+## EK §5.2a · Psikoloji bunu nasıl ölçtü
 
 - **Tek kutuplu dönem** (1936–1970'ler): Terman ve Miles (1936) maddeleri kalıp yargı olduğu için değil, kadınla erkeği en iyi ayırdığı için seçti. Sonuç tek bir eksendi: erkeksiliği artan kişinin kadınsılığı azalıyordu. Örneğin "hemşirelik", "bebekler" ve "sessiz sinema oyunu" gibi şeyleri sevdiğini söylemek kadınsılık puanını artırıyordu. Ölçek ahlaki bir cinsiyet buyruğu taşıyordu.
 - **Eleştiri:** Constantinople (1973) bu ölçeklerin tek bir boyut değil birden çok boyut ölçtüğünü gösterdi ve erkeklik-kadınlığı psikolojinin "en bulanık kavramlarından" saydı.
@@ -66,10 +66,10 @@ Doğal deneyler ve ikiz çalışmaları iki uç görüşü de çürüttü: "her 
 - **Zamanla değişim:** ABD'li kadın üniversite öğrencilerinin erillik puanı 1974–2012 arasında arttı (d = 0,23). 1993–2012 arasında dişillik puanları düştü (d = −0,26). Erkeklerde değişim yok (Donnelly & Twenge 2017). Etkinlik (agency) ve birliktelik (communion) özelliklerindeki cinsiyet farkları zamanla küçülüyor (Hsu ve ark. 2021).
 - **Türkiye:** BSRI'yi önce Kavuncu (1987) uyarladı, sonra Dökmen (1991, 1999) inceledi. 989 kişilik çalışmada üç faktör çıktı: genel, kadınsılık ve erkeksilik. Bu yapı orijinalden farklı (Dökmen 1999).
 
-### 5.4 Güncel kanıt: örtüşme, boyutlar, mozaik
+## EK §5.2b · Güncel kanıt: örtüşme, boyutlar, mozaik
 
 - **Çoğu fark küçük.** Hyde (2005) 46 meta-analizdeki 124 etkiyi inceledi. Bunların %30'u önemsiz, %48'i küçük çıktı, toplam %78. Zell ve arkadaşları (2015) bunu 106 meta-analizdeki 386 etkiyle doğruladı: etkilerin %85'i küçük ya da çok küçük, ortalama d = 0,21.
-- **Ama bazı farklar orta ya da büyük** (Hyde'nin ölçeğinde 0,36–0,65 orta, 0,66–1,00 büyük, 1'in üstü çok büyük):
+- **Ama bazı farklar orta ya da büyük** (Hyde'nin ölçeğinde 0,36–0,65 orta, 0,66–0,99 büyük, 1,00 ve üstü çok büyük):
   - çok büyük: fırlatma hızı (d = 2,18) gibi motor beceriler,
   - büyük: meslek ilgilerinde "nesneler-insanlar" boyutu (d = 0,93; Su ve ark. 2009),
   - orta: pornografi kullanımı (d = 0,63), mastürbasyon (d = 0,53) ve gündelik cinselliğe tutum (d = 0,45) (Petersen & Hyde 2010).
@@ -81,7 +81,7 @@ Doğal deneyler ve ikiz çalışmaları iki uç görüşü de çürüttü: "her 
 
 **Ara sonuç.** "Her birey bir karışımdır" iddiası betimleyici olarak büyük ölçüde doğru. Ama "kişinin içindeki erkeklik oranı" diye tek ve ölçülebilir bir büyüklük yok. Ortalama farklar gerçek ve bazı alanlarda büyük. Neyin "eril" sayılacağı da hangi özelliklerin seçildiğine bağlı.
 
-### 5.6 Sosyoloji, antropoloji ve evrim
+## EK §5.4 · Sosyoloji, antropoloji ve evrim
 
 **1) Toplumsal inşacılık ve feminist kuram**
 - **Simone de Beauvoir** (1949): "On ne naît pas femme : on le devient." Kadın doğulmaz, kadın olunur.
@@ -120,7 +120,7 @@ Bu örnekler cinsiyet kategorilerinin sayısının ve sınırlarının kültüre
 - Sakallı-Uğurlu (2002) Çelişik Duygulu Cinsiyetçilik Ölçeği'nin Türkiye'de geçerli ve güvenilir olduğunu gösterdi. Ölçek düşmanca ve korumacı cinsiyetçiliği ölçer.
 - Hofstede'de Türkiye'nin erillik puanı 45'tir; ölçeğin "dişil" yarısında, ortaya yakın.
 
-### 5.7 Felsefe, din ve erken cinsellik biliminde
+## EK §5.5 · Felsefe, din ve erken cinsellik biliminde
 
 "Her insanda eril ve dişil öge vardır" fikri iki çok farklı dille söylenmiştir. Bunları karıştırmamak gerekir.
 
@@ -139,3 +139,7 @@ Bu gelenekler **ampirik iddia değildir**. Test edilemezler, kozmolojik ve sembo
 - **Magnus Hirschfeld**, "ara basamaklar" öğretisi: Bütün insanlar "eril ve dişil özelliklerin çok çeşitli bileşimlerinden oluşan karışık biçimlerdir". Hirschfeld en az 43.046.721 cinsel tip hesapladı. Bu bir ölçüm değil, kombinatorik bir hesaptı. 1919'da Berlin'de Cinsellik Bilimi Enstitüsü'nü kurdu. Enstitü 6 Mayıs 1933'te Nazi öğrencilerince basıldı.
 
 **Değerlendirme.** Weininger'in oran ve çekim yasası bilimsel değil, ideolojik ve spekülatiftir; deneysel desteği yoktur. Hirschfeld'in "herkes çok boyutlu bir karışımdır" fikri ise bugünkü "cinsiyet tek bir eksen değildir" görüşünün öncüsü sayılabilir. Freud'un biseksüellik fikri ve Jung'un anima-animus kuramı bu ortamda doğdu.
+
+## EK §8 · MBTI ve Logos–Eros
+
+Myers-Briggs testinin "Düşünme–Duygu" boyutu sık sık Logos–Eros ile karıştırılır, ama aynı şey değildir. Eskiden bu boyutta kadın ve erkek farklı puanlanıyordu. Bu uygulamanın yönetici örneklemlerinde savunulamaz olduğu bulundu (Gratias 1997).

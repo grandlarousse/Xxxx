@@ -1,0 +1,220 @@
+{
+ "id": "K2",
+ "arac": "41/35. Birkaç PDF yalnızca metin çıkarılarak okunabildiği ve Pew'in Türkiye rakamı birincil kaynaktan teyit gerektirdiği için kontrol noktasını geçtim.",
+ "ozet": "\"Herkeste erkeklik ve kadınlık var mı?\" sorusunda eksik kalan beş bakış açısı için bulduklarım:\n\n1) Kültürler arası kalıp yargılar (stereotypes). Williams ve Best'in büyük çalışmasında yetişkin kalıp yargı verisi 25 ülkeden toplandı (kitabın tamamında, çocuk verisiyle birlikte, 30 ülke anılıyor). Ana bulgu, kadınlara ve erkeklere atfedilen özelliklerde \"yüksek düzeyde kültürler üstü (pancultural) benzerlik\" bulunması. Kültüre bağlı farklar da var. Erkeğe atfedilen sıfatlar her ülkede \"daha güçlü ve daha etkin\" çıktı, ama hangi cinsiyetin kalıbının daha olumlu sayıldığı ülkeden ülkeye değişti. Aykırı kanıt: Eagly ve arkadaşlarının ABD kamuoyu yoklamalarını kapsayan 1946–2018 analizine göre kalıp yargılar zamanla değişiyor. Kadınların \"toplumsal/ilişkisel\" (communal) üstünlüğü arttı, erkeklerin \"etkinlik/öne çıkma\" (agency) üstünlüğü değişmedi. Destek: güçlü (betimsel). Bu bulgu insanların nasıl algıladığını gösterir; insanların gerçekte nasıl olduğunu göstermez.\n\n2) Kırılgan erkeklik (precarious manhood). Vandello ve arkadaşlarının 2008 çalışmasına göre erkeklik, kadınlığın aksine, sürekli toplumsal kanıt isteyen kırılgan bir durum olarak görülür. \"Zor kazanılır, kolay kaybedilir\" (hard won and easily lost) ifadesi 2008 makalesinde değil, Vandello ve Bosson'un 2013 derlemesinin başlığında geçiyor. 62 ülkede 33.417 üniversite öğrencisiyle yapılan çalışmada bu inanç, cinsiyet eşitliği düşük ülkelerde daha güçlü çıktı. Bu ülkelerde kadınlar bu inanca erkeklerden daha çok katıldı. Destek: orta-güçlü. Örneklemler üniversite öğrencilerinden oluşuyor ve veriler korelasyonel.\n\n3) Türkiye'de toplumsal kabul. Pew'in 2019 anketinde (rapor 2020) \"eşcinsellik toplumca kabul edilmeli\" diyenler %25. Bu oran 2013'te %9'du (+16 puan). Kadir Has Üniversitesi'nin 2018 araştırmasında (1.205 kişi, kentli nüfus) \"Eşcinsel birliktelikler toplumumuza aykırıdır\" diyenler yaklaşık %61. Oran 2016'da %53'tü.\n\n4) Ana akım İslami normatif görüş. TDV İslâm Ansiklopedisi'ne göre Kur'an kadını insan olarak erkekle eşit kabul eder. Ansiklopedi aile içi \"kavvâmlık\"ı üstünlük olarak değil, işlevsel bir görev paylaşımı olarak sunar. Klasik fıkıhta (İslam hukuku) livâtanın (erkekler arası eşcinsel ilişki) haram olduğunda görüş birliği vardır; cezası mezhepler arasında tartışmalıdır. İç çeşitlilik: Kugle (2010), Lût kıssasının eşcinselliği değil şehveti kınadığı yönünde okunabileceğini savunur. Kecia Ali (2006) klasik fıkhı feminist açıdan eleştirir. Bu konu ampirik değil, normatif bir konudur.\n\n5) Felsefi tartışma. Cinsiyet-eleştirel (gender-critical) feminizmde, örneğin Kathleen Stock'ta, \"kadın\" sözcüğünün olağan anlamı \"yetişkin, dişi insan\"dır ve öz-tanımlama reddedilir. Karşı görüşe göre (SEP'te Finlayson, Jenkins ve Worsdale) erkek şiddetini yalnızca biyolojik etkenlerin açıkladığı açık değildir. Bu konu da ampirik olarak test edilmemiş, kavramsal bir tartışmadır.\n\nEk doğrulamalar: Hyde'ın (2005) sınıflaması doğru: ≤0,10 / 0,11–0,35 / 0,36–0,65 / 0,66–1,00 / >1,00. Son iki sınır yalnızca ikincil kaynakta temiz okunabildi. Bailey ve Zucker'ın (1995) meta-analizi tamamen geriye dönük (retrospektif) 41 çalışmadan oluşuyor. İleriye dönük (prospektif) çalışmalar ayrıca anlatı biçiminde incelenmiş ve yalnızca erkeklerde yapılmış.",
+ "defter": [
+  {
+   "iddia": "Williams & Best 1999 yeniden analizi: yetişkin kalıp yargı verisi 25 ülkeden, ülke başına yaklaşık 100 öğrenci (Williams, Satterwhite & Best 1999, Sex Roles 40(7/8))",
+   "kaynak_url": "https://giopact.upc.edu/ca/projects/docs/gener_estereotypes_1.pdf",
+   "alinti": "gender stereotype data from 25 countries... participants were approximately 100 university students, equally divided by gender",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Ana bulgu kültürler üstü yüksek benzerlik; bazı kültürel farklar da var",
+   "kaynak_url": "https://giopact.upc.edu/ca/projects/docs/gener_estereotypes_1.pdf",
+   "alinti": "the major finding was a high degree of pancultural similarity in the patterns of characteristics differentially associated with women and men",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Erkek sıfatları her ülkede daha güçlü ve etkin; olumluluk ülkeye göre değişiyor",
+   "kaynak_url": "https://giopact.upc.edu/ca/projects/docs/gener_estereotypes_1.pdf",
+   "alinti": "in all countries the adjectives associated with men were stronger and more active than the adjectives associated with women",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Kitap: Williams & Best, Measuring Sex Stereotypes: A Multination Study, Sage, gözden geçirilmiş baskı 1990 (ilk baskı 1982); satıcı tanımında 30 ülke",
+   "kaynak_url": "https://us.sagepub.com/en-us/sam/measuring-sex-stereotypes/book3165",
+   "alinti": "30 nations (arama özeti; sayfa açılamadı, 403)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Aykırı kanıt: ABD'de kalıp yargılar 1946-2018 arasında değişti (Eagly, Nater, Miller, Kaufmann & Sczesny 2020, American Psychologist 75(3):301-315; 16 yoklama, 30.093 yetişkin)",
+   "kaynak_url": "https://www.ovid.com/journals/ampsy/fulltext/10.1037/amp0000494~gender-stereotypes-have-changed-a-cross-temporal",
+   "alinti": "Women's relative advantage on communal traits grew; men's agency advantage showed no change (arama özeti)",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Vandello, Bosson, Cohen, Burnaford & Weaver 2008, JPSP 95(6):1325-1339, 5 çalışma: erkeklik kırılgan bir durumdur",
+   "kaynak_url": "https://digitalcommons.usf.edu/psy_facpub/1178",
+   "alinti": "manhood, in contrast to womanhood, is seen as a precarious state requiring continual social proof and validation",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Erkekliği tehdit etmek (kadınlığı değil) saldırgan düşünceleri harekete geçirir (Çalışma 5)",
+   "kaynak_url": "https://digitalcommons.usf.edu/psy_facpub/1178",
+   "alinti": "threatening manhood (but not womanhood) activates physically aggressive thoughts",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "'Hard won and easily lost' ifadesi Vandello & Bosson 2013 derlemesinin başlığı (Psychology of Men & Masculinity 14:101-113), 2008 makalesi değil",
+   "kaynak_url": "https://www.in-mind.org/node/802",
+   "alinti": "Hard won and easily lost: A review and synthesis of theory and research on precarious manhood (2013)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Kırılgan erkeklik inancı 62 ülkede ölçüldü: Bosson ve ark. 2021, J. Cross-Cultural Psychology 52(3):231-258, N=33.417",
+   "kaynak_url": "https://cris.unibo.it/bitstream/11585/828611/5/Psychometric%20Properties%20and%20Correlates%20of%20Precarious%20Manhood%20Beliefs%20in%2062%20Nations_postprint.pdf",
+   "alinti": "university samples in 62 countries across 13 world regions (N = 33,417)",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Cinsiyet eşitliği ve insani gelişme yüksek ülkelerde bu inanç daha zayıf",
+   "kaynak_url": "https://cris.unibo.it/bitstream/11585/828611/5/Psychometric%20Properties%20and%20Correlates%20of%20Precarious%20Manhood%20Beliefs%20in%2062%20Nations_postprint.pdf",
+   "alinti": "countries higher in GGGI and HDI are lower in PMB (-0.52 and -0.47 respectively)",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Eşitliği düşük ülkelerde kadınlar bu inanca erkeklerden daha çok katılıyor (önceden öngörülmemiş bulgu, replikasyon gerekli)",
+   "kaynak_url": "https://cris.unibo.it/bitstream/11585/828611/5/Psychometric%20Properties%20and%20Correlates%20of%20Precarious%20Manhood%20Beliefs%20in%2062%20Nations_postprint.pdf",
+   "alinti": "in countries lower in gender equality and human development, women tend to endorse precarious manhood beliefs more strongly than men",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Pew 2019 anketi (rapor 25 Haziran 2020): 34 ülke, 38.426 kişi",
+   "kaynak_url": "https://www.pewresearch.org/global/2020/06/25/global-divide-on-homosexuality-persists/",
+   "alinti": "conducted among 38,426 people in 34 countries",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Türkiye'de eşcinselliğin toplumca kabul edilmesi gerektiğini söyleyenler: 2002 %22, 2007 %14, 2011 %11, 2013 %9, 2019 %25 (+16)",
+   "kaynak_url": "https://www.pewresearch.org/global/wp-content/uploads/sites/2/2020/06/PG_2020.06.25_Global-Views-Homosexuality_FINAL.pdf",
+   "alinti": "Turkey 22 14 11 9 25 +16 (Pew PDF trend tablosu, arama özeti; PDF doğrudan açılamadı)",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Türkiye'de 2019'da dine 'çok önem' verenlerle daha az önem verenler arasında kabul farkı 26 puan",
+   "kaynak_url": "https://www.pewresearch.org/global/2020/06/25/global-divide-on-homosexuality-persists/",
+   "alinti": "Turkey (26)",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Kadir Has Ü. Toplumsal Cinsiyet ve Kadın Algısı Araştırması 2018: 1.205 kişi, 18 yaş üstü kentli nüfus",
+   "kaynak_url": "https://gender.khas.edu.tr/sites/gender.khas.edu.tr/files/inline-files/2018TCKAA-9mart2018-V2.pdf",
+   "alinti": "18 yaş ve üzeri Türkiye kent nüfusu temsil eden 1205 kişi ile gerçekleştirilmiştir",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "'Eşcinsel birliktelikler toplumumuza aykırıdır': 2016 %53, 2017 %51, 2018 %61; 'Gey, lezbiyen ve trans bireyler eşit haklara sahip olmalıdır': %33, %48, %44 (grafik sırası tahmini)",
+   "kaynak_url": "https://gender.khas.edu.tr/sites/gender.khas.edu.tr/files/inline-files/2018TCKAA-9mart2018-V2.pdf",
+   "alinti": "Eşcinsel birliktelikler toplumumuza aykırıdır 53% 51% 61%",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "TDV İslâm Ansiklopedisi 'Kadın' maddesi (Mehmet Âkif Aydın, c.24, 2001): insan olarak eşitlik",
+   "kaynak_url": "https://islamansiklopedisi.org.tr/kadin",
+   "alinti": "Kur'ân-ı Kerîm, insan olması bakımından kadını erkekle eşit bir varlık olarak kabul eder.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Aynı madde kavvâmlığı (Nisâ 4:34) üstünlük değil işlevsel sorumluluk paylaşımı olarak yorumluyor; mirasta yarım payı erkeğin nafaka yükümlülüğüyle dengeliyor (özetleme, birebir değil)",
+   "kaynak_url": "https://islamansiklopedisi.org.tr/kadin",
+   "alinti": "(özet) kavvâmlık = işlevsel görev paylaşımı; uygulamanın ilkelerle her zaman örtüşmediği belirtiliyor",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "TDV 'Livâta' maddesi (M. Kâmil Yaşaroğlu, c.27, 2003): fukaha haram olduğunda görüş birliğinde",
+   "kaynak_url": "https://islamansiklopedisi.org.tr/livata",
+   "alinti": "livâtanın dünyevî cezayı da gerektiren haram bir fiil olduğu konusunda görüş birliğine varmışlardır",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Ceza konusunda mezhepler ayrışıyor (çoğunluk zinaya kıyas; Ebû Hanîfe ta'zîr)",
+   "kaynak_url": "https://islamansiklopedisi.org.tr/livata",
+   "alinti": "Livâta yapan kimseye verilecek ceza konusunda ise İslâm hukuk ekolleri farklı görüşlere sahiptir.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Revizyonist okuma: Kugle, Homosexuality in Islam (Oneworld, 2010): Lût kıssası eşcinselliği değil şehveti kınıyor diye okunabilir",
+   "kaynak_url": "https://www.simonandschuster.com/books/Homosexuality-in-Islam/Scott-Siraj-Al-Haqq-Kugle/9781851687015",
+   "alinti": "could be interpreted as condemning lust rather homosexuality (yayıncı tanıtımı, arama özeti; sayfa 403)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Kecia Ali, Sexual Ethics and Islam (Oneworld, 2006): klasik fıkhın feminist eleştirisi, hem liberal hem muhafazakâr ortodoksiyi eleştiriyor",
+   "kaynak_url": "https://sahsol.lums.edu.pk/node/12881",
+   "alinti": "does not hesitate to critique liberal and conservative orthodoxies (Katz 2007 incelemesi, arama özeti)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Cinsiyet-eleştirel görüş: Stock'a göre 'kadın' = yetişkin dişi insan; öz-tanımlama reddediliyor (SEP 'Feminist Perspectives on Trans Issues', Bettcher; son revizyon 21 Kasım 2025)",
+   "kaynak_url": "https://plato.stanford.edu/entries/feminism-trans/",
+   "alinti": "the term 'woman' ... adult, female human",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Karşı görüş (SEP; Finlayson, Jenkins & Worsdale): cinsiyete ayrılmış alanların gerekçesine itiraz",
+   "kaynak_url": "https://plato.stanford.edu/entries/feminism-trans/",
+   "alinti": "it is far from clear that biological factors alone contribute to male violence against females",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "'Gender identity' terimini 1964'te Stoller ve Greenson buldu (SEP)",
+   "kaynak_url": "https://plato.stanford.edu/entries/feminism-trans/",
+   "alinti": "The expression gender identity was coined by Robert Stoller and Ralph Greenson in 1964",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Hyde 2005 (American Psychologist 60(6):581): 46 meta-analiz; etki büyüklüklerinin %30'u sıfıra yakın, %48'i küçük",
+   "kaynak_url": "https://doras.dcu.ie/32718/3/Encyclopedia%20of%20Sexual%20Psychology%20and%20Behavior_Gender%20Similarity%20Hypothesis.pdf",
+   "alinti": "48% of the effect sizes were within the small range, and 30% were within the close-to-zero range",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Hyde eşikleri: ≤0,10 sıfıra yakın; 0,11–0,35 küçük; 0,36–0,65 orta; 0,66–1,00 büyük; >1,00 çok büyük",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3251566",
+   "alinti": "\"large\" (d between .66 and .99) or \"very large\" (d≥1.00) (ikincil, arama özeti); ilk üç bant Hyde metninden özette",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Hyde'a itiraz: Del Giudice ve ark. (2012) çok değişkenli Mahalanobis D ile kişilikte çok büyük fark buldu; Hyde (2014) yönteme karşı çıktı",
+   "kaynak_url": "https://www.Gwern.net/doc/iq/2014-hyde.pdf",
+   "alinti": "concluded that the gender similarities hypothesis is incorrect and that there are very large gender differences",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Bailey & Zucker 1995 (Dev Psychol 31(1):43-55): meta-analiz yalnızca retrospektif çalışmalara dayanıyor (41 kaynak); prospektif çalışmalar yalnızca erkeklerde",
+   "kaynak_url": "https://faculty.wcas.northwestern.edu/JMichael-Bailey/Publications/Bailey%20%26%20Zucker%2C%201995.pdf",
+   "alinti": "Prospective studies suggest that childhood cross-sex-typed behavior is strongly predictive of adult homosexual orientation for men; analogous studies for women have not been performed.",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Bailey & Zucker etki büyüklükleri: ortalama d=1,19; erkek 1,31, kadın 0,96; prospektifte 41 erkek çocuğun 26'sı (%63) eşcinsel",
+   "kaynak_url": "https://faculty.wcas.northwestern.edu/JMichael-Bailey/Publications/Bailey%20%26%20Zucker%2C%201995.pdf",
+   "alinti": "The mean effect size for men, 1.31 (SD = 0.43), exceeded that for women, 0.96",
+   "guven": "yuksek",
+   "kritik": false
+  }
+ ],
+ "listede_olmayan": "Kırılgan erkeklik 62 ülkede ölçüldü (Bosson ve ark. 2021). İnanç, cinsiyet eşitliği düşük ülkelerde daha güçlü (r yaklaşık -0,5). Eagly ve ark. 2020'ye göre kalıp yargılar zamanla değişiyor. Kadir Has 2018 verisine göre Türkiye'de \"Eşcinsel birliktelikler toplumumuza aykırıdır\" diyenler yaklaşık %61. Pew'e göre Türkiye'de dindarlık farkı 26 puan. Del Giudice 2012, Hyde'ın benzerlik hipotezine çok değişkenli analizle itiraz ediyor.",
+ "celisen_kanit": "(a) Williams & Best'te ülke sayısı: yetişkin kalıp yargı verisi 25 ülkeden. \"30 ülke\" yalnızca kitabın genel kapsamı için doğru. (b) \"Zor kazanılır, kolay kaybedilir\" ifadesi 2008 makalesinin değil, 2013 derlemesinin başlığı. (c) Bailey & Zucker meta-analizi \"büyük ölçüde\" değil, tamamen retrospektif çalışmalardan oluşuyor. Prospektif çalışmalar ilişkiyi yalnızca erkeklerde destekliyor; kadınlarda prospektif çalışma yapılmamış. (d) Kugle \"Kur'an eşcinselliği kınamaz\" demiyor. Lût kıssasının şehveti kınadığı biçiminde okunabileceğini savunuyor. (e) TDV'de \"fıtrat gereği tamamlayıcılık\" ifadesini birebir bulamadım. Madde eşitlik ve işlevsel görev paylaşımı çerçevesi kuruyor.",
+ "acik_kalanlar": "Pew'in Türkiye için %25 rakamı Pew PDF'inin arama özetinden geliyor; PDF'i açamadım (503 hatası). Hyde'ın 0,66–1,00 ve >1,00 sınırları yalnızca ikincil kaynakta temiz okunabildi. Kadir Has grafiğinde yılların sırasını sayfa düzeninden çıkardım. Kugle ve Kecia Ali alıntıları yayıncı tanıtımı ve inceleme özetlerinden. Kırılgan erkekliğin kültürler arası replikasyonu için ayrı bir başarısız replikasyon çalışması aramadım."
+}

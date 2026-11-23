@@ -1,0 +1,220 @@
+{
+ "id": "K1",
+ "arac": "46/35. Kontrol noktasını geçtim: Cass, York derlemesi ve interseks maddelerinde birincil kaynaklara ulaşmak için 403/PDF engellerini aşmam gerekti, son çağrılar da yeni bilgi getirdi.",
+ "ozet": "K1 yanıtı. Maddelerin çoğu doğrulandı; birkaç künye düzeltildi.\n\n1) Azınlık stresi (minority stress). Meyer 2003, Psychological Bulletin 129(5):674–697 künyesi doğru. Meta-analizler LGB bireylerde ruhsal bozuklukların daha sık görüldüğünü gösteriyor. Meyer bu fazlalığı damgalanma ve ayrımcılıktan doğan stresle açıklayan bir çerçeve öneriyor. Destek düzeyi: çerçeve geniş kabul görüyor; sıklık farkı güçlü, nedensel açıklama ise orta düzeyde destekli.\n\n2) Dönüştürme girişimleri (SOCE/GICE). APA Görev Gücü raporu Ağustos 2009 tarihli. Rapora göre bu girişimlerin \"başarılı olması olası değil\" ve \"bir miktar zarar riski\" taşıyorlar. Rapor yeni çalışmalarda güvenlik konusunda kesin hüküm veremediğini de kabul ediyor. APA 26 Şubat 2021'de cinsiyet kimliğini değiştirme girişimlerine karşı ayrı bir karar aldı; zarar kanıtı katılımcıların kendi bildirimlerine dayanıyor. Destek düzeyi: etkisizlik güçlü, zarar orta düzeyde. Yeni gelişme: ABD Yüksek Mahkemesi 31 Mart 2026'da Chiles v. Salazar davasında 8–1 kararla Colorado yasağının danışanla konuşmaya dayalı terapiye uygulanmasını ifade özgürlüğü gerekçesiyle bozdu. Bu bilimsel değil hukuki bir karar.\n\n3) ICD-11. DSÖ'nün SSS sayfası, \"cinsiyet uyumsuzluğu\"nun (gender incongruence) \"Ruhsal ve davranışsal bozukluklar\" bölümünden yeni \"Cinsel sağlıkla ilgili durumlar\" bölümüne taşındığını doğruluyor. Kabul (2019) ve yürürlük (2022) tarihlerini bu sayfada göremedim. DSM-5-TR (2022) \"cinsiyet disforisi\" tanısını koruyor; tanı belirgin sıkıntı ya da işlev kaybını şart koşuyor ve 2022'de terimleri yumuşattı.\n\n4) Cass Raporu. Nihai rapor 10 Nisan 2024'te yayımlandı. Düzeltme: York derlemeleri BMJ'de değil, BMJ grubunun dergisi Archives of Disease in Childhood'da çıktı. Taylor ve ark. 2024 50 çalışma inceledi; yalnızca 1'i yüksek kaliteliydi. Disfori ve ruh sağlığı üzerindeki etki konusunda \"sonuç çıkarılamaz\" dediler. Başvuru profili başvurulan kaynak sayısıyla sınırlı doğrulandı: yılda 50'nin altından 2019'da yaklaşık 2.500'e çıktı ve ergenlikte başvuran, doğumda kız kaydedilen gençler çoğunluğa geçti. Bu bilgi yalnızca arama özetinden geliyor. Eleştiri tarafı: McNamara ve ark. 2024 (Yale Integrity Project) hakemli değil. Hakemli eleştiri Noone ve ark. 2025 (BMC Med Res Methodol 25:128): yedi derlemenin hepsinde yüksek yanlılık riski buldu. Karşı yanıt: Cheung ve ark. 2024 (Arch Dis Child) bu eleştirilerin incelemenin rolünü yanlış sunduğunu savunuyor. Destek düzeyi: kanıtın düşük kesinlikte olduğu konusunda geniş uzlaşı var; bundan ne politika çıkacağı tartışmalı.\n\n5) \"Vazgeçme\" (desistance) tartışması. Temple Newhook ve ark. 2018, IJT 19(2):212–224 doğrulandı. Steensma ve Cohen-Kettenis'in yanıtı aynı dergide s. 225–230. Zucker'in yanıtının başlığı \"The myth of persistence\". Yanıtların ana argümanını birincil metinden doğrulayamadım. Winters ve ark.'nın her ikisine yanıtı s. 246–250'de.\n\n6) İnterseks. Blackless, Fausto-Sterling ve ark. 2000, Am J Hum Biol: geniş tanımla yaklaşık %1,7. Bu oranın %88'inden fazlası tek bir duruma, geç başlangıçlı konjenital adrenal hiperplaziye (KAH) dayanıyor. Sax 2002, J Sex Res 39(3): dar tanımla yaklaşık %0,018. BM'nin bilgi notu %0,05–1,7 aralığını veriyor. Tıbben gereksiz cerrahiye karşı tarafta Human Rights Watch ve interACT'in 2017 raporu ile BM İnsan Hakları Konseyi'nin interseks haklarına dair ilk kararı (Nisan 2024) var. Hekim tarafında 2006 uzlaşı bildirisi (Lee ve ark., Pediatrics) duruyor; bildiri cerrahinin ertelenmesi konusunda uzlaşamamıştı. Yaşanan deneyim için dsd-LIFE çalışmasında (Avrupa'da 1.040 katılımcı) katılımcıların çoğu sonuçlardan \"nötr ya da memnun\" çıktı. BM ise zarar bildiren anketleri aktarıyor. Destek düzeyi karışık.",
+ "defter": [
+  {
+   "iddia": "Meyer 2003 künyesi ve azınlık stresi çerçevesi",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2072932/",
+   "alinti": "offers a conceptual framework for understanding this excess in prevalence of disorder in terms of minority stress",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Meta-analizler LGB bireylerde ruhsal bozuklukların daha sık olduğunu gösteriyor (Psychol Bull 129(5):674–697)",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2072932/",
+   "alinti": "LGBs have a higher prevalence of mental disorders than heterosexuals",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "APA Görev Gücü (2009): yönelim değiştirme girişimleri başarısız olma eğiliminde ve zarar riski taşıyor",
+   "kaynak_url": "https://www.apa.org/pi/lgbt/resources/sexual-orientation.html",
+   "alinti": "efforts to change sexual orientation are unlikely to be successful and involve some risk of harm",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "APA 2009 basın açıklaması: psikolojik müdahalelerle yönelim değiştirmeyi destekleyen kanıt yetersiz; 1960–2007 arasından 87 çalışma incelendi",
+   "kaynak_url": "https://www.apa.org/news/press/releases/2009/08/therapeutic",
+   "alinti": "there is insufficient evidence to support the use of psychological interventions to change sexual orientation",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Görev Gücü yeni çalışmalarda güvenlik konusunda kesin hüküm veremedi",
+   "kaynak_url": "https://www.apa.org/news/press/releases/2009/08/therapeutic",
+   "alinti": "no methodologically sound studies of recent SOCE that would enable the task force to make a definitive statement",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "APA 26 Şubat 2021'de cinsiyet kimliğini değiştirme girişimlerine karşı karar aldı; zarar kanıtı katılımcı bildirimine dayanıyor",
+   "kaynak_url": "https://www.apa.org/news/press/releases/2021/03/change-gender-identity",
+   "alinti": "have reported harm resulting from these experiences, such as emotional distress, loss of relationships, and low self-worth",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "APA'nın 2021 güncellenmiş yönelim kararı: yönelimin değiştiğine dair kanıt yok",
+   "kaynak_url": "https://www.apa.org/news/press/releases/2021/03/change-gender-identity",
+   "alinti": "no evidence of sexual orientation change",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "ABD Yüksek Mahkemesi 31 Mart 2026'da Chiles v. Salazar davasında 8–1 kararla Colorado'nun dönüştürme terapisi yasağının konuşma terapisine uygulanmasını ifade özgürlüğü gerekçesiyle bozdu (hukuki karar)",
+   "kaynak_url": "https://www.faegredrinker.com/zh/insights/publications/2026/3/supreme-court-decides-chiles-v-salazar",
+   "alinti": "8-1; March 31, 2026; strict scrutiny (arama özeti)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "ICD-11: cinsiyet uyumsuzluğu ruhsal bozukluklar bölümünden çıkarıldı",
+   "kaynak_url": "https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd",
+   "alinti": "Gender incongruence has been moved out of the “Mental and behavioural disorders” chapter",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "DSÖ'nün gerekçesi: trans kimlikler ruhsal hastalık değil, öyle sınıflamak damgalıyor",
+   "kaynak_url": "https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd",
+   "alinti": "trans-related and gender diverse identities are not conditions of mental ill-health",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "DSM-5-TR (2022) cinsiyet disforisini klinik sıkıntı ya da işlev kaybı şartıyla tanı olarak koruyor; her trans birey disfori yaşamaz",
+   "kaynak_url": "https://www.psychiatry.org/patients-families/gender-dysphoria/What-is-gender-dysphoria",
+   "alinti": "clinically significant distress or impairment (arama özeti; sayfa açılmadı)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Cass nihai raporu 10 Nisan 2024'te yayımlandı; Cass kanıtı \"dikkat çekici derecede zayıf\" buldu",
+   "kaynak_url": "https://www.nbcnews.com/news/world/evidence-youth-gender-care-remarkably-weak-says-major-english-review-rcna147136",
+   "alinti": "Medical evidence underlying gender care for adolescents is “remarkably weak”",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "York derlemesi: Taylor ve ark. 2024, Archives of Disease in Childhood (BMJ'de değil); 50 çalışmadan 1'i yüksek, 25'i orta, 24'ü düşük kaliteli",
+   "kaynak_url": "https://eprints.whiterose.ac.uk/211412/1/archdischild-2023-326669.full.pdf",
+   "alinti": "One cross-sectional study was high quality, 25 studies were moderate quality ... and 24 were low quality",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Taylor 2024 sonucu: ergenlik baskılayıcıların disfori ve ruh sağlığı üzerindeki etkisi hakkında sonuç çıkarılamaz; kemik sağlığı risk altında olabilir",
+   "kaynak_url": "https://eprints.whiterose.ac.uk/211412/1/archdischild-2023-326669.full.pdf",
+   "alinti": "No conclusions can be drawn about the impact on gender dysphoria, mental and psychosocial health or cognitive development",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Cass: başvurular 2009 öncesinde yılda 50'nin altındayken 2019'da yaklaşık 2.500'e çıktı; çoğunluk ergenlikte başvuran, doğumda kız kaydedilen gençlere geçti",
+   "kaynak_url": "https://www.england.nhs.uk/long-read/children-and-young-peoples-gender-services-implementing-the-cass-review-recommendations/",
+   "alinti": "disproportionately been seen in birth registered females presenting in adolescence (arama özeti; sayfa boş döndü)",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Yale Integrity Project eleştirisi (McNamara ve ark., Temmuz 2024) hakemli değil",
+   "kaynak_url": "https://law.yale.edu/yls-today/news/report-addresses-key-issues-legal-battles-over-gender-affirming-health-care",
+   "alinti": "misrepresents its own data (arama özeti)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Hakemli eleştiri: Noone ve ark. 2025, BMC Med Res Methodol 25:128; Cass'ın yedi sistematik derlemesinin hepsinde yüksek yanlılık riski (ROBIS)",
+   "kaynak_url": "https://eprints.lancs.ac.uk/id/eprint/229340",
+   "alinti": "high risk of bias in each of the seven systematic reviews (arama özeti; tam metin açılamadı)",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Eleştirilere karşı yanıt: Cheung ve ark. 2024, Arch Dis Child 110(4)",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12013558",
+   "alinti": "We conclude that these sources misrepresent the Cass Review's role and process",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Temple Newhook ve ark. 2018, IJT 19(2):212–224, dört izlem çalışmasını eleştirdi",
+   "kaynak_url": "https://research.library.mun.ca/13342",
+   "alinti": "These follow-up studies fall short in helping us understand what children need",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Eleştirinin ana noktası: DSM-III ve DSM-IV ölçütleri sıkıntı ya da disfori şartı aramıyordu, örneklemlere disforisi olmayan çocuklar da girmiş olabilir",
+   "kaynak_url": "https://genderanalysis.net/2018/04/a-new-critical-analysis-of-desistance-research/",
+   "alinti": "did not explicitly require evidence of distress or of gender dysphoria (ikincil kaynak)",
+   "guven": "dusuk",
+   "kritik": false
+  },
+  {
+   "iddia": "Yanıtlar: Steensma ve Cohen-Kettenis 2018 (IJT 19(2):225–230) ve Zucker 2018, \"The myth of persistence\"; Winters ve ark. her ikisine yanıt verdi (s. 246–250)",
+   "kaynak_url": "https://profiles.laps.yorku.ca/publications/learning-to-listen-to-trans-and-gender-diverse-children-a-response-to-zucker-2018-and-steensma-and-cohen-kettenis-2018-2",
+   "alinti": "Pages 225-230; 246-250 (bibliyografik kayıt)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Blackless, Fausto-Sterling ve ark. 2000, Am J Hum Biol: geniş tanımla yaklaşık %1,7 (özette \"%2'ye kadar\"); \"düzeltici\" genital cerrahi 1.000 doğumda 1–2",
+   "kaynak_url": "https://pubmed.ncbi.nlm.nih.gov/11534012/",
+   "alinti": "1.7%; 1-2 per 1,000 live births (arama özeti)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "%1,7 tahmininin %88'inden fazlası geç başlangıçlı KAH'tan geliyor",
+   "kaynak_url": "https://www.leonardsax.com/?p=641",
+   "alinti": "more than 88 percent ... late-onset congenital adrenal hyperplasia (arama özeti)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Sax 2002, J Sex Res 39(3):174–178: dar tanımla interseks yaygınlığı yaklaşık %0,018",
+   "kaynak_url": "https://pubmed.ncbi.nlm.nih.gov/12476264/",
+   "alinti": "about 0.018% (arama özeti; sayfa açılamadı)",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "BM bilgi notu (UNFE): yaygınlık %0,05 ile %1,7 arasında",
+   "kaynak_url": "https://www.unfe.org/sites/default/files/download/Intersex%20factsheet%202024%20EN%20-%20CLEARED.pdf",
+   "alinti": "somewhere between 0.05 per cent and 1.7 per cent of the global population is born with intersex traits",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "BM: geri dönüşsüz müdahaleler kısırlık, ağrı ve ruhsal acıya yol açabilir; bir ankette katılımcıların yarısı bilgilendirilmiş onam verilmediğini bildirdi",
+   "kaynak_url": "https://www.unfe.org/sites/default/files/download/Intersex%20factsheet%202024%20EN%20-%20CLEARED.pdf",
+   "alinti": "can cause permanent infertility, chronic pain, incontinence, loss of sexual sensation and lifelong mental suffering",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Human Rights Watch ve interACT (25 Temmuz 2017): cerrahiler güvenle ertelenebilir; 30 interseks yetişkin, 2 çocuk, 17 ebeveyn ve 21 sağlık çalışanıyla görüşüldü",
+   "kaynak_url": "https://www.hrw.org/news/2017/07/25/us-harmful-surgery-intersex-children",
+   "alinti": "medically unnecessary surgeries that can inflict permanent harm on intersex children",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "BM İnsan Hakları Konseyi interseks haklarına dair ilk kararını aldı (Nisan 2024)",
+   "kaynak_url": "https://www.hrw.org/news/2024/04/04/united-nations-passes-groundbreaking-intersex-rights-resolution",
+   "alinti": "its first ever resolution affirming the rights of intersex people",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Tıbbi uzlaşı bildirisi: Lee ve ark. 2006, Pediatrics 118(2):e488–e500, \"DSD\" terimini önerdi; cerrahiyi erteleme konusunda uzlaşıya varılamadı",
+   "kaynak_url": "https://adc.bmj.com/content/archdischild/91/7/554.full.pdf",
+   "alinti": "no consensus could be made concerning genital surgery (2008 tarihli ikincil özet)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "dsd-LIFE çalışması (van de Grift ve ark. 2021, BJU Int 129(3)): 1.040 katılımcı, 150'si erkekleştirici cerrahi geçirmiş; çoğu sonuçtan nötr ya da memnun",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9292912",
+   "alinti": "The majority of participants were neutral to satisfied with the appearance and function",
+   "guven": "yuksek",
+   "kritik": true
+  }
+ ],
+ "listede_olmayan": "Chiles v. Salazar (ABD Yüksek Mahkemesi, 31 Mart 2026, 8–1) dönüştürme terapisi yasaklarını ifade özgürlüğü açısından zayıflattı; karar hukukidir, bilimsel bulguları değiştirmez. Miroshnychenko ve ark. 2025 (Arch Dis Child) GRADE yöntemiyle ergenlik baskılayıcılar için \"çok düşük kesinlik\" buldu (yalnızca arama özetinden). NHS England, Cass sonrasında baskılayıcıları klinik araştırma dışında rutin kullanımdan çıkardı. BM İnsan Hakları Konseyi'nin Nisan 2024 interseks kararı var. 2016'daki DSD güncellemesi cerrahi sonuçlara dair verinin hâlâ yetersiz olduğunu söylüyor. dsd-LIFE çalışması, insan hakları kaynaklarının zarar anlatısına karşı daha olumlu hasta bildirimli sonuçlar veriyor.",
+ "celisen_kanit": "Düzeltme: York sistematik derlemeleri BMJ'de değil, Archives of Disease in Childhood'da yayımlandı (BMJ Group). Fausto-Sterling'in özeti \"%2'ye kadar\" diyor; %1,7 rakamı makalenin ayrıntısından ve ikincil kaynaklardan geliyor. Cass eleştirilerinden Yale belgesi hakemli değil; hakemli olanı Noone ve ark. 2025. APA'nın 2021 GICE kararında yönelim kararındaki gibi birebir \"no evidence\" ifadesini bulamadım; zarar kanıtı katılımcı bildirimine dayanıyor. APA 2009 raporu zarar konusunda kesin hüküm vermiyor, yalnızca \"some risk of harm\" diyor. dsd-LIFE'ta hastaların çoğu cerrahiden memnun; bu, BM ve HRW'nin zarar vurgusuyla kısmen çelişiyor (yanıt oranı düşük, seçilim yanlılığı olası).",
+ "acik_kalanlar": "Steensma ve Cohen-Kettenis'in ve Zucker'in 2018 yanıtlarının ana argümanı birincil metinden doğrulanamadı; Taylor & Francis sayfaları 403 verdi. ICD-11'in kabul (2019) ve yürürlük (2022) tarihleri DSÖ'nün SSS sayfasında yok; ayrı bir DSÖ sayfasından doğrulanmalı. Cass raporu PDF'ine erişilemedi (arşiv 403/405 verdi); başvuru sayıları ve \"birth-registered females\" alıntısı arama özetine dayanıyor. Noone 2025 ve Sax 2002 için birebir alıntılar arama özetinden; tam metin açılamadı."
+}

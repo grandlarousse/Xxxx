@@ -1,0 +1,380 @@
+[
+ {
+  "paket": "D_V1",
+  "arac": "26/34",
+  "satirlar": [
+   {
+    "ref": "K1-2",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2072932/",
+    "kanit_alinti": "shows, using meta-analyses, that LGBs have a higher prevalence of mental disorders than heterosexuals"
+   },
+   {
+    "ref": "K1-1",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2072932/",
+    "kanit_alinti": "offers a conceptual framework for understanding this excess in prevalence of disorder in terms of minority stress"
+   },
+   {
+    "ref": "K1-3",
+    "durum": "dogru",
+    "duzeltme": "Sayfa WebFetch ile boş döndü; ifade APA sayfasında arama sonucuyla teyit edildi. 2009 Görev Gücü bulgusu; APA 2021 kararlarıyla yeniden onaylandı.",
+    "kanit_url": "https://www.apa.org/pi/lgbt/resources/sexual-orientation.html",
+    "kanit_alinti": "efforts to change sexual orientation are unlikely to be successful and involve some risk of harm"
+   },
+   {
+    "ref": "K1-4",
+    "durum": "kismen_dogru",
+    "duzeltme": "İncelenen çalışma sayısı 87 değil 83'tür (1960–2007 arası hakemli İngilizce makaleler; çoğu 1978 öncesi). Basın açıklaması 5 Ağustos 2009.",
+    "kanit_url": "https://www.apa.org/news/press/releases/2009/08/therapeutic",
+    "kanit_alinti": "which included 83 studies. Most of the studies were conducted before 1978"
+   },
+   {
+    "ref": "K1-5",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.apa.org/news/press/releases/2009/08/therapeutic",
+    "kanit_alinti": "There are no methodologically sound studies of recent SOCE that would enable the task force to make a definitive statement about whether or not recent SOCE is safe or harmful"
+   },
+   {
+    "ref": "K1-8",
+    "durum": "kismen_dogru",
+    "duzeltme": "Tarih (31 Mart 2026) ve oy (8–1, Gorsuch yazdı, Jackson karşı) doğru. Ancak Mahkeme yasağı doğrudan 'bozmadı': konuşma terapisini görüşe dayalı düzenleyen yasanın sıkı denetime (strict scrutiny) tabi olduğuna hükmetti, alt mahkemelerin ihtiyati tedbir reddini bozup davayı geri gönderdi (reversed and remanded).",
+    "kanit_url": "https://www.faegredrinker.com/zh/insights/publications/2026/3/supreme-court-decides-chiles-v-salazar",
+    "kanit_alinti": "regulates talk therapy based on the counselor's viewpoint triggers strict scrutiny"
+   },
+   {
+    "ref": "K1-9",
+    "durum": "dogru",
+    "duzeltme": "Ek bilgi: 'Conditions related to sexual health' bölümüne taşındı.",
+    "kanit_url": "https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd",
+    "kanit_alinti": "Gender incongruence has been moved out of the \"Mental and behavioural disorders\" chapter"
+   },
+   {
+    "ref": "K1-11",
+    "durum": "dogru",
+    "duzeltme": "Sayfa DSM-5-TR'yi kaynak gösteriyor; 2022 yılı bu sayfada görülmedi.",
+    "kanit_url": "https://www.psychiatry.org/patients-families/gender-dysphoria/What-is-gender-dysphoria",
+    "kanit_alinti": "Not all transgender or gender diverse people experience gender dysphoria."
+   },
+   {
+    "ref": "K1-12",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.nbcnews.com/news/world/evidence-youth-gender-care-remarkably-weak-says-major-english-review-rcna147136",
+    "kanit_alinti": "Medical evidence underlying gender care for adolescents is \"remarkably weak\" and provides little clarity"
+   },
+   {
+    "ref": "K1-13",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://eprints.whiterose.ac.uk/211412/1/archdischild-2023-326669.full.pdf",
+    "kanit_alinti": "studies were included (n=50). One cross-sectional study was high quality, 25 studies were moderate quality (including 5 cohort studies) and 24 were low quality."
+   },
+   {
+    "ref": "K1-14",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://eprints.whiterose.ac.uk/211412/1/archdischild-2023-326669.full.pdf",
+    "kanit_alinti": "No conclusions can be drawn about the impact on gender dysphoria, mental and psychosocial health or cognitive development. Bone health and height may"
+   },
+   {
+    "ref": "K1-15",
+    "durum": "kismen_dogru",
+    "duzeltme": "NHS England sayfası açılamadı. '2009 öncesi yılda 50'nin altı, 2019'da yaklaşık 2.500' rakamları Cass'ın BJPsych başyazısından (2024) geliyor; künye ona göre verilmeli. Nihai rapor ifadesi: 'disproportionately been seen in birth registered females presenting in adolescence'. Başka kaynaklar 2019/20 için 2.700'ün üstü veriyor.",
+    "kanit_url": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/D0F6B23F37C3D82B38C2470DF65854C9/S0007125024001624a.pdf/gender-identity-services-for-children-and-young-people-navigating-uncertainty-through-communication-collaboration-and-care.pdf",
+    "kanit_alinti": "less than 50 per annum before 2009 to around 2500 by 2019 (arama özeti)"
+   },
+   {
+    "ref": "K1-16",
+    "durum": "kismen_dogru",
+    "duzeltme": "Belge hakemli makale değil, 'white paper' (Alstott, McNamara ve ark., 1 Temmuz 2024). 'misrepresents its own data' ifadesi Yale sayfasında geçmiyor; alıntı kaldırılmalı ya da başka bir kaynağa dayandırılmalı.",
+    "kanit_url": "https://law.yale.edu/yls-today/news/report-addresses-key-issues-legal-battles-over-gender-affirming-health-care",
+    "kanit_alinti": "have co-authored a white paper"
+   },
+   {
+    "ref": "K1-17",
+    "durum": "kismen_dogru",
+    "duzeltme": "Künye doğru: Noone ve ark. 2025, BMC Med Res Methodol 25(1):128; ROBIS kullanıldı. Özetteki ifade 'we identified a high risk of bias in each of the systematic reviews'. 'Yedi' sayısı bu sayfada görülmedi.",
+    "kanit_url": "https://eprints.lancs.ac.uk/id/eprint/229340",
+    "kanit_alinti": "we identified a high risk of bias in each of the systematic reviews"
+   },
+   {
+    "ref": "K1-19",
+    "durum": "kismen_dogru",
+    "duzeltme": "Künye doğru (Temple-Newhook ve ark. 2018, IJT 19(2):212–224); 4 çalışmayı eleştirdiği arama özetiyle teyit edildi. Ancak 'These follow-up studies fall short...' alıntısı görülmedi (mun.ca ve core.ac.uk 403); doğrulanmadı diye etiketlenmeli.",
+    "kanit_url": "https://profiles.laps.yorku.ca/publications/a-critical-commentary-on-follow-up-studies-and-desistance-theories-about-transgender-and-gender-non-conforming-children/",
+    "kanit_alinti": "International Journal of Transgenderism, 19(2), 212-224"
+   },
+   {
+    "ref": "K1-20",
+    "durum": "kismen_dogru",
+    "duzeltme": "Alıntı ikincil kaynakta birebir geçmiyor. Kaynak: sıkıntı şartı DSM-IV'te GIDC tanısından düşürüldü; çocuk katılımcıların %40'ı o dönemin DSM-IV ölçütlerini karşılamıyordu. DSM-III hakkında aynı iddia bu sayfada görülmedi.",
+    "kanit_url": "https://genderanalysis.net/2018/04/a-new-critical-analysis-of-desistance-research/",
+    "kanit_alinti": "40% of the child participants did not even meet the then-current DSM-IV diagnostic criteria"
+   },
+   {
+    "ref": "K1-21",
+    "durum": "dogru",
+    "duzeltme": "Winters ve ark. 2018, IJT 19(2):246–250 kayıtla doğrulandı; Steensma ve Cohen-Kettenis s. 225–230 arama sonucuyla teyit edildi. Zucker'ın sayfa aralığı doğrulanmadı.",
+    "kanit_url": "https://profiles.laps.yorku.ca/publications/learning-to-listen-to-trans-and-gender-diverse-children-a-response-to-zucker-2018-and-steensma-and-cohen-kettenis-2018-2",
+    "kanit_alinti": "International Journal of Transgenderism, 19(2), 246-250"
+   }
+  ],
+  "genel_not": "Üretici genel olarak güvenilir: künyeler ve birincil kaynak alıntıları büyük ölçüde doğru. Sistematik örüntü: 'arama özeti' ya da 'ikincil kaynak' işaretli satırlarda alıntılar sayfada birebir geçmiyor (K1-16, K1-20, K1-19) veya rakamlar başka kaynağa ait (K1-15). Tek sayı hatası K1-4 (87 değil 83). Hukuki satırda (K1-8) sonuç abartılmış: yasa bozulmadı, sıkı denetim kararıyla dava geri gönderildi."
+ },
+ {
+  "paket": "D_V2",
+  "arac": "20/34",
+  "satirlar": [
+   {
+    "ref": "K1-22",
+    "durum": "dogru",
+    "duzeltme": "Tam künye: Blackless M, Charuvastra A, Derryck A, Fausto-Sterling A, Lauzanne K, Lee E. Am J Hum Biol 2000;12(2):151-166. PubMed sayfası çerez hatası nedeniyle açılmadı; özet arama sonucundan, %1,7 ise Sax'ın sayfasından doğrulandı.",
+    "kanit_url": "https://pubmed.ncbi.nlm.nih.gov/11534012/",
+    "kanit_alinti": "\"corrective\" genital surgery probably runs between 1 and 2 per 1,000 live births ... may be as high as 2% of live births"
+   },
+   {
+    "ref": "K1-23",
+    "durum": "dogru",
+    "duzeltme": "Kaynakta ifade \"88%\". Bu, Sax'ın 1,5/1,7 hesabıdır; birincil veri değil, Sax'ın yorumudur.",
+    "kanit_url": "https://www.leonardsax.com/?p=641",
+    "kanit_alinti": "accounts for 88% of all those patients whom Fausto-Sterling classifies as intersex"
+   },
+   {
+    "ref": "K1-24",
+    "durum": "dogru",
+    "duzeltme": "Künye doğru: Sax L. J Sex Res 2002;39(3):174-178, doi:10.1080/00224490209552139. PubMed açılmadı; %0,018 değeri Sax'ın kendi sitesindeki metinden doğrulandı.",
+    "kanit_url": "https://www.leonardsax.com/?p=641",
+    "kanit_alinti": "drops to 0.018%, almost 100 times lower than the estimate provided by Fausto-Sterling"
+   },
+   {
+    "ref": "K1-25",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.unfe.org/sites/default/files/download/Intersex%20factsheet%202024%20EN%20-%20CLEARED.pdf",
+    "kanit_alinti": "According to experts, somewhere between 0.05 per cent and 1.7 per cent of the global population is born with intersex traits."
+   },
+   {
+    "ref": "K1-27",
+    "durum": "dogru",
+    "duzeltme": "Tarih ve görüşme sayıları doğru. Alıntı arama dizininde hrw.org sayfasında birebir eşleşti; WebFetch yalnızca alt başlığı ve 'safely deferred' ifadesini gösterdi.",
+    "kanit_url": "https://www.hrw.org/news/2017/07/25/us-harmful-surgery-intersex-children",
+    "kanit_alinti": "could be safely deferred ... 30 intersex adults, 2 intersex children, 17 parents of intersex children, and 21 healthcare practitioners"
+   },
+   {
+    "ref": "K1-29",
+    "durum": "kismen_dogru",
+    "duzeltme": "Künye doğru: Lee PA, Houk CP, Ahmed SF, Hughes IA. Pediatrics 2006;118(2):e488-e500. DSD terimini öneriyor. Ancak verilen URL, Hughes ve ark. 2006'nın Arch Dis Child 91(7):554-563'teki eş sürümü; 2008 tarihli bir özet değil. Sayfa 403 verdi. 'no consensus ... genital surgery' ifadesi birincil metinde görülemedi. Cerrahi endikasyonu ve zamanlaması konusunda uzlaşı olmadığını 2016 güncellemesi (Lee ve ark.) söylüyor. 'Uzlaşı yok' ifadesini 2016 güncellemesine dayandır ya da 'doğrulanmadı' diye etiketle.",
+    "kanit_url": "https://adc.bmj.com/content/archdischild/91/7/554.full.pdf",
+    "kanit_alinti": "Pediatrics. 2006 Aug;118(2):e488-500 ... proposes the term \"disorders of sex development\" (arama özeti; PDF 403)"
+   },
+   {
+    "ref": "K1-30",
+    "durum": "kismen_dogru",
+    "duzeltme": "Künye: van de Grift TC, Rapp M, Holmdahl G, Duranteau L, Nordenskjöld A ve dsd-LIFE grubu. BJU Int, çevrimiçi 2021, basılı 2022;129(3):394-405. Rakamlar ve alıntı doğru. 150 kişi kadın cinsiyeti dışında yaşayan katılımcılardır.",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9292912",
+    "kanit_alinti": "Of those, 150 living in other than the female gender had some kind of masculinizing surgery."
+   },
+   {
+    "ref": "K1-18",
+    "durum": "dogru",
+    "duzeltme": "Künye: Cheung CR, Abbruzzese E, Lockhart E, Maconochie IK, Kingdon CC. Arch Dis Child 110(4); çevrimiçi 14 Ekim 2024.",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12013558",
+    "kanit_alinti": "We conclude that these sources misrepresent the Cass Review's role and process"
+   },
+   {
+    "ref": "K2-2",
+    "durum": "dogru",
+    "duzeltme": "Bu cümle Williams, Satterwhite & Best 1999 makalesinde önceki analizleri özetliyor. Kültürel farklar da aynı cümlede anılıyor.",
+    "kanit_url": "https://giopact.upc.edu/ca/projects/docs/gener_estereotypes_1.pdf",
+    "kanit_alinti": "some interesting variations attributable to cultural differences, the major finding was a high degree of pancultural similarity"
+   },
+   {
+    "ref": "K2-1",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://giopact.upc.edu/ca/projects/docs/gener_estereotypes_1.pdf",
+    "kanit_alinti": "Sex Roles, Vol. 40, Nos. 7/8, 1999 ... data from 25 countries ... approximately 100 university students, equally divided by gender"
+   },
+   {
+    "ref": "K2-4",
+    "durum": "dogru",
+    "duzeltme": "Sage sayfası 403 verdi; bilgiler arama sonucundaki yayınevi tanımından alındı. Revize baskı: Cross-Cultural Research and Methodology dizisi, cilt 6. 1990'da Singapur ve Portekiz yetişkin verisi eklendi. 30 ülke çocuk ve yetişkin verisinin toplamıdır; yetişkin verisi 25 ülkedir (K2-1).",
+    "kanit_url": "https://us.sagepub.com/en-us/sam/measuring-sex-stereotypes/book3165",
+    "kanit_alinti": "their data covers thirty nations; they test both children and adults (arama özeti)"
+   },
+   {
+    "ref": "K2-5",
+    "durum": "dogru",
+    "duzeltme": "Ovid 402 verdi; künye ve bulgular arama özetinden ve APA basın bülteninden doğrulandı. Makale çevrimiçi Temmuz 2019'da, basılı Nisan 2020'de çıktı.",
+    "kanit_url": "https://www.apa.org/news/press/releases/2019/07/women-equally-more-competent",
+    "kanit_alinti": "16 nationally representative U.S. public opinion polls (N = 30,093 adults) ... 1946 to 2018 (arama özeti)"
+   },
+   {
+    "ref": "K2-6",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://digitalcommons.usf.edu/psy_facpub/1178",
+    "kanit_alinti": "manhood, in contrast to womanhood, is seen as a precarious state requiring continual social proof and validation"
+   },
+   {
+    "ref": "K2-8",
+    "durum": "kismen_dogru",
+    "duzeltme": "Öz doğru: başlık Vandello & Bosson'un derlemesine ait (Psychol Men Masc 14(2):101-113, doi:10.1037/a0029826). Ancak verilen in-mind.org sayfası bu derlemeyi kaynakçasında göstermiyor, yalnızca 2008 makalesini anıyor. Kanıt olarak USF deposu kullanılmalı. Basılı sayı Nisan 2013.",
+    "kanit_url": "https://digitalcommons.usf.edu/psy_facpub/1161/",
+    "kanit_alinti": "Hard Won and Easily Lost: A Review and Synthesis of Theory and Research on Precarious Manhood"
+   },
+   {
+    "ref": "K2-9",
+    "durum": "dogru",
+    "duzeltme": "Örneklemin %37'si erkek; ilk örneklem 34.023 kişiydi, elemeden sonra 33.417 kaldı.",
+    "kanit_url": "https://cris.unibo.it/bitstream/11585/828611/5/Psychometric%20Properties%20and%20Correlates%20of%20Precarious%20Manhood%20Beliefs%20in%2062%20Nations_postprint.pdf",
+    "kanit_alinti": "JOURNAL OF CROSSCULTURAL PSYCHOLOGY, 52(3), 231-258 ... university samples in 62 countries across 13 world regions (N = 33,417)"
+   },
+   {
+    "ref": "K2-10",
+    "durum": "dogru",
+    "duzeltme": "Bu değerler ülke düzeyinde CFA ilişkileridir; nedensellik göstermez.",
+    "kanit_url": "https://cris.unibo.it/bitstream/11585/828611/5/Psychometric%20Properties%20and%20Correlates%20of%20Precarious%20Manhood%20Beliefs%20in%2062%20Nations_postprint.pdf",
+    "kanit_alinti": "countries higher in GGGI and HDI are lower in PMB (-0.52 and -0.47 respectively)"
+   },
+   {
+    "ref": "K2-13",
+    "durum": "dogru",
+    "duzeltme": "Değerler doğru. +16 tablodaki '13-'19 Change sütunudur, yani 2013-2019 farkıdır (2002'ye göre +3). Raporda böyle belirtilmeli.",
+    "kanit_url": "https://www.pewresearch.org/global/wp-content/uploads/sites/2/2020/06/PG_2020.06.25_Global-Views-Homosexuality_FINAL.pdf",
+    "kanit_alinti": "Turkey 22 14 11 9 25 +16 (sütunlar: 2002 2007 2011 2013 2019 '13-'19 Change)"
+   }
+  ],
+  "genel_not": "Üretici genel olarak güvenilir: 17 satırın 13'ü doğru, 4'ü kısmen doğru, yanlış satır yok. Örüntü 1: künye ayrıntıları eksik ya da kaynakla uyuşmuyor (K1-29 eş sürüm URL'si, K1-30 basım yılı ve sayfa). Örüntü 2: alıntı gösterilen URL'de yok (K2-8, K1-29). Örüntü 3: değişim sütununun dönemi belirtilmemiş (K2-13). Raporda düzeltilmesi gereken tek önemli nokta K1-29'daki 'uzlaşı yok' iddiası. Bu iddia 2006 metninde görülemedi; 2016 güncellemesine dayanıyor."
+ },
+ {
+  "paket": "D_V3",
+  "arac": "17/34",
+  "satirlar": [
+   {
+    "ref": "K2-16",
+    "durum": "dogru",
+    "duzeltme": "Değerler ve yıl sırası (lejant 2016, 2017, 2018) PDF metniyle uyumlu: 53/51/61 ve 33/48/44. Grafikteki ifade birebir şöyle: 'Gey, lezbiyen ve trans bireyler toplumda eşit hakları sahip olmalıdır'. Kaynak: KHAS, Türkiye'de Toplumsal Cinsiyet ve Kadın Algısı Araştırması 2018.",
+    "kanit_url": "https://gender.khas.edu.tr/sites/gender.khas.edu.tr/files/inline-files/2018TCKAA-9mart2018-V2.pdf",
+    "kanit_alinti": "Eşcinsel birliktelikler toplumumuza aykırıdır 53% 51% 61% ... Gey, lezbiyen ve trans bireyler toplumda eşit hakları sahip olmalıdır 33% 48% 44%"
+   },
+   {
+    "ref": "K2-18",
+    "durum": "kismen_dogru",
+    "duzeltme": "Madde: Mehmet Âkif Aydın, 'Kadın' (İslâm'da Kadın bölümü), TDV İA c.24, 2001, s.86-94. Madde kavvâmlığı 'aile reisliği yetki ve sorumluluğu' olarak tanımlıyor; 'üstünlük değil işlevsel paylaşım' sözleri madde dilinde doğrulanamadı. Yarım miras payını 'nafaka' değil 'geçim yükümlülüğünün tamamıyla kocaya ait olması' ile gerekçelendiriyor. Uygulamanın ilkelere her zaman uymadığı ifadesi var.",
+    "kanit_url": "https://islamansiklopedisi.org.tr/kadin",
+    "kanit_alinti": "İslâm hukukunda aile reisliği denebilecek “kavvâm olma” yetki ve sorumluluğu kocaya verilmiştir."
+   },
+   {
+    "ref": "K2-19",
+    "durum": "dogru",
+    "duzeltme": "Künye: M. Kâmil Yaşaroğlu, 'Livâta', TDV İA c.27, 2003, s.198-200. Alıntıdaki özne 'İslâm âlimleri'.",
+    "kanit_url": "https://islamansiklopedisi.org.tr/livata",
+    "kanit_alinti": "İslâm âlimleri, livâtanın dünyevî cezayı da gerektiren haram bir fiil olduğu konusunda görüş birliğine varmışlardır"
+   },
+   {
+    "ref": "K2-20",
+    "durum": "dogru",
+    "duzeltme": "Ayrıntı: Şâfiî, Ebû Yûsuf ve İmam Muhammed zina haddini uyguluyor. Mâlik ve Ahmed b. Hanbel evli olup olmamaya bakmadan ölüm ya da recm öngörüyor. Ebû Hanîfe, İmâmiyye ve Zâhiriyye ta'zîr görüşünde.",
+    "kanit_url": "https://islamansiklopedisi.org.tr/livata",
+    "kanit_alinti": "Livâta yapan kimseye verilecek ceza konusunda ise İslâm hukuk ekolleri farklı görüşlere sahiptir."
+   },
+   {
+    "ref": "K2-21",
+    "durum": "dogru",
+    "duzeltme": "Yayıncı sayfası 403 verdi. Alıntı, aynı URL'nin arama özetinde birebir görüldü. Künye: Oneworld, 1 Şubat 2010, ISBN 9781851687015. AJIS incelemesine göre Kugle, ayetlerin tecavüzü kınadığı sonucuna varıyor.",
+    "kanit_url": "https://www.simonandschuster.com/books/Homosexuality-in-Islam/Scott-Siraj-Al-Haqq-Kugle/9781851687015",
+    "kanit_alinti": "In its narrative of Lot, the Qur'an could be interpreted as condemning lust rather homosexuality."
+   },
+   {
+    "ref": "K2-22",
+    "durum": "kismen_dogru",
+    "duzeltme": "LUMS sayfası Sara Raza'nın incelemesi; 'orthodoxies' ifadesi orada yok. İfade Marion H. Katz'ın American Journal of Islam and Society incelemesinden (Ekim 2007, DOAJ). Kaynak URL'yi Katz incelemesiyle değiştir. Öz doğru: klasik fıkhın feminist okuması.",
+    "kanit_url": "https://doaj.org/article/2986005d7fa74726b7c0907046bf0413",
+    "kanit_alinti": "(arama özeti) Katz describes Ali as identifying strongly with \"progressive\" Muslims while still critiquing both liberal and conservative orthodoxies"
+   },
+   {
+    "ref": "K2-23",
+    "durum": "dogru",
+    "duzeltme": "Tarih doğru: ilk yayın 26 Eylül 2009, esaslı revizyon 21 Kasım 2025. Yazar sayfa metninde görülmedi; PhilArchive kaydı Talia Mae Bettcher veriyor. Öz-tanımlamanın reddi Stock'a değil, genel olarak cinsiyet-eleştirel feminizme atfediliyor.",
+    "kanit_url": "https://plato.stanford.edu/entries/feminism-trans/",
+    "kanit_alinti": "According to Kathleen Stock, the term 'woman,' in its ordinary use, means 'adult, female human.'"
+   },
+   {
+    "ref": "K2-25",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://plato.stanford.edu/entries/feminism-trans/",
+    "kanit_alinti": "Subsequently, the expression gender identity was coined by Robert Stoller and Ralph Greenson in 1964"
+   },
+   {
+    "ref": "K2-27",
+    "durum": "kismen_dogru",
+    "duzeltme": "Kaynak ikincil: Del Giudice, Booth & Irwing 2012, PLoS ONE 7(1):e29265, Hyde 2005'i aktarıyor. Bantlar: sıfıra yakın d≤.10; küçük .11-.35; orta .35-.65; büyük .66-.99; çok büyük d≥1.00. Yani 'büyük' 0,66-0,99, 'çok büyük' ≥1,00 olmalı (>1,00 değil).",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3251566",
+    "kanit_alinti": "\"large\" (d between .66 and .99) or \"very large\" (d≥1.00) ... \"moderate\" (d between .35 and .65)"
+   },
+   {
+    "ref": "K2-29",
+    "durum": "dogru",
+    "duzeltme": "Künye doğru: Dev Psychol 31(1), Ocak 1995, s.43-55. Nicel inceleme 41 kaynağa (48 etki büyüklüğü) dayanıyor; hepsi retrospektif.",
+    "kanit_url": "https://faculty.wcas.northwestern.edu/JMichael-Bailey/Publications/Bailey%20%26%20Zucker%2C%201995.pdf",
+    "kanit_alinti": "Prospective studies suggest that childhood cross-sex-typed behavior is strongly predictive of adult homosexual orientation for men; analogous studies for women have not been performed."
+   },
+   {
+    "ref": "K2-30",
+    "durum": "dogru",
+    "duzeltme": "Ortalama d=1,19 (SD 0,43). Erkek 1,31 (SD 0,43), kadın 0,96 (SD 0,35). 26/41 (%63) rakamı, Zucker'in (1990) özetlediği altı izlem raporundan geliyor: 55 çocuktan 14'ü derecelendirilemediği için dışlanmış. Green 1987 bu rakama dahil değil.",
+    "kanit_url": "https://faculty.wcas.northwestern.edu/JMichael-Bailey/Publications/Bailey%20%26%20Zucker%2C%201995.pdf",
+    "kanit_alinti": "with a mean of 1.19 (SD = 0.43) ... Excluding these last 14, 26 of 41 boys (63%) had homosexual orientations."
+   },
+   {
+    "ref": "K2-12",
+    "durum": "dogru",
+    "duzeltme": "Saha tarihi: 13 Mayıs - 2 Ekim 2019.",
+    "kanit_url": "https://www.pewresearch.org/global/2020/06/25/global-divide-on-homosexuality-persists/",
+    "kanit_alinti": "a Pew Research Center survey conducted among 38,426 people in 34 countries from May 13 to Oct. 2, 2019."
+   },
+   {
+    "ref": "G1-16",
+    "durum": "dogru",
+    "duzeltme": "Künye: Halim, Bryant & Zucker 2016, 10. bölüm, M.R. Korin (ed.), Health Promotion for Children and Adolescents, Springer, s.204-205. Bulgu Egan & Perry 2001'den aktarılıyor; birincil kaynak olarak Egan & Perry de anılmalı.",
+    "kanit_url": "https://home.csulb.edu/~mhalim/pub/Halim%20Bryant%20Zucker%20(2016)%20-%20Early%20Gender%20Development%20Mental%20Physical%20Health%20-%20Health%20Promotion.pdf",
+    "kanit_alinti": "the combination of felt atypicality with feelings of pressure to conform to gender norms is particularly harmful for children (Egan & Perry, 2001)"
+   },
+   {
+    "ref": "G1-17",
+    "durum": "dogru",
+    "duzeltme": "Bulgu aktarma: Carver ve ark. 2003; Jewell & Brown 2014; Smith & Leaper 2006. Etnik gruplar genelinde geçerli; yaptırım 'uymamanın sonucu' olarak geçiyor.",
+    "kanit_url": "https://home.csulb.edu/~mhalim/pub/Halim%20Bryant%20Zucker%20(2016)%20-%20Early%20Gender%20Development%20Mental%20Physical%20Health%20-%20Health%20Promotion.pdf",
+    "kanit_alinti": "boys, in particular, receive more pressure to conform to gender norms compared to girls, as well as receive harsher consequences for failing to do so"
+   },
+   {
+    "ref": "G1-22",
+    "durum": "dogru",
+    "duzeltme": "Künye: Yu & Xie 2010, Sex Roles 62(1):100-113.",
+    "kanit_url": "https://research.polyu.edu.hk/en/publications/multidimensional-gender-identity-and-psychological-adjustment-in-/",
+    "kanit_alinti": "Boys were found to be more content about their gender but feel more pressure to conform to gender stereotypes than girls."
+   },
+   {
+    "ref": "G1-24",
+    "durum": "dogru",
+    "duzeltme": "Künye: Kachel, Steffens & Niedlich 2016, Front Psychol 7:956, doi 10.3389/fpsyg.2016.00956. Örneklem genç yetişkinler (yaklaşık 18-47 yaş).",
+    "kanit_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00956",
+    "kanit_alinti": "As expected the TMF reliably measured a one-dimensional masculinity-femininity construct."
+   },
+   {
+    "ref": "G1-26",
+    "durum": "dogru",
+    "duzeltme": "Makaleye göre bu iki kutuplu boyut cinsiyet rolünden çok cinsiyet kimliğini yansıtıyor; rapora eklenebilir.",
+    "kanit_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00956",
+    "kanit_alinti": "complemented by one bipolar masculinity-femininity dimension"
+   }
+  ],
+  "genel_not": "Üretici genel olarak güvenilir: alıntıların çoğu birebir, sayılar doğru. Hatalar künye ve aktarım düzeyinde. K2-22'de alıntı, gösterilen sayfada değil Katz 2007 incelemesinde geçiyor. K2-27'de bant sınırları küçük hatalı; kaynak ikincil (Del Giudice 2012). K2-18 özeti maddenin dilinden yorumlayıcı biçimde ayrılıyor. Bazı bulgular (Halim) başka çalışmalardan aktarılmış; birincil kaynaklar anılmalı."
+ }
+]
