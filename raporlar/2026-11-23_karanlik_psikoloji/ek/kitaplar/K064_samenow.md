@@ -1,6 +1,6 @@
 ## Stanton E. Samenow — Suçlular Nasıl Düşünür? (Inside the Criminal Mind, 1984)
 
-**Künye.** Stanton E. Samenow (1941–2023) Amerikalı klinik psikologdu. 1970–1978 arasında Washington'daki St. Elizabeths Hastanesi'nde psikiyatrist Samuel Yochelson'la birlikte suç davranışı araştırma programında çalıştı, sonra Virginia'da adli psikoloji alanında özel muayenehane açtı; ABD Başkanlığı'nın Suç Mağdurları Görev Gücü'nde de yer aldı. Kitabın dili İngilizce, ilk yayınevi Times Books, ilk yayın 1984. Gözden geçirilmiş baskıları 2004 (Crown) ve 2014'te çıktı. Türkçe baskı: *Suçlular Nasıl Düşünür?*, yayınevi katalogda belirtilmemiş (kitapçı kataloğu). Hacim: ilk baskı 285 sayfa.
+**Künye.** Stanton E. Samenow (1941–2023) Amerikalı klinik psikologdu. 1970–1978 arasında Washington'daki St. Elizabeths Hastanesi'nde psikiyatrist Samuel Yochelson'la birlikte suç davranışı araştırma programında çalıştı, sonra Virginia'da adli psikoloji alanında özel muayenehane açtı; ABD Başkanlığı'nın Suç Mağdurları Görev Gücü'nde de yer aldı. Kitabın dili İngilizce, ilk yayınevi Times Books, ilk yayın 1984. Gözden geçirilmiş baskıları 2004 (Crown) ve 2014'te çıktı. Türkçe baskı: *Suçlular Nasıl Düşünür?*, Fol Yayınları, 2023, çeviren Kadir Gülen. Hacim: ilk baskı 285 sayfa.
 
 **Bir cümleyle.** Suçu kötü mahalleler, yetersiz anne babalar, televizyon ya da işsizlik değil suçlular yaratır; suç, belirli düşünce kalıplarına sahip insanların bilinçli seçimidir ve ancak bu düşünce kalıpları değiştirilerek azaltılabilir.
 

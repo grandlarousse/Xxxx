@@ -1,6 +1,6 @@
 ## Christopher J. Patrick (ed.) — Handbook of Psychopathy (Handbook of Psychopathy, 2006)
 
-**Künye.** Christopher J. Patrick, psikopatiyi psikofizyoloji ve kişilik ölçümüyle inceleyen Amerikalı bir klinik psikolog ve akademisyendir; Florida State Üniversitesi'nde profesördür (bellekten, doğrulanmadı). Kitap bir derlemedir: her bölümü farklı uzmanlar yazar, Patrick editördür. Dili İngilizce, yayınevi Guilford Press. İlk baskı 2006 (ilk baskının bir incelemesi Eylül 2006'da çıktı); ikinci baskı 2018'de, yayınevinin deyişiyle "%65'ten fazla yeni malzemeyle" yayımlandı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: ikinci baskı 828 sayfa, 31 bölüm.
+**Künye.** Christopher J. Patrick, psikopatiyi psikofizyoloji ve kişilik ölçümüyle inceleyen Kanadalı bir klinik psikolog ve akademisyendir; Florida State Üniversitesi'nde profesördür. Kitap bir derlemedir: her bölümü farklı uzmanlar yazar, Patrick editördür. Dili İngilizce, yayınevi Guilford Press. İlk baskı 2006 (ilk baskının bir incelemesi Eylül 2006'da çıktı); ikinci baskı 2018'de, yayınevinin deyişiyle "%65'ten fazla yeni malzemeyle" yayımlandı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: ikinci baskı 828 sayfa, 31 bölüm.
 
 **Bir cümleyle.** Psikopati, ölçülebilen, kökenleri ve mekanizmaları araştırılabilen, tek bir özellik değil birkaç bileşenden oluşan bir kişilik bozukluğudur; bu kitap o araştırmanın bugünkü durumunu bir araya getirir.
 
@@ -11,7 +11,7 @@
 **Ana fikirler.**
 - **Maskeli patoloji.** Patrick'in açılış bölümü, Cleckley'nin "akıl sağlığı maskesi" fikrinden yola çıkar: psikopatik kişi dışarıdan sağlıklı ve çekici görünür, sorun yüzeyin altındadır. Kitabın geri kalanı bu maskenin neyi sakladığını sorar.
 - **Ölçme tartışması.** Hare ve arkadaşlarının bölümü Psikopati Kontrol Listesi–Gözden Geçirilmiş'i (PCL-R) anlatır. Başka bölümler görüşmeye dayalı ölçümle öz-bildirim ölçeklerini karşılaştırır ve her yöntemin tuzaklarını gösterir.
-- **Psikopati tek parça değildir.** Kitap, psikopatiyi ayrı yüzlere böler: ketlenmezliğe yatkınlık (dürtüsellik), duygusuz-soğuk özellikler ve gözü peklik (boldness). Bu, Patrick'in arkadaşlarıyla geliştirdiği Üçlü Model'in (gözü peklik, acımasızlık, ketlenmezlik) zeminidir (modelin 2009 tarihi bellekten, doğrulanmadı).
+- **Psikopati tek parça değildir.** Kitap, psikopatiyi ayrı yüzlere böler: ketlenmezliğe yatkınlık (dürtüsellik), duygusuz-soğuk özellikler ve gözü peklik (boldness). Bu, Patrick'in arkadaşlarıyla geliştirdiği Üçlü Model'in (gözü peklik, acımasızlık, ketlenmezlik) zeminidir (model ilk kez 2009'da tanımlandı).
 - **Alt tipler.** Birincil psikopati (mizaçtan, düşük kaygıyla gelen) ile ikincil psikopati (kaygılı, öfkeli, çoğu zaman zor koşullarla bağlantılı) ayrımı ayrı bir bölümde tartışılır.
 - **Nedenler çok katmanlıdır.** Genetik ve çevre, aile geçmişi, beyin yapısı ve işlevi, bilişsel ve duygusal işlemleme ayrı bölümlerde ele alınır; tek bir "psikopat geni" ya da tek bir beyin bölgesi önerilmez.
 - **Başarılı psikopati ve tedavi.** Suç işlemeyen, toplumda yükselen psikopatik özellikli kişiler ve tedavinin gerçekten işe yarayıp yaramadığı, eski "tedavi edilemez" kanısını sorgulayan bölümlerde incelenir.

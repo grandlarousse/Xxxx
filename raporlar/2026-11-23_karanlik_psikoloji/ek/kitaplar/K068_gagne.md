@@ -1,6 +1,6 @@
 ## Patric Gagne — Ben Bir Sosyopatım: Kendi Hikayem (Sociopath: A Memoir, 2024)
 
-**Künye.** Patric Gagne Amerikalı bir yazar ve eski terapist. Lisansını UCLA'da, yüksek lisansını California Graduate Institute'ta, klinik psikoloji doktorasını The Chicago School'da yaptı. Kitabı hem sosyopatik özelliklerle yaşadığını söyleyen biri hem de bu konuda doktora tezi yazmış bir klinisyen olarak yazıyor. Özgün dili İngilizce. Nisan 2024'te Simon & Schuster bünyesinde yayımlandı. Türkçe baskı: *Ben Bir Sosyopatım – Kendi Hikayem* (kitapçı kataloğu; yayınevi katalogda görünmüyor). Yaklaşık 370 sayfa (Publishers Weekly: 368 sayfa).
+**Künye.** Patric Gagne Amerikalı bir yazar ve eski terapist. Lisansını UCLA'da, yüksek lisansını California Graduate Institute'ta, klinik psikoloji doktorasını The Chicago School'da yaptı. Kitabı hem sosyopatik özelliklerle yaşadığını söyleyen biri hem de bu konuda doktora tezi yazmış bir klinisyen olarak yazıyor. Özgün dili İngilizce. Nisan 2024'te Simon & Schuster bünyesinde yayımlandı. Türkçe baskı: *Ben Bir Sosyopatım – Kendi Hikayem* (Say Yayınları; kitapçı kataloğu). Yaklaşık 370 sayfa (Publishers Weekly: 368 sayfa).
 
 **Bir cümleyle.** Sosyopati, toplumun sandığı gibi her zaman tehlikeli bir canavarlık değildir. Bu özellikleri taşıyan biri, kendini tanıyıp destek alırsa sevgi dolu ve sorumlu bir hayat kurabilir.
 

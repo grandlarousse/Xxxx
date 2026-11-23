@@ -10,7 +10,7 @@
 
 **Ana fikirler.**
 - **Katılmayanlar da veridir.** Barker'ın en özgün adımı, yalnızca üyelere değil, atölyeye gelip katılmayanlara ve benzer geçmişteki ilgisiz kişilerden oluşan bir kontrol grubuna da bakmasıdır. Beyin yıkama gerçekten etkili bir teknik olsaydı, atölyeye gelenlerin çoğu üye olurdu.
-- **Rakamlar.** Cultic Studies Journal'daki bir özete göre, 1979'da atölyeye katılan yaklaşık 1.000 kişinin yüzde 90'ı sonrasında hiç ilgilenmedi; yüzde 8'i bir haftadan uzun kaldı, iki yıl sonra yüzde 4'ten azı hâlâ üyeydi. Bu sayılar özetteki kitaptan aktarmadır.
+- **Rakamlar.** Uluslararası Tarikat Araştırmaları Derneği (ICSA) kütüphanesindeki bir makalenin aktarımına göre, 1979'da bir gecelik programa katılmaya ikna edilen yaklaşık 1.000 kişinin yüzde 90'ı sonrasında hiç ilgilenmedi; yüzde 8'i bir haftadan uzun kaldı, iki yıl sonra yüzde 4'ten azı hâlâ üyeydi. Bu sayılar kitabın 37. sayfasından ikincil aktarmadır.
 - **Kim katılıyor?** Katılanlar ne özellikle saf ne de ruhsal olarak sorunlu kişilerdir. Çoğu idealist, değerlere önem veren ve bir topluluk arayışı içindeki genç yetişkinlerdir; yani grup belirli bir ihtiyaca yanıt verir.
 - **Etki var, ama zorlama değil.** Barker, grubun yoğun sevgi ve ilgi gösterdiğini, bilgiyi seçerek sunduğunu kabul eder. Ancak bunun uyku yoksunluğu ya da bilinç dışı bir telkin olmadığını, kişinin hâlâ seçim yaptığını savunur.
 - **Ayrılmak da bir seçimdir.** Üyelerin önemli bir kısmı zorla kurtarılmadan kendi isteğiyle ayrılır; bu da "geri dönülmez zihin denetimi" fikriyle çelişir.

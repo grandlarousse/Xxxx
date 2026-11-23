@@ -4,7 +4,7 @@
 
 **Bir cümleyle.** Sosyopati (bugün klinik dilde antisosyal kişilik bozukluğu ve psikopatiyle örtüşen eski bir terim) seri katil kalıbına indirgenemez. Bir davranış yelpazesidir ve bu özellikleri taşıyan birçok insan toplumun içinde, fark edilmeden yaşar.
 
-**Bağlam.** Yazar kitaptan önce sosyopatlar hakkında bir blog yazıyordu (blog adı: Sociopath World; bellekten, doğrulanmadı). Kitap, "başarılı sosyopat" fikrinin popüler kültürde yaygınlaştığı bir dönemde çıktı. Ajanının önerisiyle Thomas, Texas A&M Üniversitesi'nden psikolog John Edens'ten değerlendirme istedi. Edens birkaç test sonucunda onu sosyopatik özellikler açısından ölçütleri karşılar buldu. Yazar daha sonra kılık değiştirerek Dr. Phil programına çıktı.
+**Bağlam.** Yazar kitaptan önce sosyopatlar hakkında bir blog yazıyordu (blog adı: Sociopath World). Kitap, "başarılı sosyopat" fikrinin popüler kültürde yaygınlaştığı bir dönemde çıktı. Ajanının önerisiyle Thomas, Texas A&M Üniversitesi'nden psikolog John Edens'ten değerlendirme istedi. Edens birkaç test sonucunda onu sosyopatik özellikler açısından ölçütleri karşılar buldu. Yazar daha sonra kılık değiştirerek Dr. Phil programına çıktı.
 
 **Yapısı.** Kitap, çocukluk anılarını, hukuk eğitimini ve iş hayatını, ilişkileri ve din hayatını izleyen anı bölümleriyle ilerler. Bu bölümlerin arasına sosyopatiyle ilgili araştırma özetleri ve kişisel yorumlar serpiştirilmiştir. Bölüm sayısı ve adları doğrulanmadı.
 

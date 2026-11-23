@@ -1,6 +1,6 @@
 ## Joshua D. Miller ve Donald R. Lynam (ed.) — The Handbook of Antagonism (The Handbook of Antagonism: Conceptualizations, Assessment, Consequences, and Treatment of the Low End of Agreeableness, 2019)
 
-**Künye.** Joshua D. Miller Georgia Üniversitesi'nde, Donald R. Lynam Purdue Üniversitesi'nde klinik psikoloji profesörüdür (görev yerleri bellekten; Lynam'ın Purdue bağlantısı Vikipedi'de görülüyor). İkisi de kişilik bozuklukları ve psikopati üzerine çalışır. Özgün dili İngilizce. Elsevier'in Academic Press markasıyla 2019'da yayımlandı. Hacmi yaklaşık 400 sayfa (doğrulanmadı). Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** Joshua D. Miller Georgia Üniversitesi'nde, Donald R. Lynam Purdue Üniversitesi'nde klinik psikoloji profesörüdür (görev yerleri bellekten; Lynam'ın Purdue bağlantısı Vikipedi'de görülüyor). İkisi de kişilik bozuklukları ve psikopati üzerine çalışır. Özgün dili İngilizce. Elsevier'in Academic Press markasıyla 2019'da yayımlandı. Hacmi xxi + 415 sayfa (Crossref bölüm kayıtlarına göre). Türkçe baskısı kitapçı kataloglarında görünmüyor.
 
 **Bir cümleyle.** Narsisizm, psikopati ve makyavelizmin "karanlık" yanlarını ortak kılan şey antagonizmdir, yani uyumluluğun düşük ucu.
 

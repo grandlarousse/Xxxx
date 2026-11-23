@@ -1,6 +1,6 @@
 ## Joe Navarro ve Toni Sciarra Poynter — Tehlikeli İnsanların Beden Dili (Dangerous Personalities: An FBI Profiler Shows You How to Identify and Protect Yourself from Harmful People, 2014)
 
-**Künye.** Joe Navarro (d. 1953, Küba), FBI'da karşı istihbarat ve davranış değerlendirmesi alanında özel ajan ve amir olarak çalışmış, sonra sözsüz iletişim (beden dili) üzerine yazar ve konuşmacı olmuştur; Toni Sciarra Poynter onunla daha önce de kitap yazmış bir yazar ve editördür. Özgün dil İngilizce; ilk yayın 7 Ekim 2014, Rodale (yayınevi bellekten). Türkçe baskı: Tehlikeli İnsanların Beden Dili, yayınevi katalogda belirtilmemiş (kitapçı kataloğu; ad ve konu benzerliğiyle eşleştirildi). Hacim: yaklaşık 250 sayfa (doğrulanmadı).
+**Künye.** Joe Navarro (d. 1953, Küba), FBI'da karşı istihbarat ve davranış değerlendirmesi alanında özel ajan ve amir olarak çalışmış, sonra sözsüz iletişim (beden dili) üzerine yazar ve konuşmacı olmuştur; Toni Sciarra Poynter onunla daha önce de kitap yazmış bir yazar ve editördür. Özgün dil İngilizce; ilk yayın 7 Ekim 2014, Rodale. Türkçe baskı: Tehlikeli İnsanların Beden Dili, Alfa Yayınları (kitapçı kataloğu). Hacim: yaklaşık 260–270 sayfa (Kirkus: 272).
 
 **Bir cümleyle.** Zarar veren insanların çoğu birkaç tanınabilir kişilik örüntüsüne girer; davranışlarını kontrol listeleriyle erken fark eden kişi kendini koruyabilir.
 

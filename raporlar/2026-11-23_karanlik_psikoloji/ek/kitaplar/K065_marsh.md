@@ -11,7 +11,7 @@
 **Ana fikirler.**
 - *Korkuyu tanıma bir ahlak anahtarıdır.* Marsh'ın çalışmalarına göre psikopatik özellikli kişiler başkalarının korkmuş yüzlerini tanımakta zorlanıyor. Korkuyu fark edemeyen kişi, karşısındakinin acısından caydırıcı bir sinyal almaz. Bu yüzden ona zarar vermek kolaylaşır.
 - *Amigdala ortak düğümdür.* Amigdala, beyinde duyguları ve özellikle korkuyu işleyen bölgedir. Duygusuz-soğuk özellikleri (callous-unemotional traits) olan gençlerde amigdala korkmuş yüzlere daha zayıf tepki veriyor. Böbrek bağışçılarında ise tersi görülüyor.
-- *Aşırı özgeciler korkusuz değildir.* Marsh'ın ekibi, tanımadığı birine böbrek veren kişileri inceledi. Bu kişilerin amigdalası korkmuş yüzlere daha güçlü tepki veriyordu. Sağ amigdalaları da ortalamadan yaklaşık %8 büyüktü (ikincil kaynaktan). Yani kahramanlık korkuya kayıtsızlıktan değil, başkasının korkusuna aşırı duyarlılıktan doğuyor.
+- *Aşırı özgeciler korkusuz değildir.* Marsh'ın ekibi, tanımadığı birine böbrek veren kişileri inceledi. Bu kişilerin amigdalası korkmuş yüzlere daha güçlü tepki veriyordu. Sağ amigdalaları da kontrol grubundan yaklaşık %8 büyüktü. Yani kahramanlık korkuya kayıtsızlıktan değil, başkasının korkusuna aşırı duyarlılıktan doğuyor.
 - *Psikopati gelişimsel bir bozukluktur.* Marsh, psikopatik özelliklerin çocuklukta görülebildiğini vurgular. Erken tanı ve ailelerle çalışmanın önemine dikkat çeker. Psikopatik çocukları "kötü tohum" diye damgalamaya karşı çıkar.
 - *Yelpaze herkesi kapsar.* Çoğu insan iki ucun arasındadır. Kitabın son bölümü, özgeciliği artırmanın yollarını tartışır. Bunlar arasında başkasının durumunu görünür kılmak ve "insanlar bencildir" varsayımını sorgulamak var.
 

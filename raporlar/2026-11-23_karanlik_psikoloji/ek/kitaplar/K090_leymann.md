@@ -1,6 +1,6 @@
 ## Heinz Leymann — Mobbing (Mobbing: Psychoterror am Arbeitsplatz und wie man sich dagegen wehren kann, 1993)
 
-**Künye.** Heinz Leymann (1932–1999) Almanya'da doğup 1955'ten itibaren İsveç'te yaşayan bir iş psikoloğudur; pedagojik psikoloji ve psikiyatri alanında iki doktorası vardı, Stockholm ve Umeå üniversitelerinde çalıştı. Kitabın bu baskısının dili Almanca; Rowohlt'tan 1993'te çıktı ve 2013'te 14. baskıya ulaştı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim yaklaşık 180 sayfa (doğrulanmadı).
+**Künye.** Heinz Leymann (1932–1999) Almanya'da doğup 1955'ten itibaren İsveç'te yaşayan bir iş psikoloğudur; pedagojik psikoloji ve psikiyatri alanında iki doktorası vardı, Stockholm ve Umeå üniversitelerinde çalıştı. Kitabın bu baskısının dili Almanca; Rowohlt'tan 1993'te çıktı ve 2013'te 14. baskıya ulaştı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim yaklaşık 185 sayfa.
 
 **Bir cümleyle.** İş yerinde bir kişiye uzun süre ve sistemli olarak yöneltilen düşmanca davranışlar ayrı bir olgudur; bunu "kişilik sorunu" değil, kurumun izin verdiği bir süreç olarak görmek gerekir.
 

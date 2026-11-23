@@ -1,6 +1,6 @@
 ## Julia Shaw — Kötülük (Evil: The Science Behind Humanity's Dark Side; İngiltere'de Making Evil, 2019)
 
-**Künye.** Julia Shaw 1987'de Köln'de doğmuş Alman-Kanadalı bir suç psikoloğu ve popüler bilim yazarı. Uzmanlık alanı sahte anılardır. 2017'den beri University College London'da (UCL) onursal araştırma görevlisi. Kitabı bir kriminoloji ve psikoloji akademisyeni ve bilim anlatıcısı olarak yazıyor. Özgün dili İngilizce. İngiltere'de Şubat 2019'da Canongate *Making Evil* adıyla, ABD'de aynı yıl Abrams *Evil* adıyla yayımladı. Türkçe baskı: *Kötülük* (kitapçı kataloğu; yayınevi katalogda görünmüyor). Yaklaşık 320 sayfa.
+**Künye.** Julia Shaw 1987'de Köln'de doğmuş Alman-Kanadalı bir suç psikoloğu ve popüler bilim yazarı. Uzmanlık alanı sahte anılardır. 2017'den beri University College London'da (UCL) onursal araştırma görevlisi. Kitabı bir kriminoloji ve psikoloji akademisyeni ve bilim anlatıcısı olarak yazıyor. Özgün dili İngilizce. İngiltere'de Şubat 2019'da Canongate *Making Evil* adıyla, ABD'de aynı yıl Abrams *Evil* adıyla yayımladı. Türkçe baskı: *Kötülük* (Say Yayınları; kitapçı kataloğu). Yaklaşık 320 sayfa.
 
 **Bir cümleyle.** "Kötü" dediğimiz davranışların çoğu, sıradan insanlarda da bulunan beyin, kişilik ve durum etkenleriyle açıklanabilir. Kötülüğü anlamak için insanları "canavar" diye ayırmak yerine bu ortak mekanizmalara bakmak gerekir.
 

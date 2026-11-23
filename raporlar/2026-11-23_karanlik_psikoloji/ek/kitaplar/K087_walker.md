@@ -1,6 +1,6 @@
 ## Lenore E. Walker — The Battered Woman (The Battered Woman, 1979)
 
-**Künye.** Lenore E. Walker (d. 1942), Amerikalı psikolog ve adli araştırmacı; Rutgers Üniversitesi'nden okul psikolojisi doktorası (Ed.D., 1972) var, Nova Southeastern Üniversitesi'nde emekli profesör. 1970'lerde şiddet gören kadınlarla klinik olarak çalıştı. Özgün dil İngilizce; ilk yayın 1979, Harper & Row (yayınevi bellekten, doğrulanmadı). Türkçe baskısı kitapçı kataloglarında görünmüyor. Yaklaşık 270–290 sayfa.
+**Künye.** Lenore E. Walker (d. 1942), Amerikalı psikolog ve adli araştırmacı; Rutgers Üniversitesi'nden okul psikolojisi doktorası (Ed.D., 1972) var, Nova Southeastern Üniversitesi'nde emekli profesör. 1970'lerde şiddet gören kadınlarla klinik olarak çalıştı. Özgün dil İngilizce; ilk yayın 1979, Harper & Row. Türkçe baskısı kitapçı kataloglarında görünmüyor. Yaklaşık 270 sayfa.
 
 **Bir cümleyle.** Şiddet gören kadın mazoşist değildir; tekrarlayan bir şiddet döngüsü ve toplumun yalnız bırakması onu psikolojik olarak kıskaca alır.
 

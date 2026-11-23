@@ -1,6 +1,6 @@
 ## Harriet B. Braiker — Who's Pulling Your Strings? (Who's Pulling Your Strings? How to Break the Cycle of Manipulation and Regain Control of Your Life, 2004)
 
-**Künye.** Harriet B. Braiker Amerikalı bir klinik psikologdu; daha önce alkolizm tedavisi üzerine araştırmalara ortak yazar olarak katılmış, *The Disease to Please* (2001; yıl bellekten) ile tanınmıştı. 2004'te öldüğü bilinir (bellekten, doğrulanmadı). Özgün dili İngilizce. İlk yayın McGraw-Hill; Vikipedi kaynakçası 2004 der, Open Library ilk yayını 2003 gösterir. Yaklaşık 280 sayfa (2006 cep baskısı). Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** Harriet B. Braiker Amerikalı bir klinik psikologdu; daha önce alkolizm tedavisi üzerine araştırmalara ortak yazar olarak katılmış, *The Disease to Please* (2001; Open Library ilk yayını 2000 gösterir; doğrulanmadı) ile tanınmıştı. 2004'te öldüğü bilinir (bellekten, doğrulanmadı). Özgün dili İngilizce. İlk yayın McGraw-Hill; Vikipedi kaynakçası 2004 der, Open Library ilk yayını 2003 gösterir. Yaklaşık 280 sayfa (2006 cep baskısı). Türkçe baskısı kitapçı kataloglarında görünmüyor.
 
 **Bir cümleyle.** Manipülasyon iki kişilik bir döngüdür; manipülatörün kullandığı "düğmeler" hedefin kendi zaaflarıdır ve bu düğmeleri tanıyan kişi döngüyü kırabilir.
 

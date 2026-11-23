@@ -1,6 +1,6 @@
 ## Amanda Montell — Cultish (Cultish: The Language of Fanaticism, 2021)
 
-**Künye.** Amanda Montell (d. 1992), Amerikalı yazar, dilbilimci ve podcast sunucusu; New York Üniversitesi'nde dilbilim okudu, güzellik ve yaşam dergilerinde editörlük yaptı. Akademisyen değil, popüler bilim yazarıdır. Özgün dil İngilizce; ilk yayın 15 Haziran 2021, Harper Wave (yayınevi bellekten, doğrulanmadı). Türkçe baskısı kitapçı kataloglarında görünmüyor; katalogdaki "Büyülü Aşırı Düşünme Çağı" yazarın 2024 tarihli başka kitabının çevirisidir. Hacim: yaklaşık 300 sayfa (doğrulanmadı).
+**Künye.** Amanda Montell (d. 1992), Amerikalı yazar, dilbilimci ve podcast sunucusu; New York Üniversitesi'nde dilbilim okudu, güzellik ve yaşam dergilerinde editörlük yaptı. Akademisyen değil, popüler bilim yazarıdır. Özgün dil İngilizce; ilk yayın 15 Haziran 2021, Harper Wave. Türkçe baskısı kitapçı kataloglarında görünmüyor; katalogdaki "Büyülü Aşırı Düşünme Çağı" yazarın 2024 tarihli başka kitabının çevirisidir. Hacim: 272 sayfa.
 
 **Bir cümleyle.** Tarikatları güçlü kılan şey her şeyden önce dildir; aynı dil oyunları Jonestown'dan SoulCycle'a, çok katlı pazarlamadan Instagram fenomenlerine kadar gündelik hayatın her yerinde işler.
 

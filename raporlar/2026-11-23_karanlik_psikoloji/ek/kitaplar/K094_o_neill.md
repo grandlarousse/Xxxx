@@ -1,6 +1,6 @@
 ## Rachel O'Neill — Seduction (Seduction: Men, Masculinity and Mediated Intimacy, 2018)
 
-**Künye.** Rachel O'Neill bir sosyolog ve kadın çalışmaları araştırmacısıdır; kitabı doktora sonrası dönemde İngiltere'de bir üniversitede çalışırken yayımladı (kurum: York Üniversitesi, bellekten, doğrulanmadı). Dil İngilizce; Polity Press, 2018. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim yaklaşık 250 sayfa (doğrulanmadı).
+**Künye.** Rachel O'Neill bir sosyolog ve kadın çalışmaları araştırmacısıdır; doktorasını King's College London'da toplumsal cinsiyet ve kültürel çalışmalar alanında yaptı, Warwick Üniversitesi'nde sosyoloji araştırma görevlisi olarak çalıştı ve bugün London School of Economics'te (LSE) medya ve iletişim alanında öğretim üyesidir (kitabı yayımladığı yıldaki kurumu doğrulanmadı). Dil İngilizce; Polity Press, 2018. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim 256 sayfa.
 
 **Bir cümleyle.** "Baştan çıkarma endüstrisi" erkeklere kadınlarla ilişkiyi bir beceri, verimlilik ve kendini geliştirme projesi olarak satar; bu dil hem kadınları hem de erkekleri araçsallaştırır.
 

@@ -1,0 +1,32 @@
+# VB7 doğrulama notu (K113–K124, dolandırıcılık ve Türkiye)
+
+dosya | iddia | karar | kaynak URL | kısa not
+--- | --- | --- | --- | ---
+K113 | Türkçe baskısı yok (katalogda yalnızca Görünmezlik Sanatı, Kablolardaki Hayalet) | DÜZELTİLDİ | https://www.goodreads.com/work/editions/19617-the-art-of-deception-controlling-the-human-element-of-security?page=4 | "Aldatma Sanatı (Paperback) Published 2005 by ODTÜ ... 336 pages"; 1000kitap (arama özeti) ODTÜ Geliştirme Vakfı, 320 s. Eski baskı, güncel katalogda yok
+K113 | Wiley 2002, Wozniak önsöz; Mitnick 1963–2023, KnowBe4 Chief Hacking Officer | DOĞRU | https://en.wikipedia.org/wiki/Kevin_Mitnick ; https://en.wikipedia.org/wiki/The_Art_of_Deception | "American hacker (1963–2023)"; "Chief Hacking Officer at KnowBe4"
+K114 | Wiley Mart 2012, 208 s.; 3 kısım 13 bölüm; 2. bölüm Ether; 11. bölüm "Who Are the Victims?" | DOĞRU | https://www.wiley-vch.de/en/areas-interest/finance-economics-law/outsmarting-the-scam-artists-978-1-118-17364-0 | "Chapter 2 Ether: The Con Artist's Central Strategy 19"; "Chapter 11 Who Are the Victims? 129"
+K114 | Weapons of Fraud (2005), Fraud Watch Network ilişkisi | DOĞRULANAMADI | - | metinde zaten işaretli; bırakıldı
+K115 | Unbound, 224 s., ilk kitap, @deathtospinach | DOĞRU | https://www.publishersweekly.com/9781789651638 | "Unbound, $17.95 trade paper (224p) ... her eye-opening debut"
+K115 | İngiltere baskısı 2023 | DOĞRULANAMADI | https://www.netgalley.co.uk/catalog/book/316106 ; https://openlibrary.org/works/OL37576122W | NetGalley UK ve OL 2024 gösteriyor; "(2023, doğrulanmadı)" eklendi
+K116 | The Psychology of Persuasion 1996 | DOĞRU | https://openlibrary.org/works/OL3237014W | ilk yayın 1996; işaret kaldırıldı
+K116 | Covert Persuasion Hogan ve Speakman 2006; Türkçe baskı yok | DOĞRU | https://openlibrary.org/works/OL16944348W ; turkce_katalog.json | katalogdaki Hogan'lar başka yazar
+K117 | Navy Chief geçmişi öz beyan | DOĞRU | https://kentclizbe.substack.com/p/chase-hughes-fake-and-fraud | Hughes'un kendi biyografisi: "Currently on active duty in the United States Navy"; bağımsız teyit yok
+K117 | 2007 pickup kitabı (Clizbe/Elwood eleştirisi); Türkçe baskı yok | DOĞRU | https://kentclizbe.substack.com/p/chase-hughes-fake-and-fraud ; turkce_katalog.json | "pick-up artist book in 2007 titled The Passport"
+K118 | ReganBooks Eylül 2005; NYT listesinde iki ay | DOĞRU | https://en.wikipedia.org/wiki/The_Game:_Penetrating_the_Secret_Society_of_Pickup_Artists | "New York Times Bestseller List for two months after its release in September 2005"
+K118 | Strauss d. 1969; on yıl sonra The Atlantic yazısı (2015) | DOĞRU | https://en.wikipedia.org/wiki/Neil_Strauss ; https://www.goodreads.com/author_blog_posts/9220259 | "The Game at 10 ... October 13, 2015"
+K119 | Destek Yayınları, Kasım 2023 | DOĞRU | https://bianet.org/yazi/narsisizm-makyavelizm-psikopati-karanlik-empat-287689 | 11 Kasım 2023; "Destek Yayınları etiketiyle"
+K119 | Ankara Ünv. Psikoloji; Wiesbaden; YL ve doktora Gazi Ünv. Uluslararası İlişkiler | DOĞRU | aynı Bianet URL | "Yüksek lisans ve doktora eğitimlerini Gazi Üniversitesi Uluslararası İlişkiler Bölümü’nde"
+K120 | Timaş Yayınları; tanıtım haberi 4 Ocak 2025 | DOĞRU | https://uskudar.edu.tr/en/new/prof-dr-nevzat-tarhan-new-book-psychology-of-evil-and-toxic-relationships/75478 | "published by Timaş Yayınları"; "Creation Date : January 04, 2025"
+K120 | Tarhan NPİSTANBUL'un kurucularından (bellekten) | DÜZELTİLDİ | https://tr.wikipedia.org/wiki/Nevzat_Tarhan | Vikipedi "yönetim kurulu başkanlığını yürütmektedir" diyor; metin buna çevrildi
+K121 | Celal Odağ 30 Temmuz 2007 atölyesi; Psikoterapi Enstitüsü 2022, 136 s., ciltli | DOĞRU | https://www.bkmkitap.com/narsisizm-uzerine-konusmalar-ve-olgu-sunumu | "Sayfa Sayısı 136"; "Basım Yılı 2022"; "Kapak Ciltli"
+K121 | Özakkaş psikiyatr, Psikoterapi Enstitüsü kurucusu (bellekten) | DOĞRU | https://www.zotero.org/tahirozakkas/cv | WebSearch özeti: "FOUNDATION: 2005 FOUNDER: Tahir ÖZAKKAŞ, M.D., Ph.D."; CV: d. 1958 Kayseri, psikiyatri Azerbaycan. İşaret kaldırıldı; "İstanbul'daki" çıkarıldı (bir kaynak Kocaeli diyor)
+K122 | Beta 2006, 199 s., Beta Yayınları 184 | DOĞRU | https://books.google.com/books/about/%C4%B0%C5%9Fyerinde_psikolojik_taciz_mobbing.html?id=_HbKAgAACAAJ | "Beta, 2006 ... 199 pages"; "Volume 184"; görülmeyen "XXII +" çıkarıldı
+K122 | 2008 ortak kitabı Seçkin yayını | DÜZELTİLDİ | https://www.seckin.com.tr/kitap/calisma-psikolojisi-ve-hukuki-boyutlariyla-isyerinde-psikolojik-taciz-mobbing-pinar-tinaz-fuat-bayram-hediye-ergin-s-p-235396517 | "Yayınevi: Beta Basım Yayın"; Seçkin yalnızca satıcı. 1. baskı Ekim 2008, 368 s. doğru
+K122 | TBK 417: 2011 kabul, 2012 yürürlük | DOĞRU | https://tr.wikipedia.org/wiki/T%C3%BCrk_Bor%C3%A7lar_Kanunu | "11 Ocak 2011'de kabul edilen ve 1 Temmuz 2012'de yürürlüğe giren 6098"; işaret kaldırıldı. Marmara Ünv. öğretim üyeliği DOĞRULANAMADI (işaretli bırakıldı)
+K123 | Akıl İzi 7 kitap, 798 s.; "iki serinin kayıtlarında yazar adı yok"; yazar adları Doğu Asya | DÜZELTİLDİ | https://www.bkmkitap.com/karanlik-psikoloji-7-kitap-set | "Sayfa Sayısı 798" doğru; BKM'de yazar "Kolektif"; setteki bir yazar "Isabella Reyes"; görülmeyen "Lin Zhao" çıkarıldı
+K123 | Charlesworth (1783–1853), Conolly (1794–1866) 19. yy İngiliz akıl hastanesi hekimleri; Gece Kitaplığı 14 kayıt (13 değil), 10'u "…ile Nasıl" kalıbında | DOĞRU | https://en.wikipedia.org/wiki/Edward_Parker_Charlesworth ; https://en.wikipedia.org/wiki/John_Conolly ; ek/parcalar/tr_pazar_temiz.json | "visiting physician to the Lincoln [Lunatic Asylum]"; "English psychiatrist (1794–1866)"; python sayımı 14 ve 10
+K123 | Emin Efendi: "hoşlandığınız kişiyi elde edebilmek", "Giden sevgiliyi geri getirme", "koruma amaçlı" | DOĞRU | https://www.idefix.com/karanlik-psikoloji-manipulasyon-p-410839 | tanıtım bülteninde birebir
+K124 | Kirschner 1931 Linz–2016, Bunte 18 yıl, Tritsch Tratsch; Droemer Knaur 1974 ve alt başlık | DOĞRU | https://de.wikipedia.org/wiki/Josef_Kirschner | "Manipulieren, aber richtig: Acht erfolgreiche Strategien ... Droemer Knaur, 1974"
+K124 | Türkçe baskı "Manipulasyon Ama Nasıl?", yayınevi bilinmiyor, 2004 | DÜZELTİLDİ | https://openlibrary.org/works/OL26402850W/editions.json | "publishers":["Aritan Yayinevi"], "Nov 07, 2004", ISBN 9789757582090; yayınevi eklendi
+
+Özet: 26 satır (bazıları birleşik). Doğru 19 · Düzeltildi 5 · Doğrulanamadı 2 (+ K122 Marmara alt iddiası doğrulanamadı).

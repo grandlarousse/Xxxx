@@ -1,6 +1,6 @@
 ## Becky Holmes — Keanu Reeves Is Not in Love with You (Keanu Reeves Is Not in Love with You: The Murky World of Online Romance Fraud, 2023)
 
-**Künye.** Becky Holmes İngiliz bir yazardır; X (eski Twitter) hesabı @deathtospinach'te dolandırıcılarla yazışmalarının ekran görüntülerini paylaşarak tanındı. Akademisyen ya da gazeteci değildir; bu onun ilk kitabıdır. Özgün dil İngilizce; İngiltere'de Unbound yayınevi (2023; Open Library kaydında 2024; ABD baskısı Nisan 2024); yaklaşık 224 sayfa. Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** Becky Holmes İngiliz bir yazardır; X (eski Twitter) hesabı @deathtospinach'te dolandırıcılarla yazışmalarının ekran görüntülerini paylaşarak tanındı. Akademisyen ya da gazeteci değildir; bu onun ilk kitabıdır. Özgün dil İngilizce; İngiltere'de Unbound yayınevi (2023, doğrulanmadı; Open Library ve NetGalley UK kayıtlarında 2024; ABD baskısı Nisan 2024); yaklaşık 224 sayfa. Türkçe baskısı kitapçı kataloglarında görünmüyor.
 
 **Bir cümleyle.** Romantik dolandırıcılık (romance scam) gülünç görünen ama yıkıcı sonuçlar doğuran örgütlü bir suçtur; kurban olmak saflık değil, iyi tasarlanmış bir duygusal manipülasyonun sonucudur.
 

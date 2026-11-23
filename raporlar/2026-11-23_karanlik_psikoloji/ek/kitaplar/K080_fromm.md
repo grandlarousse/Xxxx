@@ -1,6 +1,6 @@
 ## Erich Fromm — İnsandaki Yıkıcılığın Kökenleri (The Anatomy of Human Destructiveness, 1973)
 
-**Künye.** Erich Fromm (1900–1980), Alman kökenli psikanalist ve sosyal psikologdur; Frankfurt Okulu çevresinden gelip ABD ve Meksika'da çalışmış, Freud'u toplumsal ve insancıl bir yönde yeniden yorumlamıştır. Özgün dil İngilizce; ilk yayın 1973. Türkçe baskısı kitapçı kataloglarında bu adla görünmüyor; kitap Türkçede “İnsandaki Yıkıcılığın Kökenleri” adıyla çevrilmiştir (bellekten, doğrulanmadı; yayınevi doğrulanmadı). Katalogdaki “Sevginin ve Şiddetin Kaynağı” başka bir kitaptır (The Heart of Man, 1964). Fromm'un en hacimli eseridir, yaklaşık 500 sayfanın üzerinde (doğrulanmadı).
+**Künye.** Erich Fromm (1900–1980), Alman kökenli psikanalist ve sosyal psikologdur; Frankfurt Okulu çevresinden gelip ABD ve Meksika'da çalışmış, Freud'u toplumsal ve insancıl bir yönde yeniden yorumlamıştır. Özgün dil İngilizce; ilk yayın 1973. Türkçede “İnsandaki Yıkıcılığın Kökenleri” adıyla çevrilmiştir: ilk olarak Payel Yayınevi (1984, çev. Şükrü Alpagut), sonra Say Yayınları (2016) baskısı (arama özetlerine göre). Katalogdaki “Sevginin ve Şiddetin Kaynağı” başka bir kitaptır (The Heart of Man, 1964). Fromm'un en hacimli eseridir, İngilizce baskılarda yaklaşık 550–570 sayfa.
 
 **Bir cümleyle.** İnsan saldırganlığının yaşamı koruyan biyolojik bir türü vardır, ama zulüm ve yıkıcılık içgüdü değil, insanın varoluş koşullarından ve karakterinden doğan, yalnızca insana özgü tutkulardır.
 

@@ -1,6 +1,6 @@
 ## James Waller — Becoming Evil (Becoming Evil: How Ordinary People Commit Genocide and Mass Killing, 2002)
 
-**Künye.** James Waller bir sosyal psikologdur; kitabı yazdığında bir ABD kolejinde psikoloji öğretiyordu, sonra Holokost ve soykırım çalışmaları kürsülerine geçti (Keene State College, ardından Connecticut Üniversitesi; bellekten, doğrulanmadı). Özgün dil İngilizce; ilk yayın 2002, Oxford University Press; genişletilmiş ikinci baskı 2007 (yıl bellekten, ikinci baskının varlığı katalogda görülüyor). Türkçe baskısı kitapçı kataloglarında görünmüyor. Yaklaşık 300–380 sayfa (doğrulanmadı).
+**Künye.** James Waller bir sosyal psikologdur; kitabı yazdığında bir ABD kolejinde psikoloji öğretiyordu, sonra Holokost ve soykırım çalışmaları kürsülerine geçti (Keene State College, ardından Connecticut Üniversitesi). Özgün dil İngilizce; ilk yayın 2002, Oxford University Press; genişletilmiş ikinci baskı 2007. Türkçe baskısı kitapçı kataloglarında görünmüyor. İlk baskı yaklaşık 316, ikinci baskı yaklaşık 384 sayfa.
 
 **Bir cümleyle.** Soykırımı deliler ya da tuhaf kültürler değil, belli koşullarda sıradan insanlar yapar; bu, evrimsel yatkınlıklar, kişilik ve yakın sosyal bağlamın birlikte işlediği bir modelle açıklanabilir.
 

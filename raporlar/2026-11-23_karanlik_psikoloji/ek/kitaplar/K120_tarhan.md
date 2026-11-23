@@ -1,6 +1,6 @@
 ## Nevzat Tarhan — Kötülük Psikolojisi ve Toksik İlişkiler (Kötülük Psikolojisi ve Toksik İlişkiler, 2024–2025)
 
-**Künye.** Nevzat Tarhan (d. 1952) psikiyatr ve nöropsikologdur; Üsküdar Üniversitesi'nin kurucu rektörü ve NPİSTANBUL hastanesinin kurucularındandır (hastane bilgisi bellekten). Çok sayıda popüler psikoloji kitabı yazmıştır. Kitap Türkçe yazılmış özgün bir eserdir ve Timaş Yayınları'ndan çıkmıştır. Üniversitenin tanıtım haberi 4 Ocak 2025 tarihlidir; kitap 2024 sonu ya da 2025 başında yayımlanmış olmalı (kesin yıl doğrulanmadı). Türkçe baskı: Kötülük Psikolojisi ve Toksik İlişkiler, Timaş Yayınları (kitapçı kataloğu). Hacim (doğrulanmadı).
+**Künye.** Nevzat Tarhan (d. 1952) psikiyatr ve nöropsikologdur; Üsküdar Üniversitesi'nin kurucu rektörü ve NPİSTANBUL Beyin Hastanesi'nin yönetim kurulu başkanıdır. Çok sayıda popüler psikoloji kitabı yazmıştır. Kitap Türkçe yazılmış özgün bir eserdir ve Timaş Yayınları'ndan çıkmıştır. Üniversitenin tanıtım haberi 4 Ocak 2025 tarihlidir; kitap 2024 sonu ya da 2025 başında yayımlanmış olmalı (kesin yıl doğrulanmadı). Türkçe baskı: Kötülük Psikolojisi ve Toksik İlişkiler, Timaş Yayınları (kitapçı kataloğu). Hacim (doğrulanmadı).
 
 **Bir cümleyle.** Kötülüğün psikolojik ve nörobiyolojik işaretlerini tanımak ondan korunmanın ilk adımıdır; sağlıklı bir vicdan (üst benlik) ve değerler hiyerarşisi kötülüğe karşı "aşı" işlevi görür.
 

@@ -1,6 +1,6 @@
 ## Jane Monckton Smith — In Control (In Control: Dangerous Relationships and How They End in Murder, 2021)
 
-**Künye.** Jane Monckton Smith, İngiliz adli kriminolog ve eski polis memuru; Gloucestershire Üniversitesi'nde öğretim üyesi, cinayet, ısrarlı takip (stalking) ve zorlayıcı denetim üzerine çalışıyor. Akademik unvanı (profesör) bu oturumda doğrulanmadı. Özgün dil İngilizce; ilk yayın 4 Mart 2021, Bloomsbury (yayınevi bilgisi bellekten, doğrulanmadı). Türkçe baskısı kitapçı kataloglarında görünmüyor. Yaklaşık 256 sayfa.
+**Künye.** Jane Monckton Smith, İngiliz adli kriminolog ve eski polis memuru; Gloucestershire Üniversitesi'nde öğretim üyesi, cinayet, ısrarlı takip (stalking) ve zorlayıcı denetim üzerine çalışıyor. Akademik unvanı (profesör) bu oturumda doğrulanmadı. Özgün dil İngilizce; ilk yayın 4 Mart 2021, Bloomsbury. Türkçe baskısı kitapçı kataloglarında görünmüyor. Yaklaşık 256 sayfa.
 
 **Bir cümleyle.** Partner cinayeti bir anlık "tutku" patlaması değil, izlenebilir bir denetim sürecinin sonudur; aşamaları bilen herkes riskin arttığını görebilir.
 
@@ -15,7 +15,7 @@
 - **Hızlı bağlılık bir işarettir.** İkinci aşamada romantik süreç hızlandırılır; bu, rehberdeki sevgi bombardımanına benzer ama yazara göre asıl amaç erken bir "hak" kurmaktır.
 - **Süreç kaçınılmaz değildir.** Yazar, aşamaların arasından çıkılabileceğini ve zaman çizelgesinin müdahale fırsatlarını göstermek için olduğunu vurgular. Model İngiltere'de polis eğitimlerinde ve risk değerlendirmesinde kullanılmaktadır.
 
-**Bilimsel dayanağı.** Model, yazarın *Violence Against Women* dergisinde yayımlanan çalışmasına dayanır (Monckton Smith, 2020; dergi ve yıl bellekten). Vakalar "Counting Dead Women" kaydından alınmış, aileler ve meslek çalışanlarıyla görüşmelerle desteklenmiştir. Bu nitel bir örüntü çözümlemesidir; modelin ileriye dönük tahmin gücü bağımsız olarak sınanmış değildir. Bulgular, zorlayıcı denetimin cinayetin en güçlü öncülü olduğunu gösteren uluslararası araştırmalarla (örneğin Campbell ve arkadaşları, 2003) uyumludur. Genel kanıt düzeyi: [araştırma] temelli ama kitabın kendisi [popüler] anlatı.
+**Bilimsel dayanağı.** Model, yazarın *Violence Against Women* dergisinde yayımlanan çalışmasına dayanır (Monckton Smith, 2020). Vakalar "Counting Dead Women" kaydından alınmış, aileler ve meslek çalışanlarıyla görüşmelerle desteklenmiştir. Bu nitel bir örüntü çözümlemesidir; modelin ileriye dönük tahmin gücü bağımsız olarak sınanmış değildir. Bulgular, zorlayıcı denetimin cinayetin en güçlü öncülü olduğunu gösteren uluslararası araştırmalarla (örneğin Campbell ve arkadaşları, 2003) uyumludur. Genel kanıt düzeyi: [araştırma] temelli ama kitabın kendisi [popüler] anlatı.
 
 **Karanlık psikoloji haritasındaki yeri.** Zorlayıcı denetim, sevgi bombardımanı, yalıtma, ısrarlı takip ve tepkisel istismar kavramlarını bir zaman çizgisine yerleştirir; "geleceği sahteleme" ve hızlı bağlılık arasındaki ilişkiyi görmeye yardım eder. Bu listedeki Snyder (risk değerlendirmesi) ve Hill (zorlayıcı denetim) ile en yakın kitaptır. Greene'in *The Art of Seduction* (önceki raporda) kitabındaki hızlı ve yoğun kuşatma anlatımının tehlikeli bir okumasına karşı ağırlık oluşturur.
 

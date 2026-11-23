@@ -1,6 +1,6 @@
 ## Thomas Rid — Active Measures (Active Measures: The Secret History of Disinformation and Political Warfare, 2020)
 
-**Künye.** Thomas Rid (d. 1975, Almanya) siyaset bilimcidir; Johns Hopkins Üniversitesi'ne bağlı İleri Uluslararası Çalışmalar Okulu'nda (SAIS) strateji profesörüdür. Daha önce King's College London Savaş Çalışmaları Bölümü'nde ders verdi; siber çatışma üzerine *Cyber War Will Not Take Place* gibi eserleriyle bilinir. Kitabın dili İngilizce; ilk yayın 2020 (ABD'de Farrar, Straus and Giroux, İngiltere'de Profile; ABD yayınevi bellekten). Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 530 sayfa.
+**Künye.** Thomas Rid (d. 1975, Almanya) siyaset bilimcidir; Johns Hopkins Üniversitesi'ne bağlı İleri Uluslararası Çalışmalar Okulu'nda (SAIS) strateji profesörüdür. Daha önce King's College London Savaş Çalışmaları Bölümü'nde ders verdi; siber çatışma üzerine *Cyber War Will Not Take Place* gibi eserleriyle bilinir. Kitabın dili İngilizce; ilk yayın 2020 (ABD'de Farrar, Straus and Giroux, İngiltere'de Profile). Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 530 sayfa.
 
 **Bir cümleyle.** 2016 ABD seçimine Rus müdahalesi yeni değildir; istihbarat örgütlerinin yürüttüğü dezenformasyon yüz yıllık bir zanaattır ve açık toplumların güven temelini aşındırır.
 

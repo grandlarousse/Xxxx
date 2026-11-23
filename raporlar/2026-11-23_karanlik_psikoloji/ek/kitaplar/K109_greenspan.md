@@ -1,6 +1,6 @@
 ## Stephen Greenspan — Annals of Gullibility (Annals of Gullibility: Why We Get Duped and How to Avoid It, 2008)
 
-**Künye.** Stephen Greenspan, Connecticut Üniversitesi'nde eğitim psikolojisi emekli profesörü ve Colorado Üniversitesi'nde psikiyatri bölümüyle bağlantılı bir akademisyen. Uzun yıllar zihinsel yetersizliği olan kişilerin toplumsal savunmasızlığını inceledi; bu konuda mahkemelerde bilirkişilik yaptı (bellekten, doğrulanmadı). Özgün dil İngilizce; ilk yayın Aralık 2008, Praeger (pek çok kaynak 2009 yazar, çünkü kitap yıl sonunda çıktı). Önsözü Donald S. Connery yazdı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 200 sayfa.
+**Künye.** Stephen Greenspan, Connecticut Üniversitesi'nde eğitim psikolojisi emekli profesörü ve Colorado Üniversitesi'nde psikiyatri bölümüyle bağlantılı bir akademisyen. Uzun yıllar zihinsel yetersizliği olan kişilerin toplumsal savunmasızlığını inceledi; bu konuda mahkemelerde bilirkişilik yaptı (bellekten, doğrulanmadı). Özgün dil İngilizce; ilk yayın 2008 (ay doğrulanmadı), Praeger (pek çok kaynak 2009 yazar, çünkü kitap yıl sonunda çıktı). Önsözü Donald S. Connery yazdı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 200 sayfa.
 
 **Bir cümleyle.** Kanabilirlik (gullibility: aleyhimize olacak bir şeye, uyarı işaretlerine rağmen ikna edilmemiz) zekâ eksikliği değildir; durum, düşünme, kişilik ve duygu birlikte çalıştığında herkes kanabilir.
 
