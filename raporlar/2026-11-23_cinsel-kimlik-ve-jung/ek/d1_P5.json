@@ -1,0 +1,220 @@
+{
+ "id": "P5",
+ "arac": "araç: 33/35",
+ "ozet": "Psikoloji \"herkeste erkeklik ve kadınlık\" fikrini üç aşamada ölçtü.\n\n(1) Tek kutuplu dönem (1936–1970'ler): Terman ve Miles'ın 1936 tarihli \"Sex and Personality\" kitabındaki Attitude-Interest Analysis Test'i ve ardından gelen MMPI Mf ile CPI ölçekleri, maddeleri kadın ile erkeği en iyi ayırdıkları için seçti. Yani \"kalıp yargıya uyduğu için\" değil, \"cinsleri ayırdığı için\". Sonuç tek bir eksendi: erkeksiliği artan kişinin kadınsılığı azalıyordu. Ölçek tarafsız değildi, ahlaki bir buyruk taşıyordu (\"cinsiyet, düşünceyi ve davranışı belirlemeli\").\n\n(2) İki boyutlu androjeni dönemi: Constantinople (1973) bu ölçeklerin tek bir boyut ölçmediğini ve birbirleriyle zayıf ilişkili olduğunu gösterdi. Bem (1974, BSRI; 20 eril, 20 dişil, 20 nötr madde) ve Spence ile Helmreich (PAQ) erilliği ve dişilliği birbirinden bağımsız iki boyut olarak ölçtü. Bem'in normatif örnekleminde iki boyut neredeyse ilişkisizdi (r = −.14 ile .11 arası). Düzeltme: Bem'in 1974'teki ilk tanımında androjeni \"iki puanın dengeli olması\"ydı (t oranı ≤ 1). \"İkisinde de yüksek\" tanımı ve dört grup (androjen, eril, dişil, ayrışmamış) sonradan medyan ayrımıyla geldi. Maddeler \"Amerikan toplumunda bir erkek/kadın için ne kadar arzu edilir\" sorusuyla, 100 Stanford öğrencisinin 1972'deki yargılarına göre seçildi.\n\n(3) Eleştiri ve sonrası: Spence bu ölçeklerin bütünsel \"erkeklik/kadınlık\"ı değil, araçsallık (instrumentality) ve ifadesellik (expressiveness) özelliklerini ölçtüğünü kabul etti ve 1993'te çok etkenli kuramını (multifactorial theory) önerdi. Bem de 1993'te androjeni kavramının ortadan kaldırmak istediği kutuplaşmayı yeniden ürettiğini yazdı ve odağını cinsiyet şemasına kaydırdı. Lippa ilgi temelli \"cinsiyet tanısallığı\"nı (gender diagnosticity) geliştirdi. En büyük cinsiyet farkı meslek ilgilerinde çıktı: 53 ülkede d = 1.40. Kardeş ve ikiz çalışmalarında kalıtsallık yaklaşık %40 bulundu.\n\nRuh sağlığı: Dört meta-analizin ortak sonucu (Bassoff ve Glass 1982; Taylor ve Hall 1982; Whitley 1983, 1985) şu: iyi oluşu ve benlik saygısını ağırlıkla erillik (araçsallık) yordar. Dişilliğin katkısı zayıftır. Androjeninin, iki boyutun toplamının ötesinde ek bir yararı yoktur. Destek düzeyi güçlü ve tutarlı.\n\nZaman içinde değişim: ABD'li kadın üniversite öğrencilerinin erillik puanı 1974–2012 arasında arttı (d = .23). 1993–2012 arasında dişillik puanları düştü (d = −.26). Erkeklerde değişim yok. Hsu ve ark. (2021) meta-analizi de iki cins arasındaki farkın (agency g = 0.40, communion g = −0.56) zamanla küçüldüğünü buldu.\n\nTürkiye: Kavuncu (1987, yayımlanmamış yüksek lisans tezi, Hacettepe) uyarladı; Dökmen 1991'de ve 1999'da (989 kişi) inceledi. Faktör analizinde üç faktör çıktı: genel, kadınsılık, erkeksilik. Bu yapı orijinalden farklı. Cronbach alfa K için .73, E için .75.\n\nSonuç: Hemen herkes iki boyutta da belli bir düzeydedir. Ama \"oran\" metaforu, yani toplamı %100 eden bir karışım, ölçme modeliyle çelişir: iki puan bağımsızdır. Hangi özelliğin \"eril\" sayılacağı da 1970'lerin ABD normlarıyla belirlendi. İki boyutluluk güçlü destek görüyor. Androjeninin üstün olduğu hipotezi zayıf destek görüyor.",
+ "defter": [
+  {
+   "iddia": "Terman ve Miles (1936) testi, maddeleri kalıp yargı olduğu için değil, kadın ve erkeği en iyi ayırdığı için seçti; sonuç tek kutuplu bir süreklilikti.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "Terman and Miles's method of selecting items and scoring them yielded a single bipolar masculinity-femininity continuum.",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Terman–Miles testinde dişillik puanı hemşirelik, bebekler ve sessiz sinema (charades) gibi şeyleri sevdiğini söyledikçe artıyordu.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "femininity increased with self-reported liking of \"nursing,\" \"babies,\" and \"charades,\" whereas masculinity increased with disliking of these concepts",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Terman–Miles ölçeği ahlaki bir cinsiyet buyruğu taşıyordu; Terman'ın eşcinselliğe olumsuz bakışı teste sinmişti.",
+   "kaynak_url": "https://feministvoices.com/profiles/catharine-morris-cox-miles",
+   "alinti": "the scale seemed to represent a set of moral prescriptions for gendered behavior and mental health",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Constantinople (1973), Psychological Bulletin 80, 389–407: eski M-F maddelerinin analizi tek değil birden çok boyut gösteriyordu ve ölçekler birbirleriyle zayıf ilişkiliydi.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "statistical analyses of such items often revealed multiple dimensions and not a single bipolar masculine-feminine dimension",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Constantinople'a göre erkeklik ve kadınlık psikolojinin en bulanık kavramlarındandır (s. 390).",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "among the muddiest concepts in the psychologist's vocabulary",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Bem (1974), Journal of Consulting and Clinical Psychology 42(2), 155–162: erillik ve dişilliği bağımsız iki boyut olarak ele alan yeni envanter.",
+   "kaynak_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+   "alinti": "the dimensions of masculinity and femininity are empirically as well as logically independent",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Bem'e göre M-F daha önce tek bir sürekliliğin iki ucu sayılıyordu: kişi ya eril ya dişil olabilirdi, ikisi birden olamazdı.",
+   "kaynak_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+   "alinti": "a person has had to be either masculine or feminine, but not both",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "BSRI maddeleri yaklaşık 400 özellik içinden, 100 Stanford öğrencisinin (1972) 'Amerikan toplumunda bir erkek/kadın için ne kadar arzu edilir' yargısıyla seçildi; 20 eril ve 20 dişil madde.",
+   "kaynak_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+   "alinti": "Of those characteristics that satisfied these criteria, 20 were selected for the Masculinity scale and 20 were selected for the Femininity scale",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Bem'in normatif örneklemlerinde erillik ve dişillik neredeyse ilişkisizdi.",
+   "kaynak_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+   "alinti": "Stanford male r = .11, female r = −.14; Foothill male r = −.02, female r = −.07",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Bem'in 1974'teki androjeni tanımı 'iki puan arasındaki farkın küçük olması'ydı (|t| ≤ 1), 'ikisinde de yüksek olmak' değil.",
+   "kaynak_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+   "alinti": "classified as androgynous if the absolute value of the t ratio is less than or equal to one",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "1974 normatif örneklemlerinde androjen sınıflananların oranı: Stanford erkekler %34, Stanford kadınlar %27, Foothill erkekler %44, Foothill kadınlar %38 (tablo metinden çıkarıldı).",
+   "kaynak_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+   "alinti": "Table 7: % androgynous 34 / 27 / 44 / 38",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Bem 1974'te sağlık ölçütünün androjen kişi olabileceğini öne sürdü.",
+   "kaynak_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+   "alinti": "perhaps the androgynous person will come to define a more human standard of psychological health",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "İki boyutlu yaklaşım dört grup üretti: eril tipli, dişil tipli, androjen (ikisi de yüksek), ayrışmamış (ikisi de düşük). Yöntemciler kategoriler yerine sürekli puan ve regresyon kullanılmasını önerdi.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "androgynous, who scored high on both masculinity and femininity, and (d) undifferentiated, who scored low on both",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "BSRI ve PAQ kalıp yargısal olumlu kişilik özelliklerini ölçer (eril: kendine yeten, iddialı; dişil: sevecen, şefkatli, sıcak). Bakan'ın etkinlik/birliktelik (agency/communion), Spence ve Helmreich'ın araçsallık/ifadesellik terimleri.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "Spence and Helmreich (1978, 1980) proposed the terms of instrumentality and expressiveness",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "İki boyutlu yapı genelde doğrulandı, ancak ölçeklerin iç tutarlılığı her zaman yeterli değil.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "The BSRI and PAQ scales typically have shown the anticipated two-dimensional structure ... although the scales are not always internally consistent",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Ruh sağlığı: dört meta-analiz (Bassoff ve Glass 1982; Taylor ve Hall 1982; Whitley 1983, 1985) erilliğin küçük-orta, dişilliğin zayıf ilişki gösterdiğini buldu; androjeninin ek yararı yok.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "beyond additive effects of masculinity and femininity, no advantage was associated with androgyny",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Erilliğin ruh sağlığını daha iyi yordaması kısmen, iyi oluş ölçeklerinin özgüven ve başarı gibi eril niteliklere ağırlık vermesinden kaynaklanıyor olabilir.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "the scale measures of these constructs heavily weight culturally masculine qualities of self-confidence and achievement",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Künyeler: Taylor ve Hall (1982), Psychological Bulletin 92, 347–366; Whitley (1985), Sex Roles, 'Sex-role orientation and psychological well-being: Two meta-analyses'; Whitley (1983), JPSP 44, 765–778.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "Taylor, M. C., & Hall, J. A. (1982). Psychological androgyny: Theories, methods, and conclusions",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Spence, ölçek adlarının ('erillik/dişillik') yanıltıcı ve fazla kapsayıcı olduğunu kabul etti; 'araçsallık' ve 'ifadesellik' terimlerini tercih etti.",
+   "kaynak_url": "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/826/2013/02/14084638/TellegenLubinski1983.pdf",
+   "alinti": "Spence prefers \"instrumentality\" and \"expressiveness\" over \"masculinity\" and \"femininity,\" respectively",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Kişinin kendini 'eril/dişil' olarak görmesi (cinsiyet kimliği imgesi) tek kutuplu bir boyut oluşturur ve BSRI/PAQ'nun M ve F etkenlerinden ayrıdır (Spence ve Sawin).",
+   "kaynak_url": "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/826/2013/02/14084638/TellegenLubinski1983.pdf",
+   "alinti": "These two descriptors form a bipolar dimension distinct from the Masculinity and Femininity factors formed by the items of the PAQ and BSRI",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Spence (1993), JPSP 64(4), 624–635: 'Gender-related traits and gender ideology: Evidence for a multifactorial theory'.",
+   "kaynak_url": "https://scilit.com/publications/ac5129c8be9e607428efeaf496a927e4",
+   "alinti": "JPSP 64(4), 624–635, 1993",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Bem (1993, The Lenses of Gender) androjeni kavramının, aşmak istediği cinsiyet kutuplaşmasını yeniden ürettiğini yazdı.",
+   "kaynak_url": "https://link.springer.com/doi/10.1007/s11199-017-0760-0",
+   "alinti": "reproduce precisely the gender polarization that it seeks to undercut",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Lippa'nın cinsiyet tanısallığı, ilgilerden örnekleme özgü bir ayırt edici fonksiyon kurar ve sonucu yine tek kutuplu bir M-F puanıdır.",
+   "kaynak_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+   "alinti": "resulting in an assessment on a bipolar masculinity-femininity scale",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Lippa (2010), Arch Sex Behav 39(3), 619–636: 53 ülke, 200.000'i aşkın kişi; meslek tercihinde cinsiyet farkı d = 1.40, uyumlulukta −.56.",
+   "kaynak_url": "https://pubmed.ncbi.nlm.nih.gov/18712468/",
+   "alinti": "mean ds = -.15, -.56, -.41, and 1.40, respectively",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Cinsiyet tanısallığıyla ölçülen aynı cins içindeki M-F'nin kalıtsallığı yaklaşık %40; paylaşılan aile ortamının etkisi çok küçük (Loehlin ve ark. 2005).",
+   "kaynak_url": "https://pubmed.ncbi.nlm.nih.gov/16138874/",
+   "alinti": "Substantial heritabilities (about 40%) and minimal effects of shared family environments",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Donnelly ve Twenge (2017), Sex Roles 76, 556–565: 1993–2012 arasında kadınların dişillik puanı düştü, erillikleri sabit kaldı; erkeklerde değişim yok (34 örneklem, N = 8.027).",
+   "kaynak_url": "https://link.springer.com/10.1007/s11199-016-0625-y",
+   "alinti": "Women's femininity scores have decreased significantly (d = −.26) between 1993 and 2012, whereas their masculinity remained stable",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "1974–2012 arasında (94 örneklem, N = 24.801) yalnızca kadınların erillik puanı arttı; kadınların androjenisi 1974'ten beri arttı, 1993'ten beri artmadı.",
+   "kaynak_url": "https://link.springer.com/10.1007/s11199-016-0625-y",
+   "alinti": "Women's M rose significantly (d = .23), with no changes in women's F, men's M, and men's F",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Hsu ve ark. (2021), Psychological Bulletin 147(10): etkinlikte erkekler önde (g = 0.40, k = 928, N = 254.731), birliktelikte kadınlar önde (g = −0.56, k = 937). Farklar zamanla küçülüyor.",
+   "kaynak_url": "https://ifp.nyu.edu/2022/meta-analyses-systematic-reviews/2022-23724-001/",
+   "alinti": "these gender differences in agency and communion have been decreasing over time",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Türkçe BSRI: ilk uyarlama Kavuncu (1987, Hacettepe, yayımlanmamış yüksek lisans tezi); Dökmen (1991) geçerlik ve güvenirlik çalışması, Ankara Üniv. DTCF Dergisi 35(1).",
+   "kaynak_url": "https://dergipark.org.tr/en/download/article-file/595862",
+   "alinti": "Kavuncu (1987) ... test-tekrar test K .75, E .89; Dökmen (1991) iki yarı K .77, E .71",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Dökmen (1999), Kriz Dergisi 7(1), 27–40: 989 kişi; üç faktör (genel, kadınsılık, erkeksilik) çıktı, orijinal yapıdan farklı; alfa K .73, E .75.",
+   "kaynak_url": "https://dergipark.org.tr/tr/pub/kriz/article/496654",
+   "alinti": "Bu sonuçlar orijinal Envanter için önerilen yapıdan farklıdır.",
+   "guven": "yuksek",
+   "kritik": true
+  }
+ ],
+ "listede_olmayan": "- Bem'in ilk (1974) androjeni tanımı \"denge\"ydi (|t| ≤ 1). \"İkisinde de yüksek\" tanımı sonradan geldi.\n- BSRI maddeleri, kişilerin kendilerine ne yüklediğinden değil, 1972'de Stanford'da neyin \"bir erkek/kadın için arzu edilir\" sayıldığından seçildi. Ölçeğin kültüre ve döneme bağlılığının doğrudan kanıtı bu.\n- Spence ve Sawin'in \"cinsiyet kimliği imgesi\": kişinin kendini eril ya da dişil görmesi tek kutuplu bir boyuttur ve özellik ölçeklerinden ayrıdır. \"Oran\" sorusunun cevabı hangi düzeyde sorulduğuna göre değişir.\n- Hsu ve ark. (2021) meta-analizi: yaklaşık 254.000 kişi; farklar küçülüyor.\n- Cinsiyet tanısallığıyla ölçülen M-F'nin kalıtsallığı yaklaşık %40 (Loehlin 2005).\n- Wood ve Eagly (2015): ikinci bir gelenek olarak \"cinsiyet öz-kategorizasyonu\" (kendini kadın ya da erkek grubunun üyesi olarak tanımlama).",
+ "celisen_kanit": "- \"Bem 1974 androjen = ikisinde de yüksek\" yanlış. Bem'in tanımı t-oranı farkının küçük olmasıydı; yüksek-yüksek tanımı medyan ayrımıyla sonradan geldi.\n- \"Donnelly ve Twenge 2017: 1993–2012'de androjeni arttı\" doğrulanmadı. Kaynağa göre kadınların androjenisi 1974'ten beri arttı ama 1993'ten beri artmadı. 1993–2012 arasındaki değişim kadınların dişillik puanının düşmesiydi.\n- Bem'in androjeniyi \"reddettiği\" ifadesi abartılı. Kavramın kutuplaşmayı yeniden ürettiğini söyledi ve cinsiyet şemasına yöneldi.\n- Türkçe formun faktör yapısı orijinalden farklı (üç faktör). Pedhazur ve Tetenbaum (1979, JPSP 37, 996–1016) BSRI alt ölçeklerinin tek boyutlu olup olmadığını sorguladı; Ruch (1984) replikasyonunda sonuç karışık çıktı.",
+ "acik_kalanlar": "- MMPI Mf (Ölçek 5) maddelerinin nasıl seçildiği, ölçüt grubunun eşcinsel erkekler olup olmadığı ve grubun kaç kişi olduğu doğrulanmadı; yalnızca Hathaway'in geliştirdiği ve normdan sapan erkekleri saptamaya yönelik olduğu ikincil kaynaklarda geçiyor.\n- Terman–Miles testinin madde sayısı bulunamadı.\n- Whitley 1983 ile Taylor ve Hall 1982 özetlerine doğrudan ulaşılamadı; sonuçlar Wood ve Eagly (2015) aracılığıyla verildi.\n- Donnelly ve Twenge ile Bem 1993 alıntıları arama özetinden alındı, Springer sayfası açılamadı (güven: orta).\n- Spence ve ark. (1975) medyan ayrımının birincil kaynağı görülmedi."
+}

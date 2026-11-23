@@ -1,0 +1,220 @@
+{
+ "id": "P6",
+ "arac": "33/35",
+ "ozet": "Kısa yanıt: Kadınlar ve erkekler psikolojik özelliklerin çoğunda büyük ölçüde örtüşür. \"Erkeksi\" ve \"kadınsı\" özellikler neredeyse her zaman sürekli boyutlardır, ayrı kategoriler değildir. Bilimsel destek güçlü. Yine de \"fark yok\" demek yanlış olur.\n\n1) Tek tek özellikler: Hyde (2005) 46 meta-analizde 124 etki büyüklüğüne bakmış, bunların %78'i \"sıfıra yakın\" (d ≤ 0,10) ya da \"küçük\" (0,11–0,35) çıkmış. Zell ve ark. (2015) 106 meta-analizdeki 386 etkiyle bunu bağımsız olarak doğrulamış: etkilerin %85,5'i küçük ya da çok küçük, ortalama d = 0,21. İstisnalar şunlar:\n- fırlatma hızı (d = 2,18) gibi motor beceriler,\n- pornografi kullanımı (d = 0,63), mastürbasyon (d = 0,53), gündelik cinselliğe tutum (d = 0,45),\n- saldırganlık,\n- mesleki ilgiler: \"nesneler–insanlar\" boyutunda d = 0,93 (Su ve ark. 2009).\nDestek güçlü.\n\n2) Boyut mu, kategori mi: Carothers & Reis (2013) taksometrik yöntemle (taxometric; gizil yapının kategorik mi sürekli mi olduğunu sınayan yöntem) 13 çalışmayı (13.301 kişi) yeniden çözümlemiş. Fiziksel ölçüler ve kalıp yargısal hobiler cinsiyete göre ayrı kümeler (taxon) oluşturmuş. Psikolojik değişkenler ise \"birkaç istisna dışında\" boyutsal çıkmış; bunlar arasında eril/dişil ölçekleri, Beş Faktör kişilik ve cinsellik de var. Sınırları: yalnızca öz-bildirim verisi kullanılmış ve yazarlar başka alanlarda kategori çıkabileceğini kendileri söylüyor. Destek güçlü ama tek bir ana çalışmaya dayanıyor.\n\n3) Çok değişkenli tablo, yani aykırı kanıt: Özellikler birlikte ele alınınca fark büyüyor. Del Giudice ve ark. (2012) 16 kişilik faktöründe Mahalanobis D = 2,71 bulmuş (yaklaşık %10 örtüşme). Kaiser ve ark. (2020) açık veriyle bunu tekrarlamış: D ≈ 2,06–2,10. Hyde (2014) bu yöntemin farkı büyütmeye yatkın olduğunu ve sonucun yorumlanamaz olduğunu savunuyor. Bu konu karışık ve tartışmalı.\n\n4) Beyin: Joel ve ark. (2015) 1.400'den fazla beyinde iki dağılımın geniş ölçüde örtüştüğünü göstermiş. Beyinlerin çoğu \"mozaik\"; iç tutarlılık (her özelliğin hep aynı uçta olması) ancak %0–10 düzeyinde. Buna karşı:\n- Chekroud ve ark. (2016): çok değişkenli modelle cinsiyeti %93 doğrulukla tahmin etmiş. Kafa boyutu ölçüleri çıkarılınca bu %92, istatistiksel olarak arındırılınca %70.\n- Del Giudice ve ark. (2016): Joel'in yöntemi sistematik olarak farkı görmüyor.\n- Eliot ve ark. (2021): farkların çoğunu beyin boyutu açıklıyor (erkek beyni yaklaşık %11 büyük).\n- Williams ve ark. (2021) ile DeCasien ve ark. (2022): boyut hesaba katıldıktan sonra da küçük ama tekrarlanabilir bölgesel farklar kalıyor.\nBugünkü uzlaşı şu: beyinde \"erkek beyni / kadın beyni\" diye bir ikilik yok, ama istatistiksel ortalama farklar ve çok değişkenli örüntüler var.\n\n5) Kültür: Kişilik ve tercih farkları varlıklı ve eşitlikçi ülkelerde daha büyük görünüyor (Costa ve ark. 2001; Schmitt ve ark. 2008; Falk & Hermle 2018, 76 ülke). Berggren & Bergh (2025, PNAS) ise ölçüm kalitesi ve kültür kümeleri hesaba katılınca bu ilişkinin kaybolduğunu bildiriyor. Destek karışık.\n\nSonuç: \"Her birey bir karışımdır\" iddiası betimleyici olarak büyük ölçüde doğru. Hyde ve ark. (2019) şunu raporluyor: çok kalıp yargısal 10 davranışta bile öğrencilerin %1'inden azı yalnızca \"kadınsı\" ya da yalnızca \"erkeksi\" profil gösteriyor. Sınırları:\n- Ortalama farklar gerçek ve bazı alanlarda büyük.\n- Çok değişkenli birleşim cinsiyeti tahmin edebiliyor.\n- Kişinin içindeki erkeklik/kadınlık \"oranı\" tek ve ölçülebilir bir büyüklük değil. Neyin \"eril\" sayıldığı, hangi özelliklerin seçildiğine ve nüfus ortalamalarına göre tanımlanıyor.",
+ "defter": [
+  {
+   "iddia": "Hyde (2019 içinde aktarılan Hyde 2005): 46 meta-analiz, 124 etki büyüklüğünün %30'u önemsiz, %48'i küçük; toplam %78",
+   "kaynak_url": "https://psychiatry.ucsd.edu/_files/diversity/hyde.pdf",
+   "alinti": "Based on 124 effect sizes, 30% were trivial (d ≤ 0.10) and an additional 48% were small",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Hyde 2005'te 'küçük' aralığı 0,11–0,35 olarak tanımlandı (Hyde 2014, Annual Review of Psychology 65)",
+   "kaynak_url": "https://www.Gwern.net/doc/iq/2014-hyde.pdf",
+   "alinti": "range of a small difference, between 0.11 and 0.35. That is, 78% of the gender differences were",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Cinsiyet benzerlikleri hipotezi: kadın ve erkek çoğu, ama hepsi değil, psikolojik değişkende benzer",
+   "kaynak_url": "https://psychiatry.ucsd.edu/_files/diversity/hyde.pdf",
+   "alinti": "men and women are very similar on most, but not all, psychological variables",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Hyde 2005 istisnaları: fırlatma hızı d=2,18, fırlatma mesafesi d=1,98; saldırganlıkta orta düzey fark (Bosak & Kulich 2022, Encyclopedia of Sexual Psychology and Behavior)",
+   "kaynak_url": "https://doras.dcu.ie/32718/3/Encyclopedia%20of%20Sexual%20Psychology%20and%20Behavior_Gender%20Similarity%20Hypothesis.pdf",
+   "alinti": "throwing velocity (d = 2.18) and throwing distance (d = 1.98)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Cinsellikte istisnalar (Petersen & Hyde 2010 meta-analizi; 30 değişken, 834 örneklem): pornografi d=0,63, mastürbasyon d=0,53, gündelik cinselliğe tutum d=0,45; çoğu fark küçük",
+   "kaynak_url": "https://psychiatry.ucsd.edu/_files/diversity/hyde.pdf",
+   "alinti": "use of pornography (d = 0.63), masturbation (d = 0.53), and attitudes about casual sex (d = 0.45)",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Zell, Krizan & Teeter (2015, American Psychologist 70): 106 meta-analiz, 386 etki; %46,1 küçük, %39,4 çok küçük, ortalama d=0,21",
+   "kaynak_url": "https://doras.dcu.ie/32718/3/Encyclopedia%20of%20Sexual%20Psychology%20and%20Behavior_Gender%20Similarity%20Hypothesis.pdf",
+   "alinti": "46.1% of the analyzed effects were small and 39.4% were very small; with only very small average differences across all domains (d = 0.21)",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Zell 2015'te en büyük farklar: eril özellik (masculinity) d=0,73, zihinsel döndürme d=0,57, eş seçiminde fiziksel çekicilik d=0,53, saldırganlık d=0,45; insanlara ilgi (kadın lehine) d=0,49",
+   "kaynak_url": "https://doras.dcu.ie/32718/3/Encyclopedia%20of%20Sexual%20Psychology%20and%20Behavior_Gender%20Similarity%20Hypothesis.pdf",
+   "alinti": "men scored higher than women on measures of masculinity (d = 0.73), mental rotation ability (d = 0.57)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Zell 2015: farklar yaş, kültür ve zaman boyunca büyük ölçüde sabit; yazarlar 'durağan ya da sabit' çıkarımına karşı uyarıyor",
+   "kaynak_url": "https://doras.dcu.ie/32718/3/Encyclopedia%20of%20Sexual%20Psychology%20and%20Behavior_Gender%20Similarity%20Hypothesis.pdf",
+   "alinti": "caution to not use these data “to infer that gender differences are static or fixed”",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Carothers & Reis (2013, JPSP 104(2):385–407): psikolojik yapılar birkaç istisna dışında boyutsal; fiziksel ölçüler ve kalıp yargısal hobiler cinsiyete göre taksonik",
+   "kaynak_url": "https://library.scottbarrykaufman.com/uploads/2013/02/CarothersReis_2012.pdf",
+   "alinti": "Constructs were with few exceptions dimensional",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Carothers & Reis: ortalama farklar tartışmasız ama boyutsallık cinsiyetten kişinin psikolojik özelliğini 'teşhis etmeyi' uygunsuz kılar",
+   "kaynak_url": "https://library.scottbarrykaufman.com/uploads/2013/02/CarothersReis_2012.pdf",
+   "alinti": "these differences are inappropriate for diagnosing gender-typical psychological variables on the basis of sex",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Carothers & Reis veri tabanı: 13 çalışma, 13.301 kişi",
+   "kaynak_url": "https://library.scottbarrykaufman.com/uploads/2013/02/CarothersReis_2012.pdf",
+   "alinti": "unique indicators from 13 studies comprising 13,301 individuals",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Carothers & Reis sınırlılığı: fiziksel ölçüler dışında yalnızca öz-bildirim; başka alanlar takson gösterebilir",
+   "kaynak_url": "https://library.scottbarrykaufman.com/uploads/2013/02/CarothersReis_2012.pdf",
+   "alinti": "our analyses were limited to self-report measures",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Cinsellik değişkenleri en büyük ortalama farkları gösterdi ama kişi içinde tutarlı değildi",
+   "kaynak_url": "https://library.scottbarrykaufman.com/uploads/2013/02/CarothersReis_2012.pdf",
+   "alinti": "scoring in a masculine way on one variable did not guarantee doing so on the others",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Joel ve ark. (2015, PNAS 112(50):15468–73): 4 veri setinden 1.400'den fazla beyin MR'ı; geniş örtüşme, tutarlı uç beyinler nadir",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4687544",
+   "alinti": "brains with features that are consistently at one end of the \"maleness-femaleness\" continuum are rare",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Joel 2015 ana örneklem: %35 belirgin değişkenlik (mozaik), yalnızca %6 iç tutarlılık; tüm veri setlerinde iç tutarlılık %0,1–10,5",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4687544",
+   "alinti": "35% substantial variability; 6% internally consistent",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Joel 2015 sonucu: beyinler 'erkek beyni/kadın beyni' diye iki ayrı sınıfa ayrılamaz",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4687544",
+   "alinti": "human brains cannot be categorized into two distinct classes: male brain/female brain.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Chekroud ve ark. (2016, PNAS 113(14):E1968): 1.566 kişide çok değişkenli sınıflama %93; kafa boyutu ölçüleri çıkarılınca %92, arındırılınca %70",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4833246",
+   "alinti": "Classification accuracy was extremely high [accuracy: 93%, 95% confidence interval (CI) 89.5–94.9%",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Chekroud da katı ikiliğin olmadığını kabul ediyor ama istatistiksel farkların önemli olduğunu savunuyor",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4833246",
+   "alinti": "We wholly agree that a strict dichotomy between male/female brains does not exist",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Del Giudice, Lippa, Puts, Bailey, Bailey & Schmitt (2016, PNAS 113(14):E1965): Joel'in 'iç tutarlılık' tanımı aşırı katı, yöntem büyük farkları sistematik olarak kaçırıyor",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4833280",
+   "alinti": "Joel et al.'s method systematically fails to detect large, consistent sex differences (başlık)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Eliot, Ahmed, Khan & Patel (2021, Neurosci Biobehav Rev): kadın beyni yaklaşık %11 küçük; baş boyutu hesaba katılınca farklar çok küçük ve tutarsız",
+   "kaynak_url": "https://www.rosalindfranklin.edu/news/massive-study-led-by-rosalind-franklin-university-neuroscientists-reveals-few-differences-between-men-and-women-s-brains/",
+   "alinti": "Sex differences in the brain are tiny and inconsistent, once individuals' head size is accounted for.",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "DeCasien, Guma, Liu & Raznahan (2022, Biol Sex Differ 13:43): genel beyin boyutunun ötesinde yüksek tekrarlanabilirlikte bölgesel farklar var; ama sınıflama başarısı büyük fark demek değil",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9327177",
+   "alinti": "highly reproducible sex differences in regional brain anatomy above and beyond sex differences in overall brain size",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Ritchie ve ark. (2018, Cerebral Cortex; 5.216 UK Biobank): dağılımlarda büyük örtüşme, erkeklerde genelde daha büyük varyans; toplam beyin hacmi d=−1,41 (erkek lehine)",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6041980",
+   "alinti": "There was considerable distributional overlap between the sexes.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Del Giudice, Booth & Irwing (2012, PLoS ONE 7:e29265; N=10.261, 16PF): çok değişkenli D=2,71, örtüşme yalnızca %10; en büyük faktör çıkarılınca D=1,71 (%24)",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3251566",
+   "alinti": "We found a global effect size D = 2.71, corresponding to an overlap of only 10% between the male and female distributions.",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Kaiser, Del Giudice & Booth (2020, Journal of Personality 88(3)): replikasyon ABD D=2,06; İngilizce konuşulan ülkeler D=2,10",
+   "kaynak_url": "https://arts.units.it/handle/11368/3066291",
+   "alinti": "D = 2.06 in the US and D = 2.10 across English‐speaking countries",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Hyde (2014) eleştirisi: Mahalanobis D farkı en çoklayan doğrusal birleşimi aldığı için büyük farka yanlı ve yorumlanamaz",
+   "kaynak_url": "https://www.Gwern.net/doc/iq/2014-hyde.pdf",
+   "alinti": "produces results that are biased toward finding a large difference ... and it appears to yield results that are uninterpretable",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Su, Rounds & Armstrong (2009, Psychological Bulletin 135(6)): 47 envanter, 503.188 kişi; Nesneler–İnsanlar boyutunda d=0,93",
+   "kaynak_url": "https://iro.uiowa.edu/esploro/outputs/journalArticle/Men-and-things-women-and-people/9984380502202771",
+   "alinti": "producing a large effect size (d = 0.93) on the Things-People dimension",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Joel 2015 davranış verisi (Hyde 2019'da): 10 kalıp yargısal davranışta (d 1,0–2,03) öğrencilerin %1'inden azı yalnızca dişil ya da yalnızca eril, %55'ten fazlası karışık",
+   "kaynak_url": "https://psychiatry.ucsd.edu/_files/diversity/hyde.pdf",
+   "alinti": "less than 1% of the students exhibited only feminine or only masculine behaviors, whereas over 55% showed some combination",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Costa, Terracciano & McCrae (2001, JPSP 81(2); 26 kültür, N=23.031): farklar cinsiyet içi bireysel çeşitliliğe göre küçük; en belirgin olduğu yer geleneksel rollerin zayıf olduğu Avrupa/Amerika",
+   "kaynak_url": "https://scholars.duke.edu/publication/1458271",
+   "alinti": "gender differences are small relative to individual variation within genders",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Falk & Hermle (2018, Science 362): 76 ülke, 80.000 kişi; tercih farkları ekonomik gelişme ve cinsiyet eşitliğiyle pozitif ilişkili",
+   "kaynak_url": "https://docs.iza.org/dp12059.pdf",
+   "alinti": "Gender differences in preferences were positively related to economic development and gender equality.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Berggren & Bergh (2025, PNAS 122(23)): kültür kümeleri ve ölçüm kalitesi kontrol edilince eşitlik–fark korelasyonları kayboldu",
+   "kaynak_url": "https://www.uu.se/en/press/press-releases/2025/2025-06-13-western-standards-behind-the-gender-equality-paradox",
+   "alinti": "the correlations between increased gender equality and larger gender differences disappeared",
+   "guven": "orta",
+   "kritik": true
+  }
+ ],
+ "listede_olmayan": "- Kaiser ve ark. (2020), Del Giudice'nin büyük çok değişkenli farkını biraz daha küçük bir değerle tekrarladı (D ≈ 2,1).\n- Hyde (2014, Annual Review of Psychology) Mahalanobis D yöntemini açıkça eleştiriyor.\n- Beyin tartışmasında Eliot 2021'e iki yanıt var: Williams, Peyre, Toro & Ramus (2021) ve DeCasien ve ark. (2022). Her ikisi de beyin boyutu hesaba katıldıktan sonra küçük ama tekrarlanabilir bölgesel farklar kaldığını söylüyor. DeCasien ayrıca yüksek sınıflama doğruluğunun büyük fark anlamına gelmediğini vurguluyor.\n- Ritchie ve ark. (2018): erkeklerde daha büyük varyans var. Bu, dağılımların uçlarında oranların değişebileceği anlamına geliyor.\n- Berggren & Bergh (2025, PNAS) \"cinsiyet eşitliği paradoksunu\" ölçüm hatasına bağlıyor.\n- Hyde ve ark. (2019) Joel'in mozaik analizini davranış verisine de uyguluyor (en az %55 karışık profil, %1'den az \"saf\" profil). \"Herkes bir karışım\" iddiasının en doğrudan ampirik desteği bu.",
+ "celisen_kanit": "- Chekroud: %93 doğrulandı. Ama kafa boyutu ölçüleri çıkarılınca %92, istatistiksel olarak arındırılınca %70 kalıyor.\n- Hyde 2005: 46 meta-analizden 128 etki büyüklüğü çıkıyor, %78 oranı bunlardan sınıflanabilen 124'üne dayanıyor.\n- Carothers & Reis: istisnalar yalnız \"fiziksel ölçüler ve bazı ilgiler\" değil. Taksonik çıkanlar, doğrulama amacıyla seçilmiş fiziksel ölçüler (güç, vücut ölçüleri) ve kalıp yargısal hobiler. Cinsellik değişkenleri en büyük ortalama farkları gösterse de boyutsal çıktı; sosyoseksüellikte zayıf \"küçük takson\" belirtisi var.\n- Kişilik farklarının eşitlikçi ülkelerde büyüdüğü bulgusu (Schmitt 2008, Costa 2001) ölçüm eşdeğerliği gerekçesiyle tartışmalı (Berggren & Bergh 2025).\n- Schmitt 2008'in kendi verisini ayrıca açmadım; yalnızca arama özeti var (55 ülke, N=17.637).",
+ "acik_kalanlar": "- Hyde 2005 Tablo 1'deki fiziksel saldırganlık ve 2005'teki mastürbasyon/gündelik cinsellik d değerlerini birincil kaynakta göremedim (defterdeki cinsellik d'leri 2010 meta-analizinden).\n- Schmitt ve ark. 2008 tam metni açılmadı.\n- Carothers & Reis'e yayımlanmış doğrudan bir eleştiri ya da yeniden analiz bulamadım; taksometrinin genel sınırlılıkları yalnızca yazarların kendi bölümünden geliyor.\n- Williams ve ark. 2021'in birincil metni açılmadı (403 hatası verdi); bilgi arama özeti ve DeCasien 2022 üzerinden.\n- Bazı defter satırlarının kaynağı ikincil ya da ayna kopya: Gwern'deki Annual Review PDF'i, UCSD'deki Hyde 2019 PDF'i ve Bosak & Kulich 2022 ansiklopedi maddesi."
+}

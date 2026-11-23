@@ -1,0 +1,220 @@
+{
+ "id": "J2",
+ "arac": "WebSearch+WebFetch+Bash/37. Kontrol noktası 35'i 2 çağrı geçtim: Harding ve von Franz satırları eksikti.",
+ "ozet": "Jung'da eril ve dişil ilke iki düzeyde kullanılır.\n\n(1) Sembolik ve kozmik düzeyde karşıt bir çifttir. Logos (Logos): ayırt etme, yargı, kavrayış ve nesnel ilgidir. Eros (Eros): ilişki kurma, bağlama ve \"psişik ilişkililik\"tir (psychic relatedness). Simyada bu çift Sol ve Luna (Güneş ve Ay) ile Rex ve Regina (Kral ve Kraliçe) olarak görünür. İkisinin birleşmesi coniunctio, yani \"kimyasal evlilik\"tir. Bunun ürünü olan hermafrodit ya da Rebis bütünlüğün (Kendilik, Self) simgesidir. Jung bu konuyu \"Aktarımın Psikolojisi\" (1946, CW 16) ve \"Mysterium Coniunctionis\"te (1941–54'te yazıldı, CW 14) işler. \"Altın Çiçeğin Sırrı\" yorumunda (1929, CW 13) animus'u Çin'deki hun ruhuna ve yang'a, anima'yı p'o ruhuna ve yin'e eşler. Tao'yu da karşıtları bilinçli olarak birleştirmenin yolu diye açıklar.\n\n(2) Psikolojik düzeyde Jung ilkeleri cinsiyetlere bağlar. Kadının psikolojisi Eros'a, erkeğinki Logos'a dayanır (Woman in Europe, 1927, CW 10 ¶255). Kadının bilinci Eros'tur, bilinçdışındaki animus Logos'tur; erkekte tam tersi geçerlidir (Aion ¶29). Ama Jung iki ilkeyi de iki cinste görür. Erkekte Eros \"genellikle daha az gelişmiştir\", yani yine de vardır. Bütünleşen anima erkek bilincinin Eros'u, bütünleşen animus da kadının Logos'u olur. Terimleri kesin tanım olarak değil, \"kavramsal yardımcılar\" (conceptual aids, Aion ¶29) ve \"kesin tanımlanamayan sezgisel fikirler\" (CW 14) olarak sunar.\n\nKısacası yanıt \"ikisi birden\"dir: ilkeler herkesin ruhunda vardır, ama Jung baskın olanı biyolojik cinsiyete göre dağıtır.\n\nKlasik Jungcular:\n- Emma Jung: \"Animus and Anima\" (iki deneme; İngilizcesi 1955/1957).\n- Toni Wolff: kadın ruhunun dört biçimi; Anne, Hetaira, Amazon, Medial kadın (1934 konuşması, 1951 makalesi, 1956 İngilizcesi).\n- Neumann: \"Ursprungsgeschichte des Bewusstseins\" (1949). Bilinci kadında bile \"eril\" sayar. Hillman bu görüşü eleştirdi. \"The Great Mother\" (İngilizcesi 1955) dişil arketipi işler.\n- Harding: \"Woman's Mysteries\" (1935). Ay simgeciliği ve kadının kendi dişil ilkesi.\n- von Franz: masallardaki dişil; bir kısmı kadın psikolojisini, bir kısmı erkeğin anima'sını yansıtır.\n\nSonraki yazarlar:\n- Ulanov (1971): dişili yalnızca kadınlara ait olmayan bir öğe olarak ele alır.\n- Woodman: \"conscious femininity\", eril ve dişil enerjiler her iki cinste.\n- Singer: \"Androgyny\" (1976). İçimizdeki karşıtların birlikteliği.\n- Moore ve Gillette (1990): olgun erilin dört arketipi; Kral, Savaşçı, Büyücü, Âşık.\n- Bolen: kadınlar için tanrıçalar (1984), erkekler için tanrılar (1989).\n\nBu çizgi ilkeleri giderek cinsiyetten ayırıp \"her bireyde iki ilke\" yorumuna kaydırır, ama tam ayıramaz. Bolen gibi yazarlar arketipleri yine cinsiyete göre dağıtır.\n\nEleştiri: Goldenberg (1976) ve sonraki feminist okumalar, kadını Eros'a ve anima'ya bağlamayı cinsiyetçi ve özcü (essentialist) bulur. Evans (2006), Jung'un \"geniş çapta özcü\" bilindiğini ama arketip kuramının çoğul okumaya açık olduğunu yazar.\n\nBilimsel destek: Bu kavramlar yorumlayıcı ve sembolik bir çerçevedir, ampirik olarak test edilmemiştir. \"Kadın Eros'a, erkek Logos'a dayanır\" iddiasının deneysel bir dayanağı yoktur.",
+ "defter": [
+  {
+   "iddia": "Jung: kadının psikolojisi Eros'a, erkeğinki eskiden beri Logos'a dayanır (Woman in Europe, 1927, CW 10 ¶255)",
+   "kaynak_url": "https://jungiancenter.org/jung-the-man-part-vi/",
+   "alinti": "Woman's psychology is founded on the principle of Eros, the great binder and loosener",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Eros = psişik ilişkililik, Logos = nesnel ilgi. Bu cümle Aion'da değil Woman in Europe'tadır (CW 10 ¶255).",
+   "kaynak_url": "https://jungiancenter.org/jung-the-man-part-vi/",
+   "alinti": "The concept of Eros could be expressed in modern terms as psychic relatedness, and that of Logos as objective interest",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Aion ¶29: Jung Eros ve Logos'u yalnızca 'kavramsal yardımcılar' olarak kullandığını söyler (listedeki 'terminological aids' yanlış).",
+   "kaynak_url": "https://archive.org/stream/collectedworksof92cgju/collectedworksof92cgju_djvu.txt",
+   "alinti": "I use Eros and Logos merely as conceptual aids",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Aion ¶29: kadının bilinci daha çok Eros'un bağlayıcı niteliğiyle belirlenir",
+   "kaynak_url": "https://archive.org/stream/collectedworksof92cgju/collectedworksof92cgju_djvu.txt",
+   "alinti": "woman's consciousness is characterized more by the connective quality of Eros",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Aion ¶29: erkekte de Eros vardır ama genellikle daha az gelişmiştir; yani iki ilke iki cinste de bulunur",
+   "kaynak_url": "https://archive.org/stream/collectedworksof92cgju/collectedworksof92cgju_djvu.txt",
+   "alinti": "In men, Eros, the function of relationship, is usually less developed than Logos.",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Aion ¶29: animus babasal Logos'a, anima annesel Eros'a karşılık gelir",
+   "kaynak_url": "https://archive.org/stream/collectedworksof92cgju/collectedworksof92cgju_djvu.txt",
+   "alinti": "The animus corresponds to the paternal Logos just as the anima corresponds to the maternal Eros.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Aion ¶33: bütünleşen anima bilincin Eros'u, bütünleşen animus Logos olur",
+   "kaynak_url": "https://archive.org/stream/collectedworksof92cgju/collectedworksof92cgju_djvu.txt",
+   "alinti": "Just as the anima becomes, through integration, the Eros of consciousness, so the animus becomes a Logos",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Aion: syzygy (ilahi çift), erkekteki dişillik ile kadındaki erilliği kapsar",
+   "kaynak_url": "https://archive.org/stream/collectedworksof92cgju/collectedworksof92cgju_djvu.txt",
+   "alinti": "the femininity pertaining to the man and the masculinity pertaining to the woman",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "CW 14 (IAAP özeti): Jung psikolojik nedenlerle eril bilinci Logos'a (ayırt etme, yargı, kavrayış), dişil bilinci Eros'a (ilişki kurma) eşler",
+   "kaynak_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-14-mysterium-coniunctionis/",
+   "alinti": "Logos equate the masculine consciousness characterized by discrimination, judgement, and insight, and Eros, the feminine consciousness, with the ability to relate",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "CW 14 (IAAP özeti): erkeğin bilinci Ay'a bağlı anima'dan, kadının bilinci Güneş'e bağlı animus'tan etkilenir",
+   "kaynak_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-14-mysterium-coniunctionis/",
+   "alinti": "Consciousness is seen as influenced by lunar anima in a man and solar animus in a woman.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Luna, Sol'ün karşıtıdır: soğuk, nemli, karanlık, dişil, edilgen; coniunctio'da Sol'ün eşidir",
+   "kaynak_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-14-mysterium-coniunctionis/",
+   "alinti": "Luna is cold, moist, dark, feminine, corporeal, passive and a partner in coniunctio",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Kral (Rex) Güneş'le ve bilincin ışığıyla eşanlamlıdır; Sol ego'nun yansıtması olarak yorumlanır",
+   "kaynak_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-14-mysterium-coniunctionis/",
+   "alinti": "The king is seen as synonymous with the sun and with the light of consciousness.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "CW 14 özetinde hermafrodit kavramının psikolojik kaynağı tartışılır; Adem'in hermafroditliği ikiliğin başlıca görünümüdür",
+   "kaynak_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-14-mysterium-coniunctionis/",
+   "alinti": "The foremost manifestation of this duality is the hermaphroditism of Adam.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Mysterium Coniunctionis 1941–1954 arasında yazıldı ve Jung'un son büyük eseridir",
+   "kaynak_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-14-mysterium-coniunctionis/",
+   "alinti": "from 1941 to 1954",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "CW 16 ¶355: coniunctio insanın zihinsel gelişiminde merkezi bir a priori imgedir; Samuels ve ark. (1986) onu karşıtların evliliği olarak tanımlar",
+   "kaynak_url": "https://pacifica.libguides.com/Jung/coniunctio",
+   "alinti": "The coniunctio is an a priori image that occupies a prominent place in the history of man's mental development.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Aktarımın Psikolojisi (CW 16, 1946): Rosarium Philosophorum resimleri; kraliyet evliliği en yüce birleşmenin simgesi (¶398)",
+   "kaynak_url": "https://pacifica.libguides.com/Jung/coniunctio",
+   "alinti": "the nuptiae chymicae, the royal marriage",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Altın Çiçek yorumu (CW 13): animus = hun, eril ve yang; anima = p'o, dişil ve yin",
+   "kaynak_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-13-alchemical-studies/",
+   "alinti": "Animus (hun) is the masculine principle, (yang) a higher breath soul",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "CW 13: iki ilke, tek insan doğasında birleşmiş ayırt edilebilir psişik etkenlerdir; Tao karşıtları bilinçli olarak birleştirmenin yoludur",
+   "kaynak_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-13-alchemical-studies/",
+   "alinti": "Tao is explained as a conscious way of uniting opposites.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Emma Jung, Animus and Anima: iki makale; İngilizcesi ilk kez 1955'te (kitap baskısı 1957, NY APC); yaşam eril ve dişil güçlerin uyumlu etkileşimine dayanır",
+   "kaynak_url": "https://springpublications.com/jung.html",
+   "alinti": "Life is founded on the harmonious interplay of masculine and feminine forces",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Toni Wolff: dört biçim (Amazon, Anne, Hetaira, Medial); 1934 konuşması, 1951 makalesi, 1956 İngilizcesi (tarihler kaynaklar arasında tutarsız)",
+   "kaynak_url": "https://seba.health/library/the-psyche/wolff-structural-feminine-psyche",
+   "alinti": "1951 paper — circulated privately in Zurich and published in English translation in 1956",
+   "guven": "dusuk",
+   "kritik": false
+  },
+  {
+   "iddia": "Neumann, Origins of Consciousness: 1949, Rascher; İngilizcesi 1954 (Hull, Princeton)",
+   "kaynak_url": "https://en.wikipedia.org/wiki/The_Origins_and_History_of_Consciousness",
+   "alinti": "1949 ... Ursprungsgeschichte des Bewusstseins",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Hillman (1992) Neumann'ın 'bilinç kadında bile eril' görüşüne itiraz eder",
+   "kaynak_url": "https://en.wikipedia.org/wiki/The_Origins_and_History_of_Consciousness",
+   "alinti": "consciousness as such is masculine even in women",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Neumann'ın Great Mother'ı ilk kez 1955'te İngilizce yayımlandı (çev. Manheim); kadın gelişiminin 4 evresi, sonuncusunda cinsiyet rolleri bulanıklaşır",
+   "kaynak_url": "https://www.bu.edu/arion/files/2010/03/Paglia-Great-Mother1.pdf",
+   "alinti": "As she borrows from the masculine, sex roles are blurred.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Harding, Woman's Mysteries (1935): kadının psişesini Ay'a bağlar; kadının kendi dişil ilkesini erkek psişesindekinden ayırır",
+   "kaynak_url": "https://encyclopedia.com/arts/news-wires-white-papers-and-books/harding-mary-esther",
+   "alinti": "Woman's Mysteries ... 1935",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "von Franz, The Feminine in Fairy Tales: bazı masallar kadın psikolojisini, bazıları erkeğin içindeki dişilliği (anima) yansıtır",
+   "kaynak_url": "https://www.penguinrandomhouse.com/books/184287/the-feminine-in-fairy-tales-by-marie-louise-von-franz/9781570626098/",
+   "alinti": "the anima, the inner femininity of men",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Ulanov, The Feminine in Jungian Psychology and in Christian Theology, Northwestern UP, Evanston, 1971",
+   "kaynak_url": "https://find.library.upenn.edu/catalog/995201873503681/citation",
+   "alinti": "Evanston [Ill.] : Northwestern University Press, 1971",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Woodman: Addiction to Perfection (Inner City, 1982); Conscious Femininity (Inner City, 1993, seri no. 58)",
+   "kaynak_url": "https://libcat.library.tamu.edu/Record/in00001140662/Description",
+   "alinti": "Toronto : Inner City Books, [1993]",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "June Singer, Androgyny: Toward a New Theory of Sexuality, Anchor Press, 1976",
+   "kaynak_url": "https://libcat.library.tamu.edu/Record/in00000609431",
+   "alinti": "Garden City, N.Y. : Anchor Press, 1976",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Moore ve Gillette 1990: olgun erilin dört arketipi; Bolen: Goddesses in Everywoman 1984, Gods in Everyman 1989",
+   "kaynak_url": "https://www.librarything.com/work/334007",
+   "alinti": "King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine (1990)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Eleştiri: Jungcu kuram feministlerce geniş çapta özcü ve toplumsal cinsiyette ataerkil bilinir; yine de arketip kuramı çoğul olasılıklara açıktır (Evans 2006, Psychother. Politics Int. 4(1))",
+   "kaynak_url": "https://ojs.aut.ac.nz/psychotherapy-politics-international/article/download/187/140",
+   "alinti": "Widely known to be essentialist, reactionary and, when it comes to gender, far too entrenched",
+   "guven": "yuksek",
+   "kritik": true
+  }
+ ],
+ "listede_olmayan": "- Jung CW 14'te Logos/Eros eşleştirmesini \"salt psikolojik nedenlerle\" yaptığını ve iki kavramı \"kesin tanımlanamayan sezgisel fikirler\" saydığını söyler. Bu, sonradan yaptığı bir yumuşatma olarak okunabilir.\n- Aion ¶29'a göre animus \"babasal Logos\"a, anima \"annesel Eros\"a karşılık gelir. Bütünleşme sonucunda anima erkek bilincinin Eros'u, animus kadının Logos'u olur.\n- CW 13'te Jung, bilincin berraklığı için \"animus\" yerine \"Logos\" terimini tercih eder.\n- Woman in Europe ¶275'e atfedilen bir söz var: \"Eros'un işlevi Logos'un ayırdığını birleştirmektir\". Yalnızca zayıf bir kaynakta görüldü, doğrulanmadı.\n- Neumann kadın gelişimi için 4 evre önerir. Son evrede kadın erilden ödünç alır ve cinsiyet rolleri bulanıklaşır.\n- Stevens (1996) Neumann'ın Origins kitabını \"büyük ama yanlış yönlü\" bulur.",
+ "celisen_kanit": "- \"Eros ... psychic relatedness, Logos ... objective interest\" cümlesi Aion ¶29'da değil, Woman in Europe'tadır (CW 10 ¶255). Aion ¶29'un taranan metninde bu ifade bulunamadı.\n- Aion ¶29'daki ifade \"terminological aids\" değil \"conceptual aids\"tir.\n- Emma Jung'un kitabının İngilizce basımı için hem 1955 hem 1957 tarihi geçiyor. 1931 tarihi doğrulanamadı.\n- Toni Wolff için 1934/1956 aralığında birden çok tarih var: 1934 konuşması, 1948 genişletilmiş hâli, 1951 makalesi, 1956 İngilizcesi.\n- Sonraki Jungcuların ilkeleri cinsiyetten tamamen ayırdığı söylenemez. Bolen ve Moore & Gillette arketipleri yine kadınlar ve erkekler için ayrı ayrı kurar.",
+ "acik_kalanlar": "- Rosarium'daki Rebis (\"Yeni Doğuş\" resmi, CW 16) için Jung'un kendi cümlesi alınamadı; metin ücretli erişimde.\n- Ulanov'un \"dişil yalnızca kadınlarda değil\" görüşü ve Woodman'ın \"iki cinste iki enerji\" görüşü birebir alıntıyla doğrulanamadı; yalnızca arama özetlerinde görüldü.\n- Goldenberg (1976) eleştirisinin birincil metni görülmedi.\n- Samuels, Shorter & Plaut (1986) sözlüğündeki Eros/Logos maddesi görülmedi.\n- von Franz kitabının ilk yayın yılı (1972) doğrulanmadı.\n- Wolff ve Emma Jung için kesin tarihlerin birincil kaynaktan kontrol edilmesi gerekiyor."
+}
