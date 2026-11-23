@@ -1,0 +1,31 @@
+# VA5 doğrulama notu: K033–K040 (tarikat, aldatma, popüler tür)
+
+dosya | iddia | karar | kaynak URL | kısa not
+---|---|---|---|---
+K033 | İlk baskı 1988 Park Street Press, hacim "yaklaşık 230–260 sayfa" | DÜZELTİLDİ | https://en.wikipedia.org/wiki/Combating_Cult_Mind_Control | Bilgi kutusu "256 pp"; hacim "256 sayfa" yapıldı
+K033 | 2015 gözden geçirilmiş baskı; 2018 30. yıl baskısında "undue influence" | DOĞRU | https://en.wikipedia.org/wiki/Combating_Cult_Mind_Control | "In the 2018 30th Anniversary Edition, Hassan changed many instances of mind control to 'undue influence.'"
+K033 | Hassan, Gutheil ve Shah BITE ölçüm serisi (tarih doğrulanmadı) | DÜZELTİLDİ | https://www.psychiatrictimes.com/view/a-new-framework-exploring-efficacy | 12 Şubat 2022, 3 bölümlük serinin 2. kısmı; işaret kaldırılıp tarih eklendi
+K033 | Türkçe baskı yok | DOĞRULANAMADI | ek/dogrulama/turkce_katalog.json | Yalnızca katalog taraması (Ihab/Ahmed Hassan); bağımsız arama yapılmadı, metindeki temkinli ifade kaldı
+K034 | APA BSERP, DIMPAC raporunu Mayıs 1987'de reddetti | DOĞRU | https://en.wikipedia.org/wiki/Margaret_Singer | "In May 1987 the APA Board of Social and Ethical Responsibility ... rejected the DIMPAC final report"
+K034 | Singer ve Ofshe 1992'de APA'ya dava açtı, 1994'te kaybetti, "masraf ödemelerine hükmedildi" | DÜZELTİLDİ | https://en.wikipedia.org/wiki/Margaret_Singer | Hüküm 80.000 $ avukatlık ücreti (SLAPP yasası); metin buna göre düzeltildi
+K034 | United States v. Fishman (1990), hâkim Lowell Jensen tanıklığı dışladı | DOĞRU | https://en.wikipedia.org/wiki/APA_Task_Force_on_Deceptive_and_Indirect_Methods_of_Persuasion_and_Control | "In 1990, District Court Judge Lowell Jensen excluded Singer's testimony in United States v. Fishman"; karar metni okunmadı notu kaldı
+K034 | Lalich'in grubu Democratic Workers Party (bellekten, doğrulanmadı) | DOĞRU | https://en.wikipedia.org/wiki/Janja_Lalich | "around ten years as part of a radical Marxist-Leninist group, the Democratic Workers Party"; işaret kaldırıldı
+K034 | 12 bölüm (1996 baskısı); 2003 gözden geçirilmiş baskı | DOĞRU | https://openlibrary.org/books/OL15006058M ; https://openlibrary.org/works/OL3264926W | İçindekiler 12 başlık; 11 Nisan 2003 "Rev Upd" baskı, 400 s.
+K035 | 4 kısım, 18 bölüm; bölüm adları | DOĞRU | https://archive.org/details/joost-meerloo-rape-of-the-mind | Tam metinde PART ONE–FOUR, CHAPTER ONE–EIGHTEEN
+K035 | Türkçe "Zihne Saldırı", yayınevi katalogda görünmüyor | DÜZELTİLDİ | https://www.dr.com.tr/search?q=Zihne+Saldırı+Meerloo ; https://www.kitapyurdu.com/kitap/zihne-saldiri-totaliter-rejimlerde-beyin-yikama-ve-zihin-kontrolunun-psikolojisi/732412.html | D&R: Pinhan Yayıncılık; kitapyurdu (arama özeti): çeviren Canberk Şeref, 02.10.2025, 368 s.
+K035 | Meerloo Schwable'ın askerî soruşturmasında bilirkişi | DOĞRU | https://archive.org/details/joost-meerloo-rape-of-the-mind | "For the Special Marine Corps Court of Inquiry ... I was asked, as an expert witness"
+K036 | 3 kısım, 15 bölüm; 2017 OUP baskısı | DOĞRU | https://archive.org/details/taylor-kathleen-brainwashing-the-science-of-thought-control-2004 ; https://openlibrary.org/books/OL27415074M | İçindekiler Part I–III, 1–15; OUP 23 Nisan 2017, 544 s.
+K036 | Türkçe baskı yok | DOĞRULANAMADI | ek/dogrulama/turkce_katalog.json | Yalnızca katalog taraması; bağımsız arama yapılmadı
+K037 | Ekman 1934–2025 (17 Kasım 2025'te öldü) | DOĞRU | https://en.wikipedia.org/wiki/Paul_Ekman | "Died November 17, 2025 ... (aged 91)"
+K037 | Telling Lies'ın Türkçe baskısı kataloglarda yok | DÜZELTİLDİ | https://openlibrary.org/works/OL26372987W ; https://www.kitapyurdu.com/kitap/default.asp?id=460896 | Aday iki Türkçe kayıt bulundu: "Yalan Söylediğimi Nasıl Anladın?!" (Okuyan Us 2012, 392 s.), "Ne Düşündüğünü Biliyorum" (2015, 408 s.); hangisinin çeviri olduğu doğrulanmadı diye yazıldı
+K037 | Bond ve DePaulo 2006: 206 belge, 24.483 yargıç, %54; yalan %47, doğru %61 | DOĞRU | https://doi.org/10.1207/s15327957pspr1003_2 | Özetle birebir uyumlu
+K038 | Vikipedi bugün Oklahoma Üniversitesi diyor; 2 kısım 15 bölüm, 384 s., 15 şekil 18 tablo, Kasım 2019 | DOĞRU | https://en.wikipedia.org/wiki/Timothy_R._Levine ; https://www.uapress.ua.edu/9780817359683/duped/ | "Distinguished Professor and Chair ... University of Oklahoma"; içindekiler Part I 1–5, Part II 6–15
+K038 | Levine 2022: inanca uygunluk, sosyal uyum, tekrar | DOĞRU | https://doi.org/10.1016/j.copsyc.2022.101380 | Current Opinion in Psychology, Ekim 2022; "Own belief congruity, social congruence, and message repetition"
+K039 | Künyede derleyen editör yok; "bir önsöz ('Okura bir meydan okuma' bölümüyle)"; altı adım (doğrulanmadı) | DÜZELTİLDİ | https://archive.org/details/frogs-into-princes-nlp | Künyeye "derleyen editör Steve Andreas (önceki adıyla John O. Stevens)" eklendi; önsöz Andreas'ın, "A Challenge to the Reader" ayrı giriş; "six-step format" metinde var, işaret kaldırıldı
+K039 | Wiseman ve ark. 2012 üç çalışma; Witkowski 2010 35 yıllık NLP araştırması | DOĞRU | https://doi.org/10.1371/journal.pone.0040259 ; https://api.crossref.org/works?query.bibliographic=Witkowski+Thirty-Five+Years | PLoS ONE 2012, 3 çalışma; Witkowski, Polish Psychological Bulletin 2010, "Thirty-Five Years of Research on NLP"
+K039 | Türkçe baskı yok ("NLP Kurbağadan Prense" vb.) | DOĞRULANAMADI | ek/dogrulama/turkce_katalog.json | Katalog boş; WebSearch ve Open Library'de Türkçe kayıt çıkmadı; metindeki temkinli ifade kaldı
+K040 | Cooper 728 puan, 3,78, Haziran 2021 2. baskı, 333 s.; Pace 469 puan | DOĞRU | https://www.goodreads.com/book/show/56380463-dark-psychology-and-manipulation ; https://www.goodreads.com/book/show/26086274-dark-psychology-101 | Diğer 5 kitabın puan sayıları bu turda açılmadı
+K040 | Originality.ai: 844 "Success" alt türü kitabın %77'si muhtemelen YZ, Ağustos–Kasım 2025 | DOĞRU | https://originality.ai/blog/likely-ai-success-self-help-book-study | "844 books in Amazon's 'Success' subcategory ... between Aug. 31 and Nov. 28"; "77% of all 'Success' Self-Help Books"
+
+Özet: 24 iddia · Doğru 15 · Düzeltildi 6 · Doğrulanamadı 3.
+Açık: Hassan, Taylor, Bandler-Grinder için Türkçe baskı yalnızca katalogla tarandı; Ekman Türkçe eşleşmesi; K040'taki diğer 5 Goodreads puanı.
