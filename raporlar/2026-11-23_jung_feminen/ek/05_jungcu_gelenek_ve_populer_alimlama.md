@@ -55,13 +55,13 @@ Bu dönemin ortak çizgisi: Jung'un erkek merkezli animus tarifinin ötesine ge�
 
 - **Jung'a sadık okuma savunusu:** Güçlü bir akademik savunma bulunamadı. Aranan "popülerleştirmeler Jung'a sadıktır" savı bu oturumda yalnızca eleştirmenlerin ağzından görüldü (özcülüğün "Jungcu felsefeyle tutarlı" olduğu yönünde Mythopoetic hareket için yazılan sözler, erkek tarafı çalışmasından). Kendi başına ciddi bir savunma yazısı bulunamadı.
 - **Jung'un özcülük karşıtı cümleleri:** §155 (içerik değil biçim) ve §330 ("aşağı bilinç değil, farklı"). İkisi de görüldü.
-- **Hipotezle çelişen:** Estés'in "Jungcu" olduğu Wikipedia'da açıkça yazılmaz; yalnızca eleştiri bölümünde "Jung-influenced psychologists" geçer. Estés'i Jungcu geleneğe bağlamak için ek kaynak gerekir.
+- **Düzeltme (doğrulayıcı):** Estés açıkça Jungcu analist olarak tanımlanır: Wikipedia 1984'te "certified Jungian analyst" diploması aldığını yazar; Penguin Random House onu "Jungian psychoanalyst" diye tanıtır. Önceki "açıkça yazılmaz" notu yanlıştı.
 
 ## 6. Türkçe alımlama
 
 | Eser | Türkçe durumu |
 |---|---|
-| *Women Who Run with the Wolves* | *Kurtlarla Koşan Kadınlar: Vahşi Kadın Arketipine Dair Mit ve Öyküler*; Ayrıntı; çev. Hakan Atalay; kütüphane kaydı 2010 baskısı, 27. baskı 2017. Okuyan Us kaydı bulunamadı; Ayrıntı 2021 kaydı da var |
+| *Women Who Run with the Wolves* | *Kurtlarla Koşan Kadınlar: Vahşi Kadın Arketipine Dair Mit ve Öyküler*; Ayrıntı; çev. Hakan Atalay; ilk Türkçe basım 2003 (doğrulayıcı); 2017 baskısı 27. ya da 28. baskı (kayıtlar çelişiyor); "2010" kaydı doğrulanamadı. Okuyan Us kaydı bulunamadı; Ayrıntı 2021 kaydı da var |
 | *The Great Mother* | *Büyük Ana*; İş Bankası Kültür Yayınları; çev. Zehra Aksu Yılmazer |
 | Bolen, von Franz, Wolff, Harding, Woodman, Perera, E. Jung | Kayıt bulunamadı; "yok" denemez |
 | *Feminen* | Pinhan; çev. Tuğrul Veli Soylu; 200 s.; Idefix 2015 ilk basım, 1000kitap 2016, yerel harita 2. baskı Aralık 2016 |
@@ -69,7 +69,7 @@ Bu dönemin ortak çizgisi: Jung'un erkek merkezli animus tarifinin ötesine ge�
 *Feminen* okur değerlendirmeleri (arama özeti, düşük güven): Idefix sayfası kitabı yıllara yayılan seminer ve konuşmalar derlemesi, ağırlıklı anima ve animus olarak anlatır (doğru olmayabilir; seçki CW'den). Bir 1000kitap okuru, erkeğin bastırdığı yanları eşine yansıttığını yazar. Puan özeti bulunamadı. İngilizce *Aspects of the Feminine* için bir Goodreads okuru, kitabın aslında erkeğin bilinçdışındaki dişil imge olan anima hakkında olduğunu söyler.
 
 ## Açık kalanlar
-Wolff ve Emma Jung'un kendi metinleri; von Franz'ın Türkçe kaydı; Bolen'in Türkçe kaydı; Leonard, Ulanov, Young-Eisendrath, Kast içerikleri; Estés'in Jungcu bağının kaynağı; *Feminen*'in gerçek içindekiler listesi.
+Wolff ve Emma Jung'un kendi metinleri; von Franz'ın Türkçe kaydı; Bolen'in Türkçe kaydı; Leonard, Ulanov, Young-Eisendrath, Kast içerikleri; *Feminen*'in gerçek içindekiler listesi.
 
 ## Kaynaklar
 - CW 7: https://jungiancenter.org/wp-content/uploads/2023/09/Vol-7-two-essays-on-analytical-psychology.pdf (§330, 331, 335, 339)

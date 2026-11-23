@@ -16,7 +16,7 @@ Not: Kaynakların çoğu bu oturumda arama özeti düzeyinde görüldü; tam met
 
 ## 2. Evlilikte "kap ve kapsanan"; orta yaşta dönüş
 
-**Jung'un iddiası.** Evlilikte bir eş "kap" (kapsayan), öteki "kapsanan" rolündedir; karmaşık olan daha çok kapsanmaya muhtaçtır ve kendini evliliğin dışında hisseder (CW 17, 1925). İkincil alıntı bloglardan; **CW 17'deki paragraf numarası (§331) doğrulanmadı.** Bion'un aynı adlı kavramıyla ilgisi yok.
+**Jung'un iddiası.** Evlilikte bir eş "kap" (kapsayan), öteki "kapsanan" rolündedir; daha yalın yapılı eş karmaşık olanın içinde yaşar, karmaşık olan (kap) ise kendini evliliğin dışında hisseder ve eksiğini başka yerde arar (CW 17 §331–333, 1925; düzeltme: aralık ve içerik CW 17 metninde doğrulandı, bkz. B2; OCR'da bazı numaralar bozuk). Bion'un aynı adlı kavramıyla ilgisi yok.
 
 **Destekleyen kanıt.** Bühler, Krauss ve Orth (2021, *Psychological Bulletin*) ilişki doyumunun yaşam boyu seyrini inceledi; Bern Üniversitesi basın açıklamasına göre doyum yaklaşık 10. yılda en düşüğe iner, 20. yıla dek yükselir, sonra hafif düşer (özet; tam metin görülmedi). Yani ilişkide evrelenme ve ikinci bir toparlanma var.
 
