@@ -34,7 +34,7 @@ Yüksek Mach'ların genel tablosu: Hesapçı, uzun vadeli plan yapan, ahlaka kay
 
 Psikopati kavramının modern biçimi, Amerikalı psikiyatr Hervey Cleckley'nin 1941'de yayımladığı *The Mask of Sanity* (Akıl Sağlığı Maskesi) kitabıyla şekillendi. Cleckley, dışarıdan bakınca sakin, çekici, hatta zeki görünen, ama içeride derin bir duygusal yoksunluk taşıyan hastaları anlattı. Kitabın adı da buradan gelir: Normal görünüm bir maskedir.
 
-Cleckley'nin tarifi uzun süre klinik gözleme dayalı kaldı. Kanadalı psikolog Robert Hare 1970'lerde Vancouver'daki cezaevlerinde çalışırken bu tarifi ölçülebilir hâle getirmek için bir kontrol listesi geliştirdi. **Psikopati Kontrol Listesi** (*Psychopathy Checklist*, PCL) ilk kez 1980'de yayımlandı, gözden geçirilmiş sürümü **PCL-R** 1991'de çıktı, ikinci baskısı 2003'te geldi (1980 ve 1991 tarihleri bu oturumda birincil kaynaktan doğrulanmadı; 2003 baskısı doğrulandı).
+Cleckley'nin tarifi uzun süre klinik gözleme dayalı kaldı. Kanadalı psikolog Robert Hare 1970'lerde Vancouver'daki cezaevlerinde çalışırken bu tarifi ölçülebilir hâle getirmek için bir kontrol listesi geliştirdi. **Psikopati Kontrol Listesi** (*Psychopathy Checklist*, PCL) ilk kez 1980'de kullanıma sunuldu, gözden geçirilmiş sürümü **PCL-R** 1991'de çıktı, ikinci baskısı 2003'te geldi.
 
 PCL-R bir anket değildir. Eğitimli bir uzman, yarı yapılandırılmış bir görüşme yapar ve kişinin resmi kayıtlarını inceler. 20 maddenin her birine 0, 1 ya da 2 puan verir. En yüksek puan 40'tır. Psikopati etiketi için kesme puanı ABD'de 30, Birleşik Krallık'ta 25'tir. Hare ayrıca kendi popüler kitabı *Without Conscience*'ı (1993) yazdı ve psikopatinin cezaevi dışındaki biçimlerine dikkat çekti. Paul Babiak ile birlikte yazdığı *Snakes in Suits* (önceki raporda ayrıntılı) iş dünyasındaki psikopatik özellikleri anlatır.
 
@@ -50,7 +50,7 @@ Narsisizm adını Yunan mitolojisindeki Narkissos'tan alır: Suda gördüğü ke
 - **1971:** Heinz Kohut *The Analysis of the Self* kitabında narsisizmi gelişimsel bir süreç olarak ele aldı: Çocuğun büyüklenmeci benlik hayali zamanla sağlıklı özsaygıya dönüşür; bu süreç kesintiye uğrarsa ilkel büyüklenmecilik kalıcı olur.
 - **1975:** Otto Kernberg *Borderline Conditions and Pathological Narcissism* kitabında narsisizmin daha düşmanca, sömürücü yüzünü anlattı.
 - **1979:** Robert Raskin ve Calvin Hall, klinik görüşme gerektirmeyen bir anket olan **Narsisistik Kişilik Envanteri**'ni (*Narcissistic Personality Inventory*, NPI) geliştirdi. NPI daha sonra 40 maddelik (1984) ve 16 maddelik (2006) sürümlere indirildi ve gündelik insanlarda narsisizmi ölçmenin en yaygın aracı oldu.
-- **1980:** Amerikan Psikiyatri Birliği'nin tanı kılavuzunun üçüncü baskısı DSM-III, "narsisistik kişilik bozukluğu"nu resmi tanılar arasına aldı (doğrulanmadı: bu oturumda DSM-III'ü doğrudan gösteren bir kaynak görmedik; NPI'nin DSM-III ölçütlerinden türetildiği bilgisi doğrulandı). Bugün bu bozukluğun yaygınlığı için verilen tahminler %0 ile %6,2 arasında değişir; bu geniş aralık, ölçümün ne kadar zor olduğunu gösterir.
+- **1980:** Amerikan Psikiyatri Birliği'nin tanı kılavuzunun üçüncü baskısı DSM-III, "narsisistik kişilik bozukluğu"nu resmi tanılar arasına aldı. Bugün bu bozukluğun yaygınlığı için verilen tahminler %0 ile %6,2 arasında değişir; bu geniş aralık, ölçümün ne kadar zor olduğunu gösterir.
 
 NPI hakkında bilinmesi gereken bir şey: Pek çok araştırmacıya göre NPI daha çok "büyüklenmeci" (*grandiose*) narsisizmi ölçer. Kırılgan, kolay incinen, içe dönük "kırılgan" (*vulnerable*) narsisizmi yakalamak için sonradan başka ölçekler geliştirildi.
 
@@ -70,8 +70,8 @@ Paulhus ve Williams'ın 2002'de *Journal of Research in Personality* dergisinde 
 
 **Ölçme araçları.** Üç özelliği tek tek ölçmek için üç ayrı uzun ölçek (Mach IV, NPI, psikopati ölçekleri) kullanmak zaman alır. Bu yüzden kısa ölçekler geliştirildi:
 
-- **Kirli Düzine** (*Dirty Dozen*; Jonason ve Webster, 2010): Adından da anlaşılacağı gibi 12 madde, her özellik için 4 madde (madde sayısı doğrulanmadı). Çok kısa olduğu için çok kullanıldı, ama aşağıda göreceğimiz gibi en çok eleştirilen araç da oldu.
-- **Kısa Karanlık Üçlü** (*Short Dark Triad*, SD3; Jones ve Paulhus, 2014, *Assessment* dergisi, cilt 21, sayfa 28–41): 27 maddelik, her özellik için 9 madde (madde sayısı doğrulanmadı). Kirli Düzine'ye göre daha güvenilir kabul edilir.
+- **Kirli Düzine** (*Dirty Dozen*; Jonason ve Webster, 2010): Adından da anlaşılacağı gibi 12 madde, her özellik için 4 madde. Çok kısa olduğu için çok kullanıldı, ama aşağıda göreceğimiz gibi en çok eleştirilen araç da oldu.
+- **Kısa Karanlık Üçlü** (*Short Dark Triad*, SD3; Jones ve Paulhus, 2014, *Assessment* dergisi, cilt 21, sayfa 28–41): 27 maddelik, her özellik için 9 madde. Kirli Düzine'ye göre daha güvenilir kabul edilir.
 
 Bu ölçeklerin neredeyse hepsi **öz-bildirim**dir (*self-report*): Kişi kendisi hakkındaki ifadelere ne kadar katıldığını işaretler. Bunun sınırlarına aşağıda değineceğiz.
 
@@ -94,7 +94,7 @@ Aynı makaledeki ikinci deneyde (yine 71 öğrenci) katılımcılar, hiç karş�
 
 **Ölçek: SD4.** Paulhus, Buckels, Trapnell ve Jones 2021'de *European Journal of Psychological Assessment* dergisinde (cilt 37, sayı 3, sayfa 208–222) **Kısa Karanlık Dörtlü**yü (*Short Dark Tetrad*, SD4) yayımladı. SD3 genişletilerek oluşturuldu; dört özelliğin her biri için 7, toplam 28 madde içerir.
 
-**Tartışma.** Sadizmin psikopatiyle çok örtüştüğü için ayrı bir özellik sayılıp sayılmaması tartışmalıdır. Bazı çalışmalar sadizmin dörtlüde ayrı bir yapı olarak yer almasını destekler, bazıları ölçümlerde gereksiz tekrar bulunduğunu söyler. SD4'ün dört faktörlü yapısının verilere iyi uymadığını bulan bir yeniden deneme çalışması da var (Crawford ve arkadaşları; yıl doğrulanmadı).
+**Tartışma.** Sadizmin psikopatiyle çok örtüştüğü için ayrı bir özellik sayılıp sayılmaması tartışmalıdır. Bazı çalışmalar sadizmin dörtlüde ayrı bir yapı olarak yer almasını destekler, bazıları ölçümlerde gereksiz tekrar bulunduğunu söyler. SD4'ün dört faktörlü yapısının verilere iyi uymadığını bulan bir yeniden deneme çalışması da var (Crawford ve arkadaşları, 2024, *Personality and Individual Differences*).
 
 ### Karanlık çekirdek: D faktörü
 
@@ -126,7 +126,7 @@ Aşağıdaki bulguların neredeyse hepsi ortalama ve olasılık bildirir. "Karan
 
 Sık duyulan "Toplumun %1'i psikopattır" cümlesi kabaca doğrudur, ama kullanılan ölçüye bağlıdır. Ana Sanz-García ve arkadaşlarının 2021'de *Frontiers in Psychology*'de yayımladıkları meta-analiz (birçok çalışmanın sonuçlarını birleştiren istatistiksel inceleme), 15 çalışmada toplam 11.497 yetişkini bir araya getirdi. Tüm ölçme araçlarıyla birlikte yetişkin nüfusta psikopati yaygınlığını **%4,5** buldular. Ama altın standart sayılan PCL-R kullanıldığında bu oran **%1,2**'ye iniyordu. Oran erkeklerde daha yüksekti ve kurumlardan alınan örneklemlerde topluluk ya da öğrenci örneklemlerinden daha yüksekti.
 
-Cezaevlerinde oran çok daha yüksektir. Babiak ve arkadaşlarının makalesinde aktarılan karşılaştırmaya göre erkek hükümlülerde PCL-R ortalaması 22 civarındadır ve puanların yaklaşık **%15**'i 30 ya da üstündedir. Bazı kaynaklar bu oranı %25'e kadar çıkarır. Kesme puanı (30 mu, 25 mi) ve ülke değiştikçe oran da değişir; bu yüzden "cezaevlerinde yaklaşık %15–25" en dürüst özet olur.
+Cezaevlerinde oran çok daha yüksektir. Babiak ve arkadaşlarının makalesinde aktarılan karşılaştırmaya göre erkek hükümlülerde PCL-R ortalaması 22 civarındadır ve puanların yaklaşık **%15**'i 30 ya da üstündedir. Bazı kaynaklar bu oranı %25'e kadar çıkarır (doğrulanmadı). Kesme puanı (30 mu, 25 mi) ve ülke değiştikçe oran da değişir; bu yüzden "cezaevlerinde yaklaşık %15–25" en dürüst özet olur.
 
 #### Yöneticiler arasında psikopati: Babiak, Neumann ve Hare (2010)
 
@@ -160,7 +160,7 @@ Ayrıca, araştırmalar narsisistik özellikleri yüksek kişilerin iş görüş
 
 #### İlişkiler ve kısa süreli eş seçimi
 
-Peter Jonason ve arkadaşlarının 2009'da *European Journal of Personality* dergisinde yayımladığı "The dark triad: Facilitating a short-term mating strategy in men" makalesi (künye doğrulanmadı), karanlık üçlü puanı yüksek erkeklerin kısa süreli ilişkilere ve daha çok sayıda partnere yöneldiğini bildirdi. Evrimsel psikolojide bu, "hızlı yaşam stratejisi" (*fast life history strategy*: uzun vadeli yatırım yerine hızlı ve çok sayıda fırsatı değerlendirme) ile açıklanır. Ancak sonraki çalışmaların sonuçları karışıktır: Karanlık üçlünün her bileşeni bu stratejiyle aynı biçimde ilişkili çıkmıyor; bazı alt bileşenler tersine "yavaş" stratejiyle ilişkili bulunuyor.
+Peter Jonason ve arkadaşlarının 2009'da *European Journal of Personality* dergisinde yayımladığı "The dark triad: Facilitating a short-term mating strategy in men" makalesi, karanlık üçlü puanı yüksek erkeklerin kısa süreli ilişkilere ve daha çok sayıda partnere yöneldiğini bildirdi. Evrimsel psikolojide bu, "hızlı yaşam stratejisi" (*fast life history strategy*: uzun vadeli yatırım yerine hızlı ve çok sayıda fırsatı değerlendirme) ile açıklanır. Ancak sonraki çalışmaların sonuçları karışıktır: Karanlık üçlünün her bileşeni bu stratejiyle aynı biçimde ilişkili çıkmıyor; bazı alt bileşenler tersine "yavaş" stratejiyle ilişkili bulunuyor.
 
 **Nasıl tanınır, nasıl korunur:** İlişkinin başında aşırı hızlı yakınlık, yoğun ilgi ve övgü (popüler dilde "sevgi bombardımanı"), ardından eleştiri ve soğukluk, sizi arkadaşlarınızdan uzaklaştırma ve yaşadıklarınızı inkâr etme gibi bir örüntü fark ediyorsanız bunu ciddiye alın. Kendi gözlemlerinizi not edin, güvendiğiniz biriyle paylaşın, gerekirse bir uzmana danışın. "Sevgi bombardımanı" kavramının kendisi popüler bir terimdir ve ayrıntılı bilimsel tanımı tartışmalıdır (doğrulanmadı); ama tarif ettiği örüntüyü fark etmek yine de işe yarar.
 
@@ -172,7 +172,7 @@ Buckels, Trapnell ve Paulhus 2014'te *Personality and Individual Differences* de
 
 #### Kalıtım: ikiz çalışmaları
 
-Philip Vernon ve arkadaşlarının 2008'de *Personality and Individual Differences* dergisinde yayımladığı ikiz çalışması, karanlık üçlü özelliklerinin genetik ve çevresel kaynaklarını inceledi. Sonraki çalışmaların aktardığına göre bu araştırma psikopati için yaklaşık **0,64**, narsisizm için yaklaşık **0,59** kalıtım katsayısı buldu (bu sayılar ikincil kaynaktan; birincil kaynakta doğrulanmadı). Makyavelizmde ise genetik etki daha düşüktü ve ortak aile çevresinin de payı vardı (makyavelizm için verilen sayı doğrulanmadı).
+Philip Vernon ve arkadaşlarının 2008'de *Personality and Individual Differences* dergisinde yayımladığı ikiz çalışması, karanlık üçlü özelliklerinin genetik ve çevresel kaynaklarını inceledi. Sonraki çalışmaların aktardığına göre bu araştırma psikopati için yaklaşık **0,64**, narsisizm için yaklaşık **0,59** kalıtım katsayısı buldu (bu sayılar ikincil kaynaktan, Campbell ve ark. 2009'un aktarımıyla doğrulandı; birincil kaynakta görülmedi). Makyavelizmde ise genetik etki daha düşüktü ve ortak aile çevresinin de payı vardı (makyavelizm için verilen sayı doğrulanmadı).
 
 Kalıtım katsayısı sık yanlış anlaşılır. 0,6 demek, "bir kişinin narsisizminin %60'ı genlerinden gelir" demek değildir. Bu, belirli bir örneklemde insanlar arasındaki *farkların* ne kadarının genetik farklarla ilişkili olduğunun bir tahminidir. Çevre etkisi, özellikle kardeşlerin paylaşmadığı arkadaş çevresi gibi deneyimler, de önemlidir.
 
@@ -247,12 +247,12 @@ Bu sorulara verdiğiniz yanıtlar, rehberin sonraki bölümlerinde ele alacağı
 
 #### Bu bölümde anılan kitaplar
 
-- Niccolò Machiavelli, *Il Principe*, 1532 (yazılışı 1513; yıllar bu oturumda doğrulanmadı) (önceki raporda ayrıntılı)
+- Niccolò Machiavelli, *Il Principe*, 1532 (yazılışı 1513) (önceki raporda ayrıntılı)
 - Hervey M. Cleckley, *The Mask of Sanity*, 1941
 - Richard Christie ve Florence L. Geis, *Studies in Machiavellianism*, 1970 (önceki raporda ayrıntılı)
 - Heinz Kohut, *The Analysis of the Self*, 1971
-- Stanley Milgram, *Obedience to Authority*, 1974 (yıl bu oturumda doğrulanmadı) (önceki raporda ayrıntılı)
+- Stanley Milgram, *Obedience to Authority*, 1974 (önceki raporda ayrıntılı)
 - Otto F. Kernberg, *Borderline Conditions and Pathological Narcissism*, 1975
 - Robert D. Hare, *Without Conscience*, 1993
-- Paul Babiak ve Robert D. Hare, *Snakes in Suits*, 2006 (yıl bu oturumda doğrulanmadı) (önceki raporda ayrıntılı)
-- Robert B. Cialdini, *Influence*, 1984 (yıl bu oturumda doğrulanmadı) (önceki raporda ayrıntılı)
+- Paul Babiak ve Robert D. Hare, *Snakes in Suits*, 2006 (önceki raporda ayrıntılı)
+- Robert B. Cialdini, *Influence*, 1984 (önceki raporda ayrıntılı)

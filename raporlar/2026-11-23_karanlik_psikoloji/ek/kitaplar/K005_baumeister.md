@@ -1,0 +1,47 @@
+## Roy F. Baumeister — Evil (Evil: Inside Human Violence and Cruelty, 1997)
+
+**Künye.** Roy F. Baumeister, benlik, öz denetim ve saldırganlık üzerine çalışan Amerikalı bir sosyal psikologdur; kitabı yazdığında Case Western Reserve Üniversitesi'nde psikoloji profesörüydü, daha sonra Florida State Üniversitesi'ne ve Avustralya'da Queensland Üniversitesi'ne geçti. Özgün dili İngilizce. Kütüphane kayıtları 1997 yılını verir (W. H. Freeman); ancak Publishers Weekly tanıtımı Ekim 1996'da yayımlanmış, kitap Kasım çıkışlı duyurulmuş ve Open Library de ilk yılı 1996 gösteriyor. Yani kitap büyük olasılıkla 1996 sonunda rafa çıktı, künyede 1997 yazıyor. 1999'da Henry Holt (Owl Books) karton kapak baskısı yapıldı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 430 sayfa (ix + 431 sayfa).
+
+**Bir cümleyle.** Kötülüğü çoğunlukla "saf kötü" canavarlar yapmaz; sıradan insanlar çıkar, yaralanmış gurur, idealizm ya da (daha seyrek) zevk yüzünden ve öz denetimleri gevşediğinde başkalarına zarar verir.
+
+**Bağlam.** 1990'ların ortasında Amerikan kamuoyunda yaygın bir inanç vardı: şiddet ve suçun kökünde düşük benlik saygısı yatar, öyleyse insanlara kendilerini iyi hissettirmek şiddeti azaltır. Baumeister bu sırada meslektaşlarıyla birlikte tam tersini savunan bir derleme yayımlamıştı (Baumeister, Smart ve Boden, 1996). Kitap bu akademik tartışmayı geniş okura taşır. Psikoloji, kriminoloji, tarih ve antropolojiden örnekleri (eş dövme, çete cinayeti, işkence, soykırım) birleştirir. Asıl yeniliği bakış açısıdır: kötülüğü kurbanın değil, failin gözünden anlamaya çalışır. Hedef okur hem öğrenciler hem de "insanlar bunu nasıl yapabiliyor" diye soran genel okurdur.
+
+**Yapısı.** Kitap 12 bölümden oluşur (Internet Archive kütüphane kaydındaki içindekiler):
+1. Kötülük sorusu ve yanıtları: Kötülüğü açıklamaya yönelik eski ve yeni yaklaşımlar.
+2. Kurbanlar ve failler: Aynı olayın iki tarafça ne kadar farklı anlatıldığı.
+3. Saf kötülük efsanesi: Popüler kültürdeki "masum kurban, sebepsiz kötü fail" kalıbının neden çoğu zaman yanlış olduğu.
+4. Açgözlülük, şehvet, hırs: amaca giden araç olarak kötülük.
+5. Egotizm ve intikam: Tehdit altındaki benlik görüntüsünün şiddete dönüşmesi.
+6. Gerçek inananlar ve idealistler: "İyi bir amaç" adına yapılan kötülük.
+7. Kötülük eğlenceli olabilir mi? Zarar vermenin zevki, yani sadizm.
+8. Çizgiyi aşmak: kötülük nasıl başlar (öz denetimin çöküşü).
+9. Kötülük nasıl büyür ve yayılır: Alışma, kısır döngüler, grup etkisi.
+10. Suçlulukla baş etmek: Faillerin vicdanlarını nasıl susturduğu.
+11. Kararsızlık ve yol arkadaşları: Doğrudan katılmayan ama göz yuman çoğunluk.
+12. Kötülük neden var? Genel sonuç.
+
+**Ana fikirler.**
+- **Saf kötülük efsanesi (myth of pure evil).** Popüler anlatıda kötü, zarar vermekten zevk alan, sebepsiz ve yabancı biridir; kurban ise tamamen masumdur. Baumeister'a göre gerçek olayların çoğu böyle değildir. Yayıncı tanıtımı da kitabın vardığı sonucu böyle özetler: masum kurbana sadist zevkle uygulanan "saf kötülük" büyük ölçüde bir efsanedir. Efsane, kendimizi kötülükten muaf görmemize yol açar.
+- **Büyüklük boşluğu (magnitude gap).** Bir zarar, kurban için fail için olduğundan çok daha büyüktür. Failin kazancı genellikle küçüktür, kurbanın kaybı ise büyük ve kalıcıdır. Kurbanlar olayı uzun süre ve ayrıntılı hatırlar; failler küçültür, unutur, "o kadar da büyük değildi" der.
+- **Birinci kök: araçsal kötülük.** Para, mal, iktidar ya da cinsel tatmin için zarar vermek. Burada zarar amaç değil, bir yöntemdir. Baumeister'a göre bu tür, sanıldığından az "kazandırır": suç ve şiddet uzun vadede genellikle kötü bir yatırımdır.
+- **İkinci kök: tehdit altındaki egotizm (threatened egotism).** Kitabın en çok tartışılan tezi. Şiddete eğilimli kişiler kendilerini değersiz değil, tersine çoğu zaman üstün görür. Bu şişirilmiş ama dengesiz benlik görüntüsü bir hakaret, reddedilme ya da aşağılanmayla sarsıldığında saldırganlık patlar. Yani tehlikeli olan düşük benlik saygısı değil, kırılgan biçimde yüksek benlik saygısıdır.
+- **Üçüncü kök: idealizm.** Tarihin en büyük kötülüklerinin bir kısmı "daha iyi bir dünya" adına yapıldı: din savaşları, devrimci terör, soykırımlar. Amaç kutsal görüldüğünde, araçlar meşrulaşır ve fail kendini kahraman sayar. Baumeister bu yüzden idealist kötülüğü en yıkıcı türlerden biri olarak görür.
+- **Dördüncü kök: sadizm.** Başkasının acısından zevk almak gerçektir, ama Baumeister'a göre faillerin küçük bir azınlığında görülür ve çoğu zaman zamanla gelişen, alışmayla edinilen bir tattır. Yani sadizm kötülüğün başlangıç noktası olmaktan çok bir sonucudur.
+- **Yakın neden: öz denetimin çöküşü.** Dört kök bir istek ya da dürtü yaratır; ama kişiyi asıl çizgiyi aşmaya iten, iç frenlerin gevşemesidir. Yorgunluk, alkol, öfke, grup içinde kaybolma ve kültürün baskıyı gevşetmesi bu frenleri zayıflatır. Publishers Weekly bunu, kötülüğün kültürler bireylerin öfkeli ve şiddet dolu dürtülerini dizginlemeyi bıraktığında büyüdüğü fikri olarak özetler.
+- **Kötülüğün tırmanması.** İlk adım zor, sonrakiler kolaydır. Duyarsızlaşma, intikam arzusu, grup uyumu ve kurbanı küçültme kötülüğü büyütür.
+- **Yol arkadaşları.** Kötülüğü çoğu zaman bir çekirdek kadro yapar, ama büyük bir çoğunluk kararsız kalır, sessizce izler ya da küçük yardımlarda bulunur. Bu kararsızlık kötülüğün yayılmasını mümkün kılar.
+
+**Bilimsel dayanağı.** Kitap tek bir deneye değil, geniş bir literatür derlemesine dayanır: laboratuvar saldırganlık çalışmaları, kriminoloji verileri, tarihsel olaylar ve faillerin kendi anlatımları. "Tehdit altındaki egotizm" tezinin arkasında Baumeister, Smart ve Boden'in 1996'da Psychological Review'da yayımladığı derleme durur. Bushman ve Baumeister (1998) laboratuvarda, narsisistik özellikleri yüksek kişilerin aşağılayıcı bir eleştiriden sonra daha saldırgan davrandığını gösterdi. Daha sonra benlik saygısı üzerine yapılan büyük bir derleme de (Baumeister ve arkadaşları, 2003) yüksek benlik saygısının şiddeti önlediği beklentisini desteklemedi. Buna karşılık Donnellan ve arkadaşları (2005) bazı örneklemlerde düşük benlik saygısının da saldırganlıkla ilişkili olduğunu bulmuştur; yani tablo "yalnızca yüksek benlik saygısı" kadar basit değildir. Büyüklük boşluğu fikri, Baumeister'ın daha önce kurban ve fail anlatılarını karşılaştırdığı çalışmalarına dayanır (Baumeister, Stillwell ve Wotman, 1990). Kitap ayrıca öz denetim modeline yaslanır; bu modelin bir parçası olan "ego tükenmesi" (ego depletion) etkisi, 2016'da iki düzine laboratuvarda yapılan büyük bir tekrar çalışmasında doğrulanamadı.
+Genel kanıt düzeyi: **[araştırma]** (akademik literatüre dayanan, ama popüler bilim üslubuyla yazılmış bir derleme).
+
+**Karanlık psikoloji haritasındaki yeri.**
+- **Kırılgan narsisizm ve büyüklenmeci narsisizm:** Tehdit altındaki egotizm, rehberdeki kırılgan narsisizmin bilimsel arka planlarından biridir. Eleştiriye öfkeyle karşılık veren, "aşağılandım" duygusuyla saldıran kişi profili burada doğar. Tepkisel istismar ve ilişkilerdeki öfke patlamaları bu çerçeveyle okunabilir.
+- **Sadizm ve karanlık dörtlü:** Baumeister sadizmi gerçek ama seyrek bir motivasyon olarak tanımlar. Bu, karanlık üçlüye sadizmin eklenmesiyle oluşan karanlık dörtlü tartışmasına erken bir girdidir.
+- **Ahlaki bağlantısızlık:** Faillerin suçluluğu bastırma yolları (kurbanı suçlama, sorumluluğu dağıtma, olayı küçültme), Bandura'nın ahlaki bağlantısızlık mekanizmalarıyla neredeyse birebir örtüşür.
+- **Kurban rolü, DARVO ve yansıtma:** Büyüklük boşluğu, istismarcıların olayı neden küçülttüğünü ve kendilerini neden kurban gibi anlattığını açıklar. DARVO (inkâr et, saldır, kurbanla faili yer değiştir) taktiğini tanımak için yararlı bir zemindir.
+- Bu listedeki **Zimbardo** ve **Browning** ile, ayrıca **Milgram** (önceki raporda) ile konuşur: Baumeister de "sıradan insanların" kötülüğünü anlatır, ama vurguyu durumdan çok failin içindeki güdülere koyar. **George K. Simon'ın In Sheep's Clothing** kitabıyla (önceki raporda) karşılaştırmak öğreticidir: Simon gizli saldırganı bilinçli bir manipülatör olarak çizer, Baumeister ise çoğu failin kendini haklı gördüğünü vurgular.
+- Greene'in yasalarıyla doğrudan bir örtüşmesi yoktur; ama Greene'in (önceki raporda) "egosu yaralanan kişiden sakın" türündeki uyarılarına bilimsel bir arka plan sunar.
+
+**Eleştiri ve sınırlar.** Publishers Weekly kitabı açık fikirli ve kışkırtıcı bulur, ama çerçevenin farklı kötülük türlerine "değişen derecelerde ikna edicilikle" uygulandığını not eder. Dört kökün birbirinden ne kadar ayrıldığı belirsizdir: bir soykırımda çıkar, idealizm ve egotizm iç içe geçer. "Saf kötülük efsanesi" ve kurbanın da olaya katkısı olabileceği fikri dikkatle okunmalıdır; Baumeister bunu faili aklamak için değil, olayı anlamak için söyler, ama yanlış okunursa kurbanı suçlamaya kayabilir. Benlik saygısı tezi sonraki araştırmalarla inceltilmiştir: bugün daha çok "narsisistik özellikler artı tehdit" kombinasyonundan söz edilir. Yazarın öz denetim modeli tekrar krizinden zarar gördü; bu kitabın ana tezlerini çürütmez ama bazı açıklamaların temkinle okunması gerektiğini gösterir.
+
+**Kimler okumalı.** Kötülüğün psikolojisine bilimsel bir girişten başlamak isteyen herkes için temel bir kitaptır; özellikle "istismarcı neden kendini haklı görüyor" sorusunu anlamak isteyenlere uygundur. Uyarı: Şiddet ve istismar yaşamış okur için kurbanın rolünü tartışan bölümler zorlayıcı olabilir; bu bölümler suçu paylaştırmak için değil, mekanizmayı anlamak için yazılmıştır.

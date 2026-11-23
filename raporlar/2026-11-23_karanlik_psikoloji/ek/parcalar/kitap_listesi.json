@@ -400,234 +400,257 @@
   "turkce_ad": ""
  },
  {
-  "dosya": "K041_kowalski",
-  "grup": "B1",
-  "katman": "B",
-  "yazar": "Robin M. Kowalski (ed.)",
-  "soyad": "Kowalski",
-  "ozgun_ad": "Aversive Interpersonal Behaviors",
-  "yil": "1997",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K042_jonason",
+  "dosya": "K041_jonason",
   "grup": "B1",
   "katman": "B",
   "yazar": "Peter K. Jonason (ed.)",
   "soyad": "Jonason",
   "ozgun_ad": "Shining Light on the Dark Side of Personality: Measurement Properties and Theoretical Advances",
   "yil": "2022",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K043_miller",
+  "dosya": "K042_miller",
   "grup": "B1",
   "katman": "B",
   "yazar": "Joshua D. Miller ve Donald R. Lynam (ed.)",
   "soyad": "Miller",
   "ozgun_ad": "The Handbook of Antagonism: Conceptualizations, Assessment, Consequences, and Treatment of the Low End of Agreeableness",
   "yil": "2019",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K044_furnham",
+  "dosya": "K043_furnham",
   "grup": "B1",
   "katman": "B",
   "yazar": "Adrian Furnham",
   "soyad": "Furnham",
   "ozgun_ad": "The Elephant in the Boardroom: The Causes of Leadership Derailment",
   "yil": "2010",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K045_mccarthy_jones",
+  "dosya": "K044_mccarthy_jones",
   "grup": "B1",
   "katman": "B",
   "yazar": "Simon McCarthy-Jones",
   "soyad": "McCarthy-Jones",
   "ozgun_ad": "Spite: The Upside of Your Dark Side",
   "yil": "2020",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K046_bandura",
+  "dosya": "K045_bandura",
   "grup": "B1",
   "katman": "B",
   "yazar": "Albert Bandura",
   "soyad": "Bandura",
   "ozgun_ad": "Moral Disengagement: How People Do Harm and Live with Themselves",
   "yil": "2016",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K047_staub",
-  "grup": "B2",
+  "dosya": "K046_campbell",
+  "grup": "B1",
   "katman": "B",
-  "yazar": "Ervin Staub",
-  "soyad": "Staub",
-  "ozgun_ad": "The Roots of Evil: The Origins of Genocide and Other Group Violence",
-  "yil": "1989",
-  "turkce_ad": ""
+  "yazar": "W. Keith Campbell ve Carolyn Crist",
+  "soyad": "Campbell",
+  "ozgun_ad": "The New Science of Narcissism: Understanding One of the Greatest Psychological Challenges of Our Time—and What You Can Do About It",
+  "yil": "2020",
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K048_waller",
+  "dosya": "K047_ronningstam",
   "grup": "B2",
   "katman": "B",
-  "yazar": "James Waller",
-  "soyad": "Waller",
-  "ozgun_ad": "Becoming Evil: How Ordinary People Commit Genocide and Mass Killing",
-  "yil": "2002",
-  "turkce_ad": ""
+  "yazar": "Elsa F. Ronningstam",
+  "soyad": "Ronningstam",
+  "ozgun_ad": "Identifying and Understanding the Narcissistic Personality",
+  "yil": "2005",
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K049_shaw",
+  "dosya": "K048_vaknin",
   "grup": "B2",
   "katman": "B",
-  "yazar": "Julia Shaw",
-  "soyad": "Shaw",
-  "ozgun_ad": "Evil: The Science Behind Humanity's Dark Side (İngiltere: Making Evil)",
+  "yazar": "Sam Vaknin",
+  "soyad": "Vaknin",
+  "ozgun_ad": "Malignant Self-Love: Narcissism Revisited",
+  "yil": "1999",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K049_dombek",
+  "grup": "B2",
+  "katman": "B",
+  "yazar": "Kristin Dombek",
+  "soyad": "Dombek",
+  "ozgun_ad": "The Selfishness of Others: An Essay on the Fear of Narcissism",
+  "yil": "2016",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K050_burgo",
+  "grup": "B2",
+  "katman": "B",
+  "yazar": "Joseph Burgo",
+  "soyad": "Burgo",
+  "ozgun_ad": "The Narcissist You Know: Defending Yourself Against Extreme Narcissists in an All-About-Me Age",
+  "yil": "2015",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K051_durvasula",
+  "grup": "B2",
+  "katman": "B",
+  "yazar": "Ramani Durvasula",
+  "soyad": "Durvasula",
+  "ozgun_ad": "Don't You Know Who I Am? How to Stay Sane in an Era of Narcissism, Entitlement, and Incivility",
   "yil": "2019",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K050_smith",
+  "dosya": "K052_golomb",
   "grup": "B2",
   "katman": "B",
-  "yazar": "David Livingstone Smith",
-  "soyad": "Smith",
-  "ozgun_ad": "Less Than Human: Why We Demean, Enslave, and Exterminate Others",
-  "yil": "2011",
-  "turkce_ad": ""
+  "yazar": "Elan Golomb",
+  "soyad": "Golomb",
+  "ozgun_ad": "Trapped in the Mirror: Adult Children of Narcissists in Their Struggle for Self",
+  "yil": "1992",
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K051_peck",
-  "grup": "B2",
-  "katman": "B",
-  "yazar": "M. Scott Peck",
-  "soyad": "Peck",
-  "ozgun_ad": "People of the Lie: The Hope for Healing Human Evil",
-  "yil": "1983",
-  "turkce_ad": "Yalanın İnsanları"
- },
- {
-  "dosya": "K052_fromm",
-  "grup": "B2",
-  "katman": "B",
-  "yazar": "Erich Fromm",
-  "soyad": "Fromm",
-  "ozgun_ad": "The Anatomy of Human Destructiveness",
-  "yil": "1973",
-  "turkce_ad": "İnsandaki Yıkıcılığın Kökenleri"
- },
- {
-  "dosya": "K053_patrick",
+  "dosya": "K053_arabi",
   "grup": "B3",
+  "katman": "B",
+  "yazar": "Shahida Arabi",
+  "soyad": "Arabi",
+  "ozgun_ad": "Power: Surviving and Thriving After Narcissistic Abuse",
+  "yil": "2017",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K054_bouchoux",
+  "grup": "B3",
+  "katman": "B",
+  "yazar": "Jean-Charles Bouchoux",
+  "soyad": "Bouchoux",
+  "ozgun_ad": "Les pervers narcissiques",
+  "yil": "2009",
+  "turkce_ad": "Narsist Sapkınlar",
+  "yeni": false
+ },
+ {
+  "dosya": "K055_abramson",
+  "grup": "B3",
+  "katman": "B",
+  "yazar": "Kate Abramson",
+  "soyad": "Abramson",
+  "ozgun_ad": "On Gaslighting",
+  "yil": "2024",
+  "turkce_ad": "Gaslighting - Gerçekliği Çarpıtmanın ve Manipülasyonun Karanlık Sanatı",
+  "yeni": false
+ },
+ {
+  "dosya": "K056_sarkis",
+  "grup": "B3",
+  "katman": "B",
+  "yazar": "Stephanie Moulton Sarkis",
+  "soyad": "Sarkis",
+  "ozgun_ad": "Gaslighting: Recognize Manipulative and Emotionally Abusive People—and Break Free",
+  "yil": "2018",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K057_braiker",
+  "grup": "B3",
+  "katman": "B",
+  "yazar": "Harriet B. Braiker",
+  "soyad": "Braiker",
+  "ozgun_ad": "Who's Pulling Your Strings? How to Break the Cycle of Manipulation and Regain Control of Your Life",
+  "yil": "2004",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K058_engel",
+  "grup": "B3",
+  "katman": "B",
+  "yazar": "Beverly Engel",
+  "soyad": "Engel",
+  "ozgun_ad": "The Emotionally Abusive Relationship: How to Stop Being Abused and How to Stop Abusing",
+  "yil": "2002",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K059_patrick",
+  "grup": "B4",
   "katman": "B",
   "yazar": "Christopher J. Patrick (ed.)",
   "soyad": "Patrick",
   "ozgun_ad": "Handbook of Psychopathy",
   "yil": "2006",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K054_blair",
-  "grup": "B3",
+  "dosya": "K060_blair",
+  "grup": "B4",
   "katman": "B",
   "yazar": "James Blair, Derek Mitchell, Karina Blair",
   "soyad": "Blair",
   "ozgun_ad": "The Psychopath: Emotion and the Brain",
   "yil": "2005",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K055_lykken",
-  "grup": "B3",
+  "dosya": "K061_lykken",
+  "grup": "B4",
   "katman": "B",
   "yazar": "David T. Lykken",
   "soyad": "Lykken",
   "ozgun_ad": "The Antisocial Personalities",
   "yil": "1995",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K056_meloy",
-  "grup": "B3",
+  "dosya": "K062_meloy",
+  "grup": "B4",
   "katman": "B",
   "yazar": "J. Reid Meloy",
   "soyad": "Meloy",
   "ozgun_ad": "The Psychopathic Mind: Origins, Dynamics, and Treatment",
   "yil": "1988",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K057_mccord",
-  "grup": "B3",
-  "katman": "B",
-  "yazar": "William McCord ve Joan McCord",
-  "soyad": "McCord",
-  "ozgun_ad": "The Psychopath: An Essay on the Criminal Mind",
-  "yil": "1964",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K058_viding",
-  "grup": "B3",
+  "dosya": "K063_viding",
+  "grup": "B4",
   "katman": "B",
   "yazar": "Essi Viding",
   "soyad": "Viding",
   "ozgun_ad": "Psychopathy: A Very Short Introduction",
   "yil": "2019",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K059_marsh",
-  "grup": "B4",
-  "katman": "B",
-  "yazar": "Abigail Marsh",
-  "soyad": "Marsh",
-  "ozgun_ad": "The Fear Factor: How One Emotion Connects Altruists, Psychopaths, and Everyone In-Between",
-  "yil": "2017",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K060_fallon",
-  "grup": "B4",
-  "katman": "B",
-  "yazar": "James Fallon",
-  "soyad": "Fallon",
-  "ozgun_ad": "The Psychopath Inside: A Neuroscientist's Personal Journey into the Dark Side of the Brain",
-  "yil": "2013",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K061_thomas",
-  "grup": "B4",
-  "katman": "B",
-  "yazar": "M. E. Thomas (takma ad)",
-  "soyad": "Thomas",
-  "ozgun_ad": "Confessions of a Sociopath: A Life Spent Hiding in Plain Sight",
-  "yil": "2013",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K062_gagne",
-  "grup": "B4",
-  "katman": "B",
-  "yazar": "Patric Gagne",
-  "soyad": "Gagne",
-  "ozgun_ad": "Sociopath: A Memoir",
-  "yil": "2024",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K063_boddy",
-  "grup": "B4",
-  "katman": "B",
-  "yazar": "Clive R. Boddy",
-  "soyad": "Boddy",
-  "ozgun_ad": "Corporate Psychopaths: Organizational Destroyers",
-  "yil": "2011",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
   "dosya": "K064_samenow",
@@ -637,187 +660,206 @@
   "soyad": "Samenow",
   "ozgun_ad": "Inside the Criminal Mind",
   "yil": "1984",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K065_stout",
+  "dosya": "K065_marsh",
   "grup": "B5",
+  "katman": "B",
+  "yazar": "Abigail Marsh",
+  "soyad": "Marsh",
+  "ozgun_ad": "The Fear Factor: How One Emotion Connects Altruists, Psychopaths, and Everyone In-Between",
+  "yil": "2017",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K066_fallon",
+  "grup": "B5",
+  "katman": "B",
+  "yazar": "James Fallon",
+  "soyad": "Fallon",
+  "ozgun_ad": "The Psychopath Inside: A Neuroscientist's Personal Journey into the Dark Side of the Brain",
+  "yil": "2013",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K067_thomas",
+  "grup": "B5",
+  "katman": "B",
+  "yazar": "M. E. Thomas (takma ad)",
+  "soyad": "Thomas",
+  "ozgun_ad": "Confessions of a Sociopath: A Life Spent Hiding in Plain Sight",
+  "yil": "2013",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K068_gagne",
+  "grup": "B5",
+  "katman": "B",
+  "yazar": "Patric Gagne",
+  "soyad": "Gagne",
+  "ozgun_ad": "Sociopath: A Memoir",
+  "yil": "2024",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K069_shaw",
+  "grup": "B5",
+  "katman": "B",
+  "yazar": "Julia Shaw",
+  "soyad": "Shaw",
+  "ozgun_ad": "Evil: The Science Behind Humanity's Dark Side (İngiltere: Making Evil)",
+  "yil": "2019",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K070_peck",
+  "grup": "B5",
+  "katman": "B",
+  "yazar": "M. Scott Peck",
+  "soyad": "Peck",
+  "ozgun_ad": "People of the Lie: The Hope for Healing Human Evil",
+  "yil": "1983",
+  "turkce_ad": "Yalanın İnsanları",
+  "yeni": false
+ },
+ {
+  "dosya": "K071_boddy",
+  "grup": "B6",
+  "katman": "B",
+  "yazar": "Clive R. Boddy",
+  "soyad": "Boddy",
+  "ozgun_ad": "Corporate Psychopaths: Organizational Destroyers",
+  "yil": "2011",
+  "turkce_ad": "",
+  "yeni": false
+ },
+ {
+  "dosya": "K072_stout",
+  "grup": "B6",
   "katman": "B",
   "yazar": "Martha Stout",
   "soyad": "Stout",
   "ozgun_ad": "Outsmarting the Sociopath Next Door: How to Protect Yourself Against a Ruthless Manipulator",
   "yil": "2020",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K066_brown",
-  "grup": "B5",
+  "dosya": "K073_brown",
+  "grup": "B6",
   "katman": "B",
   "yazar": "Sandra L. Brown",
   "soyad": "Brown",
   "ozgun_ad": "Women Who Love Psychopaths: Inside the Relationships of Inevitable Harm",
-  "yil": "2005",
-  "turkce_ad": ""
+  "yil": "2009",
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K067_erikson",
-  "grup": "B5",
-  "katman": "B",
-  "yazar": "Thomas Erikson",
-  "soyad": "Erikson",
-  "ozgun_ad": "Omgiven av psykopater (Surrounded by Psychopaths)",
-  "yil": "2017",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K068_obaczewski",
-  "grup": "B5",
+  "dosya": "K074_obaczewski",
+  "grup": "B6",
   "katman": "B",
   "yazar": "Andrew M. Łobaczewski",
   "soyad": "Łobaczewski",
   "ozgun_ad": "Political Ponerology: A Science on the Nature of Evil Adjusted for Political Purposes",
   "yil": "1998",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K069_oakley",
-  "grup": "B5",
-  "katman": "B",
-  "yazar": "Barbara Oakley",
-  "soyad": "Oakley",
-  "ozgun_ad": "Evil Genes: Why Rome Fell, Hitler Rose, Enron Failed, and My Sister Stole My Mother's Boyfriend",
-  "yil": "2007",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K070_navarro",
-  "grup": "B5",
+  "dosya": "K075_navarro",
+  "grup": "B6",
   "katman": "B",
   "yazar": "Joe Navarro ve Toni Sciarra Poynter",
   "soyad": "Navarro",
   "ozgun_ad": "Dangerous Personalities: An FBI Profiler Shows You How to Identify and Protect Yourself from Harmful People",
   "yil": "2014",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K071_kohut",
+  "dosya": "K076_carnes",
   "grup": "B6",
   "katman": "B",
-  "yazar": "Heinz Kohut",
-  "soyad": "Kohut",
-  "ozgun_ad": "The Analysis of the Self",
-  "yil": "1971",
-  "turkce_ad": "Kendiliğin Çözümlenmesi"
+  "yazar": "Patrick J. Carnes",
+  "soyad": "Carnes",
+  "ozgun_ad": "The Betrayal Bond: Breaking Free of Exploitive Relationships",
+  "yil": "1997",
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K072_lowen",
-  "grup": "B6",
-  "katman": "B",
-  "yazar": "Alexander Lowen",
-  "soyad": "Lowen",
-  "ozgun_ad": "Narcissism: Denial of the True Self",
-  "yil": "1983",
-  "turkce_ad": "Narsisizm: Gerçek Benliğin İnkârı (doğrulanmadı)"
- },
- {
-  "dosya": "K073_ronningstam",
-  "grup": "B6",
-  "katman": "B",
-  "yazar": "Elsa F. Ronningstam",
-  "soyad": "Ronningstam",
-  "ozgun_ad": "Identifying and Understanding the Narcissistic Personality",
-  "yil": "2005",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K074_campbell",
-  "grup": "B6",
-  "katman": "B",
-  "yazar": "W. Keith Campbell ve Carolyn Crist",
-  "soyad": "Campbell",
-  "ozgun_ad": "The New Science of Narcissism: Understanding One of the Greatest Psychological Challenges of Our Time—and What You Can Do About It",
-  "yil": "2020",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K075_vaknin",
-  "grup": "B6",
-  "katman": "B",
-  "yazar": "Sam Vaknin",
-  "soyad": "Vaknin",
-  "ozgun_ad": "Malignant Self-Love: Narcissism Revisited",
-  "yil": "1999",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K076_dombek",
-  "grup": "B6",
-  "katman": "B",
-  "yazar": "Kristin Dombek",
-  "soyad": "Dombek",
-  "ozgun_ad": "The Selfishness of Others: An Essay on the Fear of Narcissism",
-  "yil": "2016",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K077_durvasula",
+  "dosya": "K077_staub",
   "grup": "B7",
   "katman": "B",
-  "yazar": "Ramani Durvasula",
-  "soyad": "Durvasula",
-  "ozgun_ad": "Don't You Know Who I Am? How to Stay Sane in an Era of Narcissism, Entitlement, and Incivility",
-  "yil": "2019",
-  "turkce_ad": ""
+  "yazar": "Ervin Staub",
+  "soyad": "Staub",
+  "ozgun_ad": "The Roots of Evil: The Origins of Genocide and Other Group Violence",
+  "yil": "1989",
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K078_hotchkiss",
+  "dosya": "K078_waller",
   "grup": "B7",
   "katman": "B",
-  "yazar": "Sandy Hotchkiss",
-  "soyad": "Hotchkiss",
-  "ozgun_ad": "Why Is It Always About You? The Seven Deadly Sins of Narcissism",
+  "yazar": "James Waller",
+  "soyad": "Waller",
+  "ozgun_ad": "Becoming Evil: How Ordinary People Commit Genocide and Mass Killing",
   "yil": "2002",
-  "turkce_ad": "Narsisistik Bir Dünyada Hayatta Kalma Rehberi"
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K079_golomb",
+  "dosya": "K079_smith",
   "grup": "B7",
   "katman": "B",
-  "yazar": "Elan Golomb",
-  "soyad": "Golomb",
-  "ozgun_ad": "Trapped in the Mirror: Adult Children of Narcissists in Their Struggle for Self",
-  "yil": "1992",
-  "turkce_ad": ""
+  "yazar": "David Livingstone Smith",
+  "soyad": "Smith",
+  "ozgun_ad": "Less Than Human: Why We Demean, Enslave, and Exterminate Others",
+  "yil": "2011",
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K080_burgo",
+  "dosya": "K080_fromm",
   "grup": "B7",
   "katman": "B",
-  "yazar": "Joseph Burgo",
-  "soyad": "Burgo",
-  "ozgun_ad": "The Narcissist You Know: Defending Yourself Against Extreme Narcissists in an All-About-Me Age",
-  "yil": "2015",
-  "turkce_ad": ""
+  "yazar": "Erich Fromm",
+  "soyad": "Fromm",
+  "ozgun_ad": "The Anatomy of Human Destructiveness",
+  "yil": "1973",
+  "turkce_ad": "İnsandaki Yıkıcılığın Kökenleri",
+  "yeni": false
  },
  {
-  "dosya": "K081_arabi",
+  "dosya": "K081_stangneth",
   "grup": "B7",
   "katman": "B",
-  "yazar": "Shahida Arabi",
-  "soyad": "Arabi",
-  "ozgun_ad": "Power: Surviving and Thriving After Narcissistic Abuse",
-  "yil": "2017",
-  "turkce_ad": ""
+  "yazar": "Bettina Stangneth",
+  "soyad": "Stangneth",
+  "ozgun_ad": "Eichmann vor Jerusalem: Das unbehelligte Leben eines Massenmörders",
+  "yil": "2011",
+  "turkce_ad": "",
+  "yeni": true
  },
  {
-  "dosya": "K082_bouchoux",
+  "dosya": "K082_lower",
   "grup": "B7",
   "katman": "B",
-  "yazar": "Jean-Charles Bouchoux",
-  "soyad": "Bouchoux",
-  "ozgun_ad": "Les pervers narcissiques",
-  "yil": "2009",
-  "turkce_ad": "Narsist Sapkınlar"
+  "yazar": "Wendy Lower",
+  "soyad": "Lower",
+  "ozgun_ad": "Hitler's Furies: German Women in the Nazi Killing Fields",
+  "yil": "2013",
+  "turkce_ad": "",
+  "yeni": true
  },
  {
   "dosya": "K083_hill",
@@ -827,7 +869,8 @@
   "soyad": "Hill",
   "ozgun_ad": "See What You Made Me Do: Power, Control and Domestic Abuse",
   "yil": "2019",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
   "dosya": "K084_snyder",
@@ -837,7 +880,8 @@
   "soyad": "Snyder",
   "ozgun_ad": "No Visible Bruises: What We Don't Know About Domestic Violence Can Kill Us",
   "yil": "2019",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
   "dosya": "K085_monckton_smith",
@@ -847,7 +891,8 @@
   "soyad": "Monckton Smith",
   "ozgun_ad": "In Control: Dangerous Relationships and How They End in Murder",
   "yil": "2021",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
   "dosya": "K086_fontes",
@@ -857,7 +902,8 @@
   "soyad": "Fontes",
   "ozgun_ad": "Invisible Chains: Overcoming Coercive Control in Your Intimate Relationship",
   "yil": "2015",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
   "dosya": "K087_walker",
@@ -867,7 +913,8 @@
   "soyad": "Walker",
   "ozgun_ad": "The Battered Woman",
   "yil": "1979",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
   "dosya": "K088_dutton",
@@ -877,7 +924,8 @@
   "soyad": "Dutton",
   "ozgun_ad": "The Abusive Personality: Violence and Control in Intimate Relationships",
   "yil": "1998",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
   "dosya": "K089_forward",
@@ -887,347 +935,382 @@
   "soyad": "Forward",
   "ozgun_ad": "Toxic Parents: Overcoming Their Hurtful Legacy and Reclaiming Your Life",
   "yil": "1989",
-  "turkce_ad": "Zehirli Ana Babalar"
+  "turkce_ad": "Zehirli Ana Babalar",
+  "yeni": false
  },
  {
-  "dosya": "K090_forward",
-  "grup": "B9",
-  "katman": "B",
-  "yazar": "Susan Forward ve Joan Torres",
-  "soyad": "Forward",
-  "ozgun_ad": "Men Who Hate Women and the Women Who Love Them",
-  "yil": "1986",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K091_leymann",
+  "dosya": "K090_leymann",
   "grup": "B9",
   "katman": "B",
   "yazar": "Heinz Leymann",
   "soyad": "Leymann",
   "ozgun_ad": "Mobbing: Psychoterror am Arbeitsplatz und wie man sich dagegen wehren kann",
   "yil": "1993",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K092_namie",
-  "grup": "B9",
-  "katman": "B",
-  "yazar": "Gary Namie ve Ruth Namie",
-  "soyad": "Namie",
-  "ozgun_ad": "The Bully at Work: What You Can Do to Stop the Hurt and Reclaim Your Dignity on the Job",
-  "yil": "2000",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K093_carnes",
-  "grup": "B9",
-  "katman": "B",
-  "yazar": "Patrick J. Carnes",
-  "soyad": "Carnes",
-  "ozgun_ad": "The Betrayal Bond: Breaking Free of Exploitive Relationships",
-  "yil": "1997",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K094_freyd",
+  "dosya": "K091_freyd",
   "grup": "B9",
   "katman": "B",
   "yazar": "Jennifer J. Freyd ve Pamela J. Birrell",
   "soyad": "Freyd",
   "ozgun_ad": "Blind to Betrayal: Why We Fool Ourselves We Aren't Being Fooled",
   "yil": "2013",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K095_abramson",
-  "grup": "B10",
+  "dosya": "K092_salter",
+  "grup": "B9",
   "katman": "B",
-  "yazar": "Kate Abramson",
-  "soyad": "Abramson",
-  "ozgun_ad": "On Gaslighting",
-  "yil": "2024",
-  "turkce_ad": "Gaslighting - Gerçekliği Çarpıtmanın ve Manipülasyonun Karanlık Sanatı"
+  "yazar": "Anna C. Salter",
+  "soyad": "Salter",
+  "ozgun_ad": "Predators: Pedophiles, Rapists, and Other Sex Offenders: Who They Are, How They Operate, and How We Can Protect Ourselves and Our Children",
+  "yil": "2003",
+  "turkce_ad": "",
+  "yeni": true
  },
  {
-  "dosya": "K096_sarkis",
-  "grup": "B10",
+  "dosya": "K093_winters",
+  "grup": "B9",
   "katman": "B",
-  "yazar": "Stephanie Moulton Sarkis",
-  "soyad": "Sarkis",
-  "ozgun_ad": "Gaslighting: Recognize Manipulative and Emotionally Abusive People—and Break Free",
+  "yazar": "Georgia M. Winters ve Elizabeth L. Jeglic",
+  "soyad": "Winters",
+  "ozgun_ad": "Sexual Grooming: Integrating Research, Practice, Prevention, and Policy",
+  "yil": "2022",
+  "turkce_ad": "",
+  "yeni": true
+ },
+ {
+  "dosya": "K094_o_neill",
+  "grup": "B9",
+  "katman": "B",
+  "yazar": "Rachel O'Neill",
+  "soyad": "O'Neill",
+  "ozgun_ad": "Seduction: Men, Masculinity and Mediated Intimacy",
   "yil": "2018",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": true
  },
  {
-  "dosya": "K097_braiker",
+  "dosya": "K095_schein",
   "grup": "B10",
-  "katman": "B",
-  "yazar": "Harriet B. Braiker",
-  "soyad": "Braiker",
-  "ozgun_ad": "Who's Pulling Your Strings? How to Break the Cycle of Manipulation and Regain Control of Your Life",
-  "yil": "2004",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K098_engel",
-  "grup": "B10",
-  "katman": "B",
-  "yazar": "Beverly Engel",
-  "soyad": "Engel",
-  "ozgun_ad": "The Emotionally Abusive Relationship: How to Stop Being Abused and How to Stop Abusing",
-  "yil": "2002",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K099_bernstein",
-  "grup": "B10",
-  "katman": "B",
-  "yazar": "Albert J. Bernstein",
-  "soyad": "Bernstein",
-  "ozgun_ad": "Emotional Vampires: Dealing with People Who Drain You Dry",
-  "yil": "2001",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K100_mirza",
-  "grup": "B10",
-  "katman": "B",
-  "yazar": "Debbie Mirza",
-  "soyad": "Mirza",
-  "ozgun_ad": "The Covert Passive-Aggressive Narcissist: Recognizing the Traits and Finding Healing After Hidden Emotional and Psychological Abuse",
-  "yil": "2017",
-  "turkce_ad": ""
- },
- {
-  "dosya": "K101_schein",
-  "grup": "B11",
   "katman": "B",
   "yazar": "Edgar H. Schein, Inge Schneier ve Curtis H. Barker",
   "soyad": "Schein",
   "ozgun_ad": "Coercive Persuasion: A Socio-Psychological Analysis of the 'Brainwashing' of American Civilian Prisoners by the Chinese Communists",
   "yil": "1961",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K102_lalich",
-  "grup": "B11",
+  "dosya": "K096_lalich",
+  "grup": "B10",
   "katman": "B",
   "yazar": "Janja Lalich",
   "soyad": "Lalich",
   "ozgun_ad": "Bounded Choice: True Believers and Charismatic Cults",
   "yil": "2004",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K103_barker",
-  "grup": "B11",
+  "dosya": "K097_barker",
+  "grup": "B10",
   "katman": "B",
   "yazar": "Eileen Barker",
   "soyad": "Barker",
   "ozgun_ad": "The Making of a Moonie: Choice or Brainwashing?",
   "yil": "1984",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K104_stein",
-  "grup": "B11",
+  "dosya": "K098_stein",
+  "grup": "B10",
   "katman": "B",
   "yazar": "Alexandra Stein",
   "soyad": "Stein",
   "ozgun_ad": "Terror, Love and Brainwashing: Attachment in Cults and Totalitarian Systems",
   "yil": "2017",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K105_montell",
-  "grup": "B11",
+  "dosya": "K099_montell",
+  "grup": "B10",
   "katman": "B",
   "yazar": "Amanda Montell",
   "soyad": "Montell",
   "ozgun_ad": "Cultish: The Language of Fanaticism",
   "yil": "2021",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K106_sargant",
-  "grup": "B11",
+  "dosya": "K100_sargant",
+  "grup": "B10",
   "katman": "B",
   "yazar": "William Sargant",
   "soyad": "Sargant",
   "ozgun_ad": "Battle for the Mind: A Physiology of Conversion and Brain-Washing",
   "yil": "1957",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K107_tuluce",
-  "grup": "B12",
+  "dosya": "K101_gudjonsson",
+  "grup": "B11",
   "katman": "B",
-  "yazar": "Hicran Tülüce",
-  "soyad": "Tülüce",
-  "ozgun_ad": "Karanlık Empat: Narsist, Psikopat, Makyavelist",
-  "yil": "doğrulanmadı",
-  "turkce_ad": "Karanlık Empat"
+  "yazar": "Gisli H. Gudjonsson",
+  "soyad": "Gudjonsson",
+  "ozgun_ad": "The Psychology of Interrogations and Confessions: A Handbook",
+  "yil": "2003",
+  "turkce_ad": "",
+  "yeni": true
  },
  {
-  "dosya": "K108_tarhan",
-  "grup": "B12",
+  "dosya": "K102_kassin",
+  "grup": "B11",
   "katman": "B",
-  "yazar": "Nevzat Tarhan",
-  "soyad": "Tarhan",
-  "ozgun_ad": "Kötülük Psikolojisi ve Toksik İlişkiler",
-  "yil": "doğrulanmadı",
-  "turkce_ad": "Kötülük Psikolojisi ve Toksik İlişkiler"
+  "yazar": "Saul Kassin",
+  "soyad": "Kassin",
+  "ozgun_ad": "Duped: Why Innocent People Confess—and Why We Believe Their Confessions",
+  "yil": "2022",
+  "turkce_ad": "",
+  "yeni": true
  },
  {
-  "dosya": "K109_ozakkas",
-  "grup": "B12",
+  "dosya": "K103_rid",
+  "grup": "B11",
   "katman": "B",
-  "yazar": "Tahir Özakkaş",
-  "soyad": "Özakkaş",
-  "ozgun_ad": "Narsisizm Üzerine Konuşmalar ve Olgu Sunumu",
-  "yil": "doğrulanmadı",
-  "turkce_ad": "Narsisizm Üzerine Konuşmalar ve Olgu Sunumu"
+  "yazar": "Thomas Rid",
+  "soyad": "Rid",
+  "ozgun_ad": "Active Measures: The Secret History of Disinformation and Political Warfare",
+  "yil": "2020",
+  "turkce_ad": "",
+  "yeni": true
  },
  {
-  "dosya": "K110_tinaz",
-  "grup": "B12",
+  "dosya": "K104_van_der_linden",
+  "grup": "B11",
   "katman": "B",
-  "yazar": "Pınar Tınaz",
-  "soyad": "Tınaz",
-  "ozgun_ad": "İşyerinde Psikolojik Taciz (Mobbing)",
-  "yil": "2006",
-  "turkce_ad": "İşyerinde Psikolojik Taciz (Mobbing)"
+  "yazar": "Sander van der Linden",
+  "soyad": "van der Linden",
+  "ozgun_ad": "Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity",
+  "yil": "2023",
+  "turkce_ad": "",
+  "yeni": true
  },
  {
-  "dosya": "K111_efendi",
-  "grup": "B12",
+  "dosya": "K105_wylie",
+  "grup": "B11",
   "katman": "B",
-  "yazar": "Emin Efendi",
-  "soyad": "Efendi",
-  "ozgun_ad": "Karanlık Psikoloji - Manipülasyon ve Manipülasyon Oyunları - Karanlık Psikoloji",
-  "yil": "doğrulanmadı",
-  "turkce_ad": "Karanlık Psikoloji - Manipülasyon"
+  "yazar": "Christopher Wylie",
+  "soyad": "Wylie",
+  "ozgun_ad": "Mindf*ck: Cambridge Analytica and the Plot to Break America",
+  "yil": "2019",
+  "turkce_ad": "",
+  "yeni": true
  },
  {
-  "dosya": "K112_cole",
-  "grup": "B12",
+  "dosya": "K106_brignull",
+  "grup": "B11",
   "katman": "B",
-  "yazar": "Türkçeye çevrilen kendi-yayını kitaplar ve diziler (Gece Kitaplığı 'Karanlık Psikoloji ile...' dizisi, Akıl İzi 'Karanlık Psikoloji' seti, Tristan Cole, Don Barlow, Osman Kutlu ve diğerleri)",
-  "soyad": "Cole",
-  "ozgun_ad": "Türkçe 'Karanlık Psikoloji' rafı (tür profili)",
-  "yil": "2020 sonrası",
-  "turkce_ad": "İnsan Hackerlığı"
+  "yazar": "Harry Brignull",
+  "soyad": "Brignull",
+  "ozgun_ad": "Deceptive Patterns: Exposing the Tricks Tech Companies Use to Control You",
+  "yil": "2023",
+  "turkce_ad": "",
+  "yeni": true
  },
  {
-  "dosya": "K113_vrij",
-  "grup": "B13",
+  "dosya": "K107_vrij",
+  "grup": "B12",
   "katman": "B",
   "yazar": "Aldert Vrij",
   "soyad": "Vrij",
   "ozgun_ad": "Detecting Lies and Deceit: The Psychology of Lying and the Implications for Professional Practice",
   "yil": "2000",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K114_simons",
-  "grup": "B13",
+  "dosya": "K108_simons",
+  "grup": "B12",
   "katman": "B",
   "yazar": "Daniel Simons ve Christopher Chabris",
   "soyad": "Simons",
   "ozgun_ad": "Nobody's Fool: Why We Get Taken In and What We Can Do About It",
   "yil": "2023",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K115_greenspan",
-  "grup": "B13",
+  "dosya": "K109_greenspan",
+  "grup": "B12",
   "katman": "B",
   "yazar": "Stephen Greenspan",
   "soyad": "Greenspan",
   "ozgun_ad": "Annals of Gullibility: Why We Get Duped and How to Avoid It",
   "yil": "2009",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K116_dove",
-  "grup": "B13",
+  "dosya": "K110_dove",
+  "grup": "B12",
   "katman": "B",
   "yazar": "Martina Dove",
   "soyad": "Dove",
   "ozgun_ad": "The Psychology of Fraud, Persuasion and Scam Techniques: Understanding What Makes Us Vulnerable",
   "yil": "2020",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K117_ariely",
-  "grup": "B13",
+  "dosya": "K111_ariely",
+  "grup": "B12",
   "katman": "B",
   "yazar": "Dan Ariely",
   "soyad": "Ariely",
   "ozgun_ad": "The (Honest) Truth About Dishonesty: How We Lie to Everyone—Especially Ourselves",
   "yil": "2012",
-  "turkce_ad": "Dürüstlük Hakkındaki (Dürüst) Gerçek"
+  "turkce_ad": "Dürüstlük Hakkındaki (Dürüst) Gerçek",
+  "yeni": false
  },
  {
-  "dosya": "K118_rowland",
-  "grup": "B13",
+  "dosya": "K112_rowland",
+  "grup": "B12",
   "katman": "B",
   "yazar": "Ian Rowland",
   "soyad": "Rowland",
   "ozgun_ad": "The Full Facts Book of Cold Reading",
   "yil": "1998",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K119_strauss",
-  "grup": "B14",
+  "dosya": "K113_mitnick",
+  "grup": "B13",
   "katman": "B",
-  "yazar": "Neil Strauss",
-  "soyad": "Strauss",
-  "ozgun_ad": "The Game: Penetrating the Secret Society of Pickup Artists",
-  "yil": "2005",
-  "turkce_ad": ""
+  "yazar": "Kevin D. Mitnick ve William L. Simon",
+  "soyad": "Mitnick",
+  "ozgun_ad": "The Art of Deception: Controlling the Human Element of Security",
+  "yil": "2002",
+  "turkce_ad": "Aldatma Sanatı",
+  "yeni": true
  },
  {
-  "dosya": "K120_hogan",
-  "grup": "B14",
+  "dosya": "K114_shadel",
+  "grup": "B13",
+  "katman": "B",
+  "yazar": "Doug Shadel",
+  "soyad": "Shadel",
+  "ozgun_ad": "Outsmarting the Scam Artists: How to Protect Yourself from the Most Clever Cons",
+  "yil": "2012",
+  "turkce_ad": "",
+  "yeni": true
+ },
+ {
+  "dosya": "K115_holmes",
+  "grup": "B13",
+  "katman": "B",
+  "yazar": "Becky Holmes",
+  "soyad": "Holmes",
+  "ozgun_ad": "Keanu Reeves Is Not in Love with You: The Murky World of Online Romance Fraud",
+  "yil": "2023",
+  "turkce_ad": "",
+  "yeni": true
+ },
+ {
+  "dosya": "K116_hogan",
+  "grup": "B13",
   "katman": "B",
   "yazar": "Kevin Hogan ve James Speakman",
   "soyad": "Hogan",
   "ozgun_ad": "Covert Persuasion: Psychological Tactics and Tricks to Win the Game",
   "yil": "2006",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K121_hughes",
-  "grup": "B14",
+  "dosya": "K117_hughes",
+  "grup": "B13",
   "katman": "B",
   "yazar": "Chase Hughes",
   "soyad": "Hughes",
   "ozgun_ad": "The Ellipsis Manual: Analysis and Engineering of Human Behavior",
   "yil": "2017",
-  "turkce_ad": ""
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K122_markovik",
-  "grup": "B14",
+  "dosya": "K118_strauss",
+  "grup": "B13",
   "katman": "B",
-  "yazar": "Erik von Markovik (Mystery) ve Chris Odom",
-  "soyad": "Markovik",
-  "ozgun_ad": "The Mystery Method: How to Get Beautiful Women Into Bed",
-  "yil": "2007",
-  "turkce_ad": ""
+  "yazar": "Neil Strauss",
+  "soyad": "Strauss",
+  "ozgun_ad": "The Game: Penetrating the Secret Society of Pickup Artists",
+  "yil": "2005",
+  "turkce_ad": "",
+  "yeni": false
  },
  {
-  "dosya": "K123_tomassi",
+  "dosya": "K119_tuluce",
   "grup": "B14",
   "katman": "B",
-  "yazar": "Rollo Tomassi",
-  "soyad": "Tomassi",
-  "ozgun_ad": "The Rational Male",
-  "yil": "2013",
-  "turkce_ad": ""
+  "yazar": "Hicran Tülüce",
+  "soyad": "Tülüce",
+  "ozgun_ad": "Karanlık Empat: Narsist, Psikopat, Makyavelist",
+  "yil": "doğrulanmadı",
+  "turkce_ad": "Karanlık Empat",
+  "yeni": false
+ },
+ {
+  "dosya": "K120_tarhan",
+  "grup": "B14",
+  "katman": "B",
+  "yazar": "Nevzat Tarhan",
+  "soyad": "Tarhan",
+  "ozgun_ad": "Kötülük Psikolojisi ve Toksik İlişkiler",
+  "yil": "doğrulanmadı",
+  "turkce_ad": "Kötülük Psikolojisi ve Toksik İlişkiler",
+  "yeni": false
+ },
+ {
+  "dosya": "K121_ozakkas",
+  "grup": "B14",
+  "katman": "B",
+  "yazar": "Tahir Özakkaş",
+  "soyad": "Özakkaş",
+  "ozgun_ad": "Narsisizm Üzerine Konuşmalar ve Olgu Sunumu",
+  "yil": "doğrulanmadı",
+  "turkce_ad": "Narsisizm Üzerine Konuşmalar ve Olgu Sunumu",
+  "yeni": false
+ },
+ {
+  "dosya": "K122_tinaz",
+  "grup": "B14",
+  "katman": "B",
+  "yazar": "Pınar Tınaz",
+  "soyad": "Tınaz",
+  "ozgun_ad": "İşyerinde Psikolojik Taciz (Mobbing)",
+  "yil": "2006",
+  "turkce_ad": "İşyerinde Psikolojik Taciz (Mobbing)",
+  "yeni": false
+ },
+ {
+  "dosya": "K123_cole",
+  "grup": "B14",
+  "katman": "B",
+  "yazar": "Türkçeye çevrilen ve Türkçe yazılan popüler 'karanlık psikoloji' kitapları (Gece Kitaplığı 'Karanlık Psikoloji ile...' dizisi, Akıl İzi seti, Emin Efendi, Tristan Cole, Don Barlow, Osman Kutlu ve diğerleri)",
+  "soyad": "Cole",
+  "ozgun_ad": "Türkçe 'Karanlık Psikoloji' rafı (tür profili)",
+  "yil": "2020 sonrası",
+  "turkce_ad": "İnsan Hackerlığı",
+  "yeni": false
  },
  {
   "dosya": "K124_kirschner",
@@ -1237,6 +1320,7 @@
   "soyad": "Kirschner",
   "ozgun_ad": "Manipulieren – aber richtig: Die acht Gesetze der Menschenbeeinflussung",
   "yil": "1974",
-  "turkce_ad": "Manipulasyon Ama Nasıl?"
+  "turkce_ad": "Manipulasyon Ama Nasıl?",
+  "yeni": false
  }
 ]

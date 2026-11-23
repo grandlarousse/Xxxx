@@ -8,7 +8,7 @@ K = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 src = open(os.path.join(K, "araclar", "tr_pazar_tara.py")).read()
 exec(src[:src.index("import sys\nANAHTAR")])   # f(), ara(), ara_ks(), UA, onbellek
 liste = json.load(open(K + "/parcalar/kitap_listesi.json"))
-if len(sys.argv) > 1: liste = [b for b in liste if b["katman"] in sys.argv[1:]]
+if len(sys.argv) > 1: liste = [b for b in liste if (b.get("yeni") if sys.argv[1] == "yeni" else b["katman"] in sys.argv[1:])]
 cikti = K + "/dogrulama/turkce_katalog.json"
 sonuc = json.load(open(cikti)) if os.path.exists(cikti) else {}
 for b in liste:

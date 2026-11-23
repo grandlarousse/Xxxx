@@ -98,7 +98,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** Konuşmayı reddederek, yok sayarak cezalandırmak (sessiz muamele) ya da tartışma sırasında içe kapanıp tek kelime etmemek (taş duvar).
 
-**Köken:** "Sessiz muamele" terimi 19. yüzyıl ABD hapishanelerinde, örneğin Auburn sisteminde uygulanan susturma cezasından gelir. Sosyal psikolog Kipling Williams sessiz muameleyi dışlanmanın (ostracism) en yaygın biçimi olarak tanımlar; *Ostracism* (2001) kitabı bu araştırmaları özetler. "Taş duvar"ı ilişki araştırmacısı John Gottman tanımladı (*Why Marriages Succeed or Fail*, 1994). Gottman'a göre taş duvar çoğu zaman kasıtlı değil, duygusal taşkın (flooding) karşısında sinir sisteminin kapanmasıdır.
+**Köken:** "Sessiz muamele" terimi 19. yüzyıl Avrupa ve ABD hapishanelerinde, örneğin ABD'deki Auburn sisteminde uygulanan susturma cezasından gelir. Sosyal psikolog Kipling Williams sessiz muameleyi dışlanmanın (ostracism) en yaygın biçimi olarak tanımlar; *Ostracism* (2001) kitabı bu araştırmaları özetler. "Taş duvar"ı ilişki araştırmacısı John Gottman tanımladı (*Why Marriages Succeed or Fail*, 1994). Gottman'a göre taş duvar çoğu zaman kasıtlı değil, duygusal taşkın (flooding) karşısında sinir sisteminin kapanmasıdır.
 
 **Örnek:** Kerem bir tartışmadan sonra eşiyle dört gün konuşmuyor, sorularına bakmıyor bile.
 
@@ -122,7 +122,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** Fiziksel şiddet olmadan da işleyebilen, kişinin gündelik yaşamını adım adım kuşatan bir denetim örüntüsü: para, telefon, kıyafet, arkadaşlık, uyku düzeni.
 
-**Köken:** Sosyolog Evan Stark'ın *Coercive Control* (2007) kitabı. Stark, aile içi şiddeti tek tek olaylar değil, özgürlüğü kısıtlayan süreklilik olarak görmeyi önerdi. İngiltere ve Galler'de 2015 tarihli Serious Crime Act, yakın ilişki ve aile içinde "denetleyici ya da zorlayıcı davranışı" suç hâline getirdi (ilgili maddenin 76. madde olduğu doğrulanmadı). İrlanda 2018 tarihli Domestic Violence Act ile benzer bir düzenleme yaptı.
+**Köken:** Sosyolog Evan Stark'ın *Coercive Control* (2007) kitabı. Stark, aile içi şiddeti tek tek olaylar değil, özgürlüğü kısıtlayan süreklilik olarak görmeyi önerdi. İngiltere ve Galler'de 2015 tarihli Serious Crime Act, yakın ilişki ve aile içinde "denetleyici ya da zorlayıcı davranışı" suç hâline getirdi (yasanın 76. maddesi). İrlanda 2018 tarihli Domestic Violence Act ile benzer bir düzenleme yaptı.
 
 **Örnek:** Selin'in eşi telefonunun şifresini istiyor, harcamalarını onaylıyor, annesini ne zaman ziyaret edeceğine karar veriyor. Hiç vurmadı, ama Selin artık hiçbir şeye tek başına karar veremiyor.
 
@@ -182,7 +182,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** Manipüle eden kişinin, hedefe baskı yapmak, bilgi toplamak ya da mesaj taşımak için üçüncü kişileri kullanması. Bu kişiler çoğu zaman iyi niyetlidir ve kullanıldıklarını bilmez.
 
-**Köken:** *Oz Büyücüsü*'ndeki (L. Frank Baum'un 1900 tarihli kitabı ve 1939 filmi; tarihler bu oturumda doğrulanmadı) Batı'nın Kötü Cadısı'nın emrindeki kanatlı maymunlar. Terimin narsisistik istismar destek topluluklarında yayıldığı genel kabul görüyor; ilk kullanım doğrulanmadı. Klinik bir terim değildir.
+**Köken:** *Oz Büyücüsü*'ndeki (L. Frank Baum'un 1900 tarihli kitabı ve 1939 filmi) Batı'nın Kötü Cadısı'nın emrindeki kanatlı maymunlar. Terimin narsisistik istismar destek topluluklarında yayıldığı genel kabul görüyor; ilk kullanım doğrulanmadı. Klinik bir terim değildir.
 
 **Örnek:** Kardeşiyle küsen Gizem'i, kardeşinin "çok üzgün" olduğunu söyleyen teyzeler, kuzenler sırayla arıyor ve "büyüklük sende kalsın" diyor.
 
@@ -230,7 +230,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** Karşıdakinin özgüvenini hafifçe zedeleyen, iltifat kılığında bir laf. Amaç, onay ihtiyacı yaratmaktır.
 
-**Köken:** Bu terimi "pickup" (baştan çıkarma koçluğu) topluluğu üretti. Terimi popülerleştiren kişi "Mystery" lakaplı Erik von Markovik'tir. Neil Strauss bu topluluğu *The Game* (2005) kitabında anlattı; *Rules of the Game* (2007) kitabında ise aynı tekniğe "diskalifiye edici" (disqualifier) adını verdi. Yani terim Strauss'tan değil, Mystery'den çıktı; Strauss yaygınlaştırdı.
+**Köken:** Bu terimi "pickup" (baştan çıkarma koçluğu) topluluğu üretti. Terimi popülerleştiren kişi "Mystery" lakaplı Erik von Markovik'tir. Neil Strauss bu topluluğu *The Game* (2005) kitabında anlattı; *Rules of the Game* (2007) kitabında ise aynı tekniğe "diskalifiye edici" (disqualifier) adını verdi. Yani terimi popülerleştiren Strauss değil, Mystery'dir; Strauss bu topluluğu geniş okur kitlesine tanıttı.
 
 **Örnek:** "Saçların çok güzel, takma mı?" ya da "Bu kadar akıllı bir kadın için ilginç bir seçim."
 
@@ -242,7 +242,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** Bağlanmaya niyet etmeden, ara ara düşük çabalı ilgi sinyalleri (beğeni, flörtöz mesaj, hikâyeye yanıt) göndererek karşıdakini oyalamak.
 
-**Köken:** Adı, iz bırakmak için yere atılan ekmek kırıntılarından gelir; çevrim içi flört dilinde doğdu (ilk kullanım doğrulanmadı). İspanya'da Navarro ve arkadaşlarının yaptığı bir anket çalışması kırıntı verme ve "ghosting" (iz bırakmadan kaybolma) deneyimlerini psikolojik sıkıntıyla ilişkilendirdi (çalışmanın yılı ve ayrıntısı doğrulanmadı). Terimin Vikipedi maddesi de kaynak sorunları nedeniyle işaretli.
+**Köken:** Adı, iz bırakmak için yere atılan ekmek kırıntılarından gelir; çevrim içi flört dilinde doğdu (ilk kullanım doğrulanmadı). İspanya'da Navarro ve arkadaşlarının 2020'de 626 yetişkinle yaptığı anket çalışması, kırıntı verme deneyiminin ("ghosting", yani iz bırakmadan kaybolmanın değil) daha düşük yaşam doyumu, daha fazla yalnızlık ve çaresizlikle ilişkili olduğunu buldu. Terimin Vikipedi maddesi de kaynak sorunları nedeniyle işaretli.
 
 **Örnek:** Üç haftadır sessiz olan biri gece yarısı "Seni düşündüm" yazıyor; buluşma önerince yine kayboluyor.
 
@@ -326,7 +326,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** "Son iki tane", "Bu fırsat bu gece bitiyor", "Şimdi karar vermezsen kaybedersin" gibi, düşünme süresini kısaltan baskı.
 
-**Köken:** Stephen Worchel, Jerry Lee ve Akanbi Adewole'nin 1975 kurabiye deneyi. Kavanozunda iki kurabiye olanlar, on kurabiye olanlara göre kurabiyeleri daha değerli buldu. Ondan ikiye düşen kurabiye ise daha da değerli bulundu. Bu etki, seçenekleri kısıtlanan kişinin tepki gösterdiğini söyleyen "psikolojik tepkisellik" (reactance) kuramıyla açıklanır (kuramın Jack Brehm'e ait olduğu ve 1966 tarihi doğrulanmadı). Cialdini bunu "kıtlık" ilkesi olarak işler (önceki raporda ayrıntılı).
+**Köken:** Stephen Worchel, Jerry Lee ve Akanbi Adewole'nin 1975 kurabiye deneyi. Kavanozunda iki kurabiye olanlar, on kurabiye olanlara göre kurabiyeleri daha değerli buldu. Ondan ikiye düşen kurabiye ise daha da değerli bulundu. Bu etki, seçenekleri kısıtlanan kişinin tepki gösterdiğini söyleyen "psikolojik tepkisellik" (reactance) kuramıyla açıklanır (Jack Brehm, *A Theory of Psychological Reactance*, 1966). Cialdini bunu "kıtlık" ilkesi olarak işler (önceki raporda ayrıntılı).
 
 **Örnek:** Yatırım danışmanı olduğunu söyleyen biri telefonda "Bu hisse yarın uçacak, bugün para yatırmazsan şansı kaçırırsın" diyor.
 
@@ -338,7 +338,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** İstenmemiş bir iyilik ya da hediyeyle borçluluk duygusu yaratıp sonra karşılığında daha büyük bir şey istemek.
 
-**Köken:** Dennis Regan'ın 1971 deneyi. Katılımcılar, deneyde kendisine kendiliğinden bir içecek ısmarlayan "Joe" adlı yardımcı araştırmacıdan sonradan daha fazla piyango bileti satın aldı. Etki, Joe'yu sevip sevmemelerinden büyük ölçüde bağımsızdı (bu ayrıntı bellekten, doğrulanmadı). Cialdini karşılıklılığı ikna ilkelerinin ilki sayar (önceki raporda ayrıntılı).
+**Köken:** Dennis Regan'ın 1971 deneyi. Katılımcılar, deneyde kendisine kendiliğinden bir içecek ısmarlayan "Joe" adlı yardımcı araştırmacıdan sonradan daha fazla piyango bileti satın aldı. Etki, Joe'yu sevip sevmemelerinden büyük ölçüde bağımsızdı. Cialdini karşılıklılığı ikna ilkelerinin ilki sayar (önceki raporda ayrıntılı).
 
 **Örnek:** Yeni tanıştığın bir komşu her hafta yemek getiriyor; bir ay sonra arabanı bir haftalığına ödünç istiyor.
 
@@ -390,7 +390,7 @@ Popüler korunma yazınında en sık önerilen iki teknik gri kaya ve temas kesm
 
 **Temas kesme (no contact):** Mesaj, telefon, sosyal medya dahil her iletişimi bitirmek ve hoovering girişimlerine yanıt vermemek. Bu konuda da doğrudan bir etkinlik araştırması bulamadık. İstismarcıyla zihinsel meşguliyetin ayrılıktan sonra toparlanmayı zorlaştırdığını gösteren eski çalışmalar var, ama bunlar temas kesmeyi bir yöntem olarak sınamıyor. "İnsanların yüzde 80'i temas kesmeyi bozar" türü sayıların kaynağı yok.
 
-İkisi de **[popüler]** etiketlidir. Klinik sağduyuyla uyumlu olabilirler ama kanıtlanmış tedaviler değildirler. Önemli bir uyarı: şiddet içeren ilişkilerde ayrılık dönemi riskli olabilir. Teması kesmeden önce güvenlik planı yap ve destek al. Türkiye'de ALO 183 Sosyal Destek Hattı bu konuda bilgi verir (bellekten, doğrulanmadı).
+İkisi de **[popüler]** etiketlidir. Klinik sağduyuyla uyumlu olabilirler ama kanıtlanmış tedaviler değildirler. Önemli bir uyarı: şiddet içeren ilişkilerde ayrılık dönemi riskli olabilir. Teması kesmeden önce güvenlik planı yap ve destek al. Türkiye'de ALO 183 Sosyal Destek Hattı bu konuda bilgi verir.
 
 #### Bu bölümde anılan kitaplar
 
@@ -406,10 +406,10 @@ Popüler korunma yazınında en sık önerilen iki teknik gri kaya ve temas kesm
 - John Gottman, *Why Marriages Succeed or Fail*, 1994
 - Jennifer J. Freyd ve Pamela Birrell, *Blind to Betrayal*, 2013
 - Evan Stark, *Coercive Control*, 2007
-- Robert Jay Lifton, *Thought Reform and the Psychology of Totalism*, 1961 (önceki raporda ayrıntılı; yıl bu oturumda doğrulanmadı)
+- Robert Jay Lifton, *Thought Reform and the Psychology of Totalism*, 1961 (önceki raporda ayrıntılı)
 - Susan Forward ve Donna Frazier, *Emotional Blackmail*, 1997
-- L. Frank Baum, *The Wonderful Wizard of Oz*, 1900 (yıl doğrulanmadı)
+- L. Frank Baum, *The Wonderful Wizard of Oz*, 1900
 - Neil Strauss, *The Game*, 2005
 - Neil Strauss, *Rules of the Game*, 2007
 - Lundy Bancroft, *Why Does He Do That?*, 2002
-- Robert B. Cialdini, *Influence*, 1984 (önceki raporda ayrıntılı; yıl bu oturumda doğrulanmadı)
+- Robert B. Cialdini, *Influence*, 1984 (önceki raporda ayrıntılı)
