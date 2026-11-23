@@ -27,12 +27,16 @@
 - Brignull bölümündeki Türkiye düzenlemesinin tarihleri haberlerden doğrulandı: Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'ndeki değişiklik 1 Temmuz 2026'da Resmî Gazete'de yayımlandı, 1 Ağustos 2026'da yürürlüğe girdi. Karanlık tasarımları hangi maddeyle kapsadığı görülmedi.
 - Łobaczewski'nin *Political Ponerology*'sinin ilk İngilizce basımı 1998'de değil, 2006'da yapıldı (Red Pill Press).
 - Forward'ın *Toxic Parents*'ının Türkçesi *Zehirli Ana Babalar* değil, *Zor Bir Ailede Büyümek* (İletişim).
-- Stout'un *The Sociopath Next Door*'unun Türkçesi yok. Türkçede çıkan, onun devam kitabı: *Yanı Başınızdaki Sosyopatı Alt Etmek*.
+- Stout'un *The Sociopath Next Door*'unun Türkçesi üç katalogda da görünmüyor. Türkçede çıkan, onun devam kitabı: *Yanı Başınızdaki Sosyopatı Alt Etmek*.
 
 **Küçük programlarla yapılan toplu kontroller.**
 
 - *Türkçe baskılar:* İlk tarama D&R ve Kitapseç kataloglarında yazar soyadıyla yapıldı. Doğrulayıcılar bu taramanın birçok çeviriyi kaçırdığını gösterdi; örneğin Hare'in *Vicdansızlar*'ı, Herman'ın *Travma ve İyileşme*'si ve Stern'ün *Gaslight Etkisi*. Bu yüzden 124 kitabın yazarı, tükenmiş baskıları da gösteren bkmkitap kataloğunda tam adıyla yeniden tarandı. 62 yazarın en az bir Türkçe kitabı çıktı ve 16 kitabın Türkçe baskı bilgisi düzeltildi ya da eklendi. Örnekler: Snyder *Görünmeyen Yaralar*, Simons ve Chabris *Külyutmaz*, Campbell ve Crist *Yeni Narsisizm Bilimi*, Freyd *İhanete Kör Olmak*, Strauss *Oyun*. Doğrulayıcılar da yaklaşık 25 kitabın Türkçe künyesini düzeltti ya da tamamladı. Sonuçta Türkçe baskısı künyede adıyla yazılı kitap sayısı 124'te __TR_SAYI__; çeviri eşleşmesi kesinleşmeyen __TRQ_SAYI__ kitap ayrıca (TR?) ile işaretli. Tarama tablosu `ek/dogrulama/turkce_karsilastirma.md` dosyasında.
-- *Envanter:* __OL__
+- *Envanter:* 203 kitabın yılı Open Library ile karşılaştırıldı. Yılı tek ve 1800 sonrası olan 187 kaydın:
+  - 148'i uyuştu.
+  - 12'si farklı çıktı. Bunların çoğu, Open Library'nin sonraki bir baskıyı ilk yıl saymasından kaynaklanıyor gibi görünüyor. Örneğin Adorno ve arkadaşlarının *The Authoritarian Personality*'si 1950'de çıktı, Open Library 1969 diyor. Farklar tek tek düzeltilmedi; liste `ek/parcalar/envanter_ol.json` dosyasında.
+  - 16'sı bulunamadı, 11'inde bağlantı hatası oldu.
+  Klasikler ve yılı aralıklı 16 kayıt denenmedi. Envanterin geri kalan künye bilgisi doğrulanmadı.
 - *Bağlantılar:* Defterlerdeki ve doğrulama notlarındaki 741 bağlantı tek bir programla denendi:
   - 651'i açıldı.
   - 50'si otomatik erişimi reddetti ya da çok sık istek uyarısı verdi; bunların 18'i dergi makalelerine yönlendiren doi.org adresleri.
