@@ -1,0 +1,213 @@
+{
+ "id": "G1",
+ "arac": "araç: 39/35 (çin örnekleminde baskı-iyi oluş ilişkisinin tutmadığı aykırı kanıtı ve yaşla değişim boylamsal çalışmasını doğrulamak için 4 çağrı fazla)",
+ "ozet": "(a) Ebeveyn, akran ve medya. Meta-analizlere göre ebeveynler kız ve erkek çocuklara çoğu alanda benzer davranıyor. Lytton & Romney (1991; 172 çalışma, Kuzey Amerika'dan 158'i) 19 alandan yalnızca birinde anlamlı fark buldu: cinsiyete tipik etkinliklerin teşvik edilmesi. Bu etki babalarda daha büyük, çocuk büyüdükçe zayıflıyor. d ≈ 0,43 değerini bu oturumda doğrulayamadım. Endendijk ve ark. (2016; 126 gözlem çalışması, 15.034 aile) erkek çocuklara biraz daha fazla kontrol uygulandığını buldu, ama fark ihmal edilecek düzeyde (d = 0,08). Tenenbaum & Leaper (2002) ebeveynin cinsiyet şemaları ile çocuğunkiler arasında küçük ama anlamlı bir ilişki buldu (r = 0,16). Doğrudan, farklı muamele küçük. Dolaylı model olma ise önemli olabilir: babanın ev işine katılımı kızların meslek hedefini yordadı (Croft ve ark. 2014). Akranlar güçlü bir bağlam. Aynı cinsten akranlarla geçen oyun süresi arttıkça cinsiyete tipik davranış da artıyor (Martin & Fabes 2001, \"sosyal doz etkisi\" (social dosage effect)). Medya: televizyon izleme ile geleneksel cinsiyet rolü tutumları arasındaki ortalama ilişki küçük (r ≈ 0,10; 69 örneklem) ve zamanla azalmamış. Destek düzeyi: ebeveyn için güçlü (etki küçük), akran için orta-güçlü, medya için güçlü (etki küçük, çoğu bulgu korelasyonel).\n\n(b) Öznel cinsiyet tipikliği. Egan & Perry (2001) cinsiyet kimliğini ayrı boyutlarla ölçüyor: hissedilen tipiklik (felt typicality), cinsiyetinden memnuniyet (contentedness), uyma yönünde hissedilen baskı (felt pressure) ve grup kayırmacılığı (intergroup bias). Perry ve ark. (2019) buna \"karşı cinse benzerlik\" boyutunu ekleyerek beş boyut sayıyor. Yetişkinlerde örnek ölçek: TMF ölçeği (Kachel ve ark. 2016). Kişi kendini 6 maddede \"çok eril\" ile \"çok dişil\" arasında derecelendiriyor ve bu tek bir iki kutuplu boyut veriyor. Bem'in birbirinden bağımsız iki boyutunu tamamlayıcı olarak sunuluyor. Bulgular: kendini cinsiyetine tipik hissetmek öz-değerle olumlu ilişkili. Baskı olumsuz ilişkili. En zararlı bileşim \"kendini tipik hissetmemek + baskı\". Ancak bu ilişkiyi kısmen akran kabulü açıklıyor: akranlarca kabul gören tipik olmayan ergenlerin öz-değeri tipik olanlarla benzer (Smith & Leaper 2006). Kültüre bağlılık var. Çin'de tipiklik iyi oluşu yordadı, ama baskı ve memnuniyet yordamadı (Yu & Xie 2010). Çalışmaların çoğu ABD'de yapılmış. Destek düzeyi: çocuk ve ergenlerde orta-güçlü, korelasyonel. Yetişkinlerde ve kültürler arasında karışık.\n\n(c) Yaşla değişim. Jones, Peskin & Livson'un (2011) 33-85 yaş boylamsal çalışmasında ortalama erkekte dişillik arttı, ortalama kadında azaldı. Yazarlara göre bu, Jung'un \"karşıtların yaklaşması\" fikrini destekliyor, ama Gutmann'ın \"ebeveynlik acil durumu\" (parental emergency) açıklamasını desteklemiyor. Kesitsel çalışmalarda rollerin yer değiştirdiğine dair kanıt zayıf. Destek düzeyi: karışık. Bir yakınlaşma eğilimi var, Gutmann'ın mekanizması desteklenmiyor.\n\nKullanıcıya yanıt: \"Bende yüzde kaç erkeklik var\" sorusunun psikolojide tek bir oran karşılığı yok. Tipiklik, memnuniyet, baskı, özellikler ve ilgiler ayrı ayrı ölçülüyor. İyi oluş için tipik olmaktan çok baskı görmemek ve kabul görmek önemli görünüyor.",
+ "defter": [
+  {
+   "iddia": "Lytton & Romney (1991, Psychological Bulletin) meta-analizi: Kuzey Amerika'da 19 alandan yalnızca cinsiyete tipik etkinliklerin teşvikinde anlamlı genel etki var",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4945059",
+   "alinti": "the only area in which there was a significant overall effect across 158 North American studies was the encouragement of gender-typed activities",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Lytton & Romney: bu teşvik etkisi babalarda annelerden büyük; çocuk büyüdükçe azalıyor (ikincil özet)",
+   "kaynak_url": "https://escholarship.org/content/qt07x9h9vv/qt07x9h9vv.pdf",
+   "alinti": "The effect was even larger with fathers than with mothers",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Lytton & Romney'de teşvik çocuğun önceden var olan tercihine tepki olabilir (yön belirsiz)",
+   "kaynak_url": "https://escholarship.org/content/qt07x9h9vv/qt07x9h9vv.pdf",
+   "alinti": "such encouragement may be given in response to children's pre-existing preferences",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Endendijk, Groeneveld, Bakermans-Kranenburg & Mesman (2016, PLoS ONE 11(7): e0159193): 126 gözlemsel çalışma, 15.034 aile",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4945059",
+   "alinti": "126 observational studies (15,034 families)",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Endendijk 2016: erkeklere biraz daha fazla kontrol, etki ihmal edilebilir; özerklik desteğinde genel fark yok",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4945059",
+   "alinti": "Gender-Differentiated Parenting Revisited: Meta-Analysis Reveals Very Few Differences in Parental Control of Boys and Girls; d = 0.08",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Endendijk 2016: 1990 sonrası çalışmalarda özerklik desteği kızlara biraz daha fazla (zaman eğilimi)",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4945059",
+   "alinti": "studies from 1990 onward showed more [autonomy-supportive parenting] with girls (özet)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Tenenbaum & Leaper (2002, Developmental Psychology 38(4), 615-630): 43 makale, 48 örneklem; ebeveyn ve çocuk cinsiyet şemaları arasında küçük pozitif ilişki",
+   "kaynak_url": "https://escholarship.org/uc/item/78d6g8zt",
+   "alinti": "r = .16",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Croft, Schmader, Block & Baron (2014, Psychological Science 25(7)): babanın ev işi payı ve örtük rol tutumları kızların meslek tercihlerini yordadı (326 çocuk, 7-13 yaş); dolaylı model olma etkisi",
+   "kaynak_url": "https://www2.psych.ubc.ca/~abaron/downloads/Croft_Schmader_Block_Baron_PsySci2014.pdf",
+   "alinti": "Fathers' implicit gender-role associations also uniquely predicted daughters' (but not sons') occupational preferences",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Martin & Fabes (2001, Developmental Psychology 37, 431-446): çocukların aynı cinsten partner tercihleri yüksek derecede ayrışmış ve zaman içinde istikrarlı",
+   "kaynak_url": "https://core.ac.uk/download/194457382.pdf",
+   "alinti": "partner preferences were highly sex differentiated and stable over time",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Martin & Fabes 2001: aynı cinsten akranla oyun arttıkça etkiler artıyor ('sosyal doz etkisi'); 61 çocuk, 3-6 yaş",
+   "kaynak_url": "https://www.apa.org/monitor/julaug01/peerplay",
+   "alinti": "the more children play with same-sex peers, the more we saw those effects on them",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Televizyon izleme ile cinsiyet rolü tutumları meta-analizi (Communication Monographs 2022, 89:3, 396-418; yazarlar muhtemelen Hermann, Morgan & Shanahan, tam doğrulanmadı): 69 örneklem, küçük etki",
+   "kaynak_url": "https://informahealthcare.com/doi/full/10.1080/03637751.2021.2018475",
+   "alinti": "485 effect sizes from 69 independent samples (N = 57,542) ... overall effect size of .102",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Aynı meta-analiz: ilişki zamanla azalmamış; kamusal alana ilişkin tutumlarda daha zayıf",
+   "kaynak_url": "https://informahealthcare.com/doi/full/10.1080/03637751.2021.2018475",
+   "alinti": "no evidence of any decline of this association over time",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Egan & Perry (2001, Developmental Psychology 37(4), 451-463): tipiklik, memnuniyet ve baskı uyumla ilişkili; grup kayırmacılığı ilişkili değil",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2661758",
+   "alinti": "felt pressure is associated with lower levels of self-worth",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Egan & Perry 2001 özetlenişi: tipiklik uyumla pozitif, baskı negatif ilişkili; baskı özellikle kendini tipik hissetmeyenlere zararlı (Carver, Yunger & Perry 2003; Yunger ve ark. 2004)",
+   "kaynak_url": "https://escholarship.org/content/qt1zf7v354/qt1zf7v354.pdf?t=senseg",
+   "alinti": "feeling pressure to conform to gender roles may be especially damaging to children who do not feel typical for their gender",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Halim, Bryant & Zucker (2016, Springer kitap bölümü): farklı etnik gruplarda kendini cinsiyetiyle uyumsuz hisseden çocukların öz-değeri daha düşük",
+   "kaynak_url": "https://home.csulb.edu/~mhalim/pub/Halim Bryant Zucker (2016) - Early Gender Development Mental Physical Health - Health Promotion.pdf",
+   "alinti": "across diverse ethnic groups, children who feel more incompatible with their gender do tend to exhibit more negative psychological adjustment",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Halim ve ark. 2016: kendini tipik hissetmeme ile uyma baskısının birleşimi özellikle zararlı",
+   "kaynak_url": "https://home.csulb.edu/~mhalim/pub/Halim Bryant Zucker (2016) - Early Gender Development Mental Physical Health - Health Promotion.pdf",
+   "alinti": "the combination of felt atypicality with feelings of pressure to conform to gender norms is particularly harmful for children",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Halim ve ark. 2016: erkek çocuklar cinsiyet normlarına uyma yönünde daha çok baskı ve daha sert yaptırım alıyor",
+   "kaynak_url": "https://home.csulb.edu/~mhalim/pub/Halim Bryant Zucker (2016) - Early Gender Development Mental Physical Health - Health Promotion.pdf",
+   "alinti": "boys, in particular, receive more pressure to conform to gender norms compared to girls, as well as receive harsher consequences",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Smith & Leaper (2006, Journal of Research on Adolescence 16(1), 91-103; 229 ergen): tipiklik-öz-değer ilişkisini kısmen akran kabulü açıklıyor",
+   "kaynak_url": "https://escholarship.org/content/qt1zf7v354/qt1zf7v354.pdf?t=senseg",
+   "alinti": "peer acceptance partially mediated the relation between self-perceived gender typicality and self-worth",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Smith & Leaper 2006: akranlarca kabul gören tipik olmayan ergenlerin öz-değeri uyumlu olanlarla benzer",
+   "kaynak_url": "https://escholarship.org/content/qt1zf7v354/qt1zf7v354.pdf?t=senseg",
+   "alinti": "having a social support group appears to be more important than gender typicality itself for maintaining self-esteem",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Perry, Pauletti & Cooper (2019, International Journal of Behavioral Development 43(4), 289-304) gözden geçirmesi beş boyut ele alıyor: aynı cinse tipiklik, karşı cinse tipiklik, memnuniyet, baskı, grup kayırmacılığı",
+   "kaynak_url": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_2239599395",
+   "alinti": "Gender identity in childhood: A review of the literature",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Yu & Xie (2010, Sex Roles 62, 100-113; Çin, 9-12 yaş, 361 çocuk): tipiklik öz-değerle ilişkili, ama baskı ve memnuniyet uyumu yordamadı (kültüre bağlılık)",
+   "kaynak_url": "https://research.polyu.edu.hk/en/publications/multidimensional-gender-identity-and-psychological-adjustment-in-/",
+   "alinti": "neither felt pressure nor gender contentment significantly predicted psychological adjustment",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Yu & Xie 2010: Çinli erkek çocuklar cinsiyetlerinden daha memnun ama daha çok baskı hissediyor",
+   "kaynak_url": "https://research.polyu.edu.hk/en/publications/multidimensional-gender-identity-and-psychological-adjustment-in-/",
+   "alinti": "feel more pressure to conform to gender stereotypes than girls",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Yu, Xie & Shek (2012): Çin örnekleminde tipiklik ve memnuniyet tek 'cinsiyet uyumu' faktöründe birleşti; ölçeğin yapısı kültüre göre değişiyor",
+   "kaynak_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3373173",
+   "alinti": "the three-factor model fits the current Chinese sample better than the original four-factor model",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Kachel, Steffens & Niedlich (2016, Frontiers in Psychology 7:956): TMF yetişkinde kendine atfedilen erillik-dişilliği tek boyutta ölçüyor",
+   "kaynak_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00956",
+   "alinti": "As expected the TMF reliably measured a one-dimensional masculinity-femininity construct.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "TMF örnek maddeleri ve iki kutuplu cevap ölçeği (\"çok eril\" ile \"çok dişil\" arası)",
+   "kaynak_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00956",
+   "alinti": "\"I consider myself as…\"; \"Ideally, I would like to be…\"; from \"very masculine\" to \"very feminine\"",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Kachel ve ark.: Bem'in bağımsız iki özellik boyutu, doğrudan erillik-dişillik algısının tek iki kutuplu boyutuyla tamamlanıyor",
+   "kaynak_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00956",
+   "alinti": "are complemented by one bipolar masculinity-femininity dimension",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Jones, Peskin & Livson (2011, Journal of Adult Development; 33-85 yaş boylamsal): ortalama erkekte dişillik artıyor, kadında azalıyor",
+   "kaynak_url": "https://doi.org/10.1007/s10804-010-9108-5",
+   "alinti": "the average man, initially low in femininity, becomes significantly higher in femininity across the lifespan; the average woman ... significantly lower",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Jones ve ark. 2011: bulgular Jung'un yakınlaşma hipotezini destekliyor, Gutmann'ın 'ebeveynlik acil durumu' açıklamasını desteklemiyor",
+   "kaynak_url": "https://doi.org/10.1007/s10804-010-9108-5",
+   "alinti": "support Jung's androgyny hypothesis of a cross-over ... but do not support Gutmann's hypothesis that such cross-over is tied to \"parental emergency\"",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Orta yaşta rol değişimi ya da androjeniye dair ulusal temsilî örneklemde kanıt zayıf (arama özetinden; künye doğrulanmadı)",
+   "kaynak_url": "https://link.springer.com/doi/10.1007/s11199-007-9282-5",
+   "alinti": "little empirical support was found for role reversal or androgyny at midlife",
+   "guven": "dusuk",
+   "kritik": false
+  }
+ ],
+ "listede_olmayan": "- Croft ve ark. (2014): ebeveynin dolaylı etkisi, yani babanın ev işi payı ve örtük tutumları, kızların meslek hedeflerini yordadı.\n- Medya meta-analizi (Communication Monographs 2022): televizyon ile geleneksel rol tutumları arasındaki ilişki r ≈ 0,10 ve zamanla azalmamış.\n- Smith & Leaper (2006): tipiklik ile öz-değer arasındaki ilişkiyi akran kabulü kısmen açıklıyor.\n- Erkek çocuklar daha çok uyma baskısı görüyor (Halim ve ark. 2016).\n- Perry ve ark. (2019) \"karşı cinse tipiklik\" diye ayrı bir boyut da sayıyor. Bu, kişinin kendinde iki yönü birden görmesine en yakın ölçüm.\n- Jones ve ark. (2011): yaşla birlikte erkekte dişillik artıyor, kadında azalıyor. Bulgu Jung'u destekliyor, Gutmann'ı desteklemiyor.",
+ "celisen_kanit": "- Lytton & Romney'de d ≈ 0,43 değeri hiçbir kaynakta görülmedi; doğrulanmadı. Ayrıca kaynaklarda çalışma sayısı 172 (toplam) ve 158 (Kuzey Amerika) olarak geçiyor.\n- \"Hissedilen baskı ruh sağlığını olumsuz etkiler\" iddiası her yerde geçerli değil. Çin örnekleminde baskı ve memnuniyet uyumu yordamadı (Yu & Xie 2010) ve ölçeğin faktör yapısı farklı çıktı.\n- Tipiklik ile iyi oluş arasındaki ilişkiyi kısmen akran kabulü açıklıyor. Yani bu ilişki kendiliğinden değil, bağlama bağlı.\n- Kesitsel çalışmalar Gutmann'ın rol değişimi fikrini genelde desteklemiyor.",
+ "acik_kalanlar": "- Lytton & Romney'deki d değeri ve Corby, Hodges & Perry (2007) bulguları için tam metin görülmedi.\n- Carver ve ark. (2003) bulguları yalnızca ikincil kaynaklardan aktarıldı.\n- Medya meta-analizinin yazarları kesin doğrulanmadı.\n- Jones ve ark. (2011) yalnızca arama özetinden görüldü (Springer erişim engeli). Örneklem büyüklüğü bilinmiyor.\n- Yetişkinlerde tipiklik ile iyi oluş arasındaki ilişkiye dair hakemli bir kaynak bulunamadı (Duke tezine erişilemedi).\n- Gutmann (1987) birincil kaynağı görülmedi."
+}

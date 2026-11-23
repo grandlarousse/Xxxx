@@ -1,0 +1,206 @@
+{
+ "id": "S1",
+ "arac": "34/35",
+ "ozet": "Sosyal bilimler erkeklik ve kadınlığı üç ana biçimde açıklar.\n\n1) Toplumsal inşacılık (social constructionism) ve feminist kuram: Beauvoir (1949) \"On ne naît pas femme : on le devient\" der: kadınlık doğuştan gelmez, toplumda öğrenilir ve dayatılır. Mead (1935) üç Yeni Gine toplumuna bakıp \"erkeksi/kadınsı\" denen kişilik özelliklerinin cinsiyete en az giyim ve saç biçimi kadar gevşek bağlı olduğunu yazdı. West & Zimmerman (1987) toplumsal cinsiyeti kişinin sahip olduğu bir özellik olarak görmez. Onlara göre insanlar onu gündelik etkileşimde sürekli \"yapar\" (doing gender). Butler (1990) bir adım öteye gider: ifadelerin ardında bir cinsiyet kimliği yoktur, kimlik bu ifadelerle edimsel olarak (performatively) kurulur. Connell'in hegemonik erkeklik (hegemonic masculinity) kavramı tek bir \"erkeklik\" değil, aralarında hiyerarşi olan birçok erkeklik tanımlar. Bu çizginin felsefi gücü yüksektir. Ampirik desteği karışıktır: Mead'in Tchambuli/Chambri bulguları Gewertz (1981) ve Errington & Gewertz (1987) tarafından ciddi biçimde sorgulandı. Money'nin \"doğuşta cinsiyetçe nötr\" tezi de John/Joan (David Reimer) vakasıyla çöktü (Diamond 1997).\n\n2) Evrimsel psikoloji: Trivers'ın (1972) ebeveyn yatırımı (parental investment) kuramına göre yavruya daha çok yatırım yapan cins eş seçiminde daha seçici olur. Buss (1989) 33 ülkede 37 örneklemde (N=10.047) eş tercihlerindeki farkların bu öngörüye uyduğunu buldu. Walter vd. (2020) bunu 45 ülkede (N=14.399) büyük ölçüde yineledi. Bu nedenle ortalama farkların bir bölümü için destek güçlüdür. Ancak bu farkların gerçekten uyarlanma (adaptation) olduğu kanıtlanmış değildir. \"Just-so story\" (sonradan uydurulmuş açıklama) ve aşırı uyarlamacılık eleştirileri sürüyor (SEP, Downes).\n\n3) Biyososyal model (Eagly & Wood): Toplumsal rol kuramına (social role theory) göre farklar, iş bölümünden ve bu bölümün doğurduğu beklentilerden çıkar. Wood & Eagly (2002), iş bölümünün başta kadının üreme işlevinden, ikinci olarak da erkeğin beden gücünden kaynaklandığını söyler. Eagly & Wood (1999) cinsiyet eşitliği yüksek ülkelerde bazı farkların küçüldüğünü gösterdi. Bu bulgu sonradan yöntem açısından eleştirildi ve 2020'de büyük ölçüde yinelenemedi (karışık).\n\nKültürler arası çeşitlilik: Hicra (Hindistan; 2014 NALSA kararıyla yasal üçüncü cinsiyet), two-spirit (terim 1990'da benimsendi), Bugis'te beş cinsiyet ve Balkanlarda yeminli bakireler gibi örnekler var. Bu örnekler cinsiyet kategorilerinin sayısının ve sınırlarının kültüre göre değiştiğini gösterir. Yine de çoğu toplum iki ana kategori üzerine kuruludur.\n\n\"Her insanda erkeklik/kadınlık oranı\" fikri: İnşacı yaklaşımlar bu fikri reddeder ya da yeniden çerçeveler. Erkeklik ve kadınlık kişinin içinde ölçülebilir bir öz değildir, toplumun tanımladığı ve yapılan kalıplardır. Evrimsel yaklaşım kişi içi oranlardan değil, grup ortalamalarındaki farklardan söz eder. Parsons & Bales'in (1955) araçsal/ifadesel ayrımı ise sonraki ölçeklerin kökenindedir. Hendrix & Johnson (1985) bu iki boyutun karşıt uçlar olmadığını, ayrı boyutlar olduğunu gösterdi. Bu bulgu \"herkeste ikisinden de belli düzeyde var\" fikrine dolaylı destek verir. Hofstede'nin erillik boyutu bireyleri değil toplumları ölçer, kişiye uygulanamaz.\n\nTürkiye: Kandiyoti (1988) Türkiye'yi de içine alan \"klasik ataerkillik\" kuşağında kadınların ataerkil pazarlık (patriarchal bargain) stratejilerini tanımladı. Sakallı-Uğurlu (2002) çelişik duygulu cinsiyetçilik ölçeğini Türkçeye uyarladı (düşmanca ve korumacı cinsiyetçilik). Hofstede'de Türkiye'nin puanı 45'tir, orta düzeydir.",
+ "defter": [
+  {
+   "iddia": "Beauvoir, Le Deuxième Sexe (1949), Tome II'nin açılış cümlesi",
+   "kaynak_url": "https://ocw.mit.edu/courses/21g-311-introduction-to-french-culture-spring-2014/666a43874b8e3c2f2feb54f7184d9cd5_MIT21G_311S14_Extrait_de.pdf",
+   "alinti": "On ne naît pas femme : on le devient. Aucun destin biologique, psychique, économique ne...",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "SEP 'Feminist Perspectives on Sex and Gender' (Mikkola): ilk yayın 2008, esaslı revizyon 18 Ocak 2022; Butler'ın görüşünün özeti",
+   "kaynak_url": "https://plato.stanford.edu/entries/feminism-gender/",
+   "alinti": "Gender is not something one is, it is something one does; it is a sequence of acts, a doing rather than a being.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Fausto-Sterling (2000): nüfusun yaklaşık %1,7'si alışılmış cinsiyet sınıflarına tam uymaz (SEP aktarımı; sayı tartışmalıdır)",
+   "kaynak_url": "https://plato.stanford.edu/entries/feminism-gender/",
+   "alinti": "1.7% of population fail to neatly fall within the usual sex classifications",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Mead, Sex and Temperament in Three Primitive Societies (1935), sonuç bölümü",
+   "kaynak_url": "https://personalwebs.coloradocollege.edu/~mduncombe/WS%20110/Mead,%20Sex%20and%20Temperament.pdf",
+   "alinti": "many, if not all, of the personality traits which we have called masculine or feminine are as lightly linked to sex as are the clothing",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Mead, Tchambuli'de cinsiyet tutumlarının tersine döndüğünü öne sürdü",
+   "kaynak_url": "https://personalwebs.coloradocollege.edu/~mduncombe/WS%20110/Mead,%20Sex%20and%20Temperament.pdf",
+   "alinti": "the actual reversal in Tchambuli of the position of dominance of the two sexes",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Gewertz (1981) American Ethnologist 8(1):94-106 ve Errington & Gewertz (1987) Mead'in Chambri'de kadın egemenliği tablosuna itiraz etti; örüntünün tarihsel olaylardan kaynaklandığını savundular",
+   "kaynak_url": "https://scilit.com/publications/92ff1c598a57e67781fd9b8a36c677d0",
+   "alinti": "Chambri women neither dominate Chambri men, nor vice versa (Errington & Gewertz 1987, yayıncı özeti; arama özetinden)",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "West & Zimmerman, 'Doing Gender', Gender and Society 1(2), Haziran 1987, s.125-151",
+   "kaynak_url": "https://www.gla.ac.uk/0t4/crcees/files/summerschool/readings/WestZimmerman_1987_DoingGender.pdf",
+   "alinti": "Doing gender involves a complex of socially guided perceptual, interactional, and micropolitical activities",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Butler, Gender Trouble (1990), s.25: edimsellik",
+   "kaynak_url": "https://ejournals.epublishing.ekt.gr/index.php/dianoesis/article/download/41735/30678",
+   "alinti": "there is no gender identity behind the expressions of gender; that identity is performatively constituted by the very 'expressions'",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Connell & Messerschmidt (2005), 'Hegemonic Masculinity: Rethinking the Concept', Gender & Society 19(6):829-859; kavramı savunur, özellik temelli modellere yönelik eleştiriyi kabul eder",
+   "kaynak_url": "https://gwonline.unc.edu/node/2266",
+   "alinti": "The concept of hegemonic masculinity has influenced gender studies across many academic fields but has also attracted serious criticism.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Wood & Eagly (2002) Psychological Bulletin 128(5):699-727: biyososyal model; iş bölümü ve ataerki öncelikle kadının üreme etkinliğinden kaynaklanır",
+   "kaynak_url": "https://hraf.yale.edu/ehc/documents/447",
+   "alinti": "patriarchy and division of labor by gender are due primarily to female reproductive activity and secondarily to male size and strength",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Eagly & Wood (1999, American Psychologist): Buss'ın 37 kültür verisinin yeniden analizi; cinsiyet eşitliği yüksek ülkelerde kazanç/ev becerisi tercih farkları daha küçük",
+   "kaynak_url": "https://typeset.io/pdf/the-origins-of-sex-differences-in-human-behavior-evolved-1gu922lf8z.pdf",
+   "alinti": "evolved sex-linked dispositions [versus] the differing placement of women and men in the social structure (arama özetinden)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Buss (1989) Behavioral and Brain Sciences 12: 33 ülkeden 37 örneklem, N=10.047",
+   "kaynak_url": "https://www.cambridge.org/core/product/identifier/S0140525X00023992/type/journal_article",
+   "alinti": "Predictions were tested in data from 37 samples drawn from 33 countries ... total N = 10,047",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Buss (1989) ana bulgular",
+   "kaynak_url": "https://www.cambridge.org/core/product/identifier/S0140525X00023992/type/journal_article",
+   "alinti": "Females were found to value cues to resource acquisition in potential mates more highly than males.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Walter vd. (2020) Psychological Science 31(4):408-423: 45 ülke, N=14.399; evrensel farklar sağlam, cinsiyet eşitliği yaş dışında farkları güvenilir biçimde öngörmüyor",
+   "kaynak_url": "https://research.vu.nl/en/publications/sex-differences-in-mate-preferences-across-45-countries-a-large-s/",
+   "alinti": "Support for universal sex differences in preferences remains robust",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Trivers (1972) 'Parental investment and sexual selection', Campbell (ed.) Sexual Selection and the Descent of Man, s.136-179: daha çok yatırım yapan cins daha seçici olur",
+   "kaynak_url": "https://www2.nau.edu/~shuster/shustercourses/BIO%20698/Literature/Trivers%201972.pdf",
+   "alinti": "1972; pp. 136–179 (yalnız arama özetinden, PDF açılmadı)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Evrimsel psikolojiye 'just-so story' ve aşırı uyarlamacılık eleştirisi (Gould & Lewontin 1979); SEP maddesi Downes, revizyon 30 Ocak 2024",
+   "kaynak_url": "https://plato.stanford.edu/entries/evolutionary-psychology/",
+   "alinti": "accounting for apparent design in nature in terms of adaptation amounts to telling just-so stories",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Kültürler arası tutarlılık tercihlerin uyarlanma olduğunu kanıtlamaz (Lloyd 1999, Buller 2005)",
+   "kaynak_url": "https://plato.stanford.edu/entries/evolutionary-psychology/",
+   "alinti": "does not speak to the evolutionary hypothesis that the preferences are adaptations",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Parsons & Bales (1955), Family, Socialization and Interaction Process: kocaya araçsal, karıya ifadesel rol; Hendrix & Johnson (1985, Sex Roles) bunların tek eksenin uçları değil ayrı boyutlar olduğunu gösterdi",
+   "kaynak_url": "https://link.springer.com/article/10.1007/BF00287296",
+   "alinti": "expressive and instrumental socialization are found to be separate factors or dimensions (arama özetinden)",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Diamond (1997) J Sex Research 34(2):199-222: bebeklerin psikoseksüel olarak nötr doğduğu görüşünü reddeder (John/Joan, Reimer vakası bağlamı)",
+   "kaynak_url": "https://hawaii.edu/PCSS/biblio/articles/1961to1999/1997-sexual-identity.html",
+   "alinti": "individuals are psychosexually biased at birth",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Diamond & Sigmundson (1997, Archives of Pediatrics and Adolescent Medicine): kız olarak yetiştirilen 'John' 14 yaşında erkek olarak yaşamaya döndü",
+   "kaynak_url": "https://hawaii.edu/PCSS/biblio/articles/1961to1999/1999-pediatric-management.html",
+   "alinti": "reassigned himself to live as a boy at the age of 14 (arama özetinden)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Herdt (ed.), Third Sex, Third Gender, Zone Books, Nisan 1994, 624 s.; Nanda'nın hicra bölümü, Gremaux'nun Balkanlar bölümü, Besnier'nin Polinezya bölümü",
+   "kaynak_url": "https://www.zonebooks.org/books/108-third-sex-third-gender-beyond-sexual-dimorphism-in-culture-and-history",
+   "alinti": "Published: April 1994; 624 pp.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "NALSA v. Union of India, 15 Nisan 2014, (2014) 5 SCC 438: trans bireyler yasal olarak 'üçüncü cinsiyet' tanındı",
+   "kaynak_url": "https://www.globalhealthrights.org/?p=9519",
+   "alinti": "15 April 2014; recognise transgender persons as a third gender (arama özetinden)",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "'Two-Spirit' terimi 1990'da Winnipeg'deki 3. Uluslararası Kızılderili/İlk Uluslar Gey-Lezbiyen toplantısında benimsendi; 'berdache' yerine",
+   "kaynak_url": "https://thecanadianencyclopedia.ca/en/article/two-spirit",
+   "alinti": "1990, Winnipeg (arama özetinden)",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Davies (2007) Challenging Gender Norms: Five Genders Among Bugis in Indonesia: makkunrai, oroani, calalai, calabai, bissu",
+   "kaynak_url": "https://research.monash.edu/en/publications/challenging-gender-norms-five-genders-among-bugis-in-indonesia/",
+   "alinti": "2007; five genders: makkunrai, oroani, calalai, calabai, bissu",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Balkan yeminli bakireleri (burrnesha): kadın doğup bekâret yemini ederek erkek olarak yaşayanlar; Kanun'a bağlı; Antonia Young, Women Who Become Men (2000)",
+   "kaynak_url": "https://ojs.unica.it/index.php/anuac/article/view/1789",
+   "alinti": "Women who become men? The sworn virgins in Albanian traditional culture",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Hofstede: Türkiye erillik puanı 45 (76 ülke içinde 43-45. sıra, orta düzey); boyut 2023'te 'Motivation towards Achievement and Success' adını aldı; toplum düzeyinde bir ölçü",
+   "kaynak_url": "https://courses.worldcampus.psu.edu/welcome/engr802/001/content/01_lesson/16_page.html",
+   "alinti": "Turkey's Masculinity (MAS) score is 45",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Kandiyoti (1988) 'Bargaining with Patriarchy', Gender & Society 2(3):274-290: Güney ve Doğu Asya ile Müslüman Orta Doğu'da 'klasik ataerkillik'",
+   "kaynak_url": "https://giwps.georgetown.edu/resource/bargaining-with-patriarchy/",
+   "alinti": "classic patriarchy (South and East Asia, Muslim Middle East); Gender & Society 2(3): 274–90",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Sakallı-Uğurlu (2002) Türk Psikoloji Dergisi 17(49):47-58: Çelişik Duygulu Cinsiyetçilik Ölçeği Türkiye'de geçerli ve güvenilir",
+   "kaynak_url": "https://open.metu.edu.tr/bitstream/handle/11511/54509/index.pdf",
+   "alinti": "ÇDCÖ'nün toplumsal cinsiyetçiliği Türkiye'de ölçebilecek geçerlik ve güvenirliğe sahip olduğu bulunmuştur",
+   "guven": "orta",
+   "kritik": false
+  }
+ ],
+ "listede_olmayan": "(1) Hendrix & Johnson (1985, Sex Roles): araçsal ve ifadesel toplumsallaşma tek bir karşıtlığın iki ucu değil, ayrı boyutlardır. Bu, \"herkeste ikisinden de belli düzeyde var\" fikrine sosyolojik bir köprü kurar. (2) John/Joan (David Reimer) vakası ve Diamond (1997), Money'nin \"doğuşta psikoseksüel nötrlük\" tezini çürüttü. Bu, katı inşacılığa karşı en güçlü kanıtlardan biridir. (3) Walter vd. (2020): 45 ülkede eş tercihi farkları yinelendi, cinsiyet eşitliği yaş dışında farkları öngörmedi. (4) Herdt (1994) cildinde Balkan yeminli bakireleri üzerine Gremaux'nun bir bölümü var. (5) Fausto-Sterling'in %1,7 interseks tahmini (SEP aktarımı) tartışmalıdır; dar tanımla oran çok daha düşüktür.",
+ "celisen_kanit": "Mead'in Tchambuli'de cinsiyet rollerinin tersine döndüğü bulgusuna Gewertz (1981) ile Errington & Gewertz (1987) itiraz etti: Chambri'de hiçbir cins ötekine egemen değil ve gözlenen örüntü tarihsel olayların ürünü. Eagly & Wood'un (1999) cinsiyet eşitliği bulgusu Galton problemi gerekçesiyle eleştirildi (Gangestad, Haselton & Buss 2006). Walter vd. (2020) bu bulguyu yaş tercihi dışında yineleyemedi. Bu nedenle toplumsal rol kuramının bu özel öngörüsü zayıflamış durumda. Listedeki küçük düzeltmeler: Diamond & Sigmundson'ın dergisi \"Archives of Pediatrics and Adolescent Medicine\"dır. Kandiyoti sonradan kendi makalesini \"analytically flawed\" diye eleştirmiş; bu bilgi yalnız Wikipedia kaynaklı ve doğrulanmadı. Hofstede'nin boyut adı 2023'te değişti. Türkiye'nin 45 puanı \"dişil taraf\" diye yorumlanır ama orta düzeydedir.",
+ "acik_kalanlar": "Bazı satırlar sayfa açılmadan yalnız arama özetine dayanıyor: Errington & Gewertz alıntısı, Trivers, Hendrix & Johnson, Two-Spirit, NALSA ve Eagly & Wood 1999. Bunlar orta güvenle işaretlendi. Butler alıntısı (s.25) kitabın kendisinden doğrulanmadı. Hofstede'nin güncel Türkiye puanı resmi siteden kontrol edilmedi. Fa'afafine için hakemli bir kaynak açılmadı (Herdt cildinde Besnier'nin bölümü olası kaynak). interculturalstudies.org adresine oturumun ağ ayarları nedeniyle erişilemedi. Britannica ve Psychological Science sayfaları 403 hatası verdi."
+}

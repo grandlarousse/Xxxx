@@ -1,0 +1,213 @@
+{
+ "id": "H1",
+ "arac": "araç: 40/35. Hint ve Yahudi mistisizmi kaynakları ilk denemelerde açılmadı. Muse, Britannica ve JWA sayfaları 403 verdi ya da boş döndü. İbn Arabi'deki ataerkillik vurgusunu (aykırı kanıt) bulmak için birkaç çağrı daha kullandım.",
+ "ozet": "\"Her insanda eril ve dişil öge vardır\" fikri iki ayrı dille ifade edilmiş. İkisini karıştırmamak gerekiyor.\n\n(1) Sembolik-metafizik dil:\n- Platon, Şölen'de Aristophanes'in söylencesi (MÖ 4. yy): Başta üç cins vardı (erkek, kadın ve \"erkek-kadın\", yani androjen). Bu varlıklar yuvarlaktı. İkiye bölününce her yarı ötekini aramaya başladı. Aşk, bütünlüğü arama özlemidir (192e).\n- Taoizm: Daodejing 42. bölüm, \"on bin şey yin'i sırtında taşır, yang'ı kucaklar\".\n- Hinduizm: Ardhanarishvara (\"yarısı kadın olan Efendi\"), dikey olarak ikiye bölünmüş Şiva-Parvati figürü. En eski örnekleri Kuşan dönemine (MS 1-3. yy) ait.\n- Yahudi geleneği: Bereşit Rabba 8:1'de ilk insan \"androjen\" ya da \"iki yüzlü\" yaratılmıştır. Kabala'da (Zohar) Şekina, onuncu sefira olan Malkut ile özdeşleştirilir ve Tanrı'nın dişil yönü sayılır.\n- İslam düşüncesi: Murata (1992) celâl (heybet) adlarını yang'a, cemâl (güzellik) adlarını yin'e benzetir. İbn Arabi, Fusûs'ta \"üç şey sevdirildi\" hadisini yorumlarken Tanrı'nın en kusursuz biçimde kadında müşahede edildiğini söyler (Shaikh 2012'nin aktarımıyla).\n\nBunlar ampirik iddia değildir. Test edilemezler; kozmoloji ve sembol dilidirler. Çoğunda hiyerarşi var:\n- Konfüçyüsçü Dong Zhongshu yang'ı \"pozitif, erkek\", yin'i \"negatif, kadın\" diye konumlar.\n- Wolfson (1995) ortaçağ Kabala'sının \"erkek merkezli fallus merkezciliğini\" vurgular.\n- Shaikh, İbn Arabi'nin ataerkil bir bağlamın insanı olduğunu kabul eder.\n\nÖte yandan Robin Wang (IEP), erken yin-yang düşüncesinde \"değer hiyerarşisi\" olmadığını savunur. Kısacası okumalar ihtilaflıdır.\n\n(2) Bilim kılığında \"oran\" kuramları (19. yy sonu - 20. yy başı):\n- Ulrichs (1864-1879 arası 12 kitapçık): \"Urning\" adını Şölen'den aldı. Eşcinsel erkeğin \"dişil bir ruhu\" olduğunu öne sürdü (Latince formül: anima muliebris virili corpore inclusa; birincil metinde doğrulanmadı).\n- Weininger, \"Geschlecht und Charakter\" (1903): İki ideal tip vardır, M (erkek) ve W (kadın). Gerçek insanlar bunların oranlarıdır. Çekim formülü: \"3/4M+1/4F, 3/4F+1/4M'yi arar\". Kitap kadın düşmanı ve antisemittir. Weininger Ekim 1903'te 23 yaşında intihar etti. Kitap 1903-1947 arasında 28 baskı yaptı.\n- Hirschfeld'in \"ara basamaklar\" öğretisi (Zwischenstufenlehre): Herkes eril ve dişil özelliklerin karışımıdır. En az 43.046.721 cinsel tip hesapladı. Enstitüsünü 1919'da kurdu. Enstitü 6 Mayıs 1933'te Nazi öğrencilerince basıldı; Hirschfeld 1935'te Nice'te öldü.\n- Havelock Ellis: \"Sexual Inversion\" (İngilizce 1897; Almanca baskı daha önce) tersinmeyi çoğunlukla doğuştan sayar.\n\nBilimsel destek düzeyi:\n- Sembolik gelenekler: ampirik olarak test edilmemiş, test edilebilir de değil.\n- Weininger'in oran ve çekim yasası: bilimsel değil, ideolojik ve spekülatif. Deneysel desteği yok (zayıf).\n- Hirschfeld'in çok boyutlu karışım fikri: modern \"cinsiyet tek bir eksen değildir\" görüşünün öncüsü. Ama onun sayısı bir kombinatorik hesaptır, ölçüm değildir.\n\nAna ajan için not: Ulrichs'in \"Urning\" terimi Şölen'den gelir. Sembolik gelenek ile 19. yüzyıl cinsellik biliminin (seksoloji) bu noktada doğrudan bağı var.",
+ "defter": [
+  {
+   "iddia": "Şölen'de Aristophanes: başta iki değil üç cins vardı",
+   "kaynak_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0174:text=Sym.:section=189e",
+   "alinti": "not merely the two sexes, male and female, as at present: there was a third kind as well (189e)",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Androjen ('erkek-kadın') biçimde ve adda bir bütündü",
+   "kaynak_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0174:text=Sym.:section=189e",
+   "alinti": "For 'man-woman' was then a unity in form no less than name",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "İlk insanlar yuvarlaktı",
+   "kaynak_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0174:text=Sym.:section=189e",
+   "alinti": "the form of each person was round all over",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "İkiye bölünen her yarı kendi eşini arar (191d)",
+   "kaynak_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0174:text=Sym.:section=191d",
+   "alinti": "each is ever searching for the tally that will fit him",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Aşk, ilk bütünlüğün özlemi ve arayışıdır (192e; tanımın devamı 193a'da)",
+   "kaynak_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0174:text=Sym.:section=192e",
+   "alinti": "our original form was as I have described, and we were entire; and the craving and pursuit",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Weininger: iki ideal tip M ve F; gerçek bireyler bunların oranlarıyla tanımlanan ara biseksüel durumlardır (E. Porge, International Dictionary of Psychoanalysis)",
+   "kaynak_url": "https://www.encyclopedia.com/psychology/dictionaries-thesauruses-pictures-and-press-releases/sex-and-character",
+   "alinti": "two ideal types, M and F ... intermediary bisexual states",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Weininger'in çekim yasası tamamlayıcı oranlara dayanır",
+   "kaynak_url": "https://www.encyclopedia.com/psychology/dictionaries-thesauruses-pictures-and-press-releases/sex-and-character",
+   "alinti": "a man with the equation 3/4M+1/4F seeks a woman with the equation 3/4F+1/4M",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Kitap 1903-1947 arasında 28 baskı yaptı, 10 dile çevrildi; intiharından sonra çok satan oldu",
+   "kaynak_url": "https://www.encyclopedia.com/psychology/dictionaries-thesauruses-pictures-and-press-releases/sex-and-character",
+   "alinti": "ran to twenty-eight editions between 1903 and 1947",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Weininger'e göre kadın özünde 'yarıdan fazla erkek' olamaz; oran fikri hiyerarşiktir",
+   "kaynak_url": "https://daily.jstor.org/man-behind-new-man/",
+   "alinti": "they'll never have more than 50 percent man in their essence",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Kitap kadın düşmanı ve antisemitik bir metindir (Max Genecov, JSTOR Daily, 2018)",
+   "kaynak_url": "https://daily.jstor.org/man-behind-new-man/",
+   "alinti": "a misogynist, anti-Semitic screed masquerading as philosophy",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Weininger Ekim 1903 başında 23 yaşında kendini vurdu",
+   "kaynak_url": "https://daily.jstor.org/man-behind-new-man/",
+   "alinti": "Ekim 1903, 23 yaşında",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Kitap Haziran 1903'te Viyana'da Braumüller'den çıktı; Sengoopta 2000 kitabı University of Chicago Press'ten",
+   "kaynak_url": "https://www.cambridge.org/core/product/1B5CDF822368E859134AE0E6B4946FDE",
+   "alinti": "Haziran 1903, Braumüller & Co.; Sengoopta 2000 (arama özetinden)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Ulrichs'in kuramı: eşcinsel erkeğin dişil ruhu vardır; 1864-1879 arasında 12 kitapçık; 'Urning' terimi Şölen'deki Pausanias konuşmasından alındı (J. D. Steakley)",
+   "kaynak_url": "https://encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ulrichs-karl-heinrich",
+   "alinti": "1864'ten 1879'a, on iki kitapçık; female anima (İngilizce aktarım)",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Ulrichs 1867'de Münih'te Alman Hukukçular Kongresi'nde dekriminalizasyon çağrısı yaptı ve yuhalandı",
+   "kaynak_url": "https://encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ulrichs-karl-heinrich",
+   "alinti": "1867 Congress of German Jurists in Munich",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Hirschfeld: tüm insanlar eril ve dişil özelliklerin karışık biçimleridir; en az 43.046.721 cinsel tip hesapladı",
+   "kaynak_url": "https://magnus-hirschfeld.de/institute-for-sexual-science-1919-1933/theory-practice/defining-the-sexes/",
+   "alinti": "all people were mixed forms of the most diverse combinations of male and female features ... at least 43 046 721",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Hirschfeld 1919'da Cinsellik Bilimi Enstitüsü'nü kurdu",
+   "kaynak_url": "https://encyclopedia.ushmm.org/content/en/article/magnus-hirschfeld-2",
+   "alinti": "In 1919, he established the Institute for Sexual Science",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Enstitü 6 Mayıs 1933'te Nazi öğrenci grubunca basıldı; malzemeler kitap yakmalarında yok edildi; Hirschfeld 1935'te Nice'te öldü",
+   "kaynak_url": "https://encyclopedia.ushmm.org/content/en/article/magnus-hirschfeld-2",
+   "alinti": "On May 6, 1933, a Nazi student group marched to the Institute ... died in Nice in 1935",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Havelock Ellis (J. A. Symonds ile), Sexual Inversion: İngilizce 1897; ilk Almanca baskı Symonds'u ortak yazar gösterir; tersinmeyi genelde doğuştan sayar",
+   "kaynak_url": "https://victorianweb.org/gender/sexuality/liberal.html",
+   "alinti": "Original publication in German, Leipzig 1897",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Daodejing 42 (D. C. Lau çevirisi): varlıklar yin'i sırtında taşır, yang'ı kucaklar",
+   "kaynak_url": "https://www.centertao.org/essays/tao-te-ching/dc-lau/chapter-42-commentary/",
+   "alinti": "The myriad creatures carry on their backs the yin and embrace in their arms the yang",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Yin-yang erken düşüncede tamamlayıcıdır, değer hiyerarşisi yoktur (Robin R. Wang, IEP)",
+   "kaynak_url": "https://iep.utm.edu/yinyang/",
+   "alinti": "no valuational hierarchy",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Dong Zhongshu (Konfüçyüsçü) yang'ı pozitif ve erkek, yin'i negatif ve kadın diye konumlar (Britannica)",
+   "kaynak_url": "https://www.britannica.com/biography/Dong-Zhongshu",
+   "alinti": "Yang (light, positive, male) and yin (dark, negative, female)",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Ardhanarishvara: yarısı Şiva yarısı Parvati, dikey bölünmüş; eril ve dişil enerjilerin birleşimini simgeler; V&A örneği Kuşan dönemi, 150-200",
+   "kaynak_url": "https://www.vam.ac.uk/blog/museum-life/out-on-display-5-lord-who-is-half-woman",
+   "alinti": "symbolises the combination of masculine and feminine energies of the universe",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Bereşit Rabba 8:1: R. Yirmeya b. Elazar'a göre Adem androjen, R. Şmuel b. Nahman'a göre iki yüzlü yaratıldı",
+   "kaynak_url": "https://www.sefaria.org/api/v3/texts/Bereshit_Rabbah.8.1?version=english",
+   "alinti": "When the Holy One blessed be He created Adam the first man, He created him androgynous.",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Kabala'da Şekina onuncu sefira Malkut'tur ve Tanrı'nın dişil yönüdür; Zohar'da Tanrı'nın Gelini (Howard Schwartz)",
+   "kaynak_url": "https://encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/shekhinah-gods-bride",
+   "alinti": "the feminine aspect of God—not an independent mythic being",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Wolfson (Circle in the Square, SUNY 1995): ortaçağ Kabala'sı erkek ve fallus merkezlidir",
+   "kaynak_url": "https://sunypress.edu/Books/C/Circle-in-the-Square2",
+   "alinti": "androcentric phallocentrism that is characteristic of medieval Jewish mysticism (arama özetinden; sayfa sonra 404 verdi)",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Murata (The Tao of Islam, SUNY 1992): celâl adları yang, cemâl adları yin (Legenhausen incelemesi)",
+   "kaynak_url": "https://al-islam.org/node/34938",
+   "alinti": "the yang Names and the yin Names",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Murata'ya göre İslam düşüncesindeki cinsiyet kavramları Hakikat'e yönelimden doğar (sembolik ve metafizik, sosyolojik değil)",
+   "kaynak_url": "https://al-islam.org/node/34938",
+   "alinti": "the gender concepts to be found in Islamic thought stem from its fundamental orientation toward Reality",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Shaikh (Sufi Narratives of Intimacy, UNC Press 2012), 6. bölüm: İbn Arabi'ye göre Tanrı en kusursuz biçimde kadında müşahede edilir",
+   "kaynak_url": "https://muse.jhu.edu/book/19255",
+   "alinti": "Witnessing God in women: a different story of creation (bölüm başlığı)",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Shaikh'e göre İbn Arabi kadın ve erkeğe özdeş manevi potansiyel tanır, ama ataerkil bir bağlamın insanıdır (Schubel, AJIS 31:3, 2014)",
+   "kaynak_url": "https://mail.ajis.org/index.php/ajiss/article/download/1065/387/1491",
+   "alinti": "Ibn Arabi was both a man of his time grounded in a patriarchal context",
+   "guven": "yuksek",
+   "kritik": true
+  }
+ ],
+ "listede_olmayan": "- Ulrichs'in \"Urning\" terimi Şölen'deki Pausanias'ın Uranos Afroditesi'nden gelir. Platon ile 19. yüzyıl cinsellik bilimi (seksoloji) arasında doğrudan bir bağ var.\n- Hirschfeld'in 43.046.721 tip hesabı (3^16) bir kombinatorik hesaptır, ölçüm değildir.\n- Weininger'e yöneltilen intihal suçlamaları: Moebius (1904) ve Fliess (1906; Swoboda aracılığıyla Freud'un biseksüellik fikri). Bu, Freud ajanının konusuna bağlanır.\n- Bereşit Rabba'da iki ayrı görüş var: \"androjen\" (androginos) ve \"iki yüzlü\" (du-partzufin).\n- Kabala'da dişil olan yalnız Şekina/Malkut değil; Binah da dişildir ve \"yukarı Şekina\" diye anılır (ikincil kaynak, orta güven).\n- Daodejing'de \"yin\" ve \"yang\" sözcükleri yalnızca 42. bölümde geçer (ikincil kaynak).\n- İbn Arabi, kadın ve erkeğin imamlığa eşit erişimini savunur (Shaikh aktarımı).",
+ "celisen_kanit": "- Yin-yang'ın hiyerarşik olup olmadığı tartışmalı. IEP'te Robin Wang erken düşüncede \"değer hiyerarşisi yoktur\" der. Britannica'nın Dong Zhongshu maddesi ise yin'i \"negatif\" sayar. Akademik bir özete göre Dong'un yaklaşımı cinsiyet eşitsizliğine felsefi zemin sağlamıştır (bu özet açılmadı). Yani listedeki \"çoğu gelenek eril ilkeyi üstün tutar\" genellemesi geç Konfüçyüsçülük ve ortaçağ Kabala'sı için güçlü, erken Taoizm için tartışmalı.\n- Weininger sözcük düzeyinde düzeltme: Porge maddesi kadın tipi için \"W\" yerine \"F\" kullanıyor. Almanca özgün metinde \"W\" (Weib).\n- Ellis'in \"Sexual Inversion\" kitabında tarih karışıklığı: ilk Almanca baskı 1896 ya da Leipzig 1897 diye farklı veriliyor, İngilizce baskı 1897. Kitap bir \"karışım ya da oran\" kuramı değil, doğuştan tersinme kuramıdır. Ellis'i bu listeye koymak zayıf kalabilir.\n- Hirschfeld'in enstitüsünü 1919'da Kronfeld ve Wertheim ile birlikte kurduğu bilgisi yalnızca Wikipedia'da geçiyor.",
+ "acik_kalanlar": "- Ulrichs'in Latince formülü (\"anima muliebris virili corpore inclusa\") birincil metinde ya da güvenilir bir ansiklopedide birebir doğrulanmadı. Yalnızca arama özetlerinde geçiyor.\n- Shiva-Shakti ve Tantra için akademik bir kaynak bulunamadı (yalnız Wikipedia ve bloglar çıktı). Saundarya Lahari 1. dize (Şiva, Şakti olmadan kıpırdayamaz) doğrulanmadı.\n- İbn Arabi'nin Fusûs'taki Muhammed fassından birebir alıntı alınamadı; Muse 403 verdi. Austin'in \"Bezels of Wisdom\" çevirisi önerilir.\n- Dong Zhongshu ve Chunqiu fanlu'da \"yang yücedir, yin aşağıdır\" ifadesinin birebir metni bulunamadı. Ayrıca eserin Dong'a aidiyeti tartışmalı.\n- Britannica'nın Weininger ve Ardhanarishvara maddeleri 403 verdi.\n- Weininger'in Almanca özgün çekim formülü alınamadı; Gutenberg 503 verdi."
+}

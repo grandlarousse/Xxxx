@@ -1,0 +1,611 @@
+[
+ {
+  "paket": "B_V1",
+  "arac": "16/34",
+  "satirlar": [
+   {
+    "ref": "P5-1",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+    "kanit_alinti": "items chosen, not because they were gender-stereotypical, but merely because they maximally differentiated between the responses of women and men"
+   },
+   {
+    "ref": "P5-4",
+    "durum": "dogru",
+    "duzeltme": "Künye kaynağın kaynakçasıyla aynı: Constantinople, A. (1973). Masculinity-femininity: An exception to a famous dictum? Psychological Bulletin, 80, 389–407. Aktaran: Wood & Eagly (2015), Sex Roles 73:461–473.",
+    "kanit_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+    "kanit_alinti": "different versions of these scales showed generally weak relationships to each other"
+   },
+   {
+    "ref": "P5-16",
+    "durum": "dogru",
+    "duzeltme": "İfade: dişillik zayıf ama genellikle olumlu etki büyüklüğüyle ilişkili; ölçütler ruh sağlığı, iyi oluş ve benlik saygısı.",
+    "kanit_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+    "kanit_alinti": "masculinity scales related to mental health, well-being, and self-esteem with small to moderate effect sizes, but femininity related to these outcomes only weakly"
+   },
+   {
+    "ref": "P5-2",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+    "kanit_alinti": "femininity increased with self-reported liking of \"nursing,\" \"babies,\" and \"charades,\" whereas masculinity increased with disliking of these concepts"
+   },
+   {
+    "ref": "P5-13",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+    "kanit_alinti": "methodologists have argued that such personality measures should be represented by continuous scales that are then subjected to regression analyses"
+   },
+   {
+    "ref": "P5-23",
+    "durum": "kismen_dogru",
+    "duzeltme": "Kaynak 'örnekleme özgü' demiyor. Doğrusu: Lippa'nın cinsiyet tanısallığı ilgi tercihlerinden kadın ve erkek yanıtlayıcıları en iyi ayıran ağırlıklı bir ayırt edici fonksiyon kurar; kişi bu erkek-tipik/kadın-tipik örüntüyle karşılaştırılır ve sonuç tek kutuplu M-F puanıdır (Lippa ve Connelly 1990; Lippa 1991).",
+    "kanit_url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood._Eagly.Two_Traditions.2015.pdf",
+    "kanit_alinti": "a weighted combination of items that constitutes a discriminant function ... resulting in an assessment on a bipolar masculinity-femininity scale"
+   },
+   {
+    "ref": "P5-3",
+    "durum": "dogru",
+    "duzeltme": "Kaynak, Cox Miles'ın Terman'ın görüşlerini paylaşıp paylaşmadığının belirsiz olduğunu da ekliyor.",
+    "kanit_url": "https://feministvoices.com/profiles/catharine-morris-cox-miles",
+    "kanit_alinti": "In this way, Terman's negative views on homosexuality also pervaded the test."
+   },
+   {
+    "ref": "P5-6",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+    "kanit_alinti": "Journal of Consulting and Clinical Psychology 1974, Vol. 42, No. 2, 155-162 ... the dimensions of masculinity and femininity are empirically as well as logically independent"
+   },
+   {
+    "ref": "P5-8",
+    "durum": "kismen_dogru",
+    "duzeltme": "Öz doğru, ayrıntı düzeltilmeli: yaklaşık 200 eril/dişil tonlu özellik ve 200 nötr özellik (toplam yaklaşık 400) derecelendirildi. 100 Stanford lisans öğrencisi iki örneklemdi: 40'ı 1972 kışında, 60'ı sonraki yaz; her biri ya 'erkek için' ya 'kadın için' derecelendirdi. Her iki örneklemde iki cinsiyet yargıcı da anlamlı fark bulduğunda madde seçildi; 20 eril, 20 dişil.",
+    "kanit_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+    "kanit_alinti": "The judges consisted of 40 Stanford undergraduates who filled out the questionnaire during the winter of 1972 and an additional 60 who did so the following summer."
+   },
+   {
+    "ref": "P5-10",
+    "durum": "dogru",
+    "duzeltme": "Bem ayrıca |t| ≥ 2.025 olanları cinsiyet tipli sınıfladı ve eşik noktalarının keyfi olduğunu belirtti.",
+    "kanit_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+    "kanit_alinti": "they are classified as androgynous if the absolute value of the t ratio is less than or equal to one"
+   },
+   {
+    "ref": "P5-11",
+    "durum": "dogru",
+    "duzeltme": "Örneklem büyüklükleri: Stanford erkek n=444, kadın n=279; Foothill Junior College erkek n=117, kadın n=77.",
+    "kanit_url": "https://bibb.de/dokumente/pdf/AB26_WBT3_Vertiefung_Bem-1974.pdf",
+    "kanit_alinti": "TABLE 7 ... % androgynous 34 27 44 38"
+   },
+   {
+    "ref": "P5-19",
+    "durum": "kismen_dogru",
+    "duzeltme": "Adlar konusunda 'kabul eden' Spence değil; Spence bu görüşü savundu, Tellegen ve Lubinski (1983, JPSP 44(2), 447–455, 'Reply to Spence') bunu kabul etti. Doğrusu: Spence, BSRI ve PAQ için 'erillik/dişillik' adlarının yanıltıcı ve fazla kapsayıcı olduğunu savundu ve 'araçsallık/ifadesellik' terimlerini (Parsons ve Bales 1955'ten) tercih etti.",
+    "kanit_url": "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/826/2013/02/14084638/TellegenLubinski1983.pdf",
+    "kanit_alinti": "We can only concede Spence's point that Femininity and Masculinity are misleading and overinclusive names for what the BSRI and the PAQ measure."
+   },
+   {
+    "ref": "P5-20",
+    "durum": "dogru",
+    "duzeltme": "Künye: Spence ve Sawin (baskıda; 'Images of masculinity and femininity: A reconceptualization', Erlbaum), aktaran Tellegen ve Lubinski 1983, JPSP 44(2), 447–455.",
+    "kanit_url": "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/826/2013/02/14084638/TellegenLubinski1983.pdf",
+    "kanit_alinti": "These two descriptors form a bipolar dimension distinct from the Masculinity and Femininity factors formed by the items of the PAQ and BSRI F and M scales."
+   },
+   {
+    "ref": "P5-21",
+    "durum": "dogru",
+    "duzeltme": "Scilit sayfası 403 verdi; künye bağımsız aramayla doğrulandı (95 erkek, 221 kadın üniversite öğrencisi).",
+    "kanit_url": "https://scilit.com/publications/ac5129c8be9e607428efeaf496a927e4",
+    "kanit_alinti": "Journal of Personality and Social Psychology, Vol. 64 (4), 624-635, 1993 (arama sonucu özeti)"
+   },
+   {
+    "ref": "P5-22",
+    "durum": "dogru",
+    "duzeltme": "Springer sayfası paywall/yönlendirme nedeniyle açılmadı; ifade arama sonucunda bu Sex Roles (2017) makalesinde Bem 1993, s. viii'e (önsöz) atıfla geçiyor. Künyede sayfa: Bem (1993), The Lenses of Gender, s. viii. Kitabın kendisi görülmedi.",
+    "kanit_url": "https://link.springer.com/doi/10.1007/s11199-017-0760-0",
+    "kanit_alinti": "be said to reproduce precisely the gender polarization that it seeks to undercut (see Bem 1993, p. viii)"
+   },
+   {
+    "ref": "P5-24",
+    "durum": "dogru",
+    "duzeltme": "d sırası: dışadönüklük −.15, uyumluluk −.56, nevrotiklik −.41, meslek tercihi 1.40 (negatif = kadınlar yüksek). PubMed açılmadı; Europe PMC'deki aynı özetle doğrulandı.",
+    "kanit_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:18712468",
+    "kanit_alinti": "Using data from over 200,000 participants from 53 nations ... (mean ds = -.15, -.56, -.41, and 1.40, respectively, with negative values indicating women scoring higher)"
+   },
+   {
+    "ref": "P5-26",
+    "durum": "dogru",
+    "duzeltme": "Springer sayfası açılmadı; künye Crossref'ten (Sex Roles 76(9–10), 556–565), bulgular arama sonuçlarındaki özetten doğrulandı. Not: makale çevrimiçi 2016'da yayımlandı, basılı 2017. Birebir alıntı tam metinde görülmedi.",
+    "kanit_url": "https://api.crossref.org/works/10.1007/s11199-016-0625-y",
+    "kanit_alinti": "Masculine and Feminine Traits on the Bem Sex-Role Inventory, 1993–2012: a Cross-Temporal Meta-Analysis; 76; 9-10; 556-565"
+   }
+  ],
+  "genel_not": "Üretici genel olarak çok güvenilir: alıntıların hepsi kaynakta birebir bulundu, sayılar ve künyeler doğru. Sistematik bir hata yok. Küçük sorunlar, ifadenin kaynağın söylediğinden biraz fazlasını söylemesinden geliyor: P5-23'teki 'örnekleme özgü' ifadesi kaynakta yok. P5-19'da kabulü yapan kişi yanlış atanmış (adları kabul eden Spence değil Tellegen ve Lubinski). P5-8'de yargıçların iki örneklem olduğu belirtilmemiş. P5-22, P5-24 ve P5-26'da birincil sayfa açılmadı; bu satırlar ikincil kaynaklardan (Europe PMC, Crossref, arama özeti) doğrulandı."
+ },
+ {
+  "paket": "B_V2",
+  "arac": "21/34",
+  "satirlar": [
+   {
+    "ref": "P5-27",
+    "durum": "dogru",
+    "duzeltme": "Künye: Donnelly & Twenge, Sex Roles 76 (2017; çevrimiçi 2016). Springer sayfası giriş istedi, doğrulama arama özetlerinden yapıldı. Eksik bir bilgi var: 1993–2012 döneminde kadınların dişillik puanı anlamlı biçimde düştü (d = −.26), erkeklerde değişim yok. Raporda bu dönem anılacaksa bu bulgu da eklenmeli.",
+    "kanit_url": "https://link.springer.com/10.1007/s11199-016-0625-y",
+    "kanit_alinti": "Women's M rose significantly (d = .23), with no changes in women's F, men's M, and men's F"
+   },
+   {
+    "ref": "P5-28",
+    "durum": "dogru",
+    "duzeltme": "Künyeye sayfa ve DOI eklenmeli: Hsu, Badura, Newman & Speach (2021), Psychological Bulletin 147(10), 987–1011, doi:10.1037/bul0000343. Birliktelik için N = 254.465.",
+    "kanit_url": "https://ifp.nyu.edu/2022/meta-analyses-systematic-reviews/2022-23724-001/",
+    "kanit_alinti": "men tended to be more agentic than women (g = 0.40, k = 928 samples, N = 254,731 participants)"
+   },
+   {
+    "ref": "P5-29",
+    "durum": "dogru",
+    "duzeltme": "URL aslında Dökmen 1999 makalesinin (Kriz 7(1)) PDF'i; bilgiler onun içinden. K ve E burada kadın ve erkek değil, Kadınsılık ve Erkeksilik ölçekleri. Test-tekrar test için n = 208, iki yarı için n = 100. Dökmen 1991: Dil ve Tarih-Coğrafya Fakültesi Dergisi 35(1): 81–89. Kavuncu N (1987): yayımlanmamış yüksek lisans tezi, H.Ü. Sosyal Bilimler Enstitüsü.",
+    "kanit_url": "https://dergipark.org.tr/en/download/article-file/595862",
+    "kanit_alinti": "test-tekrar test güvenirlik katsayısı, K için .75, E için .89 (n=208) bulunmuştur (Kavuncu 1987)"
+   },
+   {
+    "ref": "P5-30",
+    "durum": "dogru",
+    "duzeltme": "Netleştirme: alfa değerleri ölçek düzeyinde verilmiş (Kadınsılık .73, Erkeksilik .75; N = 989). Kadın ve erkek ayrı değerleri değil. 989 kişinin dağılımı: 479 kadın, 510 erkek.",
+    "kanit_url": "https://dergipark.org.tr/tr/pub/kriz/article/496654",
+    "kanit_alinti": "Bu sonuçlar orijinal Envanter için önerilen yapıdan farklıdır. ... Alfa iç tutarlılık katsayısı K için .73 ve E için .75"
+   },
+   {
+    "ref": "P6-1",
+    "durum": "dogru",
+    "duzeltme": "Künye: Hyde, Bigler, Joel, Tate & van Anders (2019), American Psychologist 74(2), 171–193.",
+    "kanit_url": "https://psychiatry.ucsd.edu/_files/diversity/hyde.pdf",
+    "kanit_alinti": "Based on 124 effect sizes, 30% were trivial (d ≤ 0.10) and an additional 48% were small ... a total of 78%"
+   },
+   {
+    "ref": "P6-27",
+    "durum": "dogru",
+    "duzeltme": "Not: dişil ve eril burada her cinsiyetin en uçtaki %33'lük dilimi olarak tanımlanmış. Örneklem ABD'li üniversite öğrencileri.",
+    "kanit_url": "https://psychiatry.ucsd.edu/_files/diversity/hyde.pdf",
+    "kanit_alinti": "(1.0 ≤ d ≤ 2.03), less than 1% of the students exhibited only feminine or only masculine behaviors, whereas over 55% showed some combination"
+   },
+   {
+    "ref": "P6-4",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://doras.dcu.ie/32718/3/Encyclopedia%20of%20Sexual%20Psychology%20and%20Behavior_Gender%20Similarity%20Hypothesis.pdf",
+    "kanit_alinti": "throwing velocity (d = 2.18) and throwing distance (d = 1.98) ... Gender differences of moderate size are repeatedly found for aggression"
+   },
+   {
+    "ref": "P6-6",
+    "durum": "dogru",
+    "duzeltme": "Künyeyi tamamla: ana makale Zell, Krizan & Teeter (2015), American Psychologist 70(1), 10–20. Ansiklopedinin kaynakçasında yalnızca 70(7), 664–665'teki yanıt yazısı geçiyor.",
+    "kanit_url": "https://doras.dcu.ie/32718/3/Encyclopedia%20of%20Sexual%20Psychology%20and%20Behavior_Gender%20Similarity%20Hypothesis.pdf",
+    "kanit_alinti": "106 meta-analyses and 386 individual meta-analytic effects ... 46.1% ... small and 39.4% were very small ... (d = 0.21)"
+   },
+   {
+    "ref": "P6-7",
+    "durum": "dogru",
+    "duzeltme": "Kadınların önde olduğu diğer büyük farklar: acı veren uyarana tepki d = 0,56, akran bağlılığı d = 0,51.",
+    "kanit_url": "https://doras.dcu.ie/32718/3/Encyclopedia%20of%20Sexual%20Psychology%20and%20Behavior_Gender%20Similarity%20Hypothesis.pdf",
+    "kanit_alinti": "interest in people as opposed to things (d = 0.49), whereas men scored higher ... masculinity (d = 0.73), mental rotation ability (d = 0.57)"
+   },
+   {
+    "ref": "P6-8",
+    "durum": "dogru",
+    "duzeltme": "Alıntı Zell 2015'in 17. sayfasından.",
+    "kanit_url": "https://doras.dcu.ie/32718/3/Encyclopedia%20of%20Sexual%20Psychology%20and%20Behavior_Gender%20Similarity%20Hypothesis.pdf",
+    "kanit_alinti": "gender differences were largely constant across age, time, and culture; however, they caution to not use these data “to infer that gender differences are static or fixed” (p. 17)"
+   },
+   {
+    "ref": "P6-9",
+    "durum": "dogru",
+    "duzeltme": "Bağlantıdaki PDF 22 Ekim 2012 tarihli çevrimiçi ön baskı. Yayımlanmış künye JPSP 2013, 104(2), 385– ve DOI 10.1037/a0030437; bunlar arama sonucunda görüldü. Bitiş sayfası 407 görülmedi. Taksonik çıkan ölçüler: kalıp yargısal hobiler ve fizyolojik özellikler (güç, vücut ölçüleri).",
+    "kanit_url": "https://library.scottbarrykaufman.com/uploads/2013/02/CarothersReis_2012.pdf",
+    "kanit_alinti": "stereotyped hobbies and physiological characteristics ... were taxonic by sex ... Constructs were with few exceptions dimensional"
+   },
+   {
+    "ref": "P6-12",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://library.scottbarrykaufman.com/uploads/2013/02/CarothersReis_2012.pdf",
+    "kanit_alinti": "it is possible that other domains might reveal taxa. With the exception of the anthropomorphic and physical strength measurements, our analyses were limited to self-report measures"
+   },
+   {
+    "ref": "P6-13",
+    "durum": "dogru",
+    "duzeltme": "Netleştirme: en büyük farklar, doğrulama değişkenleri (fiziksel ölçüler) dışarıda bırakılınca cinsellik ve eşleşme değişkenlerinde.",
+    "kanit_url": "https://library.scottbarrykaufman.com/uploads/2013/02/CarothersReis_2012.pdf",
+    "kanit_alinti": "those large mean differences were not consistent within each person; that is, scoring in a masculine way on one variable did not guarantee doing so on the others"
+   },
+   {
+    "ref": "P6-14",
+    "durum": "dogru",
+    "duzeltme": "Künye: Joel ve ark. (2015), PNAS 112(50), 15468–15473.",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4687544",
+    "kanit_alinti": "brains with features that are consistently at one end of the \"maleness-femaleness\" continuum are rare"
+   },
+   {
+    "ref": "P6-15",
+    "durum": "dogru",
+    "duzeltme": "Ana örneklem ilk VBM veri seti. Üst değer %10,5 (NKI kortikal kalınlık) metinde geçiyor, ama Tablo S2 aynı veri seti için %33 eşikte %8,2 veriyor. Tutarsızlık var; aralık 'metne göre' diye sunulmalı. Alt değer %0,1 ADD Health'ten.",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4687544",
+    "kanit_alinti": "Thirty-five percent of brains showed substantial variability, and only 6% of brains were internally consistent."
+   },
+   {
+    "ref": "P6-17",
+    "durum": "dogru",
+    "duzeltme": "Güven aralıkları: kafa boyutu ölçüleri çıkarılınca %92 (88,9–94,5), kafa boyutu regresyonla arındırılınca %70 (65,0–74,2). Örneklem 19–35 yaş.",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4833246",
+    "kanit_alinti": "Classification accuracy was extremely high [accuracy: 93%, 95% confidence interval (CI) 89.5–94.9%"
+   },
+   {
+    "ref": "P6-19",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4833280",
+    "kanit_alinti": "Joel et al.'s method systematically fails to detect large, consistent sex differences ... is so extreme that, in realistic conditions, it can only generate results consistent with their hypothesis"
+   }
+  ],
+  "genel_not": "Üretici güvenilir: 17 satırın hepsinde alıntılar ve sayılar kaynakla birebir tuttu. Sistematik bir hata yok. Küçük eksikler künyede (Zell 2015 için sayı ve sayfa, Carothers & Reis için ön baskı ile yayın farkı) ve bağlamda: BSRI'daki K/E kısaltması ölçeği gösteriyor, cinsiyeti değil; Donnelly & Twenge'de 1993–2012 dişillik düşüşü atlanmış; Joel'in %10,5 değeri tabloyla çelişiyor. Springer sayfası giriş istedi; P5-27 arama özetleriyle doğrulandı."
+ },
+ {
+  "paket": "B_V3",
+  "arac": "22/34",
+  "satirlar": [
+   {
+    "ref": "P6-20",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.rosalindfranklin.edu/news/massive-study-led-by-rosalind-franklin-university-neuroscientists-reveals-few-differences-between-men-and-women-s-brains/",
+    "kanit_alinti": "Sex differences in the brain are tiny and inconsistent, once individuals' head size is accounted for."
+   },
+   {
+    "ref": "P6-21",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9327177",
+    "kanit_alinti": "highly reproducible sex differences in regional brain anatomy above and beyond sex differences in overall brain size; ... should not be interpreted as evidence for large sex differences in brain structure"
+   },
+   {
+    "ref": "P6-23",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3251566",
+    "kanit_alinti": "We found a global effect size D = 2.71, corresponding to an overlap of only 10%... Even excluding the factor showing the largest univariate ES, ... D = 1.71 (24% overlap)."
+   },
+   {
+    "ref": "P6-24",
+    "durum": "dogru",
+    "duzeltme": "Tam künye için sayfa eklenebilir: Journal of Personality 88(3), 415-429.",
+    "kanit_url": "https://arts.units.it/handle/11368/3066291",
+    "kanit_alinti": "The size of global sex differences was D = 2.06 in the US and D = 2.10 across English- speaking countries."
+   },
+   {
+    "ref": "P6-25",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.Gwern.net/doc/iq/2014-hyde.pdf",
+    "kanit_alinti": "this application of Mahalanobis D produces results that are biased toward finding a large difference because of taking a linear combination that maximizes group differences"
+   },
+   {
+    "ref": "P6-2",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.Gwern.net/doc/iq/2014-hyde.pdf",
+    "kanit_alinti": "an additional 48% were in the range of a small difference, between 0.11 and 0.35. That is, 78% of the gender differences were small or very close to 0."
+   },
+   {
+    "ref": "P6-30",
+    "durum": "dogru",
+    "duzeltme": "Alıntı makaleden değil Uppsala basın bülteninden; künye: Berggren & Bergh, 'Simpson's gender-equality paradox', PNAS 122(23), e2422247122 (2025).",
+    "kanit_url": "https://www.uu.se/en/press/press-releases/2025/2025-06-13-western-standards-behind-the-gender-equality-paradox",
+    "kanit_alinti": "the correlations between increased gender equality and larger gender differences disappeared"
+   },
+   {
+    "ref": "P6-28",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://scholars.duke.edu/publication/1458271",
+    "kanit_alinti": "gender differences were most pronounced in European and American cultures in which traditional sex roles are minimized"
+   },
+   {
+    "ref": "J1-1",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/details/CarlJungCollectedWorks",
+    "kanit_alinti": "[297] Here, without a doubt, is one of the main sources ... No man is so entirely masculine that he has nothing feminine in him."
+   },
+   {
+    "ref": "J1-5",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/details/CarlJungCollectedWorks",
+    "kanit_alinti": "[301] An inherited collective image of woman exists in a man's unconscious... This inherited image is the third important source for the femininity of the soul."
+   },
+   {
+    "ref": "J1-6",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/details/CarlJungCollectedWorks",
+    "kanit_alinti": "Either sex is inhabited by the opposite sex up to a point... The smaller number of feminine genes seems to form a feminine character, which usually remains unconscious"
+   },
+   {
+    "ref": "J1-8",
+    "durum": "dogru",
+    "duzeltme": "Paragraf numarası kesin olarak 294 (CW 9i, 'The Psychology of the Child Archetype'); 'civarı' kaldırılabilir.",
+    "kanit_url": "https://archive.org/details/CarlJungCollectedWorks",
+    "kanit_alinti": "in the psyche it is only the conscious mind, in a man, that has the masculine sign, while the unconscious is by nature feminine. The reverse is true in the case of a woman."
+   },
+   {
+    "ref": "J1-9",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/details/CarlJungCollectedWorks",
+    "kanit_alinti": "[804] As to the character of the anima, my experience confirms the rule that it is, by and large, complementary to the character of the persona."
+   },
+   {
+    "ref": "J1-10",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/details/CarlJungCollectedWorks",
+    "kanit_alinti": "A very feminine woman has a masculine soul, and a very masculine man has a feminine soul."
+   },
+   {
+    "ref": "J1-13",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/details/CarlJungCollectedWorks",
+    "kanit_alinti": "[331] ... as the anima produces moods, so the animus produces opinions"
+   },
+   {
+    "ref": "J1-16",
+    "durum": "dogru",
+    "duzeltme": "Paragraf kesin olarak Aion (CW 9ii) par. 26; 'civarı' kaldırılabilir.",
+    "kanit_url": "https://archive.org/details/CarlJungCollectedWorks",
+    "kanit_alinti": "The projection-making factor is the anima, or rather the unconscious as represented by the anima."
+   },
+   {
+    "ref": "J1-17",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/details/CarlJungCollectedWorks",
+    "kanit_alinti": "Thus the animus is a psychopomp, a mediator between the conscious and the unconscious... Just as the anima becomes, through integration, the Eros of consciousness, so the animus becomes a Logos"
+   }
+  ],
+  "genel_not": "Üretici güvenilir: 17 satırın hepsi kaynakta doğrulandı, uydurma ya da abartı yok. Jung alıntıları arşivdeki CW 6, 7, 9i ve 9ii OCR metinlerinden kontrol edildi. Paragraf numaraları sayfa kenarındaki numaralardan paragraf sayılarak teyit edildi (297, 301, 331, 804, 58, 294, Aion 26 ve 33). Küçük öneriler şunlar: J1-8 ve J1-16'daki 'civarı' kaldırılabilir. P6-30'daki alıntı makaleden değil basın bülteninden. Hyde PDF'i 'Review in Advance' sürümü, basılı sürümün sayfaları 373-398 (bu sayfa aralığı oturumda görülmedi). kanit_url olarak verilen koleksiyon sayfası dogrudan metin içermiyor, metin oradaki _djvu.txt dosyalarından okundu."
+ },
+ {
+  "paket": "B_V4",
+  "arac": "19/34",
+  "satirlar": [
+   {
+    "ref": "J1-18",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks (CW 16 tam metni, _djvu.txt)",
+    "kanit_alinti": "[361] ... Four stages of eroticism were known in the late classical period: Hawwah (Eve), Helen (of Troy), the Virgin Mary, and Sophia."
+   },
+   {
+    "ref": "J1-22",
+    "durum": "dogru",
+    "duzeltme": "Künyeye deneme adı eklenebilir: 'Archetypes of the Collective Unconscious', CW 9i, par. 61.",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks (CW 9i tam metni, _djvu.txt)",
+    "kanit_alinti": "If the encounter with the shadow is the \"apprentice-piece\" in the individual's development, then that with the anima is the \"master-piece.\""
+   },
+   {
+    "ref": "J1-23",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks (CW 7 tam metni, _djvu.txt)",
+    "kanit_alinti": "THE MANA-PERSONALITY [374] ... the conquest of the anima as an autonomous complex, and her transformation into a function of relationship between the conscious and the unconscious."
+   },
+   {
+    "ref": "J1-25",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks (CW 7 tam metni, _djvu.txt)",
+    "kanit_alinti": "[328] ... If it was no easy task to describe what is meant by the anima, the difficulties become almost insuperable when we set out to describe the psychology of the animus."
+   },
+   {
+    "ref": "J1-2",
+    "durum": "kismen_dogru",
+    "duzeltme": "Alıntı birebir doğru, ama 'aynı paragrafta' belirsiz: cümle CW 7, par. 297'de ('Anima and Animus' bölümü), par. 328'de değil. Künyeyi 'CW 7, par. 297' diye açıkça yaz.",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks (CW 7 tam metni, _djvu.txt)",
+    "kanit_alinti": "[297] ... No man is so entirely masculine that he has nothing feminine in him. The fact is, rather, that very masculine men have—carefully guarded and hidden—a very soft emotional life"
+   },
+   {
+    "ref": "J1-12",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks (CW 6 tam metni, _djvu.txt)",
+    "kanit_alinti": "[808] 49. SOUL-IMAGE ... the soul-image is transferred to a real person. This person is the object of intense love or equally intense hate"
+   },
+   {
+    "ref": "J1-24",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks (CW 9i tam metni, _djvu.txt)",
+    "kanit_alinti": "This is the archetype of meaning, just as the anima is the archetype of life itself."
+   },
+   {
+    "ref": "J1-19",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/man-and-his-symbols-by-carl-jung (_djvu.txt)",
+    "kanit_alinti": "The animus, just like the anima, exhibits four stages of development. He first appears as a personification of mere physical power"
+   },
+   {
+    "ref": "J1-27",
+    "durum": "kismen_dogru",
+    "duzeltme": "Alıntı ve künye doğru (Liz Evans, 'Anima(l)s: Women, Nature and Jung', Psychother. Politics Int. 4(1): 24–41, 2006, DOI 10.1002/ppi.38). Ama Evans bu görüşü yaygın kanı olarak aktarır, kendi sonucu olarak değil. Hemen ardından bu yorumların 'don't tell the full story' dediğini yazar. Raporda 'eleştiri' bu bağlamla verilmeli.",
+    "kanit_url": "https://ojs.aut.ac.nz/psychotherapy-politics-international/article/download/187/140",
+    "kanit_alinti": "Widely known to be essentialist, reactionary and, when it comes to gender, far too entrenched in the mindset of a late nineteenth-century Swiss middle class patriarch"
+   },
+   {
+    "ref": "J2-30",
+    "durum": "dogru",
+    "duzeltme": "Künye: Liz Evans (2006), 'Anima(l)s: Women, Nature and Jung', 4(1): 24–41. 'Feministlerce' ifadesi bağlamdan çıkarım ('not an obvious choice for feminists'); kabul edilebilir.",
+    "kanit_url": "https://ojs.aut.ac.nz/psychotherapy-politics-international/article/download/187/140",
+    "kanit_alinti": "Despite his essentialist tendencies, Jung's archetypal structure of the psyche holds as much potential for multiple possibilities as Irigaray's new symbolic order"
+   },
+   {
+    "ref": "J1-28",
+    "durum": "dogrulanamadi",
+    "duzeltme": "MSU deposunda tam metin ve kayıt sayfası erişime kapalı ('access limited'). Arama sonucuna göre künye: Daniel Gene Mosher, 'Jungian Typology in Relation to Gender and Psychopathology: An Exploratory Study', doktora tezi, Michigan State Univ., 1987. Tezde yaklaşık 120 giriş psikolojisi öğrencisi var, ama bu sayı yalnızca arama özetinden geliyor ve birebir görülmedi.",
+    "kanit_url": "https://d.lib.msu.edu/etd/20099",
+    "kanit_alinti": "Jungian typology in relation to gender and psychopathology : an exploratory study"
+   },
+   {
+    "ref": "J2-1",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks (CW 10 tam metni) + https://jungiancenter.org/jung-the-man-part-vi/",
+    "kanit_alinti": "[255] Woman's psychology is founded on the principle of Eros, the great binder and loosener, whereas from ancient times the ruling principle ascribed to man is Logos."
+   },
+   {
+    "ref": "J2-2",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks (CW 10 tam metni) + https://jungiancenter.org/jung-the-man-part-vi/",
+    "kanit_alinti": "The concept of Eros could be expressed in modern terms as psychic relatedness, and that of Logos as objective interest."
+   },
+   {
+    "ref": "J2-3",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/stream/collectedworksof92cgju/collectedworksof92cgju_djvu.txt",
+    "kanit_alinti": "I use Eros and Logos merely as conceptual aids"
+   },
+   {
+    "ref": "J2-5",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/stream/collectedworksof92cgju/collectedworksof92cgju_djvu.txt",
+    "kanit_alinti": "In men, Eros, the function of relationship, is usually less developed than Logos."
+   },
+   {
+    "ref": "J2-4",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/stream/collectedworksof92cgju/collectedworksof92cgju_djvu.txt",
+    "kanit_alinti": "characterized more by the connective quality of Eros than by the discrimination and cognition associated with Logos"
+   },
+   {
+    "ref": "J2-9",
+    "durum": "dogru",
+    "duzeltme": "Birincil yer: CW 14, par. 224 ('Luna' bölümü). Jung'un kendi ifadesi: 'By Logos I meant discrimination, judgment, insight, and by Eros I meant the capacity to relate.'",
+    "kanit_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-14-mysterium-coniunctionis/",
+    "kanit_alinti": "the name Logos equate the masculine consciousness characterized by discrimination, judgement, and insight ... Eros, the feminine consciousness, with the ability to relate"
+   }
+  ],
+  "genel_not": "Üretici çok güvenilir. 17 satırın 14'ü birincil metinde birebir doğrulandı; Jung'un CW tam metinleri archive.org'dan indirilip paragraf numaralarıyla kontrol edildi. Sistematik bir hata yok. Küçük eksikler üç tane. J1-2'de paragraf (297) yazılmamış. J1-27'de Evans'ın aktardığı yaygın görüş, onun kendi hükmü gibi sunulmuş. J1-28 ise erişime kapalı tezden geliyor ve tez sayısı yalnızca arama özetine dayanıyor."
+ },
+ {
+  "paket": "B_V5",
+  "arac": "19/28",
+  "satirlar": [
+   {
+    "ref": "J2-14",
+    "durum": "kismen_dogru",
+    "duzeltme": "İddia doğru, ama gösterilen IAAP CW14 sayfasında yazım tarihleri ve 'son büyük eser' ifadesi yok. Orada yalnızca baskı bilgisi var: '2nd ed., Princeton University Press, 1970'. Kaynağı Princeton UP'nin CW14 tanıtımı ya da CW14 editör notu (Adler ve Hull) olarak değiştir. Bu kaynaklara göre Jung esere 1941–1954 arasında çalıştı ve eseri 80. yaşında bitirdi.",
+    "kanit_url": "https://press.princeton.edu/books/paperback/9780691018164/collected-works-of-cg-jung-volume-14",
+    "kanit_alinti": "occupied him from 1941 to 1954 (arama özeti; Princeton/CW14 editör notu)"
+   },
+   {
+    "ref": "J2-11",
+    "durum": "dogru",
+    "duzeltme": "Küçük not: alıntı birebir abstract 000521'de geçiyor. 'Sol'ün eşi' ifadesi kaynağa daha yakın olsun diye 'coniunctio'da ortak (partner)' biçiminde yazılabilir.",
+    "kanit_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-14-mysterium-coniunctionis/",
+    "kanit_alinti": "As the counterpart of Sol, Luna is cold, moist, dark, feminine, corporeal, passive and a partner in coniunctio."
+   },
+   {
+    "ref": "J2-17",
+    "durum": "dogru",
+    "duzeltme": "Doğru. Yer: abstract 000442 (Golden Flower yorumu, bölüm 4b). Sayfada 'anima' kelimesi yazım hatasıyla 'Arrima' olarak geçiyor.",
+    "kanit_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-13-alchemical-studies/",
+    "kanit_alinti": "Animus (hun) is the masculine principle, (yang) a higher breath soul ... Arrima (p'o) is a feminine principle (yin)"
+   },
+   {
+    "ref": "J2-18",
+    "durum": "dogru",
+    "duzeltme": "İki ayrı abstract'tan geliyor. İki ilke ifadesi 000442'de, Tao ifadesi 000440'ta. Kaynakta bu görüş 'Çin felsefesi'ne atfediliyor.",
+    "kanit_url": "https://iaap.org/resources/academic-resources/collected-works-abstracts/volume-13-alchemical-studies/",
+    "kanit_alinti": "The Chinese philosphy recognized these two principles as distinguishable psychic factors united in the one human nature."
+   },
+   {
+    "ref": "J2-19",
+    "durum": "kismen_dogru",
+    "duzeltme": "Kaynakta iki makale, 1955'teki ilk İngilizce yayın ve alıntı doğrulandı. '1957 kitap baskısı, NY Analytical Psychology Club' bilgisi sayfada yok, doğrulanmadı. Ya çıkarılmalı ya da ayrı bir kaynağa dayandırılmalı.",
+    "kanit_url": "https://springpublications.com/jung.html",
+    "kanit_alinti": "were first published in English in 1955 ... Life is founded on the harmonious interplay of masculine and feminine forces"
+   },
+   {
+    "ref": "J2-20",
+    "durum": "kismen_dogru",
+    "duzeltme": "Dört biçim doğru (Mother, Hetaira, Amazon, Medial Woman). Gösterilen seba sayfasında alıntılanan cümle YOK. Sayfa yalnızca 1956 Watzlawik çevirisini veriyor. Bağımsız aramaya göre doğru tarih dizisi şöyle: 1934'te Zürih Psikoloji Kulübü'nde ilk okuma; 1948'de Jung Enstitüsü'nde genişletilmiş sunum; 1951'de Almanca yayın (Der Psychologe III, Bern, s. 303–315); 1956'da İngilizce çeviri (P. Watzlawik, öğrenci derneği için özel baskı, Zürih). Alıntı kaynakta olmadığı için kaldırılmalı.",
+    "kanit_url": "https://www.seba.health/library/the-psyche/wolff-structural-feminine-psyche",
+    "kanit_alinti": "Mother, Hetaira, Amazon, Medial Woman ... translation by P. Watzlawik ... Students Association of the C. G. Jung Institute ... 1956"
+   },
+   {
+    "ref": "J2-21",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://en.wikipedia.org/wiki/The_Origins_and_History_of_Consciousness",
+    "kanit_alinti": "first published in 1949 by Rascher Verlag ... in R. F. C. Hull's English translation by Princeton University Press"
+   },
+   {
+    "ref": "J2-22",
+    "durum": "dogru",
+    "duzeltme": "Kaynak, itirazın Neumann'ın katı eril-dişil düalizmine yöneldiğini de ekliyor. Bu ikincil bir kaynak (Wikipedia). Kritik satır olduğu için Hillman'ın kendi metninde (1992 tarihli) kontrol önerilir.",
+    "kanit_url": "https://en.wikipedia.org/wiki/The_Origins_and_History_of_Consciousness",
+    "kanit_alinti": "took issue with Neumann's claim that 'consciousness as such is masculine even in women'"
+   },
+   {
+    "ref": "J2-24",
+    "durum": "dogru",
+    "duzeltme": "Kaynak eseri 'Women's Mysteries' diye yazıyor. Kitabın özgün adı 'Woman's Mysteries: Ancient and Modern' (1935). Ayrıca kaynakta 'anima' kelimesi geçmiyor, ayrım 'erkek psişesinin dişil ilkesi' olarak ifade ediliyor.",
+    "kanit_url": "https://encyclopedia.com/arts/news-wires-white-papers-and-books/harding-mary-esther",
+    "kanit_alinti": "link woman's psyche to the moon ... her own feminine principle (as distinguished from the feminine principle of the male psyche)"
+   },
+   {
+    "ref": "J2-25",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.penguinrandomhouse.com/books/184287/the-feminine-in-fairy-tales-by-marie-louise-von-franz/9781570626098/",
+    "kanit_alinti": "Some tales ... offer insights into the psychology of women— while others reflect ... the anima, the inner femininity of men."
+   },
+   {
+    "ref": "J2-26",
+    "durum": "dogru",
+    "duzeltme": "UPenn katalog sayfası HTTP 500 hatası verdi. Künye bağımsız aramayla doğrulandı (UPenn ve TAMU kayıtları, PhilPapers).",
+    "kanit_url": "https://api.philpapers.org/rec/ULATFI-2",
+    "kanit_alinti": "Northwestern University Press, Evanston, Ill., 1971 (arama özeti)"
+   },
+   {
+    "ref": "J2-27",
+    "durum": "kismen_dogru",
+    "duzeltme": "TAMU kataloğu 403 hatası verdi. Conscious Femininity künyesi bağımsız olarak doğrulandı: Interviews with Marion Woodman, Toronto, Inner City Books, 1993, Studies in Jungian Psychology by Jungian Analysts serisi no. 58. Addiction to Perfection (Inner City, 1982) bu oturumda kontrol edilmedi.",
+    "kanit_url": "https://libcat.library.tamu.edu/Record/in00001140662",
+    "kanit_alinti": "Toronto : Inner City Books, 1993 ... Studies in Jungian psychology by Jungian analysts ; 58 (arama özeti)"
+   },
+   {
+    "ref": "J2-28",
+    "durum": "dogru",
+    "duzeltme": "TAMU kataloğu 403 hatası verdi. Künye arama sonuçlarındaki katalog kayıtlarıyla doğrulandı. Yayınevi bazı kayıtlarda Anchor Press/Doubleday olarak geçiyor. 1977'de bir karton kapak baskısı da var.",
+    "kanit_url": "https://libcat.library.tamu.edu/Record/in00000609431",
+    "kanit_alinti": "Garden City, N.Y. : Anchor Press, 1976 (arama özeti)"
+   },
+   {
+    "ref": "J2-29",
+    "durum": "dogru",
+    "duzeltme": "LibraryThing 403 hatası verdi. Moore ve Gillette 1990 (Harper San Francisco) ile Bolen 1984 (Harper & Row, Kirkus) doğrulandı. Gods in Everyman için kaynaklar 1988 ile 1989 arasında ayrışıyor. Yaygın tarih 1989.",
+    "kanit_url": "https://www.kirkusreviews.com/book-reviews/a/raymond-bonner-4/goddesses-in-every-woman-a-new-psychology-of-wo",
+    "kanit_alinti": "Pub Date: June 6, 1984 (arama özeti); Gods in Everyman: 1989; 1990p"
+   }
+  ],
+  "genel_not": "Üreticinin içerik özü ve künyeleri genelde doğru: 14 satırın 9'u doğru, 5'i kısmen doğru, yanlış satır yok. Tekrarlanan bir hata var: bazı ek bilgiler gösterilen URL'de geçmiyor. Bunlar J2-14'teki tarihler ve 'son büyük eser' ifadesi, J2-19'daki 1957 baskısı ve J2-20'deki alıntının tamamı. Yani bilgi doğru olsa bile gösterilen kaynakla uyuşmuyor. Kataloglar (TAMU, LibraryThing, UPenn) erişime kapalıydı, bu satırlar bağımsız aramayla doğrulandı."
+ }
+]

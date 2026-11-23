@@ -1,0 +1,213 @@
+{
+ "id": "J3",
+ "arac": "araç: 46/35. Kontrol noktasından sonra devam ettim, çünkü son çağrılar yeni birincil kanıt getirdi: Withers 2020 karşı görüşü, Saiz 2023 rüya çalışması ve CW 9i'deki eşcinsellik paragrafları.",
+ "ozet": "Jung sonrası (post-Jungian) çizgi, anima/animus'u Jung'un \"erkekte kadınsı, kadında erkeksi\" şemasından (karşı-cinsellik, contrasexuality) büyük ölçüde ayırdı. Kavramları cinsiyetten bağımsız \"öteki\" ya da \"ruh\" imgeleri olarak yeniden okudu.\n\n- Andrew Samuels 1985'te alanı üç okula ayırdı: klasik, gelişimsel, arketipsel. Samuels \"cinsiyet kafa karışıklığı\" (gender confusion) hâlini \"cinsiyet kesinliği\"nden (gender certainty) daha sağlıklı sayar. Düzeltme: Goss bu tezi 1993 tarihli \"The Political Psyche\"ten aktarıyor, 1989 tarihli \"The Plural Psyche\"ten değil.\n- James Hillman (1985) animayı her iki cinste de bulunan ruh ya da içsellik arketipi olarak okur. Bu okuma yalnızca ikincil kaynaklarla teyit edilebildi.\n- Polly Young-Eisendrath'a göre kişi bir cinsiyetle özdeşleşir. Diğerine dair bilinçdışı bir kompleks geliştirir ve bu kompleks kültürün anlattığı hikâyelerle biçimlenir.\n- Feminist eleştiri:\n  - Goldenberg (1976) ve Wehr (1987), Jung'un \"dişil\" tanımını erkek ruhunun yansıtması (projeksiyonu) olarak görür.\n  - Rowland (2002) çerçeveyi katı ve kalıplaşmış bulur ama yine de çoğulluk için kullanılabilir sayar.\n  - Lyn Cowan (Jungcu analist) animus kavramının \"müzeye kaldırılmasını\" önerir.\n\nAykırı ses: Goss'un 2012 tezi, karşı-cinsel etkinin klinik değerini savunur ve \"herkeste ikisi de eşit\" yorumuna katılmaz.\n\nEşcinsellik: Jung bir yandan eşcinselliği \"anima ile özdeşim\" ve oğuldaki anne kompleksiyle açıkladı. Öte yandan bunu \"patolojik sapkınlık\" saymayı \"çok şüpheli\" buldu ve olumlu yanlarını saydı (CW 9i ¶146 civarı ve ¶162–164). Hopcke (1989) bu alanın standart incelemesidir.\n\nTrans deneyimi:\n- McKenzie (2006, JAP) Jung'un kuramının trans deneyimini açıklayamadığını söyler. Ona göre cinsiyet duygusu kalıtılmış bir arketip değil, beden, beyin ve kültürden \"beliren\" (emergent) bir süreçtir.\n- Marsman (2017, JAP) trans deneyimini bütünleşme arayışı olarak olumlu okur.\n- Withers (2020, JAP) ise trans kimliklenmesinin ruhsal sıkıntıdan kaçış olabileceğini savunur.\n- Sonuç: Jungcu alan bu konuda bölünmüş durumda.\n\nAmpirik statü: bilimsel destek zayıf, kavramlar büyük ölçüde test edilmemiş. Yapılmış az sayıdaki çalışma şunlar:\n- Mosher (1987, MSU doktora tezi): 120 öğrenci, Anima-Animus Ölçeği.\n- Julsonnet (1991, Texas A&M doktora tezi): 114 kadın.\n- Saiz ve arkadaşları (2023, JAP): 9 kişiden 141 rüya.\n\nBunların hepsi küçük örneklemli ve çoğu yayımlanmamış tezdir. Julsonnet \"eril/animus\" ile \"dişil/anima\" sınıflarının örtüşmediğini buldu.\n\nJung'un biyolojik gerekçesi (\"erkeklik genlerinin sayıca fazlalığı terazinin kefesini eğer\", CW 9i ¶58) bugünkü genetikle uyuşmuyor. Erkek gelişimini Y kromozomundaki SRY geni başlatır, bir gen sayımı değil.\n\nMBTI'nin Düşünme-Duygu boyutu, Logos-Eros ile aynı şey değildir. Eski MBTI puanlaması bu boyutta kadın ve erkeği farklı puanlıyordu. Gratias (1997) bunun yönetici örneklemlerinde savunulamaz olduğunu buldu.\n\nGenel sonuç: Kavramlar bugün bilimsel ölçümden çok yorumlayıcı-klinik bir dil olarak kullanılıyor. Jung sonrası çizgi \"herkeste iki ilke de var\" yorumunu güçlendirdi. Ama bunu Jung'u düzelterek değil, kavramı yeniden kurarak yaptı.",
+ "defter": [
+  {
+   "iddia": "Jung'un biyolojik gerekçesi (CW 9i ¶58): iki cins de bir ölçüde karşı cinsi taşır, erkeklik gen sayısının fazlalığıyla belirlenir.",
+   "kaynak_url": "https://archive.org/download/CarlJungCollectedWorks/",
+   "alinti": "biologically speaking, it is simply the greater number of masculine genes that tips the scales in favour of masculinity",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Aynı paragraf: azınlıktaki kadınsı genler bilinçdışı kalan kadınsı bir karakter oluşturur.",
+   "kaynak_url": "https://archive.org/download/CarlJungCollectedWorks/",
+   "alinti": "The smaller number of feminine genes seems to form a feminine character, which usually remains unconscious",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Bugünkü genetik: erkek gonad gelişimini SRY geninin ürettiği protein başlatır (gen sayımı değil).",
+   "kaynak_url": "https://medlineplus.gov/genetics/gene/sry/",
+   "alinti": "This protein starts processes that cause a fetus to develop male gonads (testes).",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Jung eşcinselliği çoğunlukla anima ile özdeşim olarak niteler ama patoloji sayılmasını şüpheli bulur (CW 9i, anima kavramı denemesi, ¶146–147 civarı; OCR'da paragraf numarası belirsiz).",
+   "kaynak_url": "https://archive.org/download/CarlJungCollectedWorks/",
+   "alinti": "homosexuality, which is usually characterized by identity with the anima... its interpretation as a pathological perversion is very dubious",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Aynı yerde Jung bu yatkınlığın her durumda olumsuz sayılmaması gerektiğini, 'İlk İnsan' arketipini koruduğunu söyler.",
+   "kaynak_url": "https://archive.org/download/CarlJungCollectedWorks/",
+   "alinti": "Such a disposition should not be adjudged negative in all circumstances, in so far as it preserves the archetype of the Original Man",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Oğulda anne kompleksinin tipik etkileri (CW 9i, Anne Arketipinin Psikolojik Yönleri, ¶162).",
+   "kaynak_url": "https://archive.org/download/CarlJungCollectedWorks/",
+   "alinti": "Typical effects on the son are homosexuality and Don Juanism, and sometimes also impotence.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Jung anne kompleksinin olumlu yanlarını da sayar: incelmiş Eros, dostluk kapasitesi (CW 9i ¶164 civarı).",
+   "kaynak_url": "https://archive.org/download/CarlJungCollectedWorks/",
+   "alinti": "a great capacity for friendship, which often creates ties of astonishing tenderness between men",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "McKenzie, S. (2006) 'Queering gender: anima/animus and the paradigm of emergence', Journal of Analytical Psychology 51(3): 401–421.",
+   "kaynak_url": "https://api.crossref.org/works/10.1111/j.0021-8774.2006.00599.x",
+   "alinti": "A revision of Jungian gender theory that embraces all genders and sexualities is needed",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "McKenzie: cinsiyet duygusu kalıtılmış arketip değil, beden, beyin ve kültürden beliren bir zihin yönüdür.",
+   "kaynak_url": "https://api.crossref.org/works/10.1111/j.0021-8774.2006.00599.x",
+   "alinti": "Gendered feeling, from this perspective, would be an emergent aspect of mind and not an archetypal inheritance",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "McKenzie (2016 IRSJA konuşması): Jung'un anima/animusu trans deneyimini açıklayamaz.",
+   "kaynak_url": "https://irsja.org/wp-content/uploads/2015/10/gender-paper-north-carolina-talk-IRSJA-10212016.pdf",
+   "alinti": "Jung's A/A cannot account for the transgendered experience with its reversal of starting points and fluidity of gender",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "McKenzie: Jung'un kuramı iki cinsiyetin bireyde bulunmasına izin verir ama karşı cinsin yavaş, cinsiyete uygun belirişini varsayar.",
+   "kaynak_url": "https://irsja.org/wp-content/uploads/2015/10/gender-paper-north-carolina-talk-IRSJA-10212016.pdf",
+   "alinti": "His gender theory does however allow for both genders to reside in an individual",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Marsman, M. (2017) 'Transgenderism and transformation: an attempt at a Jungian understanding', JAP 62(5): 678–687. Trans deneyimini bütünleşme arayışı olarak okur.",
+   "kaynak_url": "https://api.crossref.org/works?query.bibliographic=Marsman+transgender",
+   "alinti": "dissociated aspects of the personality are seeking assimilation and expression in order to move the personality towards greater wholeness",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Karşı görüş: Withers, R. (2020) 'Transgender medicalization and the attempt to evade psychological distress', JAP 65(5): 865–889.",
+   "kaynak_url": "https://api.crossref.org/works/10.1111/1468-5922.12641",
+   "alinti": "trans‐identification and its associated medical treatment can constitute an attempt to evade experiences of psychological distress",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Saiz ve ark. (2023) JAP 68(2): 301–326. Rüyalarda anima/animus/androjen üzerine küçük örneklemli nicel-nitel çalışma.",
+   "kaynak_url": "https://api.crossref.org/works/10.1111/1468-5922.12903",
+   "alinti": "9 series of dreams (141 dreams in total), from 9 dreamers, 7 women ... and 2 men",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Mosher, D. G. (1987) MSU doktora tezi: Anima-Animus Ölçeği 120 öğrenciye uygulandı. Kadınlarda animus, erkeklerde anima puanı psikopatolojiyle ters ilişkili bulundu.",
+   "kaynak_url": "https://d.lib.msu.edu/etd/20099/OBJ/download",
+   "alinti": "120 participants; female Animus scores and male Anima scores were negatively associated with psychopathology",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Julsonnet, S. K. (1991) Texas A&M doktora tezi: 114 kadın; androjenlik ile anima-animus ilişkili ama ayrı yapılar; eril/animus ile dişil/anima sınıfları örtüşmüyor.",
+   "kaynak_url": "https://mail.jungpage.org/learn/articles/analytical-psychology/106-androgyny-and-its-relationship-to-the-anima-and-animus-and-related-psychological-constructs",
+   "alinti": "r = .45, p < .001 ... masculine/animus and feminine/anima classifications were not parallel",
+   "guven": "orta",
+   "kritik": true
+  },
+  {
+   "iddia": "Young-Eisendrath, P. 'Gender and contrasexuality', Cambridge Companion to Jung (1997), bölüm 11, s. 223–239. Bir cinsle özdeşleşip ötekine dair bilinçdışı bir kompleks geliştiririz.",
+   "kaynak_url": "https://www.cambridge.org/core/books/cambridge-companion-to-jung/gender-and-contrasexuality/6A8F550CA52F080B662BDC0792F93FB3",
+   "alinti": "While we identify with one, we develop an unconscious complex around the Other.",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Young-Eisendrath (aynı bölüm): cinsiyet imgeleri doğduğumuz kültürel hikâyelerle biçimlenir.",
+   "kaynak_url": "https://www.cambridge.org/core/books/cambridge-companion-to-jung/gender-and-contrasexuality/6A8F550CA52F080B662BDC0792F93FB3",
+   "alinti": "stories that constrain and engender possibilities for action and identity",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Samuels (1993, The Political Psyche) 'cinsiyet kafa karışıklığı'nı 'cinsiyet kesinliği'nden daha sağlıklı sayar (Goss'un aktarımı).",
+   "kaynak_url": "https://clok.uclan.ac.uk/6732/1/Goss%20Phil%20Final%20e-Thesis%20%28Master%20Copy%29.pdf",
+   "alinti": "Samuels (1993: 130) posits another binary around gender – that of 'gender confusion' and 'gender certainty'. He suggests the former is healthier",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Samuels (1985) 'Jung and the Post-Jungians', Routledge & Kegan Paul: klasik, gelişimsel, arketipsel okullar haritası.",
+   "kaynak_url": "https://www.routledge.com/Jung-and-the-Post-Jungians/Samuels/p/book/9780415059046",
+   "alinti": "comprehensive review of the developments which have taken place in Jungian psychology since Jung's death",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Goss (2012, UCLan doktora tezi), karşı görüş: her iki ilkenin iki cinse eşit açık olduğu Jung sonrası yorumuna katılmaz; karşı-cinsel etkinin süzgeç işlevini savunur.",
+   "kaynak_url": "https://clok.uclan.ac.uk/6732/1/Goss%20Phil%20Final%20e-Thesis%20%28Master%20Copy%29.pdf",
+   "alinti": "I do not fully subscribe to post-Jungian thinking ... which sometimes implies both anima-animus may be equally available to women and men",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Rowland (2002) 'Jung: A Feminist Revision' (Polity): Jung'un formülü katı ve kalıpçıdır ama çoğulluk için değerli bir temel sunar (Goss'un aktarımı).",
+   "kaynak_url": "https://clok.uclan.ac.uk/6732/1/Goss%20Phil%20Final%20e-Thesis%20%28Master%20Copy%29.pdf",
+   "alinti": "Jung set up a rather rigid, even stereotypical, formula for describing the inter-play of contra-sexuality",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Lyn Cowan, 'Dismantling the Animus' (1993–94): animus kavramının bırakılmasını önerir.",
+   "kaynak_url": "https://jungpage.org/learn/articles/analytical-psychology/105-dismantling-the-animus?showall=1",
+   "alinti": "it is time to consign the animus concept to a museum of old psychological ideas",
+   "guven": "yuksek",
+   "kritik": true
+  },
+  {
+   "iddia": "Wehr (1987) 'Jung and Feminism: Liberating Archetypes', Beacon: Jung'un evrensellik ve saf ampirizm iddialarına itiraz eder ama bireyleşmeyi değerli bulur.",
+   "kaynak_url": "https://www.routledge.com/Jung-and-Feminism-Liberating-Archetypes/Wehr/p/book/9781138121942",
+   "alinti": "challenges Jung's claims for the universality and purely empirical basis of his work",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Goldenberg, N. R. 'A feminist critique of Jung' (1976; 1990'da Moore & Meckel derlemesinde yeniden basım, s. 104–111).",
+   "kaynak_url": "https://rd.springer.com/referenceworkentry/10.1007%2F978-3-030-24348-7_200080?page=24",
+   "alinti": "Goldenberg, N. R. (1976/1990). A feminist critique of Jung.",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Hopcke, R. H. (1989) 'Jung, Jungians, and Homosexuality', Shambhala; Jung ve Jungcuların eşcinselliğe klinik ve kuramsal bakışını inceler.",
+   "kaynak_url": "https://www.librarycat.org/lib/JungLibraryTampaBay/item/242024678",
+   "alinti": "Boston and Shaftesbury, Shambhala, 1989",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "Hillman (1985) 'Anima: An Anatomy of a Personified Notion', Spring Publications, Dallas. Birinci bölümün adı 'Anima and Contrasexuality'. Animayı cinsiyetten bağımsız okuduğu yalnızca ikincil kaynakta teyitli.",
+   "kaynak_url": "https://lib.ecu.edu/catalog-preview/catalog/277387",
+   "alinti": "Spring Publications, Dallas, 1985",
+   "guven": "orta",
+   "kritik": false
+  },
+  {
+   "iddia": "Hila (2022) 'In the Spirit of His Time', International Journal of Jungian Studies 15(2): 119–135: Jung'u döneminin ürünü sayar; anima/animusu feminizm ve trans deneyimi ışığında yeniden düşünür.",
+   "kaynak_url": "https://research.bangor.ac.uk/en/publications/in-the-spirit-of-his-time/",
+   "alinti": "Jung was a product of his time",
+   "guven": "yuksek",
+   "kritik": false
+  },
+  {
+   "iddia": "MBTI'nin Düşünme-Duygu boyutunda eskiden kullanılan cinsiyete göre farklı puanlama yönetici örnekleminde savunulamaz bulundu (Gratias 1997, Virginia Tech yüksek lisans tezi).",
+   "kaynak_url": "https://vtechworks.lib.vt.edu/handle/10919/30362",
+   "alinti": "the gender-based differential scoring system is not defensible in managerial samples",
+   "guven": "orta",
+   "kritik": false
+  }
+ ],
+ "listede_olmayan": "- Withers (2020, JAP 65(5)): trans kimliklenmesini ruhsal sıkıntıdan kaçış olarak gören eleştirel Jungcu görüş. Marsman (2017, JAP 62(5)) ise olumlu Jungcu okuma yapar. Bu ikisi alanın bölünmüş olduğunu gösteriyor.\n- Saiz ve arkadaşları (2023, JAP 68(2)): rüyalarda anima, animus ve androjen üzerine 141 rüyalık güncel bir ampirik çalışma.\n- Julsonnet (1991, Texas A&M doktora tezi): 114 kadınla ikinci bir ampirik test.\n- Lyn Cowan animus kavramının tamamen bırakılmasını önerir.\n- Goss (2012) klasik karşı-cinsellik görüşünü kısmen savunur.\n- Hila (2022, International Journal of Jungian Studies) trans deneyimi ve feminizm ışığında bir revizyon önerir.\n- McKenzie kutupları cinsiyete bağlamamak için \"eylem/birliktelik\" (agency/communion) terimlerini önerir.",
+ "celisen_kanit": "- Samuels'in \"gender confusion\" tezi Goss'ta 1993 tarihli \"The Political Psyche\"e (s. 130–132) atfediliyor, \"The Plural Psyche\"e (1989) değil. 1989 kitabında \"Beyond the feminine principle\" ve \"Gender and the borderline\" adlı bölümler var, ama içerikleri görülmedi.\n- Jung'un eşcinsellik paragrafları büyük olasılıkla CW 9i ¶146–147 (anima kavramı denemesi) ve ¶162–164 (anne kompleksi). OCR'da paragraf numarasının yeri tam net değil.\n- \"Herkeste ikisi de eşit\" yorumuna itiraz var. Goss, Jung sonrası \"iki ilke iki cinse eşit açık\" yorumunu reddediyor.\n- Jungcu alan trans deneyimi konusunda tek sesli değil (Marsman ile Withers karşıtlığı).\n- Mosher'ın bulguları Jung'un tahminiyle uyumlu çıkmış. Ama bu yayımlanmamış, küçük örneklemli bir tez ve tam metne erişilemedi.",
+ "acik_kalanlar": "- Mosher tezinin tam metnine MSU deposunda erişim kısıtlıydı. Bulgular yalnızca katalog özetinden alındı.\n- Hillman 1985'in birincil metni görülmedi. Cinsiyetten bağımsız anima okuması yalnızca ikincil kaynaklarla teyitli.\n- Young-Eisendrath'ın \"dreaded and desired other\" ifadesi doğrulanamadı.\n- Goldenberg'in Signs dergisindeki künyesi (cilt 2, sayı 2, 1976) teyit edilemedi.\n- Lauter & Rupprecht (1985) ve Douglas (1990) kontrol edilmedi.\n- MBTI'de Düşünme/Duygu cinsiyet yüzdeleri (yaklaşık %60 erkek Düşünme, %65 kadın Duygu) yalnızca ikincil kaynakta geçiyor. Bunlar defterde yok, raporda kullanılmamalı.\n- Cinsiyet kimliğinin poligenik yapısı (Polderman 2018) için birincil sayfaya erişilemedi."
+}
