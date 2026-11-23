@@ -1,0 +1,183 @@
+{
+ "arac": "araç: ~24/35",
+ "ozet": "Her iki makalenin PDF'i indirildi ve basılı sayfa numaraları doğrulandı. Tekir'de PDF sayfa n = basılı sayfa 1300+n; alt bilgide 1301..1326 yazıyor. Akagündüz'de PDF sayfa n = basılı sayfa n.\n\nKRİTİK DÜZELTME 1: İkinci makalenin yazarı PDF'te \"ÜMÜT AKAGÜNDÜZ\" olarak basılı (Akangündüz değil). Kırşehir Ahi Evran Üniversitesi, Doç. Dr. Dergi künyesi: Atatürk Yolu Dergisi, 73 (2023), s. 1-24, DOI 10.46955/ankuayd.1353054. Ödevde ad \"Akangündüz Ümüt\", c. 73 yazılmış; düzeltilmeli (c. yok, sy. 73). Tekir künyesi ve ss. 1301-1326 doğru. Dergi Tekir'de C.2, S.18.\n\nKRİTİK DÜZELTME 2: Ödev \"kazalara doktor gönderilmesi\"ni 1924'e bağlıyor; Tekir 1924'ü \"zorunlu hizmet kanunu çerçevesinde\" diye anıyor (s. 1307) ama kanun numarası/tarihi vermiyor. Tekir ayrıca 1922'de tıp mezunlarına doğu/güneydoğuda 3 yıl zorunlu hizmet getirildiğini, 1923'te 2 yıla indirildiğini yazıyor (s. 1304).\n\n1926 yayını: Akagündüz s. 8: Necati Kemal Kip'in, İzmir Marifet Matbaası'nda basılan 64 sayfalık \"Sağır, Dilsiz ve Körler Müessesesi\" adlı eseri 1926'da basıldı. Yani eser Vekâletin kendi yayını değil Kip'in; Akagündüz bunu Vekâlet yayınları dökümü içinde sayıyor. İçeriğini anlatmıyor (konu analizi yok). Ayrıca s. 9: İzmir İtimat Matbaası'nda 62 sayfalık \"Sağır Dilsiz ve Körler Müessesi\" 1938'de yayımlandı. Dipnot 8'de sayfa s. 8-9 verilebilir.\n\nMuhacirin Müdüriyeti: Tekir s. 1305: 11 Mayıs 1921 kararnamesiyle Dahiliye'ye bağlı Muhacirin Müdüriyeti Umumiyesi vekâlete bağlandı (dpn. 17, BCA). Ancak aynı kitabın s. 1304'ü, vekâletin muaveneti içtimaiye işinde neredeyse hiçbir şey yapamadığını, Muhacirin Müdürlüğü'nün bir türlü vekâlete bağlanamadığını yazıyor (dpn. 10). Yani Tekir kendi içinde gerilimli; ödevde \"bağlandı\" cümlesine \"kâğıt üzerinde\" ihtiyatı gerekir. Aykırı arama: bir kaynak snippet'i 4 Kasım 1922 talimatından söz ediyor (doğrulanmadı). Ekim 1922'de Mübadele Vekâleti kurulunca hizmetler ona devredildi (Tekir 1305).\n\nDarülaceze: Tekir s. 1305: darüleytamlar ve 1.000 kadrolu Darülaceze vekâlete katıldı (İstanbul'un işgalden çıkışı, 1923 bağlamı). s. 1307: 1924'te Tevhid-i Tedrisat Kanunu gereği darüleytamlar Maarif'e devredildi. s. 1315: 1925'te Darülaceze İstanbul Belediyesi'ne devredildi. Ödevdeki \"11 Mayıs 1921'de Darülaceze ve Darüleytamlar bağlandı\" cümlesi Tekir'e göre yanlış tarihlenmiş olabilir: Tekir bu katılımı 1923 başı/İstanbul'un kurtuluşu bağlamında anlatıyor, 11 Mayıs 1921 yalnız Muhacirin için.\n\nİzmir Sağır Dilsiz ve Körler: Tekir s. 1308: 1924 döneminde \"100 kişilik İzmir Sağır Dilsiz ve Körler Müesseseleri kuruldu\". s. 1318: 1928'de binası vekâletçe satın alındı. s. 1319 tablo (1928): İzmir Sağır Dilsiz satırı 0/0/0. Bütçe ve kuruluş yılına dair başka bilgi yok. Akagündüz'de kurum içeriği yok.\n\nMalul gazi: Tekir'de malul/gazi/sakat gazi bilgisi bulunmadı (yalnız yetimlere dair genel ifade). Akagündüz'de de yok.\n\nTekir sayfa eşlemesi: salgın/sıtma 1926 kanunu s. 1308; Akagündüz s. 5 (13 Mayıs 1926 Sıtma Mücadelesi Kanunu). 1924 numune hastaneleri s. 1307-1308.",
+ "defter": [
+  {
+   "iddia": "11 Mayıs 1921 kararnamesiyle Muhacirin Müdüriyeti Umumiyesi vekâlete bağlandı",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1305",
+   "alinti": "11 Mayıs 1921 tarihli kararname ile Dahiliye Vekâleti'ne bağlı olan Muhacirin Müdüriyeti Umumiyesi Sıhhiye ve Muavenet-i İçtimaiye Vekâleti'ne bağlandı.",
+   "guven": "yüksek",
+   "odevle_iliski": "Ödevin 11 Mayıs 1921 cümlesini doğrular (dpn. 7 sayfası: 1305)."
+  },
+  {
+   "iddia": "Muhacirin Müdürlüğü fiilen vekâlete bağlanamadı",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1304",
+   "alinti": "Muhacirin Müdüriyeti Umumisi bir türlü Vekâlet'e bağlanamadı. Yapılan teşebbüsler sonuçsuz kaldı.",
+   "guven": "yüksek",
+   "odevle_iliski": "ÇELİŞKİ: Aynı makalenin 1304'ü ile 1305'i gerilimli; ödevdeki 'bağlandı' ifadesi ihtiyatla yazılmalı."
+  },
+  {
+   "iddia": "Darüleytamlar ve 1.000 kadrolu Darülaceze vekâlete katıldı",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1305",
+   "alinti": "1.000 kadrolu Darülaceze, Vekâlet bünyesine katıldı.",
+   "guven": "yüksek",
+   "odevle_iliski": "Ödevin Darülaceze/Darüleytam cümlesi; ancak Tekir bunu 11 Mayıs 1921'e değil İstanbul'un işgal sonrası (1923) bağlamına koyuyor."
+  },
+  {
+   "iddia": "1924'te darüleytamlar Maarif Vekâleti'ne devredildi",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1307",
+   "alinti": "1924'te Tevhidi Tedrisat Kanunu gereğince darüleytamlar bütçeleri ve heyetleriyle birlikte Maarif Vekâleti'ne devredildi.",
+   "guven": "yüksek",
+   "odevle_iliski": "Ödevde darüleytamların vekâlette kalıcı olduğu izlenimi varsa düzeltilmeli."
+  },
+  {
+   "iddia": "1925'te Darülaceze İstanbul Belediyesi'ne devredildi",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1315",
+   "alinti": "1925 yılında Darülaceze, İstanbul Belediyesi'ne devredildi.",
+   "guven": "yüksek",
+   "odevle_iliski": "Darülaceze ilişkisinin sonu; ödeve eklenebilir."
+  },
+  {
+   "iddia": "1924: kazalara zorunlu hizmet kanunu çerçevesinde doktor gönderildi; kaza dispanserleri; numune hastaneleri",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1307",
+   "alinti": "Kazalara, zorunlu hizmet kanunu çerçevesinde doktor gönderilirken, kaza dispanserleri ihdas edilerek",
+   "guven": "yüksek",
+   "odevle_iliski": "Ödevin 1924 doktor cümlesi; kanun numarası Tekir'de yok."
+  },
+  {
+   "iddia": "1922'de tıp mezunlarına doğu/güneydoğuda 3 yıl zorunlu hizmet; 1923'te 2 yıl",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1304",
+   "alinti": "1923'te zorunlu hizmet süresi iki yıla indirildi.",
+   "guven": "yüksek",
+   "odevle_iliski": "Zorunlu hizmet 1922'de başlamış; ödevde yalnız 1924 yazıyorsa nüans eklenir."
+  },
+  {
+   "iddia": "1923'te yalnızca 3 vekâlet hastanesi; 86 hastane, 6.437 yatak",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1306",
+   "alinti": "Toplam 86 6.437",
+   "guven": "yüksek",
+   "odevle_iliski": "1923 sonrası sağlık eksikliği cümlesi için sayı (Tablo 1)."
+  },
+  {
+   "iddia": "1923'te Anadolu'da hastane/doktor eksikliği; 1922'de 337 doktor, 434 sağlık memuru",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1306",
+   "alinti": "1922 yılı itibariyle ülkede 337 doktor ile 434 sağlık memuru vardı.",
+   "guven": "yüksek",
+   "odevle_iliski": "Sağlık hizmeti eksikliği iddiası için dar sayfa (1306)."
+  },
+  {
+   "iddia": "İzmir Sağır Dilsiz ve Körler Müesseseleri 100 kişilik kuruldu (1924 numune hastaneleri bağlamında)",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1308",
+   "alinti": "100 kişilik İzmir Sağır Dilsiz ve Körler Müesseseleri kuruldu.",
+   "guven": "orta",
+   "odevle_iliski": "Ek bilgi; kuruluş yılı açıkça yazılmamış, 1924 bağlamı çıkarım."
+  },
+  {
+   "iddia": "1928'de İzmir Sağır Dilsiz ve Körler Müessesesi binası vekâletçe satın alındı",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1318",
+   "alinti": "İzmir'de bulunan Sağır Dilsiz ve Körler Müessesesi binası Vekâlet tarafından satın alındı.",
+   "guven": "yüksek",
+   "odevle_iliski": "Ödeve eklenebilir; ayrıca s. 1319 tabloda satır 0/0/0."
+  },
+  {
+   "iddia": "13 Mayıs 1926 Sıtma Mücadelesi Kanunu; vekâlet sorumlu",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1308",
+   "alinti": "13 Mayıs 1926'da Sıtma Mücadelesi Kanunu çıkartıldı.",
+   "guven": "yüksek",
+   "odevle_iliski": "Bulaşıcı hastalık/sıtma cümlesi için dar sayfa; Akagündüz s. 5 de aynı."
+  },
+  {
+   "iddia": "Sıtma Mücadelesi Kanunu 13 Mayıs 1926",
+   "kaynak_kisa": "Akagündüz 2023",
+   "url": "https://dergipark.org.tr/tr/download/article-file/3375845",
+   "sayfa": "5",
+   "alinti": "13 Mayıs 1926'da ise \"Sıtma Mücadelesi Kanunu\" yürürlüğe konularak",
+   "guven": "yüksek",
+   "odevle_iliski": "Tekir ile tutarlı çapraz doğrulama."
+  },
+  {
+   "iddia": "Necati Kemal Kip'in 64 sayfalık 'Sağır, Dilsiz ve Körler Müessesesi' adlı eseri İzmir Marifet Matbaası'nda 1926'da basıldı",
+   "kaynak_kisa": "Akagündüz 2023",
+   "url": "https://dergipark.org.tr/tr/download/article-file/3375845",
+   "sayfa": "8",
+   "alinti": "Necati Kemal Kip'in İzmir Marifet Matbaasında basılan 64 sayfalık \"Sağır, Dilsiz ve Körler Müessesesi\" adlı eseri de 1926'da basılmıştır.",
+   "guven": "yüksek",
+   "odevle_iliski": "Ödev dpn. 8: 1926 yayını. Yazar Kip, 64 s., İzmir Marifet Matbaası; makale içerik anlatmıyor. Ödevdeki 'vekâlet bastı' ifadesi 'vekâlet külliyatında sayılan eser' olarak yumuşatılmalı."
+  },
+  {
+   "iddia": "1938'de İzmir İtimat Matbaası'nda 62 sayfalık 'Sağır Dilsiz ve Körler Müessesi' yayımlandı",
+   "kaynak_kisa": "Akagündüz 2023",
+   "url": "https://dergipark.org.tr/tr/download/article-file/3375845",
+   "sayfa": "9",
+   "alinti": "İtimat Matbaasında basılan \"Sağır Dilsiz ve Körler Müessesi\" adlı 62 sayfalık eser de 1938'de yayımlandı.",
+   "guven": "yüksek",
+   "odevle_iliski": "Ödeve eklenebilir; ikinci baskı/yeni eser olduğu belirtilmemiş."
+  },
+  {
+   "iddia": "Akagündüz makalesi Vekâletin 1922-1939 arası basılı eserlerle sağlık bilgisi yayma çabasını inceler",
+   "kaynak_kisa": "Akagündüz 2023",
+   "url": "https://dergipark.org.tr/tr/download/article-file/3375845",
+   "sayfa": "1",
+   "alinti": "Ankara Üniversitesi Türk İnkılâp Tarihi Enstitüsü Atatürk Yolu Dergisi/Journal of Atatürk Yolu, 73 (2023), s. 1-24.",
+   "guven": "yüksek",
+   "odevle_iliski": "ÇELİŞKİ: Yazar 'Ümüt Akagündüz'; sy. 73, c. yok; DOI 10.46955/ankuayd.1353054."
+  },
+  {
+   "iddia": "Muhacirin hizmetleri Ekim 1922'de Mübadele İmar ve İskân Vekâleti'ne devredildi",
+   "kaynak_kisa": "Tekir 2019",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "1305",
+   "alinti": "Ekim 1922'de Mübadele İmar ve İskân Vekâleti kurulunca muhacir, mülteci ve aşiretlere ait bütçe hizmetler bu Vekâlet'e devredildi.",
+   "guven": "orta",
+   "odevle_iliski": "Muhacirin bağlantısı kısa ömürlü; ödevdeki cümleye not."
+  },
+  {
+   "iddia": "Malul gazilerle ilgili bilgi bulunmadı",
+   "kaynak_kisa": "Tekir 2019 / Akagündüz 2023",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa": "?",
+   "alinti": "(grep: malul, gazi, sakat, harp malulü sonuç vermedi)",
+   "guven": "orta",
+   "odevle_iliski": "Bu iki makale malul gazi konusunda kaynak değil."
+  }
+ ],
+ "kaynaklar": [
+  {
+   "mla": "Tekir, Süleyman. \"Sıhhiye ve Muavenet-i İçtimaiye Vekâleti'nin Kuruluşu ve Erken Cumhuriyet Dönemindeki Faaliyetleri (1920-1930).\" Belgi, c. 2, sy. 18, 2019, ss. 1301-1326. https://doi.org/10.33431/belgi.547721.",
+   "url": "https://dergipark.org.tr/en/download/article-file/769700",
+   "sayfa_araligi": "1301-1326",
+   "yerel_txt": "/home/user/Xxxx/calismalar/burak-vize/kaynaklar/txt/tekir2019.txt"
+  },
+  {
+   "mla": "Akagündüz, Ümüt. \"Cumhuriyet'in İlk Yıllarında Sıhhat ve İçtimai Muavenet Vekâletinin Sağlık Bilgisini Halka Ulaştırma Çabası.\" Atatürk Yolu Dergisi, sy. 73, 2023, ss. 1-24. https://doi.org/10.46955/ankuayd.1353054.",
+   "url": "https://dergipark.org.tr/tr/download/article-file/3375845",
+   "sayfa_araligi": "1-24",
+   "yerel_txt": "/home/user/Xxxx/calismalar/burak-vize/kaynaklar/txt/akangunduz2023.txt"
+  }
+ ],
+ "acik_kalanlar": "1) 1924 zorunlu hizmet kanununun numarası/tarihi Tekir ve Akagündüz'de yok (ayrı kaynak gerekir). 2) 11 Mayıs 1921 tarihi yalnız Tekir'de (dpn. 17, BCA); bağımsız doğrulama yok; bir arama sonucu 4 Kasım 1922 talimatından söz ediyor, doğrulanmadı. 3) İzmir müessesesinin kuruluş yılı, öğrenci sayısı ve bütçesi Tekir'de açık değil (yalnız 100 kişilik, 1928 bina alımı). 4) Kip eserinin içeriği makalelerde yok; eserin kendisi ya da katalog kaydı gerekir. 5) Malul gazi bilgisi bu iki makalede yok. 6) Akagündüz'de dipnot numarası/bibliyografya satırı bu eser için bulunmadı (yalnız metin s. 8)."
+}
