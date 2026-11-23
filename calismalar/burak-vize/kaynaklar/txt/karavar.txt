@@ -1,0 +1,1338 @@
+    Yakın Dönem Türkiye Araştırmaları
+    Recent Period Turkish Studies
+Yakın Dönem Türkiye Araştırmaları
+DOI: 10.26650/YTA2022-1106785                                                               Araştırma Makalesi / Research Article
+
+
+
+Milli Mücadele Döneminde Sıhhat ve
+Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+Activities of the Ministers of Health and Social Welfare during
+the Turkish National Struggle
+Hilâl KARAVAR*
+
+                                                  ÖZ
+                                                  Osmanlı Devleti’nde müstakil bir Sağlık Bakanlığı mevcut olmasa da Milli
+                                                  Mücadele döneminde Anadolu’da salgın hastalıkların yaygınlaşması, sağlık
+                                                  işleriyle ilgilenen ayrı bir vekâletin kurulmasını gerektirmiştir. 1920’de 3
+                                                  Sayılı Kanun ile Sıhhat ve Muavenet-i İçtimaiye Vekâleti kurulmuştur. Sıhhiye
+                                                  Vekâleti’nin daha çok sağlık hizmetlerinin teşkilatlandırılması, aşı üretiminin
+                                                  yapılması, yetim çocuklar ve muhacirlerin yerleştirilmesiyle ilgili çalışmalar
+                                                  yaptığı belirlenmiştir. Bu vekâletin askeri sıhhiye alanındaki çalışmaları kısıtlıdır.
+                                                  Çünkü Müdafaa-i Milliye Vekâleti’ne bağlı sağlık şubesi bu görevi yürütmüştür.
+                                                  Dr. Adnan Bey’in sıhhiye vekilliği döneminde askeri ve sivil sağlık hizmetlerinin
+                                                  birleştirilmesi teklif edilse de sakıncalarından ötürü kabul edilmemiştir. Gerek Dr.
+                                                  Refik Bey’in gerekse Dr. Rıza Nur Bey’in vekillikleri sırasında orduya sıhhi destek
+                                                  verildiği görülmektedir.
+                                                  Anahtar Kelimeler: Dr. Adnan (Adıvar) Bey, Dr. Refik (Saydam) Bey, Dr. Rıza
+                                                  (Nur) Bey, Sıhhiye, Halk Sağlığı
+*
+ Doç. Dr., Akdeniz Üniversitesi, Eğitim
+Fakültesi, Sosyal Bilgiler Öğretmenliği
+Bölümü, Antalya, Türkiye                          ABSTRACT
+                                                  Although the Ottoman Empire had no independent ministry of health, the spread
+ORCID: H.K. 0000-0002-3976-2649
+                                                  of epidemic diseases in Anatolia during the National Struggle necessitated the
+Sorumlu yazar/Corresponding author:
+                                                  establishment of a separate ministry for dealing with health issues. Thus, the
+Hilâl Karavar,
+Akdeniz Üniversitesi, Eğitim Fakültesi, Sosyal    Ministry of Health and Social Welfare (MHSW) was established with Law No. 3 on
+Bilgiler Öğretmenliği Bölümü,
+Antalya, Türkiye
+                                                  May 2, 1920 (Law upon the Election of the Cabinet Council of the Grand National
+E-posta/E-mail: hilalkaravar@hotmail.com          Assembly). The MHSW has been determined to mostly work on organizing health
+Başvuru/Submitted: 21.04.2022                     services, producing vaccines, and sheltering orphans and immigrants. The MHSW
+Revizyon Talebi/Revision Requested:               had limited work in the field of military health services because the Health Branch
+10.05.2022
+Son Revizyon/Last Revision Received:              of the Ministry of Defense was responsible for this task. Although combining
+15.08.2022                                        military and civilian health services had been suggested during Dr. Adnan Bey’s
+Kabul/Accepted: 04.10.2022
+                                                  role as MHSW minister, this did not occur due to its drawbacks. However, MHSW
+Atıf/Citation: Karavar, Hilâl. “Milli Mücadele    was seen to provide medical support to the army during both Dr. Refik Bey’s and
+Döneminde Sıhhat ve Muavenet-i İçtimaiye
+Vekillerinin Faaliyetleri.” Yakın Dönem Türkiye   Dr. Rıza Nur Bey’s time as MHSW ministers.
+Araştırmaları-Recent Period Turkish Studies 42    Keywords: Dr. Adnan Adıvar, Dr. Refik Saydam, Dr. Rıza Nur, Sanitation,
+(2022): 47-75.
+https://doi.org/10.26650/YTA2022-1106785          Public Health
+
+
+                        This work is licensed under Creative Commons Attribution-NonCommercial 4.0 International License
+Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+     Extended Abstract
+    Modern practices in the field of medicine within the Ottoman Empire started with its
+Westernization, and the Ottoman Empire closely followed health-related developments
+in the West. With the discovery of the smallpox and rabies vaccines in particular, the
+Empire chose to apply the same treatment methods as the West for treating these
+diseases.
+
+    The smallpox vaccine was brought from abroad after its discovery. However, when
+problems began to be experienced regarding the vaccine supply, the decision was made
+to produce the vaccine within the Ottoman Empire. For example, Şanizade conducted
+experiments to produce the vaccine in 1811. Vaccine studies were continued by others
+in the following years. In the end, Telkihhâne-i Şahane (vaccine hospital) was
+established, becoming operational in 1895 as the empire’s first vaccine hospital. In this
+way, the empire had achieved large-scale production of the smallpox vaccine.
+
+   Another important development in this period was with regard to the treatment of
+rabies. An Ottoman delegation of three people was sent to Paris in 1886 under the
+chairmanship of Zoeros Pasha. This delegation stayed in Paris for six months, during
+which time Zoeros learned how to prepare and administer the rabies vaccine. On his
+way back to Istanbul, the delegation returned with two rabbits that had been vaccinated
+with the rabies virus, and the delegation then got to work. Zoeros Pasha conducted a
+vaccination exercise at the Mekteb-i Tıbbiye-i Şahane [Imperial Military School of
+Medicine]. Later on, Zoeros Pasha was appointed as laboratory manager of “the Rabies
+and Bacteriology Operating Theater” that had opened in Istanbul in 1887. The studies
+carried out on June 3, 1887 yielded results, with Zoeros Pasha preparing the first rabies
+vaccine using the Pasteur method.
+
+    The Ottoman Empire had additionally opened health schools, with the Military
+Medical School opened in the Ottoman Empire in 1827 being able to be stated as the
+first institution planned in accordance with Western institutions. Mekteb-i Tıbbiye-i
+Şahane provided education in French and started education in 1839, after which a
+civilian medical school was opened in 1867. The difference between the two schools is
+that the army benefits from the military medical, whereas physicians in the civilian
+medical school would be trained and then go to the countryside. Although provinces had
+no health organizations until the Constitutional Monarchy, physicians were attempted to
+be assigned to the provinces. In a sense, physicians in the countryside served as officials
+of the state in health-related developments such as epidemics and infectious diseases. In
+
+48                                                                                  Yakın Dönem Türkiye Araştırmaları
+                                                                              Karavar, H.
+
+
+
+addition to the schools opened in the health field in the Ottoman Empire, various
+authorities and councils were also established to deal with the subject.
+
+   The first health authority in the Ottoman Empire is accepted as the International
+Health Council. However, this assembly was established to protect Europe from diseases
+that could travel from the East. For this reason, the council did not carry out any
+important studies on preventing diseases within the empire or on health issues. An 1870
+regulation mentions the establishment of the Medical Office Administration. This
+regulation contained information about the first health administration. However, this
+regulation could not be implemented due to the Ottoman Empire’s economic difficulties.
+The decision was made to have the Society of Medicine, which was affiliated with the
+School of Medicine, for carrying out health affairs. But due to political reasons, this
+formation was not given sufficient importance, and the Council of Public Health was
+not established until after the proclamation of the Constitutional Monarchy.
+
+    The reason for establishing an independent health ministry during the National
+Struggle was the increase in epidemics in Anatolia that accompanied the demobilization
+of the Ottoman army after World War I. On May 2, 1920, Law No. 3: Upon the Election
+of the Cabinet Council of the Grand National Assembly, established the Ministry of
+Health and Social Welfare (MHSW). In the debates surrounding this law, some deputies
+were seen to oppose the establishment of an independent health ministry. Despite this
+opposition, however, the MHSW was established.
+
+    During this examined period, Dr. Adnan Adıvar, Dr. Refik Saydam, and Dr. Riza Nur
+served as ministers. When Dr. Rıza went to Moscow and Dr. Fuat was in Sinop, Dr.
+Celal Bayar acted as the Deputy Medical Officer. When examining the time these men
+served as the Health Ministers, Dr. Adnan was seen to give importance to the
+organizational and administrative structure. Having previously served on the Red
+Crescent Dr. Adnan ensured the Eskişehir Executive Director of the Red Crescent Dr.
+Besim Pasha to be charged in Ankara. Thus, various materials MHSW had needed were
+provided by the Red Crescent. In addition, steps were taken to prevent rabies and
+syphilis. The decision of the Istanbul Government to ban the sending of serum and
+medicine to Anatolia in June 1920 - a precaution and punishment against Ankara
+Government- paved the way for the opening of a rabies treatment facility, vaccination
+house, and bacteriology room. Through the efforts of Dr. Adnan, vaccine production
+started in Anatolia, with vaccines being produced for 250,000 people.
+
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                   49
+Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+    Dr. Refik carried out studies to identify regional diseases. In addition to the
+immigrants coming from Russia, he had studies carried out to solve the problems with
+immigrants in various parts of the country. In order to give these works a more planned
+structure, the Ministry of Internal Affairs was relieved of dealing with immigrant affairs
+with the regulation published on June 5, 1921, and immigrant affairs were then affiliated
+with the MHSW.
+
+    Dr. Rıza Nur had studies carried out both regarding refugee cases and for preventing
+epidemics. During his ministry, quarantine applications were lifted, and the decision
+was made to have immigrants be vaccinated in Istanbul before coming to Anatolia. The
+attempt was also made to implement vaccination cards, with vaccines being produced
+for smallpox and cholera.
+
+
+
+
+50                                                                                  Yakın Dönem Türkiye Araştırmaları
+                                                                                                             Karavar, H.
+
+
+
+      Giriş
+    Kitlesel sağlık sorunlarının insanlığın tarım devrimini gerçekleştirmesinin ardından
+baş gösterdiği düşünülmektedir. Salgın hastalık olarak değerlendirilen bu kitlesel sorun
+sadece insan yaşamını değil toplumların devamlılığını da etkilemiştir. Hızla yayılan
+hastalıklar arasında yer alan veba, kolera, sıtma, kuduz, çiçek gibi hastalıklar dünya tari-
+hinin seyrinde önemli rol oynamışlardır.1 Bahsi geçen hastalıkların tedavileri ancak
+mikrobiyoloji alanında meydana gelen gelişmelere paralel olarak aşıların ortaya çıkışıy-
+la mümkün olabilmiştir. 18. yüzyılın sonlarına doğru çiçek aşısını E. Jenner’in; kuduz
+aşısınınsa Pasteur tarafından bulunmuş olması hastalıkların sebebine olan bakışın değiş-
+mesini sağlamıştır.2 Dünyada sağlık alanında yaşanan gelişmelere Osmanlı Devleti de
+ayak uydurmaya çalışmıştır. Osmanlı Devleti’nde tıp alanında modern uygulamalar
+devletin Batılılaşma dönemiyle başlamıştır.
+
+    Osmanlı Devleti’nde 1827’de açılan Tıbbiye-i Amire/Askeri Tıp Okulu’nun Batıdaki
+kurumlara göre planlanmış ilk kurum olduğu söylenebilir.3 Tıbbiye-i Amire’nin uzantısı
+olan ve Fransızca eğitim veren Mekteb-i Tıbbiye-i Şahane 1839’da eğitime başlamıştır.
+Askeri tıp okulunun ardından 1867’de Mekteb-i Tıbbiye-i Mülkiye/Sivil Tıp Okulu
+açılmıştır.4 İki okul arasındaki fark askeri tıp okulundan ordu yararına; sivil tıp okulun-
+daysa taşraya gidecek olan hekimlerin yetiştirilmiş olmasıdır. Meşrutiyet dönemine ka-
+dar taşrada herhangi bir sağlık örgütlenmesi yapılmamakla birlikte taşraya hekim görev-
+lendirmeye çalışmıştır. Bir anlamda taşradaki hekimler salgın hastalıklar, bulaşıcı
+hastalıklar gibi sağlıkla ilgili gelişmelerde devletin resmi görevlileri sıfatıyla hizmet
+vermiştir.5 Osmanlı’da sağlık alanında açılan okulların yanı sıra konuyla ilgilenen çeşitli
+makamlar/meclisler oluşturulmuştur.
+
+    Osmanlı’daki ilk sıhhat makamı “Beynelminel Sıhhiye Meclisi” kabul edilebilir.
+Ancak bu meclis daha çok Avrupa’ya Doğu’dan gidebilecek hastalıklardan korunması
+için kurulmuştur. Bu sebeple ülkedeki hastalıkların önlenmesiyle veya sıhhat işleriyle
+
+1     Gülseren Yücel, “Malatya’da Kolera Salgını ve Devletin Müdahale Çabaları (1892-1894)”, İnönü Üniversitesi Sağlık
+      Hizmetleri Meslek Yüksekokulu Dergisi, 7/1, 2019, s. 109.
+2     İrfan Elmacı, “Bilimsel ve Teknolojik Açıdan Osmanlı İmparatorluğu’nda XVII. Yüzyıldan XIX. Yüzyıla Çiçek Aşısı
+      ve Kuduz Aşısı”, Belleten, 79/285, 2015, s. 611. Osmanlı’nın 19.yy’da darü’ş-şifa, bimarhane, bimaristan, dar’üt-tıb
+      olarak anılan hastaneleri bulunmaktaydı. Bkz.: Sezer Erer, “Osmanlılar Döneminde Bursa’da Yaptırılan Hastaneler”,
+      U.Ü. Fen-Edebiyat Fakültesi Sosyal Bilimler Dergisi, 11/19, 2010/2, s. 242.
+3     Erdem Aydın, “19. Yüzyılda Osmanlı Sağlık Teşkilatlanması”, Ankara Üniversitesi Osmanlı Araştırma ve Uygulama
+      Merkezi (OTAM), 15, 2004, s. 189.
+4     Abdullah Yıldız, “Osmanlı İmparatorluğunda Sivil ve Türkçe Tıp Eğitimine Geçiş”, Ankara Üniversitesi Tıp Fakültesi
+      Mecmuası, 70/3, 2017, s. 130.
+5     Erdem Aydın, “19. Yüzyılda…,”, s. 206.
+
+
+    Yakın Dönem Türkiye Araştırmaları                                                                                51
+Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+ilgili önemli çalışmalar yapmamıştır. 1870 tarihli nizamnamede İdare-i Tıbbiye-i
+Mülkiye’nin tesisinden bahsedilmiştir. Bu nizamname ilk sıhhat idaresini teşkil eden
+kanuni mevzuattır. Ancak Osmanlı’nın içinde bulunduğu ekonomik zorluklar nedeniyle
+bu nizamname uygulanamamıştır. Sağlık işlerinin Mekteb-i Tıbbiye’ye bağlı olan
+Cemiyeti Tıbbiye-i Mülkiye tarafından yürütülmesine karar verilse de siyasi sebepler-
+den ötürü bu oluşuma yeterli önem verilmemiştir. Meşrutiyet’in ilanının ardından
+Meclis-i Umur-u Tıbbiye kurulmuştur. Daha sonra 1910 tarihli kanunla Dâhiliye
+Nezareti/Bakanlığına bağlı Sıhhiye Müdüriyet-i Umumi’si adını almıştır. 1916 yılında
+Dâhiliye Nezareti’ne ayrıca Umur-u Sıhhiye Nezareti unvanı verilmiştir.6 Fakat sıhhiye
+ayrı bir bakanlık değildir. Osmanlı’da sıhhiye alanındaki bu gelişmelerin sebebi salgın
+hastalıkların ciddi manada halk sağlığını tehdit eder duruma gelmesinden kaynaklan-
+mıştır. Osmanlı Devleti, Batıdaki sağlıkla ilgili gelişmeleri yakından takip etmiştir.
+Özellikle çiçek ve kuduz aşılarının bulunmasıyla bu hastalıkların tedavileri için
+Batıdakiyle aynı tedavi yollarını uygulama yolunu seçmiştir.
+
+    İlk olarak çiçek aşısının keşfinden sonra yurtdışından bu aşı getirtilmiştir. Ancak aşı
+tedarikinde sorunlar yaşanmaya başlayınca aşının Osmanlı’da üretilmesine karar veril-
+miştir. Örneğin 1811’de Şanizade, aşının üretimini yapabilmek için deneyler yapmıştır.
+Aşı çalışmaları sonraki yıllarda farklı isimler tarafından sürdürülmüştür. Nihayetinde
+1895’de faaliyete geçen ve ülkenin ilk telkihhânesi olan “Telkihhâne-i Şahane (Aşıhane)
+kurulmuştur. Böylece çiçek aşısının geniş ölçüde üretilmesi sağlanmıştır.7 Bu dönemde
+bir diğer önemli gelişme kuduz tedavisinde yaşanmıştır.
+
+   Kuduz aşısının insana uygulanmasının başarılı sonuçlar vermesi üzerine, II.
+Abdülhamid tarafından Zoeros Paşa başkanlığında üç kişilik bir heyet 1886’da Pasteur’un
+yanına gönderilmiştir. Bu heyet Paris’te altı ay kalmıştır. Orada kuduz aşısının nasıl hazır-
+lanacağını ve nasıl uygulanacağını öğrenmiştir. Heyet İstanbul’a dönerken yanlarında ku-
+duz virüsüyle aşılanmış iki tavşanla dönmüş ve çalışmalara başlamıştır. Zoeros Paşa,
+Mekteb-i Tıbbiye-i Şahane bünyesinde aşı tatbikatı yapmış ve İstanbul’da 1887’de açılan
+Daülkeb ve Bakteriyoloji Ameliyathanesinin laboratuvar müdürü olarak atanmıştır. 3
+Haziran 1887’de yapılan çalışmalar sonuç vermiş; Pasteur metoduyla ilk kuduz aşısını
+Zoeros Paşa hazırlamıştır.8 Böylece önemli bir sorunun önüne geçilmeye çalışılmıştır.
+
+6    Sıhhiye Mecmuası Fevkalede Nüshası, 29 Birinci Teşrin 1933, s. 15-16. Sıhhiye Mecmuası, ilk kez 1913’te yayınlanmaya
+     başlamış, 1922’ye kadar 14 sayı çıkartılmış; 1922-1925 arasında yayın hayatına son verilmiş; 1925’ten sonra tekrar yayın
+     hayatına başlamıştır. bkz.: İnci Hot, Sıhhiye Mecmuasına Göre Ülkemizde Bulaşıcı Hastalıklarla Mücadele (1913-1996),
+     Yayımlanmamış Doktora Tezi, İstanbul, İstanbul Üniversitesi Sağlık Bilimleri Enstitüsü, 2001, s. 7.
+7    İrfan Elmacı, “Billimsel ve Teknolojik…”, s. 615-616.
+8    İrfan Elmacı, “Billimsel ve Teknolojik…”, s. 620-621.
+
+
+52                                                                                     Yakın Dönem Türkiye Araştırmaları
+                                                                                                               Karavar, H.
+
+
+
+    Kuduz ve çiçek hastalıklarından sonra Osmanlı’nın uğraştığı bir diğer hastalık kole-
+radır. 1890’lı yıllardaki kolera salgını başlayınca salgını önlemek isteyen Osmanlı dev-
+leti, yurt dışından Dr. Bongowsky’i getirtmiştir. Fakat kolera hastalığı, savaşlar döne-
+minde ülkenin çeşitli yerlerinde yine kitlesel bir salgın haline gelmiştir. Örneğin Balkan
+Savaşları’nda kolera salgını askeri etkilemiş ve hatta Birinci Balkan Savaşı’nın kaybe-
+dilme sebeplerinden biri olarak görülmüştür. Ne yazık ki Balkan Savaşları’nın ardından
+tifüs salgını Anadolu’da yaygınlaşmıştır. Hastalığı arttıran nedenlerden biri taşıyıcı olan
+askerlerin memleketlerine dönmesidir. 9 Balkan Savaşları sırasında sıhhiye teşkilatında
+değişikliğe gidilmiş, 1912’de Vilayet-i İdare-i Sıhhiye Nizamnamesi çıkartılmıştır.
+Böylece memleket tabipliği kaldırılarak yerine hükümet tabipliği getirilmiştir.10 Birinci
+Dünya Savaşı yıllarında salgın hastalıklar hem halkı hem de orduyu tehdit eder duruma
+gelmiştir. Örneğin sıtma, frengi, verem hastalıklarının yanında kızıl, kızamık ve çiçek
+hastalıklarından Birinci Dünya Savaşı yıllarında pek çok insan hayatını kaybetmiştir.11
+Ancak bu dönemde henüz müstakil bir sıhhiye bakanlığının kurulmamış olması sorunla-
+rın çözüme kavuşmasının önündeki önemli engellerden biri olmuştur. Doğal olarak
+Milli Mücadele döneminde atılan ilk adım müstakil bir sıhhat idaresi kurulması yönün-
+dedir. Bu çalışmanın amacı Türkiye Büyük Millet Meclisi (TBMM) Zabıt Ceridelerinden
+yola çıkarak Milli Mücadele dönemi boyunca Sıhhat ve Muavenet-i İçtimaiye
+Vekâletinin faaliyetlerini ortaya koymaktır.
+
+  İlk Sıhhiye Vekili Dr. Adnan (Adıvar) Bey’in faaliyetleri (3 Mayıs
+1920-10 Mart 1921)
+    Dr. Adnan Bey, Tıbbiye-i Mülkiye’yi bitirdikten sonra Almanya’ya gitmiştir. Burada
+ilk önce Profesör Friedrich Kraus’un öğrencisi olmuş sonra da asistanlığını yapmıştır.
+İkinci Meşrutiyet’in ilanının ardından 1909’da Türkiye’ye dönmüştür. Tıp fakültesinin
+klinik şefliğini ardından da müdürlüğünü yapmıştır. Sonraki yıllarda Hilal-i Ahmer
+Cemiyet’inin müfettişi göreviyle Trablusgarp Savaşı’nda bulunmuştur. Birinci Dünya
+Savaşı’ndaysa Sıhhiye Umum Müdür Muavinliği ve binbaşı rütbesiyle Sahra Sıhhiye
+Umum Müdür muavinliği görevlerini sürdürmüştür.12 Yine Birinci Dünya Savaşı’nın
+
+9     Sibel Yazıcı, “Meclis-i Mebusan Bütçe Görüşmelerinde Salgın Hastalılarla İlgili Tartışmalar ve Öneriler (1914- 1918)”,
+      Osmanlı Medeniyeti Araştırmaları Dergisi, 5/8, Nisan 2019, s. 72.
+10 Umut Karabulut, “Cumhuriyet’in İlk Yıllarında Sağlık Hizmetlerine Toplu Bir Bakış: Dr. Refik Saydam’ın Sağlık
+   Bakanlığı ve Hizmetleri (1925-1937)”, Çağdaş Türkiye Tarihi Araştırmaları Dergisi (ÇTTAD),VI/15, Güz 2007, s. 152.
+11 Sibel Yazıcı, “Meclis-i Mebusan…”, s.74. Bu dönemde Kızılay’ın da göçmenlere, hasta ve yaralılara yardımda
+   bulunmuştur. Bkz.: Mesut Çapa, Kızılay (Hilal-i Ahmer) Cemiyeti (1914-1925), Ankara, Türkiye Kızılay Derneği,
+   2010, s. 62.
+12 Orhan F. Köprülü, “Abdülhak Adnan Adıvar”, Türkiye Diyanet Vakfı İslam Ansiklopedisi (DİA), C.1, İstanbul, Türkiye
+   Diyanet Vakfı, 1988, s. 375.
+
+
+    Yakın Dönem Türkiye Araştırmaları                                                                                  53
+ Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+son zamanlarında fakültede Emraz-ı Umûmiye dersi vermiştir. Mondros Mütarekesi’nin
+imzalanmasından (30 Ekim 1928) sonra Anadolu işgale uğramaya başlamıştır.
+Anadolu’daki kongreler döneminin adından gerçekleşen Amasya Görüşmeleri’nde,
+Mebusan Meclisi’nin yeniden toplanmasına karar verilmiş ve mebus seçimlerine gidil-
+miştir. Mebusan Meclisi’nde mebus olan Dr. Adnan ve Rauf beylerin başını çektiği grup
+Felah-ı Vatan adlı grubu kurarak Milli Mücadele lehine aktif faaliyetlerde bulunmuşlar-
+dır. Mebusan Meclisi’nde Misak-ı Milli Kararları’nın kabulünün ardından İtilaf
+Devletleri, Türkiye’yi fiilen işgale karar vermiş ve 3 Mart 1920’de İtilaf Devletleri’nin
+yoğun baskısıyla Ali Rıza Paşa istifa etmiştir. 13 Mart 1920’deki Mebusan Meclisi top-
+lantısında İtilaf Devletleri’nin İstanbul’u işgal edeceği duyumları dile getirilince Dr.
+Adnan Bey’in, olası bir işgali Mebusan Meclisi’nde karşılama isteğini eşi Halide Hanım
+kabul etmemiş ve Ankara’ya kaçış teklifinde bulunmuştur.13 Dr. Adnan Bey, 16 Mart
+1920’de İstanbul’un İtilaf Devletleri’nin işgalinin ardından Anadolu’ya geçtiğinde
+İstanbul’da Kızılay Umumi Kâtibi olarak görev yapmaktaydı.14 Ankara’ya gelişinin ar-
+dından, 1920’de 3 Sayılı Kanunla kurulan Sıhhat ve Muavenet-i İçtimaiye’nin işleyişin-
+den sorumlu vekil olarak seçilmiştir.
+
+     İlk sıhhat idaresi 2 Mayıs 1920’de 3 sayılı Büyük Millet Meclisi İcra Vekillerinin
+Sureti İntihabına Dair Kanunun 1. maddesinde “….Sıhhat ve Muavenet-i İçtimaiye…
+işlerini görmek üzere Büyük Millet Meclisinin on bir zattan mürekkep bir İcra Vekilleri
+Heyeti vardır.15” cümlesiyle Anadolu’daki sağlık sorunlarının çözümü için bir kurum
+oluşturulmuştur. Ancak İcra Vekilleri Heyeti oluşturulurken özellikle Sıhhat ve
+Muavenet-i İçtimaiye Vekâleti’nin kurulup kurulmamasıyla ilgili çeşitli tartışmalar ya-
+şanmıştır. Bunun sebebi Büyük Millet Meclisi’ni (BMM), Osmanlı Mebusan Meclisi’nin
+devamı niteliğinde olduğunu kabul eden bazı mebusların, İstanbul hükümetinde olma-
+yan yeni vekâletlerin kurulmasını doğru bulmamasıdır. Örneğin Saruhan Mebusu Refik
+Şevket Bey, 1 Mayıs 1920’deki görüşmelerde şu sözleri söylemiştir. “Bir defa bâzı ne-
+zaretlerin isimleri değiştirilmiştir. Bizde mevcud olmayan nezaretler ihdas olunmuştur
+ve diğerleri ipka edilmiştir. Meselâ Maarif, Adliye ve Mezahib, Maliye, Nafıa, Dâhiliye,
+Hariciye gibi nezaretler aynen ipka olunduğu halde Meşihat yerine Şer’iye tâbiri kulla-
+nılmıştır... İkincisi Sıhhiye ve Muaveneti içtimaiye denilmiştir. Bizde Sıhhiye Nezareti
+yoktu. Sıhhiye evvel ve âhir Dâhiliyeye merbuttur. Fakat Kabineye dâhil değildir.
+Muaveneti içtimaiye tâbiri! Muaveneti İçtimaiye namında bir nezaretin vücudundan
+hiçbirimizin haberi yoktur. Binaenaleyh Sıhhiye ve Muaveneti içtimaiye tâbiri
+13 Turhan Ada, Adnan Adıvar Hayatı ve Kişiliği, İstanbul, İstanbul Büyükşehir Belediyesi Yayınları, 2010, s. 83-86.
+14 Mesut Çapa, Kızılay…, s. 39.
+15 Resmî Gazete, 7 Şubat 1337, No.1, s. 4.
+
+
+54                                                                                   Yakın Dönem Türkiye Araştırmaları
+                                                                                              Karavar, H.
+
+
+
+muhdestir…” sözlerine Kastamonu Mebusu Yusuf Kemal Bey yanıt vermiştir.
+Konuşmasında Sıhhiye Nezareti’nin olduğunu fakat önce Hariciye daha sonraysa
+Dâhiliye Nezareti’ne bağlandığını hatırlatmıştır. Sıhhiye Vekâleti tartışmalarını anlam-
+sız bulan Yusuf Kemal Bey, halkın sağlıklı olmaması durumunda ne dâhili/iç ne de har-
+biye/savaş işinin kalmayacağının altını çizmiştir. Sözlerine “Türklüğü bitiren hastalıkla-
+rı bir an evvel kaldırmazsak, eğer Türk ailesinin, Türk ferdinin refahını temin edecek
+esbabı istikmal etmezsek hepsi boştur, ne yaparsak yapalım hepsi boştur. Onun için
+Sıhhiye Nezareti başta, zikredilmiştir.” diyerek müstakil bir vekâletin mutlaka kurulması
+gerektiğini söylemiştir. Vekâletin diğer kısmı olan Muavenet-i İçtimaiye kısmınınsa ye-
+tim çocukların korunması için olduğunu beyan etmiştir.16 Sıhhiye Vekâleti’nin kurulma-
+sına karşı çıkan Sivas Mebusu Hayri Bey, BMM’ne verdiği takrirde “Büyük Millet
+Meclisi İcra Vekilleri Heyeti hali tabiînin avdetine kadar tedviri umur edecek bir heyet
+olduğu cihetle Hükümeti Osmaniyenin teşkilâtı asliyesini muhafaza etmek ve mercisiz
+kalan şuabatı idareye bir merci tâyin etmek suretiyle idarei umur edeceği tabiî olduğun-
+dan ve teşkilâtı asliyede bir Sıhhiye Nezareti bulunmadığından (Sıhhiye ve Muaveneti
+İçtimaiye) Nezareti’nin.17” kaldırılmasını talep etmiştir. Sivas Mebusu Mustafa Taki
+Efendi ise Sıhhiye Encümeni ve Vekâleti ile Muavenet-i İçtimaiye Encümeni ve
+Vekâletinin ayrı olmasını teklif etmiştir. Ancak bu istek kabul görmemiş; ikisi bir arada
+tek bir vekâlet olarak kurulmuştur. Sıhhiye ve Muavenet-i İçtimaiye Vekâleti Vekilliğine
+Dr. Adnan Bey seçilmiştir.
+
+    Vekilliğe seçilmesinin ardından Dr. Adnan Bey, Ankara Vilayet Konağı’nda emrine
+verilen sıhhiye memuruyla birlikte çalışmalara başlamıştır. İlk olarak Türkiye Büyük
+Millet Meclisi Hükümeti’nin kontrolünde bulunan bölgelerdeki doktorlar kayıt altına
+alınmıştır. Sıhhiye Vekâleti’nin bütçesinin belirlenmesinin ardından idari yapıyı şekil-
+lendirmiştir. Dr. Adnan Bey’in vekâleti döneminde, Bakanlığa bağlı olarak Hıfzıssıhha
+Dairesi, Sicil Dairesi, Muhasebe ve Evrak Kalemi kurulmuştur. 18 Böylece Sıhhiye
+Vekâleti’nin idari teşkilatlanması oluşturulmaya çalışılmıştır.
+
+   Taşradaki sıhhi yapılanmada düzenleme yapılmamış sağlık müdürleri, hükümet, be-
+lediye ve karantina tabiplikleriyle küçük sıhhiye memurlukları aynı şekliyle görevlerine
+
+
+
+
+16 TBMM Zabıt Ceridesi (TBMMZC), D.1, C.1, B.8, 1 Mayıs 1336/1920, s. 163-166.
+17 TBMMZC, D.1, C. 1, B.1, 1 Mayıs 1336/1920, s. 167-168.
+18 Süleyman Tekir, “Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet Dönemindeki
+   Faaliyetleri (1920-1930)” Belgi Dergisi, 2/8, 2019/II, s. 1303-1304.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                                   55
+ Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+devam etmiştir.19 Ayrıca depolardaki ilaç ve malzeme miktarlarının tespitinin yanında
+kolordulardan istatistik kayıtları temin edilmiştir. Sonraki aşamada Afyon’da Birinci
+Dünya Savaşı’ndan sonra toplanmış olan sıhhiye deposu Ankara’ya getirtilmiş;
+Erzurum, Diyarbakır ve Konya’daki kolordu sıhhiye depoları yeniden düzenlenmiştir.
+Bir diğer faaliyetse iki hafif sıhhiye treninin Eskişehir-Ankara ve Konya hattına konul-
+muş olmasıdır.20 Haziran 1920’de İstanbul Hükümeti’nin Anadolu’ya serum ve ilacın
+gönderilmesini yasaklama kararı üzerine kuduz tedavi müessesi, aşıhane ve bakteriyo-
+lojihane açılmıştır. Böylece Dr. Adnan Bey’in çabalarıyla Anadolu’da aşı üretimine baş-
+lanmış ve 250 bin kişilik aşı üretilmiştir.21 Ancak bu gelişmelere rağmen hem hekim
+eksikliği hem de yeterli tıbbi ekipmanın olmaması gibi sorunlar devam etmekteydi.
+Ayrıca yeterli sayıda hastanenin bulunmaması cephede yaralanan askerlerin tedavilerini
+zorlaştırmıştır.22 Bu sorunlar üzerine hastanelerin düzenlenmesi için çalışmalar yapıl-
+mıştır.
+
+     Eylül 1920’de mülki ve askeri sıhhiyenin birleştirilmesiyle ilgili görüşmeler yapıl-
+mıştır. İkisinin birleştirilmesi halinde doktor, memur ve müstahdemlerin daha verimli
+istihdam edileceği düşünülmüştür. Çünkü Birinci Dünya Savaşı’nın ardından
+Anadolu’da frengi, sıtma ve verem hastalıkları yaygınlaşmaya başlamıştır. Bu sebeple
+mevcut hastanelerin ve sıhhiye teşkilatının ıslah edilerek tüm halkın faydalanacağı hale
+getirilmesi zorunlu görülmüştür. Nitekim askeri hastanelerden sadece askerlerin yararla-
+nabilmesi, para ve sağlık personeli yüzünden israf olarak kabul edilmiştir. Bu yüzden
+sivil hastanelerin asker, askeri hastanelerin sivil hastayı tedavi etmesi önerilmiştir.23
+Ancak ordunun ihtiyacı olan hekimlerin hastane ve belediye tabiplerinden seçilmesini
+isteyen Dr. Adnan Bey, hükümet tabiplerinin görevlerinde bırakılmalarına dair talimat-
+name yayınlamıştır.24 Meclis’te iki kurumun birleştirilmesi yönünde bir karar çıkmamış-
+tır. Müdafaa-i Milliye Vekilliği, Dr. Suat Bey’in verdiği teklifin reddini istemiştir.
+Gerekçelerse şunlardır:
+
+
+
+19 Dr. Adnan Bey Sıhhiye ve Muaveneti İçtimaiye Vekilliği’nin yanında ayrıca Dâhiliye Vekâleti’ni de vekâleten
+   yürütmüştür. Bkz.: Nuran Yıldırım, “Hekim Kimliği ile Abdülhak Adnan Adıvar ve Tıp Tarihi ve Deontoloji
+   Mühendisliği”, Osmanlı Bilimi Araştırmaları Dergisi, VII/2, 2006, s. 71.
+20 Mesut Çapa, Kızılay…, s. 97-98.
+21 Süleyman Tekir, “Sıhhiye ve…”, s. 1303-1304.
+22 Umut Dere, Operatör Emin (Erkul) Bey’in Hayatı, Mebusluğu ve Şehreminliği, Yayımlanmamış Yüksek Lisans Tezi,
+   İstanbul, İstanbul Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Enstitüsü, 2018, s. 30-31.
+23 TBMMZC, D.1, C.3, B.59, 5 Eylül 1336, s. 559-560.
+24 Gürkan Tekin, Sıhhiye ve Muavenet-i İçtimaiye Vekâletinden Sağlık Bakanlığına (1920-2000), Yayımlanmamış Doktora
+   Tezi, Ankara, Ankara Üniversitesi Türk İnkılap Tarihi Enstitüsü, 2011, s. 31.
+
+
+56                                                                                   Yakın Dönem Türkiye Araştırmaları
+                                                                                                           Karavar, H.
+
+
+
+    1. Ordu teşkilatı içindeki askeri doktor sınıfını dönüştürmek suretiyle uygulanacak değişiklikler,
+    2. Vazife, kanunlar ve nizamatı mevzua ve özellikle emrü kumanda, terfi, cezalandırma meselele-
+       rindeki hususiyet,
+    3. Sıhhiye ve Muaveneti İçtimaiye Vekâleti vazifelerine ait konular ile ordu umuru sıhhiyesinin
+       gösterdiği farklar,
+    4. Harpte umuru sıhhiye-i askeriyenin sureti cereyanına ait esasat,
+    5. Seferberlik halinde hastanelerin birleştirilmesinde ortaya çıkabilecek mahzurlar,
+    6. Sıhhiye kurumları ve depoların devri suretiyle ordunun sıhhiye tedbirleri ve ikmalinde meyda-
+       na gelebilecek eksikliklerin ve gecikmenin tahmin edilmesi.25
+
+    Her ne kadar iki kurum birleştirilmese de ayakta tedavisi mümkün olan ahalinin as-
+keri hastanelerde tedavi olmasının yolu açılmıştır. Askeri hastane olmayan yerlerde as-
+ker hastaların hükümete ait hastanelerde ve belediyelere ait memleket hastanelerinde
+her asker içinse 30 kuruş bedel ödenerek tedavi edilmesine karar verilmiştir.26 1920 yılı
+içindeyse erlerin aşılanmasına, beslenmesine ve temizliğe önem verilmiş, böylece sal-
+gın hastalıklar önlenmeye çalışılmıştır.27 Ayrıca Antalya’yı işgal etmiş olan İtalyanlardan
+çiçek aşısı temin edilmiştir.28 Çiçek hastalığına karşı alınan bir diğer önlemse iş için
+devlet dairelerine başvuran kişilerin çiçek aşısı olmalarının sağlanmasıdır.29 Ayrıca bu
+dönemde Kızılay’la da iletişime geçilmiştir. 1920 yılı içinde Müdafaa-i Milliye Vekâleti
+Sıhhiye Dairesi’nin teklifi üzerine yaralı subayların yatırılacağı 100 yataklı hastane
+Ravza-i Terakki Okulu’na açılmıştır. Yunan ileri hareketinin başlamasıyla 27 Temmuz
+1920’de Nazilli hastaneleri Dinar’a ve Burdur’a taşınarak 50 yataklı iki hastane oluştu-
+rulmuştur.30
+
+   Eskişehir’in tahliyesi sırasında Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’nin daveti
+üzerine Kızılay’ın Eskişehir Murahhası Dr. Besim Paşa Ankara’ya gelmiştir. Her ne ka-
+dar Eskişehir murahhaslığı Mondros Mütarekesi’nden sonra lağvedilmiş olsa da depo-
+sundaki malzemeler İstanbul’a sevk edilmemiştir. Nitekim Dr. Besim Paşa’nın
+Ankara’ya gelmesiyle buradaki depo ve müesseseler Ankara Murahhaslığı’nın emrine
+
+25 TBMMZC, D.1, C.3, B.59, 5 Eylül 1336, s. 558.
+26 Türkiye Cumhuriyeti Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Cumhuriyet Arşivi (BCA), Fon Kodu: 30-18-1-1,
+   Yer No: 2-26-6, 2 Ocak 1921, s. 2
+27 Adnan Ataç, “Milli Mücadele’de (1919-1923) Askeri Sağlık Hizmetleri”, Isparta, SDÜTF 100. Yılında Milli
+   Mücadele’de Sağlık Hizmetleri, Sempozyumu Bildiri Özetleri Kitabı, 2020, s. 11.
+28 Muhittin Gül, “Atatürk Dönemi Sağlık Politikaları”, G.Ü. Diş Hekimliği Fakültesi Dergisi, V/1, 1988, s. 250.
+29 Mehmet Arslan, “Anılarda Milli Mücadele Döneminde Sağlık Koşulları ve Verilen Sağlık Hizmetleri”, Avrasya
+   Uluslararası Araştırmalar Dergisi, 9/27, Haziran 2021, s. 403.
+30 Metin Kopar, Türkiye’de Sağlık Sistemi ve Salgın Hastalıklarla Mücadele (1923-1938), Adıyaman, İksad Yayınevi,
+   2021, s. 28-29.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                                                57
+ Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+verilmiştir. Böylece Milli Mücadele döneminin sıhhiye ihtiyacını karşılayan bir yapıya
+bürünmüştür.31 Ankara Murahhaslığı’na bağlı olan kurumlar arasında “Birinci Ankara
+Hastanesi, İkinci Ankara Hastanesi, Isparta Hastanesi ve Gördes, Bilecik, Haymana,
+Mihalıcık, Sivrihisar, Afyonkarahisar-Uşak, Bilecik ve havalisi imdad heyetleri”32 bu-
+lunmaktadır. Sıhhat ve Muavenet-i İçtimaiye ilk kurulduğunda muhacir, mülteci ve aşi-
+retlerin iskânıyla iaşesini sağlamak, Rusya’daki esirlerin celbi/kendine çekme ve yetim-
+hanelerle ilgilenmiştir. 33
+
+     31 Temmuz 1920’de Malatya Mebusu/Milletvekili Lütfü Bey ve arkadaşları tarafından
+Muhacir Müdüriyet-i Umumiyesi teşkilatının lağvedilerek Sıhhiye ve Muavenet-i
+İçtimaiye Vekâleti’ne bağlanması hakkında verilen teklif görüşülmüştür.34 Muhacir
+Müdüriyeti Umumiye’si hakkında kısaca bilgi vermek gerekmektedir. Osmanlı’nın büyük
+toprak kayıpları yaşayıp da çekildiği bölgelerdeki Müslüman halk mülteci konumuna düş-
+müş; anayurda dönmeye başlamıştır. Osmanlı’nın gerileme döneminde toprak kayıplarına
+paralel olarak milyonlarca insan mülteci konumuna düşmüştür. Osmanlı Devleti muhacir-
+lerin sorunlarını çözmek için ilk önce Dâhiliye Nezareti’ni ve belediyeleri görevlendirmiş-
+tir. Fakat göçmenlerin sayısının gitgide artmasına karşın adı geçen kuruluşların asli görev-
+lerinin muhacirlerin iskânıyla doğrudan alakalı olmaması, sorunların artmasına neden
+olmuştur. Bu yüzden muhacirlerin iskân ve iaşelerinin sağlanması maksadıyla 1860’da ilk
+kez Muhacir Komisyonu oluşturulmuş; sonraki zamanlardaysa farklı farklı isimlerle göre-
+vini yapmaya çalışmıştır.35 Muhacir Komisyonuna müdüriyet ifadesi Balkan
+Savaşları’ndan sonra getirilmiş ve “Aşair” kelimesi ilave edilmiştir.36 Milli Mücadele dö-
+neminde işgal bölgelerindeki halkın da muhacir durumuna düşmesi doğal olarak bu soru-
+nun çözümüne ilişkin önerilerin Meclis’te görüşülmesine neden olmuştur.
+
+    Lütfü Bey ve arkadaşlarının verdiği öneriyle ilgili Dâhiliye ve Heyet-i Vekile farklı iki tek-
+lif vermiştir. Heyet-i Vekile, Muhacir Müdüriyeti Umumiyesi’nin lağvedilerek Sıhhiye ve
+Muavenet-i İçtimaiye Vekâletine bağlanmasını; Dâhiliye Vekâletiyse, mahalli belediyeleri bı-
+rakılmasını talep etmiştir. Konuyla ilgili Sıhhiye Vekili Dr. Adnan Bey, Muhacirin Müdüriyet-i
+
+31 Mesut Çapa, Kızılay…, s. 37.
+32 Mesut Çapa, Kızılay…, s. 41.
+33 Bu işlerle doğrudan doğruya sıhhat işlerine ait olan bütçeler ayrı ayrı düzenlenmiştir. 1920’de 1.474.776 lira, 1921’de
+   926.493 lira, 1922’de 1.966.644 lira bütçe ayrılmıştır. Bkz. Sıhhiye Mecmuası Fevkalade Nüshası, 29 Birinci Teşrin,
+   1933, s. 20.
+34 TBMMZC, D.1, C.3, B.41, 31 Temmuz 1337, s. 23.
+35 Ufuk Erdem, Osmanlı’dan Cumhuriyete Muhacir Komisyonları ve Faaliyetleri (1860-1923), Ankara, Atatürk Kültür,
+   Dil ve Tarih Yüksek Kurumu Türk Tarih Kurumu Yayınları, 2018, s. 3-6.
+36 Ufuk Erdem, “Aşair ve Muhacirin Müdüriyet-i Umumisi (1913-1922)”, Zeitschrift Für Die Welt Der Türken, 9/1, 2017,
+   s. 76.
+
+
+58                                                                                   Yakın Dönem Türkiye Araştırmaları
+                                                                                                        Karavar, H.
+
+
+
+Umumiyesi’nin İstanbul’daki Dâhiliye Nezaretine bağlı bir kurum olduğunu söylemiştir.
+Ankara’da yeni bir hükümet teşekkül ederken İstanbul’daki hükümetten farklı bir uygulama
+yapılmadığını yalnız İcra Vekilleri kanununda farklı olarak Sıhhiye ve Muavenet Vekâleti’nin
+kurulduğunu belirtmiştir. Dr. Adnan Bey, bütün teşkilatın lağvedilerek belediyelere devredil-
+mesini uygun bulmamıştır. Teşkilatın bazı kısımlarının Dâhiliye Vekâleti’ne –aşiretlerin iskânı
+gibi- Sıhhiye Vekâletineyse iaşe vesaire kısımlarınınsa verilmesi kanaatini bildirmiştir.37
+Böylece muhacirlerin sevk ve iskânına dair olan sorunlar çözülmeye çalışılmış olsa da bu gö-
+rüşmelerde kesin bir sonuca ulaşılamamıştır. Yine Dâhiliye Vekâleti’ne bağlı kalmıştır.
+
+    Milli Mücadele döneminde sıhhi politikaların temelinde bulaşıcı ve salgın hastalık-
+larla mücadele etmek bulunmaktadır.38 Nitekim Dr. Adnan Bey’in sıhhiye vekilliği za-
+manında ele alınan konulardan bir diğeri o dönemde ciddi sağlık sorunları arasında yer
+alan frengi hastalığıdır.
+
+   Frengi hastalığı, Balkan Savaşı ve Birinci Dünya Savaşları sonrasında Anadolu’nun
+pek çok yerine yayılmıştır. Hastalığın önünün alınması için Bolu Mebusu Fuat Bey, 14
+Ağustos 1920’de Frenginin men ve tahdidi sirayeti hakkında kanun teklifini Heyet-i
+Umumiye’ye sunmuştur. Dr. Fuat Bey, mecliste konuyla ilgili yapılan görüşmelerde
+Batı Anadolu’daki durumu izah etmiş; cephe ve cephe gerisini yaptığı ziyaretlerde 1920
+senesinde Eskişehir’deki zührevi hastalıklar hastanesinde tedavi gören hastaların %30’u
+frengili olduğu bilgisine ulaşmıştır. Ayrıca askeri birlikte yer alan 120 kişiden 45’inin
+frengili olduğu ve Kütahya cephesindeyken bu hastalığı kaptıkları tespit edilmiştir.
+Kütahya’daki sıhhiye defterlerine, 3 bin kişi frengili olarak kaydedildiği bilgisini pay-
+laşmıştır. Konuşmasının devamında frenginin yayılma sebeplerinden birinin evlenirken
+bu hastalığın teşhisiyle ilgili bir kanunun olmamasına bağlamıştır. Bir adamın üç kadını
+evlilik vaadiyle kandırarak onlara bilerek frengi geçirdiğini ve kişiyle ilgili işlem yapıl-
+ması istendiğindeyse kanun olmadığından kişi hakkında işlem yapılamayacağı söylen-
+diğini örnek olarak vermiştir.39
+
+    Konuyla ilgili görüşlerini dile getiren Dr. Abidin Bey, frengi ve bel soğukluğu hasta-
+lıklarının, yeni doğan bireylerde çeşitli sakatlıklar meydana getirdiğine dikkat çekmiştir.
+Belsoğukluğu hastalığının yeni doğanlardaki sonucunun körlük, frengi hastalığınınsa
+
+
+37 TBMMZC, D.1, C.3, B.41, 31 Temmuz 1337, s. 23-27.
+38 Feyza Kurnaz Şahin, “Propaganda Ve Sağlık: Cumhuriyet Döneminde Sıhhî Propaganda Faaliyetleri ve Halk Sağlığına
+   Etkileri (1923-1945)”, Türkiye Cumhuriyeti’nin Ekonomik ve Sosyal Tarihi Uluslararası Sempozyumu, (26-28 Kasım
+   2015 İzmir), Ankara, Atatürk Araştırma Merkezi Yayınları, 2017, s. 553.
+39 TBMMZC, D.1, C.7, B.122, 26 Aralık 1336, s. 34-35. Bu dönemde Sıhhiye Vekâleti’nin bütçesinden frenginin tedavisi
+   için para ayrılmıştır. Yine Kastamonu ve Bolu’da hükümetçe frengi tedavi merkezleri açılmıştır.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                                             59
+ Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+frengi çiçeği olduğunu söylemiştir. Evlilik öncesinde yapılacak olan muayenenin top-
+lum sağlığı ve doğacak yeni nesil için önemli olduğunu vurgulamıştır. Frengi hastalığını
+parasız tedavi edebilmek için ilginç bir öneri Ömer Lütfi Bey’den gelmiştir. Frengililer
+için belirli yerlerde büyük hastanelerin açılıp hastaların oraya gönderilmesini ve çalıştı-
+rılmasını önermiştir. Benzer bir uygulamanın Birinci Dünya Savaşı’nda yapıldığını ha-
+tırlatmıştır. Savaş sırasında Merzifon Şifa yurdunda 900 frengi hastasının toplandığını
+ve bu kişilerin tedavi olurken zirai alanda çalışmış olmalarını örnek olarak vermiştir.
+Kendisini tedavi ettiren veya ettiremeyen köylülerin bu şekilde toplanarak çalıştırılma-
+larıyla devlete yük olmayacaklarını belirtmiştir.40 Frengi hakkında çıkartılacak olan bir
+kanunun hastalığın önlenmesinde etkili bir yöntem olacağı düşünülmüştür.
+
+   Görüşmeler nihayetinde 5 Şubat 1921’de 90 sayılı “Frenginin Men ve Tahdidi
+Sirayeti Hakkında Kanun” çıkartılmıştır. 12 maddeden oluşan bu kanunda frengi hastası
+olduğunu bilerek sağlıklı insana bulaştıran kişilere altı aydan iki yıla kadar hapis veya
+yüz liradan beş yüz liraya kadar para cezası verilmiştir. Tabiplerin kendilerine gelen
+frengi hastalarını hükümet tabibine, eğer o yoksa belediye doktoruna bildirme zorunlu-
+luğu getirilmiştir. Yine eğer bir frengi hastası belirlenen günlerde tedavi olmak üzere
+gelmemesi durumunun bildirilmesine karar verilmiştir. Ayrıca frengi hastalarını tedavi
+etmeye kalkışan mutatabbiplere/şarlatan, üfürükçü iki aydan iki seneye kadar hapis
+veya elli liradan yüz liraya kadar para cezası verilmesi hükmü getirilmiştir.41 Böylece
+Anadolu’da yaygın olan frengi hastalığını önlemeye çalışan kanunla halk sağlığı açısın-
+dan önemli bir adım atılmıştır.
+
+    Frengi hakkında çıkartılan kanunun ardından 14 Eylül 1920’de 22 sayılı Men’i
+Müskirat Kanunu çıkartılmış ve yürürlüğe girmiştir. Bu kanun her ne kadar doğrudan
+Sıhhiye Vekâletiyle ilişkili olmasa da kanunun iki maddesi vekâletle ilgilidir. Bu mad-
+delerden ilki 5. madde olup: “Tababette kullanılacak her nevi ispirtolu mevat ihtiyaç
+nisbetinde Sıhhiye Vekâletince eczanelere tevzi ve sarfiyatı kontrole tabi tutulur.” hükmü
+bulunmaktadır. İkincisiyse 6. maddedir: “Tababette istimal olunacak ispirtolu mevaddın
+sureti istimal ve sarfı hakkında Sıhhiye Vekâletince bir talimatname kaleme alınacak-
+tır.” 42 hükmüyle doktorluk mesleğinde kullanılan ispirtolu malzemelerin eczanelere da-
+ğıtma işi Sıhhiye Vekâleti’nin kontrolüne bırakılmıştır.
+
+
+
+
+40 TBMMZC, D.1, C.7, B.122, 26 Aralık 1336, s. 36-38.
+41 Resmî Gazete, 7 Mart 1337, No.5, s. 96.
+42 Gürkan Tekin, Sıhhiye ve…, s. 31.
+
+
+60                                                                                   Yakın Dönem Türkiye Araştırmaları
+                                                                                      Karavar, H.
+
+
+
+    24 Eylül 1920’de Sıhhiye Vekili Dr. Adnan Bey, hududu sıhhiye bütçesi sekiz aylık
+maaşları için 2.440 lira istemiştir. Ayrıca beklenmedik harcamalar için 7.780 lira; çeşitli
+masraflar içinse 3.200 liranın Maliye Vekâleti tarafından düzenlenip Meclis-i Âliye su-
+nulan iki aylık muvakkat bütçeye ilâvesini talep etmiştir. 30 Eylül 1920’de Sıhhiye ve
+Muavenet-i İçtimaiye Vekâleti, genel bütçeden maaş almayan hudut sıhhiyesi memurla-
+rı için genel bütçeden maaş ödenmesi gerektiğini söylemiştir. Sonuç olarak 1920 yılının
+iki aylık muvakkat bütçesinde Sıhhiye Vekâleti’ne devlet bütçesinden 123.482 lira ayrıl-
+mıştır.43 Şubat 1921’de Sıhhiye Vekâleti’nin bütçe görüşmeleri yapılmıştır. Bu görüşme-
+lerde hükümetin teklif ettiği ve encümenin kabul ettiği ücretlere yer verilmiştir. Bazı
+hususlarda hükümet ve encümen aynı bütçede karar kılmışken bazı bütçelerde encümen
+daha azını kabul etmiştir. Tablo 1 ve Tablo 2’de bütçeden talep edilen ve kesinleşen öde-
+nekler görülmektedir.
+Nevi Muhassasat                            Hükümetçe Teklif Olunan   Encümence Kabul Edilen
+Hükümet Hastaneleri                               50.000                    50.000
+Telkihhane                                         2.500                     2.500
+Darülkelp Tedavihanesi                             3.000                     3.000
+Bakteriyolojihane                                   500                       500
+Küçük Sıhhiye Memur Mektebi                         150                       150
+Kimyahane                                           500                       500
+                       Tablo 1: Sıhhiye Vekâleti Bütçesi Görüşmelerinden44
+
+    Tablo 1’de görüleceği üzere doğrudan halk sağlığıyla ilgili olan konularda hüküme-
+tin istediği meblağ, encümence kabul edilmiştir. Nitekim kuduz tedavisi ve bakteriyolo-
+jihane Sıhhat Vekâleti’nin oluşturulmasının ardından ilk açılan bölümlerdir.
+Nevi Muhassasat                          Hükümetçe Teklif Olunan     Encümence Kabul Edilen
+Müfettiş Yevmiye ve
+                                                  5.000                      3.200
+Harcırahı
+Muhacirin Sıhhiye
+                                                 10.000                      10.000
+Harcırahı
+Sulfato Esmanı*                                  15.000                      15.000
+Emrazı Sariye ve İstilaiye
+                                                 60.000                      45.000
+Masrafı*
+Frengi Mücadelesi                                15.000                      15.000
+Nakliye ve Bendiye                                500                         500
+                       Tablo 2: Sıhhiye Vekâleti Bütçesi Görüşmelerinden45
+
+    Tablo 2’de görüleceği üzere göçmenlerin sağlık harcamaları, frengi mücadelesi ve
+sıtma hastalığının tedavisinde kullanılan kinin için hükümet tarafından ayrılması istenen
+
+43 TBMMZC, D.1, C.5, B.92, s. 247-249.
+44 TBMMZC, D.1, C.8, B.158, 27 Şubat 1337/1921, s. 498.
+45 TBMMZC, D.1, C.8, B.158, 27 Şubat 1337/1921, s. 496.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                            61
+ Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+bütçe encümen tarafından kabul edilmiştir. Ancak müfettiş yevmiyeleri ve hastane mas-
+raflarında encümen, hükümetin istediğinden daha az bütçe ayırmıştır. Sıhhiye
+Vekâleti’nin bütçe görüşmelerinde Dr. Adnan Bey, özellikle harcırahlarla ilgili yapılan
+tenkitlere ve Sıhhiye Vekâleti’nin durumunu izah etmiştir:46
+
+         “…Sıhhiye de yeniden kuruluyor.. Biz buraya geldiğimiz zaman 290 hekim lâzım olduğu halde
+         elimizde ancak 180 hekim vardı ve şimdi yavaş yavaş gelen hekimlerle; tedarik ettiğimiz ve
+         bize iltihak eden hekimlerle bu işleri tanzime çalıştık ve çalışıyoruz. Sonara buraya geldiğimiz
+         zaman ilk olarak karşısında kaldığımız şey; sıhhat için elzem olan birçok müesseselerin mev-
+         cut olmaması idi. Fena bir itiyat neticesi olarak bu gibi müesseseleri hep İstanbul’da ve ora-
+         dan da fekki’ irtibat edince muztar bir vaziyette kaldık. İşte o zamanlar; hayat bahasına olan
+         bazı müesseseler burada yoktu. Meselâ Darülkelp müessesesi. Bir adamı bir kuduz köpek ısır-
+         dığında tedavi edilmezse ölür. Burada bin bir müşkülatla bir Daülkelp müessesi açabildik.
+         Böyle müesseseler İstanbul gibi yerlerde on gün yapılabilen şeylerdir. Sofya’ya bir adam gön-
+         derilir ve levazım tesis olunabilir. Halbuki biz bunu burada bin bir tülü müşkülatla yapabildik.
+         Çünkü her taraf kapanmış olduğu halde kaçak şişeler içerisinde birçok müşküllerle levazım
+         getirerek açabildik…
+         Aşılar meselesine gelince zaten asıl Sıhhiyenin hizmetleri buradan başlar. Yine vaktiyle Sivas’ta
+         tesis edilmiş bir Aşı müessesesi vardı ve birtakım aşılar yapıyordu. Fakat bir kısmı tutmuyordu.
+         O müessese de mütarekeyi müteakip ne olmuş bilmiyorum. Onların ıslahına çalıştım ve bu
+         müessese bugün iki yüz elli bin kişilik aşı, yetiştirebiliyor. İşte yapabildiğimiz şeyler bunlardır
+         ve bu müesseseler işliyor…”
+
+   Konuşmasının devamında bir diğer eleştiri konusu olan muavenet/yardım kısmını
+ele almıştır. Sıhhiye Vekili Dr. Adnan Bey, Muhacirin Müdüriyet-i Umumisi’nin,
+Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’ne bağlanması için rica ettiğini fakat
+Meclis’in genel temayülünün müdüriyetin belediyelere bağlanması olduğunu hatırlat-
+mıştır. Müdüriyetin, Dâhiliye Vekâleti’ne bağlı kaldığını söylemiş ve vekâletin muave-
+net kısmıyla ilgili eleştirileri haksız bulduğunu dile getirmiştir.47 Böylece vekilliğini
+yaptığı vekâletin genel durumunu, yapılan faaliyetleri izah etmiş; eleştirilere yanıt ver-
+miştir. Dr. Adnan Bey’in Sıhhiye Vekilliğinden istifası üzerine Dr. Refik Bey (Saydam)
+göreve seçilmiştir.
+
+  Sıhhiye Vekili Dr. Refik (Saydam) Bey’in Faaliyetleri (10 Mart
+1921-20 Aralık 1921)
+    Dr. Refik Bey, Askeri Tıbbiye’den tabip yüzbaşı unvanıyla 1906’da mezun olmuş-
+tur. İlk görev yeri olan Gülhane’deki stajının ardından Üçüncü Ordu’ya atansa da
+46 TBMMZC, D.1, C.8, B.158, 27 Şubat 1337/1921, s. 498-500.
+47 TBMMZC, D.1, C.8, B.158, 27 Şubat 1337/1921, s. 498-500.
+
+
+62                                                                                   Yakın Dönem Türkiye Araştırmaları
+                                                                                                          Karavar, H.
+
+
+
+histoloji ve embriyoloji alanında çalışmak üzere Gülhane’deki görevine devam etmiş-
+tir. 1910 yılında Almanya’nın Berlin şehrine gitmiş; Askeri Tıp Akademisinde ve baş-
+ka şehirlerde çeşitli kurslar almıştır. Almanya’ya gidişinin ikinci yılında Balkan
+Savaşı’nın çıkması üzerine Türkiye’ye geri dönmüştür. Aktif görev başvurusu üzerine
+Antalya Redif Fırkasının İkinci Seyyar Hastanesine atanmıştır. Balkan Savaşı boyun-
+ca Dr. Refik Bey çeşitli hastanelerde görev yapmıştır. Birinci Dünya Savaşı’nda Sahra
+Müfettişi Umumisi Muavinliği’ne atanmış ve Mondros Mütarekesi’ne (30 Ekim 1918)
+kadar da bu görevi sürdürmüştür. Mütareke imzalandıktan sonra 5 Mayıs 1919’da 9.
+Ordu Sıhhiye Müfettiş Muavinliği’ne atanmıştır. Böylece Dr. Refik Bey, 9. Ordu
+Müfettişi Mustafa Kemal Paşa’nın emrine girmiş ve onunla birlikte Samsun’a geç-
+miştir.48 Dr. Refik Bey, Birinci Dünya Savaşı sırasında tifüs aşısını hazırlayarak litera-
+türe girmiştir. Ayrıca tetanos ve dizanteriye karşı serum üretilmesinde önemli rolü bu-
+lunmaktadır.49 Dr. Refik Bey, Müdafaa-i Milliye-i Vekâleti’nin Sağlık Şubesi’nde
+görevlendirilmiştir.50 Onun bu özellikleri Adnan Bey’in istifasından sonra Sıhhiye
+Vekilliğine atanmasını sağlamıştır. Her ne kadar kısa süreli de olsa Dr. Refik Bey’in
+vekilliği döneminde daha çok muhacirler ve yetimler yani muavenet kısmının ön pla-
+na çıktığı görülmektedir.
+
+   1 Mayıs 1921’de Dâhiliye Vekâleti’ne bağlı olan Muhacirin bütçesi Muvazene-i
+Maliye Encümeni kararıyla Sıhhiye Vekâleti’ne bağlanmasına karar verilmiştir.51
+Haziran 1921 yılı içinde Müdafaa-i Milliye Vekâleti’nce askeri hastanelerin iaşesinin
+düzeltilmesi ve iyileşen askerlerin orduya daha gürbüz olarak iade edilmeleri için veri-
+len tezkere İcra Vekilleri heyetinde görüşülmüştür. İstanbul Gümüşsuyu Hastanesi’nde
+yapılan uygulamayla üç derece üzerinden tayini uygun bulunmuştur. Ancak Sıhhiye
+Vekâleti’yle de yeniden tetkik edilerek ona göre karar verilmesi düşünülerek Sıhhiye
+Vekâleti’ne tebliğ edilmiştir.52 Bu durumun nedeni askeri ve sivil sıhhiye işlerinin ayrı
+vekâletlerce yürütülmesinden kaynaklanmaktadır.
+
+   Sıhhiye Vekâleti sağlık işleri yanında yetim yurtlarıyla ilgili meselelerde de muhatap
+olarak kabul edilmiştir. 1921 Ekim ayında TBMM görüşmelerinde dile getirilen
+
+
+48 Kemal Arı, “Cumhuriyetin Sağlık Devrimcisi: Dr. Refik Saydam”, Vatan ve Sıhhat Tıbbiyelinin Yurtseverliği, ed.: Eren
+   Akçiçek, Fevzi Çakmak, İzmir, Bulaşıcı Hastalıkları Önleme Derneği Yayınları, 2015, s. 295-298.
+49 İlber Ortaylı, “Sağlık Ordusunun Az Bilinen Komutanlarından Dr. Refik Saydam”, Milliyet, 8 Temmuz 2012.
+50 Sağlık şubesinde herhangi bir bilgi olmadığından dört bölüm açılarak doküman toplanmıştır. İlk bölüm tabip
+   mevcudunu, ikinci bölüm depolardaki ecza ve malzemeleri, üçüncü bölüm fenni işlere ait bilgileri, dördüncü bölümse
+   istatistik ve istihbarata ait işleri kolordu ve kurumlardan almıştır.
+51 BCA, Fon Kodu: 30-18-1-1, Yer No: 13-19-8, 1 Mayıs 1921, s. 2.
+52 BCA, Fon Kodu: 30-18-1-1, Yer No: 3-27-11, 29 Haziran 1337, s. 2.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                                                63
+ Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+konulardan biri yetim çocuklarla ilgilidir. Amasya Mebusu Hamdi Bey Amasya’daki
+Şefkat-i İslamiye Yurdu’na yardım hakkında kanun teklifi vermiştir. Mecliste okunan
+mazbataya göre, Erzurum, Erzincan, Bayburt, Trabzon muhacirleriyle Sivas mültecile-
+rinden geneli kız olan 300 eytamla, Amasya’daki Şefkat-i İslamiye adındaki cemiyet il-
+gilenmiştir. Yaşları 6-11 olan yetimlerden 170’i cemiyetin özel okulunda okutturulmuş
+ve daha büyük olanlaraysa biçki, nakış, dokumacılık öğretilmeye çalışılmıştır. Yetim
+çocuklar için 25 yataklık bir hastane açılmıştır. Bahsi geçen çocuklar için hastane ve
+okulla birlikte bir de bina yapılmasını isteyen cemiyet gerekli olan parayı temin edeme-
+miştir. Hamdi Bey, 30 bin liranın, Muavenet-i İçtimaiye bütçesinden karşılanmasını ta-
+lep etmiştir. Amasya’daki Şefkat-i İslamiye Yurdu’na, Sıhhiye ve Muavenet-i İçtimaiye
+bütçesine beş bin lira tahsisat kabulüne dair kanun çıkartılmıştır.53 Dr. Refik Beyin kısa
+süreli Sıhhiye Vekilliğinde muhacirlerin durumu ele alınmıştır.
+
+    Muhacirin işleri Dâhiliye Vekâlet’inden 5 Haziran 1921 tarihinde yayımlanan ni-
+zamnameyle Sıhhiye Vekâleti’ne bağlanmış ve Muhacirin Müdürlüğü vekâlet bünyesin-
+de kurulmuştur.54 Muhacirin Müdüriyeti’nin lağvının ardından Sıhhiye Vekâleti çalış-
+malara başlamıştır. Bu kapsamda, ilk önce muhacirlerin hangi bölgelerde, kaç kişiden
+oluştukları belirlenmeye çalışılmıştır. Muhacirlerin nakilleriyle ilgili nizamname hazır-
+lanmıştır. Nizamname doğrultusunda muhacirin idareleri Sıhhiye müdürlerine; sıhhiye
+müdürünün o bölgede olmaması durumunda merkez tabibine; merkez tabibinin olma-
+ması halindeyse hükümet tabibinin idaresine verilmiştir. Lağvedilen muhacirin idarele-
+rine birer kâtip verilerek bu idareler ortadan kalkmıştır. Böylece tasarruf edilen parayla
+hasta, yaşlı, sakat ve kimsesiz kadınlara verilen yevmiyenin miktarı arttırılmıştır.
+Çoğunluğu şark vilayetlerinden gelen muhacirlerin sevk ve iaşeleri için 370 bin lira
+Maliye Vekâleti’nce ayrılmıştır. Bahsi geçen paranın bir an önce Sıhhiye Vekâleti’ne
+aktarılması talep edilmiştir.55 Muhacirlerin durumu ve sevkiyle ilgili görüşmeler meclis-
+te çeşitli zaman aralıklarında devam etmiştir. Kasım 1921’de Sıhhiye Vekili Dr. Refik
+Bey, muhacirlerle ilgili son durumu TBMM’nde paylaşmıştır.
+
+         “Efendim, muhacirin ve mülteci işlerinin vekâlete raptı tarihi olan 15 Haziranda vilâyatı şar-
+         kiye muhacirininin miktarı bizim elimizdeki bir listede 125 - 130 bin olarak gösterilmiştir. Bu
+         rakam her halde muhtacı tetkik idi ve nitekim muhacirin işlerini Sıhhiye Vekâleti’ne Verdiğiniz
+         zaman şu kürsüden vilâyatı şarkiye muhacirini miktarının ancak, yetmiş bin raddesinde oldu-
+         ğunu zannettiğimi söylemiştim. Bilâhara yapmış olduğum tahkikat neticesinde mevcud olan
+
+53 TBMMZC, D.1, C.13, B.93, 15 Ekim 1337, s. 149-153.
+54 “Sıhhiye ve Muavenet-i İçtimaiye Vekâleti (Sağlık ve Sosyal Yardım Bakanlığı)”, (Çevrimiçi), https://ataturkansiklopedisi.
+   gov.tr/bilgi/sihhiye-ve-muavenet-i-ictimaiye-vekaleti-saglik-ve-sosyal-yardim-bakanligi/, Erişim Tarihi: 27.01.2022.
+55 TBMMZC, D.1, C.10, B.40, 20 Haziran 1337, s. 423-425.
+
+
+64                                                                                     Yakın Dönem Türkiye Araştırmaları
+                                                                                                          Karavar, H.
+
+
+
+         muhacirinin de bu yekûna karib olduğunu gördük. Filvaki Teşrinievvelin sonuna kadar memle-
+         ketlerine müteveccihen hareketleri bildirilen ve bu meyanda Kars, Ardahan, Oltu sancaklarına
+         gelen mültecilerle İstanbul’dan vilâyatı şarkiyeye gitmek üzere limanlarımıza çıkan muhaciri-
+         nin heyeti umumiyesinin doksan üç bine baliğ oluyor. Yapılan tediyat ile bunlardan ancak yüz-
+         de yetmiş beşine iaşe ve vesait verebilmişiz. Diğer yirmi beşi kendi vasıtalarıyla doğrudan
+         doğruya hareket etmişlerdir.56”
+
+    Konuşmasının devamında şark muhacirlerinin tamamının niçin gönderilemediğini
+şu şekilde açıklamıştır:
+
+         “….Eğer tahsisatın tamamen verilmesi kabil olsa idi, vilâyatı şarkiye muhacir ve mültecileri-
+         nin kamilen iadeleri mümkün olacaktı ve nitekim bu yüz elli bin lira ile bunun mümkünülhusul
+         olacağını o vakit Heyeti Celilenize arz etmiştim. Yüzde elli derecesinde tetdiyat olması bunla-
+         rın bir kısmının yerlerine gitmesini diğerlerinin de gidememesini mucibolmuştur..57”
+
+   Açıklamadan anlaşılacağı üzere Maliye Vekâleti tarafından ayrılan tahsisatın tama-
+mının Sıhhiye Vekâleti’ne geçmemesi muhacirlerin evlerine geri döndürülmelerini sek-
+teye uğratmıştır. Muhacirlerin sevk işlerinin nasıl gerçekleştiğini Sıhhiye Vekili Dr.
+Refik Bey şu şekilde izah etmiştir.
+
+         “…Efendiler; elimizde mevcut olan muhacirin nizamnamesi mucibince muhacirin sevk komis-
+         yonu, sevk olunacak muhacirin için bir istihkak bordrosu yapar, kebir, sagir aile efradiyle reisi,
+         ailenin ismi, kaç kuruş verileceği ve saire olmak üzere bir bordro tanzimi bizim için usul iktiza-
+         sındandır. Bu bordro iki nüsha olarak tanzim edilmeden bittabi bize maliye para vermez. Bu
+         bordrolardan bir tanesi, doğrudan doğruya mal memurunun nezdinde diğeri de muhacirin ko-
+         misyonu nezdinde kalır. İmza hanesi vardır, para alırken oraya imza edilir.58”
+
+    Kars Mebusu Cavid Bey ve arkadaşlarının Iğdır ve Sürmeli halkının yardım isteyen
+telgrafıyla ilgili olarak bölgede ne gibi çalışmalar yapıldığına dair bilgi istemişlerdir.
+Aralık 1921’de Dr. Refik Bey, bu yazılı soru üzerine bölgede yapılan çalışmalarla alaka-
+lı TBMM’de beyanat vermiştir. Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, gelecek olan
+muhacirlerin Türk tabiiyetini kabul etmeleri koşuluyla doğrudan muhacir tahsisatından
+faydalanabileceklerine dair yazıyı Beyazıt Mutasarrıflığıyla Şark Cephesi
+Komutanlığı’na tebliğ etmiştir. 12 Aralıkta, Sıhhiye Vekâleti’ne Dâhiliye Vekâleti’nden
+bölgedeki yetim çocuk sayısının günden güne arttığı ve yetimlere muhtacin/ihtiyaç
+
+56 TBMMZC, D.1, C.14, B.108, 10 Kasım 1337, s. 148. Muhacirleri %30’u kendi vilayetlerine sevk edilmiştir. Diğer
+   %70’lik kısımsa Konya ve Sivas’a gönderilmiş; ilkbahar ayları içinde kendi mıntıkalarına gönderilmesi planlanmıştır.
+57 TBMMZC, D.1, C.14, B.108, 10 Kasım 1337, s. 149.
+58 TBMMZC, D.1, C.14, B.108, 10 Kasım 1337, s. 150. İmza işleri oldukça sıkı tutulmuştur. Örneğin; Konya Ereğlisi’nde
+   bu imzaların önceden atıldığına dair bilgi geldiğinde Konya ve Niğde sıhhat müdürleri Ereğli’ye gitmiş; ayrıca
+   Konya valisi de durumdan haberdar edilmiştir. Yapılan incelemede suiistimal olmadığı, memurun dikkatsizliğinden
+   kaynaklanan bir hata olduğu ortaya çıkmıştır.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                                                65
+ Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+sahipleri tahsisatından 2 bin lira havale yapılmasını istemişlerdir. İsteğe binaen Sıhhiye
+Vekâleti, Beyazıt Mutasarrıflığından yetimlerin nereden ve nasıl geldikleri, kaç kişiden
+oluştukları ve iaşelerinin hangi yolla karşılandığına dair bilgi talebinde bulunmuştur.
+Mutasarrıflıktan gelen yanıta göre, kaza ve civarında 120 yetim, 90 erkek; 90 kız ve 85’i
+kadın olmak üzere 385 kişi vardır. İran ve Azerbaycan’dan geldikleri, bir önceki yıl ia-
+şelerinin ve bakımlarının ordu tarafından karşılandığı bilgisi verilmiştir. Bunun üzerine
+vekâlet, ilk etapta 500 lira göndermiştir. Dr. Refik Bey, ancak 1000 lira daha gönderile-
+bileceğini sözlerine eklemiştir. Sıhhiye Vekilinin konuşmasının ardından yazılı soruyu
+veren Cevad Bey, Azeri Türklerinin daha önceden ziraatla uğraştıklarını ve İktisat
+Vekâleti vasıtasıyla buradaki ahaliye tohumluk gönderilmesini de istemiştir.59 Alınan bu
+kararda sıhhiyeden ziyade sosyal politikaların izleri görülmektedir. Çünkü Sıhhiye ve
+Muavenet-i İçtimaiye Vekâleti’nin muavenet-i içtimaiye kısmı sosyal işlerle ilgilenil-
+mesi için kurulmuştur. Bu özelliğiyle Avrupa’daki benzer uygulamalar ilk kez TBMM
+vasıtasıyla gerçekleştirilmiş oldu.60
+
+     Bu dönemde ordunun sıhhiyeyle ilgili ihtiyaçlarında hem Sıhhiye Vekâleti’nin hem
+de Kızılay’ın yardımcı olduğu görülmektedir. Örneğin Sağlık Dairesinin ihtiyaç duydu-
+ğu doktor ve eczacılar İstanbul’dan Ankara’ya getirtilmiştir. Ekim ve Kasım 1921’de
+sıhhiye riyasetinin talebi üzerine 2 bin don, 2 bin gömlek, 4 bin 500 fanila ve battaniye,
+50 sandık pansuman malzemesi, pamuk ve sargı bezi gönderilmiştir.61 1921 yılı içinde
+ordu için İstanbul’dan 271 muvazzaf, 7 yedek olarak 278 doktor ve 11 yedek diş dokto-
+ru ile 66 eczacı getirilmiştir. Yine BMM bünyesindeki 25 yedek tabip, bir diş tabibi ve
+18 yedek eczacının orduya katılmasına karar verilmiştir. Böylece orduda görevli olan
+doktor sayısı 719’a, diş tabibi sayısı 12’ye ve eczacı sayısı da 215’e çıkartılmıştır.62
+Bunların dışında Müdafaa-i Milliye Vekâleti, ordunun sağlık işleri için takviye yapmış-
+tır. Mart ayı boyunca sıhhiye müfrezelerinin kadrolarına birer doktor ve sağlık çalışanı
+görevlendirmiştir. Ayrıca 15 sedyeli 2 arabalı sıhhiye bölüğü eklenmiş; her tümen için
+de birer sıhhiye bölüğü oluşturulmuştur. Ek olarak harp hastaneleri 1, 2, 3, 4, 10, 11, 12,
+13, 14, 15 numaralarıyla oluşturulup Batı Cephesine gönderilmiştir.63 Ordunun sıhhi du-
+rumuyla ilgili bu hazırlıklardan başka Dr. Refik Bey’in vekâleti döneminde yapılan bir
+diğer çalışma salgın hastalıklar üzerinedir.
+
+59 TBMMZC, D.1, C.14, B.120, 1 Aralık 1337, s. 422-423.
+60 Necdet Hayta - Tuğba Belenli, “Milli Mücadele Dönemi’nde Türkiye Büyük Millet Meclisi Hükümeti Tarafından
+   Uygulanan Sosyal Politikalar”, Belleten, 80, 2016, s. 290.
+61 Mesut Çapa, Kızılay…, s. 98-99.
+62 Metin Kopar, Türkiye’de Sağlık…, s. 39.
+63 Feyyaz Karıncalı, TBMM Hükümetleri Döneminde Müdafaa-i Milliye Vekâleti (3 Mayıs 1920-29 Ekim 1923),
+   Yayımlanmamış Yüksek Lisans Tezi, Ankara, Ankara Üniversitesi Türk İnkılap Tarihi Enstitüsü, 2021, s. 53.
+
+
+66                                                                                   Yakın Dönem Türkiye Araştırmaları
+                                                                                                           Karavar, H.
+
+
+
+    Balkan Savaşları’nda, Dr. Refik Bey’in en önemli gözlemi salgın hastalıkların ve koru-
+yucu önlemler alınmadan cepheye asker göndermenin büyük yıkımlara neden olduğunu fark
+etmiş olmasıdır. Bu sebeple Sıhhiye Vekilliği döneminde salgın hastalıklarla etkin mücadele
+edebilmek için ülkedeki her yörenin birbirinden ayrı bir biçimde araştırılmasına karar veril-
+miştir. Bu amaçla, il sağlık teşkilatlarının kendi görev yerlerindeki bölgeleri coğrafi ve sıhhi
+açıdan incelemeleri istenmiştir. İl sağlık teşkilatlarının bu kapsamda hazırladıkları raporların
+vekâlete gönderilmesi beklenmiştir. 64 Dr. Refik Beyin, Sıhhiye Vekâleti’nden istifasının ar-
+dından Dr. Rıza Nur Bey, Sıhhiye Vekili olarak göreve başlamıştır.
+
+  Sıhhiye Vekili Dr. Rıza (Nur) Bey’in Faaliyetleri (24 Aralık 1921-27
+Ekim 1923)
+    Dr. Rıza Nur Bey, 1901’de Askeri Tıbbiye’den yüzbaşı doktor unvanıyla mezun olmuş-
+tur. Daha sonra 1907’de cerrahi profesörü olmuştur. İkinci Meşrutiyet’in ilanından sonra ya-
+pılan seçimlerde Sinop mebusu seçilmiştir. İttihat ve Terakki Cemiyetiyle arasının açılma-
+sından sonra kürsüsü lağvedilerek profesörlük unvanı elinden alınmıştır. 1913’te Bab-ı Âli
+Baskını’nın ardından tıp tahsili görmesi bahanesiyle yurt dışına gönderilmiştir. Sürgün döne-
+minde Cenevre’de cerrah olarak çalışmıştır. Mütarekenin ardından Türkiye’ye dönen Dr.
+Rıza Nur Bey, yapılan seçimlerde Sinop mebusu seçilerek son Osmanlı Mebusan Meclisi’ne
+girmiştir. İstanbul’un işgalinden sonra meclis dağıtılınca Ankara’ya gitmiştir.65
+
+    Dr. Rıza Nur Bey’in Sıhhiye Vekilliği döneminde teşkilatlanmadan muhacirlerin
+yerleştirilmelerine kadar birçok konu üzerinde faaliyetlerde bulunulmuştur. Elviye-i
+Selase’de yaşayan ve Rus okullarından mezun olan Sıhhiyecilerin diplomalarını tasdik
+edecek Heyet-i İlmiye’nin teşekkülüne kadar sıhhiye mezunlarının Elviye-i Selase dâhi-
+linde ve Sıhhiye müdürleri gözetiminde memur olarak istihdam edilmelerine izin veril-
+miştir.66 Rusya’dan Türkiye’ye gelecek olan muhacirlerin Trabzon’a kadarki nakliye
+masrafları ve iaşe bedellerinin ödenmesi için Sıhhiye Vekâleti’nin bütçesine 20 bin lira-
+lık ek bütçe konulmuştur.67 Sadece muhacirler için değil ayrıca Yunanistan ve Rusya’da
+bulunan esirlerin getirilmesi ve iaşe masrafları için de Sıhhiye Vekâleti bütçesine 40 bin
+lira eklenmiştir.68
+
+
+64 Bu raporlar daha sonra Dr. Rıza Nur döneminde tasnif edilerek bir dizi halinde yayınlanmaya başlamıştır. Bkz.: Atakan
+   Esen, “Sıhhi-i İçtimai Coğrafya Kitaplarına Göre İç Anadolu’da Görülen Salgın Hastalıklar (1922-1926)”, Ankara
+   Üniversitesi Türk İnkılâp Tarihi Enstitüsü Atatürk Yolu Dergisi, 60, Bahar 2017, s. 78.
+65 Ali Birinci, “Rıza Nur (1879-1942)”, DİA, C.35, İstanbul, Türkiye Diyanet Vakfı, 2008, s. 65-66.
+66 BCA, Fon Kodu: 30-18-1-1, Yer No: 4-48-9, 15 Şubat 1922, s. 2.
+67 BCA, Fon Kodu: 30-18-1-1, Yer No: 5-25-10, 24 Ağustos 1922, s. 2.
+68 BCA, Fon Kodu: 30-18-1-1, Yer No: 5-27-12, 5 Eylül 1922.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                                                 67
+ Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+    26 Ocak 1922’de Sıhhiye Vekili Rıza Nur Bey, Sinop gezisinden henüz dönmediği
+için Celal Bey’e (Bayar) vekâlet vermiştir. Ancak Celal Bey, İktisat Vekilliğinden istifa
+edip Heyet-i Vekile’den çekilince Sıhhiye Vekâleti’ne kimin vekâleten bakacağı sorunu
+ortaya çıkmıştır. Meclis’te Celal Bey’in halen vekâlet etmesi gerektiği tartışılırken duru-
+mun ciddiyetine dikkat çekilmiştir. Çünkü Aralık 1921 yılı içinde çiçek hastalığı tekrar
+kendini göstermeye başlamış ve 260 çiçek hastasının 80’i vefat etmiştir. Ayrıca lekeli
+tifo ve humma-i racia/dönek ateş hastalıkları ortaya çıkmıştır. Bu sebeple Celal Bey’in,
+vekâleten Sıhhiye Vekili olarak devam etmesine karar verilmiştir.69
+
+    Nisan 1922’de Rusya’da aç kalan Müslüman çocukların Türkiye’ye getirilmesiyle
+ilgili görüşmeler yapılmıştır. Konuyla ilgili konuşan Sıhhiye Vekili Dr. Rıza Nur Bey,
+birçok çocuğun Rusya’daki açlık nedeniyle Türkiye sınırına gelmeye çalıştıklarını söy-
+lemiştir. Hatta bu çocukların bir kısmının daha Türkiye sınırına varmadan açlıktan öl-
+düklerini dile getirmiştir. Çocuklar Türkiye’ye gelmeden onların barınma ve iaşeleri
+için gerekli planlamaların yapılması düşünülmüştür. Bahsi geçen çocuklar için alınacak
+önlemler arasında 2 bin kadarının yetimhanelere yerleştirilmesi vardır. Sıhhiye Vekili
+Dr. Rıza Nur Bey, konunun Himaye-i Etfal Cemiyeti’ne bildirildiğini fakat Türkiye’de
+çok sayıda yetim çocuğun bulunduğunu ve yetimhanelerin kötü durumda olduğunu dile
+getirmiştir. Ayrıca Hilal-i Ahmer Cemiyeti’ne de ne kadar çocuğa bakabilecekleri sorul-
+muştur. Kazım Karabekir Paşa, 2 bin çocuğu alabileceğini bildirmiştir. Ayrıca gelen ço-
+cuklardan yetimhaneye yerleştirilemeyenleri, köylerdeki ve şehirlerdeki ailelerin yanına
+yerleştirilmesini teklif etmiştir. Ancak bu şekilde Türkiye’ye gelecek çocukların açlık-
+tan ölmekten kurtarılabileceğini ifade etmiştir. Kısaca gelecek olan çocukların belediye-
+ler vasıtasıyla uygun durumdaki ailelerin yanına yerleştirilmesi düşünülmüştür.70
+
+    1922 yılında salgın hastalıkların artmaya başlaması üzerine 17 Ağustos 1922’de
+Yozgat Mebusu Feyyaz Ali Bey ve arkadaşları, Sıhhiye ve Muavenet-i İçtimaiye
+Vekâleti’nin bütçesinin Maliye Vekâleti bütçesinin görüşülmesinin ardından müzakere
+edilmesine dair takrir vermiştir. Operatör Emin Bey, İstanbul’da ve daha başka yerlerde
+veba vakalarının görüldüğünü, en azından bulaşıcı hastalıklarla ilgili tahsisatın hemen
+çıkması gerektiğini söylemiştir.71 4-7 Eylül 1338/1922’de Sıhhiye ve Muavenet-i
+İçtimaiye Vekâleti’nin 1338/1922 senesinin bütçesi TBMM’nde görüşülmüştür. Aydın
+Mebusu Mazhar Bey, 1922 senesine gelinceye kadar Sıhhiye Vekâleti’nin gelişimi, ek-
+sikleri ve faaliyetleri hakkında bilgi vermiştir. Sıhhiye teşkilatının diğer teşkilatlar
+
+69 TBMMZC, D.1, C.16, B.150, 26 Ocak 1338, s. 141-142.
+70 TBMMZC, D.1, C.18, B.19, 3 Nisan 1338, s. 481-482.
+71 TBMMZC, D.1, C.22, B.88, 21 Ağustos 1338, s. 250-251.
+
+
+68                                                                                   Yakın Dönem Türkiye Araştırmaları
+                                                                                                           Karavar, H.
+
+
+
+içinde en zayıfı olduğunu dile getiren Mazhar Bey, kazaların yarısında henüz resmi dok-
+tor olmadığını söylemiştir. Konuşmasının devamında küçük sıhhiye memurları teşkilatı-
+nın oluşturulduğundan bahsetmiştir. Özellikle salgın hastalıkların engellenmesi için
+doktorların olmadığı bölgelerde bu teşkilat vasıtasıyla önlem alınabileceğini, bu sebeple
+de mevcudiyetlerinin arttırılmasını önermiştir. Ancak küçük sıhhiye memurlarının göre-
+vinin sadece salgın hastalıkların tespitiyle sınırlandırılması gerektiğini sözlerine ekle-
+miştir. Görüşmelerde eczacılara akşam nöbet usulü getirilmesi istenmiştir.72
+
+     Dr. Rıza Nur Bey’in, resmi görevli olarak Moskova’ya gitmesi üzerine yerine seçi-
+len Sıhhiye Vekâleti Vekili Dr. Fuat Bey,73 yapılan tenkitler üzerine TBMM’de sıhhiye
+teşkilatının işleyişine dair açıklama yapmıştır. Bu dönemde doktorlar üç kısma ayrılmış-
+tır. Bir kısmı idari hususi hastanelerde görev yapan doktorlar olup vekâlet bunların sa-
+dece sicil işleri ve tasdik işlemlerinden sorumludur. Bir diğer kısım hükümete ait olan
+vekâlete bağlı olan doktorlardan oluşurken üçüncü kısım doktorlar belediye doktorudur.
+Vekâlet kendisine bağlı olan doktorların bölgelere dağılımını eşit olarak yapmaya çalış-
+mıştır. Ancak eğer şehirde idari hususi hastaneler varsa oradaki doktorlara müdahale
+edememiştir. Doğal olarak vekâlet her kazada doktor bulundurmaya ve dispanser olan
+yerlere hükümet doktoru göndermemeye çalışmıştır. Küçük sıhhiye memurlarının dok-
+torla beraber çalışmasının daha verimli olacağı kanaatini paylaşmıştır. Fakat her yerde
+doktor bulunmadığını hatırlatmıştır. Küçük sıhhat memuru yetiştirmek için bir okul açı-
+lacağı bilgisini vermiştir. Hastalıklarla ilgili açıklamasında sıtma tedavisinde kullanılan
+kininin 350 kilosunun temin edildiğini, 150 kilosununsa yakın zamanda geleceğini du-
+yurmuştur. Bu dönemde kininin temin meselesini şu sözlerle açıklamıştır. “Devlet kini-
+ninin sureti tevzii hakkında Ziraat Bankası ile uyuşularak yapılmış bir itilâfname ve
+bunu müeyyid olan bir kanun mevcuttur. Mezkûr kanun mucibince Ziraat Bankası kinini
+getirir. Ve bizim istediğimiz yerlere tevzi eder. Binaenaleyh, Hilâl-i Ahmer Cemiyetinin
+bu meseleye tavsiti, bu kanun mevcud oldukça kabil değildir.” Bu kanuna rağmen
+Kızılay’ın kinin yardımı yaptığını eklemiştir. Sıhhiye Vekâleti’nce yürütülen bir diğer
+çalışma salgın hastalıklarda kullanılan aşılarla ilgilidir. Bu konuda Dr. Fuat Bey
+“Sivas’ta bulunan müessesemiz bir sene zarfında 3 269 140 kişilik çiçek aşısı, 1547 litre
+kolera, tifo, dizanteri aşıları yapmıştır. Bunlardan başka ayrı ayrı veba aşıları yapmış-
+tır. Bu miktarları nakde tahvil ettiğimizde beher litre bin kuruş hesabıyla 1 547 000
+
+72 TBMMZC, D.1, C.22, B.98, 7 Eylül 1338, s. 539.
+73 Dr. Rıza Nur Bey’in resmi bir görevle Sovyetler Birliği’ne gitmesi üzerine 11 Mayıs – 12 Temmuz 1922 Sıhhiye Vekâleti
+   Vekili Dr. Fuat (Umay) Bey olmuştur. Bkz. “Fuat Umay (1885-1963)”, (Çevrimiçi), https://ataturkansiklopedisi.gov.
+   tr/bilgi/fuat-umay-1885-1963/, Erişim Tarihi: 27.01.2022. Ancak TBMM zabıt görüşmelerinde Ağustos 1922’de halen
+   sıhhiye vekili olduğu yazılmaktadır. Ayrıca Eylül 1922’de Fuat Bey’in, Dr. Rıza Nur’un Sinop’ta olması nedeniyle yine
+   sıhhiye vekili olduğu görülmektedir.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                                                 69
+ Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+kuruş tutuyor. Çiçek aşısı ise 40’ar paradan 3 269 140 kuruş tutuyor.” demiştir. Tunalı
+Hilmi Bey’in önermiş olduğu neşriyat işinin Sıhhiye Vekâletinin bütçesinde yer aldığını
+söylemiştir. Halkın anlayabileceği dilde yazılmış bir kitap yazılmak istendiğini dile ge-
+tirmiştir. Böyle bir uygulamanın İstanbul’da yapıldığını sözlerine eklemiştir.74
+
+     Sıhhiye Vekili Dr. Rıza Nur Bey, Anadolu’ya gelen muhacirlere karantina uygulama-
+sını kaldırmıştır. Bu uygulama yerine veba için İstanbul’a aşı gönderilmesini ilgili yer-
+lere bildirmiş ve İstanbul’dan da gönderilecek aşıların muhacirlere yapılmasını istemiş-
+tir. Böylece o bölgeden gelecek olan muhacirlerin aşı karneleri olmadan Anadolu’ya
+gelmeleri engellenmiştir.75 Aşılarla ilgili bir diğer gelişme 1922 yılında Sivas’ta 5 mil-
+yon kişiye yetecek kadar çiçek aşısı üretimi yapılmış olmasıdır. Ayrıca Sivas’ta üretilen
+537 kg kolera aşısıyla 477 kg tifo aşısı halka ve askerlere uygulanmıştır. Tüm bunların
+yanında askeri alanda yapılan sıhhiye hizmetlerinden de bahsetmek gerekmektedir.
+
+    Dr. Rıza Nur, Sakarya Savaşı öncesinde Sanayi Mektebi’ni ve Dar-ul Muallim
+Mektebi’ni yaralıların tedavisi için uygun hale getirmiş; Dar-ul Muallimat Mektebi’nin
+öğretmen ve öğrencilerini hastabakıcı olarak eğitmiştir.76 Sakarya Savaşı (23 Ağustos-13
+Eylül 1921) sırasında tedavileri tamamlanan askerlerin sevkiyatını kolaylaştırmak için
+sertabiplikler kontrolünde sıhhiye istasyonları; hafif yaralı askerler içinse Sıhhiye
+Muavenet Merkezleri kurulmuştur.77 Sakarya Savaşı esnasında mevcut 660 tabipten
+297’si, 146 eczacıdan 78’i ve 14 dişçiden 2’si hayatını kaybetmiştir.78 Büyük Taarruz
+öncesinde de ordudaki askerleri aşılama çalışmaları devam etmiştir. Batı Cephesindeki
+birliklerde iskorpit hastalığının görülmesi üzerine Antalya ve Adana’dan portakal, sirke
+ve sebze getirtilmiştir. Sıtma ve çiçek hastalıklarına karşı Ankara’da aşılamalar yapıl-
+mıştır.79 Böylece erlerin hastalanmaları engellenmeye çalışılmıştır.
+
+   26 Ağustos 1922 tarihinde Büyük Taarruz ve Başkomutanlık Meydan Muharebesi ile
+başlamış Türk ordusunun zaferi sonucunda 11 Ekim 1922‘de Mudanya Ateşkes
+Antlaşması ile fiilen sona ermiştir. Kazanılan zafer sonrasında düşmandan geri alınan
+bölgelerin halkına devlet tarafından yardım yapılması gereken yardım görevi Kızılay ve
+
+
+
+
+74 TBMMZC, D.1, C.22, B.98, 7 Eylül 1338, s. 541-551.
+75 TBMMZC, D.1, C.24, B.123, 21 Ekim 1338, s. 86.
+76 Rıza Nur, Hayat ve Hatıratım, C.III, İstanbul, Altındağ Yayınevi, 1967, s. 859-860.
+77 Feyyaz Karıncalı, TBMM Hükümetlerinde…, s. 52.
+78 Metin Kopar, Türkiye’de Sağlık…., s. 37.
+79 Metin Kopar, Türkiye’de Sağlık…., s. 41.
+
+
+70                                                                                   Yakın Dönem Türkiye Araştırmaları
+                                                                               Karavar, H.
+
+
+
+Sıhhiye ve Muavenet-i İçtimaiye Vekâleti tarafından yapılmıştır. Kızılay hakla eşya yar-
+dımında bulunurken Sıhhiye Vekâleti para yardımında bulunmuştur.80
+
+   Milli Mücadele döneminin sona ermesinin ardından Dr. Rıza Bey, görevi yine Dr.
+Refik Bey’e bırakmıştır.
+
+    Sonuç
+    Osmanlı Devleti, salgın hastalıklarla mücadele etmek maksadıyla yurtdışındaki ge-
+lişmeleri takip etmiş ve ülkede de kuduz, çiçek gibi hastalıkların tedavisi için adımlar
+atmıştır. Ancak Osmanlı Devletinde müstakil bir sağlık bakanlığı yoktur. 1910 tarihli
+kanunla Dâhiliye Nezareti bağlı Sıhhiye Müdüriyet-i Umumisi kurulmuş daha sonraysa
+1916’da Dâhiliye Nezaretine ayrıca Umur-u Sıhhiye Nezareti unvanı verilmiştir. Ancak
+tüm bu gelişmelere rağmen müstakil bir Sağlık Bakanlığı, Osmanlı Devletinde kurul-
+mamıştır.
+
+   Milli Mücadele döneminde müstakil bir sağlık bakanlığının kurulma nedeni Birinci
+Dünya Savaşının ardından Osmanlı ordusunun terhis edilmesiyle birlikte Anadolu’da
+salgın hastalıkların artmasıdır. 2 Mayıs 1920’de 3 sayılı Büyük Millet Meclisi İcra
+Vekillerinin Sureti İntihabına Dair Kanunla, Sıhhiye ve Muavenet-i İçtimaiye Vekâleti
+kurulmuştur. Bu kanunun tartışmalarında bazı milletvekillerinin müstakil bir sağlık ba-
+kanlığı kurulmasına karşı çıktıkları görülmektedir. Bunun sebebi İstanbul Hükümetinde
+bu bakanlığın, müstakil bir bakanlık olmamasından kaynaklanmaktadır. İncelenen dö-
+nemde müstakil olarak kurulan Sıhhiye Vekâleti’nden ayrı olarak bir de Müdafaa-i
+Milliye Vekâleti’ne bağlı Askeri Sıhhiye Teşkilatı/Sağlık Şubesi bulunmaktadır.
+
+    İncelenen dönemde Sıhhiye Vekili olarak Dr. Adnan (Adıvar), Dr. Refik (Saydam)
+ve Dr. Rıza Nur Beyler görev yapmıştır. Dr. Rıza Nur Bey’in Moskova’ya gittiği dö-
+nemde Dr. Fuat Bey’in; Sinop’tayken Celal (Bayar) Bey’in vekâleten Sıhhiye Vekilliği
+yaptıkları saptanmıştır. Sıhhiye Vekillerinin vekillik dönemleri incelendiğinde ilk
+Sıhhiye Vekili olan Dr. Adnan Bey’in teşkilatlanmaya/idari yapılanmaya önem verdiği
+görülmektedir. Bu durumu muhtemelen Anadolu’da sağlık teşkilatlanmasının yetersiz
+olmasından kaynaklıdır. Zira teşkilatlanma olmadan halk sağlığının iyileştirilmesine
+ilişkin adımların atılamayacağı açıktır. Dr. Adnan Bey, daha öncesinden Kızılay Umumi
+Kâtibi olarak görev yapmış olması, Kızılay’ın Eskişehir Murahhası Besim Paşa’nın
+Ankara’ya gelmesinin nedenidir. Böylece Sıhhiye Vekâleti’nin ihtiyaç duyduğu çeşitli
+malzemeler Kızılay vasıtasıyla sağlanmıştır. Dr. Adnan Bey’in vekilliği esnasında
+
+80 Gürkan Tekin, Sıhhiye ve Muavenet…, s. 34-35.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                    71
+Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+dönemin en büyük sağlık sorunları arasında yer alan kuduz ve frengi hastalıklarının ön-
+lenmesi için adımlar atıldığı görülmektedir. Onun vekilliği döneminde Müdafaa-i
+Milliye Vekâleti’nin sağlık şubesinin, Sıhhiye Vekâleti’ne bağlanması görüşülmüş olsa
+da Dr. Adnan Bey’in askeri ve sivil sıhhiye hizmetlerinin müstakil kalmasını tercih etti-
+ği görülmektedir. Bunun neticesinde Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’nin faa-
+liyet alanı askeri alandan ziyade göçmenlerin iskânı, salgın hastalıklar ve aşı üretimi
+noktasındadır. Fakat hem askerlerin aşılamasında hem de doktor ihtiyacı doğduğunda
+vekâlet bünyesindeki hekimlerin orduda görevlendirildiği görülmektedir.
+
+    Dr. Refik Bey’in Sıhhiye Vekilliği sırasında bölgesel olarak hastalıkların belirlenme-
+si için çalışmalar yapıldığı tespit edilmiştir. Bu faaliyeti ihtiyaç duyulan sağlık hizmetle-
+rinin hemen sağlanması amacıyla yapıldığı düşünülebilir. Yine kısıtlı kaynakların ve-
+rimli bir biçimde kullanılabilmesi için adım atıldığı yorumunu yapmak mümkündür. Dr.
+Refik Bey’in sıhhiye vekilliği döneminde Rusya’dan muhacir geleceği tespit edilmiştir.
+Hem Rusya’dan gelmesi beklenen muhacirler hem de ülkenin çeşitli yerlerine dağılmış
+olan muhacirlerin sorunlarının çözümü için çalışmalar yapılmıştır. Bu işlerin daha planlı
+yapılması amacıyla 5 Haziran 1921 tarihinde yayımlanan nizamnameyle Muhacirin
+İşleri Dâhiliye Vekâleti’nden alınarak Sıhhiye Vekâleti’ne bağlanmıştır. Böylece sistem-
+li bir iskân politikasına geçilmeye çalışıldığını söylemek mümkündür.
+
+    Dr. Rıza Nur Bey’in vekilliği sırasında hem muhacirlerin durumu hem de salgın has-
+talıkların önlenmesi için çalışmalar yapılmıştır. Rıza Nur Bey’in vekilliği sırasında ka-
+rantina uygulamasının kaldırılmasını kararının dönem için alışılmadık olduğu söylene-
+bilir. Muhacirlerin Anadolu’ya gelmeden evvel İstanbul’da aşılanmasına kararının
+verilmesini salgın hastalıkların Anadolu’ya ulaşmadan engellenmesi çabası olarak dü-
+şünmek mümkündür. Bu amaçla muhacirlere aşı karnesi uygulanmaya çalışıldığı tespit
+edilmiştir.
+
+    Meclisteki bütçe tartışmaları incelendiğinde Sıhhiye Vekâleti’nin çiçek, kolera, ku-
+duz aşı üretimini sağlamak için gerekli gördüğü meblağın aynen onaylandığı tespit edil-
+miştir. Fakat Meclis’in, memur maaşı gibi ücretlerde Sıhhiye Vekâleti’nin istediği meb-
+lağın onaylanmadığı görülmektedir. Bu durum TBMM’nin aşı üretimine önem verdiği
+şeklinde değerlendirilebilir. Nitekim Milli Mücadele dönemi boyunca Sıhhiye Vekâleti
+kısıtlı kaynaklara rağmen Anadolu’da aşı üretmeyi başarmıştır.
+
+
+
+
+72                                                                                  Yakın Dönem Türkiye Araştırmaları
+                                                                                        Karavar, H.
+
+
+
+
+Hakem Değerlendirmesi: Dış bağımsız.
+Çıkar Çatışması: Yazar çıkar çatışması bildirmemiştir.
+Finansal Destek: Yazar bu çalışma için finansal destek almadığını beyan etmiştir.
+
+Peer-review: Externally peer-reviewed.
+Conflict of Interest: The author has no conflict of interest to declare.
+Grant Support: The author declared that this study has received no financial support.
+
+
+
+
+     KAYNAKÇA
+1. Arşiv Kaynakları81
+Türkiye Cumhuriyeti Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Cumhuriyet Arşivi
+   (BCA)
+
+2. Resmi Yayınlar82
+Türkiye Büyük Millet Meclisi Zabıt Ceridesi (TBMMZC)
+Resmî Gazete
+
+3. Süreli Yayınlar
+Sıhhiye Mecmuası Fevkalade Nüshası
+Milliyet
+
+4. Araştırma Eserler
+Ada, Turhan: Adnan Adıvar Hayatı ve Kişiliği, İstanbul, İstanbul Büyükşehir Belediyesi
+   Yayınları, 2010.
+Arı, Kemal: “Cumhuriyetin Sağlık Devrimcisi: Dr. Refik Saydam”, Vatan ve Sıhhat
+   Tıbbiyelinin Yurtseverliği, ed.: Eren Akçiçek, Fevzi Çakmak, İzmir, Bulaşıcı
+   Hastalıkları Önleme Derneği Yayınları, 2015.
+Arslan, Mehmet: “Anılarda Milli Mücadele Döneminde Sağlık Koşulları ve Verilen
+   Sağlık Hizmetleri”, Avrasya Uluslararası Araştırmalar Dergisi, 9/27, Haziran 2021,
+   s. 397-415.
+Ataç, Adnan: “Milli Mücadele’de (1919-1923) Askeri Sağlık Hizmetleri”, Isparta,
+   SDÜTF 100. Yılında Milli Mücadele’de Sağlık Hizmetleri, Sempozyumu Bildiri
+   Özetleri Kitabı, 2020.
+
+
+81 Arşiv kaynaklarının ayrıntılı künyeleri dipnotlarda verilmiştir.
+82 Resmî yayınların ayrıntılı künyeleri dipnotlarda verilmiştir.
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                             73
+Milli Mücadele Döneminde Sıhhat ve Muavenet-i İçtimaiye Vekillerinin Faaliyetleri
+
+
+
+
+Aydın, Erdem: “19. Yüzyılda Osmanlı Sağlık Teşkilatlanması”, Ankara Üniversitesi
+   Osmanlı Araştırma ve Uygulama Merkezi (OTAM), 15, 2004, s. 185-207.
+Birinci, Ali, “Rıza Nur (1879-1942)”, Türkiye Diyanet Vakfı İslam Ansiklopedisi (DİA),
+   C.35, İstanbul, Türkiye Diyanet Vakfı, 2008.
+Çapa, Mesut, Kızılay (Hilal-i Ahmer) Cemiyeti (1914-1925), Ankara, Türkiye Kızılay
+   Derneği, 2010.
+Dere, Umut: Operatör Emin (Erkul) Bey’in Hayatı, Mebusluğu ve Şehreminliği,
+   Yayımlanmamış Yüksek Lisans Tezi, İstanbul, İstanbul Üniversitesi Atatürk İlkeleri
+   ve İnkılap Tarihi Enstitüsü, 2018.
+Elmacı, İrfan: “Bilimsel ve Teknolojik Açıdan Osmanlı İmparatorluğu’nda XVII.
+   Yüzyıldan XIX. Yüzyıla Çiçek Aşısı ve Kuduz Aşısı”, Belleten, 79/285, 2015, s. 611-
+   626.
+Erdem, Ufuk: Osmanlı’dan Cumhuriyete Muhacir Komisyonları ve Faaliyetleri (1860-
+   1923), Ankara, Atatürk Kültür, Dil ve Tarih Yüksek Kurumu Türk Tarih Kurumu
+   Yayınları, 2018.
+Erdem, Ufuk: “Aşair ve Muhacirin Müdüriyet-i Umumisi (1913-1922)”, Zeitschrift Für
+   Die Welt Der Türken, 9/1, 2017, s. 57-80.
+Erer, Sezer: “Osmanlılar Döneminde Bursa’da Yaptırılan Hastaneler”, U.Ü. Fen-
+   Edebiyat Fakültesi Sosyal Bilimler Dergisi, 11/19, 2010/2, s. 241-252.
+Esen, Atakan: “Sıhhi-i İçtimai Coğrafya Kitaplarına Göre İç Anadolu’da Görülen Salgın
+   Hastalıklar (1922-1926)”, Ankara Üniversitesi Türk İnkılâp Tarihi Enstitüsü Atatürk
+   Yolu Dergisi, 60, Bahar 2017, s. 73-90.
+Gül, Muhittin: “Atatürk Dönemi Sağlık Politikaları”, G.Ü. Diş Hekimliği Fakültesi
+   Dergisi, V/1, 1988, s. 250-260.
+Hayta, Necdet: Belenli, Tuğba, “Milli Mücadele Dönemi’nde Türkiye Büyük Millet
+   Meclisi Hükümeti Tarafından Uygulanan Sosyal Politikalar”, Belleten, 80/287, 2016,
+   s. 279-306.
+Hot, İnci: Sıhhiye Mecmuasına Göre Ülkemizde Bulaşıcı Hastalıklarla Mücadele (1913-
+   1996), Yayımlanmamış Doktora Tezi, İstanbul, İstanbul Üniversitesi Sağlık Bilimleri
+   Enstitüsü, 2001.
+Karabulut, Umut: “Cumhuriyet’in İlk Yıllarında Sağlık Hizmetlerine Toplu Bir Bakış:
+   Dr. Refik Saydam’ın Sağlık Bakanlığı ve Hizmetleri (1925-1937)”, Çağdaş Türkiye
+   Tarihi Araştırmaları Dergisi (ÇTTAD),VI/15, Güz 2007, s. 151-160.
+Karıncalı, Feyyaz: TBMM Hükümetleri Döneminde Müdafaa-i Milliye Vekâleti (3
+   Mayıs 1920-29 Ekim 1923), Yayımlanmamış Yüksek Lisans Tezi, Ankara, Ankara
+   Üniversitesi Türk İnkılap Tarihi Enstitüsü, 2021.
+
+
+74                                                                                  Yakın Dönem Türkiye Araştırmaları
+                                                                                Karavar, H.
+
+
+
+Kopar, Metin: Türkiye’de Sağlık Sistemi ve Salgın Hastalıklarla Mücadele (1923-1938),
+   Adıyaman, İksad Yayınevi, 2021.
+Köprülü, Orhan F. : “Abdülhak Adnan Adıvar”, Türkiye Diyanet Vakfı İslam Ansiklopedisi
+   (DİA), C.1, İstanbul, Türkiye Diyanet Vakfı, 1988.
+Şahin, Kurnaz Feyza, “Propaganda Ve Sağlık: Cumhuriyet Döneminde Sıhhî Propaganda
+   Faaliyetleri Ve Halk Sağlığına Etkileri (1923-1945)”, Türkiye Cumhuriyeti’nin
+   Ekonomik ve Sosyal Tarihi Uluslararası Sempozyumu (26-28 Kasım 2015 İzmir),
+   Ankara, Atatürk Araştırma Merkezi Yayınları, 2017, s. 549-589.
+Nur, Rıza: Hayat ve Hatıratım, C.III, İstanbul, Altındağ Yayınevi, 1967.
+Ortaylı, İlber, “Sağlık Ordusunun Az Bilinen Komutanlarından Dr. Refik Saydam”,
+   Milliyet, 8 Temmuz 2012.
+Tekin, Gürkan: Sıhhiye ve Muavenet-i İçtimaiye Vekâletinden Sağlık Bakanlığına (1920-
+   2000), Yayımlanmamış Doktora Tezi, Ankara, Ankara Üniversitesi Türk İnkılap
+   Tarihi Enstitüsü, 2011.
+Tekir, Süleyman: “Sıhhiye ve Muavenet-i İçtimaiye Vekâletinin Kuruluşu ve Erken
+   Cumhuriyet Dönemindeki Faaliyetleri (1920-1930)” Belgi Dergisi, 2/8, 2019/II, s.
+   1301-1326.
+Yazıcı, Sibel: “Meclis-i Mebusan Bütçe Görüşmelerinde Salgın Hastalılarla İlgili
+   Tartışmalar ve Öneriler (1914- 1918)”, Osmanlı Medeniyeti Araştırmaları Dergisi,
+   5/8, Nisan 2019, s. 70-92.
+Yıldırım, Nuran: “Hekim Kimliği ile Abdülhak Adnan Adıvar ve Tıp Tarihi ve Deontoloji
+   Mühendisliği”, Osmanlı Bilimi Araştırmaları Dergisi, VII/2, 2006, s. 55-86.
+Yıldız, Abdullah: “Osmanlı İmparatorluğunda Sivil ve Türkçe Tıp Eğitimine Geçiş”,
+   Ankara Üniversitesi Tıp Fakültesi Mecmuası, 70/3 (2017), s.127-134.
+Yücel, Gülseren: “Malatya’da Kolera Salgını ve Devletin Müdahale Çabaları (1892-
+   1894)”, İnönü Üniversitesi Sağlık Hizmetleri Meslek Yüksekokulu Dergisi, 7/1, 2019,
+   s. 108-121.
+
+5. Elektronik Kaynaklar
+“Fuat Umay (1885-1963)”, (Çevrimiçi), https://ataturkansiklopedisi.gov.tr/bilgi/fuat-
+   umay-1885-1963/, Erişim Tarihi: 27.01.2022.
+“Sıhhiye ve Muavenet-i İçtimaiye Vekâleti (Sağlık ve Sosyal Yardım Bakanlığı)”,
+   (Çevrimiçi), https://ataturkansiklopedisi.gov.tr/bilgi/sihhiye-ve-muavenet-i-ictimaiye-
+   vekaleti-saglik-ve-sosyal-yardim-bakanligi/, Erişim Tarihi: 27.01.2022.
+
+
+
+
+ Yakın Dönem Türkiye Araştırmaları                                                     75
+

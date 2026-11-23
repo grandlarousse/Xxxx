@@ -1,0 +1,1216 @@
+                                               ATATÜRK YOLU DERGİSİ
+                                                     JOURNAL OF ATATÜRK YOLU
+
+Ankara Üniversitesi Türk İnkılâp Tarihi Enstitüsü Atatürk Yolu Dergisi/Journal of Atatürk Yolu, 73 (2023), s. 1-24.
+Geliş/Received: 31.08.2023
+Kabul/Accepted: 13.09.2023
+DOI: 10.46955/ankuayd.1353054
+                                                                                                    (Araştırma Makalesi/Research Article)
+
+
+
+    CUMHURİYET’İN İLK YILLARINDA SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN
+                  SAĞLIK BİLGİSİNİ HALKA ULAŞTIRMA ÇABASI
+    THE EFFORT OF THE MINISTRY OF HEALTH AND WELFARE TO REACH HEALTH INFORMATION
+             TO THE PUBLIC IN THE INITIAL YEARS OF THE REPUBLIC OF TÜRKİYE
+
+
+
+                                                           ÜMÜT AKAGÜNDÜZ*
+
+
+
+                                  ÖZ                                                                   ABSTRACT
+    Bu araştırmada Cumhuriyet’in ilk yıllarında izlenen sağlık               This study assessed the effort to disseminate health information
+    politikaları bağlamında sağlık bilgisini basılı eserler aracılığıyla     to the public through printed publications in the context of health
+    halka ulaştırabilme çabası değerlendirilmiştir. Osmanlı                  policies implemented in the initial years of the Republic of
+    birikiminin nitel ve nicel eksikliği ile uzun soluklu savaşların         Türkiye. The qualitative and quantitative inefficiency of the
+    yarattığı sosyo-ekonomik problemler salgın hastalıkların                 Ottoman Empire's knowledge capacity and the socio-economic
+    etkilerini güçlendirirken yeni nüfus politikalarını da zorunlu           issues that originated from the long-term wars amplified the
+    kılmıştır. 1920-1938 yılları arasında yeni devletin izlediği sağlık      impacts of pandemics and necessitated new population policies.
+    politikaları sağlık çalışanları ile hastane sayılarının arttırılmasına   The health policies implemented by the new state between 1920-
+    odaklanmanın yanında koruyucu sağlık önlemleri ekseninde                 1938 focused on increasing the number of hospitals and their
+    bireysel ve kolektif sağlık bilincinin uyandırılmasını da                healthcare professionals, aspiring to raise individual and
+    arzulamıştır.      Anadolu’daki        nüfusun      pozitif      yönde   collective health awareness within the context of preventive
+    organizasyonunun aciliyeti her türlü sosyal problemin                    health measures. Since the urgency of the positive organization of
+    çözümlenmesini zorunlu kıldığından bilginin sadeleştirilmiş              the Anatolian population obliged the resolution of all kinds of
+    boyutunun çok yönlü yöntemlerle kitlere aktarılması gerekliydi.          social problems, disseminating the simplified version of the
+    Bu çerçevede “Sıhhat ve İçtimai Muavenet Vekâletinin” 1922-1939          information was vital to the masses with versatile strategies. In
+    yılları arasında kitaplar, afişler, broşürler, filmler ve farklı         this context, the Ministry of Health and Welfare explicitly strived
+    etkinliklerle halkı salgın hastalıklar, çocuk bakımı ve zararlı          to educate the public about pandemic diseases, childcare, and
+    böcekler konusunda aydınlatmaya çalıştığı görülmektedir. Bu              pests by releasing books, posters, brochures, and making films and
+    makale 1922-1939 yılları arasında yayımlanan “Annelere Nasihat,          various activities between 1922 and 1939. This article, therefore,
+    Trahom Hakkında Halka Nesayih, Kızamık, Sineklerle Mücadele,             aimed to concretize the reasons-measures dimensions of public
+    Kuşpalazı, Difteri” gibi pek çok kitap ve broşürden yararlanarak         health actions, population policy, historical and statistical
+    halk sağlığı bilgisinin nedenler-önlemler boyutunu, nüfus                information dissemination, and the extent of reliance on the exact
+    politikaları boyutunu, bilginin tarihi ve istatistiki aktarım            information by referring to numerous books, including "Advice to
+    boyutunu ve doğru bilgiye güvenme boyutunu belirginleştirmeye            Mothers, Public Advise about Trachoma, Measles, Fighting Against
+    çalışmaktadır.                                                           Flies, Diphtheria..." and brochures released between 1922-1939
+                                                                             period.
+    Anahtar Kelimeler: Anne, Doğru Bilgi, Halk Eğitimi, Nüfus, Sağlık,       Keywords: Exact Information, Health, Mother, Pandemics,
+    Salgın Hastalıklar.                                                      Population, Public Education.
+
+
+
+
+*     Doç. Dr., Kırşehir Ahi Evran Üniversitesi, Fen-Edebiyat Fakültesi, Tarih Bölümü, umutakagunduz1@gmail.com. ORCID: 0000-0002-1785-1122.
+                                                  ÜMÜT AKAGÜNDÜZ
+
+
+Extended Abstract
+The socioeconomic structure inherited from the Ottoman Empire directed the debates and policies of the
+Republic's first years due to the crises created by the continuous wars. The most important of the precedencies
+of the New Republic was to raise healthy generations physically and mentally by preventing population losses. To
+reveal the desired fit and educated generation, it was obvious that the health problems in the country had to be
+solved. The quantitative and qualitative lack of health accumulation inherited from the Ottoman State made it
+clear that the Republic's task took time and effort. However, it was impossible to hold only epidemics and
+institutional inadequacies responsible for population losses for various reasons. The most serious challenge is
+that preventive health measures, i.e., basic public health knowledge, are needed to achieve adequate levels of
+awareness in individual and collective contexts. Although the late Ottoman health policies raised expertise about
+epidemics in the major cities of Anatolia, most villages remained outside this process. In other words, to combat
+epidemics or infant death rates, it was as essential to deliver simplified health information to the public as it was
+to increase the number of health workers.
+This study discussed the books and brochures the Ministry of Health published to transmit health information to
+the public in the Republic's first years. Focusing on the period between 1923 and 1939, this study aims to
+determine the inferences of health policies for public education. The deficiencies of the health policies inherited
+from the Ottoman State reflected in quality and quantity and the socioeconomic and psychological crises caused
+by lasting wars. In the fight against disease, the need to merge the public with essential health information has
+been demonstrated. This study, which analyses how the abbreviated form of communication is conveyed to the
+public through multi-faceted works, is qualitative research. Document analyses are used in qualitative research
+in which observations and interviews are used. After the classification and translation of the works obtained for
+this study, which analyses how public health information is delivered to the public through books and brochures,
+they were evaluated based on different sub-purposes. To ensure a healthy connection with the works published
+in the following years, transcriptions from 1923-1928 were made for the first time. After the data was acquired,
+the transcription process was classified together with the works of 1928 and 1939, and they were analyzed under
+different titles. While investigating the efforts of the Ministry of Health to provide health information to the public
+through printed works, answers to the questions determined after the classification of the related works were
+sought. At this point, in the study, "How are the causes of diseases expounded to the public? What kind of warnings
+have been given to the public regarding diseases? How is the mother-child relationship with population policy
+constructed in the related works? In the works, how is the knowledge based on science reflected to the public in
+the face of wrong knowledge? What kind of methods are used in the expression of knowledge in the works? What
+is said about the connection between education and health in the works?
+The works and brochures published by the Ministry of Health between 1924 and 1939 show that the Ministry of
+Health acted under the country's health problems and policies. The books and pamphlets published at this point
+concretize the positivist character of the Republic. At every moment of the brochures and books that place the
+cause-effect relationship in a central position, the information is organized following reason and logic. All the
+works used intelligible cause-and-effect patterns to examine diseases, child deaths, or harmful creatures. The
+primary purpose here was both to raise the vigilance of those who faced epidemics and child deaths and to expand
+the scale of correct information in a way that could comprehend the cause-effect relationship. In this way,
+individuals who became aware of the causes of diseases could take the necessary precautions to avoid contracting
+these diseases. The main concern here is that rational data from the center to the environment can enhance the
+power of the masses against misinformation and prejudices. While reading or listening, it is clarified here how
+the person can be protected from dangers with simple practices. In the works of the Ministry of Health, the
+relationship between population policies and the mother is also mentioned. The individual who is expected to
+play an active role in brochures, pamphlets, and books is the mother. The mother expects the information to bring
+up the new generations in body and mind, end the death of children, and be careful and selfless. Even though
+there are narratives that care about the mother's health, the woman is remembered not because she is a woman
+but because she is a mother, that is, because she guarantees the child's health.
+
+
+
+
+                                                          2
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+Giriş
+Birinci Dünya Savaşı’nın yarattığı olumsuz koşullar Millî Mücadele ve Cumhuriyet yılları sağlık politikalarını
+yönlendirmiştir. 1911-1923 yılları arasında yoğun askeri çatışmalarla iç içe kalan Osmanlı Devleti'nden
+Cumhuriyet’e kapsayıcı sıkıntılar miras kalmıştır. Bir liman şehri olan İstanbul, Karadeniz-Akdeniz arasında
+yayılan tifo, kolera, veba, tifüs gibi her türlü salgın hastalığa açıktı. Ancak temel sorun hastalıkların ticari
+faaliyetler nedeniyle yayılmasından ziyade temizlik ve bilinçlendirme gibi koruyucu sağlık önlemlerinin
+yetersizliğiydi.1 Sağlıklı su temininde yaşanan sıkıntılar, kanalizasyon eksikliği, başıboş hayvanlar, sığınmacılar
+ve bilinçsiz kitleler nedeniyle salgınlar rahatlıkla yayılabilmekteydi.2 Büyük Millet Meclisi’nin açılmasından
+hemen sonra başlayan kurumsallaşma çalışmaları sağlık politikalarını da merkezileştirmiştir. Sağlığı
+kurumsallaştırma yolunda atılan ilk adım 3 Mayıs 1920’de “Sıhhiye ve Muavenet-i İçtimaiye Vekâleti” kurulması
+olmuştur. Sonradan “Sıhhat ve İçtimai Muavenet Vekâleti” adını alan kurumun sağlık sorunları ile toplumsal
+sorunlara odaklanması hedeflenmişti.3 Millî Mücadele yıllarında salgın hastalıklar, yetimler, muhacirler ve
+dullardan kaynaklanan problemler sağlık sorunlarıyla toplumsal sıkıntıların aynı çeperde toplanmasını zorunlu
+kılmıştır. Öyle ki yeni bakanlık doktor, hastane, sağlık memuru gibi kurumsal işleyişi sağlayan temel yapıların
+bile mevcudiyetine hakim değildi.4 Özellikle terhisler sonrasında artan tifo, frengi, trahom, verem gibi salgın
+hastalıklar Milli Mücadele’nin tek bir cephede kazanılamayacağını belirginleştirmişti.5 Salgınların baş döndüren
+hızında 1908’de kurulan “Aşıhaneden” düzenli aşı temin edilememesi üzerine “Cebeci Hastanesi’nin”
+laboratuvarlarında aşı ve serum6 üretimi yapılmaya başlamıştır.7 Bu çerçevede aşı üretimi yapılan Sivas, Milli
+mücadele döneminde salgın hastalıklarla mücadelenin kalelerinden birisi olmuştur.8 1922’de sağlık sorunlarını
+çözümlemeye yönelik çabalar hızlanmıştır. Mevcut ihtiyaçlarla karşılaştırıldığında yetersiz olmakla beraber
+doktor ve sağlık memuru sayılarında artışlar yaşanmıştır. 337 doktor ile 434 sağlık memuru ülke genelinde
+çalışmalarına devam ederken Sivas’ta 5 milyon kişilik çiçek, 537 kg kolera ve 477 kg tifo aşısı üretilmiştir. Ayrıca
+250 kg kinin de halka ücretsiz dağıtılmıştır.9 Belirginleşen toparlanma 1922’de tıp eğitimi ile sağlık
+uygulamalarına da yansımıştır.10
+Cumhuriyet’in ilanından hemen sonra sağlık sorunları siyasetin merkezine yerleşmiştir. 1923’te çıkartılan
+zorunlu hizmet kanunu ile bölgeler arasındaki hekim dengesizlikleri hekimsiz yerlere gidecek olanlara %75,
+%100 maaş farkları ödenerek giderilmeye çalışılmıştır.11 Elbette ki sağlık sorunlarının çözümü sadece sağlık
+çalışanlarının sayısının arttırılmasıyla bağlantılı değildi. Örneğin Ankara’daki içme suları koli basili ile doluydu.
+Ayrıca kente su taşıyan borular adi ve dayanıksızdı.12 1923 yılında ilan edilen verilere göre kazaların hiçbirinde
+doktor yokken Anadolu’yu en fazla tahrip eden hastalık sıtmaydı. Tekir’e göre tahmini 5 milyon sıtmalı
+
+
+
+1    Elbette ki koruyucu sağlık önlemlerinin kültürel boyutları unutulmamalıdır. Yanlış uygulamalar nedeniyle yaşanan insan kayıpları modern
+     bilginin ışığında geleneksel uygulamaların tamamını tek tipleştirmiştir. Ancak Bulut’un da belirttiği gibi modern tıp alanındaki gelişmelerden
+     yararlanılsa da lohusalık döneminde anneyi ve bebeği koruyacak geleneksel yöntemler devreye girmiştir. Meryem Bulut, “Geçiş Ritüellerinde
+     Doğum: Sağaltım Yolları”, Turkish Studies, 12/21, (2019), 130.
+2    Ahmet Özgiray, “Cumhuriyetin İlk Yılarında Sağlık-Sosyal İşleri ve Düzenlemesi (1920-1938)”, Tarih İncelemeleri Dergisi, 15/1, (2000), 2.
+3    Nurhan Meydan Acımış ve Bilge Betül Kılıç, “Cumhuriyet (1928-1973) Döneminde Sürdürülen Sağlığın Geliştirilmesi Mücadelesinde Halk Sağlığı
+     Temaları”, Lokman Hekim Dergisi, 11/1 (2021), 31; Gamze Nesipoğlu, “Olgusal Bir Yapı Olarak Sağlık Politikaları: 1920-1960 Yılları Arası
+     Cumhuriyet Döneminin Tarihsel İzleği”, Hacettepe Sağlık İdaresi Dergisi, 21/1 (2018), 168.
+4    Tekir, ilk incelemeler sonucunda azami 290 hekim ihtiyacının 180 tanesinin karşılanabildiğini belirtmekte. Süleyman Tekir, “Sıhhiye ve
+     Muavenet-i İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet Dönemindeki Faaliyetleri (1920-1930)”, Belgi Dergisi, 18 (2019): 1302-1304.
+5    Örneğin 1919’da Mısır’dan dönen askerler arasında yaygın olan trahom hızla Anadolu’yu etkiler. Tespitlere göre Süveyş Cephesinden dönen 138
+     subay ile 8.392 erde trahom bulunmaktaydı. Özellikle Adıyaman, Malatya ve Urfa’da yaygın olan bu hastalık nedeniyle bu kentler için “körler
+     ülkesi” tabiri kullanılıyordu. Bkz. Süleyman Tekir, “Erken Cumhuriyet Dönemi Türkiye'de Bulaşıcı Hastalıklarla Mücadele (1923-1930)”, Türkiyat
+     Araştırmaları Enstitüsü Dergisi, 65 (2019), 413.
+6    Gencay Gürsoy, “Sağlık”, Cumhuriyet Dönemi Türkiye Ansiklopedisi, Cilt 5, İstanbul: İletişim Yayınları, 1983, 1716. (Cilt 6, 1716-1735), 1720.
+7    Millî Mücadele yıllarında kuduz ile mücadele edebilmek için kuduz aşısı enjekte edilmiş bir tavşan gizlice İstanbul’dan Ankara’ya kaçırılmıştır.
+     Tekir, “Sıhhiye ve Muavenet”, 1304.
+8    1921’de Sivas Aşıhanesinde 3 milyonu geçkin çiçek aşısı ile 1600 litreye yakın kolera, tifo, dizanteri ve veba aşısı üretilmiştir. Bkz. Bilal Ak, “Türkiye
+     Cumhuriyeti'nde Sağlık Hizmetleri”, Türkler, Cilt 17, Ankara: Yeni Türkiye Yayınları, 2002, 421.
+9    Tekir, “Sıhhiye ve Muavenet”, 1306.
+10   1922’de kadınlar ilk defa tıp fakültesine öğrenci olarak girerken, 20.000 hasta laboratuvarlarda yapılan 30.000 tetkikle tedavi edilmiştir. Ak,
+     “Türkiye Cumhuriyeti'nde”, 421.
+11   Ak, “Türkiye Cumhuriyeti'nde”, 423-424.
+12   Osman Gümüşçü, “Osmanlı’dan Cumhuriyet’e Geçiş ve Cumhuriyetin İlk Yıllarında Türkiye Halk Sağlığı”, Atatürk Araştırma Merkezi Dergisi,
+     19/55, (2003), 138.
+                                                                              3
+                                                                 ÜMÜT AKAGÜNDÜZ
+
+
+bulunmaktaydı.13 Açıkçası öncelikle sıtma, frengi, verem, trahom, tifo gibi salgın hastalıkların ülke genelinde
+yarattıkları tahribatın boyutları belirlenebilmeliydi.
+1923’te ülkede bulunan toplam hekim sayısı 554, eczacı sayısı 60, ebe sayısı 136, hemşire sayısı ise 42’dir. Ayrıca
+3 devlet hastanesi, 6 belediye hastanesi, 45 özel idare hastanesi, 32 özel yabancı ve ekalliyet hastanesi mevcuttu.14
+Diğer yandan kırsaldaki sağlık sorunlarının ciddiyetinin farkında olan Atatürk, “Etimesgut Çiftliğinde” 19 köyün
+bağlandığı bir bucak merkezi oluşturmuştur.15 1924 yılı ise sağlık politikaları ile sağlık kurumlarının
+şekillendirilmesinde dönüm noktasıydı. Kâğıt üzerinde kalan teşkilatlar faalleştirilirken kazalarda açılan
+dispanserlerle merkezin taşrayla olan bağı arttırıldı.16 Bu arada tam teşekküllü aşı ve ilaç üretim tesislerinin
+İstanbul’da olması bir diğer zorluktu. Millî Mücadele yıllarında bu sorunun etkilerinin azaltılmasını sağlayan
+Ankara ve Sivas kimyahaneleri 1924’te “Merkez Hıfzıssıhha Enstitüsü” adı altında birleştirildi. 17 Diğer yandan
+1924 tarihli 1219 sayılı “Tababet ve Şuabatı Sanatlarının Tarz-ı İcrasına Dair Kanun” adlı düzenlemeyle
+hekimlerin statüleri belirlenerek özel muayenehane açabilecekleri kabul edildi. 1920’lerin koşullarında özel
+muayene sürecine müdahale edemeyen devlet, 1930’larda daha farklı politikalar takip etmiştir.18 Sıtma, 1924
+yılının da en çok tartışılan konularındandı. Örneğin Iğdır Ovası’nda sıtma nedeniyle tarımsal faaliyetlerini
+gerçekleştiremeyen halk yazın Ağrı Dağı’na çekiliyordu.19 Sıtmaya karşı girişilen mücadele sivrisineklerle
+mücadeleyi de yanında getirdi. Devlet, sivrisineklerin çoğalmasına neden olan bataklıkları kuruturken bu
+hayvanların yayılmalarını sağlayan ağaç ve bitki türlerini kontrol altına almaya çalıştı.20 1924’te hazırlanan
+haritalar bir diğer baş ağrıtıcı sorunun frengi olduğunu kanıtladı. Terhislerle birlikte ülke geneline yayılan
+hastalık özellikle Zonguldak, Sinop, Tokat, Kastamonu, Samsun, Ordu ve Giresun gibi illerde yoğunluk
+kazanmıştı.21 Bütün bunlarla birlikte 1924’te Ankara, Erzurum, Sivas ve Diyarbakır’da yeni numune hastaneleri
+açıldı.22
+1925’te 1928 yılına kadar hedeflenen sağlık politikaları belirlendi. Başkent’te 1925’te “Numune Hastanesi” ile
+“Cebeci Askeri Hastanesi” haricinde başka hastane olmadığı düşünüldüğünde sağlığın acilen nitelik ve nicelik
+bağlamlarında teşkilatlandırılması gerektiği açığa çıkmıştı.23 Bu düzlemde sağlık teşkilatlanmasını güçlendirerek
+köylere kadar yaymak, hekim sayısını arttırmak, çocuk ölümlerini azaltmak, bulaşıcı hastalıklarla mücadele
+etmek, yeni hastaneler, sanatoryumlar açmak belirlenen24 temel hedeflerdi.25                  Sıtma, 1925 yılında
+gerçekleştirilen “I. Milli Türk Tıp Kongresi’ de” de en çok tartışılan salgın hastalıktı. 71 vilayete 2.274 kg kinin
+dağıtılmış olsa da dağıtım ağı ve oranı hâlâ yetersizdi.26 Frengi hastalığıyla mücadele edebilmek için 1925’te
+oluşturulan “Frengi Komisyonunun kararları bağlamında “Frengi Tedavi Talimatnamesi” hazırlandı. Komisyon
+ayrıca hastalığın etkilerini azaltabilmek için bizmojenol adlı ilacın Almanya’dan getirilmesini de kararlaştırdı.
+Hâlihazırda bulunan kimyahanesi sayesinde Sivas frengiyle mücadelenin kapsamlı şekilde başladığı ilk kent
+
+
+
+13   Açıkçası bütçe yetersizliği de salgınlar kadar etkiliydi. Bu 5 milyon sıtmalının tedavi edilebilmesi için gereken kinin miktarı 50 ton iken 192
+     bütçesinden ayrılan miktar sadece 1400 kg kinini karşılayabilecek durumdaydı. Tekir, “Erken Cumhuriyet”, 426.
+14   Ak, “Türkiye Cumhuriyeti'nde”, 423-424.
+15   Bir yatılı okul, dispanser ve çağdaş bir hamama sahip olan bu örnekte hasta muayenesi, aşılama, sağlık eğitimi, bulaşıcı hastalıklarla mücadele gibi
+     uygulamalar yapılmıştır. Bu örnekten elde edilen deneyimler sonraki yıllarda taşra sağlık hizmetlerinde kullanılmıştır. Bkz. Muhittin Gül, “Atatürk
+     Dönemi Sağlık Politikası”, Gazi Üniversitesi Diş Hekimliği Fakültesi Dergisi, 5/1 (1988), 255.
+16   Tekir, “Sıhhiye ve Muavenet”, 1307.
+17   Gürsoy, “Sağlık”, 1720.
+18   Gürsoy, “Sağlık”, 1721.
+19   Samsun, Çarşamba, Bafra ovalarında ise köyler bu hastalık nedeniyle haritadan siliniyordu. Ayrıca farklı çalışmalara göre nüfus yoğunluğunun
+     yüksek olduğu sahil bölgelerinde halkın yüzde 90’nın sıtmalı olduğu düşünülmekteydi. Tekir, “Sıhhiye ve Muavenet”, 1308.
+20   1924’te Refik Saydam başkanlığında toplanan komisyon, yaklaşık 135 saatlik bir çalışma sonrasında sıtmanın nedenlerini, etkilerini ve bu
+     hastalığa karşı neler yapılabileceğini karara bağladı. Yavuz Erdem, “Sıhhat ve İçtimai Muavenet Vekâletinin 1924 Yılı Sıtma ile Mücadele Raporu-
+     Sıtma ve Bataklık Haritası”, Journal of Social and Humanities Sciences Research, 5/19 (2018), 642, 652.
+21   Gümüşçü, “Osmanlı’dan Cumhuriyet’e”, 143.
+22   Nesipoğlu, “Olgusal Bir Yapı Olarak”, 171.
+23   Gümüşçü, “Osmanlı’dan Cumhuriyet’e”, 134.
+24   Ak, “Türkiye Cumhuriyeti'nde”, 425.
+25   1925 ‘te hazırlanan “Sağlık Çalışma Programında” sağlık örgütünün geliştirilmesi, sağlık çalışanı ve hekimi sayısının arttırılması, hastanelerin
+     açılması, salgın hastalıklarla mücadele edilmesi, kanuni mevzuatların hazırlanması, köylere kadar sağlık ve sosyal yardım örgütlerinin
+     ulaştırılması ile bir “Merkez Hıfzıssıhha Enstitüsünün” kurulması hedeflenmiştir. İsmail Ağırbaş, Yasemin Akbulut, Ömer Rıfkı Önder, “Atatürk
+     Dönemi Sağlık Politikası”, Atatürk Yolu Dergisi, 48 (2011), 741.
+26   Gümüşçü, “Osmanlı’dan Cumhuriyet’e”, 141.
+                                                                           4
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+oldu.27 “I. Milli Türk Tıp Kongresi’nde” tartışılan bir diğer önemli hastalık ise trahomdu. Hastalığın özellikle
+Güneydoğu Anadolu’daki sürekliliği 1925’te Adıyaman ve Malatya merkezli yeni trahom hastaneleri ile
+polikliniklerinin açılmasını sağladı. Temmuz-Aralık 1925 aralığında “Adıyaman Trahom Hastanesine” başvuran
+5.658 kişiden 850 tanesinin trahomlu olduğu tespit edildi.28 13 Mayıs 1926’da ise “Sıtma Mücadelesi Kanunu”
+yürürlüğe konularak hastalığın yoğunlaştığı yerlerde Sıtma Mücadele Heyetlerinin kurulması kararlaştırıldı.29
+1927-1930 yılları arasında ilk yıllarda gerçekleştirilen yatırımlar ile politikaların meyveleri alınmaya başladı.
+1927’de vereme karşı ilk BCG aşısı uygulanırken 1928’de trahoma karşı mücadele hız kazandı. Örneğin 1928’de
+Adıyaman’da 5.687 kişinin, Malatya’da ise 7.853 kişinin trahomlu olduğu tespit edildi.30 1927’de “Merkez
+Hıfzıssıhha Müessesi” adı altında açılan 1942’de “Refik Saydam Merkez Hıfzıssıhha Enstitüsü” adını alan kurumda
+kuduz, verem, tifüs, çiçek aşıları üretilirken serolojik, parazitolojik ve toksikolojik analizler yapıldı.31 1923’te
+İzmir’de kurulan “Veremle Mücadele Cemiyet-i Hayriyyesini” 1927’de “İstanbul Veremle Mücadele Cemiyeti”
+izledi. 1948’de bu iki kurum “Türkiye Ulusal Verem Savaş Derneği” adı altında birleştirildi.32 Sıtma mücadelesinde
+belirgin başarılar elde edildi. Anadolu’nun bazı yerleşim yerlerinde 1923-1925 yılları arasında %70’lere ulaşan
+sıtma oranları 1940’larda %10’lara kadar düşürüldü.33 Bu arada frengiyle mücadelede de ilerlemeler kaydedildi.
+1927’de ülke genelinde belirlenen 96.092 frengili hastanın 804 tanesi tedavi edilirken 625 tanesi vefat etti.34
+1928’de çıkartılan “Türkiye Cumhuriyeti Merkez Hıfzıssıhha Müessesesi Hakkında Kanun” ise sağlık
+politikalarının hedeflerini yeniledi. Bu noktada halk sağlığının korunmasına yönelik incelemelerin yapılması,
+bulaşıcı hastalıkları önlemeye yönelik daha kapsayıcı adımların atılması, halk sağlığı konusunda sağlık
+personelinin bilgilendirilmesi, aşı ve serum üretilmesi gibi hususlara odaklanıldı.35 Ancak alınan önlemlere
+rağmen bilgisizlikten, güvensizlikten ve cehaletten kaynaklanan faktörler 1930’lu yıllarda salgın hastalıkların
+seyrini belirlemeye devam etti.36 Bu arada halkın sağlık çalışanlarına güvenmeye başlaması farklı yerlerde daha
+hızlı sonuçlar alınmasını da sağladı.37 Eczanelerin gelişimi de unutulmamalıdır. 1928 yılında 14 milyon nüfuslu
+Türkiye’de sadece 673 adet eczane vardı.38
+1925-1930 yılları arasında bütçeden Vekâlete ayrılan pay düştü. 1925’te bütçeden sağlık harcamalarına ayrılan
+pay %2,64 iken 1930’da bu oran %2,02’dir.39 1929-1933 yılları arasındaki sağlık politikaları da nüfus artışına
+odaklandı. Buna göre doğum öncesi ve sonrası çocuk ölümlerini azaltabilmek, doğumu teşvik etmek, salgın
+hastalıklara yönelik örgütlenmeyi güçlendirmek, doktor ve sağlık çalışanı sayısını arttırmak, üniversiteleri
+modernleştirmek, sağlık kuruluşlarındaki devlet kontrolünü arttırmak temel hedeflerdi.40 1930’da kabul edilen
+“Umumi Hıfzıssıhha Kanunu” ile sağlıkta sosyal devlet olgusu yasallaştı. “Sıhhat ve İçtimai Muavenet Vekâletini”
+tüm sağlık işlerinden sorumlu hale getiren bu kanun salgın hastalıkların tamamında ihbarı mecburi kıldı.41 Ayrıca
+devletin sağlık üzerindeki etkilerini arttırması bağlamında 1930’da bütün eczacılara etıbba odalarına kaydolma
+şartı, 1932’de ise kendi imkanlarıyla okuyan tıp öğrencilerine zorunlu hizmet şartı getirildi. 1936’da çıkartılan
+
+27   Hafik, Şarkışla, Ulaş, Kayadibi, Kangal ve Yenihan’da kurulan frengi mücadele merkezleri 1926 yılında 1.533 kişide frengi olduğunu tespit etti.
+     Tekir, “Erken Cumhuriyet Dönemi”, 410-411.
+28   Tekir, “Erken Cumhuriyet Dönemi”, 414.
+29   Tekir, “Erken Cumhuriyet Dönemi”, 426.
+30   Gümüşçü, “Osmanlı’dan Cumhuriyet’e”, 143. Bütün bunlarla beraber trahomla mücadelenin 1924-1938 yılları arasında arzu edilen başarıyı
+     yakalayamadığı söylenebilir. Geniş çaplı farklı salgın hastalıklar, taramaların yetersizliği, toplumsal bilinçsizlik ile refah seviyesinin
+     arttırılamaması nedeniyle hastalık belirgin etkilerini sürdürmeye devam etmiştir. Bkz. Sadet Altay, “Bulaşıcı ve Müzmin Bir Sosyal Afet:
+     Cumhuriyet’in İlk Yıllarında Trahom Hastalığı ve Mücadele Çalışmaları (1924-1938)”, Cumhuriyet Tarihi Araştırmaları Dergisi, 12/23 (2016), 204.
+31   Nesipoğlu, “Olgusal Bir Yapı Olarak”, 171.
+32   Gürsoy, “Sağlık”, 1721.
+33   Ancak bu değer 1942-1943 yılları arasında yeniden %32’ye ulaşır. Gürsoy, “Sağlık”, 1721.
+34   Tekir, “Erken Cumhuriyet Dönemi”, 412.
+35   Ak, “Türkiye Cumhuriyeti'nde”, 427-428.
+36   Örneğin 1929’da Güneydoğu illerinde çiçek hastalığı salgına dönüşmüştür. Peygamberlik iddiası ile ortaya çıkan Şeyh Ahmet’i Türkiye-Suriye
+     sınırında görmeye gelen kafileler, çiçek hastalığının tedavisinde geleneksel yöntemleri tercih eden çevreler ile halkın sağlık memurları ile güvenlik
+     güçlerini aynı kefeye koyması güçlü bir çiçek salgınıyla sonuçlanmıştır. Tekir, “Erken Cumhuriyet Dönemi”, 423-424.
+37   Adana’da sıtmaya karşı gerçekleştirilen mücadelenin meyvelerinin alınmaya başlaması çocuk ölümlerinden mustarip olan halkın uygulanan
+     sağlık politikalarına güvenmelerini sağlamıştır. Çikolatalı kinin gibi pratik yenilikler ile geniş bataklık arazilerinin kurutulması mücadelenin
+     kazanılmasında belirleyici olmuştur. Tekir, “Sıhhiye ve Muavenet”, 1310.
+38   Gümüşçü, “Osmanlı’dan Cumhuriyet’e”, 135.
+39   Umut Karabulut, “Cumhuriyet’in İlk Yıllarında Sağlık Hizmetlerine Toplu Bir Bakış, Dr. Refik Saydam’ın Sağlık Bakanlığı ve Hizmetleri (1925-
+     1937)”, Çağdaş Türkiye Araştırmaları Dergisi, 6/15 (2007), 156.
+40   Ak, “Türkiye Cumhuriyeti'nde”, 427-428.
+41   Tekir, “Erken Cumhuriyet Dönemi”, 427.
+                                                                            5
+                                                                ÜMÜT AKAGÜNDÜZ
+
+
+“Sağlık ve Sosyal Yardım Bakanlığı Teşkilat ve Memurin Kanunu” ile sağlık bakanlığı halkın toplumsal sağlık
+hizmetlerini ve iskân işlerini görmekle sorumlu kılındı.42 Sağlık alanındaki kadroların gelişimi 1930’lu yıllarda
+da sürmüştür. 1933’te doktor sayısı 1.211, sağlık memuru sayısı 1.306, hemşire sayısı 257, ebe sayısı 402’dir.43
+1940’a gelindiğinde ise hekim sayısı 155, ebe sayısı 600, hemşire sayısı ise 400’dür.44 Örnek hastaneler açma
+süreci 1930’lu yıllarda da devam etmişti.45 1930’da açılan “Etimesgut Numune Dispanseri” hem koruyucu hem
+de tedavi edici hizmetleri birlikte yürütecek şekilde organize edildi. 1937’de kurumun adı “Sağlık Merkezi” olarak
+değiştirildi.46 Hastalıklara karşı girişilen mücadele tarımsal üretime de yön verdi. 1936’da sıtmaya karşı kabul
+edilen “Çeltik Ekim Kanunu” ile çeltik tarlalarının yerleşim yerlerine uzaklığı belirlendi.47 Elbette ki
+Cumhuriyet’in ilk yıllarında sağlık alanında yaşanan dönüşümün itici güçlerinden olan Refik Saydam‘da
+hatırlanmalıdır. 1925-1937 yılları arasında Sağlık Bakanlığı yapan Saydam, tıp eğitiminin çağdaşlaştırılması,
+sağlık teşkilatlanmasının tamamlanması ve sağlık hizmetlerinin bütün ülke sathına yayılabilmesi için çok yönlü
+çalışmalar gerçekleştirmiştir.48
+Bu araştırmada dönemin Sağlık Bakanlığının Cumhuriyet’in ilk yıllarında sağlık bilgisini halka ulaştırabilmek için
+yayımladığı kitap ve broşürler ele alınmıştır. Ancak kitap ve broşürlerin yoğunluğu 1930’lu yıllarda olduğundan
+makalenin başlığında “Sıhhiye ve Muavenet-i İçtimaiye Vekâleti” yerine” “Sıhhat ve İçtimai Muavenet Vekâleti”
+adı kullanılmıştır. 1923-1939 yılları arasına odaklanan bu çalışmayla izlenen sağlık politikalarının halk eğitimine
+yönelik çıkarımlarının belirlenebilmesi amaçlanmıştır. Osmanlı Devleti’nden miras kalan sağlık politikalarının
+niteliğe ve niceliğe yansıyan eksiklikleri ile uzun soluklu savaşların yarattığı sosyo-ekonomik ve psikolojik
+buhranlar, hastalıklara karşı girişilen mücadelede halkın temel sağlık bilgisiyle bütünleştirilebilmesinin
+zorunluğunu ortaya çıkartmıştır. Bilginin sadeleştirilmiş halinin halka nasıl ulaştırıldığını çok yönlü eserler
+aracılığıyla analiz eden bu çalışma nitel bir araştırmadır. Gözlem ve görüşmelerden yararlanılan nitel
+araştırmalarda doküman incelenmesi kullanılmaktadır. Doküman incelemesi sistemli şekilde belirlenmiş kayıt
+ve belgelere dayalı bir veri toplama işlemidir.49 Bu tür incelemelerde kullanılacak veriler araştırmanın
+muhteviyatına uygun değerlendirmelerle içe içe geçirilir.50 Bu araştırmada ilgili kaynaklar kütüphaneler ile dijital
+ortamlardan elde edilmiştir. Halk sağlığı bilgisinin kitaplar ve broşürler aracılığıyla halka nasıl ulaştırıldığını
+analiz eden bu çalışma için elde edilen eserlerin tasnif ve çeviri işlemleri gerçekleştirildikten sonra farklı alt
+amaçlardan hareketle değerlendirmeleri yapılmıştır. Sonraki yıllarda yayımlanan eserlerle kurulacak olan bağın
+kuvvetlendirilebilmesi için ilk olarak 1923-1928 yılları arasına ait eserlerin transkripsiyonları yapılmıştır.
+Transkripsiyon işlemi sonrasında elde edilen veriler 1928-1939 yıllarına ait eserlerle birlikte tasnif edildikten
+sonra farklı başlıklar halinde analiz edilmiştir. Bu analizler çerçevesinde sağlık politikalarının Cumhuriyet’in ilk
+yıllarındaki uygulanış şeklinin “Giriş” bölümünde değerlendirilmesinden sonra 1923-1939 yılları arasında
+Vekâletin yayımladığı eserler belirginleştirilmiştir. Vekâletin basılı eserlerle halka sağlık bilgisini ulaştırma
+çabası analiz edilirken ise ilgili eserlerin tasnifi sonrasında belirlenen sorulara yanıtlar aranmıştır. Bu noktada
+çalışmada “Halka hastalıkların nedenleri nasıl anlatılmıştır? Halka hastalıklar bağlamında ne tür uyarılar
+yapılarak öneriler getirilmiştir? İlgili eserlerde nüfus politikası ile anne-çocuk ilişkisi nasıl kurgulanmıştır?
+Eserlerde yanlış bilgi karşısında halka akla, bilime dayalı bilgi nasıl yansıtılmıştır? Eserlerde bilginin anlatımında
+ne tür yöntemler kullanılmıştır? Eserlerde eğitim-sağlık ilişkisi hakkında neler söylenmiştir?” gibi sorulara
+yanıtlar aranmıştır.
+
+
+
+
+42   Karabulut, “Cumhuriyet’in İlk Yıllarında”, 157.
+43   Ak, “Türkiye Cumhuriyeti'nde”, 428-429.
+44   Mustafa Öztürk, “Cumhuriyet Dönemi'nde Sağlık Hizmetleri”, SDÜ Tıp Fakültesi Dergisi, 6/1 (1999), 35.
+45   Örneğin Ankara’da 1931’de Avrupa hastaneleri ile karşılaştırılabilecek düzeyde donanımlı 270 yataklı bir Numune Hastanesi açılmıştır. Ayrıca
+     1926’da 56 adet olan hastane sayısı 1936’da 60 tanesi özel hastane olmak üzere 170 hastaneye ulaşmıştır. Özgiray, “Cumhuriyetin İlk Yılarında”,
+     5.
+46   Aydın, “Türkiye Cumhuriyeti'nin Kuruluş”, 190.
+47   Zekeriya Işık, “Osmanlı’nın Son Zamanları Cumhuriyet’in İlk Çeyrek Asrında Sıtma Salgınına Karşı Verilen Mücadelenin Mahiyeti”, Selçuk Türkiyat,
+     51 (2021), 68.
+48   Öztürk, “Cumhuriyet Dönemi'nde”, 38.
+49   Gürbüz Ocak, “Bilimsel Araştırmalarda Kullanılan Veri Toplama Yolları”, Eğitimde Bilimsel Araştırma Yöntemleri, Ankara: Pegem Akademi, 2020,
+     25-30.
+50   Ali Yıldırım ve Hasan Şimşek, Sosyal Bilimlerde Nitel Araştırma Yöntemleri, Ankara: Seçkin Yayınları, 2013, 187.
+                                                                          6
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+Sıhhat ve İçtimai Muavenet Vekâletinin Yayımladığı Eser ve Broşürler
+“Sıhhat ve İçtimai Muavenet Vekâleti” Cumhuriyet’in ilk yıllarında halka sağlık bilgisini basitleştirilmiş, açıklayıcı
+basım-yayım ve iletişim yöntemleriyle yaymaya çalışmıştır.51 Gümüşçü’nün aktardığına göre 1923-1948 yılları
+arasında halkın sağlık bilgisini iyileştirebilmek ve cehaletle mücadele edebilmek için 730.000 afiş, 5.150.000
+broşür, 146.000 kitap ve dergi basılmıştır.52 Acımış ile Kılıç’ın hazırladıkları çalışma ise Cumhuriyet yıllarında
+halk sağlığı bilgisiyle koruyucu sağlık önlemlerinin nasıl yaygınlaştırıldığını açığa çıkartmaktadır. Bu noktada
+genel eğitim ile sağlık eğitimi eksiliği, kanalizasyonların yetersizliği, içme suyu sorunları, bataklıkların yoğunluğu,
+kent ve kır evlerinin sağlıksız tasarımı ile kulaktan dolma yanlış bilgilerin yoğunluğu nüfus potansiyelinin
+gelişimini engellemekteydi.53 Diğer yandan Refik Saydam sağlık propagandası ile vatandaşlık eğitiminin
+kaynaştırılmasını çok önemsemiştir. 1923’ten itibaren halkın anlayabileceği basit dille yazılan afişler, broşürler,
+kitaplar ve dergiler halk odaları, okullar, güvenlik kurumları ve sanayi kurumları aracılığıyla halka
+ulaştırılmıştır.54 1925-1930 yılları arasında halkı bilinçlendirebilmek için “Sıtma Öğütleri” adlı eserden 30.000
+adet, “Kuşpalazı Hastalığı Nedir?” Adlı eserden 10.000, “Trahom Hakkında Halka Nesayih” adlı eserden 10.000,
+“Kızıl Hastalığı ve Korunma Çareleri” adlı eserden 10.000, “Sıhhi Müze Rehberi” adlı eserden 30.000, “Sıhhi Müze
+Atlası” adlı eserden 1.000, “Annelere Nasihat” adlı eserden ise 100.000 adet basılmıştır.55 Ayrıca satın alınan 12
+adet film nüfus yoğunluğu dikkate alınarak gönderildikleri mahallerde 7 ile 15 gün gösterilmiştir.56
+Cumhuriyet’in ilk yıllarında halkı bilgilendirebilmek için afişlerden de yararlanılmıştır. Özellikle 1930’lu yıllarda
+afiş ve broşürlerin renklendirilmesi bilginin göze seslenmesini sağlamıştır. 57
+Bütün bunlarla beraber Vekâletin 1922-1939 yılları arasında yayımladığı kitap, talimatname ve broşürler
+hakkında da bilgi verilmelidir.58 “Trahom Hakkında Halka Nesayih” adlı eser 14 sayfa olup 1922’de Hilal
+Matbaasında basılmıştır. Kader Matbaasında 1923’te basılan “1912 Beynelmilel Paris Mukaleve-i Sıhhiyesi” adlı
+eder 55 sayfadır. 1924 tarihli “Hastaneler Talimatnamesi” ise 34 sayfa olup Ankara Yeni Gün Matbaasında
+basılmıştır. Necmeddin Arif’in çevirdiği “Ameli Cerrahi-i Sagir” adlı eserin yazarı Theodore-Marin Tuffier (1857-
+1929)’dir. 1925’te İstanbul Kader Matbaasında basılan çalışma 890 sayfadır. İstanbul Hilal Matbaasında basılan
+“Frengi Tedavi Talimatnamesi” 1925’te yayımlanmıştır. Aynı yıl yayımlanan bir diğer önemli eser ise “Kolera
+Talimatnamesidir”. İstanbul Hilal Matbaasında basılan çalışma 21 sayfadır. Vekâletin yayımladığı bir diğer önemli
+eser ise “Süt Çocuğu’dur”. 1925’te 158 sayfa yayımlanan eser İstanbul Vatan Matbaasında basılmıştır. 1925
+yılında salgın hastalıklar üzerine yayımlanan bir başka önemli çalışma ise “Veba Talimatnamesi ve İtlaf-ı Fare
+Rehberi” adlı eserdir. 13 sayfadan oluşan talimatname İstanbul Yeni Matbaada basılmıştır.
+
+
+
+51   Sağlık bilgisini yayma çabası kuşkusuz ki yalnızca Vekâletin yayınlarıyla sınırlı değildir. Dönem ders kitapları ile dergilerinde de sağlık teması
+     işlenmiştir. Bunun haricinde “Sıhhi Konuşuk” adlı eser de olduğu üzere farklı matbaalarda da sağlık bilgisini anlaşılır dillerle ulaştırmayı
+     amaçlayan kitaplar kaleme alınmıştır. Bkz. Ramazan Alabaş, “Çocuk Haftası Dergisi ve Çocuk Eğitimi Açısından İncelenmesi”, Kastamonu
+     Education Journal, 26/5 (2018), 1778. Seval Yinilmez Akagündüz, Ahlaklı Yurttaş, İstanbul: Yeni İnsan Yayınevi, 2017, 123-129. Ümüt Akagündüz,
+     “Cumhuriyet Yılları Eğitim Tarihinde Halka Sağlık Bilgisini Sadeleştirerek Anlatmaya Çalışan Bir Eser: Sıhhi Konuşuk (1927)”, 4. Uluslararası Tarih
+     Eğitimi Sempozyumu (01-03 Eylül 2016), Ankara: Pegem Akademi (2016), 761-769.
+52   Gümüşçü, “Osmanlı’dan Cumhuriyet’e”, 145.
+53   Hastalıkların tedavisinde hurafe ve ampirik yöntemlerin yaygın olduğunu aktaran Tekir, Karaman’da hastaların ibrala, letere ve tevhid adlı
+     ocaklara başvurduğunu, İstanbul dışında neredeyse bütün ülkede doktorlardan önce üfürükçülerin tercih edildiğini aktarmıştır. Tekir, “Sıhhiye
+     ve Muavenet”, 1307.
+54   Acımış ve Kılıç, “Cumhuriyet (1928-1973)”, 32.
+     55 Tekir, “Sıhhiye ve Muavenet”, 1322.
+56   Bu filmlerin adları şu şekildedir: “Sıtma, Çocuk Bakımı, Vaktiyle Üç Dost İdiler (Frengi), Erken Teşhis-Erken Tedavi (Verem), Teminin Dişi, Senin
+     Ağzın, Sinek Tehlikesi, İhmalin Cezası, Uzun ve Afiyette Yaşamanın Çaresi, Sıhhi Su, Nezlenin ehemmiyeti, Sıtma Mücadelesinde Yeni Usuller. Tekir,
+     “Sıhhiye ve Muavenet”, 1323.
+57   Tekir’e göre afişler şunlardır: “Çocuk ve Fiyatı Termometresi, Ben Hastalanmak İstemem, Beni Öpmeyiniz, Sağlık Yolu, Sağlık Katarı,
+     Mütetabbiblerin-Cahil Ebelerin Saf Halkı Götürdükleri Hastalık ve Ölüm Kuyusu, Bir Mektep Çocuğunun 24 Saatlik Programı, Karahummanın
+     Bulaşma Yolları, Çocukları Süte Teşvik, Karasineğin Her Günkü Gezintisi, Vitaminler ve Korudukları Hastalıklar, Kızıl Aşısı İçin Halkı Teşvik, Yüzde
+     Yüz Afiyet Esasları, Çocukların Dişleri Hangi Ayda Çıkar, Sıhhat Kitabı, Bahar ve Güneşin Sıhhat ve Afiyete Tesiri, Bir Yaşına Kadar Çocuk ve Fiyatı,
+     Türkiye’de Frengi, Güneşin Hayat Veren Şuadı.” Tekir, “Sıhhiye ve Muavenet”, 1324. Tekir’in belirttiklerinden farklı olarak Aydoğan’ın belirlediği
+     afişler ise şunlardır: “Verem Nasıl Bulaşır, Veremin Dostları ve Düşmanları, Sıtma , Frengiye Yakalanmaktan Kork, İçkiye Alışmayınız, Süt:
+     “Gıdaların En sağlıklısı ve Değerlisidir, Köpek Hastalıkları İnsana Geçer, Karasinek Sağlık Düşmanıdır, Trahomdan Korunma, Çiçek Hastalığı ve
+     Çiçek Aşısı, Kuduzdan Kendimizi Nasıl Koruyacağız, Kuşpalazı, Lekeli Humma, Şarbon, Bulaşık Beyin Humması, Tahta Kurusu, Sivrisinek, Bağırsak
+     Kurtları ve Sağlığa Zararları, Bir Mektep Çocuğunun 24 Saatlik Programı, Bir Çürük Diş Neler Yapıyor, Çocuk Ölümü ve Anne Sütünün Kıymeti.”
+     Rafet Aydoğan, “1924-1945 Yılları Arası Halk Sağlığı Hizmetleri”, Marmara Üniversitesi (YL), 2002, 34-35.
+58   İlgili eserlerin sayfa numaraları ve künye bilgileri Milli Kütüphane üzerinde gerçekleştirilen incelemeler sonucunda belirlenmiştir.
+                                                                            7
+                                                      ÜMÜT AKAGÜNDÜZ
+
+
+
+
+           Resim 1: Sıhhat ve Muavenet-i İçtimaiye Vekâleti’nin Osmanlıca yayımladığı eserlerin kapaklarından örnekler
+
+Vekâletin 1926’da yayımladığı “Sıhhi Müze Atlası” adlı eser ise 68 sayfadır. Glein Schimidt’in “Çocuk Hastalıkları
+Tedavisi” adlı eseri ise 199 sayfa olacak şekilde İhsan Hilmi Alantar (1888-1959) tarafından çevrilmiştir. Hilal
+Matbaasında basılan eser 1926’da yayımlanmıştır. Naki Cevat Akerman’ın (1892-?) 1926’da çevirerek
+yayımladığı “Anofeller” adlı kitap ise Karl Grunberg’e (1878-1921) aittir. 197 sayfadan oluşan çalışma Hilal
+Matbaasında basılmıştır. Ali Vahid’in kaleme aldığı 15 sayfalık “Annelere Nasihat” adlı eser de 1926’da
+yayınlanmıştır. Vekâlet, 1926’da da salgın hastalıklar üzerine çalışmalar yayınlamaya devam etmiştir. 7 sayfadan
+oluşan “Kızıl Hastalığı Nedir? Bu Hastalıktan Nasıl Korunmalıdır?” adlı broşür bunlardan birisidir. Necati Kemal
+Kip’in İzmir Marifet Matbaasında basılan 64 sayfalık “Sağır, Dilsiz ve Körler Müessesesi” adlı eseri de 1926’da
+basılmıştır. Vekâlet külliyatına 1926’da İstanbul Hilal Matbaasında basılan 26 sayfalık “Sineklerle Mücadele” adlı
+çalışmayı da eklemiştir. Hikmet Hamdi’nin “Sıhhi Müze Rehberi” adlı eseri 32 sayfa olup 1928’de Vilayet
+Matbaasında basılmıştır. Harold Farnsworth Grey’in (1885-1963) “Sıhhat-i Umumiye İdaresi Esasatı” adlı eseri
+İstanbul Yeni Matbaada 1923’te basılmıştır. Eser 443 sayfadır.
+1927’de basılan “Kuşpalazı Hastalığı Nedir ve Hastalıktan Nasıl Korunmalıdır?” adlı eser ise 5 sayfadır. İhsan Arif
+Derman’ın kaleme aldığı “Emrâz-ı Bevliyede Usûl-i Muayene ve Teşhis” adlı eser 570 sayfadır. Victor Pauchet’nin
+(1869-1936) Ahmet Rıfat Bilge (1874-1953) tarafından çevrilen 239 sayfalık “Genç Kalınız” adlı eseri 1929’da
+İstanbul Hamit Matbaasında basılmıştır. Vekâletin aynı yıl, aynı matbaada bastırdığı bir diğer eser ise 16 sayfalık
+“Annelere Nasihat’tir”. Reşit Galib’in “Dört Azgın Canavar” adlı 51 sayfalık eseri 1929’da Ankara’da basılmıştır.
+1930’da Türk Ocakları Merkez Hayatı Matbaasında bastırılan “Kızıl Hastalığı ve Korunma Çareleri” adlı eser 4
+sayfadır. Sinekler üzerine bastırılan bir başka eser ise 1930 tarihli 6 sayfalık “Karasinek Sağlık Düşmanıdır” adlı
+broşürdür. 1931’de Yeni Gün Matbaasında “Zührevi Hastalıklar Müptelâlarına Nasihatler ve Tavsiyeler” adlı 4
+sayfalık eser basılmıştır. Aynı tarihte yayımlanan bir diğer eser ise Hakimiyet-i Milliye Matbaasında basılan 462
+sayfalık “Ebe Kitabı’dır”.
+1933’te 11 sayfalık “Muayene ve Tedavi Evleri Talimatnamesi” çıkartılmıştır. 26 sayfalık “Seyyar Tabiblerin
+Vazifeleri Hakkında Talimatname”, 19 sayfalık “Verem Mücadele Dispanserleri Talimatnamesi”, 116 sayfalık
+“Sıhhi Teşkilat ve Müessesler” 1934’te yayımlanan eserlerdir. “Hava Harbinden Korunmada Yurt Sıhhat İşleri
+Talimatı” adlı 30 sayfalık eser ise 1935’te Başvekâlet Matbaasında basılmıştır. 1936’da ise 17 sayfalık
+“Vilayetlerde Açılacak Hava ve Zehirli Gazdan Korunma Kursları Hakkında Talimatname” yayımlanmıştır.
+Vekâletin yayıncılık anlamında 1923-1940 yılları arasında en yoğun olduğu dönem ise 1937-1940 arasıdır.
+1937’de 10 sayfalık “Kızamık Hastalığı”, 7 sayfalık “Karamhumma-Tifo”, 11 sayfalık “Diş Sağlığı, Diş Temizliği”
+adlı eserle 4 sayfalık “Köy Sağlık Korucuları Talimatı” çıkartılmıştır. 1938’de basım faaliyetleri daha da
+yoğunlaştı. Sever Kâmil Tokgöz’ün (1881-1943) 216 sayfalık “Okul Sağlık Bilgisi” adlı eseri Hapishane
+Matbaasında basıldı. Kudsi Halkacı’nın 65 sayfalık “Çocuk Bakımı ve Halk Sağlığı Bilgileri” adlı çalışması da aynı
+
+                                                               8
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+matbaada çıkartıldı. 51 sayfalık 1938 tarihli “Annelere Öğüt” adlı çalışma ise Selen Matbaasında basıldı. İzmir
+İtimat Matbaasında basılan “Sağır Dilsiz ve Körler Müessesi” adlı 62 sayfalık eser de 1938’de yayımlandı. Bu yılda
+Vekâlet talimatnameler yayımlamaya devam etti. 29 sayfalık “Hava Harbinden Korunmada Yurt Sıhhat İşleri
+Talimatnamesi” ile 7 sayfalık “Köy Ebelerinin Vazifeleri ve Sureti İstihdamları Hakkında Talimatname” bu yıl
+yayımlanan talimatnamelerdir. 1938 yılı broşürler açısında da yoğun bir yıl oldu. 5 sayfalık “Bit”, 13 sayfalık
+“Verem-Tüberküloz”, 5 sayfalık “Lekeli Humma”, 6 sayfalık “Çocuk İshali” bu yılın broşürleridir. Vekâletin artan
+yayın hızı 1939’da da sürmüştür. 1939’da Recep Ulusoy Matbaasında 107 sayfalık 1926 “Beynelmilel Paris Sıhhî
+Mukavelenamesi” adlı eser basılmıştır. Ulusal Matbaada bu yıl basılan “Spor Hıfzıssıhhası” adlı eserin yazarı
+Friedrich H. Lorentz (1803-1861), çevirmeni ise Niyazi Erzin’dir. Eser 248 sayfadır. 1939’da da talimatnameler
+yayımlanmıştır. Bu çerçevede 8 sayfalık “Sütler Hakkında Talimatname” ile 22 sayfalık “Frengi Mücadele
+Teşkilatının Vazifelerini Gösterir Talimatname” bu yılın talimatnameleridir. 6 Sayfalık “Grip”, 10 sayfalık “Sıtma”,
+11 Sayfalık “Barsak Kurtları”, 20 Sayfalık “Karakabarcık (Şarbon)”, 5 sayfalık “Çiçek Hastalığı ve Çiçek Aşısı”
+Vekâletin bu yıl yayımladığı broşürlerdendir.
+
+
+
+
+                                         Resim 2: Sıhhi Müze Atlası adlı eserden görseller (15,19,46)
+
+Sıhhat ve İçtimai Muavenet Vekâletinin Yayımladığı Eserlerde Sağlık Bilgisi ve Halk
+Vekâletin Eserlerinde Hastalıkların Nedenleri
+Cumhuriyet’in ilk yıllarında Vekâletin yayımladığı kitaplar ve broşürler koruyucu sağlık bilgisinin anlaşılır bir
+dille halka ulaştırabilme çabasını somutlaştırmaktadır. Eserlerin analizinden elde edilen veriler bilginin çok
+yönlü örnekler ve yöntemlerle aktarılmaya çalıştığını göstermektedir. Bu çerçevede sağlık bilgisi algısının
+kurgulanış şekillerini ortaya çıkartmaya çalışan bu makalede kullanılan kitap ve broşürler tematik bağlamlarda
+ele alınmıştır. “Annelere Öğüt” adlı eserde hastalıklar üç kategori de toplanmıştır. Bunlardan ilki deriden geçen
+frengi, sıtma, şarbon gibi hastalıklarken ikincisi kızıl, kızamık, beyin zarı humması, satlıcan, kabakulak, çiçek,
+kuşpalazı gibi havadan geçenlerdir. Üçüncü kategori ise tifo ve kanlı ishal gibi sindirim sistemi hastalıklarıdır.
+Özellikle bebekleri ve çocukları etkileyen hastalıklar ciddi nüfus kayıplarına neden olduklarından bu hastalıklar
+hakkında temel bilgilere sahip olunmalıydı.59 Vekâletin yayımladığı kitap ve broşürler incelendiğinde nedenlere,
+uyarılara ve önlemlere odaklanıldığı görülmekte. 1920’li yılların en çok baş ağrıtan hastalıklarından olan kızıl
+özellikle 2-10 yaş arası çocuklarda etkilidir. Kızıl mikrobu ya doğrudan doğruya hastanın aksırmasında,
+öksürmesinden ya da hastalığa bağışıklık kazanıp mikropları üzerlerinde taşıyanlardan alınmaktadır. Kızıl
+
+59   Annelere Öğüt, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1938, 37-42.
+                                                                         9
+                                                                 ÜMÜT AKAGÜNDÜZ
+
+
+mikrobu alındıktan 2-6 gün içinde boğaz ağrısı, ateş, nezle ve kusma şeklinde ortaya çıkar. Hastalığın
+başlangıcından 24 saat sonra burun, çene ve dudakların etrafı haricinde kırmızı lekeler vücuda yayılırken vücut
+kırmızı bir boya sürülmüş görünümüne kavuşur. 6 ya da 7. gün ter ile ateş düştükten sonra 1-5 haftalık derinin
+soyulma süreci başlar. Hastaların bazılarında kızıl lekeler çıkmadığından basit boğaz ağrısı, ateş durumlarında
+kızıl riski mutlaka dikkate alınmalıdır.60
+Hazırlanan eserlerden bir diğeri de bitler üzerinedir. Baş biti ve ten biti olmak üzere iki tür bit vardır. Sıcak,
+yünlü, pamuklu yerleri seven bitler sirkeleyerek ürediklerinden kuluçka devrelerinde koltuk altı ve saçlara
+yerleşirler. “Kitin” denilen oldukça güçlü bir tabakaya sahip olan sirkelerin yok edilmesi zaman ve emek
+istemektedir. Eserde bu tabaka şu şekilde anlatılmış: “Bit yumurtalarının etrafında (Kitin) denilen bir tabaka
+vardır. Bu tabaka gayet dayanıklı olup su, sabun ve soğuktan müteessir olmaz. Bit sirkeleri işte bu tabaka
+vasıtasıyla kıllara ve çamaşırlara ve iç çamaşırlara yapışırlar. Bit sirkeleri olur olmaz şeylerden müteessir
+olmazlar.”61 Bit adlı broşüre göre bitle mücadelede turşu sirkesine ya da gaz yağına eklenen “aksülümen”
+kullanılabilir. 62 Kuluçka devri 8-10 gün olan çiçek hastalığında nezle, titreme ve kusma belirtilerinden üç gün
+sonra kırmızı lekeler görülmeye başlar. Ağır bir çiçek hastasının vücudunda 40.000’e yakın leke çıkabilir. Ölüm
+tehlikesi çok yüksek olan bu hastalıkta sağ kalanlar zatürre, körlük, kulak iltihabı, sağırlık ve kalp-böbrek
+hastalıklarına yakalanabilirler.63 Çocuk ölümlerinin en yaygın nedeni olan ishalde dışkının rengi değişir, kıvamı
+sulanır. Özellikle yeşilimtırak sümük ve kan ile karışan ishal hastalığın ciddi boyutlara ulaştığının habercisidir.
+“Çocuk İshali” adlı esere göre yazın çocuklara hazmedemeyecekleri miktarda süt ve mama verilmesi mide ve
+bağırsaklarda ekşiyen mikropların bağırsak zarını tahriş etmesine neden olur. Bunun yanında üşüten, nezle olan
+çocuk iyi bakılmazsa sümüğünü yutarken mikropları mide ve bağırsaklarına taşıyabilir. Ayrıca sürekli elleri yerde
+olan, emekleyen bebekler pek çok zararlı bakteri ve mikrobu vücutlarına taşırlar. Bu nedenlerle mikrop ve
+bakterilere yakalanan bebeğin cildinin rutubeti ile idrara çıkışı azalırken ishalin artan şiddetiyle birlikte vücudu
+buruşuk, kuru bir hal alır.64
+Kara Kabarcık hastalığına şarbon ya da dalak hastalığı da denmiştir. Hayvanlardan özellikle de koyun ve
+keçilerden insanlara geçen bu hastalık genellikle hayvanların et, deri, bağırsak, kıl, yün, kemik ve boynuzlarıyla
+iç içe olanlarda görülür. Sıcak ve soğuktan etkilenmeyen şarbon mikrobu senelerce ahırlarda, meralarda ve
+toprakta yaşayabildiğinden her an insanı etkileyebilir. Ayrıca şarbondan ölmüş hayvanlara konan
+karasineklerden ya da tozlu mekanlardan da hastalık geçebilir. Hasta hayvanlarla temastan 2-7 gün sonra
+hastalık iştahsızlık, kırıklık ve ateş şeklinde görülürken mikrobun giriş yaptığı yerde gittikçe şişen, ağrılı bir
+karakabarcık oluşur.65 Vekâletin yayımladığı bir diğer eser ise kızamık hakkındadır. Özellikle kış ve ilkbahar
+mevsimlerinde salgına dönüşen kızamık ilk aşamalarda bulaşıcıdır. Hastalık öksürme ve hapşırma sonrasında
+etrafa yayılan mikroplar ya da hastanın mendil, yatak takımı, oyuncak ve kitaplarının kullanılmasıyla bulaşabilir.
+Broşürde bakteriyel karakteri hâlâ tanımlanmamış olan kızamığın mikrobunun dışarıda uzun süre
+yaşayamadığının tespit edildiği de eklenmiştir. “Başlangıç evresi”, “leke evresi” ve “kavlama evresi” olmak üzere
+üç aşamaya sahip olan kızamığın başlangıç evresi 3-4 gün sürer. 4 ya da 5. gün leke evresi başlar ve 24 saat içinde
+mercimek boyutunda lekeler vücuda yayılır. Lekelerin çıkmasından 1-2 gün sonra ateş düşer ve kavlama evresine
+geçilir. Bu evrede lekeler solarken deri pul pul dökülür. Kızamığın bu evrelerine zamanında müdahaleler
+yapılmaması zatürre benzeri hastalıklar nedeniyle çocuğun kaybına yol açabilir.66
+Karasineklerle anılan Karahumma (Tifo) pis yiyecekler ve kirli içme suları aracılığıyla bulaşan bakteriyel bir
+hastalıktır. Tifolu hastaların idrarları ile gaitaları bakterinin temel kaynakları olduğundan karasinekler hastalığın
+yayılımını kolaylaştırır. Çiğ yenilen sebze, meyveler, kaynatılmadan içilen sütler ile lağım suyu dökülen yerler
+hastalığın bulaşıklığını arttırır.67 9-12 günlük kuluçka evresinden sonra ortaya çıkan iştahsızlık, uykusuzluk ve
+ağrıları sürekli yükselen ateş takip eder. Hastalığın en tehlikeli aşaması olan üçüncü haftada bağırsak kanamaları,
+iltihapları görülür. Üçüncü haftayı atlatan hastalar aşama aşama düzelmeye başlar. Konu hakkında şunlar
+aktarılmıştır: “Üçüncü hafta hastalığın en tehlikeli zamanıdır. Bir yandan ateş, zaiflik, dermansızlık devam
+
+60   Kızıl Hastalığı ve Korunma Çareleri, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1930, 1-3.
+61   Bit, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1938, 2-3.
+62   Bit, 3.
+63   Çiçek Hastalığı, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti,1938, 2-3.
+64   Çocuk İshali, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1938, 3-4.
+65   Kara Kabarcık (Şarbon), Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1939, 2-3.
+66   Kızamık, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1937, 2-5.
+67   Karahumma-Tifo, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1937, 2-3.
+                                                                          10
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+ederken bir yandan da barsak kanaması, barsak delinmesi gibi birtakım ihtilatlar meydana gelebilir. Üçüncü
+haftayı ihtilatsız atlatan hastalar dördüncü haftada nekahet devrine girer. Ateş yavaş yavaş düşer, iştah gelmeğe
+başlar, gün geçtikçe kuvvet kazanarak eski halini bulur.”68 Vekâletin bilgilendirmesini yaptığı bir başka önemli
+hastalık ise kuşpalazı yani difteridir. 2-5 gün içinde belirtileri görülen difteri mikrobu boğaza yerleştikten sonra
+toksinlerini kana karıştırmaya başlar. Bademciklere yerleşen difteri ilerleyen sürede yutkunma güçlükleri,
+kuruluk ve fena ağız kokusu halinde belirginleşir. Bu noktada difteriye yakalanan zayıf bünyeler ya toksinin kana
+karışmasından ya da nefes güçlüğünden ölebilirler.69
+
+
+
+
+                   Resim 3: Sıhhat ve Muavenet-i İçtimaiye Vekâletinin Osmanlıca yayımladığı eserlerin kapaklarından örnekler.
+
+Lekeli humma bitler aracılığıyla diğer insanlara geçen 12-14 günlük kuluçka evresine sahip bir hastalıktır.
+Hastalığın %25-30 arası öldürücülüğü vardır. Kuluçka evresi bittikten hemen sonra bel, baş ağrıları, ağız
+kuruluğu ile hastalık kendisini gösterir. Bir hafta sonra mercimek şeklinde lekeler vücudu kaplarken zayıf
+bünyeler yerle bir olur. Lekeli humma kalp, böbrek hastalıkları ile damar hastalıklarına yol açabilir, hatta damar
+tıkanıklığı nedeniyle kol ve bacakların kesilmesi gerekebilir.70 Göz kapaklarının içini döşeyen zarın koyu kırmızı
+bir hal almasıyla başlayan trahom göz kayıplarına neden olan bulaşıcı bir hastalıktır. Başlangıçta herhangi bir
+ağrı ya da sızı yapmayan hastalık sinsice ilerler. Bir süre sonra şişen, sulanan, çapaklanan göz kapaklarında
+batmalar, yanmalar başlar. Erken zamanda müdahale edilmezse bu yaralar büyüyerek gözü delip körlüğe neden
+olur. Trahomlu hastaların mendillerini, yataklarını, yastıklarını, havlulularını kullanmak, uygun olmayan
+ortamlarda göze sürmeler çekmek ve karasinekler hastalığın başlıca yayılma nedenleridir.71 Vekâlet diş sağlığını
+da önemsemiştir. Eserde dişlerin hangi yaşlar arasında hangi sırayla çıkacakları anlatılmıştır. Bu noktada dişte
+bulunan mikrop ve bakteriler diş kayıplarının temel nedenidir. Dişlerin arasına girmiş gıda parçalarıyla
+beslenerek dişetleri ve dişleri tahrip eden bakteriler yumuşak tabakaların açığa çıkmasına neden olur. Zamanla
+köke ilerleyen bu çürükler apse denilen diş iltihabına neden olur ki bu apselerin tedavi edilmemesi beyni, kalbi,
+böbreği etkileyen hastalıklara yol açabilir.72 Diş ağrısı hususunda şunlara değinilmiştir: “Bir dişin lekelenmesi ve
+çürümeğe başlaması onun hastalığı ve belki de ölümü demektir. Böyle bir diş hemen tedavi edilmezse zamanla
+parçalanıp, kırılıp dökülecektir. Köküne kadar çürüyen ve iltihaplanan bir dişin ağrısına dayanılmaz. Bir
+çoklarımız diş tabibinin muayenesine gitmeğe mecbur eden işte bu şiddetli ağrıdır.”73 Bu noktada gebelik
+sürecindeki yanlış beslenme, süt çocuğunun beslenmesindeki hatalar, diş muayenesinden korkulması, diş
+
+68   Karahumma-Tifo, 4.
+69   Kuşpalazı (Difteri), Ankara: Sıhhat ve Muavenet-i İçtimaiye Vekâleti,1938, 1-3.
+70   Lekeli Humma, Ankara: Sıhhat ve Muavenet-i İçtimaiye Vekâleti,1938, 1-4.
+71   Gözleri Kör Eden Trahom Hastalığı Hakkında Halka Nasihatler, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1933, 1-5.
+72   Diş Sağlığı Diş Temizliği, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti,1938, 6-8.
+73   Diş Sağlığı Diş Temizliği, 6.
+                                                                        11
+                                                                 ÜMÜT AKAGÜNDÜZ
+
+
+temizleyen ekipmanların yetersizliği ile küçük yaşlardan itibaren çocuğun diş temizliğine alıştırılmaması ileriki
+yıllardaki diş kayıplarının temel nedenleridir.74
+
+
+
+
+                          Resim 4: Sıhhat ve İçtimai Muavenet Vekâletinin yayımladığı broşürlerin kapaklarından örnekler.
+
+Vekâletin Eserlerinde Uyarılar, Önlemler
+Eserlerde belirtiler, nedenler bu düzlemlerde anlatılırken uyarılar ve öneriler de tedaviler bağlamında anlaşılır
+bir dille aktarılmıştır. Elbette ki koruyucu sağlık bilgisi hakkında verilen öneri ve uyarıların hepsini makalenin
+içeriğine aktarabilmek olası değildir. Ancak kitap ve broşürlerin işleyişini anlamlandırabilmek için belirgin
+örnekler vermek yararlı olacaktır. “Annelere Öğüt” adlı eserde yapılan uyarılardan birisi kundak üzerinedir.
+Bebeği tam kundaklayanların olduğunu belirten eser, kan akışı ile nefes alışverişini bozan tam kundaklama
+yerine yarım, gevşek kundaklamayı önermiştir.75 Bir başka eserde ise kan dolaşımına verdiği zararlar nedeniyle
+yüksek ökçe konusunda anneler uyarılmıştır: “Moda bize yüksek ökçeler getirdi fakat güzellik için kullandığımız
+bu yaka kaplarının sıhhatimize ne kadar zarar verdiğini bilseler bayanlar bunları kullanmazlar. Yüksek ökçe
+kullananlarda kan dolaşması düzgün olmaz, karında bulunan siyah kan damarlarında kan toplanır ve karaciğer
+hastalığı gibi birtakım hastalıklar baş gösterir.”76 “Annelere Öğüt” adlı eserde ise dişleri geç çıkan çocuklarda
+kemik hastalıkları olma ihtimali yüksek olduğundan bu çocukların takip edilmesi istenmiştir. Bebeklerin dişlerini
+yanlış zamanda temizleyen anneler de uyarılmıştır. Eserin aktardığına göre memeden sonra çocukların ağzının
+sabunlu ya da karbonatlı suya batırılmış bezle temizlenmesi tehlikelidir.77 Çocuk ishali üzerine de önemli uyarı
+ve öneriler vardır. İnek sütünün çok yağlı olmamasına dikkat edilmeli, mama her zaman temiz şişe ile verilmeli,
+yazın haddinden fazla elbise giydirilmemeli, ishal olan çocuğa kaynamış az şekerli sudan kaşık kaşık
+içirilmeliydi.78 Tifo anlatılırken ise midyeler üzerinde durulmuştur. Lağım suyu dökülen yerlerde tifo mikrobu
+olma ihtimali bulunduğundan midye yerken dikkatli olunmalıdır.79 Kızamık için de uyarılar verilmiştir. Kızamıklı
+
+74   Diş Sağlığı Diş Temizliği, 8.
+75   Anneler Öğüt, 23.
+76   Kudsi Halkacı, Çocuk Bakımı ve Halk Sağlığı Bilgileri, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1938, 58-89.
+77   Annelere Öğüt, 25-26.
+78   Çocuk İshali, 6-5.
+79   Karahumma-Tifo, 3.
+                                                                          12
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+çocuklarına bilgisizlik nedeniyle baharatlı, yağlı yemekler, turşular ve meyveler yediren anneler bağırsakları
+bozulan çocuklarının ishalden ölmelerine neden olabilirlerdi. Diğer yandan kızamık ile kızılın birbirlerine
+karıştırılmamaları da hatırlatılmıştır. Buna göre kızamıkta lekeler kızıldaki kadar yaygın değilken kızılda ise
+lekeler birbirleriyle birleşerek deriye kırmızı bir renk verir.80 Lekeli humma noktasında verilen temel uyarılar
+ise bitler hakkındadır: “Bitten korununuz, bitten kaçınınız, bitten temizleniniz, bitlileri temizleyiniz. Bu tehlikeli
+hastalık insanlara yalnız bitten geçer. Topal bir bit yedi mahalleyi dolaşabilir. Bit olmazsa lekeli hummada
+olmaz.”81 Vekâletin bit üzerine yayımladığı broşürde ise lekeli humma hakkında uyarılar yapılmıştır.
+“Lekelihumma ve Hummayi racia hastalıklarını insanlara geçiren ve sağlık düşmanı olan bitten sakınınız ve
+temizleniniz.”82 “Annelere Öğüt” adlı eserde ise göbek iyice kuruyana kadar çocukların yıkanmaması istenmiştir.
+Hastalıklardan kurtulamayan “lapacı çocukların” yetişmesi istenmiyorsa bebek altı aylık olana kadar her gün altı
+aylık olduktan sonra ise 2-3 günde bir mutlaka yıkanmalıydı.83 Eserde köpek, kedi ve 3-4 yaş çocukların bebekler
+üzerindeki riskleri de anlatılmıştır. Köpek ve kediler bebeklere saldırabildikleri gibi daha akılları ermeyen 3-4
+yaşındaki kardeşler bebeklerin ağzına para, boncuk, fasulye tanesi verebilirlerdi. Bu nedenle bebekler her an
+gözetlenmeliydiler.84 Güneşin bebekler üzerindeki etkileri de irdelenmiştir. Güneş görmeyen çocukların kolları
+ve bacaklarında çarpıklık olur, bıngıldakları geç kapanır, başları büyük, renkleri soluk hâl alır. Bu nedenler yaz,
+kış çocuklar güneşin etkilerinden yararlandırılmalıdır. Diğer yandan kışın camdan alınan güneş ışığı işe
+yaramadığından çocuklara balık yağı verilmeliydi.85
+Trahom üzerine de önemli uyarı ve öneriler vardır. Gözleri hasta olan anne ve babalar yeni doğan yavrularının
+gözlerini kendi mendilleriyle silmemeli, trahom tehlikesinin olduğu mekanlardan çıktıktan sonra eller sabunlu
+su ile yıkanmalı, evlere alınan hizmetçiler ve süt nineler mutlaka trahoma karşı kontrol ettirilmeliydi. 86 1926
+tarihli “Trahom Hakkında Halka Nesayih” adlı kitapta ise öneriler ve uyarılar genel ve bireysel olmak üzere iki
+başlıkta toplanmıştır. Örneğin trahomlu olmayıp trahomlu memleketlerden dönenler trahoma yakalanma ya da
+trahomu başkalarına bulaşma ve bulaştırma olasılığına karşı göz kadehiyle gözlerini sık sık temizlemeliydiler.
+Genel tedbirler bağlamında ise şehirleri tozdan kurtarmak için asfalt yollar, taş kaldırımlar yapmak sokakları sık
+sık yıkamak, dükkanlara tenteler yaptırmak gibi öneriler getirilmiştir.87 “Kızıl Hastalığı ve Korunma Çareleri”
+adlı eserde de yer yer uyarılar ve öneriler verilmiştir. Buna göre kızıl hastalığına yakalanan çocukların evlerine
+kimse misafir olarak gitmemeli. Anne, baba ya da hastaya bakan kişiler ise hastanın yanında çıktıktan sonra
+çıkartabilecekleri gömlek ya da benzeri giysiler giymeliydiler.88 Diş sağlığı ve temizliği hakkında da uyarılar ve
+öneriler verilmiştir. Örneğin Vekâletin eserinde diş temizliğinde diş macunu ya da diş tozunun değil 2-3 ayda bir
+değiştirilmesi gereken diş fırçasının belirleyici olduğu aktarılmıştır. Ayrıca üzerine akşamdan konulan tuzlarla
+diş fırçasına tuz banyosu yaptırılması da önerilmiştir. Eserin son sayfasında şu toparlayıcı hatırlatmalar da
+yapılmıştır: “Çocuklarınıza diş yapan gıdalar veriniz, dişi koruyan gıdalar veriniz, dili temizleyen, diş ve çene
+etlerini çalıştıran gıdalar veriniz, dişlerin nasıl temizleneceğini öğretiniz, vücudun genel sağlığına bakınız, ara
+sıra dişlerini muayene ederek herhangi bir diş rahatsızlığında diş tabibine götürünüz. Her altı ayda bir çocukların
+dişleri, diş tabibi tarafından görülmelidir.”89 1926 tarihli “Annelere Nasihat” adlı eserde ise çocuk hastalıkları söz
+konusu olduğunda ailelerin ilk olarak diş çıkmasını akıllarına getirmeleri eleştirilmiştir. Şöyle ki çocuk ishali gibi
+kritik ateşli hastalıkların diş çıkartmaya bağlanarak önemsenmemesi çocuğun ölümüyle sonuçlanabilirdi.90
+Karakabarcık hastalığında ise şarbon mikronun bulaşma şekilleri hakkında uyarılar verilmiştir. Hayvancılıkla
+uğraşanlar ellerinde sıyrık, yara varsa mutlaka lastik eldiven takmalıydılar. Diğer yandan elde sıyrık ya da yara
+olmasa da mikroplar toz, toprakla nefes borusuna giriş yapabileceklerinden bu tür işlerle uğraşanlar maske
+taksalar da ellerini sabunlayana kadar yüzlerine götürmemeliydiler.91 Yoğun öneriler ve uyarılar verilen
+eserlerden bir tanesi de “Sineklerle Mücadele” adlı çalışmadır. İlgili çalışmada sineklerle mücadele de
+
+
+80   Kızamık, 6-9.
+81   Lekeli Humma, 1-6.
+82   Bit, 5.
+83   Annelere Öğüt, 29-30.
+84   Annelere Öğüt, 32-33.
+85   Annelere Öğüt, 37.
+86   Gözleri Kör Eden Trahom Hastalığı Hakkında Halka Nasihatler, 5-6.
+87   Trahom Hakkında Halka Nesayih, Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1924, 12-13.
+88   Kızıl Hastalığı ve Korunma Çareleri, 3.
+89   Diş Sağlığı, Diş Temizliği, 11-13.
+90   Annelere Nasihat, Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1926, 15.
+91   Karakabarcık, 4.
+                                                                       13
+                                                                ÜMÜT AKAGÜNDÜZ
+
+
+kullanılabilecek bitkiler önerilmiştir. Kokulu sarı yonca, ardıç tohumu, ceviz yağı, tütün yaprağı, sarı sabır,
+lavanta, soğan, kabak yaprakları, kireç, balık yağı, naftalin, biber, sirke, katran gibi maddeler sineklerin ortamdan
+uzaklaştırılmasını sağlarlar. Örneğin bazı hayvan sahipleri defne yapraklarından hazırladıkları yağlara müracaat
+ederler. Uçucu kokusuyla sinekleri uzaklaştıran bu yağ hayvanların derilerine sürülerek küçük cam kaplarda evin
+her tarafına dağıtılabilirdi.92
+
+
+
+
+                                     Resim5: Sineklerle Mücadele adlı eserden sinekleri uzaklaştıran bitkiler (15)
+
+Aşılama ve Mektepler
+Eserlerde yer yer değinilen hususlardan birisi de aşılamadır. Yazılan kitap ve broşürlerde aşılamanın gerekliliği
+ile ücretsiz gerçekleştirildiği yer yer hatırlatılmıştır. “Çiçek Hastalığı ve Çiçek Aşısı” adlı broşürde kanunlar gereği
+başta yeni doğan çocuklar olmak üzere herkesin çiçek aşısı yaptırması gerektiği aktarılmıştır. Ayrıca çiçek
+hastalığı salgın boyutlarına ulaştığında yeniden aşılanmanın yararları da irdelenmiştir. İlk defada tutmayan aşı
+bir ay sonra tekrar yaptırılmalıydı. Aşının tutup tutmadığı üç gün içinde aşının etrafında kırmızılık, 10 gün sonra
+ise bir çıban oluşmasıyla anlaşılırdı.93 Şarbon adlı çalışmada ise bu hastalıktan korunmanın öncelikle hayvanları
+aşılatmaktan geçtiği belirtilmiştir. Hastalığa yakalananlar ise serum tedavisi için derhal ilgili yerlere
+başvurmalıydılar.94 Tifo salgınında aşılamanın önemi ise şu şekilde yansıtılmıştır: “Tifonun en iyi sağlam
+korunma çaresi Aşıdır. Tifo salgını olan bir yerde bulunuyorsanız yahut konu komşunuzda tifo varsa hemen
+kendisini aşılatınız. Bilhassa hasta evinde olanlar aşıyı katiyen ihmal etmemelidir. Tifo aşısı için para alınmaz.
+Hükümet doktoruna kim giderse kendini bedava aşılatabilir. Sakın aşılandık diye yukarda saydığımız korunma
+çarelerini bir yana atmayınız.”95 “Kızamık” broşüründe ise ne tür bir aşılama yapılabileceği örneklenmiştir.
+Kızamık geçirenlerin kanlarında bulunan antikorlar çocuklara şırınga edildiğinde hastalıktan korunma sağlanır.
+3-4 hafta kızamığa karşı koruyan bu yöntemde dikkat edilmesi gereken nokta kanı alınan kişide verem, frengi,
+sıtma gibi hastalıkların bulunmamasıdır.96 “Kızıl” adlı broşürde ise vatandaşlardan kızıl aşısından korkmamaları
+
+
+92   Sineklerle Mücadele, Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1926, 12.
+93   Çiçek Hastalığı Çiçek Aşısı, 4-5.
+94   Karakabarcık, 4.
+95   Karahumma, 7.
+96   Kızamık, 10.
+                                                                         14
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+istenmiştir. Hiçbir tehlike ve zararı olmayan bu aşı kızıl tehlikesi durumunda yaptırılmalıdır.97 Kuşpalazından
+korunmak istenen çocuklar da aşılanmalıydı. 6 aylık-5 yaş arası çocuklarda %60 oranında 5-10 yaş arası
+çocuklarda ise %35 oranında difteriye yakalanma olasılığı bulunduğundan ebeveynler ilk yaşlarından itibaren
+çocuklarına bu aşıyı yaptırmalıdırlar.98 “Lekeli Humma” adlı eserde ise hastalığa karşı bir aşı bulunmadığından
+hastaların ancak hastanede tedavi edilebilecekleri ifade edilmiştir.99
+Broşür ve kitaplarda özellikle salgın hastalıklar bağlamında okullar da yer yer konu edilmiştir. Örneğin okullara
+kayıtta kanunlar gereğince çiçek aşısı vesikasının gösterilmesi mecburiydi.100 Yine broşürlerden devletin
+trahomlu çocukların okullarıyla sağlam çocukların okullarını birbirlerinden ayırmaya çalıştığı da anlaşılmakta.
+“Buna çocuk babaları da yardım etmeli ve hem çocuklarını sağlam ise trahomlu mektebe göndermemeğe
+trahomlu ise başka günahsız yavruları bulaştırmamak için trahomlu mektebinde okumasına dikkat etmelidir”. 101
+1926 tarihinde trahom üzerine yazılan eserde ise istatistiki ve tarihi bilgilerle mektep uygulamaları anlatılmıştır.
+Eserde çocuklar arasında trahom hızla yayılabileceğinden İtalya ve Fransa’da trahom okullarının açıldığının
+bilgisi verilmekte. Örneğin Floransa’da açılan trahom mektepleri sayesinde 1907-1924 arasında trahom vaka
+oranı %3,19’dan %0,64’e düşmüştür.102 1926‘da kızıl hastalığı üzerine yayımlanan kitapta da okulların durumu
+konu edilmiştir. Buna göre devamsızlık yapan çocukları izleyen öğretmen ve idareciler, kızıla yakalanan
+çocukların kardeşlerinin de 6 gün tecrit altında kalmalarını sağlamalıydılar.103 Mahallelerde, köylerde kızamık
+hastalığı görüldüğünde de yatılı okullar başta olmak üzere bütün okullarda hızla önlemler alınmalıydı. Ateşlenen
+öğrenci ateş düştükten sonra 15 gün okula gönderilmemeli, kızamık durumunda ise hastalık tamamen geçene
+kadar okuldan uzak tutulmalıydı. Diğer yandan kızamıklı öğrencinin kardeşlerinin de 15 gün boyunca okulla
+gönderilmemeleri şu eklemelerle hatırlatılmıştır: “Kızamık zamanında mekteplerde çok dikkat edilmelidir.
+Mektebe devam etmeyen talebenin hasta olup olmadığı, hasta ise kızamık olup olmadığı araştırılmalıdır. Kızamık
+zamanlarından yatılı mekteplerinin tatili faideli bir netice vermez. Büyük salgın zamanlarında yatılı mektepleri
+hariç olmak üzere diğer mekteplerin bir müddet tatil olunması faideli olur.”104 Kuşpalazı hastası olan çocukların
+da nekahet devresinde okul ve mahalle arkadaşlarına karıştırılmamaları önerilmiştir.105
+Nüfus Politikası, Anne ve Çocuk
+1911-1923 yılları arasına yayılan uzun soluklu savaşların yarattığı sosyo-ekonomik ve psikolojik travmalar
+sağlıklı bireylerin yetiştirilmesini destekleyen kapsayıcı nüfus politikalarını zaruri kılmıştır. Fiziki ve psikolojik
+sınırlara odaklanan bu politikalar doğru, bilimsel bilgiyle salgın hastalıklar ve çocuk kayıplarının önlenebilmesini
+amaçlamıştır. Bu nedenle kitap ve broşürlerde nüfus artışı sağlıklı bireylerle bütünleştirilmiştir. 1926 tarihli
+“Annelere Nasihat” adlı eserdeki istatistiki veriler bu noktada ilgi çekicidir. 1924 istatistiklerine göre bu yıl ölen
+101.871 kişinin dörtte biri yani 25.809 tanesi 5 ya da 6 yaşına varamadan ölen çocuklardır. Çocuk ölümlerinin
+yarısından fazlası çocuk ishalinden kaynaklanırken geri kalanları ise kızamık, çiçek, kızıl gibi bulaşıcı hastalıklara
+dayanmıştır.106 1938 tarihli “Annelere Öğüt” adlı eserde de nüfus artışı ve ölümlerin azaltılmasına
+odaklanılmıştır. Daha fazla bakım ve doğum evlerinin açılması ya da doktorların bitmeyen çabalarıyla
+kayıplarının sonlandırılamayacağını belirten eser, başta anneler olmak üzere herkesteki cehaletin giderilmesine
+değinmiştir.107 Açıkçası nüfus politikalarının başarısının merkezinde anne ve çocuk vardır. Halkacı “Ben Bir
+Bebeğim” başlığı altında bir bebeğin ağzından sağlıklı birey hedefini şu şekilde anlatmıştır:
+        “Ben bebeğim, yurdumun en küçük insanıyım ve en ihtiyarı olacağım. Doğduğum zaman yurduna bir insan daha
+        ilave olundu ve giderken de yerimi benden sağlam olan, gürbüz bebeklere bırakacağım. Ödevim milyonlarca
+        kardeşlerimle beraber yurdumu bulduğumdan daha iyi mevkiye çıkarmak olacaktır. Fakat şimdi saf süte, taze
+        havaya, güneşe ve oyuna muhtacım. Biraz büyüyünce iyi bir okula gidersem hayata lazım olan dersleri
+        öğreneceğim. Yaşamak, gülmek, oynamak, sevmek, çalışmak isterim. İyi müzik dinlemek, iyi kitaplar okumak,
+
+
+97  Kızıl Hastalığı, 4.
+98  Kuşpalazı, 4.
+99 Lekeli Humma, 5.
+100 Çiçek Hastalığı, 4.
+101 Gözleri Kör Eden Trahom, 6.
+102 Trahom Hakkında Halka Nesayih, 12-13.
+103 Kızıl Hastalığı Nedir? Bu Hastalıktan Nasıl Korunulmalıdır, Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1926, 7.
+104 Kızamık, 9.
+105 Kuşpalazı, 5.
+106 Annelere Nasihat, 4.
+107 Annelere Öğüt, 1.
+
+                                                                         15
+                                                   ÜMÜT AKAGÜNDÜZ
+
+
+        güzel resimler görmek isterim. İyi evlere, caddeler, sömendöferler, şehirler yapmak isterim. Ormanlarda
+        gezmek, sularda yıkanmak, karda oynamak isterim. Dünün bebeği, bugünün çocuğu, yarının iyi adamıyım.
+        Şimdi beni büyütürseniz ilerde yurduma faydalı adam olur ve size yardım ederim. Ben bebeğim ve sizin
+        ümidinizim.” 108
+
+
+
+
+                                         Resim 6: Vekâletin Eserlerinden Çeşitli Görseller
+
+Kitap ve broşürlerdeki baba merkezli anlatımların sınırlılığı anne imgesinin nüfus politikaları üzerindeki etkisini
+de belirginleştirmekte. 109 Ana karnına düştüğü andan itibaren çocuğun sağlığından sorumlu olan annenin temel
+sağlık bilgisine sahip olmasının gerekliliği Vekâletin kitap, afiş ve broşürlerinde izlenebilmekte. Ancak sorun
+yalnızca akla ve mantığa dayalı bilginin yaygınlaştırılması ile değil geleneklerden, cehaletten ve batıl itikatlardan
+kaynaklanan yanlış bilgilerin sonlandırılabilmesiyle çözümlenebilir durumdadır. Bu nedenle kitap ve broşürlerle
+anne başta olmak üzere okuyucuların sadece akla-mantığa dayalı bilgiye ulaşmaları hedeflenmemiş bunların
+yanında akıldışı bilginin ortadan kaldırılması da arzulanmıştır. “Annelere Öğüt” adlı eserde ise eğitimsiz, cahil
+ebelerin elinde heder olan annelere doğumhanelere, eğitimli ebelere güvenmeleri önerilmiştir. Güç doğum
+yapacak kadınlarla kolay doğum yapacak kadınlar arasında ayrım yapan çalışma basit ama kritik bilgilerle anneyi
+aydınlatmakta.110 En basitinden anne ile annenin etrafındakiler lohusalık hummasının yaratabileceği tehlikeleri
+bilmelidirler. Örneğin doğum sonrasında 5-6 hafta akıntısı olan annenin iş yapması olabildiğince engellenmelidir.
+Çünkü iyi bakılmayan ve yardım edilmeyen anne bu akıntılarda bulunan mikropları iş yapacağım derken
+yavrularına bulaştırabilirdi.111
+Öte yandan çocuk ishalinin inek ve keçi sütünden kaynaklandığını bilmeyen anne yaz sıcağında bebeğinin
+ölmesine neden olabilirdi.112 Kirli ellerle sağılan sütler ile açıkta bekletilen sütlerin mikrop oluşturma olasılığı
+
+108 Halkacı, Çocuk Bakımı, 3-4.
+109 Halkacı, Çocuk Bakımı, 5.
+110 Annelere Öğüt, 8.
+111 Annelere Öğüt, 9.
+112 Çocuk İshali, 1.
+
+                                                            16
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+bulunduğundan anne, bebeği için en güvenilir sütün anne sütü olduğunu unutmamalıydı.113 Yani, annenin sağlıklı
+nüfus temini sırasındaki öncelikli görevi bebeğine doğumundan itibaren sütünü vermektir. Sağlıklı annenin
+bebeğini emzirmemesi kendi düşüncesizliğine haksız yere çocuğunu da dahil etmesi anlamına gelmektedir. Anne
+sütü ile beslenmeyen çocuklar anne sütü ile beslenenlere oranla 3-4 kat daha fazla hastalandıklarından anne
+sütünü düzenli şekilde bebeğine vermeliydi. Eğer annenin süt verme ile ilgili sıkıntıları varsa anne çocuğunu bir
+süt anneye teslim etmemeli, çocuğunu kendi gözetimi altında kurallarına uygun şekilde inek ya da keçi sütü ile
+beslenmeliydi.114 İşte tam bu noktada usulüne uygunluk çocuğu çocuk ishaline yani çocuk kolerasına
+yakalanmayacak şekilde besleyebilmektir. Halkacı çalışmasının 16-27 sayfa aralığında bebek ve çocukların hangi
+besinlerle beslenmeleri gerektiğini tarifleri ve uygulama sıralarıyla birlikte vermekte. Sebze suları, yumurtasız
+tapyoka, muhallebi, yumurtalı peksimet muhallebisi, ıspanak ezmesi, bebek çorbası, çocuk peyniri… gibi pek çok
+yemeğin tarifi eserde geçmektedir.115 “Çocuk ishali” adlı broşürde de bu görevin sorumluluğu nüfus artışının
+gerekliliği hatırlatılarak anneye verilmiştir. “Yarının büyüğü ve bugünün küçüklerini öldüren çok tehlikeli bir
+hastalık da çocuk ishalidir. Her ananın bu hastalıktan korunma çarelerini bilmesi ve yavrularımızın korunması
+ve ishal başlangıcında hemen iyi etmek için tedbirler alınması lazımdır. Bu suretle yavrularımızı korumuş ve
+nüfusumuz da artmış olur.”116 Bu noktada hem 1926 tarihli “Annelere Nasihat” adlı eserde hem de 1938 tarihli
+“Annelere Öğüt” adlı eserde anne sütünün nasıl verileceği, anne sütünün yokluğunda inek sütü ve mamaların
+verilmesinde hangi usullerin kullanılacağı uzunca anlatılmıştır.117 Öyle ki anne sütünün önemi farklı hastalık
+risklerinin bile önüne geçmiştir. “Annelere Öğüt” adlı eserde süt anneye başvurmaktansa doktor önerisi ve
+uyarıları dikkate alındıktan sonra frengili annelerin yavrularını emzirebilecekleri belirtilmiştir.118 Trahomlu
+anne ise çocuğuna kolaylıkla hastalık bulaştıracağından sütünü vermemeliydi.119
+Doğru Bilgiye Güvenmek
+Çocuğunun sağlam dişlere ve kemiklere sahip olmasını isteyen anneler hamilelik döneminde bol bol süt içmeli ve
+yeşil yapraklı sebzeler yemeliydi. Ancak dişler noktasında ilginç olan aktarımlardan bir tanesi halk arasında
+bütün dişleri dökülen ihtiyarların peynir dişleri denen üçüncü bir dişlenme sürecine gireceğinin inanılmasıdır.
+Vekâlet, 1938’de yayımladığı “Diş Sağlığı ve Diş Temizliği” adlı eserinde Cumhuriyet nesillerinin akla-mantığa
+uymayan bu kanaatlere geçit vermeyecekleri hatırlatmıştır.120 Yanlış bilgi ve uygulamaların düzeltildiği
+çalışmalardan birisi de “Karakabarcık (şarbon)” adlı eserdir. Eserde bilgisiz kişilerin karakabarcığı kızdırılmış
+demirle dağlamalarının riskleri anlatılmıştır. Buna göre dağlama sürecinde mikroplar kana karışıp ölüme yol
+açabilirdi. Yapılması gereken vakit geçirmeden bir hastanede serum tedavisine başlamaktı.121 Kudsi Halkacı ise
+aşılar hakkındaki yanlış kanaatlerden birisini düzeltmeye çalışmıştır. Çiçek aşısının doğumdan 4-5 ay sonra
+çocuklara yaptırılmasının zorunluluğunu hatırlatan yazar, bazı çevrelerde gelişen “aşıların mevsimi vardır”
+önyargısını eleştirmiştir. Aşının mevsiminin olmadığını aktaran yazar anne ve babalardan bu yanlış bilgiye riayet
+etmemelerini istemiştir.122 Hatta Halkacı, yanlış bilgide ısrar edenleri şu şekilde eleştirmiştir: “Vakitsiz ölümlere,
+daha ziyade çocuk ölümlerine, her türlü felaketlere sebep olan şarlatanların kökünü kazımak lazımdır.
+Şarlatanlar ve şarlatanlık varken birçok saf annelerin bunların tuzağına düşmeleri ve fikirlerinin çelinmesi
+tehlikesi her zaman vardır, saflıkla şarlatanlık ve saflarla şarlatanlar baş başa kaldıkları vakit daima şarlatanlık
+ve şarlatanlar üstün gelir. Anneler! Sıhhatinizi seviyor, çocuğunuzun yaşamasını ve yurdunuzun refah ve
+saadetini istiyorsanız şarlatanların sözlerine kulak tıkayınız. Şarlatanların değil hekim ve ziyaretçi hemşirelerin,
+diplomalı ebelerin sözlerine inanınız.”123
+
+
+
+
+113 Annelere Nasihat, 6.
+114 Annelere Öğüt, 50.
+115 Halkacı, Çocuk Bakımı, 19-27.
+116 Çocuk İshali, 6.
+117 Anneler Öğüt, 17.
+118 Annelere Öğüt, 14.
+119 Gözleri Kör Eden Trahom Hastalığı, 4.
+120 Diş Sağlığı Diş Temizliği, 4.
+121 Kara Kabarcık (Şarbon), 3.
+122 Halkacı, Çocuk Bakımı, 13.
+123 Halkacı, Çocuk Bakımı, 40.
+
+                                                         17
+                                                   ÜMÜT AKAGÜNDÜZ
+
+
+
+
+                                     Resim 7: Annelere Öğüt adlı eserden görseller (21,24,33)
+
+Öte yandan kızamık hastalığından kaynaklanan bir yanlış uygulama da giderilemeye çalışılmıştır. Bazı ailelerin
+çocuklarını bağışıklık kazanmaları için kızamıklı evlere götürmelerini eleştiren eser, bu yanlış uygulamanın
+çocukları ölüme terk etmekle eşdeğer olduğunu hatırlatmıştır. Hatta bazı büyüklerin ben kızamık geçirdim bana
+bir şey olmaz diyerek kızamıklı evlere gitmeleri de sakıncalıdır. Çünkü bu büyüklerin kızamıklı evlerden aldıkları
+mikropları eşyaları aracılığıyla hiç kızamık geçirmemiş çocuklara bulaştırabilme olasılığı vardı.124 Düzeltilmeye
+çalışılan bir diğer yanlış bilgi ise bitler hakkındadır. “Bit” adlı eserde bu durum şu şekilde aktarılmış: “Bit yiğitte
+bulunur, Bit tanrı misafiridir gibi mantıksız ata sözleri boş ve tamamen yanlıştır. Bunlar miskin, pis ve temizliği
+sevmiyen, ayıbını kapamak isteyenlerce uydurulmuş sözlerdir. Yoksa bitlenmek her vakit ayıp ve bir
+kusurdur.”125 Diğer yandan “Sineklerle Mücadele” adlı eserde de okuyuculara profesörlerin, öğretmenlerin
+söylediklerine inanmaları istenmiştir.126 Halkacı ise yayımladığı eserde ahlaki kaidelere dikkat çekmiştir. Halkacı
+ailelere cin masalları, peri masalları anlatarak çocuklarını korkuya, yalana alıştırmak yerine çocuklara
+kahramanlık, dürüstlük, yurtseverlik, yurttaşlık aşılayan hikayeler anlatmalarını önermiştir.127 Yani
+Cumhuriyet’in yeni aileleri Cumhuriyet’in yeni çocuklarını sağlıklı büyütebilmek için batıl itikatlara, hurafelere
+inanmayarak bilimin aydınlattığı yola güvenmeliydiler. Anne, sağlık çalışanlarının verdiği öğütlere inanmalı ayda
+bir defa çocuklarının sağlığını kontrol ettirmeliydi.128 Doğru bilgiye ulaşırken yardım alınabilecek bir diğer kişi
+ise ziyaretçi hemşiredir. Bir sağlık işçisi olan ziyaretçi hemşire çocuk ölümlerine, salgın hastalıklara, alkolizme
+karşı yürütülen mücadelenin neferidir. Kalbinde ve ruhunda şefkat barındıran ziyaretçi hemşire her zaman güler
+yüzlüdür. Karda, yağmurda ıslanmış elbisesi ile fakirin kapısını çalan ev halkına tevazu, terbiye, sabır, cesaret,
+hisleri aşılayan kara gün dostu ziyaretçi hemşirenin öğütleri dinlenmeliydi.129
+
+
+
+
+124 Kızamık, 8-9.
+125 Bit, 3.
+126 Sineklerle Mücadele, 26.
+127 Halkacı, Çocuk Bakımı, 35.
+128 Halkacı, Çocuk Bakımı, 6-8.
+129 Halkacı, Çocuk Bakımı, 61-65.
+
+                                                           18
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+
+
+                                   Resim 8: Çocuk ve Halk Sağlığı Bilgisi adlı eserdeki ziyaretçi hemşire (62)
+
+Bilgiyi Tarih ve İstatistiklerle Destekleme Çabası
+Vekâletin Cumhuriyet’in ilk yıllarında yayımladığı kitap ve broşürlerde tarihsel anlatım yer yer yoğun olacak
+şekilde kullanılmıştır. 1924’te yayımlanan “Trahom Hakkında Halka Nesayih” adlı çalışmada diğer kitaplardakine
+göre görece daha fazla tarihsel bilgi verilmiştir. Buna göre trahom, Avrupa’da ilk kez 1798’de Napolyon 32.000
+kişilik ordusuyla Mısır’ı işgal ettikten sonra salgına dönüşmüştür. Mısır’ın işgaliyle başlayan uzun soluklu
+çatışmaya farklı devletlerin dahil olması hastalığın yayılım ölçeğini genişletmiştir. Esere göre 1818’de Mısır’a
+gönderilen İngiliz ordusu İngiltere’ye döndüğünde kayıtlara 5.000’e yakın trahomlu asker geçmiştir.130 Hastalığın
+Anadolu’daki seyri Arap topraklarıyla kurulan bağlar nedeniyle erken tarihlerden itibaren belirginleşmiştir.
+Özellikle Alanya, İskenderun, Mersin, Antalya iskelelerinin sağladığı ticari olanaklar trahomun güney
+vilayetlerindeki yayılımını kolaylaştırmıştır. Hastalığın Anadolu’daki yayılımı hakkında şunlar aktarılmıştır:
+“Hastalık Anadolu’ya Mısır’a giden Sultan Selim ordusu efradı, Anadolu’ya giren Mısırlı İbrahim Paşa’nın Mısırlı
+efradından mürekkep ordusu, Antalya, Alanya, Mersin, İskenderun, Antakya iskeleleri ile ticaret eden Mısırlı ahali
+ve taife vasıtasıyla, Harb-i Umumi’den sonra mütarekede Mısır’dan avdet eden efrad içinde trahom hastalığına
+yakalanan efradın köylerine avdetlerinde Anadolu ahalisine dahi hastalığı bulaştırmışlardır.”131 Cumhuriyet’in
+ilk yıllarında bu hastalığın en çok tartışılan konulardan birisi haline gelmesinin temel nedeni ise Birinci Dünya
+Savaşı olmuştur. Mondros Mütarekesi sonrasında Mısır’dan gelerek köylerine dönen askerler trahomu özellikle
+Adıyaman, Malatya gibi güney illerinde belirginleştirmişlerdir.132 “Trahom Hakkında Halka Nesayih” adlı eserde
+verilen 1919 tarihli tablo kısmen de olsa hastalığın savaş sonrasındaki etkilerini detaylandırmaktadır. Buna göre
+Mısır’da iki gözü çıkartılan hasta sayısı 64, Limni’de iki gözü çıkartılan hasta sayısı 1, Mısır’da tek gözü çıkartılan
+hasta sayısı 27, Limni’de sol gözü çıkartılan hasta sayısı 1, Irak’ta sol gözü çıkartılan hasta sayısı 1, Mısır’da bir
+gözü çıkartılırken diğer gözü sağlam olan hasta sayısı 80, Limni’de bir gözü çıkartılırken diğer gözü sağlam olan
+hasta sayısı 1, Mısır’da iki gözü kör kalan hasta sayısı 448, Mısır’da bir gözü kör diğeri az gören hasta sayısı 333,
+Mısır’dan trahomlu dönen hasta sayısı ise 1.653’tür. Trahomdan etkilenen toplam asker sayısı ise 2609’dur.133
+Bir başka tablo da terhisler sonrasında Mısır’dan dönen zabit ve erler arasındaki yaygınlığı göstermekte.
+Mısır’dan dönen 4.245 zabit ile 54.734 er arasında 1.326 trahomlu hasta vardır. Bu hastaların 741 tanesi
+
+
+
+130 Trahom Hakkında Halka Nesayih, 3.
+131 Trahom Hakkında Halka Nesayih, 3.
+132 Trahom Hakkında Halka Nesayih, 3-4.
+133 Trahom Hakkında Halka Nesayih, 4.
+
+                                                                   19
+                                                          ÜMÜT AKAGÜNDÜZ
+
+
+Haydarpaşa Hastanesinde, 344 tanesi Yıldız Hastanesinde, 176 tanesi Selimiye Hastanesinde, 65 tanesi ise Maçka
+Hastanesinde yatmaktadır.134
+
+
+
+
+                                   Resim 9: Trahom Hastalığında Halka Nasihatler adlı eserden görseller (11)
+
+Tarihi ve istatistiki örneklerden yararlanılan eserlerden bir diğeri ise ““Kızıl Hastalığı Nedir? Bu Hastalıktan Nasıl
+Korunmalıdır?” adlı çalışmadır. Kızıl vakalarının sürekli artışını ele alan eser, hastalığın 1926 yılına ait aylık
+istatistiğini vermiştir. Buna göre 1926 yılının ocak ayında hastalığa yakalanan kişi sayısı 100, vefat eden kişi sayısı
+ise 16’dır. Şubat’ta bu oran 83’e 19, Mart’ta 40’a 2, Nisan’da 30’a 3, Mayıs’ta 24’e 4, Haziran’da 25’e 3, Temmuz’da
+23’e 3, Ağustos’ta 76’ya 20, Eylül’de 146’ya 24, Ekim’de 155’e 25, Kasım’da 166’ya 15, Aralık’ta 122’ye 12’dir.135
+Açıkçası 1926 boyunca bu hastalık belirdin ölüm oranlarına sebep olmuştur. Hastalığın seyrindeki bu gelişim
+sadece 1926 yılına ait değildir. Bu çerçevede daha çok Afyon, Isparta, İstanbul, Sivas ve Erzurum’da görülen
+hastalığa 1924’te yakalanan kişi sayısı 945, ölen kişi sayısı ise 131’dir. 1925’te ise 977 vakanın 131’i vefat
+etmiştir. 1926’da ise hem vaka sayıları hem de ölüm sayıları artış göstererek 1.136 vakaya 146 ölüme
+ulaşmıştır.136 1924 yılına ait verilen bir diğer tablo ise hastalığın Batı’daki seyrini somutlaştırmıştır. Buna göre
+1924’te Almanya’da 32.798 kişi, İngiltere’de 84.652 kişi, Avusturya’da 3.827 kişi, Bulgaristan’da 7.466 kişi,
+İskoçya’da 8.984 kişi, Kanada’da 17.370 kişi, Birleşik Amerika’da 183.253 kişi kızıl hastalığına yakalanmıştır. 137
+Hastalığın artan yoğunluğu nedeniyle “Beynelmilel Hıfzıssıhha Komitesi” kızılı öncelikli gündem maddesi olarak
+kabul etmiştir.138 1926 tarihli “Sineklerle Mücadele” adlı eserde de istatistiki ve tarihi verilere yer verilmiştir. Bir
+adet karasineğin 6.600.000 kolera, şarbon, tifo, verem mikrobunu taşıyabileceğine değinen eser, 1853 İngiltere
+Kolera Salgını sırasında yaşanan vaka artışlarının sinek sayısındaki artışlara paralel olduğunu ifade etmiştir. Yine
+1898 tarihli İspanya-Amerika Savaşında tifo nedeniyle ölen 20.000 askerde sineklerin varlığına bağlanmıştır. 139
+Sineklerin bu etkileri nedeniyle “Fransa Tıp Akademisi” şu uyarıyı yapmıştır: “Fransa Tıp Akademisi 1 Mart 1910
+tarihinde akd ettiği bir celsede bilhassa şu kararı vermiştir: Hekimler, makamat-ı sıhhiye, humma-yi tifoiyyenin
+
+134 Trahom Hakkında Halka Nesayih, 9.
+135 Kızıl Hastalığı Nedir?, 2
+136 Kızıl Hastalığı Nedir?, 3
+137 Kızıl Hastalığı Nedir?, 3-4.
+138 Kızıl Hastalığı Nedir?, 4.
+139 Sineklerle Mücadele, 4.
+
+                                                                  20
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+hükm verdiği yerlerde hastalığın adi sinekler ile intişar etmesi ihtimalini nazar-ı dikkate celp etmelidir.”140
+Açıkçası basit bir dişi sivrisinek dışarıdan herhangi bir müdahale olmazsa rahatlıkla 8 milyonluk bir koloniye
+ulaşabilirdi.141 Zararlı canlılarla alakalı bir başka tarihi bilgi ise bitler hakkındadır. “Lekeli Humma” başlıklı
+broşürde Birinci Dünya Savaşı’nda Osmanlı ordusunda görülen ordu hummasının bitten kaynaklandığı
+aktarılırken Sırbistan ordusunda ise lekeli humma nedeniyle 150.000 askerin öldüğü belirtilmiştir.142 “Sineklerle
+Mücadele” adlı eserde ise sinek yumurta ve yavrularının nasıl yok edilebileceğine dair istatistiki tarifler
+verilmiştir. Örneğin Paris Belediye Doktoru Burde, 1 kilo kibrit-i hadid, 1 kilo göztaşı, 5 kilo klortutya, 50 gram
+hamiz-i fenniye, 60 kilo sudan oluşan güçlü bir karışım önermiştir.143 Diğer yandan eserde sinek kâğıdı tarifi de
+verilmiştir. Buna göre bir toprak kap içine 100 gram zift 25 gram zeytinyağı konulup kaynatılır. Soğumaya
+bırakılan ürün 50 gram bal ilave edildikten sonra istenilen biçimde kâğıtlara sürülür.144
+
+
+
+
+                                Resim 10: Anofeller adlı eserden Latince karşılıklarıyla sivrisinek örnekleri (39, 51)
+
+Vekâletin kitap ve broşürlerinde yer yer Batı menşeili kelimeler de kullanılmıştır. “Anneler Öğüt” adlı eserde
+“kolostrum” yani bizdeki tabiriyle “ağız sütünden” bahsedilmekte. Doğumun 3. gününden 5. gününe kadar gelen
+bu süt bağırsakları temizlediğinden mutlaka bebeklere içirilmeliydi.145 “Kızıl Hastalığı Nedir? Bu Hastalıktan
+Nasıl Korunmalıdır?” Adlı eserde ise İtalyan bir doktorun bu hastalığı “steretokat” türlerinden birisine bağladığı
+anlatılmakta.146 Karahumma kitapçığında ise “portör” denilen hastalık yayan sağlam insanlar hakkında şunlar
+aktarılmakta: “Portör denilen bu adamlar sapasağlam oldukları halde barsaklarında Tifo mikrobu taşıyan
+insanlardır. Bu mikroplar herhangi bir surette ellerine bulaşır ve bu ellerle dokundukları eşya vasıtası ile hastalığı
+başkalarına verirler.”147 Kızamık anlatılırken ise “tripaflavin” adı verilen bir ilaçtan bahsedilmiştir. Bu ilaç 250
+gram suya 1 gram damlatıldıktan sonra sabah akşam burun deliklerine ikişer damla damlatılmalıydı.148 Difteri
+anlatılırken ise “asfeksi” kelimesi kullanılmıştır. Difteri yüzünden boğazı kapananlar vakanın şiddetli olması
+durumunda asfeksi yani nefes tıkanmasından ölebilirlerdi.149 1926 tarihli “Sineklerle Mücadele” adlı eser de ise
+sinekler latince karşılıklarıyla tanıtılmışlardır. 6-8 mm uzunluğundaki “musca domestica” adi karasinek olup her
+yerde görülebilir. Tercihen etleri arayan bu yüzden kokuları takip eden “musca carnian” et sineği anlamına
+
+140 Sineklerle Mücadele, 4.
+141 Sineklerle Mücadele, 5.
+142 Bit, 5.
+143 Sineklerle Mücadele, 23.
+144 Sineklerle Mücadele, 19.
+145 Annelere Öğüt, 10.
+146 Kızıl Hastalığı Nedir, 5.
+147 Karahumma, 3.
+148 Kızamık, 7.
+149 Kuşpalazı, 4.
+
+                                                                     21
+                                                   ÜMÜT AKAGÜNDÜZ
+
+
+gelmektedir. Bir seferde 200 yumurta bırakan 13 mm boylu “musca vamitarianın” karşılığı ise mavi sinektir. Bu
+sinek kasapların en büyük derdidir. Daha çok ahırlarda yaşayan “musca bavianın” yerel adı ise öküz sineğidir.
+Hayvanların göz kanallarına, burun deliklerine, kulaklarına giren bu sinekler ineklerin sütlerini azaltırlar. Boyu
+8 mm olan “lucilia caesar” ise parlak, yaldızlı, yeşil rengiyle dikkat çeker. Bu sinek lağımların en pis yerlerinde
+dolaşmayı sever. At sineği yani “hippobosque” ise tutunduğu yerden atılamayan zorlu bir sinektir. İlgili eserde bu
+zararlı şu şekilde anlatılmakta: “Cilde o kadar iyi yapışır ve o kadar serttir ki ne kovulur ne de ezilebilir. Hayvanatı
+çılgın bir hale getirebilecek kadar müthiş bir müzıc-ı tahribat yapar. Bunları ancak zeytinyağlı parmaklarla
+tutmalı ve hemen başlarını koparmalıdır.”150
+Sonuç
+Osmanlı Devleti’nden miras kalan sosyo-ekonomik yapı uzun soluklu savaşların yarattığı buhranlar nedeniyle
+Cumhuriyet’in ilk yıllarının tartışma ve politikalarını yönlendirmiştir. Yeni Cumhuriyet’in önceliklerinden belki
+de en önemlisi nüfus kayıplarını önleyerek bedenen ve zihnen sağlıklı nesiller yetiştirebilmekti. Arzulanan zinde
+ve eğitimli neslin ortaya çıkartılabilmesi için ise ülke genelindeki sağlık sorunlarının çözümlenmesi gerektiği
+aşikârdı. Osmanlı Devleti’nden miras kalan sağlık birikiminin nicel ve nitel yönlerdeki eksiklikleri Cumhuriyet’in
+işinin hiç de kolay olmadığını belirginleştirmiştir. Ancak farklı nedenler dolayısıyla yaşanan nüfus kayıplarından
+sadece salgın hastalıklar ile kurumsal yetersizlikleri sorumlu tutmak mümkün değildi. Belki de en ciddi sıkıntı,
+koruyucu sağlık önlemlerinin yani temel halk sağlığı bilgisinin bireysel ve kolektif bağlamlarda yeterli farkındalık
+sağlayamamış olmasıdır. Son dönem Osmanlı sağlık politikaları Anadolu’nun önemli şehirlerinde salgınlara
+yönelik bilgi seviyesini yükseltmiş olsa da köylerin çoğunluğu bu sürecin dışında kalmıştır. Yani salgın
+hastalıklarla ya da çocuk ölümleriyle mücadele edebilmek için sağlık çalışanı sayısını arttırmak kadar halka
+sadeleştirilmiş sağlık bilgisini ulaştırabilmek de önemliydi. 1920’de kurulan “Sıhhat ve İçtimai Muavenet
+Vekâletinin” 1920-1940 yılları arasında izlediği politikalarda, kurumsal altyapının yanında temel sağlık bilgisinin
+yaygınlaştırılmasına odaklanması şaşırtıcı değildir. Eğitici afişler, kitaplar, broşürler, filimler hazırlatan Vekâlet
+halkın anlayabileceği dilde basit, temel sağlık bilgisi propagandası gerçekleştirmiştir. Aslında formel eğitimi
+destekleyebilmek için, yaygın eğitim yöntemlerinden yararlanılarak tek bir merkezden kurgulanmış kamusal-
+merkezi bilginin halkla kaynaştırılabilmesi arzulanmıştır. Bu çerçevede yeni akılcı kurum ve uygulamalar
+vasıtasıyla soyut olandan ziyade somut dünyanın pratik faydalarının gündelik hayatla bütünleştirilmesi
+istenmiştir. Yani Vekâlet, sadece temel sağlık bilgisini değil akılcı veriler ile yeni vatandaşlık kurgulamalarını da
+kitlelere ulaştırmaya çalışmıştır.
+Vekâletin, 1924-1939 yılları arasında yayımladığı eser ve broşürler ülkedeki sağlık sorunları ile sağlık
+politikalarına uygun bir dizgeden hareket edildiğini göstermektedir. Bu noktada basılan kitap ve broşürler
+Cumhuriyet’in pozitivist karakterini somutlaştırmaktadır. Neden-Sonuç ilişkisini merkezi konuma oturtan
+broşür ve kitapların her noktasında bilgi akla-mantığa uygun şekilde organize edilmiştir. Eserlerin tamamında
+hastalıklar, çocuk ölümleri ya da zararlı canlılar irdelenirken anlaşılır neden-sonuç kalıpları kullanılmıştır.
+Buradaki temel amaç hem salgın hastalıklarla, çocuk ölümleriyle karşı karşıya kalanları bilinçlendirmek hem de
+doğru bilginin ölçeğini neden-sonuç ilişkisini kavratabilecek şekilde genişletmekti. Böylece hastalıkların
+nedenleri konusunda bilinçlenen bireyler bu hastalıklara yakalanmamak için gereken önlemleri önceden
+alabileceklelerdi. Bu noktada istenen hastalığa yakalanılmasına neden olabilecek ortamı sonlandırabilmek ya da
+hastalık sırasında ve sonrasındaki yayılım ölçeğini daraltabilmekti. Uyarı ve öneriler verilirken daha karamsar
+anlatımların neden-sonuç ilişkileriyle bağlantılandırıldığı da görülmekte. Burada okurken ya da dinlerken kişinin
+basit uygulamalarla nasıl tehlikelerden korunabileceği belirginleştirilmiştir. Vekâletin eserlerinde nüfus
+politikaları ile anne arasındaki ilişkiye de değinilmiştir. Broşür ve kitaplarda aktif rol oynaması beklenilen birey
+annedir. Yeni nesillerin bedenen ve zihnen yetişebilmesi, çocuk ölümlerinin sonlandırılabilmesi için anneden
+beklenen bilgili, dikkatli ve özverili olmaktır. Yer yer annenin sağlığını önemseyen anlatımlar olsa da kadın yine
+kadın olduğu için değil anne olduğu için yani çocuğun sağlığının teminatı olduğu için hatırlanmıştır. Anne akıldışı
+bilgiye inanmamalı, cahil ebelere değil sağlık çalışanlarına güvenmeli, çocuğunu doğru yöntemlerle
+besleyebilmeliydi. Vekâletin eserlerinde anneye yüklenen en önemli görev sütünü bebeğine vererek onu ishalden
+korumaktı. Yani anneden, yavrusunu emzirirken ince noktalara hâkim olması beklenmiştir. Aslında broşür ve
+kitaplarda nüfus politikasının yükü hane halkında bulunan bütün bireylere dağıtılmak yerine anneye verilmiştir.
+Babalarda, merhamet duygusunu uyandıracak basit anlatım ve hatırlatmalar yapılması yararlı olabilirdi.
+
+
+150 Sineklerle Mücadele, 5-7.
+
+                                                          22
+SIHHAT VE İÇTİMAİ MUAVENET VEKÂLETİNİN CUMHURİYET’İN İLK YILLARINDA HALK SAĞLIĞI BİLGİSİNİ HALKA ULAŞTIRABİLME…
+
+
+Doğru bilgiye güvenmek, batıl itikatlara inanmamak, yanlış bilgiyi tanıyabilmek Vekâletin kitap ve broşürlerinde
+akla, neden-sonuç ilişkisine dayalı bilginin güçlendirilebilmesi için sıklıkla işlenmiştir. Buradaki temel kaygı
+merkezden çevreye uzanan rasyonel veri yığınlarının yanlış bilgi ve önyargılar karşısındaki gücünü
+arttırabilmektedir. Cumhuriyet’in ilk yıllarından itibaren doğru, bilimsel bilginin geniş kitlelere ulaştırılması
+düşünürleri, eğitimcileri ve bilim adamlarını zorlayan hususlardan birisi olmuştur. Osmanlı Devleti’nin ancak XIX.
+yüzyılın son çeyreğinden itibaren Anadolu’nun tamamını kapsayıcı eğitim politikalarına yönelmesi basın-yayın
+hayatının sınırlılığı da düşünüldüğünde taşranın çoğunluğundaki geleneksel bilgi ağlarının neden hâlâ güçlü
+olduğunu belirginleştirmektedir. “Peynir dişleri denilen üçüncü bir dişlenme dönemine inanılması”,
+“karakabarcık dağlanırken mikropların kana karıştırılması”, aşının mevsiminin olduğunun düşünülmesi”, “bitin
+yiğide yakıştırılması”, “bağışıklık kazansınlar diye sağlıklı çocukların kızamıklı evlere götürülmesi” gibi yanlış
+kanaat ve uygulamalar geleneksel bilgi ağlarının gücünü örneklemektedir. İşte Vekâlet iletişim kanalları,
+öğretmenler, doktorlar ve ziyaretçi hemşireler aracılığıyla halkın doğru bilgiyle kaynaştırılmasını istemiştir. Bu
+çerçevede Vekâlet yayımladığı kitap ve broşürlerinde bilgiyi tarihi ve istatistiki verilerle de güçlendirmiştir.
+Ancak buradaki ilginç nokta 1920’li yıllarda yayımlanan eserlerde 1930’lı yıllardakine göre daha yoğun tarihi ve
+istatistiki anlatımların tercih edilmesidir. Örneğin “Trahom Hakkında Halka Nesayih” adlı çalışmada hastalığın
+tarihi gelişimi ile Birinci Dünya Savaşı sonrasındaki istatistiki yayılımı detaylandırılmıştır. Kızıl Hastalığı Nedir?
+Bu Hastalıktan Nasıl Korunmalıdır?” adlı eser de ise kızılın 1920’li yıllarda artan gücü diğer ülkelerden verilen
+istatistiklerle desteklenmiştir. “Sineklerle Mücadele” adlı çalışmada ise tifo hastalığının yarattığı tahribat tarihi
+ve istatistiki verilerle anlatılırken sineklere karşı kullanılabilecek ilaçların uzun uzadıya tarifleri verilmiştir. Yine
+“Sineklerle Mücadele” adlı eserde sinek adları ve türleri Latince karşılıklarıyla detaylandırılmıştır.
+Aslında tarihi, fenni ve istatistiki anlatımlar noktasındaki dönemsel farklılıklar Cumhuriyet kadrolarının olaya
+pratik yaklaşabilmeyi öğrenmiş olmalarıyla da alakalıdır. 1920’li yıllarda yazılan eserlere ulaşabilenler ya da
+okuyabilenler dönemin daha eğitimli çevrelerinden geldiklerinden eserlerin içerikleri yoğun bilimsel, tarihi ve
+istatistiki verilerle zenginleştirilmiştir. Bu noktada 1930’lu yıllarda basılan kitap ve broşürlerde tarihi, istatistiki
+ve bilimsel anlatımların yoğunluğunun azalmasının iki temel nedeni vardı. Bunlarda ilki parasal sıkıntılardır.
+Vekâlet sayfa sayısını düşürüp basım miktarını arttırarak temel sağlık bilgisini başta köyler olmak üzere her
+noktaya ulaştırabilmek istemiştir. İkincisi ise bağ kurulmak istenen hedef kitlenin ülke gerçekliklerine uygun
+kapsayıcı politikalarla bütünleştirilmesidir. Bilgiyi sadeleştiren, pratikleştiren kitap ve broşürlerle okumayı bilen
+her türlü insanın her türlü mekânda her türlü bireye aktarımlar yapabilmesi arzulanmıştır. Bu nedenle bir
+köylünün zihnini yoğun fenni, tarihi, istatistiki verilerle boğmak yerine hastalıkların nedenlerine, belirtilerine,
+tedavi yöntemlerine odaklamak daha doğruydu. Vekâletin eserlerinin 1930’lu yıllarda geçirdiği dönüşüm
+Cumhuriyet’in köylere ve geniş halk yığınlarına odaklanan Köy Enstitüleri gibi kapsayıcı eğitim politika ve
+uygulamalarının da göstergesidir. Velhasıl bilginin 1923-1940 yılları arasında gösterdiği gelişme köyleriyle,
+halkıyla kurduğu iletişimi yoğunlaştırmak isteyen merkezi kaygıları somutlaştırmaktadır. Ancak burada
+unutulmaması gereken husus bu somutlaştırmada modernleşmenin lojistik karakterinin hâlâ yoğun olduğudur.
+
+
+ Finansal Destek ve Teşekkür/Grant Support and                          Yazar bu çalışma için finansal destek almadığını beyan
+ Acknowledgement                                                        etmiştir. / The author declared that this study has received
+                                                                        no financial support.
+ Çıkar Çatışması/Conflict of Interest                                   Yazar çıkar çatışması bildirmemiştir. / The author has no
+                                                                        conflict of interest to declare.
+
+
+KAYNAKÇA
+Acımış, Nurhan Meydan ve Bilge Betül Kılıç. “Cumhuriyet (1928-1973) Döneminde Sürdürülen Sağlığın Geliştirilmesi Mücadelesinde Halk
+Sağlığı Temaları”, Lokman Hekim Dergisi. 11/1 (2021), 30-39
+Ağırbaş, İsmail ve Yasemin Akbulut, Ömer Rıfkı Önder. “Atatürk Dönemi Sağlık Politikası”, Atatürk Yolu Dergisi. 48 (2011), 733-748.
+Ak, Bilal. “Türkiye Cumhuriyeti'nde Sağlık Hizmetleri”, Türkler, Cilt 17, Ankara: Yeni Türkiye Yayınları. 2002, 419-435.
+Akagündüz Yinilmez, Seval. Ahlaklı Yurttaş. İstanbul: Yeni İnsan Yayınevi, 2017.
+Akagündüz, Ümüt. “Cumhuriyet Yılları Eğitim Tarihinde Halka Sağlık Bilgisini Sadeleştirerek Anlatmaya Çalışan Bir Eser: Sıhhi Konuşuk
+(1927)”, 4. Uluslararası Tarih Eğitimi Sempozyumu (01-03 Eylül 2016), Ankara: Pegem Akademi (2016), 761-769.
+
+                                                                     23
+                                                             ÜMÜT AKAGÜNDÜZ
+
+
+Alabaş, Ramazan. “Çocuk Haftası Dergisi ve Çocuk Eğitimi Açısından İncelenmesi”, Kastamonu Education Journal. 26/5 (2018), 1765-1784.
+Altay, Sadet. “Bulaşıcı ve Müzmin Bir Sosyal Afet: Cumhuriyet’in İlk Yıllarında Trahom Hastalığı ve Mücadele Çalışmaları (1924-1938)”,
+Cumhuriyet Tarihi Araştırmaları Dergisi. 12/23 (2016), 167-211.
+Bulut, Meryem. “Geçiş Ritüellerinde Doğum: Sağaltım Yolları”, Turkish Studies. 12/21, (2019), 121-132.
+Annelere Nasihat. Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1926.
+Annelere Öğüt. Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1938.
+Bit. Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1938.
+Çiçek Hastalığı. Ankara: Sıhhat ve İçtimai Muavenet Vekâleti,1938.
+Çocuk İshali. Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1938.
+Diş Sağlığı Diş Temizliği. Ankara: Sıhhat ve İçtimai Muavenet Vekâleti,1938.
+Erdem, Yavuz. “Sıhhat ve İçtimai Muavenet Vekâletinin 1924 Yılı Sıtma İle Mücadele Raporu- Sıtma ve Bataklık Haritası”, Journal of Social and
+Humanities Sciences Research. 5/19 (2018), 639-653.
+Gözleri Kör Eden Trahom Hastalığı Hakkında Halka Nasihatler. Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1933.
+Gül, Muhittin. “Atatürk Dönemi Sağlık Politikası”, Gazi Üniversitesi Diş Hekimliği Fakültesi Dergisi. 5/1 (1988), 249-258.
+Gümüşçü, Osman. “Osmanlı’dan Cumhuriyet’e Geçiş ve Cumhuriyetin İlk Yıllarında Türkiye Halk Sağlığı”, Atatürk Araştırma Merkezi Dergisi.
+19/55, (2003), 125-146.
+Gürsoy, Gencay. “Sağlık”, Cumhuriyet Dönemi Türkiye Ansiklopedisi, Cilt 5, İstanbul: İletişim Yayınları, 1983, 1716-1735
+Halkacı, Kudsi. Çocuk Bakımı ve Halk Sağlığı Bilgileri, Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1938.
+Işık, Zekeriya. “Osmanlı’nın Son Zamanları Cumhuriyet’in İlk Çeyrek Asrında Sıtma Salgınına Karşı Verilen Mücadelenin Mahiyeti”, Selçuk
+Türkiyat. 51 (2021), 51-82.
+Kara Kabarcık (Şarbon). Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1939.
+Karabulut, Umut. “Cumhuriyet’in İlk Yıllarında Sağlık Hizmetlerine Toplu Bir Bakış, Dr. Refik Saydam’ın Sağlık Bakanlığı ve Hizmetleri (1925-
+1937)”, Çağdaş Türkiye Araştırmaları Dergisi. 6/15 (2007),151-160.
+Karahumma-Tifo. Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1937.
+Kızamık. Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1937.
+Kızıl Hastalığı Nedir? Bu Hastalıktan Nasıl Korunulmalıdır. Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1926.
+Kızıl Hastalığı ve Korunma Çareleri. Ankara: Sıhhat ve İçtimai Muavenet Vekâleti, 1930.
+Kuşpalazı (Difteri). Ankara: Sıhhat ve Muavenet-i İçtimaiye Vekâleti,1938.
+Lekeli Humma. Ankara: Sıhhat ve Muavenet-i İçtimaiye Vekâleti, 1938.
+Naki Cevat. Anofeller. Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1926.
+Nesipoğlu, Gamze. “Olgusal Bir Yapı Olarak Sağlık Politikaları: 1920-1960 Yılları Arası Cumhuriyet Döneminin Tarihsel İzleği”, Hacettepe
+Sağlık İdaresi Dergisi, 21/1 (2018): 165-177.
+Ocak, Gürbüz. “Bilimsel Araştırmalarda Kullanılan Veri Toplama Yolları”, Eğitimde Bilimsel Araştırma Yöntemleri. Ankara: Pegem Akademi,
+2020.
+Özgiray, Ahmet. “Cumhuriyetin İlk Yılarında Sağlık-Sosyal İşleri ve Düzenlemesi (1920-1938)”, Tarih İncelemeleri Dergisi. 15/1, (2000), 1-8.
+Öztürk, Mustafa. “Cumhuriyet Dönemi'nde Sağlık Hizmetleri”, SDÜ Tıp Fakültesi Dergisi. 6/1 (1999), 37-41.
+Sıhhi Müze Atlası. Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1926.
+Sineklerle Mücadele. Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1926.
+Tekir, Süleyman. “Erken Cumhuriyet Dönemi Türkiye'de Bulaşıcı Hastalıklarla Mücadele (1923-1930)”, Türkiyat Araştırmaları Enstitüsü
+Dergisi. 65 (2019), 407-430.
+Tekir, Süleyman. “Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet Dönemindeki Faaliyetleri (1920-1930)”, Belgi
+Dergisi. 18 (2019), 1301-1326.
+Trahom Hakkında Halka Nesayih. Ankara: Sıhhiye ve Muavenet-i İçtimaiye Vekâleti, 1924.
+Yıldırım, Ali ve Hasan Şimşek. Sosyal Bilimlerde Nitel Araştırma Yöntemleri. Ankara: Seçkin Yayınları, 2013.
+
+                                                                      24
+

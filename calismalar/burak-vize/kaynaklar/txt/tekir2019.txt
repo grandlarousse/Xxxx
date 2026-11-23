@@ -1,0 +1,1415 @@
+Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+DOI:10.33431/belgi.547721                                                             Araştırma Makalesi/Research Article
+
+       SIHHİYE VE MUAVENET-İ İÇTİMAİYE VEKÂLETİ’NİN
+       KURULUŞU VE ERKEN CUMHURİYET DÖNEMİNDEKİ
+                  FAALİYETLERİ (1920-1930)
+     THE ESTABLISHMENT OF THE MINISTRY OF HEALTH AND SOCIAL
+     WELFARE, AND ITS ACTIVITIES DURING THE EARLY REPUBLICAN
+                        PERIOD (1920-1930)
+                                                Süleyman TEKİR*
+
+Geliş Tarihi/Received:: 01.04.2019                                                        Kabul Tarihi/Accepted: 16.05.2019
+
+     TEKİR, Süleyman, (2019), “Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet Dönemindeki
+     Faaliyetleri (1920-1930)” Belgi Dergisi, C.2, S.18, Pamukkale Üniversitesi Atatürk İlkeleri ve İnkılâp Tarihi Araştırma ve
+                                      Uygulama Merkezi Yayını, Yaz 2019/II, ss. 1301-1326.
+
+
+Öz
+1912-1918 yılları arasında devam eden savaşlar Anadolu'ya felaketi getirdi. Takip eden yıllardan
+1922’ye kadar ise Anadolu düşman işgalinde kaldı. Bulaşıcı ve salgın hastalıklar tüm ülkeye yayılmış
+durumdaydı. 1920’de Türkiye Büyük Millet Meclisi’nin açılmasıyla birlikte Anadolu’da sağlık alanında
+ilk adımlar atıldı. TBMM bir yandan düşman kuvvetleriyle mücadele ederken diğer taraftan halk
+sağlığının korunması için politikalar üretmekten geri durmadı. 3 numaralı kanun ile Sıhhiye ve
+Muavenet-i İçtimaiye Vekâleti kuruldu. İstanbul Hükümeti’nin İstanbul’dan ilaç ve diğer sağlık
+malzemelerinin gönderilmesini engellemesine rağmen zafere kadar, olağanüstü bir gayretle sağlık
+alanında adımlar atıldı. Cumhuriyet’in ilânını takip eden süreçte düşman işgali sona eren İstanbul’daki
+sağlık kuruluşlarından faydalanma imkânı doğdu. 1924’te sağlık politikasına göre öncelikli olarak
+yapılması gerekenler belirlendi. Salgın hastalıklarla mücadele, yeni hastanelerin açılması, doktor
+yetiştirilmesi, halkın bilinçlendirilmesi ve kanuni düzenlenmelerin yapılması öncelikli konular
+arasında yer aldı. Bu çalışmada Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’nin kuruluş süreci ve erken
+Cumhuriyet döneminde yaptığı faaliyetler ele alındı.
+
+Anahtar Kelimeler: Sağlık Bakanlığı, Salgın hastalıklar, Hastaneler, Sağlık politikaları
+
+Abstract
+The wars that continued between the years of 1912 and 1918 caused a great trouble for Anatolia.
+From then to 1922, Anatolia remained under enemy occupation. Infectious diseases and epidemics
+had spread across the country. With the opening of the Grand National Assembly of Turkey, the first
+steps in the field of health were taken in Anatolia. The GNAT struggled against enemy forces, on
+the one hand, and produced policies for protecting public health, on the other hand. The Ministry
+of Health and Social Welfare was established pursuant to the Law No. 3. Although the Istanbul
+Government prevented medicine and other medical materials from being sent from Istanbul,
+steps were taken in the field of health with an extraordinary endeavour until victory. In the period
+that followed the proclamation of the Republic, it became possible to benefit from the health
+institutions in Istanbul upon the end of occupation. Primary activities required to be carried out were
+determined according to the health policy that was established in 1924. These included struggle
+against epidemics, opening of new hospitals, education of physicians, raising public awareness, and
+
+
+
+*Dr. Öğr. Üyesi, Sinop Üniversitesi Fen-Edebiyat Fakültesi Tarih Bölümü, Türkiye Cumhuriyeti Tarihi ABD,
+stekir@sinop.edu.tr, (orcid.org/0000-0001-5862-2548).
+
+
+
+                                                            1301
+                   Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                                      S. Tekir
+                   Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+making legal regulations. The present study addressed the establishment process of the Ministry of
+Health and Social Welfare, and the activities it carried out in the early Republican period.
+
+Keywords: Ministry of Health, Epidemics, Hospitals, Health policies
+
+
+    GİRİŞ
+    Birinci Dünya Savaşı tıp tarihi açısından büyük bir kırılma noktası oldu. Savaş öncesi
+dönemde tüm dünyada olduğu gibi Osmanlı Devleti’nde de salgın ve bulaşıcı hastalıklar
+ile ilgili bilgi birikimi oldukça sınırlıydı. Savaş yıllarında birçok hastalıkla deneme-
+yanılma yoluyla mücadele edilmeye çalışıldı. Hastalıkların yaygın bir hale gelmesinin
+başlıca nedenleri arasında hijyen koşullarının tam manasıyla sağlanamaması geliyordu.
+Cepheden sivile, sivilden ise cepheye geçişlerde gerekli arındırmalar yapılamadığı için
+hastalıkların yayılmasının önüne geçilemedi. Sivil halka hizmet veren doktorların büyük
+kısmının silah altına alınması, halk sağlığında bozulmalara neden olan yegâne etmen oldu.
+Osmanlı Devleti’nin kaybettiği topraklardan yapılan göçlerle hastalıklar farklı bölgelere
+taşındı ve Anadolu’nun sıhhi yapısı bozuldu. Farklı cephelerde mevsime bağlı olarak
+değişik hastalıklar görüldü. Hekimlerin insanüstü gayretleri neticesinde hastalıkların
+önüne geçildi ve 1918’de savaş resmen sona erdi. Osmanlı Devleti’nin savaştan yenilgiyle
+ayrılmasının ardından bir kamu düzeninden söz etmek mümkün değildi. 1918’den sonra
+Anadolu’nun sıhhî yapısı giderek bozuldu. Sıtma ve frengi ilk etapta göze çarpan yaygın
+hastalıklardı.1 Modern tıbbın gerektiği asıl mücadele ancak 23 Nisan 1920’de TBMM’nin
+açılmasıyla mümkün olacaktı.
+    1.     Vekâlet’in Kuruluşu ve Millî Mücadele Yıllarındaki Faaliyetleri
+    Osmanlı Devleti’nin teşkilat mekanizması içerisinde sağlık işlerinin yürütülmesi için
+bir nezaretten söz etmek mümkün değildi. Doğrudan bir Sıhhiye Nezareti olmadığı gibi
+bu görevi yapan birim Dahiliye Nezareti bünyesinde faaliyet gösteriyordu. TBMM’de yeni
+vekâletler kurulurken bu durum büyük tartışmaların yaşanmasına neden oldu. Osmanlı
+idaresinde sağlık üzerine nezaret düzeyinde bir oluşumun olup olmadığının yanı sıra içtimai
+muavenet söz dizimi ile ilk defa karşılaşıldığına yönelik tepkiler oluştu. Vekiller tarafından
+kullanılan “bizde böyle bir nezaret yoktur” söylemi yeni meclis üyelerinin kendilerini
+Meclis-i Mebusan’ın parçası olarak görmelerinden ileri geliyordu. İstanbul’da aynı isimli bir
+nezaretin olmayışı Ankara’da da olmayacak şeklinde telakki edilmişti. Osmanlı Devleti’nde
+sağlık işleri önce Hariciye daha sonra ise Dahiliye nezaretlerine bağlı olarak faaliyet
+göstermişti. Bu durum Osmanlı yönetim biçiminde sağlık kuruluşlarının ikinci derece bir
+devlet örgütü muamelesi gördüğünün önemli bir göstergesidir. Fakat olağanüstü yetkilere
+haiz olarak kurulan Türkiye Büyük Millet Meclisi farklılığını ortaya koyabilmek için ihdas
+ettiği kurumların isimlerinin dahi benzer olmaması ve halk hakimiyetini vurgulamak için
+kendine özgü bir isimlendirme yoluna gitti. Anadolu’da düşman işgalinden sonra devlet
+eliyle yapılması beklenen iş, sıhhî koşulların düzeltilmesine yönelik atılacak adımlardı.
+Uzun savaş yılları, ülkenin sıhhî yapısında büyük bozulmalara neden olmuştu. Kurulacak
+Vekâlet, tek çatı altında iki farklı amacı bünyesinde barındıracak şekilde düşünülmüştü.
+TBMM Hükümeti bu Vekâlet ile hem sağlık hem de içtimai muavenet (sosyal yardım)
+meselelerinde çözüm üretecekti. İçtimai muavenet, Anadolu’ya savaş yıllarından miras
+kalan yetimler meselesinin çözümü için hayati öneme sahipti. Savaş yıllarında anne ve
+babalarını kaybeden kimsesiz çocuklar Anadolu’nun her köşesinde sokakları dolduruyordu.
+Camilerin çoğunluğunda kimsesiz çocuklar, muhacir denilerek koruma altına alınmıştı.
+Kimsesiz çocuklar meselesi artık bir Anadolu gerçeğine evrilmişti. Bu çocuklara Dahiliye
+Nezareti tarafından yardım yapılıyordu. TBMM kuruluşunun ilk günlerinden itibaren
+1 Birinci Dünya Savaşı yıllarında Anadolu’nun sıhhî yapısı ile ilgili genel bilgi için bkz. Tevfik Sağlam, Büyük Harpte
+3. Orduda Sıhhî Hizmet, İstanbul, 1941; Kemal Özbay, Türk Askeri Hekimliği Tarihi ve Askeri Hastaneleri, İstanbul,
+1976.; Hikmet Özdemir, Salgın Hastalıklardan Ölümler 1914-1918, Ankara, 2010.
+
+
+
+                                                       1302
+        Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                         Dönemindeki Faaliyetleri (1920-1930)
+
+dönüşümü başlattı. Başta kimsesiz çocuklar olmak üzere devletin sosyal yönünü sağlamak
+maksadıyla yapılacak yardımların bir bakanlık bünyesinde toplanması için yeni kurulacak
+bakanlığa Sıhhiye ve Muavenet-i İçtimaiye Vekâleti (Sağlık ve Sosyal Yardım Bakanlığı)
+adı verilmesi uygun görülmüştü. Fakat yapılan görüşme sırasında meclisin kurucu değil
+devam meclisi olduğunu iddia eden bazı vekiller İstanbul’daki uygulamanın korunması
+noktasında ısrar ettiler.2 3 numaralı Büyük Millet Meclisi İcrâ Vekillerinin Sûret-i İntihâbına
+Dâir Kanun ile Sıhhiye ve Muavenet-i İçtimaiye Vekâleti resmen kuruldu. Kanun ile kurulan
+on vekâlet şu şekilde isimlendirilmişti: “Şeriye ve Evkaf, Sıhhiye ve Muaveneti İçtimaiye,
+İktisat (ticaret, sanayi, ziraat, orman ve maadin), Maarif, Adliye ve Mezahip, Maliye
+ve Rüsumat ve Defteri Hakani, Nafia, Dahiliye (Emniyeti Umumiye, Posta ve Telgraf),
+Müdafaa-i Milliye, Hariciye ve Erkânı Harbiye-i Umumiye işlerini görmek üzere Büyük
+Millet Meclisinin on bir zattan mürekkep bir İcra Vekilleri Heyeti vardır.”3
+    TBMM’de 4 Mayıs 1920 tarihinde yapılan seçim ile I. İcra Vekilleri Heyeti kuruldu.
+Buna göre İcra Vekilleri Heyeti Reisliğine, TBMM Başkanı Mustafa Kemal Paşa, Sıhhiye
+ve Muavenet-i İçtimaiye Vekilliğine ise 127 oy ile Dr. Adnan Bey (Adıvar) seçildiler.4
+Hükümet programında sağlık ve yardım çalışmalarında mali yapının uygun olduğu
+ölçülerde faaliyet gösterileceği bildirildi. Sıhhî araç ve gereçlerin temininde sıkıntı
+yaşanmaması için ithalat yolu açık bırakıldı. Elde bulunan aletler ile ecza malzemesinin
+israf edilmeden kullanılmasının gerekliliği vurgulandı.5 İlk Bakanlar Kurulu toplantısının
+ardından faaliyetlerine başlayan Dr. Adnan Bey, 11 Mayıs tarihinden itibaren emrine
+verilen bir küçük sıhhiye memuru ile birlikte Ankara Vilayet Konağı’nın bir odasında
+çalışmaya başladı. En büyük sorun yapılacak işlere nerede başlanacağına yönelikti. TBMM
+Hükümeti’nin kontrolü altındaki şehirlerde bulunan doktor, sıhhiye memuru, hastane
+ve sağlık ocaklarının durumuyla ilgili elde hiçbir kayıt bulunmuyordu. Öncelikli olarak
+görevde olan hekimlerin isimleri şehirlere gönderilen telgraflar aracılığıyla öğrenilerek
+kayıt altına alındı. Osmanlı Devleti’nde yürürlükte olan bütün sağlık mevzuatı ve kanunlar
+temin edildi. Mevzuatın mevcut ihtiyaca cevap vermesi mümkün gözükmediği için yeni
+bir usul ve kadro oluşturuldu. Sıhhiye Vekâleti’nin ilk bütçesi ile birlikte merkezdeki idari
+yapı şekillendirildi. Buna göre Hıfzıssıhha Dairesi, Sicil Dairesi, Muhasebe ve Evrak Kalemi
+kuruldu. Taşra örgütü ise aynen muhafaza edildi. Muhafaza edilen yapılar şunlardı: Sağlık
+Müdürlükleri, Hükümet, Belediye ve Karantina Tabiplikleri ile Küçük Sıhhiye Memurları.
+Teftiş kadroları üçe çıkartılırken Meclis-i Âlî-i Sıhhî kaldırıldı. Ayrıca Kuduz Tedavi
+Müessesesi, Aşıhane ve Bakteriyolojihane kuruldu.6
+    İstanbul Hükümeti’nin Haziran 1920’de aldığı karar gereğince Anadolu’ya her nevi
+serum ve ilacın gönderilmesi yasaklanmıştı. Birinci Dünya Savaşı’nın en şiddetli devam
+ettiği zamanlarında dahi muharip ülkeler devletlerarası hukuk ilkelerinin tamamına
+riayet etmemelerine rağmen salgın hastalıklarla mücadelede birbirlerine yardım
+etmekten geri durmamışlardı. İstanbul hükümeti bu şekilde hem savaş hukuku hem
+de insanlık adına utanç verici bir adım atmıştı. Anadolu hareketinin salgın hastalıklarla
+mücadelesini engelleyerek mücadele gücü kırılmak isteniyordu. İstanbul Hükümeti’ne
+Ankara’dan yükselen tepkilerde İngilizlerin hatta Yunanlıların dahi bu yollara tevessül
+etmeyecekleri vurgulanıyordu. Damat Ferit Hükümeti, Anadolu Türklüğüne İngiltere
+ve Yunanistan’dan daha büyük düşmanlık besliyordu. İstanbul’da bulunan hükümet,
+masrafları kısmak ve bütçeyi rahatlatmak adına Bahriye ve Harbiye Nezaretlerine bağlı
+hastaneleri lağvediyordu. Bu hastanelere müracaat edenler ancak ücretlerini ödedikleri
+takdirde sağlık hizmeti alabileceklerdi. Hükümet bu adımıyla bütçesine yardımcı
+olmaktan ziyade TBMM Hükümeti’ne karşı inzibat gücü toplayacak kaynak yaratmaya
+2 TBMM Zabıt Ceridesi, 1 Mayıs 1336, D.1., C.1., s. 164-168.
+3 Ceride-i Resmiye, 7 Şubat 1337, No:1.
+4 TBMM Zabıt Ceridesi, 4 Mayıs 1336, D.1., C.1., s. 200.
+5 TBMM Zabıt Ceridesi, 9 Mayıs 1336, D.1., C.1., s. 241.
+6 Sağlık Hizmetlerinde 50 Yıl, Sağlık ve Sosyal Yardım Bakanlığı Yayınları, Ankara 1973, ss. 31-32.
+
+
+
+                                                     1303
+                 Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                                 S. Tekir
+                 Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+çalışıyordu.7 İstanbul Hükümeti tarafından Anadolu’nun sıhhî durumunu kökünden
+sarsacak tedbirler caiz ve mubah görülüyordu. Hakimiyet-i Milliye’de karşı karşıya
+kalınan durum şu şekilde eleştiriyordu: “Harplerde hudutları kapadığı halde beynelmilel
+sıhhiye heyetleri daima onları açık bulurlar. En kanlı muharebelerde bile Hilal ve Salib-i
+Ahmer Heyetleri muharip taraflarca muhterem tutulmuş ve kendilerine en müsait şerait
+dahilinde muamele edilmiştir.” İstanbul’dan çıkanların üzerlerinde silah ve bombalardan
+ziyade ilaç aranıyordu. Üzerlerinde sülfato dahi bulunsa hemen el konuluyordu. “Hilal-i
+Ahmer Cemiyeti Anadolu’ya yardım ediyor” bahanesiyle kurumu kontrol edebilmek için
+Bahriye Nazırı Kara Said Paşa bu iş ile görevlendirildi. Paşanın izin vermediği hiçbir faaliyet
+gerçekleştirilemiyordu. Bu suretle kardeş yarası sarmaya memur olan Hilal-i Ahmer,
+Anadolu’ya ne sağlık teşkilatı ne de ilaç gönderebiliyordu.8
+     İşgaller, ulaşım ve maddi imkansızlıklar şeklinde sıralanabilecek olumsuzluklar bir
+arada düşünüldüğünde sağlık ve yardım alanında savaş yıllarında Ankara’da faaliyet
+gösteren Vekâlet’in çalışması oldukça zordu. Devletin tüm organlarında olduğu gibi sağlık
+teşkilatı da yeniden kuruluyordu. Vekâlet kurulduğu zaman ilk etapta lazım olan hekim
+sayısı 290’dı. Elde ise yalnızca 180 hekim bulunuyordu. Zaman içerisinde Millî Mücadele’ye
+katılmak için Ankara’ya gelen hekimler ile birlikte sayı artmaya başladı. Hekim sayısının
+azlığından sonra karşılaşılan en ciddi mesele sağlık müesseselerinin olmamasıydı. Bu
+müesseselerin tamamına yakını İstanbul’da bulunuyordu. Ankara Hükümeti, İstanbul ile
+irtibatı kesince sağlık alanında zor duruma düşüldü. Örneğin en ölümcül hastalıklardan
+olan kuduz ile Ankara’da mücadele edebilecek bir kurum bulunmuyordu. İstanbul’da
+kuduz tedavi merkezi kısa sürede açılabilirken Ankara’da bunu yapmak aylar sürüyordu.
+Ankara’da Daülkelp Müessesesi açabilmek için kaçak şişeler içerisinde büyük zorluklarla
+malzemeler getirildi. Ancak bu şekilde kuduz tedavi merkezi açılabildi. Vekâlet’in asıl
+vazifelerinden olan aşı üretimi ise ilk başta yapılamıyordu. Mütareke döneminde Sivas’ta
+bulunan aşı müessesesi kapatılmıştı. Adnan Bey’in çabalarıyla aşı üretimi yeniden başladı
+ve 250 bin kişilik aşı üretebilecek duruma gelindi. Kuruluşunun onuncu ayı itibariyle
+Vekâlet ancak bu kadar yol alabilmişti. Adnan Bey’in ifadesiyle yeniden bir hastane vs.
+yapmak mümkün olmamıştı.9 Vekâlet’in asli görevlerinden olan muaveneti içtimaiye
+konusunda ise neredeyse hiçbir şey yapılamadı. Çünkü Muhacirin Müdüriyeti Umumisi
+bir türlü Vekâlet’e bağlanamadı. Yapılan teşebbüsler sonuçsuz kaldı.10
+    TBMM 14 Eylül 1920’de kabul edilen 22 numaralı Men’i Müskirat Kanunu ile ülkede
+her nevi alkolün imali, ithali ve satışı yasaklandı. Uymayanlar için ciddi cezalar getirildi.
+Tıbbi amaçlar için kullanılacak her nevi alkollü ürünün Sıhhiye Vekâleti gözetimindeki
+eczanelerde dağıtım ve satışına müsaade edildi.11 Hristiyan azınlığın dini ayinler ve
+cenaze merasimleri sırasında kullanılmak üzere gerekli olan şarabın her yıl Sıhhiye
+Vekâleti’nden talep edilmesine karar verildi.12 Askeri ve sivil sağlık kuruluşlarının tek
+çatıda toplanması için verilen kanun teklifi ordu ile Vekâlet’in işlerinin birbirinden farklı
+olduğu gerekçesiyle reddedildi.13 1922’de tıp mezunlarının üç yıl boyunca Anadolu’nun
+doğu ve güneydoğusunda bulunan şehirlerinde görev yapmaları mecbur hale getirildi.
+1923’te zorunlu hizmet süresi iki yıla indirildi.14
+    1 Mart 1921’de TBMM’nin yasama yılı açılışında konuşan TBMM Başkanı Mustafa
+7 Hakimiyet-i Milliye, 28 Haziran 1336/1920, No:41.
+8 Hakimiyet-i Milliye, 5 Temmuz 1336/1920, No:43.
+9 TBMM Zabıt Ceridesi, 27 Şubat 1337, D.1., C.8., s.500.
+10 BCA, 30.18.1.1.-1.1.18.
+11 Ceride-i Resmiye, 28 Şubat 1337, No:4.
+12 BCA, 30.18.1.1.1.17.5.
+13 Zafer Koylu, Sadet Altay, Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’nin Kuruluşu ve Yapılan Yasal Düzenlemeler
+(1920-1923), 1. Uluslararası Türk Tıp Kongresi, C.2, 2008, ss. 1061-1081.
+14 Mehmet Temel, Atatürk Döneminde Bulaşıcı ve Salgın Hastalıklarla Mücadele, Nehir Yayınları, İstanbul 2008,
+s.17-18.
+
+
+
+                                                   1304
+         Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                          Dönemindeki Faaliyetleri (1920-1930)
+
+Kemal Paşa sağlık, nüfus, kalkınma ve eğitim konularında gözle görülebilir sonuçlar elde
+edilemediğini dile getirmişti. Bu alanlarda başarı sağlanabilmesi için ciddi ekonomik
+yatırımların hayata geçirilmesi gerekiyordu.15 Mustafa Kemal Paşa, 1922 yılındaki açılış
+konuşmasında ise sağlık alanında takip edilen siyaseti şu şekilde açıklıyordu; “Milletimizin
+sıhhatinin muhafaza ve takviyesi, vefiyatın tenkisi, nüfusun tezyidi, emrazı içtimaiye ve
+sâriyenin gayri müessir bir hale ifrağı, bu suretle efrad-ı milletin dinç ve sâye kabiliyettar bir
+halde sahihülbeden olarak yetiştirilmesi.” Konuşmanın devamında yasama yılı içerisinde
+sağlık alanında memnuniyet verici gelişmelerin yaşandığını dile getiren Mustafa Kemal
+Paşa, ordu içerisindeki hastalıkların normal seyrinde devam ettiğini dile getirmişti.16
+    11 Mayıs 1921 tarihli kararname ile Dahiliye Vekâleti’ne bağlı olan Muhacirin
+Müdüriyeti Umumiyesi Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’ne bağlandı.17 1922’de
+bütçe kanunu gereğince kurulan Muaveneti İçtimaiye Şubesi muhacir, mülteci ve aşairin
+iaşe, sevk ve iskanlarıyla meşgul oldu. 1923’te muhacir ve mültecilerin muameleleri ve
+Rusya’da bulunan Türk esirlerinin anavatana getirilmeleri için çalışıldı. Trabzon, Elâzığ,
+Adana, Erzincan, Antep, Samsun, Kayseri, Bursa, İzmir, Sivas, Amasya, Biga, Bolu, Bigados
+(Selimpaşa), Edirne ve Konya darüleytamları ile İstanbul’daki işgalin sona ermesiyle birlikte
+buradaki darüleytamlar da Vekâlet’e ilhak edildi. İstanbul Darüleytamlar Müdüriyeti
+Umumisi ile birlikte 8 darüleytam, 250 yataklı İstanbul Çocuk Hastanesi ve 1.000 kadrolu
+Darülaceze, Vekâlet bünyesine katıldı. Darüleytamların iyi bir şekilde idarelerinin
+sağlanabilmesi için bir talimatname hazırlandı. Muaveneti İçtimaiye Müdüriyeti’nin unvanı
+ise Muaveneti İçtimaiye ve Darüleytamlar Müdüriyeti Umumisi şeklinde değiştirildi. Ekim
+1922’de Mübadele İmar ve İskân Vekâleti kurulunca muhacir, mülteci ve aşiretlere ait
+bütün hizmetler bu Vekâlet’e devredildi.18
+    Mahalli idarelere ait hastaneler ile ilgili yeni bir tasarrufa gidilmeyerek faaliyetlerine
+aynen devam etmeleri sağlandı. Kastamonu ve Zonguldak bölgelerinde özellikle frengi
+mücadelesi için kurulmuş olan hastaneler mahalli idarelere devredildi. İlk etapta çiçek
+aşısına yönelik oluşan ihtiyaç, Antalya yolu ile İtalyanlardan satın alınarak karşılandı.
+Kuduz aşısı ise virüs enjekte edilerek İstanbul’dan gizlice getirtilen bir tavşandan üretildi.
+10 Mart 1921’de Sıhhiye ve Muavenet-i İçtimaiye Vekâleti görevinden Dr. Adnan Bey’in
+ayrılması üzerine yerine Dr. Refik Bey (Saydam) getirildi. Aralık 1921’de ise Vekâlet’in
+başına Dr. Rıza Nur geçti. Dr. Rıza Nur bu görevi iki yıla kadar devam ettirdikten sonra
+Ekim 1923’te görevi yeniden Dr. Refik Bey’e bıraktı. 1924’ün son aylarında Dr. Mazhar
+Bey (Germen) vekillik görevinde kısa süre bulunmasına rağmen 1925 yılında Dr. Refik
+Bey bu göreve yeniden getirildi ve 1937’ye kadar aralıksız görevine devam etti. Savaşın
+şiddetlendiği günlerde Batı Cephesi’nden Ankara’ya getirilen yaralılar Sarı Kışla’da tedavi
+altına alındı. Doktor sayısındaki yetersizlikten ötürü tedaviler bizzat milletvekilleri ve
+doktorlar tarafından yapıldı. Savaşın Ankara’yı tehdit ettiği günlerde Vekâlet’in Kayseri’ye
+nakli emredildi. Vekâlet’in malzemeleri ve evrakı Kayseri’ye nakledilmesine rağmen
+kısa süre sonra yeniden Ankara’ya döndü. Millî Mücadele yıllarında Sıhhiye Vekâleti’nin
+ihtiyacı olan modern bir binanın inşaatına ise Ankara Yenişehir’de başlandı.19
+    2.     Erken Cumhuriyet Dönemi Faaliyetleri
+   Mustafa Kemal Paşa, kurtuluştan sonra ilk yasama yılı açılışında yaptığı konuşmada
+barış döneminde sağlık sorunlarının çözümlenmesi için kesin ve ciddi bir program
+oluşturulması gerektiğini vurguladı. Sağlık ile ilgili çalışmaların önemli bir kısmı salgın
+hastalıkların önlenmesi ve bulaşmanın önüne geçilmesi için sarf edilmişti. Çiçek ve tifüs
+hastalıkları bazı bölgelerde sınırlı olarak görülmesine rağmen zamanında alınan tedbirlerle
+15 TBMM Zabıt Ceridesi, 1 Mart 1337, D.1., C.9., s.4.
+16 TBMM Zabıt Ceridesi, 1 Mart 1338, D.1., C.18., s.4.
+17 Türkiye Cumhuriyeti Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı Cumhuriyet Arşivi, (BCA), 30.18.1.1.-3.19.8.
+18 Cumhurbaşkanlığı Arşivi (CBA), 01009963/583868.
+19 Sağlık Hizmetlerinde 50 Yıl, ss. 32-59.
+
+
+
+                                                   1305
+               Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                                S. Tekir
+               Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+bertaraf edilmişti. Savaş süresince yaşanan sürekli göç hastalıkların yayılmasındaki başlıca
+sebep olarak tespit edilmişti. Yapılan ve yapılması planlan mücadelenin temelinde sağlık
+personeli bulunuyordu. 1922 yılı itibariyle ülkede 337 doktor ile 434 sağlık memuru vardı.
+Ülke nüfusuyla karşılaştırıldığında oldukça düşük olan bu sayıların artırılması için maaşların
+yükseltilmesi ve askeriyeden terhis edilen doktorların çalıştırılması yolu seçilmişti. 1922
+yılında Sivas’ta beş milyon kişilik çiçek aşısı ile 537 kg kolera, 477 kg ise tifo aşısı üretildi.
+250 kg kinin halka ücretsiz dağıtıldı. Harabe şeklinde teslim alınan Sinop ve Klazomen
+(Klizman) tahaffuzhanelerinin yeniden işler hale getirilmesi için çalışmalar başlamıştı.20
+    Eylül 1922’de kazanılan büyük zafer sonrasında Millî Mücadele Hareketi askeri safhayı
+kapatıyordu. Her alanda olduğu gibi sağlık alanında da çözülmesi gereken binlerce sorun
+bulunuyordu. 29 Ekim 1923’te Cumhuriyet ilan edildikten sonra sağlık alanında büyük
+bir mücadele başladı. Fakat sağlık alanında yapılması gerekenler ile ilgili bir hedef tayin
+etmek dahi imkânsız gözüküyordu. Bunun yanında bazı sorunları çözerken diğerlerini
+ertelemekte mümkün değildi. Cumhuriyet idaresi, halk sağlığı çalışmalarına her alanda
+başlayıp, zamanla ve maddi imkânlar arttıkça faaliyet sahasının daha da genişletilmesi
+gerektiğine inanıyordu.21 1923’te Cumhuriyet idaresi tesis edildiğinde Türkiye’de bulunan
+yataklı tedavi hizmeti veren kurumların sayısal durumu şu şekildeydi;22
+Tablo 1: 1923’te Türkiye’de Bulunan Sağlık Kuruluşları
+
+ Kurum                                  Sayısı           Yatak Sayısı
+ Devlet Hastanesi                       3                950
+ Belediye Hastanesi                     6                635
+ Özel İdare Hastanesi                   45               2.450
+ Özel, Yabancı ve Azınlık               32               2.402
+ Toplam                                 86               6.437
+    1923’te Sıhhiye ve Muavenet-i İçtimaiye Vekâleti kendi bünyesinde bulunan yalnızca
+üç hastaneyle yataklı tedavi hizmetlerini yürütmeye başladı. Vekâlet ilk etapta şehirlerde
+özel idareler bünyesinde kurulmuş olan gureba hastaneleri veya memleket hastanesi
+olarak adlandırılan sağlık kuruluşlarının yönetim şekillerini düzenlemek için yol gösterici
+faaliyetlerde bulundu. Bütçeye eklenen kalemlerle kötü durumda olan hastaneler işler
+duruma getirildi.23 Ekim 1923’te İstanbul’un kontrolünün tamamen TBMM’ye geçmesiyle
+birlikte buradaki sağlık kuruluşlarından istifade edilmeye başlandı.
+    1924 yılı bütçe görüşmeleri sırasında söz alan mebusların seçildikleri bölgeler hakkında
+dile getirdikleri istek ve talepleri Türkiye panoramasını ortaya koyuyordu. Birçok bölgeye
+Birinci Dünya Savaşı’ndan itibaren ne bir doktor ne de sağlık memuru uğramıştı. İlaçlar
+yetersiz, hastane ve dispanser yok, salgın hastalıklar ise kol geziyordu. Bazı bölgelerde
+uyuz, bazılarında cüzzam bazılarında ise sıtma ve frengi halkı çaresiz bırakıyordu. Doktorlar
+uzak bölgelere gitmek istemedikleri için ancak çıkartılacak zorunlu hizmet kanunu ve
+maaşlara yapılacak yüksek oranlı bir zam ile bu mümkün olabilirdi. Doktora ulaşamayan
+halk ampirik tedavi yöntemlerine tevessül ediyordu. Sıtmalılar iple bağlanırken tedavinin
+ilacı olan kinin belediye başkanlarının çekmecelerinde saklanıyordu. Frenginin tedavisinde
+kullanılan neosalvarsan ise karaborsada satılıyordu.24
+20 TBMM Zabıt Ceridesi, 1 Mart 1339, D.1., C.28., ss. 6-7.
+21 Hakimiyeti Milliye, 12 Mart 1929, No:2758.
+22 Cumhuriyet Dönemi Yataklı Tedavi Hizmetleri 1923-1983 ve 1982 Yılı Çalışmaları, s.28.
+23 Cumhuriyet Dönemi Yataklı Tedavi Hizmetleri 1923-1983 ve 1982 Yılı Çalışmaları, Sağlık ve Sosyal Yardım
+Bakanlığı, Ankara 1983, ss. 28-29.
+24 Meliha Özpekcan, “TBMM Tutanaklarına Göre Cumhuriyetin İlk On Yılında Sağlık Politikamız”, Türkler, C.17,
+Yeni Türkiye Yayınları, Ankara,2002, ss.436-445.
+
+
+
+                                                  1306
+       Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                        Dönemindeki Faaliyetleri (1920-1930)
+
+    Sağlık alanında yapılacak olan mücadelede halkın bilinçlendirilmesi oldukça önemli
+bir yere sahipti. Çünkü halk arasında hastalıkların tedavileri ile ilgili çok sayıda hurafe
+ve ampirik yöntem bulunuyordu. Karaman’da hastalıkların tedavisi için İbrala, Letere
+ve Tevhid adlı ocaklara gidilirken, Ankara’da üfürükçüler oldukça revaçtaydı. Halk
+arasında bu durum o kadar yaygınlaşmıştı ki hastalanan kişi doktordan önce üfürükçülere
+gidiyordu. İstanbul ve Çatalca dışında ülkenin hemen her bölgesinde bu tarz manzaralara
+rastlamak mümkündü. Bunun temel sebebi eğitimsizlik olarak öne çıkarken devletin sağlık
+hizmetlerini zamanında götürememesi de önemli bir etmendi.25 Sıhhiye Vekâleti’nin
+ülkenin her yanına sağlık hizmeti götürürken cehaletle de mücadele etmesi gerekecekti.
+    1924’te İstanbul ve Sivas’ta çiçek aşısı üretebilecek iki merkez bulunuyordu. Sivas’ta
+bulunan laboratuvar işletilemiyordu. Buranın işler hale getirilerek Anadolu’nun ihtiyacı
+olan çiçek aşısının bir an önce üretilmesi gerekiyordu. Kimyahaneler ise İstanbul ve
+Ankara’da bulunuyordu. İstanbul’da bulunan kimyahane çağın gerektirdiği her türlü alet
+ile donatılmış olduğundan gerekli olan tahlilleri yapabiliyordu. Ankara Kimyahanesi ise
+mevcut ihtiyaca cevap verecek konumda olmasına rağmen 1924 yılı bütçesine konulacak
+tahsisat ile daha iyi duruma getirilecekti. Kinin Kompirhanesi; İstanbul’da ve mükemmel
+bir halde bulunuyordu. 1924 yılında ampul şubesi ilave edilerek frengi mücadelesinde
+kullanılacak ilaçlar burada hazırlanacaktı.26
+    1924 senesi Türkiye Cumhuriyeti’nin sağlık tarihi açısından bir milat olarak kabul
+edilebilir. Bu tarihten itibaren birçoğu kâğıt üzerinde kalan sağlık teşkilatının faal hale
+getirilebilmesi için önemli adımlar atıldı. Kazalara, zorunlu hizmet kanunu çerçevesinde
+doktor gönderilirken, kaza dispanserleri ihdas edilerek sıhhî ve içtimaî sahada önemli
+gelişmeler yaşandı. Ülkenin çeşitli yerlerinde açılacak numune hastaneleri ile sağlık
+alanındaki temel ihtiyaçlar karşılanacaktı. Halk her türlü salgın hastalık için bilgilendirilirken,
+açılacak ve açılması planlanan sağlık kuruluşlarında hizmet verecek uzman tabip ve
+yardımcı sağlık personelinin yetiştirilmesi sağlanacaktı. Hastanelerde çocuklar için açılacak
+özel birimler vasıtasıyla çocuk ölüm oranları azaltılacaktı. Sıtma ve frengiye karşı fenni
+ve ilmi çerçevede bir mücadele yapılacaktı. Küçük sıhhiye memurlarının sayısı artırılarak
+her nahiyeye bir sıhhiye memuru gönderilecekti. Sıhhi istatistik ve neşriyat konusunda
+gerekli çalışmalar yapılarak faaliyetlerden elde edilecek sonuçlar sağlık politikalarının
+belirlenmesi konusunda belirleyici olacaktı. Gece öğrenimi görecek tıp öğrencileri
+kayıt edilerek az zamanda çok tabip yetiştirilecekti. Bunların dışında, devlet teşkilatının
+aksamadan ilerleyebilmesi Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’nin ihtiyacı olan
+yüzlerle ifade edilebilecek kanun ve nizamnamelerin hızlıca çıkartılması gerekiyordu. Tüm
+bunlar yapılmadan sağlık alanında esaslı bir kalkınma ve mücadelenin yapılması mümkün
+değildi. 1924 yılında sağlık teşkilatı oldukça ilkel bir vaziyetteydi. Kısaca erken hedefleri
+şu şekilde sıralamak mümkündü: Sağlık teşkilatını genişletmek, tabip yetiştirmek, numune
+hastaneleri açmak, ebe ve küçük sıhhiye memurları yetiştirmek, numune hastanelerinde
+çocuk bölümleri açmak, verem sanatoryumu açmak, sıtma ve frengi başta olmak üzere
+bulaşıcı hastalıklarla mücadele etmek ve trahom ile mücadele edebilmek için yabancı
+doktor getirmek.27 Belirtilen hedeflere ulaşmak için Sıhhiye ve Muavenet-i İçtimaiye
+Vekâleti, Dr. Refik Bey’in öncülüğünde ciddi bir çalışmaya girişti.
+    1924’te Tevhidi Tedrisat Kanunu gereğince darüleytamlar bütçeleri ve heyetleriyle
+birlikte Maarif Vekâleti’ne devredildi. 1924 bütçe kanunu çerçevesinde Ankara, Sivas,
+Erzurum, Diyarbakır’da bulunan memleket hastanelerinin isimleri numune hastaneleri
+olarak değiştirilerek Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’ne devredildi. Ankara
+Numune Hastanesi 250, diğerleri ise 150’şer yataklı olarak tüm tesisat ve ekipmanları
+25 Osman Gümüşçü, “Osmanlıdan Cumhuriyete Geçiş ve Cumhuriyetin İlk Yıllarında Halk Sağlığı”, Atatürk
+Araştırma Merkezi Dergisi, C: XIX, S.55, Mart 2003, s.132.
+26 Hakimiyeti Milliye, 29 Kanunusani 1340/1924, No:1032.
+27 Hakimiyeti Milliye, 29 Kanunusani 1340/1924, No:1032.
+
+
+
+                                              1307
+                Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                                 S. Tekir
+                Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+yeniden temin edildi. Bunun dışında 250 yataklı çocuk hastanesi, 50 yataklı Zonguldak
+Hastanesi, 650 yataklı İstanbul Emrazı Akliye ve Asabiye Hastanesi, 50 yataklı Heybeliada
+Sanatoryumu, 100 kişilik İzmir Sağır Dilsiz ve Körler Müesseseleri kuruldu. Anadolu’nun
+muhtelif bölgelerindeki kaza merkezlerinde beşer yataklı olmak üzere toplam 150 adet
+muayene ve tedavi tesis edildi. Numune hastaneleri ve Zonguldak hastanesi için birer adet
+röntgen makinesi satın alındı. Erken Cumhuriyet döneminde Türkiye’nin sağlık alanındaki
+en büyük eksikliklerinden birisi doktor sayısının azlığıydı. Sayının artırılabilmesi için tıp
+öğrencilerine gerekli kolaylıkların gösterilmesi gerekiyordu. Bu amaca yönelik olarak
+1924’te İstanbul’da 200 kişinin barınabileceği Leylî Tıp Talebe Yurdu kuruldu. Aynı amaca
+yönelik olarak 50 kişilik Leylî Kabile Yurdu açıldı. Bu yurtların bütün malzemeleri Vekâlet
+tarafından temin edildi. Yurtlarla ilgili talimatname de hazırlandı. Yeni açılan hastanelerin
+tıbbi ve idari olarak yönetilmelerinin yasal bir zemine kavuşturulması için 203 maddelik
+Hastaneler Talimatnamesi ile Muayene ve Tedavi Evleri Talimatnamesi hazırlandı. Aynı
+dönem içerisinde Sıhhiye Vekâleti Teşkilatı’nı gösteren bir harita hazırlanarak bastırıldı.
+Numune hastanelerinin eksikliklerinin giderilebilesi için 60 bin lira, özel darüleytamlara
+20 bin lira, Darüşşafaka’ya 10 lira ile özel müessese ve cemiyetlere beşer bin lira Vekâlet
+tarafından yardımda bulunuldu.28 Sağlık alanında yapılan faaliyetlerin yasal zemine
+oturtulması için çok sayıda kanuni düzenleme yapılması gerekiyordu. Bunun için sıtma,
+su, laboratuvar, eczacılık, hıfzıssıhha, uyuşturucu maddeler ve hekimlerle ilgili onlarca
+kanun çıkarıldı.29 Sağlık alanında faaliyet gösteren çalışanlar olmadan sağlık hizmetlerinin
+verilmesi düşünülemezdi. Cumhuriyet’in ilk yıllarında sağlık çalışanlarının özlük haklarının
+düzenlenmesi için ciddi adımlar atıldı. Halkın sağlığı ile alakadar olan meslek sahiplerinin
+yeni esaslar üzerine kurulu yasal düzenlemeler yapılması gerekiyordu. Bunun için eczacılar,
+tabipler, dişçiler ve zehirli madde ticaretiyle ilgilenenler için kanuni düzenlemeler yapıldı.30
+    Erken Cumhuriyet döneminde halk sağlığı alanında karşı karşıya kalınan en büyük
+sorunlardan birisi hiç şüphesiz bulaşıcı hastalıklardı. Bulaşıcı hastalıklar kısa sürede büyük
+salgınlara dönüşebiliyor ve ciddi ölümleri beraberinde getiriyordu. Uzun savaş yılları
+Anadolu’nun her anlamda harap olmasına neden olmuştu. Yıkıntı, beraberinde salgın
+hastalıkları getirmişti. Türkiye’de öncelikli olarak mücadele edilmesi gereken hastalığın
+sıtma olduğu konusunda tüm kurumlar fikir birliği içindeydi. 1924’te Sıhhiye Vekâleti
+tarafından toplanan bir komisyon marifetiyle ilk mücadele edilmesi gereken hastalık
+sıtma olarak belirlendi. 1925’de I. Millî Tıp Kongresi’nin de en önemli başlığı sıtmaydı.
+Hastalık ülkenin her köşesinde görülüyor olduğu için diğerlerinden ayrılıyordu. Türkiye’nin
+en doğusundaki Iğdır Ovası’nda sıtmadan ötürü halk tarımsal faaliyetlerini yapamadığı
+için Ağrı Dağı’na çıkıyordu. Samsun Çarşamba ve Bafra ovalarında hastalıktan dolayı
+köyler haritadan siliniyordu. Adana, Bursa, Aydın, Ankara, Sivas hastalığın yoğun olarak
+görüldüğü başlıca bölgelerdi.31
+    Sıtma ülkenin büyük bir kısmını etkisi altına almıştı. Ekonomik katkısı büyük olan
+yerlerin sıtmadan dolayı mustarip olması bambaşka sorunları beraberinde getiriyordu.
+Sahil bölgelerinde nüfus yoğunluğunun fazla olduğu bölgelerde 1924 yılında yapılan bir
+çalışmaya göre halkın %90’nın sıtmalı olduğu anlaşıldı.32 Bu tabloyla mücadele edebilmek
+için 13 Mayıs 1926’da Sıtma Mücadelesi Kanunu çıkartıldı. Kanun ile birlikte Sıhhiye ve
+İçtimai Muavenet Vekâleti sıtma hastalığı ile mücadelede sorumlu hale getirildi. Kanunla
+fakirlere, köylülere, işçilere tedavi için ücretsiz kinin dağıtımı yasal zemine kavuşturuldu.
+Sıtmanın kaynağı olan bataklık arazilerin kurutulması için devlet, tüm organlarıyla birlikte
+28 CBA, 01009963/583868.
+29 CBA, 01009962/586891.
+30 Hakimiyeti Milliye, 12 Mart 1929, No:2758.
+31 Gümüşçü, “Osmanlıdan Cumhuriyete Geçiş ve Cumhuriyetin İlk Yıllarında Halk Sağlığı”, s.141-142.
+32 BCA, 0.30.10.0.0.177.219.4.4.
+
+
+
+
+                                                  1308
+            Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                             Dönemindeki Faaliyetleri (1920-1930)
+
+topyekûn bir mücadeleye girişecekti. Kanun ile lağım ve kanalizasyon sistemi olmayan
+yerlerde açılan çukurların üzerlerinin kapalı hale getirilmesi zorunlu tutuldu. 33
+    Anadolu insanını yıllardan beri kemiren salgın hastalıklarla mücadele 1925 yılında
+sıtma mücadelesiyle başladı. Nüfusun yarısına yakını bu hastalıktan mustarip olduğu için
+işgücü anlamında ciddi sorunlar yaşanıyordu. Ankara’dan başlayan mücadeleye kısa süre
+içerisinde ciddi bütçeler ayrıldı. Sıtma çok yönlü mücadele edilmesi gereken bir hastalıktı;
+öncelikli olarak bataklık araziler kurutularak sıtmaya neden olan sivrisineklerin barınma ve
+yaşam alanları ortadan kaldırılmalıydı. Onlarca yıl sürecek bu mücadele sırasında hastalığa
+yakalanan halk ise ücretsiz dağıtılacak kinin ile tedavi edilebilirdi. Türkiye’de üretilme
+imkânı olmayan ilaç yurtdışından devlet eliyle ithal edilerek Ziraat Bankası aracılığıyla
+halka dağıtıldı.34
+    Sıtma mücadelesinin en ücra köşelere kadar ulaştırılabilmesi için Sıtma Mücadele
+Mıntıkaları kuruldu. Bunlar Adalar, Aydın, Antalya, Ankara, Eskişehir, Bursa-Balıkesir,
+Kocaeli, Manisa, Konya, Samsun’da yer almaktaydı. Mücadele mıntıkaları ve alt bölgeleri
+şu şekildeydi;35
+Tablo 2: Sıtma Mücadele Mıntıkaları
+
+ Adana        Aydın     Antalya     Ankara      Eskişehir      Bursa       Kocaeli    Manisa      Konya     Samsun
+
+Adana-1       Aydın      Antalya   Hacıbayram   Eskişehir      Bursa        İzmit      Manisa     Konya     Samsun
+
+Adana-2 Karahayıt         Serik    Saraçsinan   Sivrihisar     Köyler     Sapanca      Kasaba     Ereğli     Köyler
+
+                                                              Mustafa
+ Mersin       Koçarlı   Manavgat     Ankara     Seyitgazi                 Adapazarı   Akhisar    Akşehir     Bafra
+                                                             Kemal Paşa
+
+Osmaniye Bağarası        Fenike        Zir      Mihalıççık   Karacabey     Akyazı      Salihli     Ilgın    Çarşamba
+
+ Tarsus       Nazilli     Kaş        Polatlı                  Balıkesir    Yalova     Menemen    Beyşehir    Terme
+
+ Ceyhan       Torbalı                Keskin                   Susurluk                           Çumra
+
+ Dörtyol      Denizli                Kalecik                  Manyas                             Aksaray
+
+ Islâhiye     Küllük                Çiçekdağı                Bandırma                             İnevi
+
+                                     Yerköy
+
+                                     Çankırı
+
+
+    Mücadele mıntıkaları kendi alt birimlerine ayrılırken öncelikli olarak su mühendislerinin
+yardımıyla bataklık arazilerin kurutulması için çalışmalar yapıldı. Mücadele sırasında sıtmalı
+bireylerin tespiti için uzman doktorlar tarafından halk muayene edilmeye başlandı. 1925-
+1926 döneminde muayene edilen kişi sayısı 40 bin iken 1929-1930 devresinde 986 bine
+ulaştı. Hastalığın tedavisinde kullanılan kinin dağıtımı ise yüz katı oranında arttı. Mücadele
+mıntıkalarında yapılan arazi ıslahatı ile 11.250 dönüm bataklık ıslah edilirken 91 bin metre
+uzunluğunda su kanalı açıldı.36 4 yıl gibi kısa bir süre içerisinde sıtma mücadelesinde büyük
+yol alındı. Buna rağmen ülkedeki tüm sıtmalı bireylere ulaşmak mümkün olmadı.
+
+33 Resmi Ceride, 29 Mayıs 1926, No:384.
+34 Erken Cumhuriyet dönemi sıtma mücadelesi için bkz: Süleyman Tekir, “Cumhuriyet’in İlk Yıllarında Türkiye’de
+Sıtma ile Mücadele Faaliyetleri (1923-1930)”, Tarihsel Süreçte Anadolu’da Sıtma, Gece Kitaplığı, Ed. Eren
+Akçiçek vd. Ankara, 2017, ss. 397-420.; Fevzi Çakmak, “Türkiye Büyük Millet Meclisi Zabıtlarına Göre Türkiye
+Cumhuriyeti’nin Sıtma Savaşı (1920-1946), Tarihsel Süreçte Anadolu’da Sıtma, Gece Kitaplığı, Ed. Eren Akçiçek
+vd. Ankara, 2017, ss.421-462.;
+35 CBA, 01009962/586891.
+36 CBA, 01009962/586891.
+
+
+
+                                                         1309
+                Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa                               S. Tekir
+                Kemal Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+   Sıtma mücadele mıntıkalarında beş sene boyunca yapılan mücadelenin rakamları
+hastalığın büyüklüğünü göstermesi açısından oldukça önemlidir;37
+Tablo 3: 1925-1930 Yıllarında Sıtmalıların Tedavileri
+
+ Dönem                   Muayene                   Tedavi Altına Alınan       Tedavisi Sonuçlanan
+ 1925/1926               40.186                    27.370                     12.524
+ 1926/1927               561.518                   132.944                    46.376
+ 1927/1928               725.245                   123.340                    38.216
+ 1928/1929               838.352                   127.824                    39.130
+ 1929/1930               986.538                   191.435                    12.524
+    Mücadele mıntıkalarında yapılan arazi ıslahatı, kurutulan bataklıklar ve açılan kanallar
+ise şu şekildeydi;38
+Tablo 4: Sıtma Mücadele Mıntıkalarında Arazi Islahı
+
+ Mıntıka                  Kurutulan Bataklık                                  Açılan Kanal (Metre)
+                          Dönüm                      M   2
+
+
+ Ankara                   0                          5.917                    7.844
+ Antalya                  200                        0                        0
+ Aydın                    2.050                      1.414                    2.460
+ Adana                    4.000                      4.820                    11.820
+ Bursa-Balıkesir          0                          11.020                   891
+ Samsun                   0                          56.300                   7.850
+ Kocaeli                  5.000                      15.350                   17.500
+ Diğer                                               13.150                   43.500
+   Mücadele mıntıkalarında sıtmanın etkilerinin azaltılması için yalnızca bataklık kurutma
+ve kanal açma faaliyetleri yapılmadı. Mıntıkalara gönderilen uzman hekimler aracılığıyla
+halkın tedavisi için çalışmalara hız verildi. Temmuz 1925’te faaliyete geçen Adana
+mıntıkasında 1925-1930 döneminde 836.879 kişi muayene edildi. Aynı tarih aralığında
+Ankara’da 195.122 kişi, 1926’dan itibaren Bursa-Balıkesir mıntıkasında 877.659 kişi,
+Aydın’da ise 459.112 kişi muayeneden geçirildi.39 Rakamlar dikkate alındığında hastalığın
+korkunç boyutlara ulaştığı rahatlıkla söylenebilir.
+    Erken Cumhuriyet döneminde sıtma açısından bakıldığında ilk adımın atıldığı dönem
+olarak kabul edilebilir. 1928’de hastalığın en yoğun görüldüğü Adana’da bir sıtma
+enstitüsü açılarak hastalıkla bilimsel usuller çerçevesinde mücadele yapılmasının ilk adımı
+atıldı. Yapılan mücadelenin faydalarının görülmesi üzerine halkın mücadele memurlarına
+olan güveni arttı. Yıllardır çocuk sahibi olamayan bireyler sıtma tedavisinin ardından
+çocuk sahibi oldular. Özellikle çocuk ölümlerinde görülen azalma halkın mücadeleye
+olan inancını bir kat daha artırdı. Çocukların kinini kolay tüketebilmeleri için çikolatalı
+versiyonları üretildi. 1927 yılında özellikle Adana bölgesinde bataklık arazinin kurutulması
+için ciddi mücadele yapıldı. En büyük bataklıklardan olan Aslım tamamen kurutuldu.40
+37 CBA, 01009962/586891.
+38 CBA, 01009962/586891.
+39 CBA, 01009962/586891.
+40 Türkiye Cumhuriyeti Devlet Yıllık 1928-1929, İstanbul, 1929, ss.161-162.
+
+
+
+                                                   1310
+       Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                        Dönemindeki Faaliyetleri (1920-1930)
+
+    Sıtma dışında Türkiye’de yaygın olarak görülen hastalıkların başında frengi geliyordu.
+Bolu Mebusu Dr. Fuad Bey tarafından Ağustos 1920’de verilen Frenginin Men ve Tahdidi
+Sirayeti adlı kanun teklifinde hastalığın yayılmasının engellenmesi, yayılmasına sebep
+olanların cezalandırılması talep ediliyordu. Hastalık ilk etapta Anadolu’nun kuzeybatı
+bölgelerinde özellikle de Kastamonu ve Bolu yörelerinde görülmüştü. Fakat Balkan ve
+Birinci Dünya Savaşları esaslı bir mücadele yapılmasını engellemişti. Savaşlarla beraber
+tüm ülkeye yayılan hastalığın önüne geçilebilmesi için olağanüstü mücadele yapılmalıydı.
+Kanun görüşmeleri yapıldığı sırada yalnızca Kütahya’da üç bin frengili kayıt alındaydı.
+Fuad Bey teklifiyle ilgili meslektaşlarından destek almıştı. Tüm doktorlar ülkedeki kör ve
+sakat doğumlarının sebebini frengi olarak görüyorlardı.41 Mecliste yapılan görüşmelerin
+ardından Frenginin Men ve Tahdidi Sirayeti Hakkında Kanun yasalaştı.42 Frengiye karşı
+yapılacak mücadele 90 numaralı kanun ile yasal zemine oturtuldu. Böylece frengililerin
+tedavilerinden Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’ne bağlı olan sağlık teşkilatı
+sorumlu hale getirildi.43
+    Treponema pallidum adlı bakterinin neden olduğu cinsel yol ile bulaşan bir hastalık
+olan frengi uzun süreli tedavi gerektirmekteydi. Erken Cumhuriyet döneminde frengi,
+en yoğun olarak Bursa ve Sivas vilayetlerinde görülüyordu. 1925 yılının sonlarından
+itibaren frengi ile mücadele teşkilatları oluşturuldu. Hastalıkla mücadelede genel olarak
+neosalvarsan kullanılırken tıbbi alanda yaşanan gelişmeler yakından takip edildi. Yeni
+kurulan mücadele teşkilatları aracılığıyla getirilen bizmejenol adlı ilaçta mücadelede
+kullanılmaya başladı. Mücadele bölgelerine gönderilecek olan doktorlar İstanbul’da
+özel bir eğitime tabi tutuluyorlardı. Frengi ile aktif bir mücadele yapılabilmesi için
+1925 yılının sonlarında ilk etapta Bursa Orhaneli ile Sivas Merkez ve Hafik kazalarında
+teşkilatlar çalışmaya başladı. Frengi mücadele teşkilatları 1927’de Sivas’ın tüm kazalarına,
+1929’da ise Ordu, Fatsa, Düzce ve Çarşamba’da faaliyete geçti.44 Sivas’ta 1927 sonuna
+kadar 36 bin erkek 38 bin kadın olmak üzere yaklaşık 75 bin kişi muayene edildi. Etkin
+mücadele şikayetlerin azalmasına neden olurken rakam 1928’de 15 binlere geriledi.45
+Bursa’da ise 1925-1927 döneminde 16 bin kişi muayene edildiği gibi hastalık görülen
+bireylerin tedavisine başlandı. Düzce ve Çarşamba mücadele bölgelerinde nispeten daha
+az muayene yapılmıştı. Bunun en önemli sebebi ise zührevi hastalıklarda halkın utanma
+duygusuyla hareket edip ayıplanma endişesiyle hastalığı gizlemesinden kaynaklanıyordu.
+Bu durum gerçek rakamlara ulaşmanın önündeki en büyük engellerin başında geliyordu.
+46
+   1929 yılı itibariyle Sivas’ta 100 kişi muayene edilirken 4 bini tedavi altına alınmıştı.47
+1930 yılında hükümet tabiplikleri tarafından kesin olarak frengili oldukları tespit edilen
+frengili sayısı 84.544 kişiydi. Beş mücadele teşkilatında tespit edilen sayısı ise 15.939’du.
+13 milyon civarındaki ülke nüfusu düşünüldüğünde 100 bin frengili tablonun vahametini
+ortaya koymaktaydı.48 Gerçek rakamlar daha fazla olabilirdi. Halkın cinsel hastalığı
+gizlemesi gerçek rakamlara ulaşmanın önündeki en büyük zorluktu. Zührevi hastalıklara
+yakalananların kolayca müracaat ederek gizli bir şekilde tedavi olabilmeleri amacıyla
+Ankara ve İzmir’de birer Deri ve Tenasül Hastalıkları Dispanseri açıldı. Bunların sayısı
+zaman içerisinde 16’ya yükselirken hastalıkla mücadelede büyük faydaları görüldü.49
+    Türkiye’nin güney bölgelerinde yoğun olarak görülen trahom hastalığı ile 1924 yılında
+
+41 Meliha Özpekcan, Türkiye Cumhuriyeti’nde Sağlık Politikası (1923-1933), (Yayınlanmamış Doktora Tezi),
+İstanbul Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Enstitüsü, İstanbul 1999, s.62-63.
+42 Ceride-i Resmiye, 7 Mart 1337, No:5.
+43 BCA, 030.10.0.0.177.220.18.24.
+44 Hakimiyeti Milliye, 12 Mart 1929, No:2758.
+45 BCA, 030.10.0.0.177.220.18.25.
+46 CBA, 01009962/586891.
+47 BCA, 030.10.0.0.177.220.8.1.
+48 BCA, 490.01.1464.3.2.9
+49 Sağlık Hizmetlerinde 50 Yıl, s.96.
+
+
+
+                                                1311
+                Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa                                     S. Tekir
+                Kemal Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+mücadele kararı alındı. Bazı uzmanların yurtdışına gönderilerek eğitim almaları sağlandı.50
+Mücadele, hastalığın yoğun olarak görüldüğü Malatya, Adıyaman ve Gaziantep şehirlerinde
+yoğunlaştı. Bu şehirlerde açılan trahom mücadele hastane ve dispanserlerinde hastalıkla
+mücadele edildi.51 Akdeniz havzasındaki ülkelerle karşılaştırıldığında diğer bulaşıcı
+hastalıklar konusunda Türkiye oldukça iyi bir konumda bulunuyordu. Güney komşularında
+yoğun olarak görülen veba vakaları sağlık teşkilatının yoğun mücadelesi sonucunda
+Türkiye’de çok az görülür hale geldi. 1928 yılında üçü Antalya birisi İstanbul olmak üzere
+dört vakadan başka veba görülmemişti. Fakat 1920’li yıllarda Avrupa ve Amerika’nın başına
+bela olan kızıl salgını Türkiye’yi de derinden etkiledi. Kızıl hastalığı ile sıradan önlemlerle
+mücadele etmek mümkün değildi. 1920’lere kadar bilinen bir aşısı olmayan kızıl için 1927
+sonrasında bir aşı Avrupa ile birlikte Türkiye’de de kullanılmaya başlandı. Hastalığın çok
+yoğun görüldüğü Konya ve Kastamonu illerinde okul çocukları aşılandı.52 Kuduz ve kuduz
+şüphesi taşıyan vakaların muayene ve tedavileri için 1887’de İstanbul’da kurulan Daülkelp
+Müessesesi dışında bir kurum bulunmuyordu. Kuduz mücadelesi 1930’lara kadar canlı
+aşı ile yapılabildiğinden tek bir merkezden bu hastalık ile mücadele etmek imkansızdı.
+Bunun için 1925’te Erzurum ve Sivas, 1926 Diyarbakır, 1927 Konya ve 1930’da İzmir’de
+birer merkez açıldı.53
+   Türkiye’de uzmanlar tarafından yapılan bilimsel araştırmalara kadar, ülkede çocuk
+ölümlerinin çok yüksek olduğuna inanılıyordu. Yapılan araştırmalar neticesinde ölüm
+oranlarının abartıldığı kadar yüksek olmadığı sonucuna varılmıştı. Fakat, medeni ülkelerle
+karşılaştırıldığında düşük kabul edilebilir seviyelerde olmadığı da ortaya çıkmıştı. Çocuk
+ölümleri öncelikle halkı bilinçlendirerek azaltılabilirdi. Sıhhiye Vekâleti bir yandan halkın
+aydınlanması için faaliyet gösterirken diğer yandan ise yeni kurumlar açarak mücadele
+cephesini genişletmeye çalıştı. İlk etapta Konya ve Ankara’da açılan Doğum ve Çocuk
+Bakımevleri ile hem doğum yapacak kadınlar hem de süt çocukları için gerekli sıhhî
+koşullar sağlandı. Böylece bilinçsiz doğum ile kadın ve çocuk ölümlerinin önüne geçilmeye
+başlandı.54
+    Şehir ve kasabalarda halk sağlığını korumak için 1928 yılında çıkartılan su kanunu ile
+belediyelerin fenni surette su hatları yapmaları mecbur hale getirildi. 1929 yılına kadar
+18 şehir ve kasabada gelişmiş su hatları yapıldı. Sıtma mücadelesi çerçevesinde ise
+kanalizasyon sistemleri yapılmaya başlandı. Verem mücadelesi Osmanlı Devleti’nden
+itibaren büyük sorunların başında geliyordu. Oldukça pahalı ve uzun süreli olan mücadele
+için Heybeliada’da açılan sanatoryum sağlık alanında atılan en büyük adımlardan birisi
+olarak kabul edilebilir. Cüzzam Cumhuriyet’in ilk yıllarında ihmal edilen hastalıklardan
+birisiydi. Sıhhiye ve Muavenet-i İçtimaiye Vekâleti Cumhuriyet’in ilanını takip eden
+6-7 yıllık süreçte her alanda mücadele sahasını geliştirmesine rağmen teşkilatı yükü
+taşıyamaz hale geldi. Bu yüzden 1930’dan itibaren yeni bir dönüşüm yapılması
+kaçınılmaz gözüküyordu. Yaşanan en büyük sorunlardan birisi yeteri derecede doktor
+bulunamamasından kaynaklanıyordu. Tıp fakültesinin yetiştirdiği tabip miktarı her sene
+artması gerekirken gittikçe azalıyordu. Tıp talebe yurdunun olmaması halinde Türkiye’nin
+doktor yetiştirme imkânı ortadan kalkabilirdi. 1928 yılında Ankara’da kurulan Hıfzıssıhha
+Müessesesi’nin bina inşaatının tamamlanarak faaliyete geçmesiyle birlikte sağlık alanında
+asıl atılımın yapılması bekleniyordu.55 Cumhuriyet idaresinin karşı karşıya kaldığı en ciddi
+sorunlardan birisi ise eğitimli ebelerin azlığıydı. Bunun için İstanbul’da açılan Kadırga
+Viladethanesi Kabile Mektebi ile Cumhuriyetin erken döneminde bu sorun aşılmaya
+50 Sevilay Özer, Türkiye’de Trahomla Mücadele (1935-1945), Ankara Üniversitesi Türk İnkılâp Tarihi Enstitüsü
+Atatürk Yolu Dergisi, S.54, Bahar 2014, s.126.
+51 BCA, 030.10.0.0.177.220.18.27.
+52 Hakimiyeti Milliye, 12 Mart 1929, No:2758.
+53 Süleyman Tekir, Türkiye Cumhuriyeti’nde Kuduz ile Mücadele Çalışmaları (1908-1914), Tarihsel Süreçte
+Anadolu’da Kuduz, Ed. Çağrı Büke vd., Ankara, 2018, s.311.
+54 Hakimiyeti Milliye, 12 Mart 1929, No:2758.
+55 Hakimiyeti Milliye, 12 Mart 1929, No:2758.
+
+
+
+                                                  1312
+          Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                           Dönemindeki Faaliyetleri (1920-1930)
+
+çalışıldı.56 Sağlık personelinin sayısının artırılmasına yönelik çalışmalarda beş yıllık
+süreçte görece bir başarıdan söz edilebilir. Aşağıdaki tabloda Vekâlet, belediyeler ve özel
+teşebbüs bünyesinde görev yapan doktor, eczacı, sağlık memuru, ebe, hemşire ve idare
+memurlarının sayısı görülmektedir.57
+Tablo 5: 1926-1930 Türkiye’de Sağlık Personeli Sayısı
+
+ Yıl         Doktor      Eczacı        Sağlık          Ebe               Hemşire            İdarî
+                                       Memuru                                               Personel
+ 1926        966         122           797             163               -                  267
+ 1927        1.059       136           1.036           347              130                 516
+ 1928        1.078       126           1.059           377              130                 572
+ 1929        1.090       131           1.189           397              164                 618
+ 1930        1.189       127           1.268           400              202                 553
+    Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’ne bağlı tüm teşkilat bulaşıcı hastalıklarla
+etkin mücadele için yoğun bir mücadeleye girişti. Anadolu’da yoğun olarak görülen
+bulaşıcı hastalıklardan kaynaklı olduğu tespit edilebilen ölüm oranları bu durumu
+doğrular niteliktedir. 1925-1930 yılları arasında bazı hastalıkların neden olduğu ölümler
+şu şekildeydi: Boğmaca 117, tetanos 89, çiçek 1.220, hummayı nifasi 108, amipli dizanteri
+115, difteri 715, şarbon 111, karahumma 623, kızamık 1.407, kızıl 2.201, lekeli humma
+124.58
+     1840 yılında yabancılar tarafından kurulan ve asıl amacı Avrupa kıtasını doğudan
+gelecek olan salgın hastalıklardan korumak olan “Beynelmilel Sıhhiye” veya “Karantina
+Meclisi” Lozan Barış Antlaşması gereği kaldırıldı. Bunun yerine Sıhhiye Vekâleti tarafından
+Hudut ve Sahiller Sıhhat İdaresi adında yeni bir yapı kuruldu. Bu yapının görevini yerine
+getirip getiremeyeceğine yönelik var olan endişe idarenin görevini geçmişe nazaran daha
+iyi yapmasıyla boşa çıktı.59
+       2.1. Aşı ve Serum Üretimi
+    19. yüzyılda tıbbi alanda yaşanan gelişmelerle birlikte birçok hastalığa karşı aşı
+geliştirilmişti. Millî Mücadele döneminde aşıların üretimi ve dağıtımı konusunda ciddi
+sorunlar yaşanmasına rağmen Cumhuriyet’in ilanını takip eden süreçte yerli aşı üretimi
+konusunda önemli atılımlar yapıldı. İstanbul Bakteriyoloji ve Serum Müessesesi tarafından
+1925-1929 devresinde üretilen aşı ve serumların cins ve miktarları şu şekildeydi;60
+
+
+
+
+56 Sadet Altay, Cumhuriyet’in İlk On Beş Yılında Ebelik Eğitimine ve Mesleğin Dönüşümüne Dair Kısa Bir Bakış,
+Çağdaş Türkiye Tarihi Araştırmaları Dergisi, XVII/35, Güz 2017, ss. 183-184.
+57 BCA, 030.10.0.0.177.220.18.41.
+58 CBA, 01009962/586891.
+59 On Beşinci Yıl Kitabı, Cumhuriyet Halk Partisi Yayınları, 1938, s.335.
+60 CBA, 01009961/586889.
+
+
+
+                                                  1313
+              Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                      S. Tekir
+              Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+Tablo 6: 1925-1929 Yıllarında İstanbul’da Üretilen Aşı ve Serumların Cins ve Miktarı
+
+ Aşılar                               Miktar (cm3)
+                 1925            1926           1927           1928            1929
+ Kolera          360.070        209.320         298.500        187.780         163.245
+ Veba            477.745        427.795         371.000        240.970         249.510
+ Dizanteri       264.070        233.570         220.000        139.520         152.320
+ Gonokok         2.555          1.724           1.492          1.482           823
+ Tifüs           620.785        467.885         500.000        446.085         551.735
+ BCG             0              0                              -               0
+ Serumlar        10 cm3         10 cm3       10 cm3       10 cm3               10 cm3
+                 Ampul (Adet)   Ampul (Adet) Ampul (Adet) Ampul (Adet)         Ampul (Adet)
+ Difteri         7.493          9.345           12.647         12.719          11.814
+ Dizanteri       3.895          4.047           4.179          4.880           3.367
+ Tetanoz         4.654          5.440           7.648          6.886           6.134
+ Menengokok      1.677          1.801           3.119          2.703           2.947
+ Veba            708            827             894            1.050           596
+
+    İstanbul dışında erken Cumhuriyet döneminde aşı ve serum üretiminin en önemli
+merkezi Sivas’tı. İstanbul’un dışında çiçek aşısı Sivas’ta üretiliyordu. İstanbul’da Çiçek
+Aşısı Müessesesi tarafından 1925-1930 döneminde yılda ortalama 2,6 milyon doz çiçek
+aşısı üretilerek ülkenin farklı bölgelerine sevk edildi. 1930 yılında Ankara’da faaliyetlerine
+başlayan bakteriyolojihane İstanbul ve Sivas’tan farklı olarak kızıl aşısı üretiyordu.
+Aşağıdaki tabloda Sivas Hıfzıssıhha Müessesesi’nin beş yıllık mesaisi görülmektedir.61
+Tablo 7: 1925-1929 Yıllarında Sivas’ta Üretilen Aşı ve Serumların Cins ve Miktarı
+
+ Aşılar                               Miktar (cm3)
+               1925                 1926             1927          1928            1929
+ Kolera        59.250            68.500              113.650       60.750          53.500
+ Dizanteri     75.100            58.800              63.200        50.700          48.500
+ Tifüs         115.100           114.800             210.100       174.500         102.00
+ Çiçek         507.550           574.405             486.965       542.050         407.500
+    2.2. Tedavi Hizmetleri
+   Cumhuriyet’in ilanını müteakiben 1924 yılında sağlık alanında büyük atılımlar kaydedildi.
+Yeni kurulan hastanelerde 6.207, muayene ve tedavi evlerinde ise 1.203 kişi yatakta
+tedavi edildi. Muayene ve tedavi evlerinde 24.800 hasta ayakta tedavi edildi. Aşağıdaki
+tabloda yeni kurulan hastanelerin 1924 yılındaki faaliyetleri görülmektedir. Rakamlar
+incelenirken numune hastanelerinin Mayıs ayında, Heybeliada Sanatoryumu’nun ise Ekim
+ayında faaliyete geçtiği göz önünde bulundurulmalıdır. Ayrıca verem tedavisi çok uzun
+süren bir hastalık olduğu için kısa sürede sonuç almak oldukça zordur.62
+
+
+
+61 CBA, 01009961/586889.
+62 CBA, 01009963/583868.
+
+
+
+                                            1314
+                                            693
+       Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                        Dönemindeki Faaliyetleri (1920-1930)
+
+Tablo 8: 1924 Yılında Hastane ve Muayene ve Tedavi Evlerinin Mesaisi
+
+ 1 Ocak-30 Aralık 1924            1 Ağustos-30 Aralık 1924 Muayene ve Tedavi Evleri
+ Hastaneler
+ Hastane             Yatakta      Ay                Tedavi Evi       Yatakta        Ayakta
+ Ankara Numune       1.158        Ağustos           10               101            924
+ Erzurum             861          Eylül             41               262            2.945
+ Numune
+ Diyarbakır          267          Ekim              79               364            5.676
+ Numune
+ Sivas Numune        992          Kasım             91               242            7.644
+ Zonguldak           598          Aralık            96               234            7.611
+
+ Numune
+ İstanbul Etfal      1.594
+ İstanbul Emrazı     720
+ Akliye
+ Heybeliada          17                                              1.203          24.800
+ Sanatoryumu
+ Toplam              6.2071
+
+    1925 yılında Darülaceze, İstanbul Belediyesi’ne devredildi. 1924 yılında kurulanlara
+ek olarak bu sene içerisinde Ankara ve Konya’da 10’ar yataklı birer Doğum ve Çocuk
+Bakımevi açıldı. Manisa ve Elazığ’da 50’şer yataklı Emrazı Akliye ve Asabiye (Ruh ve Sinir
+Hastalıkları) Hastanesi açıldı. Sayıları 110’a yükselen muayene ve tedavi evlerine birer adet
+sağlık seti verildi. Mahalli idareler ile belediyelere ait hastaneler, şahsi ve cemaatlere ait
+sıhhî teşkilatları gösteren 1.500 adet harita bastırılarak dağıtıldı. Memleket hastanelerinin
+ihtiyaçlarının karşılanması için 184.778 lira, mahalli idareler ile cemiyetlere ait sağlık
+kuruluşları için ise 28.300 lira Vekâlet tarafından yardım yapıldı. Ayrıca Doğum ve Çocuk
+Bakımevleri’nin işleyişlerini düzenlemek için bir talimatname hazırlandı. 1 Ocak-31 Aralık
+1925 tarihleri arasında numune hastaneleri ile muayene ve tedavi evlerine başvuran ve
+tedavileri tamamlanan hasta sayısı aşağıdaki tabloda gösterilmiştir:63
+
+
+
+
+63 CBA, 01009963/583868.
+
+
+
+                                            1315
+                  Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                 S. Tekir
+                  Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+Tablo 9: 1925 Yılında Hastane ve Muayene ve Tedavi Evlerinin Mesaisi
+
+ Hastaneler                                         Muayene ve Tedavi Evleri
+ Hastane           Yatakta   Laboratuvar   Ayakta   Ay         Tedavi     Yatakta    Ayakta
+                             Mesaisi       Tedavi              Evi Sayısı Tedavi     Tedavi
+ Ankara            1.709     404           2.491    Ocak       97         287        8.771
+ Numune
+ Erzurum           1.267     327           2.572    Şubat      104        267        9.912
+ Numune
+ Diyarbakır        424       0             198      Mart       104        512        10.243
+ Numune
+ Sivas             1.391     866           5.390    Nisan      106        499        8.068
+ Numune
+ Zonguldak         701       15            67       Mayıs      108        312        10.354
+ Numune
+
+
+ İstanbul Etfal    1.818     2.771         12.913   Haziran    110        262        10.517
+ İstanbul      1.646         1.049         898      Temmuz     111        241        15.200
+ Emrazı Akliye
+ Heybeliada  132             747           12       Ağustos    116        229        17.552
+ Sanatoryumu
+                                                    Eylül      117        242        20.190
+                                                    Ekim       119        274        21.778
+                                                    Kasım      123        295        18.734
+                                                    Aralık     128        270        19.353
+ Toplam            9.088     6.179         24.541                         3.690      170.672
+
+    Tablo 5 incelendiğinde 1924 yılına nazaran numune hastaneleri ile sanatoryuma
+başvuranların sayısında ciddi bir artış gözlenmektedir. Muayene ve tedavi evlerinin sayısı
+yıl içinde 128’e ulaşırken bu kurumlara yapılan toplam başvuru 174 bin civarındadır.
+1925 yılında Sıhhiye Vekâleti’ne bağlı sağlık kuruluşlarında 207.971 vatandaş tedavi
+görmüştür.64
+    12 Nisan 1926’da çıkarılan 796 sayılı kanun ile özel idarelere ait bütçelerin sağlık
+teşkilatı ile ilgili olan kısımlarının Sıhhiye ve Muaveneti İçtimaiye Vekaleti’nin kontrolünden
+sonra onaylanması zorunlu hale getirildi. Böylece özel idareler ile belediyeler bütçelerinin
+umuru sıhhiye kalemlerini Vekâlet’in yapacağı talimatnameye göre yapmaya mecbur
+oldular. Ayrıca özel idarelere bağlı sağlık kuruluşlarında çalışanlar Vekâlet emrine alındı.65
+Yapılan kanuni düzenlemenin ardından Vekâlet tarafından bir talimatname hazırlandı.
+1926 yılında Ankara Doğum ve Çocuk Bakımevi’nin kapasitesi beş yatak ilavesi ile 15 yatağa
+çıkarıldı. İstanbul Akliye ve Asabiye Hastanesi’nin kadrosu ise 1.050 yatağa yükseltildi.
+Ankara Numune Hastanesi için 50 yataklı yeni bir pavyon yaptırıldı. 1 Ocak-31 Aralık 1926
+tarihleri arasında numune hastaneleri, sanatoryum, akıl hastaneleri ve muayene ve tedavi
+evlerine başvuran ve tedavileri tamamlanan hasta sayısı aşağıdaki tabloda gösterilmiştir:66
+
+
+
+64 CBA, 01009963/583868.
+65 Resmi Ceride, 12 Nisan 1926, No:346.
+66 CBA, 01009963/583868.
+
+
+
+                                             1316
+       Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                        Dönemindeki Faaliyetleri (1920-1930)
+
+Tablo 10: 1926 Yılında Hastane ve Muayene ve Tedavi Evlerinin Mesaisi
+
+ Hastaneler                                        Muayene ve Tedavi Evleri
+ Hastane         Yatakta   Laboratuvar Ayakta      Ay        Tedavi Evi   Yatakta   Ayakta
+                           Mesaisi     Tedavi                Sayısı       Tedavi    Tedavi
+ Ankara          1.468     3.184        6.207      Ocak      113          186       15.292
+ Numune
+ Erzurum         1.239     1.649        3.580      Şubat     115          121       17.891
+ Numune
+ Diyarbakır      472       0            396        Mart      111          136       13.120
+ Numune
+ Sivas Numune    1.056     1.668        5.313      Nisan     111          106       14.599
+ İstanbul Akliye 714       2.068        855        Mayıs     110          144       18.908
+ Manisa Akliye   161       0            0          Haziran   111          59        20.795
+ Elâzığ Akliye   60        0            0          Temmuz    114          56        20.780
+ Heybeliada      122       1.911        0          Ağustos   115          84        24.917
+ Sanatoryumu
+ İstanbul        1.593     2.886        14.091     Eylül     118          70        26.602
+ Çocuk
+ Zonguldak       523       74           69         Ekim      122          127       26.302
+ Ankara          145       0            3.694      Kasım     17           116       36.362
+ Doğum
+ Konya           74        0            1.712      Aralık    131          65        24.425
+ Numune
+ Toplam          7.627     13.440       35.917                            1.270     249.993
+
+   Tablo 6’ya göre 1925 yılı ile karşılaştırıldığında yatakta tedavi edilenlerin sayısında
+azalma ayakta tedavide ise artış görülmektedir. Sıhhiye Vekâleti’ne bağlı sağlık
+kuruluşlarında toplamda 294.807 nüfusa sağlık hizmeti verilmiştir.67
+    1927 yılında Ankara Numune Hastanesi’ne yeni bir poliklinik binası, mutfak,
+çamaşırhane, kalorifer tesisatı, garaj, kanalizasyon şebekesi, su kulesi, ihata duvarı,
+fethi meyyit (otopsi) odası inşa edildi. Üsküdar’da bulunan eski Toptaşı Bimarhanesi,
+Bakırköy’deki Reşadiye kışlalarına nakledildi. Burada bulunan askeri pavyonlar hastaneye
+dönüştürülerek kanalizasyon şebekesi yapıldı. 1 Ocak-31 Aralık 1927 tarihleri arasında
+numune hastaneleri, doğumhane, sanatoryum, akıl hastaneleri ve muayene ve tedavi
+evlerine başvuran ve tedavileri tamamlanan hasta sayısı aşağıdaki tabloda gösterilmiştir:68
+
+
+
+
+67 CBA, 01009963/583868.
+68 CBA, 01009963/583868.
+
+
+
+                                            1317
+                 Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                       S. Tekir
+                 Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+Tablo 11: 1927 Yılında Hastane ve Muayene ve Tedavi Evlerinin Mesaisi
+
+ Hastaneler                                           Muayene ve Tedavi Evleri
+ Hastane           Yatakta   Laboratuvar   Ayakta     Ay        Tedavi Evi   Yatakta   Ay
+                             Mesaisi       Tedavi               Sayısı       Tedavi
+ Ankara            1.697     2.517         7.940      Ocak      132          73        19.082
+ Numune
+ Erzurum           1.176     1.436         3.336      Şubat     128          72        18.816
+ Numune
+ Diyarbakır        806       162           339        Mart      129          66        20.978
+ Numune
+ Sivas Numune 858            1.217         4.435      Nisan     129          154       22.273
+ İstanbul          868       1.299         853        Mayıs     132          111       27.482
+ Akliye
+ Manisa Akliye 158           0             0          Haziran   128          104       25.867
+ Elâzığ Akliye     71        87            350        Temmuz 128             83        23.695
+ İstanbul          1.439     2.935         13.738     Ağustos   137          69        28.309
+ Çocuk
+ Heybeliada        95        1.405         0          Eylül     119          70        22.788
+ Sanatoryumu
+ Zonguldak         376       113           173        Ekim      119          56        27.087
+ Ankara            195       0             4.245      Kasım     117          66        25.342
+ Doğum
+ Konya             162       0             2.243      Aralık    119          74        24.008
+ Numune
+ Toplam            7.901     11.170        37.752                            998       285.727
+
+      1928 senesinde sağlık teşkilatının yeniden düzenlenmesi ve müesseselerin
+eksikliklerinin giderilmesi için yoğun bir çaba sarf edildi. Heybeliada Sanatoryumu
+30 yataklı yeni bir pavyon inşasına başlandı. İstanbul Akliye ve Asabiye Hastanesi’nin
+çamaşırhane tesisatı yaptırıldı. İzmir’de bulunan Sağır Dilsiz ve Körler Müessesesi
+binası Vekâlet tarafından satın alındı. 1 Ocak-31 Aralık 1928 tarihleri arasında numune
+hastaneleri, doğumhane, sanatoryum, akıl hastaneleri ve muayene ve tedavi evlerine
+başvuran ve tedavileri tamamlanan hasta sayısı aşağıdaki tabloda gösterilmiştir:69
+
+
+
+
+69 CBA, 01009963/583868.
+
+
+
+                                               1318
+       Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                        Dönemindeki Faaliyetleri (1920-1930)
+
+Tablo 12: 1928 Yılında Hastane ve Muayene ve Tedavi Evlerinin Mesaisi
+
+ Hastaneler                                         Muayene ve Tedavi Evleri
+ Hastane         Yatakta   Laboratuvar   Ayakta     Ay        Tedavi Evi   Yatakta Ayakta
+                           Mesaisi       Tedavi               Sayısı       Tedavi Tedavi
+ Ankara          1.785     4.641         14.182     Ocak      113          56      19.170
+ Numune
+ Erzurum         1.196     1.253         4.044      Şubat     111          32      16.466
+ Numune
+ Diyarbakır      1.071     888           920        Mart      107          33      15.747
+ Numune
+ Sivas           945       1.033         3.581      Nisan     104          41      16.520
+ Numune
+ Zonguldak       568       401           272        Mayıs     107          34      16.126
+ Numune
+ İstanbul        1.458     2.519         14.790     Haziran   108          38      16.795
+ Çocuk
+ İstanbul        952       2.213         686        Temmuz    105          45      17.474
+ Akliye
+ Manisa          164       0             0          Ağustos   107          52      16.571
+ Akliye
+ Elâzığ Akliye   38        36            371        Eylül     104          37      18.003
+ Heybeliada  94            1.457         0          Ekim      96           115     20.916
+ Sanatoryumu
+ Ankara          259       0             4.300      Kasım     95           92      19.359
+ Doğum
+ Konya           242       0             1.990      Aralık    94           87      20.516
+ Doğum
+ İzmir Sağır     0         0             0
+ Dilsiz
+ Toplam          8.772     14.441        45.136                            662     213.325
+
+    1929 yılında Erzurum, Malatya, Kars, Adana ve Çorum’da 10 kadın ve 10 çocuk olmak
+üzere 25’er yataklı birer doğum ve çocuk bakımevi açıldı. Ankara ve Konya Doğum
+Evleri’nin yatak sayıları 25’e yükseldi. Adana Doğum ve Çocuk Bakımevi için mahallinde
+bina satın alındı. Heybeliada Sanatoryumu için inşasına yeni başlanılan pavyon ikmal
+edildi. Ankara Numune Hastanesi’nde 210 yataklı modern bir pavyon yapılmaya başlandı.
+Etimesgut’ta 10 yataklı bir numune dispanseri açıldı. İstanbul Çocuk Hastanesi’nin mevcut
+pavyonları tamir ettirildi. Tıp Talebe Yurdu’nun yatak sayısı 300’e çıkartıldı. 1929 yılında
+Sıhhiye Vekâleti’ne bağlı sağlık kuruluşlarının mesaisi aşağıdaki tabloda gösterilmiştir.70
+
+
+
+
+70 CBA, 01009963/583868.
+
+
+
+                                             1319
+                 Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                S. Tekir
+                 Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+Tablo 13: 1929 Yılında Hastane ve Muayene ve Tedavi Evlerinin Mesaisi
+
+ Hastane              Yatakta Tedavi   Ayakta Tedavi        Röntgen         Laboratuvar
+ Ankara Numune 1.743                   20.770               2.058           6.524
+ Erzurum              1.195            2.069                301             735
+ Numune
+ Diyarbakır           1.100            1.511                758             692
+ Numune
+ Sivas Numune         1.328            6.363                0               0
+ Zonguldak            687              291                  56              517
+ Numune
+ İstanbul Çocuk       1.829            22.984               5.079           0
+ İstanbul Akliye      1.933            414                  49              2.895
+ Manisa Akliye        206              84                   0               0
+ Elâzığ Akliye        95               394                  0               16
+ Heybeliada           123              0                    179             1.437
+ Sanatoryumu
+ Ankara Doğum         375              7.073                0               0
+ Konya Doğum          260              4.825                0               0
+ Malatya              0                496                  0               0
+ Çorum                0                0                    0               0
+ Kars                 0                79                   0               0
+ Adana                0                239                  0               0
+ Erzurum              0                121                  0               0
+ Toplam               10.874           67.713               8.480           12.816
+    1930 yılında Balıkesir Doğum ve Çocuk Bakımevi açıldı. Hastane için bir bina tedarik
+edildikten sonra gerekli teçhizat için çalışmalar başladı. İstanbul Akliye ve Asabiye
+Hastanesi’nin yatak sayısı 1.150’ye, Manisa Akliye ve Asabiye Hastanesi’ninki ise 75’e
+çıkarıldı. Ankara Numune Hastanesi’nde 210 yataklı büyük pavyonun inşasına bu yıl
+içerisinde devam edildi. Heybeliada Sanatoryumu’na 35 yataklı ek pavyon inşaatı başladı.
+İstanbul Çocuk Hastanesi’nin eskiyen pavyonları tamir edildi. Etimesgut Dispanseri’nin
+eksiklik teçhizat ve levazımatı ikmal edildi.71
+    1930 yılı itibariyle Türkiye Cumhuriyet’i sağlık alanında yaptığı atılımla hastane ve
+yatak sayısında ciddi artışlar kaydetti.72 Özel idarelere ait sağlık kuruluşları taşrada
+hizmet veren en önemli kurumlardı. Anadolu’nun tamamına yakınında var olan bu
+sağlık kuruluşlarından Adana, Aydın, Bursa, Denizli, İzmir, Konya ve Samsun’dakiler 100
+ve üzeri yatağa sahip hastaneler olarak öne çıkıyordu. Bunun dışında özel idareler farklı
+dallara sahip hastaneler de açmıştı. Diyarbakır ve Samsun’da birer zührevi hastalıklar
+hastanesi ile İzmir ve Konya’da kuduz tedavi müesseseleri bulunuyordu.73 Özel idarelere
+ait dispanserler genellikle ilçe merkezlerinde faaliyet gösteriyordu. Salgın hastalıkların en
+çok görüldüğü Sivas ve ilçelerindeki yatak adetleri diğerlerine nazaran daha fazlaydı.74
+71 CBA, 01009963/583868.
+72 BCA, 030.10.0.0.177.220.18.11.
+73 BCA, 030.10.0.0.177.220.18.12.
+74 BCA, 030.10.0.0.177.220.18.13.
+
+
+
+                                             1320
+       Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                        Dönemindeki Faaliyetleri (1920-1930)
+
+Belediyelere ait hastane ve darülacezeler genellikle batı illerinde kümeleniyordu. 300’er
+yataklı Cerrahpaşa ve Haseki Kadın hastaneleri ile 1.000 yataklı İstanbul Darülacezesi ön
+plana çıkan kurumlardı.75 Belediyelere ait dispanserlerin ülke genelindeki yatak sayıları
+133’tü.76 Özel hastane kategorisinde değerlendirilebilecek olan şahıslara ait hastanelere
+ülkenin her yanında rastlamak mümkündü. Özel teşebbüs eliyle açılan hastaneler göz,
+doğum, sanatoryum ve cerrahi dallarında hizmet veriyordu. Sıhhat veya sağlık yurdu
+olarak adlandırılan bu kurumların en büyüğü 25 yatak kapasiteli iken yurt genelinde 505
+yatak sayısına ulaşılıyordu.77 Cemiyetlere ait dispanserler genellikle Türk Ocakları, Verem
+Mücadele Derneği, Hilal-i Ahmer, Himaye-i Etfal’e ait iken bu kurumlar yataklı hasta kabul
+etmiyordu.78 Yabancılara (Amerikan, İtalyan, Fransız ve Bulgar) ait hastaneler Adana,
+İzmir, İstanbul, Gaziantep ve Kayseri’de bulunuyordu. İstanbul Fransız Lape Hastanesi
+200 yatak kapasitesi ile en büyük hastaneydi.79 Azınlık cemaatlerine ait hastaneler dikkate
+alındığında İzmir ve İstanbul’da bulunan Musevi, Rum ve Ermeni hastaneleri ön plana
+çıkmaktaydı. İstanbul Rum Hastanesi 805 yatak kapasitesi ile bu grup hastaneler içerisinde
+en büyük olanıydı.80
+   1930 yılına gelindiğinde Türkiye’de 179 hastane ve 305 dispanser bulunuyordu.
+1924 yılında başlayan sağlık alanındaki atılımlar bu tarihten sonra yapılan sıkı mesai ile
+meyvesini vermeye başladı. Aşağıdaki tabloda 1930 yılı itibariyle Türkiye’de bulunan
+hastane ve dispanserler ile yatak sayıları görülmektedir.81
+Tablo 14: 1930 Yılında Türkiye’de Bulunan Hastane ve Dispanserler
+
+ Ait Olduğu Kurum                   Türü               Adet       Yatak
+            Vekâlet                 Hastane            26         2.485
+
+                                    Dispanser          202        893
+          Özel İdareler             Hastane            69         3.130
+                                    Dispanser          56         312
+            Belediye                Hastane            23         2.157
+
+                                    Dispanser          34         133
+            Vakıflar                Hastane            1          250
+                                    Dispanser          -          -
+              Özel                  Hastane            37         605
+                                    Dispanser          -          -
+           Yabancılar               Hastane            15         878
+                                    Dispanser          4          0
+            Şirketler               Hastane            3          88
+                                    Dispanser          9          75
+       Azınlık Cemaatleri           Hastane            5          1.450
+                                    Dispanser          -          -
+             Yekûn                  Hastane            179        11.063
+                                    Dispanser          305        1.413
+
+75 BCA, 030.10.0.0.177.220.18.14.
+76 BCA, 030.10.0.0.177.220.18.15.
+77 BCA, 030.10.0.0.177.220.18.16.
+78 BCA, 030.10.0.0.177.220.18.17.
+79 BCA, 030.10.0.0.177.220.18.18.
+80 BCA, 030.10.0.0.177.220.18.18.
+81 BCA, 030.10.0.0.177.220.18.11.
+
+                                                1321
+                  Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                                S. Tekir
+                  Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+     Türkiye Cumhuriyeti’nin kurulduğu 1923 yılında ülkede sağlık alanında faaliyet
+gösteren 86 kurumdaki toplam yatak sayısı 6.437’ydi. Yatak sayısı nüfus ile oranlandığında
+bir yatağa 1.920 hasta düşerken 10 bin nüfusa ise 5.1 yatak düşüyordu. 1925’te kurum
+sayısı 167’ye yatak sayısı ise 9.561’e yükselirken 10 bin nüfusa 7.3 yatak düşüyordu. 1930
+yılının sonlarına doğru kurum sayısı 182’ye yatak sayısı 11.398’e yükselirken 1.260 nüfusa
+bir yatak düşüyordu. 10 bin nüfusa düşen yatak sayısı ise 7.8 idi.82 Tüm bunlar dikkate
+alındığında erken Cumhuriyet dönemi olarak adlandırılabilecek 7 yıllık süreçte sağlık
+alanında ciddi bir atılım yapıldığı söylenebilir.
+    TBMM açılmasından sonra yapılan bütçelerde Sıhhiye Vekâleti için ciddi rakamlar
+ayrılmıştır. 1921’de 613 bin lira83 olan bütçe, 1922’de 869 bin84 liraya yükseldi. Vekâletin
+bütçesi 1923’te 3 milyon lira iken bu rakam devlet bütçesinin %2,21’ne denk geliyordu.
+Nüfus başına düşen sağlık harcaması 0,25 TL civarındaydı. Bütçe 1925’te 4,8 milyon lira
+olurken bu rakamın toplam bütçedeki oranı %2,64’e kişi başına yapılan sağlık harcaması
+ise 0,37 TL’ye yükseliyordu. 1930 yılına gelindiğinde Vekâlet bütçesi 4,5 milyon liraya
+geriledi. Bu rakamın genel bütçedeki karşılığı %2,02 idi. Bu gerilemede şüphesiz 1929
+ekonomik krizinin payı büyüktü.85
+    2.3. Propaganda Faaliyetleri
+    Erken Cumhuriyet döneminin temel problemi eğitimsizlik, cehalet ve hijyen koşullarına
+yeterince riayet edilmemesiydi. Anadolu’da genel bir hijyen problemi bulunuyordu.
+Bunun en önemli sebebi ise köyler, kasabalar hatta şehirlerde dahi kanalizasyon
+şebekelerinin olmamasıydı. Temiz su taşıyan isale hatları henüz inşa edilmemişti. Bataklık
+arazilerin çokluğu bir başka sorun olarak ortada duruyordu. Köylüler kişisel hijyenlerine
+önem vermedikleri gibi su ile yıkanmaya gereken özeni göstermiyorlardı. Şüphesiz bunun
+altında yatan çok sayıda sebep vardı. Öncelikli olarak küçük köy evleri ve kalabalık nüfus
+ilk göze çarpan sebeplerdi. Bazı bölgelerde insanlar ahur sekisi denilen yerlerde kış
+aylarında hayvanlarla birlikte yaşıyorlardı. Tuvaletler evlerin hemen yanına inşa edildiği
+için kanalizasyon suları ile içme suları karışıyordu. Tüm bunlar salgın hastalıkların kısa süre
+içerisinde bulaşıcı bir mahiyet kazanmasını kaçınılmaz hale getiriyordu.86
+    Kitle iletişim araçlarının yaygın olmadığı erken Cumhuriyet döneminde geniş halk
+kitlelerine ulaşabilmek için Sıhhiye Vekâleti tarafından yoğun bir propaganda faaliyetine
+girişildi. Salgın ve bulaşıcı hastalıklardan korunmak hususunda halkın bilinç seviyesini
+yükseltmek ve anlaşılabilir tarzda kitapçıklar basarak sağlık teşkilatı aracılığıyla halka
+ulaştırılmaya çalışıldı. Nüfusun yarısına yakınının sıtma hastalığı taşıyıcısı olduğu
+bilindiğinden sakınma çareleri konusunda kapsamlı bir çalışma yapıldı. Çocuk bakımı
+hakkında anneleri bilinçlendirmek için hazırlanan risaleden 100 bin adet basılarak köylere
+kadar bütün ailelere ücretsiz şekilde ulaştırıldı. Bu bağlamda aşağıda isim ve adetleri yazılı
+kitapçıklar ilk etapta basılarak halka ulaştırıldı.87
+
+
+
+
+82 Cumhuriyet Dönemi Yataklı Tedavi Hizmetleri 1923-1983 ve 1982 Yılı Çalışmaları, s.55.
+83 TBMM Zabıt Ceridesi, 27 Şubat 1337, D.1., C.8., s. 502.
+84 TBMM Zabıt Ceridesi, 23 Ekim 1338, D.1., C.24., s.114.
+85 Sağlık Hizmetlerinde 50 Yıl, s.60.
+86 Gümüşçü, “Osmanlıdan Cumhuriyete Geçiş ve Cumhuriyetin İlk Yıllarında Halk Sağlığı”, ss.136-139.
+87 BCA, 030.10.0.0.177.220.18.37.
+
+
+
+                                                  1322
+         Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                          Dönemindeki Faaliyetleri (1920-1930)
+
+Tablo 15: 1925-1930 Yıllarında Halkı Bilinçlendirmek İçin Yapılan Neşriyat
+
+ Kitap/Kitapçık Adı                                           Basılan Adet
+ Sıtma Öğütleri                                               30.000
+ Kuşpalazı Hastalığı Nedir ve Hastalıktan Nasıl 10.000
+ Korunmalıdır?
+ Trahom Hakkında Halka Nesayih                                10.000
+ Kızıl Hastalığı ve Korunma Çareleri                          10.000
+ Sıhhî Müze Rehberi                                           30.000
+ Sıhhî Müze Atlası                                            1.000
+ Annelere Nasihat                                             100.000
+    Sıhhiye Vekâleti tarafından halk sağlığının korunması için satın alınan 12 film, sinema
+salonu bulunan bütün şehir ve kasabalara hazırlanan program dahilinde gönderilmeye
+başlandı. Nüfus yoğunluğu dikkate alınarak filmler gönderildikleri mahallerde 7 ila 15
+gün arasında gösterimde kaldı. Bazı büyükşehirlerde ise bir ay kadar kalarak talebe,
+öğretmen ve ordu mensuplarına kadar geniş halk kitlelerine ücretsiz gösterildi. Gerek
+görüldüğü durumlarda ise sağlık müdürlükleri ve uzmanlar tarafından film hakkında halka
+izahat verildi. Bu filmlerin bazıları 5-6 bölümden oluşurken bazıları ise 30 dakika gibi kısa
+sürelerden oluşuyordu. Vekâlet tarafından küçük kasaba ve köylerde sinema ve elektrik
+olmadığı dikkate alınarak seyyar sinema cihazı taşıyabilen bir araç tedariki için çalışmalara
+başlandı. Filmlerin isimleri ve konuları şu şekildeydi:88
+Tablo 16: Halkı Bilinçlendirmek İçin Gösterilen Filmler
+
+ Filmin Adı                                      İçerik
+ Sıtma
+ Çocuk bakımı
+ Vaktiyle Üç Dost İdiler                         Frengi
+ Erken Teşhis-Erken Tedavi                       Verem
+ Teminin Dişi                                    Diş
+ Senin Ağzın                                     Ağız
+ Sinek Tehlikesi
+ İhmalin Cezası                                  Nüfus tezkeresi almayanlar.
+ Uzun ve Afiyette Yaşamanın Çaresi
+ Sıhhî Su
+ Nezlenin Ehemmiyeti
+ Sıtma Mücadelesinde Yeni Usuller
+   Halkın bilinçlendirilmesi için uyarıcı kitap ve filmlerin yanı sıra halk sağlığı uygulamalarını
+daha etkili şekilde vurgulamak için afişler hazırlandı. Ayrıca vilayetlerin sıhhî ve içtimaî
+durumlarını ortaya koymak için kitaplar yayınlandı. Çok sayıda bastırılan bu afişler şehir,
+kasaba, köy ve bucaklara kadar ulaştırıldı.89 Bu afişler ve içerikleri şu şekildeydi;
+
+88 BCA, 030.10.0.0.177.220.18.37.
+89 BCA, 030.10.0.0.177.220.18.38.
+
+
+
+                                             1323
+                 Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                     S. Tekir
+                 Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+Tablo 17: Halkı Bilinçlendirmek İçin Basılan Afişler
+
+ Afiş                                             İçerik
+ Çocuk Vefiyatı Termometresi                      Çocuk ölümlerinin        çeşitli   ülkelerdeki
+                                                  oranlarını gösterir.
+ Ben hastalanmak istemem: beni öpmeyiniz. Bir çocuğun ağzından.
+ Sağlık yolu
+ Sağlık katarı
+ Güneşin hayat veren şuaatı
+ Mütetabbiblerin, cahil ebelerin saf halkı
+ götürdükleri hastalık ve ölüm kuyusu
+ Bir mektep çocuğunun 24 saatlik programı
+ Karahumma’nın bulaşma yolları
+ Çocukları süte teşvik
+ Karasineğin her günkü gezintisi
+ Vitaminler ve korudukları hastalıklar
+ Kızıl aşısı için halkı teşvik
+ Yüzde yüz afiyet esasları
+ Çocukların dişleri hangi aylarda çıkar
+ Sıhhat kitabı
+ Bahar ve güneşin sıhhat ve afiyete tesiri
+ Bir yaşına kadar çocuk vefiyatı                  Memede         ve      emzikte       olanların
+                                                  karşılaştırılması
+ Türkiye’de frengi                                Tasviri ve nispi
+    Sıhhiye Vekâleti, propaganda faaliyetlerini yalnızca halkı bilinçlendirmek amacıyla
+yapmadı. Vekâlet teşkilatı bünyesinde bulunan tabip ve serbest tabiplerin alanlarındaki
+bilgilerini artırmak için çeşitli konularda kitaplar da yayınlandı. Bunların büyük kısmı sıtma
+hastalığı ve sivrisinekler, çocuk hastalıkları ve iç hastalıklarla ilgiliydi. Ebelerin bilgilerini
+artırmak için Ebe Kitabı ile trahom mücadelesinde kullanılmak üzere yayınlanan Trahom
+Kitabı önemli çalışmalardandı. Bunun dışında gençliğin korunması için Dr. Pauchet’in
+Genç Kalınız adındaki eseri tercüme edilerek 2.000 nüsha bastırıldı. Bastırılan nüshalar
+müesseseler, sağlık teşkilatı ve halka dağıtıldı. Vilayetlerdeki mevcut sağlık teşkilat
+ve müesseselerini gösteren haritalar ile sıtmalı mıntıkaları gösteren sıtma haritaları
+bastırılarak dağıtıldı. Halihazırda piyasada bulunan ilaçları muhteva eden Türk Kodeksi adlı
+eser Türk Kodeks Komisyonu tarafından hazırlanarak 5.000 adet bastırıldı. Birinci, İkinci ve
+Üçüncü Milli Tıp Kongrelerine ait zabıtlar neşredildi. Sıhhiye Mecmuası ise her ay düzenli
+olarak 1.250 adet hazırlanarak dağıtıldı.90
+    Sonuç
+    23 Nisan 1920’de TBMM’nin açılmasını takip eden günlerde 3 numaralı kanun ile
+Sıhhiye ve Muavenet-i İçtimaiye Vekâleti (Sağlık ve Sosyal Yardım Bakanlığı) kuruldu.
+TBMM Hükümeti ülkenin işgal altında olduğu dönemde tüm enerjisini silahlı mücadele
+için sarf etmedi. Öncelik silahlı mücadeleye verilmesine rağmen halkın sağlığını
+90 BCA, 030.10.0.0.177.220.18.39.
+
+
+
+                                             1324
+                                             693
+       Sıhhiye ve Muavenet-İ İçtimaiye Vekâleti’nin Kuruluşu ve Erken Cumhuriyet
+                        Dönemindeki Faaliyetleri (1920-1930)
+
+koruyucu önlemler de alınmaya çalışıldı. 1920-1923 dönemi mevcut durumun daha da
+kötüleşmemesi için bir mücadele dönemi olarak görülmekteydi. Anadolu’nun sağlık
+alanında tamamen İstanbul’a bağımlı olması bu önermeyi doğrular niteliktedir. Haziran
+1920’de Anadolu’daki Millî Mücadele’yi yok etmek isteyen İstanbul Hükümeti her türlü
+sağlık malzemesinin Anadolu’ya gönderilmesini engelledi. Millî Mücadele döneminde zor
+şartlar altında Anadolu’da aşı üretimi yapıldı. İstanbul’daki İngiliz işgalinin Ekim 1923’te
+sona ermesinin ardından buradaki sağlık kuruluşlarından yararlanmak mümkün oldu.
+   Türkiye’de sağlık hizmetlerinin halka ulaştırılması konusunda bakanlık görevinde
+bulunan Adnan Adıvar, Rıza Nur, Mazhar Germen ve Refik Saydam’ın büyük katkıları oldu.
+Refik Saydam 1925-1937 döneminde aralıksız sürdürdüğü görevi sırasında Türkiye’de
+sağlık hizmetlerini yeniden yapılandırdı.
+     Cumhuriyet’in ilanından itibaren her alanda olduğu gibi sağlık alanında da büyük
+atılımlar yapılması gerekiyordu. Bunun için 1924 yılında uygulanacak sağlık politikasının
+ana hatları belirlendi. Salgın hastalıklarla mücadele, yeni sağlık kuruluşlarının açılması,
+sağlık personeli yetiştirmek ve çocuk ölümlerinin azaltılması belirlenen politikaların
+başlıcalarıydı. Türkiye’de sadece 86 sağlık kuruluşu bulunuyordu. Bunların sayılarının ve
+yatak kapasitelerinin artırılması için hummalı bir çalışma yapıldı. Yedi yıllık çalışmanın
+sonucunda ülkedeki sağlık kuruluşu sayısı 484’e yükseltildi. Tıp öğreniminin cazip hale
+getirilmesi için talebe yurtları açıldı. Yardımcı sağlık personel ihtiyacının karşılanması için
+ise ülkenin çeşitli yerlerinde okullar açıldı.
+    Salgın hastalıklarla mücadelede ülkenin karşı karşıya kaldığı hastalıklardan önemli
+olanlar tespit edildi. İlk etapta mücadele edilecek hastalıklar sıtma, frengi ve trahom olarak
+belirlendi. Bu hastalıklarla, özel olarak kurulan mücadele heyetleri vasıtasıyla mücadelede
+başarı elde edildi. Bunun dışında salgın ve bulaşıcı hastalıklarda kullanmak üzere İstanbul,
+Sivas ve Ankara’daki merkezlerde aşı ve serum üretimi gerçekleştirildi.
+    Halkın sağlık konusunda bilinçlendirilmesi için yoğun bir propaganda faaliyetine
+girişildi. Yurtdışından satın alınan filimler sinemalarda halka ücretsiz izlettirildi. Hazırlanan
+kitapçıklar halka dağıtılarak hastalıklar karşısında alınması gereken önlemler anlatıldı.
+Hazırlanan afişler ise halkın yoğun olarak bulunduğu yerlere asılarak bilinçlendirme
+faaliyetleri yapıldı. Yabancı dilden çevrilen kitaplar hekimlere ve halka dağıtıldı.
+    Sıhhiye ve Muavenet-i İçtimaiye Vekâleti tarafından yapılan faaliyetlerin tamamına
+yakını yüksek maliyete sahipti. Kısa süre içerisinde büyük paraların sağlık alanında yatırıma
+dönüşmesi mevcut ekonomik koşullarda zor olduğu için hizmetler öncelik sırasına göre
+sıralandı. Çalışmada incelenen 10 yıllık süreçte Vekâlet’in çalışmalarıyla sağlık alanında
+ciddi atılımlar yapıldı.
+Kaynakça
+Arşivler
+Devlet Arşivleri Başkanlığı Cumhuriyet Arşivi (BCA)
+Cumhurbaşkanlığı Arşivi (CBA)
+Resmi Yayınlar
+Ceride-i Milliye (Resmi Ceride)
+TBMM Zabıt Ceridesi.
+Türkiye Cumhuriyeti Devlet Yıllık 1928-1929, İstanbul, 1929.
+Sağlık Hizmetlerinde 50 Yıl, 1973, Ankara: Sağlık ve Sosyal Yardım Bakanlığı Yayınları.
+Gazeteler
+Hakimiyet-i Milliye
+
+
+
+                                            1325
+             Sayı 18 (Yaz 2019/II) 19 Mayıs 1919'da Mustafa Kemal                  S. Tekir
+             Atatürk'ün Samsun'a Çıkışının 100. Yılı Anısına
+
+Telif ve Tetkik Eserler
+Altay, Sadet (2017), Cumhuriyet’in İlk On Beş Yılında Ebelik Eğitimine ve Mesleğin
+        Dönüşümüne Dair Kısa Bir Bakış, Çağdaş Türkiye Tarihi Araştırmaları Dergisi,
+        XVII/35, Güz 2017, ss. 167-217.
+Cumhuriyet Dönemi Yataklı Tedavi Hizmetleri 1923-1983 ve 1982 Yılı Çalışmaları, 1983,
+        Ankara: Sağlık ve Sosyal Yardım Bakanlığı Yayınları.
+Çakmak, Fevzi (2017), “Türkiye Büyük Millet Meclisi Zabıtlarına Göre Türkiye
+        Cumhuriyeti’nin Sıtma Savaşı (1920-1946), Tarihsel Süreçte Anadolu›da Sıtma,
+        Gece Kitaplığı, Ed. Eren Akçiçek vd. Ankara, 2017, ss.421-462.
+Gümüşçü, Osman (2003), “Osmanlıdan Cumhuriyete Geçiş ve Cumhuriyetin İlk Yıllarında
+        Halk Sağlığı”, Atatürk Araştırma Merkezi Dergisi, C: XIX, S.55, 2003, ss.125-146.
+Koylu, Zafer, Altay, Sadet (2008), Sıhhiye ve Muavenet-i İçtimaiye Vekâleti’nin Kuruluşu
+        ve Yapılan Yasal Düzenlemeler (1920-1923), 1. Uluslararası Türk Tıp Kongresi, C.2,
+        ss. 1061-1081.
+On Beşinci Yıl Kitabı, 1938: Cumhuriyet Halk Partisi Yayınları.
+Özbay, Kemal (1976), Türk Askeri Hekimliği Tarihi ve Askeri Hastaneleri, İstanbul: Yörük
+        Basımevi.
+Özdemir, Hikmet (2010), Salgın Hastalıklardan Ölümler 1914-1918, Ankara: TTK Yayınları.
+Özer, Sevilay (2014), Türkiye’de Trahomla Mücadele (1935-1945), Ankara Üniversitesi
+        Türk İnkılâp Tarihi Enstitüsü Atatürk Yolu Dergisi, S.54, ss. 121-152.
+Özpekcan, Meliha (1999), Türkiye Cumhuriyeti’nde Sağlık Politikası (1923-1933),
+        (Yayınlanmamış Doktora Tezi), İstanbul: İstanbul Üniversitesi Atatürk İlkeleri ve
+        İnkılap Tarihi Enstitüsü.
+Özpekcan, Meliha (2002), “TBMM Tutanaklarına Göre Cumhuriyetin İlk On Yılında Sağlık
+        Politikamız”, Türkler, C.17, Ankara: Yeni Türkiye Yayınları, ss. 436-445.
+Sağlam, Tevfik (1941), Büyük Harpte 3. Orduda Sıhhî Hizmet, İstanbul: Genelkurmay
+        Başkanlığı Yayınları.
+Tekir, Süleyman (2017), “Cumhuriyet’in İlk Yıllarında Türkiye’de Sıtma ile Mücadele
+        Faaliyetleri (1923-1930)”, Tarihsel Süreçte Anadolu’da Sıtma, Ed. Eren Akçiçek, vd.
+        Ankara: Gece Kitaplığı, ss. 397-420.
+Tekir, Süleyman (2018), Türkiye Cumhuriyeti’nde Kuduz ile Mücadele Çalışmaları (1908-
+        1914), Tarihsel Süreçte Anadolu’da Kuduz, Ed. Çağrı Büke vd., Ankara: Gece
+        Kitaplığı, ss. 307-330.
+Temel, Mehmet (2008), Atatürk Döneminde Bulaşıcı ve Salgın Hastalıklarla Mücadele,
+        İstanbul: Nehir Yayınları.
+
+
+
+
+                                         1326
+                                         693
+
