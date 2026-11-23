@@ -1,0 +1,625 @@
+[
+ {
+  "paket": "C_V1",
+  "arac": "22/34",
+  "satirlar": [
+   {
+    "ref": "J3-1",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks/C.G.%20Jung%20-%20Collected%20Works%20of%20C.G.%20Jung%2C%20Volume%2009%20Part%201%20The%20Archetypes%20and%20the%20Collective%20Unconscious%2C%202nd%20edition%20%28Bollingen%20Series%20XX%29-Routledge%20%281981%29_djvu.txt",
+    "kanit_alinti": "Either sex is inhabited by the opposite sex up to a point, for, biologically speaking, it is simply the greater number of masculine genes that tips the scales"
+   },
+   {
+    "ref": "J3-4",
+    "durum": "kismen_dogru",
+    "duzeltme": "Alıntı ve iddia birebir doğru. Paragraf kesinleşti: CW 9i ¶146 ('Concerning the Archetypes, with Special Reference to the Anima Concept'), 'The question of therapy...' diye başlayan paragraf. '¶146–147 civarı' yerine '¶146' yazılmalı. Jung'un sözü: eşcinsellik 'hermafrodit arketipten tam ayrılamama' olarak açıklanıyor ve her koşulda olumsuz sayılmamalı diyor.",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks/C.G.%20Jung%20-%20Collected%20Works%20of%20C.G.%20Jung%2C%20Volume%2009%20Part%201%20The%20Archetypes%20and%20the%20Collective%20Unconscious%2C%202nd%20edition%20%28Bollingen%20Series%20XX%29-Routledge%20%281981%29_djvu.txt",
+    "kanit_alinti": "homosexuality, which is usually characterized by identity with the anima. In view of the recognized frequency of this phenomenon, its interpretation as a pathological perversion is very dubious."
+   },
+   {
+    "ref": "J3-2",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://archive.org/download/CarlJungCollectedWorks/C.G.%20Jung%20-%20Collected%20Works%20of%20C.G.%20Jung%2C%20Volume%2009%20Part%201%20The%20Archetypes%20and%20the%20Collective%20Unconscious%2C%202nd%20edition%20%28Bollingen%20Series%20XX%29-Routledge%20%281981%29_djvu.txt",
+    "kanit_alinti": "The smaller number of feminine genes seems to form a feminine character, which usually remains unconscious because of its subordinate position."
+   },
+   {
+    "ref": "J3-3",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://medlineplus.gov/genetics/gene/sry/",
+    "kanit_alinti": "This protein starts processes that cause a fetus to develop male gonads (testes)"
+   },
+   {
+    "ref": "J3-9",
+    "durum": "dogru",
+    "duzeltme": "Künye: McKenzie, S. (2006) 'Queering gender: anima/animus and the paradigm of emergence', Journal of Analytical Psychology 51(3): 401–421.",
+    "kanit_url": "https://api.crossref.org/works/10.1111/j.0021-8774.2006.00599.x",
+    "kanit_alinti": "Gendered feeling, from this perspective, would be an emergent aspect of mind and not an archetypal inheritance"
+   },
+   {
+    "ref": "J3-10",
+    "durum": "dogru",
+    "duzeltme": "Konuşmanın başlığı: 'Alice in genderland: transgender \"through the looking glass\"'. Tarih (21.10.2016) dosya adından çıkıyor; metinde yazar McKenzie, 2006 JAP makalesine kendi makalesi diye atıf yapıyor.",
+    "kanit_url": "https://irsja.org/wp-content/uploads/2015/10/gender-paper-north-carolina-talk-IRSJA-10212016.pdf",
+    "kanit_alinti": "Jung's A/A cannot account for the transgendered experience with its reversal of starting points and fluidity of gender and sexual attractions."
+   },
+   {
+    "ref": "J3-11",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://irsja.org/wp-content/uploads/2015/10/gender-paper-north-carolina-talk-IRSJA-10212016.pdf",
+    "kanit_alinti": "His gender theory does however allow for both genders to reside in an individual but posits a slow and sex-appropriate emergence of the contra-sexual"
+   },
+   {
+    "ref": "J3-13",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://api.crossref.org/works/10.1111/1468-5922.12641",
+    "kanit_alinti": "can constitute an attempt to evade experiences of psychological distress"
+   },
+   {
+    "ref": "J3-15",
+    "durum": "kismen_dogru",
+    "duzeltme": "İçerik arama motoru özetinden doğrulandı (120 katılımcı, kadın Animus ve erkek Anima puanları psikopatolojiyle ters ilişkili). MSU deposu erişimi kısıtladığı için birincil sayfa açılamadı (3 deneme). Tezin başlığı eklenmeli: 'Jungian typology in relation to gender and psychopathology: an exploratory study' (MSU, PhD, 1987). Yazarın tam adı (Daniel G.) yalnızca arama özetinde görüldü.",
+    "kanit_url": "https://d.lib.msu.edu/etd/20099",
+    "kanit_alinti": "Jungian typology in relation to gender and psychopathology : an exploratory study (arama sonucu kayıt başlığı; sayfa erişimi kısıtlı)"
+   },
+   {
+    "ref": "J3-16",
+    "durum": "dogru",
+    "duzeltme": "Katılımcılar: 114 kadın uçuş görevlisi. Özet 'ayrı yapılar' yerine 'bağımsız göründüler' diyor ('they appeared to be independent').",
+    "kanit_url": "https://mail.jungpage.org/learn/articles/analytical-psychology/106-androgyny-and-its-relationship-to-the-anima-and-animus-and-related-psychological-constructs",
+    "kanit_alinti": "It was concluded that masculine/animus and feminine/anima classifications were not parallel."
+   },
+   {
+    "ref": "J3-19",
+    "durum": "dogru",
+    "duzeltme": "Goss'un kaynakçasına göre: Samuels, A. (1993) 'Fathers' (6. bölüm), The Political Psyche, London: Routledge.",
+    "kanit_url": "https://knowledge.lancashire.ac.uk/6732/1/Goss%20Phil%20Final%20e-Thesis%20(Master%20Copy).pdf",
+    "kanit_alinti": "Samuels (1993: 130) posits another binary around gender – that of 'gender confusion' and 'gender certainty'. He suggests the former is healthier than the latter"
+   },
+   {
+    "ref": "J3-21",
+    "durum": "dogru",
+    "duzeltme": "Künye: Goss, P. M. (2012) 'Redefining contra-sexual influence in the human psyche and its implications for heterosexual relations', PhD (by Published Works), University of Central Lancashire. Goss, Jung'un yalnızca karşı-cinsel denklemine de tam katılmadığını söylüyor.",
+    "kanit_url": "https://knowledge.lancashire.ac.uk/6732/1/Goss%20Phil%20Final%20e-Thesis%20(Master%20Copy).pdf",
+    "kanit_alinti": "with the unconscious contra-sexual influence acting as a filter which will subtly shade the nature of the experience of the 'same-sex' archetype"
+   },
+   {
+    "ref": "J3-22",
+    "durum": "dogru",
+    "duzeltme": "Sayfalar: Rowland 2002: 39–46 (katı formül), 158–159 (çoğulluk). Kaynakça: Rowland S. (2002) Jung: A Feminist Revision. Cambridge: Polity.",
+    "kanit_url": "https://knowledge.lancashire.ac.uk/6732/1/Goss%20Phil%20Final%20e-Thesis%20(Master%20Copy).pdf",
+    "kanit_alinti": "Jung's framework nevertheless provides a valuable basis for working with pluralities of identity, experience and relationship"
+   },
+   {
+    "ref": "J3-20",
+    "durum": "kismen_dogru",
+    "duzeltme": "Routledge sayfası 1985 yılını ve Routledge yayınevini doğruluyor; ilk baskıdaki 'Routledge & Kegan Paul' adı bu sayfada geçmiyor. Sayfa 'Schools of analytical psychology' (1. bölüm) ve 'Archetypal psychology' (9. bölüm) başlıklarını listeliyor. Klasik, gelişimsel ve arketipsel okullar ayrımı bu sayfada açıkça yazmıyor (kitabın bilinen içeriği; sayfada görülmedi).",
+    "kanit_url": "https://www.routledge.com/Jung-and-the-Post-Jungians/Samuels/p/book/9780415059046",
+    "kanit_alinti": "This bestseller is a comprehensive review of the developments which have taken place in Jungian psychology since Jung's death."
+   },
+   {
+    "ref": "J3-23",
+    "durum": "kismen_dogru",
+    "duzeltme": "Alıntı doğru. Tarih: monografi Ekim 1994'te tamamlanmış; web sürümünün önsözü Eylül 2000 tarihli. '1993–94' yerine '1994' yazılmalı. Tam ifade: 'With all due respect to Jung, it is time to consign...'",
+    "kanit_url": "https://jungpage.org/learn/articles/analytical-psychology/105-dismantling-the-animus?showall=1",
+    "kanit_alinti": "With all due respect to Jung, it is time to consign the animus concept to a museum of old psychological ideas."
+   },
+   {
+    "ref": "J3-24",
+    "durum": "dogru",
+    "duzeltme": "Kaynak URL Routledge'ın yeniden basımı (Psychology Revivals); ilk baskı Boston: Beacon Press, 1987 (kütüphane kayıtları). Routledge'ın Londra baskısı 1988.",
+    "kanit_url": "https://www.routledge.com/Jung-and-Feminism-Liberating-Archetypes/Wehr/p/book/9781138121942",
+    "kanit_alinti": "challenges Jung's claims for the universality and purely empirical basis of his work, but nevertheless maintains an appreciation for ... the process of individuation"
+   },
+   {
+    "ref": "J3-25",
+    "durum": "dogru",
+    "duzeltme": "Tam künye: Goldenberg, N. R. (1976) 'A feminist critique of Jung', Signs 2(2): 443–449. Yeniden basım: Moore, R. L. & Meckel, D. J. (ed.) (1990) Jung and Christianity in Dialogue: Faith, Feminism and Hermeneutics, Paulist Press, s. 104–111. Springer sayfası doğrudan açılamadı (yönlendirmeyle girişe gidiyor); arama özeti girdiyi doğruluyor.",
+    "kanit_url": "https://rd.springer.com/referenceworkentry/10.1007%2F978-3-030-24348-7_200080?page=24",
+    "kanit_alinti": "Goldenberg, N. R. (1976/1990). A feminist critique of Jung. (arama özetinde; Jung and Christianity in Dialogue, Paulist Press, pp. 104–111)"
+   }
+  ],
+  "genel_not": "Üretici güvenilir: 17 satırın hepsinde alıntılar kaynakta birebir bulundu, uydurma alıntı ya da çelişen iddia yok. Hatalar künyeyle sınırlı: tarih (Cowan 1994), paragraf numarasının netleşmesi (Jung ¶146), yayıncı adı ve okullar ayrıntısının kaynak sayfasında görünmemesi (Samuels). Mosher tezi MSU erişim kısıtı yüzünden yalnızca arama özetinden doğrulandı. Archive.org kaynak URL'si bir klasör listesi; raporda CW 9i'nin dosya bağlantısı ya da basılı künyesi verilmeli."
+ },
+ {
+  "paket": "C_V2",
+  "arac": "24/34",
+  "satirlar": [
+   {
+    "ref": "J3-27",
+    "durum": "kismen_dogru",
+    "duzeltme": "Künye doğru: James Hillman, Anima: An Anatomy of a Personified Notion, Dallas: Spring Publications, 1985, x+188 s. (ECU kataloğu arama özetinde). ECU sayfası 503 verdi; 'Anima and Contrasexuality' bölüm adı hiçbir kaynakta görülemedi, raporda 'doğrulanmadı' etiketiyle verilmeli ya da çıkarılmalı.",
+    "kanit_url": "https://libcat.library.tamu.edu/Record/in00000424130",
+    "kanit_alinti": "Dallas, Tex., Spring Publications, ©1985 ... x, 188 pages (arama özetinden)"
+   },
+   {
+    "ref": "J3-29",
+    "durum": "dogru",
+    "duzeltme": "Ek bilgi: örneklem 10.775 yönetici; Düşünme-Duygu ölçeği en az DIF gösteren ölçek, cinsiyete göre farklı puanlanan maddelerden yalnızca biri yanlı bulundu. Künye: Melissa B. Gratias (1997), 'Gender and Ethnicity-Based Differential Item Functioning on the MBTI', Virginia Tech yüksek lisans tezi.",
+    "kanit_url": "https://vtechworks.lib.vt.edu/handle/10919/30362",
+    "kanit_alinti": "the Thinking-Feeling showed the least DIF of all scales across comparisons, and only one of the items differentially scored by gender was found to be biased"
+   },
+   {
+    "ref": "J3-26",
+    "durum": "dogru",
+    "duzeltme": "Kaynak sayfa 429 verdi; künye bağımsız kayıtlarla doğrulandı (Boston ve Shaftesbury: Shambhala, 1989, x+208 s.).",
+    "kanit_url": "https://cornell-borrowdirect.reshare.indexdata.com/Record/8f39b0ea-d23f-4c6a-a823-5e8aac4bf9c5",
+    "kanit_alinti": "examines the way in which Jung and Jungians have regarded homosexuality both clinically and theoretically"
+   },
+   {
+    "ref": "S1-1",
+    "durum": "kismen_dogru",
+    "duzeltme": "Alıntı birebir doğru. Ancak MIT belgesindeki dipnot pasajı 'Le deuxième sexe 1, pp 285 et 286' diye veriyor; 'Tome II'nin açılış cümlesi' bu kaynakta görünmüyor. Raporda ya bölüm/tome bilgisi çıkarılmalı ya da başka bir baskıyla teyit edilmeli.",
+    "kanit_url": "https://ocw.mit.edu/courses/21g-311-introduction-to-french-culture-spring-2014/666a43874b8e3c2f2feb54f7184d9cd5_MIT21G_311S14_Extrait_de.pdf",
+    "kanit_alinti": "On ne naît pas femme : on le devient. Aucun destin biologique, psychique, économique ne définit la figure"
+   },
+   {
+    "ref": "S1-3",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://plato.stanford.edu/entries/feminism-gender/",
+    "kanit_alinti": "she estimates that 1.7% of population fail to neatly fall within the usual sex classifications"
+   },
+   {
+    "ref": "S1-2",
+    "durum": "dogru",
+    "duzeltme": "Tarihler doğru (ilk yayın 12 Mayıs 2008, revizyon 18 Ocak 2022) ve alıntı birebir. Yazar adı (Mikkola) sayfanın taranan kısmında görülmedi.",
+    "kanit_url": "https://plato.stanford.edu/entries/feminism-gender/",
+    "kanit_alinti": "First published Mon May 12, 2008; substantive revision Tue Jan 18, 2022"
+   },
+   {
+    "ref": "S1-4",
+    "durum": "dogru",
+    "duzeltme": "Pasaj birebir var ve sonuç tartışmasında geçiyor; PDF'te bölüm başlığı yok, 'sonuç bölümü' bağlamdan çıkarılıyor.",
+    "kanit_url": "https://personalwebs.coloradocollege.edu/~mduncombe/WS%20110/Mead,%20Sex%20and%20Temperament.pdf",
+    "kanit_alinti": "are as lightly linked to sex as are the clothing, the manners, and the form of head-dress"
+   },
+   {
+    "ref": "S1-6",
+    "durum": "kismen_dogru",
+    "duzeltme": "Scilit sayfası 403 verdi. Gewertz 1981 künyesi doğru: 'A Historical Reconsideration of Female Dominance among the Chambri of Papua New Guinea', American Ethnologist 8(1):94-106. 'Neither dominate' ifadesi bu makaleden değil, Errington & Gewertz kitabının (Cultural Alternatives and a Feminist Anthropology, Cambridge UP, 1987) yayıncı tanıtımından geliyor; alıntı o kitaba atfedilmeli ve verilen URL'ye bağlanmamalı.",
+    "kanit_url": "https://vufind.lboro.ac.uk/Record/184030/Description",
+    "kanit_alinti": "Chambri women neither dominate Chambri men, nor vice versa (arama özetinde yayıncı tanıtımı)"
+   },
+   {
+    "ref": "S1-7",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.gla.ac.uk/0t4/crcees/files/summerschool/readings/WestZimmerman_1987_DoingGender.pdf",
+    "kanit_alinti": "Gender and Society, Vol. 1, No. 2. (Jun., 1987), pp. 125-151. ... Doing gender involves a complex of socially guided perceptual,"
+   },
+   {
+    "ref": "S1-8",
+    "durum": "kismen_dogru",
+    "duzeltme": "Verilen URL 403 verdi. Alıntı ve 'GT: 25' sayfa atfı ikincil bir kaynakta (Charles Üniversitesi ders metni) teyitli. Asıl kitapta (Routledge 1990) görülmedi; raporda sayfa numarası 'ikincil kaynaktan' notuyla verilmeli.",
+    "kanit_url": "https://dl1.cuni.cz/mod/resource/view.php?id=825397",
+    "kanit_alinti": "there is no gender identity behind the expressions of gender; that identity is performatively constituted by the very 'expressions' (GT: 25) (arama özetinden)"
+   },
+   {
+    "ref": "S1-10",
+    "durum": "dogru",
+    "duzeltme": "Künye: Wood & Eagly (2002), Psychological Bulletin 128:699-727; sayı (5) HRAF sayfasında yazmıyor. Özetinde 'biosocial' kavramı geçiyor.",
+    "kanit_url": "https://hraf.yale.edu/ehc/documents/447",
+    "kanit_alinti": "the patriarchy and division of labor by gender are due primarily to female reproductive activity"
+   },
+   {
+    "ref": "S1-11",
+    "durum": "kismen_dogru",
+    "duzeltme": "Öz doğru. Typeset/SciSpace PDF'i açılmadı, alıntı arama özetinden geliyor. Bulgu bağımsız kaynakla teyitli: kazanç kapasitesi ve ev becerisindeki farklar daha küçük, fiziksel çekicilikte değil. Ancak aynı makale tartışma bölümünde bunu farklı aktarıyor. Alıntı yerine aşağıdaki kanıt kullanılmalı. Gangestad vd. (2006) 'Galton sorunu' eleştirisi de belirtilmeli.",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10481077",
+    "kanit_alinti": "sex differences in preferences for good earning capacity and domestic skills, but not physical attractiveness, were smaller in countries that scored higher on United Nations' measures"
+   },
+   {
+    "ref": "S1-12",
+    "durum": "dogru",
+    "duzeltme": "Tam künye: Buss (1989), Behavioral and Brain Sciences 12(1):1-14.",
+    "kanit_url": "https://www.cambridge.org/core/product/identifier/S0140525X00023992/type/journal_article",
+    "kanit_alinti": "Predictions were tested in data from 37 samples drawn from 33 countries ... (total N = 10,047)"
+   },
+   {
+    "ref": "S1-14",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://research.vu.nl/en/publications/sex-differences-in-mate-preferences-across-45-countries-a-large-s/",
+    "kanit_alinti": "Support for universal sex differences in preferences remains robust ... neither pathogen prevalence nor gender equality robustly predicted sex differences"
+   },
+   {
+    "ref": "S1-15",
+    "durum": "dogru",
+    "duzeltme": "PDF metni çıkarılarak doğrulandı: Campbell (ed.), Aldine, Chicago 1972, bölüm 7, s.136-179. Önerilen alıntı aşağıda.",
+    "kanit_url": "https://www2.nau.edu/~shuster/shustercourses/BIO%20698/Literature/Trivers%201972.pdf",
+    "kanit_alinti": "the sex whose typical parental investment is greater than that of the opposite sex will become a limiting resource for that sex"
+   },
+   {
+    "ref": "S1-16",
+    "durum": "dogru",
+    "duzeltme": "İlk yayın 8 Şubat 2008, revizyon 30 Ocak 2024, yazar Stephen M. Downes.",
+    "kanit_url": "https://plato.stanford.edu/entries/evolutionary-psychology/",
+    "kanit_alinti": "accounting for apparent design in nature in terms of adaptation amounts to telling just-so stories"
+   },
+   {
+    "ref": "S1-18",
+    "durum": "kismen_dogru",
+    "duzeltme": "Springer giriş engeline takıldı. Künye: Hendrix & Johnson (1985), 'Instrumental and expressive socialization: A false dichotomy', Sex Roles 13:581-595. Makale Parsons & Bales'i değil, Barry, Bacon & Child (1957) çapraz kültürel sosyalleşme verisini yeniden analiz ediyor. Bağlantı 'Parsons-Bales'in araçsal/ifadesel ikiliğini destekleyen veri' diye kurulmalı; Parsons-Bales künyesi bu kaynakta doğrulanmadı.",
+    "kanit_url": "https://hraf.yale.edu/documents/271",
+    "kanit_alinti": "This study reanalyzes the work of Barry, Bacon and Child (1957) on sex differences in child socialization."
+   }
+  ],
+  "genel_not": "Üretici genel olarak güvenilir: sayılar (1,7%, 37/33/10.047, 45/14.399, s.136-179) ve SEP tarihleri tutuyor. Sistematik zayıflık: bazı alıntılar arama özetinden alınmış ve yanlış URL'ye bağlanmış (S1-6, S1-11). Bağlam da birkaç yerde fazla genişletilmiş: Parsons-Bales bağlantısı (S1-18), Tome II (S1-1) ve Hillman bölüm adı (J3-27)."
+ },
+ {
+  "paket": "C_V3",
+  "arac": "22/34",
+  "satirlar": [
+   {
+    "ref": "S1-19",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://hawaii.edu/PCSS/biblio/articles/1961to1999/1997-sexual-identity.html",
+    "kanit_alinti": "(a) individuals are psychosexually biased at birth ... [traditional:] (a) Individuals are psychosexually neutral at birth"
+   },
+   {
+    "ref": "S1-20",
+    "durum": "kismen_dogru",
+    "duzeltme": "Verilen URL Diamond & Sigmundson 1997 değil, Diamond (1999) 'Pediatric management of ambiguous and traumatized genitalia', J Urology 162:1021-1028. 'reassigned himself' ifadesi sayfada yok; sayfa 'Things came to a head when Joan was 14' der. Künye: Diamond M, Sigmundson HK (1997) Sex reassignment at birth: long-term review and clinical implications, Arch Pediatr Adolesc Med 151(3):298-304. 14 yaş bilgisi öz olarak doğru; alıntı birebir değil.",
+    "kanit_url": "https://hawaii.edu/PCSS/biblio/articles/1961to1999/1999-pediatric-management.html",
+    "kanit_alinti": "Things came to a head when Joan was 14."
+   },
+   {
+    "ref": "S1-25",
+    "durum": "kismen_dogru",
+    "duzeltme": "URL Antonia Young'ın değil, Donato Martucci'nin makalesi: 'Women who become men? The sworn virgins in Albanian traditional culture', Anuac 3(2):35-60 (2014/2015). Makale özeti Kanun'dan, 'burrnesha'dan ve Young'dan söz etmiyor ('virgjineshë' terimini kullanır). Young, Women Who Become Men: Albanian Sworn Virgins, Berg, Oxford 2000 kitabı ayrıca doğrulandı (WorldCat/yayınevi kayıtları). Kanun bağlantısı bu kaynaklarda doğrudan görülmedi.",
+    "kanit_url": "https://ojs.unica.it/index.php/anuac/article/view/1789",
+    "kanit_alinti": "the sworn virgins or virgjineshë ... the category of 'social man', associated with the sworn virgins"
+   },
+   {
+    "ref": "S1-26",
+    "durum": "kismen_dogru",
+    "duzeltme": "Puan 45 ve 76 ülkede 43-45. sıra doğru; kaynak Türkiye'yi 'Feminine side of the scale' olarak niteler. Ad değişikliği The Culture Factor (eski Hofstede Insights) SSS sayfasında doğrulandı ama tarih orada yok; '2023' yalnızca ikincil kaynaklarda (Wikipedia vb.) geçiyor, 'yaklaşık 2023' diye yazılmalı.",
+    "kanit_url": "https://courses.worldcampus.psu.edu/welcome/engr802/001/content/01_lesson/16_page.html",
+    "kanit_alinti": "Masculinity (MAS) Score: 45. Tied for 43–45 out of 76 countries. Turkey scores 45 and is on the Feminine side of the scale."
+   },
+   {
+    "ref": "S1-28",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://open.metu.edu.tr/bitstream/handle/11511/54509/index.pdf",
+    "kanit_alinti": "Türk Psikoloji Dergisi 2002, 17 (49), 47 - 58 ... ÇDCÖ'nin toplumsal cinsiyetçiliği Türkiye'de ölçebilecek geçerlik ve güvenirliğe sahip olduğu bulunmuştur"
+   },
+   {
+    "ref": "S1-21",
+    "durum": "dogru",
+    "duzeltme": "Bölümler yayınevi sayfasında listelenmiyor; içindekiler kütüphane kayıtlarından doğrulandı: Nanda 'Hijras: An Alternative Sex and Gender Role in India' (s. 373-418), Grémaux 'Woman Becomes Man in the Balkans' (s. 241-282), Besnier 'Polynesian Gender Liminality Through Time and Space'.",
+    "kanit_url": "https://www.zonebooks.org/books/108-third-sex-third-gender-beyond-sexual-dimorphism-in-culture-and-history",
+    "kanit_alinti": "Published: April 1994; 624 pp."
+   },
+   {
+    "ref": "H1-1",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0174:text=Sym.:section=189e",
+    "kanit_alinti": "not merely the two sexes, male and female, as at present"
+   },
+   {
+    "ref": "H1-2",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0174:text=Sym.:section=189e",
+    "kanit_alinti": "'man-woman' was then a unity in form no less than name"
+   },
+   {
+    "ref": "H1-5",
+    "durum": "dogru",
+    "duzeltme": "Alıntı 192e'de birebir var; cümlenin 193a'daki devamı (aşkın tanımı) bu sayfada görülmedi.",
+    "kanit_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0174:text=Sym.:section=192e",
+    "kanit_alinti": "The cause of it all is this, that our original form was as I have described, and we were entire; and the craving and pursuit"
+   },
+   {
+    "ref": "H1-6",
+    "durum": "dogru",
+    "duzeltme": "Yazar adı Erik Porge (sayfa kaynakçasında 'Porte' yazım hatası var).",
+    "kanit_url": "https://www.encyclopedia.com/psychology/dictionaries-thesauruses-pictures-and-press-releases/sex-and-character",
+    "kanit_alinti": "For Weininger there were two ideal types, M and F ... Real individuals were intermediary bisexual states, defined by their proportions of M and F."
+   },
+   {
+    "ref": "H1-7",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.encyclopedia.com/psychology/dictionaries-thesauruses-pictures-and-press-releases/sex-and-character",
+    "kanit_alinti": "a man with the equation 3/4M+1/4F seeks a woman with the equation 3/4F+1/4M"
+   },
+   {
+    "ref": "H1-9",
+    "durum": "dogru",
+    "duzeltme": "'Oran fikri hiyerarşiktir' yorumdur; alıntı birebir doğru.",
+    "kanit_url": "https://daily.jstor.org/man-behind-new-man/",
+    "kanit_alinti": "they'll never have more than 50 percent man in their essence"
+   },
+   {
+    "ref": "H1-10",
+    "durum": "dogru",
+    "duzeltme": "Tarih: 10 Ekim 2018 (güncelleme 24 Nisan 2019).",
+    "kanit_url": "https://daily.jstor.org/man-behind-new-man/",
+    "kanit_alinti": "Otto Weininger's only book, Sex & Character, is a misogynist, anti-Semitic screed masquerading as philosophy."
+   },
+   {
+    "ref": "H1-12",
+    "durum": "kismen_dogru",
+    "duzeltme": "Verilen Cambridge URL'si Lawrence Kramer, 'Fin-de-siècle fantasies', Cambridge Opera Journal 5(2), 1993 makalesi; yalnızca 1903 yılını veriyor, ay, yayınevi ve Sengoopta yok. Braumüller (Wien und Leipzig, 1903) kütüphane kayıtları ve encyclopedia.com ile, Sengoopta, Otto Weininger: Sex, Science, and Self in Imperial Vienna (Univ. of Chicago Press, 2000) ile doğrulandı. 'Haziran' ayı yalnızca Wikipedia'da; bağımsız kaynak bulunamadı.",
+    "kanit_url": "https://www.encyclopedia.com/psychology/dictionaries-thesauruses-pictures-and-press-releases/sex-and-character",
+    "kanit_alinti": "First published in 1903 by a major publisher, Braumüller"
+   },
+   {
+    "ref": "H1-15",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://magnus-hirschfeld.de/institute-for-sexual-science-1919-1933/theory-practice/defining-the-sexes/",
+    "kanit_alinti": "all people were mixed forms of the most diverse combinations of male and female features ... at least 43 046 721"
+   },
+   {
+    "ref": "H1-18",
+    "durum": "kismen_dogru",
+    "duzeltme": "İlk baskı Almancadır: Das konträre Geschlechtsgefühl, Leipzig: Georg H. Wigand, 1896 (Kurella'nın katkısıyla); defterdeki 'Leipzig 1897' alıntısı yanlış. İngilizce baskı 1897, Londra (Wilson & Macmillan). Symonds'u ortak yazar gösteren yalnızca ilk Almanca baskıdır (Symonds 1893'te öldü). Doğuştanlık: EBSCO, Ellis'in eşcinselliği 'hereditary' ve doğal bir varyasyon olarak sunduğunu söyler; 'congenital' kelimesi görülmedi. Victorian Web sayfası bu bilgileri kısmen ve çelişkili veriyor.",
+    "kanit_url": "https://ebsco.com/research-starters/social-sciences-and-humanities/ellis-publishes-sexual-inversion",
+    "kanit_alinti": "Only the first German edition, however, acknowledges Symonds as a coauthor."
+   },
+   {
+    "ref": "H1-19",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.centertao.org/essays/tao-te-ching/dc-lau/chapter-42-commentary/",
+    "kanit_alinti": "The myriad creatures carry on their backs the yin and embrace in their arms the yang."
+   }
+  ],
+  "genel_not": "Alıntıların ve sayıların çoğu doğru (17 satırın 11'i doğru, 6'sı kısmen doğru, yanlış yok). Sistematik bir örüntü var: arama özetinden gelen satırlarda (S1-20, S1-25, H1-12) gösterilen URL iddiayı taşımıyor, başka bir eser ya da makaleye ait. Künyeler ve tarihler o satırlarda başka kaynaklarla düzeltilmeli. Belirsiz tarihler (Haziran 1903, 2023'teki ad değişikliği, 1896 ile 1897 arasındaki fark) dikkatli yazılmalı."
+ },
+ {
+  "paket": "C_V4",
+  "arac": "17/34",
+  "satirlar": [
+   {
+    "ref": "H1-20",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://iep.utm.edu/yinyang/",
+    "kanit_alinti": "In none of these conceptions of yinyang is there a valuational hierarchy"
+   },
+   {
+    "ref": "H1-21",
+    "durum": "dogru",
+    "duzeltme": "Britannica sayfası 403 verdi. Alıntı, aynı URL'nin arama özetinde birebir görüldü. Britannica ayrıca Dong'un Konfüçyüsçülüğü MÖ 136'da devlet kültü yapmada etkili olduğunu söylüyor.",
+    "kanit_url": "https://www.britannica.com/biography/Dong-Zhongshu",
+    "kanit_alinti": "Yang (light, positive, male) and yin (dark, negative, female) are the two fundamental forces of the universe"
+   },
+   {
+    "ref": "H1-23",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://www.sefaria.org/api/v3/texts/Bereshit_Rabbah.8.1?version=english",
+    "kanit_alinti": "When the Holy One blessed be He created Adam the first man, He created him with two faces"
+   },
+   {
+    "ref": "H1-25",
+    "durum": "dogru",
+    "duzeltme": "Künye doğru (Elliot R. Wolfson, Circle in the Square, SUNY Press 1995). Kaynak URL 404 veriyor; yerine Project MUSE kitap sayfası kullanılmalı: https://muse.jhu.edu/book/10438",
+    "kanit_url": "https://muse.jhu.edu/book/10438",
+    "kanit_alinti": "explore in great depth the androcentric phallocentrism that is characteristic of medieval Jewish mysticism"
+   },
+   {
+    "ref": "H1-26",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://al-islam.org/node/34938",
+    "kanit_alinti": "refers to as the yang Names and the yin Names"
+   },
+   {
+    "ref": "H1-28",
+    "durum": "kismen_dogru",
+    "duzeltme": "Künye ve bölüm doğru: 6. bölüm 'Witnessing God in Women: A Different Story of Creation', s. 173-202. Ancak 'en kusursuz biçimde' ifadesi kaynakta görülmedi, yalnızca bölüm başlığı görüldü. Önerilen biçim: 'Shaikh'in 6. bölümü, İbn Arabi'de Tanrı'nın kadında müşahede edilmesini ele alır.'",
+    "kanit_url": "https://muse.jhu.edu/book/19255",
+    "kanit_alinti": "Chapter 6. Witnessing God in Women: A Different Story of Creation"
+   },
+   {
+    "ref": "H1-29",
+    "durum": "dogru",
+    "duzeltme": "Künye doğru: Vernon James Schubel, AJISS 31:3 (2014), s. 146-148. 'Man of his time' alıntısı Shaikh'ten, s. 119-20; 'identical spiritual potential' ifadesi Shaikh s. 3'ten.",
+    "kanit_url": "https://mail.ajis.org/index.php/ajiss/article/download/1065/387/1491",
+    "kanit_alinti": "While Ibn Arabi was both a man of his time grounded in a patriarchal context ... men and women have identical spiritual potential"
+   },
+   {
+    "ref": "H1-13",
+    "durum": "dogru",
+    "duzeltme": "Ayrıntı: on iki kitapçığın ilk beşi 1864-65'te, sonrakiler 1869-1879 arasında çıktı. Madde yazarı James D. Steakley.",
+    "kanit_url": "https://encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ulrichs-karl-heinrich",
+    "kanit_alinti": "a series of twelve small books ... endowed at birth with a female anima"
+   },
+   {
+    "ref": "H1-24",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/shekhinah-gods-bride",
+    "kanit_alinti": "the feminine aspect of God—not an independent mythic being"
+   },
+   {
+    "ref": "G1-1",
+    "durum": "kismen_dogru",
+    "duzeltme": "İddia ve alıntı doğru, ama kaynak yanlış. Alıntı Endendijk 2016'da (PMC4945059) yok. Doğru kaynak: Leaper, Anderson & Sanders (1998), Developmental Psychology 34(1), 3-27, https://escholarship.org/content/qt07x9h9vv/qt07x9h9vv.pdf. Lytton & Romney 1991, Psychol Bull 109, 267-296.",
+    "kanit_url": "https://escholarship.org/content/qt07x9h9vv/qt07x9h9vv.pdf",
+    "kanit_alinti": "the only area in which there was a significant overall effect across 158 North American studies was the encouragement of gender-typed activities"
+   },
+   {
+    "ref": "G1-5",
+    "durum": "dogru",
+    "duzeltme": "İsteğe bağlı ek: özerklik desteğinde d = 0.03.",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4945059",
+    "kanit_alinti": "Parents were slightly more controlling with boys than with girls, but the effect size was negligible"
+   },
+   {
+    "ref": "G1-6",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4945059",
+    "kanit_alinti": "from 1990 onwards parents showed somewhat more autonomy-supportive strategies with girls than toward boys"
+   },
+   {
+    "ref": "G1-4",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4945059",
+    "kanit_alinti": "based on 126 observational studies (15,034 families)"
+   },
+   {
+    "ref": "G1-2",
+    "durum": "kismen_dogru",
+    "duzeltme": "'Babalarda daha büyük' kısmı kaynakta var (Leaper, Anderson & Sanders 1998'in Lytton & Romney özeti). 'Çocuk büyüdükçe azalıyor' kısmı bu PDF'te görülmedi; yalnızca kaynağı belirsiz bir ikincil arama özetinde geçti. Bu kısım çıkarılmalı ya da 'doğrulanmadı' diye etiketlenmeli.",
+    "kanit_url": "https://escholarship.org/content/qt07x9h9vv/qt07x9h9vv.pdf",
+    "kanit_alinti": "The effect was even larger with fathers than with mothers"
+   },
+   {
+    "ref": "G1-3",
+    "durum": "yanlis",
+    "duzeltme": "Gösterilen PDF'te (Leaper ve ark. 1998) bu alıntı yok; tam metinde 'pre-existing' ya da 'in response to' geçmiyor. Birebir ifade aramasında da bulunamadı. Yön belirsizliği makul bir yorum olabilir, ama kaynak gösterilemiyor. Satır kaldırılmalı ya da başka bir kaynakla desteklenmeli.",
+    "kanit_url": "https://escholarship.org/content/qt07x9h9vv/qt07x9h9vv.pdf",
+    "kanit_alinti": "Lytton and Romney (1991) carried out the more extensive of the two meta-analyses. They reviewed 158 North American studies across 19 socialization areas."
+   },
+   {
+    "ref": "G1-7",
+    "durum": "dogru",
+    "duzeltme": "Künye doğru: Developmental Psychology 38(4), 615-630, DOI 10.1037/0012-1649.38.4.615. Bilgi eScholarship PDF'inden doğrulandı; öğe sayfası boş döndü.",
+    "kanit_url": "https://escholarship.org/content/qt78d6g8zt/qt78d6g8zt.pdf",
+    "kanit_alinti": "Meta-analyses were conducted of 43 articles (with 48 different samples) ... The mean weighted correlation across the 43 independent samples was .16"
+   },
+   {
+    "ref": "G1-8",
+    "durum": "kismen_dogru",
+    "duzeltme": "İçerik doğru: 326 çocuk, 7-13 yaş; babanın ev işi payı ve örtük tutumları kızların tercihlerini yordadı. Ancak PDF OnlineFirst sürümü (2 Haziran 2014, DOI 10.1177/0956797614533968). Cilt-sayı 25(7) bu kaynakta görülmedi; DOI ile birlikte verilmeli ya da ayrıca doğrulanmalı.",
+    "kanit_url": "https://www2.psych.ubc.ca/~abaron/downloads/Croft_Schmader_Block_Baron_PsySci2014.pdf",
+    "kanit_alinti": "Fathers' implicit gender-role associations also uniquely predicted daughters' (but not sons') occupational preferences."
+   }
+  ],
+  "genel_not": "Beşeri bilimler satırları (H1) güvenilir: alıntılar birebir ve künyeler doğru. Tek pürüz H1-25'in 404 veren bağlantısı. Psikoloji satırlarında (G1) bir örüntü var: Lytton & Romney ile ilgili ikincil alıntılar yanlış kaynağa bağlanmış. G1-1'in kaynağı aslında Leaper, Anderson & Sanders 1998. G1-3'ün alıntısı gösterilen kaynakta hiç yok. G1-2'deki yaşla azalma bilgisi de kaynaksız. İkincil özetlerden gelen satırlar rapora girmeden önce kontrol edilmeli."
+ },
+ {
+  "paket": "C_V5",
+  "arac": "22/32",
+  "satirlar": [
+   {
+    "ref": "G1-9",
+    "durum": "dogru",
+    "duzeltme": "Künye: Martin & Fabes 2001, Developmental Psychology 37(3), 431-446 (sayı 3, iddiada sayı belirtilmemiş; doğru). core.ac.uk PDF 403 verdi; alıntı arama sonucundaki özet parçasında görüldü. Özet devamı: 'especially when larger aggregates of data were used'.",
+    "kanit_url": "https://core.ac.uk/download/194457382.pdf",
+    "kanit_alinti": "Children's partner preferences were highly sex differentiated and stable over time, especially when larger aggregates of data were used."
+   },
+   {
+    "ref": "G1-10",
+    "durum": "dogru",
+    "duzeltme": "APA Monitor sayfası WebFetch'te boş döndü; alıntı, 'social dosage effect' terimi ve 61 çocuk (28 erkek, 33 kız), 3-6 yaş bilgisi aynı sayfanın arama dizini metninde görüldü. Not: alıntı makaleden değil, Martin'in APA Monitor (Temmuz/Ağustos 2001) röportajından.",
+    "kanit_url": "https://www.apa.org/monitor/julaug01/peerplay",
+    "kanit_alinti": "\"The more children play with same-sex peers, the more we saw those effects on them,\" Martin says. She calls this \"the social dosage effect.\""
+   },
+   {
+    "ref": "G1-11",
+    "durum": "dogru",
+    "duzeltme": "Yazarlar doğrulandı: Hermann, Morgan & Shanahan (2022), 'Social Change, Cultural Resistance: A Meta-Analysis of the Influence of Television Viewing on Gender Role Attitudes', Communication Monographs 89(3), 396-418. 'Tam doğrulanmadı' notu kaldırılabilir. Etki büyüklüğü .102 (küçük). Yayıncı sayfası 403; özet arama sonucundan.",
+    "kanit_url": "https://informahealthcare.com/doi/full/10.1080/03637751.2021.2018475",
+    "kanit_alinti": "485 effect sizes from 69 independent samples (N = 57,542) and reveals an overall effect size of .102"
+   },
+   {
+    "ref": "G1-12",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://informahealthcare.com/doi/full/10.1080/03637751.2021.2018475",
+    "kanit_alinti": "no evidence of any decline of this association over time ... significantly weaker for gender role attitudes related to the public sphere"
+   },
+   {
+    "ref": "G1-13",
+    "durum": "kismen_dogru",
+    "duzeltme": "Kaynak URL Egan & Perry 2001 değil; Lurye, Zosuls & Ruble (2008), New Directions for Child and Adolescent Development 120, 31-46. Alıntı orada geçiyor ve Egan & Perry 2001 ile Smith & Leaper'a atıf yapıyor. Künye 37(4), 451-463 doğru. 'Grup kayırmacılığı uyumla ilişkili değil' bulgusu bu kaynakta görülmedi; ikincil kaynaklar bunu Carver, Yunger & Perry (2003) bulgusu olarak veriyor. Ayrıca kayırmacılığın Egan & Perry 2001'e ait olduğunu belirtmeyin, Carver ve ark. 2003'e atfedin.",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2661758",
+    "kanit_alinti": "Importantly, research shows that felt pressure is associated with lower levels of self-worth in both middle childhood and early adolescence"
+   },
+   {
+    "ref": "G1-14",
+    "durum": "dogru",
+    "duzeltme": "Kaynak: Smith & Leaper 2006 (eScholarship PDF), Egan & Perry 2001'i özetliyor. Alıntı ve atıflar birebir.",
+    "kanit_url": "https://escholarship.org/content/qt1zf7v354/qt1zf7v354.pdf?t=senseg",
+    "kanit_alinti": "feeling pressure to conform to gender roles may be especially damaging to children who do not feel typical for their gender (Carver, Yunger, & Perry, 2003; Yunger, Carver, & Perry, 2004)"
+   },
+   {
+    "ref": "G1-18",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://escholarship.org/content/qt1zf7v354/qt1zf7v354.pdf?t=senseg",
+    "kanit_alinti": "Participants were 229 adolescents ... Regression analysis indicated peer acceptance partially mediated the relation between self-perceived gender typicality and self-worth."
+   },
+   {
+    "ref": "G1-19",
+    "durum": "dogru",
+    "duzeltme": "",
+    "kanit_url": "https://escholarship.org/content/qt1zf7v354/qt1zf7v354.pdf?t=senseg",
+    "kanit_alinti": "gender-nonconforming and accepted by their peers ... their self-esteem was comparable with adolescents who saw themselves as gender-conforming."
+   },
+   {
+    "ref": "G1-15",
+    "durum": "dogru",
+    "duzeltme": "Künye: Halim, Bryant & Zucker (2016), Bölüm 10, M.R. Korin (ed.), Health Promotion for Children and Adolescents, Springer, s. 191 vd. Not: alıntı daha çok ilkokul-ön ergen çocuklara dair araştırmayı özetliyor; 'uyumsuz' = düşük tipiklik ve memnuniyetsizlik.",
+    "kanit_url": "https://home.csulb.edu/~mhalim/pub/Halim Bryant Zucker (2016) - Early Gender Development Mental Physical Health - Health Promotion.pdf",
+    "kanit_alinti": "across diverse ethnic groups, children who feel more incompatible with their gender do tend to exhibit more negative psychological adjustment (e.g., lower feelings of global self-worth"
+   },
+   {
+    "ref": "G1-20",
+    "durum": "dogru",
+    "duzeltme": "bib-bvb.de erişilemedi (ağ izni yok); künye ve beş boyut arama sonucundaki özetten doğrulandı: Perry, Pauletti & Cooper 2019, IJBD 43(4), 289-304, DOI 10.1177/0165025418811129. Grup kayırmacılığı = 'intergroup bias'.",
+    "kanit_url": "https://spiral.lynn.edu/facpubs/760",
+    "kanit_alinti": "felt same-gender typicality, felt other-gender typicality, gender contentedness, felt pressure for gender conformity, and intergroup bias"
+   },
+   {
+    "ref": "G1-21",
+    "durum": "dogru",
+    "duzeltme": "Künye: Yu & Xie 2010, Sex Roles 62(1), 100-113; 361 çocuk (201 erkek, 160 kız), Çin anakarası, 9-12 yaş. 'Kültüre bağlılık' yorumu üreticinin çıkarımıdır, kaynağın alıntısı değil.",
+    "kanit_url": "https://research.polyu.edu.hk/en/publications/multidimensional-gender-identity-and-psychological-adjustment-in-/",
+    "kanit_alinti": "Higher gender typicality was related to greater global self-worth ... neither felt pressure nor gender contentment significantly predicted psychological adjustment"
+   },
+   {
+    "ref": "G1-23",
+    "durum": "dogru",
+    "duzeltme": "Künye: Yu, Xie & Shek (2012), The Scientific World Journal, 2012, 595813. Birleşik faktörün adı 'Gender Compatibility'; memnuniyet alt ölçeğinin güvenirliği düşük (α = 0.50).",
+    "kanit_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3373173",
+    "kanit_alinti": "the three-factor model fits the current Chinese sample better"
+   },
+   {
+    "ref": "G1-27",
+    "durum": "kismen_dogru",
+    "duzeltme": "Springer sayfası giriş yönlendirmesi verdi. Künye: Jones, Peskin & Livson (2011), J Adult Dev 18, 155-163; yaş aralığı 33/35'ten 78/85'e. Özetteki 'cross-over of gender roles in men and women' yönü destekliyor, ama 'average man, initially low in femininity...' birebir alıntısı görülmedi. Alıntıyı rapordan çıkarın ya da 'doğrulanmadı' etiketleyin.",
+    "kanit_url": "https://doi.org/10.1007/s10804-010-9108-5",
+    "kanit_alinti": "gender predicts both individuals' initial level and change in femininity"
+   },
+   {
+    "ref": "G1-28",
+    "durum": "dogru",
+    "duzeltme": "Springer tam metni açılmadı; özet arama sonucunda görüldü. Ek: dişillikteki değişim yalnız kadınlarda psikolojik sağlıkla ilişkili bulunmuş.",
+    "kanit_url": "https://doi.org/10.1007/s10804-010-9108-5",
+    "kanit_alinti": "support Jung's androgyny hypothesis of a cross-over of gender roles in men and women, but do not support Gutmann's hypothesis that such cross-over is tied to \"parental emergency\""
+   },
+   {
+    "ref": "G1-29",
+    "durum": "kismen_dogru",
+    "duzeltme": "Kaynak yanlış: alıntı 10.1007/s11199-007-9282-5'e ait değil. Doğrusu Carlson & Videka-Sherman (1990), 'An empirical test of androgyny in the middle years: Evidence from a national survey', Sex Roles 23, 305-324, DOI 10.1007/BF00290051. Ulusal temsilî örneklem ifadesi doğru. Bulgu 1990 tarihli; rapora tarihiyle girmeli.",
+    "kanit_url": "https://link.springer.com/doi/10.1007/BF00290051",
+    "kanit_alinti": "little empirical support was found for role reversal or androgyny at midlife in this nationally representative sample"
+   },
+   {
+    "ref": "G1-25",
+    "durum": "kismen_dogru",
+    "duzeltme": "Kachel, Steffens & Niedlich (2016), Frontiers in Psychology 7:956. Maddeler doğru. 7 basamaklı iki kutuplu ölçek ('very masculine' 1 ile 'very feminine' 7 arası) pilot çalışmada ve Çalışma 2'de kullanılmış; Çalışma 1'de iki ayrı tek kutuplu ölçek kullanılmış. Diğer 4 madde 'Traditionally, my ... would be considered as…' biçiminde.",
+    "kanit_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00956",
+    "kanit_alinti": "\"I consider myself as…\" ... \"Ideally, I would like to be…\" ... from \"very masculine\" (1) to \"very feminine\" (7)"
+   }
+  ],
+  "genel_not": "16 satırın 11'i doğru, 5'i kısmen doğru, hiçbiri yanlış değil. Üreticinin alıntıları genelde birebir ve güvenilir. Hatalar künyede ve atıfta toplanıyor. G1-29'da DOI yanlış makaleyi gösteriyor; doğru makale Carlson & Videka-Sherman 1990. G1-13'te ikincil bir kaynak birincil makale gibi sunulmuş ve Carver ve ark. 2003 bulgusu Egan & Perry 2001'e atfedilmiş. G1-27'deki birebir alıntı görülemedi. Örüntü şu: arama özetinden alınan satırlarda kaynak ve atıf karışabiliyor."
+ }
+]
