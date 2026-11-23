@@ -8,7 +8,9 @@ K = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 src = open(os.path.join(K, "araclar", "tr_pazar_tara.py")).read()
 exec(src[:src.index("import sys\nANAHTAR")])   # f(), ara(), ara_ks(), UA, onbellek
 liste = json.load(open(K + "/parcalar/kitap_listesi.json"))
-sonuc = {}
+if len(sys.argv) > 1: liste = [b for b in liste if b["katman"] in sys.argv[1:]]
+cikti = K + "/dogrulama/turkce_katalog.json"
+sonuc = json.load(open(cikti)) if os.path.exists(cikti) else {}
 for b in liste:
     soy = b["soyad"]; fs = f(soy)
     bulunan, gor = [], set()
@@ -22,5 +24,7 @@ for b in liste:
             if an in gor: continue
             gor.add(an); bulunan.append({"ad": x["ad"], "yazar": x.get("yazar", ""), "yayinevi": x.get("yayinevi", "")})
     sonuc[b["dosya"]] = bulunan[:15]
-json.dump(sonuc, open(K + "/dogrulama/turkce_katalog.json", "w"), ensure_ascii=False, indent=1)
-print(sum(1 for v in sonuc.values() if v), "/", len(sonuc), "yazar icin katalogda en az bir Turkce kitap")
+    if b is liste[-1] or len(sonuc) % 5 == 0:
+        json.dump(sonuc, open(cikti, "w"), ensure_ascii=False, indent=1)
+    json.dump(sonuc, open(cikti, "w"), ensure_ascii=False, indent=1)
+print(sum(1 for v in sonuc.values() if v), "/", len(sonuc), "kitap icin katalogda yazarin en az bir Turkce kitabi")

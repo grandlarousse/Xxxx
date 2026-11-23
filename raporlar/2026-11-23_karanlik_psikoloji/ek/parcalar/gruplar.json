@@ -1,0 +1,766 @@
+{
+ "A1": {
+  "ad": "Karanlık kişiliğin bilimi",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K001_zeigler_hill",
+    "kunye": "Virgil Zeigler-Hill ve David K. Marcus (ed.) — The Dark Side of Personality: Science and Practice in Social, Personality, and Clinical Psychology (2016)",
+    "ipucu": "APA'nın karanlık kişilik derlemesi. Karanlık üçlü, sadizm ve kin (spite) gibi özellikleri yaklaşık 40 araştırmacının bölümleriyle bilimsel olarak toplar. Alanın başvuru kitabı. APA yayını derleme; 'karanlık' özelliklerin ayrımcı ve uyumlu yanları; bölüm yazarlarını ve kısımları ver."
+   },
+   {
+    "dosya": "K002_lyons",
+    "kunye": "Minna Lyons — The Dark Triad of Personality: Narcissism, Machiavellianism, and Psychopathy in Everyday Life (2019)",
+    "ipucu": "Karanlık üçlünün (narsisizm, makyavelizm, psikopati) gündelik hayattaki yerini anlatan akademik özet: eş seçimi, arkadaşlık, iş yeri, internet. Araştırmacı ve öğrenci için temel kitap. Liverpool'da psikolog; karanlık üçlünün aile, iş, eş seçimi, çevrimiçi davranışta görünümü; Academic Press."
+   },
+   {
+    "dosya": "K003_bereczkei",
+    "kunye": "Tamás Bereczkei — Machiavellianism: The Psychology of Manipulation (2018)",
+    "ipucu": "Christie ve Geis'ten bu yana makyavelizm üzerine ilk kapsamlı psikoloji kitabı. Aldatmayı, sosyal zekâyı, empati eksikliğini ve evrimsel kökenleri inceler. Pécs Üniversitesi; makyavelizmin bilişsel ve duygusal temeli, 'zihin okuma' becerisi tartışması, Routledge."
+   },
+   {
+    "dosya": "K004_baron_cohen",
+    "kunye": "Simon Baron-Cohen — Zero Degrees of Empathy: A New Theory of Human Cruelty (ABD: The Science of Evil) (2011)",
+    "ipucu": "Kötülüğü empati eksikliğiyle açıklar; psikopatiyi 'sıfır empati' türü olarak işler. Kötülük dilimiyle örtüşür; empati ölçeğine dayalı model tartışmalı. Cambridge; 'kötülük' yerine 'empati erozyonu'; empati devresi; sıfır-negatif (psikopati, sınırda, narsisizm) ve sıfır-pozitif (otizm) ayrımı; eleştiriler."
+   }
+  ]
+ },
+ "A2": {
+  "ad": "Kötülüğün psikolojisi",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K005_baumeister",
+    "kunye": "Roy F. Baumeister — Evil: Inside Human Violence and Cruelty (1997)",
+    "ipucu": "Kötülüğü failin gözünden inceleyen sosyal psikoloji klasiği. Dört kök neden önerir: araçsal kazanç, tehdit altındaki benlik saygısı, idealizm ve sadizm. Bloom'un listesinde de var. OL ilk yılı 1996 gösteriyor. Kötülüğün dört kökü: maddi kazanç, tehdit altındaki benlik saygısı (egotizm), idealizm, sadizm; 'büyüklük boşluğu' (magnitude gap): fail ile kurbanın algı farkı; benlik saygısı mitine itiraz."
+   },
+   {
+    "dosya": "K006_zimbardo",
+    "kunye": "Philip Zimbardo — The Lucifer Effect: Understanding How Good People Turn Evil (2007)",
+    "ipucu": "Ortamın sıradan insanı nasıl kötülüğe sürüklediğini Stanford deneyi ve Ebu Gureyb üzerinden anlatır. Etkisi büyük, ancak deneyin yöntemi Le Texier ve başkalarınca ağır eleştirildi; eleştirilerle birlikte okunmalı. Stanford Hapishane Deneyi (1971) ve Abu Ghraib; durumsal güçler, sistem; Le Texier 2018 ve diğer eleştiriler (deneyin yönlendirilmiş olduğu); 'kahramanlığın sıradanlığı'. Milgram önceki raporda. Keşif ajanına göre Türkçe adı: Lucifer Etkisi."
+   },
+   {
+    "dosya": "K007_browning",
+    "kunye": "Christopher R. Browning — Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland (1992)",
+    "ipucu": "Sıradan Alman polislerinin toplu katliama katılmasını belgelere dayanarak inceleyen tarih çalışması. Uyum baskısı ve otoriteye itaat üzerine temel vaka. 101. Yedek Polis Taburu, Józefów 1942; reddetme fırsatına karşın katılım; uyma, kariyer, grup baskısı; Goldhagen ile tartışma (Hitler's Willing Executioners 1996). Türkçesi: Sıradan Adamlar. Keşif ajanına göre Türkçe adı: Sıradan Adamlar."
+   },
+   {
+    "dosya": "K008_arendt",
+    "kunye": "Hannah Arendt — Eichmann in Jerusalem: A Report on the Banality of Evil (1963)",
+    "ipucu": "'Kötülüğün sıradanlığı' kavramını getiren dava raporu. Bloom bazen fazla ileri gittiğini söylese de öneriyor. Eichmann'ın kendisi hakkındaki yargısı sonraki tarihçilikçe tartışıldı. Kötülüğün sıradanlığı; düşünememe; Eichmann'ın Sassen kayıtlarıyla ortaya çıkan ideolojik yanı (Stangneth 2011) ve eleştiriler. Önceki raporda Arendt'in On Violence'ı anlatıldı. Keşif ajanına göre Türkçe adı: Kudüs'te Eichmann."
+   }
+  ]
+ },
+ "A3": {
+  "ad": "Psikopati klasikleri",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K009_cleckley",
+    "kunye": "Hervey Cleckley — The Mask of Sanity (1941)",
+    "ipucu": "Psikopatinin modern klinik tanımını kuran kitap; 16 ölçütlü vaka portreleri. Hare'in ölçeği bu tanıma dayanır. Sonraki baskılar (1950, 1976) genişletilmiştir. 16 klinik ölçüt; vaka portreleri; son baskı 1976 (5. baskı); 'akıl sağlığı maskesi'; Hare'in PCL'sine temel."
+   },
+   {
+    "dosya": "K010_hare",
+    "kunye": "Robert D. Hare — Without Conscience: The Disturbing World of the Psychopaths Among Us (1993)",
+    "ipucu": "PCL-R ölçeğinin yazarından psikopatinin halk için başvuru kitabı; belirtiler ve korunma önerileri. Ölçeğin suç davranışına ağırlık vermesi Skeem ve Cooke tarafından eleştirildi. PCL-R'nin yaratıcısı; psikopatinin popüler anlatımı; duygusal-kişilerarası ve yaşam tarzı belirtileri; 'beyaz yakalı psikopatlar'; korunma ve hayatta kalma rehberi bölümü."
+   },
+   {
+    "dosya": "K011_stout",
+    "kunye": "Martha Stout — The Sociopath Next Door (2005)",
+    "ipucu": "Vicdan yoksunluğunu gündelik hayatta tanıma ve korunma kuralları sunan çok satan kitap. Klinik psikolog yazar; yaygınlık oranı (%4) tartışmalı bir tahmindir. Harvard Tıp'ta klinik psikolog; '25 kişide 1' iddiası ve dayanağı; vicdanın doğası; sosyopatı tanımanın 13 kuralı; acıma oyunu; eleştiriler (sayı)."
+   },
+   {
+    "dosya": "K012_raine",
+    "kunye": "Adrian Raine — The Anatomy of Violence: The Biological Roots of Crime (2013)",
+    "ipucu": "Şiddet ve psikopatinin biyolojik köklerini anlatan popüler bilim kitabı. Beyin görüntüleme verilerinin nedensellik yorumu tartışmalıdır. Nörokriminoloji; prefrontal korteks, amigdala, düşük dinlenme kalp hızı, beslenme; etik ve hukuk tartışması; Türkçesi var mı katalogdan bak."
+   }
+  ]
+ },
+ "A4": {
+  "ad": "Psikopati: popüler bilim ve korunma",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K013_dutton",
+    "kunye": "Kevin Dutton — The Wisdom of Psychopaths: What Saints, Spies, and Serial Killers Can Teach Us About Success (2012)",
+    "ipucu": "Psikopatik özelliklerin (korkusuzluk, soğukkanlılık) bazı mesleklerde işe yaradığını savunur. İlginç ama 'iyi psikopat' tezi ve meslek sıralaması zayıf verilere dayanır. Oxford; 'psikopati sürgüsü' (dial); 'yedi öldürücü kazanma' (ruthlessness, charm, focus, mental toughness, fearlessness, mindfulness, action); meslek listesi (CEO, avukat, cerrah); eleştiriler."
+   },
+   {
+    "dosya": "K014_ronson",
+    "kunye": "Jon Ronson — The Psychopath Test: A Journey Through the Madness Industry (2011)",
+    "ipucu": "Gazetecinin PCL-R ve tanı kültürü üzerine eleştirel yolculuğu. Bilimsel değil ama etiketlemenin tehlikesini iyi gösterir. Gazeteci; Hare'in kursu, Broadmoor'daki 'Tony', Al Dunlap; teşhis koymanın kolaylığı ve 'delilik endüstrisi'; Hare'in tepkisi. Türkçesi 'Psikopat Testi'. Keşif ajanına göre Türkçe adı: Psikopat Testi."
+   },
+   {
+    "dosya": "K015_kiehl",
+    "kunye": "Kent A. Kiehl — The Psychopath Whisperer: The Science of Those Without Conscience (2014)",
+    "ipucu": "Cezaevinde mobil MR ile binlerce mahkûmu tarayan araştırmacının anlatısı. Bilimsel dayanağı güçlü; kendi bulgularına iyimser yaklaşır. Mobil MR ile cezaevlerinde binlerce tarama; paralimbik sistem; gençlerde tedavi (Mendota Juvenile Treatment Center) ve umut; hukuki sonuçlar."
+   },
+   {
+    "dosya": "K016_mackenzie",
+    "kunye": "Jackson MacKenzie — Psychopath Free: Recovering from Emotionally Abusive Relationships with Narcissists, Sociopaths, and Other Toxic People (2012)",
+    "ipucu": "Duygusal istismar sonrası iyileşme kılavuzu; kurban forumu deneyiminden doğdu. İlk baskı 'Peace' takma adıyla kendi yayını, genişletilmiş baskı 2015. Bilimsel değil. PsychopathFree.com forumunun kurucusu; idealize-değersizleştir-terk döngüsü, kurtulma aşamaları; ilk baskı 2012 kendi yayını, 2015 Berkley; bilimsel dayanağı zayıf, kurtulanların deneyimi."
+   }
+  ]
+ },
+ "A5": {
+  "ad": "Narsisizm: kuram ve kültür",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K017_kernberg",
+    "kunye": "Otto F. Kernberg — Borderline Conditions and Pathological Narcissism (1975)",
+    "ipucu": "Patolojik narsisizm kuramının temel klinik eseri; büyüklenmeci benlik ve kötücül narsisizm kavramlarını biçimlendirdi. Psikanalitik, deneysel dayanağı sınırlı ama alanın başvuru kaynağı. Nesne ilişkileri kuramı; patolojik büyüklenmeci kendilik; kötücül narsisizm kavramına uzanış (1984); Kohut ile tartışma; Türkçe baskı var mı katalogdan. Keşif ajanına göre Türkçe adı: Sınır Durumlar ve Patolojik Narsisizm."
+   },
+   {
+    "dosya": "K018_lasch",
+    "kunye": "Christopher Lasch — The Culture of Narcissism: American Life in an Age of Diminishing Expectations (1979)",
+    "ipucu": "Narsisizmi toplumsal bir karakter tipi olarak okuyan klasik kültür eleştirisi. Kişilik bilimi değil, sosyal eleştiri; kavramın kamusal kullanımını şekillendirdi. Tarihçi; toplumsal eleştiri; terapötik kültür, ünlülük, rekabet; Carter'ın 'malaise' konuşmasına etkisi; Türkçesi 'Narsisizm Kültürü'. Keşif ajanına göre Türkçe adı: Narsisizm Kültürü."
+   },
+   {
+    "dosya": "K019_twenge",
+    "kunye": "Jean M. Twenge ve W. Keith Campbell — The Narcissism Epidemic: Living in the Age of Entitlement (2009)",
+    "ipucu": "NPI (Narsisistik Kişilik Envanteri) verisiyle narsisizmin arttığını savunur. Salgın tezi tartışmalı: Trzesniewski ve Donnellan ile sonraki birleşik analizler artış bulmadı. NPI puanlarının kuşaklar arası artışı iddiası; eleştiriler (Trzesniewski ve Donnellan; Wetzel ve ark. 2017 tersi bulgu); Türkçesi 'Asrın Vebası: Narsisizm İlleti' (Kaknüs). Keşif ajanına göre Türkçe adı: Asrın Vebası: Narsisizm İlleti."
+   },
+   {
+    "dosya": "K020_miller",
+    "kunye": "Alice Miller — Das Drama des begabten Kindes und die Suche nach dem wahren Selbst (1979)",
+    "ipucu": "Çocuğu kendi ihtiyacı için kullanan ebeveyn ve 'sahte benlik' gelişimi üzerine klasik. Klinik gözleme dayanır, deneysel değil; narsisistik ebeveyn literatürünün kökeni. Çocuğun ebeveynin narsisistik ihtiyaçlarına göre şekillenmesi; 'yetenekli çocuk'; sahte benlik; depresyon ve büyüklenme; sonradan psikanalizden ayrılması. Türkçesi 'Yetenekli Çocuğun Dramı'. Keşif ajanına göre Türkçe adı: Yetenekli Çocuğun Dramı."
+   }
+  ]
+ },
+ "A6": {
+  "ad": "Narsisizm: popüler bilim ve korunma",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K021_malkin",
+    "kunye": "Craig Malkin — Rethinking Narcissism: The Bad—and Surprising Good—About Feeling Special (2015)",
+    "ipucu": "Narsisizmi sağlıklıdan patolojiğe uzanan bir yelpaze olarak sunar; erken uyarı işaretleri ve sınır koyma önerileri verir. Araştırmaya dayalı ama kendi ölçeği sınırlı sınanmış. Harvard'da klinik psikolog; narsisizm yelpazesi (0–10), sağlıklı narsisizm, 'echoism' kavramı; Türkçesi 'Narsisizme Yeni Bir Bakış' olabilir. Keşif ajanına göre Türkçe adı: Narsisizme Yeni Bir Bakış."
+   },
+   {
+    "dosya": "K022_durvasula",
+    "kunye": "Ramani Durvasula — It's Not You: Identifying and Healing from Narcissistic People (2024)",
+    "ipucu": "Narsisistik istismardan iyileşme rehberi; suçu üstlenme ve kendini sorgulama döngüsünü kırmaya odaklanır. Klinik deneyime dayalı, deneysel sınama sınırlı. Klinik psikolog; 'narsisistik istismar' çerçevesi; ilişkiden çıkma ve iyileşme; önceki kitapları Should I Stay or Should I Go? (2015) ve Don't You Know Who I Am? (2019) bir paragrafla an; sosyal medya etkisi ve eleştirisi."
+   },
+   {
+    "dosya": "K023_mcbride",
+    "kunye": "Karyl McBride — Will I Ever Be Good Enough? Healing the Daughters of Narcissistic Mothers (2008)",
+    "ipucu": "Narsisistik özellikli annelerin kızları için iyileşme kitabı; türün en çok önerileni. Klinik ve anket gözlemine dayanır, deneysel değil. Aile terapisti; narsisistik anne tipleri; kızlarda iz; iyileşme programı; bilimsel dayanak: klinik deneyim ve anketler."
+   },
+   {
+    "dosya": "K024_behary",
+    "kunye": "Wendy T. Behary — Disarming the Narcissist: Surviving and Thriving with the Self-Absorbed (2008)",
+    "ipucu": "Şema terapisi temelli; narsisistik özellikli partnerle iletişim, sınır ve empatik yüzleşme teknikleri. Uygulamaya dönük, kanıtı klinik. Şema terapisi; narsisistik kişinin 'yalnız çocuk' ve 'kendini yücelten' kipleri; empatik yüzleşme; ilişkide kalanlar için."
+   }
+  ]
+ },
+ "A7": {
+  "ad": "Psikolojik istismar ve zorlayıcı denetim",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K025_bancroft",
+    "kunye": "Lundy Bancroft — Why Does He Do That? Inside the Minds of Angry and Controlling Men (2002)",
+    "ipucu": "Failin bakış açısını anlatan başvuru kitabı. Yazar istismarcı erkeklerle on yıllarca program yürüttü. Kitaba göre sorun öfke değil, hak görme ve denetim inancı. Uyarı işaretlerini ve güvenli ayrılmayı anlatıyor. İstismarcı erkek programlarında 15 yılı aşkın deneyim; istismarcı tipleri; istismarın değerlerden ve hak iddiasından doğduğu tezi (öfke sorunu değil); çocuklar; değişimin işaretleri."
+   },
+   {
+    "dosya": "K026_stark",
+    "kunye": "Evan Stark — Coercive Control: How Men Entrap Women in Personal Life (2007)",
+    "ipucu": "Zorlayıcı denetim (coercive control) kavramının akademik temeli. Kitap, istismarı tek tek şiddet olaylarından çıkarıp yalıtma, izleme ve kurallarla süren bir özgürlük gaspı olarak tanımlıyor. Birleşik Krallık yasasını etkiledi. Sosyolog ve sosyal hizmet uzmanı; şiddet odaklı modelin eleştirisi; özgürlüğün kısıtlanması; İngiltere 2015 yasasına etkisi."
+   },
+   {
+    "dosya": "K027_herman",
+    "kunye": "Judith Lewis Herman — Trauma and Recovery: The Aftermath of Violence—From Domestic Abuse to Political Terror (1992)",
+    "ipucu": "Ev içi istismar ve esaret travmasını savaş travmasıyla aynı çerçevede ele aldı. Karmaşık TSSB (C-PTSD) kavramını önerdi. İyileşmeyi üç evreyle anlatıyor: güvenlik, yas, yeniden bağ kurma. Bilimsel ağırlığı yüksek. Harvard psikiyatr; karmaşık TSSB önerisi; tutsaklık durumu; esir alanın taktikleri (Amnesty'nin zorlama şeması); iyileşmenin üç evresi. Türkçesi 'Travma ve İyileşme'. Keşif ajanına göre Türkçe adı: Travma ve İyileşme."
+   },
+   {
+    "dosya": "K028_hirigoyen",
+    "kunye": "Marie-France Hirigoyen — Le harcèlement moral: la violence perverse au quotidien (1998)",
+    "ipucu": "'Pervers narcissique' kavramını halka mal eden, aile ve işyerinde psikolojik tacizi anlatan çok satan. İstismar dilimiyle çakışabilir; kavram klinik olarak tartışmalı. Fransız psikiyatr; 'pervers narcissique' kavramını yaygınlaştırdı; çift ve iş yerinde manevi taciz; Fransa'da 2002 iş yasasına etkisi; Türkçesi var mı katalogdan. Keşif ajanına göre Türkçe adı: Manevi Taciz (doğrulanmadı)."
+   }
+  ]
+ },
+ "A8": {
+  "ad": "Gaslighting, şantaj, sözel istismar ve korkunun armağanı",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K029_stern",
+    "kunye": "Robin Stern — The Gaslight Effect: How to Spot and Survive the Hidden Manipulation Others Use to Control Your Life (2007)",
+    "ipucu": "Gaslighting'i, yani kişinin kendi algısından şüphe ettirilmesini, ilişkilerde sistemli biçimde anlatan ilk kitap. Üç evre ve çıkış adımları veriyor. Klinik deneyime dayanıyor, ampirik test yok. Yale Duygusal Zekâ Merkezi; gaslighting'in üç evresi (inanmama, savunma, depresyon); üç gaslighter tipi (iyi adam, cazibeli, korkutan); 2018 yeni baskı."
+   },
+   {
+    "dosya": "K030_forward",
+    "kunye": "Susan Forward ve Donna Frazier — Emotional Blackmail: When the People in Your Life Use Fear, Obligation, and Guilt to Manipulate You (1997)",
+    "ipucu": "Duygusal şantajı korku, yükümlülük ve suçluluk üzerinden çözümlüyor (FOG modeli). Şantajcı tiplerini ve somut karşılık verme dilini sunuyor. Klinik gözleme dayanıyor. FOG kavramı; şantajcının dört tipi (cezalandırıcı, kendini cezalandırıcı, acı çeken, kışkırtıcı); altı aşama; karşılık stratejileri. Türkçesi 'Duygusal Şantaj'. Keşif ajanına göre Türkçe adı: Duygusal Şantaj."
+   },
+   {
+    "dosya": "K031_evans",
+    "kunye": "Patricia Evans — The Verbally Abusive Relationship: How to Recognize It and How to Respond (1992)",
+    "ipucu": "Sözel istismarın türlerini adlandıran ilk popüler başvuru kitabı: geçiştirme, küçümseme, şaka kılığında aşağılama, inkâr. Kategorileri yararlı. Dayanağı nitel tanıklıklar. Sözel istismarın kategorileri (alıkoyma, karşı çıkma, küçümseme, şaka kılıfı, engelleme, suçlama vb.); iki 'gerçeklik' (Reality I ve II); yanıtlar."
+   },
+   {
+    "dosya": "K032_de_becker",
+    "kunye": "Gavin de Becker — The Gift of Fear: Survival Signals That Protect Us from Violence (1997)",
+    "ipucu": "Sezgiye dayalı tehlike işaretlerini anlatıyor: zorla yakınlık, fazla ayrıntı, 'hayır'ı duymama. Takip ve partner şiddetine karşı korunma klasiği. Güvenlik uzmanı deneyimi, ampirik test sınırlı. Güvenlik danışmanı; sezgi ve tehlike işaretleri (zorla ekip oluşturma, cazibe, fazla ayrıntı, 'hayır'ı yok sayma, istenmeyen söz verme vb.); ısrarlı takip; eleştiriler (anekdotlara dayanma)."
+   }
+  ]
+ },
+ "A9": {
+  "ad": "Tarikat ve zihin denetimi",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K033_hassan",
+    "kunye": "Steven Hassan — Combating Cult Mind Control (1988)",
+    "ipucu": "Eski bir Moon tarikatı üyesinin yazdığı en yaygın başvuru kitabı. Davranış, bilgi, düşünce ve duygu denetimini ayıran BITE modelini (tarikat denetiminin dört alanı) kurar ve çıkış yollarını anlatır. Modelin bilimsel testi sınırlıdır. Eski Birleşme Kilisesi üyesi; BITE modeli (davranış, bilgi, düşünce, duygu denetimi); 'çıkış danışmanlığı'; 'deprogramming' tartışması; sonraki Freedom of Mind (2012) bir cümleyle; eleştiriler (beyin yıkama kavramının akademik itirazları)."
+   },
+   {
+    "dosya": "K034_singer",
+    "kunye": "Margaret Thaler Singer ve Janja Lalich — Cults in Our Midst: The Hidden Menace in Our Everyday Lives (1995)",
+    "ipucu": "Klinik psikolog Singer'ın tarikatların üye kazanma ve elde tutma tekniklerini anlattığı temel eser. Singer'ın mahkemedeki bilirkişi tanıklıkları APA tarafından tartışmalı bulunmuştu. Klinik psikolog; düşünce reformu programının altı koşulu; APA'nın DIMPAC raporunu reddetmesi (1987) ve mahkemelerdeki 'beyin yıkama' tanıklıklarının çöküşü (Fishman davası 1990); 1996 genişletilmiş baskı."
+   },
+   {
+    "dosya": "K035_meerloo",
+    "kunye": "Joost A. M. Meerloo — The Rape of the Mind: The Psychology of Thought Control, Menticide, and Brainwashing (1956)",
+    "ipucu": "Hollandalı psikiyatrist, totaliter beyin yıkamayı ve zorla itirafı anlatır; korkunun ve yalıtılmışlığın iradeyi nasıl kırdığını çözümler. Menticide (zihin öldürme) kavramı ondandır. Psikanalitik çerçeve kullanır, ampirik dayanağı sınırlıdır. Hollandalı psikiyatr; 'menticide' kavramı; Kore Savaşı ve totaliter rejimler; Türkçesi 'Zihne Saldırı - Totaliter Rejimlerde Beyin Yıkama' katalogda var."
+   },
+   {
+    "dosya": "K036_taylor",
+    "kunye": "Kathleen Taylor — Brainwashing: The Science of Thought Control (2004)",
+    "ipucu": "Oxford'lu sinirbilimci, beyin yıkamayı tarih, sosyal psikoloji ve beyin bilimiyle birlikte inceler. Alandaki en bilimsel genel bakış. Oxford nörobilimci; beyin yıkamanın 'ethereal ideas' ve sinirbilimiyle açıklanması; inançların değişmesinin mekanizmaları; 2017 genişletilmiş baskı."
+   }
+  ]
+ },
+ "A10": {
+  "ad": "Aldatma ve popüler karanlık psikoloji",
+  "katman": "A",
+  "kitaplar": [
+   {
+    "dosya": "K037_ekman",
+    "kunye": "Paul Ekman — Telling Lies: Clues to Deceit in the Marketplace, Politics, and Marriage (1985)",
+    "ipucu": "Yalan tespitinin klasik kitabı. 'Sızıntı' (leakage) ve mikro ifade kavramlarını yaydı. Pratikteki geçerliliği tartışmalı: meta-analizlerde ortalama doğruluk %54. Duygu ifadeleri araştırmacısı; sızıntı ipuçları, mikro ifadeler, 'Othello hatası'; SPOT programı ve Lie to Me dizisi; Bond ve DePaulo 2006 ve Vrij eleştirileri; Türkçesi 'Yalan Söylediğimi Nasıl Anladın?' olabilir."
+   },
+   {
+    "dosya": "K038_levine",
+    "kunye": "Timothy R. Levine — Duped: Truth-Default Theory and the Social Science of Lying and Deception (2019)",
+    "ipucu": "Doğruluk varsayılanı kuramı (truth-default): insanlar karşısındakinin doğru söylediğini kendiliğinden kabul eder. Kanmayı hem açıklar hem de bunun neden çoğu zaman işe yaradığını gösterir. Kataloglarda 2020 olarak da geçer. Alabama'da iletişim profesörü; doğruluk varsayılanı kuramı (truth-default theory); çoğu insan çoğu zaman dürüsttür; 'birkaç üretken yalancı'; yalan tespitinde bağlam ve kanıtın sözel ipuçlarından önemli olması."
+   },
+   {
+    "dosya": "K039_bandler",
+    "kunye": "Richard Bandler ve John Grinder — Frogs into Princes: Neuro Linguistic Programming (1979)",
+    "ipucu": "Seminer dökümü. 'Göz erişim ipuçları' ve 'çapalama' (anchoring) burada yaygınlaştı. Göz hareketi iddiaları deneylerle çürütüldü (Wiseman 2012). Tanımak için iyi bir kaynak, kanıt olarak zayıf. NLP'nin popüler giriş kitabı (atölye dökümleri); 'The Structure of Magic' (1975) ile kuruluş; temsil sistemleri, göz erişim ipuçları, çapalama, yeniden çerçeveleme; Milton Erickson ve Virginia Satir'in modellenmesi; bilimsel değerlendirme (Sharpley 1987, Witkowski 2010, Wiseman 2012); 'gizli ikna' ve pickup kültürüne etkisi."
+   },
+   {
+    "dosya": "K040_cooper",
+    "kunye": "Kendi-yayını 'Dark Psychology' kitapları (William Cooper, Jonathan Mind, Michael Pace, Steven Turner, Edward Benedict, Arthur Horn ve diğerleri) — Dark Psychology (tür profili) (2015 sonrası)",
+    "ipucu": "Goodreads rafında en çok rafa eklenen kendi-yayını kitap (728 oy). Derleme niteliğinde, kaynak göstermez. Tür örneği olarak alınabilir, bilgi kaynağı olarak alınmaz. TEK BİR KİTAP DEĞİL, TÜR PROFİLİ: en çok satan ve en çok yorum alan 5–6 kitabı adlarıyla tanıt (Goodreads ve Amazon sayfaları); ortak içindekiler; yazarların gerçekliği (takma ad, yazar biyografisi yokluğu); kaynakları (Cialdini, Greene, NLP, Carnegie); yinelenen yanlış ya da abartılı iddialar; yapay zekâ üretimi kaygısı; Türkçeye çevrilenler (Tristan Cole 'İnsan Hackerlığı', Don Barlow 'Gaslighting', Sarah Davies ve diğerleri katalogda var). Şablonun 'Yapısı' bölümünde tipik içindekiler; 'Bilimsel dayanağı' bölümünde ayrıntılı değerlendirme."
+   }
+  ]
+ },
+ "B1": {
+  "ad": "Karanlık kişilik: akademik derlemeler ve kavramlar",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K041_kowalski",
+    "kunye": "Robin M. Kowalski (ed.) — Aversive Interpersonal Behaviors (1997)",
+    "ipucu": "Can sıkıcı ve zarar verici kişilerarası davranışlar üzerine erken akademik derleme: yalan, ihanet, alay, şikâyet. Karanlık kişilik araştırmasının öncüllerinden."
+   },
+   {
+    "dosya": "K042_jonason",
+    "kunye": "Peter K. Jonason (ed.) — Shining Light on the Dark Side of Personality: Measurement Properties and Theoretical Advances (2022)",
+    "ipucu": "Karanlık üçlü araştırmasının önde gelen adının derlemesi. Ölçüm araçlarını ve kuramsal gelişmeleri ele alır. Alt başlık ve yayınevini (Hogrefe) bellekten yazdım, doğrulanmadı."
+   },
+   {
+    "dosya": "K043_miller",
+    "kunye": "Joshua D. Miller ve Donald R. Lynam (ed.) — The Handbook of Antagonism: Conceptualizations, Assessment, Consequences, and Treatment of the Low End of Agreeableness (2019)",
+    "ipucu": "Uyumluluğun düşük ucunu, yani düşmanlık, sömürü ve manipülasyon ortak çekirdeğini ölçme, sonuç ve tedavi yönünden ele alan el kitabı. Karanlık üçlünün ortak paydasını açıklar. Karanlık üçlünün çekirdeğinin düşük uyumluluk (antagonizm) olduğu tezi."
+   },
+   {
+    "dosya": "K044_furnham",
+    "kunye": "Adrian Furnham — The Elephant in the Boardroom: The Causes of Leadership Derailment (2010)",
+    "ipucu": "Yöneticilerin karanlık özelliklerini (narsisizm, makyavelizm, kişilik bozuklukları) ve liderlikten raydan çıkışı anlatır. Son bölüm önleme üzerine. Hogan Gelişim Envanteri'nin 11 'karanlık' eğilimi; liderlikte raydan çıkma."
+   },
+   {
+    "dosya": "K045_mccarthy_jones",
+    "kunye": "Simon McCarthy-Jones — Spite: The Upside of Your Dark Side (2020)",
+    "ipucu": "Kendine de zarar pahasına başkasına zarar verme isteğinin, yani kinin (spite), bilimini anlatan popüler kitap. Karanlık özelliklerin işlevini tartışır."
+   },
+   {
+    "dosya": "K046_bandura",
+    "kunye": "Albert Bandura — Moral Disengagement: How People Do Harm and Live with Themselves (2016)",
+    "ipucu": "İnsanların zarar verirken vicdanlarını susturduğu mekanizmaları anlatır: haklı gösterme, örtmeceli dil, sorumluluğu dağıtma, insanlıktan çıkarma. Bu mekanizmaları tanımak korunmayı da sağlar. OL ilk yılı 2015. Sekiz ahlaki bağlantısızlık mekanizması."
+   }
+  ]
+ },
+ "B2": {
+  "ad": "Kötülük: soykırımdan gündelik hayata",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K047_staub",
+    "kunye": "Ervin Staub — The Roots of Evil: The Origins of Genocide and Other Group Violence (1989)",
+    "ipucu": "Soykırım ve grup şiddetinin psikolojik kökenleri üzerine temel eser. Zor yaşam koşullarını, günah keçisi aramayı ve adım adım şiddete kaymayı (continuum of destruction) modeller."
+   },
+   {
+    "dosya": "K048_waller",
+    "kunye": "James Waller — Becoming Evil: How Ordinary People Commit Genocide and Mass Killing (2002)",
+    "ipucu": "Sıradan insanların toplu öldürmeye nasıl katıldığını kültür, kişilik ve durum etkenlerinden kuran bir modelle açıklar. 2. baskısı 2007'de çıktı."
+   },
+   {
+    "dosya": "K049_shaw",
+    "kunye": "Julia Shaw — Evil: The Science Behind Humanity's Dark Side (İngiltere: Making Evil) (2019)",
+    "ipucu": "Kötülüğün bilimini sade dille anlatan yarı popüler kitap: sadizm, karanlık arzular, sıradan insanın kötülüğü. Okunur, ama ayrıntıda derlemelerden daha yüzeysel. Türkçesi 'Kötülük' olabilir."
+   },
+   {
+    "dosya": "K050_smith",
+    "kunye": "David Livingstone Smith — Less Than Human: Why We Demean, Enslave, and Exterminate Others (2011)",
+    "ipucu": "İnsanlıktan çıkarmanın (dehumanization) psikolojisi ve tarihi. Bloom bu görüşe itiraz eder: en acımasız zulüm kurbanın insanlığını tanır. İki görüş birlikte okunmalı."
+   },
+   {
+    "dosya": "K051_peck",
+    "kunye": "M. Scott Peck — People of the Lie: The Hope for Healing Human Evil (1983)",
+    "ipucu": "Bir psikiyatrın 'kötü' insanı yalan, inkâr ve başkasını günah keçisi yapma örüntüsüyle tanımladığı klasik. Okurlar sık öneriyor. Dinî çerçevesi var, vaka anlatımına dayanıyor, deneysel dayanağı zayıf. Türkçesi 'Yalanın İnsanları' olabilir; dinî çerçeve ve 'kötü insan' tanısı tartışması. Keşif ajanına göre Türkçe adı: Yalanın İnsanları."
+   },
+   {
+    "dosya": "K052_fromm",
+    "kunye": "Erich Fromm — The Anatomy of Human Destructiveness (1973)",
+    "ipucu": "Saldırganlığı iyi huylu ve kötü huylu diye ayırır, sadizmi ve nekrofili kavramını işler. Psikanalitik klasik. Bugünkü deneysel ölçütlerle dayanağı zayıf. Kötücül saldırganlık, sadizm ve nekrofili; Hitler ve Himmler vaka çözümlemeleri; Türkçesi 'İnsandaki Yıkıcılığın Kökenleri'. Keşif ajanına göre Türkçe adı: İnsandaki Yıkıcılığın Kökenleri."
+   }
+  ]
+ },
+ "B3": {
+  "ad": "Psikopati: akademik eserler",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K053_patrick",
+    "kunye": "Christopher J. Patrick (ed.) — Handbook of Psychopathy (2006)",
+    "ipucu": "Alanın akademik el kitabı. 2018'de ikinci baskısı çıktı; Lykken ve başka öncülerin bölümlerini içerir. Bilimsel başvuru kaynağı. 2. baskı 2018."
+   },
+   {
+    "dosya": "K054_blair",
+    "kunye": "James Blair, Derek Mitchell, Karina Blair — The Psychopath: Emotion and the Brain (2005)",
+    "ipucu": "Amigdala işlev bozukluğu modeliyle psikopatinin sinirbilimini özetleyen akademik kitap. Güçlü deneysel dayanağı var. Amigdala işlev bozukluğu ve bütünleşik duygu sistemleri modeli."
+   },
+   {
+    "dosya": "K055_lykken",
+    "kunye": "David T. Lykken — The Antisocial Personalities (1995)",
+    "ipucu": "Psikopati ile sosyopatiyi korkusuzluk ve ebeveynlik etkenleriyle ayıran kuramsal klasik. Lykken'in korku eksikliği kuramı alanı biçimlendirdi. Korkusuzluk kuramı; sosyopat ile psikopat ayrımı (ebeveynlik ile mizaç)."
+   },
+   {
+    "dosya": "K056_meloy",
+    "kunye": "J. Reid Meloy — The Psychopathic Mind: Origins, Dynamics, and Treatment (1988)",
+    "ipucu": "Psikopatiyi psikanalitik ve adli açıdan inceleyen klinik başvuru kitabı. Dar uzman okur için yazılmış ama alanda çok atıf alır."
+   },
+   {
+    "dosya": "K057_mccord",
+    "kunye": "William McCord ve Joan McCord — The Psychopath: An Essay on the Criminal Mind (1964)",
+    "ipucu": "Cleckley ile Hare arasındaki dönemin temel incelemesi; sevgisizlik ve suçluluk duyamama vurgusu. İlk sürümü 1956'da Psychopathy and Delinquency adıyla çıktı."
+   },
+   {
+    "dosya": "K058_viding",
+    "kunye": "Essi Viding — Psychopathy: A Very Short Introduction (2019)",
+    "ipucu": "Gelişimsel psikopati araştırmacısının kısa, güncel ve dengeli girişi. Çocuklarda duygusuz-soğuk (callous-unemotional) özelliklere yer verir. Çocuklarda duygusuz-soğuk özellikler; UCL."
+   }
+  ]
+ },
+ "B4": {
+  "ad": "Psikopati: anılar, beyin ve iş dünyası",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K059_marsh",
+    "kunye": "Abigail Marsh — The Fear Factor: How One Emotion Connects Altruists, Psychopaths, and Everyone In-Between (2017)",
+    "ipucu": "Korku tanıma ve amigdala üzerinden psikopatlarla aşırı özgecileri karşılaştırır. Kendi laboratuvar bulgularına dayanan sağlam popüler bilim kitabı."
+   },
+   {
+    "dosya": "K060_fallon",
+    "kunye": "James Fallon — The Psychopath Inside: A Neuroscientist's Personal Journey into the Dark Side of the Brain (2013)",
+    "ipucu": "Kendi beyin taramasında psikopatik örüntü gören sinirbilimcinin anısı. Kişisel yorumu bilimsel kanıt sayılmamalı."
+   },
+   {
+    "dosya": "K061_thomas",
+    "kunye": "M. E. Thomas (takma ad) — Confessions of a Sociopath: A Life Spent Hiding in Plain Sight (2013)",
+    "ipucu": "Kendini sosyopat olarak tanımlayan bir hukukçunun anısı; manipülasyonu içeriden anlatır. Tek kişilik anlatı, genelleme yapılmamalı."
+   },
+   {
+    "dosya": "K062_gagne",
+    "kunye": "Patric Gagne — Sociopath: A Memoir (2024)",
+    "ipucu": "Sosyopatik özelliklerle yaşadığını anlatan terapistin anısı; damgalamaya karşı çıkar. Bazı anlatılarının doğruluğu basında sorgulandı (doğrulanmadı)."
+   },
+   {
+    "dosya": "K063_boddy",
+    "kunye": "Clive R. Boddy — Corporate Psychopaths: Organizational Destroyers (2011)",
+    "ipucu": "İş yerindeki psikopatik yöneticilerin kurumlara verdiği zararı ve 2008 krizine etkisini tartışır. Ölçümleri öz-bildirim ve gözlemci anketine dayanır; nedensellik iddiaları güçlü. Babiak ve Hare önceki raporda."
+   },
+   {
+    "dosya": "K064_samenow",
+    "kunye": "Stanton E. Samenow — Inside the Criminal Mind (1984)",
+    "ipucu": "Suçlunun düşünce kalıplarını, çevreyi suçlamayan bir bakışla anlatır. Klinik deneyime dayanır, sistematik araştırma desteği sınırlı; 2004 ve 2014'te yenilendi. Yochelson ile 'The Criminal Personality' (1976) bir cümleyle."
+   }
+  ]
+ },
+ "B5": {
+  "ad": "Psikopatiden korunma ve popüler anlatılar",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K065_stout",
+    "kunye": "Martha Stout — Outsmarting the Sociopath Next Door: How to Protect Yourself Against a Ruthless Manipulator (2020)",
+    "ipucu": "İlk kitabın devamı; aile, iş ve mahkemede sosyopatik davranışa karşı somut korunma adımları."
+   },
+   {
+    "dosya": "K066_brown",
+    "kunye": "Sandra L. Brown — Women Who Love Psychopaths: Inside the Relationships of Inevitable Harm (2005)",
+    "ipucu": "Psikopatik partnerle ilişkiye giren kadınların özelliklerini ve iyileşmeyi anlatır. Kendi anket verilerine dayanır, hakemli değil. 2005 değil 2008; 2009 ve 2018'de yeni baskılar."
+   },
+   {
+    "dosya": "K067_erikson",
+    "kunye": "Thomas Erikson — Omgiven av psykopater (Surrounded by Psychopaths) (2017)",
+    "ipucu": "Bilimsel olmayan DISC renk modeline dayanır; İsveç Şüpheciler Derneği yazara 2018'de 'Yılın Yanıltıcısı' ödülü verdi. İngilizcesi Surrounded by Psychopaths. Türkçesi 'Etrafım Psikopatlarla Dolu' katalogda; DISC renk modeline dayanır; bilimsel eleştirisi (İsveç'te sahte bilim ödülü)."
+   },
+   {
+    "dosya": "K068_obaczewski",
+    "kunye": "Andrew M. Łobaczewski — Political Ponerology: A Science on the Nature of Evil Adjusted for Political Purposes (1998)",
+    "ipucu": "Psikopatların totaliter rejimleri ele geçirdiği tezi. El yazması 1980'ler (yazara göre 1984); geniş yayını Red Pill Press 2006. Kaynakları kayıp, bilimsel dayanağı zayıf ve tartışmalı. Yazılış 1980'ler; hakemli bilim değil; sonradan komplo çevrelerinde popülerliği."
+   },
+   {
+    "dosya": "K069_oakley",
+    "kunye": "Barbara Oakley — Evil Genes: Why Rome Fell, Hitler Rose, Enron Failed, and My Sister Stole My Mother's Boyfriend (2007)",
+    "ipucu": "Makyavelist ve borderline özelliklerin genetik ve sinirsel temelini tarih örnekleriyle anlatır. Mühendis yazarın popüler sentezi; tarih yorumları spekülatif."
+   },
+   {
+    "dosya": "K070_navarro",
+    "kunye": "Joe Navarro ve Toni Sciarra Poynter — Dangerous Personalities: An FBI Profiler Shows You How to Identify and Protect Yourself from Harmful People (2014)",
+    "ipucu": "Eski FBI ajanından narsisistik, dengesiz, paranoyak ve 'yırtıcı' kişilikleri tanıma kontrol listeleri. Pratik ama listeler doğrulanmış ölçek değil. Dört kişilik (narsisistik, duygusal olarak dengesiz, paranoyak, yırtıcı); kontrol listeleri; eleştiri."
+   }
+  ]
+ },
+ "B6": {
+  "ad": "Narsisizm: klinik ve bilimsel eserler",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K071_kohut",
+    "kunye": "Heinz Kohut — The Analysis of the Self (1971)",
+    "ipucu": "Kendilik psikolojisinin kurucu eseri; narsisizmi gelişimsel bir eksiklik olarak ele alır. Kernberg ile birlikte klinik narsisizm tartışmasının iki kutbundan biri. Kendilik psikolojisi; ayna ve idealleştirme aktarımları; Türkçesi 'Kendiliğin Çözümlenmesi'. Keşif ajanına göre Türkçe adı: Kendiliğin Çözümlenmesi."
+   },
+   {
+    "dosya": "K072_lowen",
+    "kunye": "Alexander Lowen — Narcissism: Denial of the True Self (1983)",
+    "ipucu": "Biyoenerjetik terapinin kurucusu narsisizmi duygu ve beden inkârı olarak okur; kültür eleştirisi de içerir. Kuramsal dayanağı tartışmalı. Biyoenerjetik analiz; Türkçesi 'Narsisizm: Gerçek Benliğin İnkârı'. Keşif ajanına göre Türkçe adı: Narsisizm: Gerçek Benliğin İnkârı (doğrulanmadı)."
+   },
+   {
+    "dosya": "K073_ronningstam",
+    "kunye": "Elsa F. Ronningstam — Identifying and Understanding the Narcissistic Personality (2005)",
+    "ipucu": "Araştırmacı-klinisyen kaleminden narsisistik kişiliğin tanınması, değişkenliği ve tedavisi; psikanalitik ve deneysel bulguları birleştiren akademik başvuru kitabı."
+   },
+   {
+    "dosya": "K074_campbell",
+    "kunye": "W. Keith Campbell ve Carolyn Crist — The New Science of Narcissism: Understanding One of the Greatest Psychological Challenges of Our Time—and What You Can Do About It (2020)",
+    "ipucu": "Büyüklenmeci ve kırılgan (vulnerable) narsisizm ayrımını ve güncel ölçüm araştırmalarını özetleyen bilim temelli derleme; popüler kitaplar arasında dayanağı en güçlülerden. Üç yönlü (trifurcated) model: hak iddiası/antagonizm çekirdeği, büyüklenmeci (agentic), kırılgan."
+   },
+   {
+    "dosya": "K075_vaknin",
+    "kunye": "Sam Vaknin — Malignant Self-Love: Narcissism Revisited (1999)",
+    "ipucu": "Narsisistik istismar söyleminin erken ve etkili kaynağı; yazar kendini narsist olarak tanımlar, klinik eğitimi yoktur. Bilimsel dayanağı zayıf, tanıklık niteliğinde. Yazar kendini narsist olarak tanıtır; akademik itibarı tartışmalı; 'narsisistik arz' kavramını yaygınlaştırdı."
+   },
+   {
+    "dosya": "K076_dombek",
+    "kunye": "Kristin Dombek — The Selfishness of Others: An Essay on the Fear of Narcissism (2016)",
+    "ipucu": "Eleştirel deneme: internetteki 'narsist' etiketi korkusunu ve gelişigüzel tanı koymayı sorgular. Listeye denge getiren aykırı ses. Narsisizm söylemine eleştirel deneme."
+   }
+  ]
+ },
+ "B7": {
+  "ad": "Narsisizm: aile, partner ve iyileşme",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K077_durvasula",
+    "kunye": "Ramani Durvasula — Don't You Know Who I Am? How to Stay Sane in an Era of Narcissism, Entitlement, and Incivility (2019)",
+    "ipucu": "Narsisizm, yetkinlik hissi (entitlement) ve uygarlık kaybı üzerine klinik psikolog kitabı; narsisistik davranışları tanıma ve karşılık verme odaklı."
+   },
+   {
+    "dosya": "K078_hotchkiss",
+    "kunye": "Sandy Hotchkiss — Why Is It Always About You? The Seven Deadly Sins of Narcissism (2002)",
+    "ipucu": "Utanmazlık, sömürü, sınır tanımama gibi yedi narsisistik örüntüyü ve korunma yollarını anlatır; gündelik özelliklerle bozukluğu ayırır. Kohut çizgisinde, klinik temelli. Yedi ölümcül günah: utanmazlık, büyülü düşünce, kibir, haset, hak iddiası, sömürü, sınır tanımama. Keşif ajanına göre Türkçe adı: Narsisistik Bir Dünyada Hayatta Kalma Rehberi."
+   },
+   {
+    "dosya": "K079_golomb",
+    "kunye": "Elan Golomb — Trapped in the Mirror: Adult Children of Narcissists in Their Struggle for Self (1992)",
+    "ipucu": "Narsisistik ebeveynlerin yetişkin çocukları üzerine ilk kapsamlı kitaplardan; klinik vaka temelli."
+   },
+   {
+    "dosya": "K080_burgo",
+    "kunye": "Joseph Burgo — The Narcissist You Know: Defending Yourself Against Extreme Narcissists in an All-About-Me Age (2015)",
+    "ipucu": "Gündelik hayattaki 'aşırı narsisist' tiplerini (zorba, her şeyi bilen vb.) betimler; tanıma ve karşılık verme önerileri. Klinik gözlem temelli."
+   },
+   {
+    "dosya": "K081_arabi",
+    "kunye": "Shahida Arabi — Power: Surviving and Thriving After Narcissistic Abuse (2017)",
+    "ipucu": "Narsisistik istismar sonrası travma bağı ve iyileşme üzerine deneme derlemesi; okurlarca çok önerilir, bilimsel dayanağı sınırlı. Becoming the Narcissist's Nightmare (2016) bir cümleyle; katalogda 'Narsist ve Psikopatlarla Travma Bağlarını Koparmak' var: hangi kitabın çevirisi olduğunu bul."
+   },
+   {
+    "dosya": "K082_bouchoux",
+    "kunye": "Jean-Charles Bouchoux — Les pervers narcissiques (2009)",
+    "ipucu": "Sapkın narsistin gündelik işleyişini ve kurbanın kurtulma yollarını anlatan popüler psikanalitik kitap. Bilimsel dayanağı zayıf; etiket aceleci suçlamaya açık. Fransız psikanalist; Racamier ve Hirigoyen geleneği; Türkçesi 'Narsist Sapkınlar' katalogda. Keşif ajanına göre Türkçe adı: Narsist Sapkınlar."
+   }
+  ]
+ },
+ "B8": {
+  "ad": "İstismar: aile içi şiddet ve tehlike",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K083_hill",
+    "kunye": "Jess Hill — See What You Made Me Do: Power, Control and Domestic Abuse (2019)",
+    "ipucu": "Zorlayıcı denetimi araştırmacı gazetecilikle anlatıyor. Fail psikolojisini, çocuklara etkisini ve kurumların başarısızlığını ele alıyor. Stella Ödülü'nü kazandı. Kaynakçası güçlü. Avustralya; Stella Ödülü 2020."
+   },
+   {
+    "dosya": "K084_snyder",
+    "kunye": "Rachel Louise Snyder — No Visible Bruises: What We Don't Know About Domestic Violence Can Kill Us (2019)",
+    "ipucu": "Ev içi şiddeti gazetecilikle inceliyor. Risk değerlendirmesini, boğma girişiminin öldürücü işaret olmasını ve fail programlarını anlatıyor. Salt gerçek suç değil, sistem ve risk çözümlemesi. Boğma (strangulation) ve ölümcüllük riski; yüksek risk ekipleri."
+   },
+   {
+    "dosya": "K085_monckton_smith",
+    "kunye": "Jane Monckton Smith — In Control: Dangerous Relationships and How They End in Murder (2021)",
+    "ipucu": "Zorlayıcı denetimden cinayete giden sekiz aşamalı süreci anlatıyor. Vaka ve cinayet incelemelerine dayanıyor. 'Tutku cinayeti' efsanesini çürütüyor ve risk işaretlerini gösteriyor. Cinayete giden sekiz aşama."
+   },
+   {
+    "dosya": "K086_fontes",
+    "kunye": "Lisa Aronson Fontes — Invisible Chains: Overcoming Coercive Control in Your Intimate Relationship (2015)",
+    "ipucu": "Stark'ın kuramını mağdur için uygulamalı bir rehbere çeviriyor. Denetim taktiklerini tanıma, güvenlik planı, ayrılma ve iyileşme adımlarını anlatıyor. Guilford yayını, akademik dayanaklı."
+   },
+   {
+    "dosya": "K087_walker",
+    "kunye": "Lenore E. Walker — The Battered Woman (1979)",
+    "ipucu": "Şiddet döngüsü ve öğrenilmiş çaresizlik modellerini getirdi, tarihsel önemi büyük. Döngü modeli sonradan fazla genelleyici bulundu ve zorlayıcı denetim yaklaşımıyla eleştirildi. Şiddet döngüsü (gerilim, patlama, balayı) ve 'öğrenilmiş çaresizlik'; sonraki eleştiriler."
+   },
+   {
+    "dosya": "K088_dutton",
+    "kunye": "Donald G. Dutton — The Abusive Personality: Violence and Control in Intimate Relationships (1998)",
+    "ipucu": "Partner istismarcısının kişilik yapısını araştırmayla inceliyor: bağlanma, borderline özellikler, utanç. Travma bağı kavramının ortak kurucusunun kitabı. Bilimsel dayanağı güçlü."
+   }
+  ]
+ },
+ "B9": {
+  "ad": "İstismar: aile, iş yeri ve ihanet",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K089_forward",
+    "kunye": "Susan Forward ve Craig Buck — Toxic Parents: Overcoming Their Hurtful Legacy and Reclaiming Your Life (1989)",
+    "ipucu": "Ailede denetimci, aşağılayıcı ve istismarcı ebeveynliğin yetişkinlikteki izlerini ve yüzleşmeyi anlatıyor. Çok etkili oldu. Klinik deneyime dayanıyor. Türkçesi 'Zehirli Ana Babalar' olabilir. Keşif ajanına göre Türkçe adı: Zehirli Ana Babalar."
+   },
+   {
+    "dosya": "K090_forward",
+    "kunye": "Susan Forward ve Joan Torres — Men Who Hate Women and the Women Who Love Them (1986)",
+    "ipucu": "Kadın düşmanı ve denetimci partnerin psikolojik istismarını anlatan erken bir popüler kitap. Bancroft'un öncülü sayılır. Klinik vakalara dayanıyor."
+   },
+   {
+    "dosya": "K091_leymann",
+    "kunye": "Heinz Leymann — Mobbing: Psychoterror am Arbeitsplatz und wie man sich dagegen wehren kann (1993)",
+    "ipucu": "Mobbing kavramını iş yerine taşıyan kurucu eser. İsveç'teki saha araştırmalarına dayanıyor. Davranış listesi (LIPT) ve aşama modeli veriyor. İş yerinde mobbingin 45 davranışı (LIPT) ve beş aşaması."
+   },
+   {
+    "dosya": "K092_namie",
+    "kunye": "Gary Namie ve Ruth Namie — The Bully at Work: What You Can Do to Stop the Hurt and Reclaim Your Dignity on the Job (2000)",
+    "ipucu": "İş yerinde zorbalığı tanıma, belgeleme ve karşılık verme kılavuzu. Yazarlar Workplace Bullying Institute'u kurdu. Anketlere dayanıyor."
+   },
+   {
+    "dosya": "K093_carnes",
+    "kunye": "Patrick J. Carnes — The Betrayal Bond: Breaking Free of Exploitive Relationships (1997)",
+    "ipucu": "Travma bağını, yani istismarcıya bağımlılık gibi bağlanmayı anlatıyor ve çözülme yollarını sunuyor. Popüler-klinik bir kitap. Kavramın ampirik kökü Dutton ve Painter'da. Travma bağı; kontrol listesi."
+   },
+   {
+    "dosya": "K094_freyd",
+    "kunye": "Jennifer J. Freyd ve Pamela J. Birrell — Blind to Betrayal: Why We Fool Ourselves We Aren't Being Fooled (2013)",
+    "ipucu": "İhanet travmasını ve güvenilen kişinin istismarını neden 'görmediğimizi' anlatıyor. DARVO kavramını da içeriyor. Bu bölüm doğrulanmadı. Ampirik araştırma programına dayanıyor. İhanet travması kuramı; DARVO ile bağlantı."
+   }
+  ]
+ },
+ "B10": {
+  "ad": "Gaslighting ve manipülasyondan korunma",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K095_abramson",
+    "kunye": "Kate Abramson — On Gaslighting (2024)",
+    "ipucu": "Gaslighting'i (kişiyi kendi algısından şüphe ettiren manipülasyon) ahlak felsefesi açısından titizlikle tanımlayan, Princeton'dan çıkmış bir kitap. Türk pazarında 2 sorguda çıkıyor. Kendi-yayını gaslighting kitaplarından çok daha sağlam. Princeton University Press; ahlak felsefesi; Türkçesi katalogda (Timaş olabilir). Keşif ajanına göre Türkçe adı: Gaslighting - Gerçekliği Çarpıtmanın ve Manipülasyonun Karanlık Sanatı."
+   },
+   {
+    "dosya": "K096_sarkis",
+    "kunye": "Stephanie Moulton Sarkis — Gaslighting: Recognize Manipulative and Emotionally Abusive People—and Break Free (2018)",
+    "ipucu": "Gaslighting taktiklerini ilişki, aile, iş ve siyaset bağlamında listeleyen popüler bir rehber. Tanıma ve uzaklaşma için yararlı. Kavramı geniş kullanıyor, ampirik dayanağı zayıf."
+   },
+   {
+    "dosya": "K097_braiker",
+    "kunye": "Harriet B. Braiker — Who's Pulling Your Strings? How to Break the Cycle of Manipulation and Regain Control of Your Life (2004)",
+    "ipucu": "Manipülasyon döngüsünü ve hedefin 'düğmelerini' anlatıyor: onay ihtiyacı, çatışmadan kaçma. Karşılık verme stratejileri sunuyor. Klinik ve popüler bir kitap."
+   },
+   {
+    "dosya": "K098_engel",
+    "kunye": "Beverly Engel — The Emotionally Abusive Relationship: How to Stop Being Abused and How to Stop Abusing (2002)",
+    "ipucu": "Duygusal istismarı hem mağdur hem istismarcı açısından ele alıyor. İki tarafın da örüntüsünü değiştirme adımları içeriyor. Terapist deneyimine dayanıyor."
+   },
+   {
+    "dosya": "K099_bernstein",
+    "kunye": "Albert J. Bernstein — Emotional Vampires: Dealing with People Who Drain You Dry (2001)",
+    "ipucu": "Kişilik bozukluğu özellikleri gösteren zor insanları tanıma ve onlarla baş etme üzerine, bir klinik psikoloğun hafif dille yazdığı kılavuz. PsyPost listesinde ve narsisizm rafında geçiyor. Kanıta dayalı olmaktan çok deneyime dayanıyor."
+   },
+   {
+    "dosya": "K100_mirza",
+    "kunye": "Debbie Mirza — The Covert Passive-Aggressive Narcissist: Recognizing the Traits and Finding Healing After Hidden Emotional and Psychological Abuse (2017)",
+    "ipucu": "Örtük (covert) narsisizmi kurtulan bakışıyla anlatan kendi yayını kitap; çok okunur ama bilimsel dayanağı zayıf. Türkçesi 'Gizli Pasif-Agresif Narsist' katalogda; kendi yayını, koç; bilimsel dayanağı zayıf."
+   }
+  ]
+ },
+ "B11": {
+  "ad": "Tarikatlar ve beyin yıkama tartışması",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K101_schein",
+    "kunye": "Edgar H. Schein, Inge Schneier ve Curtis H. Barker — Coercive Persuasion: A Socio-Psychological Analysis of the 'Brainwashing' of American Civilian Prisoners by the Chinese Communists (1961)",
+    "ipucu": "Çin'deki düşünce reformu programlarından dönen tutsaklarla yapılmış görüşmelere dayanan sosyal psikoloji çalışması. Çözme, değiştirme ve yeniden dondurma modelini kuran bu kitap alanın bilimsel temelidir. Çözme-değiştirme-yeniden dondurma modeli."
+   },
+   {
+    "dosya": "K102_lalich",
+    "kunye": "Janja Lalich — Bounded Choice: True Believers and Charismatic Cults (2004)",
+    "ipucu": "Sosyolojik vaka incelemesi (Heaven's Gate ve Demokratik İşçi Partisi). Üyelerin kendi seçimiyle bağlandığı ama seçeneklerinin kuşatıldığı 'sınırlı seçim' kuramını kurar. Beyin yıkama ile özgür irade karşıtlığını aşan dengeli bir model. Heaven's Gate ve Demokratik İşçi Partisi vakaları; 'sınırlı seçim' kavramı."
+   },
+   {
+    "dosya": "K103_barker",
+    "kunye": "Eileen Barker — The Making of a Moonie: Choice or Brainwashing? (1984)",
+    "ipucu": "Moon tarikatını konu alan saha araştırması. Katılımcıların çoğunun kısa sürede ayrıldığını göstererek beyin yıkama tezine itiraz eder. Karşı görüşün klasiği. Beyin yıkama tezine ampirik itiraz: atölyeye katılanların çoğu katılmadı."
+   },
+   {
+    "dosya": "K104_stein",
+    "kunye": "Alexandra Stein — Terror, Love and Brainwashing: Attachment in Cults and Totalitarian Systems (2017)",
+    "ipucu": "Tarikat denetimini bağlanma kuramıyla (attachment) açıklar: lider hem korku hem sığınak olunca, kişi kurtulmak için ona daha sıkı bağlanır. Akademik ve okunabilir. Bağlanma kuramı; 'korku içinde sevgi' ve yalıtılmış ilişki ağı."
+   },
+   {
+    "dosya": "K105_montell",
+    "kunye": "Amanda Montell — Cultish: The Language of Fanaticism (2021)",
+    "ipucu": "Dilbilimci, tarikatların ve fitness ya da MLM gibi tarikatsı toplulukların dilini çözümler: içeriye özgü jargon, düşünceyi sonlandıran klişeler. Popüler ve gazetecilik ağırlıklı, akademik derinliği sınırlı. Dilbilimci; tarikat dilinin gündelik yerlerde (fitness, MLM, sosyal medya) kullanımı."
+   },
+   {
+    "dosya": "K106_sargant",
+    "kunye": "William Sargant — Battle for the Mind: A Physiology of Conversion and Brain-Washing (1957)",
+    "ipucu": "Din değiştirme ve beyin yıkamayı Pavlovcu stres ve çöküş modeliyle açıklar. Tarihsel bakımdan etkili bir kitaptır ama biyolojik indirgemeciliği bugün eskimiş sayılır; yazar MKUltra ile ilişkilendirilen deneylere yakındı. Pavlov'cu açıklama; tartışmalı psikiyatri uygulamaları."
+   }
+  ]
+ },
+ "B12": {
+  "ad": "Türkiye'den: Türkçe yazılmış kitaplar ve Türkçe pazar",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K107_tuluce",
+    "kunye": "Hicran Tülüce — Karanlık Empat: Narsist, Psikopat, Makyavelist (doğrulanmadı)",
+    "ipucu": "Türkçe yazılmış özgün eser. Yazar Ankara Üniversitesi mezunu bir psikolog (Bianet'le doğrulandı). Karanlık üçlüyü ve 'karanlık empat' kavramını anlatıyor. Türk pazarında en çok sorguda çıkan kitap (3). Psikolog (Bianet'te yazıları); katalogda en çok sorguda çıkan kitap; yayınevini ve yılını katalogdan ya da kitap sayfasından bul. Keşif ajanına göre Türkçe adı: Karanlık Empat."
+   },
+   {
+    "dosya": "K108_tarhan",
+    "kunye": "Nevzat Tarhan — Kötülük Psikolojisi ve Toksik İlişkiler (doğrulanmadı)",
+    "ipucu": "Türkçe yazılmış özgün eser. Yazar psikiyatr ve Üsküdar Üniversitesi'nin kurucu rektörü. Antisosyal ve narsisistik yapıları, kötülüğün nörobiyolojisini anlatıyor. Pazarda 2 sorguda çıkıyor. Popüler ve öğütçü bir anlatımı var. Psikiyatr, Üsküdar Üniversitesi kurucu rektörü; Timaş; kötülüğün nörobiyolojisi ve toksik ilişkiler; dinî-ahlaki çerçeve. Keşif ajanına göre Türkçe adı: Kötülük Psikolojisi ve Toksik İlişkiler."
+   },
+   {
+    "dosya": "K109_ozakkas",
+    "kunye": "Tahir Özakkaş — Narsisizm Üzerine Konuşmalar ve Olgu Sunumu (doğrulanmadı)",
+    "ipucu": "Türkçe yazılmış özgün eser. Yazarın Psikoterapi Enstitüsü'nün kurucusu bir psikiyatr olduğunu biliyorum ama bu oturumda sınamadım. Mesleki ve psikanalitik bir kitap. Psikiyatr ve psikanalist; Kohut ve Kernberg geleneğinin Türkçe anlatımı. Keşif ajanına göre Türkçe adı: Narsisizm Üzerine Konuşmalar ve Olgu Sunumu."
+   },
+   {
+    "dosya": "K110_tinaz",
+    "kunye": "Pınar Tınaz — İşyerinde Psikolojik Taciz (Mobbing) (2006)",
+    "ipucu": "Türkçedeki temel akademik mobbing kitabı. Yazar Marmara Üniversitesi'nden. Kavramı, aşamaları ve hukuki boyutu anlatıyor. Türk literatüründe çok kaynak gösteriliyor. Akademisyen; Beta; Türkiye'de mobbing yazınının ilk kitaplarından; TBK 417 öncesi ve sonrası. Keşif ajanına göre Türkçe adı: İşyerinde Psikolojik Taciz (Mobbing)."
+   },
+   {
+    "dosya": "K111_efendi",
+    "kunye": "Emin Efendi — Karanlık Psikoloji - Manipülasyon ve Manipülasyon Oyunları - Karanlık Psikoloji (doğrulanmadı)",
+    "ipucu": "Türk pazarında iki ayrı kayıtla, 2'şer sorguda öne çıkıyor. Yazar adı büyük olasılıkla takma ad, kimliği doğrulanmadı. Bilimsel dayanağı yok gibi görünüyor. Türkçe yazılmış popüler 'karanlık psikoloji' kitapları; yazarın kim olduğu (takma ad mı?) doğrulanmadı; içerik ve kaynak kalitesini değerlendir. Keşif ajanına göre Türkçe adı: Karanlık Psikoloji - Manipülasyon."
+   },
+   {
+    "dosya": "K112_cole",
+    "kunye": "Türkçeye çevrilen kendi-yayını kitaplar ve diziler (Gece Kitaplığı 'Karanlık Psikoloji ile...' dizisi, Akıl İzi 'Karanlık Psikoloji' seti, Tristan Cole, Don Barlow, Osman Kutlu ve diğerleri) — Türkçe 'Karanlık Psikoloji' rafı (tür profili) (2020 sonrası)",
+    "ipucu": "Türkçeye çevrilmiş kendi-yayını bir 'karanlık psikoloji' kitabı. Pazarda 2 sorguda çıkıyor. Bilimsel dayanağı zayıf. Edward Parker Charlesworth, John Conolly ve Kenji Murakami'nin kitapları da aynı türden. TEK KİTAP DEĞİL, TÜRKÇE RAF PROFİLİ: /home/user/Xxxx/raporlar/2026-11-23_karanlik_psikoloji/ek/ek/parcalar/tr_pazar_temiz.json dosyasını tek python3 komutuyla özetle; dizileri ve en çok görünen başlıkları adlarıyla say; yazar ve özgün künye bilgisinin yokluğunu, çevirilerin kaynağını, kapak vaatlerini değerlendir; okura seçim ölçütleri ver. 'Yapısı' bölümünde raftaki alt türler (ikna ve etkileme, narsist kitapları, gaslighting, beden dili, zihin kontrolü). Keşif ajanına göre Türkçe adı: İnsan Hackerlığı."
+   }
+  ]
+ },
+ "B13": {
+  "ad": "Aldatma, kanma ve dolandırıcılık",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K113_vrij",
+    "kunye": "Aldert Vrij — Detecting Lies and Deceit: The Psychology of Lying and the Implications for Professional Practice (2000)",
+    "ipucu": "Alanın akademik başvuru kitabı (2. baskı 2008). Beden dili ipuçlarının zayıf olduğunu gösterir. Bilişsel yük yaklaşımını, yani yalancının zihnini yoran sorular sormayı önerir. 2. baskı 2008; sözel ve sözsüz ipuçlarının zayıflığı; bilişsel yük yaklaşımı."
+   },
+   {
+    "dosya": "K114_simons",
+    "kunye": "Daniel Simons ve Christopher Chabris — Nobody's Fool: Why We Get Taken In and What We Can Do About It (2023)",
+    "ipucu": "Kandırılmamızı sağlayan düşünme alışkanlıklarını (odak, öngörü, tutarlılık, kesinlik) ve her birine karşı alınacak önlemi anlatır. Bilimsel dayanağı güçlü. Dört alışkanlık (odak, öngörü, bağlılık, verimlilik) ve dört kanca (tutarlılık, aşinalık, kesinlik, güçlü etki)."
+   },
+   {
+    "dosya": "K115_greenspan",
+    "kunye": "Stephen Greenspan — Annals of Gullibility: Why We Get Duped and How to Avoid It (2009)",
+    "ipucu": "Kanabilirliği (gullibility) inceleyen nadir kuramsal eserlerden. Durum, biliş, kişilik ve duygu boyutlarını ele alır. Yazar Madoff'a para kaptırdı. Çoğu kaynakta 2009 yazar. Yazarın Madoff'a yatırım yapıp kaybetmesi ironisi."
+   },
+   {
+    "dosya": "K116_dove",
+    "kunye": "Martina Dove — The Psychology of Fraud, Persuasion and Scam Techniques: Understanding What Makes Us Vulnerable (2020)",
+    "ipucu": "Dolandırıcılığın tekniklerini ve kurbanı neyin savunmasız bıraktığını araştırmaya dayanarak inceler. Önleme odaklı. Routledge, 2. baskı 2025/26. 'Psychology of Scams' diye aranan kitap büyük olasılıkla bu."
+   },
+   {
+    "dosya": "K117_ariely",
+    "kunye": "Dan Ariely — The (Honest) Truth About Dishonesty: How We Lie to Everyone—Especially Ourselves (2012)",
+    "ipucu": "Sıradan insanların 'birazcık' hile yapma eğilimini anlatır. Dikkat: Ariely'nin bir sahtekârlık deneyinin verisi 2021'de sahte çıktı ve çalışma geri çekildi. İroni büyük, temkinle okunmalı. Sonraki veri skandalı (2021 araba sigortası verisi; Data Colada) mutlaka anılmalı. Keşif ajanına göre Türkçe adı: Dürüstlük Hakkındaki (Dürüst) Gerçek."
+   },
+   {
+    "dosya": "K118_rowland",
+    "kunye": "Ian Rowland — The Full Facts Book of Cold Reading (1998)",
+    "ipucu": "Soğuk okumanın (cold reading: yabancı hakkında her şeyi biliyormuş izlenimi yaratma) tekniklerini sınıflandıran başvuru kitabı. Medyumlara karşı korunmaya yarar. İlk baskı yılı doğrulanmadı (Open Library 2008 diyor). Barnum ifadeleri, Gökkuşağı Hilesi, Rainbow Ruse; şarlatanlığın tekniği."
+   }
+  ]
+ },
+ "B14": {
+  "ad": "Gizli ikna, NLP mirası, pickup ve popüler manipülasyon",
+  "katman": "B",
+  "kitaplar": [
+   {
+    "dosya": "K119_strauss",
+    "kunye": "Neil Strauss — The Game: Penetrating the Secret Society of Pickup Artists (2005)",
+    "ipucu": "Pickup (kadın tavlama) camiasını tanıtan çok satan anlatı: 'negging' (küçümseyerek iltifat) gibi taktikler. Tanınmaları için temel kaynak. Taktiklerin etkisi kanıtlanmamış, yazar sonradan mesafe koydu. Gazeteci; Mystery ve Project Hollywood; sonraki 'The Truth' (2015) ve pişmanlık; eleştiriler."
+   },
+   {
+    "dosya": "K120_hogan",
+    "kunye": "Kevin Hogan ve James Speakman — Covert Persuasion: Psychological Tactics and Tricks to Win the Game (2006)",
+    "ipucu": "Wiley'den çıkan, NLP ile sosyal psikolojiyi karıştıran gizli ikna kılavuzu. Cialdini türü bulguları abartarak satışa uyarlar. Okur, satış baskısı taktiklerini tanımak için kullanabilir."
+   },
+   {
+    "dosya": "K121_hughes",
+    "kunye": "Chase Hughes — The Ellipsis Manual: Analysis and Engineering of Human Behavior (2017)",
+    "ipucu": "Davranış mühendisliği ve gizli ikna kılavuzu. Yazar kendi yayınevinde (Evergreen) bastı. Bilimsel dayanağı çok zayıf, NLP ve kanıtsız iddialar içerir. Kendi yayını; 'eski askerî davranış uzmanı' iddiası; bilimsel dayanağı zayıf."
+   },
+   {
+    "dosya": "K122_markovik",
+    "kunye": "Erik von Markovik (Mystery) ve Chris Odom — The Mystery Method: How to Get Beautiful Women Into Bed (2007)",
+    "ipucu": "Pickup'ın aşamalı 'yöntem' kılavuzu. Evrimsel psikoloji söylemini sahte bilimsel biçimde kullanır. Okur, baskı ve sınır ihlali kalıplarını tanımak için okuyabilir. Negging teriminin popülerleştiricisi."
+   },
+   {
+    "dosya": "K123_tomassi",
+    "kunye": "Rollo Tomassi — The Rational Male (2013)",
+    "ipucu": "Manosphere'in temel metni: 'red pill' ve hipergami iddiaları. Kanıt anekdota dayalı, evrimsel psikoloji seçici kullanılmış. Kadın düşmanı söylemi tanımak için. Manosphere ve 'red pill'; eleştiriler (Laura Bates 'Men Who Hate Women' 2020)."
+   },
+   {
+    "dosya": "K124_kirschner",
+    "kunye": "Josef Kirschner — Manipulieren – aber richtig: Die acht Gesetze der Menschenbeeinflussung (1974)",
+    "ipucu": "Gündelik manipülasyonu anlatan Almanca popüler bir klasik. Türkçede bunun yanında korunma kitabı da var. Deneyime dayanan öğütler, deneysel dayanağı yok. Avusturyalı yazar; Türkçesi katalogda 'Manipülasyon Ama Nasıl?' olabilir; 'sekiz yasa'. Keşif ajanına göre Türkçe adı: Manipulasyon Ama Nasıl?."
+   }
+  ]
+ }
+}

@@ -1,0 +1,463 @@
+{
+ "arac": "araç: 12/35; WebSearch: 6",
+ "ozet": "Dilimde aday listesi büyük ölçüde doğru çıktı. Düzeltmeler: Levine'in Duped kitabı Kasım 2019'da çıktı, bazı kataloglarda 2020 yazıyor. Greenspan'ın Annals of Gullibility kitabı Aralık 2008'de yayımlandı ama çoğu yerde 2009 olarak geçiyor. Bowyer'ın Cheating kitabı (1982) J. Bowyer Bell ile Barton Whaley'nin ortak takma adıyla yazıldı. Richard Wiseman için doğru kitap Deception and Self-Deception: Investigating Psychics (1997). \"Ross Coomber\" bir uyuşturucu sosyoloğu, bu alanda kitabı yok. \"Edward Smith, The Psychology of Scams\" adlı bir kitap bulunamadı; doğru eser büyük olasılıkla Martina Dove'un The Psychology of Fraud, Persuasion and Scam Techniques kitabı (Routledge 2020, 2. baskı 2025/26).\n\nListede olmayan önemli bulgular: Simons ve Chabris, Nobody's Fool (2023); Tess Wilkinson-Ryan, Fool Proof (2023); Kelly Richmond Pope, Fool Me Once (2023); R. Paul Wilson, The Art of the Con (2014); Pratkanis ve Shadel, Weapons of Fraud (2005); DePaulo, The Lies We Tell and the Clues We Miss (2009); Charles Ford, Lies! Lies!! Lies!!! (1996); Houston ve arkadaşları, Spy the Lie (2012); Ken Alder, The Lie Detectors (2007); Lamar Keene, The Psychic Mafia (1976); James Randi, Flim-Flam! (1980); Trivers, The Folly of Fools (2011); Gladwell, Talking to Strangers (2019).\n\nAykırı kanıt: Bond ve DePaulo'nun 2006 meta-analizi (birçok çalışmanın sonuçlarını birleştiren analiz) 206 belgeyi ve 24.483 değerlendiriciyi kapsıyor. İnsanlar yalanı doğrudan ancak %54 oranında ayırabiliyor, yani yazı turadan biraz iyi. Polis gibi uzmanlar da sıradan insanlardan daha başarılı değil. Hartwig ve Bond'a göre davranışsal ipuçları (beden dili gibi) zaten zayıf. Bu yüzden beden diliyle yalan yakalamayı vaat eden popüler kitapların (Navarro, Meyer, Pease, Lieberman, Hughes, Driver) bilimsel dayanağı zayıf. Ekman bu bulguya itiraz ediyor: değerlendiriciler eğitimsizdi. Vrij ve Levine ise beden dili yerine bilişsel ve bağlamsal yöntemleri savunuyor. Ana raporda bu çelişki açıkça yazılmalı.\n\nRowland'ın kitabının ilk baskısı için Open Library 2008 diyor. Bende 1998 bilgisi var, doğrulanmadı.",
+ "kitaplar": [
+  {
+   "yazar": "Paul Ekman",
+   "ozgun_ad": "Telling Lies: Clues to Deceit in the Marketplace, Politics, and Marriage",
+   "yil": "1985",
+   "yakinlik": 5,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Yalan tespitinin klasik kitabı. 'Sızıntı' (leakage) ve mikro ifade kavramlarını yaydı. Pratikteki geçerliliği tartışmalı: meta-analizlerde ortalama doğruluk %54.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Aldert Vrij",
+   "ozgun_ad": "Detecting Lies and Deceit: The Psychology of Lying and the Implications for Professional Practice",
+   "yil": "2000",
+   "yakinlik": 5,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Alanın akademik başvuru kitabı (2. baskı 2008). Beden dili ipuçlarının zayıf olduğunu gösterir. Bilişsel yük yaklaşımını, yani yalancının zihnini yoran sorular sormayı önerir.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Timothy R. Levine",
+   "ozgun_ad": "Duped: Truth-Default Theory and the Social Science of Lying and Deception",
+   "yil": "2019",
+   "yakinlik": 5,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Doğruluk varsayılanı kuramı (truth-default): insanlar karşısındakinin doğru söylediğini kendiliğinden kabul eder. Kanmayı hem açıklar hem de bunun neden çoğu zaman işe yaradığını gösterir. Kataloglarda 2020 olarak da geçer.",
+   "guven": "yüksek",
+   "kaynak_url": "https://readings.com.au/product/9780817320416/duped--timothy-r-levine--2019--9780817320416"
+  },
+  {
+   "yazar": "Daniel Simons; Christopher Chabris",
+   "ozgun_ad": "Nobody's Fool: Why We Get Taken In and What We Can Do About It",
+   "yil": "2023",
+   "yakinlik": 5,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Kandırılmamızı sağlayan düşünme alışkanlıklarını (odak, öngörü, tutarlılık, kesinlik) ve her birine karşı alınacak önlemi anlatır. Bilimsel dayanağı güçlü.",
+   "guven": "yüksek",
+   "kaynak_url": "https://nextbigideaclub.com/magazine/5-new-books-deception-really-works/44006/amp/"
+  },
+  {
+   "yazar": "Stephen Greenspan",
+   "ozgun_ad": "Annals of Gullibility: Why We Get Duped and How to Avoid It",
+   "yil": "2008",
+   "yakinlik": 5,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Kanabilirliği (gullibility) inceleyen nadir kuramsal eserlerden. Durum, biliş, kişilik ve duygu boyutlarını ele alır. Yazar Madoff'a para kaptırdı. Çoğu kaynakta 2009 yazar.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/works/OL7330903W"
+  },
+  {
+   "yazar": "Martina Dove",
+   "ozgun_ad": "The Psychology of Fraud, Persuasion and Scam Techniques: Understanding What Makes Us Vulnerable",
+   "yil": "2020",
+   "yakinlik": 5,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Dolandırıcılığın tekniklerini ve kurbanı neyin savunmasız bıraktığını araştırmaya dayanarak inceler. Önleme odaklı. Routledge, 2. baskı 2025/26. 'Psychology of Scams' diye aranan kitap büyük olasılıkla bu.",
+   "guven": "yüksek",
+   "kaynak_url": "https://www.routledge.com/The-Psychology-of-Fraud-Persuasion-and-Scam-Techniques-Understanding-What-Makes-Us-Vulnerable/Dove/p/book/9781032953908"
+  },
+  {
+   "yazar": "Dan Ariely",
+   "ozgun_ad": "The (Honest) Truth About Dishonesty",
+   "yil": "2012",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Sıradan insanların 'birazcık' hile yapma eğilimini anlatır. Dikkat: Ariely'nin bir sahtekârlık deneyinin verisi 2021'de sahte çıktı ve çalışma geri çekildi. İroni büyük, temkinle okunmalı.",
+   "guven": "yüksek",
+   "kaynak_url": "",
+   "turkce_ad": "Dürüstlük Hakkındaki (Dürüst) Gerçek"
+  },
+  {
+   "yazar": "Bella M. DePaulo",
+   "ozgun_ad": "The Lies We Tell and the Clues We Miss",
+   "yil": "2009",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Gündelik yalan araştırmalarının öncüsü. Yalan günlüğü çalışmalarını ve yalan ipuçlarının zayıflığını derler. Yayınevi küçük, akademik değeri yüksek.",
+   "guven": "orta",
+   "kaynak_url": "https://openlibrary.org/works/OL39677426W"
+  },
+  {
+   "yazar": "Charles V. Ford",
+   "ozgun_ad": "Lies! Lies!! Lies!!! The Psychology of Deceit",
+   "yil": "1996",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Bir psikiyatristin yalanın psikolojisine bakışı: patolojik yalan, kendini kandırma, sahtekâr kimlikler. Klinik yönü ağır basar ama alana kapsamlı giriş sunar.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/works/OL2938659W"
+  },
+  {
+   "yazar": "Sissela Bok",
+   "ozgun_ad": "Lying: Moral Choice in Public and Private Life",
+   "yil": "1978",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Yalanın ahlakını inceleyen temel eser: beyaz yalan, kamusal aldatma, doktor ve hasta arasındaki yalan. Psikolojiden çok felsefe ama alanın vazgeçilmez kaynağı.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "David Livingstone Smith",
+   "ozgun_ad": "Why We Lie: The Evolutionary Roots of Deception and the Unconscious Mind",
+   "yil": "2004",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Aldatmanın evrimsel kökenlerini ve kendini kandırmayı anlatır. Kuramsal, kısmen spekülatif.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Robert Trivers",
+   "ozgun_ad": "The Folly of Fools: The Logic of Deceit and Self-Deception in Human Life",
+   "yil": "2011",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Kendini kandırma kuramının sahibinden: insan başkalarını daha iyi kandırmak için önce kendini kandırır. Etkili ama bazı bölümleri spekülatif.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Robert S. Feldman",
+   "ozgun_ad": "The Liar in Your Life: The Way to Truthful Relationships",
+   "yil": "2009",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Gündelik yalanın sıklığını ölçen deneylerin yazarından (10 dakikalık sohbette ortalama 2-3 yalan) popüler ama araştırmaya dayalı bir özet.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Ian Rowland",
+   "ozgun_ad": "The Full Facts Book of Cold Reading",
+   "yil": "1998",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Soğuk okumanın (cold reading: yabancı hakkında her şeyi biliyormuş izlenimi yaratma) tekniklerini sınıflandıran başvuru kitabı. Medyumlara karşı korunmaya yarar. İlk baskı yılı doğrulanmadı (Open Library 2008 diyor).",
+   "guven": "orta",
+   "kaynak_url": "https://openlibrary.org/works/OL15676115W"
+  },
+  {
+   "yazar": "Richard Wiseman",
+   "ozgun_ad": "Deception and Self-Deception: Investigating Psychics",
+   "yil": "1997",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Eski sihirbaz psikoloğun medyumlar üzerine deneyleri: sahte medyum yöntemleri, seanslar, polise yardım ettiğini söyleyen medyumlar. Çoğu daha önce yayımlanmış makalelerin derlemesi.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/isbn/9781573921213"
+  },
+  {
+   "yazar": "James Randi",
+   "ozgun_ad": "Flim-Flam! Psychics, ESP, Unicorns and Other Delusions",
+   "yil": "1980",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Şarlatanlığın sihirbaz gözüyle teşhiri: Uri Geller ve benzerleri. Yazarın aynı alandaki öbür kitabı The Faith Healers (1987).",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "M. Lamar Keene",
+   "ozgun_ad": "The Psychic Mafia",
+   "yil": "1976",
+   "yakinlik": 4,
+   "tur": "anı",
+   "gerekce": "İşi bırakmış sahte bir medyumun itirafları. Medyumların bilgi paylaşımını ve müşteriyi nasıl ağa düşürdüklerini anlatır. Allen Spraggett'la birlikte yazıldı. Soğuk ve sıcak okumanın içeriden belgesi.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/works/OL2688704W"
+  },
+  {
+   "yazar": "R. Paul Wilson",
+   "ozgun_ad": "The Art of the Con: How to Think Like a Real Hustler and Avoid Being Scammed",
+   "yil": "2014",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Dolandırıcılık danışmanı bir illüzyonistin, Hustle dizisinin danışmanı, rehberi: dolandırıcı gibi düşünerek korunmak. Stajano ile yazdığı kurban psikolojisi makalesi de önemli.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/works/OL20871094W"
+  },
+  {
+   "yazar": "Anthony Pratkanis; Doug Shadel",
+   "ozgun_ad": "Weapons of Fraud: A Source Book for Fraud Fighters",
+   "yil": "2005",
+   "yakinlik": 4,
+   "tur": "korunma-iyileşme",
+   "gerekce": "AARP için hazırlanan, telefon dolandırıcılarının ikna taktiklerini (fantom ödül, kıtlık, sosyal kanıt) gerçek kayıtlardan çözümleyen kaynak. Yıl doğrulanmadı.",
+   "guven": "orta",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Kevin D. Mitnick; William L. Simon",
+   "ozgun_ad": "The Art of Deception: Controlling the Human Element of Security",
+   "yil": "2002",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Sosyal mühendisliğin (insanı kandırarak bilgi ve erişim elde etme) senaryo senaryo anlatımı ve her biri için savunma önerisi. Devam kitabı The Art of Intrusion (2005).",
+   "guven": "yüksek",
+   "kaynak_url": "",
+   "turkce_ad": "Aldatma Sanatı"
+  },
+  {
+   "yazar": "Hugo Mercier",
+   "ozgun_ad": "Not Born Yesterday: The Science of Who We Trust and What We Believe",
+   "yil": "2020",
+   "yakinlik": 4,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Karşı görüş: insanlar sanıldığı kadar saf değil, 'epistemik uyanıklık' (bilgiyi süzme düzenekleri) taşır. Kitlesel ikna ve propaganda etkilerinin abartıldığını savunur. Dengeleyici olarak önemli.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Tess Wilkinson-Ryan",
+   "ozgun_ad": "Fool Proof: How Fear of Playing the Sucker Shapes Our Selves and the Social Order",
+   "yil": "2023",
+   "yakinlik": 3,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Kanmanın öbür yüzünü inceler: 'enayi yerine konma' korkusu. Bir hukuk ve psikoloji akademisyeninden.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/works/OL28350756W"
+  },
+  {
+   "yazar": "Kelly Richmond Pope",
+   "ozgun_ad": "Fool Me Once: Scams, Stories, and Secrets from the Trillion-Dollar Fraud Industry",
+   "yil": "2023",
+   "yakinlik": 3,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Adli muhasebeci bir yazarın gözünden failler, kurbanlar ve ihbarcılar. Kurumsal dolandırıcılığa ağırlık verir, psikolojiye yer yer değinir.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/works/OL28623979W"
+  },
+  {
+   "yazar": "J. Barton Bowyer (J. Bowyer Bell; Barton Whaley)",
+   "ozgun_ad": "Cheating: Deception in War & Magic, Games & Sports, Sex & Religion, Business & Con Games, Politics & Espionage, Art & Science",
+   "yil": "1982",
+   "yakinlik": 3,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Aldatmanın genel kuramı: gizleme ve gösterme, yani gerçeği saklayıp sahtesini sergileme. Askerî aldatma uzmanlarının elinden, alanlar arası bir yapıt.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/works/OL13207850W"
+  },
+  {
+   "yazar": "Philip Houston; Michael Floyd; Susan Carnicero",
+   "ozgun_ad": "Spy the Lie: Former CIA Officers Teach You How to Detect Deception",
+   "yil": "2012",
+   "yakinlik": 3,
+   "tur": "popüler-karanlık",
+   "gerekce": "Eski CIA görevlilerinin sözel ve sözsüz 'aldatma kümeleri' yöntemi. Uygulamaya dönük. Yöntemin bilimsel sınaması yapılmamış, sonuçları anekdota dayanıyor.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/works/OL19999582W"
+  },
+  {
+   "yazar": "Pamela Meyer",
+   "ozgun_ad": "Liespotting: Proven Techniques to Detect Deception",
+   "yil": "2010",
+   "yakinlik": 3,
+   "tur": "popüler-karanlık",
+   "gerekce": "Ünlü TED konuşmasının kitabı. Ekman çizgisini popülerleştirir. Beden diline dayalı yalan tespiti meta-analizlerle desteklenmiyor, bilimsel dayanağı zayıf.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Joe Navarro; Marvin Karlins",
+   "ozgun_ad": "What Every BODY Is Saying",
+   "yil": "2008",
+   "yakinlik": 3,
+   "tur": "popüler-karanlık",
+   "gerekce": "Eski bir FBI ajanının sözsüz iletişim rehberi. Rahatsızlık işaretlerini okumada yararlı olabilir. Yalanı beden diliyle yakalama iddiası araştırmalarca desteklenmiyor.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Joe Navarro; Toni Sciarra Poynter",
+   "ozgun_ad": "Dangerous Personalities",
+   "yil": "2014",
+   "yakinlik": 3,
+   "tur": "kişilik-bilimi",
+   "gerekce": "Narsisistik, dengesiz, paranoyak ve yırtıcı özellikler için kontrol listeleri. Kişilik dilimine daha yakın. Listeler klinik geçerlilik testinden geçmemiş.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Derren Brown",
+   "ozgun_ad": "Tricks of the Mind",
+   "yil": "2006",
+   "yakinlik": 3,
+   "tur": "popüler-karanlık",
+   "gerekce": "Mentalist bir yazar soğuk okumayı, telkini ve NLP'yi açıklar ve eleştirir. Şüpheci bakışıyla değerli. Hipnoz ve NLP bölümleri popüler düzeyde.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Frank W. Abagnale; Stan Redding",
+   "ozgun_ad": "Catch Me If You Can",
+   "yil": "1980",
+   "yakinlik": 3,
+   "tur": "anı",
+   "gerekce": "Sahte kimliklerle yaşamış bir dolandırıcının anısı. Dikkat: anlatının büyük kısmının abartı ya da uydurma olduğu belgelendi (Alan Logan, 2020). Kitap başlı başına bir aldatma örneği.",
+   "guven": "yüksek",
+   "kaynak_url": "",
+   "turkce_ad": "Sıkıysa Yakala (doğrulanmadı)"
+  },
+  {
+   "yazar": "Frank W. Abagnale",
+   "ozgun_ad": "Scam Me If You Can: Simple Strategies to Outsmart Today's Rip-off Artists",
+   "yil": "2019",
+   "yakinlik": 3,
+   "tur": "korunma-iyileşme",
+   "gerekce": "Kimlik hırsızlığı, romantik dolandırıcılık ve telefon dolandırıcılığına karşı pratik korunma rehberi. Yazarın güvenilirliği tartışmalı, öğütleri standart.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Christopher Hadnagy; Paul F. Kelly; Paul Ekman",
+   "ozgun_ad": "Unmasking the Social Engineer: The Human Element of Security",
+   "yil": "2014",
+   "yakinlik": 3,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Sosyal mühendislikte sözsüz ipuçları ve duygu okuma. Önceki raporda geçen Social Engineering kitabından ayrı bir eser. Yıl doğrulanmadı.",
+   "guven": "orta",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Ken Alder",
+   "ozgun_ad": "The Lie Detectors: The History of an American Obsession",
+   "yil": "2007",
+   "yakinlik": 3,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Poligrafın, yani 'yalan makinesinin' tarihi ve bilimsel olarak neden güvenilmez olduğu. Yalan tespiti mitlerine karşı güçlü bir kaynak.",
+   "guven": "yüksek",
+   "kaynak_url": "https://openlibrary.org/works/OL3279068W"
+  },
+  {
+   "yazar": "Malcolm Gladwell",
+   "ozgun_ad": "Talking to Strangers",
+   "yil": "2019",
+   "yakinlik": 3,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Levine'in doğruluk varsayılanı kuramını Madoff ve casus vakalarıyla anlatır. Popüler, vaka yorumları seçici.",
+   "guven": "yüksek",
+   "kaynak_url": "",
+   "turkce_ad": "Yabancılarla Konuşmak"
+  },
+  {
+   "yazar": "Jamie Bartlett",
+   "ozgun_ad": "The Missing Cryptoqueen",
+   "yil": "2022",
+   "yakinlik": 3,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "OneCoin dolandırıcılığının araştırmacı gazetecilikle anlatımı. Saadet zinciri (Ponzi) ve tarikat benzeri inanç dinamiklerine değinir. Ağırlıklı olarak anlatı.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Joseph R. Weil; W. T. Brannon",
+   "ozgun_ad": "'Yellow Kid' Weil: The Autobiography of America's Master Swindler",
+   "yil": "1948",
+   "yakinlik": 3,
+   "tur": "anı",
+   "gerekce": "Maurer'in de kaynağı olan büyük bir dolandırıcının anısı. Klasik 'büyük dolandırıcılık' kurgularının içeriden anlatımı. Abartılı olabilir. Ad sonraki baskılarda Con Man oldu.",
+   "guven": "orta",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Jay Robert Nash",
+   "ozgun_ad": "Hustlers and Con Men: An Anecdotal History of the Confidence Man and His Games",
+   "yil": "1976",
+   "yakinlik": 2,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Dolandırıcıların anekdotlarla tarihi. Psikolojik çözümleme zayıf, ağırlıklı olarak derleme.",
+   "guven": "orta",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Ian Leslie",
+   "ozgun_ad": "Born Liars: Why We Can't Live Without Deceit",
+   "yil": "2011",
+   "yakinlik": 3,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Yalanın gelişimini, evrimini ve yalan tespitinin tarihini anlatan popüler bilim özeti.",
+   "guven": "orta",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Chase Hughes",
+   "ozgun_ad": "The Ellipsis Manual: Analysis and Engineering of Human Behavior",
+   "yil": "2017",
+   "yakinlik": 2,
+   "tur": "popüler-karanlık",
+   "gerekce": "Davranış mühendisliği ve gizli ikna kılavuzu. Yazar kendi yayınevinde (Evergreen) bastı. Bilimsel dayanağı çok zayıf, NLP ve kanıtsız iddialar içerir.",
+   "guven": "yüksek",
+   "kaynak_url": "https://www.blinkist.com/es/books/the-ellipsis-manual-en"
+  },
+  {
+   "yazar": "Chase Hughes",
+   "ozgun_ad": "Six-Minute X-Ray: Rapid Behavior Profiling",
+   "yil": "2020",
+   "yakinlik": 2,
+   "tur": "popüler-karanlık",
+   "gerekce": "Hızlı davranış profili çıkarma vaadi. Beden diliyle yalan ve kişilik okuma iddiaları araştırmalarca desteklenmiyor. İlk baskı yılı yalnızca satıcı kaydına dayanıyor.",
+   "guven": "orta",
+   "kaynak_url": "https://www.desertcart.de/products/268784773-six-minute-x-ray-rapid-behavior-profiling"
+  },
+  {
+   "yazar": "Allan Pease; Barbara Pease",
+   "ozgun_ad": "The Definitive Book of Body Language",
+   "yil": "2004",
+   "yakinlik": 2,
+   "tur": "popüler-karanlık",
+   "gerekce": "Beden dilinin en yaygın popüler kitabı. Yalan işaretleri bölümü bilimsel olarak zayıf (meta-analizlerde doğruluk %54). Komşu konu.",
+   "guven": "yüksek",
+   "kaynak_url": "",
+   "turkce_ad": "Beden Dili (doğrulanmadı)"
+  },
+  {
+   "yazar": "David J. Lieberman",
+   "ozgun_ad": "Never Be Lied to Again",
+   "yil": "1998",
+   "yakinlik": 2,
+   "tur": "popüler-karanlık",
+   "gerekce": "'Kimse bir daha sana yalan söyleyemeyecek' vaadiyle yalan yakalama taktikleri sunar. İddiaları araştırmalarca desteklenmiyor.",
+   "guven": "orta",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "John Carreyrou",
+   "ozgun_ad": "Bad Blood: Secrets and Lies in a Silicon Valley Startup",
+   "yil": "2018",
+   "yakinlik": 2,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Theranos dolandırıcılığının anlatısı. Holmes'un karizması ve gizlilik kültürü ilginç ama kitap psikolojiden çok kurumsal anlatı. Komşu konu.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  },
+  {
+   "yazar": "Harry G. Frankfurt",
+   "ozgun_ad": "On Bullshit",
+   "yil": "2005",
+   "yakinlik": 2,
+   "tur": "dolandırıcılık-aldatma",
+   "gerekce": "Yalan ile 'saçmalık' (bullshit: doğruya kayıtsız konuşma) arasındaki farkı inceleyen kısa felsefe denemesi. Makale olarak ilk kez 1986'da çıktı. Komşu konu.",
+   "guven": "yüksek",
+   "kaynak_url": ""
+  }
+ ],
+ "elenenler": [
+  "Ross Coomber: uyuşturucu sosyoloğu, aldatma ya da dolandırıcılık kitabı yok",
+  "Edward Smith, The Psychology of Scams: böyle bir kitap bulunamadı. Büyük olasılıkla Martina Dove'un kitabıyla karıştırıldı",
+  "Herman Melville, The Confidence-Man (1857): salt kurgu",
+  "Maria Konnikova, The Biggest Bluff (2020): poker anısı, aldatma yan konu",
+  "William Bernstein, The Delusions of Crowds (2021): kitlesel mani tarihi. Dilim dışı, propaganda ya da kitle dilimine bakılmalı",
+  "Diana Henriques, The Wizard of Lies (2011) ve Bethany McLean, The Smartest Guys in the Room (2003): kurumsal dolandırıcılık anlatısı, psikoloji ana konu değil",
+  "Mitchell Zuckoff, Ponzi's Scheme (2005): biyografi ve anlatı, psikoloji ikincil",
+  "Inbau ve Reid, Criminal Interrogation and Confessions (1962): sorgu tekniği. Zihin denetimi ve sorgu dilimine ait",
+  "Paul Ekman, Emotions Revealed (2003) ve Ekman ile Friesen, Unmasking the Face (1975): genel duygu psikolojisi, aldatma yan konu"
+ ],
+ "acik_kalanlar": "Doğrulanmayan yıllar: Rowland'ın ilk baskısı (1998 mi 2008 mi), Pratkanis ve Shadel 2005, Hadnagy ve arkadaşları 2014. Doğrulanmayan Türkçe adlar: Abagnale ve Pease. Ana ajanın katalog taramasında kontrol edilmeli. Abagnale anlatısının uydurma olduğunu gösteren Logan 2020 bilgisi bellekten, bu oturumda kaynağı açılmadı."
+}
