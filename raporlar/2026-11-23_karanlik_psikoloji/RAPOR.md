@@ -4,7 +4,7 @@
 
 ## Kısa yanıt
 
-- "Karanlık psikoloji" iki ayrı şeyin adıdır. Birincisi kişilik psikolojisinin hakemli bir alt alanıdır: karanlık üçlü, karanlık dörtlü ve D faktörü üzerine araştırmalar. İkincisi 2015 sonrası yayılan, çoğu takma adlı yazarların kendi yayımladığı kitaplar ve sosyal medya içerikleridir. İkincisi bir bilim dalı değildir.
+- "Karanlık psikoloji" iki ayrı şeyin adıdır. Birincisi kişilik psikolojisinin hakemli bir alt alanıdır: karanlık üçlü, karanlık dörtlü ve D faktörü üzerine araştırmalar. İkincisi 2010'ların ikinci yarısından beri yayılan (başlangıç tarihi kesin değil), çoğu takma adlı yazarların kendi yayımladığı kitaplar ve sosyal medya içerikleridir. İkincisi bir bilim dalı değildir.
 - Alan rehberi `ek/01` dosyasında (yaklaşık 18.000 kelime): kavramlar ve tarih, dört karanlık kişilik, 31 manipülasyon taktiği (her biri kanıt düzeyiyle), popüler türün eleştirisi, Türk hukuku ve başvuru yerleri.
 - 350 dolayında adaydan **124 kitap ayrı ayrı ayrıntılı anlatıldı** (on dosya, yaklaşık 91.000 kelime); **203 kitap** envanterde. Önceki İktidar raporunda anlatılan yaklaşık 30 ilgili kitap yinelenmedi; onlara bağlantı verildi.
 - Kitapların kanıt düzeyi: 52 [araştırma], 35 [klinik], 37 [popüler].
@@ -15,10 +15,10 @@
 1. **Alanı bilimsel olarak anlamak istiyorsan:** rehberin 1. ve 2. bölümü; sonra Lyons'un *The Dark Triad of Personality*, Zeigler-Hill ve Marcus'un *The Dark Side of Personality* ve Viding'in *Psychopathy: A Very Short Introduction* kitapları (`ek/02`, `ek/04`). Türkçe okumak istersen Hare'in *Vicdansızlar*'ı (Serbest Kitaplar, 2023) ve Malkin'in *Narsisizme Yeni Bir Bakış*'ı (İletişim).
 2. **Bir ilişkide manipülasyon ya da istismar yaşadığından şüpheleniyorsan:** önce rehberin 3. bölümü (taktikler) ve 4. bölümündeki "Korunma" ile "Hukuk ne der?" kısımları. Kitaplardan Bancroft'un *Why Does He Do That?*, Stark'ın *Coercive Control*, Fontes'in *Invisible Chains*, Stern'ün *Gaslight Etkisi* ve Forward'ın *Duygusal Şantaj*'ı (`ek/07`, `ek/08`). Kitap yardımın yerine geçmez: Türkiye'de ALO 183 (7/24, ücretsiz), KADES uygulaması ve acil hatlar (112, 155, 156) var; ayrıntısı rehberde.
 3. **Narsisistik bir ebeveyn ya da partnerle uğraşıyorsan:** McBride (*Boş Ayna*), Behary (*Narsistle Ateşkes*), Durvasula (*It's Not You*; Türkçesi *Bozuk Ayna*) ve Golomb. Karşı ses olarak Dombek'in *The Selfishness of Others*'ını da oku: "herkes narsist" söylemini eleştiriyor (`ek/06`).
-4. **İnsanların nasıl kötülük yaptığını anlamak istiyorsan:** Baumeister'ın *Evil*, Browning'in *Ordinary Men*, Arendt'in *Kötülüğün Sıradanlığı* ve ona en güçlü itiraz olan Stangneth (`ek/03`). Zimbardo'nun *Şeytan Etkisi*'ni Stanford deneyine yönelik eleştirilerle birlikte oku.
-5. **Dolandırıcılıktan ve yanlış bilgiden korunmak istiyorsan:** Simons ve Chabris'in *Nobody's Fool*'u (Türkçesi *Külyutmaz*, Say), Levine'in *Duped*, van der Linden'in *Foolproof* (Türkçesi *Dezenformasyona Karşı Bağışıklık*), Shadel ve Holmes (`ek/09`, `ek/10`).
+4. **İnsanların nasıl kötülük yaptığını anlamak istiyorsan:** Baumeister'ın *Evil*, Browning'in *Ordinary Men*, Arendt'in *Kötülüğün Sıradanlığı* ve ona en güçlü itiraz olan Stangneth (`ek/03`). Zimbardo'nun *Şeytan Etkisi*'ni, Stanford Hapishane Deneyi'ne (1971'de öğrencilerin gardiyan ve mahkûm rollerine sokulduğu çalışma) yönelik eleştirilerle birlikte oku.
+5. **Dolandırıcılıktan ve yanlış bilgiden korunmak istiyorsan:** Simons ve Chabris'in *Nobody's Fool*'u (Türkçesi *Külyutmaz*, Say), Levine'in *Duped*'ı (yalan üzerine; Kassin'in aynı adlı sahte itiraf kitabıyla karıştırma), van der Linden'in *Foolproof* (Türkçesi *Dezenformasyona Karşı Bağışıklık*), Shadel ve Holmes (`ek/09`, `ek/10`).
 6. **Raftaki bir "karanlık psikoloji" kitabını almadan önce:** rehberin 4. bölümü ile `ek/11` dosyasındaki iki tür profilini oku: biri İngilizce kendi-yayını kitaplar, öteki Türkçe raf. Yazarın kim olduğu belli mi, kaynak gösteriyor mu, vaadi ne? Bu üç soru çoğu kitabı eler.
-7. **Türkçe yazılmış kitaplar:** Tülüce'nin *Karanlık Empat*'ı (Destek, 2023), Tarhan'ın *Kötülük Psikolojisi ve Toksik İlişkiler*'i (Timaş) ve Tınaz'ın mobbing kitabı (Beta, 2006) (`ek/11`).
+7. **Türkçe yazılmış kitaplar:** Tülüce'nin *Karanlık Empat*'ı (Destek, 2023), Tarhan'ın *Kötülük Psikolojisi ve Toksik İlişkiler*'i (Timaş) ve Tınaz'ın mobbing kitabı (Beta, 2006) (`ek/11`). Tülüce ile Tarhan'ın kitapları [popüler] etiketlidir: giriş için okunur, bilimsel kaynak değildir.
 
 Kitap satın almadan önce künye paragrafına bak. Türkçe baskı bilgisi üç kitapçı kataloğunun (D&R, Kitapseç, bkmkitap) yazar adıyla taranmasından ve doğrulayıcıların aramalarından gelir. Bu taramalar tükenmiş eski baskıları kaçırabilir; "Türkçesi görünmüyor" yazan bir kitabın çevirisi sahafta bulunabilir.
 
@@ -29,18 +29,18 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 **İki anlam.** Akademik araştırma, insanların başkalarını sömürme ve zarar verme eğilimlerini ölçer ve bu eğilimlerin neyle ilişkili olduğunu inceler. Popüler tür ise çoğunlukla "başkalarını kontrol etme sırları" satar. Popüler kitapların çoğu kaynak göstermez. Sık kopyaladıkları kaynaklar Cialdini, Greene, Carnegie ve NLP'dir. Amazon'un kendi yayın platformu Eylül 2023'te yapay zekâyla yazılmış kitap seline karşı günde üç yeni başlık sınırı getirdi.
 
 **Kavramlar.**
-- *Karanlık üçlü:* narsisizm, makyavelizm ve psikopati (Paulhus ve Williams, 2002).
-- *Karanlık dörtlü:* üçlüye gündelik sadizm eklenir (Buckels, Jones ve Paulhus, 2013).
+- *Karanlık üçlü:* narsisizm (büyüklenmecilik ve hayranlık ihtiyacı), makyavelizm (çıkar için soğukkanlı manipülasyon) ve psikopati (vicdan ve empati eksikliği, dürtüsellik) (Paulhus ve Williams, 2002).
+- *Karanlık dörtlü:* üçlüye gündelik sadizm eklenir (en çok anılan çalışma: Buckels, Jones ve Paulhus, 2013).
 - *D faktörü:* bu özelliklerin ortak çekirdeği (Moshagen, Hilbig ve Zettler, 2018). Kişinin kendi çıkarını, başkalarının zararı pahasına en üste koyması ve bunu kendine haklı göstermesidir.
 
 **Sayılar.**
-- Psikopati genel nüfusta, en yaygın ölçek olan PCL-R ile yaklaşık %1,2. Bütün ölçüm araçlarıyla bu oran %4,5 çıkıyor (Sanz-García ve arkadaşları, 2021; meta-analiz).
-- Erkek hükümlülerde oran yaklaşık %15.
+- Psikopati genel nüfusta, en yaygın ölçek olan PCL-R (Hare'in Psikopati Kontrol Listesi) ile yaklaşık %1,2. Bütün ölçme araçları birlikte hesaba katılınca oran %4,5 (Sanz-García ve arkadaşları, 2021; meta-analiz, yani çok sayıda çalışmanın birleşik analizi).
+- Erkek hükümlülerde oran, kesme puanına göre yaklaşık %15–25.
 - Sık duyulan "yöneticilerin %4'ü psikopat" iddiası tek bir çalışmaya dayanır: 203 kişiden 8'i, ve örneklem rastgele değil (Babiak ve arkadaşları, 2010).
 
 **Dört kişilik.** Rehberin 2. bölümü her özelliği ayrı anlatır: büyüklenmeci ve kırılgan narsisizm, psikopati ve sosyopati farkı, makyavelizm, sadizm. Her biri için tanım, ölçme, yaygınlık, kaynak, gündelik görünüm ve değişip değişemeyeceği yazılıdır.
 
-**31 taktik.** Gaslighting'den sevgi bombardımanına, DARVO'dan hazırlamaya (grooming) kadar 31 taktik var. Her birinde tanım, köken, örnek, nasıl tanınacağı ve karşılık yazılı. Kanıt düzeyleri: 0 [araştırma], 0 [klinik], 0 [popüler]. "Uçan maymunlar", "vakumlama" ve "geleceği sahteleme" gibi sosyal medyada çok dolaşan terimlerin çoğunun araştırması yok. Korunma önerisi olarak sık duyulan "gri kaya" ve "temas kesme" için de kontrollü araştırma bulunamadı.
+**31 taktik.** Gaslighting'den sevgi bombardımanına, DARVO'dan (inkâr et, saldır, kurbanla failin yerini değiştir) hazırlamaya (grooming) kadar 31 taktik var. Her birinde tanım, köken, örnek, nasıl tanınacağı ve karşılık yazılı. Kanıt düzeyleri: 11 [araştırma], 8 [klinik], 12 [popüler]. "Uçan maymunlar", "vakumlama" ve "geleceği sahteleme" gibi sosyal medyada çok dolaşan terimlerin çoğunun araştırması yok. Korunma önerisi olarak sık duyulan "gri kaya" (bilerek sıkıcı ve tepkisiz davranmak) ve "temas kesme" için de kontrollü araştırma bulunamadı.
 
 **Yalan tespiti ve NLP.**
 - İnsanlar yalanı ortalama yüzde 54 doğrulukla ayırt eder; bu, yazı turasından biraz iyidir (Bond ve DePaulo, 2006: 206 belge, 24.483 yargıç).
@@ -50,7 +50,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - 6284 sayılı Kanun (Resmî Gazete 20 Mart 2012): psikolojik şiddeti de kapsayan koruma ve önleyici tedbirleri düzenler.
 - Türk Ceza Kanunu 123/A: ısrarlı takip, 2022'den beri ayrı bir suç.
 - Türk Borçlar Kanunu 417: işverene iş yerinde psikolojik tacize karşı koruma yükümlülüğü verir.
-- İngiltere'de "zorlayıcı denetim" 2015'ten beri ayrı bir suç.
+- İngiltere ve Galler'de "zorlayıcı denetim" 2015'ten beri ayrı bir suç.
 
 ## Kitaplar nasıl seçildi
 
@@ -64,7 +64,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 
 ## On küme ve öne çıkan bulgular
 
-**Karanlık kişiliğin bilimi (`ek/02`, 10 kitap).** Akademik derlemeler ve kavram kitapları. Bereczkei'nin makyavelizm kitabı, Christie ve Geis'ten bu yana konunun ilk kapsamlı psikoloji kitabı. Baron-Cohen kötülüğü "empati erozyonu" ile açıklıyor; Türkçesi *Kötülüğün Anatomisi* (Say).
+**Karanlık kişiliğin bilimi (`ek/02`, 10 kitap).** Akademik derlemeler ve kavram kitapları. Yayınevine göre Bereczkei'nin makyavelizm kitabı, Christie ve Geis'ten bu yana konunun ilk kapsamlı psikoloji kitabı. Baron-Cohen kötülüğü "empati erozyonu" ile açıklıyor; Türkçesi *Kötülüğün Anatomisi* (Say).
 
 **Kötülüğün psikolojisi (`ek/03`, 10 kitap).**
 - Zimbardo'nun Stanford Hapishane Deneyi, sonradan yönlendirilmiş olduğu gerekçesiyle ağır eleştirildi (Le Texier).
@@ -78,7 +78,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - Łobaczewski'nin kitabı sözde bilimdir.
 
 **Narsisizm (`ek/06`, 16 kitap).**
-- Twenge ve Campbell'ın "narsisizm salgını" tezi sonraki çalışmalarda tutmadı; Wetzel ve arkadaşları (2017) tersine bir düşüş buldu.
+- Twenge ve Campbell'ın "narsisizm salgını" tezi sonraki çalışmalarda tutmadı; Wetzel ve arkadaşları (2017) artış değil, küçük bir düşüş buldu.
 - "Kötücül narsisizm" terimi Kernberg'in değil, Fromm'undur (1964).
 - "Narsisistik arz" kavramı Fenichel'e aittir (1938). Onu yaygınlaştıran Vaknin'in klinik eğitimi yok.
 
@@ -93,7 +93,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - "Beyin yıkama" akademide tartışmalıdır. Amerikan Psikoloji Derneği (APA), Singer'ın bu konudaki raporunu 1987'de reddetti.
 - Barker'ın verisinde, Moon tarikatının atölyelerine katılanların çoğu kısa sürede ayrılıyor.
 - Schein'ın ünlü modeli aslında Lewin'den gelir.
-- Sargant'ın MK-Ultra bağlantısı kanıtlanmamıştır.
+- Sargant'ın, CIA'nın 1950'lerdeki gizli zihin denetimi programı MK-Ultra ile bağlantısı kanıtlanmamıştır.
 
 **Aldatma, yalan ve dolandırıcılık (`ek/10`, 11 kitap).** Ekman'ın mikro ifade kuramı popülerdir ama pratikte yalan tespitine katkısı tartışmalıdır. Levine'e göre insanlar karşısındakinin doğru söylediğini kendiliğinden kabul eder ("doğruluk varsayılanı"). Ariely'nin kitabında anlatılan bir dürüstlük deneyinin verisi uydurma çıktı; makale 2021'de geri çekildi.
 
@@ -101,7 +101,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 
 ## 124 kitabın listesi
 
-★ işareti çekirdek katmanı (yaklaşık 1.000 kelime), işaretsizler ikinci katmanı (yaklaşık 550 kelime) gösterir. *(TR)*, Türkçe baskısı künyede adıyla yazılı olan kitaplardır (46 kitap). *(TR?)*, Türkçe çevirisi büyük olasılıkla bulunan ama eşleşmesi kesinleşmeyen kitaplardır (1 kitap). Köşeli parantez kitabın kanıt düzeyidir.
+★ işareti çekirdek katmanı (yaklaşık 1.000 kelime), işaretsizler ikinci katmanı (yaklaşık 550 kelime) gösterir. *(TR)*, Türkçe baskısı künyede adıyla yazılı olan kitaplardır (44 kitap). *(TR?)*, Türkçe çevirisi büyük olasılıkla bulunan ama eşleşmesi kesinleşmeyen kitaplardır (3 kitap). Köşeli parantez kitabın kanıt düzeyidir: [araştırma] hakemli araştırmaya, [klinik] klinisyen gözlemine ve vaka deneyimine dayanır; [popüler] bilimsel çalışma değildir, deneme, tanıklık, gazetecilik ya da öz yardım kitabı olabilir. [popüler] etiketi kitabın değersiz olduğu anlamına gelmez; Arendt'in dava raporu ve Lasch'ın toplum eleştirisi de bu etikettedir.
 
 **Karanlık kişiliğin bilimi** (`ek/02_karanlik_kisiligin_bilimi.md`)
 
@@ -186,7 +186,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - ★ **Evan Stark — Coercive Control** [araştırma]: Kadınlara yönelik ev içi istismarın özü tek tek şiddet olayları değil; yalıtma, aşağılama, gözetleme ve gündelik hayatın kurallarla düzenlenmesiyle süren, kadının özgürlüğünü elinden alan bir "özgürlük suçu"dur (liberty crime).
 - ★ **Judith Lewis Herman — Trauma and Recovery** *(TR)* [klinik]: Tecavüz ve ev içi istismar mağdurlarının yaşadığı travma, savaş gazilerinin ve siyasi tutsakların yaşadığıyla aynı türdendir; uzun süreli tutsaklık ayrı bir travma tablosu (karmaşık TSSB) doğurur ve iyileşme belirli evrelerden geçer.
 - ★ **Marie-France Hirigoyen — Manevi Taciz** *(TR)* [klinik]: Çiftte, ailede ve işyerinde, görünmeyen ama sistemli bir psikolojik şiddet vardır; bunu çoğunlukla "sapkın narsisistik" (pervers narcissique) işleyiş gösteren biri uygular ve amacı kurbanı adım adım ruhen yok etmektir.
-- **Jess Hill — Kadının Hiç Suçu Yok** *(TR)* [popüler]: Aile içi istismarın özü tek tek darbeler değil, failin partnerin hayatı üzerinde kurduğu sistemli denetimdir; bu yüzden "Kadın neden gitmedi?" yerine "Adam bunu neden yaptı?" diye sormak gerekir.
+- **Jess Hill — Kadının Hiç Suçu Yok** *(TR?)* [popüler]: Aile içi istismarın özü tek tek darbeler değil, failin partnerin hayatı üzerinde kurduğu sistemli denetimdir; bu yüzden "Kadın neden gitmedi?" yerine "Adam bunu neden yaptı?" diye sormak gerekir.
 - **Rachel Louise Snyder — No Visible Bruises** *(TR)* [popüler]: Partner cinayetleri öngörülebilir; bilinen risk işaretlerini (özellikle boğma girişimini) ciddiye alan ve kurumları birbirine bağlayan sistemler hayat kurtarabilir.
 - **Jane Monckton Smith — In Control** [araştırma]: Partner cinayeti bir anlık "tutku" patlaması değil, izlenebilir bir denetim sürecinin sonudur; aşamaları bilen herkes riskin arttığını görebilir.
 - **Lisa Aronson Fontes — Invisible Chains** [klinik]: Zorlayıcı denetim, fiziksel şiddet olmadan da bir insanı görünmez zincirlerle bağlayabilir; bunu tanımak, tehlikeyi tartmak ve güvenle çıkış yolu bulmak öğrenilebilir.
@@ -247,7 +247,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 
 - ★ **Richard Bandler ve John Grinder — Frogs into Princes** [popüler]: İnsanlar deneyimi farklı duyu kanallarıyla işler ve bu kanallar dil, göz hareketleri ve beden diliyle "okunabilir"; bunu bilen bir terapist ya da iletişimci, karşısındakinin davranışını hızla değiştirebilir.
 - ★ **William Cooper, Michael Pace, Jonathan Mind ve diğerleri — Dark Psychology** [popüler]: "Karanlık psikoloji" denen gizli bir manipülasyon bilgisi vardır; güçlü insanlar bunu kullanır ve okur bu kitapla hem kendini koruyabilir hem de aynı teknikleri kullanabilir.
-- **Kevin Hogan ve James Speakman — Covert Persuasion** *(TR)* [popüler]: Karşındakinin farkına varmadan "evet" demesini sağlayacak kelimeler, sorular, hikâyeler ve duygusal tetikleyiciler sistemli olarak kullanılabilir.
+- **Kevin Hogan ve James Speakman — Covert Persuasion** *(TR?)* [popüler]: Karşındakinin farkına varmadan "evet" demesini sağlayacak kelimeler, sorular, hikâyeler ve duygusal tetikleyiciler sistemli olarak kullanılabilir.
 - **Chase Hughes — The Ellipsis Manual** [popüler]: İnsan davranışı sistematik biçimde okunabilir ve "mühendislik" yoluyla, kişi fark etmeden yönlendirilebilir.
 - **Neil Strauss — The Game** *(TR)* [popüler]: Utangaç bir gazetecinin "tavlama" (pickup) camiasına girip "Style" takma adıyla usta olmasının ve sonunda bu hayatın boşluğunu görmesinin anlatısı.
 - **Hicran Tülüce — Karanlık Empat: Narsist, Psikopat, Makyavelist** *(TR)* [popüler]: Narsisizm, makyavelizm ve psikopatinin birleştiği "karanlık" kişilikler, empati kurabildiklerinde daha da tehlikeli olabilir; okur bu insanları tanımayı ve onlardan korunmayı öğrenmelidir.
@@ -263,41 +263,46 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 
 **Ne kontrol edildi.** Her yazar ajan, metninin yanında bir iddia defteri tuttu: iddia, kaynağın adresi ve kısa bir alıntı. Sonra 27 doğrulayıcı ajan bu defterlerden toplam 672 iddiayı kaynağından yeniden kontrol etti:
 
-- 488'i doğru çıktı.
-- 117'si düzeltildi; düzeltmeler metinlere yerinde işlendi. Bunların yaklaşık yarısı yanlışın düzeltilmesi, yarısı "doğrulanmadı" diye bırakılmış bir bilginin (yayınevi, sayfa sayısı, yıl) tamamlanmasıdır.
-- 67'si doğrulanamadı; bunlar metinde "(doğrulanmadı)" işaretiyle duruyor.
+- 491'i doğru çıktı.
+- 115'i düzeltildi; düzeltmeler metinlere yerinde işlendi. Bunların yaklaşık yarısı yanlışın düzeltilmesi, yarısı "doğrulanmadı" diye bırakılmış bir bilginin (yayınevi, sayfa sayısı, yıl) tamamlanmasıdır.
+- 65'i doğrulanamadı, 1'i kısmen doğrulandı; bunlar metinde "(doğrulanmadı)" işaretiyle duruyor.
 
-**Rehber.** Dört bölümden 82 iddia örneklendi. Taktikler bölümünde hata oranı yüzde 15 çıktı. Protokolün eşiği yüzde 10 olduğu için bölümün kalan 23 köken cümlesi de kontrol edildi; bir hata daha bulundu (Sweet'in 2019 makalesinin yöntemi). Rehberde toplam 105 iddia kontrol edildi, 12'si düzeltildi.
+**Rehber.** Dört bölümden 82 iddia örneklendi. Taktikler bölümünde hata oranı yüzde 15 çıktı. Protokolün eşiği yüzde 10 olduğu için bölümün kalan 23 köken cümlesi de kontrol edildi; bir hata daha bulundu (Sweet'in 2019 makalesinin yöntemi). Rehberde toplam 105 iddia kontrol edildi, 11'i düzeltildi.
 
 **Kitaplar, iki tur.**
 
-- *Örneklem:* 12 doğrulayıcı 124 kitaptan 340 iddia seçti. 12 grubun 9'unda hata oranı eşiği aştı. Hatalar iki yerde toplandı: Türkçe baskı satırları ve yazarların "bellekten" yazdığı satırlar.
-- *Tam kontrol:* Türkçe baskı dışında da eşiği aşan 10 defterin kalan satırlarının hepsi kontrol edildi: 10 doğrulayıcı, 227 iddia, 38 düzeltme. Bu defterlerde kontrol edilmemiş satır kalmadı; kaynağı bulunamayanlar metinde işaretli. Öteki 14 defterde Türkçe baskı dışı hata oranı eşiğin altındaydı; onlar örneklemle kontrol edildi.
+- *İlk tur:* Her yazar grubunun defterinden iddialar seçilip kontrol edildi: 12 doğrulayıcı, 124 kitaptan 340 iddia. 12 kümenin 9'unda yanlış çıkan iddia onda birden fazlaydı. Yanlışlar iki yerde toplandı: Türkçe baskı bilgileri ve yazarların kaynağa bakmadan, bellekten yazdığı cümleler.
+- *İkinci tur:* Türkçe baskı dışında da yanlışı onda birden fazla olan 10 grubun bütün iddiaları kontrol edildi: 10 doğrulayıcı, 227 iddia, 37 düzeltme. Bu gruplarda kontrol edilmemiş iddia kalmadı; kaynağı bulunamayanlar metinde işaretli. Öteki 14 grupta Türkçe baskı dışındaki yanlışlar onda birin altındaydı; onlar yalnızca ilk turda kontrol edildi.
 
 **Öne çıkan düzeltmeler.**
 
-- Kassin'in "2026'da emekli olduğu" bilgisi uydurmaydı; çıkarıldı.
+- Kassin'in "2026'da emekli olduğu" yazıyordu; bu yıl hiçbir kaynakta görülmedi ve çıkarıldı (bugün emeritus profesör).
 - "Gaslighting" teriminin psikiyatri yazınındaki kullanımı 1980'lerde değil, 1969'da başlıyor (Barton ve Whitehead, *Lancet*).
 - Ekman'ın *Yalan Söylediğimi Nasıl Anladın?!* kitabı *Telling Lies*'ın değil, *Emotions Revealed*'ın çevirisi. Porter ve ten Brinke'nin (2008) bulgusu da düzeltildi: mikro ifadeler yalnızca yüzde 2 oranında görülüyor, o da yüzün yalnızca yarısında.
 - Bandler ve Grinder'ın kitabında Chomsky ile Bateson'un adı geçmiyor. Fobi tekniği "geri sarma" değil, "iki aşamalı ayrışma".
 - Browning: Józefów'da öldürmeye katılmayanların oranı "belki yüzde 10, en fazla yüzde 20".
 - de Becker bölümündeki "kırk mesajdan sonra" örneği kaynakta yok; çıkarıldı.
-- Brignull bölümündeki Türkiye düzenlemesi kesinleşti. Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'nde yapılan değişiklik 1 Temmuz 2026'da Resmî Gazete'de yayımlandı, 1 Ağustos 2026'da yürürlüğe girdi.
+- Brignull bölümündeki Türkiye düzenlemesinin tarihleri haberlerden doğrulandı: Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'ndeki değişiklik 1 Temmuz 2026'da Resmî Gazete'de yayımlandı, 1 Ağustos 2026'da yürürlüğe girdi. Karanlık tasarımları hangi maddeyle kapsadığı görülmedi.
 - Łobaczewski'nin *Political Ponerology*'sinin ilk İngilizce basımı 1998'de değil, 2006'da yapıldı (Red Pill Press).
 - Forward'ın *Toxic Parents*'ının Türkçesi *Zehirli Ana Babalar* değil, *Zor Bir Ailede Büyümek* (İletişim).
 - Stout'un *The Sociopath Next Door*'unun Türkçesi yok. Türkçede çıkan, onun devam kitabı: *Yanı Başınızdaki Sosyopatı Alt Etmek*.
 
 **Küçük programlarla yapılan toplu kontroller.**
 
-- *Türkçe baskılar:* İlk tarama D&R ve Kitapseç kataloglarında yazar soyadıyla yapıldı. Doğrulayıcılar bu taramanın birçok çeviriyi kaçırdığını gösterdi; örneğin Hare'in *Vicdansızlar*'ı, Herman'ın *Travma ve İyileşme*'si ve Stern'ün *Gaslight Etkisi*. Bu yüzden 124 kitabın yazarı, tükenmiş baskıları da gösteren bkmkitap kataloğunda tam adıyla yeniden tarandı. 62 yazarın en az bir Türkçe kitabı çıktı ve 16 kitabın Türkçe baskı bilgisi düzeltildi ya da eklendi. Örnekler: Snyder *Görünmeyen Yaralar*, Simons ve Chabris *Külyutmaz*, Campbell ve Crist *Yeni Narsisizm Bilimi*, Freyd *İhanete Kör Olmak*, Strauss *Oyun*. Doğrulayıcılar da yaklaşık 25 kitabın Türkçe künyesini düzeltti ya da tamamladı. Sonuçta 124 kitabın 46'sında Türkçe baskı künyede adıyla yazılı. Tarama tablosu `ek/dogrulama/turkce_karsilastirma.md` dosyasında.
+- *Türkçe baskılar:* İlk tarama D&R ve Kitapseç kataloglarında yazar soyadıyla yapıldı. Doğrulayıcılar bu taramanın birçok çeviriyi kaçırdığını gösterdi; örneğin Hare'in *Vicdansızlar*'ı, Herman'ın *Travma ve İyileşme*'si ve Stern'ün *Gaslight Etkisi*. Bu yüzden 124 kitabın yazarı, tükenmiş baskıları da gösteren bkmkitap kataloğunda tam adıyla yeniden tarandı. 62 yazarın en az bir Türkçe kitabı çıktı ve 16 kitabın Türkçe baskı bilgisi düzeltildi ya da eklendi. Örnekler: Snyder *Görünmeyen Yaralar*, Simons ve Chabris *Külyutmaz*, Campbell ve Crist *Yeni Narsisizm Bilimi*, Freyd *İhanete Kör Olmak*, Strauss *Oyun*. Doğrulayıcılar da yaklaşık 25 kitabın Türkçe künyesini düzeltti ya da tamamladı. Sonuçta Türkçe baskısı künyede adıyla yazılı kitap sayısı 124'te 44; çeviri eşleşmesi kesinleşmeyen 3 kitap ayrıca (TR?) ile işaretli. Tarama tablosu `ek/dogrulama/turkce_karsilastirma.md` dosyasında.
 - *Envanter:* __OL__
-- *Bağlantılar:* __LINK__
+- *Bağlantılar:* Defterlerdeki ve doğrulama notlarındaki 741 bağlantı tek bir programla denendi:
+  - 651'i açıldı.
+  - 50'si otomatik erişimi reddetti ya da çok sık istek uyarısı verdi; bunların 18'i dergi makalelerine yönlendiren doi.org adresleri.
+  - 31'ine bağlanılamadı ve 2'si sunucu hatası verdi.
+  - 7'si bulunamadı. Biri, program adresi parantezde kestiği için açılmayan bir DOI'dir. Kalan 6'sı: New York Journal of Books'un iki incelemesi, Oakland Üniversitesi'nin bir PDF'i, bir Psychology Today yazısı, Europe PMC'nin ana sayfası ve Emerge'ün tanıtım sayfası.
+  Sonuç `ek/dogrulama/link_kontrol.csv` dosyasında.
 
 **Açık kalanlar.**
 
 1. Çoğu kitapta Türkçe çevirmen adı ve ilk Türkçe baskı yılı doğrulanmadı.
-2. Üç çeviri eşleşmesi kesinleşmedi; katalogda özgün ad yazmıyor ve eşleşme yazar adına, konuya ve Türkçe ada dayanıyor:
-   - Ekman'ın *Ne Düşündüğünü Biliyorum*'u büyük olasılıkla *Telling Lies*'tır; listede (TR?) işaretli.
+2. Üç çeviri eşleşmesi kesinleşmedi; katalogda özgün ad yazmıyor ve eşleşme yazar adına, konuya ve Türkçe ada dayanıyor. Üçü de listede (TR?) ile işaretli:
+   - Ekman'ın *Ne Düşündüğünü Biliyorum*'u büyük olasılıkla *Telling Lies*'tır.
    - Hill'in *Kadının Hiç Suçu Yok*'u.
    - Hogan'ın *Gizli İkna Taktikleri*.
 3. İkinci katmanda bazı bölüm adları, kitap içi sayılar ve alıntılar işaretli yerlerde doğrulanmadı. Örnekler: Cooper'ın okur yorumları, Wylie'nin birkaç alıntısı, Brignull'ün kısım adları, Carnes'ın travma bağı sayısı.

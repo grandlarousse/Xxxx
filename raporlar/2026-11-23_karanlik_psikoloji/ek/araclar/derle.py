@@ -44,6 +44,7 @@ def tr_var(t):
     m = re.search(r"\*\*Künye\.?\*\*(.*?)\n\*\*", t, re.S)
     cumle = [f(c) for c in re.split(r"(?<=[.;])\s+", m.group(1) if m else "") if "turk" in f(c)]
     ku = " ".join(cumle)
+    if "buyuk olasilik" in ku: return None
     if re.search(r"turkce baski(si)?:|turkce yazilmis ozgun|turkce, ozgun|turkcede .*adiyla (cevrilmistir|cikti)|turkce baskisi var", ku): return True
     if re.search(r"cevirisi olabilecek|cevrildigi biliniyor|adiyla cevrilmis|turkcesi .*bellekten|buyuk olasilikla .*cevirisidir", ku): return None
     return False
@@ -122,7 +123,7 @@ if os.path.exists(ust_p) and os.path.exists(alt_p):
     satir = [f"- `{a}`: {n} defter satırı" for a, n in alan.most_common(18)]
     deg = {"__KAYNAK_ALANLARI__": "\n".join(satir), "__TR_SAYI__": str(sum(1 for x in ozet if x[5] is True)), "__TRQ_SAYI__": str(sum(1 for x in ozet if x[5] is None)), "__ENV_SAYI__": str(say),
            "__ETIKET__": ", ".join(f"{sum(1 for x in ozet if x[7] == e)} [{e}]" for e in ["araştırma", "klinik", "popüler"]), "__DEFTER_SAYI__": str(len(glob.glob(K + "/defter/*.md"))),
-           "__TAKTIK__": ", ".join(f"{n} [{e}]" for e, n in [(e, len(re.findall(r"(?m)^### \\d+\\..*\\[" + e + r"\\]", oku(K + "/parcalar/rehber_R3.md")))) for e in ["araştırma", "klinik", "popüler"]]),
+           "__TAKTIK__": ", ".join(f"{n} [{e}]" for e, n in [(e, len(re.findall(r"(?m)^### \d+\..*\[" + e + r"\]", oku(K + "/parcalar/rehber_R3.md")))) for e in ["araştırma", "klinik", "popüler"]]),
            "__TRQ_SAYI__": str(sum(1 for x in ozet if x[5] is None))}
     alt = oku(alt_p); ust = oku(ust_p)
     for a_, b_ in deg.items(): alt = alt.replace(a_, b_); ust = ust.replace(a_, b_)

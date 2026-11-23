@@ -5,33 +5,33 @@
 
 **Ne kontrol edildi.** Her yazar ajan, metninin yanında bir iddia defteri tuttu: iddia, kaynağın adresi ve kısa bir alıntı. Sonra 27 doğrulayıcı ajan bu defterlerden toplam 672 iddiayı kaynağından yeniden kontrol etti:
 
-- 488'i doğru çıktı.
-- 117'si düzeltildi; düzeltmeler metinlere yerinde işlendi. Bunların yaklaşık yarısı yanlışın düzeltilmesi, yarısı "doğrulanmadı" diye bırakılmış bir bilginin (yayınevi, sayfa sayısı, yıl) tamamlanmasıdır.
-- 67'si doğrulanamadı; bunlar metinde "(doğrulanmadı)" işaretiyle duruyor.
+- 491'i doğru çıktı.
+- 115'i düzeltildi; düzeltmeler metinlere yerinde işlendi. Bunların yaklaşık yarısı yanlışın düzeltilmesi, yarısı "doğrulanmadı" diye bırakılmış bir bilginin (yayınevi, sayfa sayısı, yıl) tamamlanmasıdır.
+- 65'i doğrulanamadı, 1'i kısmen doğrulandı; bunlar metinde "(doğrulanmadı)" işaretiyle duruyor.
 
-**Rehber.** Dört bölümden 82 iddia örneklendi. Taktikler bölümünde hata oranı yüzde 15 çıktı. Protokolün eşiği yüzde 10 olduğu için bölümün kalan 23 köken cümlesi de kontrol edildi; bir hata daha bulundu (Sweet'in 2019 makalesinin yöntemi). Rehberde toplam 105 iddia kontrol edildi, 12'si düzeltildi.
+**Rehber.** Dört bölümden 82 iddia örneklendi. Taktikler bölümünde hata oranı yüzde 15 çıktı. Protokolün eşiği yüzde 10 olduğu için bölümün kalan 23 köken cümlesi de kontrol edildi; bir hata daha bulundu (Sweet'in 2019 makalesinin yöntemi). Rehberde toplam 105 iddia kontrol edildi, 11'i düzeltildi.
 
 **Kitaplar, iki tur.**
 
-- *Örneklem:* 12 doğrulayıcı 124 kitaptan 340 iddia seçti. 12 grubun 9'unda hata oranı eşiği aştı. Hatalar iki yerde toplandı: Türkçe baskı satırları ve yazarların "bellekten" yazdığı satırlar.
-- *Tam kontrol:* Türkçe baskı dışında da eşiği aşan 10 defterin kalan satırlarının hepsi kontrol edildi: 10 doğrulayıcı, 227 iddia, 38 düzeltme. Bu defterlerde kontrol edilmemiş satır kalmadı; kaynağı bulunamayanlar metinde işaretli. Öteki 14 defterde Türkçe baskı dışı hata oranı eşiğin altındaydı; onlar örneklemle kontrol edildi.
+- *İlk tur:* Her yazar grubunun defterinden iddialar seçilip kontrol edildi: 12 doğrulayıcı, 124 kitaptan 340 iddia. 12 kümenin 9'unda yanlış çıkan iddia onda birden fazlaydı. Yanlışlar iki yerde toplandı: Türkçe baskı bilgileri ve yazarların kaynağa bakmadan, bellekten yazdığı cümleler.
+- *İkinci tur:* Türkçe baskı dışında da yanlışı onda birden fazla olan 10 grubun bütün iddiaları kontrol edildi: 10 doğrulayıcı, 227 iddia, 37 düzeltme. Bu gruplarda kontrol edilmemiş iddia kalmadı; kaynağı bulunamayanlar metinde işaretli. Öteki 14 grupta Türkçe baskı dışındaki yanlışlar onda birin altındaydı; onlar yalnızca ilk turda kontrol edildi.
 
 **Öne çıkan düzeltmeler.**
 
-- Kassin'in "2026'da emekli olduğu" bilgisi uydurmaydı; çıkarıldı.
+- Kassin'in "2026'da emekli olduğu" yazıyordu; bu yıl hiçbir kaynakta görülmedi ve çıkarıldı (bugün emeritus profesör).
 - "Gaslighting" teriminin psikiyatri yazınındaki kullanımı 1980'lerde değil, 1969'da başlıyor (Barton ve Whitehead, *Lancet*).
 - Ekman'ın *Yalan Söylediğimi Nasıl Anladın?!* kitabı *Telling Lies*'ın değil, *Emotions Revealed*'ın çevirisi. Porter ve ten Brinke'nin (2008) bulgusu da düzeltildi: mikro ifadeler yalnızca yüzde 2 oranında görülüyor, o da yüzün yalnızca yarısında.
 - Bandler ve Grinder'ın kitabında Chomsky ile Bateson'un adı geçmiyor. Fobi tekniği "geri sarma" değil, "iki aşamalı ayrışma".
 - Browning: Józefów'da öldürmeye katılmayanların oranı "belki yüzde 10, en fazla yüzde 20".
 - de Becker bölümündeki "kırk mesajdan sonra" örneği kaynakta yok; çıkarıldı.
-- Brignull bölümündeki Türkiye düzenlemesi kesinleşti. Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'nde yapılan değişiklik 1 Temmuz 2026'da Resmî Gazete'de yayımlandı, 1 Ağustos 2026'da yürürlüğe girdi.
+- Brignull bölümündeki Türkiye düzenlemesinin tarihleri haberlerden doğrulandı: Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'ndeki değişiklik 1 Temmuz 2026'da Resmî Gazete'de yayımlandı, 1 Ağustos 2026'da yürürlüğe girdi. Karanlık tasarımları hangi maddeyle kapsadığı görülmedi.
 - Łobaczewski'nin *Political Ponerology*'sinin ilk İngilizce basımı 1998'de değil, 2006'da yapıldı (Red Pill Press).
 - Forward'ın *Toxic Parents*'ının Türkçesi *Zehirli Ana Babalar* değil, *Zor Bir Ailede Büyümek* (İletişim).
 - Stout'un *The Sociopath Next Door*'unun Türkçesi yok. Türkçede çıkan, onun devam kitabı: *Yanı Başınızdaki Sosyopatı Alt Etmek*.
 
 **Küçük programlarla yapılan toplu kontroller.**
 
-- *Türkçe baskılar:* İlk tarama D&R ve Kitapseç kataloglarında yazar soyadıyla yapıldı. Doğrulayıcılar bu taramanın birçok çeviriyi kaçırdığını gösterdi; örneğin Hare'in *Vicdansızlar*'ı, Herman'ın *Travma ve İyileşme*'si ve Stern'ün *Gaslight Etkisi*. Bu yüzden 124 kitabın yazarı, tükenmiş baskıları da gösteren bkmkitap kataloğunda tam adıyla yeniden tarandı. 62 yazarın en az bir Türkçe kitabı çıktı ve 16 kitabın Türkçe baskı bilgisi düzeltildi ya da eklendi. Örnekler: Snyder *Görünmeyen Yaralar*, Simons ve Chabris *Külyutmaz*, Campbell ve Crist *Yeni Narsisizm Bilimi*, Freyd *İhanete Kör Olmak*, Strauss *Oyun*. Doğrulayıcılar da yaklaşık 25 kitabın Türkçe künyesini düzeltti ya da tamamladı. Sonuçta 124 kitabın __TR_SAYI__'sında Türkçe baskı künyede adıyla yazılı. Tarama tablosu `ek/dogrulama/turkce_karsilastirma.md` dosyasında.
+- *Türkçe baskılar:* İlk tarama D&R ve Kitapseç kataloglarında yazar soyadıyla yapıldı. Doğrulayıcılar bu taramanın birçok çeviriyi kaçırdığını gösterdi; örneğin Hare'in *Vicdansızlar*'ı, Herman'ın *Travma ve İyileşme*'si ve Stern'ün *Gaslight Etkisi*. Bu yüzden 124 kitabın yazarı, tükenmiş baskıları da gösteren bkmkitap kataloğunda tam adıyla yeniden tarandı. 62 yazarın en az bir Türkçe kitabı çıktı ve 16 kitabın Türkçe baskı bilgisi düzeltildi ya da eklendi. Örnekler: Snyder *Görünmeyen Yaralar*, Simons ve Chabris *Külyutmaz*, Campbell ve Crist *Yeni Narsisizm Bilimi*, Freyd *İhanete Kör Olmak*, Strauss *Oyun*. Doğrulayıcılar da yaklaşık 25 kitabın Türkçe künyesini düzeltti ya da tamamladı. Sonuçta Türkçe baskısı künyede adıyla yazılı kitap sayısı 124'te __TR_SAYI__; çeviri eşleşmesi kesinleşmeyen __TRQ_SAYI__ kitap ayrıca (TR?) ile işaretli. Tarama tablosu `ek/dogrulama/turkce_karsilastirma.md` dosyasında.
 - *Envanter:* __OL__
 - *Bağlantılar:* Defterlerdeki ve doğrulama notlarındaki 741 bağlantı tek bir programla denendi:
   - 651'i açıldı.
@@ -43,8 +43,8 @@
 **Açık kalanlar.**
 
 1. Çoğu kitapta Türkçe çevirmen adı ve ilk Türkçe baskı yılı doğrulanmadı.
-2. Üç çeviri eşleşmesi kesinleşmedi; katalogda özgün ad yazmıyor ve eşleşme yazar adına, konuya ve Türkçe ada dayanıyor:
-   - Ekman'ın *Ne Düşündüğünü Biliyorum*'u büyük olasılıkla *Telling Lies*'tır; listede (TR?) işaretli.
+2. Üç çeviri eşleşmesi kesinleşmedi; katalogda özgün ad yazmıyor ve eşleşme yazar adına, konuya ve Türkçe ada dayanıyor. Üçü de listede (TR?) ile işaretli:
+   - Ekman'ın *Ne Düşündüğünü Biliyorum*'u büyük olasılıkla *Telling Lies*'tır.
    - Hill'in *Kadının Hiç Suçu Yok*'u.
    - Hogan'ın *Gizli İkna Taktikleri*.
 3. İkinci katmanda bazı bölüm adları, kitap içi sayılar ve alıntılar işaretli yerlerde doğrulanmadı. Örnekler: Cooper'ın okur yorumları, Wylie'nin birkaç alıntısı, Brignull'ün kısım adları, Carnes'ın travma bağı sayısı.
