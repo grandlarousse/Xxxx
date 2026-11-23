@@ -33,7 +33,12 @@
 
 - *Türkçe baskılar:* İlk tarama D&R ve Kitapseç kataloglarında yazar soyadıyla yapıldı. Doğrulayıcılar bu taramanın birçok çeviriyi kaçırdığını gösterdi; örneğin Hare'in *Vicdansızlar*'ı, Herman'ın *Travma ve İyileşme*'si ve Stern'ün *Gaslight Etkisi*. Bu yüzden 124 kitabın yazarı, tükenmiş baskıları da gösteren bkmkitap kataloğunda tam adıyla yeniden tarandı. 62 yazarın en az bir Türkçe kitabı çıktı ve 16 kitabın Türkçe baskı bilgisi düzeltildi ya da eklendi. Örnekler: Snyder *Görünmeyen Yaralar*, Simons ve Chabris *Külyutmaz*, Campbell ve Crist *Yeni Narsisizm Bilimi*, Freyd *İhanete Kör Olmak*, Strauss *Oyun*. Doğrulayıcılar da yaklaşık 25 kitabın Türkçe künyesini düzeltti ya da tamamladı. Sonuçta 124 kitabın __TR_SAYI__'sında Türkçe baskı künyede adıyla yazılı. Tarama tablosu `ek/dogrulama/turkce_karsilastirma.md` dosyasında.
 - *Envanter:* __OL__
-- *Bağlantılar:* __LINK__
+- *Bağlantılar:* Defterlerdeki ve doğrulama notlarındaki 741 bağlantı tek bir programla denendi:
+  - 651'i açıldı.
+  - 50'si otomatik erişimi reddetti ya da çok sık istek uyarısı verdi; bunların 18'i dergi makalelerine yönlendiren doi.org adresleri.
+  - 31'ine bağlanılamadı ve 2'si sunucu hatası verdi.
+  - 7'si bulunamadı. Biri, program adresi parantezde kestiği için açılmayan bir DOI'dir. Kalan 6'sı: New York Journal of Books'un iki incelemesi, Oakland Üniversitesi'nin bir PDF'i, bir Psychology Today yazısı, Europe PMC'nin ana sayfası ve Emerge'ün tanıtım sayfası.
+  Sonuç `ek/dogrulama/link_kontrol.csv` dosyasında.
 
 **Açık kalanlar.**
 
