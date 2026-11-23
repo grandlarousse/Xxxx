@@ -6,7 +6,7 @@
 
 **Bağlam.** Strauss 2001'de bir makale için baştan çıkarma topluluğuna (seduction community) rastladı, kendi ilişki hayatındaki hayal kırıklığıyla içine girdi. 2004'te The New York Times'ta takma adla bir yazı yayımladı, ertesi yıl kitabı. Kitap iki ay New York Times çok satanlar listesinde kaldı ve pickup tekniklerini geniş kitleye tanıttı.
 
-**Yapısı.** Kitap anı biçiminde, kronolojik ilerler. Strauss'un "Mystery" adlı eğitmenin kampına katılması, teknikleri öğrenmesi, "Style" olarak ünlenmesi, ardından Mystery ve diğer eğitmenlerle birlikte yaşadıkları "Project Hollywood" malikânesi ve bu ortak hayatın kıskançlık ve çatışmayla çöküşü anlatılır. Bölümlerin Mystery yönteminin aşamalarına göre "Step 1, Step 2…" diye adlandırıldığı biliniyor (bölüm sayısı ve adları doğrulanmadı).
+**Yapısı.** Kitap anı biçiminde, kronolojik ilerler. Strauss'un "Mystery" adlı eğitmenin kampına katılması, teknikleri öğrenmesi, "Style" olarak ünlenmesi, ardından Mystery ve diğer eğitmenlerle birlikte yaşadıkları "Project Hollywood" malikânesi ve bu ortak hayatın kıskançlık ve çatışmayla çöküşü anlatılır. Bölümlerin Mystery yönteminin aşamalarına göre "Step 1, Step 2…" diye adlandırıldığı bellekten biliniyor; bölüm sayısı ve adları doğrulanmadı.
 
 **Ana fikirler.**
 - *Sistemleştirilmiş tavlama.* Topluluk, tanışmayı ezberlenmiş açılış cümleleri, "değer gösterme" hikâyeleri ve aşamalı fiziksel temas planına indirger. Kişi bir "hedef" olarak görülür; dil askerî ve sporcudur.
