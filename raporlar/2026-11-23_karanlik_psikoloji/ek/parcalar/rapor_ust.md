@@ -101,4 +101,4 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 
 ## 124 kitabın listesi
 
-★ işareti çekirdek katmanı (yaklaşık 1.000 kelime), işaretsizler ikinci katmanı (yaklaşık 550 kelime) gösterir. *(TR)*, Türkçe baskısı künyede adıyla yazılı olan kitaplardır (__TR_SAYI__ kitap). *(TR?)*, Türkçesi olduğu bilinen ama bu oturumda doğrulanamayan kitaplardır (__TRQ_SAYI__ kitap). Köşeli parantez kitabın kanıt düzeyidir.
+★ işareti çekirdek katmanı (yaklaşık 1.000 kelime), işaretsizler ikinci katmanı (yaklaşık 550 kelime) gösterir. *(TR)*, Türkçe baskısı künyede adıyla yazılı olan kitaplardır (__TR_SAYI__ kitap). *(TR?)*, Türkçe çevirisi büyük olasılıkla bulunan ama eşleşmesi kesinleşmeyen kitaplardır (__TRQ_SAYI__ kitap). Köşeli parantez kitabın kanıt düzeyidir.

@@ -1,6 +1,6 @@
 ## W. Keith Campbell ve Carolyn Crist — The New Science of Narcissism (The New Science of Narcissism: Understanding One of the Greatest Psychological Challenges of Our Time—and What You Can Do About It, 2020)
 
-**Künye.** W. Keith Campbell, Georgia Üniversitesi Psikoloji Bölümü'nde profesör olan bir sosyal psikologdur; narsisizm üzerine 120'den fazla hakemli makalesi vardır. Carolyn Crist sağlık ve bilim gazetecisidir. Özgün dili İngilizce. Sounds True Eylül 2020'de yayımladı. Hacmi 304 sayfa; sesli kitap yaklaşık 9 saat 17 dakikadır. Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** W. Keith Campbell, Georgia Üniversitesi Psikoloji Bölümü'nde profesör olan bir sosyal psikologdur; narsisizm üzerine 120'den fazla hakemli makalesi vardır. Carolyn Crist sağlık ve bilim gazetecisidir. Özgün dili İngilizce. Sounds True Eylül 2020'de yayımladı. Hacmi 304 sayfa; sesli kitap yaklaşık 9 saat 17 dakikadır. Türkçe baskı: *Yeni Narsisizm Bilimi* (Okuyan Us Yayınları, 358 sayfa; bkmkitap kaydı; Türkçe ad özgün adın karşılığıdır).
 
 **Bir cümleyle.** Narsisizm çoğu zaman bir bozukluk değil, herkeste değişen düzeyde bulunan bir kişilik özelliğidir ve güncel bilim onu tek değil birkaç farklı biçimde görür.
 

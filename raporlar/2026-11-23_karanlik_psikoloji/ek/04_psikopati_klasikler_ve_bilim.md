@@ -123,7 +123,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Martha Stout — The Sociopath Next Door (The Sociopath Next Door: The Ruthless Versus the Rest of Us, 2005)
 
-**Künye.** Martha Stout (d. 1953) Amerikalı bir klinik psikologdur; doktorasını Stony Brook Üniversitesi'nde yapmış, 25 yılı aşkın süre Harvard Tıp Fakültesi'nin klinik kadrosunda yer almıştır. Boston'da muayenehanesi vardır ve travma, travma sonrası stres bozukluğu ve intihar alanında çalışır; yani kitabı bir araştırmacı olarak değil, travma mağdurlarını dinleyen bir terapist olarak yazar. Özgün dil İngilizce, ilk yayın Şubat 2005 (Broadway Books). Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 256 sayfa. Kitap 2005'te "Books for a Better Life" ödülünü psikoloji dalında aldı.
+**Künye.** Martha Stout (d. 1953) Amerikalı bir klinik psikologdur; doktorasını Stony Brook Üniversitesi'nde yapmış, 25 yılı aşkın süre Harvard Tıp Fakültesi'nin klinik kadrosunda yer almıştır. Boston'da muayenehanesi vardır ve travma, travma sonrası stres bozukluğu ve intihar alanında çalışır; yani kitabı bir araştırmacı olarak değil, travma mağdurlarını dinleyen bir terapist olarak yazar. Özgün dil İngilizce, ilk yayın Şubat 2005 (Broadway Books). Bu kitabın Türkçe baskısı D&R, Kitapseç ve bkmkitap kataloglarında görünmüyor; yazarın 2020 tarihli devam kitabı *Outsmarting the Sociopath Next Door* ise *Yanı Başınızdaki Sosyopatı Alt Etmek* adıyla çıktı (Terapi Kitap, 275 sayfa; bkmkitap kaydı). Hacim: 256 sayfa. Kitap 2005'te "Books for a Better Life" ödülünü psikoloji dalında aldı.
 
 **Bir cümleyle.** Her 25 kişiden biri vicdandan yoksundur; bu kişiler çoğu zaman suçlu değil, sıradan komşu, iş arkadaşı ya da eştir ve onları tanımak, en çok da acıma duygumuzu sömürdüklerinde fark etmek gerekir.
 
@@ -345,7 +345,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Christopher J. Patrick (ed.) — Handbook of Psychopathy (Handbook of Psychopathy, 2006)
 
-**Künye.** Christopher J. Patrick, psikopatiyi psikofizyoloji ve kişilik ölçümüyle inceleyen Amerikalı bir klinik psikolog ve akademisyendir; Florida State Üniversitesi'nde profesördür (bellekten, doğrulanmadı). Kitap bir derlemedir: her bölümü farklı uzmanlar yazar, Patrick editördür. Dili İngilizce, yayınevi Guilford Press. İlk baskı 2006 (ilk baskının bir incelemesi Eylül 2006'da çıktı); ikinci baskı 2018'de, yayınevinin deyişiyle "%65'ten fazla yeni malzemeyle" yayımlandı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: ikinci baskı 828 sayfa, 31 bölüm.
+**Künye.** Christopher J. Patrick, psikopatiyi psikofizyoloji ve kişilik ölçümüyle inceleyen Kanadalı bir klinik psikolog ve akademisyendir; Florida State Üniversitesi'nde profesördür. Kitap bir derlemedir: her bölümü farklı uzmanlar yazar, Patrick editördür. Dili İngilizce, yayınevi Guilford Press. İlk baskı 2006 (ilk baskının bir incelemesi Eylül 2006'da çıktı); ikinci baskı 2018'de, yayınevinin deyişiyle "%65'ten fazla yeni malzemeyle" yayımlandı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: ikinci baskı 828 sayfa, 31 bölüm.
 
 **Bir cümleyle.** Psikopati, ölçülebilen, kökenleri ve mekanizmaları araştırılabilen, tek bir özellik değil birkaç bileşenden oluşan bir kişilik bozukluğudur; bu kitap o araştırmanın bugünkü durumunu bir araya getirir.
 
@@ -356,7 +356,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 **Ana fikirler.**
 - **Maskeli patoloji.** Patrick'in açılış bölümü, Cleckley'nin "akıl sağlığı maskesi" fikrinden yola çıkar: psikopatik kişi dışarıdan sağlıklı ve çekici görünür, sorun yüzeyin altındadır. Kitabın geri kalanı bu maskenin neyi sakladığını sorar.
 - **Ölçme tartışması.** Hare ve arkadaşlarının bölümü Psikopati Kontrol Listesi–Gözden Geçirilmiş'i (PCL-R) anlatır. Başka bölümler görüşmeye dayalı ölçümle öz-bildirim ölçeklerini karşılaştırır ve her yöntemin tuzaklarını gösterir.
-- **Psikopati tek parça değildir.** Kitap, psikopatiyi ayrı yüzlere böler: ketlenmezliğe yatkınlık (dürtüsellik), duygusuz-soğuk özellikler ve gözü peklik (boldness). Bu, Patrick'in arkadaşlarıyla geliştirdiği Üçlü Model'in (gözü peklik, acımasızlık, ketlenmezlik) zeminidir (modelin 2009 tarihi bellekten, doğrulanmadı).
+- **Psikopati tek parça değildir.** Kitap, psikopatiyi ayrı yüzlere böler: ketlenmezliğe yatkınlık (dürtüsellik), duygusuz-soğuk özellikler ve gözü peklik (boldness). Bu, Patrick'in arkadaşlarıyla geliştirdiği Üçlü Model'in (gözü peklik, acımasızlık, ketlenmezlik) zeminidir (model ilk kez 2009'da tanımlandı).
 - **Alt tipler.** Birincil psikopati (mizaçtan, düşük kaygıyla gelen) ile ikincil psikopati (kaygılı, öfkeli, çoğu zaman zor koşullarla bağlantılı) ayrımı ayrı bir bölümde tartışılır.
 - **Nedenler çok katmanlıdır.** Genetik ve çevre, aile geçmişi, beyin yapısı ve işlevi, bilişsel ve duygusal işlemleme ayrı bölümlerde ele alınır; tek bir "psikopat geni" ya da tek bir beyin bölgesi önerilmez.
 - **Başarılı psikopati ve tedavi.** Suç işlemeyen, toplumda yükselen psikopatik özellikli kişiler ve tedavinin gerçekten işe yarayıp yaramadığı, eski "tedavi edilemez" kanısını sorgulayan bölümlerde incelenir.
@@ -392,7 +392,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 **Karanlık psikoloji haritasındaki yeri.** Rehberdeki psikopati, birincil psikopati ve duygusuz-soğuk özellikler kavramlarının sinirbilim temelidir. Aynı zamanda ahlaki bağlantısızlık için önemli bir ayrım sunar: psikopatik birey zarar verdiğini bilir ama bunu "hissetmez". Bu da ilişkideki kişinin acısına kayıtsız kalan sessiz muamele ve zorlayıcı denetim gibi davranışların neden "pişmanlıksız" sürdüğünü anlamaya yardım eder. Viding'in kitabı (bu listede) bu modeli çocuklara taşır; Lykken'in korkusuzluk kuramı (bu listede) ise modelin atasıdır.
 
-**Eleştiri ve sınırlar.** Rakip görüş, Joseph Newman'ın tepki ayarlama (response modulation) kuramıdır: sorun korkunun yokluğu değil, dikkatin dar odaklanmasıdır; dikkat yönlendirildiğinde korku tepkisi normale yaklaşabilir (Baskin-Sommers, Curtin ve Newman, 2011; bellekten). Kent Kiehl ise yalnız amigdalanın değil daha geniş bir "paralimbik" ağın bozulduğunu savunur (2006; bellekten). Çalışmaların çoğu erkek mahkûm ve çocuk örneklemlerine dayanır. 2005'ten sonra beyin görüntüleme literatürü çok büyüdüğü için kitabın ayrıntıları eskimiştir.
+**Eleştiri ve sınırlar.** Rakip görüş, Joseph Newman'ın tepki ayarlama (response modulation) kuramıdır: sorun korkunun yokluğu değil, dikkatin dar odaklanmasıdır; dikkat yönlendirildiğinde korku tepkisi normale yaklaşabilir (Baskin-Sommers, Curtin ve Newman, 2011). Kent Kiehl ise yalnız amigdalanın değil daha geniş bir "paralimbik" ağın bozulduğunu savunur (2006; doğrulanmadı). Çalışmaların çoğu erkek mahkûm ve çocuk örneklemlerine dayanır. 2005'ten sonra beyin görüntüleme literatürü çok büyüdüğü için kitabın ayrıntıları eskimiştir.
 
 **Kimler okumalı.** Psikopatinin beyinde neye karşılık geldiğini merak eden, temel düzeyde psikoloji bilgisi olan okurlar için uygundur; dili teknik ama yoğun değildir. Beyin bulgularını tek tek kişilere uygulamak (birinin "amigdalası bozuk" demek) bilimsel değildir.
 
@@ -481,7 +481,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Stanton E. Samenow — Suçlular Nasıl Düşünür? (Inside the Criminal Mind, 1984)
 
-**Künye.** Stanton E. Samenow (1941–2023) Amerikalı klinik psikologdu. 1970–1978 arasında Washington'daki St. Elizabeths Hastanesi'nde psikiyatrist Samuel Yochelson'la birlikte suç davranışı araştırma programında çalıştı, sonra Virginia'da adli psikoloji alanında özel muayenehane açtı; ABD Başkanlığı'nın Suç Mağdurları Görev Gücü'nde de yer aldı. Kitabın dili İngilizce, ilk yayınevi Times Books, ilk yayın 1984. Gözden geçirilmiş baskıları 2004 (Crown) ve 2014'te çıktı. Türkçe baskı: *Suçlular Nasıl Düşünür?*, yayınevi katalogda belirtilmemiş (kitapçı kataloğu). Hacim: ilk baskı 285 sayfa.
+**Künye.** Stanton E. Samenow (1941–2023) Amerikalı klinik psikologdu. 1970–1978 arasında Washington'daki St. Elizabeths Hastanesi'nde psikiyatrist Samuel Yochelson'la birlikte suç davranışı araştırma programında çalıştı, sonra Virginia'da adli psikoloji alanında özel muayenehane açtı; ABD Başkanlığı'nın Suç Mağdurları Görev Gücü'nde de yer aldı. Kitabın dili İngilizce, ilk yayınevi Times Books, ilk yayın 1984. Gözden geçirilmiş baskıları 2004 (Crown) ve 2014'te çıktı. Türkçe baskı: *Suçlular Nasıl Düşünür?*, Fol Yayınları, 2023, çeviren Kadir Gülen. Hacim: ilk baskı 285 sayfa.
 
 **Bir cümleyle.** Suçu kötü mahalleler, yetersiz anne babalar, televizyon ya da işsizlik değil suçlular yaratır; suç, belirli düşünce kalıplarına sahip insanların bilinçli seçimidir ve ancak bu düşünce kalıpları değiştirilerek azaltılabilir.
 

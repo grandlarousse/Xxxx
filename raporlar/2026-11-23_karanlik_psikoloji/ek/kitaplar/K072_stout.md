@@ -1,6 +1,6 @@
 ## Martha Stout — Outsmarting the Sociopath Next Door (Outsmarting the Sociopath Next Door: How to Protect Yourself Against a Ruthless Manipulator, 2020)
 
-**Künye.** Martha Stout (d. 1953) Amerikalı klinik psikologdur; 25 yılı aşkın süre Harvard Tıp Fakültesi psikiyatri bölümünde klinik kadroda yer almış, travma alanında terapist olarak çalışmıştır. Özgün dil İngilizce; ilk yayın Nisan 2020, Harmony Books. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 294 sayfa.
+**Künye.** Martha Stout (d. 1953) Amerikalı klinik psikologdur; 25 yılı aşkın süre Harvard Tıp Fakültesi psikiyatri bölümünde klinik kadroda yer almış, travma alanında terapist olarak çalışmıştır. Özgün dil İngilizce; ilk yayın Nisan 2020, Harmony Books. Türkçe baskı: *Yanı Başınızdaki Sosyopatı Alt Etmek* (Terapi Kitap, 275 sayfa; bkmkitap kaydı; Türkçe ad özgün adın karşılığıdır). Hacim: 294 sayfa.
 
 **Bir cümleyle.** Vicdansız biriyle (sosyopat) karşılaşan sıradan insan, duygusal tepkisini esirgeyerek, müttefik toplayarak ve kendi gerçekliğine tutunarak bu kişiyi alt edebilir.
 

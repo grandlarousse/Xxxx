@@ -16,11 +16,11 @@
 2. **Bir ilişkide manipülasyon ya da istismar yaşadığından şüpheleniyorsan:** önce rehberin 3. bölümü (taktikler) ve 4. bölümündeki "Korunma" ile "Hukuk ne der?" kısımları. Kitaplardan Bancroft'un *Why Does He Do That?*, Stark'ın *Coercive Control*, Fontes'in *Invisible Chains*, Stern'ün *Gaslight Etkisi* ve Forward'ın *Duygusal Şantaj*'ı (`ek/07`, `ek/08`). Kitap yardımın yerine geçmez: Türkiye'de ALO 183 (7/24, ücretsiz), KADES uygulaması ve acil hatlar (112, 155, 156) var; ayrıntısı rehberde.
 3. **Narsisistik bir ebeveyn ya da partnerle uğraşıyorsan:** McBride (*Boş Ayna*), Behary (*Narsistle Ateşkes*), Durvasula (*It's Not You*; Türkçesi *Bozuk Ayna*) ve Golomb. Karşı ses olarak Dombek'in *The Selfishness of Others*'ını da oku: "herkes narsist" söylemini eleştiriyor (`ek/06`).
 4. **İnsanların nasıl kötülük yaptığını anlamak istiyorsan:** Baumeister'ın *Evil*, Browning'in *Ordinary Men*, Arendt'in *Kötülüğün Sıradanlığı* ve ona en güçlü itiraz olan Stangneth (`ek/03`). Zimbardo'nun *Şeytan Etkisi*'ni Stanford deneyine yönelik eleştirilerle birlikte oku.
-5. **Dolandırıcılıktan ve yanlış bilgiden korunmak istiyorsan:** Simons ve Chabris'in *Nobody's Fool*, Levine'in *Duped*, van der Linden'in *Foolproof* (Türkçesi *Dezenformasyona Karşı Bağışıklık*), Shadel ve Holmes (`ek/09`, `ek/10`).
+5. **Dolandırıcılıktan ve yanlış bilgiden korunmak istiyorsan:** Simons ve Chabris'in *Nobody's Fool*'u (Türkçesi *Külyutmaz*, Say), Levine'in *Duped*, van der Linden'in *Foolproof* (Türkçesi *Dezenformasyona Karşı Bağışıklık*), Shadel ve Holmes (`ek/09`, `ek/10`).
 6. **Raftaki bir "karanlık psikoloji" kitabını almadan önce:** rehberin 4. bölümü ile `ek/11` dosyasındaki iki tür profilini oku: biri İngilizce kendi-yayını kitaplar, öteki Türkçe raf. Yazarın kim olduğu belli mi, kaynak gösteriyor mu, vaadi ne? Bu üç soru çoğu kitabı eler.
 7. **Türkçe yazılmış kitaplar:** Tülüce'nin *Karanlık Empat*'ı (Destek, 2023), Tarhan'ın *Kötülük Psikolojisi ve Toksik İlişkiler*'i (Timaş) ve Tınaz'ın mobbing kitabı (Beta, 2006) (`ek/11`).
 
-Kitap satın almadan önce künye paragrafına bak. Türkçe baskı bilgisi D&R ve Kitapseç kataloglarının taranmasından gelir; yalnızca satıştaki baskıları gösterir. Bu kataloglarda görünmeyen bir kitabın Türkçesi başka yerde ya da sahafta bulunabilir.
+Kitap satın almadan önce künye paragrafına bak. Türkçe baskı bilgisi üç kitapçı kataloğunun (D&R, Kitapseç, bkmkitap) yazar adıyla taranmasından ve doğrulayıcıların aramalarından gelir. Bu taramalar tükenmiş eski baskıları kaçırabilir; "Türkçesi görünmüyor" yazan bir kitabın çevirisi sahafta bulunabilir.
 
 Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kullanma. "O bir narsist" demek yerine davranışı adlandır: "beni sürekli küçümsüyor", "param üzerinde denetim kuruyor". Ne yapacağını davranış belirler, etiket değil.
 
@@ -101,7 +101,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 
 ## 124 kitabın listesi
 
-★ işareti çekirdek katmanı (yaklaşık 1.000 kelime), işaretsizler ikinci katmanı (yaklaşık 550 kelime) gösterir. *(TR)*, Türkçe baskısı künyede adıyla yazılı olan kitaplardır (32 kitap). *(TR?)*, Türkçesi olduğu bilinen ama bu oturumda doğrulanamayan kitaplardır (4 kitap). Köşeli parantez kitabın kanıt düzeyidir.
+★ işareti çekirdek katmanı (yaklaşık 1.000 kelime), işaretsizler ikinci katmanı (yaklaşık 550 kelime) gösterir. *(TR)*, Türkçe baskısı künyede adıyla yazılı olan kitaplardır (46 kitap). *(TR?)*, Türkçe çevirisi büyük olasılıkla bulunan ama eşleşmesi kesinleşmeyen kitaplardır (1 kitap). Köşeli parantez kitabın kanıt düzeyidir.
 
 **Karanlık kişiliğin bilimi** (`ek/02_karanlik_kisiligin_bilimi.md`)
 
@@ -114,7 +114,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - **Adrian Furnham — The Elephant in the Boardroom** [araştırma]: Yetenekli yöneticiler çoğu zaman beceri eksikliğinden değil, kişiliklerinin karanlık yanları yüzünden raydan çıkar; herkes bunu görür ama kimse söylemez.
 - **Simon McCarthy-Jones — Spite** [araştırma]: Kin (spite), yani kendine de zarar pahasına başkasına zarar verme isteği, yalnızca yıkıcı değildir; adalet duygusunun ve sömürüye direncin de kaynağıdır.
 - **Albert Bandura — Moral Disengagement** [araştırma]: Sıradan, vicdanlı insanlar ahlaki öz denetimlerini seçici olarak devre dışı bırakan zihinsel mekanizmalar sayesinde zarar verebilir ve yine de kendileriyle barış içinde yaşayabilir.
-- **W. Keith Campbell ve Carolyn Crist — The New Science of Narcissism** [araştırma]: Narsisizm çoğu zaman bir bozukluk değil, herkeste değişen düzeyde bulunan bir kişilik özelliğidir ve güncel bilim onu tek değil birkaç farklı biçimde görür.
+- **W. Keith Campbell ve Carolyn Crist — The New Science of Narcissism** *(TR)* [araştırma]: Narsisizm çoğu zaman bir bozukluk değil, herkeste değişen düzeyde bulunan bir kişilik özelliğidir ve güncel bilim onu tek değil birkaç farklı biçimde görür.
 
 **Kötülüğün psikolojisi** (`ek/03_kotulugun_psikolojisi.md`)
 
@@ -125,7 +125,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - **Ervin Staub — The Roots of Evil** [araştırma]: Soykırım bir anda patlamaz: zor yaşam koşulları, belli kültürel yatkınlıklar ve seyircilerin sessizliği bir araya geldiğinde, toplum küçük adımlarla giderek büyüyen bir yıkıma kayar.
 - **James Waller — Becoming Evil** [araştırma]: Soykırımı deliler ya da tuhaf kültürler değil, belli koşullarda sıradan insanlar yapar; bu, evrimsel yatkınlıklar, kişilik ve yakın sosyal bağlamın birlikte işlediği bir modelle açıklanabilir.
 - **David Livingstone Smith — Less Than Human** [araştırma]: İnsanlar başka insanları köleleştirmeden ya da öldürmeden önce çoğu zaman onları “gerçekte insan olmayan” bir öze sahip sayar; bu insanlıktan çıkarma (dehumanization) en büyük vahşetlerin psikolojik anahtarıdır.
-- **Erich Fromm — İnsandaki Yıkıcılığın Kökenleri** *(TR?)* [klinik]: İnsan saldırganlığının yaşamı koruyan biyolojik bir türü vardır, ama zulüm ve yıkıcılık içgüdü değil, insanın varoluş koşullarından ve karakterinden doğan, yalnızca insana özgü tutkulardır.
+- **Erich Fromm — İnsandaki Yıkıcılığın Kökenleri** *(TR)* [klinik]: İnsan saldırganlığının yaşamı koruyan biyolojik bir türü vardır, ama zulüm ve yıkıcılık içgüdü değil, insanın varoluş koşullarından ve karakterinden doğan, yalnızca insana özgü tutkulardır.
 - **Bettina Stangneth — Eichmann vor Jerusalem** [araştırma]: Eichmann, Kudüs'teki duruşmada sergilediği sıradan, düşüncesiz bürokrat görüntüsünün tersine, Arjantin'deki gizli yazı ve konuşmalarında Nazi ideolojisine bağlı, yaptığıyla övünen bir fanatikti; Kudüs'teki görüntü ustaca bir maskeydi.
 - **Wendy Lower — Hitler's Furies** [araştırma]: Holokost'un doğu cephesinde Alman kadınları yalnızca uzaktan bakan eşler değildi; hemşire, öğretmen, sekreter ve eş olarak tanık, suç ortağı ve bazen bizzat katil oldular, ama savaştan sonra büyük ölçüde hesap vermediler.
 
@@ -155,7 +155,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - **Julia Shaw — Kötülük** *(TR)* [araştırma]: "Kötü" dediğimiz davranışların çoğu, sıradan insanlarda da bulunan beyin, kişilik ve durum etkenleriyle açıklanabilir. Kötülüğü anlamak için insanları "canavar" diye ayırmak yerine bu ortak mekanizmalara bakmak gerekir.
 - **M. Scott Peck — People of the Lie** [klinik]: Kötülük ciddiye alınması gereken gerçek bir olgudur. "Kötü" insanlar kendi kusurlarıyla yüzleşmek yerine yalan ve inkâra sığınır ve suçu başkasına, çoğu zaman da çocuklarına yükler. Peck'e göre bu örüntü psikiyatrik bir tanı olarak incelenmelidir.
 - **Clive R. Boddy — Corporate Psychopaths: Organizational Destroyers** [araştırma]: Üst yönetime tırmanan "kurumsal psikopatlar" (corporate psychopaths) zorbalık, çatışma ve kısa vadeli açgözlülükle kurumları içten çürütür; 2008 küresel mali krizi de kısmen onların eseridir.
-- **Martha Stout — Outsmarting the Sociopath Next Door** [klinik]: Vicdansız biriyle (sosyopat) karşılaşan sıradan insan, duygusal tepkisini esirgeyerek, müttefik toplayarak ve kendi gerçekliğine tutunarak bu kişiyi alt edebilir.
+- **Martha Stout — Outsmarting the Sociopath Next Door** *(TR)* [klinik]: Vicdansız biriyle (sosyopat) karşılaşan sıradan insan, duygusal tepkisini esirgeyerek, müttefik toplayarak ve kendi gerçekliğine tutunarak bu kişiyi alt edebilir.
 - **Sandra L. Brown — Women Who Love Psychopaths** [klinik]: Psikopatik partnerle uzun ilişkiye giren kadınlar zayıf ya da "bağımlı" değil, tersine güçlü bazı mizaç özellikleri taşır ve bu özellikler onları bu ilişkide hem çekici hem de savunmasız kılar.
 - **Andrew M. Łobaczewski — Political Ponerology** [popüler]: Totaliter rejimler, psikopatik ve benzeri kişilik bozukluğu taşıyan bir azınlığın toplumu ele geçirdiği "patokrasi" (pathocracy, hastalıklı kişilerin yönetimi) düzenleridir; kötülüğü bilimsel olarak inceleyen yeni bir alan, "ponoroloji" (ponerology, kötülük bilimi) gereklidir.
 - **Joe Navarro ve Toni Sciarra Poynter — Tehlikeli İnsanların Beden Dili** *(TR)* [popüler]: Zarar veren insanların çoğu birkaç tanınabilir kişilik örüntüsüne girer; davranışlarını kontrol listeleriyle erken fark eden kişi kendini koruyabilir.
@@ -164,9 +164,9 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 **Narsisizm** (`ek/06_narsisizm.md`)
 
 - ★ **Otto F. Kernberg — Sınır Durumlar ve Patolojik Narsisizm** *(TR)* [klinik]: Ağır kişilik sorunları, belirtilerle değil, kişinin iç dünyasının nasıl örgütlendiğiyle anlaşılır; patolojik narsisizm de "sağlıklı kendini sevme"nin abartısı değil, sevgiyi ve bağımlılığı inkâr eden, kıskançlık ve öfkeyle beslenen, yapısal olarak bozuk bir kendilik düzenidir.
-- ★ **Christopher Lasch — Narsisizm Kültürü** *(TR?)* [popüler]: İkinci Dünya Savaşı'ndan sonra Amerikan toplumu, klinik "patolojik narsisizm" tarifine uyan bir karakter tipi üretmiştir: suçluluktan çok kaygıyla yaşayan, başkalarının onayına bağımlı, geçmişle ve gelecekle bağını koparmış, anlık doyuma odaklı bir birey.
+- ★ **Christopher Lasch — Narsisizm Kültürü** *(TR)* [popüler]: İkinci Dünya Savaşı'ndan sonra Amerikan toplumu, klinik "patolojik narsisizm" tarifine uyan bir karakter tipi üretmiştir: suçluluktan çok kaygıyla yaşayan, başkalarının onayına bağımlı, geçmişle ve gelecekle bağını koparmış, anlık doyuma odaklı bir birey.
 - ★ **Jean M. Twenge ve W. Keith Campbell — Asrın Vebası: Narsisizm İlleti** *(TR)* [popüler]: ABD'de narsisizm, obezite gibi yayılan bir kültürel salgına dönüşmüştür; bunun kökü ebeveynlikte, ünlü ve medya kültüründe, internette ve kolay krediye dayalı tüketimdedir ve bu salgın bireyler ile toplum için ciddi zararlar doğurmaktadır.
-- ★ **Alice Miller — Yetenekli Çocuğun Dramı** *(TR?)* [klinik]: Annesinin ya da babasının duygusal ihtiyaçlarını karşılamak zorunda kalan duyarlı çocuk, sevilmek için kendi duygularını bastırıp bir "sahte benlik" kurar; yetişkinlikte bunun bedelini depresyon ya da büyüklenme olarak öder ve iyileşme, bu kaybın fark edilip yasının tutulmasıyla başlar.
+- ★ **Alice Miller — Yetenekli Çocuğun Dramı** *(TR)* [klinik]: Annesinin ya da babasının duygusal ihtiyaçlarını karşılamak zorunda kalan duyarlı çocuk, sevilmek için kendi duygularını bastırıp bir "sahte benlik" kurar; yetişkinlikte bunun bedelini depresyon ya da büyüklenme olarak öder ve iyileşme, bu kaybın fark edilip yasının tutulmasıyla başlar.
 - ★ **Craig Malkin — Narsisizme Yeni Bir Bakış** *(TR)* [klinik]: Narsisizm "var ya da yok" diye ayrılan bir hastalık değil, herkesin bir yerinde durduğu bir yelpazedir; ortadaki "sağlıklı narsisizm" iyi bir şeydir, sorun iki uçtadır.
 - ★ **Ramani Durvasula — Bozuk Ayna** *(TR)* [klinik]: Narsisistik özellikler gösteren biriyle yaşadığınız sorunun kaynağı siz değilsiniz; iyileşme, karşınızdakini değiştirmeye çalışmayı bırakıp kendi öykünüzü geri almakla başlar.
 - ★ **Karyl McBride — Boş Ayna** *(TR)* [klinik]: Narsisistik özellikler gösteren bir anneyle büyüyen kız çocukları "yeterince iyi değilim" duygusunu yetişkinliğe taşır; bu miras tanınıp yası tutulduğunda kırılabilir.
@@ -175,7 +175,7 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - **Sam Vaknin — Malignant Self-Love: Narcissism Revisited** [popüler]: Narsisist içi boş bir "sahte benlik" taşır ve bu boşluğu başkalarından gelen ilgi ile hayranlıkla, yani "narsisistik arz" ile doldurmak zorundadır; çevresindekiler bu ihtiyacın bedelini öder.
 - **Kristin Dombek — The Selfishness of Others: An Essay on the Fear of Narcissism** [popüler]: "Narsisizm salgını" korkusu, nadir bir klinik tanıyı sevgi, dostluk ve aile üzerine en derin korkularımızı taşıyan esnek bir kültürel etikete dönüştürmüştür; başkasını "narsist" ilan etmek bazen kendi yaralarımızı açıklamanın kolay yoludur.
 - **Joseph Burgo — The Narcissist You Know** [klinik]: Herkeste biraz narsisizm vardır, ama "aşırı narsisistler" bir yelpazenin zarar veren ucundadır; temelinde utançtan kaçış yatan bu davranışları tanıyıp tipine göre karşılık vermek mümkündür.
-- **Ramani Durvasula — "Don't You Know Who I Am?"** [klinik]: Narsisizm, hak görme (entitlement) ve kabalık (incivility) kişisel ve toplumsal düzeyde patolojik bir güvensizliğin belirtileridir; toplum bunları ödüllendirdiği için okur, zararlı insanlara karşı zihninin ve bedeninin "kapı bekçisi" olmayı öğrenmelidir.
+- **Ramani Durvasula — "Don't You Know Who I Am?"** *(TR)* [klinik]: Narsisizm, hak görme (entitlement) ve kabalık (incivility) kişisel ve toplumsal düzeyde patolojik bir güvensizliğin belirtileridir; toplum bunları ödüllendirdiği için okur, zararlı insanlara karşı zihninin ve bedeninin "kapı bekçisi" olmayı öğrenmelidir.
 - **Elan Golomb — Trapped in the Mirror** [klinik]: Narsisistik ebeveynlerin çocukları, ebeveynin ihtiyaçları kendi en temel ihtiyaçlarının önüne geçtiği için yetişkinlikte bile "var olmaya hakları olmadığı" inancını taşır; bu inanç tanınıp öfke kabul edildiğinde iyileşme mümkündür.
 - **Shahida Arabi — Power: Surviving and Thriving After Narcissistic Abuse** [popüler]: Narsisistik özellikler gösteren biriyle yaşanan ilişkinin bıraktığı yara gerçek bir travmadır; kurtulan kişi bu travmayı anlayıp adlandırarak gücünü geri alabilir.
 - **Jean-Charles Bouchoux — Narsist Sapkınlar** *(TR)* [klinik]: "Sapkın narsist" (pervers narcissique), kendi iç acısını ve çelişkisini yakınındakine yükleyerek ayakta kalan biridir; kurban bu işleyişi tanırsa onun etkisinden kurtulabilir.
@@ -184,17 +184,17 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 
 - ★ **Lundy Bancroft — Why Does He Do That?** [klinik]: İstismar bir öfke ya da denetim kaybı sorunu değil; istismarcının partnerine karşı kendini haklı ve üstün gören değerlerinden, yani hak görme (entitlement) inancından doğan bilinçli bir denetim biçimidir.
 - ★ **Evan Stark — Coercive Control** [araştırma]: Kadınlara yönelik ev içi istismarın özü tek tek şiddet olayları değil; yalıtma, aşağılama, gözetleme ve gündelik hayatın kurallarla düzenlenmesiyle süren, kadının özgürlüğünü elinden alan bir "özgürlük suçu"dur (liberty crime).
-- ★ **Judith Lewis Herman — Trauma and Recovery** [klinik]: Tecavüz ve ev içi istismar mağdurlarının yaşadığı travma, savaş gazilerinin ve siyasi tutsakların yaşadığıyla aynı türdendir; uzun süreli tutsaklık ayrı bir travma tablosu (karmaşık TSSB) doğurur ve iyileşme belirli evrelerden geçer.
+- ★ **Judith Lewis Herman — Trauma and Recovery** *(TR)* [klinik]: Tecavüz ve ev içi istismar mağdurlarının yaşadığı travma, savaş gazilerinin ve siyasi tutsakların yaşadığıyla aynı türdendir; uzun süreli tutsaklık ayrı bir travma tablosu (karmaşık TSSB) doğurur ve iyileşme belirli evrelerden geçer.
 - ★ **Marie-France Hirigoyen — Manevi Taciz** *(TR)* [klinik]: Çiftte, ailede ve işyerinde, görünmeyen ama sistemli bir psikolojik şiddet vardır; bunu çoğunlukla "sapkın narsisistik" (pervers narcissique) işleyiş gösteren biri uygular ve amacı kurbanı adım adım ruhen yok etmektir.
 - **Jess Hill — Kadının Hiç Suçu Yok** *(TR)* [popüler]: Aile içi istismarın özü tek tek darbeler değil, failin partnerin hayatı üzerinde kurduğu sistemli denetimdir; bu yüzden "Kadın neden gitmedi?" yerine "Adam bunu neden yaptı?" diye sormak gerekir.
-- **Rachel Louise Snyder — No Visible Bruises** [popüler]: Partner cinayetleri öngörülebilir; bilinen risk işaretlerini (özellikle boğma girişimini) ciddiye alan ve kurumları birbirine bağlayan sistemler hayat kurtarabilir.
+- **Rachel Louise Snyder — No Visible Bruises** *(TR)* [popüler]: Partner cinayetleri öngörülebilir; bilinen risk işaretlerini (özellikle boğma girişimini) ciddiye alan ve kurumları birbirine bağlayan sistemler hayat kurtarabilir.
 - **Jane Monckton Smith — In Control** [araştırma]: Partner cinayeti bir anlık "tutku" patlaması değil, izlenebilir bir denetim sürecinin sonudur; aşamaları bilen herkes riskin arttığını görebilir.
 - **Lisa Aronson Fontes — Invisible Chains** [klinik]: Zorlayıcı denetim, fiziksel şiddet olmadan da bir insanı görünmez zincirlerle bağlayabilir; bunu tanımak, tehlikeyi tartmak ve güvenle çıkış yolu bulmak öğrenilebilir.
 - **Lenore E. Walker — The Battered Woman** [klinik]: Şiddet gören kadın mazoşist değildir; tekrarlayan bir şiddet döngüsü ve toplumun yalnız bırakması onu psikolojik olarak kıskaca alır.
 - **Donald G. Dutton — The Abusive Personality** [araştırma]: Birçok partner istismarcısı, kolay tehdit hisseden, kıskanç ve terk edilmekten korkan, bu duyguları öfke ve denetimle örten belirli bir kişilik yapısı taşır ve bu yapının kökleri çocukluktadır.
-- **Susan Forward ve Craig Buck — Toxic Parents** [klinik]: Çocukluğunda sürekli zarar gören yetişkin, ebeveynini "tanrılaştırmayı" bırakıp yaşananı adıyla koyduğunda ve sorumluluğu ait olduğu yere geri verdiğinde iyileşmeye başlar.
+- **Susan Forward ve Craig Buck — Toxic Parents** *(TR)* [klinik]: Çocukluğunda sürekli zarar gören yetişkin, ebeveynini "tanrılaştırmayı" bırakıp yaşananı adıyla koyduğunda ve sorumluluğu ait olduğu yere geri verdiğinde iyileşmeye başlar.
 - **Heinz Leymann — Mobbing** [araştırma]: İş yerinde bir kişiye uzun süre ve sistemli olarak yöneltilen düşmanca davranışlar ayrı bir olgudur; bunu "kişilik sorunu" değil, kurumun izin verdiği bir süreç olarak görmek gerekir.
-- **Jennifer J. Freyd ve Pamela J. Birrell — Blind to Betrayal** [araştırma]: Bağımlı olduğumuz birinin bize ihanet ettiğini çoğu zaman "görmeyiz"; çünkü görmek, ihtiyaç duyduğumuz ilişkiyi tehlikeye atar.
+- **Jennifer J. Freyd ve Pamela J. Birrell — Blind to Betrayal** *(TR)* [araştırma]: Bağımlı olduğumuz birinin bize ihanet ettiğini çoğu zaman "görmeyiz"; çünkü görmek, ihtiyaç duyduğumuz ilişkiyi tehlikeye atar.
 
 **Gaslighting, şantaj, hazırlama ve korunma** (`ek/08_gaslighting_santaj_ve_korunma.md`)
 
@@ -234,12 +234,12 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - ★ **Paul Ekman — Telling Lies** *(TR?)* [araştırma]: Yalan söyleyen kişi duygularını tam denetleyemez; bu duygular yüzden, sesten ve bedenden "sızar" ve dikkatli bir gözlemci bu ipuçlarını okuyabilir, ama yalnızca büyük bir temkinle.
 - ★ **Timothy R. Levine — Duped** [araştırma]: İnsanlar karşısındakinin doğru söylediğini kendiliğinden kabul eder; bu "doğruluk varsayılanı" bizi bazen kandırılmaya açık bırakır, ama çoğu insan çoğu zaman dürüst olduğu için genelde işimize yarar.
 - **Aldert Vrij — Detecting Lies and Deceit** [araştırma]: Yalancıyı beden dilinden "okumak" sanıldığından çok daha zordur; insanlar da uzmanlar da yazı-turadan biraz iyi tahmin eder, ama doğru sorularla yalancıyı daha görünür kılmak mümkündür.
-- **Daniel Simons ve Christopher Chabris — Nobody's Fool** [araştırma]: Bizi dolandırıcılara açık hâle getiren şey aptallık değil, günlük hayatta çoğu zaman işimize yarayan düşünme alışkanlıklarıdır; bu alışkanlıkların ne zaman aleyhimize işlediğini bilip doğru soruları sorarsak kanmamız zorlaşır.
+- **Daniel Simons ve Christopher Chabris — Nobody's Fool** *(TR)* [araştırma]: Bizi dolandırıcılara açık hâle getiren şey aptallık değil, günlük hayatta çoğu zaman işimize yarayan düşünme alışkanlıklarıdır; bu alışkanlıkların ne zaman aleyhimize işlediğini bilip doğru soruları sorarsak kanmamız zorlaşır.
 - **Stephen Greenspan — Annals of Gullibility** [klinik]: Kanabilirlik (gullibility: aleyhimize olacak bir şeye, uyarı işaretlerine rağmen ikna edilmemiz) zekâ eksikliği değildir; durum, düşünme, kişilik ve duygu birlikte çalıştığında herkes kanabilir.
 - **Martina Dove — The Psychology of Fraud, Persuasion and Scam Techniques** [araştırma]: Dolandırıcılık kurbanları "saf" ya da "açgözlü" insanlar değildir; dolandırıcılar herkesin karar verme biçimindeki ortak zaafları sistemli ikna teknikleriyle sömürür, bu teknikleri tanımak da en etkili korunmadır.
 - **Dan Ariely — The (Honest) Truth About Dishonesty** [araştırma]: Çoğu insan büyük suç işlemez ama "birazcık" hile yapar; bunu, hem kazanç sağlayıp hem de kendini dürüst biri olarak görmeye devam edebildiği ölçüde yapar.
 - **Ian Rowland — The Full Facts Book of Cold Reading** [popüler]: Medyumların, falcıların ve "ruhlarla konuşanların" bir yabancı hakkında her şeyi biliyormuş gibi görünmesi doğaüstü bir güce değil, öğrenilebilir ve sınıflandırılabilir sözel tekniklere dayanır.
-- **Kevin D. Mitnick ve William L. Simon — The Art of Deception** [popüler]: Bir kurumun en zayıf güvenlik halkası teknoloji değil insandır; saldırgan şifreyi kırmak yerine birini kandırarak istemeyi seçer.
+- **Kevin D. Mitnick ve William L. Simon — The Art of Deception** *(TR)* [popüler]: Bir kurumun en zayıf güvenlik halkası teknoloji değil insandır; saldırgan şifreyi kırmak yerine birini kandırarak istemeyi seçer.
 - **Doug Shadel — Outsmarting the Scam Artists** [popüler]: Dolandırıcılar zekâya değil duyguya saldırır; kişiyi aşırı heyecan ya da korku durumuna sokan bu "ether" hâlini tanıyan, kendini koruyabilir.
 - **Becky Holmes — Keanu Reeves Is Not in Love with You** [popüler]: Romantik dolandırıcılık (romance scam) gülünç görünen ama yıkıcı sonuçlar doğuran örgütlü bir suçtur; kurban olmak saflık değil, iyi tasarlanmış bir duygusal manipülasyonun sonucudur.
 
@@ -247,9 +247,9 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 
 - ★ **Richard Bandler ve John Grinder — Frogs into Princes** [popüler]: İnsanlar deneyimi farklı duyu kanallarıyla işler ve bu kanallar dil, göz hareketleri ve beden diliyle "okunabilir"; bunu bilen bir terapist ya da iletişimci, karşısındakinin davranışını hızla değiştirebilir.
 - ★ **William Cooper, Michael Pace, Jonathan Mind ve diğerleri — Dark Psychology** [popüler]: "Karanlık psikoloji" denen gizli bir manipülasyon bilgisi vardır; güçlü insanlar bunu kullanır ve okur bu kitapla hem kendini koruyabilir hem de aynı teknikleri kullanabilir.
-- **Kevin Hogan ve James Speakman — Covert Persuasion** [popüler]: Karşındakinin farkına varmadan "evet" demesini sağlayacak kelimeler, sorular, hikâyeler ve duygusal tetikleyiciler sistemli olarak kullanılabilir.
+- **Kevin Hogan ve James Speakman — Covert Persuasion** *(TR)* [popüler]: Karşındakinin farkına varmadan "evet" demesini sağlayacak kelimeler, sorular, hikâyeler ve duygusal tetikleyiciler sistemli olarak kullanılabilir.
 - **Chase Hughes — The Ellipsis Manual** [popüler]: İnsan davranışı sistematik biçimde okunabilir ve "mühendislik" yoluyla, kişi fark etmeden yönlendirilebilir.
-- **Neil Strauss — The Game** [popüler]: Utangaç bir gazetecinin "tavlama" (pickup) camiasına girip "Style" takma adıyla usta olmasının ve sonunda bu hayatın boşluğunu görmesinin anlatısı.
+- **Neil Strauss — The Game** *(TR)* [popüler]: Utangaç bir gazetecinin "tavlama" (pickup) camiasına girip "Style" takma adıyla usta olmasının ve sonunda bu hayatın boşluğunu görmesinin anlatısı.
 - **Hicran Tülüce — Karanlık Empat: Narsist, Psikopat, Makyavelist** *(TR)* [popüler]: Narsisizm, makyavelizm ve psikopatinin birleştiği "karanlık" kişilikler, empati kurabildiklerinde daha da tehlikeli olabilir; okur bu insanları tanımayı ve onlardan korunmayı öğrenmelidir.
 - **Nevzat Tarhan — Kötülük Psikolojisi ve Toksik İlişkiler** *(TR)* [popüler]: Kötülüğün psikolojik ve nörobiyolojik işaretlerini tanımak ondan korunmanın ilk adımıdır; sağlıklı bir vicdan (üst benlik) ve değerler hiyerarşisi kötülüğe karşı "aşı" işlevi görür.
 - **Tahir Özakkaş (yay. haz.) — Narsisizm Üzerine Konuşmalar ve Olgu Sunumu** *(TR)* [klinik]: Narsisizm normalden patolojiye uzanan bir süreçtir; patolojik narsisizm ancak kendilik gelişimi, üst benlik ve kültür birlikte ele alındığında anlaşılır ve sağaltılabilir.
@@ -257,4 +257,93 @@ Bir uyarı daha: bu kitaplardaki listeleri yakınlarına tanı koymak için kull
 - **Çeşitli yazarlar — Türkçe "Karanlık Psikoloji" rafı** [popüler]: Raf, "insanları okuma, manipülatörü alt etme ve intikam" vaadiyle satılan, yazarı ve kaynağı belirsiz kitaplarla dolu; içinde az sayıda ciddi eser var ve okurun bunları ayıklaması gerekiyor.
 - **Josef Kirschner — Manipulasyon Ama Nasıl?** *(TR)* [popüler]: Hepimiz doğduğumuz andan itibaren manipüle ediliyoruz ve her gün başkalarını etkilemeye çalışıyoruz; öyleyse bunu bilinçli ve "doğru" yapmayı öğrenmek gerekir.
 
-placeholder
+## Emin olunmayanlar ve doğrulama kapsamı
+
+**Önce en önemli sınır.** Kitap anlatımları kitaplar okunarak yazılmadı. Ansiklopedi maddelerine, yayınevi ve kütüphane kayıtlarına, eleştirilere, özet sitelerine ve modelin kendi bilgisine dayanır. Bir kitabı almadan ya da ondan alıntı yapmadan önce buradaki anlatımı bir tanıtım olarak gör, kitabın yerine koyma.
+
+**Ne kontrol edildi.** Her yazar ajan, metninin yanında bir iddia defteri tuttu: iddia, kaynağın adresi ve kısa bir alıntı. Sonra 27 doğrulayıcı ajan bu defterlerden toplam 672 iddiayı kaynağından yeniden kontrol etti:
+
+- 488'i doğru çıktı.
+- 117'si düzeltildi; düzeltmeler metinlere yerinde işlendi. Bunların yaklaşık yarısı yanlışın düzeltilmesi, yarısı "doğrulanmadı" diye bırakılmış bir bilginin (yayınevi, sayfa sayısı, yıl) tamamlanmasıdır.
+- 67'si doğrulanamadı; bunlar metinde "(doğrulanmadı)" işaretiyle duruyor.
+
+**Rehber.** Dört bölümden 82 iddia örneklendi. Taktikler bölümünde hata oranı yüzde 15 çıktı. Protokolün eşiği yüzde 10 olduğu için bölümün kalan 23 köken cümlesi de kontrol edildi; bir hata daha bulundu (Sweet'in 2019 makalesinin yöntemi). Rehberde toplam 105 iddia kontrol edildi, 12'si düzeltildi.
+
+**Kitaplar, iki tur.**
+
+- *Örneklem:* 12 doğrulayıcı 124 kitaptan 340 iddia seçti. 12 grubun 9'unda hata oranı eşiği aştı. Hatalar iki yerde toplandı: Türkçe baskı satırları ve yazarların "bellekten" yazdığı satırlar.
+- *Tam kontrol:* Türkçe baskı dışında da eşiği aşan 10 defterin kalan satırlarının hepsi kontrol edildi: 10 doğrulayıcı, 227 iddia, 38 düzeltme. Bu defterlerde kontrol edilmemiş satır kalmadı; kaynağı bulunamayanlar metinde işaretli. Öteki 14 defterde Türkçe baskı dışı hata oranı eşiğin altındaydı; onlar örneklemle kontrol edildi.
+
+**Öne çıkan düzeltmeler.**
+
+- Kassin'in "2026'da emekli olduğu" bilgisi uydurmaydı; çıkarıldı.
+- "Gaslighting" teriminin psikiyatri yazınındaki kullanımı 1980'lerde değil, 1969'da başlıyor (Barton ve Whitehead, *Lancet*).
+- Ekman'ın *Yalan Söylediğimi Nasıl Anladın?!* kitabı *Telling Lies*'ın değil, *Emotions Revealed*'ın çevirisi. Porter ve ten Brinke'nin (2008) bulgusu da düzeltildi: mikro ifadeler yalnızca yüzde 2 oranında görülüyor, o da yüzün yalnızca yarısında.
+- Bandler ve Grinder'ın kitabında Chomsky ile Bateson'un adı geçmiyor. Fobi tekniği "geri sarma" değil, "iki aşamalı ayrışma".
+- Browning: Józefów'da öldürmeye katılmayanların oranı "belki yüzde 10, en fazla yüzde 20".
+- de Becker bölümündeki "kırk mesajdan sonra" örneği kaynakta yok; çıkarıldı.
+- Brignull bölümündeki Türkiye düzenlemesi kesinleşti. Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'nde yapılan değişiklik 1 Temmuz 2026'da Resmî Gazete'de yayımlandı, 1 Ağustos 2026'da yürürlüğe girdi.
+- Łobaczewski'nin *Political Ponerology*'sinin ilk İngilizce basımı 1998'de değil, 2006'da yapıldı (Red Pill Press).
+- Forward'ın *Toxic Parents*'ının Türkçesi *Zehirli Ana Babalar* değil, *Zor Bir Ailede Büyümek* (İletişim).
+- Stout'un *The Sociopath Next Door*'unun Türkçesi yok. Türkçede çıkan, onun devam kitabı: *Yanı Başınızdaki Sosyopatı Alt Etmek*.
+
+**Küçük programlarla yapılan toplu kontroller.**
+
+- *Türkçe baskılar:* İlk tarama D&R ve Kitapseç kataloglarında yazar soyadıyla yapıldı. Doğrulayıcılar bu taramanın birçok çeviriyi kaçırdığını gösterdi; örneğin Hare'in *Vicdansızlar*'ı, Herman'ın *Travma ve İyileşme*'si ve Stern'ün *Gaslight Etkisi*. Bu yüzden 124 kitabın yazarı, tükenmiş baskıları da gösteren bkmkitap kataloğunda tam adıyla yeniden tarandı. 62 yazarın en az bir Türkçe kitabı çıktı ve 16 kitabın Türkçe baskı bilgisi düzeltildi ya da eklendi. Örnekler: Snyder *Görünmeyen Yaralar*, Simons ve Chabris *Külyutmaz*, Campbell ve Crist *Yeni Narsisizm Bilimi*, Freyd *İhanete Kör Olmak*, Strauss *Oyun*. Doğrulayıcılar da yaklaşık 25 kitabın Türkçe künyesini düzeltti ya da tamamladı. Sonuçta 124 kitabın 46'sında Türkçe baskı künyede adıyla yazılı. Tarama tablosu `ek/dogrulama/turkce_karsilastirma.md` dosyasında.
+- *Envanter:* __OL__
+- *Bağlantılar:* __LINK__
+
+**Açık kalanlar.**
+
+1. Çoğu kitapta Türkçe çevirmen adı ve ilk Türkçe baskı yılı doğrulanmadı.
+2. Üç çeviri eşleşmesi kesinleşmedi; katalogda özgün ad yazmıyor ve eşleşme yazar adına, konuya ve Türkçe ada dayanıyor:
+   - Ekman'ın *Ne Düşündüğünü Biliyorum*'u büyük olasılıkla *Telling Lies*'tır; listede (TR?) işaretli.
+   - Hill'in *Kadının Hiç Suçu Yok*'u.
+   - Hogan'ın *Gizli İkna Taktikleri*.
+3. İkinci katmanda bazı bölüm adları, kitap içi sayılar ve alıntılar işaretli yerlerde doğrulanmadı. Örnekler: Cooper'ın okur yorumları, Wylie'nin birkaç alıntısı, Brignull'ün kısım adları, Carnes'ın travma bağı sayısı.
+4. Türk yazarlarda Tarhan'ın kitabının kesin baskı yılı ve sayfa sayısı ile Kirschner'in "sekiz yasası"nın adları bulunamadı.
+5. Web araması kotası paylaşımlı ve sınırlıydı. Doğrulayıcılar çoğunlukla defterde gösterilen sayfaları açtı; bağımsız arama yalnızca en kritik iddialarda yapıldı.
+
+## Kaynaklar
+
+Her iddianın kaynağı, adresiyle birlikte `ek/defter/` klasöründeki 28 defterdedir. Doğrulayıcıların notları ve Türkçe katalog taramaları `ek/dogrulama/` klasöründedir. En çok kullanılan kaynaklar:
+
+- `en.wikipedia.org`: 272 defter satırı
+- `openlibrary.org`: 47 defter satırı
+- `publishersweekly.com`: 38 defter satırı
+- `goodreads.com`: 34 defter satırı
+- `kirkusreviews.com`: 19 defter satırı
+- `archive.org`: 15 defter satırı
+- `api.crossref.org`: 10 defter satırı
+- `de.wikipedia.org`: 7 defter satırı
+- `pubmed.ncbi.nlm.nih.gov`: 6 defter satırı
+- `fr.wikipedia.org`: 6 defter satırı
+- `doi.org`: 5 defter satırı
+- `thepowermoves.com`: 5 defter satırı
+- `pmc.ncbi.nlm.nih.gov`: 4 defter satırı
+- `againstthecurrent.org`: 4 defter satırı
+- `guilford.com`: 4 defter satırı
+- `routledge.com`: 4 defter satırı
+- `popmatters.com`: 3 defter satırı
+- `psychiatrictimes.com`: 3 defter satırı
+
+Alanın bilimsel çerçevesi için temel makaleler:
+
+- Paulhus ve Williams (2002): karanlık üçlü.
+- Buckels, Jones ve Paulhus (2013): karanlık dörtlü.
+- Moshagen, Hilbig ve Zettler (2018): D faktörü.
+- Sanz-García ve arkadaşları (2021): psikopati yaygınlığı meta-analizi.
+- Bond ve DePaulo (2006): yalan tespiti doğruluğu.
+- Wiseman ve arkadaşları (2012): NLP göz hareketleri deneyi.
+
+Türk hukuku için kanun metinleri Resmî Gazete ve mevzuat.gov.tr'den alındı.
+
+## Devam notu
+
+- İş: "karanlık psikoloji" alanının rehberi ve alandaki kitaplar. Sonuç: rehber `ek/01` (31 taktikle birlikte), 124 kitap ayrıntılı (`ek/02`–`ek/11`), 203 kitap envanterde (`ek/12`).
+- Ham dosyalar `ek/kitaplar/` (kitap başına bir dosya, K001–K124) ve `ek/parcalar/` (rehber bölümleri, keşif listeleri, rapor parçaları) altında. `python3 ek/araclar/derle.py` ek dosyaları ve bu raporu yeniden üretir.
+- Doğrulama izleri: iddia defterleri `ek/defter/` altında; 27 doğrulayıcı notu ile `turkce_bkm.json` ve `turkce_karsilastirma.md` dosyaları `ek/dogrulama/` altında.
+- Açık işler: Türkçe çevirmen adları; Ekman, Hill ve Hogan çeviri eşleşmeleri; ikinci katmandaki işaretli bölüm adları.
+- Envanterden ayrıntılı listeye alınabilecek ilk adaylar: DePaulo (*The Lies We Tell*), McCord ve McCord (*The Psychopath*), Kohut, Lowen, Zablocki ve Robbins (*Misunderstanding Cults*), Deikman, Fiske ve Rai (*Virtuous Violence*), Namie ve Namie, Pratkanis ve Shadel.
+
+*Maliyet: Seviye L+ · 65 ajan, hepsi opus · 36 üretici: 1. dalga 8 keşif; 2. dalga 4 rehber ve 10 çekirdek kitap; 3. dalga 14 ikinci katman · 2 eleştirmen (seçki ve son okuma) · 27 doğrulayıcı (16 örneklem, 11 tam kontrol) · 3 üretim dalgası ve 2 doğrulama turu · kontrol noktasını geçen 9 üretici: R1 40/35, A6 36, A9 42, A10 37, B1 41, B5 36, B10 37, B11 45, B13 37; neden dosya yazımı ve içindekiler aramasıydı · kontrol noktasını az geçen 6 doğrulayıcı (41–44/40); neden düzeltmeleri işleyip not yazmaktı; hiçbir ajan üst sınıra (2N) yaklaşmadı · başta söylenen yaklaşık 50 ajanlık tahmin 15 ajan aşıldı, çünkü rehberde ve 10 kitap defterinde hata oranı eşiği geçti ve protokol gereği 11 tam kontrol doğrulayıcısı açıldı · ikinci katman grupları 6 kitaplıktı (protokolün 3–5 önerisinin üstünde), çünkü üretici sayısı L+ tavanına (36) dayanmıştı.*

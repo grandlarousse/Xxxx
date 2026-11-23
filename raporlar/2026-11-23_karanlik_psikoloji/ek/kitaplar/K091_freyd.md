@@ -1,6 +1,6 @@
 ## Jennifer J. Freyd ve Pamela J. Birrell — Blind to Betrayal (Blind to Betrayal: Why We Fool Ourselves We Aren't Being Fooled, 2013)
 
-**Künye.** Jennifer J. Freyd (d. 1957) Oregon Üniversitesi'nde psikoloji profesörüdür (bugün emekli); ihanet travması, DARVO ve kurumsal ihanet kavramlarıyla tanınır, kitabın yazıldığı dönemde *Journal of Trauma & Dissociation* dergisinin editörüydü. Pamela J. Birrell aynı bölümde öğretim görevlisi ve lisanslı klinik psikologdur. Dil İngilizce; John Wiley & Sons, Mart 2013. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim yaklaşık 224 sayfa, 14 bölüm.
+**Künye.** Jennifer J. Freyd (d. 1957) Oregon Üniversitesi'nde psikoloji profesörüdür (bugün emekli); ihanet travması, DARVO ve kurumsal ihanet kavramlarıyla tanınır, kitabın yazıldığı dönemde *Journal of Trauma & Dissociation* dergisinin editörüydü. Pamela J. Birrell aynı bölümde öğretim görevlisi ve lisanslı klinik psikologdur. Dil İngilizce; John Wiley & Sons, Mart 2013. Türkçe baskı: *İhanete Kör Olmak* (Kuraldışı Yayınevi, 224 sayfa; bkmkitap kaydı). Hacim yaklaşık 224 sayfa, 14 bölüm.
 
 **Bir cümleyle.** Bağımlı olduğumuz birinin bize ihanet ettiğini çoğu zaman "görmeyiz"; çünkü görmek, ihtiyaç duyduğumuz ilişkiyi tehlikeye atar.
 

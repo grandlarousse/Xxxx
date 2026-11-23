@@ -64,7 +64,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 **Ana fikirler.**
 - *Korkuyu tanıma bir ahlak anahtarıdır.* Marsh'ın çalışmalarına göre psikopatik özellikli kişiler başkalarının korkmuş yüzlerini tanımakta zorlanıyor. Korkuyu fark edemeyen kişi, karşısındakinin acısından caydırıcı bir sinyal almaz. Bu yüzden ona zarar vermek kolaylaşır.
 - *Amigdala ortak düğümdür.* Amigdala, beyinde duyguları ve özellikle korkuyu işleyen bölgedir. Duygusuz-soğuk özellikleri (callous-unemotional traits) olan gençlerde amigdala korkmuş yüzlere daha zayıf tepki veriyor. Böbrek bağışçılarında ise tersi görülüyor.
-- *Aşırı özgeciler korkusuz değildir.* Marsh'ın ekibi, tanımadığı birine böbrek veren kişileri inceledi. Bu kişilerin amigdalası korkmuş yüzlere daha güçlü tepki veriyordu. Sağ amigdalaları da ortalamadan yaklaşık %8 büyüktü (ikincil kaynaktan). Yani kahramanlık korkuya kayıtsızlıktan değil, başkasının korkusuna aşırı duyarlılıktan doğuyor.
+- *Aşırı özgeciler korkusuz değildir.* Marsh'ın ekibi, tanımadığı birine böbrek veren kişileri inceledi. Bu kişilerin amigdalası korkmuş yüzlere daha güçlü tepki veriyordu. Sağ amigdalaları da kontrol grubundan yaklaşık %8 büyüktü. Yani kahramanlık korkuya kayıtsızlıktan değil, başkasının korkusuna aşırı duyarlılıktan doğuyor.
 - *Psikopati gelişimsel bir bozukluktur.* Marsh, psikopatik özelliklerin çocuklukta görülebildiğini vurgular. Erken tanı ve ailelerle çalışmanın önemine dikkat çeker. Psikopatik çocukları "kötü tohum" diye damgalamaya karşı çıkar.
 - *Yelpaze herkesi kapsar.* Çoğu insan iki ucun arasındadır. Kitabın son bölümü, özgeciliği artırmanın yollarını tartışır. Bunlar arasında başkasının durumunu görünür kılmak ve "insanlar bencildir" varsayımını sorgulamak var.
 
@@ -111,7 +111,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 **Bir cümleyle.** Sosyopati (bugün klinik dilde antisosyal kişilik bozukluğu ve psikopatiyle örtüşen eski bir terim) seri katil kalıbına indirgenemez. Bir davranış yelpazesidir ve bu özellikleri taşıyan birçok insan toplumun içinde, fark edilmeden yaşar.
 
-**Bağlam.** Yazar kitaptan önce sosyopatlar hakkında bir blog yazıyordu (blog adı: Sociopath World; bellekten, doğrulanmadı). Kitap, "başarılı sosyopat" fikrinin popüler kültürde yaygınlaştığı bir dönemde çıktı. Ajanının önerisiyle Thomas, Texas A&M Üniversitesi'nden psikolog John Edens'ten değerlendirme istedi. Edens birkaç test sonucunda onu sosyopatik özellikler açısından ölçütleri karşılar buldu. Yazar daha sonra kılık değiştirerek Dr. Phil programına çıktı.
+**Bağlam.** Yazar kitaptan önce sosyopatlar hakkında bir blog yazıyordu (blog adı: Sociopath World). Kitap, "başarılı sosyopat" fikrinin popüler kültürde yaygınlaştığı bir dönemde çıktı. Ajanının önerisiyle Thomas, Texas A&M Üniversitesi'nden psikolog John Edens'ten değerlendirme istedi. Edens birkaç test sonucunda onu sosyopatik özellikler açısından ölçütleri karşılar buldu. Yazar daha sonra kılık değiştirerek Dr. Phil programına çıktı.
 
 **Yapısı.** Kitap, çocukluk anılarını, hukuk eğitimini ve iş hayatını, ilişkileri ve din hayatını izleyen anı bölümleriyle ilerler. Bu bölümlerin arasına sosyopatiyle ilgili araştırma özetleri ve kişisel yorumlar serpiştirilmiştir. Bölüm sayısı ve adları doğrulanmadı.
 
@@ -134,7 +134,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Patric Gagne — Ben Bir Sosyopatım: Kendi Hikayem (Sociopath: A Memoir, 2024)
 
-**Künye.** Patric Gagne Amerikalı bir yazar ve eski terapist. Lisansını UCLA'da, yüksek lisansını California Graduate Institute'ta, klinik psikoloji doktorasını The Chicago School'da yaptı. Kitabı hem sosyopatik özelliklerle yaşadığını söyleyen biri hem de bu konuda doktora tezi yazmış bir klinisyen olarak yazıyor. Özgün dili İngilizce. Nisan 2024'te Simon & Schuster bünyesinde yayımlandı. Türkçe baskı: *Ben Bir Sosyopatım – Kendi Hikayem* (kitapçı kataloğu; yayınevi katalogda görünmüyor). Yaklaşık 370 sayfa (Publishers Weekly: 368 sayfa).
+**Künye.** Patric Gagne Amerikalı bir yazar ve eski terapist. Lisansını UCLA'da, yüksek lisansını California Graduate Institute'ta, klinik psikoloji doktorasını The Chicago School'da yaptı. Kitabı hem sosyopatik özelliklerle yaşadığını söyleyen biri hem de bu konuda doktora tezi yazmış bir klinisyen olarak yazıyor. Özgün dili İngilizce. Nisan 2024'te Simon & Schuster bünyesinde yayımlandı. Türkçe baskı: *Ben Bir Sosyopatım – Kendi Hikayem* (Say Yayınları; kitapçı kataloğu). Yaklaşık 370 sayfa (Publishers Weekly: 368 sayfa).
 
 **Bir cümleyle.** Sosyopati, toplumun sandığı gibi her zaman tehlikeli bir canavarlık değildir. Bu özellikleri taşıyan biri, kendini tanıyıp destek alırsa sevgi dolu ve sorumlu bir hayat kurabilir.
 
@@ -161,7 +161,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Julia Shaw — Kötülük (Evil: The Science Behind Humanity's Dark Side; İngiltere'de Making Evil, 2019)
 
-**Künye.** Julia Shaw 1987'de Köln'de doğmuş Alman-Kanadalı bir suç psikoloğu ve popüler bilim yazarı. Uzmanlık alanı sahte anılardır. 2017'den beri University College London'da (UCL) onursal araştırma görevlisi. Kitabı bir kriminoloji ve psikoloji akademisyeni ve bilim anlatıcısı olarak yazıyor. Özgün dili İngilizce. İngiltere'de Şubat 2019'da Canongate *Making Evil* adıyla, ABD'de aynı yıl Abrams *Evil* adıyla yayımladı. Türkçe baskı: *Kötülük* (kitapçı kataloğu; yayınevi katalogda görünmüyor). Yaklaşık 320 sayfa.
+**Künye.** Julia Shaw 1987'de Köln'de doğmuş Alman-Kanadalı bir suç psikoloğu ve popüler bilim yazarı. Uzmanlık alanı sahte anılardır. 2017'den beri University College London'da (UCL) onursal araştırma görevlisi. Kitabı bir kriminoloji ve psikoloji akademisyeni ve bilim anlatıcısı olarak yazıyor. Özgün dili İngilizce. İngiltere'de Şubat 2019'da Canongate *Making Evil* adıyla, ABD'de aynı yıl Abrams *Evil* adıyla yayımladı. Türkçe baskı: *Kötülük* (Say Yayınları; kitapçı kataloğu). Yaklaşık 320 sayfa.
 
 **Bir cümleyle.** "Kötü" dediğimiz davranışların çoğu, sıradan insanlarda da bulunan beyin, kişilik ve durum etkenleriyle açıklanabilir. Kötülüğü anlamak için insanları "canavar" diye ayırmak yerine bu ortak mekanizmalara bakmak gerekir.
 
@@ -188,7 +188,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## M. Scott Peck — People of the Lie (People of the Lie: The Hope for Healing Human Evil, 1983)
 
-**Künye.** M. Scott Peck (1936–2005) Amerikalı bir psikiyatrdı. *The Road Less Traveled* (1978) adlı çok satan kitabıyla tanındı. Bu kitabı bir klinisyen ve 1980'de vaftiz olup Hristiyanlığa bağlandığını açıkça söyleyen bir inanan olarak yazıyor. Özgün dili İngilizce. İlk kez 1983'te Simon & Schuster yayımladı. Bazı baskılarda alt başlık *Toward a Psychology of Evil* (Kötülüğün Psikolojisine Doğru) olarak geçer. Türkçe baskısı kitapçı kataloglarında görünmüyor. Katalogda yazarın yalnızca *Az Seçilen Yol* (The Road Less Traveled) kitabı var. *Yalanın İnsanları* adıyla bir çevirisi olabilir (keşif notundan, doğrulanmadı). Yaklaşık 270 sayfa (bellekten, doğrulanmadı).
+**Künye.** M. Scott Peck (1936–2005) Amerikalı bir psikiyatrdı. *The Road Less Traveled* (1978) adlı çok satan kitabıyla tanındı. Bu kitabı bir klinisyen ve 1980'de vaftiz olup Hristiyanlığa bağlandığını açıkça söyleyen bir inanan olarak yazıyor. Özgün dili İngilizce. İlk kez 1983'te Simon & Schuster yayımladı. Bazı baskılarda alt başlık *Toward a Psychology of Evil* (Kötülüğün Psikolojisine Doğru) olarak geçer. Türkçe baskısı kitapçı kataloglarında görünmüyor. Katalogda yazarın yalnızca *Az Seçilen Yol* (The Road Less Traveled) kitabı var. Yaklaşık 270 sayfa.
 
 **Bir cümleyle.** Kötülük ciddiye alınması gereken gerçek bir olgudur. "Kötü" insanlar kendi kusurlarıyla yüzleşmek yerine yalan ve inkâra sığınır ve suçu başkasına, çoğu zaman da çocuklarına yükler. Peck'e göre bu örüntü psikiyatrik bir tanı olarak incelenmelidir.
 
@@ -231,7 +231,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 - **Mali kriz kuramı.** Boddy, deregülasyon ve hızlı terfi kültürü sayesinde finans kurumlarının tepesine psikopatik özellikli kişilerin yerleştiğini, kısa vadeli kişisel kazancı kurumun geleceğine tercih ettiklerini ve krizi tetiklediklerini savunur.
 - **Kurumun payı.** Kişilik değerlendirmesi yapmayan, karizmayı yetenek sanan işe alım ve terfi düzenleri bu kişileri ödüllendirir.
 
-**Bilimsel dayanağı.** Kitap, yazarın Avustralya ve İngiltere'deki çalışan anketlerine ve kendi hakemli makalelerine dayanır; yani ampirik ama kesitsel (tek zamanda alınmış) ve öz-bildirime dayalı veridir. Çalışanın "kötü yönetici" algısı hem psikopati puanını hem de iş doyumu puanını aynı anda etkileyebilir; bu nedenle nedensellik kurulamaz. Mali kriz kuramı ise veriye değil, akıl yürütmeye dayanır. Sonraki bir meta-analiz (Landay, Harms ve Credé, 2019; bellekten) psikopatinin liderliğe yükselmeyle zayıf, liderlik etkinliğiyle olumsuz ilişkili olduğunu bulmuştur; bu, "psikopatlar tepeye kolayca çıkar" iddiasını yumuşatır. Kanıt düzeyi: **[araştırma]** (zayıf tasarımlı; kuram bölümleri [popüler]e yakın).
+**Bilimsel dayanağı.** Kitap, yazarın Avustralya ve İngiltere'deki çalışan anketlerine ve kendi hakemli makalelerine dayanır; yani ampirik ama kesitsel (tek zamanda alınmış) ve öz-bildirime dayalı veridir. Çalışanın "kötü yönetici" algısı hem psikopati puanını hem de iş doyumu puanını aynı anda etkileyebilir; bu nedenle nedensellik kurulamaz. Mali kriz kuramı ise veriye değil, akıl yürütmeye dayanır. Sonraki bir meta-analiz (Landay, Harms ve Credé, 2019, Journal of Applied Psychology; 92 bağımsız örneklem) psikopatinin liderliğe yükselmeyle zayıf, liderlik etkinliğiyle olumsuz ilişkili olduğunu bulmuştur; bu, "psikopatlar tepeye kolayca çıkar" iddiasını yumuşatır. Kanıt düzeyi: **[araştırma]** (zayıf tasarımlı; kuram bölümleri [popüler]e yakın).
 
 **Karanlık psikoloji haritasındaki yeri.** Karanlık üçlünün psikopati ayağına ve Üçlü Model'deki acımasızlık ile ketlenmezliğe denk düşer. Taktik olarak üçgenleme (çalışanları birbirine düşürme), karalama kampanyası, kurban rolü ve yukarıya karşı sevgi bombardımanına benzeyen izlenim yönetimini tanımlar. Babiak ve Hare'in Snakes in Suits'i (önceki raporda) ile doğrudan konuşur; bu listedeki Stout'un iş yeri bölümüyle birlikte okunabilir. Greene'in "Efendini asla gölgede bırakma" yasası, bu kişilerin üstleri nasıl kazandığını açıklar; Boddy bu ustalığı tehlike işareti sayar.
 
@@ -243,11 +243,11 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Martha Stout — Outsmarting the Sociopath Next Door (Outsmarting the Sociopath Next Door: How to Protect Yourself Against a Ruthless Manipulator, 2020)
 
-**Künye.** Martha Stout (d. 1953) Amerikalı klinik psikologdur; 25 yılı aşkın süre Harvard Tıp Fakültesi psikiyatri bölümünde klinik kadroda yer almış, travma alanında terapist olarak çalışmıştır. Özgün dil İngilizce; ilk yayın Nisan 2020, Harmony Books. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 294 sayfa.
+**Künye.** Martha Stout (d. 1953) Amerikalı klinik psikologdur; 25 yılı aşkın süre Harvard Tıp Fakültesi psikiyatri bölümünde klinik kadroda yer almış, travma alanında terapist olarak çalışmıştır. Özgün dil İngilizce; ilk yayın Nisan 2020, Harmony Books. Türkçe baskı: *Yanı Başınızdaki Sosyopatı Alt Etmek* (Terapi Kitap, 275 sayfa; bkmkitap kaydı; Türkçe ad özgün adın karşılığıdır). Hacim: 294 sayfa.
 
 **Bir cümleyle.** Vicdansız biriyle (sosyopat) karşılaşan sıradan insan, duygusal tepkisini esirgeyerek, müttefik toplayarak ve kendi gerçekliğine tutunarak bu kişiyi alt edebilir.
 
-**Bağlam.** İlk kitap The Sociopath Next Door (2005; bu rehberde) her 25 kişiden birinin vicdansız olduğu iddiasıyla geniş okura ulaşmıştı. Stout, sonraki 15 yılda okurlardan gelen binlerce mektupta en sık sorulan sorunun "Peki ne yapmalıyım?" olduğunu anlatır (bellekten, doğrulanmadı). Bu kitap o soruya yanıt veren, tanımadan çok korunmaya odaklanan bir eşlik kitabıdır.
+**Bağlam.** İlk kitap The Sociopath Next Door (2005; bu rehberde) her 25 kişiden birinin vicdansız olduğu iddiasıyla geniş okura ulaşmıştı. Stout, ilk kitap çıktıktan sonra kendi karşılaşmalarını anlatan okurlardan telefon ve mektup yağdığını, bunun için ayrı bir e-posta adresi açtığını ve mektupların birkaç başlık altında toplandığını anlatır. Bu kitap o soruya yanıt veren, tanımadan çok korunmaya odaklanan bir eşlik kitabıdır.
 
 **Yapısı.** Publishers Weekly'ye göre kitap dört ana alanı işler: çocuklarda sosyopati, iş yerinde sosyopati, velayet davalarında sosyopati ve açıkça saldırgan, hatta öldürücü kişiler. Her alanın sonunda o duruma özgü öneriler vardır; ayrıca 10 genel öneri, narsisizm ile sosyopati farkı ve kurumlar ile devletlerdeki sosyopati üzerine bölümler yer alır.
 
@@ -259,7 +259,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 - **Çocuklarda vicdansızlık.** Duygusuz-soğuk özellikler (callous-unemotional traits) gösteren çocukların ebeveynlerine, suçluluk duygusuna seslenmek yerine çocuğun çıkarına hitap eden bir disiplin önerir; örneklerden biri, kasırgada boğulan bir adamın üstünü arayan 11 yaşındaki çocuktur.
 - **Umut.** Kitap, cesur ve şefkatli bireylerin vicdansız kişilere karşı durabileceği iyimser bir notla biter.
 
-**Bilimsel dayanağı.** Kitap araştırmaya değil, terapist deneyimine ve okur mektuplarına dayanır; Publishers Weekly, örneklerin bir kısmının kurgulanmış, bir kısmının okur mektuplarından alınmış olduğunu belirtir. Çocuklardaki duygusuz-soğuk özelliklere ilişkin bölüm, Frick ve arkadaşlarının (2014; bellekten) gelişimsel araştırmalarıyla uyumludur. "Her 25 kişiden biri" sayısı ise toplum örneklemlerinde bulunan daha düşük oranlarla tartışmalıdır (örneğin Coid ve ark., 2009; bellekten). Kanıt düzeyi: **[klinik]**.
+**Bilimsel dayanağı.** Kitap araştırmaya değil, terapist deneyimine ve okur mektuplarına dayanır; Publishers Weekly, örneklerin bir kısmının kurgulanmış, bir kısmının okur mektuplarından alınmış olduğunu belirtir. Çocuklardaki duygusuz-soğuk özelliklere ilişkin bölüm, Frick ve arkadaşlarının (2014, Psychological Bulletin) gelişimsel araştırmalarıyla uyumludur. "Her 25 kişiden biri" sayısı ise toplum örneklemlerinde bulunan daha düşük oranlarla tartışmalıdır (örneğin Coid ve ark., 2009, Büyük Britanya hane halkı örneklemi). Kanıt düzeyi: **[klinik]**.
 
 **Karanlık psikoloji haritasındaki yeri.** Gaslighting, karalama kampanyası, kurban rolü, DARVO (inkâr et, saldır, kurban ile faili yer değiştir) ve uçan maymunlar (sosyopatın başkalarını aracı kullanması) gibi taktiklere karşı korunma ve gri kaya ile temas kesmeyi önerir. Birincil psikopatiye ve duygusuz-soğuk özelliklere değinir. Stout'un ilk kitabının ve Simon'ın In Sheep's Clothing'inin (önceki raporda) doğal devamıdır; iş yeri bölümü bu listedeki Boddy'yle konuşur. Greene'in "kimle uğraştığını bil" yasasının savunma tarafını yazar.
 
@@ -271,7 +271,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Sandra L. Brown — Women Who Love Psychopaths (Women Who Love Psychopaths: Inside the Relationships of Inevitable Harm, 2008)
 
-**Künye.** Sandra L. Brown, danışmanlık alanında yüksek lisans derecesi olan (Liberty University) Amerikalı bir ruh sağlığı danışmanıdır; patolojik ilişkilerden zarar görenlere yönelik eğitim ve iyileşme programları yürüten The Institute for Relational Harm Reduction & Public Pathology Education'ın kurucusu ve yöneticisidir. Özgün dil İngilizce. İlk baskı büyük olasılıkla 2008'dir; 2009 tarihli Mask Publishing baskısı "2. baskı" diye geçer; 2018'de Jennifer R. Young ile birlikte genişletilmiş 3. baskı çıktı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 300 sayfa (doğrulanmadı).
+**Künye.** Sandra L. Brown, danışmanlık alanında yüksek lisans derecesi olan (Liberty University) Amerikalı bir ruh sağlığı danışmanıdır; patolojik ilişkilerden zarar görenlere yönelik eğitim ve iyileşme programları yürüten The Institute for Relational Harm Reduction & Public Pathology Education'ın kurucusu ve yöneticisidir. Özgün dil İngilizce. İlk baskı büyük olasılıkla 2008'dir; 2009 tarihli Mask Publishing baskısı "2. baskı" diye geçer (doğrulanmadı); 2018'de Jennifer R. Young ile birlikte genişletilmiş 3. baskı çıktı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 2018 baskısı yaklaşık 420 sayfa; önceki baskıların hacmi doğrulanmadı.
 
 **Bir cümleyle.** Psikopatik partnerle uzun ilişkiye giren kadınlar zayıf ya da "bağımlı" değil, tersine güçlü bazı mizaç özellikleri taşır ve bu özellikler onları bu ilişkide hem çekici hem de savunmasız kılar.
 
@@ -286,7 +286,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 - **Psikopat değişmez.** Brown, terapinin ya da sevginin bu partneri dönüştürmeyeceğini, ilişkinin "kaçınılmaz zarar" ürettiğini savunur.
 - **İyileşme.** Temas kesme, travmanın işlenmesi ve kendi özelliklerini suçlamak yerine onları korumayı öğrenme önerilir.
 
-**Bilimsel dayanağı.** Bulgular, Brown'un kendi enstitüsü aracılığıyla yürüttüğü bir kadın anketine dayanır; hakemli bir dergide yayımlanmamıştır. Bir inceleme, özellik bulgularının yaklaşık 75 kişilik küçük bir örnekleme dayandığını not eder. Karşılaştırma grubu ve bağımsız tekrar yoktur. Psikopatik partnerlerin kendisi değerlendirilmemiş, kadınların anlatımına güvenilmiştir. Karanlık üçlünün kısa süreli eş seçimiyle ilişkisi (Jonason ve ark., 2009; bellekten) ve şiddet içeren ilişkilerde travma bağına ilişkin araştırmalar (Dutton ve Painter) Brown'un bazı gözlemleriyle uyumludur. Kanıt düzeyi: **[klinik]** (anket verisi var ama hakemsiz).
+**Bilimsel dayanağı.** Bulgular, Brown'un kendi enstitüsü aracılığıyla yürüttüğü bir kadın anketine dayanır; hakemli bir dergide yayımlanmamıştır. Bir inceleme, kitaba göre anketi dünya genelinde "75'in üzerinde" kadının doldurduğunu aktarır ve bunu genelleme için küçük bir örneklem bulur. Karşılaştırma grubu ve bağımsız tekrar yoktur. Psikopatik partnerlerin kendisi değerlendirilmemiş, kadınların anlatımına güvenilmiştir. Karanlık üçlünün kısa süreli eş seçimiyle ilişkisi (Jonason ve ark., 2009, European Journal of Personality) ve şiddet içeren ilişkilerde travma bağına ilişkin araştırmalar (Dutton ve Painter) Brown'un bazı gözlemleriyle uyumludur. Kanıt düzeyi: **[klinik]** (anket verisi var ama hakemsiz).
 
 **Karanlık psikoloji haritasındaki yeri.** Sevgi bombardımanı, idealize et–değersizleştir–terk et döngüsü, aralıklı pekiştirme, travma bağı, gaslighting, geleceği sahteleme ve vakumlama (ayrılıktan sonra geri çekme) taktiklerini ilişkiden çıkan kadının gözünden anlatır; korunma olarak temas kesmeyi önerir. Bu listedeki Carnes'ın The Betrayal Bond'uyla ve Bancroft'un kitabıyla (bu rehberde) konuşur; çekim tarafını Greene'in The Art of Seduction'ı (önceki raporda) ayartıcının gözünden yazar, Brown ise aynı süreci ayartılanın gözünden anlatır.
 
@@ -298,26 +298,26 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Andrew M. Łobaczewski — Political Ponerology (Political Ponerology: A Science on the Nature of Evil Adjusted for Political Purposes, 1998)
 
-**Künye.** Andrzej Łobaczewski (1921–2007), Krakow'daki Jagiellonian Üniversitesi'nde yetişmiş Polonyalı bir psikiyatr ve psikologdur; komünist Polonya'da klinik psikolog olarak çalıştığını ve rejimin baskısı altında kaldığını anlatır. Özgün metin Lehçe yazılmıştır (yazara göre son hâli 1984); İngilizce ilk basım 1998 (doğrulanmadı), geniş yayılan baskı ise 2006'da Kanada'daki Red Pill Press'ten, Laura Knight-Jadczyk editörlüğünde çıktı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 300 sayfa (doğrulanmadı).
+**Künye.** Andrzej Łobaczewski (1921–2007), Krakow'daki Jagiellonian Üniversitesi'nde yetişmiş Polonyalı bir psikiyatr ve psikologdur; komünist Polonya'da klinik psikolog olarak çalıştığını ve rejimin baskısı altında kaldığını anlatır. Özgün metin Lehçe yazılmıştır (yazar 1984'te New York'ta yeniden yazdı, 1998'de düzeltti); İngilizce ilk basım ise 2006'da Kanada'daki Red Pill Press'ten, Laura Knight-Jadczyk editörlüğünde çıktı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 2007 tarihli Red Pill Press baskısı Open Library'de 239 sayfa; 2022 gözden geçirilmiş, genişletilmiş baskı 486 sayfa.
 
 **Bir cümleyle.** Totaliter rejimler, psikopatik ve benzeri kişilik bozukluğu taşıyan bir azınlığın toplumu ele geçirdiği "patokrasi" (pathocracy, hastalıklı kişilerin yönetimi) düzenleridir; kötülüğü bilimsel olarak inceleyen yeni bir alan, "ponoroloji" (ponerology, kötülük bilimi) gereklidir.
 
 **Bağlam.** Łobaczewski'ye göre kitap, Stalin sonrası dönemde bir grup Doğu Avrupalı klinisyenin gizli gözlemlerine dayanır. Yazar, ilk el yazmalarının ve araştırma notlarının yok edildiğini, metni sürgünde (ABD'de) bellekten yeniden yazdığını söyler. Batılı okura, komünizmin bir ideoloji değil bir "psikolojik hastalık" olduğunu anlatmak için yazılmıştır.
 
-**Yapısı.** Kitap, insan doğasına ve "normal" ahlak duygusuna ilişkin giriş bölümlerinden sonra kötülüğün oluşum süreci (ponerogenesis), kişilik bozukluklarının sınıflandırılması, toplumların "histerik dönemleri" ve patokrasinin doğuşu üzerine bölümlere geçer; son bölümler tedavi ve "kötülüğe karşı aşı" önerilerini içerir. Bölüm sayısı ve adları doğrulanmadı.
+**Yapısı.** Kitap on bölümdür. Giriş ve "bazı vazgeçilmez kavramlar" bölümlerinden sonra toplumların "histeroid döngüsü" (The Hysteroidal Cycle) gelir; ardından kötülüğün oluşum süreçlerini ve kişilik sapmalarının sınıflandırılmasını işleyen "Ponerology" bölümü, patokrasinin doğuşunu anlatan "Pathocracy" bölümü, patokrasi altında normal insanlar, psikoloji-psikiyatri ve din üzerine bölümler yer alır; son bölümler tedavi ("Therapy for the World", içinde "bağışıklık" kısmı) ve geleceğe bakıştır.
 
 **Ana fikirler.**
 - **Patokrasi.** Bir ideoloji, zamanla psikopatik özellikli kişilerce ele geçirilir; bu kişiler sağlıklı çoğunluğu yönetimden uzaklaştırır ve kendi değerlerini devlete yayar.
-- **Histerik dönemler.** Toplumlar refah dönemlerinde gerçekliği görmezden gelen bir "histeri" evresine girer ve bu evre kötülüğe kapı açar (kavramın adı bellekten, doğrulanmadı).
-- **Büyüleyiciler (spellbinders).** Kendi çarpık bakışlarını coşkuyla yayan karizmatik kişiler, başkalarını ideolojiye bağlar (terim bellekten, doğrulanmadı).
+- **Histerik dönemler.** Toplumlar refah dönemlerinde gerçekliği görmezden gelen bir "histeri" evresine girer ve bu evre kötülüğe kapı açar; yazar buna "histeroid döngü" (hysteroidal cycle) der.
+- **Büyüleyiciler (spellbinders).** Kendi çarpık bakışlarını coşkuyla yayan karizmatik kişiler, başkalarını ideolojiye bağlar.
 - **Normal insanın direnci.** Sağlıklı insanlar zamanla patokratların "dilini" öğrenir ve bir tür bağışıklık geliştirir; yazar, Doğu Bloku'nun bu yolla çözüleceğini öngörür.
 - **Şiddetsiz çözüm.** Kitap, kişilik bozukluğu taşıyanlara karşı şiddeti açıkça reddeder ve bilgiyi panzehir olarak sunar.
 
-**Bilimsel dayanağı.** Kitabın veri, örneklem ya da yöntem bölümü yoktur; dayandığı iddia edilen araştırmalar kayıptır ve doğrulanamaz. Hakemli bir dergide ya da akademik yayınevinde değil, Cassiopaea adlı medyumluk (channeling) grubuyla bağlantılı Red Pill Press'te yayımlanmıştır (bağlantı bellekten). Kitabı savunan Harrison Koehli bile "yeni bir bilim dalı" iddiasının abartılı olduğunu kabul eder. Bilim ölçütleriyle değerlendirildiğinde bu kitap bilim değil, **sözde bilimdir (pseudoscience)**; psikiyatri terimlerini kullanan bir siyaset felsefesi ve tanıklık metni olarak okunmalıdır. Kanıt düzeyi: **[popüler]**.
+**Bilimsel dayanağı.** Kitabın veri, örneklem ya da yöntem bölümü yoktur; dayandığı iddia edilen araştırmalar kayıptır ve doğrulanamaz. Hakemli bir dergide ya da akademik yayınevinde değil, Laura Knight-Jadczyk'ın Cassiopaea medyumluk (channeling) çevresine (Quantum Future Group) bağlı Red Pill Press'te yayımlanmıştır. Kitabı savunan Harrison Koehli bile tezin "şaşırtıcı ve yeni" olmadığını, yeniliğin psikopatoloji ile totaliterlik arasında bağ kurmakta olduğunu yazar. Bilim ölçütleriyle değerlendirildiğinde bu kitap bilim değil, **sözde bilimdir (pseudoscience)**; psikiyatri terimlerini kullanan bir siyaset felsefesi ve tanıklık metni olarak okunmalıdır. Kanıt düzeyi: **[popüler]**.
 
 **Karanlık psikoloji haritasındaki yeri.** Karanlık üçlünün psikopati ayağını bireyden devlete taşır; ahlaki bağlantısızlık, yalıtma, zorlayıcı denetim ve toplu gaslighting (resmî yalanla gerçeğin bükülmesi) temalarına değinir. Arendt, Hoffer ve Lifton'ın Thought Reform'u (önceki raporda) totaliterliği tarih ve kanıtla açıklarken Łobaczewski aynı olguyu kişilik bozukluğuna indirger; bu karşıtlık öğreticidir. Greene'in "insanların inanma ihtiyacını kullanarak tarikat benzeri bir takipçi kitlesi yarat" yasası, kitaptaki büyüleyici tipine denk düşer.
 
-**Eleştiri ve sınırlar.** Ramon Glazov'un Overland'deki eleştirisi (2020) kitabın iddialarını ve yazarın güvenilirliğini sorgular; Koehli, bunun kitap hakkındaki tek ayrıntılı eleştirel inceleme olduğunu yazar. Akademik dergilerde ciddi bir değerlendirme bulunmadı. Siyasi rakipleri toptan "psikopat" ilan etmeye elverişli olması, kitabı bugün komplo çevrelerinde ve popülist söylemde (örneğin Brezilya'da Olavo de Carvalho'nun önsözlü baskısı) kullanılır hâle getirdi.
+**Eleştiri ve sınırlar.** Ramon Glazov'un Overland'deki eleştirisi (2020) kitabın iddialarını ve yazarın güvenilirliğini sorgular; Koehli, bunun kitap hakkındaki tek ayrıntılı eleştirel inceleme olduğunu yazar. Akademik dergilerde ciddi bir değerlendirme bulunmadı. Siyasi rakipleri toptan "psikopat" ilan etmeye elverişli olması, kitabı bugün komplo çevrelerinde ve popülist söylemde (örneğin Brezilya'da Olavo de Carvalho'nun önsözlü 2014 Vide Editorial baskısı) kullanılır hâle getirdi.
 
 **Kimler okumalı.** Totaliterlik tarihine ve bu kitabın neden popüler olduğuna ilgi duyanlar, eleştirel bir gözle. Uyarı: siyasi karşıtlara uzaktan tanı koyma aracı olarak kullanılmamalı.
 
@@ -325,7 +325,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Joe Navarro ve Toni Sciarra Poynter — Tehlikeli İnsanların Beden Dili (Dangerous Personalities: An FBI Profiler Shows You How to Identify and Protect Yourself from Harmful People, 2014)
 
-**Künye.** Joe Navarro (d. 1953, Küba), FBI'da karşı istihbarat ve davranış değerlendirmesi alanında özel ajan ve amir olarak çalışmış, sonra sözsüz iletişim (beden dili) üzerine yazar ve konuşmacı olmuştur; Toni Sciarra Poynter onunla daha önce de kitap yazmış bir yazar ve editördür. Özgün dil İngilizce; ilk yayın 7 Ekim 2014, Rodale (yayınevi bellekten). Türkçe baskı: Tehlikeli İnsanların Beden Dili, yayınevi katalogda belirtilmemiş (kitapçı kataloğu; ad ve konu benzerliğiyle eşleştirildi). Hacim: yaklaşık 250 sayfa (doğrulanmadı).
+**Künye.** Joe Navarro (d. 1953, Küba), FBI'da karşı istihbarat ve davranış değerlendirmesi alanında özel ajan ve amir olarak çalışmış, sonra sözsüz iletişim (beden dili) üzerine yazar ve konuşmacı olmuştur; Toni Sciarra Poynter onunla daha önce de kitap yazmış bir yazar ve editördür. Özgün dil İngilizce; ilk yayın 7 Ekim 2014, Rodale. Türkçe baskı: Tehlikeli İnsanların Beden Dili, Alfa Yayınları (kitapçı kataloğu). Hacim: yaklaşık 260–270 sayfa (Kirkus: 272).
 
 **Bir cümleyle.** Zarar veren insanların çoğu birkaç tanınabilir kişilik örüntüsüne girer; davranışlarını kontrol listeleriyle erken fark eden kişi kendini koruyabilir.
 
@@ -363,7 +363,7 @@ Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 **Ana fikirler.**
 - **İhanet bağı (travma bağı).** Güç dengesizliği, yoğunluk ve güvenin sömürülmesi bir araya geldiğinde mağdur, kendisine zarar verene daha da sıkı bağlanır. Carnes bunu boşanma, iş ilişkileri, ensest, aile içi şiddet, rehine olayları, profesyonel ve dinî istismarda gösterir.
-- **Travmanın sekiz yolu.** Carnes, travmanın kişide sürmesinin yollarını sayar: travma tepkisi, travma uyarılmışlığı, travmayı bastırma, bölünme, yoksunluk, utanç, tekrar ve bağ (adlar ikincil kaynaktan; tam liste doğrulanmadı). Bağ, bunlardan yalnızca biridir.
+- **Travmanın sürme yolları.** Carnes, travmanın kişide sürmesinin yollarını sayar; Carnes'ın "Trauma Bonds" notunda dokuz yol geçer: travma tepkisi, travma uyarılmışlığı, travma hazzı, travmayı bastırma (blocking), bölünme (splitting), yoksunluk, utanç, tekrar ve bağ (kitap baskısındaki sayı doğrulanmadı). Bağ, bunlardan yalnızca biridir.
 - **Bağımlılık benzerliği.** Mağdur, aralıklı pekiştirme (bir gün şefkat, bir gün zulüm) yüzünden ilişkiye bir madde gibi bağlanır; kesildiğinde yoksunluk benzeri acı yaşar.
 - **Kontrol listesi.** Okur, karşısındaki kişiyi savunma, sır tutma, ayrılmaya karar verip geri dönme ve onu değiştirmeye çalışma gibi işaretlerle kendini sınar.
 - **Çözülme.** Gerçeği kabul etmek, sınır koymak, temas kesmek, destek gruplarına ve terapiye başvurmak ve 12 adım benzeri bir iyileşme süreci önerilir.

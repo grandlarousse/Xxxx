@@ -181,7 +181,7 @@ Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Peter K. Jonason (ed.) — Shining Light on the Dark Side of Personality (Shining Light on the Dark Side of Personality: Measurement Properties and Theoretical Advances, 2022)
 
-**Künye.** Peter Karl Jonason, karanlık üçlü (narsisizm, makyavelizm, psikopati) üzerine en çok yayın yapan kişilik psikologlarından biridir. Ölçek geliştirme ve evrimsel psikoloji alanında çalışır; görev yeri bu kaynaklarda doğrulanmadı (Padova Üniversitesi bağlantısı görülüyor). Özgün dili İngilizce. Hogrefe, "Psychological Assessment – Science and Practice" dizisinin 4. cildi olarak yayımladı. Crossref'te yayın tarihi Haziran 2022, yayınevi sayfasında 2023 görünüyor. Hacmi yaklaşık 330 sayfa (viii + 320). Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** Peter Karl Jonason, karanlık üçlü (narsisizm, makyavelizm, psikopati) üzerine en çok yayın yapan kişilik psikologlarından biridir. Ölçek geliştirme ve evrimsel psikoloji alanında çalışır; Padova Üniversitesi Genel Psikoloji Bölümü'nde çalışır. Özgün dili İngilizce. Hogrefe, "Psychological Assessment – Science and Practice" dizisinin 4. cildi olarak yayımladı. Crossref'te yayın tarihi Haziran 2022, yayınevi sayfasında 2023 görünüyor. Hacmi yaklaşık 330 sayfa (viii + 320). Türkçe baskısı kitapçı kataloglarında görünmüyor.
 
 **Bir cümleyle.** Karanlık kişilik özelliklerini doğru yorumlamak için önce onları hangi ölçekle ve ne kadar iyi ölçtüğümüzü bilmek gerekir.
 
@@ -209,7 +209,7 @@ Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Joshua D. Miller ve Donald R. Lynam (ed.) — The Handbook of Antagonism (The Handbook of Antagonism: Conceptualizations, Assessment, Consequences, and Treatment of the Low End of Agreeableness, 2019)
 
-**Künye.** Joshua D. Miller Georgia Üniversitesi'nde, Donald R. Lynam Purdue Üniversitesi'nde klinik psikoloji profesörüdür (görev yerleri bellekten; Lynam'ın Purdue bağlantısı Vikipedi'de görülüyor). İkisi de kişilik bozuklukları ve psikopati üzerine çalışır. Özgün dili İngilizce. Elsevier'in Academic Press markasıyla 2019'da yayımlandı. Hacmi yaklaşık 400 sayfa (doğrulanmadı). Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** Joshua D. Miller Georgia Üniversitesi'nde, Donald R. Lynam Purdue Üniversitesi'nde psikoloji profesörüdür; Miller orada klinik eğitim programını yönetir. İkisi de kişilik bozuklukları ve psikopati üzerine çalışır. Özgün dili İngilizce. Elsevier 2019'da yayımladı. Hacmi xxi + 415 sayfa (Crossref bölüm kayıtlarına göre). Türkçe baskısı kitapçı kataloglarında görünmüyor.
 
 **Bir cümleyle.** Narsisizm, psikopati ve makyavelizmin "karanlık" yanlarını ortak kılan şey antagonizmdir, yani uyumluluğun düşük ucu.
 
@@ -251,11 +251,11 @@ Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 - **Narsisist ve makyavelist lider.** Ayrı bölümler büyüklenmeci liderin dikkat ve hayranlık arayışını, makyavelist liderin hesaplı manipülasyonunu anlatır.
 - **Kurum da suç ortağıdır.** Liderleri karizmaya göre seçen, eleştiriyi cezalandıran örgütler bu kişileri besler. Son bölüm daha iyi seçme, geri bildirim ve denetim önerir.
 
-**Bilimsel dayanağı.** Kitap geniş bir literatür taramasıdır. Bir incelemeye göre yüzlerce araştırmacının bulgularını özetler. Kendi özgün deney ya da veri sunmaz; vaka anlatıları ve ikincil çalışmalara dayanır. Hogan ve Hogan'ın (2001) karanlık taraf ölçümü ve Babiak ve Hare'in (2006) çalışmaları temel dayanaklardır (bellekten). Kişilik bozukluklarını iş yerine uygulamak bugün de tartışmalıdır. [araştırma] (popüler anlatımlı)
+**Bilimsel dayanağı.** Kitap geniş bir literatür taramasıdır. Bir incelemeye göre yüzlerce araştırmacının bulgularını özetler. Kendi özgün deney ya da veri sunmaz; vaka anlatıları ve ikincil çalışmalara dayanır. Hogan ve Hogan'ın (2001) karanlık taraf ölçümü ve Babiak ve Hare'in (2006) çalışmaları temel dayanaklardır. Kişilik bozukluklarını iş yerine uygulamak bugün de tartışmalıdır. [araştırma] (popüler anlatımlı)
 
 **Karanlık psikoloji haritasındaki yeri.** Karanlık üçlüyü (narsisizm, makyavelizm, psikopati) iş dünyasına taşır. Taktikler açısından üçgenleme, karalama kampanyası ve korku yoluyla yönetme gibi davranışları kurumsal bağlamda anlamaya yardım eder. Babiak ve Hare ile Christie ve Geis (önceki raporda) bu kitabın temel kaynaklarıdır. Jonason'ın derlemesindeki Hogan Gelişim Envanteri bölümü bu kitabın ölçüm tarafıdır. Greene'in "efendinizi asla gölgede bırakmayın" yasasına karşı bir okuma da sunar: Greene güç oyununu öğütler, Furnham bu oyunun kurumu nasıl çürüttüğünü gösterir.
 
-**Eleştiri ve sınırlar.** *Human Resource Management International Digest* incelemesi kitabı yararlı ve aydınlatıcı bulur. *HR Magazine* ise beşte iki puan verir. Eleştirmen David Pardey anlatının dağınık olduğunu ve kitabın bir literatür taraması gibi okunduğunu söyler. Ayrıca kimin için yazıldığının belirsiz olduğunu ekler. 2010'dan sonra karanlık üçlü ölçümünde büyük değişiklikler oldu; kitap bunları içermez.
+**Eleştiri ve sınırlar.** *Human Resource Management International Digest* incelemesi kitabı liderlerin davranışını anlamak için yararlı bir rehber bulur. *HR Magazine* ise beşte iki puan verir. Eleştirmen David Pardey anlatının dağınık olduğunu ve kitabın bir literatür taraması gibi okunduğunu söyler. Ayrıca kimin için yazıldığının belirsiz olduğunu ekler. 2010'dan sonra karanlık üçlü ölçümünde büyük değişiklikler oldu; kitap bunları içermez.
 
 **Kimler okumalı.** Yöneticiler, insan kaynakları uzmanları ve zor bir patronla çalışanlar. Uyarı: kitaptaki tipler bir yöneticiye "psikopat" ya da "narsisist" demek için değil, davranış örüntüsünü tanımak için kullanılmalı.
 
@@ -278,11 +278,11 @@ Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 - **Kişilik ve kin.** İncelemelere göre kitap karanlık üçlünün daha yüksek kincilikle ilişkili olduğunu aktarır. Marcus ve arkadaşlarının (2014) Kincilik Ölçeği (Spitefulness Scale) bu bağı ölçen araçtır.
 - **Sosyal medya kini ucuzlatır.** Yazara göre anonimlik misilleme korkusunu kaldırır. İnsanlar statüsü yüksek olanlara daha kolay saldırır.
 
-**Bilimsel dayanağı.** Kitap gerçek deneysel araştırmalara dayanır: ekonomik oyunlar, nörogörüntüleme, kişilik ölçekleri. Ancak bu bulguları siyaset ve din gibi büyük tarihsel olaylara bağlarken yorum ağırlık kazanır. Ültimatom oyunu bulguları sağlamdır (Güth ve arkadaşları, 1982; Henrich ve arkadaşları, 2005, bellekten). Kincilik ile karanlık özellikler arasındaki bağ Zeigler-Hill ve arkadaşlarının çalışmalarıyla desteklenir. [araştırma] (popüler bilim anlatımı)
+**Bilimsel dayanağı.** Kitap gerçek deneysel araştırmalara dayanır: ekonomik oyunlar, nörogörüntüleme, kişilik ölçekleri. Ancak bu bulguları siyaset ve din gibi büyük tarihsel olaylara bağlarken yorum ağırlık kazanır. Ültimatom oyunu bulguları sağlamdır (Güth ve arkadaşları, 1982; Henrich ve arkadaşları, 2005). Kincilik ile karanlık özellikler arasındaki bağ Zeigler-Hill ve arkadaşlarının çalışmalarıyla desteklenir. [araştırma] (popüler bilim anlatımı)
 
 **Karanlık psikoloji haritasındaki yeri.** Karanlık üçlü ve karanlık dörtlüye yeni bir özellik ekler: kincilik. Taktikler açısından karalama kampanyası, sessiz muamele ve tepkisel istismar gibi davranışların ardındaki "zarar görsem de zarar vereyim" güdüsünü açıklamaya yardım eder. Jonason'ın derlemesinde Zeigler-Hill'in Kincilik Ölçeği bölümü bu kitabın bilimsel ölçüm tarafıdır. Le Bon ve Hoffer'ın (önceki raporda) kalabalık ve kitle hareketi öfkesi üzerine yazdıklarıyla da konuşur. Yazara göre kini kışkırtan "manipülatif karşı elitler" vardır; bu da Holiday'in *Trust Me, I'm Lying* kitabındaki (önceki raporda) öfke ekonomisiyle örtüşür.
 
-**Eleştiri ve sınırlar.** *New York Journal of Books* incelemesi kitabı ilginç ve kışkırtıcı bulur. Ama yazarın vardığı sonuçların anlattığı kanıtın çok ötesine geçtiğini söyler. Bazı okurlar 2016 seçimi ve Hillary Clinton üzerine kısmı tek yanlı bulmuştur. Başka bir inceleme ültimatom oyunu örneklerinin tekrara düştüğünü belirtir. "Karanlık tarafın iyi yanı" çerçevesi, kinin zararlarını hafife alma riski taşır.
+**Eleştiri ve sınırlar.** Troy Jollimore'un *Washington Post* incelemesi kitabı ilginç ve kışkırtıcı bulur. Ama yazarın vardığı sonuçların anlattığı kanıtın çok ötesine geçtiğini söyler. Bazı okurlar 2016 seçimi ve Hillary Clinton üzerine kısmı tek yanlı bulmuştur (doğrulanmadı). Başka bir inceleme ültimatom oyunu örneklerinin tekrara düştüğünü belirtir. "Karanlık tarafın iyi yanı" çerçevesi, kinin zararlarını hafife alma riski taşır.
 
 **Kimler okumalı.** Öfke, intikam ve adalet duygusunun psikolojisini merak eden genel okur. Kitap kinci davranışı haklı çıkarmaz; kendi kin anlarınızı tanımak için okunmalıdır.
 
@@ -317,13 +317,13 @@ Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## W. Keith Campbell ve Carolyn Crist — The New Science of Narcissism (The New Science of Narcissism: Understanding One of the Greatest Psychological Challenges of Our Time—and What You Can Do About It, 2020)
 
-**Künye.** W. Keith Campbell, Georgia Üniversitesi Psikoloji Bölümü'nde profesör olan bir sosyal psikologdur; narsisizm üzerine 120'den fazla hakemli makalesi vardır. Carolyn Crist sağlık ve bilim gazetecisidir (bellekten, doğrulanmadı). Özgün dili İngilizce. Sounds True Eylül 2020'de yayımladı. Hacmi doğrulanmadı; sesli kitap yaklaşık 9 saat 16 dakikadır. Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** W. Keith Campbell, Georgia Üniversitesi Psikoloji Bölümü'nde profesör olan bir sosyal psikologdur; narsisizm üzerine 120'den fazla hakemli makalesi vardır. Carolyn Crist sağlık ve bilim gazetecisidir. Özgün dili İngilizce. Sounds True Eylül 2020'de yayımladı. Hacmi 304 sayfa; sesli kitap yaklaşık 9 saat 17 dakikadır. Türkçe baskı: *Yeni Narsisizm Bilimi* (Okuyan Us Yayınları, 358 sayfa; bkmkitap kaydı; Türkçe ad özgün adın karşılığıdır).
 
 **Bir cümleyle.** Narsisizm çoğu zaman bir bozukluk değil, herkeste değişen düzeyde bulunan bir kişilik özelliğidir ve güncel bilim onu tek değil birkaç farklı biçimde görür.
 
 **Bağlam.** "Narsisist" sözcüğü 2010'larda internette, ilişki tavsiyelerinde ve siyasette çok kullanılır oldu. Campbell, daha önce *The Narcissism Epidemic* kitabını (Twenge ile, 2009) yazmıştı. Bu kitapta sözcüğün yanlış kullanımına karşı genel okura güncel araştırmayı anlatır. Yazarlar halk dilindeki "narsisist" etiketini yumuşatmayı ve bilimsel bir dil sunmayı amaçlar.
 
-**Yapısı.** İkincil bir özete göre kitap 14 bölüm içerir (doğrulanmadı). Önce tanım, ölçme, temel özellikler ve narsisistik kişilik bozukluğu gelir. Ardından "karanlık üçlüler" gibi akraba kavramlar, ilişkiler, liderlik, sosyal medya ve "Büyük Fantezi Göçü" bölümleri yer alır. Son bölümler narsisizmi stratejik kullanma ve azaltma üzerinedir.
+**Yapısı.** Yayınevinin örnek bölümündeki içindekiler sayfasına göre kitap önsöz, üç kısım halinde 15 bölüm ve bir sonsözden oluşur. Önce tanım, ölçme, temel özellikler ve narsisistik kişilik bozukluğu gelir. Ardından "karanlık üçlüler" gibi akraba kavramlar, ilişkiler, liderlik, sosyal medya ve "Büyük Fantezi Göçü" bölümleri yer alır. Son bölümler narsisizmi stratejik kullanma, azaltma, psikoterapi ve narsisizm biliminin geleceği üzerinedir.
 
 **Ana fikirler.**
 - **Büyüklenmeci ve kırılgan narsisizm.** Ölçekler geliştikçe araştırmacılar iki farklı örüntü buldu. Büyüklenmeci narsisizm özgüvenli, çekici ve atılgandır. Kırılgan narsisizm güvensiz, kaygılı ve eleştiriye aşırı duyarlıdır. İkisinin ortak noktası hak iddiası (entitlement) ve antagonizmdir.
@@ -335,8 +335,8 @@ Bu dosyada 10 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 **Bilimsel dayanağı.** Kitap yazarın ve meslektaşlarının hakemli araştırmalarına dayanır: ölçek çalışmaları, faktör analizleri, ikiz araştırmaları. Weiss, Campbell, Lynam ve Miller'ın (2019) üç yönlü model bölümü temel dayanaktır. Vaka ve ünlü örnekleri anlatımı kolaylaştırmak için kullanılır. "Büyük Fantezi Göçü" ve sosyal medya bölümleri daha spekülatiftir. [araştırma] (popüler anlatımlı)
 
-**Karanlık psikoloji haritasındaki yeri.** Büyüklenmeci ve kırılgan narsisizm, karanlık üçlü ve D faktörü kavramlarının en okunur özetidir. Bir özete göre kitap sevgi bombardımanı gibi popüler kavramları sorgular; ayrıntısı doğrulanmadı. Bu yüzden idealize et–değersizleştir–terk et döngüsü gibi popüler taktik anlatılarına bilimsel bir karşı ağırlıktır. Miller ve Lynam'ın *Handbook of Antagonism* kitabıyla ve Jonason'ın derlemesindeki narsisizm ölçekleriyle doğrudan konuşur. Babiak ve Hare (önceki raporda) ve Furnham'ın liderlik kitabı ile liderlik bölümünde buluşur.
+**Karanlık psikoloji haritasındaki yeri.** Büyüklenmeci ve kırılgan narsisizm, karanlık üçlü ve D faktörü kavramlarının en okunur özetidir. Bir özete göre kitap sevgi bombardımanı gibi popüler kavramları sorgular. Bu yüzden idealize et–değersizleştir–terk et döngüsü gibi popüler taktik anlatılarına bilimsel bir karşı ağırlıktır. Miller ve Lynam'ın *Handbook of Antagonism* kitabıyla ve Jonason'ın derlemesindeki narsisizm ölçekleriyle doğrudan konuşur. Babiak ve Hare (önceki raporda) ve Furnham'ın liderlik kitabı ile liderlik bölümünde buluşur.
 
-**Eleştiri ve sınırlar.** Campbell'ın önceki "narsisizm salgını" tezi tartışmalı oldu. Trzesniewski, Donnellan ve Robins (2008) ile Wetzel ve arkadaşları (2017) üniversite öğrencilerinde narsisizmin artmadığını, hatta azaldığını bildirdi (bellekten). Bu kitap o teze göre daha temkinlidir ama sosyal medya bölümünde benzer bir kaygı sürer. Bazı okurlar kitabı kısa bir giriş olarak görür; derinlik arayanlar için yüzeysel kalabilir.
+**Eleştiri ve sınırlar.** Campbell'ın önceki "narsisizm salgını" tezi tartışmalı oldu. Trzesniewski, Donnellan ve Robins (2008) ile Wetzel ve arkadaşları (2017) üniversite öğrencilerinde narsisizmin artmadığını, hatta azaldığını bildirdi. Bu kitap o teze göre daha temkinlidir ama sosyal medya bölümünde benzer bir kaygı sürer. Bazı okurlar kitabı kısa bir giriş olarak görür; derinlik arayanlar için yüzeysel kalabilir.
 
 **Kimler okumalı.** "Narsisist" sözcüğünün ne anlama geldiğini doğru öğrenmek isteyen herkes, özellikle zor bir ilişkiden çıkmış okurlar. Uyarı: kitap bir tanı aracı değildir; partnerinize ya da ebeveyninize etiket koymak yerine davranış örüntülerine bakın.

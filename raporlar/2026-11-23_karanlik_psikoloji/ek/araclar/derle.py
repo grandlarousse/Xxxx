@@ -44,8 +44,8 @@ def tr_var(t):
     m = re.search(r"\*\*Künye\.?\*\*(.*?)\n\*\*", t, re.S)
     cumle = [f(c) for c in re.split(r"(?<=[.;])\s+", m.group(1) if m else "") if "turk" in f(c)]
     ku = " ".join(cumle)
-    if re.search(r"turkce baski(si)?:|turkce yazilmis ozgun|turkce, ozgun", ku): return True
-    if re.search(r"cevirisi olabilecek|cevrildigi biliniyor|adiyla cevrilmis|turkcesi .*bellekten", ku): return None
+    if re.search(r"turkce baski(si)?:|turkce yazilmis ozgun|turkce, ozgun|turkcede .*adiyla (cevrilmistir|cikti)|turkce baskisi var", ku): return True
+    if re.search(r"cevirisi olabilecek|cevrildigi biliniyor|adiyla cevrilmis|turkcesi .*bellekten|buyuk olasilikla .*cevirisidir", ku): return None
     return False
 ozet, toplam = [], {}
 for ad, baslik, kodlar in BOLUM:

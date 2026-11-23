@@ -18,11 +18,11 @@ Bu dosyada 11 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 
 ## Paul Ekman — Telling Lies (Telling Lies: Clues to Deceit in the Marketplace, Politics, and Marriage, 1985)
 
-**Künye.** Paul Ekman (1934–2025), duygular ve yüz ifadeleri üzerine çalışan Amerikalı bir psikologdur. Kariyerinin çoğunu San Francisco'daki California Üniversitesi'nde (UCSF) psikoloji profesörü olarak geçirdi; 2004'te emekli oldu. Özgün dil İngilizce. İlk baskı 1985'te W. W. Norton'dan çıktı. 1992, 2001 ve 2009'da genişletilmiş baskılar geldi; 2009 baskısına yeni bir bölüm eklendi. Türkçede bu kitabın çevirisi olabilecek iki kayıt var: "Yalan Söylediğimi Nasıl Anladın?!" (Okuyan Us, 2012, 392 sayfa) ve "Ne Düşündüğünü Biliyorum" (2015, 408 sayfa); hangisinin Telling Lies çevirisi olduğu doğrulanmadı. "Çocuklar Neden Yalan Söyler?" ise başka bir eserdir. Hacim yaklaşık 350–400 sayfa (doğrulanmadı).
+**Künye.** Paul Ekman (1934–2025), duygular ve yüz ifadeleri üzerine çalışan Amerikalı bir psikologdur. Kariyerinin çoğunu San Francisco'daki California Üniversitesi'nde (UCSF) psikoloji profesörü olarak geçirdi; 2004'te emekli oldu. Özgün dil İngilizce. İlk baskı 1985'te W. W. Norton'dan çıktı. 1992, 2001 ve 2009'da genişletilmiş baskılar geldi; 2009 baskısına yeni bir bölüm eklendi. Türkçede Ekman'ın üç yalan ve duygu kitabı var. *Ne Düşündüğünü Biliyorum* (Diyojen ve Koridor baskıları; Diyojen baskısı 352 sayfa) büyük olasılıkla Telling Lies'ın Türkçe çevirisidir: bkmkitap kaydının tanıtımı "İnsanlar nasıl yalan söyler ve nasıl yakalanırlar" diye başlıyor, ama özgün ad katalogda yazmıyor. "Yalan Söylediğimi Nasıl Anladın?!" (Okuyan Us, 2012, 392 sayfa) ise Goodreads'te Emotions Revealed (2003) kitabının baskısı olarak listelenir. "Çocuklar Neden Yalan Söyler?" başka bir eserdir. Hacim: 1992 baskısı yaklaşık 360 sayfa (dizin s. 351'de başlar).
 
 **Bir cümleyle.** Yalan söyleyen kişi duygularını tam denetleyemez; bu duygular yüzden, sesten ve bedenden "sızar" ve dikkatli bir gözlemci bu ipuçlarını okuyabilir, ama yalnızca büyük bir temkinle.
 
-**Bağlam.** Ekman, kitabı yazdığında yirmi yılı aşkın süredir yüz ifadeleri üzerine çalışıyordu. Wallace Friesen ile birlikte temel duyguların kültürler arası evrenselliğini savunan araştırmalar yapmış ve yüz kaslarının hareketlerini kodlayan Yüz Hareketi Kodlama Sistemi'ni (Facial Action Coding System, FACS) 1978'de tamamlamıştı. Telling Lies bu laboratuvar bilgisini genel okura, avukatlara, polislere, iş insanlarına ve eşlere açmak için yazıldı. Alt başlık bunu gösterir: piyasa, siyaset ve evlilik. Kitap, Soğuk Savaş dönemi siyasi yalanlarına ve yalan makinesinin (poligraf) mahkemelerde kullanımına dair tartışmaların ortasında çıktı. Ekman bunu en ünlü kitabı olarak gördü.
+**Bağlam.** Ekman, kitabı yazdığında yirmi yılı aşkın süredir yüz ifadeleri üzerine çalışıyordu. Wallace Friesen ile birlikte temel duyguların kültürler arası evrenselliğini savunan araştırmalar yapmış ve yüz kaslarının hareketlerini kodlayan Yüz Hareketi Kodlama Sistemi'ni (Facial Action Coding System, FACS) 1978'de tamamlamıştı. Telling Lies bu laboratuvar bilgisini genel okura, avukatlara, polislere, iş insanlarına ve eşlere açmak için yazıldı. Alt başlık bunu gösterir: piyasa, siyaset ve evlilik. Kitap, Soğuk Savaş dönemi siyasi yalanlarına ve yalan makinesinin (poligraf) mahkemelerde kullanımına dair tartışmaların ortasında çıktı. Kitap, Ekman'ın en ünlü eseri sayılır.
 
 **Yapısı.** 1992 baskısının içindekilerine göre bölümler şöyledir:
 1. Giriş: yalanın neden önemli olduğu ve kitabın sınırları.
@@ -35,7 +35,7 @@ Bu dosyada 11 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cüml
 8. Yalanı denetlemek (Lie Checking): bir yalanın yakalanma olasılığını tartan soru listesi.
 9. 1990'larda yalan yakalamak: yeni bulgular.
 10. Kamusal hayatta yalanlar: siyasi örnekler.
-Ardından sonsöz ve ek gelir. İlk baskı daha az bölümlüdür; 9. ve 10. bölümler sonraki baskılarda eklendi (ilk baskının bölüm sayısı doğrulanmadı). 2009 baskısı en yeni araştırmalarını anlatan bir bölüm daha ekler.
+Ardından sonsöz ve ek gelir. İlk baskı (1985) sekiz bölümdür; 9. ve 10. bölümler 1991–1992 genişletilmiş baskısında iki yeni bölüm olarak eklendi. 2009 baskısı en yeni araştırmalarını anlatan bir bölüm daha ekler.
 
 **Ana fikirler.**
 - **Yalanın iki yolu.** Ekman'a göre yalan ya gizleme (bir şeyi söylememek) ya da çarpıtmadır (yanlışı doğruymuş gibi sunmak). Gizleme genellikle daha kolaydır; çünkü hatırlanacak bir hikâye yoktur. Bu ayrım, ilişkilerdeki "söylememe" yoluyla aldatmayı da kapsar.
@@ -48,9 +48,9 @@ Ardından sonsöz ve ek gelir. İlk baskı daha az bölümlüdür; 9. ve 10. bö
 - **Poligrafın sınırları.** Yalan makinesi yalanı değil, uyarılmayı ölçer. Masum ama korkan biri "yalancı", soğukkanlı bir yalancı "masum" çıkabilir. Ekman bu yüzden poligrafa mahkemede ağırlık verilmesine karşı temkinlidir.
 - **Yalanı denetleme listesi.** Kitap, bir yalanın yakalanmasını kolaylaştıran ya da zorlaştıran koşulları soru soru tartar: Yalan önceden hazırlandı mı? Riskler yüksek mi? Yalancı bu kişiyi tanıyor mu? Böylece okur, ipucu aramadan önce durumu değerlendirmeyi öğrenir.
 
-**Bilimsel dayanağı.** Kitap, Ekman ve arkadaşlarının laboratuvar deneylerine dayanır. Örneğin hemşirelik öğrencilerinin hoş ya da rahatsız edici filmler izlerken duygularını gizlemeye çalıştığı deneyler bunlardandır (ayrıntı doğrulanmadı). Duygu ifadelerinin evrenselliği kısmı güçlü bir araştırma geleneğine dayanır, ama kültürel farklılıkları vurgulayan eleştirileri de vardır.
+**Bilimsel dayanağı.** Kitap, Ekman ve arkadaşlarının laboratuvar deneylerine dayanır. Örneğin hemşirelik öğrencilerinin hoş ya da rahatsız edici filmler izlerken duygularını gizlemeye çalıştığı deneyler bunlardandır (3. bölümde anlatılır). Duygu ifadelerinin evrenselliği kısmı güçlü bir araştırma geleneğine dayanır, ama kültürel farklılıkları vurgulayan eleştirileri de vardır.
 
-Yalan yakalama kısmında tablo daha zayıftır. Bond ve DePaulo'nun (2006) 206 çalışmayı ve 24.483 yargıcıyı birleştiren meta-analizi (çok sayıda çalışmanın sonuçlarını birleştiren analiz), insanların yalanla doğruyu ortalama %54 doğrulukla ayırdığını buldu. Bu, yazı-tura atmanın yalnızca biraz üstüdür. DePaulo ve arkadaşlarının (2003) ipucu meta-analizi de yalana özgü davranış ipuçlarının genelde zayıf olduğunu gösterdi (kaynaktan görülmedi). Aldert Vrij'in çalışmaları, sözel içerik ve bilişsel yük temelli yöntemlerin yüz okumaktan daha umut verici olduğunu savunur (bellekten). Porter ve ten Brinke'nin (2008) çalışmasında mikro ifadeler seyrek ve çoğu zaman yarımdı (bellekten, doğrulanmadı).
+Yalan yakalama kısmında tablo daha zayıftır. Bond ve DePaulo'nun (2006) 206 çalışmayı ve 24.483 yargıcıyı birleştiren meta-analizi (çok sayıda çalışmanın sonuçlarını birleştiren analiz), insanların yalanla doğruyu ortalama %54 doğrulukla ayırdığını buldu. Bu, yazı-tura atmanın yalnızca biraz üstüdür. DePaulo ve arkadaşlarının (2003) ipucu meta-analizi de yalana özgü davranış ipuçlarının genelde zayıf olduğunu gösterdi. Aldert Vrij'in çalışmaları, sözel içerik ve bilişsel yük temelli yöntemlerin yüz okumaktan daha umut verici olduğunu savunur (örneğin Vrij ve arkadaşları 2006). Porter ve ten Brinke'nin (2008) çalışmasında mikro ifadeler seyrekti (tüm ifadelerin %2'si) ve yalnızca yüzün üst ya da alt yarısında görüldü.
 
 Kanıt düzeyi: **[araştırma]**. Ancak kitabın pratik vaatleri, dayandığı araştırmanın desteklediğinden daha iddialıdır.
 
@@ -59,7 +59,7 @@ Kanıt düzeyi: **[araştırma]**. Ancak kitabın pratik vaatleri, dayandığı 
 **Eleştiri ve sınırlar.**
 - **Abartılan uygulama.** Ekman'ın mikro ifade çalışmaları ABD Ulaştırma Güvenliği İdaresi'nin (TSA) SPOT programına temel oldu. Program 2007'de havalimanlarında başladı ve 2013'e kadar yaklaşık 900 milyon dolar harcandı. ABD Sayıştayı (GAO) 2010'da programın bilimsel olarak doğrulanmadan yaygınlaştırıldığını eleştirdi. Sharon Weinberger'in Nature'daki yazısı (2010) da bu temeli sorguladı.
 - **Popüler kültürün etkisi.** Ekman, Lie to Me dizisinin bilim danışmanıydı; dizideki Dr. Lightman ondan esinlenir. Dizi, birkaç saniyelik yüz okumanın yalanı kesin ele verdiği izlenimini yaydı. Kitabın kendisi daha temkinli olsa da bu izlenim kitabın okunuşunu etkiledi.
-- **Hakemli yayın sorunu.** Ekman sonraki dönemde bazı yalan yakalama bulgularını, güvenlik amaçlı kötüye kullanım kaygısıyla, tam olarak yayımlamadığını söyledi (bellekten, doğrulanmadı). Bu durum bağımsız sınamayı zorlaştırdı.
+- **Hakemli yayın sorunu.** Ekman sonraki dönemde bazı yalan yakalama bulgularını, güvenlik amaçlı kötüye kullanım kaygısıyla, tam olarak yayımlamadığını söyledi (Nature, 2010). Bu durum bağımsız sınamayı zorlaştırdı.
 - **Eskiyen yanlar.** Siyasi örnekler büyük ölçüde 1970–80'lerin ABD'sine aittir. Alan bugün yüz okumadan çok, sözel içeriğe, bağlama ve kanıta yönelmiştir.
 
 **Kimler okumalı.** Yalan araştırmasının nereden başladığını görmek isteyen herkes okuyabilir; ama Levine'in Duped kitabıyla birlikte okunmalıdır. Uyarı: kitabı bir "yalan dedektörü" kılavuzu sanıp eşinize ya da çevrenize yüz okuma ile suçlama yöneltmek, Ekman'ın kendisinin uyardığı Othello hatasıdır.
@@ -102,7 +102,7 @@ Birinci kısım, Aldatmanın Sosyal Bilimi:
 - **Doğruluk etkisi.** İnsanlar mesajların çoğunu doğru saydığı için doğruları yüksek, yalanları düşük oranda doğru bilirler (veracity effect). Bond ve DePaulo'nun (2006) meta-analizinde doğruların %61'i, yalanların %47'si doğru sınıflandı.
 - **Taban oranı.** Park–Levine olasılık modeline göre ölçülen doğruluk, ortamdaki yalan oranına bağlıdır. Gerçek hayatta yalan seyrekse, doğruluk varsayılanı çoğu zaman doğru sonuç verir.
 - **Birkaç şeffaf yalancı.** Laboratuvardaki %54'lük doğruluğun büyük kısmı, yalanı belli olan az sayıda kişiden gelir. Çoğu yalancı ise ele vermez. Bazı dürüst insanlar da "dürüst görünmeyen" bir tavırla yanlışlıkla yalancı sanılır (gönderici tavrı).
-- **İnsanlar yalanı gerçekte nasıl yakalar.** Gerçek hayatta yalanlar çoğu zaman anında değil, sonradan ortaya çıkan kanıtla ya da bir itirafla anlaşılır (Park ve arkadaşları 2002; bellekten). Yüz ve beden ipuçları bu süreçte küçük bir rol oynar.
+- **İnsanlar yalanı gerçekte nasıl yakalar.** Gerçek hayatta yalanlar çoğu zaman anında değil, sonradan ortaya çıkan kanıtla ya da bir itirafla anlaşılır (Park ve arkadaşları 2002). Yüz ve beden ipuçları bu süreçte küçük bir rol oynar.
 - **Doğruluğu artırmak.** Levine'e göre en iyi yol davranış okumak değil, söylenen içeriği bağlam ve kanıtla karşılaştırmak ve iyi sorular sormaktır. Bu bölüm uzman sorgulamasının doğruluğu artırdığı deneyleri anlatır (ayrıntı doğrulanmadı).
 
 **Bilimsel dayanağı.** Kitap, Levine ve ekibinin yıllar içinde yaptığı onlarca deneye ve alandaki meta-analizlere dayanır; başta deneylerin listesi verilir. Kuram bir dizi önerme ve modülden oluşur; Vikipedi'ye göre 12 önerme ve 13 modül, etki ve küçük kuram içerir. Bu yüzden ayrı ayrı sınanabilir. Ana bulgular, yani düşük ortalama doğruluk ve doğruluk yanlılığı, Bond ve DePaulo (2006) gibi bağımsız meta-analizlerle uyumludur. Levine (2022) kuramı siyasi yanlış bilgilendirmeye de uyguladı: kişinin kendi inancına uygunluk, sosyal uyum ve mesajın tekrarı, yanlış bilgiye inanma olasılığını artırır.
@@ -150,7 +150,7 @@ Kanıt düzeyi: **[araştırma]**.
 
 ## Daniel Simons ve Christopher Chabris — Nobody's Fool (Nobody's Fool: Why We Get Taken In and What We Can Do About It, 2023)
 
-**Künye.** Daniel Simons (d. 1969), Illinois Üniversitesi'nde (Urbana-Champaign) deneysel psikolog ve profesör; Christopher Chabris (d. 1966), Geisinger sağlık sisteminde araştırmacı bilişsel bilimci, daha önce Union College ve Harvard'da ders verdi. İkili, dikkat ve algının sınırlarını gösteren "görünmez goril" deneyiyle ve The Invisible Gorilla (2010) kitabıyla tanınır. Özgün dil İngilizce; ilk yayın 11 Temmuz 2023, Basic Books. Türkçe baskısı kitapçı kataloglarında görünmüyor (katalogdaki "Simons" kayıtları romancı Paullina Simons'a ait). Hacim: yaklaşık 336 sayfa.
+**Künye.** Daniel Simons (d. 1969), Illinois Üniversitesi'nde (Urbana-Champaign) deneysel psikolog ve profesör; Christopher Chabris (d. 1966), Geisinger sağlık sisteminde araştırmacı bilişsel bilimci, daha önce Union College ve Harvard'da ders verdi. İkili, dikkat ve algının sınırlarını gösteren "görünmez goril" deneyiyle ve The Invisible Gorilla (2010) kitabıyla tanınır. Özgün dil İngilizce; ilk yayın 11 Temmuz 2023, Basic Books. Türkçe baskı: *Külyutmaz* (Say Yayınları, 264 sayfa; bkmkitap kaydı; tanıtım metni kitabın konusuyla birebir örtüşür). Hacim: yaklaşık 336 sayfa.
 
 **Bir cümleyle.** Bizi dolandırıcılara açık hâle getiren şey aptallık değil, günlük hayatta çoğu zaman işimize yarayan düşünme alışkanlıklarıdır; bu alışkanlıkların ne zaman aleyhimize işlediğini bilip doğru soruları sorarsak kanmamız zorlaşır.
 
@@ -177,7 +177,7 @@ Kanıt düzeyi: **[araştırma]**.
 
 ## Stephen Greenspan — Annals of Gullibility (Annals of Gullibility: Why We Get Duped and How to Avoid It, 2008)
 
-**Künye.** Stephen Greenspan, Connecticut Üniversitesi'nde eğitim psikolojisi emekli profesörü ve Colorado Üniversitesi'nde psikiyatri bölümüyle bağlantılı bir akademisyen. Uzun yıllar zihinsel yetersizliği olan kişilerin toplumsal savunmasızlığını inceledi; bu konuda mahkemelerde bilirkişilik yaptı (bellekten, doğrulanmadı). Özgün dil İngilizce; ilk yayın Aralık 2008, Praeger (pek çok kaynak 2009 yazar, çünkü kitap yıl sonunda çıktı). Önsözü Donald S. Connery yazdı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 200 sayfa.
+**Künye.** Stephen Greenspan, Connecticut Üniversitesi'nde eğitim psikolojisi emekli profesörü ve Colorado Üniversitesi'nde psikiyatri bölümüyle bağlantılı bir akademisyen. Uzun yıllar zihinsel yetersizliği olan kişilerin toplumsal savunmasızlığını inceledi; bu konuda mahkemelerde bilirkişilik yaptı (bellekten, doğrulanmadı). Özgün dil İngilizce; ilk yayın 2008 (ay doğrulanmadı), Praeger (pek çok kaynak 2009 yazar, çünkü kitap yıl sonunda çıktı). Önsözü Donald S. Connery yazdı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 200 sayfa.
 
 **Bir cümleyle.** Kanabilirlik (gullibility: aleyhimize olacak bir şeye, uyarı işaretlerine rağmen ikna edilmemiz) zekâ eksikliği değildir; durum, düşünme, kişilik ve duygu birlikte çalıştığında herkes kanabilir.
 
@@ -341,7 +341,7 @@ Kanıt düzeyi: **[araştırma]**.
 
 ## Becky Holmes — Keanu Reeves Is Not in Love with You (Keanu Reeves Is Not in Love with You: The Murky World of Online Romance Fraud, 2023)
 
-**Künye.** Becky Holmes İngiliz bir yazardır; X (eski Twitter) hesabı @deathtospinach'te dolandırıcılarla yazışmalarının ekran görüntülerini paylaşarak tanındı. Akademisyen ya da gazeteci değildir; bu onun ilk kitabıdır. Özgün dil İngilizce; İngiltere'de Unbound yayınevi (2023; Open Library kaydında 2024; ABD baskısı Nisan 2024); yaklaşık 224 sayfa. Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** Becky Holmes İngiliz bir yazardır; X (eski Twitter) hesabı @deathtospinach'te dolandırıcılarla yazışmalarının ekran görüntülerini paylaşarak tanındı. Akademisyen ya da gazeteci değildir; bu onun ilk kitabıdır. Özgün dil İngilizce; İngiltere'de Unbound yayınevi (2023, doğrulanmadı; Open Library ve NetGalley UK kayıtlarında 2024; ABD baskısı Nisan 2024); yaklaşık 224 sayfa. Türkçe baskısı kitapçı kataloglarında görünmüyor.
 
 **Bir cümleyle.** Romantik dolandırıcılık (romance scam) gülünç görünen ama yıkıcı sonuçlar doğuran örgütlü bir suçtur; kurban olmak saflık değil, iyi tasarlanmış bir duygusal manipülasyonun sonucudur.
 
