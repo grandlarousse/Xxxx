@@ -56,7 +56,7 @@
 
 ## 5. Evlilik ve orta yaş
 
-**(a) Belirti.** Jung (CW 17 "Psikolojik Bir İlişki Olarak Evlilik", 1925; yerel rapor K09-5'e göre özet; §§324–345 doğrulanmadı): gençlikte eş seçimi büyük ölçüde bilinçdışı güdülerle, özellikle ebeveyn imgeleriyle yapılır. "Kapsayan/kapsanan" modeli: karmaşık eş "boşta kalan" yanını dışarıda arar; kriz hayatın ikinci yarısının eşiğinde gelir. Jung'un anne kompleksli kızlar için tespiti: olumsuz anne kompleksli kadın, kompleksi aşarsa, evliliğini "ikinci yarıda" başarılı kılma şansı en yüksek tiptir (CW 9/i §184, birincil metin; dönemin görüşü).
+**(a) Belirti.** Jung (CW 17 "Psikolojik Bir İlişki Olarak Evlilik", 1925; §§324–345; aralık ve "kap/kapsanan" (§331–333) CW 17 metninde doğrulandı, bkz. B2): gençlikte eş seçimi büyük ölçüde bilinçdışı güdülerle, özellikle ebeveyn imgeleriyle yapılır. "Kapsayan/kapsanan" modeli: karmaşık eş "boşta kalan" yanını dışarıda arar; kriz hayatın ikinci yarısının eşiğinde gelir. Jung'un anne kompleksli kızlar için tespiti: olumsuz anne kompleksli kadın, kompleksi aşarsa, evliliğini "ikinci yarıda" başarılı kılma şansı en yüksek tiptir (CW 9/i §184, birincil metin; dönemin görüşü).
 
 **(b) Çalışma.** Marriage denemesinin çıkardığı sorular çiftin ortak okuyabileceği sorulardır; kaynak: Jung (özet düzeyinde). Orta yaş için *Maskülen* ekindeki Hollis ve Stein önerileri aynen geçerlidir; ikisi de bir yöntem değil, çağrıdır. Çift çalışması için Young-Eisendrath'ın yöntemi terapist eşliğindedir (4. bölüm).
 

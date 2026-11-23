@@ -17,7 +17,7 @@ Sayfalar Princeton/MUSE içindekilerindendir (baskı: Princeton Jung Extracts; s
 |---|---|---|
 | I, s. 5-24 | Kadın Kültü ve Ruh Kültü (The Worship of Woman and the Worship of the Soul) | CW 6 *Psikolojik Tipler*, Bölüm V (şiirde tip sorunu, Spitteler), 4a; §375-406 (orta güven); 1921. CW s. 221-240 |
 | I, s. 25-40 | Bir Öğrencinin Aşk Sorunu | CW 10, §197-235; Zürih'te öğrencilere konuşma, yaklaşık Aralık 1922; İngilizce ilk yayın 1928 |
-| I, s. 41-54 | Psikolojik İlişki Olarak Evlilik | CW 17, §324-345 (hafızadan; doğrulanmadı); 1925 (Almanca kitap 1931). CW s. 187-201 |
+| I, s. 41-54 | Psikolojik İlişki Olarak Evlilik | CW 17, §324-345 (CW 17 OCR metninde doğrulandı, bkz. B2); 1925, Keyserling (ed.), *Das Ehebuch*; yeniden basım 1931. CW s. 187-201 |
 | I, s. 55-76 | Avrupa'da Kadın | CW 10, §236-275; Ekim 1927 (*Europäische Revue*) |
 | I, s. 77-100 | Anima ve Animus | CW 7, "Ego ile Bilinçdışı Arasındaki İlişkiler", bölüm II; §296-340; ilk 1916, bu sürüm 1928 |
 | II, s. 103-140 | Anne Arketipinin Psikolojik Yönleri, 5 alt başlık: 1 Arketip kavramı (103-108), 2 Anne arketipi (109-112), 3 Anne kompleksi (113-120), 4 Anne kompleksinin olumlu yönleri (121-130), 5 Sonuç (131-140) | CW 9/i, §148-198; Eranos 1938, gözden geçirilmiş 1954 |
