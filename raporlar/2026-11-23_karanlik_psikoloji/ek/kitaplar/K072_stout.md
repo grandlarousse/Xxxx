@@ -4,7 +4,7 @@
 
 **Bir cümleyle.** Vicdansız biriyle (sosyopat) karşılaşan sıradan insan, duygusal tepkisini esirgeyerek, müttefik toplayarak ve kendi gerçekliğine tutunarak bu kişiyi alt edebilir.
 
-**Bağlam.** İlk kitap The Sociopath Next Door (2005; bu rehberde) her 25 kişiden birinin vicdansız olduğu iddiasıyla geniş okura ulaşmıştı. Stout, sonraki 15 yılda okurlardan gelen binlerce mektupta en sık sorulan sorunun "Peki ne yapmalıyım?" olduğunu anlatır (bellekten, doğrulanmadı). Bu kitap o soruya yanıt veren, tanımadan çok korunmaya odaklanan bir eşlik kitabıdır.
+**Bağlam.** İlk kitap The Sociopath Next Door (2005; bu rehberde) her 25 kişiden birinin vicdansız olduğu iddiasıyla geniş okura ulaşmıştı. Stout, ilk kitap çıktıktan sonra kendi karşılaşmalarını anlatan okurlardan telefon ve mektup yağdığını, bunun için ayrı bir e-posta adresi açtığını ve mektupların birkaç başlık altında toplandığını anlatır. Bu kitap o soruya yanıt veren, tanımadan çok korunmaya odaklanan bir eşlik kitabıdır.
 
 **Yapısı.** Publishers Weekly'ye göre kitap dört ana alanı işler: çocuklarda sosyopati, iş yerinde sosyopati, velayet davalarında sosyopati ve açıkça saldırgan, hatta öldürücü kişiler. Her alanın sonunda o duruma özgü öneriler vardır; ayrıca 10 genel öneri, narsisizm ile sosyopati farkı ve kurumlar ile devletlerdeki sosyopati üzerine bölümler yer alır.
 
@@ -16,7 +16,7 @@
 - **Çocuklarda vicdansızlık.** Duygusuz-soğuk özellikler (callous-unemotional traits) gösteren çocukların ebeveynlerine, suçluluk duygusuna seslenmek yerine çocuğun çıkarına hitap eden bir disiplin önerir; örneklerden biri, kasırgada boğulan bir adamın üstünü arayan 11 yaşındaki çocuktur.
 - **Umut.** Kitap, cesur ve şefkatli bireylerin vicdansız kişilere karşı durabileceği iyimser bir notla biter.
 
-**Bilimsel dayanağı.** Kitap araştırmaya değil, terapist deneyimine ve okur mektuplarına dayanır; Publishers Weekly, örneklerin bir kısmının kurgulanmış, bir kısmının okur mektuplarından alınmış olduğunu belirtir. Çocuklardaki duygusuz-soğuk özelliklere ilişkin bölüm, Frick ve arkadaşlarının (2014; bellekten) gelişimsel araştırmalarıyla uyumludur. "Her 25 kişiden biri" sayısı ise toplum örneklemlerinde bulunan daha düşük oranlarla tartışmalıdır (örneğin Coid ve ark., 2009; bellekten). Kanıt düzeyi: **[klinik]**.
+**Bilimsel dayanağı.** Kitap araştırmaya değil, terapist deneyimine ve okur mektuplarına dayanır; Publishers Weekly, örneklerin bir kısmının kurgulanmış, bir kısmının okur mektuplarından alınmış olduğunu belirtir. Çocuklardaki duygusuz-soğuk özelliklere ilişkin bölüm, Frick ve arkadaşlarının (2014, Psychological Bulletin) gelişimsel araştırmalarıyla uyumludur. "Her 25 kişiden biri" sayısı ise toplum örneklemlerinde bulunan daha düşük oranlarla tartışmalıdır (örneğin Coid ve ark., 2009, Büyük Britanya hane halkı örneklemi). Kanıt düzeyi: **[klinik]**.
 
 **Karanlık psikoloji haritasındaki yeri.** Gaslighting, karalama kampanyası, kurban rolü, DARVO (inkâr et, saldır, kurban ile faili yer değiştir) ve uçan maymunlar (sosyopatın başkalarını aracı kullanması) gibi taktiklere karşı korunma ve gri kaya ile temas kesmeyi önerir. Birincil psikopatiye ve duygusuz-soğuk özelliklere değinir. Stout'un ilk kitabının ve Simon'ın In Sheep's Clothing'inin (önceki raporda) doğal devamıdır; iş yeri bölümü bu listedeki Boddy'yle konuşur. Greene'in "kimle uğraştığını bil" yasasının savunma tarafını yazar.
 

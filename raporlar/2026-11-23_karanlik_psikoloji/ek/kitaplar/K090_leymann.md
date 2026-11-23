@@ -15,7 +15,7 @@
 - **Sağlık sonuçları.** Leymann uzun süreli mobbingin travma sonrası stres belirtilerine yol açtığını ve bunun sık sık kişilik bozukluğu olarak yanlış tanılandığını savundu.
 - **Kurumun sorumluluğu.** Leymann'a göre nedeni kurbanın kişiliğinde değil, iş örgütlenmesinde ve yönetimin çatışmayı çözmemesinde aramak gerekir.
 
-**Bilimsel dayanağı.** Dayanak görüşmeler, vaka çalışmaları ve İsveç'te yürütülen anket araştırmalarıdır. LIPT sonradan pek çok ülkede kullanıldı. Ölçme alanında Einarsen ve arkadaşlarının Olumsuz Davranışlar Anketi (NAQ-R, 2009; bellekten, doğrulanmadı) daha yaygın hâle geldi. Zapf ve Einarsen'in çalışmaları Leymann'ın modelini geliştirdi ama bazı yönlerini düzeltti. Genel kanıt düzeyi: [araştırma] (kitap ise geniş okura yazılmıştır).
+**Bilimsel dayanağı.** Dayanak görüşmeler, vaka çalışmaları ve İsveç'te yürütülen anket araştırmalarıdır. LIPT sonradan pek çok ülkede kullanıldı. Ölçme alanında Einarsen ve arkadaşlarının Olumsuz Davranışlar Anketi (NAQ-R; Einarsen, Hoel ve Notelaers, 2009) daha yaygın hâle geldi. Zapf ve Einarsen'in çalışmaları Leymann'ın modelini geliştirdi ama bazı yönlerini düzeltti. Genel kanıt düzeyi: [araştırma] (kitap ise geniş okura yazılmıştır).
 
 **Karanlık psikoloji haritasındaki yeri.** Kitap yalıtma, karalama kampanyası, sessiz muamele ve uçan maymunların (failin başkalarını kurbana karşı kullanması) iş yerindeki karşılığını tanımlar. Bu listedeki Hirigoyen'in ahlaki taciz kavramıyla aynı kuşaktandır. Kurumsal düzlemde önceki raporda Babiak ve Hare'in *Snakes in Suits*'i ile konuşur. Greene'in "çobana vur, sürü dağılsın" yasasının (42. yasa) mağdur tarafından görünümü gibidir.
 

@@ -6,14 +6,14 @@
 
 **Bağlam.** De Becker şiddetle çocuklukta tanıştı. Publishers Weekly ve Vikipedi'ye göre annesi defalarca dövülmüş, bir keresinde de Becker'in gözü önünde üvey babasına ateş etmişti. Annesi o 16 yaşındayken intihar etti. De Becker yetişkinlikte ünlülerin takipçilerini (stalker) inceleyen, tehdit mektuplarını değerlendiren bir şirket kurdu. Kitap, 1990'ların ABD'sinde suç korkusunun yüksek olduğu bir dönemde, özellikle kadınlara ve yabancı, iş yeri ya da eş kaynaklı şiddetten korkan sıradan okura yazıldı. Yazar televizyonun abartılı haberlerinin gerçek tehlike ile üretilmiş korkuyu ayırt etmeyi zorlaştırdığını da savunuyor. Kitap 16 hafta *New York Times* çok satanlar listesinde kaldı.
 
-**Yapısı.** Kitap 15 bölümden oluşuyor (ikincil özet kaynağı). Kaynakta doğrulanan adlar: 4. bölüm "Survival Signals", 5. bölüm "Imperfect Strangers", 14. bölüm "Extreme Hazards". Diğer bölüm adları ve sırası bellekten (doğrulanmadı):
-- Bölüm 1–3: tehlike anında sezgi, sezginin nasıl çalıştığı ("teknolojisi") ve öngörünün temelleri
-- Bölüm 4–5: hayatta kalma sinyalleri ve yabancılardan gelen tehlike; olay öncesi göstergeler
+**Yapısı.** Kitap 15 bölümden oluşuyor. Bölüm adları ve sırası Open Library'deki içindekiler kaydından:
+- Bölüm 1–3: tehlike anında sezgi ("In the Presence of Danger"), sezginin nasıl çalıştığı ("The Technology of Intuition") ve öngörünün temelleri ("The Academy of Prediction")
+- Bölüm 4–5: hayatta kalma sinyalleri ("Survival Signals") ve yabancılardan gelen tehlike ("Imperfect Strangers"); olay öncesi göstergeler
 - Bölüm 6–8: yüksek riskli öngörüler, tehditlerin anlamı ("Promises to Kill") ve ısrarlı takip ("Persistence, Persistence")
-- Bölüm 9: iş yerinde şiddet
-- Bölüm 10–11: eş şiddeti ("Intimate Enemies") ve reddedilmeyi kabul etmeyen kişiler
+- Bölüm 9: iş yerinde şiddet ("Occupational Hazards")
+- Bölüm 10–11: eş şiddeti ("Intimate Enemies") ve flört ilişkisinden doğan ısrarlı takip ("I Was Trying to Let Him Down Easy")
 - Bölüm 12–13: çocukların şiddeti ve kamusal figürlere yönelik saldırılar
-- Bölüm 14–15: aşırı tehlikeler ve korkunun armağanı (sonuç)
+- Bölüm 14–15: aşırı tehlikeler ("Extreme Hazards") ve korkunun armağanı (sonuç)
 
 **Ana fikirler.**
 - **Sezgi bir bilgi işleme biçimidir.** De Becker'e göre içgüdüsel tedirginlik "boş" bir duygu değil. Zihin, adlandıramadığı ayrıntıları hızla birleştirip bir uyarı üretir. Asıl tehlike bu uyarıyı kibarlık, utanç ya da "abartıyorum" düşüncesiyle bastırmaktır.
@@ -24,8 +24,8 @@
 - **Tefecilik (loan sharking).** İstenmemiş yardım sunmak ve karşılığında açıklık ya da yakınlık beklemek. Bu, Cialdini'nin karşılıklılık ilkesinin istismar edilmiş biçimi.
 - **İstenmemiş söz (unsolicited promise).** Kimse istemediği hâlde verilen söz. Vikipedi'deki özete göre "Söz veriyorum, sana zarar vermeyeceğim" türünden bir cümle çoğu zaman tam tersinin işaretidir. Söz, kişinin kendi şüphesini yatıştırmaya çalıştığını gösterir.
 - **"Hayır"ı yok saymak (discounting the word "no").** Reddi kabul etmemek. De Becker'e göre "hayır" bir pazarlık başlangıcı olarak ele alınıyorsa bu, denetim kurma girişimidir. Hayır'ı bir kez geri almak, karşı tarafa sınırınızın aşılabilir olduğunu öğretir.
-- **Israrlı takip ve "yumuşak ret".** Yazar, istenmeyen bir ilişkiyi bitirirken tek, açık ve kesin bir ret verilmesini öneriyor. Ardından hiçbir iletişime yanıt verilmemesini. Kırk mesajdan sonra verilen tek bir yanıt, takipçiye ısrarın işe yaradığını öğretir (sayı ve ayrıntı bellekten, doğrulanmadı).
-- **Tehditlerin değerlendirilmesi.** De Becker tehdidin sözcüklerinden çok bağlamına bakılmasını öneriyor. Bunun için gerekçe, seçenekler, sonuçlar ve yetenek sorularını içeren bir çerçeve (JACA kısaltması, bellekten, doğrulanmadı) ve şirketinin MOSAIC sistemini anlatıyor.
+- **Israrlı takip ve "yumuşak ret".** Yazar, istenmeyen bir ilişkiyi bitirirken tek, açık ve kesin bir ret verilmesini öneriyor. Ardından hiçbir iletişime yanıt verilmemesini. Uzun bir ısrardan sonra verilen tek bir yanıt, takipçiye ısrarın işe yaradığını öğretir (kitaptaki örnek sayı doğrulanmadı).
+- **Tehditlerin değerlendirilmesi.** De Becker tehdidin sözcüklerinden çok bağlamına bakılmasını öneriyor. Bunun için gerekçe, seçenekler, sonuçlar ve yetenek sorularını içeren bir çerçeve (JACA kısaltması: justification, alternatives, consequences, ability; 6. bölüm) ve şirketinin MOSAIC sistemini anlatıyor.
 
 **Bilimsel dayanağı.** Kitap, yazarın meslek yaşamında karşılaştığı vakalara ve çarpıcı vaka anlatılarına dayanıyor. Kontrollü bir araştırma sunmuyor. PINs listesi sınanmış bir tanı aracı değil. Sezgi konusunda akademik tablo daha nüanslı. Kahneman ve Klein (2009, *American Psychologist*), sezgisel yargının ancak düzenli bir ortamda ve hızlı geri bildirimle eğitildiğinde güvenilir olduğunu gösterdi. Sezgi önyargıları da taşıyabilir. Eş şiddetinde ölüm riskini öngören etkenler ise ampirik olarak çalışıldı: Campbell ve arkadaşları (2003, *American Journal of Public Health*, doğrulanmadı) silaha erişim, ayrılma girişimi ve boğma geçmişi gibi etkenleri saptadı. De Becker'in uyarılarının bir kısmı bu bulgularla uyumlu. MOSAIC kamu kurumlarında kullanılıyor, ancak bağımsız geçerlik çalışmalarını göremedim. Genel kanıt düzeyi: **[popüler]** (uzman deneyimi; kısmen araştırmayla uyumlu).
 

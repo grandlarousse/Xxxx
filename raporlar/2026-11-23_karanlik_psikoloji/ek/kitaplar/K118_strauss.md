@@ -1,6 +1,6 @@
 ## Neil Strauss — The Game (The Game: Penetrating the Secret Society of Pickup Artists, 2005)
 
-**Künye.** Neil Strauss (d. 1969), Rolling Stone'a yazan ve The New York Times'ta müzik yazarlığı yapmış Amerikalı bir gazeteci ve yazardır; Mötley Crüe'nün The Dirt'ü gibi ünlü biyografilerin ortak yazarıdır. Özgün dil İngilizce; ReganBooks, Eylül 2005; yaklaşık 450 sayfa (ciltli baskı kutsal kitap gibi siyah deri kaplı ve kırmızı kurdeleli tasarlandı). Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** Neil Strauss (d. 1969), Rolling Stone'a yazan ve The New York Times'ta müzik yazarlığı yapmış Amerikalı bir gazeteci ve yazardır; Mötley Crüe'nün The Dirt'ü gibi ünlü biyografilerin ortak yazarıdır. Özgün dil İngilizce; ReganBooks, Eylül 2005; yaklaşık 450 sayfa (ciltli baskı kutsal kitap gibi siyah deri kaplı ve kırmızı kurdeleli tasarlandı). Türkçe baskı: *Oyun* (Butik Yayınları, 471 sayfa; bkmkitap kaydı).
 
 **Bir cümleyle.** Utangaç bir gazetecinin "tavlama" (pickup) camiasına girip "Style" takma adıyla usta olmasının ve sonunda bu hayatın boşluğunu görmesinin anlatısı.
 

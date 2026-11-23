@@ -1,6 +1,6 @@
 ## Janja Lalich — Bounded Choice (Bounded Choice: True Believers and Charismatic Cults, 2004)
 
-**Künye.** Janja Lalich (d. 1945), Amerikalı sosyolog; California State University, Chico'da emekli sosyoloji profesörü. 1970'lerden başlayarak yaklaşık on yıl Marksist-Leninist Demokratik İşçi Partisi'nin (Democratic Workers Party) üst düzey üyesiydi; kitabı hem araştırmacı hem eski üye olarak yazar. Özgün dil İngilizce; ilk yayın 2004, University of California Press. Türkçe baskısı kitapçı kataloglarında görünmüyor; katalogdaki "Hayatını Geri Al" başka bir kitabın (Take Back Your Life) çevirisidir. Hacim: yaklaşık 330 sayfa (2020 karton kapak baskısı 353 sayfa).
+**Künye.** Janja Lalich (d. 1945), Amerikalı sosyolog; California State University, Chico'da emekli sosyoloji profesörü. 1970'lerden başlayarak yaklaşık on yıl Marksist-Leninist Demokratik İşçi Partisi'nin (Democratic Workers Party) üst düzey üyesiydi; kitabı hem araştırmacı hem eski üye olarak yazar. Özgün dil İngilizce; ilk yayın 2004, University of California Press. Türkçe baskısı kitapçı kataloglarında görünmüyor; katalogdaki *Hayatını Geri Al* (Hece Yayınları, 592 sayfa; bkmkitap kaydı) yazarın başka bir kitabının, *Take Back Your Life*'ın çevirisidir. Hacim: yaklaşık 330 sayfa (2020 karton kapak baskısı 353 sayfa).
 
 **Bir cümleyle.** Tarikat üyeleri ne beyni yıkanmış robotlardır ne de tamamen özgür seçim yapan bireyler; grubun kapalı inanç sistemi içinde, seçenekleri daraltılmış ama kendilerine mantıklı gelen kararlar verirler: "sınırlı seçim".
 
@@ -11,7 +11,7 @@
 **Ana fikirler.**
 - **Sınırlı seçim.** Kişi seçim yapar, ama bu seçimler grubun inanç sistemi tarafından çizilen sınırlar içindedir. Dışarıdan akıl dışı görünen bir karar (her şeyi bırakmak, ölüme gitmek) içeriden bakınca tutarlı ve hatta erdemli görünür.
 - **Kendini mühürleyen sistem.** Grubun ideolojisi her itirazı önceden yanıtlar: kuşku kişinin "zayıflığı", eleştiri "düşmanın sesi" sayılır. Böylece sistem kendini dış kanıta kapatır (self-sealing system).
-- **Dört boyutlu model.** Lalich, karizmatik otorite, aşkın (her şeyi kapsayan) inanç sistemi, denetim sistemleri ve etki sistemleri (akran baskısı, model alma) arasındaki etkileşimi inceler. Bu dört boyutun adlandırılışı ikincil özetlere dayanıyor (doğrulanmadı).
+- **Dört boyutlu model.** Lalich, karizmatik otorite, aşkın (her şeyi kapsayan) inanç sistemi, denetim sistemleri ve etki sistemleri (akran baskısı, model alma) arasındaki etkileşimi inceler. Bu dört boyutun adları ikincil özetlerle (Rubina Ramji'nin incelemesi, Vikipedi'deki kitap maddesi) doğrulandı.
 - **İki çok farklı grup, aynı yapı.** Biri UFO bekleyen inzivacı bir dinî grup, öbürü siyasi bir parti. Lalich, içerik farklı olsa da bağlılık ve denetim yapısının aynı olduğunu gösterir.
 - **Özgürlük ile kendinden vazgeçmenin birleşmesi.** "Gerçek inanan", benliğini bir davaya feda etmeyi en büyük özgürlük olarak yaşar; bu birleşme onu dışarıdan gelen yardıma karşı dirençli kılar.
 

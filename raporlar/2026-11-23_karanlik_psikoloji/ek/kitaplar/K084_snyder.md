@@ -1,6 +1,6 @@
 ## Rachel Louise Snyder — No Visible Bruises (No Visible Bruises: What We Don't Know About Domestic Violence Can Kill Us, 2019)
 
-**Künye.** Rachel Louise Snyder, Amerikalı gazeteci ve yazar. Uzun yıllar kamu radyosu programı *Marketplace* için yabancı muhabirlik yaptı; American University Edebiyat Bölümü'nde profesör. Özgün dil İngilizce; ilk yayın Mayıs 2019, Bloomsbury (New York). Türkçe baskısı kitapçı kataloglarında görünmüyor. Yaklaşık 320 sayfa. New York Times Book Review'un 2019'un en iyi on kitabından biri seçildi; Kirkus Ödülü ve National Book Critics Circle finalisti oldu.
+**Künye.** Rachel Louise Snyder, Amerikalı gazeteci ve yazar. Uzun yıllar kamu radyosu programı *Marketplace* için yabancı muhabirlik yaptı; American University Edebiyat Bölümü'nde profesör. Özgün dil İngilizce; ilk yayın Mayıs 2019, Bloomsbury (New York). Türkçe baskı: *Görünmeyen Yaralar: Aile İçi Şiddet Hakkında Bilmediklerimiz Bizi Öldürebilir* (Okuyan Us Yayınları, 428 sayfa; bkmkitap kaydı; Türkçe alt başlık özgün alt başlığın karşılığıdır). Yaklaşık 320 sayfa. New York Times Book Review'un 2019'un en iyi on kitabından biri seçildi; Kirkus Ödülü ve National Book Critics Circle finalisti oldu.
 
 **Bir cümleyle.** Partner cinayetleri öngörülebilir; bilinen risk işaretlerini (özellikle boğma girişimini) ciddiye alan ve kurumları birbirine bağlayan sistemler hayat kurtarabilir.
 

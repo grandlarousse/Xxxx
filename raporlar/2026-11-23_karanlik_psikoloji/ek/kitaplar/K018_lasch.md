@@ -1,6 +1,6 @@
 ## Christopher Lasch — Narsisizm Kültürü (The Culture of Narcissism: American Life in an Age of Diminishing Expectations, 1979)
 
-**Künye.** Christopher Lasch (1932–1994) Amerikalı bir tarihçi ve toplum eleştirmeniydi; Harvard ve Columbia'da okudu, uzun yıllar Rochester Üniversitesi'nde tarih profesörü olarak çalıştı. Özgün dil İngilizce; ilk baskı 1979, New York, W. W. Norton. Türkçe baskı: Narsisizm Kültürü: Umutların Azaldığı Bir Çağda Amerikan Yaşamı, Bilim ve Sanat Yayınları, Ankara 2006, 389 sayfa (Hacettepe Üniversitesi kütüphane kataloğu); güncel kitapçı kataloglarında görünmüyor. Hacim: ilk baskı yaklaşık 270–300 sayfa (baskıya göre değişir).
+**Künye.** Christopher Lasch (1932–1994) Amerikalı bir tarihçi ve toplum eleştirmeniydi; Harvard ve Columbia'da okudu, uzun yıllar Rochester Üniversitesi'nde tarih profesörü olarak çalıştı. Özgün dil İngilizce; ilk baskı 1979, New York, W. W. Norton. Türkçe baskı: Narsisizm Kültürü: Umutların Azaldığı Bir Çağda Amerikan Yaşamı, Bilim ve Sanat Yayınları, Ankara 2006, 389 sayfa (Hacettepe Üniversitesi kütüphane kataloğu); kitap bugün Alfa Yayınları baskısıyla satışta (*Narsisizm Kültürü*, 360 sayfa; bkmkitap kaydı). Hacim: ilk baskı yaklaşık 270–300 sayfa (baskıya göre değişir).
 
 **Bir cümleyle.** İkinci Dünya Savaşı'ndan sonra Amerikan toplumu, klinik "patolojik narsisizm" tarifine uyan bir karakter tipi üretmiştir: suçluluktan çok kaygıyla yaşayan, başkalarının onayına bağımlı, geçmişle ve gelecekle bağını koparmış, anlık doyuma odaklı bir birey.
 

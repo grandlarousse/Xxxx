@@ -1,0 +1,30 @@
+# TB9 doğrulama notu: aile ve çocuk (K089–K094), defter kitap_B9 kalan satırlar
+
+Biçim: dosya | iddia | karar | kaynak URL | kısa not
+
+K089_forward | USC'de psikiyatrik sosyal hizmet yüksek lisansı ve psikoloji doktorası; ö. 2020; 24 yıl muayenehane | DOĞRU | https://en.wikipedia.org/wiki/Susan_Forward | "master's degree in psychiatric social work and a PhD in psychology"
+K089_forward | 1994 gizlilik soruşturması (Nicole Brown Simpson) | DOĞRU | https://en.wikipedia.org/wiki/Susan_Forward | Ayrıca 3 ay lisans askısı ve 3 yıl denetimli süre; metin bunu eklemiyor, yanlış değil.
+K089_forward | Men Who Hate Women 1986 (bellekten) | DOĞRU | https://openlibrary.org/works/OL1929396W | OL ilk yayın 1986 (Forward ve Joan Torres).
+K089_forward | Hacim 320–340 s. | DOĞRU | https://openlibrary.org/works/OL1929420W/editions.json | Baskılar 324 ve 326 s.
+K089_forward | Yapı: iki kısım, ebeveyn türleri (yetersiz, denetimci, alkolik, sözlü, fiziksel, cinsel) | DOĞRULANAMADI | https://s3.amazonaws.com/kajabi-storefronts-production/sites/101738/themes/1904705/downloads/KGQuuYYDTbCzD0G6PU53_Toxic_parenting_Aug_08.pdf | Arama özeti altı tür, "inadequate" ve "controllers" ile ikinci yarının kendine yardım bölümü olduğunu söylüyor; içindekiler görülmedi. Metindeki "(bölüm adları ve sayısı doğrulanmadı)" kaldı.
+K090_leymann | Wolfenbüttel doğumlu, 1955'ten İsveç'te; iki doktora; Stockholm ve Umeå | DOĞRU | https://de.wikipedia.org/wiki/Heinz_Leymann | "lebte ab 1955 in Schweden"; Stockholm doçent, Umeå kürsü.
+K090_leymann | 1980'lerde intihar eden ya da kalkışan hemşire vakaları | DOĞRU | https://en.wikipedia.org/wiki/Heinz_Leymann | "case studies of a number of nurses who had committed or tried to commit suicide"
+K090_leymann | Mobbingin TSSB'ye yol açması ve sık yanlış tanılanması | DOĞRU | https://en.wikipedia.org/wiki/Heinz_Leymann | "side-effects of mobbing is post-traumatic stress disorder"
+K090_leymann | LIPT beş alanın adları ve örnekleri | DOĞRU | https://en.wikipedia.org/wiki/Leymann_Inventory_of_Psychological_Terror | Beş alan ve örnekler birebir örtüşüyor.
+K090_leymann | NAQ-R, 2009, Einarsen ve ark. (bellekten) | DOĞRU | https://en.wikipedia.org/wiki/Mobbing | Kaynakça: Einarsen, Hoel, Notelaers (2009) "Measuring exposure to bullying..."; işaret kaldırıldı, yazarlar eklendi.
+K090_leymann | Aşama modeli; beşinci aşama olarak yanlış tanı | DOĞRULANAMADI | (WebSearch özeti: Leymann 1996, EJWOP 5(2)) | Dört aşama (kritik olay, damgalama, personel yönetimi, dışlama) özetlerde doğrulandı; yanlış tanı aşaması birincil kaynakta görülmedi. Metindeki "(aşama adları doğrulanmadı)" kaldı.
+K091_freyd | Freyd d. 1957; JTD editörü (2005–2023); Oregon emerit | DOĞRU | https://en.wikipedia.org/wiki/Jennifer_Freyd | "From 2005 to 2023, Freyd was the editor of the Journal of Trauma & Dissociation"
+K091_freyd | Birrell aynı bölümde öğretim görevlisi; Mart 2013; açılış vakası aldatılan eş | DOĞRU | https://around.uoregon.edu/content/book-uo-psychologists-explores-betrayal | "senior instructor in the UO Department of Psychology"; "opening chapter ... married woman who was betrayed by her unfaithful husband"
+K091_freyd | DARVO 1997 Feminism & Psychology | DOĞRU | https://en.wikipedia.org/wiki/DARVO | Freyd (Şubat 1997) Feminism & Psychology 7(1): 22–32.
+K091_freyd | Harsey ve ark. 2017 DARVO ile kendini suçlamayı "deneysel olarak" gösterdi | DÜZELTİLDİ | https://api.openalex.org/works/doi:10.1080/10926771.2017.1320777 | Özet: 138 lisans öğrencisi, geçmiş yüzleşmeyi bildirme; ilişkisel bulgu ("associated with increased perceptions of self-blame"). Deney değil, anket.
+K091_freyd | Betrayal Trauma 1996; Smith ve Freyd 2013 | DOĞRU | https://openlibrary.org/works/OL3252015W ; https://api.openalex.org/works?search=Dangerous%20safe%20havens | "Dangerous Safe Havens: Institutional Betrayal Exacerbates Sexual Trauma" (Smith, Freyd, 2013).
+K092_salter | Bond ve DePaulo 2006 yaklaşık %54; Hanson ve Bussière 1998 düşük yeniden suç | DOĞRU | https://api.openalex.org/works/doi:10.1207/s15327957pspr1003_2 ; https://api.openalex.org/works/doi:10.1037/0022-006X.66.2.348 | "average of 54% correct"; "recidivism rate was low (13.4%)"
+K092_salter | İncelemeler: Walsh 2005 VAW; Oxburgh 2006 LCP; Metapsychology incelemesi | KISMEN: Walsh DOĞRU, Oxburgh ve Metapsychology DOĞRULANAMADI | https://api.openalex.org/works?search=Predators%20pedophiles%20rapists%20Salter%20review | Walsh (2005) Violence Against Women kaydı var; Oxburgh bulunamadı, Metapsychology sayfası erişilemedi; ikisine "(doğrulanmadı)" eklendi.
+K092_salter | Yirmi yılı aşkın videoya kaydedilmiş fail görüşmeleri | DOĞRULANAMADI | https://www.hachettebookgroup.com/titles/anna-c-salter-phd-2/predators/9780465071739/ | Yayınevi sayfası "interviewed in large numbers and at length" diyor; süre görülmedi, "(süre doğrulanmadı)" eklendi.
+K093_winters | Winters FDU Psikoloji ve Danışmanlık Okulu'nda doktor öğretim üyesi, adli psikoloji YL program yöneticisi | DOĞRU | https://content.e-bookshelf.de/media/reading/L-18542809-ed451f5d3f.pdf | "Assistant Professor in the School of Psychology and Counseling ... director of the forensic psychology master's program"; "over a decade".
+K094_o_neill | Doktora KCL toplumsal cinsiyet ve kültürel çalışmalar; Warwick; LSE Medya ve İletişim | DOĞRU | https://www.lse.ac.uk/people/rachel-oneill | "PhD in Gender and Cultural Studies from King's College London"
+K094_o_neill | Saha yılları (2010'ların başı), görüşme sayısı, Denes 2011 | DOĞRULANAMADI | https://eprints.whiterose.ac.uk/117025 ; https://lareviewofbooks.org/blog/essays/read-ethnography-bro/ | Londra etnografisi doğru; bir arama özeti "year-long ethnography" diyor (kaynak sayfası 403). Yıllar, sayı ve Denes işaretli kaldı.
+
+Atlanan: Türkçe baskı satırları (Forward, Leymann, Freyd/Salter/Winters/O'Neill "Türkçesi yok") görev gereği merkezi taramaya bırakıldı.
+
+Özet: 22 satır (bazıları birleşik) · Doğru 15 · Düzeltildi 1 (K091 Harsey yöntemi) · Doğrulanamadı 5, kısmen 1 (K092 incelemeler). Olgu hatası 1/22.

@@ -10,7 +10,7 @@
 
 **Ana fikirler.**
 - **İhanet bağı (travma bağı).** Güç dengesizliği, yoğunluk ve güvenin sömürülmesi bir araya geldiğinde mağdur, kendisine zarar verene daha da sıkı bağlanır. Carnes bunu boşanma, iş ilişkileri, ensest, aile içi şiddet, rehine olayları, profesyonel ve dinî istismarda gösterir.
-- **Travmanın sekiz yolu.** Carnes, travmanın kişide sürmesinin yollarını sayar: travma tepkisi, travma uyarılmışlığı, travmayı bastırma, bölünme, yoksunluk, utanç, tekrar ve bağ (adlar ikincil kaynaktan; tam liste doğrulanmadı). Bağ, bunlardan yalnızca biridir.
+- **Travmanın sürme yolları.** Carnes, travmanın kişide sürmesinin yollarını sayar; Carnes'ın "Trauma Bonds" notunda dokuz yol geçer: travma tepkisi, travma uyarılmışlığı, travma hazzı, travmayı bastırma (blocking), bölünme (splitting), yoksunluk, utanç, tekrar ve bağ (kitap baskısındaki sayı doğrulanmadı). Bağ, bunlardan yalnızca biridir.
 - **Bağımlılık benzerliği.** Mağdur, aralıklı pekiştirme (bir gün şefkat, bir gün zulüm) yüzünden ilişkiye bir madde gibi bağlanır; kesildiğinde yoksunluk benzeri acı yaşar.
 - **Kontrol listesi.** Okur, karşısındaki kişiyi savunma, sır tutma, ayrılmaya karar verip geri dönme ve onu değiştirmeye çalışma gibi işaretlerle kendini sınar.
 - **Çözülme.** Gerçeği kabul etmek, sınır koymak, temas kesmek, destek gruplarına ve terapiye başvurmak ve 12 adım benzeri bir iyileşme süreci önerilir.

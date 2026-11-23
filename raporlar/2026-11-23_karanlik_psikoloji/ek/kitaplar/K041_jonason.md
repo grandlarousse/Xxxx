@@ -1,6 +1,6 @@
 ## Peter K. Jonason (ed.) — Shining Light on the Dark Side of Personality (Shining Light on the Dark Side of Personality: Measurement Properties and Theoretical Advances, 2022)
 
-**Künye.** Peter Karl Jonason, karanlık üçlü (narsisizm, makyavelizm, psikopati) üzerine en çok yayın yapan kişilik psikologlarından biridir. Ölçek geliştirme ve evrimsel psikoloji alanında çalışır; görev yeri bu kaynaklarda doğrulanmadı (Padova Üniversitesi bağlantısı görülüyor). Özgün dili İngilizce. Hogrefe, "Psychological Assessment – Science and Practice" dizisinin 4. cildi olarak yayımladı. Crossref'te yayın tarihi Haziran 2022, yayınevi sayfasında 2023 görünüyor. Hacmi yaklaşık 330 sayfa (viii + 320). Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** Peter Karl Jonason, karanlık üçlü (narsisizm, makyavelizm, psikopati) üzerine en çok yayın yapan kişilik psikologlarından biridir. Ölçek geliştirme ve evrimsel psikoloji alanında çalışır; Padova Üniversitesi Genel Psikoloji Bölümü'nde çalışır. Özgün dili İngilizce. Hogrefe, "Psychological Assessment – Science and Practice" dizisinin 4. cildi olarak yayımladı. Crossref'te yayın tarihi Haziran 2022, yayınevi sayfasında 2023 görünüyor. Hacmi yaklaşık 330 sayfa (viii + 320). Türkçe baskısı kitapçı kataloglarında görünmüyor.
 
 **Bir cümleyle.** Karanlık kişilik özelliklerini doğru yorumlamak için önce onları hangi ölçekle ve ne kadar iyi ölçtüğümüzü bilmek gerekir.
 

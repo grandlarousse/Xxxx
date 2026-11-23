@@ -6,13 +6,13 @@
 
 **Bağlam.** Evans kitabı, kendi evliliğinde ve görüştüğü kadınların anlatımlarında gördüğü bir örüntüden yola çıkarak yazdı (kişisel boyut bellekten, doğrulanmadı). 1990'ların başında aile içi şiddet tartışması büyük ölçüde fiziksel şiddete odaklanıyordu. Sözlerle yapılan baskının adı yoktu ya da "kavga", "geçimsizlik" diye geçiyordu. Kitap, eşinin tepkileri karşısında sürekli şaşkınlık ve hayal kırıklığı yaşayan, "aynı dili konuşmuyoruz" hissine kapılan okura sesleniyor. Kitap çok sayıda dile çevrildi; Open Library'de İspanyolca ve Almanca baskıları görünüyor. Evans sonradan *Verbal Abuse Survivors Speak Out* (1993), *Controlling People* (2002) ve *The Verbally Abusive Man, Can He Change?* (2006) kitaplarıyla bu çizgiyi sürdürdü.
 
-**Yapısı.** Bir kütüphane kataloğundaki üçüncü baskı içindekiler kaydı (arama özetinden, sayfanın kendisi açılmadı) şu akışı veriyor:
+**Yapısı.** Open Library'deki genişletilmiş üçüncü baskı (2010, Adams Media, 240 sayfa) içindekiler kaydı şu akışı veriyor:
 - Önsöz ve giriş
-- **Birinci kısım:** okurun kendi deneyimini değerlendirmesi; "iki tür güç"; kişisel güç (Gerçeklik II'ye bakış); istismarcı ve istismarcı ilişki (Gerçeklik I'e bakış)
-- **İkinci kısım:** sözel istismarın özellikleri ve kategorileri; "öfke bağımlısı" üzerine bir bölüm
-- Sonraki bölümler (kaynakta görünmedi; ikincil özetlere göre): istismara yanıt vermek, iyileşme, çocuklar üzerindeki etkiler ve terapistlere notlar (doğrulanmadı)
+- **Birinci kısım:** okurun kendi deneyimini değerlendirmesi; "iki tür güç"; kişisel güç (Gerçeklik II'ye bakış); istismarcı ve istismarcı ilişki (Gerçeklik I'e bakış); sözel istismarın sonuçları; eşin duyguları; engeller ve göstergeler (1–7. bölümler)
+- **İkinci kısım:** sözel istismarın özellikleri ve kategorileri; "öfke bağımlısı" üzerine bir bölüm (8–9. bölümler)
+- Sonraki bölümler (10–19): koşullanma ve eş, istismarı tanıma ve değişiklik isteme, istismara etkili yanıt verme, iyileşme, geriye bakış, altta yatan dinamikler, stres, aşırı akıldışı davranış, terapi ve terapistler için notlar, çocuklar ve sözel istismar
 
-Toplam bölüm sayısını doğrulayamadım.
+Üçüncü baskı 19 bölüm, bir sonuç bölümü ve sık sorulan sorular ekinden oluşuyor.
 
 **Ana fikirler.**
 - **İki gerçeklik.** Evans iki dünya görüşü tanımlıyor. Gerçeklik I "üstünlük gücü"ne (power over) dayanır: denetim, rekabet, haklı çıkma. Gerçeklik II "kişisel güce" (personal power) dayanır: karşılıklılık, yaratıcılık, ortaklık. Mağdur Gerçeklik II'de yaşadığı için eşinin de aynı kurallarla oynadığını sanır. Kafa karışıklığı buradan doğar.
@@ -21,7 +21,7 @@ Toplam bölüm sayısını doğrulayamadım.
 - **Küçümseme (discounting).** Kişinin düşünce ve duygu hakkını yok saymak. Örnek: "Fazla hassassın", "Mizah anlayışın yok", "Pireyi deve yapıyorsun".
 - **Şaka kılığında istismar (disguised as jokes).** İncitici bir söz ve ardından gelen "şakaydı" savunması. Mağdur gücendiği için ikinci kez suçlu duruma düşer.
 - **Engelleme ve saptırma (blocking and diverting).** Hangi konunun konuşulabileceğine istismarcı karar verir. Konuyu değiştirir ya da sözü keser. Bu, alıkoymanın bir türü.
-- **Diğer kategoriler.** Suçlama ve itham etme, yargılama ve eleştirme, önemsizleştirme (trivializing), baltalama (undermining), tehdit, ad takma, unutma (verilen sözü ya da olayı "hatırlamamak"), emir verme, inkâr ve istismarcı öfke. Toplam on beş kategori. Kitap üzerine yazılan özetler inkârı en sinsi kategorilerden biri sayıyor, çünkü eşin yaşadığı gerçekliği siliyor.
+- **Diğer kategoriler.** Suçlama ve itham etme, yargılama ve eleştirme, önemsizleştirme (trivializing), baltalama (undermining), tehdit, ad takma, unutma (verilen sözü ya da olayı "hatırlamamak"), emir verme, inkâr ve istismarcı öfke. Toplam on beş kategori. İnkâr, istismarcının kendi kötü davranışını yok sayması ve gerekçelendirmesi olarak tanımlanıyor.
 - **Öfke bağımlısı.** Evans, sözel istismarcının pek çok duyguyu öfke olarak yaşadığını söylüyor. Kaygı, belirsizlik ya da kırılganlık hissettiğinde bunu kabul etmek yerine öfkelenir ve eşine yöneltir.
 - **Yanıt vermek.** Kitap açıklama yapmayı ya da "anlaşılmayı" beklemeyi değil, kısa ve net sınır cümlelerini öneriyor. Örneğin "Dur" ya da "Benimle böyle konuşma" gibi (örnek cümleler bellekten, doğrulanmadı). Mantık şu: istismarcı sözle tartışılmaz, istismar adlandırılır ve kabul edilmez.
 

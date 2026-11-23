@@ -1,6 +1,6 @@
 ## Kevin Hogan ve James Speakman — Covert Persuasion (Covert Persuasion: Psychological Tactics and Tricks to Win the Game, 2006)
 
-**Künye.** Kevin Hogan, ikna, beden dili ve iletişim üzerine konuşan bir konferansçı ve kurumsal eğitmendir; yayınevi tanıtımı "psikoloji doktorası" olduğunu söyler (doktoranın alındığı kurum doğrulanmadı) ve The Science of Influence'ın (Wiley) ve The Psychology of Persuasion'ın (1996) yazarıdır. James Speakman, satış ekiplerine ikna eğitimi veren Speakman & Associates şirketinin başkanıdır. Özgün dil İngilizce; John Wiley & Sons, Eylül 2006; yaklaşık 220–240 sayfa. Türkçe baskısı kitapçı kataloglarında görünmüyor.
+**Künye.** Kevin Hogan, ikna, beden dili ve iletişim üzerine konuşan bir konferansçı ve kurumsal eğitmendir; yayınevi tanıtımı "psikoloji doktorası" olduğunu söyler (doktoranın alındığı kurum doğrulanmadı) ve The Science of Influence'ın (Wiley) ve The Psychology of Persuasion'ın (1996) yazarıdır. James Speakman, satış ekiplerine ikna eğitimi veren Speakman & Associates şirketinin başkanıdır. Özgün dil İngilizce; John Wiley & Sons, Eylül 2006; yaklaşık 220–240 sayfa. Türkçe baskı: *Gizli İkna Taktikleri* (Yakamoz Yayınevi, 208 sayfa; bkmkitap kaydı). Katalogda özgün ad yazmıyor; Türkçe ad özgün adın karşılığı olduğu için çeviri olması büyük olasılıktır. Yazarın Yakamoz'dan çıkmış başka Türkçe ikna kitapları da var.
 
 **Bir cümleyle.** Karşındakinin farkına varmadan "evet" demesini sağlayacak kelimeler, sorular, hikâyeler ve duygusal tetikleyiciler sistemli olarak kullanılabilir.
 

@@ -1,6 +1,6 @@
 ## Daniel Simons ve Christopher Chabris — Nobody's Fool (Nobody's Fool: Why We Get Taken In and What We Can Do About It, 2023)
 
-**Künye.** Daniel Simons (d. 1969), Illinois Üniversitesi'nde (Urbana-Champaign) deneysel psikolog ve profesör; Christopher Chabris (d. 1966), Geisinger sağlık sisteminde araştırmacı bilişsel bilimci, daha önce Union College ve Harvard'da ders verdi. İkili, dikkat ve algının sınırlarını gösteren "görünmez goril" deneyiyle ve The Invisible Gorilla (2010) kitabıyla tanınır. Özgün dil İngilizce; ilk yayın 11 Temmuz 2023, Basic Books. Türkçe baskısı kitapçı kataloglarında görünmüyor (katalogdaki "Simons" kayıtları romancı Paullina Simons'a ait). Hacim: yaklaşık 336 sayfa.
+**Künye.** Daniel Simons (d. 1969), Illinois Üniversitesi'nde (Urbana-Champaign) deneysel psikolog ve profesör; Christopher Chabris (d. 1966), Geisinger sağlık sisteminde araştırmacı bilişsel bilimci, daha önce Union College ve Harvard'da ders verdi. İkili, dikkat ve algının sınırlarını gösteren "görünmez goril" deneyiyle ve The Invisible Gorilla (2010) kitabıyla tanınır. Özgün dil İngilizce; ilk yayın 11 Temmuz 2023, Basic Books. Türkçe baskı: *Külyutmaz* (Say Yayınları, 264 sayfa; bkmkitap kaydı; tanıtım metni kitabın konusuyla birebir örtüşür). Hacim: yaklaşık 336 sayfa.
 
 **Bir cümleyle.** Bizi dolandırıcılara açık hâle getiren şey aptallık değil, günlük hayatta çoğu zaman işimize yarayan düşünme alışkanlıklarıdır; bu alışkanlıkların ne zaman aleyhimize işlediğini bilip doğru soruları sorarsak kanmamız zorlaşır.
 

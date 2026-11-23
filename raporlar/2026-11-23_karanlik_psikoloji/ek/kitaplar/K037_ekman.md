@@ -17,7 +17,7 @@
 8. Yalanı denetlemek (Lie Checking): bir yalanın yakalanma olasılığını tartan soru listesi.
 9. 1990'larda yalan yakalamak: yeni bulgular.
 10. Kamusal hayatta yalanlar: siyasi örnekler.
-Ardından sonsöz ve ek gelir. İlk baskı daha az bölümlüdür; 9. ve 10. bölümler sonraki baskılarda eklendi (ilk baskının bölüm sayısı doğrulanmadı). 2009 baskısı en yeni araştırmalarını anlatan bir bölüm daha ekler.
+Ardından sonsöz ve ek gelir. İlk baskı (1985) sekiz bölümdür; 9. ve 10. bölümler 1991–1992 genişletilmiş baskısında iki yeni bölüm olarak eklendi. 2009 baskısı en yeni araştırmalarını anlatan bir bölüm daha ekler.
 
 **Ana fikirler.**
 - **Yalanın iki yolu.** Ekman'a göre yalan ya gizleme (bir şeyi söylememek) ya da çarpıtmadır (yanlışı doğruymuş gibi sunmak). Gizleme genellikle daha kolaydır; çünkü hatırlanacak bir hikâye yoktur. Bu ayrım, ilişkilerdeki "söylememe" yoluyla aldatmayı da kapsar.
@@ -32,7 +32,7 @@ Ardından sonsöz ve ek gelir. İlk baskı daha az bölümlüdür; 9. ve 10. bö
 
 **Bilimsel dayanağı.** Kitap, Ekman ve arkadaşlarının laboratuvar deneylerine dayanır. Örneğin hemşirelik öğrencilerinin hoş ya da rahatsız edici filmler izlerken duygularını gizlemeye çalıştığı deneyler bunlardandır (3. bölümde anlatılır). Duygu ifadelerinin evrenselliği kısmı güçlü bir araştırma geleneğine dayanır, ama kültürel farklılıkları vurgulayan eleştirileri de vardır.
 
-Yalan yakalama kısmında tablo daha zayıftır. Bond ve DePaulo'nun (2006) 206 çalışmayı ve 24.483 yargıcıyı birleştiren meta-analizi (çok sayıda çalışmanın sonuçlarını birleştiren analiz), insanların yalanla doğruyu ortalama %54 doğrulukla ayırdığını buldu. Bu, yazı-tura atmanın yalnızca biraz üstüdür. DePaulo ve arkadaşlarının (2003) ipucu meta-analizi de yalana özgü davranış ipuçlarının genelde zayıf olduğunu gösterdi. Aldert Vrij'in çalışmaları, sözel içerik ve bilişsel yük temelli yöntemlerin yüz okumaktan daha umut verici olduğunu savunur (bellekten). Porter ve ten Brinke'nin (2008) çalışmasında mikro ifadeler seyrekti (tüm ifadelerin %2'si) ve yalnızca yüzün üst ya da alt yarısında görüldü.
+Yalan yakalama kısmında tablo daha zayıftır. Bond ve DePaulo'nun (2006) 206 çalışmayı ve 24.483 yargıcıyı birleştiren meta-analizi (çok sayıda çalışmanın sonuçlarını birleştiren analiz), insanların yalanla doğruyu ortalama %54 doğrulukla ayırdığını buldu. Bu, yazı-tura atmanın yalnızca biraz üstüdür. DePaulo ve arkadaşlarının (2003) ipucu meta-analizi de yalana özgü davranış ipuçlarının genelde zayıf olduğunu gösterdi. Aldert Vrij'in çalışmaları, sözel içerik ve bilişsel yük temelli yöntemlerin yüz okumaktan daha umut verici olduğunu savunur (örneğin Vrij ve arkadaşları 2006). Porter ve ten Brinke'nin (2008) çalışmasında mikro ifadeler seyrekti (tüm ifadelerin %2'si) ve yalnızca yüzün üst ya da alt yarısında görüldü.
 
 Kanıt düzeyi: **[araştırma]**. Ancak kitabın pratik vaatleri, dayandığı araştırmanın desteklediğinden daha iddialıdır.
 

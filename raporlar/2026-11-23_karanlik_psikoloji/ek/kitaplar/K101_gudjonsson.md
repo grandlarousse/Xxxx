@@ -19,6 +19,6 @@
 
 **Karanlık psikoloji haritasındaki yeri.** Kitap gündelik manipülasyonun kurumsal hâlini gösterir: yalıtma, suçluluk yükleme, gaslighting'e benzer bellek aşındırma ve "tek çıkış yolu itiraf" diye seçenekleri daraltma. Sorgu odası, Milgram'ın otoriteye itaat deneyleri ve Lifton'un düşünce reformu çalışmasıyla (önceki raporda) konuşur. Bu listeden Kassin'in *Duped* kitabıyla birlikte okunmalıdır. Greene'in "seçenekleri kontrol et" yasasının (Yasa 31) gerçek dünyadaki yıkıcı sonucunu gösterir.
 
-**Eleştiri ve sınırlar.** 2003'ten sonra alan çok gelişti: İngiltere'nin daha az suçlayıcı PEACE görüşme modeli yaygınlaştı ve yazar 2018'de konuyu güncelleyen yeni bir kitap yazdı (bellekten, doğrulanmadı). GSS puanının tek başına bir itirafın sahte olduğunu kanıtlayamayacağı, ölçeğin laboratuvar koşullarına dayandığı tartışılır (doğrulanmadı). Kitap ağırlıkla İngiliz hukukuna odaklanır ve yer yer yoğun teknik dil kullanır.
+**Eleştiri ve sınırlar.** 2003'ten sonra alan çok gelişti: İngiltere'nin daha az suçlayıcı PEACE görüşme modeli yaygınlaştı ve yazar 2018'de konuyu güncelleyen yeni bir kitap (*The Psychology of False Confessions*) yazdı. GSS puanının tek başına bir itirafın sahte olduğunu kanıtlayamayacağı, ölçeğin laboratuvar koşullarına dayandığı tartışılır (doğrulanmadı). Kitap ağırlıkla İngiliz hukukuna odaklanır ve yer yer yoğun teknik dil kullanır.
 
 **Kimler okumalı.** Hukukçular, adli psikoloji öğrencileri ve gazeteciler için temel başvuru eseridir. Genel okur için ağırdır; önce Kassin'in kitabıyla başlamak daha kolaydır.

@@ -33,7 +33,7 @@ Kanıt düzeyi: **[popüler]**.
 **Eleştiri ve sınırlar.**
 - **Bilim dışı nitelemesi.** NLP bugün akademik kaynaklarda yaygın olarak sözde bilim (pseudoscience) sayılır. Destekleyen çalışmalarda ciddi yöntem sorunları bulunmuş, daha nitelikli çalışmalar ise iddiaları tekrarlayamamıştır.
 - **Ödünç kavramlar.** Kitap "dönüşümsel dilbilimciler"e (Chomsky'nin okulu; Chomsky'nin adı kitapta geçmez) ve Erickson'a göndermeler yapar; NLP yazını genelde Chomsky ve Bateson'u da anar. Dilbilimci Karen Stollznow bunu "isim düşürme" olarak niteler. Chomsky'nin NLP ile bir bağı yoktur.
-- **Yazarların itibarı.** Bandler ve Grinder sonradan NLP'nin haklarını ve adını mahkemelerde paylaşamadı. Bandler, 1986'da Santa Cruz'da işlenen bir cinayetle (Corine Christensen) suçlandı ve yargılandığı davada beraat etti.
+- **Yazarların itibarı.** Bandler ve Grinder sonradan NLP'nin haklarını ve adını mahkemelerde paylaşamadı. Bandler, 1986'da Santa Cruz'da işlenen bir cinayetle (Corine Christensen) suçlandı ve yargılandığı davada 1988'de beraat etti.
 - **Eskiyen yanlar.** Seminer dökümü olduğu için metin dağınıktır ve katılımcılarla yapılan gösteriler bağımsız olarak doğrulanamaz.
 
 **Kimler okumalı.** NLP'nin vaatlerini kendi kaynağından tanımak isteyen, özellikle "gizli ikna" eğitimleriyle karşılaşan okur için öğreticidir. Ama tekniklerin işe yaradığına dair kanıt olarak okunmamalıdır. Göz hareketlerinden yalan ya da niyet okumaya çalışmak, ilişkilerde haksız suçlamalara yol açabilir.

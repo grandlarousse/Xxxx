@@ -1,6 +1,6 @@
 ## Pınar Tınaz — İşyerinde Psikolojik Taciz (Mobbing) (İşyerinde Psikolojik Taciz (Mobbing), 2006)
 
-**Künye.** Pınar Tınaz, çalışma ekonomisi ve endüstri ilişkileri alanında çalışan bir akademisyendir; Marmara Üniversitesi'nde öğretim üyeliği yapmış (bellekten, doğrulanmadı), daha sonra Beykoz Üniversitesi'ne geçmiştir. 2008 kitabının Seçkin kitabevi kaydında "Prof. Dr." unvanıyla geçiyor. Kitap Türkçe yazılmış özgün bir eserdir; Beta Basım Yayım, İstanbul, 2006, 199 sayfa (Beta Yayınları dizisinde 184. kitap). Türkçe baskı: İşyerinde Psikolojik Taciz (Mobbing), Beta (Google Books künyesi). Kitapçı kataloğu taramasında bu kitap yazarın adıyla görünmüyor.
+**Künye.** Pınar Tınaz, çalışma ekonomisi ve endüstri ilişkileri alanında çalışan bir akademisyendir; Marmara Üniversitesi İİBF Çalışma Ekonomisi ve Endüstri İlişkileri Bölümü'nde öğretim üyeliği yapmış, daha sonra Beykoz Üniversitesi'ne geçmiştir. 2008 kitabının Seçkin kitabevi kaydında "Prof. Dr." unvanıyla geçiyor. Kitap Türkçe yazılmış özgün bir eserdir; Beta Basım Yayım, İstanbul, 2006, 199 sayfa (Beta Yayınları dizisinde 184. kitap). Türkçe baskı: İşyerinde Psikolojik Taciz (Mobbing), Beta (Google Books künyesi). Kitapçı kataloğu taramasında bu kitap yazarın adıyla görünmüyor.
 
 **Bir cümleyle.** Mobbing, işyerinde bir kişiye uzun süre ve sistemli biçimde yöneltilen düşmanca davranışlardır; bireysel bir çatışma değil, örgütün de sorumlu olduğu bir sağlık ve hak sorunudur.
 
@@ -9,7 +9,7 @@
 **Yapısı.** 2006 baskısının içindekiler listesi bu oturumda görülemedi (doğrulanmadı). Atıflardan anlaşıldığı kadarıyla kitap kavramın tanımı ve tarihi, mobbingin türleri ve tarafları, davranış biçimleri, aşamaları, sonuçları ve önleme yollarını ele alıyor. Hukuki boyut asıl olarak yazarın Fuat Bayram ve Hediye Ergin'le birlikte yazdığı ikinci kitapta işleniyor: *Çalışma Psikolojisi ve Hukuki Boyutlarıyla İşyerinde Psikolojik Taciz (Mobbing)*, Beta Basım Yayın, 1. baskı Ekim 2008, 368 sayfa (Seçkin kitabevi kaydı).
 
 **Ana fikirler.**
-- *Tanım ölçütleri.* Kitap, kavramın kurucusu Heinz Leymann'ın ölçütlerini Türkçeye taşıyor: davranışın sık (en az haftada bir) ve uzun süreli (en az altı ay) olması. Tek seferlik bir kabalık mobbing sayılmaz.
+- *Tanım ölçütleri.* Kitap, kavramın kurucusu Heinz Leymann'ın ölçütlerini Türkçeye taşıyor: davranışın sık (en az haftada bir) ve uzun süreli (en az altı ay) olması (bu ölçütlerin kitaptaki ifadesi doğrulanmadı). Tek seferlik bir kabalık mobbing sayılmaz.
 - *Yön.* Tınaz'a göre mobbing yukarıdan aşağıya (dikey), eşit konumdakiler arasında (yatay) ya da astın üstüne yönelik olabilir.
 - *Davranış kümeleri.* Leymann'ın beş grubu kullanılıyor: iletişimin engellenmesi, sosyal ilişkilerin kesilmesi, itibarın zedelenmesi, mesleki konumun sarsılması ve sağlığa yönelik saldırılar. Leymann bu grupların altında 45 davranış sayar.
 - *Süreç.* Mobbing bir çatışmayla başlayıp saldırılara, yönetimin müdahalesine ve sonunda kurbanın işten dışlanmasına giden aşamalarla ilerler. Aşamaların kitapta nasıl sayıldığı (doğrulanmadı).

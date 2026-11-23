@@ -1,0 +1,28 @@
+# TA9_10 doğrulama notu: K033–K040 kalan satırlar (tam kontrol)
+
+VA5 ve VA6'da kontrol edilen satırlar ve Türkçe baskı satırları yeniden kontrol edilmedi.
+
+dosya | iddia | karar | kaynak URL | kısa not
+---|---|---|---|---
+K037 | Ekman Lie to Me dizisinin bilim danışmanı; Lightman ondan esinlenir | DOĞRU | https://en.wikipedia.org/wiki/Paul_Ekman | "Ekman served as a scientific adviser for the series."
+K037 | FACS 1978'de tamamlandı (Friesen ile) | DOĞRU | https://en.wikipedia.org/wiki/Paul_Ekman | "By 1978, Ekman and Friesen had finalized and developed the Facial Action Coding System"
+K037 | Mikro ifade tanıma için bir saatlik eğitim programı (METT) | DOĞRU | https://www.paulekman.com/blog/become-versed-in-reading-faces/ ; https://www.entrepreneur.com/leadership/become-versed-in-reading-faces-facial/200934 | WebSearch özeti: "about one hour"; bir Ekman sayfası ~75 dk diyor. Etkinliği tartışmalı (Jordan ve ark. 2019)
+K037 | Othello hatası terimi Telling Lies'ta (1985) | DOĞRU | https://en.wikipedia.org/wiki/Othello_error | "first used in the book Telling Lies by Paul Ekman in 1985"
+K037 | Vrij: sözel içerik ve bilişsel yük yöntemleri daha umut verici (bellekten) | DOĞRU | https://en.wikipedia.org/wiki/Aldert_Vrij ; https://doi.org/10.1016/j.tics.2006.02.003 | "tactically outsmarting liars"; Vrij, Fisher, Mann, Leal 2006 TICS. İşaret kaldırıldı, "örneğin Vrij ve arkadaşları 2006" eklendi
+K037 | 9. ve 10. bölümler "sonraki baskılarda" eklendi; ilk baskının bölüm sayısı doğrulanmadı | DÜZELTİLDİ | https://assets.aclu.org/live/uploads/document/foia/1992-Telling-Lies-Clues-to-Deceit.pdf ; https://openlibrary.org/works/OL3858313W | WebSearch özeti: 1992 genişletilmiş baskı "in two new chapters" (9 ve 10), "Copyright © 1992, 1985", ilk Norton paperback 1991; 1985 1. baskı 320 s., 1991 baskısı 366 s. → "İlk baskı (1985) sekiz bölümdür; 9. ve 10. bölümler 1991–1992 genişletilmiş baskısında eklendi"
+K039 | Perls, Satir ve Erickson'u modelleme | DOĞRU | https://en.wikipedia.org/wiki/Neuro-linguistic_programming ; https://en.wikipedia.org/wiki/Richard_Bandler | "derived many of the fundamental techniques from the work of Virginia Satir, Milton Erickson and Fritz Perls"
+K039 | Thyer ve Pignotti (2015): temsil sistemleri ve göz hareketlerinin bilimsel temeli yok | DOĞRU | https://en.wikipedia.org/w/index.php?title=Neuro-linguistic_programming&action=raw | Science and Pseudoscience in Social Work Practice, Springer 2015 (doi 10.1891/9780826177698): "no scientific basis for its theories about representational systems and eye movements"
+K039 | Stollznow "isim düşürme"; Chomsky'nin NLP ile bağı yok | DOĞRU | https://en.wikipedia.org/wiki/Neuro-linguistic_programming | "Karen Stollznow describes ... as namedropping"; "Chomsky himself has no association with NLP"
+K039 | Bandler'in davası ve beraati (yıl eksikti) | DOĞRU | https://www.latimes.com/archives/la-xpm-1988-01-29-mn-26470-story.html (Vikipedi kaynakçası) | LA Times 29 Ocak 1988 "Psychotherapist Not Guilty"; metne "1988'de beraat etti" eklendi
+K033 | Greene 27. yasa adı ("İnanma ihtiyacını kullanarak tarikat benzeri izleyici yarat") | DOĞRULANAMADI | https://en.wikipedia.org/wiki/The_48_Laws_of_Power | Vikipedi ve Wikiquote yasa listesini vermiyor; önceki rapora atıflı, işaret eklenmedi
+K034 | Barker 1984: atölyeye katılanların çok küçük kısmı üye oldu (sayılar doğrulanmadı) | DOĞRU | https://en.wikipedia.org/wiki/The_Making_of_a_Moonie | "fewer than 25% joined the group for more than a week and only 5% remained full-time members one year later"; işaret kaldırıldı
+K034, K035 | Schein (1961) Çin esirleri çalışması | DOĞRU | https://en.wikipedia.org/wiki/Edgar_Schein | Coercive Persuasion (1961), Çinlilerin tuttuğu ABD'li sivil esirler
+K035 | ABD Ordusu 1956 raporu: kesin belgelenmiş tek vaka yok | DOĞRU | https://en.wikipedia.org/wiki/Brainwashing | "In 1956 ... failed to reveal even one conclusively documented case"
+K035 | "Beyin yıkama" 1950'de Edward Hunter ile yayıldı | DOĞRU | https://en.wikipedia.org/wiki/Brainwashing | "In September 1950, the Miami News published an article by Edward Hunter"
+K036 | Zhong ve ark. 2017 tek özel örneklem (doğrulanmadı) | DOĞRU | https://pubmed.ncbi.nlm.nih.gov/28392301/ | Neuropsychologia 100:18–25; "119 patients with penetrating traumatic brain injury"; işaret kaldırıldı, örneklem eklendi
+K036 | Le Fanu (Daily Telegraph) "explanatory gap" eleştirisi | DOĞRU | https://en.wikipedia.org/wiki/Brainwashing:_The_Science_of_Thought_Control | "Taylor did not acknowledge 'the explanatory gap'"; Telegraph, 20 Aralık 2004
+K038 | Park ve ark. 2002: yalanlar sonradan kanıt ya da itirafla anlaşılır (bellekten) | DOĞRU | https://doi.org/10.1080/714041710 ; https://researchconnect.buffalo.edu/en/publications/how-people-really-suspect-and-discover-lies/ | Communication Monographs 69(2); WebSearch özeti: üçüncü kişi bilgisi, itiraf, fiziksel kanıt; "hours, weeks, or months later". İşaret kaldırıldı
+K038 | TDT 12 önerme, 13 modül; makale 2014 JLSP | DOĞRU | https://en.wikipedia.org/wiki/Truth-default_theory | "12 different propositions and contains 13 modules"; JLSP 33(4):378–392, 2014
+
+Özet: 19 iddia (K037 6, K039 4, K033 1, K034 2, K035 3, K036 2, K038 2; Schein satırı K034–K035 ortak) · Doğru 17 · Düzeltildi 1 · Doğrulanamadı 1.
+Açık kalanlar: K038 uzman sorgulama deneyleri ("ayrıntı doğrulanmadı" işareti duruyor); K033 bölüm adları (Powell's, düşük güven) ve Greene 27. yasa; K034 Lewin-Schein "çözme-değiştirme-dondurma" şemasının kitapta kullanımı ve "binlerce görüşme" sayısı; K035 Schein'ın "kalıcı değil" bulgusu (özgül olarak); K040 Goodreads 22. bölüm yorumu, hayalet yazar cümlesi, diğer 5 kitabın puanları, Turner/Horn kitapları.

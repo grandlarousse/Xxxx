@@ -1,0 +1,28 @@
+# TA2 doğrulama notu — K005–K008 kalan satırlar (tam kontrol)
+dosya | iddia | karar | kaynak URL | kısa not
+K008 | Sassen: Arjantin'de eski Nazi gazeteci Willem Sassen'le kayıtlı sohbetler | DOĞRU | https://en.wikipedia.org/wiki/Adolf_Eichmann | "interviewed for four months beginning in late 1956 by Nazi expatriate journalist Willem Sassen"; Sassen Hollandalı Waffen-SS üyesi (https://en.wikipedia.org/wiki/Willem_Sassen); işaret kaldırıldı
+K008 | Stangneth 2011 Almanca "Eichmann vor Jerusalem", felsefeci | DOĞRU | https://en.wikipedia.org/wiki/Bettina_Stangneth | Arche, Zürih 2011; İng. 2014 Knopf
+K008 | Eichmann 1960 kaçırılma, 1961 dava, 1962 idam | DOĞRU | https://en.wikipedia.org/wiki/Adolf_Eichmann | yakalanma 11 Mayıs 1960; dava 11 Nisan 1961; idam 1 Haziran 1962
+K008 | Totalitarizmin Kaynakları 1951 | DOĞRU | https://en.wikipedia.org/wiki/The_Origins_of_Totalitarianism | "Publication date 1951"
+K008 | Cesarani 2006 "en fazla dört gün", kayıtlara dayanma | DOĞRU | https://en.wikipedia.org/wiki/Eichmann_in_Jerusalem | "at most four days ... mostly on recordings and the trial transcript"
+K008 | Hausner açılışı "kötü tarih ve ucuz retorik"; Ben-Gurion "tarih boyunca antisemitizm" | DOĞRU | https://en.wikipedia.org/wiki/Eichmann_in_Jerusalem | "bad history and cheap rhetoric"
+K008 | Danimarka ve Bulgaristan direniş örnekleri | DOĞRU | https://www.litcharts.com/lit/eichmann-in-jerusalem/summary | "Norway, Bulgaria, and especially Denmark"
+K008 | 9–13. bölüm adları (Reich, Batı Avrupa, Balkanlar, Orta Avrupa sürgünleri; Doğu'daki ölüm merkezleri) | DOĞRULANAMADI | https://www.litcharts.com/lit/eichmann-in-jerusalem/summary | LitCharts ve IA kayıtlarında bölüm adı yok; içerik özetiyle uyumlu, önemsiz olduğu için işaret eklenmedi
+K006 | Deney altıncı günde durduruldu | DOĞRU | https://en.wikipedia.org/wiki/Stanford_prison_experiment | "He ended the experiment on the sixth day"
+K006 | BBC Hapishane Çalışması (2006) | DÜZELTİLDİ | https://api.crossref.org/works/10.1348/014466605x48998 | çalışma 2002'de (BBC yayını Mayıs 2002), makale 2006 BJSP; metne "2002'de yürütüldü, 2006'da yayımlandı" yazıldı; işaret kaldırıldı
+K006 | Franco–Zimbardo "banality of heroism" | DOĞRU | https://greatergood.berkeley.edu/article/item/the_banality_of_heroism | Greater Good, 1 Eylül 2006; işaret kaldırıldı, yıl eklendi
+K006 | Le Texier'ye Zimbardo "kişisel saldırı" yanıtı; Nat Geo belgeselinde katılımcıların doğrulaması | DOĞRU | https://en.wikipedia.org/wiki/Stanford_prison_experiment | "ad hominem attack ... Unlocking the Truth largely confirmed many of Le Texier's claims"
+K006 | Jaffe kaydı "2017'de yayımlanan" | DÜZELTİLDİ | https://en.wikipedia.org/wiki/Stanford_prison_experiment | kayıtlar sitede zaten vardı; "widely discussed in 2017" → "2017'de geniş biçimde tartışılan"
+K006 | Maslach "yüksek lisans öğrencisi" | DÜZELTİLDİ | https://en.wikipedia.org/wiki/Christina_Maslach | Stanford doktorası 1971, ardından Berkeley'de yardımcı doçent; Lucifer Effect Vikipedi sayfası "graduate student" diyor, birincil biyografiye göre "doktorasını yeni tamamlamış psikolog" yazıldı
+K006 | Staub: durumcu açıklama kişisel farklılıkları küçültüyor | DÜZELTİLDİ | https://en.wikipedia.org/wiki/The_Lucifer_Effect | Staub "valuable contribution" der, deneyi "case study rather than an experiment" sayar; metin buna göre düzeltildi. McDermott ve Levine "required reading" DOĞRU
+K006 | Ebu Gureyb istismarı 2003, fotoğraflar 2004 | DOĞRU | https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse | "2004 American military scandal"; Lucifer Effect sayfası "in 2003"
+K005 | 12 bölüm adları (4 Açgözlülük..., 11 Kararsızlık ve yol arkadaşları) | DOĞRU | https://archive.org/metadata/evilinsidehumanc0000baum/metadata | içindekiler birebir uyumlu
+K005 | Stillwell-Wotman 1990, Bushman-Baumeister 1998, Baumeister vd. 2003, Donnellan vd. 2005 | DOĞRU | https://api.crossref.org/works/10.1037/0022-3514.59.5.994 | JPSP 1990; JPSP 1998 10.1037/0022-3514.75.1.219; PSPI 2003 (Baumeister, Campbell, Krueger, Vohs); Psych. Science 2005 10.1111/j.0956-7976.2005.01535.x
+K005 | 1999 Henry Holt (Owl) karton kapak | DOĞRU | https://openlibrary.org/works/OL21225297W/editions.json | "March 19, 1999 Holt Paperbacks" 9780805071658
+K007 | Fail tiplerinde öldürmeyen azınlığın oranı | DÜZELTİLDİ (eksik tamamlandı) | https://themontrealreview.com/Articles/Ordinary_Men.php | Browning: "perhaps 10 percent—and certainly no more than 20 percent"; LitCharts ch.8 "between 10 and 20 percent"; işaret yerine oran yazıldı
+K007 | Hilberg'e ithaf, başlık Hilberg cümlesine gönderme | DOĞRU | https://en.wikipedia.org/wiki/Ordinary_Men | "Ordinary men were to perform extraordinary tasks"
+K007 | Irving–Penguin 2000 uzman tanık; Erntefest Kasım 1943 en büyük katliam | DOĞRU | https://en.wikipedia.org/wiki/Christopher_Browning | Erntefest: https://en.wikipedia.org/wiki/Reserve_Police_Battalion_101 "largest German massacre of Jews in the war, 42,000"
+K007 | Kaynak: 1960'larda Hamburg savcılığının soruşturma ifadeleri | DOĞRULANAMADI | https://www.litcharts.com/lit/ordinary-men/summary | sorgu dosyaları ve 125'ten fazla ifade doğru; Hamburg/1960'lar ayrıntısı görülmedi, metne "(doğrulanmadı)" eklendi
+
+Özet: 23 satır (K008 8, K006 8, K005 3, K007 4; bazı satırlar aynı sayfadan birleşik) · Doğru 16 · Düzeltildi 5 (gerçek hata 4: K006 BBC yılı, Jaffe kaydı ifadesi, Maslach unvanı, Staub atfı; 1 eksik tamamlama: K007 yüzde) · Doğrulanamadı 2.
+Açık kalanlar: K008 9–13. bölüm adları; K007 Hamburg savcılığı/1960'lar; K007 2017 sonsözünde ideolojiye ağırlık (kontrol edilmedi); K005 büyüklük boşluğu ve Baumeister 2003'ün şiddet bulgusu yalnız başlıktan.
