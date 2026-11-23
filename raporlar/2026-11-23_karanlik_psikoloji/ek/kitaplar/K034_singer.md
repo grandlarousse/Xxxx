@@ -1,6 +1,6 @@
 ## Margaret Thaler Singer ve Janja Lalich — Cults in Our Midst (Cults in Our Midst: The Hidden Menace in Our Everyday Lives, 1995)
 
-**Künye.** Margaret Thaler Singer (1921–2003), ABD'li klinik psikolog; şizofreni ve aile içi iletişim araştırmalarıyla tanındı, 1964–1991 arasında California Üniversitesi Berkeley'de konuk öğretim görevlisiydi. Janja Lalich (d. 1945) sosyolog, bugün California State University, Chico'da emekli profesör; kendisi de siyasi bir grupta yıllarca bulunmuş eski üyedir (grubun adı: Democratic Workers Party, bellekten, doğrulanmadı). Özgün dil İngilizce; ilk yayın 1995, Jossey-Bass. 1996'da yeni bir baskı, 2003'te gözden geçirilmiş baskı çıktı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 380–400 sayfa.
+**Künye.** Margaret Thaler Singer (1921–2003), ABD'li klinik psikolog; şizofreni ve aile içi iletişim araştırmalarıyla tanındı, 1964–1991 arasında California Üniversitesi Berkeley'de konuk öğretim görevlisiydi. Janja Lalich (d. 1945) sosyolog, bugün California State University, Chico'da emekli profesör; kendisi de siyasi bir grupta yıllarca bulunmuş eski üyedir (yaklaşık on yıl üyesi olduğu Marksist-Leninist Democratic Workers Party). Özgün dil İngilizce; ilk yayın 1995, Jossey-Bass. 1996'da yeni bir baskı, 2003'te gözden geçirilmiş baskı çıktı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 380–400 sayfa.
 
 **Bir cümleyle.** Tarikatlar dinden siyasete, terapiden iş dünyasına kadar her alanda vardır ve üyelerini belirli, tanımlanabilir psikolojik tekniklerle kazanır ve elde tutar; bu teknikleri bilen kişi kendini ve yakınını koruyabilir.
 
@@ -44,7 +44,7 @@
 
 **Eleştiri ve sınırlar.**
 - **Bilirkişiliğin çöküşü.** Singer'ın tarikat davalarındaki tanıklıkları 1990'dan sonra mahkemelerce kabul görmedi. En önemli örnek *United States v. Fishman* (1990) davasıdır: hâkim Lowell Jensen, zorlayıcı ikna kuramının dini gruplara uygulanmasının bilim çevrelerinde yeterince kabul görmediği gerekçesiyle Singer'ın tanıklığını dışladı (karar metni okunmadı; ikincil kaynaktan).
-- **APA'ya dava.** Singer ve sosyolog Richard Ofshe 1992'de APA'yı ve bir grup akademisyeni dava ettiler, 1994'te kaybettiler ve mahkeme masraf ödemelerine hükmetti.
+- **APA'ya dava.** Singer ve sosyolog Richard Ofshe 1992'de APA'yı ve bir grup akademisyeni dava ettiler, 1994'te kaybettiler; mahkeme ayrıca karşı tarafın 80.000 dolarlık avukatlık ücretini ödemelerine hükmetti.
 - **Din sosyologlarının itirazı.** J. Gordon Melton, Dick Anthony ve Thomas Robbins gibi araştırmacılar, beyin yıkama tezinin üyelerin kendi seçimlerini yok saydığını ve azınlık dinlerine karşı ayrımcılığa zemin hazırladığını savundu.
 - **Eskiyen yanlar.** "Tarikat" sözcüğünün bu kadar geniş kullanılması bugün sorunlu görülür; akademi daha çok "yüksek denetimli grup" ya da "yeni dini hareket" der.
 - **Lalich'in sonraki yolu.** Lalich, *Bounded Choice* (2004) kitabında konuyu "beyin yıkama" yerine "sınırlı seçim" kavramıyla daha temkinli bir sosyolojik çerçeveye taşıdı.

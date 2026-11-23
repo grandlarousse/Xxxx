@@ -1,12 +1,12 @@
 ## Richard Bandler ve John Grinder — Frogs into Princes (Frogs into Princes: Neuro Linguistic Programming, 1979)
 
-**Künye.** Richard Bandler (d. 1950), California Üniversitesi Santa Cruz'da (UCSC) felsefe ve psikoloji okumuş, psikoloji yüksek lisansı yapmış bir yazar ve seminer eğitmenidir. John Grinder, dilbilim doktorası olan ve o yıllarda UCSC'de dilbilim öğretim üyesi olan bir dilbilimcidir. İkisi Nöro-Dilbilimsel Programlama'nın (Neuro-Linguistic Programming, NLP) kurucularıdır. Özgün dil İngilizce. Kitap 1979'da Real People Press'ten (Moab, Utah) çıktı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim 194 sayfa.
+**Künye.** Richard Bandler (d. 1950), California Üniversitesi Santa Cruz'da (UCSC) felsefe ve psikoloji okumuş, psikoloji yüksek lisansı yapmış bir yazar ve seminer eğitmenidir. John Grinder, dilbilim doktorası olan ve o yıllarda UCSC'de dilbilim öğretim üyesi olan bir dilbilimcidir. İkisi Nöro-Dilbilimsel Programlama'nın (Neuro-Linguistic Programming, NLP) kurucularıdır. Özgün dil İngilizce. Kitap 1979'da Real People Press'ten (Moab, Utah) çıktı; derleyen editör Steve Andreas'tır (önceki adıyla John O. Stevens). Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim 194 sayfa.
 
 **Bir cümleyle.** İnsanlar deneyimi farklı duyu kanallarıyla işler ve bu kanallar dil, göz hareketleri ve beden diliyle "okunabilir"; bunu bilen bir terapist ya da iletişimci, karşısındakinin davranışını hızla değiştirebilir.
 
 **Bağlam.** Bandler ve Grinder, 1970'lerin başında Santa Cruz'da Gestalt terapisti Fritz Perls'in, aile terapisti Virginia Satir'in ve hipnoterapist Milton Erickson'un çalışmalarını "modelleyerek" (taklit edilebilir adımlara dökerek) yeni bir yöntem kurduklarını söylediler. İlk kitapları The Structure of Magic I (1975) akademik bir dille yazılmıştı. Vikipedi'ye göre 150 öğrenci on günlük bir atölyeye kişi başı 1.000 dolar ödeyince ikili akademik yazıyı bıraktı ve seminer dökümlerinden popüler kitaplar üretmeye başladı. Frogs into Princes bunların ilkidir. Künyede belirtildiği gibi kitap, tanıtım atölyelerinin ses kayıtlarından Steve Andreas (önceki adıyla John O. Stevens) tarafından derlendi. 270.000'den fazla sattı. Ad, masaldaki kurbağanın prense dönüşmesinden gelir: hızlı ve büyülü değişim vaadi.
 
-**Yapısı.** Kitap bir önsöz ("Okura bir meydan okuma" bölümüyle) ve üç kısımdan oluşur:
+**Yapısı.** Kitap Steve Andreas'ın önsözü, "Okura bir meydan okuma" başlıklı giriş ve üç kısımdan oluşur:
 1. Duyusal deneyim: temsil sistemleri ve erişim ipuçları (s. 5–78). İnsanların görsel, işitsel ya da dokunsal-duygusal kanalı öne çıkardığı iddiası; bunun kullanılan sözcüklerden ("görüyorum", "kulağa hoş geliyor") ve göz hareketlerinden nasıl anlaşılacağı.
 2. Kişisel geçmişi ve düzeni değiştirmek: çapalama (s. 79–136). Bir duyguyu bir dokunuşa ya da sese bağlamak ve bu bağla eski anıların duygusal yükünü değiştirmek.
 3. Yeni yollar bulmak: yeniden çerçeveleme (s. 137 sonrası). İstenmeyen bir davranışın altındaki "olumlu niyeti" bulup ona başka bir yol önermek.
@@ -18,7 +18,7 @@ Sonda bir kaynakça vardır. Metin konuşma dökümü olduğu için bölümler s
 - **Göz erişim ipuçları.** Kitabın en ünlü şeması budur. Gözün yukarı, yana ya da aşağı kayması, kişinin görsel anı mı kurduğunu, ses mi hatırladığını, duygusuna mı döndüğünü gösterir denir. Şema altı yönü "görsel kurgu", "görsel anı", "işitsel kurgu" gibi etiketlerle eşler.
 - **Yansıtma ve eşleme.** Karşıdakinin duruşunu, nefes hızını ve ses temposunu incelikle taklit ederek (pacing) güven kazanmak, ardından onu başka bir duruma yönlendirmek (leading). Bu fikir satış ve "gizli ikna" eğitimlerinin temel taşı oldu.
 - **Çapalama.** Güçlü bir duygu yaşanırken verilen bir dokunuş ya da söz, o duyguyu sonradan geri çağıran bir "çapa" (anchor) olur. Kitap, eski acı anıları olumlu çapalarla "yeniden yazmayı" önerir.
-- **Yeniden çerçeveleme.** Bir davranışın anlamını ya da bağlamını değiştirerek tepkiyi değiştirmek. Kitapta istenmeyen davranışın "olumlu niyetini" bulmak için kişinin "parçalarıyla" konuşmayı içeren altı adımlı bir yeniden çerçeveleme süreci anlatılır (adım sayısı doğrulanmadı).
+- **Yeniden çerçeveleme.** Bir davranışın anlamını ya da bağlamını değiştirerek tepkiyi değiştirmek. Kitapta istenmeyen davranışın "olumlu niyetini" bulmak için kişinin "parçalarıyla" konuşmayı içeren altı adımlı bir yeniden çerçeveleme süreci anlatılır.
 - **Modelleme.** Usta terapistlerin ne yaptığını, kuramlarını sormadan, davranışlarını taklit ederek öğrenmek. Bandler ve Grinder bunu her beceriye uygulanabilecek bir yöntem olarak sunar.
 - **Hızlı tedavi vaadi.** Kitapta fobilerin tek oturumda "geri sarma" (rewinding) ile geçirilebileceği anlatılır. Bu teknik sonra Bandler'ın başka kitaplarında geliştirildi.
 

@@ -1,6 +1,6 @@
 ## Joost A. M. Meerloo — Zihne Saldırı: Totaliter Rejimlerde Beyin Yıkama (The Rape of the Mind: The Psychology of Thought Control, Menticide, and Brainwashing, 1956)
 
-**Künye.** Joost Abraham Maurits Meerloo (1903–1976), Hollanda doğumlu psikiyatrist ve psikanalist. Nazi işgalinden kaçıp İngiltere'de sürgündeki Hollanda ordusunun psikoloji dairesini yönetti; 1946'da ABD'ye geçti, Columbia Üniversitesi'nde psikiyatri öğretim üyesi oldu. Özgün dil İngilizce; ilk yayın 1956, World Publishing Company. Türkçe baskı: Zihne Saldırı - Totaliter Rejimlerde Beyin Yıkama (kitapçı kataloğu; yayınevi katalogda görünmüyor). Hacim: yaklaşık 320 sayfa.
+**Künye.** Joost Abraham Maurits Meerloo (1903–1976), Hollanda doğumlu psikiyatrist ve psikanalist. Nazi işgalinden kaçıp İngiltere'de sürgündeki Hollanda ordusunun psikoloji dairesini yönetti; 1946'da ABD'ye geçti, Columbia Üniversitesi'nde psikiyatri öğretim üyesi oldu. Özgün dil İngilizce; ilk yayın 1956, World Publishing Company. Türkçe baskı: Zihne Saldırı - Totaliter Rejimlerde Beyin Yıkama ve Zihin Kontrolünün Psikolojisi (Pinhan Yayıncılık, 2025, çeviren Canberk Şeref, 368 sayfa; kitapçı kayıtları). Hacim: yaklaşık 320 sayfa.
 
 **Bir cümleyle.** Korku, yalıtılmışlık, yorgunluk ve sürekli propaganda neredeyse her insanın iradesini kırabilir; totaliter rejimler bunu sistemli bir "zihin öldürme"ye dönüştürmüştür, ve demokrasiler de bu tehlikeden muaf değildir.
 
