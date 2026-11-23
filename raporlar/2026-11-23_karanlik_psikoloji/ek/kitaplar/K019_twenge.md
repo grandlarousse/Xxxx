@@ -1,6 +1,6 @@
 ## Jean M. Twenge ve W. Keith Campbell — Asrın Vebası: Narsisizm İlleti (The Narcissism Epidemic: Living in the Age of Entitlement, 2009)
 
-**Künye.** Jean M. Twenge (d. 1971) San Diego Eyalet Üniversitesi'nde psikoloji profesörüdür; kuşaklar arası farklar üzerine çalışır ve Generation Me (2006) ile tanınır. W. Keith Campbell, Georgia Üniversitesi'nde psikoloji profesörü olan bir sosyal psikologdur; doktora tezinden beri narsisizm üzerine araştırma yapar. Özgün dil İngilizce; ilk baskı 2009, New York, Simon & Schuster. Türkçe baskı: Asrın Vebası: Narsisizm İlleti, Kaknüs Yayınları (kitapçı kataloğu). Hacim: yaklaşık 350 sayfa (doğrulanmadı).
+**Künye.** Jean M. Twenge (d. 1971) San Diego Eyalet Üniversitesi'nde psikoloji profesörüdür; kuşaklar arası farklar üzerine çalışır ve Generation Me (2006) ile tanınır. W. Keith Campbell, Georgia Üniversitesi'nde psikoloji profesörü olan bir sosyal psikologdur; doktora tezinden beri narsisizm üzerine araştırma yapar. Özgün dil İngilizce; ilk baskı 2009, New York, Simon & Schuster. Türkçe baskı: Asrın Vebası: Narsisizm İlleti, Kaknüs Yayınları, 2010, çeviren Özlem Yüksel (kitapçı kataloğu). Hacim: İngilizce baskı yaklaşık 350 sayfa (doğrulanmadı); Türkçe baskı 448 sayfa.
 
 **Bir cümleyle.** ABD'de narsisizm, obezite gibi yayılan bir kültürel salgına dönüşmüştür; bunun kökü ebeveynlikte, ünlü ve medya kültüründe, internette ve kolay krediye dayalı tüketimdedir ve bu salgın bireyler ile toplum için ciddi zararlar doğurmaktadır.
 

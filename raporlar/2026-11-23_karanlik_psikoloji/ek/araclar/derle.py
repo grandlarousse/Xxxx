@@ -40,15 +40,12 @@ kullanilan = [k for _, _, ks in BOLUM for k in ks.split()]
 assert len(kullanilan) == len(set(kullanilan)) == 124, (len(kullanilan), len(set(kullanilan)))
 eksik = [k for k in kullanilan if k not in dosya]
 def tr_var(t):
+    """True: Türkçe baskı künyede ad ve kaynakla var; None: var olduğu söyleniyor ama doğrulanmadı; False: görünmüyor."""
     m = re.search(r"\*\*Künye\.?\*\*(.*?)\n\*\*", t, re.S)
-    ku = m.group(1) if m else ""
-    for c in re.split(r"(?<=[.;])\s+", ku):
-        fc = f(c)
-        if "turkce" in fc:
-            if re.search(r"gorunmuyor|bulunamadi|yok\b|cikmadi|rastlanmadi|turkcesi yok", fc) and not re.search(r"katalog\)|yayin|yayinevi|kitap\b.*\(", fc[:0] or ""):
-                if not re.search(r"\(kitapci katalogu\)|katalogu\)", fc): continue
-            if re.search(r"\(kitapci katalogu\)|kitapci katalogu|yayinlar|yayinevi|kitap(lar|ligi)|yayincilik|\b(can|metis|iletisim|ayrinti|timas|dergah|say|alfa|pegasus|beta|epsilon)\b", fc):
-                return True
+    cumle = [f(c) for c in re.split(r"(?<=[.;])\s+", m.group(1) if m else "") if "turk" in f(c)]
+    ku = " ".join(cumle)
+    if re.search(r"turkce baski(si)?:|turkce yazilmis ozgun|turkce, ozgun", ku): return True
+    if re.search(r"cevirisi olabilecek|cevrildigi biliniyor|adiyla cevrilmis|turkcesi .*bellekten", ku): return None
     return False
 ozet, toplam = [], {}
 for ad, baslik, kodlar in BOLUM:
@@ -56,7 +53,12 @@ for ad, baslik, kodlar in BOLUM:
     for k in kodlar:
         if k not in dosya: continue
         t = oku(dosya[k]); s = t.split("\n"); assert s[0].startswith("## "), dosya[k]
-        h = s[0][3:].strip(); kisa = h.split(" (")[0]
+        h = s[0][3:].strip(); kisa = h
+        if h.endswith(")"):
+            d = 0
+            for i in range(len(h) - 1, -1, -1):
+                d += {")": 1, "(": -1}.get(h[i], 0)
+                if d == 0: kisa = h[:i].strip(); break
         m = re.search(r"\*\*Bir cümleyle\.?\*\*\.?\s*(.+)", t); bc = m.group(1).strip() if m else ""
         m2 = re.search(r"\[(araştırma|klinik|popüler)\]", t[t.find("**Bilimsel dayanağı"):] if "**Bilimsel dayanağı" in t else t)
         etiket = m2.group(1) if m2 else ""
@@ -67,7 +69,8 @@ for ad, baslik, kodlar in BOLUM:
 L, son = [], None
 for ad, baslik, k, kisa, bc, var, kat, et in ozet:
     if ad != son: L.append(f"\n**{baslik}** (`ek/{ad}.md`)\n"); son = ad
-    L.append(f"- {'★ ' if kat == 'A' else ''}**{kisa}**{' *(TR)*' if var else ''}{f' [{et}]' if et else ''}: {bc}")
+    trs = " *(TR)*" if var is True else (" *(TR?)*" if var is None else "")
+    L.append(f"- {'★ ' if kat == 'A' else ''}**{kisa}**{trs}{f' [{et}]' if et else ''}: {bc}")
 open(K + "/parcalar/rapor_liste.md", "w", encoding="utf-8").write("\n".join(L).strip() + "\n")
 
 # ---------- 12: envanter ----------
@@ -117,8 +120,10 @@ if os.path.exists(ust_p) and os.path.exists(alt_p):
     for p_ in glob.glob(K + "/defter/*.md"):
         for u in re.findall(r"https?://([^/ |)>]+)", open(p_, encoding="utf-8").read()): alan[u.lower().replace("www.", "")] += 1
     satir = [f"- `{a}`: {n} defter satırı" for a, n in alan.most_common(18)]
-    deg = {"__KAYNAK_ALANLARI__": "\n".join(satir), "__TR_SAYI__": str(sum(1 for x in ozet if x[5])), "__ENV_SAYI__": str(say),
-           "__ETIKET__": ", ".join(f"{e}: {sum(1 for x in ozet if x[7] == e)}" for e in ["araştırma", "klinik", "popüler"]), "__DEFTER_SAYI__": str(len(glob.glob(K + "/defter/*.md")))}
+    deg = {"__KAYNAK_ALANLARI__": "\n".join(satir), "__TR_SAYI__": str(sum(1 for x in ozet if x[5] is True)), "__TRQ_SAYI__": str(sum(1 for x in ozet if x[5] is None)), "__ENV_SAYI__": str(say),
+           "__ETIKET__": ", ".join(f"{sum(1 for x in ozet if x[7] == e)} [{e}]" for e in ["araştırma", "klinik", "popüler"]), "__DEFTER_SAYI__": str(len(glob.glob(K + "/defter/*.md"))),
+           "__TAKTIK__": ", ".join(f"{n} [{e}]" for e, n in [(e, len(re.findall(r"(?m)^### \\d+\\..*\\[" + e + r"\\]", oku(K + "/parcalar/rehber_R3.md")))) for e in ["araştırma", "klinik", "popüler"]]),
+           "__TRQ_SAYI__": str(sum(1 for x in ozet if x[5] is None))}
     alt = oku(alt_p); ust = oku(ust_p)
     for a_, b_ in deg.items(): alt = alt.replace(a_, b_); ust = ust.replace(a_, b_)
     rapor = ust + "\n\n" + oku(K + "/parcalar/rapor_liste.md") + "\n\n" + alt + "\n"
@@ -126,5 +131,5 @@ if os.path.exists(ust_p) and os.path.exists(alt_p):
     print("RAPOR.md:", kelime(rapor), "kelime; govde yaklasik", kelime(ust) + kelime(alt))
 print("01 rehber:", kelime(rehber), "kelime")
 for ad, (n, w) in toplam.items(): print(ad, n, "kitap", w, "kelime")
-print("envanter:", say, "kayit; onceki raporda:", len(onc), "; TR:", sum(1 for x in ozet if x[5]), "/", len(ozet), "; eksik dosya:", eksik)
+print("envanter:", say, "kayit; onceki raporda:", len(onc), "; TR:", sum(1 for x in ozet if x[5] is True), "TR?:", sum(1 for x in ozet if x[5] is None), "/", len(ozet), "; eksik dosya:", eksik)
 print("etiket:", {e: sum(1 for x in ozet if x[7] == e) for e in ["araştırma", "klinik", "popüler", ""]})

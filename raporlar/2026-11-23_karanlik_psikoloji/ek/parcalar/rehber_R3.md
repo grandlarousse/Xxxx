@@ -14,7 +14,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** Bir kişiyi kendi algısından, belleğinden ve aklından şüphe ettirmek. "Öyle bir şey olmadı", "Sen hep abartırsın" gibi sözlerle gerçeklik sürekli yeniden yazılır.
 
-**Köken:** Patrick Hamilton'ın 1938 tarihli oyunu *Gas Light* ve 1944 Hollywood filmi *Gaslight*. Filmde koca, karısını deli olduğuna inandırıp mirasını ele geçirmeye çalışır. Robin Stern'in *The Gaslight Effect* (2007) kitabı terimi ilişki diline taşıdı. Merriam-Webster 2022'de "gaslighting"i yılın kelimesi seçti. Sosyolog Paige L. Sweet 2019'da *American Sociological Review*'da yayımlanan makalesinde, aile içi şiddet destek gruplarından kadınlarla görüşerek gaslighting'in toplumsal cinsiyet kalıplarından beslendiğini savundu.
+**Köken:** Patrick Hamilton'ın 1938 tarihli oyunu *Gas Light* ve 1944 Hollywood filmi *Gaslight*. Filmde koca, karısını deli olduğuna inandırıp mirasını ele geçirmeye çalışır. Robin Stern'in *The Gaslight Effect* (2007) kitabı terimi ilişki diline taşıdı. Merriam-Webster 2022'de "gaslighting"i yılın kelimesi seçti. Sosyolog Paige L. Sweet 2019'da *American Sociological Review*'da yayımlanan "The Sociology of Gaslighting" makalesinde, aile içi şiddeti örnek vaka olarak inceleyerek gaslighting'in toplumsal cinsiyet kalıplarından beslendiğini savundu.
 
 **Örnek:** Ayşe, eşinin dün akşam kendisine bağırdığını hatırlıyor. Eşi "Ben sesimi yükseltmedim, sen yine kuruntu yapıyorsun" diyor ve bunu her tartışmada tekrarlıyor.
 
@@ -86,7 +86,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** İlişki bittikten ya da kişi uzaklaştıktan sonra onu geri kazanmak için yapılan girişimler: özür, nostalji, değişme sözü, kriz ya da hastalık haberi.
 
-**Köken:** Adını ABD'li elektrik süpürgesi markası Hoover'dan alır: kişiyi "geri emmek". EBSCO'nun başvuru metni de kökeni böyle açıklıyor. Psikolog Elinor Greenberg (2019) bu tür terimlerin akademik yazında değil, çevrim içi tartışmalarda doğduğunu not ediyor. İlk kullanımın kime ait olduğu doğrulanmadı.
+**Köken:** Adını ABD'li elektrik süpürgesi markası Hoover'dan alır: kişiyi "geri emmek". EBSCO'nun başvuru metni de kökeni böyle açıklıyor. Psikolog Elinor Greenberg (2019) bu tür terimlerin akademik yazında değil, çevrim içi tartışmalarda doğduğunu not ediyor (doğrulanmadı). İlk kullanımın kime ait olduğu doğrulanmadı.
 
 **Örnek:** Ayrılıktan üç ay sonra doğum gününde "Seni hiç unutmadım" mesajı geliyor; yanıt verilmeyince "Çok hastayım" yazıyor.
 
@@ -146,7 +146,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** "Bunu yapmazsan..." diye başlayan, korku (fear), yükümlülük (obligation) ve suçluluk (guilt) üzerinden işleyen baskı. İngilizce baş harfler FOG'u, yani "sis"i oluşturur: kişi sis içinde neyin doğru olduğunu göremez.
 
-**Köken:** Klinik sosyal hizmet uzmanı Susan Forward, Donna Frazier ile yazdığı *Emotional Blackmail* kitabında (1997; Open Library'deki ilk kayıt 1996) kavramı yaygınlaştırdı. Forward dört tip tarif eder: cezalandırıcı, kendini cezalandırıcı, acı çeken ve ayartıcı (bu dörtlü tipoloji bu oturumda kaynaktan görülmedi).
+**Köken:** Klinik sosyal hizmet uzmanı Susan Forward, Donna Frazier ile yazdığı *Emotional Blackmail* kitabında (1997; Open Library'deki ilk kayıt 1996) kavramı yaygınlaştırdı. Forward dört tip tarif eder: cezalandırıcı, kendini cezalandırıcı, acı çeken ve ayartıcı.
 
 **Örnek:** "Bayramda bize gelmezsen baban üzüntüden hasta olur, sonra da vicdan azabı çekersin."
 
@@ -194,7 +194,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** Tartışmada tutarsız, döngüsel ve konudan konuya atlayan konuşmayla karşıdakini yormak; asıl soruya hiç yanıt vermemek.
 
-**Köken:** "Kelime salatası" aslen psikiyatride ağır düşünce bozukluklarında görülen anlamsız konuşma için kullanılan bir terimdir (bellekten, doğrulanmadı). Popüler kullanımda anlamı değişti: bilinçli ya da yarı bilinçli bir yorma taktiği. Bu ikinci anlamın araştırması yok. Gündelik dildeki "whataboutism" (ya sen? taktiği) yakın akrabasıdır.
+**Köken:** "Kelime salatası" aslen psikiyatride ağır düşünce bozukluklarında görülen anlamsız konuşma için kullanılan bir terimdir. Popüler kullanımda anlamı değişti: bilinçli ya da yarı bilinçli bir yorma taktiği. Bu ikinci anlamın araştırması yok. Gündelik dildeki "whataboutism" (ya sen? taktiği) yakın akrabasıdır.
 
 **Örnek:** "Neden kredi kartından bu harcamayı yaptın?" sorusu, beş dakika sonra annenin geçen yılki sözlerine, senin işteki başarısızlığına ve hava durumuna varıyor.
 

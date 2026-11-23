@@ -1,6 +1,6 @@
 ## Wendy T. Behary — Narsistle Ateşkes (Disarming the Narcissist: Surviving and Thriving with the Self-Absorbed, 2008)
 
-**Künye.** Wendy T. Behary lisanslı klinik sosyal hizmet uzmanı (LCSW) ve terapisttir; New Jersey Bilişsel Terapi Merkezi'nin kurucusu ve klinik direktörüdür, New York Bilişsel Terapi ve Şema Terapisi Enstitüsü'nde eğitmen olarak çalışmıştır. Kitap İngilizce yazıldı ve ilk kez Mart 2008'de New Harbinger tarafından yayımlandı. İkinci baskı 2013'te, üçüncü baskı 2021'de çıktı; kitap on beşten fazla dile çevrildi. Türkçe baskı: Narsistle Ateşkes, Psikonet Yayınları (kitapçı kataloğu). Hacim ilk baskıda yaklaşık 156–176 sayfa, sonraki baskılarda 220 sayfa civarı.
+**Künye.** Wendy T. Behary lisanslı klinik sosyal hizmet uzmanı (LCSW) ve terapisttir; New Jersey Bilişsel Terapi Merkezi'nin kurucusu ve klinik direktörüdür, New York Bilişsel Terapi ve Şema Terapisi Enstitüsü'nde eğitmen olarak çalışmıştır. Kitap İngilizce yazıldı ve ilk kez Mart 2008'de New Harbinger tarafından yayımlandı. İkinci baskı 2013'te, üçüncü baskı 2021'de çıktı; kitap on beşten fazla dile çevrildi. Türkçe baskı: Narsistle Ateşkes, Psikonet Yayınları, 2014, çeviren Melis Caner ve Nihan Azizlerli, 176 sayfa (kitapçı kataloğu). Hacim ilk baskıda yaklaşık 156–176 sayfa, sonraki baskılarda 220 sayfa civarı.
 
 **Bir cümleyle.** Narsisistik özellikli biriyle ilişkide kalmak zorunda ya da istekliyseniz, onu değiştirmeye çalışmak yerine kendi "düğmelerinizi" tanıyıp empatik ama sınırları net bir dille konuşarak ilişkiyi yönetilebilir kılabilirsiniz.
 

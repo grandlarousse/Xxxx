@@ -69,3 +69,15 @@ Klasör: `2026-11-20_iktidar_kitaplari/`
 - `ek/02` – `ek/10`: 125 kitabın ayrıntılı anlatımı, dokuz dosyada.
 - `ek/11_envanter.md`: ayrıntılı anlatılmayan kitapların tek satırlık envanteri.
 - `ek/defter/`, `ek/dogrulama/`, `ek/araclar/`: iddia defterleri, doğrulama notları ve betikler.
+
+---
+
+# Karanlık psikoloji: alan rehberi ve kitaplar (23.11.2026)
+
+Klasör: `2026-11-23_karanlik_psikoloji/`
+
+- `RAPOR.md`: ana rapor (okuma yolları, rehber özeti, 124 kitabın listesi, doğrulama kapsamı).
+- `ek/01_karanlik_psikoloji_rehberi.md`: alan rehberi (kavramlar, dört karanlık kişilik, 31 manipülasyon taktiği, popüler tür, hukuk ve korunma).
+- `ek/02` – `ek/11`: 124 kitabın ayrıntılı anlatımı, on dosyada.
+- `ek/12_envanter.md`: ayrıntılı anlatılmayan kitapların envanteri.
+- `ek/defter/`, `ek/dogrulama/`, `ek/araclar/`: iddia defterleri, doğrulama notları ve betikler.

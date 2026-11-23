@@ -1,6 +1,6 @@
 # Narsisizm
 
-Bu dosyada 8 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, bilimsel dayanağı, karanlık psikoloji haritasındaki yeri, eleştiri, kimler okumalı. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir. Kanıt etiketleri ve kavramlar için `01_karanlik_psikoloji_rehberi.md` dosyasına bakın.
+Bu dosyada 16 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, bilimsel dayanağı, karanlık psikoloji haritasındaki yeri, eleştiri, kimler okumalı. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir. Kanıt etiketleri ve kavramlar için `01_karanlik_psikoloji_rehberi.md` dosyasına bakın.
 
 ## Bu dosyadaki kitaplar
 
@@ -12,6 +12,14 @@ Bu dosyada 8 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümle
 6. Ramani Durvasula — Bozuk Ayna
 7. Karyl McBride — Boş Ayna
 8. Wendy T. Behary — Narsistle Ateşkes
+9. Elsa F. Ronningstam — Identifying and Understanding the Narcissistic Personality
+10. Sam Vaknin — Malignant Self-Love: Narcissism Revisited
+11. Kristin Dombek — The Selfishness of Others: An Essay on the Fear of Narcissism
+12. Joseph Burgo — The Narcissist You Know
+13. Ramani Durvasula — "Don't You Know Who I Am?"
+14. Elan Golomb — Trapped in the Mirror
+15. Shahida Arabi — Power: Surviving and Thriving After Narcissistic Abuse
+16. Jean-Charles Bouchoux — Narsist Sapkınlar
 
 ## Otto F. Kernberg — Sınır Durumlar ve Patolojik Narsisizm (Borderline Conditions and Pathological Narcissism, 1975)
 
@@ -407,3 +415,220 @@ Narsisistik kişilik bozukluğuna özgü kontrollü tedavi çalışmaları hâl�
 - **Kanıt.** Partner tarafından uygulanan empatik yüzleşmenin etkisi sınanmamıştır.
 
 **Kimler okumalı.** Narsisistik özellikli bir partner, ebeveyn ya da yöneticiyle ilişkisini sürdürmeye karar vermiş ve kendini güvende hisseden okur için en pratik rehberlerden biri. Uyarı: Şiddet, tehdit ya da zorlayıcı denetim varsa bu kitap yerine güvenlik planı ve uzman desteği önceliklidir.
+
+---
+
+## Elsa F. Ronningstam — Identifying and Understanding the Narcissistic Personality (Identifying and Understanding the Narcissistic Personality, 2005)
+
+**Künye.** Elsa F. Ronningstam, Harvard Tıp Fakültesi Psikiyatri Bölümü'nde klinik doçent (Associate Clinical Professor) ve Massachusetts'teki McLean Hastanesi'nde klinik psikologdur; narsisizm üzerine araştırma yapan ve hasta tedavi eden bir klinisyen olarak yazar. Özgün dil İngilizce; ilk yayın 2005, Oxford University Press (New York). Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 256 sayfa.
+
+**Bir cümleyle.** Narsisizm, verimli bir kişilik özelliğinden yıkıcı bir bozukluğa uzanan bir yelpazedir; içinde özgüven ile utanç ve güvensizlik arasında sürekli bir çekişme vardır ve zamanla değişebilir.
+
+**Bağlam.** Ronningstam, yayınevinin tanıtımına göre kitabı yazdığında narsisistleri 29 yıldır inceliyor ve tedavi ediyordu. 1998'de derlediği *Disorders of Narcissism* adlı akademik kitabın ardından, dağınık psikanalitik kuram ile deneysel bulguları tek bir klinik rehberde birleştirmek istedi. Hedef okur öncelikle klinisyenlerdir, ama dili meraklı okura da kapalı değildir.
+
+**Yapısı.** Kitap sekiz bölüm ve bir sonsözden oluşur. İlk üç bölüm kavramın mitten tanıya uzanan tarihini, normal narsisizmin kültürler arası farklarını ve bozukluğun kökenleriyle yaygınlığını anlatır. Dördüncü ve beşinci bölüm patolojik narsisizmin nasıl tanınacağını ve başka bozukluklardan nasıl ayrılacağını; son üç bölüm iş yerinde narsisizmi, narsisizm ile intiharı ve narsisizmin zaman içindeki değişimini işler.
+
+**Ana fikirler.**
+- **Yelpaze görüşü.** Narsisizm ya hep ya hiç değildir. Sağlıklı benlik saygısı, vizyon ortaya koyup başkalarını peşinden sürükleme yeteneği gibi verimli biçimleri vardır; patolojik ucu ise ilişkileri ve kişinin kendisini yıkar.
+- **İç çekişme.** Ronningstam vaka öyküleriyle, dışarıdan görünen kibrin altında acı veren utanç ve kırılganlık olduğunu gösterir. Bu, bugün büyüklenmeci (grandiose) ve kırılgan (vulnerable) narsisizm diye ayrılan iki yüzün aynı kişide dönüşümlü görülebileceği anlamına gelir.
+- **Ayırt etme.** Narsisistik bozukluk; antisosyal, sınırda (borderline) kişilik bozukluğu ve bipolar bozuklukla karışabilir. Kitap tanı koyarken davranışın yanı sıra benlik saygısının nasıl düzenlendiğine bakmayı önerir.
+- **İş yerinde narsisizm.** Altıncı bölümün başlığı sorunun kendisidir: bir değer mi, bir bozulma mı? Narsisistik özellikler liderlikte avantaj sağlayabilir, ama eleştiriye dayanıksızlık ve empati eksikliği ekibe zarar verir.
+- **İntihar riski.** Yedinci bölüm, narsisistik kişilerin belirgin depresyon olmadan da intihar riski taşıyabileceğini, özellikle onur kırıcı bir yenilgi ya da kayıp sonrasında riskin arttığını tartışır.
+- **Değişim mümkündür.** Son bölüm, narsisizmin hayat olaylarıyla (başarı, ilişki, kayıp) ve tedaviyle değişebileceğini savunur. Bu, "narsist asla değişmez" yargısına karşı klinik bir itirazdır.
+
+**Bilimsel dayanağı.** Kitap hem klinik vakalara hem de yazarın kendi araştırmalarına dayanır. Ronningstam, Gunderson ve Lyons'un 1995'te yayımlanan izlem çalışması, narsisistik kişilik bozukluğu tanısı almış hastaların önemli bir kısmında üç yıl içinde belirgin iyileşme bulmuştu (sayılar bellekten, doğrulanmadı). Pincus ve Lukowitsky (2010) da narsisizmin büyüklenmeci ve kırılgan iki yüzünü sistemleştirerek benzer bir çerçeve çizdi. Kitap kurumsal bir akademik yayınevinden çıktı ve yayıncı onu "ilk bütünleşik klinik ve deneysel rehber" olarak tanıtır. [araştırma]
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap rehberdeki **büyüklenmeci ve kırılgan narsisizm** ayrımının klinik temelidir ve **karanlık üçlü** içindeki narsisizm bileşenini tanı düzeyinde ele alır. Gündelik "narsist" etiketine (Vaknin, Durvasula) bilimsel bir karşı ağırlık sağlar ve Dombek'in eleştirisiyle aynı yöne bakar: narsisizm sabit bir canavar kimliği değil, değişebilen bir örüntüdür. İş yeri bölümü, Babiak ve Hare'in *Snakes in Suits* kitabıyla (önceki raporda) konuşur.
+
+**Eleştiri ve sınırlar.** Bağımsız hakemli bir kitap incelemesine ulaşılamadı; Doody's tanıtımı olumludur. Kitap 2005'te, DSM-5'in (Ruhsal Bozuklukların Tanısal ve Sayımsal El Kitabı, 2013) yayımından ve narsisizm üzerine son on yılın deneysel çalışmalarından önce yazıldı; boyutsal kişilik modelleri ve yeni ölçekler eksiktir. Psikanalitik dili meslek dışı okur için zaman zaman ağırdır. Ronningstam 2024'te konuyla ilgili yeni bir kitap da yayımladı (*Narcissistic Personality Disorder*); güncel görüş için oraya bakılabilir.
+
+**Kimler okumalı.** Narsisizmi popüler etiketlerden arındırıp klinik gerçekliğiyle anlamak isteyen ciddi okur ve psikoloji öğrencisi. Uyarı: Vaka betimlemeleri yakınlarına tanı koyma isteği uyandırabilir; tanı ancak yüz yüze klinik değerlendirmeyle konur.
+
+---
+
+## Sam Vaknin — Malignant Self-Love: Narcissism Revisited (Malignant Self-Love: Narcissism Revisited, 1999)
+
+**Künye.** Sam (Shmuel) Vaknin 1961 doğumlu İsrailli bir yazardır; psikoloji ya da psikiyatri alanında klinik eğitimi ve lisansı yoktur. 1980'lerde uzaktan eğitim veren Pacific Western University'de fizik konulu ("zamanın asimetrisi") bir doktora tezi yazmıştır. Kendisi narsisistik kişilik bozukluğu tanısı aldığını söyler ve kitabı "içeriden" bir tanık olarak yazar. Özgün dil İngilizce. Kitap önce internette ve elektronik sürümlerde dolaştı; basılı ilk baskı 1999'da, yazarın eşi Lidija Rangelovska ile kurduğu Narcissus Publications'tan çıktı (künyede "3. baskı, 1. basılı baskı" diye geçer). Sonraki yıllarda genişletilmiş baskıları yayımlandı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim baskıya göre değişir: 1999 baskısı 438, Goodreads'teki genişletilmiş baskı 680 sayfa.
+
+**Bir cümleyle.** Narsisist içi boş bir "sahte benlik" taşır ve bu boşluğu başkalarından gelen ilgi ile hayranlıkla, yani "narsisistik arz" ile doldurmak zorundadır; çevresindekiler bu ihtiyacın bedelini öder.
+
+**Bağlam.** Vaknin 1995'te İsrail'de menkul kıymet dolandırıcılığından mahkûm oldu ve kitabı cezaevinde yazmaya başladı. Tahliye olduktan sonra Makedonya'ya yerleşti, internet forumlarında binlerce narsisist ve "kurban" ile yazıştı. Kitap bu forumların sorularından doğdu; hedef okur, narsisistik bir yakınla yaşayan ve yaşadığına ad koymak isteyen sıradan insandır.
+
+**Yapısı.** Yayıncı tanıtımına göre kitabın ilk kısmı, istismarcı narsisistlerle ilişkiler ve narsisistik kişilik bozukluğu üzerine 100'ü aşkın "Sıkça Sorulan Soru"dan (SSS) oluşur. Kalan kısım, yazarın deneme ve yazışmalarından oluşan uzun bir derlemedir (bölüm sayısı ve adları doğrulanmadı). Tek bir anlatı çizgisi yoktur; okur sorudan soruya atlayabilir.
+
+**Ana fikirler.**
+- **Sahte benlik.** Vaknin'e göre narsisistin gerçek benliği çocuklukta körelmiştir; yerine sevemeyen ve empati kuramayan bir "sahte benlik" geçer. Dışarıdaki görkemli imaj bu boşluğun vitrinidir.
+- **Narsisistik arz.** Kitabın en yayılan kavramıdır. Vaknin "birincil arz" (yabancılardan, iş arkadaşlarından gelen ilgi) ile "ikincil arz" (eş, ebeveyn, çocuk gibi kişisel imajı besleyen yakınlar) arasında ayrım yapar. Kavramı Vaknin icat etmedi: psikanalist Otto Fenichel 1938'de ortaya atmıştı. Vaknin onu gündelik dile taşıdı.
+- **Çocuk bir arz kaynağıdır.** Vaknin çocukları "narsisistik arzın nihai kaynağı" olarak görür. Narsisistik ebeveyn çocuğu kendi düşlerini gerçekleştirecek bir araca dönüştürür (bkz. Golomb).
+- **İdealize et, değersizleştir, at.** Arz kaynağı yeni ve parlakken yüceltilir, ilgisi azalınca küçümsenir ve bir yenisi bulununca bırakılır. Bugün internetteki "narsisistik istismar" anlatısının çekirdeğini oluşturan bu döngü, kitapta erken ve ayrıntılı biçimde betimlenir (terim adının kitaptaki birebir biçimi doğrulanmadı).
+- **Bulaşıcılık iddiası.** Yazar narsisizmin, onunla her gün temas eden insanları da değiştirdiğini ve "yirminci yüzyılın zihinsel salgını" olduğunu öne sürer.
+
+**Bilimsel dayanağı.** Kitap esas olarak yazarın kendi deneyimine, internet yazışmalarına ve klinik literatürün kişisel okumasına dayanır; sistemli bir araştırma ya da klinik örneklem yoktur. "Salgın" iddiası da tartışmalıdır: Twenge ve Campbell (2009) narsisizmin arttığını savunsa da Wetzel ve arkadaşlarının (2017) geniş örneklemli çalışması üniversite öğrencilerinde artış değil hafif düşüş buldu (bellekten, doğrulanmadı). [popüler]
+
+**Karanlık psikoloji haritasındaki yeri.** Rehberdeki **idealize et–değersizleştir–terk et döngüsü**, **vakumlama** (bırakılan kaynağı geri çekme), **sessiz muamele** ve **travma bağı** gibi taktik adlarının yaygınlaşmasında öncü bir metindir; **büyüklenmeci narsisizm**i içeriden anlatır. Ronningstam'ın klinik ve değişime açık tablosuyla çelişir; Dombek'in eleştirdiği "boş narsisist" imgesinin kaynaklarından biridir. Greene'in *48 Laws of Power* kitabındaki (önceki raporda) kendini vazgeçilmez kılma ve ilgi çekme yasaları, Vaknin'in arz arayan narsisistinde karanlık bir yansıma bulur.
+
+**Eleştiri ve sınırlar.** En büyük sorun yazarın konumudur: klinik eğitimi yoktur, dolandırıcılıktan mahkûm olmuştur ve "kendini teşhis etmiş narsisist" kimliği hem çekiciliği hem pazarlama aracıdır. Vikipedi onu NPD konusunda kamuoyu farkındalığını artıran kişi olarak anar, ama akademik literatürde başvuru kaynağı sayılmaz. Dombek (2016) kitabında Vaknin'in yarattığı söylemi eleştirel biçimde inceler. Metin tekrarlı, dağınık ve ağır bir dille yazılmıştır.
+
+**Kimler okumalı.** Narsisistik istismar söyleminin nereden geldiğini anlamak isteyen okur; bilimsel kaynak olarak değil, bir tanıklık ve tarih belgesi olarak. Uyarı: İstismar yaşamış okur için sarsıcı olabilir; "her narsist böyledir" genellemesine ve yakınına tanı koymaya karşı dikkatli olun.
+
+---
+
+## Kristin Dombek — The Selfishness of Others: An Essay on the Fear of Narcissism (The Selfishness of Others: An Essay on the Fear of Narcissism, 2016)
+
+**Künye.** Kristin Dombek Amerikalı bir deneme yazarı ve kültür eleştirmenidir; psikolog değildir, edebiyat ve kültür eleştirisi konumundan yazar (2013'te Rona Jaffe Vakfı yazar ödülünü kurgu dışı dalında aldı). Özgün dil İngilizce; ilk yayın Ağustos 2016, Farrar, Straus and Giroux'nun FSG Originals dizisi. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 150 sayfalık kısa bir deneme.
+
+**Bir cümleyle.** "Narsisizm salgını" korkusu, nadir bir klinik tanıyı sevgi, dostluk ve aile üzerine en derin korkularımızı taşıyan esnek bir kültürel etikete dönüştürmüştür; başkasını "narsist" ilan etmek bazen kendi yaralarımızı açıklamanın kolay yoludur.
+
+**Bağlam.** 2010'larda *The Narcissism Epidemic* gibi çok satanlar ve narsisizm "kurtulanlarının" toplandığı web siteleri, aramızda "boş" insanların dolaştığı fikrini yaygınlaştırdı. Dombek bu söylemi internette uzun süre okuyarak izledi ve hem "narsist peygamberlerine" kuşkuyla hem de kendini kurban gören okurlara empatiyle yaklaşan bir deneme yazdı.
+
+**Yapısı.** Kitap yedi bölümden oluşur: Soğuk (The Cold), Salgın (The Epidemic), Kötü Erkek Arkadaş (The Bad Boyfriend), Y Kuşağı (The Millennial), Katil (The Murderer), Sanatçı (The Artist) ve Dünya (The World). Her bölüm bir "narsist" tipini alır ve onu kişisel anlatı, haber yazısı, felsefe ve mitoloji ile çözer.
+
+**Ana fikirler.**
+- **Narsisizm korkusu (narciphobia).** Pacific Standard'daki tanıtımın deyişiyle Dombek'in konusu narsisistler değil, onlardan duyduğumuz korkudur. Bu korku, ilişkilerin neden bu kadar önemli olduğunu ve neden bu kadar acıttığını anlamak için bir mercektir.
+- **Kötü erkek arkadaş.** İnternetteki kurtulan anlatılarında aynı senaryo tekrarlanır: büyüleyici bir başlangıç, ardından soğuk bir "sahte" kişi. Dombek, bu kalıbın acıyı anlamlandırdığını ama karşıdaki insanı tedavisi olmayan bir hastalığın taşıyıcısına indirgediğini gösterir.
+- **Y kuşağı ve gerçeklik şovu.** MTV'nin *My Super Sweet 16* programındaki genç kız örneği, "bencil kuşak" söyleminin medya üretimi yanını sorgulamak için kullanılır.
+- **Empati gerçekten yok olabilir mi?** 77 kişiyi öldüren Anders Breivik bölümünde Dombek, bir insanın gerçekten empatiden yoksun olup olamayacağını düşünür ve klinik çalışmaların güvenilirliğini sorgular.
+- **Narkissos'u yeniden okumak.** Ovidius'taki mitte asıl trajedi Narkissos'un değil, ona tutulup karşılık alamayanların trajedisi olabilir. Dombek böylece sorunu "onlardan" "bize" çevirir.
+
+**Bilimsel dayanağı.** Bu bir eleştirel denemedir; yeni veri üretmez, ama kaynak listesi ve klinik literatür okuması vardır. Kirkus kitabı "ince ama yoğun araştırılmış" diye niteler. Tarihsel çerçevede Elizabeth Lunbeck'in *The Americanization of Narcissism* (2014) kitabına yaslanır. Dombek'in kuşkusu araştırmayla kısmen örtüşür: Wetzel ve arkadaşları (2017) gençlerde narsisizm artışı bulmadı (bellekten, doğrulanmadı). Ama klinik narsisizmin gerçek ve zarar verici olduğu da araştırmayla sabittir (Ronningstam 2005). [popüler]
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap rehberdeki pek çok taktik adına (özellikle **idealize et–değersizleştir–terk et döngüsü**, **gaslighting**, **sevgi bombardımanı**) ve "narsist" etiketine yöneltilmiş bir uyarıdır; bu etiketlerin **yansıtma** ve **kurban rolü** için de kullanılabileceğini hatırlatır. **Büyüklenmeci ve kırılgan narsisizm** ayrımının karşısına "sıradan bencillik" sınırını koyar. Vaknin ve Durvasula'nın yaygınlaştırdığı söyleme doğrudan yanıt verir; Holiday'in *Trust Me, I'm Lying* kitabıyla (önceki raporda) internetin korkuyu nasıl çoğalttığı konusunda konuşur.
+
+**Eleştiri ve sınırlar.** Kirkus kitabı "zeki, keskin" bulur, ama yer yer okuru "psikoloji çalılıklarında kaybettiğini" söyler. Denemenin edebî, dolambaçlı biçimi pratik yol arayan okuru hayal kırıklığına uğratabilir. Gerçek bir istismar yaşamış kişiler kitabın kuşkuculuğunu deneyimlerini küçümseme gibi algılayabilir. Dombek ne bir korunma yöntemi ne de "gerçek" narsisizmi ayırt etmenin ölçütünü verir.
+
+**Kimler okumalı.** "Narsist" kelimesini çok sık duyan ve bu etiketin ne kadar sağlam olduğunu sorgulamak isteyen her okur; bu listeye denge getiren aykırı sestir. Uyarı: İstismardan yeni çıkmış biri için önce güvenlik ve destek gelir; bu kitap korunma rehberi değildir.
+
+---
+
+## Joseph Burgo — The Narcissist You Know (The Narcissist You Know: Defending Yourself Against Extreme Narcissists in an All-About-Me Age, 2015)
+
+**Künye.** Joseph Burgo Amerikalı bir klinik psikolog ve psikoterapisttir; Kirkus onu "uzun yıllardır çalışan psikoterapist ve klinik psikolog" diye tanıtır. Kendi muayenehanesinde gördüğü vakalardan yola çıkarak yazar. Özgün dil İngilizce; ilk yayın Eylül 2015, Simon & Schuster'ın Touchstone markası. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 261 sayfa (ilk ciltli baskı; Publishers Weekly 272 sayfa verir).
+
+**Bir cümleyle.** Herkeste biraz narsisizm vardır, ama "aşırı narsisistler" bir yelpazenin zarar veren ucundadır; temelinde utançtan kaçış yatan bu davranışları tanıyıp tipine göre karşılık vermek mümkündür.
+
+**Bağlam.** Kitap sosyal medyanın ve özçekim kültürünün "narsisizm çağı" diye anıldığı yıllarda, geniş okur kitlesine yazıldı. Burgo, "hepimiz narsistiz" klişesini aşıp gündelik hayatta karşılaştığımız en zararlı biçimleri ayırt etmek ve okura savunma yolu göstermek istedi.
+
+**Yapısı.** Publishers Weekly'ye göre bölümler narsisistin farklı "markalarına" göre düzenlenmiştir. Kütüphane kayıtlarında görülen bölümler: Zorba Narsisist (The Bullying Narcissist), Baştan Çıkarıcı Narsisist (The Seductive Narcissist), Büyüklenmeci Narsisist (The Grandiose Narcissist), Her Şeyi Bilen Narsisist (The Know-It-All Narcissist) ve İntikamcı Narsisist (The Vindictive Narcissist). Bunlardan önce kavramı ve "kazananlar–kaybedenler" dünya görüşünü anlatan giriş bölümleri, sonra başka tipler ve savunma önerileri gelir (toplam bölüm sayısı ve diğer adlar doğrulanmadı).
+
+**Ana fikirler.**
+- **Yelpaze ve "aşırı narsisist".** Burgo, narsisizmi bir süreklilik olarak görür. Tatil fotoğrafı paylaşan sıradan insan ile ilişkileri yıkan aşırı narsisist aynı yerde değildir; kitap yalnızca ikincisine odaklanır.
+- **Utanca karşı savunma.** Burgo'ya göre aşırı narsisizmin altında derin, çoğu zaman bilinçsiz bir utanç vardır. Büyüklenme, küçümseme ve suçlama, kişinin bu utancı başkasına yükleme biçimleridir (bkz. **yansıtma**).
+- **Kazananlar ve kaybedenler.** Zorba narsisistin bölüm başlığı ("Ben kazananım, sen kaybedensin") temel dünya görüşünü özetler: kendini kazanan göstermek için başkasının kaybeden olması gerekir.
+- **Tip tip karşılık.** Her şeyi bilen narsisistle tartışmaya girmek, intikamcı narsisisti açıkça küçük düşürmek tehlikelidir. Burgo tipine göre sınır koymayı, gereksiz meydan okumadan kaçınmayı ve gerekirse uzaklaşmayı önerir.
+- **Ünlü örnekler.** Klinik vakaların yanında kamuya mal olmuş kişileri de örnek alır; bisikletçi Lance Armstrong'un intikamcı narsisizm örneği olarak işlendiği bilinir (doğrulanmadı).
+
+**Bilimsel dayanağı.** Publishers Weekly'ye göre Burgo araştırma ve kuramdan yararlanır, ama ana kanıtı kendi tedavi ettiği vakalardır; ünlü örnekleri ise "kanıt olarak daha az titiz" bulur. Utanç vurgusu psikanalitik geleneğe (Kohut, Kernberg) ve kırılgan narsisizm araştırmalarına (Pincus ve Lukowitsky 2010) uyar. Sistemli bir veri yoktur. [klinik]
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap rehberdeki **büyüklenmeci narsisizm** ile utanç merkezli **kırılgan narsisizm** arasında köprü kurar. İntikamcı tip **karalama kampanyası** ve **tepkisel istismar** ile, baştan çıkarıcı tip **sevgi bombardımanı** ve **idealize et–değersizleştir–terk et döngüsü** ile, zorba tip **yansıtma** ve **suçluluk yükleme** ile örtüşür. George K. Simon'ın *In Sheep's Clothing* kitabıyla (önceki raporda) gündelik manipülatörü tanıma rehberi olarak konuşur. Durvasula'nın kitabına göre daha ölçülü, Ronningstam'a göre daha popülerdir.
+
+**Eleştiri ve sınırlar.** Publishers Weekly kitabı "ilgi çekici ama her zaman inandırıcı değil" bulur: narsisizm teriminin "şüphe uyandıracak kadar esnek" kullanıldığını, başka biçimlerde de açıklanabilecek davranışları kapsadığını söyler. Kirkus ise "açık, kolay sindirilen popüler psikoloji" der. Not: Kirkus incelemesindeki DSM-5'in narsisistik kişilik bozukluğunu tanı olarak kaldırdığı ifadesi yanlıştır; tanı 2013'te kaldırılmak üzere tartışılmış ama korunmuştur. Ünlülere uzaktan tanı koymak etik açıdan da sorunludur.
+
+**Kimler okumalı.** İş yerinde ya da ailede zor bir kişiyle başa çıkmaya çalışan ve pratik, jargonsuz bir çerçeve arayan okur. Uyarı: Tip listeleri yakınlara etiket yapıştırmayı kolaylaştırır; "aşırı narsisist" ifadesi bir tanı değildir.
+
+---
+
+## Ramani Durvasula — "Don't You Know Who I Am?" ("Don't You Know Who I Am?": How to Stay Sane in an Era of Narcissism, Entitlement, and Incivility, 2019)
+
+**Künye.** Ramani Durvasula (d. 1965) Amerikalı bir klinik psikologdur; doktorasını UCLA'da klinik psikoloji alanında yaptı, California State University, Los Angeles'ta psikoloji profesörü oldu (bugün emekli) ve Santa Monica'da muayenehanesi vardır. "DoctorRamani" adlı YouTube kanalıyla narsisistik istismar konusunda en tanınan medya seslerinden biridir. Özgün dil İngilizce; ilk yayın 1 Ekim 2019, Post Hill Press (ciltli). Türkçe baskısı kitapçı kataloglarında görünmüyor (katalogdaki *Bozuk Ayna – Narsist Bireyleri Tanımak ve Kendi...* adlı kitap, alt başlığına bakılırsa yazarın 2024 tarihli *It's Not You* kitabının çevirisidir). Hacim: yaklaşık 400 sayfa (Goodreads, ciltli baskı).
+
+**Bir cümleyle.** Narsisizm, hak görme (entitlement) ve kabalık (incivility) kişisel ve toplumsal düzeyde patolojik bir güvensizliğin belirtileridir; toplum bunları ödüllendirdiği için okur, zararlı insanlara karşı zihninin ve bedeninin "kapı bekçisi" olmayı öğrenmelidir.
+
+**Bağlam.** Kitap, ABD'de siyasette, ünlüler dünyasında ve sosyal medyada büyüklenmeci ve kaba davranışın görünür biçimde arttığı düşünülen 2010'ların sonunda yazıldı. Başlıktaki "Beni tanımıyor musun?" cümlesi, ayrıcalık bekleyen ünlünün ve modern narsisistin sloganı olarak seçildi. Durvasula, 2015'teki *Should I Stay or Should I Go?* kitabının ilişki odağını toplum ölçeğine genişletti.
+
+**Yapısı.** Kitabın bölüm yapısı bu oturumda doğrulanamadı. Yayıncı tanıtımı ve okur yorumları, önce narsisizm, hak görme ve kabalığın tanımlandığı, ardından aile, iş, romantik ilişki ve toplum gibi alanlarda bu davranışların ele alındığı ve son olarak başa çıkma yollarının sunulduğu bir düzene işaret eder (doğrulanmadı). Bir Goodreads okuru bölümlerin baştan sona okunduğunda tekrarlı geldiğini, ilgili bölüme atlamanın daha yararlı olduğunu yazar.
+
+**Ana fikirler.**
+- **Üç belirti, bir kök.** Narsisizm, hak görme ve kabalık ayrı sorunlar değil, aynı güvensizliğin farklı yüzleridir. Hak görme "kurallar benim için değil" duygusu, kabalık ise bunun gündelik ilişkilerdeki yansımasıdır.
+- **Toksik insanlar bir sağlık riskidir.** Sağlık kampanyaları sigaradan ve hareketsizlikten kaçınmayı öğütler ama zararlı insanlardan uzak durmayı nadiren söyler. Durvasula, bu insanları hayattan çıkarmanın sağlığa yararının büyük olabileceğini savunur.
+- **Değer verdiğimiz şey bizi hasta ediyor.** Medya, sosyal medya ve tüketim kültürü bu davranışları ödüllendirir; bu yüzden karşısındaki kişi kendinden şüphe eder, kaygı ve "yeterli olmama" duygusu yaşar.
+- **Umut yanılsaması.** Kişinin değişeceği beklentisi ve "kurtuluş fantezisi" yıllarca ikinci şans verilmesine yol açar. Durvasula'nın genel çizgisi, narsisistik örüntülerin kalıcı olduğu ve beklentinin buna göre ayarlanması gerektiğidir.
+- **Kapı bekçiliği.** Sınır koymak, mesafe almak ve gerekirse ilişkiyi bitirmek önerilir; bu, rehberdeki gri kaya ve temas kesme tekniklerine yakındır.
+
+**Bilimsel dayanağı.** Durvasula lisanslı bir klinisyen ve akademisyendir; kitap klinik deneyimine ve psikoloji literatürüne dayanır, ama popüler bir öz yardım kitabıdır ve sistemli veri sunmaz. Toplumda narsisizmin arttığı iddiası tartışmalıdır: Twenge ve Campbell (2009) artış savunurken Wetzel ve arkadaşları (2017) gençlerde artış bulmadı (bellekten, doğrulanmadı). "Narsisistler değişmez" görüşü ise Ronningstam'ın (2005) değişim bulgularıyla gerilim içindedir. [klinik]
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap rehberdeki **büyüklenmeci narsisizm**, **ahlaki bağlantısızlık** (kuralları kendine uygulamama) ve **kırıntı verme** ile **aralıklı pekiştirme** üzerinden süren "umut" bağıyla ilgilidir; korunmada **gri kaya** ve **temas kesme** önerilerine yaklaşır. Burgo'nun tip temelli yaklaşımıyla konuşur; Dombek'in "narsisizm korkusu" eleştirisinin hedef aldığı söylemin önde gelen örneklerindendir. Keltner'in güç ve ayrıcalığın davranışı nasıl bozduğuna dair çalışmasıyla (önceki raporda) hak görme konusunda kesişir.
+
+**Eleştiri ve sınırlar.** Kirkus ya da Publishers Weekly incelemesi bulunamadı; değerlendirmeler çoğunlukla okur yorumlarıdır. Kitap "narsisizm" terimini kabalık ve toplumsal davranış gibi geniş bir alana yayar; bu, Dombek'in uyardığı kavram enflasyonu riskini taşır. Durvasula'nın medya ve YouTube'daki yüksek görünürlüğü, uzaktan genelleme yapma eleştirisini de beraberinde getirir. Tekrarlı yapısı okur yorumlarında öne çıkar.
+
+**Kimler okumalı.** Hak görme ve kabalıkla dolu bir ortamda (iş, aile, ilişki) yıpranan ve sınır koymak için cesaret arayan okur. Uyarı: İstismar yaşamış okur için tetikleyici olabilir; kitap toplumsal bir eleştiridir, yakınınıza tanı koymanın aracı değildir.
+
+---
+
+## Elan Golomb — Trapped in the Mirror (Trapped in the Mirror: Adult Children of Narcissists in Their Struggle for Self, 1992)
+
+**Künye.** Elan Golomb, klinik psikoloji doktorasını ve psikanaliz ile psikoterapi sertifikasını New York Üniversitesi'nden (NYU) almış, New York'ta özel muayenehanede çalışmış bir klinik psikologdur. Kitabı terapist olarak yazar, ama kendi benlik mücadelesini de anlatır (ailesine dair ayrıntılar doğrulanmadı). Özgün dil İngilizce; ilk yayın 1992, William Morrow (New York); 1995'te Quill/Harper karton kapaklı baskısı çıktı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: yaklaşık 270 sayfa (271–272 sayfa).
+
+**Bir cümleyle.** Narsisistik ebeveynlerin çocukları, ebeveynin ihtiyaçları kendi en temel ihtiyaçlarının önüne geçtiği için yetişkinlikte bile "var olmaya hakları olmadığı" inancını taşır; bu inanç tanınıp öfke kabul edildiğinde iyileşme mümkündür.
+
+**Bağlam.** Kitap, 1980'lerde Alice Miller'ın *Yetenekli Çocuğun Dramı* (1979) ve "işlevsiz aile" öz yardım akımının ardından yazıldı. Golomb, terapide gördüğü örüntüyü ve kendi ailesindeki deneyimi birleştirerek, sorunlarının kaynağını adlandıramayan "zeki, farkında, motivasyonlu" yetişkinlere seslendi.
+
+**Yapısı.** Kitap vaka öyküleri ile yazarın kendi benlik mücadelesinin anlatısını iç içe yürütür. Yayıncı tanıtımına göre işlenen konular şunlardır: yetişkinlerin yaşadığı felç ve motivasyon kaybı, stresin çocukluk yaralarını nasıl alevlendirdiği, ilişkilerin neden geçmişin "tekrarı" gibi geldiği, beden imgesinin hatalı ebeveynlikle nasıl biçimlendiği, öfkenin aşılmak için önce kabul edilmesi gerektiği ve en travmalı benliğin bile nasıl iyileşebileceği (bölüm sayısı ve adları doğrulanmadı).
+
+**Ana fikirler.**
+- **Ayna çocuk.** Başlıktaki imge kitabın özüdür: narsisistik ebeveyn çocuğu kendi yansıması, uzantısı olarak görür. Çocuk ancak ebeveynin imajını parlattığı ölçüde değer görür ve kendi benliğini geliştiremez.
+- **Var olma hakkı.** Golomb'un merkezî gözlemi, bu çocukların ortak inancının "var olmaya hakkım yok" olduğudur. Bu inanç açıkça söylenmez; kendini küçültme, başarıdan kaçma ve ilişkilerde silikleşme olarak görünür.
+- **Beden üzerinden yaralar.** Ebeveynin beğenisine bağlı büyüyen çocukta beden imgesi bozulabilir; kitap aşırı yeme, anoreksi ve bulimiyi bu kendinden nefretin olası biçimleri olarak ele alır.
+- **Tekrarlanan ilişkiler.** Yetişkin çocuk, tanıdık olduğu için benzer partner ve yöneticilere çekilir; böylece çocukluk ilişkisi yeni yüzlerle yeniden oynanır. Döngü kişinin kendi çocuklarıyla ilişkisinde de sürebilir.
+- **Öfke ve iyileşme.** Golomb'a göre bastırılmış öfke tanınmadan iyileşme olmaz. Amaç ebeveyni cezalandırmak değil, kişinin kendi isteklerine ve ayrı bir benliğe hakkı olduğunu hissetmesidir.
+
+**Bilimsel dayanağı.** Kitap klinik vakalara, psikanalitik kurama ve yazarın kişisel deneyimine dayanır; deneysel veri yoktur. Bugünkü araştırmalar, ebeveyn narsisizminin çocukta düşük benlik saygısı ve uyum sorunlarıyla ilişkili olabileceğine işaret eder, ama kanıt çoğunlukla geriye dönük ve öz bildirimlidir (belirli çalışma adı bu oturumda doğrulanmadı). Golomb'un çerçevesi Miller'ın ve Kohut'un ayna işlevi (mirroring) kavramlarına yakındır. [klinik]
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap rehberdeki **suçluluk yükleme**, **duygusal şantaj (FOG: korku, yükümlülük, suçluluk)**, **üçgenleme** (kardeşlerin "altın çocuk" ve "günah keçisi" diye ayrılması) ve **travma bağı** kavramlarının aile içindeki kökenini gösterir; ebeveynin **kırılgan narsisizm**i de bu tabloyu besleyebilir. Vaknin'in "çocuk nihai arz kaynağıdır" iddiasıyla aynı noktaya klinik taraftan bakar. Lifton'un *Thought Reform* kitabındaki (önceki raporda) benliğin dış otoriteye teslimi temasıyla aile ölçeğinde konuşur.
+
+**Eleştiri ve sınırlar.** Bu oturumda bağımsız bir profesyonel incelemeye ulaşılamadı; Goodreads ortalaması 1.300'ü aşkın oyla 3,76'dır. Kitap "narsisistik ebeveynlerin yetişkin çocukları üzerine ilk kapsamlı kitaplardan" sayılır, ama Miller'ın 1979 tarihli kitabı bu alanı daha önce açmıştı. Psikanalitik dili ve 1990'ların başındaki bilgi düzeyi bazı yerlerde eskimiştir; travma ve bağlanma araştırmalarının sonraki birikimi yoktur. Vakaların genellenebilirliği sınırlıdır.
+
+**Kimler okumalı.** Çocukluğunda koşullu sevgi ve görünmezlik yaşadığını düşünen yetişkin ve bu insanlarla çalışan terapistler. Uyarı: Çocukluk anılarını tetikleyebilir; bir terapistle birlikte okumak yararlı olabilir. Ebeveyninize "narsist" tanısı koymanın aracı olarak değil, kendi örüntülerinizi anlama aracı olarak okuyun.
+
+---
+
+## Shahida Arabi — Power: Surviving and Thriving After Narcissistic Abuse (Power: Surviving and Thriving After Narcissistic Abuse, 2017)
+
+**Künye.** Shahida Arabi, narsisistik istismar (narcissistic abuse) üzerine yazdığı çevrimiçi yazılarla tanınan Amerikalı bir yazardır. Klinisyen değildir; kendi yaşadıklarından ve okuduğu araştırmalardan yola çıkarak yazar (eğitim geçmişi: doğrulanmadı). Özgün dili İngilizce. İlk yayın 11 Ocak 2017, Thought Catalog Books. Yaklaşık 350 sayfa (e-kitap). Türkçe baskısı kitapçı kataloglarında görünmüyor. Katalogdaki "Narsist ve Psikopatlarla Travma Bağlarını Koparmak" bu kitabın değil, yazarın 2023 tarihli *Breaking Trauma Bonds with Narcissists and Psychopaths* adlı kitabının çevirisi olmalı. "Narsistle Mücadele Rehberi"nin hangi kitabın çevirisi olduğu belirlenemedi (doğrulanmadı).
+
+**Bir cümleyle.** Narsisistik özellikler gösteren biriyle yaşanan ilişkinin bıraktığı yara gerçek bir travmadır; kurtulan kişi bu travmayı anlayıp adlandırarak gücünü geri alabilir.
+
+**Bağlam.** Arabi, ilk kitabı *Becoming the Narcissist's Nightmare* (2016; künyesi bellekten) ile kurtulanlar arasında tanınmıştı. *Power*, çok okunan blog yazılarını yeni denemelerle bir araya getirir. Hedef kitle akademisyenler değil, istismar sonrası kafası karışmış, ne yaşadığını adlandırmaya çalışan okurdur. Kitap, sosyal medyada büyüyen "narsisistik istismar" topluluğunun temel metinlerinden biri olmuştur.
+
+**Yapısı.** Kitap bir deneme derlemesidir: yazarın en popüler makaleleri ve yeni yazılar art arda gelir. Tanıtım metnine göre başlıca konular şunlardır: istismarcıya duyulan "bağımlılığı" iyileştirmek, örtük (covert) narsisizmi tanımak, terapistlerin bu konuda söyledikleri ve narsisistik ebeveynlerin çocuklarının travma tekrarı döngüsüne nasıl sıkıştığı. Bölüm sayısı ve adları doğrulanamadı.
+
+**Ana fikirler.**
+- **İstismar döngüsü.** Arabi ilişkiyi sevgi bombardımanı (love-bombing, başta aşırı ilgi ve övgü) ile değersizleştirme arasında gidip gelen bir döngü olarak anlatır. Tanıtım metni bunu "psychological violence on steroids" diye tanımlar. Bu, idealize et–değersizleştir–terk et döngüsünün popüler anlatımıdır.
+- **Taktiklerin adlandırılması.** Kitap üçgenleme (triangulation, üçüncü bir kişiyi kıskançlık ya da kıyas aracı yapmak), gaslighting (kişiyi kendi algısından şüphe ettirmek), yansıtma (projection) ve örtük aşağılamaları tek tek anlatır. Amaç, okurun yaşadığını adlandırabilmesidir.
+- **Bağımlılık benzetmesi.** Arabi, kurbanın istismarcıya bağlanmasını bir bağımlılığa benzetir. Aralıklı pekiştirme (intermittent reinforcement, ödülün öngörülemez gelmesi) ve travma bağı bu bağın kaynağı olarak gösterilir. İyileşme bir "yoksunluk" sürecidir.
+- **Çocukluk ve tekrar.** Narsisistik özellikler gösteren ebeveynlerle büyüyenlerin yetişkinlikte benzer ilişkilere girebildiğini savunur. Bu, kitabın en kişisel ve en tartışmaya açık kısmıdır.
+- **Kurtulandan "gelişene".** Kitabın adı buradan gelir: amaç yalnızca ayakta kalmak değil, sınır koymak, temas kesmek (no contact) ve hayatı yeniden kurmaktır.
+
+**Bilimsel dayanağı.** Kitap kişisel deneyime, okur mektuplarına ve araştırmalara yapılan seçici göndermelere dayanır. Travma bağı kavramı psikologlar Donald Dutton ve Susan Painter'ın 1980'lerdeki çalışmalarına dayanır; ancak onların konusu genel olarak istismarcı ilişkilerdir, "narsist" etiketi değil. "Narsisistik istismar" terimi DSM'de bir tanı ya da üzerinde uzlaşılmış bir araştırma kavramı değildir. Partner istismarı araştırmaları (örneğin Stark 2007, zorlayıcı denetim; bellekten) kişilik etiketinden çok davranış örüntüsüne bakar. Kanıt düzeyi: [popüler]
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap rehberdeki sevgi bombardımanı, idealize et–değersizleştir–terk et döngüsü, aralıklı pekiştirme, travma bağı, üçgenleme, gaslighting ve temas kesme başlıklarının doğrudan popüler kaynağıdır. Büyüklenmeci ve kırılgan narsisizm ayrımını "açık" ve "örtük" narsist diliyle karşılar. Bu listede Sarkis ve Bouchoux ile, önceki raporda George K. Simon'ın *In Sheep's Clothing* kitabıyla (önceki raporda) konuşur. Greene'in *The Art of Seduction* kitabındaki (önceki raporda) baştan çıkarma ve geri çekilme ritmine kurbanın tarafından verilmiş bir yanıt gibi okunabilir.
+
+**Eleştiri ve sınırlar.** Okurlar kitabı çok sever (Goodreads'te 4,41 ortalama, 1.106 oy). Ama kitap bir deneme derlemesi olduğu için tekrar içerir ve sistematik değildir. Asıl sorun, eşi ya da ebeveyni uzaktan "narsist" diye tanımlamayı kolaylaştırmasıdır. Kanıt sunuluşu seçicidir ve kitap hakemli ya da bağımsız eleştiri almamıştır (bulunabilen büyük bir eleştiri yok).
+
+**Kimler okumalı.** İstismarcı bir ilişkiden çıkmış ve yaşadığını adlandırmakta zorlanan okur için teselli edici ve yönlendirici bir başlangıçtır. Uyarı: kitap kişiye tanı koyma aracı değildir; ağır belirtilerde bir ruh sağlığı uzmanına başvurulmalıdır.
+
+---
+
+## Jean-Charles Bouchoux — Narsist Sapkınlar (Les pervers narcissiques, 2009)
+
+**Künye.** Jean-Charles Bouchoux Fransız bir psikanalisttir; klinik pratiğinden ve psikanaliz kuramından yola çıkarak geniş okur kitlesi için yazar. Özgün dili Fransızca, tam adı *Les pervers narcissiques: Qui sont-ils ? Comment fonctionnent-ils ? Comment leur échapper ?* İlk yayın 2009, Eyrolles. Cep baskısı yaklaşık 200 sayfa. Türkçe baskı: Narsist Sapkınlar - Kimdirler? Neler Yaparlar?..., Say Yayınları (kitapçı kataloğu).
+
+**Bir cümleyle.** "Sapkın narsist" (pervers narcissique), kendi iç acısını ve çelişkisini yakınındakine yükleyerek ayakta kalan biridir; kurban bu işleyişi tanırsa onun etkisinden kurtulabilir.
+
+**Bağlam.** Kavram Fransız psikanalizinden gelir: Paul-Claude Racamier 1986'da "narsisistik sapkınlık" kavramını kurmuş, Marie-France Hirigoyen 1998'de manevi taciz (harcèlement moral) kitabıyla onu popülerleştirmişti. Bouchoux bu birikimi, ilişkisinde boğulan sıradan okur için gündelik dile çevirdi. Kitap Fransa'da çok sattı ve çeşitli dillere çevrildi.
+
+**Yapısı.** Kitap üç sorunun etrafında kurulur: kimdirler, nasıl işlerler, onlardan nasıl kaçılır. Önce bu kişiliğin gündelik işleyişi anlatılır, sonra kökenleri çocukluğa bağlanır, en sonda kurbana yol gösterilir. Bölüm sayısı ve adları doğrulanamadı.
+
+**Ana fikirler.**
+- **Gerçekliğin reddi.** Yayınevi tanıtımına göre yazar bu kişiliği önce "le refus de la réalité" ile tanımlar: hata, çelişki ve sorumluluk kabul edilmez. Bu, rehberdeki gaslighting ve kale direğini kaydırma taktiklerine karşılık gelir.
+- **Sözün saptırılması.** İkinci işaret "le détournement de la parole"dur: söz çarpıtılır, anlam değiştirilir, tartışma bulandırılır. Karşı taraf neyi tartıştığını unutur hâle gelir.
+- **Suçluluk yükleme.** Kurban sürekli kendini suçlu hisseder ve değersizleşir. Racamier'in tanımındaki mantık budur: kişi iç acısını dışarı atar ve onu başkasında "kuluçkaya yatırır". Bu, rehberdeki suçluluk yükleme ve yansıtma kavramlarının psikanalitik açıklamasıdır.
+- **Ayrılamama.** Tanıtım "l'impossibilité de se séparer" der: sapkın narsist ilişkiyi bırakmaz, kurban da kopacak cesareti bulamaz. Bu, vakumlama ve travma bağıyla akrabadır.
+- **Çocukluk kökeni ve kaçış yolları.** Yazar bu işleyişin çocuklukta korunma amaçlı kurulduğunu savunur. Kurbana manipülasyon ve tahakküm (emprise) girişimlerini boşa çıkaracak öneriler verir: mesafe, kendi algısına güven, gerekirse ilişkiyi bitirmek.
+
+**Bilimsel dayanağı.** Kitap psikanalitik kurama ve klinik gözleme dayanır; deneysel veri yoktur. Fransızca Vikipedi'ye göre "pervers narcissique" kavramı bilim camiasınca tanınmaz, DSM ve ICD'de yer almaz ve sıklıkla narsisistik kişilik bozukluğuyla karıştırılır. Racamier (1986) kavramı bir kişilik tipi olarak değil, bir ilişki patolojisi olarak tanımlamıştı; popüler kullanım bu inceliği kaybetti. Ampirik narsisizm araştırması ise büyüklenmeci ve kırılgan narsisizm gibi ölçülebilir boyutlarla çalışır. Kanıt düzeyi: [klinik], popüler sunumla.
+
+**Karanlık psikoloji haritasındaki yeri.** Kitap gaslighting, suçluluk yükleme, yansıtma, yalıtma, karalama kampanyası ve kurban rolü başlıklarıyla ilgilidir. "Sapkın narsist" figürü, rehberdeki karanlık üçlünün narsisizm ve makyavelizm ayağının psikanalitik bir karikatürü gibidir. Bu listede Arabi ve Engel ile, önceki raporda George K. Simon'ın *In Sheep's Clothing* kitabıyla (önceki raporda) konuşur; Simon da gizli saldırganlığı benzer biçimde anlatır, ama psikanaliz yerine davranışçı bir dil kullanır.
+
+**Eleştiri ve sınırlar.** En büyük sorun etikettir. Fransız basını 2000'lerden sonra "pervers narcissique" sözünü yaygın bir hakarete dönüştürdü; Fransızca Vikipedi terimin sıklıkla "galvaudé" (aşınmış, yanlış kullanılmış) olduğunu not eder. Etiket ayrılık ve velayet davalarında karşı tarafı damgalamak için kullanılabilir. Kitap kişiyi tek bir kötü tipe indirger, iki taraflı ilişki dinamiklerini ihmal eder. Psikanalitik köken açıklamaları sınanabilir değildir. Büyük bir akademik kitap incelemesi bulunamadı.
+
+**Kimler okumalı.** Fransız geleneğini ve Türkiye'de de dolaşan "narsist sapkın" sözünün kaynağını anlamak isteyen okur için yararlıdır. Uyarı: kitabı eşinize ya da eski eşinize tanı koymak için kullanmayın; davranışı adlandırın, kişiyi etiketlemeyin.

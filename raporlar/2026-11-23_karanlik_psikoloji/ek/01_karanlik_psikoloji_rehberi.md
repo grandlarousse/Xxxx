@@ -568,7 +568,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** Bir kişiyi kendi algısından, belleğinden ve aklından şüphe ettirmek. "Öyle bir şey olmadı", "Sen hep abartırsın" gibi sözlerle gerçeklik sürekli yeniden yazılır.
 
-**Köken:** Patrick Hamilton'ın 1938 tarihli oyunu *Gas Light* ve 1944 Hollywood filmi *Gaslight*. Filmde koca, karısını deli olduğuna inandırıp mirasını ele geçirmeye çalışır. Robin Stern'in *The Gaslight Effect* (2007) kitabı terimi ilişki diline taşıdı. Merriam-Webster 2022'de "gaslighting"i yılın kelimesi seçti. Sosyolog Paige L. Sweet 2019'da *American Sociological Review*'da yayımlanan makalesinde, aile içi şiddet destek gruplarından kadınlarla görüşerek gaslighting'in toplumsal cinsiyet kalıplarından beslendiğini savundu.
+**Köken:** Patrick Hamilton'ın 1938 tarihli oyunu *Gas Light* ve 1944 Hollywood filmi *Gaslight*. Filmde koca, karısını deli olduğuna inandırıp mirasını ele geçirmeye çalışır. Robin Stern'in *The Gaslight Effect* (2007) kitabı terimi ilişki diline taşıdı. Merriam-Webster 2022'de "gaslighting"i yılın kelimesi seçti. Sosyolog Paige L. Sweet 2019'da *American Sociological Review*'da yayımlanan "The Sociology of Gaslighting" makalesinde, aile içi şiddeti örnek vaka olarak inceleyerek gaslighting'in toplumsal cinsiyet kalıplarından beslendiğini savundu.
 
 **Örnek:** Ayşe, eşinin dün akşam kendisine bağırdığını hatırlıyor. Eşi "Ben sesimi yükseltmedim, sen yine kuruntu yapıyorsun" diyor ve bunu her tartışmada tekrarlıyor.
 
@@ -640,7 +640,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** İlişki bittikten ya da kişi uzaklaştıktan sonra onu geri kazanmak için yapılan girişimler: özür, nostalji, değişme sözü, kriz ya da hastalık haberi.
 
-**Köken:** Adını ABD'li elektrik süpürgesi markası Hoover'dan alır: kişiyi "geri emmek". EBSCO'nun başvuru metni de kökeni böyle açıklıyor. Psikolog Elinor Greenberg (2019) bu tür terimlerin akademik yazında değil, çevrim içi tartışmalarda doğduğunu not ediyor. İlk kullanımın kime ait olduğu doğrulanmadı.
+**Köken:** Adını ABD'li elektrik süpürgesi markası Hoover'dan alır: kişiyi "geri emmek". EBSCO'nun başvuru metni de kökeni böyle açıklıyor. Psikolog Elinor Greenberg (2019) bu tür terimlerin akademik yazında değil, çevrim içi tartışmalarda doğduğunu not ediyor (doğrulanmadı). İlk kullanımın kime ait olduğu doğrulanmadı.
 
 **Örnek:** Ayrılıktan üç ay sonra doğum gününde "Seni hiç unutmadım" mesajı geliyor; yanıt verilmeyince "Çok hastayım" yazıyor.
 
@@ -700,7 +700,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** "Bunu yapmazsan..." diye başlayan, korku (fear), yükümlülük (obligation) ve suçluluk (guilt) üzerinden işleyen baskı. İngilizce baş harfler FOG'u, yani "sis"i oluşturur: kişi sis içinde neyin doğru olduğunu göremez.
 
-**Köken:** Klinik sosyal hizmet uzmanı Susan Forward, Donna Frazier ile yazdığı *Emotional Blackmail* kitabında (1997; Open Library'deki ilk kayıt 1996) kavramı yaygınlaştırdı. Forward dört tip tarif eder: cezalandırıcı, kendini cezalandırıcı, acı çeken ve ayartıcı (bu dörtlü tipoloji bu oturumda kaynaktan görülmedi).
+**Köken:** Klinik sosyal hizmet uzmanı Susan Forward, Donna Frazier ile yazdığı *Emotional Blackmail* kitabında (1997; Open Library'deki ilk kayıt 1996) kavramı yaygınlaştırdı. Forward dört tip tarif eder: cezalandırıcı, kendini cezalandırıcı, acı çeken ve ayartıcı.
 
 **Örnek:** "Bayramda bize gelmezsen baban üzüntüden hasta olur, sonra da vicdan azabı çekersin."
 
@@ -748,7 +748,7 @@ Popüler etiket "bu yaşanmaz" demek değildir. Yalnızca adın ve tarifin bilim
 
 **Ne:** Tartışmada tutarsız, döngüsel ve konudan konuya atlayan konuşmayla karşıdakini yormak; asıl soruya hiç yanıt vermemek.
 
-**Köken:** "Kelime salatası" aslen psikiyatride ağır düşünce bozukluklarında görülen anlamsız konuşma için kullanılan bir terimdir (bellekten, doğrulanmadı). Popüler kullanımda anlamı değişti: bilinçli ya da yarı bilinçli bir yorma taktiği. Bu ikinci anlamın araştırması yok. Gündelik dildeki "whataboutism" (ya sen? taktiği) yakın akrabasıdır.
+**Köken:** "Kelime salatası" aslen psikiyatride ağır düşünce bozukluklarında görülen anlamsız konuşma için kullanılan bir terimdir. Popüler kullanımda anlamı değişti: bilinçli ya da yarı bilinçli bir yorma taktiği. Bu ikinci anlamın araştırması yok. Gündelik dildeki "whataboutism" (ya sen? taktiği) yakın akrabasıdır.
 
 **Örnek:** "Neden kredi kartından bu harcamayı yaptın?" sorusu, beş dakika sonra annenin geçen yılki sözlerine, senin işteki başarısızlığına ve hava durumuna varıyor.
 
@@ -1002,7 +1002,7 @@ Bu bölüm ikinci dünyayı anlatıyor. Amaç bu kitapları yasaklamak ya da kü
 
 **Kalite sorunları.** Bu kitapların ortak sorunları şunlardır: kaynakça yoktur ya da yalnızca birkaç web sitesine verilir; aynı paragraflar farklı başlıklarda yinelenir; bilimsel kavramlar yanlış tanımlanır (örneğin "psikopat" ile "sosyopat" gelişigüzel karıştırılır); okura hem "manipüle etmeyi öğren" hem "manipülasyondan korun" denir, yani hedef okur belirsizdir.
 
-**Takma adlar ve yapay zekâ.** Bu türde yazarların çoğu, arkasında gerçek bir uzman bulunmayan takma adlar kullanır. Aynı "yazarın" kısa sürede onlarca kitabı çıkar. Bunların bir kısmının içerik üreten yayın şirketlerince ısmarlandığı düşünülür (doğrulanmadı). 2023'ten itibaren yapay zekâyla üretilmiş kitaplar da bu tabloya eklendi. Basında Amazon'da yapay zekâ üretimi "taklit kitaplar"ın arttığına dair haberler çıktı. Amazon'un 2023'te KDP'de günlük yükleme sınırı getirdiği bilinir; bu sınırın ayrıntısını bu bölümde doğrulayamadık (doğrulanmadı).
+**Takma adlar ve yapay zekâ.** Bu türde yazarların çoğu, arkasında gerçek bir uzman bulunmayan takma adlar kullanır. Aynı "yazarın" kısa sürede onlarca kitabı çıkar. Bunların bir kısmının içerik üreten yayın şirketlerince ısmarlandığı düşünülür (doğrulanmadı). 2023'ten itibaren yapay zekâyla üretilmiş kitaplar da bu tabloya eklendi. Basında Amazon'da yapay zekâ üretimi "taklit kitaplar"ın arttığına dair haberler çıktı. Amazon, Eylül 2023'te KDP'de yeni başlık yüklemeyi günde üç kitapla sınırladı; bundan birkaç hafta önce de yapay zekâyla üretilen içeriğin bildirilmesini zorunlu kılmıştı.
 
 **Yazarı nasıl kontrol edersiniz?** Kitabı almadan önce üç soru sorun: Yazarın adını aradığınızda bir üniversite, klinik ya da yayımlanmış makale çıkıyor mu? Kitapta kaynakça var mı ve gösterilen çalışmalar gerçekten var mı? Yayınevi gerçek bir yayınevi mi, yoksa yalnızca bir marka adı mı?
 
@@ -1046,7 +1046,7 @@ Kurucular, tekniklerini üç terapistin çalışmasından "modelleyerek" çıkar
 
 - **Sharpley (1984):** Christopher Sharpley, *Journal of Counseling Psychology* dergisinde tercih edilen temsil sistemi üzerine 15 çalışmayı gözden geçirdi. Bu sistemi ve yüklem eşlemeyi destekleyen, tekrarlanabilir bir bulgu bulamadı.
 - **Sharpley (1987):** Aynı dergide çıkan izleme yazısının adı soruyu özetler: "Research findings on neurolinguistic programming: nonsupportive data or an untestable theory?" (Destekleyici olmayan veri mi, sınanamaz bir kuram mı?). Bu yazı, Einspruch ve Forman'ın (1985) eleştirisine bir yanıttır.
-- **Witkowski (2010):** Polonyalı psikolog Tomasz Witkowski, *Polish Psychological Bulletin* dergisinde 35 yıllık NLP araştırmasını gözden geçirdi. 315 yayından, bilimsel dergi dizinindeki 63 çalışmayı seçti; bunların 33'ü NLP'nin iddialarını doğrudan sınayan deneysel çalışmalardı. Bu 33 çalışmanın yalnızca yüzde 18,2'si NLP'yi destekleyen sonuç verdi. Makalenin alt başlığı sonucu açıkça sorar: "State of the Art or Pseudoscientific Decoration?" (Son nokta mı, sözde bilimsel süs mü?). Witkowski'nin vardığı sonuç, NLP'nin sözde bilimsel bir süsleme olduğudur. (Destekleyici olmayan ve belirsiz çalışmaların tam yüzdeleri bu bölümde doğrulanamadı.)
+- **Witkowski (2010):** Polonyalı psikolog Tomasz Witkowski, *Polish Psychological Bulletin* dergisinde 35 yıllık NLP araştırmasını gözden geçirdi. 315 yayından, bilimsel dergi dizinindeki 63 çalışmayı seçti; bunların 33'ü NLP'nin iddialarını doğrudan sınayan deneysel çalışmalardı. Makalenin özetine göre bu 33 çalışmanın yalnızca yüzde 18,2'si NLP'yi destekleyen sonuç verdi, yüzde 54,5'i desteklemedi, yüzde 27,3'ü belirsiz kaldı. (Makalenin gövdesindeki sayım ise destekleyenleri 9 çalışma, yüzde 27,3; belirsizleri 6 çalışma, yüzde 18,2 olarak verir. İki sayımda da destekleyici olmayan çalışmalar 18'dir, yani yüzde 54,5.) Makalenin alt başlığı sonucu açıkça sorar: "State of the Art or Pseudoscientific Decoration?" (Son nokta mı, sözde bilimsel süs mü?). Witkowski'nin vardığı sonuç, NLP'nin sözde bilimsel bir süsleme olduğudur.
 - **Wiseman ve arkadaşları (2012):** Richard Wiseman, Caroline Watt ve arkadaşları *PLoS ONE* dergisinde göz hareketleriyle yalan tespitini üç çalışmada sınadı. Yalan ve doğru söyleyenlerin göz hareketleri NLP'nin öngördüğü kalıba uymadı; NLP'nin göz kuralını öğrenen grup, öğrenmeyen gruptan daha iyi yalan yakalayamadı; kamuoyu önünde yalan söylediği sonradan anlaşılan kişilerin basın toplantılarında da fark çıkmadı. Watt'ın basına söylediği gibi, bu yaklaşımı bırakma zamanı gelmiştir.
 - **Norcross ve arkadaşları:** Klinik uzmanlarla yapılan Delphi anketlerinde (uzmanlardan aşama aşama görüş toplama yöntemi) NLP, gözden düşmüş müdahaleler arasında sayıldı. 2010'daki bir listede, bağımlılık tedavisinde en çok gözden düşmüş on yöntemin yedincisi oldu.
 
@@ -1058,7 +1058,7 @@ Kurucular, tekniklerini üç terapistin çalışmasından "modelleyerek" çıkar
 
 ### Beden dili ve yalan tespiti efsaneleri
 
-**Mikro ifadeler.** Psikolog Paul Ekman (1934–2025), yüz ifadelerinin kültürler arasında benzer olduğunu gösteren çalışmalarıyla tanınır. Ekman ve Wallace Friesen, medyadan etkilenmemiş Papua Yeni Gine'deki Fore topluluğunda da temel ifadelerin tanındığını bildirdi. "Mikro ifade" (microexpression) ise saniyenin çok küçük bir kesrinde yüzde beliren, bastırılmaya çalışılan bir duygunun izidir. Bu kavramı ilk kez Haggard ve Isaacs 1966'da, terapi seanslarının filmlerini incelerken tanımladı. Ekman'ın en ünlü kitabı *Telling Lies* 1985'te çıktı. 2009–2011'de yayınlanan *Lie to Me* dizisindeki baş karakter Ekman'dan esinlendi ve Ekman dizinin bilimsel danışmanıydı (dizinin yılları doğrulanmadı).
+**Mikro ifadeler.** Psikolog Paul Ekman (1934–2025), yüz ifadelerinin kültürler arasında benzer olduğunu gösteren çalışmalarıyla tanınır. Ekman ve Wallace Friesen, medyadan etkilenmemiş Papua Yeni Gine'deki Fore topluluğunda da temel ifadelerin tanındığını bildirdi. "Mikro ifade" (microexpression) ise saniyenin çok küçük bir kesrinde yüzde beliren, bastırılmaya çalışılan bir duygunun izidir. Bu kavramı ilk kez Haggard ve Isaacs 1966'da, terapi seanslarının filmlerini incelerken tanımladı. Ekman'ın en ünlü kitabı *Telling Lies* 1985'te çıktı. 2009–2011'de yayınlanan *Lie to Me* dizisindeki baş karakter Ekman'dan esinlendi ve Ekman dizinin bilimsel danışmanıydı.
 
 Popüler türün yaptığı sıçrama şudur: "Mikro ifadeleri öğrenirseniz yalanı yakalarsınız." Bilimsel tablo bunu desteklemiyor. Bir yüzde bir duygunun izi görülse bile, bu duygunun nedeni yalan olmayabilir. Sorgulanan masum biri de korkar, utanır ya da öfkelenir.
 
@@ -1103,13 +1103,13 @@ Popüler türün tek yararlı tarafı, okuru psikolojik şiddet hakkında bilin�
 
 Bu kanunla mahkeme ya da kolluk koruyucu ve önleyici tedbirler alabilir; örneğin şiddet uygulayanın evden uzaklaştırılması ya da mağdurla iletişim kurmasının yasaklanması. Kanunun uygulamasında koruma talebi için şiddetin önceden kesin olarak ispatı aranmadığı belirtilir.
 
-**TCK 123/A: Israrlı takip (2022).** 12 Mayıs 2022 tarihli 7406 sayılı Kanunla Türk Ceza Kanunu'na "ısrarlı takip" (stalking) suçu eklendi. Daha önce bu tür eylemler "kişilerin huzur ve sükûnunu bozma" suçu içinde değerlendiriliyordu. Yeni düzenlemeye göre birini fiziksel olarak takip etmek ya da iletişim araçlarıyla ısrarla rahatsız ederek ciddi bir huzursuzluk yaratmak veya güvenliği konusunda korku uyandırmak suçtur. Cezası basit hâlde 6 aydan 2 yıla, nitelikli hâlde 1 yıldan 3 yıla kadar hapistir. (Nitelikli hâllerin listesini bu bölümde doğrulayamadık; kanun metnine bakın.)
+**TCK 123/A: Israrlı takip (2022).** 12 Mayıs 2022 tarihli 7406 sayılı Kanunla Türk Ceza Kanunu'na "ısrarlı takip" (stalking) suçu eklendi. Daha önce bu tür eylemler "kişilerin huzur ve sükûnunu bozma" suçu içinde değerlendiriliyordu. Yeni düzenlemeye göre birini fiziksel olarak takip etmek ya da iletişim araçlarıyla ısrarla rahatsız ederek ciddi bir huzursuzluk yaratmak veya güvenliği konusunda korku uyandırmak suçtur. Cezası basit hâlde 6 aydan 2 yıla, nitelikli hâlde 1 yıldan 3 yıla kadar hapistir. Nitelikli hâller şunlardır: suçun çocuğa ya da ayrılık kararı verilen veya boşanılan eşe karşı işlenmesi; mağdurun okulunu, iş yerini ya da konutunu değiştirmesine veya okulunu ya da işini bırakmasına yol açması; hakkında uzaklaştırma ya da yaklaşmama tedbiri bulunan failce işlenmesi. Suçun soruşturulması şikâyete bağlıdır.
 
 **İş yerinde psikolojik taciz (mobbing) ve TBK 417.** 1 Temmuz 2012'de yürürlüğe giren 6098 sayılı Türk Borçlar Kanunu'nun 417. maddesi, işverene işçinin kişiliğini koruma ve ona saygı gösterme borcu yükler. Madde açıkça, işverenin işçilerin psikolojik ve cinsel tacize uğramamaları ve uğrayanların daha fazla zarar görmemeleri için gerekli önlemleri almasını ister. Mobbing (iş yerinde sistemli psikolojik taciz) yaşayan kişi, yaşadıklarını belgeleyerek işverene yazılı başvurabilir, gerekirse tazminat ve haklı nedenle fesih yollarına gidebilir; ayrıntılar için bir iş hukuku avukatına danışın.
 
 **İngiltere: Zorlayıcı denetim suçu (2015).** İngiltere ve Galler'de 2015 tarihli Ağır Suçlar Yasası (Serious Crime Act 2015), yakın ilişki ya da aile içinde "denetleyici veya zorlayıcı davranış"ı (controlling or coercive behaviour) ayrı bir suç yaptı. Suçun oluşması için davranışın "tekrar tekrar ya da sürekli" olması ve mağdur üzerinde "ciddi bir etki" bırakması gerekir. Bu düzenleme, sosyolog Evan Stark'ın *Coercive Control* (2007) kitabıyla yaygınlaşan bir fikre dayanır: İstismar tek tek olaylardan çok, kişinin hayatını adım adım denetim altına alan bir örüntüdür. Türk hukukunda "zorlayıcı denetim" adıyla ayrı bir suç bulunmuyor; bu tür davranışlar 6284 sayılı Kanun ve ısrarlı takip, tehdit gibi suçlar kapsamında ele alınabiliyor.
 
-**İstanbul Sözleşmesi.** Tam adı "Kadınlara Yönelik Şiddet ve Aile İçi Şiddetin Önlenmesi ve Bunlarla Mücadeleye İlişkin Avrupa Konseyi Sözleşmesi". 11 Mayıs 2011'de İstanbul'da imzaya açıldı. Türkiye, 12 Mart 2012'de sözleşmeyi onaylayan ilk ülke oldu. Sözleşme 1 Ağustos 2014'te yürürlüğe girdi. Türkiye 20 Mart 2021'de sözleşmeden çekildiğini bildirdi; sözleşme Türkiye için 1 Temmuz 2021'de sona erdi. Türkiye, sözleşmeden çekilen ilk ve şimdiye kadar tek ülkedir. Çekilme kararı Türkiye'de tartışma yarattı; hükûmet iç hukuktaki düzenlemelerin (özellikle 6284 sayılı Kanunun) korumayı sürdürdüğünü savundu, eleştirenler ise uluslararası denetimin ve güvencenin zayıfladığını öne sürdü. 6284 sayılı Kanun yürürlükte kalmaya devam ediyor.
+**İstanbul Sözleşmesi.** Tam adı "Kadınlara Yönelik Şiddet ve Aile İçi Şiddetin Önlenmesi ve Bunlarla Mücadeleye İlişkin Avrupa Konseyi Sözleşmesi". 11 Mayıs 2011'de İstanbul'da imzaya açıldı. Türkiye, 12 Mart 2012'de sözleşmeyi onaylayan ilk ülke oldu. Sözleşme 1 Ağustos 2014'te yürürlüğe girdi. Türkiye'nin sözleşmeden çekilme kararı 20 Mart 2021'de Resmî Gazete'de yayımlandı (Avrupa Konseyine bildirim 22 Mart 2021); sözleşme Türkiye için 1 Temmuz 2021'de sona erdi. Türkiye, sözleşmeden çekilen ilk ve şimdiye kadar tek ülkedir. Çekilme kararı Türkiye'de tartışma yarattı; hükûmet iç hukuktaki düzenlemelerin (özellikle 6284 sayılı Kanunun) korumayı sürdürdüğünü savundu, eleştirenler ise uluslararası denetimin ve güvencenin zayıfladığını öne sürdü. 6284 sayılı Kanun yürürlükte kalmaya devam ediyor.
 
 ### Korunma: Ne işe yarar, ne yaramaz?
 
@@ -1133,7 +1133,7 @@ Bu kanunla mahkeme ya da kolluk koruyucu ve önleyici tedbirler alabilir; örne�
 - **Acil hatlar:** 112 (acil çağrı), 155 (polis), 156 (jandarma).
 - **ŞÖNİM (Şiddet Önleme ve İzleme Merkezleri):** 6284 sayılı Kanunla kurulan merkezler. Danışmanlık, yönlendirme ve gerektiğinde konukevine yerleştirme sağlar.
 - **Savcılık ve kolluk:** Şikâyet ve koruma tedbiri talebi doğrudan karakola ya da Cumhuriyet başsavcılığına yapılabilir. Koruma kararını aile mahkemesi de verebilir.
-- **Baroların adli yardım büroları:** Avukat ücreti ödeyemeyecek durumda olanlar, bulundukları ildeki baronun adli yardım bürosuna başvurarak ücretsiz avukat desteği isteyebilir. Birçok baronun ayrıca kadın hakları merkezi vardır (ayrıntılar için ilinizdeki baroya danışın; doğrulanmadı).
+- **Baroların adli yardım büroları:** Avukat ücreti ödeyemeyecek durumda olanlar, bulundukları ildeki baronun adli yardım bürosuna başvurarak ücretsiz avukat desteği isteyebilir (doğrulanmadı). Birçok baronun ayrıca kadın hakları merkezi vardır (ayrıntılar için ilinizdeki baroya danışın).
 
 **Çocuk ve yaşlı istismarı için not.** Çocuklar ve bakıma muhtaç yaşlılar manipülasyonu adlandıramaz ve kendileri başvuru yapamayabilir. Bir çocuğun ya da yaşlının sürekli korkutulduğunu, yalıtıldığını, parasının ya da ilacının denetim altına alındığını fark ederseniz ALO 183'ü ya da 112'yi arayın. Çocuklara yönelik cinsel istismar gibi durumlarda bildirim yükümlülüğü de söz konusu olabilir; bir uzmana danışın. 6284 sayılı Kanun çocukları ve aile bireylerini de koruma kapsamına alır.
 

@@ -1,6 +1,6 @@
 # Psikopati: klasikler ve bilim
 
-Bu dosyada 7 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, bilimsel dayanağı, karanlık psikoloji haritasındaki yeri, eleştiri, kimler okumalı. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir. Kanıt etiketleri ve kavramlar için `01_karanlik_psikoloji_rehberi.md` dosyasına bakın.
+Bu dosyada 13 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümleyle, bağlam, yapısı, ana fikirler, bilimsel dayanağı, karanlık psikoloji haritasındaki yeri, eleştiri, kimler okumalı. "(doğrulanmadı)" işareti, o ayrıntının bu oturumda kaynaktan görülemediğini gösterir. Kanıt etiketleri ve kavramlar için `01_karanlik_psikoloji_rehberi.md` dosyasına bakın.
 
 ## Bu dosyadaki kitaplar
 
@@ -11,10 +11,16 @@ Bu dosyada 7 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümle
 5. Kevin Dutton — The Wisdom of Psychopaths
 6. Jon Ronson — Psikopat Testi
 7. Kent A. Kiehl — The Psychopath Whisperer
+8. Christopher J. Patrick (ed.) — Handbook of Psychopathy
+9. James Blair, Derek Mitchell, Karina Blair — The Psychopath: Emotion and the Brain
+10. David T. Lykken — The Antisocial Personalities
+11. J. Reid Meloy — The Psychopathic Mind
+12. Essi Viding — Psychopathy: A Very Short Introduction
+13. Stanton E. Samenow — Suçlular Nasıl Düşünür?
 
 ## Hervey Cleckley — The Mask of Sanity (The Mask of Sanity, 1941)
 
-**Künye.** Hervey M. Cleckley (1903–1984) Amerikalı bir psikiyatrdır; uzun yıllar bir gaziler hastanesinde çalıştıktan sonra Georgia Üniversitesi Tıp Fakültesi'nde ders vermiştir. Kitabın tam özgün adı *The Mask of Sanity: An Attempt to Clarify Some Issues About the So-Called Psychopathic Personality*; dili İngilizce, ilk yayın 1941 (Mosby). İlk baskının alt başlığında "yeniden yorumlama" (re-interpret) sözcüğü geçer; sonraki baskılarda "açıklığa kavuşturma" (clarify) olur. Toplam altı baskı yapılmıştır: 1941, 1950, 1955, 1964, 1976 ve yazarın 1984'teki ölümünden kısa süre sonra çıkan altıncı baskı. Ölçünlü kabul edilen sürüm 1976 tarihli 5. baskıdır; bu baskı 1988'de yazarın eşi Emily Cleckley tarafından kâr amacı gütmeyen eğitim kullanımı için yeniden yayımlanmıştır. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 5. baskı yaklaşık 500 sayfa (doğrulanmadı).
+**Künye.** Hervey M. Cleckley (1903–1984) Amerikalı bir psikiyatrdır; uzun yıllar bir gaziler hastanesinde çalıştıktan sonra Georgia Üniversitesi Tıp Fakültesi'nde ders vermiştir. Kitabın tam özgün adı *The Mask of Sanity: An Attempt to Clarify Some Issues About the So-Called Psychopathic Personality*; dili İngilizce, ilk yayın 1941 (Mosby). İlk baskının alt başlığında "yeniden yorumlama" (re-interpret) sözcüğü geçer; sonraki baskılarda "açıklığa kavuşturma" (clarify) olur. Toplam altı baskı yapılmıştır: 1941, 1950, 1955, 1964, 1976 ve yazarın 1984'teki ölümünden kısa süre sonra çıkan altıncı baskı. Ölçünlü kabul edilen sürüm 1976 tarihli 5. baskıdır; bu baskı 1988'de yazarın mirasçıları tarafından kâr amacı gütmeyen eğitim kullanımı için yeniden yayımlanmıştır. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 5. baskı yaklaşık 500 sayfa (doğrulanmadı).
 
 **Bir cümleyle.** Psikopat kişi dışarıdan aklı başında, hatta çekici bir insan gibi görünür; ama bu "akıl sağlığı maskesi"nin ardında derin bir duygusal yoksunluk ve kendine de zarar veren, amaçsız bir yıkıcılık vardır.
 
@@ -61,7 +67,7 @@ Bu dosyada 7 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümle
 
 ## Robert D. Hare — Without Conscience (Without Conscience: The Disturbing World of the Psychopaths Among Us, 1993)
 
-**Künye.** Robert D. Hare (d. 1934, Calgary) Kanadalı bir adli psikologdur (forensic psychologist). British Columbia Üniversitesi'nde (UBC) yaklaşık 30 yıl çalışmış, bugün aynı üniversitede emekli profesördür; psikopatiyi ölçmede en yaygın araç olan Psikopati Kontrol Listesi–Gözden Geçirilmiş'in (PCL-R) yazarıdır. Kitabın dili İngilizce, ilk yayın 1993 (ilk yayınevi Pocket Books; bellekten, doğrulanmadı). Bugünkü baskısı Guilford Press'ten çıkar (karton kapak 1999). Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 236 sayfa (Guilford baskısı); yayınevine göre 275.000'i aşkın basılmıştır.
+**Künye.** Robert D. Hare (d. 1934, Calgary) Kanadalı bir adli psikologdur (forensic psychologist). British Columbia Üniversitesi'nde (UBC) yaklaşık 30 yıl çalışmış, bugün aynı üniversitede emekli profesördür; psikopatiyi ölçmede en yaygın araç olan Psikopati Kontrol Listesi–Gözden Geçirilmiş'in (PCL-R) yazarıdır. Kitabın dili İngilizce, ilk yayın 1993 (ilk yayınevi Pocket Books; bellekten, doğrulanmadı). Bugünkü baskısı Guilford Press'ten çıkar (karton kapak 1999). Türkçe baskısı: *Vicdansızlar: Aramızdaki Psikopatların Rahatsız Edici Dünyası* (Serbest Kitaplar, 2023; 301 sayfa; çeviren Semra Kunt Akbaş, çevirmen adı yalnızca arama özetinden). Hacim: 236 sayfa (Guilford baskısı); yayınevine göre 275.000'i aşkın basılmıştır.
 
 **Bir cümleyle.** Psikopatlar vicdansız, pişmanlık duymayan ve başkalarını kullanan kişilerdir; çoğu katil değildir, aramızda normal görünerek yaşar ve onları tanımayı öğrenmek kendimizi korumanın ilk adımıdır.
 
@@ -95,7 +101,7 @@ Bu dosyada 7 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümle
 - **Tedavi karamsarlığı.** Bazı grup terapilerinin psikopatları daha usta manipülatörler yapabileceği yönünde bulgular aktarır; kanıtlanmış bir tedavinin olmadığını söyler (ayrıntı doğrulanmadı).
 - **Hayatta kalma rehberi.** Son bölüm somut öneriler verir: ne ile karşılaştığınızı bilin, çekicilik ve "dekorlar" (unvan, giyim, hikâye) karşısında temkinli olun, kendi zayıf noktalarınızı tanıyın, zararı sınırlayın, kendinizi suçlamayın ve destek arayın (madde ayrıntıları bellekten, doğrulanmadı).
 
-**Bilimsel dayanağı.** Kitap, yazarın kendi uzun soluklu araştırma programına ve PCL-R ile yapılan çok sayıda çalışmaya dayanır; ancak popüler üslupla, vaka anlatıları ve gazete haberleriyle yazılmıştır. PCL-R'nin cezaevlerinde yeniden suç işlemeyi öngörmede güçlü olduğu birçok çalışmada gösterilmiştir. Öte yandan Jennifer Skeem ve David Cooke (2010, *Psychological Assessment*), ölçeğin suç davranışını psikopatinin özüne yerleştirdiğini, böylece "suçluluk"la "kişilik"i karıştırdığını savundu (dergi ve yıl bellekten). Hare bu makale yayımlanmadan dava açmakla tehdit etti; New York Times'a göre makale üç yıl gecikmeyle çıktı. Genel nüfus yaygınlığı için İngiltere'de Coid ve arkadaşlarının (2009) çalışması yaklaşık yüzde 0,6 gibi düşük bir oran buldu (bellekten, doğrulanmadı). Genel kanıt düzeyi: **[araştırma]** temelli, **[popüler]** anlatım.
+**Bilimsel dayanağı.** Kitap, yazarın kendi uzun soluklu araştırma programına ve PCL-R ile yapılan çok sayıda çalışmaya dayanır; ancak popüler üslupla, vaka anlatıları ve gazete haberleriyle yazılmıştır. PCL-R'nin cezaevlerinde yeniden suç işlemeyi öngörmede güçlü olduğu birçok çalışmada gösterilmiştir. Öte yandan Jennifer Skeem ve David Cooke (2010, *Psychological Assessment*), ölçeğin suç davranışını psikopatinin özüne yerleştirdiğini, böylece "suçluluk"la "kişilik"i karıştırdığını savundu. Hare bu makale yayımlanmadan dava açmakla tehdit etti; New York Times'a göre makale üç yıl gecikmeyle çıktı. Genel nüfus yaygınlığı için İngiltere'de Coid ve arkadaşlarının (2009) çalışması yaklaşık yüzde 0,6 gibi düşük bir oran buldu. Genel kanıt düzeyi: **[araştırma]** temelli, **[popüler]** anlatım.
 
 **Karanlık psikoloji haritasındaki yeri.**
 - **Psikopati, karanlık üçlü ve D faktörü.** Karanlık üçlü araştırmalarındaki psikopati ölçeklerinin çoğu, Hare'in iki kümeli yapısından esinlenir.
@@ -220,7 +226,7 @@ Bu dosyada 7 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümle
 
 ## Kevin Dutton — The Wisdom of Psychopaths (The Wisdom of Psychopaths: What Saints, Spies, and Serial Killers Can Teach Us About Success, 2012)
 
-**Künye.** Kevin Dutton (d. 1967), psikopati üzerine çalışan İngiliz bir araştırma psikoloğu ve yazar. Kitabı yazdığı dönemde Oxford Üniversitesi Deneysel Psikoloji Bölümü'nde doktora sonrası araştırmacıydı; kendisi zamanını laboratuvar araştırması ile popüler yazarlık arasında böldüğünü söyler. Özgün dil İngilizce. İlk yayın 2012 (İngiltere'de William Heinemann, ABD'de Scientific American/Farrar, Straus and Giroux). Türkçe baskı: kitapçı kataloğunda Kevin Dutton adına "Olağan Psikopatlar" (yayınevi belirtilmemiş) görünüyor; konu benzerliğine göre bu kitabın çevirisi olması muhtemel, ama eşleşme doğrulanmadı. Katalogdaki "İyi Psikopatın Başarı Rehberi" (Pegasus Yayınları) ise büyük olasılıkla Dutton'ın Andy McNab ile yazdığı ayrı bir kitabın, The Good Psychopath's Guide to Success'in (2014) çevirisidir; bu kitapla karıştırılmamalı. Hacim: baskıya göre yaklaşık 260–320 sayfa.
+**Künye.** Kevin Dutton (d. 1967), psikopati üzerine çalışan İngiliz bir araştırma psikoloğu ve yazar. Kitabı yazdığı dönemde Oxford Üniversitesi Deneysel Psikoloji Bölümü'nde doktora sonrası araştırmacıydı; kendisi zamanını laboratuvar araştırması ile popüler yazarlık arasında böldüğünü söyler. Özgün dil İngilizce. İlk yayın 2012 (İngiltere'de William Heinemann, ABD'de Scientific American/Farrar, Straus and Giroux). Türkçe baskı: *Olağan Psikopatlar* (Domingo Yayınevi, 2013; çeviren Cem Duran; 280 sayfa). Katalogdaki "İyi Psikopatın Başarı Rehberi" (Pegasus Yayınları) ise büyük olasılıkla Dutton'ın Andy McNab ile yazdığı ayrı bir kitabın, The Good Psychopath's Guide to Success'in (2014) çevirisidir; bu kitapla karıştırılmamalı. Hacim: baskıya göre yaklaşık 260–320 sayfa.
 
 **Bir cümleyle.** Psikopati bir "açık/kapalı" durumu değil bir yelpazedir; korkusuzluk, odak ve soğukkanlılık gibi psikopatik özellikler doğru dozda ve doğru bağlamda kullanılırsa başarıya katkı sağlayabilir.
 
@@ -257,7 +263,7 @@ Bu dosyada 7 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümle
 
 ## Jon Ronson — Psikopat Testi (The Psychopath Test: A Journey Through the Madness Industry, 2011)
 
-**Künye.** Jon Ronson (d. 1967, Cardiff), İngiliz gazeteci, yazar ve belgeselci; The Men Who Stare at Goats (Keçilere Bakan Adamlar) ve Them gibi kitaplarıyla tanınır. Psikolog ya da psikiyatr değildir; konuya meraklı ve kuşkucu bir gazeteci olarak, kendini kasıtlı olarak saf bir anlatıcı gibi sunarak yazar. Özgün dil İngilizce. İlk yayın 12 Mayıs 2011 (İngiltere'de Picador, ABD'de Riverhead). Türkçe baskı: Psikopat Testi (kitapçı kataloğunda "Piskopat Testi" yazımıyla, yayınevi belirtilmemiş). Open Library'de 2014 tarihli bir Pegasus baskısı kayıtlı; bunun Pegasus Yayınları'nın Türkçe baskısı olması muhtemel (doğrulanmadı). Hacim: ilk İngiliz baskısı 240 sayfa; diğer baskılar 275–306 sayfa.
+**Künye.** Jon Ronson (d. 1967, Cardiff), İngiliz gazeteci, yazar ve belgeselci; The Men Who Stare at Goats (Keçilere Bakan Adamlar) ve Them gibi kitaplarıyla tanınır. Psikolog ya da psikiyatr değildir; konuya meraklı ve kuşkucu bir gazeteci olarak, kendini kasıtlı olarak saf bir anlatıcı gibi sunarak yazar. Özgün dil İngilizce. İlk yayın 12 Mayıs 2011 (İngiltere'de Picador, ABD'de Riverhead). Türkçe baskı: *Psikopat Testi* (Pegasus Yayınları, 2014; çeviren Elif Kolcuoğlu; 288 sayfa; bazı kitapçı kayıtlarında "Piskopat Testi" yazımıyla). Hacim: ilk İngiliz baskısı 240 sayfa; diğer baskılar 275–306 sayfa.
 
 **Bir cümleyle.** Psikopati gerçek ve ciddi bir sorundur, ama bir kontrol listesiyle insanlara psikopat demek şaşırtıcı derecede kolaydır; etiketleme hevesi, kendisi de bir tür "delilik endüstrisi" yaratır.
 
@@ -334,3 +340,166 @@ Bu dosyada 7 kitap var. Her kitap aynı sırayla anlatılır: künye, bir cümle
 **Eleştiri ve sınırlar.** Times Higher Education'da psikolog Luna Centifanti, kitabı alanın önde gelen bir araştırmacısının yazdığı nadir erişilebilir eser olarak övdü; yine de Mike ile psikopatik mahkûm karşılaştırmasında iki kişinin yalnızca psikopati açısından değil başka yönlerden de farklı olduğunu belirtti. Publishers Weekly kitabı "compassionate" (şefkatli) bir çalışma olarak tanımladı. Okur yorumlarında yazarın kendi başarılarını sıkça öne çıkardığı ve çocuklara psikopati etiketi vurmanın kendini gerçekleştiren kehanete dönüşebileceği kaygısı dile getirildi. Daha geniş bir eleştiri, MIT'de yazılmış bir tezde ("Kent Kiehl's Search for the Criminal Brain") dile getirildi: Suçun biyolojik köklerini arama tarihinin bilimsel olarak şüpheli ve etik olarak sorunlu olduğu hatırlatılır ve hukukun bu bulgulara ne ölçüde güvenmesi gerektiği sorgulanır. Ayrıca beyin görüntülemede "ters çıkarım" (bir bölgenin etkinliğinden belirli bir zihinsel süreç çıkarmak) sorunu bulunur. Kitap 2014'te yazıldığı için sonraki tekrar (replikasyon) tartışmalarını kapsamaz.
 
 **Kimler okumalı.** Psikopatinin bilimsel tarafını, beyin araştırmaları ve tedavi umudu açısından öğrenmek isteyen okur için bu listedeki en sağlam kitap. Uyarı: Beyin taramasıyla "psikopat tespit edilir" sonucuna varmayın; bulgular grup ortalamalarına dayanır ve tek kişide tanı aracı değildir.
+
+---
+
+## Christopher J. Patrick (ed.) — Handbook of Psychopathy (Handbook of Psychopathy, 2006)
+
+**Künye.** Christopher J. Patrick, psikopatiyi psikofizyoloji ve kişilik ölçümüyle inceleyen Amerikalı bir klinik psikolog ve akademisyendir; Florida State Üniversitesi'nde profesördür (bellekten, doğrulanmadı). Kitap bir derlemedir: her bölümü farklı uzmanlar yazar, Patrick editördür. Dili İngilizce, yayınevi Guilford Press. İlk baskı 2006 (ilk baskının bir incelemesi Eylül 2006'da çıktı); ikinci baskı 2018'de, yayınevinin deyişiyle "%65'ten fazla yeni malzemeyle" yayımlandı. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: ikinci baskı 828 sayfa, 31 bölüm.
+
+**Bir cümleyle.** Psikopati, ölçülebilen, kökenleri ve mekanizmaları araştırılabilen, tek bir özellik değil birkaç bileşenden oluşan bir kişilik bozukluğudur; bu kitap o araştırmanın bugünkü durumunu bir araya getirir.
+
+**Bağlam.** 1980'lerde bazı uzmanlar psikopati kavramının "klinik tanı kılığına girmiş ahlaki yargı" olduğunu söylüyordu. Robert Hare'in kontrol listesi kavramı ölçülebilir kılınca araştırma patladı. Kitap, bu dağınık literatürü klinisyenlere, adli uzmanlara ve araştırmacılara tek ciltte sunmak için hazırlandı. İkinci baskı, alanın 2006 sonrasındaki büyümesini (beyin görüntüleme, çocuklarda duygusuz-soğuk özellikler, Üçlü Model) yansıtır.
+
+**Yapısı.** İkinci baskı yedi kısımdır: kuramsal temeller; psikopatinin ayrı yüzleri; ölçme ve tanı; nedenler ve mekanizmalar; özel gruplar (çocuklar, kadınlar, kültürler, seri katiller, "başarılı psikopatlar"); klinik ve hukuki konular (saldırganlık, madde kullanımı, cinsel zorlama, yeniden suç işleme, tedavi, etik); sonuç. Yazarlar arasında Lykken, Hare, Viding, Blair, Raine, Lilienfeld ve Skeem gibi alanın önde gelen adları var.
+
+**Ana fikirler.**
+- **Maskeli patoloji.** Patrick'in açılış bölümü, Cleckley'nin "akıl sağlığı maskesi" fikrinden yola çıkar: psikopatik kişi dışarıdan sağlıklı ve çekici görünür, sorun yüzeyin altındadır. Kitabın geri kalanı bu maskenin neyi sakladığını sorar.
+- **Ölçme tartışması.** Hare ve arkadaşlarının bölümü Psikopati Kontrol Listesi–Gözden Geçirilmiş'i (PCL-R) anlatır. Başka bölümler görüşmeye dayalı ölçümle öz-bildirim ölçeklerini karşılaştırır ve her yöntemin tuzaklarını gösterir.
+- **Psikopati tek parça değildir.** Kitap, psikopatiyi ayrı yüzlere böler: ketlenmezliğe yatkınlık (dürtüsellik), duygusuz-soğuk özellikler ve gözü peklik (boldness). Bu, Patrick'in arkadaşlarıyla geliştirdiği Üçlü Model'in (gözü peklik, acımasızlık, ketlenmezlik) zeminidir (modelin 2009 tarihi bellekten, doğrulanmadı).
+- **Alt tipler.** Birincil psikopati (mizaçtan, düşük kaygıyla gelen) ile ikincil psikopati (kaygılı, öfkeli, çoğu zaman zor koşullarla bağlantılı) ayrımı ayrı bir bölümde tartışılır.
+- **Nedenler çok katmanlıdır.** Genetik ve çevre, aile geçmişi, beyin yapısı ve işlevi, bilişsel ve duygusal işlemleme ayrı bölümlerde ele alınır; tek bir "psikopat geni" ya da tek bir beyin bölgesi önerilmez.
+- **Başarılı psikopati ve tedavi.** Suç işlemeyen, toplumda yükselen psikopatik özellikli kişiler ve tedavinin gerçekten işe yarayıp yaramadığı, eski "tedavi edilemez" kanısını sorgulayan bölümlerde incelenir.
+
+**Bilimsel dayanağı.** Bölümler hakemli araştırma literatürünü özetler: ikiz çalışmaları, beyin görüntüleme, laboratuvar deneyleri, büyük örneklemli izleme çalışmaları. Bir hukuk-psikiyatri dergisindeki inceleme kitabı "iyi düzenlenmiş bir kaynak kitap" olarak niteler ve vurgunun her alanda deneysel bulgularda olduğunu söyler (Feix, 2006). [araştırma]
+
+**Karanlık psikoloji haritasındaki yeri.** Rehberdeki psikopati, Üçlü Model, birincil ve ikincil psikopati ve duygusuz-soğuk özellikler kavramlarının akademik kaynağıdır. Seri cinayet ve cinsel zorlama bölümleri, popüler kitaplardaki abartılı "psikopat avcı" imgesini sayılarla düzeltir. Lykken, Blair ve Viding'in bu listedeki kitaplarının güncel özetleri burada bölüm olarak yer alır; Babiak ve Hare'in *Snakes in Suits*'ine (önceki raporda) "başarılı psikopati" bölümüyle bilimsel bir arka plan sağlar.
+
+**Eleştiri ve sınırlar.** Derleme olduğu için bölümler eşit derinlikte değildir; aynı inceleme bazı alanlarda ilerlemenin daha fazla olduğunu not eder (Feix, 2006). Kitap, kendi içinde çözülmemiş bir tartışmayı da taşır: gözü pekliğin psikopatinin çekirdeği mi, yoksa görece zararsız bir özellik mi olduğu (Lilienfeld ve arkadaşlarının bölümü bunu tartışır; karşı görüş için Miller ve Lynam, bellekten). Teknik dili, yüksek fiyatı ve hacmi genel okur için ağırdır.
+
+**Kimler okumalı.** Psikoloji, kriminoloji ya da hukuk öğrencileri ve popüler kitaplardaki iddiaları kaynağından kontrol etmek isteyen okurlar için başvuru kitabıdır; baştan sona okunmaz, ilgili bölüm açılır. Kitaptaki ölçütlerle çevredeki birine tanı koymaya çalışmak yanıltıcıdır; bu araçlar eğitimli uzmanlar için yazılmıştır.
+
+---
+
+## James Blair, Derek Mitchell, Karina Blair — The Psychopath: Emotion and the Brain (The Psychopath: Emotion and the Brain, 2005)
+
+**Künye.** James (R. J. R.) Blair bilişsel sinirbilimcidir; kitap yazıldığında ABD Ulusal Ruh Sağlığı Enstitüsü'nde (NIMH) Duygusal-Bilişsel Sinirbilim Birimi'nin başkanıydı. Derek Mitchell ve Karina Blair aynı birimde araştırmacıydı. Kitabın dili İngilizce, yayınevi Blackwell (bugün Wiley). İlk yayın Temmuz 2005. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 212 sayfa.
+
+**Bir cümleyle.** Psikopatinin özü, gelişim sırasında amigdalanın (beyinde korku ve tehdit sinyallerini işleyen badem biçimli yapı) düzgün çalışmaması ve bunun, başkasının acısından ders almayı ve ahlaki öğrenmeyi bozmasıdır.
+
+**Bağlam.** 2000'lerin başında beyin görüntüleme yaygınlaşmış, ama psikopatiye dair sinirbilim bulguları dağınıktı. Medya psikopatları şeytanlaştırırken yazarlar, kendi laboratuvar deneylerine dayanarak bütünlüklü bir açıklama önermek istediler. Kitap öğrencilere, klinisyenlere ve araştırmacılara yazıldı; yayınevi onu "zamanında ve tartışmalı" diye tanıttı.
+
+**Yapısı.** Dokuz bölüm vardır: psikopati nedir; temel olgular; en derin neden (doğa mı, çevre mi); psikopatik bireyde işlev bozukluğu; bilişsel açıklamalar; sinirsel açıklamalar; tepkisel saldırganlığın sinir-bilişsel açıklaması; psikopatinin sinir-bilişsel açıklaması; "Bilmeceler ve Sonuçlar". İlk yarı alanın bulgularını ve rakip kuramları özetler, ikinci yarı yazarların kendi modelini kurar.
+
+**Ana fikirler.**
+- **İki tür saldırganlık.** Tepkisel saldırganlık (reactive aggression) öfke ve tehdit karşısında patlar; araçsal saldırganlık (instrumental aggression) bir amaca ulaşmak için soğukkanlıca seçilir. Yazarlara göre psikopatiyi ayıran, araçsal saldırganlığın yüksekliğidir.
+- **Başkasının acısı bir öğretmendir.** Çoğu çocuk, bir başkasının korkmuş ya da üzgün yüzünü itici bulur ve o acıya yol açan davranıştan uzaklaşmayı öğrenir. Psikopatik özellikli bireylerde bu sinyal zayıftır; korku ve üzüntü ifadelerini tanımakta güçlük çektikleri deneylerle gösterilir.
+- **Bütünleşik Duygu Sistemleri modeli.** Kitabın merkezindeki model (Integrated Emotion Systems, IES) sekizinci bölümde kurulur. Amigdala bir uyarıcıyı ödül ya da cezayla ilişkilendirir; bu bilgi ön beynin alt-ön kısmına (orbitofrontal korteks) aktarılarak karar verilir. Zincirin ilk halkası bozulduğunda ceza ve başkasının acısı davranışı yönlendirmez.
+- **Ahlaki ve geleneksel kurallar.** Yazarlar, psikopatik bireylerin "başkasına zarar verme" kuralı ile "sınıfta konuşma" gibi düzen kurallarını ayırmakta sağlıklı kişiler kadar başarılı olmadığını aktarır. Bu, ahlakın kısmen duygusal öğrenmeye dayandığı fikrini destekler.
+- **Doğa ve çevre birlikte.** Amigdala işlevindeki zayıflığın kısmen kalıtsal olduğu, ama çevrenin (örneğin ceza ağırlıklı ebeveynlik) sonucu biçimlendirdiği savunulur. Bu yüzden erken müdahale umut verici görülür.
+
+**Bilimsel dayanağı.** İddialar, yazarların ve başkalarının deneysel çalışmalarına dayanır: yüz ifadesi tanıma, ödül-ceza öğrenmesi, ahlaki yargı ve beyin görüntüleme görevleri. Bir incelemeci yazarların akademik birikimini "sorgulanamaz" bulur (Nussbaum, PsycCRITIQUES; yayınevi sayfası). Modeli günümüzde Blair'in kendisi beyin görüntüleme bulgularıyla güncellemiştir (Patrick'in el kitabında 2018 bölümü). [araştırma]
+
+**Karanlık psikoloji haritasındaki yeri.** Rehberdeki psikopati, birincil psikopati ve duygusuz-soğuk özellikler kavramlarının sinirbilim temelidir. Aynı zamanda ahlaki bağlantısızlık için önemli bir ayrım sunar: psikopatik birey zarar verdiğini bilir ama bunu "hissetmez". Bu da ilişkideki kişinin acısına kayıtsız kalan sessiz muamele ve zorlayıcı denetim gibi davranışların neden "pişmanlıksız" sürdüğünü anlamaya yardım eder. Viding'in kitabı (bu listede) bu modeli çocuklara taşır; Lykken'in korkusuzluk kuramı (bu listede) ise modelin atasıdır.
+
+**Eleştiri ve sınırlar.** Rakip görüş, Joseph Newman'ın tepki ayarlama (response modulation) kuramıdır: sorun korkunun yokluğu değil, dikkatin dar odaklanmasıdır; dikkat yönlendirildiğinde korku tepkisi normale yaklaşabilir (Baskin-Sommers, Curtin ve Newman, 2011; bellekten). Kent Kiehl ise yalnız amigdalanın değil daha geniş bir "paralimbik" ağın bozulduğunu savunur (2006; bellekten). Çalışmaların çoğu erkek mahkûm ve çocuk örneklemlerine dayanır. 2005'ten sonra beyin görüntüleme literatürü çok büyüdüğü için kitabın ayrıntıları eskimiştir.
+
+**Kimler okumalı.** Psikopatinin beyinde neye karşılık geldiğini merak eden, temel düzeyde psikoloji bilgisi olan okurlar için uygundur; dili teknik ama yoğun değildir. Beyin bulgularını tek tek kişilere uygulamak (birinin "amigdalası bozuk" demek) bilimsel değildir.
+
+---
+
+## David T. Lykken — The Antisocial Personalities (The Antisocial Personalities, 1995)
+
+**Künye.** David T. Lykken (1928–2006) Amerikalı davranış genetikçisi ve klinik psikologdu; bütün kariyerini Minnesota Üniversitesi'nde geçirdi, Minnesota İkiz Aile Çalışması'nın yürütücülerindendi ve yalan makinesi eleştirileriyle de tanınır. Kitabın dili İngilizce, yayınevi Lawrence Erlbaum (bugün Psychology Press/Routledge). İlk yayın 1995. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 259 sayfa (Open Library; yayınevi 268 sayfa veriyor).
+
+**Bir cümleyle.** Toplumdaki suç ve şiddetin küçük bir kısmı doğuştan korkusuz "psikopatlardan", çok daha büyük kısmı ise yetersiz ebeveynlik yüzünden toplumsallaşamamış "sosyopatlardan" gelir; asıl toplumsal sorun ikincisidir.
+
+**Bağlam.** Lykken, 1957'de psikopatik mahkûmların cezadan kaçınmayı öğrenmekte zorlandığını gösteren deneyiyle alanın öncülerindendi (tarih bellekten, doğrulanmadı). 1990'larda ABD'de suç oranları ve "tek ebeveynli aile" tartışmaları gündemdeydi. Kitap, kırk yıllık araştırmasını klinik, kişilik ve adli psikologlara, psikiyatrlara ve kriminologlara sunmak ve kamu politikasına bir öneri getirmek için yazıldı.
+
+**Yapısı.** Bir giriş ve dört kısımdan oluşur, toplam 16 bölüm. Birinci kısım suçluları sınıflar (burada "bull terrier" köpek ırkı hayvan modeli olarak kullanılır); ikinci kısım genetik ve evrim arka planını; üçüncü kısım psikopatileri (birincil ve ikincil psikopati, korkusuzluk kuramı, Hare'in katkıları, ön beyin kuramları); dördüncü kısım sosyopatları, ırk sorusunu ve antisosyal kişiliğin önlenmesini ele alır.
+
+**Ana fikirler.**
+- **Antisosyal kişilikler bir "aile"dir.** Lykken psikopati, sosyopati ve antisosyal kişilik bozukluğunu aynı geniş grubun farklı türleri olarak görür. Ortak payda, vicdanın ve toplum kurallarına uymanın gelişmemesidir; farkı nedenler yaratır.
+- **Korkusuzluk kuramı.** Birincil psikopatın temelinde doğuştan düşük korku vardır. Ceza beklentisi onu kaygılandırmaz, bu yüzden çocukken ceza yoluyla öğrenme zayıf kalır. Lykken bu kuramın araştırmalarda "tutarlı ve etkileyici" destek bulduğunu yazar.
+- **Bull terrier benzetmesi.** Gözü pek, inatçı bir köpek ırkı doğru eğitimle sadık bir dost, yanlış eğitimle tehlikeli olur. Lykken'e göre korkusuz mizaçlı çocuk da böyledir: aynı mizaç kahraman da, suçlu da çıkarabilir.
+- **Sosyopat: ebeveynliğin ürünü.** Mizacı ortalama olduğu hâlde, ilgisiz ya da yetersiz anne babayla büyüdüğü için toplumsallaşamayan kişi sosyopattır. Lykken bu grubun sayıca çok daha büyük olduğunu ve suçun aile içinde hem genetik hem çevresel yolla aktarıldığını savunur.
+- **Önleme.** Son bölüm, antisosyal kişiliğin ebeveynliği iyileştirerek önlenebileceğini savunur. Lykken başka yazılarında anne baba olmak için lisans verilmesini önermişti; bu öneri kitabın politika tartışmasına da yansır (kitaptaki ayrıntısı doğrulanmadı).
+
+**Bilimsel dayanağı.** Kuram, ikiz çalışmalarına, psikofizyoloji deneylerine (deri iletkenliği, kaçınma öğrenmesi) ve suç istatistiklerine dayanır. Korkusuzluk fikri sonraki araştırmalarda büyük ölçüde yaşadı: Üçlü Model'in "gözü peklik" boyutu ve PPI ölçeğindeki "korkusuz baskınlık" bu kuramın torunlarıdır. Lykken'in bölümü Patrick'in el kitabının 2018 baskısında da yer alır. Sosyopatların ebeveynlik kaynaklı olduğu iddiası ise daha zayıf kanıtlıdır. [araştırma]
+
+**Karanlık psikoloji haritasındaki yeri.** Rehberdeki birincil ve ikincil psikopati ayrımının ve Üçlü Model'deki gözü pekliğin kuramsal kaynağıdır. Duygusuz-soğuk özellikler tartışmasına da zemin hazırlar. Bu listede Blair'in amigdala modeli ve Viding'in gelişimsel yaklaşımı Lykken'in sorusunu sürdürür; Cleckley ve Hare çizgisiyle (önceki raporda Babiak ve Hare) doğrudan konuşur. Greene'in "Cesaretle harekete geç" yasası (28. yasa), Lykken'in korkusuz mizacının toplumsal olarak ödüllendirilebileceği fikrinin popüler yansımasıdır; Lykken ise aynı özelliğin terbiye edilmezse yıkıcı olduğunu hatırlatır.
+
+**Eleştiri ve sınırlar.** Kitabın "Irk Sorusu" bölümü ve tek ebeveynli aileleri suçun kaynağı gösteren tonu tartışma yarattı; kitabı öven tanıtımlardan biri ırkçı çizgisiyle bilinen *American Renaissance* dergisinden gelir. Anne baba lisansı önerisi etik ve pratik nedenlerle geniş çapta reddedildi. Bir psikiyatri dergisindeki okur mektubu kitabın politika önerilerini eksik bulur (American Journal of Psychiatry, 1999). Ebeveynlik ile genetiği ayırmak, Lykken'in kendi ikiz verileri açısından bile zordur.
+
+**Kimler okumalı.** Psikopati ile sosyopati arasındaki farkı akademik düzeyde öğrenmek isteyen okurlar için klasik bir metindir. Irk ve aile yapısıyla ilgili bölümleri dönemin tartışmalı görüşleri olarak eleştirel okunmalıdır.
+
+---
+
+## J. Reid Meloy — The Psychopathic Mind (The Psychopathic Mind: Origins, Dynamics, and Treatment, 1988)
+
+**Künye.** J. Reid Meloy Amerikalı adli psikologdur (forensic psychologist); San Diego'daki California Üniversitesi Tıp Fakültesi'nde psikiyatri klinik profesörlüğü yapmış, San Diego Psikanaliz Merkezi'nde öğretim üyesi olmuş, 2002'den beri FBI'ın Davranış Analizi Birimi'ne danışmanlık yapmaktadır. Kitabı yazdığı yıllarda San Diego İlçe Tutukevi'ndeki psikiyatrik güvenlik biriminin yöneticisiydi (1982'den itibaren). Dili İngilizce, yayınevi Jason Aronson. İlk yayın 1988. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: 474 sayfa.
+
+**Bir cümleyle.** Psikopati, aşırı içgüdüsel saldırganlık ve bağ kuramama üzerine kurulmuş, büyüklenmeci bir benlik yapısıyla örgütlenmiş bir gelişim bozukluğudur ve bu iç yapı anlaşılmadan değerlendirme ve tedavi yapılamaz.
+
+**Bağlam.** 1980'lerde psikopati araştırması iki kola ayrılmıştı: Hare'in ölçüme dayalı deneysel çizgisi ve Kernberg gibi psikanalistlerin kişilik örgütlenmesi kuramları. Meloy, tutukevinde ve adli klinikte gördüğü hastalardan yola çıkarak bu ikisini birleştirmek istedi. Kitap, adli ortamda psikopatik kişileri değerlendiren ve tedavi eden klinisyenler için yazıldı.
+
+**Yapısı.** Dört kısım ve üç ek vardır. "Kökenler" kısmı dinamik, biyolojik ve gelişimsel kökenleri; "Yapı ve Dinamikler" kısmı duygusal yaşamı, bilinçdışı savunmaları ve bilinçli seçimi; "Şiddet, Psikoz ve İlişkili Durumlar" kısmı saldırganlık türlerini ve psikozla ilişkiyi; "Tedavi" kısmı terapide karşılaşılan sorunları ele alır. Eklerde iki vaka incelemesi ve Rorschach testiyle psikopati değerlendirmesi yer alır.
+
+**Ana fikirler.**
+- **Bağ kuramamak.** Meloy'a göre psikopatik gelişimin merkezinde erken bağlanmanın (attachment) kurulamaması vardır. Başkaları içselleştirilmiş, sevilen "iç nesneler" olmaz; kişi insanlarla duygusal değil işlevsel ilişki kurar.
+- **Büyüklenmeci benlik yapısı.** Psikanalist Otto Kernberg'in narsisizm kuramından gelen bu kavram (bağlantı bellekten), kişinin hem ideal hem gerçek benliğini abartılı bir "ben"de birleştirmesidir. Psikopatiyi narsisistik kişilik örgütlenmesinin en ağır ucuna yerleştirir; bu da karanlık üçlüdeki narsisizm–psikopati yakınlığını açıklar.
+- **Savunmalar ve denetim.** Kitap yansıtmalı özdeşim (projective identification: kendi istenmeyen duygusunu karşıdakine yükleyip onu buna göre davranmaya itmek), bölme (splitting), çözülme ve "nesne denetimi" gibi savunmaları anlatır. Nesne denetimi, karşıdaki kişiyi küçümseyerek ve yöneterek kendi kırılganlığından kaçmaktır.
+- **Yırtıcı ve duygusal şiddet.** Meloy, öfkeyle patlayan duygusal (affective) şiddet ile planlı, sakin ve amaca yönelik yırtıcı (predatory) şiddeti ayırır. Psikopatik kişilerde yırtıcı şiddetin ağır bastığını savunur (bu ayrımın kitaptaki ayrıntısı bellekten, doğrulanmadı).
+- **Tedavinin sınırları.** Terapist, hastanın aldatmasına, küçümsemesine ve kendi içinde uyanan korku ya da kızgınlığa karşı uyanık olmalıdır. Meloy ağır psikopatik özellikli kişilerde psikoterapinin büyük ölçüde etkisiz, hatta zararlı olabileceğine dikkat çeker.
+
+**Bilimsel dayanağı.** Kitap ağırlıkla klinik gözleme, vaka analizine ve psikanalitik kurama dayanır; dönemin biyolojik ve deneysel bulgularını da (Hare'in çalışmaları dahil) kullanır. Rorschach verileri ise kendi klinik örneklemlerinden gelir. Psikanalitik kavramların çoğu deneysel olarak sınanması güç kavramlardır. [klinik]
+
+**Karanlık psikoloji haritasındaki yeri.** Rehberdeki büyüklenmeci narsisizm, psikopati ve birincil psikopati kavramlarına derinlemesine bir iç dünya tablosu ekler. Yansıtma ve "nesne denetimi" anlatımı, popüler kitaplarda anlatılan yansıtma, gaslighting ve zorlayıcı denetim taktiklerinin klinik arka planı olarak okunabilir. Bu listede Lykken ve Blair'in deneysel yaklaşımına psikodinamik bir karşılıktır; George K. Simon'un *In Sheep's Clothing*'i (önceki raporda) ise aynı klinik gözlemleri psikanalizi reddederek, davranış odaklı bir dille anlatır.
+
+**Eleştiri ve sınırlar.** Kitap British Journal of Psychiatry'de incelendi (Tantum, 1989; içerik görülmedi). Eleştirilerin odağı yöntemdir: psikanalitik açıklamalar sınanabilir değildir ve Rorschach testinin psikopatiyi ayırt etme gücü sonradan ciddi biçimde sorgulandı (Wood, Lilienfeld ve arkadaşları, 2000'ler; bellekten). Kitap 1988'den beri yenilenmediği için Üçlü Model ve beyin görüntüleme dönemini içermez. Meloy'un kendisi daha sonra takip (stalking) ve tehdit değerlendirmesi alanlarında önde gelen bir uzman oldu.
+
+**Kimler okumalı.** Adli psikoloji ve psikiyatri alanında çalışanlar ile psikodinamik kurama ilgi duyan okurlar için yazılmıştır; genel okur için yoğun ve teknik bir metindir. Ağır şiddet vakaları içerdiği için şiddet görmüş okurları zorlayabilir.
+
+---
+
+## Essi Viding — Psychopathy: A Very Short Introduction (Psychopathy: A Very Short Introduction, 2019)
+
+**Künye.** Essi Viding Finlandiya doğumlu bir gelişimsel psikopatoloji araştırmacısıdır; University College London'da (UCL) profesördür ve Gelişimsel Risk ve Dayanıklılık Birimi'nin eş yöneticisidir. 2020'de İngiliz Akademisi üyeliğine seçildi. Kitabın dili İngilizce, yayınevi Oxford University Press; dizinin 618. kitabıdır. İlk yayın Ekim 2019. Türkçe baskısı kitapçı kataloglarında görünmüyor. Hacim: cep boyu, yaklaşık 144–160 sayfa (kaynaklara göre değişiyor).
+
+**Bir cümleyle.** Psikopati yaygın biçimde yanlış anlaşılır: çoğu psikopatik birey katil değildir, çoğu şiddet suçlusu da psikopatik değildir; bu özellikler çocuklukta tanınabilir, genetik ve çevresel kökenleri vardır ve önleme mümkündür.
+
+**Bağlam.** Viding, çocuklarda duygusuz-soğuk özellikler (callous-unemotional traits: suçluluk ve empati eksikliği, duygularını sığ yaşama) üzerine ikiz ve beyin görüntüleme çalışmalarıyla tanınır. Psikopati filmler ve haberlerle popülerleşmişken, mit ile olguyu ayıran kısa ve güvenilir bir giriş yazmak için bu kitabı hazırladı. Hedef okur alana yeni giren öğrenci ve meraklı genel okurdur.
+
+**Yapısı.** Kısa bölümler hâlinde ilerler: psikopatinin nasıl tanımlandığı ve ölçüldüğü; empati eksikliğinin açıklanması (ikinci bölüm: başkasının sıkıntısını tanıma, ahlaki karar, suçluluk, otizmle fark, beyin görüntüleme); genetik ve çevre; beyin gelişimi; önleme ve tedavi. Bölüm adlarının tamamı doğrulanmadı; ikinci bölümün adı "Explaining the lack of empathy"dir.
+
+**Ana fikirler.**
+- **Antisosyal davranış ile psikopati aynı şey değildir.** Davranış sorunları olan çocukların yalnızca bir kısmında duygusuz-soğuk özellikler vardır. Bu grup, sorunları kaygı, öfke ya da zor koşullardan kaynaklanan çocuklardan farklı bir yolda ilerler ve yetişkinlikte psikopati riski daha yüksektir.
+- **Empati iki parçalıdır.** Psikopatik özellikli bireyler başkasının ne düşündüğünü çoğu zaman iyi anlar (bilişsel empati), ama acısını paylaşmaz (duygusal yankı). Viding bunu otizmle karşılaştırır: otizmde zorluk daha çok anlamaktadır, paylaşmakta değil.
+- **Kalıtım kader değildir.** İkiz çalışmaları duygusuz-soğuk özelliklerin önemli ölçüde kalıtsal olduğunu gösterir (Viding ve arkadaşları, 2005; bellekten). Ama kalıtsallık, genlerin davranışı doğrudan belirlediği anlamına gelmez; genler çocuğun çevreye nasıl tepki verdiğini ve çevrenin ona nasıl davrandığını etkiler.
+- **Beyin farklılıkları.** Bu çocuklarda başkasının korkusuna amigdala tepkisinin daha zayıf olduğu görüntüleme çalışmalarıyla gösterilmiştir. Viding bunu Blair'in modeliyle uyumlu yorumlar, ama tek nedene indirgemez.
+- **Önleme ve sıcak ebeveynlik.** Ceza ağırlıklı yaklaşımlar bu çocuklarda daha az işe yarar; ödül ve sıcaklık odaklı ebeveynlik programları daha umut vericidir. Erken müdahale yetişkinlikteki "tedavi edilemezlik" kanısını sorgular.
+
+**Bilimsel dayanağı.** Kitap, yazarın kendi ikiz ve görüntüleme çalışmaları dahil hakemli araştırmaların özetidir. Viding, Psikopatinin Bilimsel İncelenmesi Derneği'nin (SSSP), gazeteci Jon Ronson'un *The Psychopath Test* kitabındaki bazı görüşmelerin abartılı ya da kurgusal olduğunu ve kitabın ciddi bir bozukluğu hafife aldığını söyleyen açıklamasını imzalayanlardandır (Vikipedi). Bu, kitabın popüler anlatıya karşı dikkatli tavrını açıklar. [araştırma]
+
+**Karanlık psikoloji haritasındaki yeri.** Rehberdeki duygusuz-soğuk özellikler, birincil ve ikincil psikopati ve Üçlü Model'deki acımasızlık kavramlarının en kolay okunur kaynağıdır. Viding, Patrick'in el kitabındaki duygusuz-soğuk özellikler bölümünün de yazarlarındandır; bu listede Blair'in amigdala modelini ve Lykken'in korkusuzluk kuramını çocukluk dönemine taşır. Babiak ve Hare'in *Snakes in Suits*'i (önceki raporda) gibi yetişkin odaklı anlatılara gelişimsel bir arka plan sağlar.
+
+**Eleştiri ve sınırlar.** Uzman bir incelemeye rastlanmadı; okur yorumları kitabı açık ve bilgilendirici bulur, bazıları fazla kısa ve akademik bulur. Kısa bir giriş olduğu için tartışmalı konular (örneğin çocuğa "psikopati riski" etiketi koymanın etik sakıncaları, kadın ve farklı kültürlerdeki örneklemler) sınırlı yer alır. Başarılı psikopati ve iş dünyası gibi popüler konulara pek girmez.
+
+**Kimler okumalı.** Psikopati üzerine bilimsel okumaya buradan başlamak isteyen herkes için en uygun kitaptır; kısa ve yalındır. Çocuğunda davranış sorunu gören anne babalar için ufuk açıcı olabilir, ama kitap tanı aracı değildir; endişe varsa çocuk ruh sağlığı uzmanına başvurulmalıdır.
+
+---
+
+## Stanton E. Samenow — Suçlular Nasıl Düşünür? (Inside the Criminal Mind, 1984)
+
+**Künye.** Stanton E. Samenow (1941–2023) Amerikalı klinik psikologdu. 1970–1978 arasında Washington'daki St. Elizabeths Hastanesi'nde psikiyatrist Samuel Yochelson'la birlikte suç davranışı araştırma programında çalıştı, sonra Virginia'da adli psikoloji alanında özel muayenehane açtı; ABD Başkanlığı'nın Suç Mağdurları Görev Gücü'nde de yer aldı. Kitabın dili İngilizce, ilk yayınevi Times Books, ilk yayın 1984. Gözden geçirilmiş baskıları 2004 (Crown) ve 2014'te çıktı. Türkçe baskı: *Suçlular Nasıl Düşünür?*, yayınevi katalogda belirtilmemiş (kitapçı kataloğu). Hacim: ilk baskı 285 sayfa.
+
+**Bir cümleyle.** Suçu kötü mahalleler, yetersiz anne babalar, televizyon ya da işsizlik değil suçlular yaratır; suç, belirli düşünce kalıplarına sahip insanların bilinçli seçimidir ve ancak bu düşünce kalıpları değiştirilerek azaltılabilir.
+
+**Bağlam.** Samenow ile Yochelson'un 17 yıl süren klinik çalışmasının bulguları üç ciltlik akademik bir dizi olan *The Criminal Personality*'de (1976–1986) yayımlanmıştı. Yochelson 1976'da öldükten sonra Samenow bu bulguları geniş okura anlatmak için *Inside the Criminal Mind*'ı yazdı (ölüm tarihi bellekten). Kitap, ABD'de suçun yoksulluk ve toplumsal koşullarla açıklandığı bir dönemde bu açıklamaya karşı çıktı ve yazarını tanınmış bir isim yaptı.
+
+**Yapısı.** İlk baskıda 14 bölüm vardır (bir öğrenci incelemesine göre). İlk dokuz bölüm vakalarla yaygın "mitleri" çürütür: anne babalar, akran baskısı, okul, iş, insanları piyon gibi kullanmak, psikiyatristleri kandırmak ve hapis. Onuncu bölüm suçlunun kendini "düzgün insan" olarak görmesini anlatır; son bölümler Yochelson'un değişim programını tanıtır. 2004 baskısına terörizm üzerine kısa bir bölüm eklendi.
+
+**Ana fikirler.**
+- **Suç bir seçimdir.** Samenow'a göre suç işleyen kişi doğruyu yanlıştan ayırır ve risk hesabı yapar. Bir şeyi "yanlış" sayması ahlaki nedenle değil, yakalanma riski yüksek olduğu içindir.
+- **Düşünce hataları.** Kitabın en etkili kavramı, suçlunun dünyaya bakışındaki tekrarlayan "düşünce hatalarıdır" (thinking errors): kendini kurban görme, sorumluluk almama, başkalarını nesne gibi görme, güveni istismar etme, her şeye hakkı olduğuna inanma. Yochelson ve Samenow'un listesi elliyi aşar (sayı bellekten, doğrulanmadı).
+- **İnsanlar piyondur.** Suçlu ilişkileri kontrol ve fetih üzerinden yaşar; aileyi, öğretmeni ve terapisti kendi amacına göre yönlendirir. Samenow, sorunlu çocuğun anne babayı da manipüle ettiğini, hatta aileyi kendi davranışının bahanesi hâline getirdiğini savunur.
+- **Kendini iyi insan sanmak.** Suçlu kendini temelde düzgün biri olarak görür; Samenow ona göre vicdanın var olduğunu ama "tam çalışmadığını", suç anında bastırıldığını yazar.
+- **180 derecelik değişim.** Yochelson'un yöntemi, kişiye düşüncelerini her gün raporlatıp hataları yüzüne söyleyerek sorumluluk ve suçluluk duygusu kazandırmayı hedefler. Bu yaklaşım, sonradan cezaevlerinde kullanılan bilişsel-davranışçı programların öncüllerinden sayılır (bellekten).
+
+**Bilimsel dayanağı.** Kitap neredeyse tamamen klinik deneyime ve vaka anlatımına dayanır; istatistik ya da karşılaştırmalı araştırma sunmaz. Yochelson ve Samenow'un özgün çalışmasında kontrol grubu yoktu ve örneklem St. Elizabeths'teki seçilmiş hastalardan oluşuyordu (bellekten). Değişim programı kitap yazıldığında henüz sınanmamıştı. [klinik]
+
+**Karanlık psikoloji haritasındaki yeri.** Rehberdeki ahlaki bağlantısızlık, kurban rolü, suçluluk yükleme ve DARVO (inkâr et, saldır, kurban ile faili yer değiştir) taktiklerini suç bağlamında anlatır: kişi zarar verirken kendini mağdur ve haklı görür. "İnsanları piyon gibi kullanmak", George K. Simon'un *In Sheep's Clothing*'iyle (önceki raporda) en yakın akrabadır; Simon da sorunu bilinçli seçim ve sorumluluktan kaçış olarak görür. Bu listede Lykken'in sosyopatı ebeveynliğe bağlayan görüşüne doğrudan karşı çıkar. Greene'in insanları amaç için araç gören dünyası (48 Laws of Power, önceki raporda) Samenow'un suçlu tablosuna benzer.
+
+**Eleştiri ve sınırlar.** Kirkus ilk baskıyı "abartılı, yüzeysel genellemeler" diye eleştirdi; Publishers Weekly 2004 baskısını "iddiada uzun, kanıtta kısa" buldu ve desteğin yalnızca anekdot olduğunu yazdı. ABD Şartlı Tahliye Komisyonu üyesi O. J. Keller önceki çalışmayı "sansasyonel" ve "basit" bulmuştu (1980). Bütün suçluları "birbirinin karbon kopyası" sayması, psikopatik ve psikopatik olmayan suçlular arasındaki farkları siler; biyolojik ve gelişimsel bulguları yok sayar.
+
+**Kimler okumalı.** Ceza adaleti, denetimli serbestlik ya da sorunlu gençlerle çalışanlar için sorumluluk odaklı bir bakış sunar. Bilimsel bir kaynak değil, güçlü bir klinik görüştür; herkesi tek kalıba sokan tonu eleştirel okunmalıdır.
