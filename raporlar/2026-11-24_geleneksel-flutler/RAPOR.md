@@ -1,30 +1,39 @@
 # Geleneksel flütler: türleri ve öğrenme kolaylığı sıralaması
 
-24 Kasım 2026 · Seviye M · 47 çalgı, 7 aile
+24 Kasım 2026 · Seviye M · 50 çalgı, 7 aile
 
 ## Kısa yanıt
 
-- Flütleri en iyi ayıran şey üfleme biçimidir ve öğrenme kolaylığını da en çok o belirler. Kolaydan zora: **düdüklü → kap → yan ve pan → çentikli dikey → çentiksiz, kenardan üflenen**.
-- Sevdiğin **flogera (floyera) ve dilsiz kaval en zor ailededir**: 47 çalgı içinde 40. ve 44. sıradalar. İlk temiz sesi çıkarmak haftalar sürebilir.
+- Flütleri en iyi ayıran şey üfleme biçimidir ve öğrenme kolaylığını da en çok o belirler. Kolaydan zora: **düdüklü → okarina → doğuşken, pan ve yan flütler → çentikli dikey → çentiksiz, kenardan üflenen**.
+- Sevdiğin **flogera (floyera) ve dilsiz kaval en zor ailededir**; sıralamada son on içindeler. İlk temiz ses haftalar sürebilir (bu süre ney için yazılmış; kavala biz taşıdık).
 - En kolay başlangıçlar blok flüt, tin whistle, okarina ve Kızılderili flütüdür.
-- Senin zevkine en yakın kolay çalgı **dilli kaval** (8. sıra). Kavalın düdüklü kardeşidir ve delik düzeni dilsiz kavalla aynıdır (7 ön + 1 arka).
-- Önerim: dilli kavalla ezgi öğren, aynı anda plastik dilsiz kavalda ses çalış, ses oturunca floyeraya geç.
+- Senin zevkine en yakın kolay çalgılar ilk ondadır: **dilli kaval** (kavalın düdüklü kardeşi) ve **souravli** (Yunan düdüklü çoban flütü).
+- Önerim: bir öğretmenle tek ders al, sonra dilli kavalla ezgi öğrenirken dilsiz kavalda ses çalış. Ses oturunca floyeraya geç.
 
 ## Ne yapmalıyım
 
 1. **Satın alırken "dilli mi, dilsiz mi?" diye sor.** Türkiye'de "kaval" adı iki ayrı çalgıya verilir. Dilli kavalın ağızlığında düdük vardır; üfleyince ses çıkar. Dilsiz kavalda düdük yoktur; sesi tamamen dudak ve nefes yapar.
-2. **Başlangıç seti.** Kasım 2026'da akakce'de görülen ilan fiyatları:
+2. **Almadan önce bir öğretmenle tek ders al.** Dudak konumunu yerinde görmek, hangi boyu ve malzemeyi alacağını da netleştirir (bizim değerlendirmemiz). MEB'in kaval modülü de ilk denemelerde ses çıkarmanın zor olabileceğini söyler; sabır ve dudak çalışması önerir.
+3. **Başlangıç seti.** Kasım 2026'da akakce'de görülen ilan fiyatları:
    - ahşap dilli kaval: 850–1.750 TL
-   - plastik dilsiz kaval (Mi, 53 cm): 640–720 TL
-   - ikisi birlikte: yaklaşık 1.500–2.500 TL
-3. **İlk ses için ücretsiz kaynaklar:**
-   - MEB'in kaval modülü (tymm.meb.gov.tr)
-   - YouTube'da Türkçe "Kaval Dersi 1" videoları: Zafer Küçük'ün "Üfleme çalışması" ve Mehmet Kahramanoğulları'nın "Kavaldan Ses Çıkarmak"
+   - dilsiz kaval: plastik (Mi, 53 cm) 640–720 TL, ahşap 1.350–1.740 TL
    
-   MEB modülü, ilk denemelerde ses çıkarmanın zor olabileceğini söyler; sabır ve dudak çalışması önerir. Mümkünse bir öğretmenle tek ders al; dudak konumunu yerinde görmek işi hızlandırır (bizim değerlendirmemiz).
-4. **Floyerayı kaval sesi oturduktan sonra al.** Üfleme ilkesi kavalla aynıdır, parmaklaması daha basittir (genelde 7 ön delik). Yurt dışından alırken düdüksüz olduğunu teyit et. Bir satıcı sitesi floyerayı "düdüklü" diye listeliyor; bu büyük olasılıkla yanlış sınıflama, ama yanlış çalgı gelebilir.
-5. **Ney ilgini çekerse:** plastik öğrenci neyi 387 TL'den başlıyor. Belediye ve Halk Eğitim Merkezi (HEM) ney kursları var. Örnekler: Çubuk HEM, Zeytinburnu 2023 kataloğu, Diyarbakır Büyükşehir duyurusu. YouTube'da NeyzenTV ve Selman Benlioğlu'nun "Ney Dersleri 1" videosu var. Ney, makam komaları yüzünden teknik tavanı en yüksek çalgıdır.
-6. **Hızlı keyif istersen:** tin whistle ya da okarina al. Türkiye'deki fiyatlar: Clarke Sweetone D yaklaşık 980–1.950 TL, okarina 500–1.150 TL. İkisinde de ilk gün ezgi çalınır.
+   Plastik model ucuz ve dayanıklı bir deneme çalgısıdır. İlk sesi kolaylaştırdığına dair kanıt yok (3. bölüm).
+4. **Dilli kavaldan dilsiz kavala ne taşınır?**
+   - İkisinde de 7 ön + 1 arka delik var. El yerleşimi ve parmak sırası büyük ölçüde taşınır (bizim değerlendirmemiz; iki çalgının boy ve delik aralıkları karşılaştırılmadı).
+   - Dudak, ses ve oktav seçimi taşınmaz. Wikipedia'ya göre kavalda hangi oktavda çalındığını çoğunlukla hava akımı, kısmen de dudak konumu belirler.
+   
+   Yani dilli kaval ezgi dağarcığı kazandırır, dilsiz kavalın asıl zorluğunu ise ayrıca çalışman gerekir.
+5. **Ücretsiz dersler:**
+   - MEB kaval modülü (tymm.meb.gov.tr)
+   - YouTube'da Türkçe "Kaval Dersi 1" videoları: Zafer Küçük'ün "Üfleme çalışması" ve Mehmet Kahramanoğulları'nın "Kavaldan Ses Çıkarmak"
+6. **Floyera için:** kaval sesi oturduktan sonra al. Üfleme ilkesi aynı, parmaklaması daha basit (genelde 7 ön delik). "Floyera" adı bazen düdüklü bir tip için de kullanılıyor olabilir (bir satıcı ve bir blog öyle diyor). Yunanistan'ın düdüklü çoban flütü ise souravli adıyla bilinir. Hangisini aldığını satıcıya sor.
+7. **Ney ilgini çekerse:**
+   - Plastik öğrenci neyi 387 TL'den başlıyor.
+   - Belediye ve Halk Eğitim Merkezi (HEM) kursları var; örnekler: Çubuk HEM, Zeytinburnu 2023 kataloğu, Diyarbakır Büyükşehir duyurusu.
+   - YouTube'da NeyzenTV ve Selman Benlioğlu'nun "Ney Dersleri 1" videosu var.
+   - Ney, makam komaları yüzünden teknik tavanı en yüksek çalgıdır.
+8. **Hızlı keyif istersen:** tin whistle ya da okarina al; ikisinde de ilk gün ezgi çalınır. Türkiye'deki fiyatlar: Clarke Sweetone D yaklaşık 980–1.950 TL, okarina 500–1.150 TL.
 
 ## 1. Flüt aileleri
 
@@ -38,9 +47,10 @@ Ağızlıkta jeti hazırlayan bir kanal var (İngilizce *fipple* ya da *duct*). 
 - **Tin whistle:** İrlanda; 6 delik, 2 oktav.
 - **Kızılderili flütü:** iki hava odası var; pentatonik minör dizisi hazır gelir (pentatonik: oktavda 5 nota).
 - **Dilli kaval:** Türkiye ve Azerbaycan; 7 ön + 1 arka delik, erik, abanoz ya da kayısı ağacından. İkinci oktav üfleme gücüyle alınır.
+- **Souravli:** Yunanistan; kamıştan ya da ağaçtan, 2 oktav. Girit'te thiamboli adıyla bilinir.
 - **Frula:** Balkan; 6 delikli küçük ahşap flüt.
 - **Fluier:** Romanya; en yaygını 6 delikli düdüklü tiptir.
-- **Sopilka** (Ukrayna, 6–10 delik), **shvi** (Ermenistan, 7+1 delik) ve **salamuri** (Gürcistan, 8 ön delik).
+- **Sopilka** (Ukrayna, 6–10 delik), **shvi** (Ermenistan, 7+1 delik), **salamuri** (Gürcistan, 8 ön delik).
 - **Txistu:** Bask; 3 delikli, tek elle çalınır, öbür el davul çalar.
 - **Pinkillo** (And), **suling** (Endonezya, 4 ya da 6 delik).
 - **Dvoyanka:** Bulgaristan; tek tahtada iki boru.
@@ -68,16 +78,21 @@ Yatay tutulur, jeti dudak kurar.
 - **Nohkan:** Japonya; borunun içinde 2–3 mm'lik bir daralma (nodo) var ve temel perde her flütte farklıdır.
 - **Daegeum:** Kore; büyük ve zarlıdır. Perdesi sabittir, topluluktaki öbür çalgılar ona göre akort edilir. Küçük kardeşi sogeum zarsızdır.
 
-Türk halk müziğinin üflemeli çalgı listelerinde yan flüt geçmiyor. Yan flüt biçimli ney Orta Asya'da var; kaynakta yaklaşık 1872 tarihli bir Rus Türkistanı örneği gösteriliyor.
+Bulduğumuz Türk halk müziği üflemeli çalgı listesinde yan flüt geçmiyor; yine de yerel bir istisna tamamen elenmedi. Yan flüt biçimli ney Orta Asya'da var; kaynakta yaklaşık 1872 tarihli bir Rus Türkistanı örneği gösteriliyor.
 
 ### D. Çentikli ve kesik ağızlı dikey flütler
 
-Dikey tutulur. Üst uçtaki çentik ya da eğik kesik kenar jeti yarar; ses çıkarmak düz kenardan biraz kolaydır (bizim değerlendirmemiz; bunu doğrudan ölçen kaynak bulunamadı).
+Dikey tutulur. Üst uçtaki çentik jeti yarar; ses çıkarmak düz kenardan biraz kolaydır (bizim değerlendirmemiz; bunu doğrudan ölçen kaynak bulunamadı).
 
 - **Quena:** And; eliptik çentik, 6 + 1 delik, G4–A6 aralığı, üst sesleri zor. Büyük ve pes kardeşinin adı quenacho.
 - **Xiao:** Çin; geleneksel olanı 6, modernlerin çoğu 8 deliklidir. Kısa xiao daha fazla nefes kontrolü istediği için daha zordur.
 - **Danso:** Kore; 4 + 1 delik, pentatonik, 2 oktav. Bir satıcı "görece kolay" diyor.
-- **Shakuhachi:** Japonya; 4 + 1 delik, iki tam oktav. Perde baş ve çene açısıyla bükülür. Japonca bir deyim var: "Baş sallayarak ses çıkarabilmek üç yıl, güzel tını sekiz yıl sürer." Bu geleneksel bir söz; ölçülmüş bir süre değil.
+- **Shakuhachi:** Japonya; 4 + 1 delik, iki tam oktav. Perde baş ve çene açısıyla bükülür.
+
+Shakuhachi'ye bilerek dilsiz kavalla aynı ses puanını verdik, üç nedenle:
+- Ağzı derin bir çentik değil, eğik kesilmiş bir kenardır (utaguchi).
+- UNSW onu acemi için zor bir çalgı olarak anar.
+- Japonca bir deyim var: "Baş sallayarak ses çıkarabilmek üç yıl, güzel tını sekiz yıl sürer." Bu geleneksel bir söz; ölçülmüş bir süre değil.
 
 ### E. Çentiksiz, kenardan üflenen dikey flütler: kaval ailesi
 
@@ -85,21 +100,23 @@ Ne düdük ne çentik vardır. İnceltilmiş düz kenara eğik üflenir ve jetin
 
 - **Dilsiz kaval:** Türkiye ve Balkanlar; 7 ön + 1 arka delik. Alt uçta çalınmayan 4 delik daha var; Bulgarlar bunlara "şeytan delikleri" der. Aralığı 2 oktav ve bir beşli. TRT topluluklarında komalı seslerin akort sorunu yarattığı ve bunun için bir delik ayar aparatı önerildiği yazılmış.
 - **Floyera / flogera:** Yunanistan; bambudan, genelde 7 delikli. Dar bir hava akımı açık ve keskin üst uca yöneltilir; kavalın kısa ve basit kuzenidir. Epir'deki uzun tipine tzamara denir.
+- **Bilûr:** Kürtlerin, özellikle Güneydoğu Anadolu'da çaldığı ahşap flüt. Yaklaşık 80 cm, üstte 7–8 delik ve altta başparmak deliği var; ağızlığı yoktur. Dengbêj ezgilerine eşlik eder.
 - **Ney:**
   - Türk neyinde 6 ön + 1 arka delik var. Ağza dayanan başpare, Pers neyine göre daha iyi kontrol sağlar.
   - Arap nayı ağızlıksız çalınır. İkinci oktava geçiş zahmetlidir.
+- **Kawala:** Mısır ve Arap dünyası; neye benzer, ama 6 deliklidir ve arka deliği yoktur. Çoban çalgısı olarak doğmuştur.
 - **Kargı düdüğü:** uzun kamış flüt. Türkiye'deki yöresine dair güvenilir kaynak bulunamadı.
 - **Blul** (Ermenistan; eğik tutulur), **kurai** (Başkurt ve Tatar; 2–7 delik, 3 oktav).
 - **Tsuur:** Moğol; diş, dil ve dudakla çalınır, yanında boğaz sesi söylenir.
 - **Choor** ve **Kazak sybyzgy'si:** Kazakçadaki "sybyzgy" tsuur benzeri bir çalgıdır. Kırgız sybyzgy'si ise yan flüttür.
-- **Washint:** Etiyopya; 4 delik, pentatonik.
+- **Washint:** Etiyopya; 4 delik, pentatonik. Sıralamada ailesinin önünde görünür, çünkü yalnızca 4 deliği var. İlk ses engeli kavalla aynıdır.
 
 ### F. Kap flütleri
 
 Gövde boru değil, kapalı bir haznedir.
 
-- **Okarina:** İtalyan tipini 1853'te Giuseppe Donati icat etti. Ses kolay çıkar, ama perde nefes basıncına çok duyarlıdır; temiz akortla çalmak zordur.
-- **Xun:** Çin; kilden yapılır, en az 3 ön ve 2 arka deliği vardır. Yaklaşık 7.000 yıllıktır.
+- **Okarina:** İtalyan tipini 1853'te Giuseppe Donati icat etti. Düdüklüdür; ses kolay çıkar, ama perde nefes basıncına çok duyarlıdır, temiz akortla çalmak zordur.
+- **Xun:** Çin; kilden yapılır, en az 3 ön ve 2 arka deliği vardır, yaklaşık 7.000 yıllıktır. Düdüğü yoktur; üstteki deliğe dudakla üflenir (bu oturumda doğrulanmadı). Bu yüzden okarinadan zordur.
 
 ### G. Pan flütleri
 
@@ -133,57 +150,69 @@ Her boru tek nota verir; borunun açık ucuna üflenir.
 
 | # | Çalgı | Aile | Puan | Not |
 |---|---|---|---|---|
-| 1 | Blok flüt | Düdüklü | 1,2 | Her yerde bulunur |
-| 2 | Tin whistle | Düdüklü | 1,3 | 6 delik |
-| 3 | Okarina | Kap | 1,4 | Ses kolay, akort zor |
-| 4 | Kızılderili flütü | Düdüklü | 1,5 | Pentatonik hazır |
-| 5 | Fluier (Romanya) | Düdüklü | 1,7 | 6 delik |
-| 6 | Frula | Düdüklü | 1,7 | Balkan |
-| 7 | Sopilka | Düdüklü | 1,7 | Ukrayna |
-| **8** | **Dilli kaval** | Düdüklü | **1,9** | **Kavala giriş kapısı** |
-| 9 | Shvi | Düdüklü | 2,1 | Ermenistan |
-| 10 | Txistu / galoubet | Düdüklü | 2,4 | 3 delik, tek el |
-| 11 | Pinkillo | Düdüklü | 2,5 | And |
-| 12 | Salamuri | Düdüklü | 2,7 | Gürcistan |
-| 13 | Suling | Düdüklü | 2,7 | Endonezya |
-| 14 | Kuvytsi | Pan | 2,8 | Ukrayna |
-| 15 | Xun | Kap | 2,8 | Çin, kil |
-| 16 | Dvoyanka | Düdüklü | 2,9 | Çift boru |
-| 17 | Koncovka | Doğuşken | 2,9 | Deliksiz |
-| 18 | Seljefløyte | Doğuşken | 2,9 | Deliksiz |
-| 19 | Dizi | Yan | 2,9 | Zarlı |
-| 20 | Fife / pífano | Yan | 2,9 | 6 delik |
-| 21 | Siku / zampoña | Pan | 2,9 | İki sıra |
-| 22 | İrlanda flütü (anahtarsız) | Yan | 2,9 | Whistle parmaklaması |
-| 23 | Fujara | Doğuşken | 3,1 | 2 m, 3 delik |
-| 24 | Bansuri | Yan | 3,1 | Yarım delik |
-| 25 | Nai | Pan | 3,1 | Romanya |
-| 26 | Danso | Çentikli | 3,1 | 4+1 delik |
-| 27 | Miskal / müsikar | Pan | 3,2 | Bugün nadir |
-| 28 | Shinobue | Yan | 3,2 | Japonya |
-| 29 | Sogeum | Yan | 3,2 | Kore |
-| 30 | İrlanda flütü (anahtarlı) | Yan | 3,2 | Kromatik |
-| 31 | Ryuteki | Yan | 3,4 | Üst oktav kararsız |
-| 32 | Venu | Yan | 3,4 | 8 delik |
-| 33 | Quena / quenacho | Çentikli | 3,4 | Üst ses zor |
-| 34 | Xiao | Çentikli | 3,4 | Çin |
-| 35 | Washint | Kenar | 3,6 | 4 delik |
-| 36 | Daegeum | Yan | 3,9 | Büyük, zarlı |
-| 37 | Kurai | Kenar | 4,2 | 3 oktav |
-| 38 | Tsuur / choor | Kenar | 4,2 | Boğaz sesiyle |
-| 39 | Nohkan | Yan | 4,3 | Her flüt farklı |
-| **40** | **Floyera / flogera** | Kenar | **4,3** | **Kavalın kuzeni** |
-| 41 | Blul | Kenar | 4,4 | Ermenistan |
-| 42 | Kargı düdüğü | Kenar | 4,4 | Kaynak zayıf |
-| 43 | Tilinkó / tilinca | Doğuşken | 4,4 | Deliksiz, düdüksüz |
-| **44** | **Dilsiz kaval** | Kenar | **4,5** | **2 oktav + beşli** |
-| 45 | Ney (Türk neyi) | Kenar | 4,5 | Makam komaları |
-| 46 | Shakuhachi | Çentikli | 4,5 | Perde baş açısıyla |
-| 47 | Tzamara | Kenar | 4,6 | Uzun kaval tipi |
+| 1 | Blok flüt | Düdüklü | 1,2 | Okul çalgısı, Türkiye'de her yerde |
+| 2 | Tin whistle (İrlanda düdüğü) | Düdüklü | 1,3 | 6 delik; Türkiye'de birkaç mağazada |
+| 3 | Okarina | Kap | 1,4 | Ses kolay, temiz akort zor |
+| 4 | Kızılderili flütü | Düdüklü | 1,5 | Pentatonik hazır; Türkiye'de satıcı bulunamadı |
+| 5 | Fluier (Romanya) | Düdüklü | 1,7 | 6 delik; 'caval' adlı büyük tipi var |
+| 6 | Frula / svirala | Düdüklü | 1,7 | Balkan, 6 delik |
+| 7 | Sopilka (Ukrayna) | Düdüklü | 1,7 | 6-10 delik |
+| 8 | Souravli (Yunanistan) | Düdüklü | 1,8 | Yunan düdüklü çoban flütü, 2 oktav |
+| **9** | **Dilli kaval** | Düdüklü | **1,9** | Kavalın düdüklü kardeşi; 7+1 delik |
+| 10 | Shvi (Ermenistan) | Düdüklü | 2,1 | 7+1 delik |
+| 11 | Txistu / galoubet | Düdüklü | 2,4 | 3 delik, tek el; nota için aşırı üfleme |
+| 12 | Pinkillo (And) | Düdüklü | 2,5 | 6 delik |
+| 13 | Salamuri (Gürcistan) | Düdüklü | 2,7 | 8+1 delik |
+| 14 | Suling (Endonezya) | Düdüklü | 2,7 | Halka düdük, 4-6 delik |
+| 15 | Kuvytsi (Ukrayna) | Pan | 2,8 | Sınıflaması tartışmalı |
+| 16 | Xun (Çin) | Kap | 2,8 | Kil; düdüksüz |
+| 17 | Dvoyanka (Bulgaristan) | Düdüklü | 2,9 | Çift gövde, iki ses birden |
+| 18 | Koncovka (Slovakya) | Doğuşken | 2,9 | Deliksiz; nota nefes ve uçla seçilir |
+| 19 | Seljefløyte (Norveç) | Doğuşken | 2,9 | Deliksiz söğüt flütü |
+| 20 | Dizi (Çin) | Yan | 2,9 | Titreşen zar (dimo) bakımı ister |
+| 21 | Fife / pífano | Yan | 2,9 | 6 delik; 3. oktav zor |
+| 22 | Siku / zampoña (And) | Pan | 2,9 | İki sıra; geleneksel olarak iki kişi |
+| 23 | İrlanda flütü, anahtarsız | Yan | 2,9 | Parmaklar tin whistle ile aynı |
+| 24 | Fujara (Slovakya) | Doğuşken | 3,1 | ~1,6-2 m, 3 delik |
+| 25 | Bansuri (Hindistan) | Yan | 3,1 | Yarım delik; bas boylarda el açıklığı |
+| 26 | Nai (Romanya) | Pan | 3,1 | Kavisli; nota boyun hareketiyle |
+| 27 | Danso (Kore) | Çentikli | 3,1 | 4+1 delik, pentatonik |
+| 28 | Miskal / müsikar | Pan | 3,2 | Osmanlı pan flütü, bugün nadir |
+| 29 | Shinobue (Japonya) | Yan | 3,2 | Şenlik flütü |
+| 30 | Sogeum (Kore) | Yan | 3,2 | Daegeum'un küçüğü, zarsız |
+| 31 | İrlanda flütü, anahtarlı | Yan | 3,2 | Kromatik notalar anahtarla |
+| 32 | Ryuteki (Japonya) | Yan | 3,4 | Üst oktav kararsız |
+| 33 | Venu (Güney Hindistan) | Yan | 3,4 | 8 delik, Karnatik süslemeler |
+| 34 | Quena / quenacho (And) | Çentikli | 3,4 | Eliptik çentik; üst ses zor |
+| 35 | Xiao (Çin) | Çentikli | 3,4 | Kısa xiao daha zor |
+| 36 | Washint (Etiyopya) | Kenar | 3,6 | 4 delik, pentatonik |
+| 37 | Daegeum (Kore) | Yan | 3,9 | Büyük, zarlı |
+| 38 | Bilûr (Kürt, Güneydoğu Anadolu) | Kenar | 4,2 | ~80 cm, 7-8+1 delik, ağızlıksız |
+| 39 | Kurai (Başkurt, Tatar) | Kenar | 4,2 | 2-7 delik, 3 oktav |
+| 40 | Tsuur / choor / Kazak sybyzgy | Kenar | 4,2 | Diş-dil-dudakla, boğaz sesiyle |
+| 41 | Nohkan (Japonya) | Yan | 4,3 | İç daralma (nodo), her flüt farklı |
+| **42** | **Floyera / flogera (Yunanistan)** | Kenar | **4,3** | Kavalın kısa, basit kuzeni |
+| 43 | Blul (Ermenistan) | Kenar | 4,4 | Eğik tutulur |
+| 44 | Kargı düdüğü (Türkiye) | Kenar | 4,4 | Uzun kamış flüt; kaynak zayıf |
+| 45 | Kawala (Mısır, Arap) | Kenar | 4,4 | Ney benzeri, 6 delik, arka delik yok |
+| 46 | Tilinkó / tilinca | Doğuşken | 4,4 | Deliksiz ve düdüksüz |
+| **47** | **Dilsiz kaval (Türkiye, Balkanlar)** | Kenar | **4,5** | 2 oktav + beşli; komalar |
+| 48 | Ney (Türk neyi) | Kenar | 4,5 | Makam komaları; başpare yardımcı |
+| 49 | Shakuhachi / hocchiku | Çentikli | 4,5 | Kesik ağız (utaguchi); perde baş açısıyla |
+| 50 | Tzamara (Yunanistan, Epir) | Kenar | 4,6 | Uzun kaval tipi |
 
 Dört boyutun ayrı puanları `ek/puan_tablosu.csv` dosyasında.
 
-**Sağlamlık testi.** Dört boyuta eşit ağırlık verince sıralama büyük ölçüde korunuyor; iki sıralama arasındaki sıra korelasyonu 0,92 (1 = aynı sıra). Erişim puanını tamamen çıkarınca 0,996'ya çıkıyor. En çok yer değiştirenler Türkiye'de bulunması zor çalgılar; örneğin fujara 23'ten 33'e iniyor. Dilsiz kaval ise erişimi iyi olduğu için 44'ten 37'ye çıkıyor. Yani aileler arasındaki sıra sağlam; aynı aile içindeki birkaç basamaklık farklar ise o kadar kesin değil.
+**Sıra numaralarını yaklaşık oku.** Dört boyuta eşit ağırlık verince sıralama büyük ölçüde korunuyor; iki sıralama arasındaki sıra korelasyonu 0,93 (1 = aynı sıra). Erişim puanını tamamen çıkarınca 0,995'e çıkıyor. Ama tek tek çalgılar birkaç basamak oynayabiliyor; en çok Türkiye'de bulunması zor olanlar etkileniyor:
+
+| Çalgı | Ana sıra | Eşit ağırlıkta |
+|---|---|---|
+| Fujara | 24 | 34 |
+| Danso | 27 | 18 |
+| Washint | 36 | 26 |
+| Dilsiz kaval (erişimi iyi) | 47 | 39 |
+
+Aileler arasındaki sıra sağlam; aynı aile içindeki birkaç basamaklık farklar o kadar kesin değil.
 
 ## 3. Gerekçe ve kanıt
 
@@ -211,17 +240,17 @@ Dört boyutun ayrı puanları `ek/puan_tablosu.csv` dosyasında.
   - Bansuri, shakuhachi, quena ve Kızılderili flütü için yerli satıcı bulunamadı.
   - Yurt dışı fiyatları: bansuri (Thomann) yaklaşık 44 USD, plastik shakuhachi Yuu 26.400 yen, iyi ikinci el bambu shakuhachi 250–1.000 USD.
 
-**Senin varsayımına bir düzeltme.** Flogera ile kaval "basit çoban flütü" diye bilinir. Ama öğrenmesi en zor aileden ikisidir: sesi kuran ne düdük ne çentik vardır, her şey dudağa kalır. İyi haber şu: ikisi aynı tekniği paylaşır. Birini öğrenen öbürüne kolayca geçer.
+**Senin varsayımına bir düzeltme.** Flogera ile kaval "basit çoban flütü" diye bilinir. Ama öğrenmesi en zor aileden ikisidir: sesi kuran ne düdük ne çentik vardır, her şey dudağa kalır. İyi haber şu: ikisi aynı üfleme ilkesini paylaşır. Birinde kazanılan dudak becerisi öbürüne büyük ölçüde geçer (bizim değerlendirmemiz).
 
 ## 4. Emin olunmayanlar ve doğrulama kapsamı
 
 - **Puanlar tahmindir.** Çalgıların yapısı ve üfleme biçimi kaynaklı ve doğrulanmış. Ama 1–5 puanlarının çoğu bu bilgiden çıkarılmış uzman tahmini. Öğrenme süresini ölçen bir araştırma bulunamadı.
 - **Erişim puanları büyük ölçüde tahmindir.** Kaynak yalnızca ney, kaval, okarina, blok flüt ve tin whistle için var.
 - **Ad karışıklıkları:**
-  - Floyera'yı bir satıcı düdüklü diye listeliyor; Wikipedia ve öbür kaynaklar düdüksüz diyor.
+  - Floyera'yı bir satıcı düdüklü diye listeliyor, bir blog iki tipin de olduğunu söylüyor; Wikipedia düdüksüz diyor.
   - Romanya'da "caval" adı hem 5 delikli büyük düdüklü fluier için hem kenardan üflemeli kaval için kullanılıyor; Wikipedia'nın iki maddesi çelişiyor.
   - Kuvytsi'nin sınıflaması kaynaklar arasında çelişkili.
-- **Zayıf kalanlar:** kargı düdüğünün Türkiye'deki yöresi, çığırtmanın üfleme biçimi ve Gürcistan pan flütü larchemi/soinari doğrulanamadı. Larchemi sıralamada yok.
+- **Zayıf kalanlar:** kargı düdüğünün Türkiye'deki yöresi, çığırtmanın ve xun'un üfleme biçimi ve Gürcistan pan flütü larchemi/soinari doğrulanamadı. Larchemi sıralamada yok. Kürt şimşali ve Arap shabbabası için kaynak bulunamadı; onlar da sıralamada yok.
 - **Fiyatlar ve kurslar:**
   - Fiyatlar Kasım 2026 ilan görüntüleridir ve mağazalar arasında iki kata varan farklar var.
   - Kurs örneklerinin bir kısmı eski. Diyarbakır duyurusunun sayfası artık açılmıyor, Ordu HEM kursu 2019 tarihli bir haberden.
@@ -229,6 +258,7 @@ Dört boyutun ayrı puanları `ek/puan_tablosu.csv` dosyasında.
 - **Doğrulama kapsamı:**
   - 6 üreticinin 167 satırlık iddia defterinden 125 satır kaynağına dönülerek kontrol edildi: 99 doğru, 19 kısmen doğru (düzeltildi), 4 kaynakta yok (rapordan çıkarıldı ya da kaynağı düzeltildi), 3 erişilemedi (biri YouTube kaydıyla sonradan doğrulandı), 0 yanlış.
   - Örneklemde hata oranı %10'u geçen 3 üreticinin defterinin tamamı kontrol edildi.
+  - Eleştirmen 8 itiraz getirdi; hepsi uygulandı. Onun önerisiyle eklenen 3 çalgı (bilûr, souravli, kawala) ve kavalda oktavı hava akımının belirlediği alıntısı Wikipedia'nın ham metninden betikle doğrulandı.
   - 113 link betikle toplu denendi: 98'i açıldı. 11'i site bot engeli (403/429) verdi, 3'üne bağlanılamadı, 1'i ölü (Diyarbakır).
 
 ## Kaynaklar
@@ -236,7 +266,8 @@ Dört boyutun ayrı puanları `ek/puan_tablosu.csv` dosyasında.
 Seçilmiş başlıca kaynaklar; tam liste ve link durumu `ek/link_kontrol.tsv` dosyasında.
 
 - Akustik: https://phys.unsw.edu.au/jw/fluteacoustics.html
-- Kaval ve floyera: https://en.wikipedia.org/wiki/Kaval · https://en.wikipedia.org/wiki/Dilli_kaval · https://en.wikipedia.org/wiki/Floghera · https://www2.umbc.edu/eol/4/tammer/tammer_i.html · https://www.powerflute.ch/single_instrument/floyera
+- Kaval ve floyera: https://en.wikipedia.org/wiki/Kaval · https://en.wikipedia.org/wiki/Dilli_kaval · https://en.wikipedia.org/wiki/Floghera · https://en.wikipedia.org/wiki/Souravli · https://www2.umbc.edu/eol/4/tammer/tammer_i.html · https://www.powerflute.ch/single_instrument/floyera
+- Bilûr ve kawala: https://de.wikipedia.org/wiki/Bil%C3%BBr · https://en.wikipedia.org/wiki/Kawala
 - Dilsiz kaval koma aparatı (Tanrıverdi): https://dergipark.org.tr/tr/download/article-file/1438284
 - THM üflemeli çalgıları ve dilli kaval: https://dergipark.org.tr/tr/download/article-file/1159784
 - Ney: https://en.wikipedia.org/wiki/Turkish_ney · https://en.wikipedia.org/wiki/Ney · https://www.dailysabah.com/arts/music/cansu-turan-young-woman-transforming-ney-turkish-classical-music/amp · https://salamuzik.com/blogs/news/what-are-the-differences-between-ney-and-plastic-ney-why-is-plastic-ney-used
@@ -253,10 +284,10 @@ Seçilmiş başlıca kaynaklar; tam liste ve link durumu `ek/link_kontrol.tsv` d
 
 ## Devam notu
 
-1. Bulunan: 47 geleneksel flüt 7 aileye ayrıldı ve ağırlıklı 1–5 zorluk puanıyla sıralandı. Ağırlıklar: ses %50, teknik %20, aralık %20, erişim %10.
-2. Kullanıcıya öneri: dilli kaval + plastik dilsiz kavalla başla, sonra floyera.
+1. Bulunan: 50 geleneksel flüt 7 aileye ayrıldı ve ağırlıklı 1–5 zorluk puanıyla sıralandı. Ağırlıklar: ses %50, teknik %20, aralık %20, erişim %10.
+2. Kullanıcıya öneri: önce bir öğretmenle tek ders; sonra dilli kaval + dilsiz kaval, en son floyera. Souravli, floyeranın düdüklü Yunan alternatifi.
 3. Puanlar `ek/puan_tablosu.csv` dosyasında. Hesap betiği tekrar çalıştırılmak üzere `ek/puanla.py` dosyasında.
 4. Ham ajan çıktıları ve iddia defterleri `ek/ham_cikti.json` ve `ek/ham_cikti_dalga2.json` dosyalarında; link durumu `ek/link_kontrol.tsv` dosyasında.
-5. Açık kalanlar: güncel kaval kursu listesi, kargı düdüğü ve çığırtmanın üfleme biçimi, floyeranın Türkiye'deki satıcıları.
+5. Açık kalanlar: güncel kaval kursu listesi, kargı düdüğü, çığırtma ve xun'un üfleme biçimi, floyeranın Türkiye'deki satıcıları.
 
-Maliyet özeti: Seviye M · 6 üretici (sonnet) + 8 doğrulayıcı (sonnet; 125 satır, doğrulayıcı başına en çok 20) + 1 eleştirmen (opus) · 2 üretim dalgası + 2 doğrulama turu · kontrol noktasını geçen ajan yok (2 üretici 35/35'te durdu) · aşılan sınır yok.
+Maliyet özeti: Seviye M · 6 üretici (sonnet) + 8 doğrulayıcı (sonnet; 125 satır, doğrulayıcı başına en çok 20) + 1 eleştirmen (opus, 10/20 araç) · 2 üretim dalgası + 2 doğrulama turu · kontrol noktasını geçen ajan yok (2 üretici 35/35'te durdu) · aşılan sınır yok.
