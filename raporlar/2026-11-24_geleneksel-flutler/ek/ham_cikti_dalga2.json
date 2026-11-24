@@ -1,0 +1,912 @@
+{
+ "tam_kontrol": [
+  {
+   "arac": "araç: 24/30",
+   "sonuclar": [
+    {
+     "id": "ogrenme-20",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.akakce.com/ney.html",
+     "kanit_alinti": "Donizetti DNZCEV Kız (Si) Öğrenci Ney 387,15 TL; plastik delrin başpareli 1.050-1.100 TL; Bade Mansur Ney Kamış 857,37 TL; Kamış Ney - Kız Ney 1.955 TL"
+    },
+    {
+     "id": "ogrenme-22",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.akakce.com/ocarina.html",
+     "kanit_alinti": "lowest 496,15 TL (Maxtone OCA1); Hermann Mayer Pro12 Ocarina 12 Ses 1.149,88 TL"
+    },
+    {
+     "id": "yan-9",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.chiffandfipple.com/t/bansuri-and-irish-flute/92394",
+     "kanit_alinti": "You can half-hole the sixth hole quite well on a bansuri, but not really well on an Irish flute"
+    },
+    {
+     "id": "ogrenme-19",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.chiffandfipple.com/t/quena-embouchure/77880",
+     "kanit_alinti": "quenas have a learning curve, it takes awhile to get any kind of tone."
+    },
+    {
+     "id": "kenar-5",
+     "durum": "kaynakta_yok",
+     "duzeltme": "Gösterilen makale (1159784) Paksoy-Gök Akyıldız, dilli kaval üzerinedir ve TRT koma sorunu/delik ayarı aparatı önerisini içermez. İddia, Tanrıverdi'nin makalesinde (https://dergipark.org.tr/tr/download/article-file/1438284) desteklenir: 1980'lerde TRT Türk halk müziği topluluklarında kullanılmaya başlanınca koma sesler entonasyon sorunu yarattı; 'Delik Ayarlama (Hole Tuning) Aparatı' önerildi. Kaynak URL'si 1438284 olarak düzeltilmeli.",
+     "kanit_url": "https://dergipark.org.tr/tr/download/article-file/1159784",
+     "kanit_alinti": "Dilli kavalın önde yedi arkada bir delik olmak üzere sekiz ses deliği bulunmaktadır. Üzerlerinde koma seslerin çıkabileceği bir aparat bulunmaz."
+    },
+    {
+     "id": "ogrenme-29",
+     "durum": "kismen",
+     "duzeltme": "Gösterilen makale (1438284, Tanrıverdi) dudak/nefes/üfleme açısını söylemez; yalnızca Tekşahin'in 'dilsiz kaval metodu' kitabına atıf yapar ve koma seslerin parmak pozisyonuyla 1-1,5 yılda öğrenildiğini yazar. Bağımsız aramada bir tez özeti, dilsiz kavalda ses üretiminin nefes kontrolü, dudak konumu ve üfleme açısına bağlı olduğunu söylüyor; 'iki metot kitap halinde' için Tekşahin ve Adnan Çağ metotları anılıyor ama doğrulanmadı. Kaynak makale gösterilmemeli; tez/arama özeti kullanılacaksa doğrulanmadı etiketi kalsın.",
+     "kanit_url": "https://dergipark.org.tr/tr/download/article-file/1438284",
+     "kanit_alinti": "Fedai Tekşahin'in yazmış olduğu dilsiz kaval metodu kitabında kavalda transpoze uygulama başlığı altında"
+    },
+    {
+     "id": "kenar-17",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://dewiki.de/Lexikon/Blul",
+     "kanit_alinti": "Sie wird schräg nach unten gehalten und mit halbseitig geschlossenem Mund über eine scharfe Kante angeblasen."
+    },
+    {
+     "id": "yan-14",
+     "durum": "kismen",
+     "duzeltme": "Cümle gösterilen sayfada (?p=3377) yok; aynı site 'best key of Dizi for beginners' sayfasında (?p=8508) geçiyor. Kaynak URL'si https://www.easonmusicschool.com/?p=8508 olmalı. Not: aynı sitenin diğer sayfaları D (qudi) veya G (bangdi) öneriyor, C yalnızca bu sayfada.",
+     "kanit_url": "https://www.easonmusicschool.com/?p=8508",
+     "kanit_alinti": "The key of D or C is ideal — they are easy to handle and commonly used in teaching."
+    },
+    {
+     "id": "yan-7",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Bansuri",
+     "kanit_alinti": "The six-hole instrument covers two and a half octaves of music. The bansuri is typically between 30 and 75 centimetres (12 and 30 in) in length."
+    },
+    {
+     "id": "yan-23",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Daegeum",
+     "kanit_alinti": "fixed pitch, so other instruments tune to it when playing together"
+    },
+    {
+     "id": "yan-24",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Daegeum",
+     "kanit_alinti": "Its smaller relatives, the junggeum and sogeum, no longer have buzzing membranes. Together, the three are called samjuk, meaning \"three bamboo.\""
+    },
+    {
+     "id": "yan-13",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Dizi_(instrument)",
+     "kanit_alinti": "Dizi have a relatively large range, covering about two-and-a-quarter octaves. Most professional players have a set of seven dizi, each in a different key"
+    },
+    {
+     "id": "yan-30",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Fife_(musical_instrument)",
+     "kanit_alinti": "European armies from the Renaissance on found it useful for signaling on the battlefield."
+    },
+    {
+     "id": "kenar-8",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Floghera",
+     "kanit_alinti": "typically has seven finger holes"
+    },
+    {
+     "id": "yan-1",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Irish_flute",
+     "kanit_alinti": "The flute has six main finger-holes."
+    }
+   ],
+   "notlar": "Tüm 15 satır karara bağlandı. Dergipark PDF'leri pdftotext ile okundu (geçici dosyalar /root/pdfw altında). Eşleşme: 1159784 = Paksoy ve Gök Akyıldız, dilli kaval (Yalvaç Akademi 2020); 1438284 = Tanrıverdi, dilsiz kaval Hole Tuning aparatı (Motif Akademi 2020). kenar-5 ve ogrenme-29 kaynakları iki PDF arasında karışmış görünüyor: kenar-5 iddiası 1438284'te var. yan-30 (Fife'ta Osmanlı/Yeniçeri geçmiyor) için sayfa özeti Osmanlı/Yeniçeri/Türk anılmadığını bildirdi; tam metin taraması yapılmadı, özet WebFetch modeline dayanıyor. Akakçe fiyatları anlık listeleme fiyatlarıdır, değişebilir. ogrenme-29 için tez özeti bağımsız arama özetidir, sayfa açılmadı."
+  },
+  {
+   "arac": "araç: 24/30",
+   "sonuclar": [
+    {
+     "id": "kenar-2",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Kaval",
+     "kanit_alinti": "The kaval has eight playing holes (seven in front and one in the back for the thumb)."
+    },
+    {
+     "id": "kenar-6",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Kaval",
+     "kanit_alinti": "In Bulgaria they are known as 'devil's holes.' / These holes are not used for playing the instrument"
+    },
+    {
+     "id": "kenar-18",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Kurai_(flute)",
+     "kanit_alinti": "a long open end-blown flute ... with two to seven fingerholes ... The diapason of a quray consists of three octaves."
+    },
+    {
+     "id": "kenar-15",
+     "durum": "kismen",
+     "duzeltme": "Arap neyi ağızlıksız çalınır (doğru). Kaynak ikinci oktava geçişin 'rather awkward' (zahmetli) olduğunu söyler ve bunu en alt perde aralığındaki karmaşık parmaklamayla ilişkilendirir; 'oktav geçişi kontrol edilmelidir' kaynakta yok, çıkarımdır.",
+     "kanit_url": "https://en.wikipedia.org/wiki/Ney",
+     "kanit_alinti": "The Arabic ney is played without any mouthpiece. ... the transition from the first octave (fundamental pitches) to the second is rather awkward."
+    },
+    {
+     "id": "kenar-23",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Sybyzgy",
+     "kanit_alinti": "does not refer to the Kyrgyz sybyzgy but instead to another instrument, the Tsuur"
+    },
+    {
+     "id": "kenar-19",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Tsuur",
+     "kanit_alinti": "an end-blown flute of varying lengths ... The tsuur has only finger holes."
+    },
+    {
+     "id": "kenar-12",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Turkish_ney",
+     "kanit_alinti": "six finger-holes on the front and a high-set thumb-hole on the back"
+    },
+    {
+     "id": "kenar-24",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Washint",
+     "kanit_alinti": "end-blown wooden flute ... generally has four finger-holes ... pentatonic scale"
+    },
+    {
+     "id": "ogrenme-15",
+     "durum": "dogru",
+     "duzeltme": "Tek bir forum üyesinin (Jarle Jivanmukta, 2011) görüşü; Yuu adı alıntıda geçmiyor ('it' denmiş), model eşleşmesi sayfa bağlamına dayanır.",
+     "kanit_url": "https://forum.shakuhachisociety.eu/t313-Buying-a-first-shakuhachi-or-jinashi.htm",
+     "kanit_alinti": "It looks and plays (almost) like a bamboo, and its very stable and durable, and usefully tuned."
+    },
+    {
+     "id": "yan-18",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://gagaku.stanford.edu/en/woodwinds/ryuteki",
+     "kanit_alinti": "seven-holed transverse flute made of bamboo ... approximately 40 cm long (16 inches)"
+    },
+    {
+     "id": "yan-29",
+     "durum": "kismen",
+     "duzeltme": "Kaynak yalnızca 'Russian Turkestan' (yaklaşık 1872) kökenli bir yan flüt ney görselini anar; Özbekistan ve Tacikistan sayfada geçmez. Bağımsız aramada Özbek/Tacik nayının yan flüt olduğu görülüyor (Wikipedia Ney maddesi, turizm/müze siteleri), ancak kaynaklar zayıf.",
+     "kanit_url": "https://larkinthemorning.com/blogs/articles/the-ney-the-middle-eastern-flute",
+     "kanit_alinti": "This ney from Russian Turkestan, about 1872, was a transverse flute"
+    },
+    {
+     "id": "ogrenme-26",
+     "durum": "kismen",
+     "duzeltme": "Gösterilen Mynet sayfası Ankara Çubuk'ta ilçe Halk Eğitim Müdürlüğü işbirliğiyle açılan bir ney kursunu anlatır; 'ücretsiz' ifadesi ve Ordu orada yok. Ordu Halk Eğitim ney kursu (hafta sonları ücretsiz) Haber7'nin Ocak 2019 haberine dayanır (arama özeti, sayfa açılmadı).",
+     "kanit_url": "https://www.haber7.com/ordu/2808207-kadinlar-neyzen-olabilmek-icin-calisiyor",
+     "kanit_alinti": "Çubuk'ta Ney Kursu Açıldı (Mynet); Ordu için: hafta sonları ücretsiz verilen ney kursuna (arama özeti)"
+    },
+    {
+     "id": "ogrenme-27",
+     "durum": "kismen",
+     "duzeltme": "Gösterilen sayfa (Cloudflare 403 verdi) erişilemedi; arama sonucunda başlık 'NEY METOD (2 adet CD var.)' Süleyman Erguner olarak görülüyor. Temel Hakkı Karahasan ney metodu (32 sayfa, Can Matbaacılık) ayrı ilanda var; Fatih Yıldız 'Ney Metodu' yalnızca benzer ürün listesinde, ayrıntısız. Erguner kitabının yılı kaynaklarda çelişkili (1986 / 2007).",
+     "kanit_url": "https://www.nadirkitap.com/ney-metod-2-adet-cd-var-suleyman-erguner-kitap46588113.html",
+     "kanit_alinti": "NEY METOD (2 adet CD var.)"
+    },
+    {
+     "id": "yan-4",
+     "durum": "erisilemedi",
+     "duzeltme": "Sayfa WebFetch'te 403, curl'de Cloudflare doğrulaması verdi (3 deneme); iddia doğrulanamadı.",
+     "kanit_url": "https://oaim.ie/?p=639",
+     "kanit_alinti": ""
+    },
+    {
+     "id": "ogrenme-4",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://phys.unsw.edu.au/jw/fluteacoustics.html",
+     "kanit_alinti": "These are the adjustments that one gradually learns to make automatically when playing the flute."
+    }
+   ],
+   "notlar": "oaim.ie ve nadirkitap.com Cloudflare engeli nedeniyle açılamadı. ogrenme-26 ve ogrenme-27'deki bağımsız destek arama özetine dayanır. Dosya yazılmadı."
+  },
+  {
+   "arac": "araç: 21/26",
+   "sonuclar": [
+    {
+     "id": "ogrenme-14",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.radheflutes.com/blogs/guide/how-to-choose-your-first-bansuri",
+     "kanit_alinti": "Side-blown bansuris require a specific \"embouchure\" (blowing technique) that can be frustrating."
+    },
+    {
+     "id": "ogrenme-12",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.radheflutes.com/blogs/guide/how-to-learn-the-flute",
+     "kanit_alinti": "Stage 2: Sound Development (1–2 Months)"
+    },
+    {
+     "id": "ogrenme-9",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://salamuzik.com/blogs/news/how-to-make-sound-from-a-ney",
+     "kanit_alinti": "Making a healthy sound from Ney is the first obstacle for a beginner."
+    },
+    {
+     "id": "yan-16",
+     "durum": "dogru",
+     "duzeltme": "Not: 7 hon bir tonalite (anahtar) adıdır; 7 delik sayısıyla karıştırılmamalı. Satıcı (Soundhouse) önerir; Taiko-shop gibi başka satıcılar acemi için 8 hon önerir, yani görüş birliği yok. Doğrulama arama özetiyle yapıldı, sayfa 503 verdi.",
+     "kanit_url": "https://www.soundhouse.co.jp/en/guidance/products/detail/?no=T00405",
+     "kanit_alinti": "The 7-hon choshi is recommended."
+    },
+    {
+     "id": "yan-17",
+     "durum": "kismen",
+     "duzeltme": "Sayfa, delikleri parmak ucuyla değil parmak pedleriyle (sol elde pedler, sağ elde 1. ve 2. eklem ortaları) kapatmayı söyler. Sızıntının ses sorunu olduğu sayfada geçmiyor.",
+     "kanit_url": "https://taiko-shop.com/blogs/learn/embouchure-and-finger-placement-of-shinobue",
+     "kanit_alinti": "Do not close the finger holes with the fingertips."
+    },
+    {
+     "id": "ogrenme-18",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://taiko-shop.com/products/plastic-shakuhachi-yuu",
+     "kanit_alinti": "Highly recommended to beginners."
+    },
+    {
+     "id": "ogrenme-23",
+     "durum": "kismen",
+     "duzeltme": "Teknosa sayfası 403 verdi. Bağımsız arama özeti Teknosa'da 1.179,55 TL'yi doğruladı; Cimri'de en ucuz ~725 TL, önerilen 735,01 TL (747,60 TL mağazaya bağlanamadı). n11 723,60 TL, idefix 993,02 TL. Fiyatlar tarihsiz ve değişkendir; mağazalar arası fark büyüktür (~700-1.180 TL).",
+     "kanit_url": "https://www.cimri.com/blokflut",
+     "kanit_alinti": "Yamaha YRS23 Soprano Blok Flüt 1.179,55 TL (arama özeti)"
+    },
+    {
+     "id": "ogrenme-24",
+     "durum": "kismen",
+     "duzeltme": "Thomann sayfasında fiyat 44 USD görünüyor (yaklaşık 45 doğru, ancak fiyat değişkendir; kargo ayrıdır).",
+     "kanit_url": "https://www.thomannmusic.com/thomann_nataraj_bansuri_pro_flute_g.htm",
+     "kanit_alinti": "$44 (sayfa fiyatı; kargo ödeme sayfasında hesaplanır)"
+    },
+    {
+     "id": "yan-22",
+     "durum": "kismen",
+     "duzeltme": "PDF: nohkanda alçak-yüksek ses aralığı oktavdan küçük ve her flütte farklı, mizaç farklı olduğu için topluluk içinde çalınamaz; ayrıca iki nohkanda delik aralığı farklı. Ryuteki'nin 'akortlu' (well tempered) olduğu doğru, gagaku topluluğu için şart. 'Delik aralığı flütler arası farklı' ifadesi esas olarak iç çap/mizaç farkı ve koleksiyondaki iki örnek için geçer.",
+     "kanit_url": "https://www.tobunken.go.jp/joho/japanese/project/panel/nohkan/nohkan-e.pdf",
+     "kanit_alinti": "since the temperament differs from one nohkan to another, it is not possible to play nohkan in ensemble."
+    },
+    {
+     "id": "ogrenme-7",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://tymm.meb.gov.tr/muzik-okullari-bireysel-calgi-egitimi-dersi-kaval-modulu/unite/1185",
+     "kanit_alinti": "kavaldan ilk denemelerde ses çıkarmanın zor olabileceği konusunda sabırlı olmaları gerektiği bilgisi verilip"
+    },
+    {
+     "id": "ogrenme-6",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://tymm.meb.gov.tr/muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu/unite/1215",
+     "kanit_alinti": "Öğrencilerin dudaklarını güçlendirmek amacıyla egzersizler verilebilir."
+    },
+    {
+     "id": "yan-11",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Venu",
+     "kanit_alinti": "The Sa on the venu is achieved by closing the top two finger holes."
+    },
+    {
+     "id": "kenar-11",
+     "durum": "dogru",
+     "duzeltme": "Defterdeki URL ve alıntı yanlış kaynağa ait (UMBC sayfasında Epir/tzamara yok). Doğru kaynak corfublues blogspot sayfası; bu bir blog, zayıf kaynak.",
+     "kanit_url": "https://corfublues.blogspot.com/2015/04/aristides-vasilaris-miroloi-on-floghera.html",
+     "kanit_alinti": "In Epiros, northwestern Greece, these longer flutes are called tzamara."
+    }
+   ],
+   "notlar": "Gösterilen UMBC sayfasında (kenar-11) Epir/tzamara yok; iddia bağımsız aramayla blog sayfasında bulundu, defterdeki alıntı iddiayı desteklemiyor. yan-11 Wikiwand 403 verdi, Wikipedia'dan doğrulandı. yan-16 ve ogrenme-23 arama özetiyle desteklendi (sayfalar 503/403). Nohkan PDF'i pdftotext ile okundu. Geçici dosyalar /root/tmpx altında."
+  }
+ ],
+ "dalga2": {
+  "uretim": {
+   "arac": "araç: 35/35",
+   "ozet": "Önemli düzeltmeler: (1) Çifte flüt değil, kamışlı çalgıdır: iki kamış boru yan yana bağlanır, her borunun ucuna ağza alınan küçük kamış parçası eklenir (argul/argun/kargın/zambır adlarıyla da anılır). Aday listedeki \"çift gövdeli düdüklü flüt\" varsayımı doğrulanmadı, çelişen kanıt bulundu. (2) Sipsi tek kamışlı, klarnet benzeri; mey kamışlı (geniş, uzun, çift taraflı kamış). İkisi de flüt değil, teyit edildi (sipsi için Wikipedia, mey için dergipark özeti; mey'de kamış türünü kesin söyleyemiyorum). (3) Kargı düdüğü için Toros/Teke yöresi ya da boğaz eşliği iddiasını destekleyen kaynak bulunamadı. Bulunan tek tanım Wikipedia'nın Ney maddesinde: uzun kamış flüt, adı Tuva gargy-tuyduk ile birlikte anılıyor ve boğaz sesi (kargyra) ile benzerliği Tuva bağlamında geçiyor. Türkiye'ye özgü kullanım kanıtsız. Boğaz havası Toros Yörüklerinde ayrı bir gelenek olarak var, kargı düdüğüyle bağı kanıtlanmadı. (4) Çığırtma: kartal kanat kemiğinden, 7 delik (6 üst, 1 alt), 15-30 cm, çobanlarca kullanılan, yok olmaya yüz tutmuş. Üfleme mekanizması hiçbir ulaşılan kaynakta açıkça yazmıyor (Wikipedia taslağı \"kenardan üflemeli\" kategorisinde). Burdur tezi (Ertürk) var ama tam metne erişilemedi (acikbilim.yok.gov.tr ağ izni dışında). Yörü: Burdur (Teke); Elazığ'da kemik düdük anılıyor, düşük güven. (5) Dilli kaval düdüklü (fipple) flüttür; 7 ön + 1 başparmak deliği, erik/abanoz/kayısı ağacı, Türkiye ve Azerbaycan. Dilsiz kaval kenardan üflemeli; kaval sözcüğü genelde çoban kavalları için kullanılır. \"Dilli düdük\" adı kaynaklarda tutarsız: Türkmen tek kamışlı dilli tüydük ile karışıyor. Müze kaydında Türkiye düdüğü kamışlı (5 ön + 1 arka delik) görünürken başka kaynak onu dilli kaval diye anıyor. (6) Ney: Türk neyi 7 delik (6 ön, 1 arka), bazen boynuz/pirinç/plastik başpare. Ahenk adları (kız, mansur, şah, dâvud, bolâhenk, süpürde, müstahsen, yıldız) kaynaklarda aynı, ses karşılıkları kaynaktan kaynağa değişiyor, bu yüzden perde eşleştirme verilmedi. Öğrenme olanakları: Diyarbakır Büyükşehir Belediyesi ücretsiz kaval ve ney kursu duyurusu (tarihi görünmüyor), Zeytinburnu 2023 kataloğunda ney, Bilecik Sanat Akademisi ney kursu (yaz, süresi geçmiş). İBB Sanat'ta ve Halk Eğitim'de somut kaval kursu sayfası bulunamadı. Video: NeyzenTV (Kerem Tufan) ve Zafer Küçük kaval dersi serisi YouTube'da var. Kitap: \"Konuşan Kaval\" adlı bir kitap sahaf sitesinde görüldü (yazarı doğrulanmadı), MEB kaval modülü ve 2022 müfredatı ücretsiz. Fiyat: Clarke tin whistle D yaklaşık 977 TL (idefix) ile 1.950 TL (n11) arasında. Bansuri ve Native American flute için Türkiye satıcısı/TL fiyat bulunamadı.",
+   "turk_flutleri": [
+    {
+     "ad": "Dilsiz kaval",
+     "yore": "Türkiye geneli (çoban kökenli, konservatuvar ve MEB programlarında)",
+     "mekanizma": "kenar_ufleme",
+     "yapi": "Genelde ahşap, 7 ön + 1 arka parmak deliği, ağızda kanal yok (kaynak: kaval maddesi ve MEB modülü)",
+     "ses_cikarma": 5,
+     "teknik": 3,
+     "aralik_kontrol": 5,
+     "erisim": 3,
+     "gerekce": "Kanal olmadığından ses ve perde tamamen nefes, dudak ve açıyla kontrol edilir; akademik kaynak başlangıçta perde doğruluğunun zor olduğunu belirtiyor. Puanlar büyük ölçüde kendi değerlendirmem. Türkçe video ders, MEB modülü ve akakce'de satıcı var.",
+     "defter_no": [
+      13,
+      14,
+      28
+     ]
+    },
+    {
+     "ad": "Dilli kaval",
+     "yore": "Türkiye ve Azerbaycan",
+     "mekanizma": "duduklu",
+     "yapi": "Erik, abanoz veya kayısı ağacı; 7 ön + 1 arka delik; kanal ('dil') var",
+     "ses_cikarma": 1,
+     "teknik": 3,
+     "aralik_kontrol": 3,
+     "erisim": 2,
+     "gerekce": "Düdüklü olduğu için üfleyince ses gelir (tin whistle gibi); ikinci oktav nefes gücüyle alınır. Puanlar kendi değerlendirmem.",
+     "defter_no": [
+      10,
+      11,
+      12
+     ]
+    },
+    {
+     "ad": "Çığırtma",
+     "yore": "Burdur (Teke); Elazığ'da kemik düdük anılıyor (düşük güven)",
+     "mekanizma": "diger",
+     "yapi": "Kartal kanat kemiği, 7 delik (6 üst, 1 alt), yaklaşık 15-30 cm",
+     "ses_cikarma": 4,
+     "teknik": 2,
+     "aralik_kontrol": 3,
+     "erisim": 5,
+     "gerekce": "Üfleme mekanizması kaynaklarda belirtilmiyor (taslak kategorisi kenardan üflemeye işaret ediyor); ses çıkarma puanı tahmini. Çok nadir, ticari satıcı ve ders bulunamadı. Büyük ölçüde kendi değerlendirmem.",
+     "defter_no": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "ad": "Çifte (argul/argun/kargın/zambır)",
+     "yore": "Anadolu'da çeşitli yörelerde; yöre listesi doğrulanmadı",
+     "mekanizma": "kamisli_flut_degil",
+     "yapi": "İki kamış boru yan yana bağlı, uçlarında ağza alınan küçük kamışlar; demli (biri düz drone) ve demsiz tür",
+     "ses_cikarma": 4,
+     "teknik": 4,
+     "aralik_kontrol": 3,
+     "erisim": 4,
+     "gerekce": "Flüt değil, kamışlı; öğrenme listesine ancak bilgi için konur. Çift boruyu aynı anda çalmak ve sürekli nefes zor. Puanlar kendi değerlendirmem.",
+     "defter_no": [
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    {
+     "ad": "Sipsi ve mey",
+     "yore": "Sipsi: Ege ve Teke (Burdur, Isparta, Muğla, Denizli, Antalya); mey: Doğu Anadolu ve Güneydoğu",
+     "mekanizma": "kamisli_flut_degil",
+     "yapi": "Sipsi: tek kamışlı, klarnet benzeri, 5 ön + 1 arka delik; mey: geniş, uzun, çift taraflı kamışlı",
+     "ses_cikarma": 4,
+     "teknik": 3,
+     "aralik_kontrol": 3,
+     "erisim": 5,
+     "gerekce": "Kamışlı çalgılar, flüt sayılmaz (teyit edildi). Mey'in kamış türü tam netleşmedi. Puanlar kendi değerlendirmem.",
+     "defter_no": [
+      8,
+      9
+     ]
+    },
+    {
+     "ad": "Düdük (Türkiye, kamışlı tip)",
+     "yore": "Türkiye geneli, solo ve dans müziği",
+     "mekanizma": "kamisli_flut_degil",
+     "yapi": "Müze kaydında kamışlı, 5 ön + 1 arka delik, 24 cm; başka kayıt 7+1 delik ve 'dilli kaval' adını veriyor",
+     "ses_cikarma": 3,
+     "teknik": 2,
+     "aralik_kontrol": 2,
+     "erisim": 4,
+     "gerekce": "Adlandırma tutarsız: kamışlı düdük ile düdüklü dilli kaval karışıyor. Kamışlıysa flüt değil. Puanlar kendi değerlendirmem.",
+     "defter_no": [
+      15,
+      16
+     ]
+    },
+    {
+     "ad": "Kargı düdüğü",
+     "yore": "Türkiye'de yöre kanıtı bulunamadı (Toros/Teke iddiası doğrulanmadı)",
+     "mekanizma": "diger",
+     "yapi": "Uzun kamış flüt; kaynaktaki ölçüler Tuva gargy-tuyduk için: 6 delik 780 mm veya 5 delik 550 mm",
+     "ses_cikarma": 5,
+     "teknik": 3,
+     "aralik_kontrol": 4,
+     "erisim": 5,
+     "gerekce": "Tek kaynak (Wikipedia Ney maddesi) ve o da Türkiye kullanımını göstermiyor; Türkiye'de ticari örneği bulunamadı. Puanlar tahmini, kendi değerlendirmem.",
+     "defter_no": [
+      17,
+      18,
+      19,
+      20
+     ]
+    },
+    {
+     "ad": "Ney (Türk neyi; kız, mansur, şah, dâvud, bolâhenk, süpürde, müstahsen, yıldız ahengleri)",
+     "yore": "Türk sanat ve tasavvuf müziği, Türkiye geneli",
+     "mekanizma": "kenar_ufleme",
+     "yapi": "Kamış, 7 delik (6 ön + 1 arka), bazen boynuz/pirinç/plastik başpare; boy ahenge göre değişir",
+     "ses_cikarma": 5,
+     "teknik": 5,
+     "aralik_kontrol": 4,
+     "erisim": 2,
+     "gerekce": "Kenardan üflemeli, koma perdeleri ve ahengler nedeniyle zor; ama kurs, video ders (NeyzenTV) ve satıcı en bol çalgı. Puanlar kendi değerlendirmem, yapı bilgisi kaynaklı.",
+     "defter_no": [
+      21,
+      22,
+      24,
+      25,
+      26
+     ]
+    }
+   ],
+   "turkiye_olanaklar": [
+    {
+     "calgi": "Kaval (dilsiz ve dilli)",
+     "kurslar": "Diyarbakır Büyükşehir Belediyesi ücretsiz kaval ve ney kursu duyurusu (tarih görünmüyor, güncel kayıt dönemi doğrulanmadı). MEB Halk Eğitim kaval kursu için somut sayfa bulunamadı; konservatuvarlarda öğretim 1980'de başlamış (TMDK) ve Halk Eğitim Merkezleri, güzel sanatlar liseleri ve özel kurslarda yazılı metot ile meşk birlikte kullanılıyor (gcris makale özeti). İBB Sanat'ta kaval kursu bulunamadı.",
+     "video_dersler": "Zafer Küçük, Kaval Dersi 1 (üfleme çalışması): https://www.youtube.com/watch?v=JYmSgMoXJpQ ; 'Kavaldan Ses Çıkarmak - Kaval Eğitimi Ders 1': https://www.youtube.com/watch?v=glKOaUEjqH0 (kanal adı doğrulanmadı)",
+     "kitaplar": "'Konuşan Kaval' (nadirkitap'ta sahaf, yazarı doğrulanmadı). Fedai Tekşahin'in 'Kaval Eğitiminde Metot Sorunu ve Yeni Başlayanlar İçin Bir Metot Önerisi' bildirisi 1. Uluslararası Kaval Sempozyumu bildirilerinde. MEB kaval modülü: tymm.meb.gov.tr. Basılı metot kitabı adı kesinleşmedi.",
+     "satici_fiyat": "Önceki dalgada akakce: kaval 640-1.750 TL, bu görevde doğrulanmadı.",
+     "defter_no": [
+      23,
+      27,
+      28,
+      29
+     ]
+    },
+    {
+     "calgi": "Ney",
+     "kurslar": "Zeytinburnu Belediyesi 2023 kataloğunda ney (Kültür Sanat Merkezi, yeterli başvuru yoksa açılmaz, %70 devam şartı); Bilecik Belediyesi Sanat Akademisi yaz ney kursu (başvuru süresi geçmiş); Diyarbakır ücretsiz kaval ve ney kursu; önceki dalgada HEM kursları (Ordu, Çubuk).",
+     "video_dersler": "NeyzenTV (Neyzen Kerem Tufan): https://www.youtube.com/c/NeyzenTV ; ayrıca 'Neyi Tanıma ve Ses Çıkarma' (Selman Benlioğlu) https://www.youtube.com/watch?v=QtKb9RYwAhk",
+     "kitaplar": "Önceki dalgada Süleyman Erguner ney metodu (nadirkitap).",
+     "satici_fiyat": "Önceki dalgada akakce: ney 390-1.960 TL, bu görevde doğrulanmadı.",
+     "defter_no": [
+      24,
+      25,
+      26
+     ]
+    },
+    {
+     "calgi": "Tin whistle (İrlanda flütü)",
+     "kurslar": "Bulunamadı",
+     "video_dersler": "Aranmadı bu görevde",
+     "kitaplar": "Bulunamadı",
+     "satici_fiyat": "Clarke Sweetone D siyah kılıflı: idefix yaklaşık 976,66 TL, n11 yaklaşık 1.950,44 TL (aynı model, iki site arası fark büyük; anlık fiyat, tarihsiz). Hermann Mayer Irish Whistle idefix 1.325 TL. Trendyol ve Hepsiburada fiyatı bulunamadı.",
+     "defter_no": [
+      30
+     ]
+    },
+    {
+     "calgi": "Bansuri, Native American flute, quena",
+     "kurslar": "Bulunamadı",
+     "video_dersler": "Bulunamadı",
+     "kitaplar": "Bulunamadı",
+     "satici_fiyat": "Türkiye satıcısı ve TL fiyatı bulunamadı. Yalnızca yurt dışı fiyatlar görüldü (Etsy bansuri 99 USD).",
+     "defter_no": []
+    }
+   ],
+   "defter": [
+    {
+     "no": 1,
+     "iddia": "Çığırtma kartal kanat kemiğinden yapılır; 7 delik (6 üst, 1 alt); yaklaşık 15-30 cm.",
+     "kaynak": "https://www.ktb.gov.tr/EN-98678/cigirtma.html",
+     "alinti": "It has a total of seven holes, six on the top and one on the bottom.",
+     "guven": "yüksek",
+     "kritik": false
+    },
+    {
+     "no": 2,
+     "iddia": "Çığırtmanın üfleme mekanizması bulunan kaynaklarda belirtilmiyor; Wikipedia taslağı kenardan üflemeli kategorisinde.",
+     "kaynak": "https://en.wikipedia.org/wiki/%C3%87%C4%B1%C4%9F%C4%B1rtma",
+     "alinti": "The çığırtma is made from the wing bone of an eagle.",
+     "guven": "düşük",
+     "kritik": true
+    },
+    {
+     "no": 3,
+     "iddia": "Çığırtma üzerine Burdur il örneği yüksek lisans tezi var (tam metne erişilemedi).",
+     "kaynak": "https://acikbilim.yok.gov.tr/handle/20.500.12812/297291",
+     "alinti": "Türk halk müziği geleneğinde kemik üflemeli çalgı çığırtma; Burdur il örneği",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 4,
+     "iddia": "Çifte iki kamış borunun yan yana bağlanmasıyla yapılır; flüt değil kamışlı çalgıdır.",
+     "kaynak": "https://ottomansouvenir.com/Music/Folk_Instruments/Cifte.htm",
+     "alinti": "It is made by tying two reed pipes side by side.",
+     "guven": "yüksek",
+     "kritik": true
+    },
+    {
+     "no": 5,
+     "iddia": "Çiftenin her borusunun ucuna sesi çıkaran küçük kamış parçaları eklenir ve ağza alınır.",
+     "kaynak": "https://www.ktb.gov.tr/EN-98682/cifte.html",
+     "alinti": "placed in the mouth and blown at the same time",
+     "guven": "yüksek",
+     "kritik": true
+    },
+    {
+     "no": 6,
+     "iddia": "Çiftenin yöresel adları: argun, argul, kargın, zambır.",
+     "kaynak": "https://ottomansouvenir.com/Music/Folk_Instruments/Cifte.htm",
+     "alinti": "Çifte is also known as Argun, Argul, Kargın or Zambır at different regions.",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 7,
+     "iddia": "Çiftenin demli (biri drone) ve demsiz türü var.",
+     "kaynak": "https://ottomansouvenir.com/Music/Folk_Instruments/Cifte.htm",
+     "alinti": "There are two çifte types known as Demli Çifte and Demsiz Çifte.",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 8,
+     "iddia": "Sipsi tek kamışlı, klarnet benzeri, 5 ön + 1 arka delikli; flüt değil.",
+     "kaynak": "https://en.wikipedia.org/wiki/Sipsi",
+     "alinti": "clarinet-like, single-reed instrument (arama özeti, birebir değil)",
+     "guven": "orta",
+     "kritik": true
+    },
+    {
+     "no": 9,
+     "iddia": "Mey kamışlı çalgıdır (geniş, uzun, çift taraflı kamış); flüt değil.",
+     "kaynak": "https://dergipark.org.tr/tr/download/article-file/586879",
+     "alinti": "geniş, uzun ve çift taraflı kamış (arama özeti)",
+     "guven": "orta",
+     "kritik": true
+    },
+    {
+     "no": 10,
+     "iddia": "Dilli kaval düdüklü (fipple) flüttür, kenardan üflemeli değil.",
+     "kaynak": "https://en.wikipedia.org/wiki/Dilli_kaval",
+     "alinti": "a traditional fipple flute from Turkey and Azerbaijan",
+     "guven": "yüksek",
+     "kritik": true
+    },
+    {
+     "no": 11,
+     "iddia": "Dilli kaval: 7 ön + 1 arka delik; erik, abanoz veya kayısı ağacı.",
+     "kaynak": "https://en.wikipedia.org/wiki/Dilli_kaval",
+     "alinti": "It has seven holes on the front and a thumb hole on the back.",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 12,
+     "iddia": "Dilli kaval soprano (do) ve alto (la) tipleri Burhan Tarlabaşı tarafından patentlenmiş.",
+     "kaynak": "https://en.wikipedia.org/wiki/Dilli_kaval",
+     "alinti": "Both types were patented by Burhan Tarlabaşı.",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 13,
+     "iddia": "Kaval sözcüğü Türkiye'de genelde tüm çoban kavalları için kullanılır; dar anlamda kanalsız flüt.",
+     "kaynak": "https://en.wikipedia.org/wiki/Kaval",
+     "alinti": "the term 'kaval' is used generally to refer to all shepherd's pipes.",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 14,
+     "iddia": "Dilli/dilsiz kaval ayrımı kanal (dil) varlığıdır; dilsiz kaval dilsizdir.",
+     "kaynak": "https://en.wikipedia.org/wiki/Kaval",
+     "alinti": "The presence or absence of a duct is sometimes specified",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 15,
+     "iddia": "Türkiye düdüğü müze kaydında kamışlı, 24 cm, 5 ön + 1 arka delikli.",
+     "kaynak": "https://www.geidai.ac.jp/labs/koizumi/gcat0/english/html-text/537.html",
+     "alinti": "fingerholes: front 5; back 1",
+     "guven": "orta",
+     "kritik": true
+    },
+    {
+     "no": 16,
+     "iddia": "Başka kaynak düdüğü 'dilli kaval' diye anıp 7 delik + başparmak deliği veriyor (çelişki).",
+     "kaynak": "https://www.metmuseum.org/art/collection/search/501920",
+     "alinti": "the düdük (sometimes called dilli kaval) has seven equidistant fingerholes and thumbhole",
+     "guven": "düşük",
+     "kritik": false
+    },
+    {
+     "no": 17,
+     "iddia": "Kargı düdük uzun kamış flüttür; kökeni efsaneyle İskender'e bağlanır; Türkiye'ye özgü yöre yok.",
+     "kaynak": "https://en.wikipedia.org/wiki/Ney",
+     "alinti": "The kargı düdük is a long reed flute whose origin, according to legend, is connected with Alexander the Great,",
+     "guven": "orta",
+     "kritik": true
+    },
+    {
+     "no": 18,
+     "iddia": "Kargı Türkçede kamış (Arundo donax) demektir.",
+     "kaynak": "https://en.wikipedia.org/wiki/Ney",
+     "alinti": "Kargı in Turkish means reed (Arundo donax, also known as Giant reed).",
+     "guven": "yüksek",
+     "kritik": false
+    },
+    {
+     "no": 19,
+     "iddia": "Gargy-tuyduk ölçüleri: 6 delik 780 mm veya 5 delik 550 mm (Tuva, Türkiye değil).",
+     "kaynak": "https://en.wikipedia.org/wiki/Ney",
+     "alinti": "The garg-tuyduk can have six finger holes and a length of 780 mm or five finger holes and a length of 550 mm.",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 20,
+     "iddia": "Toros Yörüklerinde boğaz çalma geleneği var; kargı düdüğüyle bağı gösterilmedi.",
+     "kaynak": "https://www.gazetevatan.com/galeri/torosların-son-bogaz-calicilarindan-gulistan-nine-antalyaspor-forma-tanitiminda-onun-sesini-kullanmisti-2185946",
+     "alinti": "Torosların son boğaz çalıcılarından Gülistan nine!",
+     "guven": "düşük",
+     "kritik": false
+    },
+    {
+     "no": 21,
+     "iddia": "Türk neyi 7 delikli: 6 ön, 1 arka başparmak.",
+     "kaynak": "https://en.wikipedia.org/wiki/Ney",
+     "alinti": "Arabic and Turkish neys normally have seven holes, six in front and one thumb-hole in the back.",
+     "guven": "yüksek",
+     "kritik": false
+    },
+    {
+     "no": 22,
+     "iddia": "Ahenk adları: kız, mansur, şah, dâvud, bolâhenk, süpürde, müstahsen; perde karşılıkları kaynaklar arası tutarsız.",
+     "kaynak": "https://islamansiklopedisi.org.tr/ney",
+     "alinti": "kız ney, mansur, şah, dâvud, bolâhenk (arama özeti)",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 23,
+     "iddia": "Diyarbakır Büyükşehir Belediyesi ücretsiz kurslarında kaval ve ney var (duyuru tarihi görünmüyor).",
+     "kaynak": "https://www.diyarbakir.bel.tr/en/news/17656-registration-opens-for-free-art-and-music-courses.html",
+     "alinti": "kaval and ney (arama özeti; sayfa fetch'te 404)",
+     "guven": "orta",
+     "kritik": true
+    },
+    {
+     "no": 24,
+     "iddia": "Zeytinburnu Belediyesi 2023 kataloğunda ney kursu var.",
+     "kaynak": "https://zeytinburnu.istanbul/wp-content/uploads/2024/05/Katalog23-12x17-1.pdf",
+     "alinti": "ney (arama özeti)",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 25,
+     "iddia": "Bilecik Belediyesi Sanat Akademisi yaz kurslarında ney ve ney yapım atölyesi vardı, başvuru geçmişte kaldı.",
+     "kaynak": "https://www.yenicaggazetesi.com/bilecik-belediyesi-sanat-akademisi-yaz-kurslari-basliyor-1048515h.htm",
+     "alinti": "Bilecik Belediyesi Sanat Akademisi yaz kursları başlıyor",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 26,
+     "iddia": "NeyzenTV kanalı başlangıçtan ileri seviyeye ücretsiz ney dersleri veriyor.",
+     "kaynak": "https://www.youtube.com/c/NeyzenTV",
+     "alinti": "NeyzenTV - YouTube",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 27,
+     "iddia": "Zafer Küçük'ün YouTube'da Türkçe kaval ders serisi var (Ders 1 üfleme çalışması).",
+     "kaynak": "https://www.youtube.com/watch?v=JYmSgMoXJpQ",
+     "alinti": "Zafer Küçük, Kaval Dersi 1. Ders (Üfleme çalışması)",
+     "guven": "yüksek",
+     "kritik": false
+    },
+    {
+     "no": 28,
+     "iddia": "Dilsiz kavalda sabit mekanizma olmadığından perde doğruluğu başlangıçta zor; MEB kaval modülü ve müfredatı var.",
+     "kaynak": "https://gcris.yyu.edu.tr/entities/publication/29fdb267-caf3-4078-bdf3-a006c91ca8fc",
+     "alinti": "Dilsiz Kavalda Üfleme Teknikleri",
+     "guven": "orta",
+     "kritik": false
+    },
+    {
+     "no": 29,
+     "iddia": "'Konuşan Kaval' adlı bir kitap sahaf sitesinde listeli (yazar ve içerik doğrulanmadı).",
+     "kaynak": "https://www.nadirkitap.com/konusan-kaval-kitap44211267.html",
+     "alinti": "KONUŞAN KAVAL",
+     "guven": "düşük",
+     "kritik": false
+    },
+    {
+     "no": 30,
+     "iddia": "Clarke Sweetone D siyah kılıflı: idefix 976,66 TL, n11 1.950,44 TL.",
+     "kaynak": "https://www.n11.com/arama?m=Clarke",
+     "alinti": "976,66 TL / 1.950,44 TL (arama özeti)",
+     "guven": "düşük",
+     "kritik": false
+    }
+   ],
+   "aykiri_bulgular": "1) Çifte: aday listede 'çift gövdeli, düdüklü?' idi; kaynaklar (ottomansouvenir, KTB) iki kamış boru ve ağza alınan küçük kamışlar diyor, yani kamışlı, flüt değil. 2) Kargı düdüğü: Toros/Teke yöresi ve boğazdan ses eşliği iddiası için kaynak yok; bulunan tek tanım Tuva gargy-tuyduk ile birlikte geçiyor. Wikipedia kaynaklı, zayıf. 3) Düdük: bir müze kaydı kamışlı 5+1 delik veriyor, bir kaynak dilli kaval/7+1 delik diyor, 'dilli düdük' ise Türkmen tek kamışlı çalgıyla karışıyor; çoban düdüğü ayrı bir kayıt bulunamadı. 4) Çığırtma: kaynaklarda yöre yalnızca Burdur (tez başlığı) ve Elazığ (düşük güven); mekanizma belirtilmemiş. 5) Tin whistle fiyatı aynı modelde 977 ile 1.950 TL arası, iki mağaza arası iki katı fark. 6) Arama sonucu özetlerinden birinde konuyla ilgisiz bir talimat benzeri metin vardı, dikkate alınmadı.",
+   "acik_kalanlar": "Çığırtmanın üfleme mekanizması ve yöre ayrıntısı (Ertürk Burdur tezi tam metni gerek; acikbilim.yok.gov.tr ağ izni dışında). Kargı düdüğünün Türkiye'deki yeri. Çoban düdüğü ve Türkiye'ye özgü dilli düdük tanımı. İBB Sanat ve Halk Eğitim Merkezi'nde somut güncel kaval kursu sayfası. Kaval metot kitabının yazar ve adı (Tekşahin bildirisi dışında). Trendyol/Hepsiburada tin whistle, okarina, bansuri, Native American flute, quena fiyatları ve Türkiye satıcıları. Kaval ve ney video kanallarının gerçek adı (Zafer Küçük dışında). Ney ahengleri perde eşleştirmesi."
+  },
+  "secilen": [
+   {
+    "id": "turkiye-2",
+    "tur": "kritik"
+   },
+   {
+    "id": "turkiye-4",
+    "tur": "kritik"
+   },
+   {
+    "id": "turkiye-5",
+    "tur": "kritik"
+   },
+   {
+    "id": "turkiye-8",
+    "tur": "kritik"
+   },
+   {
+    "id": "turkiye-9",
+    "tur": "kritik"
+   },
+   {
+    "id": "turkiye-10",
+    "tur": "kritik"
+   },
+   {
+    "id": "turkiye-15",
+    "tur": "kritik"
+   },
+   {
+    "id": "turkiye-17",
+    "tur": "kritik"
+   },
+   {
+    "id": "turkiye-23",
+    "tur": "kritik"
+   },
+   {
+    "id": "turkiye-3",
+    "tur": "ornek"
+   },
+   {
+    "id": "turkiye-12",
+    "tur": "ornek"
+   },
+   {
+    "id": "turkiye-18",
+    "tur": "ornek"
+   },
+   {
+    "id": "turkiye-22",
+    "tur": "ornek"
+   },
+   {
+    "id": "turkiye-27",
+    "tur": "ornek"
+   }
+  ],
+  "dogrulama": {
+   "arac": "araç: 19/28",
+   "sonuclar": [
+    {
+     "id": "turkiye-2",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/%C3%87%C4%B1%C4%9F%C4%B1rtma",
+     "kanit_alinti": "The çığırtma is made from the wing bone of an eagle."
+    },
+    {
+     "id": "turkiye-4",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://ottomansouvenir.com/Music/Folk_Instruments/Cifte.htm",
+     "kanit_alinti": "It is made by tying two reed pipes side by side."
+    },
+    {
+     "id": "turkiye-5",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.ktb.gov.tr/EN-98682/cifte.html",
+     "kanit_alinti": "These two small reeds are placed in the mouth and blown at the same time."
+    },
+    {
+     "id": "turkiye-8",
+     "durum": "dogru",
+     "duzeltme": "Not: sayfa kendi içinde tutarsız; giriş 5 ön + 1 arka delik, çalma bölümü 'six finger holes' diyor (toplam 6, tutarlı).",
+     "kanit_url": "https://en.wikipedia.org/wiki/Sipsi",
+     "kanit_alinti": "clarinet-like, single-reed instrument used mainly in folk music"
+    },
+    {
+     "id": "turkiye-9",
+     "durum": "dogru",
+     "duzeltme": "Not: Mey ağaçtan yapılmıştır, ön yüzde yedi, arkada bir delik vardır.",
+     "kanit_url": "https://dergipark.org.tr/tr/download/article-file/586879",
+     "kanit_alinti": "Gövdenin ağız kısmında ses çıkarmak için geniş, uzun ve çift taraflı kamış kullanılır."
+    },
+    {
+     "id": "turkiye-10",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Dilli_kaval",
+     "kanit_alinti": "is a traditional fipple flute from Turkey and Azerbaijan"
+    },
+    {
+     "id": "turkiye-15",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.geidai.ac.jp/labs/koizumi/gcat0/english/html-text/537.html",
+     "kanit_alinti": "L. 24.0cm; fingerholes: front 5; back 1"
+    },
+    {
+     "id": "turkiye-17",
+     "durum": "kismen",
+     "duzeltme": "Kargı düdük'ün uzun kamış flüt olduğu ve kökeninin efsaneyle İskender'e bağlandığı kaynakta var; 'Türkiye'ye özgü yöre yok' kısmı kaynakta doğrulanmadı.",
+     "kanit_url": "https://en.wikipedia.org/wiki/Ney",
+     "kanit_alinti": "whose origin, according to legend, is connected with Alexander the Great"
+    },
+    {
+     "id": "turkiye-23",
+     "durum": "dogru",
+     "duzeltme": "Sayfa fetch'te 404; arama özeti kaval ve ney kursunu doğruladı. Duyuru tarihi görünmüyor (doğrulanmadı).",
+     "kanit_url": "https://www.diyarbakir.bel.tr/en/news/17656-registration-opens-for-free-art-and-music-courses.html",
+     "kanit_alinti": "kaval and ney, clarinet and bağlama, painting"
+    },
+    {
+     "id": "turkiye-3",
+     "durum": "dogru",
+     "duzeltme": "Yüksek lisans tezi, Serkan Ertürk, danışman Yusuf Akbulut (arama özeti; sayfa fetch'te ağ izni yok).",
+     "kanit_url": "https://acikbilim.yok.gov.tr/handle/20.500.12812/297291",
+     "kanit_alinti": "Türk halk müziği geleneğinde kemik üflemeli çalgı çığırtma; Burdur il örneği"
+    },
+    {
+     "id": "turkiye-12",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Dilli_kaval",
+     "kanit_alinti": "Both types were patented by Burhan Tarlabaşı."
+    },
+    {
+     "id": "turkiye-18",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Ney",
+     "kanit_alinti": "Kargı in Turkish means reed"
+    },
+    {
+     "id": "turkiye-22",
+     "durum": "kismen",
+     "duzeltme": "İslam Ansiklopedisi yedi adı verir (kız, mansur, şah, dâvud, bolâhenk, süpürde, müstahsen); kaynak içinde perde karşılıklarında tutarsızlık görülüyor (kız ney iki kez sol; şah-dâvud aralığı tam ses değil). 'Kaynaklar arası' tutarsızlık bu oturumda başka kaynakla karşılaştırılmadı.",
+     "kanit_url": "https://islamansiklopedisi.org.tr/ney",
+     "kanit_alinti": "esas neyler kız ney, mansur, şah, dâvud, bolâhenk diye isimlendirilmiştir."
+    },
+    {
+     "id": "turkiye-27",
+     "durum": "erisilemedi",
+     "duzeltme": "YouTube sayfası başlık/kanal vermedi; aramada Zafer Küçük'ün kaval ders videosu bulunamadı. Doğrulanmadı.",
+     "kanit_url": "https://www.youtube.com/watch?v=JYmSgMoXJpQ",
+     "kanit_alinti": ""
+    }
+   ],
+   "notlar": "acikbilim.yok.gov.tr WebFetch'te ağ izni yok (ENOTFOUND); arama özeti kullanıldı. PDF indirilip pdftotext ile okundu (geçici dizin /root/dl1). Çığırtma Wikipedia sayfası üfleme mekanizmasını belirtmiyor, 'edge-blown' yalnızca kategori/taslak notunda."
+  }
+ }
+}
