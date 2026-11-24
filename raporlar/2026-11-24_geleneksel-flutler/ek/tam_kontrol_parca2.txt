@@ -1,0 +1,16 @@
+id | iddia | kaynak | alıntı
+kenar-2 | Kavalın 8 çalma deliği vardır (7 ön, 1 arka). | https://en.wikipedia.org/wiki/Kaval | The kaval has eight playing holes (seven in front and one in the back for the thumb).
+kenar-6 | Kavalın alt ucunda 4 kullanılmayan delik vardır (Bulgarcada 'şeytan delikleri'). | https://en.wikipedia.org/wiki/Kaval | The lower holes are known as "devil's holes."
+kenar-18 | Kurai uzun, açık uçtan üflemeli, 2-7 delikli, üç oktavlı bir flüttür. | https://en.wikipedia.org/wiki/Kurai_(flute) | The diapason of a quray consists of three octaves.
+kenar-15 | Arap neyi ağızlıksız çalınır; ikinci oktava geçiş zahmetlidir; oktav geçişi kontrol edilmelidir. | https://en.wikipedia.org/wiki/Ney | The Arabic ney is played without any mouthpiece.
+kenar-23 | Kazakça 'сыбызғы' Kırgız sybyzgy'sini değil tsuur'u ifade eder. | https://en.wikipedia.org/wiki/Sybyzgy | (özet: sybyzgy refers not to the Kyrgyz sybyzgy but to the Tsuur)
+kenar-19 | Tsuur uçtan üflenir, yalnızca parmak delikleri vardır. | https://en.wikipedia.org/wiki/Tsuur | The tsuur has only finger holes.
+kenar-12 | Türk neyinde 6 ön delik ve 1 arka başparmak deliği vardır. | https://en.wikipedia.org/wiki/Turkish_ney | the Turkish ney has six finger-holes on the front and a high-set thumb-hole on the back
+kenar-24 | Washint uçtan üflemeli, genelde 4 delikli, pentatonik. | https://en.wikipedia.org/wiki/Washint | generally has four finger-holes
+ogrenme-15 | Plastik shakuhachi Yuu bambuya benzer çalar, kararlı ve dayanıklı (forum görüşü). | https://forum.shakuhachisociety.eu/t313-Buying-a-first-shakuhachi-or-jinashi.htm | It looks and plays (almost) like a bamboo, and its very stable and durable, and usefully tuned.
+yan-18 | Ryuteki 7 delikli yan flüt, ~40 cm | https://gagaku.stanford.edu/en/woodwinds/ryuteki | a seven-holed transverse flute made of bamboo
+yan-29 | Yan flüt biçimli ney Orta Asya'da (Özbekistan, Tacikistan) vardır | https://larkinthemorning.com/blogs/articles/the-ney-the-middle-eastern-flute | This ney from Russian Turkestan, about 1872, was a transverse flute
+ogrenme-26 | Halk Eğitim Merkezleri ney kursu açıyor (Ordu, Çubuk). | https://www.mynet.com/cubukta-ney-kursu-acildi-180101391513 | hafta sonları ücretsiz verilen ney kursuna
+ogrenme-27 | Türkçe ney yöntem kitapları var: Süleyman Erguner Ney Metod (2 CD), Karahasan, Fatih Yıldız. | https://www.nadirkitap.com/ney-metod-2-adet-cd-var-suleyman-erguner-kitap46588113.html | NEY METOD (2 adet CD var.)
+yan-4 | Anahtarlı flüt anahtarsızdan pahalıdır | https://oaim.ie/?p=639 | A keyed flute will cost more than a keyless wooden flute due to the additional cost of the materials used to make it.
+ogrenme-4 | Dudakla kurulan jet ayarları zamanla öğrenilen beceridir. | https://phys.unsw.edu.au/jw/fluteacoustics.html | These are the adjustments that one gradually learns to make automatically when playing the flute.

@@ -1,0 +1,2929 @@
+{
+ "uretim": [
+  {
+   "key": "kenar",
+   "sonuc": {
+    "arac": "araç: 15/35",
+    "ozet": "Çentiksiz, kenardan üflenen dikey (eğik) flüt ailesi, öğrenmesi en zor gruptur. Ses çıkarma tek başına haftalar alır (Türk neyi için Wikipedia \"birkaç hafta\" der). Sıralama, kolaydan zora doğru, kendi değerlendirmemdir: Kazak/Kırgız sybyzgy/choor ve Başkurt kurai gibi az delikli, dayanıklı çalgılar parmaklama açısından görece basittir, ama Türkiye'de bulmak ve öğrenmek zordur. Floyera ve dilsiz kaval aynı teknikle çalınır. Floyera, yedi delikli basit bir bambu flüt olarak tanımlanır. Dilsiz kaval ise makam komaları, üç oktav ve dört alt \"ses deliği\" yüzünden daha zordur. Ney en yüksek teknik tavana sahiptir. Türkiye'de ney ve kaval kursu, kitap ve ders bolluğuyla en erişilebilir olanlardır. Bu yüzden erişim puanı düşüktür, yani iyidir.\n\nKritik netleştirme 1: Wikipedia'ya göre dilsiz kaval düdüksüz (\"dilsiz\"), dilli kaval düdüklüdür. Dilli kaval kolay ses verir, dilsiz kaval özel üfleme tekniği ister. Dilli kaval bu ailede değildir. Romanya'daki caval da düdüklüdür; bunu doğrulayacak kaynağı bu görevde görmedim, kendi bilgimdir.\n\nKritik netleştirme 2: \"Flogera/floyera\" adı kaynaklara göre tutarsızdır. Wikipedia onu çentiksiz, düdüksüz, yedi delikli bambu flüt olarak verir. PowerFlute listesi ise \"fipple flute\" der. Bir blog yazısı floyeranın bazen düdüklü, bazen düdüksüz olduğunu aktarıyor. Souravli ise düdüklüdür. Yani adla alırsanız düdüklü bir çalgı gelebilir. Satın almadan önce üfleme biçimini satıcıya sorun. Epir'de uzun tipe tzamara denir ve parmaklaması farklıdır; Trakya'da aynı çalgıya gavala, gaval ya da kaval denir. Adlar bölgeye göre örtüşür.\n\nDoğrulanamayanlar: kargı düdüğü (kaynakta yalnızca \"uzun kamış flüt\" olarak geçti; boğaz sesi ve Güneybatı Anadolu iddiaları doğrulanmadı), blul delik sayısı, Azerbaycan neyi ayrıntısı, washint puanları, sybyzgy'nin Kazak/Kırgız ayrımı. Kaynaklar çelişiyor: Kazak sybyzgy'si çoğu kaynakta uçtan üflemeli, Kırgız sybyzgy'si yandan üflemeli.",
+    "enstrumanlar": [
+     {
+      "ad": "Dilsiz kaval (Türkiye); Bulgar/Makedon kavalı",
+      "bolge": "Anadolu, Balkanlar",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "7 ön + 1 arka delik, alt uçta 4 ses deliği (kullanılmaz); yaklaşık 2 oktav + beşli",
+      "ses_cikarma": 5,
+      "teknik": 4,
+      "aralik_kontrol": 5,
+      "erisim": 2,
+      "gerekce": "Wikipedia: keskin kenara üflenir, 8 çalma deliği, iki oktav ve beşli, üfleme basıncıyla ses değişir. Dilsiz kavalın TRT'de komaları için ek aparat önerilmiş (dergipark). Erişim puanı kendi değerlendirmem: Türkiye'de MEB kaval müfredatı var, öğretmen ve kurs görece bol.",
+      "defter_no": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6
+      ]
+     },
+     {
+      "ad": "Floyera / flogera (Yunanistan)",
+      "bolge": "Yunanistan",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "genelde 7 ön delik (kaynaklar 6 ya da 7 der), bambu",
+      "ses_cikarma": 5,
+      "teknik": 3,
+      "aralik_kontrol": 4,
+      "erisim": 3,
+      "gerekce": "Wikipedia: düdüksüz, kenara üflenen, tipik 7 delik. Bazı kaynaklar düdüklü der (adlandırma belirsiz). Puanlar kendi değerlendirmem: kavalla aynı teknik, kısa ve basit parmaklık, Türkiye'de satış ve ders azdır.",
+      "defter_no": [
+       7,
+       8,
+       9
+      ]
+     },
+     {
+      "ad": "Tzamara / dzamara",
+      "bolge": "Epir, Yunanistan",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "uzun (yaklaşık 30 inç), yedi delik ve başparmak deliği",
+      "ses_cikarma": 5,
+      "teknik": 3,
+      "aralik_kontrol": 5,
+      "erisim": 5,
+      "gerekce": "UMBC makalesi: kenarı eğik kesilmiş ucun üzerine üflenir. Epir kaynağı: daha uzun ve farklı parmaklama. Erişim ve diğer puanlar kendi değerlendirmem.",
+      "defter_no": [
+       10,
+       11
+      ]
+     },
+     {
+      "ad": "Ney (Türk neyi); Arap nayı; İran neyi",
+      "bolge": "Türkiye, Arap dünyası, İran",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "Türk neyi: 6 ön + 1 arka delik, başpare; İran neyi 6 delik (1 arkada); Arap nayı genelde 7, ağızlıksız",
+      "ses_cikarma": 5,
+      "teknik": 5,
+      "aralik_kontrol": 4,
+      "erisim": 2,
+      "gerekce": "Wikipedia: Türk neyinde ses çıkarmak 'birkaç hafta' alır; ikinci oktava geçiş zahmetli; tam kromatik zor. Başpare kontrolü kolaylaştırır. Erişim kendi değerlendirmem: Türkiye'de kurs ve kitap en bol olan çentiksiz flüttür.",
+      "defter_no": [
+       12,
+       13,
+       14,
+       15
+      ]
+     },
+     {
+      "ad": "Kargı düdüğü",
+      "bolge": "Anadolu (Ege iddiası doğrulanmadı)",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "uzun kamış (Arundo donax) flüt",
+      "ses_cikarma": 5,
+      "teknik": 3,
+      "aralik_kontrol": 4,
+      "erisim": 5,
+      "gerekce": "Kaynakta yalnızca uzun kamış flüt olarak geçti; üfleme biçimi ve boğaz sesi doğrulanmadı. Tüm puanlar kendi değerlendirmem.",
+      "defter_no": [
+       16
+      ]
+     },
+     {
+      "ad": "Blul",
+      "bolge": "Ermenistan",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "sring ailesinden; delik sayısı doğrulanmadı",
+      "ses_cikarma": 5,
+      "teknik": 3,
+      "aralik_kontrol": 4,
+      "erisim": 5,
+      "gerekce": "Kaynak: ağızlıksız, eğik tutulup keskin kenara üflenir. Puanlar kendi değerlendirmem.",
+      "defter_no": [
+       17
+      ]
+     },
+     {
+      "ad": "Kurai / quray (Başkurt, Tatar)",
+      "bolge": "Başkurdistan, Tataristan",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "2-7 delik; 3 oktav; Pleurospermum sapı",
+      "ses_cikarma": 5,
+      "teknik": 2,
+      "aralik_kontrol": 4,
+      "erisim": 5,
+      "gerekce": "Wikipedia: uzun açık uçtan üflemeli, 2-7 delik, 3 oktav. Boğaz şarkısı (uzlyau) kaynakta yok. Teknik, erişim kendi değerlendirmem.",
+      "defter_no": [
+       18
+      ]
+     },
+     {
+      "ad": "Tsuur / choor (Moğol, Kırgız, Tuva)",
+      "bolge": "İç Asya",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "4-5 delik, değişken boy, ağaç/kamış",
+      "ses_cikarma": 5,
+      "teknik": 2,
+      "aralik_kontrol": 4,
+      "erisim": 5,
+      "gerekce": "Wikipedia: diş, dil ve dudak kullanılır (Pers neyi gibi), yalnızca parmak delikleri. Boğaz şarkısı (khailakh) ile çalınır. Puanlar kendi değerlendirmem.",
+      "defter_no": [
+       19,
+       20,
+       21
+      ]
+     },
+     {
+      "ad": "Sybyzgy (Kazak) / sybyzgy (Kırgız)",
+      "bolge": "Kazakistan, Kırgızistan",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "Kırgız sybyzgy'si yandan üflemeli, 6 delik (eski), 10 (modern); Kazak adı tsuur'u da kapsar",
+      "ses_cikarma": 4,
+      "teknik": 2,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Wikipedia çelişkili: Kırgız sybyzgy'si yandan üflemeli, Kazak adı tsuur için kullanılıyor. Bu yüzden ailenin dışında olabilir. Puanlar kendi değerlendirmem.",
+      "defter_no": [
+       22,
+       23
+      ]
+     },
+     {
+      "ad": "Washint",
+      "bolge": "Etiyopya, Eritre",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "4 delik, pentatonik; bambu/ağaç",
+      "ses_cikarma": 4,
+      "teknik": 1,
+      "aralik_kontrol": 2,
+      "erisim": 5,
+      "gerekce": "Wikipedia: uçtan üflemeli, genelde 4 parmak deliği, pentatonik. Zorluk bahsi yok. Puanlar kendi değerlendirmem.",
+      "defter_no": [
+       24
+      ]
+     }
+    ],
+    "defter": [
+     {
+      "no": 1,
+      "iddia": "Kaval keskin kenara üflenerek çalınır ve nefes basıncı perdeyi değiştirir.",
+      "kaynak": "https://en.wikipedia.org/wiki/Kaval",
+      "alinti": "played by blowing on the sharpened edge of one end",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 2,
+      "iddia": "Kavalın 8 çalma deliği vardır (7 ön, 1 arka).",
+      "kaynak": "https://en.wikipedia.org/wiki/Kaval",
+      "alinti": "The kaval has eight playing holes (seven in front and one in the back for the thumb).",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 3,
+      "iddia": "Kaval iki oktav ve bir beşli çalar.",
+      "kaynak": "https://en.wikipedia.org/wiki/Kaval",
+      "alinti": "The kaval plays two octaves and a fifth, in the chromatic scale.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 4,
+      "iddia": "Dilli kaval düdüklü, dilsiz kaval düdüksüzdür.",
+      "kaynak": "https://en.wikipedia.org/wiki/Kaval",
+      "alinti": "dilsiz kaval ('kaval without a tongue')",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 5,
+      "iddia": "Dilsiz kavalın TRT topluluklarında koma sorunu yaşanmış, delik ayarı aparatı önerilmiş.",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/1159784",
+      "alinti": "(arama özeti; sayfa açılmadı)",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 6,
+      "iddia": "Kavalın alt ucunda 4 kullanılmayan delik vardır (Bulgarcada 'şeytan delikleri').",
+      "kaynak": "https://en.wikipedia.org/wiki/Kaval",
+      "alinti": "The lower holes are known as \"devil's holes.\"",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 7,
+      "iddia": "Floyera düdüksüz, uçtan üflenen bambu flüttür.",
+      "kaynak": "https://en.wikipedia.org/wiki/Floghera",
+      "alinti": "played by directing a narrow air stream against its sharp, open upper end",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 8,
+      "iddia": "Floyera tipik olarak 7 delikli.",
+      "kaynak": "https://en.wikipedia.org/wiki/Floghera",
+      "alinti": "It typically has seven finger holes.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 9,
+      "iddia": "Floyera bazı kaynaklarda düdüklü olarak listelenir ve düdüksüz/düdüklü türler olabilir.",
+      "kaynak": "https://www.powerflute.ch/single_instrument/floyera",
+      "alinti": "(arama özeti: Fipple Flute olarak listeleniyor; sayfa açılmadı)",
+      "guven": "düşük",
+      "kritik": true
+     },
+     {
+      "no": 10,
+      "iddia": "Tzamara ve kaval kenardan üflenir, dik tutulur.",
+      "kaynak": "https://www2.umbc.edu/eol/4/tammer/tammer_i.html",
+      "alinti": "played by blowing across an end which has been tapered at an angle to form a sharpened rim",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 11,
+      "iddia": "Epir'de uzun flütlere tzamara denir ve parmaklama farklıdır.",
+      "kaynak": "https://www2.umbc.edu/eol/4/tammer/tammer_i.html",
+      "alinti": "The flutes are made in matching lengths and fingerhole positions rather than in standardized keys.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 12,
+      "iddia": "Türk neyinde 6 ön delik ve 1 arka başparmak deliği vardır.",
+      "kaynak": "https://en.wikipedia.org/wiki/Turkish_ney",
+      "alinti": "the Turkish ney has six finger-holes on the front and a high-set thumb-hole on the back",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 13,
+      "iddia": "Türk neyinde ses çıkarmak haftalar alır.",
+      "kaynak": "https://en.wikipedia.org/wiki/Turkish_ney",
+      "alinti": "often taking several weeks of practice to produce a proper sound at all",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 14,
+      "iddia": "Başpare, Pers neyi ve tsuur'a göre daha iyi kontrol verir; diğerleri dişlerle çalınır.",
+      "kaynak": "https://en.wikipedia.org/wiki/Turkish_ney",
+      "alinti": "lower volume but better control than the Persian ney or tsuur",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 15,
+      "iddia": "Arap neyi ağızlıksız çalınır; ikinci oktava geçiş zahmetlidir; oktav geçişi kontrol edilmelidir.",
+      "kaynak": "https://en.wikipedia.org/wiki/Ney",
+      "alinti": "The Arabic ney is played without any mouthpiece.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 16,
+      "iddia": "Kargı düdüğü uzun kamış flüttür (kargı = Arundo donax).",
+      "kaynak": "https://dergipark.org.tr/en/download/article-file/3630948",
+      "alinti": "(arama özeti; sayfa açılmadı)",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 17,
+      "iddia": "Blul, ağızlıksız, eğik tutulup keskin kenara üflenen sring türüdür.",
+      "kaynak": "https://dewiki.de/Lexikon/Blul",
+      "alinti": "(arama özeti; sayfa açılmadı)",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 18,
+      "iddia": "Kurai uzun, açık uçtan üflemeli, 2-7 delikli, üç oktavlı bir flüttür.",
+      "kaynak": "https://en.wikipedia.org/wiki/Kurai_(flute)",
+      "alinti": "The diapason of a quray consists of three octaves.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 19,
+      "iddia": "Tsuur uçtan üflenir, yalnızca parmak delikleri vardır.",
+      "kaynak": "https://en.wikipedia.org/wiki/Tsuur",
+      "alinti": "The tsuur has only finger holes.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 20,
+      "iddia": "Tsuur ney gibi diş, dil ve dudakla çalınır.",
+      "kaynak": "https://en.wikipedia.org/wiki/Tsuur",
+      "alinti": "the teeth, tongue, and lips in the same way as the ney",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 21,
+      "iddia": "Tsuur eşliğinde söylenen tarza khailakh denir.",
+      "kaynak": "https://en.wikipedia.org/wiki/Tsuur",
+      "alinti": "the singing style sung with the tsuur is known as Khailakh",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 22,
+      "iddia": "Kırgız sybyzgy'si yandan üflemelidir.",
+      "kaynak": "https://en.wikipedia.org/wiki/Sybyzgy",
+      "alinti": "Kyrgyz sideblown flute",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 23,
+      "iddia": "Kazakça 'сыбызғы' Kırgız sybyzgy'sini değil tsuur'u ifade eder.",
+      "kaynak": "https://en.wikipedia.org/wiki/Sybyzgy",
+      "alinti": "(özet: sybyzgy refers not to the Kyrgyz sybyzgy but to the Tsuur)",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 24,
+      "iddia": "Washint uçtan üflemeli, genelde 4 delikli, pentatonik.",
+      "kaynak": "https://en.wikipedia.org/wiki/Washint",
+      "alinti": "generally has four finger-holes",
+      "guven": "yüksek",
+      "kritik": false
+     }
+    ],
+    "aykiri_bulgular": "1) Floyera tek tip değil: PowerFlute onu düdüklü (\"fipple flute\") listeliyor ve bir blog düdüklü/düdüksüz ikisinin de olduğunu söylüyor; Wikipedia düdüksüz diyor. Adayın \"çoğunlukla kenardan\" hipotezi kısmen doğru, ancak adla alınan çalgı düdüklü çıkabilir. Souravli ise düdüklü (Wikipedia). \"Sfyrichtra\" hiçbir kaynakta çıkmadı.\n2) Kazak \"sybyzgy\" adı tsuur/choor benzeri uçtan üflemeli çalgıyı da, Kırgız yandan üflemeli çalgıyı da gösteriyor. Aday listedeki \"dikey mi yan mı\" sorusunun yanıtı: ikisi de var, ad karışık.\n3) Wikipedia kavalda 8 çalma deliği ve ek 4 alt delik veriyor (adayın \"7 ön + 1 arka\" ile uyumlu), ancak \"3 oktav\" yerine \"2 oktav ve beşli\" diyor; adayın 3 oktav bilgisi kurai için geçerli (kaynakta), kaval için doğrulanmadı.\n4) Wikipedia'ya göre İran neyi ağızlıksız, dişle çalınmıyor olabilir; adayın \"dişler arasında tutma\" ifadesini doğrulayan sayfa bulamadım. Tsuur için diş kullanımı doğrulandı.\n5) Listede olmayan önemli bulgu: Türkiye ve Balkanlarda kaval için ayrı \"tsel/çifte\" kaval çeşitleri var; Rodop'ta ikili kaval (biri melodi, biri drone).",
+    "acik_kalanlar": "Kargı düdüğü için güvenilir kaynak bulunamadı (üfleme biçimi, boğaz sesi, yöre). Blul delik sayısı, Azerbaycan neyi ve choor/kurai ayrıntıları doğrulanmadı. Türkiye'de fiyat, kurs ve yöntem kitabı bolluğuna dair doğrudan kaynak (satıcı, kurs) görülmedi; erişim puanları kendi değerlendirmem. Kurai'de boğaz şarkısı (uzlyau) kaynakta yok. Floyera'nın düdüklü ve düdüksüz ayrımı için ek bir uzman kaynak gerekir. Defter satırları 5, 16 ve 17 yalnızca arama özetine dayanıyor (sayfa açılmadı), güveni düşük. Kontrol noktasının çok altında kaldım (15/35); kalan eksikler tek tek kaynak bulma sorunu, yeni arama bunları büyük olasılıkla çözmezdi."
+   }
+  },
+  {
+   "key": "duduklu",
+   "sonuc": {
+    "arac": "araç: 22/35",
+    "ozet": "Düdüklü (fipple/duct) ailede liste büyük ölçüde doğrulandı; iki düzeltme ve bir sınırlama var. (1) Romanya cavalı: Wikipedia 'Caval' sayfası kaval'ı kenardan üflemeli (rim-blown) tanımlıyor; 'Fluier' sayfası ise caval'ı 5 delikli büyük düdüklü fluier olarak veriyor. Yani 'caval' adı iki farklı mekanizma için kullanılıyor; raporda ikisi ayrı yazılmalı. Bizim 'dilli kaval' ise düdüklü ve ayrı bir çalgı. (2) Bulgar duduk/dvoyanka: Met Müzesi kaydına göre Bulgaristan, Yugoslavya ve Türkiye'de 'duduk/düdük' düdüklü flüt, Ermenistan ve Gürcistan'da çift kamışlı; Ermeni duduk bu aileye girmez. Dvoyanka'nın düdüklü olduğu doğrudan teyit edilemedi. (3) Frula: tüm kaynaklar düdüklü ve 6 delikli; düdüksüz frula türü bulunamadı (bu arama çelişki arayışıydı; sonuçsuz). Doğuşken grup: fujara (160-200 cm, 3 delik, aşırı üfleme esas teknik; UNESCO 2008), koncovka (deliksiz, alt ucu kapatıp açarak iki harmonik dizi), seljefløyte/willow flute (deliksiz, çapraz düdük; ayrıca ayarlı perde çalamaz). Tilinkó/tilinca düdüksüz, uç üflemeli görünüyor (telenka maddesi); bu yüzden düdüklü ailenin sınırında, çalış ve ses güçlüğü kenar üflemeye yakın. Öğrenme sırası (kolaydan zora): blok flüt ≈ tin whistle ≈ Kızılderili flütü (üfleyince ses gelir; Kızılderili flütünde pentatonik dizi hazır) < sopilka, fluier, frula, shvi, dilli kaval, pinkillo, txistu (6-8 delikli; shvi ve dilli kaval ek olarak başparmak deliği, dilli kavalda kuvvete göre oktav) < suling (dairesel nefes, bölgesel) < doğuşkenler: koncovka, seljefløyte, fujara (aralık kontrolü 5). Erişim: Türkiye'de tin whistle ve blok flüt bol; dilli kaval yerel olarak bulunur ve öğretmen vardır; fujara, koncovka, pinkillo, txistu, salamuri nadir. Doğrulanamayanlar: galoubet, svirel, fujarka, tütek, tilinkó'nun Macar sayfası, Türkiye'de fiyat ve ders sayısı (puanlar kendi değerlendirmem).",
+    "enstrumanlar": [
+     {
+      "ad": "Blok flüt (recorder) - karşılaştırma tabanı",
+      "bolge": "Avrupa",
+      "mekanizma": "duduklu",
+      "yapi": "7+1 delik, 2+ oktav",
+      "ses_cikarma": 1,
+      "teknik": 2,
+      "aralik_kontrol": 1,
+      "erisim": 1,
+      "gerekce": "Tin whistle ve flajolelerle aynı düdüklü aile (kkaynak 2). Okul ve amatör çalgısı. Erişim, ders bolluğu ve fiyat için kendi değerlendirmem: ucuz plastik modeller her yerde.",
+      "defter_no": [
+       1,
+       2
+      ]
+     },
+     {
+      "ad": "Tin whistle / penny whistle",
+      "bolge": "İrlanda",
+      "mekanizma": "duduklu",
+      "yapi": "6 delik, 2 oktav",
+      "ses_cikarma": 1,
+      "teknik": 1,
+      "aralik_kontrol": 2,
+      "erisim": 1,
+      "gerekce": "Altı delikli, 'relatively easy to play', standart aralık iki oktav, düşük maliyet (defter 3). Üfleyince ses gelir; üst oktav için üfleme gücü artırılır. Türkiye'de bulunurluk: kendi değerlendirmem.",
+      "defter_no": [
+       3
+      ]
+     },
+     {
+      "ad": "Kızılderili flütü (Native American flute)",
+      "bolge": "Kuzey Amerika",
+      "mekanizma": "duduklu",
+      "yapi": "5-6 delik, iki odalı, minör pentatonik",
+      "ses_cikarma": 1,
+      "teknik": 1,
+      "aralik_kontrol": 2,
+      "erisim": 3,
+      "gerekce": "Dışarıdan blok nefesi yavaş hava odasından ses odasına yönlendirir; pentatonik dizi hazır, yeni başlayan 'ease' ile melodi çalar (defter 4,5). Türkiye'de ithal/pahalıdır, Türkçe ders az: kendi değerlendirmem.",
+      "defter_no": [
+       4,
+       5
+      ]
+     },
+     {
+      "ad": "Dilli kaval (düdüklü kaval)",
+      "bolge": "Türkiye, Azerbaycan",
+      "mekanizma": "duduklu",
+      "yapi": "7 ön + 1 başparmak deliği; kuvvete göre oktav",
+      "ses_cikarma": 1,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 2,
+      "gerekce": "Dahili hava kanalı vardır, kenar üflemeli kavaldan farklıdır; tin whistle gibi oktav üfleme gücüyle seçilir (defter 6). Türkiye'de yerel yapım, öğretmen ve video: kendi değerlendirmem.",
+      "defter_no": [
+       6
+      ]
+     },
+     {
+      "ad": "Frula / svirala / jedinka (Sırbistan, Balkanlar)",
+      "bolge": "Sırbistan, Bosna, Hırvatistan",
+      "mekanizma": "duduklu",
+      "yapi": "6 delik, küçük ahşap",
+      "ses_cikarma": 1,
+      "teknik": 2,
+      "aralik_kontrol": 2,
+      "erisim": 4,
+      "gerekce": "Altı delikli düdüklü çalgı (defter 7,8). Düdüksüz frula bulunamadı. Türkiye'de nadir ve ders yok: kendi değerlendirmem.",
+      "defter_no": [
+       7,
+       8
+      ]
+     },
+     {
+      "ad": "Fluier (Romanya)",
+      "bolge": "Romanya",
+      "mekanizma": "duduklu",
+      "yapi": "tipik 6 delik; küçük, orta, büyük boy",
+      "ses_cikarma": 1,
+      "teknik": 2,
+      "aralik_kontrol": 2,
+      "erisim": 4,
+      "gerekce": "Romen halk flütlerinin en yaygın türü, düdüklü, altı parmak deliği (defter 9). Türkiye'den bulma ve ders: kendi değerlendirmem.",
+      "defter_no": [
+       9
+      ]
+     },
+     {
+      "ad": "Caval (Romanya, düdüklü)",
+      "bolge": "Romanya (Oltenia, Muntenia, Dobruca)",
+      "mekanizma": "duduklu",
+      "yapi": "5 delik, büyük boy; 'caval' adı bazen kenar üflemeli kaval için de geçer",
+      "ses_cikarma": 2,
+      "teknik": 2,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Fluier maddesine göre 5 delikli büyük düdüklü fluier (defter 9); Caval maddesinde ise kaval kenar üflemeli (defter 10). Çelişki var. Büyük boy ve nadirlik için kendi değerlendirmem.",
+      "defter_no": [
+       9,
+       10
+      ]
+     },
+     {
+      "ad": "Sopilka (Ukrayna)",
+      "bolge": "Ukrayna, Karpatlar",
+      "mekanizma": "duduklu",
+      "yapi": "6-10 delik; düdüklü türü blok flüte benzer",
+      "ses_cikarma": 2,
+      "teknik": 2,
+      "aralik_kontrol": 2,
+      "erisim": 4,
+      "gerekce": "Sopilka birkaç türü kapsar; bir türü düdüklü ve blok flüt benzeri (defter 11). Düdüksüz uç üflemeli türleri de vardır, bu yüzden ses güçlüğü değişir. Erişim: kendi değerlendirmem.",
+      "defter_no": [
+       11
+      ]
+     },
+     {
+      "ad": "Shvi (Ermenistan)",
+      "bolge": "Ermenistan",
+      "mekanizma": "duduklu",
+      "yapi": "8 ön delik (7 kullanılır) + başparmak; ~30 cm; 2 oktav",
+      "ses_cikarma": 1,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 4,
+      "gerekce": "Düdüklü, normal üflemede bir oktav, güçlü üflemede ikinci oktav (defter 12). Delik sayısı tin whistle'dan fazla. Erişim: kendi değerlendirmem.",
+      "defter_no": [
+       12
+      ]
+     },
+     {
+      "ad": "Pinkillo / pinkillu (And)",
+      "bolge": "Bolivya, Peru",
+      "mekanizma": "duduklu",
+      "yapi": "6 parmak deliği; ikili/topluluk çalınır",
+      "ses_cikarma": 2,
+      "teknik": 2,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Altı deliklidir; wikipedia uç üflemeli sınıflandırıyor, düdük mekanizması metinde belirtilmiyor (defter 13). Düdüklü olduğu varsayımı doğrulanamadı. Türkiye'de bulunmaz: kendi değerlendirmem.",
+      "defter_no": [
+       13
+      ]
+     },
+     {
+      "ad": "Txistu (Bask) ve galoubet (Provence)",
+      "bolge": "Bask Ülkesi, Güney Fransa",
+      "mekanizma": "duduklu",
+      "yapi": "3 delik, tek elle çalınır; davulla (tabor)",
+      "ses_cikarma": 1,
+      "teknik": 3,
+      "aralik_kontrol": 4,
+      "erisim": 5,
+      "gerekce": "Üç delikli, tek elle çalınır, diğer el davul çalar (defter 14); üç delikle tüm dizi için üst harmonikler seçilir, bu yüzden aralık kontrolü zordur (kendi değerlendirmem). Galoubet için kaynak okunamadı.",
+      "defter_no": [
+       14
+      ]
+     },
+     {
+      "ad": "Suling (Endonezya) - halka düdüklü",
+      "bolge": "Endonezya (Sunda, Bali)",
+      "mekanizma": "duduklu",
+      "yapi": "bambu, 4-6 delik (bazı yapımlar 7-9)",
+      "ses_cikarma": 2,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Bambu tüpte rattan bant boşluğundan üflenir (defter 15). Bali sulingi için dairesel nefes gerekir. Bulunurluk ve ders: kendi değerlendirmem.",
+      "defter_no": [
+       15
+      ]
+     },
+     {
+      "ad": "Salamuri (Gürcistan)",
+      "bolge": "Gürcistan",
+      "mekanizma": "duduklu",
+      "yapi": "8 ön + 1 arka delik; ~38-40 cm (kamışsız tür)",
+      "ses_cikarma": 2,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Düdüklü kategoride sayılır, 8 ön ve 1 arka delik; aşırı üflemeyle aralık genişler (defter 16). Mekanizma metinde açık değil. Kamışlı tür de var. Erişim: kendi değerlendirmem.",
+      "defter_no": [
+       16
+      ]
+     },
+     {
+      "ad": "Bulgar dvoyanka / düdük (çift gövde)",
+      "bolge": "Bulgaristan, Balkanlar",
+      "mekanizma": "duduklu",
+      "yapi": "tek ahşap blokta iki tüp, 6 deliğe kadar",
+      "ses_cikarma": 2,
+      "teknik": 4,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Tek parça ahşapta iki tüp; Met Müzesi'ne göre Bulgaristan'da düdük düdüklüdür, Ermeni duduk ise çift kamışlıdır (defter 17,18). Dvoyankanın düdüklü olduğu doğrudan teyit edilemedi. İki tüpü aynı anda yönetmek zordur: kendi değerlendirmem.",
+      "defter_no": [
+       17,
+       18
+      ]
+     },
+     {
+      "ad": "Koncovka",
+      "bolge": "Slovakya",
+      "mekanizma": "dogusken_duduklu",
+      "yapi": "deliksiz; alt uç kapat/aç; iki harmonik dizi",
+      "ses_cikarma": 2,
+      "teknik": 2,
+      "aralik_kontrol": 5,
+      "erisim": 5,
+      "gerekce": "Deliksiz, düdüklü; hava hızı iki harmonik seriyi verir (defter 19). Parmak yoktur ama doğru harmoniği seçmek zordur: kendi değerlendirmem. Türkiye'de nadir.",
+      "defter_no": [
+       19
+      ]
+     },
+     {
+      "ad": "Seljefløyte / willow flute / kalyuka",
+      "bolge": "Norveç, İsveç, Finlandiya, Rusya",
+      "mekanizma": "dogusken_duduklu",
+      "yapi": "deliksiz, çapraz düdük; hava basıncı ve uç kapatmayla",
+      "ses_cikarma": 2,
+      "teknik": 2,
+      "aralik_kontrol": 5,
+      "erisim": 5,
+      "gerekce": "Parmak deliği yok, düdüklü doğuşken; eşit aralıklı dizi çalamaz (defter 20). Modern PVC modeller bulunur. Erişim ve ders: kendi değerlendirmem.",
+      "defter_no": [
+       20
+      ]
+     },
+     {
+      "ad": "Tilinkó / tilinca / telenka (doğuşken, deliksiz)",
+      "bolge": "Macaristan, Romanya, Ukrayna",
+      "mekanizma": "diger",
+      "yapi": "deliksiz; uç parmakla kapanır; düdüksüz olduğu görünür",
+      "ses_cikarma": 4,
+      "teknik": 2,
+      "aralik_kontrol": 5,
+      "erisim": 5,
+      "gerekce": "Telenka maddesine göre deliksiz doğuşken flüt, yalnız uç kapatma ve nefesle çalınır (defter 21). Wikipedia düdüksüz uç üflemeli sınıfa da alıyor; düdüklü ailenin sınırında. Ses güçlüğü kenar üflemeye benzediği için kendi değerlendirmem.",
+      "defter_no": [
+       21
+      ]
+     },
+     {
+      "ad": "Fujara",
+      "bolge": "Slovakya",
+      "mekanizma": "dogusken_duduklu",
+      "yapi": "160-200 cm, 3 delik, doğuşken",
+      "ses_cikarma": 2,
+      "teknik": 3,
+      "aralik_kontrol": 5,
+      "erisim": 5,
+      "gerekce": "3 delikle diatonik dizi aşırı üflemeyle çalınır (defter 22,23); UNESCO 2008. Boyu nedeniyle taşıma ve nefes zor; el pozisyonu için kendi değerlendirmem. Türkiye'de neredeyse hiç yok.",
+      "defter_no": [
+       22,
+       23
+      ]
+     }
+    ],
+    "defter": [
+     {
+      "no": 1,
+      "iddia": "Blok flüt düdüklü flüt ailesindendir; tin whistle ve flajolet ile aynı aile",
+      "kaynak": "https://en.wikipedia.org/wiki/Recorder_(musical_instrument)",
+      "alinti": "a member of the family of duct flutes that includes tin whistles and flageolets",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 2,
+      "iddia": "Okul ve amatör çalgısı olarak yaygınlaşmıştır",
+      "kaynak": "https://en.wikipedia.org/wiki/Recorder_(musical_instrument)",
+      "alinti": "became a popular amateur and educational instrument",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 3,
+      "iddia": "Tin whistle altı delikli, düdüklü, görece kolay, standart aralığı iki oktav",
+      "kaynak": "https://en.wikipedia.org/wiki/Tin_whistle",
+      "alinti": "The standard range of the whistle is two octaves.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 4,
+      "iddia": "Kızılderili flütü iki hava odalıdır, blok nefesi yönlendirir",
+      "kaynak": "https://en.wikipedia.org/wiki/Native_American_flute",
+      "alinti": "has two air chambers",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 5,
+      "iddia": "Modern Kızılderili flütünün ana dizisi minör pentatoniktir; 5-6 parmak deliği",
+      "kaynak": "https://en.wikipedia.org/wiki/Native_American_flute",
+      "alinti": "is the pentatonic minor scale",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 6,
+      "iddia": "Dilli kaval düdüklüdür (kaval kenar üflemelidir), 7 ön delik + 1 başparmak deliği; oktav üfleme gücüyle",
+      "kaynak": "https://en.wikipedia.org/wiki/Dilli_kaval",
+      "alinti": "a traditional fipple flute from Turkey and Azerbaijan",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 7,
+      "iddia": "Frula altı delikli küçük ahşap flüt",
+      "kaynak": "https://en.wikipedia.org/wiki/Frula",
+      "alinti": "a small wooden flute with six holes",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 8,
+      "iddia": "Frula müze kayıtlarında uç üflemeli düdüklü flüt; düdüksüz tür kaynakta bulunmadı",
+      "kaynak": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/2962",
+      "alinti": "fipple nearly fully stopped, narrow duct channel open",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 9,
+      "iddia": "Fluier düdüklü ve altı delikli; caval 5 delikli büyük düdüklü fluier",
+      "kaynak": "https://en.wikipedia.org/wiki/Fluier",
+      "alinti": "a large fipple fluier with five finger-holes",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 10,
+      "iddia": "Caval/kaval (Bulgar/Macar) kenar üflemelidir, düdüklü değil",
+      "kaynak": "https://en.wikipedia.org/wiki/Caval",
+      "alinti": "As a wooden rim-blown flute",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 11,
+      "iddia": "Sopilka birkaç türdür; biri blok flüte benzer düdüklüdür, tipik 6-10 delik",
+      "kaynak": "https://en.wikipedia.org/wiki/Sopilka",
+      "alinti": "six to ten finger holes",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 12,
+      "iddia": "Shvi Ermeni düdüklü flüt; 7 delik + başparmak; aşırı üflemeyle ikinci oktav",
+      "kaynak": "https://en.wikipedia.org/wiki/Shvi",
+      "alinti": "Armenian fipple flute",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 13,
+      "iddia": "Pinkillo altı parmak deliklidir, yağmur mevsiminde çalınır",
+      "kaynak": "https://en.wikipedia.org/wiki/Pinkillo",
+      "alinti": "has six finger holes",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 14,
+      "iddia": "Txistu üç delikli, tek elle çalınır, diğer el davul",
+      "kaynak": "https://en.wikipedia.org/wiki/Txistu",
+      "alinti": "can be played with one hand, leaving the other one free to play a percussion instrument",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 15,
+      "iddia": "Suling bambudur; Sunda'da 4 veya 6 delik",
+      "kaynak": "https://en.wikipedia.org/wiki/Suling",
+      "alinti": "can have either 4 holes or 6 holes",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 16,
+      "iddia": "Salamuri kamışsız türde 8 ön, bazen 1 arka delik; aşırı üflemeyle aralık genişler",
+      "kaynak": "https://en.wikipedia.org/wiki/Salamuri",
+      "alinti": "8 front keys and sometimes one key on the backside",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 17,
+      "iddia": "Duduk adı Bulgaristan, Yugoslavya, Türkiye'de düdüklü flüt, Ermenistan ve Gürcistan'da çift kamışlı çalgı",
+      "kaynak": "https://www.metmuseum.org/art/collection/search/501920",
+      "alinti": "duct flutes but in Armenia and Georgia the term refers to a double-reed instrument",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 18,
+      "iddia": "Dvoyanka çift flüttür, tek ahşap parçada iki tüp, altı delik",
+      "kaynak": "https://en.wikipedia.org/wiki/Dvoyanka",
+      "alinti": "double flute made of a single piece of wood",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 19,
+      "iddia": "Koncovka deliksiz düdüklü, alt delik kapatılıp açılır, hava hızıyla iki harmonik dizi",
+      "kaynak": "https://en.wikipedia.org/wiki/Koncovka",
+      "alinti": "By increasing the air speed, two different harmonic series of notes can be played",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 20,
+      "iddia": "Seljefløyte/willow flute deliksizdir, çapraz düdüklü, eşit aralıklı dizi çalamaz",
+      "kaynak": "https://en.wikipedia.org/wiki/Seljefl%C3%B8yte",
+      "alinti": "a simple tube with a transverse fipple mouthpiece and no finger holes",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 21,
+      "iddia": "Telenka/tilinca deliksiz doğuşken flüt, uç kapatmayla çalınır",
+      "kaynak": "https://en.wikipedia.org/wiki/Tilinca",
+      "alinti": "an overtone flute, a primitive form of dentsivka without fingerholes",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 22,
+      "iddia": "Fujara 160-200 cm, 3 delikli, ana teknik aşırı üfleme",
+      "kaynak": "https://en.wikipedia.org/wiki/Fujara",
+      "alinti": "the normal playing technique is based on overblowing the instrument",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 23,
+      "iddia": "Fujara UNESCO temsili listesine 2008'de girdi",
+      "kaynak": "https://en.wikipedia.org/wiki/Fujara",
+      "alinti": "The Fujara and its Music",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 24,
+      "iddia": "Doğuşken flütler ya hiç ya da az delikli",
+      "kaynak": "https://en.wikipedia.org/wiki/Overtone_flute",
+      "alinti": "have either no tone holes, or relatively few tone holes",
+      "guven": "yüksek",
+      "kritik": false
+     }
+    ],
+    "aykiri_bulgular": "1) Romanya cavalı: aday listedeki '5 delikli düdüklü' bilgisi Fluier sayfasıyla uyuşuyor, ama Wikipedia Caval sayfası kavalı kenar üflemeli tanımlıyor; 'caval' adı iki mekanizma için kullanılıyor, rapor ikisini ayırmalı. 2) Frula için düdüksüz tür arandı, bulunamadı; kaynaklar düdüklü diyor. 3) Dvoyanka/Bulgar duduk düdüklü sayılsa da doğrudan teyit yok; Ermeni duduk kamışlı olduğu için aileden çıkarılmalı. 4) Tilinkó/tilinca düdüksüz görünüyor; aday listedeki 'doğuşken düdüklü' sınıflaması şüpheli, sınır vaka olarak not edilmeli. 5) Listede olmayan: kalyuka (Rusya/Ukrayna, doğuşken, bitki sapından), willow flute, dentsivka, flajolet. 6) Salamuri hem düdüklü hem kamışlı türde var; metin mekanizmayı açıklamıyor. 7) Suling'in halka düdüğü metinde açıkça tarif edilmiyor.",
+    "acik_kalanlar": "Galoubet (kaynak okunamadı), svirel (Rusya), fujarka (Polonya), tütek (Azerbaycan), Macar tilinkó sayfası (404), pinkillo'nun düdük mekanizması, dvoyanka düdük teyidi doğrulanmadı. Türkiye'de fiyat, satıcı, öğretmen bolluğu için kaynak aranmadı; erişim puanları kendi değerlendirmemdir. Öğrenme süresi iddiaları için bağımsız kaynak (Chiff and Fipple, The Session) açılmadı; zorluk puanları büyük ölçüde mekanizma ve parmaklama bilgisinden çıkarıldı. Ayrıca fetch özetlerindeki alıntılar küçük bir model tarafından çıkarıldı, birebir doğrulama yapılmadı."
+   }
+  },
+  {
+   "key": "yan",
+   "sonuc": {
+    "arac": "araç: 20/35",
+    "ozet": "Aile 3 (yan flütler) doğrulandı. Hepsi 'yan' mekanizmalı: ağız deliğinin kenarına yandan üflenir; ses çıkarma kolaylığı blok flüt ve tin whistle'dan belirgin zordur. Ailenin en erişilebilir üyeleri: anahtarsız 6 delikli İrlanda tahta flütü (parmaklama tin whistle ile aynı, Wikipedia), fife/pífano ve Çin dizi'sinin D veya C boyları (okullar başlangıç için bunları öneriyor). Bansuri orta düzey: 6 delik, yarım delik kullanımı ve oktav, üfleme gücüyle değişiyor; uzun bas boylarda el açıklığı gerçek bir sorun (forum/satıcı kaynakları, zayıf kanıt). Venu (Güney Hindistan) 8 delikli, Karnatik sistem ve çatal parmakla daha zor. Japon shinobue 7 delikli, orta zorlukta; ryuteki 7 delikli, yüksek oktavı kararsız; nohkan en zorlardan: 2-3 mm'lik iç daralma (nodo) nedeniyle sesi keskin ve her flütün perdesi farklı. Daegeum (Kore) büyük ve titreşim zarlı; sogeum/junggeum onun küçük kardeşleri, zarsızlar. Kaynakların hiçbiri açık bir zorluk sıralaması vermiyor; puanlar çoğunlukla 'kendi değerlendirmem' (çapa ölçeğine göre). Türkiye açısından: Türk halk müziği üflemeli çalgı listesinde (kaval, dilli kaval, çifte kaval, mey, zurna, tulum, sipsi, düdük, duduk, çığırtma, argun, gırnata) yan flüt yok; ney ve kaval uçtan/eğik üflenir. Hipotez büyük ölçüde destekleniyor ama 'yok' iddiası olumsuz kanıt; yerel istisna ihtimali tamamen elenmedi. Ney'in Orta Asya'da (Özbekistan, Tacikistan) yan flüt biçimi var, Türkiye'de değil. Başlangıç sırası önerisi (kolaydan zora): fife/pífano ≈ anahtarsız İrlanda flütü < dizi (D/C) < shinobue < bansuri (orta boy) < anahtarlı İrlanda flütü ≈ barok traverso < venu < sogeum < ryuteki < daegeum < nohkan.",
+    "enstrumanlar": [
+     {
+      "ad": "İrlanda tahta flütü, anahtarsız (basit sistem, D flüt)",
+      "bolge": "İrlanda",
+      "mekanizma": "yan",
+      "yapi": "6 ana parmak deliği, D majör diyatonik, anahtarsız; ahşap",
+      "ses_cikarma": 3,
+      "teknik": 2,
+      "aralik_kontrol": 3,
+      "erisim": 4,
+      "gerekce": "Parmaklama tin whistle ile aynı 6 delik; kendi değerlendirmem: ses çıkarma yan flüt dudak biçimi (çapa 3). Türkiye'de usta yapımı nadir ve pahalı, ucuz plastik/PVC alternatifler var; kendi değerlendirmem: erişim 4.",
+      "defter_no": [
+       1,
+       2,
+       3
+      ]
+     },
+     {
+      "ad": "İrlanda tahta flütü, anahtarlı",
+      "bolge": "İrlanda",
+      "mekanizma": "yan",
+      "yapi": "6 delik + genelde 1-8 anahtar, kromatik notalar",
+      "ses_cikarma": 3,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Anahtarlar kromatik nota ekler; maliyet daha yüksek (satıcı). Kendi değerlendirmem: anahtar yönetimi tekniği biraz artırır, Türkiye'de neredeyse bulunmaz.",
+      "defter_no": [
+       2,
+       3,
+       4
+      ]
+     },
+     {
+      "ad": "Bansuri (Hindustani), orta/soprano boy",
+      "bolge": "Kuzey Hindistan",
+      "mekanizma": "yan",
+      "yapi": "6 delikli (7 delikli de var), 30-75 cm, 2,5 oktav",
+      "ses_cikarma": 3,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 3,
+      "gerekce": "Yarım delik minör/bemol notalar için gerekir; oktavlar dudak ve üfleme gücüyle değişir (Wikipedia). Kendi değerlendirmem: erişim 3, internetten ithal edilebilir, Türkiye'de öğretmen az.",
+      "defter_no": [
+       5,
+       6,
+       7
+      ]
+     },
+     {
+      "ad": "Bas bansuri (uzun boy)",
+      "bolge": "Kuzey Hindistan",
+      "mekanizma": "yan",
+      "yapi": "Uzun bas boylar (E/F bas vb.), geniş delik aralığı",
+      "ses_cikarma": 3,
+      "teknik": 4,
+      "aralik_kontrol": 4,
+      "erisim": 4,
+      "gerekce": "Delikler arası el açıklığı bilek sorunu yaratabilir (forum, zayıf kanıt); bazı satıcılar 8 delikli bas boyun üst sınır olduğunu söylüyor. Kendi değerlendirmem: puanlar.",
+      "defter_no": [
+       8,
+       9
+      ]
+     },
+     {
+      "ad": "Venu (Karnatik flüt)",
+      "bolge": "Güney Hindistan",
+      "mekanizma": "yan",
+      "yapi": "8 parmak deliği, kalın bambu; Karnatik sistem, gamaka",
+      "ses_cikarma": 3,
+      "teknik": 4,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Sa üstteki iki delik kapalıyken, bansurida üç delik; çatal parmak kullanılır (Wikiwand/organology). Kendi değerlendirmem: ek delik ve gamaka nedeniyle teknik 4, Türkiye'de erişim çok zor.",
+      "defter_no": [
+       10,
+       11
+      ]
+     },
+     {
+      "ad": "Dizi (di, bangdi/qudi)",
+      "bolge": "Çin",
+      "mekanizma": "yan",
+      "yapi": "6 parmak deliği + membran deliği (mokong), dimo zarı; ~2,25 oktav, bangdi piccolo aralığı",
+      "ses_cikarma": 3,
+      "teknik": 2,
+      "aralik_kontrol": 3,
+      "erisim": 3,
+      "gerekce": "Zar uygulaması ek iş (kılavuzsuz gelenler olur). D veya C boy başlangıç için önerilir (okul sitesi). Kendi değerlendirmem: ucuz ve çevrimiçi bulunur, Türkçe kaynak yok.",
+      "defter_no": [
+       12,
+       13,
+       14
+      ]
+     },
+     {
+      "ad": "Shinobue (uta ve hayashi tipleri)",
+      "bolge": "Japonya",
+      "mekanizma": "yan",
+      "yapi": "6 veya 7 delikli bambu; 7 hon (tonalite) başlangıç önerisi; uta batı gamına akortlu, hayashi değil",
+      "ses_cikarma": 3,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 4,
+      "gerekce": "Delik sızıntısı başlangıçta en sık ses sorunudur (forum). Kendi değerlendirmem: erişim 4, Japonya'dan sipariş gerekir; doremi tip (batı gamı) daha kolay olabilir, kaynakta doğrulanmadı.",
+      "defter_no": [
+       15,
+       16,
+       17
+      ]
+     },
+     {
+      "ad": "Ryuteki",
+      "bolge": "Japonya (gagaku)",
+      "mekanizma": "yan",
+      "yapi": "7 delikli, ~40 cm, düz iç boru, lake bambu; tam akortlu",
+      "ses_cikarma": 3,
+      "teknik": 3,
+      "aralik_kontrol": 4,
+      "erisim": 5,
+      "gerekce": "Yüksek oktav kararsız ve yalnızca yüksek sesle çalınır (Stanford); batı yan flütüne benzer dudak. Kendi değerlendirmem: erişim 5.",
+      "defter_no": [
+       18,
+       19
+      ]
+     },
+     {
+      "ad": "Nohkan",
+      "bolge": "Japonya (Noh tiyatrosu)",
+      "mekanizma": "yan",
+      "yapi": "7 delikli, ~39,1 cm, nodo (2-3 mm iç daralma), anahtarsız",
+      "ses_cikarma": 4,
+      "teknik": 4,
+      "aralik_kontrol": 5,
+      "erisim": 5,
+      "gerekce": "Nodo, oktav notalarını kaydırır; her flütün temel perdesi farklıdır (Wikipedia) ve ölçüler flütten flüte değişir, topluluk çalmaya uygun değil (Tobunken). Kendi değerlendirmem: puanlar.",
+      "defter_no": [
+       20,
+       21,
+       22
+      ]
+     },
+     {
+      "ad": "Daegeum",
+      "bolge": "Kore",
+      "mekanizma": "yan",
+      "yapi": "Büyük bambu; titreşim zarı (cheong); sabit perde, toplulukta diğerleri ona akort olur",
+      "ses_cikarma": 4,
+      "teknik": 3,
+      "aralik_kontrol": 4,
+      "erisim": 5,
+      "gerekce": "Zarlı büyük yan flüt; kendi değerlendirmem: boyut ve zar nedeniyle üfleme kontrolü zor; Türkiye'de pratikte bulunmaz.",
+      "defter_no": [
+       23,
+       24
+      ]
+     },
+     {
+      "ad": "Sogeum ve junggeum",
+      "bolge": "Kore",
+      "mekanizma": "yan",
+      "yapi": "Daegeum ailesinin küçük boyları, bugün zarsız; samjuk üçlüsü",
+      "ses_cikarma": 3,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Zarsız olduğu için daegeum'dan daha basit olduğu varsayılır; kendi değerlendirmem. Kaynak yalnızca ailesel bağı veriyor.",
+      "defter_no": [
+       24
+      ]
+     },
+     {
+      "ad": "Fife (Batı askerî flütü) ve pífano (Brezilya, pife nordestino)",
+      "bolge": "Avrupa/Kuzey Amerika; KD Brezilya",
+      "mekanizma": "yan",
+      "yapi": "6 parmak deliği, ince tüp; Bb fife A♭ transpoze, C ve D boyları da var; modern kromatik 10-11 delik",
+      "ses_cikarma": 3,
+      "teknik": 2,
+      "aralik_kontrol": 3,
+      "erisim": 3,
+      "gerekce": "3. oktav parmaklaması başlangıç için zor (Wikipedia). Kendi değerlendirmem: ucuz plastik fife bulunur; pífano için erişim 5.",
+      "defter_no": [
+       25,
+       26
+      ]
+     },
+     {
+      "ad": "Barok traverso (tarihî karşılaştırma)",
+      "bolge": "Avrupa",
+      "mekanizma": "yan",
+      "yapi": "Genellikle tek anahtar, 6 delik, ahşap, çatal parmaklama",
+      "ses_cikarma": 3,
+      "teknik": 4,
+      "aralik_kontrol": 4,
+      "erisim": 5,
+      "gerekce": "Kendi değerlendirmem: kaynak bu görevde doğrulanmadı; kaba tarihî karşılaştırma için konuldu. Düşük güven.",
+      "defter_no": []
+     }
+    ],
+    "defter": [
+     {
+      "no": 1,
+      "iddia": "İrlanda flütünün 6 ana parmak deliği var",
+      "kaynak": "https://en.wikipedia.org/wiki/Irish_flute",
+      "alinti": "The flute has six main finger-holes.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 2,
+      "iddia": "Modern İrlanda flütü tin whistle ile aynı 6 delikli diyatonik tasarıma ve benzer tekniğe sahip",
+      "kaynak": "https://en.wikipedia.org/wiki/Irish_flute",
+      "alinti": "The modern playing technique within the Irish Traditional Music has much in common with tin whistle technique.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 3,
+      "iddia": "Anahtarsız D flüt D ve G majör ile ilgili minörleri çalar; anahtarlar kromatik nota ekler",
+      "kaynak": "https://www.irishfluteguide.info/choosing-a-flute/",
+      "alinti": "Flutes in the key of D will play in D and G Major and the related minors Em, Am and Bm without keys.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 4,
+      "iddia": "Anahtarlı flüt anahtarsızdan pahalıdır",
+      "kaynak": "https://oaim.ie/?p=639",
+      "alinti": "A keyed flute will cost more than a keyless wooden flute due to the additional cost of the materials used to make it.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 5,
+      "iddia": "Bansuri'de yarım delik minör/bemol notalar için kullanılır",
+      "kaynak": "https://en.wikipedia.org/wiki/Bansuri",
+      "alinti": "Half-holing is employed to play flat or minor notes.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 6,
+      "iddia": "Bansuri'de oktavlar dudak ve üfleme gücüyle değişir",
+      "kaynak": "https://en.wikipedia.org/wiki/Bansuri",
+      "alinti": "Octaves are varied by manipulating one's embouchure and controlling the blowing strength.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 7,
+      "iddia": "Bansuri 6 delikle ve 2,5 oktav kapsar, uzunluk 30-75 cm",
+      "kaynak": "https://en.wikipedia.org/wiki/Bansuri",
+      "alinti": "The six-hole instrument covers two and a half octaves of music.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 8,
+      "iddia": "Bas bansuride delikler arası uzaklık bilek sorunu yaratabilir",
+      "kaynak": "https://www.chiffandfipple.com/t/check-out-the-stretch-on-this-flute/38306",
+      "alinti": "the stretch on the flute between holes 5 and 6 is sure to create wrist problems, unless you have a monster reach!",
+      "guven": "düşük",
+      "kritik": true
+     },
+     {
+      "no": 9,
+      "iddia": "Bansuri'de yarım delik İrlanda flütünden daha rahat yapılır (forum görüşü)",
+      "kaynak": "https://www.chiffandfipple.com/t/bansuri-and-irish-flute/92394",
+      "alinti": "you can half-hole the sixth hole quite well on a bansuri, but not really well on an Irish flute",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 10,
+      "iddia": "Venu 8 delikli, bansuri genelde 6 delikli",
+      "kaynak": "https://blog.sapaindia.com/?p=3731",
+      "alinti": "venu eight finger holes",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 11,
+      "iddia": "Venu'da Sa üst iki delik kapalıyken, bansuride üç delik kapalıyken çalınır",
+      "kaynak": "https://www.wikiwand.com/en/articles/Venu",
+      "alinti": "Sa is the note Bansuri produces when its upper 3 holes are covered",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 12,
+      "iddia": "Dizi'nin membran deliği (mo kong) ağız ve parmak delikleri arasındadır, zarla örtülür",
+      "kaynak": "https://en.wikipedia.org/wiki/Dizi_(instrument)",
+      "alinti": "a very different additional hole, called a mo kong (膜孔)",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 13,
+      "iddia": "Dizi yaklaşık 2,25 oktav kapsar; profesyoneller farklı tonlarda 7 dizi taşır",
+      "kaynak": "https://en.wikipedia.org/wiki/Dizi_(instrument)",
+      "alinti": "covering about two-and-a-quarter octaves",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 14,
+      "iddia": "Başlangıç için D veya C boy dizi önerilir",
+      "kaynak": "https://www.easonmusicschool.com/?p=3377",
+      "alinti": "key of D or C is ideal",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 15,
+      "iddia": "Shinobue üç tipte: uta, hayashi, doremi",
+      "kaynak": "https://en.wikipedia.org/wiki/Shinobue",
+      "alinti": "The uta is tuned to a Japanese variant of the shi'er lü scale",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 16,
+      "iddia": "Başlangıç için 7 delikli 7 hon (tonalite) önerilir",
+      "kaynak": "https://www.soundhouse.co.jp/en/guidance/products/detail/?no=T00405",
+      "alinti": "The 7-hon choshi is recommended.",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 17,
+      "iddia": "Shinobue embuşürü: parmak ucu değil pedlerle delik kapatılır; sızıntı ses sorunudur",
+      "kaynak": "https://taiko-shop.com/blogs/learn/embouchure-and-finger-placement-of-shinobue",
+      "alinti": "Close the holes with the pads of the fingers",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 18,
+      "iddia": "Ryuteki 7 delikli yan flüt, ~40 cm",
+      "kaynak": "https://gagaku.stanford.edu/en/woodwinds/ryuteki",
+      "alinti": "a seven-holed transverse flute made of bamboo",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 19,
+      "iddia": "Ryuteki'de yüksek oktav kararsız ve sadece yüksek sesle çalınır",
+      "kaynak": "https://gagaku.stanford.edu/en/woodwinds/ryuteki",
+      "alinti": "the higher register is unstable and can only be played loud",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 20,
+      "iddia": "Nohkan'ın nodo denen 2-3 mm iç daralması var, 7 delik, 39,1 cm",
+      "kaynak": "https://en.wikipedia.org/wiki/Nohkan",
+      "alinti": "an unusual internal bore restriction of about 2–3 mm called a nodo",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 21,
+      "iddia": "Nohkan'ın temel perdesi flütten flüte değişir",
+      "kaynak": "https://en.wikipedia.org/wiki/Nohkan",
+      "alinti": "the keynote frequency varies from flute to flute",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 22,
+      "iddia": "Nohkan delik aralığı flütler arası farklıdır; birlikte (topluluk) çalınamaz; ryuteki akortludur",
+      "kaynak": "https://www.tobunken.go.jp/joho/japanese/project/panel/nohkan/nohkan-e.pdf",
+      "alinti": "it is not possible to play nohkan in ensemble.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 23,
+      "iddia": "Daegeum sabit perdelidir, diğer çalgılar ona akort olur",
+      "kaynak": "https://en.wikipedia.org/wiki/Daegeum",
+      "alinti": "has a fixed pitch, so other instruments tune in to the daegeum when playing together",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 24,
+      "iddia": "Sogeum ve junggeum daegeum ailesinin küçükleri, günümüzde zarsız; üçü samjuk",
+      "kaynak": "https://en.wikipedia.org/wiki/Daegeum",
+      "alinti": "neither of which today have a buzzing membrane",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 25,
+      "iddia": "Fife 6 parmak delikli, ağız deliğine üflenen tüp; kromatik sürümler 10-11 delik",
+      "kaynak": "https://en.wikipedia.org/wiki/Fife_(musical_instrument)",
+      "alinti": "a tube with six finger holes and an embouchure hole that produces sound when blown across",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 26,
+      "iddia": "Fife'ın 3. oktav parmaklaması başlangıç için zor; pífano KD Brezilya'da kullanılır",
+      "kaynak": "https://en.wikipedia.org/wiki/Fife_(musical_instrument)",
+      "alinti": "the fingering patterns necessary for playing in the third octave can be daunting to a beginner",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 27,
+      "iddia": "Türk halk müziği üflemeli çalgı listesinde yan flüt yok (kaval, dilli kaval, çifte kaval, mey, zurna, tulum, sipsi, düdük, duduk, çığırtma, argun, gırnata)",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/1159784",
+      "alinti": "Kaval (Dilsiz), Dilli Kaval, Çifte Kaval, Mey, Zurna, Tulum, Sipsi, Zambır, Düdük, Duduk, Çığırtma, Argun, Gırnata",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 28,
+      "iddia": "Türk neyi eğik kenar üflemeli; dilli kaval fipple, dilsiz kaval kenardan üflenir",
+      "kaynak": "https://en.wikipedia.org/wiki/Turkish_ney",
+      "alinti": "the other type (dilsiz) is a rim-blown oblique flute, as is the Turkish classical ney",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 29,
+      "iddia": "Yan flüt biçimli ney Orta Asya'da (Özbekistan, Tacikistan) vardır",
+      "kaynak": "https://larkinthemorning.com/blogs/articles/the-ney-the-middle-eastern-flute",
+      "alinti": "This ney from Russian Turkestan, about 1872, was a transverse flute",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 30,
+      "iddia": "Fife Wikipedia sayfası Osmanlı/Yeniçeri bağlantısından söz etmiyor",
+      "kaynak": "https://en.wikipedia.org/wiki/Fife_(musical_instrument)",
+      "alinti": "European armies from the Renaissance on found it useful for signaling on the battlefield.",
+      "guven": "düşük",
+      "kritik": false
+     }
+    ],
+    "aykiri_bulgular": "Türkiye hipotezi: Aykırı kanıt aradım (3 arama); Türk halk müziği üflemeli listesinde ve ney/kaval tanımlarında yan flüt çıkmadı, yani hipotez desteklendi ama 'yok' kanıtı olumsuz kanıt. Tek yan flüt izi Orta Asya neyi (Özbekistan/Tacikistan/Karakalpakstan), Türkiye dışı. Eksikler/uyarılar: (1) Aday listede olmayan önemli bulgu yok, ama Çin'de 11 delikli kromatik 'xindi' ve Karnatik venu'nun 8. deliği için kaynaklar çelişiyor (biri 'tuning', biri 'özel parmaklamada açık'). (2) Bansuri bas boylarda 8 delikli bas'ın 'üst sınır' olduğu satıcı iddiası; kaynaklar zayıf. (3) Ryuteki-shinobue ilişkisi: bir Japon wiki derlemesi shinobue'nin sadeleşmiş ryuteki olması ihtimalini düşük buluyor (aday listedeki ima ile uyumsuz değil ama net değil). (4) Wikipedia'da shinobue, daegeum, dizi için delik sayısı/zorluk bilgisi yok; hiçbir kaynak doğrudan 'öğrenme süresi' vermedi.",
+    "acik_kalanlar": "Hiçbir kaynakta doğrudan zorluk sıralaması veya öğrenme süresi yok; tüm zorluk puanları çapa ölçeğine dayalı 'kendi değerlendirmem'. Türkiye'deki fiyat, mağaza ve öğretmen bilgisi (erişim puanı) aranmadı, kendi değerlendirmem. Barok traverso, pífano, sogeum/junggeum için kaynak doğrulaması zayıf/yok. Daegeum zarının (cheong) delik detayı ve delik sayısı doğrulanmadı. Venu'nun 8. deliği çelişkili. Yerel Türk yan flüt istisnası (örneğin bölgesel bir düdük/sipsi türü) tam elenmedi."
+   }
+  },
+  {
+   "key": "centik_kap_pan",
+   "sonuc": {
+    "arac": "araç: 17/35",
+    "ozet": "Üç aile de doğrulandı. (1) Çentikli/uçtan üflenen dikey flütler: shakuhachi (4 ön+1 arka delik, ses çıkarmak en zor grupta, 'kubifuri sannen' aslında baş açısıyla perde ayarını öğrenme süresine işaret ediyor), quena (6+1 delik, G4-A6, üst register zor), quenacho (D'de, bir dörtlü pes quena), xiao (geleneksel 6, modern çoğunlukla 8 delik; kısa xiao daha zor) ve danso (4+1 delik, pentatonik, G4-G6; 'kolay' deniyor ama kaynak perakendeci/hobi sitesi, orta güven). Danso fiziksel olarak en basit parmaklama; yine de ses çıkarma çentik üflemesi olduğundan 4 verdim. Not: çentik ses çıkarmayı kaval/neyden kolaylaştırır mı sorusuna doğrudan kaynak bulamadım; quena/xiao için forum yorumları ilk sesin 'bir süre aldığını' söylüyor, shakuhachi için en zor olduğunu; kendi değerlendirmem: çentik/kenar ağzı kılavuzluk ediyor, düz kenardan (ney, dilsiz kaval) kolay. (2) Kap flütleri: okarina (1853, Donati; ses almak çok kolay ama perdeyi nefes basıncı belirlediği için temiz akort zor) ve xun (en az 3 ön + 2 arka delik, yaklaşık 7000 yıllık; Türkiye'de neredeyse bulunmaz). (3) Pan flütleri: nai (kavisli Romen tipi, boynu çevirerek nota seçilir; Zamfir ile ünlü), siku/zampoña (iki sıra, 13 borulu siku ch'alla'da ira 6 + arka 7; geleneksel olarak iki çalgıcı, notalar sıralar arasında dönüşümlü), miskal/müsikar (İran, Türkiye, Azerbaycan'da görülen pan flütü; TDV'de bağımsız madde bulamadım, DergiPark'taki 'Unutulan Sazımız Mıskal' makalesi var), kuvytsi (Ukrayna/Rusya; bir ya da iki yönlü dizilim, pipo eğilerek yarım ses alınır) ve larchemi/soinari (Gürcistan; bu görevde Gürcistan bağı doğrulanamadı). Pan flütte ilk ses kolay; zorluk dudak konumu, perde değiştirme ve nefes kontrolü. Öğrenme kolaylığı sırası (kolaydan zora, ailenin içinde): okarina, danso, nai/siku (küçük 15 borulu ile başla), quena, xiao, shakuhachi/hocchiku; miskal, kuvytsi, larchemi ve xun erişilemezlikten sonda.",
+    "enstrumanlar": [
+     {
+      "ad": "Shakuhachi (Japonya); eski biçim hocchiku",
+      "bolge": "Japonya",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "Genelde 5 delik (4 ön, 1 arka); standart 1.8 shaku (~54,5 cm); iki tam oktav + kısmi üçüncü; hocchiku daha kalın, işlenmemiş iç, ayarlı değil",
+      "ses_cikarma": 5,
+      "teknik": 4,
+      "aralik_kontrol": 4,
+      "erisim": 4,
+      "gerekce": "Utaguchi keskin kenar, ağızlık yok; ilk sesi çıkarmak başlıca engel (defter 4,5). Meri/kari ile perde baş açısıyla bükülür (defter 1,2,3). Üst register kan zor (kendi değerlendirmem). Kolay bulunmaz, öğretmen azdır, çevrimiçi dersler var: kendi değerlendirmem.",
+      "defter_no": [
+       1,
+       2,
+       3,
+       4,
+       5
+      ]
+     },
+     {
+      "ad": "Quena (Kena)",
+      "bolge": "And Dağları (Peru, Bolivya)",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "6 ön delik + 1 başparmak deliği; eliptik çentik; genelde G'de; G4-A6",
+      "ses_cikarma": 4,
+      "teknik": 2,
+      "aralik_kontrol": 3,
+      "erisim": 3,
+      "gerekce": "Çentikli, forumlarda ton almak 'zaman alır', üst oktav hava akımı odağına bağlı (defter 6,7,8,9). Parmaklama diyatonik, kolay: kendi değerlendirmem. Türkiye'de ithal ya da yurtdışından sipariş; ders daha çok İngilizce/İspanyolca video.",
+      "defter_no": [
+       6,
+       7,
+       8,
+       9
+      ]
+     },
+     {
+      "ad": "Quenacho",
+      "bolge": "And Dağları",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "Quena'nın büyük, pes versiyonu; D'de (quena'dan bir dörtlü aşağıda)",
+      "ses_cikarma": 4,
+      "teknik": 2,
+      "aralik_kontrol": 3,
+      "erisim": 4,
+      "gerekce": "Quena ile aynı yapıda (defter 10); büyük çapta nefes ihtiyacı ve el açıklığı fazla: kendi değerlendirmem. Daha nadir.",
+      "defter_no": [
+       10
+      ]
+     },
+     {
+      "ad": "Xiao (Çin dikey flütü; nanxiao)",
+      "bolge": "Çin",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "Geleneksel 6, modern çoğunlukla 8 parmak deliği; U/V biçimli üfleme ucu; ek 2-6 ses deliği",
+      "ses_cikarma": 4,
+      "teknik": 2,
+      "aralik_kontrol": 3,
+      "erisim": 3,
+      "gerekce": "Uç üflemeli, üfleme ucu U/V/açılı kesilir; kısa xiao daha zor (defter 15,16). Delik sayısı fazla ama tekil parmaklama kolay: kendi değerlendirmem. Online mağazalardan ucuz modeller bulunur.",
+      "defter_no": [
+       15,
+       16
+      ]
+     },
+     {
+      "ad": "Danso (Kore)",
+      "bolge": "Kore",
+      "mekanizma": "kenar_ufleme",
+      "yapi": "4 ön + 1 arka delik; pentatonik, G4-G6 (~2 oktav); en kısa dikey flüt; plastik okul tipi de var",
+      "ses_cikarma": 4,
+      "teknik": 1,
+      "aralik_kontrol": 2,
+      "erisim": 4,
+      "gerekce": "Perakendeci kaynak 'nispeten kolay, sadece 5 delik' ve daegeum'a basamak diyor (defter 11,12,13,14); bağımsız ölçüm yok. Çentikli üfleme için 4 verdim (çapa), ama parmaklama en basit: kendi değerlendirmem. Türkiye'de nadir.",
+      "defter_no": [
+       11,
+       12,
+       13,
+       14
+      ]
+     },
+     {
+      "ad": "Okarina (İtalyan tipi)",
+      "bolge": "İtalya kökenli, dünya geneli",
+      "mekanizma": "kap",
+      "yapi": "Kap flütü; 10-12 delikli enine modeller yaklaşık oktav+dörtlü/küçük altılı",
+      "ses_cikarma": 1,
+      "teknik": 2,
+      "aralik_kontrol": 2,
+      "erisim": 1,
+      "gerekce": "Üfleyince ses gelir; ancak perde nefes basıncına duyarlı, 'akortlu çalmak zor' (defter 18,19). Türkiye'de çeşitli mağazalarda mevcut, 4 ve 12 delik fiyatı çok farklı (defter 17): kendi değerlendirmem: 1.",
+      "defter_no": [
+       17,
+       18,
+       19
+      ]
+     },
+     {
+      "ad": "Xun (Çin)",
+      "bolge": "Çin",
+      "mekanizma": "kap",
+      "yapi": "Yumurta biçimli seramik/kil; en az 3 ön + 2 arka delik, 10'a kadar çıkabilir; ~7000 yıllık",
+      "ses_cikarma": 3,
+      "teknik": 2,
+      "aralik_kontrol": 2,
+      "erisim": 5,
+      "gerekce": "Kap flütü, üst delikten üflenir (kendi değerlendirmem); ses nispeten kolay fakat Türkiye'de neredeyse bulunmaz, öğreten az (defter 20,21).",
+      "defter_no": [
+       20,
+       21
+      ]
+     },
+     {
+      "ad": "Nai (Romanya/Moldova), antik syrinx ile akraba",
+      "bolge": "Romanya, Moldova",
+      "mekanizma": "pan",
+      "yapi": "Yapıştırılmış kavisli dizi, çoğunlukla 20+ boru; boynu çevirerek nota seçilir",
+      "ses_cikarma": 3,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 3,
+      "gerekce": "Boru ağzından üflenir; çok kaynak 'çok nefes istemez', asıl zorluk dudak konumu ve perde değiştirme (defter 22,23,30). Zamfir ile ünlü; Türkiye'de pan flütleri bulunur, öğretmen az: kendi değerlendirmem.",
+      "defter_no": [
+       22,
+       23,
+       30
+      ]
+     },
+     {
+      "ad": "Siku / Zampoña",
+      "bolge": "And Dağları (Bolivya, Peru)",
+      "mekanizma": "pan",
+      "yapi": "Siku ch'alla: 13 boru (ira 6 + arka 7), E minör/G majör; iki sıra",
+      "ses_cikarma": 3,
+      "teknik": 3,
+      "aralik_kontrol": 2,
+      "erisim": 3,
+      "gerekce": "Geleneksel olarak iki çalgıcı, tam gam için sıralar arası dönüşüm (defter 24,25,26). Tek kişilik versiyonlar yaygın; teknik öğrenmek ek koordinasyon ister: kendi değerlendirmem.",
+      "defter_no": [
+       24,
+       25,
+       26
+      ]
+     },
+     {
+      "ad": "Miskal / Müsikar",
+      "bolge": "İran, Türkiye, Azerbaycan",
+      "mekanizma": "pan",
+      "yapi": "Pan flütü; boru sayısı bu görevde doğrulanamadı",
+      "ses_cikarma": 3,
+      "teknik": 3,
+      "aralik_kontrol": 3,
+      "erisim": 5,
+      "gerekce": "Wikipedia sadece bölge ve adı veriyor (defter 27,28); 'unutulan saz' makalesi var. Çalan ve yapan çok az: kendi değerlendirmem. Boru sayısı ve çalma ayrıntısı doğrulanmadı.",
+      "defter_no": [
+       27,
+       28
+      ]
+     },
+     {
+      "ad": "Kuvytsi (Kuvikly)",
+      "bolge": "Ukrayna, Rusya",
+      "mekanizma": "pan",
+      "yapi": "Tek ya da çift yönlü dizilim, her boru tek ses; pipo eğilerek yarım ses alınır",
+      "ses_cikarma": 3,
+      "teknik": 2,
+      "aralik_kontrol": 2,
+      "erisim": 5,
+      "gerekce": "Boru ağzından üflenir; çalma ayrıntısı Wikipedia'da (defter 29). Kuvytsi çoğu kayda göre geçmiş dönem: kendi değerlendirmem. Öğreten ve çalgı bulunması çok zor.",
+      "defter_no": [
+       29
+      ]
+     },
+     {
+      "ad": "Larchemi / Soinari (Gürcistan)",
+      "bolge": "Gürcistan",
+      "mekanizma": "pan",
+      "yapi": "Gürcü pan flütü; ayrıntı doğrulanamadı",
+      "ses_cikarma": 3,
+      "teknik": 3,
+      "aralik_kontrol": 2,
+      "erisim": 5,
+      "gerekce": "Wikipedia pan flute sayfasında yalnızca adı geçiyor, Gürcistan bağı bu görevde doğrulanamadı; kendi değerlendirmem: puanlar tahmini, pan flütü ortalaması.",
+      "defter_no": [
+       22
+      ]
+     }
+    ],
+    "defter": [
+     {
+      "no": 1,
+      "iddia": "Fuke shakuhachi'nin 5 parmak deliği var: 4 ön, 1 arka",
+      "kaynak": "https://en.wikipedia.org/wiki/Shakuhachi",
+      "alinti": "there are 5 finger holes – 4 at the front, 1 at the back.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 2,
+      "iddia": "Shakuhachi'de ses, üfleme kenarına (utaguchi) karşı üflenerek çıkar",
+      "kaynak": "https://en.wikipedia.org/wiki/Shakuhachi",
+      "alinti": "a sharp edge to blow against called utaguchi",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 3,
+      "iddia": "Shakuhachi iki tam oktav aralığa sahip; açı değiştirerek perde aşağı/yukarı bükülür",
+      "kaynak": "https://en.wikipedia.org/wiki/Shakuhachi",
+      "alinti": "The shakuhachi has a range of two full octaves",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 4,
+      "iddia": "'Kubifuri sannen' (首振り三年) deyimi, baş açısıyla açıklığı değiştirip perdeyi ayarlamayı öğrenmenin zaman aldığını anlatır; ilk sesi çıkarmakla değil",
+      "kaynak": "https://u-gakugei.repo.nii.ac.jp/record/25877/files/18804349_60_02.pdf",
+      "alinti": "首振り3年",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 5,
+      "iddia": "Shakuhachi'de ağızlık yoktur; ilk ses beginner için başlıca engeldir, sık hata fazla üflemek ve dudağı sıkmaktır",
+      "kaynak": "https://reiroh.com/blogs/blog/a-beginner-s-guide-to-playing-the-shakuhachi-how-to-blow",
+      "alinti": "Common beginner mistakes include blowing too hard, tightening the lips",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 6,
+      "iddia": "Quena'nın 6 parmak ve 1 başparmak deliği var",
+      "kaynak": "https://en.wikipedia.org/wiki/Quena",
+      "alinti": "it has 6 finger holes and one thumb hole",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 7,
+      "iddia": "Quena eliptik bir çentiğe karşı üflenir (çentikli dikey flüt)",
+      "kaynak": "https://en.wikipedia.org/wiki/Quena",
+      "alinti": "an elliptical notch cut into the end",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 8,
+      "iddia": "Quena'nın oranları üst registerde zorluk yaratır",
+      "kaynak": "https://en.wikipedia.org/wiki/Quena",
+      "alinti": "difficulty in the upper register",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 9,
+      "iddia": "Quena genellikle G'de, tipik aralık G4-A6",
+      "kaynak": "https://en.wikipedia.org/wiki/Quena",
+      "alinti": "G4 to A6, depending on the instrument and performer",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 10,
+      "iddia": "Quenacho, quena'nın daha büyük, pes sesli versiyonudur (D'de)",
+      "kaynak": "https://en.wikipedia.org/wiki/Quena",
+      "alinti": "a larger, lower-toned version of the quena and made the same way",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 11,
+      "iddia": "Danso'nun 4 ön + 1 arka parmak deliği var",
+      "kaynak": "https://en.wikipedia.org/wiki/Danso",
+      "alinti": "The flute has four finger holes and one thumb hole at the back.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 12,
+      "iddia": "Danso nispeten kolay öğrenilir, daegeum öncesi basamak (perakendeci kaynak)",
+      "kaynak": "https://larkinthemorning.com/blogs/articles/danso-korean-short-vertical-end-blown-flute",
+      "alinti": "relatively easy to learn, with only 5 holes to cover!",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 13,
+      "iddia": "Danso çentikli ucu alt dudağa 45 derece açıyla tutularak çalınır",
+      "kaynak": "https://larkinthemorning.com/blogs/articles/danso-korean-short-vertical-end-blown-flute",
+      "alinti": "holding the notched blowing end to the lower lip at a 45 degree angle",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 14,
+      "iddia": "Danso ses aralığı iki oktav, pentatonik",
+      "kaynak": "https://en.wikipedia.org/wiki/Danso",
+      "alinti": "The playing range is two octaves, going from low G to high G.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 15,
+      "iddia": "Geleneksel xiao'da 6, modern xiao'da çoğunlukla 8 parmak deliği var",
+      "kaynak": "https://en.wikipedia.org/wiki/Xiao_(instrument)",
+      "alinti": "More traditional xiao have six finger holes, while most modern ones have eight.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 16,
+      "iddia": "Kısa xiao nefes kontrolü gerektirdiği için daha zordur",
+      "kaynak": "https://en.wikipedia.org/wiki/Xiao_(instrument)",
+      "alinti": "shorter xiaos are more difficult to play because of the need to control one's breath more accurately",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 17,
+      "iddia": "İtalyan okarinası 1853'te Giuseppe Donati tarafından icat edildi",
+      "kaynak": "https://en.wikipedia.org/wiki/Ocarina",
+      "alinti": "The Italian ocarina was invented in 1853 by 17-year-old Giuseppe Donati.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 18,
+      "iddia": "Okarinada perde parmaktan çok nefes basıncına duyarlı; akortlu çalmak zor",
+      "kaynak": "https://en.wikipedia.org/wiki/Ocarina",
+      "alinti": "it is hard to learn to play one in tune",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 19,
+      "iddia": "10-12 delikli enine okarinalar oktav+dörtlü ile oktav+küçük altılı arası kapsar",
+      "kaynak": "https://en.wikipedia.org/wiki/Ocarina",
+      "alinti": "a range of between an octave plus a fourth and an octave plus a minor sixth",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 20,
+      "iddia": "Xun'un en az 3 ön, 2 arka deliği var, 10'a kadar çıkabilir",
+      "kaynak": "https://en.wikipedia.org/wiki/Xun_(instrument)",
+      "alinti": "containing at least three finger holes in front and two thumb holes in back",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 21,
+      "iddia": "Xun Çin'in en eski çalgılarından, yaklaşık 7000 yıllık",
+      "kaynak": "https://en.wikipedia.org/wiki/Xun_(instrument)",
+      "alinti": "one of the oldest musical instruments in China",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 22,
+      "iddia": "Pan flütte ses, borunun açık ucuna karşı üflenen hava akımıyla çıkar",
+      "kaynak": "https://en.wikipedia.org/wiki/Pan_flute",
+      "alinti": "Sound is produced by the vibration of an air-stream blowing across an open hole at the end of a resonating tube.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 23,
+      "iddia": "Kavisli Romen tipinde nota seçimi boyun/çalgıyı çevirerek yapılır; Zamfir ile ünlenmiştir",
+      "kaynak": "https://en.wikipedia.org/wiki/Pan_flute",
+      "alinti": "popularized by the Romanian musician Gheorghe Zamfir",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 24,
+      "iddia": "Siku'nun iki sırası ira ve arka; geleneksel olarak iki çalgıcı gerekir",
+      "kaynak": "https://en.wikipedia.org/wiki/Siku_(instrument)",
+      "alinti": "Traditionally, two musicians were required to play the siku, each one taking one row of the instrument.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 25,
+      "iddia": "Tam gam için her notada sıra değiştirilmelidir",
+      "kaynak": "https://en.wikipedia.org/wiki/Siku_(instrument)",
+      "alinti": "One must alternate rows with every note in order to play a complete scale.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 26,
+      "iddia": "Siku ch'alla 13 borulu: 6 ira, 7 arka",
+      "kaynak": "https://en.wikipedia.org/wiki/Siku_(instrument)",
+      "alinti": "contains 13 pipes (6 in ira and 7 in arka)",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 27,
+      "iddia": "Miskal İran, Türkiye ve Azerbaycan'da bulunan pan flütüdür",
+      "kaynak": "https://en.wikipedia.org/wiki/Miskal",
+      "alinti": "A miskal is a type of panpipe found in Iran, Turkey, and Azerbaijan.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 28,
+      "iddia": "Miskal Türk musikisinde müsikâr olarak da adlandırılır; DergiPark makalesi 'Unutulan Sazımız Mıskal'",
+      "kaynak": "https://dergipark.org.tr/en/pub/gefad/article/90896",
+      "alinti": "Unutulan Sazımız Mıskal",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 29,
+      "iddia": "Kuvytsi Ukrayna/Rusya pan flütü; yarım ses için borular dudağa göre eğilir",
+      "kaynak": "https://en.wikipedia.org/wiki/Kuvytsi",
+      "alinti": "the Ukrainian and Russian variant of pan pipes",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 30,
+      "iddia": "Pan flüt çalmak çok nefes gerektirmez",
+      "kaynak": "https://panflute.net/frequently-asked-questions.html",
+      "alinti": "It really doesn’t take a lot of breath to play the Panflute.",
+      "guven": "orta",
+      "kritik": false
+     }
+    ],
+    "aykiri_bulgular": "1) 'Kubifuri sannen' ilk sesi çıkarma süresi değil, baş açısıyla perde ayarını öğrenme süresi anlamına geliyor (Japonca kaynak özeti); rapora 'ilk ses 3 yıl' diye yazılmamalı. Wikipedia deyimi içermiyor. 2) Shakuhachi Wikipedia'da çentikli değil, 'doğal çapraz kesik' keskin kenar (utaguchi) olarak anlatılıyor; 'çentikli dikey flüt' sınıflandırması konusunda dikkat. Çentiğin ses çıkarmayı kolaylaştırdığına dair doğrudan kaynak bulunamadı. 3) Danso'nun 'kolay' iddiası yalnızca perakendeci/hobi kaynakta; Wikipedia ve Met sayfaları kolaylık söylemiyor. 4) Wikipedia pan flute sayfası larchemi'nin Gürcistan'a ait olduğunu desteklemiyor. 5) Ukrayna ansiklopedisi kuvytsi'yi serbest dilli (free-reed) olarak sınıflıyor; Wikipedia pan flütü diyor; sınıflama çelişkili. 6) Listede olmayan bulgu: xiao'nun shakuhachi'nin atası olarak anılması; Çin'de ayrıca uçtan üflemeli kısa ve dilsiz biçimler var (nanxiao). 7) TDV İslâm Ansiklopedisi'nde Mûsikar için ayrı madde bulunamadı; kaynak olarak DergiPark makalesi kullanıldı.",
+    "acik_kalanlar": "Miskal'ın boru sayısı, çalınışı ve bugün çalınıp çalınmadığı doğrulanamadı. Larchemi/soinari'nin yapısı ve Gürcistan bağı doğrulanamadı. Kuvytsi'nin sınıflaması çelişkili. Danso ve nai için bağımsız (ticari olmayan) öğrenme süresi ölçümü yok. Türkiye'de okarina, quena, xiao fiyatları ve yerel öğretmen/kurs durumu doğrulanmadı (erisim puanları kendi değerlendirmem). Syrinx ayrı satır olarak puanlanmadı, nai ile birlikte ele alındı. Hocchiku shakuhachi ile birlikte puanlandı; ayrı kaynak aranmadı. Xun'un üfleme biçimi doğrulanmadı."
+   }
+  },
+  {
+   "key": "ogrenme",
+   "sonuc": {
+    "arac": "araç: 35/35",
+    "ozet": "Hipotez büyük ölçüde destekleniyor ama iki düzeltmeyle. (1) Mekanizma: UNSW'ye göre blok flütte hava jetini düdük kanalı oluşturur, yan flütte ise jeti oyuncunun dudakları kurar; bu yüzden blok flüt başlangıç için nispeten kolaydır. Çentikli ve çentiksiz kenardan üflemeli çalgılarda jet ve dudak kontrolü oyuncuya kalır; UNSW uç üflemeli shakuhachi'yi acemi için zor sayar. Yan flüt ile çentikli flüt arasındaki sıralamayı doğrudan karşılaştıran bir kaynak bulamadım; bu sıra benim değerlendirmem. (2) Süre iddiaları zayıf: ney için tek sayısal ifade Cansu Turan'ın \"bazıları aylarca uğraşır\" sözü; shakuhachi için \"kubifuri sannen\" (baş hareketi için yaklaşık 3 yıl) bir halk sözü, ölçülmüş süre değil ve bu oturumda sayfası açılamadı (403). Bansuri'de \"ses geliştirme 1-2 ay\" bir satıcı rehberinden. Tin whistle ve quena için süre kaynağı bulamadım; quena'nın ilk notası forumlarda zor diye anılıyor. Plastik başlangıç modelleri: kanıt yalnızca satıcı ve forum düzeyinde (PVC bansuri, plastik shakuhachi Yuu, PVC ney önerisi); Yuu'ya karşı olumsuz görüş de var; hakemli kanıt yok. Türkiye: ney için HEM kursu örnekleri (Ordu, Çubuk) ve en az altı ney metodu var; kaval kursu ve kaval/ney video dersi bulamadım; shakuhachi, bansuri, tin whistle, Kızılderili flütü için Türkiye satıcısı bulamadım. Fiyatlar (tarihi belirsiz, bu oturumda çekilen ilan özetleri): plastik ney ~390-1.100 TL, kamış ney ~860-1.960 TL; plastik dilsiz kaval ~640-720 TL, ahşap dilsiz ~1.350-1.740 TL, dilli kaval ~850-1.750 TL; okarina ~500-1.150 TL; Yamaha blok flüt ~725-1.180 TL; plastik Yuu shakuhachi ¥26.400 (yaklaşık 170-180 USD, kendi çevirim); bansuri ~45 USD (Thomann); tin whistle ~10-21 USD.",
+    "etkenler": [
+     {
+      "etken": "Hava jetini kimin kurduğu (düdük kanalı mı, dudak mı)",
+      "etki": "Blok flüt/tin whistle/okarinada jeti kanal kurar, ilk ses neredeyse kendiliğinden gelir. Yan, çentikli ve çentiksiz flütlerde dudak açıklığı, jet uzunluğu ve açısı oyuncuya kalır; ilk ses haftalar-aylar alabilir.",
+      "defter_no": [
+       1,
+       2,
+       4,
+       14
+      ]
+     },
+     {
+      "etken": "Üfleme geometrisi: yan, çentikli, çentiksiz uç üflemeli",
+      "etki": "Uç üflemeli shakuhachi UNSW'de acemi için zor; quena'da ilk nota ve alt oktav forumlarda zor. Ney ve dilsiz kavalda sesin tamamen dudak ve nefese bağlı olması MEB kaynaklarında zorluk gerekçesi. Sıralama (yan < çentikli < çentiksiz) kendi değerlendirmem.",
+      "defter_no": [
+       3,
+       5,
+       7,
+       8,
+       19
+      ]
+     },
+     {
+      "etken": "Öğretmen ve düzenli yönlendirme",
+      "etki": "MEB modülleri dudak egzersizi ve sabır vurgular; doğru dudak pozisyonu ilk derste gösterilir. Öğretmensiz ilk ses süresi uzar (öznel).",
+      "defter_no": [
+       5,
+       6,
+       7
+      ]
+     },
+     {
+      "etken": "Malzeme: plastik/PVC/pleksi başlangıç modeli",
+      "etki": "Daha ucuz, dayanıklı, nem-ısıdan etkilenmez; satıcı ve forum düzeyinde başlangıç için öneriliyor. İlk sesi kolaylaştırdığına dair bağımsız kanıt yok; Yuu'yu ağır bulan acemi de var.",
+      "defter_no": [
+       13,
+       15,
+       16,
+       18,
+       28
+      ]
+     },
+     {
+      "etken": "Parmaklama ve ince ayar (yarım delik, koma)",
+      "etki": "Bansuri'de yarım delik Shuddh Ma en çok zorlanılan nota; neyde ve dilsiz kavalda koma sesler ileri düzey zorluk. Bu bulgular arama özetinden.",
+      "defter_no": [
+       10,
+       29
+      ]
+     },
+     {
+      "etken": "Türkiye'de erişim: çalgı, fiyat, öğretmen, yöntem",
+      "etki": "Ney ve kaval ucuz ve bol; ney için HEM kursu ve metotlar var. Bansuri, shakuhachi, tin whistle, Kızılderili flütü için yerel satıcı bulunamadı; yurt dışından alınır.",
+      "defter_no": [
+       20,
+       21,
+       22,
+       23,
+       24,
+       25,
+       26,
+       27
+      ]
+     }
+    ],
+    "sure_iddialari": [
+     {
+      "calgi": "Ney (Türk neyi)",
+      "iddia": "İlk ses 'bazıları için aylarca' sürebilir; ustalaşma en az 5-6 yıl.",
+      "guvenilirlik": "Orta: biri ney virtüözünün röportaj sözü, diğeri satıcı blogu. Ölçülmüş araştırma değil; 'ilk ses haftalar' hipotezi kaynaksız kaldı.",
+      "defter_no": [
+       8,
+       9,
+       10
+      ]
+     },
+     {
+      "calgi": "Dilsiz kaval",
+      "iddia": "İlk denemelerde ses çıkarmak zor olabilir; sabır ve dudak egzersizi gerekir. Süre verilmemiş.",
+      "guvenilirlik": "Orta: resmi MEB müfredat metni, ama sayı yok.",
+      "defter_no": [
+       7,
+       29
+      ]
+     },
+     {
+      "calgi": "Shakuhachi",
+      "iddia": "Baş hareketi tekniği yaklaşık üç yılda öğrenilir (kubifuri sannen); alet acemi için zor.",
+      "guvenilirlik": "Düşük-orta: halk sözü, AllMusic özetinden; sayfa açılamadı. 'Zor' kısmı UNSW'de var (yüksek). Üç yıl ölçülmüş değil.",
+      "defter_no": [
+       3,
+       11
+      ]
+     },
+     {
+      "calgi": "Bansuri",
+      "iddia": "Ses geliştirme aşaması 1-2 ay; yan üfleme dudak tekniği sinir bozucu olabilir.",
+      "guvenilirlik": "Düşük-orta: satıcı rehberi, deneysel temeli yok.",
+      "defter_no": [
+       12,
+       14
+      ]
+     },
+     {
+      "calgi": "Tin whistle",
+      "iddia": "Süre kaynağı bulunamadı; düdüklü olduğu için kolay olması mekanizmadan çıkarım (kendi değerlendirmem).",
+      "guvenilirlik": "Düşük: doğrudan kaynak yok, UNSW blok flüt için geçerli.",
+      "defter_no": [
+       1,
+       2
+      ]
+     },
+     {
+      "calgi": "Quena",
+      "iddia": "Öğrenme eğrisi var; ilk tonu almak zaman alır; alt oktav zor.",
+      "guvenilirlik": "Düşük: forum yazıları, süre yok.",
+      "defter_no": [
+       19
+      ]
+     }
+    ],
+    "turkiye": [
+     {
+      "calgi": "Ney",
+      "nerede_ogrenilir": "Halk Eğitim Merkezi ney kursları (Ordu'da ücretsiz hafta sonu kursu, Çubuk'ta açılan kurs); MEB müzik okulları ney modülü; yöntem kitapları: Süleyman Erguner (2 CD'li), Karahasan, Fatih Yıldız. Video ders ve İSMEK kaydı bulunamadı; İTÜ TMDK ve vakıflar doğrulanamadı.",
+      "baslangic_fiyati": "Plastik/PVC öğrenci kız ney ~390-1.100 TL; kamış ~860-1.960 TL (akakce, tarihi belirsiz)",
+      "defter_no": [
+       5,
+       20,
+       26,
+       27
+      ]
+     },
+     {
+      "calgi": "Kaval (dilsiz ve dilli)",
+      "nerede_ogrenilir": "MEB kaval modülü var; kurs listesi ve video ders bulunamadı. Dilsiz kaval için kitap halinde yalnızca iki metot olduğu bildiriliyor (akademik özetten, düşük güven).",
+      "baslangic_fiyati": "Plastik dilsiz ~640-720 TL; ahşap dilsiz ~1.350-1.740 TL; dilli ahşap ~850-1.750 TL",
+      "defter_no": [
+       7,
+       21,
+       29
+      ]
+     },
+     {
+      "calgi": "Blok flüt",
+      "nerede_ogrenilir": "Okul müziği; satıcı bol (Teknosa, Cimri, Akakçe). Kurs araştırılmadı.",
+      "baslangic_fiyati": "Yamaha YRS-23 ~725-1.180 TL; yerli markalar ~84-290 TL",
+      "defter_no": [
+       23
+      ]
+     },
+     {
+      "calgi": "Okarina",
+      "nerede_ogrenilir": "Çevrimiçi mağazalarda var; kurs ve topluluk araştırılmadı.",
+      "baslangic_fiyati": "~500-1.150 TL (4 ve 12 delik karışık, malzeme belirsiz)",
+      "defter_no": [
+       22
+      ]
+     },
+     {
+      "calgi": "Tin whistle",
+      "nerede_ogrenilir": "Türkiye satıcısı bulunamadı; yurt dışı (Thomann, Just Flutes) üzerinden alınır.",
+      "baslangic_fiyati": "~10-21 USD (Feadog, Generation, Clarke), kargo hariç",
+      "defter_no": [
+       25
+      ]
+     },
+     {
+      "calgi": "Bansuri",
+      "nerede_ogrenilir": "Türkiye satıcısı ve öğretmeni bulunamadı; Thomann Nataraj ve Hint mağazalarından ithal.",
+      "baslangic_fiyati": "~45 USD (Thomann Nataraj Pro G), kargo ve gümrük hariç",
+      "defter_no": [
+       24,
+       13
+      ]
+     },
+     {
+      "calgi": "Shakuhachi",
+      "nerede_ogrenilir": "Türkiye satıcısı ve öğretmeni bulunamadı; yurt dışından alınır.",
+      "baslangic_fiyati": "Plastik Yuu ¥26.400 (taiko-shop); forumda deneme için 1-100 USD, iyi ikinci el 250-1.000 USD",
+      "defter_no": [
+       17,
+       18
+      ]
+     },
+     {
+      "calgi": "Quena ve Kızılderili flütü",
+      "nerede_ogrenilir": "Türkiye satıcısı bulunamadı; fiyat aranmadı/bulunamadı.",
+      "baslangic_fiyati": "Bulunamadı",
+      "defter_no": [
+       19
+      ]
+     }
+    ],
+    "defter": [
+     {
+      "no": 1,
+      "iddia": "Blok flüt acemi için nispeten kolaydır çünkü jeti düdük kanalı kurar.",
+      "kaynak": "https://phys.unsw.edu.au/jw/fluteacoustics.html",
+      "alinti": "This makes the recorder a relatively easy instrument for beginners.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 2,
+      "iddia": "Blok flütte jet geometrisi kanaldan gelir; yan flütte dudaklardan.",
+      "kaynak": "https://phys.unsw.edu.au/jw/fluteacoustics.html",
+      "alinti": "Here, the windway geometry forms the air jet, instead of leaving that to the player's lips.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 3,
+      "iddia": "Uç üflemeli shakuhachi acemi için zor bir çalgıdır.",
+      "kaynak": "https://phys.unsw.edu.au/jw/fluteacoustics.html",
+      "alinti": "but makes it a difficult instrument for beginners.",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "no": 4,
+      "iddia": "Dudakla kurulan jet ayarları zamanla öğrenilen beceridir.",
+      "kaynak": "https://phys.unsw.edu.au/jw/fluteacoustics.html",
+      "alinti": "These are the adjustments that one gradually learns to make automatically when playing the flute.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 5,
+      "iddia": "MEB ney modülü ilk denemelerde ses çıkarmanın zor olabileceğini kabul eder.",
+      "kaynak": "https://tymm.meb.gov.tr/muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu/unite/1215",
+      "alinti": "neyden ilk denemelerde ses çıkarmanın zor olabileceğini bilerek sabırlı olmaları",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 6,
+      "iddia": "MEB ney modülü dudak güçlendirme egzersizi önerir.",
+      "kaynak": "https://tymm.meb.gov.tr/muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu/unite/1215",
+      "alinti": "Öğrencilerin dudaklarını güçlendirmek amacıyla egzersizler verilebilir.",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 7,
+      "iddia": "MEB kaval modülü de ilk denemelerde ses çıkarmanın zor olabileceğini belirtir.",
+      "kaynak": "https://tymm.meb.gov.tr/muzik-okullari-bireysel-calgi-egitimi-dersi-kaval-modulu/unite/1185",
+      "alinti": "kavaldan ilk denemelerde ses çıkarmanın zor olabileceği konusunda sabırlı olmaları gerektiği bilgisi verilip",
+      "guven": "yüksek",
+      "kritik": false
+     },
+     {
+      "no": 8,
+      "iddia": "Neyde ses çıkarmak zor; bazıları aylarca uğraşır.",
+      "kaynak": "https://www.dailysabah.com/arts/music/cansu-turan-young-woman-transforming-ney-turkish-classical-music/amp",
+      "alinti": "Many people say it's tough to produce sound from the ney; some struggle for months.",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "no": 9,
+      "iddia": "Neyde sağlıklı ses çıkarmak acemi için ilk engeldir.",
+      "kaynak": "https://salamuzik.com/blogs/news/how-to-make-sound-from-a-ney",
+      "alinti": "Making a healthy sound from Ney is the first obstacle for a beginner.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 10,
+      "iddia": "Çırak dönemi genellikle en az beş altı yıl sürer (satıcı blogu).",
+      "kaynak": "https://salamuzik.com/blogs/news/how-to-make-sound-from-a-ney",
+      "alinti": "The apprenticeship period of an instrument usually takes at least five to six years, depending on ability and competence.",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 11,
+      "iddia": "Shakuhachi'de baş hareketi yaklaşık üç yılda öğrenilir (kubifuri sannen); alet acemi için ses çıkarması zor.",
+      "kaynak": "https://www.allmusic.com/explore/instrument/shakuhachi-d766",
+      "alinti": "(sayfa 403 verdi; yalnızca arama özetinden: baş hareketiyle yapılan perde inceliklerinin öğrenilmesi yaklaşık üç yıl sürer; birebir alıntı yok)",
+      "guven": "düşük",
+      "kritik": true
+     },
+     {
+      "no": 12,
+      "iddia": "Bansuri için ses geliştirme aşaması 1-2 ay (satıcı rehberi).",
+      "kaynak": "https://www.radheflutes.com/blogs/guide/how-to-learn-the-flute",
+      "alinti": "Stage 2: Sound Development (1–2 Months)",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 13,
+      "iddia": "PVC/karbon fiber bansuri acemiye 'çok önerilir' (satıcı).",
+      "kaynak": "https://www.radheflutes.com/blogs/guide/how-to-choose-your-first-bansuri",
+      "alinti": "PVC Fiber / Carbon Fiber (Highly Recommended for Beginners)",
+      "guven": "düşük",
+      "kritik": true
+     },
+     {
+      "no": 14,
+      "iddia": "Yan üflemeli bansuri özel dudak tekniği gerektirir ve sinir bozucu olabilir.",
+      "kaynak": "https://www.radheflutes.com/blogs/guide/how-to-choose-your-first-bansuri",
+      "alinti": "Side-blown bansuris require a specific \"embouchure\" (blowing technique) that can be frustrating.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 15,
+      "iddia": "Plastik shakuhachi Yuu bambuya benzer çalar, kararlı ve dayanıklı (forum görüşü).",
+      "kaynak": "https://forum.shakuhachisociety.eu/t313-Buying-a-first-shakuhachi-or-jinashi.htm",
+      "alinti": "It looks and plays (almost) like a bamboo, and its very stable and durable, and usefully tuned.",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 16,
+      "iddia": "Aykırı görüş: bir acemi Yuu'yu ağır ve çalması hoş değil buldu.",
+      "kaynak": "https://forum.shakuhachisociety.eu/t313-Buying-a-first-shakuhachi-or-jinashi.htm",
+      "alinti": "as a beginner, I actually find the Yuu quite heavy and not so pleasant to play.",
+      "guven": "düşük",
+      "kritik": true
+     },
+     {
+      "no": 17,
+      "iddia": "Shakuhachi denemelik 1-100 USD, iyi ikinci el 250-1.000 USD (forum önerisi).",
+      "kaynak": "https://forum.shakuhachisociety.eu/t313-Buying-a-first-shakuhachi-or-jinashi.htm",
+      "alinti": "$250–1,000 for good used flutes.",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 18,
+      "iddia": "Plastik shakuhachi Yuu ¥26.400 ve acemiye önerilir; sayfa ABS demiyor, yalnızca plastik.",
+      "kaynak": "https://taiko-shop.com/products/plastic-shakuhachi-yuu",
+      "alinti": "Highly recommended to beginners.",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 19,
+      "iddia": "Quena'da öğrenme eğrisi vardır; tını almak zaman alır.",
+      "kaynak": "https://www.chiffandfipple.com/t/quena-embouchure/77880",
+      "alinti": "quenas have a learning curve, it takes awhile to get any kind of tone",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 20,
+      "iddia": "Plastik öğrenci ney 387,15 TL'den başlar; plastik delrin başpareli 1.050-1.100 TL; kamış 857,37-1.955 TL.",
+      "kaynak": "https://www.akakce.com/ney.html",
+      "alinti": "Donizetti DNZCEV Kız ( Si ) Öğrenci Ney 387,15 TL",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 21,
+      "iddia": "Plastik dilsiz kaval ~640,80-720 TL; ahşap dilsiz 1.350-1.735,50 TL; dilli ahşap 849,99-1.750 TL.",
+      "kaynak": "https://www.akakce.com/kaval.html",
+      "alinti": "İmece Dilsiz Kaval Mİ Plastik (53 cm) 720,00",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 22,
+      "iddia": "Okarina 496,15 TL ile 1.149,88 TL arasında listeleniyor.",
+      "kaynak": "https://www.akakce.com/ocarina.html",
+      "alinti": "Hermann Mayer Pro12 Ocarina 12 Ses 1.149,88 TL",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 23,
+      "iddia": "Yamaha YRS-23 blok flüt Teknosa'da 1.179,55 TL, Cimri'de ~725-748 TL (arama özeti).",
+      "kaynak": "https://www.teknosa.com/yamaha-yrs23-soprano-blok-flut-p-789510059",
+      "alinti": "Yamaha YRS23 Soprano Blok Flüt 1.179,55 TL",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 24,
+      "iddia": "Thomann Nataraj Bansuri Pro G yaklaşık 45 USD (arama özeti).",
+      "kaynak": "https://www.thomannmusic.com/thomann_nataraj_bansuri_pro_flute_g.htm",
+      "alinti": "(arama özeti: $45; birebir alıntı alınamadı)",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 25,
+      "iddia": "Feadog Brass D 12,99 USD; Generation 10-14 USD; Clarke Original D ~15,83 GBP.",
+      "kaynak": "https://larkinthemorning.com/collections/pennywhistles?page=2",
+      "alinti": "(arama özeti: Feadog Brass D $12.99; birebir alıntı alınamadı)",
+      "guven": "düşük",
+      "kritik": false
+     },
+     {
+      "no": 26,
+      "iddia": "Halk Eğitim Merkezleri ney kursu açıyor (Ordu, Çubuk).",
+      "kaynak": "https://www.mynet.com/cubukta-ney-kursu-acildi-180101391513",
+      "alinti": "hafta sonları ücretsiz verilen ney kursuna",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 27,
+      "iddia": "Türkçe ney yöntem kitapları var: Süleyman Erguner Ney Metod (2 CD), Karahasan, Fatih Yıldız.",
+      "kaynak": "https://www.nadirkitap.com/ney-metod-2-adet-cd-var-suleyman-erguner-kitap46588113.html",
+      "alinti": "NEY METOD (2 adet CD var.)",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "no": 28,
+      "iddia": "Bir satıcı sayfası ilk ses için PVC ney, sonra kamış ney önerir.",
+      "kaynak": "https://salamuzik.com/blogs/news/what-are-the-differences-between-ney-and-plastic-ney-why-is-plastic-ney-used",
+      "alinti": "İlk ses çıkartmak için Pvc Ney tercih edilebilir",
+      "guven": "düşük",
+      "kritik": true
+     },
+     {
+      "no": 29,
+      "iddia": "Dilsiz kavalda ses tamamen dudak, nefes ve üfleme açısına bağlıdır; kitap halinde iki metot var (akademik özetler, doğrulanmadı).",
+      "kaynak": "https://dergipark.org.tr/tr/download/article-file/1438284",
+      "alinti": "(arama özeti; makale açılmadı, birebir alıntı yok)",
+      "guven": "düşük",
+      "kritik": false
+     }
+    ],
+    "aykiri_bulgular": "Hipotezle çelişen veya onu zayıflatan: (a) Plastik başlangıç modelinin ilk sesi kolaylaştırdığına dair bağımsız kanıt yok; yalnızca satıcı önerisi var, ve bir acemi Yuu'yu hoş bulmadı (defter 16). (b) Ney için 'ilk ses haftalar' kanıtı bulunamadı; tersine 'aylarca' ifadesi var (8). (c) 'Yan < çentikli' sıralamasını doğrudan karşılaştıran akustik/pedagojik kaynak bulunamadı; UNSW yalnızca düdüklü ve uç üflemeli zorluğunu söylüyor. (d) Türkiye'de kaval için kurs ve video ders bulunamadı; 'kaval öğretmeni bol' hipotezi doğrulanamadı. (e) Bansuri ve shakuhachi için yerli satıcı yok. (f) Listede olmayan bulgu: ney'e özgü sorun yalnızca ilk ses değil, koma sesleri de ileri zorluk. Cansu Turan sözü tek kişilik tanıklık.",
+    "acik_kalanlar": "Doğrulanmadı: İTÜ TMDK, vakıf ve belediye (İSMEK vb.) ney/kaval kursları; Türkçe ney/kaval video ders kanalları; Türkiye'de tin whistle, bansuri, shakuhachi, quena, Kızılderili flütü satıcıları ve fiyatları; shakuhachi ABS/PVC ayrımı ve kubifuri sannen'in birincil kaynağı (AllMusic 403 verdi); tin whistle ve quena için süre iddiaları; blok flüt, okarina için Türkiye'de öğretmen ve topluluk. Fiyat ilanları tarihsiz anlık görüntüdür. USD karşılığı olan yen fiyatı kendi çevirimdir. Defter 11, 24, 25, 29 arama özetine dayanıyor, birebir alıntı alınamadı."
+   }
+  }
+ ],
+ "secilen": [
+  {
+   "id": "ogrenme-21",
+   "tur": "ornek"
+  },
+  {
+   "id": "ogrenme-11",
+   "tur": "kritik"
+  },
+  {
+   "id": "yan-10",
+   "tur": "ornek"
+  },
+  {
+   "id": "yan-8",
+   "tur": "kritik"
+  },
+  {
+   "id": "ogrenme-8",
+   "tur": "kritik"
+  },
+  {
+   "id": "kenar-16",
+   "tur": "ornek"
+  },
+  {
+   "id": "yan-27",
+   "tur": "kritik"
+  },
+  {
+   "id": "yan-5",
+   "tur": "kritik"
+  },
+  {
+   "id": "yan-6",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-10",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-6",
+   "tur": "kritik"
+  },
+  {
+   "id": "yan-12",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-18",
+   "tur": "ornek"
+  },
+  {
+   "id": "yan-26",
+   "tur": "kritik"
+  },
+  {
+   "id": "yan-25",
+   "tur": "ornek"
+  },
+  {
+   "id": "kenar-7",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-9",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-22",
+   "tur": "kritik"
+  },
+  {
+   "id": "yan-2",
+   "tur": "kritik"
+  },
+  {
+   "id": "kenar-1",
+   "tur": "kritik"
+  },
+  {
+   "id": "kenar-4",
+   "tur": "kritik"
+  },
+  {
+   "id": "kenar-3",
+   "tur": "ornek"
+  },
+  {
+   "id": "duduklu-19",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-4",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-5",
+   "tur": "ornek"
+  },
+  {
+   "id": "yan-20",
+   "tur": "kritik"
+  },
+  {
+   "id": "yan-21",
+   "tur": "ornek"
+  },
+  {
+   "id": "centik_kap_pan-18",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-24",
+   "tur": "ornek"
+  },
+  {
+   "id": "centik_kap_pan-22",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-13",
+   "tur": "ornek"
+  },
+  {
+   "id": "centik_kap_pan-7",
+   "tur": "kritik"
+  },
+  {
+   "id": "centik_kap_pan-10",
+   "tur": "ornek"
+  },
+  {
+   "id": "duduklu-1",
+   "tur": "kritik"
+  },
+  {
+   "id": "centik_kap_pan-2",
+   "tur": "kritik"
+  },
+  {
+   "id": "centik_kap_pan-3",
+   "tur": "ornek"
+  },
+  {
+   "id": "yan-15",
+   "tur": "ornek"
+  },
+  {
+   "id": "centik_kap_pan-24",
+   "tur": "kritik"
+  },
+  {
+   "id": "centik_kap_pan-26",
+   "tur": "ornek"
+  },
+  {
+   "id": "kenar-22",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-3",
+   "tur": "kritik"
+  },
+  {
+   "id": "kenar-20",
+   "tur": "kritik"
+  },
+  {
+   "id": "kenar-21",
+   "tur": "ornek"
+  },
+  {
+   "id": "kenar-13",
+   "tur": "kritik"
+  },
+  {
+   "id": "kenar-14",
+   "tur": "kritik"
+  },
+  {
+   "id": "yan-28",
+   "tur": "kritik"
+  },
+  {
+   "id": "centik_kap_pan-15",
+   "tur": "ornek"
+  },
+  {
+   "id": "centik_kap_pan-20",
+   "tur": "ornek"
+  },
+  {
+   "id": "ogrenme-16",
+   "tur": "kritik"
+  },
+  {
+   "id": "ogrenme-17",
+   "tur": "ornek"
+  },
+  {
+   "id": "yan-19",
+   "tur": "kritik"
+  },
+  {
+   "id": "yan-3",
+   "tur": "ornek"
+  },
+  {
+   "id": "centik_kap_pan-12",
+   "tur": "kritik"
+  },
+  {
+   "id": "ogrenme-25",
+   "tur": "ornek"
+  },
+  {
+   "id": "duduklu-17",
+   "tur": "kritik"
+  },
+  {
+   "id": "duduklu-8",
+   "tur": "kritik"
+  },
+  {
+   "id": "centik_kap_pan-30",
+   "tur": "ornek"
+  },
+  {
+   "id": "ogrenme-1",
+   "tur": "kritik"
+  },
+  {
+   "id": "ogrenme-2",
+   "tur": "kritik"
+  },
+  {
+   "id": "ogrenme-3",
+   "tur": "kritik"
+  },
+  {
+   "id": "kenar-9",
+   "tur": "kritik"
+  },
+  {
+   "id": "ogrenme-13",
+   "tur": "kritik"
+  },
+  {
+   "id": "centik_kap_pan-5",
+   "tur": "kritik"
+  },
+  {
+   "id": "ogrenme-10",
+   "tur": "ornek"
+  },
+  {
+   "id": "ogrenme-28",
+   "tur": "kritik"
+  },
+  {
+   "id": "ogrenme-5",
+   "tur": "ornek"
+  },
+  {
+   "id": "centik_kap_pan-4",
+   "tur": "kritik"
+  },
+  {
+   "id": "kenar-10",
+   "tur": "ornek"
+  }
+ ],
+ "dogrulama": [
+  {
+   "arac": "araç: 24/40",
+   "sonuclar": [
+    {
+     "id": "ogrenme-21",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.akakce.com/kaval.html",
+     "kanit_alinti": "İmece Dilsiz Kaval Mİ Plastik (53 cm) 720,00"
+    },
+    {
+     "id": "ogrenme-11",
+     "durum": "kismen",
+     "duzeltme": "Allmusic sayfası 403 verdi. Bağımsız aramada 'san nen kubi furi' (baş sallamak üç yıl) geleneksel bir söylem olarak geçiyor; ölçülmüş bir süre değil, bazı kaynaklar 3-8 yıl diyor. 'Acemi için ses çıkarması zor' kısmı doğrulanamadı. Doğru ifade: baş hareketiyle perde inceliği ustalığının geleneksel olarak yaklaşık üç yıl sürdüğü söylenir.",
+     "kanit_url": "https://daifujikura.com/prog_shakuhachifive",
+     "kanit_alinti": "you must shake your head with the instrument for 3 years before beginning to be able to play it"
+    },
+    {
+     "id": "yan-10",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://blog.sapaindia.com/?p=3731",
+     "kanit_alinti": "venu has eight playing and one blowing hole while bansuri uses six playing holes and one blowing hole."
+    },
+    {
+     "id": "yan-8",
+     "durum": "kismen",
+     "duzeltme": "Alıntı doğru ama sayfa 5. ve 6. delikler arasındaki gerilmeden söz eder; hangi flütün bas bansuri olduğu belirtilmez (yazar kendi E ve D bansurilerini anlatıyor, bas flütler başka yazarlara ait). 'Bas bansuri' ifadesi kaynakta yok; 'büyük bansurilerde delikler arası açıklık bileği zorlayabilir' denmeli.",
+     "kanit_url": "https://www.chiffandfipple.com/t/check-out-the-stretch-on-this-flute/38306",
+     "kanit_alinti": "The stretch on the flute between holes 5 and 6 is sure to create wrist problems, unless you have a monster reach!"
+    },
+    {
+     "id": "ogrenme-8",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.dailysabah.com/arts/music/cansu-turan-young-woman-transforming-ney-turkish-classical-music/amp",
+     "kanit_alinti": "Many people say it's tough to produce sound from the ney; some struggle for months."
+    },
+    {
+     "id": "kenar-16",
+     "durum": "kaynakta_yok",
+     "duzeltme": "PDF metni çıkarıldı: 'kargı düdük' yalnızca bir kez, dilli düdükle karşılaştırılarak geçiyor; uzun kamış flüt olduğu ya da Arundo donax tanımı yok. Bu iddia için başka kaynak gerekir.",
+     "kanit_url": "https://dergipark.org.tr/en/download/article-file/3630948",
+     "kanit_alinti": "düdük kırsallığı temsil eden bir çalgı olduğundan kargı düdüğe nazaran dilli düdüğün de nadir görülen enstrümanlar arasında olacaktır"
+    },
+    {
+     "id": "yan-27",
+     "durum": "dogru",
+     "duzeltme": "Listede ayrıca Zambır var (iddia listesinde yok); 'yan flüt' ifadesi metinde hiç geçmiyor.",
+     "kanit_url": "https://dergipark.org.tr/tr/download/article-file/1159784",
+     "kanit_alinti": "Kaval (Dilsiz), Dilli Kaval, Çifte Kaval, Mey, Zurna, Tulum, Sipsi, Zambır, Düdük, Duduk, Çığırtma, Argun, Gırnata (Klarnet)"
+    },
+    {
+     "id": "yan-5",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Bansuri",
+     "kanit_alinti": "Half-holing is employed to play flat or minor notes."
+    },
+    {
+     "id": "yan-6",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Bansuri",
+     "kanit_alinti": "Octaves are varied by manipulating one's embouchure and controlling the blowing strength."
+    },
+    {
+     "id": "duduklu-10",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Caval",
+     "kanit_alinti": "As a wooden rim-blown flute, kaval is similar to the kawala of the Arab world and ney of the Middle East."
+    },
+    {
+     "id": "duduklu-6",
+     "durum": "dogru",
+     "duzeltme": "Kaynak 'oktav' demiyor, 'register nefes gücüyle kontrol edilir' diyor.",
+     "kanit_url": "https://en.wikipedia.org/wiki/Dilli_kaval",
+     "kanit_alinti": "traditional fipple flute from Turkey and Azerbaijan"
+    },
+    {
+     "id": "yan-12",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Dizi_(instrument)",
+     "kanit_alinti": "between the embouchure and finger-holes"
+    },
+    {
+     "id": "duduklu-18",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Dvoyanka",
+     "kanit_alinti": "a double flute made of a single piece of wood, with six sound holes on one side."
+    },
+    {
+     "id": "yan-26",
+     "durum": "dogru",
+     "duzeltme": "Brezilya'da fife benzeri enstrüman 'pife nordestino' / pife adıyla geçer; 'pífano' sözcüğü sayfada ayrıca doğrulanmadı.",
+     "kanit_url": "https://en.wikipedia.org/wiki/Fife_(musical_instrument)",
+     "kanit_alinti": "the fingering patterns necessary for playing in the third octave can be daunting to a beginner"
+    },
+    {
+     "id": "yan-25",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Fife_(musical_instrument)",
+     "kanit_alinti": "a tube with six finger holes and an embouchure hole"
+    },
+    {
+     "id": "kenar-7",
+     "durum": "dogru",
+     "duzeltme": "Sayfa ayrıca tipik olarak yedi parmak deliği olduğunu söylüyor.",
+     "kanit_url": "https://en.wikipedia.org/wiki/Floghera",
+     "kanit_alinti": "a simple end-blown bamboo flute without a fipple"
+    },
+    {
+     "id": "duduklu-9",
+     "durum": "kismen",
+     "duzeltme": "Düdüklü fluier'in altı delikli olması doğru (fluier cu dop). Ancak caval için sayfa çelişkili: Fluier sayfası caval'i 5 delikli, büyük ve 'end-blown fipple' başlığı altında listeliyor; Caval sayfası ise kenar üflemeli (rim-blown) diyor. 'Düdüklü' ifadesi caval için güvenilmez; duduklu-10 ile çelişir, caval kenar üflemeli kabul edilmeli.",
+     "kanit_url": "https://en.wikipedia.org/wiki/Fluier",
+     "kanit_alinti": "The fluier with a fipple and six finger-holes (fluier cu dop) is the most numerous type of Romanian folk flute."
+    },
+    {
+     "id": "duduklu-22",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Fujara",
+     "kanit_alinti": "the normal playing technique is based on overblowing the instrument"
+    },
+    {
+     "id": "yan-2",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Irish_flute",
+     "kanit_alinti": "The modern playing technique within the Irish Traditional Music has much in common with tin whistle technique."
+    },
+    {
+     "id": "kenar-1",
+     "durum": "dogru",
+     "duzeltme": "Sayfa 'oktav' demez; perde nefes basıncıyla değişir, register ağırlıklı olarak hava akışıyla belirlenir.",
+     "kanit_url": "https://en.wikipedia.org/wiki/Kaval",
+     "kanit_alinti": "is played by blowing on the sharpened edge of one end"
+    }
+   ],
+   "notlar": "Dergipark PDF'leri WebFetch ile okunamadı; pdftotext ile yerel metin çıkarıldı. Allmusic 403 verdi (1 deneme + 1 bağımsız arama). Fluier sayfasının son 15 bin karakteri okunmadı. WebFetch özetleri küçük model çıktısıdır; duduklu-9'daki caval sınıflaması Caval sayfasıyla çelişiyor, Caval makalesine güvenilmeli."
+  },
+  {
+   "arac": "araç: 5/40",
+   "sonuclar": [
+    {
+     "id": "kenar-4",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Kaval",
+     "kanit_alinti": "dilsiz kaval ('kaval without a tongue'), dilli kaval ('kaval with a tongue')"
+    },
+    {
+     "id": "kenar-3",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Kaval",
+     "kanit_alinti": "The kaval plays two octaves and a fifth, in the chromatic scale."
+    },
+    {
+     "id": "duduklu-19",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Koncovka",
+     "kanit_alinti": "By increasing the air speed, two different harmonic series of notes can be played with the end either open or closed."
+    },
+    {
+     "id": "duduklu-4",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Native_American_flute",
+     "kanit_alinti": "A block on the outside of the instrument directs the player's breath from the first chamber"
+    },
+    {
+     "id": "duduklu-5",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Native_American_flute",
+     "kanit_alinti": "Native American flutes typically have either five or six finger holes"
+    },
+    {
+     "id": "yan-20",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Nohkan",
+     "kanit_alinti": "a keyless tube of 39.1 cm with an average bore width of 1.7 cm and there are 7 finger holes"
+    },
+    {
+     "id": "yan-21",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Nohkan",
+     "kanit_alinti": "the keynote frequency varies from flute to flute"
+    },
+    {
+     "id": "centik_kap_pan-18",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Ocarina",
+     "kanit_alinti": "Breath force can change the pitch by several semitones"
+    },
+    {
+     "id": "duduklu-24",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Overtone_flute",
+     "kanit_alinti": "An overtone flute has either no tone holes, or relatively few tone holes for a woodwind instrument."
+    },
+    {
+     "id": "centik_kap_pan-22",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Pan_flute",
+     "kanit_alinti": "Sound is produced by the vibration of an air-stream blowing across an open hole at the end of a resonating tube."
+    },
+    {
+     "id": "duduklu-13",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Pinkillo",
+     "kanit_alinti": "has six finger holes"
+    },
+    {
+     "id": "centik_kap_pan-7",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Quena",
+     "kanit_alinti": "over an elliptical notch cut into the end"
+    },
+    {
+     "id": "centik_kap_pan-10",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Quena",
+     "kanit_alinti": "a larger, lower-toned version of the quena and made the same way. It is in the key of D"
+    },
+    {
+     "id": "duduklu-1",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Recorder_(musical_instrument)",
+     "kanit_alinti": "a member of the family of duct flutes that includes tin whistles and flageolets"
+    },
+    {
+     "id": "centik_kap_pan-2",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Shakuhachi",
+     "kanit_alinti": "a sharp edge to blow against called utaguchi"
+    },
+    {
+     "id": "centik_kap_pan-3",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Shakuhachi",
+     "kanit_alinti": "the blowing angle is adjusted to bend the pitch downward and upward"
+    },
+    {
+     "id": "yan-15",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Shinobue",
+     "kanit_alinti": "There are three styles: uta (song), hayashi (festival), and doremi."
+    },
+    {
+     "id": "centik_kap_pan-24",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Siku_(instrument)",
+     "kanit_alinti": "Traditionally, two musicians were required to play the siku, each one taking one row of the instrument."
+    },
+    {
+     "id": "centik_kap_pan-26",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Siku_(instrument)",
+     "kanit_alinti": "contains 13 pipes (6 in ira and 7 in arka)"
+    },
+    {
+     "id": "kenar-22",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Sybyzgy",
+     "kanit_alinti": "is a Kyrgyz sideblown flute traditionally played by shepherds and horse herders"
+    }
+   ],
+   "notlar": "Kaynaklar ham wikitext (action=raw) ile okundu. Pinkillo sayfası Pinkillu'ya yönlendirme; altı delik ve yağmur mevsimi orada doğrulandı. Shakuhachi iki oktav ve perde bükme aynı sayfada. Nohkan'da 39,1 cm ve 7 delik doğru. Hiçbir satır yanlış çıkmadı."
+  },
+  {
+   "arac": "araç: WebFetch+WebSearch/21",
+   "sonuclar": [
+    {
+     "id": "duduklu-3",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Tin_whistle",
+     "kanit_alinti": "The standard range of the whistle is two octaves."
+    },
+    {
+     "id": "kenar-20",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Tsuur",
+     "kanit_alinti": "The blowing technique utilizes the teeth, tongue, and lips in the same way as the ney used in Persian classical music."
+    },
+    {
+     "id": "kenar-21",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Tsuur",
+     "kanit_alinti": "the singing style sung with the tsuur is known as Khailakh"
+    },
+    {
+     "id": "kenar-13",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Turkish_ney",
+     "kanit_alinti": "several weeks of practice to produce a proper sound at all"
+    },
+    {
+     "id": "kenar-14",
+     "durum": "dogru",
+     "duzeltme": "Not: Türk tekniğinde başpare dudağa dayanır (daha düşük ses, daha iyi kontrol); Pers neyi ve tsuur'da ağızlık üst dudak altında dişlere dayanır.",
+     "kanit_url": "https://en.wikipedia.org/wiki/Turkish_ney",
+     "kanit_alinti": "lower volume but better control than the Persian ney or tsuur"
+    },
+    {
+     "id": "yan-28",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Turkish_ney",
+     "kanit_alinti": "the other type (dilsiz) is a rim-blown oblique flute, as is the Turkish classical ney"
+    },
+    {
+     "id": "centik_kap_pan-15",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Xiao_(instrument)",
+     "kanit_alinti": "More traditional xiao have six finger holes, while most modern ones have eight"
+    },
+    {
+     "id": "centik_kap_pan-20",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://en.wikipedia.org/wiki/Xun_(instrument)",
+     "kanit_alinti": "at least three finger holes in front and two thumb holes in back"
+    },
+    {
+     "id": "ogrenme-16",
+     "durum": "dogru",
+     "duzeltme": "Tek bir acemi kullanıcının (forumda Erin) kişisel görüşü; genelleme yapılmamalı.",
+     "kanit_url": "https://forum.shakuhachisociety.eu/t313-Buying-a-first-shakuhachi-or-jinashi.htm",
+     "kanit_alinti": "as a beginner, I actually find the Yuu quite heavy and not so pleasant to play"
+    },
+    {
+     "id": "ogrenme-17",
+     "durum": "dogru",
+     "duzeltme": "Forumda yazım 1-100$ ve 250-1000$ biçiminde; öneri bir forum üyesine (Itamar Foguel) ait.",
+     "kanit_url": "https://forum.shakuhachisociety.eu/t313-Buying-a-first-shakuhachi-or-jinashi.htm",
+     "kanit_alinti": "generally you can get great used flutes for fair prices (250-1000$)"
+    },
+    {
+     "id": "yan-19",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://gagaku.stanford.edu/en/woodwinds/ryuteki",
+     "kanit_alinti": "the higher register is unstable and can only be played loud"
+    },
+    {
+     "id": "yan-3",
+     "durum": "kaynakta_yok",
+     "duzeltme": "Sayfada D/G majör ve ilgili minörler ile anahtarların kromatik nota eklediği yazmıyor. Sayfa yalnızca D'nin İrlanda müziğinde standart olduğunu, altı deliğin tin whistle ile eşleştiğini ve anahtarların aralığı C#/C'ye indirdiğini söylüyor. Müzik teorisi olarak doğru ama bu kaynak dayanak olamaz; ayrı kaynak gerekir.",
+     "kanit_url": "https://www.irishfluteguide.info/choosing-a-flute/",
+     "kanit_alinti": "much of the traditional Irish repertoire may be played on a keyless flute."
+    },
+    {
+     "id": "centik_kap_pan-12",
+     "durum": "dogru",
+     "duzeltme": "Perakendeci (Larkin) pazarlama kaynağı; tarafsız değil.",
+     "kanit_url": "https://larkinthemorning.com/blogs/articles/danso-korean-short-vertical-end-blown-flute",
+     "kanit_alinti": "relatively easy to learn, with only 5 holes to cover"
+    },
+    {
+     "id": "ogrenme-25",
+     "durum": "kaynakta_yok",
+     "duzeltme": "Gösterilen sayfada (koleksiyon 2. sayfa) Feadog Brass D, Generation ya da Clarke Original D fiyatı yok; yalnızca Feadog kitap+CD+D whistle $22.99 ve Clarke Sweetone C $16.10 görünüyor. Bağımsız aramada Feadog Brass D yaklaşık 12,90 USD (Shamrock Gift), 7-7,5 GBP (İngiltere perakendecileri). Generation 10-14 USD ve Clarke 15,83 GBP doğrulanamadı; rapordan çıkarılmalı ya da 'doğrulanmadı, fiyatlar mağazaya göre değişir' diye etiketlenmeli.",
+     "kanit_url": "https://larkinthemorning.com/collections/pennywhistles?page=2",
+     "kanit_alinti": "Feadog Book, CD & Whistle in D: Regular price $22.99"
+    },
+    {
+     "id": "duduklu-17",
+     "durum": "dogru",
+     "duzeltme": "Met sayfası doğrudan açılamadı (429, 2 deneme); alıntı bağımsız aramada Met kaydının özeti olarak birebir görüldü.",
+     "kanit_url": "https://www.metmuseum.org/art/collection/search/501920",
+     "kanit_alinti": "The duduk of Bulgaria, Yugoslavia and Turkey (düdük) are duct flutes but in Armenia and Georgia the term refers to a double-reed instrument."
+    },
+    {
+     "id": "duduklu-8",
+     "durum": "erisilemedi",
+     "duzeltme": "Grinnell sayfası 403 verdi (2 deneme), aramada da bulunamadı. Frula'nın düdüklü olduğu genel bilgidir ama bu kaynakla doğrulanamadı; 'doğrulanmadı' etiketi gerekir.",
+     "kanit_url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/2962",
+     "kanit_alinti": ""
+    },
+    {
+     "id": "centik_kap_pan-30",
+     "durum": "dogru",
+     "duzeltme": "Üretici/satıcı SSS'si; sayfa nefesin miktarından çok odaklanmasının önemli olduğunu da söylüyor.",
+     "kanit_url": "https://panflute.net/frequently-asked-questions.html",
+     "kanit_alinti": "It really doesn’t take a lot of breath to play the Panflute."
+    },
+    {
+     "id": "ogrenme-1",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://phys.unsw.edu.au/jw/fluteacoustics.html",
+     "kanit_alinti": "This makes the recorder a relatively easy instrument for beginners."
+    },
+    {
+     "id": "ogrenme-2",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://phys.unsw.edu.au/jw/fluteacoustics.html",
+     "kanit_alinti": "Here, the windway geometry forms the air jet, instead of leaving that to the player's lips."
+    },
+    {
+     "id": "ogrenme-3",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://phys.unsw.edu.au/jw/fluteacoustics.html",
+     "kanit_alinti": "but makes it a difficult instrument for beginners."
+    }
+   ],
+   "notlar": "20 satır: 16 doğru, 2 kaynakta yok (yan-3, ogrenme-25), 1 erişilemedi (duduklu-8), duduklu-17 doğru ama Met sayfası 429 verdi, alıntı arama özetinden birebir görüldü. Tin whistle sayfasında 'altı delikli, düdüklü, görece kolay' da doğrulandı. Kullanılan araç çağrısı 21/40."
+  },
+  {
+   "arac": "araç: 10/16",
+   "sonuclar": [
+    {
+     "id": "kenar-9",
+     "durum": "kismen",
+     "duzeltme": "powerflute.ch floyera'yı 'Fipple Flute' (düdüklü) olarak listeler; ancak sayfada düdüklü/düdüksüz çeşit ayrımı yok. Wikipedia (Floghera) ve genel kaynaklar floyerayı düdüksüz, kenardan üflenen flüt olarak tanımlar; yani powerflute listesi muhtemelen yanlış sınıflandırmadır. 'Düdüksüz/düdüklü türler olabilir' kısmı kaynakta desteklenmiyor.",
+     "kanit_url": "https://www.powerflute.ch/single_instrument/floyera",
+     "kanit_alinti": "Fipple Flute"
+    },
+    {
+     "id": "ogrenme-13",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://www.radheflutes.com/blogs/guide/how-to-choose-your-first-bansuri",
+     "kanit_alinti": "PVC Fiber / Carbon Fiber (Highly Recommended for Beginners)"
+    },
+    {
+     "id": "centik_kap_pan-5",
+     "durum": "kismen",
+     "duzeltme": "Sayfa dudağı sıkma ve fazla üfleme hatalarını ve ilk sesin beklenenden zor olabildiğini doğrular. 'Ağızlık yoktur' demez (Utakuchi'yi 'mouthpiece' diye anar; doğrusu ağızlık takılı değil, keskin kenarlı bir üfleme ağzı vardır) ve ilk sesi 'başlıca engel' diye nitelemez.",
+     "kanit_url": "https://reiroh.com/blogs/blog/a-beginner-s-guide-to-playing-the-shakuhachi-how-to-blow",
+     "kanit_alinti": "For beginners, producing the first sound on the shakuhachi can feel more difficult than expected."
+    },
+    {
+     "id": "ogrenme-10",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://salamuzik.com/blogs/news/how-to-make-sound-from-a-ney",
+     "kanit_alinti": "The apprenticeship period of an instrument usually takes at least five to six years, depending on ability and competence."
+    },
+    {
+     "id": "ogrenme-28",
+     "durum": "kismen",
+     "duzeltme": "Sayfa 'PVC' demez, 'plastik ney'i yeni başlayanlara uygun bulur ve plastikle başlayanın kamış neyde zorlanacağı iddiasını 'tamamen yanlış' sayar; kamış neyi ise klasik koro müziği çalacaklara önerir. 'İlk ses için PVC, sonra kamış' diye bir sıralı öneri yok. Alıntıdaki Türkçe cümle bu sayfada doğrulanmadı.",
+     "kanit_url": "https://salamuzik.com/blogs/news/what-are-the-differences-between-ney-and-plastic-ney-why-is-plastic-ney-used",
+     "kanit_alinti": "It is appropriate for students who are just starting to play the ney to buy from these neys."
+    },
+    {
+     "id": "ogrenme-5",
+     "durum": "dogru",
+     "duzeltme": "",
+     "kanit_url": "https://tymm.meb.gov.tr/muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu/unite/1215",
+     "kanit_alinti": "neyden ilk denemelerde ses çıkarmanın zor olabileceğini bilerek sabırlı olmaları"
+    },
+    {
+     "id": "centik_kap_pan-4",
+     "durum": "kismen",
+     "duzeltme": "Makale '首振り三年コロ八年' deyiminin dipnotunda anlamı şöyle verir: baş sallayarak ses çıkarabilmek üç yıl, güzel 'koro koro' tınısı için sekiz yıl sürer; yani deyim ses üretimiyle de ilgilidir ('ilk sesle değil' ifadesi yanlış). Başın/çenenin açısıyla (meri-kari) ince perde ayarı makalede ayrıca anlatılır ama deyimin açıklaması olarak verilmez. Metindeki yazım 三年 (3年 değil).",
+     "kanit_url": "https://u-gakugei.repo.nii.ac.jp/record/25877/files/18804349_60_02.pdf",
+     "kanit_alinti": "尺八を吹くのに，首を振って音が出せるようになるのに三年掛かり，ころころと良い音色を出すには八年掛かるということ。"
+    },
+    {
+     "id": "kenar-10",
+     "durum": "dogru",
+     "duzeltme": "Sayfa 'tzamara' yerine 'dzamara' yazar; bu bir yazım farkıdır. Kaval için 'Macedonia, Bulgaria and Turkey' geçer.",
+     "kanit_url": "https://www2.umbc.edu/eol/4/tammer/tammer_i.html",
+     "kanit_alinti": "end-blown, held vertically, played by blowing across an end which has been tapered at an angle"
+    }
+   ],
+   "notlar": "Floyera için bağımsız arama yapıldı: Wikipedia ve diğer kaynaklar düdüksüz, kenardan üflenen flüt der; powerflute.ch'nin 'düdüklü' etiketi çelişkili. Shakuhachi PDF'i ilk fetch'te yönlendirme verdi, indirilip pdftotext ile okundu (dipnot 9). Dosya yazılmadı (yalnızca geçici metin çıktısı scratch dizininde)."
+  }
+ ]
+}

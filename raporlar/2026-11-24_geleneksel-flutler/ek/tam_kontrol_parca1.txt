@@ -1,0 +1,16 @@
+id | iddia | kaynak | alıntı
+ogrenme-20 | Plastik öğrenci ney 387,15 TL'den başlar; plastik delrin başpareli 1.050-1.100 TL; kamış 857,37-1.955 TL. | https://www.akakce.com/ney.html | Donizetti DNZCEV Kız ( Si ) Öğrenci Ney 387,15 TL
+ogrenme-22 | Okarina 496,15 TL ile 1.149,88 TL arasında listeleniyor. | https://www.akakce.com/ocarina.html | Hermann Mayer Pro12 Ocarina 12 Ses 1.149,88 TL
+yan-9 | Bansuri'de yarım delik İrlanda flütünden daha rahat yapılır (forum görüşü) | https://www.chiffandfipple.com/t/bansuri-and-irish-flute/92394 | you can half-hole the sixth hole quite well on a bansuri, but not really well on an Irish flute
+ogrenme-19 | Quena'da öğrenme eğrisi vardır; tını almak zaman alır. | https://www.chiffandfipple.com/t/quena-embouchure/77880 | quenas have a learning curve, it takes awhile to get any kind of tone
+kenar-5 | Dilsiz kavalın TRT topluluklarında koma sorunu yaşanmış, delik ayarı aparatı önerilmiş. | https://dergipark.org.tr/tr/download/article-file/1159784 | (arama özeti; sayfa açılmadı)
+ogrenme-29 | Dilsiz kavalda ses tamamen dudak, nefes ve üfleme açısına bağlıdır; kitap halinde iki metot var (akademik özetler, doğrulanmadı). | https://dergipark.org.tr/tr/download/article-file/1438284 | (arama özeti; makale açılmadı, birebir alıntı yok)
+kenar-17 | Blul, ağızlıksız, eğik tutulup keskin kenara üflenen sring türüdür. | https://dewiki.de/Lexikon/Blul | (arama özeti; sayfa açılmadı)
+yan-14 | Başlangıç için D veya C boy dizi önerilir | https://www.easonmusicschool.com/?p=3377 | key of D or C is ideal
+yan-7 | Bansuri 6 delikle ve 2,5 oktav kapsar, uzunluk 30-75 cm | https://en.wikipedia.org/wiki/Bansuri | The six-hole instrument covers two and a half octaves of music.
+yan-23 | Daegeum sabit perdelidir, diğer çalgılar ona akort olur | https://en.wikipedia.org/wiki/Daegeum | has a fixed pitch, so other instruments tune in to the daegeum when playing together
+yan-24 | Sogeum ve junggeum daegeum ailesinin küçükleri, günümüzde zarsız; üçü samjuk | https://en.wikipedia.org/wiki/Daegeum | neither of which today have a buzzing membrane
+yan-13 | Dizi yaklaşık 2,25 oktav kapsar; profesyoneller farklı tonlarda 7 dizi taşır | https://en.wikipedia.org/wiki/Dizi_(instrument) | covering about two-and-a-quarter octaves
+yan-30 | Fife Wikipedia sayfası Osmanlı/Yeniçeri bağlantısından söz etmiyor | https://en.wikipedia.org/wiki/Fife_(musical_instrument) | European armies from the Renaissance on found it useful for signaling on the battlefield.
+kenar-8 | Floyera tipik olarak 7 delikli. | https://en.wikipedia.org/wiki/Floghera | It typically has seven finger holes.
+yan-1 | İrlanda flütünün 6 ana parmak deliği var | https://en.wikipedia.org/wiki/Irish_flute | The flute has six main finger-holes.

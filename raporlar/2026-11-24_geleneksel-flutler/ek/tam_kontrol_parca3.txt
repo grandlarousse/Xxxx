@@ -1,0 +1,14 @@
+id | iddia | kaynak | alıntı
+ogrenme-14 | Yan üflemeli bansuri özel dudak tekniği gerektirir ve sinir bozucu olabilir. | https://www.radheflutes.com/blogs/guide/how-to-choose-your-first-bansuri | Side-blown bansuris require a specific "embouchure" (blowing technique) that can be frustrating.
+ogrenme-12 | Bansuri için ses geliştirme aşaması 1-2 ay (satıcı rehberi). | https://www.radheflutes.com/blogs/guide/how-to-learn-the-flute | Stage 2: Sound Development (1–2 Months)
+ogrenme-9 | Neyde sağlıklı ses çıkarmak acemi için ilk engeldir. | https://salamuzik.com/blogs/news/how-to-make-sound-from-a-ney | Making a healthy sound from Ney is the first obstacle for a beginner.
+yan-16 | Başlangıç için 7 delikli 7 hon (tonalite) önerilir | https://www.soundhouse.co.jp/en/guidance/products/detail/?no=T00405 | The 7-hon choshi is recommended.
+yan-17 | Shinobue embuşürü: parmak ucu değil pedlerle delik kapatılır; sızıntı ses sorunudur | https://taiko-shop.com/blogs/learn/embouchure-and-finger-placement-of-shinobue | Close the holes with the pads of the fingers
+ogrenme-18 | Plastik shakuhachi Yuu ¥26.400 ve acemiye önerilir; sayfa ABS demiyor, yalnızca plastik. | https://taiko-shop.com/products/plastic-shakuhachi-yuu | Highly recommended to beginners.
+ogrenme-23 | Yamaha YRS-23 blok flüt Teknosa'da 1.179,55 TL, Cimri'de ~725-748 TL (arama özeti). | https://www.teknosa.com/yamaha-yrs23-soprano-blok-flut-p-789510059 | Yamaha YRS23 Soprano Blok Flüt 1.179,55 TL
+ogrenme-24 | Thomann Nataraj Bansuri Pro G yaklaşık 45 USD (arama özeti). | https://www.thomannmusic.com/thomann_nataraj_bansuri_pro_flute_g.htm | (arama özeti: $45; birebir alıntı alınamadı)
+yan-22 | Nohkan delik aralığı flütler arası farklıdır; birlikte (topluluk) çalınamaz; ryuteki akortludur | https://www.tobunken.go.jp/joho/japanese/project/panel/nohkan/nohkan-e.pdf | it is not possible to play nohkan in ensemble.
+ogrenme-7 | MEB kaval modülü de ilk denemelerde ses çıkarmanın zor olabileceğini belirtir. | https://tymm.meb.gov.tr/muzik-okullari-bireysel-calgi-egitimi-dersi-kaval-modulu/unite/1185 | kavaldan ilk denemelerde ses çıkarmanın zor olabileceği konusunda sabırlı olmaları gerektiği bilgisi verilip
+ogrenme-6 | MEB ney modülü dudak güçlendirme egzersizi önerir. | https://tymm.meb.gov.tr/muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu/unite/1215 | Öğrencilerin dudaklarını güçlendirmek amacıyla egzersizler verilebilir.
+yan-11 | Venu'da Sa üst iki delik kapalıyken, bansuride üç delik kapalıyken çalınır | https://www.wikiwand.com/en/articles/Venu | Sa is the note Bansuri produces when its upper 3 holes are covered
+kenar-11 | Epir'de uzun flütlere tzamara denir ve parmaklama farklıdır. | https://www2.umbc.edu/eol/4/tammer/tammer_i.html | The flutes are made in matching lengths and fingerhole positions rather than in standardized keys.
