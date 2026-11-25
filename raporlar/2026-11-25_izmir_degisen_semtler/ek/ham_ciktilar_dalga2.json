@@ -1,0 +1,894 @@
+{
+  "summary": "İzmir 2. dalga: Çamdibi, Konak merkez ve Bayraklı-Bornova-Buca için dar takip; her defter doğrulanır, 1. dalganın kalan 5 satırı da doğrulanır",
+  "agentCount": 7,
+  "logs": [
+    "camdibi: 9 satır, 9 doğrulamaya",
+    "konak2: 6 satır, 6 doğrulamaya",
+    "bayrakli2: 12 satır, 12 doğrulamaya"
+  ],
+  "result": {
+    "results": [
+      {
+        "region": "camdibi",
+        "prod": {
+          "arac": "araç: 19/35",
+          "ozet": "Kısa sonuç: Çamdibi'nin 2020-2026 değişimi yeni kafe/restoran dalgasından çok altyapı ve dönüşüm temelli; adresli, nitelikli yeni mekân bulamadım. Bu aramalarda yeni açılan yerel kafe, fırın ya da restoran adı çıkmadı; en az 8 adresli mekân hedefi karşılanmadı. Ana nedenler. (1) Yol/altyapı: Yıldırım Beyazıt Mah.'nde 282 sokakta parke taşı yerine sıcak asfalt (Haziran-Temmuz 2026; 22 Temmuz'da 9. sokak bitmiş, 10.'ya geçiliyor; başkan \"bir yıldan uzun sürebilir\" diyor). Amaç: temellerde nem ve su sızıntısı. (2) Dönüşüm planı: Çamdibi-Altındağ 1/5000 yenileme planı (yaklaşık 634 ha, 1997) uygulanmamış; Bornova belgesi 2020 depremi sonrası bölgede seçili alanlarda dönüşüm öneriyor; 2026'da belediyenin yenileme planı açıkladığı bildiriliyor (içeriği okunamadı, site 403). Altındağ/Kandere'de yol genişletme için kamulaştırma ve yıkım sürüyor (Ağustos 2026). (3) Yeni konut: Ege-Koop, Bornova-Çamdibi yenileme alanında 18 katlı bir yapı duyurdu (Ekim 2025; adres yok). Hipotez 1 (deprem sonrası parsel bazlı dönüşüm) kısmen destekleniyor ama Bornova'ya özgü riskli yapı/yıkım/ruhsat sayısı bulunamadı. (4) Hipotez 2 (metro): Halkapınar-Otogar hattında Çamdibi istasyonu Kamil Tunca Cd. altında, 5227. Sk. kesişimi yakınında planlı (Wikipedia'ya göre Gazi Osman Paşa Mah.); 2026 Ocak tarihli ikincil bir haber on yıldır bakanlıkça inşaat başlatılmadığını söylüyor, büyükşehir yapmayı önermiş. Yani metro yok, 2024 açılış tarihi geçersiz. (5) Kamu yapıları: Çamdibi Kent Lokantası (Atatürk Parkı içi, 2024'te açıldığı belediyece belirtiliyor; sokak adresi kaynakta yok); 2025'te Bornova genelinde Bisiklet Performans Parkı vb. açıldı ama Çamdibi'ne ait olduğu belirtilmemiş. Aykırı kanıt: Ağustos 2026 esnaf turunda esnafın işgaliye ve yol düzenlemesi sorunları dile getirildi; bağımsız kapanma/şikayet haberi bulunamadı. Hipotez 3'te mahalleler (Çınar, Mevlana, Doğanlar, Gürpınar) doğrulanmadı; yalnızca Yıldırım Beyazıt (Çamdibi içinde), Gazi Osman Paşa (istasyon konumu) ve Serintepe/Altındağ kaynaktan teyitli. Önceki dalganın Kamil Tunca kahve kavurucusu ve Ege Plaza kafesine bu turda ulaşılmadı. Çolo ve Puree Çamdibi dışında (Kazımdirik, Evka 3) çıktı.",
+          "defter": [
+            {
+              "id": "camdibi-1",
+              "semt": "Çamdibi",
+              "mahalle": "Yıldırım Beyazıt Mah.",
+              "adres": "Yıldırım Beyazıt Mah. çevresi, 282 sokak (sokak adları kaynakta yok)",
+              "mekan": "Parke taşından asfalta sokak yenileme programı",
+              "tur": "altyapı",
+              "degisim": "Parke taşları sökülüp sıcak asfalt; nem ve su sızıntısı sorunu hedefleniyor",
+              "yil": "2026",
+              "acik": "22 Temmuz 2026 haberinde 9. sokak bitmiş, 10.'ya geçiliyor",
+              "kaynak": "https://bornova.bel.tr/major-infrastructure-initiative-in-camdibi?lang=en",
+              "alinti": "Our goal is to completely renew more than 280 streets.",
+              "guven": "yüksek"
+            },
+            {
+              "id": "camdibi-2",
+              "semt": "Çamdibi",
+              "mahalle": "Yıldırım Beyazıt Mah.",
+              "adres": "kaynakta yok",
+              "mekan": "Çamdibi 282 sokak asfalt programı (başlangıç duyurusu)",
+              "tur": "altyapı",
+              "degisim": "Programın uzun sürebileceği belirtiliyor",
+              "yil": "2026",
+              "acik": "19 Haziran 2026 haberi",
+              "kaynak": "https://bornova.bel.tr/change-begins-in-camdibi?lang=en",
+              "alinti": "It may take more than a year, but we are determined to complete the entire project.",
+              "guven": "yüksek"
+            },
+            {
+              "id": "camdibi-3",
+              "semt": "Çamdibi",
+              "mahalle": "kaynakta yok",
+              "adres": "Çamdibi Atatürk Parkı içi, sokak adresi kaynakta yok",
+              "mekan": "Çamdibi Kent Lokantası",
+              "tur": "kamu yemek tesisi",
+              "degisim": "Belediyenin uygun fiyatlı lokantası",
+              "yil": "2024",
+              "acik": "Belediye 2025 yıl değerlendirmesi 2024'te açıldığını söylüyor (İngilizce özetten); güncel çalışma doğrulanmadı",
+              "kaynak": "https://bornova.bel.tr/2025-a-year-of-transformation-in-bornova?lang=en",
+              "alinti": "Following the opening of the Çamdibi City Restaurant in 2024",
+              "guven": "orta"
+            },
+            {
+              "id": "camdibi-4",
+              "semt": "Çamdibi",
+              "mahalle": "Gazi Osman Paşa Mah.",
+              "adres": "Kamil Tunca Cd., 5227. Sk. kesişimi yakını (yer altı, planlı istasyon)",
+              "mekan": "Çamdibi metro istasyonu (Halkapınar-Otogar hattı)",
+              "tur": "planlı ulaşım",
+              "degisim": "Henüz yapılmadı; 2024 açılış tarihi geçersiz",
+              "yil": "bilinmiyor",
+              "acik": "Yok: 2026 Ocak tarihli ikincil haber on yıldır inşaat başlamadığını söylüyor (arama özetinden)",
+              "kaynak": "https://en.wikipedia.org/wiki/%C3%87amdibi_(%C4%B0zmir_Metro)",
+              "alinti": "construction scheduled to begin in 2018; expected to open in 2024",
+              "guven": "orta"
+            },
+            {
+              "id": "camdibi-5",
+              "semt": "Çamdibi-Altındağ",
+              "mahalle": "kaynakta yok",
+              "adres": "Çamdibi-Altındağ bölgesi, yaklaşık 634 ha",
+              "mekan": "1/5000 Çamdibi-Altındağ Kentsel Yenileme Nazım İmar Planı",
+              "tur": "plan",
+              "degisim": "1997 planı uygulanmamış; deprem sonrası seçili alanlarda dönüşüm önerisi",
+              "yil": "1997 (plan), 2020 sonrası gündem",
+              "acik": "2024 meclis/komisyon belgelerinde (arama özetinden)",
+              "kaynak": "https://bornova.bel.tr/wp-content/uploads/2024/09/219.07.24.pdf",
+              "alinti": "Ekim 2020 tarihinde yaşanan deprem sonrası daha da göz önüne gelen kentsel dönüşüm için Altındağ – Çamdibi bölgesinde belli bölgeler seçilerek dönüşüm çalışması yapılması.",
+              "guven": "orta"
+            },
+            {
+              "id": "camdibi-6",
+              "semt": "Çamdibi",
+              "mahalle": "kaynakta yok",
+              "adres": "Bornova-Çamdibi kentsel yenileme alanı, ada/parsel kaynakta yok",
+              "mekan": "Ege-Koop 18 katlı yenileme projesi",
+              "tur": "yeni konut",
+              "degisim": "Dönüşüm alanında kooperatif projesi",
+              "yil": "2025 (duyuru)",
+              "acik": "6 Ekim 2025 haberi; inşaat durumu doğrulanmadı",
+              "kaynak": "https://www.yenibakishaber.com/ege-kooptan-41inci-yilinda-gumbur-gumbur-3-ozel-proje",
+              "alinti": "18 kattan oluşacak",
+              "guven": "düşük"
+            },
+            {
+              "id": "camdibi-7",
+              "semt": "Altındağ (Çamdibi komşusu)",
+              "mahalle": "Serintepe Mah. (Kandere)",
+              "adres": "5701 ve 4310 sokakları arası yol, Yunus Emre Camii yakını",
+              "mekan": "Yol genişletme, kamulaştırma ve yıkım",
+              "tur": "dönüşüm",
+              "degisim": "Anlaşılan binalar aşamalı yıkılıyor, bir şeritli modern yol planlanıyor",
+              "yil": "2026",
+              "acik": "10 Ağustos 2026 haberi, çalışma sürüyor",
+              "kaynak": "https://bornova.bel.tr/major-traffic-intervention-in-altindag?lang=en",
+              "alinti": "we will create a modern corridor with at least one lane in each direction and proper sidewalks",
+              "guven": "yüksek"
+            },
+            {
+              "id": "camdibi-8",
+              "semt": "Çamdibi",
+              "mahalle": "kaynakta yok",
+              "adres": "kaynakta yok",
+              "mekan": "Çamdibi esnafı (işgaliye, yol düzenlemesi talepleri)",
+              "tur": "aykırı kanıt",
+              "degisim": "Esnaf sorunları belediyece kabul edildi, çözüm vaadi var",
+              "yil": "2026",
+              "acik": "3 Ağustos 2026 haberi",
+              "kaynak": "https://www.cumhuriyet.com.tr/cumhuriyet-in-egesi/omer-eski-den-camdibi-nde-esnaf-turu-2526107",
+              "alinti": "Çamdibi esnafımızın yaşadığı sorunları, işgaliye ve yol düzenlemesi taleplerini çok iyi biliyoruz.",
+              "guven": "orta"
+            },
+            {
+              "id": "camdibi-9",
+              "semt": "Çamdibi",
+              "mahalle": "kaynakta yok",
+              "adres": "kaynakta yok",
+              "mekan": "Nest Çamdibi (Nestyap, 170 daire)",
+              "tur": "yeni konut (2020 öncesi)",
+              "degisim": "Semtte yeni yapılaşmanın erken örneği; 2020 sonrası değil",
+              "yil": "2017",
+              "acik": "Teslim Nisan 2017, ilan sitesi",
+              "kaynak": "https://www.emlakjet.com/projeler/proje/nest-camdibi",
+              "alinti": "Nestyap tarafından inşa edilen Nest Çamdibi projesi iki blokta 170 daireden oluşuyor.",
+              "guven": "düşük"
+            }
+          ],
+          "aciklar": [
+            "Çamdibi'nde 2024-2026'da açılan, adresi ve açıklığı kaynakta görülen yeni yerel kafe/fırın/restoran bulunamadı; Google Haritalar/Instagram benzeri kaynaklar gerekli.",
+            "Çamdibi Kent Lokantası'nın sokak adresi ve tam açılış tarihi kaynakta yok.",
+            "Bornova'ya özgü riskli yapı tespiti, yıkım ve yapı ruhsatı sayıları (TÜİK, ÇŞB) bulunamadı; Hipotez 1 sayısal olarak doğrulanamadı.",
+            "Emlakkulisi 2026 Ağustos haberi (Bornova yenileme planı) 403 verdi; plan içeriği ve Çamdibi'ni kapsayıp kapsamadığı bilinmiyor.",
+            "Çamdibi Konutları (Mevaport) ve Çamdibi'ndeki diğer adı bilinen yeni site projelerinin adresi, yılı ve durumu doğrulanamadı.",
+            "Hipotez 3: Çınar, Mevlana, Doğanlar, Gürpınar mahallelerinin Çamdibi'ne aidiyeti ve Kamil Tunca/Burak Reis caddelerinin yeni mekân durumu doğrulanamadı; önceki dalgadaki Ege Plaza kafesi ve kahve kavurucu bu turda teyit edilmedi.",
+            "Bornova meclis PDF'leri (219.07.24, 177.06.24) yalnızca arama özetinden kullanıldı, sayfa açılmadı.",
+            "Metro için büyükşehir/bakanlık güncel ihale kaydı (EKAP) bulunamadı; 2026 Ocak haberi ikincil kaynak."
+          ]
+        },
+        "ver": {
+          "arac": "araç: 16/18",
+          "sonuclar": [
+            {
+              "id": "camdibi-6",
+              "durum": "duzeltildi",
+              "duzeltme": "acik: 6 Ekim 2025 haberine göre kazık çalışması bitmiş, kazı ve temel hazırlığı sürüyor (208 kesişen kazık); 220 bağımsız bölüm (ofis, 1+1, 2+1), kapalı otopark ve yüzme havuzu. Ege-Koop'un 41. yılındaki 3 projeden ilki; açıklayan Genel Başkan Hüseyin Aslan. Mahalle kaynakta yok.",
+              "kanit": "yenibakishaber: 18 katlı, kentsel dönüşüm alanında Bornova-Çamdibi, 6.10.2025; kazık bitti, kazı sürüyor.",
+              "not": "2026 güncelliği doğrulanmadı; son durum 2025 Ekim."
+            },
+            {
+              "id": "camdibi-9",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "emlakjet: 2 blok ve 170 daire, teslim Nisan 2017, inşaat %100. Sayfada adres/mahalle yok.",
+              "not": "Mahalle ve sokak doğrulanamadı; arama özeti Yıldırım Beyazıt veya Gazi Osman Paşa olabilir diyor ama kesin değil. 2020 öncesi proje olduğu için güncellik sorusu geçerli değil."
+            },
+            {
+              "id": "camdibi-3",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Bornova 2025 değerlendirmesi: 'Following the opening of the Çamdibi City Restaurant in 2024' cümlesi birebir geçiyor. BirGün 2.8.2024: Çamdibi Atatürk Parkı içinde, 50 TL tabldot, açılış öncesi hazır.",
+              "not": "Bugün hâlâ açık olduğuna dair bağımsız 2026 kanıtı bulunamadı; 2025 yıl değerlendirmesi açıldığını doğruluyor. Açık adres ve mahalle yok."
+            },
+            {
+              "id": "camdibi-4",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Wikipedia: Gazi Osman Paşa Mah., Kamil Tunca Cd., 5227. Sk. kesişimi yakını, yer altı; 2018'de başlaması ve 2024'te açılması planlanmış; hat 'TBA'. Arama: 2026 yatırım programında hatta sembolik 3 bin TL ödenek, inşaat başlamamış.",
+              "not": "'On yıldır inşaat yok' ifadesi ikincil haberden; 2026 Ocak tarihli kaynağı bizzat görmedim, ancak 2026 sembolik ödenek bunu destekliyor."
+            },
+            {
+              "id": "camdibi-5",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Arama özeti (bornova.bel.tr 2024 meclis/komisyon belgeleri): 634 ha, 18.03.1997'de onaylı, bugüne uygulanmamış, 30 Ekim 2020 depremi sonrası seçili bölgelerde dönüşüm önerisi.",
+              "not": "Satırdaki PDF URL'si fetch'te 404 verdi; içerik arama özetinden teyit edildi, birebir alıntı doğrulanamadı. 246+320 ha ile 634 ha tam toplanmıyor; ayrıntı için belge açılmalı."
+            },
+            {
+              "id": "camdibi-8",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Cumhuriyet, 3.08.2026: Başkan Ömer Eşki, alıntı birebir geçiyor; ekipler çözüm için çalışıyor, esnafa destek sözü.",
+              "not": "Haberde somut takvim/bütçe yok; 'çözüm vaadi' ifadesi genel bir söz."
+            },
+            {
+              "id": "camdibi-1",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Bornova belediyesi, 22.07.2026: Yıldırım Beyazıt Mah. Çamdibi; 280+ sokak; 9. sokak bitti, 10.'ya geçiliyor; sıcak asfalt, kilit parke yerine; alıntı birebir.",
+              "not": "Haber ilk aşamanın beklenenden yavaş gittiğini de belirtiyor. Sokak adları kaynakta yok."
+            },
+            {
+              "id": "camdibi-2",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Bornova belediyesi, 19.06.2026: Yıldırım Beyazıt Mah.; 282 sokak, bu mahalleden başlıyor; alıntı birebir.",
+              "not": "Haber Burak Reis Caddesi'nde Büyükşehir asfaltından söz ediyor; ek bilgi."
+            },
+            {
+              "id": "camdibi-7",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Bornova belediyesi, 10.08.2026: Serintepe Mah. (Kandere), Altındağ; 5701 ve 4310 sokakları arası, Yunus Emre Camii önü; kamulaştırma sürüyor, işlem biten yerlerde aşamalı yıkım; alıntı birebir.",
+              "not": "Proje İzmir Büyükşehir ve Bornova belediyelerince ortak yürütülüyor; 1,5 yıldan uzun hukuki süreç. 'Çalışma sürüyor' 10 Ağustos 2026 itibarıyla; sonrası görülmedi."
+            }
+          ],
+          "ozet": "9 satırın hiçbiri tamamen çürük çıkmadı; yalnızca camdibi-6'da güncel durum bilgisi düzeltildi (kazı ve temel hazırlığı sürüyor, 220 bölüm). Ana örüntü eksik bilgi: mahalle, sokak ve güncel faaliyet kanıtı çoğu satırda zayıf (camdibi-3 ve camdibi-9 mahalle/adres yok; camdibi-3'te 2026 çalışma kanıtı yok; camdibi-5'te PDF 404). Belediye kaynaklı 2026 haberleri (1, 2, 7, 8) alıntılarla birebir tutuyor. Metro (camdibi-4) hâlâ planlama aşamasında; 2018/2024 tarihleri kaynakta geçersiz. Açık kalanlar: Çamdibi Kent Lokantası'nın bugünkü faaliyeti, Nest Çamdibi mahallesi, 634 ha plan belgesinin birebir alıntısı."
+        },
+        "selected": [
+          "camdibi-6",
+          "camdibi-9",
+          "camdibi-3",
+          "camdibi-4",
+          "camdibi-5",
+          "camdibi-8",
+          "camdibi-1",
+          "camdibi-2",
+          "camdibi-7"
+        ]
+      },
+      {
+        "region": "konak2",
+        "prod": {
+          "arac": "araç: 8/35 (3 ardışık boş aramadan sonra durdum)",
+          "ozet": "Bu dalga kaynaklarda yeni açılış yılı ve tam adres açısından neredeyse hiçbir şey getirmedi. izmirilde Eylül 2026 rehberi yalnızca Selçuk, Çeşme, Balçova, Bornova ve Konak Pier açılışlarını sayıyor. Alsancak, Kemeraltı, Göztepe, Güzelyalı, Karataş ve Hatay'dan hiç mekân yok ve adres de vermiyor. Ekim 2026 rehberi 404 verdi. mesprestiges Alsancak ve Kemeraltı sayfaları mekân adı veriyor ama tam adres vermiyor. \"Since\" yılı yalnızca eski mekânlarda var: Sakız 1989, Deniz 1981, Poka 2016, Sevinç 1957. Kemeraltı sayfasında 2021 sonrası tek mekân yok. Göztepe sayfası 404. Oggusto \"İzmir'in en yeni mekanları\" listesi tarihsiz. Alsancak için Scappi (zaten bulunmuş), Yön, Alliance Kordon adreslerini veriyor. Yıl yok. Defterde yalnızca bu listeden gelen birkaç satır var. Hepsi yıl eksik olduğu için güven orta/düşük. Hedef 20-30 satıra ulaşılamadı. Aykırı kanıt: Oggusto listesinde tarih olmadığı için \"yeni\" iddiası doğrulanamıyor. Yeni Asır 2021'de Alsancak'ta Beer Mood'u yeni açılan diye anıyor, güncel değil. Adaylardan Two Cups Coffee Bar & Roastery ve 0ANDMORE Alsancak sayfasında listeli ama yıl ve adres yok. Madam Bordo Wanderlog'da şarap barı olarak geçiyor, adres/yıl yok. Karataş (Dario Moreno), Göztepe-Güzelyalı (Mithatpaşa) ve Kemeraltı için hiçbir açılış kanıtı bulunamadı. Arama araçları web genelinde İstanbul sonuçlarına kaydı. Bu semtler için bu araçlarla verim düşük. Öneri: yemek.com Alsancak/Göztepe listeleri, Google Maps/Instagram veya yerinde gezi ile tamamlamak.",
+          "defter": [
+            {
+              "id": "konak2-1",
+              "semt": "Alsancak",
+              "mahalle": "Kültür Mah.",
+              "adres": "Süreyya Apt, Kültür, 1381. Sk. No:11A, Konak/İzmir",
+              "mekan": "Yön",
+              "tur": "bar / tapas",
+              "degisim": "Oggusto'nun İzmir'in en yeni mekanları listesinde yer alıyor",
+              "yil": "bilinmiyor",
+              "acik": "Güncel 'en yeni mekanlar' listesinde (tarihsiz); kapanma kaydı aranmadı",
+              "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+              "alinti": "Alsancak'ta sıcak ve samimi bir ortam sunan Yön, şık tasarımı ve canlı atmosferiyle dikkat çekiyor.",
+              "guven": "orta"
+            },
+            {
+              "id": "konak2-2",
+              "semt": "Alsancak",
+              "mahalle": "Kültür Mah.",
+              "adres": "Kordon Alsancak, Kültür, Atatürk Cd. No: 174/A, Konak/İzmir",
+              "mekan": "Alliance Kordon",
+              "tur": "restoran (deniz manzaralı, canlı müzik)",
+              "degisim": "Aynı 'en yeni mekanlar' listesinde; açılış yılı belirsiz, yeni olduğu tartışmalı",
+              "yil": "bilinmiyor",
+              "acik": "Güncel listede (tarihsiz)",
+              "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+              "alinti": "dünya mutfağından geniş bir menü sunan nezih bir restoran olarak hizmet veriyor.",
+              "guven": "düşük"
+            },
+            {
+              "id": "konak2-3",
+              "semt": "Alsancak (Konak Pier)",
+              "mahalle": "Akdeniz Mah.",
+              "adres": "Pier AVM, Akdeniz, Atatürk Cd. No:19/F, Konak/İzmir",
+              "mekan": "Orda Balık",
+              "tur": "balık restoranı",
+              "degisim": "Oggusto yeni mekanlar listesinde; AVM içi, nitelikli yerel mekân olup olmadığı belirsiz",
+              "yil": "bilinmiyor",
+              "acik": "Güncel listede (tarihsiz)",
+              "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+              "alinti": "Konak'ta deniz ürünleri severlerin adresi olan Orda Balık",
+              "guven": "düşük"
+            },
+            {
+              "id": "konak2-4",
+              "semt": "Alsancak (Konak Pier)",
+              "mahalle": "kaynakta yok",
+              "adres": "Konak Pier (cadde/no kaynakta yok)",
+              "mekan": "Primo",
+              "tur": "İtalyan restoran",
+              "degisim": "2026 başında Konak Pier'de açıldı",
+              "yil": "2026",
+              "acik": "2026 başında açıldığı yazıyor (Eylül 2026 rehberi)",
+              "kaynak": "https://izmirilde.com/guides/izmir-yeni-acilan-mekanlar-eylul-2026",
+              "alinti": "Primo, 2026 başında Konak Pier'de açıldı",
+              "guven": "orta"
+            },
+            {
+              "id": "konak2-5",
+              "semt": "Alsancak",
+              "mahalle": "kaynakta yok",
+              "adres": "Kıbrıs Şehitleri Cad. çevresi, no kaynakta yok",
+              "mekan": "0ANDMORE",
+              "tur": "kokteyl barı",
+              "degisim": "Alsancak bar listesinde; yeni açılış olduğu kaynakta yok",
+              "yil": "bilinmiyor",
+              "acik": "mesprestiges Alsancak sayfasında listeli (özetten)",
+              "kaynak": "https://mesprestiges.com/en/izmir/places/neighborhood/alsancak",
+              "alinti": "0ANDMORE (off Kıbrıs Şehitleri)",
+              "guven": "düşük"
+            },
+            {
+              "id": "konak2-6",
+              "semt": "Alsancak",
+              "mahalle": "kaynakta yok",
+              "adres": "kaynakta yok",
+              "mekan": "Two Cups Coffee Bar & Roastery",
+              "tur": "kahve / kavurma",
+              "degisim": "Alsancak kafe listesinde",
+              "yil": "bilinmiyor",
+              "acik": "mesprestiges Alsancak sayfasında listeli (özetten)",
+              "kaynak": "https://mesprestiges.com/en/izmir/places/neighborhood/alsancak",
+              "alinti": "Two Cups Coffee Bar & Roastery: no founding year listed",
+              "guven": "düşük"
+            }
+          ],
+          "aciklar": [
+            "Kemeraltı, Göztepe-Güzelyalı, Karataş ve Hatay için 2021-2026 açılışı olarak doğrulanmış tek mekân bulunamadı.",
+            "Tam adres ve açılış yılı veren listeleme kaynağı bulunamadı. izmirilde Ekim 2026 rehberi ve mesprestiges Göztepe sayfası 404 verdi. izmirilde Eylül rehberinde bu semtler yok.",
+            "Madam Bordo adres ve yıl yok. 0ANDMORE ve Two Cups için de adres ve yıl yok.",
+            "Yeni Asır Ağustos 2026 Kemeraltı yazısına ulaşılamadı. Arama araçları İstanbul sonuçlarına kaydı.",
+            "Mithatpaşa Cd. (Güzelyalı), Dario Moreno Sk. (Karataş) ve 1453/1469/1482 sokaklar için açılış kanıtı yok.",
+            "Denenmemiş: yemek.com Alsancak/Göztepe listeleri, Michelin 2026 yeni girenler, Time Out, izmirilde diğer aylar. Üçüncü boş aramadan sonra durdum."
+          ]
+        },
+        "ver": {
+          "arac": "araç: 11/12",
+          "sonuclar": [
+            {
+              "id": "konak2-2",
+              "durum": "dogrulanamadi",
+              "duzeltme": "",
+              "kanit": "Oggusto sayfası (yayın 28.07.2025, güncelleme 23.10.2025): 'Kordon boyunda yer alan Alliance Kordon, dünya mutfağından geniş bir menü sunan nezih bir restoran olarak hizmet veriyor'; adres Kordon Alsancak, Kültür, Atatürk Cd. No:174/A, Konak birebir tutuyor; açılış yılı yok.",
+              "not": "Adres ve alıntı tutuyor. 2025-2026 açıklık kanıtı yalnızca Oct 2025 liste; bağımsız arama Alliance Kordon'u bulamadı (çıkan Birinci Kordon Balık, No:196/A, başka mekân). 2026 faaliyet doğrulanamadı."
+            },
+            {
+              "id": "konak2-3",
+              "durum": "dogrulanamadi",
+              "duzeltme": "",
+              "kanit": "Oggusto: 'deniz ürünleri severlerin adresi olan Orda Balık'; adres Pier AVM, Akdeniz, Atatürk Cd. No:19/F tutuyor (Pier AVM Atatürk Cd. No:19 ikinci kaynakla uyumlu).",
+              "not": "Açılış yılı kaynakta yok; bağımsız aramada Orda Balık hiç çıkmadı, 2026 açıklık kanıtı yok. Mahalle: bir liste 'Konak Mah.' veriyor, kaynak 'Akdeniz'; çözülmedi."
+            },
+            {
+              "id": "konak2-5",
+              "durum": "duzeltildi",
+              "duzeltme": "adres: Dr. Mustafa Bey Cd. No:18, Konak/İzmir (Kıbrıs Şehitleri yakınında); acik: Mes Prestiges'e göre günlük 16:00-02:00 listeli (2026 tarihli kanıt yok)",
+              "kanit": "mesprestiges Alsancak sayfası: 'Gastronomy-led cocktail bar off Kıbrıs Şehitleri'; mekân sayfası araması: adres Dr. Mustafa Bey Caddesi No:18, 16:00-02:00, %100/Yüzde Yüz grubu.",
+              "not": "Mekân var ve listelenmiş; yeni açılış olduğu kanıtlanmadı. Güncellik yalnızca tek dizin kaynağı, bağımsız teyit yok."
+            },
+            {
+              "id": "konak2-6",
+              "durum": "duzeltildi",
+              "duzeltme": "adres: Kıbrıs Şehitleri Cd. No:179, Alsancak/Konak (Mes Prestiges sayfası Ali Çetinkaya Bulvarı No:179 diyor; sokak adı kaynaklar arasında çelişkili); alinti: 'Cortados and siphon brews from an Alsancak roastery bar' (kaynakta 'no founding year listed' ifadesi yok, o yazarın notu)",
+              "kanit": "mesprestiges Alsancak sayfası liste özeti; trip.com ve yemek.com No:179 Kıbrıs Şehitleri Cd.; mesprestiges mekân sayfası No:179 Ali Çetinkaya Bulv.",
+              "not": "Mekân var. Çalışma saatleri kaynaklar arası farklı (08:00-22:00 / 08:30-20:00). 2026 açıklık kanıtı net değil."
+            },
+            {
+              "id": "konak2-1",
+              "durum": "dogrulanamadi",
+              "duzeltme": "",
+              "kanit": "Oggusto: 'sıcak ve samimi bir ortam sunan Yön' ve adres Süreyya Apt, Kültür, 1381. Sk. No:11A tutuyor; 1381. Sk. Kültür Mah.'de (yatmo, Alsancak yanı).",
+              "not": "Alıntı sayfanın özetiyle uyumlu ama tam cümle (şık tasarım, canlı atmosfer) birebir doğrulanamadı; açılış yılı yok. Bağımsız aramada Yön bulunamadı, kapanma kaydı da yok; 2026 faaliyeti kanıtsız."
+            },
+            {
+              "id": "konak2-4",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "izmirilde.com: 'Primo, 2026 başında Konak Pier'de açıldı'; bağımsız: İzmir Life mekân kaydı (Oca-Şub 2026, şef Ertunç Özdemir) ve Dokuz Eylül haberi 31 Mart 2026 (ortak Arman Gençer, İtalyan restoran).",
+              "not": "Yıl ve alıntı doğru. Pier genel adresi Atatürk Cd. No:19; Primo'ya özel no yok. Konak Pier 36 yıllık özelleştirme ihalesinde (Haz-Eyl 2026) olup mekâna doğrudan etkisi görülmedi; Eylül sonrası faaliyet kanıtı yok."
+            }
+          ],
+          "ozet": "Altı satırdan biri tam doğru (Primo: yıl ve alıntı bağımsız haberlerle teyit). İki satırda adres/alıntı düzeltildi: 0ANDMORE gerçek adresi Dr. Mustafa Bey Cd. No:18; Two Cups No:179 (sokak adı kaynaklar arasında çelişkili) ve alıntı olarak yazılan 'no founding year listed' kaynakta yok. Üç Oggusto satırı (Alliance Kordon, Orda Balık, Yön) için adresler kaynakla uyuşuyor ama 2025 Ekim sonrası açıklık kanıtı bulunamadı ve bağımsız aramada mekânlar çıkmadı. Örüntü: 'yeni' denen mekânların açılış yılı kaynaklarda yok; alıntı sütununa yazar notları karışmış; mahalle ve adres alanları dizin sitelerinden eksik taşınmış."
+        },
+        "selected": [
+          "konak2-2",
+          "konak2-3",
+          "konak2-5",
+          "konak2-6",
+          "konak2-1",
+          "konak2-4"
+        ]
+      },
+      {
+        "region": "bayrakli2",
+        "prod": {
+          "arac": "araç: WebSearch/WebFetch 15/35",
+          "ozet": "Hedef (15+ somut mekân) karşılanamadı: arama motoru Bayraklı, Küçükpark ve Tınaztepe/Şirinyer için tarihli yeni-açılış kaynağı vermedi. Üç arama art arda boş çıkınca durdum. mesprestiges.com ve yemek.com Bayraklı listelerine ulaşamadım; Bayraklı için sonuç çıkmadı. Deftere yalnızca kaynakta görülen 11 satır girdi.\n\nKuleler: Wikipedia (8 Şubat 2026 güncel) Biva Tower'ı 151 m, 35 kat, 2022 ve İzka Port'u 136 m, 34 kat, 2021 olarak tamamlanmış gösteriyor. Teslim duyurusu bulamadım. Biva için eski haberler \"Aralık 2019 teslim\" hedefi veriyor, yani çelişki sürüyor. Aynı listede Neva Yalı A (137 m, 37 kat), B ve C (104 m, 28 kat) 2026 diye geçiyor. Moxy İzmir'in Neva Yalı'da 8 Eylül 2026'da açıldığı bir haber özetinde var; bu, projenin en azından kısmen tamamlandığına işaret ediyor, kule teslimini doğrulamıyor.\n\nHastane: Sağlık Bakanlığı SYGM sayfasına göre resmî açılış töreni 7 Şubat 2024 tarihli haberde. Haberlerde hasta kabulü Ekim 2023'te sessiz başladı, açılış defalarca ertelendi. Yani hipotezdeki \"Ekim 2023 sessiz açılış, 2024 resmî tören\" doğrulandı. Mahalle ve sokak adresi kaynakta yok.\n\nMekânlar: Ba'ree (Bayraklı) ve Luna Patisserie (Mansuroğlu) Oggusto'nun Temmuz 2025 tarihli listesinde; açılış yılı yok. Ba'ree adresi sayfada Konak olarak yazılmış, bu tutarsız. Bornova merkezde Cafe Şölen ve Üniversite 2 Unlu Mamulleri adresli ama açılış yılı yok. Buca'da İzmirli Kahve Halk Park şubesi (14. şube, Yeni Asır, 18 Kasım 2026) doğrulandı. Boudja Gastro (Hacı Davut Fargoh Köşkü) ve Bucafe 1928 Buca Belediyesi bağlantılı, açılış yılı yok. Kent Lokantası DEÜ Tınaztepe karşısında, tarihi doğrulanamadı.\n\nAykırı kanıt: Biva ve İzka Port için eski teslim hedefleri ile Wikipedia yılları çelişiyor; hastane için sorunlu açılış ve ertelemeler haber olmuş. Bornova'da Küçükpark'ın 2021 sonrası bar-kafe sokağı için tarihli kanıt çıkmadı. Teras Wine House ve Ayaküstü Bira'zz yalnızca arama özetinde, tarihsiz.",
+          "defter": [
+            {
+              "id": "bayrakli2-1",
+              "semt": "Bayraklı",
+              "mahalle": "kaynakta yok",
+              "adres": "kaynakta yok (Oggusto: Çınar, Ozan Abay Cd. No:301, Konak/İzmir; sayfa Bayraklı diyor, tutarsız)",
+              "mekan": "Ba'ree",
+              "tur": "kafe/restoran",
+              "degisim": "Bayraklı'da yeni açılan modern tasarımlı mekân",
+              "yil": "bilinmiyor",
+              "acik": "Oggusto listesi 28.07.2025, son değişiklik 23.10.2025",
+              "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+              "alinti": "Bayraklı'da açılan Ba'ree, modern tasarımı ve zengin menüsüyle kısa sürede dikkatleri üzerine çekti.",
+              "guven": "düşük"
+            },
+            {
+              "id": "bayrakli2-2",
+              "semt": "Bayraklı",
+              "mahalle": "Mansuroğlu",
+              "adres": "Mansuroğlu Mah. 286/1. Sk. 16/A (sayfada Bornova, Bayraklı/İzmir)",
+              "mekan": "Luna Patisserie & Bakery",
+              "tur": "pastane/fırın",
+              "degisim": "yerel pastane, yeni açılanlar listesinde",
+              "yil": "bilinmiyor",
+              "acik": "Oggusto listesi 2025, son değişiklik Ekim 2025",
+              "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+              "alinti": "Bornova'da tatlı tutkunlarının uğrak noktası haline gelen Luna Patisserie & Bakery",
+              "guven": "orta"
+            },
+            {
+              "id": "bayrakli2-3",
+              "semt": "Bayraklı",
+              "mahalle": "kaynakta yok",
+              "adres": "kaynakta yok (Bayraklı ilçesi)",
+              "mekan": "İzmir Şehir Hastanesi",
+              "tur": "hastane",
+              "degisim": "büyük sağlık yatırımı; Ekim 2023 sessiz hasta kabulü, resmî tören Şubat 2024",
+              "yil": "2023-2024",
+              "acik": "Resmî açılış haberi 7 Şubat 2024; 2025-2026 çalıştığına dair şikâyet haberleri (Cumhuriyet) özetten",
+              "kaynak": "https://sygm.saglik.gov.tr/TR-102039/izmir-sehir-hastanesinin-resmi-acilisi-gerceklestirildi.html",
+              "alinti": "Bayraklı ilçesindeki İzmir Şehir Hastanesi",
+              "guven": "orta"
+            },
+            {
+              "id": "bayrakli2-4",
+              "semt": "Bayraklı",
+              "mahalle": "kaynakta yok",
+              "adres": "kaynakta yok",
+              "mekan": "Biva Tower",
+              "tur": "kule",
+              "degisim": "151 m, 35 kat; Wikipedia 2022 diyor, eski haberler 2019 teslim hedefi veriyor",
+              "yil": "2022 (çelişkili)",
+              "acik": "emlakkulisi sayfaları 2026 tarihli ama içerik eski (özetten); teslim duyurusu görülmedi",
+              "kaynak": "https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Izmir",
+              "alinti": "Biva Tower | 151 (495) | 35 | Bayraklı | 2022",
+              "guven": "düşük"
+            },
+            {
+              "id": "bayrakli2-5",
+              "semt": "Bayraklı",
+              "mahalle": "kaynakta yok",
+              "adres": "kaynakta yok",
+              "mekan": "İzka Port",
+              "tur": "kule",
+              "degisim": "136 m, 34 kat; Wikipedia 2021, eski haber 2020 hedefi",
+              "yil": "2021 (çelişkili)",
+              "acik": "teslim duyurusu görülmedi",
+              "kaynak": "https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Izmir",
+              "alinti": "İzka Port | 136 (446) | 34 | Bayraklı | 2021",
+              "guven": "düşük"
+            },
+            {
+              "id": "bayrakli2-6",
+              "semt": "Bayraklı",
+              "mahalle": "kaynakta yok",
+              "adres": "kaynakta yok",
+              "mekan": "Neva Yalı (A, B, C kuleleri) ve Moxy İzmir oteli",
+              "tur": "kule/otel",
+              "degisim": "A 137 m 37 kat, B-C 104 m 28 kat; Wikipedia 2026 tamamlandı; Moxy 8 Eylül 2026'da açıldı",
+              "yil": "2026",
+              "acik": "Moxy açılışı ve konutların kullanımda olduğu haberi özetten",
+              "kaynak": "https://uzmanpara.milliyet.com.tr/raporlar-analizler/ronesansin-neva-yali-projesinde-moxy-hotels-kapilarini-aciyor/6a9fc68824008d7d4372e048/",
+              "alinti": "Neva Yalı A | 137 m | 37 kat | 2026 (Wikipedia tablosu)",
+              "guven": "düşük"
+            },
+            {
+              "id": "bayrakli2-7",
+              "semt": "Bornova merkez",
+              "mahalle": "Kazımdirik",
+              "adres": "Kazımdirik Mah. Mustafa Kemal Cad. No:11/A",
+              "mekan": "Cafe Şölen Bornova Merkez",
+              "tur": "kafe",
+              "degisim": "yemek.com 2026 kahvaltı listesinde",
+              "yil": "bilinmiyor",
+              "acik": "yemek.com listesi 2026 güncel başlıklı",
+              "kaynak": "https://yemek.com/bornovanin-en-iyi-kahvalti-mekanlari/",
+              "alinti": "Mustafa Kemal Caddesi’ndeki Şölen radarınıza girecek.",
+              "guven": "orta"
+            },
+            {
+              "id": "bayrakli2-8",
+              "semt": "Bornova merkez",
+              "mahalle": "Kazımdirik (Küçükpark)",
+              "adres": "Kazımdirik Mah. 166. Sk. No:1",
+              "mekan": "Üniversite 2 Unlu Mamulleri",
+              "tur": "fırın",
+              "degisim": "Küçükpark çevresi fırın",
+              "yil": "bilinmiyor",
+              "acik": "yemek.com listesi 2026 güncel başlıklı",
+              "kaynak": "https://yemek.com/bornovanin-en-iyi-kahvalti-mekanlari/",
+              "alinti": "Küçükpark’taki bu fırın tezgahının önüne geldiğinizde",
+              "guven": "orta"
+            },
+            {
+              "id": "bayrakli2-9",
+              "semt": "Buca",
+              "mahalle": "kaynakta yok (Buca Halk Park)",
+              "adres": "kaynakta yok",
+              "mekan": "İzmirli Kahve Buca Halk Park şubesi",
+              "tur": "kafe (yerel zincir)",
+              "degisim": "14. şube, parkta açıldı",
+              "yil": "2026",
+              "acik": "Yeni Asır 18.11.2026",
+              "kaynak": "https://www.yeniasir.com.tr/izmir/2026/11/18/izmirli-kahve-simdi-nereye-acildi-izmirde-kahve-keyfi-cep-yakmayacak",
+              "alinti": "Çünkü alandaki tek aktif nokta burası.",
+              "guven": "orta"
+            },
+            {
+              "id": "bayrakli2-10",
+              "semt": "Buca",
+              "mahalle": "Dumlupınar",
+              "adres": "Dumlupınar Mah. Uğur Mumcu Cad. (Hacı Davut Fargoh Köşkü, Pembe Köşk), no kaynakta yok",
+              "mekan": "Boudja Gastro",
+              "tur": "restoran/kafe",
+              "degisim": "tarihi köşkte gastro mekân",
+              "yil": "bilinmiyor",
+              "acik": "Yeni Bakış 28.09.2026",
+              "kaynak": "https://www.yenibakishaber.com/bucada-lezzet-ve-sosyallesmenin-adresleri",
+              "alinti": "Dumlupınar Mahallesi Uğur Mumcu Caddesi üzerindeki tarihi Hacı Davut Fargoh Köşkü’nde",
+              "guven": "orta"
+            },
+            {
+              "id": "bayrakli2-11",
+              "semt": "Buca",
+              "mahalle": "Dumlupınar",
+              "adres": "kaynakta yok (DEÜ Eğitim Fakültesi yakını)",
+              "mekan": "Bucafe 1928",
+              "tur": "kafe (belediye)",
+              "degisim": "öğrenci çevresi belediye kafesi",
+              "yil": "bilinmiyor",
+              "acik": "Yeni Bakış 28.09.2026",
+              "kaynak": "https://www.yenibakishaber.com/bucada-lezzet-ve-sosyallesmenin-adresleri",
+              "alinti": "Dumlupınar Mahallesi’nde, Dokuz Eylül Üniversitesi Eğitim Fakültesi yakınında bulunan Bucafe 1928",
+              "guven": "düşük"
+            },
+            {
+              "id": "bayrakli2-12",
+              "semt": "Buca",
+              "mahalle": "kaynakta yok (Tınaztepe)",
+              "adres": "kaynakta yok (DEÜ Tınaztepe Yerleşkesi karşısı)",
+              "mekan": "Buca Belediyesi Kent Lokantası (3.)",
+              "tur": "lokanta (belediye)",
+              "degisim": "öğrenci lokantası",
+              "yil": "bilinmiyor",
+              "acik": "haber tarihi yok (özetten)",
+              "kaynak": "https://www.haberhurriyeti.com/haber/24780956/kent-lokantasi-universitelilerin-ayagina-gitti",
+              "alinti": "Dokuz Eylül Üniversitesi Tınaztepe Yerleşkesi'nin hemen karşısında hizmete açıldı (özetten)",
+              "guven": "düşük"
+            }
+          ],
+          "aciklar": [
+            "Bayraklı'da kule diplerindeki yeni restoran ve kafe kümesi doğrulanamadı; mesprestiges.com ve yemek.com Bayraklı sayfalarına ulaşılamadı.",
+            "Biva Tower ve İzka Port için resmî teslim tarihi bulunamadı; Wikipedia yılları ile eski teslim hedefleri çelişiyor. Neva Yalı kulelerinin teslimi doğrulanmadı.",
+            "Şehir hastanesinin mahalle ve sokak adresi kaynakta yok.",
+            "Küçükpark bar-kafe sokağında 2021 sonrası açılanlar için tarihli kaynak yok; Teras Wine House, Ayaküstü Bira'zz, Vibe Coffee Co ve Çolo Cafe & Bar yalnızca arama özetinde, açılış yılı bilinmiyor.",
+            "Şirinyer, Tınaztepe ve Kozağaç'ta 2021 sonrası açılan nitelikli özel kafe için kanıt bulunamadı; Buca Metro hattı çevresi doğrulanamadı.",
+            "Ba'ree adresi sayfada Konak olarak geçiyor, Bayraklı ile çelişiyor. Hiçbir mekan için açılış yılı kaynakta yok.",
+            "Hedef 15 somut özel mekân karşılanamadı; defterde özel mekân 8 satır (3 tanesi belediye bağlantılı)."
+          ]
+        },
+        "ver": {
+          "arac": "araç: 17/24",
+          "sonuclar": [
+            {
+              "id": "bayrakli2-1",
+              "durum": "dogrulanamadi",
+              "duzeltme": "",
+              "kanit": "Oggusto (28.07.2025, değişiklik 23.10.2025): alıntı geçiyor; adres Çınar, Ozan Abay Cd. No:301 Konak, başlık Bayraklı. Mekân adıyla aramada hiçbir sonuç çıkmadı.",
+              "not": "Mekânın varlığı ve 2025-26 faaliyeti bağımsız teyit edilemedi, semt tutarsız (Bayraklı mı Konak mı). Yalnız tek listeye dayanıyor."
+            },
+            {
+              "id": "bayrakli2-4",
+              "durum": "duzeltildi",
+              "duzeltme": "mahalle: Mansuroğlu; kat: kaynaklarda 32 (haberler) ve 35 (Wikipedia) çelişkili; yıl: 2022 (yalnız Wikipedia)",
+              "kanit": "Wikipedia satırı birebir: Biva Tower 151 m, 35 kat, Bayraklı, 2022. Arama özeti projeyi Mansuroğlu Mah.'de gösteriyor (96 konut, 8 ticari). Resmî teslim/iskan kaynağı bulunamadı.",
+              "not": "2022 tamamlanma yalnız Wikipedia'ya dayanıyor; eski haberler Aralık 2019, geoln Aralık 2020 diyor."
+            },
+            {
+              "id": "bayrakli2-5",
+              "durum": "dogrulanamadi",
+              "duzeltme": "",
+              "kanit": "Wikipedia satırı birebir: İzka Port 136 m, 34 kat, Bayraklı, 2021. Yeni Asır 2020 haberi 120 m diyor; geoln bitiş Eylül 2020; teslim haberi bulunamadı.",
+              "not": "Yükseklik (120 mi 136 mı) ve tamamlanma yılı çelişkili; mahalle bulunamadı."
+            },
+            {
+              "id": "bayrakli2-6",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Milliyet/Uzmanpara: Moxy İzmir 8 Eylül 2026'da açıldı (186 oda), Neva Yalı Bayraklı sahilinde, Rönesans projesi. Wikipedia: A 137 m 37 kat, B-C 104 m 28 kat, 2026.",
+              "not": "Mahalle/adres kaynakta yok. Wikipedia'daki alıntı kule durumunu açıkça belirtmiyor (tamamlandı mı, tepe noktası mı); konutların kullanımda olduğu bağımsız doğrulanmadı, otel açılışı doğrulandı."
+            },
+            {
+              "id": "bayrakli2-11",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Yeni Bakış 28.09.2026: 'Dumlupınar Mahallesi'nde, Dokuz Eylül Üniversitesi Eğitim Fakültesi yakınında bulunan Bucafe 1928'; Buca Belediyesi üretimi ürünler. Sayfada sokak/no yok.",
+              "not": "Faaliyet kanıtı yalnız bu 2026 haberi; sokak/no bulunamadı."
+            },
+            {
+              "id": "bayrakli2-12",
+              "durum": "duzeltildi",
+              "duzeltme": "adres: Tarık Akan Gençlik Merkezi zemin kat, DEÜ Tınaztepe Yerleşkesi karşısı; durum: Kasım 2026'da yenileme sonrası yeniden açıldı (yemek 120 TL)",
+              "kanit": "Haberhurriyeti sayfası 403 verdi. Arama özeti: 3. Kent Lokantası Tınaztepe yerleşkesi karşısında, Tarık Akan Gençlik Merkezi zemin katında. Yeni Bakış 17.11.2026: Tarık Akan Gençlik Merkezi şubesi yeniden hizmette.",
+              "not": "Alıntıyı doğrudan sayfadan göremedim, arama özetinden teyit. Açılış yılı bulunamadı; haber geçici kapanma tartışmasını da anıyor, şu an açık görünüyor."
+            },
+            {
+              "id": "bayrakli2-2",
+              "durum": "dogrulanamadi",
+              "duzeltme": "",
+              "kanit": "Oggusto: alıntı ve adres 'Mansuroğlu Mah. 286/1. Sk. 16/A Bornova, Bayraklı/İzmir' birebir; başlık Bornova. Mansuroğlu mahallesi Bayraklı'dadır. Bağımsız aramada mekân çıkmadı.",
+              "not": "Adres ve alıntı kaynakla tutuyor, ancak 2026 faaliyet kanıtı yok; ilçe başlıkta Bornova, adreste Bayraklı (semt Bayraklı doğru görünüyor)."
+            },
+            {
+              "id": "bayrakli2-3",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "SYGM sayfası 7 Şubat 2024: 'Bayraklı ilçesindeki İzmir Şehir Hastanesi' resmî açılış.",
+              "not": "2025-26 faaliyet kanıtı (Cumhuriyet şikâyet haberleri) sayfadan değil özetten; büyük kamu hastanesi olarak faal kabul edildi. Ekim 2023 sessiz kabul bu sayfada doğrulanmadı."
+            },
+            {
+              "id": "bayrakli2-7",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "yemek.com (sayfa tarihi 16 Kasım 2026): Cafe Şölen, Kazımdirik Mah. Mustafa Kemal Cad. No:11/A, Bornova.",
+              "not": "Satırdaki alıntı sayfa özetinde birebir çıkmadı; sayfa farklı bir cümle verdi (Bornova Meydanı çevresi). Mekân ve adres tutuyor."
+            },
+            {
+              "id": "bayrakli2-8",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "yemek.com (16 Kasım 2026): Üniversite 2 Unlu Mamulleri, Kazımdirik Mah. 166. Sk. No:1, Bornova; boyoz tabağı öneriliyor.",
+              "not": "'Küçükpark' alıntısı sayfa özetinde birebir görülmedi; adres tutuyor."
+            },
+            {
+              "id": "bayrakli2-9",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Yeni Asır 18.11.2026: Buca Halk Park şubesi 14. şube; Anıl Sert: 'alandaki tek aktif nokta burası'.",
+              "not": "Mahalle/adres kaynakta yok."
+            },
+            {
+              "id": "bayrakli2-10",
+              "durum": "dogru",
+              "duzeltme": "",
+              "kanit": "Yeni Bakış 28.09.2026: 'Dumlupınar Mahallesi Uğur Mumcu Caddesi üzerindeki tarihi Hacı Davut Fargoh Köşkü'nde'; bina no yok. Arama: Pembe Köşk, Buca Belediyesi'ne ait, restoran/meyhane olarak işletiliyor (Haber7, Temmuz 2025).",
+              "not": "'Boudja Gastro' adı bağımsız aramada çıkmadı; yalnız Yeni Bakış haberine dayanıyor. Bina no yok."
+            }
+          ],
+          "ozet": "12 satırdan 6'sı doğru, 3'ü düzeltildi, 3'ü doğrulanamadı; yanlış çıkan yok. Düzeltmeler: Biva Tower mahallesi Mansuroğlu (kat sayısı 32/35 ve yıl çelişkili), Kent Lokantası'nın tam yeri (Tarık Akan Gençlik Merkezi) ve güncel durumu. Örüntü: tek bir liste yazısına (Oggusto) dayanan küçük mekânlar (Ba'ree, Luna) bağımsız aramada hiç çıkmadı; güncellik kanıtı yok. Kule satırlarında yıl/yükseklik yalnız Wikipedia'ya dayanıyor, eski haberlerle çelişiyor. Birkaç satırda mahalle/adres kaynakta yok. haberhurriyeti sayfası 403 verdi, o satır arama özetiyle teyit edildi."
+        },
+        "selected": [
+          "bayrakli2-1",
+          "bayrakli2-4",
+          "bayrakli2-5",
+          "bayrakli2-6",
+          "bayrakli2-11",
+          "bayrakli2-12",
+          "bayrakli2-2",
+          "bayrakli2-3",
+          "bayrakli2-7",
+          "bayrakli2-8",
+          "bayrakli2-9",
+          "bayrakli2-10"
+        ]
+      }
+    ],
+    "kalan": {
+      "arac": "araç: 9/10",
+      "sonuclar": [
+        {
+          "id": "karsiyaka-15",
+          "durum": "dogru",
+          "duzeltme": "",
+          "kanit": "yemek.com sayfası: 'Yalı Mahallesi, 6500. Sokak No:14/C, Karşıyaka'; Mavişehir ve Atakent altında listeli; alıntı birebir: 'Sade Kahvaltı & Çikolata'nın bahçe katı, sabahı sakin geçirmek isteyenlere göre.' Trip.com kaydı da aynı adresi veriyor.",
+          "not": "Güncellik kanıtı zayıf: yalnızca 2026 başlıklı liste ve tek bir aggregator sayfası; resmî site veya Instagram doğrulanmadı. Sayfada yayın tarihi yok."
+        },
+        {
+          "id": "karsiyaka-20",
+          "durum": "duzeltildi",
+          "duzeltme": "mekan: Çiğli Tramvayı (kaynakta 12 km, 14 durak; Wikipedia 11 km diyor, kaynaklar çelişkili) | alinti: 'a total of 14 stops covering a distance of 12 kilometers' (tuncsoyer.com.tr'deki gerçek ifade; '11 km' kaynakta geçmiyor) | degisim: Ataşehir Kavşağı durağı Haziran 2025'te 'Flamingo' adını aldı (iki yakın 'Ataşehir' durağı karışıklığı nedeniyle)",
+          "kanit": "tuncsoyer.com.tr: açılış 27 Ocak 2024, 14 durak, 12 km; Flamingo/Ataşehir kaynakta geçmiyor. WebSearch: Wikipedia Flamingo (Tram İzmir) sayfası ve karar.com haberi, yeniden adlandırma Haziran 2025, T1 ve T3 hatlarının buluştuğu durak, Nazım Hikmet Ran Bulvarı.",
+          "not": "Açılış tarihi, 14 durak ve hizmette olma doğru. Yeniden adlandırma iddiası ayrı bir kaynağa (karar.com) dayanıyor; satırdaki kaynak bunu desteklemiyor. 11 mi 12 km mi sorusu açık, Wikipedia 11 km veriyor."
+        },
+        {
+          "id": "karsiyaka-21",
+          "durum": "dogru",
+          "duzeltme": "",
+          "kanit": "karar.com (31.03.2026): 1-2. etaplarda 333 bağımsız birim teslim edildi; 3-5. etaplarda 1.603 birim Nisan 2026'dan itibaren teslim planlanıyor. Alıntı kaynakta geçiyor.",
+          "not": "'Gecikme haberleri var' kısmı bu oturumda doğrulanmadı (kaynakta yok). Sokak adresi kaynakta yok, satır bunu zaten belirtiyor."
+        },
+        {
+          "id": "karsiyaka-22",
+          "durum": "dogru",
+          "duzeltme": "",
+          "kanit": "Arama sonuçları: opera binası açılmadı; 2026 bütçesinde 1 milyar 938 milyon lira sermaye gideri ödeneği (Tugay, Ocak 2026); ilk etap onayı 16 Ocak 2026, ikinci etap 3 Mart 2026; inşaat başlatılması 2026 hedefi. Yeni Asır 2022 haberi: yaklaşık 350 milyon lira harcandı, beton yığını olarak kaldı.",
+          "not": "Satırdaki kaynak 2022 tarihli; 2026 ödenek bilgisini desteklemiyor, o bilgi başka kaynaklardan geliyor. 'Yüzde 45 tamamlandı' haberleri tarihsiz ve çelişkili görünüyor, kullanılmamalı. Ödenek rakamı arama özetinden, birincil sayfa açılmadı."
+        },
+        {
+          "id": "bornova-18",
+          "durum": "duzeltildi",
+          "duzeltme": "acik: Temmuz 2026'da 9 sokak tamamlandı, 10.'ya geçildi; 27 Eylül 2026 tarihli haberde 30 sokağa ulaşıldı ('22 Temmuz' tarihi kaynaklarda geçmiyor) | kaynak: bornova.bel.tr haberi 19 Haziran 2026 tarihli, 9. sokak bilgisi yenibakishaber.com/bornovada-282-sokak-icin-asfalt-calismasi-hizlandi sayfasında | adres: Yıldırım Beyazıt Mah., Burak Reis Cad. ve çevre sokaklar (örn. 5122 Sokak'ta asfaltlama)",
+          "kanit": "bornova.bel.tr (19 Haziran 2026): Yıldırım Beyazıt Mah., Çamdibi; Burak Reis Caddesi'nde asfalt başladı; 'we are now moving into 282 surrounding streets'; kilit parke taşları rutubet nedeniyle asfaltla değiştiriliyor. Yenibakış (27.09.2026): Temmuz'da 9 sokak bitti, son rakam 30.",
+          "not": "Alıntı ve proje doğru, devam ediyor. Bitiş tarihi '22 Temmuz' doğrulanamadı; yerine 'Temmuz ayında' yazılmalı. Yılbaşına kadar 100'ün üzerinde sokak hedefi tarihi belirsiz bir kaynaktan, doğrulanmadı."
+        }
+      ],
+      "ozet": "5 satırın 3'ü doğru, 2'si düzeltildi, yanlış çıkan yok. Hata örüntüsü: sayısal ve tarihsel ayrıntılar kaynakla birebir tutmuyor. Tramvayda alıntı 11 km diyor ama kaynak 12 km veriyor; Flamingo adı satırdaki kaynakta geçmiyor, başka bir habere dayanıyor (Haziran 2025). Bornova satırındaki '22 Temmuz' hiçbir kaynakta yok, kaynaklarda yalnızca 'Temmuz ayında 9 sokak' var. Opera satırında kaynak 2022 tarihli, 2026 ödeneği ise başka kaynaktan geliyor. Sade Kahvaltı için adres ve alıntı doğru, ama bugün açık olduğuna dair kanıt zayıf (tek aggregator sayfası, resmî site yok). 9 araç çağrısı kullanıldı, kontrol noktasını geçmedi."
+    }
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Takip"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Doğrulama"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "doğrulayıcı:kalan",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "a6af5be0233a85054",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795638498674,
+      "queuedAt": 1795638498669,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 9/10",
+      "promptPreview": "Kontrol noktası 10 araç çağrısı (satır başına 2); say. 10'de dur ve kendine sor: kalan satır var mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 20.\n\nGörev: İzmir'de 2020-2026 arasında değişen semtler ve mekânlar üzerine bir araştırmacının iddia defterinden (1. dalgadan kalan satırlar: Karşıyaka-Mavişeh…",
+      "promptFramed": true,
+      "lastProgressAt": 1795638547806,
+      "tokens": 85985,
+      "toolCalls": 11,
+      "durationMs": 49132,
+      "resultPreview": "{\"arac\":\"araç: 9/10\",\"sonuclar\":[{\"id\":\"karsiyaka-15\",\"durum\":\"dogru\",\"duzeltme\":\"\",\"kanit\":\"yemek.com sayfası: 'Yalı Mahallesi, 6500. Sokak No:14/C, Karşıyaka'; Mavişehir ve Atakent altında listeli; alıntı birebir: 'Sade Kahvaltı & Çikolata'nın bahçe katı, sabahı sakin geçirmek isteyenlere göre.' Trip.com kaydı da aynı adresi veriyor.\",\"not\":\"Güncellik kanıtı zayıf: yalnızca 2026 başlıklı liste v…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "takip:camdibi",
+      "phaseIndex": 1,
+      "phaseTitle": "Takip",
+      "agentId": "a6f41968a8bfd7c81",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795638498706,
+      "queuedAt": 1795638498701,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 19/35",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'te dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBağlam: Bugün 25 Kasım 2026. Kullanıcı yaklaşık 2020'den beri İzmir dışında yaşadı, yeni döndü ve Bornova Çamdibi çevresinde geziyor. Ben yokken hangi semtlerin değiştiğin…",
+      "promptFramed": true,
+      "lastProgressAt": 1795638597593,
+      "tokens": 98898,
+      "toolCalls": 24,
+      "durationMs": 98887,
+      "resultPreview": "{\"arac\":\"araç: 19/35\",\"ozet\":\"Kısa sonuç: Çamdibi'nin 2020-2026 değişimi yeni kafe/restoran dalgasından çok altyapı ve dönüşüm temelli; adresli, nitelikli yeni mekân bulamadım. Bu aramalarda yeni açılan yerel kafe, fırın ya da restoran adı çıkmadı; en az 8 adresli mekân hedefi karşılanmadı. Ana nedenler. (1) Yol/altyapı: Yıldırım Beyazıt Mah.'nde 282 sokakta parke taşı yerine sıcak asfalt (Haziran…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "takip:konak2",
+      "phaseIndex": 1,
+      "phaseTitle": "Takip",
+      "agentId": "a9540bcc9bb5bd899",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795638547811,
+      "queuedAt": 1795638498701,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 8/35 (3 ardışık boş aramadan sonra durdum)",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'te dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBağlam: Bugün 25 Kasım 2026. Kullanıcı yaklaşık 2020'den beri İzmir dışında yaşadı, yeni döndü ve Bornova Çamdibi çevresinde geziyor. Ben yokken hangi semtlerin değiştiğin…",
+      "promptFramed": true,
+      "lastProgressAt": 1795638615612,
+      "tokens": 84274,
+      "toolCalls": 11,
+      "durationMs": 67799,
+      "resultPreview": "{\"arac\":\"araç: 8/35 (3 ardışık boş aramadan sonra durdum)\",\"ozet\":\"Bu dalga kaynaklarda yeni açılış yılı ve tam adres açısından neredeyse hiçbir şey getirmedi. izmirilde Eylül 2026 rehberi yalnızca Selçuk, Çeşme, Balçova, Bornova ve Konak Pier açılışlarını sayıyor. Alsancak, Kemeraltı, Göztepe, Güzelyalı, Karataş ve Hatay'dan hiç mekân yok ve adres de vermiyor. Ekim 2026 rehberi 404 verdi. mespres…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "takip:bayrakli2",
+      "phaseIndex": 1,
+      "phaseTitle": "Takip",
+      "agentId": "a83b25cd6fb5a2516",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795638597598,
+      "queuedAt": 1795638498702,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: WebSearch/WebFetch 15/35",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'te dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBağlam: Bugün 25 Kasım 2026. Kullanıcı yaklaşık 2020'den beri İzmir dışında yaşadı, yeni döndü ve Bornova Çamdibi çevresinde geziyor. Ben yokken hangi semtlerin değiştiğin…",
+      "promptFramed": true,
+      "lastProgressAt": 1795638673862,
+      "tokens": 94839,
+      "toolCalls": 18,
+      "durationMs": 76264,
+      "resultPreview": "{\"arac\":\"araç: WebSearch/WebFetch 15/35\",\"ozet\":\"Hedef (15+ somut mekân) karşılanamadı: arama motoru Bayraklı, Küçükpark ve Tınaztepe/Şirinyer için tarihli yeni-açılış kaynağı vermedi. Üç arama art arda boş çıkınca durdum. mesprestiges.com ve yemek.com Bayraklı listelerine ulaşamadım; Bayraklı için sonuç çıkmadı. Deftere yalnızca kaynakta görülen 11 satır girdi.\\n\\nKuleler: Wikipedia (8 Şubat 2026…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "doğrulayıcı:camdibi",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "a13b76e615b7f4558",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795638615618,
+      "queuedAt": 1795638597630,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 16/18",
+      "promptPreview": "Kontrol noktası 18 araç çağrısı (satır başına 2); say. 18'de dur ve kendine sor: kalan satır var mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 36.\n\nGörev: İzmir'de 2020-2026 arasında değişen semtler ve mekânlar üzerine bir araştırmacının iddia defterinden (Bornova Çamdibi) seçilmiş 9 satırı doğrula. B…",
+      "promptFramed": true,
+      "lastProgressAt": 1795638663824,
+      "tokens": 90040,
+      "toolCalls": 17,
+      "durationMs": 48206,
+      "resultPreview": "{\"arac\":\"araç: 16/18\",\"sonuclar\":[{\"id\":\"camdibi-6\",\"durum\":\"duzeltildi\",\"duzeltme\":\"acik: 6 Ekim 2025 haberine göre kazık çalışması bitmiş, kazı ve temel hazırlığı sürüyor (208 kesişen kazık); 220 bağımsız bölüm (ofis, 1+1, 2+1), kapalı otopark ve yüzme havuzu. Ege-Koop'un 41. yılındaki 3 projeden ilki; açıklayan Genel Başkan Hüseyin Aslan. Mahalle kaynakta yok.\",\"kanit\":\"yenibakishaber: 18 katlı…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "doğrulayıcı:konak2",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "a68d115421ce5b63f",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795638663829,
+      "queuedAt": 1795638615656,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 11/12",
+      "promptPreview": "Kontrol noktası 12 araç çağrısı (satır başına 2); say. 12'de dur ve kendine sor: kalan satır var mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 24.\n\nGörev: İzmir'de 2020-2026 arasında değişen semtler ve mekânlar üzerine bir araştırmacının iddia defterinden (Konak merkez: Alsancak, Kemeraltı, Göztepe-Gü…",
+      "promptFramed": true,
+      "lastProgressAt": 1795638707823,
+      "tokens": 87877,
+      "toolCalls": 12,
+      "durationMs": 43994,
+      "resultPreview": "{\"arac\":\"araç: 11/12\",\"sonuclar\":[{\"id\":\"konak2-2\",\"durum\":\"dogrulanamadi\",\"duzeltme\":\"\",\"kanit\":\"Oggusto sayfası (yayın 28.07.2025, güncelleme 23.10.2025): 'Kordon boyunda yer alan Alliance Kordon, dünya mutfağından geniş bir menü sunan nezih bir restoran olarak hizmet veriyor'; adres Kordon Alsancak, Kültür, Atatürk Cd. No:174/A, Konak birebir tutuyor; açılış yılı yok.\",\"not\":\"Adres ve alıntı tu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "doğrulayıcı:bayrakli2",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "a949410365971602b",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795638673872,
+      "queuedAt": 1795638673868,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 17/24",
+      "promptPreview": "Kontrol noktası 24 araç çağrısı (satır başına 2); say. 24'de dur ve kendine sor: kalan satır var mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 48.\n\nGörev: İzmir'de 2020-2026 arasında değişen semtler ve mekânlar üzerine bir araştırmacının iddia defterinden (Bayraklı, Bornova merkez (Küçükpark) ve Buca)…",
+      "promptFramed": true,
+      "lastProgressAt": 1795638729930,
+      "tokens": 94531,
+      "toolCalls": 19,
+      "durationMs": 56058,
+      "resultPreview": "{\"arac\":\"araç: 17/24\",\"sonuclar\":[{\"id\":\"bayrakli2-1\",\"durum\":\"dogrulanamadi\",\"duzeltme\":\"\",\"kanit\":\"Oggusto (28.07.2025, değişiklik 23.10.2025): alıntı geçiyor; adres Çınar, Ozan Abay Cd. No:301 Konak, başlık Bayraklı. Mekân adıyla aramada hiçbir sonuç çıkmadı.\",\"not\":\"Mekânın varlığı ve 2025-26 faaliyeti bağımsız teyit edilemedi, semt tutarsız (Bayraklı mı Konak mı). Yalnız tek listeye dayanıyor…"
+    }
+  ],
+  "totalTokens": 636444,
+  "totalToolCalls": 112
+}
