@@ -57,3 +57,12 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# İzmir'de genç, nezih ve ambiyanslı kafeler (25.11.2026)
+
+Klasör: `2026-11-25_izmir_kafeler/`
+
+- `RAPOR.md`: Sentez. Bornova (Küçükpark, Süvari Cd.), Alsancak ve tanışma formatları için öneri tabloları, yerinde kontrol yöntemi, düzeltilen hatalar, açık kalanlar.
+- `ek/`: Ham ajan çıktıları (1. dalga: 5 üretici + 2 doğrulayıcı + eleştirmen; 2. dalga: Bornova üreticisi + kısa liste doğrulayıcısı).
