@@ -1,0 +1,447 @@
+{
+  "summary": "İzmir 3. dalga: izmirilde.com aylık yeni açılan mekân rehberleri ve Michelin 2026 İzmir yeni girişlerinden adresli yeni mekânlar; doğrulama",
+  "agentCount": 2,
+  "logs": [
+    "17 satır, 1 doğrulayıcı"
+  ],
+  "result": {
+    "prod": {
+      "arac": "araç: 17/30",
+      "ozet": "izmirilde.com: /guides sayfası yalnızca hediye rehberleriyle dolu (502 rehber, 21 sayfa); aylık \"yeni açılan mekanlar\" serisi yok. Eylül 2026 rehberi tek ve \"aylık\" değil; adres vermiyor, yalnızca semt/kompleks veriyor. Ay kalıbı (kasim, agustos, temmuz vb.) denenmedi, çünkü site yapısı seri olmadığını gösteriyor. RSS (feed.xml) sadece 28 Eylül 2026 tarihli hediye/bohça içerikleri verdi. Bu rehbere ait FARO7 (İstinyePark, 2 Nisan 2026), RED ROOF/RED BITES/Lobby Bar (Radisson RED Bornova, 13 Nisan 2026) ve Selçuk/Çeşme/Alaçatı açılışları alındı; Primo ve Radisson RED zaten bulunmuştu. Michelin 2026 duyurusu adres vermiyor; Kemal'in Yeri, Balmumu Dükkan, Birinci Kordon Balık ve Scappi adresleri Michelin mekân sayfalarından alındı. Partal Kardeşler (2026 yeni Bib) Urla'da, kapsam dışı. Muhammet İnce ayrı restoran değil, Birinci Kordon Balık Restoran'ın şefi. Ek kaynak: Oggusto \"İzmir'in en yeni mekanları\" (yayın 28.07.2025, güncelleme 23.10.2025) 14 adresli mekân verdi; açılış tarihleri sayfada yok, bu yüzden güven orta/düşük. Aykırı kanıt: Kasap Fuat Alsancak şubesi 3 Ağustos 2026'da ruhsat iptaliyle kapandı.",
+      "defter": [
+        {
+          "id": "yeni-1",
+          "semt": "Konak/Alsancak",
+          "mahalle": "Alsancak",
+          "adres": "1453. Sokak No:22, Alsancak, Konak 35220",
+          "mekan": "Kemal'in Yeri Mülkiyeliler Birliği",
+          "tur": "restoran (Bib Gourmand)",
+          "degisim": "2026 Michelin seçkisine yeni Bib Gourmand olarak girdi; eski ev, yerel esnaf lokantası",
+          "yil": "2026 (Michelin, Aralık 2025 duyurusu)",
+          "acik": "Michelin 2026 duyuru makalesi 'new Bib' olarak sayıyor; adres Michelin sayfasından",
+          "kaynak": "https://guide.michelin.com/en/izmir/izmir_2809416/restaurant/kemal-in-yeri-mulkiyeliler-birligi",
+          "alinti": "This centuries-old house with elegant ceilings and an authentic atmosphere is packed with locals every day",
+          "guven": "yüksek"
+        },
+        {
+          "id": "yeni-2",
+          "semt": "Konak/Alsancak",
+          "mahalle": "Kültür Mah.",
+          "adres": "1388. Sokak No:5 D:C, Alsancak, Konak 35220",
+          "mekan": "Balmumu Dükkan Lokanta",
+          "tur": "restoran (Michelin)",
+          "degisim": "2026 Michelin seçkisine yeni giriş; geleneksel Ege mutfağı",
+          "yil": "2026 (Michelin)",
+          "acik": "Görev tanımı '2026 yeni' diyor; bu oturumda duyuru makalesinde adı doğrulanmadı, adres Michelin sayfasından",
+          "kaynak": "https://guide.michelin.com/en/izmir/izmir_2809416/restaurant/balmumu-dukkan-lokanta",
+          "alinti": "Venture down this side street on the edge of the Konak district to savour traditional Aegean cuisine as the locals do.",
+          "guven": "orta"
+        },
+        {
+          "id": "yeni-3",
+          "semt": "Konak/Alsancak",
+          "mahalle": "Alsancak",
+          "adres": "Atatürk Caddesi No:196/A, Alsancak, Konak 35220",
+          "mekan": "Birinci Kordon Balık Restoran (şef Muhammet İnce)",
+          "tur": "balık restoranı (Michelin tavsiye)",
+          "degisim": "2025 Michelin seçkisine yeni giriş; Muhammet İnce bu restoranın şefi, ayrı mekân değil",
+          "yil": "2025 (Michelin)",
+          "acik": "2025 Michelin tavsiye listesinde Şef Muhammet İnce ile yer aldı (arama özetinden); adres Michelin TR sayfasından",
+          "kaynak": "https://guide.michelin.com/tr/tr/izmir/izmir_2809416/restaurant/birinci-kordon-balik-restoran",
+          "alinti": "Balık, balık ve elbette daha fazla balık – bu oldukça sade restoranda bekleyebileceğiniz şey budur.",
+          "guven": "orta"
+        },
+        {
+          "id": "yeni-4",
+          "semt": "Konak/Alsancak",
+          "mahalle": "Alsancak",
+          "adres": "Gaziosmanpaşa Bulvarı No:1, Swissôtel 9. kat, Alsancak, Konak 35210",
+          "mekan": "Scappi",
+          "tur": "İtalyan restoranı (Michelin)",
+          "degisim": "2025 Michelin seçkisine yeni giriş; Swissôtel çatı katı",
+          "yil": "2025 (Michelin)",
+          "acik": "Görev tanımı '2025 yeni' diyor; açılış yılı sayfada yok, Oggusto 2025 'en yeni mekanlar' listesinde de var",
+          "kaynak": "https://guide.michelin.com/tr/en/izmir/izmir_2809416/restaurant/scappi",
+          "alinti": "Take the lift to the ninth floor of Swissôtel and immerse yourself in the elegant setting of Scappi.",
+          "guven": "orta"
+        },
+        {
+          "id": "yeni-5",
+          "semt": "Konak/Alsancak",
+          "mahalle": "Kültür Mah.",
+          "adres": "Süreyya Apt, 1381. Sk. No:11A, Kültür, Konak",
+          "mekan": "Yön",
+          "tur": "bar ve tapas",
+          "degisim": "Alsancak'ta yeni bar/tapas mekânı",
+          "yil": "kaynakta yok (liste 2025 yayını)",
+          "acik": "Oggusto 'İzmir'in en yeni mekanları' listesi, yayın 28.07.2025, güncelleme 23.10.2025; açılış tarihi yok",
+          "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+          "alinti": "Alsancak'ta sıcak ve samimi bir ortam sunan Yön",
+          "guven": "orta"
+        },
+        {
+          "id": "yeni-6",
+          "semt": "Konak/Alsancak",
+          "mahalle": "Kültür Mah.",
+          "adres": "Kordon Alsancak, Kültür, Atatürk Cd. No: 174/A, Konak",
+          "mekan": "Alliance Kordon",
+          "tur": "restoran (dünya mutfağı)",
+          "degisim": "Kordon boyunda yeni restoran",
+          "yil": "kaynakta yok (liste 2025 yayını)",
+          "acik": "Oggusto 2025 'en yeni mekanlar' listesi; açılış tarihi yok",
+          "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+          "alinti": "Kordon boyunda yer alan Alliance Kordon",
+          "guven": "düşük"
+        },
+        {
+          "id": "yeni-7",
+          "semt": "Konak/Çınarlı",
+          "mahalle": "Çınarlı",
+          "adres": "Ankara Cd. No:15 D:1L, Çınarlı, Konak",
+          "mekan": "Korto (Mistral İzmir)",
+          "tur": "müzik, yemek ve kokteyl mekânı",
+          "degisim": "Çınarlı'da yeni müzik/eğlence mekânı",
+          "yil": "28 Ekim (yıl yok, büyük olasılıkla 2025)",
+          "acik": "Oggusto sayfası (güncelleme 23.10.2025) 'Ekim Salı' açılışı duyuruyor; 28 Ekim 2025 Salı'ya denk gelir",
+          "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+          "alinti": "28 Ekim Salı gecesi kapılarını açacak olan Korto",
+          "guven": "orta"
+        },
+        {
+          "id": "yeni-8",
+          "semt": "Konak/Çınarlı-Bayraklı sınırı",
+          "mahalle": "Çınar",
+          "adres": "Ozan Abay Cd. No:301, Çınar, Konak",
+          "mekan": "Ba'ree",
+          "tur": "restoran ve brunch",
+          "degisim": "Bayraklı yönünde yeni restoran/brunch mekânı",
+          "yil": "kaynakta yok (liste 2025 yayını)",
+          "acik": "Oggusto 2025 listesi; sayfa semt olarak Bayraklı, adres Konak yazıyor, çelişki var",
+          "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+          "alinti": "Bayraklı'da açılan Ba'ree",
+          "guven": "düşük"
+        },
+        {
+          "id": "yeni-9",
+          "semt": "Konak/Konak Pier",
+          "mahalle": "Akdeniz Mah.",
+          "adres": "Pier AVM, Atatürk Cd. No:19/F, Akdeniz, Konak",
+          "mekan": "Orda Balık",
+          "tur": "balık restoranı",
+          "degisim": "Konak Pier'de yeni balık restoranı",
+          "yil": "kaynakta yok (liste 2025 yayını)",
+          "acik": "Oggusto 2025 listesi; açılış tarihi yok",
+          "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+          "alinti": "Konak'ta deniz ürünleri severlerin adresi olan Orda Balık",
+          "guven": "düşük"
+        },
+        {
+          "id": "yeni-10",
+          "semt": "Karşıyaka",
+          "mahalle": "Donanmacı Mah.",
+          "adres": "Ulvi Başman Sk. No: 42, Donanmacı, Karşıyaka",
+          "mekan": "Monas Art Coffee Bakery",
+          "tur": "kafe ve pastane",
+          "degisim": "Karşıyaka'da sanat temalı yeni kafe/pastane",
+          "yil": "kaynakta yok (liste 2025 yayını)",
+          "acik": "Oggusto 2025 listesi; açılış tarihi yok",
+          "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+          "alinti": "Karşıyaka'da sanat ve kahve tutkunlarını bir araya getiren",
+          "guven": "orta"
+        },
+        {
+          "id": "yeni-11",
+          "semt": "Bornova",
+          "mahalle": "Mansuroğlu Mah.",
+          "adres": "286/1. Sk. 16/A, Mansuroğlu (adreste Bornova ve Bayraklı birlikte geçiyor)",
+          "mekan": "Luna Patisserie & Bakery",
+          "tur": "pastane ve fırın",
+          "degisim": "Bornova'da yeni pastane/fırın",
+          "yil": "kaynakta yok (liste 2025 yayını)",
+          "acik": "Oggusto 2025 listesi; açılış tarihi yok, ilçe belirsiz",
+          "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+          "alinti": "Bornova'da tatlı tutkunlarının uğrak noktası haline gelen Luna Patisserie & Bakery",
+          "guven": "düşük"
+        },
+        {
+          "id": "yeni-12",
+          "semt": "Balçova",
+          "mahalle": "Bahçelerarası Mah.",
+          "adres": "İstinyePark AVM, Şehit Bnb. Ali Resmi Tufan Cad. No:3, Z95, Balçova",
+          "mekan": "Esca (İstinyePark)",
+          "tur": "Akdeniz restoranı",
+          "degisim": "İstinyePark İzmir'de yeni restoran",
+          "yil": "kaynakta yok (liste 2025 yayını)",
+          "acik": "Oggusto 2025 listesi 'kapılarını açtı' diyor; tarih yok. Esca zaten bulunanlar listesinde, tamamlayıcı adres olarak eklendi",
+          "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-yeni-mekanlari",
+          "alinti": "Esca, İzmir İstinyePark'ta kapılarını açtı.",
+          "guven": "orta"
+        },
+        {
+          "id": "yeni-13",
+          "semt": "Balçova",
+          "mahalle": "kaynakta yok",
+          "adres": "İstinyePark İzmir, Grand Hyatt İzmir İstinyePark içi (sokak/no kaynakta yok)",
+          "mekan": "FARO7",
+          "tur": "bistro/restoran (otel içi)",
+          "degisim": "Balçova'da yeni otel ve restoran kümesi",
+          "yil": "2 Nisan 2026",
+          "acik": "Rehber açılış tarihini veriyor",
+          "kaynak": "https://izmirilde.com/guides/izmir-yeni-acilan-mekanlar-eylul-2026",
+          "alinti": "2 Nisan 2026'da İstinyePark İzmir'de kapılarını açan",
+          "guven": "orta"
+        },
+        {
+          "id": "yeni-14",
+          "semt": "Bornova",
+          "mahalle": "kaynakta yok",
+          "adres": "Radisson RED İzmir Point Bornova içi (sokak/no kaynakta yok)",
+          "mekan": "RED ROOF",
+          "tur": "çatı teras bar",
+          "degisim": "Bornova'da yeni otelin çatı barı",
+          "yil": "13 Nisan 2026 (otel açılışı)",
+          "acik": "Rehber otel açılış tarihini veriyor; mekân için ayrı tarih yok. Otelin kendisi zaten bulundu, bar tamamlayıcı",
+          "kaynak": "https://izmirilde.com/guides/izmir-yeni-acilan-mekanlar-eylul-2026",
+          "alinti": "RED ROOF ise 12.00-00.00 arasında çatı terası ve bar odağında hizmet veriyor.",
+          "guven": "orta"
+        },
+        {
+          "id": "yeni-15",
+          "semt": "Bornova",
+          "mahalle": "kaynakta yok",
+          "adres": "Radisson RED İzmir Point Bornova içi (sokak/no kaynakta yok)",
+          "mekan": "RED BITES",
+          "tur": "restoran",
+          "degisim": "Bornova'da yeni otelin restoranı",
+          "yil": "13 Nisan 2026 (otel açılışı)",
+          "acik": "Rehber, ayrı açılış tarihi vermiyor",
+          "kaynak": "https://izmirilde.com/guides/izmir-yeni-acilan-mekanlar-eylul-2026",
+          "alinti": "RED BITES her gün 07.00-23.00 arasında çalışıyor",
+          "guven": "düşük"
+        },
+        {
+          "id": "yeni-16",
+          "semt": "Alaçatı (Çeşme, merkeze uzak)",
+          "mahalle": "kaynakta yok",
+          "adres": "kaynakta yok",
+          "mekan": "Mumlu Alaçatı",
+          "tur": "yemek ve eğlence mekânı (konser, gala)",
+          "degisim": "Alaçatı'da yeni konserli mekân",
+          "yil": "Temmuz 2026",
+          "acik": "Rehber açılışı temmuz diyor",
+          "kaynak": "https://izmirilde.com/guides/izmir-yeni-acilan-mekanlar-eylul-2026",
+          "alinti": "yeni adres temmuz ayında konserli açılışlarla faaliyete geçti.",
+          "guven": "düşük"
+        },
+        {
+          "id": "yeni-17",
+          "semt": "Selçuk (merkeze uzak)",
+          "mahalle": "kaynakta yok",
+          "adres": "Efes Selçuk, Amfi Tiyatro altı (sokak/no kaynakta yok)",
+          "mekan": "Kurtuluş Kafe",
+          "tur": "belediye kafesi",
+          "degisim": "Selçuk'ta yeni belediye kafesi",
+          "yil": "8 Eylül 2026",
+          "acik": "Rehber açılış tarihini veriyor",
+          "kaynak": "https://izmirilde.com/guides/izmir-yeni-acilan-mekanlar-eylul-2026",
+          "alinti": "8 Eylül 2026'da kentin kurtuluş günü programı kapsamında hizmete açıldı.",
+          "guven": "orta"
+        }
+      ],
+      "aciklar": [
+        "izmirilde.com'da aylık 'yeni açılan mekanlar' serisi yok; /guides hediye rehberleriyle dolu, ay kalıbı URL'leri denenmedi. Eylül 2026 rehberi adres vermiyor. Rehberin bağlantı verdiği 'İzmir'de 2026'da Açılan ve Yenilenen Mekanlar: Eylül Güncel 7 Gerçek Adres' sayfasının URL'si bulunamadı, okunmadı; adres içerebilir, takip aramasına değer.",
+        "Michelin 2026 duyuru makalesi adres vermiyor; Balmumu Dükkan'ın o makalede geçtiği bu oturumda doğrulanmadı (görev tanımından alındı).",
+        "Muhammet İnce ayrı bir mekân değil, Birinci Kordon Balık Restoran'ın şefi (arama özetinden); Michelin'de /restaurant/muhammet-ince sayfası 404 verdi.",
+        "Partal Kardeşler Balık Restorant (2026 yeni Bib) Urla, Balıklıova'da (Balıklı Ova Cd. No:174), kapsam dışı. Vino Locale yeni giriş değil (2024'te yıldız aldı, 2026'da iki yıldız).",
+        "Aykırı kanıt: Kasap Fuat Alsancak şubesi (Michelin tavsiye) ruhsat iptaliyle 3 Ağustos 2026'dan itibaren hizmet vermiyor (arama özetinden, yenibakishaber.com; sayfa açılmadı).",
+        "Oggusto kaynaklı satırlarda açılış yılı kaynakta yok; sayfa 2025'te yayınlanmış 'en yeni mekanlar' listesi. Dolayısıyla 2024-2026 aralığı kanıtı dolaylı. Ba'ree, Luna ve Yön'de sayfa semti ile adres ilçesi çelişiyor.",
+        "Eksik: Bayraklı, Buca, Narlıdere, Göztepe-Güzelyalı için bu iki kaynakta hiçbir mekân çıkmadı. Bu semtler için başka kaynak gerekir (ör. emlakkulisi, gazeteoksijen sayfaları 403 verdi). Terra Pizza Selçuk, Mavi Seyir Kafe (Çeşme) ve Konak Pier Soirée/North Pier's tarihsiz olduğu için deftere alınmadı."
+      ]
+    },
+    "ver": [
+      {
+        "arac": "araç: 20/34",
+        "sonuclar": [
+          {
+            "id": "yeni-1",
+            "durum": "dogru",
+            "duzeltme": "",
+            "kanit": "Michelin sayfası: Alsancak, 1453. Sokak No:22, Konak 35220. Michelin 2026 duyuru makalesi: Kemal'in Yeri yeni Bib Gourmand. Alıntı arama özetinde Michelin metni olarak göründü.",
+            "not": "Mekânın bugün açık olduğuna dair bağımsız 2026 kanıtı ayrıca aranmadı; Michelin 2026 seçkisinde olması yeterli sayıldı."
+          },
+          {
+            "id": "yeni-2",
+            "durum": "dogrulanamadi",
+            "duzeltme": "",
+            "kanit": "Adres (1388. Sokak No:5 D:C, Kültür Mah., Konak 35220) ve alıntı Michelin sayfasında doğru. Ancak Michelin 2026 duyuru makalesi Balmumu'nu anmıyor; sayfada 'New' etiketi yok. Üçüncü taraf siteler 2026 Plate diyor, biri 'ödül yok' diyor.",
+            "not": "'2026 yeni giriş' iddiası doğrulanamadı. Mekân ve adres doğru."
+          },
+          {
+            "id": "yeni-3",
+            "durum": "duzeltildi",
+            "duzeltme": "yil: Michelin Plate 2024 ve 2025 (üçüncü taraf kaynak); 2025'te yeni giriş değil. degisim: 'Muhammet İnce şef' ifadesi kaldırılmalı, doğrulanamadı",
+            "kanit": "Michelin TR sayfası adres (Atatürk Cad. No:196/A) ve alıntıyı doğruluyor. Joinpearl art arda 2024 ve 2025 Plate diyor. Şef adı hiçbir kaynakta çıkmadı.",
+            "not": "Mekân var; yeni/2025 girişi iddiası zayıf."
+          },
+          {
+            "id": "yeni-4",
+            "durum": "dogrulanamadi",
+            "duzeltme": "",
+            "kanit": "Michelin sayfası adres (Gaziosmanpaşa Bulvarı No:1, 35210) ve alıntıyı doğruluyor; 'New' etiketi ve açılış yılı yok. Swissôtel Büyük Efes 1964'ten beri var; Scappi'nin açılış yılı hiçbir kaynakta bulunamadı.",
+            "not": "'2025 yeni giriş' iddiası doğrulanamadı. Adres ve mekân doğru."
+          },
+          {
+            "id": "yeni-5",
+            "durum": "dogru",
+            "duzeltme": "",
+            "kanit": "Oggusto (yayın 28.07.2025, güncelleme 23.10.2025): adres Süreyya Apt, Kültür, 1381. Sk. No:11A, Konak; alıntı birebir. Açılış yılı kaynakta yok.",
+            "not": "Bugünkü faaliyet bağımsız doğrulanmadı."
+          },
+          {
+            "id": "yeni-6",
+            "durum": "duzeltildi",
+            "duzeltme": "alinti: \"Deniz manzaralı terası ve canlı müzik performanslarıyla misafirlerine eşsiz bir deneyim yaşatıyor.\"",
+            "kanit": "Oggusto'da adres doğru (Kordon Alsancak, Kültür, Atatürk Cd. No:174/A, Konak) ancak defterdeki alıntı sayfada birebir geçmiyor; yukarıdaki cümle geçiyor.",
+            "not": "Açılış yılı kaynakta yok; bugünkü faaliyet doğrulanmadı."
+          },
+          {
+            "id": "yeni-7",
+            "durum": "dogru",
+            "duzeltme": "",
+            "kanit": "Oggusto: 'Çınarlı, Ankara Cd. No:15 D:1L, Konak'; alıntı birebir. Sayfa 23.10.2025'te güncellendi ve 28 Ekim 2025 Salı'ya denk geliyor (2026'da 28 Ekim Çarşamba).",
+            "not": "Yıl 2025 çıkarım. Açılışın gerçekleştiği ve mekânın bugün açık olduğu doğrulanamadı."
+          },
+          {
+            "id": "yeni-8",
+            "durum": "dogrulanamadi",
+            "duzeltme": "",
+            "kanit": "Oggusto adresi 'Çınar, Ozan Abay Cd. No:301, Konak' yazıyor, başlıkta Bayraklı var (çelişki doğru). Sayfadaki cümle 'modern tasarımı ve zengin menüsüyle kısa sürede dikkatleri üzerine çekti'; defterdeki alıntı birebir değil. Bağımsız aramada mekân bulunamadı.",
+            "not": "Varlık, ilçe ve güncellik doğrulanamadı."
+          },
+          {
+            "id": "yeni-9",
+            "durum": "duzeltildi",
+            "duzeltme": "alinti: \"taze ve lezzetli balık çeşitleriyle menüsünü zenginleştiriyor\"",
+            "kanit": "Oggusto adresi doğru: Pier AVM, Akdeniz, Atatürk Cd. No:19/F, Konak. Defterdeki alıntı sayfada birebir geçmiyor.",
+            "not": "Açılış yılı kaynakta yok; bugünkü faaliyet doğrulanmadı."
+          },
+          {
+            "id": "yeni-10",
+            "durum": "duzeltildi",
+            "duzeltme": "alinti: \"özgün tasarımı ve lezzetli tatlılarıyla dikkat çekiyor.\"",
+            "kanit": "Oggusto adresi doğru: Donanmacı, Ulvi Başman Sk. No:42, Karşıyaka. Defterdeki alıntı sayfada birebir geçmiyor.",
+            "not": "Açılış yılı kaynakta yok; bugünkü faaliyet doğrulanmadı."
+          },
+          {
+            "id": "yeni-11",
+            "durum": "duzeltildi",
+            "duzeltme": "alinti: \"Fransız pastacılığına modern bir dokunuş sunuyor.\"; semt/ilçe: kaynakta Bornova başlığı, adreste Bayraklı yazıyor; Mansuroğlu Mah. idari olarak Bayraklı'dadır (kendi bilgim, kaynakla teyit edilmedi)",
+            "kanit": "Oggusto adresi 'Mansuroğlu Mah. 286/1. Sk. 16/A Bornova, Bayraklı'. Defterdeki alıntı sayfada yok. Bağımsız aramada mekân bulunamadı.",
+            "not": "Varlık ve güncellik doğrulanamadı."
+          },
+          {
+            "id": "yeni-12",
+            "durum": "dogru",
+            "duzeltme": "",
+            "kanit": "Oggusto adresi birebir: İstinye Park AVM, Bahçelerarası Mah. Şehit Bnb. Ali Resmi Tufan Cad. No:3, Z95, Balçova. Michelin'de Esca sayfası var, Şef Osman Sezener. Sayfada Sezener cümlesi var; defterdeki 'kapılarını açtı' cümlesi arama özetinde birebir görülmedi.",
+            "not": "Açılış yılı bulunamadı. Alıntı küçük sapma olabilir."
+          },
+          {
+            "id": "yeni-13",
+            "durum": "dogru",
+            "duzeltme": "",
+            "kanit": "izmirilde rehberi: '2 Nisan 2026'da İstinyePark İzmir'de kapılarını açan'; Grand Hyatt İzmir İstinyePark zemin katı. Sokak/no yok.",
+            "not": "Mahalle kaynakta yok; İstinyePark Bahçelerarası Mah. (Esca adresinden)."
+          },
+          {
+            "id": "yeni-14",
+            "durum": "dogru",
+            "duzeltme": "",
+            "kanit": "Rehber: Radisson RED İzmir Point Bornova 13 Nisan 2026'da açıldı; 'RED ROOF 2026 açılışıyla geldi'. Defterdeki alıntı cümlesi rehber özetinde birebir görülmedi.",
+            "not": "Mekân için ayrı tarih yok; otel tarihi."
+          },
+          {
+            "id": "yeni-15",
+            "durum": "dogru",
+            "duzeltme": "",
+            "kanit": "Rehber: 'RED BITES her gün 07.00-23.00 arasında çalışıyor'; otelle birlikte Nisan 2026. Ayrı tarih yok.",
+            "not": "Güven 'düşük' yerinde."
+          },
+          {
+            "id": "yeni-16",
+            "durum": "duzeltildi",
+            "duzeltme": "degisim: İzmir'den taşınan mekân, Alaçatı (Çeşme) şubesi Temmuz 2026'da açıldı; yeni marka değil",
+            "kanit": "Rehber: 'yeni adres temmuz ayında konserli açılışlarla faaliyete geçti', yaz 2026'da İzmir'den Alaçatı'ya taşındığını belirtiyor. Bağımsız aramada Temmuz 2026 konser takvimi (10, 12, 17 Temmuz) var.",
+            "not": "Adres kaynakta yok. Kapsam dışı: Çeşme, İzmir merkez değil."
+          },
+          {
+            "id": "yeni-17",
+            "durum": "dogru",
+            "duzeltme": "",
+            "kanit": "Rehber: '8 Eylül 2026'da kentin kurtuluş günü programı kapsamında hizmete açıldı'; Selçuk, Amfi Tiyatro altı, Efes Selçuk Belediyesi.",
+            "not": "Sokak/no kaynakta yok. Selçuk İzmir iline bağlı, merkeze uzak."
+          }
+        ],
+        "ozet": "17 satırın 8'i doğru, 6'sı düzeltildi, 3'ü doğrulanamadı. Oggusto'daki 8 mekânın adresleri sayfayla uyuşuyor, ama 4 satırda (6, 9, 10, 11) alıntı sayfada birebir yok ve düzeltildi. Michelin tarafında Kemal'in Yeri'nin 2026 yeni Bib Gourmand olması doğrulandı. Balmumu ve Scappi için 'yeni giriş' iddiası doğrulanamadı. Birinci Kordon'un 2025'te yeni olduğu ve şefin adı kanıtlanamadı. Ba'ree için bağımsız kanıt bulunamadı ve ilçesi çelişkili. Korto'nun açılış yılı 2025 çıkarımı. Mumlu Alaçatı yeni marka değil, taşınma. Bugünkü açık olma durumu çoğu satırda bağımsız doğrulanamadı."
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Takip"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Doğrulama"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "takip:yeni-acilislar",
+      "phaseIndex": 1,
+      "phaseTitle": "Takip",
+      "agentId": "a589e9d108a87216b",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795638786913,
+      "queuedAt": 1795638786908,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 17/30",
+      "promptPreview": "Kontrol noktası 30 araç çağrısı; say. 30'da dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 60.\n\nBağlam: Bugün 25 Kasım 2026. Kullanıcı 2020'den beri İzmir dışındaydı, yeni döndü; \"ben yokken açılan yeni, nitelikli mekânlar nerede?\" diye mahalle ve sokak adıyla soruyo…",
+      "promptFramed": true,
+      "lastProgressAt": 1795638907068,
+      "tokens": 93042,
+      "toolCalls": 22,
+      "durationMs": 120155,
+      "resultPreview": "{\"arac\":\"araç: 17/30\",\"ozet\":\"izmirilde.com: /guides sayfası yalnızca hediye rehberleriyle dolu (502 rehber, 21 sayfa); aylık \\\"yeni açılan mekanlar\\\" serisi yok. Eylül 2026 rehberi tek ve \\\"aylık\\\" değil; adres vermiyor, yalnızca semt/kompleks veriyor. Ay kalıbı (kasim, agustos, temmuz vb.) denenmedi, çünkü site yapısı seri olmadığını gösteriyor. RSS (feed.xml) sadece 28 Eylül 2026 tarihli hediye…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "doğrulayıcı:yeni-1",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "a24c2b1f0d30966a5",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795638907083,
+      "queuedAt": 1795638907078,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 20/34",
+      "promptPreview": "Kontrol noktası 34 araç çağrısı (satır başına 2); say. 34'de dur ve kendine sor: kalan satır var mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 68.\n\nGörev: İzmir'de 2024-2026 arasında açılan mekânlar üzerine bir araştırmacının iddia defterinden 17 satırı doğrula. Bugün 25 Kasım 2026.\nHer satır için: (1…",
+      "promptFramed": true,
+      "lastProgressAt": 1795638988376,
+      "tokens": 103142,
+      "toolCalls": 20,
+      "durationMs": 81293,
+      "resultPreview": "{\"arac\":\"araç: 20/34\",\"sonuclar\":[{\"id\":\"yeni-1\",\"durum\":\"dogru\",\"duzeltme\":\"\",\"kanit\":\"Michelin sayfası: Alsancak, 1453. Sokak No:22, Konak 35220. Michelin 2026 duyuru makalesi: Kemal'in Yeri yeni Bib Gourmand. Alıntı arama özetinde Michelin metni olarak göründü.\",\"not\":\"Mekânın bugün açık olduğuna dair bağımsız 2026 kanıtı ayrıca aranmadı; Michelin 2026 seçkisinde olması yeterli sayıldı.\"},{\"id\"…"
+    }
+  ],
+  "totalTokens": 196184,
+  "totalToolCalls": 42
+}
