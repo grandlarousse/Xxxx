@@ -1,0 +1,2408 @@
+{
+  "summary": "İzmir'de 18-24 yaş kitlesinin takıldığı nezih, ambiyanslı, nargilesiz kafeleri semt semt tara, doğrula, eleştir",
+  "agentCount": 8,
+  "logs": [
+    "49 tekil aday; kapandı bildirilen 0; doğrulamaya 40; doğrulanmadan kalan 9."
+  ],
+  "result": {
+    "uretici": [
+      {
+        "id": "bornova",
+        "arac": "25/35",
+        "ozet": "Referans: Evka 3'teki Casual Coffee & Bakery, Cengizhan Cd. (Macro Center karşısı) civarında, TikTok gönderilerine göre yeni açılmış, 08:00-01:00 açık, köpek kabul eden, fırın+kahve konseptli bir mekan. Aynı markanın Buca şubesi \"modern ama rahat\", samimi dekor, kişi başı 200-300 TL (orta segment), Americano/cold brew ve günlük kruvasan öne çıkıyor; specialty/üçüncü dalga iddiası doğrulanamadı. Dürüst sonuç: web aramaları (Google Maps, Instagram, Reddit açılmadı/çıkmadı) yaş kitlesi kanıtını neredeyse hiç vermedi; aşağıdaki yaş puanları yorum metnine değil konum (kampüse yakınlık) ve açıklama ifadelerine dayanan zayıf çıkarımdır. Bornova'da nargilesiz, bağımsız ve ambiyanslı adaylar: Vibe Coffee Co (Kazımdirik, Google 4.1/220, arka bahçe, müzik, Küçükpark kalabalığından uzak ders çalışma), Cafe Rezine (Süvari Cd., Google 4.6/589, rahat ev havası), Pod Coffee & Eatery, Ceres Artisan Bakery, Poka Coffee Roasters Bornova (Süvari Cd. 27, specialty), Cairo Coffee Roastery (Süvari Cd. 44/D, Kahire temalı, sigara alanı var). Küçükpark'ta S.O.S Cafe nargileli (çürütüldü: aradığın tip değil). Hipotezin (kitle Küçükpark/Ege kapıları, hafta içi öğleden sonra) doğrudan kanıtı bulunamadı; yalnızca bölgenin öğrenci ağırlıklı olduğu genel ifadesi var. Tanışma ortamı için öne çıkan tek somut kanıt: Küçükpark'taki Study Cafe'de sahibin gelenlere kendini tanıtmaya teşvik etmesi (2020 sonrası Ekşi yorumu), ancak orası ders çalışma mekanı. Güncel (2025-2026) açık/kapalı kanıtı çoğu mekan için yok; Google Maps/Instagram ile doğrulanmalı.",
+        "aykiri_kanit": [
+          "Küçükpark yaygın bilinen zincirler (Espressolab, Starbucks vb.) için arama sonucu yok; hipotez doğrulanamadı.",
+          "Küçükpark'ta 2025 kapanan kafe haberi bulunamadı; tek ilgili haber (CNN Türk) bir köfte restoranının isim değiştirmesi.",
+          "Hiçbir kaynak 18-24 kadın kitlesini ya da tanışma ortamını doğrudan kanıtlamıyor; yaş uyum puanları zayıf çıkarım.",
+          "S.O.S Cafe (Küçükpark) nargileli; Küçükpark'taki mekanların çoğu nargile/kıraathane tarzı olabilir (kanıtsız).",
+          "Casual Coffee'nin Evka 3 adresi kaynaklarda çelişiyor (Cengizhan Cd. No:35 vs Kazımdirik 364/1 Sk. No:32/A)."
+        ],
+        "acik_kalanlar": [
+          "Casual Coffee Evka 3: specialty olup olmadığı, fiyat, tasarım dili doğrulanmadı.",
+          "Mekan bazında 2025-2026 tarihli yorum/Instagram kanıtı alınamadı (Google Maps, Instagram, Reddit erişilemedi).",
+          "Bukalemoon Cafe, Hedera, Bean II Cup, Coffee Crew, Take & Rest Coffee, Hidden Garden, Kalender Cafe, Cafe Stevia (Evka 3), More Coffee & Tea, Retro Kahve Dükkanı, Pablo Artisan Coffee araştırılamadı.",
+          "Etkinlik (quiz, oyun gecesi, dil buluşması) olan kafe bulunamadı; Instagram odaklı ek arama veya doğrudan mekan ziyareti gerekli.",
+          "Kontrol noktası (35) altında 25 çağrıda durdum: art arda aramalar yeni bilgi getirmedi."
+        ],
+        "defter": [
+          {
+            "iddia": "Casual Coffee & Bakery Evka 3: Cengizhan Cd. No:35, Macro Center karşısı; 08:00-01:00, köpek kabul, yeni açılmış",
+            "kaynak": "https://www.tiktok.com/discover/casual-coffee-bakery",
+            "alinti": "arama özeti; sayfa açılmadı (içerik boş)",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Casual Coffee Buca şubesi: modern ama rahat, kişi başı 200-300 TL, kruvasan, americano/cold brew övülüyor",
+            "kaynak": "https://www.izmirmekanrehberi.com/m/cafe/casual-coffee-bakery-goztepe",
+            "alinti": "Kişi başı 200–300 TL; 3 yorum, ortalama 3,7",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Vibe Coffee Co Google 4.1, 220 yorum; sigara alanı var, nargile anılmıyor",
+            "kaynak": "https://wanderlog.com/place/details/9826099/vibe-coffee-co",
+            "alinti": "153 beş yıldız, 37 bir yıldız",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Vibe Coffee Co Küçükpark kalabalığından uzak, arkadaşlarla ders çalışmaya uygun",
+            "kaynak": "https://wanderlog.com/place/details/9826099/vibe-coffee-co",
+            "alinti": "Küçükpark'ın kalabalığından biraz uzak (kullanıcı yorumu, çeviri özet)",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Cafe Rezine Google 4.6/589, rahat ev havası",
+            "kaynak": "https://wanderlog.com/place/details/1459902/cafe-rezine",
+            "alinti": "relaxed and homely atmosphere",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Shakespeare Forum Bornova Google 4.5/698, 10-22",
+            "kaynak": "https://wanderlog.com/place/details/3265311/shakespeare-coffeebistro-forum-bornova",
+            "alinti": "698 yorum, günlük 10:00-22:00",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Cairo Coffee Roastery Süvari Cd. 44/D, Kahire temalı, yorum yok",
+            "kaynak": "https://www.izmirmekanrehberi.com/bornova/cairo-coffee-roastery-bornova",
+            "alinti": "Kahire'nin mistik atmosferinden ilham alarak",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Poka Bornova şubesi Süvari Cd. No:27",
+            "kaynak": "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+            "alinti": "Süvari Cad. No: 27 Bornova (arama özeti)",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Study Cafe Küçükpark: kütüphanemsi, sessiz ve konuşma serbest iki bölüm, öğrenci mekanı",
+            "kaynak": "https://eksisozluk.com/entry/94752418",
+            "alinti": "bornova küçükpark'ta kütüphanemsi cafe. sessiz alan ve konuşmanın serbest olduğu iki bölümü var.",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Üniversite 2 öğrenci mekanı, 24 saat, Kasım 2026 listesinde",
+            "kaynak": "https://yemek.com/bornovanin-en-iyi-kahvalti-mekanlari/",
+            "alinti": "Öğrenci ve hızlı sabah molası, 24 saat açık",
+            "guven": "orta"
+          },
+          {
+            "iddia": "S.O.S Cafe nargile sunuyor",
+            "kaynak": "https://www.firmasec.com/firma/mmdyyf-s-o-s-cafe",
+            "alinti": "nargilenin yanında Türk kahvesini öneriyor",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Ceres Artisan Bakery bahçeli, kruvasan, filtre kahve",
+            "kaynak": "https://yemek.com/bornovanin-en-iyi-kahvalti-mekanlari/",
+            "alinti": "Bahçesinde kahvenizi yudumlayarak sohbet edeceğiniz bu küçük pastane",
+            "guven": "orta"
+          }
+        ]
+      },
+      {
+        "id": "alsancak-konak",
+        "arac": "11/35 (kontrol noktasına varmadan durdum: art arda 3 arama yaş kitlesi için yeni bilgi getirmedi)",
+        "ozet": "Alsancak/Konak bölgesinde nargilesiz, kaliteli specialty kafeler net: Poka, Baristocrat, Two Cups, Coffee Mamma, Chapter, Daft, Rome, No.18, Delungo, Soulmate. Ancak hiçbir kaynakta bu mekanların yaş kitlesi (öğrenci/18-24) yazmıyor. Ulaştığım kaynaklar rehber/aggregator (Oggusto Kasım 2025, Mes Prestiges Mayıs-Haziran 2026, Yemek.com 2026, Wanderlog) ve hepsi kahve kalitesi ve ambiyansı anlatıyor, kitleyi değil. Yani yas_uyum puanları kanıtsız tahmindir ve düşük güvenlidir. Tek yaş sinyalleri: Ekşi Sözlük (eski, tarihsiz) Sardunya'yı arkadaş grupları için büyük ahşap masalar, La Puerta'yı sosyalleşme için ama pahalı ve gürültülü diye anıyor (ikisi de kahveci değil, bar-kafe; nargile durumu bilinmiyor). Poka için 'books-and-conversation room' tarifi var: sohbet/okuma odaklı, 07:45-00:00 açık, orta fiyat; bu daha çok 25+ ve kahve meraklısı kitleyi akla getiriyor ama kanıt yok. Alsancak'taki kapanma haberi bulunamadı (Kıbrıs Şehitleri'nde Ekim 2026 zemin yenileme çalışması haberi var). Öneri: kitleyi yerinde ya da Instagram etiketli fotoğraf ve Google yorum tarihleriyle doğrulamak gerek; web aramasıyla bu çözülemedi. Hipotezim (Alsancak kitlesi karışık, 18-24 hafta sonu en yoğun) doğrulanmadı, çürütülmedi. Konak/Kemeraltı/Karataş için de güncel genç kitleli nargilesiz kafe kanıtı çıkmadı. İzmir'de oyun/masa oyunu kafe bulunamadı.",
+        "aykiri_kanit": [
+          "Hiçbir kaynakta Alsancak specialty kafelerinin kitlesinin 18-24 olduğuna dair kanıt yok; 'Alsancak genç kitlenin merkezi' hipotezi doğrulanmadı.",
+          "Poka 'books-and-conversation' olarak tarif ediliyor; bu daha sakin ve olgun kitleyi düşündürüyor.",
+          "Ekşi Sözlük'te Alsancak'taki sosyal mekânlar bar-kafe (La Puerta, Sardunya) ve pahalı/gürültülü; specialty kahveciler grup/tanışma için değil çalışma ve birebir sohbet için anılıyor.",
+          "Alsancak'ta bilinen nargileli öğrenci mekânları (Cafe Hookah, Tosun Paşa) var; semt tamamen nargilesiz değil.",
+          "Kapanma araması: 2025-2026'da kapanan kafe bulunamadı; bu açıklık kanıtı değil, yokluk kanıtı."
+        ],
+        "acik_kalanlar": [
+          "18-24 yaş kitlesi hiçbir mekân için doğrulanamadı: Instagram etiket/hikâye, Google yorum tarihleri ve yerinde gözlem gerekli.",
+          "Nargile durumu hiçbir aday için kesinleşmedi (çoğu 'bilinmiyor').",
+          "Fiyat (latte vb.) rakamı bulunamadı, yalnızca $$ seviyesi.",
+          "Konak/Kemeraltı/Karataş, Kordon, Kültürpark çevresi için genç odaklı nargilesiz kafe taranamadı (Giritli Kâmuran, KafePi Kordon Lounge, Delungo Coffee Roasters, Soulmate Coffee & Bakery adı geçti, incelenmedi).",
+          "Etkinlik (quiz, oyun gecesi, dil buluşması) kanıtı yok; İzmir'de oyun kafe bulunamadı.",
+          "Ekşi Sözlük (403), Reddit, Foursquare ve Google Maps sayfalarına erişilemedi."
+        ],
+        "defter": [
+          {
+            "iddia": "Poka Kıbrıs Şehitleri'nde 2016'dan beri kavuruyor, Haziran 2026'da incelenmiş",
+            "kaynak": "https://mesprestiges.com/en/izmir/places/poka-coffee-roasters-alsancak",
+            "alinti": "Last reviewed: Jun 2026",
+            "guven": "yüksek"
+          },
+          {
+            "iddia": "Poka sohbet/kitap odaklı, fotoğraf mekânı değil",
+            "kaynak": "https://mesprestiges.com/en/izmir/places/poka-coffee-roasters-alsancak",
+            "alinti": "a bean-forward, books-and-conversation room rather than an Instagram set",
+            "guven": "yüksek"
+          },
+          {
+            "iddia": "Poka çalışma saatleri günlük 07:45-00:00",
+            "kaynak": "https://mesprestiges.com/en/izmir/places/poka-coffee-roasters-alsancak",
+            "alinti": "Daily 07:45-00:00",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Mes Prestiges makalesi Mayıs 2026; Poka, Baristocrat, Two Cups $$",
+            "kaynak": "https://mesprestiges.com/en/izmir/stories/izmir-third-wave-coffee-breakfast",
+            "alinti": "Published 29 May 2026; $$",
+            "guven": "yüksek"
+          },
+          {
+            "iddia": "Daft Coffee Alsancak'ta samimi, geniş bahçeli",
+            "kaynak": "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+            "alinti": "Alsancak'ın en samimi kahve duraklarından biri",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Coffee Mamma 2013'te eski tütün deposunda açıldı",
+            "kaynak": "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+            "alinti": "eski tütün deposundan dönüştürülmüş",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Oggusto listesi Kasım 2025 tarihli",
+            "kaynak": "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+            "alinti": "06.11.2025",
+            "guven": "yüksek"
+          },
+          {
+            "iddia": "Münire 2017 blogunda öğrencilerin sık takıldığı yer",
+            "kaynak": "https://benirva.blogspot.com/2017/04/mekan-place-1.html",
+            "alinti": "öğrenci (arama özeti; birebir alıntı alınamadı)",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Sardunya büyük ahşap masalarla grup sohbetine uygun",
+            "kaynak": "https://eksisozluk.com/entry/75262432",
+            "alinti": "arama özeti; sayfa 403 verdi, birebir alıntı yok",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "La Puerta sosyalleşmeye uygun ama pahalı ve gürültülü",
+            "kaynak": "https://eksisozluk.com/entry/75262432",
+            "alinti": "arama özeti; sayfa 403, birebir alıntı yok",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Kıbrıs Şehitleri'nde Ekim 2026'da zemin yenileme haberi",
+            "kaynak": "https://www.yeniasir.com.tr/izmir/2026/10/10/izmirin-gozde-caddesinde-donusum-zemin-bastan-sona-yenilendi",
+            "alinti": "başlık: zemin baştan sona yenilendi (yalnızca başlık görüldü)",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Donanımhaber kullanıcısı Alsancak'ta ders çalışmayı sorunlu, Bornova'yı daha iyi buluyor",
+            "kaynak": "https://forum.donanimhaber.com/izmir--156320614",
+            "alinti": "arama özeti; birebir alıntı yok",
+            "guven": "düşük"
+          }
+        ]
+      },
+      {
+        "id": "karsiyaka-bostanli",
+        "arac": "14/35 (erken durdu: son 3 arama yeni bilgi getirmedi; kaynaklar ince)",
+        "ozet": "Karşıyaka/Bostanlı/Çiğli için yaş kitlesi kanıtı çok zayıf. Bulabildiğim kaynaklar (yemek.com, Mes Prestiges, Sprudge, Wanderlog) mekânları kahve kalitesi ve tasarım açısından anlatıyor. Hiçbirinde \"öğrenci\", \"18–24\" ya da \"kalabalık genç grup\" kanıtı yok. Bu yüzden yas_uyum puanları kanıta değil, mekân tipinden çıkarılmış tahmindir ve düşük güvenlidir. Bostanlı için \"Bornova dışında en güçlü bölge\" hipotezi doğrulanamadı, çürütülemedi de. Bölgede çok sayıda specialty/üçüncü dalga kafe var (Sun Co., Las Habitas, Lot, Myth, Tuck, Bonó, Make Me Joi, Peri Art) ve nargile yan unsuru olarak görünmüyor. Ancak sahil şeridi ve çarşıdaki Ekşi kaynaklı mekânlar (Kaffe, Tömbeki, Coffee Shisha) nargile ağırlıklı ve eski. Doğrulanan önemli bulgu: Espello Coffee House (Wanderlog) kalıcı kapalı. Yeni bulgu: Genç Yaka Kafe ve Gençlik Merkezi (Karşıyaka Belediyesi, Uğur Mumcu Parkı, Ocak 2026'da açıldı). Gençlere yönelik, masa tenisi, dart, karaoke, kutu oyunu, ücretsiz internet var; İzmir'in her yerinden yüzlerce genç gelmiş. Bu, kullanıcının \"tanışma\" hedefine en uygun somut aday; ancak belediye mekânı, \"casual coffee\" havasından farklı olabilir ve oyun alanları 15+ yaş. Çiğli/İKÇÜ çevresinde nargilesiz kafe kanıtı bulunamadı (sadece Pablo Artisan Coffee Çiğli etkinlik mekânı olarak geçti; yorum yok). Mavişehir için kafe verisi çıkmadı. Öneri: Bostanlı'da Sun Co., Las Habitas, Make Me Joi ve Genç Yaka'yı yerinde veya Instagram'dan kontrol et; Fünf/Lot/Spect kahve odaklı, kitlesi kahve meraklıları.",
+        "aykiri_kanit": [
+          "Espello Coffee House (Bostanlı) kalıcı kapalı görünüyor; yemek.com/Mes Prestiges tipi listelerde olmasa da eski öneriler güvenilmez.",
+          "Hipotez 'Bostanlı genç kitle' hiçbir kaynakta açıkça doğrulanmadı; yorumlar 'kahve meraklıları' ve 'mahalle müdavimi' diyor, öğrenci demiyor.",
+          "Sahil/çarşı mekânları (Kaffe, Tömbeki, Coffee Shisha) nargile ağırlıklı; sahilde nargilesiz kafe bulmak zor olabilir.",
+          "Mavişehir ve Çiğli'de nargilesiz, genç kitleli kafe kanıtı bulunamadı; Çiğli'de Vitus Coffee endüstriyel bölgede (AOSB), öğrenci takılma yeri değil.",
+          "Genç Yaka belediye mekânı: ambiyans/kalite beklentisi Casual Coffee seviyesinde olmayabilir; çocuk 'inşaat kafe' alanı da var."
+        ],
+        "acik_kalanlar": [
+          "Hangi Bostanlı kafelerinde gerçekten 18-24 yaş yoğun? (Google Maps/Instagram yorumları açılamadı; yerinde gözlem ya da Instagram etiketleri gerekli)",
+          "Sun Co., Make Me Joi, Myth, Tuck, Bonó, Peri Art 2026 açık durumu doğrulanmadı",
+          "Genç Yaka'nın fiyatları, çalışma saatleri, düzenli etkinlik takvimi",
+          "İKÇÜ/Balatçık çevresinde (Çiğli) nargilesiz kaliteli kafe listesi",
+          "Mavişehir kafeleri (hiç veri çıkmadı)",
+          "Reddit r/izmir ve TikTok/Instagram arama özetlerine erişilemedi"
+        ],
+        "defter": [
+          {
+            "iddia": "Genç Yaka Kafe ve Gençlik Merkezi Bostanlı Uğur Mumcu Parkı'nda, Ocak 2026'da açıldı, İzmir'in her yerinden yüzlerce genç ağırladı",
+            "kaynak": "https://www.karar.com/sehir-haberleri/genclerin-yeni-bulusma-adresi-genc-yaka-izmirin-dort-bir-yanindan-2023464",
+            "alinti": "Genç Yaka... İzmir'in dört bir yanından yüzlerce kişiyi ağırladı (22 Ocak 2026)",
+            "guven": "yüksek"
+          },
+          {
+            "iddia": "Genç Yaka'da masa tenisi, dart, karaoke, kutu oyunu, çalışma masası; oyun alanı 15+",
+            "kaynak": "https://www.karar.com/sehir-haberleri/genclerin-yeni-bulusma-adresi-genc-yaka-izmirin-dort-bir-yanindan-2023464",
+            "alinti": "Masa tenisi, dart, karaoke ve kutu oyunları (özet)",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Espello Coffee House Bostanlı kalıcı olarak kapalı",
+            "kaynak": "https://wanderlog.com/place/details/3393246",
+            "alinti": "kalıcı olarak kapalı (sayfa durumu)",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Las Habitas fiyatları: latte 170 TL, cold brew 190 TL, saat 10:00-23:30",
+            "kaynak": "https://mesprestiges.com/en/izmir/places/las-habitas-bostanli",
+            "alinti": "latte/cappuccino 170 ₺; cold brew 190 ₺; 10:00-23:30; prices recorded June 9, 2026",
+            "guven": "yüksek"
+          },
+          {
+            "iddia": "Las Habitas müdavimi mahalleli, genç kahve sahnesi",
+            "kaynak": "https://mesprestiges.com/en/izmir/places/las-habitas-bostanli",
+            "alinti": "neighbourhood-regular, not influencer-drop",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Bostanlı'da Sun Co., Bonó, Tuck, Myth, Make Me Joi, Peri Art, Las Habitas adresleri",
+            "kaynak": "https://yemek.com/izmir-karsiyaka-kahvecileri/",
+            "alinti": "Sun Co. Coffee & Eatery: Bostanlı, 1790. Sk. No:3/A",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Lot, Fünf, Spect kitlesi kahve meraklıları (öğrenci ifadesi yok)",
+            "kaynak": "https://sprudge.com/the-sprudge-guide-to-coffee-in-izmir-turkey-257543.html",
+            "alinti": "Kasım 2024 rehberi; Lot 2020, Spect 2024 başı, Fünf 2021",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Sahildeki Kaffe nargilesiyle bilinir (eski yorum)",
+            "kaynak": "https://eksisozluk.com/bostanli--88022?p=10",
+            "alinti": "bostanlıda en güzel nargile (özet; 2006-2014 yorumları)",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Coffee Shisha Bostanlı Şehitler Cd. nargile salonu",
+            "kaynak": "https://yandex.com/maps/org/coffee_shisha/1359215983/",
+            "alinti": "Hookah lounges, Bostanlı Mahallesi, Şehitler Caddesi",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Pablo Artisan Coffee Çiğli'de GDG İKÇÜ etkinliği ev sahibi",
+            "kaynak": "https://gdg.community.dev/events/details/google-gdg-on-campus-izmir-katip-celebi-university-izmir-turkey-presents-coffee-talk-with-batuhan-gungor-tech-growth-amp-coffee/",
+            "alinti": "PABLO ARTİSAN COFFEE - ÇİĞLİ",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Make Me Joi Alsancak: yüksek müzik, pahalı içecek şikâyeti, arkadaşlarla takılmaya uygun",
+            "kaynak": "https://wanderlog.com/place/details/9758269/make-me-joi-alsancak",
+            "alinti": "loud music; drinks overpriced; hanging out with friends (özet)",
+            "guven": "düşük"
+          }
+        ]
+      },
+      {
+        "id": "guney-bati-buca",
+        "arac": "14/35",
+        "ozet": "Bu bölgelerde (Göztepe, Güzelyalı, Üçkuyular, Balçova, Narlıdere, Hatay, Buca) 18-24 yaş kitlesinin takıldığı, nargilesiz ve ambiyanslı bir kafeyi kanıtla doğrulayamadım. Arama özetleri çoğunlukla dizin ve liste siteleri çıkardı. Yorum tarihi, öğrenci yoğunluğu ya da nargile bilgisi neredeyse hiç yoktu. Art arda zayıf sonuçlar geldiği için durdum. Hipotezi kısmen çürütüyorum: Balçova/İEÜ çevresinde öğrenci kafesi kanıtı bulamadım. Sonuçta yalnızca Mithatpaşa Cd. üzerinde zincir ve butik kafeler (Bisquitte, Kahve Kutusu, Caffe Nero, Tchibo) çıktı. Göztepe-Güzelyalı sahil için de gençlik kanıtı yok. Bu şeritteki mekanlar daha çok restoran ve kahvaltı ağırlıklı görünüyor (La Folie, Egelim Plus). Buca'da kitle gerçekten öğrenci, ama listeler nargile ve düşük segment ağırlıklı, bu da kullanıcının istediği \"nezih\" çizgisiyle çelişiyor. Buca'daki nargilesiz adaylar Üzüm Cafe (belediye, fiyatı düşük, DEÜ Tınaztepe karşısı), Opera Coffee, Nel Vicolo, So Like Coffee ve Tenten. Bunların hepsi için ambiyans, kalite ve nargile bilgisi doğrulanmadı. Üzüm Cafe öğrenci kitlesi için en güçlü kanıta sahip. Ancak belediye kafesi olduğu için ambiyansı ve \"kaliteli\" beklentisi şüpheli. Tenten Buca ise dekor ve kahve açısından olumlu yorum almış ama konumu çelişkili (Buca mı Alsancak mı). Not: Bornova'daki Vibe Coffee Co ve Cafe Friendzone alt sorumun dışında kalıyor. Bunları başka ajanların Bornova alt sorusuna bırakıyorum. Öneri: bu alt sorudan çıkan tek somut yön Buca/DEÜ Tınaztepe çevresi. Yine de Bornova ve Alsancak daha güçlü adaylar barındırıyor olabilir. İEÜ, Göztepe ve Güzelyalı için Instagram konum etiketleri ve Google Maps yorumlarına doğrudan bakmak gerekir (ben erişemedim).",
+        "aykiri_kanit": [
+          "Hipotez çürüdü: Balçova/İEÜ çevresinde öğrenci kafesi kanıtı çıkmadı; yalnızca zincir ve Mithatpaşa Cd. kafeleri listelendi.",
+          "Göztepe-Güzelyalı sahil şeridinde gençlik kanıtı yok; çıkanlar restoran/kahvaltı ağırlıklı (La Folie, Egelim Plus).",
+          "Buca'da kitle öğrenci ama listeler nargile ve düşük segment ağırlıklı, kullanıcının nezih kriteriyle çelişiyor.",
+          "Reddit r/izmir ve Ekşi Sözlük'ten bu bölgeler için kullanılabilir sonuç çıkmadı."
+        ],
+        "acik_kalanlar": [
+          "Hiçbir adayın nargile politikası, ambiyansı ve 2025-2026 yorumu doğrulanmadı.",
+          "Instagram/TikTok ve Google Maps yorumlarına erişilemedi; Göztepe, Üçkuyular, Narlıdere ve Hatay için aday bulunamadı.",
+          "Tenten Buca konumu çelişkili (Buca mı Alsancak mı).",
+          "Caffe Nero, Tchibo gibi zincirlerin öğrenci kitlesi bilinmiyor; Bornova, Alsancak ve Karşıyaka bu alt sorunun dışında bırakıldı."
+        ],
+        "defter": [
+          {
+            "iddia": "Üzüm Cafe DEÜ Tınaztepe karşısında, Buca Belediyesi'ne ait, öğrenci fiyatlı",
+            "kaynak": "https://ankahaber.net/haber/detay/bucanin_ogrenci_dostu_kafesi_243682",
+            "alinti": "Haber 12 Haziran 2025, güncelleme 1 Haziran 2026; Tarık Akan Gençlik Merkezi zemin katı",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Buca öğrenci dostu cafe listesinde Nel Vicolo, Opera Coffee, So Like Coffee, Berry Coffee var",
+            "kaynak": "https://www.izmirmekanrehberi.com/liste/izmir-bucada-ogrenci-dostu-cafeler",
+            "alinti": "Liste son güncelleme 2 Haziran 2026",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Hasanağa ve Şirinyer nargile yoğun, Hasanağa öğrenci dostu",
+            "kaynak": "https://markasi.org.tr/buca-nargile-kafe/",
+            "alinti": "Hasanağa çevresi ise öğrenci dostu cafe kültürüyle dikkat çeker.",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Tenten Buca dekor ve kahve beğenilmiş, ısıtma eksikliği şikayeti",
+            "kaynak": "https://wanderlog.com/place/details/1459911/tenten-buca",
+            "alinti": "yorumcu kahve ve dekorasyonu beğenmiş, ön bölümde ısıtma yok",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Mithatpaşa Cd. kafeleri: Bisquitte 4,2; Kahve Kutusu 4,0; Caffe Nero 4,2; Tchibo 4,4",
+            "kaynak": "https://yandex.com.tr/maps/org/bisquitte/13769236101/",
+            "alinti": "Yandex puanları",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Göztepe sahil kafe kayıtları 2016-2019 tarihli, eski",
+            "kaynak": "https://tr.foursquare.com/v/g%C3%B6ztepe-sahili/4eb65cef469073bbc68ba4ca",
+            "alinti": "Sanita Cafe ve Kafe Levent en eski mekanlar arasında",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Study Cafe (Bornova) çalışma kafesi, 75 TL giriş (Şubat 2024)",
+            "kaynak": "https://www.plumemag.com/izmirde-calismak-icin-kafe/",
+            "alinti": "Study Cafe 09:00-00:00, giriş 75 TL kahve dahil",
+            "guven": "orta"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-sinyal",
+        "arac": "28/35 (kontrol noktasında durdum; son 6 çağrı yeni bilgi getirmedi; aramalar ağırlıkla zayıf/eski sonuç verdi)",
+        "ozet": "Sonuç zayıf: İzmir'de 18-24 yaş kitlesinin takıldığı kafeleri 2025-2026 tarihli sosyal kanıtla (yorum, Instagram, TikTok, Ekşi/Reddit) gösteren güvenilir bir kaynak bulamadım. Arama araçları Reddit, Instagram ve Google Maps yorumlarına ulaşmadı. Bulunan listeler (izmirmag 2018, Ekşi girdileri, Wanderlog/Foursquare) mekan adı veriyor ama yaş kitlesi vermiyor. Bu yüzden yas_uyum puanları çoğunlukla çıkarım. Her adayda yas_kaniti bunu belirtiyor, doğrulanmış sayılmamalı. Net bulgular: (1) Etkinlik tarafı dar. İzmir'de doğrulanabilir tek düzenli tanışma formatı BlaBla Language Exchange (Konak, iki haftada bir Perşembe, 13 Ağustos 2026 tarihli ilan, 100 ilgili). Tek başına etkinlik formatı yaş filtresi sağlamıyor, genel kitle karışık. Karşıyaka One Team koşu grubu Bostanlı'da (kafede bitip bitmediği doğrulanmadı, sayfa 2021'e dayanan haberlere işaret ediyor). Kutu oyunu için Karşıyaka'da d20 ve Kule Sakinleri anılıyor ama kaynak bir X gönderisi, doğrulanmadı. 'Meeples & Peoples' kaydını doğrulayamadım. Bornova'da 18 Eylül 2026 tek seferlik bir oyun gecesi Old Pal Pub'da (kafe değil, komedi kategorisi). Kafede seramik atölyesi, kitap kulübü, kahve tadım etkinliği için İzmir'de 2025-2026 kanıtı yok. (2) Hipotezin çürüyen kısmı: 'kafede rastgele tanışma sınırlı' doğru görünüyor, ama 'etkinlik formatları daha verimli' için de İzmir'de güçlü kanıt çıkmadı. (3) Urla: Köyiçi için genç kitle kanıtı yok; kaynaklar kahvaltı ve rezervasyon sıkıntısı, emekli/aile rotaları gösteriyor. Değer mi sorusu: kanıtsız, 'bilinmiyor'. (4) Casual Coffee: İlkses (Mayıs 2025) Buca'da 'Casual Coffee & Bakery' tanıtıyor (ağaç altı bahçe, prizli masa), kullanıcının Evka 3 şubesiyle aynı marka olabilir. Aynı haber Buca'yı 'gençlerin ve ailelerin buluşma noktası' diye anıyor. (5) Friendzone Cafe, izmirmag listesinde Bayraklı, Wanderlog'da Bornova Kazımdirik'te; adres çelişkisi var. Öneri: bu liste ön eleme olarak kullanılsın, diğer dört semt ajanının yorum-bazlı bulgularıyla çaprazlansın; yaş kitlesi için Instagram etiket/konum bakışı gerekir.",
+        "aykiri_kanit": [
+          "Ekşi'de Bornova'nın eski gençlik mekanları (Bornova Music Cafe, Korköz, Rebel Cafe, Kahvedays) kapanmış; öğrenci kafelerinin ömrü kısa.",
+          "Kullanıcının 'Casual Coffee Evka 3' mekanı arama sonuçlarında Evka 3 olarak çıkmadı; Buca'da Casual Coffee & Bakery çıktı. Evka 3'te yalnızca Cafe Stevia (113 sokak) adı geçti.",
+          "Alsancak Kıbrıs Şehitleri'nde akşam öğrenci kalabalığı iddiası zayıf bir aggregator'dan geliyor; bir blog sokağı kalabalık bulmamış.",
+          "Urla Köyiçi'nde genç kitle kanıtı yok; Urla rotaları aile/emekli ve kahvaltı ağırlıklı.",
+          "Reddit, TikTok ve Instagram'dan doğrulanabilir mekân bazlı öğrenci kanıtı alınamadı."
+        ],
+        "acik_kalanlar": [
+          "Gerçek yaş kitlesi: Google Maps/Instagram yorum ve konum etiketlerinden her aday için doğrulanmadı (araçla erişilemedi).",
+          "Evka 3 çevresindeki rakip kafeler (Cafe Stevia dahil) bu ajanın kapsamında incelenmedi; Bornova ajanına bırakıldı.",
+          "Meeples & Peoples Cafe (Konak) varlığı doğrulanamadı.",
+          "Seramik atölyesi, kitap kulübü, kahve tadımı, quiz geceleri için kafe bazlı 2025-2026 etkinlik kanıtı bulunamadı.",
+          "Nargile durumu hiçbir adayda doğrulanmadı (çoğu bilinmiyor).",
+          "Karşıyaka One Team'in güncel aktifliği ve kafe bağlantısı doğrulanmadı.",
+          "Urla Köyiçi için hafta sonu genç yoğunluğu ölçülemedi."
+        ],
+        "defter": [
+          {
+            "iddia": "BlaBla language exchange iki haftada bir Perşembe, Konak, mingle formatı",
+            "kaynak": "https://allevents.in/izmir/izmir-blabla-language-exchange-2-every-other-thursday-recurrent-event/200030243286705",
+            "alinti": "every other Thursday; 13 August 2026, 8:30-10:00 pm; no designated language tables; order at least one drink",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Buca'da Casual Coffee & Bakery ağaç altı, prizli masalı",
+            "kaynak": "https://ilkses.com.tr/nereye-gitsek/buca-da-yeni-acilan-kafeler-kahve-atmosfer-ve-eglence-bir-arada-400578",
+            "alinti": "gençlerin hem de ailelerin yeni buluşma noktası",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Friendzone Bornova Kazımdirik adresinde, puan 4.3 (196 yorum)",
+            "kaynak": "https://wanderlog.com/place/details/3579555/cafe-friendzone-3rd-wave-coffee--roastery",
+            "alinti": "Kazımdirik, Süvari Cd. No:40/B, Bornova",
+            "guven": "orta"
+          },
+          {
+            "iddia": "izmirmag 2018 listesi Friendzone'u Bayraklı gösteriyor (adres çelişkisi)",
+            "kaynak": "https://izmirmag.net/izmirin-en-iyi-3-dalga-kahvecileri/",
+            "alinti": "Friendzone Cafe 3rd Wave Coffee & Roastery | Bayraklı (9 Ocak 2018)",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Alsancak'ta yürüme mesafesinde third-wave kümesi",
+            "kaynak": "https://saatolog.com.tr/gusto-tr/izmirin-en-iyi-kahvecileri/",
+            "alinti": "Baristocrat, Two Cups, Awake, Daft ve Samimi'nin birbirine yürüme mesafesinde olduğu",
+            "guven": "orta"
+          },
+          {
+            "iddia": "Two Cups listesi Mayıs 2026'da gözden geçirilmiş, açık",
+            "kaynak": "https://mesprestiges.com/en/izmir/places/two-cups-coffee",
+            "alinti": "last reviewed May 2026; open daily about 08:30 to 20:00",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Bornova eski gençlik mekanları kapanmış",
+            "kaynak": "https://eksisozluk.com/izmirde-tarihe-karismis-mekanlar--2265607?p=30",
+            "alinti": "2010'larda liselilerin bir numaralı mekanıydı... 2021'in başlarında bir gün kapatıp gittiler",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Küçükpark study cafe: her masada priz, giriş + içecek",
+            "kaynak": "https://eksisozluk.com/study-cafe--6163498",
+            "alinti": "her sandalye için 1 priz",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Old Pal Pub oyun gecesi 18 Eylül 2026, tek seans, komedi kategorisi",
+            "kaynak": "https://getevening.app/event/agg_7b51c7313e4d6f28",
+            "alinti": "Friday, 18 September 2026, 21:00; Category: Comedy",
+            "guven": "yüksek"
+          },
+          {
+            "iddia": "Izmir coffee&talk&walk Meetup grubu çok küçük, tek geçmiş etkinlik (Freija Coffee, Alsancak)",
+            "kaynak": "https://www.meetup.com/izmir-coffee-talk-walk/",
+            "alinti": "26 members; one past event with 1 attendee",
+            "guven": "yüksek"
+          },
+          {
+            "iddia": "Karşıyaka'da d20 ve Kule Sakinleri masa oyunu mekanı olarak anılıyor",
+            "kaynak": "https://x.com/ihsanyeniceri23/status/1926611892954358200",
+            "alinti": "arama özeti: d20 Masaüstü Oyun Kulübü ve Kule Sakinleri (sayfa açılmadı)",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Karşıyaka One Team Salı akşamı Bostanlı koşusu",
+            "kaynak": "https://runningcrews.com/crews/karsiyaka-one-team-izmir",
+            "alinti": "arama özeti: every Tuesday night at Bostanlı at 20:00 (sayfa 429)",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Baristocrat, Uggla, Coffee Mamma demleme atölyesi/tadım düzenliyor (tarihsiz)",
+            "kaynak": "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+            "alinti": "arama özeti: demleme atölyeleri ve tadım etkinlikleri düzenlediği",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "İzmir Kafası Game Night dışında kafede kutu oyunu etkinliği bulunamadı",
+            "kaynak": "https://app.auglinn.com/space/boardgamemekanlari",
+            "alinti": "arama sonucunda sadece başlık görüldü, içerik doğrulanmadı",
+            "guven": "düşük"
+          },
+          {
+            "iddia": "Urla'da hafta sonu yer bulmak zor (kahvaltı mekanı)",
+            "kaynak": "https://yemek.com/urlada-en-iyi-kahvalti-mekanlari/",
+            "alinti": "hafta sonu yer bulma meselesinde zorlananlar olmuş",
+            "guven": "orta"
+          }
+        ]
+      }
+    ],
+    "adaylar_dogrulanan": [
+      {
+        "ad": "Genç Yaka Kafe ve Gençlik Merkezi",
+        "semt": "Bostanlı (Uğur Mumcu Parkı)",
+        "konum": "Bostanlı, Uğur Mumcu Parkı",
+        "tur": "belediye gençlik kafesi / oyun",
+        "yas_kitlesi": "Gençler (oyun alanı 15+), kafe bölümü her yaş",
+        "yas_kaniti": "Haber: açılıştan 2 haftada İzmir'in dört bir yanından yüzlerce genç geldi; hedef kitle gençler",
+        "nargile": "yok",
+        "fiyat": "bilinmiyor (belediye mekânı, muhtemelen ₺)",
+        "acik_2026": "evet-kanitli",
+        "acik_kanit": "22 Ocak 2026 tarihli haber, ~2 hafta önce açıldı",
+        "kaynaklar": [
+          "https://www.karar.com/sehir-haberleri/genclerin-yeni-bulusma-adresi-genc-yaka-izmirin-dort-bir-yanindan-2023464"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 20.5,
+        "bolge": "karsiyaka",
+        "yas_uyum": 4,
+        "tanisma": 5,
+        "tanisma_neden": "Masa tenisi, dart, karaoke, kutu oyunları, çalışma masaları; ortak etkinlik doğası; bilgi yarışması yapılmış",
+        "kalite_puan": 2,
+        "vibe_puan": 3,
+        "vibe": "Belediye işletmesi; kafe estetiği/specialty beklentisi düşük, kullanıcının Casual Coffee tarzıyla uyumu belirsiz; Genç Yaka kısmen 'inşaat kafe' tarzı çocuk/aile alanı da içeriyor",
+        "en_iyi_zaman": "bilinmiyor; hafta sonu ve akşam muhtemel"
+      },
+      {
+        "ad": "Münire",
+        "semt": "Alsancak (1484 Sok. No:4)",
+        "konum": "1484 Sok. No:4",
+        "tur": "nostaljik kafe, yerel gazoz",
+        "yas_kitlesi": "öğrenci (2017 blog)",
+        "yas_kaniti": "2017 blog yazısı öğrencilerin sık takıldığını söylüyor; eski",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "2025-2026 kanıtı bulunamadı; Yandex kaydı var",
+        "kaynaklar": [
+          "https://benirva.blogspot.com/2017/04/mekan-place-1.html",
+          "https://yandex.com.tr/maps/org/munire/188467905914/"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 19.5,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 4,
+        "tanisma": 3,
+        "tanisma_neden": "Gazoz/nostalji konsepti sohbeti destekler; kanıt yok",
+        "kalite_puan": 3,
+        "vibe_puan": 4,
+        "kalite": "25 yerel gazoz çeşidi, specialty değil",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "BlaBla Language Exchange",
+        "semt": "Konak (adres Konak Mah. 866. Sk.; mekân adı belirsiz)",
+        "konum": "Konak",
+        "tur": "etkinlik",
+        "yas_kitlesi": "karışık, sosyalleşmek isteyen yetişkinler",
+        "yas_kaniti": "İlan genel ('party-goers, social butterflies'); yaş verisi yok.",
+        "nargile": "bilinmiyor",
+        "fiyat": "giriş ücretsiz, en az 1 içecek zorunlu",
+        "acik_2026": "evet-kanitli",
+        "acik_kanit": "Allevents ilanı 13 Ağustos 2026 Perşembe tarihli, iki haftada bir tekrar.",
+        "kaynaklar": [
+          "https://allevents.in/izmir/izmir-blabla-language-exchange-2-every-other-thursday-recurrent-event/200030243286705"
+        ],
+        "ajanlar": [
+          "sosyal-sinyal"
+        ],
+        "skor": 19.5,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 5,
+        "tanisma_neden": "Mingle formatı, masa ayrımı yok, amaç tanışmak; 100 kişi ilgileniyor.",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "en_iyi_zaman": "iki haftada bir Perşembe 20:30-22:00"
+      },
+      {
+        "ad": "Study Cafe (Küçükpark)",
+        "semt": "Küçükpark / Kazımdirik",
+        "konum": "Küçükpark, 160. sokak civarı",
+        "tur": "Ders çalışma kafesi",
+        "yas_kitlesi": "Üniversite öğrencileri (Ege, DEÜ)",
+        "yas_kaniti": "Ekşi: üniversite öğrencilerinin ders çalıştığı yer; sahip gelenlere tanışmayı teşvik ediyor",
+        "nargile": "yok",
+        "fiyat": "giriş + içecek (2020'de 13 TL; güncel bilinmiyor)",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Kanıtlar 2020 ve sonrası, 2025-26 doğrulaması yok",
+        "kaynaklar": [
+          "https://eksisozluk.com/entry/94752418",
+          "https://eksisozluk.com/entry/111064834"
+        ],
+        "ajanlar": [
+          "bornova"
+        ],
+        "skor": 18.5,
+        "bolge": "bornova",
+        "yas_uyum": 5,
+        "tanisma": 3,
+        "tanisma_neden": "Kitle tam ama sessiz alanlı kütüphane düzeni; ön bölüm konuşmaya açık, sahip tanıştırıcı",
+        "kalite_puan": 2,
+        "vibe_puan": 2,
+        "en_iyi_zaman": "Dönem içi gündüz"
+      },
+      {
+        "ad": "Daft Coffee",
+        "semt": "Alsancak/Konak (Kültür Mah. 1381 Sok. No:2/A)",
+        "konum": "1381 Sok. No:2/A, Kültür Mah., Konak",
+        "tur": "specialty kafe, bahçeli",
+        "yas_kitlesi": "bilinmiyor; karışık tahmin",
+        "yas_kaniti": "Kaynakta yaş bilgisi yok; 'sosyalleşmek ya da sakin çalışmak isteyenler' deniyor",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor (₺₺ tahmin)",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Oggusto Kasım 2025 listesinde; kapanma haberi yok",
+        "kaynaklar": [
+          "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+          "https://wanderlog.com/place/details/3392923/daft-coffee"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 18.5,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 3,
+        "tanisma_neden": "Geniş bahçe, grup oturmaya uygun; etkinlik kanıtı yok",
+        "kalite_puan": 4,
+        "vibe_puan": 4,
+        "kalite": "Lotus cheesecake ve kahve övülüyor",
+        "en_iyi_zaman": "bilinmiyor; bahçe nedeniyle yaz/akşamüstü olası"
+      },
+      {
+        "ad": "Üzüm Cafe (Buca Belediyesi)",
+        "semt": "Buca / DEÜ Tınaztepe karşısı (Tarık Akan Gençlik Merkezi zemin kat)",
+        "konum": "Buca / DEÜ Tınaztepe karşısı",
+        "tur": "belediye öğrenci kafesi (kahve, tost, yemek)",
+        "yas_kitlesi": "üniversite öğrencileri",
+        "yas_kaniti": "Haberde öğrenciler için açıldığı ve fiyatların öğrenciye uygun olduğu yazıyor; kampüs karşısında",
+        "nargile": "bilinmiyor",
+        "fiyat": "₺ (somut fiyat yok; öğrenciye uygun)",
+        "acik_2026": "evet-kanitli",
+        "acik_kanit": "Haber 12 Haziran 2025'te yayımlanmış, 1 Haziran 2026'da güncellenmiş",
+        "kaynaklar": [
+          "https://ankahaber.net/haber/detay/bucanin_ogrenci_dostu_kafesi_243682"
+        ],
+        "ajanlar": [
+          "guney-bati-buca"
+        ],
+        "skor": 18.5,
+        "bolge": "guney-bati",
+        "yas_uyum": 5,
+        "tanisma": 3,
+        "tanisma_neden": "Kampüs karşısı, kalabalık öğrenci; ortak masa/etkinlik kanıtı yok",
+        "kalite_puan": 2,
+        "vibe_puan": 2,
+        "en_iyi_zaman": "Dönem içi akşam saatleri (geç saate kadar açık, haftada 6 gün)"
+      },
+      {
+        "ad": "Alsancak third-wave kümesi: Baristocrat, Daft Coffee, Two Cups, Awake, Brothers",
+        "semt": "Alsancak (Baristocrat'ın Konak ve Urla şubeleri de var)",
+        "konum": "Alsancak",
+        "tur": "kafe",
+        "yas_kitlesi": "karışık (çıkarım); kaynaklarda arkadaş buluşması vurgusu",
+        "yas_kaniti": "Yaş verisi yok. Daft/Two Cups için arkadaşla buluşma yorumları; bir yorumcu küçük mekanın büyük gruba uygun olmadığını belirtmiş.",
+        "nargile": "yok (kaynaklarda anılmıyor, kesin değil)",
+        "fiyat": "₺₺-₺₺₺ (örnek fiyat yok)",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Two Cups listesi Mayıs 2026'da gözden geçirilmiş, 08:30-20:00 açık; diğerleri için kapanış haberi çıkmadı ama arama zayıf.",
+        "kaynaklar": [
+          "https://saatolog.com.tr/gusto-tr/izmirin-en-iyi-kahvecileri/",
+          "https://mesprestiges.com/en/izmir/places/two-cups-coffee",
+          "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri"
+        ],
+        "ajanlar": [
+          "sosyal-sinyal"
+        ],
+        "skor": 18,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Specialty odaklı, yürüme mesafesinde çok seçenek; tanışma için etkinlik kanıtı yok. oggusto Baristocrat, Uggla, Coffee Mamma'nın demleme atölyesi ve tadım yaptığını yazıyor (tarihsiz).",
+        "kalite_puan": 5,
+        "vibe_puan": 4,
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Rome",
+        "semt": "Alsancak/Konak (1382 Sk. No:7A)",
+        "konum": "Kültür, 1382. Sk. No:7A, Konak",
+        "tur": "kafe, bahçeli",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Kaynak yaş vermiyor; rezervasyon tavsiyesi popülerliğe işaret",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Oggusto Kasım 2025",
+        "kaynaklar": [
+          "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 17.5,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 3,
+        "tanisma_neden": "Geniş ferah bahçe; etkinlik kanıtı yok",
+        "kalite_puan": 3,
+        "vibe_puan": 4,
+        "kalite": "Specialty olduğu belirtilmemiş",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Vibe Coffee Co",
+        "semt": "Kazımdirik (Küçükpark yakını)",
+        "konum": "Kazımdirik, 153. Sk. 61/A",
+        "tur": "Bağımsız kahve/kafe, arka bahçeli",
+        "yas_kitlesi": "Genç/öğrenci ağırlıklı olması muhtemel (tek yorum: arkadaşlarla ders çalışma)",
+        "yas_kaniti": "Wanderlog yorumcusu Küçükpark kalabalığından uzak, arkadaşlarla ders çalışılır diyor; sayfada açık genç/öğrenci ifadesi yok",
+        "nargile": "yok",
+        "fiyat": "bilinmiyor (servis/pasta kesme ücreti uyarısı var)",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Wanderlog sayfasında güncel saatler listeli; yorum tarihi yok",
+        "kaynaklar": [
+          "https://wanderlog.com/place/details/9826099/vibe-coffee-co"
+        ],
+        "ajanlar": [
+          "bornova",
+          "sosyal-sinyal"
+        ],
+        "skor": 17,
+        "bolge": "bornova",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Sakin, arka bahçe; etkinlik kanıtı yok, daha çok arkadaş grubu ortamı",
+        "kalite_puan": 3,
+        "vibe_puan": 4,
+        "en_iyi_zaman": "Kalabalık olmayan saatler (yorum); açık 09:00-01:00 civarı"
+      },
+      {
+        "ad": "Poka Coffee Roasters Bornova",
+        "semt": "Süvari Cd. No:27",
+        "konum": "Süvari Cd. No:27",
+        "tur": "Specialty kahve kavurma",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Bornova şubesine özgü yorum bulunamadı",
+        "nargile": "yok",
+        "fiyat": "₺₺ (kanıtsız tahmin)",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Birden çok rehberde Bornova şubesi adresiyle listeli; 2026 tarihli doğrulama yok",
+        "kaynaklar": [
+          "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+          "https://wanderlog.com/place/details/1509062/poka-coffee-roasters"
+        ],
+        "ajanlar": [
+          "bornova"
+        ],
+        "skor": 17,
+        "bolge": "suvari",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kahve odaklı sade mekan; sosyal düzen kanıtı yok",
+        "kalite_puan": 5,
+        "vibe_puan": 3,
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Ceres Artisan Bakery",
+        "semt": "Kazımdirik (372/17 Sk. No:24)",
+        "konum": "Kazımdirik",
+        "tur": "Fırın-kafe, bahçeli, filtre kahve",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yaş ifadesi yok",
+        "nargile": "yok",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Yemek.com Kasım 2026 listesi",
+        "kaynaklar": [
+          "https://yemek.com/bornovanin-en-iyi-kahvalti-mekanlari/"
+        ],
+        "ajanlar": [
+          "bornova"
+        ],
+        "skor": 17,
+        "bolge": "bornova",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Küçük pastane, bahçede sohbet; etkinlik yok",
+        "kalite_puan": 4,
+        "vibe_puan": 4,
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Two Cups Coffee Bar & Roastery",
+        "semt": "Alsancak (Kıbrıs Şehitleri Cad. No:179/Z1)",
+        "konum": "Kıbrıs Şehitleri Cad. No:179/Z1",
+        "tur": "specialty kavurma barı",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Kaynaklar yalnızca kahve ve servisi anlatıyor",
+        "nargile": "bilinmiyor",
+        "fiyat": "₺₺ (Mes Prestiges $$)",
+        "acik_2026": "evet-kanitli",
+        "acik_kanit": "Mes Prestiges Mayıs 2026 ve Oggusto Kasım 2025 listeleri",
+        "kaynaklar": [
+          "https://mesprestiges.com/en/izmir/places/two-cups-coffee",
+          "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 17,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Bar tarzı, baristayla sohbet; masa etkileşimi kanıtsız",
+        "kalite_puan": 5,
+        "vibe_puan": 3,
+        "kalite": "Cortado ve siphon, baristalar tadım notu anlatıyor",
+        "en_iyi_zaman": "Her gün yaklaşık 08:30-20:00"
+      },
+      {
+        "ad": "Baristocrat 3rd Wave Cafe & Roastery",
+        "semt": "Alsancak (A. Şehit Nevres Bulv. No:21/A)",
+        "konum": "A. Şehit Nevres Bulv. No:21/A",
+        "tur": "specialty kavurma kafe",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Kaynaklar yaş vermiyor",
+        "nargile": "bilinmiyor",
+        "fiyat": "₺₺ (Mes Prestiges $$)",
+        "acik_2026": "evet-kanitli",
+        "acik_kanit": "Mes Prestiges Mayıs 2026 makalesi",
+        "kaynaklar": [
+          "https://mesprestiges.com/en/izmir/stories/izmir-third-wave-coffee-breakfast",
+          "https://wanderlog.com/place/details/1509064/baristocrat-cafe--roastery-alsancak"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 17,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kahve odaklı; etkinlik kanıtı yok",
+        "kalite_puan": 5,
+        "vibe_puan": 3,
+        "kalite": "İzmir üçüncü dalga referansı, kendi kavurması",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "La Puerta",
+        "semt": "Alsancak",
+        "konum": "bilinmiyor",
+        "tur": "bar-kafe",
+        "yas_kitlesi": "sosyal kalabalık (Ekşi Sözlük, tarihsiz)",
+        "yas_kaniti": "Bar taburesi sosyalleşmeye uygun, ama pahalı ve çok gürültülü deniyor",
+        "nargile": "bilinmiyor",
+        "fiyat": "₺₺₺ (yorumda 'pahalı')",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Kanıt yok",
+        "kaynaklar": [
+          "https://eksisozluk.com/entry/75262432"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 17,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 4,
+        "tanisma_neden": "Bar taburesi düzeni insanlarla tanışmaya elverişli",
+        "kalite_puan": 2,
+        "vibe_puan": 3,
+        "kalite": "bilinmiyor",
+        "en_iyi_zaman": "akşam (tahmin)"
+      },
+      {
+        "ad": "Sun Co. Coffee & Eatery",
+        "semt": "Bostanlı (1790. Sk. 3/A)",
+        "konum": "Bostanlı iç sokak",
+        "tur": "3. dalga kahve + brunch",
+        "yas_kitlesi": "bilinmiyor; muhtemelen genç-yetişkin karışık",
+        "yas_kaniti": "Yaş kanıtı yok; Wanderlog yorumları rahat atmosfer, müzik, smoothie bowl övüyor (şube eşleşmesi kesin değil)",
+        "nargile": "yok",
+        "fiyat": "bilinmiyor (muhtemelen ₺₺)",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "yemek.com 2026 listesi dönemi; kapanış haberi bulunmadı",
+        "kaynaklar": [
+          "https://yemek.com/izmir-karsiyaka-kahvecileri/",
+          "https://wanderlog.com/place/details/9758271/sun-coffee-co"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 17,
+        "bolge": "karsiyaka",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok; standart kafe düzeni",
+        "kalite_puan": 4,
+        "vibe_puan": 4,
+        "vibe": "Rahat atmosfer, uzun kalmaya uygun",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Las Habitas",
+        "semt": "Bostanlı (Bestekar Yusuf Nalkesen Sk. 10/A)",
+        "konum": "Bostanlı yan sokak",
+        "tur": "specialty kahve + fit yemek",
+        "yas_kitlesi": "Mahalle müdavimleri, 'İzmir'in genç kahve sahnesi' (yaş aralığı belirtilmemiş)",
+        "yas_kaniti": "Mes Prestiges: 'neighbourhood-regular, not influencer-drop'; genç kahve sahnesi ifadesi, yaş yok",
+        "nargile": "yok",
+        "fiyat": "₺₺ (espresso 80₺, latte 170₺, cold brew 190₺, Haziran 2026)",
+        "acik_2026": "evet-kanitli",
+        "acik_kanit": "Mes Prestiges, son inceleme Mayıs 2026, fiyatlar 9 Haziran 2026",
+        "kaynaklar": [
+          "https://mesprestiges.com/en/izmir/places/las-habitas-bostanli",
+          "https://yemek.com/izmir-karsiyaka-kahvecileri/"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 17,
+        "bolge": "karsiyaka",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Etkinlik listelenmemiş; mahalle kafesi",
+        "kalite_puan": 4,
+        "vibe_puan": 4,
+        "vibe": "Samimi, mahalle kafesi",
+        "en_iyi_zaman": "Her gün 10:00-23:30"
+      },
+      {
+        "ad": "Friendzone Cafe 3rd Wave Coffee & Roastery",
+        "semt": "Bornova (Kazımdirik, Süvari Cd.); izmirmag 2018 listesi Bayraklı yazıyor",
+        "konum": "Bornova",
+        "tur": "kafe",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yorumlarda yaş/öğrenci geçmiyor. Bornova'da olması öğrenci ihtimalini artırıyor (çıkarım).",
+        "nargile": "bilinmiyor",
+        "fiyat": "₺₺ (Wanderlog 'affordable'; örnek fiyat yok)",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Wanderlog listesi güncel görünüyor, tarihli 2026 kanıt yok.",
+        "kaynaklar": [
+          "https://wanderlog.com/place/details/3579555/cafe-friendzone-3rd-wave-coffee--roastery",
+          "https://izmirmag.net/izmirin-en-iyi-3-dalga-kahvecileri/"
+        ],
+        "ajanlar": [
+          "sosyal-sinyal"
+        ],
+        "skor": 17,
+        "bolge": "bornova",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Yorumlar yumuşak müzik, ambiyans ışığı, sohbet ortamı; ortak masa/etkinlik kanıtı yok.",
+        "kalite_puan": 4,
+        "vibe_puan": 4,
+        "en_iyi_zaman": "Saatler 9-12 yazıyor, belirsiz; yoğunluk bilgisi yok"
+      },
+      {
+        "ad": "Karşıyaka masa oyunu mekanları: d20 Masaüstü Oyun Kulübü, Kule Sakinleri",
+        "semt": "Karşıyaka",
+        "konum": "Karşıyaka",
+        "tur": "etkinlik",
+        "yas_kitlesi": "bilinmiyor (hobi topluluğu)",
+        "yas_kaniti": "Kanıt yok.",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Kaynak 2025'te güncellenen bir X gönderisi, doğrudan açılamadı (403).",
+        "kaynaklar": [
+          "https://x.com/ihsanyeniceri23/status/1926611892954358200"
+        ],
+        "ajanlar": [
+          "sosyal-sinyal"
+        ],
+        "skor": 17,
+        "bolge": "karsiyaka",
+        "yas_uyum": 3,
+        "tanisma": 4,
+        "tanisma_neden": "Masa oyunu doğal tanışma aracı; ama dükkan/kulüp, kafe değil.",
+        "kalite_puan": 2,
+        "vibe_puan": 3,
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Sardunya",
+        "semt": "Alsancak (adres doğrulanmadı)",
+        "konum": "bilinmiyor",
+        "tur": "kafe/bar",
+        "yas_kitlesi": "arkadaş grupları (Ekşi Sözlük, tarihsiz)",
+        "yas_kaniti": "Büyük ahşap masalar grupların rahat oturması için öneriliyor",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Tarihsiz forum girdisi",
+        "kaynaklar": [
+          "https://eksisozluk.com/entry/75262432"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 16.5,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 3,
+        "tanisma_neden": "Büyük masalar grup sohbeti sağlar; yabancıyla tanışma kanıtı yok",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "kalite": "bilinmiyor",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Pablo Artisan Coffee (Çiğli)",
+        "semt": "Çiğli",
+        "konum": "Çiğli (14a 8788. Sokak)",
+        "tur": "zincir/artisan kafe",
+        "yas_kitlesi": "bilinmiyor; GDG öğrenci topluluğu etkinliği düzenlenmiş",
+        "yas_kaniti": "GDG on Campus İKÇÜ etkinliği bu mekânda yapılmış; öğrenci bağlantısı dolaylı",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Etkinlik tarihi doğrulanmadı",
+        "kaynaklar": [
+          "https://gdg.community.dev/events/details/google-gdg-on-campus-izmir-katip-celebi-university-izmir-turkey-presents-coffee-talk-with-batuhan-gungor-tech-growth-amp-coffee/",
+          "https://happycow.net/reviews/pablo-artisan-coffee-izmir-263980"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 16.5,
+        "bolge": "karsiyaka",
+        "yas_uyum": 3,
+        "tanisma": 3,
+        "tanisma_neden": "Topluluk etkinliği ev sahipliği örneği",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "vibe": "Bilinmiyor; yabancı yorum: ortalama kahve, priz ve wifi",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Cafe Rezine",
+        "semt": "Kazımdirik / Süvari Cd. No:14B (Büyükpark yakını)",
+        "konum": "Süvari Cd. No:14B",
+        "tur": "Bağımsız kafe, Süvari Cd.'nin eskilerinden",
+        "yas_kitlesi": "Belirsiz (arkadaş sohbeti ağırlıklı)",
+        "yas_kaniti": "Sayfada öğrenci/aile ifadesi yok; konumu kampüs-Küçükpark hattında",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Wanderlog güncel saat listesi; Google 4.6 (589 yorum), yorum tarihi yok",
+        "kaynaklar": [
+          "https://wanderlog.com/place/details/1459902/cafe-rezine"
+        ],
+        "ajanlar": [
+          "bornova"
+        ],
+        "skor": 16,
+        "bolge": "bornova",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Rahat ev havası; masalar arası etkileşim/etkinlik kanıtı yok",
+        "kalite_puan": 3,
+        "vibe_puan": 4,
+        "en_iyi_zaman": "Açık 10:00-23:45 (Pzt-Cmt), Paz 11:30-23:45"
+      },
+      {
+        "ad": "Cairo Coffee Roastery",
+        "semt": "Kazımdirik, Süvari Cd. 44/D",
+        "konum": "Süvari Cd. 44/D",
+        "tur": "Kahve kavurma, tematik tasarım (Kahire), moctail",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Sayfada yorum yok",
+        "nargile": "bilinmiyor",
+        "fiyat": "₺ (izmirmekanrehberi simgesi)",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Yalnızca dizin sayfası, tarihsiz, yorum yok",
+        "kaynaklar": [
+          "https://www.izmirmekanrehberi.com/bornova/cairo-coffee-roastery-bornova"
+        ],
+        "ajanlar": [
+          "bornova"
+        ],
+        "skor": 16,
+        "bolge": "bornova",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Veri yok",
+        "kalite_puan": 3,
+        "vibe_puan": 4,
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Poka Coffee Roasters",
+        "semt": "Alsancak (Kıbrıs Şehitleri Cad. No:171)",
+        "konum": "Kıbrıs Şehitleri Cad. No:171",
+        "tur": "specialty kavurma kafe",
+        "yas_kitlesi": "bilinmiyor; muhtemelen karışık/kahve meraklısı",
+        "yas_kaniti": "Yaş yok; 'books-and-conversation room' tarifi sohbet/okuma odağı",
+        "nargile": "bilinmiyor",
+        "fiyat": "₺₺ (Mes Prestiges: mid-range)",
+        "acik_2026": "evet-kanitli",
+        "acik_kanit": "Mes Prestiges 'Last reviewed: Jun 2026'",
+        "kaynaklar": [
+          "https://mesprestiges.com/en/izmir/places/poka-coffee-roasters-alsancak",
+          "https://mesprestiges.com/en/izmir/stories/izmir-third-wave-coffee-breakfast"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 16,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 2,
+        "tanisma": 2,
+        "tanisma_neden": "Sohbet/kitap odalı sakin ortam; ortak masa/etkinlik kanıtı yok",
+        "kalite_puan": 5,
+        "vibe_puan": 4,
+        "kalite": "2016'dan beri İzmir üçüncü dalga öncüsü, mekânda kavurma; Google yorumu 'good music and good espresso'",
+        "en_iyi_zaman": "Günlük 07:45-00:00"
+      },
+      {
+        "ad": "Coffee Mamma",
+        "semt": "Alsancak (Umurbey Mah. 1501 Sok. No:2/C)",
+        "konum": "1501 Sok. No:2/C",
+        "tur": "specialty kavurma, eski tütün deposu",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yaş kanıtı yok",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Oggusto Kasım 2025 listesi",
+        "kaynaklar": [
+          "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 16,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 2,
+        "tanisma": 2,
+        "tanisma_neden": "Endüstriyel mekân; etkileşim kanıtı yok",
+        "kalite_puan": 5,
+        "vibe_puan": 4,
+        "kalite": "2013'ten beri, Deutsche Röstergilde üyesi",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Chapter Coffee",
+        "semt": "Alsancak (Dr. Mustafa Enver Bey Cad. No:32/A)",
+        "konum": "Dr. Mustafa Enver Bey Cad. No:32/A",
+        "tur": "kafe, çalışma/mola",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yaş kanıtı yok; 'çalışmaya uygun' tarifi",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Oggusto Kasım 2025",
+        "kaynaklar": [
+          "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+          "https://wanderlog.com/place/details/3345169/chapter-community"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 16,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Sakin, çalışma odaklı: kitle olsa da tanışma zor olabilir",
+        "kalite_puan": 4,
+        "vibe_puan": 3,
+        "kalite": "Personel ve sakin atmosfer övülüyor",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "No.18 Coffee",
+        "semt": "Alsancak (1484 Sok. No:18/A)",
+        "konum": "1484 Sok. No:18/A",
+        "tur": "specialty kahve",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yaş kanıtı yok",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Yalnızca tarihsiz Wanderlog listeleri",
+        "kaynaklar": [
+          "https://wanderlog.com/list/geoCategory/1523795/cafe"
+        ],
+        "ajanlar": [
+          "alsancak-konak"
+        ],
+        "skor": 16,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Küçük sokak kafesi tahmini; kanıt yok",
+        "kalite_puan": 4,
+        "vibe_puan": 3,
+        "kalite": "'quality specialty coffee ve samimi servis' yorumu",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Make Me Joi (Bostanlı)",
+        "semt": "Bostanlı (Bestekar Sadi Hoşses Cad. 13/A)",
+        "konum": "Bostanlı",
+        "tur": "renkli brunch/latte kafesi",
+        "yas_kitlesi": "bilinmiyor; Alsancak şubesi arkadaş buluşmasına uygun",
+        "yas_kaniti": "Bostanlı şube yorumu bulunamadı; Alsancak şube yorumlarında arkadaşlarla takılmaya uygun, müzik yüksek, fiyat yüksek şikâyeti",
+        "nargile": "yok",
+        "fiyat": "₺₺₺ (Alsancak yorumu: içecekler pahalı)",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "yemek.com listesinde 'şehrin en renkli mekanlarından'; tarih doğrulanmadı",
+        "kaynaklar": [
+          "https://yemek.com/izmir-karsiyaka-kahvecileri/",
+          "https://wanderlog.com/place/details/9758269/make-me-joi-alsancak"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 16,
+        "bolge": "karsiyaka",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok",
+        "kalite_puan": 3,
+        "vibe_puan": 4,
+        "vibe": "Renkli, canlı, müzik yüksek",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Fünf Coffee",
+        "semt": "Karşıyaka Yalı",
+        "konum": "Karşıyaka Yalı",
+        "tur": "tasarım odaklı specialty kafe",
+        "yas_kitlesi": "Kahve topluluğu, kahve meraklıları",
+        "yas_kaniti": "Sprudge: İzmir kahve topluluğu; yaş yok",
+        "nargile": "yok",
+        "fiyat": "₺₺-₺₺₺",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Mes Prestiges sayfası mevcut; Sprudge 2024",
+        "kaynaklar": [
+          "https://sprudge.com/the-sprudge-guide-to-coffee-in-izmir-turkey-257543.html",
+          "https://mesprestiges.com/en/izmir/places/funf-coffee-karsiyaka"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 16,
+        "bolge": "karsiyaka",
+        "yas_uyum": 2,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok",
+        "kalite_puan": 5,
+        "vibe_puan": 4,
+        "vibe": "Mimar kurucu, tasarım odaklı",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Tenten Buca",
+        "semt": "Buca (konum listelerde çelişkili, bir kayıt Alsancak diyor)",
+        "konum": "Buca (doğrulanmadı)",
+        "tur": "dekoratif kafe",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yorumlarda yaş/öğrenci bilgisi yok",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Yorum tarihi görülmedi",
+        "kaynaklar": [
+          "https://wanderlog.com/place/details/1459911/tenten-buca"
+        ],
+        "ajanlar": [
+          "guney-bati-buca"
+        ],
+        "skor": 16,
+        "bolge": "alsancak-konak",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok",
+        "kalite_puan": 3,
+        "vibe_puan": 4,
+        "en_iyi_zaman": "Isıtma sorunu nedeniyle soğuk günlerde arka bölüm"
+      },
+      {
+        "ad": "Karşıyaka One Team koşu grubu",
+        "semt": "Karşıyaka / Bostanlı",
+        "konum": "Karşıyaka-Bostanlı",
+        "tur": "etkinlik",
+        "yas_kitlesi": "karışık, yeni başlayanlara açık",
+        "yas_kaniti": "Yaş verisi yok.",
+        "nargile": "yok",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "şüpheli",
+        "acik_kanit": "Runningcrews sayfası açılmadı (429); özet arama sonucu, güncel tarih yok.",
+        "kaynaklar": [
+          "https://runningcrews.com/crews/karsiyaka-one-team-izmir"
+        ],
+        "ajanlar": [
+          "sosyal-sinyal"
+        ],
+        "skor": 16,
+        "bolge": "karsiyaka",
+        "yas_uyum": 3,
+        "tanisma": 4,
+        "tanisma_neden": "Tempo grupları, topluluk koşusu; kafede bitip bitmediği doğrulanmadı.",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "en_iyi_zaman": "Salı 20:00 Bostanlı (sayfa bilgisine göre)"
+      },
+      {
+        "ad": "Bornova Küçükpark study cafe (ad doğrulanmadı)",
+        "semt": "Bornova (Küçükpark)",
+        "konum": "Bornova Küçükpark",
+        "tur": "ders çalışma kafesi",
+        "yas_kitlesi": "öğrenci (çıkarım)",
+        "yas_kaniti": "Ekşi yorumları priz, sessiz alan; açık yaş verisi yok, yorumlar eski olabilir (2020 civarı).",
+        "nargile": "yok",
+        "fiyat": "₺ (eski yorum: giriş + içecek 10 TL, güncel değil)",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Güncel kanıt yok.",
+        "kaynaklar": [
+          "https://eksisozluk.com/study-cafe--6163498"
+        ],
+        "ajanlar": [
+          "sosyal-sinyal"
+        ],
+        "skor": 15.5,
+        "bolge": "bornova",
+        "yas_uyum": 5,
+        "tanisma": 1,
+        "tanisma_neden": "Kitle tam ama sessiz çalışma düzeni, tanışma zor; konuşmalı bölüm var.",
+        "kalite_puan": 2,
+        "vibe_puan": 2,
+        "en_iyi_zaman": "dönem içi hafta içi; sınav haftası yoğun (çıkarım)"
+      },
+      {
+        "ad": "İzmir Kafası Game Night (Old Pal Pub)",
+        "semt": "Bornova",
+        "konum": "Bornova",
+        "tur": "etkinlik",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Kitle belirtilmemiş; pub/bar ortamı, kafe değil.",
+        "nargile": "yok",
+        "fiyat": "biletli, fiyat bilinmiyor",
+        "acik_2026": "evet-kanitli",
+        "acik_kanit": "Evening sayfası 18 Eylül 2026 tarihli, tekrar ilanı yok.",
+        "kaynaklar": [
+          "https://getevening.app/event/agg_7b51c7313e4d6f28"
+        ],
+        "ajanlar": [
+          "sosyal-sinyal"
+        ],
+        "skor": 15.5,
+        "bolge": "bornova",
+        "yas_uyum": 3,
+        "tanisma": 3,
+        "tanisma_neden": "Oyun gecesi formatı ama kategori komedi; atanmış oturma, bilet iadesi yok.",
+        "kalite_puan": 2,
+        "vibe_puan": 3,
+        "en_iyi_zaman": "18 Eylül 2026 Cuma 21:00 (tek seans, bitti)"
+      },
+      {
+        "ad": "Pod Coffee & Eatery",
+        "semt": "Kazımdirik",
+        "konum": "Kazımdirik",
+        "tur": "Kafe/kahvaltı, hayvan dostu",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yalnızca yemek.com listesinde (16 Kasım 2026) geçiyor; yorum bulunamadı",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Yemek.com Kasım 2026 listesinde yer alıyor",
+        "kaynaklar": [
+          "https://yemek.com/bornovanin-en-iyi-kahvalti-mekanlari/"
+        ],
+        "ajanlar": [
+          "bornova"
+        ],
+        "skor": 15,
+        "bolge": "bornova",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Veri yok",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Myth Coffee & More",
+        "semt": "Bostanlı (Bestekar Yusuf Nalkesen Sk. 12/B)",
+        "konum": "Bostanlı",
+        "tur": "kafe",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yok",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Yalnızca yemek.com listesi, tarih belirsiz",
+        "kaynaklar": [
+          "https://yemek.com/izmir-karsiyaka-kahvecileri/"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 15,
+        "bolge": "karsiyaka",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "vibe": "Bilinmiyor",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Tuck Coffee & ETC",
+        "semt": "Bostanlı (Bestekar Sadi Hoşses Sk. 40/B)",
+        "konum": "Bostanlı",
+        "tur": "kafe",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yok",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Yalnızca yemek.com listesi",
+        "kaynaklar": [
+          "https://yemek.com/izmir-karsiyaka-kahvecileri/"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 15,
+        "bolge": "karsiyaka",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "vibe": "Bilinmiyor",
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Spect Coffeehouse",
+        "semt": "Karşıyaka Bahçelievler",
+        "konum": "Bahçelievler",
+        "tur": "specialty kafe, geniş teras",
+        "yas_kitlesi": "Mahalle sakinleri ve kahve meraklıları",
+        "yas_kaniti": "Sprudge: mahalle sakinleri; yaş yok",
+        "nargile": "yok",
+        "fiyat": "₺₺",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Mes Prestiges sayfası; 2024 başında açıldı",
+        "kaynaklar": [
+          "https://sprudge.com/the-sprudge-guide-to-coffee-in-izmir-turkey-257543.html",
+          "https://mesprestiges.com/en/izmir/places/spect-coffeehouse-karsiyaka"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 15,
+        "bolge": "karsiyaka",
+        "yas_uyum": 2,
+        "tanisma": 2,
+        "tanisma_neden": "Geniş teras; etkinlik kanıtı yok",
+        "kalite_puan": 4,
+        "vibe_puan": 4,
+        "vibe": "Sakin mahalle atmosferi, geniş teras",
+        "en_iyi_zaman": "09:00-19:00 (Mes Prestiges)"
+      },
+      {
+        "ad": "Uggla Coffee",
+        "semt": "Bostanlı (varsayım, doğrulanmadı)",
+        "konum": "bilinmiyor",
+        "tur": "kafe",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yok",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "bilinmiyor",
+        "acik_kanit": "Wanderlog özetinde yorum var, tarih yok",
+        "kaynaklar": [
+          "https://wanderlog.com/place/details/1459901/uggla-coffee"
+        ],
+        "ajanlar": [
+          "karsiyaka-bostanli"
+        ],
+        "skor": 15,
+        "bolge": "karsiyaka",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "vibe": "Davetkar iç mekân, dizüstü için priz",
+        "en_iyi_zaman": "Hafta sonları dolabiliyor"
+      },
+      {
+        "ad": "Opera Coffee Buca",
+        "semt": "Buca / DEÜ Tınaztepe Yerleşkesi",
+        "konum": "Buca / DEÜ Tınaztepe",
+        "tur": "kahve zinciri/kafe",
+        "yas_kitlesi": "muhtemelen öğrenci",
+        "yas_kaniti": "Adres DEÜ Tınaztepe Yerleşkesi olarak listelenmiş, 'öğrenci dostu cafeler' listesinde",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Liste 2 Haziran 2026'da güncellenmiş ama mekan bazlı tarih yok",
+        "kaynaklar": [
+          "https://www.izmirmekanrehberi.com/liste/izmir-bucada-ogrenci-dostu-cafeler"
+        ],
+        "ajanlar": [
+          "guney-bati-buca"
+        ],
+        "skor": 15,
+        "bolge": "guney-bati",
+        "yas_uyum": 4,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok; kampüs içi kafe olabilir",
+        "kalite_puan": 2,
+        "vibe_puan": 2,
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "Nel Vicolo Coffee Co. Buca",
+        "semt": "Buca",
+        "konum": "Buca",
+        "tur": "kahve dükkanı",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yalnızca 'öğrenci dostu' listesinde geçiyor; yorum yok",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Liste güncelleme tarihi 2 Haziran 2026",
+        "kaynaklar": [
+          "https://www.izmirmekanrehberi.com/liste/izmir-bucada-ogrenci-dostu-cafeler"
+        ],
+        "ajanlar": [
+          "guney-bati-buca"
+        ],
+        "skor": 15,
+        "bolge": "guney-bati",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "en_iyi_zaman": "bilinmiyor"
+      },
+      {
+        "ad": "So Like Coffee Buca",
+        "semt": "Buca",
+        "konum": "Buca",
+        "tur": "kahve dükkanı",
+        "yas_kitlesi": "bilinmiyor",
+        "yas_kaniti": "Yalnızca liste kaydı",
+        "nargile": "bilinmiyor",
+        "fiyat": "bilinmiyor",
+        "acik_2026": "muhtemel",
+        "acik_kanit": "Liste güncelleme tarihi 2 Haziran 2026",
+        "kaynaklar": [
+          "https://www.izmirmekanrehberi.com/liste/izmir-bucada-ogrenci-dostu-cafeler"
+        ],
+        "ajanlar": [
+          "guney-bati-buca"
+        ],
+        "skor": 15,
+        "bolge": "guney-bati",
+        "yas_uyum": 3,
+        "tanisma": 2,
+        "tanisma_neden": "Kanıt yok",
+        "kalite_puan": 3,
+        "vibe_puan": 3,
+        "en_iyi_zaman": "bilinmiyor"
+      }
+    ],
+    "adaylar_dogrulanmayan": [
+      "Bisquitte (Mithatpaşa Cd.) | Güzelyalı/Göztepe, Mithatpaşa Cd. 26-28 | butik kafe/fırın | skor 15",
+      "Kahve Kutusu (Mithatpaşa Cd.) | Güzelyalı/Göztepe, Mithatpaşa Cd. 46 | kafe | skor 15",
+      "New Mood Coffee / Public Coffee & More / La Vida (köşk kafeler) | Buca (Kasaplar Meydanı çevresi) | kafe | skor 14",
+      "Shakespeare Coffee&Bistro (Forum Bornova) | Forum Bornova AVM | AVM kahve-bistro | skor 13.5",
+      "Üniversite 2 Unlu Mamulleri | Küçükpark | Fırın-kafe, 24 saat | skor 13.5",
+      "Lot Coffee Roastery | Bostanlı (1821/1. Sk. 12/A) | kavurma evi / specialty | skor 13.5",
+      "Urla Köyiçi kafeleri (Baristocrat Urla vb.) | Urla | kafe | skor 13.5",
+      "S.O.S Cafe | Küçükpark Sevgi Yolu | Kafe, tost, nargile | skor 13",
+      "Casual Coffee & Bakery (Buca şubesi; kullanıcının gittiği Evka 3 ile aynı marka olabilir) | Buca (Evka 3 şubesi doğrulanmadı) | kafe | skor 12.5"
+    ],
+    "kapandi": [],
+    "dogrulama": [
+      {
+        "arac": "33/40",
+        "genel_not": "Sistematik hatalar: (1) \"muhtemel/evet-kanıtlı\" açıklık etiketleri çoğunlukla liste/rehber makalelerine dayanıyor; Wanderlog ile çelişen kapanış etiketleri (Baristocrat, Münire, Tenten) var ve tarihsiz, bu yüzden açıklık için Instagram/telefon teyidi şart. (2) Nargile: hiçbir kaynakta nargile anılmıyor; \"yok\" ifadesi kesin değil, yalnızca anılmama. (3) Yaş kitlesi iddialarında doğrudan kanıt neredeyse hiç yok, çoğu çıkarım. (4) Adres karışıklıkları: Daft (1480. Sk. No:10), Sardunya (Muzaffer İzgü Sk.), Friendzone, Tenten (Buca, Alsancak değil). (5) Awake ve Brothers için kanıt toplanmadı. Ekşi Sözlük 403 verdi.",
+        "sonuclar": [
+          {
+            "ad": "Münire",
+            "semt": "Alsancak (1484 Sok. No:4) - konum doğru",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "kısmen",
+            "yas_not": "Yaş verisi yok; küçük nostaljik gazoz kafesi, 2018 yazısı ve 2017 blog öğrenci vurgusu eski. Çok kalabalık, dar oturma.",
+            "fiyat_not": "Orta, 'biraz yüksek' yorumları (Yandex)",
+            "kanit_url": "https://wanderlog.com/place/details/1459912/münire",
+            "alinti": "Permanently Closed (Wanderlog sayfası; Yandex'te Nisan/Haziran 2025 yorumları ve 11:00 açılış saati görünüyor)",
+            "acik_kanit": "Wanderlog 'kalıcı kapalı' diyor (tarihsiz); Yandex 2025 yorumları aksini gösteriyor. Çelişki.",
+            "karar": "şartlı",
+            "duzeltme": "Gitmeden önce Instagram/telefonla (+90 545 148 20 04) açıklığı doğrula; küçük mekân, tanışma ortamı sınırlı."
+          },
+          {
+            "ad": "BlaBla Language Exchange",
+            "semt": "Konak (866. Sk. 22, Konak Mah.)",
+            "acik": "açık-kanıtlı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş sınırı/profil verilmiyor; 'mingle' formatı tanışmaya uygun, yaklaşık 100 ilgi. Kafe değil, etkinlik.",
+            "fiyat_not": "Giriş ücretsiz, en az 1 içecek",
+            "kanit_url": "https://allevents.in/izmir/izmir-blabla-language-exchange-2-every-other-thursday-recurrent-event/200030243286705",
+            "alinti": "Our events are GRATIS, we will not charge you anything, but we kindly request that you order at least 1 beverage.",
+            "acik_kanit": "13 Ağustos 2026 tarihli, iki haftada bir tekrar eden ilan; mekân adı verilmiyor.",
+            "karar": "şartlı",
+            "duzeltme": "Kafe değil, iki haftada bir Perşembe 20:30 etkinliği; mekân adı ilanda yok (adres 866. Sk. 22). Tanışma için ek seçenek olarak öner, güncel yeri grup/Instagram'dan teyit et."
+          },
+          {
+            "ad": "Daft Coffee",
+            "semt": "Alsancak/Konak - adres 1480. Sk. No:10 (Wanderlog); listedeki '1381 Sok. No:2/A' hatalı görünüyor",
+            "acik": "muhtemelen açık",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş verisi yok; sakin, kahve odaklı, bahçeli, köpek dostu. Kalabalık sosyal ortamdan çok sohbet/çalışma.",
+            "fiyat_not": "Orta (₺₺ tahmin); fiyat verisi yok",
+            "kanit_url": "https://wanderlog.com/place/details/3392923/daft-coffee",
+            "alinti": "Tuzlu karamelli latte ve chemex demlemeler kahve menüsünün yıldızları.",
+            "acik_kanit": "Oggusto 6 Kasım 2025 (güncelleme 14 Kasım 2025) listesinde, kapanış notu yok; son Google yorumu Ocak 2025.",
+            "karar": "şartlı",
+            "duzeltme": "Adres 1480. Sk. No:10 olarak düzelt. Genç kitle kanıtı yok; kafe kalitesi için iyi ama tanışma ortamı garantisi yok."
+          },
+          {
+            "ad": "Alsancak third-wave kümesi: Baristocrat, Daft Coffee, Two Cups, Awake, Brothers",
+            "semt": "Alsancak",
+            "acik": "muhtemelen açık",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Küme satırı tek bir mekân değil; yaş verisi yok. Two Cups 'laptop yok' politikası ve 'pahalı/kayıtsız servis' yorumları var.",
+            "fiyat_not": "₺₺-₺₺₺; Baristocrat için 3-4 euro içecek",
+            "kanit_url": "https://mesprestiges.com/en/izmir/stories/izmir-third-wave-coffee-breakfast",
+            "alinti": "İzmir's third-wave benchmark, roasting its own beans",
+            "acik_kanit": "Mes Prestiges 29 Mayıs 2026 makalesi; Awake ve Brothers'a ait kanıt bulunmadı.",
+            "karar": "çıkar",
+            "duzeltme": "Birleşik satırı kaldır; Daft, Two Cups, Baristocrat ayrı satırlarda. Awake ve Brothers doğrulanamadı."
+          },
+          {
+            "ad": "Rome",
+            "semt": "Alsancak/Konak (1382. Sk. No:7A) - konum doğru",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş/öğrenci ifadesi yok; minimalist tasarım, çalışma dostu, prizli.",
+            "fiyat_not": "Orta-üst; yorumlarda 'pahalı' notu, bir Eylül 2026 yorumu yavaş servisten şikâyetçi",
+            "kanit_url": "https://wanderlog.com/place/details/9548069/rome-coffee-company",
+            "alinti": "Burcu D, 5/5, May 19, 2026: coffee well-balanced, service friendly and attentive (Wanderlog sayfası; Isaac T Sep 13, 2026: slow service)",
+            "acik_kanit": "Wanderlog'da Mayıs 2026 ve Eylül 2026 Google yorumları; Oggusto Kasım 2025. Tarihlerin doğruluğu sayfada şüpheli not edilmiş.",
+            "karar": "şartlı",
+            "duzeltme": "Kalite/ambiyans iyi, açık; genç kadın kitle kanıtı yok. Eylem: hafta içi öğleden sonra gidip kitleyi gözle."
+          },
+          {
+            "ad": "Two Cups Coffee Bar & Roastery",
+            "semt": "Alsancak (Kıbrıs Şehitleri Cad. No:179/Z1)",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş verisi yok; 'laptop yok' politikası, bazı yorumlarda soğuk servis; kahve odaklı.",
+            "fiyat_not": "Orta-pahalı (₺₺)",
+            "kanit_url": "https://mesprestiges.com/en/izmir/places/two-cups-coffee",
+            "alinti": "Cortados and siphon brews from an Alsancak roastery bar",
+            "acik_kanit": "Mes Prestiges Mayıs 2026 gözden geçirme, günlük ~08:30-20:00.",
+            "karar": "şartlı",
+            "duzeltme": "Kahve kalitesi için iyi; sosyalleşme/genç kitle kanıtı yok, laptop yasağı."
+          },
+          {
+            "ad": "Baristocrat 3rd Wave Cafe & Roastery",
+            "semt": "Alsancak (A. Şehit Nevres Bulv. No:21/A) - konum doğru",
+            "acik": "doğrulanamadı",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş verisi yok.",
+            "fiyat_not": "Orta (3-4 euro içecek)",
+            "kanit_url": "https://wanderlog.com/place/details/1509064/baristocrat-cafe--roastery-alsancak",
+            "alinti": "Permanently Closed (Wanderlog); Mes Prestiges Mayıs 2026: 'İzmir's third-wave benchmark, roasting its own beans'",
+            "acik_kanit": "ÇELİŞKİ: Wanderlog 'kalıcı kapalı' yazıyor, Mes Prestiges Mayıs 2026 açık gibi anlatıyor (08:30-21:00). Kapanış haberi bulunamadı.",
+            "karar": "şartlı",
+            "duzeltme": "Açıklık teyit edilmeden önerme; Instagram/telefonla kontrol. Genç kitle kanıtı yok."
+          },
+          {
+            "ad": "La Puerta",
+            "semt": "Alsancak (1469 Sok.)",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "çelişiyor",
+            "yas_not": "Bar/taverna; öğleden 01:00'e açık, canlı müzik, gürültülü. Kafe değil, akşam bar konsepti; yaş profili belirtilmemiş.",
+            "fiyat_not": "Pahalı (komşu mekânlara göre yüksek)",
+            "kanit_url": "https://wanderlog.com/place/details/1411976/la-puerta-alsancak",
+            "alinti": "prices feel high compared with nearby spots (Wanderlog; Ocak 2026 Google yorumu görünüyor)",
+            "acik_kanit": "Ocak 2026 ve Eylül 2025 Google yorumları.",
+            "karar": "çıkar"
+          },
+          {
+            "ad": "Sardunya",
+            "semt": "Alsancak (Muzaffer İzgü Sk. No:11) - listedeki adres 'doğrulanmadı' yerine bu",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "çelişiyor",
+            "yas_not": "Bar/canlı müzik mekânı (Fodor's, iTicket); kafe değil.",
+            "fiyat_not": "Bilinmiyor",
+            "kanit_url": "https://iticket.com.tr/en/venues/sardunya-alsancak",
+            "alinti": "Muzaffer İzgü Sk. No:11, 35220 Konak/İzmir Alsancak",
+            "acik_kanit": "iTicket mekân sayfası var, tarih/2025-26 kanıtı görülmedi.",
+            "karar": "çıkar",
+            "duzeltme": "Bar/gece mekânı, kafe vibe aramasına uymuyor."
+          },
+          {
+            "ad": "Poka Coffee Roasters",
+            "semt": "Alsancak (Kıbrıs Şehitleri Cad. No:171); Bornova Süvari Cad. No:27'de de şube var",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş verisi yok; kahve/sohbet odaklı. Bornova şubesi öğrenci bölgesinde, bu şube daha ilgi çekici olabilir.",
+            "fiyat_not": "Orta (₺₺)",
+            "kanit_url": "https://mesprestiges.com/en/izmir/stories/izmir-third-wave-coffee-breakfast",
+            "alinti": "İzmir's third-wave pioneer, roasting on Kıbrıs Şehitleri since 2016",
+            "acik_kanit": "Mes Prestiges 29 Mayıs 2026 makalesi; Oggusto Kasım 2025.",
+            "karar": "şartlı",
+            "duzeltme": "Bornova Süvari şubesini (No:27) değerlendir; genç kitle kanıtı yok."
+          },
+          {
+            "ad": "Coffee Mamma",
+            "semt": "Alsancak (Umurbey Mah. 1501 Sok. No:2/C) - konum doğru",
+            "acik": "muhtemelen açık",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş kanıtı yok; kavurma/üretim merkezi odaklı.",
+            "fiyat_not": "Bilinmiyor",
+            "kanit_url": "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+            "alinti": "Almanya Gurme Kahve Kavurucular Birliği Deutsche Röstergilde üyesi olan Coffee Mamma",
+            "acik_kanit": "Oggusto 6-14 Kasım 2025, kapanış notu yok.",
+            "karar": "şartlı",
+            "duzeltme": "Yalnızca Kasım 2025 tek kaynak; yaş kitlesi bilinmiyor."
+          },
+          {
+            "ad": "Chapter Coffee",
+            "semt": "Alsancak (Dr. Mustafa Enver Bey Cad. No:32/A) - konum doğru",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "kısmen",
+            "yas_not": "Yaş verisi yok; Haziran 2025 yorumu 'rahat sosyal buluşma yeri' diyor, İngilizce konuşan personel, sakin.",
+            "fiyat_not": "Orta (uygun denmiş)",
+            "kanit_url": "https://wanderlog.com/place/details/3345169/chapter-community",
+            "alinti": "Erkan O, 5/5, Jun 6, 2025: iconic setup and a comfortable social gathering place",
+            "acik_kanit": "Haziran 2025 Google yorumu, günlük 09:00-23:00; Oggusto Kasım 2025.",
+            "karar": "şartlı",
+            "duzeltme": "Adı 'Chapter Community'; kitle kanıtı zayıf."
+          },
+          {
+            "ad": "No.18 Coffee",
+            "semt": "Alsancak (1484 Sok. No:18/A) - konum doğru",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Küçük, sakin, 'zen' sokak; sosyalleşme ortamı değil, kahve durağı.",
+            "fiyat_not": "Ucuz-orta ('Türkiye'de en uygun kahve', Kasım 2025)",
+            "kanit_url": "https://wanderlog.com/place/details/9772149",
+            "alinti": "Abrie, Nov 5, 2025: cute spot with friendly staff, best flat white, most affordable coffee in Türkiye",
+            "acik_kanit": "Kasım 2025 ve Temmuz 2025 Google yorumları; Pazar kapalı.",
+            "karar": "şartlı",
+            "duzeltme": "Çok küçük mekân; tanışma amacına uygun değil, kahve molası için."
+          },
+          {
+            "ad": "Tenten Buca",
+            "semt": "Buca (Dumlupınar, Erdem Cd. No:55) - Alsancak değil",
+            "acik": "kapandı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş verisi yok; ders çalışmaya uygun masalar, uygun fiyat.",
+            "fiyat_not": "Makul",
+            "kanit_url": "https://wanderlog.com/place/details/1459911/tenten-buca",
+            "alinti": "Permanently Closed",
+            "acik_kanit": "Wanderlog sayfası 'kalıcı olarak kapalı' (tarihsiz).",
+            "karar": "çıkar"
+          },
+          {
+            "ad": "Study Cafe (Küçükpark)",
+            "semt": "Küçükpark / Kazımdirik (adres doğrulanamadı)",
+            "acik": "doğrulanamadı",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Ekşi özeti: sessiz ders çalışma kafesi, her masada priz; konum/tarih doğrulanamadı. Ekşi 403 verdi.",
+            "fiyat_not": "Girişte içecek zorunlu (soğuk 58 TL, sıcak 53 TL; tarihsiz Ekşi özeti)",
+            "kanit_url": "https://eksisozluk.com/entry/156989573",
+            "alinti": "yok",
+            "acik_kanit": "Bornova/Küçükpark'ta bağımsız kaynak bulunamadı; 'Study Cafe' sonuçları otel sayfaları.",
+            "karar": "çıkar",
+            "duzeltme": "Konum ve açıklık doğrulanamadı; ders çalışma konsepti zaten tanışma ortamı değil."
+          },
+          {
+            "ad": "Vibe Coffee Co",
+            "semt": "Kazımdirik, 153. Sk. 61/A, Bornova - konum doğru",
+            "acik": "muhtemelen açık",
+            "nargile": "yok",
+            "yas": "kısmen",
+            "yas_not": "Yorum: Küçükpark kalabalığından uzak, arkadaşlarla ders çalışma; Google 4.1 (220 yorum), arka bahçe sigara alanı. Öğrenci ifadesi açık değil.",
+            "fiyat_not": "Bilinmiyor; pasta kesme/servis ücreti uyarısı",
+            "kanit_url": "https://wanderlog.com/place/details/9826099/vibe-coffee-co",
+            "alinti": "some reviewers mention minor issues like service fees for cake cutting or cold drinks",
+            "acik_kanit": "Güncel saat listesi var, kapalı notu yok; yorum tarihi görünmüyor.",
+            "karar": "şartlı",
+            "duzeltme": "Bornova'da öğrenci bölgesinde olması avantaj; 2025-26 tarihli kanıt yok, 37 tek yıldız yorum var."
+          },
+          {
+            "ad": "Ceres Artisan Bakery",
+            "semt": "Kazımdirik (372/17. Sk. No:24) - konum doğru",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş ifadesi yok; fırın-kafe, kahvaltı odaklı.",
+            "fiyat_not": "Bilinmiyor",
+            "kanit_url": "https://yemek.com/bornovanin-en-iyi-kahvalti-mekanlari/",
+            "alinti": "Kat kat hamurun çıtırtısına bir yudum filtre kahve iyi gidiyor.",
+            "acik_kanit": "Yemek.com 16 Kasım 2026 tarihli liste.",
+            "karar": "şartlı",
+            "duzeltme": "Kahvaltı/fırın odaklı; sosyalleşme-kitle kanıtı yok."
+          },
+          {
+            "ad": "Friendzone Cafe 3rd Wave Coffee & Roastery",
+            "semt": "Bornova, Kazımdirik, Süvari Cd. No:40/B (Wanderlog); başka kayıt Dumlupınar Cad. No:56/A diyor, adres çelişkili",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "kısmen",
+            "yas_not": "Yorumlar dekor, fotoğraf köşeleri, priz ve toplantı odalarından söz ediyor; çalışma yeri, öğrenci ifadesi yok.",
+            "fiyat_not": "Uygun (Wanderlog 'affordable')",
+            "kanit_url": "https://wanderlog.com/place/details/3579555/cafe-friendzone-3rd-wave-coffee--roastery",
+            "alinti": "Sep 25, 2025: Beautiful decoration with so many photo corners, lovely staff, super yummy cheesecake",
+            "acik_kanit": "Eylül 2025 ve Nisan 2025 Google yorumları.",
+            "karar": "şartlı",
+            "duzeltme": "Adres iki kayıtta farklı; gitmeden harita teyidi. Kitle kanıtı zayıf."
+          },
+          {
+            "ad": "Cafe Rezine",
+            "semt": "Kazımdirik, Süvari Cd. No:14B - konum doğru",
+            "acik": "muhtemelen açık",
+            "nargile": "yok",
+            "yas": "kısmen",
+            "yas_not": "Öğrenci/yaş ifadesi yok; Süvari Cd.'nin eski kafelerinden, sıcak ve evsel ortam; Google 4.6 (589 yorum).",
+            "fiyat_not": "Bilinmiyor; limonlu cheesecake önerilmiş",
+            "kanit_url": "https://wanderlog.com/place/details/1459902/cafe-rezine",
+            "alinti": "Sunday 11:30AM–11:45PM; Monday through Saturday 10AM–11:45PM (Wanderlog güncel saatler)",
+            "acik_kanit": "Güncel saat listesi, kapalı notu yok; yorum tarihi görünmedi.",
+            "karar": "şartlı",
+            "duzeltme": "Kampüs hattında olması avantaj; genç kitle doğrulanmadı."
+          },
+          {
+            "ad": "Cairo Coffee Roastery",
+            "semt": "Kazımdirik, Süvari Cd. No:44/D - konum doğru",
+            "acik": "doğrulanamadı",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yorum yok; Kahire temalı dekor, moctail; sigara alanı var.",
+            "fiyat_not": "₺ (ucuz)",
+            "kanit_url": "https://www.izmirmekanrehberi.com/bornova/cairo-coffee-roastery-bornova",
+            "alinti": "Bornova'nın en gözde buluşma noktalarından biri olma yolunda",
+            "acik_kanit": "Yalnızca tarihsiz dizin sayfası, her gün 08:00-00:00; bağımsız arama sonuç vermedi.",
+            "karar": "çıkar",
+            "duzeltme": "Tek tarihsiz dizin kaydı; başka kaynak bulunamadı."
+          }
+        ]
+      },
+      {
+        "arac": "14/40",
+        "genel_not": "Arama araçları zayıf; çoğu satır arama özetine dayanıyor, Google Maps yorumu/tarihi hiçbir mekân için görülemedi. Sistematik hatalar: (1) yemek.com Karşıyaka listesi 22 Şubat 2022 tarihli; üretici '2026 dönemi' sanmış, Sun Co/Make Me Joi/Myth/Tuck açıklık kanıtı bu yüzden zayıf. (2) Liste kayıtları (izmirmekanrehberi) açıklık/kitle kanıtı değil, yorumsuz. (3) Yaş kitlesi kanıtlayan hiçbir kaynak yok; 'öğrenci' çıkarımları dolaylı. (4) Etkinlik/grup satırları kafe değil. Kesin öneri için Instagram/Google Maps teyidi gerekir.",
+        "sonuclar": [
+          {
+            "ad": "Bornova Küçükpark study cafe (ad doğrulanmadı)",
+            "semt": "Bornova (Küçükpark)",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Ad bile yok; tek kaynak eski Ekşi girdisi (~2020).",
+            "kanit_url": "https://eksisozluk.com/study-cafe--6163498",
+            "alinti": "yok",
+            "karar": "çıkar",
+            "fiyat_not": "Güncel fiyat yok (eski: giriş+içecek 10 TL)."
+          },
+          {
+            "ad": "İzmir Kafası Game Night (Old Pal Pub)",
+            "semt": "Bornova",
+            "acik": "açık-kanıtlı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Tek seferlik etkinlik, pub ortamı; kafe değil, yaş kitlesi belirsiz. Tek tarihli bilet sayfası.",
+            "kanit_url": "https://getevening.app/event/agg_7b51c7313e4d6f28",
+            "alinti": "yok (sayfa yeniden açılmadı; üretici 18 Eylül 2026 tarihli diyor, bağımsız doğrulanmadı)",
+            "karar": "çıkar",
+            "fiyat_not": "Biletli, fiyat bilinmiyor."
+          },
+          {
+            "ad": "Pod Coffee & Eatery",
+            "semt": "Kazımdirik (Bornova)",
+            "acik": "muhtemelen açık",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Kahvaltı/brunch odaklı, hayvan dostu; kitle verisi yok.",
+            "kanit_url": "https://yemek.com/bornovanin-en-iyi-kahvalti-mekanlari/",
+            "alinti": "Kazımdirik Mahallesi, 367/8. Sokak No:5/K, Trademark Studio (arama özeti; yemek.com 'Bornova'nın En İyi Kahvaltı Mekanları - 2026')",
+            "karar": "şartlı",
+            "duzeltme": "Yaş kitlesi ve açık olduğu Instagram/Google'dan teyit edilmeli; sosyalleşme değil kahvaltı mekânı.",
+            "fiyat_not": "Bilinmiyor."
+          },
+          {
+            "ad": "Üzüm Cafe (Buca Belediyesi)",
+            "semt": "Buca (DEÜ Tınaztepe karşısı)",
+            "acik": "muhtemelen açık",
+            "nargile": "doğrulanamadı",
+            "yas": "kısmen",
+            "yas_not": "Belediye gençlik merkezi içinde, öğrenci hedefli; ama belediye kafesi, 'vibe' ve nezaket düzeyi belirsiz. Haber tarihleri bağımsız doğrulanamadı.",
+            "kanit_url": "https://ankahaber.net/haber/detay/bucanin_ogrenci_dostu_kafesi_243682",
+            "alinti": "Üzüm Cafe, Tarık Akan Gençlik Merkezi bünyesinde, DEÜ Tınaztepe Yerleşkesi karşısında (arama özeti)",
+            "karar": "şartlı",
+            "duzeltme": "Belediye öğrenci kafesi; kampüs kafe havası, estetik/ambiyans beklentisi düşük tutulmalı. Wanderlog 'Üzüm Cafe' Şirince'dir, karıştırma.",
+            "fiyat_not": "Öğrenci bütçesine uygun (ucuz)."
+          },
+          {
+            "ad": "Opera Coffee Buca",
+            "semt": "Buca (DEÜ Tınaztepe)",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yalnızca liste kaydı; yorum yok ('İlk Değerlendirmeyi Sen Yap').",
+            "kanit_url": "https://www.izmirmekanrehberi.com/liste/izmir-bucada-ogrenci-dostu-cafeler",
+            "alinti": "Son Güncelleme: 2 Haziran 2026 (liste); mekân yalnızca adıyla, yorumsuz",
+            "karar": "çıkar",
+            "fiyat_not": "Bilinmiyor."
+          },
+          {
+            "ad": "Nel Vicolo Coffee Co. Buca",
+            "semt": "Buca",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yalnızca liste kaydı, yorum yok.",
+            "kanit_url": "https://www.izmirmekanrehberi.com/liste/izmir-bucada-ogrenci-dostu-cafeler",
+            "alinti": "Son Güncelleme: 2 Haziran 2026 (liste); mekân yalnızca adıyla, yorumsuz",
+            "karar": "çıkar",
+            "fiyat_not": "Bilinmiyor."
+          },
+          {
+            "ad": "So Like Coffee Buca",
+            "semt": "Buca",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yalnızca liste kaydı, yorum yok.",
+            "kanit_url": "https://www.izmirmekanrehberi.com/liste/izmir-bucada-ogrenci-dostu-cafeler",
+            "alinti": "Son Güncelleme: 2 Haziran 2026 (liste); mekân yalnızca adıyla, yorumsuz",
+            "karar": "çıkar",
+            "fiyat_not": "Bilinmiyor."
+          },
+          {
+            "ad": "Genç Yaka Kafe ve Gençlik Merkezi",
+            "semt": "Bostanlı (Uğur Mumcu Parkı)",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "kısmen",
+            "yas_not": "Oyun alanı 15+, kafe her yaşa açık; gençler yoğun ama lise/çocuk karışımı olabilir. 'İnşaat kafe' kum havuzu konsepti var; kullanıcının 'nezih kafe' vibe'ından farklı.",
+            "kanit_url": "https://www.karar.com/sehir-haberleri/genclerin-yeni-bulusma-adresi-genc-yaka-izmirin-dort-bir-yanindan-2023464",
+            "alinti": "Oyun alanları 15 yaş ve üzeri ziyaretçilere açık, kafe bölümü her yaştan vatandaşa hizmet veriyor (arama özeti)",
+            "karar": "şartlı",
+            "duzeltme": "Belediye gençlik mekânı; oyun/etkinlik amaçlı, 18-22 kadın sohbet kafesi değil. Etkinlik (bilgi yarışması) günleri sosyalleşme için denenebilir.",
+            "fiyat_not": "Belediye, muhtemelen uygun; kesin fiyat yok."
+          },
+          {
+            "ad": "Sun Co. Coffee & Eatery",
+            "semt": "Bostanlı (1790. Sk. 3/A)",
+            "acik": "muhtemelen açık",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yaş kanıtı yok. NOT: yemek.com Karşıyaka listesi 22 Şubat 2022 tarihli; üreticinin '2026 listesi' iddiası yanlış, açıklık kanıtı zayıf.",
+            "kanit_url": "https://yemek.com/izmir-karsiyaka-kahvecileri/",
+            "alinti": "3. dalga kahvenin İzmir'deki en lezzetli temsilcilerinden Sun Co. Coffee & Eatery",
+            "karar": "şartlı",
+            "duzeltme": "2022 listesine dayanıyor; açık olduğunu Instagram/Google'dan teyit et. Yaş kitlesi bilinmiyor.",
+            "fiyat_not": "Muhtemelen ₺₺ (kanıtsız)."
+          },
+          {
+            "ad": "Las Habitas",
+            "semt": "Bostanlı (Bestekar Yusuf Nalkesen Sk. 10/A)",
+            "acik": "açık-kanıtlı",
+            "nargile": "yok",
+            "yas": "kısmen",
+            "yas_not": "Mahalle müdavimleri, genç kahve sahnesi; yaş aralığı yok. Müşteri yorumu bulunamadı, kanıt editör incelemesi.",
+            "kanit_url": "https://mesprestiges.com/en/izmir/places/las-habitas-bostanli",
+            "alinti": "2020'den beri taze kavrulmuş özel kahve; her gün 10:00-23:30 (Mes Prestiges, Mayıs 2026 inceleme; arama özeti)",
+            "karar": "önerilebilir",
+            "fiyat_not": "₺₺ (espresso 80₺, latte 170₺, Haziran 2026 - üretici verisi, bağımsız doğrulanmadı)."
+          },
+          {
+            "ad": "Karşıyaka masa oyunu mekanları: d20 Masaüstü Oyun Kulübü, Kule Sakinleri",
+            "semt": "Karşıyaka",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Kanıt yalnızca erişilemeyen X gönderisi; iki ayrı mekân tek satırda.",
+            "kanit_url": "https://x.com/ihsanyeniceri23/status/1926611892954358200",
+            "alinti": "yok",
+            "karar": "çıkar",
+            "fiyat_not": "Bilinmiyor."
+          },
+          {
+            "ad": "Pablo Artisan Coffee (Çiğli)",
+            "semt": "Çiğli",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Çiğli şubesine ait yorum bulunamadı; tek bağ GDG öğrenci etkinliği. Çiğli kullanıcı için uzak.",
+            "kanit_url": "https://happycow.net/reviews/pablo-artisan-coffee-izmir-263980",
+            "alinti": "yok (HappyCow listesi Mayıs 2023, 08:00-00:00; şube belirtilmemiş)",
+            "karar": "çıkar",
+            "fiyat_not": "Bilinmiyor."
+          },
+          {
+            "ad": "Make Me Joi (Bostanlı)",
+            "semt": "Bostanlı (Bestekar Sadi Hoşses Cad. 13/A)",
+            "acik": "muhtemelen açık",
+            "nargile": "yok",
+            "yas": "kısmen",
+            "yas_not": "Alsancak şubesi yorumları: arkadaşlarla takılmaya uygun, müzik yüksek, yönetim ve fiyat şikâyeti. Bostanlı şube yorumu yok. Liste 2022 tarihli.",
+            "kanit_url": "https://wanderlog.com/place/details/9758269/make-me-joi-alsancak",
+            "alinti": "Bostanlı Mah. Bestekar Sadi Hoşses Cad. 13/A (yemek.com, 2022); Alsancak: relaxed setting, loud music, prices (arama özeti)",
+            "karar": "şartlı",
+            "duzeltme": "Bostanlı şubesinin hâlâ açık olduğu ve kitlesi teyit edilmeli; fiyat yüksek olabilir.",
+            "fiyat_not": "₺₺₺ (Alsancak yorumu, şube için dolaylı)."
+          },
+          {
+            "ad": "Fünf Coffee",
+            "semt": "Karşıyaka Yalı",
+            "acik": "muhtemelen açık",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Kahve meraklıları topluluğu; yaş yok. Specialty/sessiz odaklı, tanışma mekânı değil.",
+            "kanit_url": "https://sprudge.com/the-sprudge-guide-to-coffee-in-izmir-turkey-257543.html",
+            "alinti": "Yalı, 6497. Sk. No:25 Karşıyaka; 2021'de açıldı, İzmir kahve topluluğunun merkezi (arama özeti, Sprudge)",
+            "karar": "şartlı",
+            "duzeltme": "Kahve odaklı, 09:00-19:00 (akşam yok); sosyal ortam için zayıf.",
+            "fiyat_not": "₺₺-₺₺₺ (üretici verisi)."
+          },
+          {
+            "ad": "Karşıyaka One Team koşu grubu",
+            "semt": "Karşıyaka / Bostanlı",
+            "acik": "doğrulanamadı",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Kafe değil, koşu grubu; güncel kanıt yok.",
+            "kanit_url": "https://runningcrews.com/crews/karsiyaka-one-team-izmir",
+            "alinti": "yok",
+            "karar": "çıkar",
+            "fiyat_not": "Yok."
+          },
+          {
+            "ad": "Myth Coffee & More",
+            "semt": "Bostanlı (Bestekar Yusuf Nalkesen Sk. 12/B)",
+            "acik": "muhtemelen açık",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Wi-Fi, laptop dostu, teras, 09:00-23:30; yaş kitlesi yok.",
+            "kanit_url": "https://europeancoffeetrip.com/cafe/mythcoffee-izmir/",
+            "alinti": "Adres Bestekar Yusuf Nalkesen Sokak No:12/B Bostanlı; 09:00-23:30 (arama özeti)",
+            "karar": "şartlı",
+            "duzeltme": "Tarih bağımsız doğrulanmadı; yaş kitlesi teyit edilmeli. Akşam geç saate kadar açık, laptop/çalışma ağırlıklı olabilir.",
+            "fiyat_not": "Bilinmiyor."
+          },
+          {
+            "ad": "Tuck Coffee & ETC",
+            "semt": "Bostanlı (Bestekar Sadi Hoşses Sk. 40/B)",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "Yalnızca 2022 tarihli liste; başka kaynakta çıkmadı.",
+            "kanit_url": "https://yemek.com/izmir-karsiyaka-kahvecileri/",
+            "alinti": "Özel Tuck espressosuyla hazırladıkları sadesinden sütlüsüne, tüm kahveleri muazzam.",
+            "karar": "çıkar",
+            "fiyat_not": "Bilinmiyor."
+          },
+          {
+            "ad": "Spect Coffeehouse",
+            "semt": "Karşıyaka Bahçelievler",
+            "acik": "muhtemelen açık",
+            "nargile": "yok",
+            "yas": "çelişiyor",
+            "yas_not": "Tek kişilik specialty kafe, sessiz mahalle havası, mahalle sakinleri/kahve meraklıları; 18-22 sosyal kitle değil.",
+            "kanit_url": "https://mesprestiges.com/en/izmir/places/spect-coffeehouse-karsiyaka",
+            "alinti": "Bahçelievler, 1706. Sk. No:29/A; Semih Yetişkin's one-man specialty coffeehouse; extensive patio, quiet neighborhood vibes (arama özeti)",
+            "karar": "çıkar",
+            "fiyat_not": "₺₺ (üretici verisi)."
+          },
+          {
+            "ad": "Uggla Coffee",
+            "semt": "bilinmiyor (Bostanlı varsayımı doğrulanmadı)",
+            "acik": "doğrulanamadı",
+            "nargile": "doğrulanamadı",
+            "yas": "doğrulanamadı",
+            "yas_not": "yemek.com listesinde adres/açıklama yok; konum doğrulanamadı.",
+            "kanit_url": "https://wanderlog.com/place/details/1459901/uggla-coffee",
+            "alinti": "yok",
+            "karar": "çıkar",
+            "fiyat_not": "Bilinmiyor."
+          },
+          {
+            "ad": "Poka Coffee Roasters Bornova",
+            "semt": "Bornova (Süvari Cd. No:27)",
+            "acik": "muhtemelen açık",
+            "nargile": "yok",
+            "yas": "doğrulanamadı",
+            "yas_not": "Bornova şubesine özgü yorum yok; Bornova'da olması öğrenci kitlesi olasılığını artırır ama kanıtsız.",
+            "kanit_url": "https://www.oggusto.com/gastronomi/izmirin-en-iyi-kahvecileri",
+            "alinti": "Bornova adresi Süvari Cad. No: 27 (Oggusto ve ArrivalGuides; arama özeti); Alsancak merkez 07:45-00:00",
+            "karar": "şartlı",
+            "duzeltme": "Bornova şubesinin açıklığı ve kitlesi teyit edilmeli; specialty kavurma odaklı.",
+            "fiyat_not": "₺₺ (kanıtsız tahmin)."
+          }
+        ]
+      }
+    ],
+    "elestirmen": {
+      "arac": "12/15",
+      "itirazlar": [
+        {
+          "konu": "Liste kitleye göre değil kahve kalitesine göre kurulmuş",
+          "itiraz": "Satırların yarısından fazlası specialty kavurucu ya da üçüncü dalga kahveci: Poka, Two Cups, Baristocrat, Coffee Mamma, No.18, Fünf, Spect. Hiçbirinde 18–24 kanıtı yok. Kaynaklar 'kahve meraklıları', 'mahalle müdavimi', 'books-and-conversation' diyor. Two Cups'ta laptop yasağı var, No.18 çok küçük. Bu profil genelde 25–35 yaş, tek başına ya da ikili gelen kitle. Tanışma puanı 2 olan mekânlar kullanıcının asıl amacını karşılamıyor.",
+          "oneri": "Bu grubu ana listeden çıkar. 'Kahve kalitesi için, tanışma için değil' başlıklı tek satırlık bir yan nota indir."
+        },
+        {
+          "konu": "Bornova kapsamı ve Küçükpark'ın ağırlığı",
+          "itiraz": "Kitle sorununun kaynağı semt değil, mekân seçimi. Bornova Belediyesi 2 Ağustos 2026'da Küçükpark için 'one of İzmir's busiest social and youth hubs' diyor. Kullanıcının zaten bulunduğu bölge bu. Taslak ise Alsancak ve Bostanlı satırlarına dağılmış. Küçükpark'ın nargile ağırlıklı olması bölgeyi elemek için değil, mekânları tek tek süzmek için bir gerekçe.",
+          "oneri": "Ana öneriyi Süvari Cd. ve Kazımdirik şeridine kur: Vibe, Rezine, Friendzone, Poka Bornova, Çolo. Nargile durumunu mekân mekân işaretle."
+        },
+        {
+          "konu": "Belediye kafelerine verilen tanışma puanı şişkin",
+          "itiraz": "Genç Yaka'ya tanışma 5, Üzüm Cafe'ye kitle uyumu 5 verilmiş. Oysa Genç Yaka'nın oyun alanı 15 yaş ve üstüne açık, yani lise kitlesi riski yüksek. Çocuk alanı da var. Kalite 2 ile 'nezih ve vibe' şartını karşılamıyor. Üzüm Cafe'de kitle var ama ambiyans yok.",
+          "oneri": "Genç Yaka'yı yalnızca etkinlik günlerinde (bilgi yarışması, karaoke) 'şartlı' bırak, tanışma puanını 3–4'e çek. Üzüm Cafe'yi alt sıraya koy."
+        },
+        {
+          "konu": "BlaBla Language Exchange: rolü doğru, kitle beklentisi yanlış",
+          "itiraz": "Kanıtı olan tek düzenli tanışma formatı bu (13 Ağustos 2026 ilanı, iki haftada bir Perşembe 20:30). Buna rağmen tablonun ortasında kalmış. Kitlesi karışık: büyük olasılıkla 25+ ve yabancılar ağırlıklı. 18–22 yaş garantisi yok.",
+          "oneri": "Tanışma amacıyla ilk 3'e al ama 'yaş karışık' notunu düş. Mekân adı ilanda yok; grup sayfasından teyit et."
+        },
+        {
+          "konu": "Zayıf ya da eski kanıtla 'şartlı' tutulan satırlar",
+          "itiraz": "Münire tek bir 2017 bloguna dayanıyor ve açık olduğu doğrulanamadı. Daft Coffee'nin adresi iki kayıtta çelişiyor (1381 Sk. ile 1480 Sk.). Sun Co. 2022 listesine dayanıyor. Coffee Mamma'nın tek kaynağı var. Friendzone'da Bayraklı ile Bornova çelişkisi var. Kapanan mekân çok olan bir şehirde bu satırlar kullanıcıyı boşa yollar.",
+          "oneri": "Münire'yi çıkar. Daft, Sun Co. ve Friendzone'u 'gitmeden Instagram ya da Google son yorum tarihini kontrol et' etiketiyle tut."
+        },
+        {
+          "konu": "Bostanlı ağırlığı ve mesafe",
+          "itiraz": "Las Habitas, Sun Co., Myth, Make Me Joi ve Genç Yaka, Bornova'daki kullanıcıya metro, vapur ya da otobüsle yaklaşık 45 dakika ve üstü uzaklıkta (çıkarım). Kitlesi de 'mahalle müdavimi'. Las Habitas tek 'önerilebilir' satır ama tanışma puanı 2. Bu, kararla çelişiyor. Fiyatı da öğrenci bütçesinin üstünde: latte 170₺ (Haziran 2026).",
+          "oneri": "Las Habitas'ı 'kalite ve vibe için önerilebilir, tanışma için değil' diye yeniden etiketle. Bostanlı'yı hafta sonu seçeneği olarak sun."
+        },
+        {
+          "konu": "Tuck Coffee yanlış gerekçeyle çıkarılmış olabilir",
+          "itiraz": "Tuck yalnızca Bostanlı şubesiyle değerlendirilip çıkarılmış. Oysa secretcv'de 'Barista (Bornova/Küçükpark)' başlıklı, Tuck Coffee'ye ait tarihsiz bir ilan çıkıyor. Yani Küçükpark'ta bir şubesi olabilir. Bağımsız aramam bunu doğrulayamadı.",
+          "oneri": "Küçükpark şubesini 'doğrulanmadı' etiketiyle eksik adaylara al. Harita kontrolü öner."
+        },
+        {
+          "konu": "Zaman tavsiyesi tamamen eksik",
+          "itiraz": "Tabloda gün, saat ya da akademik dönem bilgisi yok. Oysa öğrenci kitlesi takvime bağlı. Kasım güz döneminin ortası ve ara sınav dönemi. Aralık sonu ile Ocak finallerdir; kafeler ders çalışma moduna döner. Ege kampüs kafelerinin final haftasında 23:00'te kapatıldığına dair bir haber var. Şubat tatili ve Haziran sonrası Bornova boşalır. Bu takvim çıkarımdır; yalnızca kapanış haberi kaynaklıdır.",
+          "oneri": "Raporda 'ne zaman git' kutusu olsun: Bornova için hafta içi 15:00–19:00 (ders çıkışı), Alsancak ve Kıbrıs Şehitleri için Perşembe–Cumartesi akşamı, final ve tatil haftalarında beklentiyi düşür. Hepsini 'çıkarım' diye etiketle."
+        },
+        {
+          "konu": "Yaş kanıtının olmaması sonuca yansımamış",
+          "itiraz": "Beş üreticinin beşi de 18–24 kanıtının neredeyse hiç bulunmadığını söylüyor. Puanlar ise kesinmiş gibi duruyor (uyum 3, 4, 5). Raporda bu bir sıralama gibi sunulursa yanıltıcı olur.",
+          "oneri": "Kısa yanıtta açıkça söyle: web kanıtı kitleyi doğrulamıyor. Kullanıcıya iki adımlı yerinde kontrol ver: Instagram konum etiketinde son 2 ayın fotoğrafları, Google Maps'te 'en yeni' yorumlar. İlk ziyaret hafta içi öğleden sonra olsun."
+        },
+        {
+          "konu": "Çiğli, Buca ve Karşıyaka'daki doğrulanamayan satırlar gürültü yapıyor",
+          "itiraz": "Opera, Nel Vicolo, So Like, Uggla, Tuck Bostanlı, Pablo Çiğli, d20 ve Tenten (kapandı) satırlarında hiçbir alan doğrulanmamış. Bunlar tabloyu şişiriyor.",
+          "oneri": "Ana tablodan tamamen çıkar. Ekte 'elenenler' satırı olarak tek cümleyle geç."
+        }
+      ],
+      "eksik_adaylar": [
+        {
+          "ad": "Çolo Cafe & Bar",
+          "semt": "Bornova Kazımdirik, Süvari Cd. No:43/A (Küçükpark kafe sokağı)",
+          "neden": "Kahvaltı ve bar konsepti var, 01:30'a kadar açık, Yandex'te 4.1 puan (55 değerlendirme). Kampüs hattında akşam sosyalleşmesine uygun olabilir. Nargile durumu doğrulanmadı; Yandex kaydı nargileyi anmıyor.",
+          "kaynak": "https://yandex.com.tr/maps/org/colo/113951986927/"
+        },
+        {
+          "ad": "İzmirli Kahve (İzmir Büyükşehir Belediyesi) şubeleri: Kültürpark Zeytin Sahne, Tarihi Havagazı Fabrikası, Bornova, Karşıyaka İskele",
+          "semt": "Konak, Kültürpark, Bornova, Karşıyaka",
+          "neden": "18 Kasım 2026 tarihli haber: 14 şube, latte 120₺. Bir öğrenci 'ucuz olunca sosyalleşmeye para kalıyor' diyor. Kültürpark ve Havagazı şubeleri etkinlik alanlarının içinde. Öğrenci bütçesine uygun, nargilesiz. Ambiyans orta düzeyde.",
+          "kaynak": "https://www.yeniasir.com.tr/izmir/2026/11/18/izmirli-kahve-simdi-nereye-acildi-izmirde-kahve-keyfi-cep-yakmayacak"
+        },
+        {
+          "ad": "Tuck Coffee Küçükpark şubesi",
+          "semt": "Bornova Küçükpark",
+          "neden": "Bostanlı şubesi çıkarılmıştı. Küçükpark için barista ilanı var (tarihsiz). Doğrulanırsa öğrenci bölgesinde nargilesiz bir kafe olur.",
+          "kaynak": "https://www.secretcv.com/1875738"
+        },
+        {
+          "ad": "Gülşah Durbay Gençlik Merkezi (Bornova Belediyesi)",
+          "semt": "Bornova, tarihi çarşı girişi",
+          "neden": "Şubat 2026'da açıldı, 3 katlı bir gençlik merkezi. Kursları ve etkinlikleri ortak aktivite üzerinden tanışma imkânı verir. Kafe değil. Kitle yaşı ve program doğrulanmadı.",
+          "kaynak": "https://www.yenibakishaber.com/gulsah-durbayin-mirasi-sinav-stresini-sildi"
+        },
+        {
+          "ad": "Kıbrıs Şehitleri Caddesi (akşam yürüyüş ve kafe hattı, Poka Alsancak dahil)",
+          "semt": "Alsancak",
+          "neden": "Tek bir mekân değil, semt önerisi. Kaynak caddeyi 'busier in the evening, high crowd levels' diye anlatıyor; bu zayıf bir toplayıcı kaynak. Alsancak'ta akşam genç kalabalığının en olası yeri.",
+          "kaynak": "https://www.visitizmir.org/en/destinasyon/12953"
+        },
+        {
+          "ad": "Ege Üniversitesi kampüs içi kafeler",
+          "semt": "Bornova, Ege kampüsü (Evka 3'e bitişik)",
+          "neden": "Öğrencilerin gece ders çalışıp takıldığı yerler. Final haftasında 23:00 kapanış haberi kitlenin orada olduğunu gösteriyor. Öğrenci değilsen giriş ve ortam kısıtlı olabilir; segment düşük.",
+          "kaynak": "https://www.cumhuriyet.com.tr/turkiye/ogrencilerin-final-haftasina-kilit-ege-de-gece-yasagi-2509516"
+        },
+        {
+          "ad": "Shakespeare Coffee & Bistro (Forum Bornova AVM)",
+          "semt": "Bornova, Forum Bornova",
+          "neden": "Taslakta hiç AVM seçeneği yok. Hafta sonu genç ve aile karışık bir kitle beklenir; kitle doğrulanmadı. Nezih ama 'vibe' düşük, düşük öncelik.",
+          "kaynak": "https://wanderlog.com/place/details/3265311/shakespeare-coffeebistro-forum-bornova"
+        }
+      ],
+      "siralama_onerisi": [
+        "1. Süvari Cd. ve Kazımdirik bağımsız kafeleri (Vibe Coffee Co, Cafe Rezine): öğrenci bölgesinde, nargilesiz, ambiyanslı. Hafta içi 15:00–19:00'da git. Kitleyi kendin gözle.",
+        "2. BlaBla Language Exchange (Konak, iki haftada bir Perşembe 20:30): tanışma için kanıtı olan tek yapı. Yaş karışık.",
+        "3. Friendzone Cafe (Süvari Cd., adres teyidiyle): üçüncü dalga, kampüs hattında.",
+        "4. Çolo Cafe & Bar (Süvari Cd. 43/A, akşam, 01:30'a kadar): nargile durumunu gitmeden doğrula.",
+        "5. Genç Yaka (Bostanlı): yalnızca etkinlik ve bilgi yarışması günleri. Lise kitlesi riski var.",
+        "6. Alsancak Daft Coffee ya da Rome (bahçeli): Kıbrıs Şehitleri akşam turuyla birlikte, Perşembe–Cumartesi.",
+        "7. Poka Coffee Roasters Alsancak (07:45–00:00): akşam saatinde. Kitle olgun olabilir.",
+        "8. Las Habitas ya da Sun Co. (Bostanlı): kalite ve vibe için hafta sonu. Tanışma için zayıf, fiyat yüksek.",
+        "9. Make Me Joi Bostanlı: renkli, arkadaş buluşması tipi. Açık olduğunu teyit et, fiyatı yüksek.",
+        "10. İzmirli Kahve, Kültürpark ve Havagazı Fabrikası şubeleri: etkinlik günlerinde, uygun fiyatla.",
+        "11. Üzüm Cafe (Buca, DEÜ Tınaztepe karşısı): kitle var, ambiyans düşük.",
+        "12. Specialty kavurucular (Two Cups, Coffee Mamma, Baristocrat, Fünf): yalnızca kahve kalitesi için, tanışma için değil."
+      ],
+      "varsayim_duzeltmeleri": [
+        "'Doğru kafeyi bulursam tanışırım' varsayımı zayıf. Türkiye'de kafede yan masayla tanışma kültürü sınırlı. 18–22 yaş kadınlar çoğunlukla arkadaş grubuyla gelir ve masalar kapalı gruplardır. Yabancı bir erkeğin yaklaşması rahatsızlık olarak algılanabilir. Mekân doğru kitleyi bir araya getirir ama tanışmayı sağlamaz. Tanışma ortak bir etkinlikle olur: dil buluşması, bilgi yarışması, kurs, kulüp. Bir de tanıdığın birinin arkadaş çevresi üzerinden.",
+        "'Kaliteli ve nezih' ile '18–22 öğrenci' kısmen çelişiyor. Specialty kafelerde latte 170₺ civarında (Las Habitas, Haziran 2026). Öğrenci uygun fiyatlı yerlere kayıyor (İzmirli Kahve latte 120₺, Kasım 2026). İki şartın kesiştiği yer orta segment bağımsız kafeler, yani Süvari Cd. tipi mekânlar. Lüks specialty kafeler bu kesişimin dışında.",
+        "Kitle sabit değil, akademik takvime bağlı. Final haftalarında (Aralık sonu–Ocak) kafeler ders çalışma moduna döner. Tatillerde ve yazın Bornova'nın öğrenci nüfusu azalır. Aynı mekân saate ve haftaya göre bambaşka bir kitle verebilir.",
+        "Sorun büyük olasılıkla semtten çok saat ve mekân seçiminde. Casual Coffee'nin bulunduğu Evka 3 Ege kampüsüne bitişik. Bornova Belediyesi Küçükpark'ı İzmir'in en yoğun gençlik merkezlerinden biri sayıyor. Kullanıcı aradığı kitlenin zaten yanında; hafta içi ders çıkışı saatlerini ve Süvari Cd.'yi denemeden Bostanlı'ya ya da Alsancak'a gitmek gerekmeyebilir.",
+        "Web kanıtı İzmir'de hiçbir kafenin 18–22 kitlesini doğrulamıyor. Bu yüzden 'en iyi kafe' diye kesin bir yanıt yok. Doğru yöntem şu: 2–3 adayı seç. Instagram konum etiketlerinde son 2 ayın fotoğraflarına ve Google Maps'teki en yeni yorumlara bak. Sonra yerinde bir hafta içi ve bir hafta sonu ziyaretiyle karar ver."
+      ]
+    }
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Tarama"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Doğrulama"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "Eleştiri"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "üretici:bornova",
+      "phaseIndex": 1,
+      "phaseTitle": "Tarama",
+      "agentId": "aeff9669b0aec0102",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795637236956,
+      "queuedAt": 1795637236796,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "25/35",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'de dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM (kullanıcı): 20'li yaşlarında, İzmir'de yaşıyor. Bornova Evka 3'teki \"Casual Coffee\"nin tarzını çok beğeniyor ama orada kendi yaş grubunu (18–22 yaş kadınlar; büyük…",
+      "promptFramed": true,
+      "lastProgressAt": 1795637375507,
+      "tokens": 111883,
+      "toolCalls": 29,
+      "durationMs": 138550,
+      "resultPreview": "{\"arac\":\"25/35\",\"ozet\":\"Referans: Evka 3'teki Casual Coffee & Bakery, Cengizhan Cd. (Macro Center karşısı) civarında, TikTok gönderilerine göre yeni açılmış, 08:00-01:00 açık, köpek kabul eden, fırın+kahve konseptli bir mekan. Aynı markanın Buca şubesi \\\"modern ama rahat\\\", samimi dekor, kişi başı 200-300 TL (orta segment), Americano/cold brew ve günlük kruvasan öne çıkıyor; specialty/üçüncü dalga…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "üretici:alsancak-konak",
+      "phaseIndex": 1,
+      "phaseTitle": "Tarama",
+      "agentId": "ac37df4be9c8551b0",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795637236956,
+      "queuedAt": 1795637236796,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "11/35 (kontrol noktasına varmadan durdum: art arda 3 arama …",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'de dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM (kullanıcı): 20'li yaşlarında, İzmir'de yaşıyor. Bornova Evka 3'teki \"Casual Coffee\"nin tarzını çok beğeniyor ama orada kendi yaş grubunu (18–22 yaş kadınlar; büyük…",
+      "promptFramed": true,
+      "lastProgressAt": 1795637324829,
+      "tokens": 92488,
+      "toolCalls": 14,
+      "durationMs": 86535,
+      "resultPreview": "{\"arac\":\"11/35 (kontrol noktasına varmadan durdum: art arda 3 arama yaş kitlesi için yeni bilgi getirmedi)\",\"ozet\":\"Alsancak/Konak bölgesinde nargilesiz, kaliteli specialty kafeler net: Poka, Baristocrat, Two Cups, Coffee Mamma, Chapter, Daft, Rome, No.18, Delungo, Soulmate. Ancak hiçbir kaynakta bu mekanların yaş kitlesi (öğrenci/18-24) yazmıyor. Ulaştığım kaynaklar rehber/aggregator (Oggusto Kas…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "üretici:karsiyaka-bostanli",
+      "phaseIndex": 1,
+      "phaseTitle": "Tarama",
+      "agentId": "a458de8196bbe2e2b",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795637324877,
+      "queuedAt": 1795637236797,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "14/35 (erken durdu: son 3 arama yeni bilgi getirmedi; kayna…",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'de dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM (kullanıcı): 20'li yaşlarında, İzmir'de yaşıyor. Bornova Evka 3'teki \"Casual Coffee\"nin tarzını çok beğeniyor ama orada kendi yaş grubunu (18–22 yaş kadınlar; büyük…",
+      "promptFramed": true,
+      "lastProgressAt": 1795637441665,
+      "tokens": 100960,
+      "toolCalls": 19,
+      "durationMs": 116788,
+      "resultPreview": "{\"arac\":\"14/35 (erken durdu: son 3 arama yeni bilgi getirmedi; kaynaklar ince)\",\"ozet\":\"Karşıyaka/Bostanlı/Çiğli için yaş kitlesi kanıtı çok zayıf. Bulabildiğim kaynaklar (yemek.com, Mes Prestiges, Sprudge, Wanderlog) mekânları kahve kalitesi ve tasarım açısından anlatıyor. Hiçbirinde \\\"öğrenci\\\", \\\"18–24\\\" ya da \\\"kalabalık genç grup\\\" kanıtı yok. Bu yüzden yas_uyum puanları kanıta değil, mekân t…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "üretici:guney-bati-buca",
+      "phaseIndex": 1,
+      "phaseTitle": "Tarama",
+      "agentId": "a568665be803664b6",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795637375515,
+      "queuedAt": 1795637236797,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "14/35",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'de dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM (kullanıcı): 20'li yaşlarında, İzmir'de yaşıyor. Bornova Evka 3'teki \"Casual Coffee\"nin tarzını çok beğeniyor ama orada kendi yaş grubunu (18–22 yaş kadınlar; büyük…",
+      "promptFramed": true,
+      "lastProgressAt": 1795637457471,
+      "tokens": 94068,
+      "toolCalls": 15,
+      "durationMs": 81956,
+      "resultPreview": "{\"arac\":\"14/35\",\"ozet\":\"Bu bölgelerde (Göztepe, Güzelyalı, Üçkuyular, Balçova, Narlıdere, Hatay, Buca) 18-24 yaş kitlesinin takıldığı, nargilesiz ve ambiyanslı bir kafeyi kanıtla doğrulayamadım. Arama özetleri çoğunlukla dizin ve liste siteleri çıkardı. Yorum tarihi, öğrenci yoğunluğu ya da nargile bilgisi neredeyse hiç yoktu. Art arda zayıf sonuçlar geldiği için durdum. Hipotezi kısmen çürütüyoru…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "üretici:sosyal-sinyal",
+      "phaseIndex": 1,
+      "phaseTitle": "Tarama",
+      "agentId": "a4040e652673da555",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795637441673,
+      "queuedAt": 1795637236797,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "28/35 (kontrol noktasında durdum; son 6 çağrı yeni bilgi ge…",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'de dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM (kullanıcı): 20'li yaşlarında, İzmir'de yaşıyor. Bornova Evka 3'teki \"Casual Coffee\"nin tarzını çok beğeniyor ama orada kendi yaş grubunu (18–22 yaş kadınlar; büyük…",
+      "promptFramed": true,
+      "lastProgressAt": 1795637583456,
+      "tokens": 114226,
+      "toolCalls": 29,
+      "durationMs": 141783,
+      "resultPreview": "{\"arac\":\"28/35 (kontrol noktasında durdum; son 6 çağrı yeni bilgi getirmedi; aramalar ağırlıkla zayıf/eski sonuç verdi)\",\"ozet\":\"Sonuç zayıf: İzmir'de 18-24 yaş kitlesinin takıldığı kafeleri 2025-2026 tarihli sosyal kanıtla (yorum, Instagram, TikTok, Ekşi/Reddit) gösteren güvenilir bir kaynak bulamadım. Arama araçları Reddit, Instagram ve Google Maps yorumlarına ulaşmadı. Bulunan listeler (izmirma…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "doğrulayıcı:1",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "a87039e2f21599c92",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795637583479,
+      "queuedAt": 1795637583469,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "33/40",
+      "promptPreview": "Kontrol noktası 40 araç çağrısı; say. 40'de dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 80.\n\nBAĞLAM (kullanıcı): 20'li yaşlarında, İzmir'de yaşıyor. Bornova Evka 3'teki \"Casual Coffee\"nin tarzını çok beğeniyor ama orada kendi yaş grubunu (18–22 yaş kadınlar; büyük…",
+      "promptFramed": true,
+      "lastProgressAt": 1795637710627,
+      "tokens": 115691,
+      "toolCalls": 35,
+      "durationMs": 127147,
+      "resultPreview": "{\"arac\":\"33/40\",\"sonuclar\":[{\"ad\":\"Münire\",\"semt\":\"Alsancak (1484 Sok. No:4) - konum doğru\",\"acik\":\"doğrulanamadı\",\"nargile\":\"doğrulanamadı\",\"yas\":\"kısmen\",\"yas_not\":\"Yaş verisi yok; küçük nostaljik gazoz kafesi, 2018 yazısı ve 2017 blog öğrenci vurgusu eski. Çok kalabalık, dar oturma.\",\"fiyat_not\":\"Orta, 'biraz yüksek' yorumları (Yandex)\",\"kanit_url\":\"https://wanderlog.com/place/details/1459912/m…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "doğrulayıcı:2",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "a98cf598864ae1381",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795637583479,
+      "queuedAt": 1795637583469,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "14/40",
+      "promptPreview": "Kontrol noktası 40 araç çağrısı; say. 40'de dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 80.\n\nBAĞLAM (kullanıcı): 20'li yaşlarında, İzmir'de yaşıyor. Bornova Evka 3'teki \"Casual Coffee\"nin tarzını çok beğeniyor ama orada kendi yaş grubunu (18–22 yaş kadınlar; büyük…",
+      "promptFramed": true,
+      "lastProgressAt": 1795637653095,
+      "tokens": 98968,
+      "toolCalls": 14,
+      "durationMs": 68218,
+      "resultPreview": "{\"arac\":\"14/40\",\"sonuclar\":[{\"ad\":\"Bornova Küçükpark study cafe (ad doğrulanmadı)\",\"semt\":\"Bornova (Küçükpark)\",\"acik\":\"doğrulanamadı\",\"nargile\":\"doğrulanamadı\",\"yas\":\"doğrulanamadı\",\"yas_not\":\"Ad bile yok; tek kaynak eski Ekşi girdisi (~2020).\",\"kanit_url\":\"https://eksisozluk.com/study-cafe--6163498\",\"alinti\":\"yok\",\"karar\":\"çıkar\",\"fiyat_not\":\"Güncel fiyat yok (eski: giriş+içecek 10 TL).\"},{\"ad\":…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "eleştirmen",
+      "phaseIndex": 3,
+      "phaseTitle": "Eleştiri",
+      "agentId": "a775cb477a30338cd",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1795637710641,
+      "queuedAt": 1795637710635,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "12/15",
+      "promptPreview": "Kontrol noktası 15 araç çağrısı; say. 15'de dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 30.\n\nBAĞLAM (kullanıcı): 20'li yaşlarında, İzmir'de yaşıyor. Bornova Evka 3'teki \"Casual Coffee\"nin tarzını çok beğeniyor ama orada kendi yaş grubunu (18–22 yaş kadınlar; büyük…",
+      "promptFramed": true,
+      "lastProgressAt": 1795637887494,
+      "tokens": 110180,
+      "toolCalls": 15,
+      "durationMs": 176852,
+      "resultPreview": "{\"arac\":\"12/15\",\"itirazlar\":[{\"konu\":\"Liste kitleye göre değil kahve kalitesine göre kurulmuş\",\"itiraz\":\"Satırların yarısından fazlası specialty kavurucu ya da üçüncü dalga kahveci: Poka, Two Cups, Baristocrat, Coffee Mamma, No.18, Fünf, Spect. Hiçbirinde 18–24 kanıtı yok. Kaynaklar 'kahve meraklıları', 'mahalle müdavimi', 'books-and-conversation' diyor. Two Cups'ta laptop yasağı var, No.18 çok kü…"
+    }
+  ],
+  "totalTokens": 838464,
+  "totalToolCalls": 170
+}
