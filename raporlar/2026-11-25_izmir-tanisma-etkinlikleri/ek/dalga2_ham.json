@@ -1,0 +1,730 @@
+{
+  "summary": "Dalga 2: 2 hedefli üretici + doğrulayıcılar (hepsi sonnet)",
+  "agentCount": 5,
+  "logs": [],
+  "result": {
+    "dalga1_dogrulama": {
+      "arac": "araç: 24/30",
+      "satirlar": [
+        {
+          "ad": "BlaBla Language Exchange İzmir",
+          "karar": "doğrulandı",
+          "izmirde_mi": "evet (Konak, 866. Sokak 22)",
+          "en_yeni_kanit_tarihi": "13 Ağu 2026 Perşembe 20:30–22:00 oturumu (AllEvents); sonrası görünmüyor",
+          "duzeltme": "Yok. Sayfada mekân adı yok; 'iki haftada bir Perşembe' ve ücretsiz + en az 1 içecek doğru. Kasım 2026 için güncel tarih görülmedi.",
+          "kaynak_url": "https://allevents.in/izmir/izmir-blabla-language-exchange-2-every-other-thursday-recurrent-event/200030243286705",
+          "alinti": "Our events are GRATIS, we will not charge you anything."
+        },
+        {
+          "ad": "Eladans Sosyal Dans Gecesi",
+          "karar": "doğrulandı",
+          "izmirde_mi": "evet (Bornova, Cliff Venue, Fevzi Çakmak Cd. No:25/C)",
+          "en_yeni_kanit_tarihi": "Pazar 29 Kas ve 6 Ara 2026 listeli (SalsaVida); başka dildeki sürümde 22 Kas 2026",
+          "duzeltme": "Fiyat (300 TL, 1 içecek dahil) ana rehber sayfasında yok; arama sonucunda SalsaVida etkinlik sayfasından teyit edildi, sayfa doğrudan açılmadı. Düzenleyici: Eladans Ege Latin Dansları Spor Kulübü. Saatler değişebilir uyarısı var.",
+          "kaynak_url": "https://www.salsavida.com/guides/turkey/izmir/socials/",
+          "alinti": "Eladans Sosyal Dans Gecesi at Cliff Venue — Sundays, 9:00 PM - 12:30 AM"
+        },
+        {
+          "ad": "Garage Latin Night (Dance Garage)",
+          "karar": "düzeltildi",
+          "izmirde_mi": "evet (Bornova)",
+          "en_yeni_kanit_tarihi": "Perşembe 26 Kas ve 3 Ara 2026 listeli (SalsaVida)",
+          "duzeltme": "Saat 20:45–00:30 olarak listeli; '20:45 atölye' ifadesi sayfada geçmiyor, 20:45 gecenin başlangıcı. Ücret listelenmemiş. Salsa ve bachata sosyali.",
+          "kaynak_url": "https://www.salsavida.com/guides/turkey/izmir/socials/",
+          "alinti": "Garage Latin Night at Dance Garage; Thursdays; 8:45 PM - 12:30 AM; Bornova"
+        },
+        {
+          "ad": "My Teras Latin Night (Aegean Dance Schools)",
+          "karar": "düzeltildi",
+          "izmirde_mi": "evet (My Terrace, My Plaza, Salhane İZBAN İst., Bayraklı)",
+          "en_yeni_kanit_tarihi": "27 Kas 2026 Cuma listeli, ama sayfada ara notu var; gerçekleştiğine dair kanıt yok",
+          "duzeltme": "Her Cuma 21:00–02:00 (ön parti 19:30), kapıda nakit 300 TL doğru. Ancak sayfa 'Nisan ayına kadar ara verilmiştir' diyor; yani Kas 2026–Nis 2027 arası etkinlik yok sayılmalı, 27 Kas tarihi büyük olasılıkla eski. Düzenleyiciden teyit edilmeden aktif listelenmemeli.",
+          "kaynak_url": "https://www.salsavida.com/tr/event/turkey/izmir/my-teras-latin-night/",
+          "alinti": "Bu etkinliğe Nisan ayına kadar ara verilmiştir."
+        },
+        {
+          "ad": "Karşıyaka One Team",
+          "karar": "doğrulanamadı",
+          "izmirde_mi": "evet (Karşıyaka/Bostanlı)",
+          "en_yeni_kanit_tarihi": "Tarih yok; sayfada etkinlik tarihi görülmedi",
+          "duzeltme": "Salı 20:00 Bostanlı antrenman alanı arama özetinden teyit edildi (sayfa HTTP 429 verdi, doğrudan açılamadı). 2015 kuruluş yılı görülmedi. Programlar haber verilmeden değişebilir uyarısı var; 2026 aktifliği belgelenmedi, Instagram'dan teyit gerekir.",
+          "kaynak_url": "https://runningcrews.com/crews/karsiyaka-one-team-izmir",
+          "alinti": "Her salı akşamı Bostanlı'da 20:00'de buluşuyor (arama özeti; birebir sayfa metni alınamadı)"
+        },
+        {
+          "ad": "İzmir Türkçe Toastmasters",
+          "karar": "doğrulandı",
+          "izmirde_mi": "evet (Archstone Hotel Alsancak)",
+          "en_yeni_kanit_tarihi": "Tarihli etkinlik yok; kulüp kaydı mevcut (kuruluş 3 Oca 2019)",
+          "duzeltme": "Program ve mekân doğru; 'misafir ücretsiz' ifadesi sayfadaki 'free club visit' ile uyumlu. Kulübün şu an aktif olduğu açıkça belirtilmiyor.",
+          "kaynak_url": "https://www.toastmasters.org/find-a-club/07173891-izmir-trke-toastmasters",
+          "alinti": "1st & 3rd Thursday, 8:00 PM"
+        },
+        {
+          "ad": "Smyrna Toastmasters",
+          "karar": "düzeltildi",
+          "izmirde_mi": "evet (Bornova, Trend Bornova B Blok Kat 3, Izpek)",
+          "en_yeni_kanit_tarihi": "Kuruluş tarihi 30 Eyl 2026 (yeni kulüp); etkinlik tarihi yok",
+          "duzeltme": "Saat 19:00 değil 19:30–21:30. Gün çelişkili: 2. ve 4. Perşembe deniyor ama aynı sayfa '2nd Tuesday ... Turkish', '4th Tuesday ... English' diyor. Gün için kulüpten teyit gerek. Toplantı dili 2. hafta Türkçe, 4. hafta İngilizce.",
+          "kaynak_url": "https://www.toastmasters.org/Find-a-Club/28679541-smyrna-toastmasters",
+          "alinti": "2nd & 4th Thursday, 7:30 pm - 9:30 pm"
+        },
+        {
+          "ad": "IxDF İzmir Game & Karaoke Night",
+          "karar": "doğrulandı",
+          "izmirde_mi": "evet (BiNeviPub Alsancak)",
+          "en_yeni_kanit_tarihi": "29 Tem 2026 Çarşamba (etkinlik 'sona erdi')",
+          "duzeltme": "Tarih ve ücretsiz doğru. Sayfada saat 21:00 yazıyor (üstte 18:00–20:30 UTC). Sonrasında yeni IxDF İzmir etkinliği bulunamadı; URL'deki 'jun-25th' ve bir arama özetindeki 23 Tem eski duyuru tarihleri, esas tarih 29 Tem.",
+          "kaynak_url": "https://ixdf.org/meetups/ixdf-izmir-game-night-jun-25th-2026",
+          "alinti": "Where: BiNeviPub Alsancak"
+        },
+        {
+          "ad": "ÜNOG (İzmir oyun geliştirici topluluğu)",
+          "karar": "düzeltildi",
+          "izmirde_mi": "evet (Bornova, Biralem Pub; ayrıca Alsancak/Konak etkinlikleri)",
+          "en_yeni_kanit_tarihi": "14 Mar 2026 Girls Night (Mobidictum listesi); 11 Nis 2026 görülmedi",
+          "duzeltme": "Girls Night kaydı doğru. 11 Nis genel buluşma bu oturumda teyit edilmedi. Haziran sonrası 2026 etkinliği ve Instagram hesap adı bulunamadı (kaynakta sadece bir gönderi bağlantısı var). Önceki İzmir kayıtları 26 Haz 2025 ve 25 Eki 2025. Ayrıca Discord'da çevrim içi buluşma yapıyorlar.",
+          "kaynak_url": "https://mobidictum.com/tr/oyun-sektoru-etkinlikleri-09-15-mart-2026/",
+          "alinti": "Oyun sektöründe çalışan, üretim yapan ya da bu alana ilgi duyan kadınlar ve non-binary bireylerle"
+        },
+        {
+          "ad": "Genç İzmir (İzBB, @izbbgencizmir)",
+          "karar": "doğrulanamadı",
+          "izmirde_mi": "evet (Buca)",
+          "en_yeni_kanit_tarihi": "20 Kas 2025 quiz gecesi (haber 15 Kas 2025); 3–17 May 2026 Gençlik Günleri (tiyatro/atölye, quiz yok)",
+          "duzeltme": "Quiz gecesi bilgileri doğru (ücretsiz, form: gencizmir.com, kontenjan sınırlı, 4'lü takımlar). Quiz serisinin 2026'da sürdüğüne dair kanıt bulunamadı; 2026'da aktif olan Genç İzmir programı var ama farklı türde.",
+          "kaynak_url": "https://www.karar.com/sehir-haberleri/izmirli-gencler-hem-eglenecek-hem-yarisacak-2006956",
+          "alinti": "20 Kasım Perşembe"
+        },
+        {
+          "ad": "InterNations İzmir",
+          "karar": "doğrulanamadı",
+          "izmirde_mi": "evet",
+          "en_yeni_kanit_tarihi": "Tarih yok; sayfa HTTP 502 verdi, arama özetinde 'Friday Night Flow' başlıklı etkinlik, tarihsiz",
+          "duzeltme": "Arama özeti: 9.456 üye, 8 aylık etkinlik, 13 grup, onaylı üyelik. Tarihsiz olduğu için 2026 aktifliği ve 'aylık etkinlik' iddiası doğrulanamadı. internations.org sayfası açılmadı.",
+          "kaynak_url": "https://www.otuzbeslik.com/grup/internations-izmir",
+          "alinti": "Membership is by approval only (arama özeti; birebir sayfa metni alınamadı)"
+        },
+        {
+          "ad": "ESN İzmir şubeleri (Ege, DEÜ, Yaşar, İzmir Ekonomi)",
+          "karar": "doğrulanamadı",
+          "izmirde_mi": "evet",
+          "en_yeni_kanit_tarihi": "Arama sonuçlarında en yeni görülen 2024 (Kas 2024 Ege Turkish Dinner, Yaşar Go-Kart); 2026 kanıtı yok",
+          "duzeltme": "Kaynak sayfa 403 verdi. Şubeler: ESN Ege, ESN Dokuz Eylül, ESN Yaşar doğrulandı; İzmir Ekonomi şubesi görülmedi. Bazı etkinlikler (Chill Night, Grand Welcome Party, bilgi toplantıları) yerel öğrencilere de açık, ama uygunluk etkinlik bazında ve çoğu öğrenci odaklı; öğrenci olmayanlara açıklık doğrulanamadı.",
+          "kaynak_url": "https://activities.esn.org/organisation/esn-ege-university/activities",
+          "alinti": "Chill Night is designed so that international and local students can unwind (arama özeti)"
+        },
+        {
+          "ad": "izmir coffee talk walk (Meetup)",
+          "karar": "doğrulandı",
+          "izmirde_mi": "evet (Freija Coffee, Alsancak)",
+          "en_yeni_kanit_tarihi": "Çar 5 Ağu, 19:00 (yıl sayfada yok, 2026 olarak okundu; 5 Ağu 2026 Çarşamba'ya denk gelir)",
+          "duzeltme": "26 üye, 1 katılımcı, yaklaşan etkinlik yok. Fiilen durgun grup, öneri listesinde zayıf.",
+          "kaynak_url": "https://www.meetup.com/izmir-coffee-talk-walk/",
+          "alinti": "26 members"
+        },
+        {
+          "ad": "Meeples & Peoples Cafe",
+          "karar": "doğrulanamadı",
+          "izmirde_mi": "evet (Murat Reis Mah. 255. Sk. No:27 D:C, Konak)",
+          "en_yeni_kanit_tarihi": "Tarih yok",
+          "duzeltme": "Adres doğru ve kafe kutu oyun mekânı/mağaza olarak listeli. Oyun gecesi kaynakta geçmiyor; bağımsız aramada da bulunamadı. Hâlâ açık mı bilgisi yok; Instagram veya Google Maps'ten teyit gerek.",
+          "kaynak_url": "https://listelist.com/kutu-oyunu-oynayabileceginiz-mekanlar",
+          "alinti": "Aynı zamanda ufak bir oyun mağazası olarak da hizmet veriyor."
+        },
+        {
+          "ad": "Speed Date Türkiye",
+          "karar": "yanlış-elenmeli",
+          "izmirde_mi": "evet (2017 etkinliği)",
+          "en_yeni_kanit_tarihi": "11 Kas 2017 (kaynak 403 verdi, doğrudan görülmedi)",
+          "duzeltme": "2024 sonrası İzmir etkinliği bulunamadı; 2026 İzmir speed dating kaydı yok. Güncel öneri listesinden elenmeli.",
+          "kaynak_url": "https://biletino.com/en/e-3c5/speed-dating-ilk-bulusma-35-45-yas/",
+          "alinti": "Biletino sayfası açılamadı (HTTP 403); alıntı yok"
+        }
+      ],
+      "notlar": "24 araç çağrısı kullanıldı, kontrol noktası 30 altında kaldı. Erişilemeyen kaynaklar: Karşıyaka One Team ve blog (HTTP 429), InterNations/otuzbeslik (502), ESN etkinlik sayfaları ve Biletino (403). Bu satırlarda arama özetleri kullanıldı ve satırlarda belirtildi. Eladans fiyatı (300 TL) SalsaVida etkinlik sayfasından arama özetiyle teyit edildi. Satır 4 en kritik düzeltme: 'Nisan'a kadar ara' notu nedeniyle Kasım 2026 için aktif sayılmamalı. Satır 7'de gün çelişkisi (Perşembe/Salı) var. ÜNOG 11 Nis etkinliği ve Instagram adı, Karşıyaka One Team 2015 kuruluşu bulunamadı."
+    },
+    "dalga2": [
+      {
+        "key": "sosyal-organizator",
+        "uretim": {
+          "arac": "araç: 25/35",
+          "ozet": "T1-T11 tüketildi. Ana bulgu: Socialvibe İzmir'de etkinlik yaptığına dair kanıt YOK. Herkese açık ön kayıt formundaki üç etkinliğin (25 Kas Jolly Joker Pub Kanyon 500 TL; 27 Kas Entropi Kadıköy 600 TL; 28 Kas The Game For Big Kids 600 TL) hepsi İstanbul'a işaret ediyor (form şehir adı yazmıyor, Kanyon ve Kadıköy İstanbul semtleri). Form işleyişi: ön başvuru, onaylananlara WhatsApp ile bilgi, kapıda bilet yok, iade yok; cinsiyet sorusu Kadın/Erkek. Threads profili girişsiz içerik göstermiyor (157 takipçi). 'socialvibe izmir' aramaları boş döndü. Timeleft İzmir: timeleft.com şehir listesi vermiyor, aramada İzmir sayfası çıkmadı; doğrulanamadı. Bubilet İzmir 403 verdi; aramada Bubilet'in quiz/speed friending serileri yalnızca İstanbul'da çıktı. AllEvents İzmir sayfasında tanışma/oyun gecesi yok. site:instagram.com operatörü arama motorunda çalışmadı, hiçbir Instagram sonucu gelmedi; bu yüzden Instagram kullanıcı adı veremiyorum. İzmir'de 2026 kanıtı olan tek oyun gecesi IxDF Izmir Game & Karaoke Night (29 Temmuz 2026, BiNeviPub Alsancak, ücretsiz, tasarımcı topluluğu, 'ilk' etkinlik). Diğerleri: ESN İzmir speed friending/speed meeting (öğrenci odaklı, Şubat 2025'te 34 katılımcı), Luma teknoloji buluşmaları (karma, tanışma amaçlı değil). Sonuç: İzmir'de Instagram tabanlı sosyal/oyun gecesi organizatörlerini web aramasıyla bulamadık; en olası yol Instagram'da elle arama (İzmir etiketleri, Socialvibe'ın hikâye/WhatsApp kanalı) ve Socialvibe'a doğrudan DM ile İzmir tarihi sormak.",
+          "topluluklar": [
+            {
+              "ad": "IxDF Izmir Local Group - Game & Karaoke Night",
+              "tur": "oyun gecesi (tasarım topluluğu)",
+              "hesap_veya_url": "https://ixdf.org/meetups/ixdf-izmir-game-night-jun-25th-2026",
+              "yer": "BiNeviPub, Alsancak, İzmir",
+              "bicim": "Oyun ve karaoke gecesi, ücretsiz, rezervasyonla",
+              "son_etkinlik_kaniti": "29 Temmuz 2026: IxDF Izmir Game & Karaoke Night, 11 kişi katılıyor görünüyor; sayfa 'Meetup Has Ended' diyor",
+              "kaynak_url": "https://ixdf.org/meetups/ixdf-izmir-game-night-jun-25th-2026",
+              "alinti": "IxDF Local Group events are open to everyone.",
+              "guven": "orta",
+              "ucret": "Ücretsiz",
+              "kadin_katilimi_notu": "Karma; cinsiyet dengesi bilgisi yok. Kendini 'ilk' Game & Karaoke Night olarak tanımlıyor, tekrar belirsiz."
+            },
+            {
+              "ad": "ESN İzmir (Erasmus Student Network) speed friending / speed meeting",
+              "tur": "öğrenci tanışma etkinlikleri",
+              "hesap_veya_url": "https://activities.esn.org/activity/speed-meeting-night-32536",
+              "yer": "İzmir (Alsancak pub turu, Barbaros Bulvarı dahil)",
+              "bicim": "Speed friending, speed meeting, drink hopping; buz kırıcı oyunlar",
+              "son_etkinlik_kaniti": "Şubat 2025: Speed Meeting Night, 34 katılımcı (arama özeti; sayfa açılamadı). 2026 kanıtı yok.",
+              "kaynak_url": "https://activities.esn.org/activity/speed-meeting-night-32536",
+              "alinti": "speed meeting night 32536",
+              "guven": "düşük",
+              "ucret": "bilinmiyor",
+              "kadin_katilimi_notu": "Karma, öğrenci/Erasmus ağırlıklı; yerel yetişkinlere açık olup olmadığı belirsiz."
+            },
+            {
+              "ad": "İzmir International Meeting (Alsancak)",
+              "tur": "yabancılar/yerliler tanışma buluşması",
+              "hesap_veya_url": "https://www.otuzbeslik.com/etkinlikler/sardunyas/20-11-2019-19-30/izmir-international-meeting",
+              "yer": "Sardunya's, Alsancak, İzmir",
+              "bicim": "Yabancılar, gezginler, öğrenciler, yerlilerle buluşma",
+              "son_etkinlik_kaniti": "20 Kasım 2019 (eski; 2026 kanıtı yok)",
+              "kaynak_url": "https://www.otuzbeslik.com/etkinlikler/sardunyas/20-11-2019-19-30/izmir-international-meeting",
+              "alinti": "İzmir International Meeting",
+              "guven": "düşük",
+              "ucret": "bilinmiyor",
+              "kadin_katilimi_notu": "Karma."
+            },
+            {
+              "ad": "Yabangee İzmir Get Together (Summer Edition)",
+              "tur": "expat buluşması",
+              "hesap_veya_url": "https://www.expat.com/en/events/middle-east/turkey/izmir/4-nightlife/5749-a-yabangee-izmir-get-together-summer-edition.html",
+              "yer": "İzmir",
+              "bicim": "Expat sosyal buluşma",
+              "son_etkinlik_kaniti": "Tarih doğrulanamadı; sayfa 410 Gone döndü, büyük olasılıkla eski",
+              "kaynak_url": "https://www.expat.com/en/events/middle-east/turkey/izmir/4-nightlife/5749-a-yabangee-izmir-get-together-summer-edition.html",
+              "alinti": "a yabangee izmir get together summer edition",
+              "guven": "düşük",
+              "ucret": "bilinmiyor",
+              "kadin_katilimi_notu": "Karma."
+            },
+            {
+              "ad": "Socialvibe (@socialvibeevent) - İzmir kolu doğrulanamadı",
+              "tur": "oyun geceleri / sosyal etkinlik (İstanbul odaklı)",
+              "hesap_veya_url": "https://forms.gle/2J5dUiqiy1NPgvM37",
+              "yer": "Formdaki üç etkinlik İstanbul semtlerinde (Kanyon, Kadıköy); üçüncüsünün şehri belirtilmemiş",
+              "bicim": "Ön başvuruyla onay, WhatsApp'tan bilgi; oyun geceleri ve turnuvalar",
+              "son_etkinlik_kaniti": "25-28 Kasım 2026 için ön kayıt formu açık; üçü de İstanbul görünümlü, İzmir tarihi yok",
+              "kaynak_url": "https://docs.google.com/forms/d/e/1FAIpQLSfZDHaPJ8AhSsxRiWQzTaNOpopUiZqoVrc2Y_egtYXiDVhPwg/viewform?usp=send_form",
+              "alinti": "Socialvibe Oyun Gecesi Ön Kayıt Formu",
+              "guven": "yüksek",
+              "ucret": "500-600 TL",
+              "kadin_katilimi_notu": "Karma; formda cinsiyet sorusu (Kadın/Erkek) var, başvurular elenip onaylanıyor, bu da denge gözetildiğini düşündürür ama belgelenmedi."
+            }
+          ],
+          "ek_iddialar": [
+            {
+              "iddia": "Threads profili @socialvibeevent girişsiz gönderi göstermiyor; 157 takipçi, Instagram'a bağlı.",
+              "kaynak_url": "https://www.threads.com/@socialvibeevent",
+              "alinti": "Log in to see more from socialvibeevent.",
+              "guven": "yüksek"
+            },
+            {
+              "iddia": "Timeleft ana sayfası şehirleri listelemiyor; İzmir'de Timeleft var mı doğrulanamadı.",
+              "kaynak_url": "https://timeleft.com/?p=1251",
+              "alinti": "200+ cities across 52 countries",
+              "guven": "orta"
+            },
+            {
+              "iddia": "AYKIRI: Quiz geceleri (pub quiz) Bubilet'te yalnızca İstanbul'da çıkıyor, İzmir'de hiç çıkmadı.",
+              "kaynak_url": "https://www.bubilet.com.tr/istanbul/etkinlik/pub-quiz-night-on-gaming-essentials-questions-in-english-and-turkish",
+              "alinti": "Pub Quiz Night on Gaming Essentials: Questions in English and Turkish",
+              "guven": "orta"
+            },
+            {
+              "iddia": "AllEvents İzmir sayfasında oyun gecesi/tanışma yok; yalnızca Horeca Fair (1-4 Aralık) ve 'Hayrettin ile Kaos Night' benzeri etkinlikler.",
+              "kaynak_url": "https://allevents.in/izmir",
+              "alinti": "Hayrettin ile Kaos Night",
+              "guven": "orta"
+            },
+            {
+              "iddia": "Luma'daki İzmir Claude Buluşması 26 Temmuz 2026'da yapıldı (geçmiş); tanışma amaçlı küçük teknoloji topluluğu, karma.",
+              "kaynak_url": "https://luma.com/rthfp0fd",
+              "alinti": "İzmir Claude Buluşması",
+              "guven": "orta"
+            },
+            {
+              "iddia": "TARK Mixer İzmir (İzQ, Konak) oyun geliştiricilere yönelik, geçmiş etkinlik.",
+              "kaynak_url": "https://luma.com/4zgv2ufj",
+              "alinti": "oyun üreten ya da üretmek isteyen insanların rahatça bir araya gelip konuşabildiği ve fikir paylaşabildiği bir akşam",
+              "guven": "orta"
+            },
+            {
+              "iddia": "Meetup 'international-friends-of-izmir' grubu sayfası artık yok (Meetup: grup mevcut değil); arama özeti başka bir ad (Izmir International Connections) ve yaklaşan etkinlik olmadığını söylüyor.",
+              "kaynak_url": "https://www.meetup.com/tr-TR/international-friends-of-izmir/",
+              "alinti": "Üzgünüz, aradığınız grup mevcut değil",
+              "guven": "orta"
+            },
+            {
+              "iddia": "Fever İzmir sayfası arama sonuçlarında çıktı (olası tanışma/deneyim etkinlikleri); açılmadı.",
+              "kaynak_url": "https://feverup.com/en/izmir-turkiye",
+              "alinti": "izmir turkiye",
+              "guven": "düşük"
+            }
+          ],
+          "aykiri_kanit": "Socialvibe'ın herkese açık formunda yalnızca İstanbul görünümlü etkinlikler var (Kanyon, Kadıköy); İzmir'e dair hiçbir tarih, mekân ya da seçenek yok. Bubilet'in quiz ve tanışma serileri aramalarda yalnızca İstanbul'da çıktı. Arama motoru site:instagram.com operatörünü uygulamadı, hiçbir Instagram sayfası dönmedi; 'Instagram'da İzmir'de bu tür organizatör yok' sonucu çıkarılamaz, yalnızca web aramasıyla görülemiyor.",
+          "acik_kalanlar": [
+            "Socialvibe'ın İzmir etkinliği olup olmadığı (Instagram gönderi/hikâyeleri ve WhatsApp duyuru kanalı girişsiz görülemedi)",
+            "Timeleft'in İzmir'de aktif olup olmadığı (uygulama/şehir listesi gerekir)",
+            "Bubilet İzmir sayfası 403 verdi; İzmir tanışma/quiz serileri doğrudan kontrol edilemedi",
+            "Biletinial, Passo, Biletix aramaları yalnızca tiyatro/konser döndürdü; sosyal etkinlik bulunamadı",
+            "Instagram'da İzmir oyun gecesi, Vampir Köylü, speed dating, sosyal kulüp hesapları (site: operatörü çalışmadı; hesap adı tahmin edilmedi)",
+            "ESN İzmir etkinliklerinin 2026 tarihleri ve yerel yetişkinlere açık olup olmadığı (ESN sayfası 403)",
+            "Ekşi Sözlük, Reddit, kadinlarkulubu.com (403) içerikleri okunamadı",
+            "TikTok araması ayrıca yapılmadı; haber araması sonuç vermedi",
+            "Fever İzmir sayfası açılmadı"
+          ]
+        },
+        "dogrulama": [
+          {
+            "arac": "araç: 8/10",
+            "satirlar": [
+              {
+                "ad": "IxDF Izmir Local Group - Game & Karaoke Night",
+                "karar": "düzeltildi",
+                "izmirde_mi": "evet (BiNeviPub Alsancak, İzmir)",
+                "en_yeni_kanit_tarihi": "29 Temmuz 2026, Çarşamba 21:00 yerel saat: IxDF Izmir Game & Karaoke Night; 11 kişi katılıyor; sayfa 'Meetup Has Ended'",
+                "duzeltme": "Mekân, ücret (ücretsiz), İzmir ve 2026 etkinliği doğru. Düzeltme: sayfa 29 Temmuz 2026 tarihli (URL 'jun-25th' diyor ama sayfadaki tarih 29 Temmuz); etkinlik sona ermiş. 'Rezervasyonla' bilgisi sayfada doğrulanmadı. Düzenli bir takvim görünmüyor; 29 Temmuz sonrası kanıt yok.",
+                "kaynak_url": "https://ixdf.org/meetups/ixdf-izmir-game-night-jun-25th-2026",
+                "alinti": "IxDF Local Group events are open to everyone."
+              },
+              {
+                "ad": "ESN İzmir (Erasmus Student Network) speed friending / speed meeting",
+                "karar": "doğrulanamadı",
+                "izmirde_mi": "evet (arama özeti: Speed Meeting Night İzmir, 26 Şubat 2025)",
+                "en_yeni_kanit_tarihi": "26 Şubat 2025: Speed Meeting Night, 34 katılımcı (arama özeti; sayfa 403). Ayrıca 29 Eylül 2024 Ice Breaking Speed Friending, İzmir, 32 katılımcı. 2026'da speed friending kanıtı yok (ESN Ege Üniversitesi listesinde Aralık 2025-Ocak 2026 Karaoke & Game Night ve Movie Night var, speed friending yok).",
+                "duzeltme": "Speed friending 2026'da aktif görünmüyor; ücret bilinmiyor. Sayfa doğrudan açılamadı (403), bilgiler arama özetinden. ESN Ege Üniversitesi bölümünde başka sosyal etkinlikler 2025-26 döneminde var, bu daha aktif bir ipucu.",
+                "kaynak_url": "https://activities.esn.org/activity/speed-meeting-night-32536",
+                "alinti": "speed meeting night 32536"
+              },
+              {
+                "ad": "İzmir International Meeting (Alsancak)",
+                "karar": "yanlış-elenmeli",
+                "izmirde_mi": "evet (Sardunya's, Alsancak, 2019 kaydına göre)",
+                "en_yeni_kanit_tarihi": "20 Kasım 2019 (URL'den; sayfa 502 verdi, açılamadı)",
+                "duzeltme": "Yalnızca 2019 tarihli tek etkinlik kaydı; 2026'da aktif olduğuna dair hiçbir kanıt yok, aramada çıkmadı. Güncel topluluk olarak listeden çıkarılmalı.",
+                "kaynak_url": "https://www.otuzbeslik.com/etkinlikler/sardunyas/20-11-2019-19-30/izmir-international-meeting",
+                "alinti": "İzmir International Meeting"
+              },
+              {
+                "ad": "Yabangee İzmir Get Together (Summer Edition)",
+                "karar": "yanlış-elenmeli",
+                "izmirde_mi": "evet (arama özeti: 1453 Sokak No:7 Alsancak)",
+                "en_yeni_kanit_tarihi": "Eylül 2017: Daily Sabah, Yabangee'nin 23 Eylül 2017'de İzmir 'Get Together Party'sini duyuruyor; expat.com sayfası 410 Gone",
+                "duzeltme": "Etkinlik büyük olasılıkla 2017 kaynaklı ve sayfa kaldırılmış (410). 2026 kanıtı yok; elenmeli.",
+                "kaynak_url": "https://www.expat.com/en/events/middle-east/turkey/izmir/4-nightlife/5749-a-yabangee-izmir-get-together-summer-edition.html",
+                "alinti": "As Yabangee launches their \"get together\" event series in Istanbul, we thought we should do the same for beautiful Izmir."
+              },
+              {
+                "ad": "Socialvibe (@socialvibeevent) - İzmir kolu doğrulanamadı",
+                "karar": "yanlış-elenmeli",
+                "izmirde_mi": "hayır (formda İzmir geçmiyor; Kanyon ve Kadıköy İstanbul)",
+                "en_yeni_kanit_tarihi": "Form: 25 Kasım (Çarşamba), 27 Kasım (Cuma), 28 Kasım (Cumartesi) 2026; İzmir ile ilgili tarih yok",
+                "duzeltme": "Form üç etkinliği listeliyor: Jolly Joker Pub Kanyon 500 TL, Entropi Kadıköy 600 TL, The Game For Big Kids 600 TL (şehir belirtilmemiş). Şehir sayfada yazmıyor ama ilk ikisi İstanbul. İzmir etkinliği kanıtlanmadığından İzmir listesinden elenmeli.",
+                "kaynak_url": "https://docs.google.com/forms/d/e/1FAIpQLSfZDHaPJ8AhSsxRiWQzTaNOpopUiZqoVrc2Y_egtYXiDVhPwg/viewform?usp=send_form",
+                "alinti": "Socialvibe Oyun Gecesi Ön Kayıt Formu"
+              }
+            ],
+            "notlar": "Satır 1 sayfası doğrudan açıldı ve doğrulandı. Satır 2 (403), 3 (502) ve 4 (410) sayfaları açılamadı; bilgiler arama özetlerine dayanıyor. Satır 3 için bağımsız arama 2026 kanıtı bulmadı. Satır 4'ün 2017 tarihi Daily Sabah özetinden çıkarıldı (expat.com sayfasıyla aynı etkinlik olduğu kesin değil). Satır 5'te üçüncü etkinliğin şehri belirtilmemiş; bu yüzden İzmir ihtimali tamamen kapanmış sayılmaz ama kanıt da yok. Instagram'a bakılmadı."
+          }
+        ]
+      },
+      {
+        "key": "aktivite-topluluk",
+        "uretim": {
+          "arac": "araç: 24/35",
+          "ozet": "Tüm T1-T9 taktikleri denendi (bubilet 403 verdi, Strava sayfasına doğrudan erişilemedi). Arama motoru hiçbir instagram.com sayfası döndürmedi; bu yüzden aşağıdaki Instagram adı yalnızca üçüncü taraf sayfada geçtiği için yazıldı. En güçlü ve tek sağlam aday Karşıyaka One Team (@kskoneteam): her salı 20:00 Bostanlı'da, beş tempo grubu, yeni başlayanlar için koşu-yürüyüş grubu var. Ancak 2025-2026'ya ait tarihli etkinlik kanıtı bulamadım (kaynaklar tarihsiz), bu yüzden güven orta. Revolucion Run Club ve Theravita221 yalnızca Wings for Life İnciraltı yerel ortak listesinde geçiyor; program bilgisi yok. Runatik grubu 2022 tarihli. Doğa yürüyüşünde İzmir merkezli, 2026'da aktif ve herkese açık bir grup doğrulanamadı; TURBELDAK (Turgutlu Belediyesi) Urla'da yürüyüş yapıyor ama Turgutlu merkezli, tarihi belirsiz. Kutu oyun: Meeples & Peoples (Konak) ve Play Box Cafe mekan olarak var, 2026 oyun gecesi kanıtı yok; tarihli tek oyun gecesi IxDF (23 Temmuz 2026, tasarımcı topluluğu). Atölye: 2026'da İzmir'de tek seferlik seramik kanıtı yok; Uluslararası Seramik Çalıştayı (9-18 Ekim 2026) çok günlü ve izleyici ağırlıklı. Kitap kulübü: Biz de Varız (online, Elif Topçu, ayın ilk pazarı) ve Bir Dokun Bir İşit (aylık İzmir yüz yüze planı) bulundu, ikisi de İzmir'e özgü canlı kanıt sunmuyor. Belediye: İzmir Büyükşehir Gençlik Faaliyetleri Bürosu 25 Ekim 2026'da 250 gençle ücretsiz Efes-Mimas yürüyüşü yaptı (tarihli, güçlü kanıt); Genç İzmir için @izbbgencizmir ve gencizmir.com bir haberde anıldı. Kasım 2025 quiz serisinin 2026'da sürdüğüne dair kanıt bulunamadı. Bornova Belediyesi yaz hobi kursları 29 Haziran-28 Ağustos 2026 (geçti; kayıt dönemi tekrarlanıyor olabilir). Kadın katılımı oranlarına dair hiçbir kaynakta sayı yok; dans/atölye kadın çoğunluğu iddiası kanıtlanamadı.",
+          "topluluklar": [
+            {
+              "ad": "Karşıyaka One Team",
+              "tur": "Run club (halka açık koşu topluluğu)",
+              "hesap_veya_url": "@kskoneteam (instagram.com/kskoneteam); strava.com/clubs/kskoneteam; https://mymindisracing.com/org/5fb3a012-b205-471f-ae56-c1334e2acb51",
+              "yer": "Bostanlı sahili, Karşıyaka, İzmir",
+              "bicim": "Haftalık ücretsiz (ücret bilgisi kaynakta yok) grup koşusu, her salı 20:00; Kumrucular 6 km, Çiğdemciler 5 km, Boyozcular 4 km koşu-yürüyüş",
+              "son_etkinlik_kaniti": "Tarihli 2026 kanıtı yok. Wings for Life World Run İnciraltı (10 Mayıs 2026) sayfasında yerel ortak olarak listeli; Fanatik'te '6 yıldır İzmir'in çeşitli yerlerinde antrenman' (tarihsiz)",
+              "kaynak_url": "https://mymindisracing.com/org/5fb3a012-b205-471f-ae56-c1334e2acb51",
+              "alinti": "Every Tuesday night at Bostanlı, they gather at 20:00 to run five different paces",
+              "guven": "orta",
+              "ucret": "Bilinmiyor (kaynakta belirtilmemiş; Runatik için ücretsiz yazıyor, bu grup için doğrulanmadı)",
+              "kadin_katilimi_notu": "Karma; kadınlara özel değil. Posta haberinde bir kadın katılımcı 4 yıldır koşuyor ve 'Antrenmanlarımız çok keyifli geçiyor' diyor; denge oranı bilgisi yok."
+            },
+            {
+              "ad": "Revolucion Run Club",
+              "tur": "Run club",
+              "hesap_veya_url": "Hesap bulunamadı (tahmin edilmedi)",
+              "yer": "İzmir",
+              "bicim": "Bilinmiyor",
+              "son_etkinlik_kaniti": "Wings for Life World Run İnciraltı (10 Mayıs 2026) yerel ortak listesinde adı geçiyor",
+              "kaynak_url": "https://www.wingsforlifeworldrun.com/en/locations/izmir-inciralti",
+              "alinti": "Local Partners Karşıyaka One TeamRevolucion run clubTheravita221",
+              "guven": "düşük",
+              "ucret": "Bilinmiyor",
+              "kadin_katilimi_notu": "Bilgi yok"
+            },
+            {
+              "ad": "Theravita221",
+              "tur": "Run/koşu grubu (türü kaynakta belirtilmemiş)",
+              "hesap_veya_url": "Hesap bulunamadı (tahmin edilmedi)",
+              "yer": "İzmir",
+              "bicim": "Bilinmiyor",
+              "son_etkinlik_kaniti": "Wings for Life World Run İnciraltı (10 Mayıs 2026) yerel ortak listesinde adı geçiyor",
+              "kaynak_url": "https://www.wingsforlifeworldrun.com/en/locations/izmir-inciralti",
+              "alinti": "Local Partners Karşıyaka One TeamRevolucion run clubTheravita221",
+              "guven": "düşük",
+              "ucret": "Bilinmiyor",
+              "kadin_katilimi_notu": "Bilgi yok"
+            },
+            {
+              "ad": "İzmir Büyükşehir Belediyesi Gençlik Faaliyetleri Bürosu (Genç İzmir)",
+              "tur": "Belediye ücretsiz gençlik etkinliği (doğa yürüyüşü dahil)",
+              "hesap_veya_url": "@izbbgencizmir ve gencizmir.com (bir arama özetinde anıldı, sayfada doğrulanmadı)",
+              "yer": "İzmir (Efes-Mimas Yolu, Azmak Koyu-Sığacık)",
+              "bicim": "Organize toplu yürüyüş, lisanslı dağcı eşliğinde; kayıt yöntemi haberde yok",
+              "son_etkinlik_kaniti": "25 Ekim 2026 haberi: 'Cumhuriyetin İzinde Genç Adımlar', 9 km, 250 genç",
+              "kaynak_url": "https://www.yenibakishaber.com/izmirde-gencler-dogayla-kadinlar-tarihle-bulustu",
+              "alinti": "250 gencin katılımıyla",
+              "guven": "yüksek",
+              "ucret": "Ücret bilgisi haberde yok (belediye etkinliği)",
+              "kadin_katilimi_notu": "Karma gençlik etkinliği; ayrıca aynı belediyenin Kadın Faaliyetleri Bürosu kadınlara özel geziler düzenliyor (200 kadın, Çanakkale, ancak Bornova Yeşilova mahallesi sakinleri için)."
+            },
+            {
+              "ad": "Turgutlu Belediyesi Dağcılık Akademisi (TURBELDAK)",
+              "tur": "Doğa yürüyüşü grubu",
+              "hesap_veya_url": "Hesap bulunamadı",
+              "yer": "Turgutlu merkezli; son yürüyüş Urla Barbaros Köyü-Balıklıova",
+              "bicim": "Düzenli hafta sonu doğa yürüyüşü, ~12 km",
+              "son_etkinlik_kaniti": "Tarihsiz haber (2026 sonları olabilir, doğrulanamadı)",
+              "kaynak_url": "https://www.gazetebirlik.com/yasam/doganin-kalbine-yolculuk-turbeldak-ekibi-egenin-gizli-rotasini-kesfetti/983001",
+              "alinti": "Turgutlu Belediyesi Dağcılık Akademisi (TURBELDAK), düzenli olarak gerçekleştirdiği doğa yürüyüşlerine bir yenisini daha ekledi.",
+              "guven": "düşük",
+              "ucret": "Bilinmiyor",
+              "kadin_katilimi_notu": "Bilgi yok; İzmir şehir merkezi grubu değil, Manisa/Turgutlu belediyesi."
+            },
+            {
+              "ad": "Meeples & Peoples Cafe",
+              "tur": "Kutu oyun kafe",
+              "hesap_veya_url": "Hesap bulunamadı",
+              "yer": "Murat Reis, 255. Sk. no:27 D:C, Konak, İzmir",
+              "bicim": "Kafe, kutu oyun oynama ve oyun mağazası; düzenli oyun gecesi kanıtı yok",
+              "son_etkinlik_kaniti": "2026 etkinlik kanıtı bulunamadı",
+              "kaynak_url": "https://listelist.com/kutu-oyunu-oynayabileceginiz-mekanlar",
+              "alinti": "Meeples & Peoples Cafe",
+              "guven": "düşük",
+              "ucret": "Bilinmiyor",
+              "kadin_katilimi_notu": "Bilgi yok"
+            },
+            {
+              "ad": "Play Box Cafe - Oyun Dünyası",
+              "tur": "Oyun kafe",
+              "hesap_veya_url": "Hesap bulunamadı",
+              "yer": "İzmir",
+              "bicim": "Kafe; arkadaşlarla oyun",
+              "son_etkinlik_kaniti": "Tarihli etkinlik yok",
+              "kaynak_url": "https://www.firmasec.com/firma/mmzzbr-play-box-cafe-oyun-dunyasi",
+              "alinti": "Play Box Cafe – Oyun Dünyası",
+              "guven": "düşük",
+              "ucret": "Bilinmiyor",
+              "kadin_katilimi_notu": "Bilgi yok"
+            },
+            {
+              "ad": "Biz de Varız Online Kitap Kulübü",
+              "tur": "Kitap kulübü (online)",
+              "hesap_veya_url": "https://tally.so/r/RGVDep (Instagram yok)",
+              "yer": "Online (Google Meet), İzmir'e özgü değil",
+              "bicim": "Ayın ilk pazarı canlı edebiyat sohbeti, ücretli ödeme linki var",
+              "son_etkinlik_kaniti": "27 Eylül 2026, 20:00-22:00, Google Meet",
+              "kaynak_url": "https://tally.so/r/RGVDep",
+              "alinti": "Her ayın ilk pazar günü, Elif Topçu ile birlikte canlı edebiyat sohbetlerinde buluşacağız.",
+              "guven": "orta",
+              "ucret": "Ücretli görünüyor (ödeme linki var, tutar doğrulanmadı)",
+              "kadin_katilimi_notu": "Belirtilmemiş"
+            },
+            {
+              "ad": "Bir Dokun Bir İşit Kitap Kulübü",
+              "tur": "Kitap kulübü (online + planlı İzmir yüz yüze)",
+              "hesap_veya_url": "Hesap bulunamadı",
+              "yer": "Online + İzmir",
+              "bicim": "Ayın son pazarı Google Meet; İzmir'de ayda bir yüz yüze buluşma planı",
+              "son_etkinlik_kaniti": "26 Temmuz 2026 toplantısı anıldı (arama özeti; doğrulanmadı)",
+              "kaynak_url": "https://tally.so/r/RGVDep",
+              "alinti": "Ayrıca İzmir'de yaşayanlar için ayda bir yüz yüze buluşma düzenleyeceğiz.",
+              "guven": "düşük",
+              "ucret": "Bilinmiyor",
+              "kadin_katilimi_notu": "Bilgi yok"
+            }
+          ],
+          "ek_iddialar": [
+            {
+              "iddia": "Runatik (Merrell Bold Union) İzmir'de Bostanlı sahilinde ~100 kişiyle ücretsiz grup koşusu yaptı; ancak 2022 tarihli, güncel olduğu doğrulanmadı",
+              "kaynak_url": "https://www.posta.com.tr/spor/diger-sporlar/runatik-izmirde-duzenlendi-2411582",
+              "alinti": "Bostanlı- Karşıyaka sahili boyunca koştu",
+              "guven": "düşük"
+            },
+            {
+              "iddia": "İzmir Büyükşehir, 3 Mayıs 2026'da ~1000 kişilik Balkan Dostluk Koşusu düzenledi (tek seferlik, topluluk değil)",
+              "kaynak_url": "https://www.izmir.bel.tr/en/News/runners-gather-for-friendship/58547/162",
+              "alinti": "we are gathered to celebrate a deep-rooted and enduring friendship through the first Balkan Friendship Run",
+              "guven": "yüksek"
+            },
+            {
+              "iddia": "İzBBŞT Gençlik Günleri 3-17 Mayıs 2026 (tiyatro atölyeleri dahil); bilet kultursanatbilet.izmir.bel.tr; sona erdi",
+              "kaynak_url": "https://www.karar.com/sehir-haberleri/izmirde-genclik-gunleri-coskusu-devam-ediyor-2047952",
+              "alinti": "3-17 Mayıs tarihleri arasında düzenlenen etkinlikte",
+              "guven": "yüksek"
+            },
+            {
+              "iddia": "Bornova Belediyesi yaz hobi kursları 29 Haziran-28 Ağustos 2026, 10 merkezde (arama özeti; sayfa açılmadı)",
+              "kaynak_url": "https://bornova.bel.tr/summer-break-turns-into-a-season-of-creativity-in-bornova?lang=en",
+              "alinti": "Summer Break Turns into a Season of Creativity in Bornova",
+              "guven": "orta"
+            },
+            {
+              "ad_not": "",
+              "iddia": "IxDF İzmir Game Night (tasarım topluluğu, ücretsiz, 23 Temmuz 2026) tek tarihli oyun gecesi kanıtı",
+              "kaynak_url": "https://ixdf.org/meetups/ixdf-izmir-game-night-jun-25th-2026",
+              "alinti": "IxDF Izmir Game Night",
+              "guven": "orta"
+            },
+            {
+              "iddia": "Uluslararası İzmir Seramik Çalıştayı 9-18 Ekim 2026, Kültürpark; raku gösterisi 10 Ekim halka açık; çok günlü, geçti",
+              "kaynak_url": "https://www.karar.com/sehir-haberleri/uluslararasi-seramik-calistayi-izmirde-basladi-2077477",
+              "alinti": "Uluslararası Seramik Çalıştayı İzmir’de başladı",
+              "guven": "orta"
+            }
+          ],
+          "aykiri_kanit": "Aykırı kanıt: kapanma ya da şikâyet kaydı bulunamadı; asıl sorun kanıt eksikliği. Arama motorları hiçbir İzmir run club, doğa yürüyüşü veya oyun kafe Instagram sayfası döndürmedi. Run club'ların 'tanışma yeri' olduğuna dair 2026 İzmir haberi yok; çıkan haberler İstanbul odaklı veya 2022 tarihli (Runatik). Hiçbir kaynak İzmir'de kadın katılım oranı vermiyor; 'dans/atölyede kadın çoğunluğu' iddiası kanıtlanamadı. Tek seferlik seramik arandı, İzmir'de 2026 için bulunamadı (örnekler İstanbul'da). Meetup'ta İzmir hiking grubu bulunamadı.",
+          "acik_kalanlar": [
+            "Karşıyaka One Team'in 2026'da hâlâ haftalık koştuğu (Instagram @kskoneteam son gönderi tarihi) doğrulanamadı",
+            "Strava kulüp sayfası (üye sayısı) açılamadı",
+            "Revolucion Run Club ve Theravita221 için Instagram, program ve türü bilinmiyor",
+            "Kordon/Alsancak/Bostanlı için başka run club (Alsancak Runners, Adım Adım, Volt Floyd) yalnızca eski veya yan kaynaklarda anıldı, doğrulanmadı",
+            "İzmir merkezli doğa yürüyüşü grubu (IZDOS vb.) için 2026 etkinlik kanıtı yok",
+            "İzmir kutu oyun kafelerinin düzenli oyun gecesi var mı bilinmiyor; Instagram hesapları bulunamadı",
+            "bubilet.com.tr 403 verdi; atölye listesi alınamadı",
+            "Genç İzmir Kasım 2025 quiz serisinin 2026'da sürüp sürmediği doğrulanamadı",
+            "İlçe gençlik merkezleri (Karşıyaka, Bornova) için güncel etkinlik takvimi bulunamadı",
+            "Biz de Varız ve Bir Dokun Bir İşit kulüplerinin ücreti ve İzmir yüz yüze buluşmaları doğrulanamadı"
+          ]
+        },
+        "dogrulama": [
+          {
+            "arac": "araç: 11/18",
+            "satirlar": [
+              {
+                "ad": "Karşıyaka One Team",
+                "karar": "düzeltildi",
+                "izmirde_mi": "Evet (Bostanlı, Karşıyaka)",
+                "en_yeni_kanit_tarihi": "Tarihli 2026 etkinlik kanıtı yok; Wings for Life World Run İnciraltı 10 Mayıs 2026 yerel ortak listesi (arama özeti)",
+                "duzeltme": "Salı 20:00 Bostanlı, 5 tempo grubu doğru. Sayfada Instagram (kskoneteam) ve Strava (kskoneteam) bağlantıları doğrulandı. Ücret bilgisi yok (satırdaki 'Haftalık ücretsiz' ifadesi doğrulanmadı). Pace adları (Kumrucular 6 km vb.) sayfada yok, RunningCrews'te de yalnızca 'İzmir sokak yiyecekleri' deniyor. RunningCrews perşembe ve pazar antrenmanı da anıyor. Güncellik için kulüple iletişime geçin.",
+                "kaynak_url": "https://mymindisracing.com/org/5fb3a012-b205-471f-ae56-c1334e2acb51",
+                "alinti": "Every Tuesday night at Bostanlı, they gather at 20:00 to run five different paces as one team."
+              },
+              {
+                "ad": "Revolucion Run Club",
+                "karar": "doğrulandı",
+                "izmirde_mi": "Evet (İzmir İnciraltı etkinliğinin yerel ortağı; kulüp merkezi kaynakta belirtilmemiş)",
+                "en_yeni_kanit_tarihi": "Wings for Life World Run İnciraltı, 10 Mayıs 2026 (etkinlik tarihi MESCO haberinde teyitli; ortak listesi arama özetinde)",
+                "duzeltme": "Kaynak sayfası WebFetch'te 404 verdi; ortak listesi arama sonucu özetinde (EN ve DE sayfalar) teyit edildi, sayfa içeriğini doğrudan görmedim. Gün, saat, mekân, hesap ve ücret bilinmiyor.",
+                "kaynak_url": "https://www.wingsforlifeworldrun.com/en/locations/izmir-inciralti",
+                "alinti": "Local Partners Karşıyaka One TeamRevolucion run clubTheravita221"
+              },
+              {
+                "ad": "Theravita221",
+                "karar": "doğrulanamadı",
+                "izmirde_mi": "Belirsiz (İzmir etkinliğinin ortağı olarak listeli, kendi konumu kaynakta yok)",
+                "en_yeni_kanit_tarihi": "Wings for Life World Run İnciraltı, 10 Mayıs 2026 ortak listesi (arama özeti)",
+                "duzeltme": "Adı ortak listesinde geçiyor ama bir koşu topluluğu olduğu kaynakta belirtilmiyor; ticari ya da sağlık/wellness markası olabilir. Topluluk olarak listeye almak için ek kanıt gerekir.",
+                "kaynak_url": "https://www.wingsforlifeworldrun.com/en/locations/izmir-inciralti",
+                "alinti": "Local Partners Karşıyaka One TeamRevolucion run clubTheravita221"
+              },
+              {
+                "ad": "İzmir Büyükşehir Belediyesi Gençlik Faaliyetleri Bürosu (Genç İzmir)",
+                "karar": "düzeltildi",
+                "izmirde_mi": "Evet (Efes-Mimas Yolu, Azmak Koyu-Sığacık, İzmir)",
+                "en_yeni_kanit_tarihi": "25 Ekim 2026 (haber tarihi; etkinlik 08:00-15:00)",
+                "duzeltme": "Haber birimi 'Genç İzmir / Gençlik Faaliyetleri Bürosu' olarak adlandırmıyor. Etkinliği İzmir Büyükşehir Belediyesi Kadın ve Aile Hizmetleri Dairesi Başkanlığı'na bağlı Gençlik Çalışmaları Şube Müdürlüğü düzenledi. Etkinlik Cumhuriyetin 103. yılı için tek seferlik 'Cumhuriyetin İzinde Genç Adımlar', 9 km, 250 genç. @izbbgencizmir ve gencizmir.com doğrulanmadı. Düzenli program kanıtı yok.",
+                "kaynak_url": "https://www.yenibakishaber.com/izmirde-gencler-dogayla-kadinlar-tarihle-bulustu",
+                "alinti": "250 gencin katılımıyla gerçekleştirildi."
+              },
+              {
+                "ad": "Turgutlu Belediyesi Dağcılık Akademisi (TURBELDAK)",
+                "karar": "düzeltildi",
+                "izmirde_mi": "Hayır, Turgutlu (Manisa) merkezli; son yürüyüş İzmir Urla'da",
+                "en_yeni_kanit_tarihi": "29 Nisan 2026 (haber tarihi)",
+                "duzeltme": "Haber tarihli: 29 Nisan 2026 (satırdaki 'tarihsiz, 2026 sonları olabilir' yanlış). Rota Urla Barbaros Köyü'nden Balıklıova'ya, yaklaşık 12 km, hafta sonu yürüyüşü. Turgutlu Belediyesi Kültür, Sanat ve Sosyal İşler Müdürlüğü'ne bağlı. İzmir topluluğu değil, Manisa kurumu; İzmir listesi için elenmesi önerilir. Kasım 2026'ya kadar yeni kanıt aranmadı.",
+                "kaynak_url": "https://www.gazetebirlik.com/yasam/doganin-kalbine-yolculuk-turbeldak-ekibi-egenin-gizli-rotasini-kesfetti/983001",
+                "alinti": "Turgutlu Belediyesi Dağcılık Akademisi (TURBELDAK), düzenli olarak gerçekleştirdiği doğa yürüyüşlerine"
+              },
+              {
+                "ad": "Meeples & Peoples Cafe",
+                "karar": "doğrulandı",
+                "izmirde_mi": "Evet (Konak, İzmir)",
+                "en_yeni_kanit_tarihi": "Tarihli kanıt yok (liste sayfası tarihsiz)",
+                "duzeltme": "Adres doğru: Murat Reis, 255. Sk. No:27 D:C, 35280 Konak. Kafe ve küçük oyun mağazası. Düzenli oyun gecesi, hesap, ücret bilgisi yok. 2026'da aktif olduğuna dair kanıt yok; topluluk değil mekân.",
+                "kaynak_url": "https://listelist.com/kutu-oyunu-oynayabileceginiz-mekanlar",
+                "alinti": "şehirde kutu oyunu oynayabileceğiniz en gözde mekanlar arasında yer alıyor"
+              },
+              {
+                "ad": "Play Box Cafe - Oyun Dünyası",
+                "karar": "düzeltildi",
+                "izmirde_mi": "Evet (Alsancak, Konak)",
+                "en_yeni_kanit_tarihi": "Tarihli etkinlik yok; en yeni tarih yalnızca '7 yıl önce' yorumu (2026 telif satırı yok sayıldı)",
+                "duzeltme": "Adres eklenmeli: Atatürk Cad. No: 354/B, Alsancak. Oyun listesi: Taboo, Jenga, Pictionary, Monopoly, Risk. Güncel faaliyet kanıtı zayıf (son tarihli veri yaklaşık 7 yıllık yorum); kapalı olabilir, topluluk değil mekân. Elenmesi önerilir.",
+                "kaynak_url": "https://www.firmasec.com/firma/mmzzbr-play-box-cafe-oyun-dunyasi",
+                "alinti": "Play Box Cafe is a board game café in İzmir where visitors can play games with friends while snacking or drinking."
+              },
+              {
+                "ad": "Biz de Varız Online Kitap Kulübü",
+                "karar": "düzeltildi",
+                "izmirde_mi": "Hayır (online, Google Meet; sayfada İzmir geçmiyor)",
+                "en_yeni_kanit_tarihi": "27 Eylül 2026 Pazar 20:00-22:00 (Eylül buluşması, İnsan Olmak, Engin Geçtan)",
+                "duzeltme": "Ücret 450 TL ('Katılım ücreti: 450 TL'), ücret tutarı artık doğrulandı. Düzenleyici sayfada adlandırılmıyor; ödeme linki iremincesu.teachfluence.com. Ayın ilk pazarı Elif Topçu ile sohbet doğru. Kasım 2026 için kanıt yok. İzmir'e özgü olmadığı için İzmir listesinden elenebilir. Aynı Tally adresi daha önce 'Bir Dokun Bir İşit' formunu da gösterdi (bkz. satır 9), içerik değişmiş.",
+                "kaynak_url": "https://tally.so/r/RGVDep",
+                "alinti": "Her ayın ilk pazar günü, Elif Topçu ile birlikte canlı edebiyat sohbetlerinde buluşacağız."
+              },
+              {
+                "ad": "Bir Dokun Bir İşit Kitap Kulübü",
+                "karar": "doğrulanamadı",
+                "izmirde_mi": "Kısmen: online; İzmir'de yüz yüze buluşma yalnızca planlanmış (arama özetinde)",
+                "en_yeni_kanit_tarihi": "Doğrulanabilir tarih yok; '26 Temmuz 2026' sayfada görülmedi",
+                "duzeltme": "Verilen kaynak (tally.so/r/RGVDep) şu an 'Biz de Varız' formunu gösteriyor; sayfada 'Bir Dokun Bir İşit', 'son pazar', 'İzmir', 'yüz yüze' ve 'Temmuz' geçmiyor. Önceki bir arama özeti 'Bir Dokun Bir İşit' formunu, son pazar Google Meet ve İzmir yüz yüze planını, organizatörü İrem Çekiç İncesu (iremcekic.com) olarak gösterdi ama bunu doğrudan göremedim. Kulüp tarihsiz, 2026 aktifliği ve ücret teyitsiz. Elenmesi ya da yeni kaynak aranması önerilir.",
+                "kaynak_url": "https://tally.so/r/RGVDep",
+                "alinti": "Her ayın son pazar günü Google Meet üzerinden bir araya gelerek derin ve odaklı okumalar yapacağız."
+              }
+            ],
+            "notlar": "Satır 9 alıntısını (son pazar, İzmir yüz yüze) yalnızca bir arama özetinde gördüm; sayfayı doğrudan çektiğimde içerik farklıydı (aynı Tally adresi iki kulüp için kullanılmış ya da form değişmiş), bu yüzden alıntı doğrulanmış sayılmaz. Wings for Life sayfası WebFetch'te 404 verdi; ortak listesi arama özetinden teyit edildi. Satır 1 için RunningCrews sayfaları salı 20:00 Bostanlı bilgisini destekliyor ama tarihsiz. Satır 2-3 için Instagram ya da ayrı hesap araması yapılmadı. Satır 5 ve 7 İzmir topluluk listesi için zayıf adaylar."
+          }
+        ]
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Üretim"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Doğrulama"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "dogrulayici:dalga1",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "ab3a19b34c422f407",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795589528252,
+      "queuedAt": 1795589528246,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 24/30",
+      "promptPreview": "Kontrol noktası 30 araç çağrısı (satır başına 2); say. Bu sayıda dur ve kendine sor: tüm satırlar karara bağlandı mı? Bağlanmadıysa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 60.\n\nGÖREV: Aşağıdaki İzmir topluluk/etkinlik satırlarını doğrula. Bugün 25 Kasım 2026. Her satır için: (1) böyle bir topluluk var mı, (2) İzmir'de mi, (3) en yeni etkinlik kanıtının…",
+      "promptFramed": true,
+      "lastProgressAt": 1795589677285,
+      "tokens": 94674,
+      "toolCalls": 29,
+      "durationMs": 149033,
+      "resultPreview": "{\"arac\":\"araç: 24/30\",\"satirlar\":[{\"ad\":\"BlaBla Language Exchange İzmir\",\"karar\":\"doğrulandı\",\"izmirde_mi\":\"evet (Konak, 866. Sokak 22)\",\"en_yeni_kanit_tarihi\":\"13 Ağu 2026 Perşembe 20:30–22:00 oturumu (AllEvents); sonrası görünmüyor\",\"duzeltme\":\"Yok. Sayfada mekân adı yok; 'iki haftada bir Perşembe' ve ücretsiz + en az 1 içecek doğru. Kasım 2026 için güncel tarih görülmedi.\",\"kaynak_url\":\"https:/…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "uretici:sosyal-organizator",
+      "phaseIndex": 1,
+      "phaseTitle": "Üretim",
+      "agentId": "afa24d37abb5f1e95",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795589528299,
+      "queuedAt": 1795589528294,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 25/35",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'te dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM: Kullanıcı İzmir'de yeni insanlarla (özellikle kadınlarla) tanışabileceği etkinlik ve toplulukları arıyor. Örnek aldığı hesap Instagram'daki @socialvibeevent (\"Soci…",
+      "promptFramed": true,
+      "lastProgressAt": 1795589607656,
+      "tokens": 99903,
+      "toolCalls": 26,
+      "durationMs": 79357,
+      "resultPreview": "{\"arac\":\"araç: 25/35\",\"ozet\":\"T1-T11 tüketildi. Ana bulgu: Socialvibe İzmir'de etkinlik yaptığına dair kanıt YOK. Herkese açık ön kayıt formundaki üç etkinliğin (25 Kas Jolly Joker Pub Kanyon 500 TL; 27 Kas Entropi Kadıköy 600 TL; 28 Kas The Game For Big Kids 600 TL) hepsi İstanbul'a işaret ediyor (form şehir adı yazmıyor, Kanyon ve Kadıköy İstanbul semtleri). Form işleyişi: ön başvuru, onaylananl…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "uretici:aktivite-topluluk",
+      "phaseIndex": 1,
+      "phaseTitle": "Üretim",
+      "agentId": "a72ff0866525b5d1b",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795589607662,
+      "queuedAt": 1795589528294,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 24/35",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'te dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM: Kullanıcı İzmir'de yeni insanlarla (özellikle kadınlarla) tanışabileceği etkinlik ve toplulukları arıyor. Örnek aldığı hesap Instagram'daki @socialvibeevent (\"Soci…",
+      "promptFramed": true,
+      "lastProgressAt": 1795589705634,
+      "tokens": 105962,
+      "toolCalls": 23,
+      "durationMs": 97971,
+      "resultPreview": "{\"arac\":\"araç: 24/35\",\"ozet\":\"Tüm T1-T9 taktikleri denendi (bubilet 403 verdi, Strava sayfasına doğrudan erişilemedi). Arama motoru hiçbir instagram.com sayfası döndürmedi; bu yüzden aşağıdaki Instagram adı yalnızca üçüncü taraf sayfada geçtiği için yazıldı. En güçlü ve tek sağlam aday Karşıyaka One Team (@kskoneteam): her salı 20:00 Bostanlı'da, beş tempo grubu, yeni başlayanlar için koşu-yürüyüş…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "dogrulayici:sosyal-organizator",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "a508c9fc65bac4549",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795589677291,
+      "queuedAt": 1795589607699,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 8/10",
+      "promptPreview": "Kontrol noktası 10 araç çağrısı (satır başına 2); say. Bu sayıda dur ve kendine sor: tüm satırlar karara bağlandı mı? Bağlanmadıysa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 20.\n\nGÖREV: Aşağıdaki İzmir topluluk/etkinlik satırlarını doğrula. Bugün 25 Kasım 2026. Her satır için: (1) böyle bir topluluk var mı, (2) İzmir'de mi, (3) en yeni etkinlik kanıtının…",
+      "promptFramed": true,
+      "lastProgressAt": 1795589709146,
+      "tokens": 82252,
+      "toolCalls": 10,
+      "durationMs": 31855,
+      "resultPreview": "{\"arac\":\"araç: 8/10\",\"satirlar\":[{\"ad\":\"IxDF Izmir Local Group - Game & Karaoke Night\",\"karar\":\"düzeltildi\",\"izmirde_mi\":\"evet (BiNeviPub Alsancak, İzmir)\",\"en_yeni_kanit_tarihi\":\"29 Temmuz 2026, Çarşamba 21:00 yerel saat: IxDF Izmir Game & Karaoke Night; 11 kişi katılıyor; sayfa 'Meetup Has Ended'\",\"duzeltme\":\"Mekân, ücret (ücretsiz), İzmir ve 2026 etkinliği doğru. Düzeltme: sayfa 29 Temmuz 2026 …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "dogrulayici:aktivite-topluluk",
+      "phaseIndex": 2,
+      "phaseTitle": "Doğrulama",
+      "agentId": "a26e395b77cf7a31d",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795589705644,
+      "queuedAt": 1795589705641,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 11/18",
+      "promptPreview": "Kontrol noktası 18 araç çağrısı (satır başına 2); say. Bu sayıda dur ve kendine sor: tüm satırlar karara bağlandı mı? Bağlanmadıysa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 36.\n\nGÖREV: Aşağıdaki İzmir topluluk/etkinlik satırlarını doğrula. Bugün 25 Kasım 2026. Her satır için: (1) böyle bir topluluk var mı, (2) İzmir'de mi, (3) en yeni etkinlik kanıtının…",
+      "promptFramed": true,
+      "lastProgressAt": 1795589762440,
+      "tokens": 86838,
+      "toolCalls": 14,
+      "durationMs": 56796,
+      "resultPreview": "{\"arac\":\"araç: 11/18\",\"satirlar\":[{\"ad\":\"Karşıyaka One Team\",\"karar\":\"düzeltildi\",\"izmirde_mi\":\"Evet (Bostanlı, Karşıyaka)\",\"en_yeni_kanit_tarihi\":\"Tarihli 2026 etkinlik kanıtı yok; Wings for Life World Run İnciraltı 10 Mayıs 2026 yerel ortak listesi (arama özeti)\",\"duzeltme\":\"Salı 20:00 Bostanlı, 5 tempo grubu doğru. Sayfada Instagram (kskoneteam) ve Strava (kskoneteam) bağlantıları doğrulandı. Ü…"
+    }
+  ],
+  "totalTokens": 469629,
+  "totalToolCalls": 102
+}
