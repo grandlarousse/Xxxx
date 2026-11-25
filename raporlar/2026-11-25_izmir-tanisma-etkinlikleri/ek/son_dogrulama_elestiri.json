@@ -1,0 +1,62 @@
+{
+  "summary": "Taslak rapor: 1 eleştirmen (opus) + 1 son doğrulayıcı (sonnet), paralel",
+  "agentCount": 2,
+  "logs": [],
+  "result": {
+    "elestiri": "araç: 9/12\n\n1. [yüksek] \"2026'da aktif olduğu doğrulanan\" ifadesi kanıttan güçlü. Kısa yanıt ve ana tablo başlığı \"aktif ve doğrulanmış\" diyor. Oysa doğrulayıcı Karşıyaka One Team için \"doğrulanamadı / 2026 kanıtı yok\" kararı vermiş. BlaBla'nın son kaydı 13 Ağu 2026. Toastmasters'ta \"toplantı tarihi görülmedi\". Öneri: tabloyu ikiye böl. \"Bu hafta tarihi görülen\" bölümüne Dance Garage, Eladans, InterNations ve Genç İzmir girsin. \"Var, ama güncel programı doğrulanmadı\" bölümüne One Team, BlaBla, Toastmasters ve Smyrna girsin. Kısa yanıttaki listeyi de buna göre düzelt.\n\n2. [yüksek] \"@kskoneteam\" kaynakta yok. dalga3 defterinde \"kullanıcı tarafından biliniyor, bu oturumda kaynakta görülmedi\" yazıyor. Salı 20:00 bilgisi de yalnızca bir arama özetinden geliyor, sayfa HTTP 429 hatası verdi. Öneri: hesap adının yanına \"(doğrulanmadı)\" ekle ya da adı sil. Saat için \"arama özetine göre\" de.\n\n3. [yüksek] Kullanıcının amacıyla çelişki var. Kullanıcı büyük olasılıkla erkek ve kadınlarla tanışmak istiyor. Raporsa kadınlara özel seçenekleri öne çıkarıyor: Ladies sınıfı, Kadın Korosu, ÜNOG Girls Night. Bunlara o katılamaz. Öneri: \"Kadın katılımı\" maddesini şöyle yaz: \"Kadınlara özel etkinlikler (…) sana kapalı olabilir. Karma etkinlikler arasında eşli dans ve dil değişimi en uygunları; cinsiyet oranı verisi yok.\" Kadına özel olanları ana önerilerden çıkar.\n\n4. [orta] Socialvibe sonucu fazla kesin. Formdaki üçüncü etkinliğin (The Game For Big Kids) şehri yazmıyor. Buna rağmen rapor \"hepsi İstanbul mekânları\" diyor. Doğrulama bölümünde \"Socialvibe'ın İzmir kolu … elendi\", devam notunda \"yalnızca İstanbul\" yazıyor. Tek bir form görüntüsü, geçmişte ya da ileride İzmir etkinliği olmadığını kanıtlamaz. Öneri: \"Formdaki 25–28 Kasım etkinliklerinden ikisi İstanbul'da (Kanyon, Kadıköy), birinin şehri yazmıyor. İzmir tarihi görmedik; Instagram'daki geçmiş paylaşımlara bakamadık.\" \"Elendi\" yerine \"doğrulanamadı\" yaz.\n\n5. [orta] InterNations kaydı zayıf. Kaynak bir CDN adresi (assets.in-cdn.net). Defterdeki alıntının yanında \"sayfa özeti; birebir alıntı değil\" notu var. Pazartesi 17:00 bir pub buluşması için tuhaf bir saat; saat UTC olarak gösterilmiş olabilir, o zaman yerel saat 20:00 olur. ~9.400 üye ve ayda ~8 etkinlik rakamları tarihsiz bir tanıtım sayfasından. Öneri: \"saat sayfa özetinden; üye olunca etkinlik sayfasından teyit et\" notu ekle. Üye ve etkinlik sayısına \"tarihsiz tanıtım sayfası\" etiketi koy.\n\n6. [orta] Atlanan, kolay doğrulanabilir kanallar var. Luma'da İzmir etkinlikleri çıkıyor: TARK Mixer, StartupCentrum Find Your Co-Founder İzmir, İzmir Claude Buluşması (luma.com). Socialvibe'ın \"networking\" yanına en yakın kanal bu, ama raporda hiç geçmiyor. Revolucion run club ve Runatik'in İzmir antrenmanları (posta.com.tr, fanatik.com.tr) da var. Öneri: 7. adıma \"luma.com'da şehir: İzmir\" ve \"Bubilet/Biletix İzmir etkinlik\" taramasını ekle. Koşu satırına \"Revolucion run club da Wings for Life İzmir yerel ortağı (kendi programı doğrulanmadı)\" notunu ekle.\n\n7. [orta] Telefonda okunurluk zayıf. Dört sütunlu tablolar ve uzun hücreler dar ekranda okunmuyor. 8 adımlık liste de uzun. Öneri: ana tabloyu madde listesine çevir: \"Ad — gün/saat — yer — ücret — kanıt durumu\". \"Ne yapmalıyım\" bölümünü 5 adıma indir; 8. adım (Eylül, Nisan, Mayıs kayıtları) \"Dönemsel\" bölümüne taşınsın.\n\n8. [düşük] Takvim hesapları doğru: 26 Kas Perşembe, 29 Kas Pazar, 30 Kas Pazartesi, 3 ve 17 Ara Perşembe. Sorun Dance Garage satırında: ücret bilgisi yok ve saat \"until 12:30 AM on Friday\" ifadesinden çıkarılmış. Öneri: \"Garage Latin Night'a girmeden önce WhatsApp'tan sor: atölye seviyesi ve giriş ücreti.\"\n\n9. [düşük] Terimler açıklanmamış: InterNations, Toastmasters, \"sosyal\" (dans gecesi), run club, FRP, Magic. Öneri: her terim ilk geçtiği yerde parantez içinde kısa bir açıklama alsın. Örneğin \"(yurt dışından gelenler ve yerlilerin üye olduğu uluslararası ağ)\".\n\n10. [düşük] Gereksiz ve karışık ayrıntılar var. Airbnb atölyeleri ve 6.000–8.000 TL'lik 2025 yelken ücreti tanışma amacına zayıf katkı yapıyor. Maliyet satırında \"Seviye M olarak başladı, L'ye çıktı\" yazıyor ama başlıkta yalnızca \"Seviye L\" var. Öneri: yelken ücretine \"(2025 fiyatı)\" etiketi koy. Atölyeleri tek satıra indir.\n\nGenel değerlendirme: Rapor kapsamlı ve kör noktası (Instagram) dürüstçe söylenmiş. En ciddi sorun kanıt düzeyinin abartılması: \"doğrulanmış aktif\" listesinin yarısında bu yıla ait tarih yok. İkinci sorun kullanıcının amacını gözetmeden kadınlara özel etkinliklerin öne çıkarılması. Bu iki düzeltme ve Luma kanalının eklenmesiyle rapor teslime hazır.",
+    "dogrulama": "araç: 14/12 (kontrol noktası aşıldı: iddia 4–5'te 2026 kanıtı için 2 ek arama gerekti; WebSearch özetleri yedek)\n1 | düzeltildi | 16.11.2026 | 15–30 yaş ücretsiz eğitim/atölye/gezi, Çiğli Gençlik Merkezi'nde İngilizce Konuşma Kulübü ve haber tarihi doğru. \"12 Ekim 2026'da başladı\" haberde YOK, doğrulanamadı (çıkar). | https://www.yenibakishaber.com/izmirde-gencler-hem-ogreniyor-hem-sosyallesiyor | \"15-30 yaş arasındaki gençlere ücretsiz eğitim, atölye ve gezi programlarıyla.\" / \"Çiğli Gençlik Merkezi'ndeki İngilizce Konuşma Kulübü'ne katılan.\"\n2 | düzeltildi | 25.07.2026 (haber); 19.12.2025 (kış kursu haberi) | Yelken (Hit Sailing) 18+ ve Karabatak Kürek Kulübü 13+ doğru; program Ağustos boyunca, haber 25 Temmuz 2026 (Ağustos'ta bitmiş). Yetişkin yelken: 3 gün (26 Ara Cuma online teori, 27–28 Ara Cts-Paz uygulama) doğru ama \"5–7 kişi\" yanlış: kontenjan en çok 7, açılması için en az 4; ücret 8.000 TL (6.000 değil; \"6.000–8.000\" doğrulanamadı); bu 26–28 Aralık 2025 kış kursuydu, 2026 için geçerli değil. | https://www.karar.com/sehir-haberleri/izmir-marinada-su-sporlari-heyecani-basladi-2061682 ; https://www.karar.com/sehir-haberleri/izmir-marina-kis-boyunca-yelken-tutkunlarini-agirliyor-2015333 | \"18 yaş üzeri katılımcılara ise yelken eğitimi veriliyor.\" / \"Karabatak Kürek Kulübü tarafından 13 yaş ve üzeri katılımcılara yönelik kürek eğitimleri veriliyor.\" / \"Kontenjan 7 kişi ile sınırlı olup, eğitimin açılabilmesi için en az 4 katılımcı gerekiyor.\" / \"Üç gün sürecek eğitimin ücreti 8 bin TL olarak belirlendi.\"\n3 | düzeltildi | etkinlik sayfası: sonraki 26 Kas 2026 (Perşembe) | Alıntı doğru ama sayfa tutarsız: Perşembe her hafta diyor, sosyal \"on Friday\" bitiyor; saatler değişebilir, organizatörle teyit (+90 530 525 90 35). Instagram bağlantısı doğrulandı. Mekân: Dance Garage, Bornova. | https://www.salsavida.com/?p=107259 ; https://dancegarage.co | \"A workshop starts at 8:45 PM, followed by a Salsa and Bachata social that runs until 12:30 AM on Friday.\" / Instagram: https://www.instagram.com/thedancegarage/\n4 | doğrulanamadı | 2026 tarihli kanıt bulunamadı | runningcrews sayfası 429 verdi (bu oturumda açılamadı); arama özeti: \"Salı akşamı 20:00 Bostanlı, 5 tempo\" (kaynak tarihsiz). 2026 haber/yarış/Strava kanıtı yok. Gitmeden Instagram @kskoneteam'den teyit et. | https://runningcrews.com/crews/karsiyaka-one-team-izmir | (arama özeti, birebir alıntı alınamadı) Every Tuesday night at Bostanlı, 20:00\n5 | doğrulanamadı | 13 Ağu 2026 (son kayıt) | Sayfada tek tarih 13 Ağu 2026 20:30–22:00, \"Every other Thursday - Recurrent event\", Konak/İzmir. Eyl–Kas 2026 için listelenmiş oturum yok. İki haftalık çıkarım (10 Eyl, 24 Eyl, 8 Eki, 22 Eki, 5 Kas, 19 Kas) yalnızca çıkarım. blablalanguageexchange.com → blablacommunity.com'a yönleniyor; o sayfa açılmadı (çalışılmadı). | https://allevents.in/izmir/izmir-blabla-language-exchange-2-every-other-thursday-recurrent-event/200030243286705 | \"Thu, 13 Aug 2026 8:30 pm to 10:00 pm\" (özet); \"Every other Thursday - Recurrent event\"\n6 | düzeltildi | 27.02.2025 | Haber 2025 tarihli (2026 değil); Genç İzmir üyesi 18–30 yaş, Mart 2025'ten itibaren ücretsiz kano/kürek/yelken deneyimi; kano İnciraltı Kayıklar ve Kano Tesisleri, kürek İzmir Kürek Kulübü iş birliğiyle Bostanlı Balıkçı Barınağı park içi yolu (İnciraltı değil). 2026'da sürdüğüne dair kanıt yok. | https://www.karar.com/sehir-haberleri/izmirin-gencleri-su-sporlariyla-tanisiyor-1937258 | \"Genç İzmir'e üye 18-30 yaş arası gençler, mart ayından itibaren ücretsiz kano, kürek ve yelken deneyimi yaşayacak.\"\n\nNot: İddia 4 için ana kaynak 429 ile açılamadı, hüküm arama özetine dayanır. Madde 5'te blablacommunity.com kontrol edilmedi. Madde 6'da 2026 devamı için bağımsız arama yapılmadı."
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Eleştiri ve son doğrulama"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "elestirmen",
+      "phaseIndex": 1,
+      "phaseTitle": "Eleştiri ve son doğrulama",
+      "agentId": "abc1e92f22ffa0e95",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1795590691116,
+      "queuedAt": 1795590691111,
+      "attempt": 1,
+      "lastToolName": "SubagentHandback",
+      "lastToolSummary": "araç: 9/12 1. [yüksek] \"2026'da aktif olduğu doğrulanan\" if…",
+      "promptPreview": "Kontrol noktası 12 araç çağrısı; say. 12'de dur ve kendine sor: taslağın en zayıf noktalarını yeterince gösterdin mi? Gösterdiysen bitir. Göstermediysen ve son 5 çağrın yeni bilgi getirdiyse devam et. Üst sınır 24.\n\nROL: Eleştirmen (hakem). Kendi alt ajanını başlatma, görev dışına çıkma, dosya düzenleme.\nGÖREV: /home/user/Xxxx/raporlar/2026-11-25_izmir-tanisma-etkinlikleri/RAPOR.md dosyasındaki ta…",
+      "promptFramed": true,
+      "lastProgressAt": 1795590784952,
+      "tokens": 95362,
+      "toolCalls": 11,
+      "durationMs": 93835,
+      "resultPreview": "araç: 9/12\n\n1. [yüksek] \"2026'da aktif olduğu doğrulanan\" ifadesi kanıttan güçlü. Kısa yanıt ve ana tablo başlığı \"aktif ve doğrulanmış\" diyor. Oysa doğrulayıcı Karşıyaka One Team için \"doğrulanamadı / 2026 kanıtı yok\" kararı vermiş. BlaBla'nın son kaydı 13 Ağu 2026. Toastmasters'ta \"toplantı tarihi görülmedi\". Öneri: tabloyu ikiye böl. \"Bu hafta tarihi görülen\" bölümüne Dance Garage, Eladans, Int…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "dogrulayici:son",
+      "phaseIndex": 1,
+      "phaseTitle": "Eleştiri ve son doğrulama",
+      "agentId": "a70948d57b767dbc7",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795590691116,
+      "queuedAt": 1795590691111,
+      "attempt": 1,
+      "lastToolName": "SubagentHandback",
+      "lastToolSummary": "araç: 14/12 (kontrol noktası aşıldı: iddia 4–5'te 2026 kanı…",
+      "promptPreview": "Kontrol noktası 12 araç çağrısı (satır başına 2); say. 12'de dur ve kendine sor: tüm satırlar karara bağlandı mı? Bağlanmadıysa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 24.\n\nGÖREV: Aşağıdaki 6 iddiayı doğrula. Bugün 25 Kasım 2026. Önce gösterilen kaynağı aç; yalnızca gerekiyorsa bağımsız ara. WebSearch/WebFetch kullan (yüklü değilse ToolSearch \"select:W…",
+      "promptFramed": true,
+      "lastProgressAt": 1795590731046,
+      "tokens": 83758,
+      "toolCalls": 15,
+      "durationMs": 39928,
+      "resultPreview": "araç: 14/12 (kontrol noktası aşıldı: iddia 4–5'te 2026 kanıtı için 2 ek arama gerekti; WebSearch özetleri yedek)\n1 | düzeltildi | 16.11.2026 | 15–30 yaş ücretsiz eğitim/atölye/gezi, Çiğli Gençlik Merkezi'nde İngilizce Konuşma Kulübü ve haber tarihi doğru. \"12 Ekim 2026'da başladı\" haberde YOK, doğrulanamadı (çıkar). | https://www.yenibakishaber.com/izmirde-gencler-hem-ogreniyor-hem-sosyallesiyor |…"
+    }
+  ],
+  "totalTokens": 179120,
+  "totalToolCalls": 26
+}
