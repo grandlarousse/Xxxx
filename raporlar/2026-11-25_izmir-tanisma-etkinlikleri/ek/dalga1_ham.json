@@ -1,0 +1,584 @@
+{
+  "summary": "İzmir tanışma/sosyal etkinlik toplulukları — 4 dar üretici (sonnet)",
+  "agentCount": 4,
+  "logs": [],
+  "result": [
+    {
+      "key": "oyun-sosyal",
+      "arac": "araç: 16/35 (3 ilk arama + 13 sonraki; araç kısıtı nedeniyle Instagram içeriği okunamadı)",
+      "ozet": "Bu araçlarla (arama özeti + herkese açık sayfalar) İzmir'de Socialvibe benzeri, Instagram'dan örgütlenen, doğrulanabilir ve güncel bir \"oyun gecesi / tanışma etkinliği\" organizatörü bulamadım. Arama motoru Instagram içeriğini neredeyse hiç endekslemiyor; bu yüzden sonuçlar zayıf, ana boşluk bu. (1) Socialvibe: instagram.com/socialvibeevent giriş duvarına takıldı; WebFetch'in gösterdiği görünür biyografi \"İzmir etkinlikleri, mekanlar, tarihler\" idi ve verdiğiniz biyografiyle (Oyun geceleri • Sosyal etkinlikler • İstanbul/İzmir) birebir uyuşmuyor. Web'de İzmir mekânı, tarihi veya ücreti için hiçbir kanıt bulunamadı; İzmir faaliyeti doğrulanamadı. (2) society_xvx hakkında hiçbir sonuç çıkmadı. (3) Vampir Köylü/Mafia: İzmir'de organizatör bulunamadı; bir arama özeti izmirmag listelerinde Ekim 2026 \"Vampir Köylü Oyun Gecesi\" geçtiğini söyledi ama sayfayı açınca doğrulayamadım. (4) Kutu oyunu: Meeples & Peoples Cafe (Konak) ve Play Box Cafe listeleme sitelerinde geçiyor, güncel etkinlik kanıtı yok. (5) Quiz: tek İzmir kanıtı Genç İzmir (belediye gençlik birimi) Kasım 2025 genel kültür quiz gecesi, Buca'da, ücretsiz, kayıt formlu; haftalık pub quiz bulunamadı (arama sonuçları İstanbul). (6) Diğer: ÜNOG Girls Night (Mart 2026, Bornova, kadın ve non-binary oyun sektörü buluşması, kadınlara yönelik tek net örnek), IxDF İzmir Game & Karaoke Night (Temmuz 2026, Alsancak, tasarımcılara yönelik, ücretsiz), Meetup \"Izmir coffee talk walk\" (İngilizce, 26 üye, son kanıt Ağustos, Alsancak), Genç İzmir. En güçlü adaylar: ÜNOG (kadınlara yönelik ama sektör odaklı), IxDF İzmir (düzenli olabilir, ama niş), Genç İzmir (belediye, gençlere, ücretsiz), Meeples & Peoples Cafe (mekân; Instagram'dan etkinlik takvimi elle kontrol edilmeli). Önerim: Instagram uygulamasında \"izmir oyun gecesi\", \"izmir boardgame\", \"izmir sosyal kulüp\" etiketleri ve Socialvibe'ın takip ettiği/etiketlediği İzmir hesapları elle taranmalı.",
+      "topluluklar": [
+        {
+          "ad": "ÜNOG Girls Night",
+          "tur": "Kadın ve non-binary oyun sektörü buluşması",
+          "hesap_veya_url": "ÜNOG (Instagram kullanıcı adı doğrulanamadı); https://mobidictum.com/tr/oyun-sektoru-etkinlikleri-09-15-mart-2026/",
+          "yer": "Biralem Pub, Bornova",
+          "bicim": "Küçük, samimi buluşma; sıklık, kişi sayısı, yaş ve kayıt yolu bilinmiyor",
+          "ucret": "bilinmiyor",
+          "son_etkinlik_kaniti": "14 Mart 2026 – Girls Night (Mobidictum etkinlik takvimi). Haziran 2026 sonrası kanıt yok",
+          "kaynak_url": "https://mobidictum.com/tr/oyun-sektoru-etkinlikleri-09-15-mart-2026/",
+          "alinti": "Oyun sektöründe çalışan, üretim yapan ya da bu alana ilgi duyan kadınlar ve non-binary bireylerle bir araya gelmek için küçük ve samimi bir buluşma.",
+          "guven": "orta",
+          "kadin_katilimi_notu": "Kadın ve non-binary kişilere özel; ancak oyun sektörüyle ilgili olmayı şart koşuyor"
+        },
+        {
+          "ad": "IxDF İzmir Yerel Grubu (Game & Karaoke Night)",
+          "tur": "Tasarımcı sosyal buluşması / oyun gecesi",
+          "hesap_veya_url": "https://ixdf.org/meetups/ixdf-izmir-game-night-jun-25th-2026 (organizatör: Görkem Cetinkaya)",
+          "yer": "BiNeviPub, Alsancak",
+          "bicim": "Dart, langırt, sohbet; portfolyo/satış yok; kontenjan sınırlı; 11 kişi katılım bildirmiş; kayıt ixdf.org üzerinden",
+          "ucret": "Ücretsiz",
+          "son_etkinlik_kaniti": "29 Temmuz 2026 – ilk Oyun ve Karaoke Gecesi (sayfa 'sona erdi' diyor); URL'deki tarih (25 Haziran) ile sayfa tarihi çelişiyor",
+          "kaynak_url": "https://ixdf.org/meetups/ixdf-izmir-game-night-jun-25th-2026",
+          "alinti": "Spots are limited, so reserve your seat",
+          "guven": "orta",
+          "kadin_katilimi_notu": "Karma; cinsiyet dengesi bilgisi yok; tasarım odaklı"
+        },
+        {
+          "ad": "Genç İzmir (İzmir Büyükşehir Belediyesi) Quiz Gecesi",
+          "tur": "Bilgi yarışması gecesi (belediye gençlik programı)",
+          "hesap_veya_url": "@izbbgencizmir; gencizmir.com",
+          "yer": "İzmirli Kahve, Buca Işılay Saygın Meydanı",
+          "bicim": "4 kişilik takımlar, sürpriz hediyeler; 'serinin başlangıcı' deniyor, sıklık belirtilmemiş; Genç İzmir üyeleri için; yaş aralığı belirtilmemiş; form ile başvuru",
+          "ucret": "Ücretsiz, kontenjan sınırlı",
+          "son_etkinlik_kaniti": "20 Kasım 2025 (Perşembe) – genel kültür quiz gecesi (haber 15.11.2025). 2026 kanıtı yok",
+          "kaynak_url": "https://www.karar.com/sehir-haberleri/izmirli-gencler-hem-eglenecek-hem-yarisacak-2006956",
+          "alinti": "Kontenjanın sınırlı olduğu ücretsiz etkinlik",
+          "guven": "orta",
+          "kadin_katilimi_notu": "Karma; bilgi yok"
+        },
+        {
+          "ad": "Izmir coffee talk walk (Meetup)",
+          "tur": "İngilizce kahve/yürüyüş buluşması",
+          "hesap_veya_url": "https://www.meetup.com/izmir-coffee-talk-walk/",
+          "yer": "Freija Coffee, Alsancak (son etkinlik)",
+          "bicim": "Kahve, deniz kenarı yürüyüşü, sohbet; akıcı İngilizce şart değil; 26 üye; sıklık belirtilmemiş",
+          "ucret": "belirtilmemiş",
+          "son_etkinlik_kaniti": "5 Ağustos (Çarşamba), 'Coffee&talk&walk', katılımcı 1; yıl sayfada yok (çarşamba=2026 ile uyumlu ama kesin değil)",
+          "kaynak_url": "https://www.meetup.com/izmir-coffee-talk-walk/",
+          "alinti": "Coffee&talk&walk",
+          "guven": "düşük",
+          "kadin_katilimi_notu": "Bilgi yok"
+        },
+        {
+          "ad": "Meeples & Peoples Cafe",
+          "tur": "Kutu oyunu kafesi / mağaza",
+          "hesap_veya_url": "https://listelist.com/kutu-oyunu-oynayabileceginiz-mekanlar (Instagram hesabı doğrulanamadı)",
+          "yer": "Murat Reis Mah. 255. Sk. No:27, Konak",
+          "bicim": "Kutu oyunu oynanabilen mekân; açık oyun gecesi var mı bilinmiyor",
+          "ucret": "bilinmiyor",
+          "son_etkinlik_kaniti": "Etkinlik kanıtı yok; yalnızca mekân listesi, tarihi belirsiz",
+          "kaynak_url": "https://listelist.com/kutu-oyunu-oynayabileceginiz-mekanlar",
+          "alinti": "Meeples & Peoples Cafe şehirde kutu oyunu oynayabileceğiniz en gözde mekanlar arasında yer alıyor.",
+          "guven": "düşük",
+          "kadin_katilimi_notu": "Bilgi yok"
+        }
+      ],
+      "ek_iddialar": [
+        {
+          "iddia": "Socialvibe'ın Instagram sayfası giriş istiyor; WebFetch'te görünen biyografi 'İzmir etkinlikleri, mekanlar, tarihler' idi (kullanıcının aktardığı biyografiyle farklı); web'de Socialvibe'ın İzmir etkinliğine dair bağımsız kanıt bulunamadı.",
+          "kaynak_url": "https://www.instagram.com/socialvibeevent/",
+          "alinti": "İzmir etkinlikleri, mekanlar, tarihler",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "Bir arama özeti izmirmag.net listelerinde Ekim 2026'da 'Vampir Köylü Oyun Gecesi' ve Güzelbahçe'de bir sosyal kulüp etkinliği geçtiğini söyledi; sayfa açılınca doğrulanamadı (sayfa 389 bin karakter, yalnızca ilk 100 bin okundu).",
+          "kaynak_url": "https://izmirmag.net/etkinlikler-28-%C5%9Eubat-2020/",
+          "alinti": "yok (doğrulanmadı)",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "Haftalık pub quiz aramasında çıkan neredeyse tüm sonuçlar İstanbul'da (Bubilet İstanbul pub quiz serileri); İzmir'de düzenli pub quiz kanıtı bulunamadı.",
+          "kaynak_url": "https://www.bubilet.com.tr/istanbul/etkinlik/pub-quiz-night-on-derry-girls-questions-in-english-and-turkish",
+          "alinti": "Pub Quiz Night on Derry Girls: Questions in English and Turkish",
+          "guven": "orta"
+        },
+        {
+          "iddia": "TARK Mixer İzmir (İzQ, Konak) oyun geliştiricilerine yönelik, geçmiş bir networking buluşması; genel halka açık oyun gecesi değil.",
+          "kaynak_url": "https://luma.com/4zgv2ufj",
+          "alinti": "TARK Mixer - İzmir",
+          "guven": "orta"
+        },
+        {
+          "iddia": "Luma üzerinde 'İzmir Claude Buluşması' gibi teknoloji odaklı İzmir buluşmaları var; Luma 'İzmir' araması güncel tanışma etkinlikleri için denenebilir.",
+          "kaynak_url": "https://luma.com/rthfp0fd",
+          "alinti": "İzmir Claude Buluşması",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "ESN İzmir (Erasmus öğrenci ağı) game night, speed meeting, ice breaking gibi etkinlikler yaptı; hedef kitle Erasmus/uluslararası öğrenciler.",
+          "kaynak_url": "https://activities.esn.org/activity/ice-breaking-speed-friend-ing-25971",
+          "alinti": "ice breaking speed friend ing 25971",
+          "guven": "orta"
+        },
+        {
+          "iddia": "Bir kadın forumunda İstanbul'dan İzmir'e taşınan kullanıcı arkadaş edinmekte zorlandığını yazmış, başka bir kullanıcı İzmir'i etkinliği bol bir şehir diye nitelemiş (tarih belirsiz).",
+          "kaynak_url": "https://www.kadinlarkulubu.com/konu/izmirde-sosyallesme-sorunu.1526272/",
+          "alinti": "izmirde sosyallesme sorunu",
+          "guven": "düşük"
+        }
+      ],
+      "aykiri_kanit": "Socialvibe için İzmir'de etkinlik yapıldığına dair web kanıtı bulunamadı; İstanbul ağırlıklı olması muhtemel ama doğrulanmadı. society_xvx için hiçbir sonuç yok. Haftalık pub quiz sonuçları yalnızca İstanbul. İzmir'deki doğrulanabilir tek kadınlara özel kanıt (ÜNOG Girls Night) oyun sektörüne özel ve Mart 2026'da; son 6 ayda (Haziran 2026 sonrası) somut kanıt yalnızca IxDF Temmuz 2026 ve belirsiz bir Meetup Ağustos kaydı. Dolandırıcılık/şikâyet araması doğrudan yapılmadı.",
+      "acik_kalanlar": [
+        "Socialvibe'ın İzmir mekânları, sıklığı, ücreti, son İzmir etkinliği (Instagram girişi gerekli)",
+        "society_xvx hesabının ne yaptığı ve şehri",
+        "İzmir'de Instagram'dan örgütlenen Vampir Köylü/Mafia geceleri ve izmirmag Ekim 2026 kaydı",
+        "Kutu oyun kafelerinin (Meeples & Peoples, Play Box Cafe) güncel oyun geceleri ve Instagram hesapları",
+        "İzmir'de haftalık pub quiz yapan mekânlar",
+        "Kadınlara özel veya cinsiyet dengeli İzmir sosyal kulüpleri (arama hiçbirini göstermedi)",
+        "Reddit r/izmir ve Ekşi Sözlük başlıkları (arama sonuç vermedi)",
+        "Socialvibe takip/etiket listesinden benzer İzmir hesaplarının elle taranması"
+      ]
+    },
+    {
+      "key": "tanisma-yemek",
+      "arac": "araç: 15/35",
+      "ozet": "Bu alt soruda İzmir'de doğrudan tanışma amaçlı (speed dating, bekârlar gecesi, yabancılarla yemek) güncel ve doğrulanmış bir format bulamadım. Timeleft ana sayfasında Türkiye ya da İzmir geçmiyor; İzmir'de olduğuna dair kanıt yok (sayfa şehir listelemiyor, \"200+ şehir, 52 ülke\" diyor). Speed dating için tek İzmir izi eski: Biletino'da \"Speed Date Türkiye\" organizatörünün Konak'ta 11 Kasım 2017 tarihli 35-45 yaş etkinliği ve First Sight'ın eski bir İzmir etkinliği; 2025-2026'ya ait kanıt çıkmadı. Biletino 403 verdiği için organizatör sayfası açılamadı. \"Single party / bekarlar gecesi İzmir\" aramasında yalnızca İzmir dışı sonuç çıktı. Bu nedenle bu tür etkinlikler İzmir'de Socialvibe gibi küçük Instagram organizatörlerinde olabilir ama bu oturumda doğrulanamadı. Bulunan tek somut, güncel ve sosyal yönü olan yapılar şunlar: (1) Toastmasters İzmir Türkçe (ayda 2 toplantı, Alsancak, misafir girişi ücretsiz; ancak güncellik kanıtı yok), (2) ÜNOG Girls Night (14 Mart 2026, Bornova; kadın ve non-binary kişilere özel, ama oyun sektörüne yönelik), (3) IxDF İzmir Game & Karaoke Night (29 Temmuz 2026, Alsancak, ücretsiz, 11 katılımcı; tasarım ilgilileri), (4) İzmir Claude Buluşması (25 Temmuz 2026, tanışma/networking, kapalı kayıt). En güçlü aday olarak Socialvibe'a en yakın format ÜNOG'un sosyal buluşmaları ve IxDF game night; ikisi de niş. Genel amaçlı İzmir arkadaşlık Meetup grupları (Izmir coffee talk walk, 9 üye; International Friends of Izmir sayfası artık yok) zayıf/ölü görünüyor. Şikâyet/dolandırıcılık aramasında Socialvibe ile ilgili kayıt çıkmadı (olumsuz kanıt yok, olumlu da yok).",
+      "topluluklar": [
+        {
+          "ad": "ÜNOG Girls Night (ÜNOG - İzmir oyun geliştirici topluluğu)",
+          "tur": "Kadın ve non-binary kişilere özel sosyal buluşma (oyun sektörü)",
+          "hesap_veya_url": "ÜNOG (Instagram kullanıcı adı doğrulanmadı); Mobidictum etkinlik listesi",
+          "yer": "Biralem Pub, Bornova, İzmir",
+          "bicim": "Sektörde çalışan/ilgilenen kadınlar ve non-binary kişiler için küçük, samimi meetup; sıklık ve kişi sayısı bilinmiyor. ÜNOG ayrıca 11 Nisan 2026'da Bornova'da genel Oyun Geliştirici Buluşması yaptı.",
+          "ucret": "bilinmiyor",
+          "son_etkinlik_kaniti": "14 Mart 2026: Girls Night, Biralem Pub Bornova (arama özeti; Haziran 2026 sonrası kanıt bulunamadı)",
+          "kadin_katilimi_notu": "Kadınlara ve non-binary kişilere özel; ancak oyun sektörü ilgisi gerekiyor",
+          "kaynak_url": "https://mobidictum.com/tr/oyun-sektoru-etkinlikleri-09-15-mart-2026/",
+          "alinti": "Girls Night etkinliği 14 Mart 2026 tarihinde Biralem Pub – Bornova, İzmir'de Meetup türünde yapılacak; organizatörü ÜNOG.",
+          "guven": "orta"
+        },
+        {
+          "ad": "IxDF İzmir Local Group (Game & Karaoke Night)",
+          "tur": "Sosyal buluşma / tasarımcı topluluğu",
+          "hesap_veya_url": "https://ixdf.org/meetups/ixdf-izmir-game-night-jun-25th-2026 (organizatör Görkem Cetinkaya)",
+          "yer": "BiNeviPub Alsancak, İzmir",
+          "bicim": "Dart, langırt, sohbet; 'portfolyo yok, sunum yok'; yer sınırlı, rezervasyon gerekli",
+          "ucret": "Ücretsiz",
+          "son_etkinlik_kaniti": "29 Temmuz 2026: Game & Karaoke Night, 11 kişi katıldı",
+          "kadin_katilimi_notu": "Karma; cinsiyet dengesi bilgisi yok",
+          "kaynak_url": "https://ixdf.org/meetups/ixdf-izmir-game-night-jun-25th-2026",
+          "alinti": "no portfolios, no pitches",
+          "guven": "orta"
+        },
+        {
+          "ad": "Izmir Türkçe Toastmasters",
+          "tur": "Konuşma/kişisel gelişim kulübü (sosyal networking)",
+          "hesap_veya_url": "https://www.toastmasters.org/find-a-club/07173891-izmir-trke-toastmasters",
+          "yer": "Archstone Hotel Alsancak, İzmir",
+          "bicim": "Ayın 1. ve 3. Perşembesi 20:00; misafir ziyareti ücretsiz; çevrim içi katılım mümkün",
+          "ucret": "Misafir ücretsiz; üyelik ücreti bilinmiyor",
+          "son_etkinlik_kaniti": "Güncel toplantı kanıtı yok; yalnızca kulüp sayfası (kuruluş 3 Ocak 2019)",
+          "kadin_katilimi_notu": "Karma; bilgi yok",
+          "kaynak_url": "https://www.toastmasters.org/find-a-club/07173891-izmir-trke-toastmasters",
+          "alinti": "Membership Restriction: None; the club is open to all interested parties.",
+          "guven": "orta"
+        },
+        {
+          "ad": "Smyrna Toastmasters",
+          "tur": "Konuşma kulübü (İngilizce olması muhtemel, doğrulanmadı)",
+          "hesap_veya_url": "https://www.toastmasters.org/Find-a-Club/28679541-smyrna-toastmasters",
+          "yer": "Bornova, İzmir (konum satırında TBD de yazıyor)",
+          "bicim": "Ayın 2. ve 4. Perşembesi 19:00 (arama özeti)",
+          "ucret": "bilinmiyor",
+          "son_etkinlik_kaniti": "Güncel toplantı kanıtı yok",
+          "kadin_katilimi_notu": "bilgi yok",
+          "kaynak_url": "https://www.toastmasters.org/Find-a-Club/28679541-smyrna-toastmasters",
+          "alinti": "Smyrna Toastmasters",
+          "guven": "düşük"
+        },
+        {
+          "ad": "Izmir coffee talk walk (Meetup)",
+          "tur": "Kahve/yürüyüş sohbet grubu",
+          "hesap_veya_url": "https://www.meetup.com/izmir-coffee-talk-walk/",
+          "yer": "İzmir",
+          "bicim": "Rahat kahve buluşmaları; ziyaretçi ve yerleşik katılabilir; 9 üye",
+          "ucret": "bilinmiyor",
+          "son_etkinlik_kaniti": "Yaklaşan/son etkinlik tarihi görünmedi",
+          "kadin_katilimi_notu": "bilgi yok",
+          "kaynak_url": "https://www.meetup.com/izmir-coffee-talk-walk/",
+          "alinti": "Whether you're visiting or living here long-term, you're welcome to join",
+          "guven": "düşük"
+        },
+        {
+          "ad": "Speed Date Türkiye (Biletino organizatörü)",
+          "tur": "Speed dating (geçmişte İzmir'de)",
+          "hesap_veya_url": "https://biletino.com/tr/u-3k86/speed-date-turkiye/",
+          "yer": "Konak, İzmir (2017)",
+          "bicim": "Speed dating, 35-45 yaş etkinliği",
+          "ucret": "bilinmiyor",
+          "son_etkinlik_kaniti": "Son görülen İzmir etkinliği: 11 Kasım 2017; sonrası doğrulanamadı (Biletino 403 verdi)",
+          "kadin_katilimi_notu": "bilgi yok",
+          "kaynak_url": "https://biletino.com/en/e-3c5/speed-dating-ilk-bulusma-35-45-yas/",
+          "alinti": "Speed Dating İlk Buluşma (35-45 Yaş)",
+          "guven": "düşük"
+        }
+      ],
+      "ek_iddialar": [
+        {
+          "iddia": "Timeleft'in İzmir'de (ya da Türkiye'de) faaliyet gösterdiğine dair kanıt bulunamadı; ana sayfa şehir listelemiyor.",
+          "kaynak_url": "https://timeleft.com",
+          "alinti": "200+ cities across 52 countries",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "First Sight (speed dating) ağırlıklı olarak İstanbul'da; İzmir'de yalnızca eski bir etkinlik kaydı var (güncel kanıt yok).",
+          "kaynak_url": "https://www.timeout.com/istanbul/tr/haberler/speed-datingle-tanisin-101719",
+          "alinti": "speed datingle tanisin",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "İzmir'deki Claude buluşması 25 Temmuz 2026'da yapıldı, ücretsiz, 20-30 kişi, kayıt kapandı; bir kerelik networking.",
+          "kaynak_url": "https://luma.com/rthfp0fd",
+          "alinti": "Bu bir konferans değil",
+          "guven": "yüksek"
+        },
+        {
+          "iddia": "TARK Mixer İzmir (indie oyun networking, İzQ İnovasyon Merkezi, Konak) geçmiş etkinlik olarak görünüyor; tarih sayfada yok.",
+          "kaynak_url": "https://luma.com/4zgv2ufj",
+          "alinti": "Snacks and alcoholic and non-alcoholic drinks are provided.",
+          "guven": "orta"
+        },
+        {
+          "iddia": "Meetup'taki 'International Friends of Izmir' grup sayfası artık mevcut değil.",
+          "kaynak_url": "https://www.meetup.com/tr-TR/international-friends-of-izmir/",
+          "alinti": "Üzgünüz, aradığınız grup mevcut değil",
+          "guven": "yüksek"
+        },
+        {
+          "iddia": "ESN İzmir (Erasmus öğrenci ağı) yemek, speed meeting ve oyun geceleri yapıyor; öğrenci/uluslararası odaklı.",
+          "kaynak_url": "https://activities.esn.org/activity/speed-meeting-15548",
+          "alinti": "speed meeting 15548",
+          "guven": "düşük"
+        }
+      ],
+      "aykiri_kanit": "Socialvibe için şikâyet/dolandırıcılık kaydı bulunamadı (arama 'socialvibe' ile eşleşme vermedi). Speed dating, bekârlar gecesi, yabancılarla yemek için İzmir'de 2025-2026'ya ait kanıt çıkmadı; bu tür formatların çoğu İstanbul'da (First Sight, Time Out Istanbul haberleri, Eventbrite İstanbul). İzmir'deki güncel networking etkinlikleri (Claude, TARK, DevTech) teknoloji/oyun niş odaklı, kadın dengesi bilgisi yok.",
+      "acik_kalanlar": [
+        "Timeleft İzmir'de var mı: uygulamadan doğrulanamadı",
+        "İzmir'de 2025-2026 speed dating/bekarlar etkinliği: Instagram'a erişilemediği için doğrulanamadı; Biletino 403 verdi",
+        "Toastmasters İzmir kulüplerinin güncel faaliyeti",
+        "Bumble BFF, InterNations İzmir ve Yabangee etkinliklerinin güncel durumu",
+        "ÜNOG'un Instagram hesabı ve Haziran 2026 sonrası etkinlikleri",
+        "Kadın katılım oranı hiçbir adayda doğrulanamadı"
+      ]
+    },
+    {
+      "key": "uluslararasi-platform",
+      "arac": "araç: 10/35",
+      "ozet": "Platform tabanlı uluslararası topluluklarda İzmir zayıf. En somut bulgu BlaBla Language Exchange İzmir: iki haftada bir Perşembe, Konak'ta, ücretsiz giriş (en az 1 içecek siparişi), listelemede 13 Ağustos 2026 tarihli oturum var. Ancak bu tarih Haziran sonrası olsa da son 3 aya ait kanıt yok; AllEvents sayfası tekrarlayan etkinlik kaydı. Meetup'ta İzmir için iki grup var ve ikisi de zayıf: 'izmir coffee talk walk' (26 üye, son etkinlik 5 Ağustos 2026, 1 katılımcı, Alsancak) ve 'International Friends of İzmir' (grup sayfası artık 'grup yok' hatası veriyor; muhtemelen kapanmış). InterNations İzmir şubesi var (ayda ~8 etkinlik iddiası, tarihsiz promosyon sayfası) ama üyelik onay gerektiriyor; güncel takvimi doğrulayamadım. Couchsurfing İzmir haftalık buluşma kanıtı yok (tek bulgu 2014 blogu). ESN Ege, ESN DEÜ, ESN Yaşar, ESN İzmir Ekonomi aktif ve 2026 başında etkinlikleri var (oyun gecesi, Türk kahvaltısı vb.) ama ağırlıkla Erasmus/üye öğrenciler için; öğrenci olmayanlara açık olduğuna dair kanıt yok. Facebook'ta 'Expats in İzmir' grubunu doğrulayamadım. Dil değişimi tarafında Mundo Lingo İzmir ayağı bulunamadı (ESN etkinliği olarak geçiyor). En güçlü adaylar: 1) BlaBla İzmir (karma, sosyal, düzenli), 2) InterNations İzmir (doğrulanmalı), 3) ESN şubeleri (öğrenci iseniz ya da kapıda sorarak), 4) izmir coffee talk walk (çok küçük). Genel çıkarım: bu kategori Socialvibe benzeri ölçekte değil; küçük, karma ve ağırlıkla yabancı odaklı.",
+      "topluluklar": [
+        {
+          "ad": "BlaBla Language Exchange - İzmir",
+          "tur": "Dil değişimi / sosyal buluşma",
+          "hesap_veya_url": "Instagram: BlaBla Language (kullanıcı adı doğrulanmadı); https://allevents.in/izmir/izmir-blabla-language-exchange-2-every-other-thursday-recurrent-event/200030243286705",
+          "yer": "Konak (866. Sokak 22, Konak Mah.); mekân adı belirtilmemiş",
+          "bicim": "İki haftada bir Perşembe 20:30-22:00, mingle tarzı, masa düzeni yok, İngilizce ve yerel dil; kayıt AllEvents/Instagram; yaklaşık 100 ilgilenen",
+          "son_etkinlik_kaniti": "13 Ağustos 2026 Perşembe 20:30 oturumu AllEvents'te listeli; sonrası doğrulanamadı",
+          "kaynak_url": "https://allevents.in/izmir/izmir-blabla-language-exchange-2-every-other-thursday-recurrent-event/200030243286705",
+          "alinti": "we kindly request that you order at least 1 beverage to participate",
+          "guven": "orta",
+          "ucret": "Giriş ücretsiz, en az 1 içecek siparişi",
+          "kadin_katilimi_notu": "Karma; cinsiyet dengesi bilgisi yok"
+        },
+        {
+          "ad": "izmir coffee talk walk (Meetup)",
+          "tur": "Meetup grubu, İngilizce sohbet/yürüyüş",
+          "hesap_veya_url": "https://www.meetup.com/izmir-coffee-talk-walk/",
+          "yer": "Alsancak, Konak (Freija Coffee)",
+          "bicim": "Kahve buluşmaları, sahil yürüyüşleri, İngilizce sohbet; her seviyeye açık",
+          "son_etkinlik_kaniti": "5 Ağustos (Çarşamba, 2026 olması muhtemel), Freija Coffee Alsancak, 1 katılımcı; yaklaşan etkinlik yok",
+          "kaynak_url": "https://www.meetup.com/izmir-coffee-talk-walk/",
+          "alinti": "a casual community for everyone",
+          "guven": "orta",
+          "ucret": "Bilinmiyor",
+          "kadin_katilimi_notu": "Karma; 26 üye, çok küçük"
+        },
+        {
+          "ad": "InterNations İzmir",
+          "tur": "Expat/uluslararası ağ",
+          "hesap_veya_url": "internations.org (İzmir şubesi); https://www.otuzbeslik.com/grup/internations-izmir",
+          "yer": "İzmir (mekânlar bilinmiyor)",
+          "bicim": "Onaylı üyelik; aylık sosyal etkinlikler ve ilgi grupları iddiası (8 aylık etkinlik, 13 grup); büyük etkinlikler tüm topluluğa açık",
+          "son_etkinlik_kaniti": "Doğrulanamadı; 'Friday Night Flow' adlı etkinlik tarihsiz geçiyor",
+          "kaynak_url": "https://www.otuzbeslik.com/grup/internations-izmir",
+          "alinti": "InterNations İzmir: Friday Night Flow",
+          "guven": "düşük",
+          "ucret": "Üyelik/etkinlik ücretleri doğrulanmadı",
+          "kadin_katilimi_notu": "Bilgi yok"
+        },
+        {
+          "ad": "ESN Ege University / ESN Dokuz Eylül / ESN Yaşar / ESN İzmir Ekonomi (IUE)",
+          "tur": "Erasmus öğrenci ağı",
+          "hesap_veya_url": "https://activities.esn.org/organisation/esn-ege-university/activities (Instagram hesapları doğrulanmadı)",
+          "yer": "Bornova, Balçova ve diğer kampüsler",
+          "bicim": "Oyun gecesi, Türk kahvaltısı, buz pateni, şehir turu, karşılama partisi; esas hedef Erasmus ve uluslararası öğrenciler",
+          "son_etkinlik_kaniti": "ESN Ege: 3-16 Ocak 2026 arası etkinlikler listeli; ESN Türkiye Chill'Ness festivali 21-24 Mayıs 2026 Eski Foça",
+          "kaynak_url": "https://activities.esn.org/organisation/esn-ege-university/activities",
+          "alinti": "Chill'Ness 2026",
+          "guven": "düşük",
+          "ucret": "Bilinmiyor",
+          "kadin_katilimi_notu": "Karma; öğrenci olmayanlara açık olduğuna dair kanıt yok"
+        }
+      ],
+      "ek_iddialar": [
+        {
+          "iddia": "Meetup 'International Friends of İzmir' grubu sayfası artık 'grup mevcut değil' hatası veriyor; muhtemelen kapanmış",
+          "kaynak_url": "https://www.meetup.com/tr-TR/international-friends-of-izmir/",
+          "alinti": "Üzgünüz, aradığınız grup mevcut değil",
+          "guven": "orta"
+        },
+        {
+          "iddia": "Couchsurfing İzmir için güncel haftalık buluşma kanıtı yok; tek bulgu 2014 tarihli bir blog",
+          "kaynak_url": "https://marchingabout.blogspot.com/2014/05/day-7-izmir.html",
+          "alinti": "Day 7 - İzmir",
+          "guven": "orta"
+        },
+        {
+          "iddia": "Nomads.com'da İzmir için yaklaşan buluşma listelenmiyor",
+          "kaynak_url": "https://nomads.com/meetups/izmir",
+          "alinti": "Clear search",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "'İzmir International Meeting' (Alsancak bar gecesi) yalnızca 2019 tarihli ilan olarak bulundu, aktifliği kanıtsız",
+          "kaynak_url": "https://www.otuzbeslik.com/etkinlikler/sardunyas/20-11-2019-19-30/izmir-international-meeting",
+          "alinti": "İzmir International Meeting",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "Mundo Lingo İzmir ayağı bulunamadı; yalnızca ESN etkinliği olarak geçiyor",
+          "kaynak_url": "https://activities.esn.org/activity/mundo-lingo-28469",
+          "alinti": "mundo lingo 28469",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "Başka bir kadın ağı olan IWAI (Uluslararası Kadınlar Derneği İzmir) için sayfa bulunamadı",
+          "kaynak_url": "https://expatexchange.com/gdcview/57/1/110/4239/Turkey/Izmir/How-do-I-meet-people-in-Izmir",
+          "alinti": "How do I meet people in Izmir?",
+          "guven": "düşük"
+        }
+      ],
+      "aykiri_kanit": "Meetup'ta İzmir odaklı grupların biri kapanmış görünüyor, diğeri 26 üyeli ve son etkinlikte 1 katılımcı var; yani platform tabanlı topluluklar İzmir'de çok zayıf. InterNations ve ESN'in güncel, herkese açık takvimi doğrulanamadı. Facebook'ta 'Expats in İzmir' benzeri grup doğrulanamadı. Kadın katılımına dair hiçbir kaynakta veri yok. Bu aramada Socialvibe'ın İstanbul/İzmir ayrımı incelenmedi.",
+      "acik_kalanlar": [
+        "BlaBla İzmir'in Eylül-Kasım 2026 oturumları ve Instagram kullanıcı adı",
+        "BlaBla etkinliğinin mekân adı",
+        "InterNations İzmir'in güncel takvimi ve herkese açık etkinlik oranı (internations.org erişilmedi)",
+        "ESN şubelerinin öğrenci olmayanlara açıklığı (activities.esn.org 403 verdi)",
+        "Couchsurfing İzmir etkinlik sekmesi (uygulama içi)",
+        "Facebook grupları (herkese açık sayfa bulunamadı)",
+        "IWAI veya benzeri kadın ağlarının varlığı"
+      ]
+    },
+    {
+      "key": "hobi-aktivite",
+      "arac": "araç: 12/35 (arama ve getirme sonuçları zayıftı; art arda boş aramalar nedeniyle durdum)",
+      "ozet": "Bu soru için web'den bulunabilen kanıt zayıf. Bunun nedeni büyük ölçüde şu: İzmir'deki run club, yürüyüş ve gönüllü grupları çoğunlukla Instagram'da ve oraya giriş gerekiyor. Arama motoru bu hesapları göstermedi, bu yüzden hesap adlarını ve güncel programı doğrulayamadım.\n\nBu oturumda gördüğüm en somut şey Latin dans. SalsaVida takviminde İzmir'de üç haftalık sosyal gece listeleniyor: Eladans (Bornova, Cliff Venue, pazar), Garage Latin Night (Bornova, Dance Garage, perşembe) ve My Teras Latin Night (Bayraklı, cuma). Üçünde de Kasım 2026 sonu için tarih görünüyor. Ama SalsaVida bunlar için \"tarihler değişebilir\" diyor ve My Teras sayfası aynı anda \"Nisan'a kadar ara verildi\" notu taşıyor. Bu yüzden organizatörlerden teyit gerekiyor. Alsancak'ta bir sosyal gece bulamadım. Mekânlar Bornova ve Bayraklı'da.\n\nKoşu tarafında tek somut aday Karşıyaka One Team (Bostanlı, salı 20:00, 2015'te kurulmuş). Kanıtı yalnızca bir RunningCrews sayfası. 2026'ya ait doğrulama bulamadım, bu yüzden güveni düşük. Revolucion run club ve Theravita221 adları Wings for Life World Run İzmir'in (10 Mayıs 2026) yerel ortakları olarak geçti, ama başka bilgi yok.\n\nDoğa yürüyüşü, kitap kulübü, bisiklet ve gönüllülük için güncel ve sürekli bir topluluk bulamadım. Bulduklarım ya geçmiş etkinlik ya da belirsiz. Yol Dağcılık Spor Kulübü İzmir merkezli bir kulüp ama düzenli etkinlik takvimine dair kanıt yok. Süslü Kadınlar Bisiklet Turu İzmir çıkışlı, kadınlara yönelik bir yıllık etkinlik, ama 2026 için kanıt yok ve ara verilmiş olabilir. Bir Dokun Bir İşit Kitap Kulübü ayda bir yüz yüze İzmir buluşması planladığını söylüyor, ama gördüğüm tarih Temmuz'dan kalma.\n\nÖnerim: en somut ve başlangıç için en kolay seçenek Latin dans gecelerine (özellikle pazar Eladans ya da perşembe Dance Garage) gitmek. Bunları yine de gitmeden organizatörden teyit etmelisiniz. Run club için Instagram'da \"Karşıyaka One Team\" hesabını doğrudan arayın. Diğer kategoriler için bu ajanın görev kapsamında doğrulanabilir bir aday çıkmadı; ayrı bir Instagram/Meetup taraması gerekir.",
+      "topluluklar": [
+        {
+          "ad": "Eladans Sosyal Dans Gecesi (Eladans Ege Latin Dansları Spor Kulübü)",
+          "tur": "Latin dans (salsa/bachata) sosyal gecesi",
+          "hesap_veya_url": "Instagram hesabı doğrulanamadı; takvim: https://www.salsavida.com/guides/turkey/izmir/socials/",
+          "yer": "Cliff Venue, Erzene Mah. Fevzi Çakmak Cad. No:25/C, Bornova",
+          "bicim": "Haftalık sosyal gece, pazar 21:00-00:30; kayıt gerekmeden mekâna gidiliyor gibi görünüyor (doğrulanmadı)",
+          "ucret": "300 TL, bir içecek dahil",
+          "son_etkinlik_kaniti": "SalsaVida'da bir sonraki tarih 22 Kasım ve 29 Kasım 2026 olarak listeli; geçmiş yapıldığına dair ayrı kanıt görmedim",
+          "kaynak_url": "https://www.salsavida.com/?p=107869",
+          "alinti": "Eladans organise Sosyal Dans Gecesi, une soirée hebdomadaire de Salsa et Bachata au Cliff Venue à Bornova, İzmir.",
+          "guven": "orta",
+          "kadin_katilimi_notu": "Cinsiyet dengesi hakkında kanıt yok; karma. Dansta kadın katılımı genelde yüksek ama bu etkinlik için doğrulanmadı."
+        },
+        {
+          "ad": "Garage Latin Night (Dance Garage)",
+          "tur": "Latin dans (salsa/bachata) atölye + sosyal gece",
+          "hesap_veya_url": "https://www.salsavida.com/guides/turkey/izmir/socials/ (Instagram doğrulanamadı)",
+          "yer": "Dance Garage, Bornova",
+          "bicim": "Her perşembe; 20:45'te atölye, ardından 00:30'a kadar sosyal gece; yeni başlayanlara atölye imkânı var",
+          "ucret": "Listelenmedi",
+          "son_etkinlik_kaniti": "SalsaVida'da sonraki tarihler 26 Kasım ve 3 Aralık 2026",
+          "kaynak_url": "https://www.salsavida.com/guides/turkey/izmir/socials/",
+          "alinti": "Garage Latin Night at Dance Garage",
+          "guven": "orta",
+          "kadin_katilimi_notu": "Bilgi yok; karma."
+        },
+        {
+          "ad": "My Teras Latin Night (Aegean Dance Schools)",
+          "tur": "Latin dans partisi",
+          "hesap_veya_url": "Organizatör: Aegean Dance Schools (Instagram üzerinden; tam hesap adı doğrulanamadı)",
+          "yer": "My Terrace, My Plaza, Salhane İZBAN, Bayraklı",
+          "bicim": "Cuma 21:00-02:00, 19:30'da ön parti; bol kalabalık, parti formatı",
+          "ucret": "300 TL, kapıda nakit",
+          "son_etkinlik_kaniti": "Sayfa 27 Kasım 2026'yı sonraki tarih gösteriyor ama aynı sayfada 'Nisan ayına kadar ara verilmiştir' notu var; çelişkili",
+          "kaynak_url": "https://www.salsavida.com/tr/event/turkey/izmir/my-teras-latin-night/",
+          "alinti": "Bu etkinliğe Nisan ayına kadar ara verilmiştir.",
+          "guven": "düşük",
+          "kadin_katilimi_notu": "Bilgi yok."
+        },
+        {
+          "ad": "Karşıyaka One Team",
+          "tur": "Run club (koşu grubu)",
+          "hesap_veya_url": "Instagram/Facebook/Strava var ama hesap adı doğrulanamadı; https://runningcrews.com/crews/karsiyaka-one-team-izmir",
+          "yer": "Bostanlı, Karşıyaka sahili",
+          "bicim": "Haftalık, salı 20:00, beş farklı tempo grubu; 2015'te kurulmuş",
+          "ucret": "Bilinmiyor",
+          "son_etkinlik_kaniti": "2026'ya ait kanıt bulunamadı; kaynak güncelliği doğrulanamadı. Son görülen: RunningCrews sayfası (tarihsiz)",
+          "kaynak_url": "https://runningcrews.com/crews/karsiyaka-one-team-izmir",
+          "alinti": "every Tuesday night at eight o'clock on the waterfront",
+          "guven": "düşük",
+          "kadin_katilimi_notu": "Bilgi yok."
+        },
+        {
+          "ad": "Süslü Kadınlar Bisiklet Turu (İzmir çıkışlı)",
+          "tur": "Bisiklet / kadın etkinliği",
+          "hesap_veya_url": "Resmi hesap doğrulanamadı",
+          "yer": "İzmir (Konak, Karşıyaka)",
+          "bicim": "Yılda bir tur, 2013'te Sema Gür başlattı",
+          "ucret": "Bilinmiyor",
+          "son_etkinlik_kaniti": "Son bulduğum: 2023 (Karşıyaka, 17 Eylül); EEAS yazısı merkezi turun bir yıl yapılmadığını söylüyor. 2026 kanıtı yok",
+          "kaynak_url": "https://www.cumhuriyet.com.tr/yasam/suslu-kadinlar-farkindalik-icin-pedal-cevirecek-2114834",
+          "alinti": "Süslü Kadınlar farkındalık için pedal çevirecek",
+          "guven": "düşük",
+          "kadin_katilimi_notu": "Kadınlara yönelik etkinlik; yıllık olduğu için günlük tanışma ortamı değil."
+        }
+      ],
+      "ek_iddialar": [
+        {
+          "iddia": "Alsancak'ta salsa/bachata sosyal gecesi bulunamadı; SalsaVida'daki üç gece Bornova ve Bayraklı'da.",
+          "kaynak_url": "https://www.salsavida.com/tr/guides/turkey/izmir/",
+          "alinti": "Eladans Sosyal Dans Gecesi at Cliff Venue",
+          "guven": "orta"
+        },
+        {
+          "iddia": "Revolucion run club ve Theravita221, Wings for Life World Run İzmir'in (10 Mayıs 2026) yerel ortakları olarak anılıyor; kendi etkinlikleri doğrulanamadı.",
+          "kaynak_url": "https://www.wingsforlifeworldrun.com/en/locations/izmir-inciralti",
+          "alinti": "Revolucion run club, Theravita221, Karşıyaka One Team",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "Bir Dokun Bir İşit Kitap Kulübü çevrim içi ve İzmir'de ayda bir yüz yüze buluşma planlıyor; gördüğüm tarih 26 Temmuz (geçmiş).",
+          "kaynak_url": "https://tally.so/r/RGVDep",
+          "alinti": "Form cover",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "Yol Dağcılık Spor Kulübü İzmir merkezli bir kulüp (yaklaşık 15 kişilik grup Doğu Karadeniz gezisi yaptı); düzenli program doğrulanamadı.",
+          "kaynak_url": "https://www.dha.com.tr/foto-galeri/egeli-dogaseverlerin-karadeniz-rotasi-3-bin-rakimda-buz-banyosu-2928937",
+          "alinti": "İzmir'den Doğu Karadeniz'e gelen Yol Dağcılık Spor Kulübü üyesi yaklaşık 15 kişilik grup",
+          "guven": "düşük"
+        },
+        {
+          "iddia": "Gönüllü sahil temizliği İzmir'de ağırlıklı olarak belediye, TEMA ve TURMEPA gibi kurumlarca yapılıyor; tek bir sürekli gönüllü topluluk bulunamadı.",
+          "kaynak_url": "https://www.yenibakishaber.com/izmirde-denizler-icin-ortak-hareket-uc-gunluk-temizlik-programi",
+          "alinti": "TEMA Gönüllüleri ile birlikte temizlik yapılacaktı",
+          "guven": "düşük"
+        }
+      ],
+      "aykiri_kanit": "Socialvibe için şikâyet, dolandırıcılık ya da kadın katılımı kanıtı aramam hiçbir sonuç vermedi, yani ne olumlu ne olumsuz bilgi var. Karşıyaka One Team için 2026 kanıtı bulunamadı; tek kaynak tarihsiz bir RunningCrews sayfası. My Teras Latin Night sayfası aynı anda hem 27 Kasım tarihi hem 'Nisan'a kadar ara verildi' notu taşıyor. Kitap kulübü ve doğa yürüyüşü aramaları yalnızca geçmiş etkinlik ve rota haberi döndürdü; düzenli, yeni üye kabul eden bir grup görmedim. Bu oturumda yalnızca İstanbul'da olan bir topluluk eklemedim.",
+      "acik_kalanlar": [
+        "İzmir run club'ların Instagram hesap adları (Karşıyaka One Team dahil) ve 2026 programı",
+        "Doğa yürüyüşü/trekking grupları (Meetup, Facebook, Instagram) ve ücretli tur organizatörleri",
+        "Düzenli İzmir kitap kulüpleri (Bir Dokun Bir İşit dışında) ve atölye organizatörleri (Bubilet İzmir atölye) hiç taranmadı",
+        "Bisiklet grupları (kritik kütle) ve sürekli gönüllülük toplulukları",
+        "Latin dans gecelerinin Instagram hesapları ve kadın/erkek dengesi",
+        "Eladans gecesinin 22 Kasım 2026'da gerçekten yapılıp yapılmadığı",
+        "Socialvibe'ın İzmir etkinlikleri ve itibarı"
+      ]
+    }
+  ],
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Araştırma"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "uretici:oyun-sosyal",
+      "phaseIndex": 1,
+      "phaseTitle": "Araştırma",
+      "agentId": "adc84e21097c3c158",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795589221074,
+      "queuedAt": 1795589220941,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 16/35 (3 ilk arama + 13 sonraki; araç kısıtı nedeniyl…",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'te dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM: Kullanıcı İzmir'de yeni insanlarla (özellikle kadınlarla) tanışabileceği etkinlik ve toplulukları arıyor. Örnek aldığı hesap Instagram'daki \"socialvibeevent\": \"Soc…",
+      "promptFramed": true,
+      "lastProgressAt": 1795589306389,
+      "tokens": 96511,
+      "toolCalls": 19,
+      "durationMs": 85314,
+      "resultPreview": "{\"arac\":\"araç: 16/35 (3 ilk arama + 13 sonraki; araç kısıtı nedeniyle Instagram içeriği okunamadı)\",\"ozet\":\"Bu araçlarla (arama özeti + herkese açık sayfalar) İzmir'de Socialvibe benzeri, Instagram'dan örgütlenen, doğrulanabilir ve güncel bir \\\"oyun gecesi / tanışma etkinliği\\\" organizatörü bulamadım. Arama motoru Instagram içeriğini neredeyse hiç endekslemiyor; bu yüzden sonuçlar zayıf, ana boşlu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "uretici:tanisma-yemek",
+      "phaseIndex": 1,
+      "phaseTitle": "Araştırma",
+      "agentId": "a69cc10793827f29d",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795589221075,
+      "queuedAt": 1795589220942,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 15/35",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'te dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM: Kullanıcı İzmir'de yeni insanlarla (özellikle kadınlarla) tanışabileceği etkinlik ve toplulukları arıyor. Örnek aldığı hesap Instagram'daki \"socialvibeevent\": \"Soc…",
+      "promptFramed": true,
+      "lastProgressAt": 1795589300535,
+      "tokens": 95652,
+      "toolCalls": 19,
+      "durationMs": 78053,
+      "resultPreview": "{\"arac\":\"araç: 15/35\",\"ozet\":\"Bu alt soruda İzmir'de doğrudan tanışma amaçlı (speed dating, bekârlar gecesi, yabancılarla yemek) güncel ve doğrulanmış bir format bulamadım. Timeleft ana sayfasında Türkiye ya da İzmir geçmiyor; İzmir'de olduğuna dair kanıt yok (sayfa şehir listelemiyor, \\\"200+ şehir, 52 ülke\\\" diyor). Speed dating için tek İzmir izi eski: Biletino'da \\\"Speed Date Türkiye\\\" organiza…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "uretici:uluslararasi-platform",
+      "phaseIndex": 1,
+      "phaseTitle": "Araştırma",
+      "agentId": "acc2fad689a36374e",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795589300575,
+      "queuedAt": 1795589220942,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 10/35",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'te dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM: Kullanıcı İzmir'de yeni insanlarla (özellikle kadınlarla) tanışabileceği etkinlik ve toplulukları arıyor. Örnek aldığı hesap Instagram'daki \"socialvibeevent\": \"Soc…",
+      "promptFramed": true,
+      "lastProgressAt": 1795589357924,
+      "tokens": 94047,
+      "toolCalls": 16,
+      "durationMs": 57348,
+      "resultPreview": "{\"arac\":\"araç: 10/35\",\"ozet\":\"Platform tabanlı uluslararası topluluklarda İzmir zayıf. En somut bulgu BlaBla Language Exchange İzmir: iki haftada bir Perşembe, Konak'ta, ücretsiz giriş (en az 1 içecek siparişi), listelemede 13 Ağustos 2026 tarihli oturum var. Ancak bu tarih Haziran sonrası olsa da son 3 aya ait kanıt yok; AllEvents sayfası tekrarlayan etkinlik kaydı. Meetup'ta İzmir için iki grup …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "uretici:hobi-aktivite",
+      "phaseIndex": 1,
+      "phaseTitle": "Araştırma",
+      "agentId": "a47147e1542190f14",
+      "model": "claude-sonnet-5-5",
+      "state": "done",
+      "startedAt": 1795589306397,
+      "queuedAt": 1795589220942,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "araç: 12/35 (arama ve getirme sonuçları zayıftı; art arda b…",
+      "promptPreview": "Kontrol noktası 35 araç çağrısı; say. 35'te dur ve kendine sor: soru yanıtlandı mı, sonuca etki eden bir eksik var mı? Yoksa bitir. Varsa ve son 5 çağrın yeni bilgi getirdiyse devam et; her 10 çağrıda yeniden sor. Üst sınır 70.\n\nBAĞLAM: Kullanıcı İzmir'de yeni insanlarla (özellikle kadınlarla) tanışabileceği etkinlik ve toplulukları arıyor. Örnek aldığı hesap Instagram'daki \"socialvibeevent\": \"Soc…",
+      "promptFramed": true,
+      "lastProgressAt": 1795589381845,
+      "tokens": 102869,
+      "toolCalls": 18,
+      "durationMs": 75448,
+      "resultPreview": "{\"arac\":\"araç: 12/35 (arama ve getirme sonuçları zayıftı; art arda boş aramalar nedeniyle durdum)\",\"ozet\":\"Bu soru için web'den bulunabilen kanıt zayıf. Bunun nedeni büyük ölçüde şu: İzmir'deki run club, yürüyüş ve gönüllü grupları çoğunlukla Instagram'da ve oraya giriş gerekiyor. Arama motoru bu hesapları göstermedi, bu yüzden hesap adlarını ve güncel programı doğrulayamadım.\\n\\nBu oturumda gördü…"
+    }
+  ],
+  "totalTokens": 389079,
+  "totalToolCalls": 72
+}
