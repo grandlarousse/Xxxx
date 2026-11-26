@@ -1,0 +1,20 @@
+sinama,sonuc,sayi,esik,aciklama
+K_tavan_sirasi,gecti,1,=1,"tavan(K0)<=tavan(K1)<=tavan(K2)<=tavan(K3) saglayan (cekim,ufuk) payi; ic ice birlesim kumeleriyle"
+K_literal_K0_K1,kaldi,0.331823,=0,yazildigi gibi K0 uyesi olup K1 (d<=6 sarti) disinda kalan pay
+K_literal_K0_K1_uygulanabilir,gecti,0,=0,"ayni, yalniz dinlenme gunu olan politikalarda"
+K_literal_K1_K2,kaldi,0.327285,=0,yazildigi gibi K1 uyesi olup K2 (n sonlu sarti) disinda kalan pay
+K_literal_K1_K2_uygulanabilir,kaldi,7.2543e-05,=0,"ayni, yalniz hafif haftasi tamamlanmis politikalarda"
+K_literal_K1_K3,kaldi,0.000226336,=0,K1 uyesi olup K3 disinda kalan pay
+K_literal_K2_K3,kaldi,0.00266529,=0,K2 uyesi olup K3 disinda kalan pay
+K_literal_K0_K3,gecti,0,=0,K0 uyesi olup K3 disinda kalan pay
+iki_tohum_uyumu_hA,gecti,0.986607,>=0.9,"ana tabloda (a, b1) iki tohumun saglam hA farki <= 0,5 olan hucre payi"
+iki_tohum_uyumu_haftalik,gecti,0.982143,>=0.9,iki tohumun saglam haftalik saat farki <= 3 olan hucre payi
+izgara_ust_sinir_hA10,gecti,0,<0.05,"cekim basina optimumun hA=10 sinirina yapisma payi (a, b1, tum hucreler)"
+izgara_alt_sinir_hA1,gecti,0,<0.05,cekim basina optimumun hA=1 sinirina yapisma payi
+izgara_ust_sinir_hB3,kaldi,0.132045,<0.05,cekim basina optimumun hB=3 sinirina yapisma payi
+izgara_025_yakinsama_hA,gecti,1,>=0.9,"h3=6: 0,25 izgarada saglam hA farki <= 0,25 olan hucre payi"
+izgara_025_Jyildiz_kazanc_ort,gecti,0.0075063,bilgi,"0,25 izgaranin en iyi J degerine hucre ortalamasi katkisi (bilgi satiri)"
+izgara_025_Jyildiz_kazanc,kaldi,0.0158678,<0.005,"0,25 izgaranin cekim basina en iyi J degerine en buyuk ortalama katkisi"
+motor_referans_tutarliligi,gecti,3.4861e-14,<0.002,saglam politikanin beklenen pismanligi: hizli motor ile referans benzetici farki (en buyuk)
+h3_girdi_cikti,gecti,1,=1,"lambda=0, 360 gun: 6 gun/hafta ucurumsuz en yuksek hA = h3 olan cekim payi (dongusellik denetimi)"
+kabul_sayisi,gecti,1000,>=1000,senaryo ve tohum basina kullanilan kabul edilmis cekim (en az)

@@ -14,3 +14,12 @@ gorev y 5.0 0.05: 14 s
 gorev y 6.0 0.0: 13 s
 gorev y 6.0 0.02: 14 s
 gorev y 6.0 0.05: 14 s
+gorev y 7.0 0.0: 14 s
+gorev y 7.0 0.02: 16 s
+gorev y 7.0 0.05: 17 s
+gorev y 8.0 0.0: 17 s
+gorev y 8.0 0.02: 16 s
+gorev y 8.0 0.05: 14 s
+birinci gecis: 270 s
+toplama + ikinci gecis: 22 s
+rapor(): henuz yazilmadi
