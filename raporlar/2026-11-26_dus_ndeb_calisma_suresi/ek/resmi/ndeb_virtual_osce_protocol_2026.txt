@@ -1,0 +1,860 @@
+Kaynak: https://ndeb-bned.ca/wp-content/uploads/2026/01/2026-VIRTUAL-OSCE-PROTOCOL_Revised.pdf | indirme: 2026-11-26
+      Virtual OSCE® Protocol
+
+
+
+
+    Effective January 19, 2026
+
+
+
+    © The National Dental Examining Board of Canada 2022
+
+    The National Dental Examining Board of Canada™ (NDEB®), and all other trademarks,
+®
+    examination names, and associated designs or logos, wherever they appear by or about
+    the NDEB, whether or not appearing with the ® or ™ symbol, are protected as trademarks,
+    service marks or trade names of the NDEB and any unauthorized use is expressly prohibited.
+Contents
+
+Purpose of the Virtual OSCE ....................................................................................................................... 4
+
+Check-in ...................................................................................................................................................... 4
+
+      Additional Check-in Information for Prometric Test Centres .......................................................... 4
+
+Content ........................................................................................................................................................ 5
+
+   Blueprint .................................................................................................................................................... 5
+
+   Format....................................................................................................................................................... 6
+      Standard Single-Answer Multiple-Choice Questions ....................................................................... 6
+      Case-Based Questions ........................................................................................................................ 6
+      Case-Based Short-Answer Questions ................................................................................................ 9
+      Case History ........................................................................................................................................ 11
+      Periodontal Chart .............................................................................................................................. 12
+      Endodontic Chart .............................................................................................................................. 13
+      Orthodontic Chart ............................................................................................................................. 14
+      Images ................................................................................................................................................ 14
+
+   Important Definitions ............................................................................................................................. 14
+
+   Examples of Formulations ..................................................................................................................... 15
+      Example of ONE appropriate management for a specific clinical case................................... 15
+      Example of ONE OR MORE appropriate treatments in the management for a specific clinical
+      case..................................................................................................................................................... 16
+      Example of ONE OR MORE periodontal diagnoses for a specific clinical case ........................ 16
+
+Preparation Materials ............................................................................................................................... 17
+
+   Virtual OSCE Frameworks ..................................................................................................................... 17
+
+   Electronic Examination Orientation .................................................................................................... 17
+
+   Reference Texts ..................................................................................................................................... 17
+
+   Released Questions .............................................................................................................................. 17
+
+   Tooth Numbering System ..................................................................................................................... 18
+
+   Training Courses ..................................................................................................................................... 18
+
+Copyright and Exam Security ................................................................................................................. 18
+
+Examination Day Regulations ................................................................................................................. 19
+
+Test Accommodations ............................................................................................................................. 20
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                                                                                 Page | 2
+Exceptional Circumstances: Withdrawals, Compassionate Appeals, and Conduct of the
+Examination ............................................................................................................................................... 20
+
+   Withdrawals............................................................................................................................................ 20
+
+   Compassionate Appeals ..................................................................................................................... 20
+
+   Conduct of an Examination ................................................................................................................ 20
+
+Results ......................................................................................................................................................... 21
+
+Passing Standard....................................................................................................................................... 21
+
+Appeals and Rescoring............................................................................................................................ 21
+
+Repeats ...................................................................................................................................................... 21
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                                                                                  Page | 3
+Purpose of the Virtual OSCE
+
+The Virtual OSCE is a summative examination that assesses your problem solving and critical
+decision-making skills that are required of beginning dental practitioners in Canada.
+
+The Virtual OSCE is the national standard of competence for dentists in Canada. The
+examination leads to NDEB certification and is required for licensure in Canada.
+
+
+Check-in
+
+During check-in, you must show current government-issued photo identification. Acceptable
+forms of government-issued photo identification are:
+    •   driver’s licence,
+    •   passport, or
+    •   provincial photo identification card.
+
+The ID must be in English or French. Photocopies and digital images will not be accepted.
+
+Photo identification must show your name exactly as it appears in your online profile and must
+not be expired. If the photo identification does not have an expiry date, it must have been
+issued within the last 10 years.
+
+If you do not provide government-issued photo identification, you will not be permitted to take
+the examination.
+
+During check-in, staff may inspect eyeglasses, jewellery, and other accessories. This may require
+a physical inspection and it may occur each time you enter the examination room.
+
+You are advised to refrain from wearing jewellery, except for wedding rings. Any other jewellery,
+including ornate hair accessories, will need to be removed and placed in a designated area.
+
+Please refer to the Examination Day Regulations for information on what you can and cannot
+bring into the examination room.
+
+Additional Check-in Information for Prometric Test Centres
+
+During check-in at Prometric sites, you may be scanned with a metal detector wand,
+fingerprinted, required to raise your pant legs above your ankles, empty and turn all pockets
+inside-out, and raise shirt sleeves above your wrists prior to entry into the test room.
+
+Prior to the examination, candidates must read and be familiar with Prometric’s test centre
+policies including arrival and check-in procedures. These procedures may change at any time. It
+is your responsibility to know the test centre policies prior to your examination. If you do not
+comply with Prometric’s policies, you may be refused entry to the test centre.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                              Page | 4
+Content
+
+Examination items are developed based on the Knowledge, Skills and Abilities (KSAs) for
+beginning dental practitioners in Canada available in the Exam Resources section of the NDEB
+website.
+
+Blueprint
+The blueprint below shows the content areas and approximate percentage of questions in each
+area.
+Each blueprint category will contain questions pertaining to diagnosis, treatment planning, and
+management, including pharmacology & therapeutics, of patients across all age groups as well
+as patients with special needs. Questions related to radiology and dental anesthesia will be
+distributed across all categories. Questions pertaining to the principles underpinning the scientific
+literature, health promotion and professionalism may also be included in the examination.
+
+
+
+
+                        Virtual OSCE Blueprint                           Percentage of Questions
+
+
+ Operative Dentistry                                                               16 ± 5
+
+
+ Periodontics                                                                      14 ± 5
+
+
+ Oral Medicine and Pathology                                                       12 ± 5
+
+
+ Pain                                                                              12 ± 5
+
+ Prevention and management of medical emergencies including
+                                                                                   12 ± 5
+ management of medically complex patients
+
+ Endodontics                                                                       10 ± 5
+
+
+ Prosthodontics                                                                    10 ± 5
+
+
+ Surgery                                                                            8±5
+
+
+ Orthodontics                                                                       6±5
+
+
+ Total                                                                              100
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                             Page | 5
+Format
+The Virtual OSCE is a computer-based examination consisting of approximately 200 questions in
+a single day. There are approximately 50 standard single-answer multiple-choice questions and
+approximately 150 case-based questions. The examination is six hours in duration with one
+scheduled break.
+
+Standard Single-Answer Multiple-Choice Questions
+
+Questions with a single correct answer are identified by the direction “Select ONE correct
+answer.” For these questions, you should select the most likely or most appropriate answer. There
+is no penalty for incorrect answers. You should always answer a question, even when you are
+unsure.
+
+
+
+Example of standard single-answer multiple-choice question
+Which of the following cells participate in clot formation?
+
+   ● Platelets.
+   ○ Monocytes.
+   ○ Lymphocytes.
+   ○ Leukocytes.
+
+Case-Based Questions
+
+The case-based questions require you to review the information provided (e.g., case history,
+dental charts, relevant images including radiographic images, and/or diagrams) and answer a
+question. The question can be a single answer multiple-choice question, a multi-answer multiple-
+choice type question, or a short-answer question (e.g., writing a prescription).
+The case-based questions use the Virtual OSCE Frameworks. These are available in the Exam
+Resources section of the NDEB website.
+
+Each Virtual OSCE framework may include more than one question that can be used with that
+set of answers. Below are examples of questions that may be used with that framework in the
+examination. The frameworks include lists of distractors that can be very long. All distractors may
+not appear on a given question in the examination.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                          Page | 6
+Case-Based Question with a Single Correct Answer
+
+Case-based questions with a single correct answer are identified by the direction “Select ONE
+correct answer.” For these questions, you should select the most likely or most appropriate
+answer. There is no penalty for incorrect answers, so you should always answer a question, even
+when you are unsure.
+
+[Image of a panoramic radiograph provided.]
+
+Select ONE correct answer.
+What is the most likely radiographic diagnosis?
+
+ ○ Impacted tooth.
+ ○ Hyoid bone.
+ ○ Torus (Tori).
+ ○ Osteoma.
+ ○ Sclerosing osteitis.
+ ○ Cementoblastoma.
+ ○ Odontoma.
+ ○ Sialolith(s).
+ ○ Calcified lymph node(s).
+ ○ Calcified stylohyoid ligament.
+ ○ Tonsillolith(s).
+ ○ Phlebolith(s).
+ ○ Foreign body.
+
+Case-Based Question with Multiple Correct Answers
+Case-based questions with multiple correct answers are identified by the direction “Select ONE
+OR MORE correct answers”. These questions can have one correct answer or multiple correct
+answers. For ease of reading, the plural formulation is used for all questions which can have ONE
+OR MORE correct answers.
+
+The grade you receive for each question depends on whether you select all the correct
+answers, some of the correct answers, or an incorrect answer.
+
+All questions have a maximum score of 1 and a minimum score of 0. Every answer in a
+case-based question with multiple correct answers has a value. For each question, you must
+select all the correct answers to receive a score of 1. If you select one or more incorrect
+answers, you will receive a score of 0 for the question, even if all your other answers are correct,
+
+Rarely, some answers may be given a value of “0” if they are neither definitively correct nor
+incorrect. Selecting one of these answers will not affect your score.
+
+The example below shows the responses of three different candidates and their respective score
+for each question based on their answers when they assess a bite-wing radiograph for the
+presence of caries.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                           Page | 7
+[Bitewing radiograph provided.]
+
+
+
+ Candidate 1                                Candidate 2                                      Candidate 3
+ Select ONE or MORE correct answers.        Select ONE or MORE correct answers.              Select ONE or MORE correct answers.
+ There is radiographic evidence of caries   There is radiographic evidence of caries         There is radiographic evidence of caries
+ on                                         on                                               on
+
+      distal of tooth 2.3         -1             distal of tooth 2.3        -1                    distal of tooth 2.3         -1
+      mesial of tooth 2.4         -1             mesial of tooth 2.4        -1                    mesial of tooth 2.4         -1
+      distal of tooth 2.4         -1             distal of tooth 2.4        -1                    distal of tooth 2.4         -1
+      mesial of tooth 2.5         .33            mesial of tooth 2.5        .33                   mesial of tooth 2.5         .33
+      distal of tooth 2.5         .33            distal of tooth 2.5        .33                   distal of tooth 2.5         .33
+      mesial of tooth 2.6         .34            mesial of tooth 2.6        .34                   mesial of tooth 2.6         .34
+      distal of tooth 2.6         -1             distal of tooth 2.6        -1                    distal of tooth 2.6         -1
+      mesial of tooth 2.7         0              mesial of tooth 2.7        0                     mesial of tooth 2.7         0
+      distal of tooth 2.7         -1             distal of tooth 2.7        -1                    distal of tooth 2.7         -1
+      mesial of tooth 2.8         -1             mesial of tooth 2.8        -1                    mesial of tooth 2.8         -1
+      distal of tooth 2.8         -1             distal of tooth 2.8        -1                    distal of tooth 2.8         -1
+
+                       Total mark: 1                             Total mark: 0.66                                  Total mark: 0
+
+
+
+
+  Candidate 1 has selected the three          Candidate 2 has selected two                    Candidate 3 has selected four
+  correct answers and no incorrect            correct answers and no incorrect                answers. Three of the answers are
+  answer for a total of 1 mark.               answer. They have not selected                  correct, but one answer is incorrect
+                                              all correct answers, so part marks              and has a value of -1. The
+                                              are given for the question.                     candidate receives 0 for this
+                                                                                              question.
+VIRTUAL OSCE PROTOCOL - 2026
+               ®
+                                                                                  Page | 8
+Case-Based Short-Answer Questions
+
+Case-based short-answer questions will require you to complete prescriptions for a medication
+commonly prescribed by general dentists in Canada. These questions are worth four marks.
+A blank prescription, illustrated below, is provided. You will complete an appropriate prescription
+for the patient, as described in the case history.
+
+There are two types of prescriptions used in the exam. All boxes on the prescriptions will expand
+to accommodate your text.
+
+Examples of prescription forms
+
+
+
+
+                                                                                                 For no repeat
+                                                                                                      enter 0.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                         Page | 9
+                                     For no repeat
+                                        enter 0.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026   Page | 10
+Case History
+
+Most case-based questions include a patient case history in the following format:
+
+
+
+    50 year old female
+    Chief Complaint/        “I want to replace my tooth.”
+    Reason for Visit:
+
+
+    History of Chief        Tooth extracted over 20 years ago.
+    Complaint:
+
+
+    Dental History:         Regular dental care.
+
+
+    Medical History:        Hypothyroidism.
+                            Medication: Levothyroxine (Synthroid®).
+
+
+    Clinical Findings:
+
+
+
+
+•     General information about the patient will be in the top row.
+•     Cells in case history tables will be empty if there is nothing significant. Images and charts may
+      be presented below the case histories.
+•     A general statement "This area reflects the overall periodontal condition of this patient" may
+      be included in the Clinical Findings section of the Case history table for cases that include a
+      periodontal chart for a few teeth.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                             Page | 11
+Periodontal Chart
+
+Some case-based questions include a periodontal chart in the following format:
+
+    V          Furcation                                                  II              I
+    E
+    S            CAL         3     4     3                           2     8    3   3     2    4
+    T
+    I       Recession              1                                 -1   -2        -1   -1
+    B
+    U            BOP                                                      ●
+    L
+    A          Probing       3     3     3                           3    10    3   4     3    4
+    R
+                Tooth             3.4                3.5                  3.6            3.7
+                 BOP
+
+    L          Probing       3     3     3                           3     4    4   4     4    3
+    I
+    N
+            Recession        1     1     1                           1     1    1
+    G
+    U
+    A            CAL         4     4     4                           4     5    5   4     4    3
+
+    L
+               Furcation                                                   I
+
+               Mobility                                                   1
+
+
+Each chart will utilize the following notations:
+
+•       The portion of the chart above the tooth numbers denotes the findings on the vestibular
+        (buccal and/or labial) surfaces of the teeth. The portion of the chart below the tooth
+        numbers denotes the findings for the lingual surfaces.
+•       Missing teeth are denoted by an empty column.
+•       Implants will be identified in the chart.
+•       Probing depth is measured in millimetres. Probing depths greater than 3 mm are written in
+        red.
+•       BOP means “bleeding on probing” and is denoted by “•”.
+•       Recession is shown in millimetres. Recession with a positive value indicates the gingival
+        margin is apical to the CEJ. Recession with a negative value indicates the gingival margin is
+        coronal to the CEJ.
+•       CAL means “clinical attachment loss” and is measured in millimetres.
+•       Furcation involvement is classified as Class (I, II, III).
+•       Mobility is classified as 1/2/3, using the Miller classification.
+•       Cells will be empty if there is nothing significant or if the measurement is 0.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                                      Page | 12
+Percussion, palpation, cold test, electric pulp test and bite test results may be provided in a
+chart below the Periodontal chart. Further details on how this information is charted is provided
+in the Endodontic Chart section of the Protocol.
+
+Endodontic Chart
+
+Some case-based questions include an endodontic chart in the following format:
+
+                 Tooth                        1.3                  1.4                       1.5
+
+                         Vestibular   2       2         2   3       2        3       4        2         5
+ Probing
+                         Lingual      2       2         2   3       2        3       4        2         5
+
+ Mobility                                 Physiologic               1                         1
+
+ Percussion                                   ++                     -                        +
+
+ Palpation                                    ++                     -                        +
+
+                                                                                              ++
+ Cold Test                                     -                 Normal
+                                                                                          Lingering
+
+ Electric Pulp Test                         80/80                 30/80                     20/80
+
+                                           Sensitive                                       Sensitive
+ Bite Test                                                       Normal
+                                      upon pressure                                      upon release
+
+                                                                                              +
+ Heat Test                                     -                 Normal
+                                                                                          Lingering
+
+ Discolouration                              Yes                   No                        No
+
+
+   •   Not Performed means that the test was not conducted on this patient.
+   •   Mobility is classified as Physiologic or 1/2/3 using the Miller classification.
+   •   Percussion is classified in terms of pain intensity as ++/+/-.
+   •   Palpation over the root apex is classified in terms of pain intensity as ++/+/-.
+   •   The results of the Cold Test and Heat Test are described in terms of pain intensity as
+       ++/+/-/Normal.
+             o    “-“ is used when there is no response to a Cold Test or Heat Test.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                                 Page | 13
+            o   If the Cold Test or Heat Test response is ++ or +, the duration can be described as
+                Short or Lingering.
+
+
+    •   The result of the Electric Pulp Test has a maximum value of 80.
+    •   For endodontically treated teeth, N/A (Not Applicable) is used for the Electric
+        Pulp Test, Cold Test, and Heat Test.
+    •   The Bite Test is described as Normal or Sensitive upon pressure or upon release.
+    •   Discolouration is assessed as Yes (present) or No (absent).
+
+
+
+Orthodontic Chart
+
+Some case-based questions include an orthodontic chart in the following format:
+
+
+
+27 year old female                                               Mean                 Patient
+
+SNA                                                               81º                     80º
+
+SNB                                                               79º                     75º
+
+Sella-Nasion to Mandibular Plane                                  32º                     31º
+
+Frankfort Horizontal to Mandibular Plane                          24º                     25º
+
+
+
+Mean: Average measurement for a North American patient population.
+
+
+
+Images
+
+All clinical images, including radiographs, are displayed anatomically, as if you are looking at
+the patient, or intraorally.
+
+
+
+
+Important Definitions
+Differential diagnosis:               up to three likely diagnoses based on the information
+                                      provided.
+
+Immediate management:                 the management required at this appointment for that
+                                      specific clinical case.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                          Page | 14
+Initial treatment/management:       the first step in a more complex or comprehensive
+                                    treatment or the first step in that specific clinical case.
+
+Investigations:                     refers to all investigations for that specific clinical case, and
+                                    may include laboratory and clinical tests, radiographs,
+                                    biopsies, etc.
+
+Management:                         refers to all patient-centered therapies for that specific
+                                    clinical case and may include preventive, restorative,
+                                    surgical, pharmacological, non-pharmacological
+                                    treatments, nutritional therapies, education, counseling,
+                                    monitoring, and follow-up.
+
+Most appropriate management:        refers to the most suitable management for that specific
+                                    clinical case. Since the management of a situation can
+                                    include several steps, “the most appropriate management”
+                                    could include more than one answer.
+
+Most likely:                        refers to the most probable correct answer for that specific
+                                    clinical case.
+
+Next step:                          refers to the next step you would take in the management
+                                    of that specific clinical case.
+
+
+
+Examples of Formulations
+Example of ONE appropriate management for a specific clinical case
+
+[Case history and periapical radiograph provided of tooth 2.6.]
+
+Select ONE correct answer.
+
+What is the most appropriate management for tooth 2.6?
+ ○ Occlusal equilibration.
+ ○ Nonsurgical endodontic retreatment.
+ ○ Surgical endodontic treatment (apicoectomy).
+ ● Extraction.
+ ○ Observation and re-evaluation in 2 weeks.
+ ○ No treatment.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                           Page | 15
+Example of ONE OR MORE appropriate treatments in the management for a specific clinical
+case
+
+[Case history, photograph and periapical radiograph of tooth 8.5]
+
+Select ONE OR MORE correct answers.
+
+What is the most appropriate management for tooth 8.5?
+ ■ Indirect pulp capping.
+ □ Direct pulp capping.
+ ■ Direct restoration.
+ □ Pulpotomy.
+ □ Pulpectomy.
+ □ Extraction.
+In the example above, managing tooth 8.5 requires both an indirect pulp capping and a direct
+restoration.
+
+
+Example of ONE OR MORE periodontal diagnoses for a specific clinical case
+
+[Case history, photographs and radiographs]
+
+Select ONE OR MORE correct answers.
+
+What are the periodontal diagnoses?
+ ■ Clinical gingival health.
+ □ Gingivitis.
+ □ Periodontitis.
+ □ Intact periodontium.
+ ■ Reduced periodontium.
+ □ Non-periodontitis patient.
+ ■ Stable periodontitis patient.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                    Page | 16
+Preparation Materials
+
+You are encouraged to use the NDEB resources available to prepare for the Virtual OSCE. These
+resources are for personal use only.
+
+
+
+
+Virtual OSCE Frameworks
+The Frameworks for the questions that may be in the Virtual OSCE are available in the Exam
+Resources section of the NDEB website. You are strongly encouraged to visit the website in
+preparation for the examination.
+
+
+
+
+Virtual OSCE Orientation Video
+The Virtual OSCE is a computer-based examination. The Virtual OSCE Orientation should be
+viewed prior to taking the examination.
+
+During a computer-based examination, you may experience short technical delays. The NDEB
+has accounted for such delays in the time allotted for the examination.
+
+Although the examination is to be delivered electronically, the NDEB reserves the right to
+change the delivery method of the examination if required.
+
+
+
+
+Reference Texts
+A list of reference materials used in Faculties of Dentistry in Canada can be found in the Exam
+Resources section of the NDEB website. The NDEB also references journal articles, clinical
+guidelines, and practice standards issued by specialty organizations.
+
+
+
+
+Released Questions
+The NDEB publishes many released single answer multiple choice questions which are available
+in the Exam Resources section of the NDEB website.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                         Page | 17
+ Tooth Numbering System
+ The World Dental Federation (FDI) two-digit tooth numbering system is used in all examinations.
+
+                                            FDI / UNIVERSAL NUMBERING SYSTEM
+
+
+                                                    PERMANENT DENTITION
+
+  FDI       1.8   1.7     1.6   1.5   1.4     1.3   1.2   1.1   2.1   2.2   2.3   2.4   2.5    2.6     2.7    2.8     FDI
+Universal    1     2       3     4     5       6     7     8     9    10    11    12    13     14      15     16    Universal
+Universal   32    31      30    29    28      27    26    25    24    23    22    21    20     19      18     17    Universal
+  FDI       4.8   4.7     4.6   4.5   4.4     4.3   4.2   4.1   3.1   3.2   3.3   3.4   3.5    3.6     3.7    3.8     FDI
+                                  RIGHT                                                 LEFT
+
+                                                     PRIMARY DENTITION
+
+                    FDI         5.5   5.4     5.3   5.2   5.1   6.1   6.2   6.3   6.4   6.5          FDI
+                  Universal      A     B       C     D     E     F    G      H     I     J      Universal
+                  Universal      T     S       R    Q      P    O      N    M      L     K      Universal
+                    FDI         8.5   8.4     8.3   8.2   8.1   7.1   7.2   7.3   7.4   7.5          FDI
+                                  RIGHT                                                 LEFT
+
+
+
+ Training Courses
+ Be advised that the NDEB is not affiliated with, nor does it endorse any third-party providers of
+ test preparation courses. The use of the NDEB’s name by third parties, unless expressly authorised,
+ is prohibited. The disclosure, distribution, solicitation and reconstruction of NDEB examination
+ content is strictly prohibited, as is the use of NDEB examination content for commercial purposes,
+ including released questions or examination materials on the NDEB website.
+
+
+ Copyright and Exam Security
+
+ All NDEB content, including examination content, is for personal use only. Any other use of NDEB
+ content is strictly prohibited. Examples of prohibited use of NDEB content include, but are not
+ limited to, receiving or disclosing NDEB content, reproducing (through memorization or by any
+ other means), and publishing any NDEB content in whole or in part. Conduct that compromises
+ the confidentiality and integrity of the NDEB’s processes and examinations will be investigated.
+
+ Information on exam security and NDEB’s Intellectual Property Statement can be found on the
+ NDEB website.
+
+
+
+
+ VIRTUAL OSCE® PROTOCOL - 2026                                                                               Page | 18
+Examination Day Regulations
+
+You are required to follow all regulations. Any failure to comply will be formally documented and
+reported to the NDEB.
+•   You must be punctual for all sessions. If you arrive late for a session, you may be denied entry
+    to the examination.
+
+•   All devices with recording or transmitting and/or receiving abilities are prohibited. This
+    includes all portable electronic devices (e.g., cell phones, tablets, laptops) and wearable
+    smart technologies. These devices must be turned off and placed in the designated area.
+    These devices cannot be accessed during the break.
+•   All watches are prohibited and must be placed in the designated area. These cannot be
+    accessed during the break.
+
+•   You must not wear a hat, scarf, coat, outdoor clothing, hoodie with the hood up, or bulky
+    clothing (except where the listed items constitute religious attire).
+•   You must empty all pockets before entering or leaving the examination room.
+
+•   Food is not allowed to be consumed in the examination room.
+
+•   Water is allowed in the examination room in a transparent bottle with the label removed. No
+    other beverages are permitted.
+
+•   If you require food, medicine, or medical equipment during the examination, you must
+    submit a request pursuant to the NDEB test accommodation policy.
+
+•   Ear plugs will be provided. You will not be allowed to use your own ear plugs.
+
+•   You will be required to read and agree to a Confidentiality and Non-disclosure Agreement
+    before you can begin the examination.
+
+•   You are prohibited from communicating, publishing, reproducing, or transmitting any part of
+    your examination, in any form or by any means, verbal, written, or electronic, for any
+    purpose.
+
+•   You will be provided with scratch paper, a pencil, and an eraser. You cannot write on
+    anything other than the scratch paper provided. The scratch paper, pencils and eraser must
+    be submitted to staff at the end of the examination.
+
+•   You cannot leave and re-enter the examination room unattended once the examination
+    has started.
+
+
+It may be necessary for the NDEB to introduce new regulations or modify existing regulations for
+specific examination administrations. Any new or modified regulations will supersede regulations
+published in the protocol.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                            Page | 19
+Test Accommodations
+
+Test accommodations are granted on an individual basis and are dependent on the nature and
+extent of the request, documentation provided, and requirements of the examination. Read the
+NDEB’s policies and procedures for test accommodations on the NDEB website.
+
+
+Exceptional Circumstances: Withdrawals, Compassionate Appeals,
+and Appeals of the Conduct of the Examination
+
+
+Withdrawals
+If you experience a health-related issue or personal circumstance prior to the start of an
+examination that will prevent you from demonstrating your ability, you must withdraw. If you do
+not attend the examination, you will not lose an attempt.
+
+Login to your NDEBConnect account to withdraw from an examination. All withdrawals are
+subject to a fee.
+
+
+
+Compassionate Appeals
+If you believe you have been prevented from demonstrating your ability because of a serious
+medical circumstance or unanticipated medical circumstance during the examination, you can
+submit a compassionate appeal to have the results of the examination voided. Compassionate
+appeals must be submitted through your NDEBConnect account within seven days of the
+examination.
+
+More information can be found in the Compassionate Appeal section of the website and in the
+NDEB By-laws and policies.
+
+
+
+Appeal of the Conduct of an Examination
+If, during the examination, you believe there may have been an irregularity or inconsistency in
+the conduct of the examination that prevented you from demonstrating your ability, it must be
+immediately reported to staff at the examination centre.
+
+Should you want to submit an appeal based on the reported irregularity or inconsistency, it must
+be submitted through your NDEBConnect account within seven days of the examination.
+
+More information is available in the Appeal of the Conduct of an Examination section of the
+website and in the NDEB By-laws and policies.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                        Page | 20
+Results
+
+Results are normally released within eight weeks of the examination. You will receive an email
+notification when your results are available in your online profile.
+
+Results will be reported as a Pass/Fail. Those who receive less than 75 will also receive their test
+equated rescaled score.
+
+Results will not be released by telephone, email, or fax.
+
+
+Passing Standard
+
+To assure a consistent level of difficulty, the NDEB uses test equating and re-scaling procedures
+to correlate raw scores to scores on a reference examination and to a standardized passing
+score of 75.
+
+You must obtain a minimum test equated, re-scaled score of 75 to be successful on an NDEB
+examination.
+
+Information on test equating and re-scaling is available on the NDEB website.
+
+
+Appeals and Rescoring
+
+If you receive a failing grade, you have one month from the date results are released to request
+a verification of your score.
+
+Information can be found in the Appeals and Rescoring section of the NDEB website.
+
+In no case will you have access to the examination questions or responses.
+
+
+Repeats
+
+The Virtual OSCE can be taken a maximum of three times.
+
+
+
+
+VIRTUAL OSCE® PROTOCOL - 2026                                                            Page | 21
+

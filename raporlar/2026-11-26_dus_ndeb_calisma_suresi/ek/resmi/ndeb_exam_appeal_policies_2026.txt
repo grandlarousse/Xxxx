@@ -1,0 +1,781 @@
+Kaynak: https://ndeb-bned.ca/wp-content/uploads/2026/07/2026-07-10-Examination-and-Appeal-Policies-and-Procedures.pdf | indirme: 2026-11-26
+1.1
+
+
+
+
+           Examination and Appeal
+           Policies and Procedures
+           Effective July 15, 2026
+
+
+
+
+      ®
+
+      11
+CONTENTS
+
+I.     INTERPRETATION.............................................................................................................................. 3
+       1.      General .................................................................................................................................. 3
+       2.      Definitions ............................................................................................................................... 3
+II.    CANDIDACY STATUS ...................................................................................................................... 3
+       3.      Special Consideration Application ..................................................................................... 3
+       4.      Request to Extend Equivalency Candidate Status ........................................................... 5
+       5.      Inactive NDEBConnect Accounts ....................................................................................... 6
+       6.      Transfers to the Certification Process .................................................................................. 6
+III.   EXAMINATIONS ............................................................................................................................... 6
+       7.      NDECC Registration .............................................................................................................. 6
+       8.      Change of Examination Language .................................................................................... 7
+       9.      Examination Accommodations .......................................................................................... 8
+       10.   Withdrawal from an Examination due to Medical or other Unforeseen Exceptional
+       Circumstances ............................................................................................................................. 10
+       11.        Prohibited Actions ........................................................................................................... 11
+IV.    APPEALS ........................................................................................................................................ 11
+       12.        Appeal of the Conduct of an Examination ................................................................. 11
+       13.        Compassionate Appeals ................................................................................................ 13
+       14.        Verification of Scores ...................................................................................................... 14
+V.     FALSE OR MISLEADING REPRESENTATION .................................................................................. 15
+       15.        Definition ........................................................................................................................... 15
+       16.        Appeal of Administrative Measures .............................................................................. 15
+VI.    HEALTH CARE DOCUMENTATION ............................................................................................... 16
+       17.        Requirements ................................................................................................................... 16
+       18.        Unacceptable Documentation .................................................................................... 17
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                                                                  Page | 2
+I.       INTERPRETATION
+
+1.       General
+
+1.1      Unless the context otherwise requires, words importing the singular number or the
+         masculine gender shall include the plural number and the feminine gender, as the case
+         may be, and vice versa.
+
+1.2      In the computation of time, the following provisions apply:
+
+         1.2.1.   when calculating the number of days between two events, such as a decision
+                  and the deadline to appeal, the day on which the first event occurs is excluded,
+                  but the day on which the second event occurs is included; and
+
+         1.2.2.   if the deadline falls on a Holiday, the deadline is moved to the next Business Day
+                  following the Holiday.
+
+1.3      The Examination and Appeal Policies and Procedures are available in both English and
+         French, and both versions are of equal effect. In the event of any inconsistency or error in
+         translation between the English and French versions, the English version prevails.
+
+2.       Definitions
+
+2.1      “Business Day” means any day that is not a Holiday.
+
+2.2      “Health Care Documentation” means documentation that complies with the provisions in
+         in Part VI of these Policies and Procedures.
+
+2.3      “Health Care Provider” means a health care professional who holds or held at the
+         relevant time a licence from the applicable health professional regulatory body.
+
+2.4      “Holiday” means any Saturday or Sunday, New Year’s Day, Family Day, Good Friday,
+         Easter Monday, Victoria Day, Canada Day, Civic Holiday, Labour Day, Thanksgiving Day,
+         Remembrance Day, Christmas Day, and Boxing Day.
+
+2.5      “Onsite Staff” means an invigilator, proctor, test administrator or any other person
+         responsible for administration or the supervision of an Examination.
+
+
+
+
+II.      CANDIDACY STATUS
+
+3.       Special Consideration Application
+
+Eligibility
+
+3.1      A person who:
+       3.1.1.   holds a license to practice dentistry outside of Canada and whose date of
+                graduation from or completion of an Accredited Program, an Accredited
+                Qualifying or Degree Completion Program, or an Accredited Bridge Training to
+                Dental Practice in Canada (BTDPC) Program, and is more than sixty (60) months
+                prior to the examination date for which they are registering, must apply to the
+                Executive Committee to be a candidate for Board certification; or
+
+       3.1.2.   ceased to be a Certification Candidate pursuant to Section 7.4 of By-law 2,
+                having failed to pass the Virtual OSCE within sixty (60) months of their date of
+
+                (a) graduation from or completion of an Accredited Program, an Accredited
+                    Qualifying or Degree Completion Program, or an Accredited Bridge Training
+                    to Dental Practice in Canada (BTDPC) Program; or
+
+                (b) completion of the Equivalency Process,
+
+       may submit an application to the Executive Committee pursuant to Section 8.1 of By-law
+       2 for Special Consideration to be designated a Certification Candidate (“Special
+       Consideration Application”).
+
+Submissions
+
+3.2    If an applicant for Special Consideration does not have an NDEBConnect account, then
+       they must pay the application fee and create an NDEB Connect account before their
+       Special Consideration Application will be considered by the Executive Committee.
+
+3.3    The Executive Committee will only consider a complete Special Consideration
+       Application that includes all of the required information. Subject to the NDEB’s right to
+       require additional information, the minimum required information in a Special
+       Consideration Application consist of:
+
+       3.3.1.   a Special Consideration Application Form in hard copy completed by the
+                applicant; and
+
+       3.3.2.   hard copy documents listed on the Special Consideration Application Form
+                including, but not limited to, evidence of continuous practice for the past five (5)
+                years, and evidence of continuous maintenance of the currency of the
+                applicant’s dental knowledge and clinical skills over the past three (3) years in
+                form and substance acceptable to the NDEB.
+
+3.4    The Special Consideration Application must be received in hard copy by the NDEB at its
+       Ottawa offices prior to the application deadline for the Examination for which the
+       applicant for Special Consideration wishes to register.
+
+Outcomes
+
+3.5    Upon review of a Special Consideration Application, the Executive Committee may:
+
+       3.5.1.   grant the Special Consideration Application;
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                   Page | 4
+         3.5.2.   deny the Special Consideration Application; or
+
+         3.5.3.   request that the applicant provide additional information.
+
+3.6      The grant or denial of a Special Consideration Application by the Executive Committee is
+         final.
+
+3.7      The NDEB Staff will communicate the determination of the Executive Committee to the
+         applicant for Special Consideration by email.
+
+3.8      A Certification Candidate whose Special Consideration Application has been granted
+         must pass the Virtual OSCE within sixty (60) months of the date the NDEB communicates
+         the determination of the Executive Committee to the Candidate.
+
+4.       Request to Extend Equivalency Candidate Status
+
+Eligibility
+
+4.1      A person who ceases to be an Equivalency Candidate pursuant to Section 16.8 of By-law
+         2, having failed to pass the NDECC within sixty (60) months of the date they first pass the
+         Assessment of Clinical Judgement, may apply to the Executive Committee for an
+         extension of the 60-month timeframe to pass the NDECC (“Request to Extend
+         Equivalency Candidate Status”) if, during the 60-month period when the person was an
+         Equivalency Candidate, the person experienced one or both of the following
+         circumstances:
+
+         4.1.1.   an exceptional medical circumstance that impeded their ability to register or
+                  participate in the NDECC three times; and/or
+
+         4.1.2.   inability to register for the NDECC three or more times.
+
+Submissions
+
+4.2      The Executive Committee will only consider a complete Request to Extend Equivalency
+         Candidate Status that includes all of the required information. Subject to the NDEB’s right
+         to require additional information, the minimum required information in a Request to
+         Extend Equivalency Candidate Status consists of:
+
+         4.2.1.   submission of a Request to Extend Equivalency Candidate Status Form through
+                  the NDEB website;
+
+         4.2.2.   information demonstrating that the Request satisfies the criteria set out in Section
+                  4.1 of these Policies and Procedures; and
+
+         4.2.3.   submission of Health Care Documentation by email if the applicant experienced
+                  an exceptional medical circumstance.
+
+4.3      For applicants requesting an extension due to inability to register for the NDECC, the
+         NDEB Staff shall review the registration logs to verify that the applicant entered the
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                    Page | 5
+       registration queue during each registration window and was not moved to seat
+       selection.
+
+Outcomes
+
+4.4    Upon review of a Request to Extend Equivalency Candidate Status, the Executive
+       Committee may:
+
+       4.4.1.   grant the Request;
+
+       4.4.2.   deny the Request; or
+
+       4.4.3.   request that the applicant provide additional information.
+
+4.5    The NDEB Staff will communicate the determination of the Executive Committee to the
+       applicant by email.
+
+4.6    The grant or denial of a Request to Extend Equivalency Status by the Executive
+       Committee is final.
+
+5.     Inactive NDEBConnect Accounts
+
+5.1    Candidates with no Examination activity for a period of two (2) years (24 months) will
+       have their NDEBConnect account status set to inactive.
+
+5.2    The NDEB Staff will notify Candidates by email when their NDEBConnect account has
+       been set to inactive.
+
+5.3    On receipt of the notification, a Candidate may request to have the NDEBConnect
+       account reactivated and pay the required fee. Where no such action is taken by the
+       Candidate, their NDEBConnect account will remain inactive.
+
+6.     Transfers to the Certification Process
+
+6.1    Individuals who begin but do not complete the Equivalency Process and subsequently
+       become eligible for the Certification Process as a result of additional education must pay
+       the Certification Process application fee to transfer into the Certification Process and
+       become a Certification Candidate.
+
+III.   EXAMINATIONS
+
+7.     NDECC Registration
+
+Process
+
+7.1    NDECC registration will open in three stages:
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                               Page | 6
+       7.1.1.   Stage 1, registration for Candidates who have passed the most recent
+                Assessment of Clinical Judgement (ACJ).
+
+       7.1.2.   Stage 2, registration for Candidates who have an approved proof of Canadian
+                citizenship or permanent residency.
+
+       7.1.3.   Stage 3, registration for all Candidates with NDECC eligibility.
+
+7.2    Candidates who are eligible and do not register in Stage 1 may register in Stage 2 if they
+       are Canadian citizens or permanent residents, or in Stage 3 for a subsequent NDECC
+       attempt.
+
+Submissions
+
+7.3    Candidates who are experiencing an exceptional medical circumstance at the time
+       they are eligible to register in Stage 1 may decline registration and make a special
+       request to the Executive Committee to have their registration priority postponed
+       (“Request to Postpone Priority”).
+
+7.4    Subject to the NDEB’s right to require additional information, all Requests to Postpone
+       Priority must be accompanied by Health Care Documentation.
+
+7.5    The Executive Committee will only consider a complete Request to Postpone Priority that
+       includes all the required information.
+
+Outcomes
+
+7.6    Upon review of a Request to Postpone Priority, the Executive Committee may:
+
+       7.6.1.   grant the Request;
+
+       7.6.2.   deny the Request; or
+
+       7.6.3.   request that the Candidate provide additional information.
+
+7.7    The grant or denial of a Request to Postpone Priority by the Executive Committee is final.
+
+7.8    The NDEB Staff will communicate the determination of the Executive Committee to the
+       Candidate by email.
+
+8.     Change of Examination Language
+
+8.1    Requests to change the language of an Examination must be submitted to the NDEB by
+       email to info@ndeb-bned.ca prior to taking an Examination.
+
+8.2    The NDEB Staff will change the language of an Examination for a Candidate provided
+       the change can be accommodated for the Examination for which the Candidate is
+       registered.
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                Page | 7
+8.3      In the event a language change cannot be made, Candidates will have the choice
+         between:
+
+         8.3.1.   withdrawing from the Examination at no charge; or
+
+         8.3.2.   taking the Examination in the original language selected.
+
+9.       Examination Accommodations
+
+Eligibility
+
+9.1      Candidates may request a test accommodation (“Test Accommodation Request”) due
+         to a documented disability, medical diagnosis, or for a religious reason.
+
+Submissions
+
+9.2      Subject to the NDEB’s right to require additional information, the minimum requirements
+         of a Test Accommodation Request consist of:
+
+         9.2.1.   a Test Accommodation Request Form completed by the Candidate and by
+                  where applicable, a Health Care Provider with knowledge of the Candidate’s
+                  circumstances; and
+
+         9.2.2.   where applicable, supporting documentation from:
+
+                  (a) a Health Care Provider with knowledge of the Candidate’s circumstances in
+                      form acceptable to the NDEB; or
+
+                  (b) a religious leader in a form acceptable to the NDEB.
+
+         9.2.3.   Both the Test Accommodation Request Form and any supporting documentation
+                  must be submitted through NDEBConnect.
+
+9.3      Refusals or delayed responses to the NDEB’s requests for additional information may lead
+         to the denial of the Candidate’s Accommodation Request.
+
+9.4      For accommodation needs that are known when applying to be designated a
+         Certification Candidate or an Equivalency Candidate, Candidates must submit an
+         Accommodation Request immediately following registration for their first Examination.
+
+9.5      Where there is a new or changing accommodation need while in the Certification
+         Process or the Equivalency Process, Candidates must submit an Accommodation
+         Request for the affected Examination as soon as possible and no later than eight weeks
+         prior to the Examination date.
+
+9.6      Failure to submit an Accommodation Request on or before the deadline for requesting
+         accommodation for the affected Examination may lead to denial of the Candidate’s
+         Accommodation Request.
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                Page | 8
+Outcomes
+
+9.7    Upon review of an Accommodation Request, the NDEB Staff may:
+
+       9.7.1.   grant the Accommodation Request;
+
+       9.7.2.   propose an accommodation that differs from the Candidate’s Accommodation
+                Request;
+
+       9.7.3.   deny the Accommodation Request; or
+
+       9.7.4.   request that the Candidate provide additional information.
+
+9.8    Upon the grant of an Accommodation Request or acceptance of a proposed
+       accommodation, the NDEB will prepare an accommodation plan (the
+       “Accommodation Plan”) for the Candidate. The NDEB Staff will communicate the
+       Accommodation Plan to the applicant by email. Upon receipt of the NDEB’s
+       Accommodation Plan, the Candidate may, within the timelines set out by the NDEB:
+
+       9.8.1.   accept the Accommodation Plan; or
+
+       9.8.2.   reject the Accommodation Plan.
+
+9.9    If the Candidate rejects the Accommodation Plan, the Candidate may:
+
+       9.9.1.   attempt the relevant Examination without any accommodation; or
+
+       9.9.2.   withdraw from the relevant Examination.
+
+9.10   An Accommodation Plan cannot modify the nature and level of the skills or
+       competencies assessed in an Examination and cannot represent a fundamental
+       alteration of the requirements of the Examination.
+
+9.11   The NDEB may, in its sole discretion, determine the date, location and time of the sitting
+       of an Examination conducted pursuant to an Accommodation Plan.
+
+9.12   The Candidate is solely responsible for any additional expenses incurred by the
+       Candidate as a result of the acceptance of an Accommodation Plan.
+
+9.13   An Accommodation Plan is valid for the relevant registration for which the
+       Accommodation Plan was prepared. A new accommodation request must be
+       submitted for each registration.
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                Page | 9
+10.      Withdrawal from an Examination due to Medical or other Unforeseen
+         Exceptional Circumstances
+
+Eligibility
+
+10.1     Candidates who are registered for an Examination and who experience unforeseen
+         exceptional circumstances, including an exceptional medical circumstance, prior to the
+         Examination must withdraw and submit a request to be refunded a portion of the
+         Examination fee (a “Refund Request”).
+
+Submissions
+
+10.2     The NDEB will only consider a complete Refund Request that includes all the required
+         information. Subject to the NDEB’s right to require additional information, the minimum
+         requirements of a Refund Request consist of:
+
+         10.2.1. the Candidate must have withdrawn from the Examination in NDEBConnect prior
+                 to the start of the Examination and indicate the reason for withdrawal.
+
+         10.2.2. the Refund Request must be sent by email to the NDEB office within seven (7)
+                 days of the withdrawal and specify the unforeseen exceptional circumstance
+                 justifying withdrawal; and
+
+         10.2.3. the Refund Request must include Health Care Documentation, in the case of an
+                 exceptional medical circumstance, or any supporting documentation, in the
+                 case of other unforeseen exceptional circumstance.
+
+Outcomes
+
+10.3     Upon review of the Refund Request, the NDEB Staff may:
+
+         10.3.1. grant the Refund Request and determine the appropriate refund; or
+
+         10.3.2. determine that the Refund Request does not meet the requirements outlined in
+                 Section 10.2 and reject the Refund Request.
+
+10.4     The NDEB Staff will communicate their determination regarding the Refund Request to
+         the Candidate by email.
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                Page | 10
+11.      Prohibited Actions
+
+Eligibility
+
+11.1     Candidates are required to comply with the regulations listed in the relevant Examination
+         Protocol and any rules governing the Examination site. Breach of Examination Protocols
+         or any rules governing the Examination site is considered a prohibited action that may be
+         investigated by the Registrar.
+
+Outcomes
+
+11.2     Upon investigation of a potential breach of Examination Protocols or rules governing the
+         Examination site as a prohibited action, the Registrar shall:
+
+         11.2.1. close the investigation; or
+
+         11.2.2. determine that a Candidate has engaged in a prohibited action and impose the
+                 appropriate sanctions, which may include but are not limited to:
+
+                (a) suspending or terminating access to the registration system;
+
+                (b) cancelling a registration for an Examination;
+
+                (c) suspending eligibility to register for an Examination until on or after a specified
+                    date;
+
+                (d) voiding Examination result(s);
+
+                (e) awarding a grade of zero or fail for any or all the questions or requirements on
+                    an Examination;
+
+                (f) prohibiting the Candidate from taking Examinations in the future;
+
+                (g) taking legal action against any persons involved in compromising
+                    Examination security; or
+
+                (h) other sanctions as deemed appropriate in the circumstances.
+
+IV.      APPEALS
+
+12.      Appeal of the Conduct of an Examination
+
+Submission
+
+12.1     The Appeals Committee will only consider a complete Appeal of the Conduct of an
+         Examination that includes all the required information. Subject to the NDEB’s right to
+         require additional information, the minimum requirements of a Candidate’s Appeal of
+         the Conduct of an Examination (a “Conduct Appeal”) consist of:
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                    Page | 11
+       12.1.1. submission of the Conduct Appeal through NDEBConnect within seven (7) days of
+               the date of the relevant Examination;
+
+       12.1.2. payment in full of relevant filing fee at the same time as the Conduct Appeal is
+               submitted;
+
+       12.1.3. description of the significant issue pertaining to the administration of the
+               Examination experienced by the Candidate;
+
+       12.1.4. confirmation that the Candidate reported the issue to the Onsite Staff present
+               during the Examination; and
+
+       12.1.5. information relating to whether and how the issue was addressed, and if not
+               adequately addressed, how the Candidate was prevented from demonstrating
+               their abilities at the Examination.
+
+12.2   In the event the Candidate submits a Conduct Appeal but subsequently receives a
+       passing grade for the relevant Examination, the NDEB Staff shall notify the Candidate by
+       email that the Candidate’s Conduct Appeal is dismissed. There will be no refund of the
+       filing fee.
+
+Outcomes
+
+12.3   Upon review, if the Registrar determines the irregularities or inconsistencies could not
+       have impacted the Candidate’s performance on the Examination, the Conduct Appeal
+       will not be referred to a Panel of the Appeals Committee (the “Panel”). The Candidate’s
+       failing grade will be released, and the filing fee will not be refunded.
+
+12.4   If upon review, the Registrar determines that irregularities or inconsistencies may have
+       impacted the Candidate’s performance on the Examination, the Conduct Appeal will
+       be reviewed by the Panel along with relevant Examination documentation.
+
+12.5   Upon review of a Candidate’s Conduct Appeal, the Panel may:
+
+       12.5.1. grant the Conduct Appeal in whole or in part and may grant any other relief in
+               addition to or in substitution for the relief applied for; or
+
+       12.5.2. deny the Conduct Appeal.
+
+12.6   The grant or denial of a Conduct Appeal by the Panel is final.
+
+12.7   The NDEB Staff will communicate the determination of the Panel to the Candidate by
+       email.
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                  Page | 12
+13.      Compassionate Appeals
+
+Eligibility
+
+13.1     Candidates who experience an unforeseen exceptional circumstance beyond their
+         control during an Examination that prevented the Candidate from demonstrating their
+         abilities may submit a compassionate appeal to the NDEB (the “Compassionate
+         Appeal”) if all the following are true:
+
+         13.1.1. the Candidate did not complete the Examination;
+
+         13.1.2. the Candidate notified Onsite Staff at the time of departure that they were
+                 unable to complete the Examination due to unforeseen exceptional
+                 circumstances beyond their control; and
+
+         13.1.3. the Onsite Staff must have completed a report documenting the time the
+                 Candidate left the Examination.
+
+Submissions
+
+13.2     The Executive Committee will only consider a complete Compassionate Appeal that
+         includes all the required information. Subject to the NDEB’s right to require additional
+         information, the minimum requirements of a Compassionate Appeal consist of:
+
+         13.2.1. submission of the Compassionate Appeal through NDEBConnect within seven (7)
+                 days of the date of the relevant Examination, which must:
+
+                (a) describe the unforeseen exceptional circumstance beyond their control
+                    experienced by the Candidate during the Examination;
+
+                (b) confirm that the Candidate reported to the Onsite Staff present during the
+                    Examination that they were unable to complete the Examination due to
+                    unforeseen exceptional circumstances beyond their control; and
+
+                (c) confirm that as a result of the unforeseen exceptional circumstances, the
+                    Candidate left the Examination without completing it.
+
+         13.2.2. submission of information relating to the family-related circumstances or Health
+                 Care Documentation through NDEBConnect within seven (7) days of the date of
+                 the relevant Examination.
+
+Outcomes
+
+13.3     The NDEB Staff shall verify that the Compassionate Appeal meets the minimum
+         requirements set out in Section 13.2. Only Compassionate Appeals that comply with the
+         minimum requirements set out in Section 13.2 will be considered by the Executive
+         Committee.
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                  Page | 13
+13.4     The NDEB Staff will notify the Candidate by email the result of the NDEB Staff’s
+         verification.
+
+13.5     Upon consideration of a Compassionate Appeal, the Executive Committee may:
+
+         13.5.1. grant the Compassionate Appeal in whole or in part and may grant any other
+                 relief in addition to or in substitution for the relief applied for, including but not
+                 limited to granting a refund of fees; or
+
+         13.5.2. deny the Compassionate Appeal.
+
+13.6     The grant or denial of a Compassionate Appeal by the Executive Committee is final.
+
+13.7     The NDEB Staff will communicate the determination of the Executive Committee to the
+         Candidate by email.
+
+13.8     Upon the granting of the Compassionate Appeal, the Candidate’s Examination result
+         shall be voided.
+
+14.      Verification of Scores
+
+Eligibility
+
+14.1     Candidates who receive a failing result on an Examination may submit a request to have
+         their score verified (“Verification Request”).
+
+Submissions
+
+14.2     A Candidate’s Verification Request must comply with the following minimum
+         requirements:
+
+         14.2.1. the Verification Request must be submitted through NDEBConnect within thirty
+                 (30) days of the date upon which the relevant Examination score is released; and
+
+         14.2.2. the Verification Request must be accompanied by the relevant filing fee, paid in
+                 full at the same time as the Verification Request is submitted.
+
+Outcomes
+
+14.3     Upon receipt of a Verification Request, the NDEB Staff will verify the Examination score.
+         The NDEB Staff will email the results of the verification within approximately six (6) weeks
+         of the Verification Request.
+
+14.4     If, upon verification, the Candidate receives a passing result, any existing registration for
+         the same Examination will be withdrawn and the Examination fee refunded.
+
+14.5     The Candidate’s Examination score after verification is final.
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                       Page | 14
+14.6     The NDEB shall not provide the relevant Examination, the answer key of the relevant
+         Examination, or the Candidate’s scoresheet to the Candidate upon Verification Request
+         or in any other circumstances.
+
+V.       FALSE OR MISLEADING REPRESENTATION
+
+15.      Definition
+
+15.1     A false or misleading representation within the meaning of Section 5 of By-law 2 shall
+         mean:
+
+         15.1.1. Including falsified information or documentation in a person’s application to be a
+                 Certification Candidate or an Equivalency Candidate;
+
+         15.1.2. A breach of:
+
+                (a) Terms and Conditions for Online Submissions;
+
+                (b) Confidentiality and Intellectual Property Acknowledgement; or
+
+                (c) NDECC Confidentiality and Non-disclosure Agreement.
+
+16.      Appeal of Administrative Measures
+
+Eligibility
+
+16.1     A person who is subject to administrative measures as determined by the Registrar
+         pursuant to Section 5.3 of By-law 2 may submit an Appeal of Administrative Measures.
+
+16.2     The grounds of the appeal are limited to any further administrative measures imposed by
+         the Registrar pursuant to Section 5.3.
+
+Submissions
+
+16.3     The Appeals Committee will only consider a complete Appeal of Administrative
+         Measures that includes all the required information. Subject to the NDEB’s right to require
+         additional information, the minimum requirements of an Appeal of Administrative
+         Measures consist of:
+
+         16.3.1. submission of the Appeal of Administrative Measures through NDEBConnect
+                 within ten (10) Business Days of the person’s receipt of the Registrar’s
+                 determination of administrative measures pursuant to Section 5.4 of By-law 2;
+
+         16.3.2. payment in full of the relevant filing fee at the same time as the Appeal of
+                 Administrative Measures is submitted; and
+
+         16.3.3. copies of any supporting documentation referenced or relied upon by the person
+                 in their Appeal of Administrative Measures.
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                  Page | 15
+Outcomes
+
+16.4   Upon consideration of the Appeal of Administrative Measures and in accordance with
+       Section 5 of By-law 2, the Appeals Committee may:
+
+       16.4.1. grant the Appeal of Administrative Measures in whole or in part and may grant
+               any other relief in addition to or in substitution for the relief applied for; or
+
+       16.4.2. deny the Appeal of Administrative Measures.
+
+16.5   The grant or denial of an Appeal of Administrative Measures by the Appeals Committee
+       is final.
+
+16.6   The NDEB Staff will communicate the determination of the Appeals Committee to the
+       person by email.
+
+VI.    HEALTH CARE DOCUMENTATION
+
+17.    Requirements for Health Care Documentation
+
+17.1   The NDEB will only accept Health Care Documentation that complies with all the
+       following requirements:
+
+       17.1.1. be issued at the time of illness or injury;
+
+       17.1.2. be issued by a Health Care Provider;
+
+       17.1.3. be on official practice or hospital letterhead;
+
+       17.1.4. include the Health Care Provider’s credentials and contact information;
+
+       17.1.5. include a clear diagnosis and description of limitations associated with the
+               diagnosis;
+
+       17.1.6. clearly indicate that the Candidate is not fit to take the Examination;
+
+       17.1.7. provide an expected recovery date; and
+
+       17.1.8. be in English or French.
+
+18.    Verification of Health Care Documentation
+
+18.1   All Candidates who submit Health Care Documentation must also provide consent to the
+       NDEB to contact the issuing Health Care Provider to verify the submitted Health Care
+       Documentation.
+
+18.2   Such consent will be provided in form and substance acceptable to both the NDEB and
+       the Health Care Provider.
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                                   Page | 16
+19.    Unacceptable Documentation
+
+19.1   The NDEB will not accept any of the following as Health Care Documentation:
+
+       19.1.1. handwritten letters from Health Care Providers;
+
+       19.1.2. handwritten patient records or notes from patient charts;
+
+       19.1.3. diagnoses on prescription pads;
+
+       19.1.4. diagnoses based on self-reporting; or
+
+       19.1.5. research articles.
+
+                                    *** End of document ***
+
+
+
+
+Examination and Appeals Policies and Procedures I 2026                          Page | 17
+

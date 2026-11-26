@@ -1,0 +1,1468 @@
+Kaynak: https://ndeb-bned.ca/wp-content/uploads/2026/02/2024-TECHNICAL-REPORT-FOR-THE-VIRTUAL-OSCE-REVISED.pdf | indirme: 2026-11-26
+     Technical Report
+     Virtual OSCE
+
+
+
+
+      Revised February 5, 2026
+
+
+
+
+    © The National Dental Examining Board of Canada 2025
+®
+    The National Dental Examining Board of Canada™ (NDEB®), and all other trademarks,
+    examination names, and associated designs or logos, wherever they appear by or about
+    the NDEB, whether or not appearing with the ® or ™ symbol, are protected as
+    trademarks, service marks or trade names of the NDEB and any unauthorized use is
+    expressly prohibited.
+    Content
+
+    Purpose of the Virtual OSCE ............................................................................................................. 5
+
+       Blueprint .......................................................................................................................................... 6
+
+    Test Construction Process and Validity Evidence .......................................................................... 6
+
+       Examination Content .................................................................................................................... 7
+
+       Item Selection ................................................................................................................................ 7
+
+       Item Review, Verification and Translation ................................................................................... 7
+
+    Staff Support ....................................................................................................................................... 9
+
+       Chief Examiners/Assistant Chief Examiner .................................................................................. 9
+
+       Executive Director and Registrar.................................................................................................. 9
+
+       NDEB Staff ....................................................................................................................................... 9
+
+    Test Validity and Reliability ............................................................................................................... 9
+
+       Validity ............................................................................................................................................ 9
+
+       Reliability ....................................................................................................................................... 10
+
+       Documentation ........................................................................................................................... 10
+          NDEB By-laws ............................................................................................................................ 10
+          The NDEB Knowledge Skills and Abilities for the Entry-Level Dentist in Canada (NDEB
+          KSAs) (Appendix C).................................................................................................................. 10
+          Virtual OSCE Protocol .............................................................................................................. 11
+          Examiners Manual: Virtual OSCE ............................................................................................ 11
+          Virtual OSCE Frameworks ........................................................................................................ 11
+          Instructions for Invigilators ........................................................................................................ 11
+
+    Locations .......................................................................................................................................... 13
+
+    Candidate Orientation .................................................................................................................... 15
+
+       NDEB-Run Test Centre ................................................................................................................. 15
+
+    Exam Administration Staff ............................................................................................................... 15
+
+    Delivery............................................................................................................................................. 15
+
+       March 2024 ................................................................................................................................... 15
+
+       May 2024 ...................................................................................................................................... 16
+
+       November 2024............................................................................................................................ 16
+–
+
+
+    VIRTUAL OSCE TECHNICAL REPORT - 2024                                                                                                      Page | 1
+    Reporting ........................................................................................................................................... 16
+
+    Test Accommodations ..................................................................................................................... 16
+
+       Part C – Examination Scoring..........................................................................................................18
+
+    Standards for Pass/Fail .....................................................................................................................18
+
+       Standard Setting ...........................................................................................................................18
+
+       Passing Score ................................................................................................................................18
+
+    Scoring...............................................................................................................................................18
+
+       Initial Statistical Analysis................................................................................................................19
+
+       Review and Final Statistical Analysis ...........................................................................................19
+
+       Equating and Rescaling ...............................................................................................................20
+          Subgroup Differences .............................................................................................................. 20
+
+       Pilot Testing ....................................................................................................................................20
+
+    Reporting ........................................................................................................................................... 21
+
+       Candidates Results .......................................................................................................................21
+          Release of Results ..................................................................................................................... 21
+          Results for Graduates of Canadian Dental Programs .......................................................... 21
+          Other Reporting........................................................................................................................ 22
+
+    Appeals .............................................................................................................................................22
+
+          Other Appeals .......................................................................................................................... 22
+
+       Part D - Security ..............................................................................................................................24
+
+    Credential Verification .....................................................................................................................24
+
+    Candidate Information .................................................................................................................... 24
+
+    Administration ...................................................................................................................................24
+
+    Onsite Security ..................................................................................................................................24
+
+    Exam Security ...................................................................................................................................25
+
+       Part E - Outcome Summaries..........................................................................................................26
+
+       Number of Examination Items by Category ..............................................................................26
+
+       Virtual OSCE Analysis Report .......................................................................................................27
+
+    Appendix A – Key Supporting References ....................................................................................28
+
+
+
+–
+
+
+    VIRTUAL OSCE TECHNICAL REPORT - 2024                                                                                                    Page | 1
+    Appendix B – Publications ...............................................................................................................29
+
+       Abstracts and Minor Publications ...............................................................................................30
+
+    Appendix C – Knowledge Skills and Abilities (KSAs) Framework ...............................................32
+
+       GROUP A: Multi-discipline (23 KSAs)............................................................................................32
+
+       GROUP B: Discipline-specific (11 KSAs) .......................................................................................32
+
+       GROUP C: General (9 KSAs) ........................................................................................................32
+
+       GROUP A: Multi-Discipline KSAs ...................................................................................................33
+
+       GROUP B: Discipline-Specific KSAs ..............................................................................................35
+
+       GROUP C: General KSAs ..............................................................................................................36
+
+
+
+
+–
+
+
+    VIRTUAL OSCE TECHNICAL REPORT - 2024                                                                                         Page | 1
+Introduction
+Organizations who administer high-stakes examinations must be concerned with validity,
+reliability, and fairness because these measures are required in making pass/fail decisions
+affecting candidates for licensure or certification. Fairness to candidates and protection of
+the public are the foremost concerns for the NDEB, and the NDEB has an obligation to
+provide the highest quality examination program possible.
+
+This Technical Report is a summary of the processes followed by the NDEB to develop,
+administer, and score the Virtual OSCE administered in 2024. It provides a summary of the
+information needed to support the validity and reliability of the Virtual OSCE. For additional
+information, key references are included in Appendix A. Any background information is
+included to assist in understanding the development of the NDEB’s examination processes.
+
+This report serves as a reference for the members of the NDEB Examinations Committee,
+NDEB Board, and Provincial Dental Regulatory Authorities (DRAs). The processes described
+in this report may differ from those used in other years.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                 Page | 4
+Background
+The NDEB introduced the Written Examination (Written) and the Objective Structured
+Clinical Examination (OSCE) in 1995 as the certification examinations for graduates of
+Canadian dental programs accredited by the Commission on Dental Accreditation of
+Canada (CDAC). The Written and the OSCE were offered as the certification examinations
+until 2022. Gradually, dental programs in the United States (1997), Australia (2010), New
+Zealand (2011) and Ireland (2012) became accredited by CDAC and their graduates
+were permitted to write the Written and the OSCE to be eligible for licensure in Canada.
+Although modifications were made to the OSCE over the years, the examination remained
+a Bell ringer station examination for more than two decades. In 2012, the NDEB appointed
+a committee, the NDEB Integrated Examination Committee, to combine the Written and
+the OSCE in one examination that would require candidates to apply their knowledge,
+clinical decision and problem-solving skills. The NDEB approved the conversion to
+electronic examinations in 2014 which allowed the NDEB to move from a Bell ringer station
+OSCE to the Virtual OSCE, an electronic examination. The Virtual OSCE was introduced as
+the certification examination in March 2023.
+
+
+
+
+Part A – Exam Development
+Purpose and Format of the Virtual OSCE
+
+The Virtual OSCE is a summative examination that assesses the problem solving and critical
+decision-making skills required of beginning dental practitioners in Canada.
+
+The Virtual OSCE is a national standard of competence for dentists in Canada. The
+examination leads to NDEB certification and is required for licensure in Canada.
+
+The Virtual OSCE is an electronic examination. The Virtual OSCE is administered in two half-
+day sessions. Candidates have six hours (three hours in the morning and three hours in the
+afternoon) to complete the examination. The examination consists of approximately 200
+questions: 50 standard single-answer multiple-choice questions and 150 case-based single-
+answer or multi-answer multiple-choice questions. Two of the case-based questions require
+candidates to write prescriptions for a medication commonly prescribed by general
+dentists in Canada. The questions require candidates to review information provided in the
+case histories, dental charts, photographs, and radiographs. Each question has up to 15
+answer options and one or more correct answer(s).
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                Page | 5
+Blueprint
+The Virtual OSCE blueprint below shows the content categories and approximate
+percentage of questions in each category.
+
+Each category will have questions pertaining to diagnosis and management. Questions
+may also relate to pediatric or geriatric patients, patients with special needs, radiology,
+and pharmacology and therapeutics.
+
+
+
+                                Table 1: Virtual OSCE Blueprint
+
+                                                                            Approximate %
+                              Content Area
+                                                                             of Questions
+
+     Oral Medicine and Pathology                                                   12
+
+
+     Periodontics                                                                  14
+
+     Endodontics                                                                   10
+
+     Prosthodontics                                                                10
+
+     Orthodontics                                                                   6
+
+     Operative Dentistry                                                           16
+
+     Surgery                                                                        8
+
+     Pain                                                                          12
+
+     Prevention and management of medical emergencies including                    12
+     management of medically complex patients
+
+     Total                                                                         100%
+
+
+
+Test Construction Process and Validity Evidence
+
+The examination development process follows the NDEB’s development plan and is used
+to support the creation of defensible examination content. Specific elements of that plan
+are detailed below.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                    Page | 6
+Examination Content
+Examiners who are content experts were sent copies of the Examiner’s Manual and other
+preparatory material for review prior to a question development workshop. Questions were
+constructed by the examiners ahead of the workshops and then reviewed and edited by
+the team during the workshop. Examiners were directed to write items that assess higher
+cognitive processes such as application and problem-solving. They were further instructed
+to avoid trivial knowledge and/or recall questions whenever possible. In addition, all new
+items were reviewed and, if required, edited by the Chief Examiners and senior staff.
+
+Virtual OSCE items are stored in a third-party software platform. The software platform is
+also used for exam creation.
+
+Item Selection
+The Chief Examiners, the Assistant Chief Examiner and at least one additional experienced
+examiner began the process for the creation of each exam by doing a preliminary review
+of the item bank and chose questions to be considered for the preselection undertaking.
+Items were chosen based on several criteria including consistency with the blueprint,
+taxonomy of cognitive levels and statistical properties of the items. The total number of
+questions chosen in this preliminary preselection approximated 1.25 times more than those
+that were ultimately required.
+
+Examiners who are general practitioners selected the final items for every examination in
+accordance with the blueprint. The results of past item analyses were used as a guide in
+the item selection process. Items were selected based on several criteria including
+consistency with the blueprint, taxonomy of cognitive levels, the need for common items,
+and statistical properties of the items.
+
+Item Review, Verification and Translation
+After test items were selected and a first draft form was built, the items were reviewed and
+translated using a multi-stage process.
+
+This first draft was reviewed and validated by a group of examiners who verified the
+technical accuracy of the items. They also consulted with additional subject matter
+experts when required. This included identifying item enemies (items of similar content) and
+verifying the representativeness of the content domain and the significance of the content
+being tested. During this review, questions were subjected to intensive analysis to verify the
+wording and the correct answers. When an item needed to be reworded, it was either
+revised for the examination or replaced. The review focused on three areas. First, the
+content of the questions was verified to ensure that it was consistent with acceptable
+practices and supported by an approved list of references. Second, a sensitivity review
+was done to ensure that the question content is not offensive and does not discriminate
+against candidate subgroups. Third, a language review was done to ensure that the
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                 Page | 7
+content does not exceed the language level needed to practice dentistry safely and
+effectively in Canada.
+
+All examinations are available in both official languages. This includes all forms and
+preparation materials.
+
+After the first review, test items were translated by dentists familiar with the vocabulary
+used on the examinations. The questions and the translations were then reviewed by a
+group which included bilingual subject matter experts who are approved by the Ordre des
+dentistes du Québec (ODQ). In addition, the NDEB has developed a detailed glossary of
+translated terms. This glossary is updated annually. This process ensures that candidates
+writing in either official language have equal opportunity to demonstrate their
+competence. The translation process ensures consistency between English and French
+versions of the questions.
+
+Following this process, a second draft was produced. During a second review, trained
+examiners, including bilingual examiners approved by the ODQ, verified that the changes
+had been made to the questions and that the French translation was accurate. Additional
+changes were made as required to items so that all items were finalized during the review.
+
+Following the second review, the examination was available in the final format to be used.
+During the final review, trained examiners including bilingual examiners approved by the
+ODQ verified that all questions were correct in both languages. Additional changes were
+made if required. Various information screens were added to this version. The first screen
+was a non-disclosure agreement, which candidates must accept to continue. The second
+screen consisted of information on the number of sections, time allowed per section, and
+break. There were instruction screens before each part of the exam.
+
+Any issues found were corrected immediately and another version of the exam was
+published and reviewed, if required.
+
+When finalized, a PDF of the examination was also created as a backup for delivery. To
+create the PDF, NDEB staff combined all questions into a single PDF document and
+created bookmarks for each question. Specific instructions were added at the beginning
+of the document indicating the total number of questions and any additional instructions
+required for a candidate to complete the exam. The final PDF version was reviewed by the
+Chief Examiners, translators, NDEB staff and the Director of Examinations.
+
+Before the examination was administered, technical testing took place at a third-party run
+site. NDEB staff ensured that the exam functioned as expected and that the various tools
+provided in the examination software were working. In addition, for the NDEB-run test
+centres, NDEB staff along with the third-party providers ensured the laptops were set up
+correctly, Wi-Fi was working properly, and any other technical set up was in place the day
+before the exam was administered.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                 Page | 8
+Staff Support
+
+The following is a summary of the roles involved in the NDEB’s test construction and
+production processes.
+
+Chief Examiners/Assistant Chief Examiner
+The Chief Examiners are responsible for the development of the examination including
+coordination of question development, question selection, monitoring the item bank and
+results within the guidelines and parameters established by the NDEB as stipulated in the
+protocol.
+
+Executive Director and Registrar
+The Executive Director and Registrar is responsible for staff supervision and the
+implementation of all policies approved by the Board to ensure the processes operate
+efficiently and effectively.
+
+NDEB Staff
+The Director of Examinations is responsible for the oversight of the examinations
+department. The Director of Examinations and NDEB staff manage the operational delivery
+of the examinations. This includes corresponding with examiners, developing administration
+instructions, production and translation of the examinations, maintenance of the question
+banks, and arrangements with host institutions and third-party test centres.
+
+Staff is responsible for carrying out directives from the Examinations Committee as
+approved by the Board.
+
+
+Test Validity and Reliability
+
+Validity
+The primary purpose of establishing content validity of credentialing examinations is to
+show that the process and results underlying their development are a valid reflection of
+that part of professional competence that the examinations purport to assess. That is,
+construct validity is about the relationships between the construct of professional
+competence and the examination instruments. The examination content categories reflect
+both educational programs and the requirements of practice, and general practitioners
+select the content for the examinations. In addition, each form is built to match the
+blueprint approved annually by the Board and contained in the protocols.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                   Page | 9
+Reliability
+Test reliability refers to the degree to which examination scores for a group of candidates
+are consistent over repeated administrations of the test and are therefore considered to
+be dependable and consistent for an individual candidate. Reliability is estimated using a
+reliability coefficient, which is a unit-free indicator that reflects the degree to which scores
+are free of random measurement error. Based on the data provided in the results section
+of this Technical Report, NDEB examinations display evidence of continued strong
+reliability.
+
+Documentation
+Evidence of test validity is collected through multiple means, one of which is the
+documentation of development and administration procedures. The NDEB makes these
+documents publicly available. Only confidential material or material that could jeopardize
+the integrity of the examination is retained internally. These documents are updated
+frequently (generally on an annual basis) to reflect the most recent information.
+References for these documents can be found in Appendix A.
+
+To support the various sources of validity and reliability evidence, the NDEB produces the
+following documents:
+
+NDEB By-laws
+
+The NDEB By-laws contain sections related to the NDEB’s examination programs. Examples
+of relevant information include:
+       Certification eligibility
+       the Board’s certification and equivalency processes
+       Examinations
+       Misconduct and appeals policies
+       Terms of Reference for various examination-related committees
+       Test accommodations
+
+The By-laws are available on the NDEB website (www.ndeb-bned.ca).
+
+The NDEB Knowledge Skills and Abilities for the Entry-Level Dentist in Canada (NDEB KSAs)
+(Appendix C)
+
+In 2015, the NDEB undertook the development of KSAs required for entry-level dentists in
+Canada. The KSAs were validated through a practice analysis survey of Canadian dentists
+and led to the development of blueprints for the Virtual OSCE and NDECC, and revision of
+the blueprints for the AFK and ACJ. The KSAs identify the body of knowledge that is
+assessed by NDEB examinations. A clearly outlined body of knowledge is key to
+establishing the content validity of examinations by providing a link between practice and
+the examination. The alignment between the KSAs and the competencies of the ACFD
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                   Page | 10
+can be reviewed in the ACFD Educational Framework for the Development of
+Competency in Dental Programs.
+
+Virtual OSCE Protocol
+
+Updated annually, the Virtual OSCE Protocol contains the information the candidate
+needs to prepare to take the Virtual OSCE. In addition to providing logistical information,
+this document is meant to reduce construct-irrelevant variance related to testing. The
+document details the purpose and intended use of the examination. Candidates acquire
+advance information on examination content, instructions, and other procedures. At a
+high level, the Virtual OSCE Protocol contains the following information:
+       Check-in procedures
+       Content and format
+       Sample questions
+       Reference texts
+       Examination regulations
+       Misconduct
+       Passing standard
+       Results
+       Appeals and rescores
+       Repeats
+
+This document is available in English and French on the NDEB website (www.ndeb-
+bned.ca).
+
+Examiners Manual: Virtual OSCE
+
+Reviewed and updated as required, the examiner’s manual for the Virtual OSCE is an
+internal document provided to examiners which outlines the question-writing philosophy
+and guidelines for question format and style.
+
+Virtual OSCE Frameworks
+
+Published on the NDEB website, the Virtual OSCE Frameworks provide an illustration for
+candidates of the case-based question formats generally used in the Virtual OSCE. They
+are used by examiners to develop case-based questions.
+
+Instructions for Invigilators
+
+Prior to the administration, invigilators reviewed any new NDEB policies or procedures in
+relation to the administration of the examination.
+
+Chief Invigilators and/or Test Administrators were required to adhere to the NDEB’s
+instructions and regulations. These documents clearly outlined the responsibility of the
+invigilators and examination day procedures allowing for standardized administration
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                Page | 11
+across all centres. Invigilators were encouraged to communicate with NDEB staff with
+questions or concerns regarding the administration or their responsibilities.
+
+NDEB staff hosted a virtual training session with all invigilators to review any new NDEB
+policies or procedures in relation to the administration of the examination. The virtual
+training session and documentation were offered in English or French.
+
+A PowerPoint presentation was provided to invigilators prior to the examination
+administration. A binder containing multiple documents pertaining to examination day
+was also provided to Chief Invigilators and/or Test Administrators. The purpose of the
+documents and PowerPoint were to describe, in detail, the procedures to follow before,
+during and after the administration of the Virtual OSCE. This ensured that candidates had
+a similar experience when completing the examination, regardless of where they took the
+exam. This also enhanced security by providing a detailed quality assurance protocol.
+
+This presentation contained:
+      instructions prior to the examination
+      instructions for examination day (which includes verbal instructions)
+      procedures to follow during the administration of the examination
+      procedures to follow at the end of the examination
+      instructions following the examination
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                 Page | 12
+Part B – Administration
+Locations
+
+The Virtual OSCE is administered three times a year, usually in March, May, and November.
+Except for approved test accommodations, the examination is administered on the same
+day at all centres. Measures were taken to administer the exam in a distraction-free and
+comfortable environment where candidates could demonstrate their competence on the
+examinations.
+
+The March examination session was held across Canada with centres established in cities
+where there is a Canadian dental school and select international locations. May and
+November examination sessions were held in Canada, Australia and the United States.
+Examination centres may also be established outside of Canada with an expectation that
+a minimum of 25 candidates will register for a centre and that an examination location
+with acceptable security can be established. Space at test locations is limited due to the
+number of seats available at each exam site. Registration is on a first come first served
+basis and not all candidates are able to secure a seat in their preferred test location.
+
+The examination locations and number of candidates for the March, May and November
+2024 Virtual OSCE are shown in Table 2.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                Page | 13
+           Table 2: March, May and November 2024 Virtual OSCE locations and
+                                 number of candidates
+
+         Locations         March 2024       May 2024     November 2024
+
+ Edmonton, Alberta             74               -              68
+
+ Calgary, Alberta               -              58               -
+
+ Vancouver, British
+                               56               -               -
+ Columbia
+
+ Winnipeg, Manitoba            39               -               -
+
+ Halifax, Nova Scotia          42               -               -
+
+ London, Ontario               80               -               -
+
+ Ottawa, Ontario               76               -               1
+
+ Toronto, Ontario              132             118             67
+
+ Montreal, Quebec              144             67              141
+
+ Quebec City, Quebec           53               -               -
+
+ Saskatoon,                                     -               -
+                               48
+ Saskatchewan
+
+ Cork, Ireland                 49               -               -
+
+ Boston, Massachusetts          -               -               -
+
+ Detroit, Michigan             71               -               -
+
+ Sydney, Australia              -               -              75
+
+ Total                         864             243             352
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                          Page | 14
+Candidate Orientation
+
+Detailed information regarding the Virtual OSCE is provided on the NDEB website. This
+includes test format, examination protocol, registration information and fees. After
+registering for the exam, candidates are provided additional site-specific exam
+information. An electronic examination orientation is also available on the NDEB website. A
+webinar was also provided to candidates.
+
+
+
+NDEB-Run Test Centre
+Standard check-in procedures were in place for all candidates at each NDEB-run test
+centre. A set of standardized instructions was read to all candidates in their language of
+choice prior to the commencement of the examination. Candidates were reminded of the
+rules of conduct and provided the opportunity to remove prohibited items from the
+examination room before the examination started. No variation from the examination
+administration was allowed unless a test accommodation had been granted by the NDEB.
+
+
+Exam Administration Staff
+
+For electronic examinations, the NDEB used a third party that provided invigilator support.
+Each test centre had (a) designated Chief Invigilator(s) and/or Test Administrator(s). The
+Chief Invigilator’s and/or Test Administrator’s primary responsibility was ensuring the
+examinations were administered according to NDEB procedures.
+
+On examination day, NDEB staff supported on-site third-party staff either in person or via
+electronic communications. NDEB staff was available to assist the third-party staff in
+addressing issues such as permissions, exam authorization problems, technology issues, and
+emergency situations.
+
+
+Delivery
+
+Ahead of the examination, NDEB staff, along with the third-party provider, ensured the
+laptops and Wi-Fi were working correctly and the technical set up was in place at each
+site.
+
+March 2024
+The NDEB administered the March 2024 examination using the electronic platform. The
+sites are available in Table 2.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                               Page | 15
+May 2024
+The NDEB administered the May 2024 examination using the electronic platform. The sites
+are available in Table 2.
+
+November 2024
+The NDEB administered the November 2024 examination using the electronic platform. The
+sites are available in Table 2.
+
+
+Reporting
+
+The Chief Invigilator and/or Test Administrator is responsible for completing a report
+following the administration of the examination. The report includes irregularities that
+occurred that may have disrupted the administration of the examination. The report will
+also include details regarding any misconduct that occurred prior to, during, or after the
+examination.
+
+
+Test Accommodations
+
+The purpose of test accommodations is to remove construct-irrelevant barriers that would
+interfere with a candidate’s ability to demonstrate their competence. Accommodations
+may be provided for a disability, medical condition, or religious reason.
+
+Pursuant to the NDEB By-laws and policies, test forms or administration conditions may be
+modified to accommodate candidates requiring testing accommodations. Candidates
+must submit a written request prior to the registration deadline and are required to provide
+supporting documentation.
+
+Accommodations may include an alternate date, separate examination room, a reader,
+or longer examination times. The number of requests for these types of accommodations is
+small, and as such, the NDEB is unable to establish the validity of these modified
+examination forms for this specific population.
+
+Test accommodations represent the only allowable variations in administration conditions,
+and these variations are documented in detail. In recent years, the number of examination
+accommodations has been increasing, and most accommodations involve no
+modifications to examination materials.
+
+A list of test accommodations granted for the 2024 Virtual OSCE Examinations are included
+Table 3.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                Page | 16
+                       Table 3: 2024 Test Accommodations Granted
+
+
+
+
+             Accommodation                  Number requested       Number granted
+
+   Alternate schedule and private/semi-
+                                                    4                    4
+   private room
+   Food/medication/medical devices
+                                                    2                    2
+   permitted
+
+   Strategic seating                                1                    1
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                     Page | 17
+Part C – Examination Scoring
+Standards for Pass/Fail
+
+It is the NDEB’s statutory obligation to certify only those who are qualified to enter the
+dental profession in Canada. In the interest of public health and safety, the NDEB
+establishes standards necessary to ensure competency.
+
+Standard Setting
+A standard setting meeting for the Virtual OSCE was held from April 15-17 th, 2023 to review
+performance level descriptors and cut scores. Sixteen subject matter experts were involved
+in the standard setting procedures. The modified Angoff method (Angoff, 1971) was used
+to establish a single passing point (or “cut score”) for the Virtual OSCE form (i.e., the score
+in the examination that differentiates competent from not-yet-competent performance).
+
+A passing score was recommended by the Examinations Committee and approved by the
+Board on April 21, 2023.
+
+Passing Score
+The standard reflecting the minimally-competent candidate was applied to the March
+2023 examination. The passing score for subsequent Virtual OSCEs was determined through
+statistical chain equating.
+
+In line with national standards, the NDEB uses a standardized (rescaled) passing score of 75
+for all its examinations. The passing score has no impact on the difficulty or reliability of the
+NDEB’s examinations.
+
+
+Scoring
+The Virtual OSCE items, except prescription items, are single or multi-answer multiple-
+choice items with up to 15 different distractors.
+
+All multiple-choice items have a maximum score of 1 and a minimum score of 0.
+For multi-answer multiple-choice items, the score on each question depends on whether
+the candidate selects all the correct answers, some of the correct answers, or an incorrect
+answer. Every answer in a multi-answer multiple-choice item has a value. If the candidate
+selects all the correct answers and no incorrect answers, they receive the full mark for the
+item. If the candidate selects an incorrect answer, they receive a score of 0.
+
+NDEB staff performed multiple quality assurance steps to ensure that the scoring was done
+accurately. Scores around the pass mark and a random sample were checked
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                   Page | 18
+to confirm their accuracy. The answers were compared to the master answer key, and all
+calculations were verified.
+
+Prescription items were manually scored on a scale of 0 to 4 by a group of calibrated
+examiners.
+
+Initial Statistical Analysis
+After verification, initial results processing, and reviewing any procedural abnormalities, an
+initial statistical analysis was performed. Reports generated from the initial statistical
+analysis were produced:
+      Candidate Performance by Exam Summary
+      Question Performance by Exam Summary
+      Exam Performance Detail
+      Question Performance – Top/Low/Biserial Distribution (Condensed) (required for
+       examinations which include multi-answer test items)
+      Common Drift Analysis
+
+      Language fairness report
+Items were flagged for the following reasons:
+      difficulty: Less than 0.3
+      biserial: Less than 0.05 (unless the difficulty is greater than 0.95)
+      a language fairness assessment
+
+Review and Final Statistical Analysis
+Reports generated from the initial statistical analysis were provided to the Chief Examiners
+and Assistant Chief Examiner, and other attendees at a statistics review meeting. Items
+flagged during the initial item analysis were reviewed in depth. If determined to be flawed,
+non-performing or compromised after review, the items were removed from further
+analyses.
+
+Flagged items were reviewed to:
+
+      confirm the accuracy of the answer key
+      identify potential ambiguities, including the possibility of multiple correct answers
+      identify potential “trick” items or unclear wording
+      identify a possible English-French translation issue
+      identify item drift as evidenced by an unusual increase or decrease in percent
+       correct
+
+Examiners use their expert judgement to determine if an item will be excluded and take
+into consideration the purpose of the question.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                 Page | 19
+A final statistical analysis was then performed, and results calculated with those items
+excluded. Results were validated by third-party psychometricians.
+
+Equating and Rescaling
+Test equating is a standardized statistical process that is used to ensure each version of an
+examination is of equal difficulty. In addition to the passing score, candidate scores are
+also rescaled. Several data quality assurance steps are taken to ensure that the equating
+and rescaling is done in a fair manner while respecting the statistical assumptions that
+underly these mathematical procedures. The Pass or Fail scores of candidates are
+determined by their total score on the examination. A total score equal to or greater than
+the pass score results in a Pass and a total score less than the pass score results in a Fail.
+
+Given that the Virtual OSCE is a high-stakes linear examination that produces a single final
+score, the reliability/precision metrics are appropriate for this type of examination.
+Graduates of Canadian dental programs are used as the standard reference group.
+
+Subgroup Differences
+
+The NDEB conducted a differential item functioning (DIF) analysis annually to investigate
+differences at the item and test level between candidates taking the Virtual OSCE in
+English and in French. Although the analysis showed that there is no systemic bias, items
+that behave differently were reviewed as described in the Review section above.
+
+Pilot Testing
+The NDEB embeds new questions into examinations as pilot test items. These items are new
+and have not been evaluated by the candidate population. Pilot items that perform well
+from a statistical perspective count toward the candidate’s score, while those items that
+do not perform well are excluded.
+
+In addition, item statistics are used to improve items for future use. Due to the NDEB’s pilot
+testing methodology, items are exposed to a live candidate population, which includes all
+relevant subgroups. The pilot questions are not identified as pilots in the exam.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                 Page | 20
+Reporting
+
+Candidates Results
+Release of Results
+
+The results of the Virtual OSCE are posted on a secure website within eight weeks of the
+administration date. Candidates access their results by logging in to their online profile.
+When results are posted, candidates receive an email notification. If there is an
+anticipated delay in the release of results, candidates are notified by email. Candidates
+are informed if they have passed or failed the examination. Results are reported as
+Pass/Fail. Successful candidates are given a pass result. Candidates who fail will also
+receive their test equated, re-scaled score on the failed examination and the pass mark
+for the examination. This allows candidates to determine how close they were to passing.
+They are also provided with instructions on how to appeal their score.
+
+Candidate results and records are kept pursuant to the NDEB’s internal document
+retention policies and procedures.
+
+Results for Graduates of Canadian Dental Programs
+
+Canadian Faculties of Dentistry are normally sent reports of their students’ results for the
+March administration, and the school’s performance versus national performance. On
+request, other accredited dental programs that have a sufficient number of candidates
+(more than 10) participating in a session can receive the same information.
+
+For the Virtual OSCE, the following information was provided:
+
+   1. National (Canadian) level means and standard deviations of scores broken down
+      by blueprint category
+
+   2. School level means and standard deviations of scores broken down by major
+      blueprint category
+
+Sub-scores for each blueprint category are not included on candidate score reports but
+grouped sub-scores are included in school reports. These sub-scores are for diagnostic and
+information purposes only. Individual pass/fail decisions are not made on the basis of sub-
+score performance. Individual student pass/fail results are provided to schools upon
+request.
+
+Instructions for proper score interpretation were included with the reports. Specifically,
+schools were informed that data is provided “for information purposes only”. Individual
+student numerical results are generally not provided to schools unless the school makes a
+request to the NDEB and demonstrates a valid research or academic need for the data.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                 Page | 21
+Other Reporting
+
+A general statistical performance report for each examination is prepared for the
+Examinations Committee and the Board annually.
+
+The total number of test takers and pass percentage is posted on the NDEB website
+annually.
+
+All information related to the Virtual OSCE (e.g., test protocol, reports) is retained as per the
+document retention policy.
+
+
+Appeals
+
+The appeal mechanism for the Virtual OSCE is a verification of score. This is a verification of
+the grade calculations. Responses are manually compared with the answer key followed
+by a manual recalculation of the score.
+
+Candidates who receive a failing grade on the Virtual OSCE can request a verification of
+score within one month of the release of results by applying to the Board to have their
+examination score verified.
+
+A fee is charged for manual rescores. Fees are posted on the NDEB website.
+
+Other Appeals
+
+Within a specified timeframe, candidates may appeal to the Board or Executive
+Committee in writing, with an accompanying filing fee, regarding:
+
+      a decision of the Examinations Committee regarding misconduct
+
+      compassionate grounds
+
+      the conduct of the examination
+
+A summary of appeals of the 2024 Virtual OSCE can be found in the Table 4.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                  Page | 22
+                          Table 4: 2024 Virtual OSCE Appeals
+
+        Type of Appeal         Number received        Granted   Grades Changed
+
+ Verification of Score*                45                 -           0
+
+ Compassionate Appeal                  -                  -           -
+
+ Conduct of the Examination            6                  0           -
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                   Page | 23
+Part D - Security
+The NDEB takes several measures to ensure the security of its processes.
+
+
+Credential Verification
+
+Credential verification of applicants is performed to ensure that applicants to all processes
+are eligible for participation. While the credential verification process differs depending on
+the process applied for, each process includes source verification with the university to
+confirm the applicant’s credentials.
+
+
+Candidate Information
+
+Candidates create an online account in the NDEB’s online portal called NDEBConnect.
+Candidate accounts are password protected.
+
+In-house, the NDEB has candidate information stored on secure NDEB servers. This
+information is only accessible to staff with valid network accounts and drive permissions.
+
+
+Administration
+
+The NDEB is in regular communication with onsite staff to keep them apprised of changes
+to administration processes and emphasize the importance of security measures such as
+standardized check-in procedures and restricted items. Chief invigilators, Test
+Administrators, invigilators, and proctors are trained to identify, manage, and report
+misconduct.
+
+
+Onsite Security
+
+The NDEB stores all physical examination material in a secure, locked area. All electronic
+materials are on secure password-protected servers.
+
+During the examinations, invigilators monitor the candidates in the examination room and
+document any irregularities on the Report of The Chief Invigilator/Test Administrator. After
+the completion of the examinations, all materials are returned to the NDEB office by
+courier. NDEB staff verify the return of all materials. These security measures help maintain
+the integrity of the examinations by limiting exposure to examination items before and
+after the administration of the examination.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                 Page | 24
+Exam Security
+
+The NDEB’s sensitive information is stored on a restricted server and in secure restricted
+databases. Examination files and applications are not accessible to all those who work for
+the NDEB but are limited to those users who require access.
+
+The NDEB has a policy that written exam content under development is never sent via
+email. Rather, these files are uploaded to our password-protected secure sites for sharing
+and collaboration. Users are limited to what they can view, edit, upload and download
+based on their roles.
+
+All NDEB portable devices use encryption so no one can access anything on the device
+without the proper credentials.
+
+During the examination, candidates are reminded that disclosure of confidential
+examination material, or engagement in any other form of cheating is unacceptable and
+that such behaviour may result in sanctions.
+
+There are guidelines for the retention of test materials.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                              Page | 25
+Part E - Outcome Summaries
+This report provides summary information on the structure of the Virtual OSCE, as well as
+statistical summaries at the item and test levels.
+
+The sample of candidates at the March examination is largely comprised of Canadian-
+educated first-time candidates. The sample of candidates in May is largely comprised of
+second-time candidates and candidates who successfully completed the NDEB
+Equivalency Process. The sample of candidates in November is largely comprised of
+Australian-educated first-time candidates and candidates from the NDEB Equivalency
+Process.
+
+
+
+Number of Examination Items by Category
+                        Table 5: 2024 Virtual OSCE by Content Area
+
+           Category              March 2024             May 2024          November 2024
+
+ Oral Medicine and
+                                     29                    24                    26
+ Pathology
+
+ Periodontics                        25                    27                    28
+
+ Endodontics                         20                    18                    19
+
+ Prosthodontics                      16                    22                    22
+
+ Orthodontics                        12                    11                    10
+
+ Operative Dentistry                 32                    30                    32
+
+ Surgery                             16                    15                    17
+
+ Pain                                21                    18                    19
+
+ Prevention and
+ management of
+ medical emergencies
+                                     22                    22                    21
+ including management
+ of medically complex
+ patients
+
+ Total Scored                        193                   187                   186
+
+ Rejected                             7                     7                     8
+
+ Total                               200                   194                   194
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                               Page | 26
+Virtual OSCE Analysis Report
+                   Table 6: 2024 Virtual OSCE Exams Statistical Analysis
+
+
+                Attempt       March 2024               May 2024            November 2024
+
+                  1               840                     195                  308
+ Number of        2               17                      45                   33
+ Candidates
+                  3                7                       6                   11
+                 Total            864                     243                  352
+                  1               763                     182                  285
+
+   Pass (#)       2               10                      32                   27
+                  3                5                       6                    9
+                 Total            778                     220                  321
+                  1               90.8                   93.3                  92.5
+
+   Pass (%)       2               58.8                   71.1                  81.8
+                  3               71.4                   100.0                 81.8
+                Overall          90.0                    90.5                  91.2
+ Passing Raw
+  Score (%)                      68.32                   69.10                 64.3
+
+                  1               76.5                   78.1                  75.2
+ Mean Raw         2               77.7                   84.8                  69.7
+ Score (%)
+                  3               78.2                   81.9                  69.8
+                Overall          76.3                    77.1                  74.6
+                  1             58 – 91                 60 – 91              64 – 92
+   Range          2             67 – 82                 54 – 87              66 – 85
+  Rescaled
+                  3             71 – 82                 76 – 85              58 – 86
+                Overall         58 – 82                 60 – 85              64 – 86
+                  1               81.1                   81.9                  82.3
+Mean Rescaled
+   Score          2               75.7                   77.4                  78.4
+                  3               77.0                   80.1                  79.6
+                Overall          80.9                    81.1                  81.9
+   KR 20/
+ Cronbach’s                      0.83                    0.87                  0.86
+   Alpha
+
+Note: Numbers are based on all candidates who sat the examination. This includes
+candidates who have later been withdrawn as a result of a compassionate appeal.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                             Page | 27
+Part F – Appendices
+Appendix A – Key Supporting References
+
+American Educational Research Association, American Psychological Association and
+National Council on Measurement in Education. Standards for Educational and
+Psychological Testing (2014). Washington, DC: American Educational Research
+Association.
+
+Angoff, W.H. (1971). Scales, norms and equivalent scores. In R.L. Thorndike (Ed.), Education
+measurement (2nd ed., 508-600). Washington DC: American Council on Education.
+
+Hambleton, R. K., & Plake, B. S. (1995). Using an extended Angoff procedure to set
+standards on complex performance assessments. Applied Measurement in Education, 8(1),
+41–56.
+
+Impara, J. C. & Plake, B. S. (1997). Standard setting: An alternative approach. Journal of
+Educational Measurement, 34(4), 353-366.
+
+Livingston, S. A. (2014) Equating Test Scores Without IRT Second Edition. Educational Testing
+Service.
+
+National Dental Examining Board of Canada (2023). Examiner’s Manual for the Virtual
+OSCE.
+
+National Dental Examining Board of Canada. By-laws.
+
+National Dental Examining Board of Canada (2023). Instructions and Regulations for Test
+Administrators – Virtual OSCE.
+
+National Dental Examining Board of Canada (2023). NDEB Glossary.
+
+National Dental Examining Board of Canada (2023). Virtual OSCE 2023 Protocol.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                Page | 28
+Appendix B – Publications
+
+Boyd, M. A., Gerrow, J. D., Chambers, D. W., & Henderson, B. J. (1996). Competencies for
+dental licensure in Canada. Journal of Dental Education, 60(10), 842–846.
+
+Boyd, M. A., & Gerrow, J. D. (1996). Certification of competence: a national standard for
+dentistry in Canada. Journal (Canadian Dental Association), 62(12), 928–930.
+
+Buckendahl, C. W., Ferdous, A., & Gerrow, J. (2010). Recommending Cut Scores with a
+Subset of Items: An Empirical Illustration. Practical Assessment Research & Evaluation, 15(6).
+
+Buckendahl, C. W., & Gerrow, J. D. (2016). Evaluating the Impact of Releasing an Item Pool
+on a Test's Empirical Characteristics. Journal of Dental Education, 80(10), 1253–1260.
+
+Chambers, D. W., & Gerrow, J. D. (1994). Manual for developing and formatting
+competency statements. Journal of Dental Education, 58(5), 361–366.
+
+Charbonneau, A., Walton, J. N., Morin, S., & Dagenais, M. (2019). Association of Canadian
+Faculties of Dentistry Educational Framework for the Development of Competency in
+Dental Programs. Journal of Dental Education, 83(4), 464–473.
+
+Davis-Becker, S. S., Buckendahl, C. W., & Gerrow, J. (2011). Evaluating the Bookmark
+standard setting method: The impact of random item ordering. International Journal of
+Testing, 11(1), 24–37.
+
+Gerrow, J. D., Boyd, M. A., Doyle, G., & Scott, D. (1996). Clinical evaluation in
+prosthodontics: practical methods to improve validity and reliability at the undergraduate
+level. The Journal of Prosthetic Dentistry, 75(6), 675–680.
+
+Gerrow, J. D., Boyd, M. A., Duquette, P., & Bentley, K. C. (1997). Results of the National
+Dental Examining Board of Canada written examination and implications for
+certification. Journal of Dental Education, 61(12), 921–927.
+
+Gerrow, J. D., Chambers, D. W., Henderson, B. J., & Boyd, M. A. (1998). Competencies for a
+beginning dental practitioner in Canada. Journal (Canadian Dental Association), 64(2),
+94–97.
+
+Gerrow, J. D., Boyd, M. A., Donaldson, D., Watson, P. A., & Henderson, B. (1998).
+Modifications to the National Dental Examining Board of Canada's certification
+process. Journal (Canadian Dental Association), 64(2), 98–103.
+
+Gerrow, J. D., Boyd, M. A., Scott, D. A., & Boulais, A. P. (1999). Use of discriminant and
+regression analyses to modify a clinical certification board examination. Journal of Dental
+Education, 63(6), 459–463.
+
+Gerrow, J. D., Murphy, H. J., Boyd, M. A., & Scott, D. A. (2003). Concurrent validity of written
+and OSCE components of the Canadian dental certification examinations. Journal of
+Dental Education, 67(8), 896–901.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                  Page | 29
+Gerrow, J. D., Boyd, M. A., & Scott, D. A. (2003). Portability of licensure in Canada based on
+accreditation and certification. The Journal of the American College of Dentists, 70(1), 8–
+10.
+
+Gerrow, J. D., Murphy, H. J., Boyd, M. A., & Scott, D. A. (2006). An analysis of the
+contribution of a patient-based component to a clinical licensure examination. Journal of
+the American Dental Association, 137(10), 1434–1439.
+
+Gerrow, J. D., Murphy, H. J., & Boyd, M. A. (2006). Competencies for the beginning dental
+practitioner in Canada: a validity survey. Journal of Dental Education, 70(10), 1076–1080.
+
+Gerrow, J. D., Murphy, H. J., & Boyd, M. A. (2007). Review and revision of the competencies
+for a beginning dental practitioner in Canada. Journal (Canadian Dental
+Association), 73(2), 157–160.
+
+Wolkowitz, A., Davis-Becker, S., & Gerrow, J. (2016). Releasing Content to Deter Cheating:
+an Analysis of the Impact on Candidate Performance. Journal Of Applied Testing
+Technology, 17(1), 33-40.
+
+
+
+Abstracts and Minor Publications
+Gerrow, J. D., Boyd, M. A., Duquette, P., & Bentley, K. C. (1997). Results of the National
+Dental Examining Board of Canada written examination and implications for
+certification. Journal of Dental Education, 61(12), 921–927.
+
+Boyd, M. A., Gerrow, J. D., & Duquette, P. (2004). Rethinking the OSCE as a Tool for National
+Competency Evaluation. European Journal of Dental Education, 8(2), 95–95.
+
+Boyd, M., Gerrow, J., Duquette, P., Haas, D., Loney, R. (2004), National Dental Certification
+in Canada [Abstract]. Poster Sessions: Poster Abstracts. Journal of Dental Education, 68(2),
+299.
+Buckendahl, C. W., Ferdous, A. A., & Gerrow, J. D. (2010). Recommending cut scores with a
+subset of items: An empirical illustration. Practical Assessment, Research and
+Evaluation, 15(6), 6.
+
+Davis, S., Buckendahl, C., & Gerrow, J. (2008) Comparing the Angoff and Bookmark
+methods for an international licensure examination. Paper presented at the annual
+meeting of the National Council on Measurement in Education. New York, NY.
+
+Ferdous, A., Smith, R., & Gerrow, J. (2008). Considerations for using subsets of items for
+standard setting. Paper presented at the annual meeting of the National Council on
+Measurement in Education. New York, NY.
+
+Gerrow, J.D., Boyd, M.A., Duquette, P. (1997). The Development and Implementation
+Process for a New National Certification Examination in Canada. American Association of
+Dental Schools (AADS) 74th annual session. Orlando, Florida. Abstracts. Journal of Dental
+Education, 61(2), 172–261.
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                  Page | 30
+Gerrow, J. D., Boyd, M. A., Scott, D. A., & Boulais, A. P. (1999). Use of discriminant and
+regression analyses to modify a clinical certification board examination. Journal of Dental
+Education, 63(6), 459–463.
+
+Gerrow, J. D., Murphy, H. J., Boyd, M. A., & Scott, D. A. (2003). Concurrent validity of written
+and OSCE components of the Canadian dental certification examinations. Journal of
+Dental Education, 67(8), 896–901.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                  Page | 31
+Appendix C – Knowledge Skills and Abilities (KSAs) Framework
+
+This document lists 43 KSAs that are required for the safe and effective practice of a
+beginning dental practitioner in Canada. The KSAs in this document are organized into
+three groups and 15 categories:
+
+
+
+GROUP A: Multi-discipline (23 KSAs)
+These KSAs apply to more than one discipline or area of practice. The KSAs in this group are
+organized into two categories: Patient Assessment and Treatment Plan and Management.
+
+GROUP B: Discipline-specific (11 KSAs)
+These KSAs are specific to dentistry practice in one of 9 disciplines/areas of practice: Oral
+Medicine and Pathology, Radiology, Periodontics, Endodontics, Prosthodontics,
+Orthodontics, Operative, Oral Surgery, and Pain.
+
+GROUP C: General (9 KSAs)
+The KSAs are organized into four categories: Scientific Literature, Communication,
+Professionalism and Practice, and Health Promotion.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                 Page | 32
+GROUP A: Multi-Discipline KSAs
+
+    1    Patient assessment and treatment plan
+
+   1.1   Exam
+
+ 1.1.1   Obtain the patient’s chief complaint, medical, psychosocial, and dental histories.
+
+ 1.1.2   Perform a clinical examination.
+
+ 1.1.3   Assess patient-specific risk factors for oral disease or injury.
+
+   1.2   Diagnosis
+
+         Differentiate between normal and abnormal hard and soft tissues of the maxillofacial
+ 1.2.1
+         complex.
+
+         Interpret the findings from the patient’s chief complaint, medical, psychosocial, and
+ 1.2.2   dental histories, along with the clinical and radiographic examinations, and diagnostic
+         tests.
+
+ 1.2.3   Develop a problem list and establish diagnoses.
+
+   1.3   Treatment Plan
+
+ 1.3.1   Determine when consultation, referral, and/or further diagnostic testing are indicated.
+
+         Communicate relevant patient information for consultation/referral with health care
+ 1.3.2
+         professionals.
+
+         Develop treatment options based on the evaluation of all relevant data (i.e., obtained
+ 1.3.3   from the patient’s chief complaint, medical, psychosocial, and dental histories, along with
+         the clinical and radiographic examinations, and diagnostic tests).
+
+         Engage the patient in the discussion of the findings, diagnoses, etiology, risks, benefits,
+ 1.3.4
+         time requirements, costs, responsibilities, and prognoses of the treatment options.
+
+ 1.3.5   Develop a comprehensive, prioritized and sequenced treatment plan.
+
+ 1.3.6   Obtain and record informed consent.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                  Page | 33
+    2    Management
+
+   2.1   Prevention
+
+ 2.1.1   Promote measures to prevent oral disease/injury in response to identified risk.
+
+ 2.1.2   Provide therapies for the prevention of oral disease/injury.
+
+ 2.1.3   Implement measures to prevent medical emergencies from occurring in dental practice.
+
+ 2.1.4   Implement measures to prevent the transmission of infectious diseases.
+
+   2.2   Treatment
+
+ 2.2.1   Manage the anxious or fearful patient.
+
+ 2.2.2   Manage dental emergencies.
+
+ 2.2.3   Manage medical emergencies that occur in dental practice.
+
+ 2.2.4   Manage trauma to the orofacial complex.
+
+ 2.2.5   Manage occlusal function.
+
+ 2.2.6   Prescribe and administer pharmacotherapeutic agents used in dentistry.
+
+ 2.2.7   Manage complications, outcomes and continuity of care.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                                Page | 34
+GROUP B: Discipline-Specific KSAs
+
+     3    Oral medicine and pathology
+
+    3.1   Manage oral mucosal and osseous diseases.
+
+     4    Radiology
+
+    4.1   Prescribe, make and interpret radiographs.
+
+     5    Periodontics
+
+    5.1   Manage conditions and diseases of the periodontium.
+
+     6    Endodontics
+
+    6.1   Manage diseases and injury of the pulp.
+
+     7    Prosthodontics
+
+    7.1   Manage partially and completely edentulous patients.
+
+     8    Orthodontics
+
+    8.1   Manage abnormalities of orofacial growth and development.
+
+     9    Operative
+
+    9.1   Restore carious lesions and manage other defects in teeth.
+
+    10    Oral surgery
+
+   10.1   Manage surgical procedures related to oral soft and hard tissues.
+
+    11    Pain
+
+   11.1   Achieve local anesthesia for dental procedures.
+
+   11.2   Manage odontogenic pain.
+
+   11.3   Manage non-odontogenic pain.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                          Page | 35
+GROUP C: General KSAs
+
+    12   Scientific literature
+
+         Evaluate the scientific literature and justify management recommendations
+  12.1
+         based on the level of evidence available.
+
+    13   Communication
+
+         Communicate effectively with patients, parents, guardians, staff, peers, other
+  13.1
+         health professionals and the public.
+
+    14   Professionalism and practice
+
+         Know ethical and legal obligations (e.g., confidentiality requirements, task
+  14.1   delegation, commitment to continued professional development, patient-
+         centred care).
+
+  14.2   Maintain accurate and complete patient records.
+
+  14.3   Manage occupational hazards related to the practice of dentistry.
+
+  14.4   Take appropriate action when signs of abuse and/or neglect are identified.
+
+         Know principles of practice administration, financial and personnel
+  14.5
+         management.
+
+    15   Health promotion
+
+  15.1   Recognize the determinants (influencing factors) of oral health.
+
+  15.2   Promote oral health within communities.
+
+
+
+
+VIRTUAL OSCE TECHNICAL REPORT - 2024                                              Page | 36
+
