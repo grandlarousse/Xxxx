@@ -1,0 +1,16 @@
+gorev p1 5.0 101: 110 s
+gorev p1 7.0 101: 114 s
+gorev p1 8.0 101: 114 s
+gorev p1 6.0 101: 115 s
+gorev p1 5.0 202: 98 s
+gorev p1 6.0 202: 97 s
+gorev p1 7.0 202: 99 s
+gorev p1 8.0 202: 100 s
+gorev conv 0.5 250: 11 s
+gorev y 5.0 0.0: 13 s
+gorev conv 0.25 250: 20 s
+gorev y 5.0 0.02: 13 s
+gorev y 5.0 0.05: 14 s
+gorev y 6.0 0.0: 13 s
+gorev y 6.0 0.02: 14 s
+gorev y 6.0 0.05: 14 s
