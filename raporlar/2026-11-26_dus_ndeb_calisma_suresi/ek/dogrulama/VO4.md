@@ -1,0 +1,27 @@
+araç: 24/34
+
+# VO4 doğrulama (örneklem satırlar, 17 satır)
+
+| dosya | satır | hüküm | nereden görüldü | düzeltme | not |
+|---|---|---|---|---|---|
+| A05_bilissel_yorgunluk.md | 1 | doğru | özet (PubMed 26884183) | | Sievertsen, Gino, Piovesan, PNAS 2016;113(10):2621-4. İki sayı da birebir var. Mola "a 20- to 30-minute break". Veri: Danimarka devlet okulları, 2009/10–2012/13. |
+| A05_bilissel_yorgunluk.md | 4 | doğru | tam metin (NBER w30133 PDF) + özet sayfası | | İki alıntı da birebir var. %12 kontrol grubu için ve göreli bir düşüş. Dipnot 25'te aynı düşüş "12 percentage points" olarak geçiyor. %22 özetten geliyor; metinde "21.9% (p=0.006)". Örneklem Hindistan'da düşük gelirli ilkokul öğrencileri. "Pratik" okul gününe eklenen matematik ya da oyun seansları demek. NBER WP, Haziran 2022. |
+| A05_bilissel_yorgunluk.md | 13 | doğru | özet (PubMed 34113424) | | Dang ve ark., Soc Psychol Personal Sci 2021;12(1):14-24. 12 lab, N = 1,775, d = 0.10, dışlama sonrası d = 0.16: hepsi birebir. "Tekrar 3", üretici dosyasındaki sıralamaya göre üçüncü çok merkezli tekrar. |
+| A05_bilissel_yorgunluk.md | 18 | doğru | özet (PubMed 35961314); örneklem ve süre: ikincil kaynak (Scientific American, 11.08.2022) | | Glutamat alıntısı birebir var. Scientific American: "recruited 40 volunteers", "around six and a half hours at the lab". Birincil tam metin 3 denemede açılmadı (cell.com, ScienceDirect, HAL bot engeli). Sayıyı raporda "ikincil kaynak" etiketiyle kullan; 40 kişi analize giren sayı olmayabilir. |
+| A05_bilissel_yorgunluk.md | 23 | doğru | özet + tam metin (Europe PMC PMC11865449) | | Andersson, Lindberg, Tinghög, Persson, Commun Psychol 2025;3:33. Makale türü "Registered Report" (Stage 1 kabulü 7 Mayıs 2024). "BF0+ > 22 for all main tests" birebir var. |
+| A05_bilissel_yorgunluk.md | 29 | doğru | özet (PubMed 19139412) | | Liston, McEwen, Casey, PNAS 2009;106(3):912-7. Alıntı birebir. 20 sağlıklı yetişkin stres grubunda; ayrıca eşleştirilmiş, düşük stresli bir kontrol grubu var. |
+| A06_spor_yuk_modelleri.md | 4 | doğru | özet (PubMed 12840641) + ikincil kaynak (Ceddia ve ark., arXiv 2505.20859) | | Busso, MSSE 2003;35(7):1188-95. Alıntı, 6,47 ± 0,71 W'a karşı 9,20–10,31 W ve 6 denek özette var. τ1 = 30.8, τ2 = 16.8, τ3 = 2.3 Ceddia'da "Table 2 of Busso (2003)" diye geçiyor. Birincil tablo görülmedi. |
+| A06_spor_yuk_modelleri.md | 10 | doğru | özet (PubMed 33036995) | | Dalen-Lorentsen ve ark., BJSM 2021;55(2):108-114. 34 takımla küme RKÇ (randomize kontrollü çalışma); RR 1.01 (0.91–1.12), p = 0.84; 482 oyuncu, iki cinsiyet. |
+| A06_spor_yuk_modelleri.md | 18 | doğru | özet (PubMed 12840640) | | Mujika & Padilla, MSSE 2003;35(7):1182-7. Bütün sayılar özette birebir var: "reducing the training volume (up to 60-90%)", sıklık "no more than 20%". |
+| A06_spor_yuk_modelleri.md | 25 | doğru | özet (PubMed 17940147 ve 40623829) | | Buist ve ark., Am J Sports Med 2008 (Epub 2007); N = 532 acemi koşucu; 20.8% ve 20.3% birebir. Frandsen ve ark., BJSM 2025: 5205 koşucu; küçük sıçrama HRR = 1.64 (1.31–2.05); week-to-week alıntısı birebir. ACWR'de ters yönlü doz-yanıt bulundu; "haftalık oran" ifadesi yalnız week-to-week oranı kapsıyor. |
+| A06_spor_yuk_modelleri.md | 26 | doğru | özet (PubMed 22537000) | | Dupuy ve ark., Scand J Med Sci Sports 2014;24(1):234-42 (Epub 2012). 816 ± 83 → 892 ± 117 ms (P = 0.03), taper sonrası 820 ± 119 ms. 11 erkek dayanıklılık sporcusu; hacim 2 hafta %100 artırıldı, 1 hafta %50 azaltıldı. |
+| A08_seans_mola_dil.md | 2 | doğru | özet (OpenAlex) | | Wendsche, Lohmann-Haislah, Wegge 2016, DOI 10.18753/2297-8224-75. Almanca alıntı birebir; k = 11, N = 705. |
+| A08_seans_mola_dil.md | 7 | doğru | özet (PubMed 7669837) | | Neubauer & Freudenthaler, Biol Psychol 1995;40(3):281-98. 60 denek, 9 saat boyunca 10 dakikada bir test; alıntı birebir. |
+| A08_seans_mola_dil.md | 10 | doğru | özet (PubMed 12606184) | | Tucker, Folkard, Macdonald, Lancet 2003;361:680 (araştırma mektubu). 2.08 (1.73–2.43) birebir. Veri tek bir mühendislik şirketinin 3 yıllık kaza kayıtları. |
+| A08_seans_mola_dil.md | 14 | doğru | tam metin (Europe PMC PMC7044622) | | Kang & Kurtzberg, J Behav Addict 2019;8(3):395-403; 414 lisans öğrencisi. 330.49 ve 277.12, 6.38 ve 8.13 birebir. Uyarı: telefon molası, molasız gruptan yine daha iyi (6.38'e karşı 5.32 çözülen anagram). Raporda "hiç toparlamadı" diye yazılmamalı. |
+| A08_seans_mola_dil.md | 19 | doğru | tam metin (Bologna kurumsal arşivi, kabul edilmiş son sürüm) | | Saatler (9 am, 1.30 pm, 4.30 pm), İngiltere'deki büyük bir devlet üniversitesi ve 0.068 SD birebir. Künye: Economic Journal 133(652):1407-1429; çevrimiçi 12.12.2022, sayı 2023. 2022 kabul edilebilir; kaynakçada 2023 de yazılabilir. Öğleden sonra geç sınav sabaha göre +0.036 SD. |
+| A08_seans_mola_dil.md | 24 | doğru | özet (OpenAlex) | | Chauhan ve ark., Chronobiology International 2025. 65 çalışma; "29 (45.31%) of 64 studies" birebir. Yaşlılarda oran 10/12 (%83). |
+
+## Hata özeti
+
+Kontrol edilen 17 satırın 17'si doğru; kısmen, yanlış ya da doğrulanamadı hükmü yok. Sayıların ve alıntıların hepsi gösterilen kaynakta birebir bulundu. Raporu yazarken üç noktaya dikkat edilmeli. Wiehler 2022'deki 40 kişi ve yaklaşık 6,5 saat ile Busso 2003'teki τ değerleri yalnız ikincil kaynakta doğrulandı; bu yüzden "ikincil kaynak" etiketi korunmalı. Kang & Kurtzberg'de telefon molası molasızlıktan iyi çıktı, karşılaştırma yalnızca diğer mola türlerine göre. NBER'deki %12 düşüş Hindistan'daki düşük gelirli çocuklarda ölçülen göreli bir düşüş.

@@ -1,0 +1,32 @@
+araç: 19/40
+
+# VF3 doğrulama (kritik satırlar; 20 satır)
+
+| dosya | satır | hüküm | nereden görüldü | düzeltme | not |
+|---|---|---|---|---|---|
+| A04_uyku.md | 1 | doğru | özet (PubMed 12683469) | | Alıntı birebir (özette "Since chronic restriction..." diye başlıyor). Süre yatakta geçen süre (TIB); karşılaştırma 8 sa TIB ve 3 gece tam uykusuzluk; toplam n=48 (iki deney birlikte). "up to 2 nights" üst sınırdır; hangi dozun kaç geceye denk geldiği ve grup başına n özette yok. Tam metne erişilemedi (OUP 403). |
+| A04_uyku.md | 2 | doğru | özet (PubMed 12683469) | | Alıntı birebir. Özet "only small further increases" diyor: tam plato değil, küçük artış. "largely unaware" yazarların uykululuk puanlarından çıkarımı ("suggest"). |
+| A04_uyku.md | 6 | doğru | özet (PubMed 12603781) | | Alıntı birebir. 7 gün kısıtlama, n=66 (3 sa 18; 5, 7 ve 9 sa 16'şar). "no evidence of recovery" 7 ve 5 sa gruplarında PVT hızı, 5 sa grubunda ayrıca lapses için; 7 sa grubunda lapses artmamıştı. |
+| A04_uyku.md | 7 | doğru | özet (PubMed 20815182) | | Alıntı birebir. N=159 (142 kısıtlama, 17 kontrol); 10 sa doz grubunun n'si özette yok. 10 sa yatak = 8,96 sa gerçek uyku. Eksik kalanlar: PVT, KSS uykululuk, POMS yorgunluk. Tam metin alınamadı (Europe PMC 500). |
+| A04_uyku.md | 8 | doğru | özet (PubMed 33274389) | | Alıntı birebir (devamı: "which failed to completely recover"). Toplam n=83; tam uykusuzluk 36 saat. Kısıtlamada da PVT dışındaki ölçüler ilk geceden sonra döndü; tam uykusuzlukta dönmeyen tek ölçü "vigor". Tam metin alınamadı (Europe PMC 500). |
+| A04_uyku.md | 10 | doğru | tam metin (Europe PMC PMC5075948) + özet | | İki alıntı da birebir; "15 healthy young men (mean age, 23.1 ± 2.1 years)". 4 günlük toparlanma laboratuvarda art arda 9 gece 12 sa yatak fırsatı koşulunda ölçüldü; evdeki alışılmış uyku ort. 7,37 sa. |
+| A04_uyku.md | 19 | kısmen | özet (PubMed 31303555) | Öğrenme 5 gecenin sonunda değil, 4. kısıtlama gecesinden sonra yapıldı; örneklem 15-18 yaş ergen (kısıtlama n=29, kontrol n=30; 42. gün alt örneklem 14 ve 22). Kaynak: "After the fourth night of restriction, participants learned detailed facts" | %26, %34, %65 birebir doğru. Düzeltme yalnız tasarım anlatımında; sonuca etkisi yok. |
+| A04_uyku.md | 22 | kısmen | tam metin (Europe PMC PMC6335868) + özet | 1 hafta sonraki anlamlı üstünlük molaya (uyanık dinlenme) göre; şekerleme ile cramming arasında doğrudan fark anlamlı değil. Kaynak: "direct comparisons between these groups revealed only a trend for a nap benefit at the 30 min test" | Alıntı birebir ama "this significant advantage" molaya göre üstünlük demek. Yazarlar: "these two learning approaches are likely to produce similar outcomes for memory". n: şekerleme 27, mola 27, cramming 30. Raporda "şekerleme ek çalışmadan iyi" denmemeli; "bir hafta sonra en az onun kadar iyi" denebilir. |
+| A04_uyku.md | 27 | doğru | özet (PubMed 31583118) | | Alıntı birebir; "nearly 25% of the variance". 100 öğrenciden 88'i tamamladı; korelasyonel. |
+| A04_uyku.md | 28 | doğru | özet (PubMed 22906052) | | Alıntı birebir. N=535; 9., 10. ve 12. sınıfta 14'er günlük günlük kayıt; öz-bildirim. |
+| A09_toparlanma.md | 2 | doğru | özet (RUG portalı) | | Alıntı özette var ("However, during the first week of work resumption..."). N=96 Hollandalı çalışan; kış sporları tatili; ölçüm tatilden 2 hafta önce, tatilde, dönüşten 1, 2 ve 4 hafta sonra. Work & Stress 2010;24(2):196-216. |
+| A09_toparlanma.md | 3 | doğru | özet (PubMed 9378682) | | Alıntı birebir. 76 büro çalışanı; J Appl Psychol 1997;82(4):516-27. |
+| A09_toparlanma.md | 7 | doğru | özet (KOPS kaydı, üst veri) | | Alıntı birebir. N=133, dört çalışma haftası. Yordanan dört sonuç: görev performansı, kişisel inisiyatif, örgütsel vatandaşlık davranışı, düşük algılanan çaba. J Occup Organ Psychol 2010;83(2):419-441. |
+| A09_toparlanma.md | 9 | doğru | özet (PubMed 18457495) | | Alıntı birebir. 166 kamu yönetimi çalışanı, 1 iş haftası; sonuç ertesi sabahki duygu durumu ("negative activation and fatigue"). |
+| A10_uzun_saatler.md | 1 | doğru | tam metin (SIEPR tartışma kâğıdı PDF, sayfadaki Drive bağlantısı) | | Alıntı birebir. Saat = gerçek çalışılan haftalık saat (planlanan değil; yemek ve kayıp zaman düşülmüş). Veri: I. Dünya Savaşı İngiliz mühimmat işçileri, 4 iş grubu, 122 haftalık gözlem. Log-log katsayı 49 saatin altında 1,002, üstünde 0,172. 49 saat en iyi uyumu veren düğüm noktası. |
+| A10_uzun_saatler.md | 2 | doğru | tam metin (SIEPR PDF) | | Alıntı birebir; aynı tahminden. |
+| A10_uzun_saatler.md | 3 | doğru | tam metin (SIEPR PDF) | | Alıntı birebir. Tablo 4: tepe (i) ve (ii) sütunlarında 63 saat; pazar değişkeni eklenen (iii) sütununda 68 saat. |
+| A10_uzun_saatler.md | 4 | doğru | tam metin (SIEPR PDF) | | Alıntı birebir. Sonuç bölümü: "about ten percent lower output ... holding weekly hours constant". Pazar katsayısı -858 (s.h. 126). Yazarın örneği: 70 sa/7 gün ile 48 sa/6 gün arasında çıktı farkı yalnız %1,4 (48 saat lehine). |
+| A10_uzun_saatler.md | 21 | doğru | tam metin (AccessLex PDF) | | Sayılar ve alıntı birebir. %46 ve >%75 gözlenen oran değil, LSAT kontrollü lojistik modelin öngördüğü olasılık. n=107, 17 Kaliforniya hukuk fakültesi, Temmuz 2017 sınavı, 7 hafta günlük zaman günlüğü. Örneklemde geçme %77, eyalet ilk giriş oranı %65. Günlük çalışma medyanı 8,14, ortalaması 8,38 saat. Yazarlar bulguyu "exploratory" sayıyor. |
+| A10_uzun_saatler.md | 22 | doğru | tam metin (AccessLex PDF) | | Sayılar ve alıntı birebir; model öngörüsü. İlişki, nedensellik değil: kaynak "negatively associated" diyor. Odds oranı 0,651, güven aralığı 0,394-1,016 (1'i içeriyor). Çalışan az: günlük iş saati ort. 0,27, medyan 0. Raporda "ilişkili" diye yazılmalı. |
+
+## Hata özeti
+
+20 satır: 18 doğru, 2 kısmen, 0 yanlış, 0 doğrulanamadı. Kısmen çıkanların ikisi de A04'te (10 satırda 2). Satır 22 sonuca dokunur: kaynak şekerlemenin ek çalışmadan (cramming) daha iyi olduğunu göstermiyor; anlamlı üstünlük molaya göre, yazarlar ikisini "benzer" sayıyor. Satır 19'da yalnız tasarım anlatımı düzeltilmeli (öğrenme 4. geceden sonra, ergen örneklem); sayılar doğru.
+
+Kritik satırların hepsi kaynağında doğrulandı (Pencavel dört satır ve baro iki satır tam metinden; uyku kısıtlaması satırları özetten). Rapora taşınırken üç çekince yazılmalı: baro yüzdeleri 107 kişilik keşif örnekleminden model öngörüsü ve iş-geçme ilişkisinin güven aralığı 1'i içeriyor; Pencavel'de tepe pazar değişkeni eklenince 63'ten 68 saate kayıyor; Van Dongen, Banks ve Yamazaki yalnız özetten görüldü (tam metin: OUP 403, Europe PMC 500).
