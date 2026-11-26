@@ -4,15 +4,15 @@ Her sayı `cikti/` altındaki CSV dosyalarından `python3 sim.py rapor` ile yaz�
 
 ## 1. Ana sonuç
 
-Bu varsayımlar altında sağlam politika girdideki tavanla birlikte kayar: 180 gün, K3, (a) amacında h3 = 5 / 6 / 7 / 8 için günde 4,0 / 5,0 / 5,5 / 6,0 saat yüksek talepli çalışma (hB = 0,0; haftada 7 gün; haftalık 28,5 / 35,0 / 38,5 / 42,5 saat); h3'teki her 1 saat sağlam hA'yı ortalama 0,67 saat oynatır, yani sayı bulgu değil, girdinin geri gelişidir. Modelin katkısı biçimdir: sağlam politikadan günde 1 saat aşağı inmek çıktıyı h3 = 6'da %11, h3 = 7'de %9 düşürür; 1 saat yukarı çıkınca uçurum olasılığı %99 ve %56, çıktı kaybı %45 ve %9 olur (+2 saatte %59 ve %54). Çekim başına optimum K3 tavanında değil, kronik birikimin başladığı h1 eşiğinin çevresindedir (h3 = 6, 180 gün: optimum hA − h1 ortancası -0,20 saat [-0,64; 0,00]); sonucu en çok eB, v1, h0 oynatır; 30 günlük ufuk K3 tavanını yalnız ×1,02 yükseltir.
+Bu varsayımlar altında sağlam politika girdideki tavanla birlikte kayar: 180 gün, K3, (a) amacında h3 = 5 / 6 / 7 / 8 için günde hA = 4,0 / 5,0 / 5,5 / 6,0 saat (hB = 0,0; haftada 7 gün; haftalık 28,5 / 35,0 / 38,5 / 42,5 saat); h3'teki 1 saatlik artışın 0,67 kadarı sağlam hA'ya yansır, yani sayı bulgu değil, girdinin geri gelişidir. Modelin katkısı biçimdir: sağlam politikadan günde 1 saat aşağı inmek çıktıyı h3 = 6'da %11, h3 = 7'de %9 düşürür; 1 saat yukarı çıkınca uçurum olasılığı %99 ve %56, çıktı kaybı %45 ve %9 olur (+2 saatte %59 ve %54). Çekim başına optimum K3 tavanında değil, kronik birikimin başladığı h1 eşiğinin çevresindedir (h3 = 6, 180 gün: optimum hA − h1 ortancası 0,0 saat [-0,5; 0,0]); sonucu en çok eB, v1, h0 oynatır; 30 günlük ufuk K3 tavanını yalnız ×1,02 yükseltir.
 
 ## 2. Ana tablo (h3 = 6 ve h3 = 7)
 
-Sağlam politika = beklenen pişmanlığı en küçük politika (kısıtı çiğnediği çekimde pişmanlık 1). Aralık = varsayım aralığı: çekim başına optimum hA ortancası [Q1–Q3]. Son dönem: gün × ψ. Sağlam politikada hB > 0 olan hücre 0, haftada 7 günden az çalışılan hücre 3 (toplam 224): model dinlenme gününe yalnız yorgunluk sönümüyle değer verir; bu bulgu değil, model sınırıdır.
+Sağlam politika = beklenen pişmanlığı en küçük politika (kısıtı çiğnediği çekimde pişmanlık 1). Aralık = varsayım aralığı: çekim başına optimum hA ortancası [Q1–Q3]. Sağlam politikada hB > 0 olan hücre 0, 7 günden az çalışılan hücre 3: model dinlenme gününe yalnız yorgunluk sönümüyle değer verir; bu bir model sınırıdır.
 
 **Tablo 2 — h3 = 6 (kaynak: cikti/ana_tablo.csv)**
 
-| Ufuk | K | (a) hA + hB | gün | hafif | son dönem | hft. saat | aralık (hA) | (b1) hA + hB | gün | hafif | son dönem | hft. saat | aralık (hA) |
+| Ufuk | K | (a) hA + hB | gün | hafif | son dönem (gün × ψ) | hft. saat | aralık (hA) | (b1) hA + hB | gün | hafif | son dönem (gün × ψ) | hft. saat | aralık (hA) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 30 | K0 | 3,5 + 0,0 | 7 | yok | yok | 24,5 | 4,0 [3,5–4,5] | 3,5 + 0,0 | 7 | yok | yok | 24,5 | 4,0 [3,5–4,5] |
 | 30 | K1 | 3,5 + 0,0 | 7 | yok | yok | 24,5 | 4,0 [3,5–4,5] | 3,5 + 0,0 | 7 | yok | yok | 24,5 | 4,0 [3,5–4,5] |
@@ -45,7 +45,7 @@ Sağlam politika = beklenen pişmanlığı en küçük politika (kısıtı çiğ
 
 **Tablo 2 — h3 = 7 (kaynak: cikti/ana_tablo.csv)**
 
-| Ufuk | K | (a) hA + hB | gün | hafif | son dönem | hft. saat | aralık (hA) | (b1) hA + hB | gün | hafif | son dönem | hft. saat | aralık (hA) |
+| Ufuk | K | (a) hA + hB | gün | hafif | son dönem (gün × ψ) | hft. saat | aralık (hA) | (b1) hA + hB | gün | hafif | son dönem (gün × ψ) | hft. saat | aralık (hA) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 30 | K0 | 4,0 + 0,0 | 7 | yok | yok | 28,0 | 4,5 [4,0–5,0] | 3,5 + 0,0 | 7 | yok | yok | 24,5 | 4,5 [4,0–5,0] |
 | 30 | K1 | 4,0 + 0,0 | 7 | yok | yok | 28,0 | 4,5 [4,0–5,5] | 3,5 + 0,0 | 7 | yok | yok | 24,5 | 4,5 [4,0–5,0] |
@@ -78,7 +78,7 @@ Sağlam politika = beklenen pişmanlığı en küçük politika (kısıtı çiğ
 
 ## 3. Pişmanlık eğrisinin asimetrisi
 
-Sağlam hA δ saat kaydırıldı (ufuk ortalaması). Kısıtı çiğneyen çekimde pişmanlık tanım gereği 1'dir; kısıttan bağımsız ölçü çıktı oranıdır (J(δ)/J(0)). Marjinal sınama (h3 = 6, 180 gün, (a)): tek güne +0,5 saat K3 politikasında aynı gün 0,32 etkili saat kazandırır, sonraki günlerde 0,45 kaybettirir; K0 politikasında kayıp/kazanç 0,05 (marjinal_sinama.csv).
+Sağlam hA δ saat kaydırıldı (ufuk ortalaması). Kısıtı çiğneyen çekimde pişmanlık tanım gereği 1'dir; kısıttan bağımsız ölçü çıktı oranıdır (J(δ)/J(0)). Marjinal sınama (h3 = 6, 180 gün, (a)): tek güne +0,5 saat eklemek K3 politikasında sonraki günlerde aynı gün kazandırdığının 1,40 katını kaybettirir (çekimlerin %59 kadarında kayıp daha büyük); K0 politikasında oran 0,05 (marjinal_sinama.csv).
 
 **Tablo 3 — K3, ufuk ortalaması (kaynak: cikti/pismanlik_ozet.csv)**
 
@@ -128,9 +128,9 @@ Temel modelde (λ = 0) kısa ufuk tavanı az yükseltir: h3 = 6'da 30 günlük K
 
 ## 5. Son dönem (T, ψ) seçimleri
 
-Sağlam politikalarda (112 hücre/amaç): (a) son dönem yok 58, hızlanma 54, azaltma 0; (b1) yok 71, hızlanma 10, azaltma 31. (a) yalnız saati saydığı için sonda hızlanır; (b1) sınav günü yorgunluk cezası yüzünden kısa, hafif azaltmayı seçer. Tablo: çekim başına optimumların payı (K3, dört h3 ortalaması).
+Sağlam politikalarda (112 hücre/amaç): (a) son dönem yok 58, hızlanma 54, azaltma 0; (b1) yok 71, hızlanma 10, azaltma 31. (a) yalnız saati saydığı için sonda hızlanır; (b1) sınav günü yorgunluk cezası yüzünden kısa, hafif azaltmayı seçer.
 
-**Tablo 5 — son dönem payı, % (kaynak: cikti/son_donem_ozet.csv, ana_tablo.csv)**
+**Tablo 5 — çekim başına optimumda son dönem payı, %, K3 (kaynak: cikti/son_donem_ozet.csv, ana_tablo.csv)**
 
 | son dönem | (a) 30 gün | (a) 180 gün | (a) 360 gün | (b1) 30 gün | (b1) 180 gün | (b1) 360 gün |
 |---|---|---|---|---|---|---|
@@ -147,7 +147,7 @@ Sağlam politikalarda (112 hücre/amaç): (a) son dönem yok 58, hızlanma 54, a
 
 ## 6. (a) ile (b1) örtüşmesi
 
-Çekim başına en iyi politikalar birebir nadiren aynıdır (son dönem ayrışır), günlük saatte yakındır: h3 = 6, K3, 180 günde hA farkı ≤ 0,5 olan çekim %95; (a)'nın en iyisi (b1) ölçüsünde ortalama %4,8 kaybeder. e1 = e2 = 0 referansının (b1) pişmanlığı %4,6: fark büyük ölçüde sınav günü cezasındandır.
+Çekim başına en iyi politikalar birebir nadiren aynıdır, günlük saatte yakındır: h3 = 6, K3, 180 günde hA farkı ≤ 0,5 olan çekim %95; (a)'nın en iyisi (b1) ölçüsünde ortalama %4,8 kaybeder. e1 = e2 = 0 referansının (b1) pişmanlığı %4,6: fark büyük ölçüde sınav günü cezasındandır.
 
 **Tablo 6 — K3 (kaynak: cikti/ortusme.csv)**
 
@@ -170,7 +170,7 @@ Sağlam politikalarda (112 hücre/amaç): (a) son dönem yok 58, hızlanma 54, a
 
 ## 7. (b2) Virtual OSCE: açık tablosu ve karar kuralı
 
-Karar kuralı: Pr(geçme) ≥ 0,95 koşulunu çekimlerin en az %90'ında sağlayan politikalar içinde önce en düşük K, sonra en az toplam net saat (eşitlikte en düşük tepe f2); gecikme D birlikte seçilir. "Çekim başına" sütunları kuralın her çekime ayrı uygulanmasıdır. Saatler S kabulüne ve κN'ye doğrudan bağlıdır.
+Karar kuralı: Pr(geçme) ≥ 0,95 koşulunu çekimlerin en az %90'ında sağlayan politikalar içinde önce en düşük K, sonra en az toplam net saat. "Çekim başına" sütunları kuralın her çekime ayrı uygulanmasıdır. Saatler S kabulüne ve κN'ye doğrudan bağlıdır.
 
 **Tablo 7 — h3 = 6 (kaynak: cikti/b2_karar.csv)**
 
@@ -200,22 +200,22 @@ Karar kuralı: Pr(geçme) ≥ 0,95 koşulunu çekimlerin en az %90'ında sağlay
 
 ## 8. Duyarlılık: ilk 5 parametre
 
-Hedef: çekim başına optimum hA; PRCC (kısmi sıra korelasyonu) bütün hücrelerin ortalaması; "üst − alt" parametrenin üst ve alt yarısındaki optimum hA ortancalarının farkı. h3 senaryo eksenidir ve hepsinden baskındır. tol 0,01 ile sağlam hA (K0–K2) ortalama 0,23, tol 0,05 ile 0,40 saat değişir.
+Hedef: çekim başına optimum hA; PRCC (kısmi sıra korelasyonu) bütün hücrelerin ortalaması. tol 0,01 ile K0–K2 hücrelerinin %43 kadarında, tol 0,05 ile %73 kadarında sağlam hA değişir (en çok 1,0 saat).
 
-**Tablo 8 (kaynak: cikti/duyarlilik_ozet.csv, ana_tablo.csv)**
+**Tablo 8 — alt/üst yarı: parametrenin alt ve üst yarısındaki optimum hA ortancası, h3 = 6, 180 gün, K3 (kaynak: cikti/duyarlilik_ozet.csv, duyarlilik.csv, ana_tablo.csv)**
 
-| amaç | sıra | parametre | ort. mutlak PRCC (hA) | ort. PRCC (hA) | ort. mutlak PRCC (hft. saat) | üst − alt yarı (hA, saat) |
-|---|---|---|---|---|---|---|
-| a | 1 | eB | 0,54 | -0,54 | 0,56 | -0,54 |
-| a | 2 | v1 | 0,53 | 0,53 | 0,48 | 0,42 |
-| a | 3 | h0 | 0,49 | 0,49 | 0,50 | 0,41 |
-| a | 4 | cB | 0,42 | 0,42 | 0,61 | 0,39 |
-| a | 5 | q1 | 0,29 | 0,29 | 0,38 | 0,26 |
-| b1 | 1 | v1 | 0,55 | 0,55 | 0,50 | 0,48 |
-| b1 | 2 | eB | 0,54 | -0,54 | 0,56 | -0,54 |
-| b1 | 3 | h0 | 0,53 | 0,53 | 0,58 | 0,44 |
-| b1 | 4 | cB | 0,44 | 0,44 | 0,62 | 0,39 |
-| b1 | 5 | q1 | 0,30 | 0,30 | 0,32 | 0,28 |
+| amaç | sıra | parametre | ort. mutlak PRCC (hA) | ort. PRCC (hA) | ort. mutlak PRCC (hft. saat) | alt yarı hA | üst yarı hA |
+|---|---|---|---|---|---|---|---|
+| a | 1 | eB | 0,54 | -0,54 | 0,56 | 5,0 | 4,5 |
+| a | 2 | v1 | 0,53 | 0,53 | 0,48 | 4,5 | 5,0 |
+| a | 3 | h0 | 0,49 | 0,49 | 0,50 | 4,5 | 5,0 |
+| a | 4 | cB | 0,42 | 0,42 | 0,61 | 4,5 | 5,0 |
+| a | 5 | q1 | 0,29 | 0,29 | 0,38 | 5,0 | 5,0 |
+| b1 | 1 | v1 | 0,55 | 0,55 | 0,50 | 4,5 | 5,0 |
+| b1 | 2 | eB | 0,54 | -0,54 | 0,56 | 5,0 | 4,5 |
+| b1 | 3 | h0 | 0,53 | 0,53 | 0,58 | 4,5 | 5,0 |
+| b1 | 4 | cB | 0,44 | 0,44 | 0,62 | 4,5 | 5,0 |
+| b1 | 5 | q1 | 0,30 | 0,30 | 0,32 | 4,5 | 4,5 |
 
 ## 9. Y senaryosu (yavaş birikim)
 
@@ -255,11 +255,11 @@ Hedef: çekim başına optimum hA; PRCC (kısmi sıra korelasyonu) bütün hücr
 - S önseli tanımda yok: log-tekdüze 30–1000 etkili saat; DUS için g0 = 0,3.
 - (b2): g0 = Pgeç − açık, S_N = κN·S; gecikmede g unutmayla düşer; pişmanlık tanımsız olduğundan %90 olurluk kuralı.
 - Takvim ilk çalışma gününe bağlı; son dönemde ψ hafif haftanın yerine geçer, haftalık dinlenme sürer.
-- Çöküşte hA ve hB birlikte yarılanır; sınav sabahı çöküşe ek ceza yok (tanımda yok).
-- K kümeleri yazıldığı gibi iç içe değil: d = 7 ya da hafif haftasız politika K0'da olup K1/K2 koşuluna giremiyor; K1 ve K2 son kontrol sabahından sonra çöküşe ya da 0,8·Fcrit aşımına izin veriyor. Tanım düzeltilmedi; uygulanan yorum: K3 yazıldığı gibi, K2 = (K0 ∪ K1 ∪ K2 koşulu) ∩ K3, K1 = (K0 ∪ K1 koşulu) ∩ K3.
-- Kısıtı çiğneyen çekimde pişmanlık 1; tavan = kısıtı sağlayan en yüksek toplam net saat.
+- Çöküşte hA ve hB birlikte yarılanır; sınav sabahı çöküşe ek ceza yok.
+- K kümeleri yazıldığı gibi iç içe değil: d = 7 ya da hafif haftasız politika K0'da olup K1/K2 koşuluna giremiyor; K1 ve K2 son kontrolden sonra çöküşe ya da 0,8·Fcrit aşımına izin veriyor. Tanım düzeltilmedi; uygulanan yorum: K3 yazıldığı gibi, K2 = (K0 ∪ K1 ∪ K2 koşulu) ∩ K3, K1 = (K0 ∪ K1 koşulu) ∩ K3.
+- Tavan = kısıtı sağlayan en yüksek toplam net saat.
 
-**Sınamalar.** pytest: 31 sınama, 24 geçti, 7 kaldı (cikti/pytest.xml); birim sınamaların hepsi geçti. Kalanlar koşu düzeyindedir (cikti/sinamalar.csv): "K_literal" satırları kümelerin yazıldığı gibi iç içe olmadığını gösterir (yorumla giderildi); hB = 3 sınırı çekim başına optimumların %13 kadarında bağlayıcıdır; 0,25 ızgara en iyi J değerini en çok %1,6 artırır (sağlam hA değişmez).
+**Sınamalar.** pytest: 31 sınama, 24 geçti, 7 kaldı (cikti/pytest.xml); birim sınamaların hepsi geçti. Kalanlar koşu düzeyindedir (cikti/sinamalar.csv): "K_literal" satırları kümelerin yazıldığı gibi iç içe olmadığını gösterir; hB = 3 sınırı çekim başına optimumların %13 kadarında bağlayıcıdır; 0,25 ızgara en iyi J değerini en çok %1,6 artırır (sağlam hA değişmez).
 
 | sınama | sonuç | sayı | eşik |
 |---|---|---|---|
@@ -283,7 +283,7 @@ Hedef: çekim başına optimum hA; PRCC (kısmi sıra korelasyonu) bütün hücr
 | h3_girdi_cikti | geçti | 1,0000 | =1 |
 | kabul_sayisi | geçti | 1000,0000 | >=1000 |
 
-**Azaltılanlar.** Ana koşuda yok: tam ızgara (9120 politika × 7 ufuk), senaryo ve tohum başına 1000 kabul. Yan koşular küçük: 0,25 ızgara yalnız h3 = 6, 250 çekim; Y senaryosu tohum 1, son dönemsiz politikalar. Süre: 287 s (4 süreç; sure.csv).
+**Azaltılanlar.** Ana koşuda yok: tam ızgara (9120 politika × 7 ufuk), senaryo ve tohum başına 1000 kabul. Yan koşular küçük: 0,25 ızgara yalnız h3 = 6, 250 çekim; Y senaryosu tohum 1, son dönemsiz politikalar. Süre: 287 s (sure.csv).
 
 ## 11. Bu çıktı hangi cümleyle sunulmalı
 

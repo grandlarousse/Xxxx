@@ -104,10 +104,12 @@ Kümeler iç içedir (K0 ⊂ K1 ⊂ K2 ⊂ K3). Her K için: kısıtı sağlayan
 
 - Tarihler (bugün 26.11.2026): Virtual OSCE 1 Mart 2027 (95. gün), 20 Mayıs 2027 (175. gün), 22 Kasım 2027 (361. gün); DUS 24 Ekim 2027 (332. gün).
 - Sıralamalar: S1 = OSCE 95 → DUS 332; S2 = OSCE 175 → DUS 332; S3 = DUS 332 → OSCE 361.
-- İki ustalık oranı gD, gN. Bir sınav için yapılan etkili saatin ω kadarı ötekine de yazılır; ω senaryo: 0,2 / 0,4 / 0,6.
-- İngilizce çalışma verim çarpanı eL = 0,83 (ikinci dilde çalışma yaklaşık %20 uzun sürer; Felemenkçe–İngilizce verisi).
-- Dönem başına Virtual OSCE payı: 0, 0,25, 0,5, 0,75, 1.
-- Amaç: Pr(Virtual OSCE geçme) ≥ 0,95 koşuluyla DUS sınav günü P en yüksek. Yorgunluk ortaktır.
+- İki ustalık oranı gD (DUS), gN (Virtual OSCE). Aktarım yönlüdür ve senaryodur (B2 kolunun görüş düzeyindeki tahmini): DUS için yapılan etkili saatin ωDN kadarı gN'ye, Virtual OSCE için yapılanın ωND kadarı gD'ye de yazılır. Senaryolar (düşük / orta / yüksek): ωDN = 0,40 / 0,55 / 0,70; ωND = 0,25 / 0,35 / 0,50.
+- İngilizce çalışma verim çarpanı eL = 0,83 (ikinci dilde çalışma yaklaşık %20 uzun sürer; Felemenkçe–İngilizce verisi). Yalnız Virtual OSCE saatlerine uygulanır.
+- Karar: toplam günlük yük tek sınavlı koşunun sağlam K1, K2 ve K3 politikalarından alınır (yeniden en iyilenmez); en iyilenen, dönem başına Virtual OSCE payıdır: 0, 0,25, 0,5, 0,75, 1. Dönemler: her sınavdan önceki son 30 gün ve geri kalan süre ayrı pay alır.
+- Amaç: Pr(Virtual OSCE geçme) ≥ 0,95 koşulunu çekimlerin en az %90'ında sağlayan paylar içinde DUS sınav günü P en yüksek. Yorgunluk ortaktır; ilk sınavdan sonra 0, 3 ya da 7 gün boş bırakma seçeneği vardır.
+- Başlangıç: gD0 = 0,3; Virtual OSCE açığı (Pgeç − gN0) = 0,05 / 0,15 / 0,30. h3 = 6 ve 7.
+- Raporlanan: her sıralama × ω senaryosu × açık için (1) en iyi paylar, (2) Virtual OSCE'ye giden toplam net saat, (3) DUS P'sinin yalnız DUS'a çalışılan temel koşuya göre kaybı (yüzde ve "kaç günlük çalışmaya denk"), (4) koşulun sağlanamadığı çekim oranı, (5) ω düşükten yükseğe geçince (2) ve (3)'ün ne kadar değiştiği.
 
 ## 10. Bilinen sınırlar
 
