@@ -1,93 +1,145 @@
 # İlişkiye geç başlamak: neden oldu, neden zor, nasıl aşılır
 
-26 Kasım 2026 · Seviye L+ · Profil: 24 yaşında erkek, kadınlarla ilgileniyor, Türkiye'de yaşıyor. Ergenlik yılları ders ve sınavla geçmiş. Zorlandığı üç yer: tanışma fırsatı, ilk adım ve deneyimsizlik utancı.
+26 Kasım 2026 · Seviye L+ · Profil: 24 yaşında, Türkiye'de yaşayan, kadınlarla ilgilenen bir erkek. Ergenlik yılları ders ve sınav odaklı geçmiş. Zorlandığı üç yer: tanışma fırsatı, ilk adım ve deneyimsizlik utancı.
 
 ---
 
 ## 1. Kısa yanıt
 
-- **Durumun azınlıkta ama nadir değil.** Türkiye'deki üniversite örneklemlerinde hiç romantik ilişki yaşamamış öğrencilerin oranı %15–29. Geç başlayanların çoğu birkaç yıl içinde yaşıtlarına yetişiyor. Asıl risk, ilişkisizliğin 20'li yaşların sonuna kadar uzaması.
-- **Şimdiye kadar olmamasının en olası nedeni kişisel bir kusur değil.** Üç etken üst üste binmiş: akademiyi öne koyan bir aile ve çevre, dar bir tanışma ağı, çekingenlik.
-- **Şimdi zorlanmanın nedeni çabanın azlığı değil, biçimi.** Seni kaygı ve kaçınma döngüsü, karşıya geçmeyen ilgi sinyalleri ve "şiddetle" kırma baskısı zorluyor. Bu baskı ilgiyi seçici olmaktan çıkarıyor ve deneyimsizliği gizleme davranışını besliyor. Üstüne, flört uygulamaları erkekler için yapısal olarak verimsiz.
-- **Çözümün üç kolu var:** (1) aynı insanlarla her hafta tekrarlanan karma ortamlar, (2) kaygıyı basamak basamak azaltmak ve açık, tek seferlik teklif yapmak, (3) deneyimsizliği doğru zamanda, kısa ve sakin söylemek. Kaygı ağırsa en güçlü kanıt bireysel bilişsel davranışçı terapide (BDT).
+- **Durumun azınlıkta, ama sandığın kadar yalnız değilsin.** Türkiye'deki üniversite örneklemlerinde (yaklaşık 20–22 yaş) hiç ilişki yaşamamış olanların oranı %15–29. Senin yaşında bu oran daha küçük: ABD'de 25 yaşında hiç 3 aydan uzun ilişki yaşamamış olanlar %9,4. Bu grubun sonradan ne yaşadığını izleyen doğrudan bir veri yok. Ama ilk ilişkiye 23–25 yaşta girenlerde kişilik gelişimi olumlu yönde ilerliyor.
+- **Neden şimdiye kadar olmadı?** Olası etkenler dar bir tanışma ağı, çekingenlik ve beden ya da görünüşle ilgili kaygı. Ailenin ölçülen etkisi küçük, sınav yıllarının etkisi ise hiç ölçülmemiş. Bunun kişisel bir kusur olduğuna dair kanıt yok.
+- **Neden şimdi bu kadar zor?** Kaygı ve kaçınma birbirini besleyen bir döngü kuruyor, ilgi sinyallerin de karşı tarafa sandığın kadar geçmiyor. "Şiddetle" kırma baskısı ilgini seçici olmaktan çıkarabiliyor, deneyimsizliği gizlemek de fırsatları azaltabiliyor. Üstelik flört uygulamaları erkekler için verimsiz bir kanal.
+- **Çözüm dört koldan yürüyor:** aynı insanlarla her hafta tekrarlanan karma ortamlar; korkularını sınayan küçük deneyler; açık ve tek seferlik teklif; utançla baş etmek için konuşmak ve hazır yanıtlar. Kaygı ağırsa en güçlü kanıt bireysel bilişsel davranışçı terapide (BDT).
 
 ---
 
 ## 2. Ne yapmalıyım
 
-**Ana ilke:** "Daha çok uğraşmak" bu sorunu çözmüyor. Çabanın biçimini değiştirmek çözüyor. Aşağıdaki plan 12 haftalık. Sayılar benim önerim; kanıtı 3. bölümde.
+> **Bu hafta**
+> 1. İki düzenli, karma etkinlik seç ve birine git (Adım 2).
+> 2. Güvendiğin bir arkadaşından seni 3–4 kişilik karma bir buluşmaya çağırmasını iste.
+> 3. Telefonunda bir "deney defteri" aç (Adım 1).
+> 4. Her gün biriyle 30 saniye sohbet et: kasiyer, komşu, iş arkadaşı (Adım 3, basamak 0).
+> 5. Bir BDT kitabı edin: *Utangaçlık ve Sosyal Kaygı Çalışma Kitabı*.
 
-### Adım 1. Hedefini değiştir (bu hafta)
+Bu plan kanıtlı tekniklerden uyarlandı, ama bu hâliyle test edilmedi. Sayılar ve örnek cümleler benim önerim. Kanıtlar 3. bölümde.
 
-- "Sevgili bulmalıyım" bir sonuç ve onu kontrol edemezsin. Kontrol edebildiğin süreci hedefle: her hafta kaç yeni kişiyle konuştun, kaç açık teklif yaptın.
-- "Reddedilmeyeyim" diye hareket edenler (kaçınma hedefi), "bağ kurayım" diye hareket edenlere göre daha çok yalnızlık yaşıyor.
-- Telefonunda basit bir tablo tut: tarih, kiminle konuştun, önceden ne kadar kaygı bekledin (0–10), gerçekte ne oldu.
-- Önerdiğim başlangıç: haftada 3 yeni sohbet. 4. haftadan sonra ayda 2 açık teklif.
+### Adım 1. Hedefini ve defterini kur
+
+- **Bağ kurmayı hedefle, reddedilmemeyi değil.** "Reddedilmeyeyim" diye hareket edenler, "bağ kurayım" diye hareket edenlere göre daha çok yalnızlık yaşıyor (3.4). Sonucu değil, kontrol edebildiğin süreci izle.
+- **Deney defteri tut.** Her satırda şunlar olsun: tarih, ne yapacaktın, korktuğun sonuç ve sence olasılığı (%), gerçekte ne oldu, cesaret gösterdin mi, ne öğrendin.
+- **Başlangıç hedefi:** haftada 3 yeni sohbet. Teklif için bir kota yok (Adım 4).
+- **Hedefi tutturamadığın hafta başarısız bir hafta değildir.** Defter seni yargılamak için değil, tahminlerini sınamak için.
 
 ### Adım 2. Tanışma altyapısını kur (1.–2. hafta)
 
-- **İki düzenli etkinlik seç.** Ölçüt şu: haftada ya da iki haftada bir yapılan, hep aynı kişilerle, karma cinsiyetli ve konuşmayı gerektiren bir etkinlik. Kaygı açısından gerekçesi en iyi iki seçenek doğaçlama tiyatro atölyesi ve Toastmasters. Toastmasters topluluk önünde konuşma kulübü; İstanbul, Ankara ve İzmir'de Türkçe ve İngilizce kulüpleri var. Diğer seçenekler: takım sporu ya da koşu grubu, eşli dans kursu, dil değişim buluşmaları, kurslar, gönüllülük.
-- **Tek seferlik etkinlik yetmez.** Gündelik bir arkadaşlık için yaklaşık 50, yakın arkadaşlık için 200 saatten fazla ortak zaman gerekiyor.
-- **Mevcut çevreni kullan.** Türkiye'de ilişkisi olanların %22,4'ü partneriyle arkadaş ortamında tanışmış. Bu, görücü usulünden sonra en büyük kanal. Arkadaşlarınla daha sık buluş. Doğum günü, maç, piknik gibi kalabalık buluşmalara git. Güvendiğin bir-iki kişiye "biriyle tanışmak istiyorum, çevrende uygun biri olursa tanıştırır mısın?" de.
-- **Uygulamayı yan kanal yap, ana kanal değil.** Türkiye'de Tinder kullanıcılarının yaklaşık %80'i erkek (2019). Az eşleşme senin hakkında bir hüküm değil. Profilde en etkili iki kaldıraç birden fazla net fotoğraf ve kısa bir biyografi. Fotoğraflarda iyi ışık, açık ve dik duruş, bakımlı saç ve sakal, üzerine oturan kıyafet olsun. Kendine yakın düzeydeki kişilere yaz. Mesaj metnini mükemmelleştirmeye uğraşma; uzun ya da çok olumlu mesajın getirisi çok küçük.
+- **İki düzenli etkinlik seç.** Ölçüt: haftada ya da iki haftada bir, aynı kişilerle, karma, konuşmayı gerektiren.
+  - **Büyükşehirdeysen:** doğaçlama tiyatro atölyesi ya da Toastmasters (topluluk önünde konuşma kulübü; İstanbul, Ankara ve İzmir'de Türkçe ve İngilizce kulüpleri var). İkisi aynı zamanda kaygı pratiği sağlayabilir, ama yetişkinlerde test edilmedi.
+  - **Her ilde:** Gençlik ve Spor Bakanlığı'nın gençlik merkezleri (2024'te 522 merkez, 12–29 yaş arası gençler üye olabiliyor, ücretsiz). Halk eğitim merkezlerinin hayat boyu öğrenme kursları (ücretsiz; 2023'te kursiyerlerin yaklaşık üçte ikisi kadın). Gönüllülük (TEGV gönüllülerinin %65'i kadın, 2012 basımı bir rapora göre). Karma koşu, doğa yürüyüşü ya da masa oyunu grupları. Dil değişim buluşmaları, eşli dans kursları.
+  - **Halı saha gibi tek cinsiyetli ortamlar** arkadaş ağı için iyi, ama doğrudan tanışma için değil.
+- **Hangi etkinliğin daha iyi olduğunu gösteren karşılaştırmalı bir kanıt yok.** 4 hafta sonra hâlâ karma sohbet fırsatı çıkmadıysa etkinliği değiştir. Oradaki arkadaşlıkları ise "arkadaşın arkadaşı" kanalı olarak koru.
+- **Tek seferlik etkinlik yetmez.** Gündelik bir arkadaşlık yaklaşık 50, yakın bir arkadaşlık 200 saatten fazla ortak zaman istiyor.
+- **Mevcut çevreni kullan.** Arkadaşlarınla daha sık buluş ve kalabalık buluşmalara git. Güvendiğin bir-iki kişiye "çevrende uygun biri olursa tanıştırır mısın?" de.
+- **Değerlerin evlilik odaklıysa** aile ya da güvendiğin tanıdıklar aracılığıyla tanışmak da meşru bir kanal. Aşağıdaki deneyler ve açık iletişim bu yolda da aynen geçerli.
+- **Aileyle yaşıyorsan** ayrıntı vermek zorunda değilsin. "Kursa gidiyorum" demen yeterli.
+- **Sosyal medya gerçek bir kanal.** Gruplarda ve tanıdık çevrede tanıştığın kişilerle teması Instagram'da sürdürebilirsin. Eğitimli bir Türkiye örnekleminde ilişkilerin yarısına yakını çevrim içi başlamış.
+- **Flört uygulamasını yan kanal olarak kullan.** Türkiye'de Tinder kullanıcılarının yaklaşık %80'i erkek (2019). Az eşleşme senin hakkında bir hüküm değil. Profil için:
+  - birden fazla net fotoğraf: iyi ışık, açık ve dik duruş, bakımlı saç ve sakal, üzerine oturan kıyafet
+  - kısa bir biyografi
+  - kendine yakın düzeydeki kişilere yaz
+  - mesaj metnini mükemmelleştirmeye uğraşma
 
-### Adım 3. Kaygı merdiveni (1.–8. hafta)
+### Adım 3. Küçük deneylerle kaygı merdiveni (1.–8. hafta)
 
-Bu merdiven, sosyal kaygının en güçlü kanıtlı tedavisi olan BDT'nin kendi başına uygulanabilen çekirdeği. **Maruz bırakma**, korkulan duruma kademeli ve tekrarlı girmek demek. Her basamağı bir deney gibi yap: önce ne olacağını tahmin et, sonra gerçekte ne olduğunu yaz.
+Her basamak bir deney:
 
-| # | Basamak | Örnek |
-|---|---|---|
-| 1 | Kısa temas | Etkinlikte birine adını sormak, 1–2 dakika konuşmak |
-| 2 | Bağlam içinde kısa sohbet | Kursta, kuyrukta, etkinlikte kadın ya da erkek fark etmeden biriyle |
-| 3 | Uzun sohbet | 10 dakika; takip soruları sor, kendinden de bir şey anlat |
-| 4 | İletişim istemek | "Sohbet güzeldi, numaranı alabilir miyim?" |
-| 5 | Açık teklif | Adım 4'e bak |
+1. Önce korktuğun sonucu yaz ("donup kalırım", "tuhaf bulur") ve olasılığını tahmin et.
+2. Dene.
+3. Sonucu tahmininle karşılaştır.
 
-Bir basamağı 3–4 kez yapıp kaygın belirgin biçimde düşünce bir üstüne geç. Uygularken üç kural var:
+| # | Basamak |
+|---|---|
+| 0 | Kasiyer, komşu ya da iş arkadaşıyla 30 saniyelik sohbet |
+| 1 | Etkinlikte birine adını sormak, 1–2 dakika konuşmak |
+| 2 | Bir grup sohbetine katılmak |
+| 3 | Bağlam içinde (kursta, etkinlikte) tanımadığın biriyle kısa bir sohbet |
+| 4 | 10 dakikalık sohbet: merak et, dinle, kendinden de anlat |
+| 5 | Aynı kişiyle ikinci kez konuşmak |
+| 6 | İletişim istemek (Adım 5) |
+| 7 | Açık teklif (Adım 4) |
 
-1. **Güvenlik davranışlarını bırak.** Güvenlik davranışı, kaygıyı o an yatıştıran ama uzun vadede sürdüren hareketler demek: göz kaçırmak, cümleleri kafada prova etmek, sohbeti kısa kesmek, telefona sığınmak. Kaygılı insanlar bunları yararlı sanıyor. Oysa karşı taraf bu davranışları yapan kişiye daha olumsuz tepki veriyor.
-2. **Dikkatini kendinden al, karşındakine ver.** Ne anlattığına ve yüz ifadesine odaklan.
-3. **Sonucu hissinle değil, olanla değerlendir.** İnsanlar bir sohbetten sonra ne kadar beğenildiklerini sistematik olarak küçümsüyor.
+- **Geçiş ölçütü:** Korktuğun sonuç 3 denemede gerçekleşmediyse, kaygın hâlâ 10 üzerinden 4–5 olsa bile bir üst basamağa geç.
+- **Güvenlik davranışlarını bırak.** Güvenlik davranışı, kaygıyı o an yatıştıran ama sürdüren hareketler demek: göz kaçırmak, sohbet sırasında cümleleri kafada prova etmek, sohbeti kısa kesmek, telefona sığınmak.
+- **Dikkatini kendinden al, karşındakine ver.**
+- **Sonucu hissinle değil, olanla değerlendir.** İnsanlar bir sohbetten sonra ne kadar beğenildiklerini sistematik olarak küçümsüyor.
+- **Video deneyi yap.** Bir arkadaşınla kısa bir sohbet canlandır ve telefonla kaydet. İzlemeden önce dışarıdan nasıl göründüğünü tahmin et, sonra izle ve karşılaştır. Bu, sosyal kaygının en etkili terapisinde kullanılan bir teknik.
+- **Kitapla destekle ve yalnız yürüme.** Rehbersiz programlarda yarıda bırakma riski daha yüksek. Haftada bir ilerlemeni anlatacağın biri olsun. Kanıttaki destek eğitimli kişilerden geliyor. En güçlü kanıt, eğitimli bir terapistle yapılan Clark–Wells terapisinde (3.7).
 
-Bu çalışmayı bir kitapla destekle: Martin Antony ve Richard Swinson'ın *Utangaçlık ve Sosyal Kaygı Çalışma Kitabı* ya da *Sosyal Fobiden Hayata Yolculuk*. Rehbersiz programlarda yarıda bırakma riski daha yüksek. Bu yüzden haftalık ilerlemeni soracak biri olsun: bir arkadaş ya da bir danışman.
+### Adım 4. Açık teklif
 
-### Adım 4. Açık teklif (4. haftadan itibaren)
+- **Ne zaman?** İlgi duyduğun biriyle 2–3 kez iyi sohbet ettiysen bir hafta içinde teklif et. Aynı grupta aynı anda birden fazla kişiye teklif etme. Teklif sayısını değil, teklif etmek isteyip ertelediğin durumları say.
+- **İlgini açıkça söyle.** Reddedilmekten korkan insanlar, ilgi sinyallerinin karşıya gerçekte olduğundan daha açık geçtiğini sanıyor. İki taraf da birbirini bekliyor olabilir.
+- **Eğer–o zaman planı yap.** Teklifini bir duruma bağla: "Perşembe kurstan çıkarken yanımdaysa kahve teklif edeceğim." Bu tür planlar niyeti davranışa çevirmede orta-büyük etki gösteriyor.
+- **Cümleni önceden prova et.** Bir arkadaşınla 2–3 kez sesli prova yap. Önceden sesli prova sağlıklı. Sohbet sırasında kafanda prova yapmak ise bırakman gereken bir güvenlik davranışı.
+- **Sade bir cümle kur.** Örnek: "Seninle bir kahve içmek isterim, perşembe akşamı uygun musun?"
+- **Saygılı, tek bir teklif son derece normaldir.** İlk "hayır"ı kabul etmek hem doğru hem güvenli olandır. Belirsiz yanıt ya da cevapsızlık da "hayır" sayılır. Hiyerarşide üstünde olduğun birine teklif yapma.
+- **Sokakta tanımadığın birine teklif yapmanı önermiyorum.** Bir ortam içinde tanıdığın biri en uygun kişi (3.5).
 
-- **İlgini açıkça söyle.** Reddedilmekten korkan insanlar, ilgi sinyallerinin karşıya gerçekte olduğundan daha açık geçtiğini sanıyor. İki taraf da birbirini bekleyebilir: insanlar kendi çekingenliklerini korkuya, karşı tarafınkini ilgisizliğe bağlıyor.
-- **Sade bir cümle kur.** Örneğin: "Seninle bir kahve içmek isterim, perşembe akşamı uygun musun?" Bar deneylerinde kadınlar doğrudan ya da sıradan açılış cümlelerine, esprili "numara" cümlelerinden daha olumlu yanıt verdi.
-- **Tek teklif yap, sonra bırak.** "Hayır", belirsiz bir yanıt ya da cevapsızlık gelirse konuyu kapat ve normal davranmaya devam et. Kadir Has Üniversitesi'nin sokak tacizi rehberi, ısrarla isim sormayı ve adres istemeyi taciz örnekleri arasında sayıyor. İş yerinde, özellikle hiyerarşi varsa, çok daha dikkatli ol. Rızaya dayalı flört taciz değildir. Ama TCK 105'e göre aynı iş yerinde çalışmanın sağladığı kolaylıktan yararlanılarak işlenen taciz daha ağır cezalandırılıyor.
-- **Sokakta tanımadığın birine teklif yapmanı önermiyorum.** Türkiye'de partnerle AVM, kafe ya da çarşıda tanışma oranı yalnızca %3,4. Kadınların kamusal alanda güvensizlik yaşadığı bir ortam da var. En uygun kişi, bir ortam içinde tanıdığın biri: aynı kurs, kulüp ya da arkadaş çevresi.
-- **Seçici ol.** Hızlı flört çalışmalarında herkese ilgi gösterenlere daha az ilgi döndü. Belirli birine gösterilen ilgi ise karşılık buldu.
+> **Ret gelirse**
+> - **O an:** "Anladım, sorun değil" de, gülümse, konuyu değiştir ya da ayrıl.
+> - **O gün:** Sohbeti kafanda yeniden oynatmaya başladığını fark edersen dur. Bu tekrar oynatma, kaygıyı sürdüren mekanizmalardan biri. 10 dakika yürü ya da başka bir işe geç. Aynısını yaşayan bir arkadaşına ne söylerdin? Aynı cümleyi kendine söyle.
+> - **Deftere:** "Cesaret gösterdim" yaz.
+> - **Sonraki hafta:** Aynı ortama dön ve normal davran.
 
-### Adım 5. Buluşmada
+### Adım 5. İletişim ve mesajlaşma
 
-- Soru sor, özellikle takip sorusu. Kendini de adım adım aç: karşılıklı ve giderek derinleşen kendini açma, yakınlık üretiyor.
-- Nezaket, anlayış ve mizah, kültürden kültüre en çok aranan özellikler arasında.
-- Umursamaz görünme, "zor ulaşılır" oynama. Karşı taraf henüz bağlanmamışken bu hem ilgiyi hem beğeniyi düşürüyor. Karşındakini küçümseyerek ilgi çekmeye çalışmak (negging) ise sıradan tanışma cümlelerinden daha zararlı algılanıyor.
-- İnsanlar gerçek bir teklifi reddetmekte, tahmin ettiklerinden daha çok zorlanıyor. Kabul kısmen nezaketten gelebilir. Bu yüzden ilk buluşmayı bir sınav olarak görme; ilginin karşılıklı olup olmadığını anlamanın bir yolu olarak gör.
+Bu bölüm deneyime dayalı bir öneri. Türkiye için veri bulunamadı.
 
-### Adım 6. Deneyimsizlik ve yakınlık
+- Numara istemek ağır geliyorsa "Instagram'da var mısın?" diye sor.
+- Aynı gün ya da ertesi gün kısa bir mesaj at.
+- 2–3 mesajdan sonra somut bir buluşma öner. Uzun yazışma kaygıyı büyütür.
+- Geç gelen yanıt ret değildir. İki mesajın üst üste yanıtsız kalırsa bırak.
 
-- **İlk buluşmalarda deneyimsizliğini açıklamak zorunda değilsin.** Bir deneyde aynı kişisel itirafı sohbetin başında yapan kişi, sonunda yapandan daha az beğenildi.
-- **Fiziksel yakınlık yaklaşınca kısa, sakin ve olgusal söyle; itiraf ya da özür tonunda değil.** Örnek: "Bu konuda deneyimim az. Acele etmeden, keyifle ilerlemek isterim." Bu öneri genel kendini açma araştırmasından çıkardığım bir sonuç; doğrudan test edilmedi.
-- **Rızayı sözle netleştir:** "Böyle iyi mi?", "Devam edelim mi?" Erkekler karşı tarafın cinsel ilgisini abartmaya yatkın, ve bu büyük ölçüde kendi ilgisini karşı tarafa yansıtmaktan geliyor. Sözlü kontrol rızayı açık tutar. Tahmin etme yükünü de üstünden kaldırır.
-- **İlk deneyimlerde ereksiyon zorluğu sık görülür ve çoğu erkekte zamanla geçer.** Beklentini düşük tut, aşama aşama ilerle. Sorun sürerse Cinsel Eğitim Tedavi ve Araştırma Derneği'nin (CETAD) sitesindeki "Cinsel Terapistler" bölümüne bak.
+### Adım 6. Buluşmada
 
-### Adım 7. Paralel: beden ve zihin
+- **Merak et, dinle, kendinden de anlat.** Soruları sorgu gibi art arda dizme. Takip sorusunun ikinci buluşmayı artırdığı bulgusu erkeklerde tartışmalı (3.7).
+- **Nezaket, anlayış ve mizah** kültürden kültüre en çok aranan özellikler arasında.
+- **Oyun oynama.** Umursamaz görünmek ya da "zor ulaşılır" oynamak, karşı taraf henüz bağlanmamışken hem ilgiyi hem beğeniyi düşürüyor. Karşındakini küçümseyerek ilgi çekmeye çalışmak (negging) ise daha zararlı algılanıyor.
+- **İlk buluşma bir sınav değil.** Kabul kısmen nezaketten gelebilir. Buluşma, ilginin karşılıklı olup olmadığını anlamanın bir yolu.
 
-- **Haftada 3 gün kuvvet antrenmanı yap.** Egzersiz beden imajını küçük ama gerçek ölçüde iyileştiriyor. Bu iyileşme kas gelmeden, algıyla başlıyor. Erkek beden çekiciliğini en çok algılanan fiziksel güç açıklıyor, ve bu değiştirilebilir bir şey.
-- **Sosyal medyada seni başkalarıyla kıyaslatan içerikleri azalt.** Sosyal medyayı günde 1 saate indirmek, 3 haftada gençlerin görünüşleri hakkındaki duygularını iyileştirdi.
-- **"Blackpill", "80/20", "görünüş her şeydir" içeriklerinden uzak dur.** Bekâr erkekler, kendini insel (istemsiz bekâr) sayanlar da saymayanlar da, kadınların görünüşe ve paraya verdiği önemi abartıyor; nezaket ve mizahı küçümsüyor. Kendini insel sayan erkeklerde depresyon, kaygı ve yalnızlık belirgin biçimde daha yüksek.
+### Adım 7. Utanç ve deneyimsizlik
 
-### Adım 8. Ölç, gerekirse destek al
+- **Durumunu güvendiğin bir arkadaşına ya da bir danışmana bir kez anlat.** Gizlemenin yükü çoğu zaman durumun kendisinden ağırdır (3.4).
+- **Arkadaş ortamı için hazır bir yanıtın olsun.** "Kaç kişiyle oldun?" sorusuna: "Ben o konuda acele etmeyenlerdenim." Sonra konuyu değiştir. Yalan söylemek ya da gruptan çekilmek zorunda değilsin.
+- **"Deneyimsizim, demek ki bende bir kusur var" düşünceni yaz.** Sonra 3.1 ve 3.6'daki verilerle karşılaştır. Bu, düşünceleri kanıtla sınama tekniği; BDT'nin temel araçlarından biri.
+- **Partnere ne zaman söylemeli?** İlk buluşmalarda söylemek zorunda değilsin. Fiziksel yakınlık yaklaşınca kısa, sakin ve olgusal söyle; itiraf ya da özür tonunda değil. Örnek: "Bu konuda deneyimim az. Acele etmeden, keyifle ilerlemek isterim." Kesin bir doğru zaman yok. Küçük bir görüşme çalışmasında katılımcılar hem açıklamayı hem saklamayı riskli buldu.
+- **Fiziksel yakınlık senin ve karşındakinin değerleriyle uyumluysa:**
+  - Rızayı sözle netleştir: "Böyle iyi mi?", "Devam edelim mi?" Bu hem rızayı açık tutar hem de tahmin etme yükünü kaldırır.
+  - Korunmayı (prezervatif) önceden planla.
+  - İlk deneyimlerde ereksiyon zorluğu sık görülür ve çoğu erkekte zamanla geçer. Sorun sürerse Cinsel Eğitim Tedavi ve Araştırma Derneği'nin (CETAD) sitesindeki "Cinsel Terapistler" bölümüne bak.
 
-- 12. haftada tablona bak: sohbet sayın arttı mı? Kaygı tahminlerin gerçekleşti mi?
-- **Şu durumlardan biri varsa BDT çalışan bir uzmana git:** kaygı iş, okul ya da arkadaşlıklarını da bozuyorsa; 4–6 hafta kitapla ilerleyemediysen; uzun süren bir çökkünlük ya da umutsuzluk varsa. Kendine zarar verme düşüncesi olursa beklemeden 112'yi ara.
-- **Ücretsiz ya da ucuz başlangıç noktaları:**
-  - Aile ve Sosyal Hizmetler Bakanlığı'nın 81 ildeki birimlerinde ücretsiz bireysel danışmanlık (çevrim içi pilot 7 ilde, psikodestek.aile.gov.tr)
-  - Öğrenciysen üniversitenin psikolojik danışma merkezi
-  - Değerlendirme için devlet hastanesinde psikiyatri randevusu (MHRS)
-- **Ücretli terapist seçerken** Sağlık Bakanlığı lisansını ve sosyal kaygıda BDT deneyimini sor (Clark–Wells modeli). Türkiye'de "psikolog" unvanı yasal koruma altında değil.
+### Adım 8. Beden ve zihin
+
+- **Haftada 3 gün kuvvet antrenmanı yap.** Beden imajındaki iyileşme kas gelmeden, algıyla başlıyor. Amaç aşırı kas değil: bir çalışmada en çekici bulunan orta düzey kaslılıktı.
+- **Seni başkalarıyla kıyaslatan sosyal medya içeriklerini azalt.**
+- **"Blackpill", "80/20", "görünüş her şeydir" içeriklerinden uzak dur.** Bu içeriklerin zarar verdiği doğrudan test edilmedi. Ama kadınların tercihleri hakkında yanlış bir tablo çiziyorlar (3.6). Bu toplulukta kendini insel (istemsiz bekâr) sayan erkeklerde depresyon ve yalnızlık daha yüksek.
+
+### Adım 9. Ölç, gerekirse destek al
+
+- **12. haftada defterine bak.** Sohbet sayın arttı mı? Korktuğun sonuçlar ne sıklıkla gerçekleşti?
+- **Bir uzmana git, eğer:**
+  - kaygı iş, okul ya da arkadaşlıklarını da bozuyorsa
+  - 0. ya da 1. basamağı bile yapamıyorsan
+  - panik atakların varsa
+  - sosyal ortama girmek için alkole ihtiyaç duyuyorsan
+  - 2 haftadan uzun süredir çoğu gün çökkünsen
+  - 4–6 hafta kitapla ilerleyemediysen
+- **Kriz:**
+  - Kendine zarar verme planın ya da niyetin varsa hemen 112'yi ara ya da en yakın acile git.
+  - Plan olmadan sık gelen "ölsem de olur" düşüncelerin varsa bu hafta bir psikiyatriste git (MHRS, Alo 182) ve güvendiğin birine söyle.
+- **Kime gidebilirsin?**
+  - Ücretsiz başlangıç: Aile ve Sosyal Hizmetler Bakanlığı'nın ücretsiz bireysel danışmanlığı (81 il) ya da öğrenciysen üniversitenin psikolojik danışma merkezi.
+  - Ücretli destek: bir psikiyatrist ya da klinik psikolog. Klinik psikolog unvanı klinik psikoloji yüksek lisansı gerektiriyor. Sosyal kaygıda BDT eğitimi olup olmadığını sor (3.8).
 
 ---
 
@@ -100,198 +152,219 @@ Bu çalışmayı bir kitapla destekle: Martin Antony ve Richard Swinson'ın *Uta
 | Türkiye, ilk evlenme yaşı (erkek) | 28,3 (2024), 28,5 (2025) |
 | Türkiye, erkeklerin baba evinden ayrılma yaşı | 29,9 (2024; AB erkek ortalaması 27,0) |
 | Türkiye, 25–29 yaş erkeklerde ebeveyniyle yaşayan | %62,2 (2024; AB %47,2) |
-| Türk üniversitelilerde hiç romantik ilişki yaşamamış | %28,6 (n=957, 2010–11) |
-| Türk üniversitelilerde henüz flört etmemiş | %14,7 (n=300, 2015) |
-| Düzce, sağlık bilimleri öğrencileri (ort. 21 yaş), flört ilişkisi bildiren | %50,5 (n=313) |
-| Bir tıp fakültesinde cinsel deneyim bildiren erkek öğrenci | %43,5 (n=166) |
+| Akdeniz'de bir devlet üniversitesi, hiç romantik ilişki yaşamamış | %28,6 (n=957, iki cinsiyet, 2010–11) |
+| Çukurova Üniversitesi, henüz flört etmemiş | %14,7 (n=300, 2015) |
+| Bir tıp fakültesi, cinsel deneyim bildiren erkek öğrenci | %43,5 (erkek alt örneklem yaklaşık 62 kişi) |
 | İstanbul, eşinin evlenirken bakir olduğunu söyleyen evli kadın | %52,75 (n=400) |
+| ABD, 25 yaşında hiç 3 aydan uzun ilişki yaşamamış | %9,4 (n=511) |
 | ABD, 18–24 yaş erkekte son bir yılda cinsel etkinlik yok | %18,9 → %30,9 (2000–02 → 2016–18) |
-| ABD, Z kuşağı erkeklerde ergenlikte hiç ilişki yaşamamış | %44 (2024) |
-| Japonya, 18–39 yaş erkekte heteroseksüel deneyimsizlik | %20,0 → %25,8 (1992 → 2015) |
 
-"Yaşıtlarımın hepsi deneyimli" algısı veriyle desteklenmiyor. Ama çoğunluk 21–22 yaşına kadar en az bir ilişki yaşamış görünüyor. Doğru çerçeve şu: azınlıktasın, ama kalabalık bir azınlıkta, ve bu gecikme kapatılabilir. Türkiye için ulusal düzeyde temsilî bir "hiç ilişki yaşamamış" oranı yok. Tablodaki Türkiye verileri küçük ve temsilî olmayan örneklemlerden geliyor.
+"Yaşıtlarımın hepsi deneyimli" algısı veriyle desteklenmiyor. Yine de 20'li yaşların başında çoğunluk en az bir ilişki yaşamış görünüyor. Türkiye için ulusal düzeyde temsilî bir "hiç ilişki yaşamamış" oranı yok. Tablodaki Türkiye verileri küçük ve temsilî olmayan örneklemlerden geliyor.
 
 ### 3.2 Geç başlayanlar yetişiyor mu?
 
-Çoğunlukla evet, ama gecikmeyle.
+Kanıt umut verici, ama senin yaşına doğrudan uymuyor.
 
-- **ABD'de 18–25 yaş arası 511 kişi izlendi.** En büyük grup "geç katılım" grubuydu (%28,4); bu gruptakiler ilk ilişkiye 2–3 yıl gecikmeyle girdi. 25 yaşında hâlâ 3 aydan uzun bir ilişki yaşamamış olanlar %9,4. Yazarlara göre gecikme ancak ilişkiden ve diğer gelişim görevlerinden tamamen uzak durmayı yansıtıyorsa sorun olabilir.
-- **ABD'deki Add Health verisinde** 18 yaşına kadar cinsel deneyimi olmayanların yalnızca 8'de 1'inden biraz fazlası 28,5 yaşında hâlâ deneyimsizdi.
-- **Almanya'da** ilişki deneyimi olmayan genç yetişkinler 4 yıl izlendi. İlk ilişki yaşam doyumunu artırdı. İlk ilişki 23–25 yaşta yaşanınca öz-saygı ve dışadönüklük arttı, nevrotiklik (kaygıya yatkınlık) azaldı. Bu, tam senin yaş aralığın.
-- **Kardeşleri karşılaştıran bir çalışmada** cinsel başlangıcı geç olanlar daha az evlenmişti ve daha az partnerleri olmuştu. Ama evli ya da partneriyle yaşayanlar arasında ilişki memnuniyetsizlikleri daha düşüktü.
-- **Almanya'daki temsilî bir örneklemde** ergenlikte hiç ilişki yaşamamış olanlar %22. Benlik saygısı ve depresyon ergenlikteki ilişki deneyiminden bağımsız çıktı; geç başlayanlar diğer gruplardan farksızdı. Ama hiç ilişkiye girmeden bekâr kalmaya devam edenler daha yalnızdı ve genç yetişkinlikte yaşam doyumları daha düşüktü.
-- **2026'da 17 binden fazla gençle yapılan bir çalışmada** iyi oluş farkı ergenlikte çok küçüktü ve bekârlık uzadıkça açıldı. Burada iki grup karşılaştırıldı: sonradan ilişkiye girenler ve hep bekâr kalanlar. İlk ilişki yaşam doyumunu artırdı ve yalnızlığı azalttı.
+- **ABD, 511 kişi (18–25 yaş):** En büyük grup "geç katılım" grubuydu (%28,4); bu gruptakiler ilk ilişkiye 2–3 yıl gecikmeyle girdi. Ama grubun yaklaşık üçte biri 25 yaşına kadar hiç ilişkiye girmedi. 25 yaşında evli olanların oranı da en düşük bu grupta.
+- **ABD, Add Health:** 18 yaşına kadar cinsel deneyimi olmayanların yalnızca 8'de 1'inden biraz fazlası 28,5 yaşında hâlâ deneyimsizdi. Bu oranın başlangıç noktası 18 yaş; senin durumundan farklı.
+- **Almanya, temsilî pairfam örneklemi:** Ergenlikte hiç ilişki yaşamamış olanlar %22. Buradaki "geç başlayanlar" ilk ilişkiye ortalama 17,7 yaşında başlamış ve diğer gruplardan farksız. Senin durumun daha çok "hep bekâr kalanlar" grubuna benziyor. Bu grup daha yalnızdı, genç yetişkinlikte yaşam doyumu biraz daha düşüktü (d=-0,27) ve son ölçümde biraz daha depresifti (d=0,30). Etkiler küçük ve nedensellik kurulamıyor.
+- **Almanya'da ilişki deneyimi olmayan genç yetişkinler 4 yıl izlendi:** İlk ilişki yaşam doyumunun artmasıyla birlikte görüldü. İlk ilişki 23–25 yaşta yaşanınca öz-saygı ve dışadönüklük arttı, nevrotiklik (kaygıya yatkınlık) azaldı.
+- **2026, 17 binden fazla genç:** Sonradan ilişkiye girenlerle hep bekâr kalanlar arasındaki iyi oluş farkı ergenlikte çok küçüktü, bekârlık uzadıkça açıldı. İlk ilişki daha yüksek yaşam doyumu ve daha az yalnızlıkla ilişkiliydi; depresif belirtilerde ise değişiklik görülmedi. Bu bağ iki yönlü olabilir: düşük iyi oluş da ilişkiye girmeyi zorlaştırıyor.
+- **Kardeşleri karşılaştıran bir çalışma:** Cinsel başlangıcı geç olanlar daha az evlenmişti, ama evli ya da partneriyle yaşayanların ilişki memnuniyetsizliği daha düşüktü.
 
-Sonuç olarak şimdi harekete geçmek kanıtla uyumlu. Gecikme kendiliğinden kapanmıyor, ama kapanabiliyor.
+Sonuç: harekete geçmek için şimdi doğru zaman. Gecikme kendiliğinden kapanmıyor, ama kapanabilir.
 
 ### 3.3 Neden şimdiye kadar olmadı?
 
-Tek bir neden yok. Senin profiline uyan üç etken var.
+Etkenlerin birbirine göre ağırlığını ölçen bir çalışma yok. Senin profiline uyan dört etken var.
 
-**(a) Akademik odak ve aile çevresi**
-
-- **Zekâ ve gecikme.** ABD'de ergenlerle yapılan bir çalışmada yüksek zekâ, el tutmaktan cinsel ilişkiye kadar bütün eşli etkinliklerin ertelenmesiyle ilişkili çıktı. İkiz verisi bu zekâ bağının kişinin kendisinden değil, aileler arasındaki çevre farklarından geldiğini gösterdi; akademik başarıyla olan bağı ise genetik etkenlere bağladı. Yani gecikme "zeki olduğun için" değil, büyük ölçüde ailenin ve çevrenin özelliklerinden kaynaklanıyor olabilir.
-- **Uzun bekârlığın yordayıcıları.** Almanya ve İngiltere'den 17 binden fazla gençle yapılan 2026 çalışmasında üç özellik daha uzun süre bekâr kalmayı yordadı: erkek olmak, yüksek eğitim, yalnız ya da ebeveynle yaşamak. Bu profil sana büyük ölçüde uyuyor.
-- **Sınav yılları.** PISA 2015'te Türk öğrencilerin %58,8'i, iyi hazırlansa bile sınavda çok kaygılandığını söyledi. YKS'de dereceye girmiş 23 tıp öğrencisiyle görüşüldü. Hazırlık yılında günde ortalama yaklaşık 8 saat çalışmışlardı ve yalnızca 5'i sosyal etkinliklerini sürdürmüştü. Bu uç bir örneklem.
-- **Sınavın etkisi ölçülmemiş.** Sınav yoğunluğunun flörtü geciktirdiğini doğrudan ölçen bir Türkiye çalışması yok. Türkiye PISA verisinde haftada 60 saatten fazla çalışmak düşük yaşam memnuniyetiyle ilişkili çıkmadı; ilişkili olan kaygıydı. Yani sınav yılları muhtemelen hem zamanını hem kaygı düzeyini etkiledi. Zaman sorunu geride kaldı, ama kaygı alışkanlığı sürüyor olabilir.
-- **Aile tutumunun etkisi küçük.** Erzincan'da 413 üniversiteliyle yapılan bir çalışmada annenin iki tutum boyutu, flört kaygısındaki farkların yaklaşık %11'ini açıkladı. 172 Türk ergenle yapılan başka bir çalışmada flört etmemeyi iki şey yordadı: annenin flörte bakışı ve beden görünüşüyle ilgili kaygı. Babanın tutumu ve genel sosyal kaygı yordamadı.
-
-**(b) Tanışma ağı**
+**(a) Dar tanışma ağı**
 
 - Partner bulmak önce karşılaşmayı gerektiriyor. Kimlerle karşılaşacağını okul, iş, dernek ve aile ağları belirliyor.
-- Türkiye'de flört kurumsallaşmış değil. 2021'de evliliklerin %56,8'i görücü usulüyle yapıldı. Ama üniversite mezunlarının %71,7'si kendi kararıyla ve ailesinin rızasıyla evlendi.
-- Partneriyle nerede tanıştığı sorulduğunda (Metropoll 2020, evli ya da ilişkisi olan herkes): görücü usulü %49, arkadaş ortamı %22,4, iş yeri yaklaşık %8, okul %5,4, sosyal medya %2,2.
-- Senin grubunda eşini kendin seçmek baskın, ama bunun kanallarını da kendin kurmak zorundasın. Sınav yıllarında bu kanallar kurulmadıysa bugünkü "çevrem dar" durumu buradan geliyor.
+- Türkiye'de 2021'de evliliklerin %56,8'i görücü usulüyle yapıldı. Üniversite mezunlarında ise %71,7 kendi kararıyla, ailesinin de rızasıyla evlendi.
+- Partneriyle nerede tanıştığı sorulduğunda (Metropoll 2020, her yaştan evli ya da ilişkisi olan kişi): görücü usulü %49, arkadaş ortamı %22,4, iş yeri yaklaşık %8, okul %5,4, sosyal medya %2,2.
+- Eğitimli ve daha genç bir örneklemde (Özyeğin Üniversitesi 2019, yaklaşık 546 ilişki) ilişkilerin yarısına yakını çevrim içi başlamış: 165'i sosyal medyada, 95'i uygulamada.
+- Senin grubunda eşini kendin seçmek yaygın, ama bu kanalları kendin kurmak zorundasın. Sınav yıllarında kurulmadılarsa "çevrem dar" durumu buradan geliyor olabilir.
 
-**(c) Çekingenlik ve "geride kalma" duygusu**
+**(b) Çekingenlik**
 
-- ABD'de istemsiz bekârlarla (82 kişi, nitel çalışma) yapılan bir çalışmada, hiç deneyimi olmayanların %94'ü utangaçlık bildirdi; partneri olanlarda bu oran %20'ydi. Deneyimsizlerin %91'i ergenlikte hiç flört etmemişti. Ana tema "zamanının gerisinde kalma" duygusuydu. Bu duygu yaşla kötüleşiyor ve bekârlığı sürdürüyordu.
-- Türkiye'de 19 yaşından önce flört etmemiş üniversitelilerin ilişki başlatma yetkinliği daha düşük çıktı. Çalışma tek bir zaman noktasında yapıldığı için neden-sonuç ilişkisi kurulamıyor.
+- İstemsiz bekârlarla yapılan bir ABD çalışmasında hiç deneyimi olmayanların %94'ü utangaçlık bildirdi. Cinselliğin olmadığı bir ilişkisi olan istemsiz bekârlarda bu oran %20'ydi. Örneklem 82 kişi, çevrim içi bir gruptan toplanmış.
+- Deneyimsizlerin %91'i ergenlikte hiç flört etmemişti. Ana tema "zamanının gerisinde kalma" duygusuydu; bu duygu yaşla kötüleşiyor ve bekârlığı sürdürüyordu.
+- Çukurova'da henüz flört etmemiş öğrencilerin, ilişki başlatma konusunda kendilerini daha az yetkin gördükleri bulundu (19 yaşından önce flört etmeye başlayanlara göre). 20 yaşından sonra başlayanlarla aralarında ise fark yoktu.
+
+**(c) Beden ve görünüşle ilgili kaygı**
+
+- 172 Türk ergende flört etmemeyi beden görünüşüyle ilgili kaygı ve annenin flörte bakışı yordadı. Genel sosyal kaygı, babanın tutumu ve cinsiyet yordamadı.
+- Bu, Türkiye'den en yakın nicel bulgu. Bu etken değiştirilebilir (Adım 8).
+
+**(d) Aile ve sınav yılları: ölçülen etki küçük ya da hiç ölçülmemiş**
+
+- **Zekâ ve ertelenme:** ABD'de yaklaşık 300 ergenle yapılan bir çalışmada, kelime testiyle ölçülen yüksek zekâ eşli etkinliklerin ertelenmesiyle ilişkili çıktı. İkizlerle yapılan çalışmada ilk cinsel ilişki yaşıyla zekâ arasındaki bağ, ölçülmemiş aile farklarından geliyordu; bu farkların ne olduğu bilinmiyor. Akademik başarıyla olan bağ ise genetik etkenlerden geliyordu.
+- **2026, 17 binden fazla genç:** Daha uzun bekârlıkla dört özellik ilişkiliydi: erkek olmak, yüksek eğitim, yalnız ya da ebeveynle yaşamak, düşük iyi oluş.
+- **Aile tutumu:** Erzincan'da 413 üniversitelide annenin beş tutum boyutu birlikte, flört kaygısındaki farkların yaklaşık %11'ini açıkladı. Babanınki %7'ydi. İkisi de küçük etki.
+- **Sınav yılları:** PISA 2015'te Türk öğrencilerin %58,8'i iyi hazırlansa bile sınavda çok kaygılandığını söyledi. 2023 YKS'de ilk 10.000'e girmiş 23 tıp öğrencisi hazırlık yılında günde ortalama yaklaşık 8 saat çalıştığını anlattı; yalnızca 5'i sosyal etkinliklerini sürdürdüğünü özellikle belirtti.
+- **Sınavın etkisi ölçülmemiş:** Sınav yoğunluğunun flörtü geciktirdiğini doğrudan ölçen bir Türkiye çalışması yok. Türkiye PISA verisinde yaşam memnuniyetiyle ilişkili olan çalışma saati değil, kaygıydı.
 
 **Düzeltme: "Ergenlikte kaçırdığım becerileri artık kazanamam" doğru değil.**
 
 - Ergenlikte flört etmeyenlerin sosyal becerisi iyi, depresyonu düşük bulundu.
-- Romantik ilişki ergenlikte daha kötü uyumla, genç yetişkinlikte ise daha iyi uyumla ilişkili çıktı.
-- İlişki becerileri iki oturumluk bir eğitimle bile ölçülebilir biçimde gelişti (154 kişi, randomize). Tek oturumluk bir dijital programda ise fark çıkmadı.
+- Romantik ilişki ergenlikte daha kötü uyumla, genç yetişkinlikte ise daha iyi uyumla ilişkiliydi.
+- İlişki becerileri iki oturumluk bir eğitimle ölçülebilir biçimde gelişti (154 kişi, randomize). Tek oturumluk dijital bir programda ise fark çıkmadı.
 
 ### 3.4 Neden şimdi bu kadar zor?
 
-Beş mekanizma birbirini besliyor.
+**1. Kaçınma, güvenlik davranışları ve sonradan tekrar oynatma**
 
-**1. Kaçınma ve güvenlik davranışları**
-
-- Sosyal kaygının bilişsel modeline göre (Clark–Wells) kişi konuşurken kendini izliyor. Bu olumsuz düşünceleri artırıyor, performansı bozuyor ve korkuyu çürütecek bilgiyi görmeyi engelliyor.
-- Kaygılı insanlar güvenlik davranışlarını yararlı sanıyor. Ama bu davranışları kullanana karşı taraf daha olumsuz tepki veriyor.
-- Randomize bir çalışmada bu davranışları bırakmak, kişinin kendi performansını daha doğru ve daha az olumsuz değerlendirmesini sağladı.
+- Sosyal kaygının bilişsel modeline (Clark–Wells) göre kişi konuşurken kendini izliyor. Bu, olumsuz düşünceleri artırıyor, performansı bozuyor ve korkuyu çürütecek bilgiyi görmeyi engelliyor.
+- Kaygılı insanlar güvenlik davranışlarını yararlı sanıyor. Ama bu davranışları kullanan kişiye karşı taraf daha olumsuz tepki veriyor.
+- İki randomize laboratuvar deneyinde (50 ve 80 kişi, tek oturum) güvenlik davranışlarını azaltıp maruz kalmak, yalnızca maruz kalmaya göre kişinin kendi performansını daha doğru ve daha az olumsuz değerlendirmesini sağladı.
+- Sohbeti sonradan kafada tekrar tekrar oynatmak (olay sonrası işleme), kaygıyı sürdüren mekanizmalardan biri sayılıyor.
 
 **2. Yanlış tahminler**
 
 - **Beğenilme açığı:** İnsanlar bir sohbetten sonra karşı tarafın kendilerini ne kadar sevdiğini sistematik olarak küçümsüyor.
-- **Abartılı korku:** Yabancıyla konuşma korkuları abartılı. 7 çalışmayı ve 2.304 kişiyi kapsayan bir analizde konuşmalar beklenenden iyi geçti. Türkiye'de de yabancıyla sohbet olağan: KONDA 2022'de her 100 kişiden 50'si son bir haftada tanımadığı biriyle sohbet başlatmıştı.
+- **Abartılı korku:** Yabancıyla konuşma korkuları abartılı. 7 çalışmalık bir analizde (2.304 kişi) konuşmalar beklenenden iyi geçti. Türkiye'de de bu olağan bir şey: KONDA 2022'de her 100 kişiden 50'si son bir haftada tanımadığı biriyle sohbet başlatmıştı.
 - **Görünmez sinyaller:** Reddedilme korkusu yüksek olanlar, ilgilerinin karşı tarafa gerçekte olduğundan daha açık geçtiğini sanıyor.
-- **Karşılıklı bekleme:** İki taraf da birbirini bekliyor olabilir. İnsanlar kendi çekingenliklerini korkuya, karşı tarafınkini ilgisizliğe bağlıyor.
-- **"Evet" olasılığının küçümsenmesi:** İnsanlar doğrudan bir ricaya "evet" denme olasılığını yarıya varan oranda küçümsüyor (bu bulgu yardım ricalarıyla ilgili, buluşma teklifiyle değil). 1978 ve 1982'de ABD'de bir üniversite kampüsünde yapılan deneylerde kadınların %50'si tanımadığı bir erkeğin buluşma teklifine evet dedi. Bu oran bugüne ve Türkiye'ye aktarılamaz; yalnızca beklentinin aşırı karamsar olabileceğini gösteriyor.
-- **Sınır:** Sosyal acıyı o an yaşamayanlar, onun ne kadar şiddetli olduğunu küçümseyebiliyor. Yani ret acıtmaz demiyorum. Araştırmalar insanların olumsuz olaylara tepkilerinin ne kadar süreceğini abarttığını gösteriyor.
+- **İki taraf da bekliyor:** İnsanlar kendi çekingenliklerini korkuya, karşı tarafınkini ilgisizliğe bağlıyor.
+- **"Evet" olasılığı küçümseniyor:** İnsanlar doğrudan bir ricaya "evet" denme olasılığını yarıya varan oranda küçümsüyor. Bu bulgu buluşma teklifinden değil, yardım ricalarından geliyor. 1978 ve 1982'de ABD'de bir üniversite kampüsündeki deneylerde kadınların %50'si tanımadığı bir erkeğin buluşma teklifine evet dedi. Bu oran bugüne ve Türkiye'ye aktarılamaz.
+- **Sınır:** Sosyal acıyı o an yaşamayanlar onun şiddetini küçümseyebiliyor. Yani ret acıtmaz demiyorum. İnsanların olumsuz olaylara tepkilerinin ne kadar süreceğini abarttığını söylüyorum.
 
 **3. "Şiddetle kırma" baskısı**
 
-- Hızlı flörtte herkese ilgi duyanlara daha az ilgi döndü. Belirli birine gösterilen ilgi ise karşılık buldu.
-- Bekâr kalma korkusu standartları düşürüyor. Çevrim içi profilde bu korku fark ediliyor ve çekiciliği azaltıyor. Yüz yüze hızlı flörtte ise karşı tarafın ilgisini etkilemedi.
-- Yani istekli olmak sorun değil. Sorun, herkese yönelen, seçici olmayan ve kaygıyla dolu bir istek.
+- Hızlı flörtte herkese ilgi duyanlara daha az ilgi döndü. Belirli birine gösterilen ilgi ise karşılık buldu (korelasyonel).
+- Bekâr kalma korkusu daha az seçici davranmakla ilişkili. Çevrim içi profilde bu korku fark ediliyor ve çekiciliği azaltıyor. Yüz yüze hızlı flörtte ise karşı tarafın ilgisini etkilemedi.
+- "Reddedilmemek" ve "yalnız kalmamak" gibi kaçınma hedefleri daha fazla yalnızlıkla ilişkili. "Bağ kurmak" gibi yaklaşma hedefleri ise daha az yalnızlıkla ilişkili.
+- Yani istekli olmak sorun değil. Sorun herkese yönelen, seçici olmayan ve kaygıyla dolu bir istek.
 
 **4. Utanç ve gizleme**
 
-- Danimarka'da cinsel deneyimi geç başlamış 12 kişiyle görüşmeler yapıldı. Dışlanmışlık, yalnızlık, utanç ve düşük benlik saygısı anlatıldı.
-- Gizleme stratejileri de görüldü: küçük yalanlar, cinsellik konuşulan gruplardan çekilmek.
-- Gizlemek için gruptan çekilmek, tam da ihtiyacın olan fırsatları azaltıyor.
+- Danimarka'da cinsel deneyimi geç başlamış 12 kişiyle görüşmeler yapıldı. Görüşmelerde dışlanmışlık, yalnızlık, utanç ve düşük benlik saygısı anlatıldı.
+- Katılımcılar gizleme stratejileri de kullanıyordu: küçük yalanlar söylemek, cinselliğin konuşulduğu gruplardan uzak durmak.
+- Gizlemek için gruptan çekilmek, ihtiyaç duyulan fırsatları azaltabilir.
 
 **5. Yanlış kanal**
 
-- Uygulamalar erkekler için yapısal olarak zor (3.5). Uygulamadan sonuç alamamak "bende bir sorun var" düşüncesini besliyor.
+- Uygulamalar erkekler için yapısal olarak zor (3.5). Sonuç alamamak "bende bir sorun var" düşüncesini besleyebilir.
 
-### 3.5 Uygulamalar ve görünüş
+### 3.5 Uygulamalar, görünüş ve Türkiye'de tanışma normları
 
 **Sık anılan "%0,6" bulgusu**
 
-- Bu oran Londra'da yapılmış bir deneyden geliyor: 14 kurgu profil, tek fotoğraf, biyografi yok. Bu eşleşmelerin büyük kısmı da başka erkeklerdendi. Yani ortalama erkeği değil, en kötü durumu gösteriyor.
-- Aynı çalışmanın gerçek bir profille yapılan kısmında tek fotoğraf yerine 3 fotoğraf kullanıldı. Eşleşme 4 saatte 44'ten 238'e çıktı.
-- Kısa bir biyografi ("merhaba, Londralıyım") eklemek kadınlardan gelen eşleşmeyi 16'dan 69'a çıkardı.
+- Bu bulgu Londra'da 14 deney profiliyle yapılmış bir çalışmadan geliyor. Bu profillerin bir kısmı stok fotoğraflı kurgu profillerdi, bir kısmı karşılaştırma profilleri, bir kısmı da gönüllülerin gerçek profilleri.
+- %0,6, erkek kurgu profillerin eşleşme oranı. Bu eşleşmelerin ortalama %86'sı da başka erkeklerdendi. Yani ortalama erkeği değil, en kötü durumu gösteriyor.
+- New York'ta tek bir gönüllünün gerçek profiliyle yapılan denemede tek fotoğraf yerine 3 fotoğraf kullanıldı. 4 saatte eşleşme 44'ten 238'e, kadınlardan gelen eşleşme 14'ten 65'e çıktı.
+- Kurgu profillere kısa bir biyografi eklemek, kadınlardan gelen eşleşmeyi ortalama 16'dan 69'a çıkardı.
 
 **Mesaj ve yanıt**
 
 - ABD'de 4 şehirde kullanıcılar kendilerinden ortalama yaklaşık %25 daha "arzu edilir" kişilere yazıyor.
 - Erkekler kendinden daha az arzu edilir kadınlardan iki kattan fazla yanıt alıyor.
+- Uzun ya da çok olumlu mesajın getirisi çok küçük.
 
 **Kullanıcı deneyimi (Pew 2023)**
 
-- Uygulama kullanan erkeklerin %64'ü az mesaj aldığı için güvensiz hissetti. Yine de erkeklerin %57'si deneyimini olumlu buldu.
-- ABD'de partneri olan 30 yaş altı yetişkinlerin beşte biri partneriyle uygulamada tanışmış.
+- Uygulama kullanan erkeklerin %64'ü az mesaj aldığı için güvensiz hissetti.
+- Yine de erkeklerin %57'si deneyimini olumlu buldu.
 
 **Türkiye'de uygulamalar**
 
-- Uygulamalar ABD'deki kadar yaygın bir tanışma yolu değil. Metropoll 2020'de ilişkilerin yalnızca %2,2'si sosyal medyadan başlamıştı.
-- Ancak eğitimli bir örneklemde (Özyeğin Üniversitesi, 2019) ilişkilerin yarısına yakını çevrim içi başlamıştı.
 - Türkiye'de Tinder'ın aktif kullanıcısı 2024'ün son çeyreğinde 921 binden 716 bine düştü.
 
-**"Görünüş her şeydir" kısmen doğru, kısmen yanlış**
+**Görüntü ilk elemede baskın, tanıdıkça önemi azalıyor**
 
-Yabancılar arasındaki ilk elemede görünüş baskın. 445 uygulama kullanıcısıyla yapılan 2025 çalışmasında çekicilikteki bir standart sapmalık artış seçilme şansını yaklaşık %20 artırdı. Diğer özelliklerin etkisi bunun 7 ila 20'de biri kadardı. Ama dört bulgu tabloyu değiştiriyor:
+445 uygulama kullanıcısıyla yapılan 2025 çalışmasında çekicilikteki bir standart sapmalık artış seçilme şansını yaklaşık %20 artırdı. Diğer özelliklerin etkisi bunun 7 ila 20'de biri kadardı. Ama dört bulgu tabloyu değiştiriyor:
 
-1. Çiftler birlikte olmadan önce yaklaşık 9 aydan uzun süredir tanışıyorsa, birbirlerine çekicilik açısından benzemeleri gerekmiyor (istatistiksel olarak anlamlı bir benzerlik kalmıyor).
-2. İnsanlar birbirini tanıdıkça "kim çekici" konusundaki ortak görüş zayıflıyor. Kişiye özgü değerlendirme ağır basmaya başlıyor.
-3. Aynı kişinin farklı fotoğrafları arasındaki fark, farklı kişiler arasındaki farkla karşılaştırılabilir düzeyde, hatta daha büyük.
+1. Birlikte olmadan önce yaklaşık 9 aydan uzun süredir tanışan çiftlerde, çekicilik açısından benzerlik küçülüyor ve istatistiksel anlamlılığını yitiriyor (korelasyonel).
+2. İnsanlar birbirini tanıdıkça "kim çekici" konusundaki ortak görüş zayıflıyor; kişiye özgü değerlendirme ağır basıyor.
+3. Aynı kişinin farklı fotoğrafları arasındaki fark, farklı kişiler arasındaki farkla karşılaştırılabilir düzeyde.
 4. Viral "kadınlar erkeklerin %80'ini ortalamanın altında buluyor" verisinde kadınlar mesaj atarken bu dağılıma uymamış.
 
-Strateji şu: uygulamada fotoğrafa yatırım yap, ama asıl yatırımı insanların seni tanıdıkça değerlendireceği ortamlara yap.
+**Türkiye'de tanışma normları ve sınırlar**
 
-### 3.6 Deneyimsizlik damgası: gerçek, ama sanıldığından küçük
+- Partnerle AVM, kafe ya da çarşıda tanışma yalnızca %3,4 (Metropoll 2020).
+- TÜİK 2024 araştırmasına göre kadınların %3,1'i son 12 ayda ısrarlı takibe uğradı. Israrlı takipte en sık fail yabancı biri (%39,6).
+- Kadir Has Üniversitesi'nin sokak tacizi rehberi, ısrarla isim sormayı ve adres istemeyi taciz örnekleri arasında sayıyor.
+- TCK 105'e göre taciz, aynı iş yerinde çalışmanın sağladığı kolaylıktan yararlanılarak işlenirse ceza yarı oranında artırılıyor. Rızaya dayalı flört ise taciz değil.
+- 2012'de ankete katılan 170 yöneticinin %73'ü iş yerinde aşkı olağan buldu.
 
-- **ABD'deki üç çalışmada** cinsel deneyimi olmayan yetişkinler damgalandıklarını hissetti. Varsayımsal tercihlerde partner olarak da daha az seçildiler. Deneyimsizler bile birbirini tercih etmedi. Tasarım varsayımsaldı; gerçek davranış gözlenmedi. Bazı özetlerde "aday tanıdık biriyse dezavantaj azalıyor" deniyor; bu çalışmada test edilmemiş.
-- **Birleşik Krallık'ta 188 kişilik bir çalışmada** katılımcılar hiç partneri olmamış biriyle ilişkiye "makul ölçüde istekli"ydi. En çok tercih edilen "biraz geçmişi olan" kişiydi. Hangi cinsiyetin daha isteksiz olduğu konusunda çalışmalar çelişiyor.
-- **Türkiye'de erkek deneyimsizliği istisna değil** (3.1'deki %43,5 ve %52,75). 16 erkekle yapılan nitel bir çalışmada erkekler ilk deneyimi akran baskısıyla ve statü kazanmak için yaşadıklarını anlattı. Yani damga büyük ölçüde erkek arkadaş çevresinden geliyor. Türk kadınlarının erkek deneyimsizliğine nasıl baktığını ölçen nicel bir veri yok.
-- **Utancı büyüten üç şey var:** gizlemek, geri çekilmek ve kadınların neyi önemsediğini yanlış tahmin etmek (Adım 7).
+### 3.6 Deneyimsizlik damgası: gerçek, büyüklüğü belirsiz
+
+- **ABD'de 3 çalışma:** Cinsel deneyimi olmayan yetişkinler damgalandıklarını hissetti ve varsayımsal tercihlerde partner olarak daha az seçildi. Deneyimsizler bile birbirini tercih etmedi. Gerçek davranış gözlenmedi. "Aday tanıdık biriyse dezavantaj azalıyor" iddiası ikincil kaynaklara göre test edilmemiş; tam metne ulaşılamadı.
+- **Birleşik Krallık'ta 188 kişi:** Katılımcılar hiç partneri olmamış biriyle ilişkiye "makul ölçüde istekli"ydi; en çok tercih edilen "biraz geçmişi olan" kişiydi. Uzun vadeli ilişkide 0–2 partnerli adaya kadınlar erkeklerden biraz daha isteksizdi. Senin için önemli bir bulgu, ama tasarım varsayımsal.
+- **11 kişilik bir görüşme çalışması:** Katılımcılar deneyimsizliği hem açıklamayı hem saklamayı riskli buldu.
+- **Türkiye:** Erkek deneyimsizliği istisna değil (3.1'deki %43,5 ve %52,75). 16 erkekle yapılan nitel bir çalışmada erkekler ilk deneyimi akran baskısıyla ve statü için yaşadıklarını anlattı. Yani damga büyük ölçüde erkek arkadaş çevresinden geliyor. Türk kadınlarının erkek deneyimsizliğine bakışını ölçen nicel bir veri yok.
+- **Yanlış tahmin:** Bekâr erkekler, kendini insel sayanlar da saymayanlar da, kadınların görünüşe ve paraya verdiği önemi abartıyor; nezaket ve mizahı küçümsüyor.
 
 ### 3.7 Çözümün kanıtı
 
 **BDT (bilişsel davranışçı terapi)**
 
-- Sosyal kaygıda bekleme listesine göre en büyük etkiyi bireysel BDT gösteriyor (standart etki -1,19; büyük bir etki). Destekli kendi kendine yardımda bu değer -0,86, desteksiz kendi kendine yardımda -0,75.
-- Clark–Wells bilişsel terapisinin sonunda tanı ölçütlerini artık karşılamayanlar %84 oldu. Maruz bırakma ile gevşeme egzersizlerinde bu oran %42'ydi.
-- İnternetten yürütülen bilişsel terapi yüz yüze terapiden farklı sonuç vermedi ve çok daha az terapist saati gerektirdi (6,45 saate karşı 15,8 saat).
-- Sınırlar: Kontrol grubu "olağan bakım" ya da plasebo olunca etki küçülüyor (g yaklaşık 0,44–0,47). Denemelerin yalnızca %17,4'ü yüksek kaliteli. Rehbersiz dijital programlarda bırakma riski daha yüksek.
+- Sosyal kaygıda, tek başına uygulanan tedavi sınıfları arasında bekleme listesine göre en büyük etkiyi bireysel BDT gösteriyor (standart etki -1,19). Destekli kendi kendine yardımda bu değer -0,86, desteksiz kendi kendine yardımda -0,75.
+- Clark–Wells bilişsel terapisinin sonunda tanı ölçütlerini artık karşılamayanlar %84. Maruz bırakma artı gevşemede bu oran %42. Video geri bildirimi bu terapinin bir parçası. 47 hastanın %98'i videoyu izledikten sonra kendini tahmin ettiğinden daha iyi gördü (kontrol grubu olmayan hasta verisi).
+- İnternetten yürütülen bilişsel terapi birincil sonuçta yüz yüze terapiden farklı çıkmadı ve çok daha az terapist saati gerektirdi (6,45 saate karşı 15,8 saat). Davranış testinde yüz yüze terapi lehine küçük bir fark vardı.
+- **Sınırlar:** Kontrol grubu "olağan bakım" ya da plasebo olunca etki küçülüyor (g yaklaşık 0,44–0,47). Denemelerin yalnızca %17,4'ü yüksek kaliteli. Rehbersiz dijital programlarda bırakma riski daha yüksek.
 
 **Flört kaygısı**
 
-- 20 çalışmalık bir meta-analizde müdahalelerin ortalama etkisi r=0,336 çıktı (orta düzey). Müdahaleler hem kaygıyı azalttı hem flörtü artırdı.
-- Kaygılı ve seyrek flört eden 26 erkekle yapılan bir çalışmada önceden ayarlanmış gerçek tanışmalar uygulandı. Bu erkekler 6 ay sonra anlamlı ölçüde daha çok flört ediyordu.
+- 20 çalışmalık bir meta-analizde müdahalelerin ortalama etkisi r=0,336 (orta düzey). Müdahaleler hem kaygıyı azalttı hem flörtü artırdı.
+- Kaygılı ve seyrek flört eden 26 erkek, önceden ayarlanmış gerçek tanışmalarla 6 ay sonra anlamlı ölçüde daha çok flört ediyordu.
 - Bu literatür eski ve örneklemleri küçük.
+
+**Eğer–o zaman planları**
+
+- 94 testlik bir meta-analizde bu tür planlar hedefe ulaşmada orta-büyük etki gösterdi (d=0,65).
 
 **Etkinlikler**
 
-- Hiçbir etkinlik için "sosyal kaygıyı tedavi eder" diyecek güçlü yetişkin kanıtı yok.
+- Hiçbir etkinlik için "sosyal kaygıyı tedavi eder" diyecek güçlü bir yetişkin kanıtı yok.
 - Doğaçlama tiyatro: ergenlerle yapılan kontrol grupsuz çalışmalarda sosyal kaygı azaldı.
-- Konuşma kaygısında maruz bırakmanın etkisi büyük (11 çalışma, -1,41). Toastmasters bu yapıyı düzenli olarak sunuyor, ama kulübün kendisi test edilmedi.
-- Takım sporu, bireysel spora göre daha iyi psikososyal sonuçlarla ilişkili (gözlemsel kanıt).
+- Topluluk önünde konuşma kaygısında terapist eşliğindeki gerçek ortamda maruz bırakmanın etkisi büyük (11 çalışma, -1,41).
+- Takım sporu bireysel spora göre daha iyi psikososyal sonuçlarla ilişkili (gözlemsel kanıt).
 - Gönüllülüğün faydası deneysel çalışmalarda doğrulanmadı.
-- Bu yüzden bir etkinliği tedavi olarak değil, tekrar tekrar karşılaşacağın ve tanışacağın bir ortam olarak seç.
+- Bu yüzden etkinliği tedavi olarak değil, tekrar tekrar karşılaşacağın bir ortam olarak seç.
 
 **Görünüş**
 
-- Egzersiz müdahaleleri beden imajını küçük düzeyde iyileştiriyor (57 müdahale, d yaklaşık 0,29; ikincil kaynaktan).
-- 12 haftalık kuvvet antrenmanında erkeklerin beden imajındaki iyileşme ölçülen değil, algılanan değişimle ilişkiliydi.
-- Bir uygulama deneyinde açık ve geniş duruşlu fotoğraflar %27 daha fazla "evet" aldı. Erkek profillerine ait veri az.
+- Egzersiz beden imajını küçük düzeyde iyileştiriyor (57 müdahale, d yaklaşık 0,29, ikincil kaynaktan).
+- 12 haftalık kuvvet antrenmanında erkeklerin beden imajı iyileşmesi ölçülen değişimle değil, algılanan değişimle ilişkiliydi.
+- Erkek beden çekiciliği farkının %70'ten fazlasını algılanan fiziksel güç açıkladı. Başka bir çalışmada ise en çekici bulunan orta düzey kaslılıktı.
+- Sosyal medyayı günde 1 saate indirmek, duygusal sıkıntı yaşayan 17–25 yaş gençlerde 3 haftada görünüşle ilgili duyguları iyileştirdi.
 
 **Çekim**
 
-- Takip sorusu soranların daha çok ikinci buluşma kabulü aldığı bulgusu tartışmalı. Bir yeniden analiz erkeklerde ters yönde bir ilişki buldu; ilk yazarlar buna itiraz ediyor.
+- Takip sorusu soranların daha çok ikinci buluşma kabulü aldığı bulgusu tartışmalı. Yeniden yapılan bir analiz erkeklerde ters yönde bir ilişki buldu; ilk yazarlar buna itiraz ediyor.
 - Daha sağlam bulgular: seçici ilgi, kademeli kendini açma, nezaket.
-- İlk tanışmada çok hevesli, "her şeye evet" diyen bir sıcaklık kadınların ilgisini artırmadı. Oturmuş ilişkilerde ise ilgili ve duyarlı olmak kadınlar için daha çok önem taşıyor.
-- İnsanların önceden söylediği tercihler ("benim tipim şu") buluşmadaki gerçek ilgiyi öngörmüyor. Kimin seni çektiğini listelerden değil, gerçek tanışmalardan öğrenirsin.
+- İlk tanışmada aşırı hevesli bir sıcaklık kadınlarda ilgiyi artırmadı. Oturmuş ilişkilerde ise duyarlılığın değeri kadınlarda daha yüksek.
+- Önceden söylenen tercihler ("benim tipim şu") buluşmadaki gerçek ilgiyi öngörmüyor.
+- Erkekler karşı tarafın cinsel ilgisini abartmaya yatkın. Bu farkı, kişinin kendi ilgisini karşıya yansıtması ve ilişkisiz cinselliğe açıklığı büyük ölçüde açıklıyor.
+- İlk deneyimlerde ereksiyon sorunları sık görülüyor ve çoğu erkekte zamanla geçiyor (Finlandiya, nüfus örneklemi).
 
 ### 3.8 Türkiye'de destek nereden alınır?
 
 | Kanal | Ücret | Neye uygun |
 |---|---|---|
-| Aile ve Sosyal Hizmetler Bakanlığı bireysel danışmanlık (81 il) | Ücretsiz | Başlangıç ve değerlendirme; çevrim içi pilot 7 ilde |
+| Aile ve Sosyal Hizmetler Bakanlığı bireysel danışmanlık (81 il) | Ücretsiz | Başlangıç ve değerlendirme; çevrim içi pilot 7 ilde (psikodestek.aile.gov.tr) |
 | Üniversite psikolojik danışma merkezi | Öğrenciye ücretsiz | Kısa süreli (ör. Bilkent'te en çok 8 oturum) |
-| Belediye psikososyal destek merkezleri | Ücretsiz | Bekleme listesi olabilir (doğrulanmadı) |
 | Devlet hastanesi psikiyatri (MHRS) | Katılım payı (kaynak kendi içinde tutarsız: 26–90 TL) | Tanı ve ilaç; muayene süresi terapi için kısa |
-| Özel ya da çevrim içi BDT terapisti | Seans başı birkaç bin TL (ilan verisi, doğrulanmadı) | En güçlü kanıt: sosyal kaygıya özgü bireysel BDT; psikolog seansları SGK kapsamında değil |
-| Kitap | Kitap fiyatı | *Utangaçlık ve Sosyal Kaygı Çalışma Kitabı*, *Sosyal Fobiden Hayata Yolculuk* |
+| Klinik psikolog ya da psikiyatristle BDT (özel ya da çevrim içi) | Seans başı birkaç bin TL (ilan verisi, doğrulanmadı); psikolog seansları SGK kapsamında değil | En güçlü kanıt: sosyal kaygıya özgü bireysel BDT |
+| Kitap | Kitap fiyatı | *Utangaçlık ve Sosyal Kaygı Çalışma Kitabı* (Antony ve Swinson), *Sosyal Fobiden Hayata Yolculuk* |
 | Cinsel terapi | — | CETAD sitesindeki "Cinsel Terapistler" bölümü |
 
-Toplum Ruh Sağlığı Merkezleri esas olarak ağır ruhsal hastalıkların izlemine yönelik. Bu konu için doğru kapı değil. Türkiye'de ruhsal bozukluğu olan beş kişiden yalnızca biri tedavi alıyor. Yardım istemek istisnai bir adım değil, bir çözüm yolu.
+- **Unvanlar:** 2024 tarihli bir kanun teklifinin gerekçesine göre "psikolog" unvanı yasal koruma altında değil ve ayrı bir meslek yasası yok. "Klinik psikolog" unvanı ise 1219 sayılı Kanun'un ek 13. maddesinde (2011) tanımlı: psikoloji ya da psikolojik danışma ve rehberlik lisansı üzerine klinik psikoloji yüksek lisansı gerektiriyor.
+- **Toplum Ruh Sağlığı Merkezleri** esas olarak ağır ruhsal hastalıkların izlemine yönelik. Bu konu için doğru kapı değil.
+- **Belediyelerin ücretsiz merkezleri** var, ama bekleme listesi olabilir; İBB'nin hizmeti doğrulanamadı.
+- Türkiye'de ruhsal bozukluğu olan beş kişiden yalnızca biri tedavi alıyor. Yardım istemek istisnai bir adım değil, bir çözüm yolu.
 
 ### 3.9 Düzeltilen varsayımlar
 
-| Varsayım | Kanıt ne diyor |
+| Varsayım | Kanıt ne diyor? |
 |---|---|
-| "Herkes deneyimli, bir tek ben değilim." | Yanlış (3.1). |
-| "Geç kaldım, bu açık artık kapanmaz." | Yanlış. Geç başlayanların çoğu yetişiyor; 23–25 yaşta başlayan ilk ilişki kişilik gelişimiyle bağlantılı. |
-| "Daha çok uğraşırsam olur." | Kısmen doğru. Deneme sayısı gerekli, ama belirleyici olan biçim. |
-| "Görünüş her şeydir." | Kısmen doğru. İlk elemede güçlü, tanıdıkça zayıflıyor. |
-| "Her şey sınav yılları yüzünden." | Kısmen doğru. Aile çevresi ve kaygı daha belirleyici; sınavın doğrudan etkisi ölçülmemiş. |
-| "Deneyimsizliğimi ya hemen söylemeliyim ya hep saklamalıyım." | İkisi de değil (Adım 6). |
+| "Herkes deneyimli, bir tek ben değilim." | Yanlış. Ama senin yaşında ilişki yaşamamış olanlar daha küçük bir grup (3.1). |
+| "Geç kaldım, bu açık artık kapanmaz." | Desteklenmiyor. 23–25 yaşta başlayan ilk ilişki olumlu kişilik değişimiyle bağlantılı. Ama gecikme kendiliğinden kapanmıyor. |
+| "Daha çok uğraşırsam olur." | Kısmen doğru. Deneme gerekli, ama belirleyici olan biçim. |
+| "Görünüş her şeydir." | Kısmen doğru. İlk elemede güçlü, insanlar tanıdıkça etkisi zayıflıyor. |
+| "Her şey sınav yılları ve aile yüzünden." | Kanıt yok. Ailenin ölçülen etkisi küçük, sınavın etkisi ise ölçülmemiş. Hangi etkenin daha belirleyici olduğu bilinmiyor. |
+| "Deneyimsizliğimi ya hemen söylemeliyim ya da hep saklamalıyım." | İkisi de değil (Adım 7). |
 
 ---
 
@@ -299,152 +372,138 @@ Toplum Ruh Sağlığı Merkezleri esas olarak ağır ruhsal hastalıkların izle
 
 **Kanıtın sınırları**
 
-- Kanıtın çoğu ABD ve Kuzey Avrupa'daki üniversite öğrencilerinden geliyor. Türkiye verileri küçük, eski ya da temsilî değil.
-- Türkiye'de 20–25 yaş erkeklerin ilişki deneyimini ölçen ulusal bir veri yok.
-- Sınav yoğunluğunun romantik deneyimi geciktirdiği doğrudan ölçülmemiş. 3.3'teki bağ dolaylı kanıta dayanıyor.
-- Flört kaygısına özgü tedavi denemeleri 1970'ler ve 80'lerden kalma. Güncel randomize bir deneme yok.
-- Deneyimsizliği açıklamanın zamanlamasını doğrudan test eden bir çalışma yok. Adım 6'daki öneri bir çıkarım.
-- Damga çalışmalarında hangi cinsiyetin daha isteksiz olduğu konusunda bulgular çelişiyor.
-- Takip sorusu bulgusu tartışmalı.
-- Türkiye'deki terapi ücretleri ve belediye hizmetleri hakkındaki bilgiler düşük güvenilirlikte; ilan ve haber verisine dayanıyor. İBB'nin ücretsiz psikolojik danışmanlık hizmeti doğrulanamadı.
-- Etkinliklerin (doğaçlama, dans, gönüllülük) sosyal kaygıya etkisi yetişkinlerde randomize olarak test edilmemiş.
+- Kanıtın çoğu ABD ve Kuzey Avrupa'daki üniversite öğrencilerinden geliyor. Türkiye verileri küçük, eski ya da temsilî değil. Türkiye'de 20–25 yaş erkeklerin ilişki deneyimini ölçen ulusal bir veri yok.
+- 24 yaşında hâlâ ilişki yaşamamış erkeklerin sonradan ne yaşadığını doğrudan izleyen bir çalışma bulunamadı.
+- Sınav yoğunluğunun romantik deneyimi geciktirdiği ölçülmemiş. Etkenlerin birbirine göre ağırlığı da bilinmiyor.
+- Flört kaygısına özgü tedavi denemeleri 1970'ler ve 80'lerden kalma. Kaygı merdiveni, mesajlaşma önerileri ve deneyimsizliği açıklama zamanı kanıtlı ilkelerden çıkarıldı, ama doğrudan test edilmedi.
+- Damga çalışmaları varsayımsal tercihlere dayanıyor. Cinsiyet farkının yönü konusunda bulgular çelişiyor. Gesselman 2017'nin tam metnine ulaşılamadı.
+- Etkinliklerin (doğaçlama, dans, gönüllülük, Toastmasters) yetişkinlerde sosyal kaygıya etkisi randomize olarak test edilmedi.
+- Türkiye'de terapi ücretleri ve belediye hizmetleri düşük güvenilirlikte. Gençlik merkezi sayısı kaynağa göre değişiyor: 2024 istatistiklerinde 522, sitede 591. Halk eğitim verisi tüm hayat boyu öğrenme kurslarını kapsıyor olabilir.
 
-**Süreç notu:** 1. dalgada oturumun ortak web arama kotası doldu ve Türkiye'ye özgü iki alt konu yarım kaldı. Bu iki konu 2. dalgada yeniden araştırıldı.
+**Süreç notları**
+
+- 1. dalgada oturumun ortak web arama kotası doldu ve Türkiye'ye özgü iki alt konu yarım kaldı. Bu iki konu 2. dalgada yeniden araştırıldı.
+- İlk 41 ajan (19 araştırmacı ve 22 doğrulayıcı) orta eforla çalıştı. Senin talimatından sonra eleştirmenler, yeniden doğrulama ve takip ajanı xhigh eforla çalıştırıldı.
 
 **Doğrulama kapsamı**
 
-- 19 araştırmacı 337 iddia defteri satırı üretti.
-- 22 doğrulayıcı bunların 287'sini kaynağından kontrol etti; ayrıca 1 açık soruyu inceledi.
-- Sonuç: 222 satır doğru çıktı, 58 satır düzeltildi (raporda düzeltilmiş hâlleri var), hiçbiri çürütülmedi, 8 satır doğrulanamadı. Doğrulanamayanlar raporda kullanılmadı ya da "doğrulanmadı" diye işaretlendi.
-- Sonucun dayandığı satırların hepsi tam kontrol edildi. Diğer satırlardan örneklem alındı.
-- Örneklemdeki hata oranı %10'u geçen 6 araştırmacının defterinin tamamı kontrol edildi (T1A, T1B, T5A, T5B, T7A, U4).
-- 1. dalgada kontrol edilmemiş, ama rapora girecek 31 satır, 2. dalgada hedefli olarak doğrulandı.
+- **1. tur:** 19 araştırmacı 337 defter satırı üretti. 22 doğrulayıcı bunların 287'sini kaynağından kontrol etti, ayrıca 1 açık soruyu inceledi; toplam 288 kontrol.
+  - Sonuç: 222 doğru, 58 düzeltildi, 0 çürütüldü, 8 doğrulanamadı (açık soru dahil).
+  - Örneklemdeki hata oranı %10'u geçen 6 araştırmacının defterinin tamamı kontrol edildi.
+- **2. tur (xhigh):** Sonucun dayandığı 60 satır 3 doğrulayıcıyla yeniden kontrol edildi.
+  - Sonuç: 56 doğru, 4 düzeltildi.
+  - Raporun bu satırları kullanış biçiminde 21 sorun bulundu (20'si eksik bağlam, 1'i abartı). Bu sürümde hepsi düzeltildi.
+- **Eleştiri:** 2 eleştirmen (xhigh) 20 itiraz yaptı. 20'si de kabul edildi ve bu sürüme işlendi.
+- **Takip (xhigh):** Eleştiriden doğan 6 yeni iddiadan 5'i birincil kaynaktan doğrulandı. Bunlardan 3'ü örneklem olarak ayrıca kontrol edildi: 2'si birebir tuttu, 1'inde sayıya ulaşılamadı, yalnızca başlığı doğrulandı. Instagram ve mesajlaşmayla ilgili nicel veri bulunamadı.
+- **Kullanılmayanlar:** Doğrulanamayan satırlar raporda kullanılmadı ya da "doğrulanmadı" diye işaretlendi.
 
 ---
 
 ## 5. Kaynaklar
 
 **Yaygınlık ve uzun vadeli sonuçlar**
-- TÜİK 2024 ve 2025 evlenme istatistikleri (aktaran alomaliye): https://www.alomaliye.com/2025/02/24/evlenme-ve-bosanma-istatistikleri-2024/ · https://www.alomaliye.com/2026/02/24/evlenme-ve-bosanma-istatistikleri-2025/
-- Eurostat, evden ayrılma yaşı ve ebeveynle yaşama: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/yth_demo_030?geo=TR&sex=M&format=JSON · https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_lvps08?geo=TR&sex=M&age=Y25-29&format=JSON
-- Küçükarslan ve Gizir 2014 (n=957): https://dergipark.org.tr/en/download/article-file/200262
+- TÜİK evlenme istatistikleri 2024 ve 2025 (aktaran alomaliye): https://www.alomaliye.com/2025/02/24/evlenme-ve-bosanma-istatistikleri-2024/ · https://www.alomaliye.com/2026/02/24/evlenme-ve-bosanma-istatistikleri-2025/
+- Eurostat: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/yth_demo_030?geo=TR&sex=M&format=JSON · https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_lvps08?geo=TR&sex=M&age=Y25-29&format=JSON
+- Küçükarslan ve Gizir 2014: https://dergipark.org.tr/en/download/article-file/200262
 - Türkoğlu, Akbaş ve Çelikkaleli 2015: https://dergipark.org.tr/en/download/article-file/365346
-- Düzce sağlık bilimleri öğrencileri: https://dergipark.org.tr/tr/download/article-file/1586780
-- Yozgat Bozok Tıp Fakültesi: https://dergipark.org.tr/tr/download/article-file/4564901
-- Güdücü 2024 (İstanbul, 400 kadın): https://dergipark.org.tr/tr/download/article-file/3825464
-- Ueda ve ark. 2020, JAMA Netw Open: https://pmc.ncbi.nlm.nih.gov/articles/PMC7293001
-- Survey Center on American Life 2024 (Z kuşağı): https://www.americansurveycenter.org/commentary/gen-zs-romance-gap-why-nearly-half-of-young-men-arent-dating/
-- Ghaznavi ve ark. 2019 (Japonya): https://bmcpublichealth.biomedcentral.com/track/pdf/10.1186/s12889-019-6677-5
-- Rauer ve ark. 2013: https://pmc.ncbi.nlm.nih.gov/articles/PMC3830676/
-- Haydon ve ark. 2014: https://pmc.ncbi.nlm.nih.gov/articles/PMC3947171
-- Wagner ve ark. 2015: https://www.pedocs.de/volltexte/2017/12546/
-- Harden 2012: https://labs.la.utexas.edu/harden/files/2013/05/Harden-2012-Psychol-Science.pdf
+- Yozgat Bozok Tıp: https://dergipark.org.tr/tr/download/article-file/4564901 · Güdücü 2024: https://dergipark.org.tr/tr/download/article-file/3825464
+- Ueda ve ark. 2020: https://pmc.ncbi.nlm.nih.gov/articles/PMC7293001
+- Rauer ve ark. 2013: https://pmc.ncbi.nlm.nih.gov/articles/PMC3830676/ · Haydon ve ark. 2014: https://pmc.ncbi.nlm.nih.gov/articles/PMC3947171
+- Wagner ve ark. 2015: https://www.pedocs.de/volltexte/2017/12546/ · Harden 2012: https://labs.la.utexas.edu/harden/files/2013/05/Harden-2012-Psychol-Science.pdf
 - Gonzalez Avilés ve ark. 2021 (pairfam): https://pmc.ncbi.nlm.nih.gov/articles/PMC7910227
 - Krämer ve ark. 2026: https://www.iser.essex.ac.uk/research/publications/publication-588909 · https://www.news.uzh.ch/en/articles/media/2026/Staying-Single.html
 
-**Nedenler: gelişim, aile, sınav**
-- Halpern ve ark. 2000: https://www.cpc.unc.edu/resources/publications/bib/1323/
-- Harden ve Mendle 2011: https://pmc.ncbi.nlm.nih.gov/articles/PMC3134531/
-- Douglas ve Orpinas 2019: https://www.eurekalert.org/news-releases/572525
-- Furman ve Collibee 2014: https://liberalarts.du.edu/sites/default/files/2021-04/Furman_Collibee_2014.DevPsychpath.Timing.pdf
-- Davila ve ark. 2021: https://researchconnect.stonybrook.edu/en/publications/teaching-romantic-competence-skills-to-emerging-adults-a-relation/ · Project Relate: https://researchconnect.stonybrook.edu/en/publications/project-relate-a-randomized-clinical-trial-of-a-digital-single-se/
-- Demir 2022 (172 Türk ergen): https://avesis.istanbul.edu.tr/yayin/881997e4-4a10-49b8-953b-8c25ec905b40/dating-involvement-among-turkish-adolescents-the-role-of-parental-attitudes-about-dating-social-anxiety-and-social-physique-anxiety
-- Çiftçi ve Gülaçtı 2019: https://dergipark.org.tr/tr/download/article-file/723604
-- PISA 2015 Türkiye (Hürriyet): https://www.hurriyet.com.tr/egitim/mutsuzlukta-ilk-siradayiz-40432394 · World Database of Happiness: https://worlddatabaseofhappiness.eur.nl/correlational-findings/27259 · https://worlddatabaseofhappiness.eur.nl/correlational-findings/27260
-- Erikli Doğan 2026: https://dergipark.org.tr/tr/download/article-file/5694029
-- Donnelly ve ark. 2001: https://gwern.net/doc/sociology/2001-donnelly.pdf
-
-**Tanışma ve Türkiye normları**
-- TAYA 2021 (aktaran alomaliye): https://www.alomaliye.com/2022/04/01/2021-turkiye-aile-yapisi-arastirmasi/ · TAYA 2016: https://www.aile.gov.tr/media/35811/taya-2016.pdf
-- Metropoll 2020 (Bianet): https://bianet.org/haber/metropoll-arastirmasi-turkiye-nin-yuzde-66-4-u-sevgililer-gunu-kutlamiyor-220063
-- Özyeğin 2019 (Hürriyet Daily News): https://hurriyetdailynews.com/turks-have-negative-view-on-online-dating-study-145835
-- KONDA Mart 2022: https://konda.com.tr/uploads/2203-martbarometre-129-gundelikhayattakucuketkilesimler-33290937a5dc6e90186408261abb42b24ad14fb32997f113ed15dc8c8d25beea.pdf
-- Kadir Has sokak güvenliği rehberi: https://gender.khas.edu.tr/sites/gender.khas.edu.tr/files/inline-files/Gender_Street_Safety_16_Web_TR.pdf
-- TÜİK Kadına Yönelik Şiddet 2024: https://www.alomaliye.com/2025/10/07/turkiye-kadina-yonelik-siddet-arastirmasi-2024/
-- TCK 5237: https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5237.pdf
+**Nedenler**
 - Kalmijn ve Flap 2001: https://research.rug.nl/en/publications/7583733e-babe-4d51-a5b4-e60821cbed1e
-- Rosenfeld ve ark. 2019: https://web.stanford.edu/~mrosenfe/Rosenfeld%5Fet%5Fal%5FDisintermediating%5FFriends.pdf
-- Hall 2019 (arkadaşlık saatleri): https://news.ku.edu/2018/03/06/study-reveals-number-hours-it-takes-make-friend
+- TAYA 2021: https://www.alomaliye.com/2022/04/01/2021-turkiye-aile-yapisi-arastirmasi/ · TAYA 2016: https://www.aile.gov.tr/media/35811/taya-2016.pdf
+- Metropoll 2020 (Bianet): https://bianet.org/haber/metropoll-arastirmasi-turkiye-nin-yuzde-66-4-u-sevgililer-gunu-kutlamiyor-220063 · Özyeğin 2019: https://hurriyetdailynews.com/turks-have-negative-view-on-online-dating-study-145835
+- Donnelly ve ark. 2001: https://gwern.net/doc/sociology/2001-donnelly.pdf
+- Demir 2022: https://avesis.istanbul.edu.tr/yayin/881997e4-4a10-49b8-953b-8c25ec905b40/dating-involvement-among-turkish-adolescents-the-role-of-parental-attitudes-about-dating-social-anxiety-and-social-physique-anxiety
+- Halpern ve ark. 2000: https://www.cpc.unc.edu/resources/publications/bib/1323/ · Harden ve Mendle 2011: https://pmc.ncbi.nlm.nih.gov/articles/PMC3134531/
+- Çiftçi ve Gülaçtı 2019: https://dergipark.org.tr/tr/download/article-file/723604
+- PISA 2015 (Hürriyet): https://www.hurriyet.com.tr/egitim/mutsuzlukta-ilk-siradayiz-40432394 · https://worlddatabaseofhappiness.eur.nl/correlational-findings/27259 · https://worlddatabaseofhappiness.eur.nl/correlational-findings/27260
+- Erikli Doğan 2026: https://dergipark.org.tr/tr/download/article-file/5694029
+- Douglas ve Orpinas 2019: https://www.eurekalert.org/news-releases/572525 · Furman ve Collibee 2014: https://liberalarts.du.edu/sites/default/files/2021-04/Furman_Collibee_2014.DevPsychpath.Timing.pdf
+- Davila ve ark. 2021: https://researchconnect.stonybrook.edu/en/publications/teaching-romantic-competence-skills-to-emerging-adults-a-relation/ · Project Relate: https://researchconnect.stonybrook.edu/en/publications/project-relate-a-randomized-clinical-trial-of-a-digital-single-se/
 
 **Mekanizmalar ve ilk adım**
-- Spurr ve Stopa 2002: https://pubmed.ncbi.nlm.nih.gov/12238248/
-- McManus ve ark. 2008: https://pubmed.ncbi.nlm.nih.gov/17433252/
-- Taylor ve Alden 2010: https://pubmed.ncbi.nlm.nih.gov/19954772/
-- Alden ve Bieling 1998: https://pubmed.ncbi.nlm.nih.gov/9613016/
-- Boothby ve ark. 2018: https://pubmed.ncbi.nlm.nih.gov/30183512/
-- Sandstrom ve Boothby 2021: https://repository.essex.ac.uk/28669/
-- Vorauer ve ark. 2003: https://pubmed.ncbi.nlm.nih.gov/12703649/
-- Vorauer ve Ratner 1996: https://doi.org/10.1177/0265407596134001
-- Flynn ve Lake 2008: https://pubmed.ncbi.nlm.nih.gov/18605856/
-- Voracek ve ark. 2006 (Clark ve Hatfield aktarımı): https://www.psicothema.com/pdf/3227.pdf
-- Cunningham 1989: https://journals.sagepub.com/doi/10.1177/0146167289151003
-- Joel ve ark. 2014: https://pubmed.ncbi.nlm.nih.gov/25344347/
+- Spurr ve Stopa 2002: https://pubmed.ncbi.nlm.nih.gov/12238248/ · McManus ve ark. 2008: https://pubmed.ncbi.nlm.nih.gov/17433252/
+- Taylor ve Alden 2010: https://pubmed.ncbi.nlm.nih.gov/19954772/ · Alden ve Bieling 1998: https://pubmed.ncbi.nlm.nih.gov/9613016/
+- Olay sonrası işleme: Brozovich ve Heimberg 2008: https://doi.org/10.1016/j.cpr.2008.01.002 · 2013 çalışması: https://doi.org/10.1016/j.brat.2013.07.006
+- Boothby ve ark. 2018: https://pubmed.ncbi.nlm.nih.gov/30183512/ · Sandstrom ve Boothby 2021: https://repository.essex.ac.uk/28669/
+- KONDA Mart 2022: https://konda.com.tr/uploads/2203-martbarometre-129-gundelikhayattakucuketkilesimler-33290937a5dc6e90186408261abb42b24ad14fb32997f113ed15dc8c8d25beea.pdf
+- Vorauer ve ark. 2003: https://pubmed.ncbi.nlm.nih.gov/12703649/ · Vorauer ve Ratner 1996: https://doi.org/10.1177/0265407596134001
+- Flynn ve Lake 2008: https://pubmed.ncbi.nlm.nih.gov/18605856/ · Voracek ve ark. 2006: https://www.psicothema.com/pdf/3227.pdf
+- Cunningham 1989: https://journals.sagepub.com/doi/10.1177/0146167289151003 · Joel ve ark. 2014: https://pubmed.ncbi.nlm.nih.gov/25344347/
 - Nordgren ve ark. 2011: https://pubmed.ncbi.nlm.nih.gov/21219077/ · Gilbert ve ark. 1998: https://pubmed.ncbi.nlm.nih.gov/9781405/
-- Eastwick ve ark. 2007: https://elifinkel.squarespace.com/s/Eastwicketal_2007_000.pdf
-- Spielmann ve ark. 2013: https://experts.mcmaster.ca/display/publication1760656 · Spielmann ve Gahman 2021: https://pubmed.ncbi.nlm.nih.gov/33000473/
+- Eastwick ve ark. 2007: https://elifinkel.squarespace.com/s/Eastwicketal_2007_000.pdf · Spielmann ve ark. 2013: https://experts.mcmaster.ca/display/publication1760656 · Spielmann ve Gahman 2021: https://pubmed.ncbi.nlm.nih.gov/33000473/
 - Gable 2006: https://api.crossref.org/works/10.1111/j.1467-6494.2005.00373.x
+- Gollwitzer ve Sheeran 2006: https://doi.org/10.1016/s0065-2601(06)38002-1
 - Hansen ve Laursen 2024: https://vbn.aau.dk/ws/files/715468309/Hansen_Laursen_2024_._Late_sexual_debut_A_qualitative_interview_study.pdf
 
-**Uygulamalar, görünüş, damga**
-- Tyson ve ark. 2016: https://arxiv.org/pdf/1607.01952
-- Bruch ve Newman 2018: https://pmc.ncbi.nlm.nih.gov/articles/PMC6082652/
+**Uygulamalar, görünüş, normlar, damga**
+- Tyson ve ark. 2016: https://arxiv.org/pdf/1607.01952 · Bruch ve Newman 2018: https://pmc.ncbi.nlm.nih.gov/articles/PMC6082652/
 - Pew 2023: https://www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/
 - Gemius 2019 (Webtekno): https://www.webtekno.com/tinder-turkiye-kullanici-sayisi-h81724.html · Sensor Tower 2024: https://sensortower.com/blog/2024-q4-unified-top-5-dating-revenue-tr-64c9b6bbe1714cfff1c9d0e8
 - Witmer ve ark. 2025: https://pure.uva.nl/ws/files/251503424/The_relative_importance_of_looks_height_job_bio_intelligence_and_homophily_in_online_dating.pdf
 - Hunt, Eastwick ve Finkel 2015: https://pauleastwick.squarespace.com/s/HuntEastwickFinkel2015PSci.pdf · Eastwick ve Hunt 2014: https://pauleastwick.squarespace.com/s/EastwickHunt2014JPSP.pdf
-- Todorov ve Porter 2014: https://pubmed.ncbi.nlm.nih.gov/24866921/
-- OkCupid 2009: https://gwern.net/doc/psychology/okcupid/yourlooksandyourinbox.html
+- Todorov ve Porter 2014: https://pubmed.ncbi.nlm.nih.gov/24866921/ · OkCupid 2009: https://gwern.net/doc/psychology/okcupid/yourlooksandyourinbox.html
+- TÜİK Kadına Yönelik Şiddet 2024: https://www.alomaliye.com/2025/10/07/turkiye-kadina-yonelik-siddet-arastirmasi-2024/ · Kadir Has rehberi: https://gender.khas.edu.tr/sites/gender.khas.edu.tr/files/inline-files/Gender_Street_Safety_16_Web_TR.pdf
+- TCK 5237: https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5237.pdf · PERYÖN 2012: https://www.bloomberght.com/is-yerinde-aska-onay-cikti-1080751
+- Gesselman, Webster ve Garcia 2017: https://pubmed.ncbi.nlm.nih.gov/26983793/ · Stewart-Williams, Butler ve Thomas 2017: https://cronfa.swansea.ac.uk/Record/cronfa35983/Download/35983__23786__9510a57220e54cb3bb8b1d35f687167d.pdf
+- Bakireliği açıklama üzerine nitel çalışma: https://muse.jhu.edu/article/731893 · Ozansoy Tunçdemir 2022: https://dergipark.org.tr/tr/download/article-file/2239747
 - Costello ve ark. 2023: https://labs.la.utexas.edu/buss/files/2023/09/TheMatingPsychologyofIncelsInvoluntaryCelibatesMisfortunesMisperceptionsandMisrepresentationsPUBLISHEDVERSION.pdf · Costello ve ark. 2022: https://cronfa.swan.ac.uk/Record/cronfa61213/Download/61213__25140__07a7c5d50d2140cc8982f78813caa99e.pdf
-- Gesselman, Webster ve Garcia 2017: https://pubmed.ncbi.nlm.nih.gov/26983793/
-- Stewart-Williams, Butler ve Thomas 2017: https://cronfa.swansea.ac.uk/Record/cronfa35983/Download/35983__23786__9510a57220e54cb3bb8b1d35f687167d.pdf
-- Ozansoy Tunçdemir 2022: https://dergipark.org.tr/tr/download/article-file/2239747
-- Sell ve ark. 2017: https://pmc.ncbi.nlm.nih.gov/articles/PMC5745404 · Campbell ve Hausenblas 2009: https://scilit.net/publications/f8222d23d4d15178b352f8fbfb0cb334 · Martin Ginis 2005: https://pubmed.ncbi.nlm.nih.gov/18089201/
-- Vacharkulksemsuk ve ark. 2016: https://pmc.ncbi.nlm.nih.gov/articles/PMC4839399 · Thai 2023: https://www.apa.org/news/press/releases/2023/02/social-media-body-image
+- Sell ve ark. 2017: https://pmc.ncbi.nlm.nih.gov/articles/PMC5745404 · Frederick ve Haselton 2007: https://pubmed.ncbi.nlm.nih.gov/17578932/
+- Campbell ve Hausenblas 2009: https://scilit.net/publications/f8222d23d4d15178b352f8fbfb0cb334 · Martin Ginis 2005: https://pubmed.ncbi.nlm.nih.gov/18089201/ · Thai 2023: https://www.apa.org/news/press/releases/2023/02/social-media-body-image
 
 **Çekim, açıklama, yakınlık**
 - Huang ve ark. 2017: https://gwern.net/doc/psychology/novelty/2017-huang.pdf · Kluger ve Malloy 2019: https://pmc.ncbi.nlm.nih.gov/articles/PMC6857721
 - Dai, Dong ve Jia 2014: https://www.gsb.stanford.edu/faculty-research/publications/when-does-playing-hard-get-increase-romantic-attraction
 - Birnbaum ve ark. 2014: https://doi.org/10.1177/0146167214543879 · Birnbaum ve ark. 2016: https://doi.org/10.1037/pspi0000069
-- Buss 1989 (Costello ve Buss bölümü): https://labs.la.utexas.edu/buss/files/2026/10/Retrospective_Mate_Preferences_chapter_Costello_Buss.pdf
-- Aron ve ark. 1997: https://stafforini.com/works/aron-1997-experimental-generation-interpersonal/
-- Eastwick ve Finkel 2008: https://pubmed.ncbi.nlm.nih.gov/18211175/
-- Green, Kukan ve Tully 2017 (negging): https://nottingham-repository.worktribe.com/output/970619
+- Buss 1989 (Costello ve Buss bölümü): https://labs.la.utexas.edu/buss/files/2026/10/Retrospective_Mate_Preferences_chapter_Costello_Buss.pdf · Aron ve ark. 1997: https://stafforini.com/works/aron-1997-experimental-generation-interpersonal/
+- Eastwick ve Finkel 2008: https://pubmed.ncbi.nlm.nih.gov/18211175/ · Negging: https://nottingham-repository.worktribe.com/output/970619
 - Wortman ve ark. 1976: https://pubmed.ncbi.nlm.nih.gov/1271209/
-- Perilloux, Easton ve Buss 2012: https://pubmed.ncbi.nlm.nih.gov/22261567/ · Lee ve ark. 2020: https://www.psychologicalscience.org/journals/psychological-science/0956797619900315/
-- Jern ve ark. 2012: https://pubmed.ncbi.nlm.nih.gov/22712819/
-- CETAD: https://www.cetad.org.tr/
+- Perilloux ve ark. 2012: https://pubmed.ncbi.nlm.nih.gov/22261567/ · Lee ve ark. 2020: https://www.psychologicalscience.org/journals/psychological-science/0956797619900315/
+- Jern ve ark. 2012: https://pubmed.ncbi.nlm.nih.gov/22712819/ · CETAD: https://www.cetad.org.tr/
 
-**Tedavi ve destek**
-- Mayo-Wilson ve ark. 2014: https://pmc.ncbi.nlm.nih.gov/articles/PMC4287862/
-- NICE CG159: https://www.nice.org.uk/guidance/cg159/chapter/Recommendations
-- Clark ve ark. 2006: https://pubmed.ncbi.nlm.nih.gov/16822113/ · Clark ve ark. 2022 (iCT-SAD): https://pmc.ncbi.nlm.nih.gov/articles/PMC10476054
-- Cuijpers ve ark. 2016: https://pmc.ncbi.nlm.nih.gov/articles/PMC5032489/
-- Harrer ve ark. 2025: https://pure.uva.nl/ws/files/306885004/1-s2.0-S2214782925000612-main.pdf
-- Allen ve ark. 1998: https://bearworks.missouristate.edu/articles-coal/350/
-- Montgomery ve Montgomery: https://scholarsmine.mst.edu/psysci_facwork/61
-- Felsman, Seifert ve Himle 2019: https://doi.org/10.1016/j.aip.2018.12.001
-- Konuşma kaygısı meta-analizi: https://doi.org/10.1177/0145445521991102
+**Tedavi, etkinlik ve destek**
+- Mayo-Wilson ve ark. 2014: https://pmc.ncbi.nlm.nih.gov/articles/PMC4287862/ · NICE CG159: https://www.nice.org.uk/guidance/cg159/chapter/Recommendations
+- Clark ve ark. 2006: https://doi.org/10.1037/0022-006x.74.3.568 · Warnock-Parkes ve ark. 2017: https://doi.org/10.1016/j.cbpra.2016.03.007 · Clark ve ark. 2022 (iCT-SAD): https://pmc.ncbi.nlm.nih.gov/articles/PMC10476054
+- Cuijpers ve ark. 2016: https://pmc.ncbi.nlm.nih.gov/articles/PMC5032489/ · Harrer ve ark. 2025: https://pure.uva.nl/ws/files/306885004/1-s2.0-S2214782925000612-main.pdf
+- Allen ve ark. 1998: https://bearworks.missouristate.edu/articles-coal/350/ · Montgomery ve Montgomery: https://scholarsmine.mst.edu/psysci_facwork/61
+- Hall 2019: https://news.ku.edu/2018/03/06/study-reveals-number-hours-it-takes-make-friend
+- Felsman, Seifert ve Himle 2019: https://doi.org/10.1016/j.aip.2018.12.001 · Reeves ve ark. 2021: https://doi.org/10.1177/0145445521991102
 - Eime ve ark. 2013: https://doi.org/10.1186/1479-5868-10-135 · Jenkinson ve ark. 2013: https://www.biomedcentral.com/1471-2458/13/773 · Whillans ve ark.: https://bps.org.uk/research-digest/new-study-fails-find-any-psychological-benefits-volunteering
-- Toastmasters kulüp bulucu: https://www.toastmasters.org/Find-a-Club/02979303-02979303
-- Aile ve Sosyal Hizmetler Bakanlığı çevrim içi destek: https://aile.gov.tr/haberler/cevrimici-psikolojik-destek-ve-aile-danismanligi-hizmeti-7-ilde-pilot-uygulama-olarak-baslatildi/
-- Türkiye Ruh Sağlığı Profili-2: https://www.turkpsikiyatri.com/PDF/C37/tr/20.pdf
-- TherapyRoute (ücretler, SGK): https://www.therapyroute.com/article/how-much-does-therapy-costs-in-istanbul-turkey-2025-guide-by-therapyroute
-- Bilkent PDGM: https://w3.bilkent.edu.tr/web/ogrencibrosurleri/pdgm2026_TR_EN.pdf
-- TBMM kanun teklifi (psikolog unvanı): https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y2/T2/WebOnergeMetni/3f2be73d-d228-4b1d-9c2b-fb623791f453.pdf
-- TRSM çalışması: https://dergipark.org.tr/en/download/article-file/1320244
+- Toastmasters: https://www.toastmasters.org/Find-a-Club/02979303-02979303
+- GSB gençlik merkezleri: https://yayinlar.gsb.gov.tr/Public/Files/Genclik_ve_Spor_istatistikleri_kitabi_2024.pdf · https://e-genc.gsb.gov.tr/SSS?kurumTipEnum=SSS
+- Halk eğitim: https://www.trthaber.com/haber/egitim/meslek-edindirme-programlarindan-gecen-yil-115-milyon-kisi-yararlandi-842987.html · Yönetmelik: https://nurdagi.meb.gov.tr/meb_iys_dosyalar/2025_07/23143519_mebhayatboyuogrenmekurumlariyonetmeligi.pdf
+- TEGV: https://tegv.org/wp-content/uploads/Arastirmalar/TEGVGonullulukArastirmalari.pdf
+- Bakanlık çevrim içi destek: https://aile.gov.tr/haberler/cevrimici-psikolojik-destek-ve-aile-danismanligi-hizmeti-7-ilde-pilot-uygulama-olarak-baslatildi/
+- Türkiye Ruh Sağlığı Profili-2: https://www.turkpsikiyatri.com/PDF/C37/tr/20.pdf · TherapyRoute: https://www.therapyroute.com/article/how-much-does-therapy-costs-in-istanbul-turkey-2025-guide-by-therapyroute
+- Bilkent PDGM: https://w3.bilkent.edu.tr/web/ogrencibrosurleri/pdgm2026_TR_EN.pdf · TRSM: https://dergipark.org.tr/en/download/article-file/1320244
+- 1219 sayılı Kanun: https://www.mevzuat.gov.tr/mevzuatmetin/1.3.1219.pdf · 2024 kanun teklifi: https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y2/T2/WebOnergeMetni/3f2be73d-d228-4b1d-9c2b-fb623791f453.pdf
 
-Tüm iddia defterleri, alıntılar ve doğrulama notları `ek/` klasöründe.
+Bütün defterler, alıntılar, doğrulama notları ve eleştiriler `ek/` klasöründe.
 
 ---
 
 ## 6. Devam notu
 
-1. Soru: 24 yaşında, Türkiye'de yaşayan, kadınlarla ilgilenen bir erkek neden şimdiye kadar ilişki yaşamadı, neden şimdi zorlanıyor, ne yapmalı? Zorlandığı yerler: tanışma fırsatı, ilk adım ve deneyimsizlik utancı. Geçmişi sınav odaklı.
-2. Bulgu: durum azınlıkta ama nadir değil, ve çoğu geç başlayan yetişiyor. Nedenler aile çevresi, dar tanışma ağı ve çekingenlik. Döngüyü kaçınma, yanlış tahminler, seçici olmayan baskı ve gizleme sürdürüyor. Çözüm: tekrarlı karma ortamlar, kaygı merdiveni, açık ve tek teklif, BDT desteği.
-3. Dosyalar: bu rapor; `ek/d1_T1…T7.md` (1. dalga: 14 araştırmacı), `ek/d2_U1+U3.md`, `ek/d2_U2+U4.md`, `ek/d2_U5.md` (2. dalga) ve `ek/d2_hedefli_dogrulama.md`.
-4. Açık kalanlar: Türkiye'de ulusal temsilî flört verisi, kadınların erkek deneyimsizliğine bakışı, güncel terapi ücretleri, İBB'nin ücretsiz danışmanlık hizmeti.
-5. Sonraki adım (istenirse): 12 haftalık planın uygulanması sırasında haftalık tablo üzerinden yeni bir oturumda ilerleme değerlendirmesi.
+1. **Soru:** 24 yaşında, Türkiye'de yaşayan, kadınlarla ilgilenen bir erkek neden şimdiye kadar ilişki yaşamadı, neden şimdi zorlanıyor, ne yapmalı? Zorlandığı yerler: tanışma fırsatı, ilk adım, deneyimsizlik utancı. Geçmişi sınav odaklı.
+2. **Bulgu:** Azınlıktaki bir durum, ama nadir değil; senin yaşında grup küçülüyor. Etkenler: dar tanışma ağı, çekingenlik, beden kaygısı. Aile ve sınav etkisi küçük ya da ölçülmemiş. Döngüyü kaçınma, sonradan kafada tekrar oynatma, yanlış tahminler, seçici olmayan baskı ve gizleme sürdürüyor.
+3. **Çözüm:** Tekrarlı karma ortamlar, küçük deneylerle kaygı merdiveni, eğer–o zaman planıyla tek ve açık teklif, ret anı için hazırlık, utançla baş etme, gerekirse BDT.
+4. **Dosyalar:** Bu rapor. `ek/d1_T1…T7.md` (1. dalga), `ek/d2_U1+U3.md`, `ek/d2_U2+U4.md` ve `ek/d2_U5.md` (2. dalga), `ek/d2_hedefli_dogrulama.md`, `ek/xhigh_yeniden_dogrulama.md`, `ek/elestiri_xhigh.md`, `ek/takip_xhigh.md`.
+5. **Sonraki adım:** 12 haftalık planı uygularken deney defteri üzerinden yeni bir oturumda ilerleme değerlendirmesi. Açık kalan konular: Türkiye için temsilî flört verisi, Türk kadınlarının erkek deneyimsizliğine bakışı, mesajlaşma.
 
 ---
 
-Maliyet: Seviye L+ · 43 ajan, hepsi Opus: 19 araştırmacı, 22 doğrulayıcı, 2 eleştirmen · 2 üretim dalgası artı doğrulama ve eleştiri turu · Kontrol noktasını geçen ajan yok (en yüksek araştırmacı 33/35) · Plan "yaklaşık 40 ajan" idi. Doğrulayıcı sayısı 20 satıra 1 ölçüsünün üstünde kaldı (287 satıra 22, yani 13 satıra 1). Bunun iki nedeni var: doğrulama konu bazında bölündü, ve örneklemde hata çıkan 6 defter tam kontrole alındı.
+Maliyet: Seviye L+ · 49 ajan, hepsi Opus.
+
+- 20 araştırmacı, 25 doğrulayıcı ve 2 eleştirmen. İlk 41 ajan orta eforla, sonraki 6 ajan xhigh eforla çalıştı.
+- Bu 49 ajana, durdurulup xhigh eforla yeniden başlatılan 2 eleştirmen (high efor) de dahil.
+- Süreç: 2 üretim dalgası, 1 takip, 2 doğrulama turu ve 1 eleştiri turu.
+- Kontrol noktasını geçen ajanlar: xhigh doğrulayıcılardan biri (45/40, rapordaki cümleleri bulmak için) ve takip ajanı (35/30, yeni resmî veri geldiği için).
+- Plan "yaklaşık 40 ajan" idi. Aşımın nedenleri:
+  - onayladığın xhigh yeniden doğrulama ve takip
+  - durdurulan 2 eleştirmen
+  - doğrulayıcı oranının 20 satıra 1'in üstünde kalması (konu bazlı bölme ve 6 defterin tam kontrolü)
