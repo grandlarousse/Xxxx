@@ -1,0 +1,2328 @@
+{
+ "uretici": [
+  {
+   "key": "P1",
+   "label": "beden-toparlanma",
+   "arac": "34/35",
+   "ozet": "Tablo büyük olasılıkla gecikmiş kas ağrısı (DOMS). Alışılmadık, özellikle eksantrik yüklenmeden sonra ortaya çıkar. Eksantrik yüklenme, kasın uzarken kasıldığı iştir: eğilip kaldırmak, yük indirmek. Kas hasarı yaklaşık 2. günde zirve yapar. \"24–72 saatte zirve, 5–7 günde geçer\" bilgisi yaygın, ama bu oturumda birincil kaynaktan birebir doğrulanmadı. Kanıtların neredeyse tamamı laboratuvarda egzersiz yapan sağlıklı genç yetişkinlerden geliyor. Tarla işine özgü çalışma yok.\n\nÖnümüzdeki 24–72 saat:\n1. Isı: Ağrıyan yere havluya sarılı sıcak su torbası ya da sıcak paket koy. Sıcak paket 24 saatten sonra da ağrıyı azaltıyor (meta-analiz, ama çalışmalar küçük ve düşük kaliteli). Bel için ısı bandı küçük ve kısa süreli fayda sağlıyor. Soğuk, işten sonraki ilk 1 saatte uygulanırsa yalnızca ilk 24 saatte işe yarıyor; o süre büyük olasılıkla geçti. Sıcakla soğuk arasında anlamlı fark yok.\n2. Yatakta kalma, hafif hareket et: Yürüyüş gibi hafif hareket ağrıyı azaltıyor (az sayıda çalışma). Hareket ağrıyı en etkili ama geçici biçimde dindiriyor.\n3. Masaj ve köpük rulo isteğe bağlı: Masajın DOMS'a faydası küçük, yorgunluğu azalttığı gösterilmedi. Köpük rulo ağrı algısını biraz azaltıyor. Germe ağrıyı klinik olarak azaltmıyor.\n4. Uyku: En az 7 saat, uyku borcun varsa daha uzun. Az uyku ağrı şiddetini artırıyor.\n5. Beslenme: Öğün başına yaklaşık 0,25 g/kg protein (ya da 20–40 g), güne dağıtarak. Bol su iç, alkol alma.\n6. İlaç: Önce jel. Diklofenak jel akut kas zorlanmasında etkili (NNT 1,8: plaseboya göre kabaca her 2 kişiden 1'inde ağrı ek olarak en az yarıya iniyor). Jelin cilt yan etkisi plaseboyla aynı. Gerekirse ağızdan ibuprofen al, en düşük dozda ve en kısa süre; DOMS'taki faydası tartışmalı. Susuzken alma: ağır eforda böbrek hasarı ibuprofen alanlarda %52, plasebo alanlarda %34 görüldü (fark anlamlı değil). Mide ülseri, astım ya da böbrek, kalp veya karaciğer hastalığı varsa ibuprofen kullanma. Parasetamol tek başına bel ağrısı için önerilmiyor.\n\nHemen 112:\n- Çay ya da kola renkli idrar, beklenenden çok şiddetli kas ağrısı veya olağandışı güçsüzlük. Bunlar rabdomiyoliz (kas yıkımı) belirtisidir; günler sonra çıkabilir ve tanı kan CK testiyle konur.\n- Bel ağrısıyla birlikte iki bacakta uyuşma ya da güçsüzlük.\n- Genital bölge ya da makat çevresinde his kaybı.\n- İdrar ya da dışkı kontrolünde değişiklik.\n- Göğüs ağrısı.\n\nAynı gün doktora git: ateş, titreme ya da kendini genel olarak hasta hissetme; aniden başlayan ya da hızla kötüleşen şiddetli ağrı.",
+   "listede_olmayan": [
+    "Topikal NSAİİ jel (özellikle diklofenak) akut kas-iskelet ağrısında güçlü kanıta sahip (NNT 1,8). Cilt yan etkisi plaseboyla aynı, sistemik yan etki çok az. Susuz kalmış ya da mide hassasiyeti olan biri için ağızdan NSAİİ'ye göre daha güvenli bir ilk adım.",
+    "Soğuk tedavinin faydası işten sonraki ilk 1 saatte uygulanmasına bağlı görünüyor. 24 saati geçmiş ağrıda kanıt sıcak paketten yana. 2022 ağ meta-analizi (59 çalışma, 1367 kişi; düşük kalite) sıcak paketi 24 ve 48 saatte ilk sıraya koyuyor (PubMed 34636405).",
+    "Hareket DOMS ağrısını en etkili ama geçici biçimde dindiriyor (Cheung 2003). NHS uzun süre yatakta kalmamayı öneriyor. Bel için ısı bandına egzersiz eklemek tek bir çalışmada ek fayda sağladı.",
+    "CDC/NIOSH: Rabdo belirtileri günler sonra başlayabilir. İdrar çubuk testi güvenilir değil; tanı seri CK kan testiyle konur ve hasta testi istemelidir. Çiftçiler dahil dış mekân işçileri risk grubunda. Susuzluk rabdoyu doğrudan yapmaz ama kötüleştirir; alkolden kaçınma öneriliyor (son ikisi arama özetinden görüldü).",
+    "NHS'in 999/acil listesinde iki bacakta belirti ve cinsel işlev değişikliği de var. Ateş, titreme ya da hızla kötüleşen şiddetli ağrı acil doktor randevusu gerektiriyor. Ev bakımına rağmen birkaç haftada düzelmeyen bel ağrısı için doktora gidilmeli.",
+    "Tekrarlanan yüklenme etkisi (repeated bout effect): Aynı eksantrik iş ikinci kez yapıldığında kas hasarı ve ağrı daha az oluyor; koruma haftalarca sürüyor. Cheung 2003 yeni işin 1–2 hafta içinde kademeli artırılmasını öneriyor (bu kısım derleme özetleri ve ikincil kopyadan; birebir alıntı alınmadı). Pratik sonuç: dedenin tarlasına bir sonraki gidişte ağrı muhtemelen daha az olur.",
+    "Ultramaraton çalışmasında 4 saatte bir 400 mg ibuprofenle böbrek hasarı riski kilo kaybıyla (susuzluk göstergesi) arttı. Su içmeden ağrı kesici almak en riskli kombinasyon.",
+    "Uyku: Uyku borcunu kapatan kişiler için olağandan uzun uyku uygun olabilir (AASM/SRS)."
+   ],
+   "celisen": [
+    "Masaj: Dupuy 2018 masajı DOMS ve yorgunlukta 'en etkili' buluyor. Davis 2020 (29 RKÇ, 1012 kişi) yorgunluğa etki bulmadı, DOMS'ta yalnızca küçük fayda gördü. PainScience'taki popüler bir yazı Dupuy'u 'garbage in, garbage out' diye eleştiriyor (düşük güven). Masaj yorgunluk için 'en etkili' diye sunulmamalı.",
+    "Soğuk: Bleakley 2012 soğuk suyun 24–96 saatte fayda sağladığını buluyor (düşük kalite). Cheung 2003 kriyoterapiyi etkisiz sayıyor. Wang 2021'de fayda yalnızca ilk 1 saatte uygulanınca ve ilk 24 saatte var; sıcaktan farkı da yok. Kullanıcı eve dönmüşken soğuk penceresi büyük olasılıkla geçmiş.",
+    "NSAİİ: Hipotezdeki 'kısa süreli NSAİİ' önerisi DOMS için zayıf. Nahon meta-analizinde plasebodan farksız çıktı (SMD 0,02; I²=93%; makale açılmadı). Cheung 2003 etkiyi doza ve zamana bağlı buluyor. Akut zorlanmada kanıt topikal NSAİİ'den yana.",
+    "Parasetamol: Hipotezde ağrı kesici seçeneği olarak geçiyor. Oysa akut bel ağrısında PACE çalışması (Lancet 2014) plasebodan farksız buldu; NICE ve NHS tek başına önermiyor. DOMS'ta parasetamol kanıtı bu oturumda aranmadı.",
+    "İbuprofen ve böbrek: Ultramaraton çalışmasında fark anlamlı değil. Baş araştırmacı uyarıyı genel halka genişletmiyor. Sıcakta bisiklet çalışmasında ibuprofen böbrek belirteçlerini etkilemedi. Risk makul ama kanıtlanmış değil.",
+    "Protein: Hipotezdeki öğün başına 0,3–0,4 g/kg değeri ISSN'in genel önerisinden (0,25 g/kg ya da 20–40 g) biraz yüksek.",
+    "DOMS zaman seyri kaynaklara göre değişiyor: 24–48 saat, 48–72 saat, 2–3 gün. 2001 tarihli bir BMC çalışmasında koşu ile basamak egzersizinin ağrı seyri farklıydı. Tek tip '24–72 saat' çizelgesi kesin değil.",
+    "Kaynak tutarsızlıkları: Dupuy'un dahil ettiği çalışma sayısı özette 99, bazı kopyalarda 107. Herbert'teki büyük denemenin katılımcı sayısı özette 2377, Cochrane sayfasında 2337. Bleakley 48 saat güven aralığı arama özetinde -0,10, özetin aslında -0,35; esas alınan -0,35."
+   ],
+   "acik": [
+    "'24–72 saatte zirve, 5–7 günde geçer' birincil kaynaktan birebir doğrulanamadı. Cheung 2003 tam metni yalnızca Scribd kopyasında; Hotfiel 2018 özetine Europe PMC üzerinden erişilemedi. Armstrong 1984 yalnızca nekrozun yaklaşık 2. günde zirve yaptığını söylüyor.",
+    "Nahon NSAİİ-DOMS meta-analizi açılmadı. SMD 0,02 ve I²=93% arama özetinden; düşük güvenle kullanılmalı.",
+    "Tarla işi ya da zeytin hasadından sonra toparlanmaya özgü çalışma bulunmadı. Bütün kanıt laboratuvar ve spor ortamında, çoğunlukla genç sağlıklı örneklemlerde eksantrik egzersizden geliyor.",
+    "Sıcak ya da soğuk uygulamanın süresi ve sıklığı için standart bir protokol yok; çalışmalar arasında değişiyor. Bu yüzden özette dakika verilmedi.",
+    "Sıvı, elektrolit ve karbonhidrat için somut doz araştırılmadı. CDC önerileri sıcakta çalışma bağlamında.",
+    "DOMS için parasetamolün etkinliği aranmadı.",
+    "Türkiye acil numarası 112 bu oturumda kaynakla doğrulanmadı (genel bilgi).",
+    "Cochrane CD008262'nin 2022'de güncellenip güncellenmediği doğrulanmadı.",
+    "PACE çalışmasının rakamları yalnızca haber özetlerinden görüldü, deftere alınmadı."
+   ]
+  },
+  {
+   "key": "P2",
+   "label": "beden-sosyallik-bagi",
+   "arac": "35/35 (kontrol noktasında durdum: soru yanıtlandı. Kalan boşluk, yani ağrının sosyal motivasyona doğrudan etkisi, ek aramayla kapanacak gibi görünmedi)",
+   "ozet": "Kısa yanıt: Evet, büyük ölçüde etkiler. En sağlam kanıt uyku eksikliğine ait. Deneylerde tek gece az uyku (4 saat) ya da tam uykusuzluk, insanlarla bir araya gelme isteğini azaltıyor. Uyku yoksunluğunu inceleyen geniş bir meta-analiz de olumlu duyguların her uyku kaybı türünde düştüğünü gösteriyor. Uykululuk arttıkça \"arkadaşlarla birlikte olma\" isteği düşüyor, buna karşılık \"sevdiğin biri tarafından ilgilenilme\" isteği artıyor. Bulgular, beynin motivasyonu sosyalleşmeden dinlenmeye kaydırdığını düşündürüyor. Bunun bir karakter sorunu olmadığını, geçici bir dinlenme sinyali olduğunu söylüyor.\n\nİnflamasyon (vücuttaki iltihabi yanıt) tarafı: Güçlü deneysel iltihap (endotoksin) birkaç saat içinde \"insanlardan kopuk hissetme\" duygusunu artırıyor; tepe noktası yaklaşık 2. saat. Ama aynı iltihap, yakın ve destek veren kişilere yaklaşma isteğini artırıyor; geri çekilme daha çok yabancılardan. Kas hasarı yapan ağır egzersizde kanıt daha zayıf. Yokuş aşağı koşu deneyinde IL-6 3. saatte, CRP 24. saatte yükseldi ve duygu tanıma kötüleşti, fakat ruh hali puanları değişmedi (19 erkek). Tek ve küçük çalışmalar bunlar.\n\nSüre: IL-6 saatler içinde düşüyor, CRP 1. günde tepe yapıp geriliyor, kas ağrısı 48–72. saatte zirvede. Tek kötü geceden sonra 1 iyi gece büyük ölçüde yetiyor olabilir; bu kanıt zayıf (bir doktora tezi). Birden fazla kısa geceden sonra 10 saatlik tek gece bile tam toparlamıyor, birkaç gece gerekiyor. Beden kaynaklı kısım için makul tahmin 2–4 gün. İstanbul kaynaklı kronik tükenmişlik bu verilerle açıklanmaz, ayrı ele alınmalı.\n\nNe yapmalı (çıkarım):\n1. 1–3. geceler: her gece 9–10 saat yatakta kal. Birkaç kısa geceden sonra tek uzun gece yetmiyor.\n2. 1–3. günler: yeni kişilerle tanışma ya da randevu planlama. Yakın arkadaşla kısa, zahmetsiz buluşmalar yap. İltihap ve uykululuk bu tür temas isteğini artırıyor.\n3. Tamamen yalnız kalma: laboratuvarda 8 saatlik yalnızlık enerjiyi düşürdü (küçük örneklem, yalnızca kadınlar).\n4. Ağrı zirveyi geçip uykun düzelince (yaklaşık 3–5. gün) küçük grupla, 1–2 saatlik yeni ortamlara geç. Sosyalleşme anında ruh halini iyileştiriyor ama yaklaşık 3 saat sonra hafif yorgunluk getiriyor; yorgunluğu kişi sayısı artırıyor. Sonrasına dinlenme koy.\n5. Yeni biriyle tanışmayı iyi uyuduğun bir güne denk getir. Uykusuz yüzler başkalarına daha az \"sosyalleşilesi\" görünüyor.\n\n\"Sosyal pil\" bir mecaz. \"Ego tükenmesi\" fikri, yani irade gücünün harcandıkça tükenen bir pil olduğu iddiası, büyük tekrar çalışmasında doğrulanmadı. Bu yüzden toparlanmayı \"pili doldurmak\" diye değil, uyku ve ağrı düzelince geri dönen motivasyon diye düşün.",
+   "listede_olmayan": [
+    "Axelsson ve ark. 2026 (J Sleep Res, PMID 42045986): uyku kısıtlaması ve aşıya bağlı iltihap, motivasyonu sosyal ve fiziksel etkinlikten dinlenmeye kaydırıyor. İkisi birlikte bazı ölçümlerde daha büyük etki yapıyor. Tarla işinden sonraki az uyku ve kas iltihabı kombinasyonuna en yakın deneysel model bu.",
+    "Inagaki ve ark. 2015: iltihap tüm sosyal isteği düşürmüyor. Yakın, destek veren kişilere yaklaşma isteğini artırıyor; geri çekilme daha çok yabancılardan. Axelsson 2020'de de uykululuk 'sevdiğin biri tarafından ilgilenilme' isteğini artırıyor (OR 1.49). Plan açısından anlamı: ilk günlerde yeni kişiler yerine yakın arkadaşlar.",
+    "Stijovic ve ark. 2023 (Psychol Sci): 8 saatlik yalnızlık enerji hissini açlık kadar düşürdü. Tamamen kapanıp dinlenmek de 'enerjisizlik' hissini besleyebilir. Laboratuvar örneklemi yalnızca kadın (N=30); saha tekrarı yalnızca yalnız yaşayan ya da çok sosyal kişilerde görüldü.",
+    "Leikas ve Ilmarinen 2017: sosyalleşme anında ruh halini iyileştirip yorgunluğu azaltıyor, yaklaşık 3 saat sonra hafif yorgunluk getiriyor. İçedönükler dışadönüklerden daha fazla yorulmuyor; yorgunluğu karşılaşılan kişi sayısı artırıyor. Basında aktarılan yazar yorumuna göre etki zayıf ve kısa ömürlü.",
+    "Keck ve ark. 2024: kas hasarlı egzersizden sonraki iltihap ruh halini değiştirmeden duygu tanımayı bozdu ve bakışı üzgün uyaranlara kaydırdı. Bu bir sosyal algı etkisi: o gün insanları 'okumak' daha zor olabilir.",
+    "Sundelin ve ark. 2017: başkaları uykusuz yüzlerle daha az sosyalleşmek istiyor. Yeni insanlarla, özellikle romantik ilgiyle tanışma için dinlenmiş bir günü seçmenin gerekçesi bu.",
+    "Palmer ve ark. 2024 meta-analizi (154 çalışma): en tutarlı etki olumlu duygunun azalması ve kaygının artması. Olumsuz duygu ve depresif belirti sonuçları karışık."
+   ],
+   "celisen": [
+    "Keck ve ark. 2024 (PMC11225855): kas hasarı yapan yokuş aşağı koşu IL-6, CRP ve MCP-1'i yükseltti ama hiçbir ruh hali ölçeğinde fark yaratmadı (tüm p>0,05). Aynı makale bu tür egzersizin 'without inducing significant effects on sickness symptoms such as fever' olduğunu yazıyor. Endotoksin çalışmalarındaki (Eisenberger 2010) güçlü kopukluk ve çökkünlük etkisini egzersiz ya da tarla işi kaynaklı kas iltihabına doğrudan taşımak zayıf bir çıkarım.",
+    "Inagaki 2015: iltihap her tür sosyal motivasyonu düşürmüyor, yakın kişilere yaklaşmayı artırıyor. Bu yüzden 'sosyal pil tümden sıfır' tanımı tam doğru değil: düşen esas olarak yabancılarla ve yeni ortamlarla uğraşma isteği.",
+    "Banks 2010: '1–3 gece iyi uyku yeter' hipotezi kısmen doğru. Birkaç kısa geceden sonra 10 saatlik tek gece bile uykululuk ve yorgunluğu tam düzeltmiyor, birden fazla gece gerekiyor.",
+    "Hagger 2016 ve ego tükenmesi: 'tükenen enerji deposu' modeli büyük tekrar çalışmasında doğrulanmadı (d=0,04). 'Sosyal pil' mecazının bilimsel bir karşılığı olduğu varsayılmamalı. Sosyalleşmenin getirdiği yorgunluk da zayıf ve kısa süreli (Leikas 2017).",
+    "Ben Simon ve Walker 2018 için bağımsız bir tekrar ya da başarısız tekrar bulunamadı. Laboratuvar ayağı 18 kişi; sonuç tek çalışmaya dayanıyor."
+   ],
+   "acik": [
+    "Akut bedensel ağrının (örneğin gecikmiş kas ağrısı) sosyal motivasyonu ya da yaklaşma davranışını doğrudan azalttığını gösteren deneysel bir çalışma bulunamadı. Aramada yalnızca dolaylı kanıt çıktı (soğuk suyla ağrı oluşturulduktan sonra dışlanmışlık hissi; Riva ve ark.); bu kaynak bu oturumda doğrulanmadı.",
+    "Ağır bedensel işten (tarla işi gibi) sonra sosyal motivasyonu ve bunun toparlanma süresini doğrudan ölçen bir çalışma yok. 2–4 günlük süre tahmini; IL-6, CRP, kas ağrısı ve uyku toparlanma verilerinin birleştirilmesiyle yapılmış bir çıkarım.",
+    "Tek gece uykusuzluktan sonra 1 toparlanma gecesinin sosyal motivasyonu ve olumlu duyguyu tam düzeltip düzeltmediğine dair hakemli doğrudan veri bulunamadı. Mevcut kanıt bir doktora tezi (düşük güven); olumlu duygunun daha yavaş toparlandığına işaret ediyor.",
+    "Cinsiyet farkı (endotoksine bağlı kopukluk hissinin kadınlarda daha güçlü olduğu iddiası, Moieni 2015) doğrulanmadı. Kullanıcının cinsiyeti de belirtilmemiş.",
+    "İstanbul kaynaklı kronik sosyal tükenmişlik bu sorunun kapsamı dışında. Buradaki kanıt yalnızca akut beden kaynaklı düşüşü açıklıyor; kronik kısmın 2–4 günde geçeceği varsayılmamalı."
+   ]
+  },
+  {
+   "key": "P3",
+   "label": "sosyal-pil-bilimi",
+   "arac": "35/35 (kontrol noktasında durdum; soru yanıtlandı, kalan eksikler sonucu değiştirmiyor)",
+   "ozet": "\"Sosyal pil\" bilimde ölçülen bir yapı değil, bir benzetme. Onu doğrudan test eden hakemli bir çalışma bulamadım. Yine de altındaki mekanizmalar iyi destekleniyor ve kullanıcının durumunu açıklıyor.\n\n1) Sosyal yorgunluk gecikmeli gelir. Girişken ve sosyal davranmak o anda moralini yükseltir, yorgunluğu azaltır. 2–4 saat sonra ise yorgunluk artar. Bu dışadönükler için de geçerli (Leikas 2017 ve 2020, Willinger 2025). Etkiler küçük, örneklemler küçük ve çoğunluğu kadın Fin öğrencilerden oluşuyor. Görüşmenin ne zaman biteceğini kontrol edebilmek toparlanmayı kolaylaştırdı.\n\n2) Düzenleme iki yönlü ve gün içinde işliyor (Hall 2016). Bu da açlığa benziyor: 10 saat yalnız kalan kişilerin beyni sosyal işaretlere açlığa benzer bir yanıt verdi (Tomova 2020). 8 saatlik yalnızlık da enerjiyi aç kalmak kadar düşürdü (Stijovic 2023). Yani çok uzun yalnız kalmak \"pili\" doldurmaz, enerjiyi de düşürür.\n\n3) Şarj eden şeyler:\n- Kısa ve kendi seçtiğin yalnızlık. 15 dakika yalnız oturmak bile insanı sakinleştirdi. Ancak 15 dakika keyfi seçilmiş bir süre; ideal dozu gösteren bir veri yok. Aynı sürede hafif bir yalnızlık ve hüzün de arttı.\n- Daha çok yalnız geçen günlerde stres azaldı ama yalnızlık hissi arttı. Herkese uyan ideal bir oran bulunmadı (Weinstein 2023; bu korelasyon, katılımcılar 35 yaş üstü).\n- Tanıdık insanlarla etkileşim, tanımadıklarla olandan daha az enerji harcatıyor. Kopukluk hissi ve çatışma ise yoruyor (Hall 2023).\n\n4) Beden payı büyük. Uykusuzluk tek başına insanı sosyal olarak geri çekiyor. Dışarıdan bakanlar da uykusuz kişiyi daha yalnız ve daha az çekici görüyor (Ben Simon ve Walker 2018). Deneysel iltihap da kopukluk hissi yarattı. Ancak ağır bedensel işin aynı etkiyi yaptığı gösterilmedi; bu bir çıkarım.\n\n5) Ayırt etmek için:\n- İçedönüklük bir kişilik boyutu. İçedönükler de girişken davrandıklarında o an mutlu oluyor. Ama bir hafta boyunca kendini zorlayanlarda yorgunluk ve sahte hissetme arttı.\n- Tükenmişlik (burnout), Dünya Sağlık Örgütü'ne (WHO) göre yalnızca iş bağlamı için kullanılan bir terim. \"Sosyal tükenmişlik\" bir tanı değil.\n- Depresyon: en az 2 hafta boyunca, günün çoğunda çökkün duygu ya da çoğu etkinlikte keyif kaybı. Keyifsizlik yalnızca insanlarla sınırlı kalmayıp her şeye yayıldıysa, profesyonel destek gerekir.\n\n6) İnsanlar, yabancılarla konuşmanın ne kadar keyifli olacağını ve karşı tarafın ne kadar ilgi duyacağını olduğundan düşük tahmin ediyor (Epley 2014).\n\nUygulama (kanıttan çıkarım; dozlar test edilmedi):\n- Önce 1–2 gece iyi uyku ve bedenin toparlanması.\n- Ardından kısa, çıkışı senin elinde olan buluşmalar. İlk adım tanıdık biriyle ya da tanıdık birinin eşliğinde yeni bir ortam olsun.\n- Buluşmadan sonraki 2–4 saatte yorgunluk gelmesini bekle ve planlı, kısa bir yalnız zaman ayır.\n- Tüm günü yalnız geçirme.\n- Keyif kaybı her alana yayıldıysa ve 2 haftayı geçtiyse bir uzmana başvur.",
+   "listede_olmayan": [
+    "Stijovic ve ark. 2023 (Psychological Science): 8 saatlik yalnızlık, açlık kadar enerji düşürüp yorgunluk artırdı. Yani 'yalnız kalınca pil dolar' fikri sınırlı; uzun yalnızlık enerjiyi de düşürebilir.",
+    "Willinger ve Stieger 2025 (iScience): nesnel Bluetooth ölçümüyle gecikmeli yorgunluk tekrarlandı (zirve 3–4 saat). Durum üzerinde kontrol hissi toparlanmayı kolaylaştırdı. Pratik karşılığı: çıkışı senin elinde olan buluşmalar.",
+    "Hall 2016 (JSPR): insanlarda sosyal etkileşim homeostatik ve gün içinde düzenleniyor; dünkü istek bugünü belirlemiyor. Toparlanma ölçeği gün olarak düşünülebilir, hafta değil (çıkarım).",
+    "Hall ve ark. 2023 'Social Bandwidth' (JSPR): tanımadık partner, kopukluk ve bağlanma hissi enerji maliyetini artırıyor. İkincil kaynağa (PsyPost) göre çatışma, dert yanma ve iş/okul konuşması en yorucu türler (birebir doğrulanmadı).",
+    "Weinstein ve ark. 2023 (Sci Rep): ideal yalnızlık/sosyal zaman oranı yok, etkiler doğrusal. Yalnız gün stresi azaltıyor ama yalnızlık hissini artırıp gün memnuniyetini düşürüyor.",
+    "Ben Simon ve Walker 2018 (Nat Commun): uykusuzluk sosyal geri çekilmeye yol açıyor; başkaları uykusuz kişiyi daha yalnız ve daha az sosyal açıdan çekici görüyor. Tarla yorgunluğu ve kötü uyku 'sıfır pil' hissinin büyük kısmı olabilir; yeni insanlarla tanışmadan önce uyku öncelik.",
+    "Eisenberger ve ark. 2010: deneysel iltihap sosyal kopukluk hissi yarattı. Ağır kas işinin aynı yolu tetiklediği gösterilmedi; yalnızca olası bir mekanizma.",
+    "Epley ve Schroeder 2014: insanlar yabancıyla konuşmanın keyfini ve karşının ilgisini düşük tahmin ediyor. Yeni insanlarla tanışma isteği için doğrudan ilgili.",
+    "Fleeson ve ark. 2002: içedönükler dahil herkes dışadönük davrandığı anlarda daha mutlu. İçedönüklük sosyallikten keyif almamak demek değil.",
+    "Jacques-Hamilton ve ark. 2019 makalesine 2026'da düzeltme yayımlandı: sahicilik ölçümünde 3 değil 2 madde kullanılmış, güvenirlik 0.62."
+   ],
+   "celisen": [
+    "Matthews ve Tye 2019, Nature Neuroscience'ta değil Annals of the New York Academy of Sciences'ta (doi 10.1111/nyas.14016) yayımlanmış bir derleme ve büyük ölçüde kemirgen verisine dayanıyor; görev listesindeki dergi bilgisi yanlış.",
+    "Leikas ve Ilmarinen 2017'deki 'kişilikten bağımsız' bulgusu kısmen çelişiyor: 1 haftalık RKÇ'de (Jacques-Hamilton 2019) dışadönük davranmaya zorlanan içedönüklerde yorgunluk ve olumsuz duygu arttı, sahicilik hissi azaldı. Leikas 2020 ise kişilik etkisini test edecek güçte değildi. Kısa vadede herkes yoruluyor; uzun süreli zorlamada içedönüklerin maliyeti daha yüksek.",
+    "Leikas 2017 aracı olarak karşılaşılan kişi sayısını bulmuştu. Leikas 2020'de (makale metnine göre) insanlarla karşılaşmanın kendisi etkiyi açıklamadı; yazar öz sunum kaygısı ve dikkat/çalışma belleği eforunu öneriyor (test edilmedi).",
+    "'Yalnızlık şarj eder' hipotezi yalnızca kısmen destekleniyor. 15 dakika yalnızlık sakinleştirdi ama marjinal yalnızlık/hüzün artışı da getirdi (Nguyen 2018). Uzun yalnızlık enerjiyi düşürdü (Stijovic 2023). Yalnız geçen günlerde yalnızlık hissi arttı, memnuniyet düştü (Weinstein 2023).",
+    "'Yakınlarla sahici etkileşim yormaz' hipotezi kısmen destekleniyor. Tanıdıklarla etkileşim daha az enerji harcatıyor, ama bağlanma hissi ve anlamlı konuşmalar da enerji yoğun (Hall 2023). Değerli ama bedava değil.",
+    "Hall 2016, O'Connor ve Rosenblood 1996'nın 'sosyal doyma' iddiasını desteklemedi; basit 'pil doldu/boşaldı' modeli kanıtla tam örtüşmüyor.",
+    "Zelenski 2012 (ikincil kaynağa göre) kısa süreli dışadönük davranışta içedönükler için maliyet bulmadı; Jacques-Hamilton 2019 bir haftalık uygulamada maliyet buldu. Süre önemli görünüyor."
+   ],
+   "acik": [
+    "Sosyal yorgunluğun zirveden sonra ne kadar sürdüğünü (toparlanma süresi) ölçen çalışma bulamadım; elde yalnızca başlangıç/zirve (2–4 saat) var. Yalnız kalma dozu da test edilmemiş (Nguyen'in 15 dakikası keyfi).",
+    "Hall ve ark. 2023'ün tam metni açılamadı (bvbvf1.bib-bvb.de ağ izninde değil). Özet Crossref'ten doğrulandı; konuşma türü listesi yalnızca ikincil kaynaktan.",
+    "Matthews ve Tye 2019 tam metni açılmadı; alıntı arama özetinden, güven orta.",
+    "Rol yapma/yüzeysel davranmanın iş dışı sosyal ortamda yorgunluğa yol açtığını doğrudan test eden çalışma bulunamadı. Dolaylı kanıt: Jacques-Hamilton'da sahicilik kaybı, Leikas'ın öz sunum önerisi.",
+    "Ağır bedensel işin sosyal motivasyonu düşürdüğünü doğrudan gösteren çalışma aranmadı/bulunamadı. Kas ağrısının süresi bu sorunun kapsamı dışında kaldı.",
+    "Örneklemlerin çoğu Batılı, öğrenci ve kadın ağırlıklı; Türkiye ya da kalabalık metropol (İstanbul) etkisi incelenmedi.",
+    "Sosyal kaygı ile içedönüklüğün ayrımı ve tarama araçları (ör. PHQ-2) bu görevde araştırılmadı.",
+    "NIMH 'health/topics/depression' sayfasında ifade bulunamadı; alıntı 'health/publications/depression' sayfasından doğrulandı."
+   ]
+  },
+  {
+   "key": "P4",
+   "label": "sehir-tukenmisligi",
+   "arac": "35/35 (kontrol noktasında durdum: soru yanıtlandı, kalan eksikler sonucu değiştirmiyor)",
+   "ozet": "1) Şu anki \"pil sıfır\" hâlinin büyük kısmı büyük olasılıkla bedensel. Alışılmadık ağır işten sonraki kas ağrısı (DOMS) genellikle 24–72 saatte en yükseğe çıkar, 5–7 günde geçer. Uykusuzluk da insanı sosyal olarak geri çekiyor (küçük örneklemli deney). Bu yüzden ilk 2–3 gün sosyal hedef koymamak, önce uyku ve hafif hareket mantıklı.\n\n2) Sosyal yorgunluk normal ve gecikmeli gelir. Dışadönük davranış o an iyi hissettirip 2–3 saat sonra yorgunluk getiriyor (küçük örneklemler, çoğu kadın öğrenci). Bu yüzden tanışma ortamlarını kısa tutmak, aralıklı yapmak ve sonrasını boş bırakmak işe yarar. Kendi seçtiği kısa yalnızlık (yaklaşık 15 dk) yüksek uyarılmışlığı düşürüyor. Toparlanma araştırmasında (iş bağlamı) yorgunlukla en güçlü bağlantı \"zihinsel kopma\"da, yani stres kaynağını düşünmeyi bırakmakta.\n\n3) Doğa. Haftada toplam en az 120 dk doğa teması, daha iyi sağlık ve iyi oluşla ilişkili. Tek seferde ya da parçalı olması fark etmiyor. Çalışma kesitsel olduğu için neden-sonuç ilişkisi kanıtlanmış değil. 90 dk'lık doğa yürüyüşü ruminasyonu (kafada dönüp duran olumsuz düşünceleri) azalttı. Ancak bu 38 kişilik tek bir çalışma ve bağımsız tekrarı bulunamadı. Kısa yeşil egzersiz bile ruh halini iyileştiriyor, su kenarında etki daha büyük. Doğanın dikkati yenilediği iddiasının kanıtı karışık, etki düşük-orta.\n\n4) Tarla dengesi. Doğada olmak iyi, ama uzun süren, kontrolü sende olmayan ve dinlenmesiz bedensel iş, boş zamanda yapılan egzersizin faydasını vermiyor. Bu bulgu kardiyovasküler ve uzun vadeli; ruh sağlığına doğrudan uygulanmış değil. Toparlanma için uygun olan, kendi temponla hafif yürüyüş; ağır iş değil.\n\n5) Gün ışığı. Kasım sonunda İstanbul'da gün yaklaşık 9,5 saat ve güneş 08:00 civarı doğuyor. Gündüz dışarıda geçen her ek saat, daha düşük depresyon olasılığı ve daha kolay uyanmayla ilişkili. Gece ışığı ise tersi yönde ilişkili; ikisi de gözlemsel bulgu. Pratik öneri: uyandıktan sonra 30–60 dk dışarıda kalmak, akşam ışığı ve ekranı azaltmak. Işık terapisi (2.500–10.000 lüks, 30–60 dk, uyanınca) yalnızca mevsimsel depresyonda güçlü kanıtlı. Bu tanı için art arda iki yıl aynı mevsimde atak gerekir. Mevsimsel olmayan depresyonda kanıtın kalitesi düşük. Göz hastalığı varsa önce doktora danışılmalı.\n\n6) Ne zaman depresyon işareti? Belirtiler en az 2 hafta, günün çoğunda ve neredeyse her gün sürüyorsa: keyif ya da ilgi kaybı, umutsuzluk, uyku ve iştah değişimi, ölüm ya da intihar düşünceleri. \"Burnout\" Dünya Sağlık Örgütü'ne (DSÖ) göre yalnızca iş bağlamı için kullanılıyor; \"sosyal burnout\" klinik bir terim değil. Tükenmişlik depresyonla ilişkili ama ondan ayrı bir durum.\n\n7) Türkiye'de yardım. Psikiyatri randevusu MHRS'den alınır: ALO 182, mhrs.gov.tr ya da mobil uygulama. Acil durumda tek numara 112. Toplum Ruh Sağlığı Merkezleri (TRSM) yönergeye göre ağır ruhsal bozukluğu olanlara hizmet veriyor; hafif tükenmişlik için doğru adres değil. Aile hekiminin bu konudaki rolü resmî kaynaktan doğrulanmadı.",
+   "listede_olmayan": [
+    "Sosyal yorgunluk gecikmeli geliyor (Leikas & Ilmarinen 2017; 2020 Heliyon'da tekrar): sosyal davranış o an iyi hissettiriyor, 2–3 saat sonra yorgunluk getiriyor. Bu da tanışma ortamlarının kısa tutulup sonrasının boş bırakılması gerektiğini düşündürüyor.",
+    "Uykusuzluk sosyal geri çekilme ve yalnızlığa yol açıyor (Ben Simon & Walker 2018). Tarla dönüşündeki 'sosyal pil sıfır' hissinin bir kısmı uyku açığından gelebilir.",
+    "Kendi seçtiğin kısa yalnızlığın yüksek uyarılmışlığı düşüren 'deaktivasyon etkisi' (Nguyen, Ryan & Deci 2018).",
+    "Kas ağrısının (DOMS) zaman seyri: 24–72 saatte tepe yapıp 5–7 günde geçiyor. Sosyal plan bu takvime göre ertelenebilir.",
+    "Gece ışığı, psikiyatrik bozukluk riskiyle ilişkili (Burns 2023). Akşam ışığını azaltmak, sabah ışığı kadar önemli olabilir.",
+    "Su kenarındaki yeşil ortamlar daha büyük ruh hali etkisi gösterdi (Barton & Pretty 2010).",
+    "İş bedensel aktivitesi paradoksu (Holtermann): işte yapılan ağır bedensel aktivite, boş zaman egzersizinin faydasını vermiyor.",
+    "McMahan & Estes 2015 meta-analizi: doğa teması olumlu duyguyu orta düzeyde artırıyor.",
+    "Kasım sonu İstanbul'da güneş 08:00 civarında doğuyor. 'Sabah ışığı' pratikte 08:00–10:00 arasını kapsıyor."
+   ],
+   "celisen": [
+    "TRSM: Listede genel yardım adresi olarak önerilmiş, ama yönergeye göre ağır ruhsal bozukluğu olan hastalara (şizofreni, bipolar) hizmet veriyor. Hafif-orta tükenmişlik için doğru yönlendirme psikiyatri polikliniği (MHRS) olur.",
+    "Burnout: DSÖ ICD-11'e göre yalnızca iş bağlamında kullanılıyor ve hastalık sayılmıyor. 'Sosyal burnout' klinik bir terim değil, raporda gündelik ifade olarak sunulmalı.",
+    "Dikkat yenilenme kuramı: Ohly 2016 derlemesinde ölçümlerin çoğunda belirgin etki yok. Stevenson 2018 ise etkiyi düşük-orta buluyor. Kanıt karışık.",
+    "Barton & Pretty 2010: '5 dakika en iyi doz' ifadesi özette değil basında geçiyor. Çalışmalar ön-son ölçüm, randomize değil; etkinin bir kısmı doğadan değil hareketten gelebilir.",
+    "Bratman 2015: 38 kişilik tek çalışma ve bağımsız tekrarı bulunamadı. White 2019 da kesitsel, ters nedensellik dışlanamıyor. İkisi de nedensel kanıt diye sunulmamalı.",
+    "Işık terapisi: mevsimsel olmayan depresyonda kanıt kalitesi düşük. Eski bir analizde antidepresana ek olarak etkisiz bulundu; 2025 JAMA Psychiatry analizi de ek tedavi olarak geçerliliği konusunda temkinli.",
+    "Tarla işi: doğada olmak yenileyici olabilir, ama işte yapılan bedensel aktivite boş zaman egzersizinin sağlık yararını vermiyor (kardiyovasküler, kronik bulgular)."
+   ],
+   "acik": [
+    "Milgram 1970'in birincil metni açılmadı; tanım ikincil kaynaklardan alındı.",
+    "Aile hekiminin ruh sağlığındaki rolü ve psikiyatri için sevk gerekip gerekmediği resmî kaynaktan doğrulanmadı.",
+    "112'nin resmî sayfası (112.gov.tr) açılmadı; birleşik numara bilgisi haber kaynaklarından.",
+    "Türkiye'ye özgü kriz ve psikolojik destek hatları (112 dışında) araştırılmadı.",
+    "Kısa süreli tarla işinin ruh sağlığına etkisini doğrudan inceleyen bir çalışma bulunamadı; iş bedensel aktivitesi paradoksu kardiyovasküler ve kronik maruziyetle ilgili.",
+    "Bratman 2015'in tekrar çalışması bulunamadı.",
+    "CANMAT ışık terapisi kılavuzunun kendi metni görülmedi; doz AAFP 2020'den alındı.",
+    "Nguyen 2018'deki '15 dakika' süresi makalenin kendi yöntem bölümünden doğrulanmadı.",
+    "İstanbul'da 26 Kasım için doğrudan gün doğumu değeri bulunamadı; 30 Kasım değeri kullanıldı."
+   ]
+  },
+  {
+   "key": "P5",
+   "label": "kademeli-sosyal-enerji",
+   "arac": "38/35. Kontrol noktasını 3 çağrı geçtim, çünkü son çağrılar hâlâ yeni birincil özet getiriyordu (Leikas, Nguyen) ve şaşırtıcı bir sayıyı (%87 / %40) yazarların kendi kaynağından doğrulamam gerekti. Doğrulama, ikincil kaynaktaki bir hatayı ortaya çıkardı.",
+   "ozet": "Ana mesaj: Sosyal pil yalnız kaldıkça sınırsız dolmuyor. Fazla etkileşim de uzun süre yalnız kalmak da enerjiyi düşürüyor. Toparlanma sırası şöyle: önce uyku ve beden, sonra küçük, kısa, az kişili ve tekrar eden temaslar.\n\n1) İlk günler, beden ağrırken: Uykuyu öne al. Tek gece uykusuzluk bile insanları sosyal olarak geri çekti (18 kişilik küçük laboratuvar çalışması). Yalnızlığı kendin seç. Kendi seçtiğin yalnızlık rahatlattı. Buna karşılık 8 saatlik zorunlu yalnızlık enerjiyi, aç kalmaya benzer ölçüde düşürdü (30 kadınla yapılmış laboratuvar çalışması). Yani tamamen içine kapanma; günde bir küçük temas yeter.\n\n2) En ucuz enerji, küçük temaslar: Kasiyer ya da baristayla göz teması kur, gülümse, bir iki cümle konuş. Bu, sessizce ve hızlıca işini halletmeye göre daha çok olumlu duygu ve aidiyet getirdi. Aynı insanları tekrar gördüğün yerleri seç (kahveci, fırın).\n\n3) Beklentini düzelt: İnsanlar bir yabancıyla konuşmanın yalnız oturmaktan kötü geçeceğini tahmin ediyor, ama yaşadıkları bunun tersi. Karşındaki seni sandığından daha çok seviyor (\"beğenilme boşluğu\"). Bir haftalık \"yabancıyla konuş\" oyununda konuşmaların %87'si ilk yaklaşılan kişiyle oldu. Reddedilme korkusu azaldı, beklentiler her gün biraz daha iyileşti. Yani asıl işi tekrar yapıyor.\n\n4) Neyin pili yediğini bil: En çok enerji isteyenler tartışma, dert yanma, iş ya da okul konuşması ve derin sohbet. Dışadönük davranmak o an iyi hissettirdi ama yaklaşık 3 saat sonra yorgunluk getirdi. Bunu açıklayan şey karşılaşılan kişi sayısıydı. Pil düşükken 1–2 kişiyle, kısa ve hafif sohbet et. Derin sohbet beklenenden keyifli ama pahalı; onu pil dolunca yap. Bir etkinlikten sonra boş zaman bırak, etkinlikleri art arda koyma.\n\n5) Kendini zorlama: Bir hafta \"dışadönük gibi davran\" talimatı ortalamada olumlu duyguyu artırdı. İçedönüklerde ise yorgunluğu ve olumsuz duyguyu artırdı. Dozu küçük tut.\n\n6) Çıkışı önceden planla: Sohbetler neredeyse hiçbir zaman iki tarafın da istediği anda bitmiyor. İstenen süreyle gerçek süre arasındaki fark ortalama sohbetin yarısı kadar. Gitmeden önce \"şu kadar kalıp kalkacağım\" diye bir süre koy.\n\n7) Bağ kurmak zaman ister: Tanıdıktan gündelik arkadaşlığa geçmek yaklaşık 50 saat birlikte zaman ister. Takılmak ve şakalaşmak sayılıyor, birlikte iş yapmak daha az sayılıyor. Her hafta aynı insanları gördüğün bir ortam seç (kurs, dans ya da koşu grubu). Uyumlu dans eden yabancılarda yakınlık ve ağrıya dayanma eşiği arttı (laboratuvar bulgusu).\n\n8) Ruh hali haftalarca dipte kalırsa: \"Davranışsal aktivasyon\" (ruh halinin düzelmesini beklemeden küçük, planlı etkinlikler) depresyonda etkili bir yöntem. Bu durumda profesyonel destek düşün.\n\nSınırlılık: Kanıtın çoğu ABD, İngiltere ve Kanada'da, çoğunlukla öğrencilerle yapıldı. Romantik tanışma ayrıca test edilmedi.",
+   "listede_olmayan": [
+    "Gecikmiş yorgunluk: Leikas & Ilmarinen (2017; N=48) dışadönük davranışın o an iyi hissettirdiğini, yaklaşık 3 saat sonra yorgunluk getirdiğini buldu. Bunu karşılaşılan kişi sayısı açıkladı. Pratik sonucu: etkinlik sonrasına toparlanma boşluğu koymak ve az kişili ortam seçmek.",
+    "Yalnızlık sınırsız şarj etmiyor: Stijovic ve ark. (2023, Psychological Science) 8 saatlik zorunlu yalnızlığın enerjiyi aç kalmaya benzer ölçüde düşürdüğünü buldu. Nguyen, Ryan & Deci (2018) ise yalnızlığın ancak kişi kendisi seçtiğinde rahatlattığını gösterdi. Yani 'tamamen kapanıp pil doldurmak' kanıtla desteklenmiyor; kendi seçtiğin dinlenme ile küçük temasları birlikte yürütmek gerekiyor.",
+    "Uyku: Ben Simon & Walker (2018, Nature Communications) tek gece uykusuzluğun sosyal geri çekilmeyi ve ertesi günkü yalnızlık hissini artırdığını buldu. Ağır bedensel işten dönen biri için ilk adım uyku olmalı.",
+    "Hall ve ark. (2023, 'Social Bandwidth'): Derin sohbet de olumsuz sohbet de (tartışma, dert yanma) en çok enerji isteyenler arasında. Uzunluk, ilgi, sonucu önemseme ve kendini sunma kaygısı enerji maliyetini artırıyor. Hall & Davis'in (2017) İletişim-Bağ-Aidiyet kuramına göre insanlar aidiyet ihtiyacını giderirken sosyal enerjiyi korumaya da çalışıyor.",
+    "Arkadaşlık için zaman: Hall (2018, JSPR) tanıdıktan gündelik arkadaşlığa geçişi yaklaşık 50 saat, yakın arkadaşlığı 200 saatin üstünde tahmin ediyor. Bu da tekrarlı ortamların (haftalık kurs, grup) tek seferlik etkinliklerden daha işe yarar olduğunu düşündürüyor.",
+    "Senkron hareket: Tarr, Launay & Dunbar (2016) yabancıların uyumlu dans etmesinin hem yakınlığı hem ağrıya dayanma eşiğini artırdığını buldu (n=94, laboratuvar). Grup halinde dans ya da kürek gibi uyumlu etkinlikler için olası ama dolaylı bir kanıt.",
+    "Aknin & Sandstrom (2024, Communications Psychology): İnsanlar eski arkadaşlara yazmaya isteksiz. Önce mevcut arkadaşlara mesaj atma pratiği yapanlarda eski arkadaşa yazma oranı %53 oldu, kontrol grubunda %31. Ancak bu tek bir çalışma ve tek yönlü testle bulundu. Tutumu değiştirmeye çalışan müdahaleler çoğunlukla işe yaramadı.",
+    "Davranışsal aktivasyonun etki büyüklükleri: Ekers ve ark. 2014 meta-analizinde 26 RKÇ, SMD −0.74. Cuijpers ve ark. 2023'te g=0.85, düşük yanlılık riskli çalışmalarda g=0.56. Bu kanıt klinik depresyon içindir; sıradan sosyal tükenmişliğe doğrudan genellenemez.",
+    "West ve ark. (2025): Takip sorusu sormak gibi dinleme davranışları partnerin hissettiği bağı artırdı. Bu, pil düşükken çok konuşmak yerine soru sorup dinlemenin ucuz bir strateji olabileceğini düşündürüyor. Bulgu korelasyonel ve etkiler küçük.",
+    "Güvenlik davranışları (sosyal kaygıda bakışı kaçırmak, konuşmayı önceden prova etmek gibi kaçınmalar): Plasencia, Taylor & Alden'e göre bunları bırakmak sahicilik hissini ve etkileşim isteğini artırıyor. Birincil metin okunmadı, düşük güven."
+   ],
+   "celisen": [
+    "'Dışadönük gibi davran' tavsiyesine karşı: Jacques-Hamilton ve ark. (2019) RKÇ'sinde ortalama fayda vardı, ama içedönüklerde olumsuz duygu ve yorgunluk arttı, sahicilik hissi azaldı. Margolis & Lyubomirsky (2020) ortalamada fayda buldu, ancak örneklem öğrencilerdi.",
+    "Derin sohbet konusunda gerilim var: Kardas ve ark. derin sohbetin beklenenden keyifli olduğunu buldu, Hall ve ark. (2023) ise derin sohbetin en çok enerji isteyenler arasında olduğunu. İkisi birbirini dışlamıyor; keyifli ama pahalı. Pil düşükken hafif sohbet, pil dolunca derin sohbet önerilebilir.",
+    "'Enerji veren' etkileşimin de bir bedeli var: Leikas & Ilmarinen'de o anki fayda, 3 saat sonra yorgunluğa dönüştü.",
+    "'Yalnız kalarak pil doldur' fikrine karşı: Stijovic ve ark. (2023) zorunlu yalnızlığın enerjiyi düşürdüğünü gösterdi. Ancak örneklem küçüktü (laboratuvarda 30 kadın) ve saha çalışması COVID kapanması döneminde yapıldı.",
+    "İkincil kaynakta hata: Psychology Today özetindeki 'insanlar yabancıların %40 açık olacağını tahmin etti, gerçek %87 çıktı' iddiası yazarların kendi blogunda doğrulanmadı. Orada %87, konuşmaların ilk yaklaşılan kişiyle yapılma oranı; yaklaşık %40 ise iletişim bilgisi alışverişi yapan katılımcı oranı. Bu iki sayı rapora tahmin-gerçek karşılaştırması olarak girmemeli.",
+    "Sandstrom ve ark. 2022 üzerine PsyPost'un metodolojik notu: kontrol grubu da benzer boyutlarda iyileşti, öz bildirimle verilen konuşma sayıları güvenilir olmayabilir.",
+    "Zayıf bağ ve iyi oluş ilişkisi (Sandstrom & Dunn 2014, PSPB) korelasyoneldir; mutlu insanların daha çok zayıf bağı olması da mümkün. Nedensellik için yalnızca barista deneyi var (tek ve küçük bir çalışma).",
+    "Aknin & Sandstrom 2024: Bilgi vermeye ya da tutumu değiştirmeye dayalı müdahaleler davranışı değiştirmedi. Bu, 'beklentini düzelt' tavsiyesinin tek başına yetmeyebileceğini, asıl işi pratiğin yaptığını gösteriyor. Sandstrom 2022 de önceki benzer girişimlerin başarısız olduğunu belirtiyor.",
+    "West ve ark. 2025: 35 günlük müdahale, kısa sohbetteki dinleme davranışlarını değiştirmedi. Birinci çalışmadaki aracılık örüntüsü ikinci çalışmada tekrarlanmadı."
+   ],
+   "acik": [
+    "Yan yana etkinlik ile yüz yüze sohbetin sosyal enerji ya da bağ kurma açısından doğrudan karşılaştırıldığı bir çalışma bulunamadı. Elde yalnızca dolaylı kanıt var: senkron dans (Tarr 2016) ve yan yana video izleme (Wolf & Tomasello 2020, yalnızca arama özetinde görüldü).",
+    "Kardas ve ark.'ın JPSP cilt ve sayısı (122(3)) doğrulanmadı. DOI 10.1037/pspa0000281 yalnızca APA ek dosyasının adresinden çıkarıldı; dergi özeti doğrudan okunamadı (APA sayfası boş döndü).",
+    "Sandstrom & Dunn 2014 SPPS çalışmasının örneklem büyüklüğü doğrulanmadı.",
+    "Leikas & Ilmarinen bulgusunun daha büyük bir örneklemde tekrarlanıp tekrarlanmadığı aranmadı.",
+    "Ağır bedensel yorgunluk ve kas ağrısının sosyal motivasyonu doğrudan nasıl etkilediği bu görevde aranmadı. Elde yalnızca uyku kanıtı var.",
+    "Güvenlik davranışlarını bırakmanın beğenilirliğe etkisine dair birincil çalışma (Behavioural and Cognitive Psychotherapy, 2022) okunmadı.",
+    "Romantik tanışma bağlamı (kadınlarla tanışma, ilk buluşmalar) bu dar sorunun kapsamı dışında kaldı.",
+    "Kanıtın neredeyse tamamı ABD, İngiltere ve Kanada'dan, çoğunlukla öğrenci örneklemlerinden geliyor. Türkiye ya da İstanbul bağlamında genellenebilirlik test edilmedi.",
+    "Davranışsal aktivasyonun klinik depresyonu olmayan, tükenmişlik yaşayan kişilerde etkisi doğrulanmadı."
+   ]
+  },
+  {
+   "key": "P6",
+   "label": "tanisma-bilimi",
+   "arac": "49/35. Devam ettim çünkü Türkiye verisi (TAYA, Metropoll) ve birincil alıntıların doğrulanması eksikti. Son 5 çağrı her kontrolde yeni bilgi getirdi. 70'e varmadan bitirdim.",
+   "ozet": "Kanallar. ABD'de 2017'de heteroseksüel çiftlerin %39'u internette tanıştı, arkadaş yoluyla tanışanların payı %20'ye düştü. Tanışma biçimi ilişkinin kalitesini ve süresini belirlemiyor (Rosenfeld 2019). Pew verisine göre 30 yaş altı ilişkisi olanların beşte biri partnerini uygulamada bulmuş. Türkiye'de genç yetişkinler için temsilî bir tanışma kanalı verisi bulamadım. TÜİK TAYA \"nerede tanıştınız\" diye sormuyor, yalnızca evlilik kararının nasıl verildiğini soruyor. Bu soruda görücü usulü toplam %56,8. Metropoll 2020 her yaştan 1.926 kişiyle yapıldı: arkadaş ortamı %22,4, iş yeri yaklaşık %8, internet ve sosyal medya %2,2. Bu sayılar İstanbul'daki gençlerin bugünkü durumunu büyük olasılıkla yansıtmıyor.\n\nDüşük enerjiyle ne işe yarar:\n1) Önce dinlen. İki gece kısıtlı uyku uyuyanların fotoğrafları daha az çekici bulundu ve puanlayanlar bu kişilerle daha az sosyalleşmek istedi (küçük örneklem). Tanışma girişimini birkaç gece normal uyuduktan sonraya bırak.\n2) Tek ve tekrarlayan bir ortam seç: kurs, spor grubu, kulüp ya da gönüllülük, haftada bir, aynı gün ve saatte. Bir dönem boyunca 15 kez derse gelen kişi hiç konuşmadan bile daha çekici bulundu. Canlı etkileşimde de daha çok konuşmak daha çok çekim getirdi. Arkadaşlığın kurulması yaklaşık 50 saat birlikte zaman istiyor. Bu ortam her seferinde yeni insanla tanışmaktan daha az enerji ister.\n3) Arkadaş çevresini kullan. Önce arkadaş olan çiftlerde dış görünüşün belirleyiciliği azalıyor.\n4) Uygulamaları sınırlı kullan. Tükenmişlik 12 haftada artıyor. Önceden depresyon, kaygı ya da yalnızlık yaşayanlar daha fazla risk altında. Bir deneyde erkek profilleri beğendiklerinin yalnızca %0,6'sıyla eşleşti (2016, Londra). Erkeklerin %64'ü mesaj azlığı yüzünden kendini yetersiz hissetmiş. Sosyal pil sıfırken uygulamaya yüklenme. Kullanacaksan kısa ve zamanı belli oturumlar aç (bu süre kanıta değil öneriye dayanıyor).\n\nTanışma anında:\n- Soru sor, özellikle karşındakinin söylediğine dayanan takip sorusu. Deneyde bu, beğenilmeyi artırdı. Hız flörtünde ikinci buluşma kabulüyle ilişkili (bu kısım korelasyon). İnsanlar bu etkiyi önceden tahmin etmiyor.\n- İnsanlar konuşmadan sonra karşı tarafın kendilerini ne kadar beğendiğini olduğundan düşük tahmin ediyor. Bu yüzden \"kötü geçti\" hissine hemen güvenme.\n- Kimin kiminle uyuşacağı önceden tahmin edilemiyor. Uzun kriter listesiyle eleme yerine kısa bir buluşmayla gör.\n- Saygı ve rıza: uygulama kullanan 50 yaş altı kadınların %56'sı istenmeyen müstehcen mesaj almış, %43'ünü \"ilgilenmiyorum\" dedikten sonra da biri aramayı sürdürmüş. Hayır cevabından sonra temas kurma. Türkiye'de kadınların %83,9'u sokakta kendini güvende hissetmiyor. Sokakta yabancıya yaklaşmanın nasıl algılandığına dair doğrudan veri bulamadım.",
+   "listede_olmayan": [
+    "TÜİK TAYA eşle nerede ya da nasıl tanışıldığını sormuyor, yalnızca evlilik kararının nasıl verildiğini soruyor. En güncel tur 2021 (4. tur, 2022'de yayımlandı). Yeni turun büyük olasılıkla 2026'da yapılacağını tahmin ediyorum, bunu doğrulamadım. Türkiye için tanışma kanalı verisi yalnızca Metropoll 2020 gibi özel anketlerde var ve bunlar her yaşı kapsıyor.",
+    "'Beğenilme açığı' (Boothby 2018): insanlar konuşmadan sonra karşı tarafın kendilerini ne kadar beğendiğini olduğundan düşük tahmin ediyor. Sosyal pili düşük biri için önemli: 'kötü geçti' hissi çoğu zaman yanıltıcı.",
+    "Romantik uyum buluşmadan önce özellik ve tercihlerden tahmin edilemiyor (Joel ve ark. 2017). Profil ya da kriter optimizasyonu yerine kısa yüz yüze görüşme daha bilgilendirici.",
+    "Önce arkadaş olan ya da uzun süre tanışan çiftlerde dış görünüş eşleşmesi zayıflıyor (Hunt ve ark. 2015). Arkadaş çevresi ve tekrarlayan ortamlar seçenekleri genişletiyor.",
+    "Arkadaşlık için yaklaşık 50, 90 ve 200 saat eşikleri (Hall 2018): tekrarlayan ve sabit bir ortam en ekonomik yol.",
+    "Uyku kısıtlaması kişiyi başkalarının gözünde daha az çekici ve daha az sosyalleşmek istenen biri yapıyor (Sundelin 2017). Tanışma zamanlamasında uykuyu toparlamak önce gelir.",
+    "Uygulama tükenmişliği 12 haftada artıyor. Önceden depresyon, kaygı ya da yalnızlık yaşayanlar daha fazla risk altında (Sharabi ve ark. 2024). Zaten tükenmiş birinin uygulamaya yüklenmesi riskli.",
+    "Uygulamada tanışan çiftler ilişki doyumunda geride değil (İsviçre, Potarca 2020; ABD, Rosenfeld 2019).",
+    "Çevrimiçi sohbet deneylerinde soru sorma deneysel olarak manipüle edildi, yani bu kısım nedensel. Hız flörtü bulgusu ise korelasyonel.",
+    "Pew: erkeklerin %64'ü mesaj azlığından kendini yetersiz hissediyor, kadınların %54'ü mesaj çokluğundan bunalıyor. Uygulama deneyimi iki cinsiyet için yapısal olarak farklı."
+   ],
+   "celisen": [
+    "Yalın maruz kalma ve tanışıklık her zaman çekimi artırmıyor. Norton, Frost ve Ariely (2007), rastgele seçilmiş özellik listelerinde daha fazla bilginin benzemezlik algısını ve sevmemeyi artırdığını buldu ('tanıdıklık küçümseme doğurur'). Reis ve ark. (2011) canlı etkileşimde bunun tersini gösterdi. Norton ve ark. (2011) bu paradigmanın gündelik etkileşimden uzak olduğunu söyleyerek itiraz etti. İki grup Finkel ve ark. (2015, Perspectives on Psychological Science) ile ortak bir model önerdi. Pratik sonuç: tekrarlı görülmek, etkileşim olumlu ve karşı taraf ilgiliyse işe yarıyor, garanti değil.",
+    "Huang 2017'nin hız flörtü analizlerine Kluger ve Malloy (2019) itiraz etti, yazarlar yanıt verdi. Bağımsız bir tekrarlama bulamadım. Bu tartışmayı yalnızca arama özetinden gördüm, metnini doğrulamadım.",
+    "'İnternet en yaygın tanışma yolu' hipotezi ABD'deki heteroseksüel çiftler için 2017 verisiyle doğru, Türkiye'ye genellenemiyor. Metropoll 2020'de (her yaş, çoğu evli) internet ve sosyal medyadan tanışma yalnızca %2,2, arkadaş ortamı %22,4. İki örneklem yaş ve dönem açısından karşılaştırılabilir değil.",
+    "'Kadınlar için arkadaş ya da etkinlik üzerinden tanışmak daha rahat' ve 'Türkiye'de sokakta yaklaşmak taciz olarak algılanabilir' hipotezlerini doğrudan test eden veri bulamadım. Elimdeki dolaylı veriler: Pew'deki çevrimiçi taciz oranları ve SODEV'in sokakta güvensizlik oranı (%83,9, bilgi haberden).",
+    "Yaygın aktarılan '%78 uygulama yorgunluğu' rakamı hakemli değil, bir anket şirketi verisi.",
+    "Hall'un arkadaşlık saatleri çalışması çoğu kaynakta 2019 olarak geçiyor ama çevrimiçi yayını 2018. Konu arkadaşlık, romantik ilişki değil."
+   ],
+   "acik": [
+    "TÜİK bülten sayfası (veriportali.tuik.gov.tr) JavaScript ile yüklendiği için okunamadı. TAYA 2021 sayıları Diken ve Cumhuriyet haberlerinden alındı.",
+    "Metropoll PDF'ine erişilemedi (503 ve TLS hatası). Sayılar bianet ve Diken haberlerinden ve arama özetinden geliyor. Yaş kırılımı (18-29) bulunamadı.",
+    "Türkiye'de genç yetişkinlerin flört uygulaması kullanım oranına dair temsilî bir veri bulunamadı. Türkiye'de hangi uygulamaların yaygın olduğu da doğrulanmadı.",
+    "Türkiye'de kadınların tanışma bağlamı tercihi ve sokakta yaklaşılmaya bakışı hakkında anket verisi bulunamadı.",
+    "Moreland ve Beach 1992'nin sayısal sonuçları özgün makaleden okunmadı. Tasarım Reis 2011 makalesinden, 'daha sık görülen daha çekici bulundu' sonucu ikincil kaynaklardan.",
+    "HCMST 2020 ve 2022 dalgalarında çevrimiçi tanışma payı güncellemesi bulunamadı.",
+    "Boothby 2018 ve Joel 2017 alıntıları özetin aktardığı metinden alındı. PubMed ve SAGE sayfaları doğrudan okunamadı (çerez ve 403 hatası).",
+    "Kluger ve Malloy 2019 eleştirisinin içeriği ve yazarların yanıtı birincil kaynaktan okunmadı."
+   ]
+  },
+  {
+   "key": "P7",
+   "label": "istanbul-ortamlar",
+   "arac": "47/35. Kontrol noktasında durdum. Yürüyüş grubu, flört uygulamalarının durumu ve kitap/oyun ortamları için güncel kanıt eksikti, son 5 çağrı da yeni bilgi getiriyordu; bu yüzden 47'de bitirdim.",
+   "ozet": "Ana bulgu: İstanbul'da bugün düzenli tekrar eden topluluk etkinliklerinin çoğu Meetup'ta değil Luma'da (luma.com/istanbul) ve Instagram'da duyuruluyor. Hiçbir ortam için kadın katılım oranı verisi bulamadım. \"Dansta kadın oranı yüksek\" iddiası doğrulanmadı.\n\nEnerji yüküne göre önerilen sıra:\n\n1) Pil sıfırken, ilk hafta (düşük yük): The Offline Club Istanbul'un telefonsuz buluşmaları. Kadıköy Buka'da pazar 16:00–19:45 arası, 400 TL. Önce tek başına okuma ve çizim yapılıyor, sonra sohbet ya da oyun bölümü geliyor. Postane'de telefonsuz oyun gecesi 650 TL, okuma partisi de var. Kalabalıktan yorulmuş biri için en uygun giriş bu: konuşmak zorunlu değil. Başka bir düşük yük seçeneği Üsküdar Atölye Sahi'de 2 saatlik başlangıç seramik seansı (30 $).\n\n2) Ağrılar geçince, 2. hafta ve sonrası (orta yük, doğa ve yan yana yürüme):\n- Cumartesi 07:45'te Caddebostan sahilinde Beat Run Crew \"Coffee Run\". 3K seçeneği var, bir sonraki 28.11.2026'da listelenmiş.\n- Pazar 07:30'da Belgrad Ormanı Neşet Suyu'nda Zinde'nin koşu/yürüyüş buluşması. 6K yürüyüş grubu ve ücretsiz servis var, ama son tarih doğrulanmadı.\n- SİBS Run Crew, Galataport'ta 6K koşuyor.\n\n3) Tekrarlı karşılaşma için seçilecek bir sabit etkinlik: BAM Dans Akademisi'nde ücretsiz başlangıç bachata partner dersi. Taksim'de pazartesi, Beylikdüzü'nde perşembe, ikisi de 20:00'de. Cumartesi Taksim'de ücretsiz pratik partisi var. Hall (2018) çalışmasına göre gündelik arkadaşlık yaklaşık 50 saat birlikte geçirilen zaman istiyor. Bu ABD örneklemi ve korelasyonel bir bulgu. Aynı çalışmaya göre \"birlikte çalışmak\" sosyal zaman kadar sayılmıyor. Pratik çıkarım: tek seferlik etkinlikleri dolaşmak yerine haftada bir aynı yere 6–8 hafta git ve sonrasında kahveye kal.\n\n4) Yüksek yük (pil dolunca): Kadıköy'de çarşamba 19:00'da bar ortamında dil değişimi buluşmaları (Smileys, Speak Easy). Gece 22:00 sonrası Latin sosyal geceleri.\n\nFlört uygulamaları: Tinder, Ağustos 2025'ten beri mahkeme kararıyla erişime kapalı. Yine de Sensor Tower verisi Q4 2025'te Türkiye'de iOS'ta kullanıcısı olduğunu gösteriyor. Bumble'ın aynı dönemde yaklaşık 151 bin aktif iOS kullanıcısı var, Bumble ve Hinge için engel kaydı bulamadım. Kasım 2026'da OkCupid, Feeld ve LGBTİ+ odaklı uygulamalar engellendi. Yani uygulama ortamı daralıyor ve yasal açıdan belirsiz.\n\nUyarı (aykırı kanıt): ABD basınında koşu kulüplerinin \"flört pazarına\" dönmesinden rahatsız olup kulübü bırakan kadınlar anlatılıyor. Bu anekdot düzeyinde gazetecilik. Önerim: bu ortamlara önce etkinliğin kendisi için git, ilk haftalarda flört amaçlı yaklaşma.",
+   "listede_olmayan": [
+    "The Offline Club Istanbul: telefonsuz buluşmalar (400 TL), oyun gecesi (650 TL), okuma partisi ve orman yürüyüşü yapıyor. Önce tek başına, sonra sosyal bölümden oluşan yapısıyla sosyal pili düşük biri için listedeki her şeyden daha uygun bir giriş noktası.",
+    "İstanbul'da koşu ekiplerinin ve topluluk etkinliklerinin ana duyuru platformu Meetup değil Luma (luma.com/istanbul). Beat Run Crew, SİBS Run Crew, MediRun Club ve Zinde orada.",
+    "BAM Dans Akademisi Taksim ve Beylikdüzü'nde haftalık ücretsiz başlangıç bachata partner dersleri ve ücretsiz pratik partileri var.",
+    "Zinde'nin Belgrad Ormanı pazar buluşması birkaç noktadan (Yenibosna, Levent, Maslak) ücretsiz servis sunuyor. Arabası olmayan biri için doğaya erişimi kolaylaştırıyor.",
+    "Kasım 2026'da OkCupid, Feeld ve LGBTİ+ odaklı tanışma uygulamaları da engellendi. Flört uygulaması ortamı daralıyor.",
+    "Hall (2018): birlikte iş yapmak sosyal sohbet zamanı kadar arkadaşlık saati sayılmıyor. Yan yana etkinliğin ardından kahveye kalmak önemli.",
+    "Smileys Community (3.690 üye) kickboks (500 TL) ve gün batımı yelken (1.200 TL) gibi düzenli tekrar eden ücretli etkinlikler düzenliyor."
+   ],
+   "celisen": [
+    "Tinder Türkiye'de Ağustos 2025'ten beri mahkeme kararıyla erişime kapalı. OONI 2026 Temmuz ölçümleri engelin sürdüğünü gösteriyor. Aday listedeki 'Tinder kullanılabilir' varsayımı yanlış. Buna karşın Sensor Tower Q4 2025'te hâlâ yaklaşık 254 bin iOS aktif kullanıcı gösteriyor, bu da büyük olasılıkla VPN kullanımını yansıtıyor.",
+    "adidas Runners Istanbul'un 2025–2026'da haftalık buluşma yaptığına dair kanıt bulunamadı. Nike Run Club İstanbul aranmadı.",
+    "Koşu kulüplerinin flört ortamına dönüşmesi ABD'de kadınları kulüpten uzaklaştırıyor (Washingtonian 2024, anekdot). 'Koşu grubu = kadınlarla tanışma yeri' çerçevesi ters tepebilir.",
+    "Rosenfeld vd. (2019, PNAS) ABD'de çiftlerin en sık internette tanıştığını gösteriyor. 'Doğal ortam daha etkili' önermesi tartışmalı. Ancak bu bulgu Türkiye'ye doğrudan genellenemez.",
+    "Dans kurslarında kadın katılımının yüksek olduğuna dair İstanbul'a özgü hiçbir veri bulunamadı. Bu iddia doğrulanmadı.",
+    "Luma'daki 'Clay Clubs' bir yazılım (GTM aracı) buluşması, seramikle ilgisi yok."
+   ],
+   "acik": [
+    "Güncel, düzenli doğa yürüyüşü kulübü programı doğrulanamadı. hikingistanbul.org 503 verdi, Facebook erişilemedi. İstanbul Doğa Sporları Kulübü'nün güncel programı da bulunamadı.",
+    "Boulder salonu ücretleri bulunamadı (boulderhane.net 403 verdi).",
+    "Hinge'in resmî ülke listesinde Türkiye olup olmadığı doğrulanamadı (help.hinge.co 403 verdi).",
+    "Hiçbir ortam için kadın/erkek katılım oranı verisi bulunamadı.",
+    "Jolly Joker Kanyon Latin gecesi girişinin 400 TL olduğu ve Yeni Hayat kitap kulübü ücretinin 250 TL olduğu birincil sayfada doğrulanmadı.",
+    "Offline Forest Walk'un ve Zinde pazar buluşmasının bir sonraki tarihi belli değil.",
+    "Bumble BFF'nin Türkiye'deki kullanımı, Nike Run Club İstanbul ve swing/lindy hop/tango okullarının güncel programları aranmadı.",
+    "Tinder engelinin Temmuz 2026 sonrasındaki durumu resmî kaynaktan (BTK, İFÖD EngelliWeb) teyit edilmedi."
+   ]
+  }
+ ],
+ "defter": [
+  {
+   "id": "P1-1",
+   "iddia": "Eksantrik yüklenmeden sonra kas lifi hasarı (nekroz) yaklaşık 2. günde zirve yapar. Kaynak 1984 tarihli eski bir mekanizma derlemesi.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6392811/",
+   "alinti": "resulting in necrosis that peaks about 2 d post-exercise",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Kaynak bunu kanıtlanmış bir olgu olarak değil, önerilen bir model olarak sunuyor ('The following model may be proposed'). Aynı yazar DOMS'un 1-5 gün sürdüğünü belirtiyor.",
+   "d_iddia": "1984 tarihli bir derleme (Armstrong, Med Sci Sports Exerc) eksantrik yüklenmeden sonra hücre zarı hasarı ve kalsiyum dengesinin bozulmasıyla gelişen nekrozun yaklaşık 2. günde zirve yaptığı bir model önermişti. Derlemeye göre mekanizma bilinmiyordu."
+  },
+  {
+   "id": "P1-2",
+   "iddia": "DOMS ağrısını en etkili dindiren şey hareket, ama bu etki geçici (2003 anlatı derlemesi).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12617692/",
+   "alinti": "Exercise is the most effective means of alleviating pain during DOMS, however the analgesic effect is also temporary.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-3",
+   "iddia": "Aynı 2003 derlemesine göre kriyoterapi (soğuk tedavi) ve germe DOMS'u hafifletmiyor. Bu, soğuk su çalışmalarıyla kısmen çelişiyor.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12617692/",
+   "alinti": "Cryotherapy, stretching, homeopathy, ultrasound and electrical current modalities have demonstrated no effect on the alleviation of muscle soreness",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-4",
+   "iddia": "99 çalışmalık meta-analiz masajı DOMS ve algılanan yorgunlukta en etkili yöntem buluyor. Çalışmalar heterojen ve analiz eleştiriliyor.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29755363/",
+   "alinti": "Massage seems to be the most effective method for reducing DOMS and perceived fatigue.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-5",
+   "iddia": "Aynı meta-analizde aktif toparlanma, masaj, kompresyon giysisi, suya girme, kontrast su ve kriyoterapi DOMS'u küçükten büyüğe değişen ölçüde azaltıyor. Germe ve diğer yöntemler etkisiz.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29755363/",
+   "alinti": "Active recovery, massage, compression garments, immersion, contrast water therapy, and cryotherapy induced a small to large decrease (-2.26 < g < -0.40)",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-6",
+   "iddia": "Hafif aktif toparlanma DOMS'u azaltıyor, ama tahmin yalnızca 8 deney grubu ve 90 kişiye dayanıyor. Tablo değeri arama özetinden alındı.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5932411/table/T1",
+   "alinti": "Active recovery | 90 | 8 | −0.94 | −1.61; −0.28",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-7",
+   "iddia": "29 randomize çalışmalık (1012 kişi) meta-analizde masajın yorgunluğu azalttığı gösterilmedi. DOMS ve esneklikte yalnızca küçük iyileşme var.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32426160/",
+   "alinti": "We found no evidence that massage improves measures of strength, jump, sprint, endurance or fatigue",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-8",
+   "iddia": "15°C altı suya girmek, dinlenmeye göre kas ağrısını 24–96 saatte azaltıyor. Ama kanıt 17 küçük ve düşük kaliteli çalışmaya (366 kişi) dayanıyor.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22336838/",
+   "alinti": "24 hour (standardised mean difference (SMD) -0.55, 95% CI -0.84 to -0.27; 10 trials), 48 hour (SMD -0.66",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-9",
+   "iddia": "Soğuk su ile ılık su arasında ağrı açısından fark gösterilmedi (yalnızca 4 çalışma).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22336838/",
+   "alinti": "Similar findings for pooled analyses at 24, 48 and 72 hour follow-ups applied to the four studies comparing cold-water with warm-water immersion.",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-10",
+   "iddia": "Soğuk tedavi, egzersizden sonraki ilk 1 saatte uygulanırsa yalnızca ilk 24 saatte ağrıyı azaltıyor. 24 saatten sonra belirgin etkisi yok.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33493991/",
+   "alinti": "the application of cold therapy within 1 h after exercise could reduce the pain of DOMS patients within 24 h (≤24 h) after exercise",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-11",
+   "iddia": "Sıcak paket DOMS ağrısını hem ilk 24 saatte hem 24 saatten sonra azaltıyor. Etki büyüklükleri yüksek, ama güven aralıkları geniş ve çalışmalar küçük (32 çalışma, 1098 kişi).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33493991/",
+   "alinti": "Hot pack effect was the most obvious, which reduced the pain within 24 h (SMD -2.31 ... and over 24 h (SMD -1.78",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-12",
+   "iddia": "Sıcak ve soğuk ikisi de ağrıyı azaltıyor, aralarında anlamlı fark yok.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33493991/",
+   "alinti": "Both cold and heat showed effect in reducing pain of patients, however there was no significant difference between cold and heat group (P = 0.16).",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-13",
+   "iddia": "Germe, ister öncesinde ister sonrasında yapılsın, DOMS'u klinik olarak anlamlı azaltmıyor. Sonrasında germe 100 puanlık ölçekte yaklaşık 1 puan fark yaratıyor (Cochrane, 12 çalışma).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21735398/",
+   "alinti": "muscle stretching, whether conducted before, after, or before and after exercise, does not produce clinically important reductions in delayed-onset muscle soreness in healthy adults",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-14",
+   "iddia": "Egzersiz sonrası köpük rulo ağrı algısını küçük-orta düzeyde azaltıyor. Dayanak yalnızca 7 çalışma; yazarlar genel etkiyi küçük buluyor.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31024339/",
+   "alinti": "It also reduced muscle pain perception (+6.0%, g = 0.47)",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-15",
+   "iddia": "Isı bandı akut ve yarı akut bel ağrısında ağrıyı ve kısıtlılığı küçük ve kısa süreli azaltıyor. Tek bir çalışmada egzersiz eklemek ek fayda sağladı (Cochrane, 9 çalışma).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16437495/",
+   "alinti": "heat wrap therapy provides a small short-term reduction in pain and disability in a population with a mix of acute and sub-acute low-back pain",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-16",
+   "iddia": "NHS bel ağrısında havluya sarılı sıcak paket ya da sıcak su torbası, aktif kalmayı ve uzun süre yatakta kalmamayı öneriyor.",
+   "url": "https://www.nhs.uk/conditions/back-pain/",
+   "alinti": "use a heat pack (or hot water bottle) wrapped in a tea towel to relieve joint stiffness or muscle spasms",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-17",
+   "iddia": "NHS'e göre parasetamol bel ağrısında tek başına önerilmiyor, başka bir ağrı kesiciyle birlikte kullanılabilir.",
+   "url": "https://www.nhs.uk/conditions/back-pain/",
+   "alinti": "paracetamol on its own is not recommended for back pain but it may be used with another painkiller",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-18",
+   "iddia": "NICE bel ağrısında ağızdan NSAİİ'yi en düşük etkili dozda ve en kısa süre öneriyor. Parasetamolü tek başına önermiyor; bu önerinin kanıtı düşük-çok düşük kalitede.",
+   "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendation",
+   "alinti": "Prescribe oral NSAIDs for low back pain at the lowest effective dose for the shortest possible period of time.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Doz ve parasetamol cümleleri NICE sayfasında birebir var. Kanıt kalitesi bu sayfada yok, BMJ özetinden geliyor (arama özetiyle görüldü, sayfa açılamadı). Kılavuz bel ağrısı içindir, kas ağrısı için değil.",
+   "d_iddia": "NICE (NG59, 2016) bel ağrısında ağızdan NSAİİ'yi 'düşünmeyi' öneriyor; mide, karaciğer ve kalp-böbrek riski ile yaş gözetilerek, en düşük etkili dozda ve en kısa süre. Parasetamolü tek başına önermiyor; BMJ 2017 özetine göre bu öneri düşük-çok düşük kaliteli RKÇ kanıtına dayanıyor.",
+   "d_url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendation ; kanıt kalitesi için: https://www.bmj.com/content/356/bmj.i6748"
+  },
+  {
+   "id": "P1-19",
+   "iddia": "21 çalışmalık bir meta-analizde NSAİİ'ler DOMS ağrısında plasebodan üstün çıkmadı. Heterojenlik çok yüksek (I²=93%); makale açılmadı, değer arama özetinden.",
+   "url": "https://scielo.br/j/rbme/a/tcpbZX9kVQzdpGs6J3nXPTh/?lang=en",
+   "alinti": "SMD 0.02, 95% CI -0.58 to 0.63",
+   "guven": "düşük",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-20",
+   "iddia": "80 km çöl koşusunda 4 saatte bir 400 mg ibuprofen alanlarda akut böbrek hasarı daha sık görüldü. Fark anlamlı değil (89 kişi); kilo kaybı (susuzluk) böbrek hasarı riskini artırdı.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28679502/",
+   "alinti": "22 (52%) ibuprofen versus 16 (34%) placebo users developed AKI (18% difference, 95% CI -4% to 41%",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-21",
+   "iddia": "İbuprofen mide ülseri, astım ya da alerji, kalp, karaciğer veya böbrek hastalığı, pıhtılaşma sorunu ve gebelik gibi durumlarda uygun olmayabilir.",
+   "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/who-can-and-cannot-take-ibuprofen/",
+   "alinti": "you have a stomach ulcer or you've had them before you have asthma or allergies (such as hay fever) ... you have a heart, liver or kidney condition",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Alıntı birebir var. Verilen URL ana ilaç sayfasına yönleniyor (301; bölüm adı 'Who can and cannot use ibuprofen'). Listede NSAİİ alerjisi, su çiçeği ve inme de var.",
+   "d_iddia": "İbuprofen şu durumlarda uygun olmayabilir: NSAİİ'ye alerji öyküsü, şimdi ya da geçmişte mide ülseri, astım ya da alerji, su çiçeği, kalp, karaciğer ya da böbrek hastalığı, pıhtılaşma sorunu, geçirilmiş inme, gebelik ya da gebelik planı.",
+   "d_url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/"
+  },
+  {
+   "id": "P1-22",
+   "iddia": "Akut burkulma, zorlanma ve aşırı kullanma ağrısında diklofenak jel (Emulgel) en düşük NNT'ye sahip. Çalışmalar DOMS üzerine değil; değer arama özetinden (Cochrane, 61 çalışma).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26068955/",
+   "alinti": "the Emulgel® formulation had the lowest NNT of 1.8 (95% CI 1.5 to 2.1)",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-23",
+   "iddia": "Topikal NSAİİ'lerde cilt reaksiyonları hafif, geçici ve plaseboyla aynı. Sistemik yan etki çok az.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26068955/",
+   "alinti": "Local skin reactions were generally mild and transient, and did not differ from placebo (high quality data).",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-24",
+   "iddia": "Rabdomiyolizin başlıca belirtileri beklenenden şiddetli kas ağrısı, çay ya da kola renkli idrar ve olağandışı halsizlik ya da güçsüzlük (CDC/NIOSH).",
+   "url": "https://www.cdc.gov/niosh/rhabdo/signs-symptoms/",
+   "alinti": "Muscle cramps, aches, or pains that are more severe than expected Dark urine (tea- or cola-colored) Feeling weak or tired",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-25",
+   "iddia": "Rabdo belirtileri saatler ya da günler sonra başlayabilir; görülünce hemen tıbbi yardım alınmalı. Tanı seri CK kan testiyle konur, idrar çubuk testi güvenilir değil.",
+   "url": "https://www.cdc.gov/niosh/rhabdo/signs-symptoms/",
+   "alinti": "Symptoms of rhabdo may not begin until hours or days after the initial muscle injury.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-26",
+   "iddia": "NHS bu durumlarda bel ağrısıyla birlikte 999 ya da acil öneriyor: iki bacakta ağrı, uyuşma veya güçsüzlük; genital ya da makat çevresinde his kaybı; idrar veya dışkı değişikliği; cinsel işlev değişikliği; göğüs ağrısı.",
+   "url": "https://www.nhs.uk/conditions/back-pain/",
+   "alinti": "pain, tingling, weakness or numbness in both legs a loss of feeling around your genitals or anus changes in your bladder or bowels",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Liste kaynakla uyuşuyor ama 'ciddi bir kazadan sonra başladıysa' maddesi eksik kalmış. NHS ayrıca acile kendi aracınla gitmemeyi söylüyor. Türkiye'de bunun karşılığı 112.",
+   "d_iddia": "NHS, bel ağrısıyla birlikte şunlardan biri varsa 999'u aramayı ya da acile gitmeyi öneriyor: iki bacakta ağrı, karıncalanma, güçsüzlük veya uyuşma; genital ya da makat çevresinde his kaybı; idrar veya dışkı değişikliği; seks sırasında his ya da işlev değişikliği; göğüs ağrısı; ağrının ciddi bir kazadan sonra başlaması."
+  },
+  {
+   "id": "P1-27",
+   "iddia": "NHS bel ağrısıyla birlikte ateş, titreme ya da genel hastalık hissi varsa, ya da şiddetli ağrı aniden başlıyor veya hızla kötüleşiyorsa acil doktor randevusu öneriyor.",
+   "url": "https://www.nhs.uk/conditions/back-pain/",
+   "alinti": "you feel hot, cold, shivery or generally unwell it's severe pain that starts suddenly, or it's getting worse quickly",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-28",
+   "iddia": "Sağlıklı yetişkinlerde kısmi uykusuzluk kendiliğinden ağrı şiddetini artırıyor. Kanıt orta düzeyde; deneysel çalışmalar 31, katılımcılar 699 sağlıklı kişi.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36334461/",
+   "alinti": "partial SD significantly increased spontaneous pain intensity (ES 0.30)",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-29",
+   "iddia": "18–60 yaş yetişkinlere düzenli olarak gecede en az 7 saat uyku öneriliyor. Uyku borcunu kapatanlar için daha uzun uyku uygun olabilir (AASM/SRS uzlaşısı, 2015).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25979105/",
+   "alinti": "obtaining 7 or more hours of sleep per night on a regular basis to promote optimal health among adults aged 18 to 60 years",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P1-30",
+   "iddia": "Öğün başına yaklaşık 0,25 g/kg ya da 20–40 g kaliteli protein öneriliyor, 3–4 saatte bir eşit dağıtılarak. Kanıt kas protein sentezi içindir; ağrıya doğrudan etkisi gösterilmedi (ISSN).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/",
+   "alinti": "General recommendations are 0.25 g of a high-quality protein per kg of body weight, or an absolute dose of 20-40 g.",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-1",
+   "iddia": "Tek gece uykusuzluk sosyal geri çekilmeye ve yalnızlık hissine yol açtı. Laboratuvar örneklemi küçük (18 genç yetişkin) ve bağımsız tekrarı bulunamadı.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6092357/",
+   "alinti": "a lack of sleep leads to a neural and behavioral phenotype of social withdrawal and loneliness",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Alıntı özetle birebir aynı. Laboratuvarda katılımcının kendi yalnızlık puanı raporlanmamış; yalnızlık hakem gözüyle ölçülmüş. 'Tekrar yok' ifadesi fazla kesin: Axelsson ve ark. 2020 (Sleep, n=123) aynı yönde kavramsal destek veriyor.",
+   "d_iddia": "Tek gece tam uykusuzluk laboratuvarda 18 genç yetişkinde (18–24 yaş) sosyal mesafeyi artırdı; izleyiciler onları daha yalnız algıladı. Kişinin kendi bildirdiği yalnızlık artışı 138 kişilik korelasyonel çevrimiçi izlemden geliyor. Doğrudan tekrar yok; bağımsız randomize bir çalışma (n=123) sosyalleşme isteğinin azaldığını buldu."
+  },
+  {
+   "id": "P2-2",
+   "iddia": "Uykusuz katılımcılar yaklaşan birini dinlenmiş hallerine göre daha uzakta tuttu (basın bülteni rakamı).",
+   "url": "https://news.berkeley.edu/2018/08/14/sleep-viral-loneliness",
+   "alinti": "between 18 and 60 percent further back",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-3",
+   "iddia": "Saha çalışmasında bir geceden ötekine kötüleşen uyku, ertesi gün daha fazla yalnızlıkla ilişkiliydi. Bu bir korelasyon, nedensellik göstermiyor.",
+   "url": "https://news.berkeley.edu/2018/08/14/sleep-viral-loneliness",
+   "alinti": "people who reported poor sleep from one night to the next were also more likely to report feeling increased loneliness the next day",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Verilen alıntı bültende birebir geçmiyor. Makale (Nat Commun 2018, PMC6092357) N=75+56, öz-bildirim uyku verimliliği diyor. Yazarlar 'causally' dese de bu bölümün tasarımı gözleme dayalı. Korelasyon uyarısı yerinde.",
+   "d_iddia": "Çevrimiçi (MTurk) iki gecelik uyku günlüğü çalışmasında (N≈131) bir geceden ötekine uyku verimliliğindeki düşüş, ertesi gün artan yalnızlıkla birlikte görüldü. Bu gözleme dayalı bir bulgu, nedenselliği göstermiyor.",
+   "d_alinti": "the amount of sleep a person got from one night to the next accurately predicted how lonely and unsociable they would feel from one day to the next",
+   "d_url": "https://news.berkeley.edu/2018/08/14/sleep-viral-loneliness/"
+  },
+  {
+   "id": "P2-4",
+   "iddia": "Tek gece 4 saatlik uyku kısıtlaması sosyal bağ kurma motivasyonunu azalttı. Randomize deney; N=53, 18–28 yaş, %83 kadın.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36331805/",
+   "alinti": "Sleep restricted participants reported reduced motivation to pursue social connections",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-5",
+   "iddia": "Uykululuk ölçeğinde her bir basamak artış, arkadaşlarla birlikte olma isteğini düşürdü (N=123, uykusuzluk ya da normal uykuya randomize).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31782961/",
+   "alinti": "be with friends OR = 0.71, CI: 0.61-0.82",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-6",
+   "iddia": "Uykululuk, sevilen biri tarafından ilgilenilme isteğini artırdı. Yakın kişiye yönelik istek düşmüyor, artıyor.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31782961/",
+   "alinti": "desire to be cared for by a loved one (OR = 1.49, CI: 1.22-1.82)",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Sayı ve alıntı doğru. Özet 'related to' diyor, yani ilişki var. 'Yakın kişiye yönelik istek artıyor' genellemesi kaynağı aşıyor: ölçülen şey pasif bakım alma isteği, yakın kişiyle vakit geçirme değil.",
+   "d_iddia": "Uykululuk, sevilen biri tarafından ilgilenilme isteğiyle ilişkiliydi (OR=1,49). Bu, bakım görme isteğidir. Yakın biriyle sosyalleşme isteğinin arttığı anlamına gelmez."
+  },
+  {
+   "id": "P2-7",
+   "iddia": "Fotoğrafları değerlendiren kişiler, yetersiz uyumuş insanlarla daha az sosyalleşmek istedi.",
+   "url": "https://doaj.org/article/98e2dc7b6a6d46e39e01920966529f86",
+   "alinti": "Raters were less inclined to socialize with individuals who had gotten insufficient sleep",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-8",
+   "iddia": "154 deneysel çalışmayı (N=5.717) kapsayan meta-analize göre her uyku kaybı türü olumlu duyguları azalttı. Katılımcıların çoğu genç yetişkin.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38127505/",
+   "alinti": "all forms of sleep loss resulted in reduced positive affect",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-9",
+   "iddia": "Aynı meta-analizde uyku kaybı kaygı belirtilerini artırdı. Olumsuz duygu ve depresif belirti sonuçları ise karışık.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38127505/",
+   "alinti": "increased anxiety symptoms (SMD = 0.57–0.63)",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-10",
+   "iddia": "5 gece 4 saat uykudan sonra 10 saat yatakta geçen tek bir toparlanma gecesi bile uykululuk ve yorgunluğu tam düzeltmedi (N=159).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20815182/",
+   "alinti": "recovery was incomplete at the 10 h TIB (8.96 h TST) for PVT performance, KSS sleepiness, and POMS fatigue",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-11",
+   "iddia": "Birden fazla kısa uyku gecesinden tam toparlanmak için daha uzun ya da birden fazla gece gerekebilir.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20815182/",
+   "alinti": "Complete recovery from such sleep restriction may require a longer sleep period during 1 night, and/or multiple nights of recovery sleep",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-12",
+   "iddia": "İki gece 4 saat uyku ve aşıdan yaklaşık 24 saat sonra oluşan iltihabi yanıt, sosyal ve fiziksel etkinlik motivasyonunu azaltıp dinlenme motivasyonunu artırdı (N=56, 2026).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42045986/",
+   "alinti": "Both sleep restriction and vaccination increased motivation for sleep-related behaviours and reduced motivation for physical and social activity",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-13",
+   "iddia": "Uyku kaybı ve iltihap birlikte olduğunda bazı ölçümlerde etki tek başına olandan büyüktü, ama iki etki birbirini katlamadı.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42045986/",
+   "alinti": "the stressors combined caused larger changes than either alone for some outcomes, without amplifying one another",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-14",
+   "iddia": "Deneysel iltihap (endotoksin), insanlardan kopuk hissetmeyi ve çökkün ruh halini artırdı (N=39). Bu model, egzersizden çok daha güçlü bir iltihap yaratır.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20043983/",
+   "alinti": "endotoxin led to significant increases (from baseline) in IL-6 and TNF-alpha levels as well as feelings of social disconnection and depressed mood",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Alıntı ve N=39 tam metinde doğru. 'Egzersizden çok daha güçlü iltihap' cümlesi kaynakta yok; yorum olarak etiketlenmeli. Endotoksin ateş ve TNF-α artışı yaptı.",
+   "d_iddia": "Düşük doz endotoksin (deneysel iltihap), plaseboya göre insanlardan kopuk hissetmeyi ve çökkün ruh halini artırdı (N=39: 23 endotoksin, 16 plasebo; ortalama yaş 22). Endotoksin ateş ve nabız artışı da yapar; bu yüzden sonuç bedensel yorgunluğa doğrudan aktarılamaz (yorum)."
+  },
+  {
+   "id": "P2-15",
+   "iddia": "Endotoksinin kopukluk hissini artırması enjeksiyondan yaklaşık 2 saat sonra zirve yaptı. Etki saatler ölçeğinde.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2856755",
+   "alinti": "time of peak response—T2",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-16",
+   "iddia": "İltihap, destek veren yakın kişilere yaklaşma isteğini ve beynin onlara verdiği ödül yanıtını yabancılara göre artırdı (N=63, tek çalışma).",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4275369",
+   "alinti": "inflammatory-induced approach toward support figures",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "'Yabancılara göre' karşılaştırması yalnızca beyin yanıtı için yapıldı. İstek yalnızca destek figürü için ölçüldü ve plaseboyla karşılaştırıldı. N=63 ve alıntı tam metinde doğru.",
+   "d_iddia": "Endotoksinle oluşturulan iltihap, plaseboya göre destek veren yakın kişinin yanında olma isteğini artırdı. Beynin ödül bölgesi (ventral striatum), yabancının fotoğrafına göre o kişinin fotoğrafına daha güçlü yanıt verdi (N=63; istek analizi 61 kişi; tek çalışma)."
+  },
+  {
+   "id": "P2-17",
+   "iddia": "Derlemeye göre iltihap, reddedilme gibi olumsuz sosyal deneyimlere karşı tehdit duyarlılığını artırıyor.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6158086",
+   "alinti": "threat-related neural sensitivity to negative social experiences (eg, rejection, negative social feedback)",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Defterdeki alıntı kaynakta birebir yok. Fikir destekleniyor ama eksik: derleme olumlu sosyal ödüle duyarlılığın da arttığını söylüyor. Kanıtlar çoğunlukla sağlıklı gençlerle yapılan küçük endotoksin deneylerinden geliyor.",
+   "d_iddia": "Derlemeye göre (Moieni & Eisenberger, Ann N Y Acad Sci 2018) deneysel iltihap, reddedilme ve olumsuz geri bildirim gibi olumsuz sosyal deneyimlere karşı sinirsel duyarlılığı artırıyor. Destek veren kişiler gibi olumlu sosyal uyaranlara duyarlılık da artabiliyor.",
+   "d_alinti": "increases in inflammation heighten neural sensitivity to the negative social experience of social rejection"
+  },
+  {
+   "id": "P2-18",
+   "iddia": "İltihabi sitokinler beyne etki ederek hastalık davranışına yol açar.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18073775/",
+   "alinti": "innate immune cells produce pro-inflammatory cytokines that act on the brain to cause sickness behaviour",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-19",
+   "iddia": "Kas hasarı yapan yokuş aşağı koşuda IL-6 3. saatte yükseldi, CRP ise ancak 24. saatte farklılaştı (19 sağlıklı erkek).",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11225855/",
+   "alinti": "significant increases in IL-6 and MCP1 between T0 and T3 only in the downhill running condition",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-20",
+   "iddia": "Egzersizle oluşan iltihaptan sonra sosyal etkileşimlerdeki duyguları tanıma oranı düştü.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38974339/",
+   "alinti": "Emotion recognition rates decreased significantly after the downhill run, whereas no such effect was observed after control running.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Özet 'kontrol koşusunda etki yok' diyor; tam metinde Bonferroni sonrası anlamlı fark yalnızca dinlenmeye karşı. Dinlenme koşulu hep sona kondu (sıra etkisi). Örneklem küçük ve yalnızca erkek.",
+   "d_iddia": "19 sağlıklı genç erkekte, yokuş aşağı koşuyla oluşan iltihaptan 3 saat sonra, insan etkileşimlerini gösteren nokta-ışık animasyonlarında duygu tanıma oranı dinlenmeye göre düştü. Düz koşu kontrolüne göre fark anlamlı değildi ve etki küçüktü (η²=0,023)."
+  },
+  {
+   "id": "P2-21",
+   "iddia": "Aynı çalışmada kas hasarı ve iltihap, kısa ruh hali ölçeğinde hiçbir farka yol açmadı.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11225855/",
+   "alinti": "we found no differences of any of the investigated mood scales between the different experimental conditions (all p > 0.05)",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-22",
+   "iddia": "Eksantrik (kas uzarken kasılan) egzersizden sonra serum IL-6 yükseldi ve kas hasarı belirteci CK ile ilişkiliydi (N=9 erkek).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9130176/",
+   "alinti": "the level of interleukin-6 (IL-6) in serum increased significantly after the eccentric exercise and was significantly correlated to CK concentration",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-23",
+   "iddia": "Gecikmiş kas ağrısı egzersizden 48–72 saat sonra zirve yapar.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30537791/",
+   "alinti": "peak soreness at 48 - 72 h post-exercise",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-24",
+   "iddia": "Kas ağrısı yapan egzersizden sonra CRP 1. günde zirve yapıp bazal düzeye indi; bacak ağrısı en çok 2. gündeydi (küçük ve eski çalışma).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7588680/",
+   "alinti": "rose to a peak of 17.0 (3.9) mg.1-1 1 day post-exercise, thereafter declining to basal levels",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-25",
+   "iddia": "IL-6 egzersiz sırasında kana bir miyokin (kastan salgılanan sinyal molekülü) olarak 100 kata kadar çıkabilir. Yani egzersiz IL-6'sı tek başına hastalık iltihabıyla aynı şey değil.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18923185/",
+   "alinti": "increases up to 100-fold in the circulation during physical exercise",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-26",
+   "iddia": "8 saatlik sosyal yalnızlık enerji hissini düşürüp yorgunluğu artırdı; etki 8 saat açlığa benziyordu (laboratuvar, N=30, yalnızca kadınlar).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36976885/",
+   "alinti": "Social isolation led to lowered self-reported energetic arousal and heightened fatigue, comparable with food deprivation.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-27",
+   "iddia": "Önceden kayıtlı saha çalışmasında enerji düşüşü yalnızca yalnız yaşayanlarda ya da sosyalliği yüksek kişilerde tekrarlandı (N=87).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36976885/",
+   "alinti": "replicated in the field study for participants who lived alone or reported high sociability",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-28",
+   "iddia": "Dışadönük davranış o anda olumlu ruh hali ve daha az yorgunlukla, yaklaşık 3 saat sonra ise daha fazla yorgunlukla ilişkiliydi (N=48, 12 gün, korelasyonel).",
+   "url": "https://doi.org/10.1111/jopy.12264",
+   "alinti": "Extraverted and conscientious behavior were concurrently related to positive mood and lower fatigue, but to higher fatigue after a 3-hour delay",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-29",
+   "iddia": "Ego tükenmesinin 23 laboratuvarlı, önceden kayıtlı tekrar çalışmasında (N=2.141) etki sıfıra yakın çıktı.",
+   "url": "https://cris.maastrichtuniversity.nl/en/publications/a-multilab-preregistered-replication-of-the-ego-depletion-effect/",
+   "alinti": "d = 0.04, 95% CI [−0.07, 0.15]",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P2-30",
+   "iddia": "Tek gece uykusuzluktan bir gün sonra duygusal toparlanmanın büyük kısmı gerçekleşti; olumlu duygu tam toparlanmadı (hakemsiz doktora tezi).",
+   "url": "https://researchportal.murdoch.edu.au/esploro/outputs/doctoral/Effects-of-sleep-loss-and-sleep/991005541414207891",
+   "alinti": "a large degree of emotional recovery was achieved one day after sleep deprivation",
+   "guven": "düşük",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Alıntı tez özetinde var (WebFetch ile görüldü). 'Olumlu duygu tam toparlanmadı' bulgusu 4. araştırmadan ve üç günlük süreyi kapsıyor. Tez, yaşın etkiyi hafifletebileceğini de bildiriyor.",
+   "d_iddia": "24 saatlik uykusuzluktan bir gün sonra duygusal toparlanmanın büyük kısmı gerçekleşti; olumlu duygu üç günlük izlemde de tam toparlanmadı (63 lisans öğrencisi, doğal ortam; hakemsiz doktora tezi, Murdoch 2018)."
+  },
+  {
+   "id": "P3-1",
+   "iddia": "'Sosyal pil' psikolojide ölçülen bir yapı değil, popüler bir benzetme; doğrudan test eden hakemli çalışma bulunamadı (kaynak bir deneme yazısı).",
+   "url": "https://www.persuasion.community/p/youre-probably-thinking-about-extroversion",
+   "alinti": "highly viral intellectual meme, but it has little grounding in either the history or the contemporary practice of psychology",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Yazı bir görüş denemesi ve hakemli çalışma göstermiyor. Alıntı tek cümle değil, aslında iki cümle. 'Hakemli çalışma yok' demek fazla kesin, çünkü raporun kendi P3-5 ve P3-6 satırları ilgili deneysel çalışmalar.",
+   "d_iddia": "'Sosyal pil' doğrulanmış bir psikolojik ölçek ya da yapı değil, popüler bir benzetme (kaynak Yascha Mounk'un 2025 tarihli deneme yazısı). Ama sezgiye yakın deneysel bulgular var: sosyal davranışın birkaç saat sonra yorgunlukla ilişkisi (Leikas 2020, Willinger ve Stieger 2025).",
+   "d_alinti": "The idea of the social battery is a highly viral intellectual meme. But it has little grounding in either the history or the contemporary practice of psychology."
+  },
+  {
+   "id": "P3-2",
+   "iddia": "Dışadönük davranış aynı anda olumlu ruh hali ve daha az yorgunlukla, 3 saat sonra ise daha fazla yorgunlukla ilişkili (N=48, 12 gün, Fin üniversitesi örneklemi).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27281444/",
+   "alinti": "Extraverted and conscientious behavior were concurrently related to positive mood and lower fatigue, but to higher fatigue after a 3-hour delay.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-3",
+   "iddia": "Bu gecikmeli yorgunluk ilişkisini kişilik özelliği (içedönük/dışadönük olmak) değiştirmedi; ancak çalışma küçük.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27281444/",
+   "alinti": "These relations were not moderated by personality traits.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-4",
+   "iddia": "Dışadönük davranış ile sonraki yorgunluk arasındaki bağa, karşılaşılan kişi sayısı aracılık etti.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27281444/",
+   "alinti": "mediated by the number of people the person had encountered",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-5",
+   "iddia": "Tekrar çalışması (N=74, 58'i kadın öğrenci, 4 gün) sosyal davranışın 2–3 saat sonra yorgunluk getirdiğini doğruladı; kişilik etkisini test edecek güçte değildi.",
+   "url": "https://doi.org/10.1016/j.heliyon.2020.e04033",
+   "alinti": "The results showed that extraverted behavior was indeed related to feeling tired 2–3 h later.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-6",
+   "iddia": "Bluetooth ile nesnel ölçülen sosyal yakınlık anında canlılık, 3–4 saat sonra yorgunluk ile ilişkili (N=80, çoğu kadın; etkiler küçük, tek çalışma).",
+   "url": "https://doi.org/10.1016/j.isci.2025.112726",
+   "alinti": "with peak effects occurring 3–4 h after initial contact",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Willinger ve Stieger 2025, iScience. Alıntı özette geçiyor. Bluetooth sayısı sosyal varlığın doğrudan değil dolaylı ölçüsü; yazarlar duvardan geçen sinyal ve kişi başına birden çok cihaz gibi hata kaynaklarını belirtiyor.",
+   "d_iddia": "Sosyal varlığın dolaylı bir göstergesiyle, yani çevredeki Bluetooth cihaz sayısıyla ölçülen yakınlık, anında canlılık (vigor) artışı ve keder azalmasıyla ilişkili. Yaklaşık 3–4 saat sonra çoğunlukla yorgunluktan oluşan olumsuz duygu artıyor (N=80, 59 kadın, 2 hafta; etkiler küçük; tek çalışma)."
+  },
+  {
+   "id": "P3-7",
+   "iddia": "Aynı çalışmada durum üzerinde kontrol hissi, yorgunluktan canlılığa geçişi kolaylaştırdı (koruyucu).",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12179627/",
+   "alinti": "HR = 1.25",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-8",
+   "iddia": "Etkileşimin enerji maliyetini partnerin az tanıdık olması, bağlanma ve kopukluk hissi gibi özellikler artırıyor (N=120, 3.092 konuşma, öğrenci).",
+   "url": "https://doi.org/10.1177/02654075231154937",
+   "alinti": "Communication episode, more choice to interact, less familiarity of partners, and greater feelings of connection and disconnection predicted energy intensiveness.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Sayılar ve alıntı özetle uyumlu (Hall ve ark. 2023, JSPR). 'Artırıyor' nedensel bir ifade; bulgu yalnızca ilişkisel (predicted). Öğrenci örneklemi PsyPost'ta doğrulandı.",
+   "d_iddia": "İletişim türü, etkileşime girmede daha fazla seçim, partnerin daha az tanıdık olması ve daha güçlü bağlanma ya da kopukluk hissi, etkileşimin enerji yoğunluğunu yordadı (N=120 lisans öğrencisi, 10 gün, 3.092 konuşma, öz bildirim)."
+  },
+  {
+   "id": "P3-9",
+   "iddia": "Enerji yoğun etkileşimden sonra insanlar yalnızlık arıyor; etkileşimde hissedilen kopukluk, sonradan yeniden insan isteme düzeyini etkiliyor.",
+   "url": "https://doi.org/10.1177/02654075231154937",
+   "alinti": "people seek solitude after an energy-intensive interaction, and the disconnection felt in the interaction influences desire for company when alone",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-10",
+   "iddia": "İnsanlarda sosyal etkileşim homeostatik ve gün içinde düzenleniyor; dünkü temas isteği bugünkü etkileşim sıklığını belirlemiyor (N=116, deneyim örneklemesi).",
+   "url": "https://doi.org/10.1177/0265407516654580",
+   "alinti": "social interaction is regulated within each day; yesterday's desire for contact is unassociated with today's interaction frequency",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-11",
+   "iddia": "Aynı tekrar çalışması, özgün çalışmanın 'sosyal doyma' iddiasını desteklemedi.",
+   "url": "https://doi.org/10.1177/0265407516654580",
+   "alinti": "results did not support the original study's claim regarding social satiation",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-12",
+   "iddia": "10 saatlik tam sosyal izolasyon sonrası orta beyin sosyal işaretlere, oruç sonrası yiyeceğe verdiği yanıta benzer yanıt verdi (n=40, fMRI).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33230328/",
+   "alinti": "acute isolation causes social craving, similar to the way fasting causes hunger",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-13",
+   "iddia": "Sosyal homeostaz modeli Annals of the NYAS'ta (Nat Neurosci değil) yayımlanmış, büyük ölçüde kemirgen verisine dayanan bir derleme.",
+   "url": "https://doi.org/10.1111/nyas.14016",
+   "alinti": "detect the quantity and quality of social contact, compare it to an established set-point",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Dergi doğru (Matthews ve Tye 2019, Annals of the NYAS), kemirgen ağırlıklı derleme. Ancak verilen alıntı bu makalede yok; Lee, Chen ve Tye 2021'de (Cell) geçiyor. Düzeltilmiş alıntı NYAS makalesinin Şekil 1 açıklamasından.",
+   "d_alinti": "a social homeostatic system consists of a detector to sense a change in overall quantity/quality of social contact, a control center to compare this deviation to the individual's set point"
+  },
+  {
+   "id": "P3-14",
+   "iddia": "8 saatlik sosyal izolasyon, 8 saatlik açlık kadar enerjiyi düşürdü ve yorgunluğu artırdı (laboratuvar, N=30 yetişkin kadın).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36976885/",
+   "alinti": "Social isolation led to lowered self-reported energetic arousal and heightened fatigue, comparable with food deprivation.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-15",
+   "iddia": "Enerji düşüşü saha çalışmasında (COVID kapanması, N=87) yalnızca yalnız yaşayanlarda ya da sosyalliği yüksek olanlarda tekrarlandı.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36976885/",
+   "alinti": "replicated in the field study for participants who lived alone or reported high sociability",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-16",
+   "iddia": "Yalnız kalmak hem olumlu hem olumsuz yüksek uyarılmışlık duygularını azaltan bir 'deaktivasyon' etkisi yapıyor (ABD lisans öğrencileri, 4 çalışma).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29072531/",
+   "alinti": "solitude generally has a deactivation effect on people's affective experiences, decreasing both positive and negative high-arousal affects",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-17",
+   "iddia": "15 dakika yalnız kalanlar daha sakin ve rahat oldu, ama hafifçe daha yalnız ve hüzünlü de hissetti (artışlar marjinal).",
+   "url": "https://selfdeterminationtheory.org/wp-content/uploads/2018/05/2018_NguyenRyanDeci_PSPB.pdf",
+   "alinti": "the participants became more calm and relaxed but also more lonely and sad after 15 min alone",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-18",
+   "iddia": "Yalnızlık, kişi bunu aktif olarak seçtiğinde rahatlama ve stres azalması sağladı.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29072531/",
+   "alinti": "solitude could lead to relaxation and reduced stress when individuals actively chose to be alone",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Alıntı özette var. Ancak 4. çalışmada özerklik ölçülmüş bir motivasyondu, gerçek bir seçim değildi. Stres azalması marjinaldi. Ayrıca 'yalnızlık' kelimesi loneliness ile karışıyor, 'tek başına kalma' denmeli.",
+   "d_iddia": "Tek başına kalmayı (solitude) içten gelen nedenlerle isteyenlerde rahatlama arttı, stres ise yalnızca marjinal azaldı. İsteksiz olanlarda olumsuz etkiler görüldü (173 lisans öğrencisi, 2 haftalık günlük çalışma)."
+  },
+  {
+   "id": "P3-19",
+   "iddia": "15 dakikalık süre keyfi seçildi; yalnız kalma süresinin dozu test edilmedi.",
+   "url": "https://selfdeterminationtheory.org/wp-content/uploads/2018/05/2018_NguyenRyanDeci_PSPB.pdf",
+   "alinti": "the choice of 15 min was arbitrary",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-20",
+   "iddia": "Daha çok yalnız geçen günlerde stres daha düşük, özerklik hissi daha yüksekti (21 günlük günlük, N=178, 35 yaş üstü, ABD/İngiltere, korelasyonel).",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10698034/",
+   "alinti": "On days in which people spent more time alone they felt less stress and greater autonomy satisfaction",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-21",
+   "iddia": "Aynı çalışmada yalnız zaman bazı iyi oluş ölçütlerini (yalnızlık hissi, gün memnuniyeti) kötüleştirdi.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10698034/",
+   "alinti": "Solitude time risks lowering well-being on some metrics but may hold key advantages to other aspects of well-being.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Alıntı birebir. Ancak 'kötüleştirdi' nedensel bir ifade, veri ise korelasyonel. Kaynaktaki önemli koşul eksik: seçilmiş yalnızlıkta zarar azalıyor; genel olarak daha çok yalnız kalanlar daha yalnız değildi.",
+   "d_iddia": "Daha çok yalnız geçen günlerde insanlar daha yalnız ve gününden daha az memnundu (ilişkisel). Yalnız kalmak kişinin kendi seçimiyse bu olumsuz ilişki ortadan kalktı ya da azaldı. Etki günler boyunca birikmedi."
+  },
+  {
+   "id": "P3-22",
+   "iddia": "Yalnızlık ile sosyal zaman arasında herkese uyan ideal bir oran bulunmadı.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10698034/",
+   "alinti": "There was no evidence for a one-size-fits-all 'optimal balance' between solitude and social time.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-23",
+   "iddia": "Her katılımcı (içedönükler dahil) dışadönük davrandığı anlarda içedönük davrandığı anlardan daha mutluydu (ABD öğrencileri, anlık ölçüm).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12500821/",
+   "alinti": "Each participant was happier when acting extraverted than when acting introverted.",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-24",
+   "iddia": "1 haftalık 'dışadönük davran' denemesinde (RKÇ, n=147) daha içedönük olanların olumlu duygu artışı zayıftı; yorgunluk ve olumsuz duygu arttı, sahicilik hissi azaldı.",
+   "url": "https://doi.org/10.1037/xge0000516",
+   "alinti": "more introverted participants had weaker PA increases, experienced increased NA and tiredness, and decreased feelings of authenticity",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-25",
+   "iddia": "Toplu taşımada yabancıyla konuşan yolcular yalnız kalanlardan daha olumlu deneyim bildirdi; tahminde bulunan diğer kişiler ise tersini bekliyordu (Chicago, saha ve laboratuvar).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25019381/",
+   "alinti": "participants reported a more positive (and no less productive) experience when they connected than when they did not",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-26",
+   "iddia": "Yalnızlığı yanlışlıkla tercih etme eğilimi kısmen karşı tarafın konuşmaya ilgisini düşük tahmin etmekten kaynaklanıyor.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25019381/",
+   "alinti": "This mistaken preference for solitude stems partly from underestimating others' interest in connecting",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-27",
+   "iddia": "Uykusuzluk sosyal geri çekilme ve yalnızlık üretiyor; bu durum başkalarınca da fark ediliyor (laboratuvar n=18, günlük n=138, >1000 değerlendirici).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30108218/",
+   "alinti": "a lack of sleep leads to a neural and behavioral phenotype of social withdrawal and loneliness; one that can be perceived by other members of society",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-28",
+   "iddia": "Deneysel iltihap (endotoksin) sosyal kopukluk hissini artırdı (n=39, genç UCLA yetişkinleri); ağır bedensel işe genellenmesi kanıtlanmadı.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2856755/",
+   "alinti": "endotoxin led to significant increases (from baseline) in IL-6 and TNF-α levels as well as feelings of social disconnection",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-29",
+   "iddia": "WHO'ya göre tükenmişlik (burn-out) yalnızca iş bağlamı için kullanılır; 'sosyal tükenmişlik' tanı ya da resmî kavram değil.",
+   "url": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases",
+   "alinti": "Burn-out refers specifically to phenomena in the occupational context and should not be applied to describe experiences in other areas of life.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P3-30",
+   "iddia": "Depresyon tanısı için belirtiler en az 2 hafta, günün çoğunda sürmeli; biri çökkün duygu ya da çoğu etkinlikte keyif kaybı olmalı.",
+   "url": "https://www.nimh.nih.gov/health/publications/depression",
+   "alinti": "for at least 2 weeks. One of the symptoms must be a depressed mood or a loss of interest or pleasure",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-1",
+   "iddia": "Haftada en az 120 dk doğa teması, iyi sağlık ve yüksek iyi oluş bildirme olasılığıyla ilişkili (İngiltere, n=19.806).",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6565732/",
+   "alinti": "the likelihood of reporting good health or high well-being became significantly greater with contact ≥120 mins",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-2",
+   "iddia": "120 dakikanın tek uzun ziyaretle mi, birkaç kısa ziyaretle mi tamamlandığı fark etmedi.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6565732/",
+   "alinti": "It did not matter how 120 mins of contact a week was achieved",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-3",
+   "iddia": "Çalışma gözlemsel ve kesitsel. Sağlıklı insanların doğaya daha çok çıkması (ters nedensellik) dışlanamıyor.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6565732/",
+   "alinti": "observational and cross-sectional",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-4",
+   "iddia": "90 dk doğa yürüyüşü ruminasyonu ve sgPFC (beyinde olumsuz düşünceyle ilişkili bir bölge) etkinliğini azalttı, kentsel yürüyüş azaltmadı. 38 sağlıklı genç yetişkinle tek çalışma, bağımsız tekrarı bulunamadı.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4507237/",
+   "alinti": "a 90-min walk in a natural setting, decreases both self-reported rumination and neural activity in the subgenual prefrontal cortex (sgPFC)",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-5",
+   "iddia": "Yeşil egzersiz kısa sürede bile benlik saygısı ve ruh halinde büyük kazanç sağlıyor, süre uzadıkça kazanç azalıyor (10 İngiliz çalışması, 1.252 kişi; ön-son ölçüm, randomize değil).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20337470/",
+   "alinti": "showed large benefits from short engagements in green exercise, and then diminishing but still positive returns",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-6",
+   "iddia": "Yeşil ortamda su bulunması etkiyi artırdı.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20337470/",
+   "alinti": "the presence of water generated greater effects",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-7",
+   "iddia": "İş dışındaki toparlanmanın dört ayrı boyutu var: psikolojik kopma, rahatlama, ustalık (yeni bir şey öğrenme) ve kontrol.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17638488/",
+   "alinti": "(total N=930) showed that four recovery experiences can be differentiated",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-8",
+   "iddia": "Meta-analizde (54 örneklem, N=26.592) yorgunlukla en güçlü olumsuz ilişki psikolojik kopmada. Bulgu iş bağlamından.",
+   "url": "https://repub.eur.nl/pub/105021",
+   "alinti": "Psychological detachment after work has a stronger negative relationship with fatigue",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Cümle 'than relaxation or control experiences' diye sürüyor. Karşılaştırma yalnızca rahatlama ve kontrolle yapılmış; ustalık deneyimi dahil değil. Bu yüzden 'en güçlü' ifadesi fazla geniş.",
+   "d_iddia": "Meta-analizde (Bennett, Bakker ve Field 2018, JOB; 54 örneklem, N=26.592) iş sonrası psikolojik kopmanın yorgunlukla olumsuz ilişkisi, rahatlama ve kontrol deneyimlerine göre daha güçlü. Canlılıkla en güçlü olumlu ilişki kontrol deneyiminde. Bulgu iş bağlamından ve ilişkisel."
+  },
+  {
+   "id": "P4-9",
+   "iddia": "Milgram'a göre kent aşırı yükü, çevresel uyaranların kişinin baş etme kapasitesini aşmasıdır. Kişi buna başkalarıyla daha az ilgilenerek uyum sağlar. Bu tanım ikincil kaynaktan; birincil metin açılmadı.",
+   "url": "https://www.urbandesignmentalhealth.com/blog/overload-and-the-city",
+   "alinti": "the amount and rate of environmental inputs impinging on an organism exceed its capacity to cope with them",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Defterdeki alıntı bu sayfada yok (sayfa metni tarandı). Birincil kaynak Milgram, Science 1970; bağlantılı PDF açılmadı. Arama kotası dolduğu için bağımsız arama yapılamadı.",
+   "d_iddia": "İkincil kaynağa göre aşırı yük kavramını Milgram 1970'lerde ortaya attı. İnsanlar buna yoğun uyarandan çekilerek, her uyarana daha az zaman ayırarak ve önceliği düşük olanları görmezden gelerek uyum sağlıyor. Birincil metin açılmadı.",
+   "d_alinti": "Faced with overload, people tend to adapt by starting to withdraw from scenarios that deliver high levels of stimulation."
+  },
+  {
+   "id": "P4-10",
+   "iddia": "Dikkat yenilenme kuramını sınayan 31 çalışmalık sistematik derlemede yalnızca 3 dikkat ölçümünde anlamlı etki çıktı, gerisinde belirgin etki yok.",
+   "url": "https://ore.exeter.ac.uk/repository/handle/10871/22927",
+   "alinti": "Digit Span Forward, Digit Span Backward and Trail Making Test B",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-11",
+   "iddia": "Güncel derlemeye göre doğa teması çalışma belleği ve bilişsel esnekliği düşük-orta düzeyde iyileştiriyor.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30130463/",
+   "alinti": "working memory, cognitive flexibility, and to a less-reliable degree, attentional control, are improved after exposure to natural environments",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-12",
+   "iddia": "Meta-analizde (32 çalışma, 2.356 kişi) doğa teması olumlu duyguyu orta düzeyde artırdı, olumsuz duyguyu daha az ama tutarlı biçimde azalttı.",
+   "url": "https://core.ac.uk/download/228821655.pdf",
+   "alinti": "a moderate increase in positive affect and a smaller, yet consistent, decrease in negative affect",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-13",
+   "iddia": "Dışadönük (sosyal) davranış o an iyi hissettiriyor, yaklaşık 3 saat sonra yorgunluk getiriyor. 48 kişi, çoğu kadın öğrenci; 2020'de 74 kişilik bir çalışmada benzer bulgu.",
+   "url": "https://doi.org/10.1111/jopy.12264",
+   "alinti": "concurrently related to positive mood and lower fatigue, but to higher fatigue after a 3-hour delay",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-14",
+   "iddia": "Kısa bir süre yalnız kalmak, olumlu ve olumsuz yüksek uyarılmışlığı düşürüyor (deaktivasyon etkisi). Yazarların sonraki makalesine göre süre yaklaşık 15 dk; kendi seçtiğinde rahatlama sağlıyor.",
+   "url": "https://journals.sagepub.com/doi/10.1177/0146167217733073",
+   "alinti": "decreasing both positive and negative high-arousal affects",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-15",
+   "iddia": "Uykusuzluk, sosyal geri çekilme ve yalnızlık hissine yol açıyor. Laboratuvar deneyi 18 kişiyle yapıldı.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6092357/",
+   "alinti": "sleep loss leads to a neurobehavioral phenotype of human social separation and loneliness",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Alıntı makalede birebir var. Ancak 'yalnızlık hissine yol açıyor' genellemesi laboratuvar verisinin ötesine geçiyor: 18 kişide yalnızlık öz bildirimle değil hakem puanıyla ölçüldü. Genel 'uykusuzluk' yerine tek gecelik tam uykusuzluk deneyi.",
+   "d_iddia": "Tek gece uykusuzluk laboratuvarda (n=18, 18–24 yaş) sosyal mesafeyi artırdı ve dışarıdan bakanlara daha yalnız göründürdü. Öz bildirilen yalnızlıkla bağ ise korelasyonel çevrimiçi örneklemden (n=138) geliyor."
+  },
+  {
+   "id": "P4-16",
+   "iddia": "Alışılmadık bedensel işten sonraki kas ağrısı (DOMS) genellikle 24–72 saatte tepe yapar ve 5–7 günde büyük ölçüde geçer.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12617692/",
+   "alinti": "24–72 saat tepe; 5–7 gün",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "İçerik doğru ama defterdeki alıntı birebir değil, Türkçe bir özet. Cümle PubMed özetinde yok, tam metinde var; tam metne arama sonucundaki Scribd kopyası üzerinden ulaşıldı. Bir başka ikincil kaynak 1-3 gün tepe, 7-10 gün süre veriyor.",
+   "d_alinti": "The intensity of discomfort increases within the first 24 hours following cessation of exercise, peaks between 24 and 72 hours, subsides and eventually disappears by 5–7 days post-exercise."
+  },
+  {
+   "id": "P4-17",
+   "iddia": "İşte yapılan bedensel aktivite, boş zaman egzersizinin sağlık yararını vermiyor. Önerilen nedenlerden biri yetersiz dinlenme. Bulgu kardiyovasküler ve kronik maruziyetle ilgili; ruh sağlığına doğrudan değil.",
+   "url": "https://coeh.ph.ucla.edu/publication/the-physical-activity-paradox-six-reasons-why-occupational-physical-activity-opa-does-not-confer-the-cardiovascular-health-benefits-that-leisure-time-physical-activity-does",
+   "alinti": "OPA performed over long periods with insufficient recovery time",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "İçerik doğru: Holtermann ve ark., BJSM 2018, kalp-damar sağlığı, nedenlerden biri yetersiz toparlanma. Ama alıntı UCLA sayfasında yok (sayfada özet yok). BJSM tam metni 403 verdi, alıntı birebir doğrulanamadı.",
+   "d_alinti": "six reasons why occupational physical activity (OPA) does not confer the cardiovascular health benefits that leisure time physical activity does",
+   "d_url": "https://doi.org/10.1136/bjsports-2017-097965"
+  },
+  {
+   "id": "P4-18",
+   "iddia": "Gündüz dışarıda geçen her ek saat, ömür boyu majör depresyon olasılığının daha düşük olmasıyla ve daha kolay uyanmayla ilişkili (UK Biobank, gözlemsel).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34488088/",
+   "alinti": "Each additional hour spent outdoors during the day was associated with lower odds of lifetime major depressive disorder",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-19",
+   "iddia": "Nesnel ölçümde daha fazla gündüz ışığı daha düşük, daha fazla gece ışığı daha yüksek psikiyatrik bozukluk riskiyle ilişkili (yaklaşık 86 bin kişi, kesitsel).",
+   "url": "https://www.nature.com/articles/s44220-023-00135-8",
+   "alinti": "greater day light exposure was associated with reduced risk for psychiatric disorders",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Burns ve ark. 2023, Nature Mental Health. Verilen alıntı birebir yok. Gündüz ışığının koruyucu ilişkisi tüm bozukluklar için değil; anksiyete ve bipolar bozuklukta görülmüyor. Örneklem ileri yaşta, gençlere genellemede dikkatli olunmalı.",
+   "d_iddia": "Bileğe takılan sensörle 7 gün ölçülen daha fazla gece ışığı majör depresyon, yaygın anksiyete, TSSB, psikoz, bipolar bozukluk ve kendine zarar riskinin artmasıyla ilişkili. Gündüz ışığı ise majör depresyon, TSSB, psikoz ve kendine zarar riskinin azalmasıyla ilişkili (n=86.772, ortalama yaş 62, kesitsel).",
+   "d_alinti": "greater daytime light exposure was associated with reduced risk for major depressive disorder, PTSD, psychosis, and self-harm behavior"
+  },
+  {
+   "id": "P4-20",
+   "iddia": "Mevsimsel depresyonda ışık terapisi A düzeyinde kanıtlı; tipik doz uyandıktan kısa süre sonra her gün aynı saatte uygulanıyor.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2020/1201/p668.html",
+   "alinti": "2,500 to 10,000 lux for 30 to 60 minutes at the same time every day is typically effective.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-21",
+   "iddia": "Mevsimsel depresyon tanısı için art arda iki yıl aynı mevsimde depresif atak gerekiyor. Tek bir yorgun Kasım bu tanı için yetmez.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2020/1201/p668.html",
+   "alinti": "two consecutive years of episodes in the same season",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-22",
+   "iddia": "Mevsimsel olmayan depresyonda ışık terapisinin etkisi ılımlı (20 RKÇ, SMD -0,41) ve kanıt kalitesi düşük.",
+   "url": "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/B3250B41E529EF84538BD136F5F14F87/S2056472400001253a.pdf/light-therapy-for-non-seasonal-depression-systematic-review-and-meta-analysis.pdf",
+   "alinti": "overall quality of evidence is poor due to high risk of bias and inconsistency",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-23",
+   "iddia": "DSÖ'ye göre depresif atak, olağan duygu dalgalanmasından farklıdır; belirtiler günün çoğunda, neredeyse her gün ve en az 2 hafta sürer.",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+   "alinti": "They last most of the day, nearly every day, for at least two weeks.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-24",
+   "iddia": "DSÖ'nün saydığı depresyon belirtileri arasında umutsuzluk, ölüm ya da intihar düşüncesi, uyku ve iştah değişimi ile aşırı yorgunluk var.",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+   "alinti": "hopelessness about the future, thoughts about dying or suicide, disrupted sleep, changes in appetite or weight, feeling very tired or low in energy",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-25",
+   "iddia": "DSÖ ICD-11'de burnout yalnızca iş bağlamındaki bir olgu ve tıbbi bir hastalık sayılmıyor. 'Sosyal burnout' klinik bir terim değil.",
+   "url": "https://www.who.int/news-room/detail/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases",
+   "alinti": "should not be applied to describe experiences in other areas of life",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-26",
+   "iddia": "Tükenmişlik ile depresyon belirgin biçimde ilişkili, ama meta-analize göre ayrı kavramlar.",
+   "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00284/full",
+   "alinti": "r = 0.520",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-27",
+   "iddia": "Yönergeye göre Toplum Ruh Sağlığı Merkezleri ağır ruhsal bozukluğu olan hastalara hizmet vermek için kurulmuş; hafif tükenmişlik için birincil adres değil.",
+   "url": "https://www.lexpera.com.tr/mevzuat/yonergeler/toplum-ruh-sagligi-merkezleri-hakkinda-yonerge-9453",
+   "alinti": "ağır ruhsal bozukluğu olan hastalara, toplum temelli ruh sağlığı modeli çerçevesinde bireysel işlevi iyileştirmeye dönük etkin tedaviler sunulması",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-28",
+   "iddia": "Sağlık Bakanlığı MHRS randevusu üç kanaldan alınıyor: ALO 182, web sitesi ve mobil uygulama.",
+   "url": "https://arhavidh.saglik.gov.tr/EN-326400/mhrs-appointment.html",
+   "alinti": "ALO 182 call center, MHRS website (https://www.hastanerandevu.gov.tr/ https://www.mhrs.gov.tr), MHRS mobile app",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-29",
+   "iddia": "Türkiye'de ambulans, polis ve itfaiye dahil tüm acil hatlar 112'de birleştirildi; hizmet 81 ilde veriliyor.",
+   "url": "https://www.hurriyet.com.tr/gundem/tum-acil-numaralar-112de-toplandi-41914102",
+   "alinti": "Tüm acil numaralar 112'de toplandı",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P4-30",
+   "iddia": "İstanbul'da Kasım sonunda gün ışığı yaklaşık 9,5 saat; 30 Kasım'da güneş 08:08'de doğuyor.",
+   "url": "https://weatherspark.com/m/95434/11/Average-Weather-in-November-in-%C4%B0stanbul-Turkey",
+   "alinti": "November 30, with 9 hours, 28 minutes of daylight",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-1",
+   "iddia": "Baristayla gülümseyip göz teması kurarak kısa sohbet eden katılımcılar, mümkün olduğunca hızlı işini halledenlere göre daha çok olumlu duygu bildirdi. Etkiyi kısmen aidiyet duygusu açıkladı (tek deney).",
+   "url": "https://doi.org/10.1177/1948550613502990",
+   "alinti": "people who had a social interaction with a barista (i.e., smiled, made eye contact, and had a brief conversation)",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-2",
+   "iddia": "Zayıf bağlarla (az tanınan kişilerle) daha çok etkileşim olan günler daha yüksek iyi oluşla birlikte görülüyor. Bulgu korelasyonel, örneklem öğrenciler.",
+   "url": "https://doi.org/10.1177/0146167214529799",
+   "alinti": "we again found that weak ties are related to social and emotional well-being",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Alıntı özette birebir var (PSPB 2014). Örneklemin yalnızca öğrencilerden oluşmadığını ikincil kaynaklardan gördüm (Psychology Today, NPR); hangi alt çalışma olduğu birincil kaynakta doğrulanamadı.",
+   "d_iddia": "Zayıf bağlarla daha çok etkileşim olan günler daha yüksek iyi oluşla birlikte görülüyor. Bulgu korelasyonel. Çalışma 1 öğrencilerle, çalışmalardan biri 25 yaş üstü 53 yetişkinle yapıldı."
+  },
+  {
+   "id": "P5-3",
+   "iddia": "Trende ve otobüste bir yabancıyla konuşması istenen yolcular, yalnız oturanlara göre daha olumlu ve verimlilik kaybı olmayan bir yolculuk bildirdi (Chicago yolcuları).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25019381/",
+   "alinti": "participants reported a more positive (and no less productive) experience when they connected than when they did not",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-4",
+   "iddia": "İnsanlar yalnızlığı daha keyifli sanıyor. Bu yanılgının bir nedeni, diğerlerinin konuşmaya ne kadar ilgili olduğunu küçümsemeleri.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25019381/",
+   "alinti": "This mistaken preference for solitude stems partly from underestimating others' interest in connecting",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-5",
+   "iddia": "Bekleme odasında kendisiyle konuşulan kişiler de konuşmayı başlatanlar kadar olumlu deneyim yaşadı. Yani sohbeti başlatan olmak zorunda değilsin.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25019381/",
+   "alinti": "participants who were talked to had equally positive experiences as those instructed to talk",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-6",
+   "iddia": "Sohbetten sonra insanlar karşı tarafın kendilerini ne kadar sevdiğini sistematik olarak küçümsüyor (beğenilme boşluğu).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30183512/",
+   "alinti": "people systematically underestimated how much their conversation partners liked them and enjoyed their company",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-7",
+   "iddia": "Beğenilme boşluğu, yurt arkadaşları arasında aylarca sürdü.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30183512/",
+   "alinti": "even lasted for several months, as college dorm mates developed new relationships",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-8",
+   "iddia": "On deneyde yabancılar arasındaki derin sohbetler beklenenden daha az garip geçti ve beklenenden daha çok mutluluk verdi.",
+   "url": "https://www.psychologicalscience.org/conventions/archive/2023annual/paper/45327/",
+   "alinti": "Ten experiments find that deep conversations between strangers feel less awkward and create more happiness than people expect.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "APS 2023 konferans özeti (sayfa 403 verdi, arama özetine göre) \"ten experiments\" diyor. Hakemli makale ve APA basın bülteni ise 12 deney diyor. Hakemli kaynağı esas alın.",
+   "d_iddia": "Yayımlanmış makalede (Kardas, Kumar ve Epley, JPSP 2022) 12 deney ve 1.800'den fazla katılımcı var. Yabancılar arasındaki sohbetler beklenenden daha az garip geçti, daha çok bağlılık ve mutluluk verdi. Garipliği en çok derin sohbetlerde abarttılar.",
+   "d_alinti": "conversations between strangers felt less awkward, and created more connectedness and happiness, than the participants themselves expected",
+   "d_url": "https://pubmed.ncbi.nlm.nih.gov/34591541/"
+  },
+  {
+   "id": "P5-9",
+   "iddia": "Katılımcılar, sohbet partnerinin kendilerini tanımaya ne kadar ilgili olacağını küçümsedi. Bu satır yalnızca ikincil kaynaktan.",
+   "url": "https://www.psypost.org/new-psychology-research-finds-deep-conversations-with-strangers-tend-to-go-better-than-people-expect/",
+   "alinti": "people consistently underestimated how interested their partners would be in learning about them",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Verilen alıntı PsyPost sayfasında yok. PsyPost'ta \"underestimate how much others are interested in having deep and meaningful conversations\" yazıyor. Birincil özet iddiayı destekliyor.",
+   "d_iddia": "Katılımcılar, yabancı sohbet partnerinin kendi açtıkları kişisel konulara ne kadar ilgi göstereceğini küçümsedi (birincil kaynak: JPSP 2022).",
+   "d_alinti": "participants expected others to care less about their disclosures in conversation than others actually did",
+   "d_url": "https://pubmed.ncbi.nlm.nih.gov/34591541/"
+  },
+  {
+   "id": "P5-10",
+   "iddia": "Günlük ölçümlere göre en çok enerji isteyen etkileşimler tartışma, dert yanma, iş ya da okul konuşması ve anlamlı (derin) sohbet. Çalışma keşif amaçlı, veriler öz bildirim, katılımcılar genç öğrenciler.",
+   "url": "https://doi.org/10.1177/02654075231154937",
+   "alinti": "Both positive conversations – like meaningful talk – and negative conversations – like arguing or venting – were taxing.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "İçerik doğru: 2. çalışmada en enerji yoğun konuşmalar çatışma, şikâyet ya da dert yanma, iş ya da okul konuşması ve anlamlı sohbet. Alıntı makalede değil; Hall'un PsyPost'taki sözü. Keşif amaçlı, öz bildirim, öğrenci örneklemi doğru.",
+   "d_url": "https://www.psypost.org/2023/04/social-energy-research-new-psychology-findings-provide-insight-into-why-some-interactions-drain-us-74448"
+  },
+  {
+   "id": "P5-11",
+   "iddia": "Yoğun enerji isteyen etkileşimlerin birikmiş yorgunluğu insanları yalnız kalmaya yöneltiyor.",
+   "url": "https://doi.org/10.1177/02654075231154937",
+   "alinti": "Cumulative fatigue from energy-intensive social interaction motivates people to be alone.",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Alıntılanan cümle makalede değil, PsyPost muhabirinin özetinde geçiyor. Çalışma keşif amaçlı ve öz bildirime dayalı; nedensel dil yumuşatılmalı. Hall de 'This was an exploratory study' diyor.",
+   "d_iddia": "Keşif amaçlı bir çalışmada (Hall ve ark. 2023, JSPR; N=309 ve 120, deneyim örneklemesi) insanlar enerji isteyen bir etkileşimden sonra yalnız kalmaya yönelme eğilimi gösterdi.",
+   "d_alinti": "Results suggest that people seek solitude after an energy-intensive interaction"
+  },
+  {
+   "id": "P5-12",
+   "iddia": "Hayatta önemli olan kişilerle etkileşime daha çok enerji harcanıyor. PsyPost özetine göre tanıdıklarla etkileşim yabancılarla etkileşimden daha az enerji istiyor.",
+   "url": "https://www.psypost.org/social-energy-research-new-psychology-findings-provide-insight-into-why-some-interactions-drain-us/",
+   "alinti": "people put more energy into interactions with important people in their lives",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-13",
+   "iddia": "Dışadönük davranış o anda daha iyi ruh hali ve daha az yorgunlukla, yaklaşık 3 saat sonra ise daha fazla yorgunlukla birlikte görüldü. Örneklem 48 kişi, 12 gün; tekrarlanması gerekiyor.",
+   "url": "https://doi.org/10.1111/jopy.12264",
+   "alinti": "Extraverted and conscientious behavior were concurrently related to positive mood and lower fatigue, but to higher fatigue after a 3-hour delay.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "'Tekrarlanması gerekiyor' ifadesi eksik: Leikas 2020 (Heliyon, N=74) bulguyu tekrarladı. Bağımsız ekip tekrarı ve karma cinsiyetli örneklem hâlâ yok.",
+   "d_iddia": "Dışadönük davranış o anda daha iyi ruh hali ve daha az yorgunlukla, yaklaşık 3 saat sonra ise daha fazla yorgunlukla birlikte görüldü. Örneklem 48 kişi (41'i kadın öğrenci), 12 gün. Bulgu aynı yazarın 2020'deki 74 kişilik çalışmasında tekrarlandı; bağımsız bir tekrar henüz yok."
+  },
+  {
+   "id": "P5-14",
+   "iddia": "Dışadönük davranışla gecikmiş yorgunluk arasındaki ilişkiyi karşılaşılan kişi sayısı açıkladı. Bu, kalabalık yerine az kişili ortamı destekliyor.",
+   "url": "https://doi.org/10.1111/jopy.12264",
+   "alinti": "The relation between extraverted behavior and delayed fatigue was mediated by the number of people the person had encountered.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "İlk cümle kaynakta birebir var. 'Az kişili ortamı destekliyor' ise kaynağın ötesine geçen bir çıkarım. Yazarlar bu etkinin kadınlara özgü olabileceğini de belirtiyor (41/48 kadın).",
+   "d_iddia": "Dışadönük davranış ile sonradan gelen yorgunluk arasındaki ilişkiye istatistiksel olarak karşılaşılan kişi sayısı aracılık etti (korelasyonel). Bu, daha az kişiyle görüşmenin daha az yorgunlukla ilişkili olabileceğine işaret ediyor; kalabalık ile küçük grup ortamı doğrudan karşılaştırılmadı."
+  },
+  {
+   "id": "P5-15",
+   "iddia": "Bir hafta 'dışadönük davran' müdahalesi (RKÇ, n=147) ortalamada olumlu duyguyu artırdı. Daha içedönük katılımcılarda ise olumsuz duygu ve yorgunluk arttı.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30489119/",
+   "alinti": "more introverted participants had weaker PA increases, experienced increased NA and tiredness, and decreased feelings of authenticity",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-16",
+   "iddia": "131 üniversite öğrencisinde iyi oluş dışadönük davranma haftasında arttı, içedönük davranma haftasında azaldı.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31368759/",
+   "alinti": "Participants increased in well-being when they were assigned to act extraverted and decreased in well-being when they were assigned to act introverted.",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-17",
+   "iddia": "Bir haftalık 'yabancıyla konuş' oyunu, reddedilme kaygısını azalttı ve sohbet becerisine güveni artırdı. Etki bitişten bir hafta sonra da sürüyordu.",
+   "url": "https://doi.org/10.1016/j.jesp.2022.104356",
+   "alinti": "made people less pessimistic about the possibility of rejection and more optimistic about their conversational ability",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-18",
+   "iddia": "Aynı çalışmada beklentiler gün geçtikçe daha olumlu ve daha doğru hâle geldi. Yani tekrarlı deneyim önemli.",
+   "url": "https://doi.org/10.1016/j.jesp.2022.104356",
+   "alinti": "people's expectations grew more positive and accurate by the day",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-19",
+   "iddia": "Çalışmadaki 1336 konuşmanın %87'si ilk yaklaşılan kişiyle oldu. Katılımcıların yaklaşık %40'ı en az bir kişiyle iletişim bilgisi alışverişi yaptı (yazarların blogu).",
+   "url": "https://spsp.org/news/character-and-context-blog/sandstrom-boothby-cooney-talking-to-strangers",
+   "alinti": "87% of the 1336 conversations people had during the study were with the first person they approached.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-20",
+   "iddia": "932 sohbetlik iki çalışmada sohbetler neredeyse hiçbir zaman iki tarafın da istediği anda bitmedi. İstenen süreyle gerçek süre arasındaki fark ortalama sohbet süresinin yarısı kadardı.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33649209/",
+   "alinti": "the average discrepancy between desired and actual durations was roughly half the duration of the conversation",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-21",
+   "iddia": "8 saatlik sosyal yalnızlık, aç kalmaya benzer ölçüde enerjiyi düşürdü ve yorgunluğu artırdı. Laboratuvarda 30 kadın, sahada 87 yetişkin.",
+   "url": "https://doi.org/10.1177/09567976231156413",
+   "alinti": "Social isolation led to lowered self-reported energetic arousal and heightened fatigue, comparable with food deprivation",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Stijovic ve ark., Psychol Sci 2023. Sayılar ve alıntı doğru, ama saha tekrarı tüm katılımcılarda değil, yalnızca bu alt gruplarda görüldü.",
+   "d_iddia": "Laboratuvarda (30 kadın) 8 saatlik sosyal yalnızlık, aç kalmaya benzer biçimde enerjiyi düşürdü ve yorgunluğu artırdı. COVID kapanması sırasındaki saha çalışmasında (87 yetişkin) enerji düşüşü yalnızca yalnız yaşayanlarda ya da sosyalliği yüksek olanlarda tekrarlandı."
+  },
+  {
+   "id": "P5-22",
+   "iddia": "Yalnızlık yüksek uyarılmışlığı (heyecan da gerginlik de) düşürüyor. Kişi yalnızlığı kendi seçtiğinde rahatlama ve stres azalması görüldü.",
+   "url": "https://doi.org/10.1177/0146167217733073",
+   "alinti": "solitude could lead to relaxation and reduced stress when individuals actively chose to be alone.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-23",
+   "iddia": "Bir gece uykusuzluk sağlıklı genç yetişkinlerde sosyal geri çekilmeyi artırdı. Laboratuvarda 18 kişi, küçük örneklem.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6092357/",
+   "alinti": "tested the social and neural responses of 18 healthy young adults following a normal night's sleep and a sleepless night",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "İddia doğru: tek gece uykusuzluk sosyal mesafeyi artırdı, örneklem 18–24 yaş arası 18 kişi. Ama verilen alıntı makalede yok; Berkeley basın bülteninden (news.berkeley.edu/2018/08/14/sleep-viral-loneliness). Makaleden alıntı verildi.",
+   "d_alinti": "The in-lab phase of the study involved 18 healthy adult participants",
+   "d_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6092357/"
+  },
+  {
+   "id": "P5-24",
+   "iddia": "Davranışsal aktivasyon depresyonda kontrol koşullarından belirgin biçimde daha etkili (26 RKÇ'lik meta-analiz). Çalışma kalitesi çoğunlukla düşük, takip süreleri kısa.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24936656/",
+   "alinti": "SMD −0.74, CI −0.91 to −0.56, k = 25, N = 1088",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-25",
+   "iddia": "Bireysel davranışsal aktivasyonun etkisi büyük. Yalnızca düşük yanlılık riskli çalışmalarda etki küçülüyor ama anlamlı kalıyor (Cuijpers ve ark. 2023).",
+   "url": "https://www.cris.fau.de/publications/298894059/",
+   "alinti": "Hedges' g = 0.85; low risk-of-bias studies g = 0.56",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-26",
+   "iddia": "Tanıdıktan gündelik arkadaşlığa geçmek yaklaşık 50, arkadaşlığa 90, yakın arkadaşlığa 200 saatten fazla birlikte zaman gerektiriyor. Tahminler öz bildirime dayalı.",
+   "url": "https://doi.org/10.1177/0265407518761225",
+   "alinti": "it takes roughly 50 hours of time together to move from mere acquaintance to casual friend",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Sayılar doğru (Hall, JSPR 2018), ama alıntı DOI'deki özette yok; KU basın bülteninde. Çalışma 1'de 355 MTurk yetişkininin geriye dönük tahmini, Çalışma 2'de 112 öğrenci var; öz bildirim notu yerinde.",
+   "d_url": "https://news.ku.edu/news/article/2018/03/06/study-reveals-number-hours-it-takes-make-friend"
+  },
+  {
+   "id": "P5-27",
+   "iddia": "Arkadaşlık saatlerinde takılmak ve şakalaşmak sayılıyor. Birlikte çalışılan saatler daha az sayılıyor.",
+   "url": "https://news.ku.edu/news/article/2018/03/06/study-reveals-number-hours-it-takes-make-friend",
+   "alinti": "Hours spent working together just don't count as much",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P5-28",
+   "iddia": "Birbirini tanımayan dörtlü gruplarda uyumlu (senkron) dans ağrıya dayanma eşiğini ve sosyal yakınlığı artırdı. Uyumsuz dansta bu görülmedi (n=94, çoğu kadın, laboratuvar).",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4985033",
+   "alinti": "Those who danced in synchrony experienced elevated pain thresholds, whereas those in the partial and asynchrony conditions experienced no analgesic effects.",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Tarr, Launay, Dunbar 2016, Evol Hum Behav 37(5). Makale 'no significant difference between... asynchrony and either of the other' diyor. Uyumsuz dansta yakınlık artmadı demek hatalı.",
+   "d_iddia": "Birbirini tanımayan dörtlü gruplarda ağrı eşiğini yalnızca senkron dans artırdı. Sosyal yakınlıkta senkron grup kısmi senkron gruptan anlamlı yüksekti, ama uyumsuz gruptan anlamlı farkı yoktu (n=94, 74 kadın, laboratuvar)."
+  },
+  {
+   "id": "P5-29",
+   "iddia": "İnsanlar teması yeniden kurmak kolay olsa da eski arkadaşlarına yazmaya şaşırtıcı ölçüde isteksiz. İlk çalışmada ancak %27,8'i mesaj attı.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11332216/",
+   "alinti": "While it does not take much to reinitiate contact, here we find that people are surprisingly reluctant to do so.",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Aknin & Sandstrom 2024, Communications Psychology. %27,8 Çalışma 1'e değil Çalışma 3'e ait; Çalışma 1 yalnızca isteği ölçtü. Çalışma 4'te oran %36,8 oldu. Pratik yapılan grupta %53'e çıktı (Çalışma 7).",
+   "d_iddia": "İnsanlar teması yeniden kurmak kolay olsa da eski arkadaşlarına yazmaya şaşırtıcı ölçüde isteksiz. Gerçek davranışı ölçen ilk çalışmada (Çalışma 3, N=453) katılımcıların %27,8'i mesaj attı."
+  },
+  {
+   "id": "P5-30",
+   "iddia": "Bir yabancıyla konuşmak, yolcularda yalnız oturmaktan daha olumlu bir deneyimdi; İngiltere'deki tekrar çalışması da olumlu sonuç bildirdi. Tekrar çalışmasının ayrıntısı görülmedi.",
+   "url": "https://www.chicagobooth.edu/research/roman/stories/nicholas-epley-partners-with-bbc-to-replicate-groundbreaking-study",
+   "alinti": "those assigned to talk with a stranger reported having a significantly more positive experience than those in solitude or control conditions",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Verilen alıntı Chicago Booth sayfasında yok; doğru ifade yukarıda. İçerik doğru: Epley ve Schroeder 2014 (Chicago), BBC ile 2019 Londra tren tekrarı benzer sonuç verdi. Tekrarın örneklemi ve sayıları sayfada yok.",
+   "d_alinti": "reported a significantly more positive commute when they connected with a stranger"
+  },
+  {
+   "id": "P6-1",
+   "iddia": "ABD'de 2017'de heteroseksüel çiftlerin %39'u internette tanıştı (1995'te %2). Kaynak ulusal temsilî HCMST 2017 anketi, yalnızca ABD.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6731751",
+   "alinti": "Table 1: online 39% (2017), 2% (1995)",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-2",
+   "iddia": "Aynı veride arkadaş yoluyla tanışma 1995'te %33'ken 2017'de %20'ye düştü. İnternet bu rolün yerini alıyor.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6731751",
+   "alinti": "We find that Internet meeting is displacing the roles that family and friends once played in bringing couples together.",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-3",
+   "iddia": "Rosenfeld'e göre çiftin nasıl tanıştığı ilişkinin kalitesini ve süresini belirlemiyor.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6731751",
+   "alinti": "Once couples are in a relationship, how they met does not determine relationship quality or longevity.",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "kontrol edilmedi"
+  },
+  {
+   "id": "P6-4",
+   "iddia": "ABD'de 30 yaş altı yetişkinlerin %53'ü en az bir kez flört sitesi ya da uygulaması kullanmış (Pew, saha Temmuz 2022).",
+   "url": "https://www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/",
+   "alinti": "About half of those under 30 (53%) report having ever used a dating site or app",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "kontrol edilmedi"
+  },
+  {
+   "id": "P6-5",
+   "iddia": "ABD'de ilişkisi olan 30 yaş altı yetişkinlerin beşte biri partneriyle flört sitesi ya da uygulamasında tanışmış.",
+   "url": "https://www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/",
+   "alinti": "One-in-five partnered adults under 30 say they met their current spouse or partner on a dating site or app",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-6",
+   "iddia": "Uygulama kullanan 50 yaş altı kadınların %56'sı istenmeyen müstehcen mesaj almış. %43'ünü 'ilgilenmiyorum' dedikten sonra da biri aramayı sürdürmüş.",
+   "url": "https://www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/",
+   "alinti": "A majority of women under 50 who have used dating sites or apps (56%)... continue to contact them after they said they were not interested (43%)",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Sayılar doğru. 'Aramayı' kelimesi kaynaktaki 'continue to contact' ifadesinin dar bir çevirisi; mesaj atmayı da kapsıyor. Ayrıca %37 hakaret, %11 fiziksel tehdit almış.",
+   "d_iddia": "Flört sitesi ya da uygulaması kullanmış 50 yaş altı kadınların %56'sı istemediği müstehcen mesaj veya görüntü almış. %43'üyle 'ilgilenmiyorum' dedikten sonra da biri iletişim kurmayı sürdürmüş (ABD, 2022)."
+  },
+  {
+   "id": "P6-7",
+   "iddia": "Uygulamada erkeklerin %64'ü mesaj azlığı yüzünden kendini yetersiz hissetmiş, kadınların %54'ü gelen mesajların çokluğundan bunalmış.",
+   "url": "https://www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/",
+   "alinti": "64% of men say they have felt insecure because of the lack of messages they received",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-8",
+   "iddia": "Flört uygulaması kullananların %53'ü kendi deneyimini çok ya da biraz olumlu buluyor.",
+   "url": "https://www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/",
+   "alinti": "53%",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-9",
+   "iddia": "Tinder deneyinde erkek deneme profilleri beğendikleri kişilerin yalnızca %0,6'sıyla eşleşti, kadın profilleri %10,5'iyle. Çalışma 2016, Londra, az sayıda yapay hesap; günümüze genellenemez.",
+   "url": "https://arxiv.org/abs/1607.01952",
+   "alinti": "Our male profiles like a large number of other users, but only match with a small minority (0.6%).",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-10",
+   "iddia": "Aktif bekâr uygulama kullanıcılarında (başta 493, son dalgada 190 kişi; 4 dalga, 12 hafta) duygusal tükenme ve verimsizlik hissi zamanla arttı.",
+   "url": "https://asu.elsevierpure.com/en/publications/burnt-out-and-still-single-susceptibility-to-dating-app-burnout-o/",
+   "alinti": "Multilevel growth curve models showed that dating app users experienced increased emotional exhaustion and inefficacy over time.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-11",
+   "iddia": "Başlangıçtaki depresyon, kaygı ve yalnızlık sonraki uygulama tükenmişliğini yordadı. Sorunlu kullanım duygusal tükenmeyi artırdı (yordama ilişkisi, nedensellik kanıtı değil).",
+   "url": "https://asu.elsevierpure.com/en/publications/burnt-out-and-still-single-susceptibility-to-dating-app-burnout-o/",
+   "alinti": "depression, anxiety, and loneliness predicted more emotional exhaustion and inefficacy",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Özet bu değişkenlerin 'başlangıçta' ölçüldüğünü söylemiyor. Sorunlu kullanımın verimsizlik hissi üzerindeki ters yönlü etkisi satırda eksikti. 'Artırdı' fiili nedensel okunabilir.",
+   "d_iddia": "Depresyon, kaygı ve yalnızlık daha fazla duygusal tükenmeyi ve verimsizlik hissini yordadı. Sorunlu uygulama kullanımı daha fazla duygusal tükenmeyi ama daha az verimsizlik hissini yordadı. Bunlar yordama ilişkisi, nedensellik kanıtı değil.",
+   "d_alinti": "depression, anxiety, and loneliness predicted more emotional exhaustion and inefficacy, while problematic dating app use predicted more emotional exhaustion and less inefficacy"
+  },
+  {
+   "id": "P6-12",
+   "iddia": "Yaygın aktarılan '%78 uygulama yorgunluğu' rakamı hakemli değil. Forbes Health/OnePoll'un 1.000 ABD'li kullanıcıyla yaptığı bir anketten geliyor.",
+   "url": "https://abcnews.go.com/Health/wireStory/feel-exhausted-swiping-dating-apps-experiencing-burnout-111507292",
+   "alinti": "78%",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "kontrol edilmedi"
+  },
+  {
+   "id": "P6-13",
+   "iddia": "TAYA 2021 (en güncel, 4. tur): evliliklerin %46,1'i görücü usulü ve kendi rızasıyla, %34,9'u kendi kararı ve aile rızasıyla, %10,7'si görücü usulü ve görüşü sorulmadan, %5,3'ü kaçma ya da kaçırılmayla yapılmış. TAYA tanışma kanalını sormuyor.",
+   "url": "https://www.diken.com.tr/?p=1102265",
+   "alinti": "Kendi kararı ve aile rızasıyla evliliklerin oranı yüzde 34,9.",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "kontrol edilmedi"
+  },
+  {
+   "id": "P6-14",
+   "iddia": "TAYA 2021'de görücü usulü evliliklerin toplam payı %56,8 (46,1 + 10,7).",
+   "url": "https://www.cumhuriyet.com.tr/turkiye/tuik-acikladi-evde-yuk-yine-kadinin-omuzlarinda-1921531",
+   "alinti": "yüzde 56,8",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-15",
+   "iddia": "Metropoll Ocak 2020 anketi (1.926 kişi, her yaş, evli ya da ilişkisi olanlar): eşiyle görücü usulü tanışan yaklaşık %49, arkadaş ortamında %22,4, iş yerinde yaklaşık %8, sosyal medyada %2,2.",
+   "url": "https://bianet.org/haber/metropoll-arastirmasi-turkiye-nin-yuzde-66-4-u-sevgililer-gunu-kutlamiyor-220063",
+   "alinti": "\"Arkadaş ortamında\" tanıştığını söyleyenlerin oranı ise yüzde 22,4",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-16",
+   "iddia": "Moreland ve Beach (1992) deneyinde dört kadın yardımcı araştırmacı bir dönem boyunca derse 0, 5, 10 ya da 15 kez geldi ve kimseyle konuşmadı. Daha sık görülen daha çekici bulundu. Tek çalışma, ABD'de üniversite öğrencileri.",
+   "url": "https://www.sas.rochester.edu/psy/people/faculty/reis_harry/assets/pdf/ReisManiaciCaprarielloEastwickFinkel_2011.pdf",
+   "alinti": "either zero, five, 10, or 15 times over the course of a semester; they did not interact with the students in the class",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-17",
+   "iddia": "Canlı etkileşim deneylerinde iki yabancı birbiriyle ne kadar çok konuştuysa birbirine o kadar çekim duydu. Katılımcılar aynı cinsiyettendi, romantik değil genel çekim ölçüldü.",
+   "url": "https://www.sas.rochester.edu/psy/people/faculty/reis_harry/assets/pdf/ReisManiaciCaprarielloEastwickFinkel_2011.pdf",
+   "alinti": "The more participants interacted, the more attracted they were to each other.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-18",
+   "iddia": "Bu etkiye aracılık eden üç süreç bulundu: karşı tarafın ilgili ve duyarlı olduğunu algılamak, rahatlık ve memnuniyet, karşı tarafı tanıdığını hissetmek.",
+   "url": "https://www.sas.rochester.edu/psy/people/faculty/reis_harry/assets/pdf/ReisManiaciCaprarielloEastwickFinkel_2011.pdf",
+   "alinti": "perceived responsiveness, increased comfort and satisfaction during interaction, and perceived knowledge",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "kontrol edilmedi"
+  },
+  {
+   "id": "P6-19",
+   "iddia": "Çevrimiçi sohbet deneylerinde daha çok soru sorması istenen kişiler daha ilgili ve duyarlı algılandı ve daha çok beğenildi (deneysel, nedensel kanıt).",
+   "url": "https://gwern.net/doc/psychology/novelty/2017-huang.pdf",
+   "alinti": "When people are instructed to ask more questions, they are perceived as higher in responsiveness",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-20",
+   "iddia": "Hız flörtünde daha çok takip sorusu soranlar daha sık ikinci buluşma kabulü aldı. Bu bölüm korelasyonel, yaklaşık 110 kişi (örneklem sayısı ikincil kaynaktan).",
+   "url": "https://gwern.net/doc/psychology/novelty/2017-huang.pdf",
+   "alinti": "speed daters who ask more follow-up questions during their dates are more likely to elicit agreement for second dates from their partners",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-21",
+   "iddia": "İnsanlar soru sormanın beğenilmeyi artırdığını önceden tahmin etmiyor.",
+   "url": "https://gwern.net/doc/psychology/novelty/2017-huang.pdf",
+   "alinti": "people do not anticipate that question-asking increases interpersonal liking",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "kontrol edilmedi"
+  },
+  {
+   "id": "P6-22",
+   "iddia": "İnsanlar konuşmadan sonra karşı tarafın kendilerini ne kadar beğendiğini olduğundan düşük tahmin ediyor. Laboratuvarda, yurtta ve bir atölyede gözlendi; romantik bağlam test edilmedi.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30183512/",
+   "alinti": "underestimate how much their partners liked them and enjoyed their company",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-23",
+   "iddia": "Tanışıklıktan gündelik arkadaşlığa geçmek yaklaşık 50 saat, arkadaşlığa yaklaşık 90 saat, yakın arkadaşlığa 200 saatten fazla birlikte zaman istiyor. Öz bildirime dayalı anket; romantik değil, arkadaşlık ilişkisi.",
+   "url": "https://news.ku.edu/2018/03/06/study-reveals-number-hours-it-takes-make-friend",
+   "alinti": "about 50 hours of interaction to move from acquaintance to casual friend",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-24",
+   "iddia": "Flörtten önce uzun süre tanışan ya da önce arkadaş olan çiftlerde dış görünüş eşleşmesi daha zayıf (167 çift). Bilgi basın bülteninden, tekrarlanması gerekiyor.",
+   "url": "https://www.psychologicalscience.org/news/releases/longer-acquaintance-levels-the-romantic-playing-field.html",
+   "alinti": "167 couples (67 dating, 100 married)",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "kontrol edilmedi"
+  },
+  {
+   "id": "P6-25",
+   "iddia": "Buluşmadan önce bildirilen 100'den fazla özellik ve tercih, iki kişiye özgü romantik uyumu tahmin edemedi. Kimin genel olarak çok beğenileceği kısmen tahmin edilebildi.",
+   "url": "https://journals.sagepub.com/doi/abs/10.1177/0956797617714580",
+   "alinti": "unable to predict relationship variance using any combination of traits and preferences reported before the dates",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-26",
+   "iddia": "İki gece uykusu kısıtlanan 25 kişinin fotoğraflarını puanlayan 122 kişi bu kişileri daha az çekici buldu ve onlarla daha az sosyalleşmek istedi. Küçük örneklem.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5451790/",
+   "alinti": "The results show that raters were less inclined to socialize with individuals who had gotten insufficient sleep.",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P6-27",
+   "iddia": "İsviçre'de 2018 verisine göre uygulamada tanışan çiftlerin ilişki ve yaşam doyumu başka yollarla tanışanlardan farklı değil, birlikte yaşama niyetleri daha güçlü.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7773176",
+   "alinti": "no differences between couples initiated through dating apps and those initiated elsewhere regarding relationship and life satisfaction",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "kontrol edilmedi"
+  },
+  {
+   "id": "P6-28",
+   "iddia": "Türkiye'de kadınların %83,9'u sokakta kendini güvende hissetmiyor (SODEV, 1.067 kişiyle telefon anketi, Aralık 2024; bilgi haberden).",
+   "url": "https://www.birgun.net/haber/sodev-arastirmasi-kadinlarin-yuzde-84-u-kendisini-sokakta-guvende-hissetmiyor-586945",
+   "alinti": "yüzde 83,9",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-1",
+   "iddia": "BAM Dans Akademisi Taksim'de pazartesi 20:00–21:00 ücretsiz başlangıç bachata partner dersi listelenmiş (30 Kas ve 7 Ara 2026).",
+   "url": "https://www.salsavida.com/tr/guides/turkey/istanbul/",
+   "alinti": "Başlangıç Seviyesi Bachata Partner Çalışması Dersi · BAM Dans Akademisi Taksim ... Ücretsiz",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-2",
+   "iddia": "BAM Beylikdüzü'nde perşembe 20:00 ücretsiz başlangıç bachata dersi, Taksim'de cumartesi 21:00–23:00 ücretsiz pratik partisi var (26 ve 28 Kas 2026).",
+   "url": "https://www.salsavida.com/tr/guides/turkey/istanbul/",
+   "alinti": "BAM Pratik Partisi · Taksim ... Ücretsiz",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-3",
+   "iddia": "İstanbul'daki salsa/bachata sahnesi aktif: önümüzdeki 30 günde 30 etkinlik listeleniyor.",
+   "url": "https://www.salsavida.com/tr/guides/turkey/istanbul/",
+   "alinti": "Önümüzdeki 30 gün: 30 yaklaşan dans etkinliği",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-4",
+   "iddia": "Jolly Joker Kanyon'da salı 22:00–01:30 Centro Latin Night var. Arama özetinde giriş 400 TL geçiyor, sayfada doğrulanmadı.",
+   "url": "https://www.salsavida.com/?p=94447",
+   "alinti": "400 TL",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Fiyat sayfada doğrulandı; 'sayfada doğrulanmadı' notu artık geçersiz. Düzenleyici (Istanbul Dance Life) saatlerin değişebileceğini, gitmeden teyit edilmesini söylüyor.",
+   "d_iddia": "Jolly Joker Kanyon'da (Kanyon AVM, Levent) her salı 22:00–01:30 Centro Latin Night var. Giriş 400 TL, 1 içecek dahil; sıradaki tarih 1 Ara 2026.",
+   "d_alinti": "400 TL, 1 içecek dahil"
+  },
+  {
+   "id": "P7-5",
+   "iddia": "Zinde'nin Belgrad Ormanı Neşet Suyu'ndaki pazar buluşmasında 07:30 tanışma, 6K yürüyüş grubu ve ücretsiz servis var. 40 kişi katılmış, tarih yazmıyor (geçmiş etkinlik).",
+   "url": "https://luma.com/cvlyivql",
+   "alinti": "07:30 Buluşma ve kaynaşma; 6K Yürükoş; ücretsiz servis; 40 Went",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "'Yürüyüş grubu' değil 'Yürükoş', yani yürüyüş-koşu. Etkinlik koşu ve yoga birlikte. Zinde'nin Florya'da haftalık perşembe koşusu da var (arama özeti).",
+   "d_iddia": "Zinde Life'ın Neşet Suyu'ndaki pazar etkinliği: 07:30 tanışma, 6K 6:30 tempolu koşu grubu ve 6K yürü-koş grubu, 09:00'da yoga, ücretsiz servis (Yenibosna, Levent, Maslak). 40 kişi katılmış. Geçmiş etkinlik, tarih yok.",
+   "d_alinti": "07.30 | Buluşma ve kaynaşma ... 6K Yürükoş ... ÜCRETSİZ SERVİS İMKANI ... 40 Went"
+  },
+  {
+   "id": "P7-6",
+   "iddia": "Beat Run Crew, Caddebostan sahilinde cumartesi sabahları 07:45'te 3K/6K/10K yeni başlayan dostu koşu yapıyor. Ücret belirtilmemiş, 08.08.2026 etkinliğine 19 kişi katılmış.",
+   "url": "https://luma.com/3cz1tbt6",
+   "alinti": "08.08 Cumartesi 07:45 ... 3K, 6K, 10K ... Cumartesi sabahları",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Sayfa 'Cumartesi sabahları' diyor ama tek bir geçmiş etkinliği anlatıyor. Grubun doğrulanabilen düzenli koşusu Beat Monday: pazartesi 19:45, Şaşkınbakkal (arama özeti).",
+   "d_iddia": "Beat Run Crew'un 'Beat Coffee Run' etkinliği 8 Ağustos 2026 cumartesi 07:45'te Kahve Dünyası Caddebostan'dan başladı, sahilde 3K/6K/10K, yeni başlayanlara açık. Ücret yazmıyor, 19 kişi katılmış. Geçmiş tek etkinlik, haftalık cumartesi programı doğrulanmadı.",
+   "d_alinti": "08.08 Cumartesi 07:45 ... 3K 6K 10K ... 19 Went"
+  },
+  {
+   "id": "P7-7",
+   "iddia": "Beat Coffee Run'ın bir sonraki tarihi 28.11.2026 olarak Luma İstanbul sayfasında listeleniyor, yani etkinlik güncel.",
+   "url": "https://luma.com/istanbul",
+   "alinti": "Beat Coffee Run ☕️ 28.11.2026 ... By Beat Run Crew",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-8",
+   "iddia": "SİBS Run Crew, Galataport Kahve Dünyası'ndan 6K sahil koşusu düzenliyor ve haftalık program duyuruyor. Örnek etkinliğe 7 kişi katılmış.",
+   "url": "https://luma.com/0ns0kqro?locale=tr",
+   "alinti": "haftalık programlarımızı takip edebilirsiniz ... 7 Katıldı",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-9",
+   "iddia": "The Offline Club Istanbul, Kadıköy Buka'da pazar 16:00–19:45 arası telefonsuz buluşma yapıyor. Önce tek başına okuma/çizim, sonra sohbet/oyun bölümü var. Ücret 400 TL, 10 kişi katılmış.",
+   "url": "https://luma.com/the-hkig",
+   "alinti": "Offline community hangouts & events to swap screen time for real time ... TRY 400.00",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Telefonlar girişte 'phone hotel'e bırakılıyor ya da kapalı tutuluyor. Kulübün Cihangir'de başka etkinlikleri de olmuş (Offline Craft Club, 26 kişi). Ancak 'pazar günleri yapıyor' demek fazla.",
+   "d_iddia": "The Offline Club Istanbul, Kadıköy Buka'da bir pazar 16:00–19:45 telefonsuz buluşma yaptı: önce tek başına okuma/çizim, sonra sohbet/oyun. Ücret 400 TL, 10 kişi katılmış. Geçmiş etkinlik, tarih yok, düzenliliği doğrulanmadı.",
+   "d_alinti": "Offline Hangout 📵 | Buka Space ... TRY 400.00 ... 10 Went"
+  },
+  {
+   "id": "P7-10",
+   "iddia": "The Offline Club, Postane'de telefonsuz oyun gecesi (650 TL) ve okuma partisi düzenliyor. Okuma partisi neredeyse dolu.",
+   "url": "https://luma.com/istanbul",
+   "alinti": "Offline Game Night 🎲 🧩 | Postane ... TRY 650; Offline Reading Party vol3 ... Near Capacity",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-11",
+   "iddia": "Offline Forest Walk (Atatürk Kent Ormanı) bağış usulü: telefonsuz giriş, sessiz yürüyüş ve sohbetli yürüyüş, 14:00–16:00. Tarih görülmedi, sayfa 404 verdi.",
+   "url": "https://luma.com/5wtx6kid",
+   "alinti": "donation-based ... silent walk ... social walk (arama özeti)",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "doğrulanamadı",
+   "not": "luma.com/5wtx6kid ve lu.ma adresi 404 veriyor ('Page Not Found'); etkinlik kaldırılmış ya da geçmiş olabilir. Web arama bütçesi tükendiği için bağımsız kaynak aranamadı. Rapora güncel etkinlik diye girmemeli."
+  },
+  {
+   "id": "P7-12",
+   "iddia": "Smileys Community (Meetup, 3.690 üye) 2 Ara 2026 çarşamba 19:00'da Kadıköy'de dil değişimi buluşması duyurmuş. Pazar kickboks 500 TL, gün batımı yelken 1.200 TL.",
+   "url": "https://www.meetup.com/istanbul-socialising-networking-group/",
+   "alinti": "Language Exchange in Kadıköy | Wed, Dec 2, 7:00 PM; Members: 3,690",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-13",
+   "iddia": "Speak Easy Istanbul her çarşamba 19:00–24:00 Moda'daki Rock'n Rolla Gastro Pub'da dil değişimi yapıyor. Son görülen tarih 1 Temmuz 2026.",
+   "url": "https://www.meetup.com/speakeasy-istanbul/events/315215364/",
+   "alinti": "Every week on Wednesday ... 7:00 PM to 12:00 AM",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-14",
+   "iddia": "Istanbul Octoboards (Meetup), Kadıköy Moda/Yeldeğirmeni kafelerinde kutu oyunu buluşmaları yapıyor. Güncel tarih görülmedi.",
+   "url": "https://www.meetup.com/istanbul-octoboards-boardgames",
+   "alinti": "typically hosted in Kadıköy (Moda/Yeldeğirmeni) cafés",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Güncel tarih var: son haftalarda her cumartesi 12–16 kişiyle buluşulmuş.",
+   "d_iddia": "Istanbul Boardgames (Octoboards, 800 üye) çoğunlukla Kadıköy'de (Moda/Yeldeğirmeni), bazen Avrupa yakasında buluşuyor. Sıradaki etkinlik 28 Kas 2026 cumartesi 19:30, Albero Della Vita Cafe (Rasimpaşa, Kadıköy), Blood on the Clocktower.",
+   "d_alinti": "Games are typically hosted in Kadıköy (Moda/Yeldeğirmeni) but sometimes the European side."
+  },
+  {
+   "id": "P7-15",
+   "iddia": "Istanbul Ladies Kitap Kulübü aylık buluşuyor (ör. 26 Nisan 2026 Yıldız Parkı). Adına bakılırsa kadınlara yönelik olabilir.",
+   "url": "https://kommunity.com/istanbul-ladies-kitap-kulubu/events/kitap-kulubu-bulusmasi-12-hakka-sigindik-56979702",
+   "alinti": "Kitap Kulübü Buluşması #12 – Hakka Sığındık",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Sayfada açıkça 'Kadınlara özel' ve 'women-only gathering' yazıyor; 'olabilir' değil kesin. 'Aylık' bilgisi sayfada yok. Erkek kullanıcı için seçenek değil.",
+   "d_iddia": "Istanbul Ladies Kitap Kulübü yalnızca kadınlara açık. 12. buluşma 26 Nisan 2026 pazar 08:00–10:00'da Yıldız Parkı'nda yapıldı, etkinlik sona erdi. Buluşma sıklığı belirtilmemiş."
+  },
+  {
+   "id": "P7-16",
+   "iddia": "Kadıköy'deki Yeni Hayat Sahaf'ta Kasım 2025'ten beri aylık Nobelli yazar okuma kulübü var. Katılım ücreti 250 TL (arama özeti, doğrulanmadı).",
+   "url": "https://1000kitap.com/osmany/iletiler",
+   "alinti": "250 lira (arama özeti)",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-17",
+   "iddia": "Atölye Sahi (Üsküdar) yeni başlayanlara 2 saate kadar süren tek seanslık seramik atölyesi veriyor. Ücret 30 $, ikram ve iki kez fırınlanmış ürün dahil.",
+   "url": "https://istanbulworkshops.com/workshops/istanbul-seramik-atolyesi-yeni-baslayanlar-icin-comlek-atolyesi-tek-seans",
+   "alinti": "$30 ... Up to 2 hours",
+   "guven": "orta",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-18",
+   "iddia": "Boulderhane boulder salonu Levent Metrocity AVM içinde faaliyet gösteriyor. Güncel giriş ücreti bulunamadı.",
+   "url": "https://bookingagency.io/cities/turkey/istanbul/climbing_gyms/boulderhane-istanbul",
+   "alinti": "Metrocity (arama özeti)",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Gösterilen bookingagency.io sayfası 404 veriyor. Konum resmî siteden doğrulandı.",
+   "d_iddia": "Boulderhane (600 m², 150 rota) Levent'te Metrocity AVM -1. katta (Büyükdere Cd. No:171). Hafta içi 10:00–22:00, hafta sonu 10:00–20:00 açık; giriş ücreti sitede görünmüyor.",
+   "d_alinti": "Levent, Büyükdere Cd. No:171, Metrocity AVM -1. Kat No. 127",
+   "d_url": "https://www.boulderhane.com/"
+  },
+  {
+   "id": "P7-19",
+   "iddia": "TEMA Vakfı İstanbul'un ilçelerinde doğa koruma için 'aktif gönüllü' arıyor, başvuru gonullu@tema.org.tr adresine. İlan tarihsiz.",
+   "url": "https://www.bilimsenligi.com/?p=328981",
+   "alinti": "tamamen gönüllülük esasına dayalı bir çağrı",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-20",
+   "iddia": "Tinder, BTK talebiyle Ankara'daki iki sulh ceza hâkimliğinin kararıyla erişime engellendi (haber 2 Eylül 2025). Gerekçe açıklanmadı.",
+   "url": "https://bianet.org/haber/turkey-blocks-access-to-29-dating-video-chat-apps-311051",
+   "alinti": "upon orders of two courts in Ankara",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Bianet Tinder'ı girişte anıyor ama 18 uygulamalık kendi listesinde Tinder yok. DonanımHaber listesinde de yok. OONI'ye göre tinder.com Türkiye'de Eylül 2025 sonrası erişilebilir (%96–100 ok, teyitli engel yok).",
+   "d_iddia": "BTK talebiyle Ankara 3. ve 4. Sulh Ceza Hâkimlikleri 29 görüntülü sohbet/flört uygulamasını (Azar, LivU, Tango vb.) engelledi; haber 2 Eylül 2025, gerekçe açıklanmadı. Tinder'ın engellendiği doğrulanamadı.",
+   "d_alinti": "The bans were imposed by Ankara's 3rd and 4th criminal judgeships of peace following a request by the ... (BTK).",
+   "d_url": "https://api.ooni.io/api/v1/aggregation?probe_cc=TR&domain=tinder.com&since=2025-06-01&until=2026-11-26&axis_x=measurement_start_day&time_grain=month"
+  },
+  {
+   "id": "P7-21",
+   "iddia": "OONI ölçümleri tinder.com'da 29 Temmuz 2026'dan itibaren anormallik gösteriyor, yani engel 2026'da da sürüyor gibi görünüyor.",
+   "url": "https://explorer.ooni.org/findings/305408501600",
+   "alinti": "29 Temmuz 2026 (arama özeti)",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "yanlış",
+   "not": "OONI Türkiye verisi: AS9121'de 1743/1751, AS34984'te 913/925, AS16135'te 175/176 ölçüm ok, teyitli engel 0. Anormalliklerin neredeyse tamamı tek bir küçük ağdan (AS210517, 536/538).",
+   "d_iddia": "Bu OONI bulgusu Suudi Arabistan'da (Mobily ağı) 29 Temmuz 2026'da başlayan Tinder engeliyle ilgili. Türkiye ölçümlerine göre tinder.com Eylül–Kasım 2026'da büyük servis sağlayıcılarda erişilebilir.",
+   "d_alinti": "Starting from 29th July 2026 (Saudi Arabia, AS35819)",
+   "d_url": "https://api.ooni.io/api/v1/aggregation?probe_cc=TR&domain=tinder.com&since=2026-09-01&until=2026-11-26&axis_x=probe_asn"
+  },
+  {
+   "id": "P7-22",
+   "iddia": "Engele rağmen Sensor Tower'a göre Q4 2025'te Türkiye'de Tinder'ın iOS aktif kullanıcısı 312 binden yaklaşık 254 bine indi. Bumble 151 bine ulaştı.",
+   "url": "https://sensortower.com/blog/2025-q4-ios-top-5-dating-revenue-tr-64c9b6bbe1714cfff1c9d0e8",
+   "alinti": "reaching 151K",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "Sayılar doğru. 'Engele rağmen' ifadesi kaynakta yok ve Tinder engeli doğrulanamadı (bkz. P7-20). Aktif kullanıcının günlük mü aylık mı olduğu belirtilmemiş, yalnızca iOS.",
+   "d_iddia": "Sensor Tower'a göre Q4 2025'te Türkiye'de (iOS) Tinder'ın aktif kullanıcısı 312 binin üstünden yaklaşık 254 bine indi; Bumble'ınki çeyrek sonunda 151 bine çıktı. Kaynak engelden söz etmiyor.",
+   "d_alinti": "Active users fluctuated, starting at over 312K and ending at approximately 254K."
+  },
+  {
+   "id": "P7-23",
+   "iddia": "6 Kasım 2026'da İstanbul 1. Sulh Ceza Hâkimliği OkCupid, Feeld ve LGBTİ+ odaklı platformları engelledi. Bumble ve Hinge listede yok.",
+   "url": "https://www.diken.com.tr/dokuz-tanisma-ve-arkadaslik-platformu-erisime-engellendi/",
+   "alinti": "İstanbul 1'inci Sulh Ceza Hâkimliği'nce alındı",
+   "guven": "yüksek",
+   "kritik": true,
+   "karar": "düzeltildi",
+   "not": "6 Kasım haberin tarihi, kararınki değil. Haber içinde tutarsızlık var: başlık 'dokuz', metin 'sekiz LGBTİ+ odaklı' diyor.",
+   "d_iddia": "6 Kasım 2026 tarihli habere göre (İFÖD aktarımı) İstanbul 1. Sulh Ceza Hâkimliği dokuz platformu engelledi: OkCupid, Feeld, GROWLR, Zoe, Lex, Bindr, u4Bear, Disco, TheBlowers. Karar tarihi verilmemiş. Bumble, Hinge ve Tinder haberde yok.",
+   "d_alinti": "İstanbul 1'inci Sulh Ceza Hâkimliği'nce alındığını"
+  },
+  {
+   "id": "P7-24",
+   "iddia": "Hinge'in Türkiye App Store sayfası açık ve TL fiyat gösteriyor. Resmî ülke listesinde Türkiye'nin olup olmadığı doğrulanamadı.",
+   "url": "https://apps.apple.com/tr/app/id595287172",
+   "alinti": "Hinge Dating App: Match & Date 17+",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "Türkiye App Store sayfası açık. Uygulama ücretsiz ve uygulama içi satın almalar TL ile gösteriliyor (Hinge+ ₺599,99'dan başlıyor). Uygulamanın adı artık 'Match & Date' değil 'Meet & Date', yaş sınırı da 17+ değil 18+. Resmî ülke listesine bakmadım.",
+   "d_iddia": "Hinge'in Türkiye App Store sayfası açık ve uygulama içi satın almaları TL ile gösteriyor (örneğin Hinge+ ₺599,99). Resmî ülke listesinde Türkiye'nin olup olmadığı doğrulanamadı.",
+   "d_alinti": "Hinge Dating App: Meet & Date (18+)",
+   "d_url": "https://apps.apple.com/tr/app/id595287172"
+  },
+  {
+   "id": "P7-25",
+   "iddia": "Gündelik arkadaşlık yaklaşık 50, arkadaşlık 90, yakın arkadaşlık 200+ saat istiyor. Birlikte çalışmak daha az sayılıyor. Bulgu ABD örnekleminden (355 yetişkin + 112 KU öğrencisi) ve korelasyonel.",
+   "url": "https://news.ku.edu/news/article/2018/03/06/study-reveals-number-hours-it-takes-make-friend",
+   "alinti": "Hours spent working together just don't count as much",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-26",
+   "iddia": "ABD'de 2017'de ulusal temsilî bir ankete göre heteroseksüel çiftlerin en sık tanışma yolu internet; 2013 civarında arkadaş aracılığıyla tanışmayı geçmiş. Bulgu yalnızca ABD için geçerli.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31431531/",
+   "alinti": "meeting online has become the most popular way couples meet, eclipsing meeting through friends for the first time around 2013",
+   "guven": "yüksek",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-27",
+   "iddia": "ABD'de bazı kadınlar, flört amaçlı yaklaşan erkekler yüzünden koşu kulüplerini bırakmış (anekdot düzeyinde gazetecilik, 2024).",
+   "url": "https://washingtonian.com/2024/10/14/singles-are-joining-run-clubs-not-everyone-is-happy-about-that",
+   "alinti": "Some women, he says, have stopped going to run clubs altogether.",
+   "guven": "orta",
+   "kritik": true,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-28",
+   "iddia": "Hiking Istanbul ayda bir cumartesi toplu taşımayla ulaşılabilen ücretsiz günübirlik yürüyüş yapıyordu. Kaynak 2017, güncelliği doğrulanamadı (site 503 verdi).",
+   "url": "https://www.dailysabah.com/expat-corner/2017/07/28/turkeys-scenic-beauty-attracts-expat-trekkers-1501187956",
+   "alinti": "monthly day-long hikes on Saturdays, each of which are accessible by public transportation and free",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "doğru"
+  },
+  {
+   "id": "P7-29",
+   "iddia": "Polonezköy'de yaklaşık 5 km'lik başlangıç seviyesi parkur, Belgrad Ormanı'nda 6,5 km'lik Neşet Suyu parkuru var. Grupsuz, sakin yürüyüş için uygun (popüler kaynak).",
+   "url": "https://www.istairport.com/blog/istanbulda-sonbahar-yuruyus-rotalari",
+   "alinti": "Başlangıç seviyesine uygun rotalardan biri Polonezköy'de bulunuyor.",
+   "guven": "düşük",
+   "kritik": false,
+   "karar": "düzeltildi",
+   "not": "5 km ve 6,5 km değerleri sayfada var. Ama verilen alıntı sayfada geçmiyor, sayfa zorluk seviyesi de belirtmiyor. Neşet Suyu parkuru asfalt. Sayfa hafta sonları kalabalık olabileceğini söylüyor ve sakin bir yürüyüş için hafta içi sabahları öneriyor.",
+   "d_iddia": "Polonezköy Tabiat Parkı'nda 5 km'lik bir yürüyüş parkuru, Belgrad Ormanı'nda 6,5 km'lik asfalt zeminli Neşet Suyu parkuru var. Kaynak zorluk seviyesi vermiyor. Hafta sonları kalabalık olabilir, sakin yürüyüş için hafta içi sabah önerilir (popüler kaynak).",
+   "d_alinti": "Parkın içindeki 5 kilometrelik yürüyüş parkuru, kuş cıvıltıları eşliğinde yürüyüş yapmak için ideal.",
+   "d_url": "https://www.istairport.com/blog/istanbulda-sonbahar-yuruyus-rotalari"
+  }
+ ],
+ "istatistik": {
+  "P1": {
+   "satir": 30,
+   "kontrol": 24,
+   "hatali": 4,
+   "oran": 17
+  },
+  "P2": {
+   "satir": 30,
+   "kontrol": 24,
+   "hatali": 7,
+   "oran": 29
+  },
+  "P3": {
+   "satir": 30,
+   "kontrol": 25,
+   "hatali": 6,
+   "oran": 24
+  },
+  "P4": {
+   "satir": 30,
+   "kontrol": 23,
+   "hatali": 5,
+   "oran": 22
+  },
+  "P5": {
+   "satir": 30,
+   "kontrol": 22,
+   "hatali": 10,
+   "oran": 45
+  },
+  "P6": {
+   "satir": 28,
+   "kontrol": 20,
+   "hatali": 2,
+   "oran": 10
+  },
+  "P7": {
+   "satir": 29,
+   "kontrol": 18,
+   "hatali": 7,
+   "oran": 39
+  }
+ },
+ "dogrulayici_arac": [
+  "d1: 18/40",
+  "d2: 31/40",
+  "d3: 21/40",
+  "d4: 32/40",
+  "d5: 26/40",
+  "d6: 39/40",
+  "d7: 37/40",
+  "d8: 29/32",
+  "e1: 24/40",
+  "e2: 39/40",
+  "e3: 6/6"
+ ],
+ "dogrulayici_sayisi": {
+  "ilk": 8,
+  "ek": 3
+ },
+ "basarisiz_uretici": [],
+ "kontrol_edilmeyen": [
+  "P6-3",
+  "P6-4",
+  "P6-12",
+  "P6-13",
+  "P6-18",
+  "P6-21",
+  "P6-24",
+  "P6-27"
+ ]
+}
