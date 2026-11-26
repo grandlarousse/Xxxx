@@ -1,108 +1,119 @@
-# Model tanımı (taslak v1, yöntem denetimine gidecek)
+# Model tanımı (v2, yöntem denetiminden sonra)
 
-Bu model **kanıt değil, varsayımları tutarlı bir programa çeviren bir hesap aracıdır**. Bütün parametreler "örnekleyici"dir: literatürden gelen dayanak noktalarıyla sınırlanmış aralıklardan çekilir, kişiye özgü değildir. Amaç tek bir sayı bulmak değil; (1) optimumun ufka ve amaca göre hangi yöne kaydığını, (2) sonucu en çok hangi parametrenin oynattığını, (3) kalibrasyonda neyin ölçülmesi gerektiğini göstermektir.
+Bu model **ölçüm değil, varsayımları tutarlı bir programa çeviren hesap aracıdır**. Bütün parametreler "örnekleyici"dir. Yöntem denetimi (E1) v1'de döngüsellik buldu: sürdürülebilir üst sınır girdiydi ve çıktı olarak geri geliyordu. v2'de bu sınır açık bir **senaryo ekseni**dir; raporda her sayının yanına onu doğuran girdi yazılır. Modelin kendi katkısı biçimdir: pişmanlık eğrisinin asimetrisi, amaçlar arası fark, kısa ufukta ne kadar yüklenilebildiği, hangi parametrenin ölçülmesi gerektiği.
 
-## 1. Zaman ve karar değişkenleri
+## 1. Zaman ve politika
 
-Adım: gün. Ufuk H gün; sınav H+1. günün sabahı.
+Adım: gün. Ufuk H; sınav H+1. günün sabahı. Ufuklar: 30, 90, 120, 150, 180, 270, 360.
 
-Politika π:
-- `hA`: tam çalışma gününde yüksek talepli net saat (yeni konu, soru/vaka çözme, aktif geri çağırma). Izgara 1–10, adım 0,5.
-- `hB`: aynı gün düşük talepli net saat (video, okuma, hafif tekrar). Izgara 0–4, adım 1.
+Politika π = (hA, hB, d, n, T, ψ):
+- `hA`: çalışma gününde yüksek talepli net saat (yeni konu, soru/vaka, aktif geri çağırma): 1–10, adım 0,5.
+- `hB`: düşük talepli net saat (video, okuma, hafif tekrar): 0, 1, 2, 3.
 - `d`: haftada çalışma günü: 5, 6, 7.
-- `n`: hafif hafta sıklığı: yok, 6, 4, 3 haftada bir; hafif haftada yük oranı φ = 0,5.
-- `T`: taper uzunluğu: 0, 3, 7, 14 gün; taperde yük oranı ψ = 0,5.
+- `n`: hafif hafta: yok, 6, 4, 3 haftada bir; hafif haftada saatler × 0,5.
+- Son dönem: `T` ∈ {0, 3, 7, 14} gün, saat çarpanı `ψ` ∈ {0,5; 0,75; 1,25} (T=0 ise ψ=1). ψ>1 son hızlanmadır.
 
-## 2. Gün içi üretim
+## 2. Gün içi üretim ve yük
 
-Günün u. net saatinin marjinal verimi: `m(u) = 1 / (1 + (u/u50)^s)`.
-- `u50`: marjinal verimin yarıya düştüğü saat. `s`: eğrinin dikliği.
-- Etkili saat: `E_A = ∫_0^hA m(u) du`, `E_B = eB · ∫_hA^(hA+hB) m(u) du`. `eB`: pasif çalışmanın göreli verimi.
+- Marjinal verim: `m(u) = 1/(1 + (u/u50)^s)`.
+- Etkili saat: `E_A = ∫_0^hA m`, `E_B = eB · ∫_hA^(hA+hB) m`.
+- Yük: `W = ∫_0^hA c + cB · ∫_hA^(hA+hB) c`, `c(u) = 1 + γ·max(0, u − h0)`.
+- `L(h)`: yalnız yüksek talepli h saatin yükü (hB=0).
 
-Günlük yük (yorgunluk girdisi): `W = ∫_0^hA c(u) du + cB · ∫_hA^(hA+hB) c(u) du`, `c(u) = 1 + γ · max(0, u − uθ)`. Geç saatler daha pahalıdır. `cB`: pasif çalışmanın göreli yükü.
+## 3. Yorgunluk (boyutsuz, gözlenebilir eşiklerle)
 
-## 3. Yorgunluk: iki bölmeli, basamaklı
+- Fazla yük: `x(t) = max(0, W(t) − L(h0))`.
+- Akut: `f1(t+1) = (f1(t) + x(t)) · exp(−1/τ1)`.
+- Kronik: `f2(t+1) = f2(t) · exp(−1/τ2) + max(0, f1(t+1) − a)`.
+- Sabah verimi: `q(t) = 1/(1 + b1·f1(t) + b2·f2(t))`.
 
-- Akut: `F1(t+1) = (F1(t) + κ1 · max(0, W(t) − Wθ)) · exp(−1/τ1)`
-- Kronik: `F2(t+1) = F2(t) · exp(−1/τ2) + κ2 · max(0, F1(t+1) − F1tol)`
-- Ertesi günün verim çarpanı: `q(t) = 1 / (1 + β1·F1(t) + β2·F2(t))`
-- **Uçurum:** `F2 ≥ Fcrit` olursa çöküş durumu: q, `qc` ile çarpılır, τ2 üç katına çıkar, yük zorunlu olarak yarıya iner; durum F2 < 0,3·Fcrit olana kadar sürer.
+Ölçekler şu gözlenebilir eşiklerden türetilir (κ katsayıları yok):
+- `h0`: hiç taşınmayan günlük yük.
+- `h1 = h0 + v1·(h3 − h0)`: haftada 6 gün çalışırken kronik birikimin başladığı saat. `a`, 6 gün h1 + 1 gün dinlenme döngüsünün durağan hâlindeki en yüksek sabah f1 değeridir.
+- `h3`: haftada 6 gün, hafif haftasız **süresiz** sürdürülebilen tavan. `Fcrit`, bu rejimin durağan en yüksek f2 değeridir. **Senaryo ekseni: h3 ∈ {5, 6, 7, 8}.**
+- `q1`: f1 = a iken sabah verimi → `b1 = (1/q1 − 1)/a`.
+- `qK`: f2 = Fcrit iken verim → `b2 = (1/qK − 1)/Fcrit`.
 
-Mantık: `Wθ` altındaki günlük yük hiç taşınmaz. Üstündeki yük akut yorgunluk üretir; akut yorgunluk dinlenme günüyle temizlenmezse kronik bölmeye akar.
+**Uçurum:** bir sabah f2 ≥ Fcrit ise çöküş: q × `qcol`, uygulanan saat planın yarısı, τ2 üç katı; f2 < 0,3·Fcrit olunca çıkılır.
+
+**Yavaş birikim senaryosu (Y):** `f3(t+1) = f3(t)·exp(−1/120) + λ·f2(t+1)`; uçurum ve q hesabında f2 yerine f2+f3. λ ∈ {0 (temel), 0,02, 0,05}. Her λ için 90 ve 360 günlük sürdürülebilir tavan çıktı olarak raporlanır. λ=0'da model 90 günden sonra ufuk etkisi üretmez; bu bir varsayımdır.
 
 ## 4. Bilgi
 
-Ustalık oranı g ∈ [0,1] (sınav kapsamının geri çağrılabilir kısmı):
-`g(t+1) = g(t) − g(t)/τG + (q(t) · (E_A + E_B) / S) · (1 − g(t))`
-- `S`: kapsamın büyüklüğü (bir kez ustalaşmak için gereken etkili saat).
-- `τG`: saklama zaman sabiti (aralıklı tekrar sürdürülürken).
-- `(1 − g)`: sonlu kapsam, doygunluk.
+`g(t+1) = g(t) − g(t)/τG + (e(t)/S)·(1 − g(t))`, `e(t) = q(t)·(E_A+E_B)` (uygulanan saatlerle).
+- S ve τG birlikte kabul edilir: hA=6, d=6, q=1, g0=0,3 ile 180 günde g ∈ [0,65; 0,90] olmalı.
+- Virtual OSCE kapsamı: `S_N = κN·S`.
+- Yorgunluk ve e(t) bilgiye bağlı değildir; bir kez hesaplanır, g ayrı yürütülür.
 
 ## 5. Amaçlar
 
-- (a) Toplam öğrenme: `Σ_t q(t)·(E_A+E_B)` (doygunluk ve unutma hariç brüt öğrenme).
-- (b1) DUS: sınav günü performansı `P = g(H) · (1 − ε1·F1(H) − ε2·F2(H))` en yüksek.
-- (b2) Virtual OSCE: `Pr(geçme) = Φ((P − Pgeç)/σP)`. Önce Pr(geçme) ≥ 0,95 koşulu, sonra en düşük toplam net saat; eşitlikte en düşük tepe F2. Başlangıç düzeyi `g0` ve `Pgeç` senaryo parametresidir (küçük / orta / büyük açık).
+- (a) `Σ e(t)`.
+- (b1) DUS: `P = g(H)·exp(−(e1·f1(H)/a + e2·f2(H)/Fcrit))` en yüksek. Ayrıca e1=e2=0 referans koşusu.
+- (b2) Virtual OSCE: `Pr = Φ((P − Pgeç)/σP)`. Pr ≥ 0,95 sağlayan politikalar içinde **önce en düşük K, sonra en az toplam saat, sonra en düşük tepe f2**. Ek karar değişkeni: başlangıç gecikmesi D ∈ {0, H/4, H/2, 3H/4}. Açık senaryoları: Pgeç − g0 = 0,05 / 0,15 / 0,30. Çıktı: "açık → gereken toplam net saat ve günlük saat" tablosu.
 
-## 6. K seviyelerinin işlemsel tanımı
+## 6. K seviyeleri (toparlanma süresiyle; tol = 0,02, duyarlılık 0,01 ve 0,05)
 
-Bir parametre çekimi ve politika için, sınavsız sürekli rejimde:
-- **K0:** her sabah F1 ≤ tol ve F2 = 0 (günlük yük ≤ Wθ).
-- **K1:** haftalık dinlenme gününün ertesi sabahı F1 ≤ tol; F2 ≤ tol.
-- **K2:** her hafif haftanın ertesi sabahı F2 ≤ tol; arada F2 < 0,5·Fcrit.
-- **K3:** sınav gününe kadar F2 < 0,8·Fcrit (uçurumun altında güvenlik payıyla); sıfırlama şartı yok.
+- **K0:** her sabah q ≥ 1 − tol.
+- **K1:** haftalık dinlenme gününün ertesi sabahı q ≥ 1 − tol (d ≤ 6).
+- **K2:** her hafif haftanın ertesi sabahı q ≥ 1 − tol (n sonlu), çöküş yok.
+- **K3:** sınava kadar çöküş yok ve en yüksek (f2+f3) ≤ 0,8·Fcrit.
 
-Her K için, o kısıtı sağlayan politikalar içinde amaca göre en iyisi seçilir. Kısıtsız en iyi politikanın hangi K'ya düştüğü ayrıca raporlanır.
+Kümeler iç içedir (K0 ⊂ K1 ⊂ K2 ⊂ K3). Her K için: kısıtı sağlayan en yüksek toplam saat (tavan) ve amaca göre en iyi politika.
 
-## 7. Parametreler (geçici aralıklar; 1. dalga bulgularıyla güncellenecek)
+## 7. Parametreler (hepsi örnekleyici)
 
-| Parametre | Anlam | Geçici aralık | Dayanak türü |
+| Parametre | Anlam | Aralık | Dayanak |
 |---|---|---|---|
-| u50 | marjinal verimin yarılandığı net saat | 4–9 | dolaylı (bilinçli pratik, uzun saat çıktısı) |
-| s | dikliği | 2–6 | görüş |
-| eB | pasif çalışmanın göreli verimi | 0,3–0,6 | dolaylı (test etkisi, aktif öğrenme) |
-| cB | pasif çalışmanın göreli yükü | 0,3–0,7 | görüş |
-| Wθ | taşınmayan günlük yük (saat eşdeğeri) | 3–6 | dolaylı |
-| uθ, γ | geç saatlerin ek maliyeti | uθ 3–6; γ 0,1–0,5 | görüş |
-| τ1 | akut yorgunluk zaman sabiti | 1–3 gün | dolaylı (toparlanma çalışmaları) |
-| τ2 | kronik yorgunluk zaman sabiti | 7–30 gün | dolaylı (Banister τ2, tatil etkisinin sönmesi) |
-| κ1, κ2, F1tol | birikim katsayıları | ölçek; dayanak testleriyle sınırlanır | model |
-| β1, β2 | yorgunluğun verime etkisi | q, uçurum eşiğinde 0,6–0,85 olacak biçimde | model |
-| Fcrit, qc | uçurum eşiği ve çöküşte verim | qc 0,3–0,6 | dolaylı (aşırı yüklenme tanımları) |
-| τG | saklama zaman sabiti | 60–400 gün | dolaylı (aralık etkisi) |
-| S | kapsam büyüklüğü | DUS 400–1.500; V-OSCE 150–600 etkili saat | görüş |
-| ε1, ε2 | sınav günü yorgunluk cezası | 0–0,15 | dolaylı (taper) |
-| σP | sınav günü gürültüsü | 0,03–0,06 | dolaylı (ölçüm hatası) |
+| h3 | süresiz sürdürülebilen tavan (6 gün/hafta) | senaryo: 5, 6, 7, 8 | dolaylı: müzikte günde 3,5 saat yalnız pratik (alt uç); 6–7 saatlik laboratuvar günleri; baro ve USMLE'de 8–11 brüt saatlik haftalar süren dönemler (üst uç) |
+| h0 | taşınmayan günlük yük | 3 – min(5,5; h3−1) | dolaylı: 3'e karşı 6 saatlik iş yükü deneyi |
+| v1 | h1'in h0–h3 arasındaki yeri | 0,25–0,75 | görüş |
+| u50, s | gün içi verim eğrisi | 4–10; 2–6 | zayıf; dayanak testleri bağlamıyor |
+| eB, cB | pasif çalışmanın göreli verimi ve yükü | 0,3–0,7; 0,3–0,8 | dolaylı (test etkisi 1,5–2 kat; yük için veri yok) |
+| γ | geç saatlerin ek yükü | 0–0,4 | görüş |
+| τ1 | akut zaman sabiti | 0,5–2 gün | dolaylı (tek gecelik uykusuzluk 1–2 gecede düzelir) |
+| τ2 | kronik zaman sabiti | 7–28 gün | dolaylı (tatil etkisi 1–4 haftada söner; spor modellerinde 1–20 gün) |
+| q1, qK, qcol | eşiklerde verim | 0,93–0,99; 0,6–0,9; 0,3–0,6 | görüş |
+| τG | saklama zaman sabiti | 90–400 gün | dolaylı |
+| S | kapsam | öğrenme dayanağıyla kabul | görüş |
+| κN | Virtual OSCE kapsamı / DUS kapsamı | 0,25–0,6 | görüş |
+| e1, e2 | sınav günü kaybı (eşikte) | 0–0,03; 0–0,10 | dolaylı |
+| Pgeç | geçmek için gereken doğru oranı | 0,64–0,69 | resmî (NDEB 2024 teknik raporu) |
+| σP | sınav günü gürültüsü | 0,03–0,05 | görüş |
 
-## 8. Dayanak testleri (çekim kabul ölçütleri)
+## 8. Hesap planı
 
-Bir parametre çekimi şu davranışları üretmiyorsa atılır:
-1. Günde 4 net yüksek talepli saat, haftada 6 gün, 360 gün: uçuruma hiç ulaşmaz.
-2. Günde 7 net saat, haftada 6 gün, 6 hafta: uçuruma ulaşmaz (tıp öğrencilerinin yoğun hazırlık dönemleri).
-3. Günde 12 net saat, haftada 7 gün: 12 hafta içinde uçuruma ulaşır.
-4. Haftalık etkili çıktı, 6 günlük haftada günlük 10 net saatte, 8 net saattekinin en çok 1,15 katıdır (uzun saatlerde çıktı eğrisinin düzleşmesi).
-5. Yük kesildiğinde F1 üç günde, uçurum altındaki F2 üç haftada başlangıcın %20'sinin altına iner; çöküşten çıkış en az 4 hafta sürer.
+- Latin hiperküp, senaryo başına en az 1.000 kabul edilmiş çekim; iki tohum.
+- Maliyet: (çekim, taban politika) başına 360 günlük tek koşu; her ufuk ve son dönem seçeneği, o koşunun H−T günündeki durumundan devam ettirilir.
+- Hücre = ufuk × amaç × K × h3 senaryosu.
 
-Bu testler de yargıya dayanır ve "örnekleyici" etiketini taşır.
+**Raporlanacaklar**
+1. Başlık: **sağlam politika** (çekimler üzerinde beklenen pişmanlığı en küçük; pişmanlık = 1 − J/J*), hA ve hB ayrı, d, n, T, ψ.
+2. Pişmanlık eğrisi: sağlam politikanın −2 … +2 saat çevresinde ortalama ve %95'lik pişmanlık.
+3. Çekim başına optimumun ortancası ve çeyrekler arası aralığı; adı "varsayım aralığı". Hassasiyet 0,5 saat.
+4. Politika başına uçuruma düşme olasılığı.
+5. Duyarlılık: kısmi sıra korelasyonu ve her parametrenin alt/üst yarısında optimum.
+6. Önsel ile kabul edilen çekimlerin marjinalleri, kabul oranları.
+7. Marjinal sınama: sağlam politikada ufkun ortasındaki bir güne +0,5 saat; "aynı gün kazanç / sonraki kayıp".
+8. (a) ile (b1) en iyi politikalarının örtüşme oranı; e=0 referansı.
+9. (b2) açık tablosu ve karar kuralı.
+10. Y senaryosunda 90 ve 360 günlük tavan.
 
-## 9. Hesap ve raporlama
+**Şart sınamalar:** W ≤ L(h0) ise f ≡ 0 ve q ≡ 1; s=2'de E = u50·arctan(h/u50); durağan f1'in kapalı biçimi; g'nin durağan değeri; K0 ≤ K1 ≤ K2 ≤ K3; 0,25 saatlik ızgarada yakınsama; ızgara sınırına yapışan optimum oranı; iki tohumun uyumu.
 
-- Latin hiperküp ile en az 2.000 kabul edilmiş çekim.
-- Her çekim × ufuk (30, 90, 120, 150, 180, 270, 360) × amaç × K için ızgarada en iyi politika.
-- Raporlanan: optimum toplam net saatin (hA+hB) ortancası, çeyrekler arası aralığı, %5–95 aralığı; ayrıca **sağlam politika** (çekimler üzerinde beklenen pişmanlığı en küçük olan tek politika).
-- Duyarlılık: her parametre ile optimum saat arasında kısmi sıra korelasyonu; sağlam politika için kasırga grafiği.
-- Politika başına uçuruma düşme olasılığı (çekimler üzerinden); "uçurumun başladığı yer" = bu olasılığın %5'i geçtiği yük.
+## 9. İki sınav uzantısı (ayrı koşu)
 
-## 10. İki sınav uzantısı
+- Tarihler (bugün 26.11.2026): Virtual OSCE 1 Mart 2027 (95. gün), 20 Mayıs 2027 (175. gün), 22 Kasım 2027 (361. gün); DUS 24 Ekim 2027 (332. gün).
+- Sıralamalar: S1 = OSCE 95 → DUS 332; S2 = OSCE 175 → DUS 332; S3 = DUS 332 → OSCE 361.
+- İki ustalık oranı gD, gN. Bir sınav için yapılan etkili saatin ω kadarı ötekine de yazılır; ω senaryo: 0,2 / 0,4 / 0,6.
+- İngilizce çalışma verim çarpanı eL = 0,83 (ikinci dilde çalışma yaklaşık %20 uzun sürer; Felemenkçe–İngilizce verisi).
+- Dönem başına Virtual OSCE payı: 0, 0,25, 0,5, 0,75, 1.
+- Amaç: Pr(Virtual OSCE geçme) ≥ 0,95 koşuluyla DUS sınav günü P en yüksek. Yorgunluk ortaktır.
 
-- İki ustalık oranı: gD (DUS), gN (Virtual OSCE). Bir sınav için yapılan etkili saatin ω kadarı diğerine de yazılır (içerik örtüşmesi; aralık 0,2–0,6).
-- İngilizce çalışma: verim çarpanı eL (0,75–0,95), yük çarpanı cL (1,0–1,2).
-- Sıralamalar: önce DUS, önce Virtual OSCE, paralel (gün içi pay 0–1).
-- Amaç: Pr(Virtual OSCE geçme) ≥ 0,95 koşuluyla DUS sınav günü performansı en yüksek. Yorgunluk bölmeleri ortaktır; ilk sınavın taperi ve sonrasındaki toparlanma ikinci sınavın rampasına yazılır.
+## 10. Bilinen sınırlar
 
-## 11. Bilinen sınırlar
-
-- Yapı spor bilimindeki uyarı–yanıt modelinden esinlenir; zaman sabitleri bilişsel iş için ölçülmemiştir.
-- Gün içi verim eğrisi ile yorgunluk eşiği birbirinden bağımsız çekilir; gerçekte bağlı olabilirler.
-- Uyku modelde örtüktür (τ1 içinde); uykudan çalınan saat ayrıca modellenmez.
-- Çalışma türü yalnızca iki sınıfa ayrılır; deneme sınavı günleri ayrı modellenmez.
+- Uçurumun yeri girdidir, bulgu değildir.
+- λ=0'da 90 günden sonra ufuk etkisi yoktur; uzun ufuktaki temkin literatürden ve Y senaryosundan gelir.
+- Uyku modelde yok: bütün sonuçlar yeterli uyku (yaklaşık 8 saat ve üstü yatak süresi) koşuluna bağlıdır.
+- Deneme sınavı günleri, rampa ve tekrar yükünün g ile büyümesi modellenmez.
+- Zaman sabitleri bilişsel iş için ölçülmemiştir.
+- Pr ≥ 0,95 yalnız sınav günü gürültüsünü kapsar; parametre belirsizliğini değil.
