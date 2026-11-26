@@ -1,0 +1,14 @@
+sinama,sonuc,sayi,esik,aciklama
+motor_ref_sim_esitligi,geçti,0,<1e-9,"yurut ile sim.ref_sim: temel takvimde e(t), f1, f2 en buyuk mutlak fark"
+pay0_omega0_gD_temel,geçti,4.66294e-15,<1e-9,"butun paylar 0, omega 0: gD ve P temel kosuyla (ref_sim) ayni; S3 takvimi dahil"
+S3_pay00_P_temel,geçti,4.66294e-15,<1e-9,"S3, DUS oncesi pay 0: DUS P = temel (omega ne olursa olsun)"
+pay1_omegaND0_gD_yalniz_unutma,geçti,2.498e-16,<1e-9,"pay 1, omegaND 0: gD(332) = 0,3*(1-1/tauG)^332"
+omega1_eL1_SN_esit_S_iki_stok_ayni,geçti,0,<1e-9,A ve B katsayilari iki stokta ayni
+yorgunluk_ve_e_paydan_bagimsiz,geçti,0,=0,"yapisal: e(t), f1, f2 paylardan once bir kez hesaplanir; butun pay kosularindan sonra dizilerin toplami degismedi"
+net_saat_korunumu,geçti,0,<1e-9,pay 1 iken Virtual OSCE net saati = uygulanan toplam net saat
+gun_esdegeri_egrisi_k0,geçti,4.66294e-15,<1e-9,k = 0 iken iki egri de temel P ile ayni
+olurluk_payla_azalmaz,geçti,0,=0,pay artinca olurluk orani dusen secenek sayisi (24300 karsilastirma)
+olurluk_omegayla_azalmaz,geçti,0,=0,omega artinca olurluk orani dusen secenek sayisi
+cokus_orani,geçti,0,bilgi,herhangi bir takvimde cokuse giren cekim orani (en yuksek)
+K1_K0_ayni_politika,geçti,1,bilgi,"ana_tablo.csv: (b1), 360 gun, K1 saglam politikasi K0 ile ayni mi (1 = evet)"
+kabul_sayisi,geçti,1000,>=1000,tohum 101

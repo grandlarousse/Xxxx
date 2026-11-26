@@ -1,0 +1,22 @@
+h3=6 K1 bitti, 13.9 s
+h3=6 K2 bitti, 27.4 s
+h3=6 K3 bitti, 40.8 s
+h3=7 K1 bitti, 53.3 s
+h3=7 K2 bitti, 65.8 s
+h3=7 K3 bitti, 77.6 s
+motor_ref_sim_esitligi                   geçti  0.0
+pay0_omega0_gD_temel                     geçti  4.6629367034256575e-15
+S3_pay00_P_temel                         geçti  4.6629367034256575e-15
+pay1_omegaND0_gD_yalniz_unutma           geçti  2.498001805406602e-16
+omega1_eL1_SN_esit_S_iki_stok_ayni       geçti  0.0
+yorgunluk_ve_e_paydan_bagimsiz           geçti  0.0
+net_saat_korunumu                        geçti  0.0
+gun_esdegeri_egrisi_k0                   geçti  4.6629367034256575e-15
+olurluk_payla_azalmaz                    geçti  0
+olurluk_omegayla_azalmaz                 geçti  0
+cokus_orani                              geçti  0.0
+K1_K0_ayni_politika                      geçti  1.0
+kabul_sayisi                             geçti  1000.0
+toplam 77.8 s
+IKI_SINAV.md yazildi; tablo disi kelime: 689
+cikis=0
