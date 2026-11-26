@@ -1,0 +1,325 @@
+Kaynak: https://www.osym.gov.tr/Sayfa/SinavTakvimi (yalnızca DUS satırları süzüldü) | indirme: 2026-11-26
+2026-DUS 1.Dönem
+Başvuru Tarihi:
+10.03.2026
+17.03.2026
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 1.Dönem
+Başvuru Tarihi:
+10.03.2026
+17.03.2026
+Yükseköğretim Kurumları Sınavı
+2026-YKS 1. Oturum (TYT)
+Geç Başvuru Tarihi:
+10.03.2026
+2026-DUS 1.Dönem
+Geç Başvuru Tarihi:
+25.03.2026 10:00
+25.03.2026 23:59
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 1.Dönem
+Geç Başvuru Tarihi:
+25.03.2026
+25.03.2026 23:59
+HMGS
+Hukuk Mesleklerine Giriş Sınavı
+2026-HMGS/1
+Geç Başvuru Tarihi:
+26.03.2026
+2026-DUS 1.Dönem
+Sınav Tarihi:
+26.04.2026
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 1.Dönem
+Sınav Tarihi:
+26.04.2026
+EKPSS
+Engelli Kamu Personeli Seçme Sınavı
+2026-EKPSS/KURA
+Başvuru Tarihi:
+28.04.2026
+13.05.2026
+2026-DUS 1.Dönem
+Sonuç Tarihi:
+22.05.2026
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 1.Dönem
+Sonuç Tarihi:
+22.05.2026
+Elektronik Yabancı Dil Sınavı
+Sınav Tarihi:
+02.05.2027
+Açıklama
+2026-DUS 1. Dönem: Yerleştirme
+Tercih Tarihleri:
+10.06.2026 10:30
+16.06.2026 23:59
+DGS
+Dikey Geçiş Sınavı
+2026-DGS
+Geç Başvuru Tarihi:
+11.06.2026
+11.06.2026 23:59
+Öğretmenlik Meslek Bilgisi Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Öğretmenlik
+Sınav Tarihi:
+13.06.2026
+2026-DUS 1.Dönem Ek Yerleştirme
+Tercih Tarihleri:
+24.07.2026 10:00
+29.07.2026 23:59
+Tıpta Yan Dal Uzmanlık Eğitimi Giriş Sınavı
+2026-YDUS Ek Yerleştirme
+Tercih Tarihleri:
+24.07.2026 10:00
+29.07.2026 23:59
+MEB-AGS
+Millî Eğitim Bakanlığı Akademi Giriş Sınavı
+2026-MEB-AGS (Akademi Giriş Sınavı (AGS), Öğretmenlik Alan Bilgisi Testi (ÖABT))
+Sınav Tarihi:
+26.07.2026
+2026-DUS 2.Dönem
+Başvuru Tarihi:
+16.09.2026
+24.09.2026
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 2.Dönem
+Başvuru Tarihi:
+16.09.2026
+24.09.2026
+BKUBTS
+Tarım ve Orman Bakanlığı Bitki Koruma Ürünleri Bayi ve Toptancılık Yazılı Sınavı
+2026-BKUBTS
+Geç Başvuru Tarihi:
+17.09.2026 10:00
+2027-DUS
+Başvuru Tarihi:
+07.09.2027
+15.09.2027
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2027-STS Diş Hekimliği
+Başvuru Tarihi:
+07.09.2027
+15.09.2027
+Elektronik Yabancı Dil Sınavı
+Başvuru Tarihi:
+08.09.2027
+2027-DUS
+Geç Başvuru Tarihi:
+23.09.2027 10:00
+23.09.2027 23:59
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2027-STS Diş Hekimliği
+Geç Başvuru Tarihi:
+23.09.2027 10:00
+23.09.2027 23:59
+Elektronik Yabancı Dil Sınavı
+Sınav Tarihi:
+25.09.2027
+2026-DUS 2.Dönem
+Geç Başvuru Tarihi:
+01.10.2026
+01.10.2026 23:59
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 2.Dönem
+Geç Başvuru Tarihi:
+01.10.2026 10:00
+01.10.2026 23:59
+YÖK-YKDS
+Yükseköğretim Kurumlarının Öncelikli Alanlardaki Doktora Programlarına Öğrenci Seçme Sınavı
+2026-YÖK-YKDS
+Başvuru Tarihi:
+01.10.2026 15:30
+2027-DUS
+Sınav Tarihi:
+24.10.2027
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2027-STS Diş Hekimliği
+Sınav Tarihi:
+24.10.2027
+ALES
+Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı
+2027-ALES/3
+Geç Başvuru Tarihi:
+27.10.2027 10:00
+27.10.2027 23:59
+KASIM
+2026-DUS 2.Dönem
+Sınav Tarihi:
+01.11.2026
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 2.Dönem
+Sınav Tarihi:
+01.11.2026
+KPSS
+Kamu Personel Seçme Sınavı
+2026-KPSS Din Hizmetleri Alan Bilgisi Testi (DHBT)
+Sınav Tarihi:
+01.11.2026
+İCRA
+Adalet Bakanlığı İcra Müdür ve İcra Müdür Yardımcılarını Seçme Sınavı
+2026-DUS 2.Dönem
+Sonuç Tarihi:
+26.11.2026
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 2.Dönem
+Sonuç Tarihi:
+26.11.2026
+EUS
+Eczacılıkta Uzmanlık Eğitimi Giriş Sınavı
+2026-EUS
+Sonuç Tarihi:
+27.11.2026
+Eczacılık Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2027-DUS
+Sonuç Tarihi:
+18.11.2027
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2027-STS Diş Hekimliği
+Sonuç Tarihi:
+18.11.2027
+Yabancı Dil Bilgisi Seviye Tespit Sınavı
+2027-YDS/2
+Sınav Tarihi:
+21.11.2027
+EUS
+Eczacılıkta Uzmanlık Eğitimi Giriş Sınavı
+2026-DUS 1.Dönem
+-
+10.03.2026
+17.03.2026
+25.03.2026 10:00
+25.03.2026 23:59
+26.04.2026
+-
+22.05.2026
+-
+HMGS
+Hukuk Mesleklerine Giriş Sınavı
+2026-HMGS/1
+-
+09.03.2026
+2026-DUS 1. Dönem: Yerleştirme
+-
+-
+-
+-
+-
+-
+10.06.2026 10:30
+16.06.2026 23:59
+Öğretmenlik Meslek Bilgisi Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Öğretmenlik
+-
+29.04.2026
+06.05.2026
+2026-DUS 1.Dönem Ek Yerleştirme
+-
+-
+-
+-
+-
+-
+24.07.2026 10:00
+29.07.2026 23:59
+Tıpta Yan Dal Uzmanlık Eğitimi Giriş Sınavı
+2026-YDUS Ek Yerleştirme
+-
+-
+-
+2026-DUS 2.Dönem
+-
+16.09.2026
+24.09.2026
+01.10.2026
+01.10.2026 23:59
+01.11.2026
+-
+26.11.2026
+-
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 2.Dönem
+-
+16.09.2026
+2027-DUS
+-
+07.09.2027
+15.09.2027
+23.09.2027 10:00
+23.09.2027 23:59
+24.10.2027
+-
+18.11.2027
+-
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2027-STS Diş Hekimliği
+-
+07.09.2027
+2026-DUS 1.Dönem
+26.04.2026
+10.03.2026
+17.03.2026
+25.03.2026 10:00
+25.03.2026 23:59
+22.05.2026
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 1.Dönem
+26.04.2026
+10.03.2026
+17.03.2026
+25.03.2026
+25.03.2026 23:59
+2026-DUS 2.Dönem
+01.11.2026
+16.09.2026
+24.09.2026
+01.10.2026
+01.10.2026 23:59
+26.11.2026
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2026-STS Diş Hekimliği 2.Dönem
+01.11.2026
+16.09.2026
+24.09.2026
+01.10.2026 10:00
+01.10.2026 23:59
+2027-DUS
+24.10.2027
+07.09.2027
+15.09.2027
+23.09.2027 10:00
+23.09.2027 23:59
+18.11.2027
+Diş Hekimliği Alanında Yurt Dışı Yükseköğretim Diploma Denkliği İçin Seviye Tespit Sınavı
+2027-STS Diş Hekimliği
+24.10.2027
+07.09.2027
+15.09.2027
+23.09.2027 10:00
+23.09.2027 23:59
+2026-DUS 1. Dönem: Yerleştirme
+10.06.2026 10:30
+16.06.2026 23:59
+Tıpta Yan Dal Uzmanlık Eğitimi Giriş Sınavı
+2026-YDUS: Yerleştirme
+17.06.2026 10:30
+23.06.2026 23:59
+TUS
+Tıpta Uzmanlık Eğitimi Giriş Sınavı
+2026-TUS 1.Dönem Ek Yerleştirme
+24.06.2026 23:59
+29.06.2026 23:59
+KPSS
+Kamu Personel Seçme Sınavı
+2026-DUS 1.Dönem Ek Yerleştirme
+24.07.2026 10:00
+29.07.2026 23:59
+Tıpta Yan Dal Uzmanlık Eğitimi Giriş Sınavı
+2026-YDUS Ek Yerleştirme
+24.07.2026 10:00
+29.07.2026 23:59
+Yükseköğretim Kurumları Sınavı
+2026-YKS Yerleştirme
+29.07.2026 11:45
+10.08.2026 23:59
+Yükseköğretim Kurumları Sınavı

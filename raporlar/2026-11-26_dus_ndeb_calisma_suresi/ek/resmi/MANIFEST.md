@@ -1,0 +1,30 @@
+# Resmî belgeler manifestosu (M1) — indirme tarihi 2026-11-26
+
+| dosya | URL | başlık | belge tarihi / sürüm | not |
+|---|---|---|---|---|
+| ndeb_virtual_osce_protocol_2026.txt | https://ndeb-bned.ca/wp-content/uploads/2026/01/2026-VIRTUAL-OSCE-PROTOCOL_Revised.pdf | Virtual OSCE Protocol 2026 (Revised) | 2026, PDF oluşturma 2026-01-08; 21 s. | Blueprint ve puanlama protokolde. 2027 sürümü sitede yok |
+| ndeb_virtual_osce_frameworks_2026.txt | https://ndeb-bned.ca/wp-content/uploads/2026/01/Virtual-OSCE-Frameworks-2026.pdf | Virtual OSCE Frameworks 2026 | 2026, PDF 2026-01-23; 112 s. | Çerçeve / içerik alanları |
+| ndeb_virtual_osce_sayfa.txt | https://ndeb-bned.ca/certification-process/virtual-osce/ | Virtual OSCE sayfası | 2026-11-26 erişim | 200 soru (50 tek yanıtlı + 150 vaka); ücret 1750 $; en çok 3 deneme (SSS) |
+| ndeb_certification_accredited_sayfa.txt | https://ndeb-bned.ca/certification-process/entry-to-practice-graduates-of-accredited-dental-programs/ | Entry-to-Practice: Graduates of Accredited Dental Programs | 2026-11-26 erişim | Gerekli sınav Virtual OSCE |
+| ndeb_sinav_tarihleri_2026_2027.txt | https://ndeb-bned.ca/certification-process/dates-and-locations/ | Certification Process – Dates and Locations | 2026-11-26 erişim | 2027 tarihleri ve kayıt son günleri |
+| ndeb_ucretler.txt | https://ndeb-bned.ca/certification-process/fees/ | Certification Process – Fees | 2026-11-26 erişim | |
+| ndeb_how_to_prepare.txt | https://ndeb-bned.ca/resources/how-to-prepare/ | How to Prepare | 2026-11-26 erişim | Released Question Bank, KSA, örnekler |
+| ndeb_exam_resources.txt | https://ndeb-bned.ca/resources/exam-resources/ | Exam Resources | 2026-11-26 erişim | |
+| ndeb_reference_texts_2026.txt | https://ndeb-bned.ca/wp-content/uploads/2026/06/2026-06-11-Reference-Texts-Textes-de-reference-.pdf | Reference Texts / Textes de référence | 2026-06-11; 12 s. | |
+| ndeb_released_question_bank_2019.txt | https://ndeb-bned.ca/wp-content/uploads/2021/02/ndebreleasedquestions_2019_1.pdf | NDEB Released Question Bank | 2019 (PDF 2018-11); 383 s. | Eski Written Examination soruları; Virtual OSCE'ye özel deneme sınavı sitede bulunmadı |
+| ndeb_virtual_osce_technical_report_2024.txt | https://ndeb-bned.ca/wp-content/uploads/2026/02/2024-TECHNICAL-REPORT-FOR-THE-VIRTUAL-OSCE-REVISED.pdf | 2024 Technical Report for the Virtual OSCE (Revised) | 2024 verisi, PDF 2026-02-05; 37 s. | Geçme standardı (ölçekli 75), cut score yöntemi |
+| ndeb_certification_exam_results_sayfa.txt | https://ndeb-bned.ca/certification-process-exam-results/ | Certification Process Exam Results | 2026-11-26 erişim | Virtual OSCE 2025: 1576 aday, %90,36 geçme |
+| ndeb_annual_report_2024_25.txt | https://ndeb-bned.ca/wp-content/uploads/2026/03/NDEB_AR_2425_rev_March2026.pdf | NDEB Annual Report 2024–25 (rev.) | revize Mart 2026; 23 s. | Geçme oranı tabloları |
+| ndeb_pass_rates_sayfa.txt | https://ndeb-bned.ca/pass-rates/ | NDEB Certification (yıllara göre sertifika sayıları) | 2026-11-26 erişim | Geçme oranı değil, sertifika sayıları |
+| ndeb_bylaw2_certification_2026.txt | https://ndeb-bned.ca/wp-content/uploads/2026/07/2026-07-08_-By-law-2-Certification-and-Equivalency-Process_Approved-July-10-2026.pdf | By-law 2: Certification and Equivalency Process | onay 2026-07-10; 11 s. | Deneme hakkı (7.1.4–7.1.5); Written/OSCE geçiş hükümleri (md. 10: 2023-01-01'den itibaren uygulanmıyor) |
+| ndeb_exam_appeal_policies_2026.txt | https://ndeb-bned.ca/wp-content/uploads/2026/07/2026-07-10-Examination-and-Appeal-Policies-and-Procedures.pdf | Examination and Appeal Policies and Procedures | 2026-07-10; 17 s. | |
+| ndeb_bylaws_policies_sayfa.txt | https://ndeb-bned.ca/resources/by-laws-and-policies-2/ | By-laws and Policies | 2026-11-26 erişim | |
+| osym_sinav_takvimi_dus_2026_2027.txt | https://www.osym.gov.tr/Sayfa/SinavTakvimi | ÖSYM Sınav Takvimi (DUS satırları süzüldü) | 2026-11-26 erişim | 2026-DUS 1: başvuru 10–17.03, sınav 26.04, sonuç 22.05.2026; 2. dönem: başvuru 16–24.09, sınav 01.11, sonuç 26.11.2026; 2027-DUS: başvuru 07–15.09, sınav 24.10, sonuç 18.11.2027 (takvimde 2027 için tek DUS var) |
+| osym_sinav_takvimi_sayfa.txt | https://www.osym.gov.tr/Sayfa/SinavTakvimi | ÖSYM Sınav Takvimi (tam sayfa metni) | 2026-11-26 erişim | |
+| osym_2026_dus_1_kilavuz_duyuru.txt | https://www.osym.gov.tr/2026dus-1-donem-kilavuz-ve-basvuru-bilgileri | 2026-DUS 1. Dönem: Kılavuz ve Başvuru Bilgileri | 09.03.2026 | Duyuru metni; kılavuz PDF indirilemedi (bkz. eksikler) |
+| osym_2026_dus_2_kilavuz_duyuru.txt | https://www.osym.gov.tr/2026-dus-2-donem-kilavuz-ve-basvuru-bilgileri | 2026-DUS 2. Dönem: Kılavuz ve Başvuru Bilgileri | 16.09.2026; kılavuz Danıştay 8. D. 26.10.2026 YD kararı gereği güncellenmiş | Duyuru metni; kılavuz PDF indirilemedi |
+| osym_2026_dus_2_basvuru_duyuru.txt | https://www.osym.gov.tr/2026-dus-2-donem-sinavi-ile-2026-sts-dis-hekimligi-2-donem-sinavi-basvurularin-alinmasi | 2026-DUS 2. Dönem: Başvuruların Alınması | 16.09.2026 | |
+| osym_2026_dus_1_sonuc_duyuru.txt | https://www.osym.gov.tr/2026dus-1-donem-ve-2026sts-dis-hekimligi-1-donem-sinav-sonuclari-aciklandi | 2026-DUS 1. Dönem: Sınav Sonuçları Açıklandı | 18.05.2026 | Temel Bilimler 9 ve 33. soru cevap değişikliği |
+| osym_2026_dus_2_sonuc_duyuru.txt | https://www.osym.gov.tr/2026-dus-2-donem-ve-2026-sts-dis-hekimligi-2-donem-sinav-sonuclari-aciklandi | 2026-DUS 2. Dönem: Sınav Sonuçları Açıklandı | 26.11.2026 | |
+| osym_2026_dus_2_tsk_duyuru.txt | https://www.osym.gov.tr/2026-dus-2-donem-sinavi-ile-2026-sts-dis-hekimligi-2-donem-sinavi-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi | 2026-DUS 2. Dönem: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı | 01.11.2026 | Kitapçık PDF'i indirilemedi |
+| osym_2026_dus_1_yerlestirme_sayisal_duyuru.txt | https://www.osym.gov.tr/2026dus-1donem-yerlestirme-sonuclarina-iliskin-sayisal-bilgiler | 2026-DUS 1. Dönem Yerleştirme Sonuçlarına İlişkin Sayısal Bilgiler | 22.06.2026 | Yalnızca duyuru; ekteki min/max PDF indirilemedi. Sınav sonucu istatistiği (ortalama, SS) değil |
