@@ -1,0 +1,30 @@
+araç: 26/40
+
+# VO1 doğrulama (kritik satırlar)
+
+| dosya | satır | hüküm | nereden görüldü | düzeltme | not |
+|---|---|---|---|---|---|
+| A05_bilissel_yorgunluk.md | 3 | doğru | tam metin (Europe PMC, PMC5607124) | | N1=8,867, N2=8,754, 17 hafta; "trial 75 or 28 minutes ... 4–5% drop ... by about trials 150 or 50 minutes" birebir. "Roughly 1%" gün içi tepe-dip farkı (saat etkisi), birikimli gün boyu kayıp değil. |
+| A05_bilissel_yorgunluk.md | 5 | kısmen | tam metin (PMC4922197 HTML) | Yürütücü başarı "sabit" değil: yaklaşık %95'te korundu ama zor koşulda küçük, anlamlı doğrusal düşüş var. Alıntı: "maintain executive performance (around 95% correct on average, even after 6 h)"; "much more striking in choice impulsivity than in executive performance ... (P < 0.003 versus P < 0.032 in the hard condition)" (hard: β = −0.017, P = 0.032). | 58 sağlıklı yetişkin (zor n=29), >6 saat ve "only after eight sessions (4.5 h)" alıntısı birebir doğru. Kontrol grupları kolay görev ve boş zaman. |
+| A05_bilissel_yorgunluk.md | 6 | doğru | özet | | n=18 erkek (26 ± 3 yaş), keşifsel, 7 saat ofis benzeri iş, her 50 dk'da 10 dk hafif egzersiz molası; işsiz kontrol gününe göre. Alıntı birebir. |
+| A05_bilissel_yorgunluk.md | 10 | doğru | özet | | N=239 birinci sınıf üniversite öğrencisi, denek içi; 3,5 / 4,5 / 5,5 saatlik SAT bataryası. Alıntı birebir; performans uzun koşullarda arttı. |
+| A05_bilissel_yorgunluk.md | 12 | doğru | özet | | Psychol Sci 2021; k=36, N=3,531, d=0.06, boş hipotez altında 4 kat olası; birebir. Keşifsel tam örneklemde d=0.08 anlamlı; yorgunluk bildirenlerde etki daha büyük (moderatör). |
+| A05_bilissel_yorgunluk.md | 27 | doğru | özet + tam metin (PMC4196058 HTML) | | 63 yetişkin (22–50 yaş), 5 gece SR (4 s) ya da NSR (8 s); HW = günde 3 × 120 dk (MW = 3 × 60 dk). Tam metin: "neither PVT lapses nor response speed showed significant main effects of workload"; PVT düşüşü yalnız SR'de. Karşılaştırma orta yüke karşıdır, iş yükü sıfır grup yok; HW+NSR n=16. |
+| A06_spor_yuk_modelleri.md | 1 | doğru | ikincil kaynak (Scarf ve ark. arXiv 1902.02061, tam metin) | | Bütün sayılar önbaskıyla birebir. Morton'daki k 1/2 tahmin değil varsayım ("accepting that kf should be twice ka"). Busso 1997 k 0,0021/0,0078 yalnız A deneği için (B: 0,0019/0,0073). Millet 2002 triatletler. Birincil kaynaklar açılmadı. |
+| A06_spor_yuk_modelleri.md | 6 | doğru | özet + tam metin (PMC11779798) | | Marchal ve ark. 2025 Sci Rep. p > 0.40 ve "2 independent datasets" özette; τG = 43.28 (yarı ömür 30 gün), τH = 2.89 (2 gün) tam metinde birebir. |
+| A06_spor_yuk_modelleri.md | 12 | doğru | ikincil kaynak (Kreher & Schwartz 2012, Sports Health, tam metin) | | Tablo 1 Meeusen 2006 ECSS bildirisinden; "Days to weeks", "Weeks to months", "> 2 months" birebir. |
+| A06_spor_yuk_modelleri.md | 15 | doğru | özet | | Aubry 2014 MSSE; 33 erkek triatlet, 11/23 F-OR (%48 ≈ yarısı). Daha çok kazanan grup AF; enfeksiyon %70/%20/%10; zirvelerin %60, %83, %73'ü taper'ın ilk iki haftasında. |
+| A06_spor_yuk_modelleri.md | 17 | doğru | özet | | Bosquet 2007 MSSE; 27 çalışma, yarışmacı sporcular. Alıntı ve etkiler (0,59 ± 0,33; 0,72 ± 0,36) birebir. Etki performansta, kuvvette değil. |
+| A06_spor_yuk_modelleri.md | 23 | doğru | özet + tam metin (Coleman PMC10809978); özet (Pancar) | | Coleman 2024 PeerJ: 25+25 randomize, 50'den 39'u bitirdi, 5. hafta hiç direnç antrenmanı yok; deneyimli genç yetişkinler. Pancar 2026 Sci Rep: n=19 antrenmansız erkek, uzuv bazlı denek içi; 4. ve 8. haftada haftada 1 kez × 2 set; ölçüt hipertrofi ve 10RM kuvvet-dayanıklılık (maksimal kuvvet değil); p = 0,239–0,955. |
+| A08_seans_mola_dil.md | 1 | doğru | tam metin (PMC9432722) | | Albulescu 2022 PLoS One; mikro mola "less than 10 min". Vigor d=.36, fatigue d=.35, performans d=.16, b=.07, p=.006, R²=.34 birebir. Makale içinde tutarsızlık: özette p=.116, bulgular metninde p=.17 (ikisi de anlamsız). |
+| A08_seans_mola_dil.md | 3 | doğru | özet | | Biwer 2023 BJEP; n=87 (35/25/27), tek gün. Kendi ayarlayanlar daha uzun çalıştı ve daha uzun mola verdi; yorgunluk ve dikkat dağınıklığı yüksek, konsantrasyon ve motivasyon düşük. |
+| A08_seans_mola_dil.md | 4 | doğru | özet | | Smits 2025 Behav Sci; n=94 (25/36/33), 2 saat. Pomodoro'da yorgunluk daha hızlı arttı ama "did not result in overall differences in fatigue or motivation levels". |
+| A08_seans_mola_dil.md | 27 | doğru | özet (Crossref + OpenAlex) | | Dirix ve ark., RRQ 55(3):371–397 (çevrimiçi 2019, sayı 2020). %20 fark "study" koşulunda. Yazarlar telafi için "seemed to compensate" diyor; nedensellik kesin değil. Test doğru/yanlış tanıma. |
+| A08_seans_mola_dil.md | 28 | doğru | tam metin (UGent yazar sürümü) | | Bilingualism: Language and Cognition 21(5):1062–1074, 2018. Sabit 7 dk çalışma süresi doğrulandı. 199 katıldı, 4 kişi dışlandı, analiz N=195. Tanıma d=.07, serbest hatırlama d=.86 (%44 / %56). |
+| A11_bireysel_farklar.md | 3 | doğru | tam metin (PMC5075948) | | Kitamura ve ark. 2016 Sci Rep; 16 alındı, 1 ayrıldı, 15 analiz; 20–26 yaş erkek. OSD 8.41 ± 0.18 h, aralık 7.29–9.26 (≈ 2 saat) birebir. |
+| A11_bireysel_farklar.md | 26 | doğru | özet (NBER sayfası) | | w30133, Brown ve ark.; 1.600 Hintli ilkokul öğrencisi; "22% less decline" birebir. |
+| A11_bireysel_farklar.md | 30 | doğru | tam metin (PMC12445496) | | PLoS One; tuş kaydı (keystroke log) ölçümü; %78 ve medyan 1.45 birebir. Ortalama oran 2.2. |
+
+## Hata özeti
+
+20 satırdan 19'u doğru, 1'i kısmen, yanlış ya da doğrulanamayan yok. Kısmen olan A05-5 (Blain 2016): yürütücü görev başarısı "sabit" değil, yaklaşık %95'te korundu ama küçük ve anlamlı bir düşüş gösterdi. Ana iddia, yani uzun zor iş gününden sonra dürtüsel seçimin artması, değişmiyor. Raporda dikkat edilecek ayrıntılar şunlar. Goel 2014'te karşılaştırma orta yüke karşı yapılmış, iş yükü sıfır grup yok. Dirix 2020'deki telafi ifadesi yazarlarca temkinli kurulmuş. Pancar 2026 maksimal kuvveti değil kuvvet-dayanıklılığı ölçmüş. Scarf önbaskısındaki parametreler ikincil kaynaktan geliyor.
