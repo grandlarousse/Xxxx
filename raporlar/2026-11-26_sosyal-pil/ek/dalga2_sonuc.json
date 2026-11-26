@@ -1,0 +1,651 @@
+{
+ "uretici": [
+  {
+   "key": "P8",
+   "label": "izmir-tanisma-ortamlari",
+   "arac": "39/35. Kontrol noktasından sonra devam ettim, çünkü koşu grubunun saati, kış yelken programı ve gönüllülük boşlukları karara etki ediyordu. Son 5 çağrı da yeni bilgi getirmişti.",
+   "ozet": "Enerji yüküne göre sıralı. Saati, ücreti ya da adresi bulunamayanlar \"belirtilmedi\" diye işaretli. Kadın/erkek katılım oranı için hiçbir veri bulunamadı.\n\nDÜŞÜK\n1) İzmir Büyükşehir Belediyesi'nin \"Parkta Etkinlik Var!\" programı: ücretsiz ve açık havada. Kuş ve doğa gözlemi, kompost, tohum çimlendirme var. Kasım 2026'da İnciraltı Terapi Bahçesi, Kültürpark, Çakalburnu Lagünü ve Gediz Deltası'nda (29 Kasım) yapıldı. Saat belirtilmedi. Aralık takvimi belediyenin sosyal medyasında duyuruluyor. Konuşma zorunlu değil, doğada geçiyor.\n2) Pako Hayvan Bakımevi (Gökdere): köpek gezdirme gönüllülüğü. Belediye başkanı Mart 2026'da \"yarım saat gezdirin\" diye çağrı yaptı. Hafta içi ya da hafta sonu gidilebiliyor, ücret yok. Başvuru yolu ve ulaşım belirtilmedi. Bakımevi Gönül İşi Projesi var; bizizmir.com sayfası eski. Not: 2026'da sokak köpeklerini toplatma ihalesi yüzünden ortam gergin.\n3) Belediyenin Meslek Fabrikası kursları: seramik, barista, pastacılık, bitki yetiştirme. Eylül 2026 dönemi Çamdibi, Cengizhan, Gümüşpala, Agora gibi çok sayıda merkezde açıldı. Kayıt bilgisi Instagram'da (izbbmeslekfabrikasi). 2026 duyurusunda ücret belirtilmedi. Halkapınar'daki ana merkez kapandı.\n4) Kutu oyunu kafesi: Meeples & Peoples (Konak, 255. Sokak). Güncelliği doğrulanmadı.\n\nORTA\n5) Karşıyaka One Team (koşu grubu): salı 20:00, Bostanlı. Beş ayrı tempo grubuyla koşuyorlar. Ücret belirtilmedi, güncelliği doğrulanmadı. Saat bilgisi kaynaklar arasında çelişkili.\n6) Belediyenin Halk Dansları Topluluğu (zeybek): ücretsiz kurs, herkese açık. Yaklaşık bir yılda 500 kişiye ulaşmış, başvuru internetten. Yer ve saat belirtilmedi. Grup dansı olduğu için partner gerekmiyor.\n7) Yelken: İzmir Marina'daki yetişkin kış eğitimi Aralık 2025'te 3 gün sürdü ve 8.000 TL'ydi. 2026–27 kışı için duyuru bulunamadı. Yaz 2026'da Hit Sailing 18 yaş üstüne eğitim verdi, kayıt İZDENİZ (belediyenin deniz ulaşımı şirketi) üzerinden. Kürek ve SUP için sonuç çıkmadı.\n8) Doğa yürüyüşü: düzenli takvimi olan bir kulüp bulunamadı. Kültür ve Turizm İl Müdürlüğü yaklaşık 100 onaylı rotada kulüp etkinliği yapıldığını söylüyor ama takvim vermiyor. Yarımada İzmir'in yaklaşık 700 km'lik rotaları tek başına yürünebilir.\n\nYÜKSEK (gece etkinliği ve partnerle dans)\n9) Garage Latin Night: perşembe 20:45'te workshop (kısa grup dersi), ardından 00:30'a kadar salsa/bachata sosyali (serbest dans gecesi). Yer Dance Garage (Kazımdirik, Bornova). Ücret belirtilmedi. Workshop'la başladığı için en kolay giriş bu; ancak workshop'un yeni başlayanlara uygun olduğu yazmıyor.\n10) Eladans: pazar 21:00–00:30, Cliff Venue (Erzene, Bornova). 300 TL, bir içecek dahil. Sonraki tarih 29 Kasım 2026.\n11) My Teras: cuma 21:00–02:00, My Plaza (Salhane İZBAN durağı, Bayraklı). 300 TL, nakit. Sayfada \"Nisan'a kadar ara verildi\" notu var, ama tarihler de listeleniyor. Gitmeden teyit et.\n\nBULUNAMAYANLAR\n- Bornova ya da Bayraklı'da boulder salonu (Boulderhane yalnızca İstanbul'da). Var olanlar: Buca'da açık hava tırmanış bahçesi, Konak'ta İDADİK salonu.\n- İzmir'de tango ya da swing.\n- adidas Runners ya da Nike Run Club.\n- Faal bir dil değişim buluşması.\n- Luma İzmir'de hobi etkinliği. Oradaki etkinlikler teknoloji ve kriptoydu, hepsinin tarihi geçmiş.",
+   "listede_olmayan": [
+    "İzmir Büyükşehir Halk Dansları Topluluğu (zeybek): ücretsiz, herkese açık, bir yılda yaklaşık 500 kişi. Partner gerektirmeyen bir grup dansı ve düzenli tekrar ediyor. Yorgun biri için salsadan daha düşük eşikli olabilir.",
+    "Belediyenin 'Parkta Etkinlik Var!' programı: her ay yayımlanan ücretsiz doğa, kuş gözlemi ve bahçe takvimi (İnciraltı Terapi Bahçesi, Gediz Deltası, Çakalburnu).",
+    "Pako Bakımevi'nde köpek gezdirme gönüllülüğü: yan yana etkinlik, konuşma zorunlu değil, hafta içi ya da hafta sonu yarım saat.",
+    "Wings for Life World Run İnciraltı (yılda bir, Mayıs). Yerel koşu grupları: Revolucion run club, Theravita, 221 together. Bunların haftalık takvimi bulunamadı.",
+    "TURBELDAK (Turgutlu Belediyesi'nin dağcılık akademisi, Manisa) rehberli yürüyüşlerle Urla'ya geliyor; bir İzmir kulübü değil.",
+    "Meetup'ta 'izmir coffee talk walk' adlı küçük bir yürüyüş ve kahve grubu var (9 üye); faal olup olmadığı belirsiz.",
+    "Bir rehber sitesi Kültürpark'ta 3 km'lik koşu parkuru olduğunu yazıyor; defterde yok, doğrulanmadı."
+   ],
+   "celisen": [
+    "My Teras Latin Night: SalsaVida sayfası 27 Kasım 2026 ve sonraki cumaları listelerken aynı sayfada 'Nisan ayına kadar ara verilmiştir' yazıyor. İngilizce sürüm de araya işaret ediyor.",
+    "Meslek Fabrikası'nın Halkapınar'daki ana merkezi 2026 baharında kapandı ve 780 kişinin eğitimi yarım kaldı. Kurslar başka merkezlere dağıldı.",
+    "Karşıyaka One Team'in saati çelişkili: kulüp sayfası salı 20:00 diyor, aynı sitenin blog yazısı 'eight o'clock' diyor. Site, programın haber verilmeden değişebileceğini yazıyor ve 2026'da faal olduğuna dair tarihli kanıt bulunamadı.",
+    "İzmir Marina'nın 2025 kış yelken haberinde tarihler kendi içinde çelişiyor (20–21 ve 27–28 Aralık mı, 26–28 Aralık mı). 2026–27 kış programı bulunamadı.",
+    "İzmir'de adidas Runners ya da Nike Run Club bulunamadı. Boulderhane yalnızca İstanbul'da. Bornova ve Bayraklı'da boulder salonu bulunamadı.",
+    "İzmir'de tango, milonga ya da swing ilanı bulunamadı. SalsaVida'da Mart 2026–Şubat 2027 arası İzmir festivali yok.",
+    "Luma İzmir İstanbul'daki gibi bir hobi ve topluluk kaynağı değil: bulunan etkinlikler teknoloji ve kripto odaklı, hepsinin tarihi geçmiş.",
+    "Meetup'taki 'International Friends of İzmir' grubunda sayfa açıldığında yaklaşan etkinlik yoktu. Faal bir dil değişim buluşması bulunamadı.",
+    "2026'da sokak köpeklerini toplatma ihalesi ve buna yönelik protestolar barınak gönüllülüğünü gerginleştirebilir.",
+    "Bayraklı Belediyesi dağcılık programı yalnızca 2017 tarihli bulundu. Düzenli yürüyüş takvimi olan faal bir kulüp doğrulanamadı."
+   ],
+   "acik": [
+    "Doğa yürüyüşü kulüpleri (İDADİK, ilçe belediyeleri, üniversite kulüpleri): haftalık takvim ve ücret bulunamadı. Bu bilgiler büyük olasılıkla Instagram'da; 4 arama yeni bilgi getirmedi.",
+    "Garage Latin Night'ın ücreti ve workshop'un yeni başlayana uygun olup olmadığı.",
+    "Karşıyaka One Team'in 2026'da hâlâ faal olup olmadığı, ücreti ve buluşma noktası.",
+    "İzmir Marina ya da İZDENİZ'in 2026–27 kış yelken eğitimi; kürek ve SUP'un kışın açık olup olmadığı (sonuç çıkmadı).",
+    "Pako Bakımevi gönüllülüğünün başvuru yolu, saatleri ve toplu taşımayla ulaşımı.",
+    "Meslek Fabrikası kurslarının 2026 ücreti ve dönem ortasında yeni kayıt alınıp alınmadığı.",
+    "Zeybek topluluğunun ders yeri, günü ve saati.",
+    "Kutu oyunu kafelerinin güncelliği. ESN etkinliklerine öğrenci olmayanların katılıp katılamayacağı.",
+    "TEMA İzmir gönüllülüğü, Ahmed Adnan Saygun Sanat Merkezi (AASSM), Kültürpark ve gençlik merkezi kursları ayrıca aranmadı ya da sonuç çıkmadı.",
+    "Kadın/erkek katılım oranı: İzmir için hiçbir veri bulunamadı.",
+    "runningcrews.com blog sayfası 429 hatası verdi (çok fazla istek); yalnızca arama özetiyle çalışıldı. Luma'daki 'Offline Forest Walk' sayfası 404 hatası verdi (sayfa yok); İzmir'de olduğu doğrulanamadı."
+   ],
+   "dogrulayici_arac": [
+    "P8-d1: 37/40",
+    "P8-d2: 12/14"
+   ],
+   "dogrulayici_sayisi": 2,
+   "defter": [
+    {
+     "id": "P8-1",
+     "iddia": "Eladans her pazar Cliff Venue'da (Erzene Mah., Fevzi Çakmak Cad. No:25/C, Bornova) salsa ve bachata sosyali yapıyor; giriş 300 TL, bir içecek dahil.",
+     "url": "https://www.salsavida.com/?p=107258",
+     "alinti": "₺300, including one drink",
+     "guven": "orta",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-2",
+     "iddia": "Eladans gecesi 21:00–00:30 arası; sonraki tarih 29 Kasım 2026.",
+     "url": "https://www.salsavida.com/?p=107258",
+     "alinti": "9:00 PM - 12:30 AM",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-3",
+     "iddia": "Garage Latin Night her perşembe Dance Garage'da (Myvia 414, 1. kat, Kazımdirik, Bornova) yapılıyor: 20:45'te workshop, ardından 00:30'a kadar sosyal. Sonraki tarih 26 Kasım 2026; ücret belirtilmedi.",
+     "url": "https://www.salsavida.com/?p=107259",
+     "alinti": "runs until 12:30 AM on Friday",
+     "guven": "orta",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-4",
+     "iddia": "My Teras Latin Night her cuma 21:00–02:00 arası My Plaza'da (Salhane İZBAN, Bayraklı); giriş 300 TL, nakit.",
+     "url": "https://www.salsavida.com/tr/event/turkey/izmir/my-teras-latin-night/",
+     "alinti": "₺300 (nakit)",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-5",
+     "iddia": "Aynı sayfa 27 Kasım 2026 tarihini gösterirken etkinliğe nisana kadar ara verildiğini de yazıyor; durum çelişkili.",
+     "url": "https://www.salsavida.com/tr/event/turkey/izmir/my-teras-latin-night/",
+     "alinti": "Bu etkinliğe Nisan ayına kadar ara verilmiştir.",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-6",
+     "iddia": "İzmir Büyükşehir'in Parkta Etkinlik Var! programı ücretsiz; Kasım 2026 takvimi 30.10.2026'da yayımlandı.",
+     "url": "https://www.yenibakishaber.com/izmirde-dogaseverler-bulusuyor-iste-kasim-programi",
+     "alinti": "Belediye tarafından ücretsiz olarak düzenlenen Parkta Etkinlik Var! programı",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-7",
+     "iddia": "Kasım 2026 programında İnciraltı Terapi Bahçesi, Kültürpark, Çakalburnu Lagünü ve Gediz Deltası'nda (29 Kasım, kuş gözlemi) etkinlik vardı; saatler belirtilmedi.",
+     "url": "https://www.yenibakishaber.com/izmirde-dogaseverler-bulusuyor-iste-kasim-programi",
+     "alinti": "29 Kasım: Gediz Deltası",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-8",
+     "iddia": "Belediye başkanı 2 Mart 2026'da halkı Pako Bakımevi'nde köpek gezdirmeye çağırdı; hafta içi ya da hafta sonu yarım saat yeterli.",
+     "url": "https://www.karar.com/sehir-haberleri/baskan-tugaydan-izmirlilere-cagri-yarim-saatinizi-ayirin-bir-cana-umut-2032960",
+     "alinti": "Hafta sonu ya da hafta içi yarım saat gezdirin, hem onlar hem siz iyi hissedeceksiniz.",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-9",
+     "iddia": "Pako barınağı Gökdere'de; başvuru yolu ve saat belirtilmedi (Bakımevi Gönül İşi Projesi kapsamında gönüllüler var).",
+     "url": "https://www.karar.com/sehir-haberleri/baskan-tugaydan-izmirlilere-cagri-yarim-saatinizi-ayirin-bir-cana-umut-2032960",
+     "alinti": "Gökdere'deki Pako Hayvan Barınağı'mızda yüzlerce köpeğimiz var.",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-10",
+     "iddia": "Belediye gönüllü başvurularını bizizmir.com üzerinden alıyor; sayfa eski, güncelliği doğrulanmadı.",
+     "url": "https://www.bizizmir.com/en/Register",
+     "alinti": "belediyenin bizizmir.com sayfası üzerinden müracaat ederek",
+     "guven": "düşük",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "URL şu an genel portal anasayfasını açıyor, alıntı orada görünmüyor. Arama dizinine göre alıntı aynı sayfadaki gönüllülük sözleşmesinde geçiyor. Sayfa eski değil: 29.10.2026 tarihli habere göre portal yenilendi.",
+     "d_iddia": "İzmir Büyükşehir'in gönüllülük üyeliği bizizmir.com üzerinden, gönüllülük sözleşmesiyle yapılıyor (Bizizmir üyeliği şart). Portal Ekim 2026'da yenilendi ve 'Afet Gönüllülüğü', 'Eşit İzmir Gönüllü Programı' gibi hizmetleri listeliyor. Pako'ya özel başvuru yolu doğrulanmadı.",
+     "d_alinti": "belediyenin bizizmir.com sayfası üzerinden müracaat ederek"
+    },
+    {
+     "id": "P8-11",
+     "iddia": "2026'da İzmir'de tartışmalı bir sokak hayvanı toplatma ihalesi yapıldı ve itiraz edildi; barınak çevresi gergin.",
+     "url": "https://www.evrensel.net/haber/5993620/izmirde-526-milyonluk-sokak-hayvani-toplatma-ihalesine-itiraz-kaynak-kisirlastirma-ve-asilamaya-ayrilsin",
+     "alinti": "52 milyon 654 bin 240 TL",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-12",
+     "iddia": "Belediyenin Halk Dansları Topluluğu (zeybek) yaklaşık bir yılda 500 kişiye ulaştı (5.08.2026 haberi).",
+     "url": "https://www.cumhuriyet.com.tr/cumhuriyet-in-egesi/izmir-de-zeybek-bilmeyen-kalmasin-cagrisi-500-kisilik-topluluga-donustu-2526675",
+     "alinti": "Yaklaşık bir yılda 500 kişiye ulaşan toplulukta",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-13",
+     "iddia": "Zeybek kursları ücretsiz ve herkese açık; başvuru internetten yapılmış. Yer ve saat belirtilmedi.",
+     "url": "https://www.cumhuriyet.com.tr/cumhuriyet-in-egesi/izmir-de-zeybek-bilmeyen-kalmasin-cagrisi-500-kisilik-topluluga-donustu-2526675",
+     "alinti": "ücretsiz kurslarda",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "düzeltildi",
+     "not": "Kaynaktaki 'internetten başvurdum' sözü tek bir katılımcıya ait. Yenibakış'ın 26.09.2026 haberi yer, saat ve başvuru kanalını veriyor. Bu dönemin başvurusu kapandı, sonraki dönem Spor İzmir uygulamasından ya da 153'ten izlenmeli.",
+     "d_iddia": "Zeybek kursları ücretsiz ve 7'den 77'ye herkese açık. Ekim 2026 dönemi için başvurular 29 Eylül–4 Ekim 2026 arasında Spor İzmir mobil uygulamasından alındı ve kapandı. Dersler Tarihi Bıçakçı Han'da, çarşamba 19.00–20.00 ve 20.00–21.00; ilk ders 7 Ekim'deydi.",
+     "d_alinti": "Ücretsiz düzenlenecek kurslarda",
+     "d_url": "https://www.yenibakishaber.com/zeybek-bilmeyen-kalmasinda-yeni-donem-takvimi-belli-oldu"
+    },
+    {
+     "id": "P8-14",
+     "iddia": "Meslek Fabrikası Eylül 2026'da çok sayıda merkezde yeni döneme başladı; seramik, barista, pastacılık ve bitki yetiştirme kursları var; ücret belirtilmedi.",
+     "url": "https://www.karar.com/sehir-haberleri/meslek-fabrikasinda-yeni-egitim-donemi-basliyor-2068265",
+     "alinti": "eylül ayında İzmir'in farklı noktalarındaki kurs merkezlerinde yeni eğitim dönemine başlıyor",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-15",
+     "iddia": "Meslek Fabrikası'nın kurs tarihleri ve kayıt bilgileri Instagram hesabında duyuruluyor.",
+     "url": "https://www.karar.com/sehir-haberleri/meslek-fabrikasinda-yeni-egitim-donemi-basliyor-2068265",
+     "alinti": "Kurs tarihleri ve kayıt bilgilerine izbbmeslekfabrikasi adlı Instagram hesabından ulaşılabiliyor.",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-16",
+     "iddia": "Meslek Fabrikası'nın Halkapınar'daki ana merkezi 2026 baharında kapandı ve süren eğitimler yarım kaldı (28.05.2026 haberi).",
+     "url": "https://www.evrensel.net/haber/5986054/meslek-fabrikasinin-kapanmasi-780-kisinin-egitimi-yarim-kaldi",
+     "alinti": "780 kişinin eğitimi yarım kaldı",
+     "guven": "orta",
+     "kritik": true,
+     "karar": "düzeltildi",
+     "not": "Kaynakta 'ana merkez' ifadesi geçmiyor. 780 kişinin dağılımı: bitmek üzere olan 7 kursta 140, süren 23 kursta 460, başlayamayan 9 yeni kursta 180 kişi. Yani hepsi süren eğitim değil.",
+     "d_iddia": "Meslek Fabrikası'nın Halkapınar'daki kurs merkezi (kent merkezinin en donanımlı merkezi, şube müdürlüğü de buradaydı) 6 Nisan 2026'dan beri kapalı. Neden: Vakıflar Genel Müdürlüğü tarihi binaya el koydu. 780 kişi eğitim ve sertifika imkânını kaybetti. Şube müdürlüğü Bayraklı Cengizhan Kurs Merkezi'ne taşındı, diğer merkezlerde Eylül'de yeni dönem duyuruldu.",
+     "d_alinti": "780 kişinin eğitimi yarım kaldı"
+    },
+    {
+     "id": "P8-17",
+     "iddia": "Karşıyaka One Team her salı 20:00'de Bostanlı'da beş ayrı tempo grubuyla koşuyor; ücret belirtilmedi, güncelliği doğrulanmadı.",
+     "url": "https://runningcrews.com/crews/karsiyaka-one-team-izmir",
+     "alinti": "Every Tuesday night at Bostanlı, they gather at 20:00 to run five different paces as one team.",
+     "guven": "orta",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-18",
+     "iddia": "RunningCrews programların kulüplerin kendisi tarafından verildiğini ve haber verilmeden değişebileceğini belirtiyor.",
+     "url": "https://runningcrews.com/crews/karsiyaka-one-team-izmir",
+     "alinti": "Schedules are provided by crews and may change without notice.",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-19",
+     "iddia": "Wings for Life İnciraltı koşusunun (Mayıs 2026) yerel ortakları arasında İzmir'deki koşu grupları sayılıyor.",
+     "url": "https://www.wingsforlifeworldrun.com/en/locations/izmir-inciralti",
+     "alinti": "Karşıyaka One Team, Revolucion run club, Theravita, 221 together",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "Sayfa artık 404 veriyor, site 9 Mayıs 2027 etkinliğine geçmiş. Ortak listesi arama dizinindeki Çekçe ve Letonca sürümlerden doğrulandı. '221 together' teyit edilemedi.",
+     "d_iddia": "Wings for Life İzmir İnciraltı koşusu 10 Mayıs 2026'da yapıldı. Yerel ortakları Karşıyaka One Team, Revolucion run club ve Theravita idi.",
+     "d_alinti": "Local Partners, Karşıyaka One Team, Revolucion run club, Theravita"
+    },
+    {
+     "id": "P8-20",
+     "iddia": "İzmir Marina'nın yetişkin kış yelken eğitimi Aralık 2025'te 3 gün sürdü, 18 yaş üstüne açıktı ve 8.000 TL'ydi; 2026–27 kışı için duyuru bulunamadı.",
+     "url": "https://www.karar.com/sehir-haberleri/izmir-marina-kis-boyunca-yelken-tutkunlarini-agirliyor-2015333",
+     "alinti": "Üç gün sürecek eğitimin ücreti 8 bin TL olarak belirlendi.",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-21",
+     "iddia": "İzmir Marina'da yelken eğitimini 18 yaş üstüne Hit Sailing veriyor, kayıt İZDENİZ üzerinden (yaz dönemi; hangi yıl olduğu kesin değil).",
+     "url": "https://www.karar.com/sehir-haberleri/izmir-marinada-su-sporlari-heyecani-basladi-2061682",
+     "alinti": "Hit Sailing Yelken ve Yatçılık Spor Kulübü tarafından 7–12 yaş grubuna optimist, 18 yaş üzeri katılımcılara ise yelken eğitimi veriliyor",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "Haber 25.07.2026 tarihli, program 'Ağustos ayı boyunca' sürecekti, yani yıl 2026 ve dönem geçti. Kayıt için İZDENİZ doğru. Ücret yazmıyor. Alıntıda 've' eksikti.",
+     "d_iddia": "İzmir Marina'da Hit Sailing, Ağustos 2026 boyunca 18 yaş ve üzerine yelken eğitimi verdi (7–12 yaşa optimist). Kayıtlar İZDENİZ üzerinden alındı: bilet.izdeniz.com.tr, 0232 320 00 35 (102-103). Bu dönem bitti; 2027 programını İZDENİZ'e sormak gerekir.",
+     "d_alinti": "7–12 yaş grubuna optimist, 18 yaş ve üzeri katılımcılara ise yelken eğitimi veriliyor",
+     "d_url": "https://www.karar.com/sehir-haberleri/izmir-marinada-su-sporlari-heyecani-basladi-2061682"
+    },
+    {
+     "id": "P8-22",
+     "iddia": "Meeples & Peoples Cafe, Konak'ta bir kutu oyunu kafesi; güncelliği doğrulanmadı.",
+     "url": "https://listelist.com/kutu-oyunu-oynayabileceginiz-mekanlar",
+     "alinti": "Murat Reis, 255. Sk. no:27 D:C, 35280 Konak/İzmir",
+     "guven": "düşük",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-23",
+     "iddia": "ESN Ege (Ege Üniversitesi Erasmus öğrenci ağı) Ocak 2026'da Bornova'da kutu oyunu gecesi düzenledi; etkinlikler öğrenci odaklı.",
+     "url": "https://activities.esn.org/organisation/esn-ege-university/activities",
+     "alinti": "Culture Board Games Night 16/01/2026 Bornova, TR",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-24",
+     "iddia": "Belediyenin Kaynaklar Tırmanış Bahçesi Buca'da, açık havada; güncelliği doğrulanmadı.",
+     "url": "https://www.visitizmir.org/en/Destination/13113",
+     "alinti": "walking distance of 15 minutes to Buca's Kaynaklar Village",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "Visit İzmir sayfası işleten kurumu söylemiyor, İBB yalnızca sitenin sponsoru olarak görünüyor. Aramada da 'belediyenin' olduğu doğrulanamadı. Konum ve alıntı doğru.",
+     "d_iddia": "Kaynaklar Tırmanış Bahçesi Buca'da (29 Ekim Mah., Buca), Kaynaklar Köyü'ne 15 dakika yürüme mesafesinde ve açık havada. İşleten kurum, saat ve ücret belirtilmiyor; güncelliği doğrulanmadı.",
+     "d_url": "https://www.visitizmir.org/en/Destination/13113"
+    },
+    {
+     "id": "P8-25",
+     "iddia": "Konak'ta İDADİK'in tırmanış salonu listeleniyor; adres ve ücret bulunamadı.",
+     "url": "https://peakvisor.com/climbing/izmir/izmir.html",
+     "alinti": "İDADİK İzmir Dağcılık ve Doğa Sporları İhtisas Kulübü",
+     "guven": "düşük",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P8-26",
+     "iddia": "İl Kültür Turizm Müdürlüğü'ne göre kulüpler yaklaşık 100 onaylı rotada yürüyüş düzenliyor; takvim verilmiyor.",
+     "url": "https://izmir.ktb.gov.tr/EN-243160/hiking-trail-trekking.html",
+     "alinti": "Clubs organize hiking, camping, and mountain biking activities in nearly 100 locations approved",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "Alıntı doğru. Ancak kaynakta 'rota' değil 'location' geçiyor ve onayı Orman Bakanlığı veriyor. Etkinlikler yalnız yürüyüş değil, kamp ve bisikleti de kapsıyor. Takvim yok.",
+     "d_iddia": "İl Kültür ve Turizm Müdürlüğü'ne göre kulüpler, Orman Bakanlığı onaylı yaklaşık 100 noktada yürüyüş, kamp ve dağ bisikleti etkinliği düzenliyor; takvim verilmiyor."
+    },
+    {
+     "id": "P8-27",
+     "iddia": "Yarımada İzmir'in toplam yaklaşık 700 km'lik yürüyüş rotaları sitede yayımlı (Ekim 2026 haberi).",
+     "url": "https://www.yeniasir.com.tr/izmir/2026/10/21/izmirde-bu-yerleri-bilen-az-izmirin-yani-basinda-doga-harikasi-rotalar-belli-oldu",
+     "alinti": "Toplam uzunluğu yaklaşık 700 kilometreyi bulan rotaların ayrıntıları Yarımada İzmir'in internet sitesinden incelenebiliyor.",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    }
+   ]
+  },
+  {
+   "key": "P9",
+   "label": "izmir-toparlanma",
+   "arac": "43/35. Kontrol noktasına geldiğimde hamam ücreti, vapur süresi ve İnciraltı ulaşımı hâlâ eksikti ve son 5 çağrı yeni bilgi getiriyordu, bu yüzden devam ettim. 43. çağrı yeni bir şey getirmeyince durdum.",
+   "ozet": "Hepsi İzmir için. En az enerji isteyenden en çoğuna doğru sıralı.\n\n1) Sabah ışığı (en kolayı). 26 Kasım'da İzmir'de güneş 08:04'te doğuyor, 17:52'de batıyor, gün 9 saat 48 dakika. En kısa gün 22 Aralık: 9 saat 29 dakika, gün doğumu 08:25. Kalkınca 08:30–09:30 arasında 30–60 dakika balkonda ya da sahilde oturmak gerçekçi bir hedef. MGM'ye göre İzmir'de günlük ortalama güneşlenme Kasım'da 5,6 saat, Aralık'ta 4,2 saat. İzmir'in günü İstanbul'dan 14–16 dakika uzun, güneş de yaklaşık 14 dakika geç batıyor. MGM'nin İstanbul güneşlenme verisi tutarsız görünüyor (Temmuz'da 2,6 saat), bu yüzden güneşlenme karşılaştırması güvenilir değil.\n\n2) Vapur (oturarak). Karşıyaka–Konak yaklaşık 20 dakika, Karşıyaka–Alsancak yaklaşık 15 dakika sürüyor (resmî olmayan sefer sitesi). Vapuru \"doğa molası\" sayan doğrudan bir çalışma bulamadım. Su manzarasına bakarak oturmak su kenarı (mavi alan) bulgusuna yakın, ama bu benim çıkarımım.\n\n3) Düz sahil yürüyüşü. Kordon yolu Alsancak'tan Üçkuyular'a 9,3 km; Konak iskelesi 3,1 km'de. Karşıyaka sahil yolu Mavişehir marinasından Muammer Aksoy Parkı'na 6,3 km. İkisinde de istediğin noktada bırakıp vapura ya da metroya binebilirsin. Ağustos–Eylül 2025'te Bayraklı'dan Bostanlı'ya kadar körfezde koku ve balık ölümleri vardı. Kasım için böyle bir haber bulamadım.\n\n4) Orman (orta enerji). İnciraltı Kent Ormanı'na ESHOT'un 480 ve 481 hatlarıyla gidiliyor. Alan yaklaşık 620 bin m², yolları düz. Balçova Terapi Ormanı'nda yaklaşık 6 km'lik patika var, 480 hattıyla gidiliyor. Haber 8 Kasım 2026 tarihli.\n\n5) Homeros Vadisi ve Karagöl (bu hafta önerilmez). Homeros Vadisi'ne otobüs ve minibüs aktarmasıyla gidiliyor. Karagöl'e arabayla yaklaşık 45 dakika; ESHOT hattı doğrulanmadı. İkisi de yorgun biri için zahmetli.\n\n6) Hamam. Mayıs 2025'te normal bir hamam 350 TL, lüks olanlar 500–600 TL idi. İzmir'de hamam sayısı 50'den 35'e düştü. Kültür ve Turizm İl Müdürlüğü'nün listesinde Kemeraltı–Basmane çevresindeki hamamlar telefonlarıyla birlikte var, ama hangisinin şu an açık olduğu belli değil; gitmeden telefonla sor. Ne zaman gidilmemeli: alkolden sonra, yeterince su içmeden, idrar koyu ya da kola renginde, idrar azalmış, ağrı ya da güçsüzlük aşırıysa. Bu durumda sıcak ortama girme, hekime git. Bilinç bulanıklığı ya da bayılma olursa 112'yi ara.\n\n7) Ücretsiz ya da ucuz psikolojik destek.\n- İZSEM (İzmir Büyükşehir Belediyesi): ücretsiz ve randevulu. Başvuru yalnızca ALO 153 üzerinden. Önce bir ekip arayıp ihtiyacını soruyor. Şubeler: Alsancak, Konak Center, Küçük Çiğli, Nergiz, Yurdoğlu, Emek.\n- Aile ve Sosyal Hizmetler Bakanlığı: bireysel danışmanlık ücretsiz. İzmir çevrimiçi pilot uygulamaya dahil; başvuru psikodestek.aile.gov.tr adresinden, e-Ailem ile.\n- İzmir Ekonomi Üniversitesi PUAM (Balçova): eğitimini sürdüren psikologla görüşme 1000 TL, klinik psikologla 2200 TL (6–12 ay bekleme olabilir), öğretim üyesiyle 4000 TL. Ücretler Eylül 2026 itibarıyla güncel. Kriz durumları için uygun değil.\n- Ege, Dokuz Eylül ve Yaşar üniversitelerinde dışarıdan danışan kabul eden bir merkez bulamadım.",
+   "listede_olmayan": [
+    "Aile ve Sosyal Hizmetler Bakanlığı'nın çevrimiçi psikolojik destek pilotu (psikodestek.aile.gov.tr, e-Ailem) İzmir'i kapsıyor ve bireysel danışmanlık ücretsiz. Ama metin daha çok aile içi iletişimden söz ediyor; stres ya da tükenmişlik için uygun olup olmadığı açık değil.",
+    "İZSEM'in tek bir merkez değil, şubeleri var: Alsancak, Konak Center, Küçük Çiğli, Nergiz, Yurdoğlu, Emek. Kullanıcı evine yakın şubeyi isteyebilir.",
+    "Balçova Terapi Ormanı'nda yaklaşık 6 km'lik, iki rotalı patika var (biri manastır kalıntısına, biri şelaleye gidiyor). İnciraltı Kent Ormanı'nın hemen yanında, 480 hattıyla gidiliyor.",
+    "Karşıyaka sahil yolu (Mavişehir–Muammer Aksoy Parkı, 6,3 km) Bostanlı'yı da içine alan uzun ve düz bir hat; Kordon'un karşı kıyıdaki karşılığı.",
+    "Genç İzmir'in 15–30 yaşa ücretsiz kurs ve çalışma alanı sunan gençlik merkezleri, raporun sosyal bölümü için az enerji isteyen bir ortam olabilir (güven düşük).",
+    "İzmir'de hamamlar kapanıyor: sayı 50'den 35'e düştü (Mayıs 2025). Listelerdeki eski hamamların bir kısmı artık çalışmıyor olabilir."
+   ],
+   "celisen": [
+    "MGM'nin İstanbul güneşlenme verisi tutarsız: Temmuz 2,6, Ekim 0,7 saat gibi değerler gerçekçi değil ve 1991–2020 normalleri sayfasında İstanbul tablosu boş. Bu yüzden İzmir–İstanbul güneşlenme karşılaştırması bu kaynakla güvenle yapılamıyor; yalnızca gün uzunluğu karşılaştırması sağlam.",
+    "İzmir körfezinde Ağustos–Eylül 2025'te Bayraklı'dan Bostanlı'ya kadar kıyıda koku ve toplu balık ölümleri yaşandı (siyanobakteri ve oksijen eksikliği). Mevsimsel bir sorun; Kasım 2026 için benzer bir haber bulamadım.",
+    "Kültür ve Turizm İl Müdürlüğü listesindeki hamamların bir kısmı kapanmış ya da başka işe dönmüş (Kıllıoğlu: kömür deposu, sonra yıkılmış; Yeşildirek: kapalı çarşı). Aynı sayfa Karantina Hamamı için hem 'faal' diyor hem de planının değiştiğini söylüyor.",
+    "Bir blog özeti Genç İzmir'in 15–30 yaşa ücretsiz psikolojik destek verdiğini yazıyordu. Genç İzmir'le ilgili haber ise yalnızca kurs ve çalışma alanından söz ediyor; psikolojik danışmanlık doğrulanmadı.",
+    "İzmir Ekonomi PUAM'da klinik psikolog için 6–12 ay bekleme ve 20 seans sınırı olabiliyor. 'Düşük ücretli' seçenek, eğitimini sürdüren psikologla 1000 TL'lik görüşme.",
+    "PUAM'ın eski adresleri (puam.ieu.edu.tr/tr/sss ve ücret sayfası) artık 404 veriyor; site puam.izmirekonomi.edu.tr adresine taşınmış."
+   ],
+   "acik": [
+    "Ege, Dokuz Eylül ve Yaşar üniversitelerinde dışarıdan danışan kabul eden bir psikoloji merkezi bulamadım. Ege'nin birimi yalnızca öğrenci ve personele hizmet veriyor gibi görünüyor (doğrulanmadı).",
+    "İlçe belediyelerinin (Karşıyaka, Bornova, Bayraklı, Buca, Konak) yetişkinlere açık ücretsiz bireysel psikolojik danışmanlığı doğrulanamadı. Buca'daki Gülşah Durbay Kadın Danışma Merkezi yalnızca kadınlara hizmet veriyor.",
+    "İZSEM için 2026 tarihli bir faaliyet kanıtı ve bekleme süresi bilgisi bulamadım. Elimdeki en güncel tarihli haber Haziran 2025, şube sayfası tarihsiz.",
+    "Hamamların hangisinin şu an açık olduğu, saatleri, kadın/erkek günleri ve 2026 ücretleri doğrulanmadı; telefonla sorulmalı. Kentte modern bir sauna seçeneği (ücretiyle) bulamadım.",
+    "Homeros Vadisi ve Karagöl için güncel ESHOT hattı ve parkur uzunluğu doğrulanmadı.",
+    "Vapur süreleri resmî olmayan bir sefer sitesinden; İZDENİZ'in resmî tarifesine bakılmadı. Vapurun 'doğa molası' sayılmasına dair doğrudan bir çalışma yok, bu bir çıkarım.",
+    "İzmir'deki etkinliklerde kadın/erkek katılım oranına dair veri aranmadı; bu görevin kapsamında değildi."
+   ],
+   "dogrulayici_arac": [
+    "P9-d1: 28/40",
+    "P9-d2: 14/20"
+   ],
+   "dogrulayici_sayisi": 2,
+   "defter": [
+    {
+     "id": "P9-1",
+     "iddia": "İzmir'de 26 Kasım 2026'da güneş 08:04'te doğuyor, 17:52'de batıyor; gün 9 saat 48 dakika.",
+     "url": "https://www.timeanddate.com/sun/turkey/izmir?month=11&year=2026",
+     "alinti": "26 | 8:04 am | 5:52 pm | 9:48:04",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-2",
+     "iddia": "İzmir'de en kısa gün 22 Aralık 2026 (9 sa 29 dk). Gün doğumu Aralık sonunda 08:28'e kayıyor.",
+     "url": "https://www.timeanddate.com/sun/turkey/izmir?month=12&year=2026",
+     "alinti": "22 | 8:25 am | 5:54 pm | 9:29:11",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "düzeltildi",
+     "not": "Tabloda 21 ve 22 Aralık saniyesine kadar eşit. Yalnızca 22 Aralık'ı yazmak eksik kalıyor. 30–31 Aralık gün doğumu 8:28, bu kısım doğru.",
+     "d_iddia": "İzmir'de en kısa gün 21–22 Aralık 2026; ikisi de 9 sa 29 dk 11 sn. Gün doğumu Aralık sonunda 08:28'e kayıyor.",
+     "d_alinti": "21 | 8:24 am | 5:54 pm | 9:29:11; 22 | 8:25 am | 5:54 pm | 9:29:11"
+    },
+    {
+     "id": "P9-3",
+     "iddia": "İstanbul'da 26 Kasım 2026'da gün 9 sa 34 dk ve güneş 17:38'de batıyor, yani İzmir'in günü yaklaşık 14 dk daha uzun.",
+     "url": "https://www.timeanddate.com/sun/turkey/istanbul?month=11&year=2026",
+     "alinti": "26 | 8:04 am | 5:38 pm | 9:34:20",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-4",
+     "iddia": "21 Aralık'ta İstanbul'da gün 9 sa 13 dk, İzmir'de 9 sa 29 dk; fark yaklaşık 16 dk.",
+     "url": "https://www.timeanddate.com/sun/turkey/istanbul?month=12&year=2026",
+     "alinti": "21 | 8:25 am | 5:38 pm | 9:13:22",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-5",
+     "iddia": "MGM'ye göre İzmir'de ortalama günlük güneşlenme Kasım'da 5,6 saat, Aralık'ta 4,2 saat (ölçüm dönemi 1938–2025).",
+     "url": "https://www.mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?m=IZMIR",
+     "alinti": "Ortalama Güneşlenme Süresi (saat) ... Kasım 5,6 | Aralık 4,2; Ölçüm Periyodu ( 1938 - 2025)",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-6",
+     "iddia": "MGM'nin 1991–2020 mevsim normallerine göre İzmir'de güneşlenme Kasım'da 5,8 saat, Aralık'ta 4,2 saat.",
+     "url": "https://www.mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?k=H&m=IZMIR",
+     "alinti": "Ortalama Güneşlenme Süresi (saat) | ... | 5.8 | 4.2 (1991-2020)",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-7",
+     "iddia": "MGM'nin İstanbul sayfasında güneşlenme Kasım'da 1,1, Aralık'ta 1,3 saat görünüyor, ama Temmuz'un 2,6 saat olması verinin hatalı olduğunu düşündürüyor.",
+     "url": "https://www.mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?m=ISTANBUL",
+     "alinti": "Ortalama Güneşlenme Süresi (saat) | 1,6 | 0,8 | 2,1 | 2,6 | 2,5 | 2,5 | 2,6 | 2,9 | 2,0 | 0,7 | 1,1 | 1,3",
+     "guven": "düşük",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-8",
+     "iddia": "Kordon sahil yolu Alsancak'tan Üçkuyular'a 9,3 km; Pasaport iskelesi 2,0 km'de, Konak iskelesi ve metrosu 3,1 km'de.",
+     "url": "https://greatruns.com/?p=49411",
+     "alinti": "9.3 km ... 3.1 km: Konak ferry terminal/metro station",
+     "guven": "orta",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-9",
+     "iddia": "Karşıyaka sahil yolu Mavişehir marinasından Muammer Aksoy Parkı'na 6,3 km.",
+     "url": "https://greatruns.com/?p=49411",
+     "alinti": "runs for 6.3 km between the Mavişehir marina and Muammer Aksoy Park",
+     "guven": "orta",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-10",
+     "iddia": "İnciraltı Kent Ormanı'na ESHOT 480 ve 481 hatlarıyla gidiliyor. Alan yaklaşık 620 bin m² ve yürüyüş yolları var (haber 08.11.2026).",
+     "url": "https://www.yenibakishaber.com/izmir-balcovada-eshot-ile-gidip-gezilecek-yerler",
+     "alinti": "480 İnciraltı – Üçkuyular İskele ve 481 İnciraltı – Balçova hatlarıyla ulaşılabiliyor",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-11",
+     "iddia": "Balçova Terapi Ormanı'nda iki rotalı, yaklaşık 6 km'lik patika var; 480 hattıyla gidiliyor.",
+     "url": "https://www.yenibakishaber.com/izmir-balcovada-eshot-ile-gidip-gezilecek-yerler",
+     "alinti": "Yaklaşık 6 kilometrelik yürüyüş parkuruna sahip olan ormanda iki farklı rota bulunuyor",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-12",
+     "iddia": "Karşıyaka–Konak vapuru yaklaşık 20 dakika, Karşıyaka–Alsancak yaklaşık 15 dakika sürüyor. Kaynak resmî değil ve kendi içinde 20–25 dk arasında farklı süreler veriyor.",
+     "url": "https://www.feribotseferleri.com.tr/seferler/karsiyaka-konak",
+     "alinti": "yaklaşık 20 dakikada ulaşım sağlayan",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "'yaklaşık 20 dakikada' ifadesi bu sayfada yok, sitenin rehber sayfasından geliyor. '25 dk' hiçbir yerde geçmiyor. Kesin süre için İZDENİZ'in resmî tarifesine bakılmalı.",
+     "d_iddia": "Resmî olmayan feribotseferleri.com.tr'nin sefer sayfasına göre (son güncelleme 25.11.2026) Karşıyaka–Konak vapuru çoğu seferde 15 dk, bazı seferlerde 45 dk'ya kadar sürüyor. Aynı sitenin rehber sayfası yaklaşık 20 dk diyor. Karşıyaka–Alsancak 15 dk.",
+     "d_alinti": "Yolculuk çoğu seferde 15 dakika, bazı seferlerde 45 dakikaya kadar çıkıyor.",
+     "d_url": "https://www.feribotseferleri.com.tr/seferler/karsiyaka-konak"
+    },
+    {
+     "id": "P9-13",
+     "iddia": "Homeros Vadisi Bornova'da Kavacık yakınında, şehir merkezine yaklaşık 15 km. Toplu taşımayla otobüs ve minibüs aktarması gerekiyor (güncelliği doğrulanmadı).",
+     "url": "https://www.excursionmania.com/ttd/3832/homeros-valley-blg-3832",
+     "alinti": "15 km (arama özetinden)",
+     "guven": "düşük",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "Excursionmania 403 verdi. 15 km, Kavacık ve aktarma bilgisi arama özetinde görüldü. Daha yeni yerel haber 365 hattını anıyor, aktarma şartıyla çelişiyor. Gitmeden ESHOT uygulamasından bakılmalı.",
+     "d_iddia": "Homeros Vadisi Bornova'da, Kavacık yakınında, şehir merkezine yaklaşık 15 km. Turistik kaynak otobüsle Bornova'ya, oradan minibüsle Kavacık'a gitmeyi öneriyor. Yerel bir haber (02.09.2026) ise ESHOT 365 hattıyla gidilebildiğini yazıyor; bu hat ESHOT'ta doğrulanmadı.",
+     "d_url": "https://www.yenibakishaber.com/izmirde-toplu-tasimayla-gidilebilecek-piknik-alanlari-iste-7-doga-rotasi"
+    },
+    {
+     "id": "P9-14",
+     "iddia": "Karagöl'e (Yamanlar) arabayla yaklaşık 45 dakikada gidiliyor; ESHOT hattı doğrulanmadı.",
+     "url": "https://www.excursionmania.com/ttd/3821/karagol-forest-park-blg-3821",
+     "alinti": "45 dk (arama özetinden)",
+     "guven": "düşük",
+     "kritik": false,
+     "karar": "doğrulanamadı",
+     "not": "Excursionmania 403 verdi, 45 dk bilgisi hiçbir kaynakta doğrulanamadı. 27 km dağ yolu için makul bir süre ama kaynağı yok. Bazı kaynaklar bölgeye dolmuş ya da tur olduğunu yazıyor.",
+     "d_iddia": "Karagöl Karşıyaka ilçesinde, Yamanlar Dağı'nda, Karşıyaka merkezine 27 km (KTB). Araçla süre ve toplu taşıma bilgisi resmî sayfada yok; ESHOT hattı bulunamadı.",
+     "d_url": "https://izmir.ktb.gov.tr/EN-239234/karagol-natural-crater-lake-and-recreation-area.html"
+    },
+    {
+     "id": "P9-15",
+     "iddia": "Ağustos–Eylül 2025'te Bayraklı'dan Bostanlı'ya kadar körfez kıyısında koku ve toplu balık ölümleri yaşandı. Sorun yaz sıcağıyla ilgili.",
+     "url": "https://www.ntv.com.tr/galeri/turkiye/izmir-korfezinde-balik-olumleri-ve-kotu-koku-suruyor,i-IiaUquqUip2tG1zqQyCQ",
+     "alinti": "Balık ölümleri ise Balçova Üçkuyular Feribot İskelesi'nde de görüldü",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "Gösterilen NTV haberi 10.09.2024 tarihli, 2025 değil; Üçkuyular alıntısı orada yok. Asıl kaynak NTV 19.09.2025. Bostanlı iki haberde de yok. Nedeni yalnızca yaz sıcağına bağlamak eksik, kirlilik ana neden.",
+     "d_iddia": "Ağustos–Eylül 2024'te Bayraklı (Turan) ve Karşıyaka kıyılarında toplu balık ölümleri ve kötü koku yaşandı; neden kirlilik ve oksijen yetersizliği olarak açıklandı. Eylül 2025'te koku, havalar ısınınca yeniden etkili oldu. Ölü balıklar Balçova Üçkuyular İskelesi'nde de görüldü.",
+     "d_alinti": "bu kez Balçova Üçkuyular Feribot İskelesi'nde görüldü",
+     "d_url": "https://www.ntv.com.tr/turkiye/galeri-izmir-korfezinde-endiselendiren-goruntu-balik-olumleri-basladi,DUJFwy0lWkqr18m12bVjzQ"
+    },
+    {
+     "id": "P9-16",
+     "iddia": "Kültür ve Turizm İl Müdürlüğü'nün tarihsiz listesinde Kemeraltı–Basmane çevresinde 14 hamam telefonlarıyla birlikte geçiyor. Karantina Hamamı için 'bugün faal' deniyor; diğerlerinin durumu belirtilmemiş.",
+     "url": "https://izmir.ktb.gov.tr/EN-243130/turkiye-baths-hamams-in-izmir.html",
+     "alinti": "actively operating today",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "14 hamamın hepsi Kemeraltı–Basmane'de değil. Telefonsuz olanlar: İstanköy, Kıllıoğlu, Yeşildirek, Tabaklar. Bazılarının durumu yazılmış. 'İyi durumda' ifadesi binanın sağlamlığını anlatıyor, açık olduğunu göstermiyor.",
+     "d_iddia": "KTB İl Müdürlüğü'nün tarihsiz listesinde İzmir genelinde 14 hamam var. Bunların bir kısmı Kemeraltı–Basmane dışında (Karataş, Karantina, Karşıyaka, Bergama). Telefon 10'unda var. Karantina için 'bugün faal' deniyor. Lüks ve Basmane 'iyi durumda'. Kıllıoğlu yıkılmış, Tabaklar (Bergama) harabe.",
+     "d_alinti": "actively operating today ... The hamam is in ruins now",
+     "d_url": "https://izmir.ktb.gov.tr/EN-243130/turkiye-baths-hamams-in-izmir.html"
+    },
+    {
+     "id": "P9-17",
+     "iddia": "Lüks (Kadı) Hamamı Anafartalar Cad. No:660'ta; kadın ve erkek bölümleri ayrı, telefonu +90 232 484 84 30. Faal olduğu doğrulanmadı.",
+     "url": "https://izmir.ktb.gov.tr/EN-243130/turkiye-baths-hamams-in-izmir.html",
+     "alinti": "still in good condition",
+     "guven": "düşük",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-18",
+     "iddia": "İzmir'de hamam sayısı 50'den 35'e düştü; maliyetler yüzünden kapananlar var (haber 4 Mayıs 2025).",
+     "url": "https://www.turkiyegazetesi.com.tr/gundem/yunanlar-buna-da-sahip-cikar-izmirde-su-maliyetleri-artinca-bir-kultur-yok-olmaya-yuz-tuttu-1113143",
+     "alinti": "Eskiden 50 olan hamam sayısı şimdi 35'e düştü.",
+     "guven": "yüksek",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-19",
+     "iddia": "Esnaf odası başkanına göre Mayıs 2025'te normal bir hamam 350 TL, lüks yerler 500–600 TL idi.",
+     "url": "https://www.turkiyegazetesi.com.tr/gundem/yunanlar-buna-da-sahip-cikar-izmirde-su-maliyetleri-artinca-bir-kultur-yok-olmaya-yuz-tuttu-1113143",
+     "alinti": "350 TL ... 500-600 TL'ye kadar çıktığını",
+     "guven": "orta",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-20",
+     "iddia": "'Tarihi Kemeraltı Hamamı' Uğur Mah. 916 Sk. No:6'da (Kültür ve Turizm listesindeki İstanköy Hamamı ile aynı adres). Bir yorumcu tarihsiz olarak 400 TL ödediğini yazmış.",
+     "url": "https://www.gayout.com/tr/europe/turkey/izmir/spas/tarihi-kemeralt-hamam",
+     "alinti": "400 TL (arama özetinden; sayfa açılmadı)",
+     "guven": "düşük",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-21",
+     "iddia": "Sauna ile alkol birlikte olunca tansiyon düşmesi, kalp sorunları ve kaza riski artıyor (Mayo Clinic Proceedings derlemesi, 2018).",
+     "url": "https://research-information.bris.ac.uk/ws/files/154526230/Clean_version_Sauna_review_MCP_Final.pdf",
+     "alinti": "A combination of sauna bathing and alcohol consumption increases the risk of hypotension, cardiac complications, and traumatic events.",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-22",
+     "iddia": "1992 tarihli küçük bir deneyde alkolle saunaya giren 10 sağlıklı erkekte büyük tansiyon 136'dan 113 mmHg'ye düştü.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/1588256/",
+     "alinti": "136 → 113 mmHg (arama özetinden)",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-23",
+     "iddia": "Rabdomiyoliz (kas yıkımı) ağır efor ve ciddi susuzlukla ortaya çıkabiliyor. Belirtileri koyu ya da kola renginde idrar, idrarın azalması, kas ağrısı ve güçsüzlük.",
+     "url": "https://medlineplus.gov/ency/article/000473.htm",
+     "alinti": "Dark, red, or cola-colored urine Decreased urine output General weakness Muscle stiffness or aching",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-24",
+     "iddia": "Yetersiz su içip 45 dakika saunada kalan bir hastada ısı çarpması, rabdomiyoliz, böbrek ve karaciğer bozukluğu gelişti (BMJ Case Reports, Ocak 2025).",
+     "url": "https://bmjgroup.com/basking-too-long-in-a-sauna-without-adequate-hydration-may-risk-heat-stroke-doctors-warn",
+     "alinti": "particularly if they haven't drunk enough water beforehand",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-25",
+     "iddia": "İzmir Büyükşehir Belediyesi'nin İZSEM birimi ücretsiz ve randevulu psikolojik destek veriyor. Başvuru yalnızca ALO 153'ten; şubeler Alsancak, Konak Center, Küçük Çiğli, Nergiz, Yurdoğlu, Emek (sayfa tarihsiz).",
+     "url": "https://www.bizizmir.com/tr/hizmet/psikolojik-destek-hizmetleri",
+     "alinti": "sadece ALO 153 üzerinden kabul edilmektedir",
+     "guven": "orta",
+     "kritik": true,
+     "karar": "düzeltildi",
+     "not": "Listede Hatay KDM birimi eksikti. Yurdoğlu ve Emek 15 yaş üstüne hizmet veriyor. Sayfada 30 iş günü triyaj bilgisi var. Bu bekleme süresi tükenmiş bir kullanıcı için önemli.",
+     "d_iddia": "İzmir Büyükşehir Belediyesi'nin İZSEM psikolojik destek birimleri ücretsiz ve randevulu, yüz yüze ya da çevrimiçi danışmanlık veriyor. Başvuru yalnızca ALO 153'ten. Birimler Alsancak, Konak Center, Küçük Çiğli, Nergiz, Yurdoğlu ve Emek; ayrıca 18 yaş üstü kadınlara Hatay KDM. Triyaj ekibi en geç 30 iş günü içinde arıyor (sayfa tarihsiz)."
+    },
+    {
+     "id": "P9-26",
+     "iddia": "Haziran 2025 haberine göre 153'e başvuranı bir triaj ekibi arayıp İZSEM'e yönlendiriyor; görüşmeler düzenli seanslar hâlinde.",
+     "url": "https://www.medyaege.com.tr/izmirde-ucretsiz-psikolojik-destek-agi-genisliyor-261596h.htm",
+     "alinti": "Psikolojik destek almak isteyenler 153 Hemşehri İletişim Merkezi'ni arayıp başvuruda bulunabiliyor.",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-27",
+     "iddia": "İzmir Ekonomi Üniversitesi PUAM'da (Balçova) görüşme ücretleri: eğitimini sürdüren psikolog 1000 TL, klinik psikolog 2200 TL (6–12 ay bekleme), öğretim üyesi 4000 TL. Eylül 2026 itibarıyla güncel.",
+     "url": "https://puam.izmirekonomi.edu.tr/ucretlendirme/",
+     "alinti": "Lisansüstü Eğitimine Devam Eden Psikolog Görüşme Ücreti: 1000 TL Klinik Psikolog Görüşme Ücreti: 2200 TL",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-28",
+     "iddia": "PUAM dışarıdan danışan kabul ediyor; randevu 0232 488 82 17'den ya da e-postayla alınıyor. Kriz ve intihar riski olan durumlar için uygun değil.",
+     "url": "https://puam.ieu.edu.tr/tr/sss",
+     "alinti": "Randevu, 0232 488 82 17 numaralı telefon aranarak alınabilecek (arama özeti; sayfa şimdi 404)",
+     "guven": "orta",
+     "kritik": false,
+     "karar": "düzeltildi",
+     "not": "Randevu telefon ya da e-postayla alınmıyor, başvuru formla yapılıyor. Dışarıdan danışan kabulü açıkça yazmıyor ama mensup şartı yok ve ücret sayfası yalnızca mensuplara indirim tanıyor.",
+     "d_iddia": "PUAM 18 yaş ve üzerine bireysel destek veriyor ve üniversite mensubu olma şartı aramıyor. Başvuru yalnızca çevrimiçi başvuru formuyla yapılıyor, merkez randevu için kendisi arıyor. İletişim: 0232 488 82 17, puam@izmirekonomi.edu.tr. Kriz, intihar ve acil durumlar için uygun değil.",
+     "d_alinti": "Kriz durumlarında, intihar ve acil durumlarda merkezimize başvurulması uygun değildir.",
+     "d_url": "https://puam.izmirekonomi.edu.tr/sikca-sorulan-sorular/"
+    },
+    {
+     "id": "P9-29",
+     "iddia": "Aile ve Sosyal Hizmetler Bakanlığı bireysel danışmanlığı ücretsiz veriyor. İzmir, 29.12.2025'te başlayan çevrimiçi pilot uygulamaya dahil; başvuru psikodestek.aile.gov.tr adresinden, e-Ailem ile.",
+     "url": "https://aile.gov.tr/izmir/haberler/https-www-aile-gov-tr-haberler-cevrimici-psikolojik-destek-ve-aile-danismanligi-hizmeti-7-ilde-pilot-uygulama-olarak-baslatildi/",
+     "alinti": "Adana, İzmir, Erzurum, Şanlıurfa, Ordu, Sivas ve Sakarya illeri belirlendi.",
+     "guven": "yüksek",
+     "kritik": true,
+     "karar": "doğru"
+    },
+    {
+     "id": "P9-30",
+     "iddia": "Genç İzmir 15–30 yaş arasındakilere gençlik merkezlerinde ücretsiz kurs, kütüphane ve çalışma alanı sunuyor (Aşık Veysel Gençlik Merkezi Bornova'da, bir merkez de Çiğli'de). Psikolojik danışmanlık verdiği doğrulanmadı.",
+     "url": "https://www.yenibakishaber.com/izmirde-gencler-hem-ogreniyor-hem-sosyallesiyor",
+     "alinti": "15-30 yaş arasındaki İzmirlilere eğitim, kültür, sanat ve teknoloji alanlarında",
+     "guven": "düşük",
+     "kritik": false,
+     "karar": "doğru"
+    }
+   ]
+  }
+ ]
+}
