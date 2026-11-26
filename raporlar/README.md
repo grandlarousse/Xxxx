@@ -57,3 +57,13 @@ Klasör: `2026-11-10_arastirma_verimliligi/`
 
 - `RAPOR.md`: 23 oturumun kullanım analizi (maliyet, alt ajan sayısı, kota payı), ajan sayısı eşikleri, yapılacaklar ve depo dışı kullanım için kısa prompt.
 - Depo kökündeki `CLAUDE.md`: araştırma protokolü. Varsayılan dalda durduğunda her oturuma ve alt ajana kendiliğinden yüklenir.
+
+---
+
+# Bornova MyVia 414 ve yanındaki kafeler: hangisi neye uygun? (25–26.11.2026)
+
+Klasör: `2026-11-25_myvia414_kafeler/`
+
+- `RAPOR.md`: 35 kafenin dört amaca göre tablosu (laptopla çalışma, kitap/sakin vakit, buluşma, kahve ve fiyat), öneriler, doğrulama kapsamı.
+- `ek/veri/`: Google Haritalar çekimi (yer özellikleri, saatler, yorum alıntıları; yorumcu adı yok). `ek/kod/gmaps_scrape.js`: Playwright betiği (`--place <url>` ile tek yer).
+- `ek/dalga1_sonuc.json`, `ek/dalga2_sonuc.json`, `ek/dogrulama_taze_cekim.md`: Ajan çıktıları ve doğrulama.

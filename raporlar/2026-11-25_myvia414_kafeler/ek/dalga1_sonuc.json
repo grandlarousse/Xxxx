@@ -1,0 +1,257 @@
+{
+ "envanter": {
+  "arac": "araç: 10/25",
+  "ozet": "Doğrulanabilir tek kafe adayı Ayaküstü Kahve; durumu belirsiz. Foursquare listesinde adres \"Myvia 414 (Sanayi Caddesi), Bornova\" görünüyor. Sayfa giriş duvarı yüzünden açılamadı. Son yorum tarihi, puan ve kapanış etiketi görülemedi. Kovan'ı Yeni Asır (2021) \"açık-kapalı 500 kişilik\" dünya mutfağı, pizza, makarna, burger sunan restoran-bar diye anlatıyor. Kahvaltı 09:00'da başlıyor, servis 02:00'ye kadar. Bu yüzden kafe olmayanlara koydum. Güncel durumu doğrulanamadı. French Burger burgerci olduğu için kafe dışı. Zincir kahvecilerden (Starbucks, Espressolab, Kahve Dünyası, Coffy, Mackbear) hiçbirinin Park MyVia'da olduğuna dair kanıt bulunamadı; eklenmedi. Wanderlog'daki Vibe Coffee Co (Kazımdirik 153. Sk. 61/A, Google 4,1 / 220 yorum) MyVia ile ilişkilendirilemedi; sayfada MyVia geçmiyor, eklenmedi. Aykırı kanıt aramaları (Ayaküstü kapanış etiketi, Yandex bina listesi, zincir markalar) yeni bilgi getirmedi; Yandex'te bina kuruluşları listesi bulunamadı. Emlakkulisi sayfaları 2026 tarihli görünse de içerik 2014-2015 teslim bilgisi veriyor, güvenilmez. Google Haritalar, Yandex bina sayfası ve Instagram doğrudan okunamadı. Güncel kiracı listesi için mekânda ya da Google Haritalar'da yerinde kontrol gerekir.",
+  "kafeler": [
+   {
+    "ad": "Ayaküstü Kahve",
+    "tur": "kahve dükkânı",
+    "durum": "belirsiz",
+    "durum_kaniti": "Yalnızca Foursquare liste kaydı var (6 tavsiye/yorum). Son yorum tarihi görülemedi, kapanış etiketi bulunamadı ve açıklık da teyit edilemedi. Kapanış aramasında kayıt çıkmadı.",
+    "konum": "Myvia 414 (Sanayi Caddesi), Bornova; blok/kat belirsiz",
+    "puan": "yok (Foursquare 6 tavsiye)",
+    "instagram": "bulunamadı",
+    "kaynaklar": [
+     "https://redirect.foursquare.com/gkmnshnr/list/kahve-"
+    ]
+   }
+  ],
+  "kafe_olmayanlar": [
+   {
+    "ad": "Kovan",
+    "tur": "restoran-bar, dünya mutfağı (pizza, makarna, burger); 500 kişilik açık-kapalı"
+   },
+   {
+    "ad": "French Burger",
+    "tur": "burgerci"
+   }
+  ],
+  "defter": [
+   {
+    "iddia": "Ayaküstü Kahve, Myvia 414 (Sanayi Caddesi) adresiyle Foursquare'de kahve dükkânı olarak listeli",
+    "kaynak": "https://redirect.foursquare.com/gkmnshnr/list/kahve-",
+    "alinti": "Myvia 414 (Sanayi Caddesi), Bornova, İzmir (arama özeti; sayfa açılamadı)",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Ayaküstü Kahve'nin bugünkü açık/kapalı durumu doğrulanamadı",
+    "kaynak": "https://redirect.foursquare.com/gkmnshnr/list/kahve-",
+    "alinti": "6 tavsiye; kapanış etiketi veya tarih görülmedi",
+    "guven": "düşük",
+    "kritik": true
+   },
+   {
+    "iddia": "Park MyVia 414 restoran, kafe ve bistrolardan oluşan bir yapı (2021)",
+    "kaynak": "https://www.yeniasir.com.tr/yazarlar/sezer-altan/2021/10/30/genclik-enerjisi-lezzetle-bulusuyor",
+    "alinti": "restoran, kafe ve bistrolardan oluşan konseptiyle",
+    "guven": "yüksek",
+    "kritik": false
+   },
+   {
+    "iddia": "Kovan Park MyVia 414 içinde, restoran-bar niteliğinde (kafe değil), 2021 tarihli",
+    "kaynak": "https://www.yeniasir.com.tr/yazarlar/sezer-altan/2021/10/30/genclik-enerjisi-lezzetle-bulusuyor",
+    "alinti": "açık-kapalı 500 kişilik bir mekan",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Kovan'ın bugünkü durumu doğrulanmadı (en yeni kaynak 2021)",
+    "kaynak": "https://www.yeniasir.com.tr/yazarlar/sezer-altan/2021/10/30/genclik-enerjisi-lezzetle-bulusuyor",
+    "alinti": "2021-10-30 tarihli yazı",
+    "guven": "düşük",
+    "kritik": true
+   },
+   {
+    "iddia": "Yazıda Kovan dışında adı geçen başka mekan yok; zincir kahveci kanıtı bulunmadı",
+    "kaynak": "https://www.yeniasir.com.tr/yazarlar/sezer-altan/2021/10/30/genclik-enerjisi-lezzetle-bulusuyor",
+    "alinti": "yalnızca Kovan adlandırılıyor (WebFetch özeti)",
+    "guven": "orta",
+    "kritik": false
+   },
+   {
+    "iddia": "Vibe Coffee Co'nun MyVia 414 ile ilişkisi yok; adres Kazımdirik 153. Sk. 61/A, Google 4,1 / 220 yorum",
+    "kaynak": "https://wanderlog.com/place/details/9826099/vibe-coffee-co",
+    "alinti": "Kazımdirik, 153. Sk. 61/A, 35550 Bornova/İzmir",
+    "guven": "orta",
+    "kritik": true
+   },
+   {
+    "iddia": "Emlakkulisi tanıtım sayfaları eski içerik, kiracı kanıtı değil",
+    "kaynak": "https://emlakkulisi.com/guncel/bornova-myvia-414-iletisim/240056",
+    "alinti": "Park MyVia AVM'de ağırlıklı olarak restoran, kafe ve bistrolar bulunuyor",
+    "guven": "düşük",
+    "kritik": false
+   }
+  ],
+  "acik_kalanlar": "1) Ayaküstü Kahve'nin bugün açık olup olmadığı ve gerçekten MyVia 414 içinde mi yoksa Sanayi Caddesi'nde bitişikte mi olduğu. Foursquare sayfası giriş duvarı nedeniyle okunamadı. 2) Kovan'ın bugün hâlâ faaliyette olup olmadığı. 3) Kompleksin güncel kiracı listesi (Yandex \"bu binadaki kuruluşlar\", Google Haritalar) okunamadı. Zincir kahveci olup olmadığı bilinmiyor. 4) Instagram hesapları bulunamadı. 5) French Burger için bağımsız kaynak bulunmadı, kullanıcı bilgisine dayanıyor."
+ },
+ "kapali": [],
+ "sonuclar": [
+  {
+   "grup": 1,
+   "kafeler": [
+    "Ayaküstü Kahve"
+   ],
+   "uretici": {
+    "arac": "araç: 8/35",
+    "ozet": "Ayaküstü Kahve (Myvia 414, Bornova) için kullanılabilir kanıt neredeyse yok. Tek kayıt Foursquare listesi (6 tavsiye). Sayfa girişsiz açılmadı, içerik okunamadı. Wanderlog'daki \"ayaküstü kahve\" sayfası Ankara Balgat'taki aynı adlı farklı bir mekana ait (4,7 puan, 377 Google yorumu). Bu yüzden Wanderlog'un Türk kahvesi/cold brew/latte tarifi ve laptopla çalışılabilir yorumu Bornova şubesine atfedilemez. Yandex, Instagram, Google yorumu, menü ve fiyat bulunamadı. Kapanış etiketi de bulunamadı, ama açıklık da teyit edilemedi: durum belirsiz. Olumsuz yönde arama (pahalı, gürültülü, şikayet) yalnızca alakasız zincir şikayetleri getirdi, mekana dair olumsuz kanıt çıkmadı. Art arda aramalar yeni bilgi getirmediği için 8 çağrıda durdum. Dört amaç için de \"bilinmiyor\"; tahmin yapılmadı. Öneri: gitmeden Google/Yandex Haritalar'da açıklığı ve saatleri teyit edin.",
+    "kafeler": [
+     {
+      "ad": "Ayaküstü Kahve",
+      "durum": "belirsiz: yalnızca Foursquare liste kaydı var, son yorum tarihi ve kapanış etiketi görülemedi, bugün açık olduğu teyit edilemedi",
+      "calisma": {
+       "karar": "bilinmiyor",
+       "gerekce": "Bornova şubesi için Wi-Fi, priz, masa, laptop politikası ve saat verisi bulunamadı; laptop yorumu Ankara'daki aynı adlı mekana ait."
+      },
+      "okuma": {
+       "karar": "bilinmiyor",
+       "gerekce": "Müzik, sessiz köşe, koltuk ve kalabalık hakkında Bornova'ya ait kanıt yok."
+      },
+      "bulusma": {
+       "karar": "bilinmiyor",
+       "gerekce": "Ambiyans, servis, yemek ve dış alan için Bornova'ya ait doğrulanmış kanıt yok."
+      },
+      "kahve_fiyat": {
+       "karar": "bilinmiyor",
+       "gerekce": "Menü, fiyat, çekirdek ve demleme yöntemi bulunamadı; specialty mi zincir mi belli değil."
+      },
+      "puanlar": "Google: bulunamadı; Yandex: bulunamadı; Foursquare: puan yok, 6 tavsiye/yorum (Bornova). Ankara'daki aynı adlı mekan 4,7/377 Google yorumu, Bornova'ya atfedilmez.",
+      "saatler": "bulunamadı (Ankara'daki mekanın saatleri Bornova için geçerli değil)",
+      "one_cikan": "Belirlenemedi; Myvia 414'te restoran, kafe ve bistro konseptli bir buluşma noktasında yer alıyor (Yeni Asır, 2021).",
+      "dikkat": "Açıklık teyit edilemedi; aynı adlı Ankara mekanı ve Ayaküstü Çay Evi ile karıştırılmamalı. Gitmeden Google/Yandex Haritalar'dan saat ve durum bakın.",
+      "kahve_turu": "bilinmiyor",
+      "ornek_fiyatlar": "bulunamadı"
+     }
+    ],
+    "defter": [
+     {
+      "iddia": "Ayaküstü Kahve Myvia 414 (Sanayi Caddesi) Bornova'da kahve dükkânı olarak Foursquare listesinde kayıtlı, 6 tavsiye/yorum var",
+      "kaynak": "https://redirect.foursquare.com/gkmnshnr/list/kahve-",
+      "alinti": "6 tavsiye/yorum (arama özeti; sayfa girişsiz açılmadı)",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "iddia": "Wanderlog'daki 'ayaküstü kahve' sayfası Ankara Balgat'taki mekana ait, Bornova değil",
+      "kaynak": "https://wanderlog.com/place/details/4367753/ayaküstü-kahve",
+      "alinti": "Balgat, Ziyabey Cd. No:16, 06520 Çankaya/Ankara",
+      "guven": "yüksek",
+      "kritik": true
+     },
+     {
+      "iddia": "Ankara'daki Ayaküstü Kahve için laptop yorumu var; Bornova'ya atfedilemez",
+      "kaynak": "https://wanderlog.com/place/details/4367753/ayaküstü-kahve",
+      "alinti": "where you can work on your laptop, read a book or simply enjoy the atmosphere",
+      "guven": "düşük",
+      "kritik": true
+     },
+     {
+      "iddia": "Bornova şubesinin açık/kapalı durumu teyit edilemedi; Yandex, Instagram ve kapanış etiketi bulunamadı",
+      "kaynak": "https://redirect.foursquare.com/gkmnshnr/list/kahve-",
+      "alinti": "yok (arama sonuçlarında bulunamadı)",
+      "guven": "orta",
+      "kritik": true
+     },
+     {
+      "iddia": "Myvia 414 restoran, kafe ve bistrolardan oluşan bir buluşma merkezi olarak tanımlanıyor (2021)",
+      "kaynak": "https://www.yeniasir.com.tr/yazarlar/sezer-altan/2021/10/30/genclik-enerjisi-lezzetle-bulusuyor",
+      "alinti": "restoran, kafe ve bistrolardan oluşan konseptiyle önemli bir destinasyon ve buluşma merkezi",
+      "guven": "orta",
+      "kritik": false
+     },
+     {
+      "iddia": "Fiyat, Wi-Fi, priz, gürültü için Bornova'ya ait kanıt bulunamadı; olumsuz yönlü arama sonuçsuz",
+      "kaynak": "WebSearch: Ayaküstü Kahve Myvia pahalı gürültülü şikayet fiyat menü",
+      "alinti": "sonuç yok",
+      "guven": "orta",
+      "kritik": true
+     }
+    ]
+   },
+   "dogrulanan": [
+    {
+     "iddia": "Ayaküstü Kahve Myvia 414 (Sanayi Caddesi) Bornova'da kahve dükkânı olarak Foursquare listesinde kayıtlı, 6 tavsiye/yorum var",
+     "kaynak": "https://redirect.foursquare.com/gkmnshnr/list/kahve-",
+     "alinti": "6 tavsiye/yorum (arama özeti; sayfa girişsiz açılmadı)",
+     "guven": "orta",
+     "kritik": true
+    },
+    {
+     "iddia": "Wanderlog'daki 'ayaküstü kahve' sayfası Ankara Balgat'taki mekana ait, Bornova değil",
+     "kaynak": "https://wanderlog.com/place/details/4367753/ayaküstü-kahve",
+     "alinti": "Balgat, Ziyabey Cd. No:16, 06520 Çankaya/Ankara",
+     "guven": "yüksek",
+     "kritik": true
+    },
+    {
+     "iddia": "Ankara'daki Ayaküstü Kahve için laptop yorumu var; Bornova'ya atfedilemez",
+     "kaynak": "https://wanderlog.com/place/details/4367753/ayaküstü-kahve",
+     "alinti": "where you can work on your laptop, read a book or simply enjoy the atmosphere",
+     "guven": "düşük",
+     "kritik": true
+    },
+    {
+     "iddia": "Bornova şubesinin açık/kapalı durumu teyit edilemedi; Yandex, Instagram ve kapanış etiketi bulunamadı",
+     "kaynak": "https://redirect.foursquare.com/gkmnshnr/list/kahve-",
+     "alinti": "yok (arama sonuçlarında bulunamadı)",
+     "guven": "orta",
+     "kritik": true
+    },
+    {
+     "iddia": "Fiyat, Wi-Fi, priz, gürültü için Bornova'ya ait kanıt bulunamadı; olumsuz yönlü arama sonuçsuz",
+     "kaynak": "WebSearch: Ayaküstü Kahve Myvia pahalı gürültülü şikayet fiyat menü",
+     "alinti": "sonuç yok",
+     "guven": "orta",
+     "kritik": true
+    },
+    {
+     "iddia": "Myvia 414 restoran, kafe ve bistrolardan oluşan bir buluşma merkezi olarak tanımlanıyor (2021)",
+     "kaynak": "https://www.yeniasir.com.tr/yazarlar/sezer-altan/2021/10/30/genclik-enerjisi-lezzetle-bulusuyor",
+     "alinti": "restoran, kafe ve bistrolardan oluşan konseptiyle önemli bir destinasyon ve buluşma merkezi",
+     "guven": "orta",
+     "kritik": false
+    }
+   ],
+   "dogrulama": [
+    {
+     "arac": "araç: 5/12",
+     "sonuclar": [
+      {
+       "iddia": "Ayaküstü Kahve Myvia 414 Bornova Foursquare listesinde, 6 tavsiye/yorum",
+       "sonuc": "kısmen",
+       "not": "Sayfa girişsiz açılmadı (yalnızca 'Log in'); iki bağımsız arama özeti Foursquare listesinde Myvia 414 (Sanayi Cd.) adresini ve 6 tip/yorumu veriyor. Doğrudan kaynak görülemedi, özet düzeyinde tutarlı.",
+       "duzeltme": "Not: Wanderlog sayfası Ankara'ya ait; Bornova kaydı yalnızca Foursquare özetine dayanıyor."
+      },
+      {
+       "iddia": "Wanderlog 'ayaküstü kahve' sayfası Ankara Balgat'taki mekana ait",
+       "sonuc": "doğru",
+       "not": "Sayfada adres birebir: Balgat, Ziyabey Cd. No:16, 06520 Çankaya/Ankara."
+      },
+      {
+       "iddia": "Laptop yorumu Ankara mekanına ait, Bornova'ya atfedilemez",
+       "sonuc": "doğru",
+       "not": "Alıntı Wanderlog'da Google yorumcusu Elis E'ye ait, Ankara sayfasında geçiyor."
+      },
+      {
+       "iddia": "Bornova şubesinin açık/kapalı durumu teyit edilemedi",
+       "sonuc": "doğrulanamadı",
+       "not": "Foursquare sayfası girişsiz görünmedi; iki ek aramada Yandex, Instagram ya da kapanış bilgisi çıkmadı. Olumsuz bulgu aramalarla tutarlı ama açık/kapalı bilinmiyor."
+      },
+      {
+       "iddia": "Fiyat, Wi-Fi, priz, gürültü için Bornova'ya ait kanıt yok",
+       "sonuc": "doğru",
+       "not": "Yeniden aramada menü, fiyat, Instagram ve yorum çıkmadı. Wanderlog'un genel 'sıcak ortam, güler yüzlü personel' özeti hangi şubeye ait belirsiz."
+      },
+      {
+       "iddia": "Myvia 414 restoran, kafe ve bistrolardan oluşan buluşma merkezi (2021)",
+       "sonuc": "doğru",
+       "not": "Yeni Asır yazısında ifade geçiyor ('...önemli bir destinasyon ve buluşma merkezi haline geldi'); Park MyVia 414, Bornova Ağaçlı Yol. Yazı Ayaküstü Kahve'den söz etmiyor."
+      }
+     ],
+     "ozet": "5 araç çağrısı yapıldı. Wanderlog (Ankara Balgat adresi, laptop yorumu) ve Yeni Asır alıntısı kaynakta birebir doğrulandı. Foursquare sayfası girişsiz açılmadığı için 6 tip/yorum ve Myvia 414 adresi yalnızca arama özetlerine dayanıyor, bu yüzden kısmen. Açık/kapalı durumu ve fiyat, Wi-Fi, priz, gürültü bilgisi iki ek aramada da bulunamadı. Bir uyarı: Wanderlog'un genel 'sıcak ortam, güler yüzlü personel' özeti hangi şubeye ait belli değil, Bornova'ya atfedilmemeli. Hiçbir satırda yanlış çıkmadı."
+    }
+   ]
+  }
+ ]
+}
