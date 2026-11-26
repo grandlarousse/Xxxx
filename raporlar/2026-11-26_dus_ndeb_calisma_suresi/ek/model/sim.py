@@ -1005,38 +1005,44 @@ def rapor(o):
     ncek = int(F(A(6, 180, 'a', 'K3')['n_cekim']))
     W('# Model sonuçları (v2): net odaklı çalışma saati')
     W('')
-    W('Her sayı `cikti/` altındaki bir CSV dosyasından `python3 sim.py rapor` ile yazılmıştır; saatler 0,5 hassasiyetle '
-      'yuvarlanmıştır. Model ölçüm değil, hesap aracıdır; "optimum" yalnız bu varsayımlar altında geçerlidir. '
-      'Senaryo başına %d kabul edilmiş çekim (iki tohum), kabul oranı %%%s–%%%s (kabul_orani.csv).'
-      % (ncek, pc(min(F(k['kabul_orani']) for k in kab)), pc(max(F(k['kabul_orani']) for k in kab))))
+    W('Her sayı `cikti/` altındaki CSV dosyalarından `python3 sim.py rapor` ile yazıldı (saatler 0,5 hassasiyetle). Model '
+      'ölçüm değil hesap aracıdır; "optimum" yalnız bu varsayımlar altında geçerlidir. Senaryo başına %d kabul edilmiş '
+      'çekim, iki tohum.' % ncek)
     W('')
     # ---- 1
     W('## 1. Ana sonuç')
     W('')
-    parts = []
-    for h3 in H3S:
-        r = A(h3, 180, 'a', 'K3')
-        parts.append('h3 = %s → %s saat × %s gün (haftada %s)' % (tr(h3, 0), pol(r), r['d'], h05(r['haftalik_saat'])))
-    pm = poz[(6.0, 'a', 'K3', -1.0)]; pp = poz[(6.0, 'a', 'K3', 1.0)]
-    r6 = A(6, 180, 'a', 'K3')
+    rr = [A(h3, 180, 'a', 'K3') for h3 in H3S]
+    slope = (F(rr[-1]['hA']) - F(rr[0]['hA'])) / (H3S[-1] - H3S[0])
+    P6 = lambda d, k, obj='a', h3=6.0: F(poz[(h3, obj, 'K3', d)][k])
+    uq = lambda v: v[0] if len(set(v)) == 1 else ' / '.join(v)
+    r6 = rr[1]
     top = [r['parametre'] for r in doz if r['amac'] == 'a'][:3]
-    W('Bu varsayımlar altında, 180 günlük ufukta K3 seviyesinde (a) amacının sağlam politikası girdideki tavanı izler '
-      '(hA + hB): ' + '; '.join(parts) + '; saat sayısı h3 girdisinin geri gelişidir, bağımsız bulgu değildir. '
-      'Modelin kendi katkısı biçimdir: pişmanlık eğrisi asimetriktir (h3 = 6, K3, (a), ufuk ortalaması: günde 1 saat az '
-      'çalışmak çıktıyı %%%s düşürür; 1 saat fazlası çekimlerin %%%s\'inde uçuruma götürür ve çıktıyı %%%s düşürür). '
-      'Çekim başına optimum, kronik birikimin başladığı h1 eşiğinin çevresindedir (h3 = 6, K3, (a), 180 gün: '
-      'optimum hA − h1 ortancası %s saat [%s; %s]); sonucu en çok %s parametreleri oynatır, 30 günlük ufuk ise K3 '
-      'tavanını 360 güne göre yalnız ×%s yükseltir.'
-      % (pc(1 - F(pm['J_orani_ort'])), pc(pp['ucurum_olasiligi']), pc(1 - F(pp['J_orani_ort'])),
+    W('Bu varsayımlar altında sağlam politika girdideki tavanla birlikte kayar: 180 gün, K3, (a) amacında h3 = %s için '
+      'günde %s saat yüksek talepli çalışma (hB = %s; haftada %s gün; haftalık %s saat); h3\'teki her 1 saat sağlam '
+      'hA\'yı ortalama %s saat oynatır, yani sayı bulgu değil, girdinin geri gelişidir. Modelin katkısı biçimdir: sağlam '
+      'politikadan günde 1 saat aşağı inmek çıktıyı h3 = 6\'da %%%s, h3 = 7\'de %%%s düşürür; 1 saat yukarı çıkınca '
+      'uçurum olasılığı %%%s ve %%%s, çıktı kaybı %%%s ve %%%s olur (+2 saatte %%%s ve %%%s). Çekim başına optimum K3 '
+      'tavanında değil, kronik birikimin başladığı h1 eşiğinin çevresindedir (h3 = 6, 180 gün: optimum hA − h1 ortancası '
+      '%s saat [%s; %s]); sonucu en çok %s oynatır; 30 günlük ufuk K3 tavanını yalnız ×%s yükseltir.'
+      % (' / '.join(tr(h, 0) for h in H3S), ' / '.join(h05(r['hA']) for r in rr), uq([h05(r['hB']) for r in rr]),
+         uq([r['d'] for r in rr]), ' / '.join(h05(r['haftalik_saat']) for r in rr), tr(slope, 2),
+         pc(1 - P6(-1.0, 'J_orani_ort')), pc(1 - P6(-1.0, 'J_orani_ort', h3=7.0)),
+         pc(P6(1.0, 'ucurum_olasiligi')), pc(P6(1.0, 'ucurum_olasiligi', h3=7.0)),
+         pc(1 - P6(1.0, 'J_orani_ort')), pc(1 - P6(1.0, 'J_orani_ort', h3=7.0)),
+         pc(1 - P6(2.0, 'J_orani_ort')), pc(1 - P6(2.0, 'J_orani_ort', h3=7.0)),
          tr(r6['opt_hA_eksi_h1_med'], 2), tr(r6['opt_hA_eksi_h1_q1'], 2), tr(r6['opt_hA_eksi_h1_q3'], 2),
          ', '.join(top), tr(ks[(6.0, 30)]['tavanK3_oran360_med'], 2)))
     W('')
     # ---- 2
     W('## 2. Ana tablo (h3 = 6 ve h3 = 7)')
     W('')
-    W('Sağlam politika: çekimler üzerinde beklenen pişmanlığı en küçük politika (kısıtı çiğnediği çekimde pişmanlık 1). '
-      '"Aralık" = varsayım aralığı: çekim başına optimum hA ortancası [Q1–Q3]. Son dönem: gün × ψ. '
-      'Öteki h3 senaryoları, hB aralığı, pişmanlık, ihlal ve uçurum olasılığı ana_tablo.csv dosyasındadır.')
+    cel = [r for k, r in ana.items() if k[2] in ('a', 'b1')]
+    W('Sağlam politika = beklenen pişmanlığı en küçük politika (kısıtı çiğnediği çekimde pişmanlık 1). Aralık = varsayım '
+      'aralığı: çekim başına optimum hA ortancası [Q1–Q3]. Son dönem: gün × ψ. Sağlam politikada hB > 0 olan hücre %d, '
+      'haftada 7 günden az çalışılan hücre %d (toplam %d): model dinlenme gününe yalnız yorgunluk sönümüyle değer verir; '
+      'bu bulgu değil, model sınırıdır.'
+      % (sum(F(r['hB']) > 0 for r in cel), sum(int(F(r['d'])) < 7 for r in cel), len(cel)))
     for h3 in (6.0, 7.0):
         W('')
         W('**Tablo 2 — h3 = %s (kaynak: cikti/ana_tablo.csv)**' % tr(h3, 0))
@@ -1056,15 +1062,13 @@ def rapor(o):
     W('## 3. Pişmanlık eğrisinin asimetrisi')
     W('')
     m3 = ms.get((6.0, 180, 'a', 'K3')); m0 = ms.get((6.0, 180, 'a', 'K0'))
-    W('Sağlam politikanın hA değeri δ saat kaydırılmıştır (öteki alanlar sabit; ufuklar üzerinden ortalama). Pişmanlık '
-      'tanımı gereği kısıtı çiğneyen çekimde 1 sayılır; kısıttan bağımsız ölçü "çıktı oranı" satırıdır (J(δ)/J(0)). '
-      'Marjinal sınama (marjinal_sinama.csv; h3 = 6, 180 gün, (a)): ufkun ortasındaki bir güne +0,5 saat, K3 sağlam '
-      'politikasında aynı gün %s etkili saat kazandırır, sonraki günlerde %s etkili saat kaybettirir (kayıp/kazanç %s; '
-      'çekimlerin %%%s\'inde kayıp büyük); K0 politikasında kayıp/kazanç %s.'
-      % (tr(m3['ayni_gun_kazanc'], 2), tr(m3['sonraki_kayip'], 2), tr(m3['kayip_bolu_kazanc'], 2),
-         pc(m3['kaybin_kazanci_astigi_pay']), tr(m0['kayip_bolu_kazanc'], 2)))
+    W('Sağlam hA δ saat kaydırıldı (ufuk ortalaması). Kısıtı çiğneyen çekimde pişmanlık tanım gereği 1\'dir; kısıttan '
+      'bağımsız ölçü çıktı oranıdır (J(δ)/J(0)). Marjinal sınama (h3 = 6, 180 gün, (a)): tek güne +0,5 saat K3 '
+      'politikasında aynı gün %s etkili saat kazandırır, sonraki günlerde %s kaybettirir; K0 politikasında kayıp/kazanç '
+      '%s (marjinal_sinama.csv).'
+      % (tr(m3['ayni_gun_kazanc'], 2), tr(m3['sonraki_kayip'], 2), tr(m0['kayip_bolu_kazanc'], 2)))
     W('')
-    W('**Tablo 3 — K3, ufuk ortalaması (kaynak: cikti/pismanlik_ozet.csv; ufuk bazında pismanlik_egrisi.csv)**')
+    W('**Tablo 3 — K3, ufuk ortalaması (kaynak: cikti/pismanlik_ozet.csv)**')
     W('')
     dl = [-2.0, -1.0, -0.5, 0.0, 0.5, 1.0, 2.0]
     W('| h3 | amaç | ölçü | −2 | −1 | −0,5 | 0 | +0,5 | +1 | +2 |')
@@ -1085,14 +1089,11 @@ def rapor(o):
         rr = sorted([r for r in kd if F(r['h3']) == h3 and r['hedef'] == hedef and np.isfinite(F(r['prcc']))],
                     key=lambda r: -abs(F(r['prcc'])))[:n]
         return ', '.join('%s (%s)' % (r['parametre'], tr(r['prcc'], 2)) for r in rr)
-    W('λ = 0 temel modelde 30 günlük ufuk tavanı az yükseltir: h3 = 6\'da K3 haftalık tavanı 360 güne göre ortanca ×%s '
-      '[%s–%s], 90 günde ×%s. Altı gün/hafta düzeninde uçuruma düşmeden çıkılabilen en yüksek hA, 30 günde çekimlerin '
-      'çoğunda h3\'te kalır (ortanca fark %s saat). Fark en çok şu parametrelere bağlıdır (kısmi sıra korelasyonu, '
-      'h3 = 6, tavan oranı): %s; uçurumsuz en yüksek hA için: %s.'
+    W('Temel modelde (λ = 0) kısa ufuk tavanı az yükseltir: h3 = 6\'da 30 günlük K3 tavanı 360 günlüğün ortanca ×%s '
+      '[%s–%s] katı, 90 günde ×%s. Oranı en çok oynatanlar (PRCC, h3 = 6): %s.'
       % (tr(ks[(6.0, 30)]['tavanK3_oran360_med'], 2), tr(ks[(6.0, 30)]['tavanK3_oran360_q1'], 2),
          tr(ks[(6.0, 30)]['tavanK3_oran360_q3'], 2), tr(ks[(6.0, 90)]['tavanK3_oran360_med'], 2),
-         h05(ks[(6.0, 30)]['ucurumsuz_eksi_h3_med']), topk(6.0, 'tavanK3_30_bolu_360'),
-         topk(6.0, 'h3es_ucurumsuz_30_eksi_h3')))
+         topk(6.0, 'tavanK3_30_bolu_360')))
     W('')
     W('**Tablo 4 (kaynak: cikti/kisa_ufuk.csv, kisa_ufuk_duyarlilik.csv)**')
     W('')
@@ -1114,11 +1115,12 @@ def rapor(o):
         cnt[obj] = (len(rr), sum(int(F(r['T'])) == 0 for r in rr),
                     sum(int(F(r['T'])) > 0 and F(r['psi']) > 1 for r in rr),
                     sum(int(F(r['T'])) > 0 and F(r['psi']) < 1 for r in rr))
-    W('Sağlam politikalarda (ana_tablo.csv, %d hücre/amaç): (a) son dönem yok %d, hızlanma (ψ > 1) %d, azaltma (ψ < 1) %d; '
-      '(b1) yok %d, hızlanma %d, azaltma %d. Aşağıdaki tablo çekim başına optimumların payıdır (K3, dört h3 ortalaması).'
+    W('Sağlam politikalarda (%d hücre/amaç): (a) son dönem yok %d, hızlanma %d, azaltma %d; (b1) yok %d, hızlanma %d, '
+      'azaltma %d. (a) yalnız saati saydığı için sonda hızlanır; (b1) sınav günü yorgunluk cezası yüzünden kısa, hafif '
+      'azaltmayı seçer. Tablo: çekim başına optimumların payı (K3, dört h3 ortalaması).'
       % (cnt['a'][0], cnt['a'][1], cnt['a'][2], cnt['a'][3], cnt['b1'][1], cnt['b1'][2], cnt['b1'][3]))
     W('')
-    W('**Tablo 5 — çekim başına optimumda son dönem payı, % (kaynak: cikti/son_donem_ozet.csv)**')
+    W('**Tablo 5 — son dönem payı, % (kaynak: cikti/son_donem_ozet.csv, ana_tablo.csv)**')
     W('')
     cols = [('a', 30), ('a', 180), ('a', 360), ('b1', 30), ('b1', 180), ('b1', 360)]
     W('| son dönem | ' + ' | '.join('(%s) %d gün' % c for c in cols) + ' |')
@@ -1130,9 +1132,9 @@ def rapor(o):
     W('## 6. (a) ile (b1) örtüşmesi')
     W('')
     o6 = ot[(6.0, 180, 'K3')]
-    W('Çekim başına en iyi politikalar birebir nadiren aynıdır (son dönem ayrışır) ama günlük saatte yakındır: h3 = 6, '
-      'K3, 180 günde hA farkı ≤ 0,5 olan çekim payı %%%s; (a)\'nın en iyisi (b1) ölçüsünde ortalama %%%s kaybeder. '
-      'e1 = e2 = 0 referansı sınav günü yorgunluk cezasının payını gösterir: referansın en iyisinin (b1) pişmanlığı %%%s.'
+    W('Çekim başına en iyi politikalar birebir nadiren aynıdır (son dönem ayrışır), günlük saatte yakındır: h3 = 6, K3, '
+      '180 günde hA farkı ≤ 0,5 olan çekim %%%s; (a)\'nın en iyisi (b1) ölçüsünde ortalama %%%s kaybeder. e1 = e2 = 0 '
+      'referansının (b1) pişmanlığı %%%s: fark büyük ölçüde sınav günü cezasındandır.'
       % (pc(o6['hA_fark_05']), pc(o6['a_opt_b1_pismanlik'], 1), pc(o6['e0_opt_b1_pismanlik'], 1)))
     W('')
     W('**Tablo 6 — K3 (kaynak: cikti/ortusme.csv)**')
@@ -1151,9 +1153,8 @@ def rapor(o):
     W('## 7. (b2) Virtual OSCE: açık tablosu ve karar kuralı')
     W('')
     W('Karar kuralı: Pr(geçme) ≥ 0,95 koşulunu çekimlerin en az %90\'ında sağlayan politikalar içinde önce en düşük K, '
-      'sonra en az toplam net saat (eşitlikte en düşük tepe f2); başlangıç gecikmesi D de seçilir. "Çekim başına" sütunu '
-      'aynı kuralın her çekimde ayrı uygulanmasıdır. Gereken saat S kabulü ve κN varsayımına doğrudan bağlıdır; Pr yalnız '
-      'sınav günü gürültüsünü kapsar. Öteki h3 senaryoları ve K bazında ayrıntı: b2_karar.csv, b2_acik_tablosu.csv.')
+      'sonra en az toplam net saat (eşitlikte en düşük tepe f2); gecikme D birlikte seçilir. "Çekim başına" sütunları '
+      'kuralın her çekime ayrı uygulanmasıdır. Saatler S kabulüne ve κN\'ye doğrudan bağlıdır.')
     W('')
     W('**Tablo 7 — h3 = 6 (kaynak: cikti/b2_karar.csv)**')
     W('')
@@ -1173,12 +1174,11 @@ def rapor(o):
     tolr = [r for k, r in ana.items() if k[2] in ('a', 'b1') and k[3] != 'K3']
     d1 = float(np.mean([abs(F(r['hA_tol001']) - F(r['hA'])) for r in tolr]))
     d5 = float(np.mean([abs(F(r['hA_tol005']) - F(r['hA'])) for r in tolr]))
-    W('Hedef: çekim başına optimum hA; kısmi sıra korelasyonu (PRCC) bütün hücrelerde hesaplanıp ortalanmıştır. '
-      '"Üst − alt" = parametrenin üst ve alt yarısındaki optimum hA ortancalarının farkı. Bunlar ölçülmesi en değerli '
-      'parametrelerdir; h3 ise senaryo eksenidir ve hepsinden baskındır (Tablo 2). K0–K2 için tol duyarlılığı: tol 0,01 '
-      'ile sağlam hA ortalama %s saat, tol 0,05 ile %s saat değişir (ana_tablo.csv).' % (tr(d1, 2), tr(d5, 2)))
+    W('Hedef: çekim başına optimum hA; PRCC (kısmi sıra korelasyonu) bütün hücrelerin ortalaması; "üst − alt" '
+      'parametrenin üst ve alt yarısındaki optimum hA ortancalarının farkı. h3 senaryo eksenidir ve hepsinden baskındır. '
+      'tol 0,01 ile sağlam hA (K0–K2) ortalama %s, tol 0,05 ile %s saat değişir.' % (tr(d1, 2), tr(d5, 2)))
     W('')
-    W('**Tablo 8 (kaynak: cikti/duyarlilik_ozet.csv; hücre bazında duyarlilik.csv)**')
+    W('**Tablo 8 (kaynak: cikti/duyarlilik_ozet.csv, ana_tablo.csv)**')
     W('')
     W('| amaç | sıra | parametre | ort. mutlak PRCC (hA) | ort. PRCC (hA) | ort. mutlak PRCC (hft. saat) | üst − alt yarı (hA, saat) |')
     W('|---|---|---|---|---|---|---|')
@@ -1192,14 +1192,14 @@ def rapor(o):
     W('## 9. Y senaryosu (yavaş birikim)')
     W('')
     yd = {(F(r['h3']), F(r['lambda']), int(r['ufuk'])): r for r in ys}
-    W('λ > 0 olduğunda girdi olarak verilen h3 artık süresiz sürdürülemez: h3 = 6\'da 6 gün/hafta h3 saat çalışan düzen '
-      'λ = 0,02 ile 90 günde çekimlerin %%%s\'inde, 360 günde %%%s\'inde çöker; K3 haftalık tavanı 360 günde %s saatten '
-      '(λ = 0) %s (λ = 0,02) ve %s (λ = 0,05) saate iner. Uzun ufuktaki temkin modelin temelinden değil bu senaryodan gelir.'
-      % (pc(yd[(6.0, 0.02, 90)]['h3_cokus_payi']), pc(yd[(6.0, 0.02, 360)]['h3_cokus_payi']),
-         h05(yd[(6.0, 0.0, 360)]['tavanK3_haftalik_med']), h05(yd[(6.0, 0.02, 360)]['tavanK3_haftalik_med']),
-         h05(yd[(6.0, 0.05, 360)]['tavanK3_haftalik_med'])))
+    W('λ > 0\'da h3 düzeni tanım gereği çöker; bilgi veren, tavanın ne kadar indiğidir: h3 = 6\'da altı günlük düzende '
+      'uçurumsuz en yüksek hA %s saatten λ = 0,02 ile 90 günde %s, 360 günde %s saate; λ = 0,05 ile %s ve %s saate iner. '
+      'Uzun ufuktaki temkin bu senaryodan gelir.'
+      % (h05(yd[(6.0, 0.0, 360)]['h3es_ucurumsuz_med']), h05(yd[(6.0, 0.02, 90)]['h3es_ucurumsuz_med']),
+         h05(yd[(6.0, 0.02, 360)]['h3es_ucurumsuz_med']), h05(yd[(6.0, 0.05, 90)]['h3es_ucurumsuz_med']),
+         h05(yd[(6.0, 0.05, 360)]['h3es_ucurumsuz_med'])))
     W('')
-    W('**Tablo 9 — %d çekim, tohum 1, yalnız son dönemsiz politikalar (kaynak: cikti/y_senaryosu.csv)**' % int(F(ys[0]['n_cekim'])))
+    W('**Tablo 9 — %d çekim, tohum 1, son dönemsiz politikalar (kaynak: cikti/y_senaryosu.csv)**' % int(F(ys[0]['n_cekim'])))
     W('')
     W('| h3 | λ | ufuk | K3 tavanı (hft. saat) | uçurumsuz en yüksek hA (6 gün/hf) | K3 için en yüksek hA (6 gün/hf) | h3 düzeninin çöktüğü çekim % |')
     W('|---|---|---|---|---|---|---|')
@@ -1210,23 +1210,17 @@ def rapor(o):
     # ---- 10
     W('## 10. Yorum kararları, sınamalar, azaltılanlar')
     W('')
-    W('**Yorum kararları (tanımda açık olmayan yerler)**')
-    W('')
     for t in (
-        'S önseli tanımda yok: log-tekdüze 30–1000 etkili saat alındı; S ve τG öğrenme dayanağıyla kabul edildi.',
-        'DUS için g0 = 0,3 (kabul dayanağındaki değer). (b2)\'de g0 = Pgeç − açık, S_N = κN·S; gecikme süresince g unutmayla düşer; D = H·k/4 en yakın güne yuvarlandı.',
-        'Hafta takvimi çalışmanın ilk gününe bağlıdır; dinlenme günleri haftanın son günleri, hafif haftalar n., 2n., … haftalardır.',
-        'Son dönemde ψ çarpanı hafif haftanın yerine geçer, haftalık dinlenme sürer; T ufuktan uzunsa seçenek yok sayılır.',
-        'Çöküşte hA ve hB birlikte yarıya iner. Tanımda sınav sabahı çöküş için P\'ye ek ceza yok; bütün K seviyeleri çöküşü dışladığı için sonuca etkisi yok.',
-        'K kümeleri yazıldığı gibi iç içe değil (aşağıda "K_literal" satırları): d = 7 ya da hafif haftasız politika K0\'da olup K1/K2 koşuluna giremiyor; K1 ve K2 son kontrol sabahından sonraki çöküşe ya da 0,8·Fcrit aşımına izin veriyor. Tanım düzeltilmedi; uygulanan en yakın tutarlı yorum: K3 yazıldığı gibi, K2 = (K0 ∪ K1 ∪ K2 koşulu) ∩ K3, K1 = (K0 ∪ K1 koşulu) ∩ K3. K2 koşulu ufuk içinde en az bir tamamlanmış hafif hafta ister.',
-        'Sağlam politikada kısıtı çiğneyen çekimin pişmanlığı 1 sayıldı. (b2)\'de pişmanlık tanımlı olmadığından %90 olurluk kuralı kullanıldı.',
-        'Tavan = kısıtı sağlayan politikaların en yüksek toplam net saati (haftalık ortalama olarak verildi). Uçurum eşiği sayısal olarak f2 ≥ Fcrit·(1 + 1e−9).',
-        'Marjinal sınama: ufkun ortasındaki ilk çalışma gününde hA + 0,5 saat.',
+        'S önseli tanımda yok: log-tekdüze 30–1000 etkili saat; DUS için g0 = 0,3.',
+        '(b2): g0 = Pgeç − açık, S_N = κN·S; gecikmede g unutmayla düşer; pişmanlık tanımsız olduğundan %90 olurluk kuralı.',
+        'Takvim ilk çalışma gününe bağlı; son dönemde ψ hafif haftanın yerine geçer, haftalık dinlenme sürer.',
+        'Çöküşte hA ve hB birlikte yarılanır; sınav sabahı çöküşe ek ceza yok (tanımda yok).',
+        'K kümeleri yazıldığı gibi iç içe değil: d = 7 ya da hafif haftasız politika K0\'da olup K1/K2 koşuluna giremiyor; K1 ve K2 son kontrol sabahından sonra çöküşe ya da 0,8·Fcrit aşımına izin veriyor. Tanım düzeltilmedi; uygulanan yorum: K3 yazıldığı gibi, K2 = (K0 ∪ K1 ∪ K2 koşulu) ∩ K3, K1 = (K0 ∪ K1 koşulu) ∩ K3.',
+        'Kısıtı çiğneyen çekimde pişmanlık 1; tavan = kısıtı sağlayan en yüksek toplam net saat.',
     ):
         W('- ' + t)
     W('')
-    W('**Sınamalar (kaynak: cikti/sinamalar.csv, cikti/pytest.xml)**')
-    W('')
+    sv = {r['sinama']: r for r in sn}
     px = os.path.join(o, 'pytest.xml')
     if os.path.exists(px):
         import xml.etree.ElementTree as ET
@@ -1234,46 +1228,42 @@ def rapor(o):
         ts = ts if ts.tag == 'testsuite' else ts.find('testsuite')
         nt = int(ts.get('tests')); nf = int(ts.get('failures')) + int(ts.get('errors')); nsk = int(ts.get('skipped'))
         fails = [tc.get('name') for tc in ts.iter('testcase') if tc.find('failure') is not None or tc.find('error') is not None]
-        W('pytest: %d sınama, %d geçti, %d kaldı, %d atlandı. Birim sınamalar (fazla yük yoksa f ≡ 0 ve q ≡ 1; s = 2\'de '
-          'arctan; durağan f1 ve Fcrit kapalı biçimi; g\'nin durağan değeri; h3 rejimi; hızlı motor ile referans '
-          'benzetici uyumu; K tavan sırası) %s. Kalanlar: %s.'
-          % (nt, nt - nf - nsk, nf, nsk,
-             'geçti' if not any('kosu_duzeyi' not in f for f in fails) else 'içinde kalan var',
-             ', '.join(f.replace('test_kosu_duzeyi[', '').rstrip(']') for f in fails) if fails else 'yok'))
+        unit_ok = not any('kosu_duzeyi' not in f for f in fails)
+        W('**Sınamalar.** pytest: %d sınama, %d geçti, %d kaldı (cikti/pytest.xml); birim sınamalar%s. Kalanlar koşu '
+          'düzeyindedir (cikti/sinamalar.csv): "K_literal" satırları kümelerin yazıldığı gibi iç içe olmadığını gösterir '
+          '(yorumla giderildi); hB = 3 sınırı çekim başına optimumların %%%s kadarında bağlayıcıdır; 0,25 ızgara en iyi J '
+          'değerini en çok %%%s artırır (sağlam hA değişmez).'
+          % (nt, nt - nf - nsk, nf, 'ın hepsi geçti' if unit_ok else ' içinde kalan var: ' + ', '.join(fails),
+             pc(sv['izgara_ust_sinir_hB3']['sayi']), pc(sv['izgara_025_Jyildiz_kazanc']['sayi'], 1)))
     else:
-        W('pytest çıktısı bulunamadı (cikti/pytest.xml yok).')
+        W('**Sınamalar.** pytest çıktısı bulunamadı (cikti/pytest.xml yok); koşu düzeyi sınamalar aşağıda.')
     W('')
     W('| sınama | sonuç | sayı | eşik |')
     W('|---|---|---|---|')
     for r in sn:
         W('| %s | %s | %s | %s |' % (r['sinama'], 'geçti' if r['sonuc'] == 'gecti' else 'kaldı', tr(r['sayi'], 4), r['esik']))
     W('')
-    kal = [r for r in sn if r['sonuc'] != 'gecti']
-    W('Kalanların nedeni: "K_literal" satırları tanımdaki kümelerin yazıldığı gibi iç içe olmadığını gösterir (yukarıdaki '
-      'yorumla giderildi; K_tavan_sirasi geçer). Öteki kalanlar: %s.'
-      % ('; '.join('%s (%s)' % (r['sinama'], r['aciklama']) for r in kal if not r['sinama'].startswith('K_literal')) or 'yok'))
-    W('')
-    tot = [s for s in sure if s['asama'] == 'toplam']
-    W('**Azaltılanlar.** Ana koşuda azaltma yok: tam ızgara (9.120 politika × 7 ufuk), senaryo ve tohum başına %d kabul. '
-      'Yan koşular daha küçük: 0,25 ızgara yakınsaması yalnız h3 = 6 ve %d çekim; Y senaryosu yalnız tohum 1 ve son '
-      'dönemsiz politikalar; pişmanlık eğrisi yalnız hA ekseninde. İki aşamalı aramaya gerek kalmadı. Hesap süresi: %s s '
-      '(duvar saati, 4 süreç; sure.csv).'
-      % (min(int(F(k['n_kullanilan'])) for k in kab), int(F(yak[0]['n_cekim'])), tr(tot[0]['duvar_s'], 0) if tot else '–'))
+    tot = [x for x in sure if x['asama'] == 'toplam']
+    W('**Azaltılanlar.** Ana koşuda yok: tam ızgara (%d politika × %d ufuk), senaryo ve tohum başına %d kabul. Yan '
+      'koşular küçük: 0,25 ızgara yalnız h3 = 6, %d çekim; Y senaryosu tohum 1, son dönemsiz politikalar. Süre: %s s '
+      '(4 süreç; sure.csv).'
+      % (Grid(0.5).P * len(OPTS), len(HORIZONS), min(int(F(k['n_kullanilan'])) for k in kab),
+         int(F(yak[0]['n_cekim'])), tr(tot[0]['duvar_s'], 0) if tot else '–'))
     W('')
     # ---- 11
     W('## 11. Bu çıktı hangi cümleyle sunulmalı')
     W('')
-    W('"Bu tablo bir ölçüm değil; \'süresiz sürdürebildiğin tavan h3 şu kadarsa, tutarlı program şudur\' diyen bir hesap '
-      'aracıdır. Saat sayıları girdideki h3 varsayımını geri verir; güvenilecek kısım biçimdir: tavanın biraz altında '
-      'kalmanın maliyeti küçük, üstüne çıkmanın maliyeti büyüktür ve kısa ufuk bunu çok az değiştirir. Hepsi yeterli '
-      'uyku koşuluna bağlıdır."')
+    W('"Bu tablo ölçüm değil; \'süresiz sürdürebildiğin tavan h3 şu kadarsa tutarlı program şudur\' diyen bir hesap '
+      'aracıdır. Saat sayıları h3 varsayımını geri verir; güvenilecek kısım biçimdir: tavanın biraz altında kalmanın '
+      'maliyeti küçük, üstüne çıkmanın maliyeti büyüktür, kısa ufuk bunu çok az değiştirir. Hepsi yeterli uyku koşuluna '
+      'bağlıdır."')
     W('')
     text = '\n'.join(L)
     path = os.path.join(HERE, 'SONUC.md') if os.path.abspath(o) == os.path.join(HERE, 'cikti') else os.path.join(o, 'SONUC.md')
     with open(path, 'w', encoding='utf-8') as f:
         f.write(text)
-    nw = sum(len(ln.split()) for ln in L if not ln.startswith('|'))
-    print('SONUC.md yazildi: %s (tablo disi %d kelime)' % (path, nw), flush=True)
+    nw = sum(len(ln.split()) for ln in L if not ln.startswith('|') and not ln.startswith('**Tablo'))
+    print('SONUC.md yazildi: %s (tablo ve tablo basligi disi %d kelime)' % (path, nw), flush=True)
 
 
 if __name__ == '__main__':
