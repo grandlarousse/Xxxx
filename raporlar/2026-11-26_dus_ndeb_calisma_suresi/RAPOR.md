@@ -16,9 +16,9 @@
 ## 1. Kısa yanıt
 
 1. **Başlangıç düzeyi günde 4,5–6 net saat, haftada 6 gün** (27–36 saat/hafta); bunun 4–5 saati yüksek talepli iş. Kendi sayını dört haftalık kalibrasyon verir.
-2. **DUS'ta bu düzeyde kalma.** İşaretler temizken 4–6 haftada bir yarım saat yukarı dene; son 4–6 hafta günde 7–8,5 net saate çık; son 3 gün saatleri dörtte bir azalt. Modelde başlangıç düzeyinde kalmak, sürdürülebilir en yüksek düzeye göre sınav günü performansından %5–10 götürüyor.
+2. **DUS'ta en iyi düzeyini bul ve sabit tut; sonda sprint yapma.** İşaretler temizken 4–6 haftada bir yarım saat yukarı dene, bulduğun düzeyde kal, son 3 gün saatleri dörtte bir azalt. 270 günlük planda yüksek talepli iş için model sayıları: dengeli 4,5, optimum 5, üst sınır 5,5, en çok 6,5 saat (3.7). Sonda 4–6 haftalık sprint modelde çıktıyı artırmıyor, çöküş riskini büyütüyor (27 Kasım düzeltmesi).
 3. **Yanılacaksan alt tarafta yanıl.** Modelde en yüksek sürdürülebilir düzeyin 1 saat altı sınav günü performansından %2–3 götürüyor. Üstüne çıkmanın bedeli çöküştür ve yeri kişiye göre değişir.
-4. **Uçurum bölgesi:** sürekli 8,5–9 net saatin üstü ya da 7 saatin altında uyku. Tükenmişlik için kanıtla gösterilmiş bir saat eşiği yok.
+4. **Uçurum bölgesi ufka bağlı:** birkaç haftalık dönemde toplam 8,5–9 net saatin üstü; 270 günlük planda yüksek talepli 6–6,5 saatin üstü. 7 saatin altında uyku her ufukta. Tükenmişlik için kanıtla gösterilmiş bir saat eşiği yok.
 5. **Virtual OSCE:** en düşük yorgunluk seviyesi yeter. Güvenli pay için 220–310 net saat planla: günde 3,5–4 saat, haftada 6 gün, 9–15 hafta.
 6. **Sıra:** önce Virtual OSCE, sonra yalnız DUS. Açığın küçükse 1 Mart, orta ya da büyükse 20 Mayıs (6. bölüm).
 
@@ -29,7 +29,7 @@
 | **K0** sıfır taşıma | 3–4,5 + 0–0,5 = 3–5 | 18–30 | T1'in 1 saat ve daha altı | 6–7 gün; hafif hafta gerekmez |
 | **K1** minimum | 4–5 + 0–1 = 4,5–6 | 27–36 | T1−1 … T1 | 6 gün + 1 tam dinlenme |
 | **K2** orta | 4,5–5,5 + 0,5–1,5 = 5,5–7 | 33–42; hafif haftayla ortalama 29–37 | T1 … T1+0,5 | 6 gün; 3–4 haftada bir hafif hafta (saatler yarıya) |
-| **K3** en yüksek | 5,5–6,5 + 1–2 = 7–8,5 | 42–51 | T1+0,5 … T1+1,5 | 6 gün; 4–6 hafta, en çok 8 |
+| **K3** en yüksek | 5,5–6,5 + 1–2 = 7–8,5 | 42–51 | T1+0,5 … T1+1,5 | 6 gün; yalnız toplam ufku 4–8 hafta olan planlarda. Uzun planın sonuna eklenmez (3.7) |
 
 **Ölçülebilir tanımlar**
 - **K0:** her sabah enerji puanı ve sabah soru doğruluğu taban çizgisinde.
@@ -47,15 +47,15 @@ K2 hakkında dürüst not: hafif haftalar sayılınca K2'nin ortalama haftası K
 | Ufuk (gün) | (a) Toplam öğrenme | (b1) Sıralama sınavı (DUS) | (b2) Geçti/kaldı (Virtual OSCE) |
 |---|---|---|---|
 | 30 | K3 baştan sona | K3; son 3 gün ×0,75 | Küçük açık: K2–K3. Orta ve büyük açık: güvence yok |
-| 90 | En yüksek sürdürülebilir düzey | 1–2 hafta T1, sonra K2, son 4–6 hafta K3 | K0–K1, baştan: 3,5–4 saat × 9–13 hafta |
-| 120 | Aynı | 2–4 hafta T1, yukarı dene, son 4–6 hafta K3 | K0, son 9–15 hafta |
-| 150 | Aynı | 4 hafta kalibrasyon, T1, yukarı dene, son 4–6 hafta K3 | K0, son 9–15 hafta |
+| 90 | En yüksek sürdürülebilir düzey | 1–2 hafta T1, sonra en iyi düzey sabit; son 3 gün ×0,75 | K0–K1, baştan: 3,5–4 saat × 9–13 hafta |
+| 120 | Aynı | 2–4 hafta T1, yukarı deneyerek en iyi düzey, sonra sabit | K0, son 9–15 hafta |
+| 150 | Aynı | 4 hafta kalibrasyon, yukarı deneyerek en iyi düzey, sonra sabit | K0, son 9–15 hafta |
 | 180 | Aynı | Aynı | K0, son 9–15 hafta |
-| 270 | Aynı | Aynı; yukarı deneme adımları 4–6 haftada bir | K0; model daha düşük tempoda 19–26 haftaya yayıyor |
+| 270 | Aynı | Aynı; model sayıları 3.7'de | K0; model daha düşük tempoda 19–26 haftaya yayıyor |
 | 360 | Aynı | Aynı | K0; model daha düşük tempoda 19–26 haftaya yayıyor |
 | İki sınav (332–361) | — | Virtual OSCE'den sonra kalan gün için aynı kural | K1 yükü içinde pay olarak (6. bölüm) |
 
-Kanıt düzeyi: (a) model. (b1) görüş; model kademeli dizilimi sınamadı, onun seçtiği sabit düzey ve son 3 gün ×0,75'tir. (b2) model + görüş; saatler kapsam büyüklüğü varsayımına bağlıdır.
+Kanıt düzeyi: (a) model. (b1) model + görüş: modelin seçtiği sabit düzey ve son 3 gün ×0,75'tir; sonda sprint sınandı ve elendi (3.7). (b2) model + görüş; saatler kapsam büyüklüğü varsayımına bağlıdır.
 
 Nasıl okunur: saat sayıları seviyeden gelir (Ana tablo 1); ufuk yalnızca hangi seviyede ne kadar kalınacağını değiştirir. Modelde 90 günden sonra ufuk saat sayısını değiştirmiyor.
 
@@ -166,6 +166,40 @@ Deneme incelemesi YT sayılır. Toplam, Ana tablo 1'deki seviyeye göre kurulur.
 - **Son dönem.** Sınav öncesi yük azaltmayı (taper) öğrenme sonucuyla sınayan çalışma yok. Spordaki sayılar (2 hafta, hacim %41–60 azalır [60]) taşınamaz. Model, sıralama sınavı için varsayım çekimlerinin yaklaşık %60'ında son 3 günde saatleri dörtte bir azaltmayı seçti; uzun ya da derin azaltmayı seçmedi.
 - Öneri [model + görüş]: son 7–10 gün yeni konu açma, soru ve tekrar sürsün. Son 3 gün saatleri dörtte bir azalt. Son gün 1–2 saat hafif tekrar. Notla ilişkili olan sınavdan önceki tek gece değil, son hafta ve ayın uykusu [31]: son 2–4 haftada uykuyu koru.
 
+### 3.7 270 günlük maraton: beş sayı ve sprint sınaması (27 Kasım eki; model)
+
+Amaç 270 günün toplam çıktısı. Haftada 6 gün; saatler günlük yüksek talepli net saattir. Her sayı iki varsayım altında hesaplandı: aylar içinde yavaş yorgunluk birikimi yok ya da var. Dosyalar: `ek/model/maraton_270.py`, `ek/model/cikti/maraton_270.csv`.
+
+| Tavanın | Dengeli | Optimum | Üst sınır | Agresif bant | Maksimum |
+|---|---|---|---|---|---|
+| 5 saat | 4,0 | 4,0–4,5 | 4,5 | 4,5–5,0 | 5,0 |
+| 6 saat | 4,5 | 5,0 | 5,5 | 5,5–6,0 | 6,0 |
+| 7 saat | 5,0 | 5,5–6,0 | 6,0 | 6,0–6,5 | 7,0 |
+| 8 saat | 5,5 | 6,0–6,5 | 6,5 | 6,5–7,0 | 8,0 |
+| Bilinmiyorsa (6–7 karışık) | 4,5 | 5,0 | 5,5 | 5,5–6,0 | 6,5 |
+
+- **Dengeli:** iki varsayımda da çöküş yok; en iyi çıktının en az %93'ü.
+- **Optimum:** beklenen toplam çıktı en yüksek. Aralık varsa alt uç birikim varken, üst uç yokken geçerli.
+- **Üst sınır:** birikim yoksa hâlâ en iyi çıktının %98–100'ü ve çöküş yok; birikim varsa çöküş olasılığı %20–60. Üstünde beklenen çıktı iki varsayımda da düşer.
+- **Agresif bant:** yalnız birikim yoksa taşınır; varsa çöküş olasılığı %57–100.
+- **Maksimum:** birikim yoksa çöküşsüz taşınan en yüksek saat; çıktı optimumun %88–89'u, yani daha çok saat, daha az çıktı. Yarım saat üstü her varsayımda çöküş.
+
+Kalibrasyonla bağ: modelde optimum, T1'in (dinlenme gününden sonra tabana dönebildiğin en yüksek saat) çevresindedir. Dengeli T1'in yarım saat altı, üst sınır yarım saat üstü, maksimum yaklaşık bir saat üstüdür.
+
+**Hafif iş bedava değil.** Bu saatlerin üstüne 1 saat hafif iş eklemek birikim yoksa çıktıyı değiştirmiyor; varsa çöküş olasılığını artırıyor (tavan 6–7'de 5 + 1 için %39). Hafif işi yüksek talepli işin üstüne değil yerine koy: 4,5 + 1, tek başına 5 kadar çıktı veriyor.
+
+**Sonda sprint** (taban optimumdayken son 28 ya da 42 günde yükü artırmak; sabit düzeye göre toplam çıktı farkı / çöküş olasılığı)
+
+| Tavan, taban | Sprint | Birikim yoksa | Birikim varsa |
+|---|---|---|---|
+| 6, taban 5,0 | 28 gün 6,0 | −%0,2 / 0 | −%1,6 / %65 |
+| 6, taban 5,0 | 42 gün 6,0 | −%0,7 / 0 | −%4,8 / %100 |
+| 6, taban 5,0 | 28 gün 6,5 | −%2,8 / %94 | −%4,0 / %100 |
+| 7, taban 5,5 | 28 gün 6,5 | +%0,3 / 0 | −%0,2 / %19 |
+| 7, taban 5,5 | 42 gün 7,0 | −%0,5 / 0 | −%4,5 / %100 |
+
+Sprint yalnız taban optimumun bir saat altındaysa kazandırıyor (+%2–4); o durumda baştan optimumda olmak daha çok kazandırır (+%13–15). Raporun ilk sürümündeki "son 4–6 hafta K3'e çık" önerisi görüştü ve bu sınamayla geri çekildi. Bunlar da varsayım hesabıdır: tavanın yeri girdidir ve böyle bir sprint öğrenme sonucuyla hiç sınanmamıştır.
+
 ## 4. Haftalık şablonlar
 
 ### 4.1 Dört örnek hafta
@@ -183,15 +217,15 @@ Deneme incelemesi YT sayılır. Toplam, Ana tablo 1'deki seviyeye göre kurulur.
 
 Deneme cumartesi sabahı yapılır; öğleden sonra yalnız yanlışlar incelenir.
 
-### 4.2 Ufka göre dizilim (sıralama sınavı; görüş, model sınamadı)
+### 4.2 Ufka göre dizilim (sıralama sınavı; model + görüş)
 
 | Ufuk | Dizilim |
 |---|---|
 | 30 gün | K3 × 4 hafta; son 3 gün azalt |
-| 90 gün | T1 × 2 hafta, K2 × 5–6 hafta, K3 × 5 hafta |
-| 120 gün | Kalibrasyon ve T1 × 4 hafta, K2 × 8 hafta, K3 × 5 hafta |
-| 150–180 gün | Kalibrasyon × 4 hafta, T1 × 4–6 hafta, yukarı deneme adımlarıyla K2, K3 × 5 hafta |
-| 270–360 gün | Kalibrasyon × 4 hafta, T1 × 6–8 hafta, 4–6 haftada bir 0,5 saat yukarı deneme, K3 × 5–6 hafta |
+| 90 gün | T1 × 2 hafta, sonra en iyi düzey sabit |
+| 120 gün | Kalibrasyon ve T1 × 4 hafta, sonra en iyi düzey sabit |
+| 150–180 gün | Kalibrasyon × 4 hafta, T1 × 4–6 hafta, yarım saatlik adımlarla en iyi düzey, sonra sabit |
+| 270–360 gün | Kalibrasyon × 4 hafta, T1 × 6–8 hafta, 4–6 haftada bir yarım saat yukarı deneme; en iyi düzeyde sabit; sonda sprint yok |
 
 Geçti/kaldı sınavı için: 9–15 hafta K0 haftası; açık kapanmıyorsa K1'e çık.
 
@@ -316,7 +350,7 @@ Kısaltmalar: PHQ-9 dokuz soruluk depresyon tarama ölçeği, GAD-7 yedi soruluk
 **Seviyeye göre kural** [görüş]
 - **K1:** dinlenme gününün ertesi sabahı işaret yok.
 - **K2:** hafta içinde ve dinlenme gününden sonra işaret olabilir; hafif haftanın sonunda hiçbiri kalmamalı. Kalıyorsa K1'e in.
-- **K3'e giriş:** yalnız son hafif haftanın sonunda tabana döndüysen ve PHQ-9 ile GAD-7 10'un altındaysa.
+- **K3'e giriş** (yalnız toplam ufku 4–8 hafta olan planlarda): tabandaysan ve PHQ-9 ile GAD-7 10'un altındaysa.
 - **K3 içinde:** uyku ve duygu durum eşikleri geçerlidir; enerji ve set eşikleri aşılırsa K2'ye in.
 
 **Kesin dur kuralı.** Yükü azalttığın hâlde iki haftadan uzun süren performans düşüşü ya da duygu durum bozulması varsa K2 ve K3'ü bırak, 1–2 hafta K0'da kal ve bir hekime görün. Sporda işlevsel olmayan aşırı yüklenme böyle tanımlanır (başka nedenler dışlanarak) [53].
@@ -469,7 +503,7 @@ Numaralar kaynak defterindeki sıraya göredir; atlanan numaralar kullanılmayan
 
 ## 14. Devam notu
 
-1. **Bulunan:** net çalışma saati için doğrudan kanıt yok. Başlangıç düzeyi günde 4,5–6 net saat, haftada 6 gün; K0–K3 saatleri Ana tablo 1'de. Model saat sayısını değil biçimi veriyor (altta kalmak ucuz; DUS'ta K1'de kalmak pahalı). Sıra önerisi: önce Virtual OSCE (açık küçükse 1 Mart, değilse 20 Mayıs), sonra DUS.
+1. **Bulunan:** net çalışma saati için doğrudan kanıt yok. Başlangıç düzeyi günde 4,5–6 net saat, haftada 6 gün; K0–K3 saatleri Ana tablo 1'de. Model saat sayısını değil biçimi veriyor (altta kalmak ucuz; DUS'ta K1'de kalmak pahalı). 270 gün için model sayıları: dengeli 4,5, optimum 5, üst sınır 5,5, en çok 6,5 yüksek talepli saat; sonda sprint sınandı ve elendi (3.7). Sıra önerisi: önce Virtual OSCE (açık küçükse 1 Mart, değilse 20 Mayıs), sonra DUS.
 2. **Dosyalar:** `RAPOR.md`; `ek/A01–A14`, `A09b`, `B2–B5` (iddia defterleri); `ek/dogrulama/` (hükümler, `VS_simulasyon.md`); `ek/model/` (`MODEL_TANIMI.md`, `sim.py`, `SONUC.md`, `iki_sinav.py`, `IKI_SINAV.md`, `cikti/`); `ek/resmi/` (resmî belge dökümleri).
 3. **Açık kalanlar:** eski sonuçlarla karşılaştırma (notlar verilmedi); kişisel veriler (yaş, klinik saat, uyku, şimdiki net saat) girilmedi; üç "ikinci kez kontrol edilmedi" kaydı (YDS şartı, 60 ay kuralı, kitapçığın %10'u); ÖSYM 2027 takviminin güncellenip güncellenmediği.
 4. **Sonraki adım:** kalibrasyon verisiyle T1'i ve Ana tablo 1'i kişiye göre daraltmak; Virtual OSCE açığı ölçülünce S1 ya da S2 kararını vermek.
